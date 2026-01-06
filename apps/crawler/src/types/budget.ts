@@ -8,6 +8,8 @@ export interface BudgetItem {
   category: BudgetCategory;
   /** 前年比（%） */
   yearOverYear?: number;
+  /** サブカテゴリ（内訳） */
+  children?: BudgetItem[];
 }
 
 /** 予算カテゴリ */

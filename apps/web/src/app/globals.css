@@ -7,7 +7,8 @@
 html,
 body {
   max-width: 100vw;
-  overflow-x: hidden;
+  height: 100vh;
+  overflow: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -40,10 +41,12 @@ body {
 
 .sidebar {
   width: 360px;
+  height: calc(100vh - 80px);
   background: #f8f9fa;
   border-left: 1px solid #dee2e6;
   padding: 1rem;
   overflow-y: auto;
+  overscroll-behavior: contain;
 }
 
 .budget-card {
@@ -75,6 +78,20 @@ body {
   justify-content: space-between;
   padding: 0.5rem 0;
   border-bottom: 1px solid #eee;
+}
+
+.budget-item.expandable {
+  cursor: pointer;
+}
+
+.budget-item.expandable:hover {
+  background: #f0f0f0;
+}
+
+.budget-item .expand-icon {
+  font-size: 0.7rem;
+  margin-right: 0.5rem;
+  color: #666;
 }
 
 .budget-item:last-child {

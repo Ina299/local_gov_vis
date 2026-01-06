@@ -4,6 +4,8 @@ export interface BudgetItem {
   amount: number;
   category: BudgetCategory;
   yearOverYear?: number;
+  /** サブカテゴリ（内訳） */
+  children?: BudgetItem[];
 }
 
 /** 予算カテゴリ */

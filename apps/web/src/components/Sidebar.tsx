@@ -1,6 +1,7 @@
 'use client';
 
-import type { LocalGovBudget, BudgetCategory } from '@/types/budget';
+import { useState, useRef, useEffect } from 'react';
+import type { LocalGovBudget, BudgetCategory, BudgetItem } from '@/types/budget';
 import { CATEGORY_LABELS } from '@/types/budget';
 
 interface SidebarProps {
@@ -20,10 +21,53 @@ function formatAmount(amount: number): string {
   return `${amount}円`;
 }
 
+interface BudgetItemRowProps {
+  item: BudgetItem;
+  level?: number;
+}
+
+function BudgetItemRow({ item, level = 0 }: BudgetItemRowProps) {
+  const [expanded, setExpanded] = useState(false);
+  const hasChildren = item.children && item.children.length > 0;
+
+  return (
+    <>
+      <div
+        className={`budget-item ${hasChildren ? 'expandable' : ''} ${expanded ? 'expanded' : ''}`}
+        style={{ paddingLeft: `${level * 16}px` }}
+        onClick={() => hasChildren && setExpanded(!expanded)}
+      >
+        <span>
+          {hasChildren && <span className="expand-icon">{expanded ? '▼' : '▶'}</span>}
+          {level === 0 ? (CATEGORY_LABELS[item.category as BudgetCategory] || item.name) : item.name}
+        </span>
+        <span>{formatAmount(item.amount)}</span>
+      </div>
+      {expanded && item.children?.map((child, index) => (
+        <BudgetItemRow key={index} item={child} level={level + 1} />
+      ))}
+    </>
+  );
+}
+
 export function Sidebar({ selectedRegion }: SidebarProps) {
+  const sidebarRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const sidebar = sidebarRef.current;
+    if (!sidebar) return;
+
+    const handleWheel = (e: WheelEvent) => {
+      e.stopPropagation();
+    };
+
+    sidebar.addEventListener('wheel', handleWheel, { passive: false });
+    return () => sidebar.removeEventListener('wheel', handleWheel);
+  }, []);
+
   if (!selectedRegion) {
     return (
-      <aside className="sidebar">
+      <aside className="sidebar" ref={sidebarRef}>
         <div className="budget-card">
           <h3>地域を選択</h3>
           <p>地図上の都道府県をクリックすると予算データが表示されます</p>
@@ -33,7 +77,7 @@ export function Sidebar({ selectedRegion }: SidebarProps) {
   }
 
   return (
-    <aside className="sidebar">
+    <aside className="sidebar" ref={sidebarRef}>
       <div className="budget-card">
         <h3>{selectedRegion.name}</h3>
         <p>{selectedRegion.fiscalYear}年度 {selectedRegion.budgetType === 'initial' ? '当初予算' : '決算'}</p>
@@ -55,10 +99,7 @@ export function Sidebar({ selectedRegion }: SidebarProps) {
           <h3>歳出内訳</h3>
           <div className="budget-list">
             {selectedRegion.expenditures.map((item, index) => (
-              <div key={index} className="budget-item">
-                <span>{CATEGORY_LABELS[item.category as BudgetCategory] || item.name}</span>
-                <span>{formatAmount(item.amount)}</span>
-              </div>
+              <BudgetItemRow key={index} item={item} />
             ))}
           </div>
         </div>
