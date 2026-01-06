@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx playwright install chromium)",
+      "Bash(npx tsx:*)",
+      "Bash(git init:*)"
+    ]
+  }
+}

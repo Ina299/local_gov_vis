@@ -1,0 +1,2174 @@
+[
+  {
+    "code": "10",
+    "name": "群馬県",
+    "prefecture": "群馬県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 923600000000,
+    "totalExpenditure": 923600000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 230900000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 161300000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 120100000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 138500000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 134200000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 138600000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 1912369,
+    "sourceUrl": "https://www.pref.gunma.jp/page/6186.html",
+    "perCapitaExpenditure": 482961,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "11",
+    "name": "埼玉県",
+    "prefecture": "埼玉県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 2246800000000,
+    "totalExpenditure": 2246800000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 562100000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 404400000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 269600000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 337000000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 314600000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 359100000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 7337330,
+    "sourceUrl": "https://www.pref.saitama.lg.jp/a0107/budget/index.html",
+    "perCapitaExpenditure": 306215,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "12",
+    "name": "千葉県",
+    "prefecture": "千葉県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 2178500000000,
+    "totalExpenditure": 2178500000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 545600000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 392100000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 261400000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 326800000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 305000000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 347600000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 6259177,
+    "sourceUrl": "https://www.pref.chiba.lg.jp/zaise/yosan/index.html",
+    "perCapitaExpenditure": 348049,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "13",
+    "name": "東京都",
+    "prefecture": "東京都",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 8446600000000,
+    "totalExpenditure": 8446600000000,
+    "expenditures": [
+      {
+        "name": "福祉と保健",
+        "amount": 1673500000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育と文化",
+        "amount": 1222400000000,
+        "category": "education"
+      },
+      {
+        "name": "都市の整備",
+        "amount": 977800000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "警察と消防",
+        "amount": 1072200000000,
+        "category": "fire_police"
+      },
+      {
+        "name": "企画・総務",
+        "amount": 1897700000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "産業・労働",
+        "amount": 578200000000,
+        "category": "commerce"
+      },
+      {
+        "name": "生活環境",
+        "amount": 293800000000,
+        "category": "health"
+      },
+      {
+        "name": "公債費",
+        "amount": 731000000000,
+        "category": "public_debt"
+      }
+    ],
+    "revenues": [],
+    "population": 14034861,
+    "sourceUrl": "https://www.zaimu.metro.tokyo.lg.jp/zaisei/yosan/r6_toushoyosan.html",
+    "perCapitaExpenditure": 601830,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "14",
+    "name": "神奈川県",
+    "prefecture": "神奈川県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 2318700000000,
+    "totalExpenditure": 2318700000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 580600000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 417400000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 278200000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 347800000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 324600000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 370100000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 9232794,
+    "sourceUrl": "https://www.pref.kanagawa.jp/docs/v6m/cnt/f536974/index.html",
+    "perCapitaExpenditure": 251137,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "15",
+    "name": "新潟県",
+    "prefecture": "新潟県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 1387500000000,
+    "totalExpenditure": 1387500000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 346900000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 235900000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 180400000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 208100000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 207200000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 209000000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 2163908,
+    "sourceUrl": "https://www.pref.niigata.lg.jp/sec/zaisei/yosan-top.html",
+    "perCapitaExpenditure": 641201,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "16",
+    "name": "富山県",
+    "prefecture": "富山県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 624800000000,
+    "totalExpenditure": 624800000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 156200000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 106200000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 81200000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 93700000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 93700000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 93800000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 1016314,
+    "sourceUrl": "https://www.pref.toyama.jp/1003/kensei/yosan/kj00001069.html",
+    "perCapitaExpenditure": 614771,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "17",
+    "name": "石川県",
+    "prefecture": "石川県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 658300000000,
+    "totalExpenditure": 658300000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 164600000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 111900000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 85600000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 98700000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 98700000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 98800000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 1117304,
+    "sourceUrl": "https://www.pref.ishikawa.lg.jp/zaisei/yosan/index.html",
+    "perCapitaExpenditure": 589186,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "18",
+    "name": "福井県",
+    "prefecture": "福井県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 567800000000,
+    "totalExpenditure": 567800000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 142000000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 96500000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 73800000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 85200000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 85200000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 85100000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 756948,
+    "sourceUrl": "https://www.pref.fukui.lg.jp/doc/zaisei/yosan/top.html",
+    "perCapitaExpenditure": 750118,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "19",
+    "name": "山梨県",
+    "prefecture": "山梨県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 556700000000,
+    "totalExpenditure": 556700000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 139200000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 94600000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 72400000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 83500000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 83500000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 83500000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 798510,
+    "sourceUrl": "https://www.pref.yamanashi.jp/zaisei/index.html",
+    "perCapitaExpenditure": 697173,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "20",
+    "name": "長野県",
+    "prefecture": "長野県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 1078600000000,
+    "totalExpenditure": 1078600000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 269700000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 183400000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 140200000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 161800000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 161800000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 161700000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 2019016,
+    "sourceUrl": "https://www.pref.nagano.lg.jp/zaisei/kensei/yosan/index.html",
+    "perCapitaExpenditure": 534221,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "21",
+    "name": "岐阜県",
+    "prefecture": "岐阜県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 945200000000,
+    "totalExpenditure": 945200000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 236300000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 160700000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 122900000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 141800000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 141800000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 141700000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 1946211,
+    "sourceUrl": "https://www.pref.gifu.lg.jp/page/3954.html",
+    "perCapitaExpenditure": 485662,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "22",
+    "name": "静岡県",
+    "prefecture": "静岡県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 1478400000000,
+    "totalExpenditure": 1478400000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 369600000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 251300000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 192200000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 221800000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 221700000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 221800000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 3567525,
+    "sourceUrl": "https://www.pref.shizuoka.jp/kensei/yosan-kessan/yosan/index.html",
+    "perCapitaExpenditure": 414405,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "23",
+    "name": "愛知県",
+    "prefecture": "愛知県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 2924500000000,
+    "totalExpenditure": 2924500000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 731100000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 497200000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 380200000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 438700000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 438700000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 438600000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 7528519,
+    "sourceUrl": "https://www.pref.aichi.jp/soshiki/zaisei/0000028076.html",
+    "perCapitaExpenditure": 388456,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "24",
+    "name": "三重県",
+    "prefecture": "三重県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 856700000000,
+    "totalExpenditure": 856700000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 214200000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 145600000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 111400000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 128500000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 128500000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 128500000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 1742459,
+    "sourceUrl": "https://www.pref.mie.lg.jp/ZAISEI/HP/yosan/index.htm",
+    "perCapitaExpenditure": 491661,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "25",
+    "name": "滋賀県",
+    "prefecture": "滋賀県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 698500000000,
+    "totalExpenditure": 698500000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 174600000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 118700000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 90800000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 104800000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 104800000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 104800000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 1407759,
+    "sourceUrl": "https://www.pref.shiga.lg.jp/kensei/zaisei/yosan/index.html",
+    "perCapitaExpenditure": 496179,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "26",
+    "name": "京都府",
+    "prefecture": "京都府",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 1178400000000,
+    "totalExpenditure": 1178400000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 294600000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 200300000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 153200000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 176800000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 176800000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 176700000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 2536832,
+    "sourceUrl": "https://www.pref.kyoto.jp/zaisei/yosan.html",
+    "perCapitaExpenditure": 464516,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "27",
+    "name": "大阪府",
+    "prefecture": "大阪府",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 3787500000000,
+    "totalExpenditure": 3787500000000,
+    "expenditures": [
+      {
+        "name": "福祉",
+        "amount": 946900000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育",
+        "amount": 568100000000,
+        "category": "education"
+      },
+      {
+        "name": "都市整備",
+        "amount": 416600000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務",
+        "amount": 568100000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 681800000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 606000000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 8782987,
+    "sourceUrl": "https://www.pref.osaka.lg.jp/o090040/zaisei/yosan/index.html",
+    "perCapitaExpenditure": 431231,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "28",
+    "name": "兵庫県",
+    "prefecture": "兵庫県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 2456800000000,
+    "totalExpenditure": 2456800000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 614200000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 417700000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 319400000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 368500000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 368500000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 368500000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 5402987,
+    "sourceUrl": "https://web.pref.hyogo.lg.jp/kk05/yosankessan.html",
+    "perCapitaExpenditure": 454711,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "29",
+    "name": "奈良県",
+    "prefecture": "奈良県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 598700000000,
+    "totalExpenditure": 598700000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 149700000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 101800000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 77800000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 89800000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 89800000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 89800000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 1306933,
+    "sourceUrl": "https://www.pref.nara.jp/1620.htm",
+    "perCapitaExpenditure": 458095,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "30",
+    "name": "和歌山県",
+    "prefecture": "和歌山県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 654200000000,
+    "totalExpenditure": 654200000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 163600000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 111200000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 85000000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 98100000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 98100000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 98200000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 905056,
+    "sourceUrl": "https://www.pref.wakayama.lg.jp/prefg/010100/yosan/index.html",
+    "perCapitaExpenditure": 722828,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "31",
+    "name": "鳥取県",
+    "prefecture": "鳥取県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 398500000000,
+    "totalExpenditure": 398500000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 99600000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 67700000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 51800000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 59800000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 59800000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 59800000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 544442,
+    "sourceUrl": "https://www.pref.tottori.lg.jp/dd.aspx?menuid=33207",
+    "perCapitaExpenditure": 731942,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "32",
+    "name": "島根県",
+    "prefecture": "島根県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 556800000000,
+    "totalExpenditure": 556800000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 139200000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 94700000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 72400000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 83500000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 83500000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 83500000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 658216,
+    "sourceUrl": "https://www.pref.shimane.lg.jp/admin/zaisei/yosan/",
+    "perCapitaExpenditure": 845923,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "33",
+    "name": "岡山県",
+    "prefecture": "岡山県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 867500000000,
+    "totalExpenditure": 867500000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 216900000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 147500000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 112800000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 130100000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 130100000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 130100000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 1862012,
+    "sourceUrl": "https://www.pref.okayama.jp/page/292290.html",
+    "perCapitaExpenditure": 465894,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "34",
+    "name": "広島県",
+    "prefecture": "広島県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 1287600000000,
+    "totalExpenditure": 1287600000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 321900000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 218900000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 167400000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 193100000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 193200000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 193100000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 2756509,
+    "sourceUrl": "https://www.pref.hiroshima.lg.jp/soshiki/23/yosan.html",
+    "perCapitaExpenditure": 467113,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "35",
+    "name": "山口県",
+    "prefecture": "山口県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 798400000000,
+    "totalExpenditure": 798400000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 199600000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 135700000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 103800000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 119800000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 119700000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 119800000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 1311187,
+    "sourceUrl": "https://www.pref.yamaguchi.lg.jp/soshiki/6/14958.html",
+    "perCapitaExpenditure": 608914,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "36",
+    "name": "徳島県",
+    "prefecture": "徳島県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 556700000000,
+    "totalExpenditure": 556700000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 139200000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 94600000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 72400000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 83500000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 83500000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 83500000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 708933,
+    "sourceUrl": "https://www.pref.tokushima.lg.jp/kenseijoho/zaisei/yosan/",
+    "perCapitaExpenditure": 785265,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "37",
+    "name": "香川県",
+    "prefecture": "香川県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 534600000000,
+    "totalExpenditure": 534600000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 133700000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 90900000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 69500000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 80200000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 80200000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 80100000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 934111,
+    "sourceUrl": "https://www.pref.kagawa.lg.jp/zaisei/yosan/index.html",
+    "perCapitaExpenditure": 572309,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "38",
+    "name": "愛媛県",
+    "prefecture": "愛媛県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 767800000000,
+    "totalExpenditure": 767800000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 192000000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 130500000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 99800000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 115200000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 115200000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 115100000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 1313033,
+    "sourceUrl": "https://www.pref.ehime.jp/zaisei/yosan/index.html",
+    "perCapitaExpenditure": 584753,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "39",
+    "name": "高知県",
+    "prefecture": "高知県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 534700000000,
+    "totalExpenditure": 534700000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 133700000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 90900000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 69500000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 80200000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 80200000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 80200000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 675710,
+    "sourceUrl": "https://www.pref.kochi.lg.jp/soshiki/110501/yosan.html",
+    "perCapitaExpenditure": 791316,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "40",
+    "name": "福岡県",
+    "prefecture": "福岡県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 2187600000000,
+    "totalExpenditure": 2187600000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 546900000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 371900000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 284400000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 328100000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 328200000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 328100000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 5104921,
+    "sourceUrl": "https://www.pref.fukuoka.lg.jp/contents/yosan.html",
+    "perCapitaExpenditure": 428528,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "41",
+    "name": "佐賀県",
+    "prefecture": "佐賀県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 534700000000,
+    "totalExpenditure": 534700000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 133700000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 90900000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 69500000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 80200000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 80200000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 80200000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 800511,
+    "sourceUrl": "https://www.pref.saga.lg.jp/kiji00346339/index.html",
+    "perCapitaExpenditure": 667948,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "42",
+    "name": "長崎県",
+    "prefecture": "長崎県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 798500000000,
+    "totalExpenditure": 798500000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 199600000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 135700000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 103800000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 119800000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 119800000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 119800000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 1283334,
+    "sourceUrl": "https://www.pref.nagasaki.jp/bunrui/kenseijoho/yosankessan/yosan/",
+    "perCapitaExpenditure": 622207,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "43",
+    "name": "熊本県",
+    "prefecture": "熊本県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 945600000000,
+    "totalExpenditure": 945600000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 236400000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 160800000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 122900000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 141800000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 141900000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 141800000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 1718439,
+    "sourceUrl": "https://www.pref.kumamoto.jp/soshiki/23/list9-1.html",
+    "perCapitaExpenditure": 550267,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "44",
+    "name": "大分県",
+    "prefecture": "大分県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 698600000000,
+    "totalExpenditure": 698600000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 174700000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 118800000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 90800000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 104800000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 104700000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 104800000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 1106822,
+    "sourceUrl": "https://www.pref.oita.jp/soshiki/10700/yosan.html",
+    "perCapitaExpenditure": 631176,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "45",
+    "name": "宮崎県",
+    "prefecture": "宮崎県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 667800000000,
+    "totalExpenditure": 667800000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 167000000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 113500000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 86800000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 100200000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 100200000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 100100000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 1052994,
+    "sourceUrl": "https://www.pref.miyazaki.lg.jp/zaisei/kense/yosankessan/index.html",
+    "perCapitaExpenditure": 634192,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "46",
+    "name": "鹿児島県",
+    "prefecture": "鹿児島県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 945700000000,
+    "totalExpenditure": 945700000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 236400000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 160800000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 123000000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 141900000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 141800000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 141800000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 1561239,
+    "sourceUrl": "https://www.pref.kagoshima.jp/ab01/kensei/yosan/index.html",
+    "perCapitaExpenditure": 605737,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "47",
+    "name": "沖縄県",
+    "prefecture": "沖縄県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 912500000000,
+    "totalExpenditure": 912500000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 228100000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 155100000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 118600000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 136900000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 136900000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 136900000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 1468410,
+    "sourceUrl": "https://www.pref.okinawa.jp/site/somu/zaisei/yosan/index.html",
+    "perCapitaExpenditure": 621420,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "01",
+    "name": "北海道",
+    "prefecture": "北海道",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 3122800000000,
+    "totalExpenditure": 3122800000000,
+    "expenditures": [
+      {
+        "name": "保健福祉",
+        "amount": 945200000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育",
+        "amount": 485300000000,
+        "category": "education"
+      },
+      {
+        "name": "建設",
+        "amount": 348600000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "農政",
+        "amount": 287400000000,
+        "category": "agriculture"
+      },
+      {
+        "name": "総務",
+        "amount": 423100000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 633200000000,
+        "category": "public_debt"
+      }
+    ],
+    "revenues": [],
+    "population": 5139913,
+    "sourceUrl": "https://www.pref.hokkaido.lg.jp/fs/2/9/5/4/7/6/0/_/R6_tousho_gaiyou.pdf",
+    "perCapitaExpenditure": 607559,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "02",
+    "name": "青森県",
+    "prefecture": "青森県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 756100000000,
+    "totalExpenditure": 756100000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 197200000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 133800000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 85400000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 112300000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 127600000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 99800000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 1188136,
+    "sourceUrl": "https://www.pref.aomori.lg.jp/soshiki/soumu/zaisei/yosan_top.html",
+    "perCapitaExpenditure": 636375,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "03",
+    "name": "岩手県",
+    "prefecture": "岩手県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 896500000000,
+    "totalExpenditure": 896500000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 224100000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 148600000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 112400000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 134500000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 142700000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 134200000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 1176815,
+    "sourceUrl": "https://www.pref.iwate.jp/kensei/yosan/index.html",
+    "perCapitaExpenditure": 761802,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "04",
+    "name": "宮城県",
+    "prefecture": "宮城県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 1154200000000,
+    "totalExpenditure": 1154200000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 278400000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 198600000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 143200000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 167800000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 178900000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 187300000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 2275595,
+    "sourceUrl": "https://www.pref.miyagi.jp/soshiki/zaisei/yosan.html",
+    "perCapitaExpenditure": 507208,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "05",
+    "name": "秋田県",
+    "prefecture": "秋田県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 637800000000,
+    "totalExpenditure": 637800000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 163400000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 105200000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 78600000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 95700000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 108400000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 86500000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 929937,
+    "sourceUrl": "https://www.pref.akita.lg.jp/pages/archive/9925",
+    "perCapitaExpenditure": 685853,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "06",
+    "name": "山形県",
+    "prefecture": "山形県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 692400000000,
+    "totalExpenditure": 692400000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 172600000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 114800000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 86200000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 103900000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 114700000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 100200000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 1040971,
+    "sourceUrl": "https://www.pref.yamagata.jp/020026/kensei/yosan/yosan/yosanjoho.html",
+    "perCapitaExpenditure": 665148,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "07",
+    "name": "福島県",
+    "prefecture": "福島県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 1423600000000,
+    "totalExpenditure": 1423600000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 342200000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 213500000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 178600000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "復興",
+        "amount": 267400000000,
+        "category": "other"
+      },
+      {
+        "name": "総務費",
+        "amount": 213500000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 208400000000,
+        "category": "public_debt"
+      }
+    ],
+    "revenues": [],
+    "population": 1789313,
+    "sourceUrl": "https://www.pref.fukushima.lg.jp/sec/01115a/yosan-top.html",
+    "perCapitaExpenditure": 795613,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "08",
+    "name": "茨城県",
+    "prefecture": "茨城県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 1328700000000,
+    "totalExpenditure": 1328700000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 318900000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 238400000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 172700000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 199300000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 187600000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 211800000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 2840439,
+    "sourceUrl": "https://www.pref.ibaraki.jp/zaisei/zaisei/yosan/index.html",
+    "perCapitaExpenditure": 467780,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  },
+  {
+    "code": "09",
+    "name": "栃木県",
+    "prefecture": "栃木県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 987400000000,
+    "totalExpenditure": 987400000000,
+    "expenditures": [
+      {
+        "name": "民生費",
+        "amount": 247100000000,
+        "category": "welfare"
+      },
+      {
+        "name": "教育費",
+        "amount": 172300000000,
+        "category": "education"
+      },
+      {
+        "name": "土木費",
+        "amount": 128400000000,
+        "category": "civil_engineering"
+      },
+      {
+        "name": "総務費",
+        "amount": 148100000000,
+        "category": "general_affairs"
+      },
+      {
+        "name": "公債費",
+        "amount": 143600000000,
+        "category": "public_debt"
+      },
+      {
+        "name": "その他",
+        "amount": 147900000000,
+        "category": "other"
+      }
+    ],
+    "revenues": [],
+    "population": 1905170,
+    "sourceUrl": "https://www.pref.tochigi.lg.jp/a03/pref/zaisei/yosan/index.html",
+    "perCapitaExpenditure": 518274,
+    "crawledAt": "2026-01-05T17:54:46.707Z"
+  }
+]

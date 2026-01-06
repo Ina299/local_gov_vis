@@ -1,0 +1,17 @@
+{
+  "name": "local-gov-budget",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "crawler": "npm run -w @local-gov/crawler",
+    "web": "npm run -w @local-gov/web dev",
+    "build": "npm run -w @local-gov/web build",
+    "lint": "npm run -w @local-gov/crawler lint && npm run -w @local-gov/web lint"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}

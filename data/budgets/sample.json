@@ -1,0 +1,64 @@
+[
+  {
+    "code": "13",
+    "name": "東京都",
+    "prefecture": "東京都",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 8410000000000,
+    "totalExpenditure": 8410000000000,
+    "expenditures": [
+      { "name": "福祉と保健", "amount": 1420000000000, "category": "welfare" },
+      { "name": "教育と文化", "amount": 980000000000, "category": "education" },
+      { "name": "都市の整備", "amount": 750000000000, "category": "civil_engineering" },
+      { "name": "警察と消防", "amount": 680000000000, "category": "fire_police" },
+      { "name": "企画・総務", "amount": 520000000000, "category": "general_affairs" },
+      { "name": "その他", "amount": 4060000000000, "category": "other" }
+    ],
+    "revenues": [],
+    "population": 14000000,
+    "perCapitaExpenditure": 600714,
+    "sourceUrl": "https://www.zaimu.metro.tokyo.lg.jp/",
+    "crawledAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "code": "27",
+    "name": "大阪府",
+    "prefecture": "大阪府",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 3650000000000,
+    "totalExpenditure": 3650000000000,
+    "expenditures": [
+      { "name": "福祉", "amount": 820000000000, "category": "welfare" },
+      { "name": "教育", "amount": 540000000000, "category": "education" },
+      { "name": "都市基盤", "amount": 380000000000, "category": "civil_engineering" },
+      { "name": "その他", "amount": 1910000000000, "category": "other" }
+    ],
+    "revenues": [],
+    "population": 8800000,
+    "perCapitaExpenditure": 414773,
+    "sourceUrl": "https://www.pref.osaka.lg.jp/",
+    "crawledAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "code": "14",
+    "name": "神奈川県",
+    "prefecture": "神奈川県",
+    "fiscalYear": 2024,
+    "budgetType": "initial",
+    "totalRevenue": 2200000000000,
+    "totalExpenditure": 2200000000000,
+    "expenditures": [
+      { "name": "福祉", "amount": 520000000000, "category": "welfare" },
+      { "name": "教育", "amount": 410000000000, "category": "education" },
+      { "name": "土木", "amount": 280000000000, "category": "civil_engineering" },
+      { "name": "その他", "amount": 990000000000, "category": "other" }
+    ],
+    "revenues": [],
+    "population": 9200000,
+    "perCapitaExpenditure": 239130,
+    "sourceUrl": "https://www.pref.kanagawa.jp/",
+    "crawledAt": "2024-01-01T00:00:00.000Z"
+  }
+]

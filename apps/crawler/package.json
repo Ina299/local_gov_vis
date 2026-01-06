@@ -1,0 +1,24 @@
+{
+  "name": "@local-gov/crawler",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "crawl": "tsx src/index.ts",
+    "crawl:prefecture": "tsx src/index.ts --type prefecture",
+    "crawl:city": "tsx src/index.ts --type city",
+    "lint": "eslint src/",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "commander": "^12.0.0",
+    "csv-parse": "^5.5.0",
+    "csv-stringify": "^6.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "eslint": "^8.55.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
