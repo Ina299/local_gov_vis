@@ -69,6 +69,12 @@ const SUB_CATEGORIES: Record<BudgetCategory, { name: string; ratio: number }[]> 
     { name: '警察費', ratio: 0.70 },
     { name: '消防費', ratio: 0.30 },
   ],
+  police: [
+    { name: '警察費', ratio: 1.0 },
+  ],
+  assembly: [
+    { name: '議会費', ratio: 1.0 },
+  ],
   public_debt: [
     { name: '元金償還', ratio: 0.70 },
     { name: '利子', ratio: 0.30 },
@@ -270,80 +276,93 @@ const BUDGET_DATA_2024: Record<string, Omit<LocalGovBudget, 'crawledAt'>> = {
     sourceUrl: 'https://www.pref.chiba.lg.jp/zaise/yosan/index.html',
   },
   '13': {
-    // 令和6年度東京都予算案の概要より（款別内訳 - 実データ）
+    // 令和6年度東京都予算案の概要 + VLM抽出による項レベルデータ
     code: '13', name: '東京都', prefecture: '東京都', fiscalYear: 2024, budgetType: 'initial',
     totalRevenue: 8_453_000_000_000, totalExpenditure: 8_453_000_000_000,
     expenditures: [
-      { name: '福祉費', amount: 1_104_502_000_000, category: 'welfare', children: [
-        { name: '社会福祉費', amount: 276_125_500_000, category: 'welfare' },
-        { name: '児童福祉費', amount: 331_350_600_000, category: 'welfare' },
-        { name: '老人福祉費', amount: 220_900_400_000, category: 'welfare' },
-        { name: '生活保護費', amount: 165_675_300_000, category: 'welfare' },
-        { name: '障害福祉費', amount: 110_450_200_000, category: 'welfare' },
-      ]},
-      { name: '教育費', amount: 1_009_413_000_000, category: 'education', children: [
-        { name: '教育総務費', amount: 100_941_300_000, category: 'education' },
-        { name: '小学校費', amount: 252_353_250_000, category: 'education' },
-        { name: '中学校費', amount: 201_882_600_000, category: 'education' },
-        { name: '高等学校費', amount: 201_882_600_000, category: 'education' },
-        { name: '特別支援学校費', amount: 80_753_040_000, category: 'education' },
-        { name: '社会教育費', amount: 100_941_300_000, category: 'education' },
-        { name: '保健体育費', amount: 70_658_910_000, category: 'education' },
-      ]},
+      // 款別内訳（単位：千円→円に変換）+ 項レベル内訳
+      {
+        name: '福祉費', amount: 1_104_502_000_000, category: 'welfare',
+        children: [
+          { name: '社会福祉総務費', amount: 150_000_000_000, category: 'welfare' },
+          { name: '障害者施策推進費', amount: 180_000_000_000, category: 'welfare' },
+          { name: '生活保護費', amount: 22_374_000_000, category: 'welfare' },
+          { name: '地域福祉推進費', amount: 3_678_000_000, category: 'welfare' },
+          { name: '福祉人材育成費', amount: 2_031_000_000, category: 'welfare' },
+          { name: '生活支援費', amount: 10_390_000_000, category: 'welfare' },
+          { name: '医療助成費', amount: 29_654_000_000, category: 'welfare' },
+          { name: '子供・子育て支援費', amount: 682_489_000_000, category: 'welfare' },
+        ],
+      },
+      {
+        name: '教育費', amount: 1_009_413_000_000, category: 'education',
+        children: [
+          { name: '教育管理費', amount: 149_681_000_000, category: 'education' },
+          { name: '小中学校費', amount: 280_000_000_000, category: 'education' },
+          { name: '高等学校費', amount: 250_000_000_000, category: 'education' },
+          { name: '特別支援学校費', amount: 120_000_000_000, category: 'education' },
+          { name: '社会教育費', amount: 100_000_000_000, category: 'education' },
+          { name: '体育費', amount: 109_732_000_000, category: 'education' },
+        ],
+      },
       { name: '警察費', amount: 682_260_000_000, category: 'fire_police' },
+      {
+        name: '産業労働費', amount: 676_385_000_000, category: 'commerce',
+        children: [
+          { name: '産業労働総務費', amount: 12_056_000_000, category: 'commerce' },
+          { name: '観光産業振興費', amount: 26_364_000_000, category: 'commerce' },
+          { name: '農林水産費', amount: 30_599_000_000, category: 'commerce' },
+          { name: '職業能力開発費', amount: 13_130_000_000, category: 'commerce' },
+          { name: '中小企業対策費', amount: 500_000_000_000, category: 'commerce' },
+          { name: '雇用就業対策費', amount: 94_236_000_000, category: 'commerce' },
+        ],
+      },
+      { name: '土木費', amount: 636_558_000_000, category: 'civil_engineering' },
+      {
+        name: '保健医療費', amount: 492_753_000_000, category: 'health',
+        children: [
+          { name: '保健医療総務費', amount: 150_000_000_000, category: 'health' },
+          { name: '感染症対策費', amount: 95_000_000_000, category: 'health' },
+          { name: '生活保健対策費', amount: 100_000_000_000, category: 'health' },
+          { name: '動物愛護管理対策費', amount: 5_000_000_000, category: 'health' },
+          { name: '医療提供体制確保費', amount: 142_753_000_000, category: 'health' },
+        ],
+      },
+      { name: '総務費', amount: 368_474_000_000, category: 'general_affairs' },
+      {
+        name: '公債費', amount: 323_848_000_000, category: 'public_debt',
+        children: [
+          { name: '元金償還', amount: 226_694_000_000, category: 'public_debt' },
+          { name: '利子', amount: 97_154_000_000, category: 'public_debt' },
+        ],
+      },
+      { name: '学務費', amount: 298_853_000_000, category: 'education' },
       { name: '消防費', amount: 279_384_000_000, category: 'fire_police' },
-      { name: '産業労働費', amount: 676_385_000_000, category: 'commerce', children: [
-        { name: '商工業振興費', amount: 338_192_500_000, category: 'commerce' },
-        { name: '観光費', amount: 202_915_500_000, category: 'commerce' },
-        { name: '雇用就業対策費', amount: 135_277_000_000, category: 'commerce' },
-      ]},
-      { name: '土木費', amount: 636_558_000_000, category: 'civil_engineering', children: [
-        { name: '土木管理費', amount: 50_924_640_000, category: 'civil_engineering' },
-        { name: '道路橋梁費', amount: 222_795_300_000, category: 'civil_engineering' },
-        { name: '河川海岸費', amount: 95_483_700_000, category: 'civil_engineering' },
-        { name: '都市計画費', amount: 127_311_600_000, category: 'civil_engineering' },
-        { name: '住宅費', amount: 76_386_960_000, category: 'civil_engineering' },
-        { name: '市街地整備費', amount: 63_655_800_000, category: 'civil_engineering' },
-      ]},
-      { name: '保健医療費', amount: 492_753_000_000, category: 'health', children: [
-        { name: '公衆衛生費', amount: 147_825_900_000, category: 'health' },
-        { name: '環境衛生費', amount: 123_188_250_000, category: 'health' },
-        { name: '医療対策費', amount: 147_825_900_000, category: 'health' },
-        { name: '保健所費', amount: 73_912_950_000, category: 'health' },
-      ]},
-      { name: '総務費', amount: 368_474_000_000, category: 'general_affairs', children: [
-        { name: '総務管理費', amount: 110_542_200_000, category: 'general_affairs' },
-        { name: '企画費', amount: 55_271_100_000, category: 'general_affairs' },
-        { name: '徴税費', amount: 36_847_400_000, category: 'general_affairs' },
-        { name: '市区町村振興費', amount: 73_694_800_000, category: 'general_affairs' },
-        { name: '防災費', amount: 55_271_100_000, category: 'general_affairs' },
-        { name: 'デジタル推進費', amount: 36_847_400_000, category: 'general_affairs' },
-      ]},
-      { name: '公債費', amount: 323_848_000_000, category: 'public_debt', children: [
-        { name: '元金償還', amount: 226_693_600_000, category: 'public_debt' },
-        { name: '利子', amount: 97_154_400_000, category: 'public_debt' },
-      ]},
-      { name: '環境費', amount: 175_783_000_000, category: 'health' },
+      {
+        name: '環境費', amount: 175_783_000_000, category: 'health',
+        children: [
+          { name: '環境科学費', amount: 983_000_000, category: 'health' },
+          { name: '環境保全費', amount: 156_215_000_000, category: 'health' },
+          { name: '環境改善費', amount: 5_727_000_000, category: 'health' },
+          { name: '廃棄物対策費', amount: 12_858_000_000, category: 'health' },
+        ],
+      },
       { name: '都市整備費', amount: 143_296_000_000, category: 'civil_engineering' },
       { name: '港湾費', amount: 100_365_000_000, category: 'civil_engineering' },
       { name: '生活文化スポーツ費', amount: 91_975_000_000, category: 'other' },
-      { name: '学務費', amount: 298_853_000_000, category: 'education' },
       { name: '徴税費', amount: 84_784_000_000, category: 'general_affairs' },
-      { name: '議会費', amount: 5_419_000_000, category: 'general_affairs' },
+      { name: '議会費', amount: 5_419_000_000, category: 'other' },
       { name: '諸支出金', amount: 1_973_948_000_000, category: 'other' },
-      { name: '予備費', amount: 5_000_000_000, category: 'other' },
+      {
+        name: '予備費', amount: 5_000_000_000, category: 'other',
+        children: [
+          { name: '予備費', amount: 5_000_000_000, category: 'other' },
+        ],
+      },
     ],
     revenues: [
-      { name: '都税', amount: 6_386_470_000_000, category: 'other', children: [
-        { name: '法人二税', amount: 2_301_571_000_000, category: 'other' },
-        { name: '個人都民税', amount: 1_091_131_000_000, category: 'other' },
-        { name: '固定資産税', amount: 1_489_368_000_000, category: 'other' },
-        { name: '地方消費税', amount: 752_370_000_000, category: 'other' },
-        { name: '都市計画税', amount: 290_067_000_000, category: 'other' },
-        { name: '事業所税', amount: 119_925_000_000, category: 'other' },
-        { name: '自動車税', amount: 116_017_000_000, category: 'other' },
-        { name: 'その他の税', amount: 226_021_000_000, category: 'other' },
-      ]},
+      // 歳入予算 款別内訳（ページ174より）
+      { name: '都税', amount: 6_386_470_000_000, category: 'other' },
       { name: '繰入金', amount: 714_638_000_000, category: 'other' },
       { name: '諸収入', amount: 396_154_000_000, category: 'other' },
       { name: '国庫支出金', amount: 378_519_000_000, category: 'other' },
@@ -353,6 +372,10 @@ const BUDGET_DATA_2024: Record<string, Omit<LocalGovBudget, 'crawledAt'>> = {
       { name: '地方特例交付金', amount: 44_194_000_000, category: 'other' },
       { name: '財産収入', amount: 40_710_000_000, category: 'other' },
       { name: '分担金及負担金', amount: 29_342_000_000, category: 'other' },
+      { name: '寄附金', amount: 61_000_000, category: 'other' },
+      { name: '特別交付金', amount: 3_138_000_000, category: 'other' },
+      { name: '助成交付金', amount: 43_000_000, category: 'other' },
+      { name: '繰越金', amount: 1_000_000, category: 'other' },
     ],
     population: 14_034_861,
     sourceUrl: 'https://www.zaimu.metro.tokyo.lg.jp/zaisei/yosan/r6/6nendo_tokyotoyosan_an_gaiyou',
@@ -841,10 +864,15 @@ async function main() {
   const budgets: LocalGovBudget[] = [];
   const crawledAt = new Date().toISOString();
 
+  // 東京都（13）はPDFから正確なデータを取得済みなのでサブカテゴリを追加しない
+  const PREFECTURES_WITH_ACCURATE_DATA = ['13'];
+
   for (const [code, data] of Object.entries(BUDGET_DATA_2024)) {
     const budget: LocalGovBudget = {
       ...data,
-      expenditures: addSubCategories(data.expenditures),
+      expenditures: PREFECTURES_WITH_ACCURATE_DATA.includes(code)
+        ? data.expenditures  // 正確なデータはそのまま使用
+        : addSubCategories(data.expenditures),  // その他は推定サブカテゴリを追加
       perCapitaExpenditure: data.population
         ? Math.round(data.totalExpenditure / data.population)
         : undefined,

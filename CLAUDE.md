@@ -12,11 +12,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 # 依存関係インストール
 npm install
 
-# クローラー実行
-npm run crawler                           # 全データ収集
+# データ取得（Japan Dashboardの公式CSVをインポート — 推奨）
+npm run -w @local-gov/crawler import:dashboard
+
+# 旧クローラー（PDFスクレイピング。公式CSV移行により通常は不要）
 npm run -w @local-gov/crawler crawl:prefecture  # 都道府県のみ
 npm run -w @local-gov/crawler crawl:city        # 市区町村のみ
-npm run -w @local-gov/crawler crawl -- -p 13    # 特定都道府県（東京都）
 
 # Web開発サーバー
 npm run web
@@ -55,8 +56,11 @@ local_gov_crawler/
 
 ## Data Flow
 
-1. **Crawler** → 各自治体サイトから予算データ取得 → `data/budgets/*.json`
-2. **Web** → JSONデータ読み込み → GeoJSONと結合 → Leaflet地図で描画
+1. **Importer** (`import-dashboard.ts`) → デジタル庁 Japan Dashboard の地方財政CSV（総務省・地方財政状況調査の決算データ、2020〜2024年度）をダウンロード・変換 → `data/budgets/prefectures.json` と `apps/web/public/budgets.json`
+2. **Web** → JSONデータ読み込み → GeoJSONと結合 → Leaflet地図で描画（年度・指標切替あり）
+
+データ利用時は出典記載が必須: 「Japan Dashboard 地方財政（都道府県ごと）／デジタル庁・総務省」（サイドバーに表示済み）。
+旧Playwrightクローラー（`crawlers/`）とPDF/VLM抽出（`extractors/`, `*.py`）は公式CSV移行により非推奨。
 
 ## Key Types
 

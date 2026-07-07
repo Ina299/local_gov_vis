@@ -22,9 +22,18 @@ export type BudgetCategory =
   | 'commerce'             // 商工費
   | 'civil_engineering'    // 土木費
   | 'fire_police'          // 消防費
+  | 'police'               // 警察費
   | 'education'            // 教育費
   | 'public_debt'          // 公債費
+  | 'assembly'             // 議会費
   | 'other';               // その他
+
+/** 財政指標（財政力指数・経常収支比率など） */
+export interface FiscalIndicator {
+  name: string;
+  value: number;
+  unit: string;
+}
 
 /** 自治体予算データ */
 export interface LocalGovBudget {
@@ -46,6 +55,10 @@ export interface LocalGovBudget {
   expenditures: BudgetItem[];
   /** 歳入内訳 */
   revenues: BudgetItem[];
+  /** 歳出内訳（性質別） */
+  expendituresByNature?: BudgetItem[];
+  /** 財政指標 */
+  fiscalIndicators?: FiscalIndicator[];
   /** 人口 */
   population?: number;
   /** 一人当たり歳出 */

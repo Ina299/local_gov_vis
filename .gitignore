@@ -36,3 +36,16 @@ coverage/
 # Playwright
 playwright-report/
 test-results/
+
+# クローラー中間生成物（PDF・ページ画像・抽出結果）
+apps/crawler/output/
+
+# ローカルツール（poppler等のバイナリ）
+tools/
+
+# Python
+__pycache__/
+*.pyc
+
+# TypeScript
+*.tsbuildinfo

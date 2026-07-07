@@ -1,14 +1,27 @@
 'use client';
 
-import { useEffect, useState, useRef, useCallback } from 'react';
+import { useEffect, useState, useRef, useCallback, useMemo } from 'react';
 import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet';
 import L from 'leaflet';
 import type { Layer, Path } from 'leaflet';
-import type { LocalGovBudget, GeoFeature } from '@/types/budget';
+import type { LocalGovBudget, GeoFeature, MapMetric } from '@/types/budget';
+import { formatAmount } from '@/lib/format';
 
 interface BudgetMapProps {
-  onSelectRegion: (region: LocalGovBudget | null) => void;
+  /** 選択年度の 自治体コード → 予算データ */
+  budgetsByCode: Map<string, LocalGovBudget>;
+  metric: MapMetric;
+  onSelectCode: (code: string | null) => void;
 }
+
+// 検証済みパレットのシーケンシャル（blue）ランプ: steps 100/250/400/550/700
+const SEQUENTIAL_BLUES = ['#cde2fb', '#86b6ef', '#3987e5', '#1c5cab', '#0d366b'];
+const NO_DATA_COLOR = '#e0e0e0';
+
+const METRIC_LABELS: Record<MapMetric, string> = {
+  total: '歳出総額',
+  perCapita: '一人当たり歳出',
+};
 
 // ポリゴンの面積を計算（符号付き）
 function calcPolygonArea(coords: number[][]): number {
@@ -61,55 +74,72 @@ function getLargestPolygonCenter(geometry: any): [number, number] | null {
   return null;
 }
 
-// 予算額に応じた色を返す
-function getBudgetColor(amount: number): string {
-  if (amount === 0) return '#e0e0e0';
-  if (amount < 100_000_000_000) return '#c6dbef';      // 1000億未満
-  if (amount < 500_000_000_000) return '#6baed6';      // 5000億未満
-  if (amount < 1_000_000_000_000) return '#2171b5';    // 1兆未満
-  return '#084594';                                     // 1兆以上
+// 指標値を取得（データなしは null）
+function getMetricValue(budget: LocalGovBudget | undefined, metric: MapMetric): number | null {
+  if (!budget) return null;
+  if (metric === 'perCapita') {
+    if (!budget.population) return null;
+    return budget.totalExpenditure / budget.population;
+  }
+  return budget.totalExpenditure;
 }
 
-export default function BudgetMap({ onSelectRegion }: BudgetMapProps) {
+// 分位点ベースで階級の境界値を計算（5階級 → 境界4つ）
+function computeBreaks(values: number[]): number[] {
+  const sorted = [...values].sort((a, b) => a - b);
+  if (sorted.length === 0) return [];
+  return [0.2, 0.4, 0.6, 0.8].map((q) => {
+    const pos = q * (sorted.length - 1);
+    const lo = Math.floor(pos);
+    const hi = Math.ceil(pos);
+    return sorted[lo] + (sorted[hi] - sorted[lo]) * (pos - lo);
+  });
+}
+
+function getClassColor(value: number | null, breaks: number[]): string {
+  if (value === null) return NO_DATA_COLOR;
+  let i = 0;
+  while (i < breaks.length && value >= breaks[i]) i++;
+  return SEQUENTIAL_BLUES[i];
+}
+
+export default function BudgetMap({ budgetsByCode, metric, onSelectCode }: BudgetMapProps) {
   const [geoData, setGeoData] = useState<GeoFeature[] | null>(null);
   const selectedLayerRef = useRef<Path | null>(null);
   const layerMapRef = useRef<Map<string, { layer: Path; feature: GeoFeature }>>(new Map());
 
   useEffect(() => {
-    Promise.all([
-      fetch('/japan.geojson').then((res) => res.json()),
-      fetch('/budgets.json').then((res) => res.json()),
-    ])
-      .then(([geoJson, budgets]: [{ features: any[] }, LocalGovBudget[]]) => {
-        const budgetMap = new Map(budgets.map((b) => [b.code, b]));
-
-        const featuresWithBudget = geoJson.features.map((feature) => {
-          const code = String(feature.properties.id).padStart(2, '0');
-          const center = getLargestPolygonCenter(feature.geometry);
-          return {
-            ...feature,
-            properties: {
-              code,
-              name: feature.properties.nam_ja,
-              budget: budgetMap.get(code),
-              center,
-            },
-          };
-        });
-
-        setGeoData(featuresWithBudget as GeoFeature[]);
+    fetch('/japan.geojson')
+      .then((res) => res.json())
+      .then((geoJson: { features: any[] }) => {
+        const features = geoJson.features.map((feature) => ({
+          ...feature,
+          properties: {
+            code: String(feature.properties.id).padStart(2, '0'),
+            name: feature.properties.nam_ja,
+            center: getLargestPolygonCenter(feature.geometry),
+          },
+        }));
+        setGeoData(features as GeoFeature[]);
       })
-      .catch((err) => console.error('データ読み込みエラー:', err));
+      .catch((err) => console.error('地図データ読み込みエラー:', err));
   }, []);
 
-  const getDefaultStyle = useCallback((feature: GeoFeature) => {
-    const budget = feature.properties.budget;
-    return {
-      fillColor: getBudgetColor(budget?.totalExpenditure ?? 0),
-      weight: 0,
-      fillOpacity: 0.7,
-    };
-  }, []);
+  const breaks = useMemo(() => {
+    const values = Array.from(budgetsByCode.values())
+      .map((b) => getMetricValue(b, metric))
+      .filter((v): v is number => v !== null);
+    return computeBreaks(values);
+  }, [budgetsByCode, metric]);
+
+  const getDefaultStyle = useCallback((feature: GeoFeature) => ({
+    fillColor: getClassColor(
+      getMetricValue(budgetsByCode.get(feature.properties.code), metric),
+      breaks
+    ),
+    weight: 0,
+    fillOpacity: 0.7,
+  }), [budgetsByCode, metric, breaks]);
 
   const getSelectedStyle = useCallback(() => ({
     fillColor: '#ffd700',
@@ -117,6 +147,33 @@ export default function BudgetMap({ onSelectRegion }: BudgetMapProps) {
     color: '#333',
     fillOpacity: 0.9,
   }), []);
+
+  // イベントハンドラのクロージャから常に最新のスタイル/指標/データを参照できるようにする
+  const getDefaultStyleRef = useRef(getDefaultStyle);
+  getDefaultStyleRef.current = getDefaultStyle;
+  const metricRef = useRef(metric);
+  metricRef.current = metric;
+  const budgetsRef = useRef(budgetsByCode);
+  budgetsRef.current = budgetsByCode;
+
+  // 指標・年度切替時に選択中以外のレイヤーを塗り直し、選択ツールチップの金額を更新する
+  useEffect(() => {
+    for (const { layer, feature } of Array.from(layerMapRef.current.values())) {
+      if (layer !== selectedLayerRef.current) {
+        layer.setStyle(getDefaultStyle(feature));
+      } else {
+        const tooltip = (layer as any)._selectTooltip as L.Tooltip | undefined;
+        if (tooltip) {
+          const value = getMetricValue(budgetsByCode.get(feature.properties.code), metric);
+          tooltip.setContent(
+            value === null
+              ? feature.properties.name ?? ''
+              : `<strong>${feature.properties.name}</strong><br>${METRIC_LABELS[metric]}: ${formatAmount(value)}`
+          );
+        }
+      }
+    }
+  }, [getDefaultStyle, budgetsByCode, metric]);
 
   const onEachFeature = useCallback((feature: GeoFeature, layer: Layer) => {
     const pathLayer = layer as Path;
@@ -127,13 +184,20 @@ export default function BudgetMap({ onSelectRegion }: BudgetMapProps) {
 
     const center = feature.properties.center as [number, number] | undefined;
 
+    const tooltipContent = () => {
+      const name = feature.properties.name ?? '';
+      const value = getMetricValue(budgetsRef.current.get(code), metricRef.current);
+      if (value === null) return name;
+      return `<strong>${name}</strong><br>${METRIC_LABELS[metricRef.current]}: ${formatAmount(value)}`;
+    };
+
     // ホバー用ツールチップを作成
     const hoverTooltip = feature.properties.name
       ? L.tooltip({
           permanent: false,
           direction: 'center',
           className: 'prefecture-tooltip',
-        }).setContent(feature.properties.name)
+        })
       : null;
 
     // 選択用ツールチップを作成
@@ -142,7 +206,7 @@ export default function BudgetMap({ onSelectRegion }: BudgetMapProps) {
           permanent: false,
           direction: 'center',
           className: 'prefecture-tooltip',
-        }).setContent(feature.properties.name)
+        })
       : null;
 
     pathLayer.on({
@@ -155,7 +219,7 @@ export default function BudgetMap({ onSelectRegion }: BudgetMapProps) {
             (entry) => entry.layer === selectedLayerRef.current
           );
           if (prevEntry) {
-            selectedLayerRef.current.setStyle(getDefaultStyle(prevEntry.feature));
+            selectedLayerRef.current.setStyle(getDefaultStyleRef.current(prevEntry.feature));
             // 前の選択のツールチップを閉じる
             const prevTooltip = (selectedLayerRef.current as any)._selectTooltip;
             if (prevTooltip) {
@@ -171,13 +235,12 @@ export default function BudgetMap({ onSelectRegion }: BudgetMapProps) {
 
         // 選択用ツールチップを表示
         if (selectTooltip && center) {
+          selectTooltip.setContent(tooltipContent());
           selectTooltip.setLatLng(center);
           map.openTooltip(selectTooltip);
         }
 
-        if (feature.properties.budget) {
-          onSelectRegion(feature.properties.budget);
-        }
+        onSelectCode(code);
       },
       mouseover: (e) => {
         const map = e.target._map;
@@ -185,12 +248,13 @@ export default function BudgetMap({ onSelectRegion }: BudgetMapProps) {
         // ホバー時に枠線を表示（選択中でなければ）
         if (selectedLayerRef.current !== pathLayer) {
           pathLayer.setStyle({
-            ...getDefaultStyle(feature),
+            ...getDefaultStyleRef.current(feature),
             weight: 2,
             color: '#333',
           });
           // ホバー用ツールチップを表示（選択中でなければ）
           if (hoverTooltip && center) {
+            hoverTooltip.setContent(tooltipContent());
             hoverTooltip.setLatLng(center);
             map.openTooltip(hoverTooltip);
           }
@@ -201,7 +265,7 @@ export default function BudgetMap({ onSelectRegion }: BudgetMapProps) {
 
         // ホバー解除時に枠線を消す（選択中でなければ）
         if (selectedLayerRef.current !== pathLayer) {
-          pathLayer.setStyle(getDefaultStyle(feature));
+          pathLayer.setStyle(getDefaultStyleRef.current(feature));
           // ホバー用ツールチップを閉じる
           if (hoverTooltip) {
             map.closeTooltip(hoverTooltip);
@@ -209,12 +273,28 @@ export default function BudgetMap({ onSelectRegion }: BudgetMapProps) {
         }
       },
     });
-  }, [onSelectRegion, getDefaultStyle, getSelectedStyle]);
+  }, [onSelectCode, getSelectedStyle]);
 
   const style = useCallback((feature: GeoFeature | undefined) => {
     if (!feature) return {};
     return getDefaultStyle(feature);
   }, [getDefaultStyle]);
+
+  // 凡例の階級ラベルを生成
+  const legendItems = useMemo(() => {
+    if (breaks.length === 0) return [];
+    return SEQUENTIAL_BLUES.map((color, i) => {
+      let label: string;
+      if (i === 0) {
+        label = `${formatAmount(breaks[0])}未満`;
+      } else if (i === breaks.length) {
+        label = `${formatAmount(breaks[breaks.length - 1])}以上`;
+      } else {
+        label = `${formatAmount(breaks[i - 1])}〜${formatAmount(breaks[i])}`;
+      }
+      return { color, label };
+    });
+  }, [breaks]);
 
   return (
     <div style={{ position: 'relative', height: '100%', width: '100%' }}>
@@ -236,25 +316,17 @@ export default function BudgetMap({ onSelectRegion }: BudgetMapProps) {
           />
         )}
       </MapContainer>
-      <div className="legend">
-        <div className="legend-title">歳出規模</div>
-        <div className="legend-item">
-          <div className="legend-color" style={{ background: '#c6dbef' }} />
-          <span>1000億円未満</span>
+      {legendItems.length > 0 && (
+        <div className="legend">
+          <div className="legend-title">{METRIC_LABELS[metric]}（5分位）</div>
+          {legendItems.map(({ color, label }) => (
+            <div className="legend-item" key={color}>
+              <div className="legend-color" style={{ background: color }} />
+              <span>{label}</span>
+            </div>
+          ))}
         </div>
-        <div className="legend-item">
-          <div className="legend-color" style={{ background: '#6baed6' }} />
-          <span>1000億〜5000億円</span>
-        </div>
-        <div className="legend-item">
-          <div className="legend-color" style={{ background: '#2171b5' }} />
-          <span>5000億〜1兆円</span>
-        </div>
-        <div className="legend-item">
-          <div className="legend-color" style={{ background: '#084594' }} />
-          <span>1兆円以上</span>
-        </div>
-      </div>
+      )}
     </div>
   );
 }

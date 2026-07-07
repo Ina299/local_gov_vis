@@ -3,7 +3,32 @@
     "allow": [
       "Bash(npx playwright install chromium)",
       "Bash(npx tsx:*)",
-      "Bash(git init:*)"
+      "Bash(git init:*)",
+      "Bash(npm install:*)",
+      "WebFetch(domain:www.zaimu.metro.tokyo.lg.jp)",
+      "WebSearch",
+      "WebFetch(domain:www.metro.tokyo.lg.jp)",
+      "Bash(npm uninstall:*)",
+      "Bash(npm run crawl:*)",
+      "Bash(npm run crawl:all:*)",
+      "Bash(cat:*)",
+      "Bash(tasklist:*)",
+      "Bash(npm run dev:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)",
+      "Bash(pip --version:*)",
+      "Bash(pip show:*)",
+      "Bash(python:*)",
+      "Bash(pip uninstall:*)",
+      "Bash(pip install:*)",
+      "Bash(pip cache:*)",
+      "Bash(/c/Users/kaine/AppData/Roaming/Python/Python310/Scripts/chandra.exe:*)",
+      "Bash(du:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(ls:*)",
+      "WebFetch(domain:www.pref.osaka.lg.jp)",
+      "WebFetch(domain:www.pref.hokkaido.lg.jp)"
     ]
   }
 }
