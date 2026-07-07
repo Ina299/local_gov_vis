@@ -36,6 +36,11 @@ export interface MetricDef {
   description?: string;
   /** 高いほど良い指標。色の濃淡を反転（低い＝悪い＝濃い）する */
   invertColor?: boolean;
+  /**
+   * 年度によらない静的値（住基 令和7年1月1日等）。
+   * 選択中は年度トグルを無効化し、推移グラフも出さない
+   */
+  yearIndependent?: boolean;
 }
 
 export const METRICS: MetricDef[] = [
@@ -55,6 +60,7 @@ export const METRICS: MetricDef[] = [
     kind: 'ratio',
     category: 'population',
     description: '65歳以上人口の割合（住民基本台帳 令和7年1月1日）',
+    yearIndependent: true,
   },
   {
     key: 'births',
@@ -62,6 +68,7 @@ export const METRICS: MetricDef[] = [
     kind: 'population',
     category: 'population',
     description: '出生者数（令和6年中・住民基本台帳）',
+    yearIndependent: true,
   },
   {
     key: 'foreignRatio',
@@ -69,6 +76,7 @@ export const METRICS: MetricDef[] = [
     kind: 'ratio',
     category: 'population',
     description: '外国人住民の割合（住民基本台帳 令和7年1月1日）',
+    yearIndependent: true,
   },
   {
     key: 'foreignBirthRatio',
@@ -76,6 +84,7 @@ export const METRICS: MetricDef[] = [
     kind: 'ratio',
     category: 'population',
     description: '出生数に占める外国人住民の割合（令和6年中・住民基本台帳）',
+    yearIndependent: true,
   },
   {
     key: 'populationChange',
@@ -83,6 +92,7 @@ export const METRICS: MetricDef[] = [
     kind: 'change',
     category: 'population',
     description: '人口増減数（令和6年中。転入・出生等 − 転出・死亡等）',
+    yearIndependent: true,
   },
   {
     key: 'fiscalIndex',

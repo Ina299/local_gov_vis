@@ -6,12 +6,14 @@ import { Sidebar } from '@/components/Sidebar';
 import { SearchBox, type SearchEntry } from '@/components/SearchBox';
 import { MetricMenu } from '@/components/MetricMenu';
 import {
+  METRICS,
   metricDef,
   metricCategory,
   categoryKeys,
   type MapMetricKey,
   type MetricCategory,
 } from '@/lib/metrics';
+import { dataUrl } from '@/lib/paths';
 import type { LocalGovBudget, GeoFeature, BudgetBasis, MapScale } from '@/types/budget';
 
 // Leafletはクライアントサイドでのみ動作
@@ -63,6 +65,7 @@ export default function Home() {
   const [metricKey, setMetricKey] = useState<MapMetricKey>('expenditure');
   const [scale, setScale] = useState<MapScale>('total');
   const category = metricCategory(metricKey);
+  const yearIndependent = metricDef(metricKey).yearIndependent ?? false;
   const [selectedCode, setSelectedCode] = useState<string | null>(null);
   const [loadingDrilldown, setLoadingDrilldown] = useState(false);
   const [searchEntries, setSearchEntries] = useState<SearchEntry[]>([]);
@@ -77,14 +80,14 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    fetch('/search-index.json')
+    fetch(dataUrl('/search-index.json'))
       .then((res) => res.json())
       .then(setSearchEntries)
       .catch((err) => console.error('検索インデックス読み込みエラー:', err));
 
     Promise.all([
-      fetch('/budgets.json').then((res) => res.json()),
-      fetch('/japan.geojson').then((res) => res.json()),
+      fetch(dataUrl('/budgets.json')).then((res) => res.json()),
+      fetch(dataUrl('/japan.geojson')).then((res) => res.json()),
     ])
       .then(([budgets, geoJson]: [LocalGovBudget[], { features: any[] }]) => {
         const features: GeoFeature[] = geoJson.features.map((feature: any) => ({
@@ -96,7 +99,10 @@ export default function Home() {
           geometry: feature.geometry,
         }));
         setNational({ budgets, features });
-        setYear(Math.max(...budgets.map((b) => b.fiscalYear)));
+        // URLの年度指定があれば優先（StrictModeの二重フェッチでも同じ結果になるようここで解決）
+        const urlYear = Number(new URLSearchParams(window.location.search).get('y'));
+        const available = new Set(budgets.map((b) => b.fiscalYear));
+        setYear(available.has(urlYear) ? urlYear : Math.max(...Array.from(available)));
       })
       .catch((err) => console.error('データ読み込みエラー:', err));
   }, []);
@@ -159,7 +165,7 @@ export default function Home() {
     if (view.level !== 'nationMuni' || !selectedCode || selectedCode.length !== 5) return;
     const prefCode = selectedCode.slice(0, 2);
     if (muniDetail?.prefCode === prefCode) return;
-    fetch(`/budgets/municipal/${prefCode}.json`)
+    fetch(dataUrl(`/budgets/municipal/${prefCode}.json`))
       .then((res) => res.json())
       .then((budgets: LocalGovBudget[]) => setMuniDetail({ prefCode, budgets }))
       .catch((err) => console.error('市区町村詳細データ読み込みエラー:', err));
@@ -167,10 +173,15 @@ export default function Home() {
 
   const selectedRegion = selectedCode ? lookupBudget(selectedCode, year) : null;
 
-  // 前年度の同一団体データ（前年比表示用）
-  const previousYearRegion = useMemo(
-    () => (selectedCode && year !== null ? lookupBudget(selectedCode, year - 1) : null),
-    [selectedCode, year, lookupBudget]
+  // 選択団体の全年度データ（サイドバーの推移グラフ・前年比用）
+  const yearlyBudgets = useMemo(
+    () =>
+      selectedCode
+        ? years
+            .map((y) => lookupBudget(selectedCode, y))
+            .filter((b): b is LocalGovBudget => b !== null)
+        : [],
+    [selectedCode, years, lookupBudget]
   );
 
   // 地図に渡すフィーチャー。市区町村ビューでは周辺県をグレー地として重ねる
@@ -188,6 +199,37 @@ export default function Home() {
     return [...background, ...municipal.features];
   }, [view, municipal, national, nationMuni]);
 
+  // 全国市区町村ビューへ切り替える（データは初回のみフェッチ）。
+  // selectCode指定時はその団体を選択して移動（URL復元用）
+  const enterNationMuni = useCallback(
+    (selectCode?: string) => {
+      const apply = () => {
+        setView({ level: 'nationMuni' });
+        setMunicipal(null);
+        if (selectCode) {
+          setSelectedCode(selectCode);
+          focusOn(selectCode);
+        }
+      };
+      if (nationMuni) {
+        apply();
+        return;
+      }
+      setLoadingDrilldown(true);
+      Promise.all([
+        fetch(dataUrl('/budgets/municipal-all.json')).then((res) => res.json()),
+        fetch(dataUrl('/geo/municipal-all.json')).then((res) => res.json()),
+      ])
+        .then(([budgets, geo]: [LocalGovBudget[], { features: GeoFeature[] }]) => {
+          setNationMuni({ budgets, features: geo.features });
+          apply();
+        })
+        .catch((err) => console.error('全国市区町村データ読み込みエラー:', err))
+        .finally(() => setLoadingDrilldown(false));
+    },
+    [nationMuni, focusOn]
+  );
+
   // 全国表示の粒度切替（都道府県 ⇔ 市区町村）。ドリルダウン中の切替も全国へ戻す
   const setGranularity = useCallback(
     (granularity: 'pref' | 'muni') => {
@@ -200,25 +242,9 @@ export default function Home() {
         return;
       }
       if (view.level === 'nationMuni') return;
-      if (nationMuni) {
-        setView({ level: 'nationMuni' });
-        setMunicipal(null);
-        return;
-      }
-      setLoadingDrilldown(true);
-      Promise.all([
-        fetch('/budgets/municipal-all.json').then((res) => res.json()),
-        fetch('/geo/municipal-all.json').then((res) => res.json()),
-      ])
-        .then(([budgets, geo]: [LocalGovBudget[], { features: GeoFeature[] }]) => {
-          setNationMuni({ budgets, features: geo.features });
-          setView({ level: 'nationMuni' });
-          setMunicipal(null);
-        })
-        .catch((err) => console.error('全国市区町村データ読み込みエラー:', err))
-        .finally(() => setLoadingDrilldown(false));
+      enterNationMuni();
     },
-    [view, nationMuni]
+    [view, enterNationMuni]
   );
 
   // 都道府県 → 市区町村ビューへドリルダウン。selectCode指定時はその団体を選択して移動
@@ -227,8 +253,8 @@ export default function Home() {
       national?.budgets.find((b) => b.code === prefCode)?.name ?? '';
     setLoadingDrilldown(true);
     Promise.all([
-      fetch(`/budgets/municipal/${prefCode}.json`).then((res) => res.json()),
-      fetch(`/geo/municipal/${prefCode}.json`).then((res) => res.json()),
+      fetch(dataUrl(`/budgets/municipal/${prefCode}.json`)).then((res) => res.json()),
+      fetch(dataUrl(`/geo/municipal/${prefCode}.json`)).then((res) => res.json()),
     ])
       .then(([budgets, geo]: [LocalGovBudget[], { features: GeoFeature[] }]) => {
         setMunicipal({ budgets, features: geo.features });
@@ -239,6 +265,49 @@ export default function Home() {
       .catch((err) => console.error('市区町村データ読み込みエラー:', err))
       .finally(() => setLoadingDrilldown(false));
   }, [national, focusOn]);
+
+  // --- URL共有: 表示状態（年度・指標・粒度・選択）をクエリに反映・復元 ---
+  const urlRestoredRef = useRef(false);
+
+  // 初回ロード時にクエリから状態を復元する
+  useEffect(() => {
+    if (!national || urlRestoredRef.current) return;
+    urlRestoredRef.current = true;
+
+    const params = new URLSearchParams(window.location.search);
+    const m = params.get('m');
+    if (m && METRICS.some((d) => d.key === m)) setMetricKey(m as MapMetricKey);
+    const s = params.get('s');
+    if (s === 'total' || s === 'perCapita') setScale(s);
+
+    const sel = params.get('sel');
+    const muniSel = sel && /^\d{5}$/.test(sel) ? sel : undefined;
+    const prefSel = sel && /^\d{2}$/.test(sel) ? sel : undefined;
+    const drillPref = params.get('v');
+
+    if (drillPref && /^\d{2}$/.test(drillPref)) {
+      drillDown(drillPref, muniSel);
+    } else if (params.get('g') === 'muni') {
+      enterNationMuni(muniSel);
+    } else if (prefSel) {
+      setSelectedCode(prefSel);
+      focusOn(prefSel);
+    }
+  }, [national, drillDown, enterNationMuni, focusOn]);
+
+  // 状態が変わるたびにURLへ書き出す（復元前は書かない）
+  useEffect(() => {
+    if (!urlRestoredRef.current) return;
+    const params = new URLSearchParams();
+    if (year !== null) params.set('y', String(year));
+    if (metricKey !== 'expenditure') params.set('m', metricKey);
+    if (scale !== 'total') params.set('s', scale);
+    if (view.level === 'nationMuni') params.set('g', 'muni');
+    if (view.level === 'municipal') params.set('v', view.prefCode);
+    if (selectedCode) params.set('sel', selectedCode);
+    const qs = params.toString();
+    window.history.replaceState(null, '', qs ? `?${qs}` : window.location.pathname);
+  }, [year, metricKey, scale, view, selectedCode]);
 
   // 「全国に戻る」ポップアップから全国ビューへ復帰
   // （表示していた県を選択状態にし、ドリルダウン用ポップアップも出す）
@@ -312,13 +381,23 @@ export default function Home() {
           )}
         </h1>
         <div className="header-controls">
-          <div className="metric-toggle" role="group" aria-label="年度">
+          <div
+            className={`metric-toggle ${yearIndependent ? 'disabled' : ''}`}
+            role="group"
+            aria-label="年度"
+            title={
+              yearIndependent
+                ? 'この指標は令和7年時点の統計のため年度切替はありません'
+                : undefined
+            }
+          >
             {years.map((y) => (
               <button
                 key={y}
-                className={`metric-toggle-button ${year === y ? 'active' : ''}`}
+                className={`metric-toggle-button ${year === y && !yearIndependent ? 'active' : ''}`}
                 onClick={() => setYear(y)}
                 aria-pressed={year === y}
+                disabled={yearIndependent}
               >
                 {y}
               </button>
@@ -414,7 +493,12 @@ export default function Home() {
           </div>
           {loadingDrilldown && <div className="map-loading">市区町村データを読み込み中...</div>}
         </div>
-        <Sidebar selectedRegion={selectedRegion} previousYearRegion={previousYearRegion} />
+        <Sidebar
+          selectedRegion={selectedRegion}
+          yearlyBudgets={yearlyBudgets}
+          metricKey={metricKey}
+          scale={scale}
+        />
       </main>
     </div>
   );

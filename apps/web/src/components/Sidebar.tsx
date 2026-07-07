@@ -3,11 +3,23 @@
 import { useState, useRef, useEffect, useMemo } from 'react';
 import type { LocalGovBudget, BudgetItem, FiscalIndicator } from '@/types/budget';
 import { formatAmount } from '@/lib/format';
+import {
+  metricDef,
+  metricValue,
+  formatMetricValue,
+  metricDisplayLabel,
+  categoryKeys,
+  type MapMetricKey,
+} from '@/lib/metrics';
+import type { MapScale } from '@/types/budget';
+import { TimeSeriesChart } from './TimeSeriesChart';
 
 interface SidebarProps {
   selectedRegion: LocalGovBudget | null;
-  /** 同一団体の前年度データ（前年比表示用） */
-  previousYearRegion?: LocalGovBudget | null;
+  /** 選択団体の年度別データ（推移グラフ・前年比に使用） */
+  yearlyBudgets: LocalGovBudget[];
+  metricKey: MapMetricKey;
+  scale: MapScale;
 }
 
 const BUDGET_TYPE_LABELS: Record<LocalGovBudget['budgetType'], string> = {
@@ -86,7 +98,33 @@ function BreakdownCard({ title, items, total }: BreakdownCardProps) {
   );
 }
 
-export function Sidebar({ selectedRegion, previousYearRegion }: SidebarProps) {
+/** ラベルと値の単純な一覧カード */
+function StatListCard({
+  title,
+  rows,
+}: {
+  title: string;
+  rows: Array<{ label: string; value: string }>;
+}) {
+  if (rows.length === 0) return null;
+  return (
+    <div className="budget-card">
+      <h3>{title}</h3>
+      <div className="budget-list">
+        {rows.map(({ label, value }) => (
+          <div className="budget-item" key={label}>
+            <div className="budget-item-head">
+              <span>{label}</span>
+              <span className="budget-item-value">{value}</span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export function Sidebar({ selectedRegion, yearlyBudgets, metricKey, scale }: SidebarProps) {
   const sidebarRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
@@ -101,86 +139,140 @@ export function Sidebar({ selectedRegion, previousYearRegion }: SidebarProps) {
     return () => sidebar.removeEventListener('wheel', handleWheel);
   }, []);
 
+  const def = metricDef(metricKey);
+
+  // 選択指標の年度推移
+  const series = useMemo(
+    () =>
+      yearlyBudgets.map((b) => ({
+        year: b.fiscalYear,
+        value: metricValue(b, metricKey, scale),
+      })),
+    [yearlyBudgets, metricKey, scale]
+  );
+
   if (!selectedRegion) {
     return (
       <aside className="sidebar" ref={sidebarRef}>
         <div className="budget-card">
           <h3>地域を選択</h3>
-          <p>地図上の都道府県をクリックすると予算データが表示されます</p>
+          <p>地図上の自治体をクリックすると詳細が表示されます</p>
         </div>
       </aside>
     );
   }
 
-  const perCapita =
-    selectedRegion.perCapitaExpenditure ??
-    (selectedRegion.population
-      ? selectedRegion.totalExpenditure / selectedRegion.population
-      : undefined);
+  const heroValue = metricValue(selectedRegion, metricKey, scale);
+  const previous = yearlyBudgets.find(
+    (b) => b.fiscalYear === selectedRegion.fiscalYear - 1
+  );
+  const prevValue = previous ? metricValue(previous, metricKey, scale) : null;
+  const yoy =
+    !def.yearIndependent && heroValue !== null && prevValue !== null && prevValue !== 0
+      ? ((heroValue - prevValue) / Math.abs(prevValue)) * 100
+      : null;
 
-  const yoy = previousYearRegion
-    ? ((selectedRegion.totalExpenditure - previousYearRegion.totalExpenditure) /
-        previousYearRegion.totalExpenditure) *
-      100
-    : null;
+  const showChart =
+    !def.yearIndependent && series.filter((p) => p.value !== null).length >= 2;
+
+  // 人口統計カードの行（人口カテゴリの全指標＋面積）
+  const populationRows = categoryKeys('population')
+    .map((key) => {
+      const value = metricValue(selectedRegion, key, scale);
+      return value !== null
+        ? { label: metricDef(key).label, value: formatMetricValue(value, key) }
+        : null;
+    })
+    .filter((row): row is { label: string; value: string } => row !== null);
+  if (selectedRegion.demographics?.areaKm2) {
+    populationRows.push({
+      label: '面積',
+      value: `${selectedRegion.demographics.areaKm2.toLocaleString()}km²`,
+    });
+  }
 
   return (
     <aside className="sidebar" ref={sidebarRef}>
       <div className="budget-card">
         <h3>{selectedRegion.name}</h3>
-        <p>{selectedRegion.fiscalYear}年度 {BUDGET_TYPE_LABELS[selectedRegion.budgetType]}</p>
+        <p>
+          {selectedRegion.fiscalYear}年度 {BUDGET_TYPE_LABELS[selectedRegion.budgetType]}
+        </p>
       </div>
 
+      {/* 選択中の指標 */}
       <div className="budget-card">
-        <h3>歳出総額</h3>
-        <div className="budget-amount">{formatAmount(selectedRegion.totalExpenditure)}</div>
+        <h3>{metricDisplayLabel(metricKey, scale)}</h3>
+        <div className="budget-amount">
+          {heroValue !== null ? formatMetricValue(heroValue, metricKey) : 'データなし'}
+        </div>
         {yoy !== null && (
-          <p>前年度比: {yoy >= 0 ? '+' : ''}{yoy.toFixed(1)}%</p>
+          <p>
+            前年度比: {yoy >= 0 ? '+' : ''}
+            {yoy.toFixed(1)}%
+          </p>
         )}
-        <p>歳入総額: {formatAmount(selectedRegion.totalRevenue)}</p>
-        {selectedRegion.population && (
-          <p>人口: {selectedRegion.population.toLocaleString()}人</p>
-        )}
-        {perCapita !== undefined && (
-          <p>一人当たり歳出: {formatAmount(perCapita)}</p>
-        )}
+        {def.description && <p className="attribution">{def.description}</p>}
       </div>
 
-      <BreakdownCard
-        title="歳出内訳（目的別）"
-        items={selectedRegion.expenditures}
-        total={selectedRegion.totalExpenditure}
-      />
-
-      {selectedRegion.expendituresByNature && (
-        <BreakdownCard
-          title="歳出内訳（性質別）"
-          items={selectedRegion.expendituresByNature}
-          total={selectedRegion.totalExpenditure}
-        />
-      )}
-
-      <BreakdownCard
-        title="歳入内訳"
-        items={selectedRegion.revenues}
-        total={selectedRegion.totalRevenue}
-      />
-
-      {selectedRegion.fiscalIndicators && selectedRegion.fiscalIndicators.length > 0 && (
+      {showChart && (
         <div className="budget-card">
-          <h3>財政指標</h3>
-          <div className="budget-list">
-            {selectedRegion.fiscalIndicators.map((indicator) => (
-              <div className="budget-item" key={indicator.name}>
-                <div className="budget-item-head">
-                  <span>{indicator.name}</span>
-                  <span className="budget-item-value">{formatIndicator(indicator)}</span>
-                </div>
-              </div>
-            ))}
-          </div>
+          <h3>推移</h3>
+          <TimeSeriesChart series={series} metricKey={metricKey} />
         </div>
       )}
+
+      {def.category === 'money' && (
+        <>
+          <div className="budget-card">
+            <h3>収支サマリー</h3>
+            <p>歳出総額: {formatAmount(selectedRegion.totalExpenditure)}</p>
+            <p>歳入総額: {formatAmount(selectedRegion.totalRevenue)}</p>
+            {selectedRegion.population && (
+              <p>人口: {selectedRegion.population.toLocaleString()}人</p>
+            )}
+          </div>
+          <BreakdownCard
+            title="歳出内訳（目的別）"
+            items={selectedRegion.expenditures}
+            total={selectedRegion.totalExpenditure}
+          />
+          {selectedRegion.expendituresByNature && (
+            <BreakdownCard
+              title="歳出内訳（性質別）"
+              items={selectedRegion.expendituresByNature}
+              total={selectedRegion.totalExpenditure}
+            />
+          )}
+          <BreakdownCard
+            title="歳入内訳"
+            items={selectedRegion.revenues}
+            total={selectedRegion.totalRevenue}
+          />
+        </>
+      )}
+
+      {def.category === 'population' && (
+        <StatListCard title="人口統計" rows={populationRows} />
+      )}
+
+      {def.category === 'fiscal' &&
+        selectedRegion.fiscalIndicators &&
+        selectedRegion.fiscalIndicators.length > 0 && (
+          <div className="budget-card">
+            <h3>財政指標</h3>
+            <div className="budget-list">
+              {selectedRegion.fiscalIndicators.map((indicator) => (
+                <div className="budget-item" key={indicator.name}>
+                  <div className="budget-item-head">
+                    <span>{indicator.name}</span>
+                    <span className="budget-item-value">{formatIndicator(indicator)}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
 
       <div className="budget-card">
         <h3>データソース</h3>

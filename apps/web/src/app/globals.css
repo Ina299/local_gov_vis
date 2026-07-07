@@ -65,6 +65,14 @@ body {
   font-weight: 600;
 }
 
+.metric-toggle.disabled {
+  opacity: 0.4;
+}
+
+.metric-toggle-button:disabled {
+  cursor: not-allowed;
+}
+
 .main {
   flex: 1;
   display: flex;
