@@ -1,6 +1,8 @@
 /**
- * 人口統計（人口密度・高齢化比率・外国人比率・生産年齢外国人比率の元データ）を取得し、
+ * 人口統計（人口密度・高齢化比率・外国人比率・出生・増減の元データ）を取得し、
  * 生成済みの予算JSONに demographics フィールドとして付与する。
+ * あわせて、静的値になっていた都道府県の人口を市区町村マスタ人口の
+ * 県別合算で年度別の値に置き換える。
  *
  * データソース:
  *   人口・出生: 総務省「住民基本台帳に基づく人口、人口動態及び世帯数」（令和7年1月1日）
@@ -212,8 +214,30 @@ function buildDemographics(
   return result;
 }
 
-/** 予算JSONファイルにdemographicsを付与して書き戻す */
-function patchFile(path: string, demographics: Map<string, Demographics>): number {
+/**
+ * 市区町村予算JSON（地方財政状況調査マスタの年度別人口を持つ）から
+ * 「都道府県コード:年度」→ 人口合算 を作る
+ */
+function buildPrefYearPopulations(muniDir: string): Map<string, number> {
+  const result = new Map<string, number>();
+  for (const file of readdirSync(muniDir).filter((f) => /^\d{2}\.json$/.test(f))) {
+    const prefCode = file.slice(0, 2);
+    const budgets: LocalGovBudget[] = JSON.parse(readFileSync(join(muniDir, file), 'utf-8'));
+    for (const b of budgets) {
+      if (!b.population) continue;
+      const key = `${prefCode}:${b.fiscalYear}`;
+      result.set(key, (result.get(key) ?? 0) + b.population);
+    }
+  }
+  return result;
+}
+
+/** 予算JSONファイルにdemographics（と都道府県は年度別人口）を付与して書き戻す */
+function patchFile(
+  path: string,
+  demographics: Map<string, Demographics>,
+  prefYearPopulations?: Map<string, number>
+): number {
   if (!existsSync(path)) {
     console.warn(`スキップ（未生成）: ${path}`);
     return 0;
@@ -225,6 +249,13 @@ function patchFile(path: string, demographics: Map<string, Demographics>): numbe
     if (d) {
       b.demographics = d;
       patched++;
+    }
+    if (prefYearPopulations && b.code.length === 2) {
+      const population = prefYearPopulations.get(`${b.code}:${b.fiscalYear}`);
+      if (population) {
+        b.population = population;
+        b.perCapitaExpenditure = Math.round(b.totalExpenditure / population);
+      }
     }
   }
   writeFileSync(path, JSON.stringify(budgets));
@@ -251,18 +282,20 @@ async function main() {
   );
 
   const demographics = buildDemographics(total, foreign, totalDynamics, foreignDynamics, area);
+  const muniDir = join(WEB_PUBLIC, 'budgets', 'municipal');
 
-  // 都道府県
+  // 都道府県（年度別人口は市区町村マスタの県別合算で置き換える）
+  const prefYearPopulations = buildPrefYearPopulations(muniDir);
+  console.log(`都道府県別・年度別人口: ${prefYearPopulations.size}件`);
   for (const path of [
     join(WEB_PUBLIC, 'budgets.json'),
     join(REPO_ROOT, 'data', 'budgets', 'prefectures.json'),
   ]) {
-    const n = patchFile(path, demographics);
+    const n = patchFile(path, demographics, prefYearPopulations);
     console.log(`${path}: ${n}件付与`);
   }
 
   // 市区町村（都道府県別）
-  const muniDir = join(WEB_PUBLIC, 'budgets', 'municipal');
   let muniPatched = 0;
   for (const file of readdirSync(muniDir).filter((f) => /^\d{2}\.json$/.test(f))) {
     muniPatched += patchFile(join(muniDir, file), demographics);
