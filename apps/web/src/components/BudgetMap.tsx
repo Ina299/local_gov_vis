@@ -53,7 +53,8 @@ interface BudgetMapProps {
 const SEQUENTIAL_BLUES = ['#cde2fb', '#86b6ef', '#3987e5', '#1c5cab', '#0d366b'];
 const SEQUENTIAL_REDS = ['#fcdcd3', '#f2a891', '#e06a4b', '#b03c22', '#6b1a0d'];
 const SEQUENTIAL_GREENS = ['#d3ecd6', '#96d1a0', '#4fa763', '#2c7241', '#123f20'];
-const NO_DATA_COLOR = '#e0e0e0';
+// データなしはランプの色と絶対に紛れない原色ピンク（マゼンタ）で示す
+const NO_DATA_COLOR = '#ff00ff';
 
 // 指標カテゴリごとの色ランプ（歳入・歳出: 青 / 人口: 緑 / 財政指標: 赤で危機感を強調）
 function rampFor(metricKey: MapMetricKey): string[] {
@@ -782,6 +783,10 @@ export default function BudgetMap({
               <span>{label}</span>
             </div>
           ))}
+          <div className="legend-item">
+            <div className="legend-color" style={{ background: NO_DATA_COLOR }} />
+            <span>データなし</span>
+          </div>
         </div>
       )}
     </div>
