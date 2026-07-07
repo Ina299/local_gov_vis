@@ -4,6 +4,8 @@ export interface BudgetItem {
   amount: number;
   category: BudgetCategory;
   yearOverYear?: number;
+  /** 充当一般財源等（円。地方財政状況調査の目的別財源内訳。歳出の大項目のみ） */
+  generalFunds?: number;
   /** サブカテゴリ（内訳） */
   children?: BudgetItem[];
 }

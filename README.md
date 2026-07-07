@@ -22,6 +22,7 @@
 | データ | 出典 |
 |---|---|
 | 財政（決算・財政指標） | [Japan Dashboard 地方財政（都道府県ごと・市町村ごと）](https://www.digital.go.jp/resources/japandashboard/prefectural-finance)／デジタル庁・総務省（地方財政状況調査） |
+| 目的別歳出の財源内訳（収支図） | [地方財政状況調査 調査表「歳出内訳及び財源内訳」](https://www.e-stat.go.jp/stat-search/files?toukei=00200251&tstat=000001077755)（総務省・e-Stat） |
 | 人口・出生・増減・外国人 | [住民基本台帳に基づく人口、人口動態及び世帯数](https://www.soumu.go.jp/main_sosiki/jichi_gyousei/daityo/jinkou_jinkoudoutai-setaisuu.html)（総務省・令和7年1月1日） |
 | 面積 | [全国都道府県市区町村別面積調](https://www.gsi.go.jp/KOKUJYOHO/MENCHO-title.htm)（国土地理院） |
 | 行政区域境界 | 国土交通省 国土数値情報（行政区域）を [smartnews-smri/japan-topography](https://github.com/smartnews-smri/japan-topography) が1%簡略化したもの |
@@ -50,6 +51,7 @@ npm run -w @local-gov/crawler typecheck
 npm run -w @local-gov/crawler import:dashboard      # 都道府県の財政CSV
 npm run -w @local-gov/crawler import:municipal      # 市区町村の財政CSV＋境界＋検索インデックス
 npm run -w @local-gov/crawler import:demographics   # 人口統計の付与＋全国市区町村用の結合データ再生成
+npm run -w @local-gov/crawler import:funding        # 目的別歳出の充当一般財源等（収支図用）の付与
 ```
 
 ## 構成

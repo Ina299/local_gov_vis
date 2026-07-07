@@ -352,6 +352,80 @@ body {
   border-radius: 4px;
 }
 
+.card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.text-button {
+  padding: 0.2rem 0.6rem;
+  background: transparent;
+  border: 1px solid #2a78d6;
+  border-radius: 6px;
+  color: #2a78d6;
+  font-size: 0.8rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.text-button:hover {
+  background: #eaf2fc;
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 3000;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.modal {
+  background: white;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem 1.5rem;
+  width: min(980px, 100%);
+  max-height: 92vh;
+  overflow: auto;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+}
+
+.modal-wide {
+  width: min(1200px, 100%);
+}
+
+.modal-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.modal-head h3 {
+  font-size: 1.1rem;
+  color: #1a1a2e;
+}
+
+.modal-close {
+  padding: 0 0.4rem;
+  background: transparent;
+  border: none;
+  font-size: 1.6rem;
+  line-height: 1;
+  color: #52514e;
+  cursor: pointer;
+}
+
+.modal-close:hover {
+  color: #1a1a2e;
+}
+
 .attribution {
   font-size: 0.8rem;
   color: #52514e;

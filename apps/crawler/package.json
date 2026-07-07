@@ -10,6 +10,7 @@
     "import:dashboard": "tsx src/import-dashboard.ts",
     "import:municipal": "tsx src/import-municipal.ts",
     "import:demographics": "tsx src/import-demographics.ts && tsx src/build-municipal-all.ts",
+    "import:funding": "tsx src/import-funding.ts",
     "build:municipal-all": "tsx src/build-municipal-all.ts",
     "lint": "eslint src/",
     "typecheck": "tsc --noEmit"

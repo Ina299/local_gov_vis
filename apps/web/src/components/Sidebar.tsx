@@ -13,6 +13,7 @@ import {
 } from '@/lib/metrics';
 import type { MapScale } from '@/types/budget';
 import { TimeSeriesChart } from './TimeSeriesChart';
+import { SankeyModal } from './SankeyModal';
 
 interface SidebarProps {
   selectedRegion: LocalGovBudget | null;
@@ -126,6 +127,7 @@ function StatListCard({
 
 export function Sidebar({ selectedRegion, yearlyBudgets, metricKey, scale }: SidebarProps) {
   const sidebarRef = useRef<HTMLElement>(null);
+  const [showSankey, setShowSankey] = useState(false);
 
   useEffect(() => {
     const sidebar = sidebarRef.current;
@@ -225,7 +227,12 @@ export function Sidebar({ selectedRegion, yearlyBudgets, metricKey, scale }: Sid
       {def.category === 'money' && (
         <>
           <div className="budget-card">
-            <h3>収支サマリー</h3>
+            <div className="card-head">
+              <h3>収支サマリー</h3>
+              <button className="text-button" onClick={() => setShowSankey(true)}>
+                収支図
+              </button>
+            </div>
             <p>歳出総額: {formatAmount(selectedRegion.totalExpenditure)}</p>
             <p>歳入総額: {formatAmount(selectedRegion.totalRevenue)}</p>
             {selectedRegion.population && (
@@ -289,6 +296,10 @@ export function Sidebar({ selectedRegion, yearlyBudgets, metricKey, scale }: Sid
           </a>
         )}
       </div>
+
+      {showSankey && (
+        <SankeyModal budget={selectedRegion} onClose={() => setShowSankey(false)} />
+      )}
     </aside>
   );
 }
