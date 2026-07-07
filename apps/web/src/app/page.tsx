@@ -42,12 +42,14 @@ export default function Home() {
   const [selectedCode, setSelectedCode] = useState<string | null>(null);
   const [loadingDrilldown, setLoadingDrilldown] = useState(false);
   const [searchEntries, setSearchEntries] = useState<SearchEntry[]>([]);
-  const [focusTarget, setFocusTarget] = useState<{ code: string; seq: number } | null>(null);
+  const [focusTarget, setFocusTarget] = useState<
+    { code: string; seq: number; zoom?: boolean } | null
+  >(null);
   const focusSeqRef = useRef(0);
 
-  const focusOn = useCallback((code: string) => {
+  const focusOn = useCallback((code: string, zoom = true) => {
     focusSeqRef.current += 1;
-    setFocusTarget({ code, seq: focusSeqRef.current });
+    setFocusTarget({ code, seq: focusSeqRef.current, zoom });
   }, []);
 
   useEffect(() => {
@@ -157,11 +159,17 @@ export default function Home() {
   }, [national, focusOn]);
 
   // 「全国に戻る」ポップアップから全国ビューへ復帰
+  // （表示していた県を選択状態にし、ドリルダウン用ポップアップも出す）
   const backToNation = useCallback(() => {
+    if (view.level === 'municipal') {
+      setSelectedCode(view.prefCode);
+      focusOn(view.prefCode, false);
+    } else {
+      setSelectedCode(null);
+    }
     setView({ level: 'nation' });
     setMunicipal(null);
-    setSelectedCode(null);
-  }, []);
+  }, [view, focusOn]);
 
   // 選択の反映。市区町村ビューで他県（2桁コード）を選択したら
   // 市区町村レイヤーを閉じて全国ビューに戻る（選択は維持）

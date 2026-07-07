@@ -33,8 +33,11 @@ interface BudgetMapProps {
   onDrillDown?: (code: string) => void;
   /** 市区町村ビューでのみ渡される。県域の近くに「全国に戻る」ポップアップを出す */
   onBack?: () => void;
-  /** 検索などで特定の自治体へ地図を移動させる。seqが変わるたびに実行される */
-  focusTarget?: { code: string; seq: number } | null;
+  /**
+   * 検索などで特定の自治体へ地図を移動させる。seqが変わるたびに実行される。
+   * zoom: false ならズームせずポップアップ表示のみ（都道府県の場合）
+   */
+  focusTarget?: { code: string; seq: number; zoom?: boolean } | null;
 }
 
 // 検証済みパレットのシーケンシャル（blue）ランプ: steps 100/250/400/550/700
@@ -512,7 +515,9 @@ export default function BudgetMap({
     if (!bounds) return;
 
     const isPref = focusTarget.code.length === 2;
-    map.fitBounds(bounds, { padding: [60, 60], maxZoom: isPref ? 9 : 11 });
+    if (focusTarget.zoom !== false) {
+      map.fitBounds(bounds, { padding: [60, 60], maxZoom: isPref ? 9 : 11 });
+    }
     if (isPref) {
       const center = matched[0].feature.properties.center as [number, number] | undefined;
       openDrillPopup(
