@@ -73,6 +73,58 @@ body {
 .map-container {
   flex: 1;
   height: calc(100vh - 80px);
+  position: relative;
+}
+
+.header-breadcrumb {
+  margin-left: 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.header-breadcrumb::before {
+  content: '›';
+  margin-right: 0.75rem;
+}
+
+.drill-popup {
+  text-align: center;
+}
+
+.drill-popup-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+  color: #1a1a2e;
+}
+
+.map-loading {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  padding: 0.4rem 1rem;
+  background: rgba(26, 26, 46, 0.85);
+  color: white;
+  border-radius: 6px;
+  font-size: 0.875rem;
+}
+
+.drill-popup-button {
+  padding: 0.35rem 0.8rem;
+  background: #2a78d6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.drill-popup-button:hover {
+  background: #256abf;
 }
 
 .sidebar {

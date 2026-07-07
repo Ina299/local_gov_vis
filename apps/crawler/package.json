@@ -8,6 +8,7 @@
     "crawl:prefecture": "tsx src/index.ts --type prefecture",
     "crawl:city": "tsx src/index.ts --type city",
     "import:dashboard": "tsx src/import-dashboard.ts",
+    "import:municipal": "tsx src/import-municipal.ts",
     "lint": "eslint src/",
     "typecheck": "tsc --noEmit"
   },

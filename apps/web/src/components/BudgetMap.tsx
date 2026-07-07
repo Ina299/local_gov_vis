@@ -1,23 +1,46 @@
 'use client';
 
-import { useEffect, useState, useRef, useCallback, useMemo } from 'react';
-import { MapContainer, TileLayer, GeoJSON, useMapEvents } from 'react-leaflet';
+import { useEffect, useRef, useCallback, useMemo } from 'react';
+import { MapContainer, TileLayer, GeoJSON, useMapEvents, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import type { Layer, Path } from 'leaflet';
 import type { LocalGovBudget, GeoFeature, BudgetBasis, MapScale } from '@/types/budget';
 import { formatAmount } from '@/lib/format';
 
 interface BudgetMapProps {
-  /** 選択年度の 自治体コード → 予算データ */
+  /** ビュー識別子（変わるとレイヤーを作り直す） */
+  viewKey: string;
+  features: GeoFeature[];
+  /**
+   * 表示範囲合わせに使う主役のフィーチャー。
+   * 市区町村ビューではfeaturesに周辺県の背景も含まれるため分けて渡す。
+   * 省略時はfeatures全体
+   */
+  focusFeatures?: GeoFeature[];
+  /** 選択年度の 自治体コード → 予算データ（現在の階層） */
   budgetsByCode: Map<string, LocalGovBudget>;
+  /**
+   * 市区町村ビューで背景の都道府県（2桁コード）を塗るための
+   * 全国データ。全国モードの濃淡がそのまま維持される
+   */
+  backgroundBudgetsByCode?: Map<string, LocalGovBudget>;
   basis: BudgetBasis;
   scale: MapScale;
+  /** 選択中の自治体コード（pageが管理し、ビュー切替をまたいで維持される） */
+  selectedCode: string | null;
   onSelectCode: (code: string | null) => void;
+  /** 都道府県（2桁コード）クリック時にドリルダウン用ポップアップを出す */
+  onDrillDown?: (code: string) => void;
+  /** 市区町村ビューでのみ渡される。県域の近くに「全国に戻る」ポップアップを出す */
+  onBack?: () => void;
 }
 
 // 検証済みパレットのシーケンシャル（blue）ランプ: steps 100/250/400/550/700
 const SEQUENTIAL_BLUES = ['#cde2fb', '#86b6ef', '#3987e5', '#1c5cab', '#0d366b'];
 const NO_DATA_COLOR = '#e0e0e0';
+
+const NATION_CENTER: [number, number] = [36.5, 138];
+const NATION_ZOOM = 5;
 
 /** 指標の表示名（例: 歳出総額 / 一人当たり歳入） */
 function metricLabel(basis: BudgetBasis, scale: MapScale): string {
@@ -110,49 +133,253 @@ function getClassColor(value: number | null, breaks: number[]): string {
   return SEQUENTIAL_BLUES[i];
 }
 
+function breaksFor(budgets: Map<string, LocalGovBudget>, basis: BudgetBasis, scale: MapScale): number[] {
+  const values = Array.from(budgets.values())
+    .map((b) => getMetricValue(b, basis, scale))
+    .filter((v): v is number => v !== null);
+  return computeBreaks(values);
+}
+
 /** 地図の何もない場所（海など）のクリックを拾う */
 function MapClickHandler({ onClick }: { onClick: () => void }) {
   useMapEvents({ click: onClick });
   return null;
 }
 
-export default function BudgetMap({ budgetsByCode, basis, scale, onSelectCode }: BudgetMapProps) {
-  const [geoData, setGeoData] = useState<GeoFeature[] | null>(null);
-  const selectedLayerRef = useRef<Path | null>(null);
-  const layerMapRef = useRef<Map<string, { layer: Path; feature: GeoFeature }>>(new Map());
+/** 市区町村ビューへ入ったとき県全体に表示範囲を合わせる */
+function FitView({ viewKey, features }: { viewKey: string; features: GeoFeature[] }) {
+  const map = useMap();
+  useEffect(() => {
+    if (viewKey === 'nation') return;
+    if (features.length > 0) {
+      // 離島（小笠原など）まで含めると本土が豆粒になるため、本土クラスタに合わせる
+      const result = mainClusterBounds(features);
+      if (result) {
+        const { cluster } = result;
+        const bounds = L.latLngBounds([cluster.s, cluster.w], [cluster.n, cluster.e]);
+        // 既に県全体より深くズームしている場合は、ズームアウトになるので表示範囲を変えない
+        // （同ズームなら位置合わせのパンだけ行われるので実行する）
+        const targetZoom = map.getBoundsZoom(bounds, false, L.point(40, 40));
+        if (map.getZoom() > targetZoom) return;
+        map.fitBounds(bounds, { padding: [40, 40] });
+      }
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [viewKey, map]);
+  return null;
+}
+
+interface SimpleBounds {
+  s: number;
+  w: number;
+  n: number;
+  e: number;
+}
+
+/**
+ * 県の「本土」（最大の連結クラスタ）のバウンディングボックスを求める。
+ * 全フィーチャーのバウンディングボックスだと離島（小笠原・北方領土など）まで
+ * 含んでしまい、ポップアップが本土から非常に遠い位置に出るため。
+ * members はクラスタに含まれる各フィーチャーのバウンディングボックス。
+ */
+function mainClusterBounds(
+  features: GeoFeature[]
+): { cluster: SimpleBounds; members: SimpleBounds[] } | null {
+  const GAP = 0.6; // これ以上（度）離れたフィーチャーは別クラスタ＝離島とみなす
+
+  // フィーチャー内で最大のリングの実面積。バウンディングボックス面積だと
+  // 離島が点在するMultiPolygon（小笠原村など）が最大になってしまう
+  const largestRingArea = (geometry: any): number => {
+    if (geometry.type === 'Polygon') return calcPolygonArea(geometry.coordinates[0]);
+    if (geometry.type === 'MultiPolygon') {
+      return Math.max(...geometry.coordinates.map((p: number[][][]) => calcPolygonArea(p[0])));
+    }
+    return 0;
+  };
+
+  const boxes: Array<SimpleBounds & { ringArea: number }> = [];
+  for (const feature of features) {
+    const b = L.geoJSON(feature as any).getBounds();
+    if (b.isValid()) {
+      boxes.push({
+        s: b.getSouth(),
+        w: b.getWest(),
+        n: b.getNorth(),
+        e: b.getEast(),
+        ringArea: largestRingArea(feature.geometry),
+      });
+    }
+  }
+  if (boxes.length === 0) return null;
+
+  const seed = boxes.reduce((a, b) => (b.ringArea > a.ringArea ? b : a));
+
+  let cluster: SimpleBounds = { s: seed.s, w: seed.w, n: seed.n, e: seed.e };
+  const members: SimpleBounds[] = [seed];
+  const remaining = boxes.filter((b) => b !== seed);
+  let merged = true;
+  while (merged) {
+    merged = false;
+    for (let i = remaining.length - 1; i >= 0; i--) {
+      const b = remaining[i];
+      const near =
+        b.w <= cluster.e + GAP &&
+        b.e >= cluster.w - GAP &&
+        b.s <= cluster.n + GAP &&
+        b.n >= cluster.s - GAP;
+      if (near) {
+        cluster = {
+          s: Math.min(cluster.s, b.s),
+          w: Math.min(cluster.w, b.w),
+          n: Math.max(cluster.n, b.n),
+          e: Math.max(cluster.e, b.e),
+        };
+        members.push(b);
+        remaining.splice(i, 1);
+        merged = true;
+      }
+    }
+  }
+  return { cluster, members };
+}
+
+/** 市区町村ビューで県域の近くに「全国に戻る」ポップアップを常時表示する */
+function BackPopup({
+  viewKey,
+  features,
+  onBack,
+}: {
+  viewKey: string;
+  features: GeoFeature[];
+  onBack?: () => void;
+}) {
+  const map = useMap();
+  const onBackRef = useRef(onBack);
+  onBackRef.current = onBack;
 
   useEffect(() => {
-    fetch('/japan.geojson')
-      .then((res) => res.json())
-      .then((geoJson: { features: any[] }) => {
-        const features = geoJson.features.map((feature) => ({
-          ...feature,
-          properties: {
-            code: String(feature.properties.id).padStart(2, '0'),
-            name: feature.properties.nam_ja,
-            center: getLargestPolygonCenter(feature.geometry),
-          },
-        }));
-        setGeoData(features as GeoFeature[]);
-      })
-      .catch((err) => console.error('地図データ読み込みエラー:', err));
-  }, []);
+    if (!onBackRef.current || features.length === 0) return;
 
-  const breaks = useMemo(() => {
-    const values = Array.from(budgetsByCode.values())
-      .map((b) => getMetricValue(b, basis, scale))
-      .filter((v): v is number => v !== null);
-    return computeBreaks(values);
-  }, [budgetsByCode, basis, scale]);
+    const result = mainClusterBounds(features);
+    if (!result) return;
+    const { cluster, members } = result;
 
-  const getDefaultStyle = useCallback((feature: GeoFeature) => ({
-    fillColor: getClassColor(
-      getMetricValue(budgetsByCode.get(feature.properties.code), basis, scale),
-      breaks
-    ),
-    weight: 0,
-    fillOpacity: 0.7,
-  }), [budgetsByCode, basis, scale, breaks]);
+    const container = document.createElement('div');
+    container.className = 'drill-popup';
+    const button = document.createElement('button');
+    button.className = 'drill-popup-button';
+    button.textContent = '← 全国に戻る';
+    // 縮尺・位置は変えず、市区町村レイヤーを閉じて全国表示に戻すだけ
+    button.onclick = () => onBackRef.current?.();
+    container.appendChild(button);
+
+    // 中央直上ではなく、東寄り（中央と東端の中間）に置く。
+    // 緯度はバウンディングボックス北端ではなく「その経度に実在する自治体の北端」を使う
+    // （横長の県だとボックス北端は県境からかなり浮いてしまうため）
+    const centerLng = (cluster.w + cluster.e) / 2;
+    const anchorLng = centerLng + (cluster.e - centerLng) * 0.5;
+    const atLng = members.filter((b) => b.w <= anchorLng && anchorLng <= b.e);
+    const anchorLat = atLng.length > 0 ? Math.max(...atLng.map((b) => b.n)) : cluster.n;
+    const anchor = L.latLng(anchorLat, anchorLng);
+
+    const popup = L.popup({
+      closeButton: false,
+      autoClose: false,
+      closeOnClick: false,
+      autoPan: false,
+      offset: L.point(0, -4),
+    })
+      .setLatLng(anchor)
+      .setContent(container)
+      .addTo(map);
+
+    // 深いズームで県北端が画面外になっても戻れるよう、常に表示範囲内へクランプする
+    const clampIntoView = () => {
+      const view = map.getBounds().pad(-0.08);
+      popup.setLatLng(
+        L.latLng(
+          Math.min(Math.max(anchor.lat, view.getSouth()), view.getNorth()),
+          Math.min(Math.max(anchor.lng, view.getWest()), view.getEast())
+        )
+      );
+    };
+    clampIntoView();
+    map.on('moveend', clampIntoView);
+
+    return () => {
+      map.off('moveend', clampIntoView);
+      map.removeLayer(popup);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [viewKey, map]);
+  return null;
+}
+
+export default function BudgetMap({
+  viewKey,
+  features,
+  focusFeatures,
+  budgetsByCode,
+  backgroundBudgetsByCode,
+  basis,
+  scale,
+  selectedCode,
+  onSelectCode,
+  onDrillDown,
+  onBack,
+}: BudgetMapProps) {
+  // 同一コードが複数ポリゴンを持つ（政令市の区）ため、レイヤーは配列で持つ
+  const layersRef = useRef<Array<{ layer: Path; feature: GeoFeature }>>([]);
+  // 選択状態はpageが持ち、refは常にプロパティを反映する（ビュー切替でも維持）
+  const selectedCodeRef = useRef<string | null>(selectedCode);
+  selectedCodeRef.current = selectedCode;
+
+  // 各featureに重心（ツールチップ位置）を付与
+  const preparedFeatures = useMemo(
+    () =>
+      features.map((feature) => ({
+        ...feature,
+        properties: {
+          ...feature.properties,
+          center: getLargestPolygonCenter(feature.geometry),
+        },
+      })),
+    [features]
+  );
+
+  // コードから予算データを引く。背景の都道府県（2桁コード）は全国データから
+  const budgetFor = useCallback(
+    (code: string): LocalGovBudget | undefined =>
+      code.length === 2 && backgroundBudgetsByCode
+        ? backgroundBudgetsByCode.get(code)
+        : budgetsByCode.get(code),
+    [budgetsByCode, backgroundBudgetsByCode]
+  );
+
+  // 現在階層の分位（凡例にも使用）
+  const breaks = useMemo(
+    () => breaksFor(budgetsByCode, basis, scale),
+    [budgetsByCode, basis, scale]
+  );
+  // 背景の都道府県用の分位（全国モードと同じ濃淡になる）
+  const backgroundBreaks = useMemo(
+    () => (backgroundBudgetsByCode ? breaksFor(backgroundBudgetsByCode, basis, scale) : []),
+    [backgroundBudgetsByCode, basis, scale]
+  );
+
+  const getDefaultStyle = useCallback((feature: GeoFeature) => {
+    const code = feature.properties.code;
+    const isBackground = code.length === 2 && backgroundBudgetsByCode !== undefined;
+    return {
+      fillColor: getClassColor(
+        getMetricValue(budgetFor(code), basis, scale),
+        isBackground ? backgroundBreaks : breaks
+      ),
+      weight: viewKey === 'nation' || isBackground ? 0 : 1,
+      color: '#ffffff',
+      fillOpacity: 0.7,
+    };
+  }, [budgetFor, backgroundBudgetsByCode, basis, scale, breaks, backgroundBreaks, viewKey]);
 
   const getSelectedStyle = useCallback(() => ({
     fillColor: '#ffd700',
@@ -164,63 +391,70 @@ export default function BudgetMap({ budgetsByCode, basis, scale, onSelectCode }:
   // イベントハンドラのクロージャから常に最新のスタイル/指標/データを参照できるようにする
   const getDefaultStyleRef = useRef(getDefaultStyle);
   getDefaultStyleRef.current = getDefaultStyle;
+  const getSelectedStyleRef = useRef(getSelectedStyle);
+  getSelectedStyleRef.current = getSelectedStyle;
   const basisRef = useRef(basis);
   basisRef.current = basis;
   const scaleRef = useRef(scale);
   scaleRef.current = scale;
-  const budgetsRef = useRef(budgetsByCode);
-  budgetsRef.current = budgetsByCode;
+  const budgetForRef = useRef(budgetFor);
+  budgetForRef.current = budgetFor;
+  const onDrillDownRef = useRef(onDrillDown);
+  onDrillDownRef.current = onDrillDown;
 
-  // 選択を解除して通常スタイルに戻す（海クリック時）
-  const clearSelection = useCallback(() => {
-    if (!selectedLayerRef.current) return;
-    const prevEntry = Array.from(layerMapRef.current.values()).find(
-      (entry) => entry.layer === selectedLayerRef.current
-    );
-    if (prevEntry) {
-      prevEntry.layer.setStyle(getDefaultStyleRef.current(prevEntry.feature));
+  // 全レイヤーを現在の選択状態に合わせて塗る
+  const applyStyles = useCallback(() => {
+    for (const { layer, feature } of layersRef.current) {
+      layer.setStyle(
+        feature.properties.code === selectedCodeRef.current
+          ? getSelectedStyleRef.current()
+          : getDefaultStyleRef.current(feature)
+      );
     }
-    selectedLayerRef.current = null;
-    onSelectCode(null);
-  }, [onSelectCode]);
+  }, []);
 
-  // 指標・年度切替時に選択中以外のレイヤーを塗り直す
+  // ビュー切替時にレイヤー参照をリセット
+  // （effectだと新レイヤーの登録後に走ってしまうため、render中に同期で行う）
+  const prevViewKeyRef = useRef(viewKey);
+  if (prevViewKeyRef.current !== viewKey) {
+    prevViewKeyRef.current = viewKey;
+    layersRef.current = [];
+  }
+
+  // 指標・年度・ビュー切替時に塗り直す（選択ハイライトも復元される）
   useEffect(() => {
-    for (const { layer, feature } of Array.from(layerMapRef.current.values())) {
-      if (layer !== selectedLayerRef.current) {
-        layer.setStyle(getDefaultStyle(feature));
-      }
-    }
-  }, [getDefaultStyle]);
+    applyStyles();
+  }, [getDefaultStyle, selectedCode, applyStyles]);
+
+  const clearSelection = useCallback(() => {
+    if (selectedCodeRef.current === null) return;
+    selectedCodeRef.current = null;
+    applyStyles();
+    onSelectCode(null);
+  }, [onSelectCode, applyStyles]);
 
   const onEachFeature = useCallback((feature: GeoFeature, layer: Layer) => {
     const pathLayer = layer as Path;
     const code = feature.properties.code;
 
-    // レイヤーを保存
-    layerMapRef.current.set(code, { layer: pathLayer, feature });
+    layersRef.current.push({ layer: pathLayer, feature });
 
     const center = feature.properties.center as [number, number] | undefined;
 
     const tooltipContent = () => {
       const name = feature.properties.name ?? '';
-      const value = getMetricValue(budgetsRef.current.get(code), basisRef.current, scaleRef.current);
+      const value = getMetricValue(budgetForRef.current(code), basisRef.current, scaleRef.current);
       if (value === null) return name;
       return `<strong>${name}</strong><br>${metricLabel(basisRef.current, scaleRef.current)}: ${formatAmount(value)}`;
     };
 
-    // 県の中心に被らないよう上方向にずらす
-    const tooltipOffset = L.point(0, -56);
-
-    // ホバー用ツールチップを作成
-    const hoverTooltip = feature.properties.name
-      ? L.tooltip({
-          permanent: false,
-          direction: 'center',
-          offset: tooltipOffset,
-          className: 'prefecture-tooltip',
-        })
-      : null;
+    // 自治体の中心に被らないよう上方向にずらす
+    const hoverTooltip = L.tooltip({
+      permanent: false,
+      direction: 'center',
+      offset: L.point(0, -56),
+      className: 'prefecture-tooltip',
+    });
 
     pathLayer.on({
       click: (e) => {
@@ -228,59 +462,73 @@ export default function BudgetMap({ budgetsByCode, basis, scale, onSelectCode }:
         // Leafletイベントごと渡さないと内部の _stopped フラグが立たない
         L.DomEvent.stopPropagation(e as any);
 
-        // 前の選択のハイライトを戻す
-        if (selectedLayerRef.current) {
-          const prevEntry = Array.from(layerMapRef.current.values()).find(
-            (entry) => entry.layer === selectedLayerRef.current
-          );
-          if (prevEntry) {
-            selectedLayerRef.current.setStyle(getDefaultStyleRef.current(prevEntry.feature));
-          }
-        }
+        const map = e.target._map;
 
-        // 新しい選択をハイライト
-        pathLayer.setStyle(getSelectedStyle());
-        selectedLayerRef.current = pathLayer;
-
+        selectedCodeRef.current = code;
+        applyStyles();
         onSelectCode(code);
+
+        // 選択と同時にホバーツールチップを閉じる
+        map.closeTooltip(hoverTooltip);
+
+        // 都道府県（2桁コード）ならドリルダウン用ポップアップを表示
+        if (onDrillDownRef.current && code.length === 2) {
+          const container = document.createElement('div');
+          container.className = 'drill-popup';
+          const title = document.createElement('div');
+          title.className = 'drill-popup-title';
+          title.textContent = feature.properties.name ?? '';
+          const button = document.createElement('button');
+          button.className = 'drill-popup-button';
+          button.textContent = '市区町村を表示';
+          button.onclick = () => {
+            map.closePopup();
+            onDrillDownRef.current?.(code);
+          };
+          container.appendChild(title);
+          container.appendChild(button);
+
+          L.popup({ closeButton: false, autoPan: false, offset: L.point(0, -4) })
+            .setLatLng(e.latlng)
+            .setContent(container)
+            .openOn(map);
+        }
       },
       mouseover: (e) => {
         const map = e.target._map;
 
-        // ホバー時に枠線を表示（選択中でなければ）
-        if (selectedLayerRef.current !== pathLayer) {
+        // 選択中の自治体には枠線もツールチップも出さない
+        if (selectedCodeRef.current !== code) {
           pathLayer.setStyle({
             ...getDefaultStyleRef.current(feature),
             weight: 2,
             color: '#333',
           });
-        }
-        // ホバー用ツールチップを表示
-        if (hoverTooltip && center) {
-          hoverTooltip.setContent(tooltipContent());
-          hoverTooltip.setLatLng(center);
-          map.openTooltip(hoverTooltip);
+          if (center) {
+            hoverTooltip.setContent(tooltipContent());
+            hoverTooltip.setLatLng(center);
+            map.openTooltip(hoverTooltip);
+          }
         }
       },
       mouseout: (e) => {
         const map = e.target._map;
 
         // ホバー解除時に枠線を消す（選択中でなければ）
-        if (selectedLayerRef.current !== pathLayer) {
+        if (selectedCodeRef.current !== code) {
           pathLayer.setStyle(getDefaultStyleRef.current(feature));
         }
         // ホバー用ツールチップを閉じる
-        if (hoverTooltip) {
-          map.closeTooltip(hoverTooltip);
-        }
+        map.closeTooltip(hoverTooltip);
       },
     });
-  }, [onSelectCode, getSelectedStyle]);
+  }, [onSelectCode, applyStyles]);
 
   const style = useCallback((feature: GeoFeature | undefined) => {
     if (!feature) return {};
+    if (feature.properties.code === selectedCodeRef.current) return getSelectedStyle();
     return getDefaultStyle(feature);
-  }, [getDefaultStyle]);
+  }, [getDefaultStyle, getSelectedStyle]);
 
   // 凡例の階級ラベルを生成
   const legendItems = useMemo(() => {
@@ -301,8 +549,8 @@ export default function BudgetMap({ budgetsByCode, basis, scale, onSelectCode }:
   return (
     <div style={{ position: 'relative', height: '100%', width: '100%' }}>
       <MapContainer
-        center={[36.5, 138]}
-        zoom={5}
+        center={NATION_CENTER}
+        zoom={NATION_ZOOM}
         style={{ height: '100%', width: '100%' }}
         scrollWheelZoom={true}
       >
@@ -311,9 +559,12 @@ export default function BudgetMap({ budgetsByCode, basis, scale, onSelectCode }:
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <MapClickHandler onClick={clearSelection} />
-        {geoData && (
+        <FitView viewKey={viewKey} features={focusFeatures ?? features} />
+        <BackPopup viewKey={viewKey} features={focusFeatures ?? features} onBack={onBack} />
+        {preparedFeatures.length > 0 && (
           <GeoJSON
-            data={{ type: 'FeatureCollection', features: geoData } as any}
+            key={viewKey}
+            data={{ type: 'FeatureCollection', features: preparedFeatures } as any}
             style={style as any}
             onEachFeature={onEachFeature as any}
           />

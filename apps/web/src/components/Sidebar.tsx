@@ -185,7 +185,9 @@ export function Sidebar({ selectedRegion, previousYearRegion }: SidebarProps) {
       <div className="budget-card">
         <h3>データソース</h3>
         <p className="attribution">
-          出典: Japan Dashboard 地方財政（都道府県ごと）／デジタル庁・総務省
+          出典: Japan Dashboard 地方財政（都道府県ごと・市町村ごと）／デジタル庁・総務省
+          <br />
+          市区町村境界: 国土交通省 国土数値情報（行政区域）
         </p>
         {selectedRegion.sourceUrl && (
           <a href={selectedRegion.sourceUrl} target="_blank" rel="noopener noreferrer">
