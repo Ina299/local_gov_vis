@@ -4,8 +4,14 @@ import { useEffect, useRef, useCallback, useMemo } from 'react';
 import { MapContainer, TileLayer, GeoJSON, ZoomControl, useMapEvents, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import type { Layer, Path } from 'leaflet';
-import type { LocalGovBudget, GeoFeature, BudgetBasis, MapScale } from '@/types/budget';
-import { formatAmount } from '@/lib/format';
+import type { LocalGovBudget, GeoFeature, MapScale } from '@/types/budget';
+import {
+  metricValue,
+  formatMetricValue,
+  metricDisplayLabel,
+  metricDef,
+  type MapMetricKey,
+} from '@/lib/metrics';
 
 interface BudgetMapProps {
   /** ビュー識別子（変わるとレイヤーを作り直す） */
@@ -24,7 +30,7 @@ interface BudgetMapProps {
    * 全国データ。全国モードの濃淡がそのまま維持される
    */
   backgroundBudgetsByCode?: Map<string, LocalGovBudget>;
-  basis: BudgetBasis;
+  metricKey: MapMetricKey;
   scale: MapScale;
   /** 選択中の自治体コード（pageが管理し、ビュー切替をまたいで維持される） */
   selectedCode: string | null;
@@ -42,16 +48,19 @@ interface BudgetMapProps {
 
 // 検証済みパレットのシーケンシャル（blue）ランプ: steps 100/250/400/550/700
 const SEQUENTIAL_BLUES = ['#cde2fb', '#86b6ef', '#3987e5', '#1c5cab', '#0d366b'];
+const SEQUENTIAL_REDS = ['#fcdcd3', '#f2a891', '#e06a4b', '#b03c22', '#6b1a0d'];
+const SEQUENTIAL_GREENS = ['#d3ecd6', '#96d1a0', '#4fa763', '#2c7241', '#123f20'];
 const NO_DATA_COLOR = '#e0e0e0';
+
+// 指標の種類ごとの色ランプ（歳入・歳出: 青 / 人口: 緑 / 財政指標: 赤で危機感を強調）
+function rampFor(metricKey: MapMetricKey): string[] {
+  if (metricKey === 'population') return SEQUENTIAL_GREENS;
+  if (metricKey === 'expenditure' || metricKey === 'revenue') return SEQUENTIAL_BLUES;
+  return SEQUENTIAL_REDS;
+}
 
 const NATION_CENTER: [number, number] = [36.5, 138];
 const NATION_ZOOM = 5;
-
-/** 指標の表示名（例: 歳出総額 / 一人当たり歳入） */
-function metricLabel(basis: BudgetBasis, scale: MapScale): string {
-  const basisLabel = basis === 'revenue' ? '歳入' : '歳出';
-  return scale === 'perCapita' ? `一人当たり${basisLabel}` : `${basisLabel}総額`;
-}
 
 // ポリゴンの面積を計算（符号付き）
 function calcPolygonArea(coords: number[][]): number {
@@ -104,21 +113,6 @@ function getLargestPolygonCenter(geometry: any): [number, number] | null {
   return null;
 }
 
-// 指標値を取得（データなしは null）
-function getMetricValue(
-  budget: LocalGovBudget | undefined,
-  basis: BudgetBasis,
-  scale: MapScale
-): number | null {
-  if (!budget) return null;
-  const amount = basis === 'revenue' ? budget.totalRevenue : budget.totalExpenditure;
-  if (scale === 'perCapita') {
-    if (!budget.population) return null;
-    return amount / budget.population;
-  }
-  return amount;
-}
-
 // 分位点ベースで階級の境界値を計算（5階級 → 境界4つ）
 function computeBreaks(values: number[]): number[] {
   const sorted = [...values].sort((a, b) => a - b);
@@ -131,16 +125,21 @@ function computeBreaks(values: number[]): number[] {
   });
 }
 
-function getClassColor(value: number | null, breaks: number[]): string {
+function getClassColor(
+  value: number | null,
+  breaks: number[],
+  invert: boolean,
+  ramp: string[]
+): string {
   if (value === null) return NO_DATA_COLOR;
   let i = 0;
   while (i < breaks.length && value >= breaks[i]) i++;
-  return SEQUENTIAL_BLUES[i];
+  return ramp[invert ? breaks.length - i : i];
 }
 
-function breaksFor(budgets: Map<string, LocalGovBudget>, basis: BudgetBasis, scale: MapScale): number[] {
+function breaksFor(budgets: Map<string, LocalGovBudget>, metricKey: MapMetricKey, scale: MapScale): number[] {
   const values = Array.from(budgets.values())
-    .map((b) => getMetricValue(b, basis, scale))
+    .map((b) => metricValue(b, metricKey, scale))
     .filter((v): v is number => v !== null);
   return computeBreaks(values);
 }
@@ -355,7 +354,7 @@ export default function BudgetMap({
   focusFeatures,
   budgetsByCode,
   backgroundBudgetsByCode,
-  basis,
+  metricKey,
   scale,
   selectedCode,
   onSelectCode,
@@ -394,28 +393,33 @@ export default function BudgetMap({
 
   // 現在階層の分位（凡例にも使用）
   const breaks = useMemo(
-    () => breaksFor(budgetsByCode, basis, scale),
-    [budgetsByCode, basis, scale]
+    () => breaksFor(budgetsByCode, metricKey, scale),
+    [budgetsByCode, metricKey, scale]
   );
   // 背景の都道府県用の分位（全国モードと同じ濃淡になる）
   const backgroundBreaks = useMemo(
-    () => (backgroundBudgetsByCode ? breaksFor(backgroundBudgetsByCode, basis, scale) : []),
-    [backgroundBudgetsByCode, basis, scale]
+    () => (backgroundBudgetsByCode ? breaksFor(backgroundBudgetsByCode, metricKey, scale) : []),
+    [backgroundBudgetsByCode, metricKey, scale]
   );
+
+  const invertColor = metricDef(metricKey).invertColor ?? false;
+  const ramp = rampFor(metricKey);
 
   const getDefaultStyle = useCallback((feature: GeoFeature) => {
     const code = feature.properties.code;
     const isBackground = code.length === 2 && backgroundBudgetsByCode !== undefined;
     return {
       fillColor: getClassColor(
-        getMetricValue(budgetFor(code), basis, scale),
-        isBackground ? backgroundBreaks : breaks
+        metricValue(budgetFor(code), metricKey, scale),
+        isBackground ? backgroundBreaks : breaks,
+        invertColor,
+        ramp
       ),
       weight: viewKey === 'nation' || isBackground ? 0 : 1,
       color: '#ffffff',
       fillOpacity: 0.7,
     };
-  }, [budgetFor, backgroundBudgetsByCode, basis, scale, breaks, backgroundBreaks, viewKey]);
+  }, [budgetFor, backgroundBudgetsByCode, metricKey, scale, breaks, backgroundBreaks, viewKey, invertColor, ramp]);
 
   const getSelectedStyle = useCallback(() => ({
     fillColor: '#ffd700',
@@ -429,8 +433,8 @@ export default function BudgetMap({
   getDefaultStyleRef.current = getDefaultStyle;
   const getSelectedStyleRef = useRef(getSelectedStyle);
   getSelectedStyleRef.current = getSelectedStyle;
-  const basisRef = useRef(basis);
-  basisRef.current = basis;
+  const metricKeyRef = useRef(metricKey);
+  metricKeyRef.current = metricKey;
   const scaleRef = useRef(scale);
   scaleRef.current = scale;
   const budgetForRef = useRef(budgetFor);
@@ -540,9 +544,9 @@ export default function BudgetMap({
 
     const tooltipContent = () => {
       const name = feature.properties.name ?? '';
-      const value = getMetricValue(budgetForRef.current(code), basisRef.current, scaleRef.current);
+      const value = metricValue(budgetForRef.current(code), metricKeyRef.current, scaleRef.current);
       if (value === null) return name;
-      return `<strong>${name}</strong><br>${metricLabel(basisRef.current, scaleRef.current)}: ${formatAmount(value)}`;
+      return `<strong>${name}</strong><br>${metricDisplayLabel(metricKeyRef.current, scaleRef.current)}: ${formatMetricValue(value, metricKeyRef.current)}`;
     };
 
     // 自治体の中心に被らないよう上方向にずらす
@@ -612,18 +616,19 @@ export default function BudgetMap({
   // 凡例の階級ラベルを生成
   const legendItems = useMemo(() => {
     if (breaks.length === 0) return [];
-    return SEQUENTIAL_BLUES.map((color, i) => {
+    return ramp.map((_, i) => {
+      const color = ramp[invertColor ? breaks.length - i : i];
       let label: string;
       if (i === 0) {
-        label = `${formatAmount(breaks[0])}未満`;
+        label = `${formatMetricValue(breaks[0], metricKey)}未満`;
       } else if (i === breaks.length) {
-        label = `${formatAmount(breaks[breaks.length - 1])}以上`;
+        label = `${formatMetricValue(breaks[breaks.length - 1], metricKey)}以上`;
       } else {
-        label = `${formatAmount(breaks[i - 1])}〜${formatAmount(breaks[i])}`;
+        label = `${formatMetricValue(breaks[i - 1], metricKey)}〜${formatMetricValue(breaks[i], metricKey)}`;
       }
       return { color, label };
     });
-  }, [breaks]);
+  }, [breaks, metricKey, invertColor, ramp]);
 
   return (
     <div style={{ position: 'relative', height: '100%', width: '100%' }}>
@@ -654,7 +659,7 @@ export default function BudgetMap({
       </MapContainer>
       {legendItems.length > 0 && (
         <div className="legend">
-          <div className="legend-title">{metricLabel(basis, scale)}（5分位）</div>
+          <div className="legend-title">{metricDisplayLabel(metricKey, scale)}（5分位）</div>
           {legendItems.map(({ color, label }) => (
             <div className="legend-item" key={color}>
               <div className="legend-color" style={{ background: color }} />

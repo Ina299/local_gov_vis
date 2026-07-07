@@ -99,6 +99,73 @@ body {
   color: #1a1a2e;
 }
 
+.metric-menu {
+  position: relative;
+}
+
+.metric-menu-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 1rem;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.metric-menu-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.metric-menu-icon {
+  font-size: 1rem;
+}
+
+.metric-menu-panel {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 2000;
+  min-width: 180px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  padding: 0.4rem;
+}
+
+.metric-menu-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+  width: 100%;
+  padding: 0.5rem 0.6rem;
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+  color: #1a1a2e;
+  font-size: 0.9rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.metric-menu-item:hover {
+  background: #f0efec;
+}
+
+.metric-menu-item.active {
+  font-weight: 600;
+}
+
+.metric-menu-check {
+  width: 1em;
+  color: #2a78d6;
+  flex-shrink: 0;
+}
+
 .search-box {
   position: absolute;
   top: 12px;

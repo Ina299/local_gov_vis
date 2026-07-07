@@ -4,6 +4,8 @@ import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import dynamic from 'next/dynamic';
 import { Sidebar } from '@/components/Sidebar';
 import { SearchBox, type SearchEntry } from '@/components/SearchBox';
+import { MetricMenu, metricCategory, type MetricCategory } from '@/components/MetricMenu';
+import { metricDef, type MapMetricKey } from '@/lib/metrics';
 import type { LocalGovBudget, GeoFeature, BudgetBasis, MapScale } from '@/types/budget';
 
 // Leafletはクライアントサイドでのみ動作
@@ -22,6 +24,20 @@ const SCALE_LABELS: Record<MapScale, string> = {
   perCapita: '一人当たり',
 };
 
+const INDICATOR_KEYS: MapMetricKey[] = [
+  'fiscalIndex',
+  'currentBalanceRatio',
+  'debtServiceRatio',
+  'futureBurdenRatio',
+];
+
+/** カテゴリ切替時のデフォルト指標 */
+const CATEGORY_DEFAULT_KEY: Record<MetricCategory, MapMetricKey> = {
+  money: 'expenditure',
+  population: 'population',
+  fiscal: 'fiscalIndex',
+};
+
 /** 表示階層: 全国（都道府県） or 特定都道府県内の市区町村 */
 type ViewState =
   | { level: 'nation' }
@@ -37,8 +53,9 @@ export default function Home() {
   const [municipal, setMunicipal] = useState<RegionData | null>(null);
   const [view, setView] = useState<ViewState>({ level: 'nation' });
   const [year, setYear] = useState<number | null>(null);
-  const [basis, setBasis] = useState<BudgetBasis>('expenditure');
+  const [metricKey, setMetricKey] = useState<MapMetricKey>('expenditure');
   const [scale, setScale] = useState<MapScale>('total');
+  const category = metricCategory(metricKey);
   const [selectedCode, setSelectedCode] = useState<string | null>(null);
   const [loadingDrilldown, setLoadingDrilldown] = useState(false);
   const [searchEntries, setSearchEntries] = useState<SearchEntry[]>([]);
@@ -232,30 +249,56 @@ export default function Home() {
               </button>
             ))}
           </div>
-          <div className="metric-toggle" role="group" aria-label="集計対象">
-            {(Object.keys(BASIS_LABELS) as BudgetBasis[]).map((b) => (
-              <button
-                key={b}
-                className={`metric-toggle-button ${basis === b ? 'active' : ''}`}
-                onClick={() => setBasis(b)}
-                aria-pressed={basis === b}
-              >
-                {BASIS_LABELS[b]}
-              </button>
-            ))}
-          </div>
-          <div className="metric-toggle" role="group" aria-label="表示スケール">
-            {(Object.keys(SCALE_LABELS) as MapScale[]).map((s) => (
-              <button
-                key={s}
-                className={`metric-toggle-button ${scale === s ? 'active' : ''}`}
-                onClick={() => setScale(s)}
-                aria-pressed={scale === s}
-              >
-                {SCALE_LABELS[s]}
-              </button>
-            ))}
-          </div>
+          {category === 'money' && (
+            <>
+              <div className="metric-toggle" role="group" aria-label="集計対象">
+                {(Object.keys(BASIS_LABELS) as BudgetBasis[]).map((b) => (
+                  <button
+                    key={b}
+                    className={`metric-toggle-button ${metricKey === b ? 'active' : ''}`}
+                    onClick={() => setMetricKey(b)}
+                    aria-pressed={metricKey === b}
+                  >
+                    {BASIS_LABELS[b]}
+                  </button>
+                ))}
+              </div>
+              <div className="metric-toggle" role="group" aria-label="表示スケール">
+                {(Object.keys(SCALE_LABELS) as MapScale[]).map((s) => (
+                  <button
+                    key={s}
+                    className={`metric-toggle-button ${scale === s ? 'active' : ''}`}
+                    onClick={() => setScale(s)}
+                    aria-pressed={scale === s}
+                  >
+                    {SCALE_LABELS[s]}
+                  </button>
+                ))}
+              </div>
+            </>
+          )}
+          {category === 'fiscal' && (
+            <div className="metric-toggle" role="group" aria-label="財政指標">
+              {INDICATOR_KEYS.map((key) => {
+                const def = metricDef(key);
+                return (
+                  <button
+                    key={key}
+                    className={`metric-toggle-button ${metricKey === key ? 'active' : ''}`}
+                    onClick={() => setMetricKey(key)}
+                    aria-pressed={metricKey === key}
+                    title={def.description}
+                  >
+                    {def.label}
+                  </button>
+                );
+              })}
+            </div>
+          )}
+          <MetricMenu
+            metricKey={metricKey}
+            onSelectCategory={(c) => setMetricKey(CATEGORY_DEFAULT_KEY[c])}
+          />
         </div>
       </header>
       <main className="main">
@@ -268,7 +311,7 @@ export default function Home() {
             backgroundBudgetsByCode={
               view.level === 'municipal' ? nationalBudgetsByCode : undefined
             }
-            basis={basis}
+            metricKey={metricKey}
             scale={scale}
             selectedCode={selectedCode}
             onSelectCode={handleSelectCode}
