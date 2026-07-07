@@ -478,42 +478,58 @@ export default function BudgetMap({
     onSelectCode(null);
   }, [onSelectCode, applyStyles]);
 
-  // 選択ポップアップ（自治体名＋指標情報。都道府県は市区町村を表示ボタン付き）を開く
+  // 選択ポップアップの中身（自治体名＋指標情報。都道府県は市区町村を表示ボタン付き）
+  const buildSelectContent = useCallback((map: L.Map, code: string, name: string) => {
+    const container = document.createElement('div');
+    container.className = 'drill-popup';
+    const title = document.createElement('div');
+    title.className = 'drill-popup-title';
+    title.textContent = name;
+    container.appendChild(title);
+    // 選択中の指標の値（ホバーツールチップと同じ情報）も表示する
+    const value = metricValue(budgetForRef.current(code), metricKeyRef.current, scaleRef.current);
+    if (value !== null) {
+      const info = document.createElement('div');
+      info.className = 'drill-popup-info';
+      info.textContent = `${metricDisplayLabel(metricKeyRef.current, scaleRef.current)}: ${formatMetricValue(value, metricKeyRef.current)}`;
+      container.appendChild(info);
+    }
+    // 都道府県（2桁コード）はドリルダウンボタンも表示
+    if (code.length === 2 && onDrillDownRef.current) {
+      const button = document.createElement('button');
+      button.className = 'drill-popup-button';
+      button.textContent = '市区町村を表示';
+      button.onclick = () => {
+        map.closePopup();
+        onDrillDownRef.current?.(code);
+      };
+      container.appendChild(button);
+    }
+    return container;
+  }, []);
+
+  // 開いている選択ポップアップ（指標・年度切替で内容を更新するために保持）
+  const selectPopupRef = useRef<{ popup: L.Popup; code: string; name: string } | null>(null);
+
+  // 選択ポップアップを開く
   const openSelectPopup = useCallback(
     (map: L.Map, code: string, name: string, latlng: L.LatLngExpression) => {
-      const container = document.createElement('div');
-      container.className = 'drill-popup';
-      const title = document.createElement('div');
-      title.className = 'drill-popup-title';
-      title.textContent = name;
-      container.appendChild(title);
-      // 選択中の指標の値（ホバーツールチップと同じ情報）も表示する
-      const value = metricValue(budgetForRef.current(code), metricKeyRef.current, scaleRef.current);
-      if (value !== null) {
-        const info = document.createElement('div');
-        info.className = 'drill-popup-info';
-        info.textContent = `${metricDisplayLabel(metricKeyRef.current, scaleRef.current)}: ${formatMetricValue(value, metricKeyRef.current)}`;
-        container.appendChild(info);
-      }
-      // 都道府県（2桁コード）はドリルダウンボタンも表示
-      if (code.length === 2 && onDrillDownRef.current) {
-        const button = document.createElement('button');
-        button.className = 'drill-popup-button';
-        button.textContent = '市区町村を表示';
-        button.onclick = () => {
-          map.closePopup();
-          onDrillDownRef.current?.(code);
-        };
-        container.appendChild(button);
-      }
-
-      L.popup({ closeButton: false, autoPan: false, offset: L.point(0, -4) })
+      const popup = L.popup({ closeButton: false, autoPan: false, offset: L.point(0, -4) })
         .setLatLng(latlng)
-        .setContent(container)
+        .setContent(buildSelectContent(map, code, name))
         .openOn(map);
+      selectPopupRef.current = { popup, code, name };
     },
-    []
+    [buildSelectContent]
   );
+
+  // 指標・スケール・年度の切替に合わせて、開いているポップアップの内容を更新する
+  useEffect(() => {
+    const map = mapRef.current;
+    const open = selectPopupRef.current;
+    if (!map || !open || !open.popup.isOpen()) return;
+    open.popup.setContent(buildSelectContent(map, open.code, open.name));
+  }, [metricKey, scale, budgetsByCode, backgroundBudgetsByCode, buildSelectContent]);
 
   // 検索などからの自治体フォーカス
   useEffect(() => {
