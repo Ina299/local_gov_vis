@@ -3,7 +3,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import dynamic from 'next/dynamic';
 import { Sidebar } from '@/components/Sidebar';
-import type { LocalGovBudget, MapMetric } from '@/types/budget';
+import type { LocalGovBudget, BudgetBasis, MapScale } from '@/types/budget';
 
 // Leafletはクライアントサイドでのみ動作
 const BudgetMap = dynamic(() => import('@/components/BudgetMap'), {
@@ -11,15 +11,21 @@ const BudgetMap = dynamic(() => import('@/components/BudgetMap'), {
   loading: () => <div className="map-container">地図を読み込み中...</div>,
 });
 
-const METRIC_LABELS: Record<MapMetric, string> = {
-  total: '歳出総額',
-  perCapita: '一人当たり歳出',
+const BASIS_LABELS: Record<BudgetBasis, string> = {
+  expenditure: '歳出',
+  revenue: '歳入',
+};
+
+const SCALE_LABELS: Record<MapScale, string> = {
+  total: '総額',
+  perCapita: '一人当たり',
 };
 
 export default function Home() {
   const [budgets, setBudgets] = useState<LocalGovBudget[]>([]);
   const [year, setYear] = useState<number | null>(null);
-  const [metric, setMetric] = useState<MapMetric>('total');
+  const [basis, setBasis] = useState<BudgetBasis>('expenditure');
+  const [scale, setScale] = useState<MapScale>('total');
   const [selectedCode, setSelectedCode] = useState<string | null>(null);
 
   useEffect(() => {
@@ -73,15 +79,27 @@ export default function Home() {
               </button>
             ))}
           </div>
-          <div className="metric-toggle" role="group" aria-label="表示指標">
-            {(Object.keys(METRIC_LABELS) as MapMetric[]).map((m) => (
+          <div className="metric-toggle" role="group" aria-label="集計対象">
+            {(Object.keys(BASIS_LABELS) as BudgetBasis[]).map((b) => (
               <button
-                key={m}
-                className={`metric-toggle-button ${metric === m ? 'active' : ''}`}
-                onClick={() => setMetric(m)}
-                aria-pressed={metric === m}
+                key={b}
+                className={`metric-toggle-button ${basis === b ? 'active' : ''}`}
+                onClick={() => setBasis(b)}
+                aria-pressed={basis === b}
               >
-                {METRIC_LABELS[m]}
+                {BASIS_LABELS[b]}
+              </button>
+            ))}
+          </div>
+          <div className="metric-toggle" role="group" aria-label="表示スケール">
+            {(Object.keys(SCALE_LABELS) as MapScale[]).map((s) => (
+              <button
+                key={s}
+                className={`metric-toggle-button ${scale === s ? 'active' : ''}`}
+                onClick={() => setScale(s)}
+                aria-pressed={scale === s}
+              >
+                {SCALE_LABELS[s]}
               </button>
             ))}
           </div>
@@ -91,7 +109,8 @@ export default function Home() {
         <div className="map-container">
           <BudgetMap
             budgetsByCode={budgetsByCode}
-            metric={metric}
+            basis={basis}
+            scale={scale}
             onSelectCode={setSelectedCode}
           />
         </div>

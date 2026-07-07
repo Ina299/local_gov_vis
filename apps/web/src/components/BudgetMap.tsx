@@ -1,16 +1,17 @@
 'use client';
 
 import { useEffect, useState, useRef, useCallback, useMemo } from 'react';
-import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet';
+import { MapContainer, TileLayer, GeoJSON, useMapEvents } from 'react-leaflet';
 import L from 'leaflet';
 import type { Layer, Path } from 'leaflet';
-import type { LocalGovBudget, GeoFeature, MapMetric } from '@/types/budget';
+import type { LocalGovBudget, GeoFeature, BudgetBasis, MapScale } from '@/types/budget';
 import { formatAmount } from '@/lib/format';
 
 interface BudgetMapProps {
   /** 選択年度の 自治体コード → 予算データ */
   budgetsByCode: Map<string, LocalGovBudget>;
-  metric: MapMetric;
+  basis: BudgetBasis;
+  scale: MapScale;
   onSelectCode: (code: string | null) => void;
 }
 
@@ -18,10 +19,11 @@ interface BudgetMapProps {
 const SEQUENTIAL_BLUES = ['#cde2fb', '#86b6ef', '#3987e5', '#1c5cab', '#0d366b'];
 const NO_DATA_COLOR = '#e0e0e0';
 
-const METRIC_LABELS: Record<MapMetric, string> = {
-  total: '歳出総額',
-  perCapita: '一人当たり歳出',
-};
+/** 指標の表示名（例: 歳出総額 / 一人当たり歳入） */
+function metricLabel(basis: BudgetBasis, scale: MapScale): string {
+  const basisLabel = basis === 'revenue' ? '歳入' : '歳出';
+  return scale === 'perCapita' ? `一人当たり${basisLabel}` : `${basisLabel}総額`;
+}
 
 // ポリゴンの面積を計算（符号付き）
 function calcPolygonArea(coords: number[][]): number {
@@ -75,13 +77,18 @@ function getLargestPolygonCenter(geometry: any): [number, number] | null {
 }
 
 // 指標値を取得（データなしは null）
-function getMetricValue(budget: LocalGovBudget | undefined, metric: MapMetric): number | null {
+function getMetricValue(
+  budget: LocalGovBudget | undefined,
+  basis: BudgetBasis,
+  scale: MapScale
+): number | null {
   if (!budget) return null;
-  if (metric === 'perCapita') {
+  const amount = basis === 'revenue' ? budget.totalRevenue : budget.totalExpenditure;
+  if (scale === 'perCapita') {
     if (!budget.population) return null;
-    return budget.totalExpenditure / budget.population;
+    return amount / budget.population;
   }
-  return budget.totalExpenditure;
+  return amount;
 }
 
 // 分位点ベースで階級の境界値を計算（5階級 → 境界4つ）
@@ -103,7 +110,13 @@ function getClassColor(value: number | null, breaks: number[]): string {
   return SEQUENTIAL_BLUES[i];
 }
 
-export default function BudgetMap({ budgetsByCode, metric, onSelectCode }: BudgetMapProps) {
+/** 地図の何もない場所（海など）のクリックを拾う */
+function MapClickHandler({ onClick }: { onClick: () => void }) {
+  useMapEvents({ click: onClick });
+  return null;
+}
+
+export default function BudgetMap({ budgetsByCode, basis, scale, onSelectCode }: BudgetMapProps) {
   const [geoData, setGeoData] = useState<GeoFeature[] | null>(null);
   const selectedLayerRef = useRef<Path | null>(null);
   const layerMapRef = useRef<Map<string, { layer: Path; feature: GeoFeature }>>(new Map());
@@ -127,19 +140,19 @@ export default function BudgetMap({ budgetsByCode, metric, onSelectCode }: Budge
 
   const breaks = useMemo(() => {
     const values = Array.from(budgetsByCode.values())
-      .map((b) => getMetricValue(b, metric))
+      .map((b) => getMetricValue(b, basis, scale))
       .filter((v): v is number => v !== null);
     return computeBreaks(values);
-  }, [budgetsByCode, metric]);
+  }, [budgetsByCode, basis, scale]);
 
   const getDefaultStyle = useCallback((feature: GeoFeature) => ({
     fillColor: getClassColor(
-      getMetricValue(budgetsByCode.get(feature.properties.code), metric),
+      getMetricValue(budgetsByCode.get(feature.properties.code), basis, scale),
       breaks
     ),
     weight: 0,
     fillOpacity: 0.7,
-  }), [budgetsByCode, metric, breaks]);
+  }), [budgetsByCode, basis, scale, breaks]);
 
   const getSelectedStyle = useCallback(() => ({
     fillColor: '#ffd700',
@@ -151,29 +164,34 @@ export default function BudgetMap({ budgetsByCode, metric, onSelectCode }: Budge
   // イベントハンドラのクロージャから常に最新のスタイル/指標/データを参照できるようにする
   const getDefaultStyleRef = useRef(getDefaultStyle);
   getDefaultStyleRef.current = getDefaultStyle;
-  const metricRef = useRef(metric);
-  metricRef.current = metric;
+  const basisRef = useRef(basis);
+  basisRef.current = basis;
+  const scaleRef = useRef(scale);
+  scaleRef.current = scale;
   const budgetsRef = useRef(budgetsByCode);
   budgetsRef.current = budgetsByCode;
 
-  // 指標・年度切替時に選択中以外のレイヤーを塗り直し、選択ツールチップの金額を更新する
+  // 選択を解除して通常スタイルに戻す（海クリック時）
+  const clearSelection = useCallback(() => {
+    if (!selectedLayerRef.current) return;
+    const prevEntry = Array.from(layerMapRef.current.values()).find(
+      (entry) => entry.layer === selectedLayerRef.current
+    );
+    if (prevEntry) {
+      prevEntry.layer.setStyle(getDefaultStyleRef.current(prevEntry.feature));
+    }
+    selectedLayerRef.current = null;
+    onSelectCode(null);
+  }, [onSelectCode]);
+
+  // 指標・年度切替時に選択中以外のレイヤーを塗り直す
   useEffect(() => {
     for (const { layer, feature } of Array.from(layerMapRef.current.values())) {
       if (layer !== selectedLayerRef.current) {
         layer.setStyle(getDefaultStyle(feature));
-      } else {
-        const tooltip = (layer as any)._selectTooltip as L.Tooltip | undefined;
-        if (tooltip) {
-          const value = getMetricValue(budgetsByCode.get(feature.properties.code), metric);
-          tooltip.setContent(
-            value === null
-              ? feature.properties.name ?? ''
-              : `<strong>${feature.properties.name}</strong><br>${METRIC_LABELS[metric]}: ${formatAmount(value)}`
-          );
-        }
       }
     }
-  }, [getDefaultStyle, budgetsByCode, metric]);
+  }, [getDefaultStyle]);
 
   const onEachFeature = useCallback((feature: GeoFeature, layer: Layer) => {
     const pathLayer = layer as Path;
@@ -186,59 +204,43 @@ export default function BudgetMap({ budgetsByCode, metric, onSelectCode }: Budge
 
     const tooltipContent = () => {
       const name = feature.properties.name ?? '';
-      const value = getMetricValue(budgetsRef.current.get(code), metricRef.current);
+      const value = getMetricValue(budgetsRef.current.get(code), basisRef.current, scaleRef.current);
       if (value === null) return name;
-      return `<strong>${name}</strong><br>${METRIC_LABELS[metricRef.current]}: ${formatAmount(value)}`;
+      return `<strong>${name}</strong><br>${metricLabel(basisRef.current, scaleRef.current)}: ${formatAmount(value)}`;
     };
+
+    // 県の中心に被らないよう上方向にずらす
+    const tooltipOffset = L.point(0, -56);
 
     // ホバー用ツールチップを作成
     const hoverTooltip = feature.properties.name
       ? L.tooltip({
           permanent: false,
           direction: 'center',
-          className: 'prefecture-tooltip',
-        })
-      : null;
-
-    // 選択用ツールチップを作成
-    const selectTooltip = feature.properties.name
-      ? L.tooltip({
-          permanent: false,
-          direction: 'center',
+          offset: tooltipOffset,
           className: 'prefecture-tooltip',
         })
       : null;
 
     pathLayer.on({
       click: (e) => {
-        const map = e.target._map;
+        // 地図側のクリック（選択解除）に伝播させない。
+        // Leafletイベントごと渡さないと内部の _stopped フラグが立たない
+        L.DomEvent.stopPropagation(e as any);
 
-        // 前の選択のツールチップを閉じる
+        // 前の選択のハイライトを戻す
         if (selectedLayerRef.current) {
           const prevEntry = Array.from(layerMapRef.current.values()).find(
             (entry) => entry.layer === selectedLayerRef.current
           );
           if (prevEntry) {
             selectedLayerRef.current.setStyle(getDefaultStyleRef.current(prevEntry.feature));
-            // 前の選択のツールチップを閉じる
-            const prevTooltip = (selectedLayerRef.current as any)._selectTooltip;
-            if (prevTooltip) {
-              map.closeTooltip(prevTooltip);
-            }
           }
         }
 
         // 新しい選択をハイライト
         pathLayer.setStyle(getSelectedStyle());
         selectedLayerRef.current = pathLayer;
-        (pathLayer as any)._selectTooltip = selectTooltip;
-
-        // 選択用ツールチップを表示
-        if (selectTooltip && center) {
-          selectTooltip.setContent(tooltipContent());
-          selectTooltip.setLatLng(center);
-          map.openTooltip(selectTooltip);
-        }
 
         onSelectCode(code);
       },
@@ -252,12 +254,12 @@ export default function BudgetMap({ budgetsByCode, metric, onSelectCode }: Budge
             weight: 2,
             color: '#333',
           });
-          // ホバー用ツールチップを表示（選択中でなければ）
-          if (hoverTooltip && center) {
-            hoverTooltip.setContent(tooltipContent());
-            hoverTooltip.setLatLng(center);
-            map.openTooltip(hoverTooltip);
-          }
+        }
+        // ホバー用ツールチップを表示
+        if (hoverTooltip && center) {
+          hoverTooltip.setContent(tooltipContent());
+          hoverTooltip.setLatLng(center);
+          map.openTooltip(hoverTooltip);
         }
       },
       mouseout: (e) => {
@@ -266,10 +268,10 @@ export default function BudgetMap({ budgetsByCode, metric, onSelectCode }: Budge
         // ホバー解除時に枠線を消す（選択中でなければ）
         if (selectedLayerRef.current !== pathLayer) {
           pathLayer.setStyle(getDefaultStyleRef.current(feature));
-          // ホバー用ツールチップを閉じる
-          if (hoverTooltip) {
-            map.closeTooltip(hoverTooltip);
-          }
+        }
+        // ホバー用ツールチップを閉じる
+        if (hoverTooltip) {
+          map.closeTooltip(hoverTooltip);
         }
       },
     });
@@ -308,6 +310,7 @@ export default function BudgetMap({ budgetsByCode, metric, onSelectCode }: Budge
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
+        <MapClickHandler onClick={clearSelection} />
         {geoData && (
           <GeoJSON
             data={{ type: 'FeatureCollection', features: geoData } as any}
@@ -318,7 +321,7 @@ export default function BudgetMap({ budgetsByCode, metric, onSelectCode }: Budge
       </MapContainer>
       {legendItems.length > 0 && (
         <div className="legend">
-          <div className="legend-title">{METRIC_LABELS[metric]}（5分位）</div>
+          <div className="legend-title">{metricLabel(basis, scale)}（5分位）</div>
           {legendItems.map(({ color, label }) => (
             <div className="legend-item" key={color}>
               <div className="legend-color" style={{ background: color }} />

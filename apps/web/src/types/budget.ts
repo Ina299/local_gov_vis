@@ -69,8 +69,11 @@ export interface LocalGovBudget {
   crawledAt: string;
 }
 
-/** 地図の表示指標 */
-export type MapMetric = 'total' | 'perCapita';
+/** 地図の集計対象（歳出/歳入） */
+export type BudgetBasis = 'expenditure' | 'revenue';
+
+/** 地図の表示スケール（総額/一人当たり） */
+export type MapScale = 'total' | 'perCapita';
 
 /** GeoJSONフィーチャー */
 export interface GeoFeature {
