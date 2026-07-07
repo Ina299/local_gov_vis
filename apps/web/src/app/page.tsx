@@ -69,6 +69,13 @@ export default function Home() {
   const yearIndependent = metricDef(metricKey).yearIndependent ?? false;
   const [selectedCode, setSelectedCode] = useState<string | null>(null);
   const [loadingDrilldown, setLoadingDrilldown] = useState(false);
+  // 収支図モーダルの開閉（URL共有・地図ポップアップからも開くためpageが持つ）
+  const [flowOpen, setFlowOpen] = useState(false);
+
+  // 選択が解除されたら収支図も閉じる
+  useEffect(() => {
+    if (!selectedCode) setFlowOpen(false);
+  }, [selectedCode]);
   const [searchEntries, setSearchEntries] = useState<SearchEntry[]>([]);
   const [focusTarget, setFocusTarget] = useState<
     { code: string; seq: number; zoom?: boolean } | null
@@ -297,6 +304,7 @@ export default function Home() {
       setSelectedCode(prefSel);
       focusOn(prefSel);
     }
+    if (params.get('f') === '1' && (muniSel || prefSel)) setFlowOpen(true);
   }, [national, drillDown, enterNationMuni, focusOn]);
 
   // 状態が変わるたびにURLへ書き出す（復元前は書かない）
@@ -309,9 +317,10 @@ export default function Home() {
     if (view.level === 'nationMuni') params.set('g', 'muni');
     if (view.level === 'municipal') params.set('v', view.prefCode);
     if (selectedCode) params.set('sel', selectedCode);
+    if (flowOpen && selectedCode) params.set('f', '1');
     const qs = params.toString();
     window.history.replaceState(null, '', qs ? `?${qs}` : window.location.pathname);
-  }, [year, metricKey, scale, view, selectedCode]);
+  }, [year, metricKey, scale, view, selectedCode, flowOpen]);
 
   // 「全国に戻る」ポップアップから全国ビューへ復帰
   // （表示していた県を選択状態にし、ドリルダウン用ポップアップも出す）
@@ -479,6 +488,7 @@ export default function Home() {
             onBack={view.level === 'municipal' ? backToNation : undefined}
             focusTarget={focusTarget}
             borderFeatures={view.level === 'nationMuni' ? national?.features : undefined}
+            onShowFlow={() => setFlowOpen(true)}
           />
           <SearchBox entries={searchEntries} onSelect={handleSearchSelect} />
           <div className="granularity-toggle" role="group" aria-label="表示単位">
@@ -504,6 +514,8 @@ export default function Home() {
           yearlyBudgets={yearlyBudgets}
           metricKey={metricKey}
           scale={scale}
+          flowOpen={flowOpen}
+          onFlowOpenChange={setFlowOpen}
         />
       </main>
     </div>

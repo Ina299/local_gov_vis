@@ -21,6 +21,9 @@ interface SidebarProps {
   yearlyBudgets: LocalGovBudget[];
   metricKey: MapMetricKey;
   scale: MapScale;
+  /** 収支図モーダルの開閉（URL共有・地図ポップアップと連動するためpageが持つ） */
+  flowOpen: boolean;
+  onFlowOpenChange: (open: boolean) => void;
 }
 
 const BUDGET_TYPE_LABELS: Record<LocalGovBudget['budgetType'], string> = {
@@ -125,9 +128,15 @@ function StatListCard({
   );
 }
 
-export function Sidebar({ selectedRegion, yearlyBudgets, metricKey, scale }: SidebarProps) {
+export function Sidebar({
+  selectedRegion,
+  yearlyBudgets,
+  metricKey,
+  scale,
+  flowOpen,
+  onFlowOpenChange,
+}: SidebarProps) {
   const sidebarRef = useRef<HTMLElement>(null);
-  const [showSankey, setShowSankey] = useState(false);
 
   useEffect(() => {
     const sidebar = sidebarRef.current;
@@ -229,7 +238,7 @@ export function Sidebar({ selectedRegion, yearlyBudgets, metricKey, scale }: Sid
           <div className="budget-card">
             <div className="card-head">
               <h3>収支サマリー</h3>
-              <button className="text-button" onClick={() => setShowSankey(true)}>
+              <button className="text-button" onClick={() => onFlowOpenChange(true)}>
                 収支図
               </button>
             </div>
@@ -297,8 +306,8 @@ export function Sidebar({ selectedRegion, yearlyBudgets, metricKey, scale }: Sid
         )}
       </div>
 
-      {showSankey && (
-        <SankeyModal budget={selectedRegion} onClose={() => setShowSankey(false)} />
+      {flowOpen && selectedRegion.expenditures.length > 0 && (
+        <SankeyModal budget={selectedRegion} onClose={() => onFlowOpenChange(false)} />
       )}
     </aside>
   );

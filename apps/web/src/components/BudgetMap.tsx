@@ -57,6 +57,8 @@ interface BudgetMapProps {
   focusTarget?: { code: string; seq: number; zoom?: boolean } | null;
   /** 塗り分けの上に線だけ重ねる境界（全国市区町村ビューの県境など） */
   borderFeatures?: GeoFeature[];
+  /** 選択ポップアップの「収支図を見る」ボタンで収支図モーダルを開く */
+  onShowFlow?: () => void;
 }
 
 const NATION_CENTER: [number, number] = [36.5, 138];
@@ -346,6 +348,7 @@ export default function BudgetMap({
   onBack,
   focusTarget,
   borderFeatures,
+  onShowFlow,
 }: BudgetMapProps) {
   // 同一コードが複数ポリゴンを持つ（政令市の区）ため、レイヤーは配列で持つ
   const layersRef = useRef<Array<{ layer: Path; feature: GeoFeature }>>([]);
@@ -441,6 +444,8 @@ export default function BudgetMap({
   budgetForRef.current = budgetFor;
   const onDrillDownRef = useRef(onDrillDown);
   onDrillDownRef.current = onDrillDown;
+  const onShowFlowRef = useRef(onShowFlow);
+  onShowFlowRef.current = onShowFlow;
 
   // 全レイヤーを現在の選択状態に合わせて塗る
   const applyStyles = useCallback(() => {
@@ -494,6 +499,16 @@ export default function BudgetMap({
       info.textContent = `${metricDisplayLabel(metricKeyRef.current, scaleRef.current)}: ${formatMetricValue(value, metricKeyRef.current)}`;
       container.appendChild(info);
     }
+    const buttons = document.createElement('div');
+    buttons.className = 'drill-popup-buttons';
+    // 収支図モーダルを直接開くボタン
+    if (onShowFlowRef.current) {
+      const flowButton = document.createElement('button');
+      flowButton.className = 'drill-popup-button';
+      flowButton.textContent = '収支図を見る';
+      flowButton.onclick = () => onShowFlowRef.current?.();
+      buttons.appendChild(flowButton);
+    }
     // 都道府県（2桁コード）はドリルダウンボタンも表示
     if (code.length === 2 && onDrillDownRef.current) {
       const button = document.createElement('button');
@@ -503,8 +518,9 @@ export default function BudgetMap({
         map.closePopup();
         onDrillDownRef.current?.(code);
       };
-      container.appendChild(button);
+      buttons.appendChild(button);
     }
+    if (buttons.childElementCount > 0) container.appendChild(buttons);
     return container;
   }, []);
 
