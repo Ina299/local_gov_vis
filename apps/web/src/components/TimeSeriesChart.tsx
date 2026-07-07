@@ -14,17 +14,14 @@ interface TimeSeriesChartProps {
 }
 
 const WIDTH = 320;
-const HEIGHT = 130;
-const MARGIN = { top: 10, right: 14, bottom: 22, left: 60 };
-// 両端の点がプロット枠に張り付かないための内側余白
-const X_INSET = 14;
+const HEIGHT = 140;
+const MARGIN = { top: 22, right: 10, bottom: 34, left: 10 };
+// 中央揃えの値ラベルが両端でもはみ出さないだけの内側余白
+const X_INSET = 26;
 
-/**
- * 選択指標の年度推移の折れ線。
- * 値はY軸目盛＋グリッド線で読み、正確な値は点のホバーで表示する
- */
+/** 選択指標の年度推移の折れ線。5点程度なので各点に値ラベルを直接表示する */
 export function TimeSeriesChart({ series, metricKey }: TimeSeriesChartProps) {
-  const chart = useMemo(() => {
+  const points = useMemo(() => {
     const valid = series.filter((p): p is { year: number; value: number } => p.value !== null);
     if (valid.length < 2) return null;
 
@@ -35,39 +32,31 @@ export function TimeSeriesChart({ series, metricKey }: TimeSeriesChartProps) {
     let min = Math.min(...values);
     let max = Math.max(...values);
     if (min === max) {
-      // 平坦な系列は中央に描く
       min -= Math.abs(min) * 0.05 || 1;
       max += Math.abs(max) * 0.05 || 1;
-    } else {
-      // 上下に5%の余白
-      const pad = (max - min) * 0.05;
-      min -= pad;
-      max += pad;
     }
 
-    const plotW = WIDTH - MARGIN.left - MARGIN.right;
+    const plotW = WIDTH - MARGIN.left - MARGIN.right - X_INSET * 2;
     const plotH = HEIGHT - MARGIN.top - MARGIN.bottom;
-    const y = (v: number) => MARGIN.top + (1 - (v - min) / (max - min)) * plotH;
-
-    const points = valid.map((p) => ({
+    return valid.map((p) => ({
       ...p,
-      x:
-        MARGIN.left +
-        X_INSET +
-        ((p.year - minYear) / (maxYear - minYear)) * (plotW - X_INSET * 2),
-      y: y(p.value),
+      x: MARGIN.left + X_INSET + ((p.year - minYear) / (maxYear - minYear)) * plotW,
+      y: MARGIN.top + (1 - (p.value - min) / (max - min)) * plotH,
     }));
-
-    // Y軸目盛は下端・中央・上端の3本
-    const ticks = [min, (min + max) / 2, max].map((v) => ({ value: v, y: y(v) }));
-
-    return { points, ticks };
   }, [series]);
 
-  if (!chart) return null;
+  if (!points) return null;
 
-  const { points, ticks } = chart;
   const path = points.map((p, i) => `${i === 0 ? 'M' : 'L'}${p.x},${p.y}`).join(' ');
+
+  // ラベルを下に逃がすのは「両隣より低い局所的な谷」だけ。
+  // 中点比較だと単調でもカーブの凹みで反転してしまうため、厳密な谷に限定する
+  const labelBelow = (i: number) => {
+    if (i === 0 || i === points.length - 1) return false;
+    const prev = points[i - 1];
+    const next = points[i + 1];
+    return points[i].y > prev.y && points[i].y > next.y;
+  };
 
   return (
     <svg
@@ -76,36 +65,22 @@ export function TimeSeriesChart({ series, metricKey }: TimeSeriesChartProps) {
       role="img"
       aria-label="年度別推移"
     >
-      {ticks.map((t) => (
-        <g key={t.y}>
-          <line
-            x1={MARGIN.left}
-            x2={WIDTH - MARGIN.right}
-            y1={t.y}
-            y2={t.y}
-            stroke="#e1e0d9"
-            strokeWidth={1}
-          />
-          <text
-            x={MARGIN.left - 6}
-            y={t.y + 3}
-            textAnchor="end"
-            fontSize={9}
-            fill="#898781"
-          >
-            {formatMetricValue(t.value, metricKey)}
-          </text>
-        </g>
-      ))}
       <path d={path} fill="none" stroke="#2a78d6" strokeWidth={2} />
-      {points.map((p) => (
+      {points.map((p, i) => (
         <g key={p.year}>
-          <circle cx={p.x} cy={p.y} r={3} fill="#2a78d6">
-            <title>{`${p.year}年度: ${formatMetricValue(p.value, metricKey)}`}</title>
-          </circle>
+          <circle cx={p.x} cy={p.y} r={3.5} fill="#2a78d6" />
           <text
             x={p.x}
-            y={HEIGHT - 6}
+            y={labelBelow(i) ? p.y + 16 : p.y - 9}
+            textAnchor="middle"
+            fontSize={10}
+            fill="#52514e"
+          >
+            {formatMetricValue(p.value, metricKey)}
+          </text>
+          <text
+            x={p.x}
+            y={HEIGHT - 8}
             textAnchor="middle"
             fontSize={10}
             fill="#898781"
