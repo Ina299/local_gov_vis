@@ -10,6 +10,7 @@ import {
   formatMetricValue,
   metricDisplayLabel,
   metricDef,
+  metricCategory,
   type MapMetricKey,
 } from '@/lib/metrics';
 
@@ -54,10 +55,11 @@ const SEQUENTIAL_REDS = ['#fcdcd3', '#f2a891', '#e06a4b', '#b03c22', '#6b1a0d'];
 const SEQUENTIAL_GREENS = ['#d3ecd6', '#96d1a0', '#4fa763', '#2c7241', '#123f20'];
 const NO_DATA_COLOR = '#e0e0e0';
 
-// 指標の種類ごとの色ランプ（歳入・歳出: 青 / 人口: 緑 / 財政指標: 赤で危機感を強調）
+// 指標カテゴリごとの色ランプ（歳入・歳出: 青 / 人口: 緑 / 財政指標: 赤で危機感を強調）
 function rampFor(metricKey: MapMetricKey): string[] {
-  if (metricKey === 'population') return SEQUENTIAL_GREENS;
-  if (metricKey === 'expenditure' || metricKey === 'revenue') return SEQUENTIAL_BLUES;
+  const category = metricCategory(metricKey);
+  if (category === 'population') return SEQUENTIAL_GREENS;
+  if (category === 'money') return SEQUENTIAL_BLUES;
   return SEQUENTIAL_REDS;
 }
 
@@ -115,16 +117,65 @@ function getLargestPolygonCenter(geometry: any): [number, number] | null {
   return null;
 }
 
-// 分位点ベースで階級の境界値を計算（5階級 → 境界4つ）
+// 分位点ベースで階級の境界値を計算（5階級 → 境界4つ）。
+// ゼロが多い指標などで分位点が重複する場合は境界を間引き、階級数を減らす
 function computeBreaks(values: number[]): number[] {
   const sorted = [...values].sort((a, b) => a - b);
   if (sorted.length === 0) return [];
-  return [0.2, 0.4, 0.6, 0.8].map((q) => {
+  const quantiles = [0.2, 0.4, 0.6, 0.8].map((q) => {
     const pos = q * (sorted.length - 1);
     const lo = Math.floor(pos);
     const hi = Math.ceil(pos);
     return sorted[lo] + (sorted[hi] - sorted[lo]) * (pos - lo);
   });
+  // 重複と最小値ちょうどの境界（空階級になる）を除く
+  return Array.from(new Set(quantiles)).filter((b) => b > sorted[0]);
+}
+
+/** 階級数が5未満に縮退してもランプの明暗の幅を使い切るように色を選ぶ */
+function classColor(ramp: string[], classIndex: number, classCount: number): string {
+  if (classCount <= 1) return ramp[Math.floor(ramp.length / 2)];
+  return ramp[Math.round((classIndex * (ramp.length - 1)) / (classCount - 1))];
+}
+
+// 増減数など符号付き指標の発散配色（マイナス: 赤の濃→淡 / プラス: 青の淡→濃）
+const DIVERGING_NEG = [SEQUENTIAL_REDS[4], SEQUENTIAL_REDS[2], SEQUENTIAL_REDS[0]];
+const DIVERGING_POS = [SEQUENTIAL_BLUES[0], SEQUENTIAL_BLUES[2], SEQUENTIAL_BLUES[4]];
+
+interface SignedBreaks {
+  neg: number[]; // 負値内の分位境界（昇順）
+  pos: number[]; // 正値内の分位境界（昇順）
+}
+
+/** 0を中心に、正負それぞれの内部で3分位の境界を計算する */
+function computeSignedBreaks(values: number[]): SignedBreaks {
+  const tercileBreaks = (vals: number[]): number[] => {
+    const sorted = [...vals].sort((a, b) => a - b);
+    if (sorted.length === 0) return [];
+    const quantiles = [1 / 3, 2 / 3].map((q) => {
+      const pos = q * (sorted.length - 1);
+      const lo = Math.floor(pos);
+      const hi = Math.ceil(pos);
+      return sorted[lo] + (sorted[hi] - sorted[lo]) * (pos - lo);
+    });
+    return Array.from(new Set(quantiles)).filter((b) => b > sorted[0]);
+  };
+  return {
+    neg: tercileBreaks(values.filter((v) => v < 0)),
+    pos: tercileBreaks(values.filter((v) => v > 0)),
+  };
+}
+
+function getDivergingColor(value: number | null, breaks: SignedBreaks): string {
+  if (value === null) return NO_DATA_COLOR;
+  if (value < 0) {
+    let i = 0;
+    while (i < breaks.neg.length && value >= breaks.neg[i]) i++;
+    return classColor(DIVERGING_NEG, i, breaks.neg.length + 1);
+  }
+  let i = 0;
+  while (i < breaks.pos.length && value >= breaks.pos[i]) i++;
+  return classColor(DIVERGING_POS, i, breaks.pos.length + 1);
 }
 
 function getClassColor(
@@ -136,14 +187,22 @@ function getClassColor(
   if (value === null) return NO_DATA_COLOR;
   let i = 0;
   while (i < breaks.length && value >= breaks[i]) i++;
-  return ramp[invert ? breaks.length - i : i];
+  const classCount = breaks.length + 1;
+  return classColor(ramp, invert ? breaks.length - i : i, classCount);
+}
+
+function metricValues(
+  budgets: Map<string, LocalGovBudget>,
+  metricKey: MapMetricKey,
+  scale: MapScale
+): number[] {
+  return Array.from(budgets.values())
+    .map((b) => metricValue(b, metricKey, scale))
+    .filter((v): v is number => v !== null);
 }
 
 function breaksFor(budgets: Map<string, LocalGovBudget>, metricKey: MapMetricKey, scale: MapScale): number[] {
-  const values = Array.from(budgets.values())
-    .map((b) => metricValue(b, metricKey, scale))
-    .filter((v): v is number => v !== null);
-  return computeBreaks(values);
+  return computeBreaks(metricValues(budgets, metricKey, scale));
 }
 
 /** 地図の何もない場所（海など）のクリックを拾う */
@@ -408,23 +467,37 @@ export default function BudgetMap({
 
   const invertColor = metricDef(metricKey).invertColor ?? false;
   const ramp = rampFor(metricKey);
+  // 符号付き指標（増減数）は0中心の発散配色にする
+  const isDiverging = metricDef(metricKey).kind === 'change';
+  const signedBreaks = useMemo(
+    () => (isDiverging ? computeSignedBreaks(metricValues(budgetsByCode, metricKey, scale)) : null),
+    [isDiverging, budgetsByCode, metricKey, scale]
+  );
+  const backgroundSignedBreaks = useMemo(
+    () =>
+      isDiverging && backgroundBudgetsByCode
+        ? computeSignedBreaks(metricValues(backgroundBudgetsByCode, metricKey, scale))
+        : null,
+    [isDiverging, backgroundBudgetsByCode, metricKey, scale]
+  );
 
   const getDefaultStyle = useCallback((feature: GeoFeature) => {
     const code = feature.properties.code;
     const isBackground = code.length === 2 && backgroundBudgetsByCode !== undefined;
+    const value = metricValue(budgetFor(code), metricKey, scale);
     return {
-      fillColor: getClassColor(
-        metricValue(budgetFor(code), metricKey, scale),
-        isBackground ? backgroundBreaks : breaks,
-        invertColor,
-        ramp
-      ),
+      fillColor: signedBreaks
+        ? getDivergingColor(
+            value,
+            (isBackground ? backgroundSignedBreaks : signedBreaks) ?? signedBreaks
+          )
+        : getClassColor(value, isBackground ? backgroundBreaks : breaks, invertColor, ramp),
       // 市区町村ポリゴンはドリルダウンと同じ白細線。全国（都道府県）と背景県は線なし
       weight: viewKey === 'nation' || isBackground ? 0 : 1,
       color: '#ffffff',
       fillOpacity: 0.7,
     };
-  }, [budgetFor, backgroundBudgetsByCode, metricKey, scale, breaks, backgroundBreaks, viewKey, invertColor, ramp]);
+  }, [budgetFor, backgroundBudgetsByCode, metricKey, scale, breaks, backgroundBreaks, viewKey, invertColor, ramp, signedBreaks, backgroundSignedBreaks]);
 
   const getSelectedStyle = useCallback(() => ({
     fillColor: '#ffd700',
@@ -620,9 +693,36 @@ export default function BudgetMap({
 
   // 凡例の階級ラベルを生成
   const legendItems = useMemo(() => {
+    if (signedBreaks) {
+      const fmt = (v: number) => formatMetricValue(v, metricKey);
+      const items: Array<{ color: string; label: string }> = [];
+      const { neg, pos } = signedBreaks;
+      // 負側: 最も減少が大きい階級から0へ向かって
+      for (let i = 0; i <= neg.length; i++) {
+        const color = classColor(DIVERGING_NEG, i, neg.length + 1);
+        let label: string;
+        if (neg.length === 0) label = '減少';
+        else if (i === 0) label = `${fmt(neg[0])}未満`;
+        else if (i === neg.length) label = `${fmt(neg[neg.length - 1])}〜0`;
+        else label = `${fmt(neg[i - 1])}〜${fmt(neg[i])}`;
+        items.push({ color, label });
+      }
+      // 正側: 0から増加が大きい階級へ
+      for (let i = 0; i <= pos.length; i++) {
+        const color = classColor(DIVERGING_POS, i, pos.length + 1);
+        let label: string;
+        if (pos.length === 0) label = '増加';
+        else if (i === 0) label = `0〜${fmt(pos[0])}`;
+        else if (i === pos.length) label = `${fmt(pos[pos.length - 1])}以上`;
+        else label = `${fmt(pos[i - 1])}〜${fmt(pos[i])}`;
+        items.push({ color, label });
+      }
+      return items;
+    }
     if (breaks.length === 0) return [];
-    return ramp.map((_, i) => {
-      const color = ramp[invertColor ? breaks.length - i : i];
+    const classCount = breaks.length + 1;
+    return Array.from({ length: classCount }, (_, i) => {
+      const color = classColor(ramp, invertColor ? breaks.length - i : i, classCount);
       let label: string;
       if (i === 0) {
         label = `${formatMetricValue(breaks[0], metricKey)}未満`;
@@ -633,7 +733,7 @@ export default function BudgetMap({
       }
       return { color, label };
     });
-  }, [breaks, metricKey, invertColor, ramp]);
+  }, [breaks, metricKey, invertColor, ramp, signedBreaks]);
 
   return (
     <div style={{ position: 'relative', height: '100%', width: '100%' }}>
@@ -672,7 +772,10 @@ export default function BudgetMap({
       </MapContainer>
       {legendItems.length > 0 && (
         <div className="legend">
-          <div className="legend-title">{metricDisplayLabel(metricKey, scale)}（5分位）</div>
+          <div className="legend-title">
+            {metricDisplayLabel(metricKey, scale)}
+            {!signedBreaks && `（${breaks.length + 1}分位）`}
+          </div>
           {legendItems.map(({ color, label }) => (
             <div className="legend-item" key={color}>
               <div className="legend-color" style={{ background: color }} />

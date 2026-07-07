@@ -187,6 +187,8 @@ export function Sidebar({ selectedRegion, previousYearRegion }: SidebarProps) {
         <p className="attribution">
           出典: Japan Dashboard 地方財政（都道府県ごと・市町村ごと）／デジタル庁・総務省
           <br />
+          人口統計: 住民基本台帳に基づく人口（総務省・令和7年1月1日）／全国都道府県市区町村別面積調（国土地理院）
+          <br />
           市区町村境界: 国土交通省 国土数値情報（行政区域）
         </p>
         {selectedRegion.sourceUrl && (

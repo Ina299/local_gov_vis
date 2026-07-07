@@ -9,6 +9,7 @@
     "crawl:city": "tsx src/index.ts --type city",
     "import:dashboard": "tsx src/import-dashboard.ts",
     "import:municipal": "tsx src/import-municipal.ts",
+    "import:demographics": "tsx src/import-demographics.ts && tsx src/build-municipal-all.ts",
     "build:municipal-all": "tsx src/build-municipal-all.ts",
     "lint": "eslint src/",
     "typecheck": "tsc --noEmit"
@@ -27,6 +28,7 @@
     "@types/pdf-parse": "^1.1.5",
     "eslint": "^8.55.0",
     "tsx": "^4.7.0",
-    "typescript": "^5.3.0"
+    "typescript": "^5.3.0",
+    "xlsx": "^0.18.5"
   }
 }

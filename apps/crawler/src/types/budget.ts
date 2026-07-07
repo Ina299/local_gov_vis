@@ -35,6 +35,25 @@ export interface FiscalIndicator {
   unit: string;
 }
 
+/**
+ * 人口統計（住民基本台帳 令和7年1月1日・国土地理院 面積調に基づく静的値）。
+ * 比率は0〜1の小数で保持する
+ */
+export interface Demographics {
+  /** 面積（km²） */
+  areaKm2?: number;
+  /** 高齢化比率（65歳以上人口 ÷ 総人口） */
+  elderlyRatio?: number;
+  /** 外国人比率（外国人住民 ÷ 総人口） */
+  foreignRatio?: number;
+  /** 出生数（令和6年中の住民票記載数） */
+  births?: number;
+  /** 人口増減数（令和6年中。転入・出生等 − 転出・死亡等） */
+  populationChange?: number;
+  /** 外国人出生割合（外国人の出生数 ÷ 全出生数。令和6年中の住民票記載数） */
+  foreignBirthRatio?: number;
+}
+
 /** 自治体予算データ */
 export interface LocalGovBudget {
   /** 自治体コード（JIS X 0401/0402） */
@@ -61,6 +80,8 @@ export interface LocalGovBudget {
   fiscalIndicators?: FiscalIndicator[];
   /** 人口 */
   population?: number;
+  /** 人口統計（年度によらず同一の静的値） */
+  demographics?: Demographics;
   /** 一人当たり歳出 */
   perCapitaExpenditure?: number;
   /** データソースURL */

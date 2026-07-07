@@ -1,15 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import type { MapMetricKey } from '@/lib/metrics';
-
-export type MetricCategory = 'money' | 'population' | 'fiscal';
-
-export function metricCategory(key: MapMetricKey): MetricCategory {
-  if (key === 'expenditure' || key === 'revenue') return 'money';
-  if (key === 'population') return 'population';
-  return 'fiscal';
-}
+import { metricCategory, type MapMetricKey, type MetricCategory } from '@/lib/metrics';
 
 const CATEGORY_LABELS: Record<MetricCategory, string> = {
   money: '歳入・歳出',

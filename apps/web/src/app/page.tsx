@@ -4,8 +4,14 @@ import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import dynamic from 'next/dynamic';
 import { Sidebar } from '@/components/Sidebar';
 import { SearchBox, type SearchEntry } from '@/components/SearchBox';
-import { MetricMenu, metricCategory, type MetricCategory } from '@/components/MetricMenu';
-import { metricDef, type MapMetricKey } from '@/lib/metrics';
+import { MetricMenu } from '@/components/MetricMenu';
+import {
+  metricDef,
+  metricCategory,
+  categoryKeys,
+  type MapMetricKey,
+  type MetricCategory,
+} from '@/lib/metrics';
 import type { LocalGovBudget, GeoFeature, BudgetBasis, MapScale } from '@/types/budget';
 
 // Leafletはクライアントサイドでのみ動作
@@ -23,13 +29,6 @@ const SCALE_LABELS: Record<MapScale, string> = {
   total: '総額',
   perCapita: '一人当たり',
 };
-
-const INDICATOR_KEYS: MapMetricKey[] = [
-  'fiscalIndex',
-  'currentBalanceRatio',
-  'debtServiceRatio',
-  'futureBurdenRatio',
-];
 
 /** カテゴリ切替時のデフォルト指標 */
 const CATEGORY_DEFAULT_KEY: Record<MetricCategory, MapMetricKey> = {
@@ -353,9 +352,9 @@ export default function Home() {
               </div>
             </>
           )}
-          {category === 'fiscal' && (
-            <div className="metric-toggle" role="group" aria-label="財政指標">
-              {INDICATOR_KEYS.map((key) => {
+          {category !== 'money' && (
+            <div className="metric-toggle" role="group" aria-label="表示指標">
+              {categoryKeys(category).map((key) => {
                 const def = metricDef(key);
                 return (
                   <button
