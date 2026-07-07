@@ -380,6 +380,18 @@ body {
   background: #eaf2fc;
 }
 
+a.text-button {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.modal-head-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
 .modal-overlay {
   position: fixed;
   inset: 0;

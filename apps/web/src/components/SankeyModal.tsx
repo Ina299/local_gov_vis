@@ -1,27 +1,42 @@
 'use client';
 
-import { useEffect, useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import type { LocalGovBudget, BudgetItem } from '@/types/budget';
 import { formatAmount } from '@/lib/format';
+import { dataUrl } from '@/lib/paths';
 
 interface SankeyModalProps {
   budget: LocalGovBudget;
   onClose: () => void;
 }
 
-const WIDTH = 1120;
+/** 全国平均構成比（build-averages.tsが生成）: レベル → 表 → 年度 → 項目名 → 構成比 */
+type AverageTable = 'expenditure' | 'revenue' | 'expenditureDetail';
+type BudgetAverages = Record<
+  'pref' | 'muni',
+  Record<AverageTable, Record<string, Record<string, number>>>
+>;
+
+let averagesPromise: Promise<BudgetAverages> | null = null;
+function loadAverages(): Promise<BudgetAverages> {
+  averagesPromise ??= fetch(dataUrl('/budget-averages.json')).then((res) => res.json());
+  return averagesPromise;
+}
+
+
+const WIDTH = 1180;
 const PLOT_H = 500;
 const MARGIN_Y = 28;
-const LABEL_W_LEFT = 175;
-const LABEL_W_RIGHT = 195;
+const LABEL_W_LEFT = 210;
+const LABEL_W_RIGHT = 240;
 const NODE_W = 14;
 const GAP = 6; // 項目ノード間の隙間
 const LABEL_BLOCK = 26; // 2行ラベルの占有高さ
 
 // 列のx座標: 歳入項目 → 財源区分 → 歳出（款） → 歳出（項）
 const X_REV = LABEL_W_LEFT;
-const X_SOURCE = 400;
-const X_EXP = 660;
+const X_SOURCE = 430;
+const X_EXP = 700;
 const X_LEAF = WIDTH - LABEL_W_RIGHT - NODE_W;
 
 const GENERAL_COLOR = '#2a78d6'; // 一般財源
@@ -89,6 +104,8 @@ interface Node {
   y: number;
   h: number;
   label: 'left' | 'right' | 'halo' | 'none';
+  /** 全国平均構成比の参照先（比較しない集約ノード等はundefined） */
+  avg?: { table: AverageTable; name: string };
 }
 
 interface Ribbon {
@@ -208,6 +225,9 @@ function buildLayout(budget: LocalGovBudget): Layout {
       y: revY,
       h,
       label: 'left',
+      ...(item.gray || item.name === 'その他'
+        ? {}
+        : { avg: { table: 'revenue' as const, name: item.name } }),
     });
     // 各区分への帯（一般→特定→収支差引の順に上から）
     let srcOffset = 0;
@@ -256,6 +276,9 @@ function buildLayout(budget: LocalGovBudget): Layout {
       y: expY,
       h,
       label: 'halo',
+      ...(item.name === 'その他'
+        ? {}
+        : { avg: { table: 'expenditure' as const, name: item.name } }),
     });
     // 一般財源・特定財源からの帯（款側は一般が上、特定が下）
     let inOffset = 0;
@@ -297,6 +320,15 @@ function buildLayout(budget: LocalGovBudget): Layout {
     let offset = 0;
     for (const leaf of leaves) {
       const leafH = leaf.amount * scale;
+      // 項レベルの平均参照。内訳のない款の通し表示は款の平均、集約「その他」は比較しない
+      const leafAvg =
+        leaf.name === 'その他'
+          ? undefined
+          : bigChildren.length > 0
+            ? { table: 'expenditureDetail' as const, name: `${item.name}/${leaf.name}` }
+            : item.name !== 'その他'
+              ? { table: 'expenditure' as const, name: item.name }
+              : undefined;
       nodes.push({
         key: `leaf-${item.name}-${leaf.name}`,
         name: leaf.name,
@@ -307,6 +339,7 @@ function buildLayout(budget: LocalGovBudget): Layout {
         y: leafY,
         h: leafH,
         label: 'right',
+        ...(leafAvg ? { avg: leafAvg } : {}),
       });
       ribbons.push({
         key: `leaf-${item.name}-${leaf.name}`,
@@ -381,6 +414,56 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
 
   const { nodes, ribbons, bottom, estimated } = useMemo(() => buildLayout(budget), [budget]);
 
+  // 全国平均構成比（同レベル間の単純平均）との比較
+  const [averages, setAverages] = useState<BudgetAverages | null>(null);
+  useEffect(() => {
+    let active = true;
+    loadAverages()
+      .then((a) => active && setAverages(a))
+      .catch(() => {});
+    return () => {
+      active = false;
+    };
+  }, []);
+  const level = budget.code.length === 2 ? 'pref' : 'muni';
+  /** ノードに対応する全国平均構成比（歳出は歳出総額比、歳入は歳入総額比） */
+  const avgShare = (n: Node): number | null => {
+    if (!averages || !n.avg) return null;
+    return averages[level][n.avg.table][String(budget.fiscalYear)]?.[n.avg.name] ?? null;
+  };
+  /**
+   * 平均乖離のラベル表記（多い=赤/少ない=青）。
+   * 全国平均の構成比をこの団体の総額に換算した額との差で示す
+   */
+  const diffLabel = (n: Node): { text: string; color: string } | null => {
+    const avg = avgShare(n);
+    if (avg === null || !n.avg) return null;
+    const total = n.avg.table === 'revenue' ? budget.totalRevenue : budget.totalExpenditure;
+    const diff = n.amount - avg * total;
+    // 1人当たりの額で示す（人口がない団体は総額で示す）
+    const text = population
+      ? `平均${diff >= 0 ? '+' : '−'}${perCapita(Math.abs(diff))}/人`
+      : `平均${diff >= 0 ? '+' : '−'}${formatAmount(Math.abs(diff))}`;
+    return { text, color: diff >= 0 ? '#c0392b' : '#1e6bb8' };
+  };
+
+  /** ラベル2行目: 1人あたり年額＋平均乖離 */
+  const subLine = (n: Node) => {
+    const pc = perCapita(n.amount);
+    const d = diffLabel(n);
+    if (!pc && !d) return null;
+    return (
+      <>
+        {pc ? `年${pc}/人` : ''}
+        {d && (
+          <tspan dx={pc ? 5 : 0} fill={d.color} fontWeight={600}>
+            {d.text}
+          </tspan>
+        )}
+      </>
+    );
+  };
+
   // 左右端のラベル位置（全ノードにラベルを付け、重なりはずらして解消する）
   const labelYs = useMemo(() => {
     const map = new Map<string, number>();
@@ -398,6 +481,32 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
   const height = Math.max(bottom, Math.max(...Array.from(labelYs.values()), 0) + LABEL_BLOCK / 2) + MARGIN_Y;
   const pct = (share: number) => `${(share * 100).toFixed(1)}%`;
 
+  // 「自分ごと」への翻訳: 住民1人あたりの年額
+  const population = budget.population;
+  const perCapita = (amount: number): string | null => {
+    if (!population) return null;
+    const v = amount / population;
+    if (v >= 10_000) return `${(v / 10_000).toLocaleString(undefined, { maximumFractionDigits: 1 })}万円`;
+    return `${Math.round(v).toLocaleString()}円`;
+  };
+  const tooltip = (name: string, amount: number, share?: number, avg?: number | null): string => {
+    const pc = perCapita(amount);
+    const parts = [
+      share !== undefined ? pct(share) : null,
+      pc ? `1人あたり 年${pc}` : null,
+      avg !== undefined && avg !== null
+        ? `全国平均${pct(avg)}（${level === 'pref' ? '都道府県' : '市区町村'}間の単純平均）`
+        : null,
+    ]
+      .filter(Boolean)
+      .join('・');
+    return `${name}: ${formatAmount(amount)}${parts ? `（${parts}）` : ''}`;
+  };
+
+  const evaluationSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(
+    `${budget.name} 事務事業評価`
+  )}`;
+
   return (
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal modal-wide" onClick={(e) => e.stopPropagation()}>
@@ -405,16 +514,31 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
           <h3>
             {budget.name} 収支図（{budget.fiscalYear}年度 決算）
           </h3>
-          <button className="modal-close" onClick={onClose} aria-label="閉じる">
-            ×
-          </button>
+          <div className="modal-head-actions">
+            <a
+              className="text-button"
+              href={evaluationSearchUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              title="この自治体の事務事業評価（事業ごとの成果・コストの評価シート）を検索します"
+            >
+              事務事業評価を探す ↗
+            </a>
+            <button className="modal-close" onClick={onClose} aria-label="閉じる">
+              ×
+            </button>
+          </div>
         </div>
         <p className="attribution">
           歳入 {formatAmount(budget.totalRevenue)} → 歳出 {formatAmount(budget.totalExpenditure)}
-          （帯の太さは金額に比例。2%未満の項目は「その他」に集約）。
+          {population
+            ? `（住民1人あたり 年${perCapita(budget.totalExpenditure)}の支出）`
+            : ''}
+          。帯の太さは金額に比例。2%未満の項目は「その他」に集約。
           歳出への財源充当は総務省「地方財政状況調査」の目的別財源内訳による
           {estimated && '（この団体はデータがないため歳入構成比から推計）'}。
           一般財源 = 地方税・地方交付税・地方譲与税・地方特例交付金等。歳入項目から財源区分への割当は推計。
+          「平均±」は全国の{level === 'pref' ? '都道府県' : '市区町村'}の平均的な構成比（単純平均）をこの団体の規模に換算した額との差（赤=平均より多い・青=少ない）。
         </p>
         <svg viewBox={`0 0 ${WIDTH} ${height}`} style={{ width: '100%', height: 'auto' }}>
           {ribbons.map((r) => (
@@ -424,7 +548,7 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
               fill={r.color}
               opacity={0.3}
             >
-              <title>{`${r.name}: ${formatAmount(r.amount)}`}</title>
+              <title>{tooltip(r.name, r.amount)}</title>
             </path>
           ))}
           {nodes.map((n) => {
@@ -433,7 +557,7 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
             return (
               <g key={`node-${n.key}`}>
                 <rect x={n.x} y={n.y} width={NODE_W} height={n.h} fill={n.color}>
-                  <title>{`${n.name}: ${formatAmount(n.amount)}（${pct(n.share)}）`}</title>
+                  <title>{tooltip(n.name, n.amount, n.share, avgShare(n))}</title>
                 </rect>
                 {n.label === 'left' && labelY !== undefined && (
                   <>
@@ -446,10 +570,10 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
                       />
                     )}
                     <text x={n.x - 9} y={labelY - 1} textAnchor="end" fontSize={11} fill="#1a1a2e">
-                      {n.name} {formatAmount(n.amount)}
+                      {n.name} {formatAmount(n.amount)}（{pct(n.share)}）
                     </text>
                     <text x={n.x - 9} y={labelY + 11} textAnchor="end" fontSize={10} fill="#898781">
-                      {pct(n.share)}
+                      {subLine(n)}
                     </text>
                   </>
                 )}
@@ -464,10 +588,10 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
                       />
                     )}
                     <text x={n.x + NODE_W + 9} y={labelY - 1} fontSize={11} fill="#1a1a2e">
-                      {n.name} {formatAmount(n.amount)}
+                      {n.name} {formatAmount(n.amount)}（{pct(n.share)}）
                     </text>
                     <text x={n.x + NODE_W + 9} y={labelY + 11} fontSize={10} fill="#898781">
-                      {pct(n.share)}
+                      {subLine(n)}
                     </text>
                   </>
                 )}
@@ -485,7 +609,7 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
                         strokeWidth={3.5}
                         paintOrder="stroke"
                       >
-                        {n.name} {formatAmount(n.amount)}
+                        {n.name} {formatAmount(n.amount)}（{pct(n.share)}）
                       </text>
                       <text
                         x={n.x + NODE_W / 2}
@@ -497,7 +621,7 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
                         strokeWidth={3}
                         paintOrder="stroke"
                       >
-                        {pct(n.share)}
+                        {subLine(n)}
                       </text>
                     </>
                   ) : (
@@ -513,6 +637,14 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
                       paintOrder="stroke"
                     >
                       {n.name} {formatAmount(n.amount)}（{pct(n.share)}）
+                      {(() => {
+                        const d = diffLabel(n);
+                        return d ? (
+                          <tspan dx={4} fill={d.color}>
+                            {d.text}
+                          </tspan>
+                        ) : null;
+                      })()}
                     </text>
                   ))}
               </g>

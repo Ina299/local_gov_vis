@@ -50,7 +50,10 @@ function main() {
         totalRevenue: b.totalRevenue,
         totalExpenditure: b.totalExpenditure,
         expenditures: [],
-        revenues: [],
+        // 地図指標に使う地方交付税のみ残す（他の内訳はドリルダウン時に遅延ロード）
+        revenues: b.revenues
+          .filter((r) => r.name === '地方交付税')
+          .map(({ name, amount, category }) => ({ name, amount, category })),
         fiscalIndicators: b.fiscalIndicators?.filter((i) => MAP_INDICATORS.has(i.name)),
         population: b.population,
         demographics: b.demographics,

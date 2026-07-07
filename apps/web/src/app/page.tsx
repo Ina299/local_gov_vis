@@ -25,6 +25,7 @@ const BudgetMap = dynamic(() => import('@/components/BudgetMap'), {
 const BASIS_LABELS: Record<BudgetBasis, string> = {
   expenditure: '歳出',
   revenue: '歳入',
+  localAllocationTax: '地方交付税',
 };
 
 const SCALE_LABELS: Record<MapScale, string> = {

@@ -5,6 +5,7 @@ import { formatAmount } from './format';
 export type MapMetricKey =
   | 'expenditure'
   | 'revenue'
+  | 'localAllocationTax'
   | 'population'
   | 'populationDensity'
   | 'elderlyRatio'
@@ -46,6 +47,13 @@ export interface MetricDef {
 export const METRICS: MetricDef[] = [
   { key: 'expenditure', label: '歳出', kind: 'money', category: 'money' },
   { key: 'revenue', label: '歳入', kind: 'money', category: 'money' },
+  {
+    key: 'localAllocationTax',
+    label: '地方交付税',
+    kind: 'money',
+    category: 'money',
+    description: '国から交付される使途自由な財源。自前の税収で標準的な行政サービスを賄えない分を補填（不交付団体は0円）',
+  },
   { key: 'population', label: '人口', kind: 'population', category: 'population' },
   {
     key: 'populationDensity',
@@ -152,7 +160,12 @@ export function metricValue(
   const def = metricDef(key);
 
   if (def.kind === 'money') {
-    const amount = key === 'revenue' ? budget.totalRevenue : budget.totalExpenditure;
+    const amount =
+      key === 'revenue'
+        ? budget.totalRevenue
+        : key === 'localAllocationTax'
+          ? (budget.revenues.find((r) => r.name === '地方交付税')?.amount ?? 0)
+          : budget.totalExpenditure;
     if (scale === 'perCapita') {
       if (!budget.population) return null;
       return amount / budget.population;

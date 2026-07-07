@@ -92,8 +92,8 @@ export interface LocalGovBudget {
   crawledAt: string;
 }
 
-/** 地図の集計対象（歳出/歳入） */
-export type BudgetBasis = 'expenditure' | 'revenue';
+/** 地図の集計対象（歳出/歳入/地方交付税） */
+export type BudgetBasis = 'expenditure' | 'revenue' | 'localAllocationTax';
 
 /** 地図の表示スケール（総額/一人当たり） */
 export type MapScale = 'total' | 'perCapita';

@@ -12,6 +12,7 @@
     "import:demographics": "tsx src/import-demographics.ts && tsx src/build-municipal-all.ts",
     "import:funding": "tsx src/import-funding.ts",
     "build:municipal-all": "tsx src/build-municipal-all.ts",
+    "build:averages": "tsx src/build-averages.ts",
     "lint": "eslint src/",
     "typecheck": "tsc --noEmit"
   },
