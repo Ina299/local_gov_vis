@@ -34,7 +34,16 @@ npm run lint
 # 型チェック
 npm run -w @local-gov/crawler typecheck
 npm run -w @local-gov/web typecheck
+
+# ユニットテスト（vitest: 色分け・指標ロジック）
+npm run -w @local-gov/web test
 ```
+
+## Deploy
+
+masterへのpushで `.github/workflows/deploy.yml` がGitHub Pagesへ自動デプロイする
+（`NEXT_PUBLIC_BASE_PATH=/local_gov_vis` でビルド。データfetchは `lib/paths.ts` の `dataUrl()` を必ず経由すること）。
+`next build` はdevサーバー起動中に実行しない（`.next` が壊れる）。
 
 ## Architecture
 
