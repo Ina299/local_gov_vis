@@ -99,6 +99,55 @@ body {
   color: #1a1a2e;
 }
 
+.search-box {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 1000;
+  width: 260px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #c3c2b7;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: #2a78d6;
+}
+
+.search-results {
+  list-style: none;
+  margin-top: 4px;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.search-result {
+  padding: 0.45rem 0.75rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.search-result.active {
+  background: #eaf2fc;
+}
+
+.search-result-pref {
+  color: #898781;
+  font-size: 0.8rem;
+}
+
 .map-loading {
   position: absolute;
   top: 12px;

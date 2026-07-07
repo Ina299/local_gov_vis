@@ -1,8 +1,9 @@
 'use client';
 
-import { useState, useEffect, useMemo, useCallback } from 'react';
+import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import dynamic from 'next/dynamic';
 import { Sidebar } from '@/components/Sidebar';
+import { SearchBox, type SearchEntry } from '@/components/SearchBox';
 import type { LocalGovBudget, GeoFeature, BudgetBasis, MapScale } from '@/types/budget';
 
 // Leafletはクライアントサイドでのみ動作
@@ -40,8 +41,21 @@ export default function Home() {
   const [scale, setScale] = useState<MapScale>('total');
   const [selectedCode, setSelectedCode] = useState<string | null>(null);
   const [loadingDrilldown, setLoadingDrilldown] = useState(false);
+  const [searchEntries, setSearchEntries] = useState<SearchEntry[]>([]);
+  const [focusTarget, setFocusTarget] = useState<{ code: string; seq: number } | null>(null);
+  const focusSeqRef = useRef(0);
+
+  const focusOn = useCallback((code: string) => {
+    focusSeqRef.current += 1;
+    setFocusTarget({ code, seq: focusSeqRef.current });
+  }, []);
 
   useEffect(() => {
+    fetch('/search-index.json')
+      .then((res) => res.json())
+      .then(setSearchEntries)
+      .catch((err) => console.error('検索インデックス読み込みエラー:', err));
+
     Promise.all([
       fetch('/budgets.json').then((res) => res.json()),
       fetch('/japan.geojson').then((res) => res.json()),
@@ -123,8 +137,8 @@ export default function Home() {
     return [...background, ...municipal.features];
   }, [view, municipal, national]);
 
-  // 都道府県 → 市区町村ビューへドリルダウン
-  const drillDown = useCallback((prefCode: string) => {
+  // 都道府県 → 市区町村ビューへドリルダウン。selectCode指定時はその団体を選択して移動
+  const drillDown = useCallback((prefCode: string, selectCode?: string) => {
     const prefName =
       national?.budgets.find((b) => b.code === prefCode)?.name ?? '';
     setLoadingDrilldown(true);
@@ -135,11 +149,12 @@ export default function Home() {
       .then(([budgets, geo]: [LocalGovBudget[], { features: GeoFeature[] }]) => {
         setMunicipal({ budgets, features: geo.features });
         setView({ level: 'municipal', prefCode, prefName });
-        setSelectedCode(null);
+        setSelectedCode(selectCode ?? null);
+        if (selectCode) focusOn(selectCode);
       })
       .catch((err) => console.error('市区町村データ読み込みエラー:', err))
       .finally(() => setLoadingDrilldown(false));
-  }, [national]);
+  }, [national, focusOn]);
 
   // 「全国に戻る」ポップアップから全国ビューへ復帰
   const backToNation = useCallback(() => {
@@ -164,6 +179,25 @@ export default function Home() {
       }
     },
     [view]
+  );
+
+  // 検索結果の選択
+  const handleSearchSelect = useCallback(
+    (entry: SearchEntry) => {
+      if (!entry.prefCode) {
+        // 都道府県: 選択して移動（市区町村ビュー中なら全国ビューへ戻る）
+        handleSelectCode(entry.code);
+        focusOn(entry.code);
+      } else if (view.level === 'municipal' && view.prefCode === entry.prefCode) {
+        // 表示中の県内の市区町村: 選択して移動
+        setSelectedCode(entry.code);
+        focusOn(entry.code);
+      } else {
+        // 他県の市区町村: その県にドリルダウンして選択
+        drillDown(entry.prefCode, entry.code);
+      }
+    },
+    [view, handleSelectCode, drillDown, focusOn]
   );
 
   const viewKey = view.level === 'municipal' ? `municipal-${view.prefCode}` : 'nation';
@@ -232,7 +266,9 @@ export default function Home() {
             onSelectCode={handleSelectCode}
             onDrillDown={drillDown}
             onBack={view.level === 'municipal' ? backToNation : undefined}
+            focusTarget={focusTarget}
           />
+          <SearchBox entries={searchEntries} onSelect={handleSearchSelect} />
           {loadingDrilldown && <div className="map-loading">市区町村データを読み込み中...</div>}
         </div>
         <Sidebar selectedRegion={selectedRegion} previousYearRegion={previousYearRegion} />

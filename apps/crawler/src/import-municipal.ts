@@ -283,6 +283,26 @@ async function main() {
     // GitHub raw への連続アクセスを抑える
     await new Promise((resolve) => setTimeout(resolve, 300));
   }
+
+  // 検索ボックス用インデックス（都道府県＋全市区町村の名前とコード）
+  const searchIndex: Array<{ code: string; name: string; prefCode?: string; prefName?: string }> = [];
+  const seenPref = new Set<string>();
+  for (const prefCode of prefCodes) {
+    const budgets = byPref.get(prefCode)!;
+    const prefName = budgets[0]?.prefecture ?? '';
+    if (!seenPref.has(prefCode)) {
+      seenPref.add(prefCode);
+      searchIndex.push({ code: prefCode, name: prefName });
+    }
+    const seenMuni = new Set<string>();
+    for (const b of budgets) {
+      if (seenMuni.has(b.code)) continue;
+      seenMuni.add(b.code);
+      searchIndex.push({ code: b.code, name: b.name, prefCode, prefName });
+    }
+  }
+  writeFileSync(join(WEB_PUBLIC, 'search-index.json'), JSON.stringify(searchIndex));
+  console.log(`検索インデックス: ${searchIndex.length}件`);
   console.log('完了');
 }
 

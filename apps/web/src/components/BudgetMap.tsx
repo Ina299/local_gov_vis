@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useCallback, useMemo } from 'react';
-import { MapContainer, TileLayer, GeoJSON, useMapEvents, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, GeoJSON, ZoomControl, useMapEvents, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import type { Layer, Path } from 'leaflet';
 import type { LocalGovBudget, GeoFeature, BudgetBasis, MapScale } from '@/types/budget';
@@ -33,6 +33,8 @@ interface BudgetMapProps {
   onDrillDown?: (code: string) => void;
   /** 市区町村ビューでのみ渡される。県域の近くに「全国に戻る」ポップアップを出す */
   onBack?: () => void;
+  /** 検索などで特定の自治体へ地図を移動させる。seqが変わるたびに実行される */
+  focusTarget?: { code: string; seq: number } | null;
 }
 
 // 検証済みパレットのシーケンシャル（blue）ランプ: steps 100/250/400/550/700
@@ -144,6 +146,35 @@ function breaksFor(budgets: Map<string, LocalGovBudget>, basis: BudgetBasis, sca
 function MapClickHandler({ onClick }: { onClick: () => void }) {
   useMapEvents({ click: onClick });
   return null;
+}
+
+/** 地図インスタンスを親コンポーネントへ渡す */
+function MapRef({ mapRef }: { mapRef: React.MutableRefObject<L.Map | null> }) {
+  const map = useMap();
+  useEffect(() => {
+    mapRef.current = map;
+  }, [map, mapRef]);
+  return null;
+}
+
+/** ジオメトリ中の最大リング（本体）のバウンディングボックス */
+function largestRingBounds(geometry: any): L.LatLngBounds | null {
+  let ring: number[][] | null = null;
+  let best = 0;
+  const consider = (r: number[][]) => {
+    const a = calcPolygonArea(r);
+    if (a > best) {
+      best = a;
+      ring = r;
+    }
+  };
+  if (geometry.type === 'Polygon') {
+    consider(geometry.coordinates[0]);
+  } else if (geometry.type === 'MultiPolygon') {
+    for (const polygon of geometry.coordinates) consider(polygon[0]);
+  }
+  if (!ring) return null;
+  return L.latLngBounds((ring as number[][]).map(([lng, lat]) => [lat, lng] as [number, number]));
 }
 
 /** 市区町村ビューへ入ったとき県全体に表示範囲を合わせる */
@@ -327,9 +358,11 @@ export default function BudgetMap({
   onSelectCode,
   onDrillDown,
   onBack,
+  focusTarget,
 }: BudgetMapProps) {
   // 同一コードが複数ポリゴンを持つ（政令市の区）ため、レイヤーは配列で持つ
   const layersRef = useRef<Array<{ layer: Path; feature: GeoFeature }>>([]);
+  const mapRef = useRef<L.Map | null>(null);
   // 選択状態はpageが持ち、refは常にプロパティを反映する（ビュー切替でも維持）
   const selectedCodeRef = useRef<string | null>(selectedCode);
   selectedCodeRef.current = selectedCode;
@@ -433,6 +466,65 @@ export default function BudgetMap({
     onSelectCode(null);
   }, [onSelectCode, applyStyles]);
 
+  // ドリルダウン用ポップアップ（県名＋市区町村を表示ボタン）を開く
+  const openDrillPopup = useCallback(
+    (map: L.Map, code: string, name: string, latlng: L.LatLngExpression) => {
+      if (!onDrillDownRef.current) return;
+      const container = document.createElement('div');
+      container.className = 'drill-popup';
+      const title = document.createElement('div');
+      title.className = 'drill-popup-title';
+      title.textContent = name;
+      const button = document.createElement('button');
+      button.className = 'drill-popup-button';
+      button.textContent = '市区町村を表示';
+      button.onclick = () => {
+        map.closePopup();
+        onDrillDownRef.current?.(code);
+      };
+      container.appendChild(title);
+      container.appendChild(button);
+
+      L.popup({ closeButton: false, autoPan: false, offset: L.point(0, -4) })
+        .setLatLng(latlng)
+        .setContent(container)
+        .openOn(map);
+    },
+    []
+  );
+
+  // 検索などからの自治体フォーカス
+  useEffect(() => {
+    if (!focusTarget) return;
+    const map = mapRef.current;
+    if (!map) return;
+    const matched = layersRef.current.filter(
+      ({ feature }) => feature.properties.code === focusTarget.code
+    );
+    if (matched.length === 0) return;
+
+    // 離島を含む全域ではなく本体（最大リング）に合わせる
+    let bounds: L.LatLngBounds | null = null;
+    for (const { feature } of matched) {
+      const b = largestRingBounds(feature.geometry);
+      if (b) bounds = bounds ? bounds.extend(b) : b;
+    }
+    if (!bounds) return;
+
+    const isPref = focusTarget.code.length === 2;
+    map.fitBounds(bounds, { padding: [60, 60], maxZoom: isPref ? 9 : 11 });
+    if (isPref) {
+      const center = matched[0].feature.properties.center as [number, number] | undefined;
+      openDrillPopup(
+        map,
+        focusTarget.code,
+        matched[0].feature.properties.name ?? '',
+        center ?? bounds.getCenter()
+      );
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [focusTarget]);
+
   const onEachFeature = useCallback((feature: GeoFeature, layer: Layer) => {
     const pathLayer = layer as Path;
     const code = feature.properties.code;
@@ -472,26 +564,8 @@ export default function BudgetMap({
         map.closeTooltip(hoverTooltip);
 
         // 都道府県（2桁コード）ならドリルダウン用ポップアップを表示
-        if (onDrillDownRef.current && code.length === 2) {
-          const container = document.createElement('div');
-          container.className = 'drill-popup';
-          const title = document.createElement('div');
-          title.className = 'drill-popup-title';
-          title.textContent = feature.properties.name ?? '';
-          const button = document.createElement('button');
-          button.className = 'drill-popup-button';
-          button.textContent = '市区町村を表示';
-          button.onclick = () => {
-            map.closePopup();
-            onDrillDownRef.current?.(code);
-          };
-          container.appendChild(title);
-          container.appendChild(button);
-
-          L.popup({ closeButton: false, autoPan: false, offset: L.point(0, -4) })
-            .setLatLng(e.latlng)
-            .setContent(container)
-            .openOn(map);
+        if (code.length === 2) {
+          openDrillPopup(map, code, feature.properties.name ?? '', e.latlng);
         }
       },
       mouseover: (e) => {
@@ -522,7 +596,7 @@ export default function BudgetMap({
         map.closeTooltip(hoverTooltip);
       },
     });
-  }, [onSelectCode, applyStyles]);
+  }, [onSelectCode, applyStyles, openDrillPopup]);
 
   const style = useCallback((feature: GeoFeature | undefined) => {
     if (!feature) return {};
@@ -553,11 +627,14 @@ export default function BudgetMap({
         zoom={NATION_ZOOM}
         style={{ height: '100%', width: '100%' }}
         scrollWheelZoom={true}
+        zoomControl={false}
       >
+        <ZoomControl position="bottomleft" />
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
+        <MapRef mapRef={mapRef} />
         <MapClickHandler onClick={clearSelection} />
         <FitView viewKey={viewKey} features={focusFeatures ?? features} />
         <BackPopup viewKey={viewKey} features={focusFeatures ?? features} onBack={onBack} />
