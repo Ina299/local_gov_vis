@@ -209,6 +209,9 @@ export default function Home() {
         if (selectCode) {
           setSelectedCode(selectCode);
           focusOn(selectCode);
+        } else {
+          // 都道府県を選択したままだと市区町村ビューで引けないので解除
+          setSelectedCode((c) => (c && c.length === 2 ? null : c));
         }
       };
       if (nationMuni) {
@@ -335,9 +338,11 @@ export default function Home() {
       ) {
         setView({ level: 'nation' });
         setMunicipal(null);
+        // ビュー切替でクリック時のポップアップが閉じるため、全国ビュー側で出し直す
+        focusOn(code, false);
       }
     },
-    [view]
+    [view, focusOn]
   );
 
   // 検索結果の選択

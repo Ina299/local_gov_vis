@@ -461,6 +461,11 @@ export default function BudgetMap({
     layersRef.current = [];
   }
 
+  // ビュー切替時に前のビューの選択ポップアップを閉じる
+  useEffect(() => {
+    mapRef.current?.closePopup();
+  }, [viewKey]);
+
   // 指標・年度・ビュー切替時に塗り直す（選択ハイライトも復元される）
   useEffect(() => {
     applyStyles();
@@ -473,24 +478,34 @@ export default function BudgetMap({
     onSelectCode(null);
   }, [onSelectCode, applyStyles]);
 
-  // ドリルダウン用ポップアップ（県名＋市区町村を表示ボタン）を開く
-  const openDrillPopup = useCallback(
+  // 選択ポップアップ（自治体名＋指標情報。都道府県は市区町村を表示ボタン付き）を開く
+  const openSelectPopup = useCallback(
     (map: L.Map, code: string, name: string, latlng: L.LatLngExpression) => {
-      if (!onDrillDownRef.current) return;
       const container = document.createElement('div');
       container.className = 'drill-popup';
       const title = document.createElement('div');
       title.className = 'drill-popup-title';
       title.textContent = name;
-      const button = document.createElement('button');
-      button.className = 'drill-popup-button';
-      button.textContent = '市区町村を表示';
-      button.onclick = () => {
-        map.closePopup();
-        onDrillDownRef.current?.(code);
-      };
       container.appendChild(title);
-      container.appendChild(button);
+      // 選択中の指標の値（ホバーツールチップと同じ情報）も表示する
+      const value = metricValue(budgetForRef.current(code), metricKeyRef.current, scaleRef.current);
+      if (value !== null) {
+        const info = document.createElement('div');
+        info.className = 'drill-popup-info';
+        info.textContent = `${metricDisplayLabel(metricKeyRef.current, scaleRef.current)}: ${formatMetricValue(value, metricKeyRef.current)}`;
+        container.appendChild(info);
+      }
+      // 都道府県（2桁コード）はドリルダウンボタンも表示
+      if (code.length === 2 && onDrillDownRef.current) {
+        const button = document.createElement('button');
+        button.className = 'drill-popup-button';
+        button.textContent = '市区町村を表示';
+        button.onclick = () => {
+          map.closePopup();
+          onDrillDownRef.current?.(code);
+        };
+        container.appendChild(button);
+      }
 
       L.popup({ closeButton: false, autoPan: false, offset: L.point(0, -4) })
         .setLatLng(latlng)
@@ -522,15 +537,13 @@ export default function BudgetMap({
     if (focusTarget.zoom !== false) {
       map.fitBounds(bounds, { padding: [60, 60], maxZoom: isPref ? 9 : 11 });
     }
-    if (isPref) {
-      const center = matched[0].feature.properties.center as [number, number] | undefined;
-      openDrillPopup(
-        map,
-        focusTarget.code,
-        matched[0].feature.properties.name ?? '',
-        center ?? bounds.getCenter()
-      );
-    }
+    const center = matched[0].feature.properties.center as [number, number] | undefined;
+    openSelectPopup(
+      map,
+      focusTarget.code,
+      matched[0].feature.properties.name ?? '',
+      center ?? bounds.getCenter()
+    );
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [focusTarget]);
 
@@ -569,18 +582,14 @@ export default function BudgetMap({
         applyStyles();
         onSelectCode(code);
 
-        // 選択と同時にホバーツールチップを閉じる
+        // 選択ポップアップ（指標情報付き）を表示。ツールチップは重複するので閉じる
         map.closeTooltip(hoverTooltip);
-
-        // 都道府県（2桁コード）ならドリルダウン用ポップアップを表示
-        if (code.length === 2) {
-          openDrillPopup(map, code, feature.properties.name ?? '', e.latlng);
-        }
+        openSelectPopup(map, code, feature.properties.name ?? '', e.latlng);
       },
       mouseover: (e) => {
         const map = e.target._map;
 
-        // 選択中の自治体には枠線もツールチップも出さない
+        // 選択中の自治体はポップアップに情報が出ているため枠線もツールチップも出さない
         if (selectedCodeRef.current !== code) {
           pathLayer.setStyle({
             ...getDefaultStyleRef.current(feature),
@@ -605,7 +614,7 @@ export default function BudgetMap({
         map.closeTooltip(hoverTooltip);
       },
     });
-  }, [onSelectCode, applyStyles, openDrillPopup]);
+  }, [onSelectCode, applyStyles, openSelectPopup]);
 
   const style = useCallback((feature: GeoFeature | undefined) => {
     if (!feature) return {};
