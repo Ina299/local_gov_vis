@@ -44,6 +44,8 @@ interface BudgetMapProps {
    * zoom: false ならズームせずポップアップ表示のみ（都道府県の場合）
    */
   focusTarget?: { code: string; seq: number; zoom?: boolean } | null;
+  /** 塗り分けの上に線だけ重ねる境界（全国市区町村ビューの県境など） */
+  borderFeatures?: GeoFeature[];
 }
 
 // 検証済みパレットのシーケンシャル（blue）ランプ: steps 100/250/400/550/700
@@ -183,7 +185,8 @@ function largestRingBounds(geometry: any): L.LatLngBounds | null {
 function FitView({ viewKey, features }: { viewKey: string; features: GeoFeature[] }) {
   const map = useMap();
   useEffect(() => {
-    if (viewKey === 'nation') return;
+    // 県ドリルダウン時のみフィットする（全国ビュー・全国市区町村ビューは対象外）
+    if (!viewKey.startsWith('municipal-')) return;
     if (features.length > 0) {
       // 離島（小笠原など）まで含めると本土が豆粒になるため、本土クラスタに合わせる
       const result = mainClusterBounds(features);
@@ -361,6 +364,7 @@ export default function BudgetMap({
   onDrillDown,
   onBack,
   focusTarget,
+  borderFeatures,
 }: BudgetMapProps) {
   // 同一コードが複数ポリゴンを持つ（政令市の区）ため、レイヤーは配列で持つ
   const layersRef = useRef<Array<{ layer: Path; feature: GeoFeature }>>([]);
@@ -415,6 +419,7 @@ export default function BudgetMap({
         invertColor,
         ramp
       ),
+      // 市区町村ポリゴンはドリルダウンと同じ白細線。全国（都道府県）と背景県は線なし
       weight: viewKey === 'nation' || isBackground ? 0 : 1,
       color: '#ffffff',
       fillOpacity: 0.7,
@@ -654,6 +659,14 @@ export default function BudgetMap({
             data={{ type: 'FeatureCollection', features: preparedFeatures } as any}
             style={style as any}
             onEachFeature={onEachFeature as any}
+          />
+        )}
+        {borderFeatures && borderFeatures.length > 0 && (
+          <GeoJSON
+            key={`${viewKey}-borders`}
+            data={{ type: 'FeatureCollection', features: borderFeatures } as any}
+            style={{ fill: false, color: '#333333', weight: 2 } as any}
+            interactive={false}
           />
         )}
       </MapContainer>

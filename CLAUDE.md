@@ -13,7 +13,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 npm install
 
 # データ取得（Japan Dashboardの公式CSVをインポート — 推奨）
-npm run -w @local-gov/crawler import:dashboard
+npm run -w @local-gov/crawler import:dashboard        # 都道府県
+npm run -w @local-gov/crawler import:municipal        # 市区町村（都道府県別JSON＋検索インデックス）
+npm run -w @local-gov/crawler build:municipal-all     # 全国市区町村ビュー用の結合データ（import:municipal後に実行）
 
 # 旧クローラー（PDFスクレイピング。公式CSV移行により通常は不要）
 npm run -w @local-gov/crawler crawl:prefecture  # 都道府県のみ

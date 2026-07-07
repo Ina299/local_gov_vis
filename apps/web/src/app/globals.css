@@ -166,6 +166,37 @@ body {
   flex-shrink: 0;
 }
 
+.granularity-toggle {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 1000;
+  display: flex;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.granularity-button {
+  padding: 0.45rem 0.9rem;
+  background: transparent;
+  border: none;
+  color: #52514e;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.granularity-button:hover {
+  background: #f0efec;
+}
+
+.granularity-button.active {
+  background: #2a78d6;
+  color: white;
+  font-weight: 600;
+}
+
 .search-box {
   position: absolute;
   top: 12px;

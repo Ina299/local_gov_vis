@@ -9,6 +9,7 @@
     "crawl:city": "tsx src/index.ts --type city",
     "import:dashboard": "tsx src/import-dashboard.ts",
     "import:municipal": "tsx src/import-municipal.ts",
+    "build:municipal-all": "tsx src/build-municipal-all.ts",
     "lint": "eslint src/",
     "typecheck": "tsc --noEmit"
   },
