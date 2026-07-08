@@ -58,6 +58,19 @@ export interface Demographics {
   foreignBirthRatio?: number;
 }
 
+/**
+ * 就労・所得（課税状況調・国勢調査に基づく静的値）。
+ * avgIncomeは納税義務者1人あたり課税対象所得（円/年）
+ */
+export interface Employment {
+  /** 平均所得（課税対象所得 ÷ 所得割納税義務者数。円/年） */
+  avgIncome?: number;
+  /** 所得割納税義務者数 */
+  taxpayers?: number;
+  /** 産業別就業者の構成比%（全業種・降順。国勢調査 産業大分類） */
+  industries?: Array<{ name: string; share: number }>;
+}
+
 /** 自治体予算データ */
 export interface LocalGovBudget {
   /** 自治体コード（JIS X 0401/0402） */
@@ -86,6 +99,8 @@ export interface LocalGovBudget {
   population?: number;
   /** 人口統計（年度によらず同一の静的値） */
   demographics?: Demographics;
+  /** 就労・所得（年度によらず同一の静的値） */
+  employment?: Employment;
   /** 一人当たり歳出 */
   perCapitaExpenditure?: number;
   /** データソースURL */

@@ -12,8 +12,82 @@ import {
   type MapMetricKey,
 } from '@/lib/metrics';
 import type { MapScale } from '@/types/budget';
+import { industryColor } from '@/lib/industry';
 import { TimeSeriesChart } from './TimeSeriesChart';
 import { SankeyModal } from './SankeyModal';
+
+/** ドーナツの1セグメント（12時起点・時計回り、角度ラジアン）のパス */
+function donutSegmentPath(a0: number, a1: number, r0: number, r1: number): string {
+  const cx = 60;
+  const cy = 60;
+  const pt = (r: number, a: number) => `${cx + r * Math.sin(a)},${cy - r * Math.cos(a)}`;
+  const largeArc = a1 - a0 > Math.PI ? 1 : 0;
+  return [
+    `M${pt(r1, a0)}`,
+    `A${r1},${r1} 0 ${largeArc} 1 ${pt(r1, a1)}`,
+    `L${pt(r0, a1)}`,
+    `A${r0},${r0} 0 ${largeArc} 0 ${pt(r0, a0)}`,
+    'Z',
+  ].join(' ');
+}
+
+/** 産業別就業者の構成比ドーナツグラフ＋凡例（全業種リストを上位5＋その他に畳んで表示） */
+function IndustryDonut({ industries: all }: { industries: Array<{ name: string; share: number }> }) {
+  const industries = useMemo(() => {
+    const top = all.slice(0, 7);
+    const rest = 100 - top.reduce((s, i) => s + i.share, 0);
+    return rest > 0.05 ? [...top, { name: 'その他', share: Number(rest.toFixed(1)) }] : top;
+  }, [all]);
+  // 角度は構成比の合計で正規化し、丸め誤差があっても必ず円をぴったり埋める
+  const total = industries.reduce((s, i) => s + i.share, 0);
+  let angle = 0;
+  return (
+    <div className="industry-donut" style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+      <svg viewBox="0 0 120 120" style={{ width: 110, height: 110, flexShrink: 0 }}>
+        {industries.map((ind, i) => {
+          const a0 = angle;
+          // 全周1セグメントでもパスが消えないよう僅かに切る
+          const a1 = Math.min(angle + (ind.share / total) * 2 * Math.PI, a0 + 2 * Math.PI - 1e-4);
+          angle = a1;
+          return (
+            <path key={ind.name} d={donutSegmentPath(a0, a1, 32, 56)} fill={industryColor(ind.name)}>
+              <title>{`${ind.name} ${ind.share}%`}</title>
+            </path>
+          );
+        })}
+      </svg>
+      <div style={{ fontSize: 12, lineHeight: 1.7, minWidth: 0 }}>
+        {industries.map((ind) => (
+          <div key={ind.name} style={{ display: 'flex', alignItems: 'baseline', gap: 6 }}>
+            <span
+              style={{
+                width: 9,
+                height: 9,
+                borderRadius: 2,
+                flexShrink: 0,
+                background: industryColor(ind.name),
+                alignSelf: 'center',
+              }}
+            />
+            <span
+              style={{
+                flex: '1 1 auto',
+                minWidth: 0,
+                overflow: 'hidden',
+                textOverflow: 'ellipsis',
+                whiteSpace: 'nowrap',
+              }}
+              title={ind.name}
+            >
+              {ind.name}
+            </span>
+            <span style={{ color: '#52514e', flexShrink: 0 }}>{ind.share}%</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 interface SidebarProps {
   selectedRegion: LocalGovBudget | null;
@@ -272,6 +346,44 @@ export function Sidebar({
         <StatListCard title="人口統計" rows={populationRows} />
       )}
 
+      {def.category === 'labor' && selectedRegion.employment && (
+        <div className="budget-card">
+          <h3>就労・産業</h3>
+          {selectedRegion.employment.avgIncome !== undefined && (
+            <p>
+              平均所得: {Math.round(selectedRegion.employment.avgIncome / 10_000).toLocaleString()}
+              万円
+              {selectedRegion.employment.taxpayers !== undefined &&
+                `（納税義務者 ${selectedRegion.employment.taxpayers.toLocaleString()}人）`}
+            </p>
+          )}
+          {selectedRegion.employment.industries && (
+            <>
+              <p style={{ marginBottom: 4 }}>働く人の産業（就業者の割合）:</p>
+              <IndustryDonut industries={selectedRegion.employment.industries} />
+            </>
+          )}
+          {selectedRegion.population ? (
+            <p className="attribution" style={{ marginTop: 8 }}>
+              この団体の産業への支出（住民1人あたり年額）:{' '}
+              {(['商工費', '労働費'] as const)
+                .map((name) => {
+                  const item = selectedRegion.expenditures.find((e) => e.name === name);
+                  if (!item || !selectedRegion.population) return null;
+                  const v = item.amount / selectedRegion.population;
+                  return `${name} ${
+                    v >= 10_000
+                      ? `${(v / 10_000).toLocaleString(undefined, { maximumFractionDigits: 1 })}万円`
+                      : `${Math.round(v).toLocaleString()}円`
+                  }`;
+                })
+                .filter(Boolean)
+                .join('・') || 'データなし'}
+            </p>
+          ) : null}
+        </div>
+      )}
+
       {def.category === 'fiscal' &&
         selectedRegion.fiscalIndicators &&
         selectedRegion.fiscalIndicators.length > 0 && (
@@ -296,6 +408,8 @@ export function Sidebar({
           出典: Japan Dashboard 地方財政（都道府県ごと・市町村ごと）／デジタル庁・総務省
           <br />
           人口統計: 住民基本台帳に基づく人口（総務省・令和7年1月1日）／全国都道府県市区町村別面積調（国土地理院）
+          <br />
+          就労: 市町村税課税状況等の調（総務省・令和7年度）／令和2年国勢調査 就業状態等基本集計（総務省）
           <br />
           市区町村境界: 国土交通省 国土数値情報（行政区域）
         </p>

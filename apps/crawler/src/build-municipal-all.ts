@@ -59,6 +59,7 @@ function main() {
         fiscalIndicators: b.fiscalIndicators?.filter((i) => MAP_INDICATORS.has(i.name)),
         population: b.population,
         demographics: b.demographics,
+        employment: b.employment,
         sourceUrl: b.sourceUrl,
         crawledAt: b.crawledAt,
       });

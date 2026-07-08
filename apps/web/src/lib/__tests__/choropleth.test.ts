@@ -5,11 +5,29 @@ import {
   getClassColor,
   computeSignedBreaks,
   getDivergingColor,
+  rampFor,
+  sequentialRamp,
   SEQUENTIAL_BLUES,
   DIVERGING_NEG,
   DIVERGING_POS,
   NO_DATA_COLOR,
 } from '../choropleth';
+
+describe('業種指標のランプ', () => {
+  it('sequentialRampは基準色を中心に淡→濃の5段階を返す', () => {
+    const ramp = sequentialRamp('#b07aa1');
+    expect(ramp).toHaveLength(5);
+    expect(ramp[2]).toBe('#b07aa1');
+    const r = (hex: string) => parseInt(hex.slice(1, 3), 16); // R成分で明暗の単調性を近似確認
+    expect(r(ramp[0])).toBeGreaterThan(r(ramp[2]));
+    expect(r(ramp[4])).toBeLessThan(r(ramp[2]));
+  });
+
+  it('業種割合指標は円グラフの業種色由来のランプになる', () => {
+    expect(rampFor('industryMedical')[2]).toBe('#b07aa1'); // 医療・福祉
+    expect(rampFor('industryManufacturing')[2]).toBe('#4472c4'); // 製造業
+  });
+});
 
 describe('computeBreaks', () => {
   it('通常の分布では4つの境界（5階級）を返す', () => {

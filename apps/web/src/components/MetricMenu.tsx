@@ -7,6 +7,7 @@ const CATEGORY_LABELS: Record<MetricCategory, string> = {
   money: '歳入・歳出',
   population: '人口',
   fiscal: '財政指標',
+  labor: '就労',
 };
 
 interface MetricMenuProps {

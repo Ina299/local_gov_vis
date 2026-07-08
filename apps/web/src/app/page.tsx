@@ -39,6 +39,7 @@ const CATEGORY_DEFAULT_KEY: Record<MetricCategory, MapMetricKey> = {
   money: 'expenditure',
   population: 'population',
   fiscal: 'fiscalIndex',
+  labor: 'avgIncome',
 };
 
 /** 表示階層: 全国（都道府県） / 全国（市区町村） / 特定都道府県内の市区町村 */
@@ -448,7 +449,11 @@ export default function Home() {
             </>
           )}
           {category !== 'money' && (
-            <div className="metric-toggle" role="group" aria-label="表示指標">
+            <div
+              className={`metric-toggle ${categoryKeys(category).length > 5 ? 'compact' : ''}`}
+              role="group"
+              aria-label="表示指標"
+            >
               {categoryKeys(category).map((key) => {
                 const def = metricDef(key);
                 return (

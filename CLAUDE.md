@@ -18,6 +18,7 @@ npm run -w @local-gov/crawler import:municipal        # 市区町村（都道府
 npm run -w @local-gov/crawler build:municipal-all     # 全国市区町村ビュー用の結合データ（import:municipal後に実行）
 npm run -w @local-gov/crawler import:demographics     # 人口統計（住基・面積調）を既存JSONに付与＋municipal-all再生成
 npm run -w @local-gov/crawler import:funding          # 目的別歳出の充当一般財源等・性質別内訳（地方財政状況調査）を付与（収支図用）
+npm run -w @local-gov/crawler import:employment       # 就労・所得（課税状況調・国勢調査）を付与（実行後にbuild:municipal-all再実行）
 npm run -w @local-gov/crawler build:topo              # 境界GeoJSON（data/geo）→TopoJSONに変換してapps/web/publicへ配置（geo更新時のみ）
 
 # 旧クローラー（PDFスクレイピング。公式CSV移行により通常は不要）

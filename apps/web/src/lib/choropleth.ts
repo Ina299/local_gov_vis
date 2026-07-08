@@ -1,4 +1,5 @@
-import { metricCategory, type MapMetricKey } from './metrics';
+import { metricCategory, INDUSTRY_METRIC_NAMES, type MapMetricKey } from './metrics';
+import { INDUSTRY_COLORS } from './industry';
 
 // 検証済みパレットのシーケンシャル（blue）ランプ: steps 100/250/400/550/700
 export const SEQUENTIAL_BLUES = ['#cde2fb', '#86b6ef', '#3987e5', '#1c5cab', '#0d366b'];
@@ -7,8 +8,44 @@ export const SEQUENTIAL_GREENS = ['#d3ecd6', '#96d1a0', '#4fa763', '#2c7241', '#
 // データなしはランプの色と絶対に紛れない原色ピンク（マゼンタ）で示す
 export const NO_DATA_COLOR = '#ff00ff';
 
-// 指標カテゴリごとの色ランプ（歳入・歳出: 青 / 人口: 緑 / 財政指標: 赤で危機感を強調）
+/** hexカラーを t (0〜1) だけ target 色へ寄せる */
+function mixHex(hex: string, target: [number, number, number], t: number): string {
+  const n = parseInt(hex.slice(1), 16);
+  const r = Math.round(((n >> 16) & 255) + (target[0] - ((n >> 16) & 255)) * t);
+  const g = Math.round(((n >> 8) & 255) + (target[1] - ((n >> 8) & 255)) * t);
+  const b = Math.round((n & 255) + (target[2] - (n & 255)) * t);
+  return `#${((r << 16) | (g << 8) | b).toString(16).padStart(6, '0')}`;
+}
+
+/** 基準色から5段階のシーケンシャルランプ（淡→濃）を生成する */
+export function sequentialRamp(base: string): string[] {
+  return [
+    mixHex(base, [255, 255, 255], 0.78),
+    mixHex(base, [255, 255, 255], 0.45),
+    base,
+    mixHex(base, [16, 16, 24], 0.3),
+    mixHex(base, [16, 16, 24], 0.55),
+  ];
+}
+
+const industryRampCache = new Map<string, string[]>();
+
+// 平均所得の金色ランプ（豊かなほど濃い金）
+export const SEQUENTIAL_GOLDS = sequentialRamp('#c9a227');
+
+// 指標カテゴリごとの色ランプ（歳入・歳出: 青 / 人口: 緑 / 財政指標: 赤で危機感を強調 /
+// 平均所得: 金 / 業種割合: 円グラフの業種色と同じ色相の濃淡）
 export function rampFor(metricKey: MapMetricKey): string[] {
+  if (metricKey === 'avgIncome') return SEQUENTIAL_GOLDS;
+  const industryName = INDUSTRY_METRIC_NAMES[metricKey];
+  if (industryName) {
+    let ramp = industryRampCache.get(industryName);
+    if (!ramp) {
+      ramp = sequentialRamp(INDUSTRY_COLORS[industryName]);
+      industryRampCache.set(industryName, ramp);
+    }
+    return ramp;
+  }
   const category = metricCategory(metricKey);
   if (category === 'population') return SEQUENTIAL_GREENS;
   if (category === 'money') return SEQUENTIAL_BLUES;

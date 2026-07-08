@@ -69,6 +69,12 @@ body {
   opacity: 0.4;
 }
 
+/* 指標が多いカテゴリ（就労など）はボタンを詰めてヘッダー1行に収める */
+.metric-toggle.compact .metric-toggle-button {
+  padding: 0.4rem 0.55rem;
+  white-space: nowrap;
+}
+
 .metric-toggle-button:disabled {
   cursor: not-allowed;
 }
