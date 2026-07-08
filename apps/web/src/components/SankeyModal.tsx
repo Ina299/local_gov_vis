@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from 'react';
 import type { LocalGovBudget } from '@/types/budget';
 import { formatAmount } from '@/lib/format';
 import { dataUrl } from '@/lib/paths';
+import { GLOSSARY } from '@/lib/glossary';
 import {
   WIDTH,
   MARGIN_Y,
@@ -21,11 +22,12 @@ interface SankeyModalProps {
   onClose: () => void;
 }
 
-/** 全国平均構成比（build-averages.tsが生成）: レベル → 表 → 年度 → 項目名 → 構成比 */
-type BudgetAverages = Record<
-  'pref' | 'muni',
-  Record<AverageTable, Record<string, Record<string, number>>>
->;
+/**
+ * 全国平均（build-averages.tsが生成）: レベル → 表 → 年度 → 項目名 → 値。
+ * 直下は構成比（単純平均）、perCapita配下は1人あたり額（全国計÷全国人口、円/人）
+ */
+type AverageTables = Record<AverageTable, Record<string, Record<string, number>>>;
+type BudgetAverages = Record<'pref' | 'muni', AverageTables & { perCapita: AverageTables }>;
 
 let averagesPromise: Promise<BudgetAverages> | null = null;
 function loadAverages(): Promise<BudgetAverages> {
@@ -63,20 +65,34 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
     if (!averages || !n.avg) return null;
     return averages[level][n.avg.table][String(budget.fiscalYear)]?.[n.avg.name] ?? null;
   };
+  /** ノードに対応する全国中央値の1人あたり額（円/人。全団体の1人あたり額の中央値） */
+  const medianPerCapita = (n: SankeyNode): number | null => {
+    if (!averages || !n.avg) return null;
+    return averages[level].perCapita[n.avg.table][String(budget.fiscalYear)]?.[n.avg.name] ?? null;
+  };
   /**
-   * 平均乖離のラベル表記（多い=赤/少ない=青）。
-   * 全国平均の構成比をこの団体の総額に換算した額との差で示す
+   * 中央値乖離のラベル表記（多い=赤/少ない=青）。
+   * この団体の1人あたり額と全国中央値の1人あたり額の差で示す。
+   * 人口のない団体は平均構成比を総額換算した額との差（フォールバック）
    */
   const diffLabel = (n: SankeyNode): { text: string; color: string } | null => {
+    if (!n.avg) return null;
+    const pcMedian = medianPerCapita(n);
+    if (population && pcMedian !== null) {
+      const diff = n.amount / population - pcMedian;
+      return {
+        text: `中央値${diff >= 0 ? '+' : '−'}${fmtPerPerson(Math.abs(diff))}/人`,
+        color: diff >= 0 ? '#c0392b' : '#1e6bb8',
+      };
+    }
     const avg = avgShare(n);
-    if (avg === null || !n.avg) return null;
+    if (avg === null) return null;
     const total = n.avg.table === 'revenue' ? budget.totalRevenue : budget.totalExpenditure;
     const diff = n.amount - avg * total;
-    // 1人当たりの額で示す（人口がない団体は総額で示す）
-    const text = population
-      ? `平均${diff >= 0 ? '+' : '−'}${perCapita(Math.abs(diff))}/人`
-      : `平均${diff >= 0 ? '+' : '−'}${formatAmount(Math.abs(diff))}`;
-    return { text, color: diff >= 0 ? '#c0392b' : '#1e6bb8' };
+    return {
+      text: `平均${diff >= 0 ? '+' : '−'}${formatAmount(Math.abs(diff))}`,
+      color: diff >= 0 ? '#c0392b' : '#1e6bb8',
+    };
   };
 
   /** ラベル2行目: 1人あたり年額＋平均乖離 */
@@ -115,12 +131,12 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
 
   // 「自分ごと」への翻訳: 住民1人あたりの年額
   const population = budget.population;
-  const perCapita = (amount: number): string | null => {
-    if (!population) return null;
-    const v = amount / population;
-    if (v >= 10_000) return `${(v / 10_000).toLocaleString(undefined, { maximumFractionDigits: 1 })}万円`;
-    return `${Math.round(v).toLocaleString()}円`;
-  };
+  const fmtPerPerson = (v: number): string =>
+    v >= 10_000
+      ? `${(v / 10_000).toLocaleString(undefined, { maximumFractionDigits: 1 })}万円`
+      : `${Math.round(v).toLocaleString()}円`;
+  const perCapita = (amount: number): string | null =>
+    population ? fmtPerPerson(amount / population) : null;
   const tooltip = (name: string, amount: number, share?: number, avg?: number | null): string => {
     const pc = perCapita(amount);
     const parts = [
@@ -134,6 +150,11 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
       .join('・');
     return `${name}: ${formatAmount(amount)}${parts ? `（${parts}）` : ''}`;
   };
+
+  // ノードの解説カード（ホバー・タップで表示。SVGネイティブのtitleと違いスマホでも出る）
+  const [tip, setTip] = useState<{ x: number; y: number; node: SankeyNode } | null>(null);
+  const showTip = (e: { clientX: number; clientY: number }, node: SankeyNode) =>
+    setTip({ x: e.clientX, y: e.clientY, node });
 
   const evaluationSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(
     `${budget.name} 事務事業評価`
@@ -167,16 +188,19 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
             ? `（住民1人あたり 年${perCapita(budget.totalExpenditure)}の支出）`
             : ''}
           。帯の太さは金額に比例。2%未満の項目は「その他」に集約。
+          項目に触れる（タップする）と、そのお金が何に使われるかの解説を表示。
           歳出への財源充当は総務省「地方財政状況調査」の目的別財源内訳による
           {estimated && '（この団体はデータがないため歳入構成比から推計）'}。
           一般財源 = 地方税・地方交付税・地方譲与税・地方特例交付金等。歳入項目から財源区分への割当は推計。
-          「平均±」は全国の{level === 'pref' ? '都道府県' : '市区町村'}の平均的な構成比（単純平均）をこの団体の規模に換算した額との差（赤=平均より多い・青=少ない）。
+          「中央値±」は住民1人あたり額の全国中央値（全国の{level === 'pref' ? '都道府県' : '市区町村'}を1人あたり額で並べたときの真ん中）との差（赤=中央値より多い・青=少ない）。
+          都道府県と市区町村では役割分担が異なり、政令指定都市では教職員給与や保健所などが市側に計上されるため、同じ費目でも団体により計上先が異なることがある。
         </p>
         {/* スマホではSVGを縮めず横スクロールで見せる（min-widthで文字サイズを確保） */}
         <div style={{ overflowX: 'auto' }}>
         <svg
           viewBox={`0 0 ${WIDTH} ${height}`}
           style={{ width: '100%', minWidth: 860, height: 'auto', display: 'block' }}
+          onPointerDown={() => setTip(null)}
         >
           {ribbons.map((r) => (
             <path
@@ -192,10 +216,17 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
             const labelY = labelYs.get(n.key);
             const displaced = labelY !== undefined && Math.abs(labelY - (n.y + n.h / 2)) > n.h / 2 + 2;
             return (
-              <g key={`node-${n.key}`}>
-                <rect x={n.x} y={n.y} width={NODE_W} height={n.h} fill={n.color}>
-                  <title>{tooltip(n.name, n.amount, n.share, avgShare(n))}</title>
-                </rect>
+              <g
+                key={`node-${n.key}`}
+                onPointerEnter={(e) => showTip(e, n)}
+                onPointerMove={(e) => showTip(e, n)}
+                onPointerLeave={() => setTip(null)}
+                onPointerDown={(e) => {
+                  e.stopPropagation();
+                  showTip(e, n);
+                }}
+              >
+                <rect x={n.x} y={n.y} width={NODE_W} height={n.h} fill={n.color} />
                 {n.label === 'left' && labelY !== undefined && (
                   <>
                     {displaced && (
@@ -275,12 +306,22 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
                     >
                       {n.name} {formatAmount(n.amount)}（{pct(n.share)}）
                       {(() => {
+                        const pc = perCapita(n.amount);
                         const d = diffLabel(n);
-                        return d ? (
-                          <tspan dx={4} fill={d.color}>
-                            {d.text}
-                          </tspan>
-                        ) : null;
+                        return (
+                          <>
+                            {pc && (
+                              <tspan dx={4} fill="#52514e" fontWeight={400}>
+                                年{pc}/人
+                              </tspan>
+                            )}
+                            {d && (
+                              <tspan dx={4} fill={d.color}>
+                                {d.text}
+                              </tspan>
+                            )}
+                          </>
+                        );
                       })()}
                     </text>
                   ))}
@@ -289,6 +330,67 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
           })}
         </svg>
         </div>
+        {tip &&
+          (() => {
+            const n = tip.node;
+            const avg = avgShare(n);
+            const pcMedian = medianPerCapita(n);
+            const d = diffLabel(n);
+            const pc = perCapita(n.amount);
+            const desc = GLOSSARY[n.name];
+            const W = 280;
+            return (
+              <div
+                role="tooltip"
+                style={{
+                  position: 'fixed',
+                  left: Math.max(8, Math.min(tip.x + 14, window.innerWidth - W - 12)),
+                  top: Math.min(tip.y + 18, window.innerHeight - 180),
+                  width: W,
+                  background: '#fff',
+                  border: '1px solid #d8d6cf',
+                  borderRadius: 8,
+                  boxShadow: '0 4px 16px rgba(0, 0, 0, 0.18)',
+                  padding: '8px 10px',
+                  fontSize: 12,
+                  lineHeight: 1.6,
+                  color: '#1a1a2e',
+                  pointerEvents: 'none',
+                  zIndex: 1000,
+                }}
+              >
+                <div style={{ fontWeight: 600 }}>
+                  {n.name} {formatAmount(n.amount)}（{pct(n.share)}）
+                </div>
+                {(pc || d) && (
+                  <div style={{ color: '#52514e' }}>
+                    {pc ? `1人あたり 年${pc}` : ''}
+                    {d && (
+                      <span style={{ color: d.color, fontWeight: 600, marginLeft: pc ? 6 : 0 }}>
+                        {d.text}
+                        {population && pcMedian !== null
+                          ? `（全国中央値 年${fmtPerPerson(pcMedian)}/人）`
+                          : avg !== null
+                            ? `（全国平均${pct(avg)}）`
+                            : ''}
+                      </span>
+                    )}
+                  </div>
+                )}
+                {desc && <div style={{ marginTop: 4, color: '#52514e' }}>{desc}</div>}
+                {n.natures &&
+                  // 款名と同じ区分1件だけの自明な内訳（公債費→公債費100%）は出さない
+                  !(n.natures.length === 1 && n.natures[0].name === n.name) && (
+                    <div style={{ marginTop: 4, color: '#52514e' }}>
+                      内訳:{' '}
+                      <span style={{ fontWeight: 600 }}>
+                        {n.natures.map((x) => `${x.name} ${x.share}%`).join('・')}
+                      </span>
+                    </div>
+                  )}
+              </div>
+            );
+          })()}
       </div>
     </div>
   );

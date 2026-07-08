@@ -5,7 +5,8 @@
  *
  * 出力:
  *   apps/web/public/budgets/municipal/{都道府県コード}.json  … 予算データ（全年度）
- *   apps/web/public/geo/municipal/{都道府県コード}.json      … 境界GeoJSON（政令市の区は市コードに解決）
+ *   data/geo/municipal/{都道府県コード}.json                 … 境界GeoJSON（政令市の区は市コードに解決。
+ *                                                             webへは build:topo がTopoJSONに変換して配置）
  *
  * データソース:
  *   財政: https://www.digital.go.jp/resources/japandashboard/municipal-finance
@@ -266,7 +267,7 @@ async function main() {
   console.log(`予算データ: ${byPref.size}都道府県分`);
 
   const budgetsDir = join(WEB_PUBLIC, 'budgets', 'municipal');
-  const geoDir = join(WEB_PUBLIC, 'geo', 'municipal');
+  const geoDir = join(REPO_ROOT, 'data', 'geo', 'municipal');
   mkdirSync(budgetsDir, { recursive: true });
   mkdirSync(geoDir, { recursive: true });
 

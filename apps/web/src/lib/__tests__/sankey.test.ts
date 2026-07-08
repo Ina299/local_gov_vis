@@ -74,6 +74,35 @@ describe('prepareItems', () => {
   it('金額0の項目は除外される', () => {
     expect(prepareItems([item('ゼロ', 0), item('正', 100)], 100)).toHaveLength(1);
   });
+
+  it('性質別内訳（natures）を引き継ぐ', () => {
+    const natures = [{ name: '人件費', share: 59 }];
+    const items = prepareItems([item('教育費', 900, { natures }), item('小さい', 10)], 1000);
+    expect(items.find((i) => i.name === '教育費')?.natures).toEqual(natures);
+  });
+});
+
+describe('buildLayout 性質別内訳', () => {
+  it('款ノードにnaturesが載る', () => {
+    const budget = makeBudget({
+      revenues: [item('地方税', 1000)],
+      expenditures: [item('教育費', 1000, { natures: [{ name: '人件費', share: 59 }] })],
+    });
+    const node = buildLayout(budget).nodes.find((n) => n.key === 'exp-教育費');
+    expect(node?.natures).toEqual([{ name: '人件費', share: 59 }]);
+  });
+
+  it('項ノードにもnaturesが載る', () => {
+    const natures = [{ name: '扶助費', share: 40 }];
+    const budget = makeBudget({
+      revenues: [item('地方税', 1000)],
+      expenditures: [
+        item('民生費', 1000, { children: [item('児童福祉費', 800, { natures })] }),
+      ],
+    });
+    const node = buildLayout(budget).nodes.find((n) => n.key === 'leaf-民生費-児童福祉費');
+    expect(node?.natures).toEqual(natures);
+  });
 });
 
 describe('buildLayout 不変条件', () => {

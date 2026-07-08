@@ -6,6 +6,8 @@ export interface BudgetItem {
   yearOverYear?: number;
   /** 充当一般財源等（円。地方財政状況調査の目的別財源内訳。歳出の大項目のみ） */
   generalFunds?: number;
+  /** 性質別の内訳（構成比%の上位のみ。地方財政状況調査の目的別×性質別クロス。歳出の大項目のみ） */
+  natures?: Array<{ name: string; share: number }>;
   /** サブカテゴリ（内訳） */
   children?: BudgetItem[];
 }

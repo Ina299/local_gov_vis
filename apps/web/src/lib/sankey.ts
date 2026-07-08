@@ -40,6 +40,7 @@ export interface SankeyItem {
   name: string;
   amount: number;
   generalFunds?: number;
+  natures?: Array<{ name: string; share: number }>;
   children?: BudgetItem[];
 }
 
@@ -56,6 +57,7 @@ export function prepareItems(items: BudgetItem[], total: number): SankeyItem[] {
         name: item.name,
         amount: item.amount,
         generalFunds: item.generalFunds,
+        natures: item.natures,
         children: item.children,
       });
       if (item.generalFunds !== undefined) hasGeneral = true;
@@ -95,6 +97,8 @@ export interface SankeyNode {
   label: 'left' | 'right' | 'halo' | 'none';
   /** 全国平均構成比の参照先（比較しない集約ノード等はundefined） */
   avg?: { table: AverageTable; name: string };
+  /** 性質別の内訳（歳出の款ノードのみ。ツールチップ表示用） */
+  natures?: Array<{ name: string; share: number }>;
 }
 
 export interface SankeyRibbon {
@@ -279,6 +283,7 @@ export function buildLayout(budget: LocalGovBudget): SankeyLayout {
       ...(item.name === 'その他'
         ? {}
         : { avg: { table: 'expenditure' as const, name: item.name } }),
+      ...(item.natures ? { natures: item.natures } : {}),
     });
     // 一般財源・特定財源からの帯（款側は一般が上、特定が下）
     let inOffset = 0;
@@ -312,10 +317,10 @@ export function buildLayout(budget: LocalGovBudget): SankeyLayout {
     const leaves: SankeyItem[] =
       bigChildren.length > 0
         ? [
-            ...bigChildren.map((c) => ({ name: c.name, amount: c.amount })),
+            ...bigChildren.map((c) => ({ name: c.name, amount: c.amount, natures: c.natures })),
             ...(residual > 0 ? [{ name: 'その他', amount: residual }] : []),
           ]
-        : [{ name: item.name, amount: item.amount }];
+        : [{ name: item.name, amount: item.amount, natures: item.natures }];
 
     let offset = 0;
     for (const leaf of leaves) {
@@ -340,6 +345,7 @@ export function buildLayout(budget: LocalGovBudget): SankeyLayout {
         h: leafH,
         label: 'right',
         ...(leafAvg ? { avg: leafAvg } : {}),
+        ...(leaf.natures ? { natures: leaf.natures } : {}),
       });
       ribbons.push({
         key: `leaf-${item.name}-${leaf.name}`,

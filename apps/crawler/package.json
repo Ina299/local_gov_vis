@@ -13,6 +13,7 @@
     "import:funding": "tsx src/import-funding.ts",
     "build:municipal-all": "tsx src/build-municipal-all.ts",
     "build:averages": "tsx src/build-averages.ts",
+    "build:topo": "tsx src/build-topo.ts",
     "lint": "eslint src/",
     "typecheck": "tsc --noEmit"
   },
@@ -28,7 +29,9 @@
     "@types/adm-zip": "^0.5.8",
     "@types/node": "^20.10.0",
     "@types/pdf-parse": "^1.1.5",
+    "@types/topojson-server": "^3.0.4",
     "eslint": "^8.55.0",
+    "topojson-server": "^3.0.1",
     "tsx": "^4.7.0",
     "typescript": "^5.3.0",
     "xlsx": "^0.18.5"

@@ -14,6 +14,7 @@ import {
   type MetricCategory,
 } from '@/lib/metrics';
 import { dataUrl } from '@/lib/paths';
+import { fetchTopoFeatures } from '@/lib/topo';
 import type { LocalGovBudget, GeoFeature, BudgetBasis, MapScale } from '@/types/budget';
 
 // Leafletはクライアントサイドでのみ動作
@@ -95,7 +96,7 @@ export default function Home() {
 
     Promise.all([
       fetch(dataUrl('/budgets.json')).then((res) => res.json()),
-      fetch(dataUrl('/japan.geojson')).then((res) => res.json()),
+      fetchTopoFeatures<any>(dataUrl('/japan.topo.json')),
     ])
       .then(([budgets, geoJson]: [LocalGovBudget[], { features: any[] }]) => {
         const features: GeoFeature[] = geoJson.features.map((feature: any) => ({
@@ -229,7 +230,7 @@ export default function Home() {
       setLoadingDrilldown(true);
       Promise.all([
         fetch(dataUrl('/budgets/municipal-all.json')).then((res) => res.json()),
-        fetch(dataUrl('/geo/municipal-all.json')).then((res) => res.json()),
+        fetchTopoFeatures<GeoFeature>(dataUrl('/geo/municipal-all.topo.json')),
       ])
         .then(([budgets, geo]: [LocalGovBudget[], { features: GeoFeature[] }]) => {
           setNationMuni({ budgets, features: geo.features });
@@ -265,7 +266,7 @@ export default function Home() {
     setLoadingDrilldown(true);
     Promise.all([
       fetch(dataUrl(`/budgets/municipal/${prefCode}.json`)).then((res) => res.json()),
-      fetch(dataUrl(`/geo/municipal/${prefCode}.json`)).then((res) => res.json()),
+      fetchTopoFeatures<GeoFeature>(dataUrl(`/geo/municipal/${prefCode}.topo.json`)),
     ])
       .then(([budgets, geo]: [LocalGovBudget[], { features: GeoFeature[] }]) => {
         setMunicipal({ budgets, features: geo.features });
