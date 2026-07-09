@@ -354,6 +354,8 @@ export function Sidebar({
   if (!selectedRegion) {
     // 未選択時: 選択中の指標の全国サマリーと見方のヒントを表示する
     const statRows: Array<{ label: string; value: string }> = [];
+    // データ到着前（プリレンダHTML・初回ロード中）は 0円 と誤読されるため「—」を出す
+    const loading = regionBudgets.length === 0;
     if (def.kind === 'money') {
       // 金額指標はスケール切替によらず総額・1人あたりを併記する
       const total = regionBudgets
@@ -362,20 +364,26 @@ export function Sidebar({
         .reduce((sum, v) => sum + v, 0);
       const medianTotal = medianOf('total');
       const medianPerCapita = medianOf('perCapita');
-      statRows.push({ label: `${scopeLabel}の合計`, value: formatAmount(total) });
-      if (medianTotal !== null) {
-        statRows.push({ label: `${scopeLabel}の中央値（総額）`, value: formatAmount(medianTotal) });
+      statRows.push({ label: `${scopeLabel}の合計`, value: loading ? '—' : formatAmount(total) });
+      if (loading || medianTotal !== null) {
+        statRows.push({
+          label: `${scopeLabel}の中央値（総額）`,
+          value: loading || medianTotal === null ? '—' : formatAmount(medianTotal),
+        });
       }
-      if (medianPerCapita !== null) {
+      if (loading || medianPerCapita !== null) {
         statRows.push({
           label: `${scopeLabel}の中央値（1人あたり）`,
-          value: formatAmount(medianPerCapita),
+          value: loading || medianPerCapita === null ? '—' : formatAmount(medianPerCapita),
         });
       }
     } else {
       const median = medianOf(scale);
-      if (median !== null) {
-        statRows.push({ label: `${scopeLabel}の中央値`, value: formatMetricValue(median, metricKey) });
+      if (loading || median !== null) {
+        statRows.push({
+          label: `${scopeLabel}の中央値`,
+          value: loading || median === null ? '—' : formatMetricValue(median, metricKey),
+        });
       }
     }
 

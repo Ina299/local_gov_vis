@@ -101,6 +101,7 @@ export default function Home() {
     if (!selectedCode) setFlowOpen(false);
   }, [selectedCode]);
 
+
   // モバイルではトグル群が横スクロールするため、指標切替時に
   // 選択中の指標ボタンが見える位置までスクロールする（デスクトップでは何もしない）。
   // 年度・スケールのトグルは対象外（そちらに合わせると指標が画面外に流れる）
@@ -265,6 +266,15 @@ export default function Home() {
   const selectedRegion = selectedCode
     ? (lookupBudget(selectedCode, year) ?? lookupBudget(selectedCode, dataYear))
     : null;
+
+  // タブ・履歴・共有時に場所が分かるよう、タイトルを表示中の自治体に追従させる
+  // （OGスクレイパーは静的HTMLを読むためSNSカードには効かないが、ブラウザ経由の共有には効く）
+  useEffect(() => {
+    const base = '地方自治体予算マップ';
+    const place =
+      selectedRegion?.name ?? (view.level === 'municipal' ? view.prefName : null);
+    document.title = place ? `${place}の財政 | ${base}` : base;
+  }, [selectedRegion, view]);
 
   // 選択団体の全年度データ（サイドバーの推移グラフ・前年比用）
   const yearlyBudgets = useMemo(
