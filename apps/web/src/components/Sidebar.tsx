@@ -109,27 +109,34 @@ function SpendingWithMedian({
     .filter((p): p is { name: string; perCapita: number; median: number | null } => p !== null);
   if (parts.length === 0) return null;
   return (
-    <p className="attribution" style={{ marginTop: 8 }}>
-      この団体の{subject}への支出（住民1人あたり年額）:{' '}
-      {parts.map((p, i) => (
-        <span key={p.name}>
-          {i > 0 && '・'}
-          {p.name} {formatPerPerson(p.perCapita)}
-          {p.median !== null && (
-            <span
-              style={{
-                color: p.perCapita - p.median >= 0 ? '#c0392b' : '#1e6bb8',
-                fontWeight: 600,
-              }}
-            >
-              {' '}
-              中央値{p.perCapita - p.median >= 0 ? '+' : '−'}
-              {formatPerPerson(Math.abs(p.perCapita - p.median))}/人
-            </span>
-          )}
-        </span>
-      ))}
-    </p>
+    <div style={{ marginTop: 12 }}>
+      <p style={{ fontWeight: 600, marginBottom: 2 }}>{subject}への支出（1人あたり年額）</p>
+      <div className="budget-list" style={{ marginTop: 0 }}>
+        {parts.map((p) => (
+          <div className="budget-item" key={p.name}>
+            <div className="budget-item-head">
+              <span style={{ whiteSpace: 'nowrap' }}>{p.name}</span>
+              <span className="budget-item-value">
+                {formatPerPerson(p.perCapita)}
+                {p.median !== null && (
+                  <span
+                    style={{
+                      color: p.perCapita - p.median >= 0 ? '#c0392b' : '#1e6bb8',
+                      fontWeight: 600,
+                      fontSize: '0.8rem',
+                      marginLeft: 6,
+                    }}
+                  >
+                    中央値{p.perCapita - p.median >= 0 ? '+' : '−'}
+                    {formatPerPerson(Math.abs(p.perCapita - p.median))}
+                  </span>
+                )}
+              </span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
   );
 }
 
@@ -145,6 +152,23 @@ interface SidebarProps {
   flowOpen: boolean;
   onFlowOpenChange: (open: boolean) => void;
 }
+
+/**
+ * 就労カテゴリの指標 → 関連する歳出の款。
+ * 業種ごとに支えている予算が違う（農林業は農林水産業費、製造・観光は商工費など）ので
+ * 選択中の指標カードに個別の款の1人あたり支出と中央値±を出す
+ */
+const LABOR_RELATED_EXPENDITURES: Partial<Record<MapMetricKey, string[]>> = {
+  avgIncome: ['商工費', '労働費'],
+  industryMedical: ['民生費', '衛生費'],
+  industryPublic: ['総務費'],
+  industryConstruction: ['土木費'],
+  industryManufacturing: ['商工費'],
+  industryAgriculture: ['農林水産業費'],
+  industryHospitality: ['商工費'],
+  industryTransport: ['土木費'],
+  industryIT: ['商工費'],
+};
 
 const BUDGET_TYPE_LABELS: Record<LocalGovBudget['budgetType'], string> = {
   initial: '当初予算',
@@ -295,19 +319,21 @@ export function Sidebar({
     [yearlyBudgets, metricKey, scale]
   );
 
+  // 表示階層の全団体における選択指標の中央値（未選択サマリーと選択時の全国比較に使う）
+  const level = regionBudgets[0]?.code.length === 2 ? '都道府県' : '市区町村';
+  const medianOf = (s: MapScale): number | null => {
+    const values = regionBudgets
+      .map((b) => metricValue(b, metricKey, s))
+      .filter((v): v is number => v !== null)
+      .sort((a, b) => a - b);
+    if (values.length === 0) return null;
+    return values.length % 2 === 1
+      ? values[(values.length - 1) / 2]
+      : (values[values.length / 2 - 1] + values[values.length / 2]) / 2;
+  };
+
   if (!selectedRegion) {
     // 未選択時: 選択中の指標の全国サマリーと見方のヒントを表示する
-    const level = regionBudgets[0]?.code.length === 2 ? '都道府県' : '市区町村';
-    const medianOf = (s: MapScale): number | null => {
-      const values = regionBudgets
-        .map((b) => metricValue(b, metricKey, s))
-        .filter((v): v is number => v !== null)
-        .sort((a, b) => a - b);
-      if (values.length === 0) return null;
-      return values.length % 2 === 1
-        ? values[(values.length - 1) / 2]
-        : (values[values.length / 2 - 1] + values[values.length / 2]) / 2;
-    };
     const statRows: Array<{ label: string; value: string }> = [];
     if (def.kind === 'money') {
       // 金額指標はスケール切替によらず総額・1人あたりを併記する
@@ -444,13 +470,70 @@ export function Sidebar({
         <div className="budget-amount">
           {heroValue !== null ? formatMetricValue(heroValue, metricKey) : 'データなし'}
         </div>
-        {yoy !== null && (
-          <p>
-            前年度比: {yoy >= 0 ? '+' : ''}
-            {yoy.toFixed(1)}%
-          </p>
+        {(() => {
+          // 前年度比と（就労指標のみ）全国中央値比較を「ラベル｜値」の行で揃える
+          const rows: Array<{ label: string; node: React.ReactNode }> = [];
+          if (yoy !== null) {
+            rows.push({
+              label: '前年度比',
+              node: `${yoy >= 0 ? '+' : ''}${yoy.toFixed(1)}%`,
+            });
+          }
+          // 就労指標と、金額指標の一人当たり表示では全団体の中央値との比較を出す
+          const showMedian =
+            def.category === 'labor' || (def.kind === 'money' && scale === 'perCapita');
+          if (showMedian && heroValue !== null) {
+            const median = medianOf(scale);
+            if (median !== null) {
+              const diff = heroValue - median;
+              const diffText =
+                def.kind === 'ratio'
+                  ? `${diff >= 0 ? '+' : '−'}${Math.abs(diff * 100).toFixed(1)}pt`
+                  : `${diff >= 0 ? '+' : '−'}${formatPerPerson(Math.abs(diff))}`;
+              rows.push({
+                label: `全${level}の中央値`,
+                node: (
+                  <>
+                    {formatMetricValue(median, metricKey)}
+                    <span
+                      style={{
+                        color: diff >= 0 ? '#c0392b' : '#1e6bb8',
+                        fontWeight: 600,
+                        fontSize: '0.8rem',
+                        marginLeft: 6,
+                      }}
+                    >
+                      {diffText}
+                    </span>
+                  </>
+                ),
+              });
+            }
+          }
+          if (rows.length === 0) return null;
+          return (
+            <div className="budget-list" style={{ marginTop: 6 }}>
+              {rows.map(({ label, node }) => (
+                <div className="budget-item" key={label}>
+                  <div className="budget-item-head">
+                    <span style={{ whiteSpace: 'nowrap' }}>{label}</span>
+                    <span className="budget-item-value">{node}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          );
+        })()}
+        {/* 指標の説明は未選択時の「◯◯とは」カードとトグルのツールチップにあるため、ここには出さない */}
+        {/* 就労指標に対応する款の支出（業種ごとに関連する予算が違う） */}
+        {def.category === 'labor' && LABOR_RELATED_EXPENDITURES[metricKey] && (
+          <SpendingWithMedian
+            budget={selectedRegion}
+            names={LABOR_RELATED_EXPENDITURES[metricKey]!}
+            subject="関連分野"
+            averages={averages}
+          />
         )}
-        {def.description && <p className="attribution">{def.description}</p>}
       </div>
 
       {showChart && (
@@ -526,26 +609,34 @@ export function Sidebar({
       {def.category === 'labor' && selectedRegion.employment && (
         <div className="budget-card">
           <h3>就労・産業</h3>
-          {selectedRegion.employment.avgIncome !== undefined && (
-            <p>
-              平均所得: {Math.round(selectedRegion.employment.avgIncome / 10_000).toLocaleString()}
-              万円
-              {selectedRegion.employment.taxpayers !== undefined &&
-                `（納税義務者 ${selectedRegion.employment.taxpayers.toLocaleString()}人）`}
-            </p>
-          )}
+          <div className="budget-list" style={{ marginTop: 0 }}>
+            {selectedRegion.employment.avgIncome !== undefined && (
+              <div className="budget-item">
+                <div className="budget-item-head">
+                  <span style={{ whiteSpace: 'nowrap' }}>平均所得</span>
+                  <span className="budget-item-value">
+                    {Math.round(selectedRegion.employment.avgIncome / 10_000).toLocaleString()}万円
+                  </span>
+                </div>
+              </div>
+            )}
+            {selectedRegion.employment.taxpayers !== undefined && (
+              <div className="budget-item">
+                <div className="budget-item-head">
+                  <span style={{ whiteSpace: 'nowrap' }}>納税義務者</span>
+                  <span className="budget-item-value">
+                    {selectedRegion.employment.taxpayers.toLocaleString()}人
+                  </span>
+                </div>
+              </div>
+            )}
+          </div>
           {selectedRegion.employment.industries && (
-            <>
-              <p style={{ marginBottom: 4 }}>働く人の産業（就業者の割合）:</p>
+            <div style={{ marginTop: 12 }}>
+              <p style={{ fontWeight: 600, marginBottom: 4 }}>働く人の産業（就業者の割合）</p>
               <IndustryDonut industries={selectedRegion.employment.industries} />
-            </>
+            </div>
           )}
-          <SpendingWithMedian
-            budget={selectedRegion}
-            names={['商工費', '労働費']}
-            subject="産業"
-            averages={averages}
-          />
         </div>
       )}
 
