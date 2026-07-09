@@ -1,16 +1,19 @@
 /**
- * 人口統計（人口密度・高齢化比率・外国人比率・出生・増減の元データ）を取得し、
- * 生成済みの予算JSONに demographics フィールドとして付与する。
+ * 人口統計（人口密度・高齢化比率・外国人比率・出生・増減の元データ）を
+ * 予算データのある全年度分（2020〜2024年度）取得し、生成済みの予算JSONに
+ * 年度別の demographics フィールドとして付与する。
  * あわせて、静的値になっていた都道府県の人口を市区町村マスタ人口の
  * 県別合算で年度別の値に置き換える。
  *
  * データソース:
- *   人口・出生: 総務省「住民基本台帳に基づく人口、人口動態及び世帯数」（令和7年1月1日）
- *     - 25-04 【総計】市区町村別年齢階級別人口
- *     - 25-12 【外国人住民】市区町村別年齢階級別人口
- *     - 25-03 【総計】市区町村別人口、人口動態及び世帯数（令和6年中の出生者数）
- *     - 25-11 【外国人住民】市区町村別人口、人口動態及び世帯数
- *   面積: 国土地理院「全国都道府県市区町村別面積調」
+ *   人口・出生: 総務省「住民基本台帳に基づく人口、人口動態及び世帯数」（毎年公表）
+ *     年度Yには「Y+1年1月1日時点」の版を対応させる（動態はY年中の値）。
+ *     各年版の4表（表番号はNN-XX、NNは西暦下2桁）:
+ *     - NN-04 【総計】市区町村別年齢階級別人口
+ *     - NN-12 【外国人住民】市区町村別年齢階級別人口
+ *     - NN-03 【総計】市区町村別人口、人口動態及び世帯数（前年中の出生者数・増減数）
+ *     - NN-11 【外国人住民】市区町村別人口、人口動態及び世帯数
+ *   面積: 国土地理院「全国都道府県市区町村別面積調」（年度によらず最新時点）
  *
  * import:dashboard / import:municipal の後に実行する（既存JSONを上書き更新する）。
  * 実行: npm run -w @local-gov/crawler import:demographics
@@ -24,15 +27,48 @@ import * as XLSX from 'xlsx';
 import { parse } from 'csv-parse/sync';
 import type { LocalGovBudget, Demographics } from './types/budget.js';
 
-// e-Stat 住民基本台帳（令和7年1月1日）: fileKind=0 はExcel
-const JUKI_TOTAL_URL =
-  'https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040306654&fileKind=0';
-const JUKI_FOREIGN_URL =
-  'https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040306690&fileKind=0';
-const JUKI_TOTAL_DYNAMICS_URL =
-  'https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040306653&fileKind=0';
-const JUKI_FOREIGN_DYNAMICS_URL =
-  'https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040306688&fileKind=0';
+/** e-Stat 住基4表のstatInfId。キーは対応する予算年度（値はその翌年1月1日時点の版） */
+const JUKI_TABLES: Record<
+  number,
+  { total: string; foreign: string; totalDynamics: string; foreignDynamics: string }
+> = {
+  2020: {
+    // 令和3年1月1日（21-04 / 21-12 / 21-03 / 21-11）
+    total: '000040306661',
+    foreign: '000040306694',
+    totalDynamics: '000040306659',
+    foreignDynamics: '000040306693',
+  },
+  2021: {
+    total: '000032224637',
+    foreign: '000032224645',
+    totalDynamics: '000032224636',
+    foreignDynamics: '000032224644',
+  },
+  2022: {
+    total: '000040306648',
+    foreign: '000040306650',
+    totalDynamics: '000040306647',
+    foreignDynamics: '000040306673',
+  },
+  2023: {
+    total: '000040306674',
+    foreign: '000040306682',
+    totalDynamics: '000040306672',
+    foreignDynamics: '000040306681',
+  },
+  2024: {
+    // 令和7年1月1日（25-04 / 25-12 / 25-03 / 25-11）
+    total: '000040306654',
+    foreign: '000040306690',
+    totalDynamics: '000040306653',
+    foreignDynamics: '000040306688',
+  },
+};
+
+// fileKind=0 はExcel
+const estatUrl = (statInfId: string) =>
+  `https://www.e-stat.go.jp/stat-search/file-download?statInfId=${statInfId}&fileKind=0`;
 // 国土地理院 面積調（令和6年1月以降の時点別面積を含むCSV, Shift_JIS）
 const MENCHO_URL = 'https://www.gsi.go.jp/KOKUJYOHO/MENCHO/backnumber/R8_04_mencho.csv';
 
@@ -232,10 +268,10 @@ function buildPrefYearPopulations(muniDir: string): Map<string, number> {
   return result;
 }
 
-/** 予算JSONファイルにdemographics（と都道府県は年度別人口）を付与して書き戻す */
+/** 予算JSONファイルに年度別demographics（と都道府県は年度別人口）を付与して書き戻す */
 function patchFile(
   path: string,
-  demographics: Map<string, Demographics>,
+  demographicsByYear: Map<number, Map<string, Demographics>>,
   prefYearPopulations?: Map<string, number>
 ): number {
   if (!existsSync(path)) {
@@ -245,7 +281,7 @@ function patchFile(
   const budgets: LocalGovBudget[] = JSON.parse(readFileSync(path, 'utf-8'));
   let patched = 0;
   for (const b of budgets) {
-    const d = demographics.get(b.code);
+    const d = demographicsByYear.get(b.fiscalYear)?.get(b.code);
     if (d) {
       b.demographics = d;
       patched++;
@@ -262,26 +298,36 @@ function patchFile(
   return patched;
 }
 
+const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+
 async function main() {
-  const [totalBuf, foreignBuf, totalDynBuf, foreignDynBuf, menchoBuf] = await Promise.all([
-    fetchBuffer(JUKI_TOTAL_URL),
-    fetchBuffer(JUKI_FOREIGN_URL),
-    fetchBuffer(JUKI_TOTAL_DYNAMICS_URL),
-    fetchBuffer(JUKI_FOREIGN_DYNAMICS_URL),
-    fetchBufferLegacyTls(MENCHO_URL),
-  ]);
+  const area = parseMencho(await fetchBufferLegacyTls(MENCHO_URL));
 
-  const total = parseJuki(totalBuf);
-  const foreign = parseJuki(foreignBuf);
-  const totalDynamics = parseDynamics(totalDynBuf);
-  const foreignDynamics = parseDynamics(foreignDynBuf);
-  const area = parseMencho(menchoBuf);
-  console.log(
-    `住基（総計）: ${total.size}団体 / 住基（外国人）: ${foreign.size}団体 / ` +
-      `動態: ${totalDynamics.size}団体 / 面積: ${area.size}団体`
-  );
+  // 年度ごとに住基4表を取得してdemographicsを組み立てる（年度間は1秒空ける）
+  const demographicsByYear = new Map<number, Map<string, Demographics>>();
+  for (const [year, ids] of Object.entries(JUKI_TABLES)) {
+    const [totalBuf, foreignBuf, totalDynBuf, foreignDynBuf] = await Promise.all([
+      fetchBuffer(estatUrl(ids.total)),
+      fetchBuffer(estatUrl(ids.foreign)),
+      fetchBuffer(estatUrl(ids.totalDynamics)),
+      fetchBuffer(estatUrl(ids.foreignDynamics)),
+    ]);
+    const total = parseJuki(totalBuf);
+    const foreign = parseJuki(foreignBuf);
+    const totalDynamics = parseDynamics(totalDynBuf);
+    const foreignDynamics = parseDynamics(foreignDynBuf);
+    console.log(
+      `${year}年度: 住基（総計）${total.size}団体 / （外国人）${foreign.size}団体 / ` +
+        `動態 ${totalDynamics.size}団体`
+    );
+    demographicsByYear.set(
+      Number(year),
+      buildDemographics(total, foreign, totalDynamics, foreignDynamics, area)
+    );
+    await sleep(1000);
+  }
+  console.log(`面積: ${area.size}団体`);
 
-  const demographics = buildDemographics(total, foreign, totalDynamics, foreignDynamics, area);
   const muniDir = join(WEB_PUBLIC, 'budgets', 'municipal');
 
   // 都道府県（年度別人口は市区町村マスタの県別合算で置き換える）
@@ -291,14 +337,14 @@ async function main() {
     join(WEB_PUBLIC, 'budgets.json'),
     join(REPO_ROOT, 'data', 'budgets', 'prefectures.json'),
   ]) {
-    const n = patchFile(path, demographics, prefYearPopulations);
+    const n = patchFile(path, demographicsByYear, prefYearPopulations);
     console.log(`${path}: ${n}件付与`);
   }
 
   // 市区町村（都道府県別）
   let muniPatched = 0;
   for (const file of readdirSync(muniDir).filter((f) => /^\d{2}\.json$/.test(f))) {
-    muniPatched += patchFile(join(muniDir, file), demographics);
+    muniPatched += patchFile(join(muniDir, file), demographicsByYear);
   }
   console.log(`市区町村: ${muniPatched}件付与`);
   console.log('完了（build:municipal-all の再実行が必要です）');

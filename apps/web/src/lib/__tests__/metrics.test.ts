@@ -35,6 +35,21 @@ describe('metricValue', () => {
     );
   });
 
+  it('款・歳入項目の指標はbudgetItemで引き、ない項目は0円', () => {
+    const b: LocalGovBudget = {
+      ...budget,
+      expenditures: [{ name: '教育費', amount: 1_200_000_000_000, category: 'education' }],
+      revenues: [{ name: '地方税', amount: 6_000_000_000_000, category: 'other' }],
+    };
+    expect(metricValue(b, 'expenditureEducation', 'total')).toBe(1_200_000_000_000);
+    expect(metricValue(b, 'expenditureEducation', 'perCapita')).toBeCloseTo(
+      1_200_000_000_000 / 14_000_000
+    );
+    expect(metricValue(b, 'revenueLocalTax', 'total')).toBe(6_000_000_000_000);
+    // リストにない項目（不交付団体の地方交付税等）は0円
+    expect(metricValue(b, 'localAllocationTax', 'total')).toBe(0);
+  });
+
   it('人口・人口密度', () => {
     expect(metricValue(budget, 'population', 'total')).toBe(14_000_000);
     expect(metricValue(budget, 'populationDensity', 'total')).toBeCloseTo(14_000_000 / 2_200);
@@ -92,6 +107,24 @@ describe('カテゴリ定義', () => {
     expect(metricCategory('fiscalIndex')).toBe('fiscal');
   });
 
+  it('歳入・歳出カテゴリのトグル順（商工費は都道府県のみ）', () => {
+    expect(categoryKeys('money')).toEqual([
+      'expenditure',
+      'expenditureEducation',
+      'expenditureWelfare',
+      'expenditureCivil',
+      'expenditureCommerce',
+      'expenditureAgriculture',
+      'expenditureHealth',
+      'revenue',
+      'revenueLocalTax',
+      'localAllocationTax',
+      'revenueNationalTreasury',
+    ]);
+    expect(metricDef('expenditureCommerce').prefOnly).toBe(true);
+    expect(metricDef('expenditureEducation').prefOnly).toBeUndefined();
+  });
+
   it('人口カテゴリのトグル順', () => {
     expect(categoryKeys('population')).toEqual([
       'population',
@@ -104,9 +137,79 @@ describe('カテゴリ定義', () => {
     ]);
   });
 
-  it('静的指標にはyearIndependentが立っている', () => {
-    for (const key of ['elderlyRatio', 'foreignRatio', 'births', 'populationChange', 'foreignBirthRatio'] as const) {
+  it('就労系の静的指標にはyearIndependentが立っている', () => {
+    for (const key of ['avgIncome', 'industryMedical', 'industryPublic'] as const) {
       expect(metricDef(key).yearIndependent).toBe(true);
+    }
+  });
+
+  it('公共施設状況調のインフラ指標は年度別（1年ずらしで全年度に対応するためmaxYearなし）', () => {
+    for (const key of [
+      'roadPerCapita',
+      'sewerageRatio',
+      'parkPerCapita',
+      'publicHousingRate',
+    ] as const) {
+      expect(metricDef(key).yearIndependent).toBeUndefined();
+      expect(metricDef(key).maxYear).toBeUndefined();
+    }
+  });
+
+  it('インフラカテゴリのトグル順', () => {
+    expect(categoryKeys('infra')).toEqual([
+      'roadPerCapita',
+      'waterPipeAging',
+      'sewerageRatio',
+      'parkPerCapita',
+      'publicHousingRate',
+      'hospitals',
+      'hospitalBeds',
+    ]);
+  });
+
+  it('見える化DB由来のインフラ指標は年度別（yearIndependentなし）', () => {
+    for (const key of ['waterPipeAging', 'hospitals', 'hospitalBeds'] as const) {
+      expect(metricDef(key).yearIndependent).toBeUndefined();
+    }
+  });
+
+  it('安全カテゴリは年度別データ（yearIndependentなし）でトグル順も維持', () => {
+    expect(categoryKeys('safety')).toEqual([
+      'trafficAccidents',
+      'trafficFatalities',
+      'penalCodeOffenses',
+      'homicides',
+      'robberies',
+      'burglaries',
+      'sexualAssaults',
+    ]);
+    for (const key of categoryKeys('safety')) {
+      expect(metricDef(key).yearIndependent).toBeUndefined();
+    }
+  });
+
+  it('犯罪統計の指標は都道府県のみ（prefOnly）、交通事故は市区町村もあり', () => {
+    for (const key of [
+      'penalCodeOffenses',
+      'homicides',
+      'robberies',
+      'burglaries',
+      'sexualAssaults',
+    ] as const) {
+      expect(metricDef(key).prefOnly).toBe(true);
+    }
+    expect(metricDef('trafficAccidents').prefOnly).toBeUndefined();
+  });
+
+  it('per1000/per100kは指標定義のunitで表示する', () => {
+    expect(formatMetricValue(11.44, 'publicHousingRate')).toBe('11.4戸');
+    expect(formatMetricValue(1.87, 'trafficAccidents')).toBe('1.9件');
+    expect(formatMetricValue(3.03, 'trafficFatalities')).toBe('3.0人');
+  });
+
+  it('人口統計指標は年度別に取得するためyearIndependentなし', () => {
+    for (const key of ['elderlyRatio', 'foreignRatio', 'births', 'populationChange', 'foreignBirthRatio'] as const) {
+      expect(metricDef(key).yearIndependent).toBeUndefined();
     }
     expect(metricDef('expenditure').yearIndependent).toBeUndefined();
   });

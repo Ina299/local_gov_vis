@@ -27,6 +27,15 @@ describe('業種指標のランプ', () => {
     expect(rampFor('industryMedical')[2]).toBe('#b07aa1'); // 医療・福祉
     expect(rampFor('industryManufacturing')[2]).toBe('#4472c4'); // 製造業
   });
+
+  it('款・歳入項目の指標は収支サマリーのドーナツと同じ固定色由来のランプになる', () => {
+    expect(rampFor('expenditureEducation')[2]).toBe('#1baf7a'); // 教育費（ドーナツと同色）
+    expect(rampFor('expenditureWelfare')[2]).toBe('#2a78d6'); // 民生費
+    expect(rampFor('expenditureAgriculture')[2]).toBe('#b1651f'); // 農林水産業費
+    expect(rampFor('revenueNationalTreasury')[2]).toBe('#eda100'); // 国庫支出金
+    // 総額（歳出・歳入）は従来どおり青の検証済みランプ
+    expect(rampFor('expenditure')).toBe(SEQUENTIAL_BLUES);
+  });
 });
 
 describe('computeBreaks', () => {

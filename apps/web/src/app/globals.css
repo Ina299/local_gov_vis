@@ -8,6 +8,8 @@ html,
 body {
   max-width: 100vw;
   height: 100vh;
+  /* モバイルブラウザのURLバー分を除いた実表示高さに合わせる */
+  height: 100dvh;
   overflow: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
@@ -16,6 +18,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  min-height: 100dvh;
 }
 
 .header {
@@ -31,9 +34,18 @@ body {
 .header h1 {
   font-size: 1.5rem;
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .header-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* トグル群（年度・集計対象など）。モバイルではここだけ横スクロールさせ、
+   カテゴリメニューはスクロール外に置いてドロップダウンが切れないようにする */
+.header-toggles {
   display: flex;
   gap: 0.75rem;
   flex-wrap: wrap;
@@ -65,18 +77,10 @@ body {
   font-weight: 600;
 }
 
-.metric-toggle.disabled {
-  opacity: 0.4;
-}
-
 /* 指標が多いカテゴリ（就労など）はボタンを詰めてヘッダー1行に収める */
 .metric-toggle.compact .metric-toggle-button {
   padding: 0.4rem 0.55rem;
   white-space: nowrap;
-}
-
-.metric-toggle-button:disabled {
-  cursor: not-allowed;
 }
 
 .main {
@@ -87,6 +91,7 @@ body {
 .map-container {
   flex: 1;
   height: calc(100vh - 80px);
+  height: calc(100dvh - 80px);
   position: relative;
 }
 
@@ -140,6 +145,7 @@ body {
   color: white;
   font-size: 0.875rem;
   font-weight: 600;
+  white-space: nowrap;
   cursor: pointer;
 }
 
@@ -303,6 +309,7 @@ body {
 .sidebar {
   width: 360px;
   height: calc(100vh - 80px);
+  height: calc(100dvh - 80px);
   background: #f8f9fa;
   border-left: 1px solid #dee2e6;
   padding: 1rem;
@@ -526,10 +533,26 @@ a.text-button {
   outline: none !important;
 }
 
+/* 収支図の注記（デスクトップは全文、モバイルは折りたたみ。後述のメディアクエリで切替） */
+.sankey-notes-collapsed {
+  display: none;
+  margin-bottom: 0.5rem;
+}
+
+.sankey-notes-collapsed summary {
+  color: #2a78d6;
+  cursor: pointer;
+}
+
+.sankey-notes-collapsed p {
+  margin-top: 0.35rem;
+}
+
 /* --- モバイル（縦積みレイアウト・横スクロールするトグル群） --- */
 @media (max-width: 768px) {
   .container {
     height: 100vh;
+    height: 100dvh;
     min-height: 0;
   }
 
@@ -544,11 +567,23 @@ a.text-button {
     font-size: 1.05rem;
   }
 
+  /* トグル群だけスクロールし、カテゴリメニューは右端に固定表示する */
   .header-controls {
+    gap: 0.5rem;
+  }
+
+  .header-toggles {
+    flex: 1;
+    min-width: 0;
     flex-wrap: nowrap;
+    gap: 0.5rem;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    padding-bottom: 2px;
+    scrollbar-width: none;
+  }
+
+  .header-toggles::-webkit-scrollbar {
+    display: none;
   }
 
   .metric-toggle,
@@ -572,6 +607,7 @@ a.text-button {
   .map-container {
     flex: none;
     height: 52vh;
+    height: 52dvh;
   }
 
   .sidebar {
@@ -583,8 +619,23 @@ a.text-button {
     border-top: 1px solid #dee2e6;
   }
 
+  /* 検索は全幅、表示単位トグルはその下に置いて重なりを防ぐ */
   .search-box {
-    width: min(240px, 55vw);
+    width: calc(100% - 24px);
+    z-index: 1001;
+  }
+
+  .search-input {
+    /* 16px未満だとiOSがフォーカス時に自動ズームしてレイアウトが崩れる */
+    font-size: 16px;
+  }
+
+  .granularity-toggle {
+    top: 58px;
+  }
+
+  .map-loading {
+    top: 104px;
   }
 
   .legend {
@@ -610,6 +661,19 @@ a.text-button {
 
   .modal {
     padding: 0.9rem 0.75rem 1rem;
+  }
+
+  .modal-head h3 {
+    font-size: 0.95rem;
+  }
+
+  /* 収支図の詳しい注記はモバイルでは折りたたむ */
+  .sankey-notes-full {
+    display: none;
+  }
+
+  .sankey-notes-collapsed {
+    display: block;
   }
 }
 

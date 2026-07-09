@@ -12,3 +12,10 @@ export function formatAmount(amount: number): string {
   }
   return `${amount.toLocaleString()}円`;
 }
+
+/** 1人あたり額（円/人）の表記。1万円以上は小数1桁の万円 */
+export function formatPerPerson(value: number): string {
+  return value >= 10_000
+    ? `${(value / 10_000).toLocaleString(undefined, { maximumFractionDigits: 1 })}万円`
+    : `${Math.round(value).toLocaleString()}円`;
+}

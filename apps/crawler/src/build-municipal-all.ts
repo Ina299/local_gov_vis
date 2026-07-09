@@ -30,6 +30,12 @@ const MAP_INDICATORS = new Set([
   '将来負担比率',
 ]);
 
+/** 地図指標に使う歳入項目のみ残す（他の内訳はドリルダウン時に遅延ロード） */
+const MAP_REVENUES = new Set(['地方税', '地方交付税', '国庫支出金']);
+
+/** 地図指標に使う歳出の款のみ残す */
+const MAP_EXPENDITURES = new Set(['教育費', '民生費', '衛生費', '土木費', '農林水産業費']);
+
 function main() {
   const prefFiles = readdirSync(BUDGETS_DIR)
     .filter((f) => /^\d{2}\.json$/.test(f))
@@ -51,15 +57,18 @@ function main() {
         budgetType: b.budgetType,
         totalRevenue: b.totalRevenue,
         totalExpenditure: b.totalExpenditure,
-        expenditures: [],
-        // 地図指標に使う地方交付税のみ残す（他の内訳はドリルダウン時に遅延ロード）
+        expenditures: b.expenditures
+          .filter((e) => MAP_EXPENDITURES.has(e.name))
+          .map(({ name, amount, category }) => ({ name, amount, category })),
         revenues: b.revenues
-          .filter((r) => r.name === '地方交付税')
+          .filter((r) => MAP_REVENUES.has(r.name))
           .map(({ name, amount, category }) => ({ name, amount, category })),
         fiscalIndicators: b.fiscalIndicators?.filter((i) => MAP_INDICATORS.has(i.name)),
         population: b.population,
         demographics: b.demographics,
         employment: b.employment,
+        infrastructure: b.infrastructure,
+        safety: b.safety,
         sourceUrl: b.sourceUrl,
         crawledAt: b.crawledAt,
       });

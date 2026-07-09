@@ -4,8 +4,16 @@ import { formatAmount } from './format';
 /** 地図で色分けする指標 */
 export type MapMetricKey =
   | 'expenditure'
+  | 'expenditureEducation'
+  | 'expenditureWelfare'
+  | 'expenditureHealth'
+  | 'expenditureCivil'
+  | 'expenditureAgriculture'
+  | 'expenditureCommerce'
   | 'revenue'
+  | 'revenueLocalTax'
   | 'localAllocationTax'
+  | 'revenueNationalTreasury'
   | 'population'
   | 'populationDensity'
   | 'elderlyRatio'
@@ -25,10 +33,24 @@ export type MapMetricKey =
   | 'industryHospitality'
   | 'industryTransport'
   | 'industryIT'
-  | 'industryPublic';
+  | 'industryPublic'
+  | 'roadPerCapita'
+  | 'waterPipeAging'
+  | 'sewerageRatio'
+  | 'parkPerCapita'
+  | 'publicHousingRate'
+  | 'hospitals'
+  | 'hospitalBeds'
+  | 'trafficAccidents'
+  | 'trafficFatalities'
+  | 'penalCodeOffenses'
+  | 'homicides'
+  | 'robberies'
+  | 'burglaries'
+  | 'sexualAssaults';
 
 /** ハンバーガーメニューで選ぶ表示カテゴリ */
-export type MetricCategory = 'money' | 'population' | 'fiscal' | 'labor';
+export type MetricCategory = 'money' | 'population' | 'fiscal' | 'labor' | 'infra' | 'safety';
 
 export interface MetricDef {
   key: MapMetricKey;
@@ -36,9 +58,26 @@ export interface MetricDef {
   /**
    * money: 総額/一人当たり切替あり, index: 指数, ratio: 割合,
    * population: 人数, density: 人口密度, change: 符号付き人数,
-   * yenPerPerson: 1人あたり年額（スケール切替なし）
+   * yenPerPerson: 1人あたり年額（スケール切替なし）,
+   * meterPerPerson/sqmPerPerson: 1人あたりの長さ・面積,
+   * per1000/per100k: 千人・10万人あたりの数（単位はunitで指定）
    */
-  kind: 'money' | 'population' | 'index' | 'ratio' | 'density' | 'change' | 'yenPerPerson';
+  kind:
+    | 'money'
+    | 'population'
+    | 'index'
+    | 'ratio'
+    | 'density'
+    | 'change'
+    | 'yenPerPerson'
+    | 'meterPerPerson'
+    | 'sqmPerPerson'
+    | 'per1000'
+    | 'per100k';
+  /** per1000/per100kの単位（戸・件など） */
+  unit?: string;
+  /** kind: money で総額ではなく内訳項目（款・歳入項目）を参照する場合の指定 */
+  budgetItem?: { list: 'expenditures' | 'revenues'; name: string };
   /** メニュー・トグルのカテゴリ */
   category: MetricCategory;
   /** fiscalIndicators から引く場合の指標名 */
@@ -48,23 +87,118 @@ export interface MetricDef {
   /** 高いほど良い指標。色の濃淡を反転（低い＝悪い＝濃い）する */
   invertColor?: boolean;
   /**
-   * 年度によらない静的値（住基 令和7年1月1日等）。
+   * 年度によらない静的値（課税状況調・国勢調査等）。
    * 選択中は年度トグルを無効化し、推移グラフも出さない
    */
   yearIndependent?: boolean;
+  /**
+   * 都道府県別のみの指標（犯罪統計等。市区町村別の全国統計が存在しない）。
+   * 選択中は市区町村ビューへの切替・ドリルダウンを無効化する
+   */
+  prefOnly?: boolean;
+  /**
+   * データが存在する最新年度（公表が遅れる統計）。
+   * 選択中はこの年度までしか年度トグルに出さず、超えていたら丸める
+   */
+  maxYear?: number;
 }
 
 export const METRICS: MetricDef[] = [
-  { key: 'expenditure', label: '歳出', kind: 'money', category: 'money' },
-  { key: 'revenue', label: '歳入', kind: 'money', category: 'money' },
+  {
+    key: 'expenditure',
+    label: '歳出',
+    kind: 'money',
+    category: 'money',
+    description: 'その年度に自治体が使ったお金の総額（決算）',
+  },
+  {
+    key: 'expenditureEducation',
+    label: '教育費',
+    kind: 'money',
+    category: 'money',
+    budgetItem: { list: 'expenditures', name: '教育費' },
+    description: '小中学校・高校・幼稚園・生涯学習など教育への支出（目的別歳出）',
+  },
+  {
+    key: 'expenditureWelfare',
+    label: '民生費',
+    kind: 'money',
+    category: 'money',
+    budgetItem: { list: 'expenditures', name: '民生費' },
+    description: '子育て・高齢者・障害者・生活保護など暮らしを支える福祉の支出（目的別歳出）',
+  },
+  {
+    key: 'expenditureCivil',
+    label: '土木費',
+    kind: 'money',
+    category: 'money',
+    budgetItem: { list: 'expenditures', name: '土木費' },
+    description: '道路・河川・公園・住宅などインフラ整備の支出（目的別歳出）',
+  },
+  {
+    key: 'expenditureCommerce',
+    label: '商工費',
+    kind: 'money',
+    category: 'money',
+    budgetItem: { list: 'expenditures', name: '商工費' },
+    description:
+      '商業・工業・観光の振興への支出（目的別歳出。市区町村の決算データには商工費の款がないため都道府県のみ）',
+    prefOnly: true,
+  },
+  {
+    key: 'expenditureAgriculture',
+    label: '農林水産業費',
+    kind: 'money',
+    category: 'money',
+    budgetItem: { list: 'expenditures', name: '農林水産業費' },
+    description: '農業・林業・水産業の振興や基盤整備への支出（目的別歳出）',
+  },
+  {
+    key: 'expenditureHealth',
+    label: '衛生費',
+    kind: 'money',
+    category: 'money',
+    budgetItem: { list: 'expenditures', name: '衛生費' },
+    description: '健康づくり・保健所・ごみ処理・上下水道の繰出など衛生の支出（目的別歳出）',
+  },
+  {
+    key: 'revenue',
+    label: '歳入',
+    kind: 'money',
+    category: 'money',
+    description: 'その年度に自治体に入ってきたお金の総額（決算）',
+  },
+  {
+    key: 'revenueLocalTax',
+    label: '地方税',
+    kind: 'money',
+    category: 'money',
+    budgetItem: { list: 'revenues', name: '地方税' },
+    description: '住民税・固定資産税など、その団体が自前で集める税収',
+  },
   {
     key: 'localAllocationTax',
     label: '地方交付税',
     kind: 'money',
     category: 'money',
+    budgetItem: { list: 'revenues', name: '地方交付税' },
     description: '国から交付される使途自由な財源。自前の税収で標準的な行政サービスを賄えない分を補填（不交付団体は0円）',
   },
-  { key: 'population', label: '人口', kind: 'population', category: 'population' },
+  {
+    key: 'revenueNationalTreasury',
+    label: '国庫支出金',
+    kind: 'money',
+    category: 'money',
+    budgetItem: { list: 'revenues', name: '国庫支出金' },
+    description: '使いみちが決められた国からの補助金・負担金',
+  },
+  {
+    key: 'population',
+    label: '人口',
+    kind: 'population',
+    category: 'population',
+    description: '住民基本台帳に基づく人口（各年度の翌年1月1日時点）',
+  },
   {
     key: 'populationDensity',
     label: '人口密度',
@@ -77,40 +211,35 @@ export const METRICS: MetricDef[] = [
     label: '高齢化比率',
     kind: 'ratio',
     category: 'population',
-    description: '65歳以上人口の割合（住民基本台帳 令和7年1月1日）',
-    yearIndependent: true,
+    description: '65歳以上人口の割合（住民基本台帳・各年度の翌年1月1日時点）',
   },
   {
     key: 'births',
     label: '出生数',
     kind: 'population',
     category: 'population',
-    description: '出生者数（令和6年中・住民基本台帳）',
-    yearIndependent: true,
+    description: '出生者数（住民基本台帳・各年の1〜12月中）',
   },
   {
     key: 'foreignRatio',
     label: '外国人比率',
     kind: 'ratio',
     category: 'population',
-    description: '外国人住民の割合（住民基本台帳 令和7年1月1日）',
-    yearIndependent: true,
+    description: '外国人住民の割合（住民基本台帳・各年度の翌年1月1日時点）',
   },
   {
     key: 'foreignBirthRatio',
     label: '外国人出生割合',
     kind: 'ratio',
     category: 'population',
-    description: '出生数に占める外国人住民の割合（令和6年中・住民基本台帳）',
-    yearIndependent: true,
+    description: '出生数に占める外国人住民の割合（住民基本台帳・各年の1〜12月中）',
   },
   {
     key: 'populationChange',
     label: '増減数',
     kind: 'change',
     category: 'population',
-    description: '人口増減数（令和6年中。転入・出生等 − 転出・死亡等）',
-    yearIndependent: true,
+    description: '人口増減数（各年の1〜12月中。転入・出生等 − 転出・死亡等）',
   },
   {
     key: 'fiscalIndex',
@@ -224,6 +353,133 @@ export const METRICS: MetricDef[] = [
     description: '就業者に占める情報通信業の割合（令和2年国勢調査）',
     yearIndependent: true,
   },
+  {
+    key: 'roadPerCapita',
+    label: '道路の長さ',
+    kind: 'meterPerPerson',
+    category: 'infra',
+    description:
+      '住民1人あたりの道路の長さ（公共施設状況調・年度期首時点。市区町村は市町村道、都道府県は県道＋県内市町村道）。長いほど少ない人数で多くの道路を維持している',
+  },
+  {
+    key: 'waterPipeAging',
+    label: '水道管の老朽化',
+    kind: 'ratio',
+    category: 'infra',
+    description:
+      '法定耐用年数（40年）を超えた水道管の割合＝管路経年化率（地方公営企業決算・各年度。内閣府 見える化DB経由。都道府県は県内市区町村の平均）',
+  },
+  {
+    key: 'sewerageRatio',
+    label: '下水道普及率',
+    kind: 'ratio',
+    category: 'infra',
+    description:
+      '公共下水道の処理区域に住む人の割合（公共施設状況調・年度期首時点。浄化槽・農業集落排水は含まない）',
+    invertColor: true,
+  },
+  {
+    key: 'parkPerCapita',
+    label: '公園の広さ',
+    kind: 'sqmPerPerson',
+    category: 'infra',
+    description: '住民1人あたりの公園面積（公共施設状況調・年度期首時点）',
+    invertColor: true,
+  },
+  {
+    key: 'publicHousingRate',
+    label: '公営住宅',
+    kind: 'per1000',
+    unit: '戸',
+    category: 'infra',
+    description: '人口千人あたりの公営住宅等の戸数（公共施設状況調・年度期首時点）',
+  },
+  {
+    key: 'hospitals',
+    label: '病院',
+    kind: 'per100k',
+    unit: '施設',
+    category: 'infra',
+    description: '人口10万人あたりの病院数（医療施設調査・各年度）。高いほど濃い＝医療施設が身近',
+    invertColor: true,
+  },
+  {
+    key: 'hospitalBeds',
+    label: '病床数',
+    kind: 'per100k',
+    unit: '床',
+    category: 'infra',
+    description: '人口10万人あたりの病院の病床数（医療施設調査・各年度）',
+    invertColor: true,
+  },
+  {
+    key: 'trafficAccidents',
+    label: '交通事故',
+    kind: 'per1000',
+    unit: '件',
+    category: 'safety',
+    description:
+      '人口千人あたりの人身事故の件数（警察庁 交通事故統計オープンデータ・各年の1〜12月中。物損事故は含まない）',
+  },
+  {
+    key: 'trafficFatalities',
+    label: '交通事故死者数',
+    kind: 'per100k',
+    unit: '人',
+    category: 'safety',
+    description:
+      '人口10万人あたりの交通事故死者数（発生から24時間以内。警察庁 交通事故統計オープンデータ・各年の1〜12月中）',
+  },
+  {
+    key: 'penalCodeOffenses',
+    label: '刑法犯',
+    kind: 'per1000',
+    unit: '件',
+    category: 'safety',
+    description:
+      '人口千人あたりの刑法犯認知件数（警察庁 犯罪統計・各年の1〜12月中。市区町村別の統計は存在しないため都道府県のみ）',
+    prefOnly: true,
+  },
+  {
+    key: 'homicides',
+    label: '殺人',
+    kind: 'per100k',
+    unit: '件',
+    category: 'safety',
+    description:
+      '人口10万人あたりの殺人認知件数（警察庁 犯罪統計・各年の1〜12月中。都道府県のみ）',
+    prefOnly: true,
+  },
+  {
+    key: 'robberies',
+    label: '強盗',
+    kind: 'per100k',
+    unit: '件',
+    category: 'safety',
+    description:
+      '人口10万人あたりの強盗認知件数（警察庁 犯罪統計・各年の1〜12月中。都道府県のみ）',
+    prefOnly: true,
+  },
+  {
+    key: 'burglaries',
+    label: '侵入盗',
+    kind: 'per100k',
+    unit: '件',
+    category: 'safety',
+    description:
+      '人口10万人あたりの侵入盗（空き巣・忍込み・事務所荒し等）の認知件数（警察庁 犯罪統計・各年の1〜12月中。都道府県のみ）',
+    prefOnly: true,
+  },
+  {
+    key: 'sexualAssaults',
+    label: '不同意性交等',
+    kind: 'per100k',
+    unit: '件',
+    category: 'safety',
+    description:
+      '人口10万人あたりの不同意性交等（2023年改正前は強姦・強制性交等）の認知件数（警察庁 犯罪統計・各年の1〜12月中。都道府県のみ）',
+    prefOnly: true,
+  },
 ];
 
 /** 業種割合指標 → 国勢調査の産業大分類名 */
@@ -261,12 +517,13 @@ export function metricValue(
   const def = metricDef(key);
 
   if (def.kind === 'money') {
-    const amount =
-      key === 'revenue'
+    // 内訳項目（款・歳入項目）はリストにない場合0円（不交付団体の地方交付税等）とみなす
+    const item = def.budgetItem;
+    const amount = item
+      ? (budget[item.list].find((i) => i.name === item.name)?.amount ?? 0)
+      : key === 'revenue'
         ? budget.totalRevenue
-        : key === 'localAllocationTax'
-          ? (budget.revenues.find((r) => r.name === '地方交付税')?.amount ?? 0)
-          : budget.totalExpenditure;
+        : budget.totalExpenditure;
     if (scale === 'perCapita') {
       if (!budget.population) return null;
       return amount / budget.population;
@@ -285,6 +542,76 @@ export function metricValue(
   }
   if (key === 'population') {
     return budget.population ?? null;
+  }
+  if (
+    key === 'roadPerCapita' ||
+    key === 'waterPipeAging' ||
+    key === 'sewerageRatio' ||
+    key === 'parkPerCapita' ||
+    key === 'publicHousingRate' ||
+    key === 'hospitals' ||
+    key === 'hospitalBeds'
+  ) {
+    const infra = budget.infrastructure;
+    if (!infra || !budget.population) return null;
+    if (key === 'roadPerCapita') {
+      return infra.roadLengthM !== undefined ? infra.roadLengthM / budget.population : null;
+    }
+    if (key === 'waterPipeAging') {
+      return infra.waterPipeAgingRatio ?? null;
+    }
+    if (key === 'sewerageRatio') {
+      return infra.seweragePopulation !== undefined
+        ? Math.min(1, infra.seweragePopulation / budget.population)
+        : null;
+    }
+    if (key === 'parkPerCapita') {
+      return infra.parkAreaM2 !== undefined ? infra.parkAreaM2 / budget.population : null;
+    }
+    if (key === 'hospitals') {
+      return infra.hospitals !== undefined
+        ? (infra.hospitals / budget.population) * 100_000
+        : null;
+    }
+    if (key === 'hospitalBeds') {
+      return infra.hospitalBeds !== undefined
+        ? (infra.hospitalBeds / budget.population) * 100_000
+        : null;
+    }
+    return infra.publicHousingUnits !== undefined
+      ? (infra.publicHousingUnits / budget.population) * 1000
+      : null;
+  }
+  if (
+    key === 'trafficAccidents' ||
+    key === 'trafficFatalities' ||
+    key === 'penalCodeOffenses' ||
+    key === 'homicides' ||
+    key === 'robberies' ||
+    key === 'burglaries' ||
+    key === 'sexualAssaults'
+  ) {
+    const safety = budget.safety;
+    if (!safety || !budget.population) return null;
+    if (key === 'trafficAccidents') {
+      return safety.accidents !== undefined ? (safety.accidents / budget.population) * 1000 : null;
+    }
+    if (key === 'penalCodeOffenses') {
+      return safety.penalCodeOffenses !== undefined
+        ? (safety.penalCodeOffenses / budget.population) * 1000
+        : null;
+    }
+    const count =
+      key === 'trafficFatalities'
+        ? safety.fatalities
+        : key === 'homicides'
+          ? safety.homicides
+          : key === 'robberies'
+            ? safety.robberies
+            : key === 'burglaries'
+              ? safety.burglaries
+              : safety.sexualAssaults;
+    return count !== undefined ? (count / budget.population) * 100_000 : null;
   }
   if (key === 'populationDensity') {
     const area = budget.demographics?.areaKm2;
@@ -321,6 +648,15 @@ export function formatMetricValue(value: number, key: MapMetricKey): string {
       return `${Math.round(value).toLocaleString()}人/km²`;
     case 'yenPerPerson':
       return `${Math.round(value / 10_000).toLocaleString()}万円`;
+    case 'meterPerPerson':
+      return value >= 1000
+        ? `${(value / 1000).toLocaleString(undefined, { maximumFractionDigits: 1 })}km`
+        : `${value.toFixed(1)}m`;
+    case 'sqmPerPerson':
+      return `${value.toFixed(1)}m²`;
+    case 'per1000':
+    case 'per100k':
+      return `${value.toFixed(1)}${def.unit ?? ''}`;
     case 'change': {
       const abs = Math.abs(value);
       const formatted =

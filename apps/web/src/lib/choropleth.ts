@@ -1,5 +1,6 @@
-import { metricCategory, INDUSTRY_METRIC_NAMES, type MapMetricKey } from './metrics';
+import { metricCategory, metricDef, INDUSTRY_METRIC_NAMES, type MapMetricKey } from './metrics';
 import { INDUSTRY_COLORS } from './industry';
+import { EXPENDITURE_COLORS, REVENUE_COLORS } from './donut';
 
 // 検証済みパレットのシーケンシャル（blue）ランプ: steps 100/250/400/550/700
 export const SEQUENTIAL_BLUES = ['#cde2fb', '#86b6ef', '#3987e5', '#1c5cab', '#0d366b'];
@@ -28,27 +29,40 @@ export function sequentialRamp(base: string): string[] {
   ];
 }
 
-const industryRampCache = new Map<string, string[]>();
+const rampCache = new Map<string, string[]>();
+
+/** 基準色からのランプをキャッシュ付きで返す */
+function cachedRamp(base: string): string[] {
+  let ramp = rampCache.get(base);
+  if (!ramp) {
+    ramp = sequentialRamp(base);
+    rampCache.set(base, ramp);
+  }
+  return ramp;
+}
 
 // 平均所得の金色ランプ（豊かなほど濃い金）
 export const SEQUENTIAL_GOLDS = sequentialRamp('#c9a227');
 
+// インフラの茶色ランプ（土木・構造物の連想）
+export const SEQUENTIAL_BROWNS = sequentialRamp('#a0632a');
+
 // 指標カテゴリごとの色ランプ（歳入・歳出: 青 / 人口: 緑 / 財政指標: 赤で危機感を強調 /
-// 平均所得: 金 / 業種割合: 円グラフの業種色と同じ色相の濃淡）
+// 平均所得: 金 / インフラ: 茶 / 業種割合・款・歳入項目: 円グラフの固定色と同じ色相の濃淡）
 export function rampFor(metricKey: MapMetricKey): string[] {
   if (metricKey === 'avgIncome') return SEQUENTIAL_GOLDS;
   const industryName = INDUSTRY_METRIC_NAMES[metricKey];
-  if (industryName) {
-    let ramp = industryRampCache.get(industryName);
-    if (!ramp) {
-      ramp = sequentialRamp(INDUSTRY_COLORS[industryName]);
-      industryRampCache.set(industryName, ramp);
-    }
-    return ramp;
+  if (industryName) return cachedRamp(INDUSTRY_COLORS[industryName]);
+  // 款・歳入項目の指標は収支サマリーのドーナツと同じ固定色の濃淡にする
+  const item = metricDef(metricKey).budgetItem;
+  if (item) {
+    const base = (item.list === 'expenditures' ? EXPENDITURE_COLORS : REVENUE_COLORS)[item.name];
+    if (base) return cachedRamp(base);
   }
   const category = metricCategory(metricKey);
   if (category === 'population') return SEQUENTIAL_GREENS;
   if (category === 'money') return SEQUENTIAL_BLUES;
+  if (category === 'infra') return SEQUENTIAL_BROWNS;
   return SEQUENTIAL_REDS;
 }
 

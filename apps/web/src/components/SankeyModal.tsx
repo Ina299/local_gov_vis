@@ -3,8 +3,8 @@
 import { useEffect, useMemo, useState } from 'react';
 import type { LocalGovBudget } from '@/types/budget';
 import { formatAmount } from '@/lib/format';
-import { dataUrl } from '@/lib/paths';
 import { GLOSSARY } from '@/lib/glossary';
+import { loadAverages, type BudgetAverages } from '@/lib/averages';
 import {
   WIDTH,
   MARGIN_Y,
@@ -13,26 +13,12 @@ import {
   buildLayout,
   nudgeLabels,
   ribbonPath,
-  type AverageTable,
   type SankeyNode,
 } from '@/lib/sankey';
 
 interface SankeyModalProps {
   budget: LocalGovBudget;
   onClose: () => void;
-}
-
-/**
- * 全国平均（build-averages.tsが生成）: レベル → 表 → 年度 → 項目名 → 値。
- * 直下は構成比（単純平均）、perCapita配下は1人あたり額（全国計÷全国人口、円/人）
- */
-type AverageTables = Record<AverageTable, Record<string, Record<string, number>>>;
-type BudgetAverages = Record<'pref' | 'muni', AverageTables & { perCapita: AverageTables }>;
-
-let averagesPromise: Promise<BudgetAverages> | null = null;
-function loadAverages(): Promise<BudgetAverages> {
-  averagesPromise ??= fetch(dataUrl('/budget-averages.json')).then((res) => res.json());
-  return averagesPromise;
 }
 
 
@@ -187,14 +173,30 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
           {population
             ? `（住民1人あたり 年${perCapita(budget.totalExpenditure)}の支出）`
             : ''}
-          。帯の太さは金額に比例。2%未満の項目は「その他」に集約。
-          項目に触れる（タップする）と、そのお金が何に使われるかの解説を表示。
-          歳出への財源充当は総務省「地方財政状況調査」の目的別財源内訳による
-          {estimated && '（この団体はデータがないため歳入構成比から推計）'}。
-          一般財源 = 地方税・地方交付税・地方譲与税・地方特例交付金等。歳入項目から財源区分への割当は推計。
-          「中央値±」は住民1人あたり額の全国中央値（全国の{level === 'pref' ? '都道府県' : '市区町村'}を1人あたり額で並べたときの真ん中）との差（赤=中央値より多い・青=少ない）。
-          都道府県と市区町村では役割分担が異なり、政令指定都市では教職員給与や保健所などが市側に計上されるため、同じ費目でも団体により計上先が異なることがある。
+          。項目に触れる（タップする）と、そのお金が何に使われるかの解説を表示。
         </p>
+        {/* 詳しい注記。モバイルでは場所を取るので折りたたむ（CSSで切替） */}
+        {(() => {
+          const notes = (
+            <>
+              帯の太さは金額に比例。2%未満の項目は「その他」に集約。
+              歳出への財源充当は総務省「地方財政状況調査」の目的別財源内訳による
+              {estimated && '（この団体はデータがないため歳入構成比から推計）'}。
+              一般財源 = 地方税・地方交付税・地方譲与税・地方特例交付金等。歳入項目から財源区分への割当は推計。
+              「中央値±」は住民1人あたり額の全国中央値（全国の{level === 'pref' ? '都道府県' : '市区町村'}を1人あたり額で並べたときの真ん中）との差（赤=中央値より多い・青=少ない）。
+              都道府県と市区町村では役割分担が異なり、政令指定都市では教職員給与や保健所などが市側に計上されるため、同じ費目でも団体により計上先が異なることがある。
+            </>
+          );
+          return (
+            <>
+              <p className="attribution sankey-notes-full">{notes}</p>
+              <details className="attribution sankey-notes-collapsed">
+                <summary>この図の見方・注記</summary>
+                <p>{notes}</p>
+              </details>
+            </>
+          );
+        })()}
         {/* スマホではSVGを縮めず横スクロールで見せる（min-widthで文字サイズを確保） */}
         <div style={{ overflowX: 'auto' }}>
         <svg

@@ -40,7 +40,8 @@ export interface FiscalIndicator {
 }
 
 /**
- * 人口統計（住民基本台帳 令和7年1月1日・国土地理院 面積調に基づく静的値）。
+ * 人口統計（住民基本台帳・国土地理院 面積調）。年度別の値で、
+ * 人口・比率は年度の翌年1月1日時点、出生・増減は年度に対応する暦年中の値。
  * 比率は0〜1の小数で保持する
  */
 export interface Demographics {
@@ -50,12 +51,60 @@ export interface Demographics {
   elderlyRatio?: number;
   /** 外国人比率（外国人住民 ÷ 総人口） */
   foreignRatio?: number;
-  /** 出生数（令和6年中の住民票記載数） */
+  /** 出生数（年度に対応する暦年中の住民票記載数） */
   births?: number;
-  /** 人口増減数（令和6年中。転入・出生等 − 転出・死亡等） */
+  /** 人口増減数（年度に対応する暦年中。転入・出生等 − 転出・死亡等） */
   populationChange?: number;
-  /** 外国人出生割合（外国人の出生数 ÷ 全出生数。令和6年中の住民票記載数） */
+  /** 外国人出生割合（外国人の出生数 ÷ 全出生数） */
   foreignBirthRatio?: number;
+}
+
+/**
+ * 安全（警察庁 交通事故統計オープンデータの市区町村別集計）。
+ * 年度に対応する暦年中の人身事故の値。都道府県は県内市区町村の合算
+ */
+export interface Safety {
+  /** 人身事故の件数 */
+  accidents?: number;
+  /** 死者数（24時間以内） */
+  fatalities?: number;
+  /** 負傷者数 */
+  injuries?: number;
+  /** 刑法犯認知件数（警察庁 犯罪統計。都道府県のみ） */
+  penalCodeOffenses?: number;
+  /** 殺人認知件数（都道府県のみ） */
+  homicides?: number;
+  /** 強盗認知件数（都道府県のみ） */
+  robberies?: number;
+  /** 侵入盗（空き巣・事務所荒し等）認知件数（都道府県のみ） */
+  burglaries?: number;
+  /** 不同意性交等（旧 強姦・強制性交等）認知件数（都道府県のみ） */
+  sexualAssaults?: number;
+}
+
+/**
+ * インフラ（年度別）。道路・公園・公営住宅・下水道は総務省 公共施設状況調
+ * （最新は令和5年度末で2024年度レコードには付かない）、水道管・病院は
+ * 内閣府 見える化DB。都道府県は自団体分＋県内市町村の合算（下水道は市町村のみ）
+ */
+export interface Infrastructure {
+  /** 道路実延長（m） */
+  roadLengthM?: number;
+  /** 公園面積（m²。都市公園等＋都市計画区域外） */
+  parkAreaM2?: number;
+  /** 公営住宅等の戸数（公営・改良・単独の合計） */
+  publicHousingUnits?: number;
+  /** 公共下水道の現在処理区域内人口（施設のない団体は0） */
+  seweragePopulation?: number;
+  /**
+   * 水道管の経年化率（法定耐用年数超の管路割合、0〜1。年度別）。
+   * 見える化DB（地方公営企業決算）。都道府県は県内市区町村の単純平均（参考値）
+   */
+  waterPipeAgingRatio?: number;
+  /** 病院数（医療施設調査。年度別。都道府県は県内合算） */
+  hospitals?: number;
+  /** 病院の病床数（医療施設調査。年度別。都道府県は県内合算） */
+  hospitalBeds?: number;
 }
 
 /**
@@ -97,10 +146,14 @@ export interface LocalGovBudget {
   fiscalIndicators?: FiscalIndicator[];
   /** 人口 */
   population?: number;
-  /** 人口統計（年度によらず同一の静的値） */
+  /** 人口統計（年度別） */
   demographics?: Demographics;
   /** 就労・所得（年度によらず同一の静的値） */
   employment?: Employment;
+  /** インフラ（年度別） */
+  infrastructure?: Infrastructure;
+  /** 安全（年度別。暦年中の交通事故） */
+  safety?: Safety;
   /** 一人当たり歳出 */
   perCapitaExpenditure?: number;
   /** データソースURL */

@@ -15,19 +15,13 @@ import {
 } from '@/lib/metrics';
 import { dataUrl } from '@/lib/paths';
 import { fetchTopoFeatures } from '@/lib/topo';
-import type { LocalGovBudget, GeoFeature, BudgetBasis, MapScale } from '@/types/budget';
+import type { LocalGovBudget, GeoFeature, MapScale } from '@/types/budget';
 
 // Leafletはクライアントサイドでのみ動作
 const BudgetMap = dynamic(() => import('@/components/BudgetMap'), {
   ssr: false,
   loading: () => <div className="map-container">地図を読み込み中...</div>,
 });
-
-const BASIS_LABELS: Record<BudgetBasis, string> = {
-  expenditure: '歳出',
-  revenue: '歳入',
-  localAllocationTax: '地方交付税',
-};
 
 const SCALE_LABELS: Record<MapScale, string> = {
   total: '総額',
@@ -40,6 +34,8 @@ const CATEGORY_DEFAULT_KEY: Record<MetricCategory, MapMetricKey> = {
   population: 'population',
   fiscal: 'fiscalIndex',
   labor: 'avgIncome',
+  infra: 'roadPerCapita',
+  safety: 'trafficAccidents',
 };
 
 /** 表示階層: 全国（都道府県） / 全国（市区町村） / 特定都道府県内の市区町村 */
@@ -69,6 +65,10 @@ export default function Home() {
   const [scale, setScale] = useState<MapScale>('total');
   const category = metricCategory(metricKey);
   const yearIndependent = metricDef(metricKey).yearIndependent ?? false;
+  // 都道府県別のみの指標（犯罪統計等）では市区町村ビューを使わせない
+  const prefOnly = metricDef(metricKey).prefOnly ?? false;
+  // 公表が遅れる統計はデータのある年度までしか選ばせない
+  const maxYear = metricDef(metricKey).maxYear;
   const [selectedCode, setSelectedCode] = useState<string | null>(null);
   const [loadingDrilldown, setLoadingDrilldown] = useState(false);
   // 収支図モーダルの開閉（URL共有・地図ポップアップからも開くためpageが持つ）
@@ -78,6 +78,22 @@ export default function Home() {
   useEffect(() => {
     if (!selectedCode) setFlowOpen(false);
   }, [selectedCode]);
+
+  // モバイルではトグル群が横スクロールするため、指標切替時に
+  // 選択中の指標ボタンが見える位置までスクロールする（デスクトップでは何もしない）。
+  // 年度・スケールのトグルは対象外（そちらに合わせると指標が画面外に流れる）
+  useEffect(() => {
+    document
+      .querySelector('[aria-label="表示指標"] .metric-toggle-button.active')
+      ?.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+  }, [metricKey]);
+
+  // カテゴリごとに最後に選んだ指標を覚え、ハンバーガーで戻ってきたときに復元する
+  // （例: 教育費→人口の出生数→歳入・歳出に戻ると教育費のまま）
+  const lastKeyByCategoryRef = useRef<Partial<Record<MetricCategory, MapMetricKey>>>({});
+  useEffect(() => {
+    lastKeyByCategoryRef.current[metricCategory(metricKey)] = metricKey;
+  }, [metricKey]);
   const [searchEntries, setSearchEntries] = useState<SearchEntry[]>([]);
   const [focusTarget, setFocusTarget] = useState<
     { code: string; seq: number; zoom?: boolean } | null
@@ -135,6 +151,9 @@ export default function Home() {
     }
     return map;
   }, [active, year]);
+
+  // 未選択時サイドバーの全国サマリー用（選択年度・現在の表示階層の全団体）
+  const regionBudgets = useMemo(() => Array.from(budgetsByCode.values()), [budgetsByCode]);
 
   // 選択年度の全国（都道府県）データ。市区町村ビューの背景着色に使う
   const nationalBudgetsByCode = useMemo(() => {
@@ -259,6 +278,16 @@ export default function Home() {
     },
     [view, enterNationMuni]
   );
+
+  // 都道府県別のみの指標が選ばれたら市区町村ビュー（全国・ドリルダウンとも）を閉じる
+  useEffect(() => {
+    if (prefOnly) setGranularity('pref');
+  }, [prefOnly, setGranularity]);
+
+  // データのない年度を選んでいたら、その指標の最新年度へ丸める
+  useEffect(() => {
+    if (maxYear !== undefined && year !== null && year > maxYear) setYear(maxYear);
+  }, [maxYear, year]);
 
   // 都道府県 → 市区町村ビューへドリルダウン。selectCode指定時はその団体を選択して移動
   const drillDown = useCallback((prefCode: string, selectCode?: string) => {
@@ -398,57 +427,22 @@ export default function Home() {
           )}
         </h1>
         <div className="header-controls">
-          <div
-            className={`metric-toggle ${yearIndependent ? 'disabled' : ''}`}
-            role="group"
-            aria-label="年度"
-            title={
-              yearIndependent
-                ? 'この指標は令和7年時点の統計のため年度切替はありません'
-                : undefined
-            }
-          >
-            {years.map((y) => (
-              <button
-                key={y}
-                className={`metric-toggle-button ${year === y && !yearIndependent ? 'active' : ''}`}
-                onClick={() => setYear(y)}
-                aria-pressed={year === y}
-                disabled={yearIndependent}
-              >
-                {y}
-              </button>
-            ))}
-          </div>
-          {category === 'money' && (
-            <>
-              <div className="metric-toggle" role="group" aria-label="集計対象">
-                {(Object.keys(BASIS_LABELS) as BudgetBasis[]).map((b) => (
+          <div className="header-toggles">
+            {/* 単年公表の統計（課税状況調・国勢調査）では年度切替に意味がないので出さない */}
+            {!yearIndependent && (
+              <div className="metric-toggle" role="group" aria-label="年度">
+                {years.filter((y) => maxYear === undefined || y <= maxYear).map((y) => (
                   <button
-                    key={b}
-                    className={`metric-toggle-button ${metricKey === b ? 'active' : ''}`}
-                    onClick={() => setMetricKey(b)}
-                    aria-pressed={metricKey === b}
+                    key={y}
+                    className={`metric-toggle-button ${year === y ? 'active' : ''}`}
+                    onClick={() => setYear(y)}
+                    aria-pressed={year === y}
                   >
-                    {BASIS_LABELS[b]}
+                    {y}
                   </button>
                 ))}
               </div>
-              <div className="metric-toggle" role="group" aria-label="表示スケール">
-                {(Object.keys(SCALE_LABELS) as MapScale[]).map((s) => (
-                  <button
-                    key={s}
-                    className={`metric-toggle-button ${scale === s ? 'active' : ''}`}
-                    onClick={() => setScale(s)}
-                    aria-pressed={scale === s}
-                  >
-                    {SCALE_LABELS[s]}
-                  </button>
-                ))}
-              </div>
-            </>
-          )}
-          {category !== 'money' && (
+            )}
             <div
               className={`metric-toggle ${categoryKeys(category).length > 5 ? 'compact' : ''}`}
               role="group"
@@ -469,10 +463,26 @@ export default function Home() {
                 );
               })}
             </div>
-          )}
+            {category === 'money' && (
+              <div className="metric-toggle" role="group" aria-label="表示スケール">
+                {(Object.keys(SCALE_LABELS) as MapScale[]).map((s) => (
+                  <button
+                    key={s}
+                    className={`metric-toggle-button ${scale === s ? 'active' : ''}`}
+                    onClick={() => setScale(s)}
+                    aria-pressed={scale === s}
+                  >
+                    {SCALE_LABELS[s]}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
           <MetricMenu
             metricKey={metricKey}
-            onSelectCategory={(c) => setMetricKey(CATEGORY_DEFAULT_KEY[c])}
+            onSelectCategory={(c) =>
+              setMetricKey(lastKeyByCategoryRef.current[c] ?? CATEGORY_DEFAULT_KEY[c])
+            }
           />
         </div>
       </header>
@@ -490,34 +500,38 @@ export default function Home() {
             scale={scale}
             selectedCode={selectedCode}
             onSelectCode={handleSelectCode}
-            onDrillDown={drillDown}
+            onDrillDown={prefOnly ? undefined : drillDown}
             onBack={view.level === 'municipal' ? backToNation : undefined}
             focusTarget={focusTarget}
             borderFeatures={view.level === 'nationMuni' ? national?.features : undefined}
             onShowFlow={() => setFlowOpen(true)}
           />
           <SearchBox entries={searchEntries} onSelect={handleSearchSelect} />
-          <div className="granularity-toggle" role="group" aria-label="表示単位">
-            <button
-              className={`granularity-button ${view.level !== 'nationMuni' ? 'active' : ''}`}
-              onClick={() => setGranularity('pref')}
-              aria-pressed={view.level !== 'nationMuni'}
-            >
-              都道府県
-            </button>
-            <button
-              className={`granularity-button ${view.level === 'nationMuni' ? 'active' : ''}`}
-              onClick={() => setGranularity('muni')}
-              aria-pressed={view.level === 'nationMuni'}
-            >
-              市区町村
-            </button>
-          </div>
+          {/* 都道府県別のみの指標では表示単位の切替を出さない */}
+          {!prefOnly && (
+            <div className="granularity-toggle" role="group" aria-label="表示単位">
+              <button
+                className={`granularity-button ${view.level !== 'nationMuni' ? 'active' : ''}`}
+                onClick={() => setGranularity('pref')}
+                aria-pressed={view.level !== 'nationMuni'}
+              >
+                都道府県
+              </button>
+              <button
+                className={`granularity-button ${view.level === 'nationMuni' ? 'active' : ''}`}
+                onClick={() => setGranularity('muni')}
+                aria-pressed={view.level === 'nationMuni'}
+              >
+                市区町村
+              </button>
+            </div>
+          )}
           {loadingDrilldown && <div className="map-loading">市区町村データを読み込み中...</div>}
         </div>
         <Sidebar
           selectedRegion={selectedRegion}
           yearlyBudgets={yearlyBudgets}
+          regionBudgets={regionBudgets}
           metricKey={metricKey}
           scale={scale}
           flowOpen={flowOpen}
