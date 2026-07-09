@@ -112,7 +112,8 @@ export function buildDonutData(
   for (const item of prepared) {
     const color = colors[item.name] ?? FALLBACK_COLOR;
     const a0 = angle;
-    const a1 = angle + (item.amount / shownTotal) * 2 * Math.PI;
+    // 全周1セグメント（100%）のときにパスが消えないよう僅かに切る（IndustryDonutと同様）
+    const a1 = Math.min(angle + (item.amount / shownTotal) * 2 * Math.PI, a0 + 2 * Math.PI - 1e-4);
     const itemAvg =
       avgTable && item.name !== 'その他' ? { table: avgTable, name: item.name } : undefined;
     inner.push({
@@ -152,7 +153,7 @@ export function buildDonutData(
     let childAngle = a0;
     for (const leaf of leaves) {
       const c0 = childAngle;
-      const c1 = childAngle + (leaf.amount / shownTotal) * 2 * Math.PI;
+      const c1 = Math.min(childAngle + (leaf.amount / shownTotal) * 2 * Math.PI, c0 + 2 * Math.PI - 1e-4);
       outer.push({
         name: leaf.name,
         parent: leaf.name === item.name ? undefined : item.name,

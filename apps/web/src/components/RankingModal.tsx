@@ -50,6 +50,14 @@ export function RankingModal({
     return () => document.removeEventListener('keydown', handle);
   }, [onClose]);
 
+  // 開いたらモーダルへフォーカスを移し、閉じたら元の要素へ戻す（キーボード操作対応）
+  const modalRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const previouslyFocused = document.activeElement as HTMLElement | null;
+    modalRef.current?.focus();
+    return () => previouslyFocused?.focus?.();
+  }, []);
+
   const rows = useMemo(() => {
     const valued = budgets
       .map((b) => ({ b, value: metricValue(b, metricKey, scale) }))
@@ -77,7 +85,15 @@ export function RankingModal({
 
   return (
     <div className="modal-overlay" onClick={onClose}>
-      <div className="modal ranking-modal" onClick={(e) => e.stopPropagation()}>
+      <div
+        className="modal ranking-modal"
+        ref={modalRef}
+        tabIndex={-1}
+        role="dialog"
+        aria-modal="true"
+        aria-label={`${metricDisplayLabel(metricKey, scale)}のランキング`}
+        onClick={(e) => e.stopPropagation()}
+      >
         <div className="modal-head">
           <h3>
             {metricDisplayLabel(metricKey, scale)}のランキング

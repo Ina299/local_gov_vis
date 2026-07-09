@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { buildDonutData, lighten, EXPENDITURE_COLORS } from '../donut';
+import { buildDonutData, donutSegmentPath, lighten, EXPENDITURE_COLORS } from '../donut';
 import type { BudgetItem } from '@/types/budget';
 
 const item = (name: string, amount: number, children?: BudgetItem[]): BudgetItem => ({
@@ -63,6 +63,23 @@ describe('buildDonutData', () => {
       '小学校費',
       'その他',
     ]);
+  });
+
+  it('単一セグメント（100%）は全周を僅かに切って描画が消えないようにする', () => {
+    const { inner, outer } = buildDonutData([item('公債費', 1000)], total, EXPENDITURE_COLORS);
+    expect(inner).toHaveLength(1);
+    expect(inner[0].share).toBeCloseTo(1, 6);
+    // 2πちょうどではなく僅かに手前で止める（arcが0長にならない）
+    expect(inner[0].a1 - inner[0].a0).toBeLessThan(2 * Math.PI);
+    expect(inner[0].a1 - inner[0].a0).toBeCloseTo(2 * Math.PI - 1e-4, 6);
+    expect(outer[0].a1 - outer[0].a0).toBeCloseTo(2 * Math.PI - 1e-4, 6);
+    // パスが有効に生成される（arcコマンドを含み、始点と円弧の終点が別座標＝長さを持つ）
+    // 生成形: "M{start} A{r},{r} 0 {largeArc} 1 {arcEnd} L..." → 空白分割で start=[0], arcEnd=[5]
+    const tokens = donutSegmentPath(inner[0].a0, inner[0].a1, 40, 56).split(/\s+/);
+    expect(tokens[1]).toContain('A');
+    const startPt = tokens[0].slice(1);
+    const arcEndPt = tokens[5];
+    expect(startPt).not.toBe(arcEndPt);
   });
 
   it('内訳のない大分類は外側にも同じ区間で通し表示する', () => {

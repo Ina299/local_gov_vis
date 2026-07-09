@@ -140,12 +140,26 @@ function SpendingWithMedian({
   );
 }
 
+/**
+ * 中央値・合計ラベルの母集団。regionBudgetsの中身から推測せず、
+ * 現在の表示階層（全国の都道府県／全国の市区町村／特定県内の市区町村）を明示する
+ */
+export interface RegionScope {
+  kind: 'nation' | 'nationMuni' | 'municipal';
+  /** 数える単位（「◯◯都道府県」「◯◯市区町村」） */
+  unit: '都道府県' | '市区町村';
+  /** kind==='municipal'のときの県名（例: 東京都） */
+  prefName?: string;
+}
+
 interface SidebarProps {
   selectedRegion: LocalGovBudget | null;
   /** 選択団体の年度別データ（推移グラフ・前年比に使用） */
   yearlyBudgets: LocalGovBudget[];
   /** 選択年度・現在の表示階層の全団体（未選択時の全国サマリーに使用） */
   regionBudgets: LocalGovBudget[];
+  /** 中央値・合計ラベルの母集団（全国か県内か） */
+  regionScope: RegionScope;
   metricKey: MapMetricKey;
   scale: MapScale;
   /** 収支図モーダルの開閉（URL共有・地図ポップアップと連動するためpageが持つ） */
@@ -168,12 +182,6 @@ const LABOR_RELATED_EXPENDITURES: Partial<Record<MapMetricKey, string[]>> = {
   industryHospitality: ['商工費'],
   industryTransport: ['土木費'],
   industryIT: ['商工費'],
-};
-
-const BUDGET_TYPE_LABELS: Record<LocalGovBudget['budgetType'], string> = {
-  initial: '当初予算',
-  supplementary: '補正予算',
-  final: '決算',
 };
 
 function formatIndicator(indicator: FiscalIndicator): string {
@@ -276,6 +284,7 @@ export function Sidebar({
   selectedRegion,
   yearlyBudgets,
   regionBudgets,
+  regionScope,
   metricKey,
   scale,
   flowOpen,
@@ -320,7 +329,17 @@ export function Sidebar({
   );
 
   // 表示階層の全団体における選択指標の中央値（未選択サマリーと選択時の全国比較に使う）
-  const level = regionBudgets[0]?.code.length === 2 ? '都道府県' : '市区町村';
+  // 単位・母集団は表示階層（regionScope）から決める。regionBudgetsの中身から
+  // 推測するとロード中（空配列）に市区町村へ誤フォールバックするため使わない
+  const unit = regionScope.unit;
+  // 中央値・合計ラベルの母集団: 全国か「都内/道内/府内/県内」か
+  // （長い県名・団体数は入れず短く保つ。末尾1文字で都道府県の種別に合わせる）
+  const scopeLabel =
+    regionScope.kind === 'municipal' && regionScope.prefName
+      ? `${regionScope.prefName.slice(-1)}内`
+      : regionScope.kind === 'municipal'
+        ? '県内'
+        : '全国';
   const medianOf = (s: MapScale): number | null => {
     const values = regionBudgets
       .map((b) => metricValue(b, metricKey, s))
@@ -343,20 +362,20 @@ export function Sidebar({
         .reduce((sum, v) => sum + v, 0);
       const medianTotal = medianOf('total');
       const medianPerCapita = medianOf('perCapita');
-      statRows.push({ label: `全${level}の合計`, value: formatAmount(total) });
+      statRows.push({ label: `${scopeLabel}の合計`, value: formatAmount(total) });
       if (medianTotal !== null) {
-        statRows.push({ label: `${level}の中央値（総額）`, value: formatAmount(medianTotal) });
+        statRows.push({ label: `${scopeLabel}の中央値（総額）`, value: formatAmount(medianTotal) });
       }
       if (medianPerCapita !== null) {
         statRows.push({
-          label: `${level}の中央値（1人あたり）`,
+          label: `${scopeLabel}の中央値（1人あたり）`,
           value: formatAmount(medianPerCapita),
         });
       }
     } else {
       const median = medianOf(scale);
       if (median !== null) {
-        statRows.push({ label: `${level}の中央値`, value: formatMetricValue(median, metricKey) });
+        statRows.push({ label: `${scopeLabel}の中央値`, value: formatMetricValue(median, metricKey) });
       }
     }
 
@@ -394,15 +413,36 @@ export function Sidebar({
     return (
       <aside className="sidebar" ref={sidebarRef}>
         <div className="budget-card">
-          <h3>地域を選択</h3>
-          <p>地図上の自治体をクリックすると詳細が表示されます</p>
+          {/* 県ドリルダウン中はどの県を見ているか分かるように県名を見出しにする */}
+          {regionScope.kind === 'municipal' && regionScope.prefName ? (
+            <>
+              <h3 className="region-head">
+                <span className="region-name">{regionScope.prefName}</span>
+                {regionBudgets.length > 0 && (
+                  <span className="region-year">
+                    {regionBudgets.length.toLocaleString()}
+                    {unit}
+                  </span>
+                )}
+              </h3>
+              <p>{scopeLabel}の市区町村をクリックすると詳細が表示されます</p>
+            </>
+          ) : (
+            <>
+              <h3>地域を選択</h3>
+              <p>地図上の自治体をクリックすると詳細が表示されます</p>
+            </>
+          )}
+          <p style={{ marginTop: 6, color: '#2a78d6', fontWeight: 600 }}>
+            自治体をクリックすると、お金の流れ（収支図）が見られます
+          </p>
         </div>
         <div className="budget-card">
           <h3>{def.label}とは</h3>
           {def.description && <p className="attribution">{def.description}</p>}
           {natureLine && (
             <p className="attribution">
-              主な内訳（全{level}の概算）: {natureLine}
+              主な内訳（{scopeLabel}の概算）: {natureLine}
             </p>
           )}
           {statRows.length > 0 && (
@@ -421,6 +461,14 @@ export function Sidebar({
         <div className="budget-card">
           <h3>見方のヒント</h3>
           <p className="attribution">{METRIC_INSIGHTS[metricKey]}</p>
+        </div>
+        <div className="budget-card">
+          <h3>データソース</h3>
+          <p className="attribution" style={{ marginBottom: 0 }}>
+            出典: Japan Dashboard 地方財政（都道府県ごと・市町村ごと）／デジタル庁・総務省。
+            人口・就労・インフラ・安全の各統計は総務省・国土交通省・警察庁ほか。
+            団体を選ぶと詳しい出典を表示します。
+          </p>
         </div>
       </aside>
     );
@@ -458,18 +506,45 @@ export function Sidebar({
   return (
     <aside className="sidebar" ref={sidebarRef}>
       <div className="budget-card">
-        <h3>
-          {selectedRegion.name}
-          {/* 市区町村はどの県か分かるように県名を添える */}
-          {selectedRegion.code.length === 5 && (
-            <span style={{ marginLeft: 8, fontSize: '0.85rem', fontWeight: 400, color: '#898781' }}>
-              {selectedRegion.prefecture}
-            </span>
+        <h3 className="region-head">
+          <span className="region-name">
+            {selectedRegion.name}
+            {/* 市区町村はどの県か分かるように県名を添える */}
+            {selectedRegion.code.length === 5 && (
+              <span className="region-pref">{selectedRegion.prefecture}</span>
+            )}
+          </span>
+          {/* 単年公表の統計（年度トグル非表示）では年度を出さない */}
+          {!def.yearIndependent && (
+            <span className="region-year">{selectedRegion.fiscalYear}年度</span>
           )}
         </h3>
-        <p>
-          {selectedRegion.fiscalYear}年度 {BUDGET_TYPE_LABELS[selectedRegion.budgetType]}
-        </p>
+        {/* このアプリの主役: お金の流れ（収支図）への主要導線 */}
+        {selectedRegion.expenditures.length > 0 && (
+          <button className="flow-cta" onClick={() => onFlowOpenChange(true)}>
+            <svg
+              className="flow-cta-icon"
+              width="22"
+              height="22"
+              viewBox="0 0 20 20"
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              aria-hidden="true"
+            >
+              <path d="M3 9 C 10 9, 10 4, 17 4" strokeWidth="2" opacity="0.55" />
+              <path d="M3 10.5 C 10 10.5, 10 10.5, 17 10.5" strokeWidth="3" />
+              <path d="M3 12 C 10 12, 10 16, 17 16" strokeWidth="2" opacity="0.55" />
+            </svg>
+            <span className="flow-cta-text">
+              <span className="flow-cta-title">お金の流れを見る（収支図）</span>
+              <span className="flow-cta-sub">どこから来て、何に使われたか</span>
+            </span>
+            <span className="flow-cta-chevron" aria-hidden="true">
+              ›
+            </span>
+          </button>
+        )}
       </div>
 
       {/* 選択中の指標 */}
@@ -496,7 +571,7 @@ export function Sidebar({
               const rank = values.filter((v) => v > heroValue).length + 1;
               rows.push({
                 label: '順位（高い順）',
-                node: `${rank.toLocaleString()}位 / ${values.length.toLocaleString()}${level}`,
+                node: `${rank.toLocaleString()}位 / ${values.length.toLocaleString()}${unit}`,
               });
             }
           }
@@ -512,7 +587,7 @@ export function Sidebar({
                   ? `${diff >= 0 ? '+' : '−'}${Math.abs(diff * 100).toFixed(1)}pt`
                   : `${diff >= 0 ? '+' : '−'}${formatPerPerson(Math.abs(diff))}`;
               rows.push({
-                label: `全${level}の中央値`,
+                label: `${scopeLabel}の中央値`,
                 node: (
                   <>
                     {formatMetricValue(median, metricKey)}
@@ -582,6 +657,7 @@ export function Sidebar({
           <div className="budget-card">
             <div className="card-head">
               <h3>収支サマリー</h3>
+              {/* 上部CTAと重複するが、円グラフを見ながら開ける近い位置の導線として残す */}
               <button className="text-button" onClick={() => onFlowOpenChange(true)}>
                 収支図
               </button>

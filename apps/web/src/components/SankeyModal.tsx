@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import type { LocalGovBudget } from '@/types/budget';
 import { formatAmount } from '@/lib/format';
 import { GLOSSARY } from '@/lib/glossary';
@@ -31,6 +31,14 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
     document.addEventListener('keydown', handle);
     return () => document.removeEventListener('keydown', handle);
   }, [onClose]);
+
+  // 開いたらモーダルへフォーカスを移し、閉じたら元の要素へ戻す（キーボード操作対応）
+  const modalRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const previouslyFocused = document.activeElement as HTMLElement | null;
+    modalRef.current?.focus();
+    return () => previouslyFocused?.focus?.();
+  }, []);
 
   const { nodes, ribbons, bottom, estimated } = useMemo(() => buildLayout(budget), [budget]);
 
@@ -148,11 +156,19 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
 
   return (
     <div className="modal-overlay" onClick={onClose}>
-      <div className="modal modal-wide" onClick={(e) => e.stopPropagation()}>
+      <div
+        className="modal modal-wide"
+        ref={modalRef}
+        tabIndex={-1}
+        role="dialog"
+        aria-modal="true"
+        aria-label={`${budget.name} 収支図`}
+        onClick={(e) => e.stopPropagation()}
+      >
         <div className="modal-head">
           <h3>
             {budget.code.length === 5 ? `${budget.prefecture} ` : ''}
-            {budget.name} 収支図（{budget.fiscalYear}年度 決算）
+            {budget.name} 収支図
           </h3>
           <div className="modal-head-actions">
             <a
