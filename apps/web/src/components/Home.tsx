@@ -487,7 +487,9 @@ export default function Home() {
     urlRestoredRef.current = true;
 
     const params = new URLSearchParams(window.location.search);
-    const m = params.get('m');
+    // 指標はクエリ（m）優先、なければ指標別の事前ビルドページ（/m/{指標}）のパスから復元
+    const pathMetric = window.location.pathname.match(/\/m\/([A-Za-z]+)\/?$/)?.[1];
+    const m = params.get('m') ?? pathMetric;
     if (m && METRICS.some((d) => d.key === m)) setMetricKey(m as MapMetricKey);
     const s = params.get('s');
     if (s === 'total' || s === 'perCapita') setScale(s);
@@ -514,19 +516,23 @@ export default function Home() {
   // 状態が変わるたびにURLへ書き出す（復元前は書かない）
   useEffect(() => {
     if (!urlRestoredRef.current) return;
+    // 事前ビルドページ（OGP入り）のパスに載せ替える。都道府県選択（県名入り）を優先し、
+    // それ以外で指標を選んでいれば指標別ページ（指標名入りタイトル＋指標別コロプレス画像）。
+    // そのままURLを共有すると「どこの・何の」地図かが伝わる
+    const onPrefPage = selectedCode !== null && selectedCode.length === 2 && view.level !== 'nationMuni';
+    const onMetricPage = !onPrefPage && metricKey !== 'expenditure';
     const params = new URLSearchParams();
     if (year !== null) params.set('y', String(year));
-    if (metricKey !== 'expenditure') params.set('m', metricKey);
+    if (metricKey !== 'expenditure' && !onMetricPage) params.set('m', metricKey);
     if (scale !== 'perCapita') params.set('s', scale);
     if (view.level === 'nationMuni') params.set('g', 'muni');
     if (view.level === 'municipal') params.set('v', view.prefCode);
     if (selectedCode) params.set('sel', selectedCode);
     if (flowOpen && selectedCode) params.set('f', '1');
-    // 都道府県を選択中は県別の事前ビルドページ（県名入りOGP）のパスに載せ替える。
-    // そのままURLを共有すると県名入りのタイトル・説明文が出る
-    const path =
-      selectedCode && selectedCode.length === 2 && view.level !== 'nationMuni'
-        ? dataUrl(`/p/${selectedCode}/`)
+    const path = onPrefPage
+      ? dataUrl(`/p/${selectedCode}/`)
+      : onMetricPage
+        ? dataUrl(`/m/${metricKey}/`)
         : dataUrl('/');
     const qs = params.toString();
     window.history.replaceState(null, '', `${path}${qs ? `?${qs}` : ''}`);
