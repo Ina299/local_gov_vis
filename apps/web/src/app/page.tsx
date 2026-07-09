@@ -15,7 +15,9 @@ import {
   type MetricCategory,
 } from '@/lib/metrics';
 import { dataUrl } from '@/lib/paths';
+import { fetchJson } from '@/lib/fetchJson';
 import { fetchTopoFeatures } from '@/lib/topo';
+import type { RegionScope } from '@/components/Sidebar';
 import type { LocalGovBudget, GeoFeature, MapScale } from '@/types/budget';
 
 // Leafletはクライアントサイドでのみ動作
@@ -63,7 +65,9 @@ export default function Home() {
   const [view, setView] = useState<ViewState>({ level: 'nation' });
   const [year, setYear] = useState<number | null>(null);
   const [metricKey, setMetricKey] = useState<MapMetricKey>('expenditure');
-  const [scale, setScale] = useState<MapScale>('total');
+  // 初期表示は「歳出・一人当たり」。総額は人口マップと化して情報量が乏しく、
+  // 一人当たりなら収支図の「あなたの1人分」の世界観ともつながる
+  const [scale, setScale] = useState<MapScale>('perCapita');
   const category = metricCategory(metricKey);
   const yearIndependent = metricDef(metricKey).yearIndependent ?? false;
   // 都道府県別のみの指標（犯罪統計等）では市区町村ビューを使わせない
@@ -76,6 +80,21 @@ export default function Home() {
   const [flowOpen, setFlowOpen] = useState(false);
   // ランキングモーダルの開閉
   const [rankingOpen, setRankingOpen] = useState(false);
+  // データ取得失敗時のエラーバナー（再試行コールバック付き）
+  const [loadError, setLoadError] = useState<{ message: string; retry: () => void } | null>(null);
+
+  // 連続呼び出しで古い応答が新しい状態を上書きしないよう、要求ごとに採番して照合する
+  const drillReqRef = useRef(0);
+  const nationMuniReqRef = useRef(0);
+  const muniDetailReqRef = useRef(0);
+  // 全国市区町村ビューの詳細JSON（県別・約1.8MB）を県コードごとにキャッシュし、
+  // 県を切り替えるたびの再ダウンロードを防ぐ
+  const muniDetailCacheRef = useRef(new Map<string, LocalGovBudget[]>());
+  // 全国市区町村データ（municipal-all/{年度}.json・年度別分割）の取得状況。
+  // Mapは取得中含む重複リクエスト防止用、Setはロード完了済み年度（表示のフォールバック判定用）
+  const nationMuniLoadsRef = useRef(new Map<number, Promise<boolean>>());
+  const nationMuniFgReqRef = useRef(0);
+  const [nationMuniYears, setNationMuniYears] = useState<ReadonlySet<number>>(new Set());
 
   // 選択が解除されたら収支図も閉じる
   useEffect(() => {
@@ -108,14 +127,11 @@ export default function Home() {
     setFocusTarget({ code, seq: focusSeqRef.current, zoom });
   }, []);
 
-  useEffect(() => {
-    fetch(dataUrl('/search-index.json'))
-      .then((res) => res.json())
-      .then(setSearchEntries)
-      .catch((err) => console.error('検索インデックス読み込みエラー:', err));
-
+  // 全国（都道府県）データと境界の初回ロード。失敗時はバナーから再試行できる
+  const loadCoreData = useCallback(() => {
+    setLoadError(null);
     Promise.all([
-      fetch(dataUrl('/budgets.json')).then((res) => res.json()),
+      fetchJson<LocalGovBudget[]>(dataUrl('/budgets.json')),
       fetchTopoFeatures<any>(dataUrl('/japan.topo.json')),
     ])
       .then(([budgets, geoJson]: [LocalGovBudget[], { features: any[] }]) => {
@@ -133,8 +149,18 @@ export default function Home() {
         const available = new Set(budgets.map((b) => b.fiscalYear));
         setYear(available.has(urlYear) ? urlYear : Math.max(...Array.from(available)));
       })
-      .catch((err) => console.error('データ読み込みエラー:', err));
+      .catch((err) => {
+        console.error('データ読み込みエラー:', err);
+        setLoadError({ message: 'データの読み込みに失敗しました', retry: loadCoreData });
+      });
   }, []);
+
+  useEffect(() => {
+    fetchJson<SearchEntry[]>(dataUrl('/search-index.json'))
+      .then(setSearchEntries)
+      .catch((err) => console.error('検索インデックス読み込みエラー:', err));
+    loadCoreData();
+  }, [loadCoreData]);
 
   const active =
     view.level === 'municipal' ? municipal : view.level === 'nationMuni' ? nationMuni : national;
@@ -144,16 +170,28 @@ export default function Home() {
     [national]
   );
 
+  // 地図・一覧の表示に使う年度。全国市区町村ビューで未ロードの年度を選んでいる間は、
+  // 全団体が「データなし」で塗られるのを避けるため、直近のロード済み年度の表示を維持する
+  // （ロード完了で選択年度に切り替わる。ロード中はオーバーレイで明示）
+  const dataYear = useMemo(() => {
+    if (view.level !== 'nationMuni' || year === null || nationMuniYears.has(year)) return year;
+    let nearest: number | null = null;
+    nationMuniYears.forEach((y) => {
+      if (nearest === null || Math.abs(y - year) < Math.abs(nearest - year)) nearest = y;
+    });
+    return nearest ?? year;
+  }, [view, year, nationMuniYears]);
+
   // 選択年度の 自治体コード → 予算データ
   const budgetsByCode = useMemo(() => {
     const map = new Map<string, LocalGovBudget>();
     if (active) {
       for (const b of active.budgets) {
-        if (b.fiscalYear === year) map.set(b.code, b);
+        if (b.fiscalYear === dataYear) map.set(b.code, b);
       }
     }
     return map;
-  }, [active, year]);
+  }, [active, dataYear]);
 
   // 未選択時サイドバーの全国サマリー用（選択年度・現在の表示階層の全団体）
   const regionBudgets = useMemo(() => Array.from(budgetsByCode.values()), [budgetsByCode]);
@@ -192,18 +230,41 @@ export default function Home() {
     [national, active, view, muniDetail]
   );
 
+  // 全国市区町村ビューで内訳表示用に県別の詳細JSONを取得（県ごとにキャッシュ）
+  const loadMuniDetail = useCallback((prefCode: string) => {
+    const cached = muniDetailCacheRef.current.get(prefCode);
+    if (cached) {
+      setMuniDetail({ prefCode, budgets: cached });
+      return;
+    }
+    const reqId = ++muniDetailReqRef.current;
+    fetchJson<LocalGovBudget[]>(dataUrl(`/budgets/municipal/${prefCode}.json`))
+      .then((budgets) => {
+        muniDetailCacheRef.current.set(prefCode, budgets);
+        // 取得中に別の県へ切り替わっていたら破棄
+        if (reqId === muniDetailReqRef.current) setMuniDetail({ prefCode, budgets });
+      })
+      .catch((err) => {
+        console.error('市区町村詳細データ読み込みエラー:', err);
+        setLoadError({
+          message: '詳細データの読み込みに失敗しました',
+          retry: () => loadMuniDetail(prefCode),
+        });
+      });
+  }, []);
+
   // 全国市区町村ビューで団体を選択したら、内訳表示用に県別の詳細JSONを取得
   useEffect(() => {
     if (view.level !== 'nationMuni' || !selectedCode || selectedCode.length !== 5) return;
     const prefCode = selectedCode.slice(0, 2);
     if (muniDetail?.prefCode === prefCode) return;
-    fetch(dataUrl(`/budgets/municipal/${prefCode}.json`))
-      .then((res) => res.json())
-      .then((budgets: LocalGovBudget[]) => setMuniDetail({ prefCode, budgets }))
-      .catch((err) => console.error('市区町村詳細データ読み込みエラー:', err));
-  }, [view, selectedCode, muniDetail]);
+    loadMuniDetail(prefCode);
+  }, [view, selectedCode, muniDetail, loadMuniDetail]);
 
-  const selectedRegion = selectedCode ? lookupBudget(selectedCode, year) : null;
+  // 選択団体の詳細。選択年度がまだなければ表示中の年度（dataYear）にフォールバック
+  const selectedRegion = selectedCode
+    ? (lookupBudget(selectedCode, year) ?? lookupBudget(selectedCode, dataYear))
+    : null;
 
   // 選択団体の全年度データ（サイドバーの推移グラフ・前年比用）
   const yearlyBudgets = useMemo(
@@ -231,8 +292,72 @@ export default function Home() {
     return [...background, ...municipal.features];
   }, [view, municipal, national, nationMuni]);
 
-  // 全国市区町村ビューへ切り替える（データは初回のみフェッチ）。
-  // selectCode指定時はその団体を選択して移動（URL復元用）
+  // 全国市区町村データ（年度別分割）を追加ロードする。取得中・取得済みなら同じPromiseを返す。
+  // 失敗はfalseで返す（エラーバナーは前面ロード側が出す。先読みは静かに諦める）
+  const loadNationMuniYear = useCallback((y: number): Promise<boolean> => {
+    const existing = nationMuniLoadsRef.current.get(y);
+    if (existing) return existing;
+    const p = fetchJson<LocalGovBudget[]>(dataUrl(`/budgets/municipal-all/${y}.json`))
+      .then((budgets) => {
+        setNationMuni((prev) =>
+          prev ? { ...prev, budgets: [...prev.budgets, ...budgets] } : prev
+        );
+        setNationMuniYears((prev) => new Set(prev).add(y));
+        return true;
+      })
+      .catch((err) => {
+        nationMuniLoadsRef.current.delete(y);
+        console.error('全国市区町村データ読み込みエラー:', err);
+        return false;
+      });
+    nationMuniLoadsRef.current.set(y, p);
+    return p;
+  }, []);
+
+  // 表示中の年度のロード（ローディング表示・失敗時のエラーバナー付き）
+  const loadNationMuniYearFg = useCallback(
+    (y: number) => {
+      const reqId = ++nationMuniFgReqRef.current;
+      setLoadError(null);
+      setLoadingDrilldown(true);
+      void loadNationMuniYear(y).then((ok) => {
+        if (reqId !== nationMuniFgReqRef.current) return;
+        setLoadingDrilldown(false);
+        if (!ok) {
+          setLoadError({
+            message: 'データの読み込みに失敗しました',
+            retry: () => loadNationMuniYearFg(y),
+          });
+        }
+      });
+    },
+    [loadNationMuniYear]
+  );
+
+  // 全国市区町村ビューで未ロードの年度に切り替えたら、その年度のデータをロードする
+  useEffect(() => {
+    if (view.level !== 'nationMuni' || year === null || !nationMuni) return;
+    if (nationMuniYears.has(year)) return;
+    loadNationMuniYearFg(year);
+  }, [view.level, year, nationMuni, nationMuniYears, loadNationMuniYearFg]);
+
+  // 初回表示後、残りの年度を新しい順に裏で先読みし、年度切替を待たせない
+  useEffect(() => {
+    if (view.level !== 'nationMuni' || !nationMuni || years.length === 0) return;
+    let cancelled = false;
+    void (async () => {
+      for (const y of [...years].sort((a, b) => b - a)) {
+        if (cancelled) return;
+        await loadNationMuniYear(y);
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [view.level, nationMuni, years, loadNationMuniYear]);
+
+  // 全国市区町村ビューへ切り替える（境界と表示年度のデータは初回のみフェッチ。
+  // 他年度は年度切替時に遅延ロード）。selectCode指定時はその団体を選択して移動（URL復元用）
   const enterNationMuni = useCallback(
     (selectCode?: string) => {
       const apply = () => {
@@ -250,19 +375,36 @@ export default function Home() {
         apply();
         return;
       }
+      if (year === null) return;
+      const firstYear = year;
+      const reqId = ++nationMuniReqRef.current;
+      setLoadError(null);
       setLoadingDrilldown(true);
       Promise.all([
-        fetch(dataUrl('/budgets/municipal-all.json')).then((res) => res.json()),
+        fetchJson<LocalGovBudget[]>(dataUrl(`/budgets/municipal-all/${firstYear}.json`)),
         fetchTopoFeatures<GeoFeature>(dataUrl('/geo/municipal-all.topo.json')),
       ])
         .then(([budgets, geo]: [LocalGovBudget[], { features: GeoFeature[] }]) => {
+          if (reqId !== nationMuniReqRef.current) return;
+          // 先読みループが同じ年度を二重取得しないよう、取得済みとして登録する
+          nationMuniLoadsRef.current.set(firstYear, Promise.resolve(true));
+          setNationMuniYears((prev) => new Set(prev).add(firstYear));
           setNationMuni({ budgets, features: geo.features });
           apply();
         })
-        .catch((err) => console.error('全国市区町村データ読み込みエラー:', err))
-        .finally(() => setLoadingDrilldown(false));
+        .catch((err) => {
+          if (reqId !== nationMuniReqRef.current) return;
+          console.error('全国市区町村データ読み込みエラー:', err);
+          setLoadError({
+            message: 'データの読み込みに失敗しました',
+            retry: () => enterNationMuni(selectCode),
+          });
+        })
+        .finally(() => {
+          if (reqId === nationMuniReqRef.current) setLoadingDrilldown(false);
+        });
     },
-    [nationMuni, focusOn]
+    [nationMuni, year, focusOn]
   );
 
   // 全国表示の粒度切替（都道府県 ⇔ 市区町村）。ドリルダウン中の切替も全国へ戻す
@@ -296,19 +438,34 @@ export default function Home() {
   const drillDown = useCallback((prefCode: string, selectCode?: string) => {
     const prefName =
       national?.budgets.find((b) => b.code === prefCode)?.name ?? '';
+    const reqId = ++drillReqRef.current;
+    setLoadError(null);
     setLoadingDrilldown(true);
     Promise.all([
-      fetch(dataUrl(`/budgets/municipal/${prefCode}.json`)).then((res) => res.json()),
+      fetchJson<LocalGovBudget[]>(dataUrl(`/budgets/municipal/${prefCode}.json`)),
       fetchTopoFeatures<GeoFeature>(dataUrl(`/geo/municipal/${prefCode}.topo.json`)),
     ])
       .then(([budgets, geo]: [LocalGovBudget[], { features: GeoFeature[] }]) => {
+        // 別の県へ連続ドリルダウンしていたら古い応答は破棄
+        if (reqId !== drillReqRef.current) return;
+        // 詳細JSONは全国市区町村ビューの内訳表示にも使えるためキャッシュへ入れる
+        muniDetailCacheRef.current.set(prefCode, budgets);
         setMunicipal({ budgets, features: geo.features });
         setView({ level: 'municipal', prefCode, prefName });
         setSelectedCode(selectCode ?? null);
         if (selectCode) focusOn(selectCode);
       })
-      .catch((err) => console.error('市区町村データ読み込みエラー:', err))
-      .finally(() => setLoadingDrilldown(false));
+      .catch((err) => {
+        if (reqId !== drillReqRef.current) return;
+        console.error('市区町村データ読み込みエラー:', err);
+        setLoadError({
+          message: 'データの読み込みに失敗しました',
+          retry: () => drillDown(prefCode, selectCode),
+        });
+      })
+      .finally(() => {
+        if (reqId === drillReqRef.current) setLoadingDrilldown(false);
+      });
   }, [national, focusOn]);
 
   // --- URL共有: 表示状態（年度・指標・粒度・選択）をクエリに反映・復元 ---
@@ -347,7 +504,7 @@ export default function Home() {
     const params = new URLSearchParams();
     if (year !== null) params.set('y', String(year));
     if (metricKey !== 'expenditure') params.set('m', metricKey);
-    if (scale !== 'total') params.set('s', scale);
+    if (scale !== 'perCapita') params.set('s', scale);
     if (view.level === 'nationMuni') params.set('g', 'muni');
     if (view.level === 'municipal') params.set('v', view.prefCode);
     if (selectedCode) params.set('sel', selectedCode);
@@ -420,15 +577,20 @@ export default function Home() {
         ? 'nation-muni'
         : 'nation';
 
+  // サイドバーの中央値・合計ラベルの母集団（全国／県内）と単位を、
+  // regionBudgetsの中身ではなく現在の表示階層から決める（ロード中の取り違え防止）
+  const regionScope = useMemo<RegionScope>(() => {
+    if (view.level === 'municipal') {
+      return { kind: 'municipal', unit: '市区町村', prefName: view.prefName };
+    }
+    if (view.level === 'nationMuni') return { kind: 'nationMuni', unit: '市区町村' };
+    return { kind: 'nation', unit: '都道府県' };
+  }, [view]);
+
   return (
     <div className="container">
       <header className="header">
-        <h1>
-          地方自治体予算マップ
-          {view.level === 'municipal' && (
-            <span className="header-breadcrumb">{view.prefName}</span>
-          )}
-        </h1>
+        <h1>地方自治体予算マップ</h1>
         <div className="header-controls">
           <div className="header-toggles">
             {/* 単年公表の統計（課税状況調・国勢調査）では年度切替に意味がないので出さない */}
@@ -533,12 +695,34 @@ export default function Home() {
             </div>
           )}
           {loadingDrilldown && <div className="map-loading">市区町村データを読み込み中...</div>}
+          {loadError && (
+            <div className="load-error-banner" role="alert">
+              <span>{loadError.message}</span>
+              <button
+                className="load-error-retry"
+                onClick={() => {
+                  const retry = loadError.retry;
+                  setLoadError(null);
+                  retry();
+                }}
+              >
+                再試行
+              </button>
+              <button
+                className="load-error-dismiss"
+                aria-label="閉じる"
+                onClick={() => setLoadError(null)}
+              >
+                ×
+              </button>
+            </div>
+          )}
           {rankingOpen && (
             <RankingModal
               budgets={regionBudgets}
               metricKey={metricKey}
               scale={scale}
-              year={yearIndependent ? null : year}
+              year={yearIndependent ? null : dataYear}
               selectedCode={selectedCode}
               granularity={view.level === 'nationMuni' ? 'muni' : 'pref'}
               onGranularityChange={setGranularity}
@@ -557,6 +741,7 @@ export default function Home() {
           selectedRegion={selectedRegion}
           yearlyBudgets={yearlyBudgets}
           regionBudgets={regionBudgets}
+          regionScope={regionScope}
           metricKey={metricKey}
           scale={scale}
           flowOpen={flowOpen}

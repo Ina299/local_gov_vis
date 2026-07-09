@@ -3,6 +3,7 @@
  * 型と共有ローダー。収支図（SankeyModal）と収支サマリーのドーナツが参照する
  */
 import { dataUrl } from './paths';
+import { fetchJson } from './fetchJson';
 import type { AverageTable } from './sankey';
 
 /**
@@ -16,6 +17,6 @@ let averagesPromise: Promise<BudgetAverages> | null = null;
 
 /** budget-averages.jsonを取得する（結果はモジュール内でキャッシュ） */
 export function loadAverages(): Promise<BudgetAverages> {
-  averagesPromise ??= fetch(dataUrl('/budget-averages.json')).then((res) => res.json());
+  averagesPromise ??= fetchJson<BudgetAverages>(dataUrl('/budget-averages.json'));
   return averagesPromise;
 }

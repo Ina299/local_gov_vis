@@ -143,7 +143,8 @@ export interface LocalGovBudget {
   name: string;
   prefecture: string;
   fiscalYear: number;
-  budgetType: 'initial' | 'supplementary' | 'final';
+  /** 予算種別（軽量データ municipal-all/{年度}.json では省略） */
+  budgetType?: 'initial' | 'supplementary' | 'final';
   totalRevenue: number;
   totalExpenditure: number;
   expenditures: BudgetItem[];
@@ -162,8 +163,9 @@ export interface LocalGovBudget {
   /** 安全（年度別。暦年中の交通事故） */
   safety?: Safety;
   perCapitaExpenditure?: number;
-  sourceUrl: string;
-  crawledAt: string;
+  /** 軽量データ municipal-all/{年度}.json では省略 */
+  sourceUrl?: string;
+  crawledAt?: string;
 }
 
 /** 地図の表示スケール（総額/一人当たり） */

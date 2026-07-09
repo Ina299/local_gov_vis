@@ -4,14 +4,15 @@
  * ネットワークアクセスは不要。import:municipal の後に実行する。
  *
  * 出力:
- *   apps/web/public/budgets/municipal-all.json … 地図の塗り分けに必要な項目のみ
- *     （総額・人口・4財政指標。内訳はドリルダウン時に都道府県別JSONから遅延ロード）
+ *   apps/web/public/budgets/municipal-all/{年度}.json … 地図の塗り分けに必要な項目のみ
+ *     （総額・人口・4財政指標。内訳はドリルダウン時に都道府県別JSONから遅延ロード。
+ *       初回ロードを軽くするため年度別に分割し、webは表示年度のぶんだけ取得する）
  *   data/geo/municipal-all.json                … 全都道府県の市区町村境界を結合
  *     （webへは build:topo がTopoJSONに変換して配置する）
  *
  * 実行: npm run -w @local-gov/crawler build:municipal-all
  */
-import { readFileSync, writeFileSync, readdirSync } from 'fs';
+import { readFileSync, writeFileSync, readdirSync, mkdirSync, rmSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import type { LocalGovBudget } from './types/budget.js';
@@ -49,12 +50,12 @@ function main() {
       readFileSync(join(BUDGETS_DIR, file), 'utf-8')
     );
     for (const b of budgets) {
+      // 全レコード同一のメタ情報（budgetType/sourceUrl/crawledAt）は省いてサイズを削る
       compact.push({
         code: b.code,
         name: b.name,
         prefecture: b.prefecture,
         fiscalYear: b.fiscalYear,
-        budgetType: b.budgetType,
         totalRevenue: b.totalRevenue,
         totalExpenditure: b.totalExpenditure,
         expenditures: b.expenditures
@@ -69,8 +70,6 @@ function main() {
         employment: b.employment,
         infrastructure: b.infrastructure,
         safety: b.safety,
-        sourceUrl: b.sourceUrl,
-        crawledAt: b.crawledAt,
       });
     }
 
@@ -78,12 +77,26 @@ function main() {
     features.push(...geo.features);
   }
 
-  const budgetsPath = join(WEB_PUBLIC, 'budgets', 'municipal-all.json');
-  const geoPath = join(REPO_ROOT, 'data', 'geo', 'municipal-all.json');
-  writeFileSync(budgetsPath, JSON.stringify(compact));
-  writeFileSync(geoPath, JSON.stringify({ type: 'FeatureCollection', features }));
+  // 年度別に分割して書き出す（古い年度ファイル・旧一枚岩ファイルは作り直す）
+  const allDir = join(WEB_PUBLIC, 'budgets', 'municipal-all');
+  rmSync(allDir, { recursive: true, force: true });
+  mkdirSync(allDir, { recursive: true });
+  const legacyPath = join(WEB_PUBLIC, 'budgets', 'municipal-all.json');
+  if (existsSync(legacyPath)) rmSync(legacyPath);
 
-  console.log(`budgets: ${compact.length}件 → municipal-all.json`);
+  const byYear = new Map<number, LocalGovBudget[]>();
+  for (const b of compact) {
+    const list = byYear.get(b.fiscalYear) ?? [];
+    list.push(b);
+    byYear.set(b.fiscalYear, list);
+  }
+  for (const [year, list] of Array.from(byYear.entries()).sort((a, b) => a[0] - b[0])) {
+    writeFileSync(join(allDir, `${year}.json`), JSON.stringify(list));
+    console.log(`budgets: ${list.length}件 → municipal-all/${year}.json`);
+  }
+
+  const geoPath = join(REPO_ROOT, 'data', 'geo', 'municipal-all.json');
+  writeFileSync(geoPath, JSON.stringify({ type: 'FeatureCollection', features }));
   console.log(`geo: ${features.length}ポリゴン → municipal-all.json`);
 }
 

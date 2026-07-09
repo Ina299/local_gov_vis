@@ -4,8 +4,9 @@
  */
 import { feature } from 'topojson-client';
 import type { Topology } from 'topojson-specification';
+import { fetchJson } from './fetchJson';
 
 export async function fetchTopoFeatures<F>(url: string): Promise<{ features: F[] }> {
-  const topo: Topology = await fetch(url).then((res) => res.json());
+  const topo = await fetchJson<Topology>(url);
   return feature(topo, topo.objects.geo) as unknown as { features: F[] };
 }
