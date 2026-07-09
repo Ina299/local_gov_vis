@@ -471,13 +471,26 @@ export function Sidebar({
           {heroValue !== null ? formatMetricValue(heroValue, metricKey) : 'データなし'}
         </div>
         {(() => {
-          // 前年度比と（就労指標のみ）全国中央値比較を「ラベル｜値」の行で揃える
+          // 前年度比・順位・中央値比較を「ラベル｜値」の行で揃える
           const rows: Array<{ label: string; node: React.ReactNode }> = [];
           if (yoy !== null) {
             rows.push({
               label: '前年度比',
               node: `${yoy >= 0 ? '+' : ''}${yoy.toFixed(1)}%`,
             });
+          }
+          // 表示階層の全団体中の順位（値が大きい順・同値は同順位）
+          if (heroValue !== null) {
+            const values = regionBudgets
+              .map((b) => metricValue(b, metricKey, scale))
+              .filter((v): v is number => v !== null);
+            if (values.length > 1) {
+              const rank = values.filter((v) => v > heroValue).length + 1;
+              rows.push({
+                label: '順位（高い順）',
+                node: `${rank.toLocaleString()}位 / ${values.length.toLocaleString()}${level}`,
+              });
+            }
           }
           // 就労指標と、金額指標の一人当たり表示では全団体の中央値との比較を出す
           const showMedian =
@@ -508,6 +521,19 @@ export function Sidebar({
                   </>
                 ),
               });
+            }
+          }
+          // 外国人出生割合は分母が数人の町で大きく振れるため、実数を併記する
+          if (metricKey === 'foreignBirthRatio') {
+            const d = selectedRegion.demographics;
+            if (d?.births !== undefined) {
+              rows.push({ label: '出生数', node: `${d.births.toLocaleString()}人` });
+              if (d.foreignBirthRatio !== undefined) {
+                rows.push({
+                  label: 'うち外国人',
+                  node: `${Math.round(d.births * d.foreignBirthRatio).toLocaleString()}人`,
+                });
+              }
             }
           }
           if (rows.length === 0) return null;

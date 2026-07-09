@@ -5,6 +5,7 @@ import dynamic from 'next/dynamic';
 import { Sidebar } from '@/components/Sidebar';
 import { SearchBox, type SearchEntry } from '@/components/SearchBox';
 import { MetricMenu } from '@/components/MetricMenu';
+import { RankingModal } from '@/components/RankingModal';
 import {
   METRICS,
   metricDef,
@@ -73,6 +74,8 @@ export default function Home() {
   const [loadingDrilldown, setLoadingDrilldown] = useState(false);
   // 収支図モーダルの開閉（URL共有・地図ポップアップからも開くためpageが持つ）
   const [flowOpen, setFlowOpen] = useState(false);
+  // ランキングモーダルの開閉
+  const [rankingOpen, setRankingOpen] = useState(false);
 
   // 選択が解除されたら収支図も閉じる
   useEffect(() => {
@@ -507,6 +510,9 @@ export default function Home() {
             onShowFlow={() => setFlowOpen(true)}
           />
           <SearchBox entries={searchEntries} onSelect={handleSearchSelect} />
+          <button className="ranking-toggle" onClick={() => setRankingOpen(true)}>
+            ランキング
+          </button>
           {/* 都道府県別のみの指標では表示単位の切替を出さない */}
           {!prefOnly && (
             <div className="granularity-toggle" role="group" aria-label="表示単位">
@@ -527,6 +533,25 @@ export default function Home() {
             </div>
           )}
           {loadingDrilldown && <div className="map-loading">市区町村データを読み込み中...</div>}
+          {rankingOpen && (
+            <RankingModal
+              budgets={regionBudgets}
+              metricKey={metricKey}
+              scale={scale}
+              year={yearIndependent ? null : year}
+              selectedCode={selectedCode}
+              granularity={view.level === 'nationMuni' ? 'muni' : 'pref'}
+              onGranularityChange={setGranularity}
+              prefOnly={prefOnly}
+              loading={loadingDrilldown}
+              onSelect={(code) => {
+                setRankingOpen(false);
+                setSelectedCode(code);
+                focusOn(code);
+              }}
+              onClose={() => setRankingOpen(false)}
+            />
+          )}
         </div>
         <Sidebar
           selectedRegion={selectedRegion}
