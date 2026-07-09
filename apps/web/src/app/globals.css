@@ -738,6 +738,13 @@ a.text-button {
   border-radius: 4px;
 }
 
+.legend-note {
+  margin-top: 0.5rem;
+  font-size: 0.7rem;
+  line-height: 1.5;
+  color: #6c757d;
+}
+
 /* Leafletのデフォルトクリックエフェクトを無効化 */
 .leaflet-interactive {
   outline: none !important;

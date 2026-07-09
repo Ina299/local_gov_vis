@@ -22,6 +22,7 @@ const CRAWLER_ROOT = join(__dirname, '..');
 const STEPS: Array<{ file: string; label: string }> = [
   { file: 'import-dashboard.ts', label: '都道府県 財政データ取込' },
   { file: 'import-municipal.ts', label: '市区町村 財政データ取込' },
+  { file: 'import-yomi.ts', label: '検索用の読み仮名 付与' },
   { file: 'import-demographics.ts', label: '人口統計 付与' },
   { file: 'import-funding.ts', label: '目的別財源・性質別内訳 付与' },
   { file: 'import-employment.ts', label: '就労・所得 付与' },

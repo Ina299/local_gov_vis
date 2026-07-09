@@ -7,6 +7,10 @@ export interface SearchEntry {
   name: string;
   prefCode?: string;
   prefName?: string;
+  /** ひらがな読み（総務省コード表由来。import:yomi が付与） */
+  yomi?: string;
+  /** ローマ字読み（yomiから機械生成） */
+  roma?: string;
 }
 
 interface SearchBoxProps {
@@ -15,6 +19,16 @@ interface SearchBoxProps {
 }
 
 const MAX_RESULTS = 8;
+
+/** カタカナをひらがなに寄せる（IME確定前の入力・カタカナ入力の両方を拾う） */
+function toHiragana(s: string): string {
+  return s.replace(/[ァ-ヶ]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60));
+}
+
+/** ローマ字の長音ゆれを吸収する（toukyou → tokyo で「tokyo」にも当たるように） */
+function collapseLongVowels(s: string): string {
+  return s.replace(/ou/g, 'o').replace(/uu/g, 'u');
+}
 
 export function SearchBox({ entries, onSelect }: SearchBoxProps) {
   const [query, setQuery] = useState('');
@@ -25,13 +39,22 @@ export function SearchBox({ entries, onSelect }: SearchBoxProps) {
   const results = useMemo(() => {
     const q = query.trim();
     if (!q) return [];
+    // 漢字はそのまま、ひらがな・カタカナは読み（yomi）、英字はローマ字（roma）で照合する
+    const qKana = toHiragana(q);
+    const qRoma = /^[a-zA-Z]+$/.test(q) ? collapseLongVowels(q.toLowerCase()) : null;
     // 前方一致を優先し、部分一致で補完する
     const starts: SearchEntry[] = [];
     const includes: SearchEntry[] = [];
     for (const entry of entries) {
-      if (entry.name.startsWith(q)) {
+      const yomi = entry.yomi ?? '';
+      const roma = entry.roma ? collapseLongVowels(entry.roma) : '';
+      if (entry.name.startsWith(q) || yomi.startsWith(qKana) || (qRoma !== null && roma.startsWith(qRoma))) {
         starts.push(entry);
-      } else if (entry.name.includes(q) || (entry.prefName ?? '').includes(q)) {
+      } else if (
+        entry.name.includes(q) ||
+        yomi.includes(qKana) ||
+        (entry.prefName ?? '').includes(q)
+      ) {
         includes.push(entry);
       }
       if (starts.length >= MAX_RESULTS) break;

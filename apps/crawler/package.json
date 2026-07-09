@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "import:dashboard": "tsx src/import-dashboard.ts",
-    "import:municipal": "tsx src/import-municipal.ts",
+    "import:municipal": "tsx src/import-municipal.ts && tsx src/import-yomi.ts",
+    "import:yomi": "tsx src/import-yomi.ts",
     "import:demographics": "tsx src/import-demographics.ts && tsx src/build-municipal-all.ts",
     "import:funding": "tsx src/import-funding.ts",
     "import:employment": "tsx src/import-employment.ts && tsx src/build-municipal-all.ts",
@@ -14,6 +15,7 @@
     "build:municipal-all": "tsx src/build-municipal-all.ts",
     "build:averages": "tsx src/build-averages.ts",
     "build:topo": "tsx src/build-topo.ts",
+    "build:og": "tsx src/build-og.ts",
     "update:all": "tsx src/update-all.ts",
     "verify:data": "tsx src/verify-data.ts",
     "typecheck": "tsc --noEmit"
@@ -24,9 +26,14 @@
     "csv-stringify": "^6.4.0"
   },
   "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
     "@types/adm-zip": "^0.5.8",
+    "@types/d3-geo": "^3.1.0",
     "@types/node": "^20.10.0",
+    "@types/topojson-client": "^3.1.5",
     "@types/topojson-server": "^3.0.4",
+    "d3-geo": "^3.1.1",
+    "topojson-client": "^3.1.0",
     "topojson-server": "^3.0.1",
     "tsx": "^4.7.0",
     "typescript": "^5.3.0",
