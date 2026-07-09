@@ -14,6 +14,7 @@ import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync } from 
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { tmpdir } from 'os';
+import { parse } from 'csv-parse/sync';
 import type { LocalGovBudget } from './types/budget.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -162,8 +163,10 @@ function keyOfColumn(header: string): string | null {
 
 /** CSV 1ファイル分をFundingMapへ集計する */
 function accumulate(text: string, level: 'pref' | 'muni', acc: FundingMap): void {
-  const lines = text.split(/\r?\n/).filter(Boolean);
-  const headers = lines[0].split(',');
+  // 引用符で囲まれた埋め込みカンマを含む列を正しく扱うため csv-parse を使う
+  const rows: string[][] = parse(text, { skip_empty_lines: true, relax_column_count: true });
+  if (rows.length === 0) return;
+  const headers = rows[0];
   // 列index → 集計キー（款名または`款/項`）
   const kanCols: Array<{ index: number; kan: string }> = [];
   for (let j = 10; j < headers.length; j++) {
@@ -172,8 +175,8 @@ function accumulate(text: string, level: 'pref' | 'muni', acc: FundingMap): void
   }
   if (kanCols.length === 0) return;
 
-  for (let i = 1; i < lines.length; i++) {
-    const cols = lines[i].split(',');
+  for (let i = 1; i < rows.length; i++) {
+    const cols = rows[i];
     const rowName = cols[9];
     if (rowName !== '歳出合計' && rowName !== '一般財源等' && !NATURE_ROWS.has(rowName)) continue;
 

@@ -28,6 +28,10 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      - name: Lint
+        run: npm run lint
+      - name: Typecheck
+        run: npm run typecheck
       - name: Run tests
         run: npm run -w @local-gov/web test
       - name: Build (static export)

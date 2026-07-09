@@ -305,6 +305,13 @@ async function main() {
   writeFileSync(join(WEB_PUBLIC, 'search-index.json'), JSON.stringify(searchIndex));
   console.log(`検索インデックス: ${searchIndex.length}件`);
   console.log('完了');
+
+  console.warn(
+    '\n⚠️  警告: 市区町村データを一から再生成しました。\n' +
+      '   人口統計・目的別財源・就労・インフラ・安全の付与フィールドはすべてリセットされています。\n' +
+      '   さらに municipal-all.json / budget-averages.json も再生成が必要です。\n' +
+      '   `npm run -w @local-gov/crawler update:all` を実行してパイプライン全体を再適用してください。\n'
+  );
 }
 
 main().catch((err) => {

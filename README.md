@@ -45,14 +45,15 @@ npm run -w @local-gov/crawler typecheck
 
 ### データ更新
 
-生成済みJSONはリポジトリにコミットされているため、通常は再取得不要。更新する場合は以下の順で実行します。
+生成済みJSONはリポジトリにコミットされているため、通常は再取得不要。更新する場合は一括スクリプトを使います（全インポートを正しい順序で実行し、最後に欠落チェックが走ります）。
 
 ```bash
-npm run -w @local-gov/crawler import:dashboard      # 都道府県の財政CSV
-npm run -w @local-gov/crawler import:municipal      # 市区町村の財政CSV＋境界＋検索インデックス
-npm run -w @local-gov/crawler import:demographics   # 人口統計の付与＋全国市区町村用の結合データ再生成
-npm run -w @local-gov/crawler import:funding        # 目的別歳出の充当一般財源等（収支図用）の付与
+npm run -w @local-gov/crawler update:all
 ```
+
+> **注意**: `import:dashboard` / `import:municipal` を単体で再実行するとベースJSONが再生成され、人口統計・安全・インフラ等の付与済みデータが消えます。単体実行した場合は残りのインポートを順に再実行するか、`update:all` を使ってください。データの欠落は `npm run -w @local-gov/crawler verify:data` で検査できます。
+
+個別コマンドの一覧と実行順序は [CLAUDE.md](CLAUDE.md) を参照してください。
 
 ## 構成
 
@@ -63,3 +64,7 @@ apps/
 ```
 
 masterへのpushで GitHub Actions が GitHub Pages へ自動デプロイします（`.github/workflows/deploy.yml`）。
+
+## ライセンス
+
+コードは [MIT License](LICENSE) です。データの出典・利用条件は上記「データソース」の各提供元の規約に従ってください。

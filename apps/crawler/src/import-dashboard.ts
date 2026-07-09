@@ -208,6 +208,12 @@ async function main() {
     writeFileSync(out, json);
     console.log(`書き込み: ${out}`);
   }
+
+  console.warn(
+    '\n⚠️  警告: 都道府県データを一から再生成しました。\n' +
+      '   人口統計・目的別財源・就労・インフラ・安全・犯罪の付与フィールドはすべてリセットされています。\n' +
+      '   `npm run -w @local-gov/crawler update:all` を実行してパイプライン全体を再適用してください。\n'
+  );
 }
 
 main().catch((err) => {
