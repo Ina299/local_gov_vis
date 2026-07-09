@@ -738,10 +738,7 @@ export default function BudgetMap({
       </MapContainer>
       {legendItems.length > 0 && (
         <div className="legend">
-          <div className="legend-title">
-            {metricDisplayLabel(metricKey, scale)}
-            {!signedBreaks && `（${breaks.length + 1}分位）`}
-          </div>
+          <div className="legend-title">{metricDisplayLabel(metricKey, scale)}</div>
           {legendItems.map(({ color, label }) => (
             <div className="legend-item" key={color}>
               <div className="legend-color" style={{ background: color }} />

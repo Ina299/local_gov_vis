@@ -890,6 +890,11 @@ a.text-button {
     height: 13px;
   }
 
+  /* 相対比較の注記は必須情報ではないので、場所が貴重なモバイルでは省く */
+  .legend-note {
+    display: none;
+  }
+
   .modal-overlay {
     padding: 0.5rem;
   }
