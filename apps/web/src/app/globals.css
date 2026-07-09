@@ -828,8 +828,8 @@ a.text-button {
 
   .map-container {
     flex: none;
-    height: 52vh;
-    height: 52dvh;
+    height: 62vh;
+    height: 62dvh;
   }
 
   .sidebar {
