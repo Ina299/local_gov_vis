@@ -458,7 +458,15 @@ export function Sidebar({
   return (
     <aside className="sidebar" ref={sidebarRef}>
       <div className="budget-card">
-        <h3>{selectedRegion.name}</h3>
+        <h3>
+          {selectedRegion.name}
+          {/* 市区町村はどの県か分かるように県名を添える */}
+          {selectedRegion.code.length === 5 && (
+            <span style={{ marginLeft: 8, fontSize: '0.85rem', fontWeight: 400, color: '#898781' }}>
+              {selectedRegion.prefecture}
+            </span>
+          )}
+        </h3>
         <p>
           {selectedRegion.fiscalYear}年度 {BUDGET_TYPE_LABELS[selectedRegion.budgetType]}
         </p>
@@ -705,6 +713,14 @@ export function Sidebar({
               if (infra.seweragePopulation !== undefined && pop) {
                 rows.push({ label: '下水道普及率', value: fmt('sewerageRatio') ?? 'データなし' });
               }
+              if (infra.bridgesInspected) {
+                rows.push({
+                  label: '橋の要修繕',
+                  value: `${(infra.bridgesNeedRepair ?? 0).toLocaleString()}橋 / 点検済み${infra.bridgesInspected.toLocaleString()}橋${
+                    fmt('bridgeRepairRate') ? `（${fmt('bridgeRepairRate')}）` : ''
+                  }`,
+                });
+              }
               if (infra.waterPipeAgingRatio !== undefined) {
                 rows.push({
                   label: '水道管の老朽化',
@@ -851,7 +867,7 @@ export function Sidebar({
           <br />
           就労: 市町村税課税状況等の調（総務省・令和7年度）／令和2年国勢調査 就業状態等基本集計（総務省）
           <br />
-          インフラ: 公共施設状況調（総務省・各年度期首＝前年度末時点）／水道管・病院は内閣府「見える化DB」（地方公営企業決算・医療施設調査、各年度）
+          インフラ: 公共施設状況調（総務省・各年度期首＝前年度末時点）／水道管・病院は内閣府「見える化DB」（地方公営企業決算・医療施設調査、各年度）／橋梁は道路メンテナンス年報（国土交通省・2020〜2024年度点検）
           <br />
           安全: 交通事故統計情報オープンデータ／犯罪統計（警察庁・各年）
           <br />

@@ -12,6 +12,12 @@
  *    水道管の経年化率（地方公営企業決算。水道事業体→市区町村の対応付け済み）と
  *    病院数・病床数（医療施設調査）。**年度別**の値としてfiscalYearごとに付与する。
  *    都道府県は病院・病床が県内市区町村の合算、経年化率は単純平均（参考値）
+ * 3) 国交省「道路メンテナンス年報」橋梁点検結果（地方公共団体）
+ *    https://www.mlit.go.jp/road/sisaku/yobohozen/yobohozen_maint_index.html
+ *    橋1本1行の個票（管理者名・判定区分Ⅰ〜Ⅳ）。点検は5年周期のため
+ *    直近5年度分を結合して全橋をカバーし（同一橋は新しい点検を採用）、
+ *    管理者の団体ごとに点検橋数と要修繕（判定Ⅲ・Ⅳ）数を集計する。
+ *    静的値として全年度のレコードに付与。都道府県は自団体分＋県内市町村の合算
  *
  * import:dashboard / import:municipal の後に実行する（既存JSONを上書き更新する）。
  * 実行: npm run -w @local-gov/crawler import:infrastructure
@@ -43,6 +49,14 @@ const MIERUKA_ITEMS: Array<{
 ];
 /** 見える化DBから付与する年度（予算データの年度に合わせる） */
 const MIERUKA_YEARS = [2020, 2021, 2022, 2023, 2024];
+
+/**
+ * 道路メンテナンス年報の橋梁点検結果（地方公共団体）。
+ * 点検5年周期＝この5年度分でちょうど全橋1巡分（年次更新時は古い年度を落として進める）
+ */
+const BRIDGE_YEARS = ['r02', 'r03', 'r04', 'r05', 'r06'];
+const bridgeUrl = (year: string) =>
+  `https://www.mlit.go.jp/road/sisaku/yobohozen/xls/${year}/01-3.xlsx`;
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(__dirname, '..', '..', '..');
@@ -225,11 +239,72 @@ function buildYearly(
   return byYear;
 }
 
-/** 予算JSONファイルに年度別infrastructureを付与して書き戻す */
+/**
+ * 橋梁点検結果を5年度分結合し、管理者の団体コード → 点検橋数・要修繕数 を返す。
+ * 同一橋（管理者×都道府県×橋梁名×路線名）は新しい年度の点検を採用する。
+ * 管理者名→コードの解決に、市区町村は(都道府県名,団体名)、都道府県は団体名を使う
+ */
+async function fetchBridges(
+  muniDir: string,
+  prefNames: Map<string, string>
+): Promise<Map<string, { bridgesInspected: number; bridgesNeedRepair: number }>> {
+  // (都道府県名|団体名) → 5桁コード
+  const muniByName = new Map<string, string>();
+  for (const file of readdirSync(muniDir).filter((f) => /^\d{2}\.json$/.test(f))) {
+    const budgets: LocalGovBudget[] = JSON.parse(readFileSync(join(muniDir, file), 'utf-8'));
+    for (const b of budgets) muniByName.set(`${b.prefecture}|${b.name}`, b.code);
+  }
+
+  // 橋キー → { code, grade }（新しい年度で上書き）
+  const bridges = new Map<string, { code: string; grade: string }>();
+  let unmatched = 0;
+  for (const year of BRIDGE_YEARS) {
+    const buf = await fetchBuffer(bridgeUrl(year));
+    const wb = XLSX.read(buf);
+    const rows: unknown[][] = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]], { header: 1 });
+    for (const row of rows.slice(3)) {
+      const manager = String(row[6] ?? '').trim();
+      const pref = String(row[7] ?? '').trim();
+      const grade = String(row[9] ?? '').trim();
+      if (!manager || !['Ⅰ', 'Ⅱ', 'Ⅲ', 'Ⅳ'].includes(grade)) continue;
+      const code = prefNames.get(manager) ?? muniByName.get(`${pref}|${manager}`);
+      if (!code) {
+        unmatched++;
+        continue;
+      }
+      const key = `${code}|${row[0]}|${row[2]}`;
+      bridges.set(key, { code, grade });
+    }
+    await sleep(1000);
+  }
+  if (unmatched > 0) console.warn(`橋梁: 管理者名を解決できない行 ${unmatched}件（組合等）`);
+
+  const result = new Map<string, { bridgesInspected: number; bridgesNeedRepair: number }>();
+  for (const { code, grade } of bridges.values()) {
+    const s = result.get(code) ?? { bridgesInspected: 0, bridgesNeedRepair: 0 };
+    s.bridgesInspected += 1;
+    if (grade === 'Ⅲ' || grade === 'Ⅳ') s.bridgesNeedRepair += 1;
+    result.set(code, s);
+  }
+  // 都道府県 = 自団体分 + 県内市区町村の合算
+  for (const [code, s] of Array.from(result.entries())) {
+    if (code.length !== 5) continue;
+    const pref = code.slice(0, 2);
+    const p = result.get(pref) ?? { bridgesInspected: 0, bridgesNeedRepair: 0 };
+    p.bridgesInspected += s.bridgesInspected;
+    p.bridgesNeedRepair += s.bridgesNeedRepair;
+    result.set(pref, p);
+  }
+  console.log(`橋梁点検: ${bridges.size.toLocaleString()}橋 / ${result.size}団体`);
+  return result;
+}
+
+/** 予算JSONファイルに年度別infrastructure（橋梁は静的値）を付与して書き戻す */
 function patchFile(
   path: string,
   soumuByYear: Map<string, Map<string, Infrastructure>>,
-  mierukaByYear: Map<number, Map<string, Partial<Infrastructure>>>
+  mierukaByYear: Map<number, Map<string, Partial<Infrastructure>>>,
+  bridges: Map<string, { bridgesInspected: number; bridgesNeedRepair: number }>
 ): number {
   if (!existsSync(path)) {
     console.warn(`スキップ（未生成）: ${path}`);
@@ -241,8 +316,9 @@ function patchFile(
     // 公共施設状況調は年度末時点のストックなので、前年度の調査＝年度期首の値を対応させる
     const d = soumuByYear.get(String(b.fiscalYear - 1))?.get(b.code);
     const y = mierukaByYear.get(b.fiscalYear)?.get(b.code);
-    if (d || y) {
-      b.infrastructure = { ...d, ...y };
+    const br = bridges.get(b.code);
+    if (d || y || br) {
+      b.infrastructure = { ...d, ...y, ...br };
       patched++;
     } else {
       delete b.infrastructure;
@@ -279,16 +355,24 @@ async function main() {
     console.log(`見える化DB ${year}年: ${mierukaByYear.get(year)!.size}団体`);
   }
 
+  const muniDir = join(WEB_PUBLIC, 'budgets', 'municipal');
+  // 都道府県名 → 2桁コード（橋梁の管理者名解決に使う）
+  const prefBudgets: LocalGovBudget[] = JSON.parse(
+    readFileSync(join(WEB_PUBLIC, 'budgets.json'), 'utf-8')
+  );
+  const prefNames = new Map<string, string>();
+  for (const b of prefBudgets) if (b.code.length === 2) prefNames.set(b.name, b.code);
+  const bridges = await fetchBridges(muniDir, prefNames);
+
   for (const path of [
     join(WEB_PUBLIC, 'budgets.json'),
     join(REPO_ROOT, 'data', 'budgets', 'prefectures.json'),
   ]) {
-    console.log(`${path}: ${patchFile(path, soumuByYear, mierukaByYear)}件付与`);
+    console.log(`${path}: ${patchFile(path, soumuByYear, mierukaByYear, bridges)}件付与`);
   }
-  const muniDir = join(WEB_PUBLIC, 'budgets', 'municipal');
   let muniPatched = 0;
   for (const file of readdirSync(muniDir).filter((f) => /^\d{2}\.json$/.test(f))) {
-    muniPatched += patchFile(join(muniDir, file), soumuByYear, mierukaByYear);
+    muniPatched += patchFile(join(muniDir, file), soumuByYear, mierukaByYear, bridges);
   }
   console.log(`市区町村: ${muniPatched}件付与`);
   console.log('完了（build:municipal-all の再実行が必要です）');

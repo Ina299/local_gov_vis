@@ -19,7 +19,7 @@ npm run -w @local-gov/crawler build:municipal-all     # 全国市区町村ビュ
 npm run -w @local-gov/crawler import:demographics     # 人口統計（住基・面積調、2020〜2024年度の年度別）を既存JSONに付与＋municipal-all再生成
 npm run -w @local-gov/crawler import:funding          # 目的別歳出の充当一般財源等・性質別内訳（地方財政状況調査）を付与（収支図用）
 npm run -w @local-gov/crawler import:employment       # 就労・所得（課税状況調・国勢調査）を付与（実行後にbuild:municipal-all再実行）
-npm run -w @local-gov/crawler import:infrastructure   # インフラ（公共施設状況調: 道路・公園・公営住宅・下水道＋見える化DB: 水道管経年化率・病院）を付与＋municipal-all再生成
+npm run -w @local-gov/crawler import:infrastructure   # インフラ（公共施設状況調: 道路・公園・公営住宅・下水道＋見える化DB: 水道管・病院＋メンテ年報: 橋梁点検）を付与＋municipal-all再生成
 npm run -w @local-gov/crawler import:safety           # 安全（警察庁 交通事故オープンデータの市区町村別集計・年度別）を付与＋municipal-all再生成
 npm run -w @local-gov/crawler import:crime            # 犯罪統計（刑法犯・殺人・強盗・侵入盗・不同意性交等。都道府県のみ・年度別）を付与
 npm run -w @local-gov/crawler build:topo              # 境界GeoJSON（data/geo）→TopoJSONに変換してapps/web/publicへ配置（geo更新時のみ）

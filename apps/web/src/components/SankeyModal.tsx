@@ -151,6 +151,7 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
       <div className="modal modal-wide" onClick={(e) => e.stopPropagation()}>
         <div className="modal-head">
           <h3>
+            {budget.code.length === 5 ? `${budget.prefecture} ` : ''}
             {budget.name} 収支図（{budget.fiscalYear}年度 決算）
           </h3>
           <div className="modal-head-actions">

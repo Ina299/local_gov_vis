@@ -155,9 +155,10 @@ describe('カテゴリ定義', () => {
     }
   });
 
-  it('インフラカテゴリのトグル順', () => {
+  it('インフラカテゴリのトグル順（橋の要修繕率は道路の長さの右隣）', () => {
     expect(categoryKeys('infra')).toEqual([
       'roadPerCapita',
+      'bridgeRepairRate',
       'waterPipeAging',
       'sewerageRatio',
       'parkPerCapita',
@@ -165,6 +166,16 @@ describe('カテゴリ定義', () => {
       'hospitals',
       'hospitalBeds',
     ]);
+  });
+
+  it('橋の要修繕率は点検0件でデータなし', () => {
+    const withBridges = {
+      ...budget,
+      infrastructure: { bridgesInspected: 200, bridgesNeedRepair: 18 },
+    };
+    expect(metricValue(withBridges, 'bridgeRepairRate', 'total')).toBeCloseTo(0.09);
+    const noBridges = { ...budget, infrastructure: { bridgesInspected: 0 } };
+    expect(metricValue(noBridges, 'bridgeRepairRate', 'total')).toBeNull();
   });
 
   it('見える化DB由来のインフラ指標は年度別（yearIndependentなし）', () => {

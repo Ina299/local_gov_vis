@@ -35,6 +35,7 @@ export type MapMetricKey =
   | 'industryIT'
   | 'industryPublic'
   | 'roadPerCapita'
+  | 'bridgeRepairRate'
   | 'waterPipeAging'
   | 'sewerageRatio'
   | 'parkPerCapita'
@@ -362,6 +363,15 @@ export const METRICS: MetricDef[] = [
       '住民1人あたりの道路の長さ（公共施設状況調・年度期首時点。市区町村は市町村道、都道府県は県道＋県内市町村道）。長いほど少ない人数で多くの道路を維持している',
   },
   {
+    key: 'bridgeRepairRate',
+    label: '橋の要修繕率',
+    kind: 'ratio',
+    category: 'infra',
+    description:
+      '点検で「早めに修繕が必要（判定Ⅲ）」「緊急（Ⅳ）」とされた橋の割合（国交省 道路メンテナンス年報・2020〜2024年度点検の合算。その団体が管理する橋が対象）',
+    yearIndependent: true,
+  },
+  {
     key: 'waterPipeAging',
     label: '水道管の老朽化',
     kind: 'ratio',
@@ -545,6 +555,7 @@ export function metricValue(
   }
   if (
     key === 'roadPerCapita' ||
+    key === 'bridgeRepairRate' ||
     key === 'waterPipeAging' ||
     key === 'sewerageRatio' ||
     key === 'parkPerCapita' ||
@@ -556,6 +567,12 @@ export function metricValue(
     if (!infra || !budget.population) return null;
     if (key === 'roadPerCapita') {
       return infra.roadLengthM !== undefined ? infra.roadLengthM / budget.population : null;
+    }
+    if (key === 'bridgeRepairRate') {
+      // 管理する橋がない（点検0件の）団体はデータなし
+      return infra.bridgesInspected
+        ? (infra.bridgesNeedRepair ?? 0) / infra.bridgesInspected
+        : null;
     }
     if (key === 'waterPipeAging') {
       return infra.waterPipeAgingRatio ?? null;

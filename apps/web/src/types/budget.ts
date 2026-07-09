@@ -118,6 +118,10 @@ export interface Infrastructure {
   hospitals?: number;
   /** 病院の病床数（医療施設調査。年度別。都道府県は県内合算） */
   hospitalBeds?: number;
+  /** 点検済みの橋の数（道路メンテナンス年報・直近5年度の合算。管理者ベースの静的値） */
+  bridgesInspected?: number;
+  /** 要修繕（判定Ⅲ・Ⅳ）の橋の数 */
+  bridgesNeedRepair?: number;
 }
 
 /**
