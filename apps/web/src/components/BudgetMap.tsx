@@ -749,12 +749,6 @@ export default function BudgetMap({
             <div className="legend-color" style={{ background: NO_DATA_COLOR }} />
             <span>データなし</span>
           </div>
-          {/* 分位の境界は表示中データから毎回計算するため、色は年度をまたいだ絶対比較にならない */}
-          <div className="legend-note">
-            色は表示中の年度・範囲内での相対比較。
-            <br />
-            年度間の変化は自治体を選んで推移グラフで
-          </div>
         </div>
       )}
     </div>

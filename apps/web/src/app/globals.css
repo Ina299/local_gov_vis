@@ -738,13 +738,6 @@ a.text-button {
   border-radius: 4px;
 }
 
-.legend-note {
-  margin-top: 0.5rem;
-  font-size: 0.7rem;
-  line-height: 1.5;
-  color: #6c757d;
-}
-
 /* Leafletのデフォルトクリックエフェクトを無効化 */
 .leaflet-interactive {
   outline: none !important;
@@ -888,11 +881,6 @@ a.text-button {
   .legend-color {
     width: 13px;
     height: 13px;
-  }
-
-  /* 相対比較の注記は必須情報ではないので、場所が貴重なモバイルでは省く */
-  .legend-note {
-    display: none;
   }
 
   .modal-overlay {
