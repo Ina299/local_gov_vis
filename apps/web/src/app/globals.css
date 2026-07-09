@@ -828,8 +828,9 @@ a.text-button {
 
   .map-container {
     flex: none;
-    height: 62vh;
-    height: 62dvh;
+    /* 地図の広さと「サイドバーの下にまだコンテンツがある」ことの気付きやすさのバランス */
+    height: 57vh;
+    height: 57dvh;
   }
 
   .sidebar {
