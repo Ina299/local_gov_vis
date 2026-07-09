@@ -706,6 +706,9 @@ export default function BudgetMap({
         style={{ height: '100%', width: '100%' }}
         scrollWheelZoom={true}
         zoomControl={false}
+        // 全国市区町村ビューは1,741ポリゴンでSVGだとDOMが数千ノードになるため
+        // Canvasレンダラーで描画する（ホバー・選択はsetStyleベースなので挙動互換）
+        preferCanvas={true}
       >
         <ZoomControl position="bottomleft" />
         <TileLayer
