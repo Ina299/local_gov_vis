@@ -770,6 +770,361 @@ a.text-button {
   margin-top: 0.35rem;
 }
 
+/* モバイル専用の収支図。PCでは従来の全体サンキーを表示する */
+.mobile-flow {
+  display: none;
+}
+
+.desktop-sankey {
+  display: block;
+}
+
+.flow-stage {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 0.8rem;
+}
+
+.flow-stage-head {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.65rem;
+}
+
+.flow-stage-head > div {
+  flex: 1;
+  min-width: 0;
+}
+
+.flow-stage-head h4,
+.flow-focus h4 {
+  color: #172033;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.flow-stage-head p {
+  color: #64748b;
+  font-size: 0.7rem;
+  margin: 0.1rem 0 0;
+}
+
+.flow-stage-head > strong {
+  color: #172033;
+  font-size: 0.82rem;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.flow-stage-index {
+  color: #2a78d6;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.revenue-spectrum {
+  display: flex;
+  height: 52px;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #e2e8f0;
+}
+
+.revenue-spectrum-segment {
+  min-width: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid rgba(255, 255, 255, 0.7);
+  overflow: hidden;
+}
+
+.revenue-spectrum-segment.general {
+  background: #2a78d6;
+  color: white;
+}
+
+.revenue-spectrum-segment.specific {
+  background: #9bc5f3;
+  color: #172033;
+}
+
+.revenue-spectrum-segment span {
+  padding: 0 0.3rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.flow-stage-caption,
+.mosaic-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.7rem;
+  margin-top: 0.45rem;
+  color: #64748b;
+  font-size: 0.68rem;
+}
+
+.flow-stage-caption span,
+.mosaic-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.flow-stage-caption i,
+.mosaic-legend i {
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+}
+
+.flow-stage-caption i.general,
+.mosaic-legend i.general {
+  background: #2a78d6;
+}
+
+.flow-stage-caption i.specific,
+.mosaic-legend i.specific {
+  background: #9bc5f3;
+}
+
+.flow-axis {
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  color: #2a78d6;
+  position: relative;
+}
+
+.flow-axis::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: #93bce9;
+}
+
+.flow-axis span {
+  position: relative;
+  margin-top: 8px;
+  background: white;
+  height: 16px;
+  line-height: 14px;
+  font-size: 0.85rem;
+}
+
+.funding-bridge,
+.focus-funding {
+  display: flex;
+  min-height: 58px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.funding-bridge > div,
+.focus-funding > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 72px;
+  padding: 0.45rem;
+}
+
+.funding-bridge-general,
+.focus-funding > div:first-child {
+  background: #2a78d6;
+  color: white;
+}
+
+.funding-bridge-specific,
+.focus-funding > div:last-child {
+  flex: 1;
+  background: #9bc5f3;
+  color: #172033;
+}
+
+.funding-bridge strong {
+  font-size: 0.78rem;
+}
+
+.funding-bridge span {
+  font-size: 0.7rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.flow-explainer {
+  margin: 0.5rem 0 0;
+  color: #64748b;
+  font-size: 0.68rem;
+  line-height: 1.5;
+}
+
+.expenditure-mosaic,
+.detail-mosaic {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 9px;
+  background: #dbeafe;
+}
+
+.mosaic-tile {
+  position: absolute;
+  overflow: hidden;
+  border: 1.5px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.mosaic-tile.selected {
+  z-index: 2;
+  outline: 3px solid #f6c344;
+  outline-offset: -4px;
+}
+
+.mosaic-funding-general,
+.mosaic-funding-specific {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.mosaic-funding-general {
+  top: 0;
+  z-index: 1;
+  background: #2a78d6;
+}
+
+.mosaic-funding-specific {
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+  background: #9bc5f3;
+}
+
+.mosaic-label {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.55);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.mosaic-label strong {
+  font-size: 0.72rem;
+  line-height: 1.2;
+}
+
+.mosaic-label small {
+  margin-top: 0.15rem;
+  font-size: 0.64rem;
+}
+
+.flow-focus {
+  margin-top: 0.85rem;
+  padding: 0.9rem;
+  border: 1px solid #b8d2ef;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #f8fbff, #eef5fd);
+}
+
+.flow-focus-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.65rem;
+}
+
+.flow-focus-head > div:first-child > span {
+  color: #2a78d6;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.flow-focus-value {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #64748b;
+  font-size: 0.68rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.flow-focus-value strong {
+  color: #172033;
+  font-size: 0.88rem;
+}
+
+.focus-funding {
+  min-height: 42px;
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
+.flow-focus-description,
+.flow-focus-natures {
+  margin: 0.65rem 0 0;
+  color: #475569;
+  font-size: 0.72rem;
+  line-height: 1.55;
+}
+
+.flow-focus h5 {
+  margin: 0.8rem 0 0.4rem;
+  color: #172033;
+  font-size: 0.76rem;
+}
+
+.detail-mosaic {
+  height: 150px;
+  background: #fee2d5;
+}
+
+.detail-mosaic-tile {
+  position: absolute;
+  border: 1.5px solid white;
+  color: white;
+  overflow: hidden;
+}
+
+.detail-mosaic-tile > span {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.detail-mosaic-tile strong {
+  font-size: 0.66rem;
+  line-height: 1.2;
+}
+
+.detail-mosaic-tile small {
+  font-size: 0.6rem;
+}
+
 /* --- モバイル（縦積みレイアウト・横スクロールするトグル群） --- */
 @media (max-width: 768px) {
   .container {
@@ -892,6 +1247,23 @@ a.text-button {
     padding: 0.9rem 0.75rem 1rem;
   }
 
+  .modal.modal-wide {
+    width: 100%;
+    height: calc(100dvh - 1rem);
+    max-height: calc(100dvh - 1rem);
+  }
+
+  .modal-wide > .modal-head {
+    position: sticky;
+    top: -0.9rem;
+    z-index: 20;
+    margin: -0.9rem -0.75rem 0.4rem;
+    padding: 0.8rem 0.75rem 0.6rem;
+    background: rgba(255, 255, 255, 0.96);
+    border-bottom: 1px solid #e2e8f0;
+    backdrop-filter: blur(8px);
+  }
+
   .modal-head h3 {
     font-size: 0.95rem;
   }
@@ -903,6 +1275,15 @@ a.text-button {
 
   .sankey-notes-collapsed {
     display: block;
+  }
+
+  .mobile-flow {
+    display: block;
+    margin-top: 0.7rem;
+  }
+
+  .desktop-sankey {
+    display: none;
   }
 }
 

@@ -5,6 +5,7 @@ import type { LocalGovBudget } from '@/types/budget';
 import { formatAmount } from '@/lib/format';
 import { GLOSSARY } from '@/lib/glossary';
 import { loadAverages, type BudgetAverages } from '@/lib/averages';
+import { MobileFlowMosaic } from '@/components/MobileFlowMosaic';
 import {
   WIDTH,
   MARGIN_Y,
@@ -214,8 +215,8 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
             </>
           );
         })()}
-        {/* スマホではSVGを縮めず横スクロールで見せる（min-widthで文字サイズを確保） */}
-        <div style={{ overflowX: 'auto' }}>
+        <MobileFlowMosaic budget={budget} />
+        <div className="desktop-sankey" style={{ overflowX: 'auto' }}>
         <svg
           viewBox={`0 0 ${WIDTH} ${height}`}
           style={{ width: '100%', minWidth: 860, height: 'auto', display: 'block' }}
