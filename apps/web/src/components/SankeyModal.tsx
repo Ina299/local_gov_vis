@@ -193,7 +193,7 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
             : ''}
           。項目に触れる（タップする）と、そのお金が何に使われるかの解説を表示。
         </p>
-        {/* 詳しい注記。モバイルでは場所を取るので折りたたむ（CSSで切替） */}
+        {/* 詳しい注記。場所を取るので折りたたんで表示 */}
         {(() => {
           const notes = (
             <>
@@ -206,13 +206,10 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
             </>
           );
           return (
-            <>
-              <p className="attribution sankey-notes-full">{notes}</p>
-              <details className="attribution sankey-notes-collapsed">
-                <summary>この図の見方・注記</summary>
-                <p>{notes}</p>
-              </details>
-            </>
+            <details className="attribution sankey-notes-collapsed">
+              <summary>この図の見方・注記</summary>
+              <p>{notes}</p>
+            </details>
           );
         })()}
         <MobileFlowMosaic budget={budget} />

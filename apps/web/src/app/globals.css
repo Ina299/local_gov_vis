@@ -765,9 +765,8 @@ a.text-button {
   outline: none !important;
 }
 
-/* 収支図の注記（デスクトップは全文、モバイルは折りたたみ。後述のメディアクエリで切替） */
+/* 収支図の注記（折りたたみ表示。開くと図が下にずれないよう余白は控えめ） */
 .sankey-notes-collapsed {
-  display: none;
   margin-bottom: 0.5rem;
 }
 
@@ -1287,15 +1286,6 @@ a.text-button {
 
   .modal-head h3 {
     font-size: 0.95rem;
-  }
-
-  /* 収支図の詳しい注記はモバイルでは折りたたむ */
-  .sankey-notes-full {
-    display: none;
-  }
-
-  .sankey-notes-collapsed {
-    display: block;
   }
 
   .mobile-flow {
