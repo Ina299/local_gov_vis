@@ -738,6 +738,16 @@ a.text-button {
   border-radius: 4px;
 }
 
+/* 地図コンテナのフォーカス枠はキーボード操作時のみ表示（マウスクリックでは非表示） */
+.leaflet-container:focus {
+  outline: none;
+}
+
+.leaflet-container:focus-visible {
+  outline: 2px solid #4a90d9;
+  outline-offset: -2px;
+}
+
 /* Leafletのデフォルトクリックエフェクトを無効化 */
 .leaflet-interactive {
   outline: none !important;
@@ -933,8 +943,11 @@ a.text-button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-width: 72px;
+  /* 割合の小さい財源も実比率の幅に収め、モバイルで図全体を押し広げない */
+  min-width: 0;
   padding: 0.45rem;
+  overflow: hidden;
+  text-align: center;
 }
 
 .funding-bridge-general,
@@ -1249,8 +1262,11 @@ a.text-button {
 
   .modal.modal-wide {
     width: 100%;
+    min-width: 0;
+    max-width: calc(100vw - 1rem);
     height: calc(100dvh - 1rem);
     max-height: calc(100dvh - 1rem);
+    overflow-x: hidden;
   }
 
   .modal-wide > .modal-head {
@@ -1262,6 +1278,11 @@ a.text-button {
     background: rgba(255, 255, 255, 0.96);
     border-bottom: 1px solid #e2e8f0;
     backdrop-filter: blur(8px);
+  }
+
+  .modal-wide > .modal-head h3 {
+    flex: 1;
+    min-width: 0;
   }
 
   .modal-head h3 {
