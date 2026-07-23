@@ -67,6 +67,7 @@ function verifyPrefectures(): void {
 
   const checks: Array<[string, (b: LocalGovBudget) => boolean]> = [
     ['人口統計 (demographics)', (b) => b.demographics?.elderlyRatio != null],
+    ['地域人口再生産率 (RRR)', (b) => b.demographics?.regionalReproductionRate != null],
     ['就労 (employment.avgIncome)', (b) => b.employment?.avgIncome != null],
     ['財源 (generalFunds)', hasGeneralFunds],
     ['交通事故 (safety.accidents)', (b) => b.safety?.accidents != null],
@@ -93,6 +94,7 @@ function verifyMunicipalFiles(): void {
 
   let total = 0;
   let demo = 0;
+  let rrr = 0;
   let emp = 0;
   let infra = 0;
   let safety = 0;
@@ -109,6 +111,7 @@ function verifyMunicipalFiles(): void {
     for (const b of latestYearRecords(budgets)) {
       total++;
       if (b.demographics != null) demo++;
+      if (b.demographics?.regionalReproductionRate != null) rrr++;
       if (b.employment != null) emp++;
       if (b.infrastructure != null) infra++;
       if (b.safety != null) safety++;
@@ -125,6 +128,7 @@ function verifyMunicipalFiles(): void {
 
   const ratioChecks: Array<[string, number]> = [
     ['人口統計 (demographics)', demo],
+    ['地域人口再生産率 (RRR)', rrr],
     ['就労 (employment)', emp],
     ['インフラ (infrastructure)', infra],
     ['交通事故 (safety)', safety],

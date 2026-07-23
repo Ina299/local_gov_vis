@@ -14,11 +14,18 @@ const CATEGORY_LABELS: Record<MetricCategory, string> = {
 
 interface MetricMenuProps {
   metricKey: MapMetricKey;
+  comparisonActive?: boolean;
   onSelectCategory: (category: MetricCategory) => void;
+  onSelectComparison: () => void;
 }
 
 /** ハンバーガーメニューで地図の表示カテゴリ（歳入・歳出／人口／財政指標）を選択する */
-export function MetricMenu({ metricKey, onSelectCategory }: MetricMenuProps) {
+export function MetricMenu({
+  metricKey,
+  comparisonActive = false,
+  onSelectCategory,
+  onSelectComparison,
+}: MetricMenuProps) {
   const [open, setOpen] = useState(false);
   const rootRef = useRef<HTMLDivElement>(null);
 
@@ -39,6 +46,11 @@ export function MetricMenu({ metricKey, onSelectCategory }: MetricMenuProps) {
     setOpen(false);
   };
 
+  const selectComparison = () => {
+    onSelectComparison();
+    setOpen(false);
+  };
+
   return (
     <div className="metric-menu" ref={rootRef}>
       <button
@@ -48,22 +60,36 @@ export function MetricMenu({ metricKey, onSelectCategory }: MetricMenuProps) {
         aria-haspopup="menu"
       >
         <span className="metric-menu-icon">☰</span>
-        {CATEGORY_LABELS[current]}
+        {comparisonActive ? '指標比較' : CATEGORY_LABELS[current]}
       </button>
       {open && (
         <div className="metric-menu-panel" role="menu">
           {(Object.keys(CATEGORY_LABELS) as MetricCategory[]).map((category) => (
             <button
               key={category}
-              className={`metric-menu-item ${current === category ? 'active' : ''}`}
+              className={`metric-menu-item ${
+                !comparisonActive && current === category ? 'active' : ''
+              }`}
               role="menuitemradio"
-              aria-checked={current === category}
+              aria-checked={!comparisonActive && current === category}
               onClick={() => select(category)}
             >
-              <span className="metric-menu-check">{current === category ? '✓' : ''}</span>
+              <span className="metric-menu-check">
+                {!comparisonActive && current === category ? '✓' : ''}
+              </span>
               <span>{CATEGORY_LABELS[category]}</span>
             </button>
           ))}
+          <div className="metric-menu-divider" />
+          <button
+            className={`metric-menu-item ${comparisonActive ? 'active' : ''}`}
+            role="menuitemradio"
+            aria-checked={comparisonActive}
+            onClick={selectComparison}
+          >
+            <span className="metric-menu-check">{comparisonActive ? '✓' : ''}</span>
+            <span>指標比較</span>
+          </button>
         </div>
       )}
     </div>

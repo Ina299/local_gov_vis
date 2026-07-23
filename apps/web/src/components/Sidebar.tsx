@@ -19,6 +19,7 @@ import { donutSegmentPath, EXPENDITURE_COLORS, REVENUE_COLORS } from '@/lib/donu
 import { BudgetDonut } from './BudgetDonut';
 import { TimeSeriesChart } from './TimeSeriesChart';
 import { SankeyModal } from './SankeyModal';
+import { BudgetComparisonModal } from './BudgetComparisonModal';
 
 /** 産業別就業者の構成比ドーナツグラフ＋凡例（全業種リストを上位5＋その他に畳んで表示） */
 function IndustryDonut({ industries: all }: { industries: Array<{ name: string; share: number }> }) {
@@ -158,6 +159,8 @@ interface SidebarProps {
   yearlyBudgets: LocalGovBudget[];
   /** 選択年度・現在の表示階層の全団体（未選択時の全国サマリーに使用） */
   regionBudgets: LocalGovBudget[];
+  /** 選択団体と同年度・同階層で、予算内訳を比較できる団体 */
+  comparisonBudgets: LocalGovBudget[];
   /** 中央値・合計ラベルの母集団（全国か県内か） */
   regionScope: RegionScope;
   metricKey: MapMetricKey;
@@ -284,12 +287,14 @@ export function Sidebar({
   selectedRegion,
   yearlyBudgets,
   regionBudgets,
+  comparisonBudgets,
   regionScope,
   metricKey,
   scale,
   flowOpen,
   onFlowOpenChange,
 }: SidebarProps) {
+  const [budgetComparisonOpen, setBudgetComparisonOpen] = useState(false);
   const sidebarRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
@@ -527,31 +532,59 @@ export function Sidebar({
             <span className="region-year">{selectedRegion.fiscalYear}年度</span>
           )}
         </h3>
-        {/* このアプリの主役: お金の流れ（収支図）への主要導線 */}
+        {/* 予算の流れと自治体間比較への主要導線 */}
         {selectedRegion.expenditures.length > 0 && (
-          <button className="flow-cta" onClick={() => onFlowOpenChange(true)}>
-            <svg
-              className="flow-cta-icon"
-              width="22"
-              height="22"
-              viewBox="0 0 20 20"
-              fill="none"
-              stroke="currentColor"
-              strokeLinecap="round"
-              aria-hidden="true"
+          <div className="budget-action-row">
+            <button className="flow-cta" onClick={() => onFlowOpenChange(true)}>
+              <svg
+                className="flow-cta-icon"
+                width="22"
+                height="22"
+                viewBox="0 0 20 20"
+                fill="none"
+                stroke="currentColor"
+                strokeLinecap="round"
+                aria-hidden="true"
+              >
+                <path d="M3 9 C 10 9, 10 4, 17 4" strokeWidth="2" opacity="0.55" />
+                <path d="M3 10.5 C 10 10.5, 10 10.5, 17 10.5" strokeWidth="3" />
+                <path d="M3 12 C 10 12, 10 16, 17 16" strokeWidth="2" opacity="0.55" />
+              </svg>
+              <span className="flow-cta-text">
+                <span className="flow-cta-title">収支図</span>
+                <span className="flow-cta-sub">お金の流れ</span>
+              </span>
+              <span className="flow-cta-chevron" aria-hidden="true">
+                ›
+              </span>
+            </button>
+            <button
+              className="flow-cta budget-compare-cta"
+              onClick={() => setBudgetComparisonOpen(true)}
             >
-              <path d="M3 9 C 10 9, 10 4, 17 4" strokeWidth="2" opacity="0.55" />
-              <path d="M3 10.5 C 10 10.5, 10 10.5, 17 10.5" strokeWidth="3" />
-              <path d="M3 12 C 10 12, 10 16, 17 16" strokeWidth="2" opacity="0.55" />
-            </svg>
-            <span className="flow-cta-text">
-              <span className="flow-cta-title">お金の流れを見る（収支図）</span>
-              <span className="flow-cta-sub">どこから来て、何に使われたか</span>
-            </span>
-            <span className="flow-cta-chevron" aria-hidden="true">
-              ›
-            </span>
-          </button>
+              <svg
+                className="flow-cta-icon"
+                width="22"
+                height="22"
+                viewBox="0 0 20 20"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                aria-hidden="true"
+              >
+                <path d="M3 5h7M3 9h11M3 13h5" />
+                <path d="M17 5h-4M17 9h-1M17 13h-6" opacity="0.55" />
+              </svg>
+              <span className="flow-cta-text">
+                <span className="flow-cta-title">予算比較</span>
+                <span className="flow-cta-sub">自治体どうし</span>
+              </span>
+              <span className="flow-cta-chevron" aria-hidden="true">
+                ›
+              </span>
+            </button>
+          </div>
         )}
       </div>
 
@@ -666,9 +699,14 @@ export function Sidebar({
             <div className="card-head">
               <h3>収支サマリー</h3>
               {/* 上部CTAと重複するが、円グラフを見ながら開ける近い位置の導線として残す */}
-              <button className="text-button" onClick={() => onFlowOpenChange(true)}>
-                収支図
-              </button>
+              <div className="card-head-actions">
+                <button className="text-button" onClick={() => onFlowOpenChange(true)}>
+                  収支図
+                </button>
+                <button className="text-button" onClick={() => setBudgetComparisonOpen(true)}>
+                  予算比較
+                </button>
+              </div>
             </div>
             <p>歳出総額: {formatAmount(selectedRegion.totalExpenditure)}</p>
             <p>歳入総額: {formatAmount(selectedRegion.totalRevenue)}</p>
@@ -966,6 +1004,14 @@ export function Sidebar({
 
       {flowOpen && selectedRegion.expenditures.length > 0 && (
         <SankeyModal budget={selectedRegion} onClose={() => onFlowOpenChange(false)} />
+      )}
+      {budgetComparisonOpen && selectedRegion.expenditures.length > 0 && (
+        <BudgetComparisonModal
+          key={`${selectedRegion.code}-${selectedRegion.fiscalYear}`}
+          budget={selectedRegion}
+          candidates={comparisonBudgets}
+          onClose={() => setBudgetComparisonOpen(false)}
+        />
       )}
     </aside>
   );

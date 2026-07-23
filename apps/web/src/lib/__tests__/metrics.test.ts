@@ -19,6 +19,7 @@ const budget: LocalGovBudget = {
     elderlyRatio: 0.2248,
     foreignRatio: 0.0515,
     births: 89_000,
+    regionalReproductionRate: 0.81,
     populationChange: 91_000,
     foreignBirthRatio: 0.0473,
   },
@@ -58,6 +59,7 @@ describe('metricValue', () => {
   it('demographics由来の指標', () => {
     expect(metricValue(budget, 'elderlyRatio', 'total')).toBe(0.2248);
     expect(metricValue(budget, 'births', 'total')).toBe(89_000);
+    expect(metricValue(budget, 'regionalReproductionRate', 'total')).toBe(0.81);
     expect(metricValue(budget, 'populationChange', 'total')).toBe(91_000);
     expect(metricValue(budget, 'foreignBirthRatio', 'total')).toBe(0.0473);
   });
@@ -131,6 +133,7 @@ describe('カテゴリ定義', () => {
       'populationDensity',
       'elderlyRatio',
       'births',
+      'regionalReproductionRate',
       'foreignRatio',
       'foreignBirthRatio',
       'populationChange',
@@ -219,9 +222,21 @@ describe('カテゴリ定義', () => {
   });
 
   it('人口統計指標は年度別に取得するためyearIndependentなし', () => {
-    for (const key of ['elderlyRatio', 'foreignRatio', 'births', 'populationChange', 'foreignBirthRatio'] as const) {
+    for (const key of [
+      'elderlyRatio',
+      'foreignRatio',
+      'births',
+      'populationChange',
+      'foreignBirthRatio',
+    ] as const) {
       expect(metricDef(key).yearIndependent).toBeUndefined();
     }
+    expect(metricDef('regionalReproductionRate').yearIndependent).toBe(true);
     expect(metricDef('expenditure').yearIndependent).toBeUndefined();
+  });
+
+  it('出生数と地域再生産率は値が高い地域ほど濃く表示する', () => {
+    expect(metricDef('births').invertColor).toBeUndefined();
+    expect(metricDef('regionalReproductionRate').invertColor).toBeUndefined();
   });
 });

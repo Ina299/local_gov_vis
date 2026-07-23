@@ -19,6 +19,7 @@ export type MapMetricKey =
   | 'elderlyRatio'
   | 'foreignRatio'
   | 'births'
+  | 'regionalReproductionRate'
   | 'populationChange'
   | 'foreignBirthRatio'
   | 'fiscalIndex'
@@ -220,6 +221,15 @@ export const METRICS: MetricDef[] = [
     kind: 'population',
     category: 'population',
     description: '出生者数（住民基本台帳・各年の1〜12月中）',
+  },
+  {
+    key: 'regionalReproductionRate',
+    label: '地域再生産率',
+    kind: 'index',
+    category: 'population',
+    description:
+      '年齢別出生率と、出生から再生産年齢まで地域に残る累積残存率を統合した地域人口再生産率（RRR）。1が現在の出生・死亡・人口移動の下で世代交代を維持できる水準。厚労省 人口動態保健所・市区町村別統計（出生率: 2018〜2022年）／総務省 住民基本台帳人口（残存率: 2020〜2025年）。小規模自治体は人口移動による振れが大きい',
+    yearIndependent: true,
   },
   {
     key: 'foreignRatio',
@@ -638,6 +648,7 @@ export function metricValue(
     key === 'elderlyRatio' ||
     key === 'foreignRatio' ||
     key === 'births' ||
+    key === 'regionalReproductionRate' ||
     key === 'populationChange' ||
     key === 'foreignBirthRatio'
   ) {

@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useMemo, useRef } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import type { LocalGovBudget, MapScale } from '@/types/budget';
 import {
   metricValue,
@@ -28,7 +28,7 @@ interface RankingModalProps {
   onClose: () => void;
 }
 
-/** 現在の指標のランキング（高い順・同値は同順位）。選択中の団体をハイライトする */
+/** 現在の指標のランキング（昇降順を切替可能・同値は同順位）。選択中の団体をハイライトする */
 export function RankingModal({
   budgets,
   metricKey,
@@ -42,6 +42,8 @@ export function RankingModal({
   onSelect,
   onClose,
 }: RankingModalProps) {
+  const [sortOrder, setSortOrder] = useState<'desc' | 'asc'>('desc');
+
   useEffect(() => {
     const handle = (e: KeyboardEvent) => {
       if (e.key === 'Escape') onClose();
@@ -62,16 +64,18 @@ export function RankingModal({
     const valued = budgets
       .map((b) => ({ b, value: metricValue(b, metricKey, scale) }))
       .filter((r): r is { b: LocalGovBudget; value: number } => r.value !== null)
-      .sort((a, b) => b.value - a.value);
+      .sort((a, b) =>
+        sortOrder === 'desc' ? b.value - a.value : a.value - b.value
+      );
     // 同値は同順位（1,1,3…方式）
     let rank = 0;
     let prev: number | null = null;
     return valued.map((r, i) => {
-      if (prev === null || r.value < prev) rank = i + 1;
+      if (prev === null || r.value !== prev) rank = i + 1;
       prev = r.value;
       return { ...r, rank };
     });
-  }, [budgets, metricKey, scale]);
+  }, [budgets, metricKey, scale, sortOrder]);
 
   // 選択中の団体が見える位置までスクロール（階層切替でリストが変わったときも）
   const selectedRef = useRef<HTMLButtonElement>(null);
@@ -97,7 +101,9 @@ export function RankingModal({
         <div className="modal-head">
           <h3>
             {metricDisplayLabel(metricKey, scale)}のランキング
-            {year !== null ? `（${year}年度・高い順）` : '（高い順）'}
+            {year !== null
+              ? `（${year}年度・${sortOrder === 'desc' ? '高い順' : '低い順'}）`
+              : `（${sortOrder === 'desc' ? '高い順' : '低い順'}）`}
           </h3>
           <button className="modal-close" onClick={onClose} aria-label="閉じる">
             ×
@@ -109,24 +115,42 @@ export function RankingModal({
               ? '市区町村データを読み込み中...'
               : `${rows.length.toLocaleString()}団体。行を選ぶと地図でその団体に移動します`}
           </p>
-          {!prefOnly && (
-            <div className="ranking-granularity" role="group" aria-label="ランキングの表示単位">
+          <div className="ranking-control-groups">
+            {!prefOnly && (
+              <div className="ranking-granularity" role="group" aria-label="ランキングの表示単位">
+                <button
+                  className={`granularity-button ${granularity === 'pref' ? 'active' : ''}`}
+                  onClick={() => onGranularityChange('pref')}
+                  aria-pressed={granularity === 'pref'}
+                >
+                  都道府県
+                </button>
+                <button
+                  className={`granularity-button ${granularity === 'muni' ? 'active' : ''}`}
+                  onClick={() => onGranularityChange('muni')}
+                  aria-pressed={granularity === 'muni'}
+                >
+                  市区町村
+                </button>
+              </div>
+            )}
+            <div className="ranking-sort" role="group" aria-label="ランキングの並び順">
               <button
-                className={`granularity-button ${granularity === 'pref' ? 'active' : ''}`}
-                onClick={() => onGranularityChange('pref')}
-                aria-pressed={granularity === 'pref'}
+                className={`granularity-button ${sortOrder === 'desc' ? 'active' : ''}`}
+                onClick={() => setSortOrder('desc')}
+                aria-pressed={sortOrder === 'desc'}
               >
-                都道府県
+                降順
               </button>
               <button
-                className={`granularity-button ${granularity === 'muni' ? 'active' : ''}`}
-                onClick={() => onGranularityChange('muni')}
-                aria-pressed={granularity === 'muni'}
+                className={`granularity-button ${sortOrder === 'asc' ? 'active' : ''}`}
+                onClick={() => setSortOrder('asc')}
+                aria-pressed={sortOrder === 'asc'}
               >
-                市区町村
+                昇順
               </button>
             </div>
-          )}
+          </div>
         </div>
         <div className="ranking-list" ref={listRef}>
           {rows.map(({ b, value, rank }) => {

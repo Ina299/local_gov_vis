@@ -6,6 +6,7 @@ import { Sidebar } from '@/components/Sidebar';
 import { SearchBox, type SearchEntry } from '@/components/SearchBox';
 import { MetricMenu } from '@/components/MetricMenu';
 import { RankingModal } from '@/components/RankingModal';
+import { IndicatorComparison } from '@/components/IndicatorComparison';
 import {
   METRICS,
   metricDef,
@@ -52,7 +53,11 @@ interface RegionData {
   features: GeoFeature[];
 }
 
-export default function Home() {
+interface HomeProps {
+  initialView?: 'map' | 'comparison';
+}
+
+export default function Home({ initialView = 'map' }: HomeProps) {
   const [national, setNational] = useState<RegionData | null>(null);
   const [municipal, setMunicipal] = useState<RegionData | null>(null);
   // 全国市区町村ビュー用の軽量データ（総額・人口・指標のみ。初回切替時に遅延ロード）
@@ -80,6 +85,10 @@ export default function Home() {
   const [flowOpen, setFlowOpen] = useState(false);
   // ランキングモーダルの開閉
   const [rankingOpen, setRankingOpen] = useState(false);
+  const [comparisonOpen, setComparisonOpen] = useState(initialView === 'comparison');
+  const [comparisonXKey, setComparisonXKey] =
+    useState<MapMetricKey>('populationDensity');
+  const [comparisonYKey, setComparisonYKey] = useState<MapMetricKey>('avgIncome');
   // データ取得失敗時のエラーバナー（再試行コールバック付き）
   const [loadError, setLoadError] = useState<{ message: string; retry: () => void } | null>(null);
 
@@ -267,14 +276,39 @@ export default function Home() {
     ? (lookupBudget(selectedCode, year) ?? lookupBudget(selectedCode, dataYear))
     : null;
 
+  // 予算比較は内訳を持つ詳細データだけを使う。都道府県は全国、市区町村は
+  // 読み込み済みの同一都道府県内を候補にし、軽量な全国市区町村データは使わない
+  const comparisonBudgets = useMemo(() => {
+    if (!selectedRegion) return [];
+    const source =
+      selectedRegion.code.length === 2
+        ? national?.budgets
+        : view.level === 'municipal'
+          ? municipal?.budgets
+          : muniDetail?.prefCode === selectedRegion.code.slice(0, 2)
+            ? muniDetail.budgets
+            : undefined;
+    return (
+      source?.filter(
+        (budget) =>
+          budget.fiscalYear === selectedRegion.fiscalYear &&
+          budget.code.length === selectedRegion.code.length
+      ) ?? []
+    );
+  }, [selectedRegion, national, municipal, muniDetail, view.level]);
+
   // タブ・履歴・共有時に場所が分かるよう、タイトルを表示中の自治体に追従させる
   // （OGスクレイパーは静的HTMLを読むためSNSカードには効かないが、ブラウザ経由の共有には効く）
   useEffect(() => {
     const base = '地方自治体予算マップ';
+    if (comparisonOpen) {
+      document.title = `指標比較 | ${base}`;
+      return;
+    }
     const place =
       selectedRegion?.name ?? (view.level === 'municipal' ? view.prefName : null);
     document.title = place ? `${place}の財政 | ${base}` : base;
-  }, [selectedRegion, view]);
+  }, [selectedRegion, view, comparisonOpen]);
 
   // 選択団体の全年度データ（サイドバーの推移グラフ・前年比用）
   const yearlyBudgets = useMemo(
@@ -436,8 +470,8 @@ export default function Home() {
 
   // 都道府県別のみの指標が選ばれたら市区町村ビュー（全国・ドリルダウンとも）を閉じる
   useEffect(() => {
-    if (prefOnly) setGranularity('pref');
-  }, [prefOnly, setGranularity]);
+    if (!comparisonOpen && prefOnly) setGranularity('pref');
+  }, [prefOnly, setGranularity, comparisonOpen]);
 
   // データのない年度を選んでいたら、その指標の最新年度へ丸める
   useEffect(() => {
@@ -491,6 +525,14 @@ export default function Home() {
     const pathMetric = window.location.pathname.match(/\/m\/([A-Za-z]+)\/?$/)?.[1];
     const m = params.get('m') ?? pathMetric;
     if (m && METRICS.some((d) => d.key === m)) setMetricKey(m as MapMetricKey);
+    const comparisonX = params.get('x');
+    const comparisonY = params.get('yMetric');
+    if (comparisonX && METRICS.some((d) => d.key === comparisonX)) {
+      setComparisonXKey(comparisonX as MapMetricKey);
+    }
+    if (comparisonY && METRICS.some((d) => d.key === comparisonY)) {
+      setComparisonYKey(comparisonY as MapMetricKey);
+    }
     const s = params.get('s');
     if (s === 'total' || s === 'perCapita') setScale(s);
 
@@ -519,24 +561,47 @@ export default function Home() {
     // 事前ビルドページ（OGP入り）のパスに載せ替える。都道府県選択（県名入り）を優先し、
     // それ以外で指標を選んでいれば指標別ページ（指標名入りタイトル＋指標別コロプレス画像）。
     // そのままURLを共有すると「どこの・何の」地図かが伝わる
-    const onPrefPage = selectedCode !== null && selectedCode.length === 2 && view.level !== 'nationMuni';
-    const onMetricPage = !onPrefPage && metricKey !== 'expenditure';
+    const onPrefPage =
+      !comparisonOpen &&
+      selectedCode !== null &&
+      selectedCode.length === 2 &&
+      view.level !== 'nationMuni';
+    const onMetricPage = !comparisonOpen && !onPrefPage && metricKey !== 'expenditure';
     const params = new URLSearchParams();
     if (year !== null) params.set('y', String(year));
-    if (metricKey !== 'expenditure' && !onMetricPage) params.set('m', metricKey);
-    if (scale !== 'perCapita') params.set('s', scale);
-    if (view.level === 'nationMuni') params.set('g', 'muni');
-    if (view.level === 'municipal') params.set('v', view.prefCode);
-    if (selectedCode) params.set('sel', selectedCode);
-    if (flowOpen && selectedCode) params.set('f', '1');
-    const path = onPrefPage
-      ? dataUrl(`/p/${selectedCode}/`)
-      : onMetricPage
-        ? dataUrl(`/m/${metricKey}/`)
-        : dataUrl('/');
+    if (comparisonOpen) {
+      params.set('x', comparisonXKey);
+      params.set('yMetric', comparisonYKey);
+      if (scale !== 'perCapita') params.set('s', scale);
+      if (view.level === 'nationMuni') params.set('g', 'muni');
+    } else {
+      if (metricKey !== 'expenditure' && !onMetricPage) params.set('m', metricKey);
+      if (scale !== 'perCapita') params.set('s', scale);
+      if (view.level === 'nationMuni') params.set('g', 'muni');
+      if (view.level === 'municipal') params.set('v', view.prefCode);
+      if (selectedCode) params.set('sel', selectedCode);
+      if (flowOpen && selectedCode) params.set('f', '1');
+    }
+    const path = comparisonOpen
+      ? dataUrl('/compare/')
+      : onPrefPage
+        ? dataUrl(`/p/${selectedCode}/`)
+        : onMetricPage
+          ? dataUrl(`/m/${metricKey}/`)
+          : dataUrl('/');
     const qs = params.toString();
     window.history.replaceState(null, '', `${path}${qs ? `?${qs}` : ''}`);
-  }, [year, metricKey, scale, view, selectedCode, flowOpen]);
+  }, [
+    year,
+    metricKey,
+    scale,
+    view,
+    selectedCode,
+    flowOpen,
+    comparisonOpen,
+    comparisonXKey,
+    comparisonYKey,
+  ]);
 
   // 「全国に戻る」ポップアップから全国ビューへ復帰
   // （表示していた県を選択状態にし、ドリルダウン用ポップアップも出す）
@@ -617,7 +682,7 @@ export default function Home() {
       <header className="header">
         <h1>地方自治体予算マップ</h1>
         <div className="header-controls">
-          <div className="header-toggles">
+          {!comparisonOpen && <div className="header-toggles">
             {/* 単年公表の統計（課税状況調・国勢調査）では年度切替に意味がないので出さない */}
             {!yearIndependent && (
               <div className="metric-toggle" role="group" aria-label="年度">
@@ -667,16 +732,39 @@ export default function Home() {
                 ))}
               </div>
             )}
-          </div>
+          </div>}
           <MetricMenu
             metricKey={metricKey}
-            onSelectCategory={(c) =>
+            comparisonActive={comparisonOpen}
+            onSelectCategory={(c) => {
+              setComparisonOpen(false);
               setMetricKey(lastKeyByCategoryRef.current[c] ?? CATEGORY_DEFAULT_KEY[c])
-            }
+            }}
+            onSelectComparison={() => {
+              setComparisonOpen(true);
+              setRankingOpen(false);
+              if (view.level === 'municipal') setGranularity('pref');
+            }}
           />
         </div>
       </header>
-      <main className="main">
+      {comparisonOpen ? (
+        <IndicatorComparison
+          budgets={regionBudgets}
+          years={years}
+          year={dataYear}
+          xKey={comparisonXKey}
+          yKey={comparisonYKey}
+          scale={scale}
+          granularity={view.level === 'nationMuni' ? 'muni' : 'pref'}
+          loading={loadingDrilldown}
+          onYearChange={setYear}
+          onXKeyChange={setComparisonXKey}
+          onYKeyChange={setComparisonYKey}
+          onScaleChange={setScale}
+          onGranularityChange={setGranularity}
+        />
+      ) : <main className="main">
         <div className="map-container">
           <BudgetMap
             viewKey={viewKey}
@@ -766,13 +854,14 @@ export default function Home() {
           selectedRegion={selectedRegion}
           yearlyBudgets={yearlyBudgets}
           regionBudgets={regionBudgets}
+          comparisonBudgets={comparisonBudgets}
           regionScope={regionScope}
           metricKey={metricKey}
           scale={scale}
           flowOpen={flowOpen}
           onFlowOpenChange={setFlowOpen}
         />
-      </main>
+      </main>}
     </div>
   );
 }

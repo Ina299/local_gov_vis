@@ -70,6 +70,11 @@ export interface Demographics {
   populationChange?: number;
   /** 外国人出生割合（外国人の出生数 ÷ 全出生数） */
   foreignBirthRatio?: number;
+  /**
+   * 地域人口再生産率（RRR）。
+   * 年齢別出生率と人口移動を含む累積残存率から算出し、1が世代交代の維持水準
+   */
+  regionalReproductionRate?: number;
 }
 
 /**
