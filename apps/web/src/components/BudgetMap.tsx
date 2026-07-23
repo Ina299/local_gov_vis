@@ -1,7 +1,15 @@
 'use client';
 
-import { useEffect, useRef, useCallback, useMemo } from 'react';
-import { MapContainer, TileLayer, GeoJSON, ZoomControl, useMapEvents, useMap } from 'react-leaflet';
+import { useEffect, useRef, useCallback, useMemo, useState } from 'react';
+import {
+  MapContainer,
+  TileLayer,
+  GeoJSON,
+  Marker,
+  ZoomControl,
+  useMapEvents,
+  useMap,
+} from 'react-leaflet';
 import L from 'leaflet';
 import type { Layer, Path } from 'leaflet';
 import type { LocalGovBudget, GeoFeature, MapScale } from '@/types/budget';
@@ -63,6 +71,39 @@ interface BudgetMapProps {
 
 const NATION_CENTER: [number, number] = [36.5, 138];
 const NATION_ZOOM = 5;
+const PREFECTURE_LABEL_MAX_ZOOM = 6;
+
+interface PrefectureLabel {
+  code: string;
+  center: [number, number];
+  icon: L.DivIcon;
+}
+
+/** 地理院タイル側で都道府県名が省略される縮小時だけ補助ラベルを表示する */
+function PrefectureLabels({ labels }: { labels: PrefectureLabel[] }) {
+  const map = useMap();
+  const [zoom, setZoom] = useState(map.getZoom());
+
+  useMapEvents({
+    zoomend: () => setZoom(map.getZoom()),
+  });
+
+  if (zoom > PREFECTURE_LABEL_MAX_ZOOM) return null;
+
+  return (
+    <>
+      {labels.map(({ code, center, icon }) => (
+        <Marker
+          key={`prefecture-label-${code}`}
+          position={center}
+          icon={icon}
+          interactive={false}
+          keyboard={false}
+        />
+      ))}
+    </>
+  );
+}
 
 // ポリゴンの面積を計算（符号付き）
 function calcPolygonArea(coords: number[][]): number {
@@ -370,6 +411,29 @@ export default function BudgetMap({
     [features]
   );
 
+  // 全国表示を大きく縮小した際に、タイルから消える都道府県名を補う
+  const prefectureLabels = useMemo<PrefectureLabel[]>(
+    () =>
+      viewKey === 'nation'
+        ? preparedFeatures.flatMap((feature) => {
+            const center = feature.properties.center as [number, number] | undefined;
+            const name = feature.properties.name;
+            if (!center || !name) return [];
+            return [{
+              code: feature.properties.code,
+              center,
+              icon: L.divIcon({
+                className: 'prefecture-map-label',
+                html: `<span>${name}</span>`,
+                iconSize: [0, 0],
+                iconAnchor: [0, 0],
+              }),
+            }];
+          })
+        : [],
+    [preparedFeatures, viewKey]
+  );
+
   // コードから予算データを引く。背景の都道府県（2桁コード）は全国データから
   const budgetFor = useCallback(
     (code: string): LocalGovBudget | undefined =>
@@ -420,7 +484,7 @@ export default function BudgetMap({
       // 市区町村ポリゴンはドリルダウンと同じ白細線。全国（都道府県）と背景県は線なし
       weight: viewKey === 'nation' || isBackground ? 0 : 1,
       color: '#ffffff',
-      fillOpacity: 0.7,
+      fillOpacity: 0.6,
     };
   }, [budgetFor, backgroundBudgetsByCode, metricKey, scale, breaks, backgroundBreaks, viewKey, invertColor, ramp, signedBreaks, backgroundSignedBreaks]);
 
@@ -712,13 +776,15 @@ export default function BudgetMap({
       >
         <ZoomControl position="bottomleft" />
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          className="budget-map-base-tiles"
+          attribution='<a href="https://maps.gsi.go.jp/development/ichiran.html">国土地理院</a> | Shoreline data: US NIMA VMAP0'
+          url="https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png"
         />
         <MapRef mapRef={mapRef} />
         <MapClickHandler onClick={clearSelection} />
         <FitView viewKey={viewKey} features={focusFeatures ?? features} />
         <BackPopup viewKey={viewKey} features={focusFeatures ?? features} onBack={onBack} />
+        <PrefectureLabels labels={prefectureLabels} />
         {preparedFeatures.length > 0 && (
           <GeoJSON
             key={viewKey}

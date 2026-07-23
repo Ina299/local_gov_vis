@@ -1442,6 +1442,33 @@ a.text-button {
   outline: none !important;
 }
 
+/* 淡色地図の文字と道路線を、塗り分け越しでも少し読みやすくする */
+.budget-map-base-tiles {
+  filter: grayscale(0.25) contrast(1.15);
+}
+
+/* 全国表示の都道府県名。背景タイルの縮尺に依存せず地図上へ重ねる */
+.prefecture-map-label {
+  background: transparent;
+  border: 0;
+  pointer-events: none;
+}
+
+.prefecture-map-label span {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: #1f2937;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+  text-shadow:
+    -1px -1px 0 rgba(255, 255, 255, 0.95),
+    1px -1px 0 rgba(255, 255, 255, 0.95),
+    -1px 1px 0 rgba(255, 255, 255, 0.95),
+    1px 1px 0 rgba(255, 255, 255, 0.95);
+}
+
 /* 収支図の注記（折りたたみ表示。開くと図が下にずれないよう余白は控えめ） */
 .sankey-notes-collapsed {
   margin-bottom: 0.5rem;
