@@ -11,6 +11,7 @@ import {
   metricDisplayLabel,
   categoryKeys,
   type MapMetricKey,
+  metricLabelValue,
 } from '@/lib/metrics';
 import type { MapScale } from '@/types/budget';
 import { industryColor } from '@/lib/industry';
@@ -165,6 +166,8 @@ interface SidebarProps {
   regionScope: RegionScope;
   metricKey: MapMetricKey;
   scale: MapScale;
+  /** 選挙カテゴリで表示する選挙の年（null は最新） */
+  electionYear?: number | null;
   /** 収支図モーダルの開閉（URL共有・地図ポップアップと連動するためpageが持つ） */
   flowOpen: boolean;
   onFlowOpenChange: (open: boolean) => void;
@@ -291,6 +294,7 @@ export function Sidebar({
   regionScope,
   metricKey,
   scale,
+  electionYear = null,
   flowOpen,
   onFlowOpenChange,
 }: SidebarProps) {
@@ -328,9 +332,9 @@ export function Sidebar({
     () =>
       yearlyBudgets.map((b) => ({
         year: b.fiscalYear,
-        value: metricValue(b, metricKey, scale),
+        value: metricValue(b, metricKey, scale, electionYear),
       })),
-    [yearlyBudgets, metricKey, scale]
+    [yearlyBudgets, metricKey, scale, electionYear]
   );
 
   // 表示階層の全団体における選択指標の中央値（未選択サマリーと選択時の全国比較に使う）
@@ -347,7 +351,7 @@ export function Sidebar({
         : '全国';
   const medianOf = (s: MapScale): number | null => {
     const values = regionBudgets
-      .map((b) => metricValue(b, metricKey, s))
+      .map((b) => metricValue(b, metricKey, s, electionYear))
       .filter((v): v is number => v !== null)
       .sort((a, b) => a - b);
     if (values.length === 0) return null;
@@ -364,7 +368,7 @@ export function Sidebar({
     if (def.kind === 'money') {
       // 金額指標はスケール切替によらず総額・1人あたりを併記する
       const total = regionBudgets
-        .map((b) => metricValue(b, metricKey, 'total'))
+        .map((b) => metricValue(b, metricKey, 'total', electionYear))
         .filter((v): v is number => v !== null)
         .reduce((sum, v) => sum + v, 0);
       const medianTotal = medianOf('total');
@@ -488,23 +492,30 @@ export function Sidebar({
     );
   }
 
-  const heroValue = metricValue(selectedRegion, metricKey, scale);
+  const heroValue = metricValue(selectedRegion, metricKey, scale, electionYear);
   const previous = yearlyBudgets.find(
     (b) => b.fiscalYear === selectedRegion.fiscalYear - 1
   );
-  const prevValue = previous ? metricValue(previous, metricKey, scale) : null;
+  const prevValue = previous ? metricValue(previous, metricKey, scale, electionYear) : null;
   const yoy =
     !def.yearIndependent && heroValue !== null && prevValue !== null && prevValue !== 0
       ? ((heroValue - prevValue) / Math.abs(prevValue)) * 100
       : null;
 
+  // 選挙カテゴリは年度ではなく選挙（執行年）ごとの推移
+  const electionSeries = (selectedRegion.elections ?? []).map((e) => ({
+    year: e.year,
+    value: metricKey === 'electionWinnerShare' ? e.winnerShare : e.winnerMargin, // 政党のときも地元での差を描く
+  }));
+  const chartSeries = def.category === 'election' ? electionSeries : series;
   const showChart =
-    !def.yearIndependent && series.filter((p) => p.value !== null).length >= 2;
+    (def.category === 'election' || !def.yearIndependent) &&
+    chartSeries.filter((p) => p.value !== null).length >= 2;
 
   // 人口統計カードの行（人口カテゴリの全指標＋面積）
   const populationRows = categoryKeys('population')
     .map((key) => {
-      const value = metricValue(selectedRegion, key, scale);
+      const value = metricValue(selectedRegion, key, scale, electionYear);
       return value !== null
         ? { label: metricDef(key).label, value: formatMetricValue(value, key) }
         : null;
@@ -593,7 +604,9 @@ export function Sidebar({
       <div className="budget-card">
         <h3>{metricDisplayLabel(metricKey, scale)}</h3>
         <div className="budget-amount">
-          {heroValue !== null ? formatMetricValue(heroValue, metricKey) : 'データなし'}
+          {def.kind === 'category'
+            ? (metricLabelValue(selectedRegion, metricKey, electionYear) ?? 'データなし')
+            : heroValue !== null ? formatMetricValue(heroValue, metricKey) : 'データなし'}
         </div>
         {(() => {
           // 前年度比・順位・中央値比較を「ラベル｜値」の行で揃える
@@ -616,7 +629,7 @@ export function Sidebar({
           // 表示階層の全団体中の順位（値が大きい順・同値は同順位）
           if (heroValue !== null) {
             const values = regionBudgets
-              .map((b) => metricValue(b, metricKey, scale))
+              .map((b) => metricValue(b, metricKey, scale, electionYear))
               .filter((v): v is number => v !== null);
             if (values.length > 1) {
               const rank = values.filter((v) => v > heroValue).length + 1;
@@ -698,8 +711,9 @@ export function Sidebar({
 
       {showChart && (
         <div className="budget-card">
-          <h3>推移</h3>
-          <TimeSeriesChart series={series} metricKey={metricKey} />
+          <h3>{def.category === 'election' ? '推移（選挙ごと）' : '推移'}</h3>
+          {/* 当選者の政党（区分）のときも推移は「地元での差」の数値で描く */}
+          <TimeSeriesChart series={chartSeries} metricKey={def.kind === 'category' ? 'electionWinnerMargin' : metricKey} />
         </div>
       )}
 
@@ -814,7 +828,7 @@ export function Sidebar({
               const infra = selectedRegion.infrastructure;
               const pop = selectedRegion.population;
               const fmt = (key: MapMetricKey) => {
-                const v = metricValue(selectedRegion, key, scale);
+                const v = metricValue(selectedRegion, key, scale, electionYear);
                 return v !== null ? formatMetricValue(v, key) : null;
               };
               const rows: Array<{ label: string; value: string }> = [];
@@ -896,41 +910,31 @@ export function Sidebar({
         </div>
       )}
 
-      {def.category === 'election' && selectedRegion.election && (
+      {def.category === 'election' && selectedRegion.elections && (
         <div className="budget-card">
           <h3>衆院選（小選挙区）</h3>
           <div className="budget-list">
-            {selectedRegion.election.districts.map((d) => (
-              <div className="budget-item" key={d.district}>
+            {[...selectedRegion.elections].reverse().map((e) => (
+              <div className="budget-item" key={e.no}>
                 <div className="budget-item-head">
-                  <span>{d.district}</span>
-                  <span className="budget-item-value">{d.winner}</span>
-                </div>
-                <div className="budget-item-share">当選・{d.party}</div>
-              </div>
-            ))}
-            {selectedRegion.election.winnerShare !== null && (
-              <div className="budget-item">
-                <div className="budget-item-head">
-                  <span>当選者の地元得票率</span>
-                  <span className="budget-item-value">{(selectedRegion.election.winnerShare * 100).toFixed(1)}%</span>
-                </div>
-              </div>
-            )}
-            {selectedRegion.election.winnerMargin !== null && (
-              <div className="budget-item">
-                <div className="budget-item-head">
-                  <span>地元での差（対 次点候補）</span>
+                  <span>{e.year}年（第{e.no}回）</span>
                   <span className="budget-item-value">
-                    {selectedRegion.election.winnerMargin >= 0 ? '+' : ''}
-                    {(selectedRegion.election.winnerMargin * 100).toFixed(1)}pt
+                    {e.winnerMargin !== null
+                      ? `${e.winnerMargin >= 0 ? '+' : ''}${(e.winnerMargin * 100).toFixed(1)}pt`
+                      : e.winnerShare !== null
+                        ? `${(e.winnerShare * 100).toFixed(1)}%`
+                        : '—'}
                   </span>
                 </div>
+                <div className="budget-item-share">
+                  {e.districts.map((d) => `${d.district} ${d.winner}（${d.party}）`).join('／')}
+                  {e.winnerShare !== null && e.winnerMargin !== null ? `・地元得票率 ${(e.winnerShare * 100).toFixed(1)}%` : ''}
+                </div>
               </div>
-            )}
+            ))}
           </div>
           <p className="attribution">
-            {selectedRegion.election.name}（{selectedRegion.election.date}）。有権者の投票であって首長の支持ではありません。出典: {selectedRegion.election.source}
+            値は当選者の地元での差（対 次点候補）。有権者の投票であって首長の支持ではありません。出典: {selectedRegion.elections[selectedRegion.elections.length - 1].source}
           </p>
         </div>
       )}
@@ -943,7 +947,7 @@ export function Sidebar({
               const safety = selectedRegion.safety;
               const rows: Array<{ label: string; value: string }> = [];
               const per = (key: MapMetricKey) => {
-                const v = metricValue(selectedRegion, key, scale);
+                const v = metricValue(selectedRegion, key, scale, electionYear);
                 return v !== null ? formatMetricValue(v, key) : null;
               };
               if (safety.accidents !== undefined) {
@@ -1042,7 +1046,7 @@ export function Sidebar({
           <br />
           安全: 交通事故統計情報オープンデータ／犯罪統計（警察庁・各年）
           <br />
-          衆院選: 衆議院議員総選挙 速報結果 候補者別市区町村別得票数（総務省・第51回 2026年2月8日執行）
+          衆院選: 衆議院議員総選挙 結果 候補者別市区町村別得票数（総務省・第48〜51回、2017〜2026年）
           <br />
           道路の国費（配分）: 道路関係予算配分について・都道府県別 箇所表「社会資本整備総合交付金の配分（道路分）」（国土交通省 道路局・令和5〜8年度当初配分の想定国費。事業実施主体ごとに合計）
           <br />

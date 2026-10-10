@@ -71,7 +71,7 @@ function main() {
         infrastructure: b.infrastructure,
         safety: b.safety,
         roadFunding: b.roadFunding,
-        election: b.election,
+        elections: b.elections,
       });
     }
 

@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { metricValue, formatMetricValue, metricCategory, metricDef, categoryKeys,
   headerEntries,
   groupVariants,
+  metricLabelValue,
 } from '../metrics';
 import type { LocalGovBudget } from '@/types/budget';
 
@@ -163,14 +164,23 @@ describe('カテゴリ定義', () => {
   });
 
   it('選挙カテゴリは当選者の地元での差（発散配色）と地元得票率。年度によらない', () => {
-    expect(categoryKeys('election')).toEqual(['electionWinnerMargin', 'electionWinnerShare']);
+    expect(categoryKeys('election')).toEqual(['electionWinnerParty', 'electionWinnerMargin', 'electionWinnerShare']);
+    expect(metricDef('electionWinnerParty').kind).toBe('category');
+    expect(metricDef('electionWinnerParty').muniOnly).toBe(true);
+    expect(metricDef('electionWinnerMargin').muniOnly).toBe(true);
     expect(metricDef('electionWinnerMargin').kind).toBe('changeRatio');
     for (const key of ['electionWinnerMargin', 'electionWinnerShare'] as const) expect(metricDef(key).yearIndependent).toBe(true);
     const base = { code: '09215', name: '那須烏山市', prefecture: '栃木県', fiscalYear: 2024, totalRevenue: 0, totalExpenditure: 0, expenditures: [], revenues: [] };
-    const budget = { ...base, election: { name: 'test', date: '2026-02-08', districts: [{ district: '栃木県第３区', winner: '甲', party: '乙党' }], winnerShare: 0.42, winnerMargin: -0.05, source: 's' } };
+    const e = (no: number, year: number, winnerMargin: number) => ({ no, year, name: 'test', date: `${year}-01-01`, districts: [{ district: '栃木県第３区', winner: '甲', party: '乙党' }], winnerParty: '乙党', winnerShare: 0.42, winnerMargin, source: 's' });
+    const budget = { ...base, elections: [e(50, 2024, 0.1), e(51, 2026, -0.05)] };
     expect(metricValue(budget, 'electionWinnerShare', 'total')).toBe(0.42);
-    expect(metricValue(budget, 'electionWinnerMargin', 'total')).toBe(-0.05);
+    expect(metricValue(budget, 'electionWinnerMargin', 'total')).toBe(-0.05); // 最新
+    expect(metricValue(budget, 'electionWinnerMargin', 'total', 2024)).toBe(0.1);
+    expect(metricValue(budget, 'electionWinnerMargin', 'total', 2017)).toBeNull(); // その年の記載なし
     expect(metricValue(base, 'electionWinnerMargin', 'total')).toBeNull();
+    expect(metricLabelValue(budget, 'electionWinnerParty', 'total' as never)).toBeNull();
+    expect(metricLabelValue(budget, 'electionWinnerParty', 2026)).toBe('乙党');
+    expect(metricLabelValue(budget, 'electionWinnerParty')).toBe('乙党');
   });
 
   it('道路の国費の 3 指標はヘッダーで 1 つの組にまとまり、見方の切替が下段に出る', () => {

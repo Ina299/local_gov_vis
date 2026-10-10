@@ -16,6 +16,7 @@ import {
   type MetricCategory,
   headerEntries,
   groupVariants,
+  ELECTION_YEARS,
 } from '@/lib/metrics';
 import { dataUrl } from '@/lib/paths';
 import { fetchJson } from '@/lib/fetchJson';
@@ -76,10 +77,14 @@ export default function Home({ initialView = 'map' }: HomeProps) {
   // 初期表示は「歳出・一人当たり」。総額は人口マップと化して情報量が乏しく、
   // 一人当たりなら収支図の「あなたの1人分」の世界観ともつながる
   const [scale, setScale] = useState<MapScale>('perCapita');
+  // 選挙カテゴリで表示する選挙の年（null は最新）
+  const [electionYear, setElectionYear] = useState<number | null>(null);
   const category = metricCategory(metricKey);
   const yearIndependent = metricDef(metricKey).yearIndependent ?? false;
   // 都道府県別のみの指標（犯罪統計等）では市区町村ビューを使わせない
   const prefOnly = metricDef(metricKey).prefOnly ?? false;
+  const muniOnly = metricDef(metricKey).muniOnly ?? false;
+  const isCategoryMetric = metricDef(metricKey).kind === 'category';
   // 公表が遅れる統計はデータのある年度までしか選ばせない
   const maxYear = metricDef(metricKey).maxYear;
   const [selectedCode, setSelectedCode] = useState<string | null>(null);
@@ -475,6 +480,10 @@ export default function Home({ initialView = 'map' }: HomeProps) {
   useEffect(() => {
     if (!comparisonOpen && prefOnly) setGranularity('pref');
   }, [prefOnly, setGranularity, comparisonOpen]);
+  // 市区町村別のみの指標（当選者の政党・地元での差）は市区町村ビューに固定する
+  useEffect(() => {
+    if (!comparisonOpen && muniOnly) setGranularity('muni');
+  }, [muniOnly, setGranularity, comparisonOpen]);
 
   // データのない年度を選んでいたら、その指標の最新年度へ丸める
   useEffect(() => {
@@ -686,43 +695,7 @@ export default function Home({ initialView = 'map' }: HomeProps) {
         <h1>地方自治体予算マップ</h1>
         <div className="header-controls">
           {!comparisonOpen && <div className="header-toggles">
-            {/* 年度はプルダウン。年度によらない指標（単年公表の統計・配分・選挙）では消さずに、いつ時点の値かを出して無効にする */}
-            {yearIndependent ? (
-              <div className="year-select year-select--fixed" title="この指標は年度によらない値です">
-                <select aria-label="年度" value="fixed" disabled>
-                  <option value="fixed">{metricDef(metricKey).asOf ?? '年度によらない'}</option>
-                </select>
-              </div>
-            ) : (
-              <div className="year-select">
-                <select aria-label="年度" value={year ?? ''} onChange={(e) => setYear(Number(e.target.value))}>
-                  {years.filter((y) => maxYear === undefined || y <= maxYear).map((y) => (
-                    <option key={y} value={y}>{y}年度</option>
-                  ))}
-                </select>
-              </div>
-            )}
-            <div
-              className={`metric-toggle ${categoryKeys(category).length > 5 ? 'compact' : ''}`}
-              role="group"
-              aria-label="表示指標"
-            >
-              {headerEntries(category, metricKey).map((entry) => {
-                const def = metricDef(entry.key);
-                const active = entry.groupKey ? metricDef(metricKey).group?.key === entry.groupKey : metricKey === entry.key;
-                return (
-                  <button
-                    key={entry.key}
-                    className={`metric-toggle-button ${active ? 'active' : ''}`}
-                    onClick={() => setMetricKey(entry.key)}
-                    aria-pressed={active}
-                    title={entry.groupKey ? `${entry.label}（${groupVariants(entry.groupKey).map((v) => v.label).join('・')}）` : def.description}
-                  >
-                    {entry.label}
-                  </button>
-                );
-              })}
-            </div>
+            {/* 見方の切替（総額／一人当たり、配分額／前年度比…）は主の指標列の左に置き、主の列の位置が動かないようにする */}
             {/* 組（道路の国費など）を選んだときだけ、見方の切替を下の段に出す（総額／一人当たりと同じ作法） */}
             {metricDef(metricKey).group && (
               <div className="metric-toggle" role="group" aria-label={`${metricDef(metricKey).group!.label}の見方`}>
@@ -753,7 +726,52 @@ export default function Home({ initialView = 'map' }: HomeProps) {
                 ))}
               </div>
             )}
+            <div
+              className={`metric-toggle ${categoryKeys(category).length > 5 ? 'compact' : ''}`}
+              role="group"
+              aria-label="表示指標"
+            >
+              {headerEntries(category, metricKey).map((entry) => {
+                const def = metricDef(entry.key);
+                const active = entry.groupKey ? metricDef(metricKey).group?.key === entry.groupKey : metricKey === entry.key;
+                return (
+                  <button
+                    key={entry.key}
+                    className={`metric-toggle-button ${active ? 'active' : ''}`}
+                    onClick={() => setMetricKey(entry.key)}
+                    aria-pressed={active}
+                    title={entry.groupKey ? `${entry.label}（${groupVariants(entry.groupKey).map((v) => v.label).join('・')}）` : def.description}
+                  >
+                    {entry.label}
+                  </button>
+                );
+              })}
+            </div>
           </div>}
+          {/* 年度（または選挙）は常に右端。年度によらない指標でも消さず、いつ時点の値かを出して無効にする */}
+            {category === 'election' ? (
+              <div className="year-select" title="表示する選挙">
+                <select aria-label="選挙" value={electionYear ?? ELECTION_YEARS[ELECTION_YEARS.length - 1]} onChange={(e) => setElectionYear(Number(e.target.value))}>
+                  {ELECTION_YEARS.map((y) => (
+                    <option key={y} value={y}>{y}年 衆院選</option>
+                  ))}
+                </select>
+              </div>
+            ) : yearIndependent ? (
+              <div className="year-select year-select--fixed" title="この指標は年度によらない値です">
+                <select aria-label="年度" value="fixed" disabled>
+                  <option value="fixed">{metricDef(metricKey).asOf ?? '年度によらない'}</option>
+                </select>
+              </div>
+            ) : (
+              <div className="year-select">
+                <select aria-label="年度" value={year ?? ''} onChange={(e) => setYear(Number(e.target.value))}>
+                  {years.filter((y) => maxYear === undefined || y <= maxYear).map((y) => (
+                    <option key={y} value={y}>{y}年度</option>
+                  ))}
+                </select>
+              </div>
+            )}
           <MetricMenu
             metricKey={metricKey}
             comparisonActive={comparisonOpen}
@@ -777,6 +795,7 @@ export default function Home({ initialView = 'map' }: HomeProps) {
           xKey={comparisonXKey}
           yKey={comparisonYKey}
           scale={scale}
+          electionYear={electionYear}
           granularity={view.level === 'nationMuni' ? 'muni' : 'pref'}
           loading={loadingDrilldown}
           onYearChange={setYear}
@@ -797,6 +816,7 @@ export default function Home({ initialView = 'map' }: HomeProps) {
             }
             metricKey={metricKey}
             scale={scale}
+            electionYear={electionYear}
             selectedCode={selectedCode}
             onSelectCode={handleSelectCode}
             onDrillDown={prefOnly ? undefined : drillDown}
@@ -806,9 +826,11 @@ export default function Home({ initialView = 'map' }: HomeProps) {
             onShowFlow={() => setFlowOpen(true)}
           />
           <SearchBox entries={searchEntries} onSelect={handleSearchSelect} />
-          <button className="ranking-toggle" onClick={() => setRankingOpen(true)}>
-            ランキング
-          </button>
+          {!isCategoryMetric && (
+            <button className="ranking-toggle" onClick={() => setRankingOpen(true)}>
+              ランキング
+            </button>
+          )}
           {/* 都道府県別のみの指標では表示単位の切替を出さない */}
           {!prefOnly && (
             <div className="granularity-toggle" role="group" aria-label="表示単位">
@@ -816,6 +838,8 @@ export default function Home({ initialView = 'map' }: HomeProps) {
                 className={`granularity-button ${view.level !== 'nationMuni' ? 'active' : ''}`}
                 onClick={() => setGranularity('pref')}
                 aria-pressed={view.level !== 'nationMuni'}
+                disabled={muniOnly}
+                title={muniOnly ? 'この指標は市区町村別のみ' : undefined}
               >
                 都道府県
               </button>
@@ -856,6 +880,7 @@ export default function Home({ initialView = 'map' }: HomeProps) {
               budgets={regionBudgets}
               metricKey={metricKey}
               scale={scale}
+              electionYear={electionYear}
               year={yearIndependent ? null : dataYear}
               selectedCode={selectedCode}
               granularity={view.level === 'nationMuni' ? 'muni' : 'pref'}
@@ -879,6 +904,7 @@ export default function Home({ initialView = 'map' }: HomeProps) {
           regionScope={regionScope}
           metricKey={metricKey}
           scale={scale}
+          electionYear={electionYear}
           flowOpen={flowOpen}
           onFlowOpenChange={setFlowOpen}
         />

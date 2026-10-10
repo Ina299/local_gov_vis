@@ -17,6 +17,7 @@ export type MapMetricKey =
   | 'roadFunding'
   | 'roadFundingChange'
   | 'roadFundingAnomaly'
+  | 'electionWinnerParty'
   | 'electionWinnerMargin'
   | 'electionWinnerShare'
   | 'population'
@@ -64,7 +65,7 @@ export interface MetricDef {
   label: string;
   /**
    * money: 総額/一人当たり切替あり, index: 指数, ratio: 割合,
-   * population: 人数, density: 人口密度, change: 符号付き人数, changeRatio: 符号付きの増減率,
+   * population: 人数, density: 人口密度, change: 符号付き人数, changeRatio: 符号付きの増減率, category: 区分（文字列。metricLabelValue で引く）,
    * yenPerPerson: 1人あたり年額（スケール切替なし）,
    * meterPerPerson/sqmPerPerson: 1人あたりの長さ・面積,
    * per1000/per100k: 千人・10万人あたりの数（単位はunitで指定）
@@ -77,6 +78,7 @@ export interface MetricDef {
     | 'density'
     | 'change'
     | 'changeRatio'
+    | 'category'
     | 'yenPerPerson'
     | 'meterPerPerson'
     | 'sqmPerPerson'
@@ -111,6 +113,11 @@ export interface MetricDef {
    * 選択中は市区町村ビューへの切替・ドリルダウンを無効化する
    */
   prefOnly?: boolean;
+  /**
+   * 市区町村別のみの指標（都道府県の値に意味がない。当選者の地元での差など）。
+   * 選択中は市区町村ビューに固定し、都道府県への切替を無効化する
+   */
+  muniOnly?: boolean;
   /**
    * データが存在する最新年度（公表が遅れる統計）。
    * 選択中はこの年度までしか年度トグルに出さず、超えていたら丸める
@@ -547,12 +554,21 @@ export const METRICS: MetricDef[] = [
     prefOnly: true,
   },
   {
+    key: 'electionWinnerParty',
+    label: '当選者の政党',
+    kind: 'category',
+    category: 'election',
+    yearIndependent: true,
+    muniOnly: true,
+    description: '直近の衆院選（小選挙区）で、この自治体が属する小選挙区の当選者の届出政党（複数の小選挙区にまたがる市は、この市で最も得票した当選者の政党）',
+  },
+  {
     key: 'electionWinnerMargin',
     label: '当選者の地元での差',
     kind: 'changeRatio',
     category: 'election',
     yearIndependent: true,
-    asOf: '2026年2月 衆院選',
+    muniOnly: true,
     description:
       '直近の衆院選（小選挙区）で、その小選挙区の当選者が、この自治体の中で得た得票率と、自治体内で当選者以外の最多候補の得票率との差。マイナスなら、この自治体の有権者は別の候補を上位にしていた。有権者の投票であって首長の支持ではない',
   },
@@ -562,7 +578,6 @@ export const METRICS: MetricDef[] = [
     kind: 'ratio',
     category: 'election',
     yearIndependent: true,
-    asOf: '2026年2月 衆院選',
     description: '直近の衆院選（小選挙区）で、その小選挙区の当選者がこの自治体の中で得た得票率（複数の小選挙区にまたがる市は合算）',
   },
 ];
@@ -614,17 +629,36 @@ export function metricDef(key: MapMetricKey): MetricDef {
 }
 
 /** 指標値を取得（データなしは null） */
+/** 取り込み済みの衆院選の執行年（古い順）。apps/crawler/src/import-election.ts の ELECTIONS と合わせる */
+export const ELECTION_YEARS = [2017, 2021, 2024, 2026] as const;
+
+/** 指定の年の選挙（null は最新）。その年の記載が無い自治体は undefined */
+export function electionOf(budget: LocalGovBudget, electionYear: number | null) {
+  const list = budget.elections ?? [];
+  if (electionYear === null) return list[list.length - 1];
+  return list.find((e) => e.year === electionYear);
+}
+
+/** 区分の指標（kind: category）の値。数値の指標は null */
+export function metricLabelValue(budget: LocalGovBudget | undefined, key: MapMetricKey, electionYear: number | null = null): string | null {
+  if (!budget) return null;
+  if (key === 'electionWinnerParty') return electionOf(budget, electionYear)?.winnerParty ?? null;
+  return null;
+}
+
 export function metricValue(
   budget: LocalGovBudget | undefined,
   key: MapMetricKey,
-  scale: MapScale
+  scale: MapScale,
+  /** 選挙カテゴリで表示する選挙の年（null は最新）。他の指標では無視 */
+  electionYear: number | null = null
 ): number | null {
   if (!budget) return null;
   const def = metricDef(key);
 
   // 道路の国費は kind が money でも budgetItem ではなく roadFunding から引く（money の分岐より先に判定する）
   if (key === 'electionWinnerMargin' || key === 'electionWinnerShare') {
-    const election = budget.election;
+    const election = electionOf(budget, electionYear);
     if (!election) return null;
     return key === 'electionWinnerMargin' ? election.winnerMargin : election.winnerShare;
   }
@@ -797,6 +831,8 @@ export function formatMetricValue(value: number, key: MapMetricKey): string {
       const pct = (Math.abs(value) * 100).toFixed(value !== 0 && Math.abs(value) < 0.1 ? 1 : 0);
       return value < 0 ? `-${pct}%` : `+${pct}%`;
     }
+    case 'category':
+      return String(value);
     case 'change': {
       const abs = Math.abs(value);
       const formatted =

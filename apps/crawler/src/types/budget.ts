@@ -165,11 +165,17 @@ export interface RoadFunding {
  * 「有権者の支持」であって首長の支持ではない。年度によらず同じ値（date の選挙）
  */
 export interface Election {
+  /** 回次（第48回など） */
+  no: number;
+  /** 執行年（西暦） */
+  year: number;
   name: string;
   /** 執行日（YYYY-MM-DD） */
   date: string;
   /** この自治体が属する小選挙区（分割市は複数）と、その当選者・届出政党 */
   districts: Array<{ district: string; winner: string; party: string }>;
+  /** 当選者の届出政党（複数の小選挙区にまたがる市は、この市で最も得票した当選者の政党）。都道府県は null */
+  winnerParty: string | null;
   /** 当選者の得票 ÷ 有効得票（この自治体内。複数選挙区は合算） */
   winnerShare: number | null;
   /** 当選者の得票率 − 自治体内で当選者以外の最多候補の得票率（負なら地元では別の候補が上）。都道府県は null */
@@ -212,8 +218,8 @@ export interface LocalGovBudget {
   safety?: Safety;
   /** 道路分の国費（配分）。年度によらず同じ値（配分年度は byYear のキー） */
   roadFunding?: RoadFunding;
-  /** 衆院選（小選挙区）の結果。年度によらず同じ値 */
-  election?: Election;
+  /** 衆院選（小選挙区）の結果。選挙ごと（古い順）。年度によらず同じ配列 */
+  elections?: Election[];
   /** 一人当たり歳出 */
   perCapitaExpenditure?: number;
   /** データソースURL（軽量データ municipal-all/{年度}.json では省略） */

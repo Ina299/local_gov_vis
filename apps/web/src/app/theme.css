@@ -203,7 +203,29 @@ select {
   background: var(--hair);
 }
 
-/* 年度のプルダウン（ヘッダー上。切替ボタンと同じ高さ・角丸） */
+/* 年度のプルダウン（ヘッダー右端。切替ボタンと同じ高さ・角丸） */
+.header-controls {
+  flex: 1;
+  min-width: 0;
+  justify-content: flex-end;
+}
+
+.header-controls .header-toggles {
+  flex: 1;
+  min-width: 0;
+}
+
+/* 見方の切替（左）と主の指標列（右）を同じ行に置く。主の列が長ければその箱の中で折り返す */
+@media (min-width: 769px) {
+  .header-toggles {
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+  .header-toggles > .metric-toggle:last-child {
+    flex: 0 1 auto;
+  }
+}
+
 .year-select select {
   min-height: 36px;
   padding: 0 32px 0 var(--sp-2);

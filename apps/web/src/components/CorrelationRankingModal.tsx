@@ -15,6 +15,8 @@ interface CorrelationRankingModalProps {
   xKey: MapMetricKey;
   yKey: MapMetricKey;
   scale: MapScale;
+  /** 選挙カテゴリで表示する選挙の年（null は最新） */
+  electionYear?: number | null;
   granularity: 'pref' | 'muni';
   onSelect: (key: MapMetricKey) => void;
   onClose: () => void;
@@ -25,6 +27,7 @@ export function CorrelationRankingModal({
   xKey,
   yKey,
   scale,
+  electionYear = null,
   granularity,
   onSelect,
   onClose,
@@ -53,8 +56,8 @@ export function CorrelationRankingModal({
       .map((metric) => {
         const pairs: Array<{ x: number; y: number }> = [];
         for (const budget of budgets) {
-          const x = metricValue(budget, xKey, scale);
-          const y = metricValue(budget, metric.key, scale);
+          const x = metricValue(budget, xKey, scale, electionYear);
+          const y = metricValue(budget, metric.key, scale, electionYear);
           if (x === null || y === null || !Number.isFinite(x) || !Number.isFinite(y)) continue;
           pairs.push({ x, y });
         }
@@ -80,7 +83,7 @@ export function CorrelationRankingModal({
           ? b.coefficient - a.coefficient
           : a.coefficient - b.coefficient
       );
-  }, [budgets, granularity, scale, sortOrder, xKey]);
+  }, [budgets, granularity, scale, sortOrder, xKey, electionYear]);
 
   return (
     <div className="modal-overlay" onClick={onClose}>

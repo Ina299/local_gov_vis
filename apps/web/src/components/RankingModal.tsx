@@ -14,6 +14,8 @@ interface RankingModalProps {
   budgets: LocalGovBudget[];
   metricKey: MapMetricKey;
   scale: MapScale;
+  /** 選挙カテゴリで表示する選挙の年（null は最新） */
+  electionYear?: number | null;
   year: number | null;
   selectedCode: string | null;
   /** 表示階層（地図と連動。切り替えると地図側も切り替わる） */
@@ -33,6 +35,7 @@ export function RankingModal({
   budgets,
   metricKey,
   scale,
+  electionYear = null,
   year,
   selectedCode,
   granularity,
@@ -62,7 +65,7 @@ export function RankingModal({
 
   const rows = useMemo(() => {
     const valued = budgets
-      .map((b) => ({ b, value: metricValue(b, metricKey, scale) }))
+      .map((b) => ({ b, value: metricValue(b, metricKey, scale, electionYear) }))
       .filter((r): r is { b: LocalGovBudget; value: number } => r.value !== null)
       .sort((a, b) =>
         sortOrder === 'desc' ? b.value - a.value : a.value - b.value
@@ -75,7 +78,7 @@ export function RankingModal({
       prev = r.value;
       return { ...r, rank };
     });
-  }, [budgets, metricKey, scale, sortOrder]);
+  }, [budgets, metricKey, scale, sortOrder, electionYear]);
 
   // 選択中の団体が見える位置までスクロール（階層切替でリストが変わったときも）
   const selectedRef = useRef<HTMLButtonElement>(null);

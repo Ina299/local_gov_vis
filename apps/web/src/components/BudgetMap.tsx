@@ -1,4 +1,5 @@
 'use client';
+import { partyColor } from '@/lib/parties';
 
 import { useEffect, useRef, useCallback, useMemo, useState } from 'react';
 import {
@@ -19,6 +20,7 @@ import {
   metricDisplayLabel,
   metricDef,
   type MapMetricKey,
+  metricLabelValue,
 } from '@/lib/metrics';
 import {
   NO_DATA_COLOR,
@@ -51,6 +53,8 @@ interface BudgetMapProps {
   backgroundBudgetsByCode?: Map<string, LocalGovBudget>;
   metricKey: MapMetricKey;
   scale: MapScale;
+  /** 選挙カテゴリで表示する選挙の年（null は最新） */
+  electionYear?: number | null;
   /** 選択中の自治体コード（pageが管理し、ビュー切替をまたいで維持される） */
   selectedCode: string | null;
   onSelectCode: (code: string | null) => void;
@@ -159,15 +163,16 @@ function getLargestPolygonCenter(geometry: any): [number, number] | null {
 function metricValues(
   budgets: Map<string, LocalGovBudget>,
   metricKey: MapMetricKey,
-  scale: MapScale
+  scale: MapScale,
+  electionYear: number | null = null
 ): number[] {
   return Array.from(budgets.values())
-    .map((b) => metricValue(b, metricKey, scale))
+    .map((b) => metricValue(b, metricKey, scale, electionYear))
     .filter((v): v is number => v !== null);
 }
 
-function breaksFor(budgets: Map<string, LocalGovBudget>, metricKey: MapMetricKey, scale: MapScale): number[] {
-  return computeBreaks(metricValues(budgets, metricKey, scale));
+function breaksFor(budgets: Map<string, LocalGovBudget>, metricKey: MapMetricKey, scale: MapScale, electionYear: number | null = null): number[] {
+  return computeBreaks(metricValues(budgets, metricKey, scale, electionYear));
 }
 
 /** 地図の何もない場所（海など）のクリックを拾う */
@@ -383,6 +388,7 @@ export default function BudgetMap({
   backgroundBudgetsByCode,
   metricKey,
   scale,
+  electionYear = null,
   selectedCode,
   onSelectCode,
   onDrillDown,
@@ -445,13 +451,13 @@ export default function BudgetMap({
 
   // 現在階層の分位（凡例にも使用）
   const breaks = useMemo(
-    () => breaksFor(budgetsByCode, metricKey, scale),
-    [budgetsByCode, metricKey, scale]
+    () => breaksFor(budgetsByCode, metricKey, scale, electionYear),
+    [budgetsByCode, metricKey, scale, electionYear]
   );
   // 背景の都道府県用の分位（全国モードと同じ濃淡になる）
   const backgroundBreaks = useMemo(
-    () => (backgroundBudgetsByCode ? breaksFor(backgroundBudgetsByCode, metricKey, scale) : []),
-    [backgroundBudgetsByCode, metricKey, scale]
+    () => (backgroundBudgetsByCode ? breaksFor(backgroundBudgetsByCode, metricKey, scale, electionYear) : []),
+    [backgroundBudgetsByCode, metricKey, scale, electionYear]
   );
 
   const invertColor = metricDef(metricKey).invertColor ?? false;
@@ -459,34 +465,37 @@ export default function BudgetMap({
   // 符号付き指標（増減数）は0中心の発散配色にする
   const isDiverging = ['change', 'changeRatio'].includes(metricDef(metricKey).kind);
   const signedBreaks = useMemo(
-    () => (isDiverging ? computeSignedBreaks(metricValues(budgetsByCode, metricKey, scale)) : null),
-    [isDiverging, budgetsByCode, metricKey, scale]
+    () => (isDiverging ? computeSignedBreaks(metricValues(budgetsByCode, metricKey, scale, electionYear)) : null),
+    [isDiverging, budgetsByCode, metricKey, scale, electionYear]
   );
   const backgroundSignedBreaks = useMemo(
     () =>
       isDiverging && backgroundBudgetsByCode
-        ? computeSignedBreaks(metricValues(backgroundBudgetsByCode, metricKey, scale))
+        ? computeSignedBreaks(metricValues(backgroundBudgetsByCode, metricKey, scale, electionYear))
         : null,
-    [isDiverging, backgroundBudgetsByCode, metricKey, scale]
+    [isDiverging, backgroundBudgetsByCode, metricKey, scale, electionYear]
   );
 
+  // 区分の指標（当選者の政党）は階級ではなく区分色で塗る
+  const isCategory = metricDef(metricKey).kind === 'category';
   const getDefaultStyle = useCallback((feature: GeoFeature) => {
     const code = feature.properties.code;
     const isBackground = code.length === 2 && backgroundBudgetsByCode !== undefined;
-    const value = metricValue(budgetFor(code), metricKey, scale);
+    const value = metricValue(budgetFor(code), metricKey, scale, electionYear);
+    const categoryFill = isCategory ? partyColor(metricLabelValue(budgetFor(code), metricKey, electionYear)) ?? NO_DATA_COLOR : null;
     return {
-      fillColor: signedBreaks
+      fillColor: categoryFill ?? (signedBreaks
         ? getDivergingColor(
             value,
             (isBackground ? backgroundSignedBreaks : signedBreaks) ?? signedBreaks
           )
-        : getClassColor(value, isBackground ? backgroundBreaks : breaks, invertColor, ramp),
+        : getClassColor(value, isBackground ? backgroundBreaks : breaks, invertColor, ramp)),
       // 市区町村ポリゴンはドリルダウンと同じ白細線。全国（都道府県）と背景県は線なし
       weight: viewKey === 'nation' || isBackground ? 0 : 1,
       color: '#ffffff',
       fillOpacity: 0.6,
     };
-  }, [budgetFor, backgroundBudgetsByCode, metricKey, scale, breaks, backgroundBreaks, viewKey, invertColor, ramp, signedBreaks, backgroundSignedBreaks]);
+  }, [budgetFor, backgroundBudgetsByCode, metricKey, scale, breaks, backgroundBreaks, viewKey, invertColor, ramp, signedBreaks, backgroundSignedBreaks, isCategory, electionYear]);
 
   const getSelectedStyle = useCallback(() => ({
     fillColor: '#ffd700',
@@ -504,6 +513,8 @@ export default function BudgetMap({
   metricKeyRef.current = metricKey;
   const scaleRef = useRef(scale);
   scaleRef.current = scale;
+  const electionYearRef = useRef(electionYear);
+  electionYearRef.current = electionYear;
   const budgetForRef = useRef(budgetFor);
   budgetForRef.current = budgetFor;
   const onDrillDownRef = useRef(onDrillDown);
@@ -556,11 +567,12 @@ export default function BudgetMap({
     title.textContent = name;
     container.appendChild(title);
     // 選択中の指標の値（ホバーツールチップと同じ情報）も表示する
-    const value = metricValue(budgetForRef.current(code), metricKeyRef.current, scaleRef.current);
-    if (value !== null) {
+    const value = metricValue(budgetForRef.current(code), metricKeyRef.current, scaleRef.current, electionYearRef.current);
+    const label = metricLabelValue(budgetForRef.current(code), metricKeyRef.current, electionYearRef.current);
+    if (value !== null || label !== null) {
       const info = document.createElement('div');
       info.className = 'drill-popup-info';
-      info.textContent = `${metricDisplayLabel(metricKeyRef.current, scaleRef.current)}: ${formatMetricValue(value, metricKeyRef.current)}`;
+      info.textContent = `${metricDisplayLabel(metricKeyRef.current, scaleRef.current)}: ${label ?? formatMetricValue(value!, metricKeyRef.current)}`;
       container.appendChild(info);
     }
     const buttons = document.createElement('div');
@@ -653,7 +665,9 @@ export default function BudgetMap({
 
     const tooltipContent = () => {
       const name = feature.properties.name ?? '';
-      const value = metricValue(budgetForRef.current(code), metricKeyRef.current, scaleRef.current);
+      const value = metricValue(budgetForRef.current(code), metricKeyRef.current, scaleRef.current, electionYearRef.current);
+      const label = metricLabelValue(budgetForRef.current(code), metricKeyRef.current, electionYearRef.current);
+      if (label !== null) return `<strong>${name}</strong><br>${metricDisplayLabel(metricKeyRef.current, scaleRef.current)}: ${label}`;
       if (value === null) return name;
       return `<strong>${name}</strong><br>${metricDisplayLabel(metricKeyRef.current, scaleRef.current)}: ${formatMetricValue(value, metricKeyRef.current)}`;
     };
@@ -720,6 +734,16 @@ export default function BudgetMap({
 
   // 凡例の階級ラベルを生成
   const legendItems = useMemo(() => {
+    if (isCategory) {
+      // 区分色: 表示中の自治体に出てくる区分を多い順に
+      const counts = new Map<string, number>();
+      for (const b of Array.from(budgetsByCode.values())) {
+        const label = metricLabelValue(b, metricKey, electionYear);
+        if (label !== null) counts.set(label, (counts.get(label) ?? 0) + 1);
+      }
+      const items = Array.from(counts.entries()).sort((a, b) => b[1] - a[1]).slice(0, 12).map(([label, n]) => ({ color: partyColor(label)!, label: `${label}（${n}）` }));
+      return items; // 「データなし」は凡例の共通処理が足す
+    }
     if (signedBreaks) {
       const fmt = (v: number) => formatMetricValue(v, metricKey);
       const items: Array<{ color: string; label: string }> = [];
@@ -760,7 +784,7 @@ export default function BudgetMap({
       }
       return { color, label };
     });
-  }, [breaks, metricKey, invertColor, ramp, signedBreaks]);
+  }, [breaks, metricKey, invertColor, ramp, signedBreaks, isCategory, budgetsByCode, electionYear]);
 
   return (
     <div style={{ position: 'relative', height: '100%', width: '100%' }}>

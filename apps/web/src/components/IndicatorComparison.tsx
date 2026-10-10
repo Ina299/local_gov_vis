@@ -36,6 +36,8 @@ interface IndicatorComparisonProps {
   xKey: MapMetricKey;
   yKey: MapMetricKey;
   scale: MapScale;
+  /** 選挙カテゴリで表示する選挙の年（null は最新） */
+  electionYear?: number | null;
   granularity: 'pref' | 'muni';
   loading: boolean;
   onYearChange: (year: number) => void;
@@ -83,6 +85,7 @@ export function IndicatorComparison({
   xKey,
   yKey,
   scale,
+  electionYear = null,
   granularity,
   loading,
   onYearChange,
@@ -95,7 +98,7 @@ export function IndicatorComparison({
   const [rankingOpen, setRankingOpen] = useState(false);
 
   const availableMetrics = useMemo(
-    () => METRICS.filter((metric) => granularity === 'pref' || !metric.prefOnly),
+    () => METRICS.filter((metric) => metric.kind !== 'category' && (granularity === 'pref' || !metric.prefOnly)),
     [granularity]
   );
 
@@ -119,8 +122,8 @@ export function IndicatorComparison({
   const points = useMemo<ScatterPoint[]>(() => {
     const result: ScatterPoint[] = [];
     for (const budget of budgets) {
-      const x = metricValue(budget, safeXKey, scale);
-      const y = metricValue(budget, safeYKey, scale);
+      const x = metricValue(budget, safeXKey, scale, electionYear);
+      const y = metricValue(budget, safeYKey, scale, electionYear);
       if (x === null || y === null || !Number.isFinite(x) || !Number.isFinite(y)) continue;
       result.push({
         code: budget.code,
@@ -132,7 +135,7 @@ export function IndicatorComparison({
       });
     }
     return result;
-  }, [budgets, safeXKey, safeYKey, scale]);
+  }, [budgets, safeXKey, safeYKey, scale, electionYear]);
 
   const result = useMemo(() => calculateCorrelation(points), [points]);
   const xDomain = useMemo<[number, number]>(
@@ -372,6 +375,7 @@ export function IndicatorComparison({
           xKey={safeXKey}
           yKey={safeYKey}
           scale={scale}
+          electionYear={electionYear}
           granularity={granularity}
           onSelect={(key) => {
             onYKeyChange(key);
