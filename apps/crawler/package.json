@@ -18,12 +18,15 @@
     "build:og": "tsx src/build-og.ts",
     "update:all": "tsx src/update-all.ts",
     "verify:data": "tsx src/verify-data.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "import:evaluations": "node --import tsx src/import-evaluations.ts",
+    "test": "node --import tsx --test tests/*.test.ts"
   },
   "dependencies": {
     "adm-zip": "^0.5.18",
     "csv-parse": "^5.5.0",
-    "csv-stringify": "^6.4.0"
+    "csv-stringify": "^6.4.0",
+    "pdfjs-dist": "5.4.296"
   },
   "devDependencies": {
     "@resvg/resvg-js": "^2.6.2",
