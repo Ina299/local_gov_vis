@@ -153,6 +153,23 @@ export interface RoadFunding {
   byYear: Record<string, number>;
   latestYear: number;
   source: string;
+  /**
+   * 最新の配分年度ペアでの「説明の付きにくい減額」（教師なしの異常検知。警報ではなく原資料で確かめる優先度）。
+   * 継続工区の増減から同じ県・同じ交付金の他市区町村の中央値（expectedPct）を引いた残差を全国で標準化し、
+   * 継続工区が一斉に減っているほど・工区数が多いほど重くした値。両年度に継続工区が無い自治体は無し
+   */
+  anomaly?: {
+    /** 0 以上。大きいほど説明しにくい減額 */
+    score: number;
+    /** スコア順位（1 が最も説明しにくい）。score 0 は null */
+    rank: number | null;
+    /** 継続工区の前年度比（%） */
+    residualPct: number;
+    /** 県内の期待値（%） */
+    expectedPct: number;
+    routes: number;
+    decreased: number;
+  };
 }
 
 export interface LocalGovBudget {

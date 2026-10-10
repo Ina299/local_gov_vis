@@ -16,6 +16,7 @@ export type MapMetricKey =
   | 'revenueNationalTreasury'
   | 'roadFunding'
   | 'roadFundingChange'
+  | 'roadFundingAnomaly'
   | 'population'
   | 'populationDensity'
   | 'elderlyRatio'
@@ -214,6 +215,15 @@ export const METRICS: MetricDef[] = [
     yearIndependent: true,
     description:
       '道路の国費（配分）の、最新の配分年度と前年度の比。工事の完了・新規採択で毎年大きく動くので、減っていること自体は異常ではない。県内で突出して減っている自治体を見つける目印',
+  },
+  {
+    key: 'roadFundingAnomaly',
+    label: '道路の国費 要確認度',
+    kind: 'index',
+    category: 'money',
+    yearIndependent: true,
+    description:
+      '道路の国費の減り方が、工事の進捗や県全体の増減では説明しにくい度合い（0以上。大きいほど要確認）。両年度にある工区だけで比べ、同じ県・同じ交付金の他の市区町村の増減を差し引いた残差を全国で標準化し、工区が一斉に減っているほど重くした値。警報ではなく、国交省の箇所表で理由を確かめる優先度',
   },
   {
     key: 'population',
@@ -558,9 +568,10 @@ export function metricValue(
   const def = metricDef(key);
 
   // 道路の国費は kind が money でも budgetItem ではなく roadFunding から引く（money の分岐より先に判定する）
-  if (key === 'roadFunding' || key === 'roadFundingChange') {
+  if (key === 'roadFunding' || key === 'roadFundingChange' || key === 'roadFundingAnomaly') {
     const funding = budget.roadFunding;
     if (!funding) return null;
+    if (key === 'roadFundingAnomaly') return funding.anomaly?.score ?? null;
     const latest = funding.byYear[String(funding.latestYear)];
     if (key === 'roadFunding') {
       if (latest === undefined) return null;

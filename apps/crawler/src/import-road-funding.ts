@@ -18,6 +18,7 @@ import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 import type { LocalGovBudget, RoadFunding } from './types/budget.js';
 import type { RoadAllocationFile } from './import-road-allocations.js';
+import { scorePair, type AnomalyScore } from './road-allocation-score.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(__dirname, '..', '..', '..');
@@ -25,14 +26,16 @@ const WEB_PUBLIC = join(REPO_ROOT, 'apps', 'web', 'public');
 const DATA_DIR = join(REPO_ROOT, 'data', 'road-allocations');
 
 /** コード → 年度 → 想定国費（円） */
-function aggregate(): { byCode: Map<string, Record<string, number>>; years: number[]; source: string } {
+function aggregate(): { byCode: Map<string, Record<string, number>>; years: number[]; source: string; anomaly: Map<string, AnomalyScore> } {
   const files = readdirSync(DATA_DIR).filter((f) => /^\d{4}\.json$/.test(f)).sort();
   if (!files.length) throw new Error(`道路配分データがありません: ${DATA_DIR}（先に import:road-allocations を実行）`);
   const byCode = new Map<string, Record<string, number>>();
   const years: number[] = [];
   let source = '';
+  const loaded: RoadAllocationFile[] = [];
   for (const file of files) {
     const data: RoadAllocationFile = JSON.parse(readFileSync(join(DATA_DIR, file), 'utf-8'));
+    loaded.push(data);
     years.push(data.fiscalYear);
     source = data.source.name.replace(/令和\d+年度 /, '');
     for (const row of data.rows) {
@@ -42,11 +45,14 @@ function aggregate(): { byCode: Map<string, Record<string, number>>; years: numb
       byCode.set(row.code, entry);
     }
   }
-  return { byCode, years, source };
+  // 最新の年度ペアの「説明の付きにくい減額」スコア
+  const pair = scorePair(loaded[loaded.length - 2], loaded[loaded.length - 1]);
+  const anomaly = new Map(pair.scores.map((s) => [s.code, s]));
+  return { byCode, years, source, anomaly };
 }
 
 /** 予算JSONファイルに roadFunding を付与して書き戻す */
-function patchFile(path: string, byCode: Map<string, Record<string, number>>, years: number[], source: string): number {
+function patchFile(path: string, byCode: Map<string, Record<string, number>>, years: number[], source: string, anomaly: Map<string, AnomalyScore>): number {
   if (!existsSync(path)) {
     console.warn(`スキップ（未生成）: ${path}`);
     return 0;
@@ -63,7 +69,11 @@ function patchFile(path: string, byCode: Map<string, Record<string, number>>, ye
     // 記載の無い年度は 0 円（箇所表に載らない＝道路分の想定国費が無い）。全年度のうち 1 年でも記載があれば持たせる
     const byYear: Record<string, number> = {};
     for (const year of years) byYear[String(year)] = entry[String(year)] ?? 0;
-    b.roadFunding = { byYear, latestYear: Math.max(...years), source } satisfies RoadFunding;
+    const a = anomaly.get(b.code);
+    b.roadFunding = {
+      byYear, latestYear: Math.max(...years), source,
+      ...(a ? { anomaly: { score: Math.round(a.score * 100) / 100, rank: a.rank, residualPct: Math.round((Math.exp(a.logCont) - 1) * 100), expectedPct: Math.round((Math.exp(a.expected) - 1) * 100), routes: a.routes, decreased: a.decreased } } : {}),
+    } satisfies RoadFunding;
     patched++;
   }
   writeFileSync(path, JSON.stringify(budgets));
@@ -71,15 +81,15 @@ function patchFile(path: string, byCode: Map<string, Record<string, number>>, ye
 }
 
 function main() {
-  const { byCode, years, source } = aggregate();
-  console.log(`道路分の想定国費: ${byCode.size} 自治体、年度 ${years.join('・')}`);
+  const { byCode, years, source, anomaly } = aggregate();
+  console.log(`道路分の想定国費: ${byCode.size} 自治体、年度 ${years.join('・')}、スコア対象 ${anomaly.size} 市区町村`);
   const muniDir = join(WEB_PUBLIC, 'budgets', 'municipal');
   for (const file of readdirSync(muniDir).filter((f) => /^\d{2}\.json$/.test(f)).sort()) {
     const path = join(muniDir, file);
-    console.log(`${file}: ${patchFile(path, byCode, years, source)}件付与`);
+    console.log(`${file}: ${patchFile(path, byCode, years, source, anomaly)}件付与`);
   }
   for (const path of [join(WEB_PUBLIC, 'budgets.json'), join(REPO_ROOT, 'data', 'budgets', 'prefectures.json')]) {
-    console.log(`${path}: ${patchFile(path, byCode, years, source)}件付与`);
+    console.log(`${path}: ${patchFile(path, byCode, years, source, anomaly)}件付与`);
   }
 }
 

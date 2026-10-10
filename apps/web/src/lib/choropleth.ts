@@ -51,6 +51,8 @@ export const SEQUENTIAL_BROWNS = sequentialRamp('#a0632a');
 // 平均所得: 金 / インフラ: 茶 / 業種割合・款・歳入項目: 円グラフの固定色と同じ色相の濃淡）
 export function rampFor(metricKey: MapMetricKey): string[] {
   if (metricKey === 'avgIncome') return SEQUENTIAL_GOLDS;
+  // 要確認度は高いほど注意なので赤で濃くする
+  if (metricKey === 'roadFundingAnomaly') return SEQUENTIAL_REDS;
   const industryName = INDUSTRY_METRIC_NAMES[metricKey];
   if (industryName) return cachedRamp(INDUSTRY_COLORS[industryName]);
   // 款・歳入項目の指標は収支サマリーのドーナツと同じ固定色の濃淡にする

@@ -598,6 +598,15 @@ export function Sidebar({
         {(() => {
           // 前年度比・順位・中央値比較を「ラベル｜値」の行で揃える
           const rows: Array<{ label: string; node: React.ReactNode }> = [];
+          // 要確認度の内訳（何を比べて高くなったか）。順位は全国のスコア順
+          const anomaly = metricKey === 'roadFundingAnomaly' ? selectedRegion.roadFunding?.anomaly : undefined;
+          if (anomaly) {
+            const signed = (v: number) => `${v >= 0 ? '+' : ''}${v}%`;
+            rows.push({ label: '継続工区の前年度比', node: signed(anomaly.residualPct) });
+            rows.push({ label: '県内の他市区町村（中央値）', node: signed(anomaly.expectedPct) });
+            rows.push({ label: '減った工区', node: `${anomaly.decreased} / ${anomaly.routes}` });
+            if (anomaly.rank !== null) rows.push({ label: '全国順位（高い順）', node: `${anomaly.rank}位` });
+          }
           if (yoy !== null) {
             rows.push({
               label: '前年度比',

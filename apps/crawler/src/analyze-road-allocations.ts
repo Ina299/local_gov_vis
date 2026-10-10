@@ -16,6 +16,7 @@ import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 import { PREFECTURES } from './data/prefectures.js';
 import type { RoadAllocationFile, RoadAllocationRow } from './import-road-allocations.js';
+import { scorePair } from './road-allocation-score.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(__dirname, '..', '..', '..');
@@ -105,6 +106,16 @@ function main() {
     ranked.slice(0, 30).forEach((s, idx) => out.push(`| ${idx + 1} | ${s.name}（${s.pref}） | ${oku(s.prev)}億 | ${oku(s.cur)}億 | ${pct(s.logAll)} | ${z(s.zAll)} | ${pct(s.logCont)} | ${s.decreased}/${s.routes} |`));
     out.push('', '### 継続工区だけで減少が大きく、工区が一斉に減っている市区町村（継続工区 2 以上・8 割以上が減少・下位 30）', '', '| # | 自治体 | 継続工区 前年度 | 当年度 | 増減 | z（継続） | 減った工区 | 全体の増減 |', '|---|---|---|---|---|---|---|---|');
     rankedCont.filter((s) => s.routes >= 2 && s.decreased / s.routes >= 0.8).slice(0, 30).forEach((s, idx) => out.push(`| ${idx + 1} | ${s.name}（${s.pref}） | ${oku(s.contPrev)}億 | ${oku(s.contCur)}億 | ${pct(s.logCont)} | ${z(s.zCont)} | ${s.decreased}/${s.routes} | ${pct(s.logAll)} |`));
+    // 残差モデル（road-allocation-score.ts）
+    const pair = scorePair(files[i - 1], files[i]);
+    const prefName = (code: string) => PREFECTURES.find((p) => p.code === code)?.name ?? code;
+    const byScore = pair.scores.filter((s) => s.rank !== null).sort((x, y) => x.rank! - y.rank!);
+    out.push('', `### 残差モデルのスコア（継続工区の増減 − 同じ県・同じ交付金の他市区町村の中央値。残差を頑健 z 化し、一斉減と工区数で重み付け。対象 ${pair.n} 市区町村）`, '',
+      '| 順位 | 自治体 | 継続工区 前年度 | 当年度 | 増減 | 県内の期待値 | 残差 z | 減った工区 | スコア |', '|---|---|---|---|---|---|---|---|---|');
+    const line = (s: (typeof byScore)[number]) => `| ${s.rank ?? '—'} | ${s.name}（${prefName(s.prefCode)}） | ${oku(s.contPrev)}億 | ${oku(s.contCur)}億 | ${pct(s.logCont)} | ${pct(s.expected)} | ${s.z.toFixed(2)} | ${s.decreased}/${s.routes} | ${s.score.toFixed(2)} |`;
+    byScore.slice(0, 30).forEach((s) => out.push(line(s)));
+    out.push('', '注目自治体:', '');
+    for (const code of focus) { const s = pair.scores.find((x) => x.code === code); out.push(s ? line(s) : `| — | ${names.get(code) ?? code} | 両年度の継続工区なし | | | | | | |`); }
     out.push('');
   }
   mkdirSync(OUT_DIR, { recursive: true });
