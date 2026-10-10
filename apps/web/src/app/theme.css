@@ -1,0 +1,564 @@
+/* ==========================================================================
+   theme.css — 見た目の規律（web-design-system スキルの「先進 modern」テーマの作法を、色はこのアプリの青のまま適用）
+   - トークン（書体・字間・余白の段階・角丸・影・タップ領域）を :root に置き、部品はトークンだけを参照する
+   - globals.css の後に読み込み、上書きだけを行う（戻すときはこのファイルの import を外す）
+   - 色は変えない: 主色は従来の青（#2a78d6）、ヘッダーは従来の墨色。小さな文字には濃い青（--brand-text、4.5:1 以上）
+   - 部品は 1 種類ずつ: 強いボタン（塗り）・副ボタン（枠）・文字リンク・切替（segmented）
+   ========================================================================== */
+
+:root {
+  /* 中性色（既存の値を整理） */
+  --ink: #1a1a2e;
+  --ink-2: #4a4f5c;
+  --ink-3: #65666b;
+  --paper: #ffffff;
+  --surface: #f4f6f8;
+  --hair: #e2e3e5;
+  --line-strong: #8d929b;
+
+  /* 主色（このアプリの青。変更しない） */
+  --brand: #2a78d6;
+  --brand-text: #1c5cab; /* 小さな文字・リンク用（白地で 5.9:1） */
+  --brand-tint: #eaf2fc;
+  --header-bg: #1a1a2e;
+  --on-brand: #ffffff;
+
+  /* 書体: 見出しと数字は Inter、本文は日本語ゴシック（modern） */
+  --font: 'Inter', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', Meiryo, sans-serif;
+  --latin: 'Inter', 'Noto Sans JP', sans-serif;
+  --fw-body: 400;
+  --fw-medium: 500;
+  --fw-bold: 600;
+  --ls-body: 0.02em;
+  --ls-display: 0.02em;
+  --lh-body: 1.6;
+
+  /* 文字の大きさ（最小 11px） */
+  --fs-body: 14px;
+  --fs-small: 12.5px;
+  --fs-lab: 12px;
+  --fs-src: 11.5px;
+  --fs-h2: 15px;
+  --fs-big: 28px;
+
+  /* 余白の段階（この中から選ぶ） */
+  --sp-1: 8px;
+  --sp-2: 12px;
+  --sp-3: 16px;
+  --sp-4: 24px;
+  --sp-5: 32px;
+
+  /* 形・動き */
+  --radius: 12px;
+  --radius-sm: 8px;
+  --radius-btn: 8px;
+  --shadow: 0 1px 2px rgba(18, 21, 20, 0.04), 0 8px 24px rgba(18, 21, 20, 0.06);
+  --shadow-float: 0 2px 6px rgba(18, 21, 20, 0.08), 0 12px 32px rgba(18, 21, 20, 0.12);
+  --card-border: 1px solid var(--hair);
+  --tap: 44px;
+  --dur: 0.2s;
+}
+
+/* ---------- 基本 ---------- */
+html,
+body {
+  font-family: var(--font);
+  font-size: var(--fs-body);
+  font-weight: var(--fw-body);
+  line-height: var(--lh-body);
+  letter-spacing: var(--ls-body);
+  color: var(--ink);
+  font-feature-settings: 'palt';
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+/* フォーカスの枠は消さない（キーボード操作） */
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+.header :focus-visible,
+.metric-toggle-button:focus-visible,
+.metric-menu-button:focus-visible {
+  outline-color: #fff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+/* 数字は等幅・Inter（桁がそろう） */
+.budget-amount,
+.budget-item-value,
+.budget-item-share,
+.ranking-value,
+.ranking-rank,
+.comparison-stat strong,
+.legend-item,
+.flow-focus-value,
+.region-year {
+  font-family: var(--latin);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- ヘッダー ---------- */
+.header {
+  gap: var(--sp-3);
+  padding: var(--sp-2) var(--sp-4);
+  background: var(--header-bg);
+}
+
+.header h1 {
+  font-size: 17px;
+  font-weight: var(--fw-bold);
+  letter-spacing: var(--ls-display);
+}
+
+.header-toggles {
+  gap: var(--sp-1);
+}
+
+/* 切替（年度・指標・総額/一人当たり）: 1 種類の segmented。タップ領域 44px */
+.metric-toggle {
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: var(--radius-btn);
+}
+
+/* 指標が多い行（歳入・歳出は 14 個）は右端で切らずに折り返す（スマホは横スクロール） */
+@media (min-width: 769px) {
+  .metric-toggle {
+    flex-wrap: wrap;
+  }
+}
+
+.metric-toggle-button {
+  min-height: 36px;
+  padding: 0 var(--sp-2);
+  font-size: 13px;
+  font-weight: var(--fw-medium);
+  color: rgba(255, 255, 255, 0.78);
+  transition: background var(--dur), color var(--dur);
+}
+
+.metric-toggle-button.active {
+  background: var(--brand);
+  color: var(--on-brand);
+  font-weight: var(--fw-bold);
+}
+
+.metric-toggle.compact .metric-toggle-button {
+  padding: 0 var(--sp-1);
+}
+
+.metric-menu-button {
+  min-height: 36px;
+  padding: 0 var(--sp-2);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: var(--radius-btn);
+  font-size: 13px;
+  font-weight: var(--fw-bold);
+}
+
+.metric-menu-panel {
+  min-width: 200px;
+  padding: var(--sp-1);
+  border: var(--card-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-float);
+}
+
+.metric-menu-item {
+  min-height: var(--tap);
+  padding: var(--sp-1) var(--sp-2);
+  border-radius: var(--radius-sm);
+  font-size: var(--fs-body);
+  transition: background var(--dur);
+}
+
+.metric-menu-item:hover {
+  background: var(--surface);
+}
+
+.metric-menu-item.active {
+  font-weight: var(--fw-bold);
+}
+
+.metric-menu-check {
+  color: var(--brand);
+}
+
+.metric-menu-divider {
+  background: var(--hair);
+}
+
+/* ---------- 地図の上の部品 ---------- */
+.search-input {
+  min-height: var(--tap);
+  padding: 0 var(--sp-2);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-sm);
+  font-size: var(--fs-body);
+  box-shadow: var(--shadow);
+  transition: border-color var(--dur), box-shadow var(--dur);
+}
+
+.search-input:focus {
+  border-color: var(--brand);
+  box-shadow: 0 0 0 3px rgba(42, 120, 214, 0.18);
+}
+
+.search-results {
+  border: var(--card-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-float);
+}
+
+.search-result {
+  min-height: var(--tap);
+  padding: var(--sp-1) var(--sp-2);
+}
+
+.search-result-pref {
+  color: var(--ink-3);
+  font-size: var(--fs-small);
+}
+
+.granularity-toggle,
+.ranking-toggle {
+  border: var(--card-border);
+  border-radius: var(--radius-btn);
+  box-shadow: var(--shadow);
+}
+
+.granularity-button,
+.ranking-toggle {
+  min-height: var(--tap);
+  padding: 0 var(--sp-3);
+  font-size: 13px;
+  font-weight: var(--fw-medium);
+  color: var(--ink-2);
+  transition: background var(--dur), color var(--dur);
+}
+
+.granularity-button.active {
+  background: var(--brand);
+  color: var(--on-brand);
+  font-weight: var(--fw-bold);
+}
+
+.legend {
+  padding: var(--sp-2) var(--sp-3);
+  border: var(--card-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-float);
+  font-size: var(--fs-small);
+}
+
+.legend-title {
+  font-size: var(--fs-lab);
+  font-weight: var(--fw-bold);
+  letter-spacing: 0.04em;
+  color: var(--ink-2);
+}
+
+.legend-color {
+  border-radius: 4px;
+}
+
+.drill-popup-title {
+  font-size: 15px;
+  font-weight: var(--fw-bold);
+  color: var(--ink);
+}
+
+.drill-popup-info {
+  font-size: var(--fs-small);
+  color: var(--ink-3);
+}
+
+.drill-popup-buttons {
+  gap: var(--sp-1);
+}
+
+/* ---------- ボタンは 2 種類: 強い（塗り）・副（枠） ---------- */
+.drill-popup-button,
+.load-error-retry {
+  min-height: 36px;
+  padding: 0 var(--sp-3);
+  border-radius: var(--radius-btn);
+  background: var(--brand);
+  color: var(--on-brand);
+  font-size: 13px;
+  font-weight: var(--fw-bold);
+  transition: transform var(--dur), background var(--dur);
+}
+
+.drill-popup-button:hover,
+.load-error-retry:hover {
+  background: var(--brand-text);
+  transform: translateY(-1px);
+}
+
+.text-button,
+.correlation-ranking-open,
+.ranking-toggle {
+  min-height: 32px;
+  padding: 0 var(--sp-2);
+  border: 1px solid var(--brand);
+  border-radius: var(--radius-btn);
+  background: var(--paper);
+  color: var(--brand-text);
+  font-size: var(--fs-small);
+  font-weight: var(--fw-bold);
+  transition: background var(--dur), color var(--dur);
+}
+
+.text-button:hover,
+.correlation-ranking-open:hover {
+  background: var(--brand-tint);
+}
+
+/* ---------- サイドバー ---------- */
+.sidebar {
+  padding: var(--sp-3);
+  background: var(--surface);
+  border-left: 1px solid var(--hair);
+}
+
+.budget-card {
+  padding: var(--sp-3) var(--sp-3);
+  margin-bottom: var(--sp-2);
+  border: var(--card-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.budget-card h3 {
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-bold);
+  letter-spacing: var(--ls-display);
+  color: var(--ink);
+}
+
+.region-name {
+  font-size: 17px;
+  font-weight: var(--fw-bold);
+}
+
+.region-pref,
+.region-year {
+  color: var(--ink-3);
+  font-size: var(--fs-small);
+}
+
+.budget-amount {
+  font-size: var(--fs-big);
+  font-weight: var(--fw-bold);
+  letter-spacing: -0.01em;
+  color: var(--brand-text);
+}
+
+.budget-item {
+  padding: var(--sp-1) 0;
+  border-bottom: 1px solid var(--hair);
+}
+
+.budget-item-share,
+.attribution,
+.sankey-notes-collapsed,
+.comparison-note,
+.budget-comparison-note {
+  color: var(--ink-3);
+  font-size: var(--fs-src);
+  line-height: 1.7;
+}
+
+/* 収支図・予算比較へのカード型の入口（副ボタンの大きい版） */
+.flow-cta {
+  gap: var(--sp-2);
+  min-height: 56px;
+  padding: var(--sp-2) var(--sp-2);
+  border: 1px solid var(--hair);
+  border-radius: var(--radius);
+  background: var(--paper);
+  transition: border-color var(--dur), background var(--dur), transform var(--dur);
+}
+
+.flow-cta:hover {
+  border-color: var(--brand);
+  background: var(--brand-tint);
+  transform: translateY(-1px);
+}
+
+.flow-cta-title {
+  font-size: var(--fs-body);
+  font-weight: var(--fw-bold);
+  color: var(--brand-text);
+}
+
+.flow-cta-sub {
+  font-size: var(--fs-src);
+  color: var(--ink-3);
+}
+
+.flow-cta-chevron {
+  color: var(--ink-3);
+}
+
+/* ---------- ランキング・モーダル ---------- */
+.modal {
+  padding: var(--sp-4) var(--sp-4) var(--sp-4);
+  border: var(--card-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-float);
+}
+
+.modal-head h2,
+.modal-head h3 {
+  font-size: 17px;
+  font-weight: var(--fw-bold);
+  letter-spacing: var(--ls-display);
+}
+
+.modal-close {
+  min-width: var(--tap);
+  min-height: var(--tap);
+  border-radius: var(--radius-sm);
+  color: var(--ink-2);
+}
+
+.modal-close:hover {
+  background: var(--surface);
+}
+
+.ranking-row {
+  min-height: var(--tap);
+  padding: var(--sp-1) var(--sp-1);
+  border-bottom: 1px solid var(--hair);
+  border-radius: var(--radius-sm);
+  font-size: var(--fs-body);
+  transition: background var(--dur);
+}
+
+.ranking-row:hover {
+  background: var(--surface);
+}
+
+.ranking-row.selected {
+  background: var(--brand-tint);
+}
+
+.ranking-rank {
+  color: var(--ink-3);
+  font-weight: var(--fw-medium);
+}
+
+.ranking-pref {
+  color: var(--ink-3);
+  font-size: var(--fs-small);
+}
+
+.ranking-value {
+  font-weight: var(--fw-bold);
+}
+
+/* 指標比較 */
+.comparison-eyebrow {
+  color: var(--brand-text);
+  font-size: var(--fs-lab);
+  letter-spacing: 0.08em;
+}
+
+.comparison-heading h2 {
+  font-size: 19px;
+  font-weight: var(--fw-bold);
+  letter-spacing: var(--ls-display);
+}
+
+.comparison-stat,
+.comparison-controls,
+.comparison-chart-card {
+  border-radius: var(--radius);
+  border: var(--card-border);
+  box-shadow: var(--shadow);
+}
+
+.comparison-stat {
+  border-left: 3px solid var(--brand);
+}
+
+.comparison-controls select {
+  min-height: 36px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-sm);
+}
+
+.comparison-segmented {
+  min-height: 36px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-btn);
+}
+
+.comparison-segmented button.active {
+  background: var(--brand);
+}
+
+.comparison-swap {
+  border: 1px solid var(--line-strong);
+  color: var(--brand-text);
+}
+
+/* エラー表示: 赤は意味のあるところだけ */
+.load-error-banner {
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-float);
+  font-size: var(--fs-small);
+}
+
+/* ---------- スマホ（768px 以下）: 文字を小さくしすぎず、タップ領域を保つ ---------- */
+@media (max-width: 768px) {
+  .header {
+    gap: var(--sp-1);
+    padding: var(--sp-1) var(--sp-2);
+  }
+
+  .header h1 {
+    font-size: 15px;
+  }
+
+  .metric-toggle-button,
+  .metric-menu-button {
+    min-height: 40px;
+    padding: 0 var(--sp-2);
+    font-size: 12.5px;
+  }
+
+  .sidebar {
+    padding: var(--sp-2);
+  }
+
+  .budget-card {
+    padding: var(--sp-2) var(--sp-3);
+  }
+
+  .budget-amount {
+    font-size: 24px;
+  }
+
+  .legend {
+    padding: var(--sp-1) var(--sp-2);
+    font-size: var(--fs-lab);
+  }
+}

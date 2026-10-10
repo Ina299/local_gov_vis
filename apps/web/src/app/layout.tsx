@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import 'leaflet/dist/leaflet.css';
 import './globals.css';
+import './theme.css';
 
 const SITE_URL = 'https://ina299.github.io/local_gov_vis/';
 const TITLE = '地方自治体予算マップ';
@@ -35,6 +36,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
+      <head>
+        {/* 見出し・数字用の Inter と本文用の Noto Sans JP（theme.css の書体トークン。無ければ端末のゴシックに落ちる） */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;600&display=swap"
+        />
+      </head>
       <body>{children}</body>
     </html>
   );
