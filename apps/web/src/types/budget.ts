@@ -172,6 +172,23 @@ export interface RoadFunding {
   };
 }
 
+/**
+ * 衆議院議員総選挙（小選挙区）の結果。総務省の候補者別・市区町村別得票数から作る。
+ * 「有権者の支持」であって首長の支持ではない。年度によらず同じ値（date の選挙）
+ */
+export interface Election {
+  name: string;
+  /** 執行日（YYYY-MM-DD） */
+  date: string;
+  /** この自治体が属する小選挙区（分割市は複数）と、その当選者・届出政党 */
+  districts: Array<{ district: string; winner: string; party: string }>;
+  /** 当選者の得票 ÷ 有効得票（この自治体内。複数選挙区は合算） */
+  winnerShare: number | null;
+  /** 当選者の得票率 − 自治体内で当選者以外の最多候補の得票率（負なら地元では別の候補が上）。都道府県は null */
+  winnerMargin: number | null;
+  source: string;
+}
+
 export interface LocalGovBudget {
   code: string;
   name: string;
@@ -198,6 +215,8 @@ export interface LocalGovBudget {
   safety?: Safety;
   /** 道路分の国費（配分）。年度によらず同じ値（配分年度は byYear のキー） */
   roadFunding?: RoadFunding;
+  /** 衆院選（小選挙区）の結果。年度によらず同じ値 */
+  election?: Election;
   perCapitaExpenditure?: number;
   /** 軽量データ municipal-all/{年度}.json では省略 */
   sourceUrl?: string;

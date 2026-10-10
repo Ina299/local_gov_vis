@@ -47,6 +47,9 @@ export const SEQUENTIAL_GOLDS = sequentialRamp('#c9a227');
 // インフラの茶色ランプ（土木・構造物の連想）
 export const SEQUENTIAL_BROWNS = sequentialRamp('#a0632a');
 
+// 選挙の紫ランプ（財政の青・人口の緑・指標の赤と紛れない色相）
+export const SEQUENTIAL_PURPLES = sequentialRamp('#6d4fc2');
+
 // 指標カテゴリごとの色ランプ（歳入・歳出: 青 / 人口: 緑 / 財政指標: 赤で危機感を強調 /
 // 平均所得: 金 / インフラ: 茶 / 業種割合・款・歳入項目: 円グラフの固定色と同じ色相の濃淡）
 export function rampFor(metricKey: MapMetricKey): string[] {
@@ -62,6 +65,7 @@ export function rampFor(metricKey: MapMetricKey): string[] {
     if (base) return cachedRamp(base);
   }
   const category = metricCategory(metricKey);
+  if (category === 'election') return SEQUENTIAL_PURPLES;
   if (category === 'population') return SEQUENTIAL_GREENS;
   if (category === 'money') return SEQUENTIAL_BLUES;
   if (category === 'infra') return SEQUENTIAL_BROWNS;

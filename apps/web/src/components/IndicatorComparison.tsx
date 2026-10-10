@@ -20,6 +20,7 @@ const CATEGORY_LABELS: Record<MetricCategory, string> = {
   labor: '就労',
   infra: 'インフラ',
   safety: '安全',
+  election: '選挙',
 };
 
 const WIDTH = 900;

@@ -203,6 +203,33 @@ select {
   background: var(--hair);
 }
 
+/* 年度のプルダウン（ヘッダー上。切替ボタンと同じ高さ・角丸） */
+.year-select select {
+  min-height: 36px;
+  padding: 0 32px 0 var(--sp-2);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: var(--radius-btn);
+  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M2 4l4 4 4-4' fill='none' stroke='%23ffffff' stroke-width='1.6'/%3E%3C/svg%3E") no-repeat right 10px center;
+  color: #fff;
+  font-size: 13px;
+  font-weight: var(--fw-bold);
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+.year-select select option {
+  color: var(--ink);
+}
+
+.year-select select:disabled {
+  color: rgba(255, 255, 255, 0.78);
+  font-weight: var(--fw-medium);
+  cursor: default;
+  background-image: none;
+  padding-right: var(--sp-2);
+}
+
 /* ---------- 地図の上の部品 ---------- */
 .search-input {
   min-height: var(--tap);

@@ -896,6 +896,45 @@ export function Sidebar({
         </div>
       )}
 
+      {def.category === 'election' && selectedRegion.election && (
+        <div className="budget-card">
+          <h3>衆院選（小選挙区）</h3>
+          <div className="budget-list">
+            {selectedRegion.election.districts.map((d) => (
+              <div className="budget-item" key={d.district}>
+                <div className="budget-item-head">
+                  <span>{d.district}</span>
+                  <span className="budget-item-value">{d.winner}</span>
+                </div>
+                <div className="budget-item-share">当選・{d.party}</div>
+              </div>
+            ))}
+            {selectedRegion.election.winnerShare !== null && (
+              <div className="budget-item">
+                <div className="budget-item-head">
+                  <span>当選者の地元得票率</span>
+                  <span className="budget-item-value">{(selectedRegion.election.winnerShare * 100).toFixed(1)}%</span>
+                </div>
+              </div>
+            )}
+            {selectedRegion.election.winnerMargin !== null && (
+              <div className="budget-item">
+                <div className="budget-item-head">
+                  <span>地元での差（対 次点候補）</span>
+                  <span className="budget-item-value">
+                    {selectedRegion.election.winnerMargin >= 0 ? '+' : ''}
+                    {(selectedRegion.election.winnerMargin * 100).toFixed(1)}pt
+                  </span>
+                </div>
+              </div>
+            )}
+          </div>
+          <p className="attribution">
+            {selectedRegion.election.name}（{selectedRegion.election.date}）。有権者の投票であって首長の支持ではありません。出典: {selectedRegion.election.source}
+          </p>
+        </div>
+      )}
+
       {def.category === 'safety' && selectedRegion.safety && (
         <div className="budget-card">
           <h3>安全（{selectedRegion.fiscalYear}年中）</h3>
@@ -1002,6 +1041,8 @@ export function Sidebar({
           インフラ: 公共施設状況調（総務省・各年度期首＝前年度末時点）／水道管・病院は内閣府「見える化DB」（地方公営企業決算・医療施設調査、各年度）／橋梁は道路メンテナンス年報（国土交通省・2020〜2024年度点検）
           <br />
           安全: 交通事故統計情報オープンデータ／犯罪統計（警察庁・各年）
+          <br />
+          衆院選: 衆議院議員総選挙 速報結果 候補者別市区町村別得票数（総務省・第51回 2026年2月8日執行）
           <br />
           道路の国費（配分）: 道路関係予算配分について・都道府県別 箇所表「社会資本整備総合交付金の配分（道路分）」（国土交通省 道路局・令和5〜8年度当初配分の想定国費。事業実施主体ごとに合計）
           <br />

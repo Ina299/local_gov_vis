@@ -17,6 +17,8 @@ export type MapMetricKey =
   | 'roadFunding'
   | 'roadFundingChange'
   | 'roadFundingAnomaly'
+  | 'electionWinnerMargin'
+  | 'electionWinnerShare'
   | 'population'
   | 'populationDensity'
   | 'elderlyRatio'
@@ -55,7 +57,7 @@ export type MapMetricKey =
   | 'sexualAssaults';
 
 /** ハンバーガーメニューで選ぶ表示カテゴリ */
-export type MetricCategory = 'money' | 'population' | 'fiscal' | 'labor' | 'infra' | 'safety';
+export type MetricCategory = 'money' | 'population' | 'fiscal' | 'labor' | 'infra' | 'safety' | 'election';
 
 export interface MetricDef {
   key: MapMetricKey;
@@ -97,6 +99,13 @@ export interface MetricDef {
    * 選択中は年度トグルを無効化し、推移グラフも出さない
    */
   yearIndependent?: boolean;
+  /** yearIndependent の指標で、年度の代わりに出す「いつ時点の値か」（例: 2026年度 配分） */
+  asOf?: string;
+  /**
+   * 同じデータの見方違い（配分額／前年度比／要確認度など）をヘッダーで 1 つのボタンにまとめ、
+   * 選んだときだけ下の段に見方の切替を出す。key が同じ指標が 1 つの組
+   */
+  group?: { key: string; label: string; variant: string };
   /**
    * 都道府県別のみの指標（犯罪統計等。市区町村別の全国統計が存在しない）。
    * 選択中は市区町村ビューへの切替・ドリルダウンを無効化する
@@ -203,7 +212,9 @@ export const METRICS: MetricDef[] = [
     label: '道路の国費（配分）',
     kind: 'money',
     category: 'money',
+    group: { key: 'roadFunding', label: '道路の国費', variant: '配分額' },
     yearIndependent: true,
+    asOf: '2026年度 配分',
     description:
       '国交省が毎年4月に配分する社会資本整備総合交付金・防災・安全交付金のうち、この自治体が実施する道路工区に充てる想定国費（最新の配分年度）。決算ではなく当初配分で、国庫支出金の中に含まれる',
   },
@@ -212,7 +223,9 @@ export const METRICS: MetricDef[] = [
     label: '道路の国費 前年度比',
     kind: 'changeRatio',
     category: 'money',
+    group: { key: 'roadFunding', label: '道路の国費', variant: '前年度比' },
     yearIndependent: true,
+    asOf: '2025→2026年度 配分',
     description:
       '道路の国費（配分）の、最新の配分年度と前年度の比。工事の完了・新規採択で毎年大きく動くので、減っていること自体は異常ではない。県内で突出して減っている自治体を見つける目印',
   },
@@ -221,7 +234,9 @@ export const METRICS: MetricDef[] = [
     label: '道路の国費 要確認度',
     kind: 'index',
     category: 'money',
+    group: { key: 'roadFunding', label: '道路の国費', variant: '要確認度' },
     yearIndependent: true,
+    asOf: '2025→2026年度 配分',
     description:
       '道路の国費の減り方が、工事の進捗や県全体の増減では説明しにくい度合い（0以上。大きいほど要確認）。両年度にある工区だけで比べ、同じ県・同じ交付金の他の市区町村の増減を差し引いた残差を全国で標準化し、工区が一斉に減っているほど重くした値。警報ではなく、国交省の箇所表で理由を確かめる優先度',
   },
@@ -531,6 +546,25 @@ export const METRICS: MetricDef[] = [
       '人口10万人あたりの不同意性交等（2023年改正前は強姦・強制性交等）の認知件数（警察庁 犯罪統計・各年の1〜12月中。都道府県のみ）',
     prefOnly: true,
   },
+  {
+    key: 'electionWinnerMargin',
+    label: '当選者の地元での差',
+    kind: 'changeRatio',
+    category: 'election',
+    yearIndependent: true,
+    asOf: '2026年2月 衆院選',
+    description:
+      '直近の衆院選（小選挙区）で、その小選挙区の当選者が、この自治体の中で得た得票率と、自治体内で当選者以外の最多候補の得票率との差。マイナスなら、この自治体の有権者は別の候補を上位にしていた。有権者の投票であって首長の支持ではない',
+  },
+  {
+    key: 'electionWinnerShare',
+    label: '当選者の地元得票率',
+    kind: 'ratio',
+    category: 'election',
+    yearIndependent: true,
+    asOf: '2026年2月 衆院選',
+    description: '直近の衆院選（小選挙区）で、その小選挙区の当選者がこの自治体の中で得た得票率（複数の小選挙区にまたがる市は合算）',
+  },
 ];
 
 /** 業種割合指標 → 国勢調査の産業大分類名 */
@@ -550,6 +584,27 @@ export function metricCategory(key: MapMetricKey): MetricCategory {
 }
 
 /** カテゴリ内でトグル表示する指標キー */
+/** ヘッダーのボタン列: 組（group）は代表 1 つにまとめる。選択中の指標が組に属するならそれを代表にする */
+export function headerEntries(category: MetricCategory, current: MapMetricKey): Array<{ key: MapMetricKey; label: string; groupKey?: string }> {
+  const entries: Array<{ key: MapMetricKey; label: string; groupKey?: string }> = [];
+  const seen = new Set<string>();
+  for (const key of categoryKeys(category)) {
+    const def = metricDef(key);
+    if (!def.group) { entries.push({ key, label: def.label }); continue; }
+    if (seen.has(def.group.key)) continue;
+    seen.add(def.group.key);
+    const currentDef = metricDef(current);
+    const representative = currentDef.group?.key === def.group.key ? current : key;
+    entries.push({ key: representative, label: def.group.label, groupKey: def.group.key });
+  }
+  return entries;
+}
+
+/** 組に属する指標の見方一覧（組の下段の切替） */
+export function groupVariants(groupKey: string): Array<{ key: MapMetricKey; label: string }> {
+  return METRICS.filter((m) => m.group?.key === groupKey).map((m) => ({ key: m.key, label: m.group!.variant }));
+}
+
 export function categoryKeys(category: MetricCategory): MapMetricKey[] {
   return METRICS.filter((m) => m.category === category).map((m) => m.key);
 }
@@ -568,6 +623,11 @@ export function metricValue(
   const def = metricDef(key);
 
   // 道路の国費は kind が money でも budgetItem ではなく roadFunding から引く（money の分岐より先に判定する）
+  if (key === 'electionWinnerMargin' || key === 'electionWinnerShare') {
+    const election = budget.election;
+    if (!election) return null;
+    return key === 'electionWinnerMargin' ? election.winnerMargin : election.winnerShare;
+  }
   if (key === 'roadFunding' || key === 'roadFundingChange' || key === 'roadFundingAnomaly') {
     const funding = budget.roadFunding;
     if (!funding) return null;

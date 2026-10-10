@@ -1,5 +1,8 @@
 import { describe, it, expect } from 'vitest';
-import { metricValue, formatMetricValue, metricCategory, metricDef, categoryKeys } from '../metrics';
+import { metricValue, formatMetricValue, metricCategory, metricDef, categoryKeys,
+  headerEntries,
+  groupVariants,
+} from '../metrics';
 import type { LocalGovBudget } from '@/types/budget';
 
 const budget: LocalGovBudget = {
@@ -157,6 +160,25 @@ describe('カテゴリ定義', () => {
     expect(metricValue(budget, 'roadFundingAnomaly', 'total')).toBeNull();
     expect(metricValue({ ...budget, roadFunding: { ...budget.roadFunding, anomaly: { score: 1.23, rank: 5, residualPct: -75, expectedPct: 4, routes: 4, decreased: 4 } } }, 'roadFundingAnomaly', 'total')).toBe(1.23);
     expect(metricDef('roadFundingChange').kind).toBe('changeRatio');
+  });
+
+  it('選挙カテゴリは当選者の地元での差（発散配色）と地元得票率。年度によらない', () => {
+    expect(categoryKeys('election')).toEqual(['electionWinnerMargin', 'electionWinnerShare']);
+    expect(metricDef('electionWinnerMargin').kind).toBe('changeRatio');
+    for (const key of ['electionWinnerMargin', 'electionWinnerShare'] as const) expect(metricDef(key).yearIndependent).toBe(true);
+    const base = { code: '09215', name: '那須烏山市', prefecture: '栃木県', fiscalYear: 2024, totalRevenue: 0, totalExpenditure: 0, expenditures: [], revenues: [] };
+    const budget = { ...base, election: { name: 'test', date: '2026-02-08', districts: [{ district: '栃木県第３区', winner: '甲', party: '乙党' }], winnerShare: 0.42, winnerMargin: -0.05, source: 's' } };
+    expect(metricValue(budget, 'electionWinnerShare', 'total')).toBe(0.42);
+    expect(metricValue(budget, 'electionWinnerMargin', 'total')).toBe(-0.05);
+    expect(metricValue(base, 'electionWinnerMargin', 'total')).toBeNull();
+  });
+
+  it('道路の国費の 3 指標はヘッダーで 1 つの組にまとまり、見方の切替が下段に出る', () => {
+    const entries = headerEntries('money', 'expenditure');
+    expect(entries.filter((e) => e.groupKey === 'roadFunding')).toHaveLength(1);
+    expect(entries.find((e) => e.groupKey === 'roadFunding')?.label).toBe('道路の国費');
+    expect(headerEntries('money', 'roadFundingAnomaly').find((e) => e.groupKey === 'roadFunding')?.key).toBe('roadFundingAnomaly');
+    expect(groupVariants('roadFunding').map((v) => v.label)).toEqual(['配分額', '前年度比', '要確認度']);
   });
 
   it('就労系の静的指標にはyearIndependentが立っている', () => {

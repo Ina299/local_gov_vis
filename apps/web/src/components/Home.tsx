@@ -14,6 +14,8 @@ import {
   categoryKeys,
   type MapMetricKey,
   type MetricCategory,
+  headerEntries,
+  groupVariants,
 } from '@/lib/metrics';
 import { dataUrl } from '@/lib/paths';
 import { fetchJson } from '@/lib/fetchJson';
@@ -40,6 +42,7 @@ const CATEGORY_DEFAULT_KEY: Record<MetricCategory, MapMetricKey> = {
   labor: 'avgIncome',
   infra: 'roadPerCapita',
   safety: 'trafficAccidents',
+  election: 'electionWinnerMargin',
 };
 
 /** 表示階層: 全国（都道府県） / 全国（市区町村） / 特定都道府県内の市区町村 */
@@ -683,19 +686,20 @@ export default function Home({ initialView = 'map' }: HomeProps) {
         <h1>地方自治体予算マップ</h1>
         <div className="header-controls">
           {!comparisonOpen && <div className="header-toggles">
-            {/* 単年公表の統計（課税状況調・国勢調査）では年度切替に意味がないので出さない */}
-            {!yearIndependent && (
-              <div className="metric-toggle" role="group" aria-label="年度">
-                {years.filter((y) => maxYear === undefined || y <= maxYear).map((y) => (
-                  <button
-                    key={y}
-                    className={`metric-toggle-button ${year === y ? 'active' : ''}`}
-                    onClick={() => setYear(y)}
-                    aria-pressed={year === y}
-                  >
-                    {y}
-                  </button>
-                ))}
+            {/* 年度はプルダウン。年度によらない指標（単年公表の統計・配分・選挙）では消さずに、いつ時点の値かを出して無効にする */}
+            {yearIndependent ? (
+              <div className="year-select year-select--fixed" title="この指標は年度によらない値です">
+                <select aria-label="年度" value="fixed" disabled>
+                  <option value="fixed">{metricDef(metricKey).asOf ?? '年度によらない'}</option>
+                </select>
+              </div>
+            ) : (
+              <div className="year-select">
+                <select aria-label="年度" value={year ?? ''} onChange={(e) => setYear(Number(e.target.value))}>
+                  {years.filter((y) => maxYear === undefined || y <= maxYear).map((y) => (
+                    <option key={y} value={y}>{y}年度</option>
+                  ))}
+                </select>
               </div>
             )}
             <div
@@ -703,21 +707,38 @@ export default function Home({ initialView = 'map' }: HomeProps) {
               role="group"
               aria-label="表示指標"
             >
-              {categoryKeys(category).map((key) => {
-                const def = metricDef(key);
+              {headerEntries(category, metricKey).map((entry) => {
+                const def = metricDef(entry.key);
+                const active = entry.groupKey ? metricDef(metricKey).group?.key === entry.groupKey : metricKey === entry.key;
                 return (
                   <button
-                    key={key}
-                    className={`metric-toggle-button ${metricKey === key ? 'active' : ''}`}
-                    onClick={() => setMetricKey(key)}
-                    aria-pressed={metricKey === key}
-                    title={def.description}
+                    key={entry.key}
+                    className={`metric-toggle-button ${active ? 'active' : ''}`}
+                    onClick={() => setMetricKey(entry.key)}
+                    aria-pressed={active}
+                    title={entry.groupKey ? `${entry.label}（${groupVariants(entry.groupKey).map((v) => v.label).join('・')}）` : def.description}
                   >
-                    {def.label}
+                    {entry.label}
                   </button>
                 );
               })}
             </div>
+            {/* 組（道路の国費など）を選んだときだけ、見方の切替を下の段に出す（総額／一人当たりと同じ作法） */}
+            {metricDef(metricKey).group && (
+              <div className="metric-toggle" role="group" aria-label={`${metricDef(metricKey).group!.label}の見方`}>
+                {groupVariants(metricDef(metricKey).group!.key).map((v) => (
+                  <button
+                    key={v.key}
+                    className={`metric-toggle-button ${metricKey === v.key ? 'active' : ''}`}
+                    onClick={() => setMetricKey(v.key)}
+                    aria-pressed={metricKey === v.key}
+                    title={metricDef(v.key).description}
+                  >
+                    {v.label}
+                  </button>
+                ))}
+              </div>
+            )}
             {category === 'money' && metricDef(metricKey).kind === 'money' && (
               <div className="metric-toggle" role="group" aria-label="表示スケール">
                 {(Object.keys(SCALE_LABELS) as MapScale[]).map((s) => (
