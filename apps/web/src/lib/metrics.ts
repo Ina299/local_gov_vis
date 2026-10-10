@@ -18,6 +18,7 @@ export type MapMetricKey =
   | 'roadFundingChange'
   | 'roadFundingAnomaly'
   | 'electionWinnerParty'
+  | 'electionWinnerChange'
   | 'electionWinnerMargin'
   | 'electionWinnerShare'
   | 'population'
@@ -563,6 +564,15 @@ export const METRICS: MetricDef[] = [
     description: '直近の衆院選（小選挙区）で、この自治体が属する小選挙区の当選者の届出政党（複数の小選挙区にまたがる市は、この市で最も得票した当選者の政党）',
   },
   {
+    key: 'electionWinnerChange',
+    label: '当選者の交代',
+    kind: 'category',
+    category: 'election',
+    yearIndependent: true,
+    muniOnly: true,
+    description: '選んだ衆院選で、この自治体の小選挙区の当選者が前回の衆院選から替わったか。「同じ当選者」「当選者が交代（同じ党）」「政党が交代」の3区分。前回の記載が無い自治体はデータなし',
+  },
+  {
     key: 'electionWinnerMargin',
     label: '当選者の地元での差',
     kind: 'changeRatio',
@@ -643,7 +653,25 @@ export function electionOf(budget: LocalGovBudget, electionYear: number | null) 
 export function metricLabelValue(budget: LocalGovBudget | undefined, key: MapMetricKey, electionYear: number | null = null): string | null {
   if (!budget) return null;
   if (key === 'electionWinnerParty') return electionOf(budget, electionYear)?.winnerParty ?? null;
+  if (key === 'electionWinnerChange') return winnerChange(budget, electionYear);
   return null;
+}
+
+/** 当選者の交代区分。選んだ選挙と、その直前の選挙（この自治体に記載があるもの）を比べる */
+export const WINNER_CHANGE_LABELS = ['同じ当選者', '当選者が交代（同じ党）', '政党が交代'] as const;
+const personKey = (name: string) => name.normalize('NFKC').replace(/[\s　]+/g, '');
+export function winnerChange(budget: LocalGovBudget, electionYear: number | null): (typeof WINNER_CHANGE_LABELS)[number] | null {
+  const current = electionOf(budget, electionYear);
+  if (!current) return null;
+  const list = budget.elections ?? [];
+  const previous = [...list].filter((e) => e.year < current.year).sort((a, b) => b.year - a.year)[0];
+  if (!previous) return null;
+  const now = new Set(current.districts.map((d) => personKey(d.winner)));
+  const before = new Set(previous.districts.map((d) => personKey(d.winner)));
+  // 複数の小選挙区にまたがる市は、代表の当選者（winnerParty の根拠）が残っていれば「同じ」とみなす
+  const same = Array.from(now).some((n) => before.has(n));
+  if (same) return WINNER_CHANGE_LABELS[0];
+  return current.winnerParty !== null && current.winnerParty === previous.winnerParty ? WINNER_CHANGE_LABELS[1] : WINNER_CHANGE_LABELS[2];
 }
 
 export function metricValue(

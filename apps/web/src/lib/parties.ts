@@ -23,3 +23,17 @@ export function partyColor(party: string | null): string | null {
   if (party === null) return null;
   return PARTY_COLORS[party] ?? PARTY_OTHER_COLOR;
 }
+
+/** 当選者の交代の区分色（同じ＝薄い灰、交代（同党）＝琥珀、政党交代＝紫） */
+export const WINNER_CHANGE_COLORS: Record<string, string> = {
+  同じ当選者: '#d9dde3',
+  '当選者が交代（同じ党）': '#e8a33d',
+  政党が交代: '#6d4fc2',
+};
+
+/** 区分の指標の値 → 色 */
+export function categoryColor(metricKey: string, label: string | null): string | null {
+  if (label === null) return null;
+  if (metricKey === 'electionWinnerChange') return WINNER_CHANGE_COLORS[label] ?? PARTY_OTHER_COLOR;
+  return partyColor(label);
+}

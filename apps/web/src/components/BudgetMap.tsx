@@ -1,5 +1,5 @@
 'use client';
-import { partyColor } from '@/lib/parties';
+import { categoryColor } from '@/lib/parties';
 
 import { useEffect, useRef, useCallback, useMemo, useState } from 'react';
 import {
@@ -482,7 +482,7 @@ export default function BudgetMap({
     const code = feature.properties.code;
     const isBackground = code.length === 2 && backgroundBudgetsByCode !== undefined;
     const value = metricValue(budgetFor(code), metricKey, scale, electionYear);
-    const categoryFill = isCategory ? partyColor(metricLabelValue(budgetFor(code), metricKey, electionYear)) ?? NO_DATA_COLOR : null;
+    const categoryFill = isCategory ? categoryColor(metricKey, metricLabelValue(budgetFor(code), metricKey, electionYear)) ?? NO_DATA_COLOR : null;
     return {
       fillColor: categoryFill ?? (signedBreaks
         ? getDivergingColor(
@@ -741,7 +741,7 @@ export default function BudgetMap({
         const label = metricLabelValue(b, metricKey, electionYear);
         if (label !== null) counts.set(label, (counts.get(label) ?? 0) + 1);
       }
-      const items = Array.from(counts.entries()).sort((a, b) => b[1] - a[1]).slice(0, 12).map(([label, n]) => ({ color: partyColor(label)!, label: `${label}（${n}）` }));
+      const items = Array.from(counts.entries()).sort((a, b) => b[1] - a[1]).slice(0, 12).map(([label, n]) => ({ color: categoryColor(metricKey, label)!, label: `${label}（${n}）` }));
       return items; // 「データなし」は凡例の共通処理が足す
     }
     if (signedBreaks) {

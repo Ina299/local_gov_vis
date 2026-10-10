@@ -164,7 +164,7 @@ describe('カテゴリ定義', () => {
   });
 
   it('選挙カテゴリは当選者の地元での差（発散配色）と地元得票率。年度によらない', () => {
-    expect(categoryKeys('election')).toEqual(['electionWinnerParty', 'electionWinnerMargin', 'electionWinnerShare']);
+    expect(categoryKeys('election')).toEqual(['electionWinnerParty', 'electionWinnerChange', 'electionWinnerMargin', 'electionWinnerShare']);
     expect(metricDef('electionWinnerParty').kind).toBe('category');
     expect(metricDef('electionWinnerParty').muniOnly).toBe(true);
     expect(metricDef('electionWinnerMargin').muniOnly).toBe(true);
@@ -181,6 +181,13 @@ describe('カテゴリ定義', () => {
     expect(metricLabelValue(budget, 'electionWinnerParty', 'total' as never)).toBeNull();
     expect(metricLabelValue(budget, 'electionWinnerParty', 2026)).toBe('乙党');
     expect(metricLabelValue(budget, 'electionWinnerParty')).toBe('乙党');
+    // 当選者の交代: 最新（2026）は前回（2024）と同じ当選者「甲」
+    expect(metricLabelValue(budget, 'electionWinnerChange')).toBe('同じ当選者');
+    expect(metricLabelValue(budget, 'electionWinnerChange', 2024)).toBeNull(); // 前回の記載なし
+    const changed = { ...base, elections: [e(50, 2024, 0.1), { ...e(51, 2026, 0.2), districts: [{ district: '栃木県第3区', winner: '丙', party: '丁党' }], winnerParty: '丁党' }] };
+    expect(metricLabelValue(changed, 'electionWinnerChange')).toBe('政党が交代');
+    const sameParty = { ...base, elections: [e(50, 2024, 0.1), { ...e(51, 2026, 0.2), districts: [{ district: '栃木県第3区', winner: '丙', party: '乙党' }] }] };
+    expect(metricLabelValue(sameParty, 'electionWinnerChange')).toBe('当選者が交代（同じ党）');
   });
 
   it('道路の国費の 3 指標はヘッダーで 1 つの組にまとまり、見方の切替が下段に出る', () => {
