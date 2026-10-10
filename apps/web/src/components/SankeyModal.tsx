@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { LocalGovBudget } from '@/types/budget';
 import { formatAmount } from '@/lib/format';
+import { dataUrl } from '@/lib/paths';
 import { GLOSSARY } from '@/lib/glossary';
 import { loadAverages, type BudgetAverages } from '@/lib/averages';
 import { MobileFlowMosaic } from '@/components/MobileFlowMosaic';
@@ -151,9 +152,7 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
   const showTip = (e: { clientX: number; clientY: number }, node: SankeyNode) =>
     setTip({ x: e.clientX, y: e.clientY, node });
 
-  const evaluationSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(
-    `${budget.name} 事務事業評価`
-  )}`;
+  const evaluationUrl = dataUrl(`/evaluations/?municipality=${encodeURIComponent(budget.code)}`);
 
   return (
     <div className="modal-overlay" onClick={onClose}>
@@ -174,12 +173,10 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
           <div className="modal-head-actions">
             <a
               className="text-button"
-              href={evaluationSearchUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              title="この自治体の事務事業評価（事業ごとの成果・コストの評価シート）を検索します"
+              href={evaluationUrl}
+              title="この自治体の事務事業評価と資料の取得状況を確認します。予算の款・項と個別事業は自動で対応付けません"
             >
-              事務事業評価を探す ↗
+              事務事業評価を読む →
             </a>
             <button className="modal-close" onClick={onClose} aria-label="閉じる">
               ×
