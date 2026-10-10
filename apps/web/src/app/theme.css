@@ -136,9 +136,14 @@ select {
   border-radius: var(--radius-btn);
 }
 
-/* 指標が多い行（歳入・歳出は 14 個）は右端で切らずに折り返す（スマホは横スクロール） */
+/* 主の指標列（行の右端）だけ折り返す。見方の切替（総額/一人当たり、配分額/前年度比…）は折り返さない（スマホは横スクロール） */
 @media (min-width: 769px) {
   .metric-toggle {
+    flex: 0 0 auto;
+    flex-wrap: nowrap;
+  }
+  .header-toggles > .metric-toggle:last-child {
+    flex: 0 1 auto;
     flex-wrap: wrap;
   }
 }
@@ -213,6 +218,7 @@ select {
 .header-controls .header-toggles {
   flex: 1;
   min-width: 0;
+  justify-content: flex-end; /* 操作はすべて右寄せ（スマホは横スクロールなので左から） */
 }
 
 /* 見方の切替（左）と主の指標列（右）を同じ行に置く。主の列が長ければその箱の中で折り返す */
@@ -220,9 +226,6 @@ select {
   .header-toggles {
     flex-wrap: nowrap;
     align-items: flex-start;
-  }
-  .header-toggles > .metric-toggle:last-child {
-    flex: 0 1 auto;
   }
 }
 
@@ -581,6 +584,10 @@ select {
   .header {
     gap: var(--sp-1);
     padding: var(--sp-1) var(--sp-2);
+  }
+
+  .header-controls .header-toggles {
+    justify-content: flex-start;
   }
 
   .header h1 {

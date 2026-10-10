@@ -101,8 +101,8 @@ export interface MetricDef {
    * 選択中は年度トグルを無効化し、推移グラフも出さない
    */
   yearIndependent?: boolean;
-  /** yearIndependent の指標で、年度の代わりに出す「いつ時点の値か」（例: 2026年度 配分） */
-  asOf?: string;
+  /** yearIndependent の指標で、年度の欄に出す年（例: 配分年度 2026）。無ければ選択中の年度をそのまま出す */
+  asOf?: number;
   /**
    * 同じデータの見方違い（配分額／前年度比／要確認度など）をヘッダーで 1 つのボタンにまとめ、
    * 選んだときだけ下の段に見方の切替を出す。key が同じ指標が 1 つの組
@@ -221,7 +221,7 @@ export const METRICS: MetricDef[] = [
     category: 'money',
     group: { key: 'roadFunding', label: '道路の国費', variant: '配分額' },
     yearIndependent: true,
-    asOf: '2026年度 配分',
+    asOf: 2026,
     description:
       '国交省が毎年4月に配分する社会資本整備総合交付金・防災・安全交付金のうち、この自治体が実施する道路工区に充てる想定国費（最新の配分年度）。決算ではなく当初配分で、国庫支出金の中に含まれる',
   },
@@ -232,7 +232,7 @@ export const METRICS: MetricDef[] = [
     category: 'money',
     group: { key: 'roadFunding', label: '道路の国費', variant: '前年度比' },
     yearIndependent: true,
-    asOf: '2025→2026年度 配分',
+    asOf: 2026,
     description:
       '道路の国費（配分）の、最新の配分年度と前年度の比。工事の完了・新規採択で毎年大きく動くので、減っていること自体は異常ではない。県内で突出して減っている自治体を見つける目印',
   },
@@ -243,7 +243,7 @@ export const METRICS: MetricDef[] = [
     category: 'money',
     group: { key: 'roadFunding', label: '道路の国費', variant: '要確認度' },
     yearIndependent: true,
-    asOf: '2025→2026年度 配分',
+    asOf: 2026,
     description:
       '道路の国費の減り方が、工事の進捗や県全体の増減では説明しにくい度合い（0以上。大きいほど要確認）。両年度にある工区だけで比べ、同じ県・同じ交付金の他の市区町村の増減を差し引いた残差を全国で標準化し、工区が一斉に減っているほど重くした値。警報ではなく、国交省の箇所表で理由を確かめる優先度',
   },

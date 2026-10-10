@@ -696,6 +696,20 @@ export default function Home({ initialView = 'map' }: HomeProps) {
         <div className="header-controls">
           {!comparisonOpen && <div className="header-toggles">
             {/* 見方の切替（総額／一人当たり、配分額／前年度比…）は主の指標列の左に置き、主の列の位置が動かないようにする */}
+            {category === 'money' && metricDef(metricKey).kind === 'money' && (
+              <div className="metric-toggle" role="group" aria-label="表示スケール">
+                {(Object.keys(SCALE_LABELS) as MapScale[]).map((s) => (
+                  <button
+                    key={s}
+                    className={`metric-toggle-button ${scale === s ? 'active' : ''}`}
+                    onClick={() => setScale(s)}
+                    aria-pressed={scale === s}
+                  >
+                    {SCALE_LABELS[s]}
+                  </button>
+                ))}
+              </div>
+            )}
             {/* 組（道路の国費など）を選んだときだけ、見方の切替を下の段に出す（総額／一人当たりと同じ作法） */}
             {metricDef(metricKey).group && (
               <div className="metric-toggle" role="group" aria-label={`${metricDef(metricKey).group!.label}の見方`}>
@@ -708,20 +722,6 @@ export default function Home({ initialView = 'map' }: HomeProps) {
                     title={metricDef(v.key).description}
                   >
                     {v.label}
-                  </button>
-                ))}
-              </div>
-            )}
-            {category === 'money' && metricDef(metricKey).kind === 'money' && (
-              <div className="metric-toggle" role="group" aria-label="表示スケール">
-                {(Object.keys(SCALE_LABELS) as MapScale[]).map((s) => (
-                  <button
-                    key={s}
-                    className={`metric-toggle-button ${scale === s ? 'active' : ''}`}
-                    onClick={() => setScale(s)}
-                    aria-pressed={scale === s}
-                  >
-                    {SCALE_LABELS[s]}
                   </button>
                 ))}
               </div>
@@ -753,14 +753,14 @@ export default function Home({ initialView = 'map' }: HomeProps) {
               <div className="year-select" title="表示する選挙">
                 <select aria-label="選挙" value={electionYear ?? ELECTION_YEARS[ELECTION_YEARS.length - 1]} onChange={(e) => setElectionYear(Number(e.target.value))}>
                   {ELECTION_YEARS.map((y) => (
-                    <option key={y} value={y}>{y}年 衆院選</option>
+                    <option key={y} value={y}>{y}年</option>
                   ))}
                 </select>
               </div>
             ) : yearIndependent ? (
-              <div className="year-select year-select--fixed" title="この指標は年度によらない値です">
+              <div className="year-select year-select--fixed" title="この指標は年度によらない値です（表示は値の年）">
                 <select aria-label="年度" value="fixed" disabled>
-                  <option value="fixed">{metricDef(metricKey).asOf ?? '年度によらない'}</option>
+                  <option value="fixed">{metricDef(metricKey).asOf ?? year}年度</option>
                 </select>
               </div>
             ) : (
