@@ -122,6 +122,8 @@ describe('カテゴリ定義', () => {
       'revenueLocalTax',
       'localAllocationTax',
       'revenueNationalTreasury',
+      'roadFunding',
+      'roadFundingChange',
     ]);
     expect(metricDef('expenditureCommerce').prefOnly).toBe(true);
     expect(metricDef('expenditureEducation').prefOnly).toBeUndefined();
@@ -138,6 +140,20 @@ describe('カテゴリ定義', () => {
       'foreignBirthRatio',
       'populationChange',
     ]);
+  });
+
+  it('道路の国費（配分）は最新の配分年度を使い、前年度比は両年度に記載がある自治体だけ', () => {
+    const base = { code: '09215', name: '那須烏山市', prefecture: '栃木県', fiscalYear: 2024, totalRevenue: 0, totalExpenditure: 0, expenditures: [], revenues: [], population: 25_000 };
+    const budget = { ...base, roadFunding: { byYear: { '2025': 137_000_000, '2026': 83_000_000 }, latestYear: 2026, source: 'test' } };
+    expect(metricValue(budget, 'roadFunding', 'total')).toBe(83_000_000);
+    expect(metricValue(budget, 'roadFunding', 'perCapita')).toBe(83_000_000 / 25_000);
+    expect(metricValue(budget, 'roadFundingChange', 'total')).toBeCloseTo(83 / 137 - 1, 6);
+    expect(metricValue({ ...base, roadFunding: { byYear: { '2025': 0, '2026': 5_000_000 }, latestYear: 2026, source: 'test' } }, 'roadFundingChange', 'total')).toBeNull();
+    expect(metricValue(base, 'roadFunding', 'total')).toBeNull();
+    expect(formatMetricValue(-0.394, 'roadFundingChange')).toBe('-39%');
+    expect(formatMetricValue(0.07, 'roadFundingChange')).toBe('+7.0%');
+    for (const key of ['roadFunding', 'roadFundingChange'] as const) expect(metricDef(key).yearIndependent).toBe(true);
+    expect(metricDef('roadFundingChange').kind).toBe('changeRatio');
   });
 
   it('就労系の静的指標にはyearIndependentが立っている', () => {

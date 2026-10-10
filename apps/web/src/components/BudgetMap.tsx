@@ -457,7 +457,7 @@ export default function BudgetMap({
   const invertColor = metricDef(metricKey).invertColor ?? false;
   const ramp = rampFor(metricKey);
   // 符号付き指標（増減数）は0中心の発散配色にする
-  const isDiverging = metricDef(metricKey).kind === 'change';
+  const isDiverging = ['change', 'changeRatio'].includes(metricDef(metricKey).kind);
   const signedBreaks = useMemo(
     () => (isDiverging ? computeSignedBreaks(metricValues(budgetsByCode, metricKey, scale)) : null),
     [isDiverging, budgetsByCode, metricKey, scale]

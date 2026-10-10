@@ -70,6 +70,7 @@ function main() {
         employment: b.employment,
         infrastructure: b.infrastructure,
         safety: b.safety,
+        roadFunding: b.roadFunding,
       });
     }
 

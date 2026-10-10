@@ -143,6 +143,18 @@ export interface Employment {
 }
 
 /** 自治体予算データ */
+/**
+ * 道路分の国費（配分）。国交省 道路局の都道府県別 箇所表「社会資本整備総合交付金の配分（道路分）」で、
+ * この自治体が事業実施主体の工区の想定国費（円）を配分年度ごとに合計したもの。当初配分（4月公表）であって決算ではない。
+ * 決算より新しい年度まであるため、全年度のレコードに同じ値を持たせ、地図では latestYear と前年度を使う
+ */
+export interface RoadFunding {
+  /** 配分年度（西暦）→ 想定国費（円）。箇所表に記載の無い年度は 0 */
+  byYear: Record<string, number>;
+  latestYear: number;
+  source: string;
+}
+
 export interface LocalGovBudget {
   code: string;
   name: string;
@@ -167,6 +179,8 @@ export interface LocalGovBudget {
   infrastructure?: Infrastructure;
   /** 安全（年度別。暦年中の交通事故） */
   safety?: Safety;
+  /** 道路分の国費（配分）。年度によらず同じ値（配分年度は byYear のキー） */
+  roadFunding?: RoadFunding;
   perCapitaExpenditure?: number;
   /** 軽量データ municipal-all/{年度}.json では省略 */
   sourceUrl?: string;

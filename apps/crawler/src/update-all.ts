@@ -29,6 +29,7 @@ const STEPS: Array<{ file: string; label: string }> = [
   { file: 'import-infrastructure.ts', label: 'インフラ 付与' },
   { file: 'import-safety.ts', label: '交通事故（安全）付与' },
   { file: 'import-crime.ts', label: '犯罪統計 付与（都道府県）' },
+  { file: 'import-road-funding.ts', label: '道路分の国費（配分）付与' },
   { file: 'build-municipal-all.ts', label: '全国市区町村ビュー 結合' },
   { file: 'build-averages.ts', label: '全国平均 算出' },
   { file: 'verify-data.ts', label: 'データ検証' },

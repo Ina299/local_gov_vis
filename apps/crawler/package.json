@@ -20,7 +20,8 @@
     "verify:data": "tsx src/verify-data.ts",
     "typecheck": "tsc --noEmit",
     "import:road-allocations": "tsx src/import-road-allocations.ts",
-    "analyze:road-allocations": "tsx src/analyze-road-allocations.ts"
+    "analyze:road-allocations": "tsx src/analyze-road-allocations.ts",
+    "import:road-funding": "tsx src/import-road-funding.ts && tsx src/build-municipal-all.ts"
   },
   "dependencies": {
     "adm-zip": "^0.5.18",

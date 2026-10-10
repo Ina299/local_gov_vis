@@ -718,7 +718,7 @@ export default function Home({ initialView = 'map' }: HomeProps) {
                 );
               })}
             </div>
-            {category === 'money' && (
+            {category === 'money' && metricDef(metricKey).kind === 'money' && (
               <div className="metric-toggle" role="group" aria-label="表示スケール">
                 {(Object.keys(SCALE_LABELS) as MapScale[]).map((s) => (
                   <button

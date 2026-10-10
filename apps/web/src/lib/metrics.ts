@@ -14,6 +14,8 @@ export type MapMetricKey =
   | 'revenueLocalTax'
   | 'localAllocationTax'
   | 'revenueNationalTreasury'
+  | 'roadFunding'
+  | 'roadFundingChange'
   | 'population'
   | 'populationDensity'
   | 'elderlyRatio'
@@ -59,7 +61,7 @@ export interface MetricDef {
   label: string;
   /**
    * money: 総額/一人当たり切替あり, index: 指数, ratio: 割合,
-   * population: 人数, density: 人口密度, change: 符号付き人数,
+   * population: 人数, density: 人口密度, change: 符号付き人数, changeRatio: 符号付きの増減率,
    * yenPerPerson: 1人あたり年額（スケール切替なし）,
    * meterPerPerson/sqmPerPerson: 1人あたりの長さ・面積,
    * per1000/per100k: 千人・10万人あたりの数（単位はunitで指定）
@@ -71,6 +73,7 @@ export interface MetricDef {
     | 'ratio'
     | 'density'
     | 'change'
+    | 'changeRatio'
     | 'yenPerPerson'
     | 'meterPerPerson'
     | 'sqmPerPerson'
@@ -193,6 +196,24 @@ export const METRICS: MetricDef[] = [
     category: 'money',
     budgetItem: { list: 'revenues', name: '国庫支出金' },
     description: '使いみちが決められた国からの補助金・負担金',
+  },
+  {
+    key: 'roadFunding',
+    label: '道路の国費（配分）',
+    kind: 'money',
+    category: 'money',
+    yearIndependent: true,
+    description:
+      '国交省が毎年4月に配分する社会資本整備総合交付金・防災・安全交付金のうち、この自治体が実施する道路工区に充てる想定国費（最新の配分年度）。決算ではなく当初配分で、国庫支出金の中に含まれる',
+  },
+  {
+    key: 'roadFundingChange',
+    label: '道路の国費 前年度比',
+    kind: 'changeRatio',
+    category: 'money',
+    yearIndependent: true,
+    description:
+      '道路の国費（配分）の、最新の配分年度と前年度の比。工事の完了・新規採択で毎年大きく動くので、減っていること自体は異常ではない。県内で突出して減っている自治体を見つける目印',
   },
   {
     key: 'population',
@@ -536,6 +557,22 @@ export function metricValue(
   if (!budget) return null;
   const def = metricDef(key);
 
+  // 道路の国費は kind が money でも budgetItem ではなく roadFunding から引く（money の分岐より先に判定する）
+  if (key === 'roadFunding' || key === 'roadFundingChange') {
+    const funding = budget.roadFunding;
+    if (!funding) return null;
+    const latest = funding.byYear[String(funding.latestYear)];
+    if (key === 'roadFunding') {
+      if (latest === undefined) return null;
+      if (scale === 'perCapita') return budget.population ? latest / budget.population : null;
+      return latest;
+    }
+    const previous = funding.byYear[String(funding.latestYear - 1)];
+    // どちらかの年度に記載が無い（0円）自治体は比を作らない（新規・終了は増減率にならない）
+    if (!latest || !previous) return null;
+    return latest / previous - 1;
+  }
+
   if (def.kind === 'money') {
     // 内訳項目（款・歳入項目）はリストにない場合0円（不交付団体の地方交付税等）とみなす
     const item = def.budgetItem;
@@ -685,6 +722,10 @@ export function formatMetricValue(value: number, key: MapMetricKey): string {
     case 'per1000':
     case 'per100k':
       return `${value.toFixed(1)}${def.unit ?? ''}`;
+    case 'changeRatio': {
+      const pct = (Math.abs(value) * 100).toFixed(value !== 0 && Math.abs(value) < 0.1 ? 1 : 0);
+      return value < 0 ? `-${pct}%` : `+${pct}%`;
+    }
     case 'change': {
       const abs = Math.abs(value);
       const formatted =

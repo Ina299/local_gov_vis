@@ -30,6 +30,9 @@ npm run -w @local-gov/crawler import:employment       # 就労・所得（課税
 npm run -w @local-gov/crawler import:infrastructure   # インフラ（公共施設状況調: 道路・公園・公営住宅・下水道＋見える化DB: 水道管・病院＋メンテ年報: 橋梁点検）を付与＋municipal-all再生成
 npm run -w @local-gov/crawler import:safety           # 安全（警察庁 交通事故オープンデータの市区町村別集計・年度別）を付与＋municipal-all再生成
 npm run -w @local-gov/crawler import:crime            # 犯罪統計（刑法犯・殺人・強盗・侵入盗・不同意性交等。都道府県のみ・年度別）を付与
+npm run -w @local-gov/crawler import:road-allocations  # 国交省 道路局の都道府県別 箇所表 PDF（令和5〜8年度）から市区町村別の道路分想定国費を抽出 → data/road-allocations/
+npm run -w @local-gov/crawler import:road-funding      # 道路分の国費（配分）を予算JSONに付与＋municipal-all再生成（import:road-allocations の後）
+npm run -w @local-gov/crawler analyze:road-allocations # 市区町村別の前年度比を全国分布で順位付けした検証レポート（apps/crawler/output/road-allocations/report.md）
 npm run -w @local-gov/crawler build:averages          # 全国中央値等の集計（budget-averages.json。金額を変える再取込後に必須）
 npm run -w @local-gov/crawler build:topo              # 境界GeoJSON（data/geo）→TopoJSONに変換してapps/web/publicへ配置（geo更新時のみ）
 npm run -w @local-gov/crawler build:og                # OGP画像を生成（トップ用og.png＋指標別og/{指標}.png。手動実行・要日本語フォント環境）
