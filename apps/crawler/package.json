@@ -18,12 +18,15 @@
     "build:og": "tsx src/build-og.ts",
     "update:all": "tsx src/update-all.ts",
     "verify:data": "tsx src/verify-data.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "import:road-allocations": "tsx src/import-road-allocations.ts",
+    "analyze:road-allocations": "tsx src/analyze-road-allocations.ts"
   },
   "dependencies": {
     "adm-zip": "^0.5.18",
     "csv-parse": "^5.5.0",
-    "csv-stringify": "^6.4.0"
+    "csv-stringify": "^6.4.0",
+    "pdfjs-dist": "^4.10.38"
   },
   "devDependencies": {
     "@resvg/resvg-js": "^2.6.2",
