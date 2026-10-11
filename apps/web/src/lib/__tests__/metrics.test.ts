@@ -159,7 +159,7 @@ describe('カテゴリ定義', () => {
     expect(formatMetricValue(0.07, 'roadFundingChange')).toBe('+7.0%');
     for (const key of ['roadFunding', 'roadFundingChange', 'roadFundingAnomaly'] as const) expect(metricDef(key).yearIndependent).toBe(true);
     expect(metricValue(budget, 'roadFundingAnomaly', 'total')).toBeNull();
-    expect(metricValue({ ...budget, roadFunding: { ...budget.roadFunding, anomaly: { score: 1.23, rank: 5, residualPct: -75, expectedPct: 4, routes: 4, decreased: 4 } } }, 'roadFundingAnomaly', 'total')).toBe(1.23);
+    expect(metricValue({ ...budget, roadFunding: { ...budget.roadFunding, anomaly: { score: 1.23, rank: 5, residualPct: -75, expectedPct: 4, routes: 4, decreased: 4, basis: 'continuing' as const } } }, 'roadFundingAnomaly', 'total')).toBe(1.23);
     expect(metricDef('roadFundingChange').kind).toBe('changeRatio');
   });
 

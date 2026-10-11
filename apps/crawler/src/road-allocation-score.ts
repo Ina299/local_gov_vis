@@ -35,6 +35,8 @@ export interface AnomalyScore {
   score: number;
   /** スコア順位（1 が最も説明しにくい）。score 0 は null */
   rank: number | null;
+  /** 比較の根拠。continuing = 継続工区、all = 継続工区が無く全工区で比べた予備のスコア（重みを 1/3 に） */
+  basis: 'continuing' | 'all';
 }
 
 export interface PairResult { from: number; to: number; scores: AnomalyScore[]; n: number; mad: number }
@@ -78,6 +80,7 @@ export function scorePair(prevFile: RoadAllocationFile, curFile: RoadAllocationF
     pool.set(pk, [...(pool.get(pk) ?? []), { key, log: Math.log(agg.cur / agg.prev) }]);
   }
   const scores: AnomalyScore[] = [];
+  const scoredKeys = new Set<string>();
   for (const [key, frames] of byEntityFrame) {
     let contPrev = 0, contCur = 0, routes = 0, decreased = 0, expectedWeighted = 0, weight = 0;
     for (const [frame, agg] of frames) {
@@ -89,15 +92,38 @@ export function scorePair(prevFile: RoadAllocationFile, curFile: RoadAllocationF
     const logCont = Math.log(contCur / contPrev);
     const expected = weight > 0 ? expectedWeighted / weight : 0;
     const info = b.names.get(key) ?? a.names.get(key)!;
+    scoredKeys.add(key);
     scores.push({ code: key, prefCode: key.slice(0, 2), name: info.name, prev: a.all.get(key) ?? 0, cur: b.all.get(key) ?? 0,
-      contPrev, contCur, logCont, expected, residual: logCont - expected, z: 0, routes, decreased, score: 0, rank: null });
+      contPrev, contCur, logCont, expected, residual: logCont - expected, z: 0, routes, decreased, score: 0, rank: null, basis: 'continuing' });
+  }
+  // 予備: 両年度に記載があるのに継続工区が無い市区町村は、全工区の増減で比べる（完了・新規の影響を含むので重みを落とす）
+  const allLogs = new Map<string, number[]>();
+  for (const key of Array.from(a.all.keys())) {
+    if (!isMunicipality(key) || !(a.all.get(key)! > 0) || !(b.all.get(key)! > 0)) continue;
+    allLogs.set(key.slice(0, 2), [...(allLogs.get(key.slice(0, 2)) ?? []), Math.log(b.all.get(key)! / a.all.get(key)!)]);
+  }
+  for (const key of Array.from(a.all.keys())) {
+    if (scoredKeys.has(key) || !isMunicipality(key)) continue;
+    const prev = a.all.get(key)!, cur = b.all.get(key) ?? 0;
+    if (!(prev > 0) || !(cur > 0)) continue;
+    const logAll = Math.log(cur / prev);
+    const others = (allLogs.get(key.slice(0, 2)) ?? []);
+    const expected = others.length >= 4 ? median(others) : 0;
+    const info = b.names.get(key) ?? a.names.get(key)!;
+    scores.push({ code: key, prefCode: key.slice(0, 2), name: info.name, prev, cur, contPrev: prev, contCur: cur, logCont: logAll, expected, residual: logAll - expected, z: 0, routes: 0, decreased: 0, score: 0, rank: null, basis: 'all' });
   }
   // 頑健な標準化（中央値と MAD）
-  const residuals = scores.map((s) => s.residual);
+  // 標準化の基準は継続工区で比べた本来のスコアの分布（予備のスコアは同じ物差しに当てる）
+  const residuals = scores.filter((s) => s.basis === 'continuing').map((s) => s.residual);
   const med = median(residuals);
   const mad = median(residuals.map((r) => Math.abs(r - med))) * 1.4826 || 1;
   for (const s of scores) {
     s.z = (s.residual - med) / mad;
+    if (s.basis === 'all') {
+      // 継続工区なし: 一斉減の情報が無いので中間の係数、工区数の割引は最小（1/3）
+      s.score = Math.max(0, -s.z) * 0.75 * (1 / 3);
+      continue;
+    }
     const coherence = s.decreased / s.routes; // 減った工区の割合
     const shrink = s.routes / (s.routes + 2); // 工区が少ない自治体は偶然で動くので割り引く
     s.score = Math.max(0, -s.z) * (0.5 + 0.5 * coherence) * shrink;

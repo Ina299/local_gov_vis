@@ -72,7 +72,9 @@ function patchFile(path: string, byCode: Map<string, Record<string, number>>, ye
     const a = anomaly.get(b.code);
     b.roadFunding = {
       byYear, latestYear: Math.max(...years), source,
-      ...(a ? { anomaly: { score: Math.round(a.score * 100) / 100, rank: a.rank, residualPct: Math.round((Math.exp(a.logCont) - 1) * 100), expectedPct: Math.round((Math.exp(a.expected) - 1) * 100), routes: a.routes, decreased: a.decreased } } : {}),
+      // 要確認度を作れない理由を残す（地図で「欠損」と「対象外」を分けるため）
+      anomalyStatus: a ? (a.basis === 'all' ? 'scored-all-routes' : 'scored') : (byYear[String(Math.max(...years))] > 0 && byYear[String(Math.max(...years) - 1)] > 0 ? 'no-comparison' : 'single-year'),
+      ...(a ? { anomaly: { score: Math.round(a.score * 100) / 100, rank: a.rank, residualPct: Math.round((Math.exp(a.logCont) - 1) * 100), expectedPct: Math.round((Math.exp(a.expected) - 1) * 100), routes: a.routes, decreased: a.decreased, basis: a.basis } } : {}),
     } satisfies RoadFunding;
     patched++;
   }

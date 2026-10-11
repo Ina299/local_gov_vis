@@ -1,6 +1,9 @@
 'use client';
 import { categoryColor } from '@/lib/parties';
 
+/** 欠損ではなく「対象外」を示す薄い灰色（要確認度の新規・終了など） */
+const EXCLUDED_COLOR = '#d9dde3';
+
 import { useEffect, useRef, useCallback, useMemo, useState } from 'react';
 import {
   MapContainer,
@@ -483,8 +486,10 @@ export default function BudgetMap({
     const isBackground = code.length === 2 && backgroundBudgetsByCode !== undefined;
     const value = metricValue(budgetFor(code), metricKey, scale, electionYear);
     const categoryFill = isCategory ? categoryColor(metricKey, metricLabelValue(budgetFor(code), metricKey, electionYear)) ?? NO_DATA_COLOR : null;
+    // 要確認度: 記載はあるが前年度比を作れない自治体（新規・終了）は欠損ではなく「対象外」の薄い灰色
+    const excludedFill = metricKey === 'roadFundingAnomaly' && value === null && budgetFor(code)?.roadFunding ? EXCLUDED_COLOR : null;
     return {
-      fillColor: categoryFill ?? (signedBreaks
+      fillColor: categoryFill ?? excludedFill ?? (signedBreaks
         ? getDivergingColor(
             value,
             (isBackground ? backgroundSignedBreaks : signedBreaks) ?? signedBreaks
@@ -772,7 +777,7 @@ export default function BudgetMap({
     }
     if (breaks.length === 0) return [];
     const classCount = breaks.length + 1;
-    return Array.from({ length: classCount }, (_, i) => {
+    const classes = Array.from({ length: classCount }, (_, i) => {
       const color = classColor(ramp, invertColor ? breaks.length - i : i, classCount);
       let label: string;
       if (i === 0) {
@@ -784,6 +789,8 @@ export default function BudgetMap({
       }
       return { color, label };
     });
+    if (metricKey === 'roadFundingAnomaly') classes.push({ color: EXCLUDED_COLOR, label: '対象外（前年度比なし: 新規・終了）' });
+    return classes;
   }, [breaks, metricKey, invertColor, ramp, signedBreaks, isCategory, budgetsByCode, electionYear]);
 
   return (

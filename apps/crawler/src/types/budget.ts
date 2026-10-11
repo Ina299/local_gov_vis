@@ -146,6 +146,11 @@ export interface RoadFunding {
    * 継続工区の増減から同じ県・同じ交付金の他市区町村の中央値（expectedPct）を引いた残差を全国で標準化し、
    * 継続工区が一斉に減っているほど・工区数が多いほど重くした値。両年度に継続工区が無い自治体は無し
    */
+  /**
+   * 要確認度の状態。scored = 継続工区で算出、scored-all-routes = 継続工区が無く全工区で算出した予備の値、
+   * single-year = 最新ペアの片方の年度にしか記載がない（新規・終了）、no-comparison = 両年度あるが比較できない
+   */
+  anomalyStatus?: 'scored' | 'scored-all-routes' | 'single-year' | 'no-comparison';
   anomaly?: {
     /** 0 以上。大きいほど説明しにくい減額 */
     score: number;
@@ -157,6 +162,8 @@ export interface RoadFunding {
     expectedPct: number;
     routes: number;
     decreased: number;
+    /** continuing = 継続工区で比較、all = 全工区で比較（予備） */
+    basis: 'continuing' | 'all';
   };
 }
 

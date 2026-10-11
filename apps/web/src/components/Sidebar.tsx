@@ -607,18 +607,26 @@ export function Sidebar({
         <div className="budget-amount">
           {def.kind === 'category'
             ? (metricLabelValue(selectedRegion, metricKey, electionYear) ?? 'データなし')
-            : heroValue !== null ? formatMetricValue(heroValue, metricKey) : 'データなし'}
+            : heroValue !== null
+              ? formatMetricValue(heroValue, metricKey)
+              : metricKey === 'roadFundingAnomaly' && selectedRegion.roadFunding
+                ? '対象外'
+                : 'データなし'}
         </div>
         {(() => {
           // 前年度比・順位・中央値比較を「ラベル｜値」の行で揃える
           const rows: Array<{ label: string; node: React.ReactNode }> = [];
           // 要確認度の内訳（何を比べて高くなったか）。順位は全国のスコア順
           const anomaly = metricKey === 'roadFundingAnomaly' ? selectedRegion.roadFunding?.anomaly : undefined;
+          if (metricKey === 'roadFundingAnomaly' && !anomaly && selectedRegion.roadFunding) {
+            rows.push({ label: '理由', node: selectedRegion.roadFunding.anomalyStatus === 'single-year' ? '最新の配分年度ペアの片方にしか記載がない（新規・終了）' : '前年度と比較できない' });
+          }
           if (anomaly) {
             const signed = (v: number) => `${v >= 0 ? '+' : ''}${v}%`;
-            rows.push({ label: '継続工区の前年度比', node: signed(anomaly.residualPct) });
+            rows.push({ label: '比較の根拠', node: anomaly.basis === 'all' ? '全工区（継続工区なし・予備の値）' : '継続工区' });
+            rows.push({ label: anomaly.basis === 'all' ? '全工区の前年度比' : '継続工区の前年度比', node: signed(anomaly.residualPct) });
             rows.push({ label: '県内の他市区町村（中央値）', node: signed(anomaly.expectedPct) });
-            rows.push({ label: '減った工区', node: `${anomaly.decreased} / ${anomaly.routes}` });
+            if (anomaly.basis === 'continuing') rows.push({ label: '減った工区', node: `${anomaly.decreased} / ${anomaly.routes}` });
             if (anomaly.rank !== null) rows.push({ label: '全国順位（高い順）', node: `${anomaly.rank}位` });
           }
           if (yoy !== null) {
