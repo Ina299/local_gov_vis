@@ -192,6 +192,8 @@ export interface Election {
   winnerShare: number | null;
   /** 当選者の得票率 − 自治体内で当選者以外の最多候補の得票率（負なら地元では別の候補が上）。都道府県は null */
   winnerMargin: number | null;
+  /** 届出政党ごとの得票率（0〜1。この自治体内の有効得票に対する割合。得票の多い順） */
+  partyShare: Record<string, number>;
   source: string;
 }
 

@@ -115,12 +115,12 @@ type Cell = string | number | null | undefined;
 const num = (v: Cell) => (typeof v === 'number' ? v : Number(String(v ?? '').replace(/,/g, '')) || 0);
 const str = (v: Cell) => String(v ?? '').trim();
 
-interface MuniAgg { total: number; winnerVotes: number; othersMax: number; districts: Array<{ district: string; winner: string; party: string; votes: number }> }
+interface MuniAgg { total: number; winnerVotes: number; othersMax: number; partyVotes: Record<string, number>; districts: Array<{ district: string; winner: string; party: string; votes: number }> }
 
 function parsePrefecture(buffer: Buffer, prefCode: string, resolve: (p: string, n: string) => string | null, log: string[]) {
   const wb = XLSX.read(buffer, { type: 'buffer' });
   const byCode = new Map<string, MuniAgg>();
-  const districts: Array<{ district: string; winner: string; party: string; total: number; winnerVotes: number }> = [];
+  const districts: Array<{ district: string; winner: string; party: string; total: number; winnerVotes: number; partyTotals: Record<string, number> }> = [];
   for (const sheetName of wb.SheetNames) {
     const rows: Cell[][] = XLSX.utils.sheet_to_json(wb.Sheets[sheetName], { header: 1, raw: true, defval: null });
     // 2 つの様式がある。
@@ -134,7 +134,7 @@ function parsePrefecture(buffer: Buffer, prefCode: string, resolve: (p: string, 
     const totalCol = header.findIndex((v, i) => i >= firstCol && str(v) === '得票数計');
     const partyRow = rows.findIndex((r, i) => i > nameRow && /^(市区町村名|開票区名)/.test(str(r[0])));
     if (firstCol < 0 || totalCol <= firstCol || partyRow < 0) { log.push(`${sheetName}: 見出し行の形式が想定と違います`); continue; }
-    const candidates = header.slice(firstCol, totalCol).map((v, i) => ({ name: str(v).replace(/[\s\u3000]+/g, ''), party: str(rows[partyRow][firstCol + i]).replace(/^[（(]|[）)]$/g, '') }));
+    const candidates = header.slice(firstCol, totalCol).map((v, i) => ({ name: str(v).replace(/[\s\u3000]+/g, ''), party: str(rows[partyRow][firstCol + i]).replace(/^[（(]|[）)]$/g, '') || '無所属' })); // 党派欄が空の候補は無所属
     const district = `${PREFECTURES.find((p) => p.code === prefCode)?.name ?? ''}${sheetName.replace(/\s+/g, '').replace(/^.+?県|^.+?府|^東京都|^北海道/, '')}`;
     let totalRow: Cell[] | null = null;
     const muniRows: Array<{ label: string; row: Cell[] }> = [];
@@ -158,7 +158,9 @@ function parsePrefecture(buffer: Buffer, prefCode: string, resolve: (p: string, 
     if (!totalRow) { log.push(`${sheetName}: 合計行がありません`); continue; }
     const totals = candidates.map((_, i) => num(totalRow![firstCol + i]));
     const winnerIndex = totals.indexOf(Math.max(...totals));
-    districts.push({ district, winner: candidates[winnerIndex].name, party: candidates[winnerIndex].party, total: totals.reduce((s, v) => s + v, 0), winnerVotes: totals[winnerIndex] });
+    const partyTotals: Record<string, number> = {};
+    candidates.forEach((c, i) => { partyTotals[c.party] = (partyTotals[c.party] ?? 0) + totals[i]; });
+    districts.push({ district, winner: candidates[winnerIndex].name, party: candidates[winnerIndex].party, total: totals.reduce((s, v) => s + v, 0), winnerVotes: totals[winnerIndex], partyTotals });
     for (const { label, row } of muniRows) {
       const code = resolve(prefCode, label);
       if (!code) { log.push(`${sheetName}: 自治体コードを引けません: ${label}`); continue; }
@@ -167,8 +169,9 @@ function parsePrefecture(buffer: Buffer, prefCode: string, resolve: (p: string, 
       if (total === 0) continue;
       const winnerVotes = votes[winnerIndex];
       const othersMax = Math.max(...votes.filter((_, c) => c !== winnerIndex), 0);
-      const agg = byCode.get(code) ?? { total: 0, winnerVotes: 0, othersMax: 0, districts: [] };
+      const agg = byCode.get(code) ?? { total: 0, winnerVotes: 0, othersMax: 0, partyVotes: {}, districts: [] };
       agg.total += total; agg.winnerVotes += winnerVotes; agg.othersMax += othersMax;
+      candidates.forEach((c, i) => { agg.partyVotes[c.party] = (agg.partyVotes[c.party] ?? 0) + votes[i]; });
       const entry = agg.districts.find((d) => d.district === district);
       if (entry) entry.votes += winnerVotes; else agg.districts.push({ district, winner: candidates[winnerIndex].name, party: candidates[winnerIndex].party, votes: winnerVotes });
       byCode.set(code, agg);
@@ -177,13 +180,22 @@ function parsePrefecture(buffer: Buffer, prefCode: string, resolve: (p: string, 
   return { byCode, districts };
 }
 
+/** 政党ごとの得票率（0〜1、小数 4 桁）。無所属は「無所属」として残す */
+function shares(votes: Record<string, number>, total: number): Record<string, number> {
+  const out: Record<string, number> = {};
+  if (total <= 0) return out;
+  for (const [party, v] of Object.entries(votes).sort((a, b) => b[1] - a[1])) if (v > 0) out[party] = Math.round((v / total) * 10000) / 10000;
+  return out;
+}
+
 function toElection(agg: MuniAgg, election: ElectionMeta): Election {
   const winnerShare = agg.total > 0 ? agg.winnerVotes / agg.total : null;
   // 複数の小選挙区にまたがる市は、それぞれの当選者の得票を足した「当選者側」と、残りの最多候補を足した「対立側」の差
   const winnerMargin = agg.total > 0 ? (agg.winnerVotes - agg.othersMax) / agg.total : null;
+  const partyShare = shares(agg.partyVotes, agg.total);
   // 複数の小選挙区にまたがる市は、この市で最も得票した当選者の政党
   const top = [...agg.districts].sort((a, b) => b.votes - a.votes)[0];
-  return { no: election.no, year: election.year, name: election.name, date: election.date, districts: agg.districts.map(({ district, winner, party }) => ({ district, winner, party })), winnerParty: top?.party ?? null, winnerShare, winnerMargin, source: `総務省「${election.name.replace('（小選挙区）', '')} 結果」候補者別市区町村別得票数` };
+  return { no: election.no, year: election.year, name: election.name, date: election.date, districts: agg.districts.map(({ district, winner, party }) => ({ district, winner, party })), winnerParty: top?.party ?? null, winnerShare, winnerMargin, partyShare, source: `総務省「${election.name.replace('（小選挙区）', '')} 結果」候補者別市区町村別得票数` };
 }
 
 function patchFile(path: string, values: Map<string, Election[]>): number {
@@ -215,7 +227,9 @@ async function main() {
       // 都道府県: 県内の全小選挙区の合算（当選者の得票 ÷ 全有効得票）。地元での差は作らない
       const total = districts.reduce((s, d) => s + d.total, 0);
       const winnerVotes = districts.reduce((s, d) => s + d.winnerVotes, 0);
-      add(pref.code, { no: election.no, year: election.year, name: election.name, date: election.date, districts: districts.map(({ district, winner, party }) => ({ district, winner, party })), winnerParty: null, winnerShare: total > 0 ? winnerVotes / total : null, winnerMargin: null, source: `総務省「${election.name.replace('（小選挙区）', '')} 結果」候補者別市区町村別得票数` });
+      const prefPartyVotes: Record<string, number> = {};
+      for (const d of districts) for (const [party, v] of Object.entries(d.partyTotals)) prefPartyVotes[party] = (prefPartyVotes[party] ?? 0) + v;
+      add(pref.code, { no: election.no, year: election.year, name: election.name, date: election.date, districts: districts.map(({ district, winner, party }) => ({ district, winner, party })), winnerParty: null, winnerShare: total > 0 ? winnerVotes / total : null, winnerMargin: null, partyShare: shares(prefPartyVotes, total), source: `総務省「${election.name.replace('（小選挙区）', '')} 結果」候補者別市区町村別得票数` });
       console.log(`第${election.no}回 ${pref.name}: ${districts.length} 選挙区・${byCode.size} 市区町村 ${prefLog.length ? '⚠ ' + prefLog.join(' / ') : ''}`);
       log.push(...prefLog.map((l) => `第${election.no}回 ${pref.name} ${l}`));
     }

@@ -164,20 +164,22 @@ describe('カテゴリ定義', () => {
   });
 
   it('選挙カテゴリは当選者の地元での差（発散配色）と地元得票率。年度によらない', () => {
-    expect(categoryKeys('election')).toEqual(['electionWinnerParty', 'electionWinnerChange', 'electionWinnerMargin', 'electionWinnerShare']);
+    expect(categoryKeys('election')).toEqual(['electionRulingShare', 'electionWinnerParty', 'electionWinnerChange', 'electionWinnerMargin', 'electionWinnerShare']);
     expect(metricDef('electionWinnerParty').kind).toBe('category');
     expect(metricDef('electionWinnerParty').muniOnly).toBe(true);
     expect(metricDef('electionWinnerMargin').muniOnly).toBe(true);
     expect(metricDef('electionWinnerMargin').kind).toBe('changeRatio');
     for (const key of ['electionWinnerMargin', 'electionWinnerShare'] as const) expect(metricDef(key).yearIndependent).toBe(true);
     const base = { code: '09215', name: '那須烏山市', prefecture: '栃木県', fiscalYear: 2024, totalRevenue: 0, totalExpenditure: 0, expenditures: [], revenues: [] };
-    const e = (no: number, year: number, winnerMargin: number) => ({ no, year, name: 'test', date: `${year}-01-01`, districts: [{ district: '栃木県第３区', winner: '甲', party: '乙党' }], winnerParty: '乙党', winnerShare: 0.42, winnerMargin, source: 's' });
+    const e = (no: number, year: number, winnerMargin: number) => ({ no, year, name: 'test', date: `${year}-01-01`, districts: [{ district: '栃木県第３区', winner: '甲', party: '乙党' }], winnerParty: '乙党', winnerShare: 0.42, winnerMargin, partyShare: { 自由民主党: 0.4, 日本維新の会: 0.1, 公明党: 0.05, 乙党: 0.42 }, source: 's' });
     const budget = { ...base, elections: [e(50, 2024, 0.1), e(51, 2026, -0.05)] };
     expect(metricValue(budget, 'electionWinnerShare', 'total')).toBe(0.42);
     expect(metricValue(budget, 'electionWinnerMargin', 'total')).toBe(-0.05); // 最新
     expect(metricValue(budget, 'electionWinnerMargin', 'total', 2024)).toBe(0.1);
     expect(metricValue(budget, 'electionWinnerMargin', 'total', 2017)).toBeNull(); // その年の記載なし
     expect(metricValue(base, 'electionWinnerMargin', 'total')).toBeNull();
+    expect(metricValue(budget, 'electionRulingShare', 'total')).toBeCloseTo(0.5, 6); // 2026: 自民＋維新
+    expect(metricValue(budget, 'electionRulingShare', 'total', 2024)).toBeCloseTo(0.45, 6); // 2024: 自民＋公明
     expect(metricLabelValue(budget, 'electionWinnerParty', 'total' as never)).toBeNull();
     expect(metricLabelValue(budget, 'electionWinnerParty', 2026)).toBe('乙党');
     expect(metricLabelValue(budget, 'electionWinnerParty')).toBe('乙党');

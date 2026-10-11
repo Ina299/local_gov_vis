@@ -12,6 +12,7 @@ import {
   categoryKeys,
   type MapMetricKey,
   metricLabelValue,
+  rulingShare,
 } from '@/lib/metrics';
 import type { MapScale } from '@/types/budget';
 import { industryColor } from '@/lib/industry';
@@ -505,7 +506,7 @@ export function Sidebar({
   // 選挙カテゴリは年度ではなく選挙（執行年）ごとの推移
   const electionSeries = (selectedRegion.elections ?? []).map((e) => ({
     year: e.year,
-    value: metricKey === 'electionWinnerShare' ? e.winnerShare : e.winnerMargin, // 政党のときも地元での差を描く
+    value: metricKey === 'electionWinnerShare' ? e.winnerShare : metricKey === 'electionRulingShare' ? rulingShare(e) : e.winnerMargin, // 政党・交代のときも地元での差を描く
   }));
   const chartSeries = def.category === 'election' ? electionSeries : series;
   const showChart =
@@ -929,6 +930,7 @@ export function Sidebar({
                 <div className="budget-item-share">
                   {e.districts.map((d) => `${d.district} ${d.winner}（${d.party}）`).join('／')}
                   {e.winnerShare !== null && e.winnerMargin !== null ? `・地元得票率 ${(e.winnerShare * 100).toFixed(1)}%` : ''}
+                  {rulingShare(e) !== null ? `・与党得票率 ${(rulingShare(e)! * 100).toFixed(1)}%` : ''}
                 </div>
               </div>
             ))}

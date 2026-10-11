@@ -17,6 +17,7 @@ export type MapMetricKey =
   | 'roadFunding'
   | 'roadFundingChange'
   | 'roadFundingAnomaly'
+  | 'electionRulingShare'
   | 'electionWinnerParty'
   | 'electionWinnerChange'
   | 'electionWinnerMargin'
@@ -555,6 +556,14 @@ export const METRICS: MetricDef[] = [
     prefOnly: true,
   },
   {
+    key: 'electionRulingShare',
+    label: '与党得票率',
+    kind: 'ratio',
+    category: 'election',
+    yearIndependent: true,
+    description: '選んだ衆院選（小選挙区）で、選挙時の与党（2017・2021・2024年は自民党・公明党、2026年は自民党・日本維新の会）の候補者が、この自治体の中で得た得票率の合計。候補者を立てていない党は0',
+  },
+  {
     key: 'electionWinnerParty',
     label: '当選者の政党',
     kind: 'category',
@@ -642,6 +651,21 @@ export function metricDef(key: MapMetricKey): MetricDef {
 /** 取り込み済みの衆院選の執行年（古い順）。apps/crawler/src/import-election.ts の ELECTIONS と合わせる */
 export const ELECTION_YEARS = [2017, 2021, 2024, 2026] as const;
 
+/** 選挙時の与党（届出政党名）。2025年10月に公明党が連立を離れ、日本維新の会が加わった */
+export const RULING_PARTIES: Record<number, readonly string[]> = {
+  2017: ['自由民主党', '公明党'],
+  2021: ['自由民主党', '公明党'],
+  2024: ['自由民主党', '公明党'],
+  2026: ['自由民主党', '日本維新の会'],
+};
+
+/** 与党の候補者の得票率の合計（その自治体内） */
+export function rulingShare(election: { year: number; partyShare: Record<string, number> }): number | null {
+  const parties = RULING_PARTIES[election.year];
+  if (!parties) return null;
+  return parties.reduce((s, p) => s + (election.partyShare[p] ?? 0), 0);
+}
+
 /** 指定の年の選挙（null は最新）。その年の記載が無い自治体は undefined */
 export function electionOf(budget: LocalGovBudget, electionYear: number | null) {
   const list = budget.elections ?? [];
@@ -685,9 +709,10 @@ export function metricValue(
   const def = metricDef(key);
 
   // 道路の国費は kind が money でも budgetItem ではなく roadFunding から引く（money の分岐より先に判定する）
-  if (key === 'electionWinnerMargin' || key === 'electionWinnerShare') {
+  if (key === 'electionWinnerMargin' || key === 'electionWinnerShare' || key === 'electionRulingShare') {
     const election = electionOf(budget, electionYear);
     if (!election) return null;
+    if (key === 'electionRulingShare') return rulingShare(election);
     return key === 'electionWinnerMargin' ? election.winnerMargin : election.winnerShare;
   }
   if (key === 'roadFunding' || key === 'roadFundingChange' || key === 'roadFundingAnomaly') {
