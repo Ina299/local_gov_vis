@@ -1,0 +1,37 @@
+{
+  "recordType": "single new reviewed host with native existing-proxy configuration",
+  "codeCommit": "6b13417bf207b79444601038fcd713d22ffedb63",
+  "attemptedMunicipalities": 1,
+  "attemptedDocuments": 1,
+  "fetchedMunicipalities": 0,
+  "fetchedDocuments": 0,
+  "source": {
+    "url": "https://www.city.takamatsu.kagawa.jp/kurashi/shinotorikumi/gyosei_kaikaku/gyousei_hyoka/kekka/kikaku_up20250821.files/003koutyoukouhoushitelipuro.pdf",
+    "sourcePageUrl": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/shinotorikumi/gyosei_kaikaku/gyousei_hyoka/kekka/kikaku_up20250821.html",
+    "municipalityCode": "37201",
+    "municipalityName": "高松市",
+    "title": "令和7年度高松市事務事業評価表 広聴広報・シティプロモーション課（本文未検証）",
+    "fiscalYear": null,
+    "amountKind": null,
+    "review": {
+      "checkedAt": "2026-10-12T16:28:06Z",
+      "evidence": "Parent independently checked the exact official URL and www-normalized host against the 299-host quarantine SHA256 ba417af20546ee0edd88dcdb239fcb25b65cb9594faae33784e9075baf08cabc. No match. Handoff received by this timestamp. New host; prior five stopped hosts remain stopped."
+    }
+  },
+  "attemptedAt": "2026-10-12T16:28:19.108Z",
+  "state": "blocked",
+  "httpStatus": null,
+  "safeError": "Transport failure (TypeError, Error, AbortError, UND_ERR_ABORTED); inspect environment before retry",
+  "actualBytes": null,
+  "sha256": null,
+  "pdfVerified": false,
+  "textReadable": false,
+  "evaluationReportYear": null,
+  "targetBusinessYear": null,
+  "yearNote": "Title supplied by handoff; no PDF bytes available to verify report/evaluation year or target business year.",
+  "networkNote": "Existing HTTP_PROXY/HTTPS_PROXY/NO_PROXY consumed by Node native setGlobalProxyFromEnv(); values not modified, logged or saved. No alternate proxy or route used. UND_ERR_ABORTED alone does not establish municipal denial, proxy HTTP status or a timeout.",
+  "priorFiveHostManifestSha256": "5476c72a2ff2470845df59ed455182386f51c68840e4c65b32a6d99a90c7d778",
+  "priorFiveHostsStillBlocked": true,
+  "retryCount": 0,
+  "remainingBlocker": "No source bytes or HTTP response obtained; this host is now stopped pending review."
+}
