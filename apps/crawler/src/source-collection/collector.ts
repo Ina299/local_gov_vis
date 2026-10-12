@@ -31,6 +31,8 @@ export interface Entry {
   contentType?: string;
   file?: string;
   httpStatus?: number;
+  resolvedUrl?: string;
+  redirects?: string[];
   message?: string;
   extraction: 'not_started';
 }
@@ -103,6 +105,20 @@ async function readManifest(path: string): Promise<Manifest> {
 }
 class Stop extends Error {
   constructor(message: string, readonly block: boolean, readonly status?: number) { super(message); }
+}
+function transportError(error: unknown): string {
+  // Keep only bounded diagnostic identifiers, never error messages containing URLs,
+  // credentials, proxy addresses or response bodies.
+  const fields: string[] = [];
+  let current = error;
+  for (let depth = 0; depth < 3 && current && typeof current === 'object'; depth++) {
+    const value = current as { name?: unknown; code?: unknown; cause?: unknown };
+    for (const identifier of [value.name, value.code]) {
+      if (typeof identifier === 'string' && /^[A-Za-z][A-Za-z0-9_]{0,63}$/.test(identifier)) fields.push(identifier);
+    }
+    current = value.cause;
+  }
+  return `Transport failure${fields.length ? ` (${[...new Set(fields)].join(', ')})` : ''}; inspect environment before retry`;
 }
 const escapeHtml = (value: string) => value.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!));
 export function renderIndex(manifest: Manifest): string {
@@ -180,15 +196,32 @@ export async function collect(input: Queue, options: Options) {
           manifest.blockedHosts[host] = 'Attempt interrupted or incomplete; review before further requests';
           await save();
           try {
-            const response = await request(source.url, {
-              redirect: 'manual', signal: AbortSignal.timeout(timeoutMs),
-              headers: { 'User-Agent': 'local-gov-vis-source-collection/1.0 (public municipal evaluation research)' },
-            });
+            let current = source.url;
+            let response: Response;
+            const redirects: string[] = [];
+            for (;;) {
+              response = await request(current, {
+                redirect: 'manual', signal: AbortSignal.timeout(timeoutMs),
+                headers: { 'User-Agent': 'local-gov-vis-source-collection/1.0 (public municipal evaluation research)' },
+              });
+              entry.httpStatus = response.status;
+              if (![301, 302, 303, 307, 308].includes(response.status)) break;
+              const location = response.headers.get('location');
+              await response.body?.cancel();
+              if (!location || redirects.length >= 4) throw new Stop('Missing or excessive redirect; stopped', true, response.status);
+              const target = canonical(new URL(location, current).href);
+              if (target.hostname !== host) throw new Stop('Cross-host redirect; target not requested', true, response.status);
+              if (redirects.includes(target.href) || target.href === source.url) throw new Stop('Redirect loop; stopped', true, response.status);
+              redirects.push(target.href);
+              entry.redirects = [...redirects];
+              current = target.href;
+              await pause(delayMs);
+            }
+            entry.resolvedUrl = current;
             entry.httpStatus = response.status;
             if (!response.ok) {
               await response.body?.cancel();
-              // Redirect targets are intentionally not followed, even on the same host.
-              throw new Stop(`HTTP ${response.status}; no retry or redirect follow`, true, response.status);
+              throw new Stop(`HTTP ${response.status}; no retry`, true, response.status);
             }
             if (Number(response.headers.get('content-length')) > maxBytes) { await response.body?.cancel(); throw new Stop('Content exceeds size limit', false); }
             if (!response.body) throw new Stop('Empty response', false);
@@ -217,7 +250,7 @@ export async function collect(input: Queue, options: Options) {
             Object.assign(entry, { state: 'fetched', sha256, file, bytes: bytes.length, contentType, fetchedAt: new Date(now()).toISOString(), message: 'Original saved; numeric extraction not started' });
             delete manifest.blockedHosts[host];
           } catch (error) {
-            const failure = error instanceof Stop ? error : new Stop('Transport failure; inspect environment before retry', true);
+            const failure = error instanceof Stop ? error : new Stop(transportError(error), true);
             entry.state = failure.block ? 'blocked' : 'failed';
             entry.message = failure.message;
             if (failure.block) manifest.blockedHosts[host] = failure.message;

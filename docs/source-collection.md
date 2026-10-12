@@ -6,7 +6,7 @@
 
 JSON は `version: 1`, `quarantineHosts: string[]`, `sources: Source[]` を持ちます。Source の必須項目は `url`, `sourcePageUrl`, `municipalityCode`（5桁）, `municipalityName`, `title`, `fiscalYear`（不明は null）, `amountKind`（不明は null）, `review: { checkedAt, evidence }` です。`review` は既存隔離情報と照合した日時と根拠を記録します。文字列が入っているだけで安全性を証明するものではありません。既存の隔離299ホスト全体が復元できない間は、親で個別照合された URL のみを入力してください。架空の確認日時や根拠で実行しないでください。
 
-URL はフラグメントのない正規化済み HTTPS の完全一致で指定します。ページ内リンクの探索やリダイレクト追従は行いません。新たな URL は個別に照合してキューへ追加します。隔離ドメインはサブドメインにも適用します。Google Drive と googleusercontent.com の対象は警告承認が別途必要なため停止します。
+URL はフラグメントのない正規化済み HTTPS の完全一致で指定します。ページ内リンクの探索は行いません。HTTPS の同じ厳密なホスト内のリダイレクトのみ最大4回、各応答後に待機して追従します。www の有無が異なるホストや別ホストには接続しません。新たな URL は個別に照合してキューへ追加します。隔離ドメインはサブドメインにも適用します。Google Drive と googleusercontent.com の対象は警告承認が別途必要なため停止します。
 
 ## 実行
 
@@ -20,7 +20,7 @@ node --import tsx apps/crawler/src/source-collection/cli.ts --queue /absolute/pa
 node --import tsx apps/crawler/src/source-collection/cli.ts --queue /absolute/path/reviewed.json --output apps/crawler/output/source-collection --execute --workers 2 --delay-ms 1500
 ```
 
-同じコマンドで再開すると SHA256 とサイズを照合した取得済みファイルはネットワークを使わず再利用し、未試行資料だけを取得します。ホストごとに直列実行し、応答完了後に最低1秒（既定1.5秒）空けます。別ホストの並列数は最大4です。各資料は既定20MiB・30秒を上限にします。自動リトライは行いません。HTTP エラー・リダイレクト・認証/アクセス/スキャン警告・通信障害は当該ホストを停止し、その状態を次の実行にも引き継ぎます。
+同じコマンドで再開すると SHA256 とサイズを照合した取得済みファイルはネットワークを使わず再利用し、未試行資料だけを取得します。ホストごとに直列実行し、応答完了後に最低1秒（既定1.5秒）空けます。別ホストの並列数は最大4です。各資料は既定20MiB・30秒を上限にします。自動リトライは行いません。HTTP エラー・別ホストへのリダイレクト・認証/アクセス/スキャン警告・通信障害は当該ホストを停止し、その状態を次の実行にも引き継ぎます。
 
 ## 保存と閲覧
 

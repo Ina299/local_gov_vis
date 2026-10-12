@@ -109,3 +109,32 @@ test('interrupted host checkpoint prevents later source requests on restart', as
   const result = await collect(queue(), { ...options, fetchImpl: async () => { calls++; return pdf(); } });
   assert.equal(calls, 0); assert.equal(Object.values(result.manifest!.entries)[0].state, 'blocked');
 });
+test('same exact HTTPS host redirect follows with pacing and records resolved URL', async () => {
+  const seen: string[] = []; const delays: number[] = [];
+  const result = await collect(queue(), { ...await setup(), sleep: async ms => { delays.push(ms); }, fetchImpl: async url => {
+    seen.push(String(url));
+    return seen.length === 1 ? new Response(null, { status: 302, headers: { location: '/final.pdf' } }) : pdf();
+  } });
+  const entry = Object.values(result.manifest!.entries)[0];
+  assert.deepEqual(seen, [source().url, 'https://city.example.jp/final.pdf']);
+  assert.equal(entry.resolvedUrl, seen[1]); assert.equal(entry.state, 'fetched'); assert.ok(delays.includes(1500));
+});
+test('www variant is a distinct host and is never followed', async () => {
+  let calls = 0;
+  const result = await collect(queue(), { ...await setup(), fetchImpl: async () => { calls++; return new Response(null, { status: 302, headers: { location: 'https://www.city.example.jp/final.pdf' } }); } });
+  assert.equal(calls, 1); assert.equal(Object.values(result.manifest!.entries)[0].state, 'blocked');
+});
+test('same-host redirect loop is bounded', async () => {
+  let calls = 0;
+  const result = await collect(queue(), { ...await setup(), fetchImpl: async () => { calls++; return new Response(null, { status: 302, headers: { location: '/one.pdf' } }); } });
+  assert.equal(calls, 1); assert.equal(Object.values(result.manifest!.entries)[0].state, 'blocked');
+});
+test('transport diagnostics preserve cause code but do not leak URL or credentials', async () => {
+  const result = await collect(queue(), { ...await setup(), fetchImpl: async () => {
+    const cause = Object.assign(new Error('https://secret:password@proxy.invalid'), { code: 'ECONNRESET' });
+    throw new TypeError('fetch failed for signed secret URL', { cause });
+  } });
+  const entry = Object.values(result.manifest!.entries)[0];
+  assert.equal(entry.state, 'blocked'); assert.match(entry.message!, /ECONNRESET/);
+  assert.doesNotMatch(entry.message!, /password|proxy.invalid|signed secret/);
+});
