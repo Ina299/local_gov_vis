@@ -1,0 +1,32 @@
+name: Source collection checks
+
+on:
+  pull_request:
+    paths:
+      - 'apps/crawler/src/source-collection/**'
+      - 'apps/crawler/tests/source-collection/**'
+      - 'apps/crawler/tsconfig.json'
+      - '**/package.json'
+      - 'package-lock.json'
+      - '.github/workflows/source-collection.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [20, 24]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '${{ matrix.node }}'
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Offline source collection tests
+        run: node --import tsx --test apps/crawler/tests/source-collection/*.test.ts
+      - name: Crawler typecheck
+        run: npm run -w @local-gov/crawler typecheck

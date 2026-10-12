@@ -3,6 +3,7 @@
 import { createHash, randomUUID } from 'node:crypto';
 import { mkdir, readFile, writeFile, rename, open, unlink } from 'node:fs/promises';
 import { join } from 'node:path';
+import { useExistingProxy } from './network';
 
 export interface Source {
   url: string;
@@ -106,7 +107,7 @@ async function readManifest(path: string): Promise<Manifest> {
 class Stop extends Error {
   constructor(message: string, readonly block: boolean, readonly status?: number) { super(message); }
 }
-function transportError(error: unknown): string {
+export function transportError(error: unknown): string {
   // Keep only bounded diagnostic identifiers, never error messages containing URLs,
   // credentials, proxy addresses or response bodies.
   const fields: string[] = [];
@@ -144,11 +145,15 @@ export async function collect(input: Queue, options: Options) {
   // Prevent two processes from violating per-host pacing or overwriting state.
   const lockPath = join(options.outputDir, 'collection.lock');
   const lock = await open(lockPath, 'wx');
+  let restoreNetwork: (() => void) | undefined;
   try {
     const path = join(options.outputDir, 'manifest.json');
     const manifest = await readManifest(path);
     await mkdir(join(options.outputDir, 'objects'), { recursive: true });
     const request = options.fetchImpl ?? fetch;
+    // Injected offline transports never configure or contact the environment's proxy.
+    // Production collection uses only its already-configured communication route.
+    if (!options.fetchImpl) restoreNetwork = useExistingProxy();
     const now = options.now ?? Date.now;
     const pause = options.sleep ?? sleep;
     const groups = new Map<string, Source[]>();
@@ -266,5 +271,8 @@ export async function collect(input: Queue, options: Options) {
     const rejected = results.find((result) => result.status === 'rejected');
     if (rejected?.status === 'rejected') throw rejected.reason;
     return { dryRun: false, manifest };
-  } finally { await lock.close(); await unlink(lockPath); }
+  } finally {
+    try { restoreNetwork?.(); }
+    finally { await lock.close(); await unlink(lockPath); }
+  }
 }
