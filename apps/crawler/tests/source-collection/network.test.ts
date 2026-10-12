@@ -1,33 +1,41 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { useExistingProxy } from '../../src/source-collection/network';
+import { Agent } from 'undici';
+import { createTransport } from '../../src/source-collection/network';
 import { transportError } from '../../src/source-collection/collector';
 
-test('existing proxy uses native environment setup with no supplied values and restores', () => {
+test('scoped dispatcher inherits environment without passing proxy overrides or mutating it', async () => {
   const environment = { HTTPS_PROXY: 'test-only-placeholder', NO_PROXY: 'test-only-placeholder' };
-  const before = { ...environment }; let calls = 0; let restored = false;
-  const restore = useExistingProxy({ setGlobalProxyFromEnv: (...args: unknown[]) => {
-    calls++; assert.equal(args.length, 0); return () => { restored = true; };
-  } }, environment);
-  assert.equal(calls, 1); assert.deepEqual(environment, before);
-  restore(); assert.equal(restored, true);
+  const before = { ...environment }; const agent = new Agent(); let used = false;
+  const transport = createTransport(options => {
+    assert.deepEqual(Object.keys(options), ['clientFactory']); return agent;
+  }, environment, async (_input, init) => {
+    used = true; assert.equal((init as RequestInit & { dispatcher: unknown }).dispatcher, agent); return new Response('fixture');
+  });
+  await transport.request('https://city.example.jp/fixture');
+  assert.equal(used, true); assert.deepEqual(environment, before);
+  await transport.destroy(); assert.equal(agent.destroyed, true);
 });
-test('lowercase proxy variables are also detected', () => {
-  let calls = 0;
-  useExistingProxy({ setGlobalProxyFromEnv: () => { calls++; return () => {}; } }, { https_proxy: 'placeholder' });
-  assert.equal(calls, 1);
+test('lowercase proxy variables are detected without requiring native runtime setup', async () => {
+  const agent = new Agent();
+  const transport = createTransport(() => agent, { https_proxy: 'placeholder' });
+  await transport.destroy(); assert.equal(agent.destroyed, true);
 });
-test('no proxy does not alter agents', () => {
-  useExistingProxy({ setGlobalProxyFromEnv: () => { throw new Error('must not run'); } }, {})();
+test('no proxy still owns its connections and cleanup', async () => {
+  const agent = new Agent(); const transport = createTransport(() => agent, {});
+  await transport.destroy(); assert.equal(agent.destroyed, true);
 });
-test('unsupported runtime stops before requests rather than silently ignoring proxy', () => {
-  assert.throws(() => useExistingProxy({}, { HTTPS_PROXY: 'placeholder' }), /no request made/);
+test('independent collectors own distinct dispatchers', async () => {
+  const first = new Agent(); const second = new Agent();
+  const a = createTransport(() => first, {}); const b = createTransport(() => second, {});
+  await a.destroy(); assert.equal(first.destroyed, true); assert.equal(second.destroyed, false);
+  await b.destroy();
 });
 test('unsupported ALL_PROXY-only environment fails closed', () => {
-  assert.throws(() => useExistingProxy({}, { ALL_PROXY: 'placeholder' }), /unsupported/);
+  assert.throws(() => createTransport(() => { throw new Error('must not run'); }, { ALL_PROXY: 'placeholder' }), /no request made/);
 });
 test('proxy initialization error is sanitized with no direct fallback', () => {
-  assert.throws(() => useExistingProxy({ setGlobalProxyFromEnv: () => { throw new Error('https://user:secret@private.invalid'); } }, { HTTPS_PROXY: 'placeholder' }), error => {
+  assert.throws(() => createTransport(() => { throw new Error('https://user:secret@private.invalid'); }, { HTTPS_PROXY: 'placeholder' }), error => {
     assert.match((error as Error).message, /no direct fallback/);
     assert.doesNotMatch((error as Error).message, /secret|private.invalid/); return true;
   });

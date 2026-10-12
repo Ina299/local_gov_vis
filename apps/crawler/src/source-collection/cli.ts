@@ -25,6 +25,6 @@ async function main() {
     delayMs: value('--delay-ms') === undefined ? undefined : Number(value('--delay-ms')),
   });
   console.log(JSON.stringify(result, null, 2));
-  if (result.manifest && Object.values(result.manifest.entries).some(entry => entry.state === 'failed' || entry.state === 'blocked')) process.exitCode = 2;
+  if (result.manifest && Object.values(result.manifest.entries).some(entry => ['failed', 'blocked', 'paused'].includes(entry.state))) process.exitCode = 2;
 }
 main().catch((error) => { console.error(error.message); process.exitCode = 1; });

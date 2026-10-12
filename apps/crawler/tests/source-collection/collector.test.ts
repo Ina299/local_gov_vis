@@ -107,7 +107,7 @@ test('interrupted host checkpoint prevents later source requests on restart', as
   await writeFile(join(options.outputDir, 'manifest.json'), JSON.stringify({ version: 1, entries: {}, blockedHosts: { 'city.example.jp': 'Interrupted attempt; review required' } }));
   let calls = 0;
   const result = await collect(queue(), { ...options, fetchImpl: async () => { calls++; return pdf(); } });
-  assert.equal(calls, 0); assert.equal(Object.values(result.manifest!.entries)[0].state, 'blocked');
+  assert.equal(calls, 0); assert.equal(Object.values(result.manifest!.entries)[0].state, 'paused');
 });
 test('same exact HTTPS host redirect follows with pacing and records resolved URL', async () => {
   const seen: string[] = []; const delays: number[] = [];
@@ -135,6 +135,20 @@ test('transport diagnostics preserve cause code but do not leak URL or credentia
     throw new TypeError('fetch failed for signed secret URL', { cause });
   } });
   const entry = Object.values(result.manifest!.entries)[0];
-  assert.equal(entry.state, 'blocked'); assert.match(entry.message!, /ECONNRESET/);
+  assert.equal(entry.state, 'paused'); assert.equal(entry.failureKind, 'transport'); assert.match(entry.message!, /ECONNRESET/);
   assert.doesNotMatch(entry.message!, /password|proxy.invalid|signed secret/);
+});
+test('legacy transport stops become paused without unlocking host or retrying', async () => {
+  const options = await setup();
+  await collect(queue(), { ...options, fetchImpl: async () => { throw new Error('fixture'); } });
+  const path = join(options.outputDir, 'manifest.json');
+  const legacy = JSON.parse(await readFile(path, 'utf8'));
+  Object.values(legacy.entries as Record<string, { state: string; failureKind?: string }>).forEach((entry) => { entry.state = 'blocked'; delete entry.failureKind; });
+  await writeFile(path, JSON.stringify(legacy));
+  let calls = 0;
+  const result = await collect(queue(), { ...options, fetchImpl: async () => { calls++; return pdf(); } });
+  const entry = Object.values(result.manifest!.entries)[0];
+  assert.equal(calls, 0); assert.equal(entry.state, 'paused'); assert.equal(entry.failureKind, 'transport');
+  assert.deepEqual(result.manifest!.blockedHosts, legacy.blockedHosts);
+  assert.match(await readFile(join(options.outputDir, 'index.html'), 'utf8'), /拒否とは未判定/);
 });

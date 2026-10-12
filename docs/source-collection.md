@@ -24,11 +24,15 @@ node --import tsx apps/crawler/src/source-collection/cli.ts --queue /absolute/pa
 
 ## 既存ネットワーク設定
 
-実取得時は Node.js 24.14 以降を使用してください。`HTTP_PROXY` / `HTTPS_PROXY`（小文字も含む）が存在する場合、Node 標準の `http.setGlobalProxyFromEnv()` を引数なしで呼び、既存の `NO_PROXY` を含む設定に従います。プロキシ URL や環境変数を変更せず、値を表示・保存しません。標準 API が使えない・初期化できない場合は直接接続へ切り替えず、リクエスト前に停止します。完了時にはこのプロセス内のクライアント設定を元に戻します。オフラインテストの注入済み通信関数では設定を変更しません。
+実取得・テストは Node.js 20.18.1 以降（CI は Node 20/24）で動作します。Node 標準の `fetch` に、資料単位で所有する `undici@7.30.0` の `EnvHttpProxyAgent` を渡します。環境の `HTTP_PROXY` / `HTTPS_PROXY` / `NO_PROXY`（小文字も含む）をそのまま読み、別のプロキシ値を指定しません。環境変数やグローバル dispatcher は変更せず、値も表示・保存しません。初期化失敗時に直接接続へ切り替えることはありません。
 
-この環境の Node v24.19.0 は標準 API に対応しています。5件の試行時にはプロキシ変数が存在しましたが、`NODE_USE_ENV_PROXY` / `--use-env-proxy` は有効でなく、取得コードは未設定の標準 fetch を使っていました。経路の不整合は有力な仮説ですが、以前の原因コードがないため全5件の原因と断定していません。変更後の自治体への再試行は行っていません。保存済みホスト停止を維持しています。
+各資料の完了・失敗時には、所有する dispatcher を `destroy()` して残存接続を破棄します。プロキシが CONNECT 前に切断した場合の Undici 7 の再接続ループを避けるため、`clientFactory` の CONNECT 失敗を回復不能な `COLLECTOR_PROXY_CONNECT_FAILED` に分類し、同じ接続を繰り返しません。リダイレクトと本文を含む1資料全体に単一の期限を設定し、期限後の待機・本文読み取りを中断します。
 
-根拠: [Node.js 24 HTTP API](https://nodejs.org/docs/latest-v24.x/api/http.html#httpsetglobalproxyfromenvproxyenv)。通信例外では名前と原因コードだけを記録し、元のメッセージ・スタック・プロキシ情報を出力しません。
+記録する `failureKind` は原典の `http_denial`、プロキシの `proxy_denial`、`timeout`、原因未特定の `transport` などを区別します。原典の HTTP 状態と `proxyHttpStatus` は別項目です。`paused` は通信未完了・確認待ちであり自治体の拒否を意味しません。`paused` も自動再試行せずホスト停止を維持します。古い `blocked` の通信失敗は読み込み時に分類だけ補正し、停止を解除しません。例外の元メッセージやスタックは保存せず、安全な識別子と固定形式のプロキシHTTP状態だけ抽出します。`elapsedMs`、`timeoutMs`、`timeoutTriggered`、`completedAt` で実行時間も記録します。
+
+5自治体と高松市の実試行の原因は未確定です。外部への再試行はしていません。ローカル再現と修正内容は [診断記録](source-collection-diagnostics.md) を参照してください。
+
+参考: [Undici EnvHttpProxyAgent](https://github.com/nodejs/undici/blob/v7.30.0/docs/docs/api/EnvHttpProxyAgent.md)、[CONNECT 再接続ループの上流修正](https://github.com/nodejs/undici/pull/3897)。
 
 ## 保存ファイル
 
