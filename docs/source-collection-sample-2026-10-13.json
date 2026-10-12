@@ -1,0 +1,80 @@
+{
+  "recordType": "live acquisition sample; no original documents downloaded",
+  "quarantineReviewSha256": "ba417af20546ee0edd88dcdb239fcb25b65cb9594faae33784e9075baf08cabc",
+  "attemptedMunicipalities": 5,
+  "attemptedDocuments": 5,
+  "fetchedMunicipalities": 0,
+  "fetchedDocuments": 0,
+  "readablePdfDocuments": 0,
+  "fiscalYearVerification": "Not possible: no PDF bytes obtained. Filenames were not used to infer fiscal year.",
+  "classification": "Evaluation-related materials include lists and summaries; not counted as individual project forms.",
+  "diagnosticLimit": "The implementation used for this run did not retain underlying transport error codes. HTTP response status was unavailable. Do not infer access denial or a specific network cause. Safe cause-code logging added subsequently; no further live request made.",
+  "resumeCondition": "Review transport failure and explicitly authorize the affected hosts before retry; do not delete host stops to silently rerun.",
+  "attempts": [
+    {
+      "municipalityCode": "01224",
+      "municipalityName": "千歳市",
+      "url": "https://www.city.chitose.lg.jp/_res/projects/default_project/_page_/001/005/751/__6____________.pdf",
+      "attemptedAt": "2026-10-12T16:19:54.777Z",
+      "state": "blocked",
+      "httpStatus": null,
+      "message": "Transport failure; inspect environment before retry",
+      "fiscalYear": null,
+      "amountKind": null,
+      "sha256": null,
+      "actualBytes": null
+    },
+    {
+      "municipalityCode": "01230",
+      "municipalityName": "登別市",
+      "url": "https://www.city.noboribetsu.lg.jp/docs/2025112000074/file_contents/R7gaiyou.pdf",
+      "attemptedAt": "2026-10-12T16:19:54.778Z",
+      "state": "blocked",
+      "httpStatus": null,
+      "message": "Transport failure; inspect environment before retry",
+      "fiscalYear": null,
+      "amountKind": null,
+      "sha256": null,
+      "actualBytes": null
+    },
+    {
+      "municipalityCode": "01231",
+      "municipalityName": "恵庭市",
+      "url": "https://www.city.eniwa.hokkaido.jp/material/files/group/12/siryouissiki0119.pdf",
+      "attemptedAt": "2026-10-12T16:19:54.818Z",
+      "state": "blocked",
+      "httpStatus": null,
+      "message": "Transport failure; inspect environment before retry",
+      "fiscalYear": null,
+      "amountKind": null,
+      "sha256": null,
+      "actualBytes": null
+    },
+    {
+      "municipalityCode": "01397",
+      "municipalityName": "留寿都村",
+      "url": "https://www.vill.rusutsu.lg.jp/hotnews/files/00002700/00002767/jissikeikakuhyoukar7.pdf",
+      "attemptedAt": "2026-10-12T16:19:59.840Z",
+      "state": "blocked",
+      "httpStatus": null,
+      "message": "Transport failure; inspect environment before retry",
+      "fiscalYear": null,
+      "amountKind": null,
+      "sha256": null,
+      "actualBytes": null
+    },
+    {
+      "municipalityCode": "01484",
+      "municipalityName": "羽幌町",
+      "url": "https://www.town.haboro.lg.jp/gyousei/hyouka/files/00_25_ichiran.pdf",
+      "attemptedAt": "2026-10-12T16:19:59.843Z",
+      "state": "blocked",
+      "httpStatus": null,
+      "message": "Transport failure; inspect environment before retry",
+      "fiscalYear": null,
+      "amountKind": null,
+      "sha256": null,
+      "actualBytes": null
+    }
+  ]
+}
