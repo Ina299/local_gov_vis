@@ -61,6 +61,7 @@ for (const status of [301, 401, 403, 429, 503]) test(`HTTP ${status} stops host 
   const fetchImpl: typeof fetch = async () => { calls++; return new Response(null, { status, headers: { location: 'https://other.example.jp/a', 'retry-after': '3600' } }); };
   const result = await collect(input, { ...options, fetchImpl });
   assert.equal(calls, 1); assert.ok(Object.values(result.manifest!.entries).every(e => e.state === 'blocked'));
+  assert.equal(Object.values(result.manifest!.entries)[1].httpStatus, undefined, 'skipped URL must not inherit another response');
   await collect(input, { ...options, fetchImpl }); assert.equal(calls, 1);
 });
 test('Google Drive warning path is never requested', async () => {

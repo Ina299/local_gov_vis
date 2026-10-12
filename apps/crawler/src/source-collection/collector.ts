@@ -149,6 +149,7 @@ function proxyStatus(error: unknown): number | undefined {
 }
 const escapeHtml = (value: string) => value.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!));
 function stateLabel(entry: Entry): string {
+  if (entry.message?.startsWith('Not requested:')) return '先行取得のホスト停止により未試行';
   if (entry.failureKind === 'proxy_denial' || entry.failureKind === 'proxy_error') return `プロキシ HTTP ${entry.proxyHttpStatus} による停止（自治体の応答なし）`;
   if (entry.failureKind === 'timeout') return '通信タイムアウト（拒否とは未判定）';
   if (entry.failureKind === 'http_denial') return `HTTP ${entry.httpStatus} による拒否`;
@@ -219,8 +220,10 @@ export async function collect(input: Queue, options: Options) {
             entry.state = detail?.failureKind === 'proxy_denial' || detail?.failureKind === 'http_denial' ? 'blocked' :
               previous?.startsWith('Transport failure') || /^(Attempt interrupted|Interrupted attempt)/.test(previous ?? '') ? 'paused' : 'blocked';
             if (entry.state === 'paused') entry.failureKind = previous?.startsWith('Transport failure') ? 'transport' : 'interrupted';
-            if (detail) Object.assign(entry, detail);
-            entry.message = previous ?? 'Host quarantined or requires separate warning approval'; await save(); continue;
+            // This URL was not requested. Keep the host-level cause separately;
+            // never copy another document's HTTP response onto this entry.
+            if (detail) entry.failureKind = detail.failureKind;
+            entry.message = previous ? `Not requested: host stopped after prior attempt (${previous})` : 'Host quarantined or requires separate warning approval'; await save(); continue;
           }
           if (entry.state === 'fetched') {
             if (!entry.sha256 || !/^[a-f0-9]{64}$/.test(entry.sha256) || entry.file !== `objects/${entry.sha256}.bin`) throw new Error('Invalid cache metadata');
