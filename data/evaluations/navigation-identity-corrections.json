@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "corrections": [
+    {
+      "municipalityCode": "04505",
+      "municipalityName": "美里町",
+      "prefectureCode": "04",
+      "removeFallbackUrl": "https://www.town.kumamoto-misato.lg.jp/soshiki/somu/2516.html",
+      "reason": "The national directory row 045055 names Miyagi Misato but points to the distinct Kumamoto Misato host and BODIK code 433489; the same CSV separately identifies that code as Kumamoto. Remove the wrong fallback rather than invent a replacement.",
+      "evidenceSha256": "928307667dde46f5f7943058c93515865a69e72c14eb4fc804c7acf73bc45887",
+      "evidenceLocation": "Digital Agency CSV literal rows 045055 and 433489",
+      "checkedAt": "2026-10-12T11:22:00Z",
+      "removeDirectoryUrls": [
+        "https://www.town.kumamoto-misato.lg.jp/soshiki/somu/2516.html",
+        "https://odcs.bodik.jp/433489/"
+      ]
+    }
+  ]
+}
