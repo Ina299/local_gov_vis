@@ -1,0 +1,140 @@
+{
+  "format": "git-bundle-chunks-v1",
+  "purpose": "Temporary Git-only handoff; final PR must contain the readable tested tree.",
+  "bundle_bytes": 36118668,
+  "bundle_sha256": "9af6a752958fef1d4a9bcf1d7b0a77be20f9dea0ab812c4d8f7f5f96e832e498",
+  "prerequisite_commit": "adc4095b0743b89b43cfce6db572d16bc40478d5",
+  "canonical_commit": "adfa780fbc5c6db32e2bd088e022bff05b2da1af",
+  "target_tree": "6814a943080d1cc6484d05d92bef89d1b4cfcc9e",
+  "target_branch": "feat/nationwide-evidence-v5",
+  "expected_target_head_before_publication": "de5b13be2ed64df59df38d14be195d3df0fb54bd",
+  "parts": [
+    {
+      "path": "handoff/nationwide-v5.bundle.part000",
+      "size": 262144,
+      "sha256": "a17a0189059a771a5d334d221a3d7a4355ccc874c48c4e2b5d4ccba3b1af8b02",
+      "git_blob_sha": "9d06a5ae4a805aa5894cb5b134fff1f9829c74b3"
+    },
+    {
+      "path": "handoff/nationwide-v5.bundle.part001",
+      "size": 2097152,
+      "sha256": "ef867a6d37a5d6388b1920e2643ad3791f10c490b296997cfacabd24d0d8c8e8",
+      "git_blob_sha": "d5676ae019e12f4b4f25185630d6ec2c6169d4d6"
+    },
+    {
+      "path": "handoff/nationwide-v5.bundle.part002",
+      "size": 2097152,
+      "sha256": "9d68c12c24ecd78b520c128705dc82918a98677c963ade595f3ed202de0fe1bd",
+      "git_blob_sha": "94b3a4530465bd1299e32f958f41569502f75505"
+    },
+    {
+      "path": "handoff/nationwide-v5.bundle.part003",
+      "size": 2097152,
+      "sha256": "1a601f745376df7af97c46f4b5a303769c72287f30070565b8277ca44106e432",
+      "git_blob_sha": "8f799d629e24456890dce6e3396312b3b91d39df"
+    },
+    {
+      "path": "handoff/nationwide-v5.bundle.part004",
+      "size": 2097152,
+      "sha256": "eaf03eb529746a3d6f57354f2f23271f4d31d70fea020ae14fc1dc1111dd5eac",
+      "git_blob_sha": "023ed12dadcdde91ff3cbd0f269d4bd9b4b827e4"
+    },
+    {
+      "path": "handoff/nationwide-v5.bundle.part005",
+      "size": 2097152,
+      "sha256": "4a6270946421f420f231d3c45499a76ef5dbe3ec2195d1c02976cecd6d9291fc",
+      "git_blob_sha": "def6bf6bb0cd734594a06acf00253221683777d2"
+    },
+    {
+      "path": "handoff/nationwide-v5.bundle.part006",
+      "size": 2097152,
+      "sha256": "2514e8af5ba9f0f995f574f835ceda880a4b806bf826ecd077283eec5b74bc45",
+      "git_blob_sha": "778ff5b167d419a28fead349d5706b11cb0fa2b4"
+    },
+    {
+      "path": "handoff/nationwide-v5.bundle.part007",
+      "size": 2097152,
+      "sha256": "07b95feb49f64f404763470858f5bb291e895fb2efcf52147670425a584ff8b0",
+      "git_blob_sha": "84d5189d9441aaf93d03588624190edbe80aff8c"
+    },
+    {
+      "path": "handoff/nationwide-v5.bundle.part008",
+      "size": 2097152,
+      "sha256": "c1eebd9ce1c62eca946ad8fd7c9ea7b2f7a28b16485ffe819a692fbbf3827fde",
+      "git_blob_sha": "2bf1e1c8e9fb3bddaebb4ddfde567c81e3530654"
+    },
+    {
+      "path": "handoff/nationwide-v5.bundle.part009",
+      "size": 2097152,
+      "sha256": "1f953fe2c68531806b80e8579acbd5f2aff860eb364d620ddd04138d752ae309",
+      "git_blob_sha": "52ae61587a1baf5e781877d2b896f9a9b6f11ab4"
+    },
+    {
+      "path": "handoff/nationwide-v5.bundle.part010",
+      "size": 2097152,
+      "sha256": "d6e38893ddcab5cc9d391e0922548eecf6512cca7afe649b719add312a2b3947",
+      "git_blob_sha": "1f51b80c81e5bb1cc82dc2c8ca554e4402e7fed4"
+    },
+    {
+      "path": "handoff/nationwide-v5.bundle.part011",
+      "size": 2097152,
+      "sha256": "927a20a60e09973cb47d039480f29a9cd8467f4e65414fb3fa3f9fd9202d8547",
+      "git_blob_sha": "f30bd7867a9e0577491ce04e8849e2b571620108"
+    },
+    {
+      "path": "handoff/nationwide-v5.bundle.part012",
+      "size": 2097152,
+      "sha256": "03b0cd8a043a6c8fbc17a56801ce3e0f986c659ff98412e99faa1d5ce8adcaa0",
+      "git_blob_sha": "8dd3a160bb83d5679cab1248cb531651574abc14"
+    },
+    {
+      "path": "handoff/nationwide-v5.bundle.part013",
+      "size": 2097152,
+      "sha256": "fc0693e82609a41b5d30c2ef0bf3e03a36c480a6941df16e6ce561d4c5201b74",
+      "git_blob_sha": "8223c9bcc08ae6a93b707433354f8fb72752359a"
+    },
+    {
+      "path": "handoff/nationwide-v5.bundle.part014",
+      "size": 2097152,
+      "sha256": "f54a8918e90e185156587a63d816ac23a5b8e8f0f6d6db3f3e0c18647a0b07c6",
+      "git_blob_sha": "4a66e4ba052f04aec090d9c5e97226b4b6a58c24"
+    },
+    {
+      "path": "handoff/nationwide-v5.bundle.part015",
+      "size": 2097152,
+      "sha256": "b760220b2e0950e226821bdcbe1f054fe770c4687a1e4a0ceddb8e00e5c7e90e",
+      "git_blob_sha": "62d4fab19b30761ca6c5477bf7ac65a948f0de83"
+    },
+    {
+      "path": "handoff/nationwide-v5.bundle.part016",
+      "size": 2097152,
+      "sha256": "a99488a49ec389e59ec4aec6a2e0853c96c823ef3bb3fcd18021772c5b401e0e",
+      "git_blob_sha": "d7b12922ef815fc2afb637467c6153741cef03e4"
+    },
+    {
+      "path": "handoff/nationwide-v5.bundle.part017",
+      "size": 2097152,
+      "sha256": "9fc2193431b180d4802841fb6590191979843ee73005ce13ed8b426e9bc99e49",
+      "git_blob_sha": "4cd066ba8369f72742680f5204ab36a25d913796"
+    },
+    {
+      "path": "handoff/nationwide-v5.bundle.part018",
+      "size": 204940,
+      "sha256": "4a7ceba4530ac9e61c7491f6360909009ca4aea841e1789d15ea8f2aca9e623a",
+      "git_blob_sha": "c0e4773b328462854fb166a6727cdbb6af487e19"
+    }
+  ],
+  "security_review": {
+    "changed_files_scanned": 4319,
+    "unresolved_findings": 0,
+    "git_objects_only": true
+  },
+  "recovery": [
+    "Fetch this temporary handoff branch with normal Git.",
+    "Check each part size and SHA256, concatenate in manifest order, then verify bundle size and SHA256.",
+    "Run git bundle verify with the prerequisite commit present; fetch its canonical ref.",
+    "Verify canonical commit tree equals target_tree; run the frozen code checks.",
+    "Recheck target branch head and coordinate before writing. Create a commit with target_tree and current target head as parent; push fast-forward only.",
+    "Verify remote target tree exactly equals target_tree. Do not merge or deploy."
+  ]
+}
