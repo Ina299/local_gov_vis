@@ -6,9 +6,9 @@ import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import type { EvaluationDataset, ProjectEvaluation } from '../../web/src/types/evaluation';
 import { BASELINE_CODES, BASELINE_SHA256, LIMITS, NATIONAL_INDEX_SHA256, NATIONAL_PROJECTION_SHA256,
-  buildEvaluationIntegration, composeValidatedIntegration, importNationalEvaluations, municipalityDatasetPath,
+  buildEvaluationIntegration, composeCachedExpansion, composeValidatedIntegration, importCachedEvaluationExpansion, importNationalEvaluations, municipalityDatasetPath,
   readBoundedFile, restoreNationalIndex, sha256, validateEvaluationIndex, validateShardBytes, verifyIntegratedEvaluations,
-  type EvaluationIndex, type MunicipalityIndexEntry } from '../src/evaluations/national-integration';
+  verifyBaseIntegratedEvaluations, type EvaluationIndex, type MunicipalityIndexEntry } from '../src/evaluations/national-integration';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '../../..');
 const bytes = (value: unknown): Buffer => Buffer.from(`${JSON.stringify(value)}\n`);
@@ -144,8 +144,15 @@ test('bounded reader rejects oversized, non-regular and symbolic-link inputs', a
   } finally { await rm(temporary, { recursive: true, force: true }); }
 });
 
+async function pinnedAssets() {
+  const current = await verifyIntegratedEvaluations(root);
+  if (!current.index.cohorts?.cachedExpansion) return current;
+  const expansion = JSON.parse(await readFile(join(root, 'data/evaluations/cached-expansion-provenance.json'), 'utf8'));
+  return verifyBaseIntegratedEvaluations(root, bytes(expansion.originalIndex), [...current.shards.keys()]);
+}
+
 test('all 53 checked-in shards parse against pinned provenance and exact original baseline', async () => {
-  const result = await verifyIntegratedEvaluations(root);
+  const result = await pinnedAssets();
   assert.equal(result.index.scopeMunicipalities, 1741);
   assert.equal(result.index.primaryMunicipalities, 53);
   assert.equal(result.index.primaryEvaluationRecords, 12847);
@@ -172,7 +179,7 @@ test('all 53 checked-in shards parse against pinned provenance and exact origina
 });
 
 test('pinned import is deterministic, validates before writes, and never changes monoliths', async () => {
-  const current = await verifyIntegratedEvaluations(root);
+  const current = await pinnedAssets();
   const temporary = await mkdtemp(join(tmpdir(), 'national-evaluation-import-'));
   const target = join(temporary, 'repo'); const source = join(temporary, 'source');
   try {
@@ -211,5 +218,45 @@ test('pinned import is deterministic, validates before writes, and never changes
     const nationalIndex = restoreNationalIndex(current.index, current.manifest);
     assert.throws(() => buildEvaluationIntegration({ indexBytes: Buffer.concat([nationalIndex, Buffer.from(' ')]), shards: new Map(), baselineBytes: baseline }), /National index source hash mismatch/);
     assert.throws(() => buildEvaluationIntegration({ indexBytes: nationalIndex, shards: new Map(), baselineBytes: Buffer.concat([baseline, Buffer.from(' ')]) }), /baseline source hash mismatch/);
+    await writeFile(join(target, 'data/evaluations/evaluations.json'), baseline);
+    const expansionDir = join(temporary, 'expansion'); await mkdir(expansionDir);
+    const empty = current.index.municipalities.find((row) => !row.datasetPath)!;
+    const extra = dataset(empty.municipalityCode);
+    extra.sources[0].municipalityName = empty.municipalityName;
+    extra.projects[0].municipalityName = empty.municipalityName;
+    const extraPath = join(expansionDir, `${empty.municipalityCode}.json`);
+    await writeFile(extraPath, bytes(extra));
+    const expanded = await importCachedEvaluationExpansion({ root: target, sourceDirectory: expansionDir, generatedAt });
+    assert.equal(expanded.index.primaryMunicipalities, 54);
+    assert.equal(expanded.index.primaryEvaluationRecords, 12848);
+    const rerun = await importCachedEvaluationExpansion({ root: target, sourceDirectory: expansionDir, generatedAt });
+    assert.deepEqual(rerun.indexBytes, expanded.indexBytes);
+    for (const [code, shard] of current.shards) assert.deepEqual(expanded.shards.get(code), shard);
+    extra.projects[0].projectName = 'Changed project'; await writeFile(extraPath, bytes(extra));
+    await assert.rejects(importCachedEvaluationExpansion({ root: target, sourceDirectory: expansionDir, generatedAt }), /overwrite previous addition/);
+    assert.deepEqual((await verifyIntegratedEvaluations(target)).indexBytes, expanded.indexBytes);
+    const publishedExtra = join(target, 'apps/web/public', municipalityDatasetPath(empty.municipalityCode));
+    await writeFile(publishedExtra, bytes(extra));
+    await assert.rejects(verifyIntegratedEvaluations(target), /byte count mismatch|hash mismatch/);
+
   } finally { await rm(temporary, { recursive: true, force: true }); }
+});
+
+test('cached expansion preserves pinned bytes and rejects municipality and project collisions', () => {
+  const { index, shards, baseline } = fixture();
+  index.municipalities.push(row('02201')); index.scopeMunicipalities++;
+  const base = composeValidatedIntegration(index, shards, baseline);
+  const extra = dataset('02201');
+  extra.projects[0].amounts = [{ kind: 'actual', fiscalYear: null, amountYen: 0, rawValue: '0', rawUnit: '円', evidence }];
+  extra.projects[0].indicators = [{ name: '【活動指標】人数', fiscalYear: null, target: null, actual: '2', unit: '人', evidence }];
+  const result = composeCachedExpansion(base, new Map([['02201', bytes(extra)]]), generatedAt);
+  assert.equal(result.index.primaryEvaluationRecords, 3);
+  assert.deepEqual(result.index.cohorts?.cachedExpansion, { primaryMunicipalities: 1, primaryEvaluationRecords: 1 });
+  assert.equal(result.index.municipalities[2].recordsWithExplicitActualDirectCosts, 0);
+  assert.equal(result.index.municipalities[2].recordsWithSourceLabelledOutcomeIndicators, 0);
+  assert.deepEqual(result.index.municipalities[0], base.index.municipalities[0]);
+  assert.deepEqual(result.manifest.originalIndex, base.index);
+  assert.throws(() => composeCachedExpansion(base, new Map([['01100', bytes(baseline)]]), generatedAt), /overwrite/);
+  extra.projects[0].id = baseline.projects[0].id;
+  assert.throws(() => composeCachedExpansion(base, new Map([['02201', bytes(extra)]]), generatedAt), /Duplicate project ID/);
 });

@@ -38,7 +38,8 @@ export interface EvaluationIndex {
   primaryMunicipalities: number; municipalities: MunicipalityIndexEntry[]; notes: string[];
   baselineSourceSha256?: string;
   cohorts?: { national: { primaryMunicipalities: number; primaryEvaluationRecords: number };
-    baseline: { primaryMunicipalities: number; primaryEvaluationRecords: number } };
+    baseline: { primaryMunicipalities: number; primaryEvaluationRecords: number };
+    cachedExpansion?: { primaryMunicipalities: number; primaryEvaluationRecords: number } };
 }
 export interface IntegrationInput { indexBytes: Buffer; shards: Map<string, Buffer>; baselineBytes: Buffer }
 export interface IntegrationManifest {
@@ -267,15 +268,15 @@ export function restoreNationalIndex(index: EvaluationIndex, manifest: Integrati
   check(sha256(restored) === NATIONAL_INDEX_SHA256, 'Restored national index source hash mismatch'); return restored;
 }
 
-export async function verifyIntegratedEvaluations(root: string): Promise<IntegrationAssets> {
+export async function verifyBaseIntegratedEvaluations(root: string, originalIndexBytes?: Buffer, allowedCodes?: string[]): Promise<IntegrationAssets> {
   const directory = join(root, 'apps/web/public');
-  const indexBytes = await readBoundedFile(join(directory, INDEX_PATH), LIMITS.indexBytes);
+  const indexBytes = originalIndexBytes ?? await readBoundedFile(join(directory, INDEX_PATH), LIMITS.indexBytes);
   const index = validateEvaluationIndex(JSON.parse(indexBytes.toString('utf8')));
   const manifestBytes = await readBoundedFile(join(root, MANIFEST_PATH), LIMITS.indexBytes);
   const manifest = JSON.parse(manifestBytes.toString('utf8')) as IntegrationManifest;
   const nationalIndexBytes = restoreNationalIndex(index, manifest);
   const national = validateEvaluationIndex(JSON.parse(nationalIndexBytes.toString('utf8')));
-  const shards = await readShards(directory, national, index.municipalities.filter((row) => row.datasetPath).map((row) => row.municipalityCode));
+  const shards = await readShards(directory, national, allowedCodes ?? index.municipalities.filter((row) => row.datasetPath).map((row) => row.municipalityCode));
   const assets = buildEvaluationIntegration({ indexBytes: nationalIndexBytes, shards, baselineBytes: await readBaseline(root) });
   check(assets.indexBytes.equals(indexBytes), 'Integrated index differs from validated composition');
   check(assets.manifestBytes.equals(manifestBytes), 'Integration provenance manifest mismatch');
@@ -312,5 +313,119 @@ export async function importNationalEvaluations(options: { root: string; sourceD
     await rename(join(manifestStage, 'manifest.json'), join(root, MANIFEST_PATH));
     await rename(join(stage, INDEX_PATH), join(publicDirectory, INDEX_PATH));
   } finally { await rm(stage, { recursive: true, force: true }); await rm(manifestStage, { recursive: true, force: true }); }
+  return verifyBaseIntegratedEvaluations(root);
+}
+
+const EXPANSION_PATH = 'data/evaluations/cached-expansion-provenance.json';
+export interface CachedExpansionManifest {
+  schemaVersion: 1;
+  kind: 'cached_evaluation_expansion';
+  generatedAt: string;
+  originalIndex: EvaluationIndex;
+  originalIndexSha256: string;
+  outputIndexSha256: string;
+  shards: MunicipalityIndexEntry[];
+  notes: string[];
+}
+
+/** Append only new municipalities; the pinned national and original PR1 bytes remain untouched. */
+export function composeCachedExpansion(base: IntegrationAssets, additions: Map<string, Buffer>, generatedAt: string): {
+  index: EvaluationIndex; indexBytes: Buffer; manifest: CachedExpansionManifest;
+} {
+  check(Number.isFinite(Date.parse(generatedAt)), 'Invalid expansion generatedAt');
+  const ids = new Set<string>(); const sources = new Set<string>();
+  for (const row of base.index.municipalities.filter((entry) => entry.datasetPath)) {
+    validateShardBytes(row, base.shards.get(row.municipalityCode)!, undefined, ids, sources);
+  }
+  const rows = new Map<string, MunicipalityIndexEntry>();
+  for (const [code, bytes] of additions) {
+    const prior = base.index.municipalities.find((entry) => entry.municipalityCode === code);
+    check(prior && !prior.datasetPath, `Expansion would overwrite an existing municipality or unknown code: ${code}`);
+    const dataset = parseEvaluationDataset(JSON.parse(bytes.toString('utf8')));
+    check(dataset.projects.length > 0, 'Expansion must contain projects');
+    const row: MunicipalityIndexEntry = { ...prior, discoveryStatus: 'structured', dataStatus: 'primary_available',
+      primaryEvaluationRecords: dataset.projects.length, datasetPath: municipalityDatasetPath(code),
+      datasetSha256: sha256(bytes), datasetBytes: bytes.length,
+      // 'actual' establishes accounting status, not exclusion of personnel costs.
+      // Cached extraction has no independently verified direct-cost classification yet.
+      recordsWithExplicitActualDirectCosts: 0,
+      recordsWithSourceLabelledOutcomeIndicators: dataset.projects.filter((project) => project.indicators.some((indicator) => indicator.name.includes('【成果指標】'))).length };
+    validateShardBytes(row, bytes, undefined, ids, sources);
+    rows.set(code, row);
+  }
+  check(additions.size > 0, 'Expansion has no municipality shards');
+  const addedRecords = [...rows.values()].reduce((sum, row) => sum + row.primaryEvaluationRecords, 0);
+  check(base.index.cohorts && !base.index.cohorts.cachedExpansion, 'Expansion requires pinned original integration');
+  const index: EvaluationIndex = { ...base.index, generatedAt,
+    primaryMunicipalities: base.index.primaryMunicipalities + additions.size,
+    primaryEvaluationRecords: base.index.primaryEvaluationRecords + addedRecords,
+    municipalities: base.index.municipalities.map((row) => rows.get(row.municipalityCode) ?? row),
+    cohorts: { ...base.index.cohorts, cachedExpansion: { primaryMunicipalities: additions.size, primaryEvaluationRecords: addedRecords } },
+    notes: [...base.index.notes, 'Cached-text expansion: independently identified project records only; no new source acquisition and no municipality-wide completeness claim.'] };
+  validateEvaluationIndex(index);
+  const indexBytes = jsonBytes(index);
+  const manifest: CachedExpansionManifest = { schemaVersion: 1, kind: 'cached_evaluation_expansion', generatedAt,
+    originalIndex: base.index, originalIndexSha256: sha256(base.indexBytes), outputIndexSha256: sha256(indexBytes),
+    shards: [...rows.values()].sort((a, b) => a.municipalityCode.localeCompare(b.municipalityCode)),
+    notes: ['Original 53 municipality shards and pinned integration provenance remain byte-identical.',
+      'Evidence acquisition dates and source hashes are inherited; generatedAt denotes extraction, not acquisition.',
+      'Actual amounts are not classified as direct costs without explicit evidence excluding personnel costs; cached-expansion direct-cost coverage remains unassessed. Outcome indicators require an explicit source label.'] };
+  return { index, indexBytes, manifest };
+}
+
+export async function verifyIntegratedEvaluations(root: string): Promise<IntegrationAssets> {
+  let bytes: Buffer;
+  try { bytes = await readBoundedFile(join(root, EXPANSION_PATH), LIMITS.indexBytes); }
+  catch (error) { if ((error as NodeJS.ErrnoException).code === 'ENOENT') return verifyBaseIntegratedEvaluations(root); throw error; }
+  const manifest = JSON.parse(bytes.toString('utf8')) as CachedExpansionManifest;
+  check(manifest.schemaVersion === 1 && manifest.kind === 'cached_evaluation_expansion' && Array.isArray(manifest.shards), 'Invalid expansion provenance');
+  const originalBytes = jsonBytes(validateEvaluationIndex(manifest.originalIndex));
+  check(sha256(originalBytes) === manifest.originalIndexSha256, 'Original integrated index hash mismatch');
+  const currentBytes = await readBoundedFile(join(root, 'apps/web/public', INDEX_PATH), LIMITS.indexBytes);
+  const current = validateEvaluationIndex(JSON.parse(currentBytes.toString('utf8')));
+  const base = await verifyBaseIntegratedEvaluations(root, originalBytes, current.municipalities.filter((row) => row.datasetPath).map((row) => row.municipalityCode));
+  const additions = new Map<string, Buffer>();
+  for (const row of manifest.shards) {
+    check(!additions.has(row.municipalityCode), 'Duplicate expansion municipality');
+    const content = await readBoundedFile(join(root, 'apps/web/public', municipalityDatasetPath(row.municipalityCode)), LIMITS.shardBytes);
+    validateShardBytes(row, content); additions.set(row.municipalityCode, content);
+  }
+  const rebuilt = composeCachedExpansion(base, additions, manifest.generatedAt);
+  check(rebuilt.indexBytes.equals(currentBytes), 'Expanded index differs from validated composition');
+  check(jsonBytes(rebuilt.manifest).equals(bytes), 'Expansion provenance differs from validated composition');
+  return { ...base, index: rebuilt.index, indexBytes: rebuilt.indexBytes, shards: new Map([...base.shards, ...additions]) };
+}
+
+/** Offline input: <sourceDirectory>/<five-digit municipality code>.json. Idempotent exact-byte reruns. */
+export async function importCachedEvaluationExpansion(options: { root: string; sourceDirectory: string; generatedAt: string }): Promise<IntegrationAssets> {
+  const root = await realpath(options.root); const source = await realpath(options.sourceDirectory);
+  const publicDirectory = join(root, 'apps/web/public');
+  const rel = relative(publicDirectory, source);
+  check(rel === '..' || rel.startsWith(`..${sep}`) || isAbsolute(rel), 'Source must be separate from public output');
+  const current = await verifyIntegratedEvaluations(root);
+  let base = current; const additions = new Map<string, Buffer>();
+  if (current.index.cohorts?.cachedExpansion) {
+    const manifest = JSON.parse((await readBoundedFile(join(root, EXPANSION_PATH), LIMITS.indexBytes)).toString('utf8')) as CachedExpansionManifest;
+    base = await verifyBaseIntegratedEvaluations(root, jsonBytes(manifest.originalIndex), [...current.shards.keys()]);
+    for (const row of manifest.shards) additions.set(row.municipalityCode, current.shards.get(row.municipalityCode)!);
+  }
+  const entries = (await readdir(source)).sort();
+  check(entries.length > 0 && entries.every((name) => /^[0-9]{5}\.json$/.test(name)), 'Expansion directory must contain only municipality JSON shards');
+  for (const name of entries) {
+    const code = name.slice(0, 5); const bytes = await readBoundedFile(join(source, name), LIMITS.shardBytes);
+    const existing = additions.get(code);
+    check(!existing || existing.equals(bytes), `Expansion would overwrite previous addition: ${code}`);
+    additions.set(code, bytes);
+  }
+  const result = composeCachedExpansion(base, additions, options.generatedAt);
+  const stage = await mkdtemp(join(publicDirectory, '.cached-expansion-'));
+  try {
+    for (const [code, bytes] of additions) await writeFile(join(stage, `${code}.json`), bytes, { flag: 'wx' });
+    await writeFile(join(stage, 'manifest.json'), jsonBytes(result.manifest), { flag: 'wx' });
+    await writeFile(join(stage, INDEX_PATH), result.indexBytes, { flag: 'wx' });
+    for (const code of additions.keys()) await rename(join(stage, `${code}.json`), join(publicDirectory, municipalityDatasetPath(code)));
+    await rename(join(stage, 'manifest.json'), join(root, EXPANSION_PATH));
+    await rename(join(stage, INDEX_PATH), join(publicDirectory, INDEX_PATH));
+  } finally { await rm(stage, { recursive: true, force: true }); }
   return verifyIntegratedEvaluations(root);
 }

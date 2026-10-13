@@ -33,6 +33,7 @@ export interface EvaluationIndex {
   cohorts?: {
     national: { primaryMunicipalities: number; primaryEvaluationRecords: number };
     baseline: { primaryMunicipalities: number; primaryEvaluationRecords: number };
+    cachedExpansion?: { primaryMunicipalities: number; primaryEvaluationRecords: number };
   };
 }
 export interface LoadedEvaluationShard {
@@ -65,10 +66,12 @@ export function parseEvaluationIndex(value: unknown): EvaluationIndex {
   if (value.cohorts !== undefined || value.baselineSourceSha256 !== undefined) {
     if (!isHash(value.baselineSourceSha256) || !isRecord(value.cohorts)
       || !isRecord(value.cohorts.national) || !isRecord(value.cohorts.baseline)) throw invalid();
-    const { national, baseline } = value.cohorts;
+    const { national, baseline, cachedExpansion } = value.cohorts;
+    if (cachedExpansion !== undefined && (!isRecord(cachedExpansion) || !isCount(cachedExpansion.primaryMunicipalities) || !isCount(cachedExpansion.primaryEvaluationRecords))) throw invalid();
+    const expansion = (cachedExpansion ?? { primaryMunicipalities: 0, primaryEvaluationRecords: 0 }) as { primaryMunicipalities: number; primaryEvaluationRecords: number };
     if (![national.primaryMunicipalities, national.primaryEvaluationRecords, baseline.primaryMunicipalities, baseline.primaryEvaluationRecords].every(isCount)
-      || Number(national.primaryMunicipalities) + Number(baseline.primaryMunicipalities) !== value.primaryMunicipalities
-      || Number(national.primaryEvaluationRecords) + Number(baseline.primaryEvaluationRecords) !== value.primaryEvaluationRecords) throw invalid();
+      || Number(national.primaryMunicipalities) + Number(baseline.primaryMunicipalities) + expansion.primaryMunicipalities !== value.primaryMunicipalities
+      || Number(national.primaryEvaluationRecords) + Number(baseline.primaryEvaluationRecords) + expansion.primaryEvaluationRecords !== value.primaryEvaluationRecords) throw invalid();
   }
   const codes = new Set<string>();
   let records = 0;

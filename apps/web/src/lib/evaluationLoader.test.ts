@@ -81,6 +81,18 @@ describe('strict municipality index', () => {
     value.cohorts.baseline.primaryEvaluationRecords = 2;
     expect(() => parseEvaluationIndex(value)).toThrow();
   });
+  it('validates cached expansion cohort counts without changing the original cohorts', async () => {
+    const value = { ...index([await descriptor()]), baselineSourceSha256: 'b'.repeat(64), cohorts: {
+      national: { primaryMunicipalities: 0, primaryEvaluationRecords: 0 },
+      baseline: { primaryMunicipalities: 0, primaryEvaluationRecords: 0 },
+      cachedExpansion: { primaryMunicipalities: 1, primaryEvaluationRecords: 1 } } };
+    expect(parseEvaluationIndex(value)).toBe(value);
+    value.cohorts.cachedExpansion.primaryEvaluationRecords = -1;
+    expect(() => parseEvaluationIndex(value)).toThrow();
+    value.cohorts.cachedExpansion.primaryEvaluationRecords = 2;
+    expect(() => parseEvaluationIndex(value)).toThrow();
+    expect(() => parseEvaluationIndex({ ...value, cohorts: { ...value.cohorts, cachedExpansion: null } })).toThrow();
+  });
   it('searches names/codes with normalization without treating project text as an index field', async () => {
     const entry = await descriptor();
     expect(searchEvaluationMunicipalities([entry], '０１１００ 札幌')).toEqual([entry]);

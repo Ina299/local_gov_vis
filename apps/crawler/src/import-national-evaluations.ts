@@ -1,7 +1,7 @@
 /** Deterministic local import only. Does not call the acquisition pipeline or use the network. */
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { importNationalEvaluations, verifyIntegratedEvaluations } from './evaluations/national-integration';
+import { importNationalEvaluations, sha256, verifyIntegratedEvaluations } from './evaluations/national-integration';
 
 const args = process.argv.slice(2);
 let sourceDirectory: string | undefined; let verify = false;
@@ -18,4 +18,4 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '../../..');
 const assets = verify ? await verifyIntegratedEvaluations(root) : await importNationalEvaluations({ root, sourceDirectory: resolve(sourceDirectory!) });
 console.log(JSON.stringify({ verified: true, scopeMunicipalities: assets.index.scopeMunicipalities,
   primaryMunicipalities: assets.index.primaryMunicipalities, primaryEvaluationRecords: assets.index.primaryEvaluationRecords,
-  indexSha256: assets.manifest.output.indexSha256, cohorts: assets.index.cohorts, offlineOnly: true }));
+  indexSha256: sha256(assets.indexBytes), cohorts: assets.index.cohorts, offlineOnly: true }));
