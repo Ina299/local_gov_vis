@@ -3,7 +3,7 @@ import { readFile, mkdir, writeFile } from 'node:fs/promises';
 import { resolve, dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { sha256 } from './evaluations/national-integration';
-import type { EvaluationDataset } from '../../web/src/types/evaluation';
+import type { EvaluationDataset, ProjectEvaluation } from '../../web/src/types/evaluation';
 import type { EvidenceIndex, MunicipalityEvidence, DocumentText } from '../../web/src/types/evaluationEvidence';
 import { type CachedInput } from './evaluations/expansion/shared';
 import { extractOgano } from './evaluations/expansion/ogano';
@@ -11,15 +11,52 @@ import { extractMobara } from './evaluations/expansion/mobara';
 import { extractAkitakata } from './evaluations/expansion/akitakata';
 import { extractMisato } from './evaluations/expansion/misato';
 import { extractKaizu } from './evaluations/expansion/kaizu';
+import { extractShinjo } from './evaluations/expansion/shinjo';
+import { extractTakanabe } from './evaluations/expansion/takanabe';
+import { extractOtaki } from './evaluations/expansion/otaki';
+import { extractUonuma } from './evaluations/expansion/uonuma';
+import { extractShimanto } from './evaluations/expansion/shimanto';
+import { extractKuki } from './evaluations/expansion/kuki';
+import { extractMiyazaki } from './evaluations/expansion/miyazaki';
+import { extractKasukabe } from './evaluations/expansion/kasukabe';
+import { extractHakodate } from './evaluations/expansion/hakodate';
+import { extractHino } from './evaluations/expansion/hino';
+import { extractIkoma } from './evaluations/expansion/ikoma';
+import { extractTakahashi } from './evaluations/expansion/takahashi';
+import { extractTateyama } from './evaluations/expansion/tateyama';
+import { extractShowa } from './evaluations/expansion/showa';
+import { extractTanabe } from './evaluations/expansion/tanabe';
+import { extractChigasaki } from './evaluations/expansion/chigasaki';
+import { extractTakko } from './evaluations/expansion/takko';
+import { extractHigashihiroshima } from './evaluations/expansion/higashihiroshima';
+import { extractDaigo } from './evaluations/expansion/daigo';
+import { extractKasuya } from './evaluations/expansion/kasuya';
+import { extractKomagane } from './evaluations/expansion/komagane';
+import { extractIsesaki } from './evaluations/expansion/isesaki';
+import { extractMarugame } from './evaluations/expansion/marugame';
+import { extractChikushino } from './evaluations/expansion/chikushino';
+const extractors: Record<string,(input:CachedInput, inputs:CachedInput[])=>ProjectEvaluation[]> = {
+ '05434':extractMisato,'11365':extractOgano,'12210':extractMobara,'34214':extractAkitakata,
+ '21221':(input,inputs)=>extractKaizu(input,inputs.find(d=>d.sourceId==='982b3dbd86b80c24870b5012')),
+ '01202':extractHakodate,'06205':extractShinjo,'11214':extractKasukabe,'11232':extractKuki,
+ '12441':extractOtaki,'13212':extractHino,'15225':extractUonuma,'39412':extractShimanto,
+ '45201':extractMiyazaki,'45401':extractTakanabe,'29209':extractIkoma,'33209':extractTakahashi,
+ '10204':extractIsesaki,'37202':extractMarugame,'40217':extractChikushino,
+ '08364':extractDaigo,'40349':extractKasuya,'20210':extractKomagane,
+ '14207':extractChigasaki,'02443':extractTakko,'34212':extractHigashihiroshima,
+ '16323':extractTateyama,'07446':extractShowa,'30206':extractTanabe,
+};
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'../../..');
 const args=process.argv.slice(2);
-if(args.length!==4 || args[0]!=='--output-dir' || args[2]!=='--generated-at' || !Number.isFinite(Date.parse(args[3]))) throw new Error('Use --output-dir <dir> --generated-at <ISO timestamp>');
+if(![4,6].includes(args.length) || args[0]!=='--output-dir' || args[2]!=='--generated-at' || !Number.isFinite(Date.parse(args[3]))) throw new Error('Use --output-dir <dir> --generated-at <ISO timestamp>');
 const output=resolve(args[1]); const generatedAt=args[3];
+if(args.length===6 && (args[4]!=='--codes'||!/^[0-9]{5}(,[0-9]{5})*$/.test(args[5])))throw new Error('Invalid --codes');
+const codes=args.length===6?args[5].split(','):['05434','11365','12210','21221','34214'];
 const base=join(root,'apps/web/public/evaluation-evidence');
 const index:EvidenceIndex=JSON.parse(await readFile(join(base,'index.json'),'utf8'));
 const audit:{code:string;documents:unknown[];records:number;withAmounts:number;withActualAmounts:number;withIndicators:number;withNumericIndicators:number;withOutcomeIndicators:number;withOutcomes:number;withRatings:number;duplicates:string[]}[]=[];
 await mkdir(output,{recursive:true});
-for(const code of ['05434','11365','12210','21221','34214']){
+for(const code of codes){
  const row=index.municipalities.find(r=>r.municipalityCode===code)!;
  const muniBytes=await readFile(join(base,row.shardPath));
  if(sha256(muniBytes)!==row.shardSha256 || muniBytes.length!==row.shardBytes)throw new Error('Municipality hash mismatch');
@@ -38,8 +75,9 @@ for(const code of ['05434','11365','12210','21221','34214']){
  const dataset:EvaluationDataset={schemaVersion:1,generatedAt,sources:[],projects:[]};
  const seen=new Set<string>();const duplicates:string[]=[];const documents:unknown[]=[];
  for(const input of inputs){
-  const projects=code==='05434'?extractMisato(input):code==='11365'?extractOgano(input):code==='12210'?extractMobara(input):code==='34214'?extractAkitakata(input):extractKaizu(input,inputs.find(d=>d.sourceId==='982b3dbd86b80c24870b5012'));
-  const unique=projects.filter(p=>{const key=JSON.stringify([p.projectCode,p.projectName,p.evaluationYear]);if(seen.has(key))throw new Error(`Cross-document duplicate requires review: ${code} ${key}`);seen.add(key);return true;});
+  if(!extractors[code])throw new Error(`Unsupported municipality: ${code}`);
+  const projects=extractors[code](input,inputs);
+  const unique=projects.filter(p=>{const key=JSON.stringify([p.projectCode,p.projectName,p.evaluationYear,p.evaluatedFiscalYear]);if(seen.has(key))throw new Error(`Cross-document duplicate requires review: ${code} ${key}`);seen.add(key);return true;});
   if(!unique.length)continue;
   for(const p of unique){
    for(const e of [...p.evidence,...p.amounts.map(a=>a.evidence),...p.indicators.map(i=>i.evidence),...p.ratings.map(r=>r.evidence)]){
@@ -49,8 +87,15 @@ for(const code of ['05434','11365','12210','21221','34214']){
    }
   }
   dataset.projects.push(...unique);
-  dataset.sources.push({id:`cached-${code}-${input.sourceId}`,municipalityCode:code,municipalityName:row.municipalityName,sourcePageUrl:input.sourcePageUrl,evaluationYear:unique.every(p=>p.evaluationYear===unique[0].evaluationYear)?unique[0].evaluationYear:null,status:'partial',discoveredDocuments:1,fetchedDocuments:1,extractedProjects:unique.length,scope:'保存済み本文の識別可能な個票のみ。全事業・最新年度の網羅性は未確認。',message:'追加の原典取得なし。保存済み抽出テキストとの文字位置照合済み。PDF原本との再照合は未実施。',lastAttemptAt:input.fetchedAt,lastSuccessAt:input.fetchedAt,documents:[{url:input.sourceUrl,format:'pdf',status:'partial',sha256:input.sourceSha256,fetchedAt:input.fetchedAt,projectCount:unique.length,message:'保存済み本文から部分構造化'}]});
+  dataset.sources.push({id:`cached-${code}-${input.sourceId}`,municipalityCode:code,municipalityName:row.municipalityName,sourcePageUrl:input.sourcePageUrl,evaluationYear:unique.every(p=>p.evaluationYear===unique[0].evaluationYear)?unique[0].evaluationYear:null,status:'partial',discoveredDocuments:1,fetchedDocuments:1,extractedProjects:unique.length,scope:['13212','40349','20210','37202','40217'].includes(code)?'事業別の市民・議会・外部評価意見の部分レコード。完全個票ではありません。全事業・最新年度の網羅性は未確認。':code==='34212'?'目的別事業群のうち、個別事業の詳細節を部分構造化。群合計の配分や一覧行の計上は行わない。全事業・最新年度の網羅性は未確認。':'保存済み本文の識別可能な個票のみ。全事業・最新年度の網羅性は未確認。',message:'追加の原典取得なし。保存済み抽出テキストとの文字位置照合済み。PDF原本との再照合は未実施。',lastAttemptAt:input.fetchedAt,lastSuccessAt:input.fetchedAt,documents:[{url:input.sourceUrl,format:'pdf',status:'partial',sha256:input.sourceSha256,fetchedAt:input.fetchedAt,projectCount:unique.length,message:'保存済み本文から部分構造化'}]});
   documents.push({sourceId:input.sourceId,sourceUrl:input.sourceUrl,sourceSha256:input.sourceSha256,textSha256:sha256(Buffer.from(input.text)),records:unique.length,truncated:input.truncated});
+ }
+ if(['29209','10204','37202'].includes(code)) {
+  const referenced=new Set(dataset.projects.flatMap(p=>[...p.evidence,...p.amounts.map(a=>a.evidence),...p.indicators.map(i=>i.evidence),...p.ratings.map(r=>r.evidence)].map(e=>e.sourceUrl)));
+  for(const input of inputs.filter(i=>referenced.has(i.sourceUrl)&&!dataset.sources.some(s=>s.documents.some(d=>d.url===i.sourceUrl)))){
+   dataset.sources.push({id:`cached-${code}-${input.sourceId}`,municipalityCode:code,municipalityName:row.municipalityName,sourcePageUrl:input.sourceUrl,evaluationYear:null,status:'partial',discoveredDocuments:1,fetchedDocuments:1,extractedProjects:0,scope:'同一事業の資料横断再掲。事業件数は代表資料に計上し、この資料の証拠も当該事業に保持。',message:'追加取得なし。保存済み本文照合。',lastAttemptAt:input.fetchedAt,lastSuccessAt:input.fetchedAt,documents:[{url:input.sourceUrl,format:'pdf',status:'partial',sha256:input.sourceSha256,fetchedAt:input.fetchedAt,projectCount:0,message:'代表資料の事業へ証拠を統合'}]});
+   documents.push({sourceId:input.sourceId,sourceUrl:input.sourceUrl,sourceSha256:input.sourceSha256,textSha256:sha256(Buffer.from(input.text)),records:0,truncated:input.truncated});
+  }
  }
  const ps=dataset.projects;
  audit.push({code,documents,records:ps.length,withAmounts:ps.filter(p=>p.amounts.some(a=>a.amountYen!==null)).length,withActualAmounts:ps.filter(p=>p.amounts.some(a=>a.kind==='actual'&&a.amountYen!==null)).length,withIndicators:ps.filter(p=>p.indicators.length).length,withNumericIndicators:ps.filter(p=>p.indicators.some(i=>i.actual!==null||i.target!==null)).length,withOutcomeIndicators:ps.filter(p=>p.indicators.some(i=>i.name.includes('【成果指標】'))).length,withOutcomes:ps.filter(p=>p.outcomes!==null).length,withRatings:ps.filter(p=>p.ratings.length).length,duplicates});
