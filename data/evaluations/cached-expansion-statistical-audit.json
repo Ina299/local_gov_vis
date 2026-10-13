@@ -13,7 +13,7 @@
   "inputManifest": [
     {
       "path": "data/evaluations/cached-expansion-provenance.json",
-      "sha256": "b5cc3fa851d3ffbb5d81d0c2084996d348f8277c0520e640acf36277bafe0c98"
+      "sha256": "44c5009e825bba2d0d6129a3cffc097a6b470526729b86a0c2ee14f723392ea8"
     },
     {
       "path": "data/evaluations/cached-extraction-audit-batch2.json",
@@ -26,6 +26,10 @@
     {
       "path": "data/evaluations/cached-extraction-audit-batch4.json",
       "sha256": "87f21158c8ca490033c4532d55d596568a6b578dba871148541b9fe8c5c53d8c"
+    },
+    {
+      "path": "data/evaluations/cached-extraction-audit-batch5.json",
+      "sha256": "206a5a8c32b893d420f52e37069362b038459ba719d0ed0e065648512ec03013"
     },
     {
       "path": "data/evaluations/cached-extraction-audit.json",
@@ -54,6 +58,10 @@
     {
       "path": "apps/web/public/evaluations-municipal/03205.json",
       "sha256": "455af8f1fb821a7ba10ae1c962b23f0b665590ff4ff4829224f860307831211d"
+    },
+    {
+      "path": "apps/web/public/evaluations-municipal/05214.json",
+      "sha256": "716987f7b66865efe2183bfef6e92a10febd4769637824e05b38fe003a7f6fc4"
     },
     {
       "path": "apps/web/public/evaluations-municipal/05434.json",
@@ -92,6 +100,10 @@
       "sha256": "a9be07eee2fec0eda588e5e983f1c5145b6c3cb8a97a90ac844c3c7aa1b12474"
     },
     {
+      "path": "apps/web/public/evaluations-municipal/11381.json",
+      "sha256": "76d366e6129e5a0868e654e63fd9cdc2c3adf53c5ca2066dff1a73d67490c3c1"
+    },
+    {
       "path": "apps/web/public/evaluations-municipal/11385.json",
       "sha256": "ba4eea6cc5041c4922531835f1ea51f01af27ec370a9da6134e24501e0464ec3"
     },
@@ -106,6 +118,10 @@
     {
       "path": "apps/web/public/evaluations-municipal/12441.json",
       "sha256": "6480e792306312969b373600e222f689dbe3f208e38c8c444e4f0879b4a20eee"
+    },
+    {
+      "path": "apps/web/public/evaluations-municipal/13106.json",
+      "sha256": "789e9d68f453c8469fcdd6cf0a3b48c6399a4de12b798a14d454a783934470fe"
     },
     {
       "path": "apps/web/public/evaluations-municipal/13116.json",
@@ -228,18 +244,18 @@
       "sha256": "84430f3903b0637701989aaf02f3251527f3537d25ce8a15a5dc01e2c4075e3d"
     }
   ],
-  "municipalityCount": 49,
+  "municipalityCount": 52,
   "totals": {
-    "records": 3372,
-    "withAmounts": 1103,
+    "records": 3380,
+    "withAmounts": 1104,
     "withActualAmounts": 1056,
-    "withIndicators": 794,
-    "withNumericIndicators": 542,
-    "withOutcomeIndicators": 415,
-    "withOutcomes": 1264,
-    "withRatings": 1497,
-    "amountFields": 2158,
-    "amountFieldsWithValue": 2146,
+    "withIndicators": 796,
+    "withNumericIndicators": 544,
+    "withOutcomeIndicators": 416,
+    "withOutcomes": 1271,
+    "withRatings": 1505,
+    "amountFields": 2164,
+    "amountFieldsWithValue": 2152,
     "amountFieldsUnknownYear": 0,
     "amountFieldsUnknownValue": 12,
     "amountByKindYear": {
@@ -279,19 +295,19 @@
         "records": 1
       },
       "personnel:2016": {
-        "fields": 1,
-        "nonNullValues": 1,
-        "records": 1
+        "fields": 2,
+        "nonNullValues": 2,
+        "records": 2
       },
       "personnel:2017": {
-        "fields": 1,
-        "nonNullValues": 1,
-        "records": 1
+        "fields": 2,
+        "nonNullValues": 2,
+        "records": 2
       },
       "personnel:2018": {
-        "fields": 1,
-        "nonNullValues": 1,
-        "records": 1
+        "fields": 2,
+        "nonNullValues": 2,
+        "records": 2
       },
       "personnel:2019": {
         "fields": 1,
@@ -304,19 +320,19 @@
         "records": 1
       },
       "fullCost:2016": {
-        "fields": 1,
-        "nonNullValues": 1,
-        "records": 1
+        "fields": 2,
+        "nonNullValues": 2,
+        "records": 2
       },
       "fullCost:2017": {
-        "fields": 1,
-        "nonNullValues": 1,
-        "records": 1
+        "fields": 2,
+        "nonNullValues": 2,
+        "records": 2
       },
       "fullCost:2018": {
-        "fields": 1,
-        "nonNullValues": 1,
-        "records": 1
+        "fields": 2,
+        "nonNullValues": 2,
+        "records": 2
       },
       "fullCost:2019": {
         "fields": 1,
@@ -444,18 +460,18 @@
         "records": 3
       }
     },
-    "indicatorFields": 1720,
+    "indicatorFields": 1736,
     "indicatorFieldsUnknownYear": 389,
-    "explicitOutcomeActualRecords": 286,
-    "strictNumericOutcomeActualRecords": 286,
+    "explicitOutcomeActualRecords": 287,
+    "strictNumericOutcomeActualRecords": 287,
     "outcomeLabelWithoutActualRecords": 129,
-    "narrativeOnlyOutcomeRecords": 1227,
+    "narrativeOnlyOutcomeRecords": 1234,
     "unknownOutcomeRecords": 1859,
     "unknownEvaluationYearRecords": 1730,
     "unknownAssessedFiscalYearRecords": 584,
     "bothYearsUnknownRecords": 0,
-    "noStructuredAmountRecords": 2269,
-    "unlabelledIndicatorRoleRecords": 350
+    "noStructuredAmountRecords": 2276,
+    "unlabelledIndicatorRoleRecords": 351
   },
   "municipalities": [
     {
@@ -718,6 +734,36 @@
       "unknownAssessedFiscalYearRecords": 0,
       "bothYearsUnknownRecords": 0,
       "noStructuredAmountRecords": 1,
+      "unlabelledIndicatorRoleRecords": 0
+    },
+    {
+      "code": "05214",
+      "name": "にかほ市",
+      "auditFile": "cached-extraction-audit-batch5.json",
+      "records": 6,
+      "withAmounts": 0,
+      "withActualAmounts": 0,
+      "withIndicators": 0,
+      "withNumericIndicators": 0,
+      "withOutcomeIndicators": 0,
+      "withOutcomes": 6,
+      "withRatings": 6,
+      "amountFields": 0,
+      "amountFieldsWithValue": 0,
+      "amountFieldsUnknownYear": 0,
+      "amountFieldsUnknownValue": 0,
+      "amountByKindYear": {},
+      "indicatorFields": 0,
+      "indicatorFieldsUnknownYear": 0,
+      "explicitOutcomeActualRecords": 0,
+      "strictNumericOutcomeActualRecords": 0,
+      "outcomeLabelWithoutActualRecords": 0,
+      "narrativeOnlyOutcomeRecords": 6,
+      "unknownOutcomeRecords": 0,
+      "unknownEvaluationYearRecords": 0,
+      "unknownAssessedFiscalYearRecords": 0,
+      "bothYearsUnknownRecords": 0,
+      "noStructuredAmountRecords": 6,
       "unlabelledIndicatorRoleRecords": 0
     },
     {
@@ -1061,6 +1107,36 @@
       "unlabelledIndicatorRoleRecords": 127
     },
     {
+      "code": "11381",
+      "name": "美里町",
+      "auditFile": "cached-extraction-audit-batch5.json",
+      "records": 1,
+      "withAmounts": 0,
+      "withActualAmounts": 0,
+      "withIndicators": 1,
+      "withNumericIndicators": 1,
+      "withOutcomeIndicators": 0,
+      "withOutcomes": 1,
+      "withRatings": 1,
+      "amountFields": 0,
+      "amountFieldsWithValue": 0,
+      "amountFieldsUnknownYear": 0,
+      "amountFieldsUnknownValue": 0,
+      "amountByKindYear": {},
+      "indicatorFields": 5,
+      "indicatorFieldsUnknownYear": 0,
+      "explicitOutcomeActualRecords": 0,
+      "strictNumericOutcomeActualRecords": 0,
+      "outcomeLabelWithoutActualRecords": 0,
+      "narrativeOnlyOutcomeRecords": 1,
+      "unknownOutcomeRecords": 0,
+      "unknownEvaluationYearRecords": 0,
+      "unknownAssessedFiscalYearRecords": 0,
+      "bothYearsUnknownRecords": 0,
+      "noStructuredAmountRecords": 1,
+      "unlabelledIndicatorRoleRecords": 1
+    },
+    {
       "code": "11385",
       "name": "上里町",
       "auditFile": "cached-extraction-audit-batch4.json",
@@ -1200,6 +1276,67 @@
       "unknownAssessedFiscalYearRecords": 0,
       "bothYearsUnknownRecords": 0,
       "noStructuredAmountRecords": 59,
+      "unlabelledIndicatorRoleRecords": 0
+    },
+    {
+      "code": "13106",
+      "name": "台東区",
+      "auditFile": "cached-extraction-audit-batch5.json",
+      "records": 1,
+      "withAmounts": 1,
+      "withActualAmounts": 0,
+      "withIndicators": 1,
+      "withNumericIndicators": 1,
+      "withOutcomeIndicators": 1,
+      "withOutcomes": 0,
+      "withRatings": 1,
+      "amountFields": 6,
+      "amountFieldsWithValue": 6,
+      "amountFieldsUnknownYear": 0,
+      "amountFieldsUnknownValue": 0,
+      "amountByKindYear": {
+        "personnel:2016": {
+          "fields": 1,
+          "nonNullValues": 1,
+          "records": 1
+        },
+        "personnel:2017": {
+          "fields": 1,
+          "nonNullValues": 1,
+          "records": 1
+        },
+        "personnel:2018": {
+          "fields": 1,
+          "nonNullValues": 1,
+          "records": 1
+        },
+        "fullCost:2016": {
+          "fields": 1,
+          "nonNullValues": 1,
+          "records": 1
+        },
+        "fullCost:2017": {
+          "fields": 1,
+          "nonNullValues": 1,
+          "records": 1
+        },
+        "fullCost:2018": {
+          "fields": 1,
+          "nonNullValues": 1,
+          "records": 1
+        }
+      },
+      "indicatorFields": 11,
+      "indicatorFieldsUnknownYear": 0,
+      "explicitOutcomeActualRecords": 1,
+      "strictNumericOutcomeActualRecords": 1,
+      "outcomeLabelWithoutActualRecords": 0,
+      "narrativeOnlyOutcomeRecords": 0,
+      "unknownOutcomeRecords": 0,
+      "unknownEvaluationYearRecords": 0,
+      "unknownAssessedFiscalYearRecords": 0,
+      "bothYearsUnknownRecords": 0,
+      "noStructuredAmountRecords": 0,
       "unlabelledIndicatorRoleRecords": 0
     },
     {
