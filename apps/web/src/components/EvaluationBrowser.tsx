@@ -139,7 +139,7 @@ function NormalizedView({ entry }: { entry: IndexEntry }) {
     <p className="evaluation-notice">整理済み事業票は、取得資料の一部から目的・成果・コスト等を抽出したものです。資料・テキストの閲覧可否とは別の収録範囲です。予算マップと金額を合算しません。</p>
     {load.status === 'loading' && <p role="status">整理済み事業票の収録状況を読み込んでいます…</p>}
     {load.status === 'error' && <Failure message={load.message} retry={refresh} />}
-    {load.status === 'ready' && <p className="evaluation-muted">整理済み事業票：全国{load.value.primaryMunicipalities.toLocaleString()}自治体・{load.value.primaryEvaluationRecords.toLocaleString()}評価レコード。同一事業の年度別記録を含み、資料全体の網羅を示しません。</p>}
+    {load.status === 'ready' && <p className="evaluation-muted">整理済み事業票：全国{load.value.primaryMunicipalities.toLocaleString()}自治体・{load.value.primaryEvaluationRecords.toLocaleString()}年度別レコード。同一事業の複数年度の記録を含み、異なる年度を通じた一意の事業数ではありません。資料全体の網羅も示しません。</p>}
     {normalized?.dataStatus === 'primary_available' ? <MunicipalityEvaluations entry={normalized} loader={loader} refreshIndex={refresh} /> : load.status === 'ready' && <div className="evaluation-state"><h3>この自治体の整理済み事業票は未収録です</h3><p>原資料や未構造化の取得テキストが読める場合があります。「資料・取得テキスト」で確認してください。</p>{normalized?.historicalEvaluationRecords ? <p>過去資料の記録が別管理で{normalized.historicalEvaluationRecords.toLocaleString()}件あります。ここでは事業票として表示していません。</p> : null}<Link href={evidenceHref(entry.municipalityCode)} scroll={false}>資料・取得テキストへ戻る</Link></div>}
   </>;
 }

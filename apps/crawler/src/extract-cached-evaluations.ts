@@ -42,7 +42,33 @@ import { extractHita } from './evaluations/expansion/hita';
 import { extractIizuka } from './evaluations/expansion/iizuka';
 import { extractMunakata } from './evaluations/expansion/munakata';
 import { extractTomisato } from './evaluations/expansion/tomisato';
+import { extractHanamaki } from './evaluations/expansion/hanamaki';
+import { extractOfunato } from './evaluations/expansion/ofunato';
+import { extractMinamiashigara } from './evaluations/expansion/minamiashigara';
+import { extractHirao } from './evaluations/expansion/hirao';
+import { extractKamisato } from './evaluations/expansion/kamisato';
+import { extractToshima } from './evaluations/expansion/toshima';
+import { extractKumamoto } from './evaluations/expansion/kumamoto';
+import { extractMiura } from './evaluations/expansion/miura';
+import { extractKomatsu } from './evaluations/expansion/komatsu';
+import { extractOyama } from './evaluations/expansion/oyama';
+import { extractNanbuAomori } from './evaluations/expansion/nanbu-aomori';
+import { extractNanbuYamanashi } from './evaluations/expansion/nanbu-yamanashi';
+import { extractYuzawa } from './evaluations/expansion/yuzawa';
 const extractors: Record<string,(input:CachedInput, inputs:CachedInput[])=>ProjectEvaluation[]> = {
+ '03205':extractHanamaki,
+ '03203':extractOfunato,
+ '14217':extractMinamiashigara,
+ '35344':extractHirao,
+ '11385':extractKamisato,
+ '13116':extractToshima,
+ '43100':extractKumamoto,
+ '14210':extractMiura,
+ '17203':extractKomatsu,
+ '09208':extractOyama,
+ '02445':extractNanbuAomori,
+ '19366':extractNanbuYamanashi,
+ '15461':extractYuzawa,
  '05434':extractMisato,'11365':extractOgano,'12210':extractMobara,'34214':extractAkitakata,
  '21221':(input,inputs)=>extractKaizu(input,inputs.find(d=>d.sourceId==='982b3dbd86b80c24870b5012')),
  '01202':extractHakodate,'06205':extractShinjo,'11214':extractKasukabe,'11232':extractKuki,
@@ -101,7 +127,7 @@ for(const code of codes){
    }
   }
   dataset.projects.push(...unique);
-  dataset.sources.push({id:`cached-${code}-${input.sourceId}`,municipalityCode:code,municipalityName:row.municipalityName,sourcePageUrl:input.sourcePageUrl,evaluationYear:unique.every(p=>p.evaluationYear===unique[0].evaluationYear)?unique[0].evaluationYear:null,status:'partial',discoveredDocuments:1,fetchedDocuments:1,extractedProjects:unique.length,scope:code==='44204'?'施策調書内の個別事業枠の部分構造化。列混在・名称改行等は保留、全件完了ではありません。':code==='14211'?'大学連携施策の個別事業票を部分構造化。大学別再掲を統合し、部分経費は数値化せず原文保持。':code==='40220'?'決算成果報告書の主要事業詳細を部分構造化。補足表の列混在は保留。全事業の網羅性は未確認。':['13212','40349','20210','37202','40217'].includes(code)?'事業別の市民・議会・外部評価意見の部分レコード。完全個票ではありません。全事業・最新年度の網羅性は未確認。':code==='34212'?'目的別事業群のうち、個別事業の詳細節を部分構造化。群合計の配分や一覧行の計上は行わない。全事業・最新年度の網羅性は未確認。':'保存済み本文の識別可能な個票のみ。全事業・最新年度の網羅性は未確認。',message:'追加の原典取得なし。保存済み抽出テキストとの文字位置照合済み。PDF原本との再照合は未実施。',lastAttemptAt:input.fetchedAt,lastSuccessAt:input.fetchedAt,documents:[{url:input.sourceUrl,format:'pdf',status:'partial',sha256:input.sourceSha256,fetchedAt:input.fetchedAt,projectCount:unique.length,message:'保存済み本文から部分構造化'}]});
+  dataset.sources.push({id:`cached-${code}-${input.sourceId}`,municipalityCode:code,municipalityName:row.municipalityName,sourcePageUrl:input.sourcePageUrl,evaluationYear:unique.every(p=>p.evaluationYear===unique[0].evaluationYear)?unique[0].evaluationYear:null,status:'partial',discoveredDocuments:1,fetchedDocuments:1,extractedProjects:unique.length,scope:code==='35344'?'施策評価表の関係主要事業欄にある事業別評価行の部分構造化。施策全体の成果は転用せず、完全個票ではありません。':code==='15461'?'事務事業評価結果一覧の事業別一次評価（部分抽出・完全個票ではない）':code==='19366'?'教育点検評価の独立評価単位を部分構造化。複数施設・活動を含む単位があり、単一予算事業数とは一致しません。':code==='44204'?'施策調書内の個別事業枠の部分構造化。列混在・名称改行等は保留、全件完了ではありません。':code==='14211'?'大学連携施策の個別事業票を部分構造化。大学別再掲を統合し、部分経費は数値化せず原文保持。':code==='40220'?'決算成果報告書の主要事業詳細を部分構造化。補足表の列混在は保留。全事業の網羅性は未確認。':['13212','40349','20210','37202','40217'].includes(code)?'事業別の市民・議会・外部評価意見の部分レコード。完全個票ではありません。全事業・最新年度の網羅性は未確認。':code==='34212'?'目的別事業群のうち、個別事業の詳細節を部分構造化。群合計の配分や一覧行の計上は行わない。全事業・最新年度の網羅性は未確認。':'保存済み本文の識別可能な個票のみ。全事業・最新年度の網羅性は未確認。',message:'追加の原典取得なし。保存済み抽出テキストとの文字位置照合済み。PDF原本との再照合は未実施。',lastAttemptAt:input.fetchedAt,lastSuccessAt:input.fetchedAt,documents:[{url:input.sourceUrl,format:'pdf',status:'partial',sha256:input.sourceSha256,fetchedAt:input.fetchedAt,projectCount:unique.length,message:'保存済み本文から部分構造化'}]});
   documents.push({sourceId:input.sourceId,sourceUrl:input.sourceUrl,sourceSha256:input.sourceSha256,textSha256:sha256(Buffer.from(input.text)),records:unique.length,truncated:input.truncated});
  }
  if(['29209','10204','37202','44204'].includes(code)) {

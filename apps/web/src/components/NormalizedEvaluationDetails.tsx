@@ -77,7 +77,7 @@ function CoverageCard({ source }: { source: EvaluationSourceStatus }) {
       <p>{source.scope}</p>
       <p className={source.status === 'failed' || source.status === 'partial' ? 'evaluation-warning-text' : 'evaluation-muted'}>{source.message}</p>
       <p className="evaluation-source-counts">
-        発見資料 {source.discoveredDocuments}件 ／ 取得資料 {source.fetchedDocuments}件 ／ 抽出事業 {source.extractedProjects}件
+        発見資料 {source.discoveredDocuments}件 ／ 取得資料 {source.fetchedDocuments}件 ／ 抽出レコード {source.extractedProjects}件
       </p>
       <SourceLink url={source.sourcePageUrl}>自治体の公開ページ</SourceLink>
       <details className="evaluation-evidence">
@@ -92,7 +92,7 @@ function CoverageCard({ source }: { source: EvaluationSourceStatus }) {
                 <div className="evaluation-inline-links">
                   <SourceLink url={document.url}>資料 {index + 1}（{document.format.toUpperCase()}）</SourceLink>
                   <StatusBadge status={document.status} />
-                  <span>抽出事業 {document.projectCount}件</span>
+                  <span>抽出レコード {document.projectCount}件</span>
                 </div>
                 <p>{document.message}</p>
                 <p className="evaluation-muted">取得：{formatEvaluationTimestamp(document.fetchedAt)}</p>
@@ -261,7 +261,8 @@ export function MunicipalityEvaluations({ entry, loader, refreshIndex }: {
         {sources.length === 0 ? <p className="evaluation-empty-inline">取得対象の記録はありません。</p> : <div className="evaluation-source-list">{sources.map((source) => <CoverageCard source={source} key={source.id} />)}</div>}
       </section>
       <section className="evaluation-results" aria-labelledby="evaluation-results-title">
-        <div className="evaluation-section-heading"><h3 id="evaluation-results-title">事業の評価</h3><p role="status" aria-live="polite">{projects.length.toLocaleString()}件{projects.length > visibleCount && `中 ${visibleCount}件を表示`}</p></div>
+        <div className="evaluation-section-heading"><h3 id="evaluation-results-title">事業の年度別評価</h3><p role="status" aria-live="polite">{projects.length.toLocaleString()}件{projects.length > visibleCount && `中 ${visibleCount}件を表示`}</p></div>
+        <p className="evaluation-muted">件数は年度別レコード数です。同一事業の複数年度の記録を含み、異なる年度を通じた一意の事業数ではありません。別年度の資料に同じ過年度費用が再掲されることもあるため、金額を単純合算できません。</p>
         {projects.length === 0 ? <div className="evaluation-state"><h4>{query || evaluationYear || fiscalYear ? '条件に一致する事業がありません' : '抽出済みの事業がありません'}</h4><p>未取得・取得失敗・未対応の資料は検索結果に含まれません。取得状況と自治体の原資料も確認してください。</p>{(query || evaluationYear || fiscalYear) && <button className="evaluation-button" onClick={clearSearch}>検索語・年度をリセット</button>}</div>
           : <div className="evaluation-project-list">{projects.slice(0, visibleCount).map((project) => <ProjectCard key={project.id} project={project} />)}</div>}
         {projects.length > visibleCount && <button className="evaluation-button evaluation-more" onClick={() => setVisibleCount((count) => count + PAGE_SIZE)}>次の{Math.min(PAGE_SIZE, projects.length - visibleCount)}件を表示</button>}

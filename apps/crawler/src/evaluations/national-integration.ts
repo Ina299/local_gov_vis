@@ -13,8 +13,9 @@ export const NATIONAL_PROJECTION_SHA256 = 'c2f4d20a6a1c1309c11e67bdb9676e5c50dd4
 export const NATIONAL_INDEX_SHA256 = 'f5f15661d58e5bc9effe48b3dd2b6bb8a890cc1a06a31c4a42bc1676d1dd6c07';
 export const BASELINE_SHA256 = 'a6e003dde6382383050f431ae44be65e3097580df63ef66091ea3177150a05d1';
 export const BASELINE_CODES = ['01100', '11237', '14206'] as const;
+// Aggregate offline bundle bound grows with municipal coverage; browser reads still cap each selected shard at 12 MiB.
 export const LIMITS = { indexBytes: 2 * 1024 * 1024, shardBytes: 12 * 1024 * 1024,
-  baselineBytes: 8 * 1024 * 1024, totalBytes: 80 * 1024 * 1024, municipalities: 1741, records: 100_000 } as const;
+  baselineBytes: 8 * 1024 * 1024, totalBytes: 128 * 1024 * 1024, municipalities: 1741, records: 100_000 } as const;
 const INDEX_PATH = 'evaluations-index.json';
 const MANIFEST_PATH = 'data/evaluations/integration-provenance.json';
 const record = (value: unknown): value is Record<string, unknown> => !!value && typeof value === 'object' && !Array.isArray(value);

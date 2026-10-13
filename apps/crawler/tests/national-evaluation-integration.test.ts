@@ -260,3 +260,19 @@ test('cached expansion preserves pinned bytes and rejects municipality and proje
   extra.projects[0].id = baseline.projects[0].id;
   assert.throws(() => composeCachedExpansion(base, new Map([['02201', bytes(extra)]]), generatedAt), /Duplicate project ID/);
 });
+
+
+test('aggregate shard allowance remains bounded independently of each municipality fetch', () => {
+  const index=fixture().index;
+  const count=Math.ceil(LIMITS.totalBytes/LIMITS.shardBytes);
+  index.municipalities=Array.from({length:count},(_,i)=>{
+    const code=String(1100+i).padStart(5,'0');
+    return {...row(code,dataset(code)),datasetBytes:LIMITS.shardBytes};
+  });
+  index.scopeMunicipalities=count;index.primaryMunicipalities=count;index.primaryEvaluationRecords=count;
+  assert.throws(()=>validateEvaluationIndex(index),/Total shard byte bound exceeded/);
+  index.municipalities[count-1].datasetBytes=LIMITS.totalBytes-(count-1)*LIMITS.shardBytes;
+  assert.doesNotThrow(()=>validateEvaluationIndex(index));
+  index.municipalities[count-1].datasetBytes++;
+  assert.throws(()=>validateEvaluationIndex(index),/Total shard byte bound exceeded/);
+});
