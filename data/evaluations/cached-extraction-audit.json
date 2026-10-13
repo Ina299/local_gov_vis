@@ -1,0 +1,404 @@
+{
+  "generatedAt": "2026-10-13T15:30:23.000Z",
+  "offlineOnly": true,
+  "municipalities": [
+    {
+      "code": "05434",
+      "documents": [
+        {
+          "sourceId": "d5d54c793420c17f6b2ca519",
+          "sourceUrl": "https://www.town.misato.akita.jp/uploads/public/archive_0000001622_00/6206download.pdf",
+          "sourceSha256": "13921d96e4b1be426b6ccbef8c82b50cf1858f7faf7fc2e637c78fc3e517d04b",
+          "textSha256": "fdfde671347d521e886c234465e2029cc07890aad8e95d7f9c551818fd8ee1ad",
+          "records": 41,
+          "truncated": false
+        }
+      ],
+      "records": 41,
+      "withAmounts": 41,
+      "withActualAmounts": 41,
+      "withIndicators": 4,
+      "withNumericIndicators": 4,
+      "withOutcomeIndicators": 0,
+      "withOutcomes": 41,
+      "withRatings": 41,
+      "duplicates": []
+    },
+    {
+      "code": "11365",
+      "documents": [
+        {
+          "sourceId": "03478d09614082fe9c326578",
+          "sourceUrl": "https://www.town.ogano.lg.jp/cms/wp-content/uploads/2026/03/R7seisaku3.pdf",
+          "sourceSha256": "1dc57287ce404598f6d5a863611f1841db44a1fe2a6800829622b7664f1286ee",
+          "textSha256": "2cfb2decccd3df248c567b88b73b213edec34270782ef5085e634db57d802dc7",
+          "records": 35,
+          "truncated": false
+        },
+        {
+          "sourceId": "5418cf985c1dbb8aa7390a00",
+          "sourceUrl": "https://www.town.ogano.lg.jp/cms/wp-content/uploads/2026/03/R7seisaku1.pdf",
+          "sourceSha256": "9266f8e959fc3f2bf47d16753c305f4f43e4635f095cedf7bddc0a9465f28a61",
+          "textSha256": "b9a61d9c1e497e8d25f570d69428d3253e1a194bb4f52ad0ac2fdba952ab09c1",
+          "records": 27,
+          "truncated": false
+        },
+        {
+          "sourceId": "8603a10b77c276024b138235",
+          "sourceUrl": "https://www.town.ogano.lg.jp/cms/wp-content/uploads/2026/03/R7seisaku4.pdf",
+          "sourceSha256": "a4fcfd4537a18dbecaa26437e0455b652a459efafd099746ca9f053d1c6fbd57",
+          "textSha256": "24f0831679ae5dfd1e3aa84b24dbf6880c6e077f1963775f4e98471b33e4809b",
+          "records": 15,
+          "truncated": false
+        },
+        {
+          "sourceId": "9969a860815b38480040d889",
+          "sourceUrl": "https://www.town.ogano.lg.jp/cms/wp-content/uploads/2026/03/R7seisaku5.pdf",
+          "sourceSha256": "aa9fb72a4f7116d0d649eaab0de1606adf5ae0a1a2b26bd5a68e522d119053fd",
+          "textSha256": "44d81fad57cb97d40bf73065c1b3c5f004e5dadebbbcaeec064db9f603990b56",
+          "records": 22,
+          "truncated": false
+        },
+        {
+          "sourceId": "a7b6ad317f47e9d869736e96",
+          "sourceUrl": "https://www.town.ogano.lg.jp/cms/wp-content/uploads/2026/03/R7seisaku2.pdf",
+          "sourceSha256": "d81ed6adaca1384abb13ae96e469d03a3d283deb5f0288628dab46c02948f6b9",
+          "textSha256": "3074f452b64b928734ed7dc7e48d68079e0487251b17089c1fd7cefcc22681d9",
+          "records": 28,
+          "truncated": false
+        }
+      ],
+      "records": 127,
+      "withAmounts": 0,
+      "withActualAmounts": 0,
+      "withIndicators": 127,
+      "withNumericIndicators": 0,
+      "withOutcomeIndicators": 0,
+      "withOutcomes": 0,
+      "withRatings": 78,
+      "duplicates": []
+    },
+    {
+      "code": "12210",
+      "documents": [
+        {
+          "sourceId": "086a3c79e897e69568f87b12",
+          "sourceUrl": "https://www.city.mobara.chiba.jp/cmsfiles/contents/0000009/9326/4anzenanshin.pdf",
+          "sourceSha256": "df2063c81adc4439ff09187cba9841b184d18555e08a7556233d9892cf52cada",
+          "textSha256": "72a40c2116896e5bb8801d77286124f317e0c4a7ab9544855990ce9ba3ec6965",
+          "records": 18,
+          "truncated": false
+        },
+        {
+          "sourceId": "54c6d9354d926790e1fff4e7",
+          "sourceUrl": "https://www.city.mobara.chiba.jp/cmsfiles/contents/0000009/9326/5toshikankyou.pdf",
+          "sourceSha256": "c0ac9a9accc60e962b0c2ad003207da8fe37a73c2f0b74e23e2e87e85a33a329",
+          "textSha256": "f2e9fe0b85af421a44cbd6b130e6a165ebf5beb2adb20233111cc4fe9b863515",
+          "records": 20,
+          "truncated": false
+        },
+        {
+          "sourceId": "5d208444a328f259f60ebf35",
+          "sourceUrl": "https://www.city.mobara.chiba.jp/cmsfiles/contents/0000009/9326/2kenkouhukushi.pdf",
+          "sourceSha256": "dce43de2d876340ebc2eab673f6380a6d0fe8b6d316d99a0d1dc1c9c0c703c5f",
+          "textSha256": "9d67d272ae83a2253c3d0bb3f354554c6a478438b837d1bbcd8adc0d7d6d6e6d",
+          "records": 29,
+          "truncated": false
+        },
+        {
+          "sourceId": "b4c24c96f6e6adef9cbb04b2",
+          "sourceUrl": "https://www.city.mobara.chiba.jp/cmsfiles/contents/0000009/9326/6kyoudousuishin.pdf",
+          "sourceSha256": "6e1047d240187c8f2a30d7dc69aa8cdf9512cf0107dcc11479df9391680291ff",
+          "textSha256": "487be5c0fb514e34c46b5defb0398d6764c0105b1c4d521168f6dbbe5d692534",
+          "records": 17,
+          "truncated": false
+        },
+        {
+          "sourceId": "d797bae225349bfa8dfdc619",
+          "sourceUrl": "https://www.city.mobara.chiba.jp/cmsfiles/contents/0000009/9326/1kyouikubunka.pdf",
+          "sourceSha256": "4a51a9c39c786d3df0eb5944059ede9e956d1ec1ebfb0364d9003f04fd01abf7",
+          "textSha256": "879eab29431b4aeda9afa1c211b14363f136cc7d9d9eb8e870f15eb7b3968a3b",
+          "records": 33,
+          "truncated": false
+        },
+        {
+          "sourceId": "e90b3b38aca363e86b11cbc7",
+          "sourceUrl": "https://www.city.mobara.chiba.jp/cmsfiles/contents/0000009/9326/3sangyoushinkou.pdf",
+          "sourceSha256": "5cbc431a3f9840a4efcb4be747de7aa57e57d0939a8c0cde6861abd094b3e1a9",
+          "textSha256": "caf0645da141a4729372b7b9734617c9c3526846e781fdd488848749b94ab30e",
+          "records": 23,
+          "truncated": false
+        }
+      ],
+      "records": 140,
+      "withAmounts": 0,
+      "withActualAmounts": 0,
+      "withIndicators": 0,
+      "withNumericIndicators": 0,
+      "withOutcomeIndicators": 0,
+      "withOutcomes": 137,
+      "withRatings": 140,
+      "duplicates": []
+    },
+    {
+      "code": "21221",
+      "documents": [
+        {
+          "sourceId": "10e31a9d485160629a1bc333",
+          "sourceUrl": "https://www.city.kaizu.lg.jp/shisei/cmsfiles/contents/0000004/4007/3-1_somu_p.64-104.pdf",
+          "sourceSha256": "4e38aca08ccf87436e5eea64d26a24e4ee9d40cee0ca12780c4e2196dc185547",
+          "textSha256": "fc7b6bff7f374a7f952004998632cfe73b1d3026889f1431913cef485f40000b",
+          "records": 37,
+          "truncated": false
+        },
+        {
+          "sourceId": "ed3196ee87afabaca9ffb2c8",
+          "sourceUrl": "https://www.city.kaizu.lg.jp/shisei/cmsfiles/contents/0000004/4007/2_gikai_p.59-63.pdf",
+          "sourceSha256": "1c932f575878a4c59c633b9fd9245d6e06aa6f1da909bedc68dd8d7c22f235c2",
+          "textSha256": "a27f1f7eddc0057958bfb758662f2507fc544f40297d3b43780db903449f944d",
+          "records": 3,
+          "truncated": false
+        }
+      ],
+      "records": 40,
+      "withAmounts": 40,
+      "withActualAmounts": 40,
+      "withIndicators": 26,
+      "withNumericIndicators": 25,
+      "withOutcomeIndicators": 26,
+      "withOutcomes": 0,
+      "withRatings": 26,
+      "duplicates": []
+    },
+    {
+      "code": "34214",
+      "documents": [
+        {
+          "sourceId": "0d1421e5bf4fc40d115c95b2",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/23/3c/233c09d1-d4f2-44d3-8a2c-e0df64d6eb1e/i-31.pdf",
+          "sourceSha256": "b1a33003232cbb2bee6d9c2acba67e77fddf5ceaeb8c4773207ceaef4915a2ca",
+          "textSha256": "d80df1c6370ed27ee09743e0523d54e259d8cda0852d46be353158ca0f1b86a0",
+          "records": 20,
+          "truncated": false
+        },
+        {
+          "sourceId": "11e0305daadc5395313b78f4",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/8c/ce/8cce7789-55d3-4249-b87b-1b89916e07ca/ii-31.pdf",
+          "sourceSha256": "a68b0e1168b5406eaeb7aa2cf466028c5ccd5487c4a48c05caf2e364cafb77e5",
+          "textSha256": "bba1fae15a0a83807f335ba659fe094356ae01ce4198eae4414e0318c84fc768",
+          "records": 21,
+          "truncated": false
+        },
+        {
+          "sourceId": "28191d5bfc26f53b784f0926",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/c3/72/c3725b50-5fbc-4ac9-af9a-3aa23de67fdb/i-1.pdf",
+          "sourceSha256": "8c2f1158927f649e6d34e67da140840ee383cae4dbf6aab17014824cab96db3a",
+          "textSha256": "f8bf670b3f032dcc911d48ec1a37a1e33ad01cd0e2a9e55ee973141e311c0a7a",
+          "records": 4,
+          "truncated": false
+        },
+        {
+          "sourceId": "385b7bdf9132ba87eb0fdb79",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/d8/6e/d86ea177-b0bf-4c5d-bbe8-c5a318a330e7/iii-12.pdf",
+          "sourceSha256": "9ddca568abc1b16d805f2f33a5719784bc1b28133420a828de6146b9d3ecf135",
+          "textSha256": "ad0ac12426b5e3e77e3a720ebf3ffdf26f4b52facd59a6df7c356b8b67391fec",
+          "records": 14,
+          "truncated": false
+        },
+        {
+          "sourceId": "415ca8fca69f7677556a176e",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/e7/70/e7706e53-7c0a-4bd2-ade4-2c2583d3ad35/v-31.pdf",
+          "sourceSha256": "25a0227118a6c4f0339384830a42429b75434ef4a40e21161ea4a933de048f74",
+          "textSha256": "b6b6a07044a7569550b3734eb724275e63c7713ba78997dc68ce7949bb22fd45",
+          "records": 17,
+          "truncated": false
+        },
+        {
+          "sourceId": "61c9f0f9a4b1fe6810383243",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/cf/79/cf79e48f-220d-42d9-88d6-c23d00b34955/v-2.pdf",
+          "sourceSha256": "e458254c0f0a0c00dcd6dbf9512e0d3ff8d62571f6dd84373eb24761c16514a7",
+          "textSha256": "f0fe98f60be78328a27be6a254047b37c5a87ec81498d36961f71af51d486bce",
+          "records": 6,
+          "truncated": false
+        },
+        {
+          "sourceId": "65906e2a2ba80e46c7edcb73",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/2d/ee/2deee840-6272-4c09-9f84-9664c6ac3496/ii-2.pdf",
+          "sourceSha256": "5a89d35462ed20d607a83069d5e611a117156ccdd0c366e37ec08be2d7051376",
+          "textSha256": "d930853bd9425836ffa1fd844fbff80c9a055a0cec3f5d57f288afb6dd9c96bc",
+          "records": 3,
+          "truncated": false
+        },
+        {
+          "sourceId": "674ca60e7839d51028b6f2c4",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/3f/e5/3fe5a245-ed27-4258-ab17-2560a0a7a2f6/v-1.pdf",
+          "sourceSha256": "27faa1d3b3fd3dd4bc12489f8045ef97cb5d490dc7b0fae620b88c64c77de640",
+          "textSha256": "cb2187a9552f856e61e2d223fb4ca841a93458b49e408dc878d5a365a453e78c",
+          "records": 1,
+          "truncated": false
+        },
+        {
+          "sourceId": "685cf091bb0e1679310b585d",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/25/6f/256f40d3-c2c4-48e1-8fe0-9149a65cbb0e/i-2.pdf",
+          "sourceSha256": "c81bedde977155c90cb7f5713aeaa583cb936656cdfa503281cd829de711d8e8",
+          "textSha256": "afeb06cba4236939612b189f7095f66fbf9ecd37a4fdd14af496be00abd6788b",
+          "records": 17,
+          "truncated": false
+        },
+        {
+          "sourceId": "70e9ba0263c0111be8d3261d",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/62/47/62474dd5-0ef1-4376-ac3d-d846f72251c5/iv-2.pdf",
+          "sourceSha256": "86dbe9b8b5e6d9cfe55e8c8e68926a4f95c249d752a5c58aa7871080929ae8a0",
+          "textSha256": "8ab0dd19ce69e16ceae88d00db37a2a01e0f62179c66834d0642fb91df8a42aa",
+          "records": 6,
+          "truncated": false
+        },
+        {
+          "sourceId": "78a9dc7d69d063ce9c0dad90",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/34/1c/341c58d5-2649-4d51-92fd-95c947de0363/iv-11.pdf",
+          "sourceSha256": "897068a6d8067d949f7af7692ae930775f40183de792aa41214c78a5b54b4006",
+          "textSha256": "073fea05e0732266e9dd9a6c84a14e377c23ed5f75e8043dae1cad5ce6e18966",
+          "records": 23,
+          "truncated": false
+        },
+        {
+          "sourceId": "7983a14a8c36e70677e5b423",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/34/25/34255183-634f-4d08-a5a4-ea1803bbab2c/iii-11.pdf",
+          "sourceSha256": "be7265dffb2d72660c6cba7bcc01bc58a8fc8633dfe195da7e1feefe20391e91",
+          "textSha256": "329242bfd630092be239ed510abf0df6bc75580ee6a3e649725379268af39e55",
+          "records": 11,
+          "truncated": false
+        },
+        {
+          "sourceId": "7db8ac5289e692c5b6154e67",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/25/cb/25cb24da-a0dc-4503-8e42-b222e87d7065/iii-31.pdf",
+          "sourceSha256": "fedf43a94f82992bd0686a0436275a2acd8ea69b7006559cf148cd833393f793",
+          "textSha256": "54dbb357ef95c8f1862a1db63a69a2a590f3f2655ac57e72cb1ce58d19a9bb65",
+          "records": 17,
+          "truncated": false
+        },
+        {
+          "sourceId": "8d57baeb2bff291fcc09718d",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/fd/60/fd60c720-cd54-4114-8ece-4020868c9d85/v-32.pdf",
+          "sourceSha256": "56298b9446ef488a050bc93ab90943cf6027838a73c94b92b54ad330ef9dacc4",
+          "textSha256": "6e68d6088de6935c4ece2c81971c63d703768084edd5f285d508a790e31c50c5",
+          "records": 17,
+          "truncated": false
+        },
+        {
+          "sourceId": "93d6d99b005391076228b396",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/b2/aa/b2aa7c04-4ffd-4ceb-97d3-9129799d8796/iii-33.pdf",
+          "sourceSha256": "dbfd23d6605930a7b3ad76ddcf6e8da4d40da1a0d1b1a9735a74681b93b743fe",
+          "textSha256": "aad75bf9227e3f2a6ef28c549a9d7a5a0467d168729892da78fa8bed7cc6b815",
+          "records": 19,
+          "truncated": false
+        },
+        {
+          "sourceId": "a6a136d363cf3e5d6afef839",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/a9/b1/a9b17eaf-cc85-4fdb-9073-1f5f565d512d/iii-32.pdf",
+          "sourceSha256": "57e0f94359996793bfdc58211bb1fbad962e614f445ea4d7322116eb596a22dc",
+          "textSha256": "b4326e00b8e88e59e68ea9a797321770d511891e5d3e41411be6b2f0b5d1a877",
+          "records": 16,
+          "truncated": false
+        },
+        {
+          "sourceId": "ae3243e313e4303caa2c0fab",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/f6/ad/f6adbc37-6d7a-4418-bf2a-e9809d20f0c7/ii-32.pdf",
+          "sourceSha256": "5fdbb2fe9a017ba7cf9df1a0d388eda632a176587ffc427bb43f34001e401fe2",
+          "textSha256": "1294fda7ba5151e0d1a75a19d9d01765e4a273c4d0416b3ea05649b8359c158a",
+          "records": 12,
+          "truncated": false
+        },
+        {
+          "sourceId": "b7193e324ccc7109f13583da",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/f8/c8/f8c87d3d-f6ee-4a18-be5f-afb52483f895/ii-1.pdf",
+          "sourceSha256": "c34372e4348ff09620d675e76abceb218d0575513b47a7d99514b07fdd3c7ab0",
+          "textSha256": "bfbc139b1e424fa017dec709cc75dcfe9780a73bbddc9211292a49e68327470f",
+          "records": 9,
+          "truncated": false
+        },
+        {
+          "sourceId": "c4f2f16f5caef1a78e9e4860",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/85/be/85be6609-c434-4782-9918-925774db1dd1/iii-4.pdf",
+          "sourceSha256": "f6f6cd154bf63712f1ef91cf5f7a744a8d55dd98e24c5930c14b21d6914e187d",
+          "textSha256": "14ef69a4dc2a62c1d36bcf6aa3c4ccc1887999f83369077fb3c6b35bf4783999",
+          "records": 8,
+          "truncated": false
+        },
+        {
+          "sourceId": "c5c9841500842da1eb2d349b",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/7c/18/7c18410d-78a7-404f-af4c-a08bfa2cfd5e/iii-34.pdf",
+          "sourceSha256": "a681bfcaef424b1be3258c0fa91884f4dae5271e11c6ee901ff15d887fce0bcf",
+          "textSha256": "6a2a1c3e1d0978786328563596fbc8266fa72e888d540404490c1dd3cde4cac4",
+          "records": 14,
+          "truncated": false
+        },
+        {
+          "sourceId": "cbf2b572c22da6205daceaaa",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/0a/a5/0aa59253-5f4a-4294-9435-2d43b4bb6d1e/iii-2.pdf",
+          "sourceSha256": "e5b4d8882d48af7c3228d3ac39b53bfebc1ed854e292dd2a8d8949520aac1779",
+          "textSha256": "664dc4390a7272d842a93e205857b7c4989eb9dba71982330ab56e7f31ce3de4",
+          "records": 15,
+          "truncated": false
+        },
+        {
+          "sourceId": "ce0d0b5e3157fbc57bd693ea",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/75/28/7528cbc5-439d-4d5b-943f-d059ca1ce706/i-33.pdf",
+          "sourceSha256": "48aa81df120b6341d1aab6ddd9e484f8d9b0847a37b5aa688e6151d6606d72f7",
+          "textSha256": "37e192776b99578b78d82de0b55c812880b17112fc93e99359d83609df96e96d",
+          "records": 13,
+          "truncated": false
+        },
+        {
+          "sourceId": "cf9033e8790cee60a8ffbe96",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/3e/b9/3eb99f8d-1ae8-4a48-b77f-7e1fd6f55770/iv-12.pdf",
+          "sourceSha256": "f5be579aac58a704106542e40cf07a6bab4e5bcd8d0b36cb1e54be4f4a5a6420",
+          "textSha256": "917b6eb188b8f59d8d56b1be1061d33376e1a12074263865f16ab28ae3bad0a5",
+          "records": 16,
+          "truncated": false
+        },
+        {
+          "sourceId": "cff082a231d59b4637add67d",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/dc/01/dc01af08-63a8-4fe3-a4f7-2dd0607e8d79/i-32.pdf",
+          "sourceSha256": "cf3f47d1487f718e8422f55d6a09b8e80fcf90e47f42e9acb5219637c562df06",
+          "textSha256": "d7dff0babb76f3d69a161d24d52d569e5686819316b2e9ad56c121a775604c6f",
+          "records": 23,
+          "truncated": false
+        },
+        {
+          "sourceId": "d75a0048098e27fdd651e455",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/d0/6d/d06dad84-faaa-4680-b988-713e71c31d60/v-33.pdf",
+          "sourceSha256": "9bb44141b02b31f3eb960096d7f0e59672f8c9369b58a2b4199f5cd851c1736c",
+          "textSha256": "dfc07c411b87e9e9bcfcf07b46f4fc76e0c00bc2eabaeca3e4c4555dc94d0f23",
+          "records": 12,
+          "truncated": false
+        },
+        {
+          "sourceId": "ea6755d02cc3a4cf07555373",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/10/e3/10e33f3e-6a3d-4715-8936-42c2b4070f4c/v-4.pdf",
+          "sourceSha256": "c87c8905ab71953d611cca80301bc87592d5f339ed5c0499024d1159d96595e3",
+          "textSha256": "58d5d8fca2a81036e23341f8ad1ccc80b3aad9b724a44648ed1e7a213f5257da",
+          "records": 7,
+          "truncated": false
+        },
+        {
+          "sourceId": "f73d15b4b82fec77c04f5c5b",
+          "sourceUrl": "https://www.akitakata.jp/akitakata-media/filer_public/5a/10/5a106ec5-f3f8-4833-a95c-39f534191b27/ii-4.pdf",
+          "sourceSha256": "fecbfa312920a54c14e9f283c7c5af53db424e7460338f27a2bd739b6ba962e4",
+          "textSha256": "03aaf2ef92e9471e1a47a8c95f0c6e47e42a9511eca3ce5268008eae706ddfed",
+          "records": 10,
+          "truncated": false
+        }
+      ],
+      "records": 351,
+      "withAmounts": 0,
+      "withActualAmounts": 0,
+      "withIndicators": 99,
+      "withNumericIndicators": 99,
+      "withOutcomeIndicators": 99,
+      "withOutcomes": 0,
+      "withRatings": 0,
+      "duplicates": []
+    }
+  ]
+}

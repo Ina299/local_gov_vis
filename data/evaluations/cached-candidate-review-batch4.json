@@ -1,0 +1,105 @@
+{
+  "scope": "Partial extraction review, not exhaustion of all cached texts",
+  "inventoryBaseCommit": "9d9f3c0bac620ce0f9e4990d142d0cdcdf4c8dc2",
+  "networkRequests": 0,
+  "inventoryDocuments": 2460,
+  "inventoryMunicipalities": 677,
+  "processedBatch4Municipalities": 13,
+  "processedBatch5Municipalities": 3,
+  "holds": [
+    {
+      "code": "11301",
+      "name": "伊奈町",
+      "reason": "横長表の本文と予算・決算列が行単位で混在。同名再掲あり。座標と個別行の監査が必要。"
+    },
+    {
+      "code": "32209",
+      "name": "雲南市",
+      "reason": "確認資料は記入例・空様式と施策単位。個別事業実績として抽出しない。"
+    },
+    {
+      "code": "12235",
+      "name": "匝瑳市",
+      "reason": "計画・評価の事業名と説明列が混在、将来費用予測は実績に転用しない。"
+    },
+    {
+      "code": "16211",
+      "name": "射水市",
+      "reason": "費目と活動群の粒度が混在し、個別予算事業と確定できない。"
+    },
+    {
+      "code": "12228",
+      "name": "四街道市",
+      "reason": "横長12列の位置情報が必要。"
+    },
+    {
+      "code": "32202",
+      "name": "浜田市",
+      "reason": "保存テキストの文字化け。原典からの再抽出が必要。"
+    }
+  ],
+  "remainingCandidates": {
+    "existingStructuredMunicipalityUnreferencedDocumentsAtInventory": 169,
+    "note": "過年度等の候補。元shardの保全を維持しながら差分追加・再掲照合を行う設計が必要。未精査資料も多数あり、原典不足とは断定しない。"
+  },
+  "smallAdditions": {
+    "scope": "Final three assigned municipalities only. Further candidate expansion stopped. Shared driver and public data not edited by this agent.",
+    "networkRequests": 0,
+    "validation": {
+      "dedicatedTests": 4,
+      "result": "passed",
+      "crawlerTypecheck": "passed"
+    },
+    "documents": [
+      {
+        "municipalityCode": "05214",
+        "documentId": "26804d000c51723a84a40007",
+        "sourceUrl": "https://www.city.nikaho.akita.jp/material/files/group/5/R7.pdf",
+        "sourceSha256": "492cff1f33e6551202266fc0d677bf2ddc14e71546ce8e5ddc3b5c9a5f2d64d3",
+        "textSha256": "7c19bd751dacec40f29b61080a737532d69423feb756b630ff84bd890f7bbd70",
+        "records": 6,
+        "amounts": 0,
+        "indicators": 0,
+        "ratings": 6,
+        "outcomeNarratives": 6,
+        "warnings": [
+          "保存済み抽出テキストから部分構造化。PDF原本との再照合は未実施。表の空欄・列位置を推測して補完していません。原典ページ番号は未復元のため抽出テキスト内の文字位置を記録。",
+          "前半の候補36事業一覧・総括の再掲を除き、委員会個別6票のみ。目的・成果欄は予定効果も含むため実績値に転用せず、外部評価コメントを結果本文として保持。就農アドバイザーの月額単価から年額決算を推計していません。"
+        ]
+      },
+      {
+        "municipalityCode": "13106",
+        "documentId": "d267cafeefb79fc2fed20372",
+        "sourceUrl": "https://www.city.taito.lg.jp/other/kikaku/gyoseihyoka_head/gyoseihyoka01/jimujigyo01/PDFdata/001.pdf",
+        "sourceSha256": "4fc408033d8c9a09cf63f007b59135f5db50d1e1c1be6a8c3db3945dbd8d2f94",
+        "textSha256": "7e3fc3abbfcdd083c2d1572322ae871764f5d046c4367a9101791120f1be5e78",
+        "records": 1,
+        "amounts": 6,
+        "indicators": 11,
+        "ratings": 4,
+        "outcomeNarratives": 0,
+        "warnings": [
+          "保存済み抽出テキストから部分構造化。PDF原本との再照合は未実施。表の空欄・列位置を推測して補完していません。原典ページ番号は未復元のため抽出テキスト内の文字位置を記録。",
+          "行政計画事業NO.267は関連計画「RPAの導入推進」の番号であるため事務事業番号へ転用しない。人件費・総経費を各原文区分で保持し、内訳合算や差引による直接費の推計は未実施。将来目標値・達成率、括弧付き実績(90.2)、今後の方向性の選択位置は未確定のため未登録。"
+        ]
+      },
+      {
+        "municipalityCode": "11381",
+        "documentId": "de5160adc1e1a29f5a6efaff",
+        "sourceUrl": "https://www.town.saitama-misato.lg.jp/cmsfiles/contents/0000000/368/19-a-01.pdf",
+        "sourceSha256": "01db36289e38ad137635664ee2ae3c80c735d7835b013f76b5671b17fbadcb9b",
+        "textSha256": "9c4b7c106692b0df21b55d438ed96a7698879db7ced7aa8a2ad521b8a77c53df",
+        "records": 1,
+        "amounts": 0,
+        "indicators": 5,
+        "ratings": 3,
+        "outcomeNarratives": 1,
+        "warnings": [
+          "保存済み抽出テキストから部分構造化。PDF原本との再照合は未実施。表の空欄・列位置を推測して補完していません。原典ページ番号は未復元のため抽出テキスト内の文字位置を記録。",
+          "経費表に予算・決算の種別が明示されないため金額は原文のみ。平成18年度交流回数は本文25回と表24回で不一致のため同年の交流回数を数値化していません。対象数を成果・活動指標と推定分類せず、曖昧な評価選択位置も転記していません。"
+        ]
+      }
+    ],
+    "remainingInventory": "../batch4/all-cached-text-inventory.json; automatic classifications remain unreviewed, not evidence of no more candidates."
+  }
+}

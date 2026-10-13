@@ -1,0 +1,23 @@
+[
+  {
+    "file": "sapporo.pdf",
+    "url": "https://www.city.sapporo.jp/somu/hyoka/kekka/documents/zikohyouka/r7kyoku/documents/20251070154.pdf",
+    "sha256": "ddac236ed967c8f2577b769c9d68e49750d7fb14b98b093c6a656816b50dbc2c",
+    "fetchedAt": "2026-10-10T18:21:22.420Z",
+    "sourcePageUrl": "https://www.city.sapporo.jp/somu/hyoka/kekka/documents/zikohyouka/r7kyoku/soumu.html"
+  },
+  {
+    "file": "odawara.xlsx",
+    "url": "https://www.city.odawara.kanagawa.jp/global-image/units/406712/1-20251009141331_b68e7447b06886.xlsx",
+    "sha256": "4ad97da67b679e0b7fa9bd3a3d3f33b6b1af15168cbe8e9631381bd0ba03d31e",
+    "fetchedAt": "2026-10-10T18:21:22.463Z",
+    "sourcePageUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/administra/gyoukaku/p25884.html"
+  },
+  {
+    "file": "misato.html",
+    "url": "https://www.city.misato.lg.jp/section/disclosure/r6/2024/sheet/proj/1000039.html",
+    "sha256": "bc7cdc351783cc1e4b9fb3ea8df636f492af79ce0bcaeafbd25a8b41f7deff5c",
+    "fetchedAt": "2026-10-10T18:21:01.640Z",
+    "sourcePageUrl": "https://www.city.misato.lg.jp/section/disclosure/r6/2024/npm/0/T1/909/909222/909222201.html"
+  }
+]

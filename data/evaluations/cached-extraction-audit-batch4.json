@@ -1,0 +1,332 @@
+{
+  "generatedAt": "2026-10-13T16:55:14.000Z",
+  "offlineOnly": true,
+  "municipalities": [
+    {
+      "code": "02445",
+      "documents": [
+        {
+          "sourceId": "78c425b91e70b38c2d10a81b",
+          "sourceUrl": "https://www.town.aomori-nanbu.lg.jp/uploaded/attachment/2964.pdf",
+          "sourceSha256": "a91d7161624190841325f3246a2f437f73115092aff5fd0bf72d9e6fca040e7f",
+          "textSha256": "4ed921aef35318a127813f1b1577e09066806def8763b09356b601e9fc7416a8",
+          "records": 50,
+          "truncated": false
+        },
+        {
+          "sourceId": "d98cb19db182dc4878dea031",
+          "sourceUrl": "https://www.town.aomori-nanbu.lg.jp/uploaded/attachment/2966.pdf",
+          "sourceSha256": "a3921f7125d0c9b406158bf444283d0607303e246f67f14516cc842a9c41833a",
+          "textSha256": "1e717121102a2c3e87648ddbc79ed8f58e03527e7596b6d314fc3a92e0b8c96a",
+          "records": 59,
+          "truncated": false
+        }
+      ],
+      "records": 109,
+      "withAmounts": 0,
+      "withActualAmounts": 0,
+      "withIndicators": 0,
+      "withNumericIndicators": 0,
+      "withOutcomeIndicators": 0,
+      "withOutcomes": 0,
+      "withRatings": 109,
+      "duplicates": []
+    },
+    {
+      "code": "03203",
+      "documents": [
+        {
+          "sourceId": "f6f7ac413a1c797626051e56",
+          "sourceUrl": "https://www.city.ofunato.iwate.jp/uploads/contents/archive_0000000967_00/25144.pdf",
+          "sourceSha256": "c3101f9250712f7395569486f16e1d5938ada149755735732b59e137941f64bc",
+          "textSha256": "90f8d2482fce125e24ce019d2cf75c78749e1a5105dc81a704c1831e1752f028",
+          "records": 1,
+          "truncated": false
+        }
+      ],
+      "records": 1,
+      "withAmounts": 1,
+      "withActualAmounts": 1,
+      "withIndicators": 1,
+      "withNumericIndicators": 1,
+      "withOutcomeIndicators": 1,
+      "withOutcomes": 0,
+      "withRatings": 0,
+      "duplicates": []
+    },
+    {
+      "code": "03205",
+      "documents": [
+        {
+          "sourceId": "82ae96e11ec1bdfc5bdbfc7a",
+          "sourceUrl": "https://www.city.hanamaki.iwate.jp/_res/projects/default_project/_page_/001/024/594/06r7gyouseikeiei/06_gyouseikeiei_hyouka/r7-6-1-2hyouka.pdf",
+          "sourceSha256": "f65f016fba8178fba58dd3a4e52427caf0b9b81128cb822f38bda6bba54b0d80",
+          "textSha256": "2fb2a31576575dafd4ceafb3f986a8cbd8fcaa0299214453d9f19f8ac4bdce46",
+          "records": 1,
+          "truncated": false
+        }
+      ],
+      "records": 1,
+      "withAmounts": 0,
+      "withActualAmounts": 0,
+      "withIndicators": 1,
+      "withNumericIndicators": 1,
+      "withOutcomeIndicators": 1,
+      "withOutcomes": 0,
+      "withRatings": 0,
+      "duplicates": []
+    },
+    {
+      "code": "09208",
+      "documents": [
+        {
+          "sourceId": "43958dd6075a782a757c889c",
+          "sourceUrl": "https://www.city.oyama.tochigi.jp/data/doc/1780363641_doc_948_0.pdf",
+          "sourceSha256": "0759c632cf21af0c30f5ef616bc241f9ff6902de152e0fa7d288e98a97b84a8b",
+          "textSha256": "7bad666c41e1d9b9a39137cad6e29932ccfb0211b9956f6e26b042dfed1ddefa",
+          "records": 6,
+          "truncated": false
+        }
+      ],
+      "records": 6,
+      "withAmounts": 0,
+      "withActualAmounts": 0,
+      "withIndicators": 0,
+      "withNumericIndicators": 0,
+      "withOutcomeIndicators": 0,
+      "withOutcomes": 0,
+      "withRatings": 6,
+      "duplicates": []
+    },
+    {
+      "code": "11385",
+      "documents": [
+        {
+          "sourceId": "cae717f81825be62830b0bc9",
+          "sourceUrl": "https://www.town.kamisato.saitama.jp/secure/1815/H28gyouseihyouka_taikenkensyu.pdf",
+          "sourceSha256": "c74d45796e62ba30a208b7cbb320719bc32d15f99c7f4c1928c80f20fd964cb4",
+          "textSha256": "d79f0d6c09b6da5b33e5fa763ded18e6b6ac2bcdf1edebb4bc6b44310baaf66c",
+          "records": 1,
+          "truncated": false
+        }
+      ],
+      "records": 1,
+      "withAmounts": 1,
+      "withActualAmounts": 1,
+      "withIndicators": 0,
+      "withNumericIndicators": 0,
+      "withOutcomeIndicators": 0,
+      "withOutcomes": 0,
+      "withRatings": 1,
+      "duplicates": []
+    },
+    {
+      "code": "13116",
+      "documents": [
+        {
+          "sourceId": "b7b2eb8e7fc28693dae05038",
+          "sourceUrl": "https://www.city.toshima.lg.jp/documents/37123/01_kokusaiarticulture.pdf",
+          "sourceSha256": "7591b5748f3b06777520c3f8f6d79ebceb8c00f08390662f9859926440644965",
+          "textSha256": "4a54bf0b48bbfb320fc926d5b0ee60005f8e1a20fb5879ca38c111727b793156",
+          "records": 1,
+          "truncated": false
+        }
+      ],
+      "records": 1,
+      "withAmounts": 1,
+      "withActualAmounts": 1,
+      "withIndicators": 1,
+      "withNumericIndicators": 1,
+      "withOutcomeIndicators": 1,
+      "withOutcomes": 1,
+      "withRatings": 1,
+      "duplicates": []
+    },
+    {
+      "code": "14210",
+      "documents": [
+        {
+          "sourceId": "854bb8045dd409b2016516ef",
+          "sourceUrl": "https://www.city.miura.kanagawa.jp/material/files/group/23/R8tenkenhyouka.pdf",
+          "sourceSha256": "729d952d0476087cffcc162960773a44de70efc8e92fc85c39cfc80cfa1cc7a9",
+          "textSha256": "98f35ae08c21fb39861f5559e66066c194c4fa1d8271d620e7fc40c2882987ac",
+          "records": 14,
+          "truncated": false
+        }
+      ],
+      "records": 14,
+      "withAmounts": 0,
+      "withActualAmounts": 0,
+      "withIndicators": 0,
+      "withNumericIndicators": 0,
+      "withOutcomeIndicators": 0,
+      "withOutcomes": 0,
+      "withRatings": 14,
+      "duplicates": []
+    },
+    {
+      "code": "14217",
+      "documents": [
+        {
+          "sourceId": "86d052bc7071bf8878915fd2",
+          "sourceUrl": "https://www.city.minamiashigara.kanagawa.jp/global-image/units/211303/1-20241002092722.pdf",
+          "sourceSha256": "f8cdf68a0cfbb17ba35b38a48f3f13ba549f7f174333d9953127ea7ee5e78c51",
+          "textSha256": "b89034deb1a82aa0b2a1ba7ff4d6f454211bda32c3f1232400a4b208580eac3e",
+          "records": 5,
+          "truncated": false
+        }
+      ],
+      "records": 5,
+      "withAmounts": 0,
+      "withActualAmounts": 0,
+      "withIndicators": 0,
+      "withNumericIndicators": 0,
+      "withOutcomeIndicators": 0,
+      "withOutcomes": 0,
+      "withRatings": 5,
+      "duplicates": []
+    },
+    {
+      "code": "15461",
+      "documents": [
+        {
+          "sourceId": "f5424b734a5898e1fedca578",
+          "sourceUrl": "https://www.town.yuzawa.lg.jp/material/files/group/9/R6_kekkaichiran.pdf",
+          "sourceSha256": "da0f3d4fdd7f49c888a0a72645584971d288d1d9a1a779c18f2ee00f7f3b692d",
+          "textSha256": "d40d66f6deffd36c39a8049185900c040c51251fe626276bc1e740ea0eee154c",
+          "records": 58,
+          "truncated": false
+        }
+      ],
+      "records": 58,
+      "withAmounts": 0,
+      "withActualAmounts": 0,
+      "withIndicators": 0,
+      "withNumericIndicators": 0,
+      "withOutcomeIndicators": 0,
+      "withOutcomes": 0,
+      "withRatings": 58,
+      "duplicates": []
+    },
+    {
+      "code": "17203",
+      "documents": [
+        {
+          "sourceId": "014f5506d214ec30a928b3c7",
+          "sourceUrl": "https://www.city.komatsu.lg.jp/material/files/group/35/tenkenhyokaR7.pdf",
+          "sourceSha256": "2d923ff461ecb007115bb4d4a3d7167f6df711c7416a8c489e47f8c5ec42c520",
+          "textSha256": "3a328b6090cb5c2134191e1528c5d05f490d7f2f5fd2da9e4b8d944f9404c2d3",
+          "records": 46,
+          "truncated": false
+        }
+      ],
+      "records": 46,
+      "withAmounts": 0,
+      "withActualAmounts": 0,
+      "withIndicators": 0,
+      "withNumericIndicators": 0,
+      "withOutcomeIndicators": 0,
+      "withOutcomes": 0,
+      "withRatings": 46,
+      "duplicates": []
+    },
+    {
+      "code": "19366",
+      "documents": [
+        {
+          "sourceId": "7a5cb76581f5b7c99ebf2375",
+          "sourceUrl": "https://www.town.nanbu.yamanashi.jp/kakuka/kyouiku/files/HyoukahoukokuR6.pdf",
+          "sourceSha256": "699c280ae3ac50e38c465ec13485534b89bf7b2162e988f4470e96ed795585dc",
+          "textSha256": "eafe78ba475c7247397dba708dc9c4817b0333465fc83206a605057768cca3c1",
+          "records": 38,
+          "truncated": false
+        },
+        {
+          "sourceId": "ee9a82e61a342a65cdbc120c",
+          "sourceUrl": "https://www.town.nanbu.yamanashi.jp/kakuka/kyouiku/files/HyoukahoukokuR4.pdf",
+          "sourceSha256": "0d71d1c5a956b924f9915d936c5d3b3e578f6a767b16e77e3a04e76fc98d65bf",
+          "textSha256": "047bbce3f660ac64321d5c5d172ead6a7ca4c33469a7afb55fa39ae535a9c042",
+          "records": 36,
+          "truncated": false
+        }
+      ],
+      "records": 74,
+      "withAmounts": 0,
+      "withActualAmounts": 0,
+      "withIndicators": 0,
+      "withNumericIndicators": 0,
+      "withOutcomeIndicators": 0,
+      "withOutcomes": 74,
+      "withRatings": 74,
+      "duplicates": []
+    },
+    {
+      "code": "35344",
+      "documents": [
+        {
+          "sourceId": "07c17b9c5dd1f35b462efbb9",
+          "sourceUrl": "https://www.town.hirao.lg.jp/material/files/group/12/2026gyouseihyouka_1.pdf",
+          "sourceSha256": "ffca6966890665a3617165686ebd670219a0cc4474a15dbdb3c6ccee7bc9720d",
+          "textSha256": "eb7833ed272c1db39cd61c051aab0e02c1d02a2e9242f17e89275735048443f7",
+          "records": 61,
+          "truncated": false
+        },
+        {
+          "sourceId": "0e6ac7c20397f05a58cf2c86",
+          "sourceUrl": "https://www.town.hirao.lg.jp/material/files/group/12/R6_gyoseihyouka_editmeta.pdf",
+          "sourceSha256": "6187d65e6db4e224b13f600de9c250ea2ec819508a2a842b7471072ba8135548",
+          "textSha256": "69774d62b2b6c0fe44036481a727aac71bb89d1f4edaa9df949b442422d7760f",
+          "records": 62,
+          "truncated": false
+        }
+      ],
+      "records": 123,
+      "withAmounts": 0,
+      "withActualAmounts": 0,
+      "withIndicators": 0,
+      "withNumericIndicators": 0,
+      "withOutcomeIndicators": 0,
+      "withOutcomes": 0,
+      "withRatings": 123,
+      "duplicates": []
+    },
+    {
+      "code": "43100",
+      "documents": [
+        {
+          "sourceId": "03d43f23f7f0a5c0cfcb5ae9",
+          "sourceUrl": "https://www.city.kumamoto.jp/kiji0031789/3_1789_470294_up_5sp17t68.pdf",
+          "sourceSha256": "1d52eb711eb275c4a17b11889b087578878308e6cd4cc80a3cba678c153ab500",
+          "textSha256": "66dded05da079f7d95bcf19576839d7cb284d016080288a1679dae41c43a1d2c",
+          "records": 99,
+          "truncated": false
+        },
+        {
+          "sourceId": "989f7ba56e996fd2af9e3a34",
+          "sourceUrl": "https://www.city.kumamoto.jp/kiji0031789/5_1789_409337_up_YMM7U737.pdf",
+          "sourceSha256": "72170d9bbe963a0d367be9086393ab995cb634f4a1c7c1961146710187add3fc",
+          "textSha256": "2e187466738b5b6230488cb1b5288275d730ee231e72df96dbcd1409d8754f44",
+          "records": 92,
+          "truncated": false
+        },
+        {
+          "sourceId": "f230b9d42eb612c415d09e07",
+          "sourceUrl": "https://www.city.kumamoto.jp/kiji0031789/3_1789_514909_up_jiraouay.pdf",
+          "sourceSha256": "0e6f5c23099f83dcdf28db285556d2b5794eb196325dd30c01f6fdbc49be99d0",
+          "textSha256": "be4bf9d23c255bac02914762c1bb577392ebde57b3cbc2170f43cf7b9172d820",
+          "records": 102,
+          "truncated": false
+        }
+      ],
+      "records": 293,
+      "withAmounts": 0,
+      "withActualAmounts": 0,
+      "withIndicators": 0,
+      "withNumericIndicators": 0,
+      "withOutcomeIndicators": 0,
+      "withOutcomes": 0,
+      "withRatings": 0,
+      "duplicates": []
+    }
+  ]
+}

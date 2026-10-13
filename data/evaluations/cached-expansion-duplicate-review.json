@@ -1,0 +1,399 @@
+{
+  "basisHead": "9d9f3c0bac620ce0f9e4990d142d0cdcdf4c8dc2",
+  "statisticalAuditSha256": "60065d3ac1c3f57913263986b4f4f33c09d106f5f20cf94127f224511f9715b7",
+  "scope": "9 same-year same-department different-code candidate pairs; cached text review only; not a claim of unique policy coverage",
+  "items": [
+    {
+      "municipalityCode": "12441",
+      "projectName": "広報おおたき発行事業",
+      "classification": "same_year_different_code_review",
+      "yearBasis": "evaluatedFiscalYear",
+      "departmentRelation": "same",
+      "exactEvidenceOverlap": false,
+      "substantialEvidenceOverlap": false,
+      "records": [
+        {
+          "id": "cached-12441-540d6566c1db552b5f9d5000",
+          "projectCode": "2024:no-1",
+          "department": "総務課",
+          "evaluationYear": null,
+          "evaluatedFiscalYear": 2024,
+          "evidence": [
+            {
+              "url": "https://www.town.otaki.chiba.jp/material/files/group/4/r6_gyouseihyouka.pdf",
+              "sha256": "98f3401ed5ab77ff0117d6b40afc1014dcfc95082a4f1dd0083cb0c16cd226e1",
+              "cell": "extracted-text:chars:2884-5399",
+              "rawTextSha256": "36b38e564b0a37065196ea73c71f532880b225a0c421f98c2a872636b71ca181"
+            }
+          ]
+        },
+        {
+          "id": "cached-12441-4f72aa981b123cbe2d9968c2",
+          "projectCode": "2024:no-2",
+          "department": "総務課",
+          "evaluationYear": null,
+          "evaluatedFiscalYear": 2024,
+          "evidence": [
+            {
+              "url": "https://www.town.otaki.chiba.jp/material/files/group/4/r6_gyouseihyouka.pdf",
+              "sha256": "98f3401ed5ab77ff0117d6b40afc1014dcfc95082a4f1dd0083cb0c16cd226e1",
+              "cell": "extracted-text:chars:5399-7271",
+              "rawTextSha256": "1f7b5b1f841af8544467df74100c20110163577288cf1593ae7472ffc5c559e2"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "distinct_official_sheets_preserved",
+      "reason": "No.1は広報誌・ホームページ等の情報発信、No.2は町長への手紙・アンケート等の広聴。原典が別番号・別費用の個票として記載。"
+    },
+    {
+      "municipalityCode": "12441",
+      "projectName": "防犯対策事業",
+      "classification": "same_year_different_code_review",
+      "yearBasis": "evaluatedFiscalYear",
+      "departmentRelation": "same",
+      "exactEvidenceOverlap": false,
+      "substantialEvidenceOverlap": false,
+      "records": [
+        {
+          "id": "cached-12441-bbb6a61898877e841c4569ba",
+          "projectCode": "2024:no-9",
+          "department": "総務課",
+          "evaluationYear": null,
+          "evaluatedFiscalYear": 2024,
+          "evidence": [
+            {
+              "url": "https://www.town.otaki.chiba.jp/material/files/group/4/r6_gyouseihyouka.pdf",
+              "sha256": "98f3401ed5ab77ff0117d6b40afc1014dcfc95082a4f1dd0083cb0c16cd226e1",
+              "cell": "extracted-text:chars:18896-20693",
+              "rawTextSha256": "5b7c05a1dd31fe0e2dbd2441c2dd4c78e4eded5d9049c1b4fe943c2a1cfebcb3"
+            }
+          ]
+        },
+        {
+          "id": "cached-12441-c0ba310994bd4c1b1c2f15e7",
+          "projectCode": "2024:no-10",
+          "department": "総務課",
+          "evaluationYear": null,
+          "evaluatedFiscalYear": 2024,
+          "evidence": [
+            {
+              "url": "https://www.town.otaki.chiba.jp/material/files/group/4/r6_gyouseihyouka.pdf",
+              "sha256": "98f3401ed5ab77ff0117d6b40afc1014dcfc95082a4f1dd0083cb0c16cd226e1",
+              "cell": "extracted-text:chars:20693-22553",
+              "rawTextSha256": "f859cafe9b7e19160925420bf9834cf3e64fb16b4b64a3b37e282dd226902d53"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "distinct_official_sheets_preserved",
+      "reason": "No.9は防犯啓発等、No.10は防犯灯の設置・維持管理。原典が別番号・別費用の個票として記載。"
+    },
+    {
+      "municipalityCode": "12441",
+      "projectName": "定住化対策事業",
+      "classification": "same_year_different_code_review",
+      "yearBasis": "evaluatedFiscalYear",
+      "departmentRelation": "same",
+      "exactEvidenceOverlap": false,
+      "substantialEvidenceOverlap": false,
+      "records": [
+        {
+          "id": "cached-12441-9d4b7dd82296987d4cc51a81",
+          "projectCode": "2024:no-16",
+          "department": "企画課",
+          "evaluationYear": null,
+          "evaluatedFiscalYear": 2024,
+          "evidence": [
+            {
+              "url": "https://www.town.otaki.chiba.jp/material/files/group/4/r6_gyouseihyouka.pdf",
+              "sha256": "98f3401ed5ab77ff0117d6b40afc1014dcfc95082a4f1dd0083cb0c16cd226e1",
+              "cell": "extracted-text:chars:31943-33572",
+              "rawTextSha256": "1ecf78084bd3de12355a10ccab21a148c2ba84dac9192dec1258fb686a4ade46"
+            }
+          ]
+        },
+        {
+          "id": "cached-12441-e4b4fcfb873fee373fe8691c",
+          "projectCode": "2024:no-18",
+          "department": "企画課",
+          "evaluationYear": null,
+          "evaluatedFiscalYear": 2024,
+          "evidence": [
+            {
+              "url": "https://www.town.otaki.chiba.jp/material/files/group/4/r6_gyouseihyouka.pdf",
+              "sha256": "98f3401ed5ab77ff0117d6b40afc1014dcfc95082a4f1dd0083cb0c16cd226e1",
+              "cell": "extracted-text:chars:35558-37552",
+              "rawTextSha256": "1fdf76c28020b462b9f7e81a33c1cd7ea63fdb775c134cff872ab53566188626"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "distinct_official_sheets_preserved",
+      "reason": "No.16は移住支援金による地元企業への就職促進、No.18は空き家改修等と空き家バンク登録促進。"
+    },
+    {
+      "municipalityCode": "12441",
+      "projectName": "地域公共交通対策事業",
+      "classification": "same_year_different_code_review",
+      "yearBasis": "evaluatedFiscalYear",
+      "departmentRelation": "same",
+      "exactEvidenceOverlap": false,
+      "substantialEvidenceOverlap": false,
+      "records": [
+        {
+          "id": "cached-12441-d1ac3b1f01378121be275a6a",
+          "projectCode": "2024:no-19",
+          "department": "企画課",
+          "evaluationYear": null,
+          "evaluatedFiscalYear": 2024,
+          "evidence": [
+            {
+              "url": "https://www.town.otaki.chiba.jp/material/files/group/4/r6_gyouseihyouka.pdf",
+              "sha256": "98f3401ed5ab77ff0117d6b40afc1014dcfc95082a4f1dd0083cb0c16cd226e1",
+              "cell": "extracted-text:chars:37552-40066",
+              "rawTextSha256": "19b6fe021ddf12dcc8c7410c2592c63a6204b3af677843a18c63b94925dc41fc"
+            }
+          ]
+        },
+        {
+          "id": "cached-12441-23a15ca723ac52f66a721a57",
+          "projectCode": "2024:no-21",
+          "department": "企画課",
+          "evaluationYear": null,
+          "evaluatedFiscalYear": 2024,
+          "evidence": [
+            {
+              "url": "https://www.town.otaki.chiba.jp/material/files/group/4/r6_gyouseihyouka.pdf",
+              "sha256": "98f3401ed5ab77ff0117d6b40afc1014dcfc95082a4f1dd0083cb0c16cd226e1",
+              "cell": "extracted-text:chars:42413-44207",
+              "rawTextSha256": "4398a9ba223a0b56c07ff579f76b54debf455d69db3741ef54dc0b64bc722eef"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "distinct_official_sheets_preserved",
+      "reason": "No.19は不採算路線バスへの助成等、No.21は高速バス通学回数券補助、No.22は交通活性化協議会運営等。"
+    },
+    {
+      "municipalityCode": "12441",
+      "projectName": "地域公共交通対策事業",
+      "classification": "same_year_different_code_review",
+      "yearBasis": "evaluatedFiscalYear",
+      "departmentRelation": "same",
+      "exactEvidenceOverlap": false,
+      "substantialEvidenceOverlap": false,
+      "records": [
+        {
+          "id": "cached-12441-d1ac3b1f01378121be275a6a",
+          "projectCode": "2024:no-19",
+          "department": "企画課",
+          "evaluationYear": null,
+          "evaluatedFiscalYear": 2024,
+          "evidence": [
+            {
+              "url": "https://www.town.otaki.chiba.jp/material/files/group/4/r6_gyouseihyouka.pdf",
+              "sha256": "98f3401ed5ab77ff0117d6b40afc1014dcfc95082a4f1dd0083cb0c16cd226e1",
+              "cell": "extracted-text:chars:37552-40066",
+              "rawTextSha256": "19b6fe021ddf12dcc8c7410c2592c63a6204b3af677843a18c63b94925dc41fc"
+            }
+          ]
+        },
+        {
+          "id": "cached-12441-d85b59f164bea6e35899564b",
+          "projectCode": "2024:no-22",
+          "department": "企画課",
+          "evaluationYear": null,
+          "evaluatedFiscalYear": 2024,
+          "evidence": [
+            {
+              "url": "https://www.town.otaki.chiba.jp/material/files/group/4/r6_gyouseihyouka.pdf",
+              "sha256": "98f3401ed5ab77ff0117d6b40afc1014dcfc95082a4f1dd0083cb0c16cd226e1",
+              "cell": "extracted-text:chars:44207-46419",
+              "rawTextSha256": "35e4e8c56ad5519f62a518883a49a03067f5e622e7d8c7006b5dd47b6e29cdc3"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "distinct_official_sheets_preserved",
+      "reason": "No.19は不採算路線バスへの助成等、No.21は高速バス通学回数券補助、No.22は交通活性化協議会運営等。"
+    },
+    {
+      "municipalityCode": "12441",
+      "projectName": "地域公共交通対策事業",
+      "classification": "same_year_different_code_review",
+      "yearBasis": "evaluatedFiscalYear",
+      "departmentRelation": "same",
+      "exactEvidenceOverlap": false,
+      "substantialEvidenceOverlap": false,
+      "records": [
+        {
+          "id": "cached-12441-23a15ca723ac52f66a721a57",
+          "projectCode": "2024:no-21",
+          "department": "企画課",
+          "evaluationYear": null,
+          "evaluatedFiscalYear": 2024,
+          "evidence": [
+            {
+              "url": "https://www.town.otaki.chiba.jp/material/files/group/4/r6_gyouseihyouka.pdf",
+              "sha256": "98f3401ed5ab77ff0117d6b40afc1014dcfc95082a4f1dd0083cb0c16cd226e1",
+              "cell": "extracted-text:chars:42413-44207",
+              "rawTextSha256": "4398a9ba223a0b56c07ff579f76b54debf455d69db3741ef54dc0b64bc722eef"
+            }
+          ]
+        },
+        {
+          "id": "cached-12441-d85b59f164bea6e35899564b",
+          "projectCode": "2024:no-22",
+          "department": "企画課",
+          "evaluationYear": null,
+          "evaluatedFiscalYear": 2024,
+          "evidence": [
+            {
+              "url": "https://www.town.otaki.chiba.jp/material/files/group/4/r6_gyouseihyouka.pdf",
+              "sha256": "98f3401ed5ab77ff0117d6b40afc1014dcfc95082a4f1dd0083cb0c16cd226e1",
+              "cell": "extracted-text:chars:44207-46419",
+              "rawTextSha256": "35e4e8c56ad5519f62a518883a49a03067f5e622e7d8c7006b5dd47b6e29cdc3"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "distinct_official_sheets_preserved",
+      "reason": "No.19は不採算路線バスへの助成等、No.21は高速バス通学回数券補助、No.22は交通活性化協議会運営等。"
+    },
+    {
+      "municipalityCode": "12441",
+      "projectName": "町道維持管理事業",
+      "classification": "same_year_different_code_review",
+      "yearBasis": "evaluatedFiscalYear",
+      "departmentRelation": "same",
+      "exactEvidenceOverlap": false,
+      "substantialEvidenceOverlap": false,
+      "records": [
+        {
+          "id": "cached-12441-109a84256b1a8baa191f0959",
+          "projectCode": "2024:no-51",
+          "department": "建設課",
+          "evaluationYear": null,
+          "evaluatedFiscalYear": 2024,
+          "evidence": [
+            {
+              "url": "https://www.town.otaki.chiba.jp/material/files/group/4/r6_gyouseihyouka.pdf",
+              "sha256": "98f3401ed5ab77ff0117d6b40afc1014dcfc95082a4f1dd0083cb0c16cd226e1",
+              "cell": "extracted-text:chars:102532-104389",
+              "rawTextSha256": "61830642dd945929bd63636cfc64333b3122b8bfe156f1d55085f7109e8670bf"
+            }
+          ]
+        },
+        {
+          "id": "cached-12441-1e66d5740dd6dce1e2f7aa1e",
+          "projectCode": "2024:no-53",
+          "department": "建設課",
+          "evaluationYear": null,
+          "evaluatedFiscalYear": 2024,
+          "evidence": [
+            {
+              "url": "https://www.town.otaki.chiba.jp/material/files/group/4/r6_gyouseihyouka.pdf",
+              "sha256": "98f3401ed5ab77ff0117d6b40afc1014dcfc95082a4f1dd0083cb0c16cd226e1",
+              "cell": "extracted-text:chars:106372-108101",
+              "rawTextSha256": "a4181732ce13d59fae67441ca6551361ba1cf3c67ac2ccf0b92ad5799115fc64"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "distinct_official_sheets_preserved",
+      "reason": "No.51はトンネル長寿命化計画に基づく補修、No.53は町道の舗装・排水・樹木伐採等の維持管理。"
+    },
+    {
+      "municipalityCode": "12441",
+      "projectName": "農業振興事業",
+      "classification": "same_year_different_code_review",
+      "yearBasis": "evaluatedFiscalYear",
+      "departmentRelation": "same",
+      "exactEvidenceOverlap": false,
+      "substantialEvidenceOverlap": false,
+      "records": [
+        {
+          "id": "cached-12441-4f5bb4853c20a9bb8a084a05",
+          "projectCode": "2024:no-58",
+          "department": "農林課",
+          "evaluationYear": null,
+          "evaluatedFiscalYear": 2024,
+          "evidence": [
+            {
+              "url": "https://www.town.otaki.chiba.jp/material/files/group/4/r6_gyouseihyouka.pdf",
+              "sha256": "98f3401ed5ab77ff0117d6b40afc1014dcfc95082a4f1dd0083cb0c16cd226e1",
+              "cell": "extracted-text:chars:115802-117831",
+              "rawTextSha256": "252d8f6300f6ae4bd5d3d909da68ca53d2b9f20e16fa712af00c316a419e9684"
+            }
+          ]
+        },
+        {
+          "id": "cached-12441-a155943be662e47b12c56ceb",
+          "projectCode": "2024:no-59",
+          "department": "農林課",
+          "evaluationYear": null,
+          "evaluatedFiscalYear": 2024,
+          "evidence": [
+            {
+              "url": "https://www.town.otaki.chiba.jp/material/files/group/4/r6_gyouseihyouka.pdf",
+              "sha256": "98f3401ed5ab77ff0117d6b40afc1014dcfc95082a4f1dd0083cb0c16cd226e1",
+              "cell": "extracted-text:chars:117831-119740",
+              "rawTextSha256": "f0dd741a7a1d411dd6d6dbbe203a8a72b7a1187959694f6936ed23aacc0fe4eb"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "distinct_official_sheets_preserved",
+      "reason": "No.58は認定新規就農者への支援、No.59は加工特産品開発・地場産品消費拡大。"
+    },
+    {
+      "municipalityCode": "34214",
+      "projectName": "し尿収集事業",
+      "classification": "same_year_different_code_review",
+      "yearBasis": "evaluatedFiscalYear",
+      "departmentRelation": "same",
+      "exactEvidenceOverlap": false,
+      "substantialEvidenceOverlap": false,
+      "records": [
+        {
+          "id": "cached-34214-864fe8aac91d49d87cc3a141",
+          "projectCode": "110",
+          "department": "建設部 上下水道課",
+          "evaluationYear": null,
+          "evaluatedFiscalYear": 2013,
+          "evidence": [
+            {
+              "url": "https://www.akitakata.jp/akitakata-media/filer_public/dc/01/dc01af08-63a8-4fe3-a4f7-2dd0607e8d79/i-32.pdf",
+              "sha256": "cf3f47d1487f718e8422f55d6a09b8e80fcf90e47f42e9acb5219637c562df06",
+              "cell": "extracted-text:chars:61946-65003",
+              "rawTextSha256": "e0699438b5f852d9f99cad82ede310a1ee61118e7c0c5099d8d6592e1c5166ed"
+            }
+          ]
+        },
+        {
+          "id": "cached-34214-c25f852d472de58b86a12e71",
+          "projectCode": "112",
+          "department": "建設部 上下水道課",
+          "evaluationYear": null,
+          "evaluatedFiscalYear": 2013,
+          "evidence": [
+            {
+              "url": "https://www.akitakata.jp/akitakata-media/filer_public/dc/01/dc01af08-63a8-4fe3-a4f7-2dd0607e8d79/i-32.pdf",
+              "sha256": "cf3f47d1487f718e8422f55d6a09b8e80fcf90e47f42e9acb5219637c562df06",
+              "cell": "extracted-text:chars:67966-70770",
+              "rawTextSha256": "aec67034e289e0d540f6d422fd8360baa2c8a61da3f4901eea74a6fd7782a938"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "distinct_official_sheets_preserved",
+      "reason": "CD110は収集手数料の賦課・徴収と滞納整理、CD112は電話受付・定期臨時収集の指示。正式CDが異なり個別事務として原典記載。"
+    }
+  ],
+  "notes": [
+    "年度違い456組を重複として除去しない。自治体間で名称だけを照合しない。",
+    "異担当7組は別担当を保持。富里19-1/19-2の共通根拠は22文字の表紙年度だけで、個票本文と担当班は異なる。",
+    "いずれも既存shardを変更していない。"
+  ]
+}

@@ -22,7 +22,11 @@
     "import:road-allocations": "tsx src/import-road-allocations.ts",
     "analyze:road-allocations": "tsx src/analyze-road-allocations.ts",
     "import:road-funding": "tsx src/import-road-funding.ts && tsx src/build-municipal-all.ts",
-    "import:election": "tsx src/import-election.ts && tsx src/build-municipal-all.ts"
+    "import:election": "tsx src/import-election.ts && tsx src/build-municipal-all.ts",
+    "import:evaluations": "node --import tsx src/import-evaluations.ts",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "import:national-evaluations": "node --import tsx src/import-national-evaluations.ts",
+    "verify:national-evaluations": "node --import tsx src/import-national-evaluations.ts --verify"
   },
   "dependencies": {
     "adm-zip": "^0.5.18",
