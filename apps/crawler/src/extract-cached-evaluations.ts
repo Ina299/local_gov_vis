@@ -35,6 +35,13 @@ import { extractKomagane } from './evaluations/expansion/komagane';
 import { extractIsesaki } from './evaluations/expansion/isesaki';
 import { extractMarugame } from './evaluations/expansion/marugame';
 import { extractChikushino } from './evaluations/expansion/chikushino';
+import { extractSannohe } from './evaluations/expansion/sannohe';
+import { extractYazu } from './evaluations/expansion/yazu';
+import { extractHadano } from './evaluations/expansion/hadano';
+import { extractHita } from './evaluations/expansion/hita';
+import { extractIizuka } from './evaluations/expansion/iizuka';
+import { extractMunakata } from './evaluations/expansion/munakata';
+import { extractTomisato } from './evaluations/expansion/tomisato';
 const extractors: Record<string,(input:CachedInput, inputs:CachedInput[])=>ProjectEvaluation[]> = {
  '05434':extractMisato,'11365':extractOgano,'12210':extractMobara,'34214':extractAkitakata,
  '21221':(input,inputs)=>extractKaizu(input,inputs.find(d=>d.sourceId==='982b3dbd86b80c24870b5012')),
@@ -44,6 +51,13 @@ const extractors: Record<string,(input:CachedInput, inputs:CachedInput[])=>Proje
  '10204':extractIsesaki,'37202':extractMarugame,'40217':extractChikushino,
  '08364':extractDaigo,'40349':extractKasuya,'20210':extractKomagane,
  '14207':extractChigasaki,'02443':extractTakko,'34212':extractHigashihiroshima,
+ '02441':extractSannohe,
+ '31329':extractYazu,
+ '14211':extractHadano,
+ '44204':extractHita,
+ '40205':extractIizuka,
+ '40220':extractMunakata,
+ '12233':extractTomisato,
  '16323':extractTateyama,'07446':extractShowa,'30206':extractTanabe,
 };
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'../../..');
@@ -87,10 +101,10 @@ for(const code of codes){
    }
   }
   dataset.projects.push(...unique);
-  dataset.sources.push({id:`cached-${code}-${input.sourceId}`,municipalityCode:code,municipalityName:row.municipalityName,sourcePageUrl:input.sourcePageUrl,evaluationYear:unique.every(p=>p.evaluationYear===unique[0].evaluationYear)?unique[0].evaluationYear:null,status:'partial',discoveredDocuments:1,fetchedDocuments:1,extractedProjects:unique.length,scope:['13212','40349','20210','37202','40217'].includes(code)?'事業別の市民・議会・外部評価意見の部分レコード。完全個票ではありません。全事業・最新年度の網羅性は未確認。':code==='34212'?'目的別事業群のうち、個別事業の詳細節を部分構造化。群合計の配分や一覧行の計上は行わない。全事業・最新年度の網羅性は未確認。':'保存済み本文の識別可能な個票のみ。全事業・最新年度の網羅性は未確認。',message:'追加の原典取得なし。保存済み抽出テキストとの文字位置照合済み。PDF原本との再照合は未実施。',lastAttemptAt:input.fetchedAt,lastSuccessAt:input.fetchedAt,documents:[{url:input.sourceUrl,format:'pdf',status:'partial',sha256:input.sourceSha256,fetchedAt:input.fetchedAt,projectCount:unique.length,message:'保存済み本文から部分構造化'}]});
+  dataset.sources.push({id:`cached-${code}-${input.sourceId}`,municipalityCode:code,municipalityName:row.municipalityName,sourcePageUrl:input.sourcePageUrl,evaluationYear:unique.every(p=>p.evaluationYear===unique[0].evaluationYear)?unique[0].evaluationYear:null,status:'partial',discoveredDocuments:1,fetchedDocuments:1,extractedProjects:unique.length,scope:code==='44204'?'施策調書内の個別事業枠の部分構造化。列混在・名称改行等は保留、全件完了ではありません。':code==='14211'?'大学連携施策の個別事業票を部分構造化。大学別再掲を統合し、部分経費は数値化せず原文保持。':code==='40220'?'決算成果報告書の主要事業詳細を部分構造化。補足表の列混在は保留。全事業の網羅性は未確認。':['13212','40349','20210','37202','40217'].includes(code)?'事業別の市民・議会・外部評価意見の部分レコード。完全個票ではありません。全事業・最新年度の網羅性は未確認。':code==='34212'?'目的別事業群のうち、個別事業の詳細節を部分構造化。群合計の配分や一覧行の計上は行わない。全事業・最新年度の網羅性は未確認。':'保存済み本文の識別可能な個票のみ。全事業・最新年度の網羅性は未確認。',message:'追加の原典取得なし。保存済み抽出テキストとの文字位置照合済み。PDF原本との再照合は未実施。',lastAttemptAt:input.fetchedAt,lastSuccessAt:input.fetchedAt,documents:[{url:input.sourceUrl,format:'pdf',status:'partial',sha256:input.sourceSha256,fetchedAt:input.fetchedAt,projectCount:unique.length,message:'保存済み本文から部分構造化'}]});
   documents.push({sourceId:input.sourceId,sourceUrl:input.sourceUrl,sourceSha256:input.sourceSha256,textSha256:sha256(Buffer.from(input.text)),records:unique.length,truncated:input.truncated});
  }
- if(['29209','10204','37202'].includes(code)) {
+ if(['29209','10204','37202','44204'].includes(code)) {
   const referenced=new Set(dataset.projects.flatMap(p=>[...p.evidence,...p.amounts.map(a=>a.evidence),...p.indicators.map(i=>i.evidence),...p.ratings.map(r=>r.evidence)].map(e=>e.sourceUrl)));
   for(const input of inputs.filter(i=>referenced.has(i.sourceUrl)&&!dataset.sources.some(s=>s.documents.some(d=>d.url===i.sourceUrl)))){
    dataset.sources.push({id:`cached-${code}-${input.sourceId}`,municipalityCode:code,municipalityName:row.municipalityName,sourcePageUrl:input.sourceUrl,evaluationYear:null,status:'partial',discoveredDocuments:1,fetchedDocuments:1,extractedProjects:0,scope:'同一事業の資料横断再掲。事業件数は代表資料に計上し、この資料の証拠も当該事業に保持。',message:'追加取得なし。保存済み本文照合。',lastAttemptAt:input.fetchedAt,lastSuccessAt:input.fetchedAt,documents:[{url:input.sourceUrl,format:'pdf',status:'partial',sha256:input.sourceSha256,fetchedAt:input.fetchedAt,projectCount:0,message:'代表資料の事業へ証拠を統合'}]});
