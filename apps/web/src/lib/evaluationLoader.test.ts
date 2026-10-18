@@ -93,6 +93,21 @@ describe('strict municipality index', () => {
     expect(() => parseEvaluationIndex(value)).toThrow();
     expect(() => parseEvaluationIndex({ ...value, cohorts: { ...value.cohorts, cachedExpansion: null } })).toThrow();
   });
+  it('validates additive overlays and exact content-addressed composed paths', async () => {
+    const entry = await descriptor();
+    entry.datasetPath = `evaluations-composed/${entry.municipalityCode}-${entry.datasetSha256}.json`;
+    const value = { ...index([entry]), baselineSourceSha256: 'b'.repeat(64), cohorts: {
+      national: { primaryMunicipalities: 0, primaryEvaluationRecords: 0 },
+      baseline: { primaryMunicipalities: 0, primaryEvaluationRecords: 0 },
+      supplemental: { primaryMunicipalities: 1, primaryEvaluationRecords: 1, existingMunicipalities: 0 } } };
+    expect(parseEvaluationIndex(value)).toBe(value);
+    expect(() => parseEvaluationIndex({ ...value, municipalities: [{ ...entry, datasetPath: `evaluations-composed/${entry.municipalityCode}-${'f'.repeat(64)}.json` }] })).toThrow();
+    value.cohorts.supplemental.primaryEvaluationRecords = 2;
+    expect(() => parseEvaluationIndex(value)).toThrow();
+    value.cohorts.supplemental.primaryEvaluationRecords = 1;
+    value.cohorts.supplemental.existingMunicipalities = -1;
+    expect(() => parseEvaluationIndex(value)).toThrow();
+  });
   it('searches names/codes with normalization without treating project text as an index field', async () => {
     const entry = await descriptor();
     expect(searchEvaluationMunicipalities([entry], '０１１００ 札幌')).toEqual([entry]);

@@ -418,3 +418,53 @@ npm run -w @local-gov/crawler verify:national-evaluations
 方向性は保留。にかほの月額単価から年間決算は推計しない。
 全52追加自治体の再現ハッシュ・原文位置、金額/成果の完備度・重複候補は
 `cached-expansion-statistical-audit.json`、追加票は `cached-extraction-audit-batch5.json` を参照。
+
+
+### 保存本文の追加構造化 第6回（2026-10-18）
+
+保存済み677自治体・2,460本文を資料単位で再点検し、未精査0件を確認した。これは新規取得や全国収集完了を意味しない。
+公式・関連資料への案内1,509自治体、厳密な事務事業系の出典確認462自治体、全1,741自治体の検索は別々の指標である。
+教育事業、指定管理施設、行政改革の独立業務、施策下位の主要事業を含む部分構造化には範囲を注記し、
+これらの追加を厳密な事務事業系の出典確認数へ足さない。
+
+今回148自治体へ20,653レコードを追加（新規113自治体・既存35自治体への追記）し、合計218自治体・36,880年度別レコード。
+第5回までの105自治体・16,227レコードと元のデータ・出典を凍結し、追加分だけを合成する。
+`data/evaluations/supplemental-provenance.json` に元の索引、追加入力のハッシュ、採用・再掲の判断、
+同名でも別の公式評価単位である根拠を記録する。表示先は内容ハッシュ付きの
+`evaluations-composed/<code>-<sha256>.json`。既存IDの値の変更は拒否するため、
+既存票に対する新しい指標・費用・証拠の補強は未実施範囲として台帳に残す。
+年度別の評価レコード数であり、年度をまたぐ一意の事業数ではない。
+追加分の金額ありは2,581件、金額欄3,416件はすべて原文の年度・値に対応する。
+評価年度不明3,581件、対象年度不明8,651件をそのまま保持。明示成果指標の実績ありは45件であり、
+追加20,653件すべてに数値成果があるわけではない。詳細は `supplemental-statistical-audit-batch6.json` と
+`supplement-extraction-audit-batch6.json` を参照。
+
+年度・金額・指標の不明値は補完しない。原文の費用が `actual` でも、直接費や人件費除外を意味しない。
+施策全体の費用・評点を下位事業へ配賦しない。計画に掲載された現状実績と将来目標を区別する。
+同名の再掲は根拠を統合し、別年度・別会計・別評価単位は原文根拠を伴う判断で区別する。
+同じZIP URLに含まれる別PDFは、URLと各内容ハッシュの組で区別する。
+
+資料別の確認台帳は `data/evaluations/cached-review-batch6/review-1.json` 〜 `review-5.json`、
+集約は `cached-document-review-batch6.json`。引用の完全一致・自治体・本文ハッシュ・全資料の一意な被覆を検証する。
+分類は今回抽出533、既存部分抽出417、保留161、個別事業記録なし1,344、既存票重複5資料。
+「精査済み」は全項目の抽出完了ではない。列混線、本文切断、既存票の未分離欄、原PDFでの再確認が必要な範囲を
+各資料の `remainingScope` に記録する。保存本文外の出典空白232自治体について未公開とは断定しない。
+
+再現コマンド（`CODES` は抽出監査の自治体コード、`GENERATED_AT` は保存入力の抽出日時、
+`DECISIONS` はmanifest内の `distinctDecisions` を `{ "schemaVersion": 1, "decisions": [...] }` として保存したファイル）:
+
+```bash
+node --import tsx apps/crawler/src/extract-cached-evaluation-supplements.ts \
+  --output-dir /tmp/evaluation-supplements --generated-at "$GENERATED_AT" --codes "$CODES"
+node --import tsx apps/crawler/src/import-supplemental-evaluations.ts \
+  --source-dir /tmp/evaluation-supplements --generated-at "$GENERATED_AT" --decisions-file "$DECISIONS"
+node --import tsx apps/crawler/src/audit-supplemental-evaluations.ts . /tmp/supplemental-audit.json
+node --import tsx apps/crawler/src/audit-cached-document-reviews.ts . \
+  data/evaluations/cached-review-batch6 /tmp/review-audit.json
+npm run -w @local-gov/crawler verify:national-evaluations
+```
+
+追加分を含む自治体ファイルの上限は32MiB、オフライン検証総量は256MiB。
+遅延読込とブラウザーの12MiBキャッシュ上限は維持する。大きい自治体は表示できるがキャッシュに保持しない。
+保存済み入力の全コード再抽出・ハッシュ一致、元データ不変、同名衝突・原典引用・集計一致をテストする。
+今回の新規ダウンロードは0件。proxy CONNECT 403 と隔離リスト299ホストの制約を維持し、取得拒否や警告を迂回しない。

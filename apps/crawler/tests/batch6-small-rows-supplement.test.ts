@@ -1,0 +1,7 @@
+import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';import {test} from 'node:test';import {extractBatch6SmallRowsSupplement as extract} from '../src/evaluations/expansion/batch6-small-rows-supplement';import type {CachedInput} from '../src/evaluations/expansion/shared';
+const base=new URL('../../web/public/evaluation-evidence/',import.meta.url);
+function input(code:string,id:string):CachedInput{const m=JSON.parse(readFileSync(new URL(`municipalities/${code}.json`,base),'utf8')),s=m.sources.find((x:{id:string})=>x.id===id);return {...JSON.parse(readFileSync(new URL(s.text.assetPath,base),'utf8')),municipalityCode:code,municipalityName:m.municipalityName,format:'pdf',fetchedAt:s.acquisition.fetchedAt,sourcePageUrl:s.url};}
+test('small result lists preserve grades without inferring amounts or years',()=>{
+ const k=input('01460','f52145c4e49482d2462be427'),h=input('11216','f692f851bb948fd540aaaafe');for(const s of[k,h]){const rows=extract(s);console.log(s.municipalityCode,rows.length);assert.ok(rows.length>8);for(const p of rows){assert.equal(p.amounts.length,0);assert.equal(p.evaluatedFiscalYear,null);for(const e of p.evidence){const m=e.cell!.match(/chars:(\d+)-(\d+)$/)!;assert.equal(s.text.slice(+m[1],+m[2]),e.rawText);}}}
+ assert.equal(extract(h).find(p=>p.projectCode==='C-13')!.ratings[0].value,'事業規模：縮小');assert.ok(!extract(k).some(p=>p.projectCode==='5'));
+});

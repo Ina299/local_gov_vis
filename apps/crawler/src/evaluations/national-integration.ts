@@ -13,9 +13,9 @@ export const NATIONAL_PROJECTION_SHA256 = 'c2f4d20a6a1c1309c11e67bdb9676e5c50dd4
 export const NATIONAL_INDEX_SHA256 = 'f5f15661d58e5bc9effe48b3dd2b6bb8a890cc1a06a31c4a42bc1676d1dd6c07';
 export const BASELINE_SHA256 = 'a6e003dde6382383050f431ae44be65e3097580df63ef66091ea3177150a05d1';
 export const BASELINE_CODES = ['01100', '11237', '14206'] as const;
-// Aggregate offline bundle bound grows with municipal coverage; browser reads still cap each selected shard at 12 MiB.
-export const LIMITS = { indexBytes: 2 * 1024 * 1024, shardBytes: 12 * 1024 * 1024,
-  baselineBytes: 8 * 1024 * 1024, totalBytes: 128 * 1024 * 1024, municipalities: 1741, records: 100_000 } as const;
+// Multi-year evidence remains bounded per municipality, matching the browser's 32 MiB limit.
+export const LIMITS = { indexBytes: 2 * 1024 * 1024, shardBytes: 32 * 1024 * 1024,
+  baselineBytes: 8 * 1024 * 1024, totalBytes: 256 * 1024 * 1024, municipalities: 1741, records: 100_000 } as const;
 const INDEX_PATH = 'evaluations-index.json';
 const MANIFEST_PATH = 'data/evaluations/integration-provenance.json';
 const record = (value: unknown): value is Record<string, unknown> => !!value && typeof value === 'object' && !Array.isArray(value);
@@ -40,7 +40,8 @@ export interface EvaluationIndex {
   baselineSourceSha256?: string;
   cohorts?: { national: { primaryMunicipalities: number; primaryEvaluationRecords: number };
     baseline: { primaryMunicipalities: number; primaryEvaluationRecords: number };
-    cachedExpansion?: { primaryMunicipalities: number; primaryEvaluationRecords: number } };
+    cachedExpansion?: { primaryMunicipalities: number; primaryEvaluationRecords: number };
+    supplemental?: { primaryMunicipalities: number; primaryEvaluationRecords: number; existingMunicipalities: number } };
 }
 export interface IntegrationInput { indexBytes: Buffer; shards: Map<string, Buffer>; baselineBytes: Buffer }
 export interface IntegrationManifest {
@@ -95,7 +96,7 @@ export function validateEvaluationIndex(value: unknown): EvaluationIndex {
     check(Number(row.recordsWithExplicitActualDirectCosts) <= Number(row.primaryEvaluationRecords)
       && Number(row.recordsWithSourceLabelledOutcomeIndicators) <= Number(row.primaryEvaluationRecords), 'Coverage count exceeds primary records');
     if (row.datasetPath !== null) {
-      check(row.datasetPath === path, 'Unsafe or mismatched municipality dataset path');
+      check(row.datasetPath === path || row.datasetPath === `evaluations-composed/${row.municipalityCode}-${row.datasetSha256}.json`, 'Unsafe or mismatched municipality dataset path');
       check(sha(row.datasetSha256) && Number(row.datasetBytes) > 0 && Number(row.datasetBytes) <= LIMITS.shardBytes, 'Invalid shard hash or byte bound');
       check(row.dataStatus === 'primary_available' && row.discoveryStatus === 'structured' && Number(row.primaryEvaluationRecords) > 0, 'Inconsistent primary municipality status');
       primary++; total += Number(row.primaryEvaluationRecords); totalBytes += Number(row.datasetBytes);
@@ -105,12 +106,24 @@ export function validateEvaluationIndex(value: unknown): EvaluationIndex {
   }
   check(total === value.primaryEvaluationRecords && primary === value.primaryMunicipalities, 'Index primary count mismatch');
   check(totalBytes <= LIMITS.totalBytes, 'Total shard byte bound exceeded');
+  if (value.cohorts !== undefined) {
+    check(record(value.cohorts), 'Invalid cohorts');
+    let cohortRecords = 0; let cohortMunicipalities = 0;
+    for (const name of ['national', 'baseline', 'cachedExpansion', 'supplemental']) {
+      const cohort = value.cohorts[name];
+      if (cohort === undefined && (name === 'cachedExpansion' || name === 'supplemental')) continue;
+      check(record(cohort) && integer(cohort.primaryMunicipalities) && integer(cohort.primaryEvaluationRecords), 'Invalid cohort counts');
+      if (name === 'supplemental') check(integer(cohort.existingMunicipalities) && Number(cohort.existingMunicipalities) + Number(cohort.primaryMunicipalities) <= primary, 'Invalid supplemental existing municipality count');
+      cohortRecords += Number(cohort.primaryEvaluationRecords); cohortMunicipalities += Number(cohort.primaryMunicipalities);
+    }
+    check(cohortRecords === total && cohortMunicipalities === primary, 'Cohort totals mismatch');
+  }
   return value as unknown as EvaluationIndex;
 }
 
 export function validateShardBytes(row: MunicipalityIndexEntry, bytes: Buffer, generatedAt?: string,
   projectIds = new Set<string>(), sourceIds = new Set<string>()): EvaluationDataset {
-  check(row.datasetPath === municipalityDatasetPath(row.municipalityCode), 'Unsafe or mismatched municipality dataset path');
+  check(row.datasetPath === municipalityDatasetPath(row.municipalityCode) || row.datasetPath === `evaluations-composed/${row.municipalityCode}-${row.datasetSha256}.json`, 'Unsafe or mismatched municipality dataset path');
   check(bytes.length <= LIMITS.shardBytes && bytes.length === row.datasetBytes, `Shard byte count mismatch: ${row.municipalityCode}`);
   check(sha256(bytes) === row.datasetSha256, `Shard hash mismatch: ${row.municipalityCode}`);
   const dataset = parseEvaluationDataset(JSON.parse(bytes.toString('utf8')));
@@ -291,6 +304,8 @@ export async function verifyBaseIntegratedEvaluations(root: string, originalInde
 /** Validate everything before mutation. Stage all files, then atomically rename each; index is published last. */
 export async function importNationalEvaluations(options: { root: string; sourceDirectory: string }): Promise<IntegrationAssets> {
   const root = await realpath(options.root); const source = await realpath(options.sourceDirectory);
+  try { await lstat(join(root, 'data/evaluations/supplemental-provenance.json')); throw new Error('Supplemental overlay exists; immutable base cannot be reimported'); }
+  catch (error) { if ((error as NodeJS.ErrnoException).code !== 'ENOENT') throw error; }
   const publicDirectory = join(root, 'apps/web/public'); const dataDirectory = join(root, 'data/evaluations');
   const rel = relative(publicDirectory, source);
   check(rel === '..' || rel.startsWith(`..${sep}`) || isAbsolute(rel), 'Source must be separate from public output');
@@ -375,14 +390,20 @@ export function composeCachedExpansion(base: IntegrationAssets, additions: Map<s
 }
 
 export async function verifyIntegratedEvaluations(root: string): Promise<IntegrationAssets> {
+  const { verifySupplementalEvaluations } = await import('./supplemental-integration');
+  return verifySupplementalEvaluations(root);
+}
+
+/** Immutable original integration, optionally checked against a saved pre-overlay index. */
+export async function verifyCoreIntegratedEvaluations(root: string, expectedIndexBytes?: Buffer): Promise<IntegrationAssets> {
   let bytes: Buffer;
   try { bytes = await readBoundedFile(join(root, EXPANSION_PATH), LIMITS.indexBytes); }
-  catch (error) { if ((error as NodeJS.ErrnoException).code === 'ENOENT') return verifyBaseIntegratedEvaluations(root); throw error; }
+  catch (error) { if ((error as NodeJS.ErrnoException).code === 'ENOENT') return verifyBaseIntegratedEvaluations(root, expectedIndexBytes); throw error; }
   const manifest = JSON.parse(bytes.toString('utf8')) as CachedExpansionManifest;
   check(manifest.schemaVersion === 1 && manifest.kind === 'cached_evaluation_expansion' && Array.isArray(manifest.shards), 'Invalid expansion provenance');
   const originalBytes = jsonBytes(validateEvaluationIndex(manifest.originalIndex));
   check(sha256(originalBytes) === manifest.originalIndexSha256, 'Original integrated index hash mismatch');
-  const currentBytes = await readBoundedFile(join(root, 'apps/web/public', INDEX_PATH), LIMITS.indexBytes);
+  const currentBytes = expectedIndexBytes ?? await readBoundedFile(join(root, 'apps/web/public', INDEX_PATH), LIMITS.indexBytes);
   const current = validateEvaluationIndex(JSON.parse(currentBytes.toString('utf8')));
   const base = await verifyBaseIntegratedEvaluations(root, originalBytes, current.municipalities.filter((row) => row.datasetPath).map((row) => row.municipalityCode));
   const additions = new Map<string, Buffer>();
@@ -404,6 +425,7 @@ export async function importCachedEvaluationExpansion(options: { root: string; s
   const rel = relative(publicDirectory, source);
   check(rel === '..' || rel.startsWith(`..${sep}`) || isAbsolute(rel), 'Source must be separate from public output');
   const current = await verifyIntegratedEvaluations(root);
+  check(!current.index.cohorts?.supplemental, 'Supplemental overlay exists; use import-supplemental-evaluations instead');
   let base = current; const additions = new Map<string, Buffer>();
   if (current.index.cohorts?.cachedExpansion) {
     const manifest = JSON.parse((await readBoundedFile(join(root, EXPANSION_PATH), LIMITS.indexBytes)).toString('utf8')) as CachedExpansionManifest;

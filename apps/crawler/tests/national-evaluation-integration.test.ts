@@ -5,6 +5,7 @@ import { tmpdir } from 'node:os';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import type { EvaluationDataset, ProjectEvaluation } from '../../web/src/types/evaluation';
+import { verifyImmutableEvaluationCore } from '../src/evaluations/supplemental-integration';
 import { BASELINE_CODES, BASELINE_SHA256, LIMITS, NATIONAL_INDEX_SHA256, NATIONAL_PROJECTION_SHA256,
   buildEvaluationIntegration, composeCachedExpansion, composeValidatedIntegration, importCachedEvaluationExpansion, importNationalEvaluations, municipalityDatasetPath,
   readBoundedFile, restoreNationalIndex, sha256, validateEvaluationIndex, validateShardBytes, verifyIntegratedEvaluations,
@@ -145,7 +146,7 @@ test('bounded reader rejects oversized, non-regular and symbolic-link inputs', a
 });
 
 async function pinnedAssets() {
-  const current = await verifyIntegratedEvaluations(root);
+  const current = await verifyImmutableEvaluationCore(root);
   if (!current.index.cohorts?.cachedExpansion) return current;
   const expansion = JSON.parse(await readFile(join(root, 'data/evaluations/cached-expansion-provenance.json'), 'utf8'));
   return verifyBaseIntegratedEvaluations(root, bytes(expansion.originalIndex), [...current.shards.keys()]);
@@ -264,14 +265,14 @@ test('cached expansion preserves pinned bytes and rejects municipality and proje
 
 test('aggregate shard allowance remains bounded independently of each municipality fetch', () => {
   const index=fixture().index;
-  const count=Math.ceil(LIMITS.totalBytes/LIMITS.shardBytes);
+  const count=Math.floor(LIMITS.totalBytes/LIMITS.shardBytes)+1;
   index.municipalities=Array.from({length:count},(_,i)=>{
     const code=String(1100+i).padStart(5,'0');
-    return {...row(code,dataset(code)),datasetBytes:LIMITS.shardBytes};
+    return {...row(code,dataset(code)),datasetBytes:i === count-1 ? 1 : LIMITS.shardBytes};
   });
   index.scopeMunicipalities=count;index.primaryMunicipalities=count;index.primaryEvaluationRecords=count;
   assert.throws(()=>validateEvaluationIndex(index),/Total shard byte bound exceeded/);
-  index.municipalities[count-1].datasetBytes=LIMITS.totalBytes-(count-1)*LIMITS.shardBytes;
+  index.municipalities[count-2].datasetBytes--;
   assert.doesNotThrow(()=>validateEvaluationIndex(index));
   index.municipalities[count-1].datasetBytes++;
   assert.throws(()=>validateEvaluationIndex(index),/Total shard byte bound exceeded/);

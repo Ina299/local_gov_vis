@@ -34,6 +34,7 @@ export interface EvaluationIndex {
     national: { primaryMunicipalities: number; primaryEvaluationRecords: number };
     baseline: { primaryMunicipalities: number; primaryEvaluationRecords: number };
     cachedExpansion?: { primaryMunicipalities: number; primaryEvaluationRecords: number };
+    supplemental?: { primaryMunicipalities: number; primaryEvaluationRecords: number; existingMunicipalities: number };
   };
 }
 export interface LoadedEvaluationShard {
@@ -54,6 +55,9 @@ const isRecord = (value: unknown): value is Record<string, unknown> =>
 const isCount = (value: unknown): value is number => typeof value === 'number' && Number.isSafeInteger(value) && value >= 0;
 const isHash = (value: unknown): value is string => typeof value === 'string' && HASH.test(value);
 const isDate = (value: unknown): value is string => typeof value === 'string' && Number.isFinite(Date.parse(value));
+const validDatasetPath = (entry: { municipalityCode?: unknown; datasetPath?: unknown; datasetSha256?: unknown }) =>
+  entry.datasetPath === `evaluations-municipal/${entry.municipalityCode}.json` ||
+  (isHash(entry.datasetSha256) && entry.datasetPath === `evaluations-composed/${entry.municipalityCode}-${entry.datasetSha256}.json`);
 
 /** Exact local path, code and totals are checked before any municipality is fetched. */
 export function parseEvaluationIndex(value: unknown): EvaluationIndex {
@@ -66,12 +70,15 @@ export function parseEvaluationIndex(value: unknown): EvaluationIndex {
   if (value.cohorts !== undefined || value.baselineSourceSha256 !== undefined) {
     if (!isHash(value.baselineSourceSha256) || !isRecord(value.cohorts)
       || !isRecord(value.cohorts.national) || !isRecord(value.cohorts.baseline)) throw invalid();
-    const { national, baseline, cachedExpansion } = value.cohorts;
+    const { national, baseline, cachedExpansion, supplemental } = value.cohorts;
+    if (supplemental !== undefined && (!isRecord(supplemental) || !isCount(supplemental.primaryMunicipalities) || !isCount(supplemental.primaryEvaluationRecords) || !isCount(supplemental.existingMunicipalities))) throw invalid();
+    if (isRecord(supplemental) && Number(supplemental.existingMunicipalities) + Number(supplemental.primaryMunicipalities) > Number(value.primaryMunicipalities)) throw invalid();
+    const append = (supplemental ?? { primaryMunicipalities: 0, primaryEvaluationRecords: 0, existingMunicipalities: 0 }) as { primaryMunicipalities: number; primaryEvaluationRecords: number; existingMunicipalities: number };
     if (cachedExpansion !== undefined && (!isRecord(cachedExpansion) || !isCount(cachedExpansion.primaryMunicipalities) || !isCount(cachedExpansion.primaryEvaluationRecords))) throw invalid();
     const expansion = (cachedExpansion ?? { primaryMunicipalities: 0, primaryEvaluationRecords: 0 }) as { primaryMunicipalities: number; primaryEvaluationRecords: number };
     if (![national.primaryMunicipalities, national.primaryEvaluationRecords, baseline.primaryMunicipalities, baseline.primaryEvaluationRecords].every(isCount)
-      || Number(national.primaryMunicipalities) + Number(baseline.primaryMunicipalities) + expansion.primaryMunicipalities !== value.primaryMunicipalities
-      || Number(national.primaryEvaluationRecords) + Number(baseline.primaryEvaluationRecords) + expansion.primaryEvaluationRecords !== value.primaryEvaluationRecords) throw invalid();
+      || Number(national.primaryMunicipalities) + Number(baseline.primaryMunicipalities) + expansion.primaryMunicipalities + append.primaryMunicipalities !== value.primaryMunicipalities
+      || Number(national.primaryEvaluationRecords) + Number(baseline.primaryEvaluationRecords) + expansion.primaryEvaluationRecords + append.primaryEvaluationRecords !== value.primaryEvaluationRecords) throw invalid();
   }
   const codes = new Set<string>();
   let records = 0;
@@ -91,7 +98,7 @@ export function parseEvaluationIndex(value: unknown): EvaluationIndex {
     codes.add(entry.municipalityCode);
     if (entry.dataStatus === 'primary_available') {
       if (entry.primaryEvaluationRecords === 0 || entry.datasetBytes === 0 || entry.datasetBytes > MAX_SHARD_BYTES
-        || entry.datasetPath !== `evaluations-municipal/${entry.municipalityCode}.json` || !isHash(entry.datasetSha256)) throw invalid();
+        || !validDatasetPath(entry) || !isHash(entry.datasetSha256)) throw invalid();
       available += 1;
     } else if (entry.primaryEvaluationRecords !== 0 || entry.datasetPath !== null || entry.datasetSha256 !== null || entry.datasetBytes !== 0
       || (entry.dataStatus === 'historical_only' && entry.historicalEvaluationRecords === 0)
@@ -184,7 +191,7 @@ export function createEvaluationShardLoader(options: {
     async load(entry: EvaluationIndexEntry, signal: AbortSignal, reload = false): Promise<LoadedEvaluationShard> {
       assertNotAborted(signal);
       // Recheck even for a caller that did not obtain its descriptor from the index parser.
-      if (!CODE.test(entry.municipalityCode) || entry.datasetPath !== `evaluations-municipal/${entry.municipalityCode}.json`
+      if (!CODE.test(entry.municipalityCode) || !validDatasetPath(entry)
         || !isHash(entry.datasetSha256) || !isCount(entry.datasetBytes) || entry.datasetBytes === 0
         || entry.datasetBytes > MAX_SHARD_BYTES || entry.dataStatus !== 'primary_available') throw new Error('この自治体の配信先を確認できませんでした。');
       const key = JSON.stringify([entry.municipalityCode, entry.municipalityName, entry.datasetPath, entry.datasetSha256, entry.datasetBytes, entry.primaryEvaluationRecords]);

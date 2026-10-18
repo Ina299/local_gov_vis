@@ -24,7 +24,11 @@
     "import:road-funding": "tsx src/import-road-funding.ts && tsx src/build-municipal-all.ts",
     "import:election": "tsx src/import-election.ts && tsx src/build-municipal-all.ts",
     "import:evaluations": "node --import tsx src/import-evaluations.ts",
-    "test": "node --import tsx --test tests/*.test.ts",
+    "test": "node --import tsx --test --test-concurrency=1 tests/*.test.ts",
+    "extract:supplemental-evaluations": "node --import tsx src/extract-cached-evaluation-supplements.ts",
+    "import:supplemental-evaluations": "node --import tsx src/import-supplemental-evaluations.ts",
+    "audit:supplemental-evaluations": "node --import tsx src/audit-supplemental-evaluations.ts",
+    "audit:cached-reviews": "node --import tsx src/audit-cached-document-reviews.ts",
     "import:national-evaluations": "node --import tsx src/import-national-evaluations.ts",
     "verify:national-evaluations": "node --import tsx src/import-national-evaluations.ts --verify"
   },
