@@ -38,6 +38,10 @@ jobs:
         run: npm run -w @local-gov/web build
         env:
           NEXT_PUBLIC_BASE_PATH: /local_gov_vis
+          # 評価データは .json.gz で配信し、ブラウザで展開する（Pages の 1GB 上限対策）
+          NEXT_PUBLIC_COMPRESSED_DATA: '1'
+      - name: Compress evaluation data
+        run: node apps/web/scripts/compress-data.mjs apps/web/out
       - uses: actions/upload-pages-artifact@v3
         with:
           path: apps/web/out

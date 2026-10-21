@@ -1,4 +1,4 @@
-import { dataUrl } from './paths';
+import { fetchBoundedBytes } from './boundedFetch';
 import { safeEvidenceUrl } from './evaluationEvidence';
 import type { DocumentText, EvidenceIndex, EvidenceSource, IndexEntry, MunicipalityEvidence, OfficialLink } from '@/types/evaluationEvidence';
 
@@ -164,34 +164,7 @@ function notAborted(signal: AbortSignal) {
   if (signal.aborted) throw new DOMException('読み込みを中止しました。', 'AbortError');
 }
 async function fetchBytes(path: string, signal: AbortSignal, maximum: number, fetcher: typeof fetch): Promise<ArrayBuffer> {
-  notAborted(signal);
-  const response = await fetcher(dataUrl(`/${path}`), { signal, cache: 'no-cache', redirect: 'error' });
-  if (!response.ok) throw new Error(`データを取得できませんでした（HTTP ${response.status}）。`);
-  const declared = response.headers.get('content-length');
-  if (declared && Number(declared) > maximum) throw new Error('データのサイズが上限を超えています。');
-  if (!response.body) {
-    const bytes = await response.arrayBuffer(); notAborted(signal);
-    if (bytes.byteLength > maximum) throw new Error('データのサイズが上限を超えています。');
-    return bytes;
-  }
-  const reader = response.body.getReader();
-  const chunks: Uint8Array[] = [];
-  let total = 0;
-  try {
-    while (true) {
-      notAborted(signal);
-      const { done, value } = await reader.read(); notAborted(signal);
-      if (done) break;
-      total += value.byteLength;
-      if (total > maximum) throw new Error('データのサイズが上限を超えています。');
-      chunks.push(value);
-    }
-  } catch (error) { await reader.cancel().catch(() => undefined); throw error; }
-  finally { reader.releaseLock(); }
-  const bytes = new Uint8Array(total);
-  let offset = 0;
-  for (const chunk of chunks) { bytes.set(chunk, offset); offset += chunk.byteLength; }
-  return bytes.buffer;
+  return fetchBoundedBytes(path, signal, maximum, fetcher);
 }
 function json(bytes: ArrayBuffer): unknown {
   try { return JSON.parse(new TextDecoder('utf-8', { fatal: true }).decode(bytes)); }

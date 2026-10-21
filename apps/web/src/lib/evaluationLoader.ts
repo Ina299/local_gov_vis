@@ -1,5 +1,5 @@
 import { parseEvaluationDataset } from './evaluations';
-import { dataUrl } from './paths';
+import { fetchBoundedBytes } from './boundedFetch';
 import type { EvaluationDataset } from '@/types/evaluation';
 
 export type EvaluationDiscoveryStatus = 'structured' | 'fetched' | 'discovered' | 'blocked' | 'searched_not_found';
@@ -112,40 +112,8 @@ export function parseEvaluationIndex(value: unknown): EvaluationIndex {
 function assertNotAborted(signal: AbortSignal): void {
   if (signal.aborted) throw new DOMException('読み込みを中止しました。', 'AbortError');
 }
-async function fetchBytes(path: string, signal: AbortSignal, maxBytes: number, fetcher: typeof fetch): Promise<ArrayBuffer> {
-  assertNotAborted(signal);
-  const response = await fetcher(dataUrl(path), { signal, cache: 'no-cache', redirect: 'error' });
-  if (!response.ok) throw new Error(`データを取得できませんでした（HTTP ${response.status}）。`);
-  const declaredLength = response.headers.get('content-length');
-  if (declaredLength && Number(declaredLength) > maxBytes) throw new Error('データのサイズが上限を超えています。');
-  // Streams bound memory even when Content-Length is absent or incorrect.
-  if (response.body) {
-    const reader = response.body.getReader();
-    const chunks: Uint8Array[] = [];
-    let total = 0;
-    try {
-      while (true) {
-        assertNotAborted(signal);
-        const { done, value } = await reader.read();
-        assertNotAborted(signal);
-        if (done) break;
-        total += value.byteLength;
-        if (total > maxBytes) throw new Error('データのサイズが上限を超えています。');
-        chunks.push(value);
-      }
-    } catch (error) {
-      await reader.cancel().catch(() => undefined);
-      throw error;
-    } finally { reader.releaseLock(); }
-    const joined = new Uint8Array(total);
-    let offset = 0;
-    for (const chunk of chunks) { joined.set(chunk, offset); offset += chunk.byteLength; }
-    return joined.buffer;
-  }
-  const bytes = await response.arrayBuffer();
-  assertNotAborted(signal);
-  if (bytes.byteLength > maxBytes) throw new Error('データのサイズが上限を超えています。');
-  return bytes;
+async function fetchBytes(path: string, signal: AbortSignal, maximum: number, fetcher: typeof fetch): Promise<ArrayBuffer> {
+  return fetchBoundedBytes(path, signal, maximum, fetcher);
 }
 function parseJson(bytes: ArrayBuffer): unknown {
   try { return JSON.parse(new TextDecoder('utf-8', { fatal: true }).decode(bytes)); }

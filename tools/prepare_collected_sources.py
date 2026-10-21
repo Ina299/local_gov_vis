@@ -8,7 +8,7 @@ published evidence shards it came from. Text is extracted from the verified byte
 evidence directory; the overlay manifest pins their hashes.
 Years, roles and titles are never changed; unreadable files stay text-less.
 """
-import argparse,datetime,hashlib,json,pathlib,re,subprocess,tempfile
+import argparse,datetime,hashlib,os,json,pathlib,re,subprocess,tempfile
 from evaluation_public_html import extract_public_body
 
 MAX_CHARS=120000
@@ -77,7 +77,8 @@ def build(root,manifest_path,pdftotext,generated_at):
 
 if __name__=='__main__':
  p=argparse.ArgumentParser()
- p.add_argument('--manifest',default='apps/crawler/output/source-collection/manifest.json')
+ # Originals may live outside the repository (EVALUATION_SOURCES_DIR, e.g. I:/local_gov_crawler_sources).
+ p.add_argument('--manifest',default=os.path.join(os.environ.get('EVALUATION_SOURCES_DIR','apps/crawler/output'),'source-collection','manifest.json'))
  p.add_argument('--pdftotext',default='tools/poppler-24.08.0/Library/bin/pdftotext.exe')
  p.add_argument('--out',default='data/evaluations/collected-sources-batch7.json')
  a=p.parse_args();root=pathlib.Path(__file__).resolve().parents[1]

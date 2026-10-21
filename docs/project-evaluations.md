@@ -561,3 +561,12 @@ node --import tsx apps/crawler/src/correct-supplemental-inputs.ts --codes 13102 
 第3回取得（Web 探索で見つけた公式出典）の本文を持つ 79 自治体を 6 エージェントで精査し、51 自治体に 10,895 レコードを追記した（合計 397 自治体・67,014 レコード）。
 抽出器は `apps/crawler/src/evaluations/expansion/batch9/`（生成日時 `2026-10-21T12:00:00.000Z`）。資料別件数は `supplement-extraction-audit-batch9.json`。
 事前検査 `check.ts` は、本番の抽出と同じく根拠に使われた全資料を資料一覧に登録するよう修正した（別資料の一覧表を根拠に足しても衝突扱いにならない）。
+
+## 圧縮配信（2026-10-21）
+
+公開データが GitHub Pages の上限 1GB に近づいたため、デプロイ時に評価データ（`evaluation-evidence/`・`evaluations-composed/`・`evaluations-municipal/` の JSON）を
+`.json.gz` に圧縮して配信する（`apps/web/scripts/compress-data.mjs`、約 740MB → 112MB）。ビルドは `NEXT_PUBLIC_COMPRESSED_DATA=1`。
+画面は `apps/web/src/lib/boundedFetch.ts` で `.gz` を取得してブラウザ内で展開し、展開後のバイト数・SHA-256 を従来どおり照合する。上限は展開後のサイズに対してかける。
+リポジトリ内のデータ・開発サーバー・検証ツール・テストは非圧縮のまま。
+
+取得した原本はリポジトリ外（例: `I:/local_gov_crawler_sources/`）に置ける。`EVALUATION_SOURCES_DIR` を設定すると `prepare_collected_sources.py` の既定の参照先になる。
