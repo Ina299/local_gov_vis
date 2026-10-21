@@ -7,7 +7,7 @@ function fetcherFor(files: Record<string, Uint8Array>, seen: string[] = []): typ
   return (async (input: RequestInfo | URL) => {
     const url = String(input); seen.push(url);
     const body = files[url];
-    return body ? new Response(body) : new Response('missing', { status: 404 });
+    return body ? new Response(new Blob([body as Uint8Array<ArrayBuffer>])) : new Response('missing', { status: 404 });
   }) as typeof fetch;
 }
 
