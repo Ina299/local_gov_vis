@@ -192,13 +192,13 @@ export function composeSupplemental(base:IntegrationAssets,batches:{generatedAt:
   check(json(manifest).length <= SUPPLEMENTAL_MANIFEST_MAX_BYTES, 'Supplemental manifest byte bound exceeded');
   return{assets:{...base,index,indexBytes,shards},manifest,composed};
 }
-async function loadManifest(root:string):Promise<SupplementalManifest|null>{
+export async function loadManifest(root:string):Promise<SupplementalManifest|null>{
   try {const m=JSON.parse((await readBoundedFile(join(root,SUPPLEMENTAL_MANIFEST),SUPPLEMENTAL_MANIFEST_MAX_BYTES)).toString()) as SupplementalManifest;
     check(m.schemaVersion===1 && m.kind==='supplemental_evaluation_overlay' && Array.isArray(m.batches),'Invalid supplemental provenance');
     check(sha256(json(validateEvaluationIndex(m.originalIndex)))===m.originalIndexSha256,'Supplemental original index hash mismatch');return m;
   }catch(error){if((error as NodeJS.ErrnoException).code==='ENOENT')return null;throw error;}
 }
-async function loadBatches(root:string,m:SupplementalManifest){
+export async function loadBatches(root:string,m:SupplementalManifest){
   const batches=[];const cached=new Map<string,Buffer>();let totalBytes=0;
   for(const b of m.batches){const inputs=new Map<string,Buffer>();for(const x of b.inputs){
     check(/^[a-f0-9]{64}$/.test(x.sha256)&&x.path===`data/evaluations/supplemental-inputs/${x.sha256}.json`,'Unsafe supplemental input path');

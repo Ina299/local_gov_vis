@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "corrections": [
+    {
+      "correctedAt": "2026-10-21T06:08:23.527Z",
+      "municipalityCodes": [
+        "13102"
+      ],
+      "reason": "中央区「主要な施策の成果」一覧の63件は令和５年度に公表された令和４年度決算の説明書類であり、評価対象年度・決算年度を2023と誤って構造化していたため、評価年度2023・評価対象年度2022・決算年度2022に訂正",
+      "quote": "○「主要な施策の成果」は、令和４年度決算における",
+      "changes": [
+        {
+          "batchGeneratedAt": "2026-10-18T21:02:17.160Z",
+          "municipalityCode": "13102",
+          "previousInputSha256": "64fe4267739cce2698ebf410517280cb16ae8dbad66b7675d4d99b6b14cdc558",
+          "inputSha256": "f1ca00924bfc42b74b5dea2a8b6b92367fda3583fe3b226433d50d33f35abeca"
+        },
+        {
+          "batchGeneratedAt": "2026-10-21T04:00:00.000Z",
+          "municipalityCode": "13102",
+          "previousInputSha256": "3477099f9cfd7453ae2e6deea5d78cc33ecd8899223b492827986c90752235aa",
+          "inputSha256": "0ce610e19a4717cd8cfe555110940b063a83818e69551887545b7583c453da51"
+        }
+      ]
+    }
+  ]
+}

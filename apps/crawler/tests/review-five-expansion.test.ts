@@ -75,7 +75,7 @@ test('new annual lists exclude policy totals and avoid reimporting existing Kuki
  const m=extractMoriya(input('08224','2a445a84b974fed7524967b8'));assert.equal(m.length,10);assert.ok(m.every(p=>p.ratings.length===3&&p.evaluatedFiscalYear===2024&&p.amounts.length===0));assert.ok(!m.some(p=>p.projectName==='更生保護活動支援事業'));
  const k=extractReviewFiveLaterLists(input('11232','70581de7069cb530ee1fac2b'));assert.equal(k.length,124);assert.ok(k.every(p=>Number(p.projectCode!.split(':')[1])>64));
  const h=extractReviewFiveLaterLists(input('32202','c8a2d61f5dce19995e435429'));assert.equal(h.length,71);assert.ok(h.every(p=>p.evaluatedFiscalYear===null));assert.equal(h.find(p=>p.projectName==='物品出納事務')!.department,'会計課');
- const c=extractReviewFiveLaterLists(input('13102','dad5034c4d31b21aa495146f'));assert.equal(c.length,63);assert.equal(c.find(p=>p.projectName==='感染症予防事業')!.amounts[0].amountYen,3004513518);assert.ok(c.every(p=>p.evaluatedFiscalYear===2023&&p.evaluationYear===null));
+ const c=extractReviewFiveLaterLists(input('13102','dad5034c4d31b21aa495146f'));assert.equal(c.length,63);assert.equal(c.find(p=>p.projectName==='感染症予防事業')!.amounts[0].amountYen,3004513518);assert.ok(c.every(p=>p.evaluatedFiscalYear===2022&&p.evaluationYear===2023&&p.amounts.every(a=>a.fiscalYear===2022)));
  const t=extractTakahashiResultsSupplement(input('33209','3964cf0e3dafcaf911183018'));assert.equal(t.length,12);assert.ok(t.every(p=>p.amounts.length===0));
 });
 

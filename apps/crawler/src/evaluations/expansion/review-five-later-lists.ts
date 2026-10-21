@@ -17,9 +17,10 @@ export function extractReviewFiveLaterLists(input:CachedInput,inputs:CachedInput
  if(input.municipalityCode==='13102'&&input.sourceId==='dad5034c4d31b21aa495146f'&&input.text.includes('令和５年度 主要な施策の成果 行政評価')){
   const header='大事業名 決算額 主な実施内容 （行政評価ページ）';
   for(const m of input.text.matchAll(/^(.+?事業(?:（[^）]+）)?) ([\d,]+) 円([^\n]*)$/gm)){
-   const p=project(input,m[1],m[1],null,m[0],m.index);p.evaluatedFiscalYear=2023;
-   p.amounts.push({kind:'actual',fiscalYear:2023,amountYen:Number(m[2].replaceAll(',','')),rawValue:m[2],rawUnit:'円',evidence:evidence(input,m[0],m.index)});
-   p.evidence.push(evidence(input,'令和５年度 主要な施策の成果 行政評価'),evidence(input,header));p.warnings.push('主要な施策の成果の事業一覧・決算額の部分レコード。実施内容の折返しは結合せず、指標・評価本文はリンク先ページ未保存のため未構造化。');out.push(p);
+   // ID keeps the original null-year key; the cover states 令和５年度 evaluation of 令和４年度 (FY2022) settlement.
+   const p=project(input,m[1],m[1],null,m[0],m.index);p.evaluationYear=2023;p.evaluatedFiscalYear=2022;
+   p.amounts.push({kind:'actual',fiscalYear:2022,amountYen:Number(m[2].replaceAll(',','')),rawValue:m[2],rawUnit:'円',evidence:evidence(input,m[0],m.index)});
+   p.evidence.push(evidence(input,'令和５年度 主要な施策の成果 行政評価'),evidence(input,'○「主要な施策の成果」は、令和４年度決算における'),evidence(input,header));p.warnings.push('主要な施策の成果の事業一覧・決算額の部分レコード。実施内容の折返しは結合せず、指標・評価本文はリンク先ページ未保存のため未構造化。');out.push(p);
   }
  }
  if(input.municipalityCode==='34209'&&input.sourceId==='882e284c09423483f05564fd'){
