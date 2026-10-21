@@ -537,3 +537,12 @@ node --import tsx apps/crawler/src/correct-supplemental-inputs.ts --codes 13102 
 - `tools/prepare_collected_sources.py --manifest … --out data/evaluations/collected-sources-batch8.json` で作成。合流は `collected-sources-batch*.json` を番号順に適用する。
 - 出典確認リンク（`navigationReview`）の原本を後から保存した行は `rawArchiveState: 'collected'` とし、通常の取得済み資料と同じ検証を行う。画面では「後日の収集で保存」と表示する。
 - 追加の出典探索結果は `data/evaluations/navigation-reviewed-sources-*.json` に別ファイルで置く（既存ファイルと同じ行形式・同じ基準コミット）。
+
+## 出典探索と原典の新規取得 第3回（2026-10-21）
+
+評価資料の出典がない 232 自治体（公式サイト案内のみ 209・出典なし 23）を 6 エージェントで分担し、公式サイト上の事務事業評価の掲載ページと資料を探索した。
+掲載ページを実際に開き、本文に資料リンクがあることを確認したものだけ verified とし、`data/evaluations/navigation-reviewed-sources-r3.json` に記録（787 行・91 自治体。事務事業評価として検証済みは 46 自治体・534 行、見つからなかった自治体 149 は `notFound` に理由つき）。
+探索途中でセッションの Web 検索上限に達し、後半の自治体は公式サイトのメニュー巡回のみで判断している。`notFound` は「未公開」の確認ではない。
+
+この出典を含む検証済み・未取得の https 行 728 件を取得し（第1・2回で試行済みの URL は除外）、703 件（84 自治体）を保存、本文 670 件。
+本文を読める自治体は 1,391 → 1,475、評価資料の本文がある自治体は 614 → 657。合流は `collected-sources-batch9.json`。
