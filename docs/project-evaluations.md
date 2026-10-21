@@ -546,3 +546,12 @@ node --import tsx apps/crawler/src/correct-supplemental-inputs.ts --codes 13102 
 
 この出典を含む検証済み・未取得の https 行 728 件を取得し（第1・2回で試行済みの URL は除外）、703 件（84 自治体）を保存、本文 670 件。
 本文を読める自治体は 1,391 → 1,475、評価資料の本文がある自治体は 614 → 657。合流は `collected-sources-batch9.json`。
+
+### 追加構造化（第8バッチ、2026-10-21）
+
+第2回取得の本文を持つ 173 自治体を 8 エージェントで精査し、90 自治体に 5,725 レコードを追記した（合計 346 自治体・56,119 レコード）。
+抽出器は `apps/crawler/src/evaluations/expansion/batch8/`（`BATCH8_SINCE` 以降の抽出のみで有効、生成日時 `2026-10-21T10:00:00.000Z`）。資料別件数は `supplement-extraction-audit-batch8.json`。
+本文が 12 万字で切れている資料（西宮市・掛川市・箱根町など）は、切れた先の事業を収録していない。
+
+構造化シャードの総量が既存の検証上限 256MiB に達したため 512MiB に引き上げた（個別シャード 32MiB 上限は維持）。
+索引から参照されなくなった旧版の `evaluations-composed/*.json`（21 件・約 16MB）は削除した。検証は索引が参照する版だけを対象にする。
