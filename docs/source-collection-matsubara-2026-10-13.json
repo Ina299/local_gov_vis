@@ -1,0 +1,68 @@
+{
+  "recordType": "single independently reviewed new host; existing configured proxy only",
+  "codeCommit": "6f2327dfd914fd6b895024ef389a48e7a77baf88",
+  "source": {
+    "url": "https://www.city.matsubara.lg.jp/fs/3/2/8/7/1/6/_/01_kikaku.pdf",
+    "sourcePageUrl": "https://www.city.matsubara.lg.jp/docs/2543001.html",
+    "municipalityCode": "27217",
+    "municipalityName": "松原市",
+    "title": "令和6年度事務事業評価シート 企画政策課（本文未検証）",
+    "fiscalYear": null,
+    "amountKind": null,
+    "review": {
+      "checkedAt": "2026-10-12T16:46:25Z",
+      "evidence": "Parent independent audit: exact official host including www normalization does not match original 299-host quarantine SHA256 ba417af20546ee0edd88dcdb239fcb25b65cb9594faae33784e9075baf08cabc or the six subsequent stopped hosts. Handoff received by this timestamp. New single-source diagnostic attempt authorized."
+    }
+  },
+  "attemptedMunicipalities": 1,
+  "attemptedDocuments": 1,
+  "fetchedMunicipalities": 0,
+  "fetchedDocuments": 0,
+  "state": "blocked",
+  "failureKind": "proxy_denial",
+  "attemptedAt": "2026-10-12T16:46:35.702Z",
+  "completedAt": "2026-10-12T16:46:35.730Z",
+  "elapsedMs": 25.899,
+  "timeoutMs": 30000,
+  "timeoutTriggered": false,
+  "originHttpStatus": null,
+  "proxyHttpStatus": 403,
+  "safeError": "Transport failure (TypeError, Error, AbortError, UND_ERR_ABORTED); inspect environment before retry",
+  "actualBytes": null,
+  "sha256": null,
+  "pdfVerified": false,
+  "textReadable": false,
+  "evaluationReportYear": null,
+  "targetBusinessYear": null,
+  "retryCount": 0,
+  "configurationEvidence": {
+    "networkPermissionProvided": "enabled; destination allowlist not provided",
+    "proxyVariablesPresent": [
+      "HTTPS_PROXY",
+      "HTTP_PROXY",
+      "NO_PROXY",
+      "https_proxy",
+      "http_proxy",
+      "no_proxy"
+    ],
+    "proxyValuesPrintedOrSaved": false,
+    "changedNetworkSettings": false
+  },
+  "requiredReadOnlyAdminChecks": [
+    "Existing proxy log for CONNECT to www.city.matsubara.lg.jp:443 at the recorded time and the reason for HTTP 403.",
+    "Outbound destination allowlist and HTTPS CONNECT port policy assigned to this execution environment."
+  ],
+  "interpretation": "The configured proxy rejected this attempt. No origin HTTP response was received. It is not evidence that Matsubara denied access, that the PDF is unpublished, or that all municipal domains are blocked. No further source attempts will be made after this proxy refusal.",
+  "existingStopManifests": [
+    {
+      "sample": "reviewed-five-sources",
+      "sha256": "5476c72a2ff2470845df59ed455182386f51c68840e4c65b32a6d99a90c7d778",
+      "stoppedHosts": 5
+    },
+    {
+      "sample": "reviewed-takamatsu",
+      "sha256": "520d25ec05e6b3cb8cd2feb812c34ce0b94a6455b5d6fe17b6c0295aa3a67f56",
+      "stoppedHosts": 1
+    }
+  ]
+}
