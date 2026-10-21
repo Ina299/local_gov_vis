@@ -17,7 +17,7 @@ class CollectedOverlayTests(unittest.TestCase):
    if mutate_old:mutate_old(old)
    (out/f'municipalities/{code}.json').write_bytes(encode({'sources':[old],'discovery':{'status':'discovered'}}))
    index={'snapshotAt':'2026-10-12T00:00:00Z','counts':{'truncatedTextDocuments':0},'municipalities':[{'municipalityCode':code,'municipalityName':item['municipalityName'],'shardPath':f'municipalities/{code}.json','sourceCount':1,'officialHomepage':None,'officialFallback':None}]}
-   report=apply_collected_overlay(root,out,index)
+   report=apply_collected_overlay(root,out,index,root/'data/evaluations/collected-sources-batch7.json')
    return report,index,json.loads((out/f'municipalities/{code}.json').read_text(encoding='utf-8'))
  def test_upgrades_unacquired_row_with_pinned_text(self):
   report,index,city=self.trial()

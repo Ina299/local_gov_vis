@@ -53,7 +53,8 @@ export interface EvidenceSource {
         originEvidenceUrl: string | null;
         notes: string;
         yearNotes: string;
-        rawArchiveState: 'not_downloaded';
+        /** 'collected': original bytes were saved by a later source-collection run. */
+        rawArchiveState: 'not_downloaded' | 'collected';
     };
     role: 'evaluation_landing_page' | 'evaluation_document' | 'supporting_document' | 'official_page' | 'candidate';
     verification: {

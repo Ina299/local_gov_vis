@@ -8,9 +8,10 @@ import type { EvidenceSource, MunicipalityEvidence } from '@/types/evaluationEvi
 const read = (path: string) => JSON.parse(readFileSync(new URL(`../../public/evaluation-evidence/${path}`, import.meta.url), 'utf8'));
 const index = parseEvidenceIndex(read('index.json'));
 const sample = () => {
-  const entry = index.municipalities.find((x) => x.municipalityCode === '01211')!;
+  // 網走 (01211) links were all collected later; 01212 still has a link-only review.
+  const entry = index.municipalities.find((x) => x.municipalityCode === '01212')!;
   const city = read(entry.shardPath) as MunicipalityEvidence;
-  return { entry, city, source: city.sources.find((x) => x.navigationReview?.method === 'official_body_review')! };
+  return { entry, city, source: city.sources.find((x) => x.navigationReview?.method === 'official_body_review' && x.navigationReview.rawArchiveState === 'not_downloaded')! };
 };
 describe('reviewed navigation without raw acquisition', () => {
   it('accepts verified navigation while keeping raw bytes and text absent', () => {
@@ -65,12 +66,24 @@ describe('reviewed navigation without raw acquisition', () => {
   });
   it('shows review notes without claiming saved original text or printed-year citations', () => {
     const { source } = sample();
-    const html = renderToStaticMarkup(React.createElement(SourceDetail, { code: '01211', source, loader: createEvidenceLoader() }));
+    const html = renderToStaticMarkup(React.createElement(SourceDetail, { code: '01212', source, loader: createEvidenceLoader() }));
     expect(html).toContain('公式ページの本文・リンクを確認した追加出典');
     expect(html).toContain('このアプリにはまだ保存していません');
     expect(html).toContain('出典確認時の年度メモ');
     expect(html).not.toContain('取得テキスト（未構造化）');
     expect(html).toContain('未取得・未記録');
+  });
+  it('accepts a reviewed link whose original was saved by a later collection, and labels it as such', () => {
+    const entry = index.municipalities.find((x) => x.municipalityCode === '01211')!;
+    const city = read(entry.shardPath) as MunicipalityEvidence;
+    const source = city.sources.find((x) => x.navigationReview?.rawArchiveState === 'collected')!;
+    expect(parseMunicipalityEvidence(city, entry)).toBe(city);
+    expect(source.acquisition.state).toBe('acquired'); expect(source.acquisition.sourceSha256).toMatch(/^[a-f0-9]{64}$/);
+    const html = renderToStaticMarkup(React.createElement(SourceDetail, { code: '01211', source, loader: createEvidenceLoader() }));
+    expect(html).toContain('後日の収集で公式URLから保存');
+    expect(html).not.toContain('このアプリにはまだ保存していません');
+    const tampered = structuredClone(city); tampered.sources.find((x) => x.id === source.id)!.navigationReview!.rawArchiveState = 'not_downloaded';
+    expect(() => parseMunicipalityEvidence(tampered, entry)).toThrow();
   });
   it('keeps self-declared third-party hosting identity-pending', () => {
     const city = read('municipalities/01393.json') as MunicipalityEvidence;

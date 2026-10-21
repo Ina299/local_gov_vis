@@ -1,4 +1,4 @@
-/** Offline dry run for one batch-7 extractor module: evidence, scope and identity collisions. Writes nothing. */
+/** Offline dry run for one later-batch extractor module (--batch 7|8…): evidence, scope and identity collisions. Writes nothing. */
 import { readFile } from 'node:fs/promises';
 import { resolve, dirname, join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
@@ -15,7 +15,8 @@ const modulePath = arg('--module'), codes = arg('--codes')?.split(',') ?? [];
 if (!modulePath || !codes.length || !codes.every(c => /^\d{5}$/.test(c))) throw new Error('Use --module <batch7 module.ts> --codes <code,...> [--samples N]');
 const samples = Number(arg('--samples') ?? 3);
 const { entries } = await import(pathToFileURL(resolve(modulePath)).href) as { entries: Record<string, { extract: (i: CachedInput, all: CachedInput[]) => ProjectEvaluation[]; scope: string }> };
-const collected = JSON.parse(await readFile(join(root, 'data/evaluations/collected-sources-batch7.json'), 'utf8'));
+const batch = arg('--batch') ?? '7';
+const collected = JSON.parse(await readFile(join(root, `data/evaluations/collected-sources-batch${batch}.json`), 'utf8'));
 const newIds = new Set<string>(collected.sources.map((s: { sourceId: string }) => s.sourceId));
 const base = join(root, 'apps/web/public/evaluation-evidence');
 const index = JSON.parse(await readFile(join(base, 'index.json'), 'utf8'));
@@ -39,7 +40,7 @@ for (const code of codes) {
   const projects: ProjectEvaluation[] = [], ids = new Set<string>(), problems: string[] = [];
   for (const input of inputs) {
     const found = entry.extract(input, inputs);
-    if (found.length && !newIds.has(input.sourceId)) problems.push(`records from a document not acquired in batch 7: ${input.sourceId}`);
+    if (found.length && !newIds.has(input.sourceId)) problems.push(`records from a document not acquired in batch ${batch}: ${input.sourceId}`);
     for (const p of found) {
       if (ids.has(p.id)) problems.push(`duplicate id ${p.id}`); ids.add(p.id);
       if (p.municipalityCode !== code || !p.evidence.length) problems.push(`bad identity/evidence ${p.id}`);

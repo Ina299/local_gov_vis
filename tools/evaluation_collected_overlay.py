@@ -5,9 +5,13 @@ from pathlib import Path
 def encode(value):return (json.dumps(value,ensure_ascii=False,sort_keys=True,separators=(',',':'))+'\n').encode()
 def digest(data):return hashlib.sha256(data).hexdigest()
 
-def apply_collected_overlay(root,out,index,manifest_name='data/evaluations/collected-sources-batch7.json'):
- manifest=root/manifest_name
- if not manifest.exists():return {'municipalities':0,'acquired':0,'textAssets':0}
+def apply_collected_overlays(root,out,index):
+ """Apply every collection batch in order; later batches only upgrade rows still unacquired."""
+ reports=[apply_collected_overlay(root,out,index,p) for p in sorted((root/'data/evaluations').glob('collected-sources-batch*.json'),key=lambda p:int(re.search(r'batch(\d+)',p.name).group(1)))]
+ index['counts']['collectedMunicipalities']=len({c for r in reports for c in r['codes']});index['counts']['collectedSources']=sum(r['acquired'] for r in reports);index['counts']['collectedTextAssets']=sum(r['textAssets'] for r in reports)
+ return [{k:v for k,v in r.items() if k!='codes'} for r in reports]
+
+def apply_collected_overlay(root,out,index,manifest):
  payload=json.loads(manifest.read_text(encoding='utf-8'));assert payload['schemaVersion']==1
  entries={e['municipalityCode']:e for e in index['municipalities']};cities={};acquired=0;text_assets=0;truncated=0
  for item in payload['sources']:
@@ -29,6 +33,9 @@ def apply_collected_overlay(root,out,index,manifest_name='data/evaluations/colle
    if dest.resolve()!=(root/'apps/web/public/evaluation-evidence'/t['assetPath']).resolve():dest.parent.mkdir(parents=True,exist_ok=True);dest.write_bytes(data)
    text_assets+=1;truncated+=bool(t['truncated'])
   else:assert t['status']=='no_readable_text' and t['assetPath'] is None
+  if 'navigationReview' in old:
+   assert old['navigationReview']['method']=='official_body_review' and old['navigationReview']['rawArchiveState']=='not_downloaded'
+   old['navigationReview']['rawArchiveState']='collected'
   old['acquisition']=a;old['text']=t;acquired+=1
  for code,city in cities.items():
   entry=entries[code];ss=city['sources']
@@ -37,6 +44,5 @@ def apply_collected_overlay(root,out,index,manifest_name='data/evaluations/colle
   entry['evidenceStatus']='text_available' if entry['textDocumentCount'] else 'sources_available' if entry['sourceCount'] else 'official_fallback_only' if entry['officialHomepage'] or entry['officialFallback'] else 'no_verified_sources'
   raw=encode(city);(out/entry['shardPath']).write_bytes(raw);entry['shardBytes']=len(raw);entry['shardSha256']=digest(raw)
  index['counts']['truncatedTextDocuments']+=truncated
- index['counts']['collectedMunicipalities']=len(cities);index['counts']['collectedSources']=acquired;index['counts']['collectedTextAssets']=text_assets
  index['snapshotAt']=max(index['snapshotAt'],payload['collectedAt'])
- return {'municipalities':len(cities),'acquired':acquired,'textAssets':text_assets,'preparedInputSha256':digest(manifest.read_bytes())}
+ return {'batch':manifest.name,'codes':sorted(cities),'municipalities':len(cities),'acquired':acquired,'textAssets':text_assets,'preparedInputSha256':digest(manifest.read_bytes())}

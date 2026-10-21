@@ -44,7 +44,8 @@ describe('all published evidence assets', () => {
       const result = await validateMunicipalityEvidence(new Uint8Array(read(entry.shardPath)).buffer, entry, new AbortController().signal, subtle);
       expect(result.data.discovery.omittedRejectedSources).toBeGreaterThan(0); expect(result.data.sources.every((source) => source.navigationReview !== undefined)).toBe(true);
     }
-    expect(index.municipalities.find((e) => e.municipalityCode === '01205')?.discoveryStatus).toBe('discovered');
-    expect(index.municipalities.find((e) => e.municipalityCode === '01205')?.acquiredCount).toBe(0);
+    // 室蘭 had reviewed links only; their originals were saved by the 2026-10-21 collection round.
+    expect(index.municipalities.find((e) => e.municipalityCode === '01205')?.discoveryStatus).toBe('fetched');
+    expect(index.municipalities.find((e) => e.municipalityCode === '01205')?.acquiredCount).toBeGreaterThan(0);
   });
 });

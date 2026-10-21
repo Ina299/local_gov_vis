@@ -2,13 +2,13 @@
 """Turn a finished source-collection run into a reviewed text overlay (offline).
 
 Reads the collector manifest and its hash-addressed objects, re-verifies every
-byte hash, and matches each fetched URL back to the unacquired row of the frozen
-navigation base it came from. Text is extracted from the verified bytes only
+byte hash, and matches each fetched URL back to the still-unacquired verified row of the
+published evidence shards it came from. Text is extracted from the verified bytes only
 (PDF: poppler pdftotext, HTML: the public-body extractor). Nothing is fetched. Text assets are written to the public
 evidence directory; the overlay manifest pins their hashes.
 Years, roles and titles are never changed; unreadable files stay text-less.
 """
-import argparse,datetime,gzip,hashlib,json,pathlib,re,subprocess,tempfile
+import argparse,datetime,hashlib,json,pathlib,re,subprocess,tempfile
 from evaluation_public_html import extract_public_body
 
 MAX_CHARS=120000
@@ -42,18 +42,16 @@ def html_text(raw,url,content_type):
 def build(root,manifest_path,pdftotext,generated_at):
  collection=manifest_path.parent
  manifest=json.loads(manifest_path.read_text(encoding='utf-8'))
- frozen=json.loads(gzip.open(root/'data/evaluations/navigation-base-v1.json.gz').read())
  rows={}
- for name,content in frozen['files'].items():
-  if not name.startswith('municipalities/'):continue
-  city=json.loads(content)
+ for shard in sorted((root/'apps/web/public/evaluation-evidence/municipalities').glob('*.json')):
+  city=json.loads(shard.read_text(encoding='utf-8'))
   for s in city['sources']:rows.setdefault((city['municipality']['municipalityCode'],s['url']),[]).append((city['municipality'],s))
  normalize=json.loads(subprocess.run(['node','-e','const u=JSON.parse(require("fs").readFileSync(0,"utf8"));console.log(JSON.stringify(Object.fromEntries(u.map(x=>{try{return [new URL(x).href,x]}catch{return [x,x]}}))))'],input=json.dumps([k[1] for k in rows]),capture_output=True,text=True,check=True,encoding='utf-8').stdout)
  out=[];report={'fetched':0,'matched':0,'textAvailable':0,'noReadableText':0,'unmatched':[]}
  for entry in manifest['entries'].values():
   if entry['state']!='fetched':continue
   report['fetched']+=1;src=entry['source'];code=src['municipalityCode']
-  original=normalize.get(src['url'],src['url']);match=[r for r in rows.get((code,original),[]) if r[1]['acquisition']['state'] in ('discovered','blocked') and r[1]['verification']['status']=='verified']
+  original=normalize.get(src['url'],src['url']);match=[r for r in rows.get((code,original),[]) if r[1]['acquisition']['state'] in ('discovered','blocked') and r[1]['acquisition'].get('sourceSha256') is None and r[1]['verification']['status']=='verified']
   if len(match)!=1:report['unmatched'].append(src['url']);continue
   municipality,row=match[0]
   raw=(collection/entry['file']).read_bytes()

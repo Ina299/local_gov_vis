@@ -7,7 +7,7 @@ import type { EvaluationDataset, ProjectEvaluation } from '../../web/src/types/e
 import type { EvidenceIndex, MunicipalityEvidence, DocumentText } from '../../web/src/types/evaluationEvidence';
 import type { CachedInput } from './evaluations/expansion/shared';
 import { supplementExtractors } from './evaluations/expansion/supplement-registry';
-import { batch7Extractors, BATCH7_SINCE } from './evaluations/expansion/batch7/registry';
+import { laterExtractors } from './evaluations/expansion/later-registries';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '../../..');
 const args = process.argv.slice(2);
@@ -22,7 +22,7 @@ await mkdir(output, { recursive: true });
 const audit = [];
 for (const code of args[5].split(',')) {
   // Later extractors join only runs generated after they were introduced; earlier batches replay unchanged.
-  const extractors = [supplementExtractors[code], Date.parse(generatedAt) >= Date.parse(BATCH7_SINCE) ? batch7Extractors[code] : undefined]
+  const extractors = [supplementExtractors[code], ...laterExtractors.filter(r => Date.parse(generatedAt) >= Date.parse(r.since)).map(r => r.extractors[code])]
     .filter((x): x is NonNullable<typeof x> => !!x);
   if (!extractors.length) throw new Error(`No supplement extractor for ${code}`);
   const scopes = new Map<string, string>();

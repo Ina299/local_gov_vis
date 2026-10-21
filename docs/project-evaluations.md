@@ -474,7 +474,8 @@ npm run -w @local-gov/crawler verify:national-evaluations
 
 dots 環境ではプロキシ（CONNECT 403）で止まっていた原典を、ローカル環境から `source-collection` で取得した。
 対象は全国版の固定台帳（`navigation-base-v1.json.gz`）で「検証済み・未取得（discovered/blocked）」だった 173 自治体・3,233 資料。
-未検証の 397 行、Google Drive、非 HTTPS は対象外。dots 側の隔離 299 ホストの一覧は復元できないため隔離リストは空とし、
+未検証の 397 行、Google Drive、非 HTTPS は対象外。dots 側の隔離 299 ホスト（`navigation-reviewed-sources.json` の `quarantinedHosts`）は
+dots 環境で取得が止まったホストの保留リストとみなし、取得対象から除外しなかった（隔離理由は記録が残っていない）。
 各資料の確認根拠には台帳の検証記録（根拠資料 ID と SHA-256）を記録した。ホスト別直列・1.5 秒間隔・最大 4 ホスト並列。
 
 - 取得 3,004 資料（165 自治体）。停止: リダイレクト 103、HTTP 404 73（いずれもホスト停止）、サイズ上限 20、中断・タイムアウト 33。
@@ -525,3 +526,14 @@ node --import tsx apps/crawler/src/import-supplemental-evaluations.ts --source-d
 ```bash
 node --import tsx apps/crawler/src/correct-supplemental-inputs.ts --codes 13102 --reason "<理由>" --quote "<根拠となる原文>"
 ```
+
+## 原典の新規取得 第2回（2026-10-21）
+
+公開中の資料台帳で「検証済み・未取得」の https 行（固定台帳の残り＋`navigation-reviewed-sources.json` の出典確認リンク）1,464件を取得対象にした。
+第1回で404・サイズ超過・別ホストへのリダイレクトになったURLは除外。出力は `apps/crawler/output/source-collection-r2/`（Git対象外）。
+
+- 取得 1,241件（774自治体）、本文 1,109件。停止: リダイレクト 151、HTTP エラー 52、警告 5、拒否 2、サイズ上限 9、タイムアウト等 4。
+- 本文を読める自治体 678 → 1,391、評価資料の本文がある自治体 244 → 614。
+- `tools/prepare_collected_sources.py --manifest … --out data/evaluations/collected-sources-batch8.json` で作成。合流は `collected-sources-batch*.json` を番号順に適用する。
+- 出典確認リンク（`navigationReview`）の原本を後から保存した行は `rawArchiveState: 'collected'` とし、通常の取得済み資料と同じ検証を行う。画面では「後日の収集で保存」と表示する。
+- 追加の出典探索結果は `data/evaluations/navigation-reviewed-sources-*.json` に別ファイルで置く（既存ファイルと同じ行形式・同じ基準コミット）。

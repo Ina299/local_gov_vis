@@ -29,7 +29,7 @@ function OfficialLinks({ homepage, fallback }: { homepage: OfficialLink | null; 
   return links.length ? <div className="evaluation-official-links"><p className="evaluation-label">公式サイトから探す</p><div className="evaluation-inline-links">{links.map((link) => <SourceLink key={link.url} url={link.url}>{link.title}（{link.kind === 'official_homepage' ? '公式ホームページ' : '公式の自治体案内'}）</SourceLink>)}</div><p className="evaluation-muted">これは公式サイトへの案内です。評価資料の発見・公開を確認したリンクとは区別しています。</p></div> : <p className="evaluation-muted">確認済みの公式ホームページ・自治体案内リンクは、この記録にはありません。</p>;
 }
 function YearLabels({ source, detailed = false }: { source: EvidenceSource; detailed?: boolean }) {
-  if (!source.years.length && source.navigationReview?.yearNotes) return <p className="evaluation-muted">出典確認時の年度メモ：{source.navigationReview.yearNotes}（原本の該当箇所は未保存）</p>;
+  if (!source.years.length && source.navigationReview?.yearNotes) return <p className="evaluation-muted">出典確認時の年度メモ：{source.navigationReview.yearNotes}{source.navigationReview.rawArchiveState === 'collected' ? '（確認時のメモ。本文の該当箇所とは照合していません）' : '（原本の該当箇所は未保存）'}</p>;
   return source.years.length ? <ul className="evaluation-year-list">{source.years.map((year, i) => <li key={i}><strong>{year.label}</strong> · {YEAR_LABELS[year.meaning]}{detailed && <p className="evaluation-muted">根拠（{year.basis === 'printed_text' ? '本文' : year.basis === 'official_link_label' ? '公式リンク表記' : '資料タイトル'}）：{year.quote}</p>}</li>)}</ul> : <p className="evaluation-muted">年度不明（根拠となる年度表記を未確認）</p>;
 }
 
@@ -70,7 +70,7 @@ export function SourceDetail({ code, source, loader }: { code: string; source: E
     <p className="evaluation-source-meta"><span className="evaluation-badge">{ROLE_LABELS[source.role]}</span><span>{source.format.toUpperCase()}</span><span>{EVALUATION_TYPE_LABELS[source.evaluationType]}</span><span>{sourceAcquisitionLabel(source)}</span></p>
     <p><SourceLink url={source.url}>{sourceLinkLabel(source)}</SourceLink></p>
     {source.navigationReview && <aside className="evaluation-notice">
-      <p>{source.navigationReview.method === 'official_body_review' ? '公式ページの本文・リンクを確認した追加出典です。' : '検索で見つかった候補です。公式出典との関係や内容の確認は完了していません。'} 原本ファイルと本文テキストは、このアプリにはまだ保存していません。</p>
+      <p>{source.navigationReview.method === 'official_body_review' ? '公式ページの本文・リンクを確認した追加出典です。' : '検索で見つかった候補です。公式出典との関係や内容の確認は完了していません。'} {source.navigationReview.rawArchiveState === 'collected' ? '原本ファイルは後日の収集で公式URLから保存しました。下の本文はその原本から抽出したものです。' : '原本ファイルと本文テキストは、このアプリにはまだ保存していません。'}</p>
       <p>公開主体：{source.navigationReview.publisher} ／ 確認：{formatEvaluationTimestamp(source.navigationReview.checkedAt)}</p>
       {source.navigationReview.notes && <p>{source.navigationReview.notes}</p>}
       <p><SourceLink url={source.navigationReview.evidenceUrl}>確認に使ったページ・資料</SourceLink>{source.navigationReview.originEvidenceUrl && <> ／ <SourceLink url={source.navigationReview.originEvidenceUrl}>公式サイトからの参照元</SourceLink></>}</p>

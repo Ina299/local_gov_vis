@@ -2,7 +2,7 @@
 """Offline additive reviewed-link projection. Never downloads or invents raw source hashes."""
 import argparse,gzip,hashlib,io,json,pathlib,re,shutil,urllib.parse
 from evaluation_cache_overlay import apply_cache_overlay
-from evaluation_collected_overlay import apply_collected_overlay
+from evaluation_collected_overlay import apply_collected_overlays
 from evaluation_identity_corrections import apply_identity_corrections
 BASE='d697c106f48610ef369c083cd2c041964209a3f4'
 PREFIX='apps/web/public/evaluation-evidence/'
@@ -68,8 +68,10 @@ def build(root,reviews,out):
    dest=out/rel
    if original.resolve()!=dest.resolve():dest.parent.mkdir(parents=True,exist_ok=True);dest.write_bytes(data)
  index=json.loads((out/'index.json').read_text());apply_identity_corrections(root,out,index);entries={r['municipalityCode']:r for r in index['municipalities']};cities={};added=[];seen=set();upgraded=[];retained=[]
- quarantined=set(payload['quarantinedHosts'])
- for row in payload['sources']:
+ # Later discovery rounds live in separate files; each keeps its own held-host list.
+ extra=[json.loads(x.read_text(encoding='utf-8')) for x in sorted(root.glob('data/evaluations/navigation-reviewed-sources-*.json'))]
+ for x in extra:assert x['schemaVersion']==1 and x['baseCommit']==BASE
+ for row,quarantined in [(r,set(payload['quarantinedHosts'])) for r in payload['sources']]+[(r,set(x['quarantinedHosts'])) for x in extra for r in x['sources']]:
   code=row['municipalityCode'];entry=entries[code]
   if row['municipalityName']!=entry['municipalityName'] or row['prefectureCode']!=entry['prefectureCode']:raise ValueError('Municipal identity mismatch')
   assert row['verification'] in ('verified','candidate') and isinstance(row['evaluationRelevant'],bool)
@@ -91,14 +93,14 @@ def build(root,reviews,out):
   entry['evidenceStatus']='text_available' if entry['textDocumentCount'] else 'sources_available' if entry['sourceCount'] else 'official_fallback_only' if entry['officialHomepage'] or entry['officialFallback'] else 'no_verified_sources'
   raw=encode(city);(out/entry['shardPath']).write_bytes(raw);entry['shardBytes']=len(raw);entry['shardSha256']=digest(raw)
  cache_report=apply_cache_overlay(root,out,index)
- collected_report=apply_collected_overlay(root,out,index)
+ collected_report=apply_collected_overlays(root,out,index)
  rows=index['municipalities'];counts=index['counts']
  counts['municipalitiesWithOfficialFallback']=sum(bool(e['officialFallback']) for e in rows)
  counts['municipalitiesWithOfficialHomepage']=sum(bool(e['officialHomepage']) for e in rows)
  for key,field in [('municipalitiesWithAcquiredArtifacts','acquiredCount'),('municipalitiesWithEvaluationPages','evaluationPageCount'),('municipalitiesWithReadableText','textDocumentCount'),('municipalitiesWithSubstantiveEvaluationText','substantiveTextDocumentCount'),('municipalitiesWithVerifiedSources','sourceCount')]:counts[key]=sum(r[field]>0 for r in rows)
  for key,field in [('acquiredSourceRows','acquiredCount'),('candidateSourceRows','candidateCount'),('verifiedSourceRows','sourceCount'),('textDocuments','textDocumentCount'),('substantiveEvaluationTextDocuments','substantiveTextDocumentCount')]:counts[key]=sum(r[field] for r in rows)
  counts['sourceRows']=counts['candidateSourceRows']+counts['verifiedSourceRows'];counts['reviewedNavigationSources']=sum(s['verification']['status']=='verified' for _,s in added);counts['reviewedNavigationMunicipalities']=len({code for code,s in added if s['verification']['status']=='verified'})
- index['snapshotAt']=max(index['snapshotAt'],payload['snapshotAt']);(out/'index.json').write_bytes(encode(index))
+ index['snapshotAt']=max([index['snapshotAt'],payload['snapshotAt']]+[x['snapshotAt'] for x in extra]);(out/'index.json').write_bytes(encode(index))
  definitions=json.loads((out/'definitions.json').read_text());definitions['counts']=dict(counts);definitions['substantiveEvaluationText']='Acquired, identity-verified evaluation-document bodies, including explicitly reviewed substantive HTML project tables as well as non-HTML documents. Landing pages and supporting guidelines are excluded. This is unstructured source access, not complete or numerically normalized coverage.';definitions['reviewedNavigation']='Additional links reviewed through official page content; marked separately. No original bytes or full text stored; sourceSha256 is null and acquisition is discovered/blocked. Search-only and delegated-host identity-pending links remain candidates.';definitions['evaluationLandingPage']='Official evaluation entrypoint verified either from a hash-checked archived page or an explicitly labeled official-page review. This is not proof of downloading its linked reports.';(out/'definitions.json').write_bytes(encode(definitions))
  return {'baseCommit':BASE,'indexSha256':digest((out/'index.json').read_bytes()),'addedSourceRows':len(added),'addedMunicipalities':len({c for c,s in added}),'counts':counts,'downloadedRawSources':0,'textAssetsAdded':cache_report['textAssets'],'cachedReview':cache_report,'collected':collected_report,'upgradedUnacquiredCandidates':upgraded,'retainedCandidatesRequiringReview':retained}
 if __name__=='__main__':

@@ -103,18 +103,23 @@ function sourceRecord(v: unknown): v is EvidenceSource {
       || !oneOf(y.basis, ['source_title', 'official_link_label', 'printed_text']) || !named(y.quote))) return false;
   if (v.navigationReview !== undefined) {
     const review = v.navigationReview;
+    // A reviewed link carries no bytes unless a later collection run saved them ('collected');
+    // collected rows then pass the ordinary acquired-source checks below.
+    const navigationOnly = oneOf(v.acquisition.state, ['discovered', 'blocked']) && v.acquisition.sourceSha256 === null
+      && v.acquisition.inputStatus === v.acquisition.state && v.acquisition.method === 'network'
+      && v.acquisition.fetchedAt === null && v.acquisition.httpStatus === null
+      && v.verification.evidenceSourceId === null && v.verification.evidenceSha256 === null
+      && v.text.status === 'not_acquired' && v.text.preview === null
+      && v.text.characters === 0 && v.text.exportedCharacters === 0 && v.text.truncated === false
+      && v.text.textSha256 === null && v.text.inputTextSha256 === null && v.text.extractionMethod === null
+      && v.years.length === 0;
+    const collected = v.acquisition.state === 'acquired' && v.acquisition.method === 'network' && v.acquisition.fetchedAt !== null
+      && v.verification.evidenceSourceId === null && v.verification.evidenceSha256 === null && v.years.length === 0;
     if (!record(review) || !oneOf(review.method, ['official_body_review', 'search_candidate'])
       || !date(review.checkedAt) || !named(review.publisher) || !url(review.evidenceUrl)
       || !(review.originEvidenceUrl === null || url(review.originEvidenceUrl))
-      || !string(review.notes) || !string(review.yearNotes) || review.rawArchiveState !== 'not_downloaded'
-      || !oneOf(v.acquisition.state, ['discovered', 'blocked']) || v.acquisition.sourceSha256 !== null
-      || v.acquisition.inputStatus !== v.acquisition.state || v.acquisition.method !== 'network'
-      || v.acquisition.fetchedAt !== null || v.acquisition.httpStatus !== null
-      || v.verification.evidenceSourceId !== null || v.verification.evidenceSha256 !== null
-      || v.text.status !== 'not_acquired' || v.text.preview !== null
-      || v.text.characters !== 0 || v.text.exportedCharacters !== 0 || v.text.truncated !== false
-      || v.text.textSha256 !== null || v.text.inputTextSha256 !== null || v.text.extractionMethod !== null
-      || v.years.length !== 0
+      || !string(review.notes) || !string(review.yearNotes)
+      || !(review.rawArchiveState === 'not_downloaded' ? navigationOnly : review.rawArchiveState === 'collected' && review.method === 'official_body_review' && collected)
       || (review.method === 'search_candidate' && (v.role !== 'candidate' || v.verification.evaluationRelevance !== 'not_established'))
       || (review.method === 'official_body_review' && v.role === 'candidate')
       || (review.method === 'official_body_review') !== (v.verification.status === 'verified')) return false;
