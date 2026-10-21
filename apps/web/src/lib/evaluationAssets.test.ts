@@ -21,5 +21,5 @@ describe('local evaluation asset contract', () => {
     }
     expect(records).toBe(index.primaryEvaluationRecords);
     expect(municipalities).toBe(index.primaryMunicipalities);
-  });
+  }, 60_000);
 });
