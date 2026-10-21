@@ -9,7 +9,7 @@ import type { EvidenceIndex, MunicipalityEvidence, DocumentText } from '../../we
 import type { CachedInput } from './evaluations/expansion/shared';
 import { supplementExtractors } from './evaluations/expansion/supplement-registry';
 import { laterExtractors } from './evaluations/expansion/later-registries';
-import { FULLTEXT_SINCE, fullText } from './evaluations/expansion/fulltext';
+import { FULLTEXT_SINCE, PRIOR_STATE_RULE_SINCE, fullText } from './evaluations/expansion/fulltext';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '../../..');
 const args = process.argv.slice(2);
@@ -18,6 +18,7 @@ if (args.length !== 6 || args[0] !== '--output-dir' || args[2] !== '--generated-
   throw new Error('Use --output-dir <directory> --generated-at <ISO timestamp> --codes <codes>');
 }
 const output = resolve(args[1]), generatedAt = args[3];
+const priorStateRule = Date.parse(generatedAt) >= Date.parse(PRIOR_STATE_RULE_SINCE);
 let priorShards: Map<string, Buffer> | undefined;
 async function priorProjects(code: string): Promise<ProjectEvaluation[]> {
   if (!priorShards) {
@@ -77,7 +78,7 @@ for (const code of args[5].split(',')) {
     let found: ProjectEvaluation[];
     // In a whole-text run an extractor written for the 120,000-character text may fail; skip that pair, never guess.
     try { found = registered.extract(input, inputs); }
-    catch (error) { if (!firstPartLength.size) throw error; skipped.push({ sourceId: input.sourceId, error: (error as Error).message.slice(0, 200) }); return []; }
+    catch (error) { if (!firstPartLength.size && !priorStateRule) throw error; skipped.push({ sourceId: input.sourceId, error: (error as Error).message.slice(0, 200) }); return []; }
     if (found.length && !scopes.has(input.sourceId)) scopes.set(input.sourceId, registered.scope);
     return found;
   }) }));
@@ -111,11 +112,14 @@ for (const code of args[5].split(',')) {
     return sameCode || !a.department || !b.department || norm(a.department) === norm(b.department);
   };
   // Compare with what was published before this run: recomposed from the batches generated earlier, so a replay gives the same answer.
-  const prior = firstPartLength.size ? await priorProjects(code) : [];
+  const prior = firstPartLength.size || priorStateRule ? await priorProjects(code) : [];
+  const priorIds = new Set(prior.map(p => p.id));
   const everyRecord = [...prior, ...extracted.flatMap(x => x.projects)];
   const unambiguous = (p: ProjectEvaluation) => !everyRecord.some(q => q !== p && q.id !== p.id && collides(p, q));
   for (const { input, projects: all } of extracted) {
-    const projects = firstPartLength.size ? all.filter(p => continuationOnly(input, p) && unambiguous(p)) : all;
+    // Batch 10 (before PRIOR_STATE_RULE_SINCE) replays with its original continuation-only rule.
+    const projects = priorStateRule ? all.filter(p => !priorIds.has(p.id) && seen.get(p.id) === 1 && unambiguous(p))
+      : firstPartLength.size ? all.filter(p => continuationOnly(input, p) && unambiguous(p)) : all;
     for (const p of projects) {
       if (ids.has(p.id)) throw new Error(`Duplicate candidate ID requires review: ${p.id}`);
       ids.add(p.id);
@@ -149,7 +153,7 @@ for (const code of args[5].split(',')) {
   }
   if (!dataset.projects.length) {
     // A whole-text run may find nothing beyond the published first parts; record it instead of failing.
-    if (firstPartLength.size) { audit.push({ code, candidateRecords: 0, sha256: null, bytes: 0, documents, skipped }); continue; }
+    if (firstPartLength.size || priorStateRule) { audit.push({ code, candidateRecords: 0, sha256: null, bytes: 0, documents, skipped }); continue; }
     throw new Error(`No supplementary candidates for ${code}`);
   }
   const bytes = Buffer.from(JSON.stringify(dataset)+'\n');

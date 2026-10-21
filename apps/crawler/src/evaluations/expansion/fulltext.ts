@@ -4,6 +4,11 @@ import { sha256 } from '../national-integration';
 
 /** Extraction runs generated at or after this time read continuation parts; earlier batches keep the 120,000-character text. */
 export const FULLTEXT_SINCE = '2026-10-21T15:00:00.000Z';
+/**
+ * From this time a whole-text run keeps any record whose ID was not published before the run (instead of
+ * only records starting after the first part), so documents first acquired with full text are covered too.
+ */
+export const PRIOR_STATE_RULE_SINCE = '2026-10-21T18:00:00.000Z';
 
 interface Continuation { part: number; assetPath: string; assetBytes: number; assetSha256: string; startCharacter: number; exportedCharacters: number; textSha256: string }
 interface SourceText { characters: number; exportedCharacters: number; truncated: boolean; fullTextSha256?: string; continuations?: Continuation[] }
