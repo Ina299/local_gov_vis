@@ -7,6 +7,7 @@ import type { EvaluationDataset, ProjectEvaluation } from '../../web/src/types/e
 import type { EvidenceIndex, MunicipalityEvidence, DocumentText } from '../../web/src/types/evaluationEvidence';
 import type { CachedInput } from './evaluations/expansion/shared';
 import { supplementExtractors } from './evaluations/expansion/supplement-registry';
+import { batch7Extractors, BATCH7_SINCE } from './evaluations/expansion/batch7/registry';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '../../..');
 const args = process.argv.slice(2);
@@ -20,8 +21,11 @@ const index: EvidenceIndex = JSON.parse(await readFile(join(base, 'index.json'),
 await mkdir(output, { recursive: true });
 const audit = [];
 for (const code of args[5].split(',')) {
-  const registered = supplementExtractors[code];
-  if (!registered) throw new Error(`No supplement extractor for ${code}`);
+  // Later extractors join only runs generated after they were introduced; earlier batches replay unchanged.
+  const extractors = [supplementExtractors[code], Date.parse(generatedAt) >= Date.parse(BATCH7_SINCE) ? batch7Extractors[code] : undefined]
+    .filter((x): x is NonNullable<typeof x> => !!x);
+  if (!extractors.length) throw new Error(`No supplement extractor for ${code}`);
+  const scopes = new Map<string, string>();
   const row = index.municipalities.find(r => r.municipalityCode === code);
   if (!row) throw new Error(`Unknown municipality ${code}`);
   const metadata = await readFile(join(base, row.shardPath));
@@ -47,7 +51,11 @@ for (const code of args[5].split(',')) {
   const ids = new Set<string>();
   const evidenceOf = (p: ProjectEvaluation) => [...p.evidence, ...p.amounts.map(a=>a.evidence), ...p.indicators.map(i=>i.evidence), ...p.ratings.map(r=>r.evidence)];
   for (const input of inputs) {
-    const projects = registered.extract(input, inputs);
+    const projects = extractors.flatMap(registered => {
+      const found = registered.extract(input, inputs);
+      if (found.length && !scopes.has(input.sourceId)) scopes.set(input.sourceId, registered.scope);
+      return found;
+    });
     for (const p of projects) {
       if (ids.has(p.id)) throw new Error(`Duplicate candidate ID requires review: ${p.id}`);
       ids.add(p.id);
@@ -72,7 +80,7 @@ for (const code of args[5].split(',')) {
       municipalityName: row.municipalityName, sourcePageUrl: input.sourcePageUrl,
       evaluationYear: owned.length && owned.every(p=>p.evaluationYear===owned[0].evaluationYear) ? owned[0].evaluationYear : null,
       status: 'partial', discoveredDocuments: 1, fetchedDocuments: 1, extractedProjects: count,
-      scope: registered.scope, message: '追加取得なし。保存本文との完全一致を確認。PDF原本との再照合は未実施。',
+      scope: scopes.get(input.sourceId) ?? extractors[0].scope, message: '追加取得なし。保存本文との完全一致を確認。PDF原本との再照合は未実施。',
       lastAttemptAt: input.fetchedAt, lastSuccessAt: input.fetchedAt,
       documents: [{ url: input.sourceUrl, format: input.format, status: 'partial', sha256: input.sourceSha256,
         fetchedAt: input.fetchedAt, projectCount: count, message: count ? '保存本文から追加候補を部分構造化' : '代表資料のレコードへ証拠を統合' }] });

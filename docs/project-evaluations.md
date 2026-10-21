@@ -468,3 +468,46 @@ npm run -w @local-gov/crawler verify:national-evaluations
 遅延読込とブラウザーの12MiBキャッシュ上限は維持する。大きい自治体は表示できるがキャッシュに保持しない。
 保存済み入力の全コード再抽出・ハッシュ一致、元データ不変、同名衝突・原典引用・集計一致をテストする。
 今回の新規ダウンロードは0件。proxy CONNECT 403 と隔離リスト299ホストの制約を維持し、取得拒否や警告を迂回しない。
+
+
+## 原典の新規取得と追加構造化 第7回（2026-10-21）
+
+dots 環境ではプロキシ（CONNECT 403）で止まっていた原典を、ローカル環境から `source-collection` で取得した。
+対象は全国版の固定台帳（`navigation-base-v1.json.gz`）で「検証済み・未取得（discovered/blocked）」だった 173 自治体・3,233 資料。
+未検証の 397 行、Google Drive、非 HTTPS は対象外。dots 側の隔離 299 ホストの一覧は復元できないため隔離リストは空とし、
+各資料の確認根拠には台帳の検証記録（根拠資料 ID と SHA-256）を記録した。ホスト別直列・1.5 秒間隔・最大 4 ホスト並列。
+
+- 取得 3,004 資料（165 自治体）。停止: リダイレクト 103、HTTP 404 73（いずれもホスト停止）、サイズ上限 20、中断・タイムアウト 33。
+- 本文 2,817 資料（PDF は poppler `pdftotext`、HTML は公開本文抽出）。画像 PDF 等 187 資料は本文なし。
+- 原本バイトは `apps/crawler/output/source-collection/objects/`（Git 対象外）。公開側はハッシュのみ保持。
+
+### 本文の合流
+
+```bash
+PYTHONUTF8=1 python tools/prepare_collected_sources.py      # 取得物 → 本文資産と data/evaluations/collected-sources-batch7.json
+cd tools && PYTHONUTF8=1 python build-evaluation-navigation-reviews.py
+```
+
+`evaluation_collected_overlay.py` は、固定台帳の「検証済み・未取得」行だけを取得済みへ更新する。既に原本ハッシュを持つ行・未検証行は拒否し、
+本文資産のバイト数・SHA-256・資料 ID・URL・原本ハッシュを照合する。資料の役割・年度・題名は変更しない。
+読める本文は 653 → 678 自治体、5,277 資料。
+
+### 追加構造化（第7バッチ）
+
+新規本文を持つ 114 自治体を精査し、72 自治体に 13,514 年度別レコードを追記した（合計 256 自治体・50,394 レコード）。
+抽出器は `apps/crawler/src/evaluations/expansion/batch7/`。`BATCH7_SINCE` 以降の生成日時の抽出でのみ使い、第1〜6バッチの再現結果はバイト単位で変わらない。
+各抽出器は batch7 で新規取得した資料からのみレコードを返し、根拠は本文の完全一致部分文字列と文字位置を持つ。
+既存レコードと同名・同期間で衝突するものは新規側を除外した（distinct 判断は追加していない）。
+列の対応を推定に頼る箇所は公開しない: 豊浦町（掲載順による対応）は全件、本宮市（年度ブロックの一部推定）・長井市（掲載順による事業対応）は金額のみ除外。
+
+```bash
+node --import tsx apps/crawler/src/evaluations/expansion/batch7/check.ts --module <module.ts> --codes <codes>   # 書き込みなしの事前検査
+node --import tsx apps/crawler/src/extract-cached-evaluation-supplements.ts --output-dir <dir>/shards --generated-at 2026-10-21T04:00:00.000Z --codes "<batch7 のコード>"
+node --import tsx apps/crawler/src/import-supplemental-evaluations.ts --source-dir <dir>/shards --generated-at 2026-10-21T04:00:00.000Z
+```
+
+資料別の件数は `data/evaluations/supplement-extraction-audit-batch7.json`。多くの自治体で指標は列対応が確定できず未構造化、金額も検算できた列のみ。
+残る対象外: 施策評価・計画・会議録のみの自治体、既存と全件衝突する自治体（台東区・常総市・新座市・小田原市・川越市・相模原市など）、
+列崩れで行を確定できない自治体（郡山市・興部町・川棚町・三芳町など）、`ashx` 形式で抽出器に渡らない島原市。
+
+既存データの要確認: 中央区の既存 63 レコードは `evaluatedFiscalYear` が 2023 だが、原文は「令和４年度分」（2022）。今回は名称で除外し、既存値は変更していない。
