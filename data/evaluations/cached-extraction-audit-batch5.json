@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-10-13T16:58:00.000Z",
+  "offlineOnly": true,
+  "municipalities": [
+    {
+      "code": "05214",
+      "documents": [
+        {
+          "sourceId": "26804d000c51723a84a40007",
+          "sourceUrl": "https://www.city.nikaho.akita.jp/material/files/group/5/R7.pdf",
+          "sourceSha256": "492cff1f33e6551202266fc0d677bf2ddc14e71546ce8e5ddc3b5c9a5f2d64d3",
+          "textSha256": "7c19bd751dacec40f29b61080a737532d69423feb756b630ff84bd890f7bbd70",
+          "records": 6,
+          "truncated": false
+        }
+      ],
+      "records": 6,
+      "withAmounts": 0,
+      "withActualAmounts": 0,
+      "withIndicators": 0,
+      "withNumericIndicators": 0,
+      "withOutcomeIndicators": 0,
+      "withOutcomes": 6,
+      "withRatings": 6,
+      "duplicates": []
+    },
+    {
+      "code": "11381",
+      "documents": [
+        {
+          "sourceId": "de5160adc1e1a29f5a6efaff",
+          "sourceUrl": "https://www.town.saitama-misato.lg.jp/cmsfiles/contents/0000000/368/19-a-01.pdf",
+          "sourceSha256": "01db36289e38ad137635664ee2ae3c80c735d7835b013f76b5671b17fbadcb9b",
+          "textSha256": "9c4b7c106692b0df21b55d438ed96a7698879db7ced7aa8a2ad521b8a77c53df",
+          "records": 1,
+          "truncated": false
+        }
+      ],
+      "records": 1,
+      "withAmounts": 0,
+      "withActualAmounts": 0,
+      "withIndicators": 1,
+      "withNumericIndicators": 1,
+      "withOutcomeIndicators": 0,
+      "withOutcomes": 1,
+      "withRatings": 1,
+      "duplicates": []
+    },
+    {
+      "code": "13106",
+      "documents": [
+        {
+          "sourceId": "d267cafeefb79fc2fed20372",
+          "sourceUrl": "https://www.city.taito.lg.jp/other/kikaku/gyoseihyoka_head/gyoseihyoka01/jimujigyo01/PDFdata/001.pdf",
+          "sourceSha256": "4fc408033d8c9a09cf63f007b59135f5db50d1e1c1be6a8c3db3945dbd8d2f94",
+          "textSha256": "7e3fc3abbfcdd083c2d1572322ae871764f5d046c4367a9101791120f1be5e78",
+          "records": 1,
+          "truncated": false
+        }
+      ],
+      "records": 1,
+      "withAmounts": 1,
+      "withActualAmounts": 0,
+      "withIndicators": 1,
+      "withNumericIndicators": 1,
+      "withOutcomeIndicators": 1,
+      "withOutcomes": 0,
+      "withRatings": 1,
+      "duplicates": []
+    }
+  ]
+}
