@@ -61,7 +61,8 @@ for (const code of codes) {
     existing = JSON.parse(bytes.toString());
   }
   const incoming: EvaluationDataset = { schemaVersion: 1, generatedAt: new Date().toISOString(), sources: [], projects };
-  const sources = [...new Set(projects.map(p => JSON.stringify([p.evidence[0].sourceUrl, p.evidence[0].sha256])))].map(k => {
+  // Register every referenced document, as the real extraction CLI does, so cross-document evidence is allowed.
+  const sources = [...new Set(projects.flatMap(p => allEvidence(p).map(e => JSON.stringify([e.sourceUrl, e.sha256]))))].map(k => {
     const [url, hash] = JSON.parse(k); const input = inputs.find(i => i.sourceUrl === url && i.sourceSha256 === hash)!;
     return { id: `supplement-${code}-${input.sourceId}`, municipalityCode: code, municipalityName: row.municipalityName, sourcePageUrl: url, evaluationYear: null, status: 'partial' as const,
       discoveredDocuments: 1, fetchedDocuments: 1, extractedProjects: 0, scope: entry.scope, message: '', lastAttemptAt: input.fetchedAt, lastSuccessAt: input.fetchedAt,

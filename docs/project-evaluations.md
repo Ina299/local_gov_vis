@@ -555,3 +555,9 @@ node --import tsx apps/crawler/src/correct-supplemental-inputs.ts --codes 13102 
 
 構造化シャードの総量が既存の検証上限 256MiB に達したため 512MiB に引き上げた（個別シャード 32MiB 上限は維持）。
 索引から参照されなくなった旧版の `evaluations-composed/*.json`（21 件・約 16MB）は削除した。検証は索引が参照する版だけを対象にする。
+
+### 追加構造化（第9バッチ、2026-10-21）
+
+第3回取得（Web 探索で見つけた公式出典）の本文を持つ 79 自治体を 6 エージェントで精査し、51 自治体に 10,895 レコードを追記した（合計 397 自治体・67,014 レコード）。
+抽出器は `apps/crawler/src/evaluations/expansion/batch9/`（生成日時 `2026-10-21T12:00:00.000Z`）。資料別件数は `supplement-extraction-audit-batch9.json`。
+事前検査 `check.ts` は、本番の抽出と同じく根拠に使われた全資料を資料一覧に登録するよう修正した（別資料の一覧表を根拠に足しても衝突扱いにならない）。
