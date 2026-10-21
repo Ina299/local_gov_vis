@@ -3,6 +3,7 @@
 import argparse,gzip,hashlib,io,json,pathlib,re,shutil,urllib.parse
 from evaluation_cache_overlay import apply_cache_overlay
 from evaluation_collected_overlay import apply_collected_overlays
+from evaluation_fulltext_overlay import apply_fulltext_overlay
 from evaluation_identity_corrections import apply_identity_corrections
 BASE='d697c106f48610ef369c083cd2c041964209a3f4'
 PREFIX='apps/web/public/evaluation-evidence/'
@@ -94,6 +95,7 @@ def build(root,reviews,out):
   raw=encode(city);(out/entry['shardPath']).write_bytes(raw);entry['shardBytes']=len(raw);entry['shardSha256']=digest(raw)
  cache_report=apply_cache_overlay(root,out,index)
  collected_report=apply_collected_overlays(root,out,index)
+ fulltext_report=apply_fulltext_overlay(root,out,index)
  rows=index['municipalities'];counts=index['counts']
  counts['municipalitiesWithOfficialFallback']=sum(bool(e['officialFallback']) for e in rows)
  counts['municipalitiesWithOfficialHomepage']=sum(bool(e['officialHomepage']) for e in rows)
@@ -102,6 +104,6 @@ def build(root,reviews,out):
  counts['sourceRows']=counts['candidateSourceRows']+counts['verifiedSourceRows'];counts['reviewedNavigationSources']=sum(s['verification']['status']=='verified' for _,s in added);counts['reviewedNavigationMunicipalities']=len({code for code,s in added if s['verification']['status']=='verified'})
  index['snapshotAt']=max([index['snapshotAt'],payload['snapshotAt']]+[x['snapshotAt'] for x in extra]);(out/'index.json').write_bytes(encode(index))
  definitions=json.loads((out/'definitions.json').read_text());definitions['counts']=dict(counts);definitions['substantiveEvaluationText']='Acquired, identity-verified evaluation-document bodies, including explicitly reviewed substantive HTML project tables as well as non-HTML documents. Landing pages and supporting guidelines are excluded. This is unstructured source access, not complete or numerically normalized coverage.';definitions['reviewedNavigation']='Additional links reviewed through official page content; marked separately. No original bytes or full text stored; sourceSha256 is null and acquisition is discovered/blocked. Search-only and delegated-host identity-pending links remain candidates.';definitions['evaluationLandingPage']='Official evaluation entrypoint verified either from a hash-checked archived page or an explicitly labeled official-page review. This is not proof of downloading its linked reports.';(out/'definitions.json').write_bytes(encode(definitions))
- return {'baseCommit':BASE,'indexSha256':digest((out/'index.json').read_bytes()),'addedSourceRows':len(added),'addedMunicipalities':len({c for c,s in added}),'counts':counts,'downloadedRawSources':0,'textAssetsAdded':cache_report['textAssets'],'cachedReview':cache_report,'collected':collected_report,'upgradedUnacquiredCandidates':upgraded,'retainedCandidatesRequiringReview':retained}
+ return {'baseCommit':BASE,'indexSha256':digest((out/'index.json').read_bytes()),'addedSourceRows':len(added),'addedMunicipalities':len({c for c,s in added}),'counts':counts,'downloadedRawSources':0,'textAssetsAdded':cache_report['textAssets'],'cachedReview':cache_report,'collected':collected_report,'fullText':fulltext_report,'upgradedUnacquiredCandidates':upgraded,'retainedCandidatesRequiringReview':retained}
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--reviews',default='data/evaluations/navigation-reviewed-sources.json');p.add_argument('--out-public',default=PREFIX);a=p.parse_args();root=pathlib.Path(__file__).resolve().parents[1];print(json.dumps(build(root,root/a.reviews,root/a.out_public),ensure_ascii=False,indent=2))

@@ -570,3 +570,21 @@ node --import tsx apps/crawler/src/correct-supplemental-inputs.ts --codes 13102 
 リポジトリ内のデータ・開発サーバー・検証ツール・テストは非圧縮のまま。
 
 取得した原本はリポジトリ外（例: `I:/local_gov_crawler_sources/`）に置ける。`EVALUATION_SOURCES_DIR` を設定すると `prepare_collected_sources.py` の既定の参照先になる。
+
+## 12 万字を超える資料の全文化と第10バッチ（2026-10-21）
+
+本文が 120,000 文字で切れていた 329 資料のうち、原本を保存している 235 資料を原本から再抽出し、残りを 120,000 文字ずつの続編
+`documents/{id}-{part}.json`（489 件）として配信する。第1部（既存の `documents/{id}.json`）・そのハッシュ・既存の根拠の文字位置は変えない。
+再抽出した全文の先頭が公開中の第1部と完全に一致し、文字数も一致した資料だけを対象にした（不一致 0）。dots 時代の 94 資料は原本がなく対象外。
+
+- 作成: `tools/prepare_fulltext_continuations.py`（`EVALUATION_SOURCES_DIR` の原本を使用）→ `data/evaluations/fulltext-continuations.json`
+- 合流: `tools/evaluation_fulltext_overlay.py` が自治体シャードの `text.continuations` / `text.fullTextSha256` を付与し、全ハッシュと連続性を検証
+- 画面: 本文の下の「続きを読み込む」で第2部以降を順に読み込み、連結表示する。本文内検索は読み込み済みの範囲が対象
+
+構造化は、生成日時が `FULLTEXT_SINCE`（2026-10-21T15:00Z）以降の抽出でだけ全文を渡す。それより前のバッチは従来の 120,000 文字で再現される。
+全文を使う回では、続編のある資料の「第2部以降から始まるレコード」だけを対象にし、次は推測せず除外する:
+第1部から始まるレコード（公開済み）、他の資料のレコード（公開済みの再出力）、ID 重複、
+このバッチ直前の公開状態（来歴の先行バッチから再構成）または同じ回の他レコードと同名・同期間で衝突するもの、全文で例外を出した抽出器の資料。
+
+既存の抽出器を全文で再実行した第10バッチで、59 自治体に 6,744 レコードを追記（合計 397 自治体・73,758 レコード）。
+多いのは大崎市 1,336、品川区 917、南国市 722、西宮市 551、足立区 517、横浜市 468。資料別は `supplement-extraction-audit-batch10.json`。

@@ -1,6 +1,6 @@
 import { fetchBoundedBytes } from './boundedFetch';
 import { safeEvidenceUrl } from './evaluationEvidence';
-import type { DocumentText, EvidenceIndex, EvidenceSource, IndexEntry, MunicipalityEvidence, OfficialLink } from '@/types/evaluationEvidence';
+import type { DocumentText, DocumentTextContinuation, EvidenceIndex, EvidenceSource, IndexEntry, MunicipalityEvidence, OfficialLink, TextContinuationRef } from '@/types/evaluationEvidence';
 
 const MAX_INDEX_BYTES = 8 * 1024 * 1024;
 const MAX_CITY_BYTES = 4 * 1024 * 1024;
@@ -78,6 +78,23 @@ function acquisitionOrigin(v: Record<string, unknown>): boolean {
     : v.method === 'archive_member' && hash(v.containerSha256) && named(v.memberPath) && count(v.memberIndex);
 }
 
+/** Optional split full text: parts 2..n follow part 1 contiguously and add up to text.characters. */
+function continuations(v: Record<string, unknown>, text: Record<string, unknown>): boolean {
+  if (text.fullTextSha256 === undefined && text.continuations === undefined) return true;
+  if (!hash(text.fullTextSha256) || !Array.isArray(text.continuations) || text.continuations.length === 0
+    || text.status !== 'available' || text.truncated !== true || !count(text.exportedCharacters) || !count(text.characters)) return false;
+  let start = text.exportedCharacters;
+  for (let i = 0; i < text.continuations.length; i += 1) {
+    const part: unknown = text.continuations[i];
+    if (!record(part) || part.part !== i + 2 || part.assetPath !== `documents/${v.id}-${i + 2}.json`
+      || !count(part.assetBytes) || part.assetBytes < 1 || part.assetBytes > MAX_TEXT_BYTES || !hash(part.assetSha256)
+      || part.startCharacter !== start || !count(part.exportedCharacters) || part.exportedCharacters < 1
+      || part.exportedCharacters > MAX_TEXT_CHARACTERS || !hash(part.textSha256)) return false;
+    start += part.exportedCharacters;
+  }
+  return start === text.characters;
+}
+
 function sourceRecord(v: unknown): v is EvidenceSource {
   if (!record(v) || !validId(v.id) || !url(v.url) || !named(v.title) || !named(v.format)
     || !oneOf(v.titleBasis, ['html_title', 'official_link_label', 'inventory_title', 'source_filename'])
@@ -97,6 +114,7 @@ function sourceRecord(v: unknown): v is EvidenceSource {
     || !count(v.text.characters) || !count(v.text.exportedCharacters) || v.text.exportedCharacters > MAX_TEXT_CHARACTERS
     || v.text.exportedCharacters > v.text.characters || typeof v.text.truncated !== 'boolean'
     || !nullableHash(v.text.textSha256) || !nullableHash(v.text.inputTextSha256) || !nullableString(v.text.extractionMethod)
+    || !continuations(v, v.text)
     || !Array.isArray(v.years) || v.years.some((y) => !record(y) || !named(y.label)
       || !count(y.calendarYear) || y.calendarYear < 1868 || y.calendarYear > 2200
       || !oneOf(y.meaning, ['evaluation_year', 'fiscal_year_mentioned', 'calendar_year_mentioned', 'unknown'])
@@ -210,11 +228,33 @@ export async function validateDocumentText(bytes: ArrayBuffer, municipalityCode:
   notAborted(signal);
   return { data: value as unknown as DocumentText, integrity };
 }
+function continuationRef(municipalityCode: string, source: EvidenceSource, part: number): TextContinuationRef | null {
+  if (!CODE.test(municipalityCode) || !sourceRecord(source) || source.text.status !== 'available') return null;
+  return source.text.continuations?.find((item) => item.part === part) ?? null;
+}
+export async function validateTextContinuation(bytes: ArrayBuffer, municipalityCode: string, source: EvidenceSource, part: number, signal: AbortSignal, subtle: SubtleCrypto | null = globalThis.crypto?.subtle ?? null): Promise<LoadedEvidence<DocumentTextContinuation>> {
+  const ref = continuationRef(municipalityCode, source, part);
+  if (!ref) throw invalid('続きのテキスト配信先');
+  const integrity = await verify(bytes, ref.assetBytes, ref.assetSha256, signal, subtle);
+  const value = json(bytes);
+  if (!record(value) || value.schemaVersion !== 1 || value.label !== 'unstructured_source_text_continuation'
+    || value.municipalityCode !== municipalityCode || value.sourceId !== source.id || value.sourceUrl !== source.url
+    || value.sourceSha256 !== source.acquisition.sourceSha256 || value.fullTextSha256 !== source.text.fullTextSha256
+    || value.part !== ref.part || value.startCharacter !== ref.startCharacter || value.exportedCharacters !== ref.exportedCharacters
+    || value.textSha256 !== ref.textSha256 || !string(value.text) || Array.from(value.text).length !== ref.exportedCharacters) throw invalid('続きのテキスト');
+  if (subtle) {
+    const textBytes = new TextEncoder().encode(value.text).buffer;
+    await verify(textBytes, textBytes.byteLength, ref.textSha256, signal, subtle);
+  }
+  notAborted(signal);
+  return { data: value as unknown as DocumentTextContinuation, integrity };
+}
 
-/** Two independently bounded LRU caches. Only validated results are cached, never errors or aborted reads. */
+/** Independently bounded LRU caches (cities, first parts, continuation parts). Only validated results are cached, never errors or aborted reads. */
 export function createEvidenceLoader(options: { fetcher?: typeof fetch; subtle?: SubtleCrypto | null; maxEntries?: number; maxBytes?: number } = {}) {
   const cities = new Map<string, { value: LoadedEvidence<MunicipalityEvidence>; bytes: number }>();
   const texts = new Map<string, { value: LoadedEvidence<DocumentText>; bytes: number }>();
+  const parts = new Map<string, { value: LoadedEvidence<DocumentTextContinuation>; bytes: number }>();
   const subtle = () => options.subtle === undefined ? globalThis.crypto?.subtle ?? null : options.subtle;
   async function cached<T>(cache: Map<string, { value: T; bytes: number }>, key: string, path: string, size: number,
     signal: AbortSignal, reload: boolean, validate: (bytes: ArrayBuffer) => Promise<T>): Promise<T> {
@@ -233,7 +273,7 @@ export function createEvidenceLoader(options: { fetcher?: typeof fetch; subtle?:
     return value;
   }
   return {
-    clear() { cities.clear(); texts.clear(); },
+    clear() { cities.clear(); texts.clear(); parts.clear(); },
     loadMunicipality(entry: IndexEntry, signal: AbortSignal, reload = false) {
       if (!cityDescriptor(entry)) return Promise.reject(invalid('自治体配信先'));
       const key = JSON.stringify(entry);
@@ -245,6 +285,13 @@ export function createEvidenceLoader(options: { fetcher?: typeof fetch; subtle?:
       const key = JSON.stringify([code, source]);
       return cached(texts, key, `evaluation-evidence/${source.text.assetPath}`, source.text.assetBytes, signal, reload,
         (bytes) => validateDocumentText(bytes, code, source, signal, subtle()));
+    },
+    loadTextContinuation(code: string, source: EvidenceSource, part: number, signal: AbortSignal, reload = false) {
+      const ref = continuationRef(code, source, part);
+      if (!ref) return Promise.reject(invalid('続きのテキスト配信先'));
+      const key = JSON.stringify([code, source, part]);
+      return cached(parts, key, `evaluation-evidence/${ref.assetPath}`, ref.assetBytes, signal, reload,
+        (bytes) => validateTextContinuation(bytes, code, source, part, signal, subtle()));
     },
   };
 }

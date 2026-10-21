@@ -7,7 +7,7 @@ import { createEvaluationRequest, createEvaluationShardLoader, loadEvaluationInd
 import { createEvidenceLoader, loadEvidenceIndex, type LoadedEvidence } from '@/lib/evaluationEvidenceLoader';
 import { sourceAcquisitionLabel, DISCOVERY_LABELS, EVIDENCE_LABELS, EVALUATION_TYPE_LABELS, ROLE_LABELS, TEXT_LABELS, YEAR_LABELS, evidenceHref, findTextMatches, readEvidenceSelection, safeEvidenceUrl, searchEvidenceMunicipalities } from '@/lib/evaluationEvidence';
 import { formatEvaluationTimestamp } from '@/lib/evaluations';
-import type { DocumentText, EvidenceIndex, EvidenceSource, IndexEntry, MunicipalityEvidence, OfficialLink } from '@/types/evaluationEvidence';
+import type { DocumentText, DocumentTextContinuation, EvidenceIndex, EvidenceSource, IndexEntry, MunicipalityEvidence, OfficialLink } from '@/types/evaluationEvidence';
 import { MunicipalityEvaluations } from './NormalizedEvaluationDetails';
 
 type Loader = ReturnType<typeof createEvidenceLoader>;
@@ -37,28 +37,59 @@ function AcquiredText({ code, source, loader }: { code: string; source: Evidence
   const [load, setLoad] = useState<EvaluationLoadState<LoadedEvidence<DocumentText>>>({ status: 'loading' });
   const [request] = useState(() => createEvaluationRequest<LoadedEvidence<DocumentText>>());
   const [retry, setRetry] = useState(0);
+  const [parts, setParts] = useState<DocumentTextContinuation[]>([]);
+  const [partLoad, setPartLoad] = useState<{ status: 'idle' | 'loading' } | { status: 'error'; message: string }>({ status: 'idle' });
+  const [partRequest] = useState(() => createEvaluationRequest<LoadedEvidence<DocumentTextContinuation>>());
+  const cancelPart = useRef<(() => void) | null>(null);
   useEffect(() => request.run((signal) => loader.loadText(code, source, signal, retry > 0), setLoad), [code, source, loader, request, retry]);
+  useEffect(() => () => cancelPart.current?.(), []);
   const document = load.status === 'ready' ? load.value.data : null;
+  const total = source.text.continuations ?? [];
+  const next = total[parts.length];
+  const loadNext = (reload: boolean) => {
+    if (!next) return;
+    const part = next.part;
+    cancelPart.current = partRequest.run((signal) => loader.loadTextContinuation(code, source, part, signal, reload), (state) => {
+      if (state.status !== 'ready') { setPartLoad(state.status === 'error' ? state : { status: 'loading' }); return; }
+      setParts((loaded) => loaded.length === part - 2 ? [...loaded, state.value.data] : loaded);
+      setPartLoad({ status: 'idle' });
+    });
+  };
+  const more = next && <div className="evaluation-text-continuation">
+    {partLoad.status === 'loading' && <p role="status">第{next.part}部のテキストを読み込んでいます…</p>}
+    {partLoad.status === 'error' ? <Failure message={partLoad.message} retry={() => loadNext(true)} label={`第${next.part}部を再読み込み`} />
+      : <button className="evaluation-button" disabled={!document || partLoad.status === 'loading'} onClick={() => loadNext(false)}>続きを読み込む（第{next.part}部／全{total.length + 1}部、全{source.text.characters.toLocaleString()}文字）</button>}
+    {!document && <p className="evaluation-muted">第1部の読み込み後に、続きを読み込めます。</p>}
+  </div>;
   return <section className="evaluation-text-reader" aria-label="取得テキストの閲覧と検索">
     <h4>取得テキスト（未構造化）</h4>
     <p className="evaluation-muted">原資料から文字を抽出できた範囲のみを表示します。画像内の文字や図表は欠落する場合があります。表の列順や改行は原資料と異なることがあります。金額・指標・評価としての構造化や検証を保証しません。</p>
     {source.role === 'evaluation_landing_page' && <p className="evaluation-warning-list">これは案内・索引ページのテキストです。リンク先の評価報告書の本文ではありません。</p>}
     {load.status === 'loading' && <p role="status">この資料のテキストを読み込んでいます…</p>}
     {load.status === 'error' && <Failure message={load.message} retry={() => setRetry((v) => v + 1)} label="テキストを再読み込み" />}
-    {document && load.status === 'ready' && <EvidenceDocumentText document={document} integrity={load.value.integrity} />}
+    {document && load.status === 'ready' ? <EvidenceDocumentText document={document} integrity={load.value.integrity} continuations={parts} totalParts={total.length + 1}>{more}</EvidenceDocumentText> : more}
   </section>;
 }
 
 /** Plain-text presentation is kept independent of fetching for deterministic rendering tests. */
-export function EvidenceDocumentText({ document, integrity }: { document: DocumentText; integrity: LoadedEvidence<unknown>['integrity'] }) {
+export function EvidenceDocumentText({ document, integrity, continuations = [], totalParts = 1, children }: { document: DocumentText; integrity: LoadedEvidence<unknown>['integrity']; continuations?: DocumentTextContinuation[]; totalParts?: number; children?: React.ReactNode }) {
   const [query, setQuery] = useState('');
-  const matches = useMemo(() => findTextMatches(document.text, query), [document.text, query]);
+  const text = useMemo(() => document.text + continuations.map((part) => part.text).join(''), [document.text, continuations]);
+  const matches = useMemo(() => findTextMatches(text, query), [text, query]);
+  const split = totalParts > 1;
+  const loadedParts = 1 + continuations.length;
+  const complete = split ? loadedParts >= totalParts : !document.truncated;
+  const loadedCharacters = document.exportedCharacters + continuations.reduce((sum, part) => sum + part.exportedCharacters, 0);
   return <>
       <IntegrityNote integrity={integrity} />
-      <p className={document.truncated ? 'evaluation-warning-list' : 'evaluation-muted'}>{document.exportedCharacters.toLocaleString()}文字を収録{document.truncated ? `（抽出全${document.characters.toLocaleString()}文字の一部）。配信上限による省略があります。続きは原資料で確認してください。` : '。'}</p>
+      {split
+        ? <p className={complete ? 'evaluation-muted' : 'evaluation-warning-list'}>全文{document.characters.toLocaleString()}文字を{totalParts}部に分けて配信。第{loadedParts}部まで読み込み済み（{loadedCharacters.toLocaleString()}文字）。{complete ? '全文を読み込みました。' : '続きは本文の下の「続きを読み込む」で読み込めます。'}</p>
+        : <p className={document.truncated ? 'evaluation-warning-list' : 'evaluation-muted'}>{document.exportedCharacters.toLocaleString()}文字を収録{document.truncated ? `（抽出全${document.characters.toLocaleString()}文字の一部）。配信上限による省略があります。続きは原資料で確認してください。` : '。'}</p>}
       <label className="evaluation-text-search">この資料の取得テキスト内を検索<input type="search" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="例：子育て、評価、実績" /></label>
-      {query.trim() && <div className="evaluation-text-matches" role="status"><p>{matches.count.toLocaleString()}箇所が一致{matches.count > matches.snippets.length && `（先頭${matches.snippets.length}箇所を表示）`}。{document.truncated && '省略された範囲は検索しません。'}</p><ol>{matches.snippets.map((snippet, i) => <li key={i}>{snippet}</li>)}</ol></div>}
-      <pre className="evaluation-raw-text evaluation-document-text" tabIndex={0} aria-label="取得テキスト">{document.text}</pre>
+      {split && <p className="evaluation-muted">読み込み済みの範囲を検索しています（第1〜{loadedParts}部）。{!complete && '未読み込みの部分は検索しません。'}</p>}
+      {query.trim() && <div className="evaluation-text-matches" role="status"><p>{matches.count.toLocaleString()}箇所が一致{matches.count > matches.snippets.length && `（先頭${matches.snippets.length}箇所を表示）`}。{split ? !complete && '読み込み済みの範囲だけを検索しています。' : document.truncated && '省略された範囲は検索しません。'}</p><ol>{matches.snippets.map((snippet, i) => <li key={i}>{snippet}</li>)}</ol></div>}
+      <pre className="evaluation-raw-text evaluation-document-text" tabIndex={0} aria-label="取得テキスト">{text}</pre>
+      {children}
       <p className="evaluation-muted">この画面の検索対象は、選択した資料の配信済みテキストだけです。</p>
   </>;
 }
@@ -115,7 +146,7 @@ function MunicipalitySources({ entry, sourceId, loader }: { entry: IndexEntry; s
         {!matches.length && <div className="evaluation-state"><h4>{data.sources.length ? '条件に一致する資料がありません' : '表示できる資料の記録はありません'}</h4><p>評価の未実施・未公開とは判断していません。上の探索状況と公式サイト案内を確認してください。</p>{(query || onlyText) && <button className="evaluation-text-button" onClick={() => { setQuery(''); setOnlyText(false); }}>資料の条件をリセット</button>}</div>}
         <div className="evaluation-source-list">{matches.slice(0, limit).map((source) => <article key={source.id} className={`evaluation-source-card${source.id === sourceId ? ' evaluation-source-card-selected' : ''}`}>
           <div className="evaluation-card-title"><h4><Link href={evidenceHref(entry.municipalityCode, source.id)} scroll={false} aria-current={source.id === sourceId ? 'true' : undefined}>{source.title}</Link></h4><span className="evaluation-badge">{ROLE_LABELS[source.role]}</span></div>
-          <p className="evaluation-source-meta"><span>{source.format.toUpperCase()}</span><span>{EVALUATION_TYPE_LABELS[source.evaluationType]}</span><span>{sourceAcquisitionLabel(source)}</span><span className={`evaluation-badge${source.text.status === 'available' ? ' evaluation-badge-ok' : ''}`}>{TEXT_LABELS[source.text.status]}</span>{source.text.truncated && <span className="evaluation-badge evaluation-badge-partial">テキストは一部省略</span>}</p>
+          <p className="evaluation-source-meta"><span>{source.format.toUpperCase()}</span><span>{EVALUATION_TYPE_LABELS[source.evaluationType]}</span><span>{sourceAcquisitionLabel(source)}</span><span className={`evaluation-badge${source.text.status === 'available' ? ' evaluation-badge-ok' : ''}`}>{TEXT_LABELS[source.text.status]}</span>{source.text.truncated && <span className="evaluation-badge evaluation-badge-partial">{source.text.continuations ? `全文を${source.text.continuations.length + 1}部に分けて配信` : 'テキストは一部省略'}</span>}</p>
           <YearLabels source={source} />
           {source.verification.status !== 'verified' && <p className="evaluation-warning-text">{source.verification.status === 'official_host_only' ? '公式ホストのみ確認済み。評価資料としての関連性は未確認です。' : '出典・関連性の確認待ち候補です。'}</p>}
           {source.text.preview && <p className="evaluation-source-preview">{source.text.preview}</p>}

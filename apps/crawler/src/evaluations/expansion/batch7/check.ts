@@ -7,6 +7,7 @@ import { mergeSupplementalDataset } from '../../supplemental-integration';
 import type { EvaluationDataset, ProjectEvaluation } from '../../../../../web/src/types/evaluation';
 import type { MunicipalityEvidence, DocumentText } from '../../../../../web/src/types/evaluationEvidence';
 import type { CachedInput } from '../shared';
+import { fullText } from '../fulltext';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '../../../../../..');
 const args = process.argv.slice(2);
@@ -33,8 +34,10 @@ for (const code of codes) {
   for (const source of muni.sources) {
     if (source.text.status !== 'available' || !['pdf', 'html'].includes(source.format)) continue;
     const doc: DocumentText = JSON.parse(await readFile(join(base, source.text.assetPath!), 'utf8'));
+    // New batches are generated after FULLTEXT_SINCE, so the dry run sees continuation parts too.
+    const whole = await fullText(base, source, doc.text);
     inputs.push({ municipalityCode: code, municipalityName: row.municipalityName, sourceId: source.id, sourceUrl: source.url, sourcePageUrl: source.url,
-      sourceSha256: doc.sourceSha256, fetchedAt: source.acquisition.fetchedAt!, format: source.format as 'pdf' | 'html', text: doc.text, truncated: doc.truncated });
+      sourceSha256: doc.sourceSha256, fetchedAt: source.acquisition.fetchedAt!, format: source.format as 'pdf' | 'html', text: whole.text, truncated: !whole.complete });
   }
   inputs.sort((a, b) => a.sourceId.localeCompare(b.sourceId));
   const projects: ProjectEvaluation[] = [], ids = new Set<string>(), problems: string[] = [];

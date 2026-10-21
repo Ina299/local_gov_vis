@@ -2273,6 +2273,7 @@ a.text-button {
 .evaluation-empty-inline { padding: 16px 0; color: #536879; font-size: .88rem; }
 .evaluation-button { border: 1px solid #125d86; border-radius: 6px; padding: 10px 16px; margin-top: 12px; color: #fff; background: #125d86; font: inherit; font-size: .85rem; cursor: pointer; min-height: 44px; }
 .evaluation-button:hover { background: #084666; }
+.evaluation-button:disabled { opacity: .55; cursor: not-allowed; background: #125d86; }
 .evaluation-more { display: block; margin: 20px auto 0; }
 .evaluation-footer { margin-top: 30px; padding-top: 20px; border-top: 1px solid #d1dce5; color: #536879; font-size: .8rem; }
 .evaluation-footer p + p { margin-top: 6px; }
@@ -2343,6 +2344,8 @@ a.text-button {
 .evaluation-text-search { display: grid; gap: 8px; font-size: .9rem; font-weight: 600; margin: 18px 0 12px; }
 .evaluation-text-search input { width: 100%; min-height: 44px; padding: 10px 12px; font: inherit; font-weight: 400; border: 1px solid #a9bac7; border-radius: 6px; }
 .evaluation-document-text { max-height: min(65vh, 650px); line-height: 1.8; font-size: .9rem; }
+.evaluation-text-continuation { display: grid; justify-items: start; gap: 8px; margin: 12px 0; }
+.evaluation-text-continuation button { white-space: normal; text-align: left; }
 .evaluation-text-matches { border: 1px solid #e2cea3; background: #fff9e9; padding: 12px 16px; margin-bottom: 14px; font-size: .85rem; }
 .evaluation-text-matches ol { padding-left: 22px; max-height: 400px; overflow: auto; }
 .evaluation-text-matches li { white-space: pre-wrap; margin-top: 12px; }

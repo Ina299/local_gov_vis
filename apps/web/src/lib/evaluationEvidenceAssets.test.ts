@@ -1,7 +1,7 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { webcrypto } from 'node:crypto';
 import { describe, expect, it } from 'vitest';
-import { parseEvidenceIndex, validateDocumentText, validateMunicipalityEvidence } from './evaluationEvidenceLoader';
+import { parseEvidenceIndex, validateDocumentText, validateMunicipalityEvidence, validateTextContinuation } from './evaluationEvidenceLoader';
 import { parseEvaluationIndex } from './evaluationLoader';
 import { searchEvidenceMunicipalities } from './evaluationEvidence';
 
@@ -9,10 +9,11 @@ const root = new URL('../../public/evaluation-evidence/', import.meta.url);
 const read = (path: string) => readFileSync(new URL(path, root));
 const index = parseEvidenceIndex(JSON.parse(read('index.json').toString('utf8')));
 const subtle = webcrypto.subtle as unknown as SubtleCrypto;
+const textDigest = async (text: string) => Array.from(new Uint8Array(await subtle.digest('SHA-256', new TextEncoder().encode(text))), (b) => b.toString(16).padStart(2, '0')).join('');
 
 describe('all published evidence assets', () => {
   it('binds all 1,741 cities and every readable document to hashes, identities, counts and exact local paths', async () => {
-    const documentIds = new Set<string>(); let readable = 0; let substantive = 0; let truncated = 0;
+    const documentIds = new Set<string>(); const documentFiles: string[] = []; let readable = 0; let substantive = 0; let truncated = 0;
     const normalized = parseEvaluationIndex(JSON.parse(readFileSync(new URL('../../public/evaluations-index.json', import.meta.url), 'utf8')));
     expect(index.municipalities.map((e) => e.municipalityCode).sort()).toEqual(normalized.municipalities.map((e) => e.municipalityCode).sort());
     const normalizedCodes = new Set(normalized.municipalities.filter((e) => e.dataStatus === 'primary_available').map((e) => e.municipalityCode));
@@ -23,15 +24,22 @@ describe('all published evidence assets', () => {
       if (entry.textDocumentCount && !normalizedCodes.has(entry.municipalityCode)) readableBeyondNormalized += 1;
       for (const source of city.data.sources) {
         if (source.text.status !== 'available') continue;
-        expect(documentIds.has(source.id)).toBe(false); documentIds.add(source.id);
+        expect(documentIds.has(source.id)).toBe(false); documentIds.add(source.id); documentFiles.push(`${source.id}.json`);
         const text = await validateDocumentText(new Uint8Array(read(source.text.assetPath!)).buffer, entry.municipalityCode, source, new AbortController().signal, subtle);
         expect(text.integrity).toBe('sha256_verified');
+        let fullText = text.data.text;
+        for (const part of source.text.continuations ?? []) {
+          const continuation = await validateTextContinuation(new Uint8Array(read(part.assetPath)).buffer, entry.municipalityCode, source, part.part, new AbortController().signal, subtle);
+          expect(continuation.integrity).toBe('sha256_verified');
+          fullText += continuation.data.text; documentFiles.push(part.assetPath.slice('documents/'.length));
+        }
+        if (source.text.fullTextSha256) expect(await textDigest(fullText)).toBe(source.text.fullTextSha256);
         readable += 1; substantive += Number(source.role === 'evaluation_document'); truncated += Number(text.data.truncated);
       }
     }
     expect(readable).toBe(index.counts.textDocuments); expect(substantive).toBe(index.counts.substantiveEvaluationTextDocuments); expect(truncated).toBe(index.counts.truncatedTextDocuments);
     expect(readableBeyondNormalized).toBeGreaterThan(100);
-    expect(readdirSync(new URL('documents/', root)).sort()).toEqual(Array.from(documentIds).map((id) => `${id}.json`).sort());
+    expect(readdirSync(new URL('documents/', root)).sort()).toEqual(documentFiles.sort());
     expect(readdirSync(new URL('municipalities/', root))).toHaveLength(1741);
   }, 60_000);
   it('keeps same-name cities separate, retains readable-only cases and excludes known wrong-city sources', async () => {

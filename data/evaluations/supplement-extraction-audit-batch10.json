@@ -1,0 +1,1395 @@
+{
+  "generatedAt": "2026-10-21T15:00:00.000Z",
+  "offlineOnly": true,
+  "municipalities": [
+    {
+      "code": "01224",
+      "candidateRecords": 126,
+      "sha256": "c3620c59849a53c9b293cf3c7f01e157f419d9b9d77bef7b45c8858fb7abee78",
+      "bytes": 879153,
+      "documents": [
+        {
+          "sourceId": "2e21fbf07a47e243fe8ab07a",
+          "sourceUrl": "https://www.city.chitose.lg.jp/_res/projects/default_project/_page_/001/005/751/__6____________.pdf",
+          "sourceSha256": "a9084168613735e5c2be6e9d9b6bdd5916890d35c3b209b7501a844fd18d535d",
+          "textSha256": "1c7505ed96e9dbb91a2a2609fdb32826b75d586d0131b6ea42523ed5e173636d",
+          "records": 126,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "01229",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": []
+    },
+    {
+      "code": "01230",
+      "candidateRecords": 130,
+      "sha256": "53274d1b971d5fdfdd6a3444abea97ccf68129eb2dfab3a1d3f0df8c4ac9c355",
+      "bytes": 810450,
+      "documents": [
+        {
+          "sourceId": "0875a19a422893b10f8dddcf",
+          "sourceUrl": "https://www.city.noboribetsu.lg.jp/docs/2026040600015/file_contents/R71syou.pdf",
+          "sourceSha256": "881537ceff5989425b951896f8e24b184e608e87076f9966862b0e8f4e50129f",
+          "textSha256": "592f9de935e7f8a5d232c94ddf10548eaa41736757add25ea97da49bbd360c09",
+          "records": 99,
+          "truncated": false
+        },
+        {
+          "sourceId": "0f4befd09e7ad2780f5f06b3",
+          "sourceUrl": "https://www.city.noboribetsu.lg.jp/docs/2026040600015/file_contents/R72syou.pdf",
+          "sourceSha256": "f4ce5727b732a4e1d47e21704b92b2e683b19c179e0b5b61320e1d725850f91b",
+          "textSha256": "4dc64950cab594a14188255012a538c99d0daeb193ad88850a70cac9fa5dea6f",
+          "records": 10,
+          "truncated": false
+        },
+        {
+          "sourceId": "23d731d5a6a96334f03e858e",
+          "sourceUrl": "https://www.city.noboribetsu.lg.jp/docs/2026040600015/file_contents/R75syou.pdf",
+          "sourceSha256": "7727addde1ac35d98161f63de2625c2570c9682705559ba3da565ac249f37644",
+          "textSha256": "fad15d9ba3e869490631ce470aaae4ec3f27c669b3a17ca1a765d9f44874b70b",
+          "records": 21,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "01332",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": []
+    },
+    {
+      "code": "01334",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": []
+    },
+    {
+      "code": "01543",
+      "candidateRecords": 49,
+      "sha256": "748fb4d468375161bf35273f8b857e369486bb75a3a7623a9411e36a3c4b4062",
+      "bytes": 374090,
+      "documents": [
+        {
+          "sourceId": "03a47d0d7d516fbc314db460",
+          "sourceUrl": "https://www.town.bihoro.hokkaido.jp/uploaded/attachment/9387.pdf",
+          "sourceSha256": "c2f9f8000890ff029682528a590f9451db688f68bf3cd273f81cc0407ea7769e",
+          "textSha256": "21b6281c0124acd9094ea6980d07871d1e63afff66fed34687693e8210196840",
+          "records": 27,
+          "truncated": false
+        },
+        {
+          "sourceId": "4c7c6ad586ee621d3b051d43",
+          "sourceUrl": "https://www.town.bihoro.hokkaido.jp/uploaded/attachment/3932.pdf",
+          "sourceSha256": "0cd7bc6b0fc60eb4316a3ba81da4ec42b512b70671e737acf9e900b58e0eb3af",
+          "textSha256": "3d887af60cdea15749b5c650000f10cf17446b2f958de7f000b85f03c9be158f",
+          "records": 4,
+          "truncated": false
+        },
+        {
+          "sourceId": "a5274c9aca533e54ba8c968a",
+          "sourceUrl": "https://www.town.bihoro.hokkaido.jp/uploaded/attachment/3922.pdf",
+          "sourceSha256": "8c9fe4290d612678dcb9e67ec3b0ef7c05fb719c388a807900ada237e5e877d5",
+          "textSha256": "6eeb86b3927a9e4c97f947f184f9f151b5d308eb27da68280b0a5e02310eeb97",
+          "records": 18,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "02201",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": []
+    },
+    {
+      "code": "03203",
+      "candidateRecords": 64,
+      "sha256": "408b7147cc5372577f31e2c70ec9609a342ff86c3e7877cd21f6e75db7f9516d",
+      "bytes": 940565,
+      "documents": [
+        {
+          "sourceId": "6fac251a0a870e78d8fc0fe9",
+          "sourceUrl": "https://www.city.ofunato.iwate.jp/uploads/contents/archive_0000005749_00/事務事業評価シート（大綱No.6）.pdf",
+          "sourceSha256": "0dddcb396c0cbc425a575db36f0a368cd3025430f17d5efa2b80b992709a0c0d",
+          "textSha256": "e23f52eee4db6dbdc3db1dbb4dd27a4b720e1abeb5c9c3d0555ec22cec5cf236",
+          "records": 8,
+          "truncated": false
+        },
+        {
+          "sourceId": "a05b8cda92d79dc54a8aef32",
+          "sourceUrl": "https://www.city.ofunato.iwate.jp/uploads/contents/archive_0000005749_00/事務事業評価シート（大綱No.7）.pdf",
+          "sourceSha256": "b5e468cb49abb0730b62052d298a07a3a4068ac889fe157e2e4a304f48c338aa",
+          "textSha256": "14acc29fd6aa7ed69ff86337eff847af34c547f481472b944bae3c01e32a2abc",
+          "records": 18,
+          "truncated": false
+        },
+        {
+          "sourceId": "ab41e8eb88c4c215d8648bb5",
+          "sourceUrl": "https://www.city.ofunato.iwate.jp/uploads/contents/archive_0000005749_00/事務事業評価シート（大綱No.3）.pdf",
+          "sourceSha256": "79d4426ad707056fe8d3448a5878494251df1f8710f0937456fc8ed0f69d86d8",
+          "textSha256": "b8e6e702f0c781cb4663b443560abdbbb34f1583a8464ba3082aa7533f23179b",
+          "records": 19,
+          "truncated": false
+        },
+        {
+          "sourceId": "f95d15fbcbd12eb9e3fd104c",
+          "sourceUrl": "https://www.city.ofunato.iwate.jp/uploads/contents/archive_0000005749_00/事務事業評価シート（大綱No.4）.pdf",
+          "sourceSha256": "7022b6edc56841e652e54861fff60081e6cb5a3ed4481129ccce8955efb58b98",
+          "textSha256": "62dc2ef9cd89834758df7a2c8d52813e1f97cd3be5c1a04030f12d79f95e2341",
+          "records": 19,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "03206",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": []
+    },
+    {
+      "code": "03216",
+      "candidateRecords": 260,
+      "sha256": "fd3b2422041dafc738fe84fbd0ad0200fc8f91978a60fb57b99ca6630c664527",
+      "bytes": 723998,
+      "documents": [
+        {
+          "sourceId": "338d3fc592b4a0bf28acdbce",
+          "sourceUrl": "https://www.city.takizawa.iwate.jp/uploads/public/pages_0000000202_00/R6評価/【最終】【８月１８日】令和６年度事業実績報告書.pdf",
+          "sourceSha256": "1d333b1a4259a119b08e5bc5d57671a4223c363eb4628e651819ac09dd715a74",
+          "textSha256": "f643140ecb348c57fa93d2b2b62c2825dcdf5c50c5598695da5627d50356edbc",
+          "records": 128,
+          "truncated": false
+        },
+        {
+          "sourceId": "8a8802e89798e8a251042e77",
+          "sourceUrl": "https://www.city.takizawa.iwate.jp/uploads/public/pages_0000000202_00/R7関係/【8月21日版】令和７年度事業実績報告書【第６稿】.pdf",
+          "sourceSha256": "cfad487df8d6571fda915cabcbba95443dbf8ed1d87d1c1ef138957d2cd61e75",
+          "textSha256": "0ac435cc9c515e369999beadb4cbc9cb6d1823c8fd3fc3f6c20eb1dba85c9874",
+          "records": 132,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "04202",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": []
+    },
+    {
+      "code": "04215",
+      "candidateRecords": 1336,
+      "sha256": "499e1794aaa6d196ad21b8a789e0eb03b762b69142e064e378679a343115fc26",
+      "bytes": 6884338,
+      "documents": [
+        {
+          "sourceId": "0d81247af9cd5ac3c54df678",
+          "sourceUrl": "https://www.city.osaki.miyagi.jp/material/files/group/66/R4dai3karadai4.pdf",
+          "sourceSha256": "30903e4e7064e94fe348dece29db2b05e1e0fd7b2df2335b1c3d75f4c590a6de",
+          "textSha256": "9effc6a711ffe88cac8aa9f6012c0eeb1d0a79a064a15a05f2ba035c7fd8b952",
+          "records": 82,
+          "truncated": false
+        },
+        {
+          "sourceId": "122c450281cae22c778fd1ae",
+          "sourceUrl": "https://www.city.osaki.miyagi.jp/material/files/group/66/R5syuyousesakunoseika1-2.pdf",
+          "sourceSha256": "f8ecebfe545915a43940a5bda929555c1273447c138b97bc96ed8b2d76754399",
+          "textSha256": "93fc0d1c7eebca6b1a3588f32acc919c5aada146cd55aa8c284fc017715240fb",
+          "records": 59,
+          "truncated": false
+        },
+        {
+          "sourceId": "2a3c2049550f46feb343a2f7",
+          "sourceUrl": "https://www.city.osaki.miyagi.jp/material/files/group/66/R6syuyousesaku3-4-2.pdf",
+          "sourceSha256": "378b563e3b3b3e796d8678c33041ac293b633c72622d98f1003e2f7b6ccde4ff",
+          "textSha256": "bd4cf7fb0771d10e70de297272c635cdea37443dcf3fac8d1b3c142fa3273784",
+          "records": 78,
+          "truncated": false
+        },
+        {
+          "sourceId": "30a543192838ca5ba3560f47",
+          "sourceUrl": "https://www.city.osaki.miyagi.jp/material/files/group/66/R5syuyousesakunoseika5-6.pdf",
+          "sourceSha256": "e3e787d24b7f4e680bf1dff5401d9bac28675184f5ae8a2ffbe31943747a40ec",
+          "textSha256": "5ea22c94eb5c1cecbaf9cbbe5b2139d2eeaae178ba7d3574c3866db31e882d36",
+          "records": 105,
+          "truncated": false
+        },
+        {
+          "sourceId": "9c9b9b18c20f0137fa02d609",
+          "sourceUrl": "https://www.city.osaki.miyagi.jp/material/files/group/66/R4dai5karadai6.pdf",
+          "sourceSha256": "fc03dd8a7875d32cb327543a719a3f76b634f4360785f46c51788c85581af18b",
+          "textSha256": "243394da6cdb17cd4140d21679a550724f008c0cca841513d2975c726fee40a0",
+          "records": 113,
+          "truncated": false
+        },
+        {
+          "sourceId": "b0886b187c71a52dbb636be7",
+          "sourceUrl": "https://www.city.osaki.miyagi.jp/material/files/group/66/R6syuyousesaku5-6-2.pdf",
+          "sourceSha256": "8e78edf71b3d0a3b79de5ed918365790ffe4b4e3983e801a64088213fc008036",
+          "textSha256": "8b01566498aa6bcadef915eb009ea797303c10a0ef7b4758b3cc401a3d7568ca",
+          "records": 98,
+          "truncated": false
+        },
+        {
+          "sourceId": "b95743cd67b79ebe13da1030",
+          "sourceUrl": "https://www.city.osaki.miyagi.jp/material/files/group/66/R5syuyousesakunoseika3-4.pdf",
+          "sourceSha256": "d897a9e2838b9584e980851e1d2905d741531b0b7007912dd26ef9ce28fc39d5",
+          "textSha256": "e4f50059cde4a2912887c4aefbb227a7591632dc1986b5b122983a448be4d6e9",
+          "records": 76,
+          "truncated": false
+        },
+        {
+          "sourceId": "bdef009111563ef074dbe735",
+          "sourceUrl": "https://www.city.osaki.miyagi.jp/material/files/group/10/seika_1-4.pdf",
+          "sourceSha256": "11df66a403bc1c19b55cc3dec4c458d16d8ed2d69fb5132b2b1c5a7c1bf68553",
+          "textSha256": "358e822b8e802d46e1d72916d96bba64aefaa4f697b6da65040c70383a0ac8bb",
+          "records": 182,
+          "truncated": false
+        },
+        {
+          "sourceId": "ca946703500d24b78153f4c8",
+          "sourceUrl": "https://www.city.osaki.miyagi.jp/material/files/group/66/R6syuyousesaku1-2.pdf",
+          "sourceSha256": "f67e27c5ebae1f35782462ca00ee10cc1189fde5bf84f5012b9793909dea6a47",
+          "textSha256": "9e9e6d5b1982dfa982852b0aa95ff61f41ce2d23a14e4301c128405a61eaad6a",
+          "records": 59,
+          "truncated": false
+        },
+        {
+          "sourceId": "d7a7c65f0ab345cb371f0dd1",
+          "sourceUrl": "https://www.city.osaki.miyagi.jp/material/files/group/10/syuyousesaku2.pdf",
+          "sourceSha256": "c59cc8960c6d1d7ae879e67fc5dd80ad4be7cf728bf366eadfae650173e52c52",
+          "textSha256": "004646e734e7b2304ca96f27f987d1f70526d8ab3e7107094aebdcc59d759500",
+          "records": 119,
+          "truncated": false
+        },
+        {
+          "sourceId": "da6b7be5995a7976797e0a90",
+          "sourceUrl": "https://www.city.osaki.miyagi.jp/material/files/group/10/syuyousesaku1.pdf",
+          "sourceSha256": "28eaa8ae8d9a579fdd5468282a88ac49c6d0b13ee8a85728d275dd91ae0797d4",
+          "textSha256": "7297ad4b3783f9764d300f62beb7ad459dbef64a28f61409a4d77a75468648f5",
+          "records": 183,
+          "truncated": false
+        },
+        {
+          "sourceId": "e67215ce27ebdad3021bcd45",
+          "sourceUrl": "https://www.city.osaki.miyagi.jp/material/files/group/66/R4dai1karadai2.pdf",
+          "sourceSha256": "a1e06515e09a89328bccc7c2d10fd5bafe7adb37faf4dcdead7c09931a6e317c",
+          "textSha256": "dabc1ab120b843d67bd828d83dbe7e77b1e803fb9bf85af561cdebc0e2283ea8",
+          "records": 59,
+          "truncated": false
+        },
+        {
+          "sourceId": "fc2f1fb72834f2ea98a925a3",
+          "sourceUrl": "https://www.city.osaki.miyagi.jp/material/files/group/10/seika_5-6.pdf",
+          "sourceSha256": "f2184d82b081f36649f69345a500f1be6da40383fa76aa96c782cdc97c12f13c",
+          "textSha256": "5e040d09cd0f8db4f75d2dba8006235e4e075d8f76390fb8ae854092567bd7d6",
+          "records": 123,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "04445",
+      "candidateRecords": 37,
+      "sha256": "17fca905d0ce548fe2ee48cad60a93b40fa2838729177410eb5ddc0ca8f23fcd",
+      "bytes": 253149,
+      "documents": [
+        {
+          "sourceId": "1ff0b4cd021043b1e5b7f58e",
+          "sourceUrl": "https://www.town.kami.miyagi.jp/material/files/group/6/20191121-101412.pdf",
+          "sourceSha256": "edb22b6228a8de4de53f26bd9958e1a8821e6c294a9c7acf715a0ce00c4e49cb",
+          "textSha256": "fe7634c2738cf022b829d7c8758ca7124ab6e65033a3256d8ff8571d4904ee97",
+          "records": 29,
+          "truncated": false
+        },
+        {
+          "sourceId": "4e27bb151cc0ba1d08f12438",
+          "sourceUrl": "https://www.town.kami.miyagi.jp/material/files/group/6/20191121-101304.pdf",
+          "sourceSha256": "7875066c32f68c86b884a33c1cb100452880357f7eb42772be1d0e196878eed3",
+          "textSha256": "256cfc393da1d761b6a766ef524a200b22d7d5ce454d60468bc09eb2114da08a",
+          "records": 8,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "05215",
+      "candidateRecords": 25,
+      "sha256": "3509faad5dcc0452a0842de6d96b03c53b029e127c4854e5e0a3b34d83498f2c",
+      "bytes": 65386,
+      "documents": [
+        {
+          "sourceId": "633888305a917977d004b39a",
+          "sourceUrl": "https://www.city.semboku.akita.jp/government/keikaku/documents/R8_hyoukassi-to_02.pdf",
+          "sourceSha256": "88e254c49b0a02c9baae2f1731f8127d6f48306caa2aecee8fd3d9edd7b5a0cd",
+          "textSha256": "ffc2a8491957fd7601fb20879a4d68481eebbc412859177c0d622f726d3805c6",
+          "records": 25,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "08203",
+      "candidateRecords": 12,
+      "sha256": "c3d5c98b3440a5ef40a5b3b74484276d6a65cf8561b75344fcb3c4c6e4976b8f",
+      "bytes": 28859,
+      "documents": [
+        {
+          "sourceId": "76481b08fb4ab5f139852cad",
+          "sourceUrl": "https://www.city.tsuchiura.lg.jp/data/doc/1664522128_doc_39_0.pdf",
+          "sourceSha256": "0ed5ee6b2d0b7f1dfefd0c01e51b93455ef58a50c15badec75ec6cce91f3de4c",
+          "textSha256": "f5d0dba33e3692806c11cb2d494a429f91da84f744a8607e0e9524cc25e04b7b",
+          "records": 12,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "08204",
+      "candidateRecords": 36,
+      "sha256": "131c16fcf9b65288e6631cf62bbd9c9dc9e9a82e6e6aa4dafde0a577d94bb799",
+      "bytes": 248168,
+      "documents": [
+        {
+          "sourceId": "4d27bd1866433c93d9985348",
+          "sourceUrl": "https://www.city.ibaraki-koga.lg.jp/material/files/group/2/R6hyouka.pdf",
+          "sourceSha256": "ab3fca0a9ce147ebf9512d5f318d307df0ae21c98471563f0a04d68678d89088",
+          "textSha256": "6d6ac02da6b5257bf3e1123a89b9631f74719044860169630594e2a3ff60734d",
+          "records": 36,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "08205",
+      "candidateRecords": 18,
+      "sha256": "0f28778bc6fd98ee83f4e371916e69759aded984774dda2e189f71b816ec7268",
+      "bytes": 224903,
+      "documents": [
+        {
+          "sourceId": "7f7635df87e847d829314076",
+          "sourceUrl": "https://www.city.ishioka.lg.jp/data/doc/1788227868_doc_17_0.pdf",
+          "sourceSha256": "c27bec4582428b13bc793cd1bb08ecb44280a5257857fa92a27c1d33bc9df46d",
+          "textSha256": "c0902494feecdd5735d1de1f628aeb9aef105a90bd615cd06628e6e284ca5079",
+          "records": 8,
+          "truncated": false
+        },
+        {
+          "sourceId": "bb6689e44e8bc5bd460f66e9",
+          "sourceUrl": "https://www.city.ishioka.lg.jp/data/doc/1788227878_doc_17_0.pdf",
+          "sourceSha256": "7f83ef4351730abecbcc73bc17890196e645dd592f205cf13a19e24ba9c50467",
+          "textSha256": "96f11258fdd0e75bcd478dce742ea800d26ab715967af1454bc29871556d0dcd",
+          "records": 10,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "08215",
+      "candidateRecords": 104,
+      "sha256": "025c9cda743565b1a3bb200559c68e7284bff7687700363a39363b8d396ecadc",
+      "bytes": 621220,
+      "documents": [
+        {
+          "sourceId": "5a6f258832f81bb9459ab547",
+          "sourceUrl": "https://www.city.kitaibaraki.lg.jp/docs/2015021000012/file_contents/R3jimujigyouhyouka.pdf",
+          "sourceSha256": "7f49705cb4004b4cc3ad3d0cf218e2e699cc0d6588d5f855d14bbdbc9d2be0e4",
+          "textSha256": "a7bd81dff038f2fbb30f4f7dbccf38b67490df536735ab139fdbad6f901bcbe0",
+          "records": 104,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "09201",
+      "candidateRecords": 1,
+      "sha256": "c238dcb9c31cbb2f20180d503b6505491fdcd754e64f03e252cce0b71301f824",
+      "bytes": 3507,
+      "documents": [
+        {
+          "sourceId": "48b97023de220d7a623a3e06",
+          "sourceUrl": "https://www.city.utsunomiya.lg.jp/_res/projects/default_project/_page_/001/042/010/02/10.pdf",
+          "sourceSha256": "8496e44d8bcaf2d174b8e1996096e1da338144ea3c4bb733c0a121c93699f22f",
+          "textSha256": "c4c291600e67dd8a8548e1d2c87167683f0e325ab745283ca7362be913996876",
+          "records": 1,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "09205",
+      "candidateRecords": 18,
+      "sha256": "49e6a249668540009a485570f0ea7dd5f60242c4cd41b049d2d04460f3f15a2d",
+      "bytes": 56666,
+      "documents": [
+        {
+          "sourceId": "0a2553628020041704435c71",
+          "sourceUrl": "https://www.city.kanuma.tochigi.jp/manage/contents/upload/R5jigyou.pdf",
+          "sourceSha256": "7e1caeae1b65c562ac22e7bab233cd348e0e2dce346854729945f138302c6c42",
+          "textSha256": "90a09d03502df18ce9cbcd003a45b37c5004761fb08962a38119fa9192c9613a",
+          "records": 18,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "10210",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": []
+    },
+    {
+      "code": "11100",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": []
+    },
+    {
+      "code": "11201",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": []
+    },
+    {
+      "code": "11203",
+      "candidateRecords": 1,
+      "sha256": "eb978890cabdec0c22472f55cd076e3321848cf7b7241ead90637d8d29169eeb",
+      "bytes": 8502,
+      "documents": [
+        {
+          "sourceId": "9aad7814d61896eca2ee3ab1",
+          "sourceUrl": "https://www.city.kawaguchi.lg.jp/material/files/group/7/R7-1-3.pdf",
+          "sourceSha256": "174ec40f824b39f9cf351d4e253acc682099681c670c38e49cc84e12c9dd9f9a",
+          "textSha256": "00af332d41d95594d26c2f18b5a67946d412ed6b1ea173dd2754621dfaa1288f",
+          "records": 1,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "11208",
+      "candidateRecords": 85,
+      "sha256": "28788ac2868833c78b55946e5388cf1c6beb0f77f3cc0939aadda7d0490ed21b",
+      "bytes": 851489,
+      "documents": [
+        {
+          "sourceId": "fb6db673deed9f276e5c00c3",
+          "sourceUrl": "https://www.city.tokorozawa.saitama.jp/shiseijoho/gyouseihyoka/hyokakeka/r8/r8jimujigyou.files/R8jimu_1_0.pdf",
+          "sourceSha256": "f2a9cd36a5d472d85746a7848c81f71a33c3d12b9573324c8a2fa9a17fdaed39",
+          "textSha256": "487a8178e8d03aa426b5599a1899c7a5f01843d0e1592d4ac58e2a92e36e0b7d",
+          "records": 85,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "11216",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": []
+    },
+    {
+      "code": "11221",
+      "candidateRecords": 177,
+      "sha256": "f12750610217756d5c9c33faccd56066af4de26ad72a66d00ca73c307728f01d",
+      "bytes": 688351,
+      "documents": [
+        {
+          "sourceId": "f6d4481d6deb21ec5676ffd8",
+          "sourceUrl": "https://www.city.soka.saitama.jp/cont/s1201/030/020/020/020/R4digest.pdf",
+          "sourceSha256": "745b0b42826886e215cf68a43dc8e8b866b766468db8ff698aa5bffd34e0bd76",
+          "textSha256": "e6c57d984a13fe4f519de46b2f5cd4e042c6468a36d38226008f8e590e32f0c6",
+          "records": 177,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "11222",
+      "candidateRecords": 69,
+      "sha256": "c7c4fcb98af271c86b3d9b1d3e8a7e8772408a0e84e33ddcab60e706f80a27c6",
+      "bytes": 730960,
+      "documents": [
+        {
+          "sourceId": "2ce5ab5ffa280dcbe6b84a0a",
+          "sourceUrl": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/shisei/gyokaikau/gyoseihyoka/hyoukakekka/jimujigyouhyoukahyou_H31_files_14.gakkoukyouikubu38.pdf",
+          "sourceSha256": "18a508b2c4b599095588713788fbd1c9d17c202463670ef74233174659093f79",
+          "textSha256": "84716ce7864ca33824d926300843b7027fc5af4bb98fe073ca288cae7a866c14",
+          "records": 3,
+          "truncated": false
+        },
+        {
+          "sourceId": "9afa09b47dd6d29a847ad4d5",
+          "sourceUrl": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/shisei/gyokaikau/gyoseihyoka/hyoukakekka/jimujigyouhyoukahyou_H31_files_05.hukusibu63.pdf",
+          "sourceSha256": "767e6a34c104923c99f6a0cade70d0ffb7a4bc7bacb9cb81a2f2acc5121f59d5",
+          "textSha256": "403a7a34ac31879c5af04476475365e6e9ab941fb150252450c0125f3c0793fb",
+          "records": 29,
+          "truncated": false
+        },
+        {
+          "sourceId": "9e768a0d5b7cf8232ce946f4",
+          "sourceUrl": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/shisei/gyokaikau/gyoseihyoka/hyoukakekka/jimujigyouhyoukahyou_H31_files_13.kyouikusoumubu36.pdf",
+          "sourceSha256": "9d718de378d06cf4fd694d25db204a6accb43a4b1128032d60db0c15fe296189",
+          "textSha256": "8620b06b40e9730f0de205b2216be746633ca9b38c4a0f1e90a3ae1fc9a91b58",
+          "records": 3,
+          "truncated": false
+        },
+        {
+          "sourceId": "a207b016256019bd592c28e5",
+          "sourceUrl": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/shisei/gyokaikau/gyoseihyoka/hyoukakekka/jimujigyouhyoukahyou_H31_files_08.kankyoukeizaibu44.pdf",
+          "sourceSha256": "93d087519ff33ec0b773a902bfc4edd1dda3a4b5593e15ccabe72af83e82b9ad",
+          "textSha256": "dceeb2569c6ba79370a30a7cd22def649265d6bec25b0c22a2f97b264fd3fe1f",
+          "records": 11,
+          "truncated": false
+        },
+        {
+          "sourceId": "adf82289d3c2414ad1b2c647",
+          "sourceUrl": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/shisei/gyokaikau/gyoseihyoka/hyoukakekka/jimujigyouhyoukahyou_H31_files_04.siminkyoudoubu39.pdf",
+          "sourceSha256": "f41a8c598586afa8946e2a41d4fcce397e30667ac8281a7961b1fc859a4bbea0",
+          "textSha256": "d4eaa2409d86acbb6b37f0d0ef02324ed9f93b15faf9b07f5ef5df13f09da426",
+          "records": 4,
+          "truncated": false
+        },
+        {
+          "sourceId": "c00d7c86232949edeac8801c",
+          "sourceUrl": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/shisei/gyokaikau/gyoseihyoka/hyoukakekka/jimujigyouhyoukahyou_H31_files_09.kensetu54.pdf",
+          "sourceSha256": "512a5804660f489483781e638508725e724cf3c9558c2c19795bfcb212db08dc",
+          "textSha256": "23dd49319a6963c151030797561829acfe1677f5a97b4896e073f769112fcfb0",
+          "records": 19,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "11224",
+      "candidateRecords": 14,
+      "sha256": "794dfe8e8926e7949dabc6e2a779347c3577259726aedfa3f51219afe72c36cd",
+      "bytes": 170044,
+      "documents": [
+        {
+          "sourceId": "cb6cec82918f902500dcceaa",
+          "sourceUrl": "https://www.city.toda.saitama.jp/uploaded/attachment/71874.pdf",
+          "sourceSha256": "27323c3850649d8c79dceddaaa3d40aecb489479e1197ec6b732fac5c729b893",
+          "textSha256": "957a2dd8339aa52a89ceeb63905f4d9b972ba37ba2b0efb5a993722a0ad40573",
+          "records": 14,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "11227",
+      "candidateRecords": 50,
+      "sha256": "96e098ab3901c82c6756e8a4ccd793a10569303ce9c7540f5529c4a2da7f67f3",
+      "bytes": 213197,
+      "documents": [
+        {
+          "sourceId": "6b3d0da78afc8f95f0eb8744",
+          "sourceUrl": "https://www.city.asaka.lg.jp/uploaded/attachment/111952.pdf",
+          "sourceSha256": "59b147208213b772ff3537c644ff98b7cab99524f42d4c38682413104abdf667",
+          "textSha256": "0e91a241ff08b2c2a4af7f370667e49f8cbe1663211991591f84ca108104a9fd",
+          "records": 6,
+          "truncated": false
+        },
+        {
+          "sourceId": "88b2cdebcd7dc33cc82cdedb",
+          "sourceUrl": "https://www.city.asaka.lg.jp/uploaded/attachment/111956.pdf",
+          "sourceSha256": "5416251a2b7485e4ce5bb15f721ce68fdad8da51abbcde7d8435d056a6cda31b",
+          "textSha256": "5480f3c433cbcf389206a9be528d4b27c25a411e08a58dc188dacb2d279226f5",
+          "records": 1,
+          "truncated": false
+        },
+        {
+          "sourceId": "ec3ea71e361e56ed697705f9",
+          "sourceUrl": "https://www.city.asaka.lg.jp/uploaded/attachment/111936.pdf",
+          "sourceSha256": "a375fd3bcf99905133c090ce8ead9d116ed8ed5cefc96953bb264b2bd1071e3e",
+          "textSha256": "e56b39c7d7e2b42d29364c9739e102422294a518c176d84ff8a525f1d3952300",
+          "records": 43,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "11229",
+      "candidateRecords": 3,
+      "sha256": "81f9869cf8ddb240b560cdcbd1ce38748cf137cf5bea717526e0159fa0c73902",
+      "bytes": 40257,
+      "documents": [
+        {
+          "sourceId": "9a5fd3a0f79f38c39b6a2bff",
+          "sourceUrl": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/013/996/r7_moku_13.pdf",
+          "sourceSha256": "0d9870ae27d6cf12a68b0bb5fa77ccd384732d8b2e935654bc79ef2afd396360",
+          "textSha256": "e44abfe097b306149343f7af37e6594081341750e02fb3a2d63226ec25e236ee",
+          "records": 3,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "11234",
+      "candidateRecords": 25,
+      "sha256": "fd9beaaf9a736564c9dc37642df9094695498bcd605ba38e08ca2f5a51e2cee0",
+      "bytes": 132194,
+      "documents": [
+        {
+          "sourceId": "10b5977870a129827ac812d1",
+          "sourceUrl": "https://www.city.yashio.lg.jp/shisei/gyosei/hyokaseido/r7-zimuzigyohyoka.files/r7-record1.pdf",
+          "sourceSha256": "bb28f4685a8f34d9d1d07c7625e269ba01d90f35109136c440e10c77ed06e784",
+          "textSha256": "747adf37e6b38b4abf123ca2702a768daf8bd56900dcb556ac88d53c44ddb714",
+          "records": 15,
+          "truncated": false
+        },
+        {
+          "sourceId": "b5739853630b00d2cd195677",
+          "sourceUrl": "https://www.city.yashio.lg.jp/shisei/gyosei/hyokaseido/r7-zimuzigyohyoka.files/r7-record5.pdf",
+          "sourceSha256": "2802c71ccaa6921c9f6a5a6423e0247da790f0584c9842cfc5fd9298c9a4411d",
+          "textSha256": "1cdf5d3d7a62f128f57dd19b32df18ab07e1ef3ed0d1ad93e3ebcdf2e39d0584",
+          "records": 4,
+          "truncated": false
+        },
+        {
+          "sourceId": "d7a7d9d5e4bfd2eac664ebdd",
+          "sourceUrl": "https://www.city.yashio.lg.jp/shisei/gyosei/hyokaseido/r7-zimuzigyohyoka.files/r7-record2.pdf",
+          "sourceSha256": "5fd615ce3de19f208a2501a643e51148f3034507e61a2d8abfc7ec7277a95c67",
+          "textSha256": "862673719ebac47bed35f25a10d82b93750d86e85536b73f0a53f2eb643a8280",
+          "records": 6,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "11361",
+      "candidateRecords": 17,
+      "sha256": "d259c936a979e24b03d8d52cfe9f60c891c3bbde4ded9f7ba60f0341cbb1207b",
+      "bytes": 108654,
+      "documents": [
+        {
+          "sourceId": "b71de834d93b080f4f64d0b2",
+          "sourceUrl": "https://www.town.yokoze.saitama.jp/wp-content/uploads/2021/02/%E8%A1%8C%E6%94%BF%E8%A9%95%E4%BE%A1%E7%B5%90%E6%9E%9C%E4%B8%80%E8%A6%A7_%E4%BB%A4%E5%92%8C2%E5%B9%B4%E5%BA%A6.pdf",
+          "sourceSha256": "328b5d75ada570d20ed49b1a424b1e5280067c931c1d734576ab3d72e8e41479",
+          "textSha256": "4ef95d9fe22fe9be624718899dece6608e29739db686fea880b0b9fb992e9f35",
+          "records": 17,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "12206",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": []
+    },
+    {
+      "code": "12218",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": [
+        {
+          "sourceId": "92d0644d2e0102a0c6841a37",
+          "error": "Evidence is not an exact source substring"
+        }
+      ]
+    },
+    {
+      "code": "12223",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": []
+    },
+    {
+      "code": "12224",
+      "candidateRecords": 30,
+      "sha256": "5814fab645721dbc7daf27a23b9647fa2a5f036b490bf7b2357c4844b04d4e81",
+      "bytes": 120839,
+      "documents": [
+        {
+          "sourceId": "135919a9eaa4b82e1ca6e974",
+          "sourceUrl": "https://www.city.kamagaya.chiba.jp/sesakumidashi/sesaku-gyouzaisei/sesaku_gyouseihyou/index.files/R7jimu-kanni-hyokajun.pdf",
+          "sourceSha256": "4614fdfba627bf421059d6eb4931e03cb6e1e4d41026b44f37ecb3b694e7f520",
+          "textSha256": "08b412b2e9c3fcd8826105587972dbfc98758d91586cafe843f9e75b6bad36d4",
+          "records": 1,
+          "truncated": false
+        },
+        {
+          "sourceId": "55b74a4b5138fc8f08e0ddee",
+          "sourceUrl": "https://www.city.kamagaya.chiba.jp/sesakumidashi/sesaku-gyouzaisei/sesaku_gyouseihyou/index.files/R7jimu-kanni-sesakujun.pdf",
+          "sourceSha256": "32b1b9b9f53e4c15859e7e22ea39a1c4a52d882f83310ce6b778b39d1dbe0ec1",
+          "textSha256": "736bdcb18121fd9079b4b75a09ec2619a51cc7baaa1a453b23685977a14f8a0a",
+          "records": 4,
+          "truncated": false
+        },
+        {
+          "sourceId": "5c1023896819ea322b436282",
+          "sourceUrl": "https://www.city.kamagaya.chiba.jp/sesakumidashi/sesaku-gyouzaisei/sesaku_gyouseihyou/index.files/R7jimu-kanni-soshikijun.pdf",
+          "sourceSha256": "323c6d17001ca45619d08d725fd5a553aa6ac8c75f1dd041f20054e154645069",
+          "textSha256": "0c8446aacc5d7ed87d4c70e31144e2d1aaf7154371bbf56e2d03e2bf0a6a5782",
+          "records": 25,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "12232",
+      "candidateRecords": 87,
+      "sha256": "95de2557b7b4b46e4b551b3eea1e4efa655476d71c40cbf77ea597f7aa77da25",
+      "bytes": 1013238,
+      "documents": [
+        {
+          "sourceId": "10f1d23f994c76bda431d205",
+          "sourceUrl": "https://www.city.shiroi.chiba.jp/material/files/group/8/H28sheet5syou.pdf",
+          "sourceSha256": "082c8b00472cb712d10ecb96e3a70ff9ed1e9b1bd7bc8d17fa67d9c5b37a91df",
+          "textSha256": "eaa68d0a3d6c737500088d7bb384f3543a97ba0d89ce933bc283a44155d375c1",
+          "records": 21,
+          "truncated": false
+        },
+        {
+          "sourceId": "112907b58dcfb875ee518de0",
+          "sourceUrl": "https://www.city.shiroi.chiba.jp/material/files/group/8/H28sheet4.pdf",
+          "sourceSha256": "5071636fa2fd33e28c30073f9917a405b9965c717bde12712ff171d1967a753e",
+          "textSha256": "89ad7f58e37cae9ed3e47ed344e80f508f24700b42072f53f350d4eb58053bf4",
+          "records": 25,
+          "truncated": false
+        },
+        {
+          "sourceId": "888618edf5bafc77311212e1",
+          "sourceUrl": "https://www.city.shiroi.chiba.jp/material/files/group/8/H28sheet2.pdf",
+          "sourceSha256": "f2bc390921c95f2bd57d2dc8e538af7b8f50799a9f79997a1ea932743517304c",
+          "textSha256": "906cc25e3d52d37917492d53be3a0b4904d01d90d13d252d38394678b57af442",
+          "records": 17,
+          "truncated": false
+        },
+        {
+          "sourceId": "ac37e3186a1d78d361e285ca",
+          "sourceUrl": "https://www.city.shiroi.chiba.jp/material/files/group/8/28hyoukasheet1.pdf",
+          "sourceSha256": "9b5151d89f6e83fdd1b2354c4dc4bf1e79cdd30646c6e48bbe834770cdd65748",
+          "textSha256": "e2dee8eb32eaefb4b638962c9e6f2fb77a0d027760548e449151e6f1e840c0ba",
+          "records": 21,
+          "truncated": false
+        },
+        {
+          "sourceId": "f2742f357ca53e7051b63d6b",
+          "sourceUrl": "https://www.city.shiroi.chiba.jp/material/files/group/8/H28sheet3pen.pdf",
+          "sourceSha256": "b0d6ecd2baec4d4ef69438400b306fce1ef3e086b9fe9ca8355ba5160ae69039",
+          "textSha256": "300606aaf939e1a88f732d10891b57880d29a8e2ce6bc967b614eebdda09d28c",
+          "records": 3,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "13101",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": []
+    },
+    {
+      "code": "13102",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": []
+    },
+    {
+      "code": "13103",
+      "candidateRecords": 6,
+      "sha256": "1da899834d605443777fefb62d5c585a6b58ba7002bec1ae7e5c16bbd06b56ec",
+      "bytes": 46660,
+      "documents": [
+        {
+          "sourceId": "334750f652b75d6cae11866b",
+          "sourceUrl": "https://www.city.minato.tokyo.jp/documents/78804/h29shougaisha.pdf",
+          "sourceSha256": "d8f62a6f58f1c56b91663c3102f353e57db5d01ccd17947e2cb4e0f229e23c00",
+          "textSha256": "042c45a5a1fbd66d21870f86ee432cfbb019e7c6421e285add43eacbdfd4326e",
+          "records": 6,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "13107",
+      "candidateRecords": 14,
+      "sha256": "146a8f86e3565a925d68e6fef9188ee016361f00800c4c755ad20a5175f8131d",
+      "bytes": 359809,
+      "documents": [
+        {
+          "sourceId": "a9dc7fd3135f668d94baca0a",
+          "sourceUrl": "https://www.city.sumida.lg.jp/kuseijoho/gyoseikaikaku_zaisei/gyousei_hyouka/r8hyouka.files/461.pdf",
+          "sourceSha256": "a4fdddea6ea5ba70f360f2fdea2c2595c84b084299ff6d20acae8d75ab0c56b0",
+          "textSha256": "ad0072a3d27ae9e095a88d826ea9aff37f4abce82fee927540b0783a159276de",
+          "records": 14,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "13108",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": []
+    },
+    {
+      "code": "13109",
+      "candidateRecords": 917,
+      "sha256": "76d05fbd1dc297c5e9b315cdbe2acb36bce43240cb242ac995cd1b80d17a8e3b",
+      "bytes": 4139049,
+      "documents": [
+        {
+          "sourceId": "9eb90ec1fb385e036522db72",
+          "sourceUrl": "https://www.city.shinagawa.tokyo.jp/_res/projects/default_project/_page_/001/005/173/20240222105532_36.pdf",
+          "sourceSha256": "4d09e0c2841be022b4504a8a670d0b76c46bcd72c0ffac369cfe0de19cdca563",
+          "textSha256": "979386f16ad6e65ea02fd2cc78dd92e1f4df58b5dee7da0e091d5f30d2187808",
+          "records": 177,
+          "truncated": false
+        },
+        {
+          "sourceId": "b49100cf98cdf4202aac746a",
+          "sourceUrl": "https://www.city.shinagawa.tokyo.jp/_res/projects/default_project/_page_/001/005/173/20240222105532_35.pdf",
+          "sourceSha256": "56b5477b9df2412fad87705e9fb7813ba82d69f18f15d950a25e999f174e4e6d",
+          "textSha256": "c876c39e98777e6a6766af6a2b918ed47e622e57b980132e07da11e27165fd7b",
+          "records": 0,
+          "truncated": false
+        },
+        {
+          "sourceId": "d4437b658bdd151b330e4187",
+          "sourceUrl": "https://www.city.shinagawa.tokyo.jp/_res/projects/default_project/_page_/001/005/181/20240222105532_15.pdf",
+          "sourceSha256": "f7600b156f71f6e18ac7c61fb338a4ffe5e97cef8a373968489fd46cdd5963c9",
+          "textSha256": "02d6dd4ca5b2fb5596fb403db490176066d2922fe90bb0ca447e0f5ca0677d68",
+          "records": 542,
+          "truncated": false
+        },
+        {
+          "sourceId": "f2f5d70c8fda693de8b66d25",
+          "sourceUrl": "https://www.city.shinagawa.tokyo.jp/_res/projects/default_project/_page_/001/005/177/20240222105532_19.pdf",
+          "sourceSha256": "1962659488e46c10ca9eb7eb364342ea4b5e84dad6430c974b74e8efe833005c",
+          "textSha256": "f6cacc9d4c52a03c51c7d48152645898dee4020cfdafbdb5e5067130bb394991",
+          "records": 198,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "13114",
+      "candidateRecords": 15,
+      "sha256": "8544b73ab7a8b93b3917993d70479e38bfce8de6a6bc67d419ff856fe1c6f3fb",
+      "bytes": 117407,
+      "documents": [
+        {
+          "sourceId": "a86e6557aff5cf3b8a9a4c41",
+          "sourceUrl": "https://www.city.tokyo-nakano.lg.jp/kusei/kousou/seido/gyousei/gyouseihyouka/r7gyouseihyouka.files/sesakunoseika.pdf",
+          "sourceSha256": "57ba2206bfa4e0f57d08757bd8dbc70beefc3b989ffa5d1bf237fc95b1d44742",
+          "textSha256": "24bccd5cb0e6b873475f9bf08b8e61a799116c1e17ee9f6f675319c9fdaf0d74",
+          "records": 15,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "13121",
+      "candidateRecords": 517,
+      "sha256": "06b33edd45d6d44cfbb407935b7b22419de45beadbc942ad0cc2d7d546da7bad",
+      "bytes": 1268892,
+      "documents": [
+        {
+          "sourceId": "4b9892130613a875d214e7da",
+          "sourceUrl": "https://www.city.adachi.tokyo.jp/documents/33844/r8jimujigyou_2.pdf",
+          "sourceSha256": "7bf56bf02cee6a99cd44a1cd5f05f8c8a5fb74b27d7f58d341d61386bdf9048a",
+          "textSha256": "a69593f980b3026b05f6344b60372f54b5b17c49487a2269434d9f63df2f9dd6",
+          "records": 189,
+          "truncated": false
+        },
+        {
+          "sourceId": "7af4dc644a50811d9b4a486f",
+          "sourceUrl": "https://www.city.adachi.tokyo.jp/documents/33844/r8jimujigyou_3.pdf",
+          "sourceSha256": "d25d3d108e0b1be2dad1b2e60e8bcba1f538315396f69e525ff7a1dde315bb0f",
+          "textSha256": "994a3cfdceb9126668c8418682a1f9b9a30477f555b0bb0f3421ee628e4c87b9",
+          "records": 178,
+          "truncated": false
+        },
+        {
+          "sourceId": "c5b821b5f73cca5e636e02a5",
+          "sourceUrl": "https://www.city.adachi.tokyo.jp/documents/33844/r8jimujigyou_1.pdf",
+          "sourceSha256": "1ad6eafaac7849ca8cab37ea1cca059f7e8914f4197c90916205fa63ab60c72b",
+          "textSha256": "3a4b20c6ddf7fd57570463f614da4d7b89c2aee66133080263eb1dbc063ae43a",
+          "records": 150,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "13218",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": []
+    },
+    {
+      "code": "13219",
+      "candidateRecords": 47,
+      "sha256": "424b2f190473d7677eeac8c26c09407290c9bbce3fa035bbff9307a802886ebf",
+      "bytes": 136231,
+      "documents": [
+        {
+          "sourceId": "bfc7dda6cd0aa4f7803eb703",
+          "sourceUrl": "https://www.city.komae.tokyo.jp/index.cfm/46,117244,c,html/117244/20260908-154115.pdf",
+          "sourceSha256": "5f62f1b5b60f1dfa5cf692f4752c43a768b5a8f2a4893afac9e96ed54f4a5d24",
+          "textSha256": "3001bff2357da913aadf1e83c454b7dbd28131e41b0b349713409cac5a91c063",
+          "records": 47,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "13223",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": []
+    },
+    {
+      "code": "13228",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": []
+    },
+    {
+      "code": "14100",
+      "candidateRecords": 468,
+      "sha256": "bd029fa4e05c26c8bc9c34ecac82fd4f8198d732fdb76600b1cdb8d226cdc073",
+      "bytes": 1692386,
+      "documents": [
+        {
+          "sourceId": "28823a151df6d17197c1a94f",
+          "sourceUrl": "https://www.city.yokohama.lg.jp/city-info/gyosei-kansa/innovation/jigyohyoka/r08/reiwa07jigyo.files/10_R8kenkoufukushi.pdf",
+          "sourceSha256": "c61c21939bbd152dbd807291b252fe847f3e0a7c54e313e2da59ab69b950ff47",
+          "textSha256": "79ef016412b55a9480422020767bf1a376f7f41a1f3ae4d5a27dd1fc4a41cdbd",
+          "records": 185,
+          "truncated": false
+        },
+        {
+          "sourceId": "a4c99e6acaf0fc3258b618c5",
+          "sourceUrl": "https://www.city.yokohama.lg.jp/city-info/gyosei-kansa/innovation/jigyohyoka/r08/reiwa07jigyo.files/11_R8iryou.pdf",
+          "sourceSha256": "f1a63fe70152875baa72487a79a02b69171ec3d976d8f00e762d7b093903da8e",
+          "textSha256": "4eb1292979d1a14a01c3d112a2cd94336faa11347d33e59796edc0e9d3d19889",
+          "records": 16,
+          "truncated": false
+        },
+        {
+          "sourceId": "b0a2a5f5a3ab1ab552dd3721",
+          "sourceUrl": "https://www.city.yokohama.lg.jp/city-info/gyosei-kansa/innovation/jigyohyoka/r08/reiwa07jigyo.files/21_R8kyouiku.pdf",
+          "sourceSha256": "0200e26d8d6b5876d3155b28a88317dce8ea155c7a777272bcc295950436de35",
+          "textSha256": "8ae985fc392d062eee023769514e344aae0fa48e1921086d01df0b2fcf77be67",
+          "records": 166,
+          "truncated": false
+        },
+        {
+          "sourceId": "d83dff17df5221e57ef0e7c6",
+          "sourceUrl": "https://www.city.yokohama.lg.jp/city-info/gyosei-kansa/innovation/jigyohyoka/r08/reiwa07jigyo.files/09_R8kodomo.pdf",
+          "sourceSha256": "cdb57e9e0c95b5452a58eeb6b5e4d1385d5ebb979043248e1613413336af71ce",
+          "textSha256": "d0f7b7004599b5849391382ac977d885a17ed9937e86a26109572e64c83f3c1a",
+          "records": 100,
+          "truncated": false
+        },
+        {
+          "sourceId": "deb9f71edf78161dd8790532",
+          "sourceUrl": "https://www.city.yokohama.lg.jp/city-info/gyosei-kansa/innovation/jigyohyoka/r08/reiwa07jigyo.files/08_R8keizai.pdf",
+          "sourceSha256": "eb1ed08349e37b02d3eea0df1f00af17e2ddb8ab32f41cd6b769aa7e119ebacf",
+          "textSha256": "5cb2472d6afe339be54bc79ea8e0cb51f587fe187fb2224a4c60e650cd3cc1db",
+          "records": 1,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "22213",
+      "candidateRecords": 4,
+      "sha256": "83ce66ceaa251d6230ac59522a5b64071ba3f3e49c53d36b926a881a97a01ee3",
+      "bytes": 37703,
+      "documents": [
+        {
+          "sourceId": "af1853fd779abe867aded6ca",
+          "sourceUrl": "https://www.city.kakegawa.shizuoka.jp/fs/6/3/0/1/7/5/_/__1___5__________________.pdf",
+          "sourceSha256": "beec87ee703add27dec23242bce9eac47eef6f07f0a9b6fb1fdf61747d2ddbb5",
+          "textSha256": "abf094352735662f0f482469a035562fff03c4667b9a11bbd5e69aad8cb01d88",
+          "records": 4,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "25214",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": []
+    },
+    {
+      "code": "28204",
+      "candidateRecords": 551,
+      "sha256": "2fc43941940ff3f0e9cc0fb1f34aa640e924776dd401ff4c4b4d250c192cefdd",
+      "bytes": 11299797,
+      "documents": [
+        {
+          "sourceId": "1157728c019b791c8364feeb",
+          "sourceUrl": "https://www.nishi.or.jp/shisei/gyoseikeiei/gyoseihyoka/hyokakekka.files/R6jimujigou1_1003.pdf",
+          "sourceSha256": "b919d0e07636f356c50478c934f3fc09f53749998a1b4e5477f3443fe2d7cf93",
+          "textSha256": "f98a40491afd54fa7c11425fcf1990a98a9db38cc9f777f72acd8efe12137c36",
+          "records": 53,
+          "truncated": false
+        },
+        {
+          "sourceId": "127a9e89395f56dca9e4b98e",
+          "sourceUrl": "https://www.nishi.or.jp/shisei/gyoseikeiei/gyoseihyoka/hyokakekka.files/R6jimujigyou3_1003.pdf",
+          "sourceSha256": "5960f22cc37aad6a8d17390730d4b1d4ea31bf7aa367ae58ab3101c8fdd922b4",
+          "textSha256": "253147f74bb8a521e904569f97010f4521f27e92ab6e33b83b8353366b3f01a7",
+          "records": 60,
+          "truncated": false
+        },
+        {
+          "sourceId": "2d2c360739016f8ef325f1bb",
+          "sourceUrl": "https://www.nishi.or.jp/shisei/gyoseikeiei/gyoseihyoka/hyokakekka.files/R6jimujigyou5_1003.pdf",
+          "sourceSha256": "c7d5f52b8a5bad8400cabb4e0190202ddcd727d13e1a86cad777bc5b698aadd6",
+          "textSha256": "bbbf29f8c639fdbf74995ec95df52ccf7f431f910f213d7721307a19b022fcd9",
+          "records": 6,
+          "truncated": false
+        },
+        {
+          "sourceId": "30ba9703e084806b5a3be3ed",
+          "sourceUrl": "https://www.nishi.or.jp/shisei/gyoseikeiei/gyoseihyoka/hyokakekka.files/R6jimujigyou2_1003.pdf",
+          "sourceSha256": "bd2c410272a8d4380b9f0f66be591165f35f08621541c15bcbc9c54e3db56c2e",
+          "textSha256": "6073aec48ed06b763945eacf5d4759fa29ffe8ef1eb35e2a2f0f23bbe102be11",
+          "records": 100,
+          "truncated": false
+        },
+        {
+          "sourceId": "33b1564bb7b9adfbce5467e5",
+          "sourceUrl": "https://www.nishi.or.jp/shisei/gyoseikeiei/gyoseihyoka/hyokakekka.files/R6jimujigyou4_1003.pdf",
+          "sourceSha256": "5fb4c090eae28936b9b20f577f74f898a05d1a68e388102f60a09015d2a33b0a",
+          "textSha256": "1e9dca5040e2860354ad0938e915c315537301f0c2db4bb9229f204ce62f895d",
+          "records": 53,
+          "truncated": false
+        },
+        {
+          "sourceId": "6157a41414423916159390ed",
+          "sourceUrl": "https://www.nishi.or.jp/shisei/gyoseikeiei/gyoseihyoka/hyokakekka.files/R7jimujigyou3.pdf",
+          "sourceSha256": "606920733453206f9309e7b14465c515605fa14cab174c86d06db90dc446aea7",
+          "textSha256": "4e6de6ea29d957d166f337d71a91291ee83817cf532e2c32d87d8e1127f24229",
+          "records": 61,
+          "truncated": false
+        },
+        {
+          "sourceId": "7851c8365072735da6559877",
+          "sourceUrl": "https://www.nishi.or.jp/shisei/gyoseikeiei/gyoseihyoka/hyokakekka.files/R7jimujigyou2.pdf",
+          "sourceSha256": "f50f2b452ad6ca7d00bdf7dde7de25092c7ba39c69c3e7f5c4dad9bbb7c6b933",
+          "textSha256": "50c23989524d004f7122f65fac5e774a466bf79a8bda49b1fb476a7383966e67",
+          "records": 100,
+          "truncated": false
+        },
+        {
+          "sourceId": "7f0f61b255b27291fb9ff998",
+          "sourceUrl": "https://www.nishi.or.jp/shisei/gyoseikeiei/gyoseihyoka/hyokakekka.files/R7jimujigyou4.pdf",
+          "sourceSha256": "64af45f2b575841d7157c041f4570620493d9674e921ccfb3ebab7d57783dc9f",
+          "textSha256": "646f8c5cb2098b0212cc7a2ffc3d0ba54f12aa4d089dc888e26e4bda468580fe",
+          "records": 50,
+          "truncated": false
+        },
+        {
+          "sourceId": "dab7a9a488971dabada339bc",
+          "sourceUrl": "https://www.nishi.or.jp/shisei/gyoseikeiei/gyoseihyoka/hyokakekka.files/R7jimujigyou5.pdf",
+          "sourceSha256": "254a78fcb0ab3d91f3b840cd4ffe08d54780e03d2efaeb7e29ccd094c2860576",
+          "textSha256": "3795a7101ad0728d3094e8ecd54c06a5fda1d646d3c9b9a525db7176fcbf3e39",
+          "records": 6,
+          "truncated": false
+        },
+        {
+          "sourceId": "f21b4fdfdeef64aec63aca9f",
+          "sourceUrl": "https://www.nishi.or.jp/shisei/gyoseikeiei/gyoseihyoka/hyokakekka.files/R7jimujigyou1v2.pdf",
+          "sourceSha256": "76974f36d72e70ffaf9b57e0fb246ecf2260119b1127492ea5812d3e4497951a",
+          "textSha256": "2f5ece76471ae0365d6efbe490bf7ab7c63f87d477f2ba73e7853dfd2c106f47",
+          "records": 62,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "29206",
+      "candidateRecords": 115,
+      "sha256": "752b1303c76164efe0cef5d270242ee2b8b82cef9a67cbec31154eb0e56c1fa5",
+      "bytes": 509168,
+      "documents": [
+        {
+          "sourceId": "17ac9fd6afef2d580e343b26",
+          "sourceUrl": "https://www.city.sakurai.lg.jp/material/files/group/16/sisakuhyoukakekkaR501.pdf",
+          "sourceSha256": "550ff9d45ebedf9ee7240d702c736e3bea4ef8a1a0caa489534a7c2b5296fed2",
+          "textSha256": "fd633264c0137310f306540d7bc15d340d677db6c00130c7e8fa0d7890f98633",
+          "records": 42,
+          "truncated": false
+        },
+        {
+          "sourceId": "3e320c00a857a444c480d1aa",
+          "sourceUrl": "https://www.city.sakurai.lg.jp/material/files/group/16/R6_sisakuhyoukakekka.pdf",
+          "sourceSha256": "2e800c407cad3c0d12a4ca3fd86f87ba4526970c096dd635ba65b6a31e4d5085",
+          "textSha256": "4bdf29ec8542ff2f5cdf297347b08e7cd0c127c59c80776225f793fbcd360ce4",
+          "records": 35,
+          "truncated": false
+        },
+        {
+          "sourceId": "b63c3c6ceaa5caa9a820bcd6",
+          "sourceUrl": "https://www.city.sakurai.lg.jp/material/files/group/16/R4sisakuhyoukakekka.pdf",
+          "sourceSha256": "386aa48cdacf1bbb02c028927f2ef9320a4a3d1b7e9ffb34f63e536282242373",
+          "textSha256": "47ba14f7388d9c9b3497c714348fce0388c6ccbaf23563cfb7fe5eb6a46680e4",
+          "records": 38,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "34369",
+      "candidateRecords": 40,
+      "sha256": "89939d701d6166ca2fab1f1c1fd66a2e845042828772261923d8c15f398b0ec7",
+      "bytes": 166011,
+      "documents": [
+        {
+          "sourceId": "5565c33146172695cb5c5757",
+          "sourceUrl": "https://www.town.kitahiroshima.lg.jp/uploaded/attachment/27496.pdf",
+          "sourceSha256": "807fe378c7b9a64ff6d99f2b0c01901b9b0c0c7e8e16288e814e01b801bc6087",
+          "textSha256": "123c9eb40f9ff36fca51242ce7f841f59d2a5c83d81990db3ba4514663affaef",
+          "records": 40,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "36203",
+      "candidateRecords": 92,
+      "sha256": "0a8dc932d82eb88ca1ae2154e4f9df4e061212ab6734bc039faf80f0987ae5cb",
+      "bytes": 485596,
+      "documents": [
+        {
+          "sourceId": "7d1cc95ee4fd0bce701d6dba",
+          "sourceUrl": "https://www.city.komatsushima.lg.jp/fs/6/4/1/8/7/2/_/%E4%BB%A4%E5%92%8C7%E5%B9%B4%E5%BA%A6%E4%B8%BB%E8%A6%81%E6%96%BD%E7%AD%96%E3%81%AE%E6%88%90%E6%9E%9C%E3%83%BB%E4%BA%8B%E5%8B%99%E4%BA%8B%E6%A5%AD%E8%A9%95%E4%BE%A1%E7%AD%89%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%AA%AC%E6%98%8E%E6%9B%B8.pdf",
+          "sourceSha256": "dd8c8d2a0bc5a44857e7e4974ba0a5f980f1268d23c3b33a44eecd4350bc87cb",
+          "textSha256": "fb881fb2e1411711e6b35a0c7fe5b2fa46dd58d5340b13effb5e03d0062a69e4",
+          "records": 92,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "38213",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": []
+    },
+    {
+      "code": "39204",
+      "candidateRecords": 722,
+      "sha256": "f1f140132c8f6a25be0d439a3b93627f41723c449eefa8cce43b356f241ad9a8",
+      "bytes": 3213793,
+      "documents": [
+        {
+          "sourceId": "0539d5116210211d76c5a709",
+          "sourceUrl": "https://www.city.nankoku.lg.jp/download/?fid=86123&id=8263&t=LD",
+          "sourceSha256": "93409d7c3df1ec11e2d18bf081a008ff1a994754260b8040a507a40f091da7a7",
+          "textSha256": "2c08df8ffd50880053b41b54a5e568e603ee781a0d65ca1d8a763abe22ddb8b4",
+          "records": 173,
+          "truncated": false
+        },
+        {
+          "sourceId": "ac9efa11a32e4678d344f0da",
+          "sourceUrl": "https://www.city.nankoku.lg.jp/download/?fid=86124&id=8263&t=LD",
+          "sourceSha256": "67690e8a5e5e56725b063acb56020e05f99d1695ad85828a661e013a887d919c",
+          "textSha256": "17c9c63cbc9f519e21b657814122f3dab6628921feb7e44a6e1a232243a6da4d",
+          "records": 187,
+          "truncated": false
+        },
+        {
+          "sourceId": "d439c46cfcae5a6dce07c2ed",
+          "sourceUrl": "https://www.city.nankoku.lg.jp/download/?fid=95199&id=8263&t=LD",
+          "sourceSha256": "cdd08c150245cd41cf1203cba5f5b80bf26db41a51b7bc0fa91f329c5170666c",
+          "textSha256": "ba536e2486d747d8dc07a838e3a80bb7b0c8f87608985538a021ea242c2ff8c3",
+          "records": 169,
+          "truncated": false
+        },
+        {
+          "sourceId": "f702949d0b6c4857483b2edc",
+          "sourceUrl": "https://www.city.nankoku.lg.jp/download/?fid=86254&id=8263&t=LD",
+          "sourceSha256": "355714e021a0dc168cd38fa56295adac0964c8b4e1ae6b35c198a74e24c38d62",
+          "textSha256": "dec2d0ca2075482e4e7bfb7329da76fb60e2eed403b7c736ff32ba4a7723a973",
+          "records": 193,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "40203",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": []
+    },
+    {
+      "code": "40223",
+      "candidateRecords": 0,
+      "sha256": null,
+      "bytes": 0,
+      "documents": [],
+      "skipped": []
+    },
+    {
+      "code": "40503",
+      "candidateRecords": 17,
+      "sha256": "b96cd3773717f2b2aa1fc022d5c91517f38932fbdb144e1414b5183d2742bf77",
+      "bytes": 83479,
+      "documents": [
+        {
+          "sourceId": "87451904a56d64b323d3a6e1",
+          "sourceUrl": "https://www.town.tachiarai.fukuoka.jp/kiji0031773/3_1773_1803_up_j6j0w4zl.pdf",
+          "sourceSha256": "840380decbfc0d07873376b62e9d0c23774bff578281ffa94a502d90baf6b766",
+          "textSha256": "80ba5a6fd72575e3c240cf872e76394a9a1584b0462da007eea761b668f03aaa",
+          "records": 17,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "40621",
+      "candidateRecords": 28,
+      "sha256": "9198db41808a6a58267ff5525c25f2f8e7b8602ae23838e7b02705d377941388",
+      "bytes": 58432,
+      "documents": [
+        {
+          "sourceId": "7909d0ea460be9b4bbcc398f",
+          "sourceUrl": "https://www.town.kanda.lg.jp/uploaded/attachment/3724.pdf",
+          "sourceSha256": "34d95e4e1c232b1ceb421f251c6a1cbf534770c1128b8169f0befc2ffbc7b798",
+          "textSha256": "68796defacd9f76e356626d904410ad8d208e6ddfecec886fb688748185a58f1",
+          "records": 9,
+          "truncated": false
+        },
+        {
+          "sourceId": "af8818470c57f5c7b84b01fe",
+          "sourceUrl": "https://www.town.kanda.lg.jp/uploaded/attachment/9275.pdf",
+          "sourceSha256": "12392c40436eff9d536505d02cd7042908fe7ee6236b9361b7283d3c90ce8494",
+          "textSha256": "741b1b8a1e8d825e5abf994a1f893eda0d06deafd24f6ec4a3be137d2bb7cf8e",
+          "records": 9,
+          "truncated": false
+        },
+        {
+          "sourceId": "c4bbff216977340ccef542ea",
+          "sourceUrl": "https://www.town.kanda.lg.jp/uploaded/attachment/6881.pdf",
+          "sourceSha256": "31332bbfb6af02569a54b1ea3c9d1082d9ebdd05370813148a515c8dca1b50ea",
+          "textSha256": "df016d7a8f07b116a31fe1056d1757b5301ebdeff9e32f580ebae5de0909f227",
+          "records": 10,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "40647",
+      "candidateRecords": 42,
+      "sha256": "d9c5d44a54e0d68592032ee686b9ddcd68b20bb6f58e0373f8722ef1e14c4f93",
+      "bytes": 373863,
+      "documents": [
+        {
+          "sourceId": "6270737ecc893f487926e6ba",
+          "sourceUrl": "https://www.town.chikujo.fukuoka.jp/s056/020/040/080/040/010/R6_hyokasheet.pdf",
+          "sourceSha256": "9eecbcd9b028bbfdc7ba5ed195a9651e830a325cd2e8151f4cbf46cdc9f8f957",
+          "textSha256": "2846ea66ab742580e42a14a50bd1363ae5d7c9a047fe516e3b6f2574bbab3d95",
+          "records": 42,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "42212",
+      "candidateRecords": 10,
+      "sha256": "e5bd42ff0056037a3969eca70188e841e0a34c005566f03f8cfb3c4b2b5ebcdc",
+      "bytes": 48073,
+      "documents": [
+        {
+          "sourceId": "0ca67a1c6dec04bd78ccd450",
+          "sourceUrl": "https://www.city.saikai.nagasaki.jp/material/files/group/2/r73teireigian45seika.pdf",
+          "sourceSha256": "2906f6733f08bc24eec3752c30ccee21f372aa5498bc08b34ca43aaf9bfe569a",
+          "textSha256": "b44c9cef4c3bf0a54694b671e16cd8645f5819f976a73c46c75a5eef9dc14b72",
+          "records": 10,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "43206",
+      "candidateRecords": 11,
+      "sha256": "26aa31fee07e46bc76849715b5f6a7bc9377b3bd1fe35deba3aee8249dbee8cf",
+      "bytes": 22046,
+      "documents": [
+        {
+          "sourceId": "4470619c4b2f9109627b3dac",
+          "sourceUrl": "https://www.city.tamana.lg.jp/dl?q=171245_filelib_e125fcfcb55733139bb8fd73663240af.pdf",
+          "sourceSha256": "91dcd9edfbe79e2a1b3f65517a6f5cd1bcf6ce9b5c9c0f260ff33acf2aa2d4ab",
+          "textSha256": "e0a5ed00bb530b69c64550b1efdc5f8414538590981778a3117bb88d567ec68b",
+          "records": 11,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "code": "43212",
+      "candidateRecords": 354,
+      "sha256": "086eed7386aaf71c36723f2eb070049b70684264682eaefe82d5e3748834507a",
+      "bytes": 894905,
+      "documents": [
+        {
+          "sourceId": "0ff90970f4dbea910db8c8af",
+          "sourceUrl": "https://www.city.kamiamakusa.kumamoto.jp/dl?q=8159_filelib_54d22804e04a4c310f7ed8e28aae64f7.pdf",
+          "sourceSha256": "4fe94f33f480bfa43d11e17c64f2d7ffc26e572d51651446ff086b5ae6994098",
+          "textSha256": "42f698e3d30eace4ffff922e290333b3998e4f9d2146905728abcfb5617972a8",
+          "records": 354,
+          "truncated": false
+        }
+      ]
+    }
+  ]
+}

@@ -88,8 +88,21 @@ export interface EvidenceSource {
         textSha256: string | null;
         inputTextSha256: string | null;
         extractionMethod: string | null;
+        /** Present only when the full text is served in parts (part 1 = assetPath). UTF-8 SHA-256 of all parts joined. */
+        fullTextSha256?: string;
+        continuations?: TextContinuationRef[];
     };
     years: YearEvidence[];
+}
+/** Shard entry for `documents/{sourceId}-{part}.json`; parts are contiguous codepoint ranges of the full text. */
+export interface TextContinuationRef {
+    part: number;
+    assetPath: string;
+    assetBytes: number;
+    assetSha256: string;
+    startCharacter: number;
+    exportedCharacters: number;
+    textSha256: string;
 }
 export interface MunicipalityEvidence {
     schemaVersion: 1;
@@ -125,6 +138,20 @@ export interface DocumentText {
     textSha256: string;
     inputTextSha256: string | null;
     extractionMethod: string;
+}
+export interface DocumentTextContinuation {
+    schemaVersion: 1;
+    label: 'unstructured_source_text_continuation';
+    municipalityCode: string;
+    sourceId: string;
+    sourceUrl: string;
+    sourceSha256: string;
+    part: number;
+    startCharacter: number;
+    exportedCharacters: number;
+    text: string;
+    textSha256: string;
+    fullTextSha256: string;
 }
 export interface EvidenceIndex {
     schemaVersion: 1;

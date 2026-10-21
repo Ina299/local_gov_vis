@@ -2,12 +2,14 @@
 import { readFile, mkdir, writeFile } from 'node:fs/promises';
 import { resolve, dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { sha256 } from './evaluations/national-integration';
+import { sha256, verifyCoreIntegratedEvaluations } from './evaluations/national-integration';
+import { composeSupplemental, loadBatches, loadManifest, verifySupplementalDecisionProofs } from './evaluations/supplemental-integration';
 import type { EvaluationDataset, ProjectEvaluation } from '../../web/src/types/evaluation';
 import type { EvidenceIndex, MunicipalityEvidence, DocumentText } from '../../web/src/types/evaluationEvidence';
 import type { CachedInput } from './evaluations/expansion/shared';
 import { supplementExtractors } from './evaluations/expansion/supplement-registry';
 import { laterExtractors } from './evaluations/expansion/later-registries';
+import { FULLTEXT_SINCE, fullText } from './evaluations/expansion/fulltext';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '../../..');
 const args = process.argv.slice(2);
@@ -16,6 +18,21 @@ if (args.length !== 6 || args[0] !== '--output-dir' || args[2] !== '--generated-
   throw new Error('Use --output-dir <directory> --generated-at <ISO timestamp> --codes <codes>');
 }
 const output = resolve(args[1]), generatedAt = args[3];
+let priorShards: Map<string, Buffer> | undefined;
+async function priorProjects(code: string): Promise<ProjectEvaluation[]> {
+  if (!priorShards) {
+    const manifest = await loadManifest(root);
+    if (!manifest) { priorShards = (await verifyCoreIntegratedEvaluations(root)).shards; }
+    else {
+      const base = await verifyCoreIntegratedEvaluations(root, Buffer.from(`${JSON.stringify(manifest.originalIndex)}\n`));
+      const batches = (await loadBatches(root, manifest)).filter(b => Date.parse(b.generatedAt) < Date.parse(generatedAt));
+      const context = await verifySupplementalDecisionProofs(root, batches.flatMap(b => b.distinctDecisions ?? []));
+      priorShards = batches.length ? composeSupplemental(base, batches, context).assets.shards : base.shards;
+    }
+  }
+  const bytes = priorShards.get(code);
+  return bytes ? (JSON.parse(bytes.toString()) as EvaluationDataset).projects : [];
+}
 const base = join(root, 'apps/web/public/evaluation-evidence');
 const index: EvidenceIndex = JSON.parse(await readFile(join(base, 'index.json'), 'utf8'));
 await mkdir(output, { recursive: true });
@@ -32,6 +49,8 @@ for (const code of args[5].split(',')) {
   if (sha256(metadata) !== row.shardSha256 || metadata.length !== row.shardBytes) throw new Error('Metadata integrity mismatch');
   const muni: MunicipalityEvidence = JSON.parse(metadata.toString());
   const inputs: CachedInput[] = [];
+  // UTF-16 length of the published first part, for documents whose continuations were joined in.
+  const firstPartLength = new Map<string, number>();
   for (const source of muni.sources) {
     if (source.text.status !== 'available' || !['pdf','html'].includes(source.format)) continue;
     if (!source.text.assetPath?.match(/^documents\/[a-f0-9]{24}\.json$/)) throw new Error('Unexpected document path');
@@ -41,21 +60,62 @@ for (const code of args[5].split(',')) {
     if (doc.sourceId !== source.id || doc.sourceUrl !== source.url || doc.municipalityCode !== code
       || doc.sourceSha256 !== source.acquisition.sourceSha256 || sha256(Buffer.from(doc.text)) !== doc.textSha256
       || !source.acquisition.fetchedAt) throw new Error('Source identity mismatch');
+    // Runs from FULLTEXT_SINCE on see the whole document; earlier batches replay with the first 120,000 characters.
+    const whole = Date.parse(generatedAt) >= Date.parse(FULLTEXT_SINCE) ? await fullText(base, source, doc.text) : { text: doc.text, complete: !doc.truncated };
     inputs.push({ municipalityCode: code, municipalityName: row.municipalityName, sourceId: source.id,
       sourceUrl: source.url, sourcePageUrl: source.url, sourceSha256: doc.sourceSha256,
-      fetchedAt: source.acquisition.fetchedAt, format: source.format as 'pdf'|'html', text: doc.text, truncated: doc.truncated });
+      fetchedAt: source.acquisition.fetchedAt, format: source.format as 'pdf'|'html', text: whole.text, truncated: !whole.complete });
+    if (whole.text.length > doc.text.length) firstPartLength.set(source.id, doc.text.length);
   }
   inputs.sort((a,b) => a.sourceId.localeCompare(b.sourceId));
   const dataset: EvaluationDataset = { schemaVersion: 1, generatedAt, sources: [], projects: [] };
   const documents = [];
   const ids = new Set<string>();
   const evidenceOf = (p: ProjectEvaluation) => [...p.evidence, ...p.amounts.map(a=>a.evidence), ...p.indicators.map(i=>i.evidence), ...p.ratings.map(r=>r.evidence)];
-  for (const input of inputs) {
-    const projects = extractors.flatMap(registered => {
-      const found = registered.extract(input, inputs);
-      if (found.length && !scopes.has(input.sourceId)) scopes.set(input.sourceId, registered.scope);
-      return found;
-    });
+  const skipped: { sourceId: string; error: string }[] = [];
+  const extracted = inputs.map(input => ({ input, projects: extractors.flatMap(registered => {
+    let found: ProjectEvaluation[];
+    // In a whole-text run an extractor written for the 120,000-character text may fail; skip that pair, never guess.
+    try { found = registered.extract(input, inputs); }
+    catch (error) { if (!firstPartLength.size) throw error; skipped.push({ sourceId: input.sourceId, error: (error as Error).message.slice(0, 200) }); return []; }
+    if (found.length && !scopes.has(input.sourceId)) scopes.set(input.sourceId, registered.scope);
+    return found;
+  }) }));
+  // Continuation documents: records starting in the first part were already published from the
+  // 120,000-character text, so only records starting in later parts are new. Earlier extractors were
+  // not written for whole documents, so an identity that is ambiguous here is dropped, not resolved.
+  const start = (p: ProjectEvaluation) => Number(p.evidence[0]?.cell?.match(/^extracted-text:chars:(\d+)-/)?.[1] ?? -1);
+  const firstPartIds = new Set<string>(), seen = new Map<string, number>();
+  for (const { input, projects } of extracted) {
+    const limit = firstPartLength.get(input.sourceId);
+    for (const p of projects) {
+      seen.set(p.id, (seen.get(p.id) ?? 0) + 1);
+      if (limit !== undefined && start(p) < limit) firstPartIds.add(p.id);
+    }
+  }
+  // Records of other documents were all published by earlier runs; with whole texts as context an
+  // extractor may now emit them differently, which would be a correction, so they are not re-sent.
+  const continuationOnly = (input: CachedInput, p: ProjectEvaluation) => {
+    const limit = firstPartLength.get(input.sourceId);
+    return limit !== undefined && seen.get(p.id) === 1 && start(p) >= limit && !firstPartIds.has(p.id);
+  };
+  // Same identity rule as the append import: a new record that shares a name (or code) and a compatible
+  // period with any other record of this run may be a reprint or a different business; drop it unreviewed.
+  const norm = (v: string | null) => v?.normalize('NFKC').replace(/\s/g, '') ?? null;
+  const samePeriod = (a: ProjectEvaluation, b: ProjectEvaluation) => a.evaluatedFiscalYear !== null && b.evaluatedFiscalYear !== null ? a.evaluatedFiscalYear === b.evaluatedFiscalYear
+    : a.evaluationYear !== null && b.evaluationYear !== null ? a.evaluationYear === b.evaluationYear : true;
+  const collides = (a: ProjectEvaluation, b: ProjectEvaluation) => {
+    const sameCode = a.projectCode !== null && b.projectCode !== null && norm(a.projectCode) === norm(b.projectCode);
+    if (norm(a.projectName) !== norm(b.projectName) && !sameCode) return false;
+    if (!samePeriod(a, b)) return false;
+    return sameCode || !a.department || !b.department || norm(a.department) === norm(b.department);
+  };
+  // Compare with what was published before this run: recomposed from the batches generated earlier, so a replay gives the same answer.
+  const prior = firstPartLength.size ? await priorProjects(code) : [];
+  const everyRecord = [...prior, ...extracted.flatMap(x => x.projects)];
+  const unambiguous = (p: ProjectEvaluation) => !everyRecord.some(q => q !== p && q.id !== p.id && collides(p, q));
+  for (const { input, projects: all } of extracted) {
+    const projects = firstPartLength.size ? all.filter(p => continuationOnly(input, p) && unambiguous(p)) : all;
     for (const p of projects) {
       if (ids.has(p.id)) throw new Error(`Duplicate candidate ID requires review: ${p.id}`);
       ids.add(p.id);
@@ -87,10 +147,14 @@ for (const code of args[5].split(',')) {
     documents.push({ sourceId: input.sourceId, sourceUrl: input.sourceUrl, sourceSha256: input.sourceSha256,
       textSha256: sha256(Buffer.from(input.text)), records: count, truncated: input.truncated });
   }
-  if (!dataset.projects.length) throw new Error(`No supplementary candidates for ${code}`);
+  if (!dataset.projects.length) {
+    // A whole-text run may find nothing beyond the published first parts; record it instead of failing.
+    if (firstPartLength.size) { audit.push({ code, candidateRecords: 0, sha256: null, bytes: 0, documents, skipped }); continue; }
+    throw new Error(`No supplementary candidates for ${code}`);
+  }
   const bytes = Buffer.from(JSON.stringify(dataset)+'\n');
   await writeFile(join(output,`${code}.json`),bytes);
-  audit.push({code, candidateRecords:dataset.projects.length, sha256:sha256(bytes), bytes:bytes.length, documents});
+  audit.push({code, candidateRecords:dataset.projects.length, sha256:sha256(bytes), bytes:bytes.length, documents, ...(skipped.length ? { skipped } : {})});
 }
 await writeFile(join(output,'../supplement-extraction-audit.json'),JSON.stringify({generatedAt,offlineOnly:true,municipalities:audit},null,2)+'\n');
 console.log(JSON.stringify(audit.map(({documents,...r})=>({...r,documents:documents.length})),null,2));
