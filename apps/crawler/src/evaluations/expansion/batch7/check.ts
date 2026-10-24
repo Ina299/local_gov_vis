@@ -8,6 +8,7 @@ import type { EvaluationDataset, ProjectEvaluation } from '../../../../../web/sr
 import type { MunicipalityEvidence, DocumentText } from '../../../../../web/src/types/evaluationEvidence';
 import type { CachedInput } from '../shared';
 import { fullText } from '../fulltext';
+import { setPriorRecords } from '../run-context';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '../../../../../..');
 const args = process.argv.slice(2);
@@ -40,6 +41,10 @@ for (const code of codes) {
       sourceSha256: doc.sourceSha256, fetchedAt: source.acquisition.fetchedAt!, format: source.format as 'pdf' | 'html', text: whole.text, truncated: !whole.complete });
   }
   inputs.sort((a, b) => a.sourceId.localeCompare(b.sourceId));
+  // The dry run simulates the next batch, whose prior state is what is published now.
+  const priorRow = structured.municipalities.find((r: { municipalityCode: string }) => r.municipalityCode === code);
+  const publishedNow: ProjectEvaluation[] = priorRow?.datasetPath ? JSON.parse(await readFile(join(root, 'apps/web/public', priorRow.datasetPath), 'utf8')).projects : [];
+  setPriorRecords(() => publishedNow);
   const projects: ProjectEvaluation[] = [], ids = new Set<string>(), problems: string[] = [];
   for (const input of inputs) {
     const found = entry.extract(input, inputs);

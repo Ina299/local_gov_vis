@@ -10,6 +10,7 @@ import type { CachedInput } from './evaluations/expansion/shared';
 import { supplementExtractors } from './evaluations/expansion/supplement-registry';
 import { laterExtractors } from './evaluations/expansion/later-registries';
 import { FULLTEXT_SINCE, PRIOR_STATE_RULE_SINCE, fullText } from './evaluations/expansion/fulltext';
+import { setPriorRecords } from './evaluations/expansion/run-context';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '../../..');
 const args = process.argv.slice(2);
@@ -54,6 +55,8 @@ for (const code of args[5].split(',')) {
   const firstPartLength = new Map<string, number>();
   for (const source of muni.sources) {
     if (source.text.status !== 'available' || !['pdf','html'].includes(source.format)) continue;
+    // A run generated at T sees only documents acquired by T, so replaying an older batch is not changed by later collections.
+    if (source.acquisition.fetchedAt && Date.parse(source.acquisition.fetchedAt) > Date.parse(generatedAt)) continue;
     if (!source.text.assetPath?.match(/^documents\/[a-f0-9]{24}\.json$/)) throw new Error('Unexpected document path');
     const bytes = await readFile(join(base, source.text.assetPath));
     if (sha256(bytes) !== source.text.assetSha256 || bytes.length !== source.text.assetBytes) throw new Error('Document integrity mismatch');
@@ -69,6 +72,7 @@ for (const code of args[5].split(',')) {
     if (whole.text.length > doc.text.length) firstPartLength.set(source.id, doc.text.length);
   }
   inputs.sort((a,b) => a.sourceId.localeCompare(b.sourceId));
+  if (priorStateRule) { const before = await priorProjects(code); setPriorRecords(c => { if (c !== code) throw new Error(`Prior records requested for ${c} while extracting ${code}`); return before; }); }
   const dataset: EvaluationDataset = { schemaVersion: 1, generatedAt, sources: [], projects: [] };
   const documents = [];
   const ids = new Set<string>();
