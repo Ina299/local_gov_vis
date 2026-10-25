@@ -5,7 +5,7 @@ import { pathToFileURL } from 'node:url';
 import type { ProjectEvaluation } from '../../web/src/types/evaluation';
 import { summarizeRecords, duplicateCandidates } from './audit-cached-expansion';
 import { verifyIntegratedEvaluations, sha256 } from './evaluations/national-integration';
-import { SUPPLEMENTAL_MANIFEST, type SupplementalManifest } from './evaluations/supplemental-integration';
+import { SUPPLEMENTAL_MANIFEST, verifyImmutableEvaluationCore, type SupplementalManifest } from './evaluations/supplemental-integration';
 export async function auditAllEvaluationLayers(root:string){
   const assets=await verifyIntegratedEvaluations(root);let manifest:SupplementalManifest|null=null;
   try{manifest=JSON.parse(await readFile(join(root,SUPPLEMENTAL_MANIFEST),'utf8'));}catch(e){if((e as NodeJS.ErrnoException).code!=='ENOENT')throw e;}
@@ -15,6 +15,8 @@ export async function auditAllEvaluationLayers(root:string){
     all.push(...records);municipalities.push({code:row.municipalityCode,name:row.municipalityName,datasetPath:row.datasetPath,datasetSha256:row.datasetSha256,
       totals:summarizeRecords(records),supplementalAdded:summarizeRecords(records.filter(p=>addedIds.has(p.id)))});
   }
+  const core=await verifyImmutableEvaluationCore(root);
+  const immutableRecords:ProjectEvaluation[]=[...core.shards.values()].flatMap(bytes=>JSON.parse(bytes.toString()).projects);
   const appended=all.filter(p=>addedIds.has(p.id));
   if(appended.length!==addedIds.size)throw new Error('Supplemental decision IDs do not match displayed projects');
   const decisions=manifest?.batches.flatMap(b=>b.decisions.flatMap(d=>d.records))??[];
@@ -27,10 +29,10 @@ export async function auditAllEvaluationLayers(root:string){
   });
   const result={schemaVersion:1,offlineOnly:true,indexSha256:sha256(assets.indexBytes),indexGeneratedAt:assets.index.generatedAt,
     scope:'All displayed municipality records, including immutable original/cached cohorts and accepted supplemental records; records are not all-year unique businesses.',
-    cohorts:assets.index.cohorts,totals:summarizeRecords(all),immutableCore:summarizeRecords(all.filter(p=>!addedIds.has(p.id))),supplementalAdded:summarizeRecords(appended),
+    cohorts:assets.index.cohorts,totals:summarizeRecords(all),immutableCore:summarizeRecords(immutableRecords),supplementalAdded:summarizeRecords(appended),
     supplemental:{batches:manifest?.batches.length??0,acceptedRecords:appended.length,replayedInputs:decisions.filter(d=>d.status==='replayed').length,
       reviewedDistinctAddedRecords:decisions.filter(d=>d.status==='added'&&d.distinctDecisionIds?.length).length,
-      correctionPolicy:'Corrections/improvements to an existing ID are rejected before publishing; rejected attempts are not persisted or counted as zero attempts.',
+      correctionPolicy:'Supplemental append batches reject replacement. Separately verified enrichment layers add fields while preserving original values and record identity.',
       correctionsApplied:0,originalIndexSha256:manifest?.originalIndexSha256??sha256(assets.indexBytes)},
     municipalities,duplicateCandidates:candidates,duplicateCandidateRecords:Object.fromEntries(candidateRecords),notes:[
       'Duplicate candidate pairs reference full record descriptors in duplicateCandidateRecords by ID; all  pairs are retained.',

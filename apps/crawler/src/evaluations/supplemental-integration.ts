@@ -238,12 +238,12 @@ export async function loadEnrichmentBatches(root:string,m:SupplementalManifest){
 export async function verifyImmutableEvaluationCore(root:string):Promise<IntegrationAssets>{
   const m=await loadManifest(root);return verifyCoreIntegratedEvaluations(root,m?json(m.originalIndex):undefined);
 }
-export async function verifySupplementalEvaluations(root:string):Promise<IntegrationAssets>{
-  const m=await loadManifest(root);if(!m)return verifyCoreIntegratedEvaluations(root);
+export async function verifySupplementalEvaluations(root:string,expectedIndexBytes?:Buffer):Promise<IntegrationAssets>{
+  const m=await loadManifest(root);if(!m)return verifyCoreIntegratedEvaluations(root,expectedIndexBytes);
   const base=await verifyCoreIntegratedEvaluations(root,json(m.originalIndex));const batches=await loadBatches(root,m);
   const context=await verifySupplementalDecisionProofs(root,batches.flatMap(b=>b.distinctDecisions??[]));const rebuilt=composeSupplemental(base,batches,context,await loadEnrichmentBatches(root,m));
   check(json(rebuilt.manifest).equals(json(m)),'Supplemental provenance differs from validated composition');
-  check(rebuilt.assets.indexBytes.equals(await readBoundedFile(join(root,'apps/web/public/evaluations-index.json'),LIMITS.indexBytes)),'Supplemental index mismatch');
+  check(rebuilt.assets.indexBytes.equals(expectedIndexBytes??await readBoundedFile(join(root,'apps/web/public/evaluations-index.json'),LIMITS.indexBytes)),'Supplemental index mismatch');
   for(const row of m.shards)check(rebuilt.composed.get(row.municipalityCode)!.equals(await readBoundedFile(join(root,'apps/web/public',row.datasetPath!),LIMITS.shardBytes)),`Composed shard mismatch: ${row.municipalityCode}`);
   return rebuilt.assets;
 }

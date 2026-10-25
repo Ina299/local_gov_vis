@@ -390,8 +390,8 @@ export function composeCachedExpansion(base: IntegrationAssets, additions: Map<s
 }
 
 export async function verifyIntegratedEvaluations(root: string): Promise<IntegrationAssets> {
-  const { verifySupplementalEvaluations } = await import('./supplemental-integration');
-  return verifySupplementalEvaluations(root);
+  const { verifyEnrichedEvaluations } = await import('./enrichment-integration');
+  return verifyEnrichedEvaluations(root);
 }
 
 /** Immutable original integration, optionally checked against a saved pre-overlay index. */

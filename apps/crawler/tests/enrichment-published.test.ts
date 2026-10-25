@@ -1,0 +1,22 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {resolve,join} from 'node:path';
+import {auditEnrichmentReviews} from '../src/audit-enrichment-reviews';
+import {auditEnrichedEvaluations} from '../src/audit-enriched-evaluations';
+const root=resolve(import.meta.dirname,'../../..');
+const read=async(path:string)=>JSON.parse(await readFile(join(root,path),'utf8'));
+test('published enrichment accounts for all 578 reviewed sources and preserves every existing value',async()=>{
+ const manifest=await read('data/evaluations/enrichment-provenance.json');
+ assert.equal(manifest.inputs.length,1);
+ const reviews=await auditEnrichmentReviews(root,join(root,'data/evaluations/enrichment-review-batch1'),join(root,manifest.inputs[0].path));
+ assert.deepEqual(reviews,await read('data/evaluations/enrichment-document-review-batch1.json'));
+ assert.equal(reviews.documents,578);
+ const audit=await auditEnrichedEvaluations(root);
+ assert.deepEqual(audit,await read('data/evaluations/enrichment-statistical-audit-batch1.json'));
+ assert.equal(audit.changedRecords,manifest.statistics.changedRecords);
+ assert.deepEqual(audit.filledScalarFields,manifest.statistics.filledFieldsByField);
+ assert.deepEqual(audit.addedArrayItems,manifest.statistics.addedArrayItemsByField);
+ assert.ok(audit.substantiveFilledFields>0);
+ assert.ok(audit.after.nameAndMetadataOnly<audit.before.nameAndMetadataOnly);
+});

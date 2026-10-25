@@ -658,3 +658,11 @@ dots 時代の 94 資料は、89 件が公開中の原本ハッシュと一致�
 node --import tsx apps/crawler/src/enrich-evaluations.ts --output-dir <dir>/inputs --generated-at <ISO> --codes 27140,13109
 node --import tsx apps/crawler/src/enrich-evaluations.ts --import <dir>/inputs --generated-at <ISO>
 ```
+
+
+### 保存本文のフィールド補強（2026-10-25）
+
+500自治体・92,038年度別レコードを維持し、既存51自治体・5,003票に11,061項目を補強。
+部分抽出417資料と保留161資料の計578資料を一巡し、311資料から採用、90資料は変更不要、177資料は理由付き保留。
+全文取得や全項目の抽出完了を意味しない。原文位置・内容ハッシュ・旧レコード不変を検証し、
+既存の堺市・品川区補強も保持する。詳細と再現方法は [フィールド補強](evaluation-field-enrichment.md) を参照。
