@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-10-25T00:00:00.000Z",
+  "municipalities": [
+    {
+      "code": "27140",
+      "sheets": 800,
+      "enriched": 286,
+      "skipped": {
+        "nothing_to_add": 32
+      },
+      "added": {
+        "amounts": 2723,
+        "indicators": 100,
+        "ratings": 216,
+        "departments": 0
+      }
+    },
+    {
+      "code": "13109",
+      "sheets": 3488,
+      "enriched": 810,
+      "skipped": {
+        "no_match": 2,
+        "ambiguous_match": 9,
+        "nothing_to_add": 864,
+        "shared_target": 112
+      },
+      "added": {
+        "amounts": 598,
+        "indicators": 0,
+        "ratings": 1510,
+        "departments": 0
+      }
+    }
+  ]
+}

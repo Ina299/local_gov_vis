@@ -2,6 +2,7 @@
 import { lstat, mkdir, readdir, realpath, rename, writeFile, mkdtemp, rm } from 'node:fs/promises';
 import { join, relative, sep, isAbsolute } from 'node:path';
 import type { EvaluationDataset, ProjectEvaluation, EvaluationEvidence } from '../../../web/src/types/evaluation';
+import { applyEnrichments, type EnrichmentInput } from './enrichment';
 import { LIMITS, sha256, readBoundedFile, validateShardBytes, validateEvaluationIndex, verifyCoreIntegratedEvaluations,
   type IntegrationAssets, type EvaluationIndex, type MunicipalityIndexEntry } from './national-integration';
 export const SUPPLEMENTAL_MANIFEST = 'data/evaluations/supplemental-provenance.json';
@@ -144,13 +145,17 @@ export function mergeSupplementalDataset(base:EvaluationDataset|null, incoming:E
 export interface SupplementalInput {municipalityCode:string;sha256:string;bytes:number;path:string}
 export interface SupplementalBatch {generatedAt:string;inputs:SupplementalInput[];distinctDecisions:DistinctDecision[];decisions:{municipalityCode:string;records:AppendDecision[]}[]}
 export interface SupplementalManifest {schemaVersion:1;kind:'supplemental_evaluation_overlay';originalIndex:EvaluationIndex;originalIndexSha256:string;
-  generatedAt:string;batches:SupplementalBatch[];outputIndexSha256:string;shards:MunicipalityIndexEntry[]}
+  generatedAt:string;batches:SupplementalBatch[];outputIndexSha256:string;shards:MunicipalityIndexEntry[];
+  /** Additive enrichments of published records, applied after every append batch (absent when none). */
+  enrichmentBatches?:EnrichmentBatch[]}
+export interface EnrichmentBatch {generatedAt:string;inputs:SupplementalInput[];applied:{municipalityCode:string;targets:number}[]}
+export const ENRICHMENT_INPUTS='data/evaluations/enrichment-inputs';
 function incomingRow(prior:MunicipalityIndexEntry, bytes:Buffer):MunicipalityIndexEntry {
   check(bytes.length>0 && bytes.length<=LIMITS.shardBytes,'Supplemental input byte bound exceeded');
   const d=JSON.parse(bytes.toString()) as EvaluationDataset;
   return{...prior,datasetPath:`evaluations-municipal/${prior.municipalityCode}.json`,datasetSha256:sha256(bytes),datasetBytes:bytes.length,primaryEvaluationRecords:d.projects.length};
 }
-export function composeSupplemental(base:IntegrationAssets,batches:{generatedAt:string;inputs:Map<string,Buffer>;distinctDecisions?:DistinctDecision[]}[],context?:VerifiedSupplementalDecisionProofs):{assets:IntegrationAssets;manifest:SupplementalManifest;composed:Map<string,Buffer>} {
+export function composeSupplemental(base:IntegrationAssets,batches:{generatedAt:string;inputs:Map<string,Buffer>;distinctDecisions?:DistinctDecision[]}[],context?:VerifiedSupplementalDecisionProofs,enrichmentBatches:{generatedAt:string;inputs:Map<string,Buffer>}[]=[]):{assets:IntegrationAssets;manifest:SupplementalManifest;composed:Map<string,Buffer>} {
   check(!base.index.cohorts?.supplemental,'Overlay base must be immutable core integration');
   check(base.index.cohorts,'Cohort provenance required');
   const shards=new Map(base.shards);const rows=new Map(base.index.municipalities.map(r=>[r.municipalityCode,{...r}]));
@@ -178,14 +183,30 @@ export function composeSupplemental(base:IntegrationAssets,batches:{generatedAt:
     check(distinctDecisions.every(d=>used.has(d.id)), 'Unused or stale distinct decision');
     described.push({generatedAt:batch.generatedAt,inputs:inputDescriptions,distinctDecisions,decisions});generatedAt=batch.generatedAt;
   }
-  const newMunicipalities=[...changed].filter(c=>!base.shards.has(c)).length;
+  const newMunicipalities=[...changed].filter(c=>!base.shards.has(c)).length;const appendChanged=changed.size;
+  // Enrichments only add values to records that already exist; counts and cohorts stay those of the append batches.
+  const enrichmentDescribed:EnrichmentBatch[]=[];
+  for(const batch of enrichmentBatches){
+    check(Number.isFinite(Date.parse(batch.generatedAt)),'Invalid enrichment generatedAt');
+    const inputs:SupplementalInput[]=[];const applied:{municipalityCode:string;targets:number}[]=[];
+    for(const [code,bytes] of [...batch.inputs].sort(([a],[b])=>a.localeCompare(b))){
+      const input=JSON.parse(bytes.toString()) as EnrichmentInput;check(input.municipalityCode===code&&input.generatedAt===batch.generatedAt,'Enrichment input identity mismatch');
+      const prior=rows.get(code);const shard=shards.get(code);check(prior&&shard&&prior.datasetPath,`Enrichment of a municipality without records: ${code}`);
+      const dataset=applyEnrichments(JSON.parse(shard.toString()) as EvaluationDataset,input);
+      const content=json(dataset);const row={...prior,datasetPath:`evaluations-composed/${code}-${sha256(content)}.json`,datasetSha256:sha256(content),datasetBytes:content.length,
+        recordsWithSourceLabelledOutcomeIndicators:dataset.projects.filter(p=>p.indicators.some(i=>i.name.includes('【成果指標】'))).length};
+      validateShardBytes(row,content);rows.set(code,row);shards.set(code,content);changed.add(code);
+      const digest=sha256(bytes);inputs.push({municipalityCode:code,sha256:digest,bytes:bytes.length,path:`${ENRICHMENT_INPUTS}/${digest}.json`});applied.push({municipalityCode:code,targets:input.enrichments.length});
+    }
+    enrichmentDescribed.push({generatedAt:batch.generatedAt,inputs,applied});
+  }
   const index:EvaluationIndex={...base.index,generatedAt,primaryEvaluationRecords:base.index.primaryEvaluationRecords+added,primaryMunicipalities:base.index.primaryMunicipalities+newMunicipalities,
-    municipalities:base.index.municipalities.map(r=>rows.get(r.municipalityCode)!),cohorts:{...base.index.cohorts,supplemental:{primaryMunicipalities:newMunicipalities,primaryEvaluationRecords:added,existingMunicipalities:changed.size-newMunicipalities}},
+    municipalities:base.index.municipalities.map(r=>rows.get(r.municipalityCode)!),cohorts:{...base.index.cohorts,supplemental:{primaryMunicipalities:newMunicipalities,primaryEvaluationRecords:added,existingMunicipalities:appendChanged-newMunicipalities}},
     notes:[...base.index.notes,'Supplemental append-only overlay: original municipal assets preserved; duplicate reprints excluded; corrections require separate review.']};
   validateEvaluationIndex(index);const ids=new Set<string>(),sourceIds=new Set<string>();
   for(const row of index.municipalities)if(row.datasetPath)validateShardBytes(row,shards.get(row.municipalityCode)!,undefined,ids,sourceIds);
   const indexBytes=json(index);const composed=new Map([...changed].sort().map(c=>[c,shards.get(c)!]));
-  const manifest:SupplementalManifest={schemaVersion:1,kind:'supplemental_evaluation_overlay',originalIndex:base.index,originalIndexSha256:sha256(base.indexBytes),generatedAt,batches:described,outputIndexSha256:sha256(indexBytes),shards:[...changed].sort().map(c=>rows.get(c)!)};
+  const manifest:SupplementalManifest={schemaVersion:1,kind:'supplemental_evaluation_overlay',originalIndex:base.index,originalIndexSha256:sha256(base.indexBytes),generatedAt,batches:described,outputIndexSha256:sha256(indexBytes),shards:[...changed].sort().map(c=>rows.get(c)!),...(enrichmentDescribed.length?{enrichmentBatches:enrichmentDescribed}:{})};
   const uniqueInputBytes=new Map(described.flatMap(b=>b.inputs.map(i=>[i.sha256,i.bytes] as const)));
   check([...uniqueInputBytes.values()].reduce((sum,n)=>sum+n,0)<=LIMITS.totalBytes,'Supplemental input aggregate byte bound exceeded');
   check(indexBytes.length<=LIMITS.indexBytes,'Supplemental index byte bound exceeded');
@@ -208,13 +229,19 @@ export async function loadBatches(root:string,m:SupplementalManifest){
     check(bytes.length===x.bytes && sha256(bytes)===x.sha256,'Supplemental input identity mismatch');inputs.set(x.municipalityCode,bytes);
   }batches.push({generatedAt:b.generatedAt,inputs,distinctDecisions:b.distinctDecisions});}return batches;
 }
+export async function loadEnrichmentBatches(root:string,m:SupplementalManifest){
+  return Promise.all((m.enrichmentBatches??[]).map(async b=>{const inputs=new Map<string,Buffer>();
+    for(const x of b.inputs){check(/^[a-f0-9]{64}$/.test(x.sha256)&&x.path===`${ENRICHMENT_INPUTS}/${x.sha256}.json`,'Unsafe enrichment input path');
+      const bytes=await readBoundedFile(join(root,x.path),LIMITS.shardBytes);check(bytes.length===x.bytes&&sha256(bytes)===x.sha256,'Enrichment input identity mismatch');inputs.set(x.municipalityCode,bytes);}
+    return{generatedAt:b.generatedAt,inputs};}));
+}
 export async function verifyImmutableEvaluationCore(root:string):Promise<IntegrationAssets>{
   const m=await loadManifest(root);return verifyCoreIntegratedEvaluations(root,m?json(m.originalIndex):undefined);
 }
 export async function verifySupplementalEvaluations(root:string):Promise<IntegrationAssets>{
   const m=await loadManifest(root);if(!m)return verifyCoreIntegratedEvaluations(root);
   const base=await verifyCoreIntegratedEvaluations(root,json(m.originalIndex));const batches=await loadBatches(root,m);
-  const context=await verifySupplementalDecisionProofs(root,batches.flatMap(b=>b.distinctDecisions??[]));const rebuilt=composeSupplemental(base,batches,context);
+  const context=await verifySupplementalDecisionProofs(root,batches.flatMap(b=>b.distinctDecisions??[]));const rebuilt=composeSupplemental(base,batches,context,await loadEnrichmentBatches(root,m));
   check(json(rebuilt.manifest).equals(json(m)),'Supplemental provenance differs from validated composition');
   check(rebuilt.assets.indexBytes.equals(await readBoundedFile(join(root,'apps/web/public/evaluations-index.json'),LIMITS.indexBytes)),'Supplemental index mismatch');
   for(const row of m.shards)check(rebuilt.composed.get(row.municipalityCode)!.equals(await readBoundedFile(join(root,'apps/web/public',row.datasetPath!),LIMITS.shardBytes)),`Composed shard mismatch: ${row.municipalityCode}`);
@@ -230,7 +257,7 @@ export async function importSupplementalEvaluations(options:{root:string;sourceD
   for(const file of entries)inputs.set(file.slice(0,5),await readBoundedFile(join(source,file),LIMITS.shardBytes));
   const batches=[...previous,{generatedAt:options.generatedAt,inputs,distinctDecisions:options.distinctDecisions}];
   const context=await verifySupplementalDecisionProofs(root,batches.flatMap(b=>b.distinctDecisions??[]));
-  const result=composeSupplemental(base,batches,context);
+  const result=composeSupplemental(base,batches,context,old?await loadEnrichmentBatches(root,old):[]);
   if(result.manifest.batches.at(-1)!.decisions.every(d=>d.records.every(r=>r.status==='replayed')))return current;
   check((await readBoundedFile(join(pub,'evaluations-index.json'),LIMITS.indexBytes)).equals(current.indexBytes),'Index changed while preparing append');
   for(const path of [pub,join(root,'data/evaluations')]){const stat=await lstat(path);check(stat.isDirectory()&&!stat.isSymbolicLink(),'Output directory must not be a symlink');}

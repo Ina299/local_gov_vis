@@ -11,7 +11,7 @@ import { tmpdir } from 'node:os';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { sha256 } from './evaluations/national-integration';
-import { SUPPLEMENTAL_MANIFEST, composeSupplemental, loadBatches, loadManifest, verifySupplementalDecisionProofs, verifySupplementalEvaluations } from './evaluations/supplemental-integration';
+import { SUPPLEMENTAL_MANIFEST, composeSupplemental, loadBatches, loadEnrichmentBatches, loadManifest, verifySupplementalDecisionProofs, verifySupplementalEvaluations } from './evaluations/supplemental-integration';
 import { verifyCoreIntegratedEvaluations } from './evaluations/national-integration';
 
 const CORRECTIONS = 'data/evaluations/record-corrections.json';
@@ -45,7 +45,7 @@ if (!changes.length) throw new Error('Extractors reproduce the published inputs;
 
 const base = await verifyCoreIntegratedEvaluations(root, json(manifest.originalIndex));
 const context = await verifySupplementalDecisionProofs(root, batches.flatMap(b => b.distinctDecisions ?? []));
-const result = composeSupplemental(base, batches, context);
+const result = composeSupplemental(base, batches, context, await loadEnrichmentBatches(root, manifest));
 for (const batch of batches) for (const [code, bytes] of batch.inputs) if (codes.includes(code)) await writeFile(join(root, `data/evaluations/supplemental-inputs/${sha256(bytes)}.json`), bytes);
 for (const [code, bytes] of result.composed) {
   const row = result.assets.index.municipalities.find(r => r.municipalityCode === code)!;
