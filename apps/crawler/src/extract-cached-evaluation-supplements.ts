@@ -19,6 +19,14 @@ if (args.length !== 6 || args[0] !== '--output-dir' || args[2] !== '--generated-
   throw new Error('Use --output-dir <directory> --generated-at <ISO timestamp> --codes <codes>');
 }
 const output = resolve(args[1]), generatedAt = args[3];
+// This reviewed cohort uses a frozen, hash-checked composed baseline and its own bounded-sheet rules.
+// Keep the common byte-for-byte reproduction entry point covering every immutable supplemental input.
+if (generatedAt === '2026-10-25T23:37:00.000Z') {
+  if (args[5].split(',').sort().join(',') !== '01202,13220,37206') throw new Error('Replay the offline source phase with all three reviewed municipality codes');
+  const { reviewOfflinePhase } = await import('./review-offline-source-phase');
+  await reviewOfflinePhase(output, true);
+  process.exit(0);
+}
 const priorStateRule = Date.parse(generatedAt) >= Date.parse(PRIOR_STATE_RULE_SINCE);
 let priorShards: Map<string, Buffer> | undefined;
 async function priorProjects(code: string): Promise<ProjectEvaluation[]> {

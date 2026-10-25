@@ -250,8 +250,9 @@ export async function verifySupplementalEvaluations(root:string,expectedIndexByt
 export async function importSupplementalEvaluations(options:{root:string;sourceDirectory:string;generatedAt:string;distinctDecisions?:DistinctDecision[]}):Promise<IntegrationAssets>{
   const root=await realpath(options.root),source=await realpath(options.sourceDirectory);const pub=join(root,'apps/web/public');
   const rel=relative(pub,source);check(rel==='..'||rel.startsWith(`..${sep}`)||isAbsolute(rel),'Input must be outside public assets');
-  const current=await verifySupplementalEvaluations(root);const old=await loadManifest(root);
-  const base=old?await verifyCoreIntegratedEvaluations(root,json(old.originalIndex)):current;
+  const {verifyEnrichedEvaluations,readEnrichmentBase,rebaseExistingEnrichment,ENRICHMENT_MANIFEST}=await import('./enrichment-integration');
+  const current=await verifyEnrichedEvaluations(root);const old=await loadManifest(root);
+  const base=old?await verifyCoreIntegratedEvaluations(root,json(old.originalIndex)):await readEnrichmentBase(root);
   const previous=old?await loadBatches(root,old):[];const inputs=new Map<string,Buffer>();
   const entries=(await readdir(source)).sort();check(entries.length>0&&entries.every(f=>/^[0-9]{5}\.json$/.test(f)),'Input directory must contain only municipality JSON files');
   for(const file of entries)inputs.set(file.slice(0,5),await readBoundedFile(join(source,file),LIMITS.shardBytes));
@@ -259,6 +260,17 @@ export async function importSupplementalEvaluations(options:{root:string;sourceD
   const context=await verifySupplementalDecisionProofs(root,batches.flatMap(b=>b.distinctDecisions??[]));
   const result=composeSupplemental(base,batches,context,old?await loadEnrichmentBatches(root,old):[]);
   if(result.manifest.batches.at(-1)!.decisions.every(d=>d.records.every(r=>r.status==='replayed')))return current;
+  // Filled years may make an identity collision visible only in the published enrichment layer.
+  // Check genuinely new records there too; replayed immutable inputs need not equal enriched records.
+  for(const decision of result.manifest.batches.at(-1)!.decisions){
+    const added=new Set(decision.records.filter(r=>r.status==='added').map(r=>r.id));
+    if(!added.size)continue;
+    const incoming=JSON.parse(inputs.get(decision.municipalityCode)!.toString()) as EvaluationDataset;
+    const existing=current.shards.get(decision.municipalityCode);
+    mergeSupplementalDataset(existing?JSON.parse(existing.toString()):null,{...incoming,projects:incoming.projects.filter(p=>added.has(p.id))},options.generatedAt,options.distinctDecisions,context);
+  }
+  const enriched=await rebaseExistingEnrichment(root,result.assets);
+  const published=enriched?.assets??result.assets;
   check((await readBoundedFile(join(pub,'evaluations-index.json'),LIMITS.indexBytes)).equals(current.indexBytes),'Index changed while preparing append');
   for(const path of [pub,join(root,'data/evaluations')]){const stat=await lstat(path);check(stat.isDirectory()&&!stat.isSymbolicLink(),'Output directory must not be a symlink');}
   await mkdir(join(root,'data/evaluations/supplemental-inputs'),{recursive:true});await mkdir(join(pub,'evaluations-composed'),{recursive:true});
@@ -268,8 +280,14 @@ export async function importSupplementalEvaluations(options:{root:string;sourceD
   try{
     for(const bytes of inputs.values())await immutable(join(root,`data/evaluations/supplemental-inputs/${sha256(bytes)}.json`),bytes);
     for(const [code,bytes]of result.composed){const row=result.assets.index.municipalities.find(r=>r.municipalityCode===code)!;await immutable(join(pub,row.datasetPath!),bytes);}
-    await writeFile(join(stage,'manifest.json'),json(result.manifest));await writeFile(join(stage,'index.json'),result.assets.indexBytes);
-    await rename(join(stage,'manifest.json'),join(root,SUPPLEMENTAL_MANIFEST));await rename(join(stage,'index.json'),join(pub,'evaluations-index.json'));
+    if(enriched){
+      for(const[code,bytes]of enriched.composed){const row=published.index.municipalities.find(r=>r.municipalityCode===code)!;await immutable(join(pub,row.datasetPath!),bytes);}
+      await writeFile(join(stage,'enrichment.json'),json(enriched.manifest));
+    }
+    await writeFile(join(stage,'manifest.json'),json(result.manifest));await writeFile(join(stage,'index.json'),published.indexBytes);
+    await rename(join(stage,'manifest.json'),join(root,SUPPLEMENTAL_MANIFEST));
+    if(enriched)await rename(join(stage,'enrichment.json'),join(root,ENRICHMENT_MANIFEST));
+    await rename(join(stage,'index.json'),join(pub,'evaluations-index.json'));
   }finally{await rm(stage,{recursive:true,force:true});}
-  return verifySupplementalEvaluations(root);
+  return verifyEnrichedEvaluations(root);
 }

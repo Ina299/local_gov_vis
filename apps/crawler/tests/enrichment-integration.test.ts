@@ -5,7 +5,7 @@ import {tmpdir} from 'node:os';
 import {resolve,join} from 'node:path';
 import {assertExplicitYear,composeEnrichment,readCachedProof,importEnrichment,verifyEnrichedEvaluations,readEnrichmentBase,ENRICHMENT_MANIFEST,type EnrichmentPatch} from '../src/evaluations/enrichment-integration';
 import {sha256,type IntegrationAssets} from '../src/evaluations/national-integration';
-import {supplementalRecordSha256} from '../src/evaluations/supplemental-integration';
+import {supplementalRecordSha256,importSupplementalEvaluations} from '../src/evaluations/supplemental-integration';
 const root=resolve(import.meta.dirname,'../../..'),date='2026-10-18T00:00:00Z';
 const json=(v:unknown)=>Buffer.from(JSON.stringify(v)+'\n');
 async function fixture(){
@@ -54,7 +54,20 @@ test('filesystem enrichment replays preserved base, is idempotent, and rejects o
   const after=await importEnrichment({root:temp,inputFiles:[path],generatedAt:date});
   assert.equal(after.index.primaryEvaluationRecords,before.index.primaryEvaluationRecords);assert.deepEqual((await readEnrichmentBase(temp)).indexBytes,before.indexBytes);
   const provenance=await readFile(join(temp,ENRICHMENT_MANIFEST));const replay=await importEnrichment({root:temp,inputFiles:[path],generatedAt:'2026-10-19T00:00:00Z'});assert.deepEqual(after.indexBytes,replay.indexBytes);assert.deepEqual(await readFile(join(temp,ENRICHMENT_MANIFEST)),provenance);
-  const row=after.index.municipalities.find(r=>r.municipalityCode==='20206')!;await writeFile(join(temp,'apps/web/public',row.datasetPath!),'{}');await assert.rejects(()=>verifyEnrichedEvaluations(temp),/shard mismatch/);
+  // A later append must retain the proven enrichment and rebase its manifest, not replace the public index with the pre-enrichment layer.
+  const inputDir=join(temp,'append');await mkdir(inputDir);
+  const sourceDataset=JSON.parse(before.shards.get('20206')!.toString());
+  const addition=structuredClone(sourceDataset.projects[0]);addition.id+='-append-fixture';addition.projectCode=null;addition.projectName='追加事業の独立したテスト個票';
+  await writeFile(join(inputDir,'20206.json'),json({...sourceDataset,projects:[addition]}));
+  const appended=await importSupplementalEvaluations({root:temp,sourceDirectory:inputDir,generatedAt:'2026-10-26T00:00:00Z'});
+  assert.equal(appended.index.primaryEvaluationRecords,after.index.primaryEvaluationRecords+1);
+  const retained=JSON.parse(appended.shards.get('20206')!.toString()).projects.find((p:any)=>p.id===patch.projectId);
+  assert.equal(retained.purpose,patch.set!.purpose!.value);
+  const rebased=JSON.parse(await readFile(join(temp,ENRICHMENT_MANIFEST),'utf8'));
+  assert.deepEqual(rebased.inputs,JSON.parse(provenance.toString()).inputs);
+  assert.deepEqual(rebased.statistics,JSON.parse(provenance.toString()).statistics);
+  assert.deepEqual((await importSupplementalEvaluations({root:temp,sourceDirectory:inputDir,generatedAt:'2026-10-27T00:00:00Z'})).indexBytes,appended.indexBytes);
+  const row=appended.index.municipalities.find(r=>r.municipalityCode==='20206')!;await writeFile(join(temp,'apps/web/public',row.datasetPath!),'{}');await assert.rejects(()=>verifyEnrichedEvaluations(temp),/shard mismatch/);
  }finally{await rm(temp,{recursive:true,force:true});}
 });
 test('explicit abbreviated fiscal-year labels are accepted without inferring adjacent years',async()=>{

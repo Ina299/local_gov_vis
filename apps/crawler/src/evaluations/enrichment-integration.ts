@@ -114,6 +114,12 @@ export async function composeEnrichment(root:string,base:IntegrationAssets,input
 }
 async function loadInputs(root:string,m:EnrichmentManifest){const inputs=new Map<string,Buffer>();let total=0;for(const i of m.inputs){check(/^[a-f0-9]{64}$/.test(i.sha256)&&i.path===`data/evaluations/enrichment-inputs/${i.sha256}.json`&&!inputs.has(i.sha256),'Invalid enrichment input path');const bytes=await readBoundedFile(join(root,i.path),LIMITS.totalBytes);check(bytes.length===i.bytes&&sha256(bytes)===i.sha256,'Enrichment input mismatch');total+=bytes.length;check(total<=LIMITS.totalBytes,'Enrichment aggregate input limit');inputs.set(i.sha256,bytes);}return inputs;}
 export async function verifyEnrichedEvaluations(root:string):Promise<IntegrationAssets>{const m=await manifest(root);if(!m)return verifySupplementalEvaluations(root);const base=await readEnrichmentBase(root),inputs=await loadInputs(root,m);const rebuilt=await composeEnrichment(root,base,inputs,m.generatedAt);check(json(rebuilt.manifest).equals(json(m)),'Enrichment provenance mismatch');check(rebuilt.assets.indexBytes.equals(await readBoundedFile(join(root,'apps/web/public/evaluations-index.json'),LIMITS.indexBytes)),'Enrichment index mismatch');for(const r of m.shards)check(rebuilt.composed.get(r.municipalityCode)!.equals(await readBoundedFile(join(root,'apps/web/public',r.datasetPath!),LIMITS.shardBytes)),'Enrichment composed shard mismatch');return rebuilt.assets;}
+/** Reapply the same immutable proof inputs after an append; stale record hashes still fail closed. */
+export async function rebaseExistingEnrichment(root:string,base:IntegrationAssets){
+ const old=await manifest(root);if(!old)return null;
+ const generatedAt=Date.parse(base.index.generatedAt)>Date.parse(old.generatedAt)?base.index.generatedAt:old.generatedAt;
+ return composeEnrichment(root,base,await loadInputs(root,old),generatedAt);
+}
 export async function importEnrichment(options:{root:string;inputFiles:string[];generatedAt:string}){
  const root=resolve(options.root),current=await verifyEnrichedEvaluations(root),old=await manifest(root),inputs=old?await loadInputs(root,old):new Map<string,Buffer>();
  for(const path of options.inputFiles){const rel=relative(join(root,'apps/web/public'),resolve(path));check(rel==='..'||rel.startsWith(`..${sep}`)||isAbsolute(rel),'Enrichment input cannot be in public');const b=await readBoundedFile(path,LIMITS.totalBytes);inputs.set(sha256(b),b);}
