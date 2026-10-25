@@ -17,6 +17,7 @@ const png=Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42
 async function count(page,n){await page.waitForFunction(expected=>{const el=document.querySelector('.evaluation-results .evaluation-section-heading [role="status"]');return el&&Number(el.textContent.match(/^[\d,]+/)?.[0].replaceAll(',',''))===expected;},n,{timeout:30000});}
 (async()=>{
  const manifest=read(path.join(repo,'data/evaluations/enrichment-provenance.json'));
+ const selectedIds=process.env.ENRICHMENT_INPUT_PATH?new Set(read(path.resolve(repo,process.env.ENRICHMENT_INPUT_PATH)).patches.map(p=>p.projectId)):null;
  const indexBytes=fs.readFileSync(path.join(repo,'apps/web/public/evaluations-index.json')),index=JSON.parse(indexBytes);
  assert.equal(sha(indexBytes),manifest.outputIndexSha256,'Final public index must match supplemental manifest');
  assert.ok(index.cohorts?.supplemental,'Final supplemental index is not installed yet');
@@ -66,7 +67,9 @@ async function count(page,n){await page.waitForFunction(expected=>{const el=docu
     assert.deepEqual(data.projects.map(p=>p.id),old.projects.map(p=>p.id),'Enrichment must preserve project identity and order');
     const enriched=data.projects.filter(p=>JSON.stringify(p)!==JSON.stringify(oldRecords.get(p.id)));
     assert.ok(enriched.length>0,'Changed shard has no enriched record');
-    const target=enriched.find(p=>data.projects.filter(q=>q.projectName===p.projectName).length===1)||enriched[0];
+    const targets=selectedIds?enriched.filter(p=>selectedIds.has(p.id)):enriched;
+    assert.ok(targets.length>0,'No record from requested enrichment input');
+    const target=targets.find(p=>data.projects.filter(q=>q.projectName===p.projectName).length===1)||targets[0];
     const search=page.locator('.evaluation-project-filters input[type="search"]');await search.fill(target.projectName);
     await page.waitForFunction(name=>Array.from(document.querySelectorAll('.evaluation-project-card h3')).some(h=>h.textContent===name),target.projectName);
     const matching=page.locator('.evaluation-project-card').filter({has:page.getByRole('heading',{name:target.projectName,exact:true})});

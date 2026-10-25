@@ -19,3 +19,7 @@ The error is consistent with [Node issue #64061](https://github.com/nodejs/node/
 ## Reproduction
 
 The first input and 578-document review remain unchanged. `reproduce.ts` checks that first input's pinned hash even when later inputs exist. Run `node --import tsx apps/crawler/scripts/enrichment/kaizu-held-followup.ts <output.json>` for the curated follow-up. The importer accepts both immutable inputs and verifies their source proofs. `enrichment-statistical-audit-batch2.json` is the cumulative audit; batch1 remains the historical first increment.
+
+Subsequent disposition of all 33 remaining source-matched documents is recorded in [the finite review report](evaluation-cached-review-completion.md). The figures above describe the previous increment, not an unfinished review queue.
+
+The parent subsequently independently verified full CI success for `683fc2a82a3f347d97b002f739d4c5cfa78e14f7`: [run 40241783912, job 121315176507](https://github.com/Ina299/local_gov_vis/actions/runs/40241783912/job/121315176507), including full crawler/web tests, lint, typecheck, national verification and static export. The runner issue is resolved on that exact head. A later data-review head needs its own CI result.

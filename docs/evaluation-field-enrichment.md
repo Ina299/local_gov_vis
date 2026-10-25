@@ -70,3 +70,5 @@ loopbackで配信し、`BASE_URL`、`BROWSER_RESULT`、必要なら `PLAYWRIGHT_
 補強51自治体の引用・新規文章欄・年度不明フィルタと財政・道路・選挙画面を確認する。
 
 追補: [保留資料の再確認とランナー対策](evaluation-enrichment-followup.md)。初回台帳は履歴として維持し、累積監査は `enrichment-statistical-audit-batch2.json` を参照。
+
+原典一致33資料の有限レビュー結果は [完了範囲と残る根拠不足](evaluation-cached-review-completion.md) を参照。最新の累積監査は `enrichment-statistical-audit-batch3.json`。
