@@ -45,7 +45,8 @@ node --import tsx apps/crawler/scripts/enrichment/reproduce.ts /tmp/evaluation-e
 # 反映済みの入力と表示結果をオフライン再検証
 node --import tsx apps/crawler/src/import-enriched-evaluations.ts --verify
 node --import tsx apps/crawler/src/audit-enriched-evaluations.ts . /tmp/enrichment-audit.json
-# INPUTにはenrichment-provenance.json内inputs[0].pathを指定する
+# INPUTには初回入力を指定する（manifestの配列順には依存しない）
+INPUT=data/evaluations/enrichment-inputs/9c23bb6945c6e7dd48563240cbad65d21d1addacf6d7a695c4f29eac46d061ca.json
 node --import tsx apps/crawler/src/audit-enrichment-reviews.ts . \
   data/evaluations/enrichment-review-batch1 "$INPUT" /tmp/enrichment-review.json
 ```
@@ -67,3 +68,5 @@ node --import tsx apps/crawler/src/audit-enrichment-reviews.ts . \
 loopbackで配信し、`BASE_URL`、`BROWSER_RESULT`、必要なら `PLAYWRIGHT_MODULE` と
 `CHROMIUM_PATH` を指定する。原典リンクは検査だけ行い、外部通信を遮断する。
 補強51自治体の引用・新規文章欄・年度不明フィルタと財政・道路・選挙画面を確認する。
+
+追補: [保留資料の再確認とランナー対策](evaluation-enrichment-followup.md)。初回台帳は履歴として維持し、累積監査は `enrichment-statistical-audit-batch2.json` を参照。

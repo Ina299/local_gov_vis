@@ -10,7 +10,9 @@ const out=resolve(process.argv[2]),pub=join(root,'apps/web/public'),rel=relative
 if(!rel||(!rel.startsWith('..'+sep)&&rel!=='..'))throw Error('Output must be outside public');
 await mkdir(out,{recursive:false});
 const manifest=JSON.parse(await readFile(join(root,'data/evaluations/enrichment-provenance.json'),'utf8'));
-const inputDate=JSON.parse(await readFile(join(root,manifest.inputs[0].path),'utf8')).generatedAt;
+const originalInput=manifest.inputs.find((i:{sha256:string})=>i.sha256==='9c23bb6945c6e7dd48563240cbad65d21d1addacf6d7a695c4f29eac46d061ca');
+assert.ok(originalInput,'Original batch must remain pinned');
+const inputDate=JSON.parse(await readFile(join(root,originalInput.path),'utf8')).generatedAt;
 for(let i=1;i<=5;i++)await copyFile(join(root,`data/evaluations/enrichment-review-batch1/assignment-${i}.json`),join(out,`assignment-${i}.json`));
 const run=(args:string[],exe=process.execPath)=>{const p=spawnSync(exe,args,{cwd:root,stdio:'inherit'});if(p.status!==0)throw Error(`Reproduction failed: ${args[0]}`);};
 run(['apps/crawler/src/evaluations/enrichment/assignment1.mjs',root,out]);
@@ -25,8 +27,8 @@ for(let i=1;i<=5;i++){
  patches.push(...JSON.parse(await readFile(join(out,`patches-${i}.json`),'utf8')).patches);
  assert.deepEqual(JSON.parse(await readFile(join(out,`review-${i}.json`),'utf8')),JSON.parse(await readFile(join(root,`data/evaluations/enrichment-review-batch1/review-${i}.json`),'utf8')),`Review ${i} differs`);
 }
-assert.equal(manifest.inputs.length,1);
+
 const input={schemaVersion:1,generatedAt:inputDate,patches};
-assert.deepEqual(input,JSON.parse(await readFile(join(root,manifest.inputs[0].path),'utf8')),'Published patches differ');
+assert.deepEqual(input,JSON.parse(await readFile(join(root,originalInput.path),'utf8')),'Published patches differ');
 await writeFile(join(out,'all-patches.json'),JSON.stringify(input)+'\n');
 console.log(JSON.stringify({reproduced:true,patches:patches.length,documents:578}));
