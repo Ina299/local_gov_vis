@@ -1,0 +1,1268 @@
+{
+  "schemaVersion": 1,
+  "phase": "cached-continuation-layout",
+  "baseline": "21d6257704efd2429d7ec62c5906884f42c3e750",
+  "baselineIndexSha256": "7d590377c2cd01d897cff873e975bf09d0ef6b2b7581bfe441e635b295667278",
+  "generatedAt": "2026-10-26T00:29:00.000Z",
+  "offlineOnly": true,
+  "sourceRequests": 0,
+  "inventorySha256": "be13a81b490f1866ca67ac22f7e0ea69804f4be4ce7ff17a641382640df3e7ba",
+  "completedCohortSha256": "e621f76291cf826b1b10b6d76b38b82e7a8ba3a848ac8675f5801c816b33949d",
+  "scope": "Bounded cached continuation and layout cohort; existing annual records are preserved and deduplicated. No nationwide completeness claim.",
+  "inventoryEntries": 21,
+  "verifiedTextAssets": 19,
+  "municipalitiesWithAdditions": 4,
+  "recordsAdded": 301,
+  "existingRecordsEnriched": 0,
+  "existingFieldsAdded": 0,
+  "amountsAdded": 0,
+  "indicatorsAdded": 0,
+  "reviews": [
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "243c15b265baf13353badc26",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-73.pdf",
+      "sourceSha256": "8608ec72e9d0644f380e56c4941691702c454a7f26883fd533c0bf831ab4a683",
+      "fetchedAt": "2026-10-23T22:54:47.894Z",
+      "textSha256": "b515ebf3d2bb3a580dc624121491f83a25fa768743fdf8a3a80044a89e4abcaf",
+      "truncated": false,
+      "parts": [],
+      "acceptedIds": [
+        "cached-01202-a69e5691e5b008a3e270758b"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "3fbbe92364c49a696cc5c046",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-83.pdf",
+      "sourceSha256": "141a48c4a1692fa778924d5b49e6fbc5c6939e12f560d3126bf05a34edf6bd12",
+      "fetchedAt": "2026-10-23T22:55:01.000Z",
+      "textSha256": "e4ea78642be7b5f0f7eef20c211e73a72091347e7b87d58d597b07995c0fe4f9",
+      "truncated": false,
+      "parts": [],
+      "acceptedIds": [
+        "cached-01202-f97fb65f6cc108a9cbb93ce3"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "437e876fbcb89bd8638965a3",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-27.pdf",
+      "sourceSha256": "b9492d26be13f37deca54a7f24f93d5111079c724ae9fefc83853fd2d19c7697",
+      "fetchedAt": "2026-10-23T22:55:03.003Z",
+      "textSha256": "610d667d03059b75307c25ddba754942f1b8df964c0f585a6c20bfc32c2e65b1",
+      "truncated": false,
+      "parts": [],
+      "acceptedIds": [
+        "cached-01202-9cb39c45e1aae79652748125"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "4d8f0b134a2243622b70f664",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-74.pdf",
+      "sourceSha256": "53722ddd280eb398ab32231bc60a4e752322fc54dc486cb9433a82ad44ac5220",
+      "fetchedAt": "2026-10-23T22:55:09.581Z",
+      "textSha256": "f9cbdeba49466b7f9b94c8211b71a195f9d28d26aa0722269434726444c06c70",
+      "truncated": false,
+      "parts": [],
+      "acceptedIds": [
+        "cached-01202-8b2f15838465181b7b9ffab6"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "5df180eb0a39be17295a3185",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-88.pdf",
+      "sourceSha256": "dcbbbec973e64d448fad0a7ac5c1e6e6790b32350e30a5c09216719ed8f888f2",
+      "fetchedAt": "2026-10-23T22:55:21.801Z",
+      "textSha256": "17a7f37ec1f1d88c87527ce2b41a3846113d23340fe5b3e040c78be3ee4ec11f",
+      "truncated": false,
+      "parts": [],
+      "acceptedIds": [
+        "cached-01202-9d5337c725a7e8dc6225effb"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "680831a1a8db90cbd5492e02",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-81.pdf",
+      "sourceSha256": "b9a9948130c039420e496bfbb7345a5190515c06b37c74fada91dc81d3f3f221",
+      "fetchedAt": "2026-10-23T22:55:28.164Z",
+      "textSha256": "172f10d7e6c36f16f96706d0e9a24d41291fc5c1e3d6bcb9ddf440bb86027526",
+      "truncated": false,
+      "parts": [],
+      "acceptedIds": [
+        "cached-01202-968bc323477dbfb99065c825"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "a879ee105ce97de36a12f09a",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-04.pdf",
+      "sourceSha256": "bebe4dc74ad5af3875e30bda0294c08e4d89f542ec61802493c9468a32c26190",
+      "fetchedAt": "2026-10-23T22:56:15.686Z",
+      "textSha256": "aa464fdc8dba7c4139f5d8d4b8dbe732098ce6f6958885d16caa37bc9b87fec5",
+      "truncated": false,
+      "parts": [],
+      "acceptedIds": [
+        "cached-01202-be174223484ce3bc71e94831"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "aad129e7843788de350409cf",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-84.pdf",
+      "sourceSha256": "f8ee9d95b43dec6372ec89e4ca4e19beb26d012dcf79c33acf1d8bc298233b43",
+      "fetchedAt": "2026-10-23T22:56:23.710Z",
+      "textSha256": "4e1bae4ed828de4bb50be12838e960392d8328c422050e621773f614e059bdf5",
+      "truncated": false,
+      "parts": [],
+      "acceptedIds": [
+        "cached-01202-e7b5938ec398559923357483"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "aba5b266f966ab923eecba49",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-25.pdf",
+      "sourceSha256": "5575e090f264fad1877dcdf4b4688e8ee266e4bf046238b5eca2ee640b1428c2",
+      "fetchedAt": "2026-10-23T22:56:25.610Z",
+      "textSha256": "7fad1d524e08998874ac863c7913a8f1005ae46a0dfb36ff38db45fa7b16bbc9",
+      "truncated": false,
+      "parts": [],
+      "acceptedIds": [
+        "cached-01202-3bda538aecce21d08942ecd0"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "b76df19b49952abb410fb3c0",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-76.pdf",
+      "sourceSha256": "da6b95995f5fedc9c122ecc8e5c065937b3ad02886c4bc78ea670e2d9283760d",
+      "fetchedAt": "2026-10-23T22:56:37.494Z",
+      "textSha256": "0d81e44182895daf0295d1ed46f0130fb1262d1b10df8ea8a44048ee7c6c4e38",
+      "truncated": false,
+      "parts": [],
+      "acceptedIds": [
+        "cached-01202-3a7f2a244f4e1ff26c63192e"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "cdc2dea5990d676309f6b025",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-80.pdf",
+      "sourceSha256": "208ff66b1d316b402f32a2b3d11511b2b82b9aafeb9db322adcd77c3b0de32a9",
+      "fetchedAt": "2026-10-23T22:56:57.183Z",
+      "textSha256": "14c858d54e430c96ad90a7775e1333d603cc2433b6258751b40adc36a9e81e2f",
+      "truncated": false,
+      "parts": [],
+      "acceptedIds": [
+        "cached-01202-3fa5eb594d3347daf27d6771"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01212",
+      "municipalityName": "留萌市",
+      "sourceId": "67c3262684f9e2cb2c7b0a4b",
+      "sourceUrl": "https://www.e-rumoi.jp/soumu/sou_00011.html",
+      "sourceSha256": "5e8d91793ecbcaba7f992123e219b404701bbb468a6aea021ae9d5cb87ec564b",
+      "fetchedAt": "2026-10-23T22:53:20.746Z",
+      "textSha256": null,
+      "truncated": null,
+      "parts": [],
+      "acceptedIds": [],
+      "status": "held",
+      "reason": "No readable cached text; this is an evidence-availability condition, not a new access test"
+    },
+    {
+      "municipalityCode": "05327",
+      "municipalityName": "上小阿仁村",
+      "sourceId": "a86ace3177f71817528ab4e8",
+      "sourceUrl": "https://www.vill.kamikoani.akita.jp/Link/Pdf/1836",
+      "sourceSha256": "e0167f7d9644ea1b8814cc8dab8c6aeb2292b199f8fdffdd5d40123b140e6532",
+      "fetchedAt": "2026-10-23T22:53:20.508Z",
+      "textSha256": null,
+      "truncated": null,
+      "parts": [],
+      "acceptedIds": [],
+      "status": "held",
+      "reason": "No readable cached text; this is an evidence-availability condition, not a new access test"
+    },
+    {
+      "municipalityCode": "11243",
+      "municipalityName": "吉川市",
+      "sourceId": "e77c0e1cc6cbbc4834ff478b",
+      "sourceUrl": "https://www.city.yoshikawa.saitama.jp/index.cfm/27,113808,c,html/113808/20260828-114558.pdf",
+      "sourceSha256": "ba00756a952e9af5fabacb96d7c9208aa5559d1598b4dcff499d2bdffe60c49f",
+      "fetchedAt": "2026-10-23T22:54:57.446Z",
+      "textSha256": "20c25544c28ea2505c3e7a947df699d04f005923ca12e54ce3371acd51752aaf",
+      "truncated": false,
+      "parts": [
+        {
+          "assetBytes": 230518,
+          "assetPath": "documents/e77c0e1cc6cbbc4834ff478b-2.json",
+          "assetSha256": "2b4ab8baa5cf0abb12b701fdc3d8e2051eee0d25c8c51d3601efc56bbaa70539",
+          "exportedCharacters": 90828,
+          "part": 2,
+          "startCharacter": 120000,
+          "textSha256": "13dd75ec6893e1bba6415ffc8bb9bd84bbb961de5f4e15f06a6783f0fad72165"
+        }
+      ],
+      "acceptedIds": [
+        "cached-11243-f128d8be5e595ce8aab9e133",
+        "cached-11243-40177a8a8f1b191b2b66dd06",
+        "cached-11243-e5cb993728c4095a334ab8f1",
+        "cached-11243-e175793f0ec3d41362817ac5",
+        "cached-11243-ecf747bb911e180ac41839e3",
+        "cached-11243-372e0812ae035dde8bff082e",
+        "cached-11243-17ac700e6fe24c4d4a945d5f",
+        "cached-11243-4d44f13d365c6b5620e51a23",
+        "cached-11243-911682a7783b5bfc5cd91c11",
+        "cached-11243-dcf7e829d6a944500ddc546c",
+        "cached-11243-a6665fac399a17ea3676802e",
+        "cached-11243-ff1c606338f2d57f22f39123",
+        "cached-11243-06cea1c439853138ba48f5d2",
+        "cached-11243-3dc0a5f6baa39776f800f065",
+        "cached-11243-c851db0d8dc6b106d364ab56",
+        "cached-11243-251fcdad1f93dd635937e07d",
+        "cached-11243-07a3db8c3747d59f09ba9c00",
+        "cached-11243-d3933e7b4c398bdc710e585e",
+        "cached-11243-2ef1654c92d0d78b71306df7",
+        "cached-11243-be9c845d93de1fa305718b01",
+        "cached-11243-655993dae647bb9adc521e90",
+        "cached-11243-32af465d67e3912ee4b485af",
+        "cached-11243-1ccdcb1d5055715032f45bb6",
+        "cached-11243-6e3ab811730b672c4213b2d2",
+        "cached-11243-8be1c77307f0ae7cd0b39778",
+        "cached-11243-09fc36d21873951136f7fa16",
+        "cached-11243-64fb19fcafb37e5d3afb7929",
+        "cached-11243-be1695d10e99bf0217534fdc",
+        "cached-11243-6679f24c73d9aff3743466cf",
+        "cached-11243-6979528daad8a8c5370967a7",
+        "cached-11243-3ce4c8bf038aec4957994174",
+        "cached-11243-cc2d3833160814233ca6866f",
+        "cached-11243-84221c2ea5e6fac74bacade8",
+        "cached-11243-8fac32ea6419331f34d2de33",
+        "cached-11243-a01e1925061abd78afc11064",
+        "cached-11243-33f48887c57b3af963f65615",
+        "cached-11243-30982e1d58d3d74276b933b3",
+        "cached-11243-1733e9dbf1ccc2820764be7c",
+        "cached-11243-dc85ea8ff99df398d1e3f22f",
+        "cached-11243-6876751aefc3776ac7a331cf",
+        "cached-11243-e63ea8941cd0c061c93c9c85",
+        "cached-11243-0a5ce0364e5a8b9706687d7f",
+        "cached-11243-2b21311b714bf2981dd571fa",
+        "cached-11243-c558c0df5dc407ab3dd3ef74",
+        "cached-11243-c6e27f622506ac11f24e90e9",
+        "cached-11243-63dc3926bb42e3dc70eab8f3",
+        "cached-11243-6d35e3b149ee7a5f29e13a07",
+        "cached-11243-1f826a843732853a13049395",
+        "cached-11243-6e35d6b44d1deecffe224e66",
+        "cached-11243-b000873e79ec3c4ca4f99b9e",
+        "cached-11243-1c86bd6fa61a5977a8dbd3a1",
+        "cached-11243-d07b0a47945117ad22e9ae31",
+        "cached-11243-e8427ec7ad1bb5cd96b6e297",
+        "cached-11243-7c9e267b532f7c456f7d52e9",
+        "cached-11243-336f3f092b34e4fb391ae0a6",
+        "cached-11243-115d72800c274626cd6a23c9",
+        "cached-11243-534249119d23a1ff73853d97",
+        "cached-11243-64a70b30e08d3a5b9df6cd5a",
+        "cached-11243-749e9146fb0822b194d0ae34",
+        "cached-11243-5a21056820f37b534a0b51e7",
+        "cached-11243-9754aaf85ec06d6cfde7d3cd",
+        "cached-11243-7e15cc7d5a24551825c5bcae"
+      ],
+      "holds": [
+        {
+          "unit": "cached-11243-02c6574020363c598b587ed9",
+          "reason": "Identity collision (same period): 11243 学校給食センター管理事業 incoming=cached-11243-02c6574020363c598b587ed9 existing=cached-11243-0a0a5fa8b2dbad120598914b; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-11243-5beb9899b9607ad920702044",
+          "reason": "Identity collision (same period): 11243 学校運営事業（小学校） incoming=cached-11243-5beb9899b9607ad920702044 existing=cached-11243-7eb95a76ff698eeb2b1cf380; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-11243-561721c67b710859e5ea6f8d",
+          "reason": "Identity collision (same period): 11243 学校運営事業（中学校） incoming=cached-11243-561721c67b710859e5ea6f8d existing=cached-11243-afccf7a8ec78a48884e6010c; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-11243-ea172c3f6dee1154cc799763",
+          "reason": "Identity collision (same period): 11243 社会教育推進事業（社会教育総務費） incoming=cached-11243-ea172c3f6dee1154cc799763 existing=cached-11243-25756a4afb8b06ce9e66e540; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-11243-efcdeb1c87ca714ce5d5637e",
+          "reason": "Identity collision (same period): 11243 家庭教育推進事業 incoming=cached-11243-efcdeb1c87ca714ce5d5637e existing=cached-11243-1a592360106ae841f6dc4c02; review reprint vs distinct business vs correction"
+        }
+      ],
+      "candidateRecords": 67,
+      "status": "partially_accepted"
+    },
+    {
+      "municipalityCode": "12204",
+      "municipalityName": "船橋市",
+      "sourceId": "15d7a81b4fe97d1c76a9f9f9",
+      "sourceUrl": "https://www.city.funabashi.lg.jp/shisei/keikaku/007/p145689_d/fil/00_07jigyohyoka.pdf",
+      "sourceSha256": "280d92350a2a442f040ea5067e45be0c26fbde7e0458921573b60a29c87577f4",
+      "fetchedAt": "2026-10-23T22:54:10.303Z",
+      "textSha256": "4c648212c2606422663241a48dda8fa79ae1f3480fbe6f2e3c6ebfd6feeca448",
+      "truncated": false,
+      "parts": [],
+      "acceptedIds": [
+        "cached-12204-e3e8b5cf49e1406a04248fb0",
+        "cached-12204-91ce551338476a4e0aa4d462",
+        "cached-12204-3427797a8ddfefc3ce739be0",
+        "cached-12204-6966527309e1ba128fcd2af3",
+        "cached-12204-aba7bcedfd95e18112f32e82",
+        "cached-12204-311a7224028d700886683a8e",
+        "cached-12204-1b238222b085e8f03fbbef2f",
+        "cached-12204-843a4631ce7f249747987e02",
+        "cached-12204-13e3cff723ca7e11516b6bea",
+        "cached-12204-9ac7f052e126975174a5351b",
+        "cached-12204-76a991ce9c01e0643c99c8e2",
+        "cached-12204-93b112661c45ca8e2800df0b",
+        "cached-12204-1d971f9c06abd3dafdc4d205",
+        "cached-12204-b135b9504482790ffb4cbb23",
+        "cached-12204-200850ee6c3900438f15b670",
+        "cached-12204-1d3ffbd7ef27298714838261",
+        "cached-12204-ecb0a8e6098a07523587f557",
+        "cached-12204-f2b891b7e18b3b9baf6d11cb",
+        "cached-12204-a0aad0e1505967a54f58a829",
+        "cached-12204-da0404ac83c4c33f4f149094"
+      ],
+      "holds": [],
+      "candidateRecords": 20,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "37206",
+      "municipalityName": "さぬき市",
+      "sourceId": "015be81566c7f99ca7c6dff1",
+      "sourceUrl": "https://www.city.sanuki.lg.jp/material/files/group/7/r711_2sougoukeikaku_chuki_jisshi04.pdf",
+      "sourceSha256": "5d08886b493ab5fac4e3b62db2c41135c822db8df27db2e7a9fe614dd8cc3361",
+      "fetchedAt": "2026-10-23T22:54:31.615Z",
+      "textSha256": "0e20b5d76a826f697010c2367befa6de70cefa91e4d2d7c98ef752b97649e7e9",
+      "truncated": false,
+      "parts": [
+        {
+          "assetBytes": 143213,
+          "assetPath": "documents/015be81566c7f99ca7c6dff1-2.json",
+          "assetSha256": "6916a548b3f370ebf934ed3aa4eb81dffc4e0edbc5e02cf0a81fb582ea0b3dcf",
+          "exportedCharacters": 54978,
+          "part": 2,
+          "startCharacter": 120000,
+          "textSha256": "14770de792e65cc8079260adacd5a0b74b7de7a1f61c9a4a03de29991a00e465"
+        }
+      ],
+      "acceptedIds": [
+        "cached-37206-b9c4d76600532303772e1408",
+        "cached-37206-90bed0b4b0ffc97856208fcf",
+        "cached-37206-350073fe4cb477556108d711",
+        "cached-37206-0ea457acb5de391cce7b0bad",
+        "cached-37206-ee72f840abf3e8762c90bd73",
+        "cached-37206-1c4b1c15e8d8fbb05795d4f4",
+        "cached-37206-85210aa0b254d44165a8f9a5",
+        "cached-37206-8aa952c7b979f1e20e1b4339",
+        "cached-37206-8189255727f71a7ff4c9a158",
+        "cached-37206-ca59c6b618819e30951911cc",
+        "cached-37206-45da621595001ff4f4412f5d",
+        "cached-37206-6f37431720d8f7b5939849f3",
+        "cached-37206-7bf03731c90184ada9901299",
+        "cached-37206-2e0d1487be8e41417422bed3",
+        "cached-37206-ab0269bcb2b84467ae4a94c5",
+        "cached-37206-2ba52d2f26a1d3b18bde5618",
+        "cached-37206-74d889ebba5923d03b10a09c",
+        "cached-37206-a819d8b1a9896d18ab51a60e",
+        "cached-37206-7957934ad2ea61a23e27bc05",
+        "cached-37206-02908936954090164c630295",
+        "cached-37206-e48a743c4bef63a4fa7b8c5e",
+        "cached-37206-66b3eb2527d92202b2bf395e",
+        "cached-37206-887a6477c49264fa007ab6cb",
+        "cached-37206-44eec3c5d0b4d1f0e39868f0",
+        "cached-37206-b9540df1b215110dde51b3be",
+        "cached-37206-b1e785831165c3b1db8f2fc7",
+        "cached-37206-fe2e5330105284d3df4d5ac9",
+        "cached-37206-d6426d4a74089e70ffde0ccb",
+        "cached-37206-d8e7d9f64f03187c998dd42e",
+        "cached-37206-c68872f209a9c6f2470b9339",
+        "cached-37206-f052748daa427afa0099171d",
+        "cached-37206-a42025754a4d3a41d46ba107",
+        "cached-37206-7edd24e538556aaa3d62b6f8",
+        "cached-37206-8decbf8659025210a4daa39c",
+        "cached-37206-014448dae40944921e3f96f4",
+        "cached-37206-0ec2668f7b62f3badcd95464",
+        "cached-37206-a442e6225184472a296f5f31",
+        "cached-37206-1688632346ae5e55070dcddc",
+        "cached-37206-ebb2fcd800a9dd9c9c379867",
+        "cached-37206-737f7983a04a7f12809e7146",
+        "cached-37206-5d450a0ef5e299b487fd4016",
+        "cached-37206-43a470f97c0c3b523d8cc61e"
+      ],
+      "holds": [
+        {
+          "unit": "cached-37206-6f31b300d33a412fd2f50010",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-7c9e8d38d1d7ac9f1808aace",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-d9d68bea2a53acbef143b6ed",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-8453da904b03ea9a1fc35686",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-a19617388a636fb9a6b23545",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-0d7f16aba5fedfd23cfd1875",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-a6996391c1d4d0853a861658",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-bc9524f673d1b6008ccff57e",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-389ab7f97f0f1d189720d6a5",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-7040131769d4bc3ea607982d",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-91f0d09638e252ba8b5477fb",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-3f710da71b4e477ab1ec9b25",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-8559fc0b2617bb69b44a64fe",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-b22fa7a57ac360d9fc3958ff",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-b55b994a576b31b09668ff46",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-54e4a0d2e9b7c7d3941af0d6",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-78e5da9183e58153a4bd4809",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-96a77a32e756836f200eeb66",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-5fc862ad2260dbf7b75c8ca4",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-a080c208a5ee1d46c4550c2f",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-f79e527879b278d3aa10cdd8",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-85fb67e3aca27086d44d46df",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-305d7505dee91a790444a570",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-20f26de16f4f99bcf01c8c01",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-e2a107d67f9d2085fa2d6964",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-4f9e84f36de9c89027be6c75",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-764ffd3f7d3ca73cab131b5d",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-203baa9288cb321c0d8a1b81",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        }
+      ],
+      "candidateRecords": 70,
+      "status": "partially_accepted"
+    },
+    {
+      "municipalityCode": "37206",
+      "municipalityName": "さぬき市",
+      "sourceId": "6000164feeffb3bf81208d35",
+      "sourceUrl": "https://www.city.sanuki.lg.jp/material/files/group/7/r711_2sougoukeikaku_chuki_jisshi03.pdf",
+      "sourceSha256": "74dcb8051274a31f99c443f22dc651fbd8425b56ab185bfd31075ac751ab4449",
+      "fetchedAt": "2026-10-23T22:54:26.927Z",
+      "textSha256": "0cef5b3197c0a244dda2ac663d088f52a763f90ced78d8e0855e13ce825f7ccb",
+      "truncated": false,
+      "parts": [
+        {
+          "assetBytes": 310005,
+          "assetPath": "documents/6000164feeffb3bf81208d35-2.json",
+          "assetSha256": "942d18d74934d7a084e69570e8c672096f95746f14ebf624719d03c18a9a6c59",
+          "exportedCharacters": 120000,
+          "part": 2,
+          "startCharacter": 120000,
+          "textSha256": "4a57c96ec45b8af5375d12c3adcb93c82ba764bfd4a44357bbb0d989660ba1a4"
+        },
+        {
+          "assetBytes": 17334,
+          "assetPath": "documents/6000164feeffb3bf81208d35-3.json",
+          "assetSha256": "972c1ce09431ca25056e195115b0f1badf9f3c074642bec9f01d2bbc5cf91600",
+          "exportedCharacters": 6522,
+          "part": 3,
+          "startCharacter": 240000,
+          "textSha256": "1fa37d02dd1647932b8a3931068c71c95b6332c7c674b71539e660d36160592c"
+        }
+      ],
+      "acceptedIds": [
+        "cached-37206-86c300fa6ccdfbf54535c7f9",
+        "cached-37206-b5c70c1d7ece819d0395270e",
+        "cached-37206-9c8385855934cf33a0daa485",
+        "cached-37206-d21828b6735e234bc91a1fd9",
+        "cached-37206-637b2a3367212552369060f2",
+        "cached-37206-c19257717ea2b340d916b949",
+        "cached-37206-a30b0fe7d841bd5364158f2a",
+        "cached-37206-f6d7969b4cf893a9989492d4",
+        "cached-37206-7c11e095abaf15a3ceee5bb6",
+        "cached-37206-0b5d8d0905868de16a9d601a",
+        "cached-37206-d47bff918daf3ac9122db4fd",
+        "cached-37206-0429584c88c3d1fc36905370",
+        "cached-37206-74ad4eb395df3a8ade31a10c",
+        "cached-37206-152efc703fc904ad1a23f50d",
+        "cached-37206-3c4d8d33d8f1a534df8f4a6c",
+        "cached-37206-0dc0fb2d2857df19624a2f36",
+        "cached-37206-345538dff0a96a564b735b76",
+        "cached-37206-2a25db83e6db99a38d954985",
+        "cached-37206-c42183ed4cf05e716a890be8",
+        "cached-37206-11916b274c2c82b40938ac40",
+        "cached-37206-e32ea5466eda7bd73ff6b644",
+        "cached-37206-03b735865a78148ab40648a6",
+        "cached-37206-c11fa76e758d54649f565cc0",
+        "cached-37206-fdfdabff7a081d996ce5d40f",
+        "cached-37206-2720dbca6b967ea2355bcfa1",
+        "cached-37206-60d408aca69cdd9843212103",
+        "cached-37206-a6c6cae4148f9f4c7fc72425",
+        "cached-37206-1e475406232b9433c334d0ce",
+        "cached-37206-59601549172229ca383ea586",
+        "cached-37206-285affa31a13f6ad5910a898",
+        "cached-37206-4dcc2d6c2fbf65486c067a32",
+        "cached-37206-0cba067d0bee9f2f18017ef3",
+        "cached-37206-b381b006d2e159dbefe9a321",
+        "cached-37206-5ec2e1fafa08549034e4194d",
+        "cached-37206-167111ba4a235d5d6887ce0d",
+        "cached-37206-22d83d8af97a10abaea178e9",
+        "cached-37206-276729791582b305b36f720c",
+        "cached-37206-02c0c25b193f4ae9c847aeaf",
+        "cached-37206-727e69a874cd441e97f6a11c",
+        "cached-37206-0176329410e9458a10df3054",
+        "cached-37206-bb29e113fc49775220a43d2c",
+        "cached-37206-4f222830a28e0be488075d0b",
+        "cached-37206-a115661414e6986b9c0bb89b",
+        "cached-37206-0d7b8f7ae24181519eadd013",
+        "cached-37206-40a3a4b17659322dd0632a87",
+        "cached-37206-fa830f5eefe9bd3389785cc6",
+        "cached-37206-4c2a0ae560dd3e369defc049",
+        "cached-37206-fa2baf93fdde4bfa6ccf1a93",
+        "cached-37206-b6c0abfb6c247da145ee7050",
+        "cached-37206-6956dcf1e5dd73d9ee086d4a",
+        "cached-37206-75cc2e02924c337fb2b632fb",
+        "cached-37206-9620c8a1f751e0ac56b0db97",
+        "cached-37206-8608df9fd0749dfaf52576ba",
+        "cached-37206-f09aae920e772685139fe0f2"
+      ],
+      "holds": [
+        {
+          "unit": "cached-37206-0c0b64e78e1d896dbc9b328e",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-f12bb6d025dda22536f821b3",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-dbf5f1979decd92460556cba",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-2d886e0d14cf17b37913f04f",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-43898c962d78f898aafa8cde",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-4fc46d226105d251287d4120",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-5200a535ceef17c79d0c776a",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-5d4dd61f42f16f3d087c6f24",
+          "reason": "Possible same-period alias/subproject: cached-37206-43898c962d78f898aafa8cde; identical purpose and activity with nested names, requires distinct-business evidence"
+        },
+        {
+          "unit": "cached-37206-9b16d4e41d11f05fdb33a903",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-c18ec765e23eeec9593ff294",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-d86ea29b94facc56152242b0",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-c309c04eb29d1abb98fe3953",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-f09dfe179d1fd6bac7a47fd9",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-c2c96719d87c7902dc189b6d",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-a0f1a6ede8530c1924405f66",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-81bd4ae2a2f58b21b89ea08d",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-b43edd0dda2846647d124639",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-392333cdb84c33d855ee8c50",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-896df188c07a4b085289b021",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-447aa277a51f27abd30845e9",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-e286c8e4ff1c8ec075a1baa4",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-6a528e86399a85ddefc996d8",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-21de1244011dc6ccaa2355bd",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-0d0cca269aa53e2af400db51",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-55d48d677fdfc395c588c1d7",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-f221ee2abf29787a1e464111",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-8fab6b9947a88959d3bee1e7",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-460ad28c2bf057720cf27f31",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-5ea7c8a47c389f110c2aff13",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-0eb34310875a54be41d20cae",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-40c97fd8644fd1235c4157fd",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-9692b419917c9a45a4dd0a53",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-ebdf71d60bcd50d2694db4f4",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-cc000b281307afddeb253a28",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-89e7eb4bd13be803fc1c5d3a",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-7c1094dd37db116be857185b",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-8cf63bb28d45dac44978c5d1",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-d5eb3734110edef6ea9e51a9",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-686e466aa57258c897cfd8f8",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-831674a32e827036422b0158",
+          "reason": "Possible same-period alias/subproject: cached-37206-0b5d8d0905868de16a9d601a; identical purpose and activity with nested names, requires distinct-business evidence"
+        },
+        {
+          "unit": "cached-37206-e3b3d82671ba073ac9b1fe0d",
+          "reason": "Possible same-period alias/subproject: cached-37206-74ad4eb395df3a8ade31a10c; identical purpose and activity with nested names, requires distinct-business evidence"
+        },
+        {
+          "unit": "cached-37206-22d7fcfaa02fb616654a9afd",
+          "reason": "Identity collision (same period): 37206 子育て世代包括支援センター事業 incoming=cached-37206-22d7fcfaa02fb616654a9afd existing=cached-37206-a6c6cae4148f9f4c7fc72425; review reprint vs distinct business vs correction"
+        }
+      ],
+      "candidateRecords": 96,
+      "status": "partially_accepted"
+    },
+    {
+      "municipalityCode": "37206",
+      "municipalityName": "さぬき市",
+      "sourceId": "cb625c09117b6bec9da0a13f",
+      "sourceUrl": "https://www.city.sanuki.lg.jp/material/files/group/7/r711_2sougoukeikaku_chuki_jisshi00.pdf",
+      "sourceSha256": "c11dd35c8fc2e79a69dda941b7380ed62f142c0cb536b6358d4ae6fa801a706f",
+      "fetchedAt": "2026-10-23T22:54:19.031Z",
+      "textSha256": "92c375c84fd40c5fa5b4d913e0c98366b66b8195d030bb7a3e8e1cb4255f57fa",
+      "truncated": false,
+      "parts": [],
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Cover/context only; assessed-year evidence for matching series"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "37206",
+      "municipalityName": "さぬき市",
+      "sourceId": "dc00fdfdacc88d812fad19db",
+      "sourceUrl": "https://www.city.sanuki.lg.jp/material/files/group/7/r603_2sougoukeikaku_kensetsukeizaibu.pdf",
+      "sourceSha256": "fc0c532b5ae9ec839ca00bbd865f94fafab07fcebb68d4876535ad5250babdb5",
+      "fetchedAt": "2026-10-23T22:54:51.768Z",
+      "textSha256": "0dbe46f0da3f3cb71c2a3a3903b83dbce72588e24b41dcf4920265c43853670c",
+      "truncated": false,
+      "parts": [
+        {
+          "assetBytes": 178049,
+          "assetPath": "documents/dc00fdfdacc88d812fad19db-2.json",
+          "assetSha256": "1a3b4aa9d4cda024e14f84f4a4024e6600ab42f0c5ec9d8d4d1a4a7e772f1977",
+          "exportedCharacters": 69128,
+          "part": 2,
+          "startCharacter": 120000,
+          "textSha256": "b343fbd1c56f7889591d3d6e998facf3a13faee4e6f8abce6892a606df4611bf"
+        }
+      ],
+      "acceptedIds": [
+        "cached-37206-c27c5c22227e80a20cd6c8f9",
+        "cached-37206-48e76654d3cae198ad6167ab",
+        "cached-37206-62ee505c4a51b5e0b4b40720",
+        "cached-37206-84160e4b9f94df7e2069fb85",
+        "cached-37206-e9c881a523dc988d386b25a7",
+        "cached-37206-cba4a810fa44f678e3ee24dd",
+        "cached-37206-20d2cf9cd83d29ed772a1e67",
+        "cached-37206-df6d63ab86f7f7c0ecc3506c",
+        "cached-37206-94a60acc996cb626a53addc6",
+        "cached-37206-5a3b255a4cad25845012e93c",
+        "cached-37206-609f2d85c816c226c89da8aa",
+        "cached-37206-d8c5580114b5fd72e0c484a9",
+        "cached-37206-6aa1d7bf21eb1efd478d6a8a",
+        "cached-37206-3fb96778a403a9fef87d7c97",
+        "cached-37206-5c5971735301cc9bb3669753",
+        "cached-37206-95700d5b77d762704718538d",
+        "cached-37206-63d63107f68c244eb6e47d1b",
+        "cached-37206-63c58b4ebf4ff9f1197b40fe",
+        "cached-37206-e76b9e3d5a321e70e035b6ec",
+        "cached-37206-73e9aa5c802b3be7499c3a18",
+        "cached-37206-d26456d702ecac0418a0e0d0",
+        "cached-37206-9b85580049a5371faf2a43e8",
+        "cached-37206-f8aad1da640d7d2abe4ab64a",
+        "cached-37206-f01a9914e8d5cdf7d9f9bc1a",
+        "cached-37206-6c9617e11020874e40a3d711",
+        "cached-37206-c8004eab31e98fd0ca252c23",
+        "cached-37206-19d00cecd720acc88a5421db",
+        "cached-37206-675a1acac8b7fa757daca063",
+        "cached-37206-43e6a48f40e4c4c4ae079945",
+        "cached-37206-f0b4fb2f02ebcf524b2bc57d",
+        "cached-37206-607b804203c43fa53b2caba1",
+        "cached-37206-0661480c0afb7351ef5f160a",
+        "cached-37206-3c7a22340decd767a72018fe",
+        "cached-37206-1285737da4c8aa3e7df03fad",
+        "cached-37206-abb8afcbd218ba64e7851784",
+        "cached-37206-fc9a5cda39b18fd0eb71f329",
+        "cached-37206-b0b6482842ae6deffb4e0d6a",
+        "cached-37206-1a197fb09a83a9b0326383a2",
+        "cached-37206-55d4adf56bef89f16d2354a2",
+        "cached-37206-59aee6a3c1acd79d9e65a589",
+        "cached-37206-7d37cef498e82840863de1aa",
+        "cached-37206-89a2f54eadd696a0e1307b50",
+        "cached-37206-31a953de6bafe04b83c0edfc",
+        "cached-37206-781e7b0590f11f532d38e6c4",
+        "cached-37206-a5c6033108b8672102be824e"
+      ],
+      "holds": [
+        {
+          "unit": "cached-37206-cd50a4712dafc6b656bab9ad",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-21bec6bc080acd38605a88f8",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-bdec2e305506d1ac99ae0bbe",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-df0b8270ef9ef41414d4fa51",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-ddd0e8d96ec2cc1d4880a92f",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-511ae51de79350fe1c74b4c1",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-43b28738b27bf645cc234204",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-2ae81ad09353bf5c0d0974b7",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-b1edcea765a3021745275c99",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-3fa4ec1c300fd7bf0e45961c",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-99958bbcad525df8fb1c8ab0",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-c197a86c81e32a42e7a3a131",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-b081de8ba836a643cf1f79c2",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-b97de34382f38ba8492db6a4",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-4fb6e6b26d2de0bd24ce5fa1",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-2360cf67742fe2c05d3b41b1",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-ddf54adb989de1b508821d8b",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-5294f1c161a5410d03c0b8f0",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-318b43faeccd385c7440702c",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-33bcb5108e03c35e9f0a81af",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-f91f2f110e4d1d0db2c14b3b",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-e56d61a929df89e0aeb8ab46",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-b456131c84b70fb4afdc3c98",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-3fd682386ff8a9ac7d13f80e",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        }
+      ],
+      "candidateRecords": 69,
+      "status": "partially_accepted"
+    },
+    {
+      "municipalityCode": "37206",
+      "municipalityName": "さぬき市",
+      "sourceId": "df52ad93846580efd42de26e",
+      "sourceUrl": "https://www.city.sanuki.lg.jp/material/files/group/7/r603_2sougoukeikaku_chuki_jisshi00.pdf",
+      "sourceSha256": "ee0b4bdc4cf76912a85fb71f313e74a880219573e5713e28bd80f40a43e26428",
+      "fetchedAt": "2026-10-23T22:54:39.214Z",
+      "textSha256": "e1e87dd232b3c665bd6212023ceab299c8853985ea48bf94fc5728b91ae38e40",
+      "truncated": false,
+      "parts": [],
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Cover/context only; assessed-year evidence for matching series"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "37206",
+      "municipalityName": "さぬき市",
+      "sourceId": "eecfd3ba538e2e47637354af",
+      "sourceUrl": "https://www.city.sanuki.lg.jp/material/files/group/7/r603_2sougoukeikaku_kenkofukushibu.pdf",
+      "sourceSha256": "e6a7b299358b05146cb01aa7a80ce8ea5c609d762aa1a04a2cfee06b96c1ea06",
+      "fetchedAt": "2026-10-23T22:54:48.514Z",
+      "textSha256": "856af90d5d0cae78b85d6fc71128fe3156092deef195be6037b98f1b23f1c2e5",
+      "truncated": false,
+      "parts": [
+        {
+          "assetBytes": 306261,
+          "assetPath": "documents/eecfd3ba538e2e47637354af-2.json",
+          "assetSha256": "efe7691474134d970480efab6ea746815fcf4ac9eb0ae28ccf3d6a8d647c90d1",
+          "exportedCharacters": 120000,
+          "part": 2,
+          "startCharacter": 120000,
+          "textSha256": "cb6cbecff10c21ce58cf63a0219d5caa24ef4586f3b09796fe603a55d5d4622a"
+        },
+        {
+          "assetBytes": 99391,
+          "assetPath": "documents/eecfd3ba538e2e47637354af-3.json",
+          "assetSha256": "80162bb64d2330d66d9d0d7b6d7a5b369c9fedc49bdc925ce9105b9473224546",
+          "exportedCharacters": 38577,
+          "part": 3,
+          "startCharacter": 240000,
+          "textSha256": "3486f02537140fa7d5d0e660a16ce4f982e944a4cdab0807af23a06fa4370440"
+        }
+      ],
+      "acceptedIds": [
+        "cached-37206-a5563114741d1427b0fff3f0",
+        "cached-37206-e97362ce75070a2e5ddf3808",
+        "cached-37206-91114b3ab094c02dae12be8e",
+        "cached-37206-9912688e9866ddbaa2c472b6",
+        "cached-37206-c0d20cfa2ae53a3f0bc71a2f",
+        "cached-37206-26c635c543ca475ae6584226",
+        "cached-37206-ec3cc918622e53c7b8696b0b",
+        "cached-37206-0d152488e3045121f288ea74",
+        "cached-37206-687e12825fd23f91ecb14a29",
+        "cached-37206-514ec2736170703ca021ce65",
+        "cached-37206-d0a6b28b7c95b2129ed06367",
+        "cached-37206-2d0e296d87e06b344e17c8d5",
+        "cached-37206-398feaf8e18004ea0c068e64",
+        "cached-37206-0ac22eb88edc6a06458df949",
+        "cached-37206-12c0dcc2ef016a2e0fe22fee",
+        "cached-37206-7faee6802ba967713107b756",
+        "cached-37206-d4b652c044a783ff0b91796f",
+        "cached-37206-f51a4630c8ab9d7b913b5210",
+        "cached-37206-6c1fc408ff839ed55bd91e82",
+        "cached-37206-ec09c257313e7e1710fa4602",
+        "cached-37206-9b65e67c7ad6cd8c9156a818",
+        "cached-37206-478e7a06f4f3acd1cb0c75b1",
+        "cached-37206-299b7c4d702e19371af21151",
+        "cached-37206-a1d955671402efffe7a00f62",
+        "cached-37206-85a932ecd1f4746a71156dce",
+        "cached-37206-0b8a0a6aadbab4411a274d76",
+        "cached-37206-5939c131c773282a5636cd6d",
+        "cached-37206-4caa4d6ccb1ab108c3bca268",
+        "cached-37206-7bea2374433cd4897a82bd8a",
+        "cached-37206-59cd80e39fd3397ba7d4ed6c",
+        "cached-37206-bfe1d2923ea1d453543549a2",
+        "cached-37206-d161b91a1d948d37613223b9",
+        "cached-37206-1c9b92a513a7ea64dd9326a4",
+        "cached-37206-aca112e1eefde8f0999b9c37",
+        "cached-37206-c0a64fb357b84e335f205869",
+        "cached-37206-d0a2a840b82411b748d19277",
+        "cached-37206-83730cdd11563fd99bbeb378",
+        "cached-37206-34fe6c5a6a8968f39569a2e0",
+        "cached-37206-f3948c2dfc80a6d5fa1652d9",
+        "cached-37206-9e2d6c3b327af9fc756bbe4e",
+        "cached-37206-f3da28216eb2380dfbd87abe",
+        "cached-37206-6f38b8bb33eafde1b66e0fe5",
+        "cached-37206-37b935876c67983a194c7234",
+        "cached-37206-a44502de7f369f3546d7232c",
+        "cached-37206-500caf93d0d688cd662fe4cb",
+        "cached-37206-33e8d85b1f6fc51963f72522",
+        "cached-37206-c790c03a4fff8c5376b106c4",
+        "cached-37206-9ffab263615edb06c1c12bd8",
+        "cached-37206-0a2a2b12812f8cd35e724ae0",
+        "cached-37206-2622074f9222ee8aabb369e5",
+        "cached-37206-82b62ea0a55651a797b144da",
+        "cached-37206-c27f15ee16e2430f3e414bf1",
+        "cached-37206-8e5d7e86c798ca6e43444a52",
+        "cached-37206-5c57cf40abce37ff6823f01c",
+        "cached-37206-a95bfad2d5d4c536f67a7975",
+        "cached-37206-aabbe2bc0365e65fcc06f765",
+        "cached-37206-ca6dd73691163fb3d0355ca5",
+        "cached-37206-ddb944cac730c4f013b399db",
+        "cached-37206-ac822e42367c61b558ddc7ae",
+        "cached-37206-e9c62fcd442f5b3c5ba296b0",
+        "cached-37206-0dc1d8eac5dd71b27aa8e961",
+        "cached-37206-0499c30ded2d36f96dead223",
+        "cached-37206-25a2bd2a927896c6e217b1e8",
+        "cached-37206-5da6932062ae01c6635c2315",
+        "cached-37206-e5277e73c75d89874e491fe8",
+        "cached-37206-52d811dc6b923976c14e1b17",
+        "cached-37206-e7afff37d5ad2870439f3c3a"
+      ],
+      "holds": [
+        {
+          "unit": "cached-37206-89180c69b554f4124f03ebf3",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-1ec3b36296400842b6685aa3",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-cef25f105527312e98ce5933",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-e3f925d93f17ec72bc60ffd1",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-833b98191c213b6374a96469",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-06889405f749e784e1e3dc11",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-a1ae0af39f224e07cfd69c29",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-86c5b7fb2d0495a20e0d2e0c",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-411aeef8b0e2111f2997d350",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-43b563b8b3f5f937ed2c5a78",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-e104f44c67703e4fef6fdc40",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-d4475a9f5685859e1e051588",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-01109a496870df0dc2de968b",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-98f0be819e15ae8a3f190bcf",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-81635b9d9c52b50161b16b60",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-74721eceaa5411b6a3622cc8",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-76695e860a0cc266c7b071b2",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-191dc338cd08443827e638f3",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-5997c29f342fae19e4b1d413",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-d50a4801b4ffb90653381dc3",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-e129630da09f9bf90174ec8e",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-7173eebb830b87b46c1b460b",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-9bdc0f282c2a5d6828a7bf95",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-48e5c83fc75a750bc48e847e",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-2f6fe8bf42ef75ff7d945974",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-891252691cb7720cae9bb399",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-2b6d5928100598dcc3a994ab",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-f564e843ce7292e06623250d",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-62a7c246f5a9fde5c1777188",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-47b2a22a87fb20022ef3b82c",
+          "reason": "Already published individual sheet; retain existing values and provenance unchanged"
+        },
+        {
+          "unit": "cached-37206-26e6b4977efc811aca8eec1a",
+          "reason": "Possible same-period alias/subproject: cached-37206-aca112e1eefde8f0999b9c37; identical purpose and activity with nested names, requires distinct-business evidence"
+        },
+        {
+          "unit": "cached-37206-784657369aeb00c49602f3fd",
+          "reason": "Possible same-period alias/subproject: cached-37206-aca112e1eefde8f0999b9c37; identical purpose and activity with nested names, requires distinct-business evidence"
+        },
+        {
+          "unit": "cached-37206-33a0dd5e3153b22dc6141283",
+          "reason": "Possible same-period alias/subproject: cached-37206-aca112e1eefde8f0999b9c37; identical purpose and activity with nested names, requires distinct-business evidence"
+        },
+        {
+          "unit": "cached-37206-878aa93392137e3a0ec2c5f3",
+          "reason": "Identity collision (same period): 37206 子育て世代包括支援センター事業 incoming=cached-37206-878aa93392137e3a0ec2c5f3 existing=cached-37206-6f38b8bb33eafde1b66e0fe5; review reprint vs distinct business vs correction"
+        }
+      ],
+      "candidateRecords": 101,
+      "status": "partially_accepted"
+    }
+  ]
+}

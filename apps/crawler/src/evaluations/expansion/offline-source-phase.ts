@@ -1,5 +1,6 @@
 /** Bounded offline review of batch 12. No network access or inferred table coordinates. */
 import type { ProjectEvaluation } from '../../../../web/src/types/evaluation';
+import { sanukiFooterBindings } from './sanuki-footer-bindings';
 import { evidence, project, type CachedInput } from './shared';
 
 export interface SourceReview { projects: ProjectEvaluation[]; holds: { unit: string; reason: string }[] }
@@ -10,7 +11,7 @@ export const sanukiCovers: Record<string, { id: string; year: number }> = Object
 const norm = (text: string) => text.normalize('NFKC').replace(/\s/g, '');
 const hold = (reason: string): SourceReview => ({ projects: [], holds: [{ unit: 'document', reason }] });
 
-export function reviewOfflineSource(input: CachedInput, title: string, inputs: CachedInput[]): SourceReview {
+export function reviewOfflineSource(input: CachedInput, title: string, inputs: CachedInput[], reviewedLayouts = false): SourceReview {
   const t = input.text;
   if (input.municipalityCode === '01202') {
     if (input.truncated || !norm(t).startsWith('平成27年度函館市事業評価調書') || !t.includes('参考：他の自治体の状況')) return hold('Complete 2015 individual-sheet boundaries not established');
@@ -45,19 +46,44 @@ export function reviewOfflineSource(input: CachedInput, title: string, inputs: C
     const pages = starts.map((start, i) => ({ start, text: t.slice(start, starts[i + 1] ?? t.length) }));
     const result: SourceReview = { projects: [], holds: [] };
     const name = (s: string) => {
-      let n = s.match(/事業名\s*([\s\S]*?)基本目標/)?.[1].trim() ?? '';
+      if (reviewedLayouts) {
+        if (input.sourceId === '015be81566c7f99ca7c6dff1') {
+          for (const curated of ['農業委員会交付金事業', '農地流動化推進事業'])
+            if (s.includes(`農業委員会事務局\n\n${curated}\n\n施策体系`)) return curated;
+        }
+        const header = s.slice(s.indexOf('\n') + 1, s.indexOf('基本目標') > 0 ? s.indexOf('基本目標') : 400);
+        const after = header.match(/事業名[ \t]*([^\n]+)(?:\n|$)/)?.[1].trim();
+        const before = header.match(/([^\n]+)\s*\n事業名\s*(?:\n|$)/)?.[1].trim();
+        const n = after || before;
+        if (n && n.length < 100 && !/担当課|会計|事業名|施策体系/.test(n)) return n;
+      }
+      let n = s.match(reviewedLayouts ? /事業名\s*([\s\S]*?)(?:基本目標|施策体系)/ : /事業名\s*([\s\S]*?)基本目標/)?.[1].trim() ?? '';
       n = n.replace(/^[^\n]+(?:課|局|室|所)\s+担当課\s+/, '');
       if (!n) n = s.match(/^第[^\n]+\n([^\n]+)\s+事業名\s+基本目標/)?.[1].trim() ?? '';
       return n && n.length < 100 && !/担当課|^会計\s|事業名/.test(n) ? n : null;
     };
     for (let i = 0; i < pages.length; i += 2) {
       const first = pages[i], second = pages[i + 1], a = name(first.text), b = second && name(second.text);
-      const page1 = first.text.match(/\n(\d+)\s*(?:実績\s*)?$/), page2 = second?.text.match(/\n(\d+)\s*$/);
+      let page2 = second?.text.match(/\n(\d+)\s*$/);
+      let page1 = first.text.match(/\n(\d+)\s*(?:実績\s*)?$/);
+      // The earlier Sanuki layout exports the final actual-results cell after the printed footer.
+      // Require its explicit label, exactly one matching footer, and the following consecutive page.
+      if (reviewedLayouts && !page1 && page2) {
+        const expected = Number(page2[1]) - 1;
+        const markers = [...first.text.matchAll(new RegExp(`\\n(${expected})\\n\\n実績(?: |\\n)`, 'g'))];
+        if (markers.length === 1 && markers[0].index! > first.text.length / 2) page1 = markers[0];
+      }
+      const footer = reviewedLayouts && sanukiFooterBindings[`${input.sourceId}:${first.start}`];
+      if (footer) {
+        const exact = (text: string, offset: number, number: number) => text.slice(offset).match(new RegExp(`^\\n(${number})\\n`));
+        page1 = exact(first.text, footer.firstOffset, footer.firstPage);
+        if (footer.secondOffset !== undefined) page2 = second && exact(second.text, footer.secondOffset, footer.firstPage + 1);
+      }
       const unit = `chars:${first.start}`;
       if (!second || !a || !b || norm(a) !== norm(b) || !page1 || !page2 || Number(page2[1]) !== Number(page1[1]) + 1 || !second.text.includes('事業の位置付けを踏まえた総括')) {
-        result.holds.push({ unit, reason: 'Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining' }); continue;
+        result.holds.push({ unit, reason: reviewedLayouts ? (!a || !b || norm(a) !== norm(b) ? 'Individual name binding differs between adjacent headers; needs original layout coordinates' : !page1 ? 'First-sheet page number absent from final text position; cannot verify consecutive page pairing without layout coordinates' : !page2 || Number(page2[1]) !== Number(page1[1]) + 1 ? 'Second-sheet ending is not the consecutive page number; complete pairing not verified' : 'Final individual summary absent; complete two-page sheet not established') : 'Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining' }); continue;
       }
-      const boundedPurpose = first.text.match(/\n目的\s*([\s\S]*?)\n\s*項\s*\n/)?.[1].trim();
+      const boundedPurpose = first.text.match(reviewedLayouts ? /\n目的\s*([\s\S]*?)\n(?:\s*(?:項|目|要)\s*\n|\s*会計 01 一般会計\s*\n|\s*\d{2} [^\n]+費\s*\n)/ : /\n目的\s*([\s\S]*?)\n\s*項\s*\n/)?.[1].trim();
       if (!boundedPurpose || boundedPurpose.length > 250 || /会計|財源|計画額|具体的取組/.test(boundedPurpose)) { result.holds.push({ unit, reason: 'Purpose cell boundary not unambiguous' }); continue; }
       const raw = t.slice(first.start, second.start + second.text.length);
       const p = project(input, `sheet-${page1[1]}`, a.replace(/\s*\n\s*/g, ''), null, raw, first.start);

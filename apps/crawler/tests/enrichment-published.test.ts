@@ -55,8 +55,15 @@ test('published enrichment accounts for all 578 reviewed sources and preserves e
  // same coverage to both sides; every old field delta and detailed patch remains identical.
  const addCoverage=(a:any,b:any):any=>Object.fromEntries([...new Set([...Object.keys(a),...Object.keys(b)])].map(k=>[k,
   typeof(a[k]??b[k])==='number'?(a[k]??0)+(b[k]??0):addCoverage(a[k]??{},b[k]??{})]));
- const delta=contentCoverage(additions);
- assert.deepEqual(audit,{...archived,baseIndexSha256:manifest.baseIndexSha256,indexSha256:preservation.indexSha256,
+ const continuation=await read('data/evaluations/continuation-review.json');
+ const continuationPreservation=await read('data/evaluations/continuation-preservation.json');
+ const continuationBatch=supplemental.batches.find((b:any)=>b.generatedAt===continuation.generatedAt);assert.ok(continuationBatch);
+ const continuationAdditions=(await Promise.all(continuationBatch.inputs.map((i:any)=>read(i.path)))).flatMap(d=>d.projects);
+ assert.equal(continuationAdditions.length,301);
+ assert.equal(continuationPreservation.oldRecordsPreservedExactly,92289);
+ assert.equal(continuation.baselineIndexSha256,preservation.indexSha256);
+ const delta=contentCoverage([...additions,...continuationAdditions]);
+ assert.deepEqual(audit,{...archived,baseIndexSha256:manifest.baseIndexSha256,indexSha256:continuationPreservation.indexSha256,
   generatedAt:manifest.generatedAt,before:addCoverage(archived.before,delta),after:addCoverage(archived.after,delta)});
  assert.equal(audit.changedRecords,manifest.statistics.changedRecords);
  assert.deepEqual(audit.filledScalarFields,manifest.statistics.filledFieldsByField);

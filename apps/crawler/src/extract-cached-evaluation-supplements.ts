@@ -27,6 +27,12 @@ if (generatedAt === '2026-10-25T23:37:00.000Z') {
   await reviewOfflinePhase(output, true);
   process.exit(0);
 }
+if (generatedAt === '2026-10-26T00:29:00.000Z') {
+  if (args[5].split(',').sort().join(',') !== '01202,11243,12204,37206') throw new Error('Replay all four continuation/layout municipalities');
+  const { reviewContinuationPhase } = await import('./review-continuation-phase');
+  await reviewContinuationPhase(output, true);
+  process.exit(0);
+}
 const priorStateRule = Date.parse(generatedAt) >= Date.parse(PRIOR_STATE_RULE_SINCE);
 let priorShards: Map<string, Buffer> | undefined;
 async function priorProjects(code: string): Promise<ProjectEvaluation[]> {

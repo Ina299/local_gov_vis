@@ -29,3 +29,20 @@ export async function fullText(evidenceDir: string, source: { id: string; url: s
   if (start !== t.characters || sha256(Buffer.from(text)) !== t.fullTextSha256) throw new Error(`Full text mismatch: ${source.id}`);
   return { text, complete: true };
 }
+
+/** Strict source binding for new continuation review; archived batch replay retains its original rules. */
+export async function verifiedFullText(evidenceDir: string, source: Parameters<typeof fullText>[1], doc: {text: string; textSha256: string; sourceId: string; sourceUrl: string; sourceSha256: string; municipalityCode: string}, municipalityCode: string) {
+  const t = source.text as SourceText & {textSha256: string};
+  if (doc.sourceId !== source.id || doc.sourceUrl !== source.url || doc.sourceSha256 !== source.acquisition.sourceSha256
+    || doc.municipalityCode !== municipalityCode || [...doc.text].length !== t.exportedCharacters
+    || sha256(Buffer.from(doc.text)) !== t.textSha256 || doc.textSha256 !== t.textSha256) throw new Error(`Primary text identity mismatch: ${source.id}`);
+  for (const c of t.continuations ?? []) {
+    if (c.assetPath !== `documents/${source.id}-${c.part}.json`) throw new Error('Invalid continuation path');
+    const part = JSON.parse(await readFile(join(evidenceDir, c.assetPath), 'utf8'));
+    if (part.part !== c.part || part.municipalityCode !== municipalityCode || part.exportedCharacters !== c.exportedCharacters
+      || part.textSha256 !== c.textSha256 || part.fullTextSha256 !== t.fullTextSha256) throw new Error(`Continuation metadata mismatch: ${source.id}`);
+  }
+  const result = await fullText(evidenceDir, source, doc.text);
+  if (result.complete && ([...result.text].length !== t.characters || (t.fullTextSha256 && sha256(Buffer.from(result.text)) !== t.fullTextSha256))) throw new Error(`Complete text length/hash mismatch: ${source.id}`);
+  return result;
+}
