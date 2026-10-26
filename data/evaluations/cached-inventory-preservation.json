@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "baseline": "29f2aed385a4f9909464ba83c5d896dcdd2ed456",
+  "baselineIndexSha256": "e5c5395bfb48c35e92ece631f913850345a1ce50318b741426c51d2855e2b006",
+  "indexSha256": "d7d4deef3f49912a1b6bee402f3e88c4224295b91c5fb0e11f48c5349d5699af",
+  "oldRecordsPreservedExactly": 92590,
+  "newRecords": 25,
+  "existingRecordsEnriched": 0,
+  "existingFieldsAdded": 0,
+  "municipalities": [
+    {
+      "municipalityCode": "01230",
+      "before": 459,
+      "added": 1,
+      "after": 460
+    },
+    {
+      "municipalityCode": "04215",
+      "before": 1692,
+      "added": 4,
+      "after": 1696
+    },
+    {
+      "municipalityCode": "06362",
+      "before": 513,
+      "added": 4,
+      "after": 517
+    },
+    {
+      "municipalityCode": "08204",
+      "before": 74,
+      "added": 1,
+      "after": 75
+    },
+    {
+      "municipalityCode": "11208",
+      "before": 155,
+      "added": 1,
+      "after": 156
+    },
+    {
+      "municipalityCode": "11221",
+      "before": 216,
+      "added": 1,
+      "after": 217
+    },
+    {
+      "municipalityCode": "12232",
+      "before": 214,
+      "added": 5,
+      "after": 219
+    },
+    {
+      "municipalityCode": "13102",
+      "before": 149,
+      "added": 3,
+      "after": 152
+    },
+    {
+      "municipalityCode": "13109",
+      "before": 1855,
+      "added": 1,
+      "after": 1856
+    },
+    {
+      "municipalityCode": "13114",
+      "before": 45,
+      "added": 1,
+      "after": 46
+    },
+    {
+      "municipalityCode": "14100",
+      "before": 2303,
+      "added": 1,
+      "after": 2304
+    },
+    {
+      "municipalityCode": "34369",
+      "before": 139,
+      "added": 1,
+      "after": 140
+    },
+    {
+      "municipalityCode": "42212",
+      "before": 23,
+      "added": 1,
+      "after": 24
+    }
+  ],
+  "enrichmentInputsPreservedExactly": [
+    {
+      "path": "data/evaluations/enrichment-inputs/2f3c31f5436dce90123b43c5db6ddcb607be1051d18c1b6873ddfea7593b4063.json",
+      "sha256": "2f3c31f5436dce90123b43c5db6ddcb607be1051d18c1b6873ddfea7593b4063",
+      "bytes": 405930
+    },
+    {
+      "path": "data/evaluations/enrichment-inputs/85c579bd4b728a7393b12d623229d1c0e9011ce2efff3652664400145e123a74.json",
+      "sha256": "85c579bd4b728a7393b12d623229d1c0e9011ce2efff3652664400145e123a74",
+      "bytes": 10933
+    },
+    {
+      "path": "data/evaluations/enrichment-inputs/9c23bb6945c6e7dd48563240cbad65d21d1addacf6d7a695c4f29eac46d061ca.json",
+      "sha256": "9c23bb6945c6e7dd48563240cbad65d21d1addacf6d7a695c4f29eac46d061ca",
+      "bytes": 19787314
+    }
+  ],
+  "enrichmentStatisticsPreservedExactly": {
+    "patches": 5167,
+    "changedRecords": 5167,
+    "filledFields": 8020,
+    "addedArrayItems": 17404,
+    "duplicateValues": 0,
+    "filledFieldsByField": {
+      "purpose": 3125,
+      "activities": 3039,
+      "outcomes": 1332,
+      "evaluationYear": 231,
+      "evaluatedFiscalYear": 293
+    },
+    "addedArrayItemsByField": {
+      "amounts": 3255,
+      "indicators": 18,
+      "ratings": 10,
+      "evidence": 14121
+    }
+  },
+  "navigationHoldFilePreservedExactly": true,
+  "acquisitionPreflightPreservedExactly": true,
+  "sourceRequests": 0
+}

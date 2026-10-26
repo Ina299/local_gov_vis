@@ -62,8 +62,14 @@ test('published enrichment accounts for all 578 reviewed sources and preserves e
  assert.equal(continuationAdditions.length,301);
  assert.equal(continuationPreservation.oldRecordsPreservedExactly,92289);
  assert.equal(continuation.baselineIndexSha256,preservation.indexSha256);
- const delta=contentCoverage([...additions,...continuationAdditions]);
- assert.deepEqual(audit,{...archived,baseIndexSha256:manifest.baseIndexSha256,indexSha256:continuationPreservation.indexSha256,
+ const inventory=await read('data/evaluations/cached-inventory-review.json');
+ const inventoryPreservation=await read('data/evaluations/cached-inventory-preservation.json');
+ const inventoryBatch=supplemental.batches.find((b:any)=>b.generatedAt===inventory.generatedAt);assert.ok(inventoryBatch);
+ const inventoryAdditions=(await Promise.all(inventoryBatch.inputs.map((i:any)=>read(i.path)))).flatMap(d=>d.projects);
+ assert.equal(inventoryAdditions.length,25);assert.equal(inventoryPreservation.oldRecordsPreservedExactly,92590);
+ assert.equal(inventory.baselineIndexSha256,continuationPreservation.indexSha256);
+ const delta=contentCoverage([...additions,...continuationAdditions,...inventoryAdditions]);
+ assert.deepEqual(audit,{...archived,baseIndexSha256:manifest.baseIndexSha256,indexSha256:inventoryPreservation.indexSha256,
   generatedAt:manifest.generatedAt,before:addCoverage(archived.before,delta),after:addCoverage(archived.after,delta)});
  assert.equal(audit.changedRecords,manifest.statistics.changedRecords);
  assert.deepEqual(audit.filledScalarFields,manifest.statistics.filledFieldsByField);

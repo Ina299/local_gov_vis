@@ -27,6 +27,12 @@ if (generatedAt === '2026-10-25T23:37:00.000Z') {
   await reviewOfflinePhase(output, true);
   process.exit(0);
 }
+if (generatedAt === '2026-10-26T01:12:00.000Z') {
+  if (args[5].split(',').sort().join(',') !== '01230,04215,06362,08204,11208,11221,12232,13102,13109,13114,14100,34369,42212') throw new Error('Replay all thirteen systematic-inventory municipalities');
+  const { reviewCachedInventory } = await import('./review-cached-inventory');
+  await reviewCachedInventory(output,true);
+  process.exit(0);
+}
 if (generatedAt === '2026-10-26T00:29:00.000Z') {
   if (args[5].split(',').sort().join(',') !== '01202,11243,12204,37206') throw new Error('Replay all four continuation/layout municipalities');
   const { reviewContinuationPhase } = await import('./review-continuation-phase');
