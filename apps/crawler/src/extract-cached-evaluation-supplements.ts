@@ -27,6 +27,12 @@ if (generatedAt === '2026-10-25T23:37:00.000Z') {
   await reviewOfflinePhase(output, true);
   process.exit(0);
 }
+if (generatedAt === '2026-10-26T01:55:00.000Z') {
+  if (args[5].split(',').sort().join(',') !== '01204,01209,01230,01692,03203,03205,05348,07203,07214,08222,11211,11343,12213,13109,13223,14205,21216,27140,30391,42211,46223') throw new Error('Replay all reviewed cached-family municipalities');
+  const { reviewCachedFamilies } = await import('./review-cached-families');
+  await reviewCachedFamilies(output,true);
+  process.exit(0);
+}
 if (generatedAt === '2026-10-26T01:12:00.000Z') {
   if (args[5].split(',').sort().join(',') !== '01230,04215,06362,08204,11208,11221,12232,13102,13109,13114,14100,34369,42212') throw new Error('Replay all thirteen systematic-inventory municipalities');
   const { reviewCachedInventory } = await import('./review-cached-inventory');

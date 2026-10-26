@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "baseline": "411d9b12ca1037a9d45de65967075731734fb797",
+  "baselineIndexSha256": "d7d4deef3f49912a1b6bee402f3e88c4224295b91c5fb0e11f48c5349d5699af",
+  "indexSha256": "dd0ecfbbc9944933f40c8d3cfdad96dea284ddfccf78640a90e2383f25722fbe",
+  "oldRecordsPreservedExactly": 92615,
+  "newRecords": 4748,
+  "existingRecordsEnriched": 0,
+  "existingFieldsAdded": 0,
+  "municipalities": [
+    {
+      "municipalityCode": "01204",
+      "before": 8,
+      "added": 167,
+      "after": 175
+    },
+    {
+      "municipalityCode": "01209",
+      "before": 132,
+      "added": 45,
+      "after": 177
+    },
+    {
+      "municipalityCode": "01230",
+      "before": 460,
+      "added": 1,
+      "after": 461
+    },
+    {
+      "municipalityCode": "01692",
+      "before": 0,
+      "added": 1693,
+      "after": 1693
+    },
+    {
+      "municipalityCode": "03203",
+      "before": 829,
+      "added": 19,
+      "after": 848
+    },
+    {
+      "municipalityCode": "03205",
+      "before": 283,
+      "added": 2,
+      "after": 285
+    },
+    {
+      "municipalityCode": "05348",
+      "before": 283,
+      "added": 1,
+      "after": 284
+    },
+    {
+      "municipalityCode": "07203",
+      "before": 0,
+      "added": 109,
+      "after": 109
+    },
+    {
+      "municipalityCode": "07214",
+      "before": 169,
+      "added": 21,
+      "after": 190
+    },
+    {
+      "municipalityCode": "08222",
+      "before": 62,
+      "added": 5,
+      "after": 67
+    },
+    {
+      "municipalityCode": "11211",
+      "before": 0,
+      "added": 1510,
+      "after": 1510
+    },
+    {
+      "municipalityCode": "11343",
+      "before": 291,
+      "added": 2,
+      "after": 293
+    },
+    {
+      "municipalityCode": "12213",
+      "before": 12,
+      "added": 31,
+      "after": 43
+    },
+    {
+      "municipalityCode": "13109",
+      "before": 1856,
+      "added": 18,
+      "after": 1874
+    },
+    {
+      "municipalityCode": "13223",
+      "before": 380,
+      "added": 9,
+      "after": 389
+    },
+    {
+      "municipalityCode": "14205",
+      "before": 514,
+      "added": 1,
+      "after": 515
+    },
+    {
+      "municipalityCode": "21216",
+      "before": 11,
+      "added": 18,
+      "after": 29
+    },
+    {
+      "municipalityCode": "27140",
+      "before": 482,
+      "added": 270,
+      "after": 752
+    },
+    {
+      "municipalityCode": "30391",
+      "before": 0,
+      "added": 20,
+      "after": 20
+    },
+    {
+      "municipalityCode": "42211",
+      "before": 28,
+      "added": 791,
+      "after": 819
+    },
+    {
+      "municipalityCode": "46223",
+      "before": 58,
+      "added": 15,
+      "after": 73
+    }
+  ],
+  "enrichmentInputsPreservedExactly": [
+    {
+      "path": "data/evaluations/enrichment-inputs/2f3c31f5436dce90123b43c5db6ddcb607be1051d18c1b6873ddfea7593b4063.json",
+      "sha256": "2f3c31f5436dce90123b43c5db6ddcb607be1051d18c1b6873ddfea7593b4063",
+      "bytes": 405930
+    },
+    {
+      "path": "data/evaluations/enrichment-inputs/85c579bd4b728a7393b12d623229d1c0e9011ce2efff3652664400145e123a74.json",
+      "sha256": "85c579bd4b728a7393b12d623229d1c0e9011ce2efff3652664400145e123a74",
+      "bytes": 10933
+    },
+    {
+      "path": "data/evaluations/enrichment-inputs/9c23bb6945c6e7dd48563240cbad65d21d1addacf6d7a695c4f29eac46d061ca.json",
+      "sha256": "9c23bb6945c6e7dd48563240cbad65d21d1addacf6d7a695c4f29eac46d061ca",
+      "bytes": 19787314
+    }
+  ],
+  "enrichmentStatisticsPreservedExactly": {
+    "patches": 5167,
+    "changedRecords": 5167,
+    "filledFields": 8020,
+    "addedArrayItems": 17404,
+    "duplicateValues": 0,
+    "filledFieldsByField": {
+      "purpose": 3125,
+      "activities": 3039,
+      "outcomes": 1332,
+      "evaluationYear": 231,
+      "evaluatedFiscalYear": 293
+    },
+    "addedArrayItemsByField": {
+      "amounts": 3255,
+      "indicators": 18,
+      "ratings": 10,
+      "evidence": 14121
+    }
+  },
+  "navigationHoldFilePreservedExactly": true,
+  "acquisitionPreflightPreservedExactly": true,
+  "sourceRequests": 0
+}
