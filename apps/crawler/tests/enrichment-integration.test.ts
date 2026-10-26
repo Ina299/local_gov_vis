@@ -58,6 +58,10 @@ test('filesystem enrichment replays preserved base, is idempotent, and rejects o
   const inputDir=join(temp,'append');await mkdir(inputDir);
   const sourceDataset=JSON.parse(before.shards.get('20206')!.toString());
   const addition=structuredClone(sourceDataset.projects[0]);addition.id+='-append-fixture';addition.projectCode=null;addition.projectName='追加事業の独立したテスト個票';
+  const owners=sourceDataset.sources.flatMap((s:any)=>s.documents.filter((d:any)=>d.url===addition.evidence[0].sourceUrl&&d.sha256===addition.evidence[0].sha256).map((d:any)=>({s,d})));
+  assert.equal(owners.length,1);
+  for(const s of sourceDataset.sources){s.extractedProjects=0;for(const d of s.documents)d.projectCount=0;}
+  owners[0].s.extractedProjects=1;owners[0].d.projectCount=1;
   await writeFile(join(inputDir,'20206.json'),json({...sourceDataset,projects:[addition]}));
   const appended=await importSupplementalEvaluations({root:temp,sourceDirectory:inputDir,generatedAt:'2026-10-26T00:00:00Z'});
   assert.equal(appended.index.primaryEvaluationRecords,after.index.primaryEvaluationRecords+1);

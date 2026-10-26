@@ -5,7 +5,7 @@ import {tmpdir} from 'node:os';
 import {spawnSync} from 'node:child_process';
 import {resolve,join} from 'node:path';
 import {auditEnrichmentReviews} from '../src/audit-enrichment-reviews';
-import {auditEnrichedEvaluations} from '../src/audit-enriched-evaluations';
+import {auditEnrichedEvaluations,contentCoverage} from '../src/audit-enriched-evaluations';
 const root=resolve(import.meta.dirname,'../../..');
 const read=async(path:string)=>JSON.parse(await readFile(join(root,path),'utf8'));
 test('published enrichment accounts for all 578 reviewed sources and preserves every existing value',async()=>{
@@ -43,7 +43,21 @@ test('published enrichment accounts for all 578 reviewed sources and preserves e
   }
  }finally{await rm(out,{recursive:true,force:true});}
  const audit=await auditEnrichedEvaluations(root);
- assert.deepEqual(audit,await read('data/evaluations/enrichment-statistical-audit-batch3.json'));
+ const archived=await read('data/evaluations/enrichment-statistical-audit-batch3.json');
+ const phase=await read('data/evaluations/offline-source-review-batch12.json');
+ const preservation=await read('data/evaluations/offline-source-preservation-batch12.json');
+ const supplemental=await read('data/evaluations/supplemental-provenance.json');
+ const batch=supplemental.batches.find((b:any)=>b.generatedAt===phase.generatedAt);assert.ok(batch);
+ const additions=(await Promise.all(batch.inputs.map((i:any)=>read(i.path)))).flatMap(d=>d.projects);
+ assert.equal(additions.length,251);assert.equal(preservation.oldRecordsPreservedExactly,92038);
+ assert.equal(archived.indexSha256,phase.baselineIndexSha256);
+ // The completed enrichment audit remains immutable. Append-only records contribute the
+ // same coverage to both sides; every old field delta and detailed patch remains identical.
+ const addCoverage=(a:any,b:any):any=>Object.fromEntries([...new Set([...Object.keys(a),...Object.keys(b)])].map(k=>[k,
+  typeof(a[k]??b[k])==='number'?(a[k]??0)+(b[k]??0):addCoverage(a[k]??{},b[k]??{})]));
+ const delta=contentCoverage(additions);
+ assert.deepEqual(audit,{...archived,baseIndexSha256:manifest.baseIndexSha256,indexSha256:preservation.indexSha256,
+  generatedAt:manifest.generatedAt,before:addCoverage(archived.before,delta),after:addCoverage(archived.after,delta)});
  assert.equal(audit.changedRecords,manifest.statistics.changedRecords);
  assert.deepEqual(audit.filledScalarFields,manifest.statistics.filledFieldsByField);
  assert.deepEqual(audit.addedArrayItems,manifest.statistics.addedArrayItemsByField);

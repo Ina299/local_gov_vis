@@ -9,7 +9,7 @@ import type {ProjectEvaluation,EvaluationDataset} from '../../web/src/types/eval
 const scalars=['purpose','activities','outcomes','evaluationYear','evaluatedFiscalYear'] as const;
 const arrays=['amounts','indicators','ratings','evidence'] as const;
 const present=(s:string|null)=>s!==null&&s.trim().length>0;
-function contentCoverage(rows:ProjectEvaluation[]){return {
+export function contentCoverage(rows:ProjectEvaluation[]){return {
  nameAndMetadataOnly:rows.filter(p=>!scalars.slice(0,3).some(k=>present(p[k]as string|null))&&!p.amounts.length&&!p.indicators.length&&!p.ratings.length).length,
  narrativeFields:rows.filter(p=>[p.purpose,p.activities,p.outcomes].some(present)).length,
  rawEvidenceText:rows.filter(p=>p.evidence.some(e=>e.rawText.trim())).length,...summarizeRecords(rows)};}
