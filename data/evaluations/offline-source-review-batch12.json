@@ -1,0 +1,2538 @@
+{
+  "schemaVersion": 1,
+  "phase": "new-offline-sources-batch12",
+  "baseline": "14566beb78508e52595176c143b595b90db0f37e",
+  "baselineIndexSha256": "d8c443b8db204123921c4c7031aa4fbc86cbf1e98275fef3cdee97122085ad57",
+  "generatedAt": "2026-10-25T23:37:00.000Z",
+  "offlineOnly": true,
+  "sourceRequests": 0,
+  "inventorySha256": "be13a81b490f1866ca67ac22f7e0ea69804f4be4ce7ff17a641382640df3e7ba",
+  "completedCohortSha256": "e621f76291cf826b1b10b6d76b38b82e7a8ba3a848ac8675f5801c816b33949d",
+  "scope": "All 111 batch-12 inventory entries; only unreferenced cached individual sheets outside the completed 578-document cohort. No nationwide completeness claim.",
+  "inventoryEntries": 111,
+  "verifiedTextAssets": 109,
+  "municipalitiesWithAdditions": 3,
+  "recordsAdded": 251,
+  "existingRecordsEnriched": 0,
+  "existingFieldsAdded": 0,
+  "amountsAdded": 0,
+  "indicatorsAdded": 0,
+  "reviews": [
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "0062a63c4fb022eac4de8f65",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-39.pdf",
+      "sourceSha256": "0b8bfcb0f88a22a8dd111b6dcc873c637468f4a5d1c9f38eb3713e566a90a1e8",
+      "fetchedAt": "2026-10-23T22:54:24.343Z",
+      "textSha256": "96f1432d874214ce10dc3b168dd876840fa2f06b3348edaeb4fd65c4ebe71a89",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-63885ca9aabdfbd3e1503278"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "013aa1f6439f2108da48b1dd",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-07.pdf",
+      "sourceSha256": "d95fa9411f638bde5f822e8451d342c2c4f4d85a124b85a96186ec721ceb7f88",
+      "fetchedAt": "2026-10-23T22:54:26.285Z",
+      "textSha256": "83b0480ca4b600bc133fb1ad731f39419d703133bba0028607997ef95d8af9af",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-1c37ce95def761f82c5f8173"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "02a2ce45c6d63e56c0785844",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_hozyo03.pdf",
+      "sourceSha256": "87f1e02f423b0031339afb878b0802585ed3c5e40012843fb1c4c76e342f2bbd",
+      "fetchedAt": "2026-10-23T22:54:28.421Z",
+      "textSha256": "94340c9d19bdc6a04bb5889532a2fd41118125d3a9e0425860f3222f081576dc",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-e2b4d67ffda8885e5dc7a5fc"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "066dce35fde15b381ea841e7",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-82.pdf",
+      "sourceSha256": "2d9b69552846723af36485582dbc62f729faacd99d4dd181f4c0692cd552aedd",
+      "fetchedAt": "2026-10-23T22:54:30.481Z",
+      "textSha256": "15c0b24b0c2b8d399423756c24f491cf67e61c2705d49a8131dae210bf8a5ed9",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-7a671de5bb28306d64669461"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "0c6e37a78e7d72e27e167aa3",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-85.pdf",
+      "sourceSha256": "40825498912d67d2d83739b05f1aa42e0e2a0ae1b2650a6d1199c2d4c9ec0eb4",
+      "fetchedAt": "2026-10-23T22:54:32.750Z",
+      "textSha256": "5af63928448111c563f9d03fa5cc11661d62ef4c63ae871371a5d1115450afed",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-fd0e56b21ddc043bea709453"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "0d4a77e06213a0db26a29e77",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-58.pdf",
+      "sourceSha256": "81f1aa993a4afa627510243676e4e588bcb6b5ffb542a2e3361ab8b649e17674",
+      "fetchedAt": "2026-10-23T22:54:35.376Z",
+      "textSha256": "f383c87a1124475fbcb5ba2577cf104009a6a4045c2e9564fc6e64628851378b",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-2c3504b440be192710fbff1d"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "121241a70b6c81aee40f0779",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_hozyo04.pdf",
+      "sourceSha256": "642d8a10b3e7f84e035a11594da9a2b573500ccbdd81ff7ee827a2ad989fb282",
+      "fetchedAt": "2026-10-23T22:54:37.564Z",
+      "textSha256": "702db377b48ea44f6ba5d84394c006f8cdf97952212b1062e8f5d73fa7f7783f",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-ed45aa9849d2d73774027f6d"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "14a47f7f9eb3cc1d38b352e9",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-20.pdf",
+      "sourceSha256": "12e1ecf59bdde12135e771b08c2c62a9da6ec9c9ac84a0f2d0c83b18238f8113",
+      "fetchedAt": "2026-10-23T22:54:40.222Z",
+      "textSha256": "da9e7d2daa523ee56a9c0a5526761cab3668070d11ebcec614b8680b9c8caea7",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-cf09fb4d2e0bacfc2487fd99"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "2102fdc13a80ff956d7bab73",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-60.pdf",
+      "sourceSha256": "57d69b599c7ba362122d4cf66ed3060a03afe1b9af749711273eff3a6bdf874e",
+      "fetchedAt": "2026-10-23T22:54:42.436Z",
+      "textSha256": "4deeab14405d0840c5ff8c744e27fef6cd62a9878dfd90df225599307a2fe911",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-fd8c46f7423208579c9ce23a"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "23d0b7411f5e6f9b2101d760",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-47.pdf",
+      "sourceSha256": "afc63d8f20b0e98581fa65f960055e5edf145560b27b738f4e7d840bca36a5b5",
+      "fetchedAt": "2026-10-23T22:54:45.220Z",
+      "textSha256": "51ace592d779319db1f8a83f7fa8cff64f7e241476658e5abfe67aeab5481501",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-971652da7301db515cdd60f9"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "243c15b265baf13353badc26",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-73.pdf",
+      "sourceSha256": "8608ec72e9d0644f380e56c4941691702c454a7f26883fd533c0bf831ab4a683",
+      "fetchedAt": "2026-10-23T22:54:47.894Z",
+      "textSha256": "b515ebf3d2bb3a580dc624121491f83a25fa768743fdf8a3a80044a89e4abcaf",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Official link title is not an exact name in the sheet header; layout/name review required"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "28068a3d6fc0d3042b37d965",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-26.pdf",
+      "sourceSha256": "f448d6fd681fb93499140bb4cadbb15dfa23b8087b748c786301df56a0062acf",
+      "fetchedAt": "2026-10-23T22:54:50.260Z",
+      "textSha256": "119fd4b85e5f76e7cb68c325feb4e05e7f2744c0a9ea10898f0651daa96fba3c",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-f68e87ed14ffceeab39ea374"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "3437266b654c5ea0fbd2c9dd",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-08.pdf",
+      "sourceSha256": "d66ebf658e84ade23edb5d47fa2b114bd41bf677a95c9147fd16034599ab849b",
+      "fetchedAt": "2026-10-23T22:54:52.526Z",
+      "textSha256": "0f0200794d36c66747c627e9b5053315004576e02f92e885e06287cde13bf7f9",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-30621da77de57f77a2ccd980"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "34f9cc71b13532b888631af7",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-30.pdf",
+      "sourceSha256": "fe64f0736fcd2a166e41373b7759161deed0305eced5cd35f127a3aaf4a5b68d",
+      "fetchedAt": "2026-10-23T22:54:54.702Z",
+      "textSha256": "530fc9d5ef92d8ef5e2a4c2b32a8099d9fd5f24f58837cf0100ff37b5f2183f9",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-ef23afc6dbb5e47c6f09a70b"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "39cf9b014988a7c1fe63a324",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-17.pdf",
+      "sourceSha256": "d40880a5082c2a4f94a54a9b66771256f6b3f1d16e7e7122ae6f5e536b332678",
+      "fetchedAt": "2026-10-23T22:54:56.762Z",
+      "textSha256": "f4bc7756beb0441f4fe6161fd3e36685d5fa954e716a4e294dca0ffd697aa8dd",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-c7c7d7a295d86c164ae7b8bd"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "3a49841e0d96c4b5528dfaf2",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-55.pdf",
+      "sourceSha256": "ac8ffdfc7d7ba02afdf888415b05ac3e14ee24b31aba95f27023118356a23bab",
+      "fetchedAt": "2026-10-23T22:54:59.015Z",
+      "textSha256": "799baa200eb8de01cb70033edb0dfea2f307efe4755ac5642fc3fc5631c54262",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-8df0742d1267648939193e6e"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "3fbbe92364c49a696cc5c046",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-83.pdf",
+      "sourceSha256": "141a48c4a1692fa778924d5b49e6fbc5c6939e12f560d3126bf05a34edf6bd12",
+      "fetchedAt": "2026-10-23T22:55:01.000Z",
+      "textSha256": "e4ea78642be7b5f0f7eef20c211e73a72091347e7b87d58d597b07995c0fe4f9",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Purpose/necessity boundary differs; individual layout review required"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "437e876fbcb89bd8638965a3",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-27.pdf",
+      "sourceSha256": "b9492d26be13f37deca54a7f24f93d5111079c724ae9fefc83853fd2d19c7697",
+      "fetchedAt": "2026-10-23T22:55:03.003Z",
+      "textSha256": "610d667d03059b75307c25ddba754942f1b8df964c0f585a6c20bfc32c2e65b1",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Official link title is not an exact name in the sheet header; layout/name review required"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "4c1b188de9db82c574c81f6c",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-32.pdf",
+      "sourceSha256": "759a09b90145358e14b74ae82f9a8160ee19f75acc5fc962620eb76f6769c531",
+      "fetchedAt": "2026-10-23T22:55:05.112Z",
+      "textSha256": "02997996f3a62cbf541a8f318acc1f4f28e825c7ceeb00acee62711dedf5e67f",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-786b79e47c2a2018d03788e9"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "4caf1e0365c608da27394f19",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-29.pdf",
+      "sourceSha256": "a72cf688f6350b5bddbc77ef14c48d0e2ea3051f7b55f82efee648d3e65539ac",
+      "fetchedAt": "2026-10-23T22:55:07.142Z",
+      "textSha256": "447cac944d9254a72993d86de07111337aa98f9765c2c13688c0b08737afa7d6",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-20e9c03fd0f68fa83871c33c"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "4d8f0b134a2243622b70f664",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-74.pdf",
+      "sourceSha256": "53722ddd280eb398ab32231bc60a4e752322fc54dc486cb9433a82ad44ac5220",
+      "fetchedAt": "2026-10-23T22:55:09.581Z",
+      "textSha256": "f9cbdeba49466b7f9b94c8211b71a195f9d28d26aa0722269434726444c06c70",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Official link title is not an exact name in the sheet header; layout/name review required"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "53fc515d3c56bf1482d80916",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-42.pdf",
+      "sourceSha256": "860cdab3c98d7bbfb53ece07756dbed811edd932280ebdb68c644f06d0bb30c1",
+      "fetchedAt": "2026-10-23T22:55:11.604Z",
+      "textSha256": "cc5e66a19219b9470a26d197d1522a7dae21ebda79f5aec78007d50ae54eb84e",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-63c87f06ac1f87fe7a6a9b42"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "552b43d3ff9aa049690239b9",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-95.pdf",
+      "sourceSha256": "1f1703e69c407e4227e5fc3ffe5f0df18fb0d77094a9fb3ec99f98cc065cdc8d",
+      "fetchedAt": "2026-10-23T22:55:13.538Z",
+      "textSha256": "a510df5694bbd582142a958aae0b8406bbcbf59657a9faa6db8b3a74edd65f9c",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-d7ff335ee5911cb2b4e2707d"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "5847b1bcb7ed0ddaf272bd78",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-94.pdf",
+      "sourceSha256": "79facb89c96a0aed09529bf9dff96a15c407048f636253092912e4b1406dd4e9",
+      "fetchedAt": "2026-10-23T22:55:15.472Z",
+      "textSha256": "ddb6303f302421c8cbc9dd7b4b0b979d87f1ba0d284b2893811160a63c99e03e",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-cc5886faeea49ff4c19b0e35"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "5a6416fc8541aca21190535c",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-59.pdf",
+      "sourceSha256": "b364db539b0b43784ee518ae5120499c783980a6f89b78023934325ec812de3c",
+      "fetchedAt": "2026-10-23T22:55:17.417Z",
+      "textSha256": "ff078969351ae8336bae3cd75924b82bf1b959328feac0e2f878696749e36eda",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-f6e654848ae4fe9f56a2fcf3"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "5c3da2844ed9574405b52bdd",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-52.pdf",
+      "sourceSha256": "97910577d08fe3ba8c1988424b09fcf21e5ffd918c45ad2b41063acc9c7b359b",
+      "fetchedAt": "2026-10-23T22:55:19.727Z",
+      "textSha256": "1e5e5e3a8c3e572000115b2233759d7ca3d7be0f8966a51e5962a6e6884bb25e",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-94cfec820ef8da7dba62445b"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "5df180eb0a39be17295a3185",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-88.pdf",
+      "sourceSha256": "dcbbbec973e64d448fad0a7ac5c1e6e6790b32350e30a5c09216719ed8f888f2",
+      "fetchedAt": "2026-10-23T22:55:21.801Z",
+      "textSha256": "17a7f37ec1f1d88c87527ce2b41a3846113d23340fe5b3e040c78be3ee4ec11f",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Official link title is not an exact name in the sheet header; layout/name review required"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "61be2107ab200a807e8d2f9c",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-91.pdf",
+      "sourceSha256": "b1d4421114f3af0c887c8ba5676799ca6d21861874f1a37464a087635ae6fe84",
+      "fetchedAt": "2026-10-23T22:55:23.776Z",
+      "textSha256": "f049f4219097d4e519aceae1d3f9709ca41c68c1154cc976167c14c83a6ffabb",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-f1dc186b63a83a91cd593b04"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "664d7cf2ca0cc4c40dcc50e9",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-40.pdf",
+      "sourceSha256": "f1b0a993ff6a1b7569ea6593c1cd7f20d0d2cdf5b669c71957b882f25b843fac",
+      "fetchedAt": "2026-10-23T22:55:25.889Z",
+      "textSha256": "3983dadb53d3ecd0707f0bdc012ee70a74575fa1cac72e57aed266d4503cd6d9",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-a16617ac3d1812ad99e10c35"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "680831a1a8db90cbd5492e02",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-81.pdf",
+      "sourceSha256": "b9a9948130c039420e496bfbb7345a5190515c06b37c74fada91dc81d3f3f221",
+      "fetchedAt": "2026-10-23T22:55:28.164Z",
+      "textSha256": "172f10d7e6c36f16f96706d0e9a24d41291fc5c1e3d6bcb9ddf440bb86027526",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Official link title is not an exact name in the sheet header; layout/name review required"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "68ef55c29027d81662f89cab",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-54.pdf",
+      "sourceSha256": "2bffc54821b1d4c974cd824434db4d278fd2b3adcfcb393a39932d0991c3bb98",
+      "fetchedAt": "2026-10-23T22:55:30.278Z",
+      "textSha256": "c28e8741c9e318701d2a0570eaec2fd9a3a88e6975ee03de7c59d86c9af477fc",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-0447905185053cc22ee510f2"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "69d0a7272f84f949b5c619cf",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-24.pdf",
+      "sourceSha256": "0e391ef80bd14f76253f4019af9ce034f15ce2a57c98a40b64cd61aa4a8c2ca7",
+      "fetchedAt": "2026-10-23T22:55:32.338Z",
+      "textSha256": "b0297c0dc52bfe921a7ebf21f574c206aeffb5f57e03a9d924941f73d2399a0f",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-108bb448d600ec394b2d5ccd"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "6a23daa34840b1f6633a2bc3",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-69.pdf",
+      "sourceSha256": "ad145c2e8613109fd38ba3dd87eaa24b1861c4f16421b03127e89bcc326dc185",
+      "fetchedAt": "2026-10-23T22:55:34.872Z",
+      "textSha256": "f1014a74ae10518d823c6a656f7f6f479fa6b5d3a3898a09369ef1020f168be0",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-06913ccd845f769f686df3da"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "6d77f4744e770e56efced054",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-06.pdf",
+      "sourceSha256": "88ad51475361a0ac73f152db34f7a514ccebc803747117beb4b16ea13d45e7d3",
+      "fetchedAt": "2026-10-23T22:55:36.984Z",
+      "textSha256": "a54dcf65df195defd5d7fcdd72dee3a2b3e1c0df5f5a46699f284fe75d742263",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-8c10bf8b5099f827d5fe203a"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "6dd83a824dac7e3aff47747c",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-62.pdf",
+      "sourceSha256": "2635f347415cfaec103c0de116da086fdaeb3126bc24caa2185eb548867e4b1f",
+      "fetchedAt": "2026-10-23T22:55:39.624Z",
+      "textSha256": "7be18ae507e65f6fa6277cd86828ce9b6d12c835ac58ebdb41d0736addbc256b",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-aa5a87322a9590435ed76b87"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "6e16626a096b1949f534b25b",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-90.pdf",
+      "sourceSha256": "c8529cd861963c04c27a2dff6047781b2f73d655b0fe8d2fedfcf952019d07d1",
+      "fetchedAt": "2026-10-23T22:55:41.482Z",
+      "textSha256": "bc59f71332d7e284af7d54ca15414c23729a502cf4ca98cf92801038c71bef7f",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-42a37e75871bd4f60b472948"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "70f22082d9ae2dcc7a55134d",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-03.pdf",
+      "sourceSha256": "0cc4489fd6e091a06b7959256d26f94c406712a186f83c67438ed6a0a1e1a1f1",
+      "fetchedAt": "2026-10-23T22:55:43.474Z",
+      "textSha256": "8e1e39f19c039517b12e079864de9351cf09438a7788607d2f2a63e4ee7b5f39",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-a6f1017917a771810b03f43e"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "727e51ecbd76ee5d232bf149",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-96.pdf",
+      "sourceSha256": "62098c1d9d3f7a6640f3054be5f7165d149d053e7576493790c4eb72e8b6ee0f",
+      "fetchedAt": "2026-10-23T22:55:45.407Z",
+      "textSha256": "e41289702fe01f137ce9c3f37e75ade65566f1f1c933922a189d2402a331bcde",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-49b021d5582589dc2b1cee89"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "76ed41a98d7f0f8e136f430c",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-12.pdf",
+      "sourceSha256": "d104a175349da6fffa271c0e7db44cd23fa39ad3ad5f38a2443dcc9a78ab4211",
+      "fetchedAt": "2026-10-23T22:55:47.327Z",
+      "textSha256": "e498108b988858c9f1a68dc9de2346f63f7ed58bcf8f20f35fb063fe92d8044d",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-072e0b9955ac1b192e2113a8"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "78c88b6fc2a1a96a224d9e3c",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-93.pdf",
+      "sourceSha256": "aaa82d452c5c689bfa0247853b261fdc624578321837f9bad18b122006d7ad92",
+      "fetchedAt": "2026-10-23T22:55:49.612Z",
+      "textSha256": "a6528dd01567a96d5627e4de8daa815ac468690f84b6b16debe6e5eddfc50fb7",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-da0681470cfc7796eb31c624"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "79c74bdec907537193daa56f",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-09.pdf",
+      "sourceSha256": "0c5f3f03382cd59b7f4c1a5a7ab525ac7fb45c0bef8f85e4a7dbf970dfe078ff",
+      "fetchedAt": "2026-10-23T22:55:51.722Z",
+      "textSha256": "4ba7f0f72c317daa3bea91769f76f75012d80835c7f3ae591abcbaca57c997ce",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-68a38406d5be72c236629d97"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "8a3946516b34b465d2c38e75",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-71.pdf",
+      "sourceSha256": "7abe494e66335518d896b9ff4ea0edbc33617ed9a265fade2251a7f2bdfd89fc",
+      "fetchedAt": "2026-10-23T22:55:53.978Z",
+      "textSha256": "aa93d624ae51e536934ff87205d8a6db5d8ab0acc30e518359cdfe70f03d9c86",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-2ada5b6c763d94587d378389"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "8d73b23c0606327c1650ff97",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-78.pdf",
+      "sourceSha256": "695e588ea9aa483a168af8fec1b933af7b7e3176d41849627e0c4bab72b4bb07",
+      "fetchedAt": "2026-10-23T22:55:56.033Z",
+      "textSha256": "28d0e932fbc91ad69821c59a0a9da29fa2b59a39a7d6368ff71c26811b960474",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-c39340ccdb5b411afd54c7be"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "91c348763679e5d7666d9ac0",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-13.pdf",
+      "sourceSha256": "1f7334a39f96467158f063446d71cb07b388e21651934c70682e5f81b93dc5f4",
+      "fetchedAt": "2026-10-23T22:55:58.366Z",
+      "textSha256": "14586c5a3b96a54a5f1a787e7b515fc8cc22d062a7c0bd98ed0dde078cfc0a49",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-6d650f4e22fb165a412c71ba"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "9c281e87f41b386af2ee08ec",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-63.pdf",
+      "sourceSha256": "e2867f4d95065c632a48c2707477b549618892f733b3ae70bdbbbf74386cb288",
+      "fetchedAt": "2026-10-23T22:56:00.861Z",
+      "textSha256": "b6719594887dcb364575f46ab0808d4844e84c4fc27e172c42476fb015603023",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-9a55eae047e5843d249a5d91"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "9de2684767d8db3082eade1d",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-70.pdf",
+      "sourceSha256": "1e6b2592ea6042ac02dc4be29fce73953a4059834f040aafc33e459ff820ff57",
+      "fetchedAt": "2026-10-23T22:56:02.993Z",
+      "textSha256": "e0c521d7945d65210f3e29028c081fa4961b162cad130ef0db0945f6a2eebaf1",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-d0845a5c8e8b191d3b77c2c9"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "9ed318bda0af51d31532b566",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-35.pdf",
+      "sourceSha256": "74959ef9db77a338d2314479f93010ec51bd2f386f9cd95aa75636f9f8b57d8a",
+      "fetchedAt": "2026-10-23T22:56:05.048Z",
+      "textSha256": "fb49177b395cfaca865b81432ccbd7d2507607f0c65995ce729612f4376f7f24",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-49e14e54af8e209c1d20a7e6"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "a10a3e61dbae24b3ccc95e28",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-51.pdf",
+      "sourceSha256": "b481605000d5fa022b7fbd33e1c2c2138a3d7b4730ccc86918695fec7a9e2aa9",
+      "fetchedAt": "2026-10-23T22:56:07.060Z",
+      "textSha256": "9ccadac555b1ad23c2335d9afde1ecf04f63bea0b0bf52011eb0124be521fc8b",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-162869714bae17b2277e9e78"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "a11b232a28032a4b36f444fd",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-49.pdf",
+      "sourceSha256": "5b046506f6629135eb234524e501ed5b90fdd842dfcfdb356b881c0d1b2ac64f",
+      "fetchedAt": "2026-10-23T22:56:09.371Z",
+      "textSha256": "2a3db876b0914df981ffb8369d0b2d2374ade23a58f3e1cbefd981bee1eee9f6",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-f9ec3b0741807ef21bb06281"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "a66c6287c1d4d47f508cd399",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-86.pdf",
+      "sourceSha256": "2b7da07200d10b19a8bdcfc91fe83eda3b57a2f4b6b771b7eeaf117450b8d0ea",
+      "fetchedAt": "2026-10-23T22:56:11.238Z",
+      "textSha256": "a2404d60a86ae8b41a26b2aec3696f8389b00c654e6bb2a72c13e9d122dab47e",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-7816a9f3d7d94b4f544f515f"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "a750371cf1d74a3cbc3d99b1",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-61.pdf",
+      "sourceSha256": "d68377cb70684a1d673e8300258cb4d6426603c27096e47929a4125554aad857",
+      "fetchedAt": "2026-10-23T22:56:13.273Z",
+      "textSha256": "c37cbad3546299543ab4d65e14fdebccd01c407b632ffb8223b27e29a324e511",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-48c02be2bad93911b2fd101c"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "a879ee105ce97de36a12f09a",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-04.pdf",
+      "sourceSha256": "bebe4dc74ad5af3875e30bda0294c08e4d89f542ec61802493c9468a32c26190",
+      "fetchedAt": "2026-10-23T22:56:15.686Z",
+      "textSha256": "aa464fdc8dba7c4139f5d8d4b8dbe732098ce6f6958885d16caa37bc9b87fec5",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Purpose/necessity boundary differs; individual layout review required"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "a893934baa0287a69b8b5daf",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-28.pdf",
+      "sourceSha256": "6d27564e483f0e36a7dd9d4b9bc1f188e3f6a45e54c3bdb7a4b5c58b6901f38d",
+      "fetchedAt": "2026-10-23T22:56:17.689Z",
+      "textSha256": "d3ddb4eeba6266ec0254747e8f422b177d5092ed22ac8eeec6e2c66fa9475341",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-9666a6e91133bbf12edb8fc3"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "a9c43efa67546874123a6238",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-53.pdf",
+      "sourceSha256": "d21f68db6fb25eab08d13bb35650137731c8a90069c025fdbbc87edd8bf2a91d",
+      "fetchedAt": "2026-10-23T22:56:19.820Z",
+      "textSha256": "187630d9d090514a5d2fbc4ea768a1a4b8c85d31822e8e5cb3c385c0d62c26b0",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-4af971f5c3d6e9d75d314a44"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "aa02cc54c6a6b3f9f667e76a",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-10.pdf",
+      "sourceSha256": "c03a65aaf391844d7a405ca22686903065446f153823b366923d905bd3db24f3",
+      "fetchedAt": "2026-10-23T22:56:21.787Z",
+      "textSha256": "b87fbad935d49105cf66a8118e28a3987037b5fe60410d1d60d0cd4bc586effd",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-95a7070a40bfc8d400bfd46f"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "aad129e7843788de350409cf",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-84.pdf",
+      "sourceSha256": "f8ee9d95b43dec6372ec89e4ca4e19beb26d012dcf79c33acf1d8bc298233b43",
+      "fetchedAt": "2026-10-23T22:56:23.710Z",
+      "textSha256": "4e1bae4ed828de4bb50be12838e960392d8328c422050e621773f614e059bdf5",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Official link title is not an exact name in the sheet header; layout/name review required"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "aba5b266f966ab923eecba49",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-25.pdf",
+      "sourceSha256": "5575e090f264fad1877dcdf4b4688e8ee266e4bf046238b5eca2ee640b1428c2",
+      "fetchedAt": "2026-10-23T22:56:25.610Z",
+      "textSha256": "7fad1d524e08998874ac863c7913a8f1005ae46a0dfb36ff38db45fa7b16bbc9",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Official link title is not an exact name in the sheet header; layout/name review required"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "ac56c851726867dd8281d07b",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_hozyo01.pdf",
+      "sourceSha256": "d27242a4565a19de6a27acbb06dd41c1b201762470fac7a17573e37401bb88bc",
+      "fetchedAt": "2026-10-23T22:56:27.677Z",
+      "textSha256": "cb53c5f4c999d6b70ec4025f434c9c5e4ed07558cc4eefc3a9f39123e46eca86",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-ca97c0798992c950adf4af69"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "ad7e7c62c74dbb281db69458",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-48.pdf",
+      "sourceSha256": "a21554bcc94da17ff67793264a8e6d6bbb8d665b49c9559ceb0b25963c3d1150",
+      "fetchedAt": "2026-10-23T22:56:29.694Z",
+      "textSha256": "294e503bcd05ada480147f0b95e392dd377036e9daadb06c5a945bb5934017f5",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-29b47b68a4d8eae8dc610f36"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "ad80fca838961832c3809450",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-34.pdf",
+      "sourceSha256": "c941c3544fceb333f4f2538507add55d235beecc6118879a2448dbc3848b748e",
+      "fetchedAt": "2026-10-23T22:56:31.538Z",
+      "textSha256": "b05409bb750b853b995ee8109bfeb65feaf15c95eee6f13509cf45cd9c5cd002",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-f924e6dc9538c2d937939cd1"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "aecab434b339ad15573798b7",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-46.pdf",
+      "sourceSha256": "6e6f544f2637e186f2ebcc473d4033cc92a618b14bfb0d7e08149203a6d70913",
+      "fetchedAt": "2026-10-23T22:56:33.489Z",
+      "textSha256": "e3a088537c49388c5a45e88035ba4401f74ebb2cfac2d859d8782d0e175b5c37",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-05e2e25cd04d8bc68e4ae49b"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "b36edbe55e2709d53ff20447",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-05.pdf",
+      "sourceSha256": "dfa91fd0f3ee743374f3df4336517e593110b82538637c52fc92b3c2c487f192",
+      "fetchedAt": "2026-10-23T22:56:35.589Z",
+      "textSha256": "9a8db110693962515cef4893eefff2b873256e00e71c9e97aca973604efbea89",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-4adf77d2ed3dded4cab0418f"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "b76df19b49952abb410fb3c0",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-76.pdf",
+      "sourceSha256": "da6b95995f5fedc9c122ecc8e5c065937b3ad02886c4bc78ea670e2d9283760d",
+      "fetchedAt": "2026-10-23T22:56:37.494Z",
+      "textSha256": "0d81e44182895daf0295d1ed46f0130fb1262d1b10df8ea8a44048ee7c6c4e38",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Official link title is not an exact name in the sheet header; layout/name review required"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "bdb396789c498620d682b8a4",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-50.pdf",
+      "sourceSha256": "3527f47d2b2965123ed99b28a546273f83ab821549f82b5234cdfa8f0a85d681",
+      "fetchedAt": "2026-10-23T22:56:39.549Z",
+      "textSha256": "a0fbbd30f4e41d8e362f9038efcd3ae14a0c71c3583548a756fbe7fb8ea4a1c1",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-51d5f6deb1e7e528635d021f"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "be125159c95e20b2aafdb028",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-33.pdf",
+      "sourceSha256": "ef973d770574cbbbed3c583cdc3ec878369c97929ba0a7b7dd78ed4ed50b26e0",
+      "fetchedAt": "2026-10-23T22:56:41.538Z",
+      "textSha256": "4a388013e350f55d09e4a246dc9f9ca0157611993fd2ee3b2c1e1fdd8b934f57",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-398ca3e9b6dc50a1cb5b35a6"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "c332b271245fe815c5f9778b",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-01.pdf",
+      "sourceSha256": "e37dab777fb819b523a9863f5ff5c07969186fc0fc007f37ce647b4603ba9570",
+      "fetchedAt": "2026-10-23T22:56:43.427Z",
+      "textSha256": "22d7b4f840d1f1db90f0325c871196845c6d5a4d6c30994a32fd6a515e1956fc",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-a04be2f0c04d6273cbcf19e5"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "c4a49d1fb15df580717c6b4f",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-11.pdf",
+      "sourceSha256": "b1c4ff35c8d7563230b8610f8a274f775c33f133aceb0d9f2577ba8b9078e5bc",
+      "fetchedAt": "2026-10-23T22:56:45.323Z",
+      "textSha256": "799c620772efc5e03a779e76181926bbad2616988b0635dbe9077c5adbda9ff4",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-b297320189d12341694661ac"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "c4eed2ab5fbda23898abc3f7",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-14.pdf",
+      "sourceSha256": "3be30e97c4d482900b5ed8f8eacffa5ab545d9da4037df409ace2500da7d8487",
+      "fetchedAt": "2026-10-23T22:56:47.383Z",
+      "textSha256": "d6f65ef212a8b481f5c55aa925f8cd069008a508814f70e5eb3c486b97518d0a",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-66b64b53556434fd26b8e76e"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "c7849ccd9f069f1e124cf193",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-16.pdf",
+      "sourceSha256": "9fafb723e0d498a096a50a282a2dd86dfdcefae374c70b21b1cbfa512b91a7e0",
+      "fetchedAt": "2026-10-23T22:56:49.338Z",
+      "textSha256": "904f407ee4e176364cb77fbf2880fa9cd5c7771e23a92e0257471e50aef92d64",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-e691f0fef9aae9aa8fee2c52"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "c8c0d84f96b9f06af719ab1f",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-68.pdf",
+      "sourceSha256": "65f960aae6415ee55ccf5a6bf73cf8e0a0e3f4c8a315211422d27cd8fe462d5b",
+      "fetchedAt": "2026-10-23T22:56:51.268Z",
+      "textSha256": "40c2de4c282bc41721e697c3cd6f009fceb61e2fc04663bda3d174f0cb2986d7",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-d9f5346c90226583bf4be01d"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "c8fa19e50f3ce59742d028a4",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_hozyo02.pdf",
+      "sourceSha256": "10fa0b65ec6bfa857bce9eb79ec4e085ba9a2766724d482ffc75c98c0389a3b9",
+      "fetchedAt": "2026-10-23T22:56:53.269Z",
+      "textSha256": "cff8a3921422979fbccf9daa53bc7d1b0617f443ee4cf76b23e76f279c90b040",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-21b015569a1116f0dd168fd3"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "c9dd0139068697ea98dac825",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-22.pdf",
+      "sourceSha256": "139931a760de0896f8a16b2da9266c494008b74bd109938a4ae5a681c48aa6c6",
+      "fetchedAt": "2026-10-23T22:56:55.205Z",
+      "textSha256": "cb02687776273c94ed64d52545fc58b920604a3dc374adfa9fad330d2cef5d8e",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-0b604f1f4cfc8eb9a4801891"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "cdc2dea5990d676309f6b025",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-80.pdf",
+      "sourceSha256": "208ff66b1d316b402f32a2b3d11511b2b82b9aafeb9db322adcd77c3b0de32a9",
+      "fetchedAt": "2026-10-23T22:56:57.183Z",
+      "textSha256": "14c858d54e430c96ad90a7775e1333d603cc2433b6258751b40adc36a9e81e2f",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Official link title is not an exact name in the sheet header; layout/name review required"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "cdd364640dd14d2c76db18d3",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-67.pdf",
+      "sourceSha256": "4c97e34126852a08ac083dda5fef63d72a234a6d8084880d04c96b0626e321fb",
+      "fetchedAt": "2026-10-23T22:56:59.093Z",
+      "textSha256": "368d487d771866f93ca6f1b5d0f04dfa797e0cecc56cf379e3f936adb5cbc2c4",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-e8e00a869ab34bfe3fbec51d"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01202",
+      "municipalityName": "函館市",
+      "sourceId": "d0fb991653365fd886212930",
+      "sourceUrl": "https://www.city.hakodate.hokkaido.jp/docs/2015111200056/file_contents/2015111200056_hk_docs_2015111200056_files_No-57.pdf",
+      "sourceSha256": "6b497902bece14c46e799420223b634824b1e036904b0fcb2af403a0bb6c2d73",
+      "fetchedAt": "2026-10-23T22:57:01.138Z",
+      "textSha256": "c32613edc42d4b06eb4182636f7474b108deb5c127ecff6be77668925a21bdca",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-01202-de09b287d68f1f01e428ebe8"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "01212",
+      "municipalityName": "留萌市",
+      "sourceId": "67c3262684f9e2cb2c7b0a4b",
+      "sourceUrl": "https://www.e-rumoi.jp/soumu/sou_00011.html",
+      "sourceSha256": "5e8d91793ecbcaba7f992123e219b404701bbb468a6aea021ae9d5cb87ec564b",
+      "fetchedAt": "2026-10-23T22:53:20.746Z",
+      "textSha256": null,
+      "truncated": null,
+      "acceptedIds": [],
+      "status": "held",
+      "reason": "No readable cached text; this is an evidence-availability condition, not a new access test"
+    },
+    {
+      "municipalityCode": "05327",
+      "municipalityName": "上小阿仁村",
+      "sourceId": "a86ace3177f71817528ab4e8",
+      "sourceUrl": "https://www.vill.kamikoani.akita.jp/Link/Pdf/1836",
+      "sourceSha256": "e0167f7d9644ea1b8814cc8dab8c6aeb2292b199f8fdffdd5d40123b140e6532",
+      "fetchedAt": "2026-10-23T22:53:20.508Z",
+      "textSha256": null,
+      "truncated": null,
+      "acceptedIds": [],
+      "status": "held",
+      "reason": "No readable cached text; this is an evidence-availability condition, not a new access test"
+    },
+    {
+      "municipalityCode": "08443",
+      "municipalityName": "阿見町",
+      "sourceId": "52f8005de46dcc0d9fdc60cd",
+      "sourceUrl": "https://www.town.ami.lg.jp/cmsfiles/contents/0000008/8596/chap1.pdf",
+      "sourceSha256": "b393c4c9302b3160a3c5c65362002cfb5c6b867115c08d46d54b789f1cc44d46",
+      "fetchedAt": "2026-10-23T22:54:36.273Z",
+      "textSha256": "7cc644e4af10b879f41db60bca9c3fad23432c121ef0848fbfdc4ab70004be02",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Policy/basic-plan chapters, not bounded individual business evaluation sheets; retain related-material browsing"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "08443",
+      "municipalityName": "阿見町",
+      "sourceId": "5bc7c624a0a71a05f9543fe5",
+      "sourceUrl": "https://www.town.ami.lg.jp/cmsfiles/contents/0000008/8596/chap5.pdf",
+      "sourceSha256": "20722d596359fd36ff725824e332f90da4d2fc2a5603039c572478861c420a8c",
+      "fetchedAt": "2026-10-23T22:54:40.299Z",
+      "textSha256": "f67eb95e069cb20236ba2d7c8bbe591a160a9b1b569ecc8ae4907c754bb93dfd",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Policy/basic-plan chapters, not bounded individual business evaluation sheets; retain related-material browsing"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "08443",
+      "municipalityName": "阿見町",
+      "sourceId": "65cd257443800183a20260ae",
+      "sourceUrl": "https://www.town.ami.lg.jp/cmsfiles/contents/0000008/8596/chap6.pdf",
+      "sourceSha256": "012c6a232f81bb79dbd3d8851727bb64967c9e38ea149afa834cb1b8758c592b",
+      "fetchedAt": "2026-10-23T22:54:43.215Z",
+      "textSha256": "b8e00a0b0a8dedf07c36178c7b794364b2d07ca04d55f6337840e254353c1acc",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Policy/basic-plan chapters, not bounded individual business evaluation sheets; retain related-material browsing"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "08443",
+      "municipalityName": "阿見町",
+      "sourceId": "792d858cdb7d71cb60e5fa31",
+      "sourceUrl": "https://www.town.ami.lg.jp/cmsfiles/contents/0000008/8596/chap7.pdf",
+      "sourceSha256": "f5622bcfec17641504bfd7628942b5d7556edbad6d667549cb3a2f7e25d3257a",
+      "fetchedAt": "2026-10-23T22:54:46.118Z",
+      "textSha256": "19bb546b72e643618c47ca1d0384a2657a027de4096a28cb7d41953e6c0d2359",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Policy/basic-plan chapters, not bounded individual business evaluation sheets; retain related-material browsing"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "08443",
+      "municipalityName": "阿見町",
+      "sourceId": "c6673c6d60ed6a00fda97b4b",
+      "sourceUrl": "https://www.town.ami.lg.jp/cmsfiles/contents/0000008/8596/chap2.pdf",
+      "sourceSha256": "009fc1df0abc3f78d628f7e25138369585a1b854755fe7b904f44cee4420a2fc",
+      "fetchedAt": "2026-10-23T22:54:49.400Z",
+      "textSha256": "770244aec2daf42f11bc16c3a140baf98960ced937c14cc74c98d9131ea3950d",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Policy/basic-plan chapters, not bounded individual business evaluation sheets; retain related-material browsing"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "08443",
+      "municipalityName": "阿見町",
+      "sourceId": "f150c07232c261dc73cb0fef",
+      "sourceUrl": "https://www.town.ami.lg.jp/cmsfiles/contents/0000008/8596/chap4.pdf",
+      "sourceSha256": "51744741bb9334a7ea500849da22b79caf41f6c1e3e62066dd65592eaf580b71",
+      "fetchedAt": "2026-10-23T22:54:52.572Z",
+      "textSha256": "e1dbcf7b874ff56e316dfacf718bf0a2e1b0870aa61bb7e7ec22ef5717923058",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Policy/basic-plan chapters, not bounded individual business evaluation sheets; retain related-material browsing"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "11243",
+      "municipalityName": "吉川市",
+      "sourceId": "ca0615e1d2fc8d2b49c09586",
+      "sourceUrl": "https://www.city.yoshikawa.saitama.jp/index.cfm/27,119496,177,1237,html",
+      "sourceSha256": "ac46a1e3898d04a8fc990842f39e230f52e4d386c62407a400e99d12dcc20068",
+      "fetchedAt": "2026-10-23T22:54:53.946Z",
+      "textSha256": "0d70efc51eecb78a3fb7a712dbc0d37573aff982f5eb8e7548f72d1c668aefce",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Evaluation landing page; linked individual sheets are separate evidence"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "11243",
+      "municipalityName": "吉川市",
+      "sourceId": "e77c0e1cc6cbbc4834ff478b",
+      "sourceUrl": "https://www.city.yoshikawa.saitama.jp/index.cfm/27,113808,c,html/113808/20260828-114558.pdf",
+      "sourceSha256": "ba00756a952e9af5fabacb96d7c9208aa5559d1598b4dcff499d2bdffe60c49f",
+      "fetchedAt": "2026-10-23T22:54:57.446Z",
+      "textSha256": "e1281404fb5cd83ccf5040ee5fa72ad65873c89179b05f18cc6c69a2a6c2e108",
+      "truncated": true,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Different layout remains for a separate source-specific review; no claim that extraction is impossible"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "12204",
+      "municipalityName": "船橋市",
+      "sourceId": "15d7a81b4fe97d1c76a9f9f9",
+      "sourceUrl": "https://www.city.funabashi.lg.jp/shisei/keikaku/007/p145689_d/fil/00_07jigyohyoka.pdf",
+      "sourceSha256": "280d92350a2a442f040ea5067e45be0c26fbde7e0458921573b60a29c87577f4",
+      "fetchedAt": "2026-10-23T22:54:10.303Z",
+      "textSha256": "4c648212c2606422663241a48dda8fa79ae1f3480fbe6f2e3c6ebfd6feeca448",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Different layout remains for a separate source-specific review; no claim that extraction is impossible"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "13220",
+      "municipalityName": "東大和市",
+      "sourceId": "01548606c913cc172781f87c",
+      "sourceUrl": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/010/930/gyouzaisei1.pdf",
+      "sourceSha256": "423137b49af35cc3fa55b6bb5fc38b59df1fee982a1ca51d45871750655fa3ca",
+      "fetchedAt": "2026-10-23T22:54:10.916Z",
+      "textSha256": "da30ef30a598b0e79869748abbc7cd12cecdd3fad4060b2fe2b933b7b46d3bba",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Policy-level evaluation/indicator document; not an individual business sheet"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "13220",
+      "municipalityName": "東大和市",
+      "sourceId": "2f24f9627279b9f0d0300e86",
+      "sourceUrl": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/010/930/riatai07.pdf",
+      "sourceSha256": "ed7363a7ffaeeb3a6cbd5f3c3b9623e5a09418783484c187995a958b67e4cd59",
+      "fetchedAt": "2026-10-23T22:54:17.269Z",
+      "textSha256": "a2604c6075ed0e44a11d50f0e103c4f9816a4087cdfd71b324a2cd625ac18b76",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-13220-646e5c17d1239c2a83426cd9"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "13220",
+      "municipalityName": "東大和市",
+      "sourceId": "3883a00923da6966e1035b34",
+      "sourceUrl": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/010/930/riatai_11.pdf",
+      "sourceSha256": "dfa161483547f92bb01e957b1b607e3837af28f4ab955f3599ea05ac2d41e0d8",
+      "fetchedAt": "2026-10-23T22:54:25.282Z",
+      "textSha256": "d6585a54a6ba1aa35bfe77879777d4938bcb0b780b3b28fa9e57495119b2b32f",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-13220-ca227826c3e99fe20129da73"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "13220",
+      "municipalityName": "東大和市",
+      "sourceId": "3e8f57bb3d57dc6250530cae",
+      "sourceUrl": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/010/930/riatai08.pdf",
+      "sourceSha256": "f4bea869794af76b2328458a99e33aef4a2fe6279bf33f26d0037f36dae7ac9a",
+      "fetchedAt": "2026-10-23T22:54:19.234Z",
+      "textSha256": "9eb4554b988c17d6414ecaf81274e272e91d03aef968e1c3266141d47f7eeaad",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-13220-12eafb2a8333d30323421d36"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "13220",
+      "municipalityName": "東大和市",
+      "sourceId": "4dcb19d634e5138cea58fa73",
+      "sourceUrl": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/010/930/riatai09.pdf",
+      "sourceSha256": "fec1b3eee5894da870615b43b965cd61c89fc442508faa34168b376799788bd0",
+      "fetchedAt": "2026-10-23T22:54:21.119Z",
+      "textSha256": "3d22168fa29e651a580e47fccf30c2cad3f555136107fe6cdaab05da9a6f27d4",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-13220-2b215a15c20e40058a6b7b60"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "13220",
+      "municipalityName": "東大和市",
+      "sourceId": "610954571a6edc2666c38bd0",
+      "sourceUrl": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/010/930/riatai03.pdf",
+      "sourceSha256": "22728be7a5a353979cc7a9932ce766baa3d9b0873310308e8cbe4987dae46a2e",
+      "fetchedAt": "2026-10-23T22:54:12.965Z",
+      "textSha256": "031518b77da1bac90f702d054cccf348c61a45db17ef89ad20d31bec621a8f9b",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-13220-6a95f3f08322c5db88fce677"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "13220",
+      "municipalityName": "東大和市",
+      "sourceId": "6a57218757906c30dde37b7d",
+      "sourceUrl": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/010/930/riatai_10.pdf",
+      "sourceSha256": "68e85582846bcde7b646a0514daaba62adaf88c14cb0dde76090b41e325b736a",
+      "fetchedAt": "2026-10-23T22:54:23.360Z",
+      "textSha256": "9fe44ab240a5573faac993da75d77ac69d77ea9fa27e4de272925c85eee8e0c6",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-13220-426cac0bb8def8cb4d335d58"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "13220",
+      "municipalityName": "東大和市",
+      "sourceId": "6d7e10a8d464147ded9d5f2b",
+      "sourceUrl": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/010/930/riatai_16.pdf",
+      "sourceSha256": "7c3971fcc41d0c5931b73b9a4bd6c92eece712f28c33f3d5968bad62ab3ff907",
+      "fetchedAt": "2026-10-23T22:54:34.143Z",
+      "textSha256": "c8ddb53b812c322981355de3c1797b7f7895776c183742b1d272495bf8a45cdc",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-13220-83ec8845596e44c4b640b9df"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "13220",
+      "municipalityName": "東大和市",
+      "sourceId": "8cf3208f1accad9ad936f730",
+      "sourceUrl": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/010/930/riatai05.pdf",
+      "sourceSha256": "87064636aa6486aafbec154ce911f9d5951e4d061f8e144c34742a5b79b90bcc",
+      "fetchedAt": "2026-10-23T22:54:15.073Z",
+      "textSha256": "f8939303ff10f6976cb28bc520e3b87c37d38156b8831de4f4302b12d6b310a9",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-13220-cae77b30e12614c7b79f9aff"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "13220",
+      "municipalityName": "東大和市",
+      "sourceId": "b726d5de6f4bf0bfd8153968",
+      "sourceUrl": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/010/930/riatai_13.pdf",
+      "sourceSha256": "6aad34ea70abf92fcf6db5ddcb603da03beab76a3794078bdb943e6f4a3d3b99",
+      "fetchedAt": "2026-10-23T22:54:29.585Z",
+      "textSha256": "cf9ac9ce62b1278fd4eb06c59cea4c316c620aef114dc2b4d45c2f62092f3668",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-13220-ab89b4dbff9ea4a1d0f8f28d"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "13220",
+      "municipalityName": "東大和市",
+      "sourceId": "d1eb28622dc4f8addee22c6b",
+      "sourceUrl": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/010/930/riatai_12.pdf",
+      "sourceSha256": "5c2fe7ee9da6e2126172ea6377d91486418b61659185116ede63cf77ea2ff5c1",
+      "fetchedAt": "2026-10-23T22:54:27.530Z",
+      "textSha256": "5970c3ab5060aecc86cf44f1a769ae309fbce96bb64803e2a988ca4d776789ea",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-13220-5f670618bf7fb6081520d63b"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "13220",
+      "municipalityName": "東大和市",
+      "sourceId": "d3638b5075b92fef6e83642a",
+      "sourceUrl": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/010/930/riatai_15.pdf",
+      "sourceSha256": "3366dc0933c16228c15d2c484a1c084fdb3050774aed8f817334cf45a8ffb7ab",
+      "fetchedAt": "2026-10-23T22:54:31.635Z",
+      "textSha256": "b240362c95f5f8f22913ff7f00c2581b62659e4429c9bb6864882407d2115ad5",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-13220-407d965a799fa3ef7ad58c16"
+      ],
+      "holds": [],
+      "candidateRecords": 1,
+      "status": "accepted"
+    },
+    {
+      "municipalityCode": "37206",
+      "municipalityName": "さぬき市",
+      "sourceId": "015be81566c7f99ca7c6dff1",
+      "sourceUrl": "https://www.city.sanuki.lg.jp/material/files/group/7/r711_2sougoukeikaku_chuki_jisshi04.pdf",
+      "sourceSha256": "5d08886b493ab5fac4e3b62db2c41135c822db8df27db2e7a9fe614dd8cc3361",
+      "fetchedAt": "2026-10-23T22:54:31.615Z",
+      "textSha256": "2d0be807e1e896514eabd1f804c12c2e0afed2f7b45255b87292d2ec94c430ea",
+      "truncated": true,
+      "acceptedIds": [
+        "cached-37206-6f31b300d33a412fd2f50010",
+        "cached-37206-7c9e8d38d1d7ac9f1808aace",
+        "cached-37206-d9d68bea2a53acbef143b6ed",
+        "cached-37206-8453da904b03ea9a1fc35686",
+        "cached-37206-a19617388a636fb9a6b23545",
+        "cached-37206-0d7f16aba5fedfd23cfd1875",
+        "cached-37206-a6996391c1d4d0853a861658",
+        "cached-37206-bc9524f673d1b6008ccff57e",
+        "cached-37206-389ab7f97f0f1d189720d6a5",
+        "cached-37206-7040131769d4bc3ea607982d",
+        "cached-37206-91f0d09638e252ba8b5477fb",
+        "cached-37206-3f710da71b4e477ab1ec9b25",
+        "cached-37206-8559fc0b2617bb69b44a64fe",
+        "cached-37206-b22fa7a57ac360d9fc3958ff",
+        "cached-37206-b55b994a576b31b09668ff46",
+        "cached-37206-54e4a0d2e9b7c7d3941af0d6",
+        "cached-37206-78e5da9183e58153a4bd4809",
+        "cached-37206-96a77a32e756836f200eeb66",
+        "cached-37206-5fc862ad2260dbf7b75c8ca4",
+        "cached-37206-a080c208a5ee1d46c4550c2f",
+        "cached-37206-f79e527879b278d3aa10cdd8",
+        "cached-37206-85fb67e3aca27086d44d46df",
+        "cached-37206-305d7505dee91a790444a570",
+        "cached-37206-20f26de16f4f99bcf01c8c01",
+        "cached-37206-e2a107d67f9d2085fa2d6964",
+        "cached-37206-4f9e84f36de9c89027be6c75",
+        "cached-37206-764ffd3f7d3ca73cab131b5d",
+        "cached-37206-203baa9288cb321c0d8a1b81"
+      ],
+      "holds": [
+        {
+          "unit": "chars:59430",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:61912",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:64629",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:67465",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:69956",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:72519",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:74743",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:76985",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:79085",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:81718",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:85013",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:87282",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:89894",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:91969",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:94279",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:96596",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:98916",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:100920",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:106214",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:109124",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:118044",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        }
+      ],
+      "candidateRecords": 28,
+      "status": "partially_accepted"
+    },
+    {
+      "municipalityCode": "37206",
+      "municipalityName": "さぬき市",
+      "sourceId": "21b764c7d3a33e432a752782",
+      "sourceUrl": "https://www.city.sanuki.lg.jp/material/files/group/7/r603_2sougoukeikaku_shiminbu.pdf",
+      "sourceSha256": "cf5e416a4c896bb9b6ff060222048ef92635846c3d942ddf270e7df7c0063844",
+      "fetchedAt": "2026-10-23T22:54:45.080Z",
+      "textSha256": "103c9e9994d7fb75804bc2fc6c0571701c422b8f0b7d0d7eae19b3374d0493ea",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-37206-e9cfe7134e6674cf5cba5df9",
+        "cached-37206-3724b2ed6f1af647ec2668c1",
+        "cached-37206-36faa2bcfa18a89181da2fa2",
+        "cached-37206-b271e0637d04455d6cbb4871",
+        "cached-37206-b3aba8df63ec203db26f9ec4",
+        "cached-37206-b81f0ecad5473ff1a24c8761",
+        "cached-37206-9d5c4b4b3d5e181b324c2483",
+        "cached-37206-80cd7c994556c8b5c8394c4d",
+        "cached-37206-eeb415fb3090984f0d04b807",
+        "cached-37206-3c9bd460c000b8f384e68bcd",
+        "cached-37206-347568a97cedf5155c0a7cd3",
+        "cached-37206-40508c9042268e394901df66",
+        "cached-37206-8a869f2104c1a7a3af912596",
+        "cached-37206-712ccc77094ada8b3100b69b",
+        "cached-37206-f9148774f80bee503b4c7be5",
+        "cached-37206-9e18967c72784110f20c7941",
+        "cached-37206-3aa327bebac877e78ba0c2a6",
+        "cached-37206-1c53426d662a026a91c176b9",
+        "cached-37206-0803858c6ee49ff03b399269",
+        "cached-37206-918511b02336ecc923beb57b",
+        "cached-37206-638ba4909f668f3e9d300027"
+      ],
+      "holds": [
+        {
+          "unit": "chars:10583",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:12710",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:17698",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:25456",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:30314",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:35933",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:38412",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:46288",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:61432",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:63964",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        }
+      ],
+      "candidateRecords": 21,
+      "status": "partially_accepted"
+    },
+    {
+      "municipalityCode": "37206",
+      "municipalityName": "さぬき市",
+      "sourceId": "32c528e76c518120b9954bca",
+      "sourceUrl": "https://www.city.sanuki.lg.jp/material/files/group/7/r711_2sougoukeikaku_chuki_jisshi02.pdf",
+      "sourceSha256": "b38c6b34cf23e7121a5b43c890a71db6480cdbc0d3f3f51a92926074761c78cd",
+      "fetchedAt": "2026-10-23T22:54:22.424Z",
+      "textSha256": "042d0e12f97f4ca05bbfcd4b2abce490d0b7f9a97f97b9cf3f763ea7219a03fc",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-37206-efa671ac9a6712db3f1a663a",
+        "cached-37206-1562b4ba4ad653830a5cb3d0",
+        "cached-37206-654144847459f99e24717e97",
+        "cached-37206-7a811985cd6b3b9971a704bb",
+        "cached-37206-5a0dc972c94b9bb444de1fde",
+        "cached-37206-10fcee2bb0f1ef6c30f519a6",
+        "cached-37206-51443dd4b308fe6385a659cd",
+        "cached-37206-247555340b9deb44efbeaf4d",
+        "cached-37206-52ff72cf0903f3f5b855a0d7",
+        "cached-37206-f76437a8eecb213b4943e770",
+        "cached-37206-243a5b49b6a0031ef70125e0",
+        "cached-37206-1d5e61f6260509f5ef1d347a",
+        "cached-37206-5c336034e57c1157b0439988",
+        "cached-37206-a6769903778445828170a026",
+        "cached-37206-e098c9ce3dce1e60bc03949f",
+        "cached-37206-125c5cf7da125ec7619bc63f",
+        "cached-37206-16011a3c29fda9847b659494",
+        "cached-37206-8448528d56a04888e9e2bfd2",
+        "cached-37206-6e710ebbaf5839d7c9ed67f0",
+        "cached-37206-9e33e0818d51092096203d33",
+        "cached-37206-6301f4e95825158b3106898f",
+        "cached-37206-ec83c1dc038bf3e16118ffac",
+        "cached-37206-1b18166126fa9b7056e527fa",
+        "cached-37206-ac608173abbb9af93d7a9af5",
+        "cached-37206-9d350b6c43292ecae63c66de",
+        "cached-37206-48c70a37a701ab6cabb5fb6a",
+        "cached-37206-21a8f6fa59b84c8445d4e1e1",
+        "cached-37206-5e4845a72d612ced27330005",
+        "cached-37206-54b2529afba111f1fbe48dff",
+        "cached-37206-090906060868e7160e339faf",
+        "cached-37206-0d8a7297c1c49d6afa7ff5b6"
+      ],
+      "holds": [
+        {
+          "unit": "chars:50429",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        }
+      ],
+      "candidateRecords": 31,
+      "status": "partially_accepted"
+    },
+    {
+      "municipalityCode": "37206",
+      "municipalityName": "さぬき市",
+      "sourceId": "45d6b8f78cb1a84f01fa0db5",
+      "sourceUrl": "https://www.city.sanuki.lg.jp/material/files/group/7/83578473.pdf",
+      "sourceSha256": "102462834ecb4139328ddeaeb605b2cbadf2afece03b6f5a2843cec82ea7ff9f",
+      "fetchedAt": "2026-10-23T22:54:57.176Z",
+      "textSha256": "a7bf5a288e96ea033a1b5f3843a9fa3104df21fe2bb8c436b0d4b86d34315551",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Policy-level evaluation/indicator document; not an individual business sheet"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "37206",
+      "municipalityName": "さぬき市",
+      "sourceId": "571c866854112edb0680955d",
+      "sourceUrl": "https://www.city.sanuki.lg.jp/material/files/group/7/2sougoukeikaku_zenki_shihyou_shintyokujyoukyou05.pdf",
+      "sourceSha256": "751d6626051a8c05d229f0ca3d0260ee1b6acf6b6a7c7feb49123bfd8ea5faf5",
+      "fetchedAt": "2026-10-23T22:54:37.149Z",
+      "textSha256": "e801f9c503dc06e20cee21e437069899a00f7d40a5f00761dff3a5bb597489e9",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Policy-level evaluation/indicator document; not an individual business sheet"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "37206",
+      "municipalityName": "さぬき市",
+      "sourceId": "6000164feeffb3bf81208d35",
+      "sourceUrl": "https://www.city.sanuki.lg.jp/material/files/group/7/r711_2sougoukeikaku_chuki_jisshi03.pdf",
+      "sourceSha256": "74dcb8051274a31f99c443f22dc651fbd8425b56ab185bfd31075ac751ab4449",
+      "fetchedAt": "2026-10-23T22:54:26.927Z",
+      "textSha256": "ae95e32a0d7576c2feffbfdf98711e6ae7b10ece8985e8a9fe1bac702d1a91f4",
+      "truncated": true,
+      "acceptedIds": [
+        "cached-37206-0c0b64e78e1d896dbc9b328e",
+        "cached-37206-f12bb6d025dda22536f821b3",
+        "cached-37206-dbf5f1979decd92460556cba",
+        "cached-37206-2d886e0d14cf17b37913f04f",
+        "cached-37206-43898c962d78f898aafa8cde",
+        "cached-37206-4fc46d226105d251287d4120",
+        "cached-37206-5200a535ceef17c79d0c776a",
+        "cached-37206-9b16d4e41d11f05fdb33a903",
+        "cached-37206-c18ec765e23eeec9593ff294",
+        "cached-37206-d86ea29b94facc56152242b0",
+        "cached-37206-c309c04eb29d1abb98fe3953",
+        "cached-37206-f09dfe179d1fd6bac7a47fd9",
+        "cached-37206-c2c96719d87c7902dc189b6d",
+        "cached-37206-a0f1a6ede8530c1924405f66",
+        "cached-37206-81bd4ae2a2f58b21b89ea08d",
+        "cached-37206-b43edd0dda2846647d124639",
+        "cached-37206-392333cdb84c33d855ee8c50",
+        "cached-37206-896df188c07a4b085289b021",
+        "cached-37206-447aa277a51f27abd30845e9",
+        "cached-37206-e286c8e4ff1c8ec075a1baa4",
+        "cached-37206-6a528e86399a85ddefc996d8",
+        "cached-37206-21de1244011dc6ccaa2355bd",
+        "cached-37206-0d0cca269aa53e2af400db51",
+        "cached-37206-55d48d677fdfc395c588c1d7",
+        "cached-37206-f221ee2abf29787a1e464111",
+        "cached-37206-8fab6b9947a88959d3bee1e7",
+        "cached-37206-460ad28c2bf057720cf27f31",
+        "cached-37206-5ea7c8a47c389f110c2aff13",
+        "cached-37206-0eb34310875a54be41d20cae",
+        "cached-37206-40c97fd8644fd1235c4157fd",
+        "cached-37206-9692b419917c9a45a4dd0a53",
+        "cached-37206-ebdf71d60bcd50d2694db4f4",
+        "cached-37206-cc000b281307afddeb253a28",
+        "cached-37206-89e7eb4bd13be803fc1c5d3a",
+        "cached-37206-7c1094dd37db116be857185b",
+        "cached-37206-8cf63bb28d45dac44978c5d1",
+        "cached-37206-d5eb3734110edef6ea9e51a9",
+        "cached-37206-686e466aa57258c897cfd8f8"
+      ],
+      "holds": [
+        {
+          "unit": "chars:50634",
+          "reason": "Purpose cell boundary not unambiguous"
+        },
+        {
+          "unit": "chars:70846",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:73225",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:75694",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:78202",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:80641",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:118086",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "cached-37206-5d4dd61f42f16f3d087c6f24",
+          "reason": "Possible same-period alias/subproject: cached-37206-43898c962d78f898aafa8cde; identical purpose and activity with nested names, requires distinct-business evidence"
+        }
+      ],
+      "candidateRecords": 39,
+      "status": "partially_accepted"
+    },
+    {
+      "municipalityCode": "37206",
+      "municipalityName": "さぬき市",
+      "sourceId": "680f6bb8d2623b9180ca2bd1",
+      "sourceUrl": "https://www.city.sanuki.lg.jp/material/files/group/7/r603_2sougoukeikaku_hospital.pdf",
+      "sourceSha256": "3b47c259c02c1ac67adfa4b21441306bc416afa9753dd7b20a5d02c936d68b1e",
+      "fetchedAt": "2026-10-23T22:54:54.005Z",
+      "textSha256": "3a7fd29048540e7f1e38de71dc48904c65970afb8e76ba308ed7b16fda93787d",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "chars:0",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:2647",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:5132",
+          "reason": "Purpose cell boundary not unambiguous"
+        },
+        {
+          "unit": "chars:6963",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:9446",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:12154",
+          "reason": "Purpose cell boundary not unambiguous"
+        },
+        {
+          "unit": "chars:13938",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "37206",
+      "municipalityName": "さぬき市",
+      "sourceId": "8400f1428e560037d6a3bf61",
+      "sourceUrl": "https://www.city.sanuki.lg.jp/material/files/group/7/r711_2sougoukeikaku_chuki_jisshi06.pdf",
+      "sourceSha256": "458b0221e3e93516eeb6efeb51b7637c7c73bebf7918c268a843385a17090a90",
+      "fetchedAt": "2026-10-23T22:54:34.361Z",
+      "textSha256": "2b3a7ae9334d8a39d52934a77f48cb8e6520f0eb832cbe55024d527a1ea38e07",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-37206-efe9fe308fe97c4c0422e8c8"
+      ],
+      "holds": [
+        {
+          "unit": "chars:0",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:5848",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        }
+      ],
+      "candidateRecords": 1,
+      "status": "partially_accepted"
+    },
+    {
+      "municipalityCode": "37206",
+      "municipalityName": "さぬき市",
+      "sourceId": "cb625c09117b6bec9da0a13f",
+      "sourceUrl": "https://www.city.sanuki.lg.jp/material/files/group/7/r711_2sougoukeikaku_chuki_jisshi00.pdf",
+      "sourceSha256": "c11dd35c8fc2e79a69dda941b7380ed62f142c0cb536b6358d4ae6fa801a706f",
+      "fetchedAt": "2026-10-23T22:54:19.031Z",
+      "textSha256": "92c375c84fd40c5fa5b4d913e0c98366b66b8195d030bb7a3e8e1cb4255f57fa",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Cover/context only; assessed-year evidence for matching series"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "37206",
+      "municipalityName": "さぬき市",
+      "sourceId": "dc00fdfdacc88d812fad19db",
+      "sourceUrl": "https://www.city.sanuki.lg.jp/material/files/group/7/r603_2sougoukeikaku_kensetsukeizaibu.pdf",
+      "sourceSha256": "fc0c532b5ae9ec839ca00bbd865f94fafab07fcebb68d4876535ad5250babdb5",
+      "fetchedAt": "2026-10-23T22:54:51.768Z",
+      "textSha256": "62916601a585a56adb489dce531d4d2b6ef690e0c19e2539231052a09b316292",
+      "truncated": true,
+      "acceptedIds": [
+        "cached-37206-cd50a4712dafc6b656bab9ad",
+        "cached-37206-21bec6bc080acd38605a88f8",
+        "cached-37206-bdec2e305506d1ac99ae0bbe",
+        "cached-37206-df0b8270ef9ef41414d4fa51",
+        "cached-37206-ddd0e8d96ec2cc1d4880a92f",
+        "cached-37206-511ae51de79350fe1c74b4c1",
+        "cached-37206-43b28738b27bf645cc234204",
+        "cached-37206-2ae81ad09353bf5c0d0974b7",
+        "cached-37206-b1edcea765a3021745275c99",
+        "cached-37206-3fa4ec1c300fd7bf0e45961c",
+        "cached-37206-99958bbcad525df8fb1c8ab0",
+        "cached-37206-c197a86c81e32a42e7a3a131",
+        "cached-37206-b081de8ba836a643cf1f79c2",
+        "cached-37206-b97de34382f38ba8492db6a4",
+        "cached-37206-4fb6e6b26d2de0bd24ce5fa1",
+        "cached-37206-2360cf67742fe2c05d3b41b1",
+        "cached-37206-ddf54adb989de1b508821d8b",
+        "cached-37206-5294f1c161a5410d03c0b8f0",
+        "cached-37206-318b43faeccd385c7440702c",
+        "cached-37206-33bcb5108e03c35e9f0a81af",
+        "cached-37206-f91f2f110e4d1d0db2c14b3b",
+        "cached-37206-e56d61a929df89e0aeb8ab46",
+        "cached-37206-b456131c84b70fb4afdc3c98",
+        "cached-37206-3fd682386ff8a9ac7d13f80e"
+      ],
+      "holds": [
+        {
+          "unit": "chars:5264",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:10763",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:18795",
+          "reason": "Purpose cell boundary not unambiguous"
+        },
+        {
+          "unit": "chars:22011",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:32927",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:35595",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:38329",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:40938",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:48680",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:53697",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:61894",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:64485",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:67395",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:73378",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:86984",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:89191",
+          "reason": "Purpose cell boundary not unambiguous"
+        },
+        {
+          "unit": "chars:92122",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:101195",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:111204",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:113333",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:119340",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        }
+      ],
+      "candidateRecords": 24,
+      "status": "partially_accepted"
+    },
+    {
+      "municipalityCode": "37206",
+      "municipalityName": "さぬき市",
+      "sourceId": "df52ad93846580efd42de26e",
+      "sourceUrl": "https://www.city.sanuki.lg.jp/material/files/group/7/r603_2sougoukeikaku_chuki_jisshi00.pdf",
+      "sourceSha256": "ee0b4bdc4cf76912a85fb71f313e74a880219573e5713e28bd80f40a43e26428",
+      "fetchedAt": "2026-10-23T22:54:39.214Z",
+      "textSha256": "e1e87dd232b3c665bd6212023ceab299c8853985ea48bf94fc5728b91ae38e40",
+      "truncated": false,
+      "acceptedIds": [],
+      "holds": [
+        {
+          "unit": "document",
+          "reason": "Cover/context only; assessed-year evidence for matching series"
+        }
+      ],
+      "candidateRecords": 0,
+      "status": "held"
+    },
+    {
+      "municipalityCode": "37206",
+      "municipalityName": "さぬき市",
+      "sourceId": "eecfd3ba538e2e47637354af",
+      "sourceUrl": "https://www.city.sanuki.lg.jp/material/files/group/7/r603_2sougoukeikaku_kenkofukushibu.pdf",
+      "sourceSha256": "e6a7b299358b05146cb01aa7a80ce8ea5c609d762aa1a04a2cfee06b96c1ea06",
+      "fetchedAt": "2026-10-23T22:54:48.514Z",
+      "textSha256": "ac48d4e82698acd60e533cf07e1647cf93d1413bcbd088592cf1a845ac55a216",
+      "truncated": true,
+      "acceptedIds": [
+        "cached-37206-89180c69b554f4124f03ebf3",
+        "cached-37206-1ec3b36296400842b6685aa3",
+        "cached-37206-cef25f105527312e98ce5933",
+        "cached-37206-e3f925d93f17ec72bc60ffd1",
+        "cached-37206-833b98191c213b6374a96469",
+        "cached-37206-06889405f749e784e1e3dc11",
+        "cached-37206-a1ae0af39f224e07cfd69c29",
+        "cached-37206-86c5b7fb2d0495a20e0d2e0c",
+        "cached-37206-411aeef8b0e2111f2997d350",
+        "cached-37206-43b563b8b3f5f937ed2c5a78",
+        "cached-37206-e104f44c67703e4fef6fdc40",
+        "cached-37206-d4475a9f5685859e1e051588",
+        "cached-37206-01109a496870df0dc2de968b",
+        "cached-37206-98f0be819e15ae8a3f190bcf",
+        "cached-37206-81635b9d9c52b50161b16b60",
+        "cached-37206-74721eceaa5411b6a3622cc8",
+        "cached-37206-76695e860a0cc266c7b071b2",
+        "cached-37206-191dc338cd08443827e638f3",
+        "cached-37206-5997c29f342fae19e4b1d413",
+        "cached-37206-d50a4801b4ffb90653381dc3",
+        "cached-37206-e129630da09f9bf90174ec8e",
+        "cached-37206-7173eebb830b87b46c1b460b",
+        "cached-37206-9bdc0f282c2a5d6828a7bf95",
+        "cached-37206-48e5c83fc75a750bc48e847e",
+        "cached-37206-2f6fe8bf42ef75ff7d945974",
+        "cached-37206-891252691cb7720cae9bb399",
+        "cached-37206-2b6d5928100598dcc3a994ab",
+        "cached-37206-f564e843ce7292e06623250d",
+        "cached-37206-62a7c246f5a9fde5c1777188",
+        "cached-37206-47b2a22a87fb20022ef3b82c"
+      ],
+      "holds": [
+        {
+          "unit": "chars:0",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:3214",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:12234",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:18043",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:26488",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:38092",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:52028",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:62720",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:65198",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:67701",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:73608",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:113441",
+          "reason": "Purpose cell boundary not unambiguous"
+        },
+        {
+          "unit": "chars:116535",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:119413",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        }
+      ],
+      "candidateRecords": 30,
+      "status": "partially_accepted"
+    },
+    {
+      "municipalityCode": "37206",
+      "municipalityName": "さぬき市",
+      "sourceId": "f91eb5b127c4a6abe3d7b570",
+      "sourceUrl": "https://www.city.sanuki.lg.jp/material/files/group/7/r603_2sougoukeikaku_somubu.pdf",
+      "sourceSha256": "2257cd204cc3cd8edd39e5f76f47d2085c41185c2e4680ee35965ba918c7210e",
+      "fetchedAt": "2026-10-23T22:54:42.259Z",
+      "textSha256": "5c314f6d72d6ab81e66206673c1e85b8ad18727a5541d3be1bd5ea0f2d78e310",
+      "truncated": false,
+      "acceptedIds": [
+        "cached-37206-6afcee2a3f2091fd74d44516",
+        "cached-37206-2a3780f4f1dc6839160fae65",
+        "cached-37206-66081e377e9d8dd9e26ca4fd"
+      ],
+      "holds": [
+        {
+          "unit": "chars:0",
+          "reason": "Purpose cell boundary not unambiguous"
+        },
+        {
+          "unit": "chars:45301",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:50711",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:70116",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:76705",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:102949",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:108444",
+          "reason": "Purpose cell boundary not unambiguous"
+        },
+        {
+          "unit": "chars:113533",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "chars:116339",
+          "reason": "Two-page completeness/name pairing not established by consecutive page numbers and final summary; layout review required, no cross-sheet joining"
+        },
+        {
+          "unit": "cached-37206-2235323b66575bdffde6f2f4",
+          "reason": "Identity collision (unknown period): 37206 総務管理事務事業 incoming=cached-37206-2235323b66575bdffde6f2f4 existing=cached-37206-d2fca6d9f464469c02bb7fea; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-9b9df19e2f89affe73f48e6c",
+          "reason": "Identity collision (unknown period): 37206 総務行政不服申立等事務事業 incoming=cached-37206-9b9df19e2f89affe73f48e6c existing=cached-37206-6034c46a9264537e46ddf5d4; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-a880fa980b2f42252946322c",
+          "reason": "Identity collision (unknown period): 37206 情報公開・個人情報保護事務事業 incoming=cached-37206-a880fa980b2f42252946322c existing=cached-37206-d1d06ed42f6d621343f8a616; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-dfe58f42849555b85fe42555",
+          "reason": "Identity collision (unknown period): 37206 電算システム維持管理事務事業 incoming=cached-37206-dfe58f42849555b85fe42555 existing=cached-37206-46f70a647da7b5a11b99d94b; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-f11f1fd2e6b7d9e817c11df0",
+          "reason": "Identity collision (unknown period): 37206 交通安全環境整備事業 incoming=cached-37206-f11f1fd2e6b7d9e817c11df0 existing=cached-37206-31d2905f7dec180e10ac2bd0; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-c5fbc6dd2317941d387a75e4",
+          "reason": "Identity collision (unknown period): 37206 交通安全推進事業 incoming=cached-37206-c5fbc6dd2317941d387a75e4 existing=cached-37206-da1c2e32cb996daa671892a8; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-fdf9eb24382edba0f872cc85",
+          "reason": "Identity collision (unknown period): 37206 防災支援事業①（地域防災関係） incoming=cached-37206-fdf9eb24382edba0f872cc85 existing=cached-37206-b58da7445173fd023bba5609; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-bd70ae3eff67f64a7762f180",
+          "reason": "Identity collision (unknown period): 37206 防災支援事業②（防災対策関係） incoming=cached-37206-bd70ae3eff67f64a7762f180 existing=cached-37206-59c23344719221eac5d1a6be; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-6878d198a7baec78990a131c",
+          "reason": "Identity collision (unknown period): 37206 防災支援事業③（防災訓練関係） incoming=cached-37206-6878d198a7baec78990a131c existing=cached-37206-e5c1686b98b0bab20b87ed60; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-188a4d4f8c722d34843d3631",
+          "reason": "Identity collision (unknown period): 37206 防災支援事業④（国民保護計画関係） incoming=cached-37206-188a4d4f8c722d34843d3631 existing=cached-37206-479bd4f50dfa8044faecb297; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-1a17ffb90bc00126ec690600",
+          "reason": "Identity collision (unknown period): 37206 防犯環境整備事業 incoming=cached-37206-1a17ffb90bc00126ec690600 existing=cached-37206-1dcf93955e7bfb0f6f82ab1c; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-dfb110c87d97f009b89a6e56",
+          "reason": "Identity collision (unknown period): 37206 防犯推進事業 incoming=cached-37206-dfb110c87d97f009b89a6e56 existing=cached-37206-b8c59cf5b30773443b0ac9bb; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-d70685ccf03bff9d4b9ade1b",
+          "reason": "Identity collision (unknown period): 37206 消防操法訓練事業 incoming=cached-37206-d70685ccf03bff9d4b9ade1b existing=cached-37206-4588a599f37c3ae264766b89; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-0c5cc26312f4de7842fbf832",
+          "reason": "Identity collision (unknown period): 37206 消防団支援事業 incoming=cached-37206-0c5cc26312f4de7842fbf832 existing=cached-37206-20d8a14d50120dac582316c4; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-be1edbac77da8907ba071c21",
+          "reason": "Identity collision (unknown period): 37206 消防水利整備事業 incoming=cached-37206-be1edbac77da8907ba071c21 existing=cached-37206-ecc975666c6b8b9cb61fdb53; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-a2aec434e954a96a4dd2665b",
+          "reason": "Identity collision (unknown period): 37206 水防活動支援事業 incoming=cached-37206-a2aec434e954a96a4dd2665b existing=cached-37206-1d9c144075f084866bfc284c; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-51c66274c5d5721582de1694",
+          "reason": "Identity collision (unknown period): 37206 職員研修事業 incoming=cached-37206-51c66274c5d5721582de1694 existing=cached-37206-03cb2117a76d7928654b956e; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-0f2069de042beac8ad1822b1",
+          "reason": "Identity collision (unknown period): 37206 人事管理事業 incoming=cached-37206-0f2069de042beac8ad1822b1 existing=cached-37206-4f1ec574e92623aa46626cd8; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-853fe51e000c565c9533a2a3",
+          "reason": "Identity collision (unknown period): 37206 文書広報事業 incoming=cached-37206-853fe51e000c565c9533a2a3 existing=cached-37206-533933c5a90aa643b8f1cc19; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-7b76e53f165cb210821a2c86",
+          "reason": "Identity collision (unknown period): 37206 ホームページ管理運営事業 incoming=cached-37206-7b76e53f165cb210821a2c86 existing=cached-37206-e143e28ad2286a74798a975a; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-177eac32a26d48921550ef2e",
+          "reason": "Identity collision (unknown period): 37206 コミュニティ放送運営事業 incoming=cached-37206-177eac32a26d48921550ef2e existing=cached-37206-421b494bd11628db392b030e; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-2d6187e6f2ad54c7208522b5",
+          "reason": "Identity collision (unknown period): 37206 技術研修事業 incoming=cached-37206-2d6187e6f2ad54c7208522b5 existing=cached-37206-aa5f09827e5ef96bc00a5337; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-b360b690fdcc1894c6ef5657",
+          "reason": "Identity collision (unknown period): 37206 コミュニティ番組制作事業 incoming=cached-37206-b360b690fdcc1894c6ef5657 existing=cached-37206-acb2b1320baa14ce1a26b54f; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-9298608316df34c170c739fc",
+          "reason": "Identity collision (unknown period): 37206 財政管理事業 incoming=cached-37206-9298608316df34c170c739fc existing=cached-37206-4674d0b944b12bd85c2a6c69; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-ba38012fe03f77926d5ef282",
+          "reason": "Identity collision (unknown period): 37206 企画事業①（総合計画、総合戦略、企画関係） incoming=cached-37206-ba38012fe03f77926d5ef282 existing=cached-37206-b28abd7b5939f3d142a913ff; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-79fccf52d42231a6b5f9d139",
+          "reason": "Identity collision (unknown period): 37206 企画事業②（公共施設使用料見直し） incoming=cached-37206-79fccf52d42231a6b5f9d139 existing=cached-37206-9400a9409976bfdadaab7e39; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-ffaab6a4aab5ace8eaef92d1",
+          "reason": "Identity collision (unknown period): 37206 連携中枢都市圏事業 incoming=cached-37206-ffaab6a4aab5ace8eaef92d1 existing=cached-37206-ee15675c83c3c03fe2421489; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-9f006afcbff88c1ace504548",
+          "reason": "Identity collision (unknown period): 37206 定住促進事業①（移住促進関係） incoming=cached-37206-9f006afcbff88c1ace504548 existing=cached-37206-97f7b28b887eb62ab8703704; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-c41301c0fe81736334fa6e9e",
+          "reason": "Identity collision (unknown period): 37206 定住促進事業②（定住支援関係） incoming=cached-37206-c41301c0fe81736334fa6e9e existing=cached-37206-6889c9a227ba50d27738f538; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-645a1f0b8d9f1b2d63a12776",
+          "reason": "Identity collision (unknown period): 37206 地方振興事業 incoming=cached-37206-645a1f0b8d9f1b2d63a12776 existing=cached-37206-dce8d6524b9a234907e6acaa; review reprint vs distinct business vs correction"
+        },
+        {
+          "unit": "cached-37206-36c91e1bc8ba7329ecfe895d",
+          "reason": "Identity collision (unknown period): 37206 財産管理事業① incoming=cached-37206-36c91e1bc8ba7329ecfe895d existing=cached-37206-fe20cb6ccd92b94d4346f879; review reprint vs distinct business vs correction"
+        }
+      ],
+      "candidateRecords": 34,
+      "status": "partially_accepted"
+    }
+  ]
+}

@@ -19,6 +19,32 @@ if (args.length !== 6 || args[0] !== '--output-dir' || args[2] !== '--generated-
   throw new Error('Use --output-dir <directory> --generated-at <ISO timestamp> --codes <codes>');
 }
 const output = resolve(args[1]), generatedAt = args[3];
+// This reviewed cohort uses a frozen, hash-checked composed baseline and its own bounded-sheet rules.
+// Keep the common byte-for-byte reproduction entry point covering every immutable supplemental input.
+if (generatedAt === '2026-10-25T23:37:00.000Z') {
+  if (args[5].split(',').sort().join(',') !== '01202,13220,37206') throw new Error('Replay the offline source phase with all three reviewed municipality codes');
+  const { reviewOfflinePhase } = await import('./review-offline-source-phase');
+  await reviewOfflinePhase(output, true);
+  process.exit(0);
+}
+if (generatedAt === '2026-10-26T01:55:00.000Z') {
+  if (args[5].split(',').sort().join(',') !== '01204,01209,01230,01692,03203,03205,05348,07203,07214,08222,11211,11343,12213,13109,13223,14205,21216,27140,30391,42211,46223') throw new Error('Replay all reviewed cached-family municipalities');
+  const { reviewCachedFamilies } = await import('./review-cached-families');
+  await reviewCachedFamilies(output,true);
+  process.exit(0);
+}
+if (generatedAt === '2026-10-26T01:12:00.000Z') {
+  if (args[5].split(',').sort().join(',') !== '01230,04215,06362,08204,11208,11221,12232,13102,13109,13114,14100,34369,42212') throw new Error('Replay all thirteen systematic-inventory municipalities');
+  const { reviewCachedInventory } = await import('./review-cached-inventory');
+  await reviewCachedInventory(output,true);
+  process.exit(0);
+}
+if (generatedAt === '2026-10-26T00:29:00.000Z') {
+  if (args[5].split(',').sort().join(',') !== '01202,11243,12204,37206') throw new Error('Replay all four continuation/layout municipalities');
+  const { reviewContinuationPhase } = await import('./review-continuation-phase');
+  await reviewContinuationPhase(output, true);
+  process.exit(0);
+}
 const priorStateRule = Date.parse(generatedAt) >= Date.parse(PRIOR_STATE_RULE_SINCE);
 let priorShards: Map<string, Buffer> | undefined;
 async function priorProjects(code: string): Promise<ProjectEvaluation[]> {

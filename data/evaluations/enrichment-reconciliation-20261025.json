@@ -1,0 +1,24 @@
+{
+  "recoveredCommit": "ec06954b",
+  "originalBaseCommit": "9a033a8b11e1b499b2c53e1f9a003369e26a1dde",
+  "currentBaseCommit": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "generatedAt": "2026-10-25T22:09:06.000Z",
+  "currentBaseIndexSha256": "3fe72df613a2bc76bf7c4f5adbc1e4faa0668de1489d0140b2d63bb425be352f",
+  "municipalitiesPreserved": 500,
+  "annualRecordsPreserved": 92038,
+  "candidateRecords": 5003,
+  "unchangedBeforeRecordHashes": 5003,
+  "changedBeforeRecordHashes": 0,
+  "missingTargets": 0,
+  "originalCandidateInput": {
+    "path": "data/evaluations/enrichment-inputs/9c23bb6945c6e7dd48563240cbad65d21d1addacf6d7a695c4f29eac46d061ca.json",
+    "sha256": "9c23bb6945c6e7dd48563240cbad65d21d1addacf6d7a695c4f29eac46d061ca",
+    "bytes": 19787314
+  },
+  "network": {
+    "newMunicipalRequests": 0,
+    "githubConnectorReadError": "tool call failed for codex_apps/github.fetch_pr: Transport closed",
+    "githubConnectorRetried": false,
+    "gitFetch": "succeeded; origin/master reconciled"
+  }
+}

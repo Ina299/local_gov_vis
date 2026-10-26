@@ -1,0 +1,253 @@
+{
+  "baseline": "14566beb78508e52595176c143b595b90db0f37e",
+  "oldRecordsPreservedExactly": 92038,
+  "addedRecords": 251,
+  "changedShards": [
+    {
+      "code": "01202",
+      "added": 64
+    },
+    {
+      "code": "01213",
+      "added": 0
+    },
+    {
+      "code": "01217",
+      "added": 0
+    },
+    {
+      "code": "02206",
+      "added": 0
+    },
+    {
+      "code": "02446",
+      "added": 0
+    },
+    {
+      "code": "03202",
+      "added": 0
+    },
+    {
+      "code": "03205",
+      "added": 0
+    },
+    {
+      "code": "04212",
+      "added": 0
+    },
+    {
+      "code": "05214",
+      "added": 0
+    },
+    {
+      "code": "05434",
+      "added": 0
+    },
+    {
+      "code": "06205",
+      "added": 0
+    },
+    {
+      "code": "07213",
+      "added": 0
+    },
+    {
+      "code": "07446",
+      "added": 0
+    },
+    {
+      "code": "08205",
+      "added": 0
+    },
+    {
+      "code": "08210",
+      "added": 0
+    },
+    {
+      "code": "08217",
+      "added": 0
+    },
+    {
+      "code": "11230",
+      "added": 0
+    },
+    {
+      "code": "11232",
+      "added": 0
+    },
+    {
+      "code": "11239",
+      "added": 0
+    },
+    {
+      "code": "11243",
+      "added": 0
+    },
+    {
+      "code": "11365",
+      "added": 0
+    },
+    {
+      "code": "13106",
+      "added": 0
+    },
+    {
+      "code": "13107",
+      "added": 0
+    },
+    {
+      "code": "13116",
+      "added": 0
+    },
+    {
+      "code": "13203",
+      "added": 0
+    },
+    {
+      "code": "13212",
+      "added": 0
+    },
+    {
+      "code": "13214",
+      "added": 0
+    },
+    {
+      "code": "13220",
+      "added": 11
+    },
+    {
+      "code": "14211",
+      "added": 0
+    },
+    {
+      "code": "14217",
+      "added": 0
+    },
+    {
+      "code": "15307",
+      "added": 0
+    },
+    {
+      "code": "16323",
+      "added": 0
+    },
+    {
+      "code": "17203",
+      "added": 0
+    },
+    {
+      "code": "19207",
+      "added": 0
+    },
+    {
+      "code": "20202",
+      "added": 0
+    },
+    {
+      "code": "21221",
+      "added": 0
+    },
+    {
+      "code": "22210",
+      "added": 0
+    },
+    {
+      "code": "27214",
+      "added": 0
+    },
+    {
+      "code": "28203",
+      "added": 0
+    },
+    {
+      "code": "29209",
+      "added": 0
+    },
+    {
+      "code": "30206",
+      "added": 0
+    },
+    {
+      "code": "31202",
+      "added": 0
+    },
+    {
+      "code": "32206",
+      "added": 0
+    },
+    {
+      "code": "33209",
+      "added": 0
+    },
+    {
+      "code": "34209",
+      "added": 0
+    },
+    {
+      "code": "34214",
+      "added": 0
+    },
+    {
+      "code": "35206",
+      "added": 0
+    },
+    {
+      "code": "35207",
+      "added": 0
+    },
+    {
+      "code": "35211",
+      "added": 0
+    },
+    {
+      "code": "37202",
+      "added": 0
+    },
+    {
+      "code": "37206",
+      "added": 176
+    },
+    {
+      "code": "38205",
+      "added": 0
+    },
+    {
+      "code": "39412",
+      "added": 0
+    },
+    {
+      "code": "40205",
+      "added": 0
+    },
+    {
+      "code": "40220",
+      "added": 0
+    },
+    {
+      "code": "40224",
+      "added": 0
+    },
+    {
+      "code": "43216",
+      "added": 0
+    },
+    {
+      "code": "44204",
+      "added": 0
+    },
+    {
+      "code": "44213",
+      "added": 0
+    },
+    {
+      "code": "45401",
+      "added": 0
+    },
+    {
+      "code": "47207",
+      "added": 0
+    }
+  ],
+  "enrichmentInputsAndStatisticsUnchanged": true,
+  "indexSha256": "7d590377c2cd01d897cff873e975bf09d0ef6b2b7581bfe441e635b295667278"
+}

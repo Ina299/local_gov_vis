@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-26T01:08:25.037328+00:00",
+  "baseline": "b463596f5a20cf268f8e2c4af6ba22faa50465b2",
+  "phase": "two-town-acquisition-preflight",
+  "preflightComplete": false,
+  "municipalRequests": 0,
+  "recordsAdded": 0,
+  "currentAccessDenialObserved": false,
+  "quarantineHostCount": 299,
+  "additionalStopHostCount": 7,
+  "combinedKnownStopHostCount": 306,
+  "quarantineInputs": [
+    {
+      "path": "data/evaluations/navigation-reviewed-sources-r3.json",
+      "bytes": 690358,
+      "sha256": "23fef567d1cf49ceb7a5e157daacca7483bc5e635a3af30d8079ccd7ec8a1735"
+    },
+    {
+      "path": "data/evaluations/navigation-reviewed-sources-r4.json",
+      "bytes": 394889,
+      "sha256": "578c9993c831821d9661ce7d31f0f7d18f1bbb843ec95f462df691ccf26d011b"
+    },
+    {
+      "path": "data/evaluations/navigation-reviewed-sources-r5.json",
+      "bytes": 3473413,
+      "sha256": "8742c060708e6a69f0567a6692ba51ad50fac334ad1f2c67c2fc9545277899c3"
+    },
+    {
+      "path": "data/evaluations/navigation-reviewed-sources.json",
+      "bytes": 1695659,
+      "sha256": "f50723105fd4d88235f0105e58781630994fd935f93db559e13c0d24da7fd3af"
+    }
+  ],
+  "additionalStopInputs": [
+    {
+      "path": "/workspace/local_gov_vis/apps/crawler/output/reviewed-five-sources/manifest.json",
+      "bytes": 6157,
+      "sha256": "5476c72a2ff2470845df59ed455182386f51c68840e4c65b32a6d99a90c7d778",
+      "blockedHosts": {
+        "www.city.chitose.lg.jp": "Transport failure; inspect environment before retry",
+        "www.city.noboribetsu.lg.jp": "Transport failure; inspect environment before retry",
+        "www.city.eniwa.hokkaido.jp": "Transport failure; inspect environment before retry",
+        "www.vill.rusutsu.lg.jp": "Transport failure; inspect environment before retry",
+        "www.town.haboro.lg.jp": "Transport failure; inspect environment before retry"
+      },
+      "hostFailures": {}
+    },
+    {
+      "path": "/workspace/local_gov_vis/apps/crawler/output/reviewed-matsubara/manifest.json",
+      "bytes": 1673,
+      "sha256": "3d1aefd437a3db92b5fcbf626d967efe1cc5ecae7f7cb4a1a75dc80e2203a67f",
+      "blockedHosts": {
+        "www.city.matsubara.lg.jp": "Transport failure (TypeError, Error, AbortError, UND_ERR_ABORTED); inspect environment before retry"
+      },
+      "hostFailures": {
+        "www.city.matsubara.lg.jp": {
+          "failureKind": "proxy_denial",
+          "proxyHttpStatus": 403
+        }
+      }
+    },
+    {
+      "path": "/workspace/local_gov_vis/apps/crawler/output/reviewed-takamatsu/manifest.json",
+      "bytes": 1503,
+      "sha256": "520d25ec05e6b3cb8cd2feb812c34ce0b94a6455b5d6fe17b6c0295aa3a67f56",
+      "blockedHosts": {
+        "www.city.takamatsu.kagawa.jp": "Transport failure (TypeError, Error, AbortError, UND_ERR_ABORTED); inspect environment before retry"
+      },
+      "hostFailures": {}
+    }
+  ],
+  "laterCollectorManifestsRequired": [
+    {
+      "batch": 7,
+      "overlay": {
+        "path": "data/evaluations/collected-sources-batch7.json",
+        "bytes": 10418868,
+        "sha256": "6c51922367960cf43235808f6c5dbf35fd5aedf596482c1309c96cd907fd5a4f"
+      },
+      "expectedCollectorManifestSha256": "aeb42f6aca54aa10224db36c1411e60c1f002787cec1e30cc2ccadef3ec9445a",
+      "status": "not_present_in_selected_workspace",
+      "collectedAt": "2026-10-21T03:24:36.148Z"
+    },
+    {
+      "batch": 8,
+      "overlay": {
+        "path": "data/evaluations/collected-sources-batch8.json",
+        "bytes": 3856784,
+        "sha256": "9a3673c9549a355fe46823ab289c3cb237c9dae036519148f45eb446e305b3c2"
+      },
+      "expectedCollectorManifestSha256": "2056363669e912ea58d0ee128f16a6bd13a95accf52c2a1956f036f4f3a95b72",
+      "status": "not_present_in_selected_workspace",
+      "collectedAt": "2026-10-21T08:46:55.151Z"
+    },
+    {
+      "batch": 9,
+      "overlay": {
+        "path": "data/evaluations/collected-sources-batch9.json",
+        "bytes": 2404836,
+        "sha256": "0dfa9048a3c5fdbcb2bd0f29378be516e6ff6ecd252233bc892296189a1b133b"
+      },
+      "expectedCollectorManifestSha256": "bc88d1d5624242f66730e07cdad6608e012cb661380a9f19ff5067b5e397436b",
+      "status": "not_present_in_selected_workspace",
+      "collectedAt": "2026-10-21T09:13:38.015Z"
+    },
+    {
+      "batch": 10,
+      "overlay": {
+        "path": "data/evaluations/collected-sources-batch10.json",
+        "bytes": 1094103,
+        "sha256": "6391eec9b80df0bcc2e7381666507633509aa271a9400e0a78f049c6250836cf"
+      },
+      "expectedCollectorManifestSha256": "9350710e397e5059d831fe01d88bb4b8e866ba5b76b4c797b99ab6a2aeaeea71",
+      "status": "not_present_in_selected_workspace",
+      "collectedAt": "2026-10-21T11:36:33.737Z"
+    },
+    {
+      "batch": 11,
+      "overlay": {
+        "path": "data/evaluations/collected-sources-batch11.json",
+        "bytes": 12206576,
+        "sha256": "b013ea17ceea3fc551f56e3a758000785de29dc54a6a432dbc26d393750fd8ab"
+      },
+      "expectedCollectorManifestSha256": "d8a5d1d49f749ddd92b55d4581fc4ffc340c5c1d5cf56bd8cb1d3256926b78bf",
+      "status": "not_present_in_selected_workspace",
+      "collectedAt": "2026-10-23T19:36:45.365Z"
+    },
+    {
+      "batch": 12,
+      "overlay": {
+        "path": "data/evaluations/collected-sources-batch12.json",
+        "bytes": 401512,
+        "sha256": "be13a81b490f1866ca67ac22f7e0ea69804f4be4ce7ff17a641382640df3e7ba"
+      },
+      "expectedCollectorManifestSha256": "0381c970b55ee0dabbfa4be4728e2e68e75590d716f7d9f5c115d6a4b9dfb537",
+      "status": "not_present_in_selected_workspace",
+      "collectedAt": "2026-10-23T22:57:01.138Z"
+    }
+  ],
+  "candidates": [
+    {
+      "municipalityCode": "01610",
+      "sourceId": "2fe8c681469aff9b58d555f8",
+      "url": "https://www.shinhidaka-hokkaido.jp/hotnews/files/00006400/00006411/r6_kekka.pdf",
+      "sourcePageUrl": "https://www.shinhidaka-hokkaido.jp/hotnews/files/00006400/00006411/r6_kekka.pdf",
+      "title": "令和6年度 行政評価実施結果",
+      "host": "www.shinhidaka-hokkaido.jp",
+      "sourceMetadata": {
+        "path": "apps/web/public/evaluation-evidence/municipalities/01610.json",
+        "bytes": 3117,
+        "sha256": "4924f4c2be00ccc5d0f0b638657d7675c3278cec6b75ca1ec85ee5e22094b4bd"
+      },
+      "officialVerification": {
+        "basis": [
+          "公式ページの本文・参照関係を確認（原本バイトは未保存）"
+        ],
+        "evaluationRelevance": "verified",
+        "evidenceSha256": null,
+        "evidenceSourceId": null,
+        "status": "verified"
+      },
+      "acquisition": {
+        "containerSha256": null,
+        "fetchedAt": null,
+        "httpStatus": null,
+        "inputStatus": "discovered",
+        "memberIndex": null,
+        "memberPath": null,
+        "method": "network",
+        "sourceSha256": null,
+        "state": "discovered"
+      },
+      "samePathInventoryVariants": [
+        {
+          "sourceId": "2fe8c681469aff9b58d555f8",
+          "url": "https://www.shinhidaka-hokkaido.jp/hotnews/files/00006400/00006411/r6_kekka.pdf",
+          "verification": "verified",
+          "acquisitionState": "discovered"
+        }
+      ],
+      "quarantineMatches": [],
+      "additionalStopMatches": [],
+      "warningHostMatch": false,
+      "laterCollectionStops": "unknown: six original collector manifests unavailable; successful overlays do not contain stops",
+      "robotsAccessConditions": "not checked remotely; no cached target-specific robots record located; prerequisite host-stop reconciliation incomplete",
+      "decision": "hold_preflight_incomplete",
+      "municipalRequests": 0,
+      "currentHttpStatus": null,
+      "currentNetworkOutcome": "not_attempted"
+    },
+    {
+      "municipalityCode": "06362",
+      "sourceId": "3979f5830007b91da80200e4",
+      "url": "https://town.mogami.lg.jp/data/upload/2025-05-29_09-39-16_2.pdf?2026102117",
+      "sourcePageUrl": "https://town.mogami.lg.jp/admin/03koukai-shiryou/01soumu-data.php",
+      "title": "令和６年度事務事業評価評価シート　No.166～252　最上町総合計画第4章部分",
+      "host": "town.mogami.lg.jp",
+      "sourceMetadata": {
+        "path": "apps/web/public/evaluation-evidence/municipalities/06362.json",
+        "bytes": 153954,
+        "sha256": "cee03e291d139de572ea4805c8cc55db8114aef07b8aae76b8d8190d0ff27c26"
+      },
+      "officialVerification": {
+        "basis": [
+          "公式ページの本文・参照関係を確認（原本バイトは未保存）"
+        ],
+        "evaluationRelevance": "verified",
+        "evidenceSha256": null,
+        "evidenceSourceId": null,
+        "status": "verified"
+      },
+      "acquisition": {
+        "containerSha256": null,
+        "fetchedAt": null,
+        "httpStatus": null,
+        "inputStatus": "discovered",
+        "memberIndex": null,
+        "memberPath": null,
+        "method": "network",
+        "sourceSha256": null,
+        "state": "discovered"
+      },
+      "samePathInventoryVariants": [
+        {
+          "sourceId": "c08756190d0036162471246d",
+          "url": "https://town.mogami.lg.jp/data/upload/2025-05-29_09-39-16_2.pdf?2026021717=",
+          "verification": "unverified",
+          "acquisitionState": "discovered"
+        },
+        {
+          "sourceId": "3979f5830007b91da80200e4",
+          "url": "https://town.mogami.lg.jp/data/upload/2025-05-29_09-39-16_2.pdf?2026102117",
+          "verification": "verified",
+          "acquisitionState": "discovered"
+        },
+        {
+          "sourceId": "6e7d87da3096c5097f521d6c",
+          "url": "https://town.mogami.lg.jp/data/upload/2025-05-29_09-39-16_2.pdf?2026102118",
+          "verification": "verified",
+          "acquisitionState": "discovered"
+        }
+      ],
+      "quarantineMatches": [],
+      "additionalStopMatches": [],
+      "warningHostMatch": false,
+      "laterCollectionStops": "unknown: six original collector manifests unavailable; successful overlays do not contain stops",
+      "robotsAccessConditions": "not checked remotely; no cached target-specific robots record located; prerequisite host-stop reconciliation incomplete",
+      "decision": "hold_preflight_incomplete",
+      "municipalRequests": 0,
+      "currentHttpStatus": null,
+      "currentNetworkOutcome": "not_attempted"
+    }
+  ],
+  "remainingPrerequisites": [
+    "Supply original collector manifests for batches 7–12 matching the recorded hashes, including blockedHosts/hostFailures and warning outcomes, or an authoritative complete cumulative stop inventory with provenance. Do not infer clearance from successful overlays.",
+    "Reconcile both exact source hosts and all historical stop/warning outcomes. Preserve existing holds unless specifically resolved by relevant evidence/authorization.",
+    "Only after host clearance, check applicable robots/access conditions through the ordinary permitted route; stop any denial, authentication or warning.",
+    "If all gates pass, retrieve at most one exact reviewed PDF per town using existing proxy settings, strict host redirect policy and no retries."
+  ],
+  "independentAllowedWork": [
+    {
+      "sourceId": "13de8a6ce5d6470c5f84ab83",
+      "url": "https://town.mogami.lg.jp/data/upload/2025-05-29_09-38-37_2.pdf?2026102117",
+      "title": "令和６年度事務事業評価評価シート　No.123～165　最上町総合計画第3章部分",
+      "asset": {
+        "path": "apps/web/public/evaluation-evidence/documents/13de8a6ce5d6470c5f84ab83.json",
+        "bytes": 170927,
+        "sha256": "713af39b34f53ed9eccd43b165afd83f174407e55f75695f90bf532b92ae287c"
+      },
+      "sourceSha256": "488e989f42abab086ea544d28e3b8fb6b28b741f0330ade605195959f010e366",
+      "textSha256": "09224bb9c66ede28757ff3592b4dc3df5cbf7c21fc2a77e51e669fcf04d35405",
+      "characters": 68480,
+      "truncated": false,
+      "status": "offline_review_allowed_not_yet_extracted",
+      "scope": "Not in completed 578-document cohort and source hash not referenced by current 513 Mogami records; business/year dedup still required. Query variants are not separate records."
+    },
+    {
+      "sourceId": "e0478ac24f6040c9088eedbf",
+      "url": "https://town.mogami.lg.jp/data/upload/2025-05-29_09-39-56_2.pdf?2026102117",
+      "title": "令和６年度事務事業評価評価シート　No.276～309　最上町総合計画第6章部分",
+      "asset": {
+        "path": "apps/web/public/evaluation-evidence/documents/e0478ac24f6040c9088eedbf.json",
+        "bytes": 148064,
+        "sha256": "cfbbdcb4c11f702e62a5ab162390d131d42a9245b7d5c62d363fa3ef2f4819de"
+      },
+      "sourceSha256": "f627f08c15555750616f871ffd924379f0376ad9b3d4a8a0c64c00dab9b00cc7",
+      "textSha256": "be75d6c96fc75bbb910e043b75e67d509e2c4a2814d16288da071584adb92b18",
+      "characters": 58538,
+      "truncated": false,
+      "status": "offline_review_allowed_not_yet_extracted",
+      "scope": "Not in completed 578-document cohort and source hash not referenced by current 513 Mogami records; business/year dedup still required. Query variants are not separate records."
+    }
+  ],
+  "existingGates": "All 299 original hosts, seven additional stopped hosts, later unreviewed stops and Itabashi Drive warning remain held."
+}
