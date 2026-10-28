@@ -2358,3 +2358,19 @@ a.text-button {
   .evaluation-view-nav { display: grid; grid-template-columns: 1fr 1fr; }
   .evaluation-view-nav a { padding: 10px 8px; text-align: center; font-size: .84rem; }
 }
+
+/* 事業コストの流れ（評価資料の決算額 → 部局 → 事業） */
+.evaluation-cost-flow { margin: 24px 0; }
+.evaluation-cost-flow-year { display: flex; gap: 6px; align-items: center; font-size: .85rem; color: #536879; }
+.evaluation-cost-flow-chart { position: relative; margin-top: 8px; overflow-x: auto; }
+.evaluation-cost-flow-chart svg { width: 100%; min-width: 640px; height: auto; display: block; }
+.evaluation-cost-flow-clickable { cursor: pointer; }
+.evaluation-cost-flow-clickable:focus-visible { outline: 2px solid #2a78d6; outline-offset: 2px; }
+.evaluation-cost-flow-tooltip { position: absolute; pointer-events: none; background: #fff; border: 1px solid #d9dde3; border-radius: 6px;
+  padding: 6px 8px; font-size: .8rem; line-height: 1.4; box-shadow: 0 2px 8px rgba(0, 0, 0, .12); max-width: 320px; white-space: normal; z-index: 2; }
+.evaluation-cost-flow-tooltip-title { font-weight: 600; color: #1a1a2e; }
+.evaluation-cost-flow-table { margin-top: 8px; }
+.evaluation-cost-flow-table table { border-collapse: collapse; width: 100%; font-size: .85rem; }
+.evaluation-cost-flow-table th, .evaluation-cost-flow-table td { padding: 4px 8px; border-bottom: 1px solid #e6e9ee; text-align: left; }
+.evaluation-cost-flow-table td { text-align: right; white-space: nowrap; }
+.evaluation-cost-flow-table tbody + tbody { border-top: 2px solid #d9dde3; }
