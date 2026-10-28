@@ -1,0 +1,340 @@
+{
+  "generatedAt": "2026-10-26T00:00:00.000Z",
+  "municipalities": [
+    {
+      "code": "01216",
+      "sheets": 1638,
+      "enriched": 466,
+      "skipped": {
+        "no_match": 94,
+        "shared_target": 5
+      },
+      "added": {
+        "amounts": 932,
+        "indicators": 0,
+        "ratings": 0,
+        "departments": 0
+      }
+    },
+    {
+      "code": "03205",
+      "sheets": 553,
+      "enriched": 269,
+      "skipped": {
+        "no_match": 2
+      },
+      "added": {
+        "amounts": 538,
+        "indicators": 0,
+        "ratings": 0,
+        "departments": 0
+      }
+    },
+    {
+      "code": "03216",
+      "sheets": 488,
+      "enriched": 0,
+      "skipped": {},
+      "added": {
+        "amounts": 0,
+        "indicators": 0,
+        "ratings": 0,
+        "departments": 0
+      }
+    },
+    {
+      "code": "08211",
+      "sheets": 62,
+      "enriched": 61,
+      "skipped": {
+        "no_match": 1
+      },
+      "added": {
+        "amounts": 79,
+        "indicators": 0,
+        "ratings": 58,
+        "departments": 2
+      }
+    },
+    {
+      "code": "10204",
+      "sheets": 10,
+      "enriched": 7,
+      "skipped": {
+        "no_match": 3
+      },
+      "added": {
+        "amounts": 15,
+        "indicators": 68,
+        "ratings": 0,
+        "departments": 0
+      }
+    },
+    {
+      "code": "10207",
+      "sheets": 1002,
+      "enriched": 95,
+      "skipped": {
+        "no_match": 4,
+        "ambiguous_match": 1,
+        "nothing_to_add": 22,
+        "shared_target": 2
+      },
+      "added": {
+        "amounts": 77,
+        "indicators": 0,
+        "ratings": 430,
+        "departments": 0
+      }
+    },
+    {
+      "code": "11201",
+      "sheets": 566,
+      "enriched": 413,
+      "skipped": {
+        "no_match": 119,
+        "ambiguous_match": 34
+      },
+      "added": {
+        "amounts": 48,
+        "indicators": 0,
+        "ratings": 841,
+        "departments": 0
+      }
+    },
+    {
+      "code": "11215",
+      "sheets": 170,
+      "enriched": 101,
+      "skipped": {
+        "nothing_to_add": 25
+      },
+      "added": {
+        "amounts": 374,
+        "indicators": 94,
+        "ratings": 0,
+        "departments": 34
+      }
+    },
+    {
+      "code": "11234",
+      "sheets": 387,
+      "enriched": 12,
+      "skipped": {
+        "no_match": 116
+      },
+      "added": {
+        "amounts": 48,
+        "indicators": 0,
+        "ratings": 0,
+        "departments": 0
+      }
+    },
+    {
+      "code": "11242",
+      "sheets": 236,
+      "enriched": 0,
+      "skipped": {},
+      "added": {
+        "amounts": 0,
+        "indicators": 0,
+        "ratings": 0,
+        "departments": 0
+      }
+    },
+    {
+      "code": "11343",
+      "sheets": 487,
+      "enriched": 183,
+      "skipped": {
+        "no_match": 13
+      },
+      "added": {
+        "amounts": 2553,
+        "indicators": 0,
+        "ratings": 0,
+        "departments": 0
+      }
+    },
+    {
+      "code": "13102",
+      "sheets": 138,
+      "enriched": 49,
+      "skipped": {
+        "no_match": 3
+      },
+      "added": {
+        "amounts": 92,
+        "indicators": 0,
+        "ratings": 0,
+        "departments": 49
+      }
+    },
+    {
+      "code": "13103",
+      "sheets": 533,
+      "enriched": 76,
+      "skipped": {
+        "no_match": 2
+      },
+      "added": {
+        "amounts": 0,
+        "indicators": 227,
+        "ratings": 0,
+        "departments": 0
+      }
+    },
+    {
+      "code": "13106",
+      "sheets": 309,
+      "enriched": 289,
+      "skipped": {
+        "nothing_to_add": 20
+      },
+      "added": {
+        "amounts": 1476,
+        "indicators": 2583,
+        "ratings": 0,
+        "departments": 0
+      }
+    },
+    {
+      "code": "13109",
+      "sheets": 5135,
+      "enriched": 0,
+      "skipped": {
+        "no_match": 3,
+        "ambiguous_match": 18,
+        "nothing_to_add": 1674,
+        "shared_target": 168
+      },
+      "added": {
+        "amounts": 0,
+        "indicators": 0,
+        "ratings": 0,
+        "departments": 0
+      }
+    },
+    {
+      "code": "13121",
+      "sheets": 877,
+      "enriched": 110,
+      "skipped": {
+        "no_match": 4
+      },
+      "added": {
+        "amounts": 220,
+        "indicators": 0,
+        "ratings": 110,
+        "departments": 0
+      }
+    },
+    {
+      "code": "13223",
+      "sheets": 468,
+      "enriched": 76,
+      "skipped": {
+        "no_match": 2
+      },
+      "added": {
+        "amounts": 322,
+        "indicators": 0,
+        "ratings": 0,
+        "departments": 0
+      }
+    },
+    {
+      "code": "14382",
+      "sheets": 259,
+      "enriched": 7,
+      "skipped": {
+        "no_match": 25
+      },
+      "added": {
+        "amounts": 0,
+        "indicators": 0,
+        "ratings": 7,
+        "departments": 0
+      }
+    },
+    {
+      "code": "14384",
+      "sheets": 218,
+      "enriched": 215,
+      "skipped": {
+        "no_match": 1,
+        "ambiguous_match": 1
+      },
+      "added": {
+        "amounts": 1080,
+        "indicators": 42,
+        "ratings": 832,
+        "departments": 0
+      }
+    },
+    {
+      "code": "29205",
+      "sheets": 338,
+      "enriched": 0,
+      "skipped": {},
+      "added": {
+        "amounts": 0,
+        "indicators": 0,
+        "ratings": 0,
+        "departments": 0
+      }
+    },
+    {
+      "code": "34214",
+      "sheets": 322,
+      "enriched": 320,
+      "skipped": {
+        "ambiguous_match": 2
+      },
+      "added": {
+        "amounts": 1300,
+        "indicators": 0,
+        "ratings": 0,
+        "departments": 0
+      }
+    },
+    {
+      "code": "35215",
+      "sheets": 22,
+      "enriched": 22,
+      "skipped": {},
+      "added": {
+        "amounts": 236,
+        "indicators": 0,
+        "ratings": 264,
+        "departments": 0
+      }
+    },
+    {
+      "code": "37202",
+      "sheets": 33,
+      "enriched": 31,
+      "skipped": {
+        "no_match": 2
+      },
+      "added": {
+        "amounts": 0,
+        "indicators": 0,
+        "ratings": 31,
+        "departments": 31
+      }
+    },
+    {
+      "code": "42210",
+      "sheets": 192,
+      "enriched": 0,
+      "skipped": {},
+      "added": {
+        "amounts": 0,
+        "indicators": 0,
+        "ratings": 0,
+        "departments": 0
+      }
+    }
+  ]
+}

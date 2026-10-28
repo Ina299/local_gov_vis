@@ -658,3 +658,10 @@ dots 時代の 94 資料は、89 件が公開中の原本ハッシュと一致�
 node --import tsx apps/crawler/src/enrich-evaluations.ts --output-dir <dir>/inputs --generated-at <ISO> --codes 27140,13109
 node --import tsx apps/crawler/src/enrich-evaluations.ts --import <dir>/inputs --generated-at <ISO>
 ```
+
+### 補強 第2回（2026-10-26）
+
+一覧由来で金額のないレコードが多く、未使用の評価シート等が取得済みの自治体を機械的に洗い出し（108 自治体）、資料の多い 33 自治体を 6 エージェントで精査。
+補強専用の抽出器は `apps/crawler/src/evaluations/expansion/enrich/`（`enrichmentExtractors`、追記バッチでは使わない）。`enrich-evaluations.ts --module` で事前確認できる。
+19 自治体・2,802 レコードを補強（件数は不変）。多いのは芦別市 466、川越市 413、安芸高田市 320、台東区 289、花巻市 269、湯河原町 215、小川町 183。
+飯島町（予算・決算を列順で推定）と宇都宮市（進捗を位置で事業に割当）は公開対象外。詳細は `enrichment-report-2026-10-26.json`。

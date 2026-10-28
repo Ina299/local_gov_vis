@@ -14,6 +14,8 @@ import { sha256, verifyCoreIntegratedEvaluations } from './evaluations/national-
 import { ENRICHMENT_INPUTS, SUPPLEMENTAL_MANIFEST, composeSupplemental, loadBatches, loadEnrichmentBatches, loadManifest, verifySupplementalDecisionProofs, verifySupplementalEvaluations } from './evaluations/supplemental-integration';
 import { buildEnrichments, type EnrichmentInput } from './evaluations/enrichment';
 import { laterExtractors } from './evaluations/expansion/later-registries';
+import { enrichmentExtractors } from './evaluations/expansion/enrich/registry';
+import { pathToFileURL } from 'node:url';
 import { FULLTEXT_SINCE, fullText } from './evaluations/expansion/fulltext';
 import { setPriorRecords } from './evaluations/expansion/run-context';
 import type { CachedInput } from './evaluations/expansion/shared';
@@ -35,14 +37,18 @@ async function publishedBefore(): Promise<Map<string, Buffer>> {
   return composeSupplemental(base, batches, context, (await loadEnrichmentBatches(root, manifest)).filter(earlier)).assets.shards;
 }
 
+let trial: Record<string, { extract: (i: CachedInput, all: CachedInput[]) => ProjectEvaluation[]; scope: string }> | undefined;
 async function build(output: string, codes: string[]) {
+  if (arg('--module')) trial = (await import(pathToFileURL(resolve(arg('--module')!)).href)).entries;
   const shards = await publishedBefore();
   const evidenceDir = join(root, 'apps/web/public/evaluation-evidence');
   const index = JSON.parse(await readFile(join(evidenceDir, 'index.json'), 'utf8'));
   await mkdir(output, { recursive: true });
   const report = [];
   for (const code of codes) {
-    const extractors = laterExtractors.filter(r => Date.parse(generatedAt!) >= Date.parse(r.since)).map(r => r.extractors[code]).filter(Boolean);
+    // --module (dry runs while writing an extractor) replaces the registries for this municipality.
+    const extractors = trial ? [trial[code]].filter(Boolean)
+      : [...laterExtractors, ...enrichmentExtractors].filter(r => Date.parse(generatedAt!) >= Date.parse(r.since)).map(r => r.extractors[code]).filter(Boolean);
     if (!extractors.length) throw new Error(`No later-batch extractor for ${code}`);
     const row = index.municipalities.find((r: { municipalityCode: string }) => r.municipalityCode === code);
     const muni: MunicipalityEvidence = JSON.parse(await readFile(join(evidenceDir, row.shardPath), 'utf8'));
