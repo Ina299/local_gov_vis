@@ -20,6 +20,7 @@ import {
 } from '@/lib/metrics';
 import { dataUrl } from '@/lib/paths';
 import { fetchJson } from '@/lib/fetchJson';
+import { loadEvaluationCoverage, type CoverageEntry } from '@/lib/evaluationCoverage';
 import { fetchTopoFeatures } from '@/lib/topo';
 import type { RegionScope } from '@/components/Sidebar';
 import type { LocalGovBudget, GeoFeature, MapScale } from '@/types/budget';
@@ -44,6 +45,7 @@ const CATEGORY_DEFAULT_KEY: Record<MetricCategory, MapMetricKey> = {
   infra: 'roadPerCapita',
   safety: 'trafficAccidents',
   election: 'electionWinnerMargin',
+  evaluation: 'evaluationCoverage',
 };
 
 /** 表示階層: 全国（都道府県） / 全国（市区町村） / 特定都道府県内の市区町村 */
@@ -173,6 +175,25 @@ export default function Home({ initialView = 'map' }: HomeProps) {
       });
   }, []);
 
+  // 事務事業評価の整備状況（地図の層・収支図からの遷移先）。取れなければ層は「データなし」、遷移先は資料一覧になる
+  const [coverage, setCoverage] = useState<Record<string, CoverageEntry> | null>(null);
+  useEffect(() => {
+    loadEvaluationCoverage()
+      .then((file) => setCoverage(file.municipalities))
+      .catch((err) => console.error('事務事業評価の整備状況の読み込みエラー:', err));
+  }, []);
+  // 予算データに整備状況を付ける。同じ予算には同じオブジェクトを返し、選択中の団体の参照を安定させる
+  const withCoverage = useMemo(() => {
+    const cache = new WeakMap<LocalGovBudget, LocalGovBudget>();
+    return (b: LocalGovBudget): LocalGovBudget => {
+      const entry = b.code.length === 5 ? coverage?.[b.code] : undefined;
+      if (!entry) return b;
+      let out = cache.get(b);
+      if (!out) cache.set(b, (out = { ...b, evaluationCoverage: entry }));
+      return out;
+    };
+  }, [coverage]);
+
   useEffect(() => {
     fetchJson<SearchEntry[]>(dataUrl('/search-index.json'))
       .then(setSearchEntries)
@@ -205,11 +226,11 @@ export default function Home({ initialView = 'map' }: HomeProps) {
     const map = new Map<string, LocalGovBudget>();
     if (active) {
       for (const b of active.budgets) {
-        if (b.fiscalYear === dataYear) map.set(b.code, b);
+        if (b.fiscalYear === dataYear) map.set(b.code, withCoverage(b));
       }
     }
     return map;
-  }, [active, dataYear]);
+  }, [active, dataYear, withCoverage]);
 
   // 未選択時サイドバーの全国サマリー用（選択年度・現在の表示階層の全団体）
   const regionBudgets = useMemo(() => Array.from(budgetsByCode.values()), [budgetsByCode]);
@@ -231,21 +252,16 @@ export default function Home({ initialView = 'map' }: HomeProps) {
   const lookupBudget = useCallback(
     (code: string, fiscalYear: number | null): LocalGovBudget | null => {
       if (fiscalYear === null) return null;
-      if (
-        view.level === 'nationMuni' &&
-        code.length === 5 &&
-        muniDetail?.prefCode === code.slice(0, 2)
-      ) {
-        return (
-          muniDetail.budgets.find((b) => b.code === code && b.fiscalYear === fiscalYear) ?? null
-        );
-      }
-      const source = code.length === 2 ? national : active;
-      return (
-        source?.budgets.find((b) => b.code === code && b.fiscalYear === fiscalYear) ?? null
-      );
+      const source =
+        view.level === 'nationMuni' && code.length === 5 && muniDetail?.prefCode === code.slice(0, 2)
+          ? muniDetail
+          : code.length === 2
+            ? national
+            : active;
+      const found = source?.budgets.find((b) => b.code === code && b.fiscalYear === fiscalYear);
+      return found ? withCoverage(found) : null;
     },
-    [national, active, view, muniDetail]
+    [national, active, view, muniDetail, withCoverage]
   );
 
   // 全国市区町村ビューで内訳表示用に県別の詳細JSONを取得（県ごとにキャッシュ）

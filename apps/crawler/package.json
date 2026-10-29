@@ -14,6 +14,7 @@
     "import:crime": "tsx src/import-crime.ts",
     "build:municipal-all": "tsx src/build-municipal-all.ts",
     "build:averages": "tsx src/build-averages.ts",
+    "build:evaluation-coverage": "tsx src/build-evaluation-coverage.ts",
     "build:topo": "tsx src/build-topo.ts",
     "build:og": "tsx src/build-og.ts",
     "update:all": "tsx src/update-all.ts",

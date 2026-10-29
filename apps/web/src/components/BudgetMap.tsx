@@ -1,5 +1,5 @@
 'use client';
-import { categoryColor } from '@/lib/parties';
+import { categoryColor, categoryOrder } from '@/lib/parties';
 
 /** 欠損ではなく「対象外」を示す薄い灰色（要確認度の新規・終了など） */
 const EXCLUDED_COLOR = '#d9dde3';
@@ -746,7 +746,10 @@ export default function BudgetMap({
         const label = metricLabelValue(b, metricKey, electionYear);
         if (label !== null) counts.set(label, (counts.get(label) ?? 0) + 1);
       }
-      const items = Array.from(counts.entries()).sort((a, b) => b[1] - a[1]).slice(0, 12).map(([label, n]) => ({ color: categoryColor(metricKey, label)!, label: `${label}（${n}）` }));
+      // 順序のある区分（整備状況）はその順、それ以外は多い順
+      const order = categoryOrder(metricKey);
+      const rank = (label: string) => (order ? order.indexOf(label) : 0);
+      const items = Array.from(counts.entries()).sort((a, b) => rank(a[0]) - rank(b[0]) || b[1] - a[1]).slice(0, 12).map(([label, n]) => ({ color: categoryColor(metricKey, label)!, label: `${label}（${n}）` }));
       return items; // 「データなし」は凡例の共通処理が足す
     }
     if (signedBreaks) {

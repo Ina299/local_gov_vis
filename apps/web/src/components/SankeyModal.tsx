@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import type { LocalGovBudget } from '@/types/budget';
 import { formatAmount } from '@/lib/format';
 import { dataUrl } from '@/lib/paths';
-import { evaluationMunicipalityHref } from '@/lib/evaluationLoader';
+import { evaluationEntryHref } from '@/lib/evaluationCoverage';
 import { GLOSSARY } from '@/lib/glossary';
 import { loadAverages, type BudgetAverages } from '@/lib/averages';
 import { MobileFlowMosaic } from '@/components/MobileFlowMosaic';
@@ -153,7 +153,9 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
   const showTip = (e: { clientX: number; clientY: number }, node: SankeyNode) =>
     setTip({ x: e.clientX, y: e.clientY, node });
 
-  const evaluationUrl = dataUrl(evaluationMunicipalityHref(budget.code.length === 5 ? budget.code : ''));
+  // 事業コストの流れ（サンキー）がある市区町村はその図へ、なければ資料一覧へ
+  const hasCostFlow = budget.evaluationCoverage?.level === 0;
+  const evaluationUrl = dataUrl(evaluationEntryHref(budget.code, budget.evaluationCoverage));
 
   return (
     <div className="modal-overlay" onClick={onClose}>
@@ -175,9 +177,13 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
             <a
               className="text-button"
               href={evaluationUrl}
-              title="この自治体の事務事業評価と資料の取得状況を確認します。予算の款・項と個別事業は自動で対応付けません"
+              title={
+                hasCostFlow
+                  ? '評価資料から読み取れた事業ごとの決算額を、部局別にたどる図を開きます。予算の款・項と個別事業は自動で対応付けません'
+                  : 'この自治体の事務事業評価と資料の取得状況を確認します。予算の款・項と個別事業は自動で対応付けません'
+              }
             >
-              事務事業評価を読む →
+              {hasCostFlow ? '事務事業評価（事業コストの流れ）→' : '事務事業評価を読む →'}
             </a>
             <button className="modal-close" onClick={onClose} aria-label="閉じる">
               ×

@@ -1,5 +1,6 @@
 import type { LocalGovBudget, MapScale } from '@/types/budget';
 import { formatAmount } from './format';
+import { coverageLabel } from './evaluationCoverage';
 
 /** 地図で色分けする指標 */
 export type MapMetricKey =
@@ -57,10 +58,11 @@ export type MapMetricKey =
   | 'homicides'
   | 'robberies'
   | 'burglaries'
-  | 'sexualAssaults';
+  | 'sexualAssaults'
+  | 'evaluationCoverage';
 
 /** ハンバーガーメニューで選ぶ表示カテゴリ */
-export type MetricCategory = 'money' | 'population' | 'fiscal' | 'labor' | 'infra' | 'safety' | 'election';
+export type MetricCategory = 'money' | 'population' | 'fiscal' | 'labor' | 'infra' | 'safety' | 'election' | 'evaluation';
 
 export interface MetricDef {
   key: MapMetricKey;
@@ -599,6 +601,16 @@ export const METRICS: MetricDef[] = [
     yearIndependent: true,
     description: '直近の衆院選（小選挙区）で、その小選挙区の当選者がこの自治体の中で得た得票率（複数の小選挙区にまたがる市は合算）',
   },
+  {
+    key: 'evaluationCoverage',
+    label: '事務事業評価の整備状況',
+    kind: 'category',
+    category: 'evaluation',
+    yearIndependent: true,
+    muniOnly: true,
+    description:
+      'このアプリで、その自治体の事務事業評価をどこまで読めるか（事業コストの流れの図／整理済み事業票／評価資料の本文／その他の公式テキスト／案内ページのみ／未確認）。自治体の評価の実施・公開状況ではない',
+  },
 ];
 
 /** 業種割合指標 → 国勢調査の産業大分類名 */
@@ -678,6 +690,7 @@ export function metricLabelValue(budget: LocalGovBudget | undefined, key: MapMet
   if (!budget) return null;
   if (key === 'electionWinnerParty') return electionOf(budget, electionYear)?.winnerParty ?? null;
   if (key === 'electionWinnerChange') return winnerChange(budget, electionYear);
+  if (key === 'evaluationCoverage') return coverageLabel(budget.evaluationCoverage);
   return null;
 }
 

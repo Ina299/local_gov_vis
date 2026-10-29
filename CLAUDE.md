@@ -35,6 +35,7 @@ npm run -w @local-gov/crawler import:road-funding      # 道路分の国費（�
 npm run -w @local-gov/crawler import:election          # 衆院選（小選挙区）の候補者別・市区町村別得票数（総務省）から当選者・地元得票率・地元での差を付与＋municipal-all再生成
 npm run -w @local-gov/crawler analyze:road-allocations # 市区町村別の前年度比を全国分布で順位付けした検証レポート（apps/crawler/output/road-allocations/report.md）
 npm run -w @local-gov/crawler build:averages          # 全国中央値等の集計（budget-averages.json。金額を変える再取込後に必須）
+npm run -w @local-gov/crawler build:evaluation-coverage # 事務事業評価の整備状況（evaluation-coverage.json。地図の層・収支図からの遷移先。評価データ更新後に実行）
 npm run -w @local-gov/crawler build:topo              # 境界GeoJSON（data/geo）→TopoJSONに変換してapps/web/publicへ配置（geo更新時のみ）
 npm run -w @local-gov/crawler build:og                # OGP画像を生成（トップ用og.png＋指標別og/{指標}.png。手動実行・要日本語フォント環境）
 

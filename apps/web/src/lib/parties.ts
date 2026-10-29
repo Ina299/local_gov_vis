@@ -1,3 +1,5 @@
+import { COVERAGE_COLORS, COVERAGE_LEVELS, type CoverageLabel } from './evaluationCoverage';
+
 /**
  * 政党の区分色（地図の「当選者の政党」）。色は意味（党）にだけ使う。
  * 公表資料の届出政党名をそのまま鍵にする。載っていない党・無所属は灰色
@@ -35,5 +37,11 @@ export const WINNER_CHANGE_COLORS: Record<string, string> = {
 export function categoryColor(metricKey: string, label: string | null): string | null {
   if (label === null) return null;
   if (metricKey === 'electionWinnerChange') return WINNER_CHANGE_COLORS[label] ?? PARTY_OTHER_COLOR;
+  if (metricKey === 'evaluationCoverage') return COVERAGE_COLORS[label as CoverageLabel] ?? PARTY_OTHER_COLOR;
   return partyColor(label);
+}
+
+/** 区分に順序がある指標の並び（凡例を件数順でなくこの順に出す）。順序のない区分は null */
+export function categoryOrder(metricKey: string): readonly string[] | null {
+  return metricKey === 'evaluationCoverage' ? COVERAGE_LEVELS : null;
 }

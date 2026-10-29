@@ -1,9 +1,10 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import type { ProjectEvaluation } from '@/types/evaluation';
 import { formatAmount } from '@/lib/format';
 import { EXP_COLOR, ribbonPath } from '@/lib/sankey';
+import { COST_FLOW_ANCHOR } from '@/lib/evaluationCoverage';
 import { FLOW, costFlowLayout, costFlowYears, defaultFlowYear, type FlowNode } from '@/lib/projectCostFlow';
 
 const LABEL_SPACING = 13;
@@ -26,6 +27,12 @@ export function ProjectCostSankey({ projects, municipalityName, onSelectProject 
   const year = years.find((y) => y.fiscalYear === fiscalYear) ?? null;
   const layout = useMemo(() => (year ? costFlowLayout(year) : null), [year]);
   const [hover, setHover] = useState<{ key: string; x: number; y: number; text: string } | null>(null);
+  // 収支図などから #evaluation-cost-flow 付きで来たとき、読み込み後に図の位置へ移る（ブラウザのアンカー移動は描画前で効かない）
+  const sectionRef = useRef<HTMLElement>(null);
+  const hasFlow = Boolean(year && layout);
+  useEffect(() => {
+    if (hasFlow && window.location.hash === `#${COST_FLOW_ANCHOR}`) sectionRef.current?.scrollIntoView({ block: 'start' });
+  }, [hasFlow]);
   if (!year || !layout) return null;
 
   const byKey = new Map(layout.nodes.map((n) => [n.key, n]));
@@ -43,7 +50,7 @@ export function ProjectCostSankey({ projects, municipalityName, onSelectProject 
   const select = (n: FlowNode) => { if (n.projectName) onSelectProject(n.projectName); };
 
   return (
-    <section className="evaluation-cost-flow" aria-labelledby="evaluation-cost-flow-title">
+    <section id={COST_FLOW_ANCHOR} ref={sectionRef} className="evaluation-cost-flow" aria-labelledby="evaluation-cost-flow-title">
       <div className="evaluation-section-heading">
         <h3 id="evaluation-cost-flow-title">事業コストの流れ（{fiscalYear}年度決算）</h3>
         <label className="evaluation-cost-flow-year">年度

@@ -22,6 +22,8 @@ import { BudgetDonut } from './BudgetDonut';
 import { TimeSeriesChart } from './TimeSeriesChart';
 import { SankeyModal } from './SankeyModal';
 import { BudgetComparisonModal } from './BudgetComparisonModal';
+import { dataUrl } from '@/lib/paths';
+import { evaluationEntryHref } from '@/lib/evaluationCoverage';
 
 /** 産業別就業者の構成比ドーナツグラフ＋凡例（全業種リストを上位5＋その他に畳んで表示） */
 function IndustryDonut({ industries: all }: { industries: Array<{ name: string; share: number }> }) {
@@ -613,6 +615,15 @@ export function Sidebar({
                 ? '対象外'
                 : 'データなし'}
         </div>
+        {metricKey === 'evaluationCoverage' && selectedRegion.code.length === 5 && (
+          <p className="evaluation-coverage-link">
+            <a className="text-button" href={dataUrl(evaluationEntryHref(selectedRegion.code, selectedRegion.evaluationCoverage))}>
+              {selectedRegion.evaluationCoverage?.level === 0
+                ? `事業コストの流れ（${selectedRegion.evaluationCoverage.flowYear}年度決算）を見る →`
+                : '事務事業評価の資料を見る →'}
+            </a>
+          </p>
+        )}
         {(() => {
           // 前年度比・順位・中央値比較を「ラベル｜値」の行で揃える
           const rows: Array<{ label: string; node: React.ReactNode }> = [];

@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react';
 import { metricCategory, type MapMetricKey, type MetricCategory } from '@/lib/metrics';
+import { dataUrl } from '@/lib/paths';
 
 const CATEGORY_LABELS: Record<MetricCategory, string> = {
   money: '歳入・歳出',
@@ -11,6 +12,7 @@ const CATEGORY_LABELS: Record<MetricCategory, string> = {
   infra: 'インフラ',
   safety: '安全',
   election: '選挙',
+  evaluation: '事務事業評価',
 };
 
 interface MetricMenuProps {
@@ -91,6 +93,12 @@ export function MetricMenu({
             <span className="metric-menu-check">{comparisonActive ? '✓' : ''}</span>
             <span>指標比較</span>
           </button>
+          <div className="metric-menu-divider" />
+          {/* 地図の外のページ。全国の自治体から評価資料・整理済み事業票を探す一覧 */}
+          <a className="metric-menu-item" role="menuitem" href={dataUrl('/evaluations/')} onClick={() => setOpen(false)}>
+            <span className="metric-menu-check" aria-hidden="true">→</span>
+            <span>事務事業評価の一覧</span>
+          </a>
         </div>
       )}
     </div>

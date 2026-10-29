@@ -21,6 +21,7 @@ const CATEGORY_LABELS: Record<MetricCategory, string> = {
   infra: 'インフラ',
   safety: '安全',
   election: '選挙',
+  evaluation: '事務事業評価',
 };
 
 const WIDTH = 900;
