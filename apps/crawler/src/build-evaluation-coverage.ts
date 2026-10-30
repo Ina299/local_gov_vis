@@ -50,13 +50,21 @@ for (const entry of [...evidence.municipalities].sort((a, b) => a.municipalityCo
   municipalities[code] = flowYear === undefined ? { level } : { level, flowYear };
 }
 
-// 都道府県（地図の都道府県表示は 2 桁コード）。資料・テキストは evaluation-evidence-prefectures、事業票は未整備
+// 都道府県（地図の都道府県表示は 2 桁コード）。資料・テキストは evaluation-evidence-prefectures、事業票は evaluations-prefectures
 const prefectureIndex = await readJson<EvidenceIndex>(join(publicDir, 'evaluation-evidence-prefectures/index.json')).catch(() => null);
 const prefectureCounts = new Array<number>(COVERAGE_LEVELS.length).fill(0);
+const prefectureStructured = await readJson<EvaluationIndex>(join(publicDir, 'evaluations-prefectures-index.json')).catch(() => null);
 for (const entry of prefectureIndex?.municipalities ?? []) {
-  const level = entry.substantiveTextDocumentCount > 0 ? 2 : entry.textDocumentCount > 0 ? 3 : entry.evaluationPageCount > 0 ? 4 : 5;
+  let level = entry.substantiveTextDocumentCount > 0 ? 2 : entry.textDocumentCount > 0 ? 3 : entry.evaluationPageCount > 0 ? 4 : 5;
+  let flowYear: number | undefined;
+  const row = prefectureStructured?.municipalities.find((m) => m.municipalityCode === entry.municipalityCode && m.dataStatus === 'primary_available' && m.datasetPath);
+  if (row) {
+    const years = costFlowYears((await readJson<EvaluationDataset>(join(publicDir, row.datasetPath!))).projects);
+    flowYear = defaultFlowYear(years) ?? undefined;
+    level = years.length ? 0 : 1;
+  }
   prefectureCounts[level]++;
-  municipalities[entry.prefectureCode] = { level };
+  municipalities[entry.prefectureCode] = flowYear === undefined ? { level } : { level, flowYear };
 }
 console.log('prefectures', JSON.stringify(Object.fromEntries(COVERAGE_LEVELS.map((label, i) => [label, prefectureCounts[i]]))));
 

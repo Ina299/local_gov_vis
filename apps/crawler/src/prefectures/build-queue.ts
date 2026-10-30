@@ -1,6 +1,6 @@
 /**
  * 都道府県の評価資料の探索結果（data/evaluations/prefecture-discovery-*.json）を、収集器（source-collection/cli.ts）のキューにする。
- *   tsx src/prefectures/build-queue.ts --discovery <file> [--discovery <file> ...] --merged <out.json> --queue <queue.json>
+ *   tsx src/prefectures/build-queue.ts --discovery <file> [--discovery <file> ...] --merged <out.json> --queue <queue.json> [--round prefecture-r2]
  * 探索結果は公式ページに実際に載っていたリンクだけを持つ。ここでは公式ドメイン以外・正規化できない URL を落とし、
  * 都道府県コードは収集器・評価データの 5 桁形式（東京都 = 13000）にそろえる。
  */
@@ -30,6 +30,7 @@ const codes = prefectures.map((p) => p.prefectureCode);
 if (new Set(codes).size !== codes.length || !codes.every((c) => /^(0[1-9]|[1-3]\d|4[0-7])$/.test(c))) throw new Error('Duplicate or invalid prefecture codes');
 
 const checkedAt = new Date().toISOString();
+const round = all('--round')[0] ?? 'prefecture-r1';
 const dropped: Array<{ prefectureCode: string; url: string; reason: string }> = [];
 const upgraded: Array<{ prefectureCode: string; url: string }> = [];
 const seen = new Set<string>();
@@ -55,10 +56,10 @@ for (const p of prefectures) {
     sources.push({
       url: link.url, sourcePageUrl: page || link.url, municipalityCode: prefectureEvaluationCode(p.prefectureCode), municipalityName: p.prefectureName,
       title: link.title.trim() || link.url, fiscalYear: null, amountKind: null,
-      review: { checkedAt, evidence: `prefecture discovery r1: link printed on the official page ${page || link.url}; official prefecture host` },
+      review: { checkedAt, evidence: `${round}: link printed on the official page ${page || link.url}; official prefecture host` },
     });
   }
 }
-await writeFile(resolve(one('--merged')), JSON.stringify({ schemaVersion: 1, round: 'prefecture-r1', mergedAt: checkedAt, prefectures, dropped, upgradedToHttps: upgraded }, null, 1) + '\n');
+await writeFile(resolve(one('--merged')), JSON.stringify({ schemaVersion: 1, round, mergedAt: checkedAt, prefectures, dropped, upgradedToHttps: upgraded }, null, 1) + '\n');
 await writeFile(resolve(one('--queue')), JSON.stringify({ version: 1, quarantineHosts: [], sources }, null, 1) + '\n');
 console.log(JSON.stringify({ prefectures: prefectures.length, sources: sources.length, dropped, upgradedToHttps: upgraded.length }, null, 1));

@@ -689,3 +689,5 @@ node --import tsx apps/crawler/src/enrich-evaluations.ts --import <dir>/inputs -
 - 資料・テキスト: `tools/build_prefecture_evidence.py` が `apps/web/public/evaluation-evidence-prefectures/`（index.json＝47件、prefectures/{PP000}.json、documents/）を作る。形式は市区町村と共通で、同じローダーが検証する（`parseEvidenceIndex(value, 'prefecture')`）。年度は推定しない。Excel はセルをタブ区切りで本文化。
 - 第1回の結果: 973件中972件を保存、896件で本文あり、46都道府県で評価資料の本文あり。兵庫県は結果ページが404、愛知県の1ページはリダイレクトループ、岩手県の事業シートは外部ビューア（kintone）で対象外。北海道・愛媛・長野・沖縄などは事業シートが数百件以上あり、探索では代表分のみ。
 - 画面: 評価ページは都道府県47＋市区町村1,741を一覧に並べる。地図の整備状況の層は都道府県表示でも塗る。
+- 第2回（2026-10-30）: `tools/harvest_prefecture_links.py` で保存済みページの本文リンク（資料ファイルと、評価の語を含む下位ページ）を追加収集（`prefecture-discovery-r2.json`、584件中561件保存）。兵庫県の年度別評価ページはすべて404。
+- 整理済み事業票: `apps/crawler/src/prefectures/structure.ts`（`--dump` 下見、`--dry-run [--duplicates]` 試行、`--write` 公開）と `extractors/p-*.ts`（26都道府県）。出力は `apps/web/public/evaluations-prefectures/` と `evaluations-prefectures-index.json`。8,644件、うち決算額ありは14都道府県（宮城・福島・茨城・愛知・長野・滋賀・和歌山・島根・広島・香川・福岡・佐賀・熊本・鹿児島）。熊本は施策単位の金額。決算見込額（秋田・千葉・沖縄）と単位が印字されていない金額（大分・静岡）は収録しない。徳島は金額が予算か決算か不明のため対象外。

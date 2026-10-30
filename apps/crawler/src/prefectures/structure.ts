@@ -126,6 +126,14 @@ if (args.includes('--dry-run')) {
     const records = run(code, extractors[code], inputs);
     dataset(code, shard.municipality.municipalityName, extractors[code], inputs, records);
     console.log(JSON.stringify({ code, name: shard.municipality.municipalityName, ...summary(records) }, null, 1));
+    if (args.includes('--duplicates')) {
+      // 同じ評価年度・年度で、事業名（括弧・空白をそろえて）と所管が同じ記録。再掲の取りこぼしの確認用
+      const key = (p: ProjectEvaluation) => [p.projectName, p.department ?? ''].map((v) => v.normalize('NFKC').replace(/[\s()（）]/g, '')).join('|') + `|${p.evaluationYear}|${p.evaluatedFiscalYear}`;
+      const groups = new Map<string, ProjectEvaluation[]>();
+      for (const p of records) groups.set(key(p), [...(groups.get(key(p)) ?? []), p]);
+      const dups = [...groups.values()].filter((g) => g.length > 1);
+      console.log(`duplicates: ${dups.length} groups`, dups.slice(0, 5).map((g) => g.map((p) => `${p.projectName}/${p.department}/${p.amounts.map((a) => a.amountYen).join(',')}`)));
+    }
     for (const p of records.slice(0, sample)) console.log(JSON.stringify({ name: p.projectName, dept: p.department, ey: p.evaluationYear, efy: p.evaluatedFiscalYear,
       amounts: p.amounts.map((a) => `${a.kind}:${a.fiscalYear}:${a.amountYen}`), ind: p.indicators.length, rat: p.ratings.map((r) => `${r.label}=${r.value}`), warn: p.warnings.length }));
   }

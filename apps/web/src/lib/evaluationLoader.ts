@@ -57,7 +57,10 @@ const isHash = (value: unknown): value is string => typeof value === 'string' &&
 const isDate = (value: unknown): value is string => typeof value === 'string' && Number.isFinite(Date.parse(value));
 const validDatasetPath = (entry: { municipalityCode?: unknown; datasetPath?: unknown; datasetSha256?: unknown }) =>
   entry.datasetPath === `evaluations-municipal/${entry.municipalityCode}.json` ||
-  (isHash(entry.datasetSha256) && entry.datasetPath === `evaluations-composed/${entry.municipalityCode}-${entry.datasetSha256}.json`);
+  (isHash(entry.datasetSha256) && entry.datasetPath === `evaluations-composed/${entry.municipalityCode}-${entry.datasetSha256}.json`) ||
+  // 都道府県（コードは 13000 の形）は別ディレクトリ
+  (isHash(entry.datasetSha256) && typeof entry.municipalityCode === 'string' && /^\d{2}000$/.test(entry.municipalityCode)
+    && entry.datasetPath === `evaluations-prefectures/${entry.municipalityCode}-${entry.datasetSha256}.json`);
 
 /** Exact local path, code and totals are checked before any municipality is fetched. */
 export function parseEvaluationIndex(value: unknown): EvaluationIndex {
@@ -119,8 +122,9 @@ function parseJson(bytes: ArrayBuffer): unknown {
   try { return JSON.parse(new TextDecoder('utf-8', { fatal: true }).decode(bytes)); }
   catch { throw new Error('配信されたJSONデータを読み取れませんでした。'); }
 }
-export async function loadEvaluationIndex(signal: AbortSignal, fetcher: typeof fetch = fetch): Promise<EvaluationIndex> {
-  const bytes = await fetchBytes('/evaluations-index.json', signal, MAX_INDEX_BYTES, fetcher);
+/** 市区町村の一覧（evaluations-index.json）と都道府県の一覧（evaluations-prefectures-index.json）は別ファイル */
+export async function loadEvaluationIndex(signal: AbortSignal, fetcher: typeof fetch = fetch, scope: 'municipal' | 'prefecture' = 'municipal'): Promise<EvaluationIndex> {
+  const bytes = await fetchBytes(scope === 'prefecture' ? '/evaluations-prefectures-index.json' : '/evaluations-index.json', signal, MAX_INDEX_BYTES, fetcher);
   assertNotAborted(signal);
   return parseEvaluationIndex(parseJson(bytes));
 }

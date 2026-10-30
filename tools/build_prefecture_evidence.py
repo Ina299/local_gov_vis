@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build the prefecture evaluation evidence (47 prefectures) from the discovery record and collected originals (offline).
 
-  PYTHONUTF8=1 python tools/build_prefecture_evidence.py --discovery data/evaluations/prefecture-discovery-r1.json \
+  PYTHONUTF8=1 python tools/build_prefecture_evidence.py --discovery data/evaluations/prefecture-discovery-r1.json [--discovery ...-r2.json] \
       --collection I:/local_gov_crawler_sources/prefecture-r1 [--collection ...] --pdftotext tools/poppler-24.08.0/Library/bin/pdftotext.exe
 
 Writes apps/web/public/evaluation-evidence-prefectures/index.json (scope 47), prefectures/{PP000}.json (shards) and
@@ -63,7 +63,17 @@ def load_collections(dirs):
 def build(root,discovery,collections,pdftotext):
  public=root/'apps/web/public/evaluation-evidence-prefectures'
  (public/'prefectures').mkdir(parents=True,exist_ok=True);(public/'documents').mkdir(parents=True,exist_ok=True)
- record=json.loads(discovery.read_text(encoding='utf-8'));collected=load_collections(collections)
+ # Later discovery rounds only add links; a prefecture's rows keep the order r1, r2, ... and the first record of a URL wins.
+ records=[json.loads(d.read_text(encoding='utf-8')) for d in discovery]
+ record={'mergedAt':max(r['mergedAt'] for r in records),'prefectures':[]}
+ for r in records:
+  for p in r['prefectures']:
+   base=next((x for x in record['prefectures'] if x['prefectureCode']==p['prefectureCode']),None)
+   tagged=lambda links:[dict(l,_round=r.get('round','prefecture-r1'),_checkedAt=r['mergedAt']) for l in links]
+   if base is None:record['prefectures'].append(dict(p,landingPages=tagged(p['landingPages']),documents=tagged(p['documents'])))
+   else:base['landingPages']+=tagged(p['landingPages']);base['documents']+=tagged(p['documents']);base['notFound']=base['notFound'] and p['notFound']
+ record['prefectures'].sort(key=lambda p:p['prefectureCode'])
+ collected=load_collections(collections)
  entries=[];report={'sources':0,'acquired':0,'text':0,'noText':0,'failed':0,'discovered':0,'continuationParts':0}
  snapshot=record['mergedAt'];truncated_docs=0
  for p in record['prefectures']:
@@ -78,8 +88,10 @@ def build(root,discovery,collections,pdftotext):
    etype=link.get('evaluationType') if link.get('evaluationType') in TYPES else 'unknown'
    evidence_url=link.get('evidenceUrl') if link.get('evidenceUrl') and official(link['evidenceUrl']) else url
    sid=source_id(code,url);hit=collected.get(url)
-   review={'method':'official_body_review','checkedAt':record['mergedAt'],'publisher':name,'evidenceUrl':evidence_url,'originEvidenceUrl':None,
-    'notes':'都道府県の公式ページに掲載されたリンクを探索で確認（2026年10月）。資料区分は探索時の判断で、本文とは未照合。','yearNotes':link.get('yearNotes') or '未確認','rawArchiveState':'not_downloaded'}
+   harvested=link['_round']!='prefecture-r1'
+   review={'method':'official_body_review','checkedAt':link['_checkedAt'],'publisher':name,'evidenceUrl':evidence_url,'originEvidenceUrl':None,
+    'notes':'保存済みの公式ページの本文リンクから機械的に収集（2026年10月）。リンク先の内容・資料区分は未確認。' if harvested else '都道府県の公式ページに掲載されたリンクを探索で確認（2026年10月）。資料区分は探索時の判断で、本文とは未照合。',
+    'yearNotes':link.get('yearNotes') or '未確認','rawArchiveState':'not_downloaded'}
    acquisition={'state':'discovered','inputStatus':'discovered','method':'network','containerSha256':None,'memberPath':None,'memberIndex':None,'fetchedAt':None,'httpStatus':None,'sourceSha256':None}
    text={'status':'not_acquired','label':'unstructured_source_text','preview':None,'assetPath':None,'assetBytes':0,'assetSha256':None,'characters':0,'exportedCharacters':0,'truncated':False,'textSha256':None,'inputTextSha256':None,'extractionMethod':None}
    if hit and hit[1]['state']=='fetched':
@@ -145,6 +157,6 @@ def build(root,discovery,collections,pdftotext):
  return report
 
 if __name__=='__main__':
- ap=argparse.ArgumentParser();ap.add_argument('--discovery',required=True);ap.add_argument('--collection',action='append',default=[]);ap.add_argument('--pdftotext',required=True)
+ ap=argparse.ArgumentParser();ap.add_argument('--discovery',action='append',required=True);ap.add_argument('--collection',action='append',default=[]);ap.add_argument('--pdftotext',required=True)
  a=ap.parse_args();root=pathlib.Path(__file__).resolve().parent.parent
- print(json.dumps(build(root,pathlib.Path(a.discovery),[pathlib.Path(c) for c in a.collection],pathlib.Path(a.pdftotext)),ensure_ascii=False,indent=1))
+ print(json.dumps(build(root,[pathlib.Path(d) for d in a.discovery],[pathlib.Path(c) for c in a.collection],pathlib.Path(a.pdftotext)),ensure_ascii=False,indent=1))

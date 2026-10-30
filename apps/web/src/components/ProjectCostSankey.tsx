@@ -28,7 +28,9 @@ export function ProjectCostSankey({ projects, municipalityCode, municipalityName
   const [totalsFailed, setTotalsFailed] = useState(false);
   useEffect(() => {
     let live = true;
-    loadBudgetTotals().then((file) => { if (live) setTotals(file.totals[municipalityCode] ?? {}); }).catch(() => { if (live) setTotalsFailed(true); });
+    // 歳出総額は都道府県を 2 桁コードで持つ（評価データでは 13000 の形）
+    const key = /^\d{2}000$/.test(municipalityCode) ? municipalityCode.slice(0, 2) : municipalityCode;
+    loadBudgetTotals().then((file) => { if (live) setTotals(file.totals[key] ?? {}); }).catch(() => { if (live) setTotalsFailed(true); });
     return () => { live = false; };
   }, [municipalityCode]);
   const years = useMemo(() => costFlowYears(projects), [projects]);

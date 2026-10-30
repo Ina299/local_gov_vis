@@ -173,7 +173,8 @@ function NormalizedView({ entry }: { entry: IndexEntry }) {
   const [request] = useState(() => createEvaluationRequest<EvaluationIndex>());
   const [loader] = useState(() => createEvaluationShardLoader());
   const [retry, setRetry] = useState(0);
-  useEffect(() => request.run(loadEvaluationIndex, setLoad), [request, retry]);
+  const scope = isPrefectureEvaluationCode(entry.municipalityCode) ? 'prefecture' as const : 'municipal' as const;
+  useEffect(() => request.run((signal) => loadEvaluationIndex(signal, fetch, scope), setLoad), [request, retry, scope]);
   const normalized = load.status === 'ready' ? load.value.municipalities.find((item) => item.municipalityCode === entry.municipalityCode) : null;
   const refresh = () => { loader.clear(); setRetry((v) => v + 1); };
   return <>
