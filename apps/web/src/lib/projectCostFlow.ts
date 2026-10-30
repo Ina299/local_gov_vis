@@ -72,7 +72,14 @@ export interface FlowNode { key: string; label: string; amount: number; count: n
 export interface FlowRibbon { key: string; from: string; to: string; amount: number; y0: number; y1: number; h: number }
 export interface FlowLayout { nodes: FlowNode[]; ribbons: FlowRibbon[]; height: number }
 
-export const FLOW = { width: 960, top: 16, plot: 440, gap: 4, nodeW: 12, x: [150, 440, 690] as const, labelRight: 250 };
+/** budgetX: 左端の「歳出総額（決算）」の棒。そこから収録できた事業（x[0]）へ拡大表示の扇でつなぐ */
+export const FLOW = { width: 960, top: 16, plot: 440, gap: 4, nodeW: 12, budgetX: 24, x: [210, 480, 710] as const };
+
+/** 歳出総額のうち収録できた事業の割合。比べられない（未収録・収録額が上回る）ときは null */
+export function budgetContext(recordedTotal: number, totalExpenditure: number | undefined): { total: number; ratio: number } | null {
+  if (!totalExpenditure || totalExpenditure <= 0 || recordedTotal > totalExpenditure) return null;
+  return { total: totalExpenditure, ratio: recordedTotal / totalExpenditure };
+}
 
 /** 上位の部局・事業だけを個別に出し、残りは「その他」にまとめた 3 列のサンキー配置 */
 export function costFlowLayout(year: CostFlowYear, maxGroups = 10, maxProjects = 15): FlowLayout {

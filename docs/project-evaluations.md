@@ -680,3 +680,4 @@ node --import tsx apps/crawler/src/enrich-evaluations.ts --import <dir>/inputs -
 - 地図: ハンバーガーの「事務事業評価」カテゴリの `evaluationCoverage`（区分・市区町村のみ）。一色の濃淡で、凡例は段階順。段階は「このアプリで読める範囲」であって、評価の実施・公開状況ではない。
 - 収支図の「事務事業評価」リンクとサイドバーのリンクは `evaluationEntryHref`: 事業コストの流れがあれば `/evaluations/?municipality=…&view=normalized#evaluation-cost-flow`（図の描画後にその位置へスクロール）、なければ自治体の資料一覧。
 - ハンバーガーの末尾に「事務事業評価の一覧」（/evaluations/）を追加。
+- 事業コストの流れの左端に「歳出総額（決算）」の棒を置く（`evaluation-budget-totals.json`、build:evaluation-coverage が budgets.json と municipal-all から作る）。収録できた事業の割合を色付きで示し、拡大の扇で右の図につなぐ。歳出総額は2020〜2024年度のみで、それ以外の年度・収録額が上回る年度は棒を出さず理由を書く。

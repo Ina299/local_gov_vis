@@ -3,16 +3,19 @@
  *   npm run -w @local-gov/crawler build:evaluation-coverage
  * 入力: apps/web/public/evaluation-evidence/index.json（資料・テキスト）と evaluations-index.json＋整理済み事業票（構造化）。
  * 出力: apps/web/public/evaluation-coverage.json。評価資料・事業票を更新したら再実行する。
+ * あわせて evaluation-budget-totals.json（年度別の歳出総額＝決算。事業コストの流れで「全体」として並べる）も作る。
  */
 import { readFile, writeFile } from 'node:fs/promises';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import type { LocalGovBudget } from '../../web/src/types/budget';
 import type { EvaluationDataset } from '../../web/src/types/evaluation';
 import type { EvidenceIndex } from '../../web/src/types/evaluationEvidence';
 import type { EvaluationIndex } from '../../web/src/lib/evaluationLoader';
 import * as flowLib from '../../web/src/lib/projectCostFlow';
 import * as coverageLib from '../../web/src/lib/evaluationCoverage';
-import type { EvaluationCoverageFile } from '../../web/src/lib/evaluationCoverage';
+import type { BudgetTotalsFile, EvaluationCoverageFile } from '../../web/src/lib/evaluationCoverage';
+import { readdir } from 'node:fs/promises';
 
 // web 側は CommonJS として読み込まれるため、名前付き export は default 経由になることがある
 const interop = <T,>(m: T) => ((m as { default?: unknown }).default ?? m) as T;
@@ -50,3 +53,14 @@ for (const entry of [...evidence.municipalities].sort((a, b) => a.municipalityCo
 const out: EvaluationCoverageFile = { schemaVersion: 1, evidenceSnapshotAt: evidence.snapshotAt, structuredGeneratedAt: structured.generatedAt, levels: [...COVERAGE_LEVELS], municipalities };
 await writeFile(join(publicDir, 'evaluation-coverage.json'), JSON.stringify(out) + '\n');
 console.log(JSON.stringify(Object.fromEntries(COVERAGE_LEVELS.map((label, i) => [label, counts[i]])), null, 1));
+
+// 歳出総額（決算）: 都道府県は budgets.json、市区町村は municipal-all/{年度}.json
+const totals: BudgetTotalsFile['totals'] = {};
+const add = (b: LocalGovBudget) => { (totals[b.code] ??= {})[String(b.fiscalYear)] = b.totalExpenditure; };
+(await readJson<LocalGovBudget[]>(join(publicDir, 'budgets.json'))).forEach(add);
+for (const file of (await readdir(join(publicDir, 'budgets/municipal-all'))).filter((f) => /^\d{4}\.json$/.test(f)).sort()) {
+  (await readJson<LocalGovBudget[]>(join(publicDir, 'budgets/municipal-all', file))).forEach(add);
+}
+const sortedTotals = Object.fromEntries(Object.keys(totals).sort().map((code) => [code, totals[code]]));
+await writeFile(join(publicDir, 'evaluation-budget-totals.json'), JSON.stringify({ schemaVersion: 1, source: 'Japan Dashboard 地方財政（総務省 地方財政状況調査・決算）の歳出総額', totals: sortedTotals } satisfies BudgetTotalsFile) + '\n');
+console.log(`budget totals: ${Object.keys(totals).length}団体`);

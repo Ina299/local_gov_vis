@@ -256,7 +256,7 @@ export function MunicipalityEvaluations({ entry, loader, refreshIndex }: {
         <label>評価対象年度<select value={fiscalYear} onChange={(event) => setFiscalYear(event.target.value)}><option value="">すべての年度</option>{fiscalYears.map((year) => <option key={year} value={year}>{year === 'unknown' ? '年度不明' : `${year}年度`}</option>)}</select></label>
         <p className="evaluation-filter-help">この検索は選択中の自治体のみが対象です。他自治体の事業は取得・検索しません。空欄・未取得はゼロや低評価を意味せず、年度が読み取れない資料は「年度不明」と表示します。</p>
       </form>
-      <ProjectCostSankey projects={dataset.projects} municipalityName={entry.municipalityName} onSelectProject={(name) => {
+      <ProjectCostSankey projects={dataset.projects} municipalityCode={entry.municipalityCode} municipalityName={entry.municipalityName} onSelectProject={(name) => {
         setEvaluationYear(''); setFiscalYear(''); setQuery(name);
         document.getElementById('evaluation-results-title')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }} />

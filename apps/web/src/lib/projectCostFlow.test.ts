@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { EvaluationEvidence, ProjectEvaluation } from '@/types/evaluation';
-import { costFlowLayout, costFlowYears, defaultFlowYear, departmentGroup } from './projectCostFlow';
+import { budgetContext, costFlowLayout, costFlowYears, defaultFlowYear, departmentGroup } from './projectCostFlow';
 
 const ev: EvaluationEvidence = { sourceUrl: 'https://example.lg.jp/a.pdf', sourcePageUrl: 'https://example.lg.jp/a.pdf', format: 'pdf', fetchedAt: '2026-10-01T00:00:00Z',
   sha256: 'a'.repeat(64), rawText: 'x', page: null, sheet: null, cell: null };
@@ -58,5 +58,13 @@ describe('project cost flow', () => {
     const root = layout.nodes[0];
     const mids = layout.nodes.filter((x) => x.column === 1);
     expect(mids.reduce((s, x) => s + x.h, 0)).toBeCloseTo(root.h, 6); // one scale for all columns
+  });
+});
+
+describe('budget context', () => {
+  it('compares with the whole expenditure only when it is known and larger', () => {
+    expect(budgetContext(50, 1000)).toEqual({ total: 1000, ratio: 0.05 });
+    expect(budgetContext(50, undefined)).toBeNull();
+    expect(budgetContext(2000, 1000)).toBeNull();
   });
 });

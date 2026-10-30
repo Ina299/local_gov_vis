@@ -58,3 +58,19 @@ export function loadEvaluationCoverage(): Promise<EvaluationCoverageFile> {
   });
   return pending;
 }
+
+/** 年度別の歳出総額（決算）。事業コストの流れの左端に「全体」として置く */
+export interface BudgetTotalsFile {
+  schemaVersion: 1;
+  source: string;
+  /** 自治体コード（都道府県は 2 桁）→ 年度 → 歳出総額（円） */
+  totals: Record<string, Record<string, number>>;
+}
+let pendingTotals: Promise<BudgetTotalsFile> | null = null;
+export function loadBudgetTotals(): Promise<BudgetTotalsFile> {
+  pendingTotals ??= fetchJson<BudgetTotalsFile>(dataUrl('/evaluation-budget-totals.json')).catch((error) => {
+    pendingTotals = null;
+    throw error;
+  });
+  return pendingTotals;
+}
