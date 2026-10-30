@@ -42,10 +42,12 @@ export function coverageLabel(entry: CoverageEntry | undefined): CoverageLabel |
 
 /** 収支図などからの遷移先。事業コストの流れ（サンキー）があればそこへ、なければ自治体の資料一覧へ */
 // 地図の画面に評価ローダー一式を読み込ませないよう、evaluationLoader の evaluationMunicipalityHref と同じ形をここで組む
+// 都道府県（地図では 2 桁）は評価データでは 13000 の形
 export function evaluationEntryHref(code: string, entry: CoverageEntry | undefined): string {
-  if (code.length !== 5) return '/evaluations/';
-  if (entry?.level === 0) return `/evaluations/?${new URLSearchParams({ municipality: code, view: 'normalized' })}#${COST_FLOW_ANCHOR}`;
-  return `/evaluations/?${new URLSearchParams({ municipality: code })}`;
+  const target = code.length === 2 ? `${code}000` : code;
+  if (target.length !== 5) return '/evaluations/';
+  if (entry?.level === 0) return `/evaluations/?${new URLSearchParams({ municipality: target, view: 'normalized' })}#${COST_FLOW_ANCHOR}`;
+  return `/evaluations/?${new URLSearchParams({ municipality: target })}`;
 }
 export const COST_FLOW_ANCHOR = 'evaluation-cost-flow';
 

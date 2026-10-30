@@ -615,7 +615,7 @@ export function Sidebar({
                 ? '対象外'
                 : 'データなし'}
         </div>
-        {metricKey === 'evaluationCoverage' && selectedRegion.code.length === 5 && (
+        {metricKey === 'evaluationCoverage' && (
           <p className="evaluation-coverage-link">
             <a className="text-button" href={dataUrl(evaluationEntryHref(selectedRegion.code, selectedRegion.evaluationCoverage))}>
               {selectedRegion.evaluationCoverage?.level === 0

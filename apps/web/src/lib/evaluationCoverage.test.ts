@@ -9,13 +9,13 @@ describe('evaluation coverage', () => {
     expect(evaluationEntryHref('27140', { level: 0, flowYear: 2024 })).toBe('/evaluations/?municipality=27140&view=normalized#evaluation-cost-flow');
     expect(evaluationEntryHref('27140', { level: 1 })).toBe('/evaluations/?municipality=27140');
     expect(evaluationEntryHref('27140', undefined)).toBe('/evaluations/?municipality=27140');
-    expect(evaluationEntryHref('27', { level: 0 })).toBe('/evaluations/');
+    expect(evaluationEntryHref('27', { level: 2 })).toBe('/evaluations/?municipality=27000');
+    expect(evaluationEntryHref('', undefined)).toBe('/evaluations/');
   });
 
-  it('is a municipal-only categorical layer with ordered, colored levels', () => {
+  it('is a categorical layer with ordered, colored levels', () => {
     expect(categoryKeys('evaluation')).toEqual(['evaluationCoverage']);
     expect(metricDef('evaluationCoverage').kind).toBe('category');
-    expect(metricDef('evaluationCoverage').muniOnly).toBe(true);
     const budget = { code: '27140', evaluationCoverage: { level: 2 } } as LocalGovBudget;
     expect(metricLabelValue(budget, 'evaluationCoverage')).toBe('評価資料の本文あり');
     expect(metricLabelValue({ code: '27140' } as LocalGovBudget, 'evaluationCoverage')).toBeNull();

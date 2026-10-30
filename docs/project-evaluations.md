@@ -681,3 +681,11 @@ node --import tsx apps/crawler/src/enrich-evaluations.ts --import <dir>/inputs -
 - 収支図の「事務事業評価」リンクとサイドバーのリンクは `evaluationEntryHref`: 事業コストの流れがあれば `/evaluations/?municipality=…&view=normalized#evaluation-cost-flow`（図の描画後にその位置へスクロール）、なければ自治体の資料一覧。
 - ハンバーガーの末尾に「事務事業評価の一覧」（/evaluations/）を追加。
 - 事業コストの流れの左端に「歳出総額（決算）」の棒を置く（`evaluation-budget-totals.json`、build:evaluation-coverage が budgets.json と municipal-all から作る）。収録できた事業の割合を色付きで示し、拡大の扇で右の図につなぐ。歳出総額は2020〜2024年度のみで、それ以外の年度・収録額が上回る年度は棒を出さず理由を書く。
+
+## 都道府県の評価資料（2026-10-30）
+
+- 探索: 47都道府県の公式ページから評価資料のリンクを確認（4並列のエージェント）。結果は `data/evaluations/prefecture-discovery-r1.json`（公式ドメイン以外のリンクは落とし、`dropped` に記録。http は同一ホストの https に切り替え `upgradedToHttps` に記録）。事務事業評価がない都道府県は、施策評価・主要施策の成果説明書など、事業ごとの実績・金額が分かる公式資料で代える。
+- キュー: `apps/crawler/src/prefectures/build-queue.ts`（コードは 13000 の形）。収集は通常の収集器（原本は `I:\local_gov_crawler_sources\prefecture-r1a`〜`r1e`）。CLI に `--max-bytes` `--timeout-ms` を追加（大きな PDF・遅いホスト向け）。
+- 資料・テキスト: `tools/build_prefecture_evidence.py` が `apps/web/public/evaluation-evidence-prefectures/`（index.json＝47件、prefectures/{PP000}.json、documents/）を作る。形式は市区町村と共通で、同じローダーが検証する（`parseEvidenceIndex(value, 'prefecture')`）。年度は推定しない。Excel はセルをタブ区切りで本文化。
+- 第1回の結果: 973件中972件を保存、896件で本文あり、46都道府県で評価資料の本文あり。兵庫県は結果ページが404、愛知県の1ページはリダイレクトループ、岩手県の事業シートは外部ビューア（kintone）で対象外。北海道・愛媛・長野・沖縄などは事業シートが数百件以上あり、探索では代表分のみ。
+- 画面: 評価ページは都道府県47＋市区町村1,741を一覧に並べる。地図の整備状況の層は都道府県表示でも塗る。

@@ -4,13 +4,23 @@ import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { createEvaluationRequest, createEvaluationShardLoader, loadEvaluationIndex, type EvaluationIndex, type EvaluationLoadState } from '@/lib/evaluationLoader';
-import { createEvidenceLoader, loadEvidenceIndex, type LoadedEvidence } from '@/lib/evaluationEvidenceLoader';
+import { createEvidenceLoader, isPrefectureEvaluationCode, loadEvidenceIndex, type LoadedEvidence } from '@/lib/evaluationEvidenceLoader';
 import { sourceAcquisitionLabel, DISCOVERY_LABELS, EVIDENCE_LABELS, EVALUATION_TYPE_LABELS, ROLE_LABELS, TEXT_LABELS, YEAR_LABELS, evidenceHref, findTextMatches, readEvidenceSelection, safeEvidenceUrl, searchEvidenceMunicipalities } from '@/lib/evaluationEvidence';
 import { formatEvaluationTimestamp } from '@/lib/evaluations';
 import type { DocumentText, DocumentTextContinuation, EvidenceIndex, EvidenceSource, IndexEntry, MunicipalityEvidence, OfficialLink } from '@/types/evaluationEvidence';
 import { MunicipalityEvaluations } from './NormalizedEvaluationDetails';
 
 type Loader = ReturnType<typeof createEvidenceLoader>;
+type CombinedIndex = EvidenceIndex & { prefectureCount: number };
+/** 都道府県（47）と市区町村（1,741）の一覧をまとめる。都道府県の一覧が読めなくても市区町村は表示する */
+async function loadCombinedIndex(signal: AbortSignal): Promise<CombinedIndex> {
+  const [municipal, prefecture] = await Promise.all([
+    loadEvidenceIndex(signal),
+    loadEvidenceIndex(signal, fetch, 'prefecture').catch((error) => { if (signal.aborted) throw error; return null; }),
+  ]);
+  return { ...municipal, municipalities: [...(prefecture?.municipalities ?? []), ...municipal.municipalities], prefectureCount: prefecture?.municipalities.length ?? 0 };
+}
+const PREFECTURES_ONLY = 'prefectures';
 const PAGE_SIZE = 24;
 const sourceLinkLabel = (source: EvidenceSource) => source.acquisition.method === 'archive_member' && source.verification.status === 'verified' ? '公式のZIPファイル（格納元）' : source.verification.status === 'verified' ? '公式の原資料' : '候補URL（未検証）';
 
@@ -136,7 +146,7 @@ function MunicipalitySources({ entry, sourceId, loader }: { entry: IndexEntry; s
     {load.status === 'error' && <Failure message={load.message} retry={() => setRetry((v) => v + 1)} label="資料一覧を再読み込み" />}
     {data && <>
       <IntegrityNote integrity={load.status === 'ready' ? load.value.integrity : 'sha256_unavailable'} />
-      <div className="evaluation-discovery"><p><strong>旧収集台帳の探索記録：{DISCOVERY_LABELS[data.discovery.status]}</strong> ／ 検索試行の記録 {data.discovery.searchAttemptsCount.toLocaleString()}回</p><p className="evaluation-muted">全事業に対する収録割合・最新年度の網羅性は未確認です。{data.discovery.status === 'searched_not_found' ? '限られた検索条件で見つからなかった記録です。資料の未公開とは判断していません。' : data.discovery.status === 'blocked' ? '取得時にアクセス制約がありました。未対応形式や未公開とは区別しています。' : data.discovery.status === 'unsupported' ? '取得・内容確認に未対応・保留の記録があります。アクセス制約や未公開とは区別しています。' : ''}</p>{data.discovery.omittedRejectedSources > 0 && <p className="evaluation-warning-text">他自治体など出典が一致しない候補 {data.discovery.omittedRejectedSources.toLocaleString()}件を除外しています。旧台帳の取得記録があっても、この自治体の資料として確認できないものは表示しません。</p>}</div>
+      {isPrefectureEvaluationCode(entry.municipalityCode) ? <div className="evaluation-discovery"><p><strong>都道府県の評価資料の探索（2026年10月）</strong></p><p className="evaluation-muted">都道府県の公式ページに掲載された評価資料のリンクを確認し、原資料を保存しました。事務事業評価がない都道府県では、施策評価や「主要施策の成果」など、事業ごとの実績・金額が分かる公式資料を載せています。全資料の網羅は未確認で、資料区分は探索時の判断です。</p></div> : <div className="evaluation-discovery"><p><strong>旧収集台帳の探索記録：{DISCOVERY_LABELS[data.discovery.status]}</strong> ／ 検索試行の記録 {data.discovery.searchAttemptsCount.toLocaleString()}回</p><p className="evaluation-muted">全事業に対する収録割合・最新年度の網羅性は未確認です。{data.discovery.status === 'searched_not_found' ? '限られた検索条件で見つからなかった記録です。資料の未公開とは判断していません。' : data.discovery.status === 'blocked' ? '取得時にアクセス制約がありました。未対応形式や未公開とは区別しています。' : data.discovery.status === 'unsupported' ? '取得・内容確認に未対応・保留の記録があります。アクセス制約や未公開とは区別しています。' : ''}</p>{data.discovery.omittedRejectedSources > 0 && <p className="evaluation-warning-text">他自治体など出典が一致しない候補 {data.discovery.omittedRejectedSources.toLocaleString()}件を除外しています。旧台帳の取得記録があっても、この自治体の資料として確認できないものは表示しません。</p>}</div>}
       {data.evaluationPages.length > 0 && <section className="evaluation-entrypoints"><h3>確認済みの評価案内・索引</h3><p className="evaluation-muted">各自治体が公開する評価資料への入口です。案内ページの件数を評価報告書の件数とは数えません。</p><ul>{data.evaluationPages.map((id) => { const source = data.sources.find((item) => item.id === id)!; return <li key={id}><SourceLink url={source.url}>{source.title}</SourceLink></li>; })}</ul></section>}
       {sourceId && (selectedSource ? <SourceDetail key={`${entry.municipalityCode}:${selectedSource.id}:${selectedSource.text.assetSha256}`} code={entry.municipalityCode} source={selectedSource} loader={loader} /> : <div className="evaluation-state" role="alert"><h3>この資料IDは選択中の自治体の一覧にありません</h3><p>別の自治体の資料は読み込みません。資料一覧から選び直してください。</p><Link href={evidenceHref(entry.municipalityCode)} scroll={false}>資料の選択を解除</Link></div>)}
       <section className="evaluation-source-browser" aria-label="資料一覧">
@@ -185,14 +195,20 @@ export function EvaluationBrowser() {
   const [status, setStatus] = useState('');
   const [limit, setLimit] = useState(PAGE_SIZE);
   const [retry, setRetry] = useState(0);
-  const [load, setLoad] = useState<EvaluationLoadState<EvidenceIndex>>({ status: 'loading' });
-  const [request] = useState(() => createEvaluationRequest<EvidenceIndex>());
+  const [load, setLoad] = useState<EvaluationLoadState<CombinedIndex>>({ status: 'loading' });
+  const [request] = useState(() => createEvaluationRequest<CombinedIndex>());
   const [loader] = useState(() => createEvidenceLoader());
-  useEffect(() => request.run(loadEvidenceIndex, setLoad), [request, retry]);
+  useEffect(() => request.run(loadCombinedIndex, setLoad), [request, retry]);
   useEffect(() => setLimit(PAGE_SIZE), [query, prefecture, status]);
   const index = load.status === 'ready' ? load.value : null;
   const selected = index?.municipalities.find((entry) => entry.municipalityCode === municipality);
-  const matches = useMemo(() => searchEvidenceMunicipalities(index?.municipalities ?? [], query, prefecture, status), [index, query, prefecture, status]);
+  const matches = useMemo(() => {
+    const entries = index?.municipalities ?? [];
+    return prefecture === PREFECTURES_ONLY
+      ? searchEvidenceMunicipalities(entries.filter((e) => isPrefectureEvaluationCode(e.municipalityCode)), query, '', status)
+      : searchEvidenceMunicipalities(entries, query, prefecture, status);
+  }, [index, query, prefecture, status]);
+  const scopeLabel = index?.prefectureCount ? `${index.prefectureCount}都道府県・1,741市区町村` : '1,741自治体';
   const prefectures = useMemo(() => Array.from(new Map(index?.municipalities.map((entry) => [entry.prefectureCode, entry.prefectureName])).entries()).sort(([a], [b]) => a.localeCompare(b)), [index]);
   useEffect(() => {
     if (scrollToSelection.current && selected) {
@@ -214,19 +230,19 @@ export function EvaluationBrowser() {
   const refresh = () => { loader.clear(); setRetry((v) => v + 1); };
   const reset = () => { setQuery(''); setPrefecture(''); setStatus(''); };
   return <main className="evaluation-page"><div className="evaluation-content">
-    <header className="evaluation-header"><Link className="evaluation-back" href="/">← 地方自治体予算マップ</Link><p className="evaluation-eyebrow">全国の自治体を、原資料から</p><h1>事務事業評価を読む</h1><p>1,741自治体から探して、公式の評価ページ・資料・取得テキストへ。整理済み事業票も、対応する自治体で確認できます。</p></header>
-    <aside className="evaluation-notice" aria-label="収録範囲の読み方"><h2>自治体一覧は全国。資料の発見・取得・構造化はそれぞれ一部です</h2><p>1,741自治体すべてを選べますが、全自治体の評価資料や最新年度の収録完了を意味しません。案内ページ、評価資料、未構造化テキスト、整理済み事業票を区別しています。施策・施設・教育委員会の点検なども含み、資料ごとに評価区分を表示します。</p><p>資料が見つからない・取得できない状態から、評価の未実施や未公開とは判断しません。評価尺度は自治体ごとの表記を尊重し、成績順位や財政マップとの金額合算は行いません。</p></aside>
-    {load.status === 'loading' && <div className="evaluation-state" role="status">全国1,741自治体の資料案内を読み込んでいます…</div>}
+    <header className="evaluation-header"><Link className="evaluation-back" href="/">← 地方自治体予算マップ</Link><p className="evaluation-eyebrow">全国の自治体を、原資料から</p><h1>事務事業評価を読む</h1><p>47都道府県・1,741市区町村から探して、公式の評価ページ・資料・取得テキストへ。整理済み事業票も、対応する自治体で確認できます。</p></header>
+    <aside className="evaluation-notice" aria-label="収録範囲の読み方"><h2>自治体一覧は全国。資料の発見・取得・構造化はそれぞれ一部です</h2><p>47都道府県・1,741市区町村すべてを選べますが、全自治体の評価資料や最新年度の収録完了を意味しません。案内ページ、評価資料、未構造化テキスト、整理済み事業票を区別しています。施策・施設・教育委員会の点検なども含み、資料ごとに評価区分を表示します。</p><p>資料が見つからない・取得できない状態から、評価の未実施や未公開とは判断しません。評価尺度は自治体ごとの表記を尊重し、成績順位や財政マップとの金額合算は行いません。</p></aside>
+    {load.status === 'loading' && <div className="evaluation-state" role="status">全国の自治体の資料案内を読み込んでいます…</div>}
     {load.status === 'error' && <Failure message={load.message} retry={refresh} label="全国一覧を再読み込み" />}
     {index && <>
-      <section className="evaluation-overview" aria-label="範囲を分けた収録状況"><dl><div><dt>選択できる自治体</dt><dd>{index.scopeMunicipalities.toLocaleString()}</dd></div><div><dt>評価案内ページ確認済み</dt><dd>{index.municipalities.filter((e) => e.evaluationPageCount > 0).length.toLocaleString()}<small>自治体</small></dd></div><div><dt>評価資料の本文テキストあり</dt><dd>{index.municipalities.filter((e) => e.substantiveTextDocumentCount > 0).length.toLocaleString()}<small>自治体</small></dd></div><div><dt>公式資料の本文を読める</dt><dd>{index.municipalities.filter((e) => e.textDocumentCount > 0).length.toLocaleString()}<small>自治体</small></dd></div></dl><p className="evaluation-muted">上記の範囲は重複します。合計しません。本文の数字や表の構造化が未対応でも、読める取得テキストは表示します。資料一覧・本文は選んだものだけを読み込みます。</p></section>
-      <section className="evaluation-directory" aria-labelledby="evaluation-directory-title"><h2 id="evaluation-directory-title">1. 自治体を探す</h2><form className="evaluation-filters evaluation-directory-filters" role="search" aria-label="自治体名・都道府県・コードで検索" onSubmit={(e) => e.preventDefault()}><label className="evaluation-query">自治体名・都道府県・自治体コード<input type="search" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="例：東京都 府中市、北海道 伊達市、13206" /></label><label>都道府県<select value={prefecture} onChange={(e) => setPrefecture(e.target.value)}><option value="">すべての都道府県</option>{prefectures.map(([code, name]) => <option key={code} value={code}>{name}</option>)}</select></label><label>資料の確認状況<select value={status} onChange={(e) => setStatus(e.target.value)}><option value="">すべての1,741自治体</option>{Object.entries(EVIDENCE_LABELS).map(([key, label]) => <option key={key} value={key}>{label}</option>)}</select></label><p className="evaluation-filter-help">同じ名前の自治体は都道府県やコードで区別できます。事業名・本文は、自治体と資料を選んだあとに検索できます。</p></form>
+      <section className="evaluation-overview" aria-label="範囲を分けた収録状況"><dl><div><dt>選択できる自治体</dt><dd>{index.municipalities.length.toLocaleString()}<small>{scopeLabel}</small></dd></div><div><dt>評価案内ページ確認済み</dt><dd>{index.municipalities.filter((e) => e.evaluationPageCount > 0).length.toLocaleString()}<small>自治体</small></dd></div><div><dt>評価資料の本文テキストあり</dt><dd>{index.municipalities.filter((e) => e.substantiveTextDocumentCount > 0).length.toLocaleString()}<small>自治体</small></dd></div><div><dt>公式資料の本文を読める</dt><dd>{index.municipalities.filter((e) => e.textDocumentCount > 0).length.toLocaleString()}<small>自治体</small></dd></div></dl><p className="evaluation-muted">上記の範囲は重複します。合計しません。本文の数字や表の構造化が未対応でも、読める取得テキストは表示します。資料一覧・本文は選んだものだけを読み込みます。</p></section>
+      <section className="evaluation-directory" aria-labelledby="evaluation-directory-title"><h2 id="evaluation-directory-title">1. 自治体を探す</h2><form className="evaluation-filters evaluation-directory-filters" role="search" aria-label="自治体名・都道府県・コードで検索" onSubmit={(e) => e.preventDefault()}><label className="evaluation-query">自治体名・都道府県・自治体コード<input type="search" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="例：東京都 府中市、北海道 伊達市、13206" /></label><label>都道府県<select value={prefecture} onChange={(e) => setPrefecture(e.target.value)}><option value="">すべての都道府県</option>{index.prefectureCount > 0 && <option value={PREFECTURES_ONLY}>都道府県の評価（県庁・都庁など）</option>}{prefectures.map(([code, name]) => <option key={code} value={code}>{name}</option>)}</select></label><label>資料の確認状況<select value={status} onChange={(e) => setStatus(e.target.value)}><option value="">すべての{scopeLabel}</option>{Object.entries(EVIDENCE_LABELS).map(([key, label]) => <option key={key} value={key}>{label}</option>)}</select></label><p className="evaluation-filter-help">同じ名前の自治体は都道府県やコードで区別できます。事業名・本文は、自治体と資料を選んだあとに検索できます。</p></form>
         <p className="evaluation-directory-count" role="status" aria-live="polite">{matches.length.toLocaleString()}自治体{matches.length > limit && `中 ${limit}自治体を表示`}</p>
         {!matches.length && <div className="evaluation-state"><h3>条件に一致する自治体がありません</h3><button className="evaluation-text-button" onClick={reset}>一覧の条件をリセット</button></div>}
-        <div className="evaluation-municipality-grid">{matches.slice(0, limit).map((entry) => <button type="button" className="evaluation-municipality-choice" key={entry.municipalityCode} aria-pressed={entry.municipalityCode === municipality} onClick={() => selectMunicipality(entry.municipalityCode)}><strong>{entry.municipalityName}</strong><span className="evaluation-muted">{entry.municipalityCode}</span><span className="evaluation-muted">{entry.prefectureName}</span><span className={`evaluation-badge${entry.textDocumentCount > 0 ? ' evaluation-badge-ok' : ''}`}>{EVIDENCE_LABELS[entry.evidenceStatus]}</span><span className="evaluation-muted">{entry.substantiveTextDocumentCount ? `資料本文 ${entry.substantiveTextDocumentCount.toLocaleString()}件` : entry.textDocumentCount ? 'その他の公式資料テキストあり' : DISCOVERY_LABELS[entry.discoveryStatus]}</span></button>)}</div>
+        <div className="evaluation-municipality-grid">{matches.slice(0, limit).map((entry) => <button type="button" className="evaluation-municipality-choice" key={entry.municipalityCode} aria-pressed={entry.municipalityCode === municipality} onClick={() => selectMunicipality(entry.municipalityCode)}><strong>{entry.municipalityName}</strong><span className="evaluation-muted">{entry.municipalityCode}</span><span className="evaluation-muted">{isPrefectureEvaluationCode(entry.municipalityCode) ? '都道府県（県庁・都庁など）' : entry.prefectureName}</span><span className={`evaluation-badge${entry.textDocumentCount > 0 ? ' evaluation-badge-ok' : ''}`}>{EVIDENCE_LABELS[entry.evidenceStatus]}</span><span className="evaluation-muted">{entry.substantiveTextDocumentCount ? `資料本文 ${entry.substantiveTextDocumentCount.toLocaleString()}件` : entry.textDocumentCount ? 'その他の公式資料テキストあり' : DISCOVERY_LABELS[entry.discoveryStatus]}</span></button>)}</div>
         {matches.length > limit && <button className="evaluation-button evaluation-more" onClick={() => setLimit((v) => v + PAGE_SIZE)}>次の{Math.min(PAGE_SIZE, matches.length - limit)}自治体を表示</button>}
       </section>
-      <section className="evaluation-selected" aria-labelledby="evaluation-selected-title"><div className="evaluation-section-heading"><h2 id="evaluation-selected-title" tabIndex={-1}>2. {selected ? `${selected.prefectureName} ${selected.municipalityName} の資料` : '自治体の資料を読む'}</h2>{municipality && <button className="evaluation-text-button" onClick={() => selectMunicipality('')}>自治体の選択を解除</button>}</div>
+      <section className="evaluation-selected" aria-labelledby="evaluation-selected-title"><div className="evaluation-section-heading"><h2 id="evaluation-selected-title" tabIndex={-1}>2. {selected ? `${isPrefectureEvaluationCode(selected.municipalityCode) ? selected.municipalityName : `${selected.prefectureName} ${selected.municipalityName}`} の資料` : '自治体の資料を読む'}</h2>{municipality && <button className="evaluation-text-button" onClick={() => selectMunicipality('')}>自治体の選択を解除</button>}</div>
         {!municipality ? <div className="evaluation-state"><h3>上の一覧から自治体を選んでください</h3><p>資料名・出典・年度の意味・取得状況を確認できます。整理済み事業票がなくても自治体を選べます。</p></div> : !selected ? <div className="evaluation-state" role="alert"><h3>この自治体コードは一覧にありません</h3><p>コード {municipality} は対象一覧で確認できません。一覧から選び直してください。</p></div> : <>
           <div className="evaluation-selected-summary"><span className="evaluation-badge">{EVIDENCE_LABELS[selected.evidenceStatus]}</span><p className="evaluation-muted">自治体コード {selected.municipalityCode} ／ 全事業の網羅性：未確認</p><Link href={evidenceHref(selected.municipalityCode, source, view)}>この表示へのリンク</Link></div>
           <nav className="evaluation-view-nav" aria-label="自治体資料の表示切り替え"><Link href={evidenceHref(selected.municipalityCode)} scroll={false} aria-current={view === 'sources' ? 'page' : undefined}>資料・取得テキスト</Link><Link href={evidenceHref(selected.municipalityCode, '', 'normalized')} scroll={false} aria-current={view === 'normalized' ? 'page' : undefined}>整理済み事業票</Link></nav>

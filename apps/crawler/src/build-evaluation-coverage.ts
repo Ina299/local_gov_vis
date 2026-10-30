@@ -50,6 +50,16 @@ for (const entry of [...evidence.municipalities].sort((a, b) => a.municipalityCo
   municipalities[code] = flowYear === undefined ? { level } : { level, flowYear };
 }
 
+// 都道府県（地図の都道府県表示は 2 桁コード）。資料・テキストは evaluation-evidence-prefectures、事業票は未整備
+const prefectureIndex = await readJson<EvidenceIndex>(join(publicDir, 'evaluation-evidence-prefectures/index.json')).catch(() => null);
+const prefectureCounts = new Array<number>(COVERAGE_LEVELS.length).fill(0);
+for (const entry of prefectureIndex?.municipalities ?? []) {
+  const level = entry.substantiveTextDocumentCount > 0 ? 2 : entry.textDocumentCount > 0 ? 3 : entry.evaluationPageCount > 0 ? 4 : 5;
+  prefectureCounts[level]++;
+  municipalities[entry.prefectureCode] = { level };
+}
+console.log('prefectures', JSON.stringify(Object.fromEntries(COVERAGE_LEVELS.map((label, i) => [label, prefectureCounts[i]]))));
+
 const out: EvaluationCoverageFile = { schemaVersion: 1, evidenceSnapshotAt: evidence.snapshotAt, structuredGeneratedAt: structured.generatedAt, levels: [...COVERAGE_LEVELS], municipalities };
 await writeFile(join(publicDir, 'evaluation-coverage.json'), JSON.stringify(out) + '\n');
 console.log(JSON.stringify(Object.fromEntries(COVERAGE_LEVELS.map((label, i) => [label, counts[i]])), null, 1));

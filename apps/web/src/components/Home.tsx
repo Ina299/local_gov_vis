@@ -186,7 +186,7 @@ export default function Home({ initialView = 'map' }: HomeProps) {
   const withCoverage = useMemo(() => {
     const cache = new WeakMap<LocalGovBudget, LocalGovBudget>();
     return (b: LocalGovBudget): LocalGovBudget => {
-      const entry = b.code.length === 5 ? coverage?.[b.code] : undefined;
+      const entry = coverage?.[b.code];
       if (!entry) return b;
       let out = cache.get(b);
       if (!out) cache.set(b, (out = { ...b, evaluationCoverage: entry }));

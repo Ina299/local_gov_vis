@@ -232,7 +232,7 @@ export interface LocalGovBudget {
   roadFunding?: RoadFunding;
   /** 衆院選（小選挙区）の結果。選挙ごと（古い順）。年度によらず同じ配列 */
   elections?: Election[];
-  /** 事務事業評価の整備状況。budgets JSON には無く、画面で evaluation-coverage.json から付ける（市区町村のみ） */
+  /** 事務事業評価の整備状況。budgets JSON には無く、画面で evaluation-coverage.json から付ける */
   evaluationCoverage?: { level: number; flowYear?: number };
   perCapitaExpenditure?: number;
   /** 軽量データ municipal-all/{年度}.json では省略 */

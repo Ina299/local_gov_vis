@@ -155,7 +155,8 @@ export interface DocumentTextContinuation {
 }
 export interface EvidenceIndex {
     schemaVersion: 1;
-    scopeMunicipalities: 1741;
+    /** 市区町村の一覧は 1741、都道府県の一覧は 47 */
+    scopeMunicipalities: 1741 | 47;
     snapshotAt: string;
     counts: Record<string, number>;
     municipalities: IndexEntry[];

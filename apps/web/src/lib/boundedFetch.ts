@@ -6,7 +6,7 @@ import { dataUrl } from './paths';
  * the dev server keep plain JSON. Integrity checks always run on the decompressed bytes.
  */
 export const COMPRESSED_DATA = process.env.NEXT_PUBLIC_COMPRESSED_DATA === '1';
-const COMPRESSED_PREFIXES = ['evaluation-evidence/', 'evaluations-composed/', 'evaluations-municipal/'];
+const COMPRESSED_PREFIXES = ['evaluation-evidence/', 'evaluation-evidence-prefectures/', 'evaluations-composed/', 'evaluations-municipal/'];
 
 export function isCompressedAsset(path: string): boolean {
   const relative = path.replace(/^\//, '');

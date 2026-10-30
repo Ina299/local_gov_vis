@@ -6,7 +6,7 @@ import { gzipSync, gunzipSync } from 'node:zlib';
 
 const out = process.argv[2];
 if (!out) throw new Error('Usage: node compress-data.mjs <static export directory>');
-const DIRS = ['evaluation-evidence', 'evaluations-composed', 'evaluations-municipal'];
+const DIRS = ['evaluation-evidence', 'evaluation-evidence-prefectures', 'evaluations-composed', 'evaluations-municipal'];
 let files = 0, before = 0, after = 0;
 async function walk(dir) {
   for (const entry of await readdir(dir, { withFileTypes: true })) {

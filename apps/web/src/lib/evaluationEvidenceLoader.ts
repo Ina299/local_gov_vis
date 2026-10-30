@@ -33,17 +33,29 @@ function officialLink(v: unknown): v is OfficialLink | null {
     && oneOf(v.kind, ['official_homepage', 'official_directory_page']) && named(v.verificationBasis)
     && url(v.evidenceUrl) && hash(v.evidenceSha256));
 }
+/** 市区町村（1,741）と都道府県（47、コードは 13000 の形）は別の一覧。資料・テキストの形式は共通 */
+export type EvidenceScope = 'municipal' | 'prefecture';
+// 都道府県は別の配信ディレクトリ（市区町村の資産検査・構築と混ざらないように）
+const SCOPES: Record<EvidenceScope, { count: number; base: string; dir: string }> = {
+  municipal: { count: 1741, base: 'evaluation-evidence', dir: 'municipalities' },
+  prefecture: { count: 47, base: 'evaluation-evidence-prefectures', dir: 'prefectures' },
+};
+export const isPrefectureEvaluationCode = (code: string) => /^(0[1-9]|[1-3][0-9]|4[0-7])000$/.test(code);
+const baseFor = (code: string) => SCOPES[isPrefectureEvaluationCode(code) ? 'prefecture' : 'municipal'].base;
 function cityDescriptor(v: unknown): v is IndexEntry {
-  return identity(v) && v.shardPath === `municipalities/${v.municipalityCode}.json`
+  if (!identity(v)) return false;
+  const dir = isPrefectureEvaluationCode(v.municipalityCode) ? SCOPES.prefecture.dir : SCOPES.municipal.dir;
+  return v.shardPath === `${dir}/${v.municipalityCode}.json`
     && hash(v.shardSha256) && count(v.shardBytes) && v.shardBytes > 0 && v.shardBytes <= MAX_CITY_BYTES;
 }
-export function parseEvidenceIndex(value: unknown): EvidenceIndex {
-  if (!record(value) || value.schemaVersion !== 1 || value.scopeMunicipalities !== 1741 || !date(value.snapshotAt)
+export function parseEvidenceIndex(value: unknown, scope: EvidenceScope = 'municipal'): EvidenceIndex {
+  const expected = SCOPES[scope].count;
+  if (!record(value) || value.schemaVersion !== 1 || value.scopeMunicipalities !== expected || !date(value.snapshotAt)
     || !record(value.counts) || !Object.values(value.counts).every(count)
-    || !Array.isArray(value.municipalities) || value.municipalities.length !== 1741) throw invalid('全国一覧');
+    || !Array.isArray(value.municipalities) || value.municipalities.length !== expected) throw invalid('全国一覧');
   const codes = new Set<string>();
   for (const entry of value.municipalities) {
-    if (!cityDescriptor(entry) || codes.has(entry.municipalityCode)
+    if (!cityDescriptor(entry) || isPrefectureEvaluationCode(entry.municipalityCode) !== (scope === 'prefecture') || codes.has(entry.municipalityCode)
       || !oneOf(entry.discoveryStatus, DISCOVERY) || !oneOf(entry.evidenceStatus, EVIDENCE)
       || ![entry.evaluationPageCount, entry.sourceCount, entry.candidateCount, entry.acquiredCount, entry.textDocumentCount, entry.substantiveTextDocumentCount].every(count)
       || entry.evaluationPageCount > entry.sourceCount || entry.textDocumentCount > entry.acquiredCount
@@ -199,9 +211,9 @@ async function verify(bytes: ArrayBuffer, expectedBytes: number, expectedHash: s
   if (actual !== expectedHash) throw new Error('データのSHA-256が一覧と一致しません。再読み込みしてください。');
   return 'sha256_verified';
 }
-export async function loadEvidenceIndex(signal: AbortSignal, fetcher: typeof fetch = fetch): Promise<EvidenceIndex> {
-  const bytes = await fetchBytes('evaluation-evidence/index.json', signal, MAX_INDEX_BYTES, fetcher);
-  notAborted(signal); return parseEvidenceIndex(json(bytes));
+export async function loadEvidenceIndex(signal: AbortSignal, fetcher: typeof fetch = fetch, scope: EvidenceScope = 'municipal'): Promise<EvidenceIndex> {
+  const bytes = await fetchBytes(`${SCOPES[scope].base}/index.json`, signal, MAX_INDEX_BYTES, fetcher);
+  notAborted(signal); return parseEvidenceIndex(json(bytes), scope);
 }
 export async function validateMunicipalityEvidence(bytes: ArrayBuffer, entry: IndexEntry, signal: AbortSignal, subtle: SubtleCrypto | null = globalThis.crypto?.subtle ?? null): Promise<LoadedEvidence<MunicipalityEvidence>> {
   if (!cityDescriptor(entry)) throw invalid('自治体配信先');
@@ -277,20 +289,20 @@ export function createEvidenceLoader(options: { fetcher?: typeof fetch; subtle?:
     loadMunicipality(entry: IndexEntry, signal: AbortSignal, reload = false) {
       if (!cityDescriptor(entry)) return Promise.reject(invalid('自治体配信先'));
       const key = JSON.stringify(entry);
-      return cached(cities, key, `evaluation-evidence/${entry.shardPath}`, entry.shardBytes, signal, reload,
+      return cached(cities, key, `${baseFor(entry.municipalityCode)}/${entry.shardPath}`, entry.shardBytes, signal, reload,
         (bytes) => validateMunicipalityEvidence(bytes, entry, signal, subtle()));
     },
     loadText(code: string, source: EvidenceSource, signal: AbortSignal, reload = false) {
       if (!CODE.test(code) || !sourceRecord(source) || source.text.status !== 'available') return Promise.reject(invalid('テキスト配信先'));
       const key = JSON.stringify([code, source]);
-      return cached(texts, key, `evaluation-evidence/${source.text.assetPath}`, source.text.assetBytes, signal, reload,
+      return cached(texts, key, `${baseFor(code)}/${source.text.assetPath}`, source.text.assetBytes, signal, reload,
         (bytes) => validateDocumentText(bytes, code, source, signal, subtle()));
     },
     loadTextContinuation(code: string, source: EvidenceSource, part: number, signal: AbortSignal, reload = false) {
       const ref = continuationRef(code, source, part);
       if (!ref) return Promise.reject(invalid('続きのテキスト配信先'));
       const key = JSON.stringify([code, source, part]);
-      return cached(parts, key, `evaluation-evidence/${ref.assetPath}`, ref.assetBytes, signal, reload,
+      return cached(parts, key, `${baseFor(code)}/${ref.assetPath}`, ref.assetBytes, signal, reload,
         (bytes) => validateTextContinuation(bytes, code, source, part, signal, subtle()));
     },
   };

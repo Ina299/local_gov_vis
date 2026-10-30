@@ -607,7 +607,6 @@ export const METRICS: MetricDef[] = [
     kind: 'category',
     category: 'evaluation',
     yearIndependent: true,
-    muniOnly: true,
     description:
       'このアプリで、その自治体の事務事業評価をどこまで読めるか（事業コストの流れの図／整理済み事業票／評価資料の本文／その他の公式テキスト／案内ページのみ／未確認）。自治体の評価の実施・公開状況ではない',
   },

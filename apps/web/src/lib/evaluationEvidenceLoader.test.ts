@@ -27,7 +27,7 @@ async function fixture(code = '13206', name = '府中市') {
 }
 function index(entries: IndexEntry[]): EvidenceIndex {
   const blank = entries[0];
-  const municipalities: IndexEntry[] = Array.from({ length: 1741 - entries.length }, (_, i) => ({ ...blank, municipalityCode: String(1000 + i).padStart(5, '0'), municipalityName: `自治体${i}`, prefectureCode: String(1000 + i).padStart(5, '0').slice(0, 2), prefectureName: '北海道', shardPath: `municipalities/${String(1000 + i).padStart(5, '0')}.json`, discoveryStatus: 'searched_not_found', evidenceStatus: 'no_verified_sources', sourceCount: 0, candidateCount: 0, acquiredCount: 0, textDocumentCount: 0, substantiveTextDocumentCount: 0, evaluationPageCount: 0 }));
+  const municipalities: IndexEntry[] = Array.from({ length: 1741 - entries.length }, (_, i) => ({ ...blank, municipalityCode: String(1001 + i + Math.floor(i / 999)).padStart(5, '0'), municipalityName: `自治体${i}`, prefectureCode: String(1001 + i + Math.floor(i / 999)).padStart(5, '0').slice(0, 2), prefectureName: '北海道', shardPath: `municipalities/${String(1001 + i + Math.floor(i / 999)).padStart(5, '0')}.json`, discoveryStatus: 'searched_not_found', evidenceStatus: 'no_verified_sources', sourceCount: 0, candidateCount: 0, acquiredCount: 0, textDocumentCount: 0, substantiveTextDocumentCount: 0, evaluationPageCount: 0 }));
   municipalities.push(...entries);
   const sum = (key: 'acquiredCount' | 'candidateCount' | 'sourceCount' | 'substantiveTextDocumentCount' | 'textDocumentCount') => municipalities.reduce((n, e) => n + e[key], 0);
   const present = (key: 'acquiredCount' | 'evaluationPageCount' | 'textDocumentCount' | 'substantiveTextDocumentCount' | 'sourceCount') => municipalities.filter((e) => e[key] > 0).length;
