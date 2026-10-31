@@ -59,7 +59,8 @@ export type MapMetricKey =
   | 'robberies'
   | 'burglaries'
   | 'sexualAssaults'
-  | 'evaluationCoverage';
+  | 'evaluationCoverage'
+  | 'evaluationTransparency';
 
 /** ハンバーガーメニューで選ぶ表示カテゴリ */
 export type MetricCategory = 'money' | 'population' | 'fiscal' | 'labor' | 'infra' | 'safety' | 'election' | 'evaluation';
@@ -610,6 +611,16 @@ export const METRICS: MetricDef[] = [
     description:
       'このアプリで、その自治体の事務事業評価をどこまで読めるか（事業コストの流れの図／整理済み事業票／評価資料の本文／その他の公式テキスト／案内ページのみ／未確認）。自治体の評価の実施・公開状況ではない',
   },
+  {
+    key: 'evaluationTransparency',
+    label: '透明度',
+    kind: 'ratio',
+    category: 'evaluation',
+    yearIndependent: true,
+    invertColor: true,
+    description:
+      '歳出総額（決算）のうち、公開された評価資料から事業ごとの決算額を読み取れた割合。比べられる年度のうち最も高い年度の値。0%は読み取れた決算額がない（資料が無い・金額が無い・機械で読める形で公開されていない、のいずれか）',
+  },
 ];
 
 /** 業種割合指標 → 国勢調査の産業大分類名 */
@@ -727,6 +738,7 @@ export function metricValue(
     if (key === 'electionRulingShare') return rulingShare(election);
     return key === 'electionWinnerMargin' ? election.winnerMargin : election.winnerShare;
   }
+  if (key === 'evaluationTransparency') return budget.evaluationCoverage?.transparency ?? null;
   if (key === 'roadFunding' || key === 'roadFundingChange' || key === 'roadFundingAnomaly') {
     const funding = budget.roadFunding;
     if (!funding) return null;

@@ -615,6 +615,21 @@ export function Sidebar({
                 ? '対象外'
                 : 'データなし'}
         </div>
+        {metricKey === 'evaluationTransparency' && (() => {
+          const c = selectedRegion.evaluationCoverage;
+          return (
+            <p className="evaluation-coverage-link">
+              {c?.transparencyYear !== undefined && <span className="evaluation-muted">
+                {c.transparencyYear}年度の事業別の決算額 ÷ {c.transparencyTotalYear}年度の歳出総額（決算）{c.transparencyTotalYear !== c.transparencyYear && '（その年度の決算は未収録のため直近の年度で代用）'}
+                <br />
+              </span>}
+              {c?.transparency === undefined && c && <span className="evaluation-muted">読み取れた決算額の年度と歳出総額の収録年度が重ならないため、割合を出していません。<br /></span>}
+              <a className="text-button" href={dataUrl(evaluationEntryHref(selectedRegion.code, c))}>
+                {c?.level === 0 ? '読み取れた事業の流れを見る →' : '事務事業評価の資料を見る →'}
+              </a>
+            </p>
+          );
+        })()}
         {metricKey === 'evaluationCoverage' && (
           <p className="evaluation-coverage-link">
             <a className="text-button" href={dataUrl(evaluationEntryHref(selectedRegion.code, selectedRegion.evaluationCoverage))}>

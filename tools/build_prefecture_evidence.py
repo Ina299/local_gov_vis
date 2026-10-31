@@ -2,18 +2,22 @@
 """Build the prefecture evaluation evidence (47 prefectures) from the discovery record and collected originals (offline).
 
   PYTHONUTF8=1 python tools/build_prefecture_evidence.py --discovery data/evaluations/prefecture-discovery-r1.json [--discovery ...-r2.json] \
-      --collection I:/local_gov_crawler_sources/prefecture-r1 [--collection ...] --pdftotext tools/poppler-24.08.0/Library/bin/pdftotext.exe
+      --collection I:/local_gov_crawler_sources/prefecture-r1 [--collection ...] --pdftotext tools/poppler-24.08.0/Library/bin/pdftotext.exe \
+      [--layout-codes 10000,11000]
 
 Writes apps/web/public/evaluation-evidence-prefectures/index.json (scope 47), prefectures/{PP000}.json (shards) and
 documents/{id}[-{part}].json (text), apart from the municipal evaluation-evidence/ tree. The shard/text schema is the municipal one, so the same web loader validates it.
 Every link comes from the discovery record (printed on an official prefecture page); bytes are re-hashed before use,
 text is extracted only from those bytes, years are never inferred, and nothing is fetched.
+--layout-codes: PDFs of these prefectures are extracted with `pdftotext -layout` (columns kept on one line by page position),
+for tables whose rows the plain reading order scrambles (埼玉・群馬).
 """
 import argparse,hashlib,io,json,pathlib,re,sys,urllib.parse
 sys.path.insert(0,str(pathlib.Path(__file__).resolve().parent))
 from prepare_collected_sources import pdf_text,html_text,encode,digest,MAX_CHARS,PDF_METHOD,HTML_METHOD
 
 XLSX_METHOD='spreadsheet_cells_from_verified_bytes'
+LAYOUT_METHOD='pdftotext_layout_from_verified_bytes'
 TYPES={'business_project_evaluation','policy_evaluation','facility_evaluation','education_inspection','mixed_evaluation','grant_project_evaluation','administrative_reform','project_activity_report','sector_evaluation','unknown'}
 OFFICIAL=re.compile(r'(^|\.)(pref\.[a-z]+|metro\.tokyo)\.(lg\.)?jp$')
 
@@ -60,7 +64,7 @@ def load_collections(dirs):
    found[url]=(d,e)
  return found
 
-def build(root,discovery,collections,pdftotext):
+def build(root,discovery,collections,pdftotext,layout_codes=frozenset()):
  public=root/'apps/web/public/evaluation-evidence-prefectures'
  (public/'prefectures').mkdir(parents=True,exist_ok=True);(public/'documents').mkdir(parents=True,exist_ok=True)
  # Later discovery rounds only add links; a prefecture's rows keep the order r1, r2, ... and the first record of a URL wins.
@@ -100,7 +104,7 @@ def build(root,discovery,collections,pdftotext):
     acquisition.update(state='acquired',inputStatus='fetched',fetchedAt=e.get('fetchedAt') or e['attemptedAt'],httpStatus=e.get('httpStatus') or 200,sourceSha256=e['sha256'])
     review['rawArchiveState']='collected'
     ctype=(e.get('contentType') or '').lower()
-    if raw[:5]==b'%PDF-':full,method=pdf_text(raw,pdftotext),PDF_METHOD
+    if raw[:5]==b'%PDF-':full,method=(pdf_text(raw,pdftotext,layout=True),LAYOUT_METHOD) if code in layout_codes else (pdf_text(raw,pdftotext),PDF_METHOD)
     elif raw[:4]==b'PK\x03\x04' and fmt in ('xlsx','xlsm') or raw[:8]==bytes.fromhex('d0cf11e0a1b11ae1') and fmt=='xls':full,method=sheet_text(raw),XLSX_METHOD
     elif fmt in ('html','htm') or 'html' in ctype:full,method=html_text(raw,url,e.get('contentType')),HTML_METHOD
     else:full,method=None,None
@@ -157,6 +161,6 @@ def build(root,discovery,collections,pdftotext):
  return report
 
 if __name__=='__main__':
- ap=argparse.ArgumentParser();ap.add_argument('--discovery',action='append',required=True);ap.add_argument('--collection',action='append',default=[]);ap.add_argument('--pdftotext',required=True)
+ ap=argparse.ArgumentParser();ap.add_argument('--discovery',action='append',required=True);ap.add_argument('--collection',action='append',default=[]);ap.add_argument('--pdftotext',required=True);ap.add_argument('--layout-codes',default='')
  a=ap.parse_args();root=pathlib.Path(__file__).resolve().parent.parent
- print(json.dumps(build(root,[pathlib.Path(d) for d in a.discovery],[pathlib.Path(c) for c in a.collection],pathlib.Path(a.pdftotext)),ensure_ascii=False,indent=1))
+ print(json.dumps(build(root,[pathlib.Path(d) for d in a.discovery],[pathlib.Path(c) for c in a.collection],pathlib.Path(a.pdftotext),frozenset(c for c in a.layout_codes.split(',') if c)),ensure_ascii=False,indent=1))

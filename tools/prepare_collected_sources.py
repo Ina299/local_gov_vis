@@ -17,11 +17,11 @@ HTML_METHOD='visible_html_from_verified_bytes'
 def encode(obj):return (json.dumps(obj,ensure_ascii=False,sort_keys=True,separators=(',',':'))+'\n').encode()
 def digest(data):return hashlib.sha256(data).hexdigest()
 
-def pdf_text(raw,pdftotext):
+def pdf_text(raw,pdftotext,layout=False):
  if raw[:5]!=b'%PDF-':return None
  with tempfile.TemporaryDirectory() as tmp:
   src=pathlib.Path(tmp)/'in.pdf';dst=pathlib.Path(tmp)/'out.txt';src.write_bytes(raw)
-  try:subprocess.run([str(pdftotext),'-enc','UTF-8','-q',str(src),str(dst)],check=True,timeout=120,capture_output=True)
+  try:subprocess.run([str(pdftotext),*(['-layout'] if layout else []),'-enc','UTF-8','-q',str(src),str(dst)],check=True,timeout=120,capture_output=True)
   except (subprocess.CalledProcessError,subprocess.TimeoutExpired):return None
   text=dst.read_text(encoding='utf-8',errors='strict') if dst.exists() else ''
  text=re.sub(r'[\x00-\x08\x0b\x0e-\x1f\x7f]','',text.replace('\f','\n'))

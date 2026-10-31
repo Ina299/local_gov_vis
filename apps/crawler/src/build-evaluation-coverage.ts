@@ -14,7 +14,7 @@ import type { EvidenceIndex } from '../../web/src/types/evaluationEvidence';
 import type { EvaluationIndex } from '../../web/src/lib/evaluationLoader';
 import * as flowLib from '../../web/src/lib/projectCostFlow';
 import * as coverageLib from '../../web/src/lib/evaluationCoverage';
-import type { BudgetTotalsFile, EvaluationCoverageFile } from '../../web/src/lib/evaluationCoverage';
+import type { BudgetTotalsFile, CoverageEntry, EvaluationCoverageFile } from '../../web/src/lib/evaluationCoverage';
 import { readdir } from 'node:fs/promises';
 
 // web 側は CommonJS として読み込まれるため、名前付き export は default 経由になることがある
@@ -25,7 +25,7 @@ const flowYearsOf = (projects: EvaluationDataset['projects']) => {
   const actual = costFlowYears(projects, 5, 'actual');
   return actual.length ? actual : costFlowYears(projects, 5, 'budget');
 };
-const { COVERAGE_LEVELS } = interop(coverageLib);
+const { COVERAGE_LEVELS, transparencyOf } = interop(coverageLib);
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '../../..');
 const publicDir = join(root, 'apps/web/public');
@@ -35,6 +35,21 @@ const evidence = await readJson<EvidenceIndex>(join(publicDir, 'evaluation-evide
 const structured = await readJson<EvaluationIndex>(join(publicDir, 'evaluations-index.json'));
 const datasets = new Map(structured.municipalities.filter((m) => m.dataStatus === 'primary_available' && m.datasetPath).map((m) => [m.municipalityCode, m.datasetPath!]));
 
+// 歳出総額（決算）: 都道府県は budgets.json、市区町村は municipal-all/{年度}.json
+const totals: BudgetTotalsFile['totals'] = {};
+const add = (b: LocalGovBudget) => { (totals[b.code] ??= {})[String(b.fiscalYear)] = b.totalExpenditure; };
+(await readJson<LocalGovBudget[]>(join(publicDir, 'budgets.json'))).forEach(add);
+for (const file of (await readdir(join(publicDir, 'budgets/municipal-all'))).filter((f) => /^\d{4}\.json$/.test(f)).sort()) {
+  (await readJson<LocalGovBudget[]>(join(publicDir, 'budgets/municipal-all', file))).forEach(add);
+}
+// 透明度: 年度ごとの読み取れた決算額の合計（事業コストの流れと同じ重複除去。事業数の下限なし）÷ 歳出総額（決算）
+const withTransparency = (entry: CoverageEntry, projects: EvaluationDataset['projects'] | null, totalsKey: string): CoverageEntry => {
+  const recorded = Object.fromEntries((projects ? costFlowYears(projects, 1, 'actual') : []).map((y) => [String(y.fiscalYear), y.total]));
+  const t = transparencyOf(recorded, totals[totalsKey]);
+  if (t === 0) return { ...entry, transparency: 0 };
+  return t ? { ...entry, transparency: Math.round(t.ratio * 1e6) / 1e6, transparencyYear: t.year, transparencyTotalYear: t.totalYear } : entry;
+};
+
 const municipalities: EvaluationCoverageFile['municipalities'] = {};
 const counts = new Array<number>(COVERAGE_LEVELS.length).fill(0);
 for (const entry of [...evidence.municipalities].sort((a, b) => a.municipalityCode.localeCompare(b.municipalityCode))) {
@@ -42,8 +57,10 @@ for (const entry of [...evidence.municipalities].sort((a, b) => a.municipalityCo
   let level: number;
   let flowYear: number | undefined;
   const datasetPath = datasets.get(code);
+  let projects: EvaluationDataset['projects'] | null = null;
   if (datasetPath) {
     const dataset = await readJson<EvaluationDataset>(join(publicDir, datasetPath));
+    projects = dataset.projects;
     const years = flowYearsOf(dataset.projects);
     flowYear = defaultFlowYear(years) ?? undefined;
     level = years.length ? 0 : 1;
@@ -52,7 +69,7 @@ for (const entry of [...evidence.municipalities].sort((a, b) => a.municipalityCo
   else if (entry.evaluationPageCount > 0) level = 4;
   else level = 5;
   counts[level]++;
-  municipalities[code] = flowYear === undefined ? { level } : { level, flowYear };
+  municipalities[code] = withTransparency(flowYear === undefined ? { level } : { level, flowYear }, projects, code);
 }
 
 // 都道府県（地図の都道府県表示は 2 桁コード）。資料・テキストは evaluation-evidence-prefectures、事業票は evaluations-prefectures
@@ -63,13 +80,15 @@ for (const entry of prefectureIndex?.municipalities ?? []) {
   let level = entry.substantiveTextDocumentCount > 0 ? 2 : entry.textDocumentCount > 0 ? 3 : entry.evaluationPageCount > 0 ? 4 : 5;
   let flowYear: number | undefined;
   const row = prefectureStructured?.municipalities.find((m) => m.municipalityCode === entry.municipalityCode && m.dataStatus === 'primary_available' && m.datasetPath);
+  let projects: EvaluationDataset['projects'] | null = null;
   if (row) {
-    const years = flowYearsOf((await readJson<EvaluationDataset>(join(publicDir, row.datasetPath!))).projects);
+    projects = (await readJson<EvaluationDataset>(join(publicDir, row.datasetPath!))).projects;
+    const years = flowYearsOf(projects);
     flowYear = defaultFlowYear(years) ?? undefined;
     level = years.length ? 0 : 1;
   }
   prefectureCounts[level]++;
-  municipalities[entry.prefectureCode] = flowYear === undefined ? { level } : { level, flowYear };
+  municipalities[entry.prefectureCode] = withTransparency(flowYear === undefined ? { level } : { level, flowYear }, projects, entry.prefectureCode);
 }
 console.log('prefectures', JSON.stringify(Object.fromEntries(COVERAGE_LEVELS.map((label, i) => [label, prefectureCounts[i]]))));
 
@@ -77,13 +96,8 @@ const out: EvaluationCoverageFile = { schemaVersion: 1, evidenceSnapshotAt: evid
 await writeFile(join(publicDir, 'evaluation-coverage.json'), JSON.stringify(out) + '\n');
 console.log(JSON.stringify(Object.fromEntries(COVERAGE_LEVELS.map((label, i) => [label, counts[i]])), null, 1));
 
-// 歳出総額（決算）: 都道府県は budgets.json、市区町村は municipal-all/{年度}.json
-const totals: BudgetTotalsFile['totals'] = {};
-const add = (b: LocalGovBudget) => { (totals[b.code] ??= {})[String(b.fiscalYear)] = b.totalExpenditure; };
-(await readJson<LocalGovBudget[]>(join(publicDir, 'budgets.json'))).forEach(add);
-for (const file of (await readdir(join(publicDir, 'budgets/municipal-all'))).filter((f) => /^\d{4}\.json$/.test(f)).sort()) {
-  (await readJson<LocalGovBudget[]>(join(publicDir, 'budgets/municipal-all', file))).forEach(add);
-}
 const sortedTotals = Object.fromEntries(Object.keys(totals).sort().map((code) => [code, totals[code]]));
 await writeFile(join(publicDir, 'evaluation-budget-totals.json'), JSON.stringify({ schemaVersion: 1, source: 'Japan Dashboard 地方財政（総務省 地方財政状況調査・決算）の歳出総額', totals: sortedTotals } satisfies BudgetTotalsFile) + '\n');
 console.log(`budget totals: ${Object.keys(totals).length}団体`);
+const measured = Object.values(municipalities).filter((e) => e.transparency !== undefined);
+console.log(`transparency: ${measured.length}団体（0%: ${measured.filter((e) => e.transparency === 0).length}、比べられない: ${Object.keys(municipalities).length - measured.length}）`);

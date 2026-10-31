@@ -174,7 +174,12 @@ function metricValues(
     .filter((v): v is number => v !== null);
 }
 
+// 透明度は大半が 0% のため分位点では階級が潰れる。0%／1%未満／1〜10%／10〜30%／30%以上の固定の区切りにする
+const TRANSPARENCY_BREAKS = [1e-9, 0.01, 0.1, 0.3];
+const TRANSPARENCY_LABELS = ['0%（読み取れた決算額なし）', '1%未満', '1〜10%', '10〜30%', '30%以上'];
+
 function breaksFor(budgets: Map<string, LocalGovBudget>, metricKey: MapMetricKey, scale: MapScale, electionYear: number | null = null): number[] {
+  if (metricKey === 'evaluationTransparency') return TRANSPARENCY_BREAKS;
   return computeBreaks(metricValues(budgets, metricKey, scale, electionYear));
 }
 
@@ -783,7 +788,9 @@ export default function BudgetMap({
     const classes = Array.from({ length: classCount }, (_, i) => {
       const color = classColor(ramp, invertColor ? breaks.length - i : i, classCount);
       let label: string;
-      if (i === 0) {
+      if (metricKey === 'evaluationTransparency') {
+        label = TRANSPARENCY_LABELS[i];
+      } else if (i === 0) {
         label = `${formatMetricValue(breaks[0], metricKey)}未満`;
       } else if (i === breaks.length) {
         label = `${formatMetricValue(breaks[breaks.length - 1], metricKey)}以上`;

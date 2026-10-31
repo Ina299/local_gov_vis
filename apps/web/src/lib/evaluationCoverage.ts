@@ -27,7 +27,43 @@ export const COVERAGE_COLORS: Record<CoverageLabel, string> = {
   資料を未確認: '#d9dde3',
 };
 
-export interface CoverageEntry { level: number; flowYear?: number }
+export interface CoverageEntry {
+  level: number;
+  flowYear?: number;
+  /**
+   * 透明度: 評価資料から事業別に読み取れた決算額の合計 ÷ 歳出総額（決算）。比べられる年度のうち最も高い年度の値。
+   * 0 は読み取れた決算額がない。省略は比べられない（決算額はあるが歳出総額の収録年度と重ならない等）
+   */
+  transparency?: number;
+  transparencyYear?: number;
+  /** 割った歳出総額の年度（transparencyYear の決算が未公表のときは直近の年度） */
+  transparencyTotalYear?: number;
+}
+
+/**
+ * 透明度を計算する: 年度ごとの「読み取れた決算額の合計」を歳出総額（決算）で割り、比べられる年度のうち最も高い値を返す。
+ * その年度の歳出総額が未収録（決算の公表待ち）なら、2 年以内の直近の年度の歳出総額で代える（totalYear に残す）。
+ * 0 は読み取れた決算額がない。null は比べられない（歳出総額がない・収録額が歳出総額を上回る）
+ */
+export function transparencyOf(recordedByYear: Record<string, number>, totalsByYear: Record<string, number> | undefined): { ratio: number; year: number; totalYear: number } | null | 0 {
+  const years = Object.keys(recordedByYear).filter((y) => recordedByYear[y] > 0);
+  if (!years.length) return 0;
+  let best: { ratio: number; year: number; totalYear: number } | null = null;
+  for (const y of years) {
+    const totalYear = [0, 1, 2].map((d) => Number(y) - d).find((t) => (totalsByYear?.[String(t)] ?? 0) > 0);
+    if (totalYear === undefined) continue;
+    const total = totalsByYear![String(totalYear)];
+    // 収録額が歳出総額を上回る年度は、年度の対応がずれている可能性があるため比べない
+    if (recordedByYear[y] > total) continue;
+    const ratio = recordedByYear[y] / total;
+    // 同じ年度の歳出総額で割れる年度を優先し、その中で割合が高い（同じなら新しい）年度
+    const rank = (c: { ratio: number; year: number; totalYear: number }) => [Number(c.totalYear === c.year), c.ratio, c.year];
+    const cand = { ratio, year: Number(y), totalYear };
+    const [a1, a2, a3] = rank(cand); const [b1, b2, b3] = best ? rank(best) : [-1, -1, -1];
+    if (a1 > b1 || (a1 === b1 && (a2 > b2 || (a2 === b2 && a3 > b3)))) best = cand;
+  }
+  return best;
+}
 export interface EvaluationCoverageFile {
   schemaVersion: 1;
   evidenceSnapshotAt: string;
