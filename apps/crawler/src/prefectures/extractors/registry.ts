@@ -8,10 +8,13 @@ import { entries as fukui } from './p-fukui';
 import { entries as fukuoka } from './p-fukuoka';
 import { entries as fukushima } from './p-fukushima';
 import { entries as hiroshima } from './p-hiroshima';
+import { entries as hokkaido } from './p-hokkaido';
 import { entries as ibaraki } from './p-ibaraki';
 import { entries as kagawa } from './p-kagawa';
 import { entries as kagoshima } from './p-kagoshima';
 import { entries as kumamoto } from './p-kumamoto';
+import { entries as kyoto } from './p-kyoto';
+import { entries as mie } from './p-mie';
 import { entries as miyagi } from './p-miyagi';
 import { entries as nagano } from './p-nagano';
 import { entries as nagasaki } from './p-nagasaki';
@@ -23,6 +26,7 @@ import { entries as shiga } from './p-shiga';
 import { entries as shimane } from './p-shimane';
 import { entries as shizuoka } from './p-shizuoka';
 import { entries as tochigi } from './p-tochigi';
+import { entries as tokushima } from './p-tokushima';
 import { entries as tokyo } from './p-tokyo';
 import { entries as wakayama } from './p-wakayama';
 import { entries as yamagata } from './p-yamagata';
@@ -36,10 +40,13 @@ export const prefectureExtractors: Record<string, Entry> = {
   ...fukuoka,
   ...fukushima,
   ...hiroshima,
+  ...hokkaido,
   ...ibaraki,
   ...kagawa,
   ...kagoshima,
   ...kumamoto,
+  ...kyoto,
+  ...mie,
   ...miyagi,
   ...nagano,
   ...nagasaki,
@@ -51,6 +58,7 @@ export const prefectureExtractors: Record<string, Entry> = {
   ...shimane,
   ...shizuoka,
   ...tochigi,
+  ...tokushima,
   ...tokyo,
   ...wakayama,
   ...yamagata,
