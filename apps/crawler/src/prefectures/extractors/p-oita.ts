@@ -16,8 +16,8 @@ const PAGE = /主要な施策の成果（事務事業評価）令和７年度実
 const DEPT = /^(\S{2,14}?(?:課|室|局|センター|事務所))(?: |$)/gm;
 const NOT_DEPT = new Set(['主な担当部局', '関係部局', '所管部局']);
 const BUDGET = '予算額\n(うち翌年度繰越額)';
-/** 金額の単位。抽出テキストに単位の印字がないため null（未収録）。 */
-const UNIT: '千円' | null = null;
+/** 金額の単位。抽出テキストに単位の印字はないが千円とみなす（利用者の判断。2026-11）。null にすると金額は未収録。 */
+const UNIT: '千円' | null = '千円';
 const N = String.raw`\d{1,3}(?:,\d{3})*`;
 // 形1: 予算額欄 → 予算額(繰越額) → [No.] [番号] → 決算額欄 → [1字の欄名断片] → 決算額(国庫支出金)
 const SHAPE1 = new RegExp(String.raw`^予算額\n\(うち翌年度繰越額\)\n\n(${N})\n\((${N})\)\n(?:No\.\n)?(?:\n\d{1,2}\n)?\n決算額\n\(うち国庫支出金\)\n\n(?:[^\n\d(]\n\n)*(${N})(?: [①-⑳])?\n\((${N})\)`);
@@ -57,11 +57,11 @@ function extractOne(input: CachedInput): ProjectEvaluation[] {
       const b = pg.slice(budgets[i]);
       const m1 = SHAPE1.exec(b), m2 = m1 ? null : SHAPE2.exec(b);
       const at = ps + budgets[i];
-      // 金額の単位（千円と推測される）は抽出テキストのどこにも印字されていないため、列の対応が確定しても金額は収録しない。
       const aligned = m1 && num(m1[3]) <= num(m1[1]) ? { budget: m1[1], actual: m1[3] } : m2 && num(m2[1]) - num(m2[3]) === num(m2[2]) ? { budget: m2[1], actual: m2[2] } : null;
       if (UNIT && aligned) {
         const raw = (m1 ?? m2)![0].trimEnd();
         p.amounts.push(amount(input, 'budget', 2025, aligned.budget, UNIT, raw, at), amount(input, 'actual', 2025, aligned.actual, UNIT, raw, at));
+        p.warnings.push('予算額・決算額は個票の欄の値。単位は抽出テキストに印字されていないため千円とみなした。');
       } else if (aligned) p.warnings.push(`予算額・決算額欄の値（予算額 ${aligned.budget}、決算額 ${aligned.actual}）は欄名との対応を確認できたが、金額の単位が抽出テキストに印字されていないため金額は未収録。`);
       else p.warnings.push('予算額・決算額の欄名と値の並びが抽出テキストで確定しないため金額は未収録。');
       p.warnings.push('別冊２「主要な施策の成果（事務事業評価）令和7年度実績」の個票。担当課は個票の担当課欄。');

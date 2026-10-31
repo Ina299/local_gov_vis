@@ -5,15 +5,15 @@
  *  2. 取組ごとの検算: 取組の表（「（Ａ）－（Ｂ）」の行で区切る）の会計欄の数と読めた当初予算額の数が一致し、その合計（取組の計（Ａ））が、
  *     同じ施策コードの「政策評価帳票」（施策評価シート）の「R◯年度予算額（千円）」表に印字された取組別の値のどれかと一致する。
  *     会計年度はこの表の見出し「R◯年度予算額」による（事業整理票自体には年度が印字されない）。
- * 「決算（見込）額」は決算額か見込額かが欄名で区別されないため収録しない（RECORD_KESSAN_MIKOMI）。
+ * 「決算（見込）額」は決算額か見込額かが欄名で区別されないが、決算額として収録する（利用者の判断。2026-11。RECORD_KESSAN_MIKOMI）。
  * 「再掲」行は他の施策の本籍行の再掲なので事業として収録しない。担当課は事業ごとに印字されないため未収録。
  */
 import type { ProjectEvaluation } from '../../../../web/src/types/evaluation';
 import { type CachedInput, evidence, project } from '../../evaluations/expansion/shared';
 import { acrossDocuments, amount, nfkc, num, type Entry } from '../../evaluations/expansion/batch9/i1-util';
 
-/** 決算（見込）額を actual として収録するか（見込額を含みうる欄のため既定は収録しない）。 */
-const RECORD_KESSAN_MIKOMI = false;
+/** 決算（見込）額を actual として収録するか（見込額を含みうる欄。利用者の判断で収録する）。 */
+const RECORD_KESSAN_MIKOMI = true;
 
 const N = String.raw`\d{1,3}(?:,\d{3})*`;
 const CODE = /施策\n(?:取組\n番号\n)?\n([ⅠⅡⅢⅣⅤⅥⅦ]－[０-９]+－[①-⑳])/g;
@@ -98,7 +98,7 @@ function one(input: CachedInput, inputs: CachedInput[]): ProjectEvaluation[] {
         if (num(budget) > 0) p.amounts.push(amount(input, 'budget', tb.fy, budget, '千円', raw, start));
         if (RECORD_KESSAN_MIKOMI && m[5] && num(m[5]) > 0) p.amounts.push(amount(input, 'actual', tb.fy, m[5], '千円', raw, start));
         p.warnings.push(`当初予算額は事業整理票の行（予算事業名→会計→当初予算額が連続）から。施策${sec.code}のこの取組の当初予算額の合計（計（Ａ）${hit.raw}千円）が政策評価帳票「${tb.label}」の取組別の値と一致することを確認し、年度もその見出しによる。`);
-        p.warnings.push('「決算（見込）額」欄は決算額と見込額の区別がないため未収録。担当課は事業ごとに印字されないため未収録。');
+        p.warnings.push(RECORD_KESSAN_MIKOMI ? '決算額は「決算（見込）額」欄の値（決算額と見込額の区別が欄名にないが、決算額として扱った）。担当課は事業ごとに印字されないため未収録。' : '「決算（見込）額」欄は決算額と見込額の区別がないため未収録。担当課は事業ごとに印字されないため未収録。');
         out.push(p);
       }
     });
