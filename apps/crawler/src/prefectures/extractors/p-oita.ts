@@ -57,11 +57,12 @@ function extractOne(input: CachedInput): ProjectEvaluation[] {
       const b = pg.slice(budgets[i]);
       const m1 = SHAPE1.exec(b), m2 = m1 ? null : SHAPE2.exec(b);
       const at = ps + budgets[i];
-      const aligned = m1 && num(m1[3]) <= num(m1[1]) ? { budget: m1[1], actual: m1[3] } : m2 && num(m2[1]) - num(m2[3]) === num(m2[2]) ? { budget: m2[1], actual: m2[2] } : null;
+      const aligned = m1 ? { budget: m1[1], actual: m1[3] } : m2 && num(m2[1]) - num(m2[3]) === num(m2[2]) ? { budget: m2[1], actual: m2[2] } : null;
       if (UNIT && aligned) {
         const raw = (m1 ?? m2)![0].trimEnd();
         p.amounts.push(amount(input, 'budget', 2025, aligned.budget, UNIT, raw, at), amount(input, 'actual', 2025, aligned.actual, UNIT, raw, at));
         p.warnings.push('予算額・決算額は個票の欄の値。単位は抽出テキストに印字されていないため千円とみなした。');
+        if (num(aligned.actual) > num(aligned.budget)) p.warnings.push('決算額が予算額を上回る（原文どおり収録。決算を正とする）。');
       } else if (aligned) p.warnings.push(`予算額・決算額欄の値（予算額 ${aligned.budget}、決算額 ${aligned.actual}）は欄名との対応を確認できたが、金額の単位が抽出テキストに印字されていないため金額は未収録。`);
       else p.warnings.push('予算額・決算額の欄名と値の並びが抽出テキストで確定しないため金額は未収録。');
       p.warnings.push('別冊２「主要な施策の成果（事務事業評価）令和7年度実績」の個票。担当課は個票の担当課欄。');

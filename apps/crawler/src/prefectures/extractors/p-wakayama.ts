@@ -40,7 +40,6 @@ function extractWakayama(input: CachedInput): ProjectEvaluation[] {
       || isNum(before) && (isNum(prevLines.at(-2) ?? '') || prevLines.at(-2) === '翌年度繰越額'); // 前の事業の金額2列（または繰越額）が完結
     const next = m[5].trim();
     if (!prevOk || new RegExp(`^${N}$`).test(next)) continue;
-    if (num(m[4]) > num(m[3])) continue; // 決算額が予算額を上回る並びは列の取り違えの可能性
     const name = m[2].trim(), at = m.index! + 1;
     const k = [...ka].reverse().find(x => x.at < at);
     const b = [...bu].reverse().find(x => x.at < at);
@@ -54,6 +53,7 @@ function extractWakayama(input: CachedInput): ProjectEvaluation[] {
     p.evaluatedFiscalYear = fy;
     p.evidence.push(evidence(input, title[0], title.index), evidence(input, UNIT, unitAt));
     p.amounts.push(amount(input, 'budget', fy, m[3], '千円', raw, at), amount(input, 'actual', fy, m[4], '千円', raw, at));
+    if (num(m[4]) > num(m[3])) p.warnings.push('決算額が予算額を上回る（原文どおり収録。決算を正とする）。');
     if (k) {
       const buName = k.bu ?? (b && b.at < k.at ? b.name : null);
       p.department = buName ? `${buName} ${k.name}` : k.name;

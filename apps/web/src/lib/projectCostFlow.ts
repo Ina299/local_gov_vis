@@ -1,18 +1,23 @@
 /**
- * 事業コストの流れ（収録できた事業の決算額 → 部局 → 事業）の集計とレイアウト。
+ * 事業コストの流れ（収録できた事業の決算額または予算額 → 部局 → 事業）の集計とレイアウト。
  * 評価の事業別金額は決算書の款・項・目と結びつかないため、収支図とは独立した図にする。
- * 合計は「収録できた事業の決算額」であり、歳出総額ではない。
+ * 合計は「収録できた事業の決算額（予算額）」であり、歳出総額ではない。決算額と予算額は別の図として切り替える（混ぜない）。
  */
 import type { ProjectEvaluation } from '@/types/evaluation';
 
+/** 図にする金額の区分。決算額を正とし、予算額は計画として別に見る */
+export type FlowKind = 'actual' | 'budget';
+export const FLOW_KIND_LABEL: Record<FlowKind, string> = { actual: '決算額', budget: '予算額' };
+
 export interface FlowProject { key: string; name: string; department: string; group: string; amount: number; records: number }
 export interface CostFlowYear {
+  kind: FlowKind;
   fiscalYear: number;
   projects: FlowProject[];
   total: number;
-  /** 同じ事業の再掲で決算額が食い違い、集計から外した事業数 */
+  /** 同じ事業の再掲で金額が食い違い、集計から外した事業数 */
   conflicting: number;
-  /** 1 つの記録に同じ年度の決算額が複数あり、どれか決められず外した記録数 */
+  /** 1 つの記録に同じ年度・同じ区分の金額が複数あり、どれか決められず外した記録数 */
   ambiguous: number;
 }
 
@@ -28,14 +33,14 @@ export function departmentGroup(department: string | null): string {
   return m ? m[1] : first;
 }
 
-/** 決算額（actual）が年度ごとに 1 つに決まる事業だけを、事業名＋所管で重複なく集計する */
-export function costFlowYears(projects: ProjectEvaluation[], minimumProjects = 5): CostFlowYear[] {
+/** 決算額（actual）または予算額（budget）が年度ごとに 1 つに決まる事業だけを、事業名＋所管で重複なく集計する */
+export function costFlowYears(projects: ProjectEvaluation[], minimumProjects = 5, kind: FlowKind = 'actual'): CostFlowYear[] {
   const byYear = new Map<number, Map<string, { name: string; department: string; amounts: Set<number>; records: number }>>();
   const ambiguous = new Map<number, number>();
   for (const p of projects) {
     const perYear = new Map<number, Set<number>>();
     for (const a of p.amounts) {
-      if (a.kind !== 'actual' || a.fiscalYear === null || a.amountYen === null || a.amountYen <= 0) continue;
+      if (a.kind !== kind || a.fiscalYear === null || a.amountYen === null || a.amountYen <= 0) continue;
       perYear.set(a.fiscalYear, (perYear.get(a.fiscalYear) ?? new Set()).add(a.amountYen));
     }
     for (const [year, values] of Array.from(perYear)) {
@@ -57,9 +62,15 @@ export function costFlowYears(projects: ProjectEvaluation[], minimumProjects = 5
     }
     if (flow.length < minimumProjects) continue;
     flow.sort((a, b) => b.amount - a.amount || a.name.localeCompare(b.name, 'ja'));
-    years.push({ fiscalYear, projects: flow, total: flow.reduce((s, p) => s + p.amount, 0), conflicting, ambiguous: ambiguous.get(fiscalYear) ?? 0 });
+    years.push({ kind, fiscalYear, projects: flow, total: flow.reduce((s, p) => s + p.amount, 0), conflicting, ambiguous: ambiguous.get(fiscalYear) ?? 0 });
   }
   return years.sort((a, b) => b.fiscalYear - a.fiscalYear);
+}
+
+/** 図を出せる区分（決算額を優先）。どちらもなければ null */
+export function defaultFlowKind(projects: ProjectEvaluation[]): FlowKind | null {
+  if (costFlowYears(projects, 5, 'actual').length) return 'actual';
+  return costFlowYears(projects, 5, 'budget').length ? 'budget' : null;
 }
 
 /** 事業数が最も多い年度（同数なら新しい年度） */
@@ -124,7 +135,7 @@ export function costFlowLayout(year: CostFlowYear, maxGroups = 10, maxProjects =
     for (const n of column) { n.h = n.amount * unit; n.y = y; y += n.h + FLOW.gap; }
     return y - FLOW.gap;
   };
-  const root: FlowNode = { key: 'root', label: '収録できた事業の決算額', amount: year.total, count: year.projects.length, column: 0, y: FLOW.top, h: year.total * unit };
+  const root: FlowNode = { key: 'root', label: `収録できた事業の${FLOW_KIND_LABEL[year.kind]}`, amount: year.total, count: year.projects.length, column: 0, y: FLOW.top, h: year.total * unit };
   const bottom = Math.max(place(mids), place(rights), root.y + root.h);
   const ribbons: FlowRibbon[] = [];
   let ry = root.y;

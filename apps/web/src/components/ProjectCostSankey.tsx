@@ -5,7 +5,7 @@ import type { ProjectEvaluation } from '@/types/evaluation';
 import { formatAmount } from '@/lib/format';
 import { EXP_COLOR, ribbonPath } from '@/lib/sankey';
 import { COST_FLOW_ANCHOR, loadBudgetTotals } from '@/lib/evaluationCoverage';
-import { FLOW, budgetContext, costFlowLayout, costFlowYears, defaultFlowYear, type FlowNode } from '@/lib/projectCostFlow';
+import { FLOW, FLOW_KIND_LABEL, budgetContext, costFlowLayout, costFlowYears, defaultFlowYear, type FlowKind, type FlowNode } from '@/lib/projectCostFlow';
 
 const LABEL_SPACING = 13;
 const shorten = (s: string, n: number) => (Array.from(s).length > n ? `${Array.from(s).slice(0, n - 1).join('')}…` : s);
@@ -17,7 +17,7 @@ function labelYs(nodes: FlowNode[]): Map<string, number> {
   return out;
 }
 
-/** 収録できた事業の決算額 → 部局 → 事業。合計は歳出総額ではない */
+/** 収録できた事業の決算額（または予算額）→ 部局 → 事業。合計は歳出総額ではない */
 const REST_COLOR = '#d9dde3';
 
 export function ProjectCostSankey({ projects, municipalityCode, municipalityName, onSelectProject }: {
@@ -33,9 +33,15 @@ export function ProjectCostSankey({ projects, municipalityCode, municipalityName
     loadBudgetTotals().then((file) => { if (live) setTotals(file.totals[key] ?? {}); }).catch(() => { if (live) setTotalsFailed(true); });
     return () => { live = false; };
   }, [municipalityCode]);
-  const years = useMemo(() => costFlowYears(projects), [projects]);
+  // 決算額を正として既定にし、予算額は別の図として切り替える（両方あるときだけ切り替えを出す）
+  const actualYears = useMemo(() => costFlowYears(projects, 5, 'actual'), [projects]);
+  const budgetYears = useMemo(() => costFlowYears(projects, 5, 'budget'), [projects]);
+  const [chosenKind, setChosenKind] = useState<FlowKind | null>(null);
+  const kind: FlowKind = chosenKind ?? (actualYears.length || !budgetYears.length ? 'actual' : 'budget');
+  const years = kind === 'actual' ? actualYears : budgetYears;
+  const kindLabel = FLOW_KIND_LABEL[kind];
   const [chosen, setChosen] = useState<number | null>(null);
-  const fiscalYear = chosen ?? defaultFlowYear(years);
+  const fiscalYear = chosen !== null && years.some((y) => y.fiscalYear === chosen) ? chosen : defaultFlowYear(years);
   const year = years.find((y) => y.fiscalYear === fiscalYear) ?? null;
   const layout = useMemo(() => (year ? costFlowLayout(year) : null), [year]);
   const [hover, setHover] = useState<{ key: string; x: number; y: number; text: string } | null>(null);
@@ -70,7 +76,12 @@ export function ProjectCostSankey({ projects, municipalityCode, municipalityName
   return (
     <section id={COST_FLOW_ANCHOR} ref={sectionRef} className="evaluation-cost-flow" aria-labelledby="evaluation-cost-flow-title">
       <div className="evaluation-section-heading">
-        <h3 id="evaluation-cost-flow-title">事業コストの流れ（{fiscalYear}年度決算）</h3>
+        <h3 id="evaluation-cost-flow-title">事業コストの流れ（{fiscalYear}年度{kind === 'actual' ? '決算' : '予算'}）</h3>
+        {actualYears.length > 0 && budgetYears.length > 0 && <div className="comparison-segmented" role="group" aria-label="金額の区分">
+          {(['actual', 'budget'] as const).map((k) => (
+            <button key={k} type="button" className={kind === k ? 'active' : ''} aria-pressed={kind === k} onClick={() => setChosenKind(k)}>{FLOW_KIND_LABEL[k]}</button>
+          ))}
+        </div>}
         <label className="evaluation-cost-flow-year">年度
           <select value={fiscalYear ?? ''} onChange={(e) => setChosen(Number(e.target.value))}>
             {years.map((y) => <option key={y.fiscalYear} value={y.fiscalYear}>{y.fiscalYear}年度（{y.projects.length.toLocaleString()}事業）</option>)}
@@ -78,19 +89,20 @@ export function ProjectCostSankey({ projects, municipalityCode, municipalityName
         </label>
       </div>
       <p className="evaluation-muted">
-        {municipalityName}の評価資料から決算額を読み取れた{year.projects.length.toLocaleString()}事業の合計 {formatAmount(year.total)} を、所管の部局ごとに分けています。
+        {municipalityName}の評価資料から{kindLabel}を読み取れた{year.projects.length.toLocaleString()}事業の合計 {formatAmount(year.total)} を、所管の部局ごとに分けています。
         <strong>歳出総額ではありません。</strong>収録できた事業だけの合計で、人件費等の別建ての費用は含みません。地図の収支図（款・項）とは別の集計で、対応関係はありません。
-        {(year.conflicting > 0 || year.ambiguous > 0) && <> 同じ事業の再掲で金額が食い違う{year.conflicting}事業と、同じ年度の決算額が一つに決まらない{year.ambiguous}件は除いています。</>}
+        {kind === 'budget' && <> 予算額は計画の値で、実際に使われた額（決算額）とは異なります。資料により当初予算・最終予算などの違いがあります。</>}
+        {(year.conflicting > 0 || year.ambiguous > 0) && <> 同じ事業の再掲で金額が食い違う{year.conflicting}事業と、同じ年度の{kindLabel}が一つに決まらない{year.ambiguous}件は除いています。</>}
       </p>
       {context ? <p className="evaluation-muted">
-        全体の規模として、{fiscalYear}年度の歳出総額（決算）{formatAmount(context.total)}を左端に置いています。収録できた事業はその{pct(context.ratio)}で、色付きの部分を右に拡大して描いています（拡大の前後で縮尺は異なります）。
+        全体の規模として、{fiscalYear}年度の歳出総額（決算）{formatAmount(context.total)}を左端に置いています。収録できた事業の{kindLabel}はその{pct(context.ratio)}にあたり、色付きの部分を右に拡大して描いています（拡大の前後で縮尺は異なります）。{kind === 'budget' && '歳出総額は決算のため、予算額との割合は目安です。'}
       </p> : (totals || totalsFailed) && <p className="evaluation-muted">
         {totalsFailed ? '歳出総額（決算）を読み込めなかったため、全体の規模は表示していません。'
-          : year.total > (totals?.[String(fiscalYear)] ?? Infinity) ? `収録できた事業の合計が${fiscalYear}年度の歳出総額（決算）を上回るため、全体との比較は表示していません（年度の対応が資料とずれている可能性があります）。`
+          : year.total > (totals?.[String(fiscalYear)] ?? Infinity) ? `収録できた事業の${kindLabel}の合計が${fiscalYear}年度の歳出総額（決算）を上回るため、全体との比較は表示していません（年度の対応が資料とずれている可能性があります）。`
           : `${fiscalYear}年度の歳出総額（決算）はまだ収録していないため、全体の規模は表示していません${totalYears.length ? `（収録は${totalYears[0]}〜${totalYears[totalYears.length - 1]}年度）` : ''}。`}
       </p>}
       <div className="evaluation-cost-flow-chart" onMouseLeave={() => setHover(null)}>
-        <svg viewBox={`0 0 ${FLOW.width} ${height}`} role="img" aria-label={`${municipalityName}の${fiscalYear}年度 事業コストの流れ`}>
+        <svg viewBox={`0 0 ${FLOW.width} ${height}`} role="img" aria-label={`${municipalityName}の${fiscalYear}年度 事業コストの流れ（${kindLabel}）`}>
           {context && <g>
             {/* 拡大の扇: 歳出総額の中の収録分を、右の「収録できた事業」の高さに引き伸ばして見せる（同じ縮尺ではない） */}
             <path d={`M${FLOW.budgetX + FLOW.nodeW},${FLOW.top} L${FLOW.x[0]},${FLOW.top} L${FLOW.x[0]},${layout.nodes[0].y + layout.nodes[0].h} L${FLOW.budgetX + FLOW.nodeW},${FLOW.top + slice} Z`}
@@ -98,9 +110,9 @@ export function ProjectCostSankey({ projects, municipalityCode, municipalityName
             <rect x={FLOW.budgetX} y={FLOW.top + slice} width={FLOW.nodeW} height={barH - slice} fill={REST_COLOR} rx={2}
               onMouseMove={show('budget', `歳出総額（${fiscalYear}年度決算）
 ${formatAmount(context.total)}
-うち評価資料から事業別の決算額を読み取れたのは ${formatAmount(year.total)}（${pct(context.ratio)}）`)} />
+うち評価資料から事業別の{kindLabel}を読み取れたのは ${formatAmount(year.total)}（${pct(context.ratio)}）`)} />
             <rect x={FLOW.budgetX} y={FLOW.top} width={FLOW.nodeW} height={slice} fill={EXP_COLOR} rx={1}
-              onMouseMove={show('budget', `収録できた事業 ${formatAmount(year.total)}
+              onMouseMove={show('budget', `収録できた事業の${kindLabel} ${formatAmount(year.total)}
 歳出総額 ${formatAmount(context.total)} の ${pct(context.ratio)}`)} />
             <text x={FLOW.budgetX + FLOW.nodeW + 6} y={FLOW.top + barH - 34} fontSize={12} fill="#1a1a2e" fontWeight={600}>歳出総額（決算）</text>
             <text x={FLOW.budgetX + FLOW.nodeW + 6} y={FLOW.top + barH - 18} fontSize={12} fill="#1a1a2e">{formatAmount(context.total)}</text>
@@ -148,7 +160,7 @@ ${formatAmount(context.total)}
       <details className="evaluation-cost-flow-table">
         <summary>表で見る（部局別・上位事業）</summary>
         <table>
-          <thead><tr><th scope="col">部局・事業</th><th scope="col">決算額</th><th scope="col">構成比</th><th scope="col">事業数</th></tr></thead>
+          <thead><tr><th scope="col">部局・事業</th><th scope="col">{kindLabel}</th><th scope="col">構成比</th><th scope="col">事業数</th></tr></thead>
           <tbody>
             {mids.map((m) => <tr key={m.key}><th scope="row">{m.label}</th><td>{formatAmount(m.amount)}</td><td>{share(m.amount)}</td><td>{m.count.toLocaleString()}</td></tr>)}
           </tbody>

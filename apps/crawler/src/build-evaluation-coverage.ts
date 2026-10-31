@@ -20,6 +20,11 @@ import { readdir } from 'node:fs/promises';
 // web 側は CommonJS として読み込まれるため、名前付き export は default 経由になることがある
 const interop = <T,>(m: T) => ((m as { default?: unknown }).default ?? m) as T;
 const { costFlowYears, defaultFlowYear } = interop(flowLib);
+// 事業コストの流れ: 決算額の図を優先し、なければ予算額の図（画面の既定と同じ）
+const flowYearsOf = (projects: EvaluationDataset['projects']) => {
+  const actual = costFlowYears(projects, 5, 'actual');
+  return actual.length ? actual : costFlowYears(projects, 5, 'budget');
+};
 const { COVERAGE_LEVELS } = interop(coverageLib);
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '../../..');
@@ -39,7 +44,7 @@ for (const entry of [...evidence.municipalities].sort((a, b) => a.municipalityCo
   const datasetPath = datasets.get(code);
   if (datasetPath) {
     const dataset = await readJson<EvaluationDataset>(join(publicDir, datasetPath));
-    const years = costFlowYears(dataset.projects);
+    const years = flowYearsOf(dataset.projects);
     flowYear = defaultFlowYear(years) ?? undefined;
     level = years.length ? 0 : 1;
   } else if (entry.substantiveTextDocumentCount > 0) level = 2;
@@ -59,7 +64,7 @@ for (const entry of prefectureIndex?.municipalities ?? []) {
   let flowYear: number | undefined;
   const row = prefectureStructured?.municipalities.find((m) => m.municipalityCode === entry.municipalityCode && m.dataStatus === 'primary_available' && m.datasetPath);
   if (row) {
-    const years = costFlowYears((await readJson<EvaluationDataset>(join(publicDir, row.datasetPath!))).projects);
+    const years = flowYearsOf((await readJson<EvaluationDataset>(join(publicDir, row.datasetPath!))).projects);
     flowYear = defaultFlowYear(years) ?? undefined;
     level = years.length ? 0 : 1;
   }

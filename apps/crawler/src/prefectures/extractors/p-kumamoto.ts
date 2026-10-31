@@ -30,7 +30,6 @@ function extractKumamoto(input: CachedInput): ProjectEvaluation[] {
   const count = new Map<string, number>();
   for (const m of t.matchAll(ROW)) {
     const at = m.index! + 1;
-    if (num(m[3]) > num(m[2])) continue; // 決算額が予算額を上回る並びは列の取り違えの可能性
     const first = m[4].trim();
     if (/再掲/.test(first)) continue; // 再掲の事業から始まる欄は他の欄と金額が重複しうる
     const head = [...heads].reverse().find(h => h.at < at);
@@ -48,6 +47,7 @@ function extractKumamoto(input: CachedInput): ProjectEvaluation[] {
     p.evaluatedFiscalYear = fy;
     p.evidence.push(evidence(input, head.raw, head.at), evidence(input, intro[0], intro.index), evidence(input, '（単位：千円）', unit));
     p.amounts.push(amount(input, 'budget', fy, m[2], '千円', raw, at), amount(input, 'actual', fy, m[3], '千円', raw, at));
+    if (num(m[3]) > num(m[2])) p.warnings.push('決算額が予算額を上回る（原文どおり収録。決算を正とする）。');
     p.warnings.push(`金額は「主要な施策」欄（総合戦略の施策）単位の予算額・決算額（千円）で、欄内に掲げた主要事業（最初の事業: ${first}）の個別金額は原文に記載がない。決算年度は「令和${fy - 2018}年度における主要な施策の成果」による。`);
     if (name !== printed) p.warnings.push(`施策名が抽出テキストで途中まで（「${printed}」）のため、同じ文書に印字された同じ書き出しの施策名で補った。`);
     out.push(p);

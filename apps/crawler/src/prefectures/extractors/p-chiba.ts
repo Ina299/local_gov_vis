@@ -14,8 +14,8 @@ import { acrossDocuments, amount, nfkc, num, type Entry } from '../../evaluation
 
 /** 決算（見込）額を actual として収録するか（見込額を含みうる欄。利用者の判断で収録する）。 */
 const RECORD_KESSAN_MIKOMI = true;
-/** 決算（見込）額が当初予算額のこの倍数を超える行は、決算額を収録しない（原表の桁の誤記対策）。 */
-const MAX_ACTUAL_RATIO = 3;
+/** 決算（見込）額が当初予算額のこの倍数を超える行に注記を付ける（収録はする）。 */
+const NOTE_ACTUAL_RATIO = 3;
 
 const N = String.raw`\d{1,3}(?:,\d{3})*`;
 const CODE = /施策\n(?:取組\n番号\n)?\n([ⅠⅡⅢⅣⅤⅥⅦ]－[０-９]+－[①-⑳])/g;
@@ -98,10 +98,9 @@ function one(input: CachedInput, inputs: CachedInput[]): ProjectEvaluation[] {
         p.evaluatedFiscalYear = tb.fy;
         p.evidence.push(evidence(input, sec.code, codeAt), evidence(tb.input, tb.label, tb.labelStart), evidence(tb.input, hit.raw, hit.start));
         if (num(budget) > 0) p.amounts.push(amount(input, 'budget', tb.fy, budget, '千円', raw, start));
-        // 決算（見込）額が当初予算額の3倍を超える行は桁の誤記の疑い（例: 予算 5,000 に対し 4,869,999）があるため収録しない
-        const overrun = num(budget) > 0 && m[5] !== undefined && num(m[5]) > num(budget) * MAX_ACTUAL_RATIO;
-        if (RECORD_KESSAN_MIKOMI && m[5] && num(m[5]) > 0 && !overrun) p.amounts.push(amount(input, 'actual', tb.fy, m[5], '千円', raw, start));
-        if (RECORD_KESSAN_MIKOMI && overrun) p.warnings.push(`決算（見込）額 ${m[5]} が当初予算額 ${budget} の${MAX_ACTUAL_RATIO}倍を超え、桁の誤記の疑いがあるため決算額は未収録。`);
+        // 決算（見込）額は当初予算額と大きく離れていても原表どおり収録する（決算を正とする）。離れが大きい行は注記だけ残す
+        if (RECORD_KESSAN_MIKOMI && m[5] && num(m[5]) > 0) p.amounts.push(amount(input, 'actual', tb.fy, m[5], '千円', raw, start));
+        if (RECORD_KESSAN_MIKOMI && m[5] && num(budget) > 0 && num(m[5]) > num(budget) * NOTE_ACTUAL_RATIO) p.warnings.push(`決算（見込）額 ${m[5]} は当初予算額 ${budget} の${NOTE_ACTUAL_RATIO}倍を超える（原表の値のまま収録）。`);
         p.warnings.push(`当初予算額は事業整理票の行（予算事業名→会計→当初予算額が連続）から。施策${sec.code}のこの取組の当初予算額の合計（計（Ａ）${hit.raw}千円）が政策評価帳票「${tb.label}」の取組別の値と一致することを確認し、年度もその見出しによる。`);
         p.warnings.push(RECORD_KESSAN_MIKOMI ? '決算額は「決算（見込）額」欄の値（決算額と見込額の区別が欄名にないが、決算額として扱った）。担当課は事業ごとに印字されないため未収録。' : '「決算（見込）額」欄は決算額と見込額の区別がないため未収録。担当課は事業ごとに印字されないため未収録。');
         out.push(p);

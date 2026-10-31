@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { EvaluationEvidence, ProjectEvaluation } from '@/types/evaluation';
-import { budgetContext, costFlowLayout, costFlowYears, defaultFlowYear, departmentGroup } from './projectCostFlow';
+import { budgetContext, costFlowLayout, costFlowYears, defaultFlowKind, defaultFlowYear, departmentGroup } from './projectCostFlow';
 
 const ev: EvaluationEvidence = { sourceUrl: 'https://example.lg.jp/a.pdf', sourcePageUrl: 'https://example.lg.jp/a.pdf', format: 'pdf', fetchedAt: '2026-10-01T00:00:00Z',
   sha256: 'a'.repeat(64), rawText: 'x', page: null, sheet: null, cell: null };
@@ -41,6 +41,17 @@ describe('project cost flow', () => {
     expect(y2024.ambiguous).toBe(1);
     expect(costFlowYears(projects).some((y) => y.fiscalYear === 2023)).toBe(false); // fewer than 5 businesses
     expect(defaultFlowYear(costFlowYears(projects))).toBe(2024);
+  });
+
+  it('builds the budget view separately and prefers actuals by default', () => {
+    const budgets = Array.from({ length: 5 }, (_, i) => record(`予算${i}`, '総務部', [['budget', 2025, 100 + i], ['actual', 2025, 50]]));
+    const [b2025] = costFlowYears(budgets, 5, 'budget');
+    expect(b2025.kind).toBe('budget');
+    expect(b2025.total).toBe(510);
+    expect(costFlowLayout(b2025).nodes[0].label).toBe('収録できた事業の予算額');
+    expect(defaultFlowKind(budgets)).toBe('actual');
+    expect(defaultFlowKind(budgets.map((p) => ({ ...p, amounts: p.amounts.filter((a) => a.kind === 'budget') })))).toBe('budget');
+    expect(defaultFlowKind([])).toBeNull();
   });
 
   it('keeps every amount: root equals departments equals the right column, and ribbons conserve flow', () => {
