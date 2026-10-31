@@ -222,7 +222,11 @@ export function MunicipalityEvaluations({ entry, loader, refreshIndex }: {
 }) {
   const [evaluationYear, setEvaluationYear] = useState('');
   const [fiscalYear, setFiscalYear] = useState('');
-  const [query, setQuery] = useState('');
+  // 収支図の「事業コストの流れ」から事業を選んで来たとき（?q=事業名）は、その事業で絞り込んで事業カードへ移る
+  const [query, setQuery] = useState(() => (typeof window === 'undefined' ? '' : new URLSearchParams(window.location.search).get('q') ?? ''));
+  useEffect(() => {
+    if (new URLSearchParams(window.location.search).get('q')) document.getElementById('evaluation-results-title')?.scrollIntoView({ block: 'start' });
+  }, []);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [retry, setRetry] = useState(0);
   const [load, setLoad] = useState<EvaluationLoadState<LoadedEvaluationShard>>({ status: 'loading' });

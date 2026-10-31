@@ -1,10 +1,11 @@
 'use client';
 
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { LocalGovBudget } from '@/types/budget';
 import { formatAmount } from '@/lib/format';
 import { dataUrl } from '@/lib/paths';
 import { evaluationEntryHref } from '@/lib/evaluationCoverage';
+import { EvaluationCostFlowModal } from './EvaluationCostFlowModal';
 import { GLOSSARY } from '@/lib/glossary';
 import { loadAverages, type BudgetAverages } from '@/lib/averages';
 import { MobileFlowMosaic } from '@/components/MobileFlowMosaic';
@@ -156,6 +157,8 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
   // 事業コストの流れ（サンキー）がある市区町村はその図へ、なければ資料一覧へ
   const hasCostFlow = budget.evaluationCoverage?.level === 0;
   const evaluationUrl = dataUrl(evaluationEntryHref(budget.code, budget.evaluationCoverage));
+  const [costFlowOpen, setCostFlowOpen] = useState(false);
+  const closeCostFlow = useCallback(() => setCostFlowOpen(false), []);
 
   return (
     <div className="modal-overlay" onClick={onClose}>
@@ -177,6 +180,8 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
             <a
               className="text-button"
               href={evaluationUrl}
+              // 事業コストの流れがあれば、評価ページへ移らずにこのモーダルの上へ重ねて開く
+              onClick={(e) => { if (hasCostFlow) { e.preventDefault(); setCostFlowOpen(true); } }}
               title={
                 hasCostFlow
                   ? '評価資料から読み取れた事業ごとの決算額を、部局別にたどる図を開きます。予算の款・項と個別事業は自動で対応付けません'
@@ -412,6 +417,7 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
               </div>
             );
           })()}
+        {costFlowOpen && <EvaluationCostFlowModal code={budget.code} name={budget.name} coverage={budget.evaluationCoverage} onClose={closeCostFlow} />}
       </div>
     </div>
   );
