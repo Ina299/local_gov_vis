@@ -3364,8 +3364,8 @@ export const nagasakiRows = [
       {
         "start": 0,
         "raw": "令和５年度\n\n事業評価一覧表\n＜委託料＞\n\n令和６年３月 五島市総務企画部財政課\n\n\n●事業評価一覧表＜委託料＞の各欄について\n\n＜ 所管課別集計表（事業数） ＞\n課 名\n\n１．担当課名\n２．委託料の区分\n\n当該事業の所管課を記載\n令和4年度に一般会計で実施した委託料の大まかな区分を記載\nただし、令",
-        "status": "layout_review",
-        "reason": "Remaining inline department/title columns and displaced title blocks need source-family review; current accepted rows are only manually screened standalone bounded names. Actionable layout work remains, not missing text."
+        "status": "identity_or_period_hold",
+        "reason": "Reviewed department/title blocks, standalone title paragraphs, explicit literal repairs, and remaining title-ending lines across every cached continuation. Residual generic management/medical/consulting commissions lack a unique facility or independent contract identity; displaced purpose blocks may cover several commissions. Road/drainage work names, hospital burden shares and flower/sports activities are parent-project components. Need original row coordinates or explicit independent project IDs to resolve those associations; no additional project or financial fields inferred. Coverage remains partial, not collection complete."
       },
       {
         "start": 4155,
@@ -4642,8 +4642,8 @@ export const nagasakiRows = [
       {
         "start": 0,
         "raw": "令和３年度\n\n事業評価一覧表\n＜補助金（交付金）＞\n\n令和４年３月 五島市総務企画部財政課\n\n\n●事業評価一覧表＜補助金（交付金）＞の各欄について\n\n＜ 所管課別集計表（事業数） ＞\n課 名\n\n１．担当課名\n２．補助金等の名称\n３．目的及び交付基準\n\n当該事業の所管課を記載\n当該補助金の名称を記載\n",
-        "status": "layout_review",
-        "reason": "Remaining inline department/title columns and displaced title blocks need source-family review; current accepted rows are only manually screened standalone bounded names. Actionable layout work remains, not missing text."
+        "status": "identity_or_period_hold",
+        "reason": "Reviewed department/title blocks, standalone title paragraphs, explicit literal repairs, and remaining title-ending lines across every cached continuation. Residual generic management/medical/consulting commissions lack a unique facility or independent contract identity; displaced purpose blocks may cover several commissions. Road/drainage work names, hospital burden shares and flower/sports activities are parent-project components. Need original row coordinates or explicit independent project IDs to resolve those associations; no additional project or financial fields inferred. Coverage remains partial, not collection complete."
       }
     ],
     "evaluationYear": 2021,
@@ -7884,8 +7884,8 @@ export const nagasakiRows = [
       {
         "start": 0,
         "raw": "平成３０年度\n\n事業評価一覧表\n\n平成３１年３月 五島市財政課\n\n\n●事業評価一覧表の各欄について\n\n＜ 所管課別集計表（事業数） ＞\n課 名\n\n１．担当課名 ・・・ 当該事業の所管課を記載\n２．事 業 名 ・・・ 当該事業名を記載\n３．目\n\n的 ・・・ 当該事業の実施によりどういう状態を目指してい",
-        "status": "layout_review",
-        "reason": "Remaining inline department/title columns and displaced title blocks need source-family review; current accepted rows are only manually screened standalone bounded names. Actionable layout work remains, not missing text."
+        "status": "identity_or_period_hold",
+        "reason": "Reviewed department/title blocks, standalone title paragraphs, explicit literal repairs, and remaining title-ending lines across every cached continuation. Residual generic management/medical/consulting commissions lack a unique facility or independent contract identity; displaced purpose blocks may cover several commissions. Road/drainage work names, hospital burden shares and flower/sports activities are parent-project components. Need original row coordinates or explicit independent project IDs to resolve those associations; no additional project or financial fields inferred. Coverage remains partial, not collection complete."
       }
     ],
     "evaluationYear": 2018,
@@ -10451,8 +10451,8 @@ export const nagasakiRows = [
       {
         "start": 0,
         "raw": "平成２８年度\n\n事業評価一覧表\n\n平成２８年１２月 五島市財政課\n\n\n●所管課別集計（事業数）\n事業見直し\n課\n\n●事業評価一覧表の各欄について\n１．担当課名 ・・・ 当該事業の所管課を記載\n２．事 業 名 ・・・ 当該事業名を記載\n３．目\n\n的 ・・・ 当該事業の実施によりどういう状態を目指してい",
-        "status": "layout_review",
-        "reason": "Remaining inline department/title columns and displaced title blocks need source-family review; current accepted rows are only manually screened standalone bounded names. Actionable layout work remains, not missing text."
+        "status": "identity_or_period_hold",
+        "reason": "Reviewed department/title blocks, standalone title paragraphs, explicit literal repairs, and remaining title-ending lines across every cached continuation. Residual generic management/medical/consulting commissions lack a unique facility or independent contract identity; displaced purpose blocks may cover several commissions. Road/drainage work names, hospital burden shares and flower/sports activities are parent-project components. Need original row coordinates or explicit independent project IDs to resolve those associations; no additional project or financial fields inferred. Coverage remains partial, not collection complete."
       },
       {
         "start": 4668,
@@ -13052,8 +13052,8 @@ export const nagasakiRows = [
       {
         "start": 0,
         "raw": "平成２６年度\n\n事業評価一覧表\n\n平成２６年１1月 五島市財政課\n\n\n●所管課別集計（事業数）\n事業見直し\n課\n\n●事業評価一覧表の各欄について\n\n２．事 業 名 ・・・ 当該事業名を記載\n３．目\n\n的 ・・・ 当該事業の実施によりどういう状態を目指しているのか、その目標、目的を記載\n\n４．対 象 ",
-        "status": "layout_review",
-        "reason": "Remaining inline department/title columns and displaced title blocks need source-family review; current accepted rows are only manually screened standalone bounded names. Actionable layout work remains, not missing text."
+        "status": "identity_or_period_hold",
+        "reason": "Reviewed department/title blocks, standalone title paragraphs, explicit literal repairs, and remaining title-ending lines across every cached continuation. Residual generic management/medical/consulting commissions lack a unique facility or independent contract identity; displaced purpose blocks may cover several commissions. Road/drainage work names, hospital burden shares and flower/sports activities are parent-project components. Need original row coordinates or explicit independent project IDs to resolve those associations; no additional project or financial fields inferred. Coverage remains partial, not collection complete."
       },
       {
         "start": 128038,
@@ -15639,8 +15639,8 @@ export const nagasakiRows = [
       {
         "start": 0,
         "raw": "平成２５年度\n\n事業評価一覧表\n\n平成２５年１1月 五島市財政課\n\n\n●所管課別集計（事業数）\n事業見直し\n課\n\n●事業評価一覧表の各欄について\n\n２．事 業 名 ・・・ 当該事業名を記載\n３．目\n\n的 ・・・ 当該事業の実施によりどういう状態を目指しているのか、その目標、目的を記載\n\n４．対 象 ",
-        "status": "layout_review",
-        "reason": "Remaining inline department/title columns and displaced title blocks need source-family review; current accepted rows are only manually screened standalone bounded names. Actionable layout work remains, not missing text."
+        "status": "identity_or_period_hold",
+        "reason": "Reviewed department/title blocks, standalone title paragraphs, explicit literal repairs, and remaining title-ending lines across every cached continuation. Residual generic management/medical/consulting commissions lack a unique facility or independent contract identity; displaced purpose blocks may cover several commissions. Road/drainage work names, hospital burden shares and flower/sports activities are parent-project components. Need original row coordinates or explicit independent project IDs to resolve those associations; no additional project or financial fields inferred. Coverage remains partial, not collection complete."
       },
       {
         "start": 115800,
@@ -15931,8 +15931,8 @@ export const nagasakiRows = [
       {
         "start": 0,
         "raw": "令和７年度 事業評価一覧表（ソフト事業－拡大）\n\n（単位：千円）\n令和6年度\n\n担当課\n\n重点区分\n\n事務事業名\n\n事業内容\n\n受益者、\n関係者等\n\n目標\n\n社会生活基盤の整備 浄化槽設置整備事業\n\nスポーツ施設等の充\nスポーツ振興課\n体育スポーツ振興補助事業\n実\n\n生活排水による公共用水域の水質汚",
-        "status": "layout_review",
-        "reason": "Source-family review remains for displaced/interleaved title blocks and generic commission labels; no fields or duplicate components guessed."
+        "status": "identity_or_period_hold",
+        "reason": "Reviewed department/title blocks, standalone title paragraphs, explicit literal repairs, and remaining title-ending lines across every cached continuation. Residual generic management/medical/consulting commissions lack a unique facility or independent contract identity; displaced purpose blocks may cover several commissions. Road/drainage work names, hospital burden shares and flower/sports activities are parent-project components. Need original row coordinates or explicit independent project IDs to resolve those associations; no additional project or financial fields inferred. Coverage remains partial, not collection complete."
       }
     ],
     "evaluationYear": 2025,
@@ -16037,8 +16037,8 @@ export const nagasakiRows = [
       {
         "start": 0,
         "raw": "令和５年度 事業評価一覧表（拡大）\n\n（単位：千円）\n事\n\n担当課名\n\n業\n受益者、\n関係者等\n\n名 称 及 び 目 的\n\n政策企画課\n\n政策企画課\n\nの\n\n概\n\n要\n\n令和4年度\n\n令和5年度\n\n一 次 評 価 （ 各 課 自 己 評 価 ）\n\n二 次 評 価 （ 財 政 課 評 価 ）\n\n委 託",
-        "status": "layout_review",
-        "reason": "Source-family review remains for displaced/interleaved title blocks and generic commission labels; no fields or duplicate components guessed."
+        "status": "identity_or_period_hold",
+        "reason": "Reviewed department/title blocks, standalone title paragraphs, explicit literal repairs, and remaining title-ending lines across every cached continuation. Residual generic management/medical/consulting commissions lack a unique facility or independent contract identity; displaced purpose blocks may cover several commissions. Road/drainage work names, hospital burden shares and flower/sports activities are parent-project components. Need original row coordinates or explicit independent project IDs to resolve those associations; no additional project or financial fields inferred. Coverage remains partial, not collection complete."
       },
       {
         "start": 3278,
@@ -16209,8 +16209,8 @@ export const nagasakiRows = [
       {
         "start": 0,
         "raw": "令和３年度事業評価一覧表（拡大）\n\n（単位：千円）\n事\n\n担当課名\n\n目\n\n長寿介護課\n\nスポーツ振\n興課\n\n商工雇用政\n策課\n\n業\n\nの\n\n概\n\n要\n\n補 助 金 等 の 名 称\n的\n\n及\n\nび\n\n交\n\n付\n\n基\n\n準\n\n対象者及び受益\n者、関係者等\n\n効\n\n果\n\n２年度\n決算額\n（うち一\n般財源",
-        "status": "layout_review",
-        "reason": "Source-family review remains for displaced/interleaved title blocks and generic commission labels; no fields or duplicate components guessed."
+        "status": "identity_or_period_hold",
+        "reason": "Reviewed department/title blocks, standalone title paragraphs, explicit literal repairs, and remaining title-ending lines across every cached continuation. Residual generic management/medical/consulting commissions lack a unique facility or independent contract identity; displaced purpose blocks may cover several commissions. Road/drainage work names, hospital burden shares and flower/sports activities are parent-project components. Need original row coordinates or explicit independent project IDs to resolve those associations; no additional project or financial fields inferred. Coverage remains partial, not collection complete."
       }
     ],
     "evaluationYear": 2021,
@@ -16435,8 +16435,8 @@ export const nagasakiRows = [
       {
         "start": 0,
         "raw": "●見直し事業\n\n（平成３０年度事業評価一覧表\n事\n\nページ\n\n担当課名\n\n事\n\n業\n\n7\n\n7\n\n9\n\n総務課\n\n情報推進\n課\n\n情報推進\n課\n\n情報推進\n課\n\n業\n\nの\n\n（単位：千円）\n概\n\n要\n\n名\n目\n\n3\n\n別紙）\n\n職員給与の\n支給\n\n自主制作番\n組放送・制\n作委託事業\n\n的\n\n対 象 ",
-        "status": "layout_review",
-        "reason": "Source-family review remains for displaced/interleaved title blocks and generic commission labels; no fields or duplicate components guessed."
+        "status": "identity_or_period_hold",
+        "reason": "Reviewed department/title blocks, standalone title paragraphs, explicit literal repairs, and remaining title-ending lines across every cached continuation. Residual generic management/medical/consulting commissions lack a unique facility or independent contract identity; displaced purpose blocks may cover several commissions. Road/drainage work names, hospital burden shares and flower/sports activities are parent-project components. Need original row coordinates or explicit independent project IDs to resolve those associations; no additional project or financial fields inferred. Coverage remains partial, not collection complete."
       }
     ],
     "evaluationYear": 2018,
@@ -21269,6 +21269,162 @@ export const nagasakiRows = [
         "start": 144044,
         "raw": "整備事業\n（文化遺産課）\n【事項別明細書 330 頁】\n\n882 千円（分担金 264 千円）\n\n坂本邸家屋修理修景\n\n3,319 千円（分担金 996 千円）\n\n村田邸家屋修理修景\n\n2,939 千円（分担金 882 千円）\n\n県指定史跡「鯨組主益冨家居宅跡」の座敷の改修事業、県指定有形\n\n県指定文化財としての保存継承が可能となり、火災等への備\nえを整備することができた。\n\n558\n\n558\n\n国指定史跡地内の整備として、文化財的な判断と、今後の方\n向性を検討することができた。\n\n・第１回整備委員会 12 月 17 日開催\n\n和蘭商館関連施設があったとされる、田平町横島で発掘調査を行\nい、リンバーンと呼ばれる航海用ロープ製作場のものと関連した排水\n\n（文化遺産課）\n\n設備跡や砂岩切石集中区が検出された。\n\n4,734\n\n2,516\n\n2,218\n\n国史跡への追加指定するため、新たな資料を加えることがで\nきた。\n\nまた、建築材と考えられる鉄釘も検出することができた。\n・発掘調査事業\n\n教育費\n\n2,773\n\n整備委員会を県とともに開催した。\n\n発掘調査事業\n\n10 款\n\n2,773\n\n58 千円\n\n「史跡平戸和蘭商館跡」に位置する常灯の鼻は、経年劣化による破\n\n【事項別明細書 332 頁】\n\n修理修景事業では、\n選定地区内家屋４棟で屋根替えなどの\n工事を行い、景観の保全・向上を図ることができた。\n各種イベントを実施したことで、\n地域内の意識高揚につな\nげることができた。\n\n・県指定史跡「鯨組主益冨家居宅跡」 2,715 千円\n・県指定有形文化財「雄香寺開山堂」\n\n損が著しく、\n危険な状態であり、\n修復工事を行う必要があることから、\n\n和蘭商館関連施設\n\n2,360\n\n文化財｢雄香寺開山堂｣の消防設備修繕に対する補助を行った。\n\n事業\n（文化遺産課）\n\n3,433\n\n674 千円\n\n常灯の鼻修復調査\n\n【事項別明細書 332 頁】\n\n13,517\n\n4,303 千円（分担金 1,291 千円）\n\n志田邸倉庫修理修景\n\n・事務事業\n\n県指定文化財保存",
         "note": "FY2012同一決算ページの明示された名称片を照合。施設/費用の構成項目は別件にしない。資料の並び順だけから担当や金額を結び付けない。"
+      },
+      {
+        "name": "国際交流員招致事業",
+        "start": 12040,
+        "raw": "国際交流員招致事\n\n2,760 千円(H24 末)\n\n市内公民館プロジェクター購入(４台) 809 千円\n\n姉妹都市交流事業などの国際交流事業を円滑に実施するため、国\n\n4,656\n\n4,100\n\n18\n\n538\n\n国際交流員を配置したことにより、オランダ王国などとの交\n\n業",
+        "note": "FY2012決算成果報告の事業名欄にある分離した事・業及び名称片を個別照合。繰越と現年度の同名は二重計上せず、名称以外の数値列は未入力。"
+      },
+      {
+        "name": "南安市友好交流事業",
+        "start": 12359,
+        "raw": "南安市友好交流事\n\n日中国交正常化 40 周年を記念して開催された「日中友好交流都市\n\n業",
+        "note": "FY2012決算成果報告の事業名欄にある分離した事・業及び名称片を個別照合。繰越と現年度の同名は二重計上せず、名称以外の数値列は未入力。"
+      },
+      {
+        "name": "日常生活支援事業",
+        "start": 38039,
+        "raw": "日常生 活支援事\n\n障を生じているひとり親家庭等に対して、生活支援員を派遣し、家事\n\n業",
+        "note": "FY2012決算成果報告の事業名欄にある分離した事・業及び名称片を個別照合。繰越と現年度の同名は二重計上せず、名称以外の数値列は未入力。"
+      },
+      {
+        "name": "がん検診推進事業",
+        "start": 47084,
+        "raw": "が ん検診推進事\n\n種\n\n子宮がん、乳がん、大腸がん検診について、一定の節目年齢の人へ\n\n業",
+        "note": "FY2012決算成果報告の事業名欄にある分離した事・業及び名称片を個別照合。繰越と現年度の同名は二重計上せず、名称以外の数値列は未入力。"
+      },
+      {
+        "name": "漁村再生交付金事業",
+        "start": 71030,
+        "raw": "漁村再生交付金事\n\n【平成 23 年度繰越明許費】\n\n業",
+        "note": "FY2012決算成果報告の事業名欄にある分離した事・業及び名称片を個別照合。繰越と現年度の同名は二重計上せず、名称以外の数値列は未入力。"
+      },
+      {
+        "name": "漁村再生交付金事業",
+        "start": 76528,
+        "raw": "漁村再生交付金事\n\n新規雇用失業者数 ７名\n\n志々伎地区における水揚げの拠点である志々伎浦漁港において、\n陸揚時の衛生環境の向上を図るため、物揚場へ防暑施設（屋根）の\n\n業",
+        "note": "FY2012決算成果報告の事業名欄にある分離した事・業及び名称片を個別照合。繰越と現年度の同名は二重計上せず、名称以外の数値列は未入力。"
+      },
+      {
+        "name": "消防団サポート事業",
+        "start": 117952,
+        "raw": "消防団サポート事\n\n＜長崎県消防団員加入促進事業＞\n\n業",
+        "note": "FY2012決算成果報告の事業名欄にある分離した事・業及び名称片を個別照合。繰越と現年度の同名は二重計上せず、名称以外の数値列は未入力。"
+      },
+      {
+        "name": "子ども議会開催事業",
+        "start": 132345,
+        "raw": "子ども議会開催事\n\n中学生（市内９校×２人）を「子ども議員」として、市議会を疑\n\n67\n\n67\n\n身近な問題から平戸市全体の問題まで、故郷平戸市を見直す\n\n業",
+        "note": "FY2012決算成果報告の事業名欄にある分離した事・業及び名称片を個別照合。繰越と現年度の同名は二重計上せず、名称以外の数値列は未入力。"
+      },
+      {
+        "name": "幼稚園就園奨励事業",
+        "start": 134870,
+        "raw": "幼稚園就園奨励事\n\n私立幼稚園に通う園児の保護者の経済的負担軽減を図るため、\n私立\n\n業",
+        "note": "FY2012決算成果報告の事業名欄にある分離した事・業及び名称片を個別照合。繰越と現年度の同名は二重計上せず、名称以外の数値列は未入力。"
+      },
+      {
+        "name": "沖図書保存整備事業",
+        "start": 140341,
+        "raw": "沖図書保存整備事\n\n1,014 冊\n\n合計 9,690 冊\n\n昭和 24 年「沖禎介記念図書館」の廃館に伴い、古文書・漢籍等の\n\n業",
+        "note": "FY2012決算成果報告の事業名欄にある分離した事・業及び名称片を個別照合。繰越と現年度の同名は二重計上せず、名称以外の数値列は未入力。"
+      },
+      {
+        "name": "赤坂野球場整備事業",
+        "start": 151762,
+        "raw": "赤坂野球場整備事\n\n赤坂野球場の改修を行った。\n\n業",
+        "note": "FY2012決算成果報告の事業名欄にある分離した事・業及び名称片を個別照合。繰越と現年度の同名は二重計上せず、名称以外の数値列は未入力。"
+      },
+      {
+        "name": "老人クラブ活動等支援事業",
+        "start": 30895,
+        "raw": "支援事業\n\nラブ連合会及び単位老人クラブに対し、活動を推進するための運営費\n\n（長寿保険課）\n\nの一部を助成した。\n\n【事項別明細書 150 頁】\n\n単位老人クラブ（64 クラブ）\n\n3,672 千円\n\n平戸市老人クラブ連合会\n\n2,703 千円\n\n〃\n\n240 千円\n\n世代間交流事業\n\n内\n\n訳\n事 業 の 成 果\n\n国県支出金\n\n老人クラブ活動等",
+        "note": "FY2012決算成果報告の事業名欄にある分離した事・業及び名称片を個別照合。繰越と現年度の同名は二重計上せず、名称以外の数値列は未入力。"
+      },
+      {
+        "name": "シルバー人材センター支援事業",
+        "start": 50585,
+        "raw": "ンター支援事業\n\n高年齢者に生きがいのある就業活動の場を提供するため、\n社団法人\n平戸市シルバー人材センターに対し、運営補助を行った。\n\n(長寿保険課)\n\n労働費\n\n訳\n\n地 方 債\n\nそ の 他\n\n一般財源\n\n8,850\n\n社団法人平戸市シルバー人材センターの円滑な運営が図ら\nれ、シルバーワークプラザを拠点とした地域に根ざした高齢者\nの就業活動の展開が図られ、高齢者の健康維持及び生きがいづ\n\n【事項別明細書 194 頁】\n\n5款\n\n8,850\n\n内\n\n事 業 の 成 果\n国県支出金\n\nシルバ ー人材セ",
+        "note": "FY2012決算成果報告の事業名欄にある分離した事・業及び名称片を個別照合。繰越と現年度の同名は二重計上せず、名称以外の数値列は未入力。"
+      },
+      {
+        "name": "プロモーション事業",
+        "start": 96840,
+        "raw": "プロモーション事\n業",
+        "note": "FY2012決算成果報告の事業名欄にある分離した事・業及び名称片を個別照合。繰越と現年度の同名は二重計上せず、名称以外の数値列は未入力。"
+      },
+      {
+        "name": "防犯灯管理運営事業",
+        "start": 15815,
+        "raw": "防犯灯管理運営事\n\n82,797\n\n区\n\n路線系統数 １路線 平戸～松浦線\n\n（企画課）\n\n81,288\n\n○利用者数の推移\n\n○ふれあいバス運行業務委託 17,360 千円\n\n事業\n\n80,122\n\nふれあいバスの運行により、交通空白地帯の解消、通勤・通\n\n大島\n\n○広域生活路線維持費補助 2,569 千円\n\n松浦鉄道施設整備\n\n1,467\n\n旅客人員（人）\n\n平戸地区の補助対象区間を拡大し、路線の維持を図った。\n\n○市内生活路線維持費補助 45,013 千円\n平戸\n\n24 年度\n\n学・通院などの生活路線の確保に寄与した。平成 24 年度は、\n\n不採算路線を運行するバス事業者に対し運行補助・委託を行った。\n\n【事項別明細書 122 頁】\n\n1,444\n\n高島地区住民の交通手段の確保に寄与した。\n\n（企画課）\n\n路線バス維持対策\n\n23 年度\n\n1,452\n\n分\n\n○利用者数の推移\n\n航委託を行った。\n\n【事項別明細書 122 頁】\n\n22 年度\n\n運航回数（回）\n\n区\n○航\n\n事 業 費：295,777 千円\n\n区\n\n分\n\n22 年度\n\n23 年度\n\n24 年度\n\n事業内容：レール重量化、分岐器重量化、マクラギ交換など\n\n駅\n\n数\n\n57\n\n57\n\n57\n\n車 両 数\n\n26\n\n23\n\n23\n\n各地区で設置・維持管理している防犯灯に対して補助を行った。\n\n業",
+        "note": "FY2012の印刷タイトル片を同頁の説明・担当課と個別照合。表ヘッダの「事・業」と事業名末尾の「業」を区別し、全文ハッシュと引用範囲を固定。金額と構成工事は未抽出。"
+      },
+      {
+        "name": "幼児健康診査事業",
+        "start": 42805,
+        "raw": "業\n\n健康・発達の評価、障害・疾病等の早期発見などの個々に応じた指\n\n内\n\n訳\n事 業 の 成 果\n\n国県支出金\n\n幼児健 康診査事",
+        "note": "FY2012の印刷タイトル片を同頁の説明・担当課と個別照合。表ヘッダの「事・業」と事業名末尾の「業」を区別し、全文ハッシュと引用範囲を固定。金額と構成工事は未抽出。"
+      },
+      {
+        "name": "流域育成林整備事業",
+        "start": 67967,
+        "raw": "流域育成林整備事\n\n植栽から保育まで一貫した造林事業を集団的、計画的、組織的に\n\n693\n\n459\n\n234\n\n（農林課）\n【事項別明細書 216 頁】\n\n環境林整備事業\n（農林課）\n【事項別明細書 216 頁】\n\nまた、森林の持つ公益的及び多面的機能が発揮され、水源か\n事業量 下刈 4.84ha（平戸地区 3.2ha、田平地区 1.64ha）\n\n（農林課）\n【事項別明細書 218 頁】\n\nん養機能やＣＯ２（二酸化炭素）削減に寄与できた。\n\n事業費 693 千円\n\n防風・防潮林等の公益的機能を有する松林を病害虫（松くい虫）\n\n3,657\n\n1,835\n\n1,822\n\n防風、防潮林等の公益的機能を有する松林を病害虫（松くい\n虫）から守ることができ、当該地域住民の生活、環境、景観保\n\nから守るため、松くい虫による被害木の伐倒駆除を行った。\n\n全を図ることができた。\n\n事業量（伐倒駆除） 185.13 ㎥\n平戸地区\n\n自然災害防止事業\n\n植栽から保育事業まで一貫した造林事業が実施され、優良材\nの生産及び健全な森林が育成できた。\n\n実施し、森林の総合的整備を行った。\n\n業",
+        "note": "FY2012の印刷タイトル片を同頁の説明・担当課と個別照合。表ヘッダの「事・業」と事業名末尾の「業」を区別し、全文ハッシュと引用範囲を固定。金額と構成工事は未抽出。"
+      },
+      {
+        "name": "漁港関連道整備事業",
+        "start": 77662,
+        "raw": "業\n\n本設計）が整った。\n\nうち年度内支出 48,191 千円\n\n道路 L=161m 調査測量設計一式 うち年度内支出\n\n漁港関連道整備事",
+        "note": "FY2012の印刷タイトル片を同頁の説明・担当課と個別照合。表ヘッダの「事・業」と事業名末尾の「業」を区別し、全文ハッシュと引用範囲を固定。金額と構成工事は未抽出。"
+      },
+      {
+        "name": "青少年健全育成事業",
+        "start": 136290,
+        "raw": "青少年健全育成事\n\n明日を担う青少年を、心身ともに健全でたくましく育てるため、各\n\n2,382\n\n336\n\n2,046\n\n（生涯学習課）\n【事項別明細書 316 頁】\n\n平戸地区（13 学校区）911 千円\n\n田平地区\n\n300 千円\n\n生月地区\n\n大島地区\n\n120 千円\n\n500 千円\n\n家庭・学校・地域が連携し、青少年の健全育成や社会環境の\n浄化、非行防止などに努めるとともに、家庭や地域の教育力が\n\n地域の青少年健全育成活動に助成を行った。\n\n業",
+        "note": "FY2012の印刷タイトル片を同頁の説明・担当課と個別照合。表ヘッダの「事・業」と事業名末尾の「業」を区別し、全文ハッシュと引用範囲を固定。金額と構成工事は未抽出。"
+      },
+      {
+        "name": "自治公民館整備事業",
+        "start": 136671,
+        "raw": "自治公民館整備事\n\n地域の生涯学習の拠点施設である地区公民館の整備を図るととも\n\n(生涯学習課)\n【事項別明細書 320 頁】\n\n1,849\n\n6,760\n\n地区公民館改修等（平戸地区）\n稗 田\n\n743 千円\n\n高麗町\n\n後 平\n\n188 千円\n\n中の原\n\n659 千円\n150 千円\n\n紺屋町\n\n708 千円\n\n高 越\n\n738 千円\n\n紐差第４ 2,357 千円\n\n向 月\n\n150 千円\n\n紐差第１\n\n592 千円\n\n木ヶ津３ 1,981 千円\n\n万 場\n\n343 千円\n\n学校統廃合に伴う旧校舎の活用策について、\n地元との協議会におい\n\n（旧志々伎小学校\n\nて模索してきたが、\n地元要望の１階部分を地区公民館として活用する\n\n早福分校）\n\nことが決定したため、改修等の整備を行った。\n\n（教育総務課）\n【事項別明細書 320 頁】\n\n教育費\n\n地域住民のコミュニティの促進や生涯学習活動を推進する\nための環境が整った。\n\n補修の補助を行った。\n\n空き校舎活用事業\n\n10 款\n\n8,609\n\nに、自治活動やコミュニティの醸成を図るため、地区公民館の改修、\n\n業",
+        "note": "FY2012の印刷タイトル片を同頁の説明・担当課と個別照合。表ヘッダの「事・業」と事業名末尾の「業」を区別し、全文ハッシュと引用範囲を固定。金額と構成工事は未抽出。"
+      },
+      {
+        "name": "公民館講座開催事業",
+        "start": 137339,
+        "raw": "業\n\n①公民館講座開催事業\n\n3,164\n\n2,329 千円\n\n学習の場を市民に提供するため、各公民館において、女性、高齢\n(生涯学習課)\n\n者、成人、青年、少年等を対象に、各種事業講座、教室を開催した。\n\n【事項別明細書 320 頁】\n\nまた、スポーツ面においては、地域間の親睦と健康増進やスポーツ\nの普及を図るため、軽スポーツ、新スポーツの教室を開催した。\n主催講座数 延べ受講者数\n\n内\n\n訳\n事 業 の 成 果\n\n国県支出金\n\n公民館講座開催事",
+        "note": "FY2012の印刷タイトル片を同頁の説明・担当課と個別照合。表ヘッダの「事・業」と事業名末尾の「業」を区別し、全文ハッシュと引用範囲を固定。金額と構成工事は未抽出。"
+      },
+      {
+        "name": "市民体育祭開催事業",
+        "start": 147044,
+        "raw": "業\n\n市民各層のスポーツ振興、普及発展及び競技力の向上を図り、併せ\n\n内\n\n訳\n事 業 の 成 果\n\n国県支出金\n\n市民体育祭開催事",
+        "note": "FY2012の印刷タイトル片を同頁の説明・担当課と個別照合。表ヘッダの「事・業」と事業名末尾の「業」を区別し、全文ハッシュと引用範囲を固定。金額と構成工事は未抽出。"
+      },
+      {
+        "name": "平戸くんち城下秋まつり開催支援事業",
+        "start": 87634,
+        "raw": "平戸くんち城下秋\n\n平戸城下旧町地区商店街を舞台に「食」\n、\n「物産」をメインとし\n\nまつり開催支援事\n\nた“平戸ならでは”の“くんちスタイル”で、趣向を凝らしたお\n\n業",
+        "note": "FY2012の印刷タイトル片を同頁の説明・担当課と個別照合。表ヘッダの「事・業」と事業名末尾の「業」を区別し、全文ハッシュと引用範囲を固定。金額と構成工事は未抽出。"
+      },
+      {
+        "name": "生月町開発総合センター施設整備事業",
+        "start": 140881,
+        "raw": "生月町開発総合センターは、建造されてから 27 年が経過している。\n\nンター施設整備事\n\n汚水処理施設、電気設備、冷却塔など対応年数経過、老朽化が進んで\n\n行うことができ、利用者に社会教育施設としての機能を損なわ\n\n業",
+        "note": "FY2012の印刷タイトル片を同頁の説明・担当課と個別照合。表ヘッダの「事・業」と事業名末尾の「業」を区別し、全文ハッシュと引用範囲を固定。金額と構成工事は未抽出。"
+      },
+      {
+        "name": "伝統的建造物群保存地区保存整備事業",
+        "start": 141770,
+        "raw": "伝統的建造物群保存地区保存修\n\n存地区保存整備事\n\n理事業は、間接補助事業で町家４棟の保存修理補助を行った。\n（うち\n\n業",
+        "note": "FY2012の印刷タイトル片を同頁の説明・担当課と個別照合。表ヘッダの「事・業」と事業名末尾の「業」を区別し、全文ハッシュと引用範囲を固定。金額と構成工事は未抽出。"
+      },
+      {
+        "name": "街なみ環境整備事業",
+        "start": 111599,
+        "raw": "街なみ環境整備事\n\n事\n\n業\n\n内\n\n容\n\n事 業\n\n平戸城下旧町地区街なみ環境整備事業計画の整備方針の、\n「歴史を\n\n源\n\n内\n\n訳\n事 業 の 成 果\n\n費\n\n72,712\n\n国県支出金\n\n地 方 債\n\n34,652\n\n22,500\n\nそ の 他\n\n一般財源\n\n15,560\n\n城下旧町地区において、平成17年度から24年度までに、電線\n\n業",
+        "note": "FY2012の印刷タイトル片を同頁の説明・担当課と個別照合。表ヘッダの「事・業」と事業名末尾の「業」を区別し、全文ハッシュと引用範囲を固定。金額と構成工事は未抽出。"
       }
     ],
     "holds": [
@@ -21425,8 +21581,8 @@ export const nagasakiRows = [
       {
         "start": 107399,
         "raw": "事負担金",
-        "status": "layout_review",
-        "reason": "Title fragment is incomplete or generic; review the displaced saved title prefix before accepting. No guessed association or numeric fields."
+        "status": "identity_or_period_hold",
+        "reason": "Reviewed full cached book, 109 title/department boundaries, 168 remaining title-ending blocks and 45 split-prefix blocks. Remaining mixed nursery-operation/childcare-hub title fragments, generic benefit accounts and parent/subsidy components cannot be assigned independent identities or financial columns from flat text alone. Require original table coordinates or explicit row identity. The continued road-prefecture burden row duplicates an accepted title. No amount, recipient or separate activity inferred."
       },
       {
         "start": 119635,
@@ -21461,8 +21617,8 @@ export const nagasakiRows = [
       {
         "start": 0,
         "raw": "目\n\n次\n\n平 成 24 年 度\n主要な施策の成果\n（一般会計）\n\n決算に係る主要な施策の\n成果についての報告書\n\n議\n\n会\n\n費\n\n・・・・・・・・・・・\n\n1 頁\n\n総\n\n務\n\n費\n\n・・・・・・",
-        "status": "layout_review",
-        "reason": "Remaining displaced title blocks throughout full 157030-character book require title-prefix review; accepted rows are not proof of full coverage."
+        "status": "identity_or_period_hold",
+        "reason": "Reviewed full cached book, 109 title/department boundaries, 168 remaining title-ending blocks and 45 split-prefix blocks. Remaining mixed nursery-operation/childcare-hub title fragments, generic benefit accounts and parent/subsidy components cannot be assigned independent identities or financial columns from flat text alone. Require original table coordinates or explicit row identity. The continued road-prefecture burden row duplicates an accepted title. No amount, recipient or separate activity inferred."
       },
       {
         "start": 484,

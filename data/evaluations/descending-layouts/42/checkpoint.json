@@ -1,5 +1,5 @@
 {
-  "phase": "in_progress",
+  "phase": "bounded_cached_review_complete_validation_pending",
   "observedMaster": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
   "descendingRange": [
     "42411 新上五島町",
@@ -13,21 +13,21 @@
     "sources": 117,
     "hashVerifiedBodies": 97,
     "continuationParts": 7,
-    "candidateRecords": 3188,
-    "candidateMunicipalities": 13,
-    "duplicateOutputs": 1103,
+    "candidateRecords": 3212,
+    "candidateMunicipalities": 12,
+    "duplicateOutputs": 1105,
     "heldOutputs": 0,
     "productionRecordsAdded": 0,
     "existingFieldsChanged": 0,
     "municipalRequests": 0,
-    "layoutReviewedUnits": 3802,
-    "layoutActionableUnits": 12,
-    "layoutHeldUnits": 292,
+    "layoutReviewedUnits": 3828,
+    "layoutActionableUnits": 0,
+    "layoutHeldUnits": 304,
     "statuses": {
-      "duplicate": 33,
+      "duplicate": 34,
       "insufficient_evidence": 1,
       "navigation": 23,
-      "processed": 32,
+      "processed": 31,
       "missing_body": 20,
       "reviewed_literal_businesses": 8
     }
@@ -35,18 +35,20 @@
   "validation": {
     "focusedTests": "13/13 passed",
     "independent": {
-      "validatedCandidateRecords": 7351,
-      "validatedEvidence": 16053,
+      "validatedCandidateRecords": 7375,
+      "validatedEvidence": 16098,
       "productionRecordsAdded": 0
     },
-    "fullRegression": "pending; initial d32fa243 run intentionally stopped after prior-ID replacement was detected, not passed"
+    "fullRegression": "pending for final source-review head; superseded 3188 runs intentionally stopped, not passed"
   },
-  "remaining": "12 actionable review units remain (10 Goto, 2 Hirado). 20 missing bodies remain held. No publication or nationwide-completion claim.",
+  "remaining": "20 missing bodies, one incomplete source, and 304 explicit identity/period/component holds. No remaining actionable units in this bounded review; source coverage remains partial. Acquisition held pending original stop ledger. Nationwide task continues with Saga.",
   "preservation": {
     "prior2737Unchanged": true,
-    "addedCandidates": 451,
-    "existingFieldsChanged": 0,
-    "alternateFiscalYearEvidenceHeld": 4
+    "newCandidates": 475,
+    "existingFieldEnrichment": 0,
+    "baselineSaikaiRecordExcluded": 1,
+    "priorSupplementalIdentitiesPreserved": 4
   },
-  "previousValidatedCodeHead": "42f15dd632182af1cbfd3c817e05abd59bac4991"
+  "previousValidatedCodeHead": "42f15dd632182af1cbfd3c817e05abd59bac4991",
+  "reproduce": "python apps/crawler/scripts/descending-cache/build-nagasaki-map.py; node --import tsx apps/crawler/src/review-descending-cache.ts data/evaluations/descending-layouts/42/cohort.json data/evaluations/descending-layouts/42 data/evaluations/descending-offline; node --import tsx apps/crawler/src/validate-descending-cache.ts --layouts"
 }
