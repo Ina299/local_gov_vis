@@ -36,7 +36,7 @@ The coverage review contains additional manual findings and is preserved separat
 
 Validation: crawler full suite378/378 plus final focused14/14 (379 unique tests); Web256/256; final typecheck, lint and national verification pass. Static export with `/local_gov_vis` passed using build-only `optimizeFonts=false` to omit optional font download; original config bytes restored. One existing custom-font lint warning. All candidate citations independently validated. Logs accompany the local recovery artifact.
 
-## Miyazaki milestone (validation in progress)
+## Miyazaki milestone
 
 26 municipalities,67 sources:47 cached bodies hash-verified,45 complete,2 incomplete;20 absent bodies.813 additional candidates across7 municipalities:新富町765,諸塚村22,延岡市12,三股町8,椎葉村3,宮崎市2,美郷町1. Combined with Kagoshima this phase contains2,084 candidates and5,312 validated exact evidence references. No production changes.
 
@@ -45,3 +45,5 @@ Shintomi's five annual verification books contain numbered operational items, ex
 Miyazaki city's113-row new-proposal list is reviewed completely: six title variants are held against named existing IDs,105 entries are already represented, and two new entries are isolated.2025 is the assessment year; proposed2026 implementation is not treated as actual expenditure. Mimata's eight newspaper evaluation entries keep2013 assessment year and unknown execution year.
 
 All67 sources have dispositions in the source and coverage ledgers.20 absent bodies,2 incomplete bodies, the wrong Shintomi planning artifact, mixed-year benefits, six identity collisions, regional/shared-scope attribution and documents containing only population/aggregate/entity evaluations remain distinguished. Layout labels alone are not used as terminal reasons. Original access gates remain intact.
+
+Validation: crawler full suite382/382 and final focused4/4 (383 unique tests across runs); Web256/256; lint, typecheck and national verification passed. Static export with `/local_gov_vis` passed with the documented build-only optional-font setting and exact config restoration. These are local checks, not remote CI or publication.

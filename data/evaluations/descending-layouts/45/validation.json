@@ -19,8 +19,14 @@
     "configRestored": true,
     "configSha256": "a76ed78cade60cbad1191221a65c0977221e3281e708acb921626e58b6c69f6a"
   },
-  "crawlerFull": "running; not yet claimed passed",
+  "crawlerFull": {
+    "passed": 382,
+    "failed": 0,
+    "finalFocusedPassed": 4,
+    "uniqueTestsAcrossRuns": 383
+  },
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
-  "municipalRequests": 0
+  "municipalRequests": 0,
+  "nationalVerification": "passed"
 }
