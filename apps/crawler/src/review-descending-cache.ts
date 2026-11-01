@@ -1,3 +1,4 @@
+import {boundedSourceScope,reviewBoundedSource} from './evaluations/expansion/descending-bounded-review';
 import {cachedSourceFormat} from './evaluations/expansion/cached-source-format';
 /** Offline candidate audit. Never imports candidates into production or accesses source hosts. */
 import assert from 'node:assert/strict';
@@ -30,14 +31,16 @@ for(const c of cohort.municipalities){const mr=ei.municipalities.find((x:any)=>x
  const b=await readFile(join(base,s.text.assetPath));assert.equal(sha256(b),s.text.assetSha256);assert.equal(b.length,s.text.assetBytes);const d=JSON.parse(b.toString());assert.equal(d.sourceId,s.id);assert.equal(d.sourceUrl,s.url);assert.equal(d.municipalityCode,c.municipalityCode);assert.equal(d.sourceSha256,s.acquisition.sourceSha256);assert.equal(sha256(Buffer.from(d.text)),s.text.textSha256);assert.equal(d.textSha256,s.text.textSha256);
  for(const part of s.text.continuations??[]){const p=await read(join(base,part.assetPath));assert.equal(p.municipalityCode,c.municipalityCode);assert.equal(p.part,part.part);assert.equal(p.textSha256,part.textSha256);assert.equal(p.fullTextSha256,s.text.fullTextSha256);}
  const f=await fullText(base,s,d.text);row.fullTextSha256=sha256(Buffer.from(f.text));row.complete=f.complete;row.sourceSha256=d.sourceSha256;row.fetchedAt=s.acquisition.fetchedAt;row.continuationParts=(s.text.continuations??[]).length;
- if(!f.complete){row.status='insufficient_evidence';row.reason='Cached body has no complete continuation set; no extraction from incomplete input in this run';continue;}
- assert.equal([...f.text].length,s.text.characters);
+ if(!f.complete){row.cachedPrefixSha256=row.fullTextSha256;delete row.fullTextSha256;}
+ if(f.complete)assert.equal([...f.text].length,s.text.characters);
  const format=cachedSourceFormat(s,d);if(!format){row.status='format_evidence_hold';row.reason='Saved handler suffix is not a supported media type and saved extraction provenance does not establish the media format';continue;}
- inputs.push({...c,sourceId:s.id,sourceUrl:s.url,sourcePageUrl:s.url,sourceSha256:d.sourceSha256,fetchedAt:s.acquisition.fetchedAt,format,text:f.text,truncated:false});
+ const input:CachedInput={...c,sourceId:s.id,sourceUrl:s.url,sourcePageUrl:s.url,sourceSha256:d.sourceSha256,fetchedAt:s.acquisition.fetchedAt,format,text:f.text,truncated:!f.complete};
+ if(!f.complete){const scope=boundedSourceScope(input);if(!scope){row.status='insufficient_evidence';row.reason='Incomplete cached body without a verified complete-sheet boundary review; missing parts stay held';continue;}assert.equal(s.text.characters,scope.originalCharacters);assert.equal((s.text.continuations??[]).length,0);row.boundedPrefixOnly=true;}
+ inputs.push(input);
  if(format==='html'){row.status='navigation';row.reason='Saved HTML; no supported individual-business output yet';}
  }
  const seen=[...(prior.get(c.municipalityCode)??[])];
- for(const input of inputs){const row=rows.get(input.sourceId),fns=[extractDescendingLayouts,extractDescendingGrantRows,extractDescendingKirishima,originalExtractors[c.municipalityCode],supplementExtractors[c.municipalityCode]?.extract,...laterExtractors.map(r=>r.extractors[c.municipalityCode]?.extract)].filter(Boolean);row.parserFamilies=fns.length;
+ for(const input of inputs){const row=rows.get(input.sourceId),fns=input.truncated?[(i:CachedInput)=>reviewBoundedSource(i)?.projects??[]]:[extractDescendingLayouts,extractDescendingGrantRows,extractDescendingKirishima,originalExtractors[c.municipalityCode],supplementExtractors[c.municipalityCode]?.extract,...laterExtractors.map(r=>r.extractors[c.municipalityCode]?.extract)].filter(Boolean);row.parserFamilies=fns.length;
  for(const fn of fns){let ps:ProjectEvaluation[];try{ps=fn(input,inputs);}catch(e){const reason='Parser rejected source: '+String(e);(row.parserErrors??=[]).push({parser:fn.name,reason});row.held++;held.push({sourceId:input.sourceId,parser:fn.name,reason});continue;}
  for(const p of ps){const ev=[...p.evidence,...p.amounts.map(x=>x.evidence),...p.indicators.map(x=>x.evidence),...p.ratings.map(x=>x.evidence)];let reason='';
  if(p.municipalityCode!==c.municipalityCode)reason='Output attribution differs from cohort municipality';
@@ -49,12 +52,12 @@ for(const c of cohort.municipalities){const mr=ei.municipalities.find((x:any)=>x
  // Preserve parser provenance; candidates are not publication-ready until independently reviewed.
  candidates.push(p);seen.push(p);row.accepted++;
  }}
- const layout=reviewDescendingLayout(input,inputs);if(layout){row.layoutReview={...layout,projects:undefined};}
+ const layout=input.truncated?reviewBoundedSource(input):reviewDescendingLayout(input,inputs);if(layout){row.layoutReview={...layout,projects:undefined};}
  if(row.accepted)row.status='processed';else if(row.held)row.status='insufficient_evidence';else if(row.duplicates)row.status='duplicate';else if(layout){row.status=layout.status;row.reason=layout.reason;}
  if(['processed','duplicate'].includes(row.status))row.reason='Supported parser outputs screened against current master; source coverage is not asserted complete';
  }
 }
 setPriorRecords(null);await mkdir(out,{recursive:true});
-const summary={cohort:cohort.prefecture,municipalities:cohort.municipalities.length,sources:ledger.length,hashVerifiedBodies:ledger.filter(r=>r.fullTextSha256).length,continuationParts:ledger.reduce((n,r)=>n+(r.continuationParts??0),0),candidateRecords:candidates.length,candidateMunicipalities:new Set(candidates.map(p=>p.municipalityCode)).size,duplicateOutputs:duplicates.length,heldOutputs:held.length,productionRecordsAdded:0,existingFieldsChanged:0,municipalRequests:0,layoutReviewedUnits:ledger.reduce((n,r)=>n+(r.layoutReview?.units.length??0),0),layoutActionableUnits:ledger.flatMap(r=>r.layoutReview?.units??[]).filter(u=>u.status==='layout_review').length,layoutHeldUnits:ledger.flatMap(r=>r.layoutReview?.units??[]).filter(u=>u.status==='held'||u.status.endsWith('_hold')).length,statuses:ledger.reduce((a:any,r)=>(a[r.status]=(a[r.status]??0)+1,a),{})};
+const summary={cohort:cohort.prefecture,municipalities:cohort.municipalities.length,sources:ledger.length,hashVerifiedBodies:ledger.filter(r=>r.fullTextSha256||r.cachedPrefixSha256).length,continuationParts:ledger.reduce((n,r)=>n+(r.continuationParts??0),0),candidateRecords:candidates.length,candidateMunicipalities:new Set(candidates.map(p=>p.municipalityCode)).size,duplicateOutputs:duplicates.length,heldOutputs:held.length,productionRecordsAdded:0,existingFieldsChanged:0,municipalRequests:0,layoutReviewedUnits:ledger.reduce((n,r)=>n+(r.layoutReview?.units.length??0),0),layoutActionableUnits:ledger.flatMap(r=>r.layoutReview?.units??[]).filter(u=>u.status==='layout_review').length,layoutHeldUnits:ledger.flatMap(r=>r.layoutReview?.units??[]).filter(u=>u.status==='held'||u.status.endsWith('_hold')).length,statuses:ledger.reduce((a:any,r)=>(a[r.status]=(a[r.status]??0)+1,a),{})};
 for(const [name,x]of Object.entries({'source-ledger':ledger,candidates,duplicates,held,summary}))await writeFile(join(out,name+'.json'),JSON.stringify(x)+'\n');
 console.log(JSON.stringify(summary));

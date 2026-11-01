@@ -149,6 +149,18 @@ for id,fy,ey,proof in [('d20bcc74ee66e3d51f4c5252',2024,2025,'令和 6 年度進
  for name,raw in names:
   a=t.index(raw or name);row(c,t,name,raw,start=a,note='年度の実施内容欄に明示された個別事業名のみ。R6報告の翌年度マイナ救急計画をR6実績にせず、改革方針66事項やKPIは別事業にしない。評点・費用は転記しない。');c['rows'][-1].update(context=t[max(0,a-550):a+350],contextStart=len(t[:max(0,a-550)].encode('utf-16-le'))//2)
  hold(c,t,'行政改革個別プラン進捗状況','Other 66 reform actions track internal management, HR, financial planning and multi-year targets. They are not 66 independently identified business records. Future deployment columns and national/prefectural system references excluded; numerical alignment remains unstructured.')
+# Reviewed follow-up mappings remain bound to exact cached text and UTF-16 offsets.
+for extra in json.loads((stage/'fukuoka-next-reviewed.json').read_text()):
+ t=verified_text(extra['sourceId'],extra['municipalityCode']);assert hashlib.sha256(t.encode()).hexdigest()==extra['fullTextSha256'];assert extra['proof'] in t
+ encoded=t.encode('utf-16-le')
+ for h in extra['rows']+extra['holds']:
+  assert encoded[h['start']*2:h['start']*2+len(h['raw'].encode('utf-16-le'))].decode('utf-16-le')==h['raw']
+  if h.get('context'):assert encoded[h['contextStart']*2:h['contextStart']*2+len(h['context'].encode('utf-16-le'))].decode('utf-16-le')==h['context']
+ old=next((c for c in configs if c['sourceId']==extra['sourceId']),None)
+ if old:
+  for key in ['municipalityCode','year','evaluationYear','proof','fullTextSha256']:assert old.get(key)==extra.get(key)
+  old['rows'].extend(extra['rows']);old['holds'].extend(extra['holds'])
+ else:configs.append(extra)
 for c in configs:
  meta=json.loads((docs.parent/'municipalities'/(c['municipalityCode']+'.json')).read_text());src=next(x for x in meta['sources'] if x['id']==c['sourceId']);c['sourceSha256']=src['acquisition']['sourceSha256'];c['sourceUrl']=src['url'];c['recordedFormat']=src['format'];d=json.loads((docs/(c['sourceId']+'.json')).read_text());c['format']='pdf' if src['format'] not in ['pdf','html','xlsx'] and d.get('extractionMethod')=='pdftotext_from_verified_bytes' and d['sourceSha256']==src['acquisition']['sourceSha256'] else 'html' if src['format'] not in ['pdf','html','xlsx'] and d.get('extractionMethod')=='visible_html_from_verified_bytes' and d['sourceSha256']==src['acquisition']['sourceSha256'] else src['format']
 (root/'apps/crawler/src/evaluations/expansion/descending-fukuoka-map.ts').write_text('// Generated from hash-verified complete cached texts; no municipal requests.\nexport const fukuokaRows = '+json.dumps(configs,ensure_ascii=False,indent=2)+';\n')
