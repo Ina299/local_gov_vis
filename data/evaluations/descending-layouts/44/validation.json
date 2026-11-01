@@ -1,8 +1,4 @@
 {
-  "phase": "unfinished",
-  "testCodeHead": "08dab8af19e16a683023c8e3cd28a15e295d02d6",
-  "candidateRecords": 741,
-  "additionalSince465": 276,
   "byMunicipality": {
     "44461 九重町": 82,
     "44322 姫島村": 23,
@@ -10,23 +6,14 @@
     "44213 由布市": 27,
     "44211 宇佐市": 26,
     "44209 豊後高田市": 401,
-    "44208 竹田市": 158
+    "44208 竹田市": 158,
+    "44202 別府市": 6,
+    "44201 大分市": 4
   },
   "productionRecordsAdded": 0,
   "productionFieldsChanged": 0,
-  "candidateWarningEnrichments": 1,
   "municipalRequests": 0,
   "externalWrites": 0,
-  "focusedTests": {
-    "passed": 12,
-    "failed": 0
-  },
-  "crawlerFull": {
-    "passed": 395,
-    "failed": 0,
-    "durationMs": 642907.003373,
-    "log": "/workspace/descending-layouts-20261101/logs/oita-741-full-crawler.log"
-  },
   "webTests": {
     "passed": 256,
     "failed": 0
@@ -46,72 +33,149 @@
     "optionalRemoteFontsDisabledForBuildOnly": true,
     "configRestoredSha256": "a76ed78cade60cbad1191221a65c0977221e3281e708acb921626e58b6c69f6a"
   },
-  "independentCandidateValidation": {
-    "combinedCandidates": 2825,
-    "exactEvidenceReferences": 6914
-  },
-  "remaining": {
-    "actionableKpiRows": 598,
-    "pendingSourceLayouts": 13,
-    "preparedSourceBooks": 5,
-    "preparedRowsNotAccepted": 36,
-    "relatedSourcesExcludedFromBusinessGeneration": 13,
-    "missingBodies": 11,
-    "incompleteBodies": 1
-  },
   "acquisitionGate": "No source requests until six original hash-matching manifests or provenance-verifiable cumulative hold ledger recovered. All host/warning gates retained.",
-  "stalled": false,
-  "previous465Validation": {
-    "phase": "in_progress",
-    "candidateRecords": 465,
+  "phase": "cached_scope_reviewed_with_evidence_holds",
+  "testCodeHead": "d10699b7bad2916c679a41737d1ac36d93a59907",
+  "candidateRecords": 751,
+  "newCandidateRecords": 10,
+  "previousCandidateObjectsUnchanged": 741,
+  "focusedTests": {
+    "passed": 17,
+    "failed": 0
+  },
+  "independentCandidateValidation": {
+    "combinedCandidates": 2835,
+    "exactEvidenceReferences": 6934
+  },
+  "crawlerFull": {
+    "passed": 400,
+    "failed": 0,
+    "durationMs": 672171.082344,
+    "log": "/workspace/descending-layouts-20261101/logs/oita-751-full-crawler.log"
+  },
+  "remaining": [
+    "Recover missing complete cached source bodies without bypassing acquisition gates.",
+    "Explicit project binding and annual row/column evidence for598 KPI fragments/actions.",
+    "Individual business mapping for related policy/reform measures; no chapter-to-project inference.",
+    "Name-column coordinates or separate complete identity evidence for previously recorded title and alias holds."
+  ],
+  "previous741Validation": {
+    "phase": "unfinished",
+    "testCodeHead": "08dab8af19e16a683023c8e3cd28a15e295d02d6",
+    "candidateRecords": 741,
+    "additionalSince465": 276,
     "byMunicipality": {
       "44461 九重町": 82,
       "44322 姫島村": 23,
       "44214 国東市": 24,
       "44213 由布市": 27,
       "44211 宇佐市": 26,
-      "44209 豊後高田市": 151,
-      "44208 竹田市": 132
+      "44209 豊後高田市": 401,
+      "44208 竹田市": 158,
+      "44202 別府市": 6,
+      "44201 大分市": 4
     },
+    "productionRecordsAdded": 0,
+    "productionFieldsChanged": 0,
+    "candidateWarningEnrichments": 1,
+    "municipalRequests": 0,
+    "externalWrites": 0,
     "focusedTests": {
-      "passed": 10,
+      "passed": 12,
       "failed": 0
     },
-    "crawlerFullEarlierSnapshot": {
-      "passed": 392,
+    "crawlerFull": {
+      "passed": 395,
       "failed": 0,
-      "scope": "Snapshot before latest Taketa literal maps; those changes pass final focused10/10. Final full run active."
-    },
-    "currentFullSuite": {
-      "passed": 393,
-      "failed": 0,
-      "durationMs": 589960.75807,
-      "log": "/workspace/descending-layouts-20261101/logs/oita-crawler-final.log",
-      "codeHead": "e5741bf85cecc87234619eacc3c9349d8b2cfa50"
+      "durationMs": 642907.003373,
+      "log": "/workspace/descending-layouts-20261101/logs/oita-741-full-crawler.log"
     },
     "webTests": {
       "passed": 256,
       "failed": 0
     },
-    "lint": "passed",
     "typecheck": "passed",
-    "nationalVerification": "passed",
+    "lint": "passed; existing layout.tsx custom-font warning",
+    "nationalVerification": {
+      "passed": true,
+      "municipalities": 500,
+      "records": 92038,
+      "indexSha256": "abe6c42fe4d7e2c4b102727dcb3eb17c44cf2dc4d2028ec507962bd726259015"
+    },
     "staticExport": {
       "passed": true,
-      "basePath": "/local_gov_vis",
       "pages": 109,
+      "basePath": "/local_gov_vis",
       "optionalRemoteFontsDisabledForBuildOnly": true,
-      "configRestored": true
+      "configRestoredSha256": "a76ed78cade60cbad1191221a65c0977221e3281e708acb921626e58b6c69f6a"
     },
     "independentCandidateValidation": {
-      "combinedCandidates": 2549,
-      "exactEvidenceReferences": 6361
+      "combinedCandidates": 2825,
+      "exactEvidenceReferences": 6914
     },
-    "productionRecordsAdded": 0,
-    "existingFieldsChanged": 0,
-    "municipalRequests": 0,
-    "externalWrites": 0,
-    "masterReadOnlyObserved": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
-    "productionIndexSha256": "abe6c42fe4d7e2c4b102727dcb3eb17c44cf2dc4d2028ec507962bd726259015"
+    "remaining": {
+      "actionableKpiRows": 598,
+      "pendingSourceLayouts": 13,
+      "preparedSourceBooks": 5,
+      "preparedRowsNotAccepted": 36,
+      "relatedSourcesExcludedFromBusinessGeneration": 13,
+      "missingBodies": 11,
+      "incompleteBodies": 1
+    },
+    "acquisitionGate": "No source requests until six original hash-matching manifests or provenance-verifiable cumulative hold ledger recovered. All host/warning gates retained.",
+    "stalled": false,
+    "previous465Validation": {
+      "phase": "in_progress",
+      "candidateRecords": 465,
+      "byMunicipality": {
+        "44461 九重町": 82,
+        "44322 姫島村": 23,
+        "44214 国東市": 24,
+        "44213 由布市": 27,
+        "44211 宇佐市": 26,
+        "44209 豊後高田市": 151,
+        "44208 竹田市": 132
+      },
+      "focusedTests": {
+        "passed": 10,
+        "failed": 0
+      },
+      "crawlerFullEarlierSnapshot": {
+        "passed": 392,
+        "failed": 0,
+        "scope": "Snapshot before latest Taketa literal maps; those changes pass final focused10/10. Final full run active."
+      },
+      "currentFullSuite": {
+        "passed": 393,
+        "failed": 0,
+        "durationMs": 589960.75807,
+        "log": "/workspace/descending-layouts-20261101/logs/oita-crawler-final.log",
+        "codeHead": "e5741bf85cecc87234619eacc3c9349d8b2cfa50"
+      },
+      "webTests": {
+        "passed": 256,
+        "failed": 0
+      },
+      "lint": "passed",
+      "typecheck": "passed",
+      "nationalVerification": "passed",
+      "staticExport": {
+        "passed": true,
+        "basePath": "/local_gov_vis",
+        "pages": 109,
+        "optionalRemoteFontsDisabledForBuildOnly": true,
+        "configRestored": true
+      },
+      "independentCandidateValidation": {
+        "combinedCandidates": 2549,
+        "exactEvidenceReferences": 6361
+      },
+      "productionRecordsAdded": 0,
+      "existingFieldsChanged": 0,
+      "municipalRequests": 0,
+      "externalWrites": 0,
+      "masterReadOnlyObserved": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+      "productionIndexSha256": "abe6c42fe4d7e2c4b102727dcb3eb17c44cf2dc4d2028ec507962bd726259015"
+    }
   }
 }
