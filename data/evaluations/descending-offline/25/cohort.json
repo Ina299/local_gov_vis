@@ -1,0 +1,124 @@
+{
+  "prefecture": "25",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-01T12:57:56.619718+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "25443",
+      "municipalityName": "多賀町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "be0e668b9f29f2235334aba59a74e8dae69619f15480bf31c81c33cf4c66c42a"
+    },
+    {
+      "municipalityCode": "25442",
+      "municipalityName": "甲良町",
+      "datasetSha256": "1db44577b1fdcba466800a216b43bc8962eee22a9d0122ea27782abe663ca982",
+      "evidenceShardSha256": "1c8403418b742acbdccf5788526ca0a3f04789df2626e4a76c1f8d2a80cf00cd"
+    },
+    {
+      "municipalityCode": "25441",
+      "municipalityName": "豊郷町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a7debffd370b2d978368a7d918884564495f4a8b69b52586f6c2d8f7f9564e0d"
+    },
+    {
+      "municipalityCode": "25425",
+      "municipalityName": "愛荘町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d52bacf19a4808fb946a0ff1cc5130fc59d1bb170ec1d5e74e90f44643b1a862"
+    },
+    {
+      "municipalityCode": "25384",
+      "municipalityName": "竜王町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "0c4b950f78d78fde31fba51acdd1f3fa16e90b446211c6b76644a87a2896aacc"
+    },
+    {
+      "municipalityCode": "25383",
+      "municipalityName": "日野町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "902708fc230d37c99a1756a5e27b302826f7dad9cb917a71f3478bf034377c7e"
+    },
+    {
+      "municipalityCode": "25214",
+      "municipalityName": "米原市",
+      "datasetSha256": "33099d4f97f35e39b7946d7dc2dd02024e75f712721c6fd9af2b336e191f5f78",
+      "evidenceShardSha256": "ffb2ac03ffc75aea8b65dafbac2d978febdfe4ea69a8aaf8e80e12a9737b8852"
+    },
+    {
+      "municipalityCode": "25213",
+      "municipalityName": "東近江市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "957de229e63943abea0881c9dd03ad9988a75895830f116eb861c01d5188c186"
+    },
+    {
+      "municipalityCode": "25212",
+      "municipalityName": "高島市",
+      "datasetSha256": "9bc1bd7789685341640d4453a6c7b379f135772dad990285134e0da1387a3dee",
+      "evidenceShardSha256": "3aac38bfa35ca59fd9b1824e222a31971df6407b32c00ef0ad3943b98052d30f"
+    },
+    {
+      "municipalityCode": "25211",
+      "municipalityName": "湖南市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "bf178b79c94295a2fe1db54fb60830d9d57118c94fd31250bc6e160147cc9494"
+    },
+    {
+      "municipalityCode": "25210",
+      "municipalityName": "野洲市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6b9fbe90a967f19afed3638b9beeda2df065c3d9ce834eef60661d3ed1068d51"
+    },
+    {
+      "municipalityCode": "25209",
+      "municipalityName": "甲賀市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "dea0916e26fdc386b19bb1baf1cab58eed7384c0b010e862b935608bae0b0fb6"
+    },
+    {
+      "municipalityCode": "25208",
+      "municipalityName": "栗東市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "93c85af28c5f8aee1c0c7e5d7414bf4e0110f047ef8a601b35e8e6953df607e7"
+    },
+    {
+      "municipalityCode": "25207",
+      "municipalityName": "守山市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "2aae57a5027b4e3b15ffc8c017f2995fa193679ecf0de4a9b15ac83d4d1817ad"
+    },
+    {
+      "municipalityCode": "25206",
+      "municipalityName": "草津市",
+      "datasetSha256": "fda240a9c5970373d25e513cd813ce209cc28bbb67d5f3383062d163bd7c5faf",
+      "evidenceShardSha256": "a279b0c91703dd0a2c7f33a2ecf93664a6518145ff280d76907c12e88849e824"
+    },
+    {
+      "municipalityCode": "25204",
+      "municipalityName": "近江八幡市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3a9c37892244982d9b75ada15a409eb230d7ca4d50720336bf78cc6989e394ee"
+    },
+    {
+      "municipalityCode": "25203",
+      "municipalityName": "長浜市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e21e95b3b2bcdca6d5a521e2f1e5ab101c400e0b06e2ff4467155d82b85c3708"
+    },
+    {
+      "municipalityCode": "25202",
+      "municipalityName": "彦根市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7f503c9feb9e696f8a94bc9599fd2c4a6cafc46eda7e0e4dbb5e8ac465a3c44e"
+    },
+    {
+      "municipalityCode": "25201",
+      "municipalityName": "大津市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "364acfd8d6d821263534d667eb68aa0a039578d724a9bf21e2636e52dea09b46"
+    }
+  ],
+  "skipped": []
+}
