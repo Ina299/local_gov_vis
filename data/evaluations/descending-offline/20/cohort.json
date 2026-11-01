@@ -1,0 +1,472 @@
+{
+  "prefecture": "20",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-01T12:58:37.764213+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "20602",
+      "municipalityName": "栄村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "92d8adf3c7efff159e5061385fd7d808d1dac24a1e079ce91ce4bdfa3e1d2224"
+    },
+    {
+      "municipalityCode": "20590",
+      "municipalityName": "飯綱町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c10fe7666233eb7ec46550a31cfceaa1d6ecc6c4ba0350ba8192e14a773484d5"
+    },
+    {
+      "municipalityCode": "20588",
+      "municipalityName": "小川村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "aecbf6e85e4d578daeda4a11711325bf4a839fc86817b3d5b085b32feb160560"
+    },
+    {
+      "municipalityCode": "20583",
+      "municipalityName": "信濃町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f25bb848143611fa24dde6a2dcc7a0a11111cf7a203008fff7c4d41b630495ae"
+    },
+    {
+      "municipalityCode": "20563",
+      "municipalityName": "野沢温泉村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "8e835cd79a6b827d6310a4e80176ec71a484a927f3073054054969e1f3b47a99"
+    },
+    {
+      "municipalityCode": "20562",
+      "municipalityName": "木島平村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "89c53b0f54e7a8f01b3ecd1ea99b968b072c3c1f63b2b0bd9460077ffc1687a8"
+    },
+    {
+      "municipalityCode": "20561",
+      "municipalityName": "山ノ内町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "766b88256bc7e31e7cad7292b67543ed52104ca895de6a54798a4b3f625b7bfa"
+    },
+    {
+      "municipalityCode": "20543",
+      "municipalityName": "高山村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "8e0795f904045eb30d5a1f271c432f17d5b987819857dd94e6f0de0a0e3ac9ff"
+    },
+    {
+      "municipalityCode": "20541",
+      "municipalityName": "小布施町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "4507cb8d8c8b6bc62b0e00f3cd91bd010938f8e61411f5b0293f301d52306916"
+    },
+    {
+      "municipalityCode": "20521",
+      "municipalityName": "坂城町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "5200b4b26192e119f3dcf48a334ae964bb9a23c2177885b64f7db8425e59bec7"
+    },
+    {
+      "municipalityCode": "20486",
+      "municipalityName": "小谷村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "290fc4a030467de17bd97c1228c70afcc87cb69be922bc86a7a51c6c937dbeb5"
+    },
+    {
+      "municipalityCode": "20485",
+      "municipalityName": "白馬村",
+      "datasetSha256": "5eab89c9dd6f3b0010eb69a785f450218f1ea38996d28788679761114081e4bb",
+      "evidenceShardSha256": "7c26fc57e8fa43f0a3b3a7b215cf6f13f451a28f4648ce22b6dc928a90e06596"
+    },
+    {
+      "municipalityCode": "20482",
+      "municipalityName": "松川村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "06f51a2bde3424b2b626a74746f5f002742aa976c5954fa7137c129f1115797c"
+    },
+    {
+      "municipalityCode": "20481",
+      "municipalityName": "池田町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "0b925f57e95519a0c76a18b4f17b388e1752cfadc12505d74fde594fe5f306ab"
+    },
+    {
+      "municipalityCode": "20452",
+      "municipalityName": "筑北村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b3b7a3d5c559e2136b9be706bba56f54132e8b95aec124ee12908596ca073765"
+    },
+    {
+      "municipalityCode": "20451",
+      "municipalityName": "朝日村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "2e42758bea63d42b2a3d1f6c05bf44de507363ca265af082d621c69778fa5854"
+    },
+    {
+      "municipalityCode": "20450",
+      "municipalityName": "山形村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "1633bd00a9c6157fe2056bacd5433e9e1709819cdf5793ece9667b738831912d"
+    },
+    {
+      "municipalityCode": "20448",
+      "municipalityName": "生坂村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "bd5ff837466c1cf779fb9859cc91d7e07e3dfca04b8aa24c945a142f31754824"
+    },
+    {
+      "municipalityCode": "20446",
+      "municipalityName": "麻績村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "03d9d882dd224a8df83823bd7d8ea536178eb4bf5020d2ea9b8b0e491ca44fe4"
+    },
+    {
+      "municipalityCode": "20432",
+      "municipalityName": "木曽町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "fa64f8b2525fdcc5ec3589dbcccf391741a5942f696d6d8f68f6bb5b2d9bac02"
+    },
+    {
+      "municipalityCode": "20430",
+      "municipalityName": "大桑村",
+      "datasetSha256": "d69737c6ff08e3fdf28c1ae3a4f80c3e3bd4bb0e4284f3d3746e22e867d6cdac",
+      "evidenceShardSha256": "7fb01b0525987f93a3ab7f6595650054343cf9751202bf5855675bb0ed6c3d71"
+    },
+    {
+      "municipalityCode": "20429",
+      "municipalityName": "王滝村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ef1426bc346147c13956b819ce922ada89eac1ff9be5aa420a61742384be5f5e"
+    },
+    {
+      "municipalityCode": "20425",
+      "municipalityName": "木祖村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "84f489ac67938673c0697e7785c2c1c9e8c46d9211a3f43e3615dadd1eb9f329"
+    },
+    {
+      "municipalityCode": "20423",
+      "municipalityName": "南木曽町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "98c27e02db4073de7efc9da3a235275d4a1ef02c2e66adbd84226bca9e90f35d"
+    },
+    {
+      "municipalityCode": "20422",
+      "municipalityName": "上松町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "028efcefeb2f35e7e9c6bf08d8200b83778bbdca5a211226ad80973c82e09d83"
+    },
+    {
+      "municipalityCode": "20417",
+      "municipalityName": "大鹿村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "553dc90f92e656196392831ad4873620fbe94c9b829e74de09fbeb8bb9b3cd96"
+    },
+    {
+      "municipalityCode": "20416",
+      "municipalityName": "豊丘村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f9d15696b29d32f6581d321808be73cae6a72e279f6157f75ddd47e10b92bef4"
+    },
+    {
+      "municipalityCode": "20415",
+      "municipalityName": "喬木村",
+      "datasetSha256": "e9e64d892416641b440dd3d00f763c2c431671edddceea2af31a06fab9f41203",
+      "evidenceShardSha256": "43347254c1490bbab36a597c266a64eb364babc44dcb480489d9d232ba21d281"
+    },
+    {
+      "municipalityCode": "20414",
+      "municipalityName": "泰阜村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "41f9971725ed31841e1800c66b02ca41d1a050aee8e336c296bee2e2f0693411"
+    },
+    {
+      "municipalityCode": "20413",
+      "municipalityName": "天龍村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "02f3ca54ce1b2759d760a4ddd97824e9c73a41a566b09f47dc7c96075ade95ae"
+    },
+    {
+      "municipalityCode": "20412",
+      "municipalityName": "売木村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ab31174e0dcb25784762badf7bef5229e62364eb3f6e49a81abab056d8282dbe"
+    },
+    {
+      "municipalityCode": "20411",
+      "municipalityName": "下條村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7f7750b3b8b24f3045d64f2ce878940d6b0fe2cc6252968eaff12e5ae6d463b2"
+    },
+    {
+      "municipalityCode": "20410",
+      "municipalityName": "根羽村",
+      "datasetSha256": "3bb6e26fec85630920bf59ba2f3b3dfb5f6d8f23de07eb376e6a98de9c7959ad",
+      "evidenceShardSha256": "fee33cc82eece1bbd9eacff4aea24da80677f3fb13f1b95babb3dfc3cf8bb882"
+    },
+    {
+      "municipalityCode": "20409",
+      "municipalityName": "平谷村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f717fff26db9956920fe2d156c9e18b46010decd1f6c25e025c4cdf6dab7dfcd"
+    },
+    {
+      "municipalityCode": "20407",
+      "municipalityName": "阿智村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3b05d1f9bf4d6bb7bd049a2277d9312e718b6e4b0321cfa7ca672ac41389a1b6"
+    },
+    {
+      "municipalityCode": "20404",
+      "municipalityName": "阿南町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ade6a451f4217f3d8fec16a970ae56a142a844768af84e0b6d518fd63c444375"
+    },
+    {
+      "municipalityCode": "20403",
+      "municipalityName": "高森町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7e578fa265ad440062757130651440a49713f875e3bbf0d63cdfc19b74384871"
+    },
+    {
+      "municipalityCode": "20402",
+      "municipalityName": "松川町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e0b4fc826a9dad834830758c2f9369713f81fe2354cd58a3289fb4d1319fe39e"
+    },
+    {
+      "municipalityCode": "20388",
+      "municipalityName": "宮田村",
+      "datasetSha256": "7b087a4c525d84aad1f58c42e0510c41a0237b68b1b7843ecdea2f23b27d1c07",
+      "evidenceShardSha256": "f6cd91e2642a141125903c4e3cb3c58f8e93b8a0a16eb8c884d04ebededd7e9a"
+    },
+    {
+      "municipalityCode": "20386",
+      "municipalityName": "中川村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "358e69d813057f20f3a84e19208a0ecbe302aa0d6eae72a792840e90b422daac"
+    },
+    {
+      "municipalityCode": "20385",
+      "municipalityName": "南箕輪村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ccb32657b4b3bd2f49b51f485a99d2829dad8b2b71327c55e0f9c0e12248cf55"
+    },
+    {
+      "municipalityCode": "20384",
+      "municipalityName": "飯島町",
+      "datasetSha256": "eb6d66de8a8196023a8e68c15504f274173220517a6b4fb8ba20117af6e70d6c",
+      "evidenceShardSha256": "5e21ff465f3c54db745b07915e466fb4955ced138155d3db631eb95c0016ee35"
+    },
+    {
+      "municipalityCode": "20383",
+      "municipalityName": "箕輪町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "1d15b88fb6c4046367e110db48d404fda619d9dcb44ffb49b9e7a1af2472c6e4"
+    },
+    {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "datasetSha256": "b402de813fced9ea4b0253088e8221cc584a5fb8c524bdf798db6b7a2f413b82",
+      "evidenceShardSha256": "068334b219033a3408570be00fd879b0d3d4a0ed2b0c48a929ecd30d668ede3a"
+    },
+    {
+      "municipalityCode": "20363",
+      "municipalityName": "原村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f400fbbb5b3685298e93f2311757bc9a3b45d285498f5c93806c206dd894fd2d"
+    },
+    {
+      "municipalityCode": "20362",
+      "municipalityName": "富士見町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "25bb5c5a0a0b0cbc13197000be21420ccf0069664cafb8454c5eb555fdea50de"
+    },
+    {
+      "municipalityCode": "20361",
+      "municipalityName": "下諏訪町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ccccf62c8ebed2495ea22190c62a077fa697943f43ecf6c16e14f6e56e11b0e8"
+    },
+    {
+      "municipalityCode": "20350",
+      "municipalityName": "長和町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "9c4867b36f7e905c90bca4c3c6904c8ee5b9bddab6fce522c1c2de0258633a0e"
+    },
+    {
+      "municipalityCode": "20349",
+      "municipalityName": "青木村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ea77f6dcc99e54deeda2d2b8f62117a5da739f714bcdc8997bdae8213a41a39e"
+    },
+    {
+      "municipalityCode": "20324",
+      "municipalityName": "立科町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "4156c6fdc9c4611df13ed6012caf62064edbe8c280c5365bc8f7c08e8ad949a2"
+    },
+    {
+      "municipalityCode": "20323",
+      "municipalityName": "御代田町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "9b087f6f431ab17ef8e042bf332a16a425d08a1b624c6a4c5546be30fe7f99f7"
+    },
+    {
+      "municipalityCode": "20321",
+      "municipalityName": "軽井沢町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "98908adc68c0a54c23ea571f51ba357b2970d67ebbc86382ebc0fc91149a9d9c"
+    },
+    {
+      "municipalityCode": "20309",
+      "municipalityName": "佐久穂町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7409cecc15fe992a563805bcdd2a64be4af6d327cac18757ebf755fd4e7a1120"
+    },
+    {
+      "municipalityCode": "20307",
+      "municipalityName": "北相木村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "17be40d105bd71c5751a70932b2e0acacf917002727e269a4ea427990fd84484"
+    },
+    {
+      "municipalityCode": "20306",
+      "municipalityName": "南相木村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e22198bae890fe9d634bc0d01ef9ab45b9e122be5a4e521fa4a4b451c3141ab9"
+    },
+    {
+      "municipalityCode": "20305",
+      "municipalityName": "南牧村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3420262ced9195cad7bc4ad2b3edc0ea74bb0d415163538e52d665ce597142ac"
+    },
+    {
+      "municipalityCode": "20304",
+      "municipalityName": "川上村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ddae996356cf32a11dfc22f1d34a7798ab7ca4bded83dce92c0237ece9ee0048"
+    },
+    {
+      "municipalityCode": "20303",
+      "municipalityName": "小海町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "820d702fe566df05c35f1817b88da88c3dbafd2a505ce472eeac89e79302d504"
+    },
+    {
+      "municipalityCode": "20220",
+      "municipalityName": "安曇野市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6e28bfd273c5044292edc9c411c51fd87b2dc7ef167fe3bfdbff2d2f18832af1"
+    },
+    {
+      "municipalityCode": "20219",
+      "municipalityName": "東御市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c1f73afea1eaac569430068af838f9d24f5479e1687afb250137fb91e17a4713"
+    },
+    {
+      "municipalityCode": "20218",
+      "municipalityName": "千曲市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ee516003b9acdc95d69099a5c9dcf2936de8928397395861fceb346a3de96a54"
+    },
+    {
+      "municipalityCode": "20217",
+      "municipalityName": "佐久市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3db14fc3c7b9827ff2910fbb68f608bfca779ae678f568a731e005885478a963"
+    },
+    {
+      "municipalityCode": "20215",
+      "municipalityName": "塩尻市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a522c8b5ff40617b1af396a5f473cbcbbbe8436cedb380481da602df4d0d8716"
+    },
+    {
+      "municipalityCode": "20214",
+      "municipalityName": "茅野市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "36fb275d78c7dda1edb7f1e5e31ea04d36dc39160aa7fc11012ee4e84ebf4b44"
+    },
+    {
+      "municipalityCode": "20213",
+      "municipalityName": "飯山市",
+      "datasetSha256": "3f15c8f73da289b62fdf1122a705b81689afe8c4c9415ae36c8f4535763ba614",
+      "evidenceShardSha256": "c92b0a9693b15005572dcdc6b8a98ba7416e67b580cce41969c1cac6e9d55242"
+    },
+    {
+      "municipalityCode": "20212",
+      "municipalityName": "大町市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "459e738b44f652fd17fb6d1b53d1174f9e89c797184940dd27a513cacbb7ce67"
+    },
+    {
+      "municipalityCode": "20211",
+      "municipalityName": "中野市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "0b1f376c9aee28bc316d036cac51f30703a5dddf184a8a0c79e55e64fafae6fa"
+    },
+    {
+      "municipalityCode": "20210",
+      "municipalityName": "駒ヶ根市",
+      "datasetSha256": "128d58f2a37c95c5f151e0dd48beff28a97ba7a66741675db25678d4d7be6882",
+      "evidenceShardSha256": "98c172c7f30f411302fc9b1169b309aaa7ecaf7997969948f7d9baa4077434d5"
+    },
+    {
+      "municipalityCode": "20209",
+      "municipalityName": "伊那市",
+      "datasetSha256": "5a6b11e116a558829603d62164425dcbf8ee298d26bbf3fc6abe56d2326b8c97",
+      "evidenceShardSha256": "1314e8ddce698664f941cab1024345f36b3c6f1890fc73b5e7f28bcde1009bc8"
+    },
+    {
+      "municipalityCode": "20208",
+      "municipalityName": "小諸市",
+      "datasetSha256": "cee8a0eebe127e0721c02ae7a81559212a5fbd1d332017ec3ced08ff350f6f79",
+      "evidenceShardSha256": "3865db195dd921c45c1ab4c044bef4bed5b86acfca81d8dbbb4a873638b8cdf7"
+    },
+    {
+      "municipalityCode": "20207",
+      "municipalityName": "須坂市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "23f970efdff549f44f505751a407010d2c1df8d95f8ef6d6312163a846181dbe"
+    },
+    {
+      "municipalityCode": "20206",
+      "municipalityName": "諏訪市",
+      "datasetSha256": "862b7e2cfa7fe686675f0660b593353292f25df178485b78664d3c5ba0ea3c9e",
+      "evidenceShardSha256": "2d0278ef492d10154b8cd9b8dcdcb89bc40a4e877af6fd12eaaef159dab5ae00"
+    },
+    {
+      "municipalityCode": "20205",
+      "municipalityName": "飯田市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "462b3a697233d0a969abb398d614bfd6624999f77cce9cd002d726e79da655fb"
+    },
+    {
+      "municipalityCode": "20204",
+      "municipalityName": "岡谷市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6a1e985d376c5d7dcfe4cac6fe9d174f9081d525d66800fed7ee095df8f6e83b"
+    },
+    {
+      "municipalityCode": "20203",
+      "municipalityName": "上田市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b850a4245ccc8d8f462fc2b11e791516f9fd13682b054e8eef62c83a91dff792"
+    },
+    {
+      "municipalityCode": "20201",
+      "municipalityName": "長野市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "401e648e2686778307457febefb59e2edd13edf484245ef1a33f120fe1887c5c"
+    }
+  ],
+  "skipped": [
+    {
+      "municipalityCode": "20202",
+      "municipalityName": "松本市",
+      "reason": "Recent master dataset differs from common baseline"
+    }
+  ]
+}
