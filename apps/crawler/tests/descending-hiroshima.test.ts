@@ -81,3 +81,37 @@ test('Saka event review excludes cancelled events and inconsistent festival ordi
  for(const name of ['俳句王国がゆく','坂町平和音楽祭','神楽の祭典','尾木ママ講演会','子育てコンサート'])assert.equal(ps.filter(p=>p.projectName===name).length,1);
  assert.ok(ps.every(p=>p.amounts.length===0&&p.ratings.length===0&&p.indicators.length===0));
 });
+
+test('Saka community activity review separates executed years, cancelled festivals and historical references',()=>{
+ const names=(id:string)=>reviewHiroshima(source(id,'34309'))!.projects.map(p=>p.projectName);
+ for(const id of ['90a341714420a90cf3a63214','7bf6d509b4c79f59ba41295c'])assert.ok(!names(id).includes('図書館こどもまつり'));
+ assert.ok(names('7165760cfcafcf8bc68fab39').includes('図書館こどもまつり'));
+ assert.ok(!names('29462634940779f1015fe793').includes('坂町を知ろう'));
+ assert.ok(!names('47348d4bbf1d3a4df2a3616e').includes('坂町を知ろう'));
+ assert.ok(names('08370e552ea8b35028e9b88c').includes('坂町を知ろう'));
+ for(const n of ['宝くじまちの音楽会','ラジオふるさと自慢うた自慢','広響＆萩原麻未コンサート']){
+  assert.ok(names('07cbdeee1c8cfac58a2cdcca').includes(n));
+  assert.ok(!names('ede19b1365e901eb8d2c1ce5').includes(n));
+ }
+});
+test('Saka designated school programmes keep town scope and do not backdate future plans',()=>{
+ const old=reviewHiroshima(source('29462634940779f1015fe793','34309'))!.projects;
+ assert.ok(!old.some(p=>p.projectName==='人権教育総合推進地域事業'));
+ const future=reviewHiroshima(source('90a341714420a90cf3a63214','34309'))!.projects;
+ assert.ok(!future.some(p=>p.projectName==='探究的な学習の在り方に関する研究推進地域事業'));
+ const current=reviewHiroshima(source('7165760cfcafcf8bc68fab39','34309'))!.projects;
+ const selected=current.find(p=>p.projectName==='探究的な学習の在り方に関する研究推進地域事業')!;
+ assert.ok(selected);assert.equal(selected.evaluatedFiscalYear,2022);assert.ok(selected.warnings.some(w=>w.includes('町の独自事業とは扱わない')));
+ assert.equal(selected.amounts.length,0);assert.equal(selected.ratings.length,0);assert.equal(selected.indicators.length,0);
+});
+test('Sera preserves the literal fair title and does not turn birth-grant recipients into expenditure',()=>{
+ const ps=reviewHiroshima(source('7ddaf70925bf3dbcd1deee78','34462'))!.projects;
+ assert.ok(ps.some(p=>p.projectName==='福祉用具提示・体験フェア'));
+ assert.ok(!ps.some(p=>p.projectName==='福祉用具展示・体験フェア'));
+ const p=ps.find(p=>p.projectName==='はぴはぴ祝金事業')!;assert.ok(p);assert.equal(p.evaluatedFiscalYear,2023);assert.equal(p.amounts.length,0);
+ assert.ok(!ps.some(p=>p.projectName==='紹介チャンネル掲載事業'));
+});
+test('Hiroshima refuses an invented title even when source bytes and quote remain unchanged',()=>{
+ const c=hiroshimaRows.find(c=>c.sourceId==='02e1e4e07c7f437778e4a884')!;const before=c.rows[0].name;
+ try{c.rows[0].name='原文にない事業名';assert.throws(()=>reviewHiroshima(source(c.sourceId,c.municipalityCode)),/title/);}finally{c.rows[0].name=before;}
+});

@@ -29,6 +29,7 @@ def hold(c,t,raw,reason,status='identity_or_period_hold'):
 for c in json.loads((stage/'hiroshima-reviewed.json').read_text()):
  t=verified_text(c['sourceId'],c['municipalityCode']);assert hashlib.sha256(t.encode()).hexdigest()==c['fullTextSha256'];assert c['proof'] in t;u=t.encode('utf-16-le')
  for h in c['rows']+c['holds']:
+  if 'name' in h: assert h['name'] in h['raw'] or h.get('titleFragments'), 'Title needs literal or fragment proof'
   assert u[h['start']*2:h['start']*2+len(h['raw'].encode('utf-16-le'))].decode('utf-16-le')==h['raw']
   if h.get('context'):assert u[h['contextStart']*2:h['contextStart']*2+len(h['context'].encode('utf-16-le'))].decode('utf-16-le')==h['context']
   if h.get('yearProof'):assert h['yearProof'] in t

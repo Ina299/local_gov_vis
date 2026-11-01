@@ -40,7 +40,7 @@
     "accepted": 40,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 40,
     "holds": [
       {
@@ -97,11 +97,11 @@
     "fetchedAt": "2026-10-23T19:22:07.867Z",
     "characters": 17059,
     "continuationParts": 0,
-    "accepted": 25,
+    "accepted": 26,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
-    "proposals": 25,
+    "reviewStatus": "processed",
+    "proposals": 26,
     "holds": [
       {
         "raw": "令和６年度の成果",
@@ -128,7 +128,7 @@
         "status": "overlapping_existing_project_scope"
       }
     ],
-    "additionalExternalProposals": 1,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -145,7 +145,7 @@
     "accepted": 0,
     "duplicates": 2,
     "parserStatus": "duplicate",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "duplicate",
     "proposals": 1,
     "holds": [],
     "additionalExternalProposals": 0,
@@ -162,11 +162,11 @@
     "fetchedAt": "2026-10-23T19:22:13.065Z",
     "characters": 16169,
     "continuationParts": 0,
-    "accepted": 23,
+    "accepted": 25,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
-    "proposals": 23,
+    "reviewStatus": "processed",
+    "proposals": 25,
     "holds": [
       {
         "raw": "令和 5 年度の成果",
@@ -181,7 +181,7 @@
         "status": "overlapping_existing_project_scope"
       }
     ],
-    "additionalExternalProposals": 2,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -198,7 +198,7 @@
     "accepted": 0,
     "duplicates": 2,
     "parserStatus": "duplicate",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "duplicate",
     "proposals": 1,
     "holds": [],
     "additionalExternalProposals": 0,
@@ -215,11 +215,11 @@
     "fetchedAt": "2026-10-23T19:22:18.713Z",
     "characters": 16667,
     "continuationParts": 0,
-    "accepted": 21,
+    "accepted": 22,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
-    "proposals": 21,
+    "reviewStatus": "processed",
+    "proposals": 22,
     "holds": [
       {
         "raw": "令和４年度の成果",
@@ -234,7 +234,7 @@
         "status": "overlapping_existing_project_scope"
       }
     ],
-    "additionalExternalProposals": 1,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -251,7 +251,7 @@
     "accepted": 0,
     "duplicates": 4,
     "parserStatus": "duplicate",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "duplicate",
     "proposals": 2,
     "holds": [],
     "additionalExternalProposals": 0,
@@ -268,11 +268,11 @@
     "fetchedAt": "2026-10-23T19:22:24.545Z",
     "characters": 14934,
     "continuationParts": 0,
-    "accepted": 23,
+    "accepted": 24,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
-    "proposals": 23,
+    "reviewStatus": "processed",
+    "proposals": 24,
     "holds": [
       {
         "raw": "令和３年度の成果",
@@ -281,7 +281,7 @@
         "status": "policy_or_indicator_identity_hold"
       }
     ],
-    "additionalExternalProposals": 1,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -298,7 +298,7 @@
     "accepted": 0,
     "duplicates": 4,
     "parserStatus": "duplicate",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "duplicate",
     "proposals": 2,
     "holds": [],
     "additionalExternalProposals": 0,
@@ -326,7 +326,8 @@
         "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
       }
     ],
-    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
   },
   {
     "sourceId": "2d7125f85c4517d08448e802",
@@ -369,7 +370,7 @@
     "accepted": 11,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 11,
     "holds": [],
     "additionalExternalProposals": 0,
@@ -389,7 +390,7 @@
     "accepted": 5,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 5,
     "holds": [],
     "additionalExternalProposals": 0,
@@ -417,7 +418,8 @@
         "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
       }
     ],
-    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
   },
   {
     "sourceId": "e7bdd83e7650be260dd34dce",
@@ -441,7 +443,8 @@
         "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
       }
     ],
-    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
   },
   {
     "sourceId": "b73fe78325d002ee6163f2fc",
@@ -465,7 +468,8 @@
         "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
       }
     ],
-    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
   },
   {
     "sourceId": "30db86856627d4ca1f625b71",
@@ -489,7 +493,8 @@
         "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
       }
     ],
-    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
   },
   {
     "sourceId": "8043b98b2ff81d4b46204e05",
@@ -559,7 +564,7 @@
     "accepted": 1,
     "duplicates": 279,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 140,
     "holds": [],
     "additionalExternalProposals": 0,
@@ -606,7 +611,7 @@
     "accepted": 12,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 12,
     "holds": [],
     "additionalExternalProposals": 0,
@@ -653,7 +658,7 @@
     "accepted": 9,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 9,
     "holds": [
       {
@@ -680,7 +685,7 @@
     "accepted": 11,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 11,
     "holds": [
       {
@@ -704,11 +709,11 @@
     "fetchedAt": "2026-10-21T08:44:32.834Z",
     "characters": 18585,
     "continuationParts": 0,
-    "accepted": 11,
+    "accepted": 12,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
-    "proposals": 11,
+    "reviewStatus": "processed",
+    "proposals": 12,
     "holds": [
       {
         "raw": "対象年度\n平成２２年度",
@@ -717,7 +722,7 @@
         "status": "remainder_layout_review_pending"
       }
     ],
-    "additionalExternalProposals": 1,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -731,11 +736,11 @@
     "fetchedAt": "2026-10-23T19:21:54.584Z",
     "characters": 20689,
     "continuationParts": 0,
-    "accepted": 11,
+    "accepted": 13,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
-    "proposals": 11,
+    "reviewStatus": "processed",
+    "proposals": 13,
     "holds": [
       {
         "raw": "対象年度\n平成２３年度",
@@ -744,7 +749,7 @@
         "status": "remainder_layout_review_pending"
       }
     ],
-    "additionalExternalProposals": 2,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -758,11 +763,11 @@
     "fetchedAt": "2026-10-23T19:21:57.730Z",
     "characters": 19782,
     "continuationParts": 0,
-    "accepted": 14,
+    "accepted": 16,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
-    "proposals": 14,
+    "reviewStatus": "processed",
+    "proposals": 16,
     "holds": [
       {
         "raw": "対象年度\n平成２４年度",
@@ -771,7 +776,7 @@
         "status": "remainder_layout_review_pending"
       }
     ],
-    "additionalExternalProposals": 2,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -785,11 +790,11 @@
     "fetchedAt": "2026-10-23T19:22:00.106Z",
     "characters": 28502,
     "continuationParts": 0,
-    "accepted": 14,
+    "accepted": 16,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
-    "proposals": 14,
+    "reviewStatus": "processed",
+    "proposals": 16,
     "holds": [
       {
         "raw": "対象年度\n平成２５年度",
@@ -798,7 +803,7 @@
         "status": "remainder_layout_review_pending"
       }
     ],
-    "additionalExternalProposals": 2,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -812,11 +817,11 @@
     "fetchedAt": "2026-10-23T19:22:03.371Z",
     "characters": 27143,
     "continuationParts": 0,
-    "accepted": 15,
+    "accepted": 20,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
-    "proposals": 15,
+    "reviewStatus": "processed",
+    "proposals": 20,
     "holds": [
       {
         "raw": "対象年度\n平成２６年度",
@@ -825,7 +830,7 @@
         "status": "remainder_layout_review_pending"
       }
     ],
-    "additionalExternalProposals": 5,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -839,11 +844,11 @@
     "fetchedAt": "2026-10-23T19:22:06.537Z",
     "characters": 28445,
     "continuationParts": 0,
-    "accepted": 21,
+    "accepted": 23,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
-    "proposals": 21,
+    "reviewStatus": "processed",
+    "proposals": 23,
     "holds": [
       {
         "raw": "対象年度\n平成２７年度",
@@ -852,7 +857,7 @@
         "status": "remainder_layout_review_pending"
       }
     ],
-    "additionalExternalProposals": 2,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -866,11 +871,11 @@
     "fetchedAt": "2026-10-23T19:22:09.551Z",
     "characters": 30315,
     "continuationParts": 0,
-    "accepted": 19,
+    "accepted": 21,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
-    "proposals": 19,
+    "reviewStatus": "processed",
+    "proposals": 21,
     "holds": [
       {
         "raw": "対象年度\n平成２８年度",
@@ -879,7 +884,7 @@
         "status": "remainder_layout_review_pending"
       }
     ],
-    "additionalExternalProposals": 2,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -893,11 +898,11 @@
     "fetchedAt": "2026-10-23T19:22:12.093Z",
     "characters": 30887,
     "continuationParts": 0,
-    "accepted": 19,
+    "accepted": 21,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
-    "proposals": 19,
+    "reviewStatus": "processed",
+    "proposals": 21,
     "holds": [
       {
         "raw": "対象年度\n平成２９年度",
@@ -906,7 +911,7 @@
         "status": "remainder_layout_review_pending"
       }
     ],
-    "additionalExternalProposals": 2,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -920,11 +925,11 @@
     "fetchedAt": "2026-10-23T19:22:14.732Z",
     "characters": 25724,
     "continuationParts": 0,
-    "accepted": 17,
+    "accepted": 18,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
-    "proposals": 17,
+    "reviewStatus": "processed",
+    "proposals": 18,
     "holds": [
       {
         "raw": "対象年度\n平成３０年度",
@@ -933,7 +938,7 @@
         "status": "remainder_layout_review_pending"
       }
     ],
-    "additionalExternalProposals": 1,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -947,11 +952,11 @@
     "fetchedAt": "2026-10-23T19:22:17.420Z",
     "characters": 21239,
     "continuationParts": 0,
-    "accepted": 12,
+    "accepted": 17,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
-    "proposals": 12,
+    "reviewStatus": "processed",
+    "proposals": 17,
     "holds": [
       {
         "raw": "対象年度\n令和元年度",
@@ -966,7 +971,7 @@
         "reason": "県PTA連合会の研修会は町の独立事業としての実施主体が確定せず未採用。"
       }
     ],
-    "additionalExternalProposals": 5,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -980,11 +985,11 @@
     "fetchedAt": "2026-10-23T19:22:20.179Z",
     "characters": 28545,
     "continuationParts": 0,
-    "accepted": 10,
+    "accepted": 14,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
-    "proposals": 10,
+    "reviewStatus": "processed",
+    "proposals": 14,
     "holds": [
       {
         "raw": "対象年度\n令和２年度",
@@ -999,7 +1004,7 @@
         "reason": "2020年度の掲載イベントは中止、2021年度も平和音楽祭・のど自慢は中止と明示。実施済みイベントとして追加しない。"
       }
     ],
-    "additionalExternalProposals": 4,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -1013,11 +1018,11 @@
     "fetchedAt": "2026-10-23T19:22:23.298Z",
     "characters": 24895,
     "continuationParts": 0,
-    "accepted": 13,
+    "accepted": 16,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
-    "proposals": 13,
+    "reviewStatus": "processed",
+    "proposals": 16,
     "holds": [
       {
         "raw": "対象年度\n令和３年度",
@@ -1032,7 +1037,7 @@
         "reason": "2020年度の掲載イベントは中止、2021年度も平和音楽祭・のど自慢は中止と明示。実施済みイベントとして追加しない。"
       }
     ],
-    "additionalExternalProposals": 3,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -1046,11 +1051,11 @@
     "fetchedAt": "2026-10-23T19:22:26.135Z",
     "characters": 26208,
     "continuationParts": 0,
-    "accepted": 16,
+    "accepted": 22,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
-    "proposals": 16,
+    "reviewStatus": "processed",
+    "proposals": 22,
     "holds": [
       {
         "raw": "対象年度\n令和４年度",
@@ -1059,7 +1064,7 @@
         "status": "remainder_layout_review_pending"
       }
     ],
-    "additionalExternalProposals": 6,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -1073,11 +1078,11 @@
     "fetchedAt": "2026-10-23T19:22:29.467Z",
     "characters": 33589,
     "continuationParts": 0,
-    "accepted": 13,
+    "accepted": 19,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
-    "proposals": 13,
+    "reviewStatus": "processed",
+    "proposals": 19,
     "holds": [
       {
         "raw": "対象年度\n令和５年度",
@@ -1092,7 +1097,7 @@
         "reason": "2023・2024年度の両本文に同じ第15回表記。年次の公演同一性が未解決のため、この2行を採用しない。"
       }
     ],
-    "additionalExternalProposals": 6,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -1106,11 +1111,11 @@
     "fetchedAt": "2026-10-23T19:22:32.480Z",
     "characters": 35609,
     "continuationParts": 0,
-    "accepted": 17,
+    "accepted": 21,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
-    "proposals": 17,
+    "reviewStatus": "processed",
+    "proposals": 21,
     "holds": [
       {
         "raw": "対象年度\n令和６年度",
@@ -1125,7 +1130,7 @@
         "reason": "2023・2024年度の両本文に同じ第15回表記。年次の公演同一性が未解決のため、この2行を採用しない。"
       }
     ],
-    "additionalExternalProposals": 4,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -1139,11 +1144,11 @@
     "fetchedAt": "2026-10-23T19:22:35.812Z",
     "characters": 36124,
     "continuationParts": 0,
-    "accepted": 16,
+    "accepted": 21,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
-    "proposals": 16,
+    "reviewStatus": "processed",
+    "proposals": 21,
     "holds": [
       {
         "raw": "対象年度\n令和７年度",
@@ -1152,7 +1157,7 @@
         "status": "remainder_layout_review_pending"
       }
     ],
-    "additionalExternalProposals": 5,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -1177,7 +1182,8 @@
         "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
       }
     ],
-    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
   },
   {
     "sourceId": "55f91f2783eccc9021053454",
@@ -1282,7 +1288,8 @@
         "reason": "Only120000of200262cached characters; no listed continuations;20 complete retrospective sections reviewed; remainder80262absent."
       }
     ],
-    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
   },
   {
     "sourceId": "bfa231ca54805e1cec7b57c9",
@@ -1325,7 +1332,7 @@
     "accepted": 3,
     "duplicates": 94,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 50,
     "holds": [],
     "additionalExternalProposals": 0,
@@ -1345,7 +1352,7 @@
     "accepted": 30,
     "duplicates": 26,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 43,
     "holds": [],
     "additionalExternalProposals": 0,
@@ -1365,7 +1372,7 @@
     "accepted": 1,
     "duplicates": 98,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 50,
     "holds": [],
     "additionalExternalProposals": 0,
@@ -1385,7 +1392,7 @@
     "accepted": 4,
     "duplicates": 96,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 52,
     "holds": [],
     "additionalExternalProposals": 0,
@@ -1432,7 +1439,7 @@
     "accepted": 0,
     "duplicates": 68,
     "parserStatus": "duplicate",
-    "reviewStatus": "aggregate_business_indicators_not_individual_sheets",
+    "reviewStatus": "duplicate",
     "proposals": 0,
     "holds": [
       {
@@ -1926,7 +1933,8 @@
         "reason": "Only120000of465533characters,no listed continuations;146units matched to complete second-list. Existing field enrichment outside current disjoint scope."
       }
     ],
-    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
   },
   {
     "sourceId": "446b28e05121f4e08ad40530",
@@ -1969,7 +1977,7 @@
     "accepted": 8,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 8,
     "holds": [],
     "additionalExternalProposals": 0,
@@ -2016,7 +2024,7 @@
     "accepted": 0,
     "duplicates": 11,
     "parserStatus": "duplicate",
-    "reviewStatus": "existing_annual_cohort_covered",
+    "reviewStatus": "duplicate",
     "proposals": 0,
     "holds": [
       {
@@ -2070,7 +2078,7 @@
     "accepted": 13,
     "duplicates": 2,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 14,
     "holds": [
       {
@@ -2097,7 +2105,7 @@
     "accepted": 14,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 14,
     "holds": [],
     "additionalExternalProposals": 0,
@@ -2117,7 +2125,7 @@
     "accepted": 11,
     "duplicates": 4,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 13,
     "holds": [],
     "additionalExternalProposals": 0,
@@ -2137,7 +2145,7 @@
     "accepted": 14,
     "duplicates": 2,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 15,
     "holds": [],
     "additionalExternalProposals": 0,
@@ -2157,7 +2165,7 @@
     "accepted": 10,
     "duplicates": 10,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 15,
     "holds": [],
     "additionalExternalProposals": 0,
@@ -2204,7 +2212,7 @@
     "accepted": 8,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 8,
     "holds": [
       {
@@ -2231,7 +2239,7 @@
     "accepted": 7,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 7,
     "holds": [
       {
@@ -2258,7 +2266,7 @@
     "accepted": 7,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 7,
     "holds": [
       {
@@ -2320,7 +2328,8 @@
         "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
       }
     ],
-    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
   },
   {
     "sourceId": "45399a74fe0fd15a9b0b68f2",
@@ -2336,7 +2345,7 @@
     "accepted": 6,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 6,
     "holds": [
       {
@@ -2363,7 +2372,7 @@
     "accepted": 8,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 8,
     "holds": [
       {
@@ -2398,7 +2407,8 @@
         "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
       }
     ],
-    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
   },
   {
     "sourceId": "8a545b3f077af11b2c0472ea",
@@ -2414,7 +2424,7 @@
     "accepted": 3,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 3,
     "holds": [
       {
@@ -2424,7 +2434,7 @@
         "status": "ocr_title_identity_hold"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 2,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -2441,7 +2451,7 @@
     "accepted": 1,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 1,
     "holds": [
       {
@@ -2482,7 +2492,8 @@
         "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
       }
     ],
-    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
   },
   {
     "sourceId": "1cd33611e51e9f829600384a",
@@ -2506,7 +2517,8 @@
         "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
       }
     ],
-    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
   },
   {
     "sourceId": "255f50eb4661d6bbd626b10b",
@@ -2530,7 +2542,8 @@
         "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
       }
     ],
-    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
   },
   {
     "sourceId": "62e3d79d656b77f0a4e7fc80",
@@ -2554,7 +2567,8 @@
         "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
       }
     ],
-    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
   },
   {
     "sourceId": "fede86bf82341474079d1c78",
@@ -2570,7 +2584,7 @@
     "accepted": 1,
     "duplicates": 37,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 1,
     "holds": [
       {
@@ -2592,7 +2606,7 @@
         "status": "unit_identity_review_pending"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 1,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -2609,7 +2623,7 @@
     "accepted": 0,
     "duplicates": 40,
     "parserStatus": "duplicate",
-    "reviewStatus": "reviewed_no_individual_rows",
+    "reviewStatus": "duplicate",
     "proposals": 0,
     "holds": [
       {
@@ -2619,7 +2633,7 @@
         "status": "unit_identity_review_pending"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 1,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -2636,7 +2650,7 @@
     "accepted": 1,
     "duplicates": 35,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 1,
     "holds": [
       {
@@ -2670,7 +2684,7 @@
         "status": "unit_identity_review_pending"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 1,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -2687,7 +2701,7 @@
     "accepted": 3,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 3,
     "holds": [
       {
@@ -2726,7 +2740,7 @@
     "accepted": 9,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 9,
     "holds": [
       {
@@ -2742,7 +2756,7 @@
         "status": "attribution_scope_or_future_hold"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 2,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -2759,7 +2773,7 @@
     "accepted": 7,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 7,
     "holds": [
       {
@@ -2781,7 +2795,7 @@
         "status": "attribution_scope_or_future_hold"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 2,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -2798,7 +2812,7 @@
     "accepted": 7,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 7,
     "holds": [
       {
@@ -2820,7 +2834,7 @@
         "status": "attribution_scope_or_future_hold"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 2,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -2872,7 +2886,8 @@
         "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
       }
     ],
-    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
   },
   {
     "sourceId": "0bb860946805609b9e3d9436",
@@ -2896,7 +2911,8 @@
         "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
       }
     ],
-    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
   },
   {
     "sourceId": "988ad6322bf58ef34e4f1086",
@@ -2939,7 +2955,7 @@
     "accepted": 21,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 21,
     "holds": [
       {
@@ -2949,7 +2965,7 @@
         "status": "individual_sheet_followup_pending"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 9,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -2966,7 +2982,7 @@
     "accepted": 20,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 20,
     "holds": [
       {
@@ -2976,7 +2992,7 @@
         "status": "individual_sheet_followup_pending"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 9,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -2993,7 +3009,7 @@
     "accepted": 21,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 21,
     "holds": [
       {
@@ -3003,7 +3019,7 @@
         "status": "individual_sheet_followup_pending"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 11,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -3020,7 +3036,7 @@
     "accepted": 21,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 21,
     "holds": [
       {
@@ -3030,7 +3046,7 @@
         "status": "individual_sheet_followup_pending"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 9,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -3047,7 +3063,7 @@
     "accepted": 16,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 16,
     "holds": [
       {
@@ -3057,7 +3073,7 @@
         "status": "individual_sheet_followup_pending"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 12,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -3074,7 +3090,7 @@
     "accepted": 17,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 17,
     "holds": [
       {
@@ -3084,7 +3100,7 @@
         "status": "individual_sheet_followup_pending"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 10,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -3101,7 +3117,7 @@
     "accepted": 14,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 14,
     "holds": [
       {
@@ -3142,7 +3158,8 @@
         "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
       }
     ],
-    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
   },
   {
     "sourceId": "5bf31f5329c96f144ea3c8e6",
@@ -3166,7 +3183,8 @@
         "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
       }
     ],
-    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
   },
   {
     "sourceId": "400cae5df52ad34a2da37c89",
@@ -3190,7 +3208,8 @@
         "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
       }
     ],
-    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
   },
   {
     "sourceId": "3eae62161990ea780a7e39f3",
@@ -3214,7 +3233,8 @@
         "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
       }
     ],
-    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
   },
   {
     "sourceId": "c0b68afe6b511f08a453c47a",
@@ -3238,7 +3258,8 @@
         "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
       }
     ],
-    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
   },
   {
     "sourceId": "1d51f4abc136b7e746266d7c",
@@ -3262,7 +3283,8 @@
         "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
       }
     ],
-    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
   },
   {
     "sourceId": "7333b82a714c958d027df394",
@@ -3305,7 +3327,7 @@
     "accepted": 2,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 2,
     "holds": [
       {
@@ -3332,7 +3354,7 @@
     "accepted": 2,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 2,
     "holds": [
       {
@@ -3359,7 +3381,7 @@
     "accepted": 3,
     "duplicates": 0,
     "parserStatus": "processed",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "processed",
     "proposals": 3,
     "holds": [
       {
@@ -3386,7 +3408,7 @@
     "accepted": 0,
     "duplicates": 7,
     "parserStatus": "duplicate",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "duplicate",
     "proposals": 3,
     "holds": [
       {
@@ -3440,7 +3462,7 @@
     "accepted": 0,
     "duplicates": 7,
     "parserStatus": "duplicate",
-    "reviewStatus": "initial_family_review_with_named_units",
+    "reviewStatus": "duplicate",
     "proposals": 3,
     "holds": [
       {
