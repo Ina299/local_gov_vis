@@ -1,0 +1,112 @@
+{
+  "prefecture": "37",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-01T12:57:13.753059+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "37406",
+      "municipalityName": "まんのう町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "46a16ffe08cf120b4f32e86d9a28120a302c2921fae3d5a174218a5b57f8939d"
+    },
+    {
+      "municipalityCode": "37404",
+      "municipalityName": "多度津町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7d08b9dfa9b2723a80a5c7028d64b1f2d59c7d35ba34217ab66b6a1603abb422"
+    },
+    {
+      "municipalityCode": "37403",
+      "municipalityName": "琴平町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "093307788be8646224e543042e42b0a6df25330082a3ef1d9307ba82b6df588f"
+    },
+    {
+      "municipalityCode": "37387",
+      "municipalityName": "綾川町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "88d96e654dd78e49c5cca464a45e16ab2983768c788a9de28119a7971bc7c586"
+    },
+    {
+      "municipalityCode": "37386",
+      "municipalityName": "宇多津町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ac64de238d1e17e442d3a7e9cf7a7d3bad6281f62eede172ccc8aa8d065e2638"
+    },
+    {
+      "municipalityCode": "37364",
+      "municipalityName": "直島町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "56c2d873fcd6f7033b6cb829eb1bec0e03d5ef153ece1fe76052d39bdf538003"
+    },
+    {
+      "municipalityCode": "37341",
+      "municipalityName": "三木町",
+      "datasetSha256": "c8ba4c617985f6ffbb891537619d8e1a399c03b90ff49e806a5131dc772613ed",
+      "evidenceShardSha256": "738f5a0b1b81894c850d6eecfe15b57fb7dbfb659c82f2954e24e059fe22c80d"
+    },
+    {
+      "municipalityCode": "37324",
+      "municipalityName": "小豆島町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e3de41ef691f84704f3bd79bbda4d4352a20563e5ec4b5c6f7ba7ae0a91433c3"
+    },
+    {
+      "municipalityCode": "37322",
+      "municipalityName": "土庄町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "5edaa1dc523780e38fa4e0452434caa8fc507576c42dea857bda4c34297f5c40"
+    },
+    {
+      "municipalityCode": "37208",
+      "municipalityName": "三豊市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "0345d2602866fb8b9e1f819e88af1a8d5bf524721a18948b59f36a1094e85fcc"
+    },
+    {
+      "municipalityCode": "37207",
+      "municipalityName": "東かがわ市",
+      "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8",
+      "evidenceShardSha256": "88c9274a0cccd3eccb792f3abfb74ad7986c2868fba77239295e908c1a3d338c"
+    },
+    {
+      "municipalityCode": "37206",
+      "municipalityName": "さぬき市",
+      "datasetSha256": "d3982ca9526c2ab47a71728b25c577a13258b639ee09109963b51047b5705eb3",
+      "evidenceShardSha256": "804d8ae69f12f9702bd7435715fdee723424719474e8910866f3d7daf400be43"
+    },
+    {
+      "municipalityCode": "37205",
+      "municipalityName": "観音寺市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "bc48ce9134fbb464d99ab4a86c0b5857ed1819c0857f55d53b5c44d59a0d533c"
+    },
+    {
+      "municipalityCode": "37204",
+      "municipalityName": "善通寺市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a453d044c5c6564f782d7c5cf2237eae12543b6b9b8c1afc9d2cceaab5b25e27"
+    },
+    {
+      "municipalityCode": "37203",
+      "municipalityName": "坂出市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "19be72924c226b8f58b094d63987f839c7f8065173e8c54e87a350bbdd2ca841"
+    },
+    {
+      "municipalityCode": "37201",
+      "municipalityName": "高松市",
+      "datasetSha256": "592ed05f5576eceaf0613524896f7ac86d639388c45fb52b15d2e7b167d9a781",
+      "evidenceShardSha256": "349728477a20e19f2560d365f04881adf5b2983a218b97e4a405abb4dc757605"
+    }
+  ],
+  "skipped": [
+    {
+      "municipalityCode": "37202",
+      "municipalityName": "丸亀市",
+      "reason": "Recent master dataset differs from common baseline"
+    }
+  ]
+}
