@@ -1,0 +1,3218 @@
+[
+  {
+    "start": 4577,
+    "name": "一般事務費",
+    "raw": "1 一般事務費",
+    "firstFollowing": "・ 事務用品\n・ 書籍代\n・ 法令等書籍追録代\n・ 新聞代\n・ 出納員領収書\n・ 備品管理用印刷物\n・ コピー用紙\n・ トナー代\n・ 振込手数料\n・ 収納手数料\n・ 郵便振替取扱手数料\n・ 金庫ダイヤ",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 5617,
+    "name": "一般事務費",
+    "raw": "3 一般事務費",
+    "firstFollowing": "・ 旅費\n・ 需用費\n・ 負担金、補助及び交付金\n\n係法令等に基づく監査を実施した。\n\n行政監査(地方自治法第199条第2項)\n郵便切手等の保有・管理状況について行政監査を\n146,110 実施し、保",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 7127,
+    "name": "議会運営費",
+    "raw": "3 議会運営費",
+    "firstFollowing": "・ 委員会研修講師謝礼\n・ 教育論文議長賞\n・ 金長狸まつり児童写生大会議長賞\n・ 普通旅費（諸会議等出席旅費:随行分）\n・ 費用弁償（諸会議等出席旅費）\n・ 議長交際費\n・ 各種会議来客用お茶等\n・",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 7836,
+    "name": "会議録作成事業",
+    "raw": "4 会議録作成事業",
+    "firstFollowing": "・ 会議録作成事業消耗品\n・ 議事録作成及び議事録検索\nシステム作成委託料\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n2,921,072 （事業の目的・内容）\n6,237 議事録公開の原",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 8198,
+    "name": "議会だより作成事業",
+    "raw": "5 議会だより作成事業",
+    "firstFollowing": "・ 図書カード\n・ 議会だより折込手数料\n・ 議会だより作成委託料\n\n2,388,228 （事業の目的・内容）\n15,000 市議会の活動をわかりやすく伝え、市民に議\n143,924 会や市政に関心を",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 9278,
+    "name": "議会図書室運営事業",
+    "raw": "6 議会図書室運営事業",
+    "firstFollowing": "・ 書籍代購入費等\n\nの\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n307,493 （事業の目的・内容）\n議員の調査研究に資するため、図書室を附置\nし、図書及び刊行物を保管する。会議録、",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 9563,
+    "name": "政務活動費",
+    "raw": "7 政務活動費",
+    "firstFollowing": "・ 政務活動費補助金\n8 一般事務費\n・ 消耗品費\n・ 議会公用車燃料代\n・ 庁内一括購入消耗品費\n・ 通信運搬費\n・ コピー使用料\n・ ケーブルテレビ利用料\n・ 庁用器具購入費\n\n2,101,769",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 9582,
+    "name": "一般事務費",
+    "raw": "8 一般事務費",
+    "firstFollowing": "・ 消耗品費\n・ 議会公用車燃料代\n・ 庁内一括購入消耗品費\n・ 通信運搬費\n・ コピー使用料\n・ ケーブルテレビ利用料\n・ 庁用器具購入費\n\n2,101,769 （施策の成果）\n議員の調査研究その他",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 11645,
+    "name": "市制施行記念事業費",
+    "raw": "1 市制施行記念事業費",
+    "firstFollowing": "・ 市制施行74周年記念式典\n\n168,002 （事業の目的・内容）\n市制施行記念日である6月1日に小松島市表彰\n条例に基づき市政功労者や市民の模範と認めら\nれる方を表彰し、本市の自治振興促進や市民と",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 11776,
+    "name": "一般行政推進事業費",
+    "raw": "2 一般行政推進事業費",
+    "firstFollowing": "・ 各種イベント等市長賞\n・ 諸会参加旅費等\n・ 市長交際費\n・ 公用車関連費\n・ その他一般事務費等\n・ バス借上料\n\n3,592,748 （施策の成果）\n46,900 各種イベント等における優秀者",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 12027,
+    "name": "諸会会費",
+    "raw": "3 諸会会費",
+    "firstFollowing": "・ 全国市長会分担金\n・ 徳島県市長会分担金\n・ その他負担金等\n\n1,531,600 （施策の成果）\n266,000 各種協議会等に参加し、情報共有や要望活動\n1,056,000 を行うなど、市政の",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 12274,
+    "name": "広報広聴推進事業費",
+    "raw": "1 広報広聴推進事業費",
+    "firstFollowing": "・ 広報こまつしま発行費\n・ 新聞広報費\n・ ラジオ広報費\n・ ケーブルテレビ広報費\n・ LED大型ビジョン放映料\n・ その他一般事務費\n\n総務費\n\nの\n\n広報「こまつしま」配布率（%）\n全世帯に対す",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 17644,
+    "name": "行政推進事業",
+    "raw": "3 行政推進事業",
+    "firstFollowing": "・ 行政改革推進懇話会謝礼\n・ 事務用品\n・ 会議録作成業務委託料\n・ データ入力業務委託料\n\n321,491 （事業の目的・内容）\n30,500 行政改革プランの評価検証を行うため、小松\n82,42",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 19400,
+    "name": "市長等特別職給与費",
+    "raw": "1 市長等特別職給与費",
+    "firstFollowing": "・ 給料\n・ 職員手当等\n・ 共済費\n\n29,815,486 （施策の成果）\n18,996,000 小松島市長及び副市長の給与条例に基づき、\n6,181,775 給与等を支給した。\n4,637,711",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 20163,
+    "name": "職員研修事業",
+    "raw": "1 職員研修事業",
+    "firstFollowing": "・ 市町村吏員研修等（102人)\n・ 人権問題研修（41人)\n・ 市主催研修（431人)\n・ 市町村アカデミー研修(1人)\n・ オンラインセミナー研修(１人)\n（1人）\n（109人）\n・ その他研修(",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 21271,
+    "name": "職員健康管理事業",
+    "raw": "2 職員健康管理事業",
+    "firstFollowing": "・ メンタルヘルス支援業務委託料\n・ 産業医委託料\n・ ストレスチェック支援業務委託料\n・ 職員健康診断委託料\n(定期・雇入れ時健康診断)(269人)\n\n・ 職員健康診断委託料\n\n(人間ドック)(38",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 21446,
+    "name": "職員採用関係費",
+    "raw": "3 職員採用関係費",
+    "firstFollowing": "・ 試験監督謝礼\n・ 職員採用試験委託料\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・評価・今後の方向性\n\n指標人\n健康診断等受診者数（人）\n8,585,794 （事業の目的・内",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 23087,
+    "name": "諸会会費",
+    "raw": "4 諸会会費",
+    "firstFollowing": "・ 安全運転管理者等受講負担金\n・ 社会保険協会会費\n\n33,300 （施策の成果）\n15,300 事業所の安全運転管理者として、安全運転管\n18,000 理協会による講習等に参加し、職員の安全運転\n",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 23203,
+    "name": "団体補助金",
+    "raw": "5 団体補助金",
+    "firstFollowing": "・ 職員共済会運営補助金\n\n700,000 （施策の成果）\n職員共済会に補助金を交付し、職員の福利厚\n生事業に補助を行った。\n\n6 一般事務費\n・ 事務用品及び書籍代\n・ 法令等書籍追録代\n・ アルコ",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 23275,
+    "name": "一般事務費",
+    "raw": "6 一般事務費",
+    "firstFollowing": "・ 事務用品及び書籍代\n・ 法令等書籍追録代\n・ アルコール検知器代\n・ 人事評価システム使用許諾及\nび保守委託料\n\n・ 人事給与管理システム保守委\n託料\n\n・ 人事給与管理システム改修業\n務委託料（",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 35848,
+    "name": "一般事務費",
+    "raw": "3 一般事務費",
+    "firstFollowing": "・ 全選連四国支部総会等\n・ 消耗品費等\n・ 全選連四国支部定期総会出席負担金等\n\n337,756\n16,060\n311,696\n10,000\n\n4 諸会会費\n・ 全選連分担金等\n\n43,800\n\n総",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 35929,
+    "name": "諸会会費",
+    "raw": "4 諸会会費",
+    "firstFollowing": "・ 全選連分担金等\n\n43,800\n\n総務費\n\n選挙費\n\n選挙啓発費\n\n1 選挙啓発費\n・ 明るい選挙啓発ポスター\n参加賞等\n\n14,021\n\n-37-\n\n成果指標・評価・今後の方向性\n\n\n主\n総務費",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 35972,
+    "name": "選挙啓発費",
+    "raw": "1 選挙啓発費",
+    "firstFollowing": "・ 明るい選挙啓発ポスター\n参加賞等\n\n14,021\n\n-37-\n\n成果指標・評価・今後の方向性\n\n\n主\n総務費\n1\n\n要\n\n施\n\n選挙費\n\n策\n\n等\n\nの\n\n内\n\n容\n\n事業の目的内容・施策の成果・",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 39132,
+    "name": "電算システム管理運営事業",
+    "raw": "1 電算システム管理運営事業",
+    "firstFollowing": "・ 消耗品\n・ ネットワーク通信費\n・ ホームページ調整業務委託料\n・ システム標準化対応業務委託料\n・ DX推進事業委託料\n・ セキュリティ強化保守委託料\n・ 基幹業務ハードウェア保守委託料\n・ 製",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 41337,
+    "name": "国勢調査事業",
+    "raw": "5 国勢調査事業",
+    "firstFollowing": "・ 報酬\n・ 職員手当等\n・ 共済費\n・ 旅費\n・ 需用費\n・ 役務費\n・ 委託料\n・ 使用料及び賃借料\n6 経済センサス活動調査事業\n\n5,000 （施策の成果）\n毎月の人口移動調査をはじめ各種調査",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 41399,
+    "name": "経済センサス活動調査事業",
+    "raw": "6 経済センサス活動調査事業",
+    "firstFollowing": "5,000 （施策の成果）\n毎月の人口移動調査をはじめ各種調査の実施\n14,000 にあたり精度の高い調査結果となるよう適正な\n事務に努めた。\n6,000 令和7年国勢調査（10月1日基準日、調査員\n",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 42705,
+    "name": "市税過誤納金還付事業",
+    "raw": "1 市税過誤納金還付事業",
+    "firstFollowing": "・ 市税還付金\n・法人市民税\n・市県民税\n・固定資産税\n・配当・株式等譲渡所得割\n・ 市税還付加算金\n\n34,585,393 （施策の成果）\n34,447,593 過年度における収納済の市税について、",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 42964,
+    "name": "不足額給付金給付事業",
+    "raw": "2 不足額給付金給付事業",
+    "firstFollowing": "・ 時間外勤務手当\n・ 事務用品\n・ 封筒印刷代\n・ 電話代\n・ 郵送代\n・ 振込手数料\n・ 不足額給付金対応業務委託料\n・ 不足額給付金\n\n指標名\n－\n89,106,502 （事業の目的・内容）\n9",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 43767,
+    "name": "一般事務費",
+    "raw": "1 一般事務費",
+    "firstFollowing": "・ 庁用消耗品・書籍等\n・ 追録代\n・ お茶代\n・ 各種帳票類印刷代等\n・ 税務調査資料作成手数料\n・ 郵便振替取扱手数料\n・ 市税等取扱手数料\n・ 決済取扱手数料\n・ 口座振替手数料\n・ 市税等口座",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 44539,
+    "name": "税務関係システム経費",
+    "raw": "2 税務関係システム経費",
+    "firstFollowing": "・ 固定資産システム保守委託料\n・ 家屋評価システム保守委託料\n・ 滞納管理システム保守委託料\n・ システム標準化対応業務委託料\n・ 地方税電子申告システム等\n改修業務委託料\n・ 個人住民税システム改",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 45550,
+    "name": "諸会会費",
+    "raw": "3 諸会会費",
+    "firstFollowing": "・ 資産評価システム研究セン\nター年会費\n・ 租税教育推進協議会負担金\n・ 軽自動車検査情報提供サー\nビス利用料\n\n217,671 （施策の成果）\n75,000 地方公共団体情報システム機構のデータ活",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 45695,
+    "name": "団体補助金",
+    "raw": "4 団体補助金",
+    "firstFollowing": "・ たばこ販売増収対策事業補\n助金\n\n70,000 （施策の成果）\n市たばこ税の安定確保に寄与することを目的\nに、喫煙環境の向上事業、喫煙ルールの普及活\n動及び市内でのたばこ販売促進に取り組む団体\nに",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 45839,
+    "name": "地方税広域共同事務事業",
+    "raw": "5 地方税広域共同事務事業",
+    "firstFollowing": "・ コンビニ交付証明書発行手\n数料\n・ 地方税共同機構負担金\n・ 市町村総合事務組合負担金\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・評価・今後の方向性\n\n所得（課税）証明書の",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 50901,
+    "name": "施設管理運営費",
+    "raw": "1 施設管理運営費",
+    "firstFollowing": "・ 会計年度任用職員報酬\n・ 職員手当等\n・ 共済費\n・ 旅費(会計年度任用職通勤分)\n・ 消耗品費\n・ LED照明器具代\n・ 燃料費・光熱水費\n・ 施設修繕料\n・ 電話代等\n・ 建物維持管理委託料\n",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 51876,
+    "name": "自主公演事業",
+    "raw": "2 自主公演事業",
+    "firstFollowing": "・ 運営委員報酬(委員長1名・委員5名)\n・ チラシポスター印刷他代\n・ ピアノ調律代\n・ 映画上映技師料\n・ イベント保険料\n・ 入場券販売手数料\n・ 自主公演事業委託料等\n・ ホール管理・操作等業",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 54163,
+    "name": "免疫力向上事業",
+    "raw": "1 免疫力向上事業",
+    "firstFollowing": "・ アプリイベント景品\n・ 散歩用アプリケーションサ\nーバ使用料\n・ ポイント引換負担金\n\n1,384,522 （事業の目的・内容）\n149,522 防災に関する啓発機能を搭載した健康増進ア\n792,",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 55870,
+    "name": "災害対策事業",
+    "raw": "3 災害対策事業",
+    "firstFollowing": "・ 災害対応時間外勤務手当\n・ 会計年度任用職給\n・ 職員手当等\n・ 共済費\n・ 災害対策事業消耗品\n・ 可搬型衛星通信設備通信料\n・ 被災者生活再建支援システ\nムサービス使用料\n・ 土のう用砂\n・ ",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 56311,
+    "name": "諸会会費",
+    "raw": "4 諸会会費",
+    "firstFollowing": "・ 徳島県排出油防除協議会負\n担金\n・ 徳島県ネットワークシステ\nム負担金\n・ 徳島県総合情報通信ネット\nワークシステム再整備工事\n負担金\n\n8,715,629 （施策の成果）\n10,000 徳島県総",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 56547,
+    "name": "一般事務費",
+    "raw": "5 一般事務費",
+    "firstFollowing": "・ 事務用品\n・ トナー代\n・ 防災用消耗品代\n・ 公用車燃料代\n・ その他の燃料代\n・ 会議用お茶代\n・ 水道代\n・ 公用車車検代\n・ コピー用紙\n・ トナー代\n・ 切手代\n・ 携帯電話使用料\n・ ",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 56933,
+    "name": "防災行政無線管理事業",
+    "raw": "6 防災行政無線管理事業",
+    "firstFollowing": "・ 電気代\n・ 保守点検業務委託料\n・ 防災行政無線設備更新業務\n委託料\n・ アプリサーバ使用料\n・ 維持管理負担金\n・ 無線技士講習受講負担金\n・ 電波利用料\n\n22,324,574 （事業の目的・",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 57873,
+    "name": "地域防災力強化事業",
+    "raw": "7 地域防災力強化事業",
+    "firstFollowing": "・ 防災士養成事業補助金\n・ 自主防災組織活動支援補助\n金\n・ 地域防災組織育成事業\nコミュニティ助成金\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・評価・今後の方向性\n\n自主防",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 59009,
+    "name": "津波避難施設整備事業",
+    "raw": "8 津波避難施設整備事業",
+    "firstFollowing": "・ 許可申請手数料\n・ 家屋事前調査業務委託料\n・ 和田島北部地区津波避難施\n設新築工事\n・ 公道工事負担金（補助分）\n\n9 震災対策事業\n・ 防災訓練実施に伴う時間外\n勤務手当\n・ 避難所用災害用品",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 59083,
+    "name": "震災対策事業",
+    "raw": "9 震災対策事業",
+    "firstFollowing": "・ 防災訓練実施に伴う時間外\n勤務手当\n・ 避難所用災害用品\n・ 防災訓練等消耗品\n・ 備蓄保存食\n・ 備蓄品管理サービス端末通\n信料\n・ 防災訓練用資機材調達手数\n料\n・ 津波避難ビル看板設置業務\n",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 62235,
+    "name": "津波避難施設整備事業",
+    "raw": "1 津波避難施設整備事業",
+    "firstFollowing": "・ 家屋事前調査業務委託料\n\n整備進捗率（%）\n事業費ベース\nR6\nR7\nR8\nR9\n46\n75\n100\n0\n12\n37\nR6決算\nR7決算\nR8予算\n市民一人\n事業費\n財源内訳\nあたりコスト\n2,0",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 64574,
+    "name": "救急・救助資機材経費",
+    "raw": "2 救急・救助資機材経費",
+    "firstFollowing": "・ 救急用消耗品\n・ 救助活動消耗品\n・ 救急用書類印刷製本費\n・ 酸素充填料\n・ 資機材修繕料\n・ エアー充填・空気容器検査料\n・ 救急救助用資機材保守点検業\n務委託料\n・ リネンサプライ料\n・ 救",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 64698,
+    "name": "職員研修経費",
+    "raw": "3 職員研修経費",
+    "firstFollowing": "・ 緊急消防援助隊合同訓練旅費\n・ 2級小型船舶免許取得委託料\n・ B型肝炎予防接種委託料\n・ ワクチン接種委託料\n・ 大型免許取得委託料\n・ 安全運転管理者講習会会費\n・ 玉掛け・小型クレーン講習会",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 65569,
+    "name": "被服貸与費",
+    "raw": "4 被服貸与費",
+    "firstFollowing": "・ アポロキャップ\n・ 救助用ヘルメット\n・ 制服\n・ 防火衣\n・ 新規採用職員被服貸与費\n\n5 消防車両等管理整備費\n・ 消防車両管理消耗品\n・ 公用車燃料代\n・ 消防車等車検代\n・ 消防車等修理代",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 65624,
+    "name": "消防車両等管理整備費",
+    "raw": "5 消防車両等管理整備費",
+    "firstFollowing": "・ 消防車両管理消耗品\n・ 公用車燃料代\n・ 消防車等車検代\n・ 消防車等修理代\n・ 資機材修繕料\n・ 自動車損害保険料\n・ 屈折はしご付自動車保守点検委\n託料\n\n・ 自動車重量税\n\n6 消防防災航空",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 66229,
+    "name": "一般事務費",
+    "raw": "7 一般事務費",
+    "firstFollowing": "・ 全国消防長会四国支部事務担当\n者会議\n\n・ 全国消防長会総会\n・ 事務用品及び書籍追録代\n・ 清掃用品代\n・ ガス代\n・ 位置情報受信システム回線使用料\n・ 可搬型衛星地球局回線利用料\n・ 携帯電",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 67241,
+    "name": "諸会会費",
+    "raw": "8 諸会会費",
+    "firstFollowing": "・ 救急事後検証業務負担金\n・ 県消防長会負担金\n・ 全国消防協会負担金\n・ 全国消防長会負担金\n\n（施策の成果）\n電話通訳センターを介した三者間通話を運用する\nことで、外国人からの119番通報や現場",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 67867,
+    "name": "救急救命士養成事業",
+    "raw": "9 救急救命士養成事業",
+    "firstFollowing": "・ 気管内挿管病院実習負担金\n・ 救急救命士病院研修負担金\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n377,666 （事業の目的・内容）\n366,666 複雑多様化及び高度化する救急事",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 68183,
+    "name": "警防資機材経費",
+    "raw": "10 警防資機材経費",
+    "firstFollowing": "・ 警防用消耗品\n・ 原因調査用消耗品\n・ 警防資機材修繕料\n\n11 消防あそび事業\n・ 事業消耗品\n・ 公開訓練用資機材購入費\n\nR6\n\nR7\n\nR8\n\n12\n13\n\n14\n13\n\nR6決算\n2,6",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 68226,
+    "name": "消防あそび事業",
+    "raw": "11 消防あそび事業",
+    "firstFollowing": "・ 事業消耗品\n・ 公開訓練用資機材購入費\n\nR6\n\nR7\n\nR8\n\n12\n13\n\n14\n13\n\nR6決算\n2,604,253\n\nR7決算\n377,666\n\nR9\n14\n\n14\n\nR8予算\n市民一人\n",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 69582,
+    "name": "消防団車両等管理整備費",
+    "raw": "2 消防団車両等管理整備費",
+    "firstFollowing": "・ 消防車車検代\n・ 消防車修理代\n・ 自動車損害保険料\n・ 自動車重量税\n\n3 消防団活動費\n・ 優秀分団表彰賞（賞金）\n・ 出初式記念品\n・ 出初式報償金\n・ 消防団員活動服\n・ 出初式煙火打上委",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 69635,
+    "name": "消防団活動費",
+    "raw": "3 消防団活動費",
+    "firstFollowing": "・ 優秀分団表彰賞（賞金）\n・ 出初式記念品\n・ 出初式報償金\n・ 消防団員活動服\n・ 出初式煙火打上委託料\n・ 分団機械維持委託料\n・ 第1分団詰所借地料\n・ 消防団燃料等負担金\n・ ひさご婦人消防",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 69779,
+    "name": "消防団研修経費",
+    "raw": "4 消防団研修経費",
+    "firstFollowing": "・ 消防団員訓練研修委託料\n・ 消防学校入校経費負担金\n・ 団員福祉・共済費補助金\n\n5 諸会会費\n・ 消防協会分会長会議負担金\n・ 消防協会分会長視察研修負担金\n・ 消防協会理事監事会負担金\n\n38",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 69832,
+    "name": "諸会会費",
+    "raw": "5 諸会会費",
+    "firstFollowing": "・ 消防協会分会長会議負担金\n・ 消防協会分会長視察研修負担金\n・ 消防協会理事監事会負担金\n\n38,287,570 （施策の成果）\n4,487,400 消防団員に年額報酬及び出動報酬を支給した。\n1",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 70785,
+    "name": "消防施設整備事業",
+    "raw": "1 消防施設整備事業",
+    "firstFollowing": "・ 広島防衛施設局補助申請・協議\n・ 位置情報システム更新導入業務委\n託料\n\n・ 樹木伐採業務委託料\n・ 消防水利廃止業務委託料\n・ 高速道路使用料\n・ 消防用ホース購入費\n・ 車両購入費\n・ 消防設",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 72822,
+    "name": "住民基本台帳事務費",
+    "raw": "2 住民基本台帳事務費",
+    "firstFollowing": "・ 会計年度任用職報酬\n・ 職員手当等\n・ 共済費\n・ 旅費\n・ 書籍追録代\n・ 個人番号カード関連事務費\n・ 住基用事務用品\n・ 改ざん防止用紙\n(各種証明書用)\n・ コピー使用料\n・ 各種証明書決",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 74082,
+    "name": "戸籍事務費",
+    "raw": "3 戸籍事務費",
+    "firstFollowing": "・ 会計年度任用職報酬\n・ 職員手当等\n・ 共済費\n・ 旅費\n・ 戸籍用事務用品\n・ 通知書郵便料(振り仮名)\n・ 通知書作成業務委託料\n(振り仮名)\n・ 戸籍システム改修業務\n委託料(振り仮名)\n・",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 95851,
+    "name": "老人ルーム運営事業",
+    "raw": "4 老人ルーム運営事業",
+    "firstFollowing": "・ 給料\n・ 職員手当等\n・ 共済費\n・ 消耗品費\n・ 燃料費\n・ 光熱水費\n・ 施設修繕料\n・ 電話代\n・ 手数料\n・ 施設賠償責任保険料\n・ 業務委託料\n・ 使用料\n\n3,380,297 （事業の",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 96483,
+    "name": "世代間交流健康センター運営事業",
+    "raw": "5 世代間交流健康センター運営事業",
+    "firstFollowing": "・ 指定管理委託料\n・ 交流事業委託料\n\n6 一般事務費\n・ 旅費\n・ 消耗品費\n・ 公用車関係費\n・ 水道代\n・ 医療材料費\n・ 印刷機等修繕料\n・ 手数料等\n・ 使用料\n・ 負担金\n7 団体補助金",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 96523,
+    "name": "一般事務費",
+    "raw": "6 一般事務費",
+    "firstFollowing": "・ 旅費\n・ 消耗品費\n・ 公用車関係費\n・ 水道代\n・ 医療材料費\n・ 印刷機等修繕料\n・ 手数料等\n・ 使用料\n・ 負担金\n7 団体補助金\n・ 人権擁護委員会補助金\n8 施設管理費\n・ 光熱水費\n",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 96595,
+    "name": "団体補助金",
+    "raw": "7 団体補助金",
+    "firstFollowing": "・ 人権擁護委員会補助金\n8 施設管理費\n・ 光熱水費\n・ 施設小修理\n・ 手数料\n・ 業務委託料\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・評価・今後の方向性\n\n施設利用者数",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 96616,
+    "name": "施設管理費",
+    "raw": "8 施設管理費",
+    "firstFollowing": "・ 光熱水費\n・ 施設小修理\n・ 手数料\n・ 業務委託料\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・評価・今後の方向性\n\n施設利用者数（人）\n入浴施設、健康器具、各種相談・講座",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 97564,
+    "name": "人権啓発活動地方委託事業",
+    "raw": "9 人権啓発活動地方委託事業",
+    "firstFollowing": "・ 報償金\n・ 消耗品費\n・ 食糧費\n・ 印刷製本費\n・ 要約筆記委託料\n\nの\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n事業にかかる年間総参加数（人）\n指標名\n358,291 （事業の",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 98543,
+    "name": "小松島厚生福祉解放センター運営事業",
+    "raw": "2 小松島厚生福祉解放センター運営事業",
+    "firstFollowing": "・ 旅費\n・ 消耗品費\n・ 燃料費\n・ 光熱水費\n・ 施設修繕料\n・ 電話代\n・ 回線使用料\n・ 介護拠点用浴槽水質検査料\n・ 浄化槽法定検査料\n・ 浴場施設賠償責任保険料\n・ 業務委託料\n・ NHK",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 98675,
+    "name": "教養文化活動事業",
+    "raw": "3 教養文化活動事業",
+    "firstFollowing": "・ 報償金\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・評価・今後の方向性\n\n指標名\nセンター利用人数（人）\n3,653,669 （事業の目的・内容）\nセンターを利用した人数（教",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 100145,
+    "name": "目佐厚生福祉解放センター運営事業",
+    "raw": "2 目佐厚生福祉解放センター運営事業",
+    "firstFollowing": "2,503,356 （事業の目的・内容）\n1,700 市民の社会的文化的生活の向上を図ることを\n28,743 目的とし、各種会合、相談対応等を行ってい\n20,833 る。また、施設を維持管理している。",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 100563,
+    "name": "教養文化活動事業",
+    "raw": "3 教養文化活動事業",
+    "firstFollowing": "・ 報償金\n\n成果指標・評価・今後の方向性\n\n指標名\n指標の説明\n年度\n目標\n実績\n\nセンター利用人数（人）\nセンターを利用した人数（教養文化講座参加者を除く）\n\nR6\nR7\nR8\nR9\n1,500\n",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 101629,
+    "name": "泰地総合センター運営事業",
+    "raw": "2 泰地総合センター運営事業",
+    "firstFollowing": "・ 旅費\n・ 消耗品費\n・ 燃料費\n・ 光熱水費\n・ 電話代\n・ 回線使用料\n・ 浄化槽法定検査料\n・ 業務委託料\n・ 使用料\n・ 庁用器具購入費\n・ 清掃用備品購入費\n・ 負担金\n\nセンター利用人数",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 102365,
+    "name": "教養文化活動事業",
+    "raw": "3 教養文化活動事業",
+    "firstFollowing": "・ 報償金\n\n1,008,000 （事業の目的・内容）\n住民の相互交流を図ることを目的として、教\n養文化講座を各講座1回あたり2時間で月数回程\n度実施している。\n\n教養文化講座参加者数（人）\n教養文化",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 104343,
+    "name": "葬斎場管理運営費",
+    "raw": "1 葬斎場管理運営費",
+    "firstFollowing": "・ 燃料費(灯油代・ガス代)\n・ 電気代\n・ 水道代\n・ 警備委託料\n・ 火葬業務委託料\n・ 葬斎場運営業務指定管理委託料\n・ 空調機修繕業務委託料\n・ 火葬炉保守管理業務委託料\n・ 葬斎場施設協力金",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 105843,
+    "name": "ごみ減量・再資源化推進事業",
+    "raw": "2 ごみ減量・再資源化推進事業",
+    "firstFollowing": "・ ごみカレンダー代\n・ 粗大ごみ収集パンフレット代\n・ ごみカレンダー等折込手数料\n・ 資源ごみリサイクル委託料\n・ ごみ分別アプリケーション使用料\n・ 粗大ごみ受付管理システム\n等使用料\n・ 電気",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 107113,
+    "name": "動物愛護管理適正化事業",
+    "raw": "3 動物愛護管理適正化事業",
+    "firstFollowing": "・ 狂犬病予防事業消耗品\n・ 犬・猫の避妊去勢手術推進\n業務委託料\n・ 狂犬病予防事務委託料\n・ 飼い主のいない猫不妊・去\n勢手術費補助金\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 108814,
+    "name": "一般事務費",
+    "raw": "4 一般事務費",
+    "firstFollowing": "・ 事務所用消耗品費及び書籍代\n・ 公用車車検代\n・ 公用車修理代\n・ 事務所修繕費\n・ コピー用紙代\n・ トナー代\n・ 電話代等\n・ 浄化槽法定検査料\n・ 自動車損害保険料\n・ 大型免許取得委託料\n",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 110238,
+    "name": "ごみ焼却施設管理運営事業",
+    "raw": "3 ごみ焼却施設管理運営事業",
+    "firstFollowing": "・ 焼却施設用消耗品代\n・ 薬品代\n・ 焼却残渣等マニフェスト代\n・ 重油代\n・ 電気代\n・ 水道代\n・ ごみ焼却施設修理料\n・ ごみ焼却施設測定業務委託料\n・ ごみ焼却施設運転業務委託料\n・ 汚泥ピ",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 111561,
+    "name": "収集車両関係費",
+    "raw": "4 収集車両関係費",
+    "firstFollowing": "・ 消耗品費\n・ 燃料代（軽油等）\n・ 車検代\n・ 修理代\n・ 自動車損害保険料\n・ 油圧ショベル借上料\n・ ごみ収集車購入費\n・ バックモニター購入費\n・ 自動車重量税\n\n指標名\nごみ収集量（トン）",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 113548,
+    "name": "一般事務費",
+    "raw": "6 一般事務費",
+    "firstFollowing": "・ 消耗品費\n・ ガス代（収集事務所風呂用）\n・ 燃料代（灯油）\n・ 熱中症対策アメ代等\n・ 計量票等印刷代\n・ 作業員被服代\n・ 処分手数料\n・ 火災警備委託料（収集事務所）\n・ 備品購入費\n・ 汚",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 113854,
+    "name": "資源ごみ関係費",
+    "raw": "7 資源ごみ関係費",
+    "firstFollowing": "・ 資源ごみ（紙類）収集運搬\n業務委託料\n\n7,339,410 （事業の目的・内容）\n可燃ごみの減量化及びリサイクル推進のた\nめ、紙類については新聞・雑誌・段ボール等に\n分類したうえで、収集運搬業務に",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 114733,
+    "name": "ごみ焼却施設整備事業",
+    "raw": "8 ごみ焼却施設整備事業",
+    "firstFollowing": "・ ごみ焼却施設整備工事設計\n書審査業務委託料\n・ ごみ焼却施設整備工事\n\n67,958,000 （事業の目的・内容）\n2,046,000 老朽化しているごみ焼却施設を新処理施設の\n稼働まで延命化する",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 115522,
+    "name": "周辺環境整備事業",
+    "raw": "9 周辺環境整備事業",
+    "firstFollowing": "・ 物品修繕料(道路防犯灯)\n・ 施設修繕料\n\n6,134,335 （事業の目的・内容）\n56,100 ごみ処理施設周辺地域の住民に対し施設運営\n1,061,695 の理解・協力を得るため、地域内の道",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 116660,
+    "name": "最終処分場管理運営費",
+    "raw": "1 最終処分場管理運営費",
+    "firstFollowing": "・ 施設維持管理用消耗品代\n・ 薬品代\n・ ガス代\n・ 油圧ショベル燃料代\n・ 電気代\n・ 水道代\n・ 電話代\n・ 浄化槽法定検査料\n・ 油圧ショベル特定自主検査料\n・ 水質測定業務委託料\n・ 最終処",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 117553,
+    "name": "ごみ焼却施設整備事業",
+    "raw": "1 ごみ焼却施設整備事業",
+    "firstFollowing": "・ ごみ焼却施設整備工事\n\n169,488,000 （事業の目的・内容）\n\n老朽化しているごみ焼却施設を新処理施設の\n稼働まで延命化するため、必要な整備を実施す\nる。\n工事に必要な機器や部材などの調達",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 118794,
+    "name": "一般事務費",
+    "raw": "2 一般事務費",
+    "firstFollowing": "・ 消耗品等\n・ 電話代等\n・ コピー使用料\n3 会計年度任用職員給与費等\n・ 報酬\n・ 職員手当等\n・ 共済費\n社会福祉費\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・評価・今後の方",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 119207,
+    "name": "障がい者等医療給付事業",
+    "raw": "1 障がい者等医療給付事業",
+    "firstFollowing": "・ 重度心身障がい者医療費支給\n・診療費（入院）\n948件\n・診療費（入院外）5,023件\n・診療費（歯科） 2,593件\n・調剤\n6,788件\n・訪問看護\n3,216件\n・整骨院等\n304件\n\n・ ",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 120560,
+    "name": "一般事務費",
+    "raw": "2 一般事務費",
+    "firstFollowing": "・ 消耗品等\n・ 審査支払手数料\n・ システム保守業務委託料\n・ システム改修業務委託料\n・ コピー使用料\n民生費\n\n社会福祉費\n\n1 後期高齢者広域連合負担金\n・ 事務費負担金\n・ 療養給付費負担金",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 120634,
+    "name": "後期高齢者広域連合負担金",
+    "raw": "1 後期高齢者広域連合負担金",
+    "firstFollowing": "・ 事務費負担金\n・ 療養給付費負担金\n\n646,358,188 （事業の目的・内容）\n33,153,847 法令の規定に基づき、市町村が後期高齢者医\n613,204,341 療広域連合に事務費負担金",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 122089,
+    "name": "子どもはぐくみ医療費助成事業",
+    "raw": "1 子どもはぐくみ医療費助成事業",
+    "firstFollowing": "・ 審査支払手数料\n・ 診療費（入院）\n280件\n・ 診療費（入院外）51,884件\n・ 診療費（歯科） 16,590件\n・ 調剤\n19,905件\n・ 治療用装具\n56件\n・ 柔道整復師施術\n1,52",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 123176,
+    "name": "一般事務費",
+    "raw": "2 一般事務費",
+    "firstFollowing": "・ 消耗品等\n・ コピー使用料\n\n37,524 （施策の成果）\n32,191 消耗品の購入等\n5,333\n\n3 未熟児養育医療費助成事業\n・ 審査支払手数料\n・ 医療費\n\n助成件数（件）\n指標名\n47",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 123238,
+    "name": "未熟児養育医療費助成事業",
+    "raw": "3 未熟児養育医療費助成事業",
+    "firstFollowing": "・ 審査支払手数料\n・ 医療費\n\n助成件数（件）\n指標名\n477,778 （事業の目的・内容）\n医療機関等からの請求に基づき、医療費を助成した件数\n332 国の公費負担医療制度であり、母子保健法第6 ",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 125980,
+    "name": "妊産婦・乳幼児健診事業",
+    "raw": "2 妊産婦・乳幼児健診事業",
+    "firstFollowing": "・ 消耗品費等\n・ 審査手数料・県内医療機関\n連絡手数料\n・ 医師等委託傷害保険料\n・ 乳児健診医師委託料\n・ 脱臼検診委託料\n・ 乳児一般・妊婦一般健診・\n産婦一般健診（医療機関）\n・ 1歳6か月児",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 127539,
+    "name": "子育て支援事業",
+    "raw": "3 子育て支援事業",
+    "firstFollowing": "・ 母子保健推進員報償費\n・ 言語聴覚士報償費\n・ 消耗品・賄材料費\n・ 助産師訪問指導委託料\n・ 教育用器具購入費\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n421,713 （事業の目",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 128455,
+    "name": "精神障がい者デイケア事業",
+    "raw": "4 精神障がい者デイケア事業",
+    "firstFollowing": "・ 作業療法用消耗品・材料費\n\n1,741 （事業の目的・内容）\n地域で生活している精神障がい者にゲーム、\nスポーツなどのグループ活動を通じて社会復帰\nを促進し、安心して地域で集える場所を提供す\nる。",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 129010,
+    "name": "救急医療対策事業",
+    "raw": "5 救急医療対策事業",
+    "firstFollowing": "・ 救急医療在宅当番医委託料\n・ 救急医療対策費補助金\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n10,638,000 （事業の目的・内容）\n2,916,000 休日や夜間の軽症者に対す",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 129358,
+    "name": "健康づくり事業",
+    "raw": "6 健康づくり事業",
+    "firstFollowing": "・ 健康づくり推進協議会委員報酬\n委員長（1名）委員（9名）\n\n・ 健康づくりのつどい委託料\n\n成果指標・評価・今後の方向性\n指標名\n指標の説明\n年度\n目標\n実績\n\n搬送者数（人）\n南部Ⅰ医療圏に属す",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 130410,
+    "name": "一般事務費",
+    "raw": "7 一般事務費",
+    "firstFollowing": "・ 保健師活動消耗品\n・ コピー用紙代\n・ トナー代\n・ 電話代\n・ 事務手数料\n・ 災害用医療資材定期更新委託料\n\n・ シュレッダー購入費\n・ 市町村保健師連絡協議会会費\n\n内\n\n容\n\n事業の目的内",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 130718,
+    "name": "自殺対策事業",
+    "raw": "8 自殺対策事業",
+    "firstFollowing": "・ 事務用品\n・ チラシ・ポスター印刷代\n・ 映画上映業務委託料\n・ こころの体温計業務委託料\n・ コピー使用料\n\n指標名\n講座参加者数（人）\n329,134 （事業の目的・内容）\n5,885 誰もが",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 132115,
+    "name": "不妊・不育症治療費等助成事業",
+    "raw": "10 不妊・不育症治療費等助成事業",
+    "firstFollowing": "・ 不妊治療費助成金\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n1,937,323 （事業の目的・内容）\n子どもを望み不妊治療等を実施する夫婦への\n経済的負担の軽減を図るため、医療保険が",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 133179,
+    "name": "定期予防接種等事業",
+    "raw": "1 定期予防接種等事業",
+    "firstFollowing": "・ 会計年度任用職報酬\n・ 職員手当等\n・ 共済費\n・ 予防接種健康被害調査委員\n会謝礼\n・ 消耗品費\n・ 予防接種広域化事務費\n・ 予防接種事故保険料\n・ 乳幼児等予防接種\n・ インフルエンザ予防接",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 135113,
+    "name": "健康増進事業",
+    "raw": "1 健康増進事業",
+    "firstFollowing": "・ 会計年度任用職報酬（管理\n栄養士、栄養士）\n・ 職員手当等\n・ 共済費\n・ 選定会議委員報償金\n・ 公用車燃料代\n・ 公用車車検代・修理代\n・ 自動車損害保険料\n・ 健康教育、相談関係費用\n・ 生",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 136566,
+    "name": "がん検診事業",
+    "raw": "2 がん検診事業",
+    "firstFollowing": "・ 会計年度任用職報酬\n・ 胃内視鏡検診運営会議委員\n謝礼(4人)\n・ 胃内視鏡検診研修会講師謝礼\n・ 消耗品費\n・ がん検診問診票等印刷代\n・ 郵便料\n・ 胃がん検診委託料（医療機関）\n・ 乳がん検",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 137733,
+    "name": "がん検診推進事業",
+    "raw": "3 がん検診推進事業",
+    "firstFollowing": "・ 会計年度任用職報酬（一般\n事務）\n・ 職員手当等\n・ 共済費\n・ 消耗品費\n・ 個別の勧奨・再勧奨費用\n・ 子宮頸がん検診委託料\n・ 乳がん検診委託料\n・ 国庫補助金精算返還金\n\nがん検診推進事業",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 141997,
+    "name": "こども計画策定会議運営事業",
+    "raw": "1 こども計画策定会議運営事業",
+    "firstFollowing": "・ こども計画策定会議委員報酬\n・ 消耗品費\n・ 会議用お茶代\n・ 印刷製本費\n・ 庁内一括調達消耗品\n・ 郵送料\n・ こども計画策定業務委託料\n\n2,494,477 （事業の目的・内容）\n133,5",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 144056,
+    "name": "妊婦のための支援給付事業",
+    "raw": "2 妊婦のための支援給付事業",
+    "firstFollowing": "・ 会計年度任用職報酬(一般事務)\n・ 職員手当等\n・ 共済費\n・ 会計年度任用職通勤分\n・ 事務用品等\n・ 庁内一括調達消耗品\n・ 郵便料\n・ 振込手数料\n・ 妊婦のための支援給付交付金\n\n内\n\n容",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 146522,
+    "name": "自立相談支援事業",
+    "raw": "1 自立相談支援事業",
+    "firstFollowing": "・ 委託料\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・評価・今後の方向性\n\n426,000 （施策の成果）\n市内の医療機関等で亡くなった引き取り手の\nないご遺体2体について、墓地、埋",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 146660,
+    "name": "生活困窮者自立支援事業",
+    "raw": "2 生活困窮者自立支援事業",
+    "firstFollowing": "・ 委託料\n\n社会福祉費\n\n内\n\n社会福祉費\n\n1 行旅病人扶助費\n・ 扶助費\n\n民生費\n\nの\n\n総相談件数（件）\n指標名\n指標の説明 電話来所、出張相談、訪問等により相談に至った件数\n年度\nR6\nR",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 146698,
+    "name": "行旅病人扶助費",
+    "raw": "1 行旅病人扶助費",
+    "firstFollowing": "・ 扶助費\n\n民生費\n\nの\n\n総相談件数（件）\n指標名\n指標の説明 電話来所、出張相談、訪問等により相談に至った件数\n年度\nR6\nR7\nR8\nR9\n目標\n1,200\n900\n900\n－\n実績\n815\n",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 148202,
+    "name": "生活保護適正化事業",
+    "raw": "2 生活保護適正化事業",
+    "firstFollowing": "・ 会計年度任用職報酬\n・ 会計年度任用職職員手当等\n・ 会計年度任用職共済費\n・ 会計年度任用職通勤費\n・ レセプトデータ提供料\n・ レセプトオンライン資格確\n認電子証明書発行手数料\n・ 生活保護シ",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 149567,
+    "name": "一般事務費",
+    "raw": "3 一般事務費",
+    "firstFollowing": "・ 生活保護嘱託医報酬\n・ 消耗品・書籍代\n・ 公用車燃料代\n・ 庁内一括調達消耗品\n・ 調査資料作成手数料\n・ 国保連介護給付費審査支払委託料\n・ 診療報酬支払基金審査支払委託料\n・ コピー使用料\n",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 149868,
+    "name": "被保護者就労支援事業",
+    "raw": "4 被保護者就労支援事業",
+    "firstFollowing": "・ 会計年度任用職報酬\n・ 会計年度任用職職員手当等\n・ 共済費\n・ 旅費\n・ 消耗品\n・ 公用車燃料代\n\n2,378,388 （事業の目的・内容）\n1,631,864 生活保護受給者の自立を促すため",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 150716,
+    "name": "生活保護事業",
+    "raw": "1 生活保護事業",
+    "firstFollowing": "・ 生活扶助費\n・ 教育扶助費\n・ 住宅扶助費\n・ 医療扶助費\n・ 介護扶助費\n・ その他扶助費(生業、葬祭等)\n・ 保護施設事務費\n・ 国庫負担金精算返還金\n\n2 生活保護費等追加給付事業\n・ シス",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 150806,
+    "name": "生活保護費等追加給付事業",
+    "raw": "2 生活保護費等追加給付事業",
+    "firstFollowing": "・ システム改修委託料\n\n1,072,848,963 （事業の目的・内容）\n\n273,669,349 生活保護法に基づき、生活に困窮している方\n2,566,746 に対し、健康で文化的な最低限度の生活",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 154328,
+    "name": "基本型利用者支援事業",
+    "raw": "1 基本型利用者支援事業",
+    "firstFollowing": "・ 会計年度任用職報酬\n・ 職員手当等\n・ 共済費\n・ 事務用品\n・ 法令等書籍追録代\n・ 電気代\n・ 水道代\n・ 通信費\n・ 浄化槽法定検査料\n・ 浄化槽保守管理委託料\n・ 消防設備保守点検業務委託",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 156733,
+    "name": "次世代育成支援対策推進事業",
+    "raw": "1 次世代育成支援対策推進事業",
+    "firstFollowing": "・ 児童福祉施設クリスマス訪問\n・ 徳島新聞企画事業補助金\n\n527,859 （事業の目的・内容）\n299,700 市長等がサンタクロースに扮して児童福祉施\n228,159 設を訪問のうえ、子ども達に",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 159885,
+    "name": "子育て短期支援事業",
+    "raw": "2 子育て短期支援事業",
+    "firstFollowing": "・ 子育て短期支援利用者扶助費\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n672,760 （事業の目的・内容）\n保護者からの利用相談や申請に基づき、市が\n養育・保護の可否を決定のうえ利用",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 160797,
+    "name": "一般事務費",
+    "raw": "3 一般事務費",
+    "firstFollowing": "・ 要保護児童対策地域協議会\n委員報酬\n（委員長含む17人）\n・ 公用車燃料代\n・ 会議用お茶代\n\n119,822 （施策の成果）\n60,500 要保護児童対策地域協議会の代表者会議に関係\n機関の代表",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 161667,
+    "name": "社会福祉憲章条例事業",
+    "raw": "2 社会福祉憲章条例事業",
+    "firstFollowing": "・ 母子家庭等児童入学祝金\n・ 事務用品\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・評価・今後の方向性\n\n入学祝金対象児童数（人）\n指標名\n407,648 （事業の目的・内容）",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 162500,
+    "name": "児童扶養手当扶助費",
+    "raw": "3 児童扶養手当扶助費",
+    "firstFollowing": "・ 児童扶養手当給付費\n\nの\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・評価・今後の方向性\n\n児童扶養手当受給者数（人）\n指標名\n132,442,250 （事業の目的・内容）\n",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 163641,
+    "name": "一般事務費",
+    "raw": "4 一般事務費",
+    "firstFollowing": "・ 職員手当等\n・ 事務用品\n・ 公用車燃料代\n・ システム保守点検委託料\n・ 児童扶養手当障がい判定業\n務委託料\n・ コピー使用料\n・ 徳島県自立支援員連絡協議\n会負担金\n・ 母子寡婦福祉連合会補助",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 163983,
+    "name": "助産施設入所者保護費",
+    "raw": "5 助産施設入所者保護費",
+    "firstFollowing": "・ 助産施設入所者保護費\n・ 児童福祉施設入所者措置費\n・ 国費精算返還金\n\n1,134,970 （事業の目的・内容）\n504,870 助産制度については、経済的理由により入院\n130,100 出産が",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 164918,
+    "name": "母子家庭等対策総合支援事業",
+    "raw": "6 母子家庭等対策総合支援事業",
+    "firstFollowing": "・ 母子家庭自立支援給付負担\n金\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n757,353 （事業の目的・内容）\nひとり親家庭の生活の安定と経済的な自立を\n目標とした、適職に就くための資",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 165894,
+    "name": "児童手当扶助費",
+    "raw": "1 児童手当扶助費",
+    "firstFollowing": "・ 児童手当扶助費\n・ 国費精算返還金\n\n等\n\nの\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・評価・今後の方向性\n\n児童手当費\n当該年度における支給予定児童数（人）\n指標名\n5",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 167141,
+    "name": "一般事務費",
+    "raw": "2 一般事務費",
+    "firstFollowing": "・ 事務用品\n・ コピー用紙\n・ トナー代\n3 物価高対応子育て応援手当給\n付事業\n・ 職員手当等\n・ 事業消耗品\n・ 印刷製本費\n・ 郵便料\n・ 振込手数料\n・ システム改修委託料\n・ コピー使用料",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 171328,
+    "name": "児童遊園管理事業",
+    "raw": "1 児童遊園管理事業",
+    "firstFollowing": "・ 公園管理消耗品\n・ 草刈機燃料代\n・ 電気代\n・ 水道代\n・ 遊具等修繕料\n・ 樹木伐採・草刈り等業務委\n託料\n・ 遊具点検業務委託料\n・ 赤石児童遊園用地借地料\n\n461,506 （事業の目的・",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 172350,
+    "name": "放課後児童健全育成事業",
+    "raw": "2 放課後児童健全育成事業",
+    "firstFollowing": "・ 消耗品費\n・ 施設修繕料\n・ 放課後児童健全育成事業委\n託料\n・ 放課後児童クラブ保育料軽\n減事業補助金\n・ 放課後児童クラブ育成支援\n体制強化事業補助金\n\n民生費\n\n児童福祉費\n\n内\n\n容\n\n事",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 173844,
+    "name": "公立施設等運営費",
+    "raw": "3 公立施設等運営費",
+    "firstFollowing": "・入所・卒園記念品\n・需用費\n・電話代・保険料等\n・業務委託料\n・使用料及び賃借料\n・備品購入費\n・負担金、補助金及び交付金\n・保育所等保護費\n\nの\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 179651,
+    "name": "一時預かり事業",
+    "raw": "6 一時預かり事業",
+    "firstFollowing": "・ 一時預かり事業委託料\n\nの\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・評価・今後の方向性\n\n6,186,000 （事業の目的・内容）\n保護者が仕事や入院等で家庭での保育が一",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 180782,
+    "name": "地域活動事業",
+    "raw": "7 地域活動事業",
+    "firstFollowing": "・ 世代間交流事業補助金\n・ 異年齢児交流事業補助金\n・ 小学校低学年児童受入事業\n補助金\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n1,774,000 （事業の目的・内容）\n387,0",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 181210,
+    "name": "延長保育事業",
+    "raw": "8 延長保育事業",
+    "firstFollowing": "・ 延長保育促進事業補助金\n\n3,275,600 （事業の目的・内容）\n保護者の働き方が多様化する中、保護者のニーズ\nに応えるため、民間の認定こども園・保育園の延長\n保育事業にかかる費用を助成すること",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 182617,
+    "name": "病児保育事業",
+    "raw": "9 病児保育事業",
+    "firstFollowing": "・ 病児保育広域利用推進事業\n費負担金\n・ 病児保育事業補助金（体調\n不良児対応型）\n・ 病児保育施設整備事業費補\n助金\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・評価・今後の",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 184071,
+    "name": "児童・職員健康診断事業",
+    "raw": "10 児童・職員健康診断事業",
+    "firstFollowing": "・ 児童健康診断委託料（内科）\n・ 児童健康診断委託料（歯科）\n・ 保育所職員健康診断委託料\n（腸内細菌検査料）\n・ 入所時健康診断業務委託料\n・ 児童尿検査委託料\n\n内\n\n容\n\n事業の目的内容・施策",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 184645,
+    "name": "団体補助金",
+    "raw": "11 団体補助金",
+    "firstFollowing": "・ 小松島市保育所後援会連合\n会運営補助金\n・ 小松島・勝浦地区保育協議\n会運営補助金\n12 精算返還金\n\n・ 子ども・子育て支援交付金\n\n精算返還金\n・\n\n子どものための教育・保育\n給付交付金精算返",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 185724,
+    "name": "児童館運営費",
+    "raw": "2 児童館運営費",
+    "firstFollowing": "・ クリスマス・お別れ会\n・ 児童館卒業者記念品\n・ 人権教育研修会講師謝礼\n・ 児童館運営経費\n・ 浄化槽保守管理委託料\n・ 消防設備保守点検業務委託料\n・ ネズミ・害虫駆除委託料\n・ 備品購入費\n",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 187897,
+    "name": "民生委員活動事業",
+    "raw": "1 民生委員活動事業",
+    "firstFollowing": "・ 委託料\n\n7,477,000 （事業の目的・内容）\n民生委員・児童委員の研修や活動を支援する\nことで、委員同士の情報共有、意見交換等をす\nすめ、各委員の資質向上を図る。\n（施策の成果）\n住民にとっ",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 188146,
+    "name": "社会福祉協議会事業",
+    "raw": "2 社会福祉協議会事業",
+    "firstFollowing": "・ 敬老の集い委託料\n・ 福祉電話設置委託料\n・ 高齢者食事サービス委託料\n・ 小松島市社会福祉協議会運\n営補助\n・ 小松島市社会福祉協議会事\n業補助\n・ 小松島市総合福祉センター\n管理費補助\n・ 地",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 189556,
+    "name": "成年後見中核機関運営事業",
+    "raw": "3 成年後見中核機関運営事業",
+    "firstFollowing": "・ 中核機関運営協議会謝礼\n・ 業務委託料\n・ コピー使用料\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n1,256,753 （事業の目的・内容）\n42,000 認知症や知的・精神障害など",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 190594,
+    "name": "地域福祉計画策定事業",
+    "raw": "4 地域福祉計画策定事業",
+    "firstFollowing": "・ 地域福祉計画策定協議会委\n員報酬\n・ 事務用品\n・ 郵便料\n・ 計画策定支援業務委託料\n\n民生費\n\n社会福祉費\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n※計画の策定を目的とするため",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 192746,
+    "name": "地域介護予防活動支援事業",
+    "raw": "2 地域介護予防活動支援事業",
+    "firstFollowing": "・ 介護予防ポイント景品代\n・ 地域介護予防活動支援事業\n委託料\n・ 高齢者の生きがいと健康づ\nくり推進事業委託料\n・ 友愛訪問活動促進事業委託\n料\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 193980,
+    "name": "生活支援体制整備事業",
+    "raw": "3 生活支援体制整備事業",
+    "firstFollowing": "・ 消耗品費\n・ 生活支援体制整備業務委託\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n6,690,253 （事業の目的・内容）\n8,457 「生活支援コーディネーター」を市社会福祉\n6,",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 195650,
+    "name": "参加支援事業",
+    "raw": "5 参加支援事業",
+    "firstFollowing": "・ 事務用品\n・ 参加支援事業委託料\n\nの\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n5,307,550 （事業の目的・内容）\n31,350 長期間にわたり社会から孤立している住民の\n5",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 196069,
+    "name": "多機関協働事業",
+    "raw": "6 多機関協働事業",
+    "firstFollowing": "・ 研修会講師謝礼\n・ 事務用品代\n・ 多機関協働事業委託料\n・ コピー使用料\n\n9,273,475 （事業の目的・内容）\n10,000 複雑・複合的な課題を抱える住民やその世帯\n93,966 に対し",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 197645,
+    "name": "老人ホーム入所判定事業",
+    "raw": "2 老人ホーム入所判定事業",
+    "firstFollowing": "・ 老人ホーム入所判定委員会\n委員報酬\n3 生活支援ハウス運営事業\n・ 委託料\n\n37,960,115 （施策の成果）\n20,382,300 地域共生社会推進に関する事務を行う職員5名\n10,927,",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 197679,
+    "name": "生活支援ハウス運営事業",
+    "raw": "3 生活支援ハウス運営事業",
+    "firstFollowing": "・ 委託料\n\n37,960,115 （施策の成果）\n20,382,300 地域共生社会推進に関する事務を行う職員5名\n10,927,596 分の人件費を支弁した。\n6,650,219\n80,000 （",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 198603,
+    "name": "緊急通報体制等整備事業",
+    "raw": "4 緊急通報体制等整備事業",
+    "firstFollowing": "・ 委託料\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n3,793,240 （事業の目的・内容）\n65歳以上のひとり暮らしの高齢者又は高齢者のみ\nの世帯、ひとり暮らしの重度の障がい者又は重",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 200506,
+    "name": "老人福祉扶助費",
+    "raw": "7 老人福祉扶助費",
+    "firstFollowing": "・ 介護保険利用者負担措置補\n助費（社会福祉法人減免\n分）\n・ 老人福祉施設入所者保護費\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n68,186,007 （事業の目的・内容）\n465,0",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 200897,
+    "name": "一般事務費",
+    "raw": "8 一般事務費",
+    "firstFollowing": "・ 事務用品\n・ 社会福祉法人会計監査委託料\n・ 要援護者支援システム保守\n業務委託料\n・ 国費精算返還金\n・ 県費返還金\n9 介護保険特別会計繰出金\n\n973,125 （施策の成果）\n24,898 ",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 201637,
+    "name": "高齢者緊急時一時預かり事業",
+    "raw": "10 高齢者緊急時一時預かり事業",
+    "firstFollowing": "・ 委託料\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n（今後の課題）\n高齢者虐待や徘徊高齢者の発見等事案を把握\nした際に迅速かつ適切に対応できるよう、平常\n時から委託先である社会福祉法人",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 202500,
+    "name": "基金積立費",
+    "raw": "1 基金積立費",
+    "firstFollowing": "・ 福祉基金積立金利子\n\n高齢者預かり日数（日）\n年間延べ日数\nR6\nR7\nR8\nR9\n目標設定に適さない\n23\n6\nR6決算\nR7決算\nR8予算\n市民一人\n事業費\n財源内訳\n507,500\n515,",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 203325,
+    "name": "社会福祉憲章条例事業",
+    "raw": "2 社会福祉憲章条例事業",
+    "firstFollowing": "・ 重度心身障害児福祉手当\n・ 重度心身障害者福祉手当\n・ 重度知的障害者（児）等福\n祉手当\n・ 心身障害者扶養共済掛金扶助\n・ 事務用品・封筒\n\n4,552,301 （事業の目的・内容）\n1,311",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 203663,
+    "name": "一般事務費",
+    "raw": "3 一般事務費",
+    "firstFollowing": "・ 需用費\n・ 障がい福祉システム保守委託料\n・ システム改修業務委託料\n・ 標準化対応業務委託料\n・ 備品購入費\n・ 障害者総合支援事業費補助金\n\n6,873,742 （施策の成果）\n33,602 ",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 204220,
+    "name": "特別障害者手当等支給事業",
+    "raw": "4 特別障害者手当等支給事業",
+    "firstFollowing": "・ 特別障害者手当費\n・ 障害児福祉手当費\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n15,490,910 （事業の目的・内容）\n13,054,370\n「特別児童扶養手当等の支給に関する",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 205817,
+    "name": "地域生活支援事業",
+    "raw": "2 地域生活支援事業",
+    "firstFollowing": "・ 会計年度任用職給（手話通\n訳士）\n・ 会計年度任用職員報酬\n・ 職員手当等\n・ 共済費\n・ 成年後見人報償費\n・ 消耗品費\n・ 手話通訳者派遣事業\n・ 手話奉仕員派遣事業\n・ 要約筆記派遣事業\n・",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 207173,
+    "name": "障がい福祉サービス事業",
+    "raw": "3 障がい福祉サービス事業",
+    "firstFollowing": "・ 報酬\n・ 職員手当等\n・ 共済費\n・ 費用弁償\n・ 審査支払手数料\n・ 共同処理負担金\n・ 障がい福祉サービス給付費\n・ 自立支援医療費\n・ 障がい児給付費\n・ 国庫負担金精算返還金\n\n内\n\n容\n",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 208201,
+    "name": "障がい者相談支援事業",
+    "raw": "1 障がい者相談支援事業",
+    "firstFollowing": "・ 報酬\n・ 職員手当等\n・ 共済費\n・ 障がい者相談員手当\n・ 費用弁償\n・ 障がい者相談員ボランティ\nア保険料\n・ 相談支援事業委託料\n・ 相談支援事業委託料(虐待対\n応)\n\n10,929,264",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 209030,
+    "name": "地域活動支援センター事業",
+    "raw": "2 地域活動支援センター事業",
+    "firstFollowing": "・ 地域活動支援センター事業\n補助金\n・ 地域活動支援センター事業\n委託料（目：重層的支援体\n制整備費分）\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n6,000,000 （事業の目的・内容）\n",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 209839,
+    "name": "障がい者支援事業",
+    "raw": "1 障がい者支援事業",
+    "firstFollowing": "・ 心身障がい児（者）在宅介\n護等支援事業介護者報償金\n・ 心身障がい児（者）在宅介\n護等支援事業介護者保険料\n・ 身体障害者連合会補助金\n\n548,700 （事業の目的・内容）\n227,200 在宅",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 210647,
+    "name": "障がい児支援事業",
+    "raw": "2 障がい児支援事業",
+    "firstFollowing": "・ 障がい児通所支援事業副食\n費免除補助金\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n497,040 （事業の目的・内容）\n障がい児の保護者の副食費の負担を軽減する\nことを目的として、児",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 214931,
+    "name": "農業関係施設管理業務",
+    "raw": "1 農業関係施設管理業務",
+    "firstFollowing": "・ 維持管理消耗品\n・ 電気代\n・ 施設修繕料\n・ 浄化槽法定検査料\n・ 浄化槽保守管理委託料\n・ 芝田多目的研修センター指\n定管理委託料\n\n1,247,163 （事業の目的・内容）\n7,678 農業",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 215202,
+    "name": "鳥獣被害防止事業",
+    "raw": "2 鳥獣被害防止事業",
+    "firstFollowing": "・ 市有害鳥獣捕獲対策協議会\n補助金\n\n840,000 （事業の目的・内容）\n有害鳥獣の捕獲を行い、農作物等への被害防\n止を図る。\n（施策の成果）\n予察捕獲を行い、野生鳥獣による農作物等へ\nの被害の軽",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 216301,
+    "name": "中山間地域等支援事業",
+    "raw": "3 中山間地域等支援事業",
+    "firstFollowing": "・ 消耗品費\n・ 公用車燃料代\n・ コピー使用料\n・ 自動車リース料\n・ 中山間地域等直接支払事業\n補助金\n\n5,045,512 （事業の目的・内容）\n61,729 中山間地域等において補助金を活用し",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 216606,
+    "name": "農業振興費負担金・補助金",
+    "raw": "4 農業振興費負担金・補助金",
+    "firstFollowing": "・ 小松島市担い手育成総合支\n援協議会補助金\n\n237,218 （事業の目的・内容）\n関係機関等への負担金及び補助金の交付によ\nり、地域の農林業分野における健全な発展の推\n進を図る。\n（施策の成果）\n",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 217619,
+    "name": "認定農業者等支援事業",
+    "raw": "5 認定農業者等支援事業",
+    "firstFollowing": "・ 小松島市認定農業者組織支\n援事業補助金\n\n指標名\n50,000 （事業の目的・内容）\n市内の認定農業者で組織する｢小松島市認定農 指標の説明\n年度\n業者連絡協議会｣を通じて、経営改善や担い手の\n目",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 217791,
+    "name": "一般事務費",
+    "raw": "6 一般事務費",
+    "firstFollowing": "・ 公用車車検代\n・ 公用車修理代\n・ 自動車損害保険料\n・ 農振農地管理システム\n保守更新委託料\n・ 自動車重量税\n\n288,184\n42,064\n1,980\n17,540\n220,000\n\n7 環",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 217896,
+    "name": "環境保全型農業直接支払事業",
+    "raw": "7 環境保全型農業直接支払事業",
+    "firstFollowing": "・ 消耗品費\n・ 公用車燃料代\n・ コピー使用料\n・ 環境保全型農業直接支払事\n業補助金\n\n成果指標・評価・今後の方向性\n\n6,600\n取組面積（ha）\n指標名\n4,445,400 （事業の目的・内容",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 219080,
+    "name": "経営所得安定対策事業",
+    "raw": "8 経営所得安定対策事業",
+    "firstFollowing": "・ 会計年度任用職報酬 1人\n・ 職員手当等\n・ 共済費\n・ 会計年度任用職通勤分\n・ 消耗品費\n・ 公用車燃料代\n・ コピー使用料\n・ 小松島市地域農業再生協議\n会補助金\n\n4,815,000 （事",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 219449,
+    "name": "生物多様性農業推進事業",
+    "raw": "9 生物多様性農業推進事業",
+    "firstFollowing": "・ 学校給食無農薬米供給促進\n事業負担金\n・ 生物多様性農業推進事業補\n助金（市生物多様性農業推\n進協議会）\n\n2,499,423 （事業の目的・内容）\n535,600 農業者、県、JA等で構成する小",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 220283,
+    "name": "県単独農業振興事業",
+    "raw": "10 県単独農業振興事業",
+    "firstFollowing": "・ とくしま農山漁村未来投資\n事業補助金\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n14,134,000 （事業の目的・内容）\n持続可能な農業を展開するため、経営規模の\n拡大や経営転換に",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 220825,
+    "name": "新規就農者支援事業",
+    "raw": "11 新規就農者支援事業",
+    "firstFollowing": "・ 消耗品費\n・ コピー使用料\n・ 農業次世代人材投資資金\n（経営開始型）\n・ 新規就農者育成総合対策\n（経営開始資金）\n\n2,948,000 （事業の目的・内容）\n247,248 農業従事者が減少す",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 221559,
+    "name": "畜産事業費",
+    "raw": "1 畜産事業費",
+    "firstFollowing": "・ 徳島県畜産協会安定指導事\n業負担金\n\n50,000 （事業の目的・内容）\n畜産物の安定生産及び安定供給を図るため、\n徳島県畜産協会に対し、支援を行う。\n（施策の成果）\n徳島県畜産協会に対し、負担金",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 221816,
+    "name": "排水機場等管理費",
+    "raw": "1 排水機場等管理費",
+    "firstFollowing": "・ 重油代\n・ 電気代\n水道代\n・ 施設修繕料\n・ 浄化槽法定検査料\n・ 浄化槽保守管理委託料\n・ 排水機場管理業務委託料\n・ 電気工作物保守委託料\n\n排水面積（ha）\n集水する面積\nR6\nR7\nR8",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 222603,
+    "name": "多面的機能支払交付金事業",
+    "raw": "2 多面的機能支払交付金事業",
+    "firstFollowing": "・ 会計年度任用職報酬 1人\n・ 自動車リース料\n・ 共済費\n・ 消耗品費\n・ 公用車燃料代\n・ システム保守委託料\n・ コピー使用料等\n・ 多面的機能支払交付金事業\n・ 補助金\n\n内\n\n容\n\n事業の",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 223136,
+    "name": "農地費負担金",
+    "raw": "3 農地費負担金",
+    "firstFollowing": "・ 北岸用水除塵機維持管理業\n務負担金\n・ 新居見用水路工事負担金\n\n1,975,000 （施策の成果）\n1,300,000 北岸用水除塵機の管理費を支援し、設備の適\n切な維持管理に努めた。\n675,",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 223921,
+    "name": "一部事務組合負担金",
+    "raw": "5 一部事務組合負担金",
+    "firstFollowing": "・ 那賀川北岸湛水防除施設組\n合負担金\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n3,750,000 （事業の目的・内容）\n那賀川北岸地域（阿南市・小松島市）の農地\nへの湛水被害を防止す",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 224209,
+    "name": "一般事務費",
+    "raw": "6 一般事務費",
+    "firstFollowing": "・ 公用車車検代等\n・ 自動車保険料\n・ 公共事業積算システム保守料\n・ 公共事業積算システム借上料\n・ 自動車重量税\n\n398,466\n85,316\n12,850\n110,000\n181,500\n8",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 224323,
+    "name": "土地改良施設整備事業",
+    "raw": "7 土地改良施設整備事業",
+    "firstFollowing": "・ 土地改良推進事業者補助金\n\n330,000 （事業の目的・内容）\n農業用水路や農道などの土地改良施設の機能\nを維持し、農業経営の安定化を図るため、老朽\n化した施設の整備や補修を行う。\n（施策の成果",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 225222,
+    "name": "農業施設補修事業",
+    "raw": "8 農業施設補修事業",
+    "firstFollowing": "・ 農業施設関係補修原材料\n\n9 那賀川農地防災事業\n・ 那賀川地区国営総合農地防\n災事業促進協議会負担金\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・評価・今後の方向性\n\n施工",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 225248,
+    "name": "那賀川農地防災事業",
+    "raw": "9 那賀川農地防災事業",
+    "firstFollowing": "・ 那賀川地区国営総合農地防\n災事業促進協議会負担金\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・評価・今後の方向性\n\n施工箇所数（箇所）\n事業（工事）の施工箇所数\nR6\nR7\n",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 226352,
+    "name": "農村地域防災減災事業",
+    "raw": "10 農村地域防災減災事業",
+    "firstFollowing": "・ ため池監視システム通信料\n・ ため池監視システムクラウ\nド使用料\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\nため池監視カメラ設置数（単位：箇所）\nため池監視カメラ設置数\nR6\nR7\n",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 227053,
+    "name": "県営事業負担金",
+    "raw": "11 県営事業負担金",
+    "firstFollowing": "・ 経営体育成基盤整備事業負\n担金\n・ 農業水利施設保全対策事業\n負担金\n・ 県営かんがい排水事業負担\n金\n・ 国営造成施設管理体制整備\n促進事業負担金\n\n成果指標・評価・今後の方向性\n\n19,892",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 227496,
+    "name": "林業振興事業",
+    "raw": "1 林業振興事業",
+    "firstFollowing": "・ 林地台帳システム保守更新\n委託料\n・ 木育体験業務委託料\n・ 木育玩具製作業務委託料\n・ 木育玩具収納袋製作業務委\n託料\n・ 吉野川（徳島）流域林業活\n性化センター負担金\n・ 徳島森林づくり推進機",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 228259,
+    "name": "海面環境保全推進事業",
+    "raw": "1 海面環境保全推進事業",
+    "firstFollowing": "・ 海洋ごみ処理業務委託料\n\n124,520 （事業の目的・内容）\n河川等を通じて海洋に流出したごみ等の影響\nによる漁獲量の減少や漁具の損傷等の被害を防\n止するため、年間を通じて海洋ごみの回収・処\n理",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 228851,
+    "name": "金融対策事業",
+    "raw": "2 金融対策事業",
+    "firstFollowing": "・ 漁業近代化資金利子補給補\n助金\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n239,508 （事業の目的・内容）\n徳島県信用漁業協同組合連合会に対し利子補\n給措置を行うことにより、漁業",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 229138,
+    "name": "水産振興費負担金・補助金",
+    "raw": "3 水産振興費負担金・補助金",
+    "firstFollowing": "・ 日本水産資源保護協会負担\n金\n・ 勝浦川の水をきれいにする\n会負担金\n・ 徳島県水難救済会負担金\n・ 水産関係種苗放流事業補助\n金\n・ 漁業振興補助金\n・ 漁業後継者育成対策事業補\n助金\n\n成果指",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 230498,
+    "name": "県単独漁業振興事業",
+    "raw": "5 県単独漁業振興事業",
+    "firstFollowing": "・ とくしま農山漁村未来投資\n事業補助金\n\n10,000,000 （事業の目的・内容）\n本事業では、農林水産業の「自給力」強化を\n図るため、地域の未来を担う大規模法人から個\n人までの幅広い経営体を対象",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 231417,
+    "name": "基金積立費",
+    "raw": "1 基金積立費",
+    "firstFollowing": "・ 森林環境整備基金積立金等\n\n5,132,288 （施策の成果）\n令和8年度以降実施予定の事業に備え、基金へ\nの積み立てを行った。\n\n-192-\n\n\n主\n\n要\n\n施\n\n策\n\n【繰越明許費】\n農林水産",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 231571,
+    "name": "浚渫工事負担金",
+    "raw": "1 浚渫工事負担金",
+    "firstFollowing": "11,280,500 （施策の成果）\n小松島市と阿南市が管理する太田川水系目佐\n川において、河川内に堆積した土砂を撤去し、\n河道の通水断面を確保することで、豪雨時の浸\n水被害の軽減と河川機能の維持を図",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 231746,
+    "name": "県営事業負担金",
+    "raw": "2 県営事業負担金",
+    "firstFollowing": "・ 国営付帯農地防災事業負担\n金\n・ 経営体育成基盤整備事業負\n担金\n・ 農業水利施設保全対策事業\n負担金\n・ 県営かんがい排水事業負担\n金\n\n26,757,310 （施策の成果）\n2,520,000",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 234564,
+    "name": "商工業振興事業",
+    "raw": "1 商工業振興事業",
+    "firstFollowing": "・ 報償金\n・ 中小企業振興事業委託料\n・ 地域事業者継続支援業務委託料\n・ 会議録作成業務委託料\n・ 企業情報提供システム使用料\n・ 徳島東部地域コミュニティビ\n\n6,430,854 （事業の目的・",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 235348,
+    "name": "一般事務費",
+    "raw": "2 一般事務費",
+    "firstFollowing": "・ 商工業従業員住宅電灯電気代\n・ 傷害保険料\n\n21,056 （施策の成果）\n19,506 商工業従業員住宅の電灯電気代を負担し、住\n1,550 環境の維持に努めた。公衆街路灯代（3件）\n\n-196",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 236361,
+    "name": "みなと交流センター管理運営費",
+    "raw": "3 みなと交流センター管理運営費",
+    "firstFollowing": "・ 会計年度任用職報酬\n・ 職員手当等\n・ 共済費\n・ 消耗品費\n・ 光熱水費\n・ 施設修繕料\n・ 電話代等\n・ 浄化槽保守管理委託料等\n・ 賠償責任保険料\n・ 警備保障委託料\n・ 電気保安管理業務委",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 236920,
+    "name": "雇用創出事業",
+    "raw": "4 雇用創出事業",
+    "firstFollowing": "・ 消耗品費\n・ 印刷製本費\n・ 折込手数料\n・ 就職ガイドブック作成委託料\n・ 雇用対策推進業務委託料\n・ 地域共創推進業務委託料\n・ おしごとマルシェ設営委託料等\n・ ホームページレンタルサー\nバ",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 238443,
+    "name": "諸会会費",
+    "raw": "2 諸会会費",
+    "firstFollowing": "・ 日本関税協会会費\n・ 日本関税協会神戸支部徳島\n分会会費\n・ 四国動物検疫協会会費\n\n63,000 （施策の成果）\n48,000 各種貿易関係団体に所属し、港湾における貿易事\n5,000 情の情報",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 238615,
+    "name": "観光・イベント振興事業",
+    "raw": "1 観光・イベント振興事業",
+    "firstFollowing": "・ 職員手当等\n・ 旅費\n・ 消耗品費\n・ 印刷製本費\n・ 光熱水費\n・ 施設修繕料\n・ インターネット回線使用料等\n・ 浄化槽法定検査料\n・ 商標登録手続関係手数料\n・ 観光案内業務委託料\n・ 旗山",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 240189,
+    "name": "客船入港歓迎事業",
+    "raw": "2 客船入港歓迎事業",
+    "firstFollowing": "・ 報償費\n・ 旅費\n・ 消耗品費等\n・ 傷害保険料\n・ 寄港地観光案内業務委託料\n・ 会場設営業務委託料\n・ 警備委託料\n・ 寄港記念盾デザイン料\n・ レンタサイクル業務委託料\n・ 市民見学会送迎バ",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 241474,
+    "name": "リフレッシュ瀬戸内事業費",
+    "raw": "1 リフレッシュ瀬戸内事業費",
+    "firstFollowing": "・ 報償費\n・ 旅費\n・ 消耗品費等\n・ 瀬戸内・海の路ネットワー\nク推進協議会会費\n\n（事業の目的・内容）\n91,871 瀬戸内・海の路ネットワークの環境事業として\n10,504 「美しい瀬戸内を守",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 242194,
+    "name": "港湾費負担金",
+    "raw": "2 港湾費負担金",
+    "firstFollowing": "・ 徳島小松島港清港会負担金\n・ 日本港湾協会負担金\n・ 徳島小松島港振興協会負担金\n\n2,080,000 （施策の成果）\n1,730,000 所属する港湾関係の各種団体に負担金等を拠\n100,000",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 242329,
+    "name": "豊浦排水機場管理費",
+    "raw": "3 豊浦排水機場管理費",
+    "firstFollowing": "・ 職員手当等\n・ 消耗品費・電気代\n・ 公用車燃料代\n・ 公用車車検代\n・ 電話代・保険料等\n・ 電気保安管理業務委託料\n・ 排水機場管理業務委託料\n・ コピー使用料\n・ 自動車重量税\n\n点検回数（",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 244531,
+    "name": "農地情報システム経費",
+    "raw": "3 農地情報システム経費",
+    "firstFollowing": "・ タブレット型端末通信料\n・ 農地情報公開システム更新委託料\n・ モバイル端末管理サービス利用料\n\n指標名\n農業委員会サポートシステムの更新回数(回)\n303,380 （事業の目的・内容）\n29,0",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 245277,
+    "name": "農業者年金事務費",
+    "raw": "4 農業者年金事務費",
+    "firstFollowing": "・ 事務用品代\n・ コピー使用料\n\n47,196 （施策の成果）\n45,693 担当者が関係機関の研修会に参加し、日常業\n1,503 務に活かせるように知識の深化を図った。ま\nた、現況届の受付処理や死",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 245435,
+    "name": "一般事務費",
+    "raw": "5 一般事務費",
+    "firstFollowing": "・ 全国農業新聞等代\n・ 農業委員会職員協議会等負担金\n\n6 機構集積支援事業\n・ 報酬\n・ 職員手当等\n・ 共済費\n・ 旅費\n・ 事務用品代\n・ 書籍代\n・ 郵便料\n・ コピー使用料\n・ 会長代表者",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 245472,
+    "name": "機構集積支援事業",
+    "raw": "6 機構集積支援事業",
+    "firstFollowing": "・ 報酬\n・ 職員手当等\n・ 共済費\n・ 旅費\n・ 事務用品代\n・ 書籍代\n・ 郵便料\n・ コピー使用料\n・ 会長代表者大会負担金等\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 248919,
+    "name": "諸会会費",
+    "raw": "2 諸会会費",
+    "firstFollowing": "・ 四国国道協会会費\n・ 日本道路協会会費\n・ 全国海岸協会会費\n・ 四国河川協議会会費\n土木費\n\n道路橋梁費\n\n事業の目的内容・施策の成果・今後の課題\n\n140,000 （施策の成果）\n40,000",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 249150,
+    "name": "道路一般経費",
+    "raw": "2 道路一般経費",
+    "firstFollowing": "・ 事務用品及び書籍代\n・ 法令等書籍追録代\n・ 電気代\n・ 外灯修繕料\n・ 道路賠償責任保険料\n・ 道路台帳整備委託料\n・ 土木積算システム保守委託料\n・ 道路管理システム及びWebGIS\n\n22,",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 249651,
+    "name": "県営事業負担金",
+    "raw": "4 県営事業負担金",
+    "firstFollowing": "・ 道路局部改良事業\n土木費\n\n道路橋梁費\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・評価・今後の方向性\n\n4,050,000 （施策の成果）\n県道阿南小松島線の整備にかかる負",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 249865,
+    "name": "道路補修事業",
+    "raw": "2 道路補修事業",
+    "firstFollowing": "・ 道路維持管理消耗品\n・ 公用車燃料代\n・ 公用車車検代\n・ 公用車等修理代\n・ 特定自主検査料\n・ 自動車損害保険料\n・ 物件補償費算定業務委託料\n・ 測量設計等業務委託料\n・ 樹木伐採等業務委託",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 250991,
+    "name": "側溝清掃事業",
+    "raw": "4 側溝清掃事業",
+    "firstFollowing": "・ 側溝清掃業務委託料\n\n6,493,520 （事業の目的・内容）\n側溝や排水路につき、土砂等の堆積状況の調\n査及び清掃を実施することで、道路冠水の減少\nにつなげる。\n\n成果指標・評価・今後の方向性\n",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 254470,
+    "name": "交通安全施設整備事業",
+    "raw": "1 交通安全施設整備事業",
+    "firstFollowing": "・ 交通安全施設整備事業消耗品\n・ 交通安全対策施設設置工事\n\n5,587,120 （事業の目的・内容）\n209,220 危険箇所の解消に向け、区画線の引き直しや\n5,377,900 対策施設の更新及",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 255195,
+    "name": "準用河川維持管理事業",
+    "raw": "1 準用河川維持管理事業",
+    "firstFollowing": "・ 不動産鑑定評価業務委託料\n・ 分筆登記業務委託料\n・ 護岸改修工事\n・ 用地購入費\n\n17,918,040 （事業の目的・内容）\n588,500 準用河川の通水を阻害する要因となる土砂等\n506,",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 255984,
+    "name": "宅地耐震化推進事業",
+    "raw": "1 宅地耐震化推進事業",
+    "firstFollowing": "・ 住民説明会支援業務委託料\n\n土木費\n\n容\n\n都市計画費\n\n事業の箇所（箇所）\n箇所数の合計\nR6\nR7\nR8\nR9\n0\n1\n0\n0\n0\n1\nR6決算\nR7決算\nR8予算\n（施策の成果）\n市民一人\n",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 256634,
+    "name": "地籍調査事業",
+    "raw": "1 地籍調査事業",
+    "firstFollowing": "・ 地籍調査事業消耗品\n・ 地図訂正等業務委託料\n・ 地籍調査委託料\n・ 地籍調査支援システム借上料\n\n調査面積（ha）\n一筆地調査（現地調査）実施面積\nR6\nR7\nR8\nR9\n13\n13\n13\n13",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 257216,
+    "name": "公園管理事業",
+    "raw": "1 公園管理事業",
+    "firstFollowing": "・ 式典記念品\n・ 公園維持管理消耗品\n・ 公用車燃料代\n・ その他燃料代\n・ 電気代\n・ 水道代\n・ 公用車車検代\n・ 施設小修理\n・ ステーションパーク公衆無\n線LAN回線使用料\n・ 浄化槽法定検",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 258673,
+    "name": "排水機場管理運営事業",
+    "raw": "1 排水機場管理運営事業",
+    "firstFollowing": "・ 排水機場維持管理消耗品\n・ 重油代\n・ ガス代\n・ 電気代\n・ 水道代\n・ 施設小修理\n・ 電話代\n・ 施設管理者傷害保険料\n・ 電気保安協会委託料\n・ 排水機場及び樋門管理業務委託料\n・ 浄化槽",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 259686,
+    "name": "排水路維持管理事業",
+    "raw": "2 排水路維持管理事業",
+    "firstFollowing": "・ 家屋事前調査業務委託料\n・ 排水路整備工事\n\n18,304,000 （事業の目的・内容）\n330,000 市が管理する排水路の通水を阻害する草木や\n17,974,000 土砂の除去及び水路壁の修繕",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 260312,
+    "name": "高速道路対策事業",
+    "raw": "1 高速道路対策事業",
+    "firstFollowing": "・ 中央幹線排水路設備維持管\n理業務委託料\n・ 草刈業務委託料\n\n82,500 （事業の目的・内容）\n50,000 四国横断自動車道の整備において、各地区の\n対策協議会との間で合意した設計協議事項に基",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 260948,
+    "name": "道路補修事業",
+    "raw": "1 道路補修事業",
+    "firstFollowing": "・ 測量設計等業務委託料\n・ 市道整備事業\n\n工事箇所（箇所）\n工事箇所の総数\nR6\nR7\nR8\nR9\n2\n2\n2\n0\n3\n2\nR6決算\nR7決算\nR8予算\n（施策の成果）\n市民一人\n事業費\n9,09",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 263007,
+    "name": "地籍調査事業",
+    "raw": "1 地籍調査事業",
+    "firstFollowing": "・ 地籍調査委託料\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・評価・今後の方向性\n\n道路新設改良費\n\n1 道路橋梁新設改良交付金\n事業（総合整備計画）\n・ 不動産鑑定業務委託料",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 264459,
+    "name": "公園管理事業",
+    "raw": "1 公園管理事業",
+    "firstFollowing": "・ 工事監理業務委託料\n・ ステーションパーク外構工事\n\n52,721,900 （事業の目的・内容）\n495,000 所管する公園施設につき、適正な維持管理を\n52,226,900 行い、利用者に対し",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 265229,
+    "name": "準用河川維持管理事業",
+    "raw": "1 準用河川維持管理事業",
+    "firstFollowing": "・ 測量設計等業務委託料\n・ 工事に伴う土地借上料\n\n5,101,970 （事業の目的・内容）\n4,928,000 準用河川の通水を阻害する要因となる土砂等\n173,970 の撤去や繁茂した草木の伐採",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 265934,
+    "name": "公園管理事業",
+    "raw": "1 公園管理事業",
+    "firstFollowing": "・ ニホンフラッシュたぬき\n広場外構整備工事\n\n1,800,000 （事業の目的・内容）\n所管する公園施設につき、適正な維持管理を\n行い、利用者に対し安全かつ快適な施設の供用\nを図る。\n（施策の成果）",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 268261,
+    "name": "合併処理浄化槽設置補助事業",
+    "raw": "1 合併処理浄化槽設置補助事業",
+    "firstFollowing": "・ 合併処理浄化槽補助金\n\n合併処理浄化槽設置基数（基）\n補助金交付の対象となる浄化槽設置基数\nR6\nR7\nR8\nR9\n27\n27\n25\n25\n29\n13\nR6決算\nR7決算\nR8予算\n市民一人\n事業",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 269392,
+    "name": "一般事務費",
+    "raw": "3 一般事務費",
+    "firstFollowing": "・ 消耗品費\n・ 公用車燃料代\n・ 会議用お茶代\n・ 印刷代\n・ 公用車車検代等\n・ 公用車修理代等\n・ 切手代\n・ 自動車損害保険料\n・ 都市計画協会費\n・ 自動車重量税\n\n689,809 (施策の",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 269597,
+    "name": "こまつしままちづくり事業",
+    "raw": "4 こまつしままちづくり事業",
+    "firstFollowing": "・ 都市計画図修正業務委託料\n・ 高速道路使用料\n・ 自転車を活用したまちづく\nりを推進する全国市区町村\n長の会負担金\n\n指標名\nまちづくり計画策定会議等の開催回数（回）\n312,280 （事業の目的",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 271033,
+    "name": "地域下水処理施設管理費",
+    "raw": "1 地域下水処理施設管理費",
+    "firstFollowing": "・ 施設管理用消耗品\n・ 光熱水費\n・ 施設修繕料\n・ 浄化槽法定検査料\n・ 施設管理業務委託料\n・ 水質計測器管理業務委託料\n・ 廃棄物処分委託料\n・ 料金システム保守委託料\n・ 電気保安協会委託料",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 272010,
+    "name": "金磯地区排水路管理事業",
+    "raw": "2 金磯地区排水路管理事業",
+    "firstFollowing": "・ 光熱水費\n・ 港湾施設使用料\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n53,364 （事業の目的・内容）\n51,384 台風等に起因する豪雨発生時の浸水被害の軽\n1,980 減のため",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 273981,
+    "name": "金磯地区まちづくり事業",
+    "raw": "1 金磯地区まちづくり事業",
+    "firstFollowing": "・ 委員報酬\n・ 軽油代\n・ カーブミラー代\n・ 草刈業務委託料\n・ 不動産鑑定評価業務委託料\n・ 重機借上料\n\n（今後の課題）\n市街化の進行により公園等の必要性が増して\nおり、整備を検討する必要があ",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 274162,
+    "name": "一般事務費",
+    "raw": "2 一般事務費",
+    "firstFollowing": "・ 消耗品費\n・ 公用車燃料代\n・ 公用車車検代\n・ 自動車損害保険料\n・ コピー使用料\n・ 徳島県南部地区四国横断\n自動車道建設促進期成同\n盟会会費\n・ 東四国横断自動車道建設\n促進期成同盟会会費\n",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 274968,
+    "name": "公共下水道管理運営事業",
+    "raw": "2 公共下水道管理運営事業",
+    "firstFollowing": "・ 雨水出水想定区域図作成\n業務委託料\n・ 例規整備支援業務委託料\n\n11,495,000 （施策の成果）\n9,955,000 雨水出水想定区域図を作成するとともに、下\n水道事業会計を令和7年度末で廃",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 275117,
+    "name": "公共下水道建設改良事業",
+    "raw": "3 公共下水道建設改良事業",
+    "firstFollowing": "・ 管路測量業務委託料\n\n4,851,000 （施策の成果）\n公共下水道（雨水）の管路整備に必要となる\n用地測量を行った。\n\n成果指標・評価・今後の方向性\n\n諸支出金 基金費 金磯地区整備基金費\n1 ",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 275229,
+    "name": "基金積立費",
+    "raw": "1 基金積立費",
+    "firstFollowing": "・ 基金利子\n\n189,269 （施策の成果）\n金磯地区整備基金に利息を積み立てた。\n\n【繰越明許費】\n土木費 都市計画費 都市計画総務費\n1 県営事業負担金\n・ 都市計画基礎調査負担金\n\n718,2",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 275307,
+    "name": "県営事業負担金",
+    "raw": "1 県営事業負担金",
+    "firstFollowing": "・ 都市計画基礎調査負担金\n\n718,200 （施策の成果）\n徳島県が調査主体として令和5年度から2年か\nけて実施している。調査に係る市負担金（1/2）\nを支出した。\n\n【繰越明許費】\n土木費 都市計",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 278543,
+    "name": "一般事務費",
+    "raw": "2 一般事務費",
+    "firstFollowing": "・ 法令追録代\n・ 大規模事業設計発注支援\n業務委託料\n・ 営繕積算システム賃借料等\n・ 建築コスト管理システム会\n費等\n\n2,577,345 （施策の成果）\n70,321 建築法規の追録や工事の積算",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 278889,
+    "name": "公営住宅管理費",
+    "raw": "2 公営住宅管理費",
+    "firstFollowing": "・ 光熱水費等\n・ 浄化槽法定検査料等\n・ 浄化槽保守管理委託料等\n・ 共同アンテナ・コピー使用料\n・ 庁用器具購入費等\n・ 自動車重量税\n\n34,578,533 （事業の目的・内容）\n8,946,8",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 280447,
+    "name": "民間建築物防災事業",
+    "raw": "3 民間建築物防災事業",
+    "firstFollowing": "・ 木造住宅耐震化促進事業委\n託料等\n・ 耐震改修支援補助金等\n\n33,109,400 （事業の目的・内容）\n6,355,400 南海トラフ大地震等の災害に備え、各種補助\n事業による支援を行うことで耐",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 280614,
+    "name": "空き家等対策事業",
+    "raw": "4 空き家等対策事業",
+    "firstFollowing": "・ 空家等対策協議会委員報酬\n・ 空き家等実態調査業務委託\n料等\n・ 老朽危険空き家除却支援事\n業補助金等\n\n18,581,540 （事業の目的・内容）\n30,500 老朽化した危険な空き家の除却にか",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 281693,
+    "name": "住宅営繕事業",
+    "raw": "1 住宅営繕事業",
+    "firstFollowing": "・ 住宅小修理費等\n・ 除草収集業務委託料\n・ 修理用原材料費\n・ 営繕用備品購入費等\n\n13,180,731 （事業の目的・内容）\n12,218,845 市営住宅について、入居者から不具合等の連\n2",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 282034,
+    "name": "住宅移転事業",
+    "raw": "2 住宅移転事業",
+    "firstFollowing": "・ 住宅リフォーム小修理費等\n・ 市営住宅移転費\n\n営繕作業回数（件）\n市営住宅の修繕・補修等を行った回数\nR6\nR7\nR8\nR9\n220\n240\n260\n260\n245\n265\nR6決算\nR7決算\n",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 283128,
+    "name": "民間建築物防災事業",
+    "raw": "1 民間建築物防災事業",
+    "firstFollowing": "・ 木造住宅耐震化促進事業委\n託料\n・ 耐震改修支援補助金等\n\n木造住宅耐震改修支援事業（件）\n木造住宅の宅耐震改修の助成件数\nR6\nR7\nR8\nR9\n0\n14\n0\n0\n0\n14\nR6決算\nR7決算\n",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 283726,
+    "name": "市営住宅設備維持改善事業",
+    "raw": "1 市営住宅設備維持改善事業",
+    "firstFollowing": "・ 豊ノ本団地給水設備改修及び\nLED改修工事設計業務委託料\n\n市営住宅設備維持改善事業（件）\n設備等改善事業の実施件数\nR6\nR7\nR8\nR9\n0\n1\n0\n0\n0\n1\nR6決算\nR7決算\nR8予算\n",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 285069,
+    "name": "一般事務費",
+    "raw": "3 一般事務費",
+    "firstFollowing": "・ 消耗品費\n・ コピー使用料\n・ 工事実績情報システム使用料\n\n4 電子入札システム経費\n・ 電子入札システム共同利用料\n\n31,451,559 （施策の成果）\n17,210,400 建設工事等入札",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 285110,
+    "name": "電子入札システム経費",
+    "raw": "4 電子入札システム経費",
+    "firstFollowing": "・ 電子入札システム共同利用料\n\n31,451,559 （施策の成果）\n17,210,400 建設工事等入札参加資格審査受付件数:864件\n8,736,564\n市内:57件、県内:338件、県外:46",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 286918,
+    "name": "教育委員会交際費",
+    "raw": "2 教育委員会交際費",
+    "firstFollowing": "60,000 （施策の成果）\nイベント等の開催に際して、12件の祝い金や\n激励を行った。\n\n・ 交際費\n\n3 一般事務費\n・ 教育文化功労者表彰記念品\n・ 教育委員会事務点検評価委\n員報償費（3名）\n",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 286983,
+    "name": "一般事務費",
+    "raw": "3 一般事務費",
+    "firstFollowing": "・ 教育文化功労者表彰記念品\n・ 教育委員会事務点検評価委\n員報償費（3名）\n・ 消耗品費等\n教育総務費\n\n容\n\n教育委員会費\n\n1 教育委員報酬\n・ 委員(4名)\n\n教育費\n\n内\n\n122,583 ",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 287280,
+    "name": "庁舎等管理費",
+    "raw": "2 庁舎等管理費",
+    "firstFollowing": "・ 庁舎消耗品費\n・ 光熱水費等\n・ 電話代等\n・ インターネット利用料\n・ 浄化槽法定検査料\n・ 電話機設定手数料\n・ デマンド監視業務委託料\n・ 空調機定期点検業務委託料\n・ 庁舎機械警備委託料\n",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 287836,
+    "name": "一般事務費",
+    "raw": "4 一般事務費",
+    "firstFollowing": "・ 教育長出張旅費\n・ 消耗品費等\n・ 公用車車検代等\n・ 公用車保険料等\n・ コピー使用料\n・ 高速道路使用料\n・ 営繕積算システム賃借料\n・ 四国都市教育長連絡協議会\n負担金\n・ 安全運転管理者講",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 288073,
+    "name": "諸会会費",
+    "raw": "5 諸会会費",
+    "firstFollowing": "・ 県市町村教育長会負担金\n・ 社会保険協会負担金\n\n26,500 （施策の成果）\n15,000 加入している協会に負担金を支払った。\n11,500\n\n6 奨学金支給事業\n・ 奨学金\n\n指標名\n支給対",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 288156,
+    "name": "奨学金支給事業",
+    "raw": "6 奨学金支給事業",
+    "firstFollowing": "・ 奨学金\n\n指標名\n支給対象者数（人）\n280,000 （事業の目的・内容）\n奨学金の支給対象人数\n修学意欲があるにも関わらず、経済的理由に 指標の説明\n年度\nR6\nR7\nR8\nR9\nより修学が困難",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 288967,
+    "name": "職員健康管理事業",
+    "raw": "7 職員健康管理事業",
+    "firstFollowing": "・ 職員健康診断負担金\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n150,000 （事業の目的・内容）\n人間ドック等を受診することにより、疾病の\n早期発見や生活習慣病等を予防し、職員の健",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 289858,
+    "name": "小学校管理事業",
+    "raw": "1 小学校管理事業",
+    "firstFollowing": "・ 消耗品費\n・ 電気代\n・ 水道代\n・ 電話代等\n・ 伐採木引取処分費\n・ 和田島小学校校内農業排水\n清掃代\n・ 浄化槽法定検査料\n・ 配線撤去費\n・ 機械警備委託料\n\n61,983,150 （施策",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 290500,
+    "name": "小学校施設修繕費",
+    "raw": "1 小学校施設修繕費",
+    "firstFollowing": "・ 施設修繕消耗品費等\n・ 電気関係修繕代\n・ 水回り修繕代\n・ 天井･床･建具等修繕代\n・ 体育館関係修繕代\n・ プール関係修繕代\n・ 消防設備等修繕代\n・ 屋外関係修繕代\n・ 設備点検料等\n・ ア",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 291599,
+    "name": "中学校管理事業",
+    "raw": "1 中学校管理事業",
+    "firstFollowing": "・ 電気代\n・ 水道代\n・ 電話代\n・ インターネット利用料\n・ 浄化槽法定検査料\n・ 複合機移設配線手数料\n・ エレベーター保守点検委託\n料\n・ デマンド監視業務委託料\n・ 飲料水受水槽清掃委託料\n",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 292064,
+    "name": "中学校施設修繕費",
+    "raw": "1 中学校施設修繕費",
+    "firstFollowing": "・ 施設修繕消耗品費\n・ 電気関係修繕代\n・ 水回り修繕代\n・ 天井･床･建具等修繕代\n・ エレベータ修繕代\n・ 消防設備等修繕代\n・ 屋外関係修繕代\n・ 維持補修原材料費\n・ サイクルラック購入費\n",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 293039,
+    "name": "幼稚園管理事業",
+    "raw": "2 幼稚園管理事業",
+    "firstFollowing": "・ 電気代\n・ 水道代\n・ 電話代\n・ 浄化槽法定検査料\n・ 浄化槽保守管理委託料\n・ 消防設備保守点検業務委託\n料\n\n2,143,679 （施策の成果）\n863,214 施設の光熱水費等経常経費の支",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 293246,
+    "name": "幼稚園施設修繕費",
+    "raw": "1 幼稚園施設修繕費",
+    "firstFollowing": "・ 施設修繕消耗品費\n・ 維持補修原材料費\n\n教育費\n\n学校給食費\n\n1 職員給与費等\n・ 給料\n・ 職員手当等\n・ 共済費\n\n成果指標・評価・今後の方向性\n\n修繕実施件数（件）\n指標名\n30,123",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 294111,
+    "name": "給食衛生管理事業",
+    "raw": "3 給食衛生管理事業",
+    "firstFollowing": "・ 食材検査手数料\n・ ネズミ・病害虫等防駆除委\n託料\n・ 環境衛生検査委託料\n・ 調理員検便委託料\n\n2,798,201 （事業の目的・内容）\n209,000 給食調理等従事者の検便、施設の衛生管理",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 294380,
+    "name": "給食運営事業",
+    "raw": "4 給食運営事業",
+    "firstFollowing": "・ 消耗品費\n・ システム改修委託料\n・ 給食調理委託料\n・ 学校給食管理システム保守\n管理業務委託料\n・ ライセンス使用料\n・ プリンター購入費\n\n成果指標・評価・今後の方向性\n\n指標名\n指標の説明",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 295559,
+    "name": "学校給食費支援事業",
+    "raw": "5 学校給食費支援事業",
+    "firstFollowing": "・ 学校給食費支援事業補助金\n\n教育費\n\n学校給食費\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n補助金による食材等調達費の割合（%）\n食材等の調達費に占める補助金の割合\nR6\nR7\nR8",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 296170,
+    "name": "調理設備管理費",
+    "raw": "1 調理設備管理費",
+    "firstFollowing": "・ 消耗品費\n・ 包丁・スライサー研磨代\n・ 沈殿槽清掃委託料\n・ ガス警報器・マイコンメー\nター等借上料\n\n2,032,210 （施策の成果）\n1,430,598 調理業務上必要となる消耗品の購入や",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 296341,
+    "name": "児童生徒食器費",
+    "raw": "2 児童生徒食器費",
+    "firstFollowing": "・ 食缶・食器篭等\n\n377,520 （施策の成果）\n破損などにより使用できなくなった食缶や食\n器を更新することができた。\n\n3 調理員被服貸与費\n・ 作業用被服代\n\n200,030 （施策の成果）\n",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 296414,
+    "name": "調理員被服貸与費",
+    "raw": "3 調理員被服貸与費",
+    "firstFollowing": "・ 作業用被服代\n\n200,030 （施策の成果）\n調理員等が日々の業務で着用する作業用被服\nを更新し作業環境を整えた。\n\n4 準要保護児童生徒給食扶助\n・ 児童生徒給食費援助費\n\n成果指標・評価・今",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 296636,
+    "name": "給食調理設備改修費",
+    "raw": "5 給食調理設備改修費",
+    "firstFollowing": "・ 給食調理設備用消耗品費\n・ 厨房機器修繕料\n・ 給食調理室小修理\n・ 換気扇等清掃\n・ 給食室コンセント増設工事\n設計業務委託料\n・ 給食室電源増設工事\n・ 補修用原材料費\n・ 厨房機器購入費\n\n",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 296867,
+    "name": "小学校施設修繕費",
+    "raw": "1 小学校施設修繕費",
+    "firstFollowing": "・ 小学校施設環境改善工事\n\n成果指標・評価・今後の方向性\n\n調理設備等改修件数（件）\n指標名\n7,274,505 （事業の目的・内容）\n調理設備及び調理施設の改修等の件数\n260,529 児童生徒へ",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 297543,
+    "name": "基金積立費",
+    "raw": "1 基金積立費",
+    "firstFollowing": "・ 奨学基金積立金\n【繰越明許費】\n教育費 小学校費\n\n事業の目的内容・施策の成果・今後の課題\n\n学校給食会貸付金\n\n1 学校給食会貸付事業\n・ 学校給食会貸付金\n諸支出金\n\n容\n\n1,100,000",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 297610,
+    "name": "学校給食会貸付事業",
+    "raw": "1 学校給食会貸付事業",
+    "firstFollowing": "・ 学校給食会貸付金\n諸支出金\n\n容\n\n1,100,000 （施策の成果）\n立江小学校教室棟の屋上防水応急工事を行い\n教育環境の保全を図った。\n\n-246-\n\n\n学校課・教育研究所\n令和７年度の課題及",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 299228,
+    "name": "インターネット環境維持事業",
+    "raw": "2 インターネット環境維持事業",
+    "firstFollowing": "・ 会計年度任用職報酬(ICT支\n援員)2人\n・ 職員手当等\n・ 共済費\n・ 消耗品費\n・ インターネット回線利用料\n・ タブレット端末関連業務委\n託料\n・ ライセンス使用料\n・ タブレット端末関連購",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 300363,
+    "name": "学用品購入補助事業",
+    "raw": "3 学用品購入補助事業",
+    "firstFollowing": "・ 小学校準教科書・副読本\n・ 中学校準教科書・副読本\n・ 中学校新入生ヘルメット購\n入補助金\n\n4 研究団体委託・補助事業\n・ 小松島市教育会\n・ 小教研紀要研究会\n・ 学校危機管理委託金\n・ 幼稚",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 300424,
+    "name": "研究団体委託・補助事業",
+    "raw": "4 研究団体委託・補助事業",
+    "firstFollowing": "・ 小松島市教育会\n・ 小教研紀要研究会\n・ 学校危機管理委託金\n・ 幼稚園部会補助金\n・ 小学校教育研究会補助金\n・ 小中学校校長会・教頭会\n・ 副読本編集補助金\n\n内\n\n容\n\n事業の目的内容・施策",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 302407,
+    "name": "学校活動補助金",
+    "raw": "5 学校活動補助金",
+    "firstFollowing": "・ 全国大会参加補助金\n・ 総合的な学習時間の活動に\n要する補助金（小学校）\n・ 総合的な学習時間の活動に\n要する補助金（中学校）\n・ 小学校体育連盟事業補助金\n・ 四国中学校総合体育大会参\n加補助金",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 302772,
+    "name": "一般事務費",
+    "raw": "6 一般事務費",
+    "firstFollowing": "・ 教育問題研修会講師謝礼\n・ 講師謝礼\n・ 事務用品\n・ コピー用紙\n・ トナー代\n・ 学校災害賠償保険料\n・ 災害時緊急メール配信シス\nテム使用料\n\n845,192 （施策の成果）\n7,000 「",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 303088,
+    "name": "遠距離通学支援事業",
+    "raw": "7 遠距離通学支援事業",
+    "firstFollowing": "・ 補助員用バス定期券\n・ 路線バス定期券補助金\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n指標名\n298,060 （事業の目的・内容）\n88,460 遠距離通学の対象となる、横須・金磯",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 304916,
+    "name": "部活動指導員配置促進事業",
+    "raw": "10 部活動指導員配置促進事業",
+    "firstFollowing": "・ 会計年度任用職報酬（部活\n動指導員)1人\n・ 会計年度任用職通勤分1人\n\n695,800 （事業の目的・内容）\n645,400 専門性・指導経験を有する外部コーチを雇用\nし中学校部活動の指導をする",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 306154,
+    "name": "外部人材活用事業",
+    "raw": "11 外部人材活用事業",
+    "firstFollowing": "・ 外部人材活用推進コーディ\nネーター報酬2人\n・ 職員手当等\n・ 共済費\n・ プロフェッショナル体験事\n業講師謝礼\n・ 事務用品\n・ 食糧費\n・ 体験事業講師傷害補償保険料\n・ 体育授業ダンスカリキ",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 306294,
+    "name": "地域運動部活動推進事業",
+    "raw": "12 地域運動部活動推進事業",
+    "firstFollowing": "・ 会計年度任用職報酬(部活\n動コーディネーター)1人\n・ 職員手当等\n・ 共済費\n・ 地域運動部活動指導者謝礼\n・ 部活動改革推進協議会謝礼\n・ 指導員旅費\n・ 消耗品費\n・ 指導者等保険料\n\n内\n",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 308005,
+    "name": "AIドリル導入推進事業",
+    "raw": "13 AIドリル導入推進事業",
+    "firstFollowing": "・ AIドリルライセンス使用料\n・ データ通信使用料\n\n14 特別支援教育等支援事業\n\n・ 教育支援委員会委員報酬3人\n・ 特別支援教育等支援員報償金\n・ 教育支援委員会調査員報償金\n・ 特別支援連携",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 308049,
+    "name": "特別支援教育等支援事業",
+    "raw": "14 特別支援教育等支援事業",
+    "firstFollowing": "・ 教育支援委員会委員報酬3人\n・ 特別支援教育等支援員報償金\n・ 教育支援委員会調査員報償金\n・ 特別支援連携協議会委員謝礼\n・ 生活能力検査用紙\n・ 補聴器修繕料\n・ ボランティア活動保険料\n・ ",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 309882,
+    "name": "帰国・外国語児童生徒支援事業",
+    "raw": "15 帰国・外国語児童生徒支援事業",
+    "firstFollowing": "・ 支援員謝礼\n・ 支援員交通費\n\n16 学校業務支援システム運営事業\n\n・ 校務用パソコン設定業務委\n託料\n・ 校務用ネットワーク機器ラ\nイセンス使用料\n・ 校務用パソコンソフトウェ\nアライセンス使",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 309919,
+    "name": "学校業務支援システム運営事業",
+    "raw": "16 学校業務支援システム運営事業",
+    "firstFollowing": "・ 校務用パソコン設定業務委\n託料\n・ 校務用ネットワーク機器ラ\nイセンス使用料\n・ 校務用パソコンソフトウェ\nアライセンス使用料\n・ 校務用パソコン購入費\n・ パソコン周辺機器購入費\n・ 学校業務支",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 311594,
+    "name": "教育支援体制整備事業",
+    "raw": "17 教育支援体制整備事業",
+    "firstFollowing": "・ 会計年度任用職報酬（教員\n業務支援員3人）\n・ 教員業務支援員派遣に伴う\n費用弁償\n・ 教員業務支援員保険料\n・ 学習指導員謝礼\n\n18 道徳教育実践研究事業\n\n・ 講師謝礼\n・ 講師旅費\n・ 消",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 311677,
+    "name": "道徳教育実践研究事業",
+    "raw": "18 道徳教育実践研究事業",
+    "firstFollowing": "・ 講師謝礼\n・ 講師旅費\n・ 消耗品\n・ 印刷製本費\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・評価・今後の方向性\n\n児童・生徒数（人）\n市立小・中学校に就学する児童・生徒数",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 312739,
+    "name": "ALT招致事業",
+    "raw": "1 ALT招致事業",
+    "firstFollowing": "・ 会計年度任用職報酬(外国\n語指導助手)4人\n・ 通勤手当\n・ 外国語指導助手賃貸住宅総\n合保険料\n・ 外国語指導助手家屋賃借料\n・ 外国青年招致事業会費\n\n外国語指導助手人数（人）\n指標名\n19,",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 313572,
+    "name": "教育論文表彰事業",
+    "raw": "2 教育論文表彰事業",
+    "firstFollowing": "・ 教育論文審査謝礼\n・ 教育論文入賞者賞品\n・ 教育論文表彰式用消耗品\n・ 教育論文集印刷製本代\n\n226,300 （事業の目的・内容）\n20,000 各学校での教育実践を記録・整理することに\n44",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 314283,
+    "name": "一般事務費",
+    "raw": "3 一般事務費",
+    "firstFollowing": "・ 要覧（小松島の教育）印刷代\n・ 中国・四国研究所連盟負担金\n\n74,960 （施策の成果）\n69,960 「小松島の教育(要覧)」を作成・配布し、県内\n5,000 外の関係機関等に対して本市の教育",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 314410,
+    "name": "教育支援センター運営事業",
+    "raw": "4 教育支援センター運営事業",
+    "firstFollowing": "・ 会計年度任用職報酬(セン\nター長)1人\n・ 会計年度任用職報酬(指導\n員)2人\n・ 職員手当等\n・ 共済給付負担金2人\n・ 教育支援センター等講師謝礼\n・ はなみずき学級実習用消耗品\n・ はなみず",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 315442,
+    "name": "小学校管理事業",
+    "raw": "1 小学校管理事業",
+    "firstFollowing": "・ 各小学校修繕費\n・ コピー使用料\n・ 情報通信技術支援サービス\n利用料\n\n2,733,785 （施策の成果）\n54,780 各小学校の必要な修理やコピー使用料の支払\n2,388,605 いを行い、",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 315628,
+    "name": "小学校教育用備品購入事業",
+    "raw": "2 小学校教育用備品購入事業",
+    "firstFollowing": "・ 各学校教育用備品購入費\n\n399,300 （施策の成果）\n児童が使用する学習用机・椅子について、老\n朽化により使用できなくなった備品の買い替え\nや、身長に応じたサイズの備品を購入し、安全\nな学習環",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 315785,
+    "name": "小学校教育振興事業",
+    "raw": "1 小学校教育振興事業",
+    "firstFollowing": "・ 会計年度任用職報酬1人\n・ 職員手当等\n・ 共済費\n・ 卒業記念品\n・ 運動会参加賞\n・ 消耗品費\n・ 小学校燃料代\n・ 各小学校印刷製本費\n・ 物品修繕料\n・ 医療材料費\n・ 切手代等\n・ クリ",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 316696,
+    "name": "準要保護児童等就学援助事業",
+    "raw": "2 準要保護児童等就学援助事業",
+    "firstFollowing": "・ 要保護児童就学援助費\n・ 特別支援教育就学奨励費\n・ 準要保護児童就学援助費\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n10,404,652 （事業の目的・内容）\n45,380 市内",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 317716,
+    "name": "水泳訓練送迎バス事業",
+    "raw": "3 水泳訓練送迎バス事業",
+    "firstFollowing": "・ 水泳訓練送迎委託料\n\n633,600 （施策の成果）\n坂野小学校がプールの授業を実施するために\n市営プールまでの送迎バス業務委託を実施して\n児童が安全に移動することができた。\n\n4 学校運営協議会",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 317968,
+    "name": "校外水泳モデル事業",
+    "raw": "5 校外水泳モデル事業",
+    "firstFollowing": "・ プール利用料\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n3,259,430 （事業の目的・内容）\n南小松島小学校及び北小松島小学校のプール\n施設は、経年劣化により補修が困難な状態であ",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 318397,
+    "name": "中学校管理事業",
+    "raw": "1 中学校管理事業",
+    "firstFollowing": "・ 修繕料\n・ コピー使用料\n・ 情報通信技術支援サービス\n利用料\n\n380,980 （施策の成果）\n8,800 各中学校の必要な修理やコピー使用料の支払\n319,380 いを行い、教育環境を整えた。",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 318572,
+    "name": "中学校教育用備品購入事業",
+    "raw": "2 中学校教育用備品購入事業",
+    "firstFollowing": "・ 各学校教育用備品購入費\n・ 教育用楽器購入費\n\n826,925 （施策の成果）\n112,200 学習用机・椅子について、老朽化により使用\n714,725 できなくなった物の買い替えや、必要とする教",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 319169,
+    "name": "中学校教育振興事業",
+    "raw": "1 中学校教育振興事業",
+    "firstFollowing": "・ 卒業記念品\n・ 各中学校消耗品\n・ 中学校燃料代\n・ 各中学校印刷製本費\n・ 切手代等\n・ ピアノ調律代\n・ 教材用備品購入費\n\n2 準要保護生徒等就学援助事業\n・ 特別支援教育就学奨励費\n・ 準",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 319248,
+    "name": "準要保護生徒等就学援助事業",
+    "raw": "2 準要保護生徒等就学援助事業",
+    "firstFollowing": "・ 特別支援教育就学奨励費\n・ 準要保護生徒就学援助費\n\n指標名\n中学校生徒・教職員数（人）\n（事業の目的・内容）\n予算配当の基準となる生徒・教職員数\n3,038,227 市内2中学校において、多様な",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 321155,
+    "name": "幼稚園管理事業",
+    "raw": "1 幼稚園管理事業",
+    "firstFollowing": "・ 幼稚園児副食費免除負担金\n・ 幼稚園長会費等負担金\n\n幼稚園児数（人）\n幼稚園管理事業の対象となる園児数\nR6\nR7\nR8\nR9\n26\n17\n7\n0\n26\n17\nR6決算\nR7決算\nR8予算\n（施",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 322932,
+    "name": "幼稚園教育振興事業",
+    "raw": "1 幼稚園教育振興事業",
+    "firstFollowing": "・ 運動会参加賞\n・ お楽しみ会プレゼント代\n・ 幼稚園遠足旅費\n・ 消耗品\n・ 施設燃料代\n・ 印刷製本費\n・ ピアノ調律代\n\n成果指標・評価・今後の方向性\n指標名\n指標の説明\n年度\n目標\n実績\n\n",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 324304,
+    "name": "学校保健検査事業",
+    "raw": "1 学校保健検査事業",
+    "firstFollowing": "・ 学校医報酬\n・ 消耗品費\n・ 結核健康診断委託料\n・ 尿検査委託料\n・ 心電図委託料\n・ 学校保健室用備品購入費\n\n5,043,013 （事業の目的・内容）\n3,270,900 学校保健安全法に基",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 324580,
+    "name": "学校保健衛生対策事業",
+    "raw": "2 学校保健衛生対策事業",
+    "firstFollowing": "・ 保健用消耗品費\n・ 学校保健環境衛生検査委託料\n・ 徳島県学校保健連合会負担金\n\n1,491,631 （事業の目的・内容）\n756,534 学校環境衛生基準に基づき、市内各小中学校\n717,970",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 325796,
+    "name": "県費教職員定期健康診断費",
+    "raw": "4 県費教職員定期健康診断費",
+    "firstFollowing": "・ 県費教職員定期健康診断検\n査委託料\n・ ストレスチェック業務支援\n委託料\n\n962,412 （施策の成果）\n924,396 労働安全衛生法に基づき、県費教職員を対象\nに定期健康診断を実施し、健康管",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 327972,
+    "name": "青年非行防止事業",
+    "raw": "3 青年非行防止事業",
+    "firstFollowing": "・ 補導員連絡協議会委託料\n・ 補導員連絡協議会現地研修\n委託料\n・ 非行防止少年の主張大会委託料\n・ 青年社会参加促進事業補助金\n\n祭礼時の補導活動への参加率(%)\n指標名\n820,000 （事業の",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 328807,
+    "name": "一般事務費",
+    "raw": "4 一般事務費",
+    "firstFollowing": "・ 事務用品\n・ 清掃用消耗品\n・ 公用車燃料代\n・ 公用車車検代\n・ 公用車修理代\n・ 切手等\n・ 自動車損害保険料\n・ 自動車重量税\n\n298,205 （施策の成果）\n43,217 日々の補導活動",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 328997,
+    "name": "諸会会費",
+    "raw": "5 諸会会費",
+    "firstFollowing": "・ 徳島県青少年補導センター\n連絡協議会負担金\n\n20,000 （施策の成果）\n県下の市町の補導センターの情報交換・協議\nにより、有用な情報を得ることができた。\nまた、その情報を生かして活動の見直しを",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 329843,
+    "name": "学校再編準備委員会運営事業",
+    "raw": "1 学校再編準備委員会運営事業",
+    "firstFollowing": "・ 学校再編準備委員会謝礼等\n・ 消耗品等\n\n準備会議及び専門部会 開催回数（回）\n教育活動等詳細検討組織の各会開催回数\nR6\nR7\nR8\nR9\n8\n9\n9\n9\n8\n7\nR6決算\nR7決算\nR8予算\n",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 330938,
+    "name": "新小学校施設整備事業",
+    "raw": "1 新小学校施設整備事業",
+    "firstFollowing": "・ 消耗品等\n・ 設計モニタリング業務委託料\n・ 設計等業務委託料\n・ 新小学校建築等工事監理業\n務委託料\n・ 土地使用料等\n・ 新小学校建築等工事請負費\n・ 維持補修関係原材料費\n・ 公有財産購入費",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 332390,
+    "name": "新小学校施設整備事業",
+    "raw": "1 新小学校施設整備事業",
+    "firstFollowing": "・ 地図訂正等業務委託料\n\n3,594,800 （事業の目的・内容）\n小学校再編に伴う学校用地の適正な管理及び\n事業の円滑な推進を図るため、現況に即した地\n図情報の整備・更新を行う。\n（施策の成果）\n",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 334950,
+    "name": "成人式開催事業",
+    "raw": "3 成人式開催事業",
+    "firstFollowing": "・ 賞状用紙代\n・ 事業消耗品\n・ 成人式会場設営業務委託料\n・ 成人式開催事業補助金\n\n711,682 （事業の目的・内容）\n33,000 成人となり、自ら生き抜こうとする青年を祝\n5,682 い励",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 336218,
+    "name": "文化財保護事業",
+    "raw": "4 文化財保護事業",
+    "firstFollowing": "・ 文化財保護審議会委員報酬\n・ 講師謝礼\n・ 消耗品・追録代\n・ 印刷代（県南3市町合同埋\n蔵文化財企画展）\n・ 文化財維持補修原材料費\n・ 史跡整備市町村協議会負担金\n\n240,976 （事業の目",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 336548,
+    "name": "一般事務費",
+    "raw": "5 一般事務費",
+    "firstFollowing": "・ 文化講座（ふるさと講座）\n講師謝礼・旅費\n・ 小松島金長狸まつり・写生\n大会教育長賞副賞代\n・ 消耗品・公用車燃料代\n・ 電気代\n・ 水道代\n・ ガス代\n・ 公用車車検代・修理代\n・ 施設修繕料\n",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 337005,
+    "name": "団体補助金",
+    "raw": "6 団体補助金",
+    "firstFollowing": "・ 花水木を育てる会補助金\n・ 小中PTA連合会補助金\n・ 市連合婦人会補助金\n\n7 市営グランド遺跡発掘調査事業\n・ 会計年度任用職報酬\n・ 職員手当等\n・ 共済費\n・ 調査員旅費\n・ 消耗品費\n・",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 337054,
+    "name": "市営グランド遺跡発掘調査事業",
+    "raw": "7 市営グランド遺跡発掘調査事業",
+    "firstFollowing": "・ 会計年度任用職報酬\n・ 職員手当等\n・ 共済費\n・ 調査員旅費\n・ 消耗品費\n・ 印刷代\n・ 電気代\n・ 水道代\n・ 仮設トイレ汲取代\n・ コピー使用料\n・ 整理作業用資機材等借上料\n・ 備品購入",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 337174,
+    "name": "四国遍路世界遺産登録推進事業",
+    "raw": "8 四国遍路世界遺産登録推進事業",
+    "firstFollowing": "・ 消耗品\n・ 草刈機燃料代\n・ 遍路道ウォーキング保険料\n・ 国史跡指定箇所除草業務委託料\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・評価・今後の方向性\n\n196,000 （",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 338922,
+    "name": "芸術文化活動振興事業",
+    "raw": "9 芸術文化活動振興事業",
+    "firstFollowing": "・ 講師謝礼\n・ 菊友会表彰式記念品\n・ 短歌大賞表彰式記念品\n・ 事業消耗品\n・ リーフレット印刷代\n・ クリーニング代\n・ 菊花展展示ブース設置撤去\n業務委託料\n・ 音響業務委託料\n・ 菊花展展示",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 339831,
+    "name": "公民館活動事業",
+    "raw": "2 公民館活動事業",
+    "firstFollowing": "・ 地域公民館活動事業報償金\n・ 各公民館消耗品\n・ 小松島市公民館連絡協議会\n委託料\n\n指標名\n事業参加延べ人数（人）\n1,519,932 （事業の目的・内容）\n公民館主催・共催事業参加者\n1,05",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 340626,
+    "name": "公民館施設管理事業",
+    "raw": "3 公民館施設管理事業",
+    "firstFollowing": "・ 営繕用消耗品\n・ LED照明器具代\n・ ガス代\n・ 電気代\n・ 水道代\n・ エアコン用リモコン交換料\n・ 公民館修繕料\n・ 電話代\n・ インターネット等利用料\n・ 公衆無線LANネットワーク\n回線",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 341887,
+    "name": "団体補助金",
+    "raw": "1 団体補助金",
+    "firstFollowing": "・ 市子ども会連合会補助金\n・ ボランティアまつぼっくり\n補助金\n\n2 地域学校協働活動推進事業\n・ 運営委員会委員報償金\n・ コーディネーター謝礼\n・ 教育活動推進員謝礼\n・ 教育活動サポーター謝礼",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 341929,
+    "name": "地域学校協働活動推進事業",
+    "raw": "2 地域学校協働活動推進事業",
+    "firstFollowing": "・ 運営委員会委員報償金\n・ コーディネーター謝礼\n・ 教育活動推進員謝礼\n・ 教育活動サポーター謝礼\n・ 消耗品\n・ 事業関係者保険料\n・ 放課後子ども教室実施委託料\n・ 地域ぐるみの学校支援事業\n",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 343139,
+    "name": "中央会館運営事業",
+    "raw": "1 中央会館運営事業",
+    "firstFollowing": "・ 会計年度任用職給\n・ 職員手当等\n・ 共済費\n・ 維持管理消耗品\n・ ガス代\n・ 電気代\n・ 水道代\n・ 施設修繕料\n・ インターネット等利用料\n・ 浄化槽法定検査料\n・ 災害保険料\n・ 特殊建築",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 343360,
+    "name": "一般事務費",
+    "raw": "2 一般事務費",
+    "firstFollowing": "・ 消耗品\n・ コピー使用料\n\n内\n\n16,431,952 （事業の目的・内容）\n4,990,607 各種団体への貸館や文化講座などの自主事業\n2,036,952 を実施する生涯学習拠点施設として、市",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 344407,
+    "name": "文化等振興事業",
+    "raw": "3 文化等振興事業",
+    "firstFollowing": "・ 中央市民講座講師謝礼\n・ 小松島文芸活動事業委託料\n・ 小松島文化活動事業委託料\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・評価・今後の方向性\n\n講座受講者数（人）\n市民講",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 346603,
+    "name": "教育集会所運営費",
+    "raw": "3 教育集会所運営費",
+    "firstFollowing": "・ 光熱水費\n・ 電話代\n・ 浄化槽管理委託料等\n・ 教育集会所管理業務委託料\n4 一般事務費\n・ 旅費\n・ 四国地区人権教育研究大会負担金\n・ 新聞代\n\n18,707,224 （施策の成果）\n10,",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 346654,
+    "name": "一般事務費",
+    "raw": "4 一般事務費",
+    "firstFollowing": "・ 旅費\n・ 四国地区人権教育研究大会負担金\n・ 新聞代\n\n18,707,224 （施策の成果）\n10,148,400 生涯学習課人権教育推進室職員2名の給与等を支出\n5,343,791 した。\n3,",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 347142,
+    "name": "人権教育推進事業",
+    "raw": "1 人権教育推進事業",
+    "firstFollowing": "・ 人権作品等賞品\n・ 副読本「ひかり」等\n・ 公民館人権教育委託料\n\n602,124 （事業の目的・内容）\n\n37,074 人権尊重の意識を育み、差別や偏見のない地域づくり\n455,050 を推進す",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 348129,
+    "name": "人権教育振興協議会補助事業",
+    "raw": "2 人権教育振興協議会補助事業",
+    "firstFollowing": "・ 「松明」印刷製本費\n・ 「松明」折込手数料\n・ 市人権教育振興協議会補助金\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n3,447,023 （事業の目的・内容）\n253,099 市民、",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 348448,
+    "name": "人権のまちづくり事業",
+    "raw": "3 人権のまちづくり事業",
+    "firstFollowing": "・ 泰地識字学級運営補助金\n・ 識字学級交流事業補助金\n\n196,000 （事業の目的・内容）\n100,000 識字学級を通じて文字学習や人権学習を実施する\n96,000 とともに、地域や学校との交流",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 349756,
+    "name": "人権のまちづくり子ども会支援事業",
+    "raw": "4 人権のまちづくり子ども会支援事業",
+    "firstFollowing": "・ 会計年度任用職員報酬\n・ 職員手当等\n・ 共済費\n・ 旅費\n・ 生徒等傷害保険料\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n6,750,954 （事業の目的・内容）\n4,677,86",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 350927,
+    "name": "団体補助金",
+    "raw": "5 団体補助金",
+    "firstFollowing": "・ 小松島市・勝浦郡地区進路保\n\n成果指標・評価・今後の方向性\n\n学校・地域と連携し人権学習及び学習支援を実施することで、児童生徒\nの人権意識向上と学習習慣の定着が図られたが、実施時間は目標を下回っ\n",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 352749,
+    "name": "一般事務費",
+    "raw": "2 一般事務費",
+    "firstFollowing": "・ 公用車燃料費\n・ 公用車車検代\n・ 自動車損害保険料\n・ コピー使用料等\n・ NHK受信料\n・ 徳島県体育施設協会負担金\n・ 自動車重量税\n\n262,984\n81,434\n78,276\n12,85",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 352886,
+    "name": "スポーツ推進事業",
+    "raw": "3 スポーツ推進事業",
+    "firstFollowing": "・ スポーツ推進審議会委員報\n酬（5名）\n・ スポーツ推進委員報酬（24名）\n・ スポーツ推進委員傷害保険料\n・ スポーツ推進委員研修会委託金\n・ 県スポーツ推進委員連絡協\n議会負担金\n\n535,14",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 353890,
+    "name": "スポーツ行事開催事業",
+    "raw": "1 スポーツ行事開催事業",
+    "firstFollowing": "・ クロスカントリー大会看護\n師報酬\n・ クロスカントリー大会参加賞\n・ 市民なわとび大会参加賞\n・ クロスカントリー大会傷害\n保険料\n・ 市体育大会開催委託料\n・ 市中体連体育大会委託金\n・ 市小体",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 354030,
+    "name": "スポーツ振興事業",
+    "raw": "2 スポーツ振興事業",
+    "firstFollowing": "・ 各種スポーツ教室講師謝礼\n・ 国体出場選手激励金\n・ 少年野球県選抜小松島大会\n・ 市少年剣道錬成大会\n・ スポーツ少年団駅伝大会\n・ 徳島駅伝小松島市選手強化\n補助金\n・ 体育技術振興補助金\n\n",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 355701,
+    "name": "和田島緑地管理費",
+    "raw": "1 和田島緑地管理費",
+    "firstFollowing": "・ 消耗品費\n・ 芝刈機等燃料費\n・ 印刷製本費\n・ 光熱水費\n・ トラクター修理代等\n・ 施設修繕料\n・ 多目的広場・野球場電話代\n・ 浄化槽法定検査料\n・ スポーツトラクター任意保険料\n・ 多目的",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 356687,
+    "name": "市営プール管理費",
+    "raw": "2 市営プール管理費",
+    "firstFollowing": "・ 会計年度任用職報酬\n・ 会計年度任用職通勤分\n・ 消耗品費\n・ 光熱水費等\n・ 施設修繕料\n・ 電話代\n・ 浄化槽法定検査料\n・ プール水質検査料\n・ 市営プール清掃委託料\n・ プール濾過器保守点",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 358111,
+    "name": "少年武道場管理費",
+    "raw": "4 少年武道場管理費",
+    "firstFollowing": "・ 鍵等管理業務委託料\n\n成果指標・評価・今後の方向性\n\n指標名\n指標の説明\n年度\n目標\n実績\n\n施設利用団体数（件）\nゲートボール・グラウンドゴルフ協会加盟団体\nR6\nR7\nR8\nR9\n2\n2\n2\n",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 359071,
+    "name": "社会体育学校施設管理費",
+    "raw": "5 社会体育学校施設管理費",
+    "firstFollowing": "・ 消耗品費\n・ 電気代\n・ 施設修繕料\n・ 学校夜間運動場管理業務委託料\n・ 学校夜間体育館管理業務委託料\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n983,091 （事業の目的・内容",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 359909,
+    "name": "市立体育館管理費",
+    "raw": "1 市立体育館管理費",
+    "firstFollowing": "・ 消耗品費\n・ 光熱水費\n・ 施設修繕料\n・ 通信運搬費\n・ 浄化槽法定検査料\n・ 飲料水水質検査料\n・ 社会体育施設保険料\n・ 浄化槽保守管理委託料\n・ 警備保障委託料\n・ 消防用設備保守点検委託",
+    "status": "named_service_heading_reviewed",
+    "reason": "Specific municipal service with its own purpose and outcome context; original heading ending 費 preserved, no monetary extraction. Pending duplicate screening."
+  },
+  {
+    "start": 361032,
+    "name": "こどもの遊び場づくり事業",
+    "raw": "2 こどもの遊び場づくり事業",
+    "firstFollowing": "・ イベント傷害保険料\n・ こどもの遊び場管理業務委託料\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n311,600 （事業の目的・内容）\n11,600 小学生以下の子どもを含む世帯を対象",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 363056,
+    "name": "図書館施設管理事業",
+    "raw": "2 図書館施設管理事業",
+    "firstFollowing": "・ 消耗品費\n・ LED照明器具代\n・ 光熱水費\n・ 物品修繕料\n・ 施設修繕料\n・ 電話代等\n・ 冷蔵庫処分料\n・ 飲料水検査代\n・ 浄化槽法定検査料\n・ ｴﾚﾍﾞｰﾀｰ保守点検委託料\n・ 空調機器",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 364001,
+    "name": "図書館運営事業",
+    "raw": "3 図書館運営事業",
+    "firstFollowing": "・ 図書館協議会委員報酬\n・ 会計年度任用職報酬\n・ 会計年度任用職手当等\n・ 共済費\n・ 報償費\n・ 雑誌代\n・ 新聞代\n・ 図書資料付属消耗品\n・ ポスター・チラシ代等\n・ インターネット利用料\n",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 365291,
+    "name": "図書配本事業",
+    "raw": "4 図書配本事業",
+    "firstFollowing": "・ 会計年度任用職報酬\n・ 会計年度任用職手当等\n・ 共済費\n・ 公用車燃料代\n・ 公用車車検代\n・ 自動車損害保険料\n・ 自動車重量税\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n2,9",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 365745,
+    "name": "一般事務費",
+    "raw": "5 一般事務費",
+    "firstFollowing": "・ 図書館用消耗品費等\n・ コピー使用料\n\n147,383\n113,806\n33,577\n\n6 ブックスタート事業\n・ 読み聞かせ謝礼\n・ ブックスタート事業用絵本\n\n69,212 （事業の目的・内容",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 365799,
+    "name": "ブックスタート事業",
+    "raw": "6 ブックスタート事業",
+    "firstFollowing": "・ 読み聞かせ謝礼\n・ ブックスタート事業用絵本\n\n69,212 （事業の目的・内容）\n5,000 1歳6か月検診における絵本配布と読み聞かせ\n64,212 の実施や、家庭で不要になった絵本の活用を行",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 368257,
+    "name": "一般事務費",
+    "raw": "2 一般事務費",
+    "firstFollowing": "・ 旅費\n・ 需用費\n・ 通信回線用等電話代\n・ 郵便料\n・ NHK受信料\n・ 公用車駐車料\n・ 高速道路使用料\n・ ライセンス使用料\n\n3,450,293 （施策の成果）\n1,177,469 公用車",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 368473,
+    "name": "諸会会費・負担金",
+    "raw": "3 諸会会費・負担金",
+    "firstFollowing": "・ 事故防止対策協議会負担金\n・ 全国競輪施行者協議会負担\n・ 四国地区施行者協議会負担\n・ 全国競輪主催地議長会分担\n・ 小松島競輪自転車競技振興\n協議会負担金\n・ チャリロト運営協議会負担\n金\n\n",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 368706,
+    "name": "競輪事業助成金",
+    "raw": "4 競輪事業助成金",
+    "firstFollowing": "・ 選手会補助金\n5 周辺対策補助金\n・ 小松島漁業協同組合助成金\n・ 地元協議会補助金\n・ 特別競輪地元協力費\n・ 吉野川市交付金\n・ 徳島市交付金\n・ 場外発売所周辺対策負担金\n\n120,000\n",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 368725,
+    "name": "周辺対策補助金",
+    "raw": "5 周辺対策補助金",
+    "firstFollowing": "・ 小松島漁業協同組合助成金\n・ 地元協議会補助金\n・ 特別競輪地元協力費\n・ 吉野川市交付金\n・ 徳島市交付金\n・ 場外発売所周辺対策負担金\n\n120,000\n790,000 （施策の成果）\n選手の",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 369235,
+    "name": "競輪場施設管理費",
+    "raw": "1 競輪場施設管理費",
+    "firstFollowing": "・ 消耗品費\n・ 光熱水費\n・ 浄化槽法定検査料\n・ 自動車損害保険料・損害\n分担金等\n・ サテライト鴨島土地借上料\n・ 自動車重量税\n2 競輪施設整備事業\n・ 施設補修用消耗品\n・ 書籍代\n・ 物品",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 369314,
+    "name": "競輪施設整備事業",
+    "raw": "2 競輪施設整備事業",
+    "firstFollowing": "・ 施設補修用消耗品\n・ 書籍代\n・ 物品修繕料\n・ 施設修繕料\n・ スタンド用備品購入費\n・ 事務所等備品購入費\n・ 宿舎用備品購入費\n・ 発売所等備品購入費\n・ メインスタンド・サイク\nルシアター",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 370972,
+    "name": "競輪振興法人交付金",
+    "raw": "1 競輪振興法人交付金",
+    "firstFollowing": "・ 通常開催及分び記念競輪開\n催分\n\n701,240,783 （施策の成果）\n通常開催及び開設75周年記念に係る競輪振興\n法人交付金を（公財）JKAに交付した。\n通常開催分\n1号交付金：268,662",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 371190,
+    "name": "競輪振興法人交付金",
+    "raw": "2 競輪振興法人交付金",
+    "firstFollowing": "・ 延納分\n\n競輪事業費\n\n競輪開催費\n\n1 従事員報酬\n・ 会計年度任用職報酬\n・ 期末勤勉手当\n・ 従事員雇用保険料\n・ 従事員労災保険料\n・ 費用弁償\n\n75,658,243 （施策の成果）\n収",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 376637,
+    "name": "基金積立費",
+    "raw": "1 基金積立費",
+    "firstFollowing": "・ 競輪事業基金積立金\n諸支出金\n\n基金費\n\n23,823,368 （施策の成果）\n事業基金及び令和7年度中の利子分を積み立て\nた。\n競輪施設整備等基金\n\n1 基金積立費\n・ 競輪施設整備等基金積立金",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 376723,
+    "name": "基金積立費",
+    "raw": "1 基金積立費",
+    "firstFollowing": "・ 競輪施設整備等基金積立金\n諸支出金\n\n繰出金\n\n施設整備等基金及び令和7年度中の利子分を積\nみ立てた。\n\n一般会計繰出金\n852,432,000 （施策の成果）\n一般会計に852,432,000円",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 376909,
+    "name": "競輪施設整備事業",
+    "raw": "1 競輪施設整備事業",
+    "firstFollowing": "・ 小松島競輪場施設整備事業\n要求水準書等作成業務委託\n料\n・ 競輪場走路審判塔耐震診断\n及び改修等工事設計業務委\n託料\n・ 競輪選手旧宿舎耐震診断及\nび改修工事設計業務委託料\n\n16,658,000",
+    "status": "same_name_scope_hold",
+    "reason": "Repeated heading across departments/accounts or carryover allocations; single annual identity is not safely resolved from the title alone."
+  },
+  {
+    "start": 379167,
+    "name": "一般事務費",
+    "raw": "2 一般事務費",
+    "firstFollowing": "・ 消耗品等\n・ 庁用器具費\n・ コピー使用料\n\n519,501 （施策の成果）\n464,376 消耗品の購入等\n45,370\n9,755\n\n3 後期高齢システム管理費\n・ システム機器保守料\n・ シ",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 379246,
+    "name": "後期高齢システム管理費",
+    "raw": "3 後期高齢システム管理費",
+    "firstFollowing": "・ システム機器保守料\n・ システム標準化対応委託料\n・ システム改修委託料\n・ ライセンス使用料\n・ 庁用器具費\n\n24,807,002 （施策の成果）\n4,928,352 後期高齢者医療業務の市町",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 379583,
+    "name": "一般事務費",
+    "raw": "1 一般事務費",
+    "firstFollowing": "・ 印刷製本費等\n\n329,784 （施策の成果）\nコピー用紙等の購入及び電算帳票関係印刷代\n\n-311-\n\n成果指標・評価・今後の方向性\n\n\n主\n\n要\n\n施\n\n策\n\n等\n\nの\n\n内\n\n容\n\n事業の目",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 379771,
+    "name": "後期高齢者医療広域連合負担金",
+    "raw": "1 後期高齢者医療広域連合負担金",
+    "firstFollowing": "・ 保険料分\n・ 保険基盤安定分\n\n744,018,848 （事業の目的・内容）\n567,878,780 法令の規定に基づいて、市が徴収した保険料\n176,140,068 を後期高齢者医療広域連合に負",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 383804,
+    "name": "レセプト点検事業",
+    "raw": "2 レセプト点検事業",
+    "firstFollowing": "・ 会計年度任用職報酬\n・ レセプト点検員報酬\n・ 会計年度任用職職員手当\n・ 会計年度任用職社会保険料負担金\n・ 会計年度任用職共済給付費負担金\n・ 特別調整交付金（結核・精\n神）申請支援業務委託料",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 384383,
+    "name": "国保システム経費",
+    "raw": "3 国保システム経費",
+    "firstFollowing": "・ 専用回線使用料\n・ 国保情報システム保守料\n・ 子ども・子育て支援金制度対\n応システム業務委託料\n\n・ 国民健康保険市町村事務処理\n\n5,276,504 （施策の成果）\n371,376 国民健康保",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 385164,
+    "name": "一般事務費",
+    "raw": "4 一般事務費",
+    "firstFollowing": "・ 消耗品費\n・ 印刷製本費\n・ 保険証等郵便代\n・ ソフトウェア保守業務委託料\n・ コピー使用料\n・ ソフトウェア使用料\n・ 庁用器具費\n・ 物品修繕料\n・ 国民健康保険関係会議旅費\n5 第三者納付",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 385741,
+    "name": "収納率向上特別対策事業",
+    "raw": "1 収納率向上特別対策事業",
+    "firstFollowing": "・ 職員手当等\n・ 消耗品費\n・ 印刷製本費\n\n1,301,252 （事業の目的・内容）\n585,526 国民健康保険税を適正に賦課徴収し、安定的\n211,816 な財政運営と被保険者間の公平性を確保",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 386582,
+    "name": "国民健康保険運営協議会費",
+    "raw": "1 国民健康保険運営協議会費",
+    "firstFollowing": "・ 委員報酬\n・ 消耗品費\n・ 食糧費\n・ 通信運搬費\n\n（事業の目的・内容）\n141,052 国民健康保険の運営に係る重要事項（予算、\n85,000 保険税率等）を審議し、適正運営を担保する。\n47",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 387317,
+    "name": "一般療養給付費",
+    "raw": "1 一般療養給付費",
+    "firstFollowing": "・ 診療費（入院）\n・ 診療費（入院外）\n・ 診療費（歯科）\n・ 調剤\n・ 食事・生活療養費\n・ 訪問看護\n\n保険給付費\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・評価・今後の方向性",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 387537,
+    "name": "趣旨普及事業",
+    "raw": "1 趣旨普及事業",
+    "firstFollowing": "・ 印刷製本費\n\n保険給付費\n\n内\n\n一般療養諸費\n\n一般療養給付費\n※保険給付費の各事業を合算し評価している。\n2,554,432,956 （事業の目的・内容）\n療養給付費（円）\n1,058,911",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 388567,
+    "name": "一般療養費",
+    "raw": "1 一般療養費",
+    "firstFollowing": "・ 一般診療\n・ 治療用装具\n・ 柔道整復師施術\n・ はり・きゅう・あんま・\nマッサージ\n・ その他\n\n20,550,397 （施策の成果）\n1,751,383 被保険者の施術（柔道整復、補装具、はり",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 390699,
+    "name": "特定健康診査事業",
+    "raw": "1 特定健康診査事業",
+    "firstFollowing": "・ 会計年度任用職報酬\n・ 会計年度任用職職員手当\n・ 会計年度任用職社会保険料負担金\n・ 消耗品費\n・ 印刷製本費\n・ 郵便料\n・ 未受診者受診勧奨業務委託料\n・ 検診予約受付等業務委託料\n・ 受診",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 390851,
+    "name": "特定保健指導事業",
+    "raw": "2 特定保健指導事業",
+    "firstFollowing": "・ 会計年度任用職報酬等\n・ 職員手当等\n・ 会計年度任用職社会保険料負担金\n・ 保健指導講師謝礼金\n・ 消耗品等\n・ 郵送料\n・ 特定健康診査二次検査委託料\n・ 特定保健指導研修委託料\n・ 保健指導",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 392817,
+    "name": "医療費通知事業",
+    "raw": "1 医療費通知事業",
+    "firstFollowing": "・ 医療費通知郵便料\n・ 医療費通知シーリング負担金\n\n2,243,720 （事業の目的・内容）\n1,823,728 医療費を通知し、被保険者に医療費の実情と\n419,992 健康に対する認識を深めて",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 393539,
+    "name": "後発医薬品差額通知事業",
+    "raw": "2 後発医薬品差額通知事業",
+    "firstFollowing": "・ 後発医薬品差額通知書作成委託料\n・ 重複・多剤服薬通知書作成委託料\n・ 消耗品費\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n969,930 （事業の目的・内容）\n434,073 被保",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 395765,
+    "name": "健康診査等助成事業",
+    "raw": "1 健康診査等助成事業",
+    "firstFollowing": "・ 人間ドック\n・ 脳ドック\n・ 人間・脳統合ドック\n・ 胃がん検診（集団）\n・ 胃がん検診（医療機関）\n・ 肺がん検診\n・ 大腸がん検診\n・ 骨検診\n・ プレ特定健診\n・ 胃がん検診自己負担金助成金",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 395879,
+    "name": "一般事務費",
+    "raw": "2 一般事務費",
+    "firstFollowing": "・ 印刷製本費等\n・ 健康スタンプラリー報償品\n・ 徳島県健康ポイント事業負担金\n・ 通信運搬費\n\n成果指標・評価・今後の方向性\n\n352,428 （施策の成果）\n59,810 プレ特定健診啓発用リー",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 396229,
+    "name": "国保保健指導事業",
+    "raw": "3 国保保健指導事業",
+    "firstFollowing": "・ 会計年度任用職報酬等(2人)\n・ 職員手当等(2人)\n・ 会計年度任用職社会保険料負担金(2人)\n・ 消耗品費\n・ 郵送料\n・ 生活習慣病改善料理教室委託料\n\n内\n\n容\n\n事業の目的内容・施策の成",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 397033,
+    "name": "基金積立費",
+    "raw": "1 基金積立費",
+    "firstFollowing": "・ 財政調整基金積立金（運用利子分）\n\n829,913 （施策の成果）\n財政調整基金の運用利息を積み立てた。\n\n-330-\n\n成果指標・評価・今後の方向性\n\n指標名\n指標の説明\n年度\n目標\n実績\n\n食",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 400747,
+    "name": "介護保険システム経費",
+    "raw": "3 介護保険システム経費",
+    "firstFollowing": "5,386,064 （施策の成果）\n・介護保険システム運用サポート\n運用サポート等業務委託料\n5,259,584 業務の円滑化を図るため、介護保険の基幹業務で\n・介護保険システム借上料等\nライセンス利",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 400916,
+    "name": "共同電算委託事業",
+    "raw": "4 共同電算委託事業",
+    "firstFollowing": "・ 国保連共同電算委託料\n\n706,750 （施策の成果）\n\n5 一般事務費\n・ 消耗品費等\n・ 被保険者証印刷代\n・ 調査資料作成手数料\n・ コピー使用料\n\n834,538 （施策の成果）\n346,",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 400958,
+    "name": "一般事務費",
+    "raw": "5 一般事務費",
+    "firstFollowing": "・ 消耗品費等\n・ 被保険者証印刷代\n・ 調査資料作成手数料\n・ コピー使用料\n\n834,538 （施策の成果）\n346,884 事務の執行に必要な封筒などの消耗品や被保険者\n315,865 証の印刷",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 401156,
+    "name": "介護保険システム改修事業",
+    "raw": "6 介護保険システム改修事業",
+    "firstFollowing": "・ システム標準化関連消耗品費\n・ 介護保険システム改修委託料\n・ システム標準化対応業務委託料\n・ システム標準化対応端末ソ\nフトウェア使用料\n・ システム標準化対応関連備\n品購入費\n\n28,782",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 401420,
+    "name": "介護保険事業計画策定事業",
+    "raw": "7 介護保険事業計画策定事業",
+    "firstFollowing": "・ 消耗品費等\n・ 介護保険事業計画策定委託料\n\n2,190,640 （施策の成果）\n67,640 令和9年4月からスタートする第10期介護保険事業\n2,123,000 計画の策定の資料とするため、高",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 401661,
+    "name": "国保連合会負担金",
+    "raw": "1 国保連合会負担金",
+    "firstFollowing": "・ 国保連合会負担金\n・ 第三者求償事務負担金\n総務費\n\n内\n\n136,406 （施策の成果）\n121,689 介護保険事業の円滑な実施のため、国保連合会へ\n14,717 の負担金を支出した。\n\n賦課",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 401777,
+    "name": "一般事務費",
+    "raw": "1 一般事務費",
+    "firstFollowing": "・ 消耗品費\n・ 納付書印刷代\n\n333,040 （施策の成果）\n49,405 介護保険料の賦課・徴収に必要な事務費を支出\n283,635 し、第1号被保険者保険料徴収率99.50%（現年度）を\n達成",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 402018,
+    "name": "一般事務費",
+    "raw": "2 一般事務費",
+    "firstFollowing": "・ 消耗品費\n総務費\n\n介護認定審査会費\n\n392,230 （施策の成果）\n認定審査会の資料を作成・印刷し、委員に資料の\n事前送付を行った。\n\n認定調査等費\n\n1 会計年度任用職員給与費等\n・ 報酬\n",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 402285,
+    "name": "認定調査事業",
+    "raw": "2 認定調査事業",
+    "firstFollowing": "・ 医師意見書手数料\n・ 訪問調査委託料\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n8,846,311 （事業の目的・内容）\n8,825,441 介護や介助、機能訓練等の介護サービスを必",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 402998,
+    "name": "一般事務費",
+    "raw": "1 一般事務費",
+    "firstFollowing": "・ パンフレット印刷代\n保険給付費\n\n成果指標・評価・今後の方向性\n\n介護サービス等諸費\n\n158,675 （施策の成果）\n被保険者等への制度趣旨の普及のため、介護保険\n制度に関するしおり等を作成・配",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  },
+  {
+    "start": 403124,
+    "name": "居宅介護サービス給付事業",
+    "raw": "1 居宅介護サービス給付事業",
+    "firstFollowing": "2,001,434,961 （事業の目的・内容）\n要介護、要支援の認定区分に応じ高齢者が自立し\nた日常生活を営むことができるよう支援するため、\n介護・介護予防給付を適切に行う。\n\n（施策の成果）\n要介",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 404181,
+    "name": "居宅介護福祉用具購入事業",
+    "raw": "1 居宅介護福祉用具購入事業",
+    "firstFollowing": "3,257,595 （施策の成果）\n給付件数117件\n\n保険給付費\n\n介護サービス等諸費\n\n居宅介護住宅改修費\n\n1 居宅介護住宅改修事業\n\n6,450,654 （施策の成果）\n給付件数108件\n\n保",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 404254,
+    "name": "居宅介護住宅改修事業",
+    "raw": "1 居宅介護住宅改修事業",
+    "firstFollowing": "6,450,654 （施策の成果）\n給付件数108件\n\n保険給付費\n\n介護サービス等諸費\n\n居宅介護サービス計画給付費\n\n1 居宅介護サービス計画給付事業\n\n201,434,559 （施策の成果）\n給",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 404329,
+    "name": "居宅介護サービス計画給付事業",
+    "raw": "1 居宅介護サービス計画給付事業",
+    "firstFollowing": "201,434,559 （施策の成果）\n給付件数13,638件\n\n保険給付費\n\n介護予防サービス等諸費\n\n介護予防サービス給付費\n\n1 介護予防サービス給付事業\n\n147,893,005 （施策の成果",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 404413,
+    "name": "介護予防サービス給付事業",
+    "raw": "1 介護予防サービス給付事業",
+    "firstFollowing": "147,893,005 （施策の成果）\n要支援認定を受けた高齢者等に対する介護予防給\n付を行い、身体機能の維持・機能低下の抑制や自立\n支援を図った。\n給付件数6,887件\n内訳\n訪問サービス348件\n",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 404696,
+    "name": "介護予防福祉用具購入事業",
+    "raw": "1 介護予防福祉用具購入事業",
+    "firstFollowing": "1,473,255 （施策の成果）\n給付件数55件\n\n保険給付費\n\n介護予防サービス等諸費\n\n介護予防住宅改修費\n\n1 介護予防住宅改修事業\n\n5,507,367 （施策の成果）\n給付件数84件\n\n保",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 404770,
+    "name": "介護予防住宅改修事業",
+    "raw": "1 介護予防住宅改修事業",
+    "firstFollowing": "5,507,367 （施策の成果）\n給付件数84件\n\n保険給付費\n\n介護予防サービス等諸費\n\n介護予防サービス計画給付費\n\n1 介護予防サービス計画給付事業\n\n22,753,340 （施策の成果）\n給",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 404846,
+    "name": "介護予防サービス計画給付事業",
+    "raw": "1 介護予防サービス計画給付事業",
+    "firstFollowing": "22,753,340 （施策の成果）\n給付件数5,039件\n\n保険給付費\n\nその他諸費\n\n審査支払手数料\n\n1 審査支払手数料事務\n・ 審査支払手数料\n\n保険給付費\n\n6,441,475 （施策の成果",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 405162,
+    "name": "高額介護予防サービス事業",
+    "raw": "1 高額介護予防サービス事業",
+    "firstFollowing": "85,875 （施策の成果）\n給付件数\n\n保険給付費\n\n特定入所者介護サービス等費\n\n8,114件\n\n78件\n\n特定入所者介護サービス費\n\n1 特定入所者介護サービス事業\n\n85,097,653 （施",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 405248,
+    "name": "特定入所者介護サービス事業",
+    "raw": "1 特定入所者介護サービス事業",
+    "firstFollowing": "85,097,653 （施策の成果）\n施設利用時の居住費・食費について、所得に応じ\nた負担限度額を設け、基準費用額との差額を保険給\n付することによって低所得者の負担を軽減した。\n給付件数 （食事）3,",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 405502,
+    "name": "高額医療合算介護サービス事業",
+    "raw": "1 高額医療合算介護サービス事業",
+    "firstFollowing": "12,873,715 （施策の成果）\n同一世帯で医療と介護の両制度の自己負担合計額\nが一定額を超えた場合に、保険給付を行うことによ\nり利用者負担を軽減した。\n給付件数 425件\n\n地域支援事業費 介護",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 405653,
+    "name": "介護予防・生活支援サービス事業",
+    "raw": "1 介護予防・生活支援サービス事業",
+    "firstFollowing": "・ 短期集中予防サービス事業\n委託料\n・ 介護予防・生活支援サービ\nス給付費\n\n38,903,260 （事業の目的・内容）\n33,000 高齢者が要介護状態等への予防又は状態の軽減若\nしくは悪化の防止",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 406038,
+    "name": "介護予防ケアマネジメント事業",
+    "raw": "1 介護予防ケアマネジメント事業",
+    "firstFollowing": "4,423,644 （施策の成果）\n要支援認定等、支援が必要な方の介護予防・重度\n化防止に向けた介護予防ケアプランを作成し、プラ\nンのマネジメントを行った。\n\n地域支援事業費 介護予防・生活支援サービ",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 406179,
+    "name": "高額介護予防サービス費相当事業",
+    "raw": "1 高額介護予防サービス費相当事業",
+    "firstFollowing": "99,636 （施策の成果）\n利用者負担が著しく高額となり、負担限度額\nを上回った額について保険給付を行い、利用者\nの負担を軽減した。\n給付件数 58件\n\n-343-\n\n※介護予防・生活支援サービス事",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 406848,
+    "name": "高額医療合算介護予防サービス費相当事業",
+    "raw": "1 高額医療合算介護予防サービス費相当事業",
+    "firstFollowing": "24,676 （施策の成果）\n同一世帯で、医療と介護の両制度の自己負担合計\n額が一定額を超えた場合に、保険給付を行うことに\nより利用者負担を軽減した。\n給付件数 9件\n\n地域支援事業費\n\n一般介護予防",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 406987,
+    "name": "一般介護予防事業",
+    "raw": "1 一般介護予防事業",
+    "firstFollowing": "・ 介護予防事業に係る事務用品費等\n・ 介護予防普及啓発事業委託料\n・ いきいき百歳体操推進事業委託料\n・ 脳トレアプリを活用した認知\n症予防事業委託料及び普及に\nかかるWiFi使用料等\n・ 音楽介護",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 408385,
+    "name": "任意事業",
+    "raw": "1 任意事業",
+    "firstFollowing": "・ 会計年度任用職員報酬（介\n護認定審査会運営補助員）\n・ 会計年度任用職員職員手当\n等（通勤手当旅費含）\n・ 会計年度任用職員共済費\n・ 成年後見制度利用支援報償費\n・ 成年後見申立手続に係る印紙代",
+    "status": "identity_hold",
+    "reason": "Generic umbrella name does not identify its component activities as distinct projects."
+  },
+  {
+    "start": 409590,
+    "name": "認知症施策推進事業",
+    "raw": "1 認知症施策推進事業",
+    "firstFollowing": "・ 認知症初期集中支援事業委託料\n・ 認知症地域支援・ケア向上\n推進事業委託料\n\n内\n\n容\n\n事業の目的内容・施策の成果・今後の課題\n\n成果指標・評価・今後の方向性\n\n認知症総合支援事業費\n\n12,3",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 410546,
+    "name": "在宅医療・介護連携推進事業",
+    "raw": "1 在宅医療・介護連携推進事業",
+    "firstFollowing": "・ 在宅医療・介護連携推進事\n業委託料\n\n4,819,000 （事業の目的・内容）\n医療と介護の両方を必要とする高齢者が住み慣れ\nた地域で、安心して生活できるよう医療・介護の関\n係機関が連携し、包括的",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 411497,
+    "name": "地域ケア会議推進事業",
+    "raw": "1 地域ケア会議推進事業",
+    "firstFollowing": "・ 地域ケア会議委員報酬\n・ 地域ケア会議推進業務委託料\n\n地域ケア個別会議事例数（件）\n地域ケア個別会議で取り扱った事例\nR6\nR7\nR8\nR9\n構築及び潜在ニーズの発見、施策の検討を行うため\n48",
+    "status": "named_annual_candidate",
+    "reason": "Unique literal numbered business heading in complete annual outcome table; financial and rating columns remain unassigned."
+  },
+  {
+    "start": 412669,
+    "name": "基金積立費",
+    "raw": "1 基金積立費",
+    "firstFollowing": "・ 介護保険基金積立金利子分\n・ 介護保険基金積立金\n諸支出金\n\n容\n\n51,024,090 （施策の成果）\n1,024,090 介護保険基金へ積立を行った。\n50,000,000\n\n一般会計繰出金\n",
+    "status": "accounting_heading_not_individual_business",
+    "reason": "Expense, payment or appropriation headings alone are not converted to individual projects."
+  }
+]

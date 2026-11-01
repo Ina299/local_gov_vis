@@ -1,0 +1,154 @@
+{
+  "prefecture": "36",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-01T12:57:15.978521+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "36489",
+      "municipalityName": "東みよし町",
+      "datasetSha256": "d110a9c509ec8f735b01d89b11d147669e64072693150b6c29036102741dda0b",
+      "evidenceShardSha256": "72a6e3eecfb2fc495afad6f7eac69a48fae473f717f65ffe485b9cd9c3cf221a"
+    },
+    {
+      "municipalityCode": "36468",
+      "municipalityName": "つるぎ町",
+      "datasetSha256": "40aab1d228832ec7e19b21a58b07156e6a0a543ba0e512d5d92bca046eeada9c",
+      "evidenceShardSha256": "8c2bd6a932950c058736a32669c541ed64276e94ed38dd0148b4d4f92436aa03"
+    },
+    {
+      "municipalityCode": "36405",
+      "municipalityName": "上板町",
+      "datasetSha256": "f7a7433bf78c49823e7c5c0d8de222402b88fbce339e08905e317ba65efed6ce",
+      "evidenceShardSha256": "5b9b5807f44f7a4e920876fef42894806f2ed01bd9a6549a95e9d4c5ba955ecd"
+    },
+    {
+      "municipalityCode": "36404",
+      "municipalityName": "板野町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "28a71b75fe921e2d9f6f687a7ff4fda23d005aee4ec7887fca30c0264e3e32e3"
+    },
+    {
+      "municipalityCode": "36403",
+      "municipalityName": "藍住町",
+      "datasetSha256": "eda65f2b282461975d70a5474f499c4e7fa3d86f3db7788c225532df3ca38637",
+      "evidenceShardSha256": "b8366259ad935aeb2f677069930c8da447d0f80b19d4b9305627bfd93a96b52e"
+    },
+    {
+      "municipalityCode": "36402",
+      "municipalityName": "北島町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b6dc7e0096e05f5d3ebf31baaf6571fdb80e1e498d3e3c3a16437eac60400fcd"
+    },
+    {
+      "municipalityCode": "36401",
+      "municipalityName": "松茂町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ab5c1bb4e9086eb98755f37ae0a15b86bc5f45e7f9495dc6400caacb8c4eda5a"
+    },
+    {
+      "municipalityCode": "36388",
+      "municipalityName": "海陽町",
+      "datasetSha256": "f3c7ad00ccfe445d28c04bb14eb3e4de16196aaad87870b6d3bbd79c968f61e5",
+      "evidenceShardSha256": "8c8920fb93370eb12ebdc6e40d53026f9012cb69371f01eecb1f175ae8fe4f5d"
+    },
+    {
+      "municipalityCode": "36387",
+      "municipalityName": "美波町",
+      "datasetSha256": "7b3b1fbaab8f648f2fef12fed5d2bdb5e62c9d93d4df94d651ac370b19edb4f6",
+      "evidenceShardSha256": "21ef8dbd59d7be4c70286303f7a6278ba662bda0df89c787b43ad6c0fdc1f24a"
+    },
+    {
+      "municipalityCode": "36383",
+      "municipalityName": "牟岐町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c81a40260f994df98a1073d12fe49fe498d4fe6f31ad720a61b997910492fc16"
+    },
+    {
+      "municipalityCode": "36368",
+      "municipalityName": "那賀町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f985cbb64821a27493d33f6e8ed3d9d73320bd1940185b35c4c5f5068393c795"
+    },
+    {
+      "municipalityCode": "36342",
+      "municipalityName": "神山町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ee8f1b2c442205fe5a9fdd0c0a1f61a50e4a4e5c47a3747e18546ae1dad54103"
+    },
+    {
+      "municipalityCode": "36341",
+      "municipalityName": "石井町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "71ee5de28066839087b3174a67b93d4e8905f4444d7352da270ce6d515d9ea4e"
+    },
+    {
+      "municipalityCode": "36321",
+      "municipalityName": "佐那河内村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "9854ac733607dc8369d1632d170eba3bd0b7cf5900e67120c53007b14c5901ca"
+    },
+    {
+      "municipalityCode": "36302",
+      "municipalityName": "上勝町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "bd0a09240041eca2ad844144620eb3114ef63dbb6bb94a84bf170fc8131a0cd6"
+    },
+    {
+      "municipalityCode": "36301",
+      "municipalityName": "勝浦町",
+      "datasetSha256": "5fb569992cdad15c550240e90c8aceb84e3eac0dd71785f80cd6481fbc4df133",
+      "evidenceShardSha256": "34cefe3d26f5a16b21b0468b7fc2c8f84b4fa1f5bc2667345e6b828b252b1dc4"
+    },
+    {
+      "municipalityCode": "36208",
+      "municipalityName": "三好市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "473849568f80a6601a1fd9c4ade030736f871a8be2df5f2944cb9e23659fe3ea"
+    },
+    {
+      "municipalityCode": "36207",
+      "municipalityName": "美馬市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "4d0dfc9f7fb075c82ca9af1273e0d41f34fed727338fc7ac0d608b698ad942f7"
+    },
+    {
+      "municipalityCode": "36206",
+      "municipalityName": "阿波市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "4fe5ccd2eccafa44db710ba0a8c599783afa0a2dfb2b8bda1505ea141c31834d"
+    },
+    {
+      "municipalityCode": "36205",
+      "municipalityName": "吉野川市",
+      "datasetSha256": "ff6bca5224d6045ff13a194705a4aae581bbacdbf94cac14a0790e8a01dc172f",
+      "evidenceShardSha256": "8847b2f10c613d5fb41ce18918a5864810ede215bd3c5d8884471f0c1ad8a39a"
+    },
+    {
+      "municipalityCode": "36204",
+      "municipalityName": "阿南市",
+      "datasetSha256": "a2fcc1282aafd4df222b023f6ee8c13317b7c5c80d0e264cc6dadbb3f15cf1f6",
+      "evidenceShardSha256": "6be9376bd32793a25514b12970fb15072c434933daedf74f491cd0a9bd68df0f"
+    },
+    {
+      "municipalityCode": "36203",
+      "municipalityName": "小松島市",
+      "datasetSha256": "52c31135e9baca05b21e89d60f1283a39c21b512188c6eb08cd81c6bf5235a0f",
+      "evidenceShardSha256": "a1fe98dbdd0bdc7cd00789a99cee487d843e12c93a4ef9a320605056b6e89a2c"
+    },
+    {
+      "municipalityCode": "36202",
+      "municipalityName": "鳴門市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6d9a1a6e749560e51e7f4d6f8ab5b5a1f33ba2f26daea610c034d25d120a028e"
+    },
+    {
+      "municipalityCode": "36201",
+      "municipalityName": "徳島市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f91e1bff0b69430581c61b575389f8843295c159fbf9bf94ffed7e9e27e96879"
+    }
+  ],
+  "skipped": []
+}

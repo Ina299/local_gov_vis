@@ -1,3 +1,4 @@
+import {reviewTokushima} from './descending-tokushima';
 import {reviewKagawa} from './descending-kagawa';
 import {reviewEhime} from './descending-ehime';
 import {reviewKochi} from './descending-kochi';
@@ -43,6 +44,7 @@ const evidenceHolds:Record<string,{code:string;proof:string;reason:string;status
  '0a23c81c6c6ae8a10e4fd6cd':{code:'46492',proof:'２．2020 年度実績（\n「宇宙乃浦」創生・「スペースサイエンスタウン構想」実現プロジェクト）',status:'joint_project_identity_hold',reason:'2020 actual report jointly covers two named projects with shared activities/budget, followed by2021 plans and forecast KPI cells. Individual allocation and boundaries are absent; do not split or assign shared figures.'}
 };
 export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]):LayoutReview|null{
+ const tokushima=reviewTokushima(input,inputs);if(tokushima)return tokushima;
  const kagawa=reviewKagawa(input,inputs);if(kagawa)return kagawa;
  const ehime=reviewEhime(input,inputs);if(ehime)return ehime;
  const kochi=reviewKochi(input,inputs);if(kochi)return kochi;
