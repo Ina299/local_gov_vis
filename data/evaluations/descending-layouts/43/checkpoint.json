@@ -24,24 +24,35 @@
     "sources": 226,
     "hashVerifiedBodies": 196,
     "continuationParts": 4,
-    "candidateRecords": 177,
-    "candidateMunicipalities": 12,
-    "duplicateOutputs": 557,
+    "candidateRecords": 1123,
+    "candidateMunicipalities": 15,
+    "duplicateOutputs": 567,
     "heldOutputs": 0,
     "productionRecordsAdded": 0,
     "existingFieldsChanged": 0,
     "municipalRequests": 0,
-    "layoutReviewedUnits": 274,
+    "layoutReviewedUnits": 1404,
     "layoutActionableUnits": 0,
-    "layoutHeldUnits": 96,
+    "layoutHeldUnits": 212,
     "statuses": {
       "navigation": 63,
       "duplicate": 18,
-      "reviewed_literal_businesses": 2,
-      "processed": 17,
+      "reviewed_literal_businesses": 4,
+      "processed": 24,
       "missing_body": 30,
-      "unsupported_layout": 96
+      "unsupported_layout": 87
     }
   },
-  "remaining": "96 source layouts and source-specific holds remain; no cached-scope completion claim."
+  "remaining": "87 source layouts plus source-specific holds remain. Further reviewed changes are staged outside the repository; no completion claim.",
+  "validation": {
+    "focusedTests": "9/9",
+    "independentCandidates": 3958,
+    "independentEvidence": 9208,
+    "typecheck": "passed",
+    "webTests": "256/256",
+    "lint": "passed",
+    "national": "passed",
+    "subpathStaticBuild": "109 pages passed",
+    "crawlerFullSuite": "running"
+  }
 }

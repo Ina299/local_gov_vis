@@ -1,8 +1,20 @@
 import json,hashlib,re
 from pathlib import Path
 root=Path(__file__).resolve().parents[4]; docs=root/'apps/web/public/evaluation-evidence/documents';configs=[]
+def verified_text(id,code):
+ meta=json.loads((docs.parent/'municipalities'/(code+'.json')).read_text())
+ src=next(s for s in meta['sources'] if s['id']==id); info=src['text']; parts=[info]+info.get('continuations',[]); text=''; offset=0
+ for n,part in enumerate(parts,1):
+  assert part['assetPath']=='documents/'+id+('' if n==1 else '-'+str(n))+'.json'
+  raw=(docs.parent/part['assetPath']).read_bytes(); assert len(raw)==part['assetBytes'] and hashlib.sha256(raw).hexdigest()==part['assetSha256']
+  d=json.loads(raw); assert d['sourceId']==id and d['sourceUrl']==src['url'] and d['sourceSha256']==src['acquisition']['sourceSha256']
+  assert len(d['text'])==part['exportedCharacters'] and hashlib.sha256(d['text'].encode()).hexdigest()==part['textSha256']
+  if n>1: assert part['part']==n and part['startCharacter']==offset and d['startCharacter']==offset
+  text+=d['text'];offset+=len(d['text'])
+ assert offset==info['characters'] and hashlib.sha256(text.encode()).hexdigest()==info.get('fullTextSha256',info['textSha256'])
+ return text
 def source(id,code,year,proof):
- t=json.loads((docs/(id+'.json')).read_text())['text'];assert proof in t
+ t=verified_text(id,code);assert proof in t
  expected=next(r for r in json.loads((root/'data/evaluations/descending-offline/43/source-ledger.json').read_text()) if r['sourceId']==id)
  assert hashlib.sha256(t.encode()).hexdigest()==expected['fullTextSha256'],id
  c=dict(sourceId=id,municipalityCode=code,year=year,proof=proof,fullTextSha256=hashlib.sha256(t.encode()).hexdigest(),rows=[],holds=[]);configs.append(c);return c,t
@@ -118,5 +130,81 @@ for name,begin in selected:
  p=t.index(name,begin);row(c,t,name,t[p:p+len(name)+100],start=p)
 c['holds']=[h for h in c['holds'] if h.get('status')!='layout_review']
 for raw,reason in [('機械購入事業23件','Agricultural machine/material figures include reprints and overlap grant-row projects; independent identity/funding components not proved.'),('漁船オーバーホール事業補助金','Fishery support titles overlap grant-table projects with variant names and amounts. No additional alias records or allocated totals.'),('具体的な施策・事業','Policy matrices mix future measures, parent programmes, actual narrative and cumulative assessments. Remaining unbounded items need individual project/column binding; policy titles and meetings are not business sheets.'),('■施策の効果検証と今後の方向性','Cumulative policy grades and KPI values cannot be assigned to individual business names; retain only individually proved literal names, no shared scores.')]:hold(c,t,raw,reason)
+
+c,t=source('e753806dc3468c4ea6875a1d','43423',2024,'《令和６年度の実績や課題など》')
+for name in ['日本で最も美しい村補助金','中山間地域等直接支払制度交付金','林業機械導入事業補助金','南小国町タクシー利用券','コンビニ収納システム','コンビニ交付サービス','まちインターン事業','農業体験民泊事業','里山自然体験活動事業','夢チャレンジ推進事業補助金','太陽光発電設備等導入促進事業補助金','ペレットストーブ等購入補助事業','民間賃貸住宅確保プロジェクト']:
+ m=re.search(re.escape('里山自然体験\nこんべい村でのアウトドアクッキング体験\n活動事業') if name=='里山自然体験活動事業' else r'\s*'.join(re.escape(ch) for ch in name),t);assert m,name
+ row(c,t,name,m.group(),start=m.start(),note='令和６年度の実績記述を持つ個別サービス・補助事業名。コンビニサービスは当年度運用の対象で、当年度新設とはしない。政策章・将来計画・工事完了を推測しない。')
+ # Preserve the closest following annual implementation paragraph, not just report heading.
+ actual=t.index('《令和６',m.end());end=t.find('\n・',actual+1);end=len(t) if end<0 else end
+ c['rows'][-1]['contextStart']=len(t[:actual].encode('utf-16-le'))//2;c['rows'][-1]['context']=t[actual:min(end,actual+550)]
+hold(c,t,'令和７年度に未施工の舗装工事','Road report mixes prior FY2023 works, FY2024 carryovers and FY2025 completion; no complete-road or yearly-cost inference.')
+hold(c,t,'【き】築いてきた美しい里山','Broad policy headings, joint regional actions, facilities, meetings and constituent events are not separate business records without individual identity binding.')
+c,t=source('ba323743a99a95d1cf5f5628','43423',None,'令和７年度の総合計画効果検証について');hold(c,t,c['proof'],'Schedule and instructions for preparing future evaluations, not completed individual business sheets.')
+c,t=source('b82a5c1201ce18495b96c81f','43423',None,'総合計画重点事業一覧（2023年度（令和５年度）事業実績評価書 兼 2024年度（令和６年度）事業実施計画書）')
+hold(c,t,'2023年度事業実績・成果、2024年度の変更点等（下段）','Header calls the rows FY2023 actual/FY2024 plan, while several narratives explicitly describe FY2024 execution. Other rows lack a decisive year; do not assign one blanket annual scope.')
+for name in ['未来づくり事業','学校給食提供環境整備事業']:
+ m=re.search(r'\s*'.join(re.escape(ch) for ch in name),t);assert m,name
+ row(c,t,name,m.group(),start=m.start(),note='本文が令和６年度の活動・検討と明記する範囲のみ。学校給食は移転先等の検討段階で工事完了ではない。表見出しとの年度不一致を保持し、金額・KPI・評価点を転記しない。');c['rows'][-1]['year']=2024
+ c['rows'][-1]['yearProof']='・令和6年度は、6名の起業型地域おこし協力隊' if name=='未来づくり事業' else '令和６年度は今後の方向性を示すに留まっ'
+
+c,t=source('60c979cb67321adea4cb5a6a','43423',2024,'2024年度(令和６年度)')
+for name in ['特定創業支援等事業','ワーキングバケーション事業']:
+ p=t.index(name);row(c,t,name,t[p:p+len(name)+170],start=p)
+hold(c,t,'日本で最も美しい村','Policy summary repeats literal services already documented by the implementation report, including taxi, solar, dream-challenge and school activities. Parent-policy KPIs/budgets and title aliases are not extra businesses.')
+c,t=source('c3f67bd4a7bda11d6e066155','43423',None,'重点事業等予算内訳書');hold(c,t,'※終了年度は最終補正後の額','Budget-only component/parent tables with reprints and mixed past/future fiscal columns, not proof of actual expenditure. They overlap named service candidates; no new projects/actual costs from budget components.')
+c,t=source('ac6d31b759f1531572f4490e','43403',None,'平成２８年度\n\n基本事業評価調書');c['evaluationYear']=2016
+selections={
+1:'社会福祉協議会補助事業|民生委員児童委員活動補助事業|心配ごと相談事業|災害時避難行動要支援者支援事業|ひとり親家庭等医療費助成事業|障害福祉サービス事業|地域生活支援事業|補装具費給付事業|自立支援医療費給付事業|重度心身障害者医療費助成事業|障害者相談支援事業|地域療育推進事業|障害児支援費事業|障害者住宅改造助成事業|社会参加促進事業|老人福祉センター運営事業|児童手当支給事業|若草児童学園管理運営事業',
+2:'予防事業対象者把握事業|通所型介護予防事業|訪問型介護予防事業|生活管理指導員派遣事業|総合相談事業|成年後見制度支援事業|食の自立支援事業|ほっとライン体制整備事業|包括的支援事業',
+3:'老人クラブ運営補助事業|敬老事業|金婚表彰事業|老人保護措置事業|シルバー人材センター育成事業|高齢者生きがいセンター指定管理委託|生活管理指導短期宿泊事業',
+4:'楽善ふれあいプラザ指定管理委託事業|高齢者住宅改造助成事業|家族介護用品支給事業',
+5:'特定健診、特定保健指導事業|国民健康保険健診事業（人間ドック）|国民健康保険保健事業（鍼灸施術補助）|後期高齢者医療健診事業|後期高齢者医療保健事業（鍼灸施術補助）',
+6:'母子保健事業|地域救急医療対策事業|予防接種事業|健康増進事業|食品監視活動補助金|新型インフルエンザ発熱外来事業|自殺対策推進事業',
+7:'こども医療費助成事業',8:'大菊土地改良区助成金|土地改良事業補助金|多面的機能支払交付金事業',
+10:'担い手育成総合支援事業|農業後継者育成事業|認定農業者協議会事業|農業制度資金利子補給事業|人･農地問題解決推進事業',
+11:'農産振興対策事業|畜産振興対策事業|経営所得安定対策推進事業|家畜防疫・畜産一般事業',
+12:'山村広場維持管理事業|有害鳥獣捕獲事業|鳥獣害防止対策事業',
+14:'町有林保育事業|地域活動支援交付金事業|私有林間伐促進事業|作業道舗装事業|森林環境保全整備事業',15:'森林公園整備事業',
+16:'消費者動向調査|大津町中小企業新築店舗改装利子補給',17:'大津町工場等振興奨励事業',20:'祭り助成金|観光協会設立に関する事業',
+22:'社会調査及び研究事業|各種相談事業|地域交流事業|地域福祉事業|住民啓発及び広報活動事業|児童健全育成事業|子育て支援事業',
+24:'海外派遣助成事業|国際交流員招致事業',25:'都市計画マスタープラン策定業務|立地適正化計画策定業務|国土利用計画策定業務|都市計画基礎調査策定業務|都市計画図作成事業',
+26:'住宅用省エネシステム設置補助制度',27:'白川中流域の水田湛水事業|合併浄化槽設置補助事業|雨水浸透桝設置補助事業',
+30:'社会資本整備事業に基づく道路新設事業|交通安全施設整備事業|道路改良事業|道路補修事業|橋梁長寿命化事業',
+33:'都市計画道路駅前楽善線改良事業|町道門出２号線道路整備事業',34:'駅前広場整備事業|南口駅（ビジターセンター）建設事業|駅北口整備事業',
+35:'町立公園等管理委託事業|公園長寿命化計画策定事業',38:'簡易水道整備事業',39:'公共下水道事業|農業集落排水事業',40:'消防施設整備事業|防災基盤整備事業',41:'防犯灯設置及び管理事業',44:'地域防犯対策事業',45:'事務改善事業|行政評価事業',47:'総合行政システム事業|地域情報化整備事業',50:'町民相談事業|総合窓口化の推進事業',52:'公会計整備事業',53:'大津町新地方公会計整備支援業務|公用自動車整備事業',55:'庁議システム事業|振興総合計画策定・進行管理事業|行政評価事業|公共交通計画事業|統計調査事業|人づくりまちづくり事業|広報発行事業',58:'地域づくり活動支援事業|元気大津づくり活動事業（地域通貨「水水」）'}
+ms=list(re.finditer('構成事務事業',t));assert len(ms)==58
+seen=set()
+for n,m in enumerate(ms,1):
+ end=t.index('基本事業の成果指標',m.end());b=t[m.end():end];b=re.split('27年度決算|２７年度決算|28年度予算',b)[0];start=m.end()
+ for name in selections.get(n,'').split('|'):
+  if not name or name in seen:continue
+  pat=r'(?:\s|事務事業名)*'.join(re.escape(ch) for ch in name);q=re.search(pat,b);assert q,(n,name)
+  row(c,t,name,q.group(),start=start+q.start(),note='平成28年度評価調書の「構成事務事業」欄に明記された個別名。評価年度2016のみ。平成27年度合計決算や28年度予算、基本事業全体の評価・指標を各事務事業へ転記しない。');seen.add(name)
+ c['holds'].append(dict(start=len(t[:start].encode('utf-16-le'))//2,raw=b,reason=f'Sheet {n}: named constituents screened; parent basic-policy name, account/fund labels, shared finance, prefectural works and activity directives omitted. This list alone does not establish individual fiscal execution or individual scores.',status='reviewed_constituent_list'))
+
+# Nagomi: complete hash-verified books, explicitly numbered municipal budget businesses.
+import unicodedata
+for id,year,digit in [('97473d4c47a291cc66e118f1',2022,'４'),('923cb11b38ca6e22558236a2',2023,'５'),('2fe88363280da148c8e84b12',2025,'７')]:
+ c,t=source(id,'43369',year,f'令和{digit}年度\n主要施策成果報告書'); entries=[]
+ for m in re.finditer(r'^.*事業№[^\n]*',t,re.M):
+  raw=m.group(); q=re.fullmatch(r'[①-㊿]?\s*事業№\s*([0-9０-９]+)[＿_ ]+(.+)',raw)
+  if not q:
+   hold(c,t,raw,'Business-number line is not a bounded title; missing title boundary or combined numbered headings.');continue
+  code=unicodedata.normalize('NFKC',q[1]);name=re.sub(r'\s+[0-9０-９,，]+\s*円.*$','',q[2]).strip()
+  if re.search(r'について|事業№|、|繰越|うち支所|人件費|基金積立|繰出金|元金償還|利子償還',name):
+   hold(c,t,raw,'Combined/continuing funding portion, staff/account transfer, or narrative reference: independent annual project identity not asserted.');continue
+  if not name or re.search(r'[0-9０-９,，]+\s*円',name):
+   hold(c,t,raw,'Name/amount boundary unresolved; numeric columns are not inferred.');continue
+  entries.append((code,name,raw,m.start()))
+ bycode={}
+ for code,name,raw,pos in entries:bycode.setdefault(code,set()).add(name)
+ seen=set()
+ for code,name,raw,pos in entries:
+  if len(bycode[code])>1:
+   hold(c,t,raw,'Same explicit business number has differing saved titles; alias/department scope needs resolution before separate identities.');continue
+  if code in seen:
+   hold(c,t,raw,'Repeated business number/title within annual book; retained once, departmental amounts not summed.');continue
+  seen.add(code);row(c,t,name,raw,start=pos,note='年度主要施策成果報告書の事業番号付き名称。独立した予算事業の存在のみ保持し、構成費・人件費・合計決算・過年度比較値は転記しない。')
 (root/'apps/crawler/src/evaluations/expansion/descending-kumamoto-map.ts').write_text('export const kumamotoRows = '+json.dumps(configs,ensure_ascii=False,indent=2)+';\n')
 print([(c['sourceId'],len(c['rows']),len(c['holds'])) for c in configs])
