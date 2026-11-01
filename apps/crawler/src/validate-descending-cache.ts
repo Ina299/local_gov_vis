@@ -8,7 +8,7 @@ import {fullText} from './evaluations/expansion/fulltext';
 import {createRequire} from 'node:module';
 const {parseEvaluationDataset}=createRequire(import.meta.url)('../../web/src/lib/evaluations.ts');
 import type {ProjectEvaluation} from '../../web/src/types/evaluation';
-const root=resolve(fileURLToPath(new URL('../../..',import.meta.url))),pub=join(root,'apps/web/public'),base=join(pub,'evaluation-evidence'),dir=join(root,'data/evaluations/descending-offline');
+const root=resolve(fileURLToPath(new URL('../../..',import.meta.url))),pub=join(root,'apps/web/public'),base=join(pub,'evaluation-evidence'),dir=join(root,process.argv[2]==='--layouts'?'data/evaluations/descending-layouts':'data/evaluations/descending-offline');
 const read=async(p:string)=>JSON.parse(await readFile(p,'utf8')),ei=await read(join(base,'index.json')),index=await read(join(pub,'evaluations-index.json'));let total=0,evidenceCount=0;
 for(const pref of (await readdir(dir)).filter(p=>/^\d{2}$/.test(p)).sort().reverse()){
  const out=join(dir,pref),ps:ProjectEvaluation[]=await read(join(out,'candidates.json')),cohort=await read(join(out,'cohort.json')),sources=new Map<string,any>();

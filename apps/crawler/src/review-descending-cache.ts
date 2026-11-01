@@ -5,6 +5,7 @@ import {resolve,join,relative,sep} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {sha256} from './evaluations/national-integration';
 import {fullText} from './evaluations/expansion/fulltext';
+import {extractDescendingLayouts,reviewDescendingLayout} from './evaluations/expansion/descending-layouts-r2';
 import {extractDescendingGrantRows} from './evaluations/expansion/descending-grant-rows';
 import {extractDescendingKirishima} from './evaluations/expansion/descending-kirishima';
 import {originalExtractors} from './descending-original-registry';
@@ -14,12 +15,12 @@ import {setPriorRecords} from './evaluations/expansion/run-context';
 import type {CachedInput} from './evaluations/expansion/shared';
 import type {ProjectEvaluation} from '../../web/src/types/evaluation';
 const root=resolve(fileURLToPath(new URL('../../..',import.meta.url))),pub=join(root,'apps/web/public'),base=join(pub,'evaluation-evidence');
-const [cohortPath,outArg]=process.argv.slice(2);assert.ok(cohortPath&&outArg,'cohort.json output');
+const [cohortPath,outArg,priorRoot]=process.argv.slice(2);assert.ok(cohortPath&&outArg,'cohort.json output');
 const out=resolve(outArg),rel=relative(pub,out);assert.ok(rel==='..'||rel.startsWith('..'+sep),'Output must be outside public assets');
 const read=async(p:string)=>JSON.parse(await readFile(p,'utf8'));const cohort=await read(cohortPath),index=await read(join(pub,'evaluations-index.json')),ei=await read(join(base,'index.json'));
 const ledger:any[]=[],candidates:ProjectEvaluation[]=[],duplicates:any[]=[],held:any[]=[],prior=new Map<string,ProjectEvaluation[]>();
 const norm=(s:string)=>s.normalize('NFKC').replace(/\s/g,'');
-for(const c of cohort.municipalities){const i=index.municipalities.find((x:any)=>x.municipalityCode===c.municipalityCode);assert.equal(i.datasetSha256,c.datasetSha256);let ps:ProjectEvaluation[]=[];if(i.datasetPath){const b=await readFile(join(pub,i.datasetPath));assert.equal(sha256(b),i.datasetSha256);ps=JSON.parse(b.toString()).projects;}prior.set(c.municipalityCode,ps);}
+for(const c of cohort.municipalities){const i=index.municipalities.find((x:any)=>x.municipalityCode===c.municipalityCode);assert.equal(i.datasetSha256,c.datasetSha256);let ps:ProjectEvaluation[]=[];if(i.datasetPath){const b=await readFile(join(pub,i.datasetPath));assert.equal(sha256(b),i.datasetSha256);ps=JSON.parse(b.toString()).projects;}if(priorRoot){try{const saved:ProjectEvaluation[]=await read(join(resolve(priorRoot),cohort.prefecture,'candidates.json'));ps.push(...saved.filter(p=>p.municipalityCode===c.municipalityCode));}catch(e:any){if(e.code!=='ENOENT')throw e;}}prior.set(c.municipalityCode,ps);}
 setPriorRecords(code=>prior.get(code)??[]);
 for(const c of cohort.municipalities){const mr=ei.municipalities.find((x:any)=>x.municipalityCode===c.municipalityCode);assert.equal(mr.shardSha256,c.evidenceShardSha256);const mb=await readFile(join(base,mr.shardPath));assert.equal(sha256(mb),mr.shardSha256);assert.equal(mb.length,mr.shardBytes);const meta=JSON.parse(mb.toString()),inputs:CachedInput[]=[],rows=new Map<string,any>();
  for(const s of meta.sources){const row:any={municipalityCode:c.municipalityCode,municipalityName:c.municipalityName,sourceId:s.id,url:s.url,title:s.title,status:'unsupported_layout',reason:'No supported individual-sheet parser output; source layout requires review, not an access denial',accepted:0,duplicates:0,held:0};ledger.push(row);rows.set(s.id,row);
@@ -34,7 +35,7 @@ for(const c of cohort.municipalities){const mr=ei.municipalities.find((x:any)=>x
  if(s.format==='html'){row.status='navigation';row.reason='Saved HTML; no supported individual-business output yet';}
  }
  const seen=[...(prior.get(c.municipalityCode)??[])];
- for(const input of inputs){const row=rows.get(input.sourceId),fns=[extractDescendingGrantRows,extractDescendingKirishima,originalExtractors[c.municipalityCode],supplementExtractors[c.municipalityCode]?.extract,...laterExtractors.map(r=>r.extractors[c.municipalityCode]?.extract)].filter(Boolean);row.parserFamilies=fns.length;
+ for(const input of inputs){const row=rows.get(input.sourceId),fns=[extractDescendingLayouts,extractDescendingGrantRows,extractDescendingKirishima,originalExtractors[c.municipalityCode],supplementExtractors[c.municipalityCode]?.extract,...laterExtractors.map(r=>r.extractors[c.municipalityCode]?.extract)].filter(Boolean);row.parserFamilies=fns.length;
  for(const fn of fns){let ps:ProjectEvaluation[];try{ps=fn(input,inputs);}catch(e){const reason='Parser rejected source: '+String(e);(row.parserErrors??=[]).push({parser:fn.name,reason});row.held++;held.push({sourceId:input.sourceId,parser:fn.name,reason});continue;}
  for(const p of ps){const ev=[...p.evidence,...p.amounts.map(x=>x.evidence),...p.indicators.map(x=>x.evidence),...p.ratings.map(x=>x.evidence)];let reason='';
  if(p.municipalityCode!==c.municipalityCode)reason='Output attribution differs from cohort municipality';
@@ -46,11 +47,12 @@ for(const c of cohort.municipalities){const mr=ei.municipalities.find((x:any)=>x
  // Preserve parser provenance; candidates are not publication-ready until independently reviewed.
  candidates.push(p);seen.push(p);row.accepted++;
  }}
- if(row.accepted)row.status='processed';else if(row.held)row.status='insufficient_evidence';else if(row.duplicates)row.status='duplicate';
+ const layout=reviewDescendingLayout(input,inputs);if(layout){row.layoutReview={...layout,projects:undefined};}
+ if(row.accepted)row.status='processed';else if(row.held)row.status='insufficient_evidence';else if(row.duplicates)row.status='duplicate';else if(layout){row.status=layout.status;row.reason=layout.reason;}
  if(['processed','duplicate'].includes(row.status))row.reason='Supported parser outputs screened against current master; source coverage is not asserted complete';
  }
 }
 setPriorRecords(null);await mkdir(out,{recursive:true});
-const summary={cohort:cohort.prefecture,municipalities:cohort.municipalities.length,sources:ledger.length,hashVerifiedBodies:ledger.filter(r=>r.fullTextSha256).length,continuationParts:ledger.reduce((n,r)=>n+(r.continuationParts??0),0),candidateRecords:candidates.length,candidateMunicipalities:new Set(candidates.map(p=>p.municipalityCode)).size,duplicateOutputs:duplicates.length,heldOutputs:held.length,productionRecordsAdded:0,existingFieldsChanged:0,municipalRequests:0,statuses:ledger.reduce((a:any,r)=>(a[r.status]=(a[r.status]??0)+1,a),{})};
+const summary={cohort:cohort.prefecture,municipalities:cohort.municipalities.length,sources:ledger.length,hashVerifiedBodies:ledger.filter(r=>r.fullTextSha256).length,continuationParts:ledger.reduce((n,r)=>n+(r.continuationParts??0),0),candidateRecords:candidates.length,candidateMunicipalities:new Set(candidates.map(p=>p.municipalityCode)).size,duplicateOutputs:duplicates.length,heldOutputs:held.length,productionRecordsAdded:0,existingFieldsChanged:0,municipalRequests:0,layoutReviewedUnits:ledger.reduce((n,r)=>n+(r.layoutReview?.units.length??0),0),layoutHeldUnits:ledger.flatMap(r=>r.layoutReview?.units??[]).filter(u=>u.status==='held').length,statuses:ledger.reduce((a:any,r)=>(a[r.status]=(a[r.status]??0)+1,a),{})};
 for(const [name,x]of Object.entries({'source-ledger':ledger,candidates,duplicates,held,summary}))await writeFile(join(out,name+'.json'),JSON.stringify(x)+'\n');
 console.log(JSON.stringify(summary));

@@ -1,0 +1,34 @@
+{
+  "candidateRecords": 1271,
+  "evidenceReferences": 2928,
+  "crawlerFull": {
+    "passed": 378,
+    "failed": 0,
+    "note": "Full suite completed; subsequent final14 layout tests separately pass after last3 Nagashima mappings and Kagoshima landing-page test.379 unique tests across full run and final focused run."
+  },
+  "layoutFinal": {
+    "passed": 14,
+    "failed": 0
+  },
+  "web": {
+    "passed": 256,
+    "failed": 0
+  },
+  "typecheck": "passed after obsolete missing-title reason type fix",
+  "lint": "passed with existing custom-font warning",
+  "nationalVerification": {
+    "municipalities": 500,
+    "records": 92038,
+    "indexSha256": "abe6c42fe4d7e2c4b102727dcb3eb17c44cf2dc4d2028ec507962bd726259015"
+  },
+  "staticExport": {
+    "exitCode": 0,
+    "basePath": "/local_gov_vis",
+    "buildOnlyOptimizeFonts": false,
+    "configRestored": true,
+    "configSha256": "a76ed78cade60cbad1191221a65c0977221e3281e708acb921626e58b6c69f6a"
+  },
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0
+}
