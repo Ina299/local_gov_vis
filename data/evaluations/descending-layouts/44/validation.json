@@ -1,21 +1,43 @@
 {
   "phase": "in_progress",
-  "candidateRecords": 109,
+  "candidateRecords": 368,
   "byMunicipality": {
     "44461 九重町": 82,
     "44322 姫島村": 23,
-    "44214 国東市": 4
+    "44214 国東市": 24,
+    "44213 由布市": 27,
+    "44211 宇佐市": 26,
+    "44209 豊後高田市": 151,
+    "44208 竹田市": 35
   },
   "focusedTests": {
-    "passed": 3,
+    "passed": 9,
     "failed": 0
   },
-  "typecheck": "passed",
-  "independentCandidateValidation": {
-    "combinedCandidates": 2193,
-    "exactEvidenceReferences": 5534
+  "crawlerFullEarlierSnapshot": {
+    "passed": 389,
+    "failed": 0,
+    "scope": "Before later Bungotakada and Taketa additions; final milestone run is active."
   },
-  "fullSuite": "Not rerun for this unfinished Oita increment; completed Miyazaki baseline has full validation.",
+  "currentFullSuite": "running; see /workspace/descending-layouts-20261101/logs/oita-crawler-milestone.log",
+  "webTests": {
+    "passed": 256,
+    "failed": 0
+  },
+  "lint": "passed",
+  "typecheck": "passed before final small parser/counter additions; final check pending",
+  "nationalVerification": "passed",
+  "staticExport": {
+    "passed": true,
+    "basePath": "/local_gov_vis",
+    "pages": 109,
+    "optionalRemoteFontsDisabledForBuildOnly": true,
+    "configRestored": true
+  },
+  "independentCandidateValidation": {
+    "combinedCandidates": 2452,
+    "exactEvidenceReferences": 6167
+  },
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,

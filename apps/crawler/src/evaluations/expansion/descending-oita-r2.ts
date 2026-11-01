@@ -1,6 +1,8 @@
+import {reviewOitaReports} from './descending-oita-reports';
 import type {LayoutReview} from './descending-layouts-r2';
 import {type CachedInput,project,evidence} from './shared';
 export function reviewOitaR2(input:CachedInput):LayoutReview|null{
+ const reports=reviewOitaReports(input);if(reports)return reports;
  const kuni=reviewKunisaki(input);if(kuni)return kuni;
  const hime=reviewHimeshima(input);if(hime)return hime;
  if(input.municipalityCode!=='44461'||input.sourceId!=='470d8bab6f9c499dfeefd122')return null;
@@ -44,14 +46,34 @@ function reviewHimeshima(input:CachedInput):LayoutReview|null{
 function reviewKunisaki(input:CachedInput):LayoutReview|null{
  if(input.municipalityCode!=='44214'||input.sourceId!=='6345c171cf1e40e7691b3010')return null;
  const header='（令和５年４月～令和６年３月）',date='令和 ６年１０月２５日';
- const r:LayoutReview={projects:[],units:[],status:'partial_named_program_review',reason:'Four clearly named projects/programs; remaining flattened policy/implementation rows still require review, not an access hold.',proofs:[header,date,'国東市教育委員会']};
+ const r:LayoutReview={projects:[],units:[],status:'reviewed_named_programs_with_scope_holds',reason:'24 explicitly named programs/works. Generic policy and teaching/governance actions excluded; shared and unnamed activity identities held separately. No shared figures or ratings allocated.',proofs:[header,date,'国東市教育委員会']};
  if(input.truncated||input.format!=='pdf'||![header,date,'国東市教育委員会'].every(x=>input.text.includes(x)))return r;
  const rows=[
  ['国東小学校校舎長寿命化改修工事（管理棟）','・国東小学校校舎長寿命化改修工事（管理棟）を\n行った。'],
  ['安岐小学校校舎改修工事及び富来小学校屋内運動場長寿命化改修工事の設計','・安岐小学校校舎改修工事及び富来小学校屋内運\n動場長寿命化改修工事の設計を行った。'],
  ['あかちゃんおはなし会','「あかちゃんおはなし会」9 回/年（参加：21 組）、'],
- ['おはなし会','「おはなし会」4 館とも月 1 回を目安に実施。（参\n加者：411 人）']
+ ['おはなし会','「おはなし会」4 館とも月 1 回を目安に実施。（参\n加者：411 人）'],
+ ["公営進学塾「国東夢道塾」", "公営進学塾「国東夢道塾」を運営し、"],
+ ["放課後学習塾", "・安岐中学校に加え、国見中学校と国東中学校の\n３校が放課後学習塾に取り組んだ。"],
+ ["中央公民館講座", "市民の生涯学習を推進するため、中央公民館講座\nを１３３講座開設した。"],
+ ["文化芸能発表会（国見地域）", "文化芸能発表会（国見地域）"],
+ ["総合文化祭（国東地域）", "総合文化祭（国東\n地域の活性化、地域リーダーを育成します。\n地域）"],
+ ["カルティバル（武蔵地域）", "カルティバル（武蔵地域）"],
+ ["公民館祭り（安岐地域）", "公民館祭り\n（安岐地域）を開催した。"],
+ ["協育ネットワーク事業", "次世代を担う青少年を育成するため、協育ネット\nワーク事業に取り組んだ。"],
+ ["レクリエーション大会", "①レクリエーション大会を１０月１５日に開催。"],
+ ["新春書初め展", "②新春書初め展を開催。"],
+ ["ナイターソフトボール", "ナイターソフトボール（6 月）"],
+ ["プロスポーツ教室", "プロスポーツ教室（12 月：サッカー（トリ\nニータ選手））"],
+ ["国見Ｂ＆Ｇ海洋センター改修（体育館・プール）", "国見\nＢ＆Ｇ海洋センター改修（体育館・プール）"],
+ ["安岐テニスコート改修（オムニコート化、LED 照明化）", "安\n岐テニスコート改修（オムニコート化、LED 照明\n化）"],
+ ["国東野球場改修設計", "国東\n野球場改修設計"],
+ ["安岐体育館整備", "安岐体育館整備などを実施。"],
+ ["地区人権学習会", "・地区人権学習会を開催した行政区（自治会等を\n含む）と参加者数"],
+ ["身になる人権講座", "・身になる人権講座を以下の内容で開催しました。"],
+ ["人権フェスティバル", "・旧 4 町毎に開催している人権フェスティバルは、"],
+ ["第４７回全国遺跡環境整備会議", "全国から３６自治体が参加し、第４７回全国遺\n跡環境整備会議を開催した。"]
  ];
  for(const [name,raw]of rows){const start=input.text.indexOf(raw);if(start<0||input.text.indexOf(raw,start+1)!==-1){r.units.push({start:0,name,status:'held',reason:'Unique exact implementation evidence absent'});continue;}const p=project(input,'named-'+start,name,null,raw,start);p.projectCode=null;p.evaluatedFiscalYear=2023;p.evaluationYear=2024;p.evidence.push(evidence(input,header,input.text.indexOf(header)),evidence(input,date,input.text.indexOf(date)));p.warnings.push('年度報告内の明示された具体的取組名のみ。設計業務を工事完成と扱わず、政策単位の共通評価・費用・参加者数を各事業に配賦しない。');r.projects.push(p);r.units.push({start,name,status:'supported',reason:'Exact named implementation and annual/committee-date evidence; no allocated shared ratings'});}
- r.units.push({start:0,status:'layout_review_pending',reason:'Other concrete implementation rows remain actionable; policy headings and jointly evaluated activities need explicit boundaries before extraction. This source is not fully covered.'});return r;
+ r.units.push({start:0,status:'individual_identity_hold',reason:'Childcare and gender-policy rows have only department names in implementation cells; broad teaching/governance policies and stock indicators do not identify independent businesses. Generic lectures, maintenance/equipment components and concert descriptions lack distinct project identities. Japanese-heritage joint subactivities and the Miura anniversary aggregate need an independent project/register mapping before splitting. Future2024 learning-card production is excluded. Named implementation review is complete; not a claim of complete program coverage.'});return r;
 }

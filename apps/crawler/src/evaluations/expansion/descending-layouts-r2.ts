@@ -1,3 +1,5 @@
+import {reviewTaketaR2} from './descending-taketa-r2';
+import {reviewBungotakada} from './descending-bungotakada';
 import {reviewOitaR2} from './descending-oita-r2';
 import {reviewMiyazakiList} from './descending-miyazaki-list';
 import {reviewShintomiR2} from './descending-shintomi-r2';
@@ -33,6 +35,8 @@ export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]
  if(input.municipalityCode==='46392'&&satsumaRows.some(r=>r.sourceId===input.sourceId)&&input.format==='pdf')return reviewSatsuma(input);
  if(input.municipalityCode==='46404'&&input.sourceId==='dd96103fb0b585d0826a5bda'&&input.format==='pdf')return reviewNagashima(input);
  if(input.municipalityCode==='46501'&&input.sourceId==='3c7ba97b8a20f7cbe62c263c'&&input.format==='pdf')return reviewNakatane(input);
+ const taketa=reviewTaketaR2(input);if(taketa)return taketa;
+ const bungo=reviewBungotakada(input,inputs);if(bungo)return bungo;
  const oita=reviewOitaR2(input);if(oita)return oita;
  const ml=reviewMiyazakiList(input);if(ml)return ml;
  const shintomi=reviewShintomiR2(input);if(shintomi)return shintomi;
