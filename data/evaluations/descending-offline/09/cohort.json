@@ -1,0 +1,160 @@
+{
+  "prefecture": "09",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-01T13:00:51.051054+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "09411",
+      "municipalityName": "那珂川町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f7a9f2049f8e3f1335bc50eab43cf418c4486dac6150af461aa543ace4796392"
+    },
+    {
+      "municipalityCode": "09407",
+      "municipalityName": "那須町",
+      "datasetSha256": "7682dc5d72cc7d9faabe795609f1a208cad37b38ad690763e392902d7c33a238",
+      "evidenceShardSha256": "b4b03276413fbf6478182758068d831ffd4a2d95af2dc08002a182a59f577a68"
+    },
+    {
+      "municipalityCode": "09386",
+      "municipalityName": "高根沢町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "5200c4be7b191b8fb911fc3cb662a1973037b765429cff257d88fc3d59cb8014"
+    },
+    {
+      "municipalityCode": "09384",
+      "municipalityName": "塩谷町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e3c0b66e5863e31ceee3d01236265cdd89f74cb10d3b1208fb8d9b5b4aa90a61"
+    },
+    {
+      "municipalityCode": "09364",
+      "municipalityName": "野木町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a587f77ca07c8e1f327c65901b0d6ac48ad5df71426ce428b57b65f7f1fd2fc9"
+    },
+    {
+      "municipalityCode": "09361",
+      "municipalityName": "壬生町",
+      "datasetSha256": "2f9d6a7701c76491b8fef9c2586d574e3a896c9d122bd55e37378d55b168a1f1",
+      "evidenceShardSha256": "4b4e3c1f22222812e814199039341c591c6a1a90bbe74b86d78275e95f12bb60"
+    },
+    {
+      "municipalityCode": "09345",
+      "municipalityName": "芳賀町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "076609077279aaeab0dd81dcabd41af9b39ecebc2a2f08015e664844ef006340"
+    },
+    {
+      "municipalityCode": "09344",
+      "municipalityName": "市貝町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6c2396cee7439d4cbf3c6f4acc164592c0a836292539a59f8034b85e16c91aee"
+    },
+    {
+      "municipalityCode": "09343",
+      "municipalityName": "茂木町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "1fdadc504dd12e83a5e4f4855d79e763a57917ea5ac0b943f8da0e05d3cc5fa5"
+    },
+    {
+      "municipalityCode": "09342",
+      "municipalityName": "益子町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7f550b17ff7820d56976106ca31e6895ea12c47edf1596b4e232bd2bccf72af9"
+    },
+    {
+      "municipalityCode": "09301",
+      "municipalityName": "上三川町",
+      "datasetSha256": "3d3e754d6eba401762b828a2c6cc38992b4a9727de3f1b907acd335f9994fc18",
+      "evidenceShardSha256": "b261ec7bd000ca868eada6ce8cfeb1509706ef55eca97146007bb86e5f9eb2bb"
+    },
+    {
+      "municipalityCode": "09216",
+      "municipalityName": "下野市",
+      "datasetSha256": "f76bf91b79a78d4b3b69622c9bb0db2a5852747d824af8efce97464d729f62d2",
+      "evidenceShardSha256": "8612bcdcbbcd757d1cb6509d68053c706345943723679c5e6527d0199304e290"
+    },
+    {
+      "municipalityCode": "09215",
+      "municipalityName": "那須烏山市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "731237f16b7bf71986869f5a523ac9d815df6a108ce98fa1389272b979ba07a3"
+    },
+    {
+      "municipalityCode": "09214",
+      "municipalityName": "さくら市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ee61daba8c85aee9258a59d1008790ff5acd0544ec56f890575e0f995908ab77"
+    },
+    {
+      "municipalityCode": "09213",
+      "municipalityName": "那須塩原市",
+      "datasetSha256": "1ba9cef4ecd8f6aa32e835be23b666c90412fd026ffe43f312cb56b6e2be528e",
+      "evidenceShardSha256": "2847935eeeecda683eb41c3a24c0f96b7be425bb81d236b51a0939add7560a42"
+    },
+    {
+      "municipalityCode": "09211",
+      "municipalityName": "矢板市",
+      "datasetSha256": "9928bb15df06d00dc87bd47756d8ca746cd30633fb4386ec442e31262d647fdb",
+      "evidenceShardSha256": "78d8a669ee250faa84605f7a39035b37dbc2a99ce99f003d283472b6c7d6f8dd"
+    },
+    {
+      "municipalityCode": "09210",
+      "municipalityName": "大田原市",
+      "datasetSha256": "effba291bf3b706ddd897f0090dbc95acbb10f47eafb2fff15e32f7cdb990fab",
+      "evidenceShardSha256": "5977c0f8e873e072763733406ea81f3c8da61c5f9260449b18076e36b3794857"
+    },
+    {
+      "municipalityCode": "09209",
+      "municipalityName": "真岡市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "1e160c25b8285b37976f1e138927ec0c38bfd24c352a1e6e6fa013f39b663a79"
+    },
+    {
+      "municipalityCode": "09208",
+      "municipalityName": "小山市",
+      "datasetSha256": "e82d3328e739475da505995df78982fee547a8015d5951e4f7820bc329df7663",
+      "evidenceShardSha256": "27930d9803f3994e104b11313f71f747a7f5767b0f22d2e17a3a6d8a5adf0bed"
+    },
+    {
+      "municipalityCode": "09206",
+      "municipalityName": "日光市",
+      "datasetSha256": "25358fbd90ae83c5d3dd3cf9e95f911b67286f1898d013485d8106ac18d57908",
+      "evidenceShardSha256": "f33fa6c1068babfc4f81adc29cb063fc414a9e22e3bd1930fa98b4c4a178752c"
+    },
+    {
+      "municipalityCode": "09205",
+      "municipalityName": "鹿沼市",
+      "datasetSha256": "825fc724760ec9d2943c1d47cc00b3d759e95b8099304d7f202090f01f055d77",
+      "evidenceShardSha256": "7391c3faf0fe7bff0f5e481bd9778c9205643676261beb9348732f73c1972642"
+    },
+    {
+      "municipalityCode": "09203",
+      "municipalityName": "栃木市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e630a83cb453b4d80fdf99d4d0dec86165938d54b8625758e5d0b3404106cddb"
+    },
+    {
+      "municipalityCode": "09202",
+      "municipalityName": "足利市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "09395d341affd82aa677e33e9f6afc9672c2457f805e91ecf6367111d4517129"
+    },
+    {
+      "municipalityCode": "09201",
+      "municipalityName": "宇都宮市",
+      "datasetSha256": "937e99cf273d1363a32f81f52f13d22de5b96343e319cbdebd71c02226e1c678",
+      "evidenceShardSha256": "efc5b765917b5f2f8fc3a57e96445a646a6278253b3a58832c9a722c4008fc20"
+    }
+  ],
+  "skipped": [
+    {
+      "municipalityCode": "09204",
+      "municipalityName": "佐野市",
+      "reason": "Recent master dataset differs from common baseline"
+    }
+  ]
+}
