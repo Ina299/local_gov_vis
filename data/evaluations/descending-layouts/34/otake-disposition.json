@@ -1,0 +1,130 @@
+[
+  {
+    "sourceId": "0437e4f6cf934dd01b44a942",
+    "status": "aggregate_business_indicators_not_individual_sheets",
+    "reason": "概要の③は複数の具体事業をまとめた大事業名と明示。事業評価表はその大事業と複数年KPIであり個別事務事業票ではない。既存68名称の年度未確定記録は変更せず、R2欄から新規年度記録を増やさない。",
+    "explanationSource": "459eadb3900b7190ed353f7d",
+    "explanationQuote": "施策を実現するための複数の「具体的な事業」をまとめたもので",
+    "existingValuesChanged": 0
+  },
+  {
+    "sourceId": "1163fa2aa83dd55bc49bc932",
+    "status": "policy_kpi_not_individual_sheets",
+    "reason": "基本目標・施策単位のKPI推移。個別事業名/年度境界を確定できず、KPIごとのプロジェクト化をしない。",
+    "explanationSource": "459eadb3900b7190ed353f7d",
+    "explanationQuote": "施策を実現するための複数の「具体的な事業」をまとめたもので",
+    "existingValuesChanged": 0
+  },
+  {
+    "sourceId": "23b488c0e32d84e7d7b6c33c",
+    "status": "citizen_survey_not_business_records",
+    "reason": "市民の回答・提案・質問紙又は調査概要。事業名に似た回答語句を行政の実施事業に変換しない。",
+    "explanationSource": "459eadb3900b7190ed353f7d",
+    "explanationQuote": "施策を実現するための複数の「具体的な事業」をまとめたもので",
+    "existingValuesChanged": 0
+  },
+  {
+    "sourceId": "2a9d9619ce29868a57c0cb3b",
+    "status": "navigation_cover_or_methodology",
+    "reason": "表紙・目次・案内・数値の読み方。例示表は実数でない旨を明示。独立事業レコードにしない。",
+    "explanationSource": "459eadb3900b7190ed353f7d",
+    "explanationQuote": "施策を実現するための複数の「具体的な事業」をまとめたもので",
+    "existingValuesChanged": 0
+  },
+  {
+    "sourceId": "459eadb3900b7190ed353f7d",
+    "status": "navigation_cover_or_methodology",
+    "reason": "表紙・目次・案内・数値の読み方。例示表は実数でない旨を明示。独立事業レコードにしない。",
+    "explanationSource": "459eadb3900b7190ed353f7d",
+    "explanationQuote": "施策を実現するための複数の「具体的な事業」をまとめたもので",
+    "existingValuesChanged": 0
+  },
+  {
+    "sourceId": "59ca497974aff08da141f6e9",
+    "status": "citizen_survey_not_business_records",
+    "reason": "市民の回答・提案・質問紙又は調査概要。事業名に似た回答語句を行政の実施事業に変換しない。",
+    "explanationSource": "459eadb3900b7190ed353f7d",
+    "explanationQuote": "施策を実現するための複数の「具体的な事業」をまとめたもので",
+    "existingValuesChanged": 0
+  },
+  {
+    "sourceId": "7011e720fd206c0c344985c4",
+    "status": "citizen_survey_not_business_records",
+    "reason": "市民の回答・提案・質問紙又は調査概要。事業名に似た回答語句を行政の実施事業に変換しない。",
+    "explanationSource": "459eadb3900b7190ed353f7d",
+    "explanationQuote": "施策を実現するための複数の「具体的な事業」をまとめたもので",
+    "existingValuesChanged": 0
+  },
+  {
+    "sourceId": "787f9d1b5361e71cf1613d40",
+    "status": "aggregate_business_indicators_not_individual_sheets",
+    "reason": "概要の③は複数の具体事業をまとめた大事業名と明示。事業評価表はその大事業と複数年KPIであり個別事務事業票ではない。既存68名称の年度未確定記録は変更せず、R2欄から新規年度記録を増やさない。",
+    "explanationSource": "459eadb3900b7190ed353f7d",
+    "explanationQuote": "施策を実現するための複数の「具体的な事業」をまとめたもので",
+    "existingValuesChanged": 0
+  },
+  {
+    "sourceId": "791019d6a6168d636bf793a9",
+    "status": "citizen_survey_not_business_records",
+    "reason": "市民の回答・提案・質問紙又は調査概要。事業名に似た回答語句を行政の実施事業に変換しない。",
+    "explanationSource": "459eadb3900b7190ed353f7d",
+    "explanationQuote": "施策を実現するための複数の「具体的な事業」をまとめたもので",
+    "existingValuesChanged": 0
+  },
+  {
+    "sourceId": "842179826077682e85cf4511",
+    "status": "navigation_cover_or_methodology",
+    "reason": "表紙・目次・案内・数値の読み方。例示表は実数でない旨を明示。独立事業レコードにしない。",
+    "explanationSource": "459eadb3900b7190ed353f7d",
+    "explanationQuote": "施策を実現するための複数の「具体的な事業」をまとめたもので",
+    "existingValuesChanged": 0
+  },
+  {
+    "sourceId": "b857c94462846c830d53bddb",
+    "status": "navigation_cover_or_methodology",
+    "reason": "表紙・目次・案内・数値の読み方。例示表は実数でない旨を明示。独立事業レコードにしない。",
+    "explanationSource": "459eadb3900b7190ed353f7d",
+    "explanationQuote": "施策を実現するための複数の「具体的な事業」をまとめたもので",
+    "existingValuesChanged": 0
+  },
+  {
+    "sourceId": "bf6fc4e41e73c842a002bfcb",
+    "status": "aggregate_business_indicators_not_individual_sheets",
+    "reason": "概要の③は複数の具体事業をまとめた大事業名と明示。事業評価表はその大事業と複数年KPIであり個別事務事業票ではない。既存68名称の年度未確定記録は変更せず、R2欄から新規年度記録を増やさない。",
+    "explanationSource": "459eadb3900b7190ed353f7d",
+    "explanationQuote": "施策を実現するための複数の「具体的な事業」をまとめたもので",
+    "existingValuesChanged": 0
+  },
+  {
+    "sourceId": "c3f2597bc26ab3e6e821a8fe",
+    "status": "aggregate_business_indicators_not_individual_sheets",
+    "reason": "概要の③は複数の具体事業をまとめた大事業名と明示。事業評価表はその大事業と複数年KPIであり個別事務事業票ではない。既存68名称の年度未確定記録は変更せず、R2欄から新規年度記録を増やさない。",
+    "explanationSource": "459eadb3900b7190ed353f7d",
+    "explanationQuote": "施策を実現するための複数の「具体的な事業」をまとめたもので",
+    "existingValuesChanged": 0
+  },
+  {
+    "sourceId": "d72022ccb3a7baed737f73c3",
+    "status": "citizen_survey_not_business_records",
+    "reason": "市民の回答・提案・質問紙又は調査概要。事業名に似た回答語句を行政の実施事業に変換しない。",
+    "explanationSource": "459eadb3900b7190ed353f7d",
+    "explanationQuote": "施策を実現するための複数の「具体的な事業」をまとめたもので",
+    "existingValuesChanged": 0
+  },
+  {
+    "sourceId": "db5b314d17f9e9edb3d02761",
+    "status": "policy_kpi_not_individual_sheets",
+    "reason": "基本目標・施策単位のKPI推移。個別事業名/年度境界を確定できず、KPIごとのプロジェクト化をしない。",
+    "explanationSource": "459eadb3900b7190ed353f7d",
+    "explanationQuote": "施策を実現するための複数の「具体的な事業」をまとめたもので",
+    "existingValuesChanged": 0
+  },
+  {
+    "sourceId": "e009e3e74feb4bcf88b8938c",
+    "status": "policy_kpi_not_individual_sheets",
+    "reason": "基本目標・施策単位のKPI推移。個別事業名/年度境界を確定できず、KPIごとのプロジェクト化をしない。",
+    "explanationSource": "459eadb3900b7190ed353f7d",
+    "explanationQuote": "施策を実現するための複数の「具体的な事業」をまとめたもので",
+    "existingValuesChanged": 0
+  }
+]

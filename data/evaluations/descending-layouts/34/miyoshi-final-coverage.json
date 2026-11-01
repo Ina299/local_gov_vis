@@ -1,0 +1,1177 @@
+{
+  "existing2025Rows": [
+    {
+      "number": 1,
+      "name": "健康診断事業",
+      "start": 75,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p2"
+      ]
+    },
+    {
+      "number": 51,
+      "name": "避難行動要支援者支援事業",
+      "start": 91,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p52"
+      ]
+    },
+    {
+      "number": 101,
+      "name": "みよしのよしみファンクラブ事業",
+      "start": 114,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p102"
+      ]
+    },
+    {
+      "number": 2,
+      "name": "オーラルフレイル予防事業",
+      "start": 141,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p3"
+      ]
+    },
+    {
+      "number": 52,
+      "name": "広域緊急輸送道路沿道建築物耐震化事業",
+      "start": 163,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p53"
+      ]
+    },
+    {
+      "number": 102,
+      "name": "地域おこし協力隊事業",
+      "start": 192,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p103"
+      ]
+    },
+    {
+      "number": 3,
+      "name": "みよしふるさとランチ事業",
+      "start": 214,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p4"
+      ]
+    },
+    {
+      "number": 53,
+      "name": "ブロック塀等安全確保事業",
+      "start": 236,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p54"
+      ]
+    },
+    {
+      "number": 103,
+      "name": "集落支援員事業",
+      "start": 259,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p104"
+      ]
+    },
+    {
+      "number": 4,
+      "name": "運動の推進事業",
+      "start": 278,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p5"
+      ]
+    },
+    {
+      "number": 54,
+      "name": "ネウボラみよし事業",
+      "start": 295,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p55"
+      ]
+    },
+    {
+      "number": 104,
+      "name": "元気な地域創造施設整備支援事業",
+      "start": 315,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p105"
+      ]
+    },
+    {
+      "number": 5,
+      "name": "休日夜間急患センター運営事業",
+      "start": 342,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p6"
+      ]
+    },
+    {
+      "number": 105,
+      "name": "自治振興活動費補助事業",
+      "start": 402,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p106"
+      ]
+    },
+    {
+      "number": 6,
+      "name": "医師育成奨学金貸付事業",
+      "start": 425,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p7"
+      ]
+    },
+    {
+      "number": 56,
+      "name": "地域子育て支援センター運営事業",
+      "start": 446,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p57"
+      ]
+    },
+    {
+      "number": 106,
+      "name": "協働のまちづくり支援事業",
+      "start": 475,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p107"
+      ]
+    },
+    {
+      "number": 7,
+      "name": "医療機器等整備事業",
+      "start": 499,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p8"
+      ]
+    },
+    {
+      "number": 57,
+      "name": "こども発達支援センター運営事業",
+      "start": 518,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p58"
+      ]
+    },
+    {
+      "number": 107,
+      "name": "地域共創まちづくり支援事業",
+      "start": 542,
+      "existingIds": [
+        "cached-34209-e09f4d8fa982b447a941f965"
+      ]
+    },
+    {
+      "number": 8,
+      "name": "24時間365日小児救急医療",
+      "start": 567,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p9"
+      ]
+    },
+    {
+      "number": 58,
+      "name": "不妊検査・不妊治療・不育治療費助成事業",
+      "start": 591,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p59"
+      ]
+    },
+    {
+      "number": 9,
+      "name": "地域包括支援センター事業",
+      "start": 651,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p10"
+      ]
+    },
+    {
+      "number": 59,
+      "name": "医療的ケア児保育支援事業",
+      "start": 674,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p60"
+      ]
+    },
+    {
+      "number": 10,
+      "name": "高齢者等見守り隊事業",
+      "start": 723,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p11"
+      ]
+    },
+    {
+      "number": 60,
+      "name": "保育体制強化事業補助金",
+      "start": 744,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p61"
+      ]
+    },
+    {
+      "number": 11,
+      "name": "緊急通報装置給付事業",
+      "start": 797,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p12"
+      ]
+    },
+    {
+      "number": 61,
+      "name": "障害児等保育事業補助金",
+      "start": 818,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p62"
+      ]
+    },
+    {
+      "number": 12,
+      "name": "外国人介護人材確保支援事業",
+      "start": 869,
+      "existingIds": [
+        "cached-34209-a2fd5a4b7daf443559c5de0c"
+      ]
+    },
+    {
+      "number": 62,
+      "name": "保育士確保対策事業補助金",
+      "start": 893,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p63"
+      ]
+    },
+    {
+      "number": 13,
+      "name": "介護事業所人材育成等支援事業",
+      "start": 954,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p14"
+      ]
+    },
+    {
+      "number": 63,
+      "name": "こども家庭センター運営事業",
+      "start": 979,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p64"
+      ]
+    },
+    {
+      "number": 113,
+      "name": "堆肥購入促進事業",
+      "start": 1006,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p114"
+      ]
+    },
+    {
+      "number": 14,
+      "name": "障害者支援センター事業",
+      "start": 1022,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p15"
+      ]
+    },
+    {
+      "number": 114,
+      "name": "農業振興団体等補助事業",
+      "start": 1090,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p115"
+      ]
+    },
+    {
+      "number": 15,
+      "name": "障害者福祉タクシー等利用助成事業",
+      "start": 1109,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p16"
+      ]
+    },
+    {
+      "number": 115,
+      "name": "農業振興資金利子補給費補助事業",
+      "start": 1172,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p116"
+      ]
+    },
+    {
+      "number": 16,
+      "name": "地域生活支援拠点等整備事業",
+      "start": 1195,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p17"
+      ]
+    },
+    {
+      "number": 66,
+      "name": "こども医療費助成事業",
+      "start": 1218,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p67"
+      ]
+    },
+    {
+      "number": 116,
+      "name": "有機農業等推進事業",
+      "start": 1242,
+      "existingIds": [
+        "cached-34209-9e4e611b6a6e625e3e5ac026"
+      ]
+    },
+    {
+      "number": 67,
+      "name": "ひとり親家庭等自立応援プロジェクト事業",
+      "start": 1295,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p68"
+      ]
+    },
+    {
+      "number": 18,
+      "name": "男女共同参画推進事業",
+      "start": 1363,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p19"
+      ]
+    },
+    {
+      "number": 68,
+      "name": "みよし森のポッケ運営事業",
+      "start": 1385,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p69"
+      ]
+    },
+    {
+      "number": 69,
+      "name": "病児・病後児保育事業",
+      "start": 1485,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p70"
+      ]
+    },
+    {
+      "number": 20,
+      "name": "高校生国際理解支援事業",
+      "start": 1544,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p21"
+      ]
+    },
+    {
+      "number": 70,
+      "name": "子育て短期支援事業",
+      "start": 1567,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p71"
+      ]
+    },
+    {
+      "number": 21,
+      "name": "国際交流団体活動支援事業",
+      "start": 1621,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p22"
+      ]
+    },
+    {
+      "number": 71,
+      "name": "多子世帯保育料軽減事業",
+      "start": 1645,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p72"
+      ]
+    },
+    {
+      "number": 22,
+      "name": "平和祈念事業",
+      "start": 1695,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p23"
+      ]
+    },
+    {
+      "number": 72,
+      "name": "幼稚園給食費・保育所給食費軽減事業",
+      "start": 1713,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p73"
+      ]
+    },
+    {
+      "number": 23,
+      "name": "希少野生動植物保護事業",
+      "start": 1769,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p24"
+      ]
+    },
+    {
+      "number": 73,
+      "name": "校務支援システム活用事業",
+      "start": 1790,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p74"
+      ]
+    },
+    {
+      "number": 24,
+      "name": "わんにゃんサポーター設置事業",
+      "start": 1843,
+      "existingIds": [
+        "cached-34209-b0c98726f931bfddc48ca6ff"
+      ]
+    },
+    {
+      "number": 74,
+      "name": "三次版学校ICT活用事業",
+      "start": 1867,
+      "existingIds": [
+        "cached-34209-fd4b9968874d975a9a9d65d9"
+      ]
+    },
+    {
+      "number": 25,
+      "name": "脱炭素普及啓発事業",
+      "start": 1920,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p26"
+      ]
+    },
+    {
+      "number": 75,
+      "name": "学校支援員等配置事業",
+      "start": 1939,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p76"
+      ]
+    },
+    {
+      "number": 26,
+      "name": "公共施設解体事業",
+      "start": 1985,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p27"
+      ]
+    },
+    {
+      "number": 76,
+      "name": "外国語指導助手派遣事業",
+      "start": 2003,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p77"
+      ]
+    },
+    {
+      "number": 126,
+      "name": "薬用作物等栽培促進事業",
+      "start": 2025,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p127"
+      ]
+    },
+    {
+      "number": 27,
+      "name": "生活用水施設整備補助事業",
+      "start": 2044,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p28"
+      ]
+    },
+    {
+      "number": 77,
+      "name": "読書活動推進事業",
+      "start": 2066,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p78"
+      ]
+    },
+    {
+      "number": 78,
+      "name": "みよし結芽人育成事業",
+      "start": 2135,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p79"
+      ]
+    },
+    {
+      "number": 79,
+      "name": "読解力向上事業",
+      "start": 2205,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p80"
+      ]
+    },
+    {
+      "number": 129,
+      "name": "有害鳥獣対策事業",
+      "start": 2223,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p130"
+      ]
+    },
+    {
+      "number": 80,
+      "name": "いじめ防止・不登校対策推進事業",
+      "start": 2266,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p81"
+      ]
+    },
+    {
+      "number": 130,
+      "name": "環境保全型農業推進支援事業",
+      "start": 2292,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p131"
+      ]
+    },
+    {
+      "number": 31,
+      "name": "市道整備事業",
+      "start": 2313,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p32"
+      ]
+    },
+    {
+      "number": 81,
+      "name": "部活動指導員活用事業",
+      "start": 2327,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p82"
+      ]
+    },
+    {
+      "number": 131,
+      "name": "森林経営管理等事業",
+      "start": 2348,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p132"
+      ]
+    },
+    {
+      "number": 82,
+      "name": "コミュニティ・スクール充実事業",
+      "start": 2388,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p83"
+      ]
+    },
+    {
+      "number": 132,
+      "name": "森林資源利用促進事業",
+      "start": 2414,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p133"
+      ]
+    },
+    {
+      "number": 33,
+      "name": "生活道整備工事費補助金",
+      "start": 2432,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p34"
+      ]
+    },
+    {
+      "number": 83,
+      "name": "中学校部活動地域移行推進事業",
+      "start": 2451,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p84"
+      ]
+    },
+    {
+      "number": 133,
+      "name": "濃密林間伐事業",
+      "start": 2476,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p134"
+      ]
+    },
+    {
+      "number": 34,
+      "name": "小型浄化槽設置整備補助事業",
+      "start": 2491,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p35"
+      ]
+    },
+    {
+      "number": 84,
+      "name": "高校生地域活動支援事業",
+      "start": 2513,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p85"
+      ]
+    },
+    {
+      "number": 134,
+      "name": "搬出間伐体制強化支援事業",
+      "start": 2535,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p135"
+      ]
+    },
+    {
+      "number": 35,
+      "name": "公共下水道事業",
+      "start": 2555,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p36"
+      ]
+    },
+    {
+      "number": 85,
+      "name": "地域学校協働活動推進事業",
+      "start": 2571,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p86"
+      ]
+    },
+    {
+      "number": 135,
+      "name": "林道等補修事業",
+      "start": 2594,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p136"
+      ]
+    },
+    {
+      "number": 36,
+      "name": "汚水処理施設統廃合事業",
+      "start": 2609,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p37"
+      ]
+    },
+    {
+      "number": 86,
+      "name": "学校給食食育推進事業",
+      "start": 2629,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p87"
+      ]
+    },
+    {
+      "number": 136,
+      "name": "住宅リフォーム支援事業",
+      "start": 2650,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p137"
+      ]
+    },
+    {
+      "number": 87,
+      "name": "子ども文化芸術ふれあい事業",
+      "start": 2689,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p88"
+      ]
+    },
+    {
+      "number": 137,
+      "name": "みよし産業応援事業",
+      "start": 2713,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p138"
+      ]
+    },
+    {
+      "number": 38,
+      "name": "コンビニ交付事業",
+      "start": 2732,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p39"
+      ]
+    },
+    {
+      "number": 88,
+      "name": "重要文化財等保存修理事業",
+      "start": 2748,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p89"
+      ]
+    },
+    {
+      "number": 138,
+      "name": "小規模事業者経営持続支援事業補助金",
+      "start": 2771,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p139"
+      ]
+    },
+    {
+      "number": 39,
+      "name": "地籍調査事業",
+      "start": 2798,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p40"
+      ]
+    },
+    {
+      "number": 89,
+      "name": "史跡寺町廃寺跡整備事業",
+      "start": 2814,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p90"
+      ]
+    },
+    {
+      "number": 139,
+      "name": "商工振興事業補助金",
+      "start": 2836,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p140"
+      ]
+    },
+    {
+      "number": 40,
+      "name": "尾関山公園周辺整備事業",
+      "start": 2855,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p41"
+      ]
+    },
+    {
+      "number": 90,
+      "name": "文化振興活動支援事業",
+      "start": 2876,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p91"
+      ]
+    },
+    {
+      "number": 140,
+      "name": "工場等設置奨励事業",
+      "start": 2897,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p141"
+      ]
+    },
+    {
+      "number": 41,
+      "name": "三次地区にぎわい創出事業",
+      "start": 2916,
+      "existingIds": [
+        "cached-34209-14539563b51d835dd431d7c0"
+      ]
+    },
+    {
+      "number": 141,
+      "name": "デジタル系企業誘致推進事業",
+      "start": 2957,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p142"
+      ]
+    },
+    {
+      "number": 42,
+      "name": "巴峡みよしかわまちづくり計画事業",
+      "start": 2980,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p43"
+      ]
+    },
+    {
+      "number": 92,
+      "name": "スポーツのまちみよし応援事業",
+      "start": 3006,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p93"
+      ]
+    },
+    {
+      "number": 142,
+      "name": "オフィスビジネス系事業所設置奨励事業",
+      "start": 3033,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p143"
+      ]
+    },
+    {
+      "number": 43,
+      "name": "三次町歴史的地区環境整備事業",
+      "start": 3061,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p44"
+      ]
+    },
+    {
+      "number": 93,
+      "name": "真田一幸スポーツ・文化子ども育成事業",
+      "start": 3085,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p94"
+      ]
+    },
+    {
+      "number": 143,
+      "name": "コワーキング施設等整備支援事業",
+      "start": 3114,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p144"
+      ]
+    },
+    {
+      "number": 44,
+      "name": "空家等対策事業",
+      "start": 3139,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p45"
+      ]
+    },
+    {
+      "number": 94,
+      "name": "女子野球チーム支援事業",
+      "start": 3156,
+      "existingIds": [
+        "cached-34209-8a7f468792f370b64f98f32b"
+      ]
+    },
+    {
+      "number": 144,
+      "name": "観光戦略推進事業",
+      "start": 3180,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p145"
+      ]
+    },
+    {
+      "number": 45,
+      "name": "生活交通確保対策事業",
+      "start": 3198,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p46"
+      ]
+    },
+    {
+      "number": 95,
+      "name": "シティプロモーション事業",
+      "start": 3221,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p96"
+      ]
+    },
+    {
+      "number": 145,
+      "name": "三次の鵜飼体験活動事業",
+      "start": 3244,
+      "existingIds": [
+        "cached-34209-520dc6cb5819567823a4461c"
+      ]
+    },
+    {
+      "number": 96,
+      "name": "情報発信事業",
+      "start": 3293,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p97"
+      ]
+    },
+    {
+      "number": 146,
+      "name": "インバウンド誘客推進のための国際交流員任用事業",
+      "start": 3310,
+      "existingIds": [
+        "cached-34209-08743a8cb1a5e8190789073e"
+      ]
+    },
+    {
+      "number": 47,
+      "name": "高齢者運転免許自主返納支援事業",
+      "start": 3343,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p48"
+      ]
+    },
+    {
+      "number": 97,
+      "name": "DoTS（Design of Terminal SETOUCHI）参画事業",
+      "start": 3371,
+      "existingIds": [
+        "cached-34209-16211aa37fc071349daa6f6d"
+      ]
+    },
+    {
+      "number": 48,
+      "name": "ＡＩ活用型オンデマンドバス事業",
+      "start": 3418,
+      "existingIds": [
+        "cached-34209-7c743ccb65cc44c8e91c5fc1"
+      ]
+    },
+    {
+      "number": 98,
+      "name": "縁つなぐ出会い創出支援事業",
+      "start": 3446,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p99"
+      ]
+    },
+    {
+      "number": 49,
+      "name": "小規模崩壊地復旧事業",
+      "start": 3472,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p50"
+      ]
+    },
+    {
+      "number": 99,
+      "name": "みよし暮らし推進事業",
+      "start": 3490,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p100"
+      ]
+    },
+    {
+      "number": 50,
+      "name": "自主防災組織活動支援事業",
+      "start": 3513,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p51"
+      ]
+    },
+    {
+      "number": 100,
+      "name": "移住支援金",
+      "start": 3536,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p101"
+      ]
+    },
+    {
+      "number": 55,
+      "name": "子どもの予防的支援事業（旧ネウボラDX事業）",
+      "start": 366,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p56"
+      ]
+    },
+    {
+      "number": 108,
+      "name": "担い手育成・強化事業（集落法人等新規雇用事業）",
+      "start": 621,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p109"
+      ]
+    },
+    {
+      "number": 109,
+      "name": "担い手育成・強化事業（農地集積支援事業）",
+      "start": 695,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p110"
+      ]
+    },
+    {
+      "number": 110,
+      "name": "担い手育成・強化事業（認定新規就農者育成支援事業）",
+      "start": 764,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p111"
+      ]
+    },
+    {
+      "number": 111,
+      "name": "担い手育成・強化事業（農業研修者受入支援事業）",
+      "start": 838,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p112"
+      ]
+    },
+    {
+      "number": 112,
+      "name": "担い手育成・強化事業（認定新規就農者リースハウス等整備支援事業）",
+      "start": 914,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p113"
+      ]
+    },
+    {
+      "number": 64,
+      "name": "子どもの居場所づくり推進事業（放課後児童健全育成事業 放課後児童クラブ）",
+      "start": 1043,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p65"
+      ]
+    },
+    {
+      "number": 65,
+      "name": "子どもの居場所づくり推進事業（放課後子ども教室事業）",
+      "start": 1135,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p66"
+      ]
+    },
+    {
+      "number": 17,
+      "name": "生活サポートセンター事業（旧生活困窮者自立支援事業）",
+      "start": 1259,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p18"
+      ]
+    },
+    {
+      "number": 117,
+      "name": "農畜産物の生産力強化事業（振興作物産地化推進支援事業）",
+      "start": 1328,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p118"
+      ]
+    },
+    {
+      "number": 118,
+      "name": "農畜産物の生産力強化事業（果樹・花き生産振興支援事業）",
+      "start": 1411,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p119"
+      ]
+    },
+    {
+      "number": 19,
+      "name": "女性活躍推進プラットフォーム事業（アシスタ lab.）",
+      "start": 1446,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p20"
+      ]
+    },
+    {
+      "number": 119,
+      "name": "農畜産物の生産力強化事業（麦・大豆等生産振興推進事業）",
+      "start": 1509,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p120"
+      ]
+    },
+    {
+      "number": 120,
+      "name": "農畜産物の生産力強化事業（６次産品化支援事業）",
+      "start": 1590,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p121"
+      ]
+    },
+    {
+      "number": 121,
+      "name": "農畜産物の生産力強化事業（地産地消応援事業）",
+      "start": 1665,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p122"
+      ]
+    },
+    {
+      "number": 122,
+      "name": "農畜産物の生産力強化事業（畜産経営支援事業）",
+      "start": 1739,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p123"
+      ]
+    },
+    {
+      "number": 123,
+      "name": "農畜産物の生産力強化事業（和牛改良増進事業）",
+      "start": 1813,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p124"
+      ]
+    },
+    {
+      "number": 124,
+      "name": "農畜産物の生産力強化事業（酪農経営支援事業）",
+      "start": 1890,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p125"
+      ]
+    },
+    {
+      "number": 125,
+      "name": "（仮称）みよしアグリパーク整備事業",
+      "start": 1960,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p126"
+      ]
+    },
+    {
+      "number": 127,
+      "name": "スマート農業推進事業（農業）",
+      "start": 2085,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p128"
+      ]
+    },
+    {
+      "number": 28,
+      "name": "小規模市道県道整備事業（道路・橋梁修繕）",
+      "start": 2107,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p29"
+      ]
+    },
+    {
+      "number": 128,
+      "name": "スマート農業推進事業（鳥獣）",
+      "start": 2156,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p129"
+      ]
+    },
+    {
+      "number": 29,
+      "name": "小規模市道整備事業（道路補修業務謝礼）",
+      "start": 2178,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p30"
+      ]
+    },
+    {
+      "number": 30,
+      "name": "小規模市道県道整備事業（路面保全業務）",
+      "start": 2239,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p31"
+      ]
+    },
+    {
+      "number": 32,
+      "name": "橋梁改良事業（橋梁点検・補修）",
+      "start": 2365,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p33"
+      ]
+    },
+    {
+      "number": 37,
+      "name": "市民ＤＸ推進事業",
+      "start": 2671,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p38"
+      ]
+    },
+    {
+      "number": 91,
+      "name": "社会教育振興事業",
+      "start": 2938,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p92"
+      ],
+      "aliasEvidence": "教育活動支援事業(旧社会教育振興事業)"
+    },
+    {
+      "number": 46,
+      "name": "ＪＲ芸備線・福塩線利用促進事業",
+      "start": 3265,
+      "existingIds": [
+        "34209:3b559c07894b:34209:source-period-cost:3b559c07894b:p47"
+      ]
+    }
+  ],
+  "prior2024EvaluationCandidates": 8,
+  "evaluatedFiscalYear": null,
+  "prefixDisposition": "First-book cached prefix belongs to the same146 listed2025 projects. Missing345533characters remain absent; new original retrieval prohibited. Existing-field enrichment outside current scope.",
+  "productionFieldsChanged": 0
+}

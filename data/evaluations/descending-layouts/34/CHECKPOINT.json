@@ -1,0 +1,36 @@
+{
+  "base": "186aaaa64787a90f8e7c2a373e62b079695a5aa9",
+  "status": "549 candidate increment fully validated; Hiroshima phase remains open",
+  "cohort": "34: 34545 to 34100, excludes34214 and all53 recent-master municipalities",
+  "candidateRecords": 549,
+  "candidateMunicipalities": 12,
+  "completeSourcesMapped": 80,
+  "completeSourcesTotal": 109,
+  "verifiedPrefixes": 2,
+  "prefixSourcesMapped": 1,
+  "missingBodies": 20,
+  "unmappedCompleteSources": 29,
+  "remaining": "Onomichi older/OCR and coverage review, Takehara,Kure,Hiroshima books and remaining navigation. Existing mapped sources can still have explicitly pending unit review. No exhaustion claim.",
+  "newInThisContinuation": 59,
+  "productionRecordsAdded": 0,
+  "externalWrites": 0,
+  "municipalRequests": 0,
+  "allFullyValidatedThroughYamaguchi": 11327,
+  "cumulativeQuoteChecked": 11876,
+  "cumulativeQuotes": 28445,
+  "excludedFromTotals": [
+    "Okinawa1084",
+    "initial93"
+  ],
+  "tests": {
+    "focused": "10/10",
+    "crawler": "516/516",
+    "web": "256/256",
+    "typecheck": "pass",
+    "lint": "pass with existing font warning",
+    "national": "500 municipalities /92038 records, unchanged index",
+    "static": "109 pages at /local_gov_vis; temporary optimizeFonts=false restored"
+  },
+  "additionalExternalProposals": 152,
+  "allFullyValidatedIncludingThisIncrement": 11876
+}
