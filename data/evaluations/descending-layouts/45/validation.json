@@ -1,0 +1,26 @@
+{
+  "candidateRecords": 813,
+  "combinedCandidates": 2084,
+  "combinedValidatedEvidence": 5312,
+  "focusedTests": {
+    "passed": 4,
+    "failed": 0
+  },
+  "web": {
+    "passed": 256,
+    "failed": 0
+  },
+  "typecheck": "passed",
+  "lint": "passed; existing custom-font warning",
+  "staticExport": {
+    "exitCode": 0,
+    "basePath": "/local_gov_vis",
+    "buildOnlyOptimizeFonts": false,
+    "configRestored": true,
+    "configSha256": "a76ed78cade60cbad1191221a65c0977221e3281e708acb921626e58b6c69f6a"
+  },
+  "crawlerFull": "running; not yet claimed passed",
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0
+}

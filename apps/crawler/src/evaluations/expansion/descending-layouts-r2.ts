@@ -1,3 +1,6 @@
+import {reviewMiyazakiList} from './descending-miyazaki-list';
+import {reviewShintomiR2} from './descending-shintomi-r2';
+import {reviewMiyazakiR2} from './descending-miyazaki-r2';
 import {reviewKagoshimaWraps} from './descending-kagoshima-wraps';
 import {reviewSouthernLiterals} from './descending-south-literals';
 import {reviewKirishimaList} from './descending-kirishima-list';
@@ -29,6 +32,9 @@ export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]
  if(input.municipalityCode==='46392'&&satsumaRows.some(r=>r.sourceId===input.sourceId)&&input.format==='pdf')return reviewSatsuma(input);
  if(input.municipalityCode==='46404'&&input.sourceId==='dd96103fb0b585d0826a5bda'&&input.format==='pdf')return reviewNagashima(input);
  if(input.municipalityCode==='46501'&&input.sourceId==='3c7ba97b8a20f7cbe62c263c'&&input.format==='pdf')return reviewNakatane(input);
+ const ml=reviewMiyazakiList(input);if(ml)return ml;
+ const shintomi=reviewShintomiR2(input);if(shintomi)return shintomi;
+ const miya=reviewMiyazakiR2(input,inputs);if(miya)return miya;
  const kago=reviewKagoshimaWraps(input,inputs);if(kago)return kago;
  const southern=reviewSouthernLiterals(input);if(southern)return southern;
  const kiri=reviewKirishimaList(input);if(kiri)return kiri;

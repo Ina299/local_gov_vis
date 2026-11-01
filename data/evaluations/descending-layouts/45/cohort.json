@@ -1,0 +1,166 @@
+{
+  "prefecture": "45",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-01T12:55:42.885493+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "45443",
+      "municipalityName": "五ヶ瀬町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "77404c4784ab6b3bde941bb94715661cc28249932df72662b2f3aa36842b9027"
+    },
+    {
+      "municipalityCode": "45442",
+      "municipalityName": "日之影町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "507ee087fae5b91b9319fce66085cf9ad5b9cd14239d5ac4a0e9f6cb3e69ef8b"
+    },
+    {
+      "municipalityCode": "45441",
+      "municipalityName": "高千穂町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "318cd6013406a864762999fc67f1805772a32575560d805b91a25b89125634c2"
+    },
+    {
+      "municipalityCode": "45431",
+      "municipalityName": "美郷町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "701138bdb8af04c45dff63175ad2c1ab0853c161d4b7326eb92488880815b190"
+    },
+    {
+      "municipalityCode": "45430",
+      "municipalityName": "椎葉村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c13fbe6629eef18c8a034bed76b33f7f8115f8c2e48c52a7892c1dcb51e8651c"
+    },
+    {
+      "municipalityCode": "45429",
+      "municipalityName": "諸塚村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "43eb4f454dc6a705a60390da71b18cd1182c7a6cee733fe0024478a72b11f4d6"
+    },
+    {
+      "municipalityCode": "45421",
+      "municipalityName": "門川町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e3113819d2815645398080b3a28f1371e2afd29013c88ffe776ac2f6f8799103"
+    },
+    {
+      "municipalityCode": "45406",
+      "municipalityName": "都農町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6d3487f3301fca91c10abb9e5cfd502a004870ae78501f540aafbf841856a2f5"
+    },
+    {
+      "municipalityCode": "45405",
+      "municipalityName": "川南町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e7332862b6c186c7065c836a05dbbed36b71c14b1af2a435afb1dbb4dc9e57fb"
+    },
+    {
+      "municipalityCode": "45404",
+      "municipalityName": "木城町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "4727d98934d0e46a590501430f01959ebdd880dfe9b9f61bf76b2c36c6a10ec0"
+    },
+    {
+      "municipalityCode": "45403",
+      "municipalityName": "西米良村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "5c14fdd809abc917b4e31beb256626ff10cf72eaecc902492740c8a22bb718a8"
+    },
+    {
+      "municipalityCode": "45402",
+      "municipalityName": "新富町",
+      "datasetSha256": "437d43028f3337f6b46ee8bc994d4631fdf1547ee732719437628e3c14182b4d",
+      "evidenceShardSha256": "96d4cc5c4d1d99edaca718d05d4bd3d17bb16d390f61c7038a963b0648b7616d"
+    },
+    {
+      "municipalityCode": "45401",
+      "municipalityName": "高鍋町",
+      "datasetSha256": "84430f3903b0637701989aaf02f3251527f3537d25ce8a15a5dc01e2c4075e3d",
+      "evidenceShardSha256": "3caa98e3a11bf40d0370e247cef56a03801d8874f9b662384d75df6f2a58a2fd"
+    },
+    {
+      "municipalityCode": "45383",
+      "municipalityName": "綾町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b870bf914c5c7be6bb9a8cc748e5b4941b3a78a475e7f9cff5884afaee902e1a"
+    },
+    {
+      "municipalityCode": "45382",
+      "municipalityName": "国富町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "8adea6a6c6cf9e72fd8ca479195c7b708cf8b3e114bedc788b39439cbf62d941"
+    },
+    {
+      "municipalityCode": "45361",
+      "municipalityName": "高原町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "8ff07beb349b57061ca071d59b398c212f88b8a3c19dbd7ba428124b9b5d17a7"
+    },
+    {
+      "municipalityCode": "45341",
+      "municipalityName": "三股町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "cbb18229208f1b7a0c15fd03bd4b1d0893d7e998c36afc23327dd645e3ab0421"
+    },
+    {
+      "municipalityCode": "45209",
+      "municipalityName": "えびの市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e072936eaf1f06c12d4661913cbc32a676b7c7f6bc29e9ff4006827e14422196"
+    },
+    {
+      "municipalityCode": "45208",
+      "municipalityName": "西都市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a9c6719b1d1c2988a04ae12577b42dca9ed263c85c1a1834fa3e7a57a76ef63a"
+    },
+    {
+      "municipalityCode": "45207",
+      "municipalityName": "串間市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a5deee102ff84eb57956b2b0f2332a26080a3e5bcc53cd0b4eab16d5b99bcb08"
+    },
+    {
+      "municipalityCode": "45206",
+      "municipalityName": "日向市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "2f6a38f8115572772441a4401d538c918b04fc3fe2807e2c31881b7fddf41de8"
+    },
+    {
+      "municipalityCode": "45205",
+      "municipalityName": "小林市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c003984bfd9bfed3aef3be59612a6e058489d50e6af5154a324fcf6ca7acc319"
+    },
+    {
+      "municipalityCode": "45204",
+      "municipalityName": "日南市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6ca624edd90385eac8cf6f7f1c5db86a4977781d719a59b279b81da91958169d"
+    },
+    {
+      "municipalityCode": "45203",
+      "municipalityName": "延岡市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ee8350f6322a3ab86b830edb2dce7dd12e8cc6fe20ca13866accdb0df8a4cef5"
+    },
+    {
+      "municipalityCode": "45202",
+      "municipalityName": "都城市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "9f30c9a365ff9210231493cab74eff7dea6019dea9b376ef6f11a0903e94a83b"
+    },
+    {
+      "municipalityCode": "45201",
+      "municipalityName": "宮崎市",
+      "datasetSha256": "30fd02b485a3cd226fc0f6a575d16e2aa4a3eba020a498c2df9930431ec1f881",
+      "evidenceShardSha256": "e204a8aa583f3902e21fd89b0e2cd4c953949ae2e76f33a0796169f29e097435"
+    }
+  ],
+  "skipped": []
+}

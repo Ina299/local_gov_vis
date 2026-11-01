@@ -4,7 +4,7 @@ Local candidate branch based on preserved `3fba0972c3f6cb00b8a7b3393a82374162b1f
 
 ## Kagoshima milestone
 
-43 municipalities,128 sources;93 complete hash-verified cached bodies,35 missing bodies. New candidate records:1,271 across11 municipalities, with2,928 validated exact evidence references. This is additional to the earlier43 Kagoshima candidates. Existing fields changed:0. Production records added:0.
+43 municipalities,128 sources;93 hash-verified cached bodies (92 complete,1 incomplete),35 missing bodies. New candidate records:1,271 across11 municipalities, with2,928 validated exact evidence references. This is additional to the earlier43 Kagoshima candidates. Existing fields changed:0. Production records added:0.
 
 | Municipality | Additional candidates |
 |---|---:|
@@ -35,3 +35,13 @@ node --import tsx --test apps/crawler/tests/descending-layouts-r2.test.ts
 The coverage review contains additional manual findings and is preserved separately from regenerated parser outputs. Candidate import inputs remain outside public assets. The national source-layout queue is not exhausted; next cohort is Miyazaki45, after completing this milestone's validation. Do not interpret this checkpoint as nationwide collection completion.
 
 Validation: crawler full suite378/378 plus final focused14/14 (379 unique tests); Web256/256; final typecheck, lint and national verification pass. Static export with `/local_gov_vis` passed using build-only `optimizeFonts=false` to omit optional font download; original config bytes restored. One existing custom-font lint warning. All candidate citations independently validated. Logs accompany the local recovery artifact.
+
+## Miyazaki milestone (validation in progress)
+
+26 municipalities,67 sources:47 cached bodies hash-verified,45 complete,2 incomplete;20 absent bodies.813 additional candidates across7 municipalities:新富町765,諸塚村22,延岡市12,三股町8,椎葉村3,宮崎市2,美郷町1. Combined with Kagoshima this phase contains2,084 candidates and5,312 validated exact evidence references. No production changes.
+
+Shintomi's five annual verification books contain numbered operational items, explicitly described by the saved official landing page as each department's annual individual businesses. Chapter headings and KPI tables are not records. No numeric/outcome alignment is inferred; deferred/unexecuted activities are not labelled successful. The purported2022 verification link actually caches a July2022 plan: it is held pending the correct result text. The same cached landing page explicitly establishes2015/2016 grant execution years for seven further named projects.
+
+Miyazaki city's113-row new-proposal list is reviewed completely: six title variants are held against named existing IDs,105 entries are already represented, and two new entries are isolated.2025 is the assessment year; proposed2026 implementation is not treated as actual expenditure. Mimata's eight newspaper evaluation entries keep2013 assessment year and unknown execution year.
+
+All67 sources have dispositions in the source and coverage ledgers.20 absent bodies,2 incomplete bodies, the wrong Shintomi planning artifact, mixed-year benefits, six identity collisions, regional/shared-scope attribution and documents containing only population/aggregate/entity evaluations remain distinguished. Layout labels alone are not used as terminal reasons. Original access gates remain intact.
