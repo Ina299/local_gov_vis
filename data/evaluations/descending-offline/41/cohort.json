@@ -1,0 +1,130 @@
+{
+  "prefecture": "41",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-01T12:56:28.732004+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "41441",
+      "municipalityName": "太良町",
+      "datasetSha256": "10ca94178f698ded0e1377d1f60833bc06d35502b8e9ab856fca16a9c12f8b3a",
+      "evidenceShardSha256": "bbc987a200028b19b79b7ff51f0a1d0e0b293c88754c651b428ffe37b49b055f"
+    },
+    {
+      "municipalityCode": "41425",
+      "municipalityName": "白石町",
+      "datasetSha256": "e0495b909d66be0f08ac316ae63479dbbd1d03537523b852a2b181eef81ae770",
+      "evidenceShardSha256": "5436a4162561f0760ec42001ffa8debafcda193db31d27190ab9454d6be8c54a"
+    },
+    {
+      "municipalityCode": "41424",
+      "municipalityName": "江北町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d5cf83e9a255c5975726d44635aee9963729f526cbea4b854850ec986418d7bf"
+    },
+    {
+      "municipalityCode": "41423",
+      "municipalityName": "大町町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7b16fff636be2a263e57ec7e7217e2331119497ffd2fd4be88194ce75a8c7963"
+    },
+    {
+      "municipalityCode": "41401",
+      "municipalityName": "有田町",
+      "datasetSha256": "c152e737d464c9e464dd4e6cd26bfa1e63ba42e427f3e7354926f2e8e139cb4a",
+      "evidenceShardSha256": "28ec110180850f96708796f70a083deda26728f7f8833518a3d34a8cb2294e74"
+    },
+    {
+      "municipalityCode": "41387",
+      "municipalityName": "玄海町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f503b1b3d51a1c692283d10c7470f5dae6f66d9751e9b77da78b560430571f99"
+    },
+    {
+      "municipalityCode": "41346",
+      "municipalityName": "みやき町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "eefcac1dba634367030329d0400697310f99bc4580f978eee88ddb22ce259682"
+    },
+    {
+      "municipalityCode": "41345",
+      "municipalityName": "上峰町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7aaed4bbdc29336856cb10bb38d70188a64e3e4e481410a6dc734fab97b220bf"
+    },
+    {
+      "municipalityCode": "41341",
+      "municipalityName": "基山町",
+      "datasetSha256": "14e92803840bbb6229d7174cb904a2f7f6c17cb2cea8e1bdaa0ff407187f00ac",
+      "evidenceShardSha256": "5585556d7a46866cd0bbc3ee8ff8948a34a9e1ae4808e22873a97d0597c1e2d3"
+    },
+    {
+      "municipalityCode": "41327",
+      "municipalityName": "吉野ヶ里町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3b27fae5e6386aabd3cef9e07b8a0d169a9c333f94a920b7a83dca5530cab44a"
+    },
+    {
+      "municipalityCode": "41210",
+      "municipalityName": "神埼市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "40a88b3074234aac82a771aa91b08745554dc901a6a2af4f52864c93f0f8d0f3"
+    },
+    {
+      "municipalityCode": "41209",
+      "municipalityName": "嬉野市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "9b7142b53b14f5648aa2ff7d633846b7464f13ed58314d94dbb76db8e136c1cd"
+    },
+    {
+      "municipalityCode": "41208",
+      "municipalityName": "小城市",
+      "datasetSha256": "3726cf97bfda3b5f3ed882997952e3bce84f00c467124159a7c1362e370a507a",
+      "evidenceShardSha256": "99f7e0647cf52c432f251debb1df4a0c1101e7cb9589d19168d8e6191ea2cbcf"
+    },
+    {
+      "municipalityCode": "41207",
+      "municipalityName": "鹿島市",
+      "datasetSha256": "bbe892f87c8326725ccdf37f3424b06bd101fe16b55524d5841287f3b80091e0",
+      "evidenceShardSha256": "7b1da8b28aa71f303854155c4e767e765612e5fe0a298763b60df35b4533caa3"
+    },
+    {
+      "municipalityCode": "41206",
+      "municipalityName": "武雄市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "0a444aa1370f4c2f0ae0dcedb65ee94792290435e6907765055b75d6bb2a6b51"
+    },
+    {
+      "municipalityCode": "41205",
+      "municipalityName": "伊万里市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a4bfdb80f68605ca03c2fb39f7f12ebca6f6b53f6e5e5d7cd3fb7e67ab14d4fa"
+    },
+    {
+      "municipalityCode": "41204",
+      "municipalityName": "多久市",
+      "datasetSha256": "9aaa6ab447edd83a0065519d78463e7e33e91bf8d802fe376d3e0cc7b9121ac6",
+      "evidenceShardSha256": "4311a603b16b88695bada0b6630ea406ae45c556670793a74e4f57688373a6e3"
+    },
+    {
+      "municipalityCode": "41203",
+      "municipalityName": "鳥栖市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c2b2732d1c5186e438ebee2197b148c3a5340b07f6c4fca51af1f93488fb28cf"
+    },
+    {
+      "municipalityCode": "41202",
+      "municipalityName": "唐津市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6a85b73997f1473b3b7326c5df9195093bffd270ee82cfe2494d8b887ea0d665"
+    },
+    {
+      "municipalityCode": "41201",
+      "municipalityName": "佐賀市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "328cab505e776333866013abf7e1332c52715d7754144103d985a2c35b4fdc5a"
+    }
+  ],
+  "skipped": []
+}
