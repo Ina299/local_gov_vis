@@ -1,0 +1,117 @@
+{
+  "prefecture": "44",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-01T12:56:13.106145+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "44462",
+      "municipalityName": "玖珠町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a8e64f3fc2a3f736643ab6db72efa14b18145dcd3436d363d9ef8e814bc46de6"
+    },
+    {
+      "municipalityCode": "44461",
+      "municipalityName": "九重町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "79ffe2524188669b241b1009b0b3dc51901c8964322d316a38d5a5af8093d223"
+    },
+    {
+      "municipalityCode": "44341",
+      "municipalityName": "日出町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e4df6c87e3e3d4a6ec22641bbdc8859fc34a726d9230ed731145a923a0949caf"
+    },
+    {
+      "municipalityCode": "44322",
+      "municipalityName": "姫島村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "9ea4c3b43a84e10964f17e1cb0fe09638cc8d31a067007d00152eb38e4620b4a"
+    },
+    {
+      "municipalityCode": "44214",
+      "municipalityName": "国東市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "77f0de0cd21fb5824f15a195383e258cc9303830503cf56d1c39b12f3e8c23ca"
+    },
+    {
+      "municipalityCode": "44213",
+      "municipalityName": "由布市",
+      "datasetSha256": "957219b83b394fa84794adc1b363b791f865bbec97433796a3297ce2cdfbb261",
+      "evidenceShardSha256": "4dd94bff6d6cd5e7564f5ce614f7d6f7b7cccc0f89e47d4b961b0274f8bcd234"
+    },
+    {
+      "municipalityCode": "44211",
+      "municipalityName": "宇佐市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "4480f9339243defe2c5afcecb0d170fb854e79b7927875da0d70ba38c04575f2"
+    },
+    {
+      "municipalityCode": "44210",
+      "municipalityName": "杵築市",
+      "datasetSha256": "1e4186e74830d9465790b2edd7bbe53244b1ef3318eec5ae69dd07662a30809c",
+      "evidenceShardSha256": "55b96d4e93d4f2f64f0696f80a5b9736aa99fed2a3d4f497e8180a99772d09cd"
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "5aceac897c9cebc8e089b980c2bb2164d754c9729d4831136f66d902df4982a1"
+    },
+    {
+      "municipalityCode": "44208",
+      "municipalityName": "竹田市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f02dc40724406b920865bf5097fb2db350dd29f21e458c7ae2edd72bbb9385e4"
+    },
+    {
+      "municipalityCode": "44207",
+      "municipalityName": "津久見市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f1459ead3825bbfcc64a3e20b91a9994636441928fda52bef7cc9f2078d01361"
+    },
+    {
+      "municipalityCode": "44206",
+      "municipalityName": "臼杵市",
+      "datasetSha256": "80194f1e851519b8ce0f254d80fbd7a19d9289e052d9e8835189018008d2e17f",
+      "evidenceShardSha256": "c5b6f4a5e3dbb7291beb942eb2424f6afbb6181858034e01a402e25460cbbfa1"
+    },
+    {
+      "municipalityCode": "44205",
+      "municipalityName": "佐伯市",
+      "datasetSha256": "6eae6408467b2724c2351c33d154e141b08db9149e5846c8e1c9ab1575ea2c1d",
+      "evidenceShardSha256": "8261bc729b29bb5b4315a776f63b217395c0f25fe6d4a850c4e5dbcc2108679a"
+    },
+    {
+      "municipalityCode": "44203",
+      "municipalityName": "中津市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "31cec88b7e03d8321857dd45c5d88dd22f5e60cd2a13f0d285be5297d4ac3edf"
+    },
+    {
+      "municipalityCode": "44202",
+      "municipalityName": "別府市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b13d526dbdf3604c78b26f77e45e8146a2c30e8c440ade3350a57259dd58127c"
+    },
+    {
+      "municipalityCode": "44201",
+      "municipalityName": "大分市",
+      "datasetSha256": "951e62b45ab322d18561b4f1dae64a74821fad9ca6013f97c6952162f942cf5e",
+      "evidenceShardSha256": "a9b7582b80a90dd08f0333b8b4d35972bab6702ea33e0f14cb82b11fe2ca3d9d"
+    }
+  ],
+  "skipped": [
+    {
+      "municipalityCode": "44204",
+      "municipalityName": "日田市",
+      "reason": "Recent master dataset differs from common baseline"
+    },
+    {
+      "municipalityCode": "44212",
+      "municipalityName": "豊後大野市",
+      "reason": "Recent master dataset differs from common baseline"
+    }
+  ]
+}
