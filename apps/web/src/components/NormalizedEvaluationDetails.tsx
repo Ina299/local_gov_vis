@@ -107,8 +107,9 @@ function CoverageCard({ source }: { source: EvaluationSourceStatus }) {
   );
 }
 
-function ProjectCard({ project }: { project: ProjectEvaluation }) {
-  const [expanded, setExpanded] = useState(false);
+/** defaultOpen: 収支図のタブなど、事業を1つ選んで見る場面では抽出内容（活動・成果・コスト・評価）を最初から開く */
+export function ProjectCard({ project, defaultOpen = false }: { project: ProjectEvaluation; defaultOpen?: boolean }) {
+  const [expanded, setExpanded] = useState(defaultOpen);
   const sources = Array.from(new Map(project.evidence.map((evidence) => [evidence.sourceUrl, evidence])).values());
   return (
     <article className="evaluation-project-card">
@@ -135,7 +136,7 @@ function ProjectCard({ project }: { project: ProjectEvaluation }) {
       {project.warnings.length > 0 && (
         <ul className="evaluation-warning-list">{project.warnings.map((warning, index) => <li key={index}>{warning}</li>)}</ul>
       )}
-      <details className="evaluation-project-details" onToggle={(event) => setExpanded(event.currentTarget.open)}>
+      <details className="evaluation-project-details" open={defaultOpen || undefined} onToggle={(event) => setExpanded(event.currentTarget.open)}>
         <summary>活動・成果・コストと評価を読む</summary>
         {expanded && <div className="evaluation-detail-body">
           <section>
