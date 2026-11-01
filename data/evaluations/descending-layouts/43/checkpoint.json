@@ -1,0 +1,47 @@
+{
+  "phase": "in_progress",
+  "observedMaster": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "cohortMunicipalities": 44,
+  "descendingRange": [
+    "43531 苓北町",
+    "43100 熊本市"
+  ],
+  "excludedMunicipality": "43212 上天草市",
+  "globalRecentMasterExclusions": 53,
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "productionChanges": 0,
+  "municipalRequests": 0,
+  "externalWrites": 0,
+  "initial115ReviewArchive": "/workspace/descending-layouts-20261101/kumamoto-first-review-115",
+  "reviewCorrections": [
+    "Yamae website renewal is explicitly FY2023; FY2024 is maintenance/operation.",
+    "Mashiki utility-subsidy execution end extends into FY2025; operating-cost year alone is insufficient."
+  ],
+  "currentSummary": {
+    "cohort": "43",
+    "municipalities": 44,
+    "sources": 226,
+    "hashVerifiedBodies": 196,
+    "continuationParts": 4,
+    "candidateRecords": 177,
+    "candidateMunicipalities": 12,
+    "duplicateOutputs": 557,
+    "heldOutputs": 0,
+    "productionRecordsAdded": 0,
+    "existingFieldsChanged": 0,
+    "municipalRequests": 0,
+    "layoutReviewedUnits": 274,
+    "layoutActionableUnits": 0,
+    "layoutHeldUnits": 96,
+    "statuses": {
+      "navigation": 63,
+      "duplicate": 18,
+      "reviewed_literal_businesses": 2,
+      "processed": 17,
+      "missing_body": 30,
+      "unsupported_layout": 96
+    }
+  },
+  "remaining": "96 source layouts and source-specific holds remain; no cached-scope completion claim."
+}
