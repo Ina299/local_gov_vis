@@ -1,5 +1,5 @@
 {
-  "status": "cached_title_review_validation_pending",
+  "status": "cached_title_review_locally_validated",
   "summary": {
     "cohort": "41",
     "municipalities": 20,
@@ -37,7 +37,24 @@
     "No original PDF bytes or coordinates newly acquired"
   ],
   "focusedTests": 12,
-  "fullRegression": "pending",
+  "fullRegression": {
+    "crawler": {
+      "passed": 438,
+      "failed": 0
+    },
+    "web": {
+      "passed": 256,
+      "failed": 0
+    },
+    "typecheck": "passed",
+    "lint": "passed; existing font warning",
+    "nationalVerification": "passed; 500 municipalities / 92038 records unchanged",
+    "staticBuild": "passed; /local_gov_vis; 109 pages; font optimization temporarily disabled and configuration restored",
+    "independentCandidates": 8692,
+    "independentEvidence": 19441,
+    "remoteCI": "not requested; local-only phase"
+  },
   "publishedRecordsAdded": 0,
-  "existingFieldsChanged": 0
+  "existingFieldsChanged": 0,
+  "testedCodeHead": "5a562e1624c0e92eea6b6225600e362126e4d4b9"
 }
