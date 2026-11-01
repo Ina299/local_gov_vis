@@ -7,6 +7,7 @@ import { entries as ehime } from './p-ehime';
 import { entries as fukui } from './p-fukui';
 import { entries as fukuoka } from './p-fukuoka';
 import { entries as fukushima } from './p-fukushima';
+import { entries as gunma } from './p-gunma';
 import { entries as hiroshima } from './p-hiroshima';
 import { entries as hokkaido } from './p-hokkaido';
 import { entries as ibaraki } from './p-ibaraki';
@@ -22,6 +23,7 @@ import { entries as oita } from './p-oita';
 import { entries as okinawa } from './p-okinawa';
 import { entries as osaka } from './p-osaka';
 import { entries as saga } from './p-saga';
+import { entries as saitama } from './p-saitama';
 import { entries as shiga } from './p-shiga';
 import { entries as shimane } from './p-shimane';
 import { entries as shizuoka } from './p-shizuoka';
@@ -39,6 +41,7 @@ export const prefectureExtractors: Record<string, Entry> = {
   ...fukui,
   ...fukuoka,
   ...fukushima,
+  ...gunma,
   ...hiroshima,
   ...hokkaido,
   ...ibaraki,
@@ -54,6 +57,7 @@ export const prefectureExtractors: Record<string, Entry> = {
   ...okinawa,
   ...osaka,
   ...saga,
+  ...saitama,
   ...shiga,
   ...shimane,
   ...shizuoka,
