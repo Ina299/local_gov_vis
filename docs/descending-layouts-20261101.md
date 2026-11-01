@@ -67,3 +67,9 @@ Four complete hash-matched Bungotakada tables add 250 name/year-only activity ca
 ## Oita Taketa earlier-sheet review
 
 All27 FY2020 and40 FY2021 sheet units (including the FY2021 blank example) were reviewed.26 additional name/year candidates bring Taketa to158 and Oita to741. Reversed title fragments, policy headings, parent/child identities and cancellations have explicit dispositions. The existing FY2021 家庭教育事業 candidate is preserved with an exact cancellation quote and warning; it is not represented as completed. No amounts or ratings were inferred. Independent validation:2825 combined candidates and6914 exact evidence references; focused12 tests and typecheck passed. Full regression for this increment remains pending.
+
+## Validated741 checkpoint (Oita remains unfinished)
+
+Code head08dab8af19e16a683023c8e3cd28a15e295d02d6 passes full crawler395/395, Web256/256, focused12/12, typecheck, lint (existing custom-font warning), national verification and109-page static export at/local_gov_vis. Optional remote font optimization was disabled for this build only and config restored. Production remains500 municipalities/92038 records; index hash unchanged.
+
+The original35-source review now distinguishes13 related-only sources,4 partly extracted KPI books,5 books with36 prepared but ungenerated rows, and13 source layouts still to review.598 KPI row units remain actionable.11 missing bodies and1 incomplete body remain separate. No claim of queue exhaustion or nationwide completion. No source fetch, external write, push, PR edit, merge or deploy. Recovery bundle and ZIP are in/workspace/descending-layouts-20261101.
