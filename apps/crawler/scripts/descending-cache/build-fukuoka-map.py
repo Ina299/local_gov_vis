@@ -150,7 +150,7 @@ for id,fy,ey,proof in [('d20bcc74ee66e3d51f4c5252',2024,2025,'令和 6 年度進
   a=t.index(raw or name);row(c,t,name,raw,start=a,note='年度の実施内容欄に明示された個別事業名のみ。R6報告の翌年度マイナ救急計画をR6実績にせず、改革方針66事項やKPIは別事業にしない。評点・費用は転記しない。');c['rows'][-1].update(context=t[max(0,a-550):a+350],contextStart=len(t[:max(0,a-550)].encode('utf-16-le'))//2)
  hold(c,t,'行政改革個別プラン進捗状況','Other 66 reform actions track internal management, HR, financial planning and multi-year targets. They are not 66 independently identified business records. Future deployment columns and national/prefectural system references excluded; numerical alignment remains unstructured.')
 # Reviewed follow-up mappings remain bound to exact cached text and UTF-16 offsets.
-for extra in json.loads((stage/'fukuoka-next-reviewed.json').read_text()):
+for extra in json.loads((stage/'fukuoka-next-reviewed.json').read_text())+json.loads((stage/'fukuoka-second-reviewed.json').read_text()):
  t=verified_text(extra['sourceId'],extra['municipalityCode']);assert hashlib.sha256(t.encode()).hexdigest()==extra['fullTextSha256'];assert extra['proof'] in t
  encoded=t.encode('utf-16-le')
  for h in extra['rows']+extra['holds']:
@@ -161,6 +161,28 @@ for extra in json.loads((stage/'fukuoka-next-reviewed.json').read_text()):
   for key in ['municipalityCode','year','evaluationYear','proof','fullTextSha256']:assert old.get(key)==extra.get(key)
   old['rows'].extend(extra['rows']);old['holds'].extend(extra['holds'])
  else:configs.append(extra)
+# Preserve unresolved title alternatives as holds, never overwrite the annual production record.
+alias_holds={('043082d7600b676b84006c46','生活支援体制整備事業'):'cached-40220-c126f83660d500ec6cbedb00',('043082d7600b676b84006c46','漁場整備事業'):'cached-40220-65739f2908260d3eef84cf68',('26603e3ecc2f657f54d279cc','生活支援体制整備事業'):'cached-40220-413af57865a38cafd64bcea5'}
+for c in configs:
+ kept=[]
+ for r in c['rows']:
+  prior=alias_holds.get((c['sourceId'],r['name']))
+  if prior:c['holds'].append(dict(start=r['start'],raw=r['raw'],status='identity_alias_hold',reason='Possible same-year existing title with trailing 費: '+prior+'. Preserve original candidate in tested checkpoint 3e100915; do not add or merge until exact programme identity resolved. Existing production values unchanged.'))
+  else:kept.append(r)
+ c['rows']=kept
+ if c['sourceId']=='7f46d30943112fe91b3d425b':
+  for h in c['holds']:
+   if h.get('status')=='layout_review':h.update(status='reviewed',reason='Remaining title columns reviewed against 361 monetary rows; every row has a title candidate or exact hold. See fukuoka-kama-row-coverage.json and 85-row disposition. Numeric column alignment remains unextracted; finance/carryover/benefit-identity holds preserved.')
+# Finish the named-programme review; preserve concrete attribution/period gaps, not a generic layout stop.
+for c in configs:
+ if c['municipalityCode'] not in ['40625','40342','40220']:continue
+ for h in c['holds']:
+  if h.get('status')!='layout_review':continue
+  h['status']='identity_or_period_hold'
+  h['reason']={
+   '40625':'Named annual programmes and school-lunch accounting transition reviewed. Remaining 主要施策/主要事業 containers combine previously named child programmes, third-party sports activities and future directions (e.g. 記録保存事業の実施が望まれる). Parent/child identity and interleaved score columns cannot be assigned to extra independent projects without a named individual sheet. No claim of full numerical extraction.',
+   '40342':'Annual named programmes reviewed across all ten books. Remaining prefecture-run matchmaking/health-point schemes, citizen-group flower-bed grant components, third-party tourism trials and generic care/forest activities do not prove additional independent municipal identities. Postpartum-care occurrences are next-year plans or consultation, not dated completed provision. Parent grant/programme and subactivity relationships retained; no KPI rows or projected years converted to projects.',
+   '40220':'Complete annual implementation sections reviewed for explicit names. Remaining policy headings, general statutory needs, parent programme totals, detached column fragments and future-target statements do not establish an additional unique named annual project. Five-year summary dates are not individual execution years; original numeric alignment still required for unstructured values.'}[c['municipalityCode']]
 for c in configs:
  meta=json.loads((docs.parent/'municipalities'/(c['municipalityCode']+'.json')).read_text());src=next(x for x in meta['sources'] if x['id']==c['sourceId']);c['sourceSha256']=src['acquisition']['sourceSha256'];c['sourceUrl']=src['url'];c['recordedFormat']=src['format'];d=json.loads((docs/(c['sourceId']+'.json')).read_text());c['format']='pdf' if src['format'] not in ['pdf','html','xlsx'] and d.get('extractionMethod')=='pdftotext_from_verified_bytes' and d['sourceSha256']==src['acquisition']['sourceSha256'] else 'html' if src['format'] not in ['pdf','html','xlsx'] and d.get('extractionMethod')=='visible_html_from_verified_bytes' and d['sourceSha256']==src['acquisition']['sourceSha256'] else src['format']
 (root/'apps/crawler/src/evaluations/expansion/descending-fukuoka-map.ts').write_text('// Generated from hash-verified complete cached texts; no municipal requests.\nexport const fukuokaRows = '+json.dumps(configs,ensure_ascii=False,indent=2)+';\n')

@@ -1,0 +1,4003 @@
+[
+  {
+    "lineZeroBased": 8,
+    "raw": "議会事務局 市議会運営事業 会議の進行補助、専門知識の調査・提供、会議資料作成事務及び報酬等の支払い事務 123,697,039 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "市議会運営事業",
+        "status": "supported",
+        "start": 214
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 11,
+    "raw": "議会事務局 議長交際活動事業 議長のスケジュール管理、交際費管理事務 327,488 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "議長交際活動事業",
+        "status": "supported",
+        "start": 324
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 14,
+    "raw": "議会事務局 議長公用車運用事業 議長公用車リース契約・維持管理事務 749,349 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "議長公用車運用事業",
+        "status": "supported",
+        "start": 410
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 17,
+    "raw": "議会事務局 議会だより発行事業 議会だより（年４回）を作成し、市内全戸に配布する事務 1,347,456 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "議会だより発行事業",
+        "status": "supported",
+        "start": 495
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 20,
+    "raw": "議会事務局 会議録調製事業 会議録を作成し、配布及び公開する事務 4,685,552 高い できない",
+    "matches": [
+      {
+        "name": "会議録調製事業",
+        "status": "supported",
+        "start": 603
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 23,
+    "raw": "議会事務局 議会で配布する紙資料をなくすため、アプリを活用し会議資料を閲覧するための経費 6,295,792 高い 一部できる",
+    "matches": [
+      {
+        "name": "議会ペーパーレス化事業",
+        "status": "supported",
+        "start": 659
+      },
+      {
+        "name": null,
+        "status": "layout_review",
+        "start": 659
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 26,
+    "raw": "人事秘書課 広報事業 42,437,074 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "広報事業",
+        "status": "supported",
+        "start": 841
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 29,
+    "raw": "人事秘書課 市長等秘書事務費 市長および副市長の補佐業務 8,128,577 高い 判断できない 判断できない できない 現状維持",
+    "matches": [
+      {
+        "name": "市長等秘書事務費",
+        "status": "supported",
+        "start": 919
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 32,
+    "raw": "人事秘書課 各市長会事務費 市長会（全国・九州・福岡県）に関する業務 1,510,690 高い 判断できない 判断できない できない 現状維持",
+    "matches": [
+      {
+        "name": "各市長会事務費",
+        "status": "supported",
+        "start": 995
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 35,
+    "raw": "人事秘書課 職員安全衛生管理事業 職員の安全衛生管理に関する業務及び職員の健康管理に関する業務 22,191,538 高い できている できない 拡大",
+    "matches": [
+      {
+        "name": "職員安全衛生管理事業",
+        "status": "supported",
+        "start": 1084
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 38,
+    "raw": "人事秘書課 共済組合事業 市町村職員共済組合に各種申請を行う業務 2,240 高い できている できない 現状維持",
+    "matches": [
+      {
+        "name": "共済組合事業",
+        "status": "supported",
+        "start": 1182
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 41,
+    "raw": "人事秘書課 職員研修事業 職員に対し、勤務能率向上のための研修を実施する業務 2,368,321 高い できている できない 拡大",
+    "matches": [
+      {
+        "name": "職員研修事業",
+        "status": "supported",
+        "start": 1262
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 44,
+    "raw": "人事秘書課 人権推進事業 職員に対し、人権問題に関する研修会等を実施する業務 77,620 高い できている 判断できない できない 現状維持",
+    "matches": [
+      {
+        "name": "人権推進事業",
+        "status": "supported",
+        "start": 1343
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 47,
+    "raw": "総務課 庁舎・事務機器の維持管理 115,018,993 高い 判断できない 一部できる",
+    "matches": [
+      {
+        "name": "庁舎・事務機器等管理事業",
+        "status": "supported",
+        "start": 1414
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 50,
+    "raw": "総務課 文書仕分け、発送業務、庁舎間文書使送便委託業務、文書管理システムの管理事務 24,796,857 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "文書収受・発送・管理事業",
+        "status": "supported",
+        "start": 1502
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 53,
+    "raw": "総務課 相談事業 無料弁護士相談及び市民相談に係る事務 1,267,420 高い 判断できない できない 現状維持",
+    "matches": [
+      {
+        "name": "相談事業",
+        "status": "supported",
+        "start": 1635
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 62,
+    "raw": "総務課 公平委員会運営事業 公平委員会の開催業務、各種研修会に参加 376,824 高い 判断できない 判断できない できない 現状維持",
+    "matches": [
+      {
+        "name": "公平委員会運営事業",
+        "status": "supported",
+        "start": 1885
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 65,
+    "raw": "総務課 行政区運営事業 嘉麻市行政区長連合会、各地区区長会の開催。交付金支払業務 42,586,390 高い 判断できない 一部できる",
+    "matches": [
+      {
+        "name": "行政区運営事業",
+        "status": "supported",
+        "start": 1982
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 68,
+    "raw": "総務課 固定資産評価委員会の開催業務、運営研修会に参加 12,200 高い 判断できない 判断できない できない 現状維持",
+    "matches": [
+      {
+        "name": "固定資産評価審査委員会運営事業",
+        "status": "supported",
+        "start": 2053
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 71,
+    "raw": "総務課 総務管理費 総務課の庶務費 86,000 高い 判断できない 一部できる",
+    "matches": [
+      {
+        "name": "総務管理費",
+        "status": "supported",
+        "start": 2172
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 74,
+    "raw": "総務課 情報公開請求処理業務及び政治倫理審査会運営事業 217,580 高い 判断できない 判断できない できない 現状維持",
+    "matches": [
+      {
+        "name": "情報公開・個人情報保護及び政治倫理事務費",
+        "status": "supported",
+        "start": 2215
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 77,
+    "raw": "総務課 例規の制定、廃案業務、利器システム委託業務 5,718,204 高い 判断できない 判断できない できない 現状維持",
+    "matches": [
+      {
+        "name": "例規審査・編集及び法令等情報提供事業",
+        "status": "supported",
+        "start": 2313
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 80,
+    "raw": "総務課 法律顧問委託事務費 弁護士により行政事務に係る法律上の助言を受ける委託業務 2,640,000 高い 判断できない 判断できない 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "法律顧問委託事務費",
+        "status": "supported",
+        "start": 2421
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 83,
+    "raw": "総務課 行政不服審査事務費 行政不服審査会の開催業務 726,975 高い 判断できない 判断できない できない 現状維持",
+    "matches": [
+      {
+        "name": "行政不服審査事務費",
+        "status": "supported",
+        "start": 2511
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 86,
+    "raw": "選挙啓発費 主権者意識の向上と、公明・適正な選挙の執行について周知啓発 219,283 高い 判断できない 判断できない できない 現状維持",
+    "matches": [
+      {
+        "name": "選挙啓発費",
+        "status": "supported",
+        "start": 2588
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 89,
+    "raw": "電算システム運用管理費 298,885,187 高い できない 拡大",
+    "matches": [
+      {
+        "name": "電算システム運用管理費",
+        "status": "supported",
+        "start": 2670
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 92,
+    "raw": "デジタル戦略事業 デジタル戦略事業 13,888,301 高い できない 拡大",
+    "matches": [
+      {
+        "name": "デジタル戦略事業",
+        "status": "supported",
+        "start": 2792
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 95,
+    "raw": "電算システム運用管理費 1,881,000 高い できない 完了",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 2832
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 98,
+    "raw": "総合政策課 まちづくり経営企画事業 4,839,608 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "まちづくり経営企画事業",
+        "status": "supported",
+        "start": 2988
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 101,
+    "raw": "総合政策課 7,106,609 高い できない",
+    "matches": [
+      {
+        "name": "協働のまちづくり推進事業",
+        "status": "supported",
+        "start": 3056
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 104,
+    "raw": "総合政策課 ふるさと納税事業 171,698,533 高い 期待以下 できない 拡大",
+    "matches": [
+      {
+        "name": "ふるさと納税事業",
+        "status": "supported",
+        "start": 3274
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 108,
+    "raw": "総合政策課 総合教育会議費 諸条件整備、児童、生徒等の生命又は身体に被害が生じる恐れがある場合に緊急に講 0 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "総合教育会議費",
+        "status": "supported",
+        "start": 3379
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 112,
+    "raw": "総合政策課 地方版総合戦略事業 741,749 高い できない",
+    "matches": [
+      {
+        "name": "地方版総合戦略事業",
+        "status": "supported",
+        "start": 3569
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 115,
+    "raw": "総合政策課 地域整備事業 1,157,494 高い できない 拡大",
+    "matches": [
+      {
+        "name": "地域整備事業",
+        "status": "supported",
+        "start": 3686
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 121,
+    "raw": "総合政策課 3,189,992 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "昆虫産業都市構想推進事業",
+        "status": "supported",
+        "start": 3904
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 130,
+    "raw": "財政課 行政経営推進事業 行政改革等を実施していくことにより、効率的な行財政の運営を図る。 3,752,726 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "行政経営推進事業",
+        "status": "supported",
+        "start": 4234
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 133,
+    "raw": "財政課 財政管理費 予算編成、地方債管理、基金管理、交付税算定等 3,716,520 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "財政管理費",
+        "status": "supported",
+        "start": 4331
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 136,
+    "raw": "財政課 財政調整基金費 財政調整基金及び減債基金の管理 469,397,719 高い できない 現状維持",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 4389
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 139,
+    "raw": "財政課 上水道整備費 法定繰出金の支出 51,727,795 高い できない 現状維持",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 4470
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 142,
+    "raw": "財政課 統一的な基準による財務書類の作成 2,145,000 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "統一的な基準による公会計推進事業",
+        "status": "supported",
+        "start": 4542
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 145,
+    "raw": "管財課 契約適正化事業 嘉麻市の発注工事等に関する事業及び共通印刷物の一括発注 10,079,655 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "契約適正化事業",
+        "status": "supported",
+        "start": 4658
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 148,
+    "raw": "管財課 財産管理事務費 市有財産の運営管理事業 37,775,411 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "財産管理事務費",
+        "status": "supported",
+        "start": 4753
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 151,
+    "raw": "管財課 施設管理を委託する指定管理者について審査する委員会の事務事業 74,625 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "指定管理者審査委員会事務費",
+        "status": "supported",
+        "start": 4806
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 154,
+    "raw": "管財課 普通財産管理事業 普通財産管理に関する事業 58,763,971 高い 一部できる",
+    "matches": [
+      {
+        "name": "普通財産管理事業",
+        "status": "supported",
+        "start": 4941
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 157,
+    "raw": "管財課 閉校となった旧嘉穂地区にある3小学校の管理に関する事業 1,627,533 高い できない",
+    "matches": [
+      {
+        "name": "嘉穂地区小学校跡地管理事業",
+        "status": "supported",
+        "start": 4996
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 160,
+    "raw": "管財課 495,000 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "統一的な基準による公会計推進事業",
+        "status": "supported",
+        "start": 5102
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 163,
+    "raw": "管財課 普通財産管理に関する事業 55,183,400 高い できない 完了",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 5222
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 166,
+    "raw": "男女共同参画推進事業 3,840,251 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "男女共同参画推進事業",
+        "status": "supported",
+        "start": 5377
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 169,
+    "raw": "男女共同参画啓発事業 男女共同参画及びDV防止について市広報紙・市ホームページ等による周知啓発の実施 617,110 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "男女共同参画啓発事業",
+        "status": "supported",
+        "start": 5469
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 172,
+    "raw": "交通政策課 市バス運行管理事業 市バスの運行委託業務、路線の見直し及び料金徴収業務 135,636,083 高い できない",
+    "matches": [
+      {
+        "name": "市バス運行管理事業",
+        "status": "supported",
+        "start": 5591
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 175,
+    "raw": "交通政策課 市バス購入事業 市バスの運行に使用するバス車両を購入する事業 48,655,464 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "市バス購入事業",
+        "status": "supported",
+        "start": 5688
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 178,
+    "raw": "交通政策課 市バスの運行に使用するバス車両を購入する事業 48,655,464 高い できない 現状維持",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 5750
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 181,
+    "raw": "交通政策課 94,361,408 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "公共交通体系確保維持対策事業",
+        "status": "supported",
+        "start": 5847
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 184,
+    "raw": "会計課 出納事務 公金の収納、支出、管理保管及び決算の調製等事務 14,626,324 判断できない 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "出納事務",
+        "status": "supported",
+        "start": 6005
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 193,
+    "raw": "税務課 税務一般管理費 税務課の庶務費 5,623 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "税務一般管理費",
+        "status": "supported",
+        "start": 6273
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 196,
+    "raw": "税務課 たばこ税事業 たばこ税申告書の受付、賦課業務 125,000 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "たばこ税事業",
+        "status": "supported",
+        "start": 6340
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 199,
+    "raw": "税務課 市民税賦課事業 申告の受付、市県民税賦課業務 29,674,548 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "市民税賦課事業",
+        "status": "supported",
+        "start": 6419
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 202,
+    "raw": "税務課 定額減税に係るシステム改修業務 2,046,000 高い できない 完了",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 6475
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 205,
+    "raw": "税務課 軽自動車税賦課事業 軽自動車の申告書受付、ナンバーの交付及び軽自動車税賦課業務 2,020,613 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "軽自動車税賦課事業",
+        "status": "supported",
+        "start": 6588
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 208,
+    "raw": "税務課 固定資産評価事業 固定資産を調査し、適正に評価する業務 26,106,976 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "固定資産評価事業",
+        "status": "supported",
+        "start": 6686
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 211,
+    "raw": "税務課 徴税事業 13,582,988 高い できない 拡大",
+    "matches": [
+      {
+        "name": "徴税事業",
+        "status": "supported",
+        "start": 6813
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 214,
+    "raw": "税務課 滞納整理事務費 税と税外債権との徴収連携を行う。併せて滞納者の財産調査を行う。 1,033,326 高い できない 拡大",
+    "matches": [
+      {
+        "name": "滞納整理事務費",
+        "status": "supported",
+        "start": 6880
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 217,
+    "raw": "監査委員費 定期監査、例月現金出納検査、決算審査等に関する業務 2,250,383 高い 判断できない 判断できない できない 現状維持",
+    "matches": [
+      {
+        "name": "監査委員費",
+        "status": "supported",
+        "start": 6952
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 220,
+    "raw": "庁舎の維持管理業務、市バス定期券回数券販売等業務 3,828,619 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "山田総合支所維持管理費",
+        "status": "supported",
+        "start": 7043
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 226,
+    "raw": "地域振興事業 旧ＪＲ跡地の草刈り及びトロッコフェスタ実行委員会への補助金交付業務 1,884,800 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "地域振興事業",
+        "status": "supported",
+        "start": 7284
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 229,
+    "raw": "集会所管理費（山田） 山田地区集会所２２箇所の維持管理業務 297,500 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "集会所管理費（山田）",
+        "status": "supported",
+        "start": 7388
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 244,
+    "raw": "防災対策課 交通安全意識啓発事業 3,174,758 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "交通安全意識啓発事業",
+        "status": "supported",
+        "start": 8045
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 247,
+    "raw": "防災対策課 生活安全推進事業 25,770,806 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "生活安全推進事業",
+        "status": "supported",
+        "start": 8160
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 256,
+    "raw": "市民課 住民基本台帳事務費 55,544,475 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "住民基本台帳事務費",
+        "status": "supported",
+        "start": 8452
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 259,
+    "raw": "市民課 マイナンバーカードへの氏名のローマ字表記等に要する、住基システム等の改修 7,420,600 高い できない 現状維持",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 8524
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 262,
+    "raw": "市民課 119,158,374 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "重度障がい者医療対策事業",
+        "status": "supported",
+        "start": 8636
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 265,
+    "raw": "市民課 43,762,442 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "ひとり親家庭等医療対策事業",
+        "status": "supported",
+        "start": 8768
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 268,
+    "raw": "市民課 子ども医療対策費 125,849,365 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "子ども医療対策費",
+        "status": "supported",
+        "start": 8962
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 271,
+    "raw": "市民課 11,263,563 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "高齢者保健・介護一体化事業",
+        "status": "supported",
+        "start": 9032
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 274,
+    "raw": "審議会の運営に関する業務、部落解放同盟等補助金交付業務 11,055,540 高い 一部できる",
+    "matches": [
+      {
+        "name": "人権・同和対策推進補助事業",
+        "status": "supported",
+        "start": 9156
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 277,
+    "raw": "嘉穂隣保館 啓発・広報事業 1,493,379 高い できない",
+    "matches": [
+      {
+        "name": "啓発・広報事業",
+        "status": "supported",
+        "start": 9347
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 280,
+    "raw": "住民の教育向上と生活安定のための相談・支援に関する事業 577,590 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "教育・生活支援センター事業",
+        "status": "supported",
+        "start": 9389
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 283,
+    "raw": "嘉穂隣保館 嘉穂隣保館維持管理費 相談業務、交流促進事業、隣保館職員研修業務、嘉穂隣保館維持管理業務 8,973,713 高い できない",
+    "matches": [
+      {
+        "name": "嘉穂隣保館維持管理費",
+        "status": "supported",
+        "start": 9530
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 287,
+    "raw": "発センターあ うすい人権啓発センターあかつき維持管理業務 7,402,990 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "うすい人権啓発センターあかつき維持管理費",
+        "status": "supported",
+        "start": 9604
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 291,
+    "raw": "資金の申請受付、貸与業務及び広報等による制度の周知活動 0 高い 期待以下 できない 現状維持",
+    "matches": [
+      {
+        "name": "若年者専修学校等技能習得資金貸付事業",
+        "status": "supported",
+        "start": 9720
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 294,
+    "raw": "嘉穂隣保館 人権啓発活動地方事業 人権の花運動の支援活動、人権問題に関する講演会等の開催 878,727 高い できない",
+    "matches": [
+      {
+        "name": "人権啓発活動地方事業",
+        "status": "supported",
+        "start": 9856
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 297,
+    "raw": "集会所維持管理費 市内31箇所の集会所維持管理に関する業務 780,339 高い 一部できる",
+    "matches": [
+      {
+        "name": "集会所維持管理費",
+        "status": "supported",
+        "start": 9959
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 301,
+    "raw": "発センターあ 調査研究事業 隣保事業及び人権課題解決のための調査研究業務 383,144 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "調査研究事業",
+        "status": "supported",
+        "start": 10058
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 306,
+    "raw": "発センターあ デイサービス事業 6,450,365 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "デイサービス事業",
+        "status": "supported",
+        "start": 10198
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 311,
+    "raw": "発センターあ 相談事業 25,620,014 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "相談事業",
+        "status": "supported",
+        "start": 10279
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 315,
+    "raw": "就労準備支援事業 生活困窮者自立支援法に基づく就労準備支援事業 15,000,000 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "就労準備支援事業",
+        "status": "supported",
+        "start": 10443
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 324,
+    "raw": "こども育成課 児童福祉総務費 こども育成課の庶務費 0 高い できる 廃止・休止",
+    "matches": [
+      {
+        "name": "児童福祉総務費",
+        "status": "supported",
+        "start": 10686
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 327,
+    "raw": "こども育成課 児童扶養手当支給事業 ひとり親家庭等への支援、手当支給に関する補助事業関連事務 308,138,070 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "児童扶養手当支給事業",
+        "status": "supported",
+        "start": 10784
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 330,
+    "raw": "こども育成課 特別児童扶養手当に関する補助事業関連事務 188,979 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "特別児童扶養手当事務費",
+        "status": "supported",
+        "start": 10858
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 333,
+    "raw": "こども育成課 私立保育園運営事業 保育の実施を委託する私立保育園に対し、保育運営費を委託費として給付する事業 1,127,281,461 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "私立保育園運営事業",
+        "status": "supported",
+        "start": 10980
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 336,
+    "raw": "こども育成課 広域保育園運営事業 37,220,430 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "広域保育園運営事業",
+        "status": "supported",
+        "start": 11133
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 339,
+    "raw": "こども育成課 公立保育所運営事業 公立保育所の運営及び維持管理事業 126,608,180 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "公立保育所運営事業",
+        "status": "supported",
+        "start": 11207
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 342,
+    "raw": "鴨生保育所 鴨生保育所費 就学未満児の保育事業 11,586,753 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "鴨生保育所費",
+        "status": "supported",
+        "start": 11268
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 345,
+    "raw": "どんぐり保育所費 就学未満児の保育事業 9,005,693 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "どんぐり保育所費",
+        "status": "supported",
+        "start": 11347
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 348,
+    "raw": "鴨生保育所 3,673,074 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "子育て支援センター事業",
+        "status": "supported",
+        "start": 11430
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 351,
+    "raw": "こども育成課 嘉穂第２学童保育所費 1,189,105 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "嘉穂第２学童保育所費",
+        "status": "supported",
+        "start": 11617
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 354,
+    "raw": "こども育成課 碓井学童保育所 795,262 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "碓井学童保育所",
+        "status": "supported",
+        "start": 11754
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 357,
+    "raw": "こども育成課 稲築西学童保育所 924,032 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "稲築西学童保育所",
+        "status": "supported",
+        "start": 11886
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 360,
+    "raw": "こども育成課 稲築東学童保育所 831,487 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "稲築東学童保育所",
+        "status": "supported",
+        "start": 12019
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 363,
+    "raw": "こども育成課 下山田学童保育所費 567,710 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "下山田学童保育所費",
+        "status": "supported",
+        "start": 12152
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 366,
+    "raw": "こども育成課 上山田学童保育所 559,655 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "上山田学童保育所",
+        "status": "supported",
+        "start": 12286
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 369,
+    "raw": "こども育成課 自立支援給付金事業 就職に必要な指定講座の受講や資格取得支援のための給付金支給事務 6,581,500 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "自立支援給付金事業",
+        "status": "supported",
+        "start": 12378
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 372,
+    "raw": "こども育成課 児童福祉施設総務費 学童保育所の運営及び維持管理業務 122,620,772 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "児童福祉施設総務費",
+        "status": "supported",
+        "start": 12452
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 375,
+    "raw": "病後児保育事業 4,249,137 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "病後児保育事業",
+        "status": "supported",
+        "start": 12540
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 378,
+    "raw": "こども育成課 児童手当支給事業 児童手当支給に関する補助事業関連事務 568,470,687 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "児童手当支給事業",
+        "status": "supported",
+        "start": 12679
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 381,
+    "raw": "こども育成課 障がい児保育支援事業 障がい児保育を実施している私立保育園への補助事業 12,596,000 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "障がい児保育支援事業",
+        "status": "supported",
+        "start": 12770
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 384,
+    "raw": "こども育成課 子ども・子育て支援事業 46,092,785 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "子ども・子育て支援事業",
+        "status": "supported",
+        "start": 12910
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 393,
+    "raw": "こども育成課 嘉穂学童保育所 2,118,645 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "嘉穂学童保育所",
+        "status": "supported",
+        "start": 13204
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 396,
+    "raw": "こども育成課 教育認定こどもが利用する幼稚園に対し、その教育に係る費用を給付する事業 32,916,066 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "私立幼稚園施設型給付事業",
+        "status": "supported",
+        "start": 13268
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 399,
+    "raw": "こども育成課 110,640,689 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "認定こども園施設型給付事業",
+        "status": "supported",
+        "start": 13380
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 402,
+    "raw": "こども育成課 幼児教育無償化により移設等利用給付認定こどもに係る費用を給付する事業 8,943,022 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "子育てのための施設等利用給付事業",
+        "status": "supported",
+        "start": 13504
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 405,
+    "raw": "こども育成課 保育事務管理費 こども育成課事務費 97,574 判断できない 判断できない できない 現状維持",
+    "matches": [
+      {
+        "name": "保育事務管理費",
+        "status": "supported",
+        "start": 13639
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 409,
+    "raw": "こども育成課 別給付金給付事業（ひと 子育て世帯生活支援特別給付金支給に関する補助事業関連事務 3,037,000 高い できない 完了",
+    "matches": [
+      {
+        "name": "子育て世帯生活支援特別給付金給付事業（ひとり親世帯分）",
+        "status": "supported",
+        "start": 13692
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 414,
+    "raw": "こども育成課 子育て世帯生活支援特別給付金支給に関する補助事業関連事務 703,000 高い できない 完了",
+    "matches": [
+      {
+        "name": "子育て世帯生活支援特別給付金給付事業（その他低所得の子育て世帯分）",
+        "status": "supported",
+        "start": 13810
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 418,
+    "raw": "こども育成課 出産祝金事業 新生児を養育する者へ経済的支援のための出産祝金支給事務 6,700,000 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "出産祝金事業",
+        "status": "supported",
+        "start": 13962
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 421,
+    "raw": "こども育成課 出産・子育て応援交付金支給に関する補助事業関連事務 15,335,054 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "出産・子育て応援交付金事業",
+        "status": "supported",
+        "start": 14030
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 425,
+    "raw": "こども育成課 給付金給付事業（非課 物価高騰対応重点支援給付金（非課税世帯分）支給に関する補助事業関連事務 56,005,948 高い できない 完了",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 14144
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 430,
+    "raw": "こども育成課 11,281,496 高い できない 完了",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 14274
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 434,
+    "raw": "生活支援課 自立相談支援費 20,943,649 高い 期待以上 できない 現状維持",
+    "matches": [
+      {
+        "name": "自立相談支援費",
+        "status": "supported",
+        "start": 14470
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 437,
+    "raw": "社会福祉課 社会福祉総務事務費 社会福祉課（社会福祉係）の庶務費及び社会福祉法人事務 2,802,801 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "社会福祉総務事務費",
+        "status": "supported",
+        "start": 14549
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 440,
+    "raw": "社会福祉課 民生委員児童委員事業 民生委員推薦会の開催、民生委員児童委員協議会に補助金を交付する事業 5,190,619 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "民生委員児童委員事業",
+        "status": "supported",
+        "start": 14648
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 443,
+    "raw": "社会福祉課 戦傷病者等援護事務費 1,301,905 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "戦傷病者等援護事務費",
+        "status": "supported",
+        "start": 14792
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 446,
+    "raw": "社会福祉課 重度の20歳未満の障害児に支給する福祉手当給付業務 3,356,430 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "在宅心身障害児福祉手当（国）",
+        "status": "supported",
+        "start": 14849
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 449,
+    "raw": "社会福祉課 187,340 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "福祉手当（国）（経過措置分）",
+        "status": "supported",
+        "start": 14951
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 452,
+    "raw": "社会福祉課 在宅の著しく重度の障害者に支給する福祉手当給付業務 13,257,000 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "在宅重度心身障害者福祉手当（国）",
+        "status": "supported",
+        "start": 15086
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 461,
+    "raw": "社会福祉課 稲築社会福祉センターの管理及び運営に関する業務 18,002,218 高い できない 廃止・休止",
+    "matches": [
+      {
+        "name": "稲築社会福祉センター管理事業",
+        "status": "supported",
+        "start": 15366
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 464,
+    "raw": "社会福祉課 ふるさと交流館なつきの湯の管理及び運営に関する業務 38,402,661 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "ふるさと交流館なつきの湯管理事業",
+        "status": "supported",
+        "start": 15470
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 467,
+    "raw": "社会福祉課 ふるさと交流館なつきの湯の管理及び運営に関する業務 4,193,200 高い できない 現状維持",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 15577
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 470,
+    "raw": "社会福祉課 災害見舞金給付事業 災害見舞金及び災害弔慰金を給付する業務 200,000 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "災害見舞金給付事業",
+        "status": "supported",
+        "start": 15717
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 473,
+    "raw": "社会福祉課 障害者福祉総務費 国庫負担金、県負担金の返還金及び社会福祉課障がい者福祉係の庶務費 47,808,166 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "障害者福祉総務費",
+        "status": "supported",
+        "start": 15779
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 476,
+    "raw": "社会福祉課 身体障害者（児）の補装具、居宅介護、施設入所、自立訓練等の自立支援給付業務 1,726,927,516 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "障害者自立支援給付事業",
+        "status": "supported",
+        "start": 15882
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 479,
+    "raw": "社会福祉課 地域生活支援事業 身体障害者の地域生活についての相談・支援事業及び日常生活用具等の給付業務 74,854,718 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "地域生活支援事業",
+        "status": "supported",
+        "start": 16025
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 482,
+    "raw": "社会福祉課 227,864,074 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "障害者自立支援医療事業",
+        "status": "supported",
+        "start": 16104
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 485,
+    "raw": "社会福祉課 身体障害者手帳の再交付申請進達及び交付事務 79,539 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "身体障害者手帳再交付等事務費",
+        "status": "supported",
+        "start": 16228
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 488,
+    "raw": "社会福祉課 災害援護資金の貸付業務 9,673 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "災害援護資金貸付金事業",
+        "status": "supported",
+        "start": 16323
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 491,
+    "raw": "社会福祉課 障害児童発達支援事業 450,341,107 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "障害児童発達支援事業",
+        "status": "supported",
+        "start": 16473
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 494,
+    "raw": "社会福祉課 保護司会、交通遺児を支える会などの社会福祉団体等に補助金を交付する業務 580,180 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "社会福祉団体等補助事業",
+        "status": "supported",
+        "start": 16529
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 497,
+    "raw": "社会福祉課 社会福祉協議会に運営費等補助金を交付する業務 37,600,000 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "社会福祉協議会補助事業",
+        "status": "supported",
+        "start": 16638
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 500,
+    "raw": "社会福祉課 嘉麻赤十字病院に医療機器購入費等補助金を交付する業務 15,000,000 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "嘉麻赤十字病院補助事業",
+        "status": "supported",
+        "start": 16737
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 503,
+    "raw": "社会福祉課 配食サービス事業 弁当の配達及び安否確認のサービス業務 1,086,411 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "配食サービス事業",
+        "status": "supported",
+        "start": 16868
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 506,
+    "raw": "社会福祉課 福祉電話設置事業 電話機を設置・貸与する制度で、安否の確認等を行う業務 62,142 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "福祉電話設置事業",
+        "status": "supported",
+        "start": 16956
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 509,
+    "raw": "社会福祉課 対象者にタクシー利用券を交付する業務 2,150,930 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "重度心身障害者タクシー利用券交付事業",
+        "status": "supported",
+        "start": 17021
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 512,
+    "raw": "社会福祉課 身体障害者福祉協会等の団体の活動に対して、補助金を交付する業務 677,000 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "障害者支援団体等援助事業",
+        "status": "supported",
+        "start": 17120
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 515,
+    "raw": "社会福祉課 市長の諮問に応じ、障がい者に関する計画等について審議する協議会の運営業務 44,200 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "障害者施策推進協議会運営事業",
+        "status": "supported",
+        "start": 17224
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 519,
+    "raw": "社会福祉課 給付金給付事業（非課 25,651,054 高い できない 完了",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 17345
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 530,
+    "raw": "社会福祉課 112,546,900 高い できない 完了",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 17658
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 535,
+    "raw": "社会福祉課 給付金給付事業（新規 75,116,197 高い できない 完了",
+    "matches": [
+      {
+        "name": "物価高騰対応重点支援給付金給付事業（新規非課税世帯等分）",
+        "status": "supported",
+        "start": 17800
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 540,
+    "raw": "社会福祉課 給付金給付事業（定額 265,588,167 高い できない 完了",
+    "matches": [
+      {
+        "name": "物価高騰対応重点支援給付金給付事業（定額減税補足給付分）",
+        "status": "supported",
+        "start": 17940
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 545,
+    "raw": "社会福祉課 7,618,406 高い できない 現状維持",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 18119
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 549,
+    "raw": "社会福祉課 205,956,364 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "物価高騰対応重点支援給付金給付事業",
+        "status": "supported",
+        "start": 18262
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 553,
+    "raw": "社会福祉課 給付金給付事業（子ども 0 高い できない 現状維持",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 18468
+      },
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 18399
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 557,
+    "raw": "老人保護措置事業 36,793,841 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "老人保護措置事業",
+        "status": "supported",
+        "start": 18597
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 560,
+    "raw": "老人クラブ助成事業 5,966,672 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "老人クラブ助成事業",
+        "status": "supported",
+        "start": 18740
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 564,
+    "raw": "高齢者福祉事業 ように生きがい対応デイサービス事業など各種高齢者福祉サービスを実施し、高齢者福祉 3,055,826 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "高齢者福祉事業",
+        "status": "supported",
+        "start": 18875
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 568,
+    "raw": "敬老事業 8,672,884 高い 判断できない 一部できる 縮小",
+    "matches": [
+      {
+        "name": "敬老事業",
+        "status": "supported",
+        "start": 19029
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 571,
+    "raw": "高齢者福祉総務事業費 12,732,421 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "高齢者福祉総務事業費",
+        "status": "supported",
+        "start": 19108
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 574,
+    "raw": "社会福祉施設運営事業 415,651,752 高い 一部できる 縮小",
+    "matches": [
+      {
+        "name": "社会福祉施設運営事業",
+        "status": "supported",
+        "start": 19311
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 577,
+    "raw": "一般会計から介護保険事業特別会計へ法定負担割合に応じて繰り出すもの 941,175,249 高い できない 現状維持",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 19377
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 580,
+    "raw": "課税内容を調査し、軽減の決定通知や認定証を発行する業務 249,000 高い 判断できない できない 現状維持",
+    "matches": [
+      {
+        "name": "利用者負担軽減・低所得者負担軽減事業",
+        "status": "supported",
+        "start": 19488
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 583,
+    "raw": "介護保険施設等へ補助金を支出する業務 0 高い 判断できない できない 現状維持",
+    "matches": [
+      {
+        "name": "介護保険施設等整備事業",
+        "status": "supported",
+        "start": 19594
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 586,
+    "raw": "介護保険施設等へ補助金を支出する業務 4,027,000 高い 判断できない できない 現状維持",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 19678
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 596,
+    "raw": "災害支援事業 支援を要する人たちが、安全かつ確実に避難できるよう、地域において情報伝達、避難誘 3,025,274 高い 判断できない できない 現状維持",
+    "matches": [
+      {
+        "name": "災害支援事業",
+        "status": "supported",
+        "start": 20011
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 600,
+    "raw": "児童相談事業 児童に関する相談援助業務 7,466,646 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "児童相談事業",
+        "status": "supported",
+        "start": 20148
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 603,
+    "raw": "要保護児童等の早期発見及び適切な保護・支援を行うために協議会を運営する事業 81,028 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "要保護児童対策地域協議会運営事務費",
+        "status": "supported",
+        "start": 20202
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 606,
+    "raw": "助産施設入所措置事業 0 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "助産施設入所措置事業",
+        "status": "supported",
+        "start": 20386
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 609,
+    "raw": "生活上の問題を抱えた母子が施設に入所し、生活の安定・自立を目指す事業 2,277,410 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "母子生活支援施設入所費",
+        "status": "supported",
+        "start": 20438
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 612,
+    "raw": "母子等相談事業 ひとり親家庭の相談や自立のための就業支援等を行う事業 2,904,772 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "母子等相談事業",
+        "status": "supported",
+        "start": 20576
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 615,
+    "raw": "養育支援訪問事業 3,049,996 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "養育支援訪問事業",
+        "status": "supported",
+        "start": 20714
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 618,
+    "raw": "乳幼児保健事業 14,300,263 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "乳幼児保健事業",
+        "status": "supported",
+        "start": 20837
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 621,
+    "raw": "妊婦保健事業 18,106,134 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "妊婦保健事業",
+        "status": "supported",
+        "start": 20977
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 625,
+    "raw": "発達支援連携事業 けた療育訓練を実施するとともに、関係機関連携のもとに、継続性のある支援体制の構築 12,879,974 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "発達支援連携事業",
+        "status": "supported",
+        "start": 21100
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 629,
+    "raw": "教育相談事業 教育相談など、その世帯が抱える課題の解決のために支援を行う事業 14,220,369 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "教育相談事業",
+        "status": "supported",
+        "start": 21219
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 632,
+    "raw": "予防接種事業 106,708,215 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "予防接種事業",
+        "status": "supported",
+        "start": 21295
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 635,
+    "raw": "こどもの貧困対策にかかる状況調査や食材配布等の支援を行う事業 16,760 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "子どもの貧困対策推進事業",
+        "status": "supported",
+        "start": 21429
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 638,
+    "raw": "碓井母子保健施設（旧碓井母子保健センター）の施設維持管理業務 1,683,885 高い 一部できる",
+    "matches": [
+      {
+        "name": "碓井母子保健施設管理費",
+        "status": "supported",
+        "start": 21533
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 641,
+    "raw": "こども政策推進事業 嘉麻市こども計画の策定業務（計画の進捗状況の確認・点検） 4,782,960 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "こども政策推進事業",
+        "status": "supported",
+        "start": 21675
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 644,
+    "raw": "健康課 保健衛生総務費 27,338,871 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "保健衛生総務費",
+        "status": "supported",
+        "start": 21748
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 648,
+    "raw": "健康課 予防接種事業 ナの予防接種を予防接種法及び施行規則に従い定期予防接種として医療機関に委託し 66,799,204 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "予防接種事業",
+        "status": "supported",
+        "start": 21945
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 652,
+    "raw": "健康課 健康増進事業 11,468,565 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "健康増進事業",
+        "status": "supported",
+        "start": 22096
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 655,
+    "raw": "健康課 32,353,996 高い できない",
+    "matches": [
+      {
+        "name": "保健センター管理運営事業",
+        "status": "supported",
+        "start": 22143
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 664,
+    "raw": "健康課 感染症予防支援事業 90,400 高い できない",
+    "matches": [
+      {
+        "name": "感染症予防支援事業",
+        "status": "supported",
+        "start": 22522
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 668,
+    "raw": "健康課 精神保健事業 解決のための相談に対して、保健・医療・福祉の広範な連携により支援しています。また、 784,136 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "精神保健事業",
+        "status": "supported",
+        "start": 22648
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 672,
+    "raw": "健康課 健康診査事業 21,326,976 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "健康診査事業",
+        "status": "supported",
+        "start": 22828
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 675,
+    "raw": "健康課 健康づくり推進事業 4,515,695 高い できない 拡大",
+    "matches": [
+      {
+        "name": "健康づくり推進事業",
+        "status": "supported",
+        "start": 22973
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 678,
+    "raw": "環境課 畜犬等管理事業 飼い犬の登録管理、狂犬病予防注射の実施、適切な飼育に関する啓発活動等 107,328 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "畜犬等管理事業",
+        "status": "supported",
+        "start": 23076
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 681,
+    "raw": "環境課 公衆衛生事業 9,778,628 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "公衆衛生事業",
+        "status": "supported",
+        "start": 23214
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 684,
+    "raw": "環境課 霊園等運営事業 霊園等の申請受付、清掃管理業務 342,644 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "霊園等運営事業",
+        "status": "supported",
+        "start": 23292
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 687,
+    "raw": "環境課 浄化槽整備事業 浄化槽設置整備事業費補助金の交付業務及び啓発業務 31,603,000 高い 一部できる",
+    "matches": [
+      {
+        "name": "浄化槽整備事業",
+        "status": "supported",
+        "start": 23382
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 690,
+    "raw": "環境課 自然環境保全事業 環境審議会の開催、監視員による市内巡回 292,336 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "自然環境保全事業",
+        "status": "supported",
+        "start": 23474
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 693,
+    "raw": "環境課 清掃総務事業 792,917,246 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "清掃総務事業",
+        "status": "supported",
+        "start": 23575
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 696,
+    "raw": "環境課 1,210,772 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "ごみの減量化、リサイクル事業",
+        "status": "supported",
+        "start": 23639
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 699,
+    "raw": "環境課 ごみ収集運搬事業 ごみ収集運搬委託（市内全域）及び指定ごみ袋の製造 328,491,361 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "ごみ収集運搬事業",
+        "status": "supported",
+        "start": 23784
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 702,
+    "raw": "環境課 家庭雑排水処理事業 9,769,992 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "家庭雑排水処理事業",
+        "status": "supported",
+        "start": 23920
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 705,
+    "raw": "環境課 河川等の水質管理事業 専門機関への水質検査委託業務 1,305,780 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "河川等の水質管理事業",
+        "status": "supported",
+        "start": 23993
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 708,
+    "raw": "環境課 新エネルギー事業 地域における再生可能エネルギー利用の促進 948,000 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "新エネルギー事業",
+        "status": "supported",
+        "start": 24079
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 711,
+    "raw": "社会福祉課 シルバー人材センターに運営事業費等補助金を交付する業務 9,436,000 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "高齢者雇用対策促進事業",
+        "status": "supported",
+        "start": 24141
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 714,
+    "raw": "産業振興課 産直施設運営支援事業 道の駅うすいを管理運営する事業 9,992,406 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "産直施設運営支援事業",
+        "status": "supported",
+        "start": 24270
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 717,
+    "raw": "産業振興課 商工業振興費 30,601,928 高い できない 拡大",
+    "matches": [
+      {
+        "name": "商工業振興費",
+        "status": "supported",
+        "start": 24399
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 720,
+    "raw": "産業振興課 企業の新規立地及び増設の促進並びに誘致企業振興会活動を通じた市内企業支援 9,755,657 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "企業誘致促進・支援事業",
+        "status": "supported",
+        "start": 24479
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 729,
+    "raw": "産業振興課 イベント運営・補助事業 市内で開催されるイベントへの補助金の交付等 4,684,559 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "イベント運営・補助事業",
+        "status": "supported",
+        "start": 24794
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 732,
+    "raw": "産業振興課 薬草園と梅林公園の維持管理する事業 17,643,773 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "観光施設整備維持管理事業",
+        "status": "supported",
+        "start": 24858
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 735,
+    "raw": "産業振興課 市営キャンプ場を管理運営する事業 4,529,285 高い 判断できない 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "キャンプ村管理運営事業",
+        "status": "supported",
+        "start": 24954
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 738,
+    "raw": "産業振興課 観光まちづくり事業 17,418,599 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "観光まちづくり事業",
+        "status": "supported",
+        "start": 25108
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 741,
+    "raw": "産業振興課 消費者対策推進事業 2,354,000 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "消費者対策推進事業",
+        "status": "supported",
+        "start": 25222
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 744,
+    "raw": "産業振興課 ＰＲ推進事業 各福岡県人会への旅費や協賛品、イベントPRブースの負担等 1,287,246 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "ＰＲ推進事業",
+        "status": "supported",
+        "start": 25299
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 747,
+    "raw": "産業振興課 54,844,355 高い 一部できる",
+    "matches": [
+      {
+        "name": "プレミアム付商品券発行事業",
+        "status": "supported",
+        "start": 25365
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 750,
+    "raw": "産業振興課 空き家活用セミナー講師謝礼や移住定住支援委託、地域おこし推進業務委託等 23,008,670 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "関係人口創出・拡大事業",
+        "status": "supported",
+        "start": 25496
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 753,
+    "raw": "産業振興課 観光拠点施設管理事業 48,162,909 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "観光拠点施設管理事業",
+        "status": "supported",
+        "start": 25673
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 756,
+    "raw": "産業振興課 事業用地整備事業 市有地等を産業用地として活用するための各種調査 4,540,403 高い 判断できない 一部できる",
+    "matches": [
+      {
+        "name": "事業用地整備事業",
+        "status": "supported",
+        "start": 25761
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 759,
+    "raw": "農林振興課 農業総務費 農事区の運用、農協への支援、農政係の庶務 1,605,808 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "農業総務費",
+        "status": "supported",
+        "start": 25831
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 762,
+    "raw": "農林振興課 農事区活動費 4,693,890 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "農事区活動費",
+        "status": "supported",
+        "start": 25985
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 765,
+    "raw": "農林振興課 産地形成政策費 農産物の生産を支援し、産地形成に向けた政策の展開 47,265,958 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "産地形成政策費",
+        "status": "supported",
+        "start": 26064
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 768,
+    "raw": "農林振興課 担い手育成政策費 担い手の育成及び確保に向けた政策の展開 30,684,000 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "担い手育成政策費",
+        "status": "supported",
+        "start": 26158
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 771,
+    "raw": "農林振興課 有害鳥獣被害対策費 13,815,144 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "有害鳥獣被害対策費",
+        "status": "supported",
+        "start": 26287
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 774,
+    "raw": "農林振興課 中山間地域保全対策費 中山間地域の農地及び農村を保全するための対策 83,175,095 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "中山間地域保全対策費",
+        "status": "supported",
+        "start": 26364
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 777,
+    "raw": "農林振興課 73,200 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "農業振興地域保全対策費",
+        "status": "supported",
+        "start": 26431
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 780,
+    "raw": "農林振興課 農地中間管理促進費 18,645,296 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "農地中間管理促進費",
+        "status": "supported",
+        "start": 26610
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 783,
+    "raw": "農林振興課 多面的機能維持費 62,136,398 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "多面的機能維持費",
+        "status": "supported",
+        "start": 26726
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 786,
+    "raw": "農林振興課 畜産政策費 畜産業の発展に向けた政策の展開 120,000 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "畜産政策費",
+        "status": "supported",
+        "start": 26807
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 789,
+    "raw": "農林振興課 土地改良事業 50,200,180 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "土地改良事業",
+        "status": "supported",
+        "start": 26927
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 798,
+    "raw": "農林振興課 20,796,060 高い できない 拡大",
+    "matches": [
+      {
+        "name": "農業用施設維持管理事業",
+        "status": "supported",
+        "start": 27157
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 801,
+    "raw": "農林振興課 基金管理以外のかんがい施設の維持・修繕等の管理 27,768,431 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "かんがい施設維持管理費（単費）",
+        "status": "supported",
+        "start": 27284
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 804,
+    "raw": "農林振興課 基金管理以外のかんがい施設の維持・修繕等の管理 5,619,900 高い できない 現状維持",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 27388
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 807,
+    "raw": "農林振興課 かんがい施設の維持管理及び操作の委託業務 8,897,158 高い できない 現状維持",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 27497
+      },
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 27497
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 810,
+    "raw": "農林振興課 かんがい施設の維持管理及び操作の委託業務 15,786,045 高い できない 現状維持",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 27600
+      },
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 27600
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 813,
+    "raw": "農林振興課 かんがい施設の維持管理及び操作の委託業務 18,750,384 高い できない 現状維持",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 27704
+      },
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 27704
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 816,
+    "raw": "農林振興課 かんがい施設の維持管理及び操作の委託業務 633,252 高い できない 現状維持",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 27810
+      },
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 27810
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 819,
+    "raw": "農林振興課 林業総務費 各種団体負担金及び積立金 269,641 高い できない 現状維持",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 27911
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 822,
+    "raw": "農林振興課 荒廃森林整備事業 49,062,799 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "荒廃森林整備事業",
+        "status": "supported",
+        "start": 28061
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 825,
+    "raw": "農林振興課 市有林管理事業 市有林の間伐等計画的な整備を行い、巡視等による適切な管理を行う。 13,813,785 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "市有林管理事業",
+        "status": "supported",
+        "start": 28136
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 828,
+    "raw": "農林振興課 森林並びに林業及び林産業の振興に関する事項の調査審議を行う。 74,000 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "森林・林業・林産業振興事業",
+        "status": "supported",
+        "start": 28212
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 831,
+    "raw": "農林振興課 森林経営の効率化と森林の管理の適正化を促進する。 63,166,714 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "森林経営管理制度推進事業",
+        "status": "supported",
+        "start": 28312
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 834,
+    "raw": "農林振興課 放置竹林対策事業 4,000,000 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "放置竹林対策事業",
+        "status": "supported",
+        "start": 28479
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 837,
+    "raw": "農林振興課 303,050 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "木材利用・普及啓発推進事業",
+        "status": "supported",
+        "start": 28530
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 840,
+    "raw": "農林振興課 林道維持補修事業 林道施設の維持修繕や県施工林道開設事業の条件整備 18,479,634 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "林道維持補修事業",
+        "status": "supported",
+        "start": 28681
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 843,
+    "raw": "農林振興課 治山事業費 林地の崩壊を防ぐため治山工事を実施 1,715,340 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "治山事業費",
+        "status": "supported",
+        "start": 28778
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 846,
+    "raw": "農業委員会費 16,648,070 高い 判断できない できない 現状維持",
+    "matches": [
+      {
+        "name": "農業委員会費",
+        "status": "supported",
+        "start": 28836
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 855,
+    "raw": "住宅課 市営住宅管理実施事業 市営住宅の入居申込受付、使用料の決定通知、各種申請受付、苦情対応等 23,167,894 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "市営住宅管理実施事業",
+        "status": "supported",
+        "start": 29151
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 858,
+    "raw": "住宅課 市営住宅改善実施事業 116,074,247 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "市営住宅改善実施事業",
+        "status": "supported",
+        "start": 29296
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 862,
+    "raw": "住宅課 訟の提起、強制執行等の法的措置を行う業務です。また、一括納付が困難な滞納者に対 188,244 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "市営住宅滞納整理実施事業",
+        "status": "supported",
+        "start": 29387
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 866,
+    "raw": "住宅課 207,502 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "若年単身者定住促進実施事業",
+        "status": "supported",
+        "start": 29526
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 869,
+    "raw": "住宅課 市内にある市営住宅の修繕及び整備 123,053,504 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "市営住宅維持・修繕実施事業",
+        "status": "supported",
+        "start": 29662
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 873,
+    "raw": "住宅課 定住促進事業 制度」を実施し、転入者等で市内に住宅を「新築又は購入」した子育て世帯に対し、交付 75,420,000 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "定住促進事業",
+        "status": "supported",
+        "start": 29822
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 877,
+    "raw": "土木課 児童遊園維持管理費 市内63ヶ所の児童遊園において、草刈、剪定、遊具の点検等の維持管理を行う業務 9,448,418 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "児童遊園維持管理費",
+        "status": "supported",
+        "start": 29943
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 880,
+    "raw": "土木課 都市計画総務費 都市計画法に基づく、都市計画に係る申請の受付、案内、調査等を行う業務 4,531,310 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "都市計画総務費",
+        "status": "supported",
+        "start": 30024
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 883,
+    "raw": "土木課 都市公園費 市内7ヶ所の都市公園において、草刈、剪定、清掃、遊具の点検等の維持管理を行う業務 29,471,228 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "都市公園費",
+        "status": "supported",
+        "start": 30151
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 886,
+    "raw": "土木課 公園管理費 市内37ヶ所の市公園において、草刈、剪定、清掃、遊具の点検等の維持管理を行う業務 46,676,674 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "公園管理費",
+        "status": "supported",
+        "start": 30257
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 889,
+    "raw": "土木課 国県道対策費 430,306 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "国県道対策費",
+        "status": "supported",
+        "start": 30337
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 892,
+    "raw": "土木課 土木総務費 34,419,389 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "土木総務費",
+        "status": "supported",
+        "start": 30455
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 895,
+    "raw": "土木課 土木総務費（繰越明許） 44,581,400 高い できない 現状維持",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 30563
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 898,
+    "raw": "土木課 道路橋りょう維持費 215,660,443 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "道路橋りょう維持費",
+        "status": "supported",
+        "start": 30744
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 901,
+    "raw": "土木課 5,431,470 高い できない 現状維持",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 30800
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 904,
+    "raw": "土木課 交通安全施設整備事業 5,930,100 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "交通安全施設整備事業",
+        "status": "supported",
+        "start": 30996
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 907,
+    "raw": "土木課 河川維持費 17,686,350 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "河川維持費",
+        "status": "supported",
+        "start": 31113
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 910,
+    "raw": "土木課 樋門管理費 樋門の操作・点検・整備等を地元の農事区長等に委託し、管理を行う業務 12,684,523 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "樋門管理費",
+        "status": "supported",
+        "start": 31198
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 913,
+    "raw": "土木課 道路橋りょうの長寿命化に取組み、交通の円滑化及び生活環境の向上を図る業務 49,507,093 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "道路橋りょう長寿命化事業",
+        "status": "supported",
+        "start": 31269
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 916,
+    "raw": "土木課 道路改良事業 道路改良等により交通の円滑化及び生活環境の向上を図る業務 87,409,299 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "道路改良事業",
+        "status": "supported",
+        "start": 31405
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 925,
+    "raw": "土木課 道路改良等により交通の円滑化及び生活環境の向上を図る業務 32,546,900 高い できない 現状維持",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 31649
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 928,
+    "raw": "土木課 急傾斜地の崩壊による災害を防止し、市民の生命及び財産の保護・保全を図る業務 45,150,600 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "急傾斜地崩壊防止対策事業",
+        "status": "supported",
+        "start": 31751
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 931,
+    "raw": "防災対策課 建築物耐震化促進事業 0 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "建築物耐震化促進事業",
+        "status": "supported",
+        "start": 31931
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 934,
+    "raw": "防災対策課 空家等対策事業 4,481,725 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "空家等対策事業",
+        "status": "supported",
+        "start": 32057
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 937,
+    "raw": "防災対策課 非常備消防費 84,434,998 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "非常備消防費",
+        "status": "supported",
+        "start": 32184
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 940,
+    "raw": "防災対策課 防災施設管理等事業 市防災行政無線施設、県防災行政情報通信ネットワーク施設等の維持管理を行う事業 8,803,286 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "防災施設管理等事業",
+        "status": "supported",
+        "start": 32260
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 943,
+    "raw": "防災対策課 災害対策事業 14,876,090 高い できない 拡大",
+    "matches": [
+      {
+        "name": "災害対策事業",
+        "status": "supported",
+        "start": 32409
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 946,
+    "raw": "防災対策課 消防施設管理等事業 25,290,972 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "消防施設管理等事業",
+        "status": "supported",
+        "start": 32532
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 949,
+    "raw": "防災対策課 消防団格納庫敷地の整備を行うもの 4,334,000 高い できない 完了",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 32578
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 952,
+    "raw": "防災対策課 消火栓の整備を行うもの 1,501,500 高い できない 完了",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 32670
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 955,
+    "raw": "教育総務課 教育委員会運営事業 教育委員会を管理運営する業務 2,131,600 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "教育委員会運営事業",
+        "status": "supported",
+        "start": 32785
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 958,
+    "raw": "熊ヶ畑小学校管理費 小学校の施設等管理事業費 1,467,199 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "熊ヶ畑小学校管理費",
+        "status": "supported",
+        "start": 32842
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 961,
+    "raw": "上山田小学校管理費 小学校の施設等管理事業費 3,053,269 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "上山田小学校管理費",
+        "status": "supported",
+        "start": 32928
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 964,
+    "raw": "下山田小学校管理費 小学校の施設等管理事業費 1,957,681 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "下山田小学校管理費",
+        "status": "supported",
+        "start": 33014
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 967,
+    "raw": "嘉穂小学校 嘉穂小学校管理費 小学校の施設等管理事業費 3,070,475 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "嘉穂小学校管理費",
+        "status": "supported",
+        "start": 33100
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 970,
+    "raw": "牛隈小学校 牛隈小学校管理費 小学校の施設等管理事業費 1,624,915 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "牛隈小学校管理費",
+        "status": "supported",
+        "start": 33183
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 973,
+    "raw": "山田中学校 山田中学校管理費 中学校の施設等管理事業費 3,111,681 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "山田中学校管理費",
+        "status": "supported",
+        "start": 33266
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 976,
+    "raw": "嘉穂中学校 嘉穂中学校管理費 中学校の施設等管理事業費 3,409,271 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "嘉穂中学校管理費",
+        "status": "supported",
+        "start": 33349
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 979,
+    "raw": "定時制高校管理費 定時制高校の施設等管理事業費 24,763,304 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "定時制高校管理費",
+        "status": "supported",
+        "start": 33432
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 982,
+    "raw": "定時制高校教育振興費 定時制高校の学校運営事業費 1,454,955 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "定時制高校教育振興費",
+        "status": "supported",
+        "start": 33523
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 985,
+    "raw": "教育総務課 奨学金事務費 6,085,116 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "奨学金事務費",
+        "status": "supported",
+        "start": 33658
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 994,
+    "raw": "教育総務課 小学校の情報機器整備費 28,662,996 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "小学校情報機器整備事業",
+        "status": "supported",
+        "start": 33879
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 997,
+    "raw": "教育総務課 中学校の情報機器整備費 16,279,476 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "中学校情報機器整備事業",
+        "status": "supported",
+        "start": 33966
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1000,
+    "raw": "定時制高校の情報機器整備費 5,027,393 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "定時制高校情報機器整備事業",
+        "status": "supported",
+        "start": 34053
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1003,
+    "raw": "教育総務課 事務局総務費 教育総務課庶務費 5,813,133 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "事務局総務費",
+        "status": "supported",
+        "start": 34148
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1006,
+    "raw": "教育総務課 小学校総務管理費 小学校の施設等管理事業費 65,188,870 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "小学校総務管理費",
+        "status": "supported",
+        "start": 34252
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1009,
+    "raw": "教育総務課 中学校総務管理費 中学校の施設等管理事業費 47,710,568 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "中学校総務管理費",
+        "status": "supported",
+        "start": 34336
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1012,
+    "raw": "教育総務課 事務局管理費 学校施設等管理運営事業費 2,135,288 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "事務局管理費",
+        "status": "supported",
+        "start": 34420
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1015,
+    "raw": "教育総務課 事務局企画費 義務教育学校開校に係る業務 2,971,102 高い 期待以上 できない 完了",
+    "matches": [
+      {
+        "name": "事務局企画費",
+        "status": "supported",
+        "start": 34473
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1018,
+    "raw": "教育総務課 義務教育学校の施設等管理事業費 77,822,216 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "義務教育学校総務管理費",
+        "status": "supported",
+        "start": 34548
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1021,
+    "raw": "義務教育学校の施設等管理事業費 6,771,466 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "稲築西義務教育学校管理費",
+        "status": "supported",
+        "start": 34639
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1024,
+    "raw": "義務教育学校の施設等管理事業費 5,217,797 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "稲築東義務教育学校管理費",
+        "status": "supported",
+        "start": 34735
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1027,
+    "raw": "義務教育学校の施設等管理事業費 4,992,387 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "碓井義務教育学校管理費",
+        "status": "supported",
+        "start": 34831
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1030,
+    "raw": "教育総務課 義務教育学校の情報機器整備費 15,987,840 高い 一部できる 現状維持",
+    "matches": [
+      {
+        "name": "義務教育学校情報機器整備事業",
+        "status": "supported",
+        "start": 34925
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1033,
+    "raw": "義務教育学校施設整備を行う業務 684,709,907 高い 一部できる 完了",
+    "matches": [
+      {
+        "name": "義務教育学校施設整備事業",
+        "status": "supported",
+        "start": 35018
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1036,
+    "raw": "教育総務課 義務教育学校施設整備を行う業務 1,087,133,204 高い 一部できる 完了",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 35115
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1039,
+    "raw": "学校教育課 事務局費 英語コミュニケーション能力の育成事業、学校保健事業、就学援助事業 17,019,730 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "事務局費",
+        "status": "supported",
+        "start": 35214
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1042,
+    "raw": "学校教育課 教育研究所事業 32,488,664 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "教育研究所事業",
+        "status": "supported",
+        "start": 35382
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1045,
+    "raw": "学校教育課 小学校管理費 117,630,545 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "小学校管理費",
+        "status": "supported",
+        "start": 35504
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1048,
+    "raw": "学校教育課 小学校教育振興費 通学対策事業、就学援助事業 18,078,895 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "小学校教育振興費",
+        "status": "supported",
+        "start": 35559
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1057,
+    "raw": "学校関係者評価事業、読書活動推進事業、地域教育資源活用事業 2,760,381 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "熊ヶ畑小学校教育振興費",
+        "status": "supported",
+        "start": 35820
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1060,
+    "raw": "学校関係者評価事業、読書活動推進事業、地域教育資源活用事業 4,666,645 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "上山田小学校教育振興費",
+        "status": "supported",
+        "start": 35927
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1063,
+    "raw": "学校関係者評価事業、読書活動推進事業、地域教育資源活用事業 3,326,010 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "下山田小学校教育振興費",
+        "status": "supported",
+        "start": 36034
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1066,
+    "raw": "嘉穂小学校 嘉穂小学校教育振興費 学校関係者評価事業、読書活動推進事業、地域教育資源活用事業 5,519,751 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "嘉穂小学校教育振興費",
+        "status": "supported",
+        "start": 36141
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1069,
+    "raw": "牛隈小学校 牛隈小学校教育振興費 学校関係者評価事業、読書活動推進事業、地域教育資源活用事業 3,862,802 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "牛隈小学校教育振興費",
+        "status": "supported",
+        "start": 36244
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1072,
+    "raw": "学校教育課 中学校管理費 40,000,455 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "中学校管理費",
+        "status": "supported",
+        "start": 36414
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1075,
+    "raw": "学校教育課 中学校教育振興費 通学対策事業、就学援助事業 19,313,903 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "中学校教育振興費",
+        "status": "supported",
+        "start": 36468
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1078,
+    "raw": "山田中学校 山田中学校教育振興費 学校関係者評価事業、読書活動推進事業、地域教育資源活用事業 3,354,881 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "山田中学校教育振興費",
+        "status": "supported",
+        "start": 36554
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1081,
+    "raw": "嘉穂中学校 嘉穂中学校教育振興費 学校関係者評価事業、読書活動推進事業、地域教育資源活用事業 3,461,922 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "嘉穂中学校教育振興費",
+        "status": "supported",
+        "start": 36657
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1084,
+    "raw": "学校教育課 義務教育学校管理費 135,208,702 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "義務教育学校管理費",
+        "status": "supported",
+        "start": 36827
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1087,
+    "raw": "学校教育課 通学対策事業、就学援助事業 54,603,032 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "義務教育学校教育振興費",
+        "status": "supported",
+        "start": 36885
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1090,
+    "raw": "学校関係者評価事業、読書活動推進事業、地域教育資源活用事業 13,099,842 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "稲築西義務教育学校教育振興費",
+        "status": "supported",
+        "start": 36975
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1093,
+    "raw": "学校関係者評価事業、読書活動推進事業、地域教育資源活用事業 10,319,540 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "稲築東義務教育学校教育振興費",
+        "status": "supported",
+        "start": 37089
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1096,
+    "raw": "学校関係者評価事業、読書活動推進事業、地域教育資源活用事業 8,003,814 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "碓井義務教育学校教育振興費",
+        "status": "supported",
+        "start": 37203
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1099,
+    "raw": "学校教育課 学校給食事業 栄養管理、給食費徴収、調理施設維持管理業務 136,802,596 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "学校給食事業",
+        "status": "supported",
+        "start": 37342
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1102,
+    "raw": "学校教育課 学校給食事業（山田） 栄養管理、調理 27,384,106 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "学校給食事業（山田）",
+        "status": "supported",
+        "start": 37433
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1105,
+    "raw": "学校教育課 学校給食事業（稲築） 栄養管理、調理 65,181,590 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "学校給食事業（稲築）",
+        "status": "supported",
+        "start": 37513
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1108,
+    "raw": "学校教育課 学校給食事業（嘉穂） 栄養管理、調理 33,435,543 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "学校給食事業（嘉穂）",
+        "status": "supported",
+        "start": 37593
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1111,
+    "raw": "学校教育課 学校給食事業（碓井） 栄養管理、調理 19,089,686 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "学校給食事業（碓井）",
+        "status": "supported",
+        "start": 37673
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1114,
+    "raw": "学校教育課 嘉麻市学力向上強化プロジェクト事業 28,239,412 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "嘉麻市学力向上強化プロジェクト事業",
+        "status": "supported",
+        "start": 37765
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1123,
+    "raw": "生涯学習課 生涯学習推進事業 市民の生涯学習の推進を図り、生涯学習活動を支援する事業 24,334,424 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "生涯学習推進事業",
+        "status": "supported",
+        "start": 38025
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1126,
+    "raw": "生涯学習課 青少年対策事業 青少年が心豊かに育つために、安心・安全なまちづくりを推進する事業 963,644 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "青少年対策事業",
+        "status": "supported",
+        "start": 38125
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1129,
+    "raw": "生涯学習課 公民館事業 1,550,547 高い 期待以上 できない 現状維持",
+    "matches": [
+      {
+        "name": "公民館事業",
+        "status": "supported",
+        "start": 38258
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1132,
+    "raw": "生涯学習課 地区公民館費（山田） 812,638 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "地区公民館費（山田）",
+        "status": "supported",
+        "start": 38380
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1135,
+    "raw": "生涯学習課 地区公民館費（稲築） 稲築地区公民館施設の維持管理業務 16,353,180 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "地区公民館費（稲築）",
+        "status": "supported",
+        "start": 38454
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1138,
+    "raw": "生涯学習課 稲築地区公民館施設の建替工事に係る設計業務委託 34,531,200 高い できない 現状維持",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 38515
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1141,
+    "raw": "生涯学習課 2,849,757 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "嘉穂地区４分館運営事業",
+        "status": "supported",
+        "start": 38620
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1144,
+    "raw": "生涯学習課 地区公民館費（碓井） 碓井地区公民館施設の維持管理業務 10,047,784 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "地区公民館費（碓井）",
+        "status": "supported",
+        "start": 38764
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1147,
+    "raw": "生涯学習課 6,057,956 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "人権・同和教育推進事業",
+        "status": "supported",
+        "start": 38825
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1150,
+    "raw": "生涯学習課 美術館運営管理事務費 65,256,232 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "美術館運営管理事務費",
+        "status": "supported",
+        "start": 39035
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1153,
+    "raw": "生涯学習課 3,270,132 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "文化ふれあい伝承館運営費",
+        "status": "supported",
+        "start": 39089
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1156,
+    "raw": "生涯学習課 2,479,621 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "郷土館及び平和祈念館運営費",
+        "status": "supported",
+        "start": 39210
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1159,
+    "raw": "生涯学習課 ふるさと交流館運営費 1,208,167 高い 判断できない できない 廃止・休止",
+    "matches": [
+      {
+        "name": "ふるさと交流館運営費",
+        "status": "supported",
+        "start": 39405
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1162,
+    "raw": "生涯学習課 文化財保護審議会費 76,200 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "文化財保護審議会費",
+        "status": "supported",
+        "start": 39528
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1165,
+    "raw": "生涯学習課 文化財調査費 7,143,606 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "文化財調査費",
+        "status": "supported",
+        "start": 39644
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1168,
+    "raw": "生涯学習課 18,251,414 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "指定文化財維持管理事業",
+        "status": "supported",
+        "start": 39693
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1171,
+    "raw": "生涯学習課 歴史民俗教育普及事業 3,232,783 高い 期待以上 できない 現状維持",
+    "matches": [
+      {
+        "name": "歴史民俗教育普及事業",
+        "status": "supported",
+        "start": 39882
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1174,
+    "raw": "生涯学習課 なつき文化ホールの施設維持・管理業務 16,869,678 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "なつき文化ホール運営費",
+        "status": "supported",
+        "start": 39929
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1177,
+    "raw": "生涯学習課 嘉穂生涯学習センター（嘉穂地区公民館）施設の維持管理業務 31,798,270 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "生涯学習センター費（夢サイト）",
+        "status": "supported",
+        "start": 40020
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1180,
+    "raw": "生涯学習課 上山田住民ホールの施設維持・管理業務 15,566,270 高い できない 廃止・休止",
+    "matches": [
+      {
+        "name": "上山田住民ホール運営事業",
+        "status": "supported",
+        "start": 40125
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1183,
+    "raw": "生涯学習課 山田市民センターの施設維持・管理業務 16,054,211 できない 廃止・休止",
+    "matches": [
+      {
+        "name": "市民センター運営事業（山田）",
+        "status": "supported",
+        "start": 40218
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1192,
+    "raw": "生涯学習課 下山田小学校白馬ホールの施設維持・管理業務 10,502,233 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "下山田小学校白馬ホール運営事業",
+        "status": "supported",
+        "start": 40493
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1195,
+    "raw": "生涯学習課 山田生涯学習館（山田地区公民館）施設の維持管理業務 60,539,865 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "生涯学習館運営事業（山田）",
+        "status": "supported",
+        "start": 40591
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1198,
+    "raw": "生涯学習課 図書館運営事業 111,688,552 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "図書館運営事業",
+        "status": "supported",
+        "start": 40758
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1201,
+    "raw": "生涯学習課 家庭教育支援事業 様々な子育てに関する情報やメディア啓発を行い、家庭の教育力の向上を図る事業 93,047 できない 現状維持",
+    "matches": [
+      {
+        "name": "家庭教育支援事業",
+        "status": "supported",
+        "start": 40846
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1204,
+    "raw": "生涯学習課 15,043,450 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "公立公民館・自治公民館連携強化推進事業",
+        "status": "supported",
+        "start": 40919
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1207,
+    "raw": "生涯学習課 碓井住民センター費 碓井住民センター（中央公民館）施設の維持管理業務 4,943,607 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "碓井住民センター費",
+        "status": "supported",
+        "start": 41087
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1210,
+    "raw": "保健体育総務費 スポーツ行政に関わる庶務とスポーツ協会等の運営補助事業 5,106,625 高い 期待以上 できない 現状維持",
+    "matches": [
+      {
+        "name": "保健体育総務費",
+        "status": "supported",
+        "start": 41152
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1213,
+    "raw": "プール管理費 市内のプールを維持管理する業務 114,373,086 高い 期待以上 できない 現状維持",
+    "matches": [
+      {
+        "name": "プール管理費",
+        "status": "supported",
+        "start": 41266
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1216,
+    "raw": "グラウンド管理費 市内の陸上競技場・グラウンドを維持管理する業務 19,198,493 高い 期待以上 できない 現状維持",
+    "matches": [
+      {
+        "name": "グラウンド管理費",
+        "status": "supported",
+        "start": 41352
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1219,
+    "raw": "体育館管理費 市内の体育館・武道館・弓道場を維持管理する業務 157,820,960 高い 期待以上 できない 現状維持",
+    "matches": [
+      {
+        "name": "体育館管理費",
+        "status": "supported",
+        "start": 41447
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1222,
+    "raw": "テニスコート管理費 市内のテニスコートを維持管理する業務 32,567,498 高い 期待以上 できない 現状維持",
+    "matches": [
+      {
+        "name": "テニスコート管理費",
+        "status": "supported",
+        "start": 41541
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1225,
+    "raw": "野球場管理費 市内の野球場を維持管理する業務 7,738,109 高い 期待以上 できない 現状維持",
+    "matches": [
+      {
+        "name": "野球場管理費",
+        "status": "supported",
+        "start": 41632
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1228,
+    "raw": "プロジェクトＫ事業 3,108,339 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "プロジェクトＫ事業",
+        "status": "supported",
+        "start": 41763
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1231,
+    "raw": "嘉穂統合小学校跡地のグラウンド・体育館を維持管理する業務 3,788,221 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "嘉穂地区小学校跡地体育施設管理事業",
+        "status": "supported",
+        "start": 41820
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1234,
+    "raw": "スポーツ活性化事業 6,430,520 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "スポーツ活性化事業",
+        "status": "supported",
+        "start": 42002
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1237,
+    "raw": "農林振興課 450,520,500 高い できない 拡大",
+    "matches": [
+      {
+        "name": "農地農業用施設災害復旧事業",
+        "status": "supported",
+        "start": 42051
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1240,
+    "raw": "農林振興課 37,077,635 高い できない 拡大",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 42185
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1249,
+    "raw": "農林振興課 77,944,743 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "緊急自然災害防止対策事業",
+        "status": "supported",
+        "start": 42499
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1252,
+    "raw": "農林振興課 3,524,400 高い できない 現状維持",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 42646
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1255,
+    "raw": "土木課 89,634,017 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "緊急自然災害防止対策事業",
+        "status": "supported",
+        "start": 42798
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1258,
+    "raw": "土木課 39,082,400 高い できない 現状維持",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 42919
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1261,
+    "raw": "土木課 土木施設災害復旧費 自然災害（台風、豪雨等）により被災した市道や河川等を復旧する業務 36,018,950 高い できない 現状維持",
+    "matches": [
+      {
+        "name": "土木施設災害復旧費",
+        "status": "supported",
+        "start": 43072
+      }
+    ]
+  },
+  {
+    "lineZeroBased": 1264,
+    "raw": "土木課 自然災害（台風、豪雨等）により被災した市道や河川等を復旧する業務 65,309,800 高い できない 現状維持",
+    "matches": [
+      {
+        "name": null,
+        "status": "identity_or_period_hold",
+        "start": 43148
+      }
+    ]
+  }
+]
