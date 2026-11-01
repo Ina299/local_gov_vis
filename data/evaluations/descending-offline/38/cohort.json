@@ -1,0 +1,130 @@
+{
+  "prefecture": "38",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-01T12:57:11.489382+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "38506",
+      "municipalityName": "愛南町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b6a7999bcba6782fcdf5216f05d9f599bffb621230b36e064e2f1329dbf7f86c"
+    },
+    {
+      "municipalityCode": "38488",
+      "municipalityName": "鬼北町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f760078473f872c489823f0c9e0db1b321c08382fb3c825b58d2499258be8c07"
+    },
+    {
+      "municipalityCode": "38484",
+      "municipalityName": "松野町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c1cc93d373a1a785a8052d8f65605030678beb73974a66d31bc99032086858d3"
+    },
+    {
+      "municipalityCode": "38442",
+      "municipalityName": "伊方町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d6688f418ae70b2308b7aa0ae1153a150fa6da04f49cfc11a3615b9983466540"
+    },
+    {
+      "municipalityCode": "38422",
+      "municipalityName": "内子町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "8beeaf92871ce5a07470a6887e6fdd59498e20c376a4fea0b053537618562840"
+    },
+    {
+      "municipalityCode": "38402",
+      "municipalityName": "砥部町",
+      "datasetSha256": "5b509c937608e20dcad81762000d852e15529bac31625d6eca4de7fc43ff9967",
+      "evidenceShardSha256": "3780d16453fd1ed7f17b5bbf59a0cf452e512c4477b7239c472d70207ec57d55"
+    },
+    {
+      "municipalityCode": "38401",
+      "municipalityName": "松前町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "62a6af74c0216196a7bc5c5fc33a65945cff6b8a0773a013645c7b936da28c14"
+    },
+    {
+      "municipalityCode": "38386",
+      "municipalityName": "久万高原町",
+      "datasetSha256": "7d5456e6faaaac94c6322091348c64caaee2cc1cda9bb30e4f7a4775d0cc6b4f",
+      "evidenceShardSha256": "172056a1a8462f980e5da255e6cc9a02d4be7be4eca9f60d23ac703d51389067"
+    },
+    {
+      "municipalityCode": "38356",
+      "municipalityName": "上島町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "0da51240e3e2127df371fe4af2c81a69b8c01a37400f41356bb74edaec3869d4"
+    },
+    {
+      "municipalityCode": "38215",
+      "municipalityName": "東温市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a72fe8571d65dac0e0eeb8d5aef86c8163d584186ab96a2c8e83b752caef4559"
+    },
+    {
+      "municipalityCode": "38214",
+      "municipalityName": "西予市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "97437c6da551109076cff148b14f0c21a1c2c9b331bee2302d18973ab8f9b9a1"
+    },
+    {
+      "municipalityCode": "38213",
+      "municipalityName": "四国中央市",
+      "datasetSha256": "f37d0789ac8baee4593c4be1cec349a80f794f009c1b3e95ee2376a25944f140",
+      "evidenceShardSha256": "5f780a969a27917714155af3a6e1c6c008ebb175d2fd641d95da245dea653aa1"
+    },
+    {
+      "municipalityCode": "38210",
+      "municipalityName": "伊予市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "83671612a13144f5d0b4b1c8dad4b118fde24db4cae5375481f75eeee996b488"
+    },
+    {
+      "municipalityCode": "38207",
+      "municipalityName": "大洲市",
+      "datasetSha256": "9800c2592f305cbb9088e588c710c154849a44442fdbfa6f7c9b3eaeeb2a9c24",
+      "evidenceShardSha256": "f0e642759d2ad49fe675b7f6dce05ff13afe28f6f759126ef67f271eb3edc9c4"
+    },
+    {
+      "municipalityCode": "38206",
+      "municipalityName": "西条市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d9f42dcb1996d552ff0c40458f76b67dabc7130311b593c27f58c7e9aa16e8f9"
+    },
+    {
+      "municipalityCode": "38204",
+      "municipalityName": "八幡浜市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3c18529eff3249d10c22bbd9fe0934703ba29cd176ed715c159937b033425c4b"
+    },
+    {
+      "municipalityCode": "38203",
+      "municipalityName": "宇和島市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e78c67e56330a2f15b2d909720ff7ffe5837311acf23dfe6f3eb246bee820248"
+    },
+    {
+      "municipalityCode": "38202",
+      "municipalityName": "今治市",
+      "datasetSha256": "7f5abaf943988a55048fd8b6396ac2ed15ec8de0986099ff38f2dd1fc5850271",
+      "evidenceShardSha256": "6084eff35dc6555d885e22af8cbe62b6a5d7e860ad330146bdccce37f3414e3f"
+    },
+    {
+      "municipalityCode": "38201",
+      "municipalityName": "松山市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "732f90ff45d579480e5dd56bd9599a1747c93ce1c2ee81980d4ec837f9cc8fcf"
+    }
+  ],
+  "skipped": [
+    {
+      "municipalityCode": "38205",
+      "municipalityName": "新居浜市",
+      "reason": "Recent master dataset differs from common baseline"
+    }
+  ]
+}
