@@ -1,0 +1,184 @@
+{
+  "prefecture": "24",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-01T12:57:59.148981+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "24562",
+      "municipalityName": "紀宝町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "231da1cd86250deccdaf902eaf5485dac35702e8a66a1fc50ba6bcfc8b963d72"
+    },
+    {
+      "municipalityCode": "24561",
+      "municipalityName": "御浜町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "30ae13385de34628e523e05cd322d8c3e48af60fa7cfa10e45de380fc19b9752"
+    },
+    {
+      "municipalityCode": "24543",
+      "municipalityName": "紀北町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3a372986e946687d55bcbddc1808e2d3aba844e26f22134b52923bb0a0a2c0f4"
+    },
+    {
+      "municipalityCode": "24472",
+      "municipalityName": "南伊勢町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6401de0abae6b28939201933013044d47941a0cf4dea067c169891307405c5f9"
+    },
+    {
+      "municipalityCode": "24471",
+      "municipalityName": "大紀町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c7c8747fa070d4f4b738158fa2f70ac3171c9603b8f0f86cc1231776c7702769"
+    },
+    {
+      "municipalityCode": "24470",
+      "municipalityName": "度会町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e58038868ff4581bb63214c58beb58ff2fe03ba27ccca1dbb1e5496a8c04f2ae"
+    },
+    {
+      "municipalityCode": "24461",
+      "municipalityName": "玉城町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "0fda464610e60d85bf35a81f6abb50d7d3964371994761698c29e144d1379152"
+    },
+    {
+      "municipalityCode": "24443",
+      "municipalityName": "大台町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "15a6075ae64794ed9fcc2e54d79b660c44b4b7aa5ac67b95f11af64bbde6737c"
+    },
+    {
+      "municipalityCode": "24442",
+      "municipalityName": "明和町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e536540e78fb87c34794396a7a029d6b4d82410759dd550d941fbc3909248f99"
+    },
+    {
+      "municipalityCode": "24441",
+      "municipalityName": "多気町",
+      "datasetSha256": "9dc248b8055138e97f55daa31083754a2c72a83a18f2ca424b23ec8d2637485d",
+      "evidenceShardSha256": "2eda984ba9c8349389d46e4a3d419c7f3efdc6c119c815c6827ed91cc12c7f37"
+    },
+    {
+      "municipalityCode": "24344",
+      "municipalityName": "川越町",
+      "datasetSha256": "c9cec2944306aef0fc6a1d6d35b98b84c7550ec98860f57630141961e34951a8",
+      "evidenceShardSha256": "df8e8a9a17e27fbd970ff3e9748345607b37e11a4dbf59a9164fb67f08409734"
+    },
+    {
+      "municipalityCode": "24343",
+      "municipalityName": "朝日町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6c62f0e51f7cf1a12ab2c8408e15b1c96f767dda97db698e84ecd3ef2ae57913"
+    },
+    {
+      "municipalityCode": "24341",
+      "municipalityName": "菰野町",
+      "datasetSha256": "ce1efb9720c064ad5d9658668068f1e1c61e14c1ab7e36a67cac32a8ed8e778d",
+      "evidenceShardSha256": "b51160cbc6081ed339a5d0096940fd64e1413b8bd0540755aa3d2b1b5d1749f8"
+    },
+    {
+      "municipalityCode": "24324",
+      "municipalityName": "東員町",
+      "datasetSha256": "d4d05be6ce1911058617dbb7c8179d5a2dd0a372e7196d91f6aeb9784daad93b",
+      "evidenceShardSha256": "305cf46f18b3f95b168a7c9803800e3920d547f5adda8fd5197e89d9c69d70ab"
+    },
+    {
+      "municipalityCode": "24303",
+      "municipalityName": "木曽岬町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ed17a8e8c3eb22aeae58cb491dc84ddcd632421cf86ac732abdd7aefa1266046"
+    },
+    {
+      "municipalityCode": "24216",
+      "municipalityName": "伊賀市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6176e76f0a0ca9c29c0956a94680a54072d0f76f7a7f672388cb431f819ba9c3"
+    },
+    {
+      "municipalityCode": "24215",
+      "municipalityName": "志摩市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "26a5fa1773d33f342eb9737afec594f605627709ba2d08a73ad1947fe4996121"
+    },
+    {
+      "municipalityCode": "24214",
+      "municipalityName": "いなべ市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c814f0fc2d0851424fa85b9c42f5a01d3a5775f46483c1b7c65ce01249d83b59"
+    },
+    {
+      "municipalityCode": "24212",
+      "municipalityName": "熊野市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "098287a8b64a59a163f1c44d9ee98753ff0c47ec3e8ddf36352d1a23f39cd35a"
+    },
+    {
+      "municipalityCode": "24211",
+      "municipalityName": "鳥羽市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "1b2752ece69fbb9bc8e2b2da61f1abf2ea5470643014abde002bbb554d8304d5"
+    },
+    {
+      "municipalityCode": "24210",
+      "municipalityName": "亀山市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c7ad4b4a07608cee6d431828ee38efe716f57a4471a7844dc02e56e584338851"
+    },
+    {
+      "municipalityCode": "24209",
+      "municipalityName": "尾鷲市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6a0d38d2649a7b162385d3925b6fbbfdd294f7abb8a00406cea38b65a39ab529"
+    },
+    {
+      "municipalityCode": "24208",
+      "municipalityName": "名張市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "be23a146c96912e2b666acfc302f8166e238f77575f068d64f11a053a8879dc7"
+    },
+    {
+      "municipalityCode": "24207",
+      "municipalityName": "鈴鹿市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "45bf615b00c2031ab7fbb2c441fb370a11abfb8e1aa375a58156e567a46274d8"
+    },
+    {
+      "municipalityCode": "24205",
+      "municipalityName": "桑名市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "662abce6ec8cf6326f5485109fc0af93bef1c24638123eab0855e8e90cfeb997"
+    },
+    {
+      "municipalityCode": "24204",
+      "municipalityName": "松阪市",
+      "datasetSha256": "3b1249b061b188c99867e59414c40ff214403a0f0d36a179d3c93c69427045f7",
+      "evidenceShardSha256": "e29de897e726431d9fff8fb9ad99e983cfb9018ff1643aae1d21f6a3c562325b"
+    },
+    {
+      "municipalityCode": "24203",
+      "municipalityName": "伊勢市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "470f4d58adac99b521bba0cf0c5fbedbdec46757d0bfa2c0a638a0467f9306f4"
+    },
+    {
+      "municipalityCode": "24202",
+      "municipalityName": "四日市市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f37bdee8523ed45f2c87af5623b52ab4ffc9014ffa6acd49ab946d8da98e1d7a"
+    },
+    {
+      "municipalityCode": "24201",
+      "municipalityName": "津市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ee1f86aa9bbc9bd8f93d1dbf19be867a0d2d47fbb927e6d67ba7c4327de593ca"
+    }
+  ],
+  "skipped": []
+}
