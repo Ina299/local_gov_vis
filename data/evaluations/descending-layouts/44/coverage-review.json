@@ -1,0 +1,944 @@
+{
+  "phase": "in_progress",
+  "coverage": "All104 source assets inventoried; not all layouts reviewed. 93 hash-verified bodies,92 complete and1 incomplete;11 missing.",
+  "sources": [
+    {
+      "municipalityCode": "44462",
+      "municipalityName": "玖珠町",
+      "sourceId": "7e97e74554017229a4b80a0a",
+      "url": "https://www.pref.oita.jp/soshiki/16050/tiikisaiseikeikakuzigohyouka.html",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44462",
+      "municipalityName": "玖珠町",
+      "sourceId": "9ac2a2d7048bea17deb07f09",
+      "url": "https://www.pref.oita.jp/uploaded/life/1029288_3743972_misc.pdf",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44461",
+      "municipalityName": "九重町",
+      "sourceId": "81b7ef66017c9793664a12f8",
+      "url": "https://www.town.kokonoe.oita.jp/docs/2022092700024/",
+      "status": "navigation",
+      "reason": "Saved HTML; no supported individual-business output yet",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44461",
+      "municipalityName": "九重町",
+      "sourceId": "470d8bab6f9c499dfeefd122",
+      "url": "https://www.town.kokonoe.oita.jp/docs/2022092700024/file_contents/04_.pdf",
+      "status": "processed",
+      "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
+      "accepted": 82
+    },
+    {
+      "municipalityCode": "44341",
+      "municipalityName": "日出町",
+      "sourceId": "0edd7c1870b4bf8fe7df7e0b",
+      "url": "https://www.town.hiji.lg.jp/gyoseijoho/gyoseihyoka/hyoukakekka/1422.html",
+      "status": "navigation",
+      "reason": "Saved HTML; no supported individual-business output yet",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44322",
+      "municipalityName": "姫島村",
+      "sourceId": "a2691b60b7811797c768ddf1",
+      "url": "https://www.himeshima.jp/kurashi/kyouiku-tenken/",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44322",
+      "municipalityName": "姫島村",
+      "sourceId": "31564eed127d9666250d6163",
+      "url": "https://www.himeshima.jp/wp-content/uploads/2020/09/教育に関する事務の管理及び執行の状況の点検及び評価（令和元年度）.pdf",
+      "status": "processed",
+      "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
+      "accepted": 23
+    },
+    {
+      "municipalityCode": "44214",
+      "municipalityName": "国東市",
+      "sourceId": "182954353a38917a912547ba",
+      "url": "https://www.city.kunisaki.oita.jp/site/kyouikukage/hyouka5.html",
+      "status": "navigation",
+      "reason": "Saved HTML; no supported individual-business output yet",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44214",
+      "municipalityName": "国東市",
+      "sourceId": "6345c171cf1e40e7691b3010",
+      "url": "https://www.city.kunisaki.oita.jp/uploaded/life/49717_183985_misc.pdf",
+      "status": "processed",
+      "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
+      "accepted": 4
+    },
+    {
+      "municipalityCode": "44213",
+      "municipalityName": "由布市",
+      "sourceId": "4b4a506b459e8be8251cd379",
+      "url": "https://www.city.yufu.oita.jp/uploads/files/2026/10/dai4ziyuhusigyouzaiseikaikakusuisinkeikaku-r7.pdf",
+      "status": "duplicate",
+      "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44213",
+      "municipalityName": "由布市",
+      "sourceId": "5a7fb2885a6e29fb775a7761",
+      "url": "https://www.city.yufu.oita.jp/uploads/files/2026/09/r7zimuzigyouhyoukasyo.pdf",
+      "status": "insufficient_evidence",
+      "reason": "Cached body has no complete continuation set; no extraction from incomplete input in this run",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44213",
+      "municipalityName": "由布市",
+      "sourceId": "a6352e336e8909c574304085",
+      "url": "https://www.city.yufu.oita.jp/siseijouhou/gyouzaiseikaikaku",
+      "status": "navigation",
+      "reason": "Saved HTML; no supported individual-business output yet",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44211",
+      "municipalityName": "宇佐市",
+      "sourceId": "b21ab96e8f72b1bb1151d380",
+      "url": "https://www.city.usa.oita.jp/sougo/soshiki/10/sogoseisaku/1/1/sougousennryaku/3383.html",
+      "status": "navigation",
+      "reason": "Saved HTML; no supported individual-business output yet",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44211",
+      "municipalityName": "宇佐市",
+      "sourceId": "3b4d3f01c897a10dbd464a56",
+      "url": "https://www.city.usa.oita.jp/material/files/group/13/R1senryaku.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44211",
+      "municipalityName": "宇佐市",
+      "sourceId": "8bdd2178b1a72d223861ef21",
+      "url": "https://www.city.usa.oita.jp/material/files/group/13/R2senryaku.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44211",
+      "municipalityName": "宇佐市",
+      "sourceId": "d441078fdf491a6209e626e5",
+      "url": "https://www.city.usa.oita.jp/material/files/group/13/R3senryaku.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44211",
+      "municipalityName": "宇佐市",
+      "sourceId": "7e49d2b6a1d0ee3924ff9deb",
+      "url": "https://www.city.usa.oita.jp/material/files/group/13/R4senryaku.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44211",
+      "municipalityName": "宇佐市",
+      "sourceId": "cc979af6f0ef71352a86cabb",
+      "url": "https://www.city.usa.oita.jp/material/files/group/13/R5senryaku.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44211",
+      "municipalityName": "宇佐市",
+      "sourceId": "d3b27a6c6ec48d22ca45aba8",
+      "url": "https://www.city.usa.oita.jp/material/files/group/13/R6senryaku0.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44211",
+      "municipalityName": "宇佐市",
+      "sourceId": "1c601becae96cd3e81502e90",
+      "url": "https://www.city.usa.oita.jp/material/files/group/13/kenshou006.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44210",
+      "municipalityName": "杵築市",
+      "sourceId": "1b1f5b69770b350f145d0a09",
+      "url": "https://www.city.kitsuki.lg.jp/soshiki/1/zaisei/gyousei_kaikaku/1729.html",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44210",
+      "municipalityName": "杵築市",
+      "sourceId": "bf5efbef612269c6c513ab47",
+      "url": "https://www.city.kitsuki.lg.jp/material/files/group/38/gyouseihyouka5.pdf",
+      "status": "duplicate",
+      "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "6cc80f44c4fd30315a7c5812",
+      "url": "https://www.city.bungotakada.oita.jp/soshiki/4/2189.html",
+      "status": "navigation",
+      "reason": "Saved HTML; no supported individual-business output yet",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "36de4cf7cf3c09d283df4bc7",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/4543.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "4d92365077e184137cb1f126",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/4545.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "46bca210d26be950bb2000e8",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/4546.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "7f2fc331c5a9985090f1d1f8",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/4547.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "e174140ebf11b286e37730dd",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/4548.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "70011a1151a764e77837ab3e",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/4549.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "1897aa6136b7714d1152ff7f",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/4550.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "e8d7fba01f1fbe5447fc6ce3",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/4551.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "bbbcb82b3cea1537fafd7d68",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/4552.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "f8203bdab2f3a4488f62ffc8",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/6903.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "59c66c4a6ce803ad33e4ca7f",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/6904.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "c0b4556d851cb7b2b5b2df9e",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/6905.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "4c2fbc7bfd707ec549fb638a",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/8079.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "1954fd2f3956a0d25104ade4",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/6906.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "f5bc6e0603974ad40b6fd5ce",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/8382.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "7edbb633c7a48f1b5b362e36",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/8383.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "df9d554cefdfff4e81104244",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/8384.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "4a42142cfbb95fbe8df50c60",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/8385.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "ae7e9d05cd09ccaba99a6dd5",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/8726.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "0137b2aa2c7d024f32757bfa",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/8387.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "5cee09b131a198f2a136cef9",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/10295.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "b92805560215e0c9ea88e62b",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/10290.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "ba2781c9affe4d62e805ff88",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/10291.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "c8ffca647af7c7b0ca538cc2",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/10292.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "82783be3e9f3a754aae41530",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/10293.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "2de21b4188e88a177e2f8a07",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/10294.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "8d313ff15686cae2728e1b99",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/12906.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "1d19f3552bbdbd74dfbef959",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/12908.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "6d65f6bd72367705c6cfafff",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/12909.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "2f3685ea59a0a50f060f7f1f",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/12910.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44209",
+      "municipalityName": "豊後高田市",
+      "sourceId": "fd5c1cde2c0894e2d9fb8cf5",
+      "url": "https://www.city.bungotakada.oita.jp/uploaded/attachment/12911.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44208",
+      "municipalityName": "竹田市",
+      "sourceId": "415d3843dcbfc940f43db571",
+      "url": "https://www.city.taketa.oita.jp/material/files/group/20/r7-tenkenhyouka.pdf",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44208",
+      "municipalityName": "竹田市",
+      "sourceId": "513689ef3705b734a6399b13",
+      "url": "https://www.city.taketa.oita.jp/material/files/group/20/r6-tenkenhyouka.pdf",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44208",
+      "municipalityName": "竹田市",
+      "sourceId": "c8a66ef6800322e31b175d30",
+      "url": "https://www.city.taketa.oita.jp/material/files/group/20/r5-tenkenhyouka.pdf",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44208",
+      "municipalityName": "竹田市",
+      "sourceId": "74ade225e0b64c17a03a23e5",
+      "url": "https://www.city.taketa.oita.jp/kosodate_kyoiku/kyoikuosirase/4551.html",
+      "status": "navigation",
+      "reason": "Saved HTML; no supported individual-business output yet",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44208",
+      "municipalityName": "竹田市",
+      "sourceId": "e9c37ebb6e49f39f69d90fe2",
+      "url": "https://www.city.taketa.oita.jp/material/files/group/3/r7kouka.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44208",
+      "municipalityName": "竹田市",
+      "sourceId": "f52f36a7b89f74bb4b36c809",
+      "url": "https://www.city.taketa.oita.jp/material/files/group/20/r3-tennkennhyoukahoukokusyo.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44208",
+      "municipalityName": "竹田市",
+      "sourceId": "bacbcb79d5dc5973075dd25d",
+      "url": "https://www.city.taketa.oita.jp/material/files/group/20/R4-tenkenhyouka.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44208",
+      "municipalityName": "竹田市",
+      "sourceId": "1606322c525a744832c7ca00",
+      "url": "https://www.city.taketa.oita.jp/material/files/group/20/r8-tenkenhyouka.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44207",
+      "municipalityName": "津久見市",
+      "sourceId": "52d2bbd08d840f12d642a03e",
+      "url": "https://www.city.tsukumi.oita.jp/soshiki/12/15612.html",
+      "status": "navigation",
+      "reason": "Saved HTML; no supported individual-business output yet",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44206",
+      "municipalityName": "臼杵市",
+      "sourceId": "3766f26c7d56bedbac6787f7",
+      "url": "https://www.city.usuki.oita.jp/docs/2022070600018/",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44206",
+      "municipalityName": "臼杵市",
+      "sourceId": "778b2e1b4431f9a8ec7062ab",
+      "url": "https://www.city.usuki.oita.jp/docs/2022070600049/file_contents/01_R.pdf",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44206",
+      "municipalityName": "臼杵市",
+      "sourceId": "7c0467549d7c2efac3b5f93e",
+      "url": "https://www.city.usuki.oita.jp/docs/2022070600049/",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44206",
+      "municipalityName": "臼杵市",
+      "sourceId": "0530e3d5ce232d879fd6d002",
+      "url": "https://www.city.usuki.oita.jp/docs/2025122300096/",
+      "status": "navigation",
+      "reason": "Saved HTML; no supported individual-business output yet",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44206",
+      "municipalityName": "臼杵市",
+      "sourceId": "e363eceac5d94407bd4525e7",
+      "url": "https://www.city.usuki.oita.jp/docs/2025122300072/",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44206",
+      "municipalityName": "臼杵市",
+      "sourceId": "a2af7df8deeea7e0451446ef",
+      "url": "https://www.city.usuki.oita.jp/docs/2022070600049/file_contents/230406-1.pdf",
+      "status": "duplicate",
+      "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44205",
+      "municipalityName": "佐伯市",
+      "sourceId": "30ce39655896f274adaf2cfc",
+      "url": "https://www.city.saiki.oita.jp/kiji0033847/index.html",
+      "status": "navigation",
+      "reason": "Saved HTML; no supported individual-business output yet",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44205",
+      "municipalityName": "佐伯市",
+      "sourceId": "3bae0e4e11976342bc149892",
+      "url": "https://www.city.saiki.oita.jp/kiji0033847/3_3847_up_n2nu77jm.pdf",
+      "status": "duplicate",
+      "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44205",
+      "municipalityName": "佐伯市",
+      "sourceId": "ae3501fef03e9d38ae395c85",
+      "url": "https://www.city.saiki.oita.jp/kiji0033847/3_3847_up_45ji28gh.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44203",
+      "municipalityName": "中津市",
+      "sourceId": "b60cfbf79fae51bdf752f97a",
+      "url": "https://www.city-nakatsu.jp/doc/2017020800082/",
+      "status": "navigation",
+      "reason": "Saved HTML; no supported individual-business output yet",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44202",
+      "municipalityName": "別府市",
+      "sourceId": "11e89eb9e5bc1709976cde65",
+      "url": "https://www.city.beppu.oita.jp/doc/sisei/gyouseikaikaku/gaibu_hyouka/kekka_r01.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44202",
+      "municipalityName": "別府市",
+      "sourceId": "310fb668e1c69977057e4486",
+      "url": "https://www.city.beppu.oita.jp/doc/sisei/gyouseikaikaku/gaibu_hyouka/r05_nai1.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44202",
+      "municipalityName": "別府市",
+      "sourceId": "32cf983d2b800e930b129014",
+      "url": "https://www.city.beppu.oita.jp/doc/sisei/gyouseikaikaku/gaibu_hyouka/r02_2.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44202",
+      "municipalityName": "別府市",
+      "sourceId": "3df92a304cdfa86b67f98a0c",
+      "url": "https://www.city.beppu.oita.jp/doc/sisei/gyouseikaikaku/gaibu_hyouka/r04_nai1.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44202",
+      "municipalityName": "別府市",
+      "sourceId": "4cee0c4324613cc000cda9a3",
+      "url": "https://www.city.beppu.oita.jp/doc/sisei/gyouseikaikaku/gaibu_hyouka/r04_1.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44202",
+      "municipalityName": "別府市",
+      "sourceId": "5d3a948a5ca41868e372c13f",
+      "url": "https://www.city.beppu.oita.jp/doc/sisei/gyouseikaikaku/gaibu_hyouka/r06_1.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44202",
+      "municipalityName": "別府市",
+      "sourceId": "5deb4b4ee3248f5814027f04",
+      "url": "https://www.city.beppu.oita.jp/doc/sisei/gyouseikaikaku/gaibu_hyouka/r03_nai1.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44202",
+      "municipalityName": "別府市",
+      "sourceId": "6a1cb26c7e28435a0db3ba84",
+      "url": "https://www.city.beppu.oita.jp/doc/sisei/gyouseikaikaku/gaibu_hyouka/r02_1.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44202",
+      "municipalityName": "別府市",
+      "sourceId": "8706b01dcacdff662825a504",
+      "url": "https://www.city.beppu.oita.jp/sisei/gyouseikaikaku/gaibu_hyouka.html",
+      "status": "navigation",
+      "reason": "Saved HTML; no supported individual-business output yet",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44202",
+      "municipalityName": "別府市",
+      "sourceId": "95432392285e617e4cbb252b",
+      "url": "https://www.city.beppu.oita.jp/doc/sisei/gyouseikaikaku/gaibu_hyouka/r05_1.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44202",
+      "municipalityName": "別府市",
+      "sourceId": "9a3597535e77c69f748df402",
+      "url": "https://www.city.beppu.oita.jp/doc/sisei/gyouseikaikaku/gaibu_hyouka/r04_2.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44202",
+      "municipalityName": "別府市",
+      "sourceId": "a05bad2b02f2020e561ea3bd",
+      "url": "https://www.city.beppu.oita.jp/doc/sisei/gyouseikaikaku/gaibu_hyouka/soukatu_r01.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44202",
+      "municipalityName": "別府市",
+      "sourceId": "acd9b9205a5ee705ea2f4168",
+      "url": "https://www.city.beppu.oita.jp/doc/sisei/gyouseikaikaku/gaibu_hyouka/r03_1.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44202",
+      "municipalityName": "別府市",
+      "sourceId": "bacbf4cd7560ca5870bb92c2",
+      "url": "https://www.city.beppu.oita.jp/doc/sisei/gyouseikaikaku/gaibu_hyouka/r05_2.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44202",
+      "municipalityName": "別府市",
+      "sourceId": "ee8bdc9fa62efe989e4bfcff",
+      "url": "https://www.city.beppu.oita.jp/doc/sisei/gyouseikaikaku/gaibu_hyouka/r03_2.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44202",
+      "municipalityName": "別府市",
+      "sourceId": "eff8555085b9672519acbc81",
+      "url": "https://www.city.beppu.oita.jp/doc/sisei/gyouseikaikaku/gaibu_hyouka/r07_1.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44201",
+      "municipalityName": "大分市",
+      "sourceId": "0c8012a0619496358f25e72d",
+      "url": "https://www.city.oita.oita.jp/o011/shisejoho/kekakuzaise/r6gyokaku.html",
+      "status": "navigation",
+      "reason": "Saved HTML; no supported individual-business output yet",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44201",
+      "municipalityName": "大分市",
+      "sourceId": "1ae13af48a2afd7dd888245b",
+      "url": "https://www.city.oita.oita.jp/o011/shisejoho/kekakuzaise/documents/r8_7_gaiyouban.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44201",
+      "municipalityName": "大分市",
+      "sourceId": "2660dc4a9ed9e310c47614e7",
+      "url": "https://www.city.oita.oita.jp/o011/shisejoho/kekakuzaise/documents/r8_7_koukagaku2.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44201",
+      "municipalityName": "大分市",
+      "sourceId": "3f60367559fbd7e6bdf82ea0",
+      "url": "https://www.city.oita.oita.jp/o011/shisejoho/kekakuzaise/dai2kaigyokaku.html",
+      "status": "navigation",
+      "reason": "Saved HTML; no supported individual-business output yet",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44201",
+      "municipalityName": "大分市",
+      "sourceId": "53ef5c665bdd52db4f52a09b",
+      "url": "https://www.city.oita.oita.jp/o011/shisejoho/kekakuzaise/r7gyoukakukaisaisimasita.html",
+      "status": "navigation",
+      "reason": "Saved HTML; no supported individual-business output yet",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44201",
+      "municipalityName": "大分市",
+      "sourceId": "556500cbc2d8a548fd0a02b6",
+      "url": "https://www.city.oita.oita.jp/o011/shisejoho/kekakuzaise/documents/gidai1_r6_2.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44201",
+      "municipalityName": "大分市",
+      "sourceId": "60b4c1f06cf070ab493d1c1d",
+      "url": "https://www.city.oita.oita.jp/o011/shisejoho/kekakuzaise/documents/r8_7_sankoushiryou.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44201",
+      "municipalityName": "大分市",
+      "sourceId": "6921e4db588cdb76bdc6426b",
+      "url": "https://www.city.oita.oita.jp/o011/shisejoho/kekakuzaise/documents/r6meibo.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44201",
+      "municipalityName": "大分市",
+      "sourceId": "784d487b26571e48b62d3d4d",
+      "url": "https://www.city.oita.oita.jp/o011/shisejoho/kekakuzaise/documents/r8_7_meibo.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44201",
+      "municipalityName": "大分市",
+      "sourceId": "8a19908e9fca7f360ff616b5",
+      "url": "https://www.city.oita.oita.jp/o011/shisejoho/kekakuzaise/documents/gaiyoubann.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44201",
+      "municipalityName": "大分市",
+      "sourceId": "a3fb3cf9f782aef2841646cc",
+      "url": "https://www.city.oita.oita.jp/o011/shisejoho/kekakuzaise/documents/zenntaibann.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44201",
+      "municipalityName": "大分市",
+      "sourceId": "ae2c205070cbf30de45976c6",
+      "url": "https://www.city.oita.oita.jp/o011/shisejoho/kekakuzaise/r80727_gyokaku1.html",
+      "status": "navigation",
+      "reason": "Saved HTML; no supported individual-business output yet",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44201",
+      "municipalityName": "大分市",
+      "sourceId": "b0159c8fedf8b454178b2498",
+      "url": "https://www.city.oita.oita.jp/o011/shisejoho/kekakuzaise/documents/r8_7_27_gijiroku.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44201",
+      "municipalityName": "大分市",
+      "sourceId": "edcd468eb353e8769c2ddfb8",
+      "url": "https://www.city.oita.oita.jp/o011/shisejoho/kekakuzaise/documents/r8_7_sousei.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    },
+    {
+      "municipalityCode": "44201",
+      "municipalityName": "大分市",
+      "sourceId": "f916f4e67c509a1569d85ab6",
+      "url": "https://www.city.oita.oita.jp/o011/shisejoho/kekakuzaise/documents/r8_7_zentaiban.pdf",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
+      "accepted": 0
+    }
+  ],
+  "next": "Continue remaining Kunisaki named implementation rows before Yufu/Usa and lower codes.69 unsupported sources remain actionable, not terminal holds. Existing four duplicate-source labels do not certify full coverage.",
+  "blockers": "No current executor/network test failure. Missing bodies and one incomplete body cannot be refetched under the six-manifest acquisition gate. No claim that layout effort is blocked."
+}

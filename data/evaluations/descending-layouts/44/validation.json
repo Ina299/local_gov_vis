@@ -1,0 +1,23 @@
+{
+  "phase": "in_progress",
+  "candidateRecords": 109,
+  "byMunicipality": {
+    "44461 九重町": 82,
+    "44322 姫島村": 23,
+    "44214 国東市": 4
+  },
+  "focusedTests": {
+    "passed": 3,
+    "failed": 0
+  },
+  "typecheck": "passed",
+  "independentCandidateValidation": {
+    "combinedCandidates": 2193,
+    "exactEvidenceReferences": 5534
+  },
+  "fullSuite": "Not rerun for this unfinished Oita increment; completed Miyazaki baseline has full validation.",
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0,
+  "externalWrites": 0
+}
