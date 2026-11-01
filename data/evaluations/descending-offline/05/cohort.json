@@ -1,0 +1,160 @@
+{
+  "prefecture": "05",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-01T13:01:05.779813+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "05464",
+      "municipalityName": "東成瀬村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d377f5ae2c310c53020a358d121d119c22dae028b20ed46578a349cec0b32584"
+    },
+    {
+      "municipalityCode": "05463",
+      "municipalityName": "羽後町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "17cdd58f4dad6d78ee6508be9be1011775ad4236bbc157c09dbc4eefac541760"
+    },
+    {
+      "municipalityCode": "05434",
+      "municipalityName": "美郷町",
+      "datasetSha256": "98051c8aa7369ccc372978f71a90c0f9baf6c8c846170862b53b8b704a07a3f6",
+      "evidenceShardSha256": "02d1b0caaed57f300c4bdcbcc027cafbc19821abbc142f7a5f69867aa34280bb"
+    },
+    {
+      "municipalityCode": "05368",
+      "municipalityName": "大潟村",
+      "datasetSha256": "d5bfdde5e5eff278333b8ea94dcf387fab970fdb8f7f15017380d6d06c092fd1",
+      "evidenceShardSha256": "61d9fb5a0dd741df2ec4b3212de9181a392847fda94bd2875b7eb0a3c0ada279"
+    },
+    {
+      "municipalityCode": "05366",
+      "municipalityName": "井川町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3814891b78236fe807f240dccf9b61edc8acccc5abcb4e59d64281e8224fba1a"
+    },
+    {
+      "municipalityCode": "05363",
+      "municipalityName": "八郎潟町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "fae92654eac7617847f0c5fed053297e42b28e86ac94e5d3cdf5293d91f770ac"
+    },
+    {
+      "municipalityCode": "05361",
+      "municipalityName": "五城目町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ff39b8fa9bb519626c7bca74068be417219c9e62137d0addb05d03c45a3022d6"
+    },
+    {
+      "municipalityCode": "05349",
+      "municipalityName": "八峰町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d132fab5bf2278c27a45b28dc43b1dccaeba27e1c6209d1ed6a19dfae39aefe3"
+    },
+    {
+      "municipalityCode": "05348",
+      "municipalityName": "三種町",
+      "datasetSha256": "eb031c92fd5a6dd3f1c6d1928c9320552653835b1e38d2477c8a2999a7f37860",
+      "evidenceShardSha256": "cec35c5dd34492fd7fd21fede333293dfe93e8c3c609917abac70c2696bdf7a4"
+    },
+    {
+      "municipalityCode": "05346",
+      "municipalityName": "藤里町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c6101e09af4ba9b1c9c3c405698a2546c38039026ebc83efd950fec2ae142a36"
+    },
+    {
+      "municipalityCode": "05327",
+      "municipalityName": "上小阿仁村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "bcba857889bd7a5ce07d38985597e420e84bff2c61b834b72c4b23e10804aa99"
+    },
+    {
+      "municipalityCode": "05303",
+      "municipalityName": "小坂町",
+      "datasetSha256": "8cef59ba962a635e778ab43da425cefe24279305f5b8ffc6d914cfd84fa265df",
+      "evidenceShardSha256": "b52913d3103dbbb2aeeabcb1e1ddc66786eb488861868dee7acdff787e3aed9c"
+    },
+    {
+      "municipalityCode": "05215",
+      "municipalityName": "仙北市",
+      "datasetSha256": "7507e5f7528e8278ff11ca079b4a1437cae5db2bc068d8c95306d67db2b7fb6e",
+      "evidenceShardSha256": "216379668e6ec8971f8c1eb6720e97be7d1a638e325f73491b3ccf40ea3485b1"
+    },
+    {
+      "municipalityCode": "05214",
+      "municipalityName": "にかほ市",
+      "datasetSha256": "716987f7b66865efe2183bfef6e92a10febd4769637824e05b38fe003a7f6fc4",
+      "evidenceShardSha256": "c7c4e469e69081a23a3a0a111184364d6b15175cd54d744ce938a9e9a403dc5c"
+    },
+    {
+      "municipalityCode": "05213",
+      "municipalityName": "北秋田市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "66f70f7f46640e04140c7da5e1436f98c9528cc53dbff5f3f720a0b0218fe6f2"
+    },
+    {
+      "municipalityCode": "05212",
+      "municipalityName": "大仙市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6c5c7f1fbaccb8165183c2818b155752517186781a34260f6b7123c193faefaa"
+    },
+    {
+      "municipalityCode": "05211",
+      "municipalityName": "潟上市",
+      "datasetSha256": "d9b87bbc93a916070ed7ddf504e050353a214746996d9b40b7efab9912499c75",
+      "evidenceShardSha256": "1d05732e9413170f289ca63b2101dade125c64d58d6dbb07806126eb3099a38e"
+    },
+    {
+      "municipalityCode": "05210",
+      "municipalityName": "由利本荘市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "28db6639a11158e4a3d306a844de37fa10245198d0f3faa5d7ce9bb4c56b0832"
+    },
+    {
+      "municipalityCode": "05209",
+      "municipalityName": "鹿角市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d79bca71386ffee21007629decc1ef1324e9e42837233c79fe9b31af684b6d65"
+    },
+    {
+      "municipalityCode": "05207",
+      "municipalityName": "湯沢市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "86c0874132ace6ed5b420e6a0108eb0db8e450b7c7a7f16baf630e9d126158ce"
+    },
+    {
+      "municipalityCode": "05206",
+      "municipalityName": "男鹿市",
+      "datasetSha256": "beec6bb73398bccf1eb44a133785b5fbaa6aec9bb3ef1bab63d2f68696d53a01",
+      "evidenceShardSha256": "1273452b4044e80074e9a40fe248cead6f6612416b18028464dca070bf1945df"
+    },
+    {
+      "municipalityCode": "05204",
+      "municipalityName": "大館市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "aa0fb90cfe155914e4d4f97e4fabcdaddd529cd2d67c382d087330f1c243db89"
+    },
+    {
+      "municipalityCode": "05203",
+      "municipalityName": "横手市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a37c18a9d1fc58dd06d4213f9946766dadc0b8671946df29f3a5c8185567f401"
+    },
+    {
+      "municipalityCode": "05202",
+      "municipalityName": "能代市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b0f5273ba04f641e7084811e84ec72f58f22cbc4806fdf05e578f6712fa279b4"
+    },
+    {
+      "municipalityCode": "05201",
+      "municipalityName": "秋田市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "37094a32d1f0f6d0fcd6b8fe2c9eb6460f9c664bfeb8843397e5ae6ffbb0c84d"
+    }
+  ],
+  "skipped": []
+}
