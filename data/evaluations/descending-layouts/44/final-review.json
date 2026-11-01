@@ -1,0 +1,28 @@
+{
+  "phase": "cached_scope_reviewed_with_evidence_holds",
+  "previousCandidateRecords": 741,
+  "candidateRecords": 751,
+  "newCandidateRecords": 10,
+  "previousCandidateObjectsUnchanged": 741,
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "kpiRowsReviewed": 598,
+  "kpiProjectsAdded": 0,
+  "kpiFieldsAdded": 0,
+  "preparedReformRowsReviewed": 36,
+  "preparedRowsAcceptedAsProjects": 0,
+  "grantProjectsScreenedAsDuplicates": 3,
+  "duplicateFieldAlternativesNotApplied": {
+    "budgets": 6,
+    "indicators": 5
+  },
+  "missingBodies": 11,
+  "incompleteBodies": 1,
+  "remainingRequirements": [
+    "Recover missing complete cached source bodies without bypassing acquisition gates.",
+    "Explicit project binding and annual row/column evidence for598 KPI fragments/actions.",
+    "Individual business mapping for related policy/reform measures; no chapter-to-project inference.",
+    "Name-column coordinates or separate complete identity evidence for previously recorded title and alias holds."
+  ],
+  "nextCohort": "43 Kumamoto after read-only master reconciliation; no new municipal requests."
+}

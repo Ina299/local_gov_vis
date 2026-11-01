@@ -1,3 +1,6 @@
+import {reviewOitaRelated} from './descending-oita-related';
+import {reviewOitaNamed} from './descending-oita-named';
+import {reviewOitaGrants} from './descending-oita-grants';
 import {reviewBungoKpi} from './descending-bungotakada-kpi';
 import {reviewTaketaR2} from './descending-taketa-r2';
 import {reviewBungotakada} from './descending-bungotakada';
@@ -33,6 +36,9 @@ const evidenceHolds:Record<string,{code:string;proof:string;reason:string;status
  '0a23c81c6c6ae8a10e4fd6cd':{code:'46492',proof:'２．2020 年度実績（\n「宇宙乃浦」創生・「スペースサイエンスタウン構想」実現プロジェクト）',status:'joint_project_identity_hold',reason:'2020 actual report jointly covers two named projects with shared activities/budget, followed by2021 plans and forecast KPI cells. Individual allocation and boundaries are absent; do not split or assign shared figures.'}
 };
 export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]):LayoutReview|null{
+ const related=reviewOitaRelated(input);if(related)return related;
+ const named=reviewOitaNamed(input);if(named)return named;
+ const grants=reviewOitaGrants(input);if(grants)return grants;
  if(input.municipalityCode==='46392'&&satsumaRows.some(r=>r.sourceId===input.sourceId)&&input.format==='pdf')return reviewSatsuma(input);
  if(input.municipalityCode==='46404'&&input.sourceId==='dd96103fb0b585d0826a5bda'&&input.format==='pdf')return reviewNagashima(input);
  if(input.municipalityCode==='46501'&&input.sourceId==='3c7ba97b8a20f7cbe62c263c'&&input.format==='pdf')return reviewNakatane(input);

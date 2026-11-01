@@ -62,3 +62,29 @@ test('Taketa earlier sheet review accounts for all boundaries and preserves expl
  const r2=reviewTaketaR2(source('f52f36a7b89f74bb4b36c809','44208'))!;assert.ok(r2.projects.some(p=>p.projectName==='「豊後岡藩の光芒」展'));assert.ok(!r2.projects.some(p=>p.projectName.includes('夏休み図書館まつり')));
  const r3=reviewTaketaR2(source('bacbcb79d5dc5973075dd25d','44208'))!,cancelled=r3.projects.find(p=>p.projectName==='家庭教育事業')!;assert.ok(cancelled.warnings.some(w=>w.includes('全て中止')));assert.ok(cancelled.evidence.some(e=>e.rawText==='予定していたが全て中止した。'));assert.deepEqual(cancelled.amounts,[]);
 });
+
+test('Oita grant sheets separate forecast and multiyear totals from six explicit budgets',async()=>{
+ const {reviewOitaGrants}=await import('../src/evaluations/expansion/descending-oita-grants');const i=source('edcd468eb353e8769c2ddfb8','44201'),r=reviewOitaGrants(i)!;
+ assert.equal(r.projects.length,3);assert.deepEqual(r.projects.map(p=>p.amounts.map(a=>a.amountYen)),[[100531000,8708000],[39472000,39158000],[78940000,74169000]]);
+ assert.equal(r.projects.flatMap(p=>p.indicators).length,5);assert.equal(r.projects[2].indicators.length,0);assert.ok(r.projects[2].projectName.endsWith('プロジェクト'));
+ for(const p of r.projects){assert.equal(p.evaluatedFiscalYear,2025);assert.equal(p.evaluationYear,null);assert.ok(p.amounts.every(a=>a.kind==='budget'));assert.equal(p.ratings.length,0);assert.ok(p.warnings.some(w=>w.includes('決算見込')));for(const e of [...p.evidence,...p.amounts.map(a=>a.evidence),...p.indicators.map(a=>a.evidence)]){const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;assert.equal(i.text.slice(+m[1],+m[2]),e.rawText);}}
+ assert.equal(reviewOitaGrants({...i,truncated:true})!.projects.length,0);assert.equal(reviewOitaGrants({...i,text:i.text.replace('決算見込','決算')})!.projects.length,0);
+});
+
+test('Oita actual-year business narratives do not turn policy headings or next-year construction into records',async()=>{
+ const {reviewOitaNamed}=await import('../src/evaluations/expansion/descending-oita-named');
+ for(const [id,count,year]of [['a3fb3cf9f782aef2841646cc',1,2024],['f916f4e67c509a1569d85ab6',3,2025]]as const){const i=source(id,'44201'),r=reviewOitaNamed(i)!;assert.equal(r.projects.length,count);for(const p of r.projects){assert.equal(p.evaluatedFiscalYear,year);assert.equal(p.amounts.length,0);for(const e of p.evidence){const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;assert.equal(i.text.slice(+m[1],+m[2]),e.rawText);}}if(year===2024)assert.ok(r.projects[0].warnings.some(w=>w.includes('翌年度施工')));assert.equal(reviewOitaNamed({...i,text:i.text+'changed'})!.projects.length,0);}
+});
+test('Beppu accepts named actual-year services without inheriting parent reform grades or neighbouring course counts',async()=>{
+ const {reviewOitaNamed}=await import('../src/evaluations/expansion/descending-oita-named');
+ for(const [id,year]of [['a05bad2b02f2020e561ea3bd',2018],['3df92a304cdfa86b67f98a0c',2021],['310fb668e1c69977057e4486',2022]]as const){const i=source(id,'44202'),r=reviewOitaNamed(i)!;assert.equal(r.projects.length,2);for(const p of r.projects){assert.equal(p.evaluatedFiscalYear,year);assert.equal(p.ratings.length,0);assert.equal(p.indicators.length,0);for(const e of p.evidence){const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;assert.equal(i.text.slice(+m[1],+m[2]),e.rawText);}}assert.equal(reviewOitaNamed({...i,text:i.text+'changed'})!.projects.length,0);}
+});
+test('Oita related documents preserve exact-source dispositions and do not generate policy, facility or reform-chapter businesses',async()=>{
+ const {reviewOitaRelated}=await import('../src/evaluations/expansion/descending-oita-related');const {oitaRelatedSources}=await import('../src/evaluations/expansion/descending-oita-related-map');assert.equal(oitaRelatedSources.length,25);
+ for(const c of oitaRelatedSources){const i=source(c.sourceId,c.municipalityCode),r=reviewOitaRelated(i)!;assert.equal(r.projects.length,0);assert.equal(r.status,'reviewed_related_or_identity_hold');assert.ok(i.text.includes(r.proofs[0]));assert.equal(reviewOitaRelated({...i,text:i.text+'changed'})!.status,'source_integrity_hold');}
+});
+test('Remaining KPI rows are field attribution holds, not new projects or inferred numerical fields',async()=>{
+ const {reviewBungoKpi}=await import('../src/evaluations/expansion/descending-bungotakada-kpi');let held=0,projects=0;
+ for(const id of ['1954fd2f3956a0d25104ade4','0137b2aa2c7d024f32757bfa','2de21b4188e88a177e2f8a07','fd5c1cde2c0894e2d9fb8cf5']){const r=reviewBungoKpi(source(id,'44209'))!;held+=r.units.filter(u=>u.status==='field_attribution_hold').length;projects+=r.projects.length;assert.ok(r.projects.every(p=>p.indicators.length===0&&p.amounts.length===0));assert.equal(r.units.filter(u=>u.status==='layout_review').length,0);}
+ assert.equal(held,598);assert.equal(projects,250);
+});

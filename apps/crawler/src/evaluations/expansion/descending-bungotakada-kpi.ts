@@ -15,6 +15,6 @@ export function reviewBungoKpi(i:CachedInput):LayoutReview|null{
   r.units.push({start:row.start,name:row.name,status:'supported',reason:row.repeatCount>1?'Repeated identical activity in policy contexts emitted once per explicit annual column.':'Exact named activity, no policy heading or invented financial association.'});
  }
  const selected=new Set(c.rows.map(x=>x.name));
- for(const m of i.text.matchAll(/^[①-⑳][^\n]+/gm))if(!selected.has(m[0].slice(1)))r.units.push({start:m.index!,name:m[0],status:'layout_review',reason:'Unmapped policy/action or indicator row; distinguish individual operational identity from a policy or shared outcome before extracting. Not missing input or an access hold.'});
+ for(const m of i.text.matchAll(/^[①-⑳][^\n]+/gm))if(!selected.has(m[0].slice(1)))r.units.push({start:m.index!,name:m[0],status:'field_attribution_hold',reason:'Reviewed for existing-project enrichment only: indicator or policy/action row lacks a proved individual-project and annual target/actual-column binding. Exact row, candidate matching and required evidence are recorded in kpi-field-review.json; no new project or inferred number.'});
  return r;
 }
