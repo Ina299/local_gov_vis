@@ -7,6 +7,8 @@
  *     会計年度はこの表の見出し「R◯年度予算額」による（事業整理票自体には年度が印字されない）。
  * 「決算（見込）額」は決算額か見込額かが欄名で区別されないが、決算額として収録する（利用者の判断。2026-11。RECORD_KESSAN_MIKOMI）。
  * 「再掲」行は他の施策の本籍行の再掲なので事業として収録しない。担当課は事業ごとに印字されないため未収録。
+ * 事業内容（activities）は、同じ施策評価シートの「取組実績」欄に「・{予算事業名}では、」で始まる段落がちょうど1つある場合だけ収録する
+ * （取組実績・行政活動目標は取組単位の記述で、予算事業名を冒頭に掲げない段落は事業との対応が確定しないため対象外）。
  */
 import type { ProjectEvaluation } from '../../../../web/src/types/evaluation';
 import { type CachedInput, evidence, project } from '../../evaluations/expansion/shared';
@@ -26,7 +28,7 @@ const KAIKEI_RUN = new RegExp(String.raw`(?<=\n)((?:(?:一般|特別|企業)\n)+
 const NOT_NAME = /^(?:施策|取組|番号|主な取組名|計画事業名|予算事業名|会計|再掲|合|計|純計|一般|特別|企業)$|当初予算額|決算（見込）額|単位：千円|^\d{1,3}(?:,\d{3})*$/;
 
 type Section = { code: string; start: number; text: string };
-type Table = { input: CachedInput; fy: number; label: string; labelStart: number; values: { raw: string; start: number }[] };
+type Table = { input: CachedInput; fy: number; label: string; labelStart: number; values: { raw: string; start: number }[]; record: { from: number; text: string } };
 
 function sections(t: string): Section[] {
   const heads = [...t.matchAll(CODE)];
@@ -59,7 +61,10 @@ function evaluationTables(inputs: CachedInput[], code: string): Table[] {
       const block = stop < 0 ? after.slice(0, 600) : after.slice(0, stop);
       const base = h + lab.index + lab[0].length;
       const values = [...block.matchAll(new RegExp(`(?<=^|\\n)(${N})(?=\\n|$)`, 'g'))].map(m => ({ raw: m[1], start: base + m.index! }));
-      out.push({ input, fy: 2018 + Number(lab[1]), label: lab[0].trim(), labelStart: h + lab.index, values });
+      // 取組実績の欄: 予算額表の後から最初の「行政活動目標」まで
+      const goal = after.indexOf('\n行政活動目標');
+      const record = { from: base, text: goal < 0 ? '' : after.slice(0, goal) };
+      out.push({ input, fy: 2018 + Number(lab[1]), label: lab[0].trim(), labelStart: h + lab.index, values, record });
     });
   }
   return out;
@@ -102,6 +107,17 @@ function one(input: CachedInput, inputs: CachedInput[]): ProjectEvaluation[] {
         if (RECORD_KESSAN_MIKOMI && m[5] && num(m[5]) > 0) p.amounts.push(amount(input, 'actual', tb.fy, m[5], '千円', raw, start));
         if (RECORD_KESSAN_MIKOMI && m[5] && num(budget) > 0 && num(m[5]) > num(budget) * NOTE_ACTUAL_RATIO) p.warnings.push(`決算（見込）額 ${m[5]} は当初予算額 ${budget} の${NOTE_ACTUAL_RATIO}倍を超える（原表の値のまま収録）。`);
         p.warnings.push(`当初予算額は事業整理票の行（予算事業名→会計→当初予算額が連続）から。施策${sec.code}のこの取組の当初予算額の合計（計（Ａ）${hit.raw}千円）が政策評価帳票「${tb.label}」の取組別の値と一致することを確認し、年度もその見出しによる。`);
+        // 取組実績: 同じ施策評価シートの取組実績の欄に「・{予算事業名}では、」で始まる段落がちょうど1つある場合だけ（折り返しの改行を除いて連結）
+        const lead = `\n・${name.trim()}では、`;
+        const at = tb.record.text.indexOf(lead);
+        if (at >= 0 && tb.record.text.indexOf(lead, at + 1) < 0) {
+          const rest = tb.record.text.slice(at + 1);
+          const end = rest.search(/\n(?:・|※|\n|\d+\n)/);
+          const para = end < 0 ? rest : rest.slice(0, end);
+          p.activities = para.slice(1).replace(/\n/g, '');
+          p.evidence.push(evidence(tb.input, para, tb.record.from + at + 1));
+          p.warnings.push(`事業内容・活動は政策評価帳票（施策${sec.code}の施策評価シート）の「取組実績」欄のうち、この予算事業名で始まる段落。`);
+        }
         p.warnings.push(RECORD_KESSAN_MIKOMI ? '決算額は「決算（見込）額」欄の値（決算額と見込額の区別が欄名にないが、決算額として扱った）。担当課は事業ごとに印字されないため未収録。' : '「決算（見込）額」欄は決算額と見込額の区別がないため未収録。担当課は事業ごとに印字されないため未収録。');
         out.push(p);
       }
@@ -112,7 +128,7 @@ function one(input: CachedInput, inputs: CachedInput[]): ProjectEvaluation[] {
 
 export const entries: Record<string, Entry> = {
   '12000': {
-    scope: '総合計画の進行管理「事業整理票」（令和5・6年度分）の予算事業: 予算事業名と当初予算額（取組ごとの合計が政策評価帳票の取組別予算額と一致する取組のみ）。再掲行、決算（見込）額、取組・計画事業の文言が混ざる行、政策評価帳票の施策評価本文は対象外。',
+    scope: '総合計画の進行管理「事業整理票」（令和5・6年度分）の予算事業: 予算事業名と当初予算額（取組ごとの合計が政策評価帳票の取組別予算額と一致する取組のみ）。再掲行、決算（見込）額、取組・計画事業の文言が混ざる行、政策評価帳票の施策評価本文は対象外（取組実績の欄でこの予算事業名で始まる段落だけを事業内容として付与）。',
     extract: (input, inputs) => acrossDocuments(input, inputs, i => one(i, inputs), p => `${nfkc(p.projectName)}|${p.evaluatedFiscalYear}`),
   },
 };

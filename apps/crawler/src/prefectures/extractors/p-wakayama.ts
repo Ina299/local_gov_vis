@@ -10,6 +10,7 @@ import { amount, num, type Entry } from '../../evaluations/expansion/batch9/i1-u
 
 const N = String.raw`\d{1,3}(?:,\d{3})*`;
 const ITEM = new RegExp(String.raw`\n(\d{1,2}|[１-９][０-９]?)\n\n([^\n\d０-９][^\n]{2,38}?(?:事業|経費|費))\n\n(${N})\n\n(${N})\n\n([^\n]+)\n`, 'g');
+const NEXT_ITEM = new RegExp(String.raw`^\n\n(?:\d{1,2}|[１-９][０-９]?)\n\n[^\n\d０-９][^\n]{2,38}?(?:事業|経費|費)\n\n${N}\n\n${N}\n\n`);
 const TITLE = /令 和 (\d|[０-９])年 度 主要 施 策の 成 果/;
 const UNIT = '注）金額の単位：千円';
 
@@ -61,6 +62,21 @@ function extractWakayama(input: CachedInput): ProjectEvaluation[] {
       if (!k.bu && b && b.at < k.at) p.evidence.push(evidence(input, b.name, b.at));
     }
     if (carried) p.warnings.push('「（前年度繰越分）」の見出しの下に掲載された事業（前年度からの繰越予算の執行分）。');
+    // 金額の右の説明文（欄名の印字なし。実施内容と成果を記す）: 金額の直後の段落（空行まで）が「。」で終わる場合だけ。
+    // 折り返し・ページ送りで途中から他事業の列が混ざる段落は「。」で終わらないため読まない。
+    const descAt = m.index! + m[0].length - 1 - m[5].length;
+    const descEnd = t.indexOf('\n\n', descAt);
+    const desc = t.slice(descAt, descEnd < 0 ? t.length : descEnd);
+    // さらに、番号の直前が前の事業の説明文の終わり（「。」）か見出しで、段落の直後が次の事業（番号・事業名・金額2つが揃う）か見出し・ページ番号の場合だけ
+    // （段組みが崩れて前後の事業の説明が同じ段落に入る箇所を除く）。
+    const cleanBefore = /。$/.test(before) || /^[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]$/.test(before) || before === '（前年度繰越分）' || /^- \d+ -$/.test(before) || /費$/.test(before) && /^[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]$/.test(prevLines.at(-2) ?? '');
+    const after = t.slice(descEnd < 0 ? t.length : descEnd);
+    const cleanAfter = descEnd < 0 || NEXT_ITEM.test(after) || /^\n+(?:- \d+ -|[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]|（前年度繰越分）)\n/.test(after);
+    if (cleanBefore && cleanAfter && /。$/.test(desc) && !desc.split('\n').some(l => isNum(l.trim()))) {
+      p.activities = desc.replace(/\n/g, '');
+      p.evidence.push(evidence(input, desc, descAt));
+      p.warnings.push('事業内容は金額の右の説明文（欄名の印字なし。折り返しの改行のみ詰めた）。');
+    }
     p.warnings.push(`金額は（予算額）（決算額）の2列（単位：千円）。表題「令和${fy - 2018}年度主要施策の成果」により決算年度を${fy}年度とした。抽出テキストで番号・1行の事業名・金額2つ・説明文が連続する事業のみ収録し、事業名が折り返された事業や金額の並びが他事業と混在する事業は未収録。`);
     out.push(p);
   }

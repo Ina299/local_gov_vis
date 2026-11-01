@@ -8,6 +8,43 @@ const N = String.raw`\d{1,3}(?:,\d{3})*`;
 const NAME = /(?:^|\n)((?:[^\n]+\n)?[^\n]*（(?:単県|一部国庫|国庫)）(?:\n?【[^】\n]+】)?)(?=\n|$)/g;
 const DEPT = /(?:課|担当|チーム|センター|本部)$/;
 
+/** 成果目標の表: 指標名 → 基準値（年度）→ 目標値（令和７年度）→ 実績値（令和７年度）の欄名 → 値3つが、この順に空行区切りで並ぶもの。 */
+const KPI = /(?<=\n)指\n\n標\n\n名\n\n((?:[^\n]+\n)+?)\n基準値\n（(令和[^）\n]+年度)）\n\n目標値\n（令和７年度）\n\n実績値\n（令和７年度）\n\n([^\n]+)\n\n([^\n]+)\n\n([^\n]+)(?=\n)/g;
+const VALUE = /^(?:[-－―]|[\d０-９,.，．]+ ?[^\s\d]{0,8}|【[^】]+】)$/;
+/** 「○ 実績：」の文章（「実」「績」が離れて出力される場合あり）。空行までの段落が句点で終わるものだけ。 */
+const RESULT = /(?<=\n)○\n\n(?:実\n\n績|実 *績)：([^\n][^]*?)(?=\n\n)/g;
+
+/**
+ * 目的（「目的」欄から「事業説明」まで）、成果目標の表（指標名・目標値・実績値、令和７年度）、成果の文章（「○ 実績：」）を
+ * 同じ事業の頁から収録する。表の値の並びが崩れている箇所・文章が表や箇条に続く箇所は収録しない。
+ */
+function aims(input: CachedInput, p: ProjectEvaluation, block: string, s: number, hEnd: number) {
+  const pStart = hEnd + '\n目的\n'.length, pEnd = block.indexOf('\n\n事業説明\n', pStart);
+  const raw = pEnd > 0 ? block.slice(pStart, pEnd) : '';
+  if (raw && !raw.includes('\n\n') && !/^\d+$/m.test(raw)) {
+    p.purpose = raw.split('\n').map(l => l.trim()).join('');
+    p.evidence.push(evidence(input, raw, s + pStart));
+  }
+  const r0 = block.indexOf('の成果目標と実績\n'), r1 = block.indexOf('の目標と実績の乖離要因・課題', r0);
+  if (r0 < 0) return;
+  const sec = block.slice(r0, r1 > r0 ? r1 : block.length);
+  for (const m of sec.matchAll(KPI)) {
+    const name = m[1].trim().split('\n').map(l => l.trim()).join('');
+    const vals = [m[3], m[4], m[5]].map(v => v.trim());
+    if (/[○〇]|基準値|目標値|実績値/.test(name) || /^[・※]$/m.test(m[1]) || !vals.every(v => VALUE.test(v))) continue;
+    // 値が3つより多く続く表（指標が2行以上で、指標名の行が連続して出力される）は行の対応が確定しないため除く
+    const following = /^\n+([^\n]+)/.exec(sec.slice(m.index! + m[0].length));
+    if (following && VALUE.test(following[1].trim())) continue;
+    p.indicators.push({ name, fiscalYear: 2025, target: vals[1], actual: vals[2], unit: null, evidence: evidence(input, m[0], s + r0 + m.index!) });
+  }
+  const results = [...sec.matchAll(RESULT)];
+  if (results.length === 1 && /。$/.test(results[0][1]) && !/^\d+$/m.test(results[0][1]) && !/^[【＜<]/m.test(results[0][1])) {
+    const m = results[0];
+    p.outcomes = m[1].split('\n').map(l => l.trim()).join('');
+    p.evidence.push(evidence(input, m[1], s + r0 + m.index! + m[0].indexOf(m[1])));
+  }
+}
+
 function extractHiroshima(input: CachedInput): ProjectEvaluation[] {
   if (input.municipalityCode !== '34000' || input.format !== 'pdf') return [];
   const t = input.text;
@@ -41,6 +78,7 @@ function extractHiroshima(input: CachedInput): ProjectEvaluation[] {
       p.department = dept;
       p.evidence.push(evidence(input, dept, s + lines.slice(0, depts[0].i).join('\n').length + (depts[0].i ? 1 : 0)));
     } else p.warnings.push('担当課の欄が抽出テキストで事業名・支出科目と分離できない（または複数行に折り返す）ため担当課は未収録。');
+    aims(input, p, block, s, hEnd);
     // 予算執行額: 「[繰越額]」の括弧行の直前の数値行。最大値（合計）が他の値の和（小計がある場合は和の半分）と一致する場合のみ合計を決算として収録。
     const t0 = block.indexOf('事業内容'), t1 = block.indexOf('の成果目標と実績');
     if (t0 < 0 || t1 < t0) { p.warnings.push('事業内容の表が見つからないため金額は未収録。'); out.push(p); return; }
@@ -65,6 +103,6 @@ export const entries: Record<string, Entry> = {
   '34000': {
     // 「人口減少対策」等の重点施策と「中山間地域」等の分冊で同じ事業が再掲されるため、事業名で統合（値が食い違えば除外）。
     extract: (input, inputs) => acrossDocuments(input, inputs, extractHiroshima, p => nfkc(p.projectName)),
-    scope: '令和7年度 主要施策の成果に関する説明書「主要事業の成果」（分冊 PDF）の事業名・担当課・事業内容の表の合計の予算執行額（内訳の和と一致するもののみ）。当初予算額・最終予算額、成果目標と実績の文章、施策領域別の取組状況（金額なし）、公共事業等の総括ページは対象外。',
+    scope: '令和7年度 主要施策の成果に関する説明書「主要事業の成果」（分冊 PDF）の事業名・担当課・目的・事業内容の表の合計の予算執行額（内訳の和と一致するもののみ）・成果目標の表（指標が1行のもの）・「実績：」の文章（1段落のもの）。当初予算額・最終予算額、事業内容の文章、乖離要因・取組方向、施策領域別の取組状況（金額なし）、公共事業等の総括ページは対象外。',
   },
 };

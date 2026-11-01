@@ -7,7 +7,8 @@
  *  - 合計の直後に「一般財源・決算額・職員数（小数）」が続く、または（R6年度のみ）R5年度の合計の直前に
  *    「一般財源・決算額・職員数」が並ぶ配置のとき、その決算額を採る。決算額≦合計・一般財源≦合計を満たす場合のみ。
  * 収録する金額: 合計（予算現額＝前年度繰越＋当初予算＋補正予算等）を budget、決算額を actual。0 は収録しない。
- * 細事業一覧の決算額、成果指標、政策評価報告書（施策単位）は対象外。
+ * 事業目的・取組実績: 「２ 事業目的」「７ 主な取組実績と成果」の欄の本文（次の欄の見出しまで。折り返しの改行は詰め、箇条書きの行頭で改行を残す）。
+ * 細事業一覧の決算額、成果指標（表の値が欄ごとに入り交じって出力される）、政策評価報告書（施策単位）は対象外。
  */
 import type { EvaluationAmount, ProjectEvaluation } from '../../../../web/src/types/evaluation';
 import { type CachedInput, evidence, project } from '../../evaluations/expansion/shared';
@@ -16,6 +17,21 @@ import { amount, nfkc, type Entry } from '../../evaluations/expansion/batch9/i1-
 const CODE = '20000';
 const SHEET = '事業改善シート（令和６年度実施事業分）';
 const YEARS: Record<string, number> = { R6: 2024, R5: 2023, R4: 2022 };
+
+/** 欄の本文: 見出し行の直後から、空行を挟んだ次の見出し行の直前まで。シートの見出し（ページ送り）を含む場合は null。 */
+function section(input: CachedInput, head: string, next: string): { text: string; raw: string; at: number } | null {
+  const t = input.text;
+  const re = new RegExp(`\n${head}\n([^]*?)\n\n${next}`, 'g');
+  const ms = [...t.matchAll(re)];
+  if (ms.length !== 1) return null;
+  const raw = ms[0][1].trim();
+  if (!raw || /事業番号|事業改善シート|\n部局\n/.test(raw)) return null;
+  const at = ms[0].index! + ms[0][0].indexOf(raw);
+  // 折り返しの改行は詰め、箇条書き・番号の行頭では改行を残す
+  const text = raw.split('\n').map(l => l.trim()).filter(Boolean)
+    .reduce((a, l) => !a ? l : /^(?:[・①-⑳※【○◯●■◆]|\(\d+\)|（\d+）)/.test(l) ? `${a}\n${l}` : a + l, '');
+  return { text, raw, at };
+}
 
 type Tok = { t: 'year' | 'int' | 'dec' | 'label'; raw: string; v: number; at: number };
 
@@ -147,6 +163,15 @@ function extractOne(input: CachedInput): ProjectEvaluation[] {
   p.evidence.push(evidence(input, SHEET, sheetAt));
   p.evaluatedFiscalYear = 2024;
 
+  // 事業目的・取組実績と成果（欄の本文）
+  const purpose = section(input, '２ 事業目的', '３ 事業目的を達成するための取組');
+  if (purpose) { p.purpose = purpose.text; p.evidence.push(evidence(input, purpose.raw, purpose.at)); }
+  const done = section(input, '７ 主な取組実績と成果', '８ 成果指標の達成状況に関する要因分析');
+  if (done) {
+    p.activities = done.text; p.evidence.push(evidence(input, done.raw, done.at));
+    p.warnings.push('取組の内容は「７ 主な取組実績と成果」欄（令和６年度の実績と成果の記述）。');
+  }
+
   // 部局・課
   const depts = new Map<string, { raw: string; at: number }>();
   const bus = new Set<string>();
@@ -202,7 +227,7 @@ function extractOne(input: CachedInput): ProjectEvaluation[] {
 
 export const entries: Record<string, Entry> = {
   [CODE]: {
-    scope: '事業改善シート（令和６年度実施事業分、点検。1事業1PDF）の事業番号・事業名・部局/課と「６ 事業コスト」表のR4〜R6年度の予算現額・決算額（値の並びと検算で行が確定できたもののみ）。細事業一覧・成果指標・政策評価報告書（施策単位）は対象外。',
+    scope: '事業改善シート（令和６年度実施事業分、点検。1事業1PDF）の事業番号・事業名・部局/課・事業目的・主な取組実績と成果と「６ 事業コスト」表のR4〜R6年度の予算現額・決算額（値の並びと検算で行が確定できたもののみ）。細事業一覧・成果指標・政策評価報告書（施策単位）は対象外。',
     extract: (input) => extractOne(input),
   },
 };

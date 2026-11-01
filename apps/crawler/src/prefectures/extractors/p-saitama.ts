@@ -11,6 +11,8 @@
  * 同じ事業の他施策への再掲（「（施策N にも掲載）」）は、事業名（掲載注記を除く）と予算額が一致すれば1件に統合、不一致なら除外。
  * 精度確認（2026-11）: PDF原本の語座標（PyMuPDF）から作った正解表と照合し、統合後の収録 128件（令和7年度版 55件・令和8年度版 73件）の
  * 事業名と予算額がすべて一致（正解表が罫線なしのページで行を取れなかった1件は原本の座標で個別に確認）。
+ * 「事業の概要・実績」（activities）・「事業の自己評価」（outcomes）は narrative() の条件で欄の行が確定したまとまりだけ付与する。
+ * 精度確認（2026-11）: PDF原本の罫線・語座標から作った正解表と照合し、付与した 68件ずつのうち正解表のある 64件がすべて一致（残り4件は原本のページ本文と個別に照合）。
  */
 import type { ProjectEvaluation } from '../../../../web/src/types/evaluation';
 import { type CachedInput, evidence, project } from '../../evaluations/expansion/shared';
@@ -47,6 +49,78 @@ function deptTable(t: string): Map<string, { name: string; raw: string; at: numb
   }
   return map;
 }
+
+/** 概要欄・自己評価欄の境目: これより左で始まる語は概要欄、右は自己評価欄。 */
+const SELF_FROM = 38;
+const BULLET = /^[○〇・※【●◆■□]/;
+
+type Column = { text: string; from: number; to: number };
+
+/**
+ * 1事業のまとまりの「事業の概要・実績」「事業の自己評価」欄。各行から事業名の断片・予算額・担当課の略称を除き、
+ * 2つ以上の空白で区切った語の並びを左（概要）・右（自己評価）に分ける。概要の行と自己評価の行が1つの空白だけで続く行は、
+ * 自己評価欄の左端（まとまり内の最小の開始桁）の手前6桁〜後2桁にある空白がちょうど1つの場合だけ分ける。
+ * 各欄の行の開始桁が欄の左端から大きくずれる行（段組の行の順序が入れ替わった行）や、分け方が決まらない行があるまとまりは付与しない。
+ */
+function narrative(lines: Line[], abbrs: Set<string>): { overview: Column | null; self: Column | null } | null {
+  type Seg = { c: number; s: string; at: number };
+  const rows: { ov: Seg[]; se: Seg[] }[] = [];
+  const all: Seg[][] = lines.map(l => {
+    let c0 = 0;
+    const m = AMOUNT.exec(l.text);
+    if (m && m[0].length <= 21 && m[0].length - m[3].length >= 8 && !/ {3,}/.test(m[1])) c0 = m[0].length;
+    else if (/^\S/.test(l.text)) c0 = l.text.split(/ {3,}/)[0].length;
+    const segs: Seg[] = [];
+    const re = /\S+(?: \S+)*/g;
+    re.lastIndex = c0;
+    for (let x; (x = re.exec(l.text));) segs.push({ c: x.index, s: x[0], at: l.at + x.index });
+    // 予算額が概要の文と1つの空白で続く行（「 0 育課程…」）
+    const head = segs[0] && segs[0].c < 22 ? /^\d{1,3}(?:,\d{3})* /.exec(segs[0].s) : null;
+    if (head) segs[0] = { c: segs[0].c + head[0].length, s: segs[0].s.slice(head[0].length), at: segs[0].at + head[0].length };
+    // 担当課の略称（右端）
+    const last = segs.at(-1);
+    if (last) {
+      const d = / (\S+)$/.exec(last.s);
+      if (abbrs.has(last.s) && last.c > 60) segs.pop();
+      else if (d && abbrs.has(d[1]) && last.c + d.index + 1 > 60) segs[segs.length - 1] = { ...last, s: last.s.slice(0, d.index) };
+    }
+    return segs;
+  });
+  const selfStarts = all.flat().filter(x => x.c >= SELF_FROM).map(x => x.c);
+  if (!selfStarts.length) return null;
+  const smin = Math.min(...selfStarts);
+  for (const segs of all) {
+    const ov: Seg[] = [], se: Seg[] = [];
+    for (const x of segs) {
+      if (x.c >= SELF_FROM) { se.push(x); continue; }
+      if (x.c + x.s.length < smin) { ov.push(x); continue; }
+      const cut: number[] = [];
+      for (let k = 0; k < x.s.length; k++) if (x.s[k] === ' ' && x.c + k + 1 >= smin - 6 && x.c + k + 1 <= smin + 2) cut.push(k);
+      if (cut.length !== 1) return null;
+      ov.push({ c: x.c, s: x.s.slice(0, cut[0]), at: x.at });
+      se.push({ c: x.c + cut[0] + 1, s: x.s.slice(cut[0] + 1), at: x.at + cut[0] + 1 });
+    }
+    if (ov.length > 1 || se.length > 1) return null;
+    // 括弧・記号1字だけの行（「（」が別の行に出る＝行の順序の入れ替わり）
+    if ([...ov, ...se].some(x => x.s.length === 1 && !/[\p{L}\p{N}]/u.test(x.s))) return null;
+    rows.push({ ov, se });
+  }
+  const column = (pick: (r: { ov: Seg[]; se: Seg[] }) => Seg[], width: number): Column | null | false => {
+    const segs = rows.flatMap(pick);
+    if (!segs.length) return null;
+    const left = Math.min(...segs.map(x => x.c));
+    // 2つ以上の空白で始まる行の開始桁が欄の左端から width 桁を超えてずれる行は、行の順序の入れ替わりの可能性があるため付与しない
+    if (segs.some(x => x.c - left > width)) return false;
+    let text = '';
+    segs.forEach((x, i) => { text += (i && (BULLET.test(x.s) || /。$/.test(segs[i - 1].s)) ? '\n' : '') + x.s; });
+    return { text, from: segs[0].at, to: segs.at(-1)!.at + segs.at(-1)!.s.length };
+  };
+  const overview = column(r => r.ov, OV_SHIFT), self = column(r => r.se, SE_SHIFT);
+  if (overview === false || self === false) return null;
+  return { overview, self };
+}
+/** 欄の行の開始桁が欄の左端からずれてよい桁数（字下げ・箇条の続き）。 */
+const OV_SHIFT = 6, SE_SHIFT = 8;
 
 function extractOne(input: CachedInput): ProjectEvaluation[] {
   const t = input.text;
@@ -97,7 +171,7 @@ function extractOne(input: CachedInput): ProjectEvaluation[] {
       });
       const split = names.some((n, i) => i > 0 && n.idx - names[i - 1].idx > 2);
       const salary = g.some(l => { const i = l.text.indexOf('（給与費'); return i >= 0 && i < 25; });
-      return { names, amounts, split, abbr, abbrAt, salary };
+      return { names, amounts, split, abbr, abbrAt, salary, lines: g };
     });
     info.forEach((g, j) => {
       if (!g.names.length || g.split || g.amounts.length !== 1 || !unit) return;
@@ -113,6 +187,19 @@ function extractOne(input: CachedInput): ProjectEvaluation[] {
       p.evidence.push(evidence(input, target[1], targetAt), evidence(input, '（千円）', unit.at + unit.text.indexOf('（千円）')));
       const a = g.amounts[0];
       p.amounts.push(amount(input, 'budget', fy, a.value, '千円', a.value, a.at));
+      // 事業の概要・実績／事業の自己評価: 次のまとまりが事業名・予算額のない文だけ（ページをまたいだ続き）の場合は欄の終わりが確定しないため付与しない
+      const next = info[j + 1];
+      const cont = next && !next.names.length && !next.amounts.length;
+      // 担当課の略称が2つ以上ある（小区分の行が複数ある）まとまりも、欄の文がどの行のものか確定しないため付与しない
+      const nar = cont || g.abbrAt.length > 1 ? null : narrative(g.lines, new Set(depts.keys()));
+      if (nar) {
+        for (const [field, label, v] of [['activities', '事業の概要・実績', nar.overview], ['outcomes', '事業の自己評価', nar.self]] as const) {
+          if (!v) continue;
+          p[field] = v.text;
+          p.evidence.push(evidence(input, input.text.slice(v.from, v.to), v.from));
+          p.warnings.push(`${field === 'activities' ? '事業内容・活動' : '成果'}は「主な事業」表の「${label}」欄（段組保持テキストの欄の行を連結）。`);
+        }
+      }
       if (g.abbr.size === 1) {
         const d = depts.get([...g.abbr][0])!;
         p.department = d.name;
@@ -144,7 +231,7 @@ function extractOne(input: CachedInput): ProjectEvaluation[] {
 
 export const entries: Record<string, Entry> = {
   '11000': {
-    scope: '教育委員会の事務に関する点検評価報告書（令和７年度版・令和８年度版の全体版）の施策ごとの「主な事業」のうち、事業名と予算額（千円）が段組保持テキストの同じ行のまとまりで1対1に対応する事業の予算額と担当課。小区分ごとに複数の予算額がある事業、ページをまたいで事業名と予算額が分かれた事業、目標別の分冊PDF（全体版と同内容で年度の印字がない）、知事部局の施策評価・主な取組実績は対象外。',
+    scope: '教育委員会の事務に関する点検評価報告書（令和７年度版・令和８年度版の全体版）の施策ごとの「主な事業」のうち、事業名と予算額（千円）が段組保持テキストの同じ行のまとまりで1対1に対応する事業の予算額と担当課、欄の行が確定できた事業の「事業の概要・実績」「事業の自己評価」の文。小区分ごとに複数の予算額がある事業、ページをまたいで事業名と予算額が分かれた事業、目標別の分冊PDF（全体版と同内容で年度の印字がない）、知事部局の施策評価・主な取組実績は対象外。',
     extract: (input) => extractOne(input),
   },
 };

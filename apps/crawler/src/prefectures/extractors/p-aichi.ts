@@ -14,6 +14,7 @@
  *    ページはこの照合で1つに絞れた場合のみ採用）。
  * 収録する金額: 予算列の事業費(b)＝budget、決算列の事業費(b)＝actual・人件費(a)＝personnel・計＝fullCost（0 は収録しない）。
  * 管理事業評価結果一覧・当初予算への反映状況（億円単位の一覧）は調書と同じ事業の再掲のため対象外。
+ * 文章欄（事業目的・事業計画の内容・目的の達成に関する評価）は texts() を参照。
  */
 import type { EvaluationAmount, ProjectEvaluation } from '../../../../web/src/types/evaluation';
 import { type CachedInput, evidence, project } from '../../evaluations/expansion/shared';
@@ -164,6 +165,46 @@ function allPages(inputs: CachedInput[]): Page[] {
   return keep;
 }
 
+/** 様式の欄名・経費表の値・電話番号の行（文章欄の範囲に混ざっていれば並びが崩れているとみなす）。 */
+const FORM_LINE = /^[\d,△]+ 千円$|^[\d.]+人|人\)$|事業計画の|内容及び事|業費の内訳|経費のうち|一般財源等|施策名|ダイヤルイン|^区分|従事|^\d{2,4}-\d+-\d+$|指標|手数料\)|^政策名|^所属名|評価責任者|作成責任者|予算額|決算額|根拠法令|事業目的/m;
+/** 欄名どうしの間の空行の直前の行が様式の行（経費表の値・欄名・電話番号）であること。 */
+const FORM_PREV = /(?:千円|人\)|手数料\)|一般財源等|・経費等|^\d{2,4}-\d+-\d+)$/;
+/** 評価区分と原文の説明（管理事業評価調書の見方の【評価区分】）の対応。区分と説明が食い違う値は収録しない。 */
+const GRADE: Record<string, RegExp> = { A: /^目標超過達成/, B: /^目標達成/, C: /^相当程度の?進展(?:あり|有り)/, D: /^進展[がは]大きくない/, E: /^目標に向かっていない/ };
+const SCALE = 'Ａ目標超過達成、Ｂ目標達成、Ｃ相当程度進展あり、Ｄ進展が大きくない、Ｅ目標に向かっていない';
+
+const joinLines = (s: string) => s.split('\n').map((l, i) => (i && /^(?:\d+ |[・○◯■●（(])/.test(l) ? '\n' : '') + l.trim()).join('');
+
+/**
+ * 調書の文章欄: 「事業目的」（欄名の直後の段落が「根拠法令・計画等」の欄名まで続く配置のみ）、
+ * 「事業計画の内容及び事業費の内訳」（その欄名または「指標(指標によっては算式／解説)」の直前の段落で、前の行が経費表の値・欄名の場合のみ）、
+ * 「目的の達成に関する評価」の評価区分（「（判断の理由）」の直前の行。Ａ〜Ｅは説明と一致するもの、または「－：評価なし」）。
+ * 値が欄名より前にまとめて出力される配置のページは欄の対応が確定しないため収録しない。指標表は列が崩れて出力されるため対象外。
+ */
+function texts(r: ProjectEvaluation, p: Page) {
+  const { input, text, start } = p;
+  const pur = /\n事業目的\n\n((?:[^\n]+\n)+)\n根拠法令\n・計画等\n/.exec(text);
+  if (pur && !FORM_LINE.test(pur[1])) {
+    const raw = pur[1].trimEnd();
+    r.purpose = joinLines(raw);
+    r.evidence.push(evidence(input, raw, start + pur.index + pur[0].indexOf(raw)));
+  }
+  const act = /\n\n((?:[^\n]+\n)+)\n事業計画の\n内容及び事\n業費の内訳\n/.exec(text) ?? /\n\n((?:[^\n]+\n)+)指標\(指標によっては算式／解説\)\n/.exec(text);
+  if (act && !FORM_LINE.test(act[1]) && FORM_PREV.test(text.slice(0, act.index).split('\n').pop()!.trim())) {
+    const raw = act[1].trimEnd();
+    r.activities = joinLines(raw);
+    r.evidence.push(evidence(input, raw, start + act.index + 2));
+  }
+  const g = /\n(([A-EＡ-Ｅ])\s*[：:]\s*([^\n]+?)|[－\-―‐]\s*[：:]?\s*評価(?:なし|無し))\n[（(]判断(?:の)?理由[）)]\n/.exec(text);
+  if (g) {
+    const value = g[1].trim(), letter = g[2] ? nfkc(g[2]) : null;
+    if (!letter || GRADE[letter].test(g[3])) {
+      r.ratings.push({ kind: 'self', label: '目的の達成に関する評価', value, scale: p.reiwa === 7 && letter ? SCALE : null, evidence: evidence(input, value, start + g.index + 1) });
+      if (p.reiwa === 7 && letter) r.warnings.push('評価区分の説明は「管理事業評価調書の見方」（令和7年度）の【評価区分】による。');
+    } else r.warnings.push(`目的の達成に関する評価「${value}」は区分と説明が食い違うため未収録。`);
+  }
+}
+
 function record(p: Page): ProjectEvaluation {
   const { input } = p;
   const r = project(input, p.code, p.name, p.year, p.codeRaw.raw, p.codeRaw.start);
@@ -190,12 +231,13 @@ function record(p: Page): ProjectEvaluation {
     r.warnings.push(`金額は「従事人員・経費等」表（千円）。予算額 ${p.reiwa}年度（当初）・${p.reiwa - 1}年度（当初）の事業費(b)を budget、決算額 ${p.reiwa - 1}年度・${p.reiwa - 2}年度の事業費(b)を actual、人件費(a)を personnel、計(a)+(b)+(c)（公債費を含む）を fullCost として収録。0 の値は収録していない。`);
   }
   r.warnings.push(...p.warnings);
+  texts(r, p);
   return r;
 }
 
 export const entries: Record<string, Entry> = {
   [CODE]: {
-    scope: '管理事業評価調書（令和6年度・令和7年度、局別PDF）の事業コード・事業名・所属名と「従事人員・経費等」表（予算額2年度分・決算額2年度分の事業費・人件費・計）。列の対応が検算と一般財源等の大小関係・年度間照合で確定したページのみ金額を収録。評価結果一覧・当初予算反映状況の一覧、指標・評価区分の文章は対象外。',
+    scope: '管理事業評価調書（令和6年度・令和7年度、局別PDF）の事業コード・事業名・所属名と「従事人員・経費等」表（予算額2年度分・決算額2年度分の事業費・人件費・計）。列の対応が検算と一般財源等の大小関係・年度間照合で確定したページのみ金額を収録。事業目的・事業計画の内容及び事業費の内訳・目的の達成に関する評価（Ａ〜Ｅ）は欄の並びが確定するページのみ。評価結果一覧・当初予算反映状況の一覧、指標表（列が崩れて出力される）、判断の理由・課題・今後の方向性の文章は対象外。',
     extract: (input, inputs) => allPages(inputs).filter(p => p.input.sourceId === input.sourceId).map(record),
   },
 };

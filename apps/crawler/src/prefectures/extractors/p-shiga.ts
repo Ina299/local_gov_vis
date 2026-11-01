@@ -57,11 +57,75 @@ function nameBefore(t: string, pos: number): { name: string; code: string | null
   return { name, code, raw: t.slice(start, last.start + last.s.length), start };
 }
 
+/** 折り返しの改行だけを詰める（行幅いっぱいの行の後ろの改行のみ。短い行の後ろの改行＝小見出し・箇条の区切りは残す）。 */
+const joinWrapped = (s: string) => s.split('\n').reduce((acc, l, i, a) => acc + l + (i === a.length - 1 ? '' : l.length >= 40 && !ITEM.test(a[i + 1]) ? '' : '\n'), '');
+/** 小見出し・箇条の書き出し（前の行が行幅いっぱいでも改行を残す） */
+const ITEM = /^(?:[(（][0-9０-９ｱ-ﾝ]+[)）]|[ア-ン](?:～[ア-ン])? |[・①-⑳※＜])/;
+const ACTIVITY_HEAD = /^(?:(?:\(1\)|（1）|１) ?)?事業実績$/gm;
+const OUTCOME_HEAD = /^(?:(?:\(2\)|（2）|２) ?)?施策成果$/gm;
+/** 施策成果の本文の終わり: 「(3) 今後の課題」（「３」だけの行の後に「今後の課題」の形を含む）、指標の表の見出し（「令和N年度（…）の」で折り返す形を含む） */
+const NEXT_HEAD = /^(?:(?:\(3\)|（3）|３) ?今後の課題.*|今後の課題|３|令和[0-9０-９]+年度[（(].*|.*目標とする指標.*|.*の目標値)$/m;
+const IND_HEAD = /^令和[0-9０-９]+年度[（(](\d{4}) ?年度[）)]の目標とする指標(?:[（【][^\n）】]*[）】])?$/gm;
+const VALUE = /^[\d,.]+ ?[^\s\d]{0,6}(?:／年)?$/;
+
+/**
+ * 金額欄の後ろ（次の予算額欄まで）にある「(2) 施策成果」の本文と「目標とする指標」の表。
+ * 事項の中に番号付きの事業が複数あって施策成果・指標が複数ある場合は、どれが事項全体のものか定まらないので読まない。
+ */
+function details(t: string, from: number, to: number) {
+  const seg = t.slice(from, to);
+  const heads = [...seg.matchAll(OUTCOME_HEAD)];
+  if (heads.length !== 1) return null;
+  let outcome: { text: string; raw: string; start: number } | null = null;
+  const bodyStart = from + heads[0].index! + heads[0][0].length + 1;
+  const rest = t.slice(bodyStart, to);
+  const stop = NEXT_HEAD.exec(rest);
+  if (stop) {
+    // 本文が一続きの段落（空行なし）で、ページ送り・段組みの混入がない場合だけ
+    const raw = rest.slice(0, stop.index).replace(/\n+$/, '');
+    if (raw.length >= 10 && !raw.includes('\n\n')) outcome = { text: joinWrapped(raw), raw, start: bodyStart };
+  }
+  // 事業実績: 金額欄の後ろに見出しが1つだけあり、施策成果の見出しまで一続き（空行なし）の場合だけ
+  let activity: { text: string; raw: string; start: number } | null = null;
+  const acts = [...seg.slice(0, heads[0].index!).matchAll(ACTIVITY_HEAD)];
+  if (acts.length === 1) {
+    const start = from + acts[0].index! + acts[0][0].length + 1;
+    const raw = t.slice(start, from + heads[0].index!).replace(/\n(?:２\n)?\n*$/, '');
+    if (raw.length >= 10 && !raw.includes('\n\n')) activity = { text: joinWrapped(raw), raw, start };
+  }
+  let indicator: { name: string; fy: number; actual: string; target: string; targetYear: number; raw: string; start: number } | null = null;
+  const inds = [...seg.matchAll(IND_HEAD)];
+  if (inds.length === 1) {
+    const at = from + inds[0].index!;
+    const lines: { s: string; end: number }[] = [];
+    const re = /[^\n]+/g;
+    re.lastIndex = at + inds[0][0].length;
+    let x: RegExpExecArray | null;
+    while (lines.length < 8 && (x = re.exec(t)) && x.index < to) lines.push({ s: x[0].trim(), end: x.index + x[0].length });
+    const s = lines.map(l => l.s);
+    const yr = /^令([0-9０-９])(?:年度)?$/.exec(s[1] ?? '');
+    // 名前の次に「令X」の欄が1つだけある形（基準年・複数年度の列がある表は読まない）:
+    //   欄名3つの後に値3つ（令X／目標値／達成率 → 実績／目標／達成率）、欄名と値が交互、達成率の欄がなく値2つ（次の行は値でない）
+    const isVal = (v?: string) => !!v && VALUE.test(v);
+    const isActual = (v?: string) => isVal(v) || v === '集計中';
+    const isRate = (v?: string) => !!v && /^(?:[\d.]+ ?％|－)$/.test(v);
+    let vals: [string, string, number] | null = null; // 実績・目標・使った行数
+    if (s[2] === '目標値' && s[3] === '達成率' && isActual(s[4]) && isVal(s[5]) && isRate(s[6])) vals = [s[4], s[5], 7];
+    else if (isActual(s[2]) && s[3] === '目標値' && isVal(s[4]) && s[5] === '達成率' && isRate(s[6])) vals = [s[2], s[4], 7];
+    else if (s[2] === '目標値' && isActual(s[3]) && isVal(s[4]) && s[5] !== undefined && s[5] !== '達成率' && !isVal(s[5])) vals = [s[3], s[4], 5];
+    if (yr && vals && !/^令|^平|目標|実績|^基準/.test(s[0])) {
+      indicator = { name: s[0], fy: 2018 + Number(yr[1].normalize('NFKC')), actual: vals[0], target: vals[1], targetYear: Number(inds[0][1]), raw: t.slice(at, lines[vals[2] - 1].end), start: at };
+    }
+  }
+  return { outcome, activity, indicator };
+}
+
 function extractShiga(input: CachedInput): ProjectEvaluation[] {
   const t = input.text;
   const fy = fiscalYear(t);
   if (!fy) return [];
   const labels = [...t.matchAll(LABEL)].map(m => m.index!);
+  const anyLabel = [...t.matchAll(/予\s*算\s*額/g)].map(m => m.index!);
   const out: ProjectEvaluation[] = [];
   for (const m of t.matchAll(PAIR)) {
     const n = nameBefore(t, m.index!);
@@ -88,6 +152,25 @@ function extractShiga(input: CachedInput): ProjectEvaluation[] {
     } else p.warnings.push(depts.size ? '事項内に複数の担当課の表記があるため担当課は未収録。' : '担当課の表記が確認できないため未収録。');
     p.warnings.push(`金額は「予算額」「決算額」欄（円）。表題「令和${fy.fy - 2018}年度主要施策の成果に関する説明書」により決算年度を${fy.fy}年度とした。予算額は原文の欄名のとおりで、当初・最終の別は原文に記載なし。`);
     if (n.code) p.warnings.push(`事項の中の小事業 (${n.code}) の金額欄。上位の事項名は未収録。`);
+    else {
+      // 小事業の金額欄には施策成果・指標の欄がない（事項全体のものと区別できない）ため、事項の金額欄の場合だけ
+      const d = details(t, m.index! + m[0].length, anyLabel.find(x => x > m.index! + m[0].length) ?? t.length);
+      if (d?.outcome) {
+        p.outcomes = d.outcome.text;
+        p.evidence.push(evidence(input, d.outcome.raw, d.outcome.start));
+        p.warnings.push('成果は「施策成果」欄の本文（行幅いっぱいで折り返した改行のみ詰めた）。');
+      }
+      if (d?.activity) {
+        p.activities = d.activity.text;
+        p.evidence.push(evidence(input, d.activity.raw, d.activity.start));
+        p.warnings.push('事業内容は「事業実績」欄の本文（金額の行を含め原文どおり。行幅いっぱいで折り返した改行のみ詰めた）。');
+      }
+      if (d?.indicator) {
+        const ind = d.indicator;
+        p.indicators.push({ name: ind.name, fiscalYear: ind.fy, target: ind.target, actual: ind.actual, unit: null, evidence: evidence(input, ind.raw, ind.start) });
+        p.warnings.push(`指標は「令和${ind.targetYear - 2018}年度（${ind.targetYear}年度）の目標とする指標」の表。実績は「令${ind.fy - 2018}」欄、目標は「目標値」欄（${ind.targetYear}年度の目標）で、単位は値に含めて原文どおり。`);
+      }
+    }
     if (num(m[2]) > num(m[1])) p.warnings.push('決算額が予算額を上回る（原文どおり）。');
     out.push(p);
   }

@@ -8,6 +8,7 @@
  *    「…費」「…金」「…料」で終わる） → 概要の段落（予算額・丸数字・欄名を含まない） → 「予算額 部局略号」の1行の段落;
  *  - その直後の段落が別の予算額・部局略号だけの段落でない（ページ内の他の行の予算額がずれて後ろにまとめて出力される箇所を除く）;
  *  - 事業名に「（再掲）」「次年度以降対応」などの区分欄の語が混ざる行は対象外。
+ * 概要の段落は事業の内容（activities）として、折り返しの改行を詰めて収録する。
  * 部局は注３）の略号表（知＝知事直轄組織（知事室長）…）で読み替える。同じ事業名・部局が複数の具体方策に同額で再掲される場合は1件に統合し、
  * 金額が異なる場合（事業の一部の計上など）は対応が確定しないため収録しない。
  */
@@ -70,6 +71,7 @@ function extractOne(input: CachedInput): ProjectEvaluation[] {
     const r = project(input, `${name}|${m[2]}|${p.at}`, name, null, nm.s, nm.at);
     r.evidence.push(evidence(input, desc.s, desc.at), evidence(input, FY_HEAD, fyAt), evidence(input, UNIT, unit), evidence(input, dept.raw, dept.at));
     r.department = dept.name;
+    r.activities = desc.s.split('\n').map(l => l.trim()).join('');
     r.amounts.push(amount(input, 'budget', 2020, m[1], '千円', p.s, p.at));
     r.warnings.push('金額は「令和２年度当初予算措置状況」の予算額（単位：千円）＝令和２年度当初予算。決算額の記載はない。部局は注３）の略号表による。'
       + '具体方策の表の事業で、事業名・概要・予算額の段落が抽出テキストで連続する行のみ収録。評価年度は資料に記載がないため未設定（令和元年度実施状況報告書、令和２年10月）。');
@@ -80,7 +82,7 @@ function extractOne(input: CachedInput): ProjectEvaluation[] {
 
 export const entries: Record<string, Entry> = {
   [CODE]: {
-    scope: '令和元(2019)年度「京都府総合計画」実施状況報告書の「令和２年度予算措置状況」の事業名・部局・令和２年度当初予算額（千円）。事業名・概要・予算額の段落が抽出テキストで連続しない行、再掲・一部計上で金額が一致しない事業、令和2年度版以降の報告書（事業別の金額表なし）は対象外。',
+    scope: '令和元(2019)年度「京都府総合計画」実施状況報告書の「令和２年度予算措置状況」の事業名・部局・概要・令和２年度当初予算額（千円）。事業名・概要・予算額の段落が抽出テキストで連続しない行、再掲・一部計上で金額が一致しない事業、令和2年度版以降の報告書（事業別の金額表なし）は対象外。',
     extract: (input) => extractOne(input),
   },
 };

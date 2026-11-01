@@ -1,6 +1,6 @@
 /**
  * 大阪府 主要事業マネジメントシート（平成27年度当初予算要求に添付、1事業1PDF）。
- * 事業名・部局名・担当室課のみ収録。予算額欄（H24〜H27要求）は年度ラベルと値が抽出テキストで入り交じり、どの値がどの年度か確定しないため金額は収録しない。
+ * 事業名・部局名・担当室課と「（事業目標）」欄（目的として収録）。予算額欄（H24〜H27要求）は年度ラベルと値が抽出テキストで入り交じり、どの値がどの年度か確定しないため金額は収録しない。
  * 一覧ページ（HTML）、行政評価制度の説明資料は事業票ではないため対象外。
  */
 import type { ProjectEvaluation } from '../../../../web/src/types/evaluation';
@@ -48,13 +48,21 @@ function extractOne(input: CachedInput): ProjectEvaluation[] {
   if (tanto) p.evidence.push(evidence(input, tantoRaw, tantoOff));
   p.department = [bureau, tanto].filter(Boolean).join(' ') || null;
   if (!tanto) p.warnings.push('担当室課の値が抽出テキストで確認できないため部局名のみ収録。');
+  // 事業目標: 「（事業目標）」の直後から、空行・「（指標）」・「目標・」・「事」（欄名の縦書き）の行の手前まで。
+  // 直後が空行で別の欄名（「-目標に達しなかった場合の改善方策」等）が挟まるシートは対象外。
+  const goal = /(?<=\n)（事業目標）\n((?:(?!（指標）|目標・|事$)[^\n]+\n)+)(?=\n|（指標）\n|目標・\n|事\n)/m.exec(t);
+  if (goal && !/改善方策|重複|（実績）/.test(goal[1])) {
+    const raw = goal[1].slice(0, -1);
+    p.purpose = raw.split(NL).map(l => l.trim()).join('');
+    p.evidence.push(evidence(input, raw, goal.index! + goal[0].indexOf(raw)));
+  }
   p.warnings.push('平成27年度当初予算要求に添付された主要事業マネジメントシート（評価調書ではない）。予算額欄（H24〜H26の予算額・実績、H27要求額）は年度ラベルと値が抽出テキストで入り交じり対応が確定しないため金額は未収録。');
   return [p];
 }
 
 export const entries: Record<string, Entry> = {
   '27000': {
-    scope: '平成27年度当初予算要求 主要事業マネジメントシート（政策企画部・総務部の個別PDF）の事業名・部局名・担当室課のみ。予算額欄（年度と値の対応が抽出テキストで確定しない）、マネジメントシート一覧ページ、行政評価制度の説明資料は対象外。',
+    scope: '平成27年度当初予算要求 主要事業マネジメントシート（政策企画部・総務部の個別PDF）の事業名・部局名・担当室課・事業目標。予算額欄（年度と値の対応が抽出テキストで確定しない）、マネジメントシート一覧ページ、行政評価制度の説明資料は対象外。',
     extract: (input) => extractOne(input),
   },
 };

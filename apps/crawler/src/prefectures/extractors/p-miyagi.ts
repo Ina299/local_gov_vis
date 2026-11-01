@@ -79,9 +79,11 @@ function one(input: CachedInput, inputs: CachedInput[]): ProjectEvaluation[] {
       const p = project(input, `${name.start}-${nfkc(name.text)}`, name.text, 2026, raw, name.start);
       p.evaluatedFiscalYear = 2025;
       p.activities = content.text.replace(/\n/g, '');
-      p.evidence.push(evidence(input, TITLE, 0), evidence(youshi, SCOPE_NOTE));
+      // 「実績」欄（取組の実施状況と件数等）を成果の記述として収録。折り返しの改行だけを詰める
+      p.outcomes = result.text.replace(/\n/g, '');
+      p.evidence.push(evidence(input, TITLE, 0), evidence(youshi, SCOPE_NOTE), evidence(input, content.text, content.start), evidence(input, result.text, result.start));
       p.amounts.push(amount(input, 'actual', 2025, amt.text, '千円', amt.text, amt.start));
-      p.warnings.push('施策評価シート「主要な事業の成果」の決算額（千円）。表に年度の印字はなく、同じ年度の基本票の要旨の「令和７年度の政策、施策及び事業の成果等を対象に、令和８年度に実施した」による。担当課は主要な事業の表には印字されない。');
+      p.warnings.push('事業内容は「事業内容」欄、成果は「実績」欄の記載（折り返しの改行のみ詰めた）。施策評価シート「主要な事業の成果」の決算額（千円）。表に年度の印字はなく、同じ年度の基本票の要旨の「令和７年度の政策、施策及び事業の成果等を対象に、令和８年度に実施した」による。担当課は主要な事業の表には印字されない。');
       const d = depts.get(nfkc(name.text));
       if (d) {
         p.department = d.dept;
@@ -96,7 +98,7 @@ function one(input: CachedInput, inputs: CachedInput[]): ProjectEvaluation[] {
 
 export const entries: Record<string, Entry> = {
   '04000': {
-    scope: '令和８年度政策評価・施策評価基本票の施策評価シート「主要な事業の成果」の事業名・事業内容・決算額（令和７年度）、参考資料２で名前が一致する事業の担当課室。段組みで順序が崩れた行、再掲（再）・参考欄、令和６・７年度基本票の推進事業一覧（決算見込額）、反映状況説明書は対象外。',
+    scope: '令和８年度政策評価・施策評価基本票の施策評価シート「主要な事業の成果」の事業名・事業内容・実績・決算額（令和７年度）、参考資料２で名前が一致する事業の担当課室。段組みで順序が崩れた行、再掲（再）・参考欄、令和６・７年度基本票の推進事業一覧（決算見込額）、反映状況説明書は対象外。',
     extract: (input, inputs) => acrossDocuments(input, inputs, i => one(i, inputs), p => `${nfkc(p.projectName)}|${p.evaluatedFiscalYear}`),
   },
 };

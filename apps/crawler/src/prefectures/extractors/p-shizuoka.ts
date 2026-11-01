@@ -8,6 +8,8 @@
  * 改善ポイントの直後の2値の1番目（R8当初予算の歳出）を令和8年度の予算額として収録する（列の並びは各ページの「計」行の合計で確認済み）。
  * R6最終予算は当初予算と区別するため収録しない。「-」・「△」の値は収録しない。
  * 健康福祉部・経済産業部の PDF は取得テキストが1ページ分しかない／未取得のため実質対象外。総合計画（概要版）は対象外。
+ * 改善ポイント（方向付け・事業内容の変更点・財源調達等）欄の文を評価（ratings、ラベル「改善ポイント」）として収録する（4値の直後の「・」の段落）。
+ * 評価・改善・決算特指摘の欄の印（○）は事業の行との対応が確定しないため未収録。1事業だけのページ（指標・評価と改善措置のポイントつき）は事業行の並びが異なり未収録。
  */
 import type { ProjectEvaluation } from '../../../../web/src/types/evaluation';
 import { type CachedInput, evidence, project } from '../../evaluations/expansion/shared';
@@ -73,6 +75,12 @@ function extractOne(input: CachedInput): ProjectEvaluation[] {
       if (positive(v4[2].raw)) r.amounts.push(amount(input, 'budget', 2025, v4[2].raw, '千円', block(i, j), paras[i].at));
       let e = j;
       while (paras[e]?.s.startsWith('・')) e++;
+      // 改善ポイント（方向付け・事業内容の変更点・財源調達等）: 4値の直後の「・」で始まる段落（折り返しは連結し、項目ごとに改行）
+      const point = paras.slice(j, e).flatMap(p => p.s.split(/\n(?=・)/).map(b => b.replace(/\n/g, ''))).filter(b => b.length > 1).join('\n');
+      if (point) {
+        r.ratings.push({ kind: 'self', label: '改善ポイント', value: point, scale: null, evidence: evidence(input, block(j, e), paras[j].at) });
+        r.warnings.push('評価は「改善ポイント（方向付け・事業内容の変更点・財源調達等）」欄の原文（折り返しを連結）。評価・改善・決算特指摘の欄の印は事業との対応が確定しないため未収録。');
+      }
       let f = e, m = 0;
       while (paras[f] && vcount(paras[f]) && m < 2) m += vcount(paras[f++]);
       const v8 = m === 2 ? values(paras.slice(e, f)) : [];
@@ -86,7 +94,7 @@ function extractOne(input: CachedInput): ProjectEvaluation[] {
 
 export const entries: Record<string, Entry> = {
   [CODE]: {
-    scope: '令和7年度 事業別見直し状況一覧（部局別PDF）の事業名・部局名・課名（事業名→経費区分→予算値→改善ポイントの並びで行が確定できたもの）。R7当初・R8当初予算の歳出（単位の表記がないため千円とみなす）。総合計画・記載要領は対象外。',
+    scope: '令和7年度 事業別見直し状況一覧（部局別PDF）の事業名・部局名・課名（事業名→経費区分→予算値→改善ポイントの並びで行が確定できたもの）。R7当初・R8当初予算の歳出（単位の表記がないため千円とみなす）と改善ポイント欄の文。総合計画・記載要領は対象外。',
     extract: (input) => extractOne(input),
   },
 };

@@ -28,6 +28,8 @@ function extractKumamoto(input: CachedInput): ProjectEvaluation[] {
   const labels = new Set([...t.matchAll(new RegExp(String.raw`\n(${CODE}[^\n]*(?:\n[^\n\d０-９施（(][^\n]*)?)\n`, 'g'))].map(m => squash(m[1])));
   const out: ProjectEvaluation[] = [];
   const count = new Map<string, number>();
+  const rowStarts = [...t.matchAll(ROW)].map(m => m.index! + 1);
+  const headStarts = [...t.matchAll(HEAD)].map(m => m.index! + 1);
   for (const m of t.matchAll(ROW)) {
     const at = m.index! + 1;
     const first = m[4].trim();
@@ -50,6 +52,21 @@ function extractKumamoto(input: CachedInput): ProjectEvaluation[] {
     if (num(m[3]) > num(m[2])) p.warnings.push('決算額が予算額を上回る（原文どおり収録。決算を正とする）。');
     p.warnings.push(`金額は「主要な施策」欄（総合戦略の施策）単位の予算額・決算額（千円）で、欄内に掲げた主要事業（最初の事業: ${first}）の個別金額は原文に記載がない。決算年度は「令和${fy - 2018}年度における主要な施策の成果」による。`);
     if (name !== printed) p.warnings.push(`施策名が抽出テキストで途中まで（「${printed}」）のため、同じ文書に印字された同じ書き出しの施策名で補った。`);
+    // 「施策の成果」欄: 最初の事業名の行から、そのページの終わり（ページ番号）・次の施策欄・次の部局見出しのいずれか早い所まで。
+    // 次のページへ続く分（同じ施策名を括弧書きした続きの欄）は収録しない。欄内の予算科目（「○○費のうち」）・決算書の参照ページ（Ｐ…）も原文の並びのまま含む。
+    const colStart = m.index! + m[0].length - m[4].length;
+    // 区切り: ページ番号、次の施策（「（施策N）」「施策N－①」の行。直前の大項目「１ …」の行を含む）
+    //       次の欄の予算額・決算額の並び、「５ その他」の大項目
+    const stop = new RegExp(String.raw`\n- ?\d+ ?-\n|\n(?:[１-９] [^\n]+\n)?(?:（施策[０-９\d]+）|施策[０-９\d]+[－―][①-⑳])|\n${N}\n+${N} |\n[１-９] その他\n`, 'g');
+    stop.lastIndex = colStart;
+    const colEnd = Math.min(stop.exec(t)?.index ?? t.length, rowStarts.find(s => s > at) ?? t.length, headStarts.find(s => s > at) ?? t.length);
+    const col = t.slice(colStart, colEnd).replace(/\s+$/, '');
+    // 欄名の縦書き（施／策／の／成／果）が混ざる欄は、別の欄の文字が入り込んでいるため読まない
+    if (col.length >= 20 && !/\n施\n+策\n/.test(col)) {
+      p.outcomes = col.replace(/\n{2,}/g, '\n');
+      p.evidence.push(evidence(input, col, colStart));
+      p.warnings.push('成果は「施策の成果」欄のうち施策名と同じページの記載（空行のみ詰めた）。欄内の各主要事業の成果を含み、次のページへ続く分は未収録。同じ欄の予算科目（「○○費のうち」）・決算書の参照ページの列が抽出テキストの並びのまま文中に入ることがある。');
+    }
     out.push(p);
   }
   return out;

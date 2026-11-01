@@ -117,7 +117,8 @@ export function ProjectCard({ project, defaultOpen = false }: { project: Project
   const keyFacts = [
     ...(['actual', 'budget'] as const).map((kind) => latest(kind)).filter((a): a is EvaluationAmount => Boolean(a))
       .map((a) => ({ label: `${COST_LABELS[a.kind]}（${formatEvaluationYear(a.fiscalYear)}）`, value: formatEvaluationAmount(a.amountYen) })),
-    ...project.ratings.slice(0, 3).map((r) => ({ label: r.label, value: r.value })),
+    // 評価は短い区分（A〜D・継続など）だけを要点に出す。文章の評価（改善ポイント等）は下の「自治体の評価」で読む
+    ...project.ratings.filter((r) => Array.from(r.value.trim()).length <= 24).slice(0, 3).map((r) => ({ label: r.label, value: r.value })),
   ];
   const hasNarrative = Boolean(project.activities || project.outcomes);
   const missing = [!hasNarrative && '活動・成果', project.indicators.length === 0 && '指標', project.ratings.length === 0 && '評価'].filter(Boolean);

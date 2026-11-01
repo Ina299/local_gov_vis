@@ -15,6 +15,9 @@
  * 事業費は令和７年度の予算額とみなす（施策0401・0501・0509・0517など20以上の施策で、施策の「予算額（千円）R7」が
  *  施策内の全事業の事業費の合計と一致することを確認。単位は表頭の（千円））。評価対象年度（evaluatedFiscalYear）は印字がないため未設定。
  * 事業費のない「事務（0予算)」は対象外。令和６年度版（別URLの0601.pdf）は人件費単価・欄構成が異なるため対象外。
+ * 事業内容（activities）は事業名の次の行から課の行の直前までの「事務事業概要」欄。一次政策評価の方向性・翌年度の方向性は、フルコストの直後に
+ *  対応方針番号（①…）→方向性→翌年度の方向性が並び、その次が次の事業の行・合計の数値である場合だけ収録（二次政策評価意見が割り込む行は対象外）。
+ * 精度確認（2026-11）: PDF原本の表（PyMuPDF）と照合し、収録 190件の事務事業概要・課がすべて一致、方向性 10件も一致。
  */
 import type { ProjectEvaluation } from '../../../../web/src/types/evaluation';
 import { type CachedInput, evidence, project } from '../../evaluations/expansion/shared';
@@ -35,6 +38,9 @@ const JUNK = new Set(['令和７年度', '事務事業評価調書', '事務事�
   'の繰越事業', '（千円）', '費（千円）', '施策コード', '執行体制', 'うち', '一般財源', '本庁', '出先機関', '人工計', 'フル', 'コスト',
   '一次政策評価', '３月末時点における対応', '対応', '方針', '番号', '方向性', '二次政策評価意見', '二次評価意見への対応状況', '翌年度の',
   '整理番号', '重複施策', '経費区分', '分析）', '改善（取組', '改善（指標', '改善', '現状維持', '拡充', '縮小', '廃止', '休止', '終了', '完了', '統合', '-', '－']);
+
+/** 翌年度の方向性の欄に印字される語。 */
+const NEXT_DIRECTION = new Set(['改善', '現状維持', '拡充', '縮小', '廃止', '休止', '終了', '完了', '統合']);
 
 type Tok = { s: string; at: number; num: boolean };
 
@@ -97,7 +103,8 @@ function extractOne(input: CachedInput): ProjectEvaluation[] {
     const region = toks.slice(regionEnd, k);
     let dept: string | null = null, deptTok: Tok[] = [];
     const last = region.at(-1), last2 = region.at(-2);
-    const frag = last2 && /^[^\s、。，,0-9０-９]{2,8}$/.test(last2.s);
+    // 課名の断片はひらがなで始まらない（「に取り組む」＋「ＤＸ推進課」は概要の末尾と課名）
+    const frag = last2 && /^[^\s、。，,0-9０-９ぁ-ゖ][^\s、。，,0-9０-９]{1,7}$/.test(last2.s);
     if (last && last2 && frag && (splits.get(last2.s + last.s) ?? 0) >= 2 && DEPT.test(last2.s + last.s)) deptTok = [last2, last];
     // 3字以下の課名の直前に句読点のない短い行がある場合は、課名の割れ（「推進局」）と区別できない
     else if (last && DEPT.test(last.s) && !(last.s.length <= 3 && frag)) deptTok = [last];
@@ -138,6 +145,28 @@ function extractOne(input: CachedInput): ProjectEvaluation[] {
     p.warnings.push(`令和７年度基本評価調書（施策${title[2]}「${title[3]}」）の事務事業評価調書の事業費欄（千円）。令和７年度予算額とみなした（施策0401・0501・0509等で、施策の「予算額（千円）R7」と事業費の合計が一致することを確認）。` +
       `事業費の列はフルコスト（${fc.s}千円）−人工計（${toks[j + 2].s}人）×人件費単価8,175千円の検算で特定。`);
     if (code) p.warnings.push(`整理番号 ${code}。`);
+    // 事務事業概要: 事業名の次の行から課の行の直前まで（折り返しの改行を除いて連結）
+    const descRaw = t.slice(desc[0].at, desc.at(-1)!.at + desc.at(-1)!.s.length);
+    p.activities = desc.map(x => x.s).join('');
+    p.evidence.push(evidence(input, descRaw, desc[0].at));
+    p.warnings.push('事業内容は事務事業評価調書の「事務事業概要」欄（抽出テキストの折り返しを連結）。');
+    // 一次政策評価（対応方針番号・方向性）と翌年度の方向性: フルコストの直後に「① → 方向性（折り返し可）→ 翌年度の方向性」が並び、
+    // その次が次の事業の整理番号・経費区分か数値（合計行）である場合だけ（二次政策評価意見の文が割り込む行は対象外）
+    const q = j + 4;
+    if (toks[q] && /^[①-⑳]+$/.test(toks[q].s)) {
+      for (let n = 1; n <= 3; n++) {
+        const dirToks = toks.slice(q + 1, q + 1 + n), nxt = toks[q + 1 + n], after = toks[q + 2 + n];
+        if (dirToks.length < n || dirToks.some(x => x.num) || !nxt) break;
+        const dir = dirToks.map(x => x.s).join('');
+        if (!balanced(dir) || width(dir) > 16 || !NEXT_DIRECTION.has(nxt.s)) continue;
+        if (after && !(after.num || CODE.test(after.s) || KUBUN.test(after.s) || /^事務/.test(after.s))) break;
+        const dirRaw = t.slice(dirToks[0].at, dirToks.at(-1)!.at + dirToks.at(-1)!.s.length);
+        p.ratings.push({ kind: 'self', label: `一次政策評価の方向性（対応方針番号${toks[q].s}）`, value: dir, scale: null, evidence: evidence(input, dirRaw, dirToks[0].at) });
+        p.ratings.push({ kind: 'self', label: '翌年度の方向性', value: nxt.s, scale: null, evidence: evidence(input, nxt.s, nxt.at) });
+        p.evidence.push(evidence(input, toks[q].s, toks[q].at));
+        break;
+      }
+    }
     out.push(p);
   }
   return out;
@@ -145,7 +174,7 @@ function extractOne(input: CachedInput): ProjectEvaluation[] {
 
 export const entries: Record<string, Entry> = {
   '01000': {
-    scope: '令和７年度 基本評価調書（施策別PDF）の事務事業評価調書のうち、事業名・経費区分・課の並びと事業費・執行体制・フルコストの欄が抽出テキストで一意に対応づき、フルコストの検算が合う事業の事業名・課・令和７年度事業費（予算額、千円）。事業費のない事務、令和６年度版、施策評価本体・成果指標は対象外。',
+    scope: '令和７年度 基本評価調書（施策別PDF）の事務事業評価調書のうち、事業名・経費区分・課の並びと事業費・執行体制・フルコストの欄が抽出テキストで一意に対応づき、フルコストの検算が合う事業の事業名・課・令和７年度事業費（予算額、千円）・事務事業概要と、行が確定できた一次政策評価の方向性・翌年度の方向性。事業費のない事務、令和６年度版、施策評価本体・成果指標は対象外。',
     extract: (input, inputs) => acrossDocuments(input, inputs, extractOne, p => `${p.department}|${nfkc(p.projectName)}|${p.amounts[0]?.amountYen}`),
   },
 };

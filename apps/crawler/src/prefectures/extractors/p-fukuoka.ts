@@ -17,6 +17,100 @@ const isDept = (x: string) => !lines(x).some(l => LABEL.test(l)) && /部|庁/.te
 const okName = (x: string) => lines(x).every(l => !LABEL.test(l) && !/^\d+$/.test(l.trim()) && !/中項目|具体的|総合計画|の柱|事業のねらい|事業名$/.test(l))
   && !/^(警察本部|教育庁)|部$/.test(lines(x)[0]) && !isDept(x) && /事業|[費金ト）)]$/.test(x.trim());
 
+/** 段落（空行区切り）。off は input.text での位置。 */
+function paragraphs(t: string, from: number, to: number): { text: string; off: number }[] {
+  const out: { text: string; off: number }[] = [];
+  let pos = from;
+  for (const part of t.slice(from, to).split('\n\n')) {
+    const lead = part.length - part.replace(/^\n+/, '').length, body = part.replace(/^\n+/, '').replace(/\n+$/, '');
+    if (body.trim()) out.push({ text: body, off: pos + lead });
+    pos += part.length + 2;
+  }
+  return out;
+}
+/** 折り返しの改行を詰める（「・」「（」「①」等で始まる行の前の改行は残す）。 */
+const unwrap = (x: string) => x.split('\n').map(l => l.trim()).reduce((acc, l, i) => (i === 0 ? l : /^(?:[・（(①-⑳○〇●■◆※＜<【［\[０-９]|\d+[ ．.、）)])/.test(l) ? `${acc}\n${l}` : acc + l), '');
+/** 見出し部分の欄の文字・値だけの行。 */
+const HEADCELL = /^(?:事業|開始年度|事業開始年度|事 業|[RHＲＨ](?:[0-9０-９]+|元)|[0-9０-９]+)$/;
+const fyOf = (y: string) => (y[0] === 'H' ? 1988 : 2018) + Number(y.slice(1));
+
+/**
+ * 目的・事業概要・実績の評価・成果指標。
+ *  - 目的: 「１ 事業のねらい・目的」の本文（「２ 事業概要」の見出しまで）。
+ *  - 事業内容: 「２ 事業概要」の本文（「３ 成果指標及び進捗状況」の見出しが直後に続く場合のみ。【…図】等の図の見出し以降は図中の文字のため除く）。
+ *  - 成果: 「【R◯年度の実績値に対する評価とその要因】」の（評価）の本文（（評価）（要因）が1組だけの場合）。
+ *  - 指標: 「３ 成果指標及び進捗状況」の表が、成果指標名・「目標／実績」・年度ごとの（年度, 目標, 実績）の段落だけからなる場合のみ。
+ * 「５ 見直しの内容」（継続／拡充／改善／終了…）は選んだ印が抽出テキストに残らないため判定は収録しない。
+ */
+function describe(input: CachedInput, s: number, sheet: string, p: ProjectEvaluation): void {
+  const t = input.text;
+  const pm = /事業のねらい・目的\n\n?([^]*?)\n\n?２(?:\n\n| )事業概要\n/.exec(sheet);
+  if (pm) {
+    // 見出し部分の欄（「事業／開始年度」とその値、総合計画の番号）が本文の前後に紛れ込むことがあるため、前後のその行だけ除く。
+    // 本文の途中に欄の文字や課名だけの行がある場合は収録しない。
+    const ls = pm[1].split('\n');
+    let a = 0, b = ls.length;
+    while (a < b && (HEADCELL.test(ls[a].trim()) || !ls[a].trim())) a++;
+    while (b > a && (HEADCELL.test(ls[b - 1].trim()) || !ls[b - 1].trim())) b--;
+    const body = ls.slice(a, b);
+    if (body.length && !body.some(l => HEADCELL.test(l.trim()) || /^[^。、]{1,14}(?:課|部|局|室)$/.test(l.trim()))) {
+      const raw = body.join('\n'), off = s + pm.index + pm[0].indexOf(pm[1]) + ls.slice(0, a).reduce((n, l) => n + l.length + 1, 0);
+      p.purpose = unwrap(raw.split('\n\n').join('\n'));
+      p.evidence.push(evidence(input, raw, off));
+    }
+  }
+  const am = /\n事業概要\n\n?([^]*?)\n\n?３(?:\n\n| )成果指標及び進捗状況\n/.exec(sheet);
+  if (am) {
+    const fig = /\n【[^】\n]*(?:図|スキーム|イメージ|フロー|スケジュール)[^】\n]*】/.exec(am[1]);
+    const raw = (fig ? am[1].slice(0, fig.index) : am[1]).replace(/\n+$/, '');
+    // 番号だけの行や（１）（２）の記号だけが並ぶ行があるものは、段組みの表が崩れているため収録しない。
+    const rl = raw.split('\n');
+    if (raw.trim() && !rl.some(l => /^[0-9０-９]+$/.test(l.trim()) || /[⑴-⒇]{2}/.test(l)) && rl.filter(l => /^[○〇・●]$/.test(l.trim())).length < 2) {
+      p.activities = unwrap(raw.split('\n\n').join('\n'));
+      p.evidence.push(evidence(input, raw, s + am.index + am[0].indexOf(am[1])));
+    }
+  }
+  const ev = /【R\d+ ?年度の実績値に対する評価とその要因】\n/.exec(sheet);
+  if (ev) {
+    const endM = /\n(?:（上記を踏まえた|【効率的な事業)/.exec(sheet.slice(ev.index));
+    const sec = endM ? sheet.slice(ev.index, ev.index + endM.index) : '';
+    const om = /^【[^】]+】\n（評価）\n([^]+?)\n\n?（要因）\n/.exec(sec);
+    if (om && (sec.match(/（評価）/g) ?? []).length === 1 && (sec.match(/（要因）/g) ?? []).length === 1 && om[1].trim()) {
+      p.outcomes = unwrap(om[1]);
+      p.evidence.push(evidence(input, om[1], s + ev.index + om[0].indexOf(om[1])));
+    }
+  }
+  const i0 = sheet.indexOf('成果指標及び進捗状況\n'), i1 = sheet.indexOf('【成果指標の設定根拠】', i0);
+  if (i0 < 0 || i1 < 0) return;
+  const ps = paragraphs(t, s + i0 + '成果指標及び進捗状況\n'.length, s + i1);
+  let name: { text: string; off: number } | null = null, labels = 0;
+  const rows: { y: string; tv: string; av: string | null; off: number; end: number }[] = [];
+  for (const x of ps) {
+    const ls = x.text.split('\n');
+    if (ls[0] === '成果指標' && !name && !rows.length) {
+      if (ls.length > 1) name = { text: ls.slice(1).join('\n'), off: x.off + '成果指標\n'.length };
+      continue;
+    }
+    if (x.text === '目標\n実績') { labels++; continue; }
+    if (/^[RH]\d+$/.test(ls[0])) {
+      if (ls.length > 3 || ls.slice(1).some(l => l.length > 20)) return;
+      if (ls.length === 3) rows.push({ y: ls[0], tv: ls[1].trim(), av: ls[2].trim(), off: x.off, end: x.off + x.text.length });
+      // 値が1つだけの年度は、目標・実績のそろった年度より後（将来の年度）なら目標値。それより前のものは目標か実績か定まらないため収録しない。
+      else if (ls.length === 2 && rows.length) rows.push({ y: ls[0], tv: ls[1].trim(), av: null, off: x.off, end: x.off + x.text.length });
+      continue;
+    }
+    if (!name && !rows.length && ps[0].text === '成果指標' && !/^[\d,.\-－―%％]+$/.test(x.text)) { name = x; continue; }
+    return;
+  }
+  if (!name || labels !== 1 || !rows.length || name.text.split('\n').some(l => /^[RH]\d+$|^[\d,.]+$|^目標$|^実績$/.test(l.trim()))) return;
+  // 目標だけの年度の後に目標・実績のそろった年度が来る形は、並びが崩れているため対象外。
+  const full = rows.map(r => r.av !== null);
+  if (full.includes(false) && full.lastIndexOf(true) > full.indexOf(false)) return;
+  const nm = name.text.split('\n').map(l => l.trim()).join('');
+  const unit = /（(百万円|千円|億円|円|万人|千人|人|件|社|回|日|時間|校|団体|戸|箇所|か所|カ所|ha|t|％|%)）/.exec(nm)?.[1] ?? null;
+  for (const r of rows) p.indicators.push({ name: nm, fiscalYear: fyOf(r.y), target: r.tv, actual: r.av, unit, evidence: evidence(input, t.slice(name.off, r.end), name.off) });
+}
+
 function extractFukuoka(input: CachedInput): ProjectEvaluation[] {
   if (input.municipalityCode !== '40000' || input.format !== 'pdf') return [];
   const t = input.text;
@@ -67,6 +161,7 @@ function extractFukuoka(input: CachedInput): ProjectEvaluation[] {
     } else p.warnings.push('部・課(室)の欄が抽出テキストで一つに特定できないため担当部局は未収録。');
     const ef = /【R(\d+) ?年度の実績値に対する評価/.exec(sheet);
     if (ef) { p.evaluatedFiscalYear = 2018 + Number(ef[1]); p.evidence.push(evidence(input, ef[0], s + ef.index)); }
+    describe(input, s, sheet, p);
 
     // ４ 事業費（千円）: 歳出／うち一般財源／人件費（時間）／人件費（千円）の4行×3列（列見出し Rn 決算・Rn 当初）。
     const c0 = sheet.indexOf('事業費（千円）'), c1 = sheet.indexOf('見直しの内容', c0);
@@ -120,6 +215,6 @@ function extractFukuoka(input: CachedInput): ProjectEvaluation[] {
 export const entries: Record<string, Entry> = {
   '40000': {
     extract: (input) => extractFukuoka(input),
-    scope: '令和6・7年度 事務事業評価書（様式１号、部局別の分冊 PDF）の事業名・部・課(室)・評価年度・実績評価の対象年度・事業費の歳出（決算・当初予算。行の特定を検算できた表のみ）。行政評価概要一覧（評価書の再掲）、政策事前評価書、公共事業再評価・研究開発事業の総括表、成果指標は対象外。',
+    scope: '令和6・7年度 事務事業評価書（様式１号、部局別の分冊 PDF）の事業名・部・課(室)・評価年度・実績評価の対象年度・事業費の歳出（決算・当初予算。行の特定を検算できた表のみ）、事業のねらい・目的、事業概要（段組みや図が崩れていないもののみ）、実績値に対する評価（（評価）欄）、成果指標の目標・実績（1指標の表で年度ごとの並びが確定するもののみ）。見直しの内容（選択の印が抽出テキストに残らない）、行政評価概要一覧（評価書の再掲）、政策事前評価書、公共事業再評価・研究開発事業の総括表は対象外。',
   },
 };
