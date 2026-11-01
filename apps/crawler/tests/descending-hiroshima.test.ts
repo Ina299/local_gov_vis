@@ -59,3 +59,25 @@ test('Kure keeps named implemented programmes separate from its 17 policy indica
  assert.equal(ps.length,3);assert.ok(ps.every(p=>p.evaluatedFiscalYear===2025&&p.indicators.length===0));
  assert.ok(ps.some(p=>p.projectName==='「育ちと学びをつなぐ」幼保小協働推進事業'));
 });
+
+test('Saka annual gap review uses assessed-year library activities and collapses repeated council mentions',()=>{
+ for(const c of hiroshimaRows.filter(c=>c.municipalityCode==='34309'&&c.year!==null&&c.year>=2013&&c.year<=2018)){
+  const ps=reviewHiroshima(source(c.sourceId,c.municipalityCode))!.projects;
+  for(const name of ['図書館利用講座','読書活動推進講座'])assert.equal(ps.filter(p=>p.projectName===name).length,1);
+ }
+ const ps=reviewHiroshima(source('7d13b86ebfc55a173ca30e38','34309'))!.projects;
+ assert.equal(ps.filter(p=>p.projectName==='坂町道徳教育推進協議会').length,1);
+ const prior=reviewHiroshima(source('e5c6523084502deeec039466','34309'))!.projects;
+ assert.ok(!prior.some(p=>p.projectName==='図書館利用講座'));
+ assert.ok(!prior.some(p=>p.projectName==='町内駅伝競走大会'));
+});
+test('Saka event review excludes cancelled events and inconsistent festival ordinal identities',()=>{
+ for(const id of ['90a341714420a90cf3a63214','7bf6d509b4c79f59ba41295c']){
+  const ps=reviewHiroshima(source(id,'34309'))!.projects;
+  assert.ok(!ps.some(p=>p.projectName==='坂町平和音楽祭'||p.projectName==='ＮＨＫのど自慢'));
+ }
+ for(const c of hiroshimaRows.filter(c=>c.municipalityCode==='34309'&&(c.year===2023||c.year===2024)))assert.ok(!reviewHiroshima(source(c.sourceId,c.municipalityCode))!.projects.some(p=>/第(?:15|１５)回吹奏楽/.test(p.projectName)));
+ const ps=reviewHiroshima(source('b9344c367ad96e228dc72152','34309'))!.projects;
+ for(const name of ['俳句王国がゆく','坂町平和音楽祭','神楽の祭典','尾木ママ講演会','子育てコンサート'])assert.equal(ps.filter(p=>p.projectName===name).length,1);
+ assert.ok(ps.every(p=>p.amounts.length===0&&p.ratings.length===0&&p.indicators.length===0));
+});
