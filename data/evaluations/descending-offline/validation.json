@@ -1,0 +1,50 @@
+{
+  "crawlerFullSuite": {
+    "passed": 361,
+    "failed": 0,
+    "skipped": 0,
+    "durationMs": 856724.753166,
+    "note": "Complete pre-existing suite plus Kirishima tests. Four newly added grant/table tests ran separately after final changes."
+  },
+  "targetedFinal": {
+    "passed": 7,
+    "failed": 0,
+    "includesAlreadyCountedKirishimaTests": 3,
+    "additionalGrantTests": 4
+  },
+  "uniqueCrawlerTestsPassed": 365,
+  "web": {
+    "files": 21,
+    "passed": 256
+  },
+  "typecheck": "passed crawler and web; final crawler rerun passed",
+  "lint": "passed; pre-existing custom-font warning",
+  "nationalVerification": {
+    "municipalities": 500,
+    "records": 92038,
+    "indexSha256": "abe6c42fe4d7e2c4b102727dcb3eb17c44cf2dc4d2028ec507962bd726259015"
+  },
+  "staticExport": {
+    "basePath": "/local_gov_vis",
+    "pages": 109,
+    "passed": true,
+    "warning": "Google Fonts stylesheet unavailable; optimization skipped without retry"
+  },
+  "candidateValidation": {
+    "records": 93,
+    "evidence": 673
+  },
+  "productionChanges": 0,
+  "remoteCI": "not requested; no push",
+  "logs": {
+    "candidate-validation.log": "23ff544f062d727b144f7577c570a6e2114b9b6c00c2d9ab034bda51fd6a2b24",
+    "typecheck-final.log": "37fe230c69a379de78dcb3fa751ba33f789818dc53ae990e64c2dda3e92f7cd9",
+    "typecheck.log": "b8108f8db4c887f434c143578fbd34af7175c8dcfe972e0e1504f80c2bd883d1",
+    "web-full.log": "d0cf0ae4a51e4b93d0a72f06a045a69328b01dbe0baba6dad24d192c45c0e811",
+    "targeted-final.log": "08f54de60539b337709cd20ce4304a458b16b1954736c4e4cf4a7f382ee2303a",
+    "national.log": "9f3f269c39ef59181e4342bc4141801e52d0ddd7216620a3869aaf785e761482",
+    "lint.log": "0f83ecbcc18decfcef4b8ee5e1052557d2cc34c19fddfecfaf5c7244de225b77",
+    "build.log": "63f4fb45f3717020b7e411355f67b8a6a28d73c9047a2bba30f9009e41895d91",
+    "crawler-full.log": "2b88c79e30a7b8e74a0b69498cb4682f9bdbaa954ae1237d648138ba7edc1443"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "baseline": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "prefecturesProcessed": 46,
+  "skippedRecentMasterMunicipalities": 53,
+  "unpublishedUserChanges": "unobservable",
+  "counts": {
+    "municipalities": 1647,
+    "sources": 8584,
+    "hashVerifiedBodies": 6992,
+    "continuationParts": 319,
+    "candidateRecords": 93,
+    "candidateMunicipalities": 18,
+    "duplicateOutputs": 42203,
+    "heldOutputs": 3
+  },
+  "coverageDispositions": {
+    "missing_body": 1592,
+    "navigation": 1543,
+    "duplicate": 1996,
+    "unsupported_layout": 3214,
+    "insufficient_evidence": 56,
+    "referenced_coverage_unverified": 128,
+    "processed": 55
+  },
+  "productionRecordsAdded": 0,
+  "existingFieldEnrichments": 0,
+  "municipalRequests": 0,
+  "priorOkinawaCandidatesPreserved": 1084,
+  "combinedLocalCandidateRecords": 1177,
+  "coverageComplete": false,
+  "supportedParserPassComplete": true,
+  "remainingLayoutReviewSources": 3214,
+  "remainingReferencedCoverageReview": 128,
+  "acquisitionGate": "Six original hash-matching manifests or provenance-verifiable complete cumulative stop ledger remain missing; no new acquisition authorized."
+}
