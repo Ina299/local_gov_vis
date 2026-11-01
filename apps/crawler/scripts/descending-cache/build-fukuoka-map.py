@@ -121,6 +121,34 @@ for c in configs:
  raw='小中連携教育指\n定校事業'
  if raw in t:
   a=t.index(raw);row(c,t,'小中連携教育指定校事業',raw,start=a,note='旧小中一貫教育指定校事業からの名称変更を本文で確認。同一取組の旧名を追加しない。年度報告の継続事業名のみで成果評点は未抽出。');c['rows'][-1].update(context=t[max(0,a-100):a+400],contextStart=len(t[:max(0,a-100)].encode('utf-16-le'))//2)
+c,t=source('7f46d30943112fe91b3d425b','40227',2024,2025,'評価対象：令和6年度事業')
+excluded={'文書仕分け、発送業務、庁舎間文書使送便委託業務、文書管理システムの管理事務','情報公開請求処理業務及び政治倫理審査会運営事業','施設管理を委託する指定管理者について審査する委員会の事務事業','閉校となった旧嘉穂地区にある3小学校の管理に関する事業','普通財産管理に関する事業','市バスの運行に使用するバス車両を購入する事業','助事業','習得資金貸付事業','特別児童扶養手当に関する補助事業関連事務','教育認定こどもが利用する幼稚園に対し、その教育に係る費用を給付する事業','幼児教育無償化により移設等利用給付認定こどもに係る費用を給付する事業','子育て世帯生活支援特別給付金支給に関する補助事業関連事務','出産・子育て応援交付金支給に関する補助事業関連事務','身体障害者手帳の再交付申請進達及び交付事務','薬草園と梅林公園の維持管理する事業','市営キャンプ場を管理運営する事業','通学対策事業、就学援助事業'}
+ms=list(re.finditer(r'^([^ \n]+(?:課|室|事務局|センター)) ([^ \n]+(?:事業|事務|事務費|管理費)) ',t,re.M));assert len(ms)==135
+for m in ms:
+ if m[2] in excluded:continue
+ row(c,t,m[2],start=m.start(2),note='R6事業/R7年6月自己評価一覧の担当課直後の完全名称を個別照合。事業概要が名称欄の位置に流れた17候補は除外。決算額・必要性・効果・将来方向の列を位置から推測しない。');c['rows'][-1].update(context=t[max(0,m.start()-150):m.end()+250],contextStart=len(t[:max(0,m.start()-150)].encode('utf-16-le'))//2)
+hold(c,t,'議会ペーパーレス化事','Wrapped/displaced title columns remain actionable. Seventeen description/fragments excluded from simple line parser; review complete title boundaries explicitly rather than accepting description as project.',status='layout_review')
+for id in ['23eb6a734bf44ec00208174c','948a499b4c6a4854b639dad7']:
+ t=cached_text(id);c,t=source(id,'40227',None,None,t[:80]);hold(c,t,t[:80],'Administrative evaluation implementation methodology/schedule, not completed individual business sheets. No annual programme records from instructions or aggregate counts.')
+reviewed=json.loads((stage/'fukuoka-kama-wrapped-review.json').read_text());c=next(c for c in configs if c['sourceId']==reviewed['sourceId']);t=verified_text(c['sourceId'],'40227');assert hashlib.sha256(t.encode()).hexdigest()==reviewed['fullTextSha256']
+for h in reviewed['rows']:
+ if '基金：' in h['name']:
+  hold(c,t,h['raw'],'Irrigation maintenance fund/district financing title may overlap ordinary maintenance programme; independent identity not established. No extra annual project for funding label.');continue
+ # reviewed offsets are UTF-16; Python offsets are reconstructed from the exact quoted range.
+ a=t.index(h['raw']);assert len(t[:a].encode('utf-16-le'))//2==h['start']
+ row(c,t,h['name'],h['raw'],start=a,note='嘉麻市自己評価一覧の折返し名称を前後3行の保存本文で個別照合。繰越明許・事故繰越を別事業にせず、同名の部署別行は重複照合。全費目・成果・評点は未抽出。')
+c=next(c for c in configs if c['sourceId']=='7f46d30943112fe91b3d425b');t=verified_text(c['sourceId'],'40227')
+for name in ['選挙啓発費','デジタル戦略事業','男女共同参画推進事業','男女共同参画啓発事業','地域振興事業','集会所管理費（山田）','子ども医療対策費','集会所維持管理費','就労準備支援事業','嘉穂第２学童保育所費','碓井学童保育所','稲築西学童保育所','稲築東学童保育所','下山田学童保育所費','上山田学童保育所','嘉穂学童保育所','自立相談支援費','商工業振興費','農事区活動費','産地形成政策費','担い手育成政策費','有害鳥獣被害対策費','中山間地域保全対策費','農地中間管理促進費','多面的機能維持費','畜産政策費','治山事業費','都市公園費','道路橋りょう維持費','河川維持費','非常備消防費','学校給食事業（山田）','学校給食事業（稲築）','学校給食事業（嘉穂）','学校給食事業（碓井）','地区公民館費（山田）','地区公民館費（稲築）','地区公民館費（碓井）','ふるさと交流館運営費','文化財保護審議会費','文化財調査費','碓井住民センター費','土木施設災害復旧費','啓発・広報事業','嘉穂隣保館維持管理費','人権啓発活動地方事業','調査研究事業','デイサービス事業','老人保護措置事業','老人クラブ助成事業','高齢者福祉事業','敬老事業','社会福祉施設運営事業','災害支援事業','児童相談事業','助産施設入所措置事業','母子等相談事業','養育支援訪問事業','乳幼児保健事業','妊婦保健事業','発達支援連携事業','教育相談事業','こども政策推進事業','プール管理費','グラウンド管理費','体育館管理費','テニスコート管理費','野球場管理費','プロジェクトＫ事業','スポーツ活性化事業']:
+ # The title-column occurrence is at a line start or directly after a department name.
+ ms=list(re.finditer(r'^(?:[^ \n]+ )?'+re.escape(name)+r' ',t,re.M));assert ms,(name, 'title occurrence missing')
+ m=ms[0];a=m.end()-len(name)-1;assert t[a:a+len(name)]==name
+ row(c,t,name,start=a,note='嘉麻市の年度別自己評価一覧に明記された単独タイトル。名称が費・施設名で終わる場合も個別行の対象として保存。内部庶務・基金移動・繰越財源から新事業を追加せず、金額・評価は未抽出。');c['rows'][-1].update(context=t[max(0,m.start()-130):m.end()+250],contextStart=len(t[:max(0,m.start()-130)].encode('utf-16-le'))//2)
+for id,fy,ey,proof in [('d20bcc74ee66e3d51f4c5252',2024,2025,'令和 6 年度進捗状況報告書'),('3146bdccf4d095ac09c89950',2025,2026,'令和 7 年度進捗状況報告書')]:
+ c,t=source(id,'40229',fy,ey,proof)
+ names=[('デジタルを活用した魅力発信事業',None),('おむつお届け事業',None),('産前産後サポート事業','産前産後\nサポート事業')] if fy==2024 else [('霊柩自動車運行事業',None),('マイナンバーカードを活用した救急業務の実証事業',None)]
+ for name,raw in names:
+  a=t.index(raw or name);row(c,t,name,raw,start=a,note='年度の実施内容欄に明示された個別事業名のみ。R6報告の翌年度マイナ救急計画をR6実績にせず、改革方針66事項やKPIは別事業にしない。評点・費用は転記しない。');c['rows'][-1].update(context=t[max(0,a-550):a+350],contextStart=len(t[:max(0,a-550)].encode('utf-16-le'))//2)
+ hold(c,t,'行政改革個別プラン進捗状況','Other 66 reform actions track internal management, HR, financial planning and multi-year targets. They are not 66 independently identified business records. Future deployment columns and national/prefectural system references excluded; numerical alignment remains unstructured.')
 for c in configs:
  meta=json.loads((docs.parent/'municipalities'/(c['municipalityCode']+'.json')).read_text());src=next(x for x in meta['sources'] if x['id']==c['sourceId']);c['sourceSha256']=src['acquisition']['sourceSha256'];c['sourceUrl']=src['url'];c['recordedFormat']=src['format'];d=json.loads((docs/(c['sourceId']+'.json')).read_text());c['format']='pdf' if src['format'] not in ['pdf','html','xlsx'] and d.get('extractionMethod')=='pdftotext_from_verified_bytes' and d['sourceSha256']==src['acquisition']['sourceSha256'] else 'html' if src['format'] not in ['pdf','html','xlsx'] and d.get('extractionMethod')=='visible_html_from_verified_bytes' and d['sourceSha256']==src['acquisition']['sourceSha256'] else src['format']
 (root/'apps/crawler/src/evaluations/expansion/descending-fukuoka-map.ts').write_text('// Generated from hash-verified complete cached texts; no municipal requests.\nexport const fukuokaRows = '+json.dumps(configs,ensure_ascii=False,indent=2)+';\n')
