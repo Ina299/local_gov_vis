@@ -634,7 +634,7 @@ export function Sidebar({
           <p className="evaluation-coverage-link">
             <a className="text-button" href={dataUrl(evaluationEntryHref(selectedRegion.code, selectedRegion.evaluationCoverage))}>
               {selectedRegion.evaluationCoverage?.level === 0
-                ? `事業コストの流れ（${selectedRegion.evaluationCoverage.flowYear}年度決算）を見る →`
+                ? `事業コストの流れ（${selectedRegion.evaluationCoverage.flowYear}年度）を見る →`
                 : '事務事業評価の資料を見る →'}
             </a>
           </p>

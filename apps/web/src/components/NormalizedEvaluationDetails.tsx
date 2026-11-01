@@ -111,6 +111,16 @@ function CoverageCard({ source }: { source: EvaluationSourceStatus }) {
 export function ProjectCard({ project, defaultOpen = false }: { project: ProjectEvaluation; defaultOpen?: boolean }) {
   const [expanded, setExpanded] = useState(defaultOpen);
   const sources = Array.from(new Map(project.evidence.map((evidence) => [evidence.sourceUrl, evidence])).values());
+  // 要点（タイトル直下）: 金額は区分ごとに最新年度、評価は原表記のまま
+  const latest = (kind: EvaluationAmount['kind']) => project.amounts.filter((a) => a.kind === kind && a.amountYen !== null)
+    .sort((a, b) => (b.fiscalYear ?? 0) - (a.fiscalYear ?? 0))[0];
+  const keyFacts = [
+    ...(['actual', 'budget'] as const).map((kind) => latest(kind)).filter((a): a is EvaluationAmount => Boolean(a))
+      .map((a) => ({ label: `${COST_LABELS[a.kind]}（${formatEvaluationYear(a.fiscalYear)}）`, value: formatEvaluationAmount(a.amountYen) })),
+    ...project.ratings.slice(0, 3).map((r) => ({ label: r.label, value: r.value })),
+  ];
+  const hasNarrative = Boolean(project.activities || project.outcomes);
+  const missing = [!hasNarrative && '活動・成果', project.indicators.length === 0 && '指標', project.ratings.length === 0 && '評価'].filter(Boolean);
   return (
     <article className="evaluation-project-card">
       <div className="evaluation-card-title">
@@ -124,7 +134,12 @@ export function ProjectCard({ project, defaultOpen = false }: { project: Project
         <span><strong>担当</strong> {project.department || '記載なし・未取得'}</span>
         {project.projectCode !== null && <span><strong>事業番号</strong> {project.projectCode}</span>}
       </div>
-      <p className="evaluation-purpose">{project.purpose || '事業目的は未取得です。原資料を確認してください。'}</p>
+      {keyFacts.length > 0 && (
+        <dl className="evaluation-key-facts">
+          {keyFacts.map((f, i) => <div key={i}><dt>{f.label}</dt><dd>{f.value}</dd></div>)}
+        </dl>
+      )}
+      <p className="evaluation-purpose">{project.purpose ? <><strong>目的</strong> {project.purpose}</> : '事業目的は未取得です。原資料を確認してください。'}</p>
       <div className="evaluation-inline-links">
         {sources.map((evidence, index) => (
           <SourceLink key={evidence.sourceUrl} url={evidence.sourceUrl}>
@@ -134,18 +149,22 @@ export function ProjectCard({ project, defaultOpen = false }: { project: Project
         {sources.length === 0 && <span className="evaluation-muted">原資料のリンクは未記録です。</span>}
       </div>
       {project.warnings.length > 0 && (
-        <ul className="evaluation-warning-list">{project.warnings.map((warning, index) => <li key={index}>{warning}</li>)}</ul>
+        <details className="evaluation-warning-details">
+          <summary>抽出の注記（{project.warnings.length}件）</summary>
+          <ul className="evaluation-warning-list">{project.warnings.map((warning, index) => <li key={index}>{warning}</li>)}</ul>
+        </details>
       )}
       <details className="evaluation-project-details" open={defaultOpen || undefined} onToggle={(event) => setExpanded(event.currentTarget.open)}>
         <summary>活動・成果・コストと評価を読む</summary>
         {expanded && <div className="evaluation-detail-body">
-          <section>
+          {missing.length > 0 && <p className="evaluation-missing">この資料からは未取得: {missing.join('・')}</p>}
+          {hasNarrative && <section>
             <h4>活動と成果</h4>
             <dl className="evaluation-narratives">
               <div><dt>事業内容・活動</dt><dd>{project.activities || '記載なし・未取得'}</dd></div>
               <div><dt>成果</dt><dd>{project.outcomes || '記載なし・未取得'}</dd></div>
             </dl>
-          </section>
+          </section>}
           <section>
             <h4>コスト</h4>
             <p className="evaluation-muted">原資料の金額を円で表示します。費用区分は原資料に従い、欠損を0円に置き換えたり、フルコストを推計したりしません。各行の年度も確認してください。</p>
@@ -169,9 +188,9 @@ export function ProjectCard({ project, defaultOpen = false }: { project: Project
               })}
             </div>
           </section>
-          <section>
+          {project.indicators.length > 0 && <section>
             <h4>指標・目標・実績</h4>
-            {project.indicators.length === 0 ? <p className="evaluation-missing">指標は記載なし・未取得です。</p> : (
+            {(
               <div className="evaluation-table-scroll" tabIndex={0} role="region" aria-label={`${project.projectName}の指標表`}>
                 <table className="evaluation-table">
                   <thead><tr><th scope="col">指標</th><th scope="col">対象年度</th><th scope="col">目標</th><th scope="col">実績</th><th scope="col">単位</th><th scope="col">根拠</th></tr></thead>
@@ -188,11 +207,11 @@ export function ProjectCard({ project, defaultOpen = false }: { project: Project
                 </table>
               </div>
             )}
-          </section>
-          <section>
+          </section>}
+          {project.ratings.length > 0 && <section>
             <h4>自治体の評価</h4>
             <p className="evaluation-muted">自治体ごとの原表記と尺度をそのまま示します。自己評価と外部評価は別に表示し、共通順位や他自治体との優劣には換算しません。</p>
-            {project.ratings.length === 0 ? <p className="evaluation-missing">評価は記載なし・未取得です。</p> : (
+            {(
               <div className="evaluation-rating-list">{project.ratings.map((rating, index) => (
                 <div className="evaluation-rating" key={index}>
                   <p className="evaluation-label">{rating.kind === 'self' ? '自己評価' : '外部評価'} · {rating.label}</p>
@@ -202,7 +221,7 @@ export function ProjectCard({ project, defaultOpen = false }: { project: Project
                 </div>
               ))}</div>
             )}
-          </section>
+          </section>}
           <section>
             <h4>事業全体の出典・抽出原文</h4>
             {project.evidence.map((evidence, index) => (

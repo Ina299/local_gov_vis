@@ -26,6 +26,8 @@ const arg = (name: string) => { const i = args.indexOf(name); return i >= 0 ? ar
 const generatedAt = arg('--generated-at');
 if (!generatedAt || !Number.isFinite(Date.parse(generatedAt))) throw new Error('--generated-at <ISO timestamp> is required');
 const json = (x: unknown) => Buffer.from(JSON.stringify(x) + '\n');
+/** この日時以降に生成する補強は、空欄の目的・事業内容・成果も埋める（それより前の補強はバイト一致で再現する） */
+const NARRATIVES_SINCE = '2026-11-01T00:00:00.000Z';
 
 async function publishedBefore(): Promise<Map<string, Buffer>> {
   const manifest = await loadManifest(root);
@@ -74,7 +76,7 @@ async function build(output: string, codes: string[]) {
     const bytes = shards.get(code);
     const published: ProjectEvaluation[] = bytes ? (JSON.parse(bytes.toString()) as EvaluationDataset).projects : [];
     const publishedIds = new Set(published.map(p => p.id));
-    const { enrichments, skipped } = buildEnrichments(published, sheets.filter(p => !publishedIds.has(p.id)));
+    const { enrichments, skipped } = buildEnrichments(published, sheets.filter(p => !publishedIds.has(p.id)), Date.parse(generatedAt!) >= Date.parse(NARRATIVES_SINCE));
     const referenced = [...new Set(enrichments.flatMap(e => [...e.add.evidence, ...e.add.amounts.map(a => a.evidence), ...e.add.indicators.map(i => i.evidence), ...e.add.ratings.map(r => r.evidence)])
       .map(e => JSON.stringify([e.sourceUrl, e.sha256])))].sort();
     const sources: EvaluationSourceStatus[] = referenced.map(k => {

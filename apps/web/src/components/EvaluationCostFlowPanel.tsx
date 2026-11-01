@@ -49,12 +49,12 @@ export function EvaluationCostFlowPanel({ code, name, coverage }: {
 
   return (
     <div className="evaluation-cost-flow-panel">
-      <p className="attribution">
-        評価資料から読み取れた事業ごとの金額を部局別にたどる図です。収支図の款・項とは別の集計で、自動では対応付けません。{' '}
-        <a className="text-button" href={pageUrl}>事業票・資料を評価ページで見る →</a>
+      <p className="evaluation-panel-link">
+        <a className="text-button" href={pageUrl} target="_blank" rel="noopener noreferrer">事業票・資料を評価ページで見る（新しいタブ）↗</a>
       </p>
+      <p className="attribution">評価資料から読み取れた事業ごとの金額を部局別にたどる図です。収支図の款・項とは別の集計で、自動では対応付けません。</p>
       {state.status === 'loading' && <p className="evaluation-muted">読み込み中…</p>}
-      {state.status === 'error' && <p className="evaluation-muted">{state.message} <a href={pageUrl}>評価ページで確認する</a></p>}
+      {state.status === 'error' && <p className="evaluation-muted">{state.message} <a href={pageUrl} target="_blank" rel="noopener noreferrer">評価ページで確認する ↗</a></p>}
       {state.status === 'ready' && (
         <ProjectCostSankey
           projects={state.value.dataset.projects}

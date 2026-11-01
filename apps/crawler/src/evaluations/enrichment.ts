@@ -1,19 +1,26 @@
 /**
  * Enrichment of already-published records from detailed evaluation sheets of the same business.
  * A published record keeps its ID, name and years; an enrichment may only add amounts, indicators,
- * ratings and evidence, and fill an empty department. Every enrichment pins the SHA-256 of the record
+ * ratings and evidence, and fill an empty department, purpose, activities or outcomes (a filled one is never replaced). Every enrichment pins the SHA-256 of the record
  * it extends, and anything that disagrees with a published value is refused rather than overwritten.
  */
 import { createHash } from 'node:crypto';
 import type { EvaluationAmount, EvaluationDataset, EvaluationEvidence, EvaluationIndicator, EvaluationRating, EvaluationSourceStatus, ProjectEvaluation } from '../../../web/src/types/evaluation';
 
 export const ENRICHMENT_WARNING = '別資料（同じ事業の評価シート）の原文から、金額・指標・評価・所管を補強した。補強した値の根拠は各値の出典に記録。';
+export const NARRATIVE_ENRICHMENT_WARNING = '目的・事業内容・成果は、同じ事業の評価シートの原文（出典に記録）から補った。';
+const NARRATIVES = ['purpose', 'activities', 'outcomes'] as const;
+type Narrative = (typeof NARRATIVES)[number];
 export interface EnrichmentAdd {
   department: string | null;
   amounts: EvaluationAmount[];
   indicators: EvaluationIndicator[];
   ratings: EvaluationRating[];
   evidence: EvaluationEvidence[];
+  /** Only present when filled (older inputs stay byte-identical). */
+  purpose?: string;
+  activities?: string;
+  outcomes?: string;
 }
 export interface Enrichment { targetId: string; targetRecordSha256: string; sheetId: string; add: EnrichmentAdd }
 export interface EnrichmentInput {
@@ -39,7 +46,8 @@ const indicatorKey = (i: EvaluationIndicator) => `${norm(i.name)}\u0000${i.fisca
 const ratingKey = (r: EvaluationRating) => `${r.kind}\u0000${norm(r.label)}`;
 
 /** Additions of `sheet` to `target`, or 'conflict' when a shared key carries a different published value. */
-export function additions(target: ProjectEvaluation, sheet: ProjectEvaluation): EnrichmentAdd | 'conflict' {
+/** narratives: 空欄の目的・事業内容・成果も埋める（2026-11 以降の補強だけ。既存の補強入力はバイト一致で再現するため既定は false） */
+export function additions(target: ProjectEvaluation, sheet: ProjectEvaluation, narratives = false): EnrichmentAdd | 'conflict' {
   const amounts = new Map(target.amounts.map(a => [amountKey(a), a]));
   const indicators = new Map(target.indicators.map(i => [indicatorKey(i), i]));
   const ratings = new Map(target.ratings.map(r => [ratingKey(r), r]));
@@ -61,12 +69,15 @@ export function additions(target: ProjectEvaluation, sheet: ProjectEvaluation): 
     add.ratings.push(r); ratings.set(ratingKey(r), r);
   }
   if (!target.department && sheet.department) add.department = sheet.department;
-  if (add.amounts.length || add.indicators.length || add.ratings.length || add.department) add.evidence = sheet.evidence;
+  // 文章の欄は空欄だけを埋める。既にある文章と違っても衝突とはしない（改行・空白の違いが普通にあるため、上書きしないだけ）
+  if (narratives) for (const k of NARRATIVES) if (!target[k] && sheet[k]) add[k] = sheet[k]!;
+  const narrative = NARRATIVES.some(k => add[k] !== undefined);
+  if (add.amounts.length || add.indicators.length || add.ratings.length || add.department || narrative) add.evidence = sheet.evidence;
   return add;
 }
 
 /** One-to-one matching by name and a known, equal period; department only has to be compatible. */
-export function buildEnrichments(published: ProjectEvaluation[], sheets: ProjectEvaluation[]): { enrichments: Enrichment[]; skipped: EnrichmentSkip[] } {
+export function buildEnrichments(published: ProjectEvaluation[], sheets: ProjectEvaluation[], narratives = false): { enrichments: Enrichment[]; skipped: EnrichmentSkip[] } {
   const skipped: EnrichmentSkip[] = [];
   const pairs: { sheet: ProjectEvaluation; target: ProjectEvaluation }[] = [];
   for (const sheet of sheets) {
@@ -86,13 +97,13 @@ export function buildEnrichments(published: ProjectEvaluation[], sheets: Project
     group.sort((a, b) => a.sheet.id.localeCompare(b.sheet.id));
     const { sheet, target } = group[0];
     if (group.length > 1) {
-      const variants = group.map(g => additions(g.target, g.sheet));
+      const variants = group.map(g => additions(g.target, g.sheet, narratives));
       if (variants.some(v => v === 'conflict') || new Set(variants.map(v => strip(v as EnrichmentAdd))).size > 1) {
         for (const g of group) skipped.push({ sheetId: g.sheet.id, reason: 'shared_target', targetId: target.id });
         continue;
       }
     }
-    const add = additions(target, sheet);
+    const add = additions(target, sheet, narratives);
     if (add === 'conflict') { skipped.push({ sheetId: sheet.id, reason: 'conflict', targetId: target.id }); continue; }
     if (!add.evidence.length) { skipped.push({ sheetId: sheet.id, reason: 'nothing_to_add', targetId: target.id }); continue; }
     enrichments.push({ targetId: target.id, targetRecordSha256: recordSha256(target), sheetId: sheet.id, add });
@@ -113,15 +124,23 @@ export function applyEnrichments(dataset: EvaluationDataset, input: EnrichmentIn
     const at = index.get(e.targetId); check(at !== undefined, `Enrichment target not found: ${e.targetId}`);
     const target = projects[at]; check(recordSha256(target) === e.targetRecordSha256, `Enrichment target changed: ${e.targetId}`);
     check(target.municipalityCode === input.municipalityCode, 'Enrichment municipality mismatch');
-    const sheet: ProjectEvaluation = { ...target, department: e.add.department ?? target.department, amounts: e.add.amounts, indicators: e.add.indicators, ratings: e.add.ratings, evidence: e.add.evidence };
-    const recheck = additions(target, sheet);
+    const sheet: ProjectEvaluation = { ...target, department: e.add.department ?? target.department, amounts: e.add.amounts, indicators: e.add.indicators, ratings: e.add.ratings, evidence: e.add.evidence,
+      ...Object.fromEntries(NARRATIVES.map(k => [k, e.add[k] ?? target[k]])) };
+    const recheck = additions(target, sheet, NARRATIVES.some(k => e.add[k] !== undefined));
     check(recheck !== 'conflict' && recheck.amounts.length === e.add.amounts.length && recheck.indicators.length === e.add.indicators.length
-      && recheck.ratings.length === e.add.ratings.length && (e.add.department === null || !target.department), `Enrichment is not purely additive: ${e.targetId}`);
+      && recheck.ratings.length === e.add.ratings.length && (e.add.department === null || !target.department)
+      && NARRATIVES.every(k => e.add[k] === undefined || (!target[k] && typeof e.add[k] === 'string' && e.add[k]!.trim() !== '')), `Enrichment is not purely additive: ${e.targetId}`);
     check(e.add.evidence.length > 0, 'Enrichment without evidence');
+    const filled = NARRATIVES.filter(k => e.add[k] !== undefined);
+    const structural = e.add.amounts.length || e.add.indicators.length || e.add.ratings.length || e.add.department;
+    const warnings = [...target.warnings];
+    if (structural && !warnings.includes(ENRICHMENT_WARNING)) warnings.push(ENRICHMENT_WARNING);
+    if (filled.length && !warnings.includes(NARRATIVE_ENRICHMENT_WARNING)) warnings.push(NARRATIVE_ENRICHMENT_WARNING);
     projects[at] = { ...target, department: target.department ?? e.add.department,
+      ...Object.fromEntries(filled.map(k => [k, e.add[k]])) as Partial<Record<Narrative, string>>,
       amounts: [...target.amounts, ...e.add.amounts], indicators: [...target.indicators, ...e.add.indicators],
       ratings: [...target.ratings, ...e.add.ratings], evidence: [...target.evidence, ...e.add.evidence],
-      warnings: target.warnings.includes(ENRICHMENT_WARNING) ? target.warnings : [...target.warnings, ENRICHMENT_WARNING] };
+      warnings };
   }
   const known = new Set(dataset.sources.map(s => s.id));
   const sources = [...dataset.sources, ...input.sources.filter(s => !known.has(s.id))];

@@ -67,10 +67,10 @@ export function costFlowYears(projects: ProjectEvaluation[], minimumProjects = 5
   return years.sort((a, b) => b.fiscalYear - a.fiscalYear);
 }
 
-/** 図を出せる区分（決算額を優先）。どちらもなければ null */
+/** 図を出せる区分（予算額を優先）。どちらもなければ null */
 export function defaultFlowKind(projects: ProjectEvaluation[]): FlowKind | null {
-  if (costFlowYears(projects, 5, 'actual').length) return 'actual';
-  return costFlowYears(projects, 5, 'budget').length ? 'budget' : null;
+  if (costFlowYears(projects, 5, 'budget').length) return 'budget';
+  return costFlowYears(projects, 5, 'actual').length ? 'actual' : null;
 }
 
 /** 事業数が最も多い年度（同数なら新しい年度） */

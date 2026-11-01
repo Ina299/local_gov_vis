@@ -43,14 +43,14 @@ describe('project cost flow', () => {
     expect(defaultFlowYear(costFlowYears(projects))).toBe(2024);
   });
 
-  it('builds the budget view separately and prefers actuals by default', () => {
+  it('builds the budget view separately and prefers budgets by default', () => {
     const budgets = Array.from({ length: 5 }, (_, i) => record(`予算${i}`, '総務部', [['budget', 2025, 100 + i], ['actual', 2025, 50]]));
     const [b2025] = costFlowYears(budgets, 5, 'budget');
     expect(b2025.kind).toBe('budget');
     expect(b2025.total).toBe(510);
     expect(costFlowLayout(b2025).nodes[0].label).toBe('収録できた事業の予算額');
-    expect(defaultFlowKind(budgets)).toBe('actual');
-    expect(defaultFlowKind(budgets.map((p) => ({ ...p, amounts: p.amounts.filter((a) => a.kind === 'budget') })))).toBe('budget');
+    expect(defaultFlowKind(budgets)).toBe('budget');
+    expect(defaultFlowKind(budgets.map((p) => ({ ...p, amounts: p.amounts.filter((a) => a.kind === 'actual') })))).toBe('actual');
     expect(defaultFlowKind([])).toBeNull();
   });
 

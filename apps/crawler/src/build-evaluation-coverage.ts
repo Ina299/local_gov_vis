@@ -20,10 +20,10 @@ import { readdir } from 'node:fs/promises';
 // web 側は CommonJS として読み込まれるため、名前付き export は default 経由になることがある
 const interop = <T,>(m: T) => ((m as { default?: unknown }).default ?? m) as T;
 const { costFlowYears, defaultFlowYear } = interop(flowLib);
-// 事業コストの流れ: 決算額の図を優先し、なければ予算額の図（画面の既定と同じ）
+// 事業コストの流れ: 予算額の図を優先し、なければ決算額の図（画面の既定と同じ）
 const flowYearsOf = (projects: EvaluationDataset['projects']) => {
-  const actual = costFlowYears(projects, 5, 'actual');
-  return actual.length ? actual : costFlowYears(projects, 5, 'budget');
+  const budget = costFlowYears(projects, 5, 'budget');
+  return budget.length ? budget : costFlowYears(projects, 5, 'actual');
 };
 const { COVERAGE_LEVELS, transparencyOf } = interop(coverageLib);
 

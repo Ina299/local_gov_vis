@@ -2384,3 +2384,11 @@ a.text-button {
   margin: 0.4rem 0 0;
   font-size: 0.85rem;
 }
+
+/* 事業カードの要点（金額の最新年度・評価）。タイトル直下に横並び */
+.evaluation-key-facts { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 8px 0; }
+.evaluation-key-facts > div { display: flex; flex-direction: column; }
+.evaluation-key-facts dt { color: #536879; font-size: .78rem; }
+.evaluation-key-facts dd { margin: 0; font-size: 1.05rem; font-weight: 600; color: #1a1a2e; }
+.evaluation-warning-details > summary { cursor: pointer; color: #536879; font-size: .83rem; margin: 6px 0; }
+.evaluation-panel-link { margin: 0 0 6px; text-align: left; }

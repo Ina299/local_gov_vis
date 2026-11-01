@@ -33,11 +33,11 @@ export function ProjectCostSankey({ projects, municipalityCode, municipalityName
     loadBudgetTotals().then((file) => { if (live) setTotals(file.totals[key] ?? {}); }).catch(() => { if (live) setTotalsFailed(true); });
     return () => { live = false; };
   }, [municipalityCode]);
-  // 決算額を正として既定にし、予算額は別の図として切り替える（両方あるときだけ切り替えを出す）
+  // 既定は予算額（なければ決算額）。決算額は別の図として切り替える（両方あるときだけ切り替えを出す）
   const actualYears = useMemo(() => costFlowYears(projects, 5, 'actual'), [projects]);
   const budgetYears = useMemo(() => costFlowYears(projects, 5, 'budget'), [projects]);
   const [chosenKind, setChosenKind] = useState<FlowKind | null>(null);
-  const kind: FlowKind = chosenKind ?? (actualYears.length || !budgetYears.length ? 'actual' : 'budget');
+  const kind: FlowKind = chosenKind ?? (budgetYears.length || !actualYears.length ? 'budget' : 'actual');
   const years = kind === 'actual' ? actualYears : budgetYears;
   const kindLabel = FLOW_KIND_LABEL[kind];
   const [chosen, setChosen] = useState<number | null>(null);
@@ -59,6 +59,8 @@ export function ProjectCostSankey({ projects, municipalityCode, municipalityName
   const midY = labelYs(mids); const rightY = labelYs(rights);
   const height = Math.max(layout.height, ...Array.from(rightY.values()).map((y) => y + 16), ...Array.from(midY.values()).map((y) => y + 16));
   const context = budgetContext(year.total, totals?.[String(fiscalYear)]);
+  // 歳出総額の棒の下の名前の分だけ図を伸ばす
+  const chartHeight = context ? Math.max(height, FLOW.top + layout.nodes[0].h + 52) : height;
   const totalYears = totals ? Object.keys(totals).map(Number).sort((a, b) => a - b) : [];
   // 歳出総額の棒: 収録できた事業の分（上端）を色付きで、残りを灰色で。細すぎて見えないときは 2px にする
   const barH = layout ? layout.nodes[0].h : FLOW.plot; // 全体の棒は「収録できた事業」と同じ高さに描き、その中の割合で収録分を示す
@@ -102,7 +104,7 @@ export function ProjectCostSankey({ projects, municipalityCode, municipalityName
           : `${fiscalYear}年度の歳出総額（決算）はまだ収録していないため、全体の規模は表示していません${totalYears.length ? `（収録は${totalYears[0]}〜${totalYears[totalYears.length - 1]}年度）` : ''}。`}
       </p>}
       <div className="evaluation-cost-flow-chart" onMouseLeave={() => setHover(null)}>
-        <svg viewBox={`0 0 ${FLOW.width} ${height}`} role="img" aria-label={`${municipalityName}の${fiscalYear}年度 事業コストの流れ（${kindLabel}）`}>
+        <svg viewBox={`0 0 ${FLOW.width} ${chartHeight}`} role="img" aria-label={`${municipalityName}の${fiscalYear}年度 事業コストの流れ（${kindLabel}）`}>
           {context && <g>
             {/* 拡大の扇: 歳出総額の中の収録分を、右の「収録できた事業」の高さに引き伸ばして見せる（同じ縮尺ではない） */}
             <path d={`M${FLOW.budgetX + FLOW.nodeW},${FLOW.top} L${FLOW.x[0]},${FLOW.top} L${FLOW.x[0]},${layout.nodes[0].y + layout.nodes[0].h} L${FLOW.budgetX + FLOW.nodeW},${FLOW.top + slice} Z`}
@@ -114,9 +116,10 @@ ${formatAmount(context.total)}
             <rect x={FLOW.budgetX} y={FLOW.top} width={FLOW.nodeW} height={slice} fill={EXP_COLOR} rx={1}
               onMouseMove={show('budget', `収録できた事業の${kindLabel} ${formatAmount(year.total)}
 歳出総額 ${formatAmount(context.total)} の ${pct(context.ratio)}`)} />
-            <text x={FLOW.budgetX + FLOW.nodeW + 6} y={FLOW.top + barH - 34} fontSize={12} fill="#1a1a2e" fontWeight={600}>歳出総額（決算）</text>
-            <text x={FLOW.budgetX + FLOW.nodeW + 6} y={FLOW.top + barH - 18} fontSize={12} fill="#1a1a2e">{formatAmount(context.total)}</text>
-            <text x={FLOW.budgetX + FLOW.nodeW + 6} y={FLOW.top + barH - 3} fontSize={10} fill="#65666b">うち収録 {pct(context.ratio)}</text>
+            {/* 棒の名前は棒の下に置く（棒の横だと、右の事業の流れ全体の名前に見えるため） */}
+            <text x={FLOW.budgetX} y={FLOW.top + barH + 15} fontSize={12} fill="#1a1a2e" fontWeight={600}>歳出総額（決算）</text>
+            <text x={FLOW.budgetX} y={FLOW.top + barH + 30} fontSize={12} fill="#1a1a2e">{formatAmount(context.total)}</text>
+            <text x={FLOW.budgetX} y={FLOW.top + barH + 44} fontSize={10} fill="#65666b">うち収録 {pct(context.ratio)}</text>
             <text x={(FLOW.budgetX + FLOW.x[0]) / 2 + 20} y={FLOW.top + barH * 0.42} fontSize={10} fill="#65666b" textAnchor="middle">拡大</text>
           </g>}
           {layout.ribbons.map((r) => {
