@@ -89,7 +89,8 @@ async function build(output: string, codes: string[]) {
     const counts = skipped.reduce<Record<string, number>>((m, s) => (m[s.reason] = (m[s.reason] ?? 0) + 1, m), {});
     report.push({ code, sheets: sheets.length, enriched: enrichments.length, skipped: counts,
       added: { amounts: enrichments.reduce((n, e) => n + e.add.amounts.length, 0), indicators: enrichments.reduce((n, e) => n + e.add.indicators.length, 0),
-        ratings: enrichments.reduce((n, e) => n + e.add.ratings.length, 0), departments: enrichments.filter(e => e.add.department).length } });
+        ratings: enrichments.reduce((n, e) => n + e.add.ratings.length, 0), departments: enrichments.filter(e => e.add.department).length,
+        purposes: enrichments.filter(e => e.add.purpose).length, activities: enrichments.filter(e => e.add.activities).length, outcomes: enrichments.filter(e => e.add.outcomes).length } });
     if (!enrichments.length) continue;
     const input: EnrichmentInput = { schemaVersion: 1, kind: 'evaluation_enrichment', generatedAt: generatedAt!, municipalityCode: code, enrichments, sources };
     await writeFile(join(output, `${code}.json`), json(input));

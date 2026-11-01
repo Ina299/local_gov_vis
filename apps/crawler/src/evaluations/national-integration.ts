@@ -15,7 +15,9 @@ export const BASELINE_SHA256 = 'a6e003dde6382383050f431ae44be65e3097580df63ef660
 export const BASELINE_CODES = ['01100', '11237', '14206'] as const;
 // Multi-year evidence remains bounded per municipality, matching the browser's 32 MiB limit.
 export const LIMITS = { indexBytes: 2 * 1024 * 1024, shardBytes: 32 * 1024 * 1024,
-  baselineBytes: 8 * 1024 * 1024, totalBytes: 512 * 1024 * 1024, municipalities: 1741, records: 100_000 } as const;
+  baselineBytes: 8 * 1024 * 1024,
+  // 全自治体の事業票の合計（未圧縮）。2026-11 に目的・事業内容・成果の補強で 512MiB を超えたため 1GiB に。配信は gzip（compress-data.mjs）
+  totalBytes: 1024 * 1024 * 1024, municipalities: 1741, records: 100_000 } as const;
 const INDEX_PATH = 'evaluations-index.json';
 const MANIFEST_PATH = 'data/evaluations/integration-provenance.json';
 const record = (value: unknown): value is Record<string, unknown> => !!value && typeof value === 'object' && !Array.isArray(value);

@@ -6,6 +6,12 @@ import { entries as n2 } from './n2';
 import { entries as n3 } from './n3';
 import { entries as n4 } from './n4';
 import { entries as n5 } from './n5';
+import { entries as m0 } from './m0';
+import { entries as m1 } from './m1';
+import { entries as m2 } from './m2';
+import { entries as m3 } from './m3';
+import { entries as m4 } from './m4';
+import { entries as m5 } from './m5';
 
 type Entry = { extract: (input: CachedInput, inputs: CachedInput[]) => ProjectEvaluation[]; scope: string };
 
@@ -28,4 +34,6 @@ function combine(groups: Record<string, Entry>[]): Record<string, Entry> {
  */
 export const enrichmentExtractors: { since: string; extractors: Record<string, Entry> }[] = [
   { since: '2026-10-26T00:00:00.000Z', extractors: combine([n0, n1, n2, n3, n4, n5]) },
+  // 目的・事業内容・成果の補強（空欄だけを埋める。enrichment.ts の narratives）
+  { since: '2026-11-01T00:00:00.000Z', extractors: combine([m0, m1, m2, m3, m4, m5]) },
 ];

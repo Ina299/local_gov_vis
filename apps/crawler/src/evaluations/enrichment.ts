@@ -93,7 +93,16 @@ export function buildEnrichments(published: ProjectEvaluation[], sheets: Project
   const byTarget = new Map<string, { sheet: ProjectEvaluation; target: ProjectEvaluation }[]>();
   for (const pair of pairs) byTarget.set(pair.target.id, [...(byTarget.get(pair.target.id) ?? []), pair]);
   const enrichments: Enrichment[] = [];
-  for (const group of byTarget.values()) {
+  for (const all of byTarget.values()) {
+    // 目的等の補強では、何も足さないシート（先の補強で足し終えた旧抽出器のシートなど）を突き合わせから外す。
+    // 外さないと、目的を足すシートと空のシートが「足す値の違う再掲」とみなされ、両方とも補強されない
+    const group = narratives ? all.filter(g => { const v = additions(g.target, g.sheet, true); return v === 'conflict' || v.evidence.length > 0; }) : all;
+    if (!group.length) { for (const g of all) skipped.push({ sheetId: g.sheet.id, reason: 'nothing_to_add', targetId: g.target.id }); continue; }
+    // 空のシートを外したことで通るのは文章（目的等）だけ。金額・指標・評価・所管を足す組は従来どおり再掲の一致を求める
+    if (group.length < all.length && group.some(g => { const v = additions(g.target, g.sheet, true); return v === 'conflict' || v.amounts.length || v.indicators.length || v.ratings.length || v.department; })) {
+      for (const g of all) skipped.push({ sheetId: g.sheet.id, reason: 'shared_target', targetId: all[0].target.id });
+      continue;
+    }
     group.sort((a, b) => a.sheet.id.localeCompare(b.sheet.id));
     const { sheet, target } = group[0];
     if (group.length > 1) {
