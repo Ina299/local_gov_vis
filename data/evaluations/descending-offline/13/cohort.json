@@ -1,0 +1,375 @@
+{
+  "prefecture": "13",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-01T12:59:44.266727+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "13421",
+      "municipalityName": "小笠原村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a012224d581df31256f7dc4d40fb428af5610d2d92039e395c3876f0bb54e8db"
+    },
+    {
+      "municipalityCode": "13402",
+      "municipalityName": "青ヶ島村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "294b1f770acee7aa8794bce726d0a88631b3edccc2652a189e1bf4228459e887"
+    },
+    {
+      "municipalityCode": "13401",
+      "municipalityName": "八丈町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6c6ef11468ffa528646abbfbbceb301faa22e721e6feafb324be964deb05e371"
+    },
+    {
+      "municipalityCode": "13382",
+      "municipalityName": "御蔵島村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "446ec8f357ab595527e5a24ba52052d8ca4af64fd85a2e9e4bd618e62432600a"
+    },
+    {
+      "municipalityCode": "13381",
+      "municipalityName": "三宅村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "661a00126888d67a51eb9b26810cc5c586ee93f2acc59f1a55e55cd95b9b844b"
+    },
+    {
+      "municipalityCode": "13364",
+      "municipalityName": "神津島村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3980dc5661d58ebd518c32a502f2f47aa7b693b6e5a53e01d313b79a6b1c7b07"
+    },
+    {
+      "municipalityCode": "13363",
+      "municipalityName": "新島村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "8f4d915b536a2f8bc45deedb51a3b828e8c0b4919447875f55aa5013f76f2e76"
+    },
+    {
+      "municipalityCode": "13362",
+      "municipalityName": "利島村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "0d208ad2260c14bdbfbcb63bd24220745ab42ffe0243002bc6601f36fe7ca92b"
+    },
+    {
+      "municipalityCode": "13361",
+      "municipalityName": "大島町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "21934e8ef97730a1a74e5ce72df8b1617aab8443e4c1f16ea2daf6e3e126e62a"
+    },
+    {
+      "municipalityCode": "13308",
+      "municipalityName": "奥多摩町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "309e89d7757634d10773fcc2fb2f35241a83ab470d751cd292a119d2a64d983b"
+    },
+    {
+      "municipalityCode": "13307",
+      "municipalityName": "檜原村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "aa42f6c0a14e6b71f4c41ca8edd5b8d6747dc97fab7446ac3e7f2611ae1afe71"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "42e863116b9cc2d746b7d58c699cabcc92f9b16707c24cc41b84c8acd27c65a5"
+    },
+    {
+      "municipalityCode": "13303",
+      "municipalityName": "瑞穂町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "10be3a576d049a4347ac65bdb2d013db8fee0eac260c2de0badc994d00b47e52"
+    },
+    {
+      "municipalityCode": "13229",
+      "municipalityName": "西東京市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "78f046a2febc0c5aeecd10bdf042ca0eb1b2e1327da4f9be18edf3a6a5704b5e"
+    },
+    {
+      "municipalityCode": "13228",
+      "municipalityName": "あきる野市",
+      "datasetSha256": "c0a652fa560794f53f1ec11f84b35f42b869832e9a7b06251722275ceadcc1f4",
+      "evidenceShardSha256": "1a4f453a92101c0300dd023bbd72581f82dc83a9e0a38e4c4e96c8a9276fc950"
+    },
+    {
+      "municipalityCode": "13227",
+      "municipalityName": "羽村市",
+      "datasetSha256": "0882dc30e260fcccfc339bddbaaa09069f2b854aae9b9c50b56f73aea0bd3d24",
+      "evidenceShardSha256": "405815b5091d6aad2863b4ff75ea81767ff9c3703fa01dc5ac18d0d264566286"
+    },
+    {
+      "municipalityCode": "13225",
+      "municipalityName": "稲城市",
+      "datasetSha256": "e559aa0659e5ac5795754edbfefb606d2cb73817896de584d435085530de8ddb",
+      "evidenceShardSha256": "7d7a2c18a73709c681089e6b1522c0324cfec99cef818babd83d1a48bb429050"
+    },
+    {
+      "municipalityCode": "13224",
+      "municipalityName": "多摩市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b6c620ce31c1e1f7c176b117e44bb81004bdc3e8e1260110a3a045b3209ff8d6"
+    },
+    {
+      "municipalityCode": "13222",
+      "municipalityName": "東久留米市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e0b87bb567cc984c22c7c6905a302c62ada92d8893e96c393ab37088e1074b9a"
+    },
+    {
+      "municipalityCode": "13221",
+      "municipalityName": "清瀬市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "86d83a787f4b50a32820738641aa995906bb56bd9f1b5ab860c901af9d6a7a64"
+    },
+    {
+      "municipalityCode": "13220",
+      "municipalityName": "東大和市",
+      "datasetSha256": "f91d0726878609c33918faf66287d4bf390e8309bd02d35db9ee4ff49b43b475",
+      "evidenceShardSha256": "cf9c9b0e1ea17303325d07526f4db2116cc298c50b6b8de54f12bcf1f8f0ecaf"
+    },
+    {
+      "municipalityCode": "13219",
+      "municipalityName": "狛江市",
+      "datasetSha256": "7dd0f29f738e8ea9fd72f3f995e32e0638d6506535cb49b118cc8d88aa1422e2",
+      "evidenceShardSha256": "031c024484a84e2efb89907cbc886b043274240e3f6d8122126923a13af12298"
+    },
+    {
+      "municipalityCode": "13218",
+      "municipalityName": "福生市",
+      "datasetSha256": "8c02ff0405bf5ab08a4433b7d1db4978037fcd2c9537a9dffacf5f33e429ee72",
+      "evidenceShardSha256": "2da21a04b33ce52d863bad847ef44729e78b63dfcc22c24b6d5a8d83a26417fd"
+    },
+    {
+      "municipalityCode": "13215",
+      "municipalityName": "国立市",
+      "datasetSha256": "d92f2511d1a05f955451c90c83b64f0d39c8db6208557756edda1012a8464c76",
+      "evidenceShardSha256": "36303f29ecc387a179d21f279e847bdb92b3699428bafab04ea253d834dde4a3"
+    },
+    {
+      "municipalityCode": "13213",
+      "municipalityName": "東村山市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e58ad09043e22e49311099aca5c7916bbe6f502d5b060841f7544f853bdcce6a"
+    },
+    {
+      "municipalityCode": "13212",
+      "municipalityName": "日野市",
+      "datasetSha256": "7e00f3a4ba9e0a1dc35534a27170fbf235aa8e8c522e06eeedd32c559f6d5f55",
+      "evidenceShardSha256": "a6324b7e848c4b7b6675a24522580cfff3577784dbeb638a81ae66535a998ee7"
+    },
+    {
+      "municipalityCode": "13211",
+      "municipalityName": "小平市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f5c8348afd38679dc86d5ff2d0b3f03cd5466cb0a8a4018f0890ba75a14af82b"
+    },
+    {
+      "municipalityCode": "13210",
+      "municipalityName": "小金井市",
+      "datasetSha256": "6bbba0e836904af4fa9239e450ad4100c193702d0dbd63cb29dbb13c5c34b840",
+      "evidenceShardSha256": "b26ee2d505d9f12e7c9d08bbe48366d1a895b2e2c6d7c45ddf809a602458ccf7"
+    },
+    {
+      "municipalityCode": "13209",
+      "municipalityName": "町田市",
+      "datasetSha256": "80fb13e75d84fca7d841b2ee6ea9cfdec8ffb6938ad10b2c00ff7a21c34fe22d",
+      "evidenceShardSha256": "dc2ab27ff5cb02b706f4cc051b121410372c9726d46dbf062b3f316ccda75b3b"
+    },
+    {
+      "municipalityCode": "13208",
+      "municipalityName": "調布市",
+      "datasetSha256": "74d020e6cc4bbde6b31f2d7b8d283690ceac6293c9ada63a88127a11d7765001",
+      "evidenceShardSha256": "db4079d2bf267886d8f4fe96873b3d748b1cb4f39fe4666b3214314c55ad2aa2"
+    },
+    {
+      "municipalityCode": "13207",
+      "municipalityName": "昭島市",
+      "datasetSha256": "420ca8107b19224cbf8030ed4839aca87435ceabfacd61c9687ef77b81225f8a",
+      "evidenceShardSha256": "ae914b4f2d565decd5c272fea4fd47485186eb829e75cc18f7054ab33e09d9c8"
+    },
+    {
+      "municipalityCode": "13206",
+      "municipalityName": "府中市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6b3acd49069328f4bb04d8dd44ccaa51903319dad2483e99bb747fda086788bb"
+    },
+    {
+      "municipalityCode": "13205",
+      "municipalityName": "青梅市",
+      "datasetSha256": "27e41ddc8f2a378971f5bd0e4a870bc93110cf05242f256eb66d7760fb78a887",
+      "evidenceShardSha256": "e0df5d92677068c6c58b3e85d2f8f616c0719bd4ad1de348842c76f83d125813"
+    },
+    {
+      "municipalityCode": "13204",
+      "municipalityName": "三鷹市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a83e97fca39a7940f6e62d3a086b910144c80a9910f4d372c8f2a31a169eae5a"
+    },
+    {
+      "municipalityCode": "13203",
+      "municipalityName": "武蔵野市",
+      "datasetSha256": "da8808d191ec2e07eeb4d55b01fee938839cfb746cc9990ba6b24559b8cdf76c",
+      "evidenceShardSha256": "26648f35d1f285778e0cf8fc1f8eeb75ce537fe27e2ff6198452fe02eaa5ec31"
+    },
+    {
+      "municipalityCode": "13202",
+      "municipalityName": "立川市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "200be60aa576400a7e18d5579d7eec5f9d45b8caf82aebf76e3f4446e26d5dcc"
+    },
+    {
+      "municipalityCode": "13201",
+      "municipalityName": "八王子市",
+      "datasetSha256": "95521f109af1184792e19a61a26866722f6ea5fbb4a09a5793b4a936da6b84f4",
+      "evidenceShardSha256": "4b871357dd2f8684b52289a873005c67315506f61c765d106ae01735457f32db"
+    },
+    {
+      "municipalityCode": "13123",
+      "municipalityName": "江戸川区",
+      "datasetSha256": null,
+      "evidenceShardSha256": "5b32423d09207a1e3d0996fb9e86e87996169c57776df3ff6f522d24c8ba74a4"
+    },
+    {
+      "municipalityCode": "13122",
+      "municipalityName": "葛飾区",
+      "datasetSha256": null,
+      "evidenceShardSha256": "1a823fd1e991e4f774efd2530acaa72a666ea7a122519e84bcfbafe608d1d879"
+    },
+    {
+      "municipalityCode": "13120",
+      "municipalityName": "練馬区",
+      "datasetSha256": "2fba95fd1468bdf772317eed27acd250bf69abca71675300c9e28b0780d0e600",
+      "evidenceShardSha256": "4aac8b76d802865b013af77632e8109f793d0249d8b63b2490e0366e1adc6a0c"
+    },
+    {
+      "municipalityCode": "13119",
+      "municipalityName": "板橋区",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ee4a71f5512ca48000be4b13de8e5e7cda70f5caf8a5fea3d18d3547e2aa3570"
+    },
+    {
+      "municipalityCode": "13118",
+      "municipalityName": "荒川区",
+      "datasetSha256": null,
+      "evidenceShardSha256": "9419c4abceaec365aba6c199ce8b4650fd96812b244ad381b1e5dbaabda14faa"
+    },
+    {
+      "municipalityCode": "13117",
+      "municipalityName": "北区",
+      "datasetSha256": "b1ce757fe07bf796dc2ec96db08de9d3bde54b7996ec712011d42cadc2169cf2",
+      "evidenceShardSha256": "d08b3f3d0d60ca417599801432a5f0706eea0956d008b2def6f76f278eee39e5"
+    },
+    {
+      "municipalityCode": "13116",
+      "municipalityName": "豊島区",
+      "datasetSha256": "e127313e2955290cd28e81fcbd87ae09b63fba81b632eac2a558878f91f2ba0b",
+      "evidenceShardSha256": "78f3836de036aeff1063af8e2730b942d53e1a8436d9e5307d847501b8044e58"
+    },
+    {
+      "municipalityCode": "13115",
+      "municipalityName": "杉並区",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e6d8bef6c4a2eb4f376a244c4ef68299ddccef564d02d02202f6e17228a33bd1"
+    },
+    {
+      "municipalityCode": "13114",
+      "municipalityName": "中野区",
+      "datasetSha256": "331702f0e4eca7c35f9bba83fa6ed96edc28a97c110b9c2350ba3a5868e185ba",
+      "evidenceShardSha256": "e35d4676a3f24f5c4c26191c22e747365dcccae4c3822bd5a8fd7bae6ab9c3f2"
+    },
+    {
+      "municipalityCode": "13113",
+      "municipalityName": "渋谷区",
+      "datasetSha256": null,
+      "evidenceShardSha256": "549a50b1304fa08cf63ea3401253fd68e8d15a9d5dbf95c78092a70aa3135d61"
+    },
+    {
+      "municipalityCode": "13112",
+      "municipalityName": "世田谷区",
+      "datasetSha256": "a3b8b5fe0bc1028fd6934a44bc88ea660c670f117238d00161713c4ad46de63d",
+      "evidenceShardSha256": "e46bf25fb9344e89fb47830e7d945f934c4e2048f975f4a2be39a0c3bc749bd9"
+    },
+    {
+      "municipalityCode": "13111",
+      "municipalityName": "大田区",
+      "datasetSha256": null,
+      "evidenceShardSha256": "8f1e1fd7c4b803393ac55faaaa7d3d45a486a0595a3949382c94d1815721ef58"
+    },
+    {
+      "municipalityCode": "13110",
+      "municipalityName": "目黒区",
+      "datasetSha256": null,
+      "evidenceShardSha256": "2ffd2d0bfb9dfdaec2bf634a5299bb18590286802bcd81d2a80a8774ed1dbae6"
+    },
+    {
+      "municipalityCode": "13108",
+      "municipalityName": "江東区",
+      "datasetSha256": "120b394b6e04ea5568a68f2bb44b09575bd7a6648a8a40f8758940d3cb87481d",
+      "evidenceShardSha256": "2cd326612c510a2e7e135a1c54a02a73666dfc15ec066ba72a7fc78e6182d94b"
+    },
+    {
+      "municipalityCode": "13105",
+      "municipalityName": "文京区",
+      "datasetSha256": null,
+      "evidenceShardSha256": "2aee60046ec039cac6b25688e716a7967672552ea873497eae5d027397477cf0"
+    },
+    {
+      "municipalityCode": "13104",
+      "municipalityName": "新宿区",
+      "datasetSha256": null,
+      "evidenceShardSha256": "20a2f1759002783cb84530a9dbca31a7fa02889d84bfef5a5c7e2d16cd3ee4c3"
+    },
+    {
+      "municipalityCode": "13101",
+      "municipalityName": "千代田区",
+      "datasetSha256": "9edf01b08afe60dd3748bc8401d027b86d48ef22f601135beb3f040c91760a65",
+      "evidenceShardSha256": "d7d6b93b0b507b22a7c984ef875af7863d46dc70567c43021ec1043f8cd1edae"
+    }
+  ],
+  "skipped": [
+    {
+      "municipalityCode": "13102",
+      "municipalityName": "中央区",
+      "reason": "Recent master dataset differs from common baseline"
+    },
+    {
+      "municipalityCode": "13103",
+      "municipalityName": "港区",
+      "reason": "Recent master dataset differs from common baseline"
+    },
+    {
+      "municipalityCode": "13106",
+      "municipalityName": "台東区",
+      "reason": "Recent master dataset differs from common baseline"
+    },
+    {
+      "municipalityCode": "13107",
+      "municipalityName": "墨田区",
+      "reason": "Recent master dataset differs from common baseline"
+    },
+    {
+      "municipalityCode": "13109",
+      "municipalityName": "品川区",
+      "reason": "Recent master dataset differs from common baseline"
+    },
+    {
+      "municipalityCode": "13121",
+      "municipalityName": "足立区",
+      "reason": "Recent master dataset differs from common baseline"
+    },
+    {
+      "municipalityCode": "13214",
+      "municipalityName": "国分寺市",
+      "reason": "Recent master dataset differs from common baseline"
+    },
+    {
+      "municipalityCode": "13223",
+      "municipalityName": "武蔵村山市",
+      "reason": "Recent master dataset differs from common baseline"
+    }
+  ]
+}
