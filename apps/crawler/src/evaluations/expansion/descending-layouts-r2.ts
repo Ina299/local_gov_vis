@@ -1,3 +1,4 @@
+import {reviewKochi} from './descending-kochi';
 import {reviewFukuoka} from './descending-fukuoka';
 import {reviewSaga} from './descending-saga';
 import {reviewNagasaki} from './descending-nagasaki';
@@ -40,6 +41,7 @@ const evidenceHolds:Record<string,{code:string;proof:string;reason:string;status
  '0a23c81c6c6ae8a10e4fd6cd':{code:'46492',proof:'２．2020 年度実績（\n「宇宙乃浦」創生・「スペースサイエンスタウン構想」実現プロジェクト）',status:'joint_project_identity_hold',reason:'2020 actual report jointly covers two named projects with shared activities/budget, followed by2021 plans and forecast KPI cells. Individual allocation and boundaries are absent; do not split or assign shared figures.'}
 };
 export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]):LayoutReview|null{
+ const kochi=reviewKochi(input,inputs);if(kochi)return kochi;
  const fukuoka=reviewFukuoka(input,inputs);if(fukuoka)return fukuoka;
  const saga=reviewSaga(input,inputs);if(saga)return saga;
  const nagasaki=reviewNagasaki(input,inputs);if(nagasaki)return nagasaki;
