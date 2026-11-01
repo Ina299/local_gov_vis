@@ -60,6 +60,11 @@ function reviewTaketaEducation(i:CachedInput):LayoutReview|null{
  }
  const reviewed=[taketaReviewed,...taketaEarlierReviewed].find(x=>x.sourceId===i.sourceId);
  if(reviewed&&createHash('sha256').update(i.text).digest('hex')===reviewed.sourceFullTextSha256){
+ if('reviewedSheetCount' in reviewed && reviewed.reviewedSheetCount===heads.length){
+  r.status='reviewed_earlier_activity_sheets';r.reason='All '+heads.length+' cached actual-year sheet units reviewed; named activities accepted and example, cancellation, reversed, policy or parent identities individually held.';
+  for(const unit of r.units)if(unit.status==='layout_review'){unit.status='reviewed_sheet';unit.reason='Earlier sheet reviewed; unresolved title, policy, cancellation or parent identity is recorded separately.';}
+  for(const hold of reviewed.holds)r.units.push({start:heads[hold.sheet].index!,status:'individual_identity_hold',reason:hold.reason});
+ }
  if(i.sourceId===taketaReviewed.sourceId){
   r.status='reviewed_r7_activity_sheets';r.reason='All 44 actual-year activity sheets plus the blank example reviewed; literal names accepted, unresolved identities and title boundaries held individually.';
   for(const unit of r.units)if(unit.status==='layout_review'){unit.status='reviewed_sheet';unit.reason='All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately.';}
@@ -72,5 +77,9 @@ function reviewTaketaEducation(i:CachedInput):LayoutReview|null{
    }
   }
  }
+ if(c.year===2021){for(const p of r.projects)if(p.projectName==='家庭教育事業'){
+  const cancellation='予定していたが全て中止した。';const at=i.text.indexOf(cancellation);
+  if(at>=0){p.evidence.push(evidence(i,cancellation,at));p.warnings.push('当年度評価対象だが予定行事は全て中止と明記。実施済み・完了済みの事業ではない。');}
+ }}
  return r;
 }

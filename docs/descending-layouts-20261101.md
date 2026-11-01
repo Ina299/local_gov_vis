@@ -63,3 +63,7 @@ Validation: full crawler393/393; final focused10/10; typecheck, Web256/256, lint
 ## Oita KPI checkpoint — offline, unpublished
 
 Four complete hash-matched Bungotakada tables add 250 name/year-only activity candidates (50 per FY2020–2024), bringing Oita to715 and combined46/45/44 to2799. Individual activity identity is distinct from budget-business identity; no amounts or shared KPI values transferred. One grant/activity identity collision per book stays held. Focused11/11, independent2799-record/6861-evidence validation and typecheck pass. Full393-test regression belongs to the previous465-record snapshot; the extension still needs full regression. Source and unit review remains unfinished; no network or publication action.
+
+## Oita Taketa earlier-sheet review
+
+All27 FY2020 and40 FY2021 sheet units (including the FY2021 blank example) were reviewed.26 additional name/year candidates bring Taketa to158 and Oita to741. Reversed title fragments, policy headings, parent/child identities and cancellations have explicit dispositions. The existing FY2021 家庭教育事業 candidate is preserved with an exact cancellation quote and warning; it is not represented as completed. No amounts or ratings were inferred. Independent validation:2825 combined candidates and6914 exact evidence references; focused12 tests and typecheck passed. Full regression for this increment remains pending.
