@@ -1,3 +1,4 @@
+import {cachedSourceFormat} from './evaluations/expansion/cached-source-format';
 /** Offline candidate audit. Never imports candidates into production or accesses source hosts. */
 import assert from 'node:assert/strict';
 import {readFile,mkdir,writeFile} from 'node:fs/promises';
@@ -31,8 +32,9 @@ for(const c of cohort.municipalities){const mr=ei.municipalities.find((x:any)=>x
  const f=await fullText(base,s,d.text);row.fullTextSha256=sha256(Buffer.from(f.text));row.complete=f.complete;row.sourceSha256=d.sourceSha256;row.fetchedAt=s.acquisition.fetchedAt;row.continuationParts=(s.text.continuations??[]).length;
  if(!f.complete){row.status='insufficient_evidence';row.reason='Cached body has no complete continuation set; no extraction from incomplete input in this run';continue;}
  assert.equal([...f.text].length,s.text.characters);
- inputs.push({...c,sourceId:s.id,sourceUrl:s.url,sourcePageUrl:s.url,sourceSha256:d.sourceSha256,fetchedAt:s.acquisition.fetchedAt,format:s.format,text:f.text,truncated:false});
- if(s.format==='html'){row.status='navigation';row.reason='Saved HTML; no supported individual-business output yet';}
+ const format=cachedSourceFormat(s,d);if(!format){row.status='format_evidence_hold';row.reason='Saved handler suffix is not a supported media type and saved extraction provenance does not establish the media format';continue;}
+ inputs.push({...c,sourceId:s.id,sourceUrl:s.url,sourcePageUrl:s.url,sourceSha256:d.sourceSha256,fetchedAt:s.acquisition.fetchedAt,format,text:f.text,truncated:false});
+ if(format==='html'){row.status='navigation';row.reason='Saved HTML; no supported individual-business output yet';}
  }
  const seen=[...(prior.get(c.municipalityCode)??[])];
  for(const input of inputs){const row=rows.get(input.sourceId),fns=[extractDescendingLayouts,extractDescendingGrantRows,extractDescendingKirishima,originalExtractors[c.municipalityCode],supplementExtractors[c.municipalityCode]?.extract,...laterExtractors.map(r=>r.extractors[c.municipalityCode]?.extract)].filter(Boolean);row.parserFamilies=fns.length;

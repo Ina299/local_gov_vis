@@ -140,7 +140,59 @@ for c in [c for c in configs if c['municipalityCode']=='42211']:
   if builtins.id(r) in reject:c['holds'].append(dict(start=r['start'],raw=r['raw'],status='identity_or_period_hold',reason='Same-book near-alias title collision (business/expense/subsidy suffix); exact independence unresolved. Neither variant added, no fuzzy merge.'))
   else:kept.append(r)
  c['rows']=kept
+# Explicit residual titles reviewed independently; generic fees, finance-source
+# strings and narrative fragments are deliberately not in this allowlist.
+residual_names='''2020国際ツバキ会議五島大会及び第30回全国椿サミット五島大会開催事業|まちづくり研修業務委託料|ケアマネジメントリーダー活動等補助金（介護保険事業特別会計）|コンビニ収納委託料|三井楽診療所診療業務委託事業（国民健康保険事業特別会計）|中小企業振興資金保証料補給金|中小企業振興資金利子補給金|久賀歯科診療所運営事業（国民健康保険事業特別会計）|二次離島地区デイサービス運営事業（介護保険事業特別会計）|五島市産品PR業務委託料|五島産品出荷受付事業委託料|五島食肉センター出資金|五島食肉センター管理業務委託料|介護予防サービス計画作成事業（介護保険事業特別会計）|介護予防ボランティア謝礼金支給事業（介護保険事業特別会計）|伊福貴診療所（歯科）運営事業（診療所事業特別会計）|低炭素建築物技術審査委託料|分別基準適合物再商品化委託料|創業資金融資保証料及び利子補給金|国境離島地域維持補助金（輸送コスト低廉化）|地域ミニデイサービス利用者送迎委託事業（介護保険事業特別会計）|地域活性化業務委託料|多面的機能支払交付金事業（旧：農地・水保全管理支払交付金事業）|奈留町すこやか祝金|子育て世帯臨時特例給付金|審査支払手数料（介護保険事業特別会計）|封書発送業務委託料|岐宿歯科診療所運営事業（国民健康保険事業特別会計）|市道・河川巡視業務委託料|幼児発達専門相談等業務委託料|後期高齢者医療制度特別対策補助金|意思疎通支援者養成事業委託料|持続可能な新水産業創造事業|有害ごみ処理業務委託料|林業就業支援講習業務委託料|椿園管理委託料|機構集積支援事業（旧農地制度実施円滑化事業）|母子家庭等自立支援給付金|母子家庭自立支援給付金|水道維持事業（水道維持費）（簡易水道事業特別会計）|海岸漂着物発生抑制啓発業務委託料|漁業振興資金利子補給金|漁業経営セーフティーネット構築事業積立金借入金利子補給金|漁業経営ｾｰﾌﾃｨﾈｯﾄ構築事業積立金借入利子補給金|漁業近代化資金利子補給金|特定健康診査の受診勧奨に関する町内会表彰事業(国民健康保険事業特別会計）|玉之浦診療所送迎バス運行委託事業（国民健康保険事業特別会計）|玉之浦診療所送迎バス運行委託料（国民健康保険事業特別会計）|玉之浦診療所（歯科）運営事業（国民健康保険事業特別会計）|生活困窮者家計改善支援業務委託料|生活困窮者自立相談支援業務委託料|生活支援ハウス等管理運営委託料|町内会業務委託料|畑地帯総合（担い手育成型）整備事業（土地改良区運営費補助金）|県林業公社林業開発促進資金貸付金|経営体育成基盤整備事業（農地利用集積円滑化事業支援事業費補助金）|経営改善貸付利子補給金|経営管理意向調査委託料|経営管理権集積計画作成委託料|給付型奨学金|老人福祉センター講座運営委託料|老人福祉施設入所委託料|職員研修委託料|臨時福祉給付金|議会中継インターネット配信業務委託料|資源ごみ選別作業委託料|軽自動車税申告書取扱事務委託料|農地制度実施円滑化事業|農業経営基盤強化資金利子補給金|道路植栽管理委託料|遣唐使ふるさと館管理業務委託料|配食サービス事業委託料|長期優良住宅技術審査委託料|障害支援区分認定調査委託料|障害者相談支援事業委託料|障害者虐待防止対策支援事業委託料|離島高校生修学支援費補助金（へき地児童生徒援助費補助金）|高崎地区漁業集落排水施設の維持管理事業（下水道事業特別会計）|高度へき地修学旅行費補助金（へき地児童生徒援助費補助金）|高額医療合算介護サービス費（介護保険事業特別会計）|鬼岳樹木園管理委託料|魚津ヶ崎ふれあい交流事業（魚津ヶ崎公園グラウンド・ゴルフ大会）|黄島（赤島）診療所運営事業（診療所事業特別会計）'''.split('|')
+repairs={
+ 'こども未来課 へき地保育所運営委託料':'へき地保育所運営委託料','こども未来課 保育所管理運営委託料':'保育所管理運営委託料','こども未来課 利用者支援事業委託料':'利用者支援事業委託料','こども未来課 妊婦乳児訪問委託料':'妊婦乳児訪問委託料',
+ '保育の質の向上のためのこども未来課研修事業等委託料':'保育の質の向上のための研修事業等委託料','地域子育て支援センターこども未来課事業委託料':'地域子育て支援センター事業委託料','妊婦・乳幼児健康診査委こども未来課託料':'妊婦・乳幼児健康診査委託料',
+ '国保健康政策 スマート巡回診療推進事課業委託料':'スマート巡回診療推進事業委託料','国保健康政策 救急医療在宅当番医制委課託料':'救急医療在宅当番医制委託料','国保健康政策 第三者行為損害賠償求償課事務委託料':'第三者行為損害賠償求償事務委託料','国保健康政策 集団健診予約受付業務委課託料':'集団健診予約受付業務委託料',
+ 'スポーツ振興 B＆G海洋センタープール改課修事業':'B＆G海洋センタープール改修事業','スポーツ振興 スポーツ愛ランド推進事業費課補助金':'スポーツ愛ランド推進事業費補助金','スポーツ振興 スポーツ観戦ツアー事業課委託料':'スポーツ観戦ツアー事業委託料','スポーツ振興 三井楽市民プール管理業課務委託料':'三井楽市民プール管理業務委託料','スポーツ振興 五島市民体育大会開催費補課助金':'五島市民体育大会開催費補助金','スポーツ振興 市民体育館電動ブラインド改課修事業':'市民体育館電動ブラインド改修事業','スポーツ振興 市民体育館非常用放送設備課改修事業':'市民体育館非常用放送設備改修事業','スポーツ振興 水泳教室講師派遣業務委課託料':'水泳教室講師派遣業務委託料','スポーツ振興 玉之浦健康管理増進施設ス課ロープ設置工事':'玉之浦健康管理増進施設スロープ設置工事',
+ '消防本部（総 小型動力ポンプ付積載車購務課）入事業':'小型動力ポンプ付積載車購入事業','消防本部（総 小型動力ポンプ積載車購入務課）事業':'小型動力ポンプ積載車購入事業','消防本部（総 小型動力ポンプ軽積載車購務課）入事業':'小型動力ポンプ軽積載車購入事業','消防本部（総 位置情報通知システム提務課）供業務委託料':'位置情報通知システム提供業務委託料','消防本部（総 気管挿管病院実習業務委務課）託料':'気管挿管病院実習業務委託料'}
+repairs.update({
+ 'スポーツ振興 長崎国体開催準備事業委託課料（緊急雇用創出事業）':'長崎国体開催準備事業委託料（緊急雇用創出事業）',
+ '商工雇用政策 企業PR動画作成業務委託課料':'企業PR動画作成業務委託料','商工雇用政策 経営コンサルタント派遣課業務委託料':'経営コンサルタント派遣業務委託料','商工雇用政策 雇用機会拡充事業事業計課画作成支援業務委託料':'雇用機会拡充事業事業計画作成支援業務委託料','商工雇用政策 雇用機会拡充事業審査業課務委託料':'雇用機会拡充事業審査業務委託料',
+ '消防本部（総 五島市幼少年婦人防火委員務課）会補助金':'五島市幼少年婦人防火委員会補助金','奈留支所（地 五島市農作物等有害鳥獣被域振興課）害対策事業':'五島市農作物等有害鳥獣被害対策事業',
+ '富江支所（地 富江町観光協会運営費補助域振興課）金':'富江町観光協会運営費補助金','教育総務課（生 青少年健全育成地区活動費補助涯学習推進班） 金':'青少年健全育成地区活動費補助金','玉之浦診療所送迎バス運行委託国保健康政策課 料（国民健康保険特別会計）':'玉之浦診療所送迎バス運行委託料（国民健康保険特別会計）',
+ '社会生活基盤の整備 浄化槽設置整備事業':'浄化槽設置整備事業','商工雇用政策課 移動販売支援事業費補助金':'移動販売支援事業費補助金','スポーツを通じた地 五島長崎国際トライアスロン大域振興会開催事業':'五島長崎国際トライアスロン大会開催事業'})
+def alias_key(n):
+ n=re.sub(r'\s+','',unicodedata.normalize('NFKC',n));n=re.sub(r'(事業費補助金|事業補助金)$','補助金',n);return re.sub(r'(関係経費|関係事業|事業費|事業|経費|費)$','',n)
+for c in [c for c in configs if c['municipalityCode']=='42211']:
+ t=verified_text(c['sourceId'],'42211');seen={r['name'] for r in c['rows']};keys={alias_key(n):n for n in seen}
+ for mt in re.finditer(r'(?<=\n\n)([^\n]+(?:\n[^\n]+){0,3})(?=\n\n)',t):
+  n=mt[1].replace('\n','');name=repairs.get(n,n)
+  if n not in residual_names and n not in repairs:continue
+  if name in seen:continue
+  key=alias_key(name)
+  if key in keys:
+   hold(c,t,mt[1],'Additional spelling/expense/subsidy variant may be the same existing candidate '+keys[key]+'. Preserve old row and hold new variant pending identity evidence; no fuzzy merge.');continue
+  row(c,t,name,mt[1],start=mt.start(1),note='冊子の独立した名称断片を再確認。混入した担当課名は明示された文字列のみ分離し、隣接項目から推測しない。数値未抽出・評価年度と実施年度を分離。');seen.add(name);keys[key]=name
+
+c,t=source('e304902291c4e995a319b69b','42205',None,'令和６年度 部局別事務事業評価結果一覧（継続事業及び補正新規事業）');c['evaluationYear']=2024
+manual={11:'地理情報システム運営管理事業',26:'デジタル活用推進事業',97:'大村湾浮遊ゴミ・海岸漂着物等対策事業',98:'カーボンニュートラル促進事業',102:'動物愛護推進事業',103:'４Ｒ推進事業',133:'子ども医療費助成事業',280:'こども家庭センター事業',436:'政務活動費'}
+seen=set()
+for m in re.finditer(r'^(\d+) (.+)$',t,re.M):
+ n=int(m[1]);assert 1<=n<=550 and n not in seen;seen.add(n)
+ if n in manual:continue
+ assert not m[2].startswith(('（旧','(旧','※'))
+ row(c,t,m[2],m[0],start=m.start(),note='令和６年度評価一覧の明示番号付き事業名。継続/補正新規の区分から決算年度は推定せずFY空欄。旧名称・統合前事業・予算/評価印は別レコードにしない。同名番号の区別は重複保留。')
+for n,name in manual.items():
+ row(c,t,name,note='番号'+str(n)+'に対応する独立した現名称欄。括弧内旧名称や統合前事業を別事業にしない。評価年度2024のみ。');seen.add(n)
+hold(c,t,'325\n\n農林水産整備課\n\n326','No business title is present next to row325 in saved text; other department/number/title blocks cannot identify it uniquely. Need original row geometry or a matching explicit title; no municipal fetch.')
+assert seen==set(range(1,551))-{325}
+for id,proof in [('17ddb8cc000e56ec78aa66eb','令和７年度'),('5186e82ae4098ce535a2bd47','令和６年度')]:
+ c,t=source(id,'42205',None,proof);hold(c,t,t[:180],'Overview gives aggregate counts and evaluation process, not individual business identities. Existing numbered business list is reviewed separately; no aggregate/project inflation.')
+c,t=source('eb7c4963f89c3b5aab6c1089','42205',2024,'Ｒ６\n\nＲ７\n\n決算');row(c,t,'結婚応援事業',note='単一事業の評価表のR6決算列によりFY2024のみ。R7予算・見込決算・R8予算と区別し、評価年度や列金額は推定しない。番号付き年度一覧との同名重複を照合。')
+c['rows'][0].update(context=t,contextStart=0)
+c,t=source('f24d5a155386897bfca59990','42205',None,'結婚応援事業');hold(c,t,'結婚応援事業','Same marriage-support identity as single-sheet evaluation eb7c4963f89c3b5aab6c1089. This overview has start year H30 and planned/forecast amounts but no explicit report/evaluation year; start year is not evaluated fiscal year. No duplicate or numeric enrichment.')
+for id,ey,proof,names in [
+ ('005c3e999da8e4cca64aaf50',2025,'令和７年度 事務事業評価結果一覧表',['自主防災会リーダー研修視察','保育所等副食費助成事業','子ども家庭総合支援拠点運営事業','子育て世代包括支援センター経費','産後ケア事業','地域計画推進事業','限定特定行政庁','小・中学校ICT推進事業','子育て応援新入児童通学用かばん支給事業','島原市中学校体育大会補助金','各種研究大会・発表大会派遣費補助金','埋蔵文化財範囲確認調査事業','市民親睦各種大会']),
+ ('89e0a5757437c3cc059884ed',2024,'令和６年度 事務事業評価結果一覧表',['広報諸費（広報しまばら作成経費）','葉たばこ病害虫防除対策費補助金','有明農林漁業体験実習施設「舞岳山荘」管理運営費','森林環境譲与税活用事業','島原でしてみんねテレワーク支援事業補助金','障害児保育事業費補助金','発達促進保育事業費補助金','すこやか赤ちゃん支援事業','歯科保健事業','島原市社会福祉協議会運営費補助金','成年後見制度利用促進に係る中核機関運営業務','保健事業と介護予防の一体的実施事業','島原市シルバー人材センター運営費補助金','肥前島原子ども狂言ワークショップ','フッ化物洗口推進事業（小中学校）','教育文化振興事業団運営費補助金','市民体育祭運営経費','島原市地方バス路線維持費補助金','島原市定住促進通勤支援補助金','島原市自衛隊家族会補助金','公衆便所清掃業務','公害対策経費','町内会・自治会活動傷害保険加入費補助金','浄化槽設置整備事業'])]:
+ c,t=source(id,'42203',None,proof);c['evaluationYear']=ey
+ for name in names:row(c,t,name,note='年度評価結果一覧の個別事業名。政策見出しや判定件数を事業化せず、次年度予算を実績に転用しない。評価年度のみ、実施FY・金額・段階別評価は未抽出。')
+c,t=source('072f4f471395e72b15d05408','42203',None,'事務事業評価 / 島原市');hold(c,t,t[:120],'Cached ASPX article index, not PDF individual business sheets. Link/publication years alone do not provide project records.');c['reviewStatus']='navigation'
+
 for c in configs:
- meta=json.loads((docs.parent/'municipalities'/(c['municipalityCode']+'.json')).read_text());src=next(x for x in meta['sources'] if x['id']==c['sourceId']);c['sourceSha256']=src['acquisition']['sourceSha256'];c['sourceUrl']=src['url']
+ meta=json.loads((docs.parent/'municipalities'/(c['municipalityCode']+'.json')).read_text());src=next(x for x in meta['sources'] if x['id']==c['sourceId']);c['sourceSha256']=src['acquisition']['sourceSha256'];c['sourceUrl']=src['url'];c['recordedFormat']=src['format'];d=json.loads((docs/(c['sourceId']+'.json')).read_text());c['format']='pdf' if src['format'] not in ['pdf','html','xlsx'] and d.get('extractionMethod')=='pdftotext_from_verified_bytes' and d['sourceSha256']==src['acquisition']['sourceSha256'] else 'html' if src['format'] not in ['pdf','html','xlsx'] and d.get('extractionMethod')=='visible_html_from_verified_bytes' and d['sourceSha256']==src['acquisition']['sourceSha256'] else src['format']
 (root/'apps/crawler/src/evaluations/expansion/descending-nagasaki-map.ts').write_text('// Generated from hash-verified complete cached texts; no municipal requests.\nexport const nagasakiRows = '+json.dumps(configs,ensure_ascii=False,indent=2)+';\n')
 print('reviewed sources',len(configs),'proposals',sum(len(c['rows']) for c in configs))

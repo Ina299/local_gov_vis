@@ -3,11 +3,11 @@ import type {LayoutReview} from './descending-layouts-r2';
 import {type CachedInput, project, evidence} from './shared';
 import {nagasakiRows} from './descending-nagasaki-map';
 interface Row {name:string; start:number; raw:string; note:string; year?:number; yearProof?:string;context?:string;contextStart?:number}
-interface Config {sourceId:string;municipalityCode:string;sourceUrl:string;sourceSha256:string;year:number|null;evaluationYear?:number;pageId?:string;pageHash?:string;pageProof?:string;proof:string;fullTextSha256:string;rows:Row[];holds:{start:number;raw:string;reason:string;status?:string}[]}
+interface Config {sourceId:string;municipalityCode:string;sourceUrl:string;sourceSha256:string;format:string;reviewStatus?:string;year:number|null;evaluationYear?:number;pageId?:string;pageHash?:string;pageProof?:string;proof:string;fullTextSha256:string;rows:Row[];holds:{start:number;raw:string;reason:string;status?:string}[]}
 export function reviewNagasaki(i:CachedInput, inputs:CachedInput[]=[]):LayoutReview|null {
  const c=(nagasakiRows as Config[]).find(c=>c.sourceId===i.sourceId&&c.municipalityCode===i.municipalityCode);if(!c)return null;
- const r:LayoutReview={projects:[],units:[],status:'reviewed_literal_businesses',reason:'Source-specific named annual implementations; no policy KPI or financial-column inference.',proofs:[]};
- if(i.sourceUrl!==c.sourceUrl||i.sourceSha256!==c.sourceSha256||i.truncated||i.format!=='pdf'||createHash('sha256').update(i.text).digest('hex')!==c.fullTextSha256||!i.text.includes(c.proof)){r.status='source_integrity_hold';r.reason='Reviewed source hash, complete body or explicit year proof differs';return r;}
+ const r:LayoutReview={projects:[],units:[],status:c.reviewStatus??'reviewed_literal_businesses',reason:'Source-specific named annual implementations; no policy KPI or financial-column inference.',proofs:[]};
+ if(i.sourceUrl!==c.sourceUrl||i.sourceSha256!==c.sourceSha256||i.truncated||i.format!==c.format||createHash('sha256').update(i.text).digest('hex')!==c.fullTextSha256||!i.text.includes(c.proof)){r.status='source_integrity_hold';r.reason='Reviewed source hash, complete body or explicit year proof differs';return r;}
  const page=c.pageId?inputs.find(p=>p.sourceId===c.pageId&&p.municipalityCode===i.municipalityCode):undefined;
  if(c.pageId&&(!page||page.truncated||createHash('sha256').update(page.text).digest('hex')!==c.pageHash||!page.text.includes(c.pageProof!))){r.status='annual_identity_hold';r.reason='Saved official link-year evidence absent or changed';return r;}
  for(const row of c.rows){
