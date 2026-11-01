@@ -1,0 +1,268 @@
+{
+  "prefecture": "46",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-01T12:55:16.690318+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "46535",
+      "municipalityName": "与論町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "00ec2308dd74325f72ea852231a62842a6c05010b046efa9bb939171988d57fa"
+    },
+    {
+      "municipalityCode": "46534",
+      "municipalityName": "知名町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "2153b1a85cf8f179a08537201eef6f7da3817035f269f2284b2f11a07e7a64b1"
+    },
+    {
+      "municipalityCode": "46533",
+      "municipalityName": "和泊町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d0dd7d4b0c1eacc32b3e0ff464efd3ec9fdbfcc2159667d6a14ea10fa8fa0208"
+    },
+    {
+      "municipalityCode": "46532",
+      "municipalityName": "伊仙町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a6581d05fd8c34ee340301679c583f0ed2f469562d743b96f99b46baa3b0530d"
+    },
+    {
+      "municipalityCode": "46531",
+      "municipalityName": "天城町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a75f6aa3f562be8a038416c336fc2cb9dd7b228aa2dba94e200fe6621f3f966e"
+    },
+    {
+      "municipalityCode": "46530",
+      "municipalityName": "徳之島町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ce794f35988b2ab0f0a7b8d19c4563527ccdd3df2d1cd0e903facb52a4d0d168"
+    },
+    {
+      "municipalityCode": "46529",
+      "municipalityName": "喜界町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a1c63bedf7b170c95c721e4b624d5269c7fdd7f8c9ea6211f53cf82827471323"
+    },
+    {
+      "municipalityCode": "46527",
+      "municipalityName": "龍郷町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "1db2e0718532578468ff36ef7fc95e4c430d6d84924a31ecfe49ce901d1d0b79"
+    },
+    {
+      "municipalityCode": "46525",
+      "municipalityName": "瀬戸内町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "09b9235c710657acd1edb174a8b53d17044a17928eb0df2972a4e06e4ddf872a"
+    },
+    {
+      "municipalityCode": "46524",
+      "municipalityName": "宇検村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "eac8fcc70ae650b54f685cb4514b987f9f1374a9841212dc9ab363fb18ddae0b"
+    },
+    {
+      "municipalityCode": "46523",
+      "municipalityName": "大和村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a40d9b28d49107331b5f66888ae50e786ce1816bdbc7df727044febaea9ac4f6"
+    },
+    {
+      "municipalityCode": "46505",
+      "municipalityName": "屋久島町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "74bb321e3895c27ee51b6a6d38a9bf7a9e9d85fd2b6af0e92b200f922c3cb6b4"
+    },
+    {
+      "municipalityCode": "46502",
+      "municipalityName": "南種子町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6b87ba18201e7e4ae2b00d36b180d1211846c990d660e427d108a8ba3c5a699c"
+    },
+    {
+      "municipalityCode": "46501",
+      "municipalityName": "中種子町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "fecc6911e42ea5843db22f36e79defdd60f9f219e718fb56aad2f7b40baa5379"
+    },
+    {
+      "municipalityCode": "46492",
+      "municipalityName": "肝付町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "83054d24372665164ca41f8e0fa2c2f5f9cd4e93d9f7b769c679d38d78b0fdf3"
+    },
+    {
+      "municipalityCode": "46491",
+      "municipalityName": "南大隅町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "1aabcb09bf49bcb618a15c673aa17ea7a59a2957d2078d9855b847a8d90cf315"
+    },
+    {
+      "municipalityCode": "46490",
+      "municipalityName": "錦江町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "5479ca82a1e56c2d42b32854ddb319bdc7ccecb728ae6673caaa3cf85c7657a1"
+    },
+    {
+      "municipalityCode": "46482",
+      "municipalityName": "東串良町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "04d00d44b789ca382e1bc518ae8f23398b494a6de4a1421ab3dc0b4200e33a37"
+    },
+    {
+      "municipalityCode": "46468",
+      "municipalityName": "大崎町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f9b691c069a074b526fa50aa3b444a6236b4a2cce3c3c06e96dfa8c95d4717a7"
+    },
+    {
+      "municipalityCode": "46452",
+      "municipalityName": "湧水町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "8a20da415da5721a871f0e187444b4df3d0683711365c56fed3bd71f9a98f69d"
+    },
+    {
+      "municipalityCode": "46404",
+      "municipalityName": "長島町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a07bdffb2758b07d9c172a32fca155c65e2e5c6da7a584c168d3da8fd6966fca"
+    },
+    {
+      "municipalityCode": "46392",
+      "municipalityName": "さつま町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "46ba2d86052cee87ada19f2cd8faef2b5be7bca1b90da5bcbbd17e350e9ea4af"
+    },
+    {
+      "municipalityCode": "46304",
+      "municipalityName": "十島村",
+      "datasetSha256": "1495544684b40a06a17b518ce8e5330054c304cfb6698faabacd7a0da92d2a7d",
+      "evidenceShardSha256": "0656d9209ad4f67d5308f9d56883d2b9c65dc015fd651c438b18af1f49fd1188"
+    },
+    {
+      "municipalityCode": "46303",
+      "municipalityName": "三島村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "df0ceacdb28fea3e338ce10ad7ee21bb7f8fe180ab6a9ed998a6879d398f075b"
+    },
+    {
+      "municipalityCode": "46225",
+      "municipalityName": "姶良市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "256c7c8cd38b9e4862d8af84f68cb457aa16faa372b55249be705839005cfbdf"
+    },
+    {
+      "municipalityCode": "46224",
+      "municipalityName": "伊佐市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7ebf31e30fc612c314ea4ed8d38bf0ae32de080112ddda187efe9f2a8ff41915"
+    },
+    {
+      "municipalityCode": "46223",
+      "municipalityName": "南九州市",
+      "datasetSha256": "9f022e564cd231ff0b5e25438f7b45d0dbe3ef00be0439165a15c692d760a2a4",
+      "evidenceShardSha256": "f94787eb930765480b42d39170e29764d41d69861a20b86a2cbd9ec3cdf17b30"
+    },
+    {
+      "municipalityCode": "46222",
+      "municipalityName": "奄美市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "435c4bcf1470d3d26cca4fe29d2079c5ceb3ad6d04345cdfacb61538f09a4d18"
+    },
+    {
+      "municipalityCode": "46221",
+      "municipalityName": "志布志市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "be6c57442f003054b70c04a3c30964aabb8725375f896d2488c576065fddf8b6"
+    },
+    {
+      "municipalityCode": "46220",
+      "municipalityName": "南さつま市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f203a129593f0e39b3408bd79b55c11ba2f43436a1d8ea0f258677c3bb9bd377"
+    },
+    {
+      "municipalityCode": "46219",
+      "municipalityName": "いちき串木野市",
+      "datasetSha256": "e91743757debd62acfc7d83bd812078e19cfb555fcaf1ded27f858e72fc8031b",
+      "evidenceShardSha256": "941ffb4dbff0e3dfcb8d45ed5088989ddc830979619742fe2087430d05779b1e"
+    },
+    {
+      "municipalityCode": "46218",
+      "municipalityName": "霧島市",
+      "datasetSha256": "1a600bc630b45fd12faf8b74d98dec624f3a720fc2d8001e125caa841d3cc0b3",
+      "evidenceShardSha256": "f56bdb34b0fd32abd1164e1770a7aaa278ddf8be706db593e7123a6b6ccbfc7a"
+    },
+    {
+      "municipalityCode": "46217",
+      "municipalityName": "曽於市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "149ed283d9933d8e5154947d4c237e889c9ff1dc4d8e098242c18385d1da89de"
+    },
+    {
+      "municipalityCode": "46216",
+      "municipalityName": "日置市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ec4f0e2e230d17fdce39656c2c0aac9c947786948964a47e41f32ee0bfc030a5"
+    },
+    {
+      "municipalityCode": "46215",
+      "municipalityName": "薩摩川内市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "464791a6dc8561f1057c1b2a679669e48be9749b5dbcad5e6dce93812dc69460"
+    },
+    {
+      "municipalityCode": "46214",
+      "municipalityName": "垂水市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "5d4630be72970e902e60b0c449d2561564e4732d2a3e26d27ee7510c5b5838dc"
+    },
+    {
+      "municipalityCode": "46213",
+      "municipalityName": "西之表市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d51981575e2da9d5e3a45ee34bbe9b2d5b8f824de73f8697885106b794a91a16"
+    },
+    {
+      "municipalityCode": "46210",
+      "municipalityName": "指宿市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "55d54f768966ca87afe56d8a72171f70f5f3cde3063bcfa398d9883d1eb1334f"
+    },
+    {
+      "municipalityCode": "46208",
+      "municipalityName": "出水市",
+      "datasetSha256": "a6d3e0056a10522e242c1465025697981ba9184714950a06c50caf078ef0f136",
+      "evidenceShardSha256": "6a3e9619deebde90d3b7e98061aba2f2963734cd879d676372d60958eb76a036"
+    },
+    {
+      "municipalityCode": "46206",
+      "municipalityName": "阿久根市",
+      "datasetSha256": "7d77ec9528d1a3eb105597fac4109fa6e9c3379ed7efc0fe5d0dc5e3484e7316",
+      "evidenceShardSha256": "bf40178ddf1b68ef442c1f3a80aac2905a2682528dc1bdf2aa068afb8ea0a522"
+    },
+    {
+      "municipalityCode": "46204",
+      "municipalityName": "枕崎市",
+      "datasetSha256": "d3186c27c999dd06ce6c73cb195bde9ca52d98aa2e5462159242545e7e69d59f",
+      "evidenceShardSha256": "0dc6238b0904a23eb6bd44e7a122fbd706ffb3d2238847f1b739e181767709d3"
+    },
+    {
+      "municipalityCode": "46203",
+      "municipalityName": "鹿屋市",
+      "datasetSha256": "3742051cb3e067307b625b5d0cceec27b7d8695c6a9e986eb5b4fcb95fafc52e",
+      "evidenceShardSha256": "d6e29b79c799a689b4b8cedd63ab599220d23047823bec6c2c30418c6c056992"
+    },
+    {
+      "municipalityCode": "46201",
+      "municipalityName": "鹿児島市",
+      "datasetSha256": "0ee35939b5298850ea1fa45ddf2e2f06f2027229bcc08ffbaece43fad66aade5",
+      "evidenceShardSha256": "05a9c63fd304da2811ef0124fa79ad47e4196b4154f4b50930adccf3953b4bb6"
+    }
+  ],
+  "skipped": []
+}

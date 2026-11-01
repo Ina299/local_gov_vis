@@ -1,0 +1,47 @@
+[
+  {
+    "sourceId": "bec6f8f00321a5f3d3517e83",
+    "unit": "7",
+    "status": "insufficient_evidence",
+    "reason": "R7.2–R7.9 spans FY2024 and FY2025; header FY2024 does not establish a single annual record for this row. No amount/outcome association."
+  },
+  {
+    "sourceId": "6d6231546f2839a239a3054f",
+    "status": "non_individual_business",
+    "reason": "31 strategy KPI indicators, not individual business sheets; do not convert indicators into project records."
+  },
+  {
+    "sourceId": "3c7ba97b8a20f7cbe62c263c",
+    "status": "insufficient_evidence",
+    "reason": "Social infrastructure plan spans FY2019–2022; no separate annual project identity."
+  },
+  {
+    "sourceId": "d94500c0b4c9d3fc3f851b32",
+    "status": "layout_review",
+    "reason": "FY2022–2023 strategic chapter; several named activities share columns and fiscal cost totals. Individual annual boundaries are not established."
+  },
+  {
+    "sourceId": "3cb26ad2ecc6811c49fb7eb2",
+    "status": "partially_processed",
+    "reason": "All31 visible purpose blocks mapped:30 single-line titles and one explicitly reviewed split title corroborated by its purpose text. Introduction says33, but two further units cannot be located in cached text; do not invent them.",
+    "accepted": 31
+  },
+  {
+    "sourceId": "6553773eb584b417aebf4d71",
+    "status": "partially_processed",
+    "reason": "All five title rows reviewed: four supported names and FY2023 accepted. Row2 is administrative spending for the row1 benefit scheme with near-identical name; identity held rather than creating a fifth project or inventing an office-cost suffix.",
+    "accepted": 4
+  },
+  {
+    "sourceId": "f7ebb002e6a580c53287a363",
+    "status": "partially_processed",
+    "reason": "Premium voucher title accepted for FY2023; other name fragments interleave with prose and need explicit mapping.",
+    "accepted": 1
+  },
+  {
+    "sourceId": "2f95c71fe079e1abe1feb381",
+    "status": "partially_processed",
+    "reason": "Livestock title accepted for FY2024. Carryover benefit rows and mixed name/prose fragments remain unassigned; no financial fields extracted.",
+    "accepted": 1
+  }
+]
