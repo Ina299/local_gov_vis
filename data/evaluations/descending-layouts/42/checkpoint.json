@@ -38,12 +38,18 @@
     "independentCandidatesAcrossCohorts": 6900,
     "independentEvidenceAcrossCohorts": 15147,
     "crawlerTypecheck": "passed",
-    "fullRegression": "pending restart after supported-format correction; earlier interrupted run not passed"
+    "fullRegression": "422/422 passed; 783749 ms",
+    "webTests": "256/256 passed",
+    "typecheck": "passed",
+    "lint": "passed",
+    "national": "passed",
+    "subpathStaticBuild": "109 pages passed; temporary optimizeFonts false restored"
   },
   "remaining": "11 source layouts and 10 actionable layout-review units remain. No nationwide completion claim.",
   "preservation": {
     "prior2003Unchanged": true,
     "addedCandidates": 734,
     "existingFieldsChanged": 0
-  }
+  },
+  "validatedCodeHead": "42f15dd632182af1cbfd3c817e05abd59bac4991"
 }
