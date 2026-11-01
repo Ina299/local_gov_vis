@@ -3116,6 +3116,102 @@ export const nagasakiRows = [
         "start": 62732,
         "raw": "消防本部（総 気管挿管病院実習業務委\n務課）\n託料",
         "note": "冊子の独立した名称断片を再確認。混入した担当課名は明示された文字列のみ分離し、隣接項目から推測しない。数値未抽出・評価年度と実施年度を分離。"
+      },
+      {
+        "name": "ふるさとづくり寄附金返礼業務委託料",
+        "start": 6767,
+        "raw": "ふるさとづくり寄附金返\n礼業務委託料",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "ふるさと納税寄附受付等業務委託料",
+        "start": 6949,
+        "raw": "ふるさと納税寄附受付等\n業務委託料",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "ごみ散乱防止パトロール業務委託料",
+        "start": 15161,
+        "raw": "ごみ散乱防止パトロール\n業務委託料",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "地域活動支援センター委託料",
+        "start": 23050,
+        "raw": "地域活動支援センター委\n託料",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "五島産品島外販売促進業務委託料",
+        "start": 38440,
+        "raw": "五島産品島外販売促進業\n務委託料",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "自死遺族支援業務委託料",
+        "start": 30239,
+        "raw": "自死遺族支援業務委託料",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "医療廃棄物処理委託料",
+        "start": 30524,
+        "raw": "医療廃棄物処理委託料",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "レントゲン撮影委託料",
+        "start": 32330,
+        "raw": "レントゲン撮影委託料",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "肝炎ウイルス検診委託料",
+        "start": 32549,
+        "raw": "肝炎ウイルス検診委託料",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "デマンド監視委託料",
+        "start": 47122,
+        "raw": "デマンド監視委託料",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "雇用充足促進業務委託料",
+        "start": 47423,
+        "raw": "雇用充足促進業務委託料",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "救急活動支援業務委託料",
+        "start": 61204,
+        "raw": "救急活動支援業務委託料",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "電話通訳業務委託料",
+        "start": 61742,
+        "raw": "電話通訳業務委託料",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "給食調理業務等委託料",
+        "start": 66104,
+        "raw": "給食調理業務等委託料",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "工事監査業務委託料",
+        "start": 67643,
+        "raw": "工事監査業務委託料",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "監査等支援業務委託料",
+        "start": 67663,
+        "raw": "監査等支援業務委託料",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
       }
     ],
     "holds": [
@@ -3294,6 +3390,150 @@ export const nagasakiRows = [
         "raw": "令和５年度\n\n事業評価一覧表\n＜委託料＞\n\n令和６年３月 五島市総務企画部財政課\n\n\n●事業評価一覧表＜委託料＞の各欄について\n\n＜ 所管課別集計表（事業数） ＞\n課 名\n\n１．担当課名\n２．委託料の区分\n\n当該事業の所管課を記載\n令和4年度に一般会計で実施した委託料の大まかな区分を記載\nただし、令",
         "status": "layout_review",
         "reason": "Remaining inline department/title columns and displaced title blocks need source-family review; current accepted rows are only manually screened standalone bounded names. Actionable layout work remains, not missing text."
+      },
+      {
+        "start": 4155,
+        "raw": "健診業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 7370,
+        "raw": "運用保守業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 10929,
+        "raw": "管理業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 18784,
+        "raw": "運営業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 19223,
+        "raw": "運転管理業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 19905,
+        "raw": "管理業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 33607,
+        "raw": "管理業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 34886,
+        "raw": "運用保守業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 44700,
+        "raw": "管理業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 44950,
+        "raw": "管理業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 45371,
+        "raw": "管理業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 53185,
+        "raw": "管理業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 55649,
+        "raw": "管理業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 57520,
+        "raw": "管理業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 59583,
+        "raw": "管理業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 59604,
+        "raw": "管理業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 59880,
+        "raw": "管理業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 62343,
+        "raw": "管理業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 62357,
+        "raw": "管理業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 63699,
+        "raw": "管理業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 63958,
+        "raw": "管理業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 64840,
+        "raw": "健診業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 65395,
+        "raw": "健診業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 65647,
+        "raw": "健診業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
       }
     ],
     "evaluationYear": 2023,
@@ -7602,6 +7842,36 @@ export const nagasakiRows = [
         "start": 241112,
         "raw": "魚津ヶ崎ふれあい交流\n事業（魚津ヶ崎公園グ\nラウンド・ゴルフ大\n会）",
         "note": "冊子の独立した名称断片を再確認。混入した担当課名は明示された文字列のみ分離し、隣接項目から推測しない。数値未抽出・評価年度と実施年度を分離。"
+      },
+      {
+        "name": "特定個人情報提供等関連事務委任交付金",
+        "start": 16131,
+        "raw": "特定個人情報提供等関\n連事務委任交付金",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "収入資産、扶養義務調査等充実事業",
+        "start": 53008,
+        "raw": "収入資産、扶養義務調\n査等充実事業",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "医療扶助適正実施推進事業",
+        "start": 53360,
+        "raw": "医療扶助適正実施推進\n事業",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "地域の絆再生事業交付金",
+        "start": 122966,
+        "raw": "地域の絆再生事業交付\n金",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "森林整備地域活動支援交付金",
+        "start": 169627,
+        "raw": "森林整備地域活動支援\n交付金",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
       }
     ],
     "holds": [
@@ -10058,6 +10328,102 @@ export const nagasakiRows = [
         "start": 170833,
         "raw": "高度へき地修学旅行費補助\n金\n（へき地児童生徒援助費補助\n金）",
         "note": "冊子の独立した名称断片を再確認。混入した担当課名は明示された文字列のみ分離し、隣接項目から推測しない。数値未抽出・評価年度と実施年度を分離。"
+      },
+      {
+        "name": "医療扶助適正実施推進事業",
+        "start": 45054,
+        "raw": "医療扶助適正実施推進事業",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "森林整備地域活動支援交付金",
+        "start": 107434,
+        "raw": "森林整備地域活動支援交付\n金",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "市民体育大会事業費補助金",
+        "start": 146913,
+        "raw": "市民体育大会事業費補助金",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "県民体育大会参加費補助金",
+        "start": 147109,
+        "raw": "県民体育大会参加費補助金",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "競技団体強化事業費補助金",
+        "start": 147778,
+        "raw": "競技団体強化事業費補助金",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "Ｂ＆Ｇ体育行事補助金",
+        "start": 148099,
+        "raw": "Ｂ＆Ｇ体育行事補助金",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "プレミアム付商品券発行事業費補助金",
+        "start": 124860,
+        "raw": "プレミアム付商品券発行事業費補助金",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "市体育協会事業費補助金",
+        "start": 146233,
+        "raw": "市体育協会事業費補助金",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "体育スポーツ振興補助金",
+        "start": 146384,
+        "raw": "体育スポーツ振興補助金",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "スポーツ推進委員事業",
+        "start": 148212,
+        "raw": "スポーツ推進委員事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "体育館管理運営事業",
+        "start": 149288,
+        "raw": "体育館管理運営事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "福江武道館大規模改修事業",
+        "start": 149452,
+        "raw": "福江武道館大規模改修事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "常備消防自動車整備事業",
+        "start": 157890,
+        "raw": "常備消防自動車整備事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "小型動力ポンプ購入事業",
+        "start": 158105,
+        "raw": "小型動力ポンプ購入事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "モンパルナス構想推進事業",
+        "start": 193913,
+        "raw": "モンパルナス構想推進事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "あじ祭り開催事業",
+        "start": 194292,
+        "raw": "あじ祭り開催事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
       }
     ],
     "holds": [
@@ -10105,7 +10471,8 @@ export const nagasakiRows = [
       {
         "start": 147286,
         "raw": "スポーツ振興 スポーツ愛ランド推進事業費\n課\n補助金",
-        "reason": "Printed title candidate contains department/beneficiary or narrative/funding components. Exact original business-column boundary unresolved; excluded rather than guessed."
+        "reason": "Exact title/department fragments now resolved in an accepted row at this offset. Financial/indicator columns remain unextracted.",
+        "status": "resolved_title_boundary"
       },
       {
         "start": 157105,
@@ -10120,17 +10487,20 @@ export const nagasakiRows = [
       {
         "start": 157658,
         "raw": "消防本部（総 五島市幼少年婦人防火委員\n務課）\n会補助金",
-        "reason": "Printed title candidate contains department/beneficiary or narrative/funding components. Exact original business-column boundary unresolved; excluded rather than guessed."
+        "reason": "Exact title/department fragments now resolved in an accepted row at this offset. Financial/indicator columns remain unextracted.",
+        "status": "resolved_title_boundary"
       },
       {
         "start": 158346,
         "raw": "消防本部（総 小型動力ポンプ軽積載車購\n務課）\n入事業",
-        "reason": "Printed title candidate contains department/beneficiary or narrative/funding components. Exact original business-column boundary unresolved; excluded rather than guessed."
+        "reason": "Exact title/department fragments now resolved in an accepted row at this offset. Financial/indicator columns remain unextracted.",
+        "status": "resolved_title_boundary"
       },
       {
         "start": 158514,
         "raw": "消防本部（総 小型動力ポンプ積載車購入\n務課）\n事業",
-        "reason": "Printed title candidate contains department/beneficiary or narrative/funding components. Exact original business-column boundary unresolved; excluded rather than guessed."
+        "reason": "Exact title/department fragments now resolved in an accepted row at this offset. Financial/indicator columns remain unextracted.",
+        "status": "resolved_title_boundary"
       },
       {
         "start": 178298,
@@ -12604,6 +12974,72 @@ export const nagasakiRows = [
         "start": 191001,
         "raw": "奈留支所（地 五島市農作物等有害鳥獣被\n域振興課）\n害対策事業",
         "note": "冊子の独立した名称断片を再確認。混入した担当課名は明示された文字列のみ分離し、隣接項目から推測しない。数値未抽出・評価年度と実施年度を分離。"
+      },
+      {
+        "name": "森林整備地域活動支援交付金",
+        "start": 109872,
+        "raw": "森林整備地域活動支援交付\n金",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "市民体育大会事業費補助金",
+        "start": 170342,
+        "raw": "市民体育大会事業費補助金",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "常備消防自動車整備事業",
+        "start": 150059,
+        "raw": "常備消防自動車整備事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "小型動力ポンプ購入事業",
+        "start": 150618,
+        "raw": "小型動力ポンプ購入事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "市体育協会事業費補助金",
+        "start": 170518,
+        "raw": "市体育協会事業費補助金",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "体育スポーツ振興補助金",
+        "start": 170647,
+        "raw": "体育スポーツ振興補助金",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "コミュニティー助成事業",
+        "start": 171089,
+        "raw": "コミュニティー助成事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "スポーツ推進委員事業",
+        "start": 172223,
+        "raw": "スポーツ推進委員事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "長崎国体開催事業",
+        "start": 174696,
+        "raw": "長崎国体開催事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "多郎島地区景観整備事業",
+        "start": 183524,
+        "raw": "多郎島地区景観整備事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "モンパルナス構想推進事業",
+        "start": 190820,
+        "raw": "モンパルナス構想推進事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
       }
     ],
     "holds": [
@@ -12641,12 +13077,14 @@ export const nagasakiRows = [
       {
         "start": 150852,
         "raw": "消防本部（総 小型動力ポンプ積載車購入\n務課）\n事業",
-        "reason": "Printed title candidate contains department/beneficiary or narrative/funding components. Exact original business-column boundary unresolved; excluded rather than guessed."
+        "reason": "Exact title/department fragments now resolved in an accepted row at this offset. Financial/indicator columns remain unextracted.",
+        "status": "resolved_title_boundary"
       },
       {
         "start": 151095,
         "raw": "消防本部（総 小型動力ポンプ軽積載車購\n務課）\n入事業",
-        "reason": "Printed title candidate contains department/beneficiary or narrative/funding components. Exact original business-column boundary unresolved; excluded rather than guessed."
+        "reason": "Exact title/department fragments now resolved in an accepted row at this offset. Financial/indicator columns remain unextracted.",
+        "status": "resolved_title_boundary"
       },
       {
         "start": 151665,
@@ -12661,22 +13099,26 @@ export const nagasakiRows = [
       {
         "start": 174810,
         "raw": "スポーツ振興 スポーツ愛ランド推進事業費\n課\n補助金",
-        "reason": "Printed title candidate contains department/beneficiary or narrative/funding components. Exact original business-column boundary unresolved; excluded rather than guessed."
+        "reason": "Exact title/department fragments now resolved in an accepted row at this offset. Financial/indicator columns remain unextracted.",
+        "status": "resolved_title_boundary"
       },
       {
         "start": 176126,
         "raw": "スポーツ振興 B＆G海洋センタープール改\n課\n修事業",
-        "reason": "Printed title candidate contains department/beneficiary or narrative/funding components. Exact original business-column boundary unresolved; excluded rather than guessed."
+        "reason": "Exact title/department fragments now resolved in an accepted row at this offset. Financial/indicator columns remain unextracted.",
+        "status": "resolved_title_boundary"
       },
       {
         "start": 176265,
         "raw": "スポーツ振興 市民体育館非常用放送設備\n課\n改修事業",
-        "reason": "Printed title candidate contains department/beneficiary or narrative/funding components. Exact original business-column boundary unresolved; excluded rather than guessed."
+        "reason": "Exact title/department fragments now resolved in an accepted row at this offset. Financial/indicator columns remain unextracted.",
+        "status": "resolved_title_boundary"
       },
       {
         "start": 176418,
         "raw": "スポーツ振興 市民体育館電動ブラインド改\n課\n修事業",
-        "reason": "Printed title candidate contains department/beneficiary or narrative/funding components. Exact original business-column boundary unresolved; excluded rather than guessed."
+        "reason": "Exact title/department fragments now resolved in an accepted row at this offset. Financial/indicator columns remain unextracted.",
+        "status": "resolved_title_boundary"
       },
       {
         "start": 176832,
@@ -12691,7 +13133,8 @@ export const nagasakiRows = [
       {
         "start": 191001,
         "raw": "奈留支所（地 五島市農作物等有害鳥獣被\n域振興課）\n害対策事業",
-        "reason": "Printed title candidate contains department/beneficiary or narrative/funding components. Exact original business-column boundary unresolved; excluded rather than guessed."
+        "reason": "Exact title/department fragments now resolved in an accepted row at this offset. Financial/indicator columns remain unextracted.",
+        "status": "resolved_title_boundary"
       }
     ],
     "evaluationYear": 2014,
@@ -15094,6 +15537,96 @@ export const nagasakiRows = [
         "start": 169394,
         "raw": "富江支所（地 富江町観光協会運営費補助\n域振興課）\n金",
         "note": "冊子の独立した名称断片を再確認。混入した担当課名は明示された文字列のみ分離し、隣接項目から推測しない。数値未抽出・評価年度と実施年度を分離。"
+      },
+      {
+        "name": "森林整備地域活動支援交付金",
+        "start": 99314,
+        "raw": "森林整備地域活動支援交付\n金",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "県民体育大会参加費補助金",
+        "start": 157579,
+        "raw": "県民体育大会参加費補助金",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "スポーツ少年団運営費補助金",
+        "start": 157706,
+        "raw": "スポーツ少年団運営費補助金",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
+      },
+      {
+        "name": "情報系パソコン一括導入事業",
+        "start": 18893,
+        "raw": "情報系パソコン一括導入事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "常備消防自動車整備事業",
+        "start": 136097,
+        "raw": "常備消防自動車整備事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "小型動力ポンプ購入事業",
+        "start": 136667,
+        "raw": "小型動力ポンプ購入事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "消防救急無線デジタル化事業",
+        "start": 138304,
+        "raw": "消防救急無線デジタル化事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "消防署出張所庁舎建設事業",
+        "start": 138872,
+        "raw": "消防署出張所庁舎建設事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "防災行政無線整備事業",
+        "start": 138972,
+        "raw": "防災行政無線整備事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "市体育協会事業費補助金",
+        "start": 157283,
+        "raw": "市体育協会事業費補助金",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "体育スポーツ振興補助金",
+        "start": 157432,
+        "raw": "体育スポーツ振興補助金",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "スポーツ推進委員事業",
+        "start": 157824,
+        "raw": "スポーツ推進委員事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "長崎国体開催事業",
+        "start": 159066,
+        "raw": "長崎国体開催事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "多郎島地区景観整備事業",
+        "start": 169375,
+        "raw": "多郎島地区景観整備事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
+      },
+      {
+        "name": "モンパルナス構想事業",
+        "start": 174965,
+        "raw": "モンパルナス構想事業",
+        "note": "担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。"
       }
     ],
     "holds": [
@@ -15131,17 +15664,20 @@ export const nagasakiRows = [
       {
         "start": 136905,
         "raw": "消防本部（総 小型動力ポンプ積載車購入\n務課）\n事業",
-        "reason": "Printed title candidate contains department/beneficiary or narrative/funding components. Exact original business-column boundary unresolved; excluded rather than guessed."
+        "reason": "Exact title/department fragments now resolved in an accepted row at this offset. Financial/indicator columns remain unextracted.",
+        "status": "resolved_title_boundary"
       },
       {
         "start": 137143,
         "raw": "消防本部（総 小型動力ポンプ軽積載車購\n務課）\n入事業",
-        "reason": "Printed title candidate contains department/beneficiary or narrative/funding components. Exact original business-column boundary unresolved; excluded rather than guessed."
+        "reason": "Exact title/department fragments now resolved in an accepted row at this offset. Financial/indicator columns remain unextracted.",
+        "status": "resolved_title_boundary"
       },
       {
         "start": 137441,
         "raw": "消防本部（総 小型動力ポンプ付積載車購\n務課）\n入事業",
-        "reason": "Printed title candidate contains department/beneficiary or narrative/funding components. Exact original business-column boundary unresolved; excluded rather than guessed."
+        "reason": "Exact title/department fragments now resolved in an accepted row at this offset. Financial/indicator columns remain unextracted.",
+        "status": "resolved_title_boundary"
       },
       {
         "start": 137970,
@@ -15156,12 +15692,14 @@ export const nagasakiRows = [
       {
         "start": 159513,
         "raw": "スポーツ振興 スポーツ愛ランド推進事業費\n課\n補助金",
-        "reason": "Printed title candidate contains department/beneficiary or narrative/funding components. Exact original business-column boundary unresolved; excluded rather than guessed."
+        "reason": "Exact title/department fragments now resolved in an accepted row at this offset. Financial/indicator columns remain unextracted.",
+        "status": "resolved_title_boundary"
       },
       {
         "start": 161108,
         "raw": "スポーツ振興 玉之浦健康管理増進施設ス\n課\nロープ設置工事",
-        "reason": "Printed title candidate contains department/beneficiary or narrative/funding components. Exact original business-column boundary unresolved; excluded rather than guessed."
+        "reason": "Exact title/department fragments now resolved in an accepted row at this offset. Financial/indicator columns remain unextracted.",
+        "status": "resolved_title_boundary"
       },
       {
         "start": 164059,
@@ -15319,6 +15857,78 @@ export const nagasakiRows = [
         "start": 13545,
         "raw": "教育総務課（生 青少年健全育成地区活動費補助\n涯学習推進班） 金",
         "note": "冊子の独立した名称断片を再確認。混入した担当課名は明示された文字列のみ分離し、隣接項目から推測しない。数値未抽出・評価年度と実施年度を分離。"
+      },
+      {
+        "name": "体育スポーツ振興補助事業",
+        "start": 118,
+        "raw": "体育スポーツ振興補助事業",
+        "note": "令和７年度見直し一覧に明示された名称。過年度実績と将来予算が混在し実施FYは空欄。構成する指標・委託費を別事業にしない。"
+      },
+      {
+        "name": "地域の絆再生事業",
+        "start": 1524,
+        "raw": "地域の絆再生事業",
+        "note": "令和７年度見直し一覧に明示された名称。過年度実績と将来予算が混在し実施FYは空欄。構成する指標・委託費を別事業にしない。"
+      },
+      {
+        "name": "スクールバス運行事業",
+        "start": 3258,
+        "raw": "スクールバス運行事業",
+        "note": "令和７年度見直し一覧に明示された名称。過年度実績と将来予算が混在し実施FYは空欄。構成する指標・委託費を別事業にしない。"
+      },
+      {
+        "name": "小学校プール管理運営事業",
+        "start": 4427,
+        "raw": "小学校プール管理運営事業",
+        "note": "令和７年度見直し一覧に明示された名称。過年度実績と将来予算が混在し実施FYは空欄。構成する指標・委託費を別事業にしない。"
+      },
+      {
+        "name": "少年センター運営事業",
+        "start": 13742,
+        "raw": "少年センター運営事業",
+        "note": "令和７年度見直し一覧に明示された名称。過年度実績と将来予算が混在し実施FYは空欄。構成する指標・委託費を別事業にしない。"
+      },
+      {
+        "name": "三井楽給食センター管理運営事業",
+        "start": 4484,
+        "raw": "教育総務課（総 三井楽給食センター管理運営事\n務班）\n業",
+        "note": "令和７年度事前見直し対象のハード事業名称。整備計画/設計/予算を完成実績にせず、実施FY・費用・工事完了は未入力。政策欄と説明欄の文字は名称に混入させない。"
+      },
+      {
+        "name": "福江総合福祉保健センター外部改修工事",
+        "start": 8236,
+        "raw": "福江総合福祉保\n施設の長寿命化のため、\n社会生活基盤の\n雨漏りや外壁のひび割れ等の劣化が\n・屋上防水\n健センター外部\n年次的に施設の改修を行\n整備\n見られる。今後も既存施設を安全に\n・外壁塗装\n改修工事",
+        "note": "令和７年度事前見直し対象のハード事業名称。整備計画/設計/予算を完成実績にせず、実施FY・費用・工事完了は未入力。政策欄と説明欄の文字は名称に混入させない。"
+      },
+      {
+        "name": "魚津ヶ崎公園施設改修事業",
+        "start": 8534,
+        "raw": "持続可能な観光 魚津ヶ崎公園施 劣化が著しく、施設の損傷が進んで\n基盤づくり\n設改修事業",
+        "note": "令和７年度事前見直し対象のハード事業名称。整備計画/設計/予算を完成実績にせず、実施FY・費用・工事完了は未入力。政策欄と説明欄の文字は名称に混入させない。"
+      },
+      {
+        "name": "地区公民館照明LED化改修事業",
+        "start": 8915,
+        "raw": "地区公民館照明\nティプロジェク\n蛍光灯の製造等が中止となるため、\nLED化改修事業",
+        "note": "令和７年度事前見直し対象のハード事業名称。整備計画/設計/予算を完成実績にせず、実施FY・費用・工事完了は未入力。政策欄と説明欄の文字は名称に混入させない。"
+      },
+      {
+        "name": "三井楽町公民館空調機取替修繕",
+        "start": 9849,
+        "raw": "社会生活基盤の 三井楽町公民館 し、稼働できていない箇所がある。\n整備\n空調機取替修繕",
+        "note": "令和７年度事前見直し対象のハード事業名称。整備計画/設計/予算を完成実績にせず、実施FY・費用・工事完了は未入力。政策欄と説明欄の文字は名称に混入させない。"
+      },
+      {
+        "name": "三井楽町公民館屋上防水・外壁改修工事",
+        "start": 9363,
+        "raw": "三井楽町公民館\n社会生活基盤の\n被害が拡大しているため、社会教育\n屋上防水・外壁\n整備\n施設・指定避難所の安全対策、施設\n改修工事",
+        "note": "FY2025評価の工事計画名。実施方針は屋上防水のみで外壁は採択されていない。原案名を残し、完成/全工事実施/決算を推定しない。"
+      },
+      {
+        "name": "電算システム使用料（AIチャットボット、支所・本庁間デジタル相談窓口）",
+        "start": 10690,
+        "raw": "電算システム使用料（AIチャッ\nトボット、支所・本庁間デジタ\nル相談窓口）",
+        "note": "正式な評価対象欄の合同事業名を一件として保持。AIと相談窓口を二事業に分割せず、使用人数を事業数や決算額に転用しない。"
       }
     ],
     "holds": [
@@ -15419,6 +16029,12 @@ export const nagasakiRows = [
         "start": 5372,
         "raw": "国保健康政策 集団健診予約受付業務委\n課\n託料",
         "note": "冊子の独立した名称断片を再確認。混入した担当課名は明示された文字列のみ分離し、隣接項目から推測しない。数値未抽出・評価年度と実施年度を分離。"
+      },
+      {
+        "name": "雇用充足促進業務委託料",
+        "start": 4576,
+        "raw": "雇用充足促進業務委託料",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
       }
     ],
     "holds": [
@@ -15427,6 +16043,12 @@ export const nagasakiRows = [
         "raw": "令和５年度 事業評価一覧表（拡大）\n\n（単位：千円）\n事\n\n担当課名\n\n業\n受益者、\n関係者等\n\n名 称 及 び 目 的\n\n政策企画課\n\n政策企画課\n\nの\n\n概\n\n要\n\n令和4年度\n\n令和5年度\n\n一 次 評 価 （ 各 課 自 己 評 価 ）\n\n二 次 評 価 （ 財 政 課 評 価 ）\n\n委 託",
         "status": "layout_review",
         "reason": "Source-family review remains for displaced/interleaved title blocks and generic commission labels; no fields or duplicate components guessed."
+      },
+      {
+        "start": 3278,
+        "raw": "運用保守業務委託料",
+        "status": "identity_or_period_hold",
+        "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
       }
     ],
     "evaluationYear": 2023,
@@ -15805,6 +16427,12 @@ export const nagasakiRows = [
         "start": 15086,
         "raw": "三井楽万葉\nまつり開催\n事業",
         "note": "見直し事業の評価対象名称。評価年度のみ。新規・拡大・縮小・廃止・計画を実績に転用せず、実施FYと金額は未確定。全体版との同名同年度再掲は重複除外する。"
+      },
+      {
+        "name": "森林整備地域活動支援交付金",
+        "start": 10154,
+        "raw": "森林整備地\n域活動支援\n交付金",
+        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
       }
     ],
     "holds": [
@@ -19486,5 +20114,3182 @@ export const nagasakiRows = [
     "sourceUrl": "https://www.city.shimabara.lg.jp/hpkiji/pub/List.aspx?c_id=3&class_set_id=1&class_id=168",
     "recordedFormat": "aspx",
     "format": "html"
+  },
+  {
+    "sourceId": "7debebb80c1bb074651a0ac6",
+    "municipalityCode": "42207",
+    "year": 2012,
+    "proof": "平 成 24 年 度\n主要な施策の成果",
+    "fullTextSha256": "fce9cbcdf65e77de49a08f65d8fd931b3074a46c745c776dccac0a9d909e45fe",
+    "rows": [
+      {
+        "name": "議会会議録作成経費",
+        "start": 2482,
+        "raw": "議会会議録作成経\n費",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "無線システム普及支援事業",
+        "start": 7922,
+        "raw": "無線システム普及\n支援事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "高齢者交通安全対策事業",
+        "start": 7960,
+        "raw": "高齢者交通安全対\n策事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "地域総合整備資金貸付事業",
+        "start": 9048,
+        "raw": "地域総合整備資金\n貸付事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "地域めぐりあい創出事業",
+        "start": 9315,
+        "raw": "地域めぐりあい創\n出事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "市民総合相談室設置事業",
+        "start": 17265,
+        "raw": "市民総合相談室設\n置事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "土地評価システム管理事業",
+        "start": 17300,
+        "raw": "土地評価システム\n管理事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "国営田平土地改良区総代選挙",
+        "start": 19109,
+        "raw": "国営田平土地改良区\n総代選挙",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "社会福祉協議会支援事業",
+        "start": 23517,
+        "raw": "社会福祉協議会支\n援事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "福祉健康まつり開催事業",
+        "start": 23552,
+        "raw": "福祉健康まつり開\n催事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "特別障害者手当等給付事業",
+        "start": 29204,
+        "raw": "特別障害者手当等\n給付事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "自立支援協議会運営事業",
+        "start": 29240,
+        "raw": "自立支援協議会運\n営事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "療育支援センター管理運営事業",
+        "start": 29275,
+        "raw": "療育支援センター\n管理運営事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "高齢者見守りネットワーク事業",
+        "start": 29313,
+        "raw": "高齢者見守りネット\nワーク事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "敬老行事開催支援事業",
+        "start": 29353,
+        "raw": "敬老行事開催支援\n事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "敬老祝金給付事業",
+        "start": 30621,
+        "raw": "敬老祝金給付事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "緊急通報装置貸与事業",
+        "start": 31775,
+        "raw": "緊急通報装置貸与\n事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "度島いきいきプラザ（仮称）整備事業",
+        "start": 32640,
+        "raw": "度島いきいきプラ\nザ（仮称）整備事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "老人保護措置事業",
+        "start": 32683,
+        "raw": "老人保護措置事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "家庭児童相談員設置事業",
+        "start": 33552,
+        "raw": "家庭児童相談員設\n置事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "離島地域安心出産支援事業",
+        "start": 34243,
+        "raw": "離島地域安心出産\n支援事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "子育て親社会参加促進事業",
+        "start": 34796,
+        "raw": "子育て親社会参加\n促進事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "保育対策等促進事業",
+        "start": 35291,
+        "raw": "保育対 策等促進\n事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "母子自立支援員設置事業",
+        "start": 36977,
+        "raw": "母子自 立支援員\n設置事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "母子家庭自立支援給付金事業",
+        "start": 37013,
+        "raw": "母子家 庭自立支\n援給付金事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "生活保護事業",
+        "start": 39324,
+        "raw": "生活保護事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "妊産婦健康診査事業",
+        "start": 41440,
+        "raw": "妊産婦 健康診査\n事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "訪問指導事業",
+        "start": 45915,
+        "raw": "訪問指導事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "太陽光発電システム設置促進事業",
+        "start": 47747,
+        "raw": "太 陽光発電シス\nテ ム設置促進事\n業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "し尿処理施設解体事業",
+        "start": 49512,
+        "raw": "し尿処理施設解体\n事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "中山間地域等直接支払交付金事業",
+        "start": 55748,
+        "raw": "中山間地域等直接\n支払交付金事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "耕作放棄地解消総合対策事業",
+        "start": 55910,
+        "raw": "耕作放棄地解消総\n合対策事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "農援隊設置事業",
+        "start": 56502,
+        "raw": "農援隊設置事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "輝くながさき園芸産地振興計画推進事業",
+        "start": 57755,
+        "raw": "輝くながさき園芸\n産地振興計画推進\n事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "園芸産地育成対策事業",
+        "start": 58635,
+        "raw": "園芸産地育成対策\n事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "有害鳥獣被害防止対策事業",
+        "start": 60270,
+        "raw": "有害鳥獣被害防止\n対策事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "鳥獣被害防止総合対策事業",
+        "start": 60306,
+        "raw": "鳥獣被害防止総合\n対策事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "肉用牛経営活力アップ事業",
+        "start": 64614,
+        "raw": "肉用牛経営活力ア\nップ事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "農村災害対策整備事業県工事負担金",
+        "start": 64889,
+        "raw": "農村災害対策整備\n事業県工事負担金",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "海岸堤防等老朽化対策事業県工事負担金",
+        "start": 65289,
+        "raw": "海岸堤防等老朽化\n対策事業県工事負\n担金",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "農村災害対策整備事業",
+        "start": 65332,
+        "raw": "農村災害対策整備\n事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "農業農村整備事業",
+        "start": 66538,
+        "raw": "農業農村整備事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "環境林整備事業",
+        "start": 68045,
+        "raw": "環境林整備事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "森林病害虫獣対策事業",
+        "start": 68687,
+        "raw": "森林病害虫獣対策\n事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "農山漁村活性化プロジェクト支援交付金事業",
+        "start": 69284,
+        "raw": "農山漁村活性化プ\nロジェクト支援交\n付金事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "特用林産物活用施設整備事業",
+        "start": 69329,
+        "raw": "特用林産物活用施\n設整備事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "離島漁業再生支援交付金事業",
+        "start": 70356,
+        "raw": "離島漁業再生支援\n交付金事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "環境・生態系保全活動支援交付金事業",
+        "start": 71333,
+        "raw": "環境・生態系保全\n活動支援交付金事\n業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "密漁取締連携推進事業",
+        "start": 72280,
+        "raw": "密漁取締連携推進\n事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "新生水産県ながさき総合支援事業",
+        "start": 73465,
+        "raw": "新生水産県ながさ\nき総合支援事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "離島輸送コスト支援事業",
+        "start": 75033,
+        "raw": "離島輸送コスト支\n援事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "地域水産物供給基盤整備事業",
+        "start": 77127,
+        "raw": "地域水産物供給基\n盤整備事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "水産物供給基盤機能保全事業",
+        "start": 78112,
+        "raw": "水産物供給基盤機\n能保全事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "漁港単独整備事業",
+        "start": 79333,
+        "raw": "漁港単独整備事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "漁港施設機能強化事業",
+        "start": 81143,
+        "raw": "漁港施設機能強化\n事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "強い水産業づくり交付金事業",
+        "start": 81682,
+        "raw": "強い水産業づくり\n交付金事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "大島温泉設備改修事業",
+        "start": 92482,
+        "raw": "大島温泉設備改修\n事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "わがまち観光地づくり事業",
+        "start": 93140,
+        "raw": "わがまち観光地づ\nくり事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "長崎上海航路誘客対策事業",
+        "start": 101262,
+        "raw": "長崎上海航路誘客\n対策事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "夏のイベント開催支援事業",
+        "start": 101832,
+        "raw": "夏のイベント開催\n支援事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "過疎対策道路整備事業",
+        "start": 104887,
+        "raw": "過疎対策道路整備\n事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "道路整備事業県工事負担金",
+        "start": 106951,
+        "raw": "道路整備事業県工\n事負担金",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "橋りょう整備事業",
+        "start": 108797,
+        "raw": "橋りょう整備事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "橋りょう長寿命化事業",
+        "start": 109015,
+        "raw": "橋りょう長寿命化\n事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "都市計画マスタープラン策定事業",
+        "start": 111217,
+        "raw": "都市計画マスター\nプラン策定事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "大島村神浦地区街なみ環境整備事業",
+        "start": 112666,
+        "raw": "大島村神浦地区街\nなみ環境整備事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "公営住宅整備事業",
+        "start": 113665,
+        "raw": "公営住宅整備事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "住宅・建築物耐震改修事業",
+        "start": 114536,
+        "raw": "住宅・建築物耐震改\n修事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "大久保団地公営住宅建設事業",
+        "start": 115236,
+        "raw": "大久保団地公営住\n宅建設事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "消防庁舎整備事業",
+        "start": 118288,
+        "raw": "消防庁舎整備事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "自主防災組織育成事業",
+        "start": 119957,
+        "raw": "自主防災組織育成\n事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "総合防災訓練開催事業",
+        "start": 120213,
+        "raw": "総合防災訓練開催\n事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "スクールバス･ボート運行事業",
+        "start": 127524,
+        "raw": "スクールバス･ボ\nート運行事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "志々伎小学校校舎大規模改造事業",
+        "start": 131874,
+        "raw": "志々伎小学校校舎\n大規模改造事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "指定文化財維持管理事業",
+        "start": 142473,
+        "raw": "指定文化財維持管\n理事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "少年自然体験交流事業",
+        "start": 147546,
+        "raw": "少年自然体験交流\n事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "サバイバル体験交流事業",
+        "start": 147778,
+        "raw": "サバイバル体験交\n流事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "選手強化育成事業",
+        "start": 151388,
+        "raw": "選手強化育成事業",
+        "note": "平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。"
+      },
+      {
+        "name": "人事評価制度構築事業",
+        "start": 6631,
+        "raw": "事業\n（総務課）\n【事項別明細書 90 頁】\n\n人事評価制度の構築に向け、職員アンケートを行い、平戸市職員\n人事評価に関する検討委員会において、人事評価制度の設計・構築\nについて検討を進めた。また、人事評価制度マニュアルにより、職\n員を対象として制度説明会を開催した。\n・職員アンケート\n\n内\n\n訳\n事 業 の 成 果\n\n国県支出金\n\n人事評価制度構築",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "情報格差等対策事業",
+        "start": 7761,
+        "raw": "情報格差等対策事\n\n1,680\n\n1,680\n\n経費に対し、助成を行った。\n全体事業費 3,360 千円(H23：1,680 千円 H24：1,680 千円)\n\n平戸市地域情報化推進協議会を設置し、地域情報化の指針の策定\n\n139\n\n139\n\nのため協議会を行った。\n\n業\n（政策推進課）\n【事項別明細書 100 頁】",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "地域間交流推進事業",
+        "start": 8574,
+        "raw": "業\n（政策推進課）\n【事項別明細書 112 頁】\n\n【枝幸町・平戸市いきいき交流事業】12 月 24 日～28 日\n\n内\n\n訳\n事 業 の 成 果\n\n国県支出金\n\n地域間交流推進事",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "民生委員児童委員設置事業",
+        "start": 24056,
+        "raw": "設置事業\n（福祉課）\n【事項別明細書 140 頁】\n\n高齢者、障害者、児童、母子寡婦等が地域社会に活動情報等\n\nて、温かく、ふれあいがあり、安心して生活できる環境づくりを推進\n\n実施団体\n\n民生委員児童委員",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "障害者自立支援給付費等事業",
+        "start": 27755,
+        "raw": "付費等事業\n（福祉課）\n【事項別明細書 146 頁】\n\n障害者自立支援法に基づき、障害者の自立を支援するため、特性に\n\n内\n\n訳\n事 業 の 成 果\n\n国県支出金\n\n障害者自立支援給",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "子育て支援交付金事業",
+        "start": 35028,
+        "raw": "金事業\n（福祉課）\n【事項別明細書 160 頁】\n\n小学校低学年児童の放課後の居場所づくりや、\n子育ての負担感を緩\n\n内\n\n訳\n事 業 の 成 果\n\n国県支出金\n\n子育て 支援交付",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "ストックヤード整備事業",
+        "start": 48587,
+        "raw": "整備事業\n（市民課）\n【事項別明細書 188 頁】\n\n訳\n\n地 方 債\n\n5,908\n\nそ の 他\n\n一般財源\n\n5,908\n\n量化を図った。\n\n各団体における再資源化物の回収の推進を図り、市民の分\n別リサイクル意識の啓発に伴うごみの減量化を行った。\n再資源化推進交付金\n\n再資源化推進登録団体数 216団体\n\n【事項別明細書 188 頁】\n\nストックヤード",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "農地・水保全管理支払交付金事業",
+        "start": 59501,
+        "raw": "支払交付金事業\n（農林課）\n【事項別明細書 200 頁】\n\n訳\n\n地 方 債\n\nそ の 他\n\n一般財源\n\n21,553\n\n現状に即した平戸市農業振興地域整備計画の更新を行うた\nめの基礎・根拠資料が作成された。また、13 人の雇用創出が\nできた。\n\nを実施した。\n\n【事項別明細書 200 頁】\n\n農地・水保全管理",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "農産物加工新商品開発支援事業",
+        "start": 62657,
+        "raw": "開発支援事業\n（農林課）\n【事項別明細書 204 頁】\n\n農産物を加工処理し、商品化することで、収益の向上を図るなど、\n\n内\n\n訳\n事 業 の 成 果\n\n国県支出金\n\n農産物加工新商品",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "強い農業づくり交付金事業",
+        "start": 64314,
+        "raw": "付金事業\n（農林課）\n【事項別明細書 206 頁】\n\n放牧事業に取り組む組織に対して、草地整備及び牧柵設置など放\n\n内\n\n訳\n事 業 の 成 果\n\n国県支出金\n\n強い農業づくり交",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "自然災害防止事業県工事負担金",
+        "start": 66035,
+        "raw": "県工事負担金\n（農林課）\n【事項別明細書 208 頁】\n\n県が実施する老朽化した農業用ため池の改修のための対策工事に\n\n内\n\n訳\n事 業 の 成 果\n\n国県支出金\n\n自然災害防止事業",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "地域ため池総合整備事業県工事負担金",
+        "start": 66328,
+        "raw": "地域ため池総合整\n備事業県工事負担\n\n県が実施する老朽化した農業用ため池の改修のための対策工事及\n\n2,000\n\n2,208\n\n74\n\n134\n\n当該ため池は、堤体及び余水吐などの老朽化に伴い、漏水が\n発生するなど支障を来たしている状況である。事業完成後は、\n\nび排水路整備のための測量設計にかかる県工事負担金\n\n堤体崩壊に伴う土砂及び水害の防止と農業用水の安定供給が\n\n金\n（農林課）\n【事項別明細書 208 頁】",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "海岸防災林造成事業県工事負担金",
+        "start": 67680,
+        "raw": "業県工事負担金\n（農林課）\n【事項別明細書 216 頁】\n\n県が実施する老朽化した海岸保全施設の改修のための測量・設計\n\n内\n\n訳\n事 業 の 成 果\n\n国県支出金\n\n海岸防災林造成事",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "水産業普及指導事業",
+        "start": 74085,
+        "raw": "業\n（水産課）\n【事項別明細書 224 頁】\n\n①資源管理型漁業の推進（種苗放流）\n\n4,283千円\n\n内\n\n訳\n事 業 の 成 果\n\n国県支出金\n\n水産業普及指導事",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "漁港整備事業県工事負担金",
+        "start": 79779,
+        "raw": "事負担金\n（水産課）\n【事項別明細書 232 頁】\n\n基幹的な漁港である県営漁港の施設を充実させるため､漁港整備\n\n訳\n\n18,516\n\n地 方 債\n\nそ の 他\n\n一般財源\n\n14,700\n\n923\n\n2,893\n\n計画に基づき県が実施している建設事業費の一部を負担した。\n漁港整備事業県工事負担金",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "平戸冨春園誘客促進事業",
+        "start": 92085,
+        "raw": "進事業\n（観光課）\n【事項別明細書 242 頁】\n\n千光寺（旧冨春庵）は、臨済宗開祖の栄西禅師が中国から茶の種\n\n内\n\n訳\n事 業 の 成 果\n\n国県支出金\n\n平戸冨春園誘客促",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "平戸観光振興強化事業",
+        "start": 95811,
+        "raw": "事業\n（観光課）\n【事項別明細書 246 頁】\n\n観光協会の実施事業について強化を図ることで、観光客の\n\n内\n\n訳\n事 業 の 成 果\n\n国県支出金\n\n平戸観光振興強化",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "観光トップセールス事業",
+        "start": 98387,
+        "raw": "ス事業\n（観光課）\n【事項別明細書 246 頁】\n\n市長自ら、国内において、観光宣伝をはじめとしたトップセール\n\n内\n\n訳\n事 業 の 成 果\n\n国県支出金\n\n観光トップセール",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "東アジア観光誘客推進事業",
+        "start": 100357,
+        "raw": "推進事業\n（観光課）\n【事項別明細書 248 頁】\n\n台湾を中心とした東アジアからの外国人観光誘客を図るため、平\n\n内\n\n訳\n事 業 の 成 果\n\n国県支出金\n\n東アジア観光誘客",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "辺地対策道路整備事業",
+        "start": 105786,
+        "raw": "辺地対策道路整備\n\n①深月線\n\n事業費 40,000 千円\n\n事業\n(建設課）\n【事項別明細書 260 頁】",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "防災行政無線施設整備事業",
+        "start": 119635,
+        "raw": "整備事業\n（総務課）\n【事項別明細書 290 頁】\n\nデジタル同報系防災行政無線施設整備の平成 24 年度工事を行った。\n\n内\n\n訳\n事 業 の 成 果\n\n国県支出金\n\n防災行政無線施設",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "学校図書館支援員配置事業",
+        "start": 129397,
+        "raw": "配置事業\n（学校教育課）\n【事項別明細書 300 頁】\n【事項別明細書 306 頁】\n\n市内小中学校図書館の活性化を図るため、学校図書館支援員を配\n\n内\n\n訳\n事 業 の 成 果\n\n国県支出金\n\n学校図書館支援員",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "少年の主張大会開催事業",
+        "start": 135985,
+        "raw": "催事業\n（生涯学習課）\n【事項別明細書 314 頁】\n\n平戸市内の全小中学校から 26 名の児童・生徒が参加した。\n\n内\n\n訳\n事 業 の 成 果\n\n国県支出金\n\n少年の主張大会開",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "第69回国民体育大会平戸市実行委員会運営事業",
+        "start": 150052,
+        "raw": "会平戸市実行委員\n会運営事業\n（生涯学習課）\n【事項別明細書 342 頁】\n\n実行委員会総会等、各種会議を下記のとおりを開催した。また、先\n\n内\n\n訳\n事 業 の 成 果\n\n国県支出金\n\n第 69 回国民体育大",
+        "note": "同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。"
+      },
+      {
+        "name": "市民表彰制度事業",
+        "start": 7100,
+        "raw": "市民表彰制度事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "移動市長室開催事業",
+        "start": 7430,
+        "raw": "移動市長室開催事\n業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "定住促進対策事業",
+        "start": 11340,
+        "raw": "定住促進対策事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "国土調査事業",
+        "start": 13871,
+        "raw": "国土調査事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "離島航路対策事業",
+        "start": 14851,
+        "raw": "離島航路対策事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "高島地区航路対策事業",
+        "start": 15050,
+        "raw": "高島地区航路対策\n事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "人権問題啓発事業",
+        "start": 16804,
+        "raw": "人権問題啓発事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "市民総合相談開催事業",
+        "start": 16951,
+        "raw": "市民総合相談開催\n事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "収納対策推進事業",
+        "start": 18090,
+        "raw": "収納対策推進事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "戦没者追悼事業",
+        "start": 24514,
+        "raw": "戦没者追悼事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "地域生活支援事業",
+        "start": 25123,
+        "raw": "地域生活支援事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "福祉医療給付事業",
+        "start": 27356,
+        "raw": "福祉医療給付事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "更生医療給付事業",
+        "start": 29412,
+        "raw": "更生医療給付事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "介護予防具設置事業",
+        "start": 31680,
+        "raw": "介護予防具設置事\n業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "保育所運営事業",
+        "start": 36799,
+        "raw": "保育所運営事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "妊婦相談事業",
+        "start": 43702,
+        "raw": "妊婦相談事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "予防接種事業",
+        "start": 44299,
+        "raw": "予防接種事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "健康教育事業",
+        "start": 45229,
+        "raw": "健康教育事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "後期高齢者健康診査事業",
+        "start": 46185,
+        "raw": "後期高齢者 健康\n診査事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "食育推進事業",
+        "start": 46400,
+        "raw": "食育推進事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "がん検診事業",
+        "start": 46891,
+        "raw": "がん検診事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "花とみどりのふるさとづくり事業",
+        "start": 47791,
+        "raw": "花とみどりのふる\nさとづくり事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "海岸漂着物地域対策推進事業",
+        "start": 48262,
+        "raw": "海岸漂着物地域対\n策推進事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "浄化槽設置整備事業",
+        "start": 49361,
+        "raw": "浄化槽設置整備\n事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "新規就農総合支援事業",
+        "start": 62151,
+        "raw": "新規就農総合支援\n事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "家畜導入事業",
+        "start": 63132,
+        "raw": "家畜導入事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "和牛オリンピック対策奨励事業",
+        "start": 63403,
+        "raw": "和牛オリンピック\n対策奨励事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "林道環境整備事業",
+        "start": 67274,
+        "raw": "林道環境整備事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "ＦＲＰ漁船廃船処理対策事業",
+        "start": 69915,
+        "raw": "ＦＲＰ漁船廃船処\n理対策事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "豊かな海づくり事業",
+        "start": 71375,
+        "raw": "豊かな海づくり事\n業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "中小企業振興対策事業",
+        "start": 85461,
+        "raw": "中小企業振興対策\n事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "企業誘致対策事業",
+        "start": 89773,
+        "raw": "企業誘致対策事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "観光バス運行事業",
+        "start": 90204,
+        "raw": "観光バス運行事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "観光セールス事業",
+        "start": 90869,
+        "raw": "観光セールス事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "鄭成功生家再現整備事業",
+        "start": 91196,
+        "raw": "鄭成功生家再現整\n備事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "平戸城耐震診断事業",
+        "start": 91735,
+        "raw": "平戸城耐震診断事\n業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "観光ガイド育成事業",
+        "start": 92516,
+        "raw": "観光ガイド育成事\n業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "体験型観光推進事業",
+        "start": 93842,
+        "raw": "体験型観光推進事\n業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "道路単独改良事業",
+        "start": 106740,
+        "raw": "道路単独改良事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "急傾斜地崩壊対策事業",
+        "start": 109370,
+        "raw": "急傾斜地崩壊対策\n事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "河川改良事業",
+        "start": 110044,
+        "raw": "河川改良事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "火災予防推進事業",
+        "start": 118075,
+        "raw": "火災予防推進事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "奨学資金貸付事業",
+        "start": 127134,
+        "raw": "奨学資金貸付事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "就学対策事業",
+        "start": 128223,
+        "raw": "就学対策事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "空き校舎活用事業",
+        "start": 133614,
+        "raw": "空き校舎活用事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "生涯学習推進事業",
+        "start": 135344,
+        "raw": "生涯学習推進事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "読書推進事業",
+        "start": 139056,
+        "raw": "読書推進事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "図書購入事業",
+        "start": 140044,
+        "raw": "図書購入事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "｢平戸学｣推進事業",
+        "start": 141202,
+        "raw": "｢平戸学｣推進事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "和蘭商館復元整備事業",
+        "start": 145055,
+        "raw": "和蘭商館復元整備\n事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "世界遺産登録推進事業",
+        "start": 145525,
+        "raw": "世界遺産登録推進\n事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "民俗芸能公開事業",
+        "start": 145965,
+        "raw": "民俗芸能公開事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "文化公演開催事業",
+        "start": 146515,
+        "raw": "文化公演開催事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "スポーツ推進事業",
+        "start": 149902,
+        "raw": "スポーツ推進事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "生月町国民体育館耐震診断事業",
+        "start": 151970,
+        "raw": "生月町国民体育館\n耐震診断事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "給食共同調理場設備整備事業",
+        "start": 152108,
+        "raw": "給食共同調理場設\n備整備事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "農地等災害復旧事業",
+        "start": 152738,
+        "raw": "農地等災害復旧事\n業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "漁港施設災害復旧事業",
+        "start": 153357,
+        "raw": "漁港施設災害復旧\n事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "高齢者生きがいづくりサポート事業",
+        "start": 156464,
+        "raw": "高齢者生きがいづくりサポート事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "農業振興地域整備計画更新事業",
+        "start": 156554,
+        "raw": "農業振興地域整備計画更新事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "担い手コーディネーター設置事業",
+        "start": 156602,
+        "raw": "担い手コーディネーター設置事業",
+        "note": "平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。"
+      },
+      {
+        "name": "平戸市振興公社公益法人移行事業",
+        "start": 7657,
+        "raw": "平戸市振興公社公\n\n公益法人制度改革に伴い、(財)平戸市振興公社が旧法から新法に\n\n益法人移行事業",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "協働によるまちづくり推進事業",
+        "start": 9924,
+        "raw": "協働によるまちづ\n\n源\n\n費\n\n24,057\n\n地 方 債\n\nそ の 他\n\n一般財源\n\n17,200\n\n4,000\n\n2,857\n\n平成 24 年度から新設した「やらんば市民活動サポート事業」\n\nくり推進事業",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "地域の元気づくり支援交付金事業",
+        "start": 10757,
+        "raw": "地域の元気づくり\n\n市民の参画と連携による自立した地域の確立を目指し、地域が一\n\n支援交付金事業",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "「やらんば！平戸」応援基金プロジェクト事業",
+        "start": 11838,
+        "raw": "「やらんば！平\n\nふるさと納税制度を受けて創設した「やらんば！平戸」応援基金\n\n戸」応援基金プロ\n\nについて、平戸市総合計画の「やらんば燦燦プロジェクト」を達成\n\n今後ともふるさと応援寄付金の推進を図るとともに、寄附者の\n\nジェクト事業",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "心身障害者福祉タクシー助成事業",
+        "start": 26249,
+        "raw": "心身障害者福祉タ\n\n社会活動の範囲を広め福祉向上を図るため、在宅の心身障害者で、\n\nクシー助成事業",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "放課後児童クラブ運営支援事業",
+        "start": 33844,
+        "raw": "放課後児童クラブ\n\n源\n\n事 業 費\n\n保護者が労働等により昼間家庭にいない小学校に就学している児\n\n13,168\n\n地 方 債\n\nそ の 他\n\n9,585\n\n一般財源\n\n3,583\n\n保護者が昼間家庭にいない児童に授業終了後または休暇期\n\n運営支援事業",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "子宮頸がん等ワクチン接種緊急促進臨時特例交付金事業",
+        "start": 43939,
+        "raw": "子宮頸がん等\n\n予防接種法に基づかない任意の予防接種で、子宮頸がんの発生を予\n\nワクチン接種\n\n防するワクチン、乳幼児が細菌性髄膜炎などの病気になることを予防\n\n緊急促進臨時\n\nするヒブワクチン及び、小児用肺炎球菌ワクチンの接種費用の全額を\n\n特例交付金事業",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "いきいき平戸21計画策定事業",
+        "start": 44944,
+        "raw": "いきいき平戸 21\n\n21 世紀における国民の健康づくり運動「健康日本 21」に基づき、平\n\n計画策定事業",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "農業者戸別所得補償制度推進事業",
+        "start": 59065,
+        "raw": "償制度推進事業\n\n4,907\n\n取り組みに対する支援を行った。\n\n園芸用施設流動化・改造支援\n\n農業者戸別所得補",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "21世紀平戸牛産地強化対策事業",
+        "start": 63854,
+        "raw": "強化対策事業\n\n11,286\n\nの出品牛対策及び大会開催に対し支援などを行った。\n\n【事項別明細書 206 頁】\n\n21 世紀平戸牛産地",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "森林整備地域活動支援交付金事業",
+        "start": 68911,
+        "raw": "支援交付金事業\n\n検及び崩壊箇所・崩壊の原因となっている箇所について、丈夫で簡\n\n（農林課）\n\n5,135\n\n・地上散布 7.60ha（平戸地区 3.00ha、大島地区 4.60ha）\n\n森林整備地域活動",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "「平戸あご」ブランド確立支援事業",
+        "start": 87322,
+        "raw": "「平戸あご」ブラ\n\n平戸の重要な特産品である「あご」を市民に再認識してもらうと\n\nンド確立支援事業",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "物産振興イベント開催支援事業",
+        "start": 88191,
+        "raw": "物産振興イベント\n\n源\n\n費\n\n2,000\n\n地 方 債\n\nそ の 他\n\n一般財源\n\n2,000\n\n農林・水産・商工業が連携してイベントを実施し、市民や\n\n開催支援事業",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "まちなか活性化基本計画策定事業",
+        "start": 89349,
+        "raw": "まちなか活性化基\n\nまちなか活性化基本計画とは、「長崎県まちなか活性化推進事業\n\n本計画策定事業",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "“おもてなし”モデル施設創出事業",
+        "start": 93403,
+        "raw": "“おもてなし”モ\n\n5,335\n\n＜緊急雇用創出事業臨時特例基金事業＞\n\n5,335\n\n顧客対象のアンケート調査を実施したが、調査事業所の中に\n\nデル施設創出事業",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "平戸・佐世保・西海ロングステイ観光圏推進事業",
+        "start": 98723,
+        "raw": "平戸・佐世保・西\n\n３市で構成する「平戸・佐世保・西海ロングステイ観光圏協議会」\n\n海ロングステイ観\n\nにおいて、観光客の自治体間周遊や滞在時間の延長を図るための取\n\nを行ったことで、利便性向上につながった。\n\n光圏推進事業",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "急傾斜地崩壊対策事業県工事負担金",
+        "start": 109921,
+        "raw": "事業県工事負担金\n\n地 方 債\n\nりのため、次の地区の防止事業を行った。\n\n（建設課）\n\n急傾斜地崩壊対策",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "耐震・安心住まいづくり支援事業",
+        "start": 114747,
+        "raw": "耐震・安心住まい\n\n昭和 56 年以前に建築された戸建木造住宅の所有者が行う耐震診\n\nづくり支援事業",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "平戸小学校校舎大規模改造事業",
+        "start": 131340,
+        "raw": "平戸小学校校舎大\n\n児童の安全安心な教育環境の改善を図るため、耐震診断の結果、\n\n規模改造事業",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "総合情報センター（仮称）整備事業",
+        "start": 140579,
+        "raw": "総合情報センター\n\nボーリング調査\n\n2,573 千円\n\n（仮称）整備事業",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "国指定重要文化財保存整備事業",
+        "start": 143607,
+        "raw": "国指定重要文化財\n\n源\n\n費\n地 方 債\n\nそ の 他\n\n283\n\n一般財源\n\n283\n\n補修補助を行いったことにより、市民・観光客への安全が確\n\n保存整備事業",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "全国高等学校総合体育大会平戸市実行委員会運営事業",
+        "start": 150690,
+        "raw": "全国高等学校総合\n\n実行委員会総会等、各種会議を下記のとおりを開催した。また、先\n\n体育大会平戸市実\n\n進地視察や啓発活動に努めた。\n\n行委員会運営事業",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "生月町勤労者体育センター整備事業",
+        "start": 151607,
+        "raw": "生月町勤労者体育\n\n生月町勤労者体育センター（野球場）の改修を行った。\n\nセンター整備事業",
+        "note": "FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。"
+      },
+      {
+        "name": "身体障害者交通船旅客運賃助成事業",
+        "start": 26340,
+        "raw": "旅客運賃助成事業\n（福祉課）\n【事項別明細書 144 頁】\n\n車椅子常用者 29 人（述べ 471 件）\n\n（福祉課）\n【事項別明細書 144 頁】\n【事項別明細書 158 頁】\n\n5 人（延べ 86 件）\n\n39 千円\n\n視覚障害者\n\n12 人（延べ 247 件）\n\n106 千円\n\n祉事業\n（福祉課）\n【事項別明細書 144 頁】\n【事項別明細書 146 頁】\n\n3款\n\n民生費\n\nそ の 他\n\n339\n\n一般財源\n\n339\n\n障害者の社会活動の範囲が広がり、障害者の福祉向上に寄与\nすることができた。\n\n25 千円\n\n第２種身体障害者手帳所持者に対し、社会参加とその軽減を図るた\n\n611\n\n611\n\n障害者の社会参加が促進された。\n\nめ交通船旅客運賃の４割助成を行った。\n大島～平戸\n\n29 人（延べ 1,388 件）\n\n度島～平戸\n\n4 人（延べ 283 件）\n\n356 千円\n70 千円\n186 千円\n\n福祉の増進及び負担軽減のため、心身障害者、乳幼児、母子家庭等\n\n158,500\n\n70,149\n\n5\n\n○扶助費\n\n＜29,842 千円＞\n\n母子家庭等\n\n＜11,236 千円＞\n\n障害 1･2 級\n\n心身機能の障害で日常生活に支障がある者、乳幼児、母子家\n\n○支給件数の推移\n\n153,892 千円\n\n乳幼児\n\n88,346\n\n庭等の経済的負担の軽減ができた。\n\nにおける母と子及び寡婦等に対して、医療費の助成を行った。\n\n(単位：件)\n22 年度\n\n23 年度\n\n24 年度\n\n乳 幼 児\n\n13,653\n\n23,688\n\n22,708\n\n＜39,609 千円＞\n\n母子家庭等\n\n3,441\n\n4,261\n\n4,032\n\n療育Ａ1･2\n\n＜ 7,719 千円＞\n\n障害１・２\n\n6,459\n\n6,701\n\n6,806\n\n老人\n\n＜36,871 千円＞\n\n療育 A１・２\n\n2,116\n\n2,068\n\n1,833\n\n障害 3 級\n\n＜ 9,199 千円＞\n\n老\n\n人\n\n6,844\n\n6,706\n\n6,250\n\n療育Ｂ1\n\n＜ 2,537 千円＞\n\n障 害 ３\n\n1,893\n\n2,248\n\n2,344\n\n単独(障害 4 級･療育Ｂ2･老人 3･4 級Ｂ1) ＜16,879 千円＞\n\n療育Ｂ１\n\n924\n\n875\n\n913\n\n○事務費\n\nひらどふれあい福\n\n地 方 債\n\n169 千円\n\n知的障害者\n\n事務費\n\n福祉医療給付事業\n\n訳\n\nを利用する場合、基本料金の９割助成を行った。\n\n事務費\n身体障害者交通船",
+        "note": "FY2012同一決算ページの明示された名称片を照合。施設/費用の構成項目は別件にしない。資料の並び順だけから担当や金額を結び付けない。"
+      },
+      {
+        "name": "ひらどふれあい福祉事業",
+        "start": 26483,
+        "raw": "祉事業\n（福祉課）\n【事項別明細書 144 頁】\n【事項別明細書 146 頁】\n\n3款\n\n民生費\n\nそ の 他\n\n339\n\n一般財源\n\n339\n\n障害者の社会活動の範囲が広がり、障害者の福祉向上に寄与\nすることができた。\n\n25 千円\n\n第２種身体障害者手帳所持者に対し、社会参加とその軽減を図るた\n\n611\n\n611\n\n障害者の社会参加が促進された。\n\nめ交通船旅客運賃の４割助成を行った。\n大島～平戸\n\n29 人（延べ 1,388 件）\n\n度島～平戸\n\n4 人（延べ 283 件）\n\n356 千円\n70 千円\n186 千円\n\n福祉の増進及び負担軽減のため、心身障害者、乳幼児、母子家庭等\n\n158,500\n\n70,149\n\n5\n\n○扶助費\n\n＜29,842 千円＞\n\n母子家庭等\n\n＜11,236 千円＞\n\n障害 1･2 級\n\n心身機能の障害で日常生活に支障がある者、乳幼児、母子家\n\n○支給件数の推移\n\n153,892 千円\n\n乳幼児\n\n88,346\n\n庭等の経済的負担の軽減ができた。\n\nにおける母と子及び寡婦等に対して、医療費の助成を行った。\n\n(単位：件)\n22 年度\n\n23 年度\n\n24 年度\n\n乳 幼 児\n\n13,653\n\n23,688\n\n22,708\n\n＜39,609 千円＞\n\n母子家庭等\n\n3,441\n\n4,261\n\n4,032\n\n療育Ａ1･2\n\n＜ 7,719 千円＞\n\n障害１・２\n\n6,459\n\n6,701\n\n6,806\n\n老人\n\n＜36,871 千円＞\n\n療育 A１・２\n\n2,116\n\n2,068\n\n1,833\n\n障害 3 級\n\n＜ 9,199 千円＞\n\n老\n\n人\n\n6,844\n\n6,706\n\n6,250\n\n療育Ｂ1\n\n＜ 2,537 千円＞\n\n障 害 ３\n\n1,893\n\n2,248\n\n2,344\n\n単独(障害 4 級･療育Ｂ2･老人 3･4 級Ｂ1) ＜16,879 千円＞\n\n療育Ｂ１\n\n924\n\n875\n\n913\n\n○事務費\n\nひらどふれあい福",
+        "note": "FY2012同一決算ページの明示された名称片を照合。施設/費用の構成項目は別件にしない。資料の並び順だけから担当や金額を結び付けない。"
+      },
+      {
+        "name": "在宅寝たきり高齢者等介護見舞金支給事業",
+        "start": 31917,
+        "raw": "給事業\n（長寿保険課）\n【事項別明細書 152 頁】\n\n民生費\n\n緊急時の迅速な対応や安否確認、また、普段の生活の心配事、\n対象者が安心して在宅生活を送ることができた。\n\n貸与台数 392 台 (平成 25 年 3 月末現在)\n（内訳）平戸 217 台 生月 43 台 田平 88 台 大島 44 台\n\n社会的孤立感の解消、自立生活の助長を図るため、在宅のひとり暮\nビス等を実施した。\n\n者等介護見舞金支\n\n5,765\n\n悩み事の相談に応じるなど、日常生活を支援することにより、\n\n（長寿保険課）\n\n在宅寝たきり高齢",
+        "note": "FY2012同一決算ページの明示された名称片を照合。施設/費用の構成項目は別件にしない。資料の並び順だけから担当や金額を結び付けない。"
+      },
+      {
+        "name": "高齢者・障害者住宅改造助成事業",
+        "start": 32609,
+        "raw": "改造助成事業\n（長寿保険課）\n【事項別明細書 152 頁】\n\n度島いきいきプラ\nザ（仮称）整備事業\n（長寿保険課）\n【事項別明細書 152 頁】\n\n老人保護措置事業\n（福祉課）\n【事項別明細書 154 頁】\n\n高齢者（要介護者及び要支援者）または重度障害者の日常生活を容\n\n1,303\n\n地 方 債\n\nそ の 他\n\n651\n\n一般財源\n\n652\n\n高齢者及び障害者の日常生活を容易にし、介護者や家族の負\n担を軽減するとともに、安心して快適に自立した生活を送るこ\n\n成を行った。\n\nとができる環境整備を行った。\n\n高齢者 15 件\n\n1,303 千円\n\n昭和 56 年以前に建設された度島診療所及び医師住宅の建設に併せ、\n\n2,519\n\n2,500\n\n19\n\n介護予防施設を併設するための地質調査、設計委託を行った。\n地質調査業務委託\n設計業務委託\n\n施設建設に伴い、医療供給体制の充実と福祉・介護サービス\nの提供を行うことで、医療・福祉・介護の連携が可能となる。\n\n350 千円\n2,168 千円\n\n概ね 65 歳以上の老人で、環境上及び経済的理由のため、在宅生活\n\n200,283\n\n27,758\n\n172,525\n\n入所者本人や家族の不安解消と、生活安定の支援を行った。\n\nが困難な者を対象に、養護老人ホームに入所させ養護した。\n○入所者の状況（平成 25 年 3 月末現在）\n施 設 名\nの\n\n入所人員\n\n園\n\n50 名\n\nし か ま ち\n\n27 名\n\nグリーンホーム\n\n6名\n\nソ レ イ ユ\n\n2名\n\n恵\n\n2名\n\nの\n\n丘\n\n光\n\n明\n\n荘\n\n1名\n\n湧\n\n泉\n\n荘\n\n1名\n\n合\n\n後期 高 齢者 医療\n\n訳\n\n易にし、介護者の負担を軽減するため、高齢者等の住宅改造に対し助\n\n光\n\n療養給付事業\n\n内\n\n事 業 の 成 果\n国県支出金\n\n高齢者・障害者住宅",
+        "note": "FY2012同一決算ページの明示された名称片を照合。施設/費用の構成項目は別件にしない。資料の並び順だけから担当や金額を結び付けない。"
+      },
+      {
+        "name": "コンベンション開催事業",
+        "start": 94244,
+        "raw": "催事業\n（観光課）\n【事項別明細書 244 頁】\n\n観光客の誘致と地域の経済効果を創出するため、コンベンション\n\n○にぎわいづくり実績\n\n事業\n（観光課）\n\n2,800\n\n地域の賑わいにつながるコンベンションの開催に対して支\n致につなげることができた。\n\n補助金額\n\n宿泊実績\n\n50\n\n149\n\n1,000\n\n6,954\n\n150\n\n365\n\n佐世保西高等学校３年夏合宿\n\n500\n\n1,353\n\n佐世保西高等学校１年夏合宿\n\n250\n\n921\n\n青山学院初等部夏合宿５年生\n\n250\n\n810\n\n香雲堂吟詠会・来吟知会創立 10 周年\n\n200\n\n252\n\nとびうお杯小学生バレーボール親善大会\n\n100\n\n209\n\n商工会女性部主張発表長崎県大会\n\n50\n\n186\n\nVVSB Cup in Hirado 2012 サッカー大会\n\n150\n\n360\n\n脇川ﾎﾃﾙｶｯﾌﾟﾌﾚｯｼｭｻｯｶｰ U10 大会\n\n25\n\n63\n\n150\n\n320\n\n25\n\n86\n\n2,900\n\n12,028\n\n計\n\nマスメディアＰＲ\n\n一般財源\n\n援することにより、地域の活力と魅力を向上させ、観光客の誘\n\n佐世保北中学校学習合宿\n\nソフトバンク杯ＦＭ長崎Ｕ10 キッズサッカ\nーフェスティバル\n久留米大学陸上部・九州大学陸上部合同合\n宿\n\n（観光課）\n\n100\n\nそ の 他\n\n(単位：千円,延べ人数）\n\n英進館夏期特訓合宿中３公立\n\n【事項別明細書 246 頁】\n\n2,900\n\n地 方 債\n\nまた、本年から新たに勉強合宿に対する補助も行った。\n\n鄭成功生誕記念平戸ｻｯｶｰﾌｪｽﾀ U-10 大会\n\n識整備事業\n\n訳\n\nなどを開催する各種団体に対して支援を実施した。\n\n事 業 名\n\n観光案内・誘導標\n\n内\n\n事 業 の 成 果\n国県支出金\n\nコンベンション開",
+        "note": "FY2012同一決算ページの明示された名称片を照合。施設/費用の構成項目は別件にしない。資料の並び順だけから担当や金額を結び付けない。"
+      },
+      {
+        "name": "県指定文化財保存整備事業",
+        "start": 144044,
+        "raw": "整備事業\n（文化遺産課）\n【事項別明細書 330 頁】\n\n882 千円（分担金 264 千円）\n\n坂本邸家屋修理修景\n\n3,319 千円（分担金 996 千円）\n\n村田邸家屋修理修景\n\n2,939 千円（分担金 882 千円）\n\n県指定史跡「鯨組主益冨家居宅跡」の座敷の改修事業、県指定有形\n\n県指定文化財としての保存継承が可能となり、火災等への備\nえを整備することができた。\n\n558\n\n558\n\n国指定史跡地内の整備として、文化財的な判断と、今後の方\n向性を検討することができた。\n\n・第１回整備委員会 12 月 17 日開催\n\n和蘭商館関連施設があったとされる、田平町横島で発掘調査を行\nい、リンバーンと呼ばれる航海用ロープ製作場のものと関連した排水\n\n（文化遺産課）\n\n設備跡や砂岩切石集中区が検出された。\n\n4,734\n\n2,516\n\n2,218\n\n国史跡への追加指定するため、新たな資料を加えることがで\nきた。\n\nまた、建築材と考えられる鉄釘も検出することができた。\n・発掘調査事業\n\n教育費\n\n2,773\n\n整備委員会を県とともに開催した。\n\n発掘調査事業\n\n10 款\n\n2,773\n\n58 千円\n\n「史跡平戸和蘭商館跡」に位置する常灯の鼻は、経年劣化による破\n\n【事項別明細書 332 頁】\n\n修理修景事業では、\n選定地区内家屋４棟で屋根替えなどの\n工事を行い、景観の保全・向上を図ることができた。\n各種イベントを実施したことで、\n地域内の意識高揚につな\nげることができた。\n\n・県指定史跡「鯨組主益冨家居宅跡」 2,715 千円\n・県指定有形文化財「雄香寺開山堂」\n\n損が著しく、\n危険な状態であり、\n修復工事を行う必要があることから、\n\n和蘭商館関連施設\n\n2,360\n\n文化財｢雄香寺開山堂｣の消防設備修繕に対する補助を行った。\n\n事業\n（文化遺産課）\n\n3,433\n\n674 千円\n\n常灯の鼻修復調査\n\n【事項別明細書 332 頁】\n\n13,517\n\n4,303 千円（分担金 1,291 千円）\n\n志田邸倉庫修理修景\n\n・事務事業\n\n県指定文化財保存",
+        "note": "FY2012同一決算ページの明示された名称片を照合。施設/費用の構成項目は別件にしない。資料の並び順だけから担当や金額を結び付けない。"
+      }
+    ],
+    "holds": [
+      {
+        "start": 6631,
+        "raw": "事業",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 7896,
+        "raw": "業",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 8574,
+        "raw": "業",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 24056,
+        "raw": "設置事業",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 26340,
+        "raw": "旅客運賃助成事業",
+        "status": "resolved_title_boundary",
+        "reason": "Saved literal prefix and suffix reviewed within the same page; full intervening quote retained."
+      },
+      {
+        "start": 26483,
+        "raw": "祉事業",
+        "status": "resolved_title_boundary",
+        "reason": "Saved literal prefix and suffix reviewed within the same page; full intervening quote retained."
+      },
+      {
+        "start": 27755,
+        "raw": "付費等事業",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 31917,
+        "raw": "給事業",
+        "status": "resolved_title_boundary",
+        "reason": "Saved literal prefix and suffix reviewed within the same page; full intervening quote retained."
+      },
+      {
+        "start": 32609,
+        "raw": "改造助成事業",
+        "status": "resolved_title_boundary",
+        "reason": "Saved literal prefix and suffix reviewed within the same page; full intervening quote retained."
+      },
+      {
+        "start": 35028,
+        "raw": "金事業",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 48587,
+        "raw": "整備事業",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 59501,
+        "raw": "支払交付金事業",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 62657,
+        "raw": "開発支援事業",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 64314,
+        "raw": "付金事業",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 66035,
+        "raw": "県工事負担金",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 66514,
+        "raw": "金",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 67680,
+        "raw": "業県工事負担金",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 74085,
+        "raw": "業",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 79779,
+        "raw": "事負担金",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 92085,
+        "raw": "進事業",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 94244,
+        "raw": "催事業",
+        "status": "resolved_title_boundary",
+        "reason": "Saved literal prefix and suffix reviewed within the same page; full intervening quote retained."
+      },
+      {
+        "start": 95811,
+        "raw": "事業",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 98387,
+        "raw": "ス事業",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 100357,
+        "raw": "推進事業",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 105817,
+        "raw": "事業",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 107399,
+        "raw": "事負担金",
+        "status": "layout_review",
+        "reason": "Title fragment is incomplete or generic; review the displaced saved title prefix before accepting. No guessed association or numeric fields."
+      },
+      {
+        "start": 119635,
+        "raw": "整備事業",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 129397,
+        "raw": "配置事業",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 135985,
+        "raw": "催事業",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 144044,
+        "raw": "整備事業",
+        "status": "resolved_title_boundary",
+        "reason": "Saved literal prefix and suffix reviewed within the same page; full intervening quote retained."
+      },
+      {
+        "start": 150052,
+        "raw": "会平戸市実行委員\n会運営事業",
+        "status": "resolved_title_boundary",
+        "reason": "Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred."
+      },
+      {
+        "start": 0,
+        "raw": "目\n\n次\n\n平 成 24 年 度\n主要な施策の成果\n（一般会計）\n\n決算に係る主要な施策の\n成果についての報告書\n\n議\n\n会\n\n費\n\n・・・・・・・・・・・\n\n1 頁\n\n総\n\n務\n\n費\n\n・・・・・・",
+        "status": "layout_review",
+        "reason": "Remaining displaced title blocks throughout full 157030-character book require title-prefix review; accepted rows are not proof of full coverage."
+      },
+      {
+        "start": 484,
+        "raw": "農業集落排水事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 514,
+        "raw": "宅 地 開 発 事 業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 547,
+        "raw": "あづち大島いさりびの里事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 10649,
+        "raw": "・まちづくり活性化交付金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 23771,
+        "raw": "に対して助成した。\n社会福祉協議会運営補助金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 23806,
+        "raw": "社会福祉センター運営補助金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 24348,
+        "raw": "生委員児童委員で構成される民生委員児童委員協議会連合会に対し、\n活動費等の助成を行った。\n民生委員児童委員協議会連合会補助金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 25293,
+        "raw": "○移動支援事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 25811,
+        "raw": "○地域活動支援センター事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 25993,
+        "raw": "○手話奉仕員派遣事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 26087,
+        "raw": "○身体障害者補助犬飼育管理助成事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 27617,
+        "raw": "活動団体に対して助成した。\n在宅重度障害者と学生ボランティアとのふれあい研修事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 27901,
+        "raw": "応じた障害福祉サービスを行った。\n○補装具給付事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 28085,
+        "raw": "○介護給付サービス事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 28332,
+        "raw": "短期入所事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 28359,
+        "raw": "生活介護事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 28405,
+        "raw": "療養介護事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 28484,
+        "raw": "○訓練等給付サービス事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 28802,
+        "raw": "○サービス利用計画作成事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 35217,
+        "raw": "○地域子育て支援拠点事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 35406,
+        "raw": "応するため、各種保育事業に対する助成を行った。\n○休日保育事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 36445,
+        "raw": "地域子育て支援事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 36531,
+        "raw": "○延長保育事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 36582,
+        "raw": "○病児・病後児保育事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 36595,
+        "raw": "障害児保育事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 48160,
+        "raw": "フラワー街道事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 48215,
+        "raw": "プランター植栽事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 48247,
+        "raw": "花いっぱい運動用苗配布事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 48660,
+        "raw": "各団体における再資源化物の回収の推進を図り、市民の分\n別リサイクル意識の啓発に伴うごみの減量化を行った。\n再資源化推進交付金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 60788,
+        "raw": "県北地域有害鳥獣被害防止対策協議会負担金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 63331,
+        "raw": "ひらどモー！モー！増頭支援事業補助金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 63935,
+        "raw": "・全国和牛能力共進会長崎県大会負担金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 63964,
+        "raw": "・県北地域和牛改良推進協議会負担金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 63992,
+        "raw": "・和牛オリンピック対策奨励事業補助金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 64990,
+        "raw": "画書作成、測量・設計及び対策工事にかかる県工事負担金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 65469,
+        "raw": "かかる県工事負担金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 66118,
+        "raw": "自然災害防止事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 66170,
+        "raw": "かかる県工事負担金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 66459,
+        "raw": "び排水路整備のための測量設計にかかる県工事負担金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 67819,
+        "raw": "及び対策工事にかかる県工事負担金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 68379,
+        "raw": "自然災害防止事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 72472,
+        "raw": "総事業費\n県費\n負担金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 75357,
+        "raw": "漁業担い手確保推進事業補助金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 75904,
+        "raw": "・ソフト事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 89359,
+        "raw": "まちなか活性化基本計画とは、「長崎県まちなか活性化推進事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 96466,
+        "raw": "・平戸キリシタン紀行事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 102031,
+        "raw": "平戸港夏まつり開催補助金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 114671,
+        "raw": "診断を行うための費用の一部を助成し、地震による人的・経済的被害\nの軽減を図った。\n・建築物耐震化事業補助金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 128482,
+        "raw": "遠距離等児童・生徒通学費補助金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 128610,
+        "raw": "児童・生徒通学費助成金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 136520,
+        "raw": "日本の宝「しま」体感交流事業補助金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 137099,
+        "raw": "空き校舎活用事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 141967,
+        "raw": "・伝統的建造物群保存修理事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 142183,
+        "raw": "平井家住宅修理補助金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 142234,
+        "raw": "丸田家住宅修理補助金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 142270,
+        "raw": "・伝統的建造物群防災施設等事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 142539,
+        "raw": "・史跡維持管理事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 142588,
+        "raw": "・ハクモクレン整備事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 142855,
+        "raw": "各種開発及び範囲確認に伴う埋蔵文化財発掘調査を実施した。ま\nた、里田原遺跡出土の木製品の保存処理を行った。\n・発掘調査事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 143029,
+        "raw": "・出土遺物保存処理委託事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 143329,
+        "raw": "田中家住宅修理補助金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 144013,
+        "raw": "・修理修景事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 144457,
+        "raw": "また、建築材と考えられる鉄釘も検出することができた。\n・発掘調査事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 144523,
+        "raw": "発掘調査事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 144952,
+        "raw": "・出土遺物保存処理委託事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 144975,
+        "raw": "・空中写真撮影委託事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 144996,
+        "raw": "・遺構実測委託事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 145852,
+        "raw": "発グッズ作成を行った。\n・世界遺産登録推進負担金",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 145888,
+        "raw": "・世界遺産登録に係る調査事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 146755,
+        "raw": "・次代を担う子どもの文化芸術体験事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 148905,
+        "raw": "研修会等参加事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 148926,
+        "raw": "市長特認事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 148946,
+        "raw": "県民体育大会参加事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 149056,
+        "raw": "スポーツ交流事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 156648,
+        "raw": "林道環境整備事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      },
+      {
+        "start": 156991,
+        "raw": "別紙 雇用対策事業",
+        "reason": "Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects."
+      }
+    ],
+    "sourceSha256": "22368187259d8a7c6202e69e022cafd32b856efcb55495407ab7622a4f7ec406",
+    "sourceUrl": "https://www.city.hirado.nagasaki.jp/kurashi/gyosei/zaisei/kessan/sesaku/files/8245071.pdf",
+    "recordedFormat": "pdf",
+    "format": "pdf"
+  },
+  {
+    "sourceId": "aea3a69441b0008158d6a8a7",
+    "municipalityCode": "42209",
+    "year": null,
+    "proof": "事後評価実施時期\n\nH26年度",
+    "fullTextSha256": "a66118af08f0e63b1fa493260b88f5b1d49dd5a51fd71fefcc5ad171d09a513d",
+    "rows": [
+      {
+        "name": "道路(国分寺線、厳原小学校線、日吉地区内線、横町線)",
+        "start": 132,
+        "raw": "道路(国分寺線、厳原小学校線、日吉地区内線、横町線)",
+        "note": "当初計画で実施した事業欄の合同名称を一件として保持。複数施設を別事業へ分割せず、H22～26の交付期間を単年度決算にしない。評価年度2014のみ。"
+      },
+      {
+        "name": "地域生活基盤施設（宮内広場、案内板）",
+        "start": 159,
+        "raw": "地域生活基盤施設（宮内広場、案内板）",
+        "note": "当初計画で実施した事業欄の合同名称を一件として保持。複数施設を別事業へ分割せず、H22～26の交付期間を単年度決算にしない。評価年度2014のみ。"
+      },
+      {
+        "name": "高質空間形成施設(照明施設、電線類地下埋設施設、歩行者支援施設）",
+        "start": 178,
+        "raw": "高質空間形成施設(照明施設、電線類地下埋設施設、歩行者支援施設）",
+        "note": "当初計画で実施した事業欄の合同名称を一件として保持。複数施設を別事業へ分割せず、H22～26の交付期間を単年度決算にしない。評価年度2014のみ。"
+      },
+      {
+        "name": "地域創造支援事業（幼稚園建設事業、既存建物解体･除却）",
+        "start": 211,
+        "raw": "地域創造支援事業（幼稚園建設事業、既存建物解体･除却）",
+        "note": "当初計画で実施した事業欄の合同名称を一件として保持。複数施設を別事業へ分割せず、H22～26の交付期間を単年度決算にしない。評価年度2014のみ。"
+      },
+      {
+        "name": "道路（鍛冶屋小路）",
+        "start": 606,
+        "raw": "道路（鍛冶屋小路、第1回）",
+        "note": "追加事業欄の個別名称。変更回数を年度/事業コードに使わない。削除された旧区分・同一建物解体の重複は追加しない。実施FYと費用は空欄。"
+      },
+      {
+        "name": "高次都市施設（観光交流センター）",
+        "start": 799,
+        "raw": "高次都市施設（観光交流センター、第3回）",
+        "note": "追加事業欄の個別名称。変更回数を年度/事業コードに使わない。削除された旧区分・同一建物解体の重複は追加しない。実施FYと費用は空欄。"
+      },
+      {
+        "name": "地域生活基盤施設（日吉広場）",
+        "start": 924,
+        "raw": "地域生活基盤施設（日吉広場、第4回）",
+        "note": "追加事業欄の個別名称。変更回数を年度/事業コードに使わない。削除された旧区分・同一建物解体の重複は追加しない。実施FYと費用は空欄。"
+      },
+      {
+        "name": "地域創造支援事業(既存建物移設、高麗門移設)",
+        "start": 1038,
+        "raw": "地域創造支援事業(既存建物移設、高麗門移設、第7回)",
+        "note": "追加事業欄の個別名称。変更回数を年度/事業コードに使わない。削除された旧区分・同一建物解体の重複は追加しない。実施FYと費用は空欄。"
+      },
+      {
+        "name": "公園(宮谷公園)",
+        "start": 1477,
+        "raw": "公園(宮谷公園、第7回)",
+        "note": "追加事業欄の個別名称。変更回数を年度/事業コードに使わない。削除された旧区分・同一建物解体の重複は追加しない。実施FYと費用は空欄。"
+      }
+    ],
+    "holds": [
+      {
+        "start": 652,
+        "raw": "高質空間形成施設（裏笠渕通り、第1回）",
+        "reason": "Added street group overlaps original high-quality-space group; upper Miyadani and Kaneishi later removed. Exact independent budget entity required to split safely."
+      },
+      {
+        "start": 239,
+        "raw": "事業活用調査、まちづくり活動推進事業",
+        "reason": "Generic plan administration categories have no individual identity; not split into projects."
+      },
+      {
+        "start": 1127,
+        "raw": "地域創造支援事業(既存建物解体･除去、第4回）",
+        "reason": "Demolition may duplicate original kindergarten/demolition group. Independent scope not established."
+      },
+      {
+        "start": 265,
+        "raw": "道路（裏笠渕通り、第1回）、道路（上宮谷線、第1回）",
+        "reason": "Deleted/reclassified original roads excluded; no implementation inferred."
+      },
+      {
+        "start": 432,
+        "raw": "高質空間形成施設(上宮谷線、第7回)",
+        "reason": "Explicitly removed. Earlier addition is not a second implemented project."
+      },
+      {
+        "start": 391,
+        "raw": "公営住宅等整備(高齢者施設、第4回)",
+        "reason": "Explicitly removed; not an implemented project."
+      }
+    ],
+    "evaluationYear": 2014,
+    "sourceSha256": "7b890bc3790885c53304c4715737ecf3052238615cc469c53d1d0307e9360de3",
+    "sourceUrl": "https://www.city.tsushima.nagasaki.jp/material/files/group/29/01_14_keikaku03.pdf",
+    "recordedFormat": "pdf",
+    "format": "pdf"
+  },
+  {
+    "sourceId": "74e2193f892d45e29baaf84a",
+    "municipalityCode": "42204",
+    "year": null,
+    "proof": "事後評価実施時期\n\n令和5年度",
+    "fullTextSha256": "3df913290242baf8f8b58c0e5a9e342cae0452e56d78664d7128e84e17c361dd",
+    "rows": [
+      {
+        "name": "道路（市道諫早停車場線）",
+        "start": 196,
+        "raw": "道路（市道諫早停車場線）",
+        "note": "令和5年度の事後評価対象名。R1～R5の交付期間を単年度実績にせず、廃止通路・ポンプと重複し得る駐輪場内訳は除外。費用/指標/実施FYは未入力。"
+      },
+      {
+        "name": "道路（諫早駅西交通広場）",
+        "start": 209,
+        "raw": "道路（諫早駅西交通広場）",
+        "note": "令和5年度の事後評価対象名。R1～R5の交付期間を単年度実績にせず、廃止通路・ポンプと重複し得る駐輪場内訳は除外。費用/指標/実施FYは未入力。"
+      },
+      {
+        "name": "道路（市道諫早駅前２号線）",
+        "start": 222,
+        "raw": "道路（市道諫早駅前２号線）",
+        "note": "令和5年度の事後評価対象名。R1～R5の交付期間を単年度実績にせず、廃止通路・ポンプと重複し得る駐輪場内訳は除外。費用/指標/実施FYは未入力。"
+      },
+      {
+        "name": "道路（市道永昌東栄田線）",
+        "start": 236,
+        "raw": "道路（市道永昌東栄田線）",
+        "note": "令和5年度の事後評価対象名。R1～R5の交付期間を単年度実績にせず、廃止通路・ポンプと重複し得る駐輪場内訳は除外。費用/指標/実施FYは未入力。"
+      },
+      {
+        "name": "地域生活基盤施設（諫早駅自由通路）",
+        "start": 249,
+        "raw": "地域生活基盤施設（諫早駅自由通路）",
+        "note": "令和5年度の事後評価対象名。R1～R5の交付期間を単年度実績にせず、廃止通路・ポンプと重複し得る駐輪場内訳は除外。費用/指標/実施FYは未入力。"
+      },
+      {
+        "name": "高質空間形成施設（電線地中化）",
+        "start": 310,
+        "raw": "高質空間形成施設（電線地中化）",
+        "note": "令和5年度の事後評価対象名。R1～R5の交付期間を単年度実績にせず、廃止通路・ポンプと重複し得る駐輪場内訳は除外。費用/指標/実施FYは未入力。"
+      },
+      {
+        "name": "高次都市施設（交流広場）",
+        "start": 326,
+        "raw": "高次都市施設（交流広場）",
+        "note": "令和5年度の事後評価対象名。R1～R5の交付期間を単年度実績にせず、廃止通路・ポンプと重複し得る駐輪場内訳は除外。費用/指標/実施FYは未入力。"
+      },
+      {
+        "name": "市街地再開発事業（諫早駅東地区）",
+        "start": 339,
+        "raw": "市街地再開発事業（諫早駅東地区）",
+        "note": "令和5年度の事後評価対象名。R1～R5の交付期間を単年度実績にせず、廃止通路・ポンプと重複し得る駐輪場内訳は除外。費用/指標/実施FYは未入力。"
+      },
+      {
+        "name": "道路（市道永昌東福田線）",
+        "start": 627,
+        "raw": "道路（市道永昌東福田線）",
+        "note": "令和5年度の事後評価対象名。R1～R5の交付期間を単年度実績にせず、廃止通路・ポンプと重複し得る駐輪場内訳は除外。費用/指標/実施FYは未入力。"
+      },
+      {
+        "name": "道路（仮称：諫早駅北側用地周回道路）",
+        "start": 640,
+        "raw": "道路（仮称：諫早駅北側用地周回道路）",
+        "note": "令和5年度の事後評価対象名。R1～R5の交付期間を単年度実績にせず、廃止通路・ポンプと重複し得る駐輪場内訳は除外。費用/指標/実施FYは未入力。"
+      },
+      {
+        "name": "高質空間形成施設（諫早駅東交通広場モニュメント整備）",
+        "start": 737,
+        "raw": "高質空間形成施設（諫早駅東交通広場モニュメント整備）",
+        "note": "令和5年度の事後評価対象名。R1～R5の交付期間を単年度実績にせず、廃止通路・ポンプと重複し得る駐輪場内訳は除外。費用/指標/実施FYは未入力。"
+      }
+    ],
+    "holds": [
+      {
+        "start": 267,
+        "raw": "地域生活基盤施設（諫早駅東連絡通路）",
+        "reason": "Explicitly deleted later in the same sheet, despite initial implemented-list label. Not accepted."
+      },
+      {
+        "start": 420,
+        "raw": "地域生活基盤施設（市道永昌東福田線内水排水ポンプ改良事業）",
+        "reason": "Deleted with no expected implementation during grant period."
+      },
+      {
+        "start": 659,
+        "raw": "地域生活基盤施設（諫早駅東口自転車駐車場）",
+        "reason": "Three later parking facilities may be components of original generic bicycle-parking grant project. Independent project/budget identity required before splitting."
+      },
+      {
+        "start": 361,
+        "raw": "事業活用調査（事後評価）",
+        "reason": "Evaluation administration category without independent business identity."
+      }
+    ],
+    "evaluationYear": 2023,
+    "sourceSha256": "9a0ad50502a6421e8ac5ba42e3097290571aa72c061a8dddc64e3178f0027098",
+    "sourceUrl": "https://www.city.isahaya.nagasaki.jp/uploaded/attachment/15404.pdf",
+    "recordedFormat": "pdf",
+    "format": "pdf"
+  },
+  {
+    "sourceId": "af3f21463c48a2f301e211c6",
+    "municipalityCode": "42201",
+    "year": 2025,
+    "proof": "令和７年度6月補正予算に係る事務事業評価会議 評価結果一覧",
+    "fullTextSha256": "84e6a5cc200db023d57bea31579d253d4b9128c34dc9659a3c017e729bfdbf9c",
+    "rows": [
+      {
+        "name": "学校安全推進体制構築事業費",
+        "start": 98,
+        "raw": "学校安全推進体制構築事業費",
+        "note": "補正予算に係る事前評価対象。FYは明記された予算対象年度で、実施済み/決算/支出を示さない。評価年度は明示がある場合のみ。金額や採択欄は未転記。"
+      },
+      {
+        "name": "旧長崎英国領事館運営費(オープニングセレモニーの開催)",
+        "start": 119,
+        "raw": "旧長崎英国領事館運営費(オープ\nニングセレモニーの開催)",
+        "note": "補正予算に係る事前評価対象。FYは明記された予算対象年度で、実施済み/決算/支出を示さない。評価年度は明示がある場合のみ。金額や採択欄は未転記。"
+      }
+    ],
+    "holds": [],
+    "sourceSha256": "0ae728ed9d68202068bb0cb99a9d8dd5acfd62196d10785e9fd3d43f2c47042b",
+    "sourceUrl": "https://www.city.nagasaki.lg.jp/uploaded/attachment/57403.pdf",
+    "recordedFormat": "pdf",
+    "format": "pdf"
+  },
+  {
+    "sourceId": "8413e7bcb72b9106d95acefd",
+    "municipalityCode": "42201",
+    "year": 2025,
+    "proof": "令和７年度補正予算事務事業評価一覧表",
+    "fullTextSha256": "b4733e08913734e92942192100308faebb74a11f1bdb0f4a426c1960f581313a",
+    "rows": [
+      {
+        "name": "自治会集会所省エネ空調設備導入補助金",
+        "start": 124,
+        "raw": "自治会集会所省エネ空調\n設備導入補助金",
+        "note": "補正予算に係る事前評価対象。FYは明記された予算対象年度で、実施済み/決算/支出を示さない。評価年度は明示がある場合のみ。金額や採択欄は未転記。"
+      },
+      {
+        "name": "販路開拓促進事業費（長崎市産品振興による地域活性化事業）",
+        "start": 145,
+        "raw": "販路開拓促進事業費（長\nC1-3 崎市産品振興による地域\n活性化事業）",
+        "note": "補正予算に係る事前評価対象。FYは明記された予算対象年度で、実施済み/決算/支出を示さない。評価年度は明示がある場合のみ。金額や採択欄は未転記。"
+      }
+    ],
+    "holds": [],
+    "sourceSha256": "644a24add465ec08295470dc157b926625fb9e748a30b895e24ddeb08c90a151",
+    "sourceUrl": "https://www.city.nagasaki.lg.jp/uploaded/attachment/57269.pdf",
+    "recordedFormat": "pdf",
+    "format": "pdf"
+  },
+  {
+    "sourceId": "270033ef077b8ebdb521144c",
+    "municipalityCode": "42201",
+    "year": 2024,
+    "proof": "令和６年度事務事業評価（R６年度11月補正予算に係る事前評価）一覧表",
+    "fullTextSha256": "ee0c732f121a20f7fb6da15054fec4a67eb79bbb5f15859a9a9b6a230e80ec0f",
+    "rows": [
+      {
+        "name": "第11回平和首長会議総会開催費負担金",
+        "start": 102,
+        "raw": "第11回平和首長会議総会開催費\n負担金",
+        "note": "補正予算に係る事前評価対象。FYは明記された予算対象年度で、実施済み/決算/支出を示さない。評価年度は明示がある場合のみ。金額や採択欄は未転記。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2024,
+    "sourceSha256": "e0caf1c8566905900747962bde88b8923a91efa14e7f0e8646a555f0df5f41ab",
+    "sourceUrl": "https://www.city.nagasaki.lg.jp/uploaded/attachment/44082.pdf",
+    "recordedFormat": "pdf",
+    "format": "pdf"
+  },
+  {
+    "sourceId": "a193f2dcbd31d18453935ece",
+    "municipalityCode": "42201",
+    "year": 2025,
+    "proof": "令和７年度当初予算に係る事務事業評価会議 評価結果一覧",
+    "fullTextSha256": "fd959635e5f1d33ae136d1dcc8501c28f792cf0b46571ed15ca8862fbd86b4e3",
+    "rows": [
+      {
+        "name": "災害対策事業費",
+        "start": 153,
+        "raw": "災害対策事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "被災者台帳作成システム整備費",
+        "start": 186,
+        "raw": "被災者台帳作成システム整備費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "総合計画策定費",
+        "start": 202,
+        "raw": "総合計画策定費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "ながさきカップル応援事業費",
+        "start": 258,
+        "raw": "ながさきカップル応援事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "人口減少対策シンポジウム開催費負担金",
+        "start": 299,
+        "raw": "人口減少対策シンポジウム開催費\n新規\n負担金",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "広報戦略推進費",
+        "start": 1909,
+        "raw": "広報戦略推進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "セントポール市姉妹都市提携70周年記念事業費",
+        "start": 1934,
+        "raw": "セントポール市姉妹都市提携70周\n年記念事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "都市提携及び親善交流費",
+        "start": 1959,
+        "raw": "都市提携及び親善交流費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "人事給与管理システム運営費",
+        "start": 2012,
+        "raw": "人事給与管理システム運営費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "職員安全衛生管理費",
+        "start": 2049,
+        "raw": "職員安全衛生管理費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "デジタル化推進費",
+        "start": 2076,
+        "raw": "デジタル化推進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "庁内ネットワーク運営費",
+        "start": 3696,
+        "raw": "庁内ネットワーク運営費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "未収金対策費",
+        "start": 3744,
+        "raw": "未収金対策費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "まちづくり活動推進費",
+        "start": 4852,
+        "raw": "まちづくり活動推進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "地域コミュニティ推進事業費",
+        "start": 4886,
+        "raw": "地域コミュニティ推進事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "平和祈念式典行事費",
+        "start": 4957,
+        "raw": "平和祈念式典行事費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "「平和の文化」醸成事業費・平和推進活動費",
+        "start": 6334,
+        "raw": "「平和の文化」醸成事業費・平和推\n進活動費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "原爆資料館運営費",
+        "start": 6388,
+        "raw": "原爆資料館運営費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "「長崎クスノキプロジェクト」推進費",
+        "start": 6418,
+        "raw": "「長崎クスノキプロジェクト」推進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "保存整備活動費",
+        "start": 6442,
+        "raw": "保存整備活動費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "生涯元気事業費",
+        "start": 6466,
+        "raw": "生涯元気事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "介護予防普及啓発事業費",
+        "start": 8080,
+        "raw": "介護予防普及啓発事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "健康長崎市民21普及費",
+        "start": 8147,
+        "raw": "健康長崎市民21普及費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "保健所総務費",
+        "start": 8193,
+        "raw": "保健所総務費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "後期高齢者保健事業及び介護予防一体的実施事業費",
+        "start": 8237,
+        "raw": "後期高齢者保健事業及び介護予\nF7-2 防一体的実施事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "子育て支援センター運営費",
+        "start": 8293,
+        "raw": "子育て支援センター運営費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "子ども食堂開設応援費",
+        "start": 8319,
+        "raw": "子ども食堂開設応援費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "ファミリー・サポート・センター運営費",
+        "start": 9896,
+        "raw": "ファミリー・サポート・センター運営\nF4-3\nト課\n費",
+        "note": "明示された事業名の改行間に混在した子育てサポート課の末尾を分離。FY2025予算事前評価対象であり実績ではない。"
+      },
+      {
+        "name": "五歳児健康診査費",
+        "start": 9937,
+        "raw": "五歳児健康診査費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "妊産婦健康診査費",
+        "start": 9962,
+        "raw": "妊産婦健康診査費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "病児・病後児保育費",
+        "start": 9995,
+        "raw": "病児・病後児保育費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "保育士等サポート事業費補助金",
+        "start": 10011,
+        "raw": "保育士等サポート事業費補助金",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "こども誰でも通園事業費補助金",
+        "start": 10032,
+        "raw": "こども誰でも通園事業費補助金",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "私立幼稚園振興費補助金",
+        "start": 11415,
+        "raw": "私立幼稚園振興費補助金",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "民間移譲円滑化補助金",
+        "start": 11433,
+        "raw": "民間移譲円滑化補助金",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "相談アプリ導入費",
+        "start": 11450,
+        "raw": "相談アプリ導入費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "資源循環推進費",
+        "start": 11465,
+        "raw": "資源循環推進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "ふれあい訪問収集事業システム導入",
+        "start": 11510,
+        "raw": "ふれあい訪問収集事業システム導\n新規\n入",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "若年者雇用促進費",
+        "start": 11532,
+        "raw": "若年者雇用促進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "多様な人材雇用促進費",
+        "start": 13023,
+        "raw": "多様な人材雇用促進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "経済成長戦略策定費",
+        "start": 13091,
+        "raw": "経済成長戦略策定費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "ものづくり技能労働者人材育成助成金",
+        "start": 13107,
+        "raw": "ものづくり技能労働者人材育成助\n新産業推進課 C1-2\n部\n成金",
+        "note": "担当課・部の列が混在した名称を個別確認。FY2025予算事前評価で実績/金額未抽出。"
+      },
+      {
+        "name": "技能人材スキルアップ支援事業",
+        "start": 13178,
+        "raw": "技能人材スキルアップ支援事業",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "デジタル人材確保支援費",
+        "start": 13200,
+        "raw": "デジタル人材確保支援費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "伴走型デジタル化支援補助金",
+        "start": 14625,
+        "raw": "伴走型デジタル化支援補助金",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "産学連携・創業支援費",
+        "start": 14646,
+        "raw": "産学連携・創業支援費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "商店街等プロモーション事業費",
+        "start": 14697,
+        "raw": "商店街等プロモーション事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "中央卸売市場開設50周年記念事業費",
+        "start": 14733,
+        "raw": "中央卸売市場開設50周年記念事\nC1-3\n業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "インバウンド誘致広域連携事業費",
+        "start": 14797,
+        "raw": "インバウンド誘致広域連携事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "史跡高島炭鉱跡整備基本計画改訂支援業務",
+        "start": 14868,
+        "raw": "史跡高島炭鉱跡整備基本計画改\n訂支援業務",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "長崎学研究所開所10周年記念事業費",
+        "start": 16392,
+        "raw": "長崎学研究所開所10周年記念事\nA1-2\n業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "長崎ペンギン水族館運営費",
+        "start": 16417,
+        "raw": "長崎ペンギン水族館運営費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "スマート水産業推進費",
+        "start": 16470,
+        "raw": "スマート水産業推進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "水産資源再生事業費",
+        "start": 16487,
+        "raw": "水産資源再生事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "市内漁協漁業・流通実態調査",
+        "start": 16503,
+        "raw": "市内漁協漁業・流通実態調査",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "森林整備促進費",
+        "start": 19218,
+        "raw": "森林整備促進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "農業新規参入促進施設",
+        "start": 19496,
+        "raw": "農業新規参入促進施設",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "道路占用管理システムの導入",
+        "start": 19544,
+        "raw": "道路占用管理システムの導入",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "老朽危険空き家対策推進費",
+        "start": 20825,
+        "raw": "老朽危険空き家対策推進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "国際理解教育推進費",
+        "start": 20857,
+        "raw": "国際理解教育推進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "参議院議員通常選挙費事務費",
+        "start": 20895,
+        "raw": "参議院議員通常選挙費事務費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "長崎県知事選挙費事務費",
+        "start": 20923,
+        "raw": "長崎県知事選挙費事務費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "新規漁業就業促進事業",
+        "start": 19108,
+        "raw": "新規漁業就業促進事業",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "担い手農家支援施設",
+        "start": 18166,
+        "raw": "担い手農家支援施設",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "有害鳥獣対策費",
+        "start": 19134,
+        "raw": "有害鳥獣対策費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "【単独】都市交通対策事業費（タッチ決済導入事業費補助金）",
+        "start": 19565,
+        "raw": "【単独】都市交通対策事業費\nタッチ決済導入事業費補助金",
+        "note": "R7予算事前評価の同一番号の親費目・補助金名を一件として保持。実施済み、支出、評価年度は推定しない。"
+      }
+    ],
+    "holds": [
+      {
+        "start": 146,
+        "raw": "事務事業名",
+        "reason": "All 73 numbered proposal rows reviewed as 66 parent identities: digital promotion repeats three times; overdue collections, diverse employment, wildlife and forest development repeat once each. Unnumbered 80th-anniversary heading is not a project. Planned budget fields only.",
+        "status": "reviewed_duplicate_components"
+      }
+    ],
+    "sourceSha256": "c725d9508671ee0240c05503d68b4682d0594e0388a8dae8aebf805f8d52332a",
+    "sourceUrl": "https://www.city.nagasaki.lg.jp/uploaded/attachment/44081.pdf",
+    "recordedFormat": "pdf",
+    "format": "pdf"
+  },
+  {
+    "sourceId": "a19867f92ab9c4a45ccc1def",
+    "municipalityCode": "42201",
+    "year": 2024,
+    "proof": "令和5年度事務事業評価（R6年度当初予算に係る事前評価）一覧表",
+    "fullTextSha256": "2f4fce8c92cfa4d03500b042d21d79e605ac56520cc0765b2fec11e8316d95ed",
+    "rows": [
+      {
+        "name": "広報戦略推進費",
+        "start": 181,
+        "raw": "広報戦略推進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "若者交流施設運営費",
+        "start": 257,
+        "raw": "若者交流施設運営費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "地域コミュニティ推進事業費",
+        "start": 286,
+        "raw": "地域コミュニティ推進事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "九州市長会開催費",
+        "start": 336,
+        "raw": "九州市長会開催費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "文書費事務費",
+        "start": 1694,
+        "raw": "文書費事務費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "まちづくり活動推進費",
+        "start": 1717,
+        "raw": "まちづくり活動推進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "国民文化祭開催推進費",
+        "start": 1748,
+        "raw": "国民文化祭開催推進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "市民参加舞台",
+        "start": 1775,
+        "raw": "市民参加舞台",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "プロスポーツ応援事業",
+        "start": 1800,
+        "raw": "プロスポーツ応援事業",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "消費生活相談費",
+        "start": 3311,
+        "raw": "消費生活相談費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "第７回核兵器廃絶－地球市民集会ナガサキ開催費負担金",
+        "start": 3347,
+        "raw": "第７回核兵器廃絶－地球市民集\n新規\n会ナガサキ開催費負担金",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "成年後見制度利用支援事業",
+        "start": 3378,
+        "raw": "成年後見制度利用支援事業",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "認定調査事務費",
+        "start": 3423,
+        "raw": "認定調査事務費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "地域障害児支援体制強化事業費",
+        "start": 4777,
+        "raw": "地域障害児支援体制強化事業\n費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "ICT導入モデル事業費補助金",
+        "start": 4794,
+        "raw": "ICT導入モデル事業費補助金",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "精神障害者ピアサポーター活用事業費",
+        "start": 4810,
+        "raw": "精神障害者ピアサポーター活用\n事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "医療的ケア児レスパイト事業費",
+        "start": 4830,
+        "raw": "医療的ケア児レスパイト事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "看護師等確保支援費",
+        "start": 4846,
+        "raw": "看護師等確保支援費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "がん検診等事業費",
+        "start": 6292,
+        "raw": "がん検診等事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "特定健康診査受診率向上対策費",
+        "start": 6329,
+        "raw": "特定健康診査受診率向上対策\n費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "世界・日本新三大夜景推進事業費",
+        "start": 6388,
+        "raw": "世界・日本新三大夜景推進事業\n費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "旧オルト住宅展示整備費",
+        "start": 6418,
+        "raw": "旧オルト住宅展示整備費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "グラバー園運営費",
+        "start": 6431,
+        "raw": "グラバー園運営費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "洋館活用事業手法検討事業",
+        "start": 8073,
+        "raw": "洋館活用事業手法検討事業",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "「長崎と天草地方の潜伏キリシタン関連遺産」推進費",
+        "start": 8093,
+        "raw": "「長崎と天草地方の潜伏キリシタ\nン関連遺産」推進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "軌道施設浸水対策事業費",
+        "start": 8181,
+        "raw": "軌道施設浸水対策事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "マンション管理適正化推進事業費",
+        "start": 8194,
+        "raw": "マンション管理適正化推進事業\n費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "建築指導行政費",
+        "start": 8212,
+        "raw": "建築指導行政費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      }
+    ],
+    "holds": [
+      {
+        "start": 3402,
+        "raw": "成年後見制度利用支援事業（報",
+        "reason": "30 printed assessment rows include two repeated parent project identities (public relations and adult guardianship). Retained one parent per fiscal year; no component inflation."
+      }
+    ],
+    "evaluationYear": 2023,
+    "sourceSha256": "f135f0102dbc526d07265545a3d214b76d63178d5291fa4de19b3339ccdc7362",
+    "sourceUrl": "https://www.city.nagasaki.lg.jp/uploaded/attachment/27820.pdf",
+    "recordedFormat": "pdf",
+    "format": "pdf"
+  },
+  {
+    "sourceId": "6f7d7e52311c80c17a1adeeb",
+    "municipalityCode": "42201",
+    "year": 2024,
+    "proof": "令和６年度２月補正予算に係る事務事業評価会議 評価結果一覧",
+    "fullTextSha256": "222c0aea37ba85eb5c873d2dac5e8db7a9717a9c55d64418b7dbe8ca27293bff",
+    "rows": [
+      {
+        "name": "災害対策活動費",
+        "start": 88,
+        "raw": "災害対策活動費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "ＩＣＴ機器等導入事業費補助金",
+        "start": 216,
+        "raw": "ＩＣＴ機器等導入事業費補助金",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "医療機関物価高騰緊急支援事業費",
+        "start": 238,
+        "raw": "医療機関物価高騰緊急支援事\n業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "子育て家庭生活支援給付金支給事業費",
+        "start": 1619,
+        "raw": "子育て家庭生活支援給付金支\n給事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "チャレンジ企業応援事業費",
+        "start": 1759,
+        "raw": "チャレンジ企業応援事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "GX推進補助金",
+        "start": 1778,
+        "raw": "GX推進補助金",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "商店街等プレミアム付商品券等発行支援事業",
+        "start": 3037,
+        "raw": "商店街等プレミアム付商品券等\n発行支援事業",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "商店街等にぎわい創出支援費補助金",
+        "start": 3060,
+        "raw": "商店街等にぎわい創出支援費\n補助金",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "食・観光高付加価値化事業費",
+        "start": 3091,
+        "raw": "食・観光高付加価値化事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "販路開拓支援事業費",
+        "start": 3111,
+        "raw": "販路開拓支援事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "インセンティブ旅行誘致促進事業費",
+        "start": 3128,
+        "raw": "インセンティブ旅行誘致促進事\n業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "漁協経費負担軽減対策事業費",
+        "start": 4432,
+        "raw": "漁協経費負担軽減対策事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "畜産用飼料価格高騰対策費補助金",
+        "start": 4447,
+        "raw": "畜産用飼料価格高騰対策費補\n助金",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "長崎スタジアムシティ開業気運醸成費",
+        "start": 143,
+        "raw": "長崎スタジアムシティ開業気運\nティ連携推進 G3-2\n部\n醸成費",
+        "note": "R6補正予算の事前評価対象名。印字された部/担当課の混入箇所を個別照合し、給付金と事務費や内訳を別事業化しない。実績や評価年度は推定しない。"
+      },
+      {
+        "name": "妊婦等生活支援特別給付金給付事業費",
+        "start": 1646,
+        "raw": "妊婦等生活支援特別給付金給\nF4-2\nト課\n付事業費",
+        "note": "R6補正予算の事前評価対象名。印字された部/担当課の混入箇所を個別照合し、給付金と事務費や内訳を別事業化しない。実績や評価年度は推定しない。"
+      },
+      {
+        "name": "省エネルギー家電製品等購入費補助金",
+        "start": 1690,
+        "raw": "省エネルギー家電製品等購入\nD1-1\nシティ推進室\n費補助金",
+        "note": "R6補正予算の事前評価対象名。印字された部/担当課の混入箇所を個別照合し、給付金と事務費や内訳を別事業化しない。実績や評価年度は推定しない。"
+      }
+    ],
+    "holds": [],
+    "sourceSha256": "69dee1b1ab9d15d34283c63d082ed9037408dcb1c8d1ffbd85545cbc0da5e855",
+    "sourceUrl": "https://www.city.nagasaki.lg.jp/uploaded/attachment/44083.pdf",
+    "recordedFormat": "pdf",
+    "format": "pdf"
+  },
+  {
+    "sourceId": "8283a643c47f93015970068d",
+    "municipalityCode": "42201",
+    "year": 2025,
+    "proof": "令和７年度1～２月補正予算に係る事務事業評価結果一覧表",
+    "fullTextSha256": "96d6c3cabc920adf656264f87a6c5ca4cb5e7534622581b41fb501597f29e9c9",
+    "rows": [
+      {
+        "name": "地域子ども・子育て支援事業継続支援費",
+        "start": 120,
+        "raw": "地域子ども・子育て支援事業継\n続支援費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "民間保育所等副食費支援補助金",
+        "start": 141,
+        "raw": "民間保育所等副食費支援補助\n金",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "チャレンジ企業応援事業費",
+        "start": 175,
+        "raw": "チャレンジ企業応援事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "スマート農業技術導入支援事業費補助金",
+        "start": 1766,
+        "raw": "スマート農業技術導入支援事業\n新規\n費補助金",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "施設園芸等燃油価格高騰対策費補助事業",
+        "start": 1790,
+        "raw": "施設園芸等燃油価格高騰対策\n費補助事業",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "生産・加工基盤整備事業",
+        "start": 1827,
+        "raw": "生産・加工基盤整備事業",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "公共交通運転士確保緊急補助金",
+        "start": 1935,
+        "raw": "公共交通運転士確保緊急補助\n金",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "長崎市職場環境改善事業費補助金",
+        "start": 196,
+        "raw": "長崎市職場環境改善事業費補\n新産業推進課 C1-①\n部\n助金",
+        "note": "R7補正予算の事前評価対象。名称に混在した担当課列のみ個別分離。親費目と内訳を一件に保持し、決算/実施済み/評価年度を推定しない。"
+      },
+      {
+        "name": "漁業経営セーフティネット（燃油・配合飼料）構築支援事業費補助金",
+        "start": 256,
+        "raw": "漁業経営セーフティネット（燃油・\n水産振興課 C3-① 配合飼料）構築支援事業費補助 新規\n金",
+        "note": "R7補正予算の事前評価対象。名称に混在した担当課列のみ個別分離。親費目と内訳を一件に保持し、決算/実施済み/評価年度を推定しない。"
+      },
+      {
+        "name": "農水産物直売所プレミアム付商品券発行支援費補助金",
+        "start": 374,
+        "raw": "農水産物直売所プレミアム付商\nC1-③\n新規\n部\n農林振興課\n品券発行支援費補助金",
+        "note": "R7補正予算の事前評価対象。名称に混在した担当課列のみ個別分離。親費目と内訳を一件に保持し、決算/実施済み/評価年度を推定しない。"
+      },
+      {
+        "name": "【単独】水産業振興対策事業費負担金・補助金（漁業経営基盤強化支援費）",
+        "start": 305,
+        "raw": "【単独】水産業振興対策事業費\n水産振興課 C3-① 負担金・補助金\n漁業経営基盤強化支援費",
+        "note": "R7補正予算の事前評価対象。名称に混在した担当課列のみ個別分離。親費目と内訳を一件に保持し、決算/実施済み/評価年度を推定しない。"
+      },
+      {
+        "name": "【単独】都市交通対策事業費（公共交通バリアフリー車両導入事業費補助金）",
+        "start": 2691,
+        "raw": "事業費補助金\n\nE4-②\n\n評価理由\n\n地域特産品目である長崎いちご、長崎びわ、花き等につい\nて、選果システムの導入や流通管理のスマート化に取組む\n農協や農業者団体を支援するもの。\n所管案の スマート化をはかることで、選果量と分別精度が向上し労\n意見なし\nとおり\n働力不足のため選果できていなかった生産物の出荷と収益\n化につながるとともに、生産者の出荷に係るコスト縮減によ\nり経営の安定に寄与するものであることから、事業の実施は\n妥当である。\n\n【単独】都市交通対策事業費\nE4-② 公共交通バリアフリー車両導入\n\n",
+        "note": "R7補正予算事前評価の公共交通バリアフリー車両導入という印字名と、移動した事業費補助金の末尾を確認。親費目と内訳を一件で保持。運転士確保の別行と混同せず金額未抽出。"
+      }
+    ],
+    "holds": [
+      {
+        "start": 2914,
+        "raw": "【単独】都市交通対策事業費",
+        "reason": "Printed suffix and full title resolved in the same page; all 12 numbered assessment rows accounted for. Retained parent plus subsidy as one project, not two.",
+        "status": "resolved_title_boundary"
+      }
+    ],
+    "sourceSha256": "b4396d8ab1ae08aa2616f76909e51f1827c6afcaedfa3a85921761915de649fb",
+    "sourceUrl": "https://www.city.nagasaki.lg.jp/uploaded/attachment/57253.pdf",
+    "recordedFormat": "pdf",
+    "format": "pdf"
+  },
+  {
+    "sourceId": "5b6d160570f5a2e7fb1d4576",
+    "municipalityCode": "42201",
+    "year": 2026,
+    "proof": "令和７年度事務事業評価（令和８年度当初予算に係る事前評価）一覧表",
+    "fullTextSha256": "7a543f19b7f6691c0d76e85062a5388d7132cb6e5ddae40679aa45415785df61",
+    "rows": [
+      {
+        "name": "災害対策本部の機能整備",
+        "start": 132,
+        "raw": "災害対策本部の機能整備",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "市主催防災訓練",
+        "start": 150,
+        "raw": "市主催防災訓練",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "企画費事務費",
+        "start": 159,
+        "raw": "企画費事務費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "まちのにぎわい創出事業費",
+        "start": 195,
+        "raw": "まちのにぎわい創出事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "子ども体験創出事業費",
+        "start": 283,
+        "raw": "子ども体験創出事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "くらしの魅力創出事業費",
+        "start": 365,
+        "raw": "くらしの魅力創出事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "広報戦略推進費",
+        "start": 2387,
+        "raw": "広報戦略推進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "公用車一元管理システム整備費",
+        "start": 2434,
+        "raw": "公用車一元管理システム整備費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "デジタル化推進費",
+        "start": 2453,
+        "raw": "デジタル化推進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "芸術文化シンポジウム開催費",
+        "start": 4172,
+        "raw": "芸術文化シンポジウム開催費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "緊急時訪問介護事業",
+        "start": 4194,
+        "raw": "緊急時訪問介護事業",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "ひとり親家庭等生活・学習支援事業費事業",
+        "start": 6238,
+        "raw": "ひとり親家庭等生活・学習支援\n事業費事業",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "子育て応援情報発信費",
+        "start": 6260,
+        "raw": "子育て応援情報発信費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "子ども食堂開設応援費",
+        "start": 6272,
+        "raw": "子ども食堂開設応援費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "子育て支援センター運営費",
+        "start": 6284,
+        "raw": "子育て支援センター運営費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "妊産婦健康診査費",
+        "start": 7886,
+        "raw": "妊産婦健康診査費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "乳児期家事代行サービス事業",
+        "start": 7966,
+        "raw": "乳児期家事代行サービス事業",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "保育士等サポート事業費補助金",
+        "start": 8007,
+        "raw": "保育士等サポート事業費補助金",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "放課後児童健全育成事業",
+        "start": 8026,
+        "raw": "放課後児童健全育成事業",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "長崎市浄化槽設置整備事業補助金",
+        "start": 8039,
+        "raw": "長崎市浄化槽設置整備事業補\n助金",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "若年者雇用促進費",
+        "start": 9585,
+        "raw": "若年者雇用促進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "新産業・起業チャレンジ促進費",
+        "start": 9610,
+        "raw": "新産業・起業チャレンジ促進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "観光客誘致推進費",
+        "start": 13399,
+        "raw": "観光客誘致推進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "世界・日本新三大夜景推進費",
+        "start": 13433,
+        "raw": "世界・日本新三大夜景推進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "漁場施設機能保全事業費",
+        "start": 15060,
+        "raw": "漁場施設機能保全事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "新規漁業就業促進事業",
+        "start": 15073,
+        "raw": "新規漁業就業促進事業",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "グリーンツーリズム推進事業費",
+        "start": 15099,
+        "raw": "グリーンツーリズム推進事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "森林整備促進費",
+        "start": 15151,
+        "raw": "森林整備促進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "長崎びわ生産推進事業費補助金",
+        "start": 16497,
+        "raw": "長崎びわ生産推進事業費補助\n金",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "歴史的風致維持向上推進費",
+        "start": 16257,
+        "raw": "歴史的風致維持向上推進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "地域活性化事業",
+        "start": 17028,
+        "raw": "地域活性化事業",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "団員確保対策費",
+        "start": 17062,
+        "raw": "団員確保対策費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "テレビ・新聞等広報費",
+        "start": 2132,
+        "raw": "テレビ・新聞等広報費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "インターネット情報発信費",
+        "start": 2174,
+        "raw": "インターネット情報発信費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "広報誌等発行費",
+        "start": 2294,
+        "raw": "広報誌等発行費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "乳幼児インフルエンザ予防接種費",
+        "start": 4316,
+        "raw": "乳幼児インフルエンザ予防接種\n拡大\n費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "こども医療対策費",
+        "start": 4346,
+        "raw": "こども医療対策費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "母子父子福祉資金貸付金",
+        "start": 4367,
+        "raw": "母子父子福祉資金貸付金",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "親子歯科口腔保健費",
+        "start": 6353,
+        "raw": "親子歯科口腔保健費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "五歳児健康診査費",
+        "start": 6400,
+        "raw": "五歳児健康診査費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "産学連携・創業支援費",
+        "start": 9763,
+        "raw": "産学連携・創業支援費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "GX推進事業費",
+        "start": 9792,
+        "raw": "GX推進事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "ものづくり支援費",
+        "start": 11697,
+        "raw": "ものづくり支援費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "企業版ふるさと納税推進費",
+        "start": 11726,
+        "raw": "企業版ふるさと納税推進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "販路開拓推進事業",
+        "start": 11776,
+        "raw": "販路開拓推進事業",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "第67期将棋王位戦開催地負担金",
+        "start": 11816,
+        "raw": "第67期 将棋王位戦 開催地負\n新規\n担金",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "総合観光案内所運営費",
+        "start": 11844,
+        "raw": "総合観光案内所運営費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "亀山社中記念館運営費",
+        "start": 11861,
+        "raw": "亀山社中記念館運営費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "池島炭鉱体験施設運営費",
+        "start": 14524,
+        "raw": "池島炭鉱体験施設運営費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "長崎港クルーズ客船受入委員会負担金",
+        "start": 14260,
+        "raw": "長崎港クルーズ客船受入委員会\n拡大\n負担金",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "長崎さるく推進費",
+        "start": 14551,
+        "raw": "長崎さるく推進費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "通信指令費",
+        "start": 17115,
+        "raw": "通信指令費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "【単独】恐竜博物館施設整備事業費",
+        "start": 17139,
+        "raw": "【単独】恐竜博物館施設整備事\n業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "キャリア教育推進事業費",
+        "start": 17158,
+        "raw": "キャリア教育推進事業費",
+        "note": "予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。"
+      },
+      {
+        "name": "担い手農家支援施設費補助金",
+        "start": 15185,
+        "raw": "費補助金 担い手農家支援施設",
+        "note": "R8予算事前評価の印字名称で前後逆順となったタイトル片を確認。畜産施設の長寿命化支援という同一行の説明を証拠に保持。実績/費用/補助対象数は未入力。",
+        "context": "費補助金 担い手農家支援施設\n\n水産農林\n農林振興課\n部\n\nC3-①\n\n拡大\n\n拡大\n\n経済\n再生\n\n経済\n再生\n\n拡大\n\n評価\n結果\n\nデザイン改定）\n\n評価理由\n\n評価会議における指摘事項等\n\n採択\n\n季節風や台風等の影響を軽減し、周年の養殖を可能とす\nる養殖漁場を確保するため設置している消波堤等の漁場施\n設の定期点検及び機能診断を実施し、機能保全計画の更\n所管案の\n新を行うもの。\n・特になし\nとおり\n施設の機能を適切に維持することにより、水産物の安定供\n給に寄与する事業であることから、事業の実施は妥当であ\nる。\n\n採択\n\n新規漁業就業を促進するために実施している各種支援・取\n組みにおいて、内容を拡大するもの。（①漁業就業実践研修\n事業のや 事業の補助対象者の拡大②新規着業者フォローアップ事業 支給方法については、市、受給者の両者にとって良い制度設\nり方改善 の補助対象者の拡大、支給方法の見直し）\n計となるよう整理を行うこと。\n新規就業におけるフェーズごとに、国の支援が行き届かな\nい部分を補填するものであり、事業の実施は妥当である。\n\n採択\n\n若年層（小中学生から大学生）へのツーリズム情報発信と\n年間を通じた集客強化をはかるため、プロポーザル方式に\n職員がやらなければいけない業務と民間に委託できる業務を\nより広告宣伝に強みを持った業者に当該業務を委託するも\n所管案の\n精査して取り組むこと。\nの。\nとおり\nまた、関係機関、関係部局と連携して情報発信強化に努める\n民間視点でのより効果的なPRが期待できるとともに、業務\nこと。\n委託により職員の業務の質の向上がはかられる取組みであ\nることから、事業の実施は妥当である。\n\n採択\n\n森林環境譲与税を活用し、市内における防火帯の整備を\n進めるとともに、倒木や林野火災の要因となる森林病害虫\nによる被害木を伐倒・処理をおこなうもの。\n所管案の\n防火帯整備や森林病害虫被害の蔓延対策を施すことによ 外部委託できる部分の精査を行うこと。\nとおり\nり、林野火災や倒木の影響による被害防止につながり、市\n民生活を守る取組みであることから、事業の実施は妥当で\nある。\n\n拡大\n\n経済\n再生\n\n採択\n\n拡大\n\n経済\n再生\n\n採択\n\nびわの果実品質を向上と近年の異常気象の影響による果\n所管案の 皮障害を抑えるため、二重袋の購入支援をおこなうもの。\nびわ生産のスマート化についても検討していくこと。\nとおり\nびわ販売価格の向上と収穫量の安定につながる事業であ\nることから、実施は妥当である。\n\n歴史的風致維持向上推進費（長\nA2-① 崎居留地歴史まちづくりグランド\n\n区分\n\n飼料価格の高騰や物価高騰による消費の減退の影響を\n受ける畜産経営の維持・継続のため、施設の長寿命化や畜\n産動物への気候変動対策を実施するための経費を支援す\n所管案の\n畜産農業のスマート化・ICT化についても併せて検討していくこ\nるもの。\nとおり\nと。\n畜産経営者の負担軽減がはかられ、安定的な生産と畜産\n経営につながる取組みであることから事業の実施は妥当で\nある。\n\n（生産",
+        "contextStart": 15185
+      }
+    ],
+    "holds": [
+      {
+        "start": 120,
+        "raw": "事務事業名",
+        "reason": "All 59 printed rows reviewed: 55 parent identities; digital-promotion repeats once, new-industry/startup repeats twice, career education repeats once. Retain one parent per target fiscal year, no expenditure or implementation inference.",
+        "status": "reviewed_duplicate_components"
+      }
+    ],
+    "evaluationYear": 2025,
+    "sourceSha256": "141dc3da50fe8721fd28776b174ff0a659cd6aa52cdfab60fe9922fd2c5393aa",
+    "sourceUrl": "https://www.city.nagasaki.lg.jp/uploaded/attachment/57207.pdf",
+    "recordedFormat": "pdf",
+    "format": "pdf"
   }
 ];

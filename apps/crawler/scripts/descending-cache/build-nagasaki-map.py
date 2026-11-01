@@ -192,6 +192,225 @@ for id,ey,proof,names in [
  for name in names:row(c,t,name,note='年度評価結果一覧の個別事業名。政策見出しや判定件数を事業化せず、次年度予算を実績に転用しない。評価年度のみ、実施FY・金額・段階別評価は未抽出。')
 c,t=source('072f4f471395e72b15d05408','42203',None,'事務事業評価 / 島原市');hold(c,t,t[:120],'Cached ASPX article index, not PDF individual business sheets. Link/publication years alone do not provide project records.');c['reviewStatus']='navigation'
 
+
+# Additional bounded cached title review, retaining earlier accepted rows.
+c=next(c for c in configs if c['sourceId']=='6d7ea16f5376396475f3df9a');t=verified_text(c['sourceId'],'42211')
+for name in ['体育スポーツ振興補助事業','地域の絆再生事業','スクールバス運行事業','小学校プール管理運営事業','少年センター運営事業']:
+ row(c,t,name,note='令和７年度見直し一覧に明示された名称。過年度実績と将来予算が混在し実施FYは空欄。構成する指標・委託費を別事業にしない。')
+for name,raw in [
+ ('三井楽給食センター管理運営事業','教育総務課（総 三井楽給食センター管理運営事\n務班）\n業'),
+ ('福江総合福祉保健センター外部改修工事','福江総合福祉保\n施設の長寿命化のため、\n社会生活基盤の\n雨漏りや外壁のひび割れ等の劣化が\n・屋上防水\n健センター外部\n年次的に施設の改修を行\n整備\n見られる。今後も既存施設を安全に\n・外壁塗装\n改修工事'),
+ ('魚津ヶ崎公園施設改修事業','持続可能な観光 魚津ヶ崎公園施 劣化が著しく、施設の損傷が進んで\n基盤づくり\n設改修事業'),
+ ('地区公民館照明LED化改修事業','地区公民館照明\nティプロジェク\n蛍光灯の製造等が中止となるため、\nLED化改修事業'),
+ ('三井楽町公民館空調機取替修繕','社会生活基盤の 三井楽町公民館 し、稼働できていない箇所がある。\n整備\n空調機取替修繕')]:
+ row(c,t,name,raw,note='令和７年度事前見直し対象のハード事業名称。整備計画/設計/予算を完成実績にせず、実施FY・費用・工事完了は未入力。政策欄と説明欄の文字は名称に混入させない。')
+row(c,t,'三井楽町公民館屋上防水・外壁改修工事','三井楽町公民館\n社会生活基盤の\n被害が拡大しているため、社会教育\n屋上防水・外壁\n整備\n施設・指定避難所の安全対策、施設\n改修工事',note='FY2025評価の工事計画名。実施方針は屋上防水のみで外壁は採択されていない。原案名を残し、完成/全工事実施/決算を推定しない。')
+row(c,t,'電算システム使用料（AIチャットボット、支所・本庁間デジタル相談窓口）','電算システム使用料（AIチャッ\nトボット、支所・本庁間デジタ\nル相談窓口）',note='正式な評価対象欄の合同事業名を一件として保持。AIと相談窓口を二事業に分割せず、使用人数を事業数や決算額に転用しない。')
+# Retain ambiguity of generic commissions rather than inventing a new project
+# for each purpose/contract component listed beside the generic accounting name.
+for c in [c for c in configs if c['municipalityCode']=='42211']:
+ t=verified_text(c['sourceId'],'42211')
+ accepted={r['start']:r for r in c['rows']}
+ for h in c['holds']:
+  if h['start'] in accepted and h['raw']==accepted[h['start']]['raw']:
+   h['status']='resolved_title_boundary';h['reason']='Exact title/department fragments now resolved in an accepted row at this offset. Financial/indicator columns remain unextracted.'
+ if c['sourceId'] in ['bf14284043f1216d18ae4d1d','5ae3c35511a9e71c34e41a2c']:
+  for mt in re.finditer(r'(?<=\n\n)(管理業務委託料|運営業務委託料|運用保守業務委託料|運転管理業務委託料|コンサルティング業務委託料|健診業務委託料|植栽委託料|イベント開催委託料)(?=\n)',t):
+   c['holds'].append(dict(start=len(t[:mt.start()].encode('utf-16-le'))//2,raw=mt[0],status='identity_or_period_hold',reason='Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request.'))
+
+c,t=source('7debebb80c1bb074651a0ac6','42207',2012,'平 成 24 年 度\n主要な施策の成果')
+ms=list(re.finditer(r'([^\n]+(?:\n[^\n]+){0,2})\n[（(][^\n]{1,35}[）)]\n【事項別明細書 [^\n]+】',t))
+assert len(ms)==109
+skip={1,2,5,13,14,15,16,24,25,31,39,46,49,50,55,56,58,67,72,75,78,79,80,81,85,87,96,100,102,104,107}
+# Exact reviewed titles after preceding narrative, not generic tail fragments.
+lastlines={43:1,45:2,70:2,71:1,74:2,77:2,92:1}
+for n,m in enumerate(ms):
+ if n in skip:
+  c['holds'].append(dict(start=len(t[:m.start(1)].encode('utf-16-le'))//2,raw=m[1],status='layout_review',reason='Title fragment is incomplete or generic; review the displaced saved title prefix before accepting. No guessed association or numeric fields.'))
+  continue
+ raw='\n'.join(m[1].splitlines()[-lastlines[n]:]) if n in lastlines else m[1]
+ name=re.sub(r'\s+','',raw)
+ row(c,t,name,raw,start=m.start(1)+m[1].index(raw),note='平成24年度決算成果報告の事業名・担当課・事項別明細書ページの連続した境界を確認。金額列、施策見出し、内訳の個別工事は転記しない。')
+c['holds'].append(dict(start=0,raw=t[:100],status='layout_review',reason='Remaining displaced title blocks throughout full 157030-character book require title-prefix review; accepted rows are not proof of full coverage.'))
+# Explicit page-local prefix/suffix pairs, reviewed together with department and narrative.
+repairs={1:('人事評価制度構築','人事評価制度構築事業'),2:('情報格差等対策事','情報格差等対策事業'),5:('地域間交流推進事','地域間交流推進事業'),13:('民生委員児童委員','民生委員児童委員設置事業'),16:('障害者自立支援給','障害者自立支援給付費等事業'),31:('子育て 支援交付','子育て支援交付金事業'),39:('ストックヤード','ストックヤード整備事業'),46:('農地・水保全管理','農地・水保全管理支払交付金事業'),49:('農産物加工新商品','農産物加工新商品開発支援事業'),50:('強い農業づくり交','強い農業づくり交付金事業'),55:('自然災害防止事業','自然災害防止事業県工事負担金'),56:('地域ため池総合整\n備事業県工事負担','地域ため池総合整備事業県工事負担金'),58:('海岸防災林造成事','海岸防災林造成事業県工事負担金'),67:('水産業普及指導事','水産業普及指導事業'),72:('漁港整備事業県工事負担金','漁港整備事業県工事負担金'),75:('平戸冨春園誘客促','平戸冨春園誘客促進事業'),79:('平戸観光振興強化','平戸観光振興強化事業'),80:('観光トップセール','観光トップセールス事業'),81:('東アジア観光誘客','東アジア観光誘客推進事業'),85:('辺地対策道路整備','辺地対策道路整備事業'),96:('防災行政無線施設','防災行政無線施設整備事業'),100:('学校図書館支援員','学校図書館支援員配置事業'),102:('少年の主張大会開','少年の主張大会開催事業'),107:('第 69 回国民体育大','第69回国民体育大会平戸市実行委員会運営事業')}
+for n,(prefix,name) in repairs.items():
+ m=ms[n]; lo=max(0,m.start()-600);hi=min(len(t),m.end()+600);hits=list(re.finditer(r'(?m)^'+re.escape(prefix)+r'$',t[lo:hi]));assert len(hits)==1,(n,prefix)
+ pp=lo+hits[0].start();start=min(pp,m.start(1));end=max(pp+len(prefix),m.end());raw=t[start:end]
+ row(c,t,name,raw,start=start,note='同一ページの担当課・明細書頁・説明と印刷された名称前後片を個別照合。年度2012の事業名のみ、内訳や財源列を独立事業/費用にしない。')
+ old=next(h for h in c['holds'] if h['start']==len(t[:m.start(1)].encode('utf-16-le'))//2);old.update(status='resolved_title_boundary',reason='Exact page-local printed prefix/suffix reviewed with source department and description; accepted title retains entire intervening quote, no monetary alignment inferred.')
+
+
+c,t=source('aea3a69441b0008158d6a8a7','42209',None,'事後評価実施時期\n\nH26年度');c['evaluationYear']=2014
+for name in ['道路(国分寺線、厳原小学校線、日吉地区内線、横町線)','地域生活基盤施設（宮内広場、案内板）','高質空間形成施設(照明施設、電線類地下埋設施設、歩行者支援施設）','地域創造支援事業（幼稚園建設事業、既存建物解体･除却）']:
+ row(c,t,name,note='当初計画で実施した事業欄の合同名称を一件として保持。複数施設を別事業へ分割せず、H22～26の交付期間を単年度決算にしない。評価年度2014のみ。')
+for name,raw in [('道路（鍛冶屋小路）','道路（鍛冶屋小路、第1回）'),('高次都市施設（観光交流センター）','高次都市施設（観光交流センター、第3回）'),('地域生活基盤施設（日吉広場）','地域生活基盤施設（日吉広場、第4回）'),('地域創造支援事業(既存建物移設、高麗門移設)','地域創造支援事業(既存建物移設、高麗門移設、第7回)'),('公園(宮谷公園)','公園(宮谷公園、第7回)')]:
+ row(c,t,name,raw,note='追加事業欄の個別名称。変更回数を年度/事業コードに使わない。削除された旧区分・同一建物解体の重複は追加しない。実施FYと費用は空欄。')
+for raw,reason in [('高質空間形成施設（裏笠渕通り、第1回）','Added street group overlaps original high-quality-space group; upper Miyadani and Kaneishi later removed. Exact independent budget entity required to split safely.'),('事業活用調査、まちづくり活動推進事業','Generic plan administration categories have no individual identity; not split into projects.'),('地域創造支援事業(既存建物解体･除去、第4回）','Demolition may duplicate original kindergarten/demolition group. Independent scope not established.'),('道路（裏笠渕通り、第1回）、道路（上宮谷線、第1回）','Deleted/reclassified original roads excluded; no implementation inferred.'),('高質空間形成施設(上宮谷線、第7回)','Explicitly removed. Earlier addition is not a second implemented project.'),('公営住宅等整備(高齢者施設、第4回)','Explicitly removed; not an implemented project.')]:hold(c,t,raw,reason)
+c,t=source('74e2193f892d45e29baaf84a','42204',None,'事後評価実施時期\n\n令和5年度');c['evaluationYear']=2023
+for name in ['道路（市道諫早停車場線）','道路（諫早駅西交通広場）','道路（市道諫早駅前２号線）','道路（市道永昌東栄田線）','地域生活基盤施設（諫早駅自由通路）','高質空間形成施設（電線地中化）','高次都市施設（交流広場）','市街地再開発事業（諫早駅東地区）','道路（市道永昌東福田線）','道路（仮称：諫早駅北側用地周回道路）','高質空間形成施設（諫早駅東交通広場モニュメント整備）']:
+ row(c,t,name,note='令和5年度の事後評価対象名。R1～R5の交付期間を単年度実績にせず、廃止通路・ポンプと重複し得る駐輪場内訳は除外。費用/指標/実施FYは未入力。')
+for raw,reason in [('地域生活基盤施設（諫早駅東連絡通路）','Explicitly deleted later in the same sheet, despite initial implemented-list label. Not accepted.'),('地域生活基盤施設（市道永昌東福田線内水排水ポンプ改良事業）','Deleted with no expected implementation during grant period.'),('地域生活基盤施設（諫早駅東口自転車駐車場）','Three later parking facilities may be components of original generic bicycle-parking grant project. Independent project/budget identity required before splitting.'),('事業活用調査（事後評価）','Evaluation administration category without independent business identity.')]:hold(c,t,raw,reason)
+for id,fy,ey,proof,pairs in [
+ ('af3f21463c48a2f301e211c6',2025,None,'令和７年度6月補正予算に係る事務事業評価会議 評価結果一覧',[('学校安全推進体制構築事業費','学校安全推進体制構築事業費'),('旧長崎英国領事館運営費(オープニングセレモニーの開催)','旧長崎英国領事館運営費(オープ\nニングセレモニーの開催)')]),
+ ('8413e7bcb72b9106d95acefd',2025,None,'令和７年度補正予算事務事業評価一覧表',[('自治会集会所省エネ空調設備導入補助金','自治会集会所省エネ空調\n設備導入補助金'),('販路開拓促進事業費（長崎市産品振興による地域活性化事業）','販路開拓促進事業費（長\nC1-3 崎市産品振興による地域\n活性化事業）')]),
+ ('270033ef077b8ebdb521144c',2024,2024,'令和６年度事務事業評価（R６年度11月補正予算に係る事前評価）一覧表',[('第11回平和首長会議総会開催費負担金','第11回平和首長会議総会開催費\n負担金')])]:
+ c,t=source(id,'42201',fy,proof)
+ if ey:c['evaluationYear']=ey
+ for name,raw in pairs:row(c,t,name,raw,note='補正予算に係る事前評価対象。FYは明記された予算対象年度で、実施済み/決算/支出を示さない。評価年度は明示がある場合のみ。金額や採択欄は未転記。')
+
+def exact_wrapped(c,t,name):
+ # Only literal printed characters; tolerate whitespace and explicit policy-column labels.
+ gap=r'(?:\s|[A-H][1-7]-[1-9]|新規|拡大)*'
+ matches=list(re.finditer(gap.join(re.escape(ch) for ch in name),t));assert matches, name
+ m=matches[0]
+ row(c,t,name,m[0],start=m.start(),note='予算事前評価の明記された名称。FYは予算対象年度で実施/決算実績ではない。同じ親事業の複数拡大項目は一名称にまとめ、金額・採択評価・実績を推定しない。改行と政策コード欄のみ除去。')
+ return m
+c,t=source('a193f2dcbd31d18453935ece','42201',2025,'令和７年度当初予算に係る事務事業評価会議 評価結果一覧')
+names='''災害対策事業費
+被災者台帳作成システム整備費
+総合計画策定費
+ながさきカップル応援事業費
+人口減少対策シンポジウム開催費負担金
+広報戦略推進費
+セントポール市姉妹都市提携70周年記念事業費
+都市提携及び親善交流費
+人事給与管理システム運営費
+職員安全衛生管理費
+デジタル化推進費
+庁内ネットワーク運営費
+未収金対策費
+まちづくり活動推進費
+地域コミュニティ推進事業費
+平和祈念式典行事費
+「平和の文化」醸成事業費・平和推進活動費
+原爆資料館運営費
+「長崎クスノキプロジェクト」推進費
+保存整備活動費
+生涯元気事業費
+介護予防普及啓発事業費
+健康長崎市民21普及費
+保健所総務費
+後期高齢者保健事業及び介護予防一体的実施事業費
+子育て支援センター運営費
+子ども食堂開設応援費
+ファミリー・サポート・センター運営費
+五歳児健康診査費
+妊産婦健康診査費
+病児・病後児保育費
+保育士等サポート事業費補助金
+こども誰でも通園事業費補助金
+私立幼稚園振興費補助金
+民間移譲円滑化補助金
+相談アプリ導入費
+資源循環推進費
+ふれあい訪問収集事業システム導入
+若年者雇用促進費
+多様な人材雇用促進費
+経済成長戦略策定費
+ものづくり技能労働者人材育成助成金
+技能人材スキルアップ支援事業
+デジタル人材確保支援費
+伴走型デジタル化支援補助金
+産学連携・創業支援費
+商店街等プロモーション事業費
+中央卸売市場開設50周年記念事業費
+インバウンド誘致広域連携事業費
+史跡高島炭鉱跡整備基本計画改訂支援業務
+長崎学研究所開所10周年記念事業費
+長崎ペンギン水族館運営費
+スマート水産業推進費
+水産資源再生事業費
+市内漁協漁業・流通実態調査
+森林整備促進費
+農業新規参入促進施設
+道路占用管理システムの導入
+老朽危険空き家対策推進費
+国際理解教育推進費
+参議院議員通常選挙費事務費
+長崎県知事選挙費事務費'''.splitlines()
+for name in names:
+ if name=='ファミリー・サポート・センター運営費':
+  row(c,t,name,'ファミリー・サポート・センター運営\nF4-3\nト課\n費',note='明示された事業名の改行間に混在した子育てサポート課の末尾を分離。FY2025予算事前評価対象であり実績ではない。');continue
+ if name=='ものづくり技能労働者人材育成助成金':
+  row(c,t,name,'ものづくり技能労働者人材育成助\n新産業推進課 C1-2\n部\n成金',note='担当課・部の列が混在した名称を個別確認。FY2025予算事前評価で実績/金額未抽出。');continue
+ exact_wrapped(c,t,name)
+hold(c,t,'事務事業名','Remaining titles before page headings, and transport parent/subsidy identity, require explicit printed-row review. Not full coverage.');c['holds'][-1]['status']='layout_review'
+
+c,t=source('a19867f92ab9c4a45ccc1def','42201',2024,'令和5年度事務事業評価（R6年度当初予算に係る事前評価）一覧表');c['evaluationYear']=2023
+for name in ['広報戦略推進費','若者交流施設運営費','地域コミュニティ推進事業費','九州市長会開催費','文書費事務費','まちづくり活動推進費','国民文化祭開催推進費','市民参加舞台','プロスポーツ応援事業','消費生活相談費','第７回核兵器廃絶－地球市民集会ナガサキ開催費負担金','成年後見制度利用支援事業','認定調査事務費','地域障害児支援体制強化事業費','ICT導入モデル事業費補助金','精神障害者ピアサポーター活用事業費','医療的ケア児レスパイト事業費','看護師等確保支援費','がん検診等事業費','特定健康診査受診率向上対策費','世界・日本新三大夜景推進事業費','旧オルト住宅展示整備費','グラバー園運営費','洋館活用事業手法検討事業','「長崎と天草地方の潜伏キリシタン関連遺産」推進費','軌道施設浸水対策事業費','マンション管理適正化推進事業費','建築指導行政費']:exact_wrapped(c,t,name)
+assert len(c['rows'])==28
+hold(c,t,'成年後見制度利用支援事業（報','30 printed assessment rows include two repeated parent project identities (public relations and adult guardianship). Retained one parent per fiscal year; no component inflation.')
+c,t=source('6f7d7e52311c80c17a1adeeb','42201',2024,'令和６年度２月補正予算に係る事務事業評価会議 評価結果一覧')
+for name in ['災害対策活動費','ＩＣＴ機器等導入事業費補助金','医療機関物価高騰緊急支援事業費','子育て家庭生活支援給付金支給事業費','チャレンジ企業応援事業費','GX推進補助金','商店街等プレミアム付商品券等発行支援事業','商店街等にぎわい創出支援費補助金','食・観光高付加価値化事業費','販路開拓支援事業費','インセンティブ旅行誘致促進事業費','漁協経費負担軽減対策事業費','畜産用飼料価格高騰対策費補助金']:exact_wrapped(c,t,name)
+for name,raw in [('長崎スタジアムシティ開業気運醸成費','長崎スタジアムシティ開業気運\nティ連携推進 G3-2\n部\n醸成費'),('妊婦等生活支援特別給付金給付事業費','妊婦等生活支援特別給付金給\nF4-2\nト課\n付事業費'),('省エネルギー家電製品等購入費補助金','省エネルギー家電製品等購入\nD1-1\nシティ推進室\n費補助金')]:row(c,t,name,raw,note='R6補正予算の事前評価対象名。印字された部/担当課の混入箇所を個別照合し、給付金と事務費や内訳を別事業化しない。実績や評価年度は推定しない。')
+assert len(c['rows'])==16
+
+
+c,t=source('8283a643c47f93015970068d','42201',2025,'令和７年度1～２月補正予算に係る事務事業評価結果一覧表')
+for name in ['地域子ども・子育て支援事業継続支援費','民間保育所等副食費支援補助金','チャレンジ企業応援事業費','スマート農業技術導入支援事業費補助金','施設園芸等燃油価格高騰対策費補助事業','生産・加工基盤整備事業','公共交通運転士確保緊急補助金']:exact_wrapped(c,t,name)
+for name,raw in [('長崎市職場環境改善事業費補助金','長崎市職場環境改善事業費補\n新産業推進課 C1-①\n部\n助金'),('漁業経営セーフティネット（燃油・配合飼料）構築支援事業費補助金','漁業経営セーフティネット（燃油・\n水産振興課 C3-① 配合飼料）構築支援事業費補助 新規\n金'),('農水産物直売所プレミアム付商品券発行支援費補助金','農水産物直売所プレミアム付商\nC1-③\n新規\n部\n農林振興課\n品券発行支援費補助金'),('【単独】水産業振興対策事業費負担金・補助金（漁業経営基盤強化支援費）','【単独】水産業振興対策事業費\n水産振興課 C3-① 負担金・補助金\n漁業経営基盤強化支援費')]:row(c,t,name,raw,note='R7補正予算の事前評価対象。名称に混在した担当課列のみ個別分離。親費目と内訳を一件に保持し、決算/実施済み/評価年度を推定しない。')
+hold(c,t,'【単独】都市交通対策事業費','Parking/transport heading and subsidy-name suffix are separated by intervening table cells; verify full parent/subsidy title before accepting.');c['holds'][-1]['status']='layout_review'
+c,t=source('5b6d160570f5a2e7fb1d4576','42201',2026,'令和７年度事務事業評価（令和８年度当初予算に係る事前評価）一覧表');c['evaluationYear']=2025
+for name in ['災害対策本部の機能整備','市主催防災訓練','企画費事務費','まちのにぎわい創出事業費','子ども体験創出事業費','くらしの魅力創出事業費','広報戦略推進費','公用車一元管理システム整備費','デジタル化推進費','芸術文化シンポジウム開催費','緊急時訪問介護事業','ひとり親家庭等生活・学習支援事業費事業','子育て応援情報発信費','子ども食堂開設応援費','子育て支援センター運営費','妊産婦健康診査費','乳児期家事代行サービス事業','保育士等サポート事業費補助金','放課後児童健全育成事業','長崎市浄化槽設置整備事業補助金','若年者雇用促進費','新産業・起業チャレンジ促進費','観光客誘致推進費','世界・日本新三大夜景推進費','漁場施設機能保全事業費','新規漁業就業促進事業','グリーンツーリズム推進事業費','森林整備促進費','長崎びわ生産推進事業費補助金','歴史的風致維持向上推進費','地域活性化事業','団員確保対策費']:exact_wrapped(c,t,name)
+hold(c,t,'事務事業名','Remaining printed title blocks before repeated headings require review; page-header selection is not exhaustive.');c['holds'][-1]['status']='layout_review'
+
+
+for name in ['テレビ・新聞等広報費','インターネット情報発信費','広報誌等発行費','乳幼児インフルエンザ予防接種費','こども医療対策費','母子父子福祉資金貸付金','親子歯科口腔保健費','五歳児健康診査費','産学連携・創業支援費','GX推進事業費','ものづくり支援費','企業版ふるさと納税推進費','販路開拓推進事業','第67期将棋王位戦開催地負担金','総合観光案内所運営費','亀山社中記念館運営費','池島炭鉱体験施設運営費','長崎港クルーズ客船受入委員会負担金','長崎さるく推進費','通信指令費','【単独】恐竜博物館施設整備事業費','キャリア教育推進事業費']:exact_wrapped(c,t,name)
+row(c,t,'担い手農家支援施設費補助金','費補助金 担い手農家支援施設',note='R8予算事前評価の印字名称で前後逆順となったタイトル片を確認。畜産施設の長寿命化支援という同一行の説明を証拠に保持。実績/費用/補助対象数は未入力。')
+c['rows'][-1].update(context=t[t.index('費補助金 担い手農家支援施設'):t.index('費補助金 担い手農家支援施設')+1300],contextStart=len(t[:t.index('費補助金 担い手農家支援施設')].encode('utf-16-le'))//2)
+c['holds'][-1].update(status='reviewed_duplicate_components',reason='All 59 printed rows reviewed: 55 parent identities; digital-promotion repeats once, new-industry/startup repeats twice, career education repeats once. Retain one parent per target fiscal year, no expenditure or implementation inference.')
+assert len(c['rows'])==55
+
+
+c=next(x for x in configs if x['sourceId']=='a193f2dcbd31d18453935ece');t=verified_text(c['sourceId'],'42201')
+for name in ['新規漁業就業促進事業','担い手農家支援施設','有害鳥獣対策費']:exact_wrapped(c,t,name)
+row(c,t,'【単独】都市交通対策事業費（タッチ決済導入事業費補助金）','【単独】都市交通対策事業費\nタッチ決済導入事業費補助金',note='R7予算事前評価の同一番号の親費目・補助金名を一件として保持。実施済み、支出、評価年度は推定しない。')
+c['holds'][-1].update(status='reviewed_duplicate_components',reason='All 73 numbered proposal rows reviewed as 66 parent identities: digital promotion repeats three times; overdue collections, diverse employment, wildlife and forest development repeat once each. Unnumbered 80th-anniversary heading is not a project. Planned budget fields only.')
+assert len(c['rows'])==66
+c=next(x for x in configs if x['sourceId']=='8283a643c47f93015970068d');t=verified_text(c['sourceId'],'42201')
+start=t.index('事業費補助金',t.index('公共交通運転士確保緊急補助'));end=t.index('区分',start)
+row(c,t,'【単独】都市交通対策事業費（公共交通バリアフリー車両導入事業費補助金）',t[start:end],start=start,note='R7補正予算事前評価の公共交通バリアフリー車両導入という印字名と、移動した事業費補助金の末尾を確認。親費目と内訳を一件で保持。運転士確保の別行と混同せず金額未抽出。')
+c['holds'][-1].update(status='resolved_title_boundary',reason='Printed suffix and full title resolved in the same page; all 12 numbered assessment rows accounted for. Retained parent plus subsidy as one project, not two.')
+assert len(c['rows'])==12
+
+
+c=next(x for x in configs if x['municipalityCode']=='42207');t=verified_text(c['sourceId'],'42207')
+rs=[{'name': '農業集落排水事業', 'raw': '農業集落排水事業', 'start': 484}, {'name': '宅地開発事業', 'raw': '宅 地 開 発 事 業', 'start': 514}, {'name': 'あづち大島いさりびの里事業', 'raw': 'あづち大島いさりびの里事業', 'start': 547}, {'name': '市民表彰制度事業', 'raw': '市民表彰制度事業', 'start': 7100}, {'name': '移動市長室開催事業', 'raw': '移動市長室開催事\n業', 'start': 7430}, {'name': '益法人移行事業', 'raw': '益法人移行事業', 'start': 7699}, {'name': 'くり推進事業', 'raw': 'くり推進事業', 'start': 10022}, {'name': '・まちづくり活性化交付金', 'raw': '・まちづくり活性化交付金', 'start': 10649}, {'name': '支援交付金事業', 'raw': '支援交付金事業', 'start': 10798}, {'name': '定住促進対策事業', 'raw': '定住促進対策事業', 'start': 11340}, {'name': 'ジェクト事業', 'raw': 'ジェクト事業', 'start': 11950}, {'name': '国土調査事業', 'raw': '国土調査事業', 'start': 13871}, {'name': '離島航路対策事業', 'raw': '離島航路対策事業', 'start': 14851}, {'name': '高島地区航路対策事業', 'raw': '高島地区航路対策\n事業', 'start': 15050}, {'name': '人権問題啓発事業', 'raw': '人権問題啓発事業', 'start': 16804}, {'name': '市民総合相談開催事業', 'raw': '市民総合相談開催\n事業', 'start': 16951}, {'name': '収納対策推進事業', 'raw': '収納対策推進事業', 'start': 18090}, {'name': 'に対して助成した。社会福祉協議会運営補助金', 'raw': 'に対して助成した。\n社会福祉協議会運営補助金', 'start': 23771}, {'name': '社会福祉センター運営補助金', 'raw': '社会福祉センター運営補助金', 'start': 23806}, {'name': '生委員児童委員で構成される民生委員児童委員協議会連合会に対し、活動費等の助成を行った。民生委員児童委員協議会連合会補助金', 'raw': '生委員児童委員で構成される民生委員児童委員協議会連合会に対し、\n活動費等の助成を行った。\n民生委員児童委員協議会連合会補助金', 'start': 24348}, {'name': '戦没者追悼事業', 'raw': '戦没者追悼事業', 'start': 24514}, {'name': '地域生活支援事業', 'raw': '地域生活支援事業', 'start': 25123}, {'name': '○移動支援事業', 'raw': '○移動支援事業', 'start': 25293}, {'name': '○地域活動支援センター事業', 'raw': '○地域活動支援センター事業', 'start': 25811}, {'name': '○手話奉仕員派遣事業', 'raw': '○手話奉仕員派遣事業', 'start': 25993}, {'name': '○身体障害者補助犬飼育管理助成事業', 'raw': '○身体障害者補助犬飼育管理助成事業', 'start': 26087}, {'name': 'クシー助成事業', 'raw': 'クシー助成事業', 'start': 26291}, {'name': '福祉医療給付事業', 'raw': '福祉医療給付事業', 'start': 27356}, {'name': '活動団体に対して助成した。在宅重度障害者と学生ボランティアとのふれあい研修事業', 'raw': '活動団体に対して助成した。\n在宅重度障害者と学生ボランティアとのふれあい研修事業', 'start': 27617}, {'name': '応じた障害福祉サービスを行った。○補装具給付事業', 'raw': '応じた障害福祉サービスを行った。\n○補装具給付事業', 'start': 27901}, {'name': '○介護給付サービス事業', 'raw': '○介護給付サービス事業', 'start': 28085}, {'name': '短期入所事業', 'raw': '短期入所事業', 'start': 28332}, {'name': '生活介護事業', 'raw': '生活介護事業', 'start': 28359}, {'name': '療養介護事業', 'raw': '療養介護事業', 'start': 28405}, {'name': '○訓練等給付サービス事業', 'raw': '○訓練等給付サービス事業', 'start': 28484}, {'name': '○サービス利用計画作成事業', 'raw': '○サービス利用計画作成事業', 'start': 28802}, {'name': '更生医療給付事業', 'raw': '更生医療給付事業', 'start': 29412}, {'name': 'ラブ連合会及び単位老人クラブに対し、活動を推進するための運営費', 'raw': 'ラブ連合会及び単位老人クラブに対し、活動を推進するための運営費', 'start': 30901}, {'name': '世代間交流事業', 'raw': '世代間交流事業', 'start': 31031}, {'name': 'くりサポート事業', 'raw': 'くりサポート事業', 'start': 31218}, {'name': '介護予防具設置事業', 'raw': '介護予防具設置事\n業', 'start': 31680}, {'name': '療養給付事業', 'raw': '療養給付事業', 'start': 33358}, {'name': '運営支援事業', 'raw': '運営支援事業', 'start': 33965}, {'name': '○地域子育て支援拠点事業', 'raw': '○地域子育て支援拠点事業', 'start': 35217}, {'name': '応するため、各種保育事業に対する助成を行った。○休日保育事業', 'raw': '応するため、各種保育事業に対する助成を行った。\n○休日保育事業', 'start': 35406}, {'name': '地域子育て支援事業', 'raw': '地域子育て支援事業', 'start': 36445}, {'name': '○延長保育事業', 'raw': '○延長保育事業', 'start': 36531}, {'name': '○病児・病後児保育事業', 'raw': '○病児・病後児保育事業', 'start': 36582}, {'name': '障害児保育事業', 'raw': '障害児保育事業', 'start': 36595}, {'name': '保育所運営事業', 'raw': '保育所運営事業', 'start': 36799}, {'name': '妊婦相談事業', 'raw': '妊婦相談事業', 'start': 43702}, {'name': '特例交付金事業', 'raw': '特例交付金事業', 'start': 44061}, {'name': '予防接種事業', 'raw': '予防接種事業', 'start': 44299}, {'name': '計画策定事業', 'raw': '計画策定事業', 'start': 44991}, {'name': '健康教育事業', 'raw': '健康教育事業', 'start': 45229}, {'name': '後期高齢者健康診査事業', 'raw': '後期高齢者 健康\n診査事業', 'start': 46185}, {'name': '食育推進事業', 'raw': '食育推進事業', 'start': 46400}, {'name': 'がん検診事業', 'raw': 'がん検診事業', 'start': 46891}, {'name': '花とみどりのふるさとづくり事業', 'raw': '花とみどりのふる\nさとづくり事業', 'start': 47791}, {'name': 'フラワー街道事業', 'raw': 'フラワー街道事業', 'start': 48160}, {'name': 'プランター植栽事業', 'raw': 'プランター植栽事業', 'start': 48215}, {'name': '花いっぱい運動用苗配布事業', 'raw': '花いっぱい運動用苗配布事業', 'start': 48247}, {'name': '海岸漂着物地域対策推進事業', 'raw': '海岸漂着物地域対\n策推進事業', 'start': 48262}, {'name': '各団体における再資源化物の回収の推進を図り、市民の分別リサイクル意識の啓発に伴うごみの減量化を行った。再資源化推進交付金', 'raw': '各団体における再資源化物の回収の推進を図り、市民の分\n別リサイクル意識の啓発に伴うごみの減量化を行った。\n再資源化推進交付金', 'start': 48660}, {'name': '浄化槽設置整備事業', 'raw': '浄化槽設置整備\n事業', 'start': 49361}, {'name': 'ンター支援事業', 'raw': 'ンター支援事業', 'start': 50585}, {'name': '償制度推進事業', 'raw': '償制度推進事業', 'start': 59065}, {'name': '計画更新事業', 'raw': '計画更新事業', 'start': 59427}, {'name': '県北地域有害鳥獣被害防止対策協議会負担金', 'raw': '県北地域有害鳥獣被害防止対策協議会負担金', 'start': 60788}, {'name': 'ーター設置事業', 'raw': 'ーター設置事業', 'start': 61916}, {'name': '新規就農総合支援事業', 'raw': '新規就農総合支援\n事業', 'start': 62151}, {'name': '家畜導入事業', 'raw': '家畜導入事業', 'start': 63132}, {'name': 'ひらどモー！モー！増頭支援事業補助金', 'raw': 'ひらどモー！モー！増頭支援事業補助金', 'start': 63331}, {'name': '和牛オリンピック対策奨励事業', 'raw': '和牛オリンピック\n対策奨励事業', 'start': 63403}, {'name': '強化対策事業', 'raw': '強化対策事業', 'start': 63854}, {'name': '・全国和牛能力共進会長崎県大会負担金', 'raw': '・全国和牛能力共進会長崎県大会負担金', 'start': 63935}, {'name': '・県北地域和牛改良推進協議会負担金', 'raw': '・県北地域和牛改良推進協議会負担金', 'start': 63964}, {'name': '・和牛オリンピック対策奨励事業補助金', 'raw': '・和牛オリンピック対策奨励事業補助金', 'start': 63992}, {'name': '画書作成、測量・設計及び対策工事にかかる県工事負担金', 'raw': '画書作成、測量・設計及び対策工事にかかる県工事負担金', 'start': 64990}, {'name': 'かかる県工事負担金', 'raw': 'かかる県工事負担金', 'start': 65469}, {'name': '自然災害防止事業', 'raw': '自然災害防止事業', 'start': 66118}, {'name': 'かかる県工事負担金', 'raw': 'かかる県工事負担金', 'start': 66170}, {'name': 'び排水路整備のための測量設計にかかる県工事負担金', 'raw': 'び排水路整備のための測量設計にかかる県工事負担金', 'start': 66459}, {'name': '林道環境整備事業', 'raw': '林道環境整備事業', 'start': 67274}, {'name': '及び対策工事にかかる県工事負担金', 'raw': '及び対策工事にかかる県工事負担金', 'start': 67819}, {'name': '自然災害防止事業', 'raw': '自然災害防止事業', 'start': 68379}, {'name': '支援交付金事業', 'raw': '支援交付金事業', 'start': 68911}, {'name': 'ＦＲＰ漁船廃船処理対策事業', 'raw': 'ＦＲＰ漁船廃船処\n理対策事業', 'start': 69915}, {'name': '豊かな海づくり事業', 'raw': '豊かな海づくり事\n業', 'start': 71375}, {'name': '総事業費県費負担金', 'raw': '総事業費\n県費\n負担金', 'start': 72472}, {'name': '漁業担い手確保推進事業補助金', 'raw': '漁業担い手確保推進事業補助金', 'start': 75357}, {'name': '・ソフト事業', 'raw': '・ソフト事業', 'start': 75904}, {'name': '中小企業振興対策事業', 'raw': '中小企業振興対策\n事業', 'start': 85461}, {'name': 'ンド確立支援事業', 'raw': 'ンド確立支援事業', 'start': 87363}, {'name': '開催支援事業', 'raw': '開催支援事業', 'start': 88269}, {'name': 'まちなか活性化基本計画とは、「長崎県まちなか活性化推進事業', 'raw': 'まちなか活性化基本計画とは、「長崎県まちなか活性化推進事業', 'start': 89359}, {'name': '本計画策定事業', 'raw': '本計画策定事業', 'start': 89390}, {'name': '企業誘致対策事業', 'raw': '企業誘致対策事業', 'start': 89773}, {'name': '観光バス運行事業', 'raw': '観光バス運行事業', 'start': 90204}, {'name': '観光セールス事業', 'raw': '観光セールス事業', 'start': 90869}, {'name': '鄭成功生家再現整備事業', 'raw': '鄭成功生家再現整\n備事業', 'start': 91196}, {'name': '平戸城耐震診断事業', 'raw': '平戸城耐震診断事\n業', 'start': 91735}, {'name': '観光ガイド育成事業', 'raw': '観光ガイド育成事\n業', 'start': 92516}, {'name': 'デル施設創出事業', 'raw': 'デル施設創出事業', 'start': 93476}, {'name': '体験型観光推進事業', 'raw': '体験型観光推進事\n業', 'start': 93842}, {'name': '・平戸キリシタン紀行事業', 'raw': '・平戸キリシタン紀行事業', 'start': 96466}, {'name': 'プロモーション事業', 'raw': 'プロモーション事\n業', 'start': 96840}, {'name': '光圏推進事業', 'raw': '光圏推進事業', 'start': 98829}, {'name': '平戸港夏まつり開催補助金', 'raw': '平戸港夏まつり開催補助金', 'start': 102031}, {'name': '道路単独改良事業', 'raw': '道路単独改良事業', 'start': 106740}, {'name': '急傾斜地崩壊対策事業', 'raw': '急傾斜地崩壊対策\n事業', 'start': 109370}, {'name': '事業県工事負担金', 'raw': '事業県工事負担金', 'start': 109921}, {'name': '河川改良事業', 'raw': '河川改良事業', 'start': 110044}, {'name': '診断を行うための費用の一部を助成し、地震による人的・経済的被害の軽減を図った。・建築物耐震化事業補助金', 'raw': '診断を行うための費用の一部を助成し、地震による人的・経済的被害\nの軽減を図った。\n・建築物耐震化事業補助金', 'start': 114671}, {'name': 'づくり支援事業', 'raw': 'づくり支援事業', 'start': 114790}, {'name': '火災予防推進事業', 'raw': '火災予防推進事業', 'start': 118075}, {'name': '奨学資金貸付事業', 'raw': '奨学資金貸付事業', 'start': 127134}, {'name': '就学対策事業', 'raw': '就学対策事業', 'start': 128223}, {'name': '遠距離等児童・生徒通学費補助金', 'raw': '遠距離等児童・生徒通学費補助金', 'start': 128482}, {'name': '児童・生徒通学費助成金', 'raw': '児童・生徒通学費助成金', 'start': 128610}, {'name': '規模改造事業', 'raw': '規模改造事業', 'start': 131381}, {'name': '空き校舎活用事業', 'raw': '空き校舎活用事業', 'start': 133614}, {'name': '生涯学習推進事業', 'raw': '生涯学習推進事業', 'start': 135344}, {'name': '日本の宝「しま」体感交流事業補助金', 'raw': '日本の宝「しま」体感交流事業補助金', 'start': 136520}, {'name': '空き校舎活用事業', 'raw': '空き校舎活用事業', 'start': 137099}, {'name': '読書推進事業', 'raw': '読書推進事業', 'start': 139056}, {'name': '図書購入事業', 'raw': '図書購入事業', 'start': 140044}, {'name': '（仮称）整備事業', 'raw': '（仮称）整備事業', 'start': 140608}, {'name': '｢平戸学｣推進事業', 'raw': '｢平戸学｣推進事業', 'start': 141202}, {'name': '・伝統的建造物群保存修理事業', 'raw': '・伝統的建造物群保存修理事業', 'start': 141967}, {'name': '平井家住宅修理補助金', 'raw': '平井家住宅修理補助金', 'start': 142183}, {'name': '丸田家住宅修理補助金', 'raw': '丸田家住宅修理補助金', 'start': 142234}, {'name': '・伝統的建造物群防災施設等事業', 'raw': '・伝統的建造物群防災施設等事業', 'start': 142270}, {'name': '・史跡維持管理事業', 'raw': '・史跡維持管理事業', 'start': 142539}, {'name': '・ハクモクレン整備事業', 'raw': '・ハクモクレン整備事業', 'start': 142588}, {'name': '各種開発及び範囲確認に伴う埋蔵文化財発掘調査を実施した。また、里田原遺跡出土の木製品の保存処理を行った。・発掘調査事業', 'raw': '各種開発及び範囲確認に伴う埋蔵文化財発掘調査を実施した。ま\nた、里田原遺跡出土の木製品の保存処理を行った。\n・発掘調査事業', 'start': 142855}, {'name': '・出土遺物保存処理委託事業', 'raw': '・出土遺物保存処理委託事業', 'start': 143029}, {'name': '田中家住宅修理補助金', 'raw': '田中家住宅修理補助金', 'start': 143329}, {'name': '保存整備事業', 'raw': '保存整備事業', 'start': 143681}, {'name': '・修理修景事業', 'raw': '・修理修景事業', 'start': 144013}, {'name': 'また、建築材と考えられる鉄釘も検出することができた。・発掘調査事業', 'raw': 'また、建築材と考えられる鉄釘も検出することができた。\n・発掘調査事業', 'start': 144457}, {'name': '発掘調査事業', 'raw': '発掘調査事業', 'start': 144523}, {'name': '・出土遺物保存処理委託事業', 'raw': '・出土遺物保存処理委託事業', 'start': 144952}, {'name': '・空中写真撮影委託事業', 'raw': '・空中写真撮影委託事業', 'start': 144975}, {'name': '・遺構実測委託事業', 'raw': '・遺構実測委託事業', 'start': 144996}, {'name': '和蘭商館復元整備事業', 'raw': '和蘭商館復元整備\n事業', 'start': 145055}, {'name': '世界遺産登録推進事業', 'raw': '世界遺産登録推進\n事業', 'start': 145525}, {'name': '発グッズ作成を行った。・世界遺産登録推進負担金', 'raw': '発グッズ作成を行った。\n・世界遺産登録推進負担金', 'start': 145852}, {'name': '・世界遺産登録に係る調査事業', 'raw': '・世界遺産登録に係る調査事業', 'start': 145888}, {'name': '民俗芸能公開事業', 'raw': '民俗芸能公開事業', 'start': 145965}, {'name': '文化公演開催事業', 'raw': '文化公演開催事業', 'start': 146515}, {'name': '・次代を担う子どもの文化芸術体験事業', 'raw': '・次代を担う子どもの文化芸術体験事業', 'start': 146755}, {'name': '研修会等参加事業', 'raw': '研修会等参加事業', 'start': 148905}, {'name': '市長特認事業', 'raw': '市長特認事業', 'start': 148926}, {'name': '県民体育大会参加事業', 'raw': '県民体育大会参加事業', 'start': 148946}, {'name': 'スポーツ交流事業', 'raw': 'スポーツ交流事業', 'start': 149056}, {'name': 'スポーツ推進事業', 'raw': 'スポーツ推進事業', 'start': 149902}, {'name': '行委員会運営事業', 'raw': '行委員会運営事業', 'start': 150758}, {'name': 'センター整備事業', 'raw': 'センター整備事業', 'start': 151644}, {'name': '生月町国民体育館耐震診断事業', 'raw': '生月町国民体育館\n耐震診断事業', 'start': 151970}, {'name': '給食共同調理場設備整備事業', 'raw': '給食共同調理場設\n備整備事業', 'start': 152108}, {'name': '農地等災害復旧事業', 'raw': '農地等災害復旧事\n業', 'start': 152738}, {'name': '漁港施設災害復旧事業', 'raw': '漁港施設災害復旧\n事業', 'start': 153357}, {'name': '高齢者生きがいづくりサポート事業', 'raw': '高齢者生きがいづくりサポート事業', 'start': 156464}, {'name': '農業振興地域整備計画更新事業', 'raw': '農業振興地域整備計画更新事業', 'start': 156554}, {'name': '担い手コーディネーター設置事業', 'raw': '担い手コーディネーター設置事業', 'start': 156602}, {'name': '林道環境整備事業', 'raw': '林道環境整備事業', 'start': 156648}, {'name': '別紙雇用対策事業', 'raw': '別紙 雇用対策事業', 'start': 156991}]
+accepted=[3,4,9,11,12,13,14,15,16,20,21,27,36,40,49,50,52,54,55,56,57,58,62,64,70,71,73,83,87,88,92,97,98,99,100,101,102,104,109,110,112,115,116,117,121,122,125,126,128,145,146,149,150,156,159,160,161,162,163,164,165]
+for n in accepted:
+ x=rs[n];row(c,t,x['name'],x['raw'],start=x['start'],note='平成24年度主要施策成果報告で、独立した印字事業名と同頁の事業欄を確認。親事業の補助内訳・施設数・工事件数は事業に分割しない。年度別金額は未入力。')
+# Subactivities and account summaries are reviewed but never counted as new projects.
+for n in [0,1,2,7,17,18,19,22,23,24,25,28,29,30,31,32,33,34,35,43,44,45,46,47,48,59,60,61,63,68,72,75,76,77,78,79,80,81,82,84,85,89,90,91,95,105,108,113,118,119,123,124,129,130,131,132,133,134,135,136,137,139,140,141,142,143,144,147,148,151,152,153,154,155,166,167]:
+ x=rs[n];c['holds'].append(dict(start=len(t[:x['start']].encode('utf-16-le'))//2,raw=x['raw'],reason='Account overview, narrative, parent-project component, subsidy recipient or repeated title; an independent annual business identity is not established. Do not convert subactivities/expenses into extra projects.'))
+
+
+
+# Individually reviewed remaining complete titles, with no financial inference.
+for x in [{'sourceId': 'bf14284043f1216d18ae4d1d', 'name': 'ふるさとづくり寄附金返礼業務委託料', 'raw': 'ふるさとづくり寄附金返\n礼業務委託料', 'start': 6767}, {'sourceId': 'bf14284043f1216d18ae4d1d', 'name': 'ふるさと納税寄附受付等業務委託料', 'raw': 'ふるさと納税寄附受付等\n業務委託料', 'start': 6949}, {'sourceId': 'bf14284043f1216d18ae4d1d', 'name': 'ごみ散乱防止パトロール業務委託料', 'raw': 'ごみ散乱防止パトロール\n業務委託料', 'start': 15161}, {'sourceId': 'bf14284043f1216d18ae4d1d', 'name': '地域活動支援センター委託料', 'raw': '地域活動支援センター委\n託料', 'start': 23050}, {'sourceId': 'bf14284043f1216d18ae4d1d', 'name': '五島産品島外販売促進業務委託料', 'raw': '五島産品島外販売促進業\n務委託料', 'start': 38440}, {'sourceId': 'bf27718351b3efd1ba4a9126', 'name': '特定個人情報提供等関連事務委任交付金', 'raw': '特定個人情報提供等関\n連事務委任交付金', 'start': 16131}, {'sourceId': 'bf27718351b3efd1ba4a9126', 'name': '収入資産、扶養義務調査等充実事業', 'raw': '収入資産、扶養義務調\n査等充実事業', 'start': 53008}, {'sourceId': 'bf27718351b3efd1ba4a9126', 'name': '医療扶助適正実施推進事業', 'raw': '医療扶助適正実施推進\n事業', 'start': 53360}, {'sourceId': 'bf27718351b3efd1ba4a9126', 'name': '地域の絆再生事業交付金', 'raw': '地域の絆再生事業交付\n金', 'start': 122966}, {'sourceId': 'bf27718351b3efd1ba4a9126', 'name': '森林整備地域活動支援交付金', 'raw': '森林整備地域活動支援\n交付金', 'start': 169627}, {'sourceId': 'b909ef57d1d483e7bb1a960b', 'name': '医療扶助適正実施推進事業', 'raw': '医療扶助適正実施推進事業', 'start': 45054}, {'sourceId': 'b909ef57d1d483e7bb1a960b', 'name': '森林整備地域活動支援交付金', 'raw': '森林整備地域活動支援交付\n金', 'start': 107434}, {'sourceId': 'e10e5f99515d7b20a94a49d3', 'name': '森林整備地域活動支援交付金', 'raw': '森林整備地域活動支援交付\n金', 'start': 109872}, {'sourceId': 'f4df0a926e3fcc88af7357bb', 'name': '森林整備地域活動支援交付金', 'raw': '森林整備地域活動支援交付\n金', 'start': 99314}, {'sourceId': '138839955fa27c73a8b625c6', 'name': '森林整備地域活動支援交付金', 'raw': '森林整備地\n域活動支援\n交付金', 'start': 10154}, {'sourceId': 'bf14284043f1216d18ae4d1d', 'raw': '自死遺族支援業務委託料', 'start': 30239, 'name': '自死遺族支援業務委託料'}, {'sourceId': 'bf14284043f1216d18ae4d1d', 'raw': '医療廃棄物処理委託料', 'start': 30524, 'name': '医療廃棄物処理委託料'}, {'sourceId': 'bf14284043f1216d18ae4d1d', 'raw': 'レントゲン撮影委託料', 'start': 32330, 'name': 'レントゲン撮影委託料'}, {'sourceId': 'bf14284043f1216d18ae4d1d', 'raw': '肝炎ウイルス検診委託料', 'start': 32549, 'name': '肝炎ウイルス検診委託料'}, {'sourceId': 'bf14284043f1216d18ae4d1d', 'raw': 'デマンド監視委託料', 'start': 47122, 'name': 'デマンド監視委託料'}, {'sourceId': 'bf14284043f1216d18ae4d1d', 'raw': '雇用充足促進業務委託料', 'start': 47423, 'name': '雇用充足促進業務委託料'}, {'sourceId': 'bf14284043f1216d18ae4d1d', 'raw': '救急活動支援業務委託料', 'start': 61204, 'name': '救急活動支援業務委託料'}, {'sourceId': 'bf14284043f1216d18ae4d1d', 'raw': '電話通訳業務委託料', 'start': 61742, 'name': '電話通訳業務委託料'}, {'sourceId': 'bf14284043f1216d18ae4d1d', 'raw': '給食調理業務等委託料', 'start': 66104, 'name': '給食調理業務等委託料'}, {'sourceId': 'bf14284043f1216d18ae4d1d', 'raw': '工事監査業務委託料', 'start': 67643, 'name': '工事監査業務委託料'}, {'sourceId': 'bf14284043f1216d18ae4d1d', 'raw': '監査等支援業務委託料', 'start': 67663, 'name': '監査等支援業務委託料'}, {'sourceId': 'b909ef57d1d483e7bb1a960b', 'raw': '市民体育大会事業費補助金', 'start': 146913, 'name': '市民体育大会事業費補助金'}, {'sourceId': 'b909ef57d1d483e7bb1a960b', 'raw': '県民体育大会参加費補助金', 'start': 147109, 'name': '県民体育大会参加費補助金'}, {'sourceId': 'b909ef57d1d483e7bb1a960b', 'raw': '競技団体強化事業費補助金', 'start': 147778, 'name': '競技団体強化事業費補助金'}, {'sourceId': 'b909ef57d1d483e7bb1a960b', 'raw': 'Ｂ＆Ｇ体育行事補助金', 'start': 148099, 'name': 'Ｂ＆Ｇ体育行事補助金'}, {'sourceId': 'e10e5f99515d7b20a94a49d3', 'raw': '市民体育大会事業費補助金', 'start': 170342, 'name': '市民体育大会事業費補助金'}, {'sourceId': 'f4df0a926e3fcc88af7357bb', 'raw': '県民体育大会参加費補助金', 'start': 157579, 'name': '県民体育大会参加費補助金'}, {'sourceId': 'f4df0a926e3fcc88af7357bb', 'raw': 'スポーツ少年団運営費補助金', 'start': 157706, 'name': 'スポーツ少年団運営費補助金'}, {'sourceId': '5ae3c35511a9e71c34e41a2c', 'raw': '雇用充足促進業務委託料', 'start': 4576, 'name': '雇用充足促進業務委託料'}]:
+ c=next(c for c in configs if c['sourceId']==x['sourceId']);t=verified_text(c['sourceId'],'42211');name=x['name'];matches=[r for r in c['rows'] if alias_key(r['name'])==alias_key(name)]
+ if matches:
+  hold(c,t,x['raw'],'Possible spelling or subsidy alias of '+matches[0]['name']+'; no automatic merge or additional record.');continue
+ row(c,t,name,x['raw'],start=x['start'],note='同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。')
+
+
+for x in [{'sourceId': 'b909ef57d1d483e7bb1a960b', 'raw': 'プレミアム付商品券発行事業費補助金', 'start': 124860}, {'sourceId': 'b909ef57d1d483e7bb1a960b', 'raw': '市体育協会事業費補助金', 'start': 146233}, {'sourceId': 'b909ef57d1d483e7bb1a960b', 'raw': '体育スポーツ振興補助金', 'start': 146384}, {'sourceId': 'b909ef57d1d483e7bb1a960b', 'raw': 'スポーツ推進委員事業', 'start': 148212}, {'sourceId': 'b909ef57d1d483e7bb1a960b', 'raw': '体育館管理運営事業', 'start': 149288}, {'sourceId': 'b909ef57d1d483e7bb1a960b', 'raw': '福江武道館大規模改修事業', 'start': 149452}, {'sourceId': 'b909ef57d1d483e7bb1a960b', 'raw': '常備消防自動車整備事業', 'start': 157890}, {'sourceId': 'b909ef57d1d483e7bb1a960b', 'raw': '小型動力ポンプ購入事業', 'start': 158105}, {'sourceId': 'b909ef57d1d483e7bb1a960b', 'raw': 'モンパルナス構想推進事業', 'start': 193913}, {'sourceId': 'b909ef57d1d483e7bb1a960b', 'raw': 'あじ祭り開催事業', 'start': 194292}, {'sourceId': 'e10e5f99515d7b20a94a49d3', 'raw': '常備消防自動車整備事業', 'start': 150059}, {'sourceId': 'e10e5f99515d7b20a94a49d3', 'raw': '小型動力ポンプ購入事業', 'start': 150618}, {'sourceId': 'e10e5f99515d7b20a94a49d3', 'raw': '市体育協会事業費補助金', 'start': 170518}, {'sourceId': 'e10e5f99515d7b20a94a49d3', 'raw': '体育スポーツ振興補助金', 'start': 170647}, {'sourceId': 'e10e5f99515d7b20a94a49d3', 'raw': 'コミュニティー助成事業', 'start': 171089}, {'sourceId': 'e10e5f99515d7b20a94a49d3', 'raw': 'スポーツ推進委員事業', 'start': 172223}, {'sourceId': 'e10e5f99515d7b20a94a49d3', 'raw': '長崎国体開催事業', 'start': 174696}, {'sourceId': 'e10e5f99515d7b20a94a49d3', 'raw': '多郎島地区景観整備事業', 'start': 183524}, {'sourceId': 'e10e5f99515d7b20a94a49d3', 'raw': 'モンパルナス構想推進事業', 'start': 190820}, {'sourceId': 'f4df0a926e3fcc88af7357bb', 'raw': '情報系パソコン一括導入事業', 'start': 18893}, {'sourceId': 'f4df0a926e3fcc88af7357bb', 'raw': '常備消防自動車整備事業', 'start': 136097}, {'sourceId': 'f4df0a926e3fcc88af7357bb', 'raw': '小型動力ポンプ購入事業', 'start': 136667}, {'sourceId': 'f4df0a926e3fcc88af7357bb', 'raw': '消防救急無線デジタル化事業', 'start': 138304}, {'sourceId': 'f4df0a926e3fcc88af7357bb', 'raw': '消防署出張所庁舎建設事業', 'start': 138872}, {'sourceId': 'f4df0a926e3fcc88af7357bb', 'raw': '防災行政無線整備事業', 'start': 138972}, {'sourceId': 'f4df0a926e3fcc88af7357bb', 'raw': '市体育協会事業費補助金', 'start': 157283}, {'sourceId': 'f4df0a926e3fcc88af7357bb', 'raw': '体育スポーツ振興補助金', 'start': 157432}, {'sourceId': 'f4df0a926e3fcc88af7357bb', 'raw': 'スポーツ推進委員事業', 'start': 157824}, {'sourceId': 'f4df0a926e3fcc88af7357bb', 'raw': '長崎国体開催事業', 'start': 159066}, {'sourceId': 'f4df0a926e3fcc88af7357bb', 'raw': '多郎島地区景観整備事業', 'start': 169375}, {'sourceId': 'f4df0a926e3fcc88af7357bb', 'raw': 'モンパルナス構想事業', 'start': 174965}]:
+ c=next(c for c in configs if c['sourceId']==x['sourceId']);t=verified_text(c['sourceId'],'42211');name=x['raw'];matches=[r for r in c['rows'] if r['name'].startswith(name) or alias_key(r['name'])==alias_key(name)]
+ if matches:continue
+ row(c,t,name,x['raw'],start=x['start'],note='担当課列に挟まれた印字事業名を個別照合。評価年度のみを保持し、実施年度・計画の完了・決算額を推定しない。名称に内訳・受益者を混ぜない。')
+
+
+c=next(c for c in configs if c['sourceId']=='7debebb80c1bb074651a0ac6');t=verified_text(c['sourceId'],'42207')
+hiradoRepairs=[{'name': '平戸市振興公社公益法人移行事業', 'raw': '益法人移行事業', 'start': 7699, 'prefix': '平戸市振興公社公'}, {'name': '協働によるまちづくり推進事業', 'raw': 'くり推進事業', 'start': 10022, 'prefix': '協働によるまちづ'}, {'name': '地域の元気づくり支援交付金事業', 'raw': '支援交付金事業', 'start': 10798, 'prefix': '地域の元気づくり'}, {'name': '「やらんば！平戸」応援基金プロジェクト事業', 'raw': 'ジェクト事業', 'start': 11950, 'prefix': '「やらんば！平'}, {'name': '心身障害者福祉タクシー助成事業', 'raw': 'クシー助成事業', 'start': 26291, 'prefix': '心身障害者福祉タ'}, {'name': '放課後児童クラブ運営支援事業', 'raw': '運営支援事業', 'start': 33965, 'prefix': '放課後児童クラブ'}, {'name': '子宮頸がん等ワクチン接種緊急促進臨時特例交付金事業', 'raw': '特例交付金事業', 'start': 44061, 'prefix': '子宮頸がん等'}, {'name': 'いきいき平戸21計画策定事業', 'raw': '計画策定事業', 'start': 44991, 'prefix': 'いきいき平戸 21'}, {'name': '農業者戸別所得補償制度推進事業', 'raw': '償制度推進事業', 'start': 59065, 'prefix': '農業者戸別所得補'}, {'name': '21世紀平戸牛産地強化対策事業', 'raw': '強化対策事業', 'start': 63854, 'prefix': '21 世紀平戸牛産地'}, {'name': '森林整備地域活動支援交付金事業', 'raw': '支援交付金事業', 'start': 68911, 'prefix': '森林整備地域活動'}, {'name': '「平戸あご」ブランド確立支援事業', 'raw': 'ンド確立支援事業', 'start': 87363, 'prefix': '「平戸あご」ブラ'}, {'name': '物産振興イベント開催支援事業', 'raw': '開催支援事業', 'start': 88269, 'prefix': '物産振興イベント'}, {'name': 'まちなか活性化基本計画策定事業', 'raw': '本計画策定事業', 'start': 89390, 'prefix': 'まちなか活性化基'}, {'name': '“おもてなし”モデル施設創出事業', 'raw': 'デル施設創出事業', 'start': 93476, 'prefix': '“おもてなし”モ'}, {'name': '平戸・佐世保・西海ロングステイ観光圏推進事業', 'raw': '光圏推進事業', 'start': 98829, 'prefix': '平戸・佐世保・西'}, {'name': '急傾斜地崩壊対策事業県工事負担金', 'raw': '事業県工事負担金', 'start': 109921, 'prefix': '急傾斜地崩壊対策'}, {'name': '耐震・安心住まいづくり支援事業', 'raw': 'づくり支援事業', 'start': 114790, 'prefix': '耐震・安心住まい'}, {'name': '平戸小学校校舎大規模改造事業', 'raw': '規模改造事業', 'start': 131381, 'prefix': '平戸小学校校舎大'}, {'name': '総合情報センター（仮称）整備事業', 'raw': '（仮称）整備事業', 'start': 140608, 'prefix': '総合情報センター'}, {'name': '国指定重要文化財保存整備事業', 'raw': '保存整備事業', 'start': 143681, 'prefix': '国指定重要文化財'}, {'name': '全国高等学校総合体育大会平戸市実行委員会運営事業', 'raw': '行委員会運営事業', 'start': 150758, 'prefix': '全国高等学校総合'}, {'name': '生月町勤労者体育センター整備事業', 'raw': 'センター整備事業', 'start': 151644, 'prefix': '生月町勤労者体育'}]
+for x in hiradoRepairs:
+ lo=x['start'] if x['name']=='急傾斜地崩壊対策事業県工事負担金' else max(0,x['start']-400);hi=min(len(t),x['start']+len(x['raw'])+400);hits=list(re.finditer(r'(?m)^'+re.escape(x['prefix'])+r'$',t[lo:hi]));assert len(hits)==1,(x['name'],len(hits));a=lo+hits[0].start();start=min(a,x['start']);end=max(a+len(x['prefix']),x['start']+len(x['raw']));row(c,t,x['name'],t[start:end],start=start,note='FY2012決算報告の同一頁にある名称前後片を個別照合し、間に混在した説明・財源列を証拠引用に残した。金額・工事内訳は推定しない。')
+
+
+for x in [{'name': '身体障害者交通船旅客運賃助成事業', 'start': 26340, 'raw': '旅客運賃助成事業\n（福祉課）\n【事項別明細書 144 頁】\n\n車椅子常用者 29 人（述べ 471 件）\n\n（福祉課）\n【事項別明細書 144 頁】\n【事項別明細書 158 頁】\n\n5 人（延べ 86 件）\n\n39 千円\n\n視覚障害者\n\n12 人（延べ 247 件）\n\n106 千円\n\n祉事業\n（福祉課）\n【事項別明細書 144 頁】\n【事項別明細書 146 頁】\n\n3款\n\n民生費\n\nそ の 他\n\n339\n\n一般財源\n\n339\n\n障害者の社会活動の範囲が広がり、障害者の福祉向上に寄与\nすることができた。\n\n25 千円\n\n第２種身体障害者手帳所持者に対し、社会参加とその軽減を図るた\n\n611\n\n611\n\n障害者の社会参加が促進された。\n\nめ交通船旅客運賃の４割助成を行った。\n大島～平戸\n\n29 人（延べ 1,388 件）\n\n度島～平戸\n\n4 人（延べ 283 件）\n\n356 千円\n70 千円\n186 千円\n\n福祉の増進及び負担軽減のため、心身障害者、乳幼児、母子家庭等\n\n158,500\n\n70,149\n\n5\n\n○扶助費\n\n＜29,842 千円＞\n\n母子家庭等\n\n＜11,236 千円＞\n\n障害 1･2 級\n\n心身機能の障害で日常生活に支障がある者、乳幼児、母子家\n\n○支給件数の推移\n\n153,892 千円\n\n乳幼児\n\n88,346\n\n庭等の経済的負担の軽減ができた。\n\nにおける母と子及び寡婦等に対して、医療費の助成を行った。\n\n(単位：件)\n22 年度\n\n23 年度\n\n24 年度\n\n乳 幼 児\n\n13,653\n\n23,688\n\n22,708\n\n＜39,609 千円＞\n\n母子家庭等\n\n3,441\n\n4,261\n\n4,032\n\n療育Ａ1･2\n\n＜ 7,719 千円＞\n\n障害１・２\n\n6,459\n\n6,701\n\n6,806\n\n老人\n\n＜36,871 千円＞\n\n療育 A１・２\n\n2,116\n\n2,068\n\n1,833\n\n障害 3 級\n\n＜ 9,199 千円＞\n\n老\n\n人\n\n6,844\n\n6,706\n\n6,250\n\n療育Ｂ1\n\n＜ 2,537 千円＞\n\n障 害 ３\n\n1,893\n\n2,248\n\n2,344\n\n単独(障害 4 級･療育Ｂ2･老人 3･4 級Ｂ1) ＜16,879 千円＞\n\n療育Ｂ１\n\n924\n\n875\n\n913\n\n○事務費\n\nひらどふれあい福\n\n地 方 債\n\n169 千円\n\n知的障害者\n\n事務費\n\n福祉医療給付事業\n\n訳\n\nを利用する場合、基本料金の９割助成を行った。\n\n事務費\n身体障害者交通船', 'oldStart': 26340}, {'name': 'ひらどふれあい福祉事業', 'start': 26483, 'raw': '祉事業\n（福祉課）\n【事項別明細書 144 頁】\n【事項別明細書 146 頁】\n\n3款\n\n民生費\n\nそ の 他\n\n339\n\n一般財源\n\n339\n\n障害者の社会活動の範囲が広がり、障害者の福祉向上に寄与\nすることができた。\n\n25 千円\n\n第２種身体障害者手帳所持者に対し、社会参加とその軽減を図るた\n\n611\n\n611\n\n障害者の社会参加が促進された。\n\nめ交通船旅客運賃の４割助成を行った。\n大島～平戸\n\n29 人（延べ 1,388 件）\n\n度島～平戸\n\n4 人（延べ 283 件）\n\n356 千円\n70 千円\n186 千円\n\n福祉の増進及び負担軽減のため、心身障害者、乳幼児、母子家庭等\n\n158,500\n\n70,149\n\n5\n\n○扶助費\n\n＜29,842 千円＞\n\n母子家庭等\n\n＜11,236 千円＞\n\n障害 1･2 級\n\n心身機能の障害で日常生活に支障がある者、乳幼児、母子家\n\n○支給件数の推移\n\n153,892 千円\n\n乳幼児\n\n88,346\n\n庭等の経済的負担の軽減ができた。\n\nにおける母と子及び寡婦等に対して、医療費の助成を行った。\n\n(単位：件)\n22 年度\n\n23 年度\n\n24 年度\n\n乳 幼 児\n\n13,653\n\n23,688\n\n22,708\n\n＜39,609 千円＞\n\n母子家庭等\n\n3,441\n\n4,261\n\n4,032\n\n療育Ａ1･2\n\n＜ 7,719 千円＞\n\n障害１・２\n\n6,459\n\n6,701\n\n6,806\n\n老人\n\n＜36,871 千円＞\n\n療育 A１・２\n\n2,116\n\n2,068\n\n1,833\n\n障害 3 級\n\n＜ 9,199 千円＞\n\n老\n\n人\n\n6,844\n\n6,706\n\n6,250\n\n療育Ｂ1\n\n＜ 2,537 千円＞\n\n障 害 ３\n\n1,893\n\n2,248\n\n2,344\n\n単独(障害 4 級･療育Ｂ2･老人 3･4 級Ｂ1) ＜16,879 千円＞\n\n療育Ｂ１\n\n924\n\n875\n\n913\n\n○事務費\n\nひらどふれあい福', 'oldStart': 26483}, {'name': '在宅寝たきり高齢者等介護見舞金支給事業', 'start': 31917, 'raw': '給事業\n（長寿保険課）\n【事項別明細書 152 頁】\n\n民生費\n\n緊急時の迅速な対応や安否確認、また、普段の生活の心配事、\n対象者が安心して在宅生活を送ることができた。\n\n貸与台数 392 台 (平成 25 年 3 月末現在)\n（内訳）平戸 217 台 生月 43 台 田平 88 台 大島 44 台\n\n社会的孤立感の解消、自立生活の助長を図るため、在宅のひとり暮\nビス等を実施した。\n\n者等介護見舞金支\n\n5,765\n\n悩み事の相談に応じるなど、日常生活を支援することにより、\n\n（長寿保険課）\n\n在宅寝たきり高齢', 'oldStart': 31917}, {'name': '高齢者・障害者住宅改造助成事業', 'start': 32609, 'raw': '改造助成事業\n（長寿保険課）\n【事項別明細書 152 頁】\n\n度島いきいきプラ\nザ（仮称）整備事業\n（長寿保険課）\n【事項別明細書 152 頁】\n\n老人保護措置事業\n（福祉課）\n【事項別明細書 154 頁】\n\n高齢者（要介護者及び要支援者）または重度障害者の日常生活を容\n\n1,303\n\n地 方 債\n\nそ の 他\n\n651\n\n一般財源\n\n652\n\n高齢者及び障害者の日常生活を容易にし、介護者や家族の負\n担を軽減するとともに、安心して快適に自立した生活を送るこ\n\n成を行った。\n\nとができる環境整備を行った。\n\n高齢者 15 件\n\n1,303 千円\n\n昭和 56 年以前に建設された度島診療所及び医師住宅の建設に併せ、\n\n2,519\n\n2,500\n\n19\n\n介護予防施設を併設するための地質調査、設計委託を行った。\n地質調査業務委託\n設計業務委託\n\n施設建設に伴い、医療供給体制の充実と福祉・介護サービス\nの提供を行うことで、医療・福祉・介護の連携が可能となる。\n\n350 千円\n2,168 千円\n\n概ね 65 歳以上の老人で、環境上及び経済的理由のため、在宅生活\n\n200,283\n\n27,758\n\n172,525\n\n入所者本人や家族の不安解消と、生活安定の支援を行った。\n\nが困難な者を対象に、養護老人ホームに入所させ養護した。\n○入所者の状況（平成 25 年 3 月末現在）\n施 設 名\nの\n\n入所人員\n\n園\n\n50 名\n\nし か ま ち\n\n27 名\n\nグリーンホーム\n\n6名\n\nソ レ イ ユ\n\n2名\n\n恵\n\n2名\n\nの\n\n丘\n\n光\n\n明\n\n荘\n\n1名\n\n湧\n\n泉\n\n荘\n\n1名\n\n合\n\n後期 高 齢者 医療\n\n訳\n\n易にし、介護者の負担を軽減するため、高齢者等の住宅改造に対し助\n\n光\n\n療養給付事業\n\n内\n\n事 業 の 成 果\n国県支出金\n\n高齢者・障害者住宅', 'oldStart': 32609}, {'name': 'コンベンション開催事業', 'start': 94244, 'raw': '催事業\n（観光課）\n【事項別明細書 244 頁】\n\n観光客の誘致と地域の経済効果を創出するため、コンベンション\n\n○にぎわいづくり実績\n\n事業\n（観光課）\n\n2,800\n\n地域の賑わいにつながるコンベンションの開催に対して支\n致につなげることができた。\n\n補助金額\n\n宿泊実績\n\n50\n\n149\n\n1,000\n\n6,954\n\n150\n\n365\n\n佐世保西高等学校３年夏合宿\n\n500\n\n1,353\n\n佐世保西高等学校１年夏合宿\n\n250\n\n921\n\n青山学院初等部夏合宿５年生\n\n250\n\n810\n\n香雲堂吟詠会・来吟知会創立 10 周年\n\n200\n\n252\n\nとびうお杯小学生バレーボール親善大会\n\n100\n\n209\n\n商工会女性部主張発表長崎県大会\n\n50\n\n186\n\nVVSB Cup in Hirado 2012 サッカー大会\n\n150\n\n360\n\n脇川ﾎﾃﾙｶｯﾌﾟﾌﾚｯｼｭｻｯｶｰ U10 大会\n\n25\n\n63\n\n150\n\n320\n\n25\n\n86\n\n2,900\n\n12,028\n\n計\n\nマスメディアＰＲ\n\n一般財源\n\n援することにより、地域の活力と魅力を向上させ、観光客の誘\n\n佐世保北中学校学習合宿\n\nソフトバンク杯ＦＭ長崎Ｕ10 キッズサッカ\nーフェスティバル\n久留米大学陸上部・九州大学陸上部合同合\n宿\n\n（観光課）\n\n100\n\nそ の 他\n\n(単位：千円,延べ人数）\n\n英進館夏期特訓合宿中３公立\n\n【事項別明細書 246 頁】\n\n2,900\n\n地 方 債\n\nまた、本年から新たに勉強合宿に対する補助も行った。\n\n鄭成功生誕記念平戸ｻｯｶｰﾌｪｽﾀ U-10 大会\n\n識整備事業\n\n訳\n\nなどを開催する各種団体に対して支援を実施した。\n\n事 業 名\n\n観光案内・誘導標\n\n内\n\n事 業 の 成 果\n国県支出金\n\nコンベンション開', 'oldStart': 94244}, {'name': '県指定文化財保存整備事業', 'start': 144044, 'raw': '整備事業\n（文化遺産課）\n【事項別明細書 330 頁】\n\n882 千円（分担金 264 千円）\n\n坂本邸家屋修理修景\n\n3,319 千円（分担金 996 千円）\n\n村田邸家屋修理修景\n\n2,939 千円（分担金 882 千円）\n\n県指定史跡「鯨組主益冨家居宅跡」の座敷の改修事業、県指定有形\n\n県指定文化財としての保存継承が可能となり、火災等への備\nえを整備することができた。\n\n558\n\n558\n\n国指定史跡地内の整備として、文化財的な判断と、今後の方\n向性を検討することができた。\n\n・第１回整備委員会 12 月 17 日開催\n\n和蘭商館関連施設があったとされる、田平町横島で発掘調査を行\nい、リンバーンと呼ばれる航海用ロープ製作場のものと関連した排水\n\n（文化遺産課）\n\n設備跡や砂岩切石集中区が検出された。\n\n4,734\n\n2,516\n\n2,218\n\n国史跡への追加指定するため、新たな資料を加えることがで\nきた。\n\nまた、建築材と考えられる鉄釘も検出することができた。\n・発掘調査事業\n\n教育費\n\n2,773\n\n整備委員会を県とともに開催した。\n\n発掘調査事業\n\n10 款\n\n2,773\n\n58 千円\n\n「史跡平戸和蘭商館跡」に位置する常灯の鼻は、経年劣化による破\n\n【事項別明細書 332 頁】\n\n修理修景事業では、\n選定地区内家屋４棟で屋根替えなどの\n工事を行い、景観の保全・向上を図ることができた。\n各種イベントを実施したことで、\n地域内の意識高揚につな\nげることができた。\n\n・県指定史跡「鯨組主益冨家居宅跡」 2,715 千円\n・県指定有形文化財「雄香寺開山堂」\n\n損が著しく、\n危険な状態であり、\n修復工事を行う必要があることから、\n\n和蘭商館関連施設\n\n2,360\n\n文化財｢雄香寺開山堂｣の消防設備修繕に対する補助を行った。\n\n事業\n（文化遺産課）\n\n3,433\n\n674 千円\n\n常灯の鼻修復調査\n\n【事項別明細書 332 頁】\n\n13,517\n\n4,303 千円（分担金 1,291 千円）\n\n志田邸倉庫修理修景\n\n・事務事業\n\n県指定文化財保存', 'oldStart': 144044}]:
+ row(c,t,x['name'],x['raw'],start=x['start'],note='FY2012同一決算ページの明示された名称片を照合。施設/費用の構成項目は別件にしない。資料の並び順だけから担当や金額を結び付けない。')
+ for h in c['holds']:
+  if h['start']==x['oldStart']:h.update(status='resolved_title_boundary',reason='Saved literal prefix and suffix reviewed within the same page; full intervening quote retained.')
+
 for c in configs:
  meta=json.loads((docs.parent/'municipalities'/(c['municipalityCode']+'.json')).read_text());src=next(x for x in meta['sources'] if x['id']==c['sourceId']);c['sourceSha256']=src['acquisition']['sourceSha256'];c['sourceUrl']=src['url'];c['recordedFormat']=src['format'];d=json.loads((docs/(c['sourceId']+'.json')).read_text());c['format']='pdf' if src['format'] not in ['pdf','html','xlsx'] and d.get('extractionMethod')=='pdftotext_from_verified_bytes' and d['sourceSha256']==src['acquisition']['sourceSha256'] else 'html' if src['format'] not in ['pdf','html','xlsx'] and d.get('extractionMethod')=='visible_html_from_verified_bytes' and d['sourceSha256']==src['acquisition']['sourceSha256'] else src['format']
 (root/'apps/crawler/src/evaluations/expansion/descending-nagasaki-map.ts').write_text('// Generated from hash-verified complete cached texts; no municipal requests.\nexport const nagasakiRows = '+json.dumps(configs,ensure_ascii=False,indent=2)+';\n')
