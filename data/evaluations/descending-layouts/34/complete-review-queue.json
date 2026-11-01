@@ -668,7 +668,7 @@
         "status": "remainder_layout_review_pending"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 5,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -695,7 +695,7 @@
         "status": "remainder_layout_review_pending"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 3,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -722,7 +722,7 @@
         "status": "remainder_layout_review_pending"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 2,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -749,7 +749,7 @@
         "status": "remainder_layout_review_pending"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 2,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -776,7 +776,7 @@
         "status": "remainder_layout_review_pending"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 1,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -803,7 +803,7 @@
         "status": "remainder_layout_review_pending"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 3,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -830,7 +830,7 @@
         "status": "remainder_layout_review_pending"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 2,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -857,7 +857,7 @@
         "status": "remainder_layout_review_pending"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 2,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -884,7 +884,7 @@
         "status": "remainder_layout_review_pending"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 2,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -911,7 +911,7 @@
         "status": "remainder_layout_review_pending"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 2,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -1130,7 +1130,7 @@
         "reason": "2023・2024年度の両本文に同じ第15回表記。年次の公演同一性が未解決のため、この2行を採用しない。"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 2,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -1157,7 +1157,7 @@
         "status": "remainder_layout_review_pending"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 2,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -2421,20 +2421,20 @@
     "fetchedAt": "2026-10-23T19:21:30.712Z",
     "characters": 63572,
     "continuationParts": 0,
-    "accepted": 3,
+    "accepted": 5,
     "duplicates": 0,
     "parserStatus": "processed",
     "reviewStatus": "processed",
-    "proposals": 3,
+    "proposals": 5,
     "holds": [
       {
-        "raw": "家庭教育支援事業の推遡",
-        "start": 32887,
-        "reason": "見出しの推遡、実鮒などOCR誤認があり、正しい全文名称・個票境界を推測補正しない。残余は原画像または明瞭な保存済み同一原典箇所での照合が必要。",
-        "status": "ocr_title_identity_hold"
+        "raw": "因島南小学教施設整備事業",
+        "start": 41571,
+        "status": "ocr_title_identity_hold",
+        "reason": "同原典38頁に因島南小学校施設整備の明瞭な記述があり、施設名自体の不明とはしない。ただし既存の学校施設整備候補に対応する工事内訳として扱い、40頁の給食実施設計を別事業に重複計上しない。小学教のOCR表記・金額は訂正しない。"
       }
     ],
-    "additionalExternalProposals": 2,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -2467,7 +2467,7 @@
         "status": "remaining_ocr_unit_review_pending"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 5,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -2581,18 +2581,12 @@
     "fetchedAt": "2026-10-23T19:21:48.329Z",
     "characters": 63395,
     "continuationParts": 0,
-    "accepted": 1,
+    "accepted": 2,
     "duplicates": 37,
     "parserStatus": "processed",
     "reviewStatus": "processed",
-    "proposals": 1,
+    "proposals": 2,
     "holds": [
-      {
-        "raw": "評価点検シート\n\n施策・事業名\n\n尾道教育総合推進計画掲載ページ\n\n政策の柱\n\n１\n\n基本方針\n重点目標\n目\n的\n\n２\n２\n\n夢と志を抱き、主体的にキャリアを形成する力を育む事業\n職業観、勤労観の育成を図る事業\n\n20\n\n所管課\n\n教育指導課\n\n夢と志を抱きグローバル社会を生き抜く子どもの育成「尾道教育みら\nいプラン２」\n「豊かな心」の育成\n道徳性、人間性、学びに向かう力を高める教育の推進\n自己の生き方を考える教育活動の推進\n\n１ 立志式・１/２成人式の開催\n志を高く持ち、これからの人生を逞しく",
-        "start": 20030,
-        "reason": "既存同年度に名称一致なし。ただし一般施策単位、またはキャリア形成・職業観の二名称が同一個票に並ぶ。独立事業の同一性・単位を確定する追加の本文レビューが必要。既存値は保持。",
-        "status": "unit_identity_review_pending"
-      },
       {
         "raw": "評価点検シート\n\n施策・事業名 生徒指導の充実\n22\n所管課 教育指導課\n夢と志を抱きグローバル社会を生き抜く子どもの育成「尾道教育みら\nいプラン２」\n「豊かな心」の育成\n生徒指導の推進\n自己指導能力の向上にむけた生徒指導の充実\n\n尾道教育総合推進計画掲載ページ\n\n内\n容\n\n政策の柱\n\n１\n\n基本方針\n重点目標\n目\n的\n\n２\n３\n\n１ いじめ・問題行動をなくすための取組\nきめ細やかな生徒指導の充実を目指し、組織的な生徒指導体制を確立する。\n２ 不登校減少への取組\n・不登校の未然防止及び不登校児童",
         "start": 21758,
@@ -2620,20 +2614,13 @@
     "fetchedAt": "2026-10-23T19:21:51.223Z",
     "characters": 64067,
     "continuationParts": 0,
-    "accepted": 0,
+    "accepted": 1,
     "duplicates": 40,
-    "parserStatus": "duplicate",
-    "reviewStatus": "duplicate",
-    "proposals": 0,
-    "holds": [
-      {
-        "raw": "評価点検シート\n\n施策・事業名\n\n尾道教育総合推進計画掲載ページ\n\n政策の柱\n\n１\n\n基本方針\n２\n重点目標\n２\n目\n的\n\n内\n容\n\n夢と志を抱き、\n主体的にキャリアを形成する力を育む事業\n職業観、勤労観の育成を図る事業\n20\n\n所管課\n\n教育指導課\n\n夢と志を抱きグローバル社会を生き抜く子どもの育成「尾道教育みらい\nプラン２」\n「豊かな心」の育成\n道徳性、人間性、学びに向かう力を高める教育の推進\n自己の生き方を考える教育活動の推進\n\n１ 立志式・１/２成人式の開催\n志を高く持ち、これからの人生",
-        "start": 19673,
-        "reason": "既存同年度に名称一致なし。ただし一般施策単位、またはキャリア形成・職業観の二名称が同一個票に並ぶ。独立事業の同一性・単位を確定する追加の本文レビューが必要。既存値は保持。",
-        "status": "unit_identity_review_pending"
-      }
-    ],
-    "additionalExternalProposals": 1,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 1,
+    "holds": [],
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -2647,18 +2634,12 @@
     "fetchedAt": "2026-10-23T19:21:54.535Z",
     "characters": 66350,
     "continuationParts": 0,
-    "accepted": 1,
+    "accepted": 2,
     "duplicates": 35,
     "parserStatus": "processed",
     "reviewStatus": "processed",
-    "proposals": 1,
+    "proposals": 2,
     "holds": [
-      {
-        "raw": "評価点検シート\n\n施策・事業名\n\n尾道教育総合推進計画掲載ページ\n\n夢と志を抱き、\n主体的にキャリアを形成する力を育む事業\n職業観、勤労観の育成を図る事業\n20\n\n所管課\n\n教育指導課\n\n夢と志を抱きグローバル社会を生き抜く子どもの育成「尾道教育みらい\nプラン２」\n基本方針\n２ 「豊かな心」の育成\n重点目標\n２ 道徳性、人間性、学びに向かう力を高める教育の推進\n目\n的\n自己の生き方を考える教育活動の推進\n１ 立志式・１/２成人式の開催\n志を高く持ち、これからの人生を逞しく生き抜こうとする自覚・意",
-        "start": 20477,
-        "reason": "既存同年度に名称一致なし。ただし一般施策単位、またはキャリア形成・職業観の二名称が同一個票に並ぶ。独立事業の同一性・単位を確定する追加の本文レビューが必要。既存値は保持。",
-        "status": "unit_identity_review_pending"
-      },
       {
         "raw": "評価点検シート\n\n施策・事業名 生徒指導の充実\n22\n所管課 教育指導課\n夢と志を抱きグローバル社会を生き抜く子どもの育成「尾道教育みらいプラ\nン２」\n「豊かな心」の育成\n生徒指導の推進\n自己指導能力の向上にむけた生徒指導の充実\n\n尾道教育総合推進計画掲載ページ\n\n政策の柱\n\n１\n\n基本方針\n２\n重点目標\n３\n目\n的\n\n内\n容\n\n取\n組\n状\n況\nと\n成\n果\n\n課\n題\n\n改\n善\nの\n方\n向\n性\n\n１ いじめ・問題行動をなくすための取組\nきめ細やかな生徒指導の充実を目指し、組織的な生徒指導体制を確立",
         "start": 22059,
@@ -2684,7 +2665,7 @@
         "status": "unit_identity_review_pending"
       }
     ],
-    "additionalExternalProposals": 1,
+    "additionalExternalProposals": 3,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -2737,26 +2718,20 @@
     "fetchedAt": "2026-10-23T19:21:59.912Z",
     "characters": 49944,
     "continuationParts": 0,
-    "accepted": 9,
+    "accepted": 11,
     "duplicates": 0,
     "parserStatus": "processed",
     "reviewStatus": "processed",
-    "proposals": 9,
+    "proposals": 11,
     "holds": [
       {
         "raw": "子どもの居場所づくり事業",
         "start": 41666,
         "reason": "社会福祉協議会の事業を市施設が受入れた記載であり、市自身の独立事業として追加しない。",
         "status": "attribution_scope_or_future_hold"
-      },
-      {
-        "raw": "文化財愛護少年団事業",
-        "start": 43971,
-        "reason": "成果・課題・改善策が混在する欄。取組欄の少年団活動との同一性と当年度範囲を別途確認するまで追加しない。",
-        "status": "attribution_scope_or_future_hold"
       }
     ],
-    "additionalExternalProposals": 2,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -2770,22 +2745,16 @@
     "fetchedAt": "2026-10-23T19:22:03.135Z",
     "characters": 53439,
     "continuationParts": 0,
-    "accepted": 7,
+    "accepted": 9,
     "duplicates": 0,
     "parserStatus": "processed",
     "reviewStatus": "processed",
-    "proposals": 7,
+    "proposals": 9,
     "holds": [
       {
         "raw": "子どもの居場所づくり事業",
         "start": 44464,
         "reason": "社会福祉協議会の事業を市施設が受入れた記載であり、市自身の独立事業として追加しない。",
-        "status": "attribution_scope_or_future_hold"
-      },
-      {
-        "raw": "文化財愛護少年団事業",
-        "start": 46930,
-        "reason": "成果・課題・改善策が混在する欄。取組欄の少年団活動との同一性と当年度範囲を別途確認するまで追加しない。",
         "status": "attribution_scope_or_future_hold"
       },
       {
@@ -2795,7 +2764,7 @@
         "status": "attribution_scope_or_future_hold"
       }
     ],
-    "additionalExternalProposals": 2,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -2809,22 +2778,16 @@
     "fetchedAt": "2026-10-23T19:22:05.902Z",
     "characters": 56511,
     "continuationParts": 0,
-    "accepted": 7,
+    "accepted": 9,
     "duplicates": 0,
     "parserStatus": "processed",
     "reviewStatus": "processed",
-    "proposals": 7,
+    "proposals": 9,
     "holds": [
       {
         "raw": "子どもの居場所づくり事業",
         "start": 47308,
         "reason": "社会福祉協議会の事業を市施設が受入れた記載であり、市自身の独立事業として追加しない。",
-        "status": "attribution_scope_or_future_hold"
-      },
-      {
-        "raw": "文化財愛護少年団事業",
-        "start": 50005,
-        "reason": "成果・課題・改善策が混在する欄。取組欄の少年団活動との同一性と当年度範囲を別途確認するまで追加しない。",
         "status": "attribution_scope_or_future_hold"
       },
       {
@@ -2834,7 +2797,7 @@
         "status": "attribution_scope_or_future_hold"
       }
     ],
-    "additionalExternalProposals": 2,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -2952,11 +2915,11 @@
     "fetchedAt": "2026-10-21T08:44:22.069Z",
     "characters": 37250,
     "continuationParts": 0,
-    "accepted": 21,
+    "accepted": 33,
     "duplicates": 0,
     "parserStatus": "processed",
     "reviewStatus": "processed",
-    "proposals": 21,
+    "proposals": 33,
     "holds": [
       {
         "raw": "点検・評価の対象事業\n地域ともにある信頼される学校づくりの推進\n\nコミュニティ・スクール推進事業\n教職員の人材育成\n\n幼保小連携教育の推進\n\nスタートカリュキラム\n\n「確かな学力」の向上\n\n未来の人材育成事業\n「学びの変革」全校展開\n学校 ICT 活用教育推進事業\n特別支援教育，介助員配置\n\n「豊かな心」の育成\n\n生徒指導支援事業\n竹原市キャリアスタートウィークの実施\n道徳教育推進\n\n「健やかな体」の育成\n\n体力テストの分析を通した指導の工夫改善\n\n充実した教育環境づくり\n\n小中一貫教育の推進\n竹原市立学校適正配置計画策定事業\n\n（２）生涯学習・青少年育成\n重点的施策\n点検・評価の対象事業\n生涯学習拠点・機会の充実\n\n地域交流センター運営事業\n図書館運営事業\n竹原市総合文化祭開催事業\nときめき講座開催事業\n\n学校と地域の協働による生涯学習の推進\n\n学びから始まる地域づくりプロジェクト\n文化芸術体験等事業\n\nスポーツ・芸術の振興\n\nスポーツ推進委員活動事業\nトップアスリート等スポーツ教室\n各種大会等開催事業\n竹原市美術展開催事業\n\n家庭・学校・地域等の連携よる教育力の向上\n\n家庭相談員、子ども会育成事業\n\nの推進\n\n青少年育成竹原市民会議\n\n- 3 -\n\n\n（３） 歴史・文化財\n重点的施策\n点検・評価の対象事業\n文化財の保存・承継の推進\n\n歴史的建造物調査分析事業\n旧森川家住宅保存修理事業\n伝統的建造物群保存事業\n\n文化財の活用の推進\n\n文化施設管理運営事業\n歴史的建造物社会実験実施事業\n\n歴史資産の普及啓発の推進\n\n竹原歴史文化啓発事業\n重伝建選定４０周年記念事業\n\n- 4 -\n\n\n",
@@ -2965,7 +2928,7 @@
         "status": "individual_sheet_followup_pending"
       }
     ],
-    "additionalExternalProposals": 9,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -2979,11 +2942,11 @@
     "fetchedAt": "2026-10-21T08:44:25.598Z",
     "characters": 39048,
     "continuationParts": 0,
-    "accepted": 20,
+    "accepted": 32,
     "duplicates": 0,
     "parserStatus": "processed",
     "reviewStatus": "processed",
-    "proposals": 20,
+    "proposals": 32,
     "holds": [
       {
         "raw": "点検・評価の対象事業\n地域ともにある信頼される学校づくりの推進\n\nコミュニティ・スクール推進事業\n教職員の人材育成\n\n幼保小連携教育の推進\n\n幼保小連携教育\n\n「確かな学力」の向上\n\n未来の人材育成事業\n「学びの変革」全校展開\n学校ＩＣＴ活用教育推進事業\n特別支援教育、介助員配置\n\n「豊かな心」の育成\n\n生徒指導支援事業\n竹原市キャリアスタートウィークの実施\n道徳教育推進\n\n「健やかな体」の育成\n\n体力テストの分析を通した指導の工夫改善\n\n充実した教育環境づくり\n\n小中一貫教育の推進\n市立学校適正配置計画の推進\n\n（２）生涯学習・青少年育成\n重点的施策\n点検・評価の対象事業\n生涯学習拠点・機会の充実\n\n地域交流センター運営事業\n図書館運営事業\n竹原市総合文化祭開催事業\nときめき講座開催事業\n\n学校と地域の協働による生涯学習の推進\n\nコミュニティ・スクール推進事業\n文化芸術体験等事業\n\nスポーツ・芸術の振興\n\nテニスコート改修事業\nトップアスリート等スポーツ教室\n各種大会等開催事業\n竹原市美術展開催事業\n陶藝家 井政之氏作品寄附受納\n\n家庭・学校・地域等の連携よる教育力の向上\n\n家庭相談業務、子ども会育成事業\n\nの推進\n\n青少年育成竹原市民会議\n\n- 3 -\n\n\n（３） 歴史・文化財\n重点的施策\n点検・評価の対象事業\n文化財の保存・承継の推進\n\n歴史的建造物調査分析事業\n旧森川家住宅保存修理事業\n伝統的建造物群保存事業\n\n文化財の活用の推進\n\n文化施設公開事業\n歴史的建造物活用促進事業\n\n歴史資産の普及啓発の推進\n\n竹原歴史文化啓発事業\n日本遺産（北前船寄港地）活用事業\n\n- 4 -\n\n\n",
@@ -2992,7 +2955,7 @@
         "status": "individual_sheet_followup_pending"
       }
     ],
-    "additionalExternalProposals": 9,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -3006,11 +2969,11 @@
     "fetchedAt": "2026-10-21T08:44:28.396Z",
     "characters": 43147,
     "continuationParts": 0,
-    "accepted": 21,
+    "accepted": 34,
     "duplicates": 0,
     "parserStatus": "processed",
     "reviewStatus": "processed",
-    "proposals": 21,
+    "proposals": 34,
     "holds": [
       {
         "raw": "点検・評価の対象事業\n地域ともにある信頼される学校づくりの推進\n\nコミュニティ・スクール推進事業\n教職員の人材育成\n\n幼保小連携教育の推進\n\n幼保小連携教育\n\n「確かな学力」の向上\n\n未来の人材育成事業\n「学びの変革」全校展開\n学校ＩＣＴ活用教育推進事業\n特別支援教育\n介助員配置\n\n「豊かな心」の育成\n\n生徒指導支援事業\n竹原市キャリアスタートウィークの実施\n道徳教育推進\n\n「健やかな体」の育成\n\n体力テストの分析を通した指導の工夫改善\n\n充実した教育環境づくり\n\n小中一貫教育の推進\n市立学校適正配置計画の推進\n学校施設空調整備事業\n\n（２）生涯学習・青少年育成\n重点的施策\n点検・評価の対象事業\n生涯学習拠点・機会の充実\n\n地域交流センター運営事業\n図書館運営事業\n竹原市総合文化祭開催事業\nときめき講座開催事業\n\n学校と地域の協働による生涯学習の推進\n\nコミュニティ・スクール推進事業\n文化芸術体験等事業\n\nスポーツ、芸術・文化の振興\n\nトップアスリート等スポーツ教室\n各種大会等開催事業\n竹原市美術展開催事業\n今井政之顕彰施設整備検討事業\n\n家庭・学校・地域等の連携よる教育力向上の\n\n家庭相談業務\n\n推進\n\n青少年育成竹原市民会議\n\n- 3 -\n\n\n（３） 歴史・文化財\n重点的施策\n点検・評価の対象事業\n文化財の保存・承継の推進\n\n歴史的建造物調査分析事業\n旧森川家住宅保存修理事業\n伝統的建造物群保存事業\n亀田家住宅取得・保存活用事業\n\n文化財の活用の推進\n\n文化施設公開事業\n歴史的建造物活用促進事業\n\n歴史資産の普及啓発の推進\n\n竹原歴史文化啓発事業\n北海道余市町歴史交流事業\n\n- 4 -\n\n\n",
@@ -3019,7 +2982,7 @@
         "status": "individual_sheet_followup_pending"
       }
     ],
-    "additionalExternalProposals": 11,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -3033,11 +2996,11 @@
     "fetchedAt": "2026-10-23T19:21:26.756Z",
     "characters": 39896,
     "continuationParts": 0,
-    "accepted": 21,
+    "accepted": 33,
     "duplicates": 0,
     "parserStatus": "processed",
     "reviewStatus": "processed",
-    "proposals": 21,
+    "proposals": 33,
     "holds": [
       {
         "raw": "点検・評価の対象事業\n地域ともにある信頼される学校づくりの推進\n\nコミュニティ・スクール導入事業\n教職員の人材育成\n\n幼保小連携教育の推進\n\nスタートカリュキラム\n\n「確かな学力」の向上\n\n未来の人材育成事業\n「学びの変革」全校展開\n学校 ICT 活用教育推進事業\n特別支援教育，介助員配置\n\n「豊かな心」の育成\n\n生徒指導支援事業\n竹原市キャリアスタートウィークの実施\n道徳教育推進\n\n「健やかな体」の育成\n\n体力テスト分析を通した指導の工夫改善\n\n充実した教育環境づくり\n\n小中一貫教育の推進\n竹原市立学校適正配置懇話会事業\n\n（２）生涯学習・青少年育成\n重点的施策\n点検・評価の対象事業\n生涯学習拠点・機会の充実\n\n地域交流センター運営事業\n図書館運営事業\n竹原市総合文化祭開催事業\n竹原市立学校児童生徒図画書道展開催事業\n\n学校と地域の協働による生涯学習の推進\n\n学びから始まる地域づくりプロジェクト\n文化芸術体験等事業\n\nスポーツ・芸術の振興\n\nスポーツ推進委員活動事業\nトップアスリート等スポーツ教室\n各種大会等開催事業\n竹原市美術展開催事業\n\n家庭・学校・地域等の連携よる教育力の向上\n\n家庭相談員，こども会育成事業\n\nの推進\n\n青少年育成竹原市民会議\n\n- 3 -\n\n\n（３） 歴史・文化財\n重点的施策\n点検・評価の対象事業\n文化財の保存・承継の推進\n\n文化財指定事業\n旧森川家住宅調査分析事業\n伝統的建造物群保存事業\n\n文化財の活用の推進\n\n文化施設管理運営事業\n歴史的建造物社会実験実施事業\n\n歴史資産の普及啓発の推進\n\n竹原歴史文化啓発事業\n埋蔵文化財啓発事業\n\n- 4 -\n\n\n",
@@ -3046,7 +3009,7 @@
         "status": "individual_sheet_followup_pending"
       }
     ],
-    "additionalExternalProposals": 9,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -3060,11 +3023,11 @@
     "fetchedAt": "2026-10-23T19:21:31.423Z",
     "characters": 40915,
     "continuationParts": 0,
-    "accepted": 16,
+    "accepted": 28,
     "duplicates": 0,
     "parserStatus": "processed",
     "reviewStatus": "processed",
-    "proposals": 16,
+    "proposals": 28,
     "holds": [
       {
         "raw": "点検・評価の対象事業\n地域ともにある信頼される学校づくりの推進\n\nコミュニティ・スクール導入事業\n教職員の人材育成\n\n幼保小連携教育の推進\n\nスタートカリュキラム\n\n「確かな学力」の向上\n\n未来の人材育成事業\n「学びの変革」全校展開\n学校 ICT 活用教育推進事業\n特別支援教育\n\n「豊かな心」の育成\n\n生徒指導支援\n竹原市キャリアスタートウィークの実施\n\n「健やかな体」の育成\n\n体力テスト分析を通した指導の工夫改善\n\n充実した教育環境づくり\n\n小中一貫教育の推進\n竹原市立学校適正配置懇話会\n\n（２）生涯学習・青少年育成\n重点的施策\n点検・評価の対象事業\n生涯学習拠点・機会の充実\n\n地域交流センター運営事業\n図書館運営事業\n竹原市総合文化祭開催事業\n竹原市立学校児童生徒図画書道展開催事業\n\n学校と地域の協働による生涯学習の推進\n\n学びから始まる地域づくりプロジェクト\n文化芸術体験等事業\n\nスポーツ・芸術の振興\n\nスポーツ推進委員活動事業\nトップアスリート等スポーツ教室\n各種大会等開催事業\n竹原市美術展開催事業\n\n家庭・学校・地域等の連携よる教育力の向上\n\n家庭相談員，こども会育成事業\n\nの推進\n\n青少年育成竹原市民会議\n\n- 14 -\n\n\n（３） 歴史・文化財\n重点的施策\n点検・評価の対象事業\n文化財の保存・承継の推進\n\n旧森川家住宅調査分析事業\n伝統的建造物群保存事業\n\n文化財の活用の推進\n\n文化施設管理運営事業\n\n歴史資産の普及啓発の推進\n\n竹原歴史文化啓発事業\n\n- 15 -\n\n\n",
@@ -3073,7 +3036,7 @@
         "status": "individual_sheet_followup_pending"
       }
     ],
-    "additionalExternalProposals": 12,
+    "additionalExternalProposals": 2,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -3087,11 +3050,11 @@
     "fetchedAt": "2026-10-23T19:21:34.355Z",
     "characters": 35548,
     "continuationParts": 0,
-    "accepted": 17,
+    "accepted": 28,
     "duplicates": 0,
     "parserStatus": "processed",
     "reviewStatus": "processed",
-    "proposals": 17,
+    "proposals": 28,
     "holds": [
       {
         "raw": "点検・評価の対象事業\n地域ともにある信頼される学校づくりの推進\n\nコミュニティ・スクール導入事業\n教職員の人材育成\n人材育成の推進\n\n幼保小連携教育の推進\n\nスタートカリュキラム\n\n「確かな学力」の向上\n\n未来の人材育成事業\n「学びの変革」全校展開\n学校 ICT 活用教育推進事業\n特別支援教育\n\n「豊かな心」の育成\n\n生徒指導支援員\n竹原市キャリアスタートウィークの実施\n\n「健やかな体」の育成\n\n体力テスト分析を通した指導の工夫改善\n\n充実した教育環境づくり\n\n小中一貫教育の推進\n\n（２）生涯学習・青少年育成\n重点的施策\n点検・評価の対象事業\n生涯学習拠点・機会の充実\n\n地域交流センター運営事業\n図書館運営事業\n竹原市総合文化祭開催事業\n竹原市立学校児童生徒図画書道展開催事業\n\n学校と地域の協働による生涯学習の推進\n\n学びから始まる地域づくりプロジェクト\n文化芸術体験等事業\n\nスポーツ・芸術の振興\n\nスポーツ推進委員活動事業\nトップアスリート等スポーツ教室\n各種大会等開催事業\n竹原市美術展開催事業\n\n家庭・学校・地域等の連携よる教育力の向上\n\n家庭相談員，こども会育成事業\n\nの推進\n\n青少年育成竹原市民会議\n青少年指導員設置事業\n\n- 10 -\n\n\n（３） 歴史・文化財\n重点的施策\n点検・評価の対象事業\n文化財の保存・承継の推進\n\n旧森川家住宅調査分析事業\n伝統的建造物群保存事業\n\n文化財の活用の推進\n\n文化施設管理運営事業\n\n歴史資産の普及啓発の推進\n\n日本遺産（北前船寄港地）活用事業\n\n- 11 -\n\n\n",
@@ -3100,7 +3063,7 @@
         "status": "individual_sheet_followup_pending"
       }
     ],
-    "additionalExternalProposals": 10,
+    "additionalExternalProposals": 0,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -3114,11 +3077,11 @@
     "fetchedAt": "2026-10-23T19:21:37.526Z",
     "characters": 27675,
     "continuationParts": 0,
-    "accepted": 14,
+    "accepted": 18,
     "duplicates": 0,
     "parserStatus": "processed",
     "reviewStatus": "processed",
-    "proposals": 14,
+    "proposals": 18,
     "holds": [
       {
         "raw": "〔決算額（H29）",
@@ -3133,7 +3096,7 @@
         "status": "duplicate_reprint"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 3,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -3337,7 +3300,7 @@
         "status": "remaining_activity_identity_review"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 9,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -3364,7 +3327,7 @@
         "status": "remaining_activity_identity_review"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 9,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -3391,7 +3354,7 @@
         "status": "remaining_activity_identity_review"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 9,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -3418,7 +3381,7 @@
         "status": "remaining_specific_activity_review"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 2,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {
@@ -3472,7 +3435,7 @@
         "status": "remaining_specific_activity_review"
       }
     ],
-    "additionalExternalProposals": 0,
+    "additionalExternalProposals": 2,
     "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
   },
   {

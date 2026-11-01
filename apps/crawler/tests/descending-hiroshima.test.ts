@@ -24,11 +24,11 @@ test('Saka identifies the target year and concrete annual activities, never chap
 test('Reviewed navigation and policy outlines produce no business rows',()=>{for(const c of hiroshimaRows.filter(c=>c.rows.length===0))assert.equal(reviewHiroshima(source(c.sourceId,c.municipalityCode))!.projects.length,0);});
 
 test('Onomichi implementation rows exclude future school-support plans, third-party activities and financing aliases',()=>{
- for(const [id,year,count] of [['48be9ad3aad229f15735beb3',2023,9],['097054f0189853a027f9fb02',2024,7],['249f56389f65298e60bf6d47',2025,7]] as const){
+ for(const [id,year,count] of [['48be9ad3aad229f15735beb3',2023,11],['097054f0189853a027f9fb02',2024,9],['249f56389f65298e60bf6d47',2025,9]] as const){
   const ps=reviewHiroshima(source(id,'34205'))!.projects;
   assert.equal(ps.length,count);assert.ok(ps.every(p=>p.evaluatedFiscalYear===year&&p.evaluationYear===null));
   assert.ok(ps.some(p=>p.projectName==='特別教室等空調設備事業の推進'));
-  assert.ok(!ps.some(p=>['子どもの居場所づくり事業','校内教育支援センター推進事業','文化財愛護少年団事業'].includes(p.projectName)));
+  assert.ok(!ps.some(p=>['子どもの居場所づくり事業','校内教育支援センター推進事業'].includes(p.projectName)));
   if(year===2024)assert.ok(!ps.some(p=>p.projectName==='日本遺産ゲートウェイ機能強化事業'));
  }
 });
@@ -41,10 +41,10 @@ test('Fuchu same-name ICT units remain held; Miyoshi recommendations do not inve
 
 test('Takehara excludes ambiguous list-to-sheet identities and prior-year library relocation',()=>{
  const old=reviewHiroshima(source('743451c8733c2d7371089a17','34203'))!.projects;
- assert.equal(old.length,14);assert.equal(old.filter(p=>p.projectName==='公民館運営事業').length,1);
+ assert.equal(old.length,18);assert.equal(old.filter(p=>p.projectName==='公民館運営事業').length,1);
  assert.ok(!old.some(p=>p.projectName.includes('図書館移転')));assert.ok(old.every(p=>p.evaluatedFiscalYear===2018));
  const current=reviewHiroshima(source('8ebbed9d5bcf26a8dbf7c150','34203'))!.projects;
- assert.equal(current.length,21);assert.ok(current.some(p=>p.projectName==='北海道余市町歴史交流事業'));
+ assert.equal(current.length,34);assert.ok(current.some(p=>p.projectName==='北海道余市町歴史交流事業'));
  assert.ok(current.some(p=>p.projectName==='今井政之顕彰施設整備検討事業'));
 });
 test('Onomichi coverage additions preserve explicit FY and do not repair corrupted OCR title suffixes',()=>{
@@ -52,7 +52,7 @@ test('Onomichi coverage additions preserve explicit FY and do not repair corrupt
  assert.equal(ps.length,1);assert.equal(ps[0].projectName,'尾道市美術展事業');assert.equal(ps[0].evaluatedFiscalYear,2014);
  assert.ok(!ps[0].projectName.includes('実路'));assert.equal(ps[0].department,null);
  const prior=reviewHiroshima(source('e299c6de2073b91f7effd68f','34205'))!.projects;
- assert.equal(prior.length,1);assert.equal(prior[0].projectName,'特別支援教育推進事業');
+ assert.equal(prior.length,2);assert.ok(prior.some(p=>p.projectName==='特別支援教育推進事業'));
 });
 test('Kure keeps named implemented programmes separate from its 17 policy indicators',()=>{
  const ps=reviewHiroshima(source('2b519a995cdae15d17fdf0fd','34202'))!.projects;
@@ -114,4 +114,41 @@ test('Sera preserves the literal fair title and does not turn birth-grant recipi
 test('Hiroshima refuses an invented title even when source bytes and quote remain unchanged',()=>{
  const c=hiroshimaRows.find(c=>c.sourceId==='02e1e4e07c7f437778e4a884')!;const before=c.rows[0].name;
  try{c.rows[0].name='原文にない事業名';assert.throws(()=>reviewHiroshima(source(c.sourceId,c.municipalityCode)),/title/);}finally{c.rows[0].name=before;}
+});
+
+test('Onomichi resolves culture and combined career sheets with bounded source evidence',()=>{
+ for(const id of ['48be9ad3aad229f15735beb3','097054f0189853a027f9fb02','249f56389f65298e60bf6d47']){
+  const ps=reviewHiroshima(source(id,'34205'))!.projects;
+  for(const name of ['文化財愛護少年団事業','文化遺産パートナー養成講座'])assert.equal(ps.filter(p=>p.projectName===name).length,1);
+ }
+ for(const id of ['fede86bf82341474079d1c78','3ee3370f414dc61f49b936c7','e299c6de2073b91f7effd68f']){
+  const ps=reviewHiroshima(source(id,'34205'))!.projects;
+  assert.equal(ps.filter(p=>p.projectName.includes('キャリア')&&p.projectName.includes('勤労観')).length,1);
+  assert.ok(!ps.some(p=>p.projectName==='職業観、勤労観の育成を図る事業'));
+ }
+ const old=reviewHiroshima(source('8a545b3f077af11b2c0472ea','34205'))!.projects;
+ for(const name of ['尾道市美術展事業','家庭教育支援事業の推進'])assert.ok(old.some(p=>p.projectName===name));
+ assert.ok(!old.some(p=>p.projectName.includes('推遡')||p.projectName.includes('小学教')));
+});
+test('Takehara body headers resolve interleaved names without correcting old table-of-contents labels',()=>{
+ const old=reviewHiroshima(source('14b6083b6d35807412cadd08','34203'))!.projects;
+ assert.ok(old.some(p=>p.projectName==='スタートカリキュラム'));
+ assert.ok(!old.some(p=>p.projectName==='スタートカリュキラム'||p.projectName==='人材育成の推進'));
+ const renamed=reviewHiroshima(source('b4b9165bf22d7fb9891e6a33','34203'))!.projects;
+ assert.ok(renamed.some(p=>p.projectName==='幼保小連携教育'));
+ assert.ok(!renamed.some(p=>p.projectName==='スタートカリキュラム'));
+ const latest=reviewHiroshima(source('8ebbed9d5bcf26a8dbf7c150','34203'))!.projects;
+ for(const name of ['特別支援教育','介助員配置','道徳教育推進','体力テストの分析を通した指導の工夫改善','トップアスリート等スポーツ教室'])assert.equal(latest.filter(p=>p.projectName===name).length,1);
+ assert.ok(latest.every(p=>p.amounts.length===0&&p.ratings.length===0&&p.indicators.length===0));
+});
+
+test('Takehara independent labels use different source positions and preserve a single combined counselling unit',()=>{
+ const old=reviewHiroshima(source('743451c8733c2d7371089a17','34203'))!.projects;
+ assert.ok(old.some(p=>p.projectName==='組織的な生徒指導体制の確立'));
+ assert.ok(!old.some(p=>p.projectName==='生徒指導支援員'||p.projectName==='教育相談事業'));
+ for(const id of ['1cf5ac05cbb416fa376789d1','b4b9165bf22d7fb9891e6a33','79d92670653ab02fd1ac07b4']){
+  const ps=reviewHiroshima(source(id,'34203'))!.projects;
+  const a=ps.find(p=>p.projectName==='特別支援教育')!,b=ps.find(p=>p.projectName==='介助員配置')!;
+  assert.ok(a&&b);assert.notEqual(a.id,b.id);assert.notEqual(a.evidence[0].cell,b.evidence[0].cell);
+ }
 });
