@@ -19,7 +19,13 @@
     "failed": 0,
     "scope": "Snapshot before latest Taketa literal maps; those changes pass final focused10/10. Final full run active."
   },
-  "currentFullSuite": "running; /workspace/descending-layouts-20261101/logs/oita-crawler-final.log",
+  "currentFullSuite": {
+    "passed": 393,
+    "failed": 0,
+    "durationMs": 589960.75807,
+    "log": "/workspace/descending-layouts-20261101/logs/oita-crawler-final.log",
+    "codeHead": "e5741bf85cecc87234619eacc3c9349d8b2cfa50"
+  },
   "webTests": {
     "passed": 256,
     "failed": 0

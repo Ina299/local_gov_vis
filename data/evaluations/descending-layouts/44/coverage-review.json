@@ -5533,5 +5533,14 @@
       "continuationParts": 0,
       "parserFamilies": 3
     }
-  ]
+  ],
+  "manualContentReview": {
+    "counts": {
+      "read_only_triage_pending_parser": 26,
+      "reviewed_related_facility_assessment": 7,
+      "reviewed_committee_roster": 2
+    },
+    "dispositionsPath": "remaining-source-triage.json",
+    "note": "The generated parser ledger still labels35 sources unsupported. This separate hash-checked manual audit classifies9 as related facility assessments/rosters, leaving26 for layout review. Do not call all35 blocked."
+  }
 }
