@@ -3118,33 +3118,9 @@ export const nagasakiRows = [
         "note": "冊子の独立した名称断片を再確認。混入した担当課名は明示された文字列のみ分離し、隣接項目から推測しない。数値未抽出・評価年度と実施年度を分離。"
       },
       {
-        "name": "ふるさとづくり寄附金返礼業務委託料",
-        "start": 6767,
-        "raw": "ふるさとづくり寄附金返\n礼業務委託料",
-        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
-      },
-      {
-        "name": "ふるさと納税寄附受付等業務委託料",
-        "start": 6949,
-        "raw": "ふるさと納税寄附受付等\n業務委託料",
-        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
-      },
-      {
         "name": "ごみ散乱防止パトロール業務委託料",
         "start": 15161,
         "raw": "ごみ散乱防止パトロール\n業務委託料",
-        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
-      },
-      {
-        "name": "地域活動支援センター委託料",
-        "start": 23050,
-        "raw": "地域活動支援センター委\n託料",
-        "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
-      },
-      {
-        "name": "五島産品島外販売促進業務委託料",
-        "start": 38440,
-        "raw": "五島産品島外販売促進業\n務委託料",
         "note": "同一年度の名称欄で継続した印字タイトルを確認。混在する担当課・単なる事業説明・道路工事内訳を名称にしない。費用・指標は未抽出。"
       },
       {
@@ -3534,6 +3510,26 @@ export const nagasakiRows = [
         "raw": "健診業務委託料",
         "status": "identity_or_period_hold",
         "reason": "Generic commission name repeats across facilities/purposes. Flat text does not uniquely bind the accounting row to one individual title and budget entity; purpose subheadings may be components, not independent projects. Original row geometry or explicit identity mapping required, no source request."
+      },
+      {
+        "start": 6767,
+        "raw": "ふるさとづくり寄附金返\n礼業務委託料",
+        "reason": "Same evaluation-year project is already preserved from the supplemental source with unknown execution FY. This full book provides FY2022 evidence, retained as an alternative only: do not replace original ID, quote or fields."
+      },
+      {
+        "start": 6949,
+        "raw": "ふるさと納税寄附受付等\n業務委託料",
+        "reason": "Same evaluation-year project is already preserved from the supplemental source with unknown execution FY. This full book provides FY2022 evidence, retained as an alternative only: do not replace original ID, quote or fields."
+      },
+      {
+        "start": 23050,
+        "raw": "地域活動支援センター委\n託料",
+        "reason": "Same evaluation-year project is already preserved from the supplemental source with unknown execution FY. This full book provides FY2022 evidence, retained as an alternative only: do not replace original ID, quote or fields."
+      },
+      {
+        "start": 38440,
+        "raw": "五島産品島外販売促進業\n務委託料",
+        "reason": "Same evaluation-year project is already preserved from the supplemental source with unknown execution FY. This full book provides FY2022 evidence, retained as an alternative only: do not replace original ID, quote or fields."
       }
     ],
     "evaluationYear": 2023,

@@ -13,43 +13,40 @@
     "sources": 117,
     "hashVerifiedBodies": 97,
     "continuationParts": 7,
-    "candidateRecords": 2737,
-    "candidateMunicipalities": 8,
-    "duplicateOutputs": 1087,
+    "candidateRecords": 3188,
+    "candidateMunicipalities": 13,
+    "duplicateOutputs": 1103,
     "heldOutputs": 0,
     "productionRecordsAdded": 0,
     "existingFieldsChanged": 0,
     "municipalRequests": 0,
-    "layoutReviewedUnits": 3184,
-    "layoutActionableUnits": 10,
-    "layoutHeldUnits": 192,
+    "layoutReviewedUnits": 3802,
+    "layoutActionableUnits": 12,
+    "layoutHeldUnits": 292,
     "statuses": {
-      "duplicate": 34,
+      "duplicate": 33,
       "insufficient_evidence": 1,
       "navigation": 23,
-      "processed": 20,
+      "processed": 32,
       "missing_body": 20,
-      "reviewed_literal_businesses": 8,
-      "unsupported_layout": 11
+      "reviewed_literal_businesses": 8
     }
   },
   "validation": {
-    "focusedTests": "9/9",
-    "independentCandidatesAcrossCohorts": 6900,
-    "independentEvidenceAcrossCohorts": 15147,
-    "crawlerTypecheck": "passed",
-    "fullRegression": "422/422 passed; 783749 ms",
-    "webTests": "256/256 passed",
-    "typecheck": "passed",
-    "lint": "passed",
-    "national": "passed",
-    "subpathStaticBuild": "109 pages passed; temporary optimizeFonts false restored"
+    "focusedTests": "13/13 passed",
+    "independent": {
+      "validatedCandidateRecords": 7351,
+      "validatedEvidence": 16053,
+      "productionRecordsAdded": 0
+    },
+    "fullRegression": "pending; initial d32fa243 run intentionally stopped after prior-ID replacement was detected, not passed"
   },
-  "remaining": "11 source layouts and 10 actionable layout-review units remain. No nationwide completion claim.",
+  "remaining": "12 actionable review units remain (10 Goto, 2 Hirado). 20 missing bodies remain held. No publication or nationwide-completion claim.",
   "preservation": {
-    "prior2003Unchanged": true,
-    "addedCandidates": 734,
-    "existingFieldsChanged": 0
+    "prior2737Unchanged": true,
+    "addedCandidates": 451,
+    "existingFieldsChanged": 0,
+    "alternateFiscalYearEvidenceHeld": 4
   },
-  "validatedCodeHead": "42f15dd632182af1cbfd3c817e05abd59bac4991"
+  "previousValidatedCodeHead": "42f15dd632182af1cbfd3c817e05abd59bac4991"
 }

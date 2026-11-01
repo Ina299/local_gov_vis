@@ -411,6 +411,16 @@ for x in [{'name': '身体障害者交通船旅客運賃助成事業', 'start': 
  for h in c['holds']:
   if h['start']==x['oldStart']:h.update(status='resolved_title_boundary',reason='Saved literal prefix and suffix reviewed within the same page; full intervening quote retained.')
 
+
+# Preserve four previously accepted supplemental-source identities/unknown FY.
+# The full book offers alternate FY evidence, not permission to replace old fields.
+c=next(c for c in configs if c['sourceId']=='bf14284043f1216d18ae4d1d');t=verified_text(c['sourceId'],'42211')
+preservePrior={'ふるさとづくり寄附金返礼業務委託料','ふるさと納税寄附受付等業務委託料','地域活動支援センター委託料','五島産品島外販売促進業務委託料'}
+for r in c['rows']:
+ if r['name'] in preservePrior:
+  c['holds'].append(dict(start=r['start'],raw=r['raw'],reason='Same evaluation-year project is already preserved from the supplemental source with unknown execution FY. This full book provides FY2022 evidence, retained as an alternative only: do not replace original ID, quote or fields.'))
+c['rows']=[r for r in c['rows'] if r['name'] not in preservePrior]
+
 for c in configs:
  meta=json.loads((docs.parent/'municipalities'/(c['municipalityCode']+'.json')).read_text());src=next(x for x in meta['sources'] if x['id']==c['sourceId']);c['sourceSha256']=src['acquisition']['sourceSha256'];c['sourceUrl']=src['url'];c['recordedFormat']=src['format'];d=json.loads((docs/(c['sourceId']+'.json')).read_text());c['format']='pdf' if src['format'] not in ['pdf','html','xlsx'] and d.get('extractionMethod')=='pdftotext_from_verified_bytes' and d['sourceSha256']==src['acquisition']['sourceSha256'] else 'html' if src['format'] not in ['pdf','html','xlsx'] and d.get('extractionMethod')=='visible_html_from_verified_bytes' and d['sourceSha256']==src['acquisition']['sourceSha256'] else src['format']
 (root/'apps/crawler/src/evaluations/expansion/descending-nagasaki-map.ts').write_text('// Generated from hash-verified complete cached texts; no municipal requests.\nexport const nagasakiRows = '+json.dumps(configs,ensure_ascii=False,indent=2)+';\n')
