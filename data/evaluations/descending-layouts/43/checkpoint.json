@@ -1,5 +1,5 @@
 {
-  "phase": "bounded_source_review_complete_validation_running",
+  "phase": "bounded_source_review_complete_validated",
   "observedMaster": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
   "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
   "cohortMunicipalities": 44,
@@ -52,11 +52,12 @@
     "lint": "passed",
     "national": "passed",
     "subpathStaticBuild": "109 pages passed",
-    "crawlerFullSuite": "running, no duplicate process"
+    "crawlerFullSuite": "413/413 passed; 611615 ms"
   },
   "preservation": {
     "priorCandidatesUnchanged": 1123,
     "newCandidates": 205,
     "existingFieldEnrichment": 0
-  }
+  },
+  "validatedCodeHead": "c3927dc63a806ecb9bccae0311f3c42790966752"
 }
