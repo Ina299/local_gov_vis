@@ -1,3 +1,6 @@
+import {taketaEarlierReviewed} from './descending-taketa-earlier-map';
+import {taketaReviewed} from './descending-taketa-map';
+import {createHash} from 'node:crypto';
 import type {LayoutReview} from './descending-layouts-r2';
 import {type CachedInput,project,evidence} from './shared';
 export function reviewTaketaR2(i:CachedInput):LayoutReview|null{
@@ -50,10 +53,24 @@ function reviewTaketaEducation(i:CachedInput):LayoutReview|null{
    for(const raw of ['人権・部落\n差別解消教\n育推進事業','キャリア教\n育推進事業','考え、議論\nする道徳授\n業改善事業','学校図書館\n活用・読書\n活動推進事\n業']){
     const atInBody=body.indexOf('事業概要\n\n'+raw+'\n\n');if(atInBody<0)continue;
     const at=start+atInBody+'事業概要\n\n'.length,name=raw.replace(/\n/g,'');
-    const p=project(i,'education-'+at,name,null,raw,at);p.projectCode=null;p.evaluatedFiscalYear=2025;p.evidence.push(evidence(i,proof,i.text.indexOf(proof)));p.evidence.push(evidence(i,heads[n][0],start));p.warnings.push('概要直後の独立した名称欄を原文照合。施策共通評価・数値は転記しない。');r.projects.push(p);accepted++;r.units.push({start:at,name,status:'supported',reason:'Reviewed complete post-overview title paragraph, before narrative description'});
+    const p=project(i,'education-'+at,name,null,raw,at);p.projectCode=null;p.evaluatedFiscalYear=c.year;p.evidence.push(evidence(i,proof,i.text.indexOf(proof)));p.evidence.push(evidence(i,heads[n][0],start));p.warnings.push('概要直後の独立した名称欄を原文照合。施策共通評価・数値は転記しない。');r.projects.push(p);accepted++;r.units.push({start:at,name,status:'supported',reason:'Reviewed complete post-overview title paragraph, before narrative description'});
    }
   }
   r.units.push({start,status:'layout_review',reason:accepted?'Complete contiguous title accepted; other rows in this sheet require separate column review.':'No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial.'});
+ }
+ const reviewed=[taketaReviewed,...taketaEarlierReviewed].find(x=>x.sourceId===i.sourceId);
+ if(reviewed&&createHash('sha256').update(i.text).digest('hex')===reviewed.sourceFullTextSha256){
+ if(i.sourceId===taketaReviewed.sourceId){
+  r.status='reviewed_r7_activity_sheets';r.reason='All 44 actual-year activity sheets plus the blank example reviewed; literal names accepted, unresolved identities and title boundaries held individually.';
+  for(const unit of r.units)if(unit.status==='layout_review'){unit.status='reviewed_sheet';unit.reason='All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately.';}
+  for(const hold of taketaReviewed.holds)r.units.push({start:heads[hold.sheet].index!,status:'individual_identity_hold',reason:hold.reason});
+ }
+  for(const row of reviewed.rows){
+   if(i.text.slice(row.start,row.start+row.raw.length)!==row.raw||createHash('sha256').update(row.raw).digest('hex')!==row.sha256)continue;
+   for(const name of row.names){
+    const p=project(i,'education-reviewed-'+row.start+'-'+row.names.indexOf(name),name,null,row.raw,row.start);p.projectCode=null;p.evaluatedFiscalYear=c.year;p.evidence.push(evidence(i,proof,i.text.indexOf(proof)));p.warnings.push('確認済み当年度の個別取組欄の文字列を保存。列の入り組みは名称・数値の推測で補わず、金額・評価は転記しない。');r.projects.push(p);r.units.push({start:row.start,name,status:'supported',reason:'Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match'});
+   }
+  }
  }
  return r;
 }

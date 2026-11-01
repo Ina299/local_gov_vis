@@ -1,6 +1,6 @@
 {
   "phase": "in_progress",
-  "candidateRecords": 368,
+  "candidateRecords": 465,
   "byMunicipality": {
     "44461 九重町": 82,
     "44322 姫島村": 23,
@@ -8,24 +8,24 @@
     "44213 由布市": 27,
     "44211 宇佐市": 26,
     "44209 豊後高田市": 151,
-    "44208 竹田市": 35
+    "44208 竹田市": 132
   },
   "focusedTests": {
-    "passed": 9,
+    "passed": 10,
     "failed": 0
   },
   "crawlerFullEarlierSnapshot": {
-    "passed": 389,
+    "passed": 392,
     "failed": 0,
-    "scope": "Before later Bungotakada and Taketa additions; final milestone run is active."
+    "scope": "Snapshot before latest Taketa literal maps; those changes pass final focused10/10. Final full run active."
   },
-  "currentFullSuite": "running; see /workspace/descending-layouts-20261101/logs/oita-crawler-milestone.log",
+  "currentFullSuite": "running; /workspace/descending-layouts-20261101/logs/oita-crawler-final.log",
   "webTests": {
     "passed": 256,
     "failed": 0
   },
   "lint": "passed",
-  "typecheck": "passed before final small parser/counter additions; final check pending",
+  "typecheck": "passed",
   "nationalVerification": "passed",
   "staticExport": {
     "passed": true,
@@ -35,11 +35,13 @@
     "configRestored": true
   },
   "independentCandidateValidation": {
-    "combinedCandidates": 2452,
-    "exactEvidenceReferences": 6167
+    "combinedCandidates": 2549,
+    "exactEvidenceReferences": 6361
   },
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
-  "externalWrites": 0
+  "externalWrites": 0,
+  "masterReadOnlyObserved": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "productionIndexSha256": "abe6c42fe4d7e2c4b102727dcb3eb17c44cf2dc4d2028ec507962bd726259015"
 }

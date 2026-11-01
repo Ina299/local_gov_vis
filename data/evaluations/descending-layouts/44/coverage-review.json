@@ -1,6 +1,6 @@
 {
   "phase": "in_progress",
-  "coverage": "104 assets inventoried;93 hash-verified cached bodies (92 complete,1 incomplete),11 missing.35 sources remain unsupported pending review, and partially processed education sheets retain actionable layout-review units. No exhaustion claim.",
+  "coverage": "104 source assets inventoried;93 verified cached bodies,92 complete,1 incomplete,11 missing.35 entire source layouts and67 older Taketa sheet-review units remain actionable. R7 Taketa44 actual-year sheets reviewed; specific source-identity/title holds retained. No access-denial claim for unread layouts.",
   "sources": [
     {
       "municipalityCode": "44462",
@@ -3334,7 +3334,7 @@
       "title": "令和3年度竹田市教育行政に関する点検評価報告書（令和2年度事業） (PDFファイル: 2.1MB)",
       "status": "processed",
       "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-      "accepted": 5,
+      "accepted": 27,
       "duplicates": 0,
       "held": 0,
       "fullTextSha256": "18aa9ae64f58194d63af869bc6389f2ad1679110a9d77685cd234d5b63685d05",
@@ -3509,6 +3509,138 @@
             "start": 56358,
             "status": "layout_review",
             "reason": "Complete contiguous title accepted; other rows in this sheet require separate column review."
+          },
+          {
+            "start": 17846,
+            "name": "各学校での読書活動の推進",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 22921,
+            "name": "放課後子ども教室",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 24239,
+            "name": "熟達した教員の授業公開",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 24239,
+            "name": "特別支援教育研修会",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 25224,
+            "name": "施設の維持補修事業",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 25224,
+            "name": "学校施設維持管理計画策定事業",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 26553,
+            "name": "大型掲示装置の整備（電子黒板の整備）",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 29395,
+            "name": "久住学校給食共同調理場運営業務",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 29395,
+            "name": "直入学校給食共同調理場運営業務",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 35482,
+            "name": "竹田郷土学の推進",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 37270,
+            "name": "高齢者大学",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 38814,
+            "name": "人権教育推進指導者養成講座",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 38814,
+            "name": "人権学習学級",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 39966,
+            "name": "人権教育促進のための講師派遣事業",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 42131,
+            "name": "中央公民館教室事業",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 50343,
+            "name": "新歴史資料館建設事業",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 52410,
+            "name": "第３２回佐藤義美賞竹田童謡作詩コンクール",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 52410,
+            "name": "矢崎節夫氏トークイベント",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 55280,
+            "name": "総合運動公園多目的広場トイレ改修",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 55280,
+            "name": "トイレ手洗い自動水栓取替工事",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 55280,
+            "name": "グラウンド照明器具落下防止工事",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 56358,
+            "name": "スポーツ医科学研修講座",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
           }
         ],
         "status": "partial_education_title_columns",
@@ -3526,7 +3658,7 @@
       "title": "令和4年度竹田市教育行政に関する点検評価報告書（令和3年度対象） (PDFファイル: 1.3MB)",
       "status": "processed",
       "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-      "accepted": 11,
+      "accepted": 42,
       "duplicates": 0,
       "held": 0,
       "fullTextSha256": "1ca9a9f888de04a93a555f0b7f457f80031a9b119cde77850e2befe1560994b6",
@@ -3802,6 +3934,192 @@
             "start": 67377,
             "status": "layout_review",
             "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+          },
+          {
+            "start": 17115,
+            "name": "ＩＣＴ活用教育の推進",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 20326,
+            "name": "竹田郷土学の推進",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 23224,
+            "name": "生活の決まりの徹底",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 23224,
+            "name": "保護者に連携・協力を求め生活習慣を整える取組",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 24330,
+            "name": "体力向上１校１実践の取組",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 24330,
+            "name": "体育指導教師の活用及び体育担当者会の開催",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 26298,
+            "name": "幼児教育の質の向上",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 29912,
+            "name": "施設の維持補修事業",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 29912,
+            "name": "洋式トイレの整備",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 29912,
+            "name": "教室LEDの照明整備",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 32540,
+            "name": "竹田中央学校給食共同調理場運営事業",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 32540,
+            "name": "久住学校給食共同調理場運営業務",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 32540,
+            "name": "直入学校給食共同調理場運営業務",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 44414,
+            "name": "学校の働き方改革の推進",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 45170,
+            "name": "教職員の健康診断",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 45170,
+            "name": "教職員のストレスチェック",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 46112,
+            "name": "青少年教育（ジュニアリーダーセミナー）",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 47038,
+            "name": "高齢者大学",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 48457,
+            "name": "人権教育推進指導者養成講座",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 48457,
+            "name": "人権学習学級",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 49560,
+            "name": "人権教育促進のための講師派遣事業",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 51503,
+            "name": "中央公民館教室事業",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 52958,
+            "name": "図書館サービスの充実",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 60450,
+            "name": "全日本高等学校声楽コンクール",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 62092,
+            "name": "第３３回佐藤義美賞竹田童謡作詩コンクール",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 65193,
+            "name": "総合運動公園陸上競技場改修",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 65193,
+            "name": "直入B&G海洋センター体育館照明LED化",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 66300,
+            "name": "第７５回竹田市駅伝競走大会",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 66300,
+            "name": "スポーツ医科学研修講座",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 67377,
+            "name": "第28回B&G直入カップバレーボール大会",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 67377,
+            "name": "第49回竹田市少年少女駅伝ロードレース大会",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
           }
         ],
         "status": "partial_education_title_columns",
@@ -3819,7 +4137,7 @@
       "title": "令和8年度竹田市教育行政に関する点検評価報告書（令和7年度事業） (PDFファイル: 1.6MB)",
       "status": "processed",
       "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-      "accepted": 16,
+      "accepted": 60,
       "duplicates": 0,
       "held": 0,
       "fullTextSha256": "b5df690f8b10fda8c43482c6cfcc560fb552e153a6fa5c7cbb84966ab7138bcf",
@@ -3832,8 +4150,8 @@
         "units": [
           {
             "start": 15869,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 16523,
@@ -3843,8 +4161,8 @@
           },
           {
             "start": 16482,
-            "status": "layout_review",
-            "reason": "Complete contiguous title accepted; other rows in this sheet require separate column review."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 17728,
@@ -3854,8 +4172,8 @@
           },
           {
             "start": 17687,
-            "status": "layout_review",
-            "reason": "Complete contiguous title accepted; other rows in this sheet require separate column review."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 19131,
@@ -3865,8 +4183,8 @@
           },
           {
             "start": 19090,
-            "status": "layout_review",
-            "reason": "Complete contiguous title accepted; other rows in this sheet require separate column review."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 20247,
@@ -3876,8 +4194,8 @@
           },
           {
             "start": 20206,
-            "status": "layout_review",
-            "reason": "Complete contiguous title accepted; other rows in this sheet require separate column review."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 21732,
@@ -3887,8 +4205,8 @@
           },
           {
             "start": 21681,
-            "status": "layout_review",
-            "reason": "Complete contiguous title accepted; other rows in this sheet require separate column review."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 23148,
@@ -3898,8 +4216,8 @@
           },
           {
             "start": 23097,
-            "status": "layout_review",
-            "reason": "Complete contiguous title accepted; other rows in this sheet require separate column review."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 24700,
@@ -3909,8 +4227,8 @@
           },
           {
             "start": 24649,
-            "status": "layout_review",
-            "reason": "Complete contiguous title accepted; other rows in this sheet require separate column review."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 25994,
@@ -3920,13 +4238,13 @@
           },
           {
             "start": 25943,
-            "status": "layout_review",
-            "reason": "Complete contiguous title accepted; other rows in this sheet require separate column review."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 27212,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 28474,
@@ -3936,13 +4254,13 @@
           },
           {
             "start": 28433,
-            "status": "layout_review",
-            "reason": "Complete contiguous title accepted; other rows in this sheet require separate column review."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 29805,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 31111,
@@ -3952,18 +4270,18 @@
           },
           {
             "start": 31070,
-            "status": "layout_review",
-            "reason": "Complete contiguous title accepted; other rows in this sheet require separate column review."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 32519,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 33903,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 35323,
@@ -3973,13 +4291,13 @@
           },
           {
             "start": 35282,
-            "status": "layout_review",
-            "reason": "Complete contiguous title accepted; other rows in this sheet require separate column review."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 36648,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 37825,
@@ -3989,8 +4307,8 @@
           },
           {
             "start": 37784,
-            "status": "layout_review",
-            "reason": "Complete contiguous title accepted; other rows in this sheet require separate column review."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 38590,
@@ -4000,13 +4318,13 @@
           },
           {
             "start": 38549,
-            "status": "layout_review",
-            "reason": "Complete contiguous title accepted; other rows in this sheet require separate column review."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 39606,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 40922,
@@ -4016,58 +4334,58 @@
           },
           {
             "start": 40881,
-            "status": "layout_review",
-            "reason": "Complete contiguous title accepted; other rows in this sheet require separate column review."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 42133,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 43536,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 45310,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 47150,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 48313,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 49271,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 50388,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 51429,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 52773,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 53809,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 55087,
@@ -4077,23 +4395,23 @@
           },
           {
             "start": 55046,
-            "status": "layout_review",
-            "reason": "Complete contiguous title accepted; other rows in this sheet require separate column review."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 56262,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 57226,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 58142,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 59588,
@@ -4103,57 +4421,381 @@
           },
           {
             "start": 59547,
-            "status": "layout_review",
-            "reason": "Complete contiguous title accepted; other rows in this sheet require separate column review."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 61547,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 63960,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 65002,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 66014,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 67597,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 68815,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 69745,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 70617,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
           },
           {
             "start": 71684,
-            "status": "layout_review",
-            "reason": "No reviewed complete title in pre-overview span; title fragments may be interleaved later in the sheet. Not an access denial."
+            "status": "reviewed_sheet",
+            "reason": "All R7 activity sheets reviewed; unresolved identities and reversed title fragments are recorded separately."
+          },
+          {
+            "start": 36648,
+            "status": "individual_identity_hold",
+            "reason": "施設の維持/補修事業の名称列が逆順で抽出され、結合の行座標が未保存。洋式トイレは令和7年度に未実施と明記されるため当年度実施レコードにしない。"
+          },
+          {
+            "start": 39606,
+            "status": "individual_identity_hold",
+            "reason": "学校再編の協議・方向性の施策説明。将来の学校統合を当年度の完了事業にしない。"
+          },
+          {
+            "start": 43536,
+            "status": "individual_identity_hold",
+            "reason": "未然防止対策・早期発見等の汎用名称が隣接する不登校/貧困対策にも反復。独立した事業の正式名称・識別子が不足。"
+          },
+          {
+            "start": 45310,
+            "status": "individual_identity_hold",
+            "reason": "未然防止対策・早期対応・復帰支援という機能別項目。いじめ対策との同名年度衝突を解消する正式事業識別子が不足。"
+          },
+          {
+            "start": 47150,
+            "status": "individual_identity_hold",
+            "reason": "早期発見・関係機関連携という機能説明。同名のいじめ/不登校対策との独立事業同一性が未確定。"
+          },
+          {
+            "start": 48313,
+            "status": "individual_identity_hold",
+            "reason": "家庭や地域との連携は次票にも反復する汎用名称。防災教育との親子関係・独立事業同一性が未確定。"
+          },
+          {
+            "start": 49271,
+            "status": "individual_identity_hold",
+            "reason": "家庭や地域との連携は前票に同名掲載。複数事業に分ける正式識別根拠が不足。"
+          },
+          {
+            "start": 57226,
+            "status": "individual_identity_hold",
+            "reason": "家庭教育事/業が名称列と他列見出しに分離し逆順。原文行座標又は完全な当年度名称欄での確認が必要。"
+          },
+          {
+            "start": 61547,
+            "status": "individual_identity_hold",
+            "reason": "岡城跡保存整備の名称断片が逆順、出前授業等は複数の教育普及活動をまとめた機能名。独立事業の名称境界が未確定。"
+          },
+          {
+            "start": 67597,
+            "status": "individual_identity_hold",
+            "reason": "義美記念館/運営管理が逆順。運営事業名は結合せず、明記された童謡作詩コンクールだけを採用。"
+          },
+          {
+            "start": 68815,
+            "status": "individual_identity_hold",
+            "reason": "各種教室の開催は集合名で個別の未記名教室を特定できない。明記された祭・大会のみ採用。"
+          },
+          {
+            "start": 71684,
+            "status": "individual_identity_hold",
+            "reason": "大会ごとの救護用品/AED/医師看護師派遣をまとめた緊急時体制整備。独立した事業名・大会別対応の識別子がない。"
+          },
+          {
+            "start": 27212,
+            "name": "生活の決まりの徹底",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 27212,
+            "name": "保護者に連携・協力を求め生活習慣を整える取組",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 29805,
+            "name": "食育の推進",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 29805,
+            "name": "歯の健康指導の取組",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 32519,
+            "name": "専門家派遣を活用した幼児教育支援体制強化事業",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 33903,
+            "name": "特別支援教育支援体制整備・相談機能強化",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 36648,
+            "name": "教室LEDの照明整備",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 42133,
+            "name": "市内高等学校との連携支援事業",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 48313,
+            "name": "防災教育の充実",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 49271,
+            "name": "防災対策の推進",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 50388,
+            "name": "学校の働き方改革の推進",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 51429,
+            "name": "学期ごとの竹田市立学校職員安全衛生推進者研修",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 51429,
+            "name": "教職員の健康診断",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 51429,
+            "name": "ストレスチェック",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 52773,
+            "name": "青少年教育（ジュニアリーダーセミナー）",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 53809,
+            "name": "竹田市民教養大学",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 56262,
+            "name": "人権教育促進のための講師派遣事業",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 58142,
+            "name": "公民館分館教室事業",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 58142,
+            "name": "中央公民館教室事業",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 61547,
+            "name": "岡城跡石垣の可視化",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 63960,
+            "name": "文化財保存活用地域計画の推進",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 68815,
+            "name": "県民すこやかスポーツ祭",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 68815,
+            "name": "竹田市バスケットボール大会",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 68815,
+            "name": "竹田スポレク杯",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 70617,
+            "name": "第２１回市民球技大会",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 70617,
+            "name": "竹田市ドリームゲームズ",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 70617,
+            "name": "全国中学校ソフトボール大会",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 70617,
+            "name": "第7８回県民スポーツ大会",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 70617,
+            "name": "第7９回竹田市駅伝競走大会",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 70617,
+            "name": "第3７回岡の里名水マラソン大会",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 70617,
+            "name": "ソフトボール教室",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 70617,
+            "name": "第3２回Ｂ＆Ｇ直入カップバレーボール大会",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 55046,
+            "name": "人権学習学級",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 65002,
+            "name": "「なかむら葉子作品」展",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 65002,
+            "name": "「予山中人也」展",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 65002,
+            "name": "「中川久清の時代と登山大名」展",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 65002,
+            "name": "「由学館コレクション」展",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 65002,
+            "name": "「追憶の岡城」展",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 65002,
+            "name": "「阿南英行作品」展",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 65002,
+            "name": "「早川和作品」展",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 66014,
+            "name": "瀧廉太郎記念全日本高等学校声楽コンクール",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 67597,
+            "name": "第３７回佐藤義美賞竹田童謡作詩コンクール",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 69745,
+            "name": "Ｒ７野球場ラバーフェンス等改修工事（Ⅰ期）",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
+          },
+          {
+            "start": 69745,
+            "name": "Ｒ７久住総合運動公園屋内運動場解体工事",
+            "status": "supported",
+            "reason": "Reviewed named activity within complete actual-year sheet; full source and bounded sheet hashes match"
           }
         ],
-        "status": "partial_education_title_columns",
-        "reason": "Exact complete titles before overview column only; remaining interleaved rows still require column-boundary review.",
+        "status": "reviewed_r7_activity_sheets",
+        "reason": "All 44 actual-year activity sheets plus the blank example reviewed; literal names accepted, unresolved identities and title boundaries held individually.",
         "proofs": [
           "(令和７年度対象)"
         ]
