@@ -1,8 +1,8 @@
 {
   "base": "186aaaa64787a90f8e7c2a373e62b079695a5aa9",
-  "status": "1016 candidate increment fully validated; Hiroshima phase remains open",
+  "status": "1117 candidate increment fully validated; Hiroshima phase remains open",
   "cohort": "34: 34545 to 34100, excludes34214 and all53 recent-master municipalities",
-  "candidateRecords": 1016,
+  "candidateRecords": 1117,
   "candidateMunicipalities": 15,
   "completeSourcesMapped": 109,
   "completeSourcesTotal": 109,
@@ -10,27 +10,27 @@
   "prefixSourcesMapped": 1,
   "missingBodies": 20,
   "unmappedCompleteSources": 0,
-  "remaining": "101 additional externally staged proposals await runtime/dedup/full validation. Source unit review remains open;20 missing bodies and2 absent prefix tails are distinct input blockers. No acquisition.",
-  "newInThisContinuation": 104,
+  "remaining": "24 additional externally staged proposals await runtime/dedup/full validation. Source unit review remains open;20 missing bodies and2 absent prefix tails are distinct input blockers. No acquisition.",
+  "newInThisContinuation": 101,
   "productionRecordsAdded": 0,
   "externalWrites": 0,
   "municipalRequests": 0,
   "allFullyValidatedThroughYamaguchi": 11327,
-  "cumulativeQuoteChecked": 12343,
-  "cumulativeQuotes": 29818,
+  "cumulativeQuoteChecked": 12444,
+  "cumulativeQuotes": 30121,
   "excludedFromTotals": [
     "Okinawa1084",
     "initial93"
   ],
   "tests": {
-    "focused": "26/26",
-    "crawler": "532/532",
+    "focused": "31/31",
+    "crawler": "537/537",
     "web": "256/256",
     "typecheck": "pass",
     "lint": "pass with existing font warning",
     "national": "500 municipalities /92038 records, unchanged index",
     "static": "109 pages at /local_gov_vis; temporary optimizeFonts=false restored"
   },
-  "additionalExternalProposals": 101,
-  "allFullyValidatedIncludingThisIncrement": 12343
+  "additionalExternalProposals": 24,
+  "allFullyValidatedIncludingThisIncrement": 12444
 }

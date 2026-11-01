@@ -49,7 +49,7 @@ test('Takehara excludes ambiguous list-to-sheet identities and prior-year librar
 });
 test('Onomichi coverage additions preserve explicit FY and do not repair corrupted OCR title suffixes',()=>{
  const ps=reviewHiroshima(source('eeb6f9bb3c2f44b3d04b01fc','34205'))!.projects;
- assert.equal(ps.length,6);assert.equal(ps[0].projectName,'尾道市美術展事業');assert.ok(ps.every(p=>p.evaluatedFiscalYear===2014));
+ assert.equal(ps.length,10);assert.equal(ps[0].projectName,'尾道市美術展事業');assert.ok(ps.every(p=>p.evaluatedFiscalYear===2014));
  assert.ok(!ps[0].projectName.includes('実路'));assert.equal(ps[0].department,null);
  const prior=reviewHiroshima(source('e299c6de2073b91f7effd68f','34205'))!.projects;
  assert.equal(prior.length,5);assert.ok(prior.some(p=>p.projectName==='特別支援教育推進事業'));
@@ -193,4 +193,45 @@ test('Hiroshima city keeps explicit named grant and facility units separate from
  assert.ok(next.some(p=>p.projectName==='北部地区学校給食センターの整備'));
  assert.ok(next.some(p=>p.projectName==='ひろしまＬＭＯ一括交付金'));
  for(const ps of [old,next])assert.ok(!ps.some(p=>p.projectName==='学校給食の充実'||p.projectName==='下水道事業の経営改善'));
+});
+
+test('Saka signboard completion binds the assessed year and does not turn the next-year reference into a new project',()=>{
+ const name='町内史跡案内看板事業';
+ const ps=reviewHiroshima(source('7bf6d509b4c79f59ba41295c','34309'))!.projects;
+ const p=ps.find(p=>p.projectName===name)!;assert.ok(p);assert.equal(p.evaluatedFiscalYear,2021);
+ assert.ok(p.evidence.some(e=>e.rawText?.includes('今年度終了')));
+ assert.ok(!reviewHiroshima(source('7165760cfcafcf8bc68fab39','34309'))!.projects.some(p=>p.projectName===name));
+});
+test('Onomichi operational names respect blank repeated headings and keep separate standard tests and school support',()=>{
+ for(const [id,y] of [['45399a74fe0fd15a9b0b68f2',2010],['88c8acb3dd563a208b7035b8',2011]] as const){
+  const ps=reviewHiroshima(source(id,'34205'))!.projects;
+  for(const n of ['標準学力検査','学校選択制度を充実する取組','尾道教育研究会を支援する取組','図書館資料の整備・充実'])assert.equal(ps.filter(p=>p.projectName===n&&p.evaluatedFiscalYear===y).length,1);
+  assert.ok(!ps.some(p=>p.projectName==='基礎的・基本的な知識・技能の習得'||p.projectName==='学識経験者の意見等'));
+ }
+ const ps=reviewHiroshima(source('88c8acb3dd563a208b7035b8','34205'))!.projects;
+ assert.ok(ps.some(p=>p.projectName==='中学校学力向上対策事業'));
+ assert.ok(!ps.some(p=>p.projectName==='学校共同事務の効率的な運用を図る取組'));
+});
+test('Onomichi legacy cultural and repair subunits do not duplicate an existing parent or invent shared costs',()=>{
+ for(const [id,y] of [['45399a74fe0fd15a9b0b68f2',2010],['88c8acb3dd563a208b7035b8',2011]] as const){
+  const ps=reviewHiroshima(source(id,'34205'))!.projects;
+  assert.ok(ps.some(p=>p.projectName===`せとだパリ祭 ${y}`));
+  assert.ok(ps.some(p=>p.projectName==='東尾道市民スポーツ広場整備'));
+  assert.ok(!ps.some(p=>p.projectName==='仲道郁代ピアノコンサート'||p.projectName==='その他、既存の社会体育施設等の修繕'));
+  assert.ok(ps.every(p=>p.amounts.length===0&&p.ratings.length===0&&p.indicators.length===0));
+ }
+ assert.ok(!reviewHiroshima(source('88c8acb3dd563a208b7035b8','34205'))!.projects.some(p=>p.projectName==='秘書検定講座'));
+});
+test('Hiroshima city annual service results do not backdate online appointments or split application counts',()=>{
+ const old=reviewHiroshima(source('d23c00cd3bb2aed6ea16812e','34100'))!.projects;
+ const next=reviewHiroshima(source('17b9ab9bcd52af6de179e1e2','34100'))!.projects;
+ for(const n of ['申請書作成支援システムの導入','広島市オンライン手続ポータルサイト'])assert.ok(old.some(p=>p.projectName===n));
+ const name='マイナンバーカード関連業務のオンライン来庁予約';assert.ok(next.some(p=>p.projectName===name));assert.ok(!old.some(p=>p.projectName===name));
+ for(const ps of [old,next])assert.equal(ps.filter(p=>p.projectName==='相談支援包括化推進員の配置').length,1);
+});
+test('Onomichi OCR followup uses readable names and bounds the current sheet rather than repairing garbled names',()=>{
+ const ps=reviewHiroshima(source('eeb6f9bb3c2f44b3d04b01fc','34205'))!.projects;
+ for(const n of ['地域教育支援活動促進事業','市民音楽芸能祭','けんみん文化祭','囲碁のまちづくり活動の支援'])assert.equal(ps.filter(p=>p.projectName===n).length,1);
+ assert.ok(!ps.some(p=>p.projectName==='新人演奏会'||p.projectName==='展覧会企画運営事業'));
+ assert.ok(ps.every(p=>p.evaluatedFiscalYear===2014));
 });
