@@ -8569,5 +8569,3231 @@ export const kumamotoRows = [
         "reason": "Repeated business number/title within annual book; retained once, departmental amounts not summed."
       }
     ]
+  },
+  {
+    "sourceId": "c4c2d75622def90c98878c4e",
+    "municipalityCode": "43368",
+    "year": null,
+    "proof": "事業概要：次世代人材・地域事業創出によるまちづくり事業",
+    "fullTextSha256": "8f542c64000b920407fae0194d6cd0d7dcbd893be63373e2ad3823735481e4c6",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "事業概要：次世代人材・地域事業創出によるまちづくり事業\n申請者\n\n熊本県長洲町\n\n初回採択回\n\n令和８年１月募集\n\n事業計画期間\n\nR8-R10年度\n\n期間中の総事業費\n（カッコ内はR8年度事業費）\n\n14,000千円\n（2,000千円）\n\n事業分野（大項目）\n\n地場産業支援関連事業\n\n事業分野\n\nソフト\n事業\n\n目的・効果\n\n本事業は、長洲町における創業・事業継続の停滞を解消するため、創業者数の増加を最重要目標として、地域内で事業を担う人材\nを育成・輩出し、持続的な地域経済の形成を目指す。創業希望者や既存事業者が事業構想力・経営力・実行力を体系的に習得\nできる環境を整備し、【オンラインローカルビジネス大学（ロカ大）事業】による実践的な人材育成、特定創業支援事業による創業前\n後の伴走支援と、【DX推進・アクセラレーション事業】による業務効率化・デジタル活用支援を連動させることで、創業の実行率を高め、\n新たな創業者の継続的な輩出と、新規事業創出や既存事業の付加価値向上を促進する。\n\n事業概要・\n主な経費\n※経費内訳はR8年度事業費\n\n主なKPI\n※カッコ内の数値は実施計画におけ\nる「KPI増加分の累計」の目標値\n\n✓\n\n拠点整\n備事業\n\nインフラ\n整備事業\n\n【事業概要】\nローカルビジネス大学：実戦的アウトプット重視の6か月プログラム\n経営やDXなど20種類以上の動画教材で24時間いつでもインプットが\n可能。月1回のリアルな「壁打ち」や、月8回以上のオンライン相談会と\nいった豊富なアウトプット機会を提供。学んだ知識を即座に実務へ活か\nし、6か月間で5名の受講者が自走できる事業改善・実践力を養う。\n【ソフト事業】\nオンライン型ローカルビジネス大学の開校・運営(委託料2,000千円)\n経営・DX等をテーマとしたオンライン学習コンテンツによる体系的なイ\nンプット機会の提供。定期的なオンライン相談会や対話型セッションに\nよる実践的なアウトプット機会の創出。受講者ごとの事業課題に応じた\nメンタリングおよび継続的な伴走支援。事業改善や創業に向けた行動\n計画の策定から実行までを一体的に支援。これらにより、新規創業者\nの創出および既存事業の高度化につなげる。\n①創業者数(6事業者)\n②既存事業者の成長・経営力向上(12事業者)\n③実戦的な経営基盤を確立し「自走」する事業者数(12事業者)\n④町内事業者のデジタル活用浸透率(40％)\n⑤伴走支援によるDX実戦力の向上(5事業者)\n\nURL\n※交付金の具体的使途・実\n施体制・効果検証の結果及\nび改善方策への反映が記載\nされているURL\n\nhttps://www.town.nagasu.lg.jp/so\nshiki/machizukuri/kikaku/1776648\n9111901508/",
+        "reason": "Adopted project plan, not completed evaluation: multiyear planned costs and target KPIs cannot establish annual implementation or actual expenditures. Require execution/evaluation evidence before annual record creation."
+      }
+    ]
+  },
+  {
+    "sourceId": "a1eba989d1e2110528eb6c20",
+    "municipalityCode": "43368",
+    "year": null,
+    "proof": "事業概要：女性の活躍促進とまちの魅力向上による生き生きと活力あるまちづくり事業",
+    "fullTextSha256": "0eb0e98d2b9ee2a9e75d252b40077c738f6c2ebb3f810e462b8c17d8bc090b2a",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "事業概要：女性の活躍促進とまちの魅力向上による生き生きと活力あるまちづくり事業\n申請者\n\n熊本県長洲町\n\n初回採択回\n\n事業計画期間\n\nR7-R9年度\n\n期間中の総事業費\nインフラ\n整備事業\n\n（カッコ内はR8年度事業費）\n\n40,084千円\n（13,642千円）\n\n事業分野（大項目）\n\n豊かな生活環境分野\n\n事業分野\n\nソフト\n事業\n\n目的・効果\n\n・人口減少によりまちの活力喪失が危惧される中にあって、町の魅力発信による関係人口の創出、移住による地域経済の活性化を図\nる。・女性の就労に向けたスキルアップ支援・就労支援を通して、自己実現ができる魅力的な雇用を創出するとともに、子育て支援に係\nる施策の展開を通して女性にとって暮らしやすいまちを目指す。\n\n✓\n\n拠点整\n備事業\n\n令和７年度第１回募集\n\n【事業概要】\n\nスキリング事業等を通して、女性の就労に向けた学びの場を提供し、\n柔軟な働き方に係るスキルの習得や、収入確保による生活の安定等\nに係る創業に向けた支援を行い、労働人口の流出抑止を図る。また、\nシティプロモーション事業による町の魅力を広く発信し、関係人口づくり\nや町への移住・定住の促進を図ることで、人口減少の歯止めに資する。\n\n事業概要・\n主な経費\n※経費内訳はR8年度事業費\n\n主なKPI\n※カッコ内の数値は実施計画におけ\nる「KPI増加分の累計」の目標値\n\n【ソフト事業経費】\n・スキリング事業（委託料） 1,472千円\n女性を対象としたオンラインによるホームページや動画制作等に係るデジタルス\nキルの習得を目指す。\n・創業等スタートアップ支援事業（報償費） 120千円\n経営の基礎知識や経営戦略、収支計画等に係る創業セミナー等を開催する。\n・女性の活躍応援事業（報償費） 50千円\n在宅ワーク等の柔軟な働き方に関するセミナーの開催等を通して、安定した就\n労と家事、育児の両立を図るための子育て支援を実施する。\n・シティプロモーション事業（委託料） 12,000千円\nふるさと納税寄附等に対し、町観光スポット情報の配信等による関係人口拡\n大を図る。\n\n①女性の創業件数 （＋3件）\n②スタートアップ支援事業への参加者数（＋7人）\n③シティプロモーション活動対象者数（＋2,420人）\n④事業への参加によって、創業意識が向上した求職者の割合（＋40％）\n\nURL\n※交付金の具体的使途・実\n施体制・効果検証の結果及\nび改善方策への反映が記載\nされているURL\n\nhttps://www.town.nagasu.lg.jp/so\nshiki/machizukuri/kikaku/1776648\n9111901508/",
+        "reason": "Adopted project plan, not completed evaluation: multiyear planned costs and target KPIs cannot establish annual implementation or actual expenditures. Require execution/evaluation evidence before annual record creation."
+      }
+    ]
+  },
+  {
+    "sourceId": "c5ff245e7b122260152cf77f",
+    "municipalityCode": "43368",
+    "year": null,
+    "proof": "事業概要【多世代ごちゃまぜ、こどもまんなかプロジェクト推進拠点整備事業】",
+    "fullTextSha256": "b68b477a6fa6f5ad52c2bc669386ada936b962709d7cf5549ec0bc662c7c5f9b",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "事業概要【多世代ごちゃまぜ、こどもまんなかプロジェクト推進拠点整備事業】\n申請者\n\n熊本県長洲町\n\n採択回\n\n令和６年度第１回募集\n\n事業計画期間\n\nR６年度\n\n事業タイプ・類型\n\n地方創生拠点整備タイプ（補正予算分）\n\n目的（効果）\n\n天候に左右されることなく子どもたちが思いっきり遊ぶことのできる施設や、地域の多世代が交流できる場の整備等\nを通して、「まちの賑わい」の創出、さらには町外からの「人の流れ」へとつながることでの定住・移住施策を推進する。\n\n整備内容・\n利活用方策\n\n「長洲町地域福祉センター」の施設改修により、子育て支\n援・多世代交流を促進するとともに、IoT機器等のデジタル\n技術活用により、施設の魅力向上及び集客数の増加を図\nる。\nまた、当該施設の近隣に点在する小学校や子育て世帯の\nための地域優良賃貸住宅、フットサルコート、「認定こども\n園」等の各施設との相乗効果による周辺エリアの魅力向上\n等による移住・定住の推進を図る。\n・施設改修工事費：177,000千円\n・屋内遊具整備費等：34,000千円\n・IoT機器設置費等：10,000千円\n\nKPI\n\n①UIJターン数（当該年度目標値：8人）\n②町施策を利用して移住した子育て世帯数\n（当該年度目標値：－世帯）\n③子育て支援に対して満足していると答えた人の割合\n（当該年度目標値：－％）\n④施設の利用者数（当該年度目標値：5,565人）\n\n交付対象事業費\n\n拠点補正\n\n事業分野\n\n関連URL\n\n221,000千円\n生涯活躍のまち分野\n\nhttps://www.town.nagasu.lg.jp/s\noshiki/machizukuri/kikaku/17766\n489111901508/",
+        "reason": "Adopted project plan, not completed evaluation: multiyear planned costs and target KPIs cannot establish annual implementation or actual expenditures. Require execution/evaluation evidence before annual record creation."
+      }
+    ]
+  },
+  {
+    "sourceId": "159dbbfecfe6b24304aa9358",
+    "municipalityCode": "43368",
+    "year": null,
+    "proof": "事業概要【女性の活躍促進とまちの魅力向上による生き生きと活力あるまちづくり事業】",
+    "fullTextSha256": "45793f77fc5511af38b8a1f70185a2631ada53a3488989c014b83969b590b03e",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "事業概要【女性の活躍促進とまちの魅力向上による生き生きと活力あるまちづくり事業】\n申請者\n\n熊本県長洲町\n\n初回採択回\n\n事業計画期間\n\nR7-R9年度\n\n期間中の総事業費\n\n経費の類型\n\n目的（効果）\n\n事業概要・\n主な経費\n※経費内訳はR7年度事業費\n\nKPI\n※カッコ内の数値は最終事業\n年度までの「KPI増加分の累\n計」の目標値\n\nソフト\n事業\n\n✓\n\n拠点整\n備事業\n\n令和７年度第１回募集\n\n（カッコ内はR7年度事業費）\n\n39,056千円\n（12,800千円）\n\n事業分野\n\n働き方改革分野\n\nインフラ\n整備事業\n\n• 人口減少によりまちの活力喪失が危惧される中にあって、町の魅力発信による関係人口の創出、移住による地\n域経済の活性化を図る。\n• 女性の就労に向けたスキルアップ支援・就労支援を通して、自己実現ができる魅力的な雇用を創出するとともに、\n子育て支援に係る施策の展開を通して女性にとって暮らしやすいまちを目指す。\n\n【ソフト事業経費】\n・スキリング事業（委託料） 660千円\n・創業等スタートアップ支援事業（報償費・委託料） 140千円\n・シティプロモーション事業（委託料） 12,000千円\n\n①女性の創業件数 （＋3件）\n②スタートアップ支援事業への参加者数（＋7人）\n③シティプロモーション活動対象者数（＋2,420人）\n④事業への参加によって、創業意識が向上した求職者\nの割合（＋40％）\n\n関連URL\n\nhttps://www.town.nagasu.lg.jp/so\nshiki/machizukuri/kikaku/1776648\n9111901508/",
+        "reason": "Adopted project plan, not completed evaluation: multiyear planned costs and target KPIs cannot establish annual implementation or actual expenditures. Require execution/evaluation evidence before annual record creation."
+      }
+    ]
+  },
+  {
+    "sourceId": "c908ef3ca96612fb56290d49",
+    "municipalityCode": "43367",
+    "year": null,
+    "proof": "108,267",
+    "fullTextSha256": "f51a1639a6ff6492f06c3b87f9b4bd699549908998cf5522bcb204fc63df6787",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "1\n25\n\n7\n\n18\n\n314\n\n2.1.9.19\n\n1\n2\n3\n\n25\n100%\n33%\n\n45\n\n36\n\n36\n\n38\n\n95%\n\n59\n\n48\n\n48\n\n45\n\n107%\n\n108,267\n\n108,086\n\n99\n\n99\n\n90\n\n107,000\n\n107,000\n\n107,000\n\n96,000\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n107,000\n\n107,000\n\n107,000\n\n96,000\n\n119,474\n\n\n2\n25\n\n7\n\n18\n\n313\n\n1\n2\n3\n\n100,000\n\n50,000\n\n50,000\n\n179,675\n\n359%\n\n9\n\n8\n\n9\n\n9\n\n100%\n\n45\n\n36\n\n36\n\n38\n\n106%\n\n76\n\n35\n\n35\n\n66\n\n189%\n\n506,873\n\n539,030\n\n99%\n\n93%\n\n502,135\n96%\n\n500,000\n\n500,000\n\n480,680\n\n500,000\n\n500,000\n\n500,000\n\n480,680\n\n500,000\ne\n\n\n3\n25\n\n8\n\n1\n\n314\n\n8.1.2.19\n\n1\n2\n3\n\n8\n110\n\n9\n\n110\n\n140\n\n140\n\n100%\n\n2,226,690\n\n1,788,670\n\n2,202,310\n\n100%\n\n100%\n\n100%\n\n1,781,830\n\n2,226,690\n\n1,788,670\n\n2,202,310\n\n1,781,830\n\n2,226,690\n\n1,788,670\n\n2,202,310\n\n1,781,830\n\n100%\n\n\n4\n25\n\n7\n\n24\n\n222\n\n2.1.10.19\n\n1\n2\n3\n\n100%\n\n25%\n\n242,242\n\n262,102\n\n315,010\n\n49,500\n\n49,500\n\n49,500\n\n49,500\n\n49,500\n\n49,500\n\n49,500\n\n49,500\n\n\n5\n25\n\n7\n\n24\n\n221\n\n1\n2\n3\n\n101.80%\n\n347,000\n\n381,800\n\n39\n\n36\n\n381,800\n36\n\n137,000\n\n137,000\n\n137,000\n\n137,000\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n137,000\n\n137,000\n\n137,000\n\n137,000",
+        "reason": "Cached extraction contains numeric cells only; Japanese project names, year labels and column labels are absent. Need original readable text/coordinates to bind any numbers; no municipal fetch authorized."
+      }
+    ]
+  },
+  {
+    "sourceId": "533b33aa7ee973f0d7cc699c",
+    "municipalityCode": "43367",
+    "year": null,
+    "proof": "平成25年度",
+    "fullTextSha256": "e41d778c353646ae9a89b6ab19433f82b1759e2504910d94dc5f73500e354301",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "平成25年度\n方針\n\n1 現状維持\n\n事務事業評価結果（今後の基本方針）\n考え方\n\n事業件数全体割\n\n事業目的から見て成果が上がっており、執行状況も\n問題等がないため、現状どおり事業を継続すること\nが妥当であるもの\n\n31\n\n2 改善して継続\n\n52.54%\n\n―\n\n事業目的の妥当性が認められるが、状況の変化に\n利用ニーズの再把握 伴い変動をきたしたものについて検証し、二ーズを改\nめて把握すべきもの\n\n5\n\n8.47%\n\n補助金拡大\n\n事業目的の妥当性が認められ、一定の成果が上\nがっており、今後も事業の拡大・充実を図るべきもの\n\n1\n\n1.69%\n\n補助事業の統合等\n\n事業目的が類似する他の事業と整理・統合を図るこ\nとによって、さらに事業効果が図られると判断された\nもの\n\n6\n\n10.17%\n\n補助事業の見直し\n\n事業目的の妥当性は認められるが、事業執行の手\n法・事業内容の変更などによって、さらに向上を目指\nすべきと判断されたもの\n\n0\n\n0.00%\n\n補助金縮小\n\n事業目的の妥当性は認められ、一定の効果はあ\nがっているが、コスト削減が必要なもの、サービスが\n過剰になり適正化が必要なもの\n\n7\n\n11.86%\n\nその他（隔年対応等）\n\n事業目的の妥当性は認められるが、毎年の事業とし\nては必要でないもの\n\n0\n\n0.00%\n\n3 終期設定\n\n事業目的や計画期間が明確であり、事業を終息させ\nるもの\n\n2\n\n3.39%\n\n4 廃止\n\n次年度より事業を廃止すべきもの\n\n7\n\n11.86%\n\n5 休止\n\n次年度より事業を休止すべきもの\n\n0\n\n0.00%\n100.00%",
+        "reason": "Aggregate evaluation classification counts and definitions, no individual business names. Cannot turn 59 aggregate counts into business identities."
+      }
+    ]
+  },
+  {
+    "sourceId": "9ace58f243a84d61ce93d4fa",
+    "municipalityCode": "43367",
+    "year": null,
+    "proof": "平成２５年度 事務事業評価(補助金）の対象事業の評価結果について",
+    "fullTextSha256": "0e97cfb473fc65d12896433227956992d397dcd5ad56737f1980475a09eb298b",
+    "rows": [
+      {
+        "name": "交通安全協議会補助",
+        "start": 79,
+        "raw": "交通安全協議会 交通安全協議\n補助",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "地域安全活動助成",
+        "start": 174,
+        "raw": "地域安全活動助 地域安全活動\n成",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "消防団補助",
+        "start": 824,
+        "raw": "消防団補助",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "たばこ販売組合補助",
+        "start": 360,
+        "raw": "たばこ販売組合 たばこ売上促進 たばこ販売組\n補助",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "社会福祉協議会補助",
+        "start": 452,
+        "raw": "社会福祉協議会 社会福祉協議\n補助",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "遺族会補助",
+        "start": 547,
+        "raw": "遺族会補助",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "母子・寡婦福祉協議会補助",
+        "start": 610,
+        "raw": "母子・寡婦福祉 母子・寡婦福祉\n寡婦福祉協議\n協議会補助",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "身体障害者福祉協議会補助",
+        "start": 709,
+        "raw": "身体障害者福祉\n祉協議会補助\n協議会補助",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "精神障害者家族会補助",
+        "start": 795,
+        "raw": "精神障害者家族 精神障害者家\n会補助",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "部落解放同盟支部補助",
+        "start": 903,
+        "raw": "部落解放同盟支 部落解放同盟\n部補助",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "敬老事業実施団体への補助",
+        "start": 933,
+        "raw": "敬老事業実施団\n敬老会補助金\n体への補助",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "老人クラブ活動費補助",
+        "start": 969,
+        "raw": "老人クラブ活動\n費補助",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "元気宅配便支援事業",
+        "start": 1469,
+        "raw": "元気宅配便支援 活き活き輝きボ 南関町老人ク\n改善して継続\n改善して継続\nランティア活動 ラブ連合会\n（統合）\n事業",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "シルバー人材センター補助",
+        "start": 1553,
+        "raw": "シルバー人材セ シルバー人材セ\nバー人材セン 現状維持\n現状維持 いて見直しを視野に入れた検討\nンター補助",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "有害鳥獣捕獲補助",
+        "start": 2566,
+        "raw": "有害鳥獣捕獲補 有害鳥獣捕獲\n助",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "担い手育成総合支援",
+        "start": 2713,
+        "raw": "担い手育成総合\n支援",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "水田農業推進事業",
+        "start": 2805,
+        "raw": "水田農業推進事\n業",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "緑の少年団補助",
+        "start": 2882,
+        "raw": "緑の少年団補助",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "土地改良区事業",
+        "start": 2944,
+        "raw": "土地改良区事業",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "商工会補助",
+        "start": 3060,
+        "raw": "商工会補助",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "TMO事業補助",
+        "start": 3136,
+        "raw": "TMO事業補助",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "婦人会研修費補助",
+        "start": 4198,
+        "raw": "婦人会研修費補 婦人会研修費\n助",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "民芸保存会補助",
+        "start": 4286,
+        "raw": "民芸保存会補助",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "子ども会連合会補助",
+        "start": 4372,
+        "raw": "子ども会連合会 子ども会連合会 南関町子ども\n補助",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      },
+      {
+        "name": "町体育協会補助",
+        "start": 4724,
+        "raw": "町体育協会補助",
+        "note": "平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。"
+      }
+    ],
+    "holds": [
+      {
+        "start": 2315,
+        "raw": "南関町産業経済費補助金",
+        "reason": "Rows19–32 give beneficiary organisations under merged programme cells, not separate business titles. Do not invent one project per beneficiary."
+      },
+      {
+        "start": 3895,
+        "raw": "総合的な学習事",
+        "reason": "Rows48–52 share a title across school beneficiaries; distinct project identity versus beneficiary breakdown unresolved."
+      },
+      {
+        "start": 3389,
+        "raw": "まつり補助",
+        "reason": "Repeated generic festival title has different grant names; relation to existing projects requires identity evidence, no name-based double counting."
+      },
+      {
+        "start": 834,
+        "raw": "自衛隊父兄会",
+        "reason": "Other remaining interleaved title/subsidy/organisation columns cannot be safely separated from cached text alone; ratings and costs unassigned."
+      }
+    ],
+    "evaluationYear": 2013
+  },
+  {
+    "sourceId": "4ae74d4d13d038889d95641a",
+    "municipalityCode": "43364",
+    "year": 2023,
+    "proof": "R5.12.1",
+    "fullTextSha256": "192471d424e8581349923cf362928aec000a0a4661e02067a2519593a32cef68",
+    "rows": [
+      {
+        "name": "物価高騰対応重点支援臨時給付金",
+        "start": 316,
+        "raw": "物価高騰対応重\n1 点支援臨時給付\n金",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。",
+        "yearProof": "R6.3.31"
+      },
+      {
+        "name": "町内小中学生の給食費補助事業",
+        "start": 2166,
+        "raw": "給食費補助事業",
+        "note": "同一表の町内小中学生の給食費補助事業。始終期R5.4.1–R6.3.31のみを年度根拠とし、金額は列混在のため不採用。",
+        "yearProof": "R5.4.1"
+      }
+    ],
+    "holds": [
+      {
+        "start": 702,
+        "raw": "住民税均等割の",
+        "reason": "Remaining benefit rows span fiscal years or duplicate parent/addition/cumulative eligibility components in FY2024 book; precise annual identity unresolved."
+      },
+      {
+        "start": 2002,
+        "raw": "ＬＰガス世帯支",
+        "reason": "Title fragments and other row labels interleaved; complete title/column boundary needs coordinate evidence, no inferred concatenation."
+      }
+    ]
+  },
+  {
+    "sourceId": "d2b91e33c6420ee2f805d27e",
+    "municipalityCode": "43364",
+    "year": 2024,
+    "proof": "R6.10.1",
+    "fullTextSha256": "e2ed04227e5170d72bfa9f5e635be1a69a076f5d5373d19b8af06609486b2675",
+    "rows": [
+      {
+        "name": "玉東町内買物券事業（物価高騰対応）",
+        "start": 2033,
+        "raw": "玉東町内買物券事業\n（物価高騰対応）",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。",
+        "yearProof": "R7.3.31"
+      }
+    ],
+    "holds": [
+      {
+        "start": 366,
+        "raw": "R5、R6の累計給付金額",
+        "reason": "Benefit rows combine prior/current year components also printed in previous book; annual business identity not safely separated, no sums."
+      },
+      {
+        "start": 1612,
+        "raw": "R7.12.31",
+        "reason": "FY2024-labelled benefit runs through FY2025; execution-year allocation absent."
+      },
+      {
+        "start": 2687,
+        "raw": "R8.2.12",
+        "reason": "LP-gas grant crosses FY2024–2025 and repeats earlier source fragments; annual identity held."
+      }
+    ]
+  },
+  {
+    "sourceId": "675318a6ecc8004d1a29f33e",
+    "municipalityCode": "43348",
+    "year": 2024,
+    "proof": "令和６年度物価高騰対応重点支援地方創生臨時交付金効果検証資料",
+    "fullTextSha256": "f18474883e512be53486ebea8dcec58771b70228bf985f7cea4544dc8c8da38f",
+    "rows": [
+      {
+        "name": "地域通貨補助金（重点支援）",
+        "start": 1032,
+        "raw": "地域通貨補助金\n\nの生活支援と、地元店舗利用の喚起により、町内事\n\n（重点支援）",
+        "note": "交付枠年度と実施年度を区別。保存済み表の始終期が属する年度のみを採用し、金額は未構造化。",
+        "year": 2025,
+        "yearProof": "R7.4.1"
+      },
+      {
+        "name": "物価高騰対応LPガス使用世帯支援事業",
+        "start": 1375,
+        "raw": "物価高騰対応LPガス使用世帯支\n\nし、料金の一部を補助することにより、経済\n\n援事業補助金",
+        "note": "交付枠年度と実施年度を区別。保存済み表の始終期が属する年度のみを採用し、金額は未構造化。",
+        "year": 2025,
+        "yearProof": "R8.1.6"
+      },
+      {
+        "name": "物価高騰対策給⾷費補助金",
+        "start": 1554,
+        "raw": "物価高騰対策給⾷\n\nう給⾷費値上げによる経費の一部を町が補助するこ\n\n費補助金",
+        "note": "交付枠年度と実施年度を区別。保存済み表の始終期が属する年度のみを採用し、金額は未構造化。",
+        "year": 2024,
+        "yearProof": "R6.5.1"
+      },
+      {
+        "name": "保育所等給⾷費支援事業補助金",
+        "start": 1952,
+        "raw": "保育所等給⾷費支\n援事業補助金",
+        "note": "交付枠年度と実施年度を区別。保存済み表の始終期が属する年度のみを採用し、金額は未構造化。",
+        "year": 2025,
+        "yearProof": "R7.8.8"
+      }
+    ],
+    "holds": [
+      {
+        "start": 5,
+        "raw": "物価高騰対応重点",
+        "reason": "Three benefit rows have system-only/cross-year/cumulative components; existing FY2023/FY2024 grants may overlap, no new identity inferred."
+      }
+    ]
+  },
+  {
+    "sourceId": "ed290621949ab29343f6ad91",
+    "municipalityCode": "43348",
+    "year": 2024,
+    "proof": "令和5年度物価高騰対応重点支援地方創生臨時交付金効果検証資料",
+    "fullTextSha256": "656d08d340f43995ce1796f00a8633d93da392feb93ea8ce589c65b7979c6f8d",
+    "rows": [
+      {
+        "name": "物価高騰対応LPガス使用世帯⽀援事業",
+        "start": 1409,
+        "raw": "物価高騰対応LPガ\n6\n\nス使用世帯⽀援事\n業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。",
+        "yearProof": "令和6年11⽉25⽇"
+      }
+    ],
+    "holds": [
+      {
+        "start": 1518,
+        "raw": "地位通貨補助⾦",
+        "reason": "Source typo/alias versus regional-currency grant unresolved; do not add separate project for printed typo."
+      },
+      {
+        "start": 5,
+        "raw": "物価高騰対応重点",
+        "reason": "Benefit rows include cumulative years, child additions, system-only expense and implementation-start/end contradictions. Parent identity and annual execution remain unresolved."
+      }
+    ]
+  },
+  {
+    "sourceId": "77f6916c3ef1f06fe9e53ece",
+    "municipalityCode": "43348",
+    "year": 2023,
+    "proof": "令和5年度新型コロナウイルス感染症対応地方創生臨時交付金効果検証資料",
+    "fullTextSha256": "142ec3e34dc99aef82e8cbf7a293f87e40ea1202757c1b067acd6295819a4158",
+    "rows": [
+      {
+        "name": "美⾥町電⼒・ガス・⾷料品等価格高騰重点支援事業【低所得者世帯給付⾦】",
+        "start": 54,
+        "raw": "美⾥町電⼒・ガ\nス・⾷料品等価格\n1\n\n事業\n\n交付対象事業の名\n\n高騰重点支援事業\n【低所得者世帯給\n付⾦】",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "地域通貨補助事業",
+        "start": 915,
+        "raw": "地域通貨補助事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "農業⽔利施設電気料⾦高騰対策事業",
+        "start": 1086,
+        "raw": "農業⽔利施設電気\n料⾦高騰対策事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "物価高騰対策給⾷費補助事業",
+        "start": 1546,
+        "raw": "物価高騰対策給⾷\n費補助事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "副⾷費負担軽減事業",
+        "start": 2254,
+        "raw": "副⾷費負担軽減事 を受けた児童の家庭に対し、副⾷費を町が補助することによ\n業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      }
+    ],
+    "holds": [
+      {
+        "start": 552,
+        "raw": "（事務費）",
+        "reason": "Administrative component of low-income grant, not another project."
+      },
+      {
+        "start": 3017,
+        "raw": "保育料負担軽減事",
+        "reason": "Age-group and funding-window components of same childcare-fee relief; no independent projects inferred."
+      },
+      {
+        "start": 2569,
+        "raw": "学校給⾷費補助事",
+        "reason": "Remaining school-meal and LP-gas title fragments cross narrative/row order; exact title plus period mapping requires further coordinate evidence."
+      }
+    ]
+  },
+  {
+    "sourceId": "b8630489a55325545030c804",
+    "municipalityCode": "43348",
+    "year": 2022,
+    "proof": "令和4年度新型コロナウイルス感染症対応地方創生臨時交付金効果検証資料",
+    "fullTextSha256": "d4ada7a3c3d0151cd9ded4622cc1d55e89bcbcb56a13bee7a80a31db99eed3ee",
+    "rows": [
+      {
+        "name": "消費喚起事業",
+        "start": 527,
+        "raw": "消費喚起事業",
+        "note": "個別事業名称と同年度内の始終期を確認した範囲のみ。交付枠を全行の実施年度に適用せず、列順が崩れた金額は採用しない。"
+      },
+      {
+        "name": "地域環境整備事業",
+        "start": 1645,
+        "raw": "地域環境整備事業",
+        "note": "個別事業名称と同年度内の始終期を確認した範囲のみ。交付枠を全行の実施年度に適用せず、列順が崩れた金額は採用しない。"
+      },
+      {
+        "name": "エアコン洗浄事業",
+        "start": 7471,
+        "raw": "エアコン洗浄事業",
+        "note": "個別事業名称と同年度内の始終期を確認した範囲のみ。交付枠を全行の実施年度に適用せず、列順が崩れた金額は採用しない。"
+      },
+      {
+        "name": "マイナンバーカード取得促進事業",
+        "start": 3379,
+        "raw": "マイナンバーカー\nド取得促進事業",
+        "note": "令和4年度実施期間の個別名。次年度の利用実績を当年度実績へ転用せず、金額は保存引用のみ。"
+      },
+      {
+        "name": "感染予防消耗品購⼊事業",
+        "start": 3845,
+        "raw": "感染予防消耗品購\n⼊事業",
+        "note": "令和4年度実施期間の個別名。次年度の利用実績を当年度実績へ転用せず、金額は保存引用のみ。"
+      },
+      {
+        "name": "⾏政デジタル化推進基盤整備事業",
+        "start": 4192,
+        "raw": "⾏政デジタル化推 する基礎を構築するため、書⾯や対⾯、押印の⾒直し及びオ\n進基盤整備事業",
+        "note": "令和4年度実施期間の個別名。次年度の利用実績を当年度実績へ転用せず、金額は保存引用のみ。"
+      },
+      {
+        "name": "社会教育施設感染症対策事業",
+        "start": 4382,
+        "raw": "社会教育施設感染\n症対策事業",
+        "note": "令和4年度実施期間の個別名。次年度の利用実績を当年度実績へ転用せず、金額は保存引用のみ。"
+      },
+      {
+        "name": "やすらぎ交流体験施設感染症予防対策事業",
+        "start": 4398,
+        "raw": "やすらぎ交流体験\n15\n\n施設感染症予防対\n策事業",
+        "note": "令和4年度実施期間の個別名。次年度の利用実績を当年度実績へ転用せず、金額は保存引用のみ。"
+      },
+      {
+        "name": "Ｂ＆Ｇ海洋センター体育館トイレ洋式化事業",
+        "start": 4425,
+        "raw": "Ｂ＆Ｇ海洋セン\n16\n\nター体育館トイレ\n洋式化事業",
+        "note": "令和4年度実施期間の個別名。次年度の利用実績を当年度実績へ転用せず、金額は保存引用のみ。"
+      },
+      {
+        "name": "非接触型レジ導⼊事業",
+        "start": 4973,
+        "raw": "非接触型レジ導⼊ ウイルス感染症の感染拡⼤を防ぐため。非接触型のレジシス\n事業",
+        "note": "令和4年度実施期間の個別名。次年度の利用実績を当年度実績へ転用せず、金額は保存引用のみ。"
+      },
+      {
+        "name": "コンビニ収納・スマホ決済導⼊事業",
+        "start": 5896,
+        "raw": "コンビニ収納・ス サービスの充実と利便性を向上させるため、税・料⾦につい\nマホ決済導⼊事業",
+        "note": "令和4年度実施期間の個別名。次年度の利用実績を当年度実績へ転用せず、金額は保存引用のみ。"
+      },
+      {
+        "name": "QRコード決済事業",
+        "start": 6256,
+        "raw": "QRコード決済事業",
+        "note": "令和4年度実施期間の個別名。次年度の利用実績を当年度実績へ転用せず、金額は保存引用のみ。"
+      },
+      {
+        "name": "感染防⽌対策支援員派遣事業",
+        "start": 6410,
+        "raw": "感染防⽌対策支援\n員派遣事業",
+        "note": "令和4年度実施期間の個別名。次年度の利用実績を当年度実績へ転用せず、金額は保存引用のみ。"
+      },
+      {
+        "name": "学校運営に伴う感染症対策に係る支援事業",
+        "start": 6818,
+        "raw": "学校運営に伴う感 ①各学校や⾏事において新型コロナウイルス感染症対策の徹\n21\n\n染症対策に係る支 底を⾏うため感染予防のための消耗品を購⼊する\n援事業",
+        "note": "令和4年度実施期間の個別名。次年度の利用実績を当年度実績へ転用せず、金額は保存引用のみ。"
+      },
+      {
+        "name": "ICT支援員委託事業",
+        "start": 7113,
+        "raw": "ICT支援員委託事\n業",
+        "note": "令和4年度実施期間の個別名。次年度の利用実績を当年度実績へ転用せず、金額は保存引用のみ。"
+      },
+      {
+        "name": "ワクチン接種会場への移動支援事業",
+        "start": 8178,
+        "raw": "ワクチン接種会場\nへの移動支援事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "テレワークサービス利⽤事業",
+        "start": 8596,
+        "raw": "テレワークサービ\nス利⽤事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "東部地区活性化施設改修事業",
+        "start": 10067,
+        "raw": "東部地区活性化施\n設改修事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "ｷｬﾝﾌﾟ場空調改善事業",
+        "start": 11583,
+        "raw": "ｷｬﾝﾌﾟ場空調改善\n事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "給⾷費保護者負担軽減対策事業",
+        "start": 12620,
+        "raw": "給⾷費保護者負担\n軽減対策事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "美⾥町特産品PR事業",
+        "start": 8890,
+        "raw": "美⾥町特産品PR事 材撮影や販促コピーの作成を⾏うことで、実店舗に縛られ\n業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "ペーパーレス会議システム導⼊事業",
+        "start": 9668,
+        "raw": "ペーパーレス会議 会議運営やテレワークの促進にもつながり、新型コロナウイ\nシステム導⼊事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "低所得の⼦育て世帯に対する⼦育て世帯⽣活支援特別給付⾦（町独自分）",
+        "start": 10337,
+        "raw": "低所得の⼦育て世\n帯に対する⼦育て\n31\n\n世帯⽣活支援特別\n給付⾦\n（町独自分）",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "原油価格高騰対策事業",
+        "start": 11124,
+        "raw": "原油価格高騰対策 価高騰の影響を受けた、町内の中小企業者・小規模企業者\n事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "原油・物価高騰化対策支援事業（指定管理者支援）",
+        "start": 12260,
+        "raw": "原油・物価高騰化\n39\n\n対策支援事業（指\n定管理者支援）",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "保育所・認定⼦ども園等特別対策支援事業",
+        "start": 14271,
+        "raw": "保育所・認定⼦ど\n46\n\n事業\n\n交付対象事業の名\n\nも園等特別対策支\n援事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "保育所等給⾷支援事業",
+        "start": 14748,
+        "raw": "保育所等給⾷支援\n事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "美⾥バス利⽤促進事業",
+        "start": 15108,
+        "raw": "美⾥バス利⽤促進 より、買い物などの外出を控える交通弱者に対し、移動に係\n事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "地域逸品商談支援事業",
+        "start": 264,
+        "raw": "地域逸品商談支援 会を開催。それに伴い、商談会に慣れていない町内事業者を\n事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "観光スポット周遊キャンペーン事業",
+        "start": 2139,
+        "raw": "観光スポット周遊 町内各地域への周遊を促進し、滞在時間や観光消費の拡⼤を\nキャンペーン事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "新型コロナウイルス対策中小企業資⾦利⼦補給⾦",
+        "start": 879,
+        "raw": "新型コロナウイル\n3\n\nス対策中小企業資\n⾦利⼦補給⾦",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "営業時間短縮に係る感染拡⼤防⽌協⼒⾦",
+        "start": 1181,
+        "raw": "営業時間短縮に係\n4\n\nる感染拡⼤防⽌協\n⼒⾦",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "避難所⽤備品購⼊事業",
+        "start": 3159,
+        "raw": "避難所⽤備品購⼊ う際に不特定多数の接触を避けるため、個々に分かれた充電\n事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "原油・物価高騰化対策支援事業（農業者及び法⼈支援）",
+        "start": 11937,
+        "raw": "原油・物価高騰化 ①新型コロナウイルス感染症の影響による、原油価格及び物\n38\n\n対策支援事業（農 価高騰の影響を受けた、町内の農業者及び農業法⼈等への経\n業者及び法⼈支\n\n済的支援を⾏う。\n\n援）",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      }
+    ],
+    "holds": [
+      {
+        "start": 10745,
+        "raw": "デジタル田園都市",
+        "reason": "Row32 financing portion explicitly identifies the same convenience-store/smartphone payment implementation as row18; no new business or summed costs."
+      },
+      {
+        "start": 11124,
+        "raw": "原油価格高騰対策",
+        "reason": "Rows33/53 have identical project name for corporate/individual recipients; one project only, amounts not summed."
+      },
+      {
+        "start": 16571,
+        "raw": "地域少⼦化対策重",
+        "reason": "Explicitly no annual implementation; no completed annual project inferred from grant label."
+      },
+      {
+        "start": 15482,
+        "raw": "令和6年2⽉28⽇",
+        "reason": "Row50 cross-year and planned end; annual execution remains unresolved."
+      },
+      {
+        "start": 15665,
+        "raw": "電気・ガス・⾷料",
+        "reason": "Row51 is funding-programme label with FY2022/FY2023 interval and missing spend; no independent annual business identity."
+      },
+      {
+        "start": 12830,
+        "raw": "修学旅⾏支援事業",
+        "reason": "Rows41/42 same project split by purpose; no separate independent identifiers, keep components held."
+      },
+      {
+        "start": 9278,
+        "raw": "地域自殺対策強化",
+        "reason": "Regional grant-programme label; standalone municipal business title absent."
+      },
+      {
+        "start": 15993,
+        "raw": "妊娠出産⼦育て支",
+        "reason": "Grant-programme title versus constituent benefit identity unresolved."
+      },
+      {
+        "start": 7406,
+        "raw": "フィルタリングソ",
+        "reason": "Row23 title fragments far apart in extracted order; exact complete-title boundary absent."
+      },
+      {
+        "start": 13692,
+        "raw": "学校保健特別対策",
+        "reason": "Row43 national programme title and same school-consumables implementation as row21; independent local project identity unproved."
+      },
+      {
+        "start": 2358,
+        "raw": "応型契約管理シス",
+        "reason": "Row8 project-title beginning and ending are reversed and interleaved with narrative; exact printed order unavailable without coordinates. No guessed complete title."
+      }
+    ]
+  },
+  {
+    "sourceId": "79b0ada6b7b9a42cac24f548",
+    "municipalityCode": "43348",
+    "year": 2021,
+    "proof": "令和3年度新型コロナウイルス感染症対応地方創生臨時交付金効果検証資料",
+    "fullTextSha256": "46d67c58fda70717d00ef58c1f6105e0ea084bd917a87dfefad7b144f8f4bd5d",
+    "rows": [
+      {
+        "name": "中央庁舎網戸設置事業",
+        "start": 182,
+        "raw": "中央庁舎網戸設置事業",
+        "note": "個別事業名称と同年度内の始終期を確認した範囲のみ。交付枠を全行の実施年度に適用せず、列順が崩れた金額は採用しない。"
+      },
+      {
+        "name": "地域環境整備事業",
+        "start": 303,
+        "raw": "地域環境整備事業",
+        "note": "個別事業名称と同年度内の始終期を確認した範囲のみ。交付枠を全行の実施年度に適用せず、列順が崩れた金額は採用しない。"
+      },
+      {
+        "name": "避難所整備事業",
+        "start": 432,
+        "raw": "避難所整備事業",
+        "note": "個別事業名称と同年度内の始終期を確認した範囲のみ。交付枠を全行の実施年度に適用せず、列順が崩れた金額は採用しない。"
+      },
+      {
+        "name": "消費喚起事業",
+        "start": 692,
+        "raw": "消費喚起事業",
+        "note": "個別事業名称と同年度内の始終期を確認した範囲のみ。交付枠を全行の実施年度に適用せず、列順が崩れた金額は採用しない。"
+      },
+      {
+        "name": "オートサイト区画整理事業",
+        "start": 1539,
+        "raw": "オートサイト区画整理事業",
+        "note": "個別事業名称と同年度内の始終期を確認した範囲のみ。交付枠を全行の実施年度に適用せず、列順が崩れた金額は採用しない。"
+      },
+      {
+        "name": "トイレ改修事業",
+        "start": 3054,
+        "raw": "トイレ改修事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "蛇口改修事業",
+        "start": 3371,
+        "raw": "蛇口改修事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "キャッシュレス決済の導入",
+        "start": 3880,
+        "raw": "キャッシュレス決済の導入",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "美里バス利用促進事業",
+        "start": 8083,
+        "raw": "美里バス利用促進事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "新型コロナウイルス対策中小企業資金利子補給金",
+        "start": 986,
+        "raw": "新型コロナウイルス対策 ②新型コロナウイルス感染症の影響により中小\n中小企業資金利子補給金",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "道の駅美里「佐俣の湯」換気型空調設置事業",
+        "start": 3562,
+        "raw": "道の駅美里「佐俣の湯」換 気が可能な空調設備を整備することにより、施\n気型空調設置事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "スクール・サポート・スタッフ派遣事業",
+        "start": 4174,
+        "raw": "スクール・サポート・スタッ\nル・サポート・スタッフを任用する。\nフ派遣事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "学校運営に伴う感染症対策に係る支援事業",
+        "start": 5618,
+        "raw": "学校運営に伴う感染症対 集まる場所や機会において、迅速かつ柔軟に対\n策に係る支援事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "美里出身学生生活サポート事業",
+        "start": 5899,
+        "raw": "美里出身学生生活サポー\nられる学生の生活支援を目的とする\n令和3年10月1日\nト事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "やすらぎ交流体験施設大部屋空調整備事業",
+        "start": 6172,
+        "raw": "やすらぎ交流体験施設大\nイルス等の感染症拡大防止につなげるため、２\n部屋空調整備事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "キャンプ場管理棟空調改善事業",
+        "start": 6461,
+        "raw": "キャンプ場管理棟空調改 により、施設利用者が安心して利用できる環境\n善事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "森林・山村多面的機能発揮対策事業",
+        "start": 6735,
+        "raw": "森林・山村多面的機能発 備活動に対し助成を行い、雇用の場の確保を図\n揮対策事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "ワクチン接種会場への移動支援事業",
+        "start": 7030,
+        "raw": "ワクチン接種会場への移\n行う。\n動支援事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "各種相談・申請支援窓口開設事業",
+        "start": 7321,
+        "raw": "各種相談・申請支援窓口\n相談、国県の支援策への相談）窓口を開設する\n開設事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "営業時間短縮に係る感染拡大防止協力金",
+        "start": 7802,
+        "raw": "営業時間短縮に係る感染 給に係る町内事業者分の負担金\n拡大防止協力金",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "やすらぎ交流体験施設トイレ洋式化事業",
+        "start": 7955,
+        "raw": "やすらぎ交流体験施設ト のため、蓋付き洋式トイレへ改修し、利用者の感\n令和3年10月13日\nイレ洋式化事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "学習環境整備事業",
+        "start": 8245,
+        "raw": "学習環境整備事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "ICT支援員委託事業",
+        "start": 8626,
+        "raw": "ICT支援員委託事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "スクールバス委託事業",
+        "start": 9047,
+        "raw": "スクールバス委託事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "緊急雇用対策事業",
+        "start": 12260,
+        "raw": "緊急雇用対策事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "GIGAスクール環境整備事業",
+        "start": 9357,
+        "raw": "GIGAスクール環境整備事\n徒への配布物等を同端末で行っているが、机の\n業",
+        "note": "令和3年度の個別実施名称。施設工事の設計のみを完成とせず、列混在の数値を転記しない。"
+      },
+      {
+        "name": "保育所等事業継続支援事業",
+        "start": 10200,
+        "raw": "保育所等事業継続支援事\n従事者への応援助成金\n業",
+        "note": "令和3年度の個別実施名称。施設工事の設計のみを完成とせず、列混在の数値を転記しない。"
+      },
+      {
+        "name": "フォレストアドベンチャー・美里整備事業",
+        "start": 10396,
+        "raw": "フォレストアドベンチャー・ 染防止対策をはかるために待機スペースの取\n美里整備事業",
+        "note": "令和3年度の個別実施名称。施設工事の設計のみを完成とせず、列混在の数値を転記しない。"
+      },
+      {
+        "name": "美里町中小企業者事業継続支援金",
+        "start": 10702,
+        "raw": "美里町中小企業者事業継 用・事業の維持を支援する。\n令和3年11月26日\n続支援金",
+        "note": "令和3年度の個別実施名称。施設工事の設計のみを完成とせず、列混在の数値を転記しない。"
+      },
+      {
+        "name": "フォレストアドベンチャー・美里改修事業",
+        "start": 11051,
+        "raw": "フォレストアドベンチャー・\nり、利用客及びスタッフも安心して利用できる環\n美里改修事業",
+        "note": "令和3年度の個別実施名称。施設工事の設計のみを完成とせず、列混在の数値を転記しない。"
+      },
+      {
+        "name": "オンライン申請対応型契約管理システム事業",
+        "start": 11398,
+        "raw": "オンライン申請対応型契\nにつながる。\n約管理システム事業",
+        "note": "令和3年度の個別実施名称。施設工事の設計のみを完成とせず、列混在の数値を転記しない。"
+      },
+      {
+        "name": "子育て世帯への臨時特別給付金事業",
+        "start": 12106,
+        "raw": "子育て世帯への臨時特別\n令和3年12月24日\nる。\n給付金事業",
+        "note": "令和3年度の個別実施名称。施設工事の設計のみを完成とせず、列混在の数値を転記しない。"
+      },
+      {
+        "name": "美里町中央庁舎空調設備改修事業",
+        "start": 12560,
+        "raw": "美里町中央庁舎空調設備\nする換気風量（30㎥/ｈ）を確保する仕様の設計\n改修事業",
+        "note": "令和3年度の個別実施名称。施設工事の設計のみを完成とせず、列混在の数値を転記しない。"
+      },
+      {
+        "name": "図書館パワーアップ事業",
+        "start": 13317,
+        "raw": "図書館パワーアップ事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "健（検）診結果等の様式の標準化整備事業（単独事業分）",
+        "start": 13587,
+        "raw": "健（検）診結果等の様式の 診断を推進するため、国による健（検）診結果の\n標準化整備事業（単独事 利活用に向けた情報標準化整備事業に伴い、\n業分）",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "健（検）診情報システム整備事業（単独事業分）",
+        "start": 13925,
+        "raw": "健（検）診情報システム整 診断を推進するため、国による健（検）診情報連\n備事業（単独事業分）",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      }
+    ],
+    "holds": [
+      {
+        "start": 4407,
+        "raw": "修学旅行支援事業",
+        "reason": "Rows16/17 split same base project by transport/cancellation support; independent programme identity not proved, no double counting."
+      },
+      {
+        "start": 12858,
+        "raw": "疾病予防対策事業費等補",
+        "reason": "Rows42/46/47/50 describe national/municipal funding parts of same health-system changes, with reversed descriptions for the two screening systems; no extra project or costs inferred."
+      },
+      {
+        "start": 15207,
+        "raw": "地域少子化対策重点推進",
+        "reason": "Funding programme label without independent local business title; beneficiary count is not a separate project."
+      },
+      {
+        "start": 15507,
+        "raw": "学校保健特別対策事業費",
+        "reason": "National funding part repeats local school-infection implementation; no extra project."
+      },
+      {
+        "start": 16155,
+        "raw": "令和4年7月26日",
+        "reason": "Row51 is construction portion of same central-building air-conditioning project, crossing FY2021/FY2022; prior row41 design retained without completion or construction cost."
+      },
+      {
+        "start": 1243,
+        "raw": "地域の基礎的活力養成事",
+        "reason": "Row6 generic programme title is interleaved with multi-language sign installation; independent budget identity not established from narrative title fragment."
+      }
+    ]
+  },
+  {
+    "sourceId": "1b4f89554a93c02fa1743c86",
+    "municipalityCode": "43348",
+    "year": 2020,
+    "proof": "令和2年度新型コロナウイルス感染症対応地方創生臨時交付金効果検証資料",
+    "fullTextSha256": "fcffc45d0285a954a1d2e7e39d34532abbe6f2b0f4ac0cfe8d856d9433c142b8",
+    "rows": [
+      {
+        "name": "地域環境整備事業",
+        "start": 808,
+        "raw": "地域環境整備事業",
+        "note": "個別事業名称と同年度内の始終期を確認した範囲のみ。交付枠を全行の実施年度に適用せず、列順が崩れた金額は採用しない。"
+      },
+      {
+        "name": "防災活動支援事業",
+        "start": 5461,
+        "raw": "防災活動支援事業",
+        "note": "個別事業名称と同年度内の始終期を確認した範囲のみ。交付枠を全行の実施年度に適用せず、列順が崩れた金額は採用しない。"
+      },
+      {
+        "name": "ICT教育環境整備事業",
+        "start": 3916,
+        "raw": "ICT教育環境整備事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "学校施設環境改善事業",
+        "start": 4157,
+        "raw": "学校施設環境改善事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "庁舎内感染対策事業",
+        "start": 5341,
+        "raw": "庁舎内感染対策事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "緊急雇用対策事業",
+        "start": 5413,
+        "raw": "緊急雇用対策事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "美里町中小企業者事業継続支援事業",
+        "start": 1596,
+        "raw": "美里町中小企業者事業継\n②国（持続化給付金）又は県（事業継続支援金）\n続支援事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "各種相談・申請支援窓口開設事業",
+        "start": 2221,
+        "raw": "各種相談・申請支援窓口\n開設することで雇用・事業の維持を支援する。\n開設事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "美里出身学生に地元の産品で生活サポート事業",
+        "start": 4772,
+        "raw": "美里出身学生に地元の産\nで学生の生活支援を行う。\n品で生活サポート事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "オンライン申請対応型契約管理システム導入",
+        "start": 6091,
+        "raw": "オンライン申請対応型契\n者、来庁者の接触機会が減り感染防止につなが 令和2年12月9日\n約管理システム導入",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "コロナウイルス感染症対応支援",
+        "start": 7186,
+        "raw": "コロナウイルス感染症対 行った町内事業所を支援する\n応支援",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "プレミアム付き商品券発行事業",
+        "start": 7329,
+        "raw": "プレミアム付き商品券発 県内住民に販売することで、町内事業所を応援\n令和2年8月19日\n行事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "テレワーク環境整備事業",
+        "start": 11328,
+        "raw": "テレワーク環境整備事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "中央公民館網戸整備事業",
+        "start": 12237,
+        "raw": "中央公民館網戸整備事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "映像産業を軸とした観光・産業振興と地域ブランディング事業",
+        "start": 8263,
+        "raw": "映像産業を軸とした観光・ 作成し、各地域の魅力をPRする\n産業振興と地域ブランディ\nング事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "自主防災組織避難所運営事業",
+        "start": 8906,
+        "raw": "自主防災組織避難所運営\n立を促すことにより災害の備えへの意識の高揚\n事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "体育施設大型扇風機整備事業",
+        "start": 9896,
+        "raw": "体育施設大型扇風機整備 時に館内の感染症防止のために大型扇風機を\n事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "屋外社会体育施設用自動手指消毒器設置事業",
+        "start": 10132,
+        "raw": "屋外社会体育施設用自動 手指消毒を設置するスペースがないため壁掛け\n令和2年12月22日\n手指消毒器設置事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "インフルエンザ予防接種費用助成事業",
+        "start": 10928,
+        "raw": "インフルエンザ予防接種\n②インフルエンザの予防接種に係る費用\n費用助成事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "学校給食事業者応援事業",
+        "start": 12994,
+        "raw": "学校給食事業者応援事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "蛇口改修事業",
+        "start": 13106,
+        "raw": "蛇口改修事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "リモート講演会実施事業",
+        "start": 14462,
+        "raw": "リモート講演会実施事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "芸術鑑賞補助事業",
+        "start": 15800,
+        "raw": "芸術鑑賞補助事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "観光地PR事業",
+        "start": 18063,
+        "raw": "観光地PR事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "思い出づくりタイムカプセル購入事業",
+        "start": 14687,
+        "raw": "思い出づくりタイムカプセ\n校の卒業生にタイムカプセル購入費を補助す\nル購入事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "飲食店等の感染防止対策事業",
+        "start": 16453,
+        "raw": "飲食店等の感染防止対策\n援する。\n事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "乳幼児検診・相談時感染対策事業",
+        "start": 16728,
+        "raw": "乳幼児検診・相談時感染\nための消耗品を購入する。\n対策事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "スクール・サポート・スタッフ派遣事業",
+        "start": 17027,
+        "raw": "スクール・サポート・スタッ ル・サポート・スタッフを新たに任用し雇用の確\nフ派遣事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "通いの場感染防止対策事業",
+        "start": 17310,
+        "raw": "通いの場感染防止対策事 防止対策の取組みに補助を行う。\n業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "森林・山村多面的機能発揮対策事業",
+        "start": 17587,
+        "raw": "森林・山村多面的機能発 備活動に対し助成を行い、雇用の場の確保を図\nる。\n揮対策事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "タクシー事業者の感染防止対策支援",
+        "start": 17885,
+        "raw": "タクシー事業者の感染防 支援する\n②タクシー内にパーテーション設置費用、消毒\n止対策支援",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "コロナウイルス感染症対応雇用維持奨励金交付事業",
+        "start": 15636,
+        "raw": "コロナウイルス感染症対\n持を図る事業主の負担を軽減するとともに、雇\n応雇用維持奨励金交付事\n用維持の一層の推進を図る。\n業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "子育て世帯臨時特別給付事業（新型コロナ対策分町独自分）",
+        "start": 498,
+        "raw": "子育て世帯臨時特別給付\nにより経済的負担を軽減し子育て環境の整備を\n事業（新型コロナ対策分\n図る。\n町独自分）",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "新型コロナウイルス対策中小企業資金利子補給金",
+        "start": 1858,
+        "raw": "新型コロナウイルス対策 ②新型コロナウイルス感染症の影響により中小\n中小企業資金利子補給金",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "東部地区買い物拠点化事業",
+        "start": 2902,
+        "raw": "東部地区買い物拠点化事\nナウイルスの感染拡大を懸念して買い物に出か\n業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "観光地混雑解消事業",
+        "start": 4426,
+        "raw": "観光地混雑解消事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。",
+        "yearProof": "令和2年4月23日"
+      }
+    ],
+    "holds": [
+      {
+        "start": 818,
+        "raw": "消費喚起事業",
+        "reason": "FY2020–FY2021 multi-year end; do not assign funding-year as sole execution year."
+      },
+      {
+        "start": 5699,
+        "raw": "公立学校情報機器整備事",
+        "reason": "Cross-year FY2020–FY2021 and related ICT equipment row; annual identity/overlap unproved."
+      },
+      {
+        "start": 5864,
+        "raw": "福祉避難所空調整備事業",
+        "reason": "Cross-year FY2020–FY2021; single annual execution not established."
+      },
+      {
+        "start": 3232,
+        "raw": "地域の絆プロジェクト支援",
+        "reason": "Same programme split into environment/community components, independent identity unresolved."
+      },
+      {
+        "start": 3737,
+        "raw": "学校保健特別対策事業",
+        "reason": "Repeated national programme and local infection-prevention implementation; preserve funding components without separate projects."
+      },
+      {
+        "start": 9999,
+        "raw": "社会体育施設トイレ洋式",
+        "reason": "FY2020–FY2021 interval; annual execution allocation absent."
+      },
+      {
+        "start": 11593,
+        "raw": "公園遊具設置事業",
+        "reason": "FY2020–FY2021 interval and detached date columns; annual attribution unproved."
+      },
+      {
+        "start": 11178,
+        "raw": "庁内ネットワーク環境整備",
+        "reason": "FY2020–FY2021 interval; annual execution allocation absent."
+      },
+      {
+        "start": 12176,
+        "raw": "図書館パワーアップ事業",
+        "reason": "Printed start May2021 conflicts with end March2021; do not repair source dates by guessing."
+      },
+      {
+        "start": 202,
+        "raw": "公共的空間安全・安心確",
+        "reason": "Repeated generic project labels for multiple facilities; business versus component identity unresolved."
+      },
+      {
+        "start": 9336,
+        "raw": "子ども・子育て支援交付",
+        "reason": "National funding label versus local after-school child-care implementation, not a separate project identity."
+      },
+      {
+        "start": 15461,
+        "raw": "ワーケーション環境整備",
+        "reason": "Printed start February2020 crosses FY2019/FY2020; no annual assignment from funding-year label."
+      },
+      {
+        "start": 13765,
+        "raw": "修学旅行支援事業",
+        "reason": "Rows61/62 same base project with cancellation/transport components; do not count twice."
+      },
+      {
+        "start": 14871,
+        "raw": "地域環境整備事業（観光）",
+        "reason": "Tourism component versus same base environmental-maintenance project unresolved; no extra identity."
+      },
+      {
+        "start": 7441,
+        "raw": "地域の基礎的活力養成事",
+        "reason": "Generic programme heading versus specific signage installation lacks separate budget identifier."
+      }
+    ]
+  },
+  {
+    "sourceId": "00374539238b33bf83eec4bf",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "74b9a98aa056ef2e3796540e40b8388cb8429da1782e5a59df466b13ed53f226",
+    "rows": [
+      {
+        "name": "人権教育事業",
+        "start": 80,
+        "raw": "事務事業名 人権教育事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "04994d88231e1bab4887c07c",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "b457552d694bf5fb967a2b0e71670784f30548be49e7cfe0d99ab5c173524ead",
+    "rows": [
+      {
+        "name": "フッ化物洗口事業",
+        "start": 80,
+        "raw": "事務事業名 フッ化物洗口事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "058be6944504b69b7d0d3c6d",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート 施策８：障がい者（児）の自立",
+    "fullTextSha256": "037dd1c44033f90804d1d8897250c20f4ad00cc49ed55180c32ef200583b9202",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート 施策８：障がい者（児）の自立\nシート１\n（令和６年度目標達成度評価） と社会参加の促進\n施策体系\n基本方針 2 福祉の健幸 施策名 8 障がい者（児）の自立と社会参加の促進\n施策統括部 健康福祉部 こども未来課\n関係課\n施策主管課 福祉課\n１ 施策の評価指標\n成果指標 単位\nA 日中活動系サービス実利用者数 人\nB 障がいがある子の親等の交流の場 件\nC\nD\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n目標値 4,400 4,450 4,500 4,550\nコロナの収束により障がい者の地域生活への\nA 人 4,332 〇\n進出が進んだものと考えられます。\n実績値 4,688\n目標値 2 2 2 2 菊池圏域でペアレント・トレーニングを実施し、\nまた、市地域子育て支援センター事業の中でおも\nB 件 0 〇\nちゃ図書館を開催することで、障がいのある子の\n実績値 2 親等の交流の場を提供し参加につながりました。\n目標値\nC\n実績値\n目標値\nD\n実績値\n※【評価】 ○；目標達成 △；目標をほぼ",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "0abee21cda2ccb11b9bd67ea",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "987e021aa4279759ddae6ea32e86756b0287dba3229ccd1acef2cfe01fb4772e",
+    "rows": [
+      {
+        "name": "こども施策推進事業",
+        "start": 80,
+        "raw": "事務事業名 こども施策推進事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "119ef2fb8ead3639055d85c3",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "03186f9bbaa8630833a3f0b7f619b0e7bd5566f08ed46da026c844dd117fac7f",
+    "rows": [
+      {
+        "name": "児童生徒・教職員健康管理事業",
+        "start": 80,
+        "raw": "事務事業名 児童生徒・教職員健康管理事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "12f533279eb4d5c7c2817c74",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "1bf413046b518bd9bd2ee5d1975194063cfed0c2031f1f48f6aa340b3ca09cf8",
+    "rows": [
+      {
+        "name": "地域結核対策委員会参画事業",
+        "start": 80,
+        "raw": "事務事業名 地域結核対策委員会参画事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "132dc18a8634f040b6a79bab",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "4456ea037f569bb9ce2378c8d88a5caccb7491335b9c28f5ec48cef0c5db2eac",
+    "rows": [
+      {
+        "name": "教育委員会議運営事業",
+        "start": 80,
+        "raw": "事務事業名 教育委員会議運営事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "23858924fa45a7074be10c1f",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート",
+    "fullTextSha256": "1de9e64af87853143bdeccb53c3897d9488fa23c5706af64f9630640047103a5",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート\nシート１ 施策19：脱炭素・地球温暖化対策の推進\n（令和６年度目標達成度評価）\n施策体系\n基本方針 4 生活環境の健幸 施策名 19 脱炭素・地球温暖化対策の推進\n施策統括部 市民生活部 農政課\n関係課\n施策主管課 環境衛生課\n１ 施策の評価指標\n成果指標 単位\nA 市役所における温室効果ガスの排出量（t‐CO2）の削減割合（基準年度：平成25年度） ％\nB 太陽光発電等の再生可能エネルギーの導入件数 件\nC\nD\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n使用しているエネルギー量に大差はないことから\n目標値 40.0 42.0 44.0 45.8 九州電力の温室効果ガス排出量の算定に用いた係\n数の影響と思われる。R6の算定はこれからであ\nA ％ 38.1 ×\nるが、一部CO2削減プランを導入している施設\n実績値 25.2 もあるので削減が期待できます。【R6入力値は\nR5実績・1年遅れる】\n目標値 5,200 5,300 5,400 5,500 10KW未満の太陽光発電設備の伸びが影",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "26c0981f036fa87348a1cf8f",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート",
+    "fullTextSha256": "55068568e5f5886f31abcb8a191cac2313912fb3d21ef4a5430f178c9b80c162",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート\nシート１ 施策10：生涯学習の推進\n（令和６年度目標達成度評価）\n施策体系\n基本方針 3 教育の健幸 施策名 10 生涯学習の推進\n施策統括部 教育部 無し\n関係課\n施策主管課 生涯学習課\n１ 施策の評価指標\n成果指標 単位\nA 市民講座登録者数 人\nB 「多文化交流」関連講座の開催数 回\nC 本の貸出者数 人\nD\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n新型コロナウィルス感染症の影響で一時的に活動が制\n目標値 330 360 390 420 限されていたものの、感染状況の落ち着きに伴い、外\nA 人 280 〇 出や交流を求める高齢者のニーズが高まりました。ま\nた、市政情報モニターやSNSによる情報発信を強化し\n実績値 399\nたことにより、登録者数が増加しました。\nJASM進出や介護・建設・農業などを中心とした外国\n目標値 12 15 18 20 人労働者の受け入れが進んでおり、地域での多文化共\nB 回 6 〇 生を進めるためには、住民同士の多文化理解を深める\nことが重要であり、",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "2cd0c3efcce10f40027a640f",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "d4dab7b5531192917ba7f9f81b4a96d05ec7149489c53dfcad0e0a62cc68bf2b",
+    "rows": [
+      {
+        "name": "学校給食運営事業",
+        "start": 80,
+        "raw": "事務事業名 学校給食運営事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "2d082b6a27f2d7e0cb467111",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "8438e846ed43010fe28c547030786d6344dfeb4181694a6ff96c3570603067e8",
+    "rows": [
+      {
+        "name": "奨学資金貸付事業",
+        "start": 80,
+        "raw": "事務事業名 奨学資金貸付事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "2eae9d15a706933d553ee348",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "7faf2282ccedc2211e7e51e7b18b1ceb8125d9541b910874987fb6d7a6ddd6fc",
+    "rows": [
+      {
+        "name": "子ども・子育て支援事業（幼稚園）",
+        "start": 80,
+        "raw": "事務事業名 子ども・子育て支援事業（幼稚園）",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "3985c12296180e3b1b410d87",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "029b34464aa96a772e18e9852967b7781893bcb53ed6f34e79a5399662b98d60",
+    "rows": [
+      {
+        "name": "学校給食用野菜出荷組合活動支援事業",
+        "start": 80,
+        "raw": "事務事業名 学校給食用野菜出荷組合活動支援事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "404c98f8fd8fb2baa3526cc0",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "551f458cd91f75be78a41700d39cdef81d6aeaa8321ba0856fb18fff2c04ff55",
+    "rows": [
+      {
+        "name": "特別支援教育推進事業",
+        "start": 80,
+        "raw": "事務事業名 特別支援教育推進事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "4746aec93092f2837e13e0c4",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "fb7274b70702ebf565cdd43793177fa370f2801f75d3240fdfdd323d50de8291",
+    "rows": [
+      {
+        "name": "人権啓発事業",
+        "start": 80,
+        "raw": "事務事業名 人権啓発事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "474a04057aad4b6084f29b9d",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "1c10c158b0eb17a0612a57833f5aca74748152bc574766422f7d1fa69c17b44a",
+    "rows": [
+      {
+        "name": "三つの木の家社会教育事業",
+        "start": 80,
+        "raw": "事務事業名 三つの木の家社会教育事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "4955df336101b71847c18cbe",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "cc9f513f62a0ac3f021f9d08c0fe8c5f29e7b881e8f3d50cc109c776d18cd2cf",
+    "rows": [
+      {
+        "name": "ことば教育推進事業",
+        "start": 80,
+        "raw": "事務事業名 ことば教育推進事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "557308b781647b28762c82cf",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "5b859199d2a7d8d5d67aec8aea397f5fdbca394d376b818e7eae6088f57d36e6",
+    "rows": [
+      {
+        "name": "小中学校運営事業",
+        "start": 80,
+        "raw": "事務事業名 小中学校運営事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "59f88c03fac6add6ccef5633",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート",
+    "fullTextSha256": "4a18e2025ef7847b40fa89f29c25e76bdd721ea7f3d25c5f82e324a3dfc18e02",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート\nシート１ 施策17：水の保全・安定供給\n（令和６年度目標達成度評価）\n施策体系\n基本方針 4 生活環境の健幸 施策名 17 水の保全・安定供給\n施策統括部 水道局 環境衛生課、都市計画課\n関係課\n施策主管課 水道課・下水道課\n１ 施策の評価指標\n成果指標 単位\nA 上水道施設の故障による断水回数 回\nB 下水道放流水の水質基準の達成 ％\nC 一般会計からの下水道公営企業会計操出金 千円\nD\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n目標値 0 0 0 0 上水道施設の設備機器保守点検業務、電気保安管\n理業務を実施し、上水の供給能力を健全に維持す\nA 回 1 〇\nることにより施設の故障を最小限に抑えることが\n実績値 0 出来ました。\n目標値 100 100 100 100 汚水処理場の施設管理業務、電気保安管理業務及\nび老朽化した施設の修繕・更新工事等を実施し、\nB ％ 100 ○\n処理場を適正に管理することにより、放流水を水\n実績値 100 質基準内に収めることができました。\n目標値",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "5a1e46b6cbad5c091917664c",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート",
+    "fullTextSha256": "09816798bbf5cf88b2a8193a795e1cf5c07c2a1e09594cbbee6d1564e3f4ca7c",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート\nシート１ 施策1：市民参画によるまちづくりの推進\n（令和６年度目標達成度評価）\n施策体系\n基本方針 1 自治の健幸 施策名 1 市民参画によるまちづくりの推進\n総合計画で定めた施策名を記載しています。\n施策統括部 市長公室 総務課、秘書政策課、商工振興課、生涯学習課\n関係課\nこの施策の取り組みを中心的に行う主管課と関係する課を記載しています。\n施策主管課 企画課\n１ 施策の評価指標\n成果指標 単位\nA 選挙投票率 ％\nB 市ホームページ閲覧数 回\n施策の意図に対する達成度を表す「成果指標」を記載しています。\nC 自治会（区）の加入率 ％\nD\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n選挙権年齢の引き下げによる有権者は拡大されたもの\n目標値 60.00 60.00 60.00 60.00 の、政治関心度は全国的に低下傾向が継続しており、\n本市も同様の状況と思われます。特に30歳以下の投\nA ％ 51.42 × 票率は、70歳代と比較して半分に満たない状況で\nす。関心度の低下と共に地域へ",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "5c1553bf2c13ec0eee41ea61",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "e08906d0f3d6f0a51b2360cd4e37766cce80357b28d9c38cfa54fb7c0aa25c09",
+    "rows": [
+      {
+        "name": "合生文化会館運営事業",
+        "start": 80,
+        "raw": "事務事業名 合生文化会館運営事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "5de04c7ea16e12ac8295ef34",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "b4415d6aed40ff87908d89af1c9ec44bfda9bd0fc0cd004e475b8e890c03b432",
+    "rows": [
+      {
+        "name": "学校施設保守点検事業",
+        "start": 80,
+        "raw": "事務事業名 学校施設保守点検事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "67917c36b2dbede7814cd912",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート",
+    "fullTextSha256": "d65f329f80eef7da720d2cfcf8dc689a6d82ed43ef11b972693a02e9d47635a8",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート\nシート１ 施策15：防犯・交通安全対策の推進\n（令和６年度目標達成度評価）\n施策体系\n基本方針 4 生活環境の健幸 施策名 15 防犯・交通安全対策の推進\n施策統括部 総務部 学校教育課\n関係課\n施策主管課 安全安心課\n１ 施策の評価指標\n成果指標 単位\nA 防犯カメラ設置支援助成事業 基\nB 防犯団体（未登録団体含む）の数 団体\nC 市内の交通人身事故件数 回\nD 消費生活センター相談数 件\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n導入を検討していた区については、本補助事業による防犯カ\n目標値 8 10 12 14\nメラの設置が進んだことから申請数が減少しました。また、\nA 基 7 × 各区においてプライバシー侵害の懸念、管理や運用ルールな\nど、地域の合意形成を得てから申請する必要があるため年毎\n実績値 2 に申請数にばらつきがあります。\n目標値 30 31 32 33 高齢者雇用の拡大など、就労年齢の高齢化により、防\n犯団体メンバーとして活動できる新たな人材の確保に\nB 団体 ",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "69387c584734eb45f985895c",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "555ef54dd483f8501ce02a0ba55330f06a8223fd6b637fdf16fa0ef685fb89f1",
+    "rows": [
+      {
+        "name": "住宅新築資金等貸付金回収事業",
+        "start": 80,
+        "raw": "事務事業名 住宅新築資金等貸付金回収事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "69da29cef617ad04f2ac32fd",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート",
+    "fullTextSha256": "682c494ea1a3d97373735499a8800edab573b156f200e987826a78e5fc846170",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート\nシート１ 施策21：計画的な道路の整備\n（令和６年度目標達成度評価）\n施策体系\n基本方針 5 都市基盤の健幸 施策名 21 計画的な道路の整備\n施策統括部 都市建設部 用地対策室\n関係課\n施策主管課 建設課\n１ 施策の評価指標\n成果指標 単位\nA 舗装維持管理計画（５カ年）の進捗 ％\nB 管理瑕疵が起因となった事故 件\nC\nD\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n舗装維持管理計画は5年間の計画であるため、R3年度\n目標値 80 100 20 40 ～R7年度、R8年度～R12年度と目標値を設定した。\nA ％ 14 × 社会資本整備総合交付金（竹迫第二テクノ線、建山黒\n石原線、上群中林線等）の重点整備を行ったことによ\n実績値 28\nり市道舗装事業が伸びなかったため。\n目標値 0 0 0 0 住宅開発や企業の集積等に伴う交通量の増加、また、\nB 件 1 × 短時間豪雨などの気象の影響も一因となり、路面の劣\n化が進行しているため。\n実績値 7\n目標値\nC\n実績値\n目標値\nD\n実績値\n",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "6ac612732b65f82ccb46e577",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート 施策18：廃棄物の抑制とリサイクルの",
+    "fullTextSha256": "28f98a12cacf1d90620bd90d3f4d047b19ad1762bc0c92acfe67be60829bf7f9",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート 施策18：廃棄物の抑制とリサイクルの\nシート１\n（令和６年度目標達成度評価） 推進\n施策体系\n基本方針 4 生活環境の健幸 施策名 18 廃棄物の抑制とリサイクルの推進\n施策統括部 市民生活部 無し\n関係課\n施策主管課 環境衛生課\n１ 施策の評価指標\n成果指標 単位\nA 一人当たりの年間廃棄物排出量（燃えるごみ、再生資源物など回収された全てのごみ） kg\nB 一事業所当たりの年間廃棄物排出量 kg\nC 一般廃棄物のリサイクル率（事業系を除く） ％\nD\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\nごみの分別によるリサイクル、生ごみ削減などに取り\n目標値 192.6 192.5 192.4 192.3 組まれる市民の増加で燃えるごみを含めた、ごみの総\nA kg 199.7 〇 量が減少しています。なお、ごみ減少の背景には、有\n価物を民間の無料・有料回収所へ出す市民が増えてい\n実績値 186.9\nるのも一因と思われます。\n事業所ごみの総量は増加していますが、事業所数が増\n目標値 4,275 ",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "6c106cf6b6caf530c6a15cd9",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "91500ae931d092b9053cfaf7ce50411b4dd434f45c9d33ad40f1f3a9e882fd6d",
+    "rows": [
+      {
+        "name": "セイフティパトロール事業",
+        "start": 80,
+        "raw": "事務事業名 セイフティパトロール事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "71a235e4f643d3fca7f761c2",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート",
+    "fullTextSha256": "e6c74fba2eacd7ba90af2bd6225ffeb344b56a1f4e2534345c7442a5d14777bf",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート\nシート１ 施策3：持続可能な財政運営\n（令和６年度目標達成度評価）\n施策体系\n基本方針 1 自治の健幸 施策名 3 持続可能な財政運営\n施策統括部 総務部 総務課・秘書政策課・税務課・都市計画課・会計課\n関係課 ・人権啓発教育課\n施策主管課 財政課\n１ 施策の評価指標\n成果指標 単位\nA 基金残高（財政調整基金） 百万円\nB 実質公債費比率 ％\nC 市税の収納率（現年度）＊国保税を除く ％\nD\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n繰入額約1億6千万円に対し積立額が約7億17百万円となり、\n目標値 3,645 2,861 3,621 3,514 差引5億57百万円の積み増しとなり目標を達成しました。要\n因は、積立金の基礎額となるR５年度決算における実質収支\nA 百万円 4,069 ○ 額が14億24百万円となり、人口増加に伴う固定資産税収増\n実績値 4,859 などにより繰入金（取り崩し）が積立金に対して少額で あっ\nたことによるものです。\nR4～R6平均値（年度）で算出され、R",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "74c3743d4758dcfc80e3be41",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "b4db9198f8c8e83b6db0f5486a49ee0053ce5fcf15164cf8564eb49a9b4cffee",
+    "rows": [
+      {
+        "name": "社会教育委員活動事業",
+        "start": 80,
+        "raw": "事務事業名 社会教育委員活動事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "78c35ba5135afacee7645f23",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート",
+    "fullTextSha256": "d163c84bd230ffc003bbfb8507eb2f4d2548057d07c3d84252fe074029cb0c24",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート\nシート１ 施策23：農業の振興\n（令和６年度目標達成度評価）\n施策体系\n基本方針 6 産業の健幸 施策名 23 農業の振興\n施策統括部 産業振興部 商工振興課、農業委員会\n関係課\n施策主管課 農政課\n１ 施策の評価指標\n成果指標 単位\nA 認定農業者数 人\nB 生産農業所得（認定農業者１戸あたり） 万円\nC 認定農業者の法人化率 ％\nD\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n目標値 262 264 266 268 新規就農者並びに市外在住の農業者を認定し\nた件数により増加となっています。今後は高\nA 人 258 〇\n齢化、高齢者の離農等の理由により減少が考\n実績値 274\nえられます。\n目標値 619 626 633 640 米をはじめ、農作物の単価があがったことが要因\nB 万円 612 〇 です。一方、高齢化や後継者不足、生産資材価格\n実績値 692 の高騰、気候変動など様々な課題があります。\n目標値 22.0 23.0 24.0 27.0 地域の農業団体を法人化に移行し、農業",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "79b4f45c82a9739db183b9f3",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート",
+    "fullTextSha256": "ccd7d04210fbe52d080f74687361795d1357896ed32532fff5851ebb18016832",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート\nシート１ 施策7：高齢者の自立と支援体制の充実\n（令和６年度目標達成度評価）\n施策体系\n基本方針 2 福祉の健幸 施策名 7 高齢者の自立と支援体制の充実\n施策統括部 健康福祉部 無し\n関係課\n施策主管課 高齢者支援課\n１ 施策の評価指標\n成果指標 単位\n人\nA 通いの場の参加者数 （延べ）\nB 要支援・要介護認定率（第１号被保険者） ％\nC 平均自立期間（要介護２以上）男性 歳\nD 平均自立期間（要介護２以上）女性 歳\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n新型コロナウイルス感染症が５類移行したこと\n目標値 8,200 8,400 8,600 8,600 で、ほとんどの団体で活動が再開でき、前年度か\nA 人 7,842 △ ら微増しています。しかし、支え手不足等により\n実績値 7,824 活動中止となった団体もおり、目標達成には至っ\nていません。\n令和６年度は目標値に達成しましたが、年々上昇傾向\n目標値 18.7 19.1 19.4 19.7 にあります。令和5年5月より新型コ",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "7c493b9b3fe8a75c121f84d8",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "40f6a416f0934d42a15319b58371e268bd1bd5d1ae664a1849e29be797d8d872",
+    "rows": [
+      {
+        "name": "適応指導教室事業",
+        "start": 80,
+        "raw": "事務事業名 適応指導教室事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "7ff22702f7eeb941c022bc28",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート",
+    "fullTextSha256": "dd87049ad715edfbc7736dd7e6d41fc5f2703446937011cde6605c62c5fb3772",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート\nシート１ 施策5：こども・子育て支援の充実\n（令和６年度目標達成度評価）\n施策体系\n基本方針 2 福祉の健幸 施策名 5 こども・子育て支援の充実\n施策統括部 こども部 こども家庭課、学校教育課、生涯学習課、人権啓発教育\n関係課 課\n施策主管課 こども未来課\n１ 施策の評価指標\n成果指標 単位\nA 産婦・２ヶ月児訪問数 人\nB 保育所等待機児童数 人\nC 放課後児童クラブ待機児童数 人\nD 地域見守りサポーター養成講座受講者数 人\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n目標値 590 600 610 620 出生数の減少に伴い、対象となる産婦・乳児\nが減少していると考えられます。（訪問数は\nA 人 558 ×\n目標に達成していませんが、全ての対象世帯\n実績値 535\nへの訪問は実施できている状況です。）\n目標値 0 0 0 0 認可保育施設だけではなく、企業主導型保育施設\nや事業所内保育施設、幼稚園の預かり保育等、多\nB 人 4 〇\n様な保育サービスの充実により、保護者の選択肢\n",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "818746b003cf3f395cae5966",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート",
+    "fullTextSha256": "27a19d464b31f12d11c9b8fbf1f817d26cee6984ece389023fb7c218a626a0f8",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート\nシート１ 施策９：義務教育の充実\n（令和６年度目標達成度評価）\n施策体系\n基本方針 3 教育の健幸 施策名 9 義務教育の充実\n施策統括部 教育部 農政課\n関係課\n施策主管課 学校教育課\n１ 施策の評価指標\n成果指標 単位\n標準\nA 市標準学力調査(CRT)において全国標準値を５０とした場合の児童・生徒の総合学力の平均値（標準スコア） スコア\nB 教育保障ができていない不登校児童・生徒数 人\nC いじめ暴力等の問題行動を市教委に口頭報告・相談した件数 件\nD 新体力テストの総合評価でA～C判定の児童・生徒の割合 ％\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n学力については、市全体として目標値に達していません。学\n目標値 51.50 51.60 51.70 51.80\n標準 校・学年・学級間で格差があり、教職員不足や家庭学習の未\nA スコ 51.30 × 定着等も要因として考えられますが、「志合わせ夢実現プロ\nア ジェクト」の浸透により、学習規律の定着度は年々高まって\n実績値 49.2",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "8718c6ddff7528cff585eb1f",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート 施策13：歴史・伝統・文化を活かした",
+    "fullTextSha256": "cdbedad7736bbcb9c60faacdcbdf8d2a27fc863119df430c22bfb396eeaedce6",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート 施策13：歴史・伝統・文化を活かした\nシート１\n（令和６年度目標達成度評価） 郷土愛の醸成\n施策体系\n基本方針 3 教育の健幸 施策名 13 歴史・伝統・文化を活かした郷土愛の醸成\n施策統括部 教育部 商工振興課\n関係課\n施策主管課 生涯学習課\n１ 施策の評価指標\n成果指標 単位\nA 学校への郷土学習実施校数 校\nB 指定文化財件数 件\nC\nD\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n基本的に、小学校３年生の社会科「昔の道具とく\n目標値 9 10 11 12 らし」の学習で行われることが多く、中学校との\nA 校 8 〇 関りが少ないのが現状。今後は、学校と協議しな\n実績値 9 がら、出前講座や展示物の貸し出しなどによる普\n及を検討していきたい。\n目標値 25 25 26 27 未指定文化財の中で市指定文化財同等の価値\nを持つ文化財はあるものの新たな指定に至っ\nB 件 25 〇\nていない。今後とも文化財保護委員と意見交\n実績値 25\n換を行いながら進めます。\n目標値\nC\n実績値\n目標",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "946a8d5f1e031bceb4513f3e",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "b7144acb2d166dff9822f21f9c28fc71104280a4486c2241905471b23ce79fe4",
+    "rows": [
+      {
+        "name": "スクールバス運行管理事業",
+        "start": 80,
+        "raw": "事務事業名 スクールバス運行管理事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "971618e4fc4fd0f2aff88305",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート",
+    "fullTextSha256": "a4ead24c77dd9b416b5c12844b15f80661184dd8591ebb7df43c1e362e027a8d",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート\nシート１ 施策22：公共交通の充実\n（令和６年度目標達成度評価）\n施策体系\n基本方針 5 都市基盤の健幸 施策名 22 公共交通の充実\n施策統括部 市長公室 無し\n関係課\n施策主管課 企画課\n１ 施策の評価指標\n成果指標 単位\nA レターバス利用者数 人\nB 乗合タクシー利用者数 人\nC\nD\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n目標値 80,160 83,040 85,920 88,800\nコロナ過が明け、外出機会が増えたことや、土日\nA 人 74,405 〇 の運行を設定したことで商業施設等の利用機会が\n実績値 84,447 増えたことが要因と考えます。\n目標値 3,610 3,740 3,870 4,000 コロナ過が明け、外出機会が増えたことや、市内\nB 人 3,351 〇 に数カ所商業施設ができたことで、買い物客の利\n実績値 3,928 用が増えたことが要因と考えます。\n目標値\nC\n実績値\n目標値\nD\n実績値\n※【評価】 ○；目標達成 △；目標をほぼ達成（－5％） ×；",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "984135b78333ad0fb1550fb2",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "1a23becc5b01eb9cd7129b8998c6e7e510a88a37aa7a3423e1bbfde2c1eb27e3",
+    "rows": [
+      {
+        "name": "日本スポーツ振興センター共済加入事業",
+        "start": 80,
+        "raw": "事務事業名 日本スポーツ振興センター共済加入事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "9e7c9e674f39f45895652baa",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート",
+    "fullTextSha256": "31e57db3822eb9a01414c188d2fdb06455887ed1998754ca8348508217badbe4",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート\nシート１ 施策4：地域福祉の推進\n（令和６年度目標達成度評価）\n施策体系\n基本方針 2 福祉の健幸 施策名 4 地域福祉の推進\n施策統括部 健康福祉部 総務課\n関係課\n施策主管課 福祉課\n１ 施策の評価指標\n成果指標 単位\nA 包括的支援相談新規件数 件\nB 被保護世帯のうち就労により保護廃止となった件数 件\nC 民生委員・児童委員の充足率 ％\nD\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n目標値 12 13 14 15 各課が以前から抱えていた複合的な課題があ\nり、役割分担が必要なケースは令和５年度ま\nA 件 10 ×\nでに把握ができたため、目標には達しません\n実績値 9\nでした。\n目標値 4 4 5 5 就労支援員の就労に向けた働きかけや、ケース\nワーカーの支援等による本人の就労意欲の向上に\nB 件 3 〇\nより、新たな就労や、継続してきた就労の収入増\n実績値 5 につながり、保護廃止となりました。\n目標値 100.0 100.0 100.0 100.0 目標は100％としている",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "a3508bed2aabe7d6d0dd2fd6",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "4393979486142b9ebcde7355b55b928041c2992ba5df0c7f3920c76e555dc498",
+    "rows": [
+      {
+        "name": "小中学校教育振興用資機材購入事業",
+        "start": 80,
+        "raw": "事務事業名 小中学校教育振興用資機材購入事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "a434d316aa835559e5dddf7c",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "648148f348cbb1cf221a9eb13dfe1e0bc46c1f1ae9ffe92b927bde9dc8c83601",
+    "rows": [
+      {
+        "name": "小中学校施設維持管理事業",
+        "start": 80,
+        "raw": "事務事業名 小中学校施設維持管理事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "a7472c219c3e3ad4c74208bb",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート",
+    "fullTextSha256": "721aa1aa3cad233af73bd5bea97c60a9815234d1e45785b09ec6057de2ba24e4",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート\nシート１ 施策14：防災・危機管理対策の推進\n（令和６年度目標達成度評価）\n施策体系\n基本方針 4 生活環境の健幸 施策名 14 防災・危機管理対策の推進\n施策統括部 総務部 総務課、農政課、建設課、都市計画課、福祉課\n関係課\n施策主管課 安全安心課\n１ 施策の評価指標\n成果指標 単位\nA 自主防災組織数 行政区\nB 合志市防災士協議会会員数 人\nC 対象建築物のうち耐震化された建築物の割合 ％\nD\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n大規模災害の発生、経験による地域住民の防災意識の高まり\n目標値 61 64 67 69 と共に全地域への自主防災組織設置に向けて、各自治会での\n自主防災組織の設置の推進、支援を実施しています。防災対\nA 行政区 59 ○ 策支援官を雇用し、組織未設立の自治会に働きかけ、設立に\n実績値 61 向けた計画作成など地域の状況に合わせて細かな支援を行い\n設立に繋げています。\n防災意識の高まりを受け、地域や職場での防災リーダーとし\n目標値 180 220 ",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "b2f2ac5e671497094fbcffb9",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "評価対象となる評価対象となる市の活動（事務や事業）の名称です。",
+    "fullTextSha256": "3bf71a75bde67d676111d8e04264f10df8ba85593ececd5fb5742d55ea20a51d",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "評価対象となる評価対象となる市の活動（事務や事業）の名称です。\nこの事務事業が総合計画の体系のどの「政策」\n・「施策」・\nこの事務事業を実施している 部署です。\n「基本事業」に位置づけられているかを記載しています。\n事務事業の具体的なやり方や手順などの概要、予算費目などを記載しています。\n事務事業の具体的なやり方や手順などの概要、予算費目などを記載しています。\n令和◎年度に計画している活動を記載しています。 予算額が変わる理由を記載しています。\n目標に対してどれだけ 達成されたか（成果）を把握するための 指標とその単位です。\n成果指標の実績・計画・見込数値を記載しています。\n事業費は、この事務事業を実施するための事業費を、財源ごとに千円単\n位で記載しています。過年度については実績額、現年度については当初\n予算額、次年度以降については見込み額を記載しています。\n全体総括を記載しています。\n今後の事業の方向性（廃止、スク省、改善、現状維持）を記載しています。",
+        "reason": "Instructions explaining how to read management sheets; no actual business title/year or performance record."
+      }
+    ]
+  },
+  {
+    "sourceId": "c5c2708212a4e1c61ba70ea9",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート",
+    "fullTextSha256": "5205e011473d878e32da77e13c35601b4d55ad634eaf754d7758bc67af980e6a",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート\nシート１ 施策1：市民参画によるまちづくりの推進\n（令和６年度目標達成度評価）\n施策体系\n基本方針 1 自治の健幸 施策名 1 市民参画によるまちづくりの推進\n施策統括部 市長公室 総務課、秘書政策課、商工振興課、生涯学習課\n関係課\n施策主管課 企画課\n１ 施策の評価指標\n成果指標 単位\nA 選挙投票率 ％\nB 市ホームページ閲覧数 回\nC 自治会（区）の加入率 ％\nD\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n選挙権年齢の引き下げによる有権者は拡大されたもの\n目標値 60.00 60.00 60.00 60.00 の、政治関心度は全国的に低下傾向が継続しており、\n本市も同様の状況と思われます。特に30歳以下の投\nA ％ 51.42 × 票率は、70歳代と比較して半分に満たない状況で\nす。関心度の低下と共に地域への繋がりなどの希薄化\n実績値 52.84 の進行、転入者などの地元愛着が僅少な層の増加など\nが主な要因と考えられます。\n実績値については、本市ホームページのトップページ\n目標",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "ce0828abf37463091240ae88",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "606bda0509afecba1461e71e3a41f09d15b7cbdc4f2ebeef845733933c6d8ae7",
+    "rows": [
+      {
+        "name": "校舎等施設修繕事業",
+        "start": 80,
+        "raw": "事務事業名 校舎等施設修繕事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "d3da76da71229750ccea0bf3",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "fdc750a3699d41736b0dbd10e52849e0150812610596b40263dad1b9ad85bb37",
+    "rows": [
+      {
+        "name": "地域改善対策高等学校等奨学資金返還事務事業",
+        "start": 80,
+        "raw": "事務事業名 地域改善対策高等学校等奨学資金返還事務事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "d51f10c550fc61ceea11fab3",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "935173d74735fa0d29da95444111c48299ca31521f33458f1148de0d255d25f2",
+    "rows": [
+      {
+        "name": "人権ふれあいセンター運営事業",
+        "start": 80,
+        "raw": "事務事業名 人権ふれあいセンター運営事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "d7bf4c5e0adb9b5eb3b05ec7",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "6efd1f2e7e08c9df87ea23d29b39f3b9be698f7fe3d6a0f0e914801d6a4c8ad1",
+    "rows": [
+      {
+        "name": "教育のＩＴ化推進事業",
+        "start": 80,
+        "raw": "事務事業名 教育のＩＴ化推進事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "db48a8ba0334e695ac7b7488",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "c14582bd2a3d4cff0c2f05658ae2682b1aa7bae341af7044b9a33655cb64f9c8",
+    "rows": [
+      {
+        "name": "給食費徴収事業",
+        "start": 80,
+        "raw": "事務事業名 給食費徴収事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "de62530642acb5f216a7d471",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート",
+    "fullTextSha256": "b2e88cb2a70efd190e811df63c059234241f526c53ad8da764b77491a2ab3e2a",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート\nシート１ 施策20：計画的な土地利用の推進\n（令和６年度目標達成度評価）\n施策体系\n基本方針 5 都市基盤の健幸 施策名 20 計画的な土地利用の推進\n施策統括部 都市建設部 農政課、農業委員会、都市整備室\n関係課\n施策主管課 都市計画課\n１ 施策の評価指標\n成果指標 単位\nA 市街化区域で有効に市街化がなされている土地の割合 ％\nB 市街化調整区域で開発（地区計画）を誘導した面積 ha\nC 土地区画整理事業の進捗率（仮換地指定率） ％\nD 遊休農地面積 ha\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n住み良い街としての認知や大手半導体企業の進出等の\n目標値 87.0 87.0 87.0 87.0 影響により、市内全域において、宅地の需要が高い状\nA ％ 86.9 〇 況です。そのような中、市街化区域内においては、開\n発可能な未利用地が少なくなってきており、新たに開\n実績値 88.5\n発された面積は横ばい傾向となっています。\n目標値 13 16 19 22 良好な居住地と生活利便施設",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "df30774cea571bc5a8c4aa21",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート",
+    "fullTextSha256": "3b9adc7184066a1dbf463a54a9679a1a35cf4a70eea74cd0ea65240b28563a37",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート\nシート１ 施策2：行政経営の推進・改革\n（令和６年度目標達成度評価）\n施策体系\n基本方針 1 自治の健幸 施策名 2 行政経営の推進・改革\n議会事務局、総務課、秘書政策課、管財課、市民課、西合志総\n施策統括部 市長公室 合窓口課、税務課、環境衛生課、高齢者支援課、健康ほけん\n関係課 課、商工振興課、建設課、会計課、監査委員事務局、財政課\n施策主管課 企画課\n１ 施策の評価指標\n成果指標 単位\nA マイナンバーカードの交付率 ％\nB 人口1,000人当たり職員数 人\nC 公共施設の更新・長寿命化実施事業棟数 棟\nD\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n目標値 75.00 85.00 95.00 100.0\n令和３年度に開始したマインバーカードの健康保\nA ％ 69.7 〇\n険証利用等により直近の交付率は伸びています。\n実績値 88.70\n目標値 4.90 4.80 5.00 5.00 定年年齢の延長により、令和6年度は定年退職者が発\n生しない年であったことが、目標を達成した要因と",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "e03ab165a9bdb3cbfc9e8048",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート",
+    "fullTextSha256": "4381cb9a5000afd56bcc31d8071fb81e30a5ff27c4d669de31607bd0c4c64ef5",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート\nシート１ 施策6：健康づくりの推進\n（令和６年度目標達成度評価）\n施策体系\n基本方針 2 福祉の健幸 施策名 6 健康づくりの推進\n施策統括部 健康福祉部 秘書政策課、税務課、学校教育課、こども家庭課、\n関係課 こども未来課\n施策主管課 健康ほけん課\n１ 施策の評価指標\n成果指標 単位\nA 特定健康診査受診率 ％\nB 後期高齢者健康診査受診率 ％\nC 国民健康保険の一人当たりの医療費 円\nD 後期高齢者医療保険の一人当たりの医療費 円\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n目標値 33.5 34.0 34.5 35.0 様々な未受診者対策を実施し、受診率向上に努め\nているため、若干受診率は向上しています。\nA ％ 32.2 △\n（※Ｒ6年度の実績値について、数値確定が\n実績値 33.0 １０月のため、Ｒ５年度の実績とします。）\n受診者も増加しているが、後期高齢者健診対象者\n目標値 20.0 20.0 20.0 20.0 が増えているため、受診率は横ばいとなっていま\nB ％ 16.",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "e37c28536d9d22019f8c0308",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート",
+    "fullTextSha256": "72b46f8c92de635b382f26f3131f4485846314c5c39c35f6a8fa82ab1d9dec31",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート\nシート１ 施策16：住環境の充実\n（令和６年度目標達成度評価）\n施策体系\n基本方針 4 生活環境の健幸 施策名 16 住環境の充実\n施策統括部 都市建設部 安全安心課、企画課、環境衛生課、農政課、建設課、下\n関係課 水道課\n施策主管課 都市計画課\n１ 施策の評価指標\n成果指標 単位\nA 人口一人当たりの公園面積 ㎡\nB 優良な管理住宅戸数の割合 ％\nC 特定空家の認定を解除した数 件\nD\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n国道57号大津熊本道路（中九州横断道路）の施\n目標値 10 10 10 10 行に伴い総合運動公園を廃止したことにより都市\nA ㎡ 10 △ 公園面積が減少しました。既存公園の拡張・再整\n実績値 9 備等を検討し、公園機能の確保に努めていきま\nす。\n目標値 76.8 76.8 76.8 85.0 長寿命化計画に基づき用途廃止予定の空き部屋解\n体を進めているが、合生住宅建替事業の事業費の\nB ％ 76.8 △\n高騰に伴い、空き部屋解体の戸数を減らし事業を\n実績",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "e8d311ffaffb020408b39d9a",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "e2989056164b0a43b2de5e4b89f30694fb64245b15bc37b8c0b3f2f463ef0a67",
+    "rows": [
+      {
+        "name": "小中学校学力等検査事業",
+        "start": 80,
+        "raw": "事務事業名 小中学校学力等検査事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "edb57760477d949759e59220",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "224c235395236b51ed927053ccc60d5e63691bd7d08014eceb66fcfadbed21c7",
+    "rows": [
+      {
+        "name": "外国語指導助手配置事業",
+        "start": 80,
+        "raw": "事務事業名 外国語指導助手配置事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "ee6ccea3e7197f54e24441fc",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "65a367e744e03dc03ba36a471acc98bdb357e7c6879aa74b1f8afd05aadeea9b",
+    "rows": [
+      {
+        "name": "小中学校特別支援教育支援事業",
+        "start": 80,
+        "raw": "事務事業名 小中学校特別支援教育支援事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "ee8e39265a49043f86423fb0",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "1b527d7fd39364415512304270e7dec7c10cc9e178c859d21921ec90baea423e",
+    "rows": [
+      {
+        "name": "小中学校ICT機器整備事業",
+        "start": 80,
+        "raw": "事務事業名 小中学校ICT機器整備事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "f1de991fc449925014291805",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート",
+    "fullTextSha256": "79301797b11836339c7a19b48b19cebf1aebc70bfea741ab785e8a49f3df5acb",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート\nシート１ 施策12：人権が尊重される社会づくり\n（令和６年度目標達成度評価）\n施策体系\n基本方針 3 教育の健幸 施策名 12 人権が尊重される社会づくり\n施策統括部 教育部 総務課\n関係課\n施策主管課 人権啓発教育課\n１ 施策の評価指標\n成果指標 単位\nA 「合志市人権フェスティバル」に初めて参加した人の人数 人\nB 審議会など、委員への女性登用率 ％\nC\nD\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n人権フェスティバル参加者数は1,001人で、前年度を\n上回りました。アンケートで、「初めて参加した人\n目標値 400 415 430 450\n数」は374人と目標値には届かなかったものの、アン\nケート回収率は62%であり、設問に対する「初めて参\nA 人 ― △ 加した」と回答した割合が57%と最も高かったことか\nら実績値は目標値を超えていると考えられ、地道な取\n実績値 374 り組みが市民の人権に対する意識の向上に繋がってき\nていると考えています。\n目標値 34.0 36.0 38.",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "f2a6fbfb3a5381892a246c65",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "4d4c4da1fe23edaf841d83f698bca7ad676042e71acb9f5b655b20fcd0fc6ef9",
+    "rows": [
+      {
+        "name": "要保護及び準要保護児童生徒就学支援事業",
+        "start": 80,
+        "raw": "事務事業名 要保護及び準要保護児童生徒就学支援事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "f8282f71f36678e02c5230a8",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "102c51004acc97d21c4a2616e9a78b67abfc9ce77c91170b8c63de52b3bc2ccd",
+    "rows": [
+      {
+        "name": "教育長交際事業",
+        "start": 80,
+        "raw": "事務事業名 教育長交際事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "fafb5f7015d53339cb403da9",
+    "municipalityCode": "43216",
+    "year": null,
+    "proof": "施策マネジメントシート",
+    "fullTextSha256": "3c7f3dd35e673f808b4dcf8047dccd8b5d446764f7c91f0b4cf2d9167f7cfcbc",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "施策マネジメントシート\nシート１ 施策11：生涯スポーツの推進\n（令和６年度目標達成度評価）\n施策体系\n基本方針 3 教育の健幸 施策名 11 生涯スポーツの推進\n施策統括部 教育部 無し\n関係課\n施策主管課 生涯学習課\n１ 施策の評価指標\n成果指標 単位\nA 総合型地域スポーツクラブ会員数 人\nB 体育施設の延べ利用者数 人\nC\nD\n2 指標等の推移\n成果 R4年度\n数値区分 ６年度 ７年度 ８年度 ９年度 評価 背景として考えられること\n指標 実績値\n目標値 1,250 1,300 1,350 1,400 パンフレットやホームページによる周知啓発に加\nえ、様々な内容の体験教室等の実施や教室の増\nA 人 1,169 △\n加、内容の充実など取り組んできた成果ととらえ\n実績値 1,244 ています。\n目標値 3,600,000 3,800,000 4,200,000 4,500,000 総合運動公園の廃止による体育施設の減少、及びそれに伴う\n近隣市町の施設への流出等が要因と考えられます。今後、恵\nB 人 3,465,467 △ 楓園グラウンドの整備に加え、予約システムの導入等、市民\n実績",
+        "reason": "Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage."
+      }
+    ]
+  },
+  {
+    "sourceId": "fe519fee80a6fa9e12352561",
+    "municipalityCode": "43216",
+    "year": 2024,
+    "proof": "事務事業マネジメントシート(令和 6年度実績と令和 7年度計画)",
+    "fullTextSha256": "639a8f996dc6c0b78ee7f67eaa55fa4c4dde73990a0e3327669f60834bdbd088",
+    "rows": [
+      {
+        "name": "教職員研修・各種部会等参画事業",
+        "start": 80,
+        "raw": "事務事業名 教職員研修・各種部会等参画事業",
+        "note": "令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。"
+      }
+    ],
+    "holds": [],
+    "evaluationYear": 2025
+  },
+  {
+    "sourceId": "3396692f56d73709c1a30b4d",
+    "municipalityCode": "43205",
+    "year": 2010,
+    "proof": "（平成２２年度実績）",
+    "fullTextSha256": "b9b209284c1d2119dfcbdcb0653afef2f8f17611b2faf696285e2ac042ec6fc4",
+    "rows": [
+      {
+        "name": "小中学校再編成推進事業",
+        "start": 1566,
+        "raw": "小中学校再編成推進事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "小中学校耐震化推進事業",
+        "start": 3809,
+        "raw": "小中学校耐震化推進事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "学校エコ改修と環境教育事業",
+        "start": 6146,
+        "raw": "学校エコ改修と環境教育事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "日本一の読書のまちづくり",
+        "start": 10216,
+        "raw": "日本一の読書のまちづくり",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "学力向上対策事業",
+        "start": 14208,
+        "raw": "学力向上対策事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "いじめ、虐待、不登校児童生徒対策",
+        "start": 18143,
+        "raw": "いじめ、虐待、不登校児童生徒対策",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "環境教育（学校版環境ＩＳＯ）の推進",
+        "start": 21618,
+        "raw": "環境教育（学校版環境ＩＳＯ）の推進",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "人権教育推進事業",
+        "start": 24467,
+        "raw": "人権教育推進事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "文化会館自主文化事業",
+        "start": 27280,
+        "raw": "文化会館自主文化事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "公民館自主事業",
+        "start": 30625,
+        "raw": "公民館自主事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "市民スポーツの推進とスポーツ振興計画策定",
+        "start": 33149,
+        "raw": "市民スポーツの推進とスポーツ振興計画策定",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "給食センターにおける食育・地産地消推進事業",
+        "start": 35440,
+        "raw": "給食センターにおける食育・地産地消推進事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "第66回熊本県民体育祭水俣市・葦北郡大会開催準備",
+        "start": 37900,
+        "raw": "第66回熊本県民体育祭水俣市・葦北郡大会開催準備",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      }
+    ],
+    "holds": []
+  },
+  {
+    "sourceId": "8e8fbadc886f8bee00e099c6",
+    "municipalityCode": "43205",
+    "year": 2011,
+    "proof": "（平成２３年度実績）",
+    "fullTextSha256": "6528163bf561f91bebf0fc3022189c9b74db978656d08f5a9338d1ea61d8eef8",
+    "rows": [
+      {
+        "name": "小中学校耐震化推進事業",
+        "start": 1893,
+        "raw": "小中学校耐震化推進事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "学校エコ改修と環境教育事業",
+        "start": 3666,
+        "raw": "学校エコ改修と環境教育事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "学力向上対策事業",
+        "start": 6471,
+        "raw": "学力向上対策事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "いじめ、虐待、不登校児童生徒対策の充実",
+        "start": 8778,
+        "raw": "いじめ、虐待、不登校児童生徒対策の充実",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "環境教育（学校版環境ＩＳＯ）の推進",
+        "start": 10906,
+        "raw": "環境教育（学校版環境ＩＳＯ）の推進",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "日本一の読書のまちづくり",
+        "start": 13431,
+        "raw": "日本一の読書のまちづくり",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "人権教育推進事業",
+        "start": 16992,
+        "raw": "人権教育推進事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "文化会館自主文化事業",
+        "start": 19216,
+        "raw": "文化会館自主文化事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "公民館自主文化事業",
+        "start": 21913,
+        "raw": "公民館自主文化事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "市民スポーツの推進",
+        "start": 24266,
+        "raw": "市民スポーツの推進",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "第６６回熊本県民体育祭水俣市・葦北郡大会開催",
+        "start": 26304,
+        "raw": "第６６回熊本県民体育祭水俣市・葦北郡大会開催",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "給食センターでの食育推進・地産地消推進事業",
+        "start": 28765,
+        "raw": "給食センターでの食育推進・地産地消推進事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      }
+    ],
+    "holds": []
+  },
+  {
+    "sourceId": "db9c71d2a27e44b522c02cfd",
+    "municipalityCode": "43205",
+    "year": 2012,
+    "proof": "（平成２４年度実績）",
+    "fullTextSha256": "34c626f25f4d12a16b92cc63ffdbf7a75d4f50fc805a259db8b5d1e2171ce933",
+    "rows": [
+      {
+        "name": "小中学校耐震化推進事業",
+        "start": 1820,
+        "raw": "小中学校耐震化推進事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "学力向上対策事業",
+        "start": 3651,
+        "raw": "学力向上対策事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "いじめ、虐待、不登校児童生徒対策の充実",
+        "start": 6335,
+        "raw": "いじめ、虐待、不登校児童生徒対策の充実",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "環境教育（学校版環境ＩＳＯ）の推進",
+        "start": 8747,
+        "raw": "環境教育（学校版環境ＩＳＯ）の推進",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "給食センターでの食育推進・地産地消推進事業",
+        "start": 11204,
+        "raw": "給食センターでの食育推進・地産地消推進事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "日本一の読書のまちづくり",
+        "start": 13786,
+        "raw": "日本一の読書のまちづくり",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "人権教育推進事業",
+        "start": 17254,
+        "raw": "人権教育推進事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "文化会館自主文化事業",
+        "start": 19719,
+        "raw": "文化会館自主文化事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "公民館自主文化事業",
+        "start": 22685,
+        "raw": "公民館自主文化事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "市民スポーツの推進",
+        "start": 25171,
+        "raw": "市民スポーツの推進",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      }
+    ],
+    "holds": []
+  },
+  {
+    "sourceId": "2654b8be5ef9e0936c1fbfd0",
+    "municipalityCode": "43205",
+    "year": 2013,
+    "proof": "（平成２５年度実績）",
+    "fullTextSha256": "507424040451cff009a71114a97c753a525adcb29f162080c09ec8080c5f4192",
+    "rows": [
+      {
+        "name": "学力向上対策事業",
+        "start": 1740,
+        "raw": "学力向上対策事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "いじめ、虐待、不登校児童対策（いじめ、虐待、不登校児童生徒対策の充実）",
+        "start": 4589,
+        "raw": "いじめ、虐待、不登校児童対策（いじめ、虐待、不登校児童生徒対策の充実）",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "環境教育（学校版環境ＩＳＯ等）の推進",
+        "start": 7378,
+        "raw": "環境教育（学校版環境ＩＳＯ等）の推進",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "給食センターにおける食育・地産地消推進事業",
+        "start": 9691,
+        "raw": "給食センターにおける食育・地産地消推進事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "人権教育推進事業",
+        "start": 12235,
+        "raw": "人権教育推進事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "文化会館自主文化事業",
+        "start": 14667,
+        "raw": "文化会館自主文化事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "日本一の読書のまちづくり",
+        "start": 17567,
+        "raw": "日本一の読書のまちづくり",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "公民館自主事業",
+        "start": 20477,
+        "raw": "公民館自主事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "市民スポーツの推進",
+        "start": 22725,
+        "raw": "市民スポーツの推進",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      }
+    ],
+    "holds": [
+      {
+        "start": 29,
+        "raw": "平成２５年１１月",
+        "reason": "Cover publication year equals the full execution fiscal year while body states current FY25; preserve explicit execution FY2013, do not invent later evaluation year."
+      }
+    ]
+  },
+  {
+    "sourceId": "0faf9f5cb7ffa0e6d121506e",
+    "municipalityCode": "43205",
+    "year": 2014,
+    "proof": "（平成２６年度実績）",
+    "fullTextSha256": "702e4cb83dd860714056c69219a949143bf39f01c8e06be882ce121f5979b313",
+    "rows": [
+      {
+        "name": "小中学校施設耐震化推進事業（非構造部材）",
+        "start": 1829,
+        "raw": "小中学校施設耐震化推進事業（非構造部材）",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "学力向上対策事業",
+        "start": 3543,
+        "raw": "学力向上対策事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "いじめ、虐待、不登校児童対策事業",
+        "start": 6257,
+        "raw": "いじめ、虐待、不登校児童対策事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "環境教育（学校版環境ＩＳＯ等）の推進事業",
+        "start": 8845,
+        "raw": "環境教育（学校版環境ＩＳＯ等）の推進事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "小中学校におけるＩＣＴ化の推進事業",
+        "start": 10826,
+        "raw": "小中学校におけるＩＣＴ化の推進事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "給食センターにおける食育・地産地消推進事業",
+        "start": 12339,
+        "raw": "給食センターにおける食育・地産地消推進事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "人権教育推進事業",
+        "start": 14717,
+        "raw": "人権教育推進事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "文化会館自主文化事業",
+        "start": 17224,
+        "raw": "文化会館自主文化事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "日本一の読書のまちづくり事業",
+        "start": 19758,
+        "raw": "日本一の読書のまちづくり事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "公民館自主事業",
+        "start": 22608,
+        "raw": "公民館自主事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      },
+      {
+        "name": "生涯スポーツ活動及び競技スポーツの推進事業",
+        "start": 24655,
+        "raw": "生涯スポーツ活動及び競技スポーツの推進事業",
+        "note": "本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。"
+      }
+    ],
+    "holds": []
+  },
+  {
+    "sourceId": "8508d76439946c1d994d2ba3",
+    "municipalityCode": "43208",
+    "year": 2024,
+    "proof": "検証結果について（令和６年度）",
+    "fullTextSha256": "4e3bc6753640ce24f7b5c79779869f1ec6eacf9658feb11c50e35230a0d576ee",
+    "rows": [
+      {
+        "name": "にぎわい再創出事業",
+        "start": 124,
+        "raw": "■にぎわい再創出事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      },
+      {
+        "name": "ふるさと未来創造事業",
+        "start": 407,
+        "raw": "■ふるさと未来創造事業",
+        "note": "年度報告の明示された事業名のみ。金額・政策指標・親項目の評価は転記しない。"
+      }
+    ],
+    "holds": [
+      {
+        "start": 420,
+        "raw": "山鹿市ふるさと",
+        "reason": "Shared parent title/cost and constituent activity names: do not add another parent record or allocate total cost/KPI among two verified business headings."
+      }
+    ]
+  },
+  {
+    "sourceId": "90c6d9df1c4d30b0e4bb2c7e",
+    "municipalityCode": "43205",
+    "year": null,
+    "proof": "地方創生に関する事業の効果検証について",
+    "fullTextSha256": "7cf71e63c7cab2067766a3ae74c4cabcc1b60e33ae8d77f741691a0036236a3a",
+    "rows": [
+      {
+        "name": "過疎地域におけるICTを活用した持続可能なまちづくり事業（移住促進）",
+        "start": 498,
+        "raw": "過疎地域におけるICTを活用し\nた持続可能なまちづくり事業\n（移住促進）",
+        "note": "明示された事業実施年度を保持。後年のKPI・寄附年度・交付金額を当年度決算にしない。",
+        "year": 2022,
+        "yearProof": "2022年度"
+      },
+      {
+        "name": "「選ばれる水俣」推進事業（コンビニ交付）",
+        "start": 1781,
+        "raw": "「選ばれる水俣」推進事業\n（コンビニ交付）",
+        "note": "明示された事業実施年度を保持。後年のKPI・寄附年度・交付金額を当年度決算にしない。",
+        "year": 2024,
+        "yearProof": "2024年度"
+      },
+      {
+        "name": "道の駅みなまた再整備事業",
+        "start": 5580,
+        "raw": "道の駅みなまた再整備事業",
+        "note": "明示された事業実施年度を保持。後年のKPI・寄附年度・交付金額を当年度決算にしない。",
+        "year": 2021,
+        "yearProof": "2021年度"
+      }
+    ],
+    "holds": [
+      {
+        "start": 3861,
+        "raw": "2023年度～2024年度",
+        "reason": "Donation-use projects have a two-year implementation period with cumulative/annual policy KPIs. Individual fiscal-year execution absent; no annual record split or donation-to-cost conversion."
+      },
+      {
+        "start": 149,
+        "raw": "オンライン手続の導入による自治体と住民との接点の多様化・充実化",
+        "reason": "Contents entry without matching complete individual assessment in saved body; no record from contents only."
+      },
+      {
+        "start": 185,
+        "raw": "くまもと農地ＧＩＳを活用した情報共有化事業",
+        "reason": "Contents entry and prefecture contribution without matching individual assessment in body; no municipality implementation inferred."
+      }
+    ]
+  },
+  {
+    "sourceId": "8eef778a98f2f494527b7c05",
+    "municipalityCode": "43204",
+    "year": null,
+    "proof": "荒尾市行政経営計画",
+    "fullTextSha256": "ac6ed97ed1557c77935d1fe93071421f17cb51bafc24155bdd0c168ac94c1e36",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "参考資料 1-1\n\n荒尾市行政経営計画\n（第五次荒尾市行政改革大綱）\n実施状況報告書\n（令和７年度）\n\n令和８年３月\n荒尾市\n\n\n目次\n\n１\n\n令和７年度総括について・・・・・・・・・・・・・・・・・・・・・・・・\n\n１\n\n２\n\n実施計画の取組実績・・・・・・・・・・・・・・・・・・・・・・・・・・\n\n３\n\n３\n\n実施計画の実施状況・・・・・・・・・・・・・・・・・・・・・・・・・・\n３_１ 地域マネジメント\n\n４\n\n３_２\n３_３\n３_４\n３_５\n４\n\n組織マネジメント\n人材マネジメント\n財務マネジメント\n政策マネジメント\n\n荒尾市会計別決算等の状況・・・・・・・・・・・・・・・・・・・・・・・・\n４_１ 普通会計\n４_２ 特別会計\n４_３ 公営企業会計\n４_４ 職員数等\n\n９\n\n\n１\n\n令和７年度総括について\n\n本計画は、本市が目指す将来像の実現のため、時代の変化に対応しながら、持続可能な\n行政経営を行うとともに、市民の期待に応えるための新たなチャレンジに積極的に取り組\nむ組織へと変革することを目的として平成 31 年に策定した。\n令和 3 年 2 月には、デジタル化の急速な進展や",
+        "reason": "Administrative reform action matrix and account-wide financial summaries; numbered actions are organisational policy measures, not independently identified budget businesses. No reform/KPI row converted into project."
+      }
+    ]
+  },
+  {
+    "sourceId": "9679d349671c811581382343",
+    "municipalityCode": "43202",
+    "year": null,
+    "proof": "施策評価シート（評価対象年度：令和6年度）",
+    "fullTextSha256": "00de687e602f480fe5e4d78088d359e8d2a48fc60c57bfd159ef1234ffdbfe14",
+    "rows": [],
+    "holds": [
+      {
+        "start": 0,
+        "raw": "進捗状況：( )進んでいる\n施策評価シート（評価対象年度：令和6年度） (→)現状維持\n( )進んでいない\nR4 R5 R6 R7\n施策 施 策 名 指標 設定指標 担当部（公室） 担当課 基準値 目標値\n№ № （R2) （R7)\n進捗 進捗 進捗 進捗\n実績値 備考 実績値 備考 実績値 備考 実績値 備考\n状況 状況 状況 状況\n応募者4688、表彰98、\n感染症防止のため人権ﾌｪｽ Fes230、WEB時短18、WEB基\n7,306人 人権ﾌｪｽﾃｨﾊﾞﾙはﾗｲﾌﾞ配信の ﾃｨﾊﾞﾙの会場参加人数を制 本10、WEB高齢者40、WEB条\n① 人権に関する研修会、イベント等の参加人数 市民環境部 人権政策課 7,650人 5,545人 (↘) 5,677人 (↘) 5,827人 (↘)\n※H29～R1平均 ため算入できていない。 限し、WEBによる配信を実 例57、WEB犯罪23、ｾﾐﾅｰ①\n施。 51、ｾﾐﾅｰ②40、ｾﾐﾅｰ③78、\n地域494\n8回 表彰1、Fes1、WEB5、ｾﾐﾅｰ\n1 人権教育・啓発・擁護の推進 ② 人権に関する研修会・イベント等の開催数 市民環境部 ",
+        "reason": "Policy KPI matrix with multiyear target/actual columns; no bounded individual business-sheet identities. Policy indicators must not become projects or be assigned to similarly named projects."
+      }
+    ]
+  },
+  {
+    "sourceId": "bd1275bf2c4a4d124d4ac201",
+    "municipalityCode": "43202",
+    "year": 2024,
+    "proof": "「市民の皆様による行政評価」におけるご質問に対する回答",
+    "fullTextSha256": "0433967711e6655b299b136661d620edad107ea617fe510eedad8a7a30acfd80",
+    "rows": [
+      {
+        "name": "バドミントンアジアジュニアチャンピオンシップ誘致事業",
+        "start": 22464,
+        "raw": "バドミントンアジアジュニアチャン\n円と約2.8倍に。 連盟を２回追加で訪問したためです。\nスポーツ振興課 ピオンシップ誘致事業",
+        "note": "質問の金額を実績として採用しない。市の回答に令和6年6月・9月、令和7年1月の誘致活動を明記。既存の日本代表合宿事業とは別の明示名称。",
+        "yearProof": "３回目（令和７年１月）は、八代市を開催地とする基本合意"
+      }
+    ],
+    "holds": [
+      {
+        "start": 244,
+        "raw": "市長公室 予算額の消化率が約58%で事業内容に問題がある？又は今の\n職員採用・昇任試験事業 他方で、令和５年度に導入したテストセンター方式の弊害として、いわ\n人事課 八代市を見て応募者が少ないのか。等等の理由です。",
+        "reason": "Existing master business reference(s): 職員採用・昇任試験事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 597,
+        "raw": "市長公室 人事課 令和6年能登半島地震支援事 支援内容や現場対応内容がどの様に活かされているか知りた\nかされるほか、派遣者の経験が本市の災害対応力の強化にもつながってい\n人事課 業（職員派遣） いと思いました。",
+        "reason": "Existing master business reference(s): 令和6年能登半島地震支援事業（職員派遣）. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 922,
+        "raw": "市長公室 ティア養成講座に18000円、市職員対象「やさしい日本語講 代市を目指し、多文化共生社会の構築に向けた取組をより効果的に着実に\n国際理解と外国人支援事業\n国際課 座」27000円、講座の内容や参加人数などはわかりません 進めるため、小中学校を対象とした出前講座「異文化たいむ」などの業務",
+        "reason": "Existing master business reference(s): 国際理解と外国人支援事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 1350,
+        "raw": "市長公室 市のホームページリニューアル業務委託は必要なのでしょう\n広報広聴活動事業 トフォンに未対応であったことなどから、９年ぶりにリニューアルを実施\n秘書広報課 か。",
+        "reason": "Existing master business reference(s): 広報広聴活動事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 1634,
+        "raw": "総務企画部 い物があり、小野市長もこの点は、なぜ黒塗りにして開示し\n法令関係一般事務事業 かりやすい説明を付けたうえで、同条例に規定する非公開情報に該当する\n文書統計課 ないかの説明を逐一されると公言されています 国の施策に",
+        "reason": "Existing master business reference(s): 法令関係一般事務事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 2403,
+        "raw": "総務企画部\n行財政改革推進事業 ことの説明がありません。なので、この施策調書そのものが であり、その詳細を八代市ホームページにおいて公開しています。\nデジタル推進課",
+        "reason": "Existing master business reference(s): 行財政改革推進事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 3003,
+        "raw": "総務企画部 政改革大綱」を策定し、その施策を実現するための取組とその実施スケ\n行財政改革推進事業 施策の内容が使用料のみで取組内容が分かりません。\nデジタル推進課 ジュール等を盛り込んだ「第三次八代市行財政改革実施計画」（第２期ア",
+        "reason": "Existing master business reference(s): 行財政改革推進事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 3272,
+        "raw": "総務企画部\n行財政改革推進事業 成果が分からないため。\nデジタル推進課 【第２期アクションプランの主な成果 令和６年度】",
+        "reason": "Existing master business reference(s): 行財政改革推進事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 3518,
+        "raw": "総務企画部 726.000円で改革が可能なのでしょう可能なの。 りますが、計上している予算は、時事通信社の提供する「iJAMP」の使用料\n行財政改革推進事業\nデジタル推進課 事業内容を理解していない、誤解しているかもしれません。 であり、これは各取組の目標達成に向けた他団体の動向把握、及び補助金",
+        "reason": "Existing master business reference(s): 行財政改革推進事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 3972,
+        "raw": "総務企画部 集・閲覧を目的として活用しています。\n行財政改革推進事業 動きが見えない\nデジタル推進課 令和６年度の具体的な事業内容について、「第三次八代市行財政改革実",
+        "reason": "Existing master business reference(s): 行財政改革推進事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 4396,
+        "raw": "総務企画部 予算額の90%で完了。\n地域情報化事業 は、切替工事予定の世帯と調整がつかず工事延期となったケースや切替工\nデジタル推進課 見積が甘い？内容の変更？",
+        "reason": "Existing master business reference(s): 地域情報化事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 4578,
+        "raw": "総務企画部 うと記載がありますが、ある程度計画的に行った方が良いの 施しています。劣化調査については、実施した判定調査の結果に基づき、\n市庁舎管理運営事業（東陽支所）\n東陽支所地域振興課 ではと思いました。劣化調査の結果は活用されているので 現状分析し、総合的な評価を行い、今後の方向性を検討・計画する資料と",
+        "reason": "Existing master business reference(s): 市庁舎管理運営事業, 市庁舎管理運営事業（東陽支所）. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 4817,
+        "raw": "総務企画部 な金額であると認識しています。不用額については、支所庁舎劣化度調査\n市庁舎管理運営事業（東陽支所） た。不要額か予算の約7%。この誤差の原因が気になりまし\n東陽支所地域振興課 業務委託、河俣集会所解体アスベスト調査業務委託、河俣集会所解体工事",
+        "reason": "Existing master business reference(s): 市庁舎管理運営事業, 市庁舎管理運営事業（東陽支所）. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 5094,
+        "raw": "総務企画部 概要工事費８００億越えの予算をどう用意するおつもりなの 現在整備中の熊本市と天草市を横軸で結ぶ「熊本天草幹線道路」は、高\n八代・天草シーライン建設促進事業\n企画政策課 かを市民にもわかりやすく説明してもらいたいです。 規格道路に位置付けられており、その事業主体は、国及び県となっていま",
+        "reason": "Existing master business reference(s): 八代・天草シーライン建設促進事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 5546,
+        "raw": "総務企画部 新八代駅周辺大規模集客施設等整備 しかしながら、概算事業費を試算したところ、建設資材や人件費の高騰\n委託料に21110千円も税金が使われたのは、理解しがたい。\n企画政策課 基本計画策定事業 により、想定以上の負担が生じる見込みになったことや、県が同種の施設",
+        "reason": "Existing master business reference(s): 新八代駅周辺大規模集客施設等整備基本計画策定事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 6176,
+        "raw": "総務企画部 新八代駅周辺大規模集客施設等整備\n構想（駅周辺のみではなく）を練る事を何故しなかったのか す。その中で、本市が目指す土地利用形態ごとに、大規模集客エリアや商\n企画政策課 基本計画策定事業",
+        "reason": "Existing master business reference(s): 新八代駅周辺大規模集客施設等整備基本計画策定事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 6843,
+        "raw": "総務企画部 新八代駅周辺大規模集客施設等整備 により、想定以上の実質負担が生じる見込みになったことや、県が同種の\nか。今までの７０００万円もどこかに消えたし、反省します\n企画政策課 基本計画策定事業 施設である県立総合体育館をアリーナ施設として現地に再整備するという",
+        "reason": "Existing master business reference(s): 新八代駅周辺大規模集客施設等整備基本計画策定事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 7305,
+        "raw": "総務企画部 新八代駅周辺大規模集客施設等整備\nよそはこんなに、委託、なんでも委託なんでしょうか。 を活用した調査やノウハウなどが必要です。このような事業の場合、多く\n企画政策課 基本計画策定事業",
+        "reason": "Existing master business reference(s): 新八代駅周辺大規模集客施設等整備基本計画策定事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 7634,
+        "raw": "総務企画部 新八代駅周辺大規模集客施設等整備 有識者会議の委員構成は、まちづくりや都市計画、防災、スポーツ、文\nしょうか？また、有識者や先進地視察に行かれた方々のご意\n企画政策課 基本計画策定事業 化、音楽興行、観光、金融といった分野から９名の方にお引き受けいただ",
+        "reason": "Existing master business reference(s): 新八代駅周辺大規模集客施設等整備基本計画策定事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 8030,
+        "raw": "総務企画部 新八代駅周辺大規模集客施設等整備 上のアリーナを中心とした大規模集客施設構想」を見直すこととしたもの\n旦、白紙ゼロベースと行政の方が言われていましたので、ど\n企画政策課 基本計画策定事業 です。",
+        "reason": "Existing master business reference(s): 新八代駅周辺大規模集客施設等整備基本計画策定事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 8379,
+        "raw": "総務企画部 R7年度では地方バスの項目が分からず。策定業務が今年度10 の有無で変動しますが、利用者数や運行回数など一定の要件を満たすこと\n生活交通確保維持事業\n地域政策課 月からと計画。国、県の補助金が減るのでしょうか。 で交付される通常の運行に対する補助金については、年間約3,000万円交付",
+        "reason": "Existing master business reference(s): 生活交通確保維持事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 8684,
+        "raw": "総務企画部 防災行政情報通信システム管理運営 ・坂本町豪雨災害の経験が、今回の災害に生かされていない 実施するとともに、気象情報や降雨状況等に合わせ、市の体制を段階的に\n危機管理課 事業 のでは。 強化しました。また、防災アプリや登録制メール、市ホームページ等で逐\n次、防災情報等を発信しています。",
+        "reason": "Existing master business reference(s): 防災行政情報通信システム管理運営事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 8867,
+        "raw": "総務企画部 防災行政情報通信システム管理運営 ・球磨川の氾濫は、想定しての災害計画で、内氾濫は想定し\n想定しています。防災計画については毎年度所要の見直しを行っています\n危機管理課 事業 ていないのでは？",
+        "reason": "Existing master business reference(s): 防災行政情報通信システム管理運営事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 9066,
+        "raw": "総務企画部 防災行政情報通信システム管理運営\n・宮地地区の球磨川取り入れ水の停止してあったか？ 前日昼から農業用水の取水は停止してありました。\n危機管理課 事業",
+        "reason": "Existing master business reference(s): 防災行政情報通信システム管理運営事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 9181,
+        "raw": "総務企画部 ・形だけの防災訓練では、ないか？（私が実施状況を把握し 合防災訓練、また、実際に段ボールベッド・トイレの組み立て等を住民参\n防災訓練事業\n危機管理課 ていない？） 加型防災訓練で行うなど、防災意識の高揚はもちろんのこと、発災時に対",
+        "reason": "Existing master business reference(s): 防災訓練事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 9746,
+        "raw": "市民環境部\n人権啓発推進事業 人権同和政策事業と合同で行えないのか疑問に思いました。 主に同和問題の解消、解決に向け国、県、各種団体と連携した相談や支援\n人権政策課",
+        "reason": "Existing master business reference(s): 人権同和政策事業, 人権啓発推進事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 9985,
+        "raw": "市民環境部\n人権啓発推進事業 他の自治体と比べられる情報がありません ことは可能です。\n人権政策課",
+        "reason": "Existing master business reference(s): 人権啓発推進事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 10217,
+        "raw": "市民環境部 育や啓発活動を継続して実施しています。現在、人権同和政策事業では、\n人権同和政策事業 のですが、人権推進啓発事業として同和についての教育は勧\n人権政策課 施設整備やインフラ整備等は実施しておらず、国、県、各種団体と連携し",
+        "reason": "Existing master business reference(s): 人権同和政策事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 10524,
+        "raw": "市民環境部 斎場の管理は必要でしょうが、同課の斎場施設整備事業と分\n斎場管理運営事業 費（修繕や改修工事）を分けておくことで、それぞれいくら経費がかかっ\n環境施設課 ける必要があるのか疑問です。",
+        "reason": "Existing master business reference(s): 斎場管理運営事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 10742,
+        "raw": "市民環境部\n斎場管理運営事業 千１２５万２千円とありますが、内訳などは市で把握されて また、火葬業務の内訳は、主に人件費で、予約の受付から遺族の誘導案\n環境施設課",
+        "reason": "Existing master business reference(s): 斎場管理運営事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 11005,
+        "raw": "市民環境部 解体工事に２８３万８千円と記載がありますが、どういう内 理業務は、「八代市斎場」の運転管理に係るものになります。\n斎場管理運営事業\n環境施設課 容でしょうか？組合管理人 藤本一臣氏の住居解体工事費？ ご質問の「斎場管理人住居解体工事」は、八代市斎場の敷地内にあった",
+        "reason": "Existing master business reference(s): 斎場管理運営事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 11327,
+        "raw": "市民環境部 解体契約額が大きかったので、繰越手続きを行ったそうだ\n清掃センター解体事業 ろ、建物部分の地下の土壌中からヒ素が検出されたことなどから、土壌を\n環境施設課 が、年度またぎが簡単にできすぎではないか。",
+        "reason": "Existing master business reference(s): 清掃センター解体事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 11658,
+        "raw": "市民環境部 他の自治体のことがわからないか、７億を超える予算、大き 解体業者からの見積り徴取及び市営繕部局での確認を行い、妥当と判断し\n清掃センター解体事業\n環境施設課 過ぎるのではないか。変更契約は、これまた随意契約か。 ています。",
+        "reason": "Existing master business reference(s): 清掃センター解体事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 12075,
+        "raw": "市民環境部 とありますが、２６年前です。老朽化のためとありますが、\n衛生処理センター解体事業 ごみ処理施設であるため、別の施設となります。\n環境施設課 ２６年でそれほど老朽化するような施設だったのでしょう",
+        "reason": "Existing master business reference(s): 衛生処理センター解体事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 12456,
+        "raw": "市民環境部 事務室に改修等）や最終処分場の維持管理に係る費用を関係市町（八代市\n衛生処理センター解体事業 ６千４６１万８千円（旧４町分）出ていることは正当でしょ\n環境施設課 と氷川町）にて負担しています。",
+        "reason": "Existing master business reference(s): 衛生処理センター解体事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 12769,
+        "raw": "市民環境部 予算が高すぎ。\n地球温暖化対策推進事業 で家庭において12,810kWの太陽光発電設備が導入されました。これは、一\n環境課 具体的に事業が八代市の利益に反映する部分が不明確。",
+        "reason": "Existing master business reference(s): 地球温暖化対策推進事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 13167,
+        "raw": "市民環境部 精査する必要がある。 本市が調達可能な再生可能エネルギー量や電力を購入する需要家の調\n地球温暖化対策推進事業\n環境課 脱炭素の推進は継続的な市民活動が鍵 査・検証や地域新電力を設立した場合の採算性等、必要な視点から地域新",
+        "reason": "Existing master business reference(s): 地球温暖化対策推進事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 14073,
+        "raw": "市民環境部 24時間回収可能な資源物集積所については、ごみ分別ガイドブック記載\nごみ収集管理事業 の中で分別回収が難しいのではないでしょうか？\n循環社会推進課 の民間の回収拠点により、一部品目の資源物収集にご協力いただいている",
+        "reason": "Existing master business reference(s): ごみ収集管理事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 14643,
+        "raw": "健康福祉部 今後、婚活イベント等の参加者やカップル数などの成果につきましても\n結婚活動応援事業 何組が結婚に至ったのか。事業への支出は明記してあります\nこども未来課 情報提供に努め、さらなる事業効果の向上を図っていきます。",
+        "reason": "Existing master business reference(s): 結婚活動応援事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 14869,
+        "raw": "健康福祉部 で日々当たり3,8人。多い？エリアは？保育士さんへの負担\n病児・病後児保育事業 件となっています。\nこども未来課 などどうなっているのかと思いました。予算額の増加を見る",
+        "reason": "Existing master business reference(s): 病児・病後児保育事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 15058,
+        "raw": "健康福祉部 広報が届いていないのでしょうか。６団体の利用となってい\n子ども食堂応援事業 活動されている団体が１団体でした。令和７年度に開始が２団体あり、少\nこども未来課 ますが八代市にはその様な団体がいくつあるのでしょうか。",
+        "reason": "Existing master business reference(s): 子ども食堂応援事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 15449,
+        "raw": "健康福祉部\n障がい児通所支援事業 など児に関わっている者の意見が反映されにくい状況がある また、障がい児通所支援のサービス量の確保のため、通所事業所におけ\n障がい者支援課",
+        "reason": "Existing master business reference(s): 障がい児通所支援事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 15817,
+        "raw": "健康福祉部 電力・ガス・食料品等価格高騰重点 知・手続方法が上手く行かなかったのでしょうか。 申請は令和５年度末で終了しており、令和６年度に残額を繰越しました\n健康福祉政策課 支援給付金給付事業（重点交付金） 予算額の算定方法がおかしかったのでしょうか。の理由で が、４月の支払いとなった給付金に係る事業費のみの支出となったため、\nす。 不用額が出たものです。",
+        "reason": "Existing master business reference(s): 電力・ガス・食料品等価格高騰重点支援給付金給付事業（重点交付金）. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 16145,
+        "raw": "健康福祉部 電力・ガス・食料品等価格高騰重点 がおかしいのかと思ったのと同時に低所得世帯に十分に周知 申請は令和５年度末で終了しており、令和６年度に残額を繰越しました\n健康福祉政策課 支援給付金給付事業（重点交付金） されていなかったのか？と思いました。もしくは、物価高騰 が、４月の支払いとなった給付金に係る事業費のみの支出となったため、\n重点支援給付金給付事業のどちらかしか給付を受けられない 不用額が出たものです。",
+        "reason": "Existing master business reference(s): 電力・ガス・食料品等価格高騰重点支援給付金給付事業（重点交付金）. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 16439,
+        "raw": "健康福祉部 電力・ガス・食料品等価格高騰重点 不用金は、どこに流れるのでしょうか？行く先を市民にも必\n付されることから、本市の予算上は不用額として計上していますが、他の\n健康福祉政策課 支援給付金給付事業（重点交付金） ずお伝えください。",
+        "reason": "Existing master business reference(s): 電力・ガス・食料品等価格高騰重点支援給付金給付事業（重点交付金）. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 16649,
+        "raw": "経済文化交流部\nサテライトオフィス管理運営事業 維持費までなぜ負担しなければならないのか分かりません。 設しているため、市で維持管理を行っています。\n商工政策課",
+        "reason": "Existing master business reference(s): サテライトオフィス管理運営事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 16855,
+        "raw": "経済文化交流部\nサテライトオフィス管理運営事業 R5年度開始事業で毎年予算増加している理由を知りたいで た。\n商工政策課",
+        "reason": "Existing master business reference(s): サテライトオフィス管理運営事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 17169,
+        "raw": "経済文化交流部\n企業誘致対策事業 代は変わらないのか IKEAとかロピアとかファッションセン などの要因が考えられます。\n商工政策課",
+        "reason": "Existing master business reference(s): 企業誘致対策事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 17508,
+        "raw": "経済文化交流部 企業間マッチングコーディネートを行い、新たな技術・商品開発及び販路\n未来チャレンジ企業創出支援事業 委託の内容が分からない\n商工政策課 開拓を支援する。",
+        "reason": "Existing master business reference(s): 未来チャレンジ企業創出支援事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 17882,
+        "raw": "経済文化交流部 価値額(営業利益、人件費及び減価償却費の合計額)が10億円以上となった\n未来チャレンジ企業創出支援事業 効果の程が分からない。市役所でできるのではないか\n商工政策課 企業または労働生産性の伸び率が認定前と比較して70％以上向上し、付加",
+        "reason": "Existing master business reference(s): 未来チャレンジ企業創出支援事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 18541,
+        "raw": "経済文化交流部 また、外部アドバイザーに高額の委託料を支払うことが、ど\n未来チャレンジ企業創出支援事業 ちえない業界動向や専門知識、外部団体とのネットワークなど、企業が成\n商工政策課 れほど具体的な成果につながっているのか、客観的な説明も",
+        "reason": "Existing master business reference(s): 未来チャレンジ企業創出支援事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 19115,
+        "raw": "経済文化交流部 DMOやつしろは、国の登録を受けた観光地域づくり法人として、具体的に\n観光交流事業 業務委託の多さに驚きました。次年度は更に8,200万となり\n観光振興課 は、県内外における物産展の開催や、日奈久の温泉・食・ウォーキングを",
+        "reason": "Existing master business reference(s): 観光交流事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 19524,
+        "raw": "経済文化交流部 どのくらいなのかや成果がきちんと把握できているのかが疑\n観光交流事業 の高い事業にも取り組む役割を持った法人である立場から、採算性がとれ\n観光振興課 問です。また、DMOに関しては人件費が高いし、自力で運営",
+        "reason": "Existing master business reference(s): 観光交流事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 20357,
+        "raw": "経済文化交流部 の造成や情報発信、イベント企画などは、市の観光振興課や\n観光交流事業 そのため、公益性の高い活動に対する取組を行うことに対しては、市が\n観光振興課 地元事業者との連携によって、より効率的に実施できる部分",
+        "reason": "Existing master business reference(s): 観光交流事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 20986,
+        "raw": "経済文化交流部 アウトドアツーリズム推進事業（地\n又サイクリングルートについては日頃からロードバイク等で 募により民間事業者を選定したことから、管理運営については、経営ノウ\n観光振興課 方創生）",
+        "reason": "Existing master business reference(s): アウトドアツーリズム推進事業（地方創生）. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 21250,
+        "raw": "経済文化交流部 クルーズ船寄港に伴う観光資源強化 八代市への経済効果は、一部に、限定されており、、市民の\n今後は、この経済効果をより広く、かつより多く発揮させるため、市民\n港湾・クルーズ振興課 事業 誇りにつながっていない。",
+        "reason": "Existing master business reference(s): クルーズ船寄港に伴う観光資源強化事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 21484,
+        "raw": "経済文化交流部 前市政では説明不足、意図的と思える策定内容が感じられた\n旧厚生会館関係事業 わせて、市民や専門家の皆様から広くご意見を伺いながら、同館の今後の\n文化振興課 からです。",
+        "reason": "Existing master business reference(s): 旧厚生会館関係事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 21767,
+        "raw": "経済文化交流部 前市政で決められた予算なのになぜ維持費と思われる予算額\n旧厚生会館関係事業 ています。\n文化振興課 になっているのか不思議です。",
+        "reason": "Existing master business reference(s): 旧厚生会館関係事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 22087,
+        "raw": "経済文化交流部 これまでに、本市にゆかりのある６名のバドミントン選手がオリンピッ\nバドミントン日本代表合宿開催事業 八代市はバドミントンで有名？\nスポーツ振興課 クに出場されており、近年では東京2020オリンピック・パラリンピックに",
+        "reason": "Existing master business reference(s): バドミントン日本代表合宿開催事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 22456,
+        "raw": "経済文化交流部 バドミントンアジアジュニアチャン\n円と約2.8倍に。 連盟を２回追加で訪問したためです。\nスポーツ振興課 ピオンシップ誘致事業",
+        "reason": "New explicitly titled annual inducement project handled above; question amounts not used.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 22960,
+        "raw": "農林水産部 ん。決算額は1,000万も少ないのに翌年度は4,000万の予算計 い業機械再生支援事業は、平成27年度から令和５年度までは、執行率が\nい業振興対策事業\n農業振興課 上。事業内容の検証ができてるのかと思いました。機械再生 80％～97％で推移していました。",
+        "reason": "Existing master business reference(s): い業振興対策事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 23586,
+        "raw": "農林水産部 年々予算額が減少しているのは効果が出ているからでしょう\n下水汚泥肥料実証試験事業 ています。\n農業振興課 か。",
+        "reason": "Existing master business reference(s): 下水汚泥肥料実証試験事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 24053,
+        "raw": "農林水産部\n食育推進育成事業 形だけの事業ではとおもったからです。 学校給食での食べ残しが減少したとの報告が、小学校から寄せられていま\n農林水産政策課",
+        "reason": "Existing master business reference(s): 食育推進育成事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 24275,
+        "raw": "農林水産部\n食育推進育成事業 五万円の費用で学べたのでしょうか また、地域の無農薬栽培農家の協力を得て、ただの農作業体験にとどま\n農林水産政策課",
+        "reason": "Existing master business reference(s): 食育推進育成事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 24505,
+        "raw": "建設部\n公営住宅管理事業 な企業の集合体なのかが良く分からず、これまでの市単独に 管理の責任は引き続き市にあり、民間事業者のノウハウを活用した緊急\n住宅課",
+        "reason": "Existing master business reference(s): 公営住宅管理事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 24735,
+        "raw": "教育部 現在は、この答申を基に基本方針の作成を進めており、今後パブリック\n未来の学校づくり推進事業 再編計画の構想が見えない\n未来の学校づくり推進室 コメントによる学校再編に関するご意見を広くいただき、方針策定に活か",
+        "reason": "Existing master business reference(s): 未来の学校づくり推進事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 24913,
+        "raw": "教育部 他の自治体の取組については各種の情報を把握しており、今後、本市の\n未来の学校づくり推進事業 他市町村と比較検討しているか分からないから\n未来の学校づくり推進室 状況に合う再編方法などを比較検討していきます。",
+        "reason": "Existing master business reference(s): 未来の学校づくり推進事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      },
+      {
+        "start": 25117,
+        "raw": "教育部 基礎号給が定められています。\n社会教育事業 高いのですね。報酬の基準の違い、理由はどこにあるのだろ\n生涯学習課 「社会教育等に関する知識、経験及び指導力を有している」など、専門",
+        "reason": "Existing master business reference(s): 社会教育事業. Existing records/fields remain unchanged; question figures are not adopted as facts.",
+        "status": "reviewed_qa_reference"
+      }
+    ]
   }
 ];

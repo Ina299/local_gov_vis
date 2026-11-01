@@ -206,5 +206,149 @@ for id,year,digit in [('97473d4c47a291cc66e118f1',2022,'４'),('923cb11b38ca6e22
   if code in seen:
    hold(c,t,raw,'Repeated business number/title within annual book; retained once, departmental amounts not summed.');continue
   seen.add(code);row(c,t,name,raw,start=pos,note='年度主要施策成果報告書の事業番号付き名称。独立した予算事業の存在のみ保持し、構成費・人件費・合計決算・過年度比較値は転記しない。')
+# Reviewed after 1123 snapshot; integrate only after active regression finishes.
+for id in ['c4c2d75622def90c98878c4e','a1eba989d1e2110528eb6c20','c5ff245e7b122260152cf77f','159dbbfecfe6b24304aa9358']:
+ t=verified_text(id,'43368');c,t=source(id,'43368',None,t.splitlines()[0]);hold(c,t,t,'Adopted project plan, not completed evaluation: multiyear planned costs and target KPIs cannot establish annual implementation or actual expenditures. Require execution/evaluation evidence before annual record creation.')
+c,t=source('c908ef3ca96612fb56290d49','43367',None,'108,267');hold(c,t,t,'Cached extraction contains numeric cells only; Japanese project names, year labels and column labels are absent. Need original readable text/coordinates to bind any numbers; no municipal fetch authorized.')
+c,t=source('533b33aa7ee973f0d7cc699c','43367',None,'平成25年度');hold(c,t,t,'Aggregate evaluation classification counts and definitions, no individual business names. Cannot turn 59 aggregate counts into business identities.')
+c,t=source('9ace58f243a84d61ce93d4fa','43367',None,'平成２５年度 事務事業評価(補助金）の対象事業の評価結果について');c['evaluationYear']=2013
+for name,raw in [
+('交通安全協議会補助','交通安全協議会 交通安全協議\n補助'),('地域安全活動助成','地域安全活動助 地域安全活動\n成'),('消防団補助','消防団補助'),('たばこ販売組合補助','たばこ販売組合 たばこ売上促進 たばこ販売組\n補助'),('社会福祉協議会補助','社会福祉協議会 社会福祉協議\n補助'),('遺族会補助','遺族会補助'),('母子・寡婦福祉協議会補助','母子・寡婦福祉 母子・寡婦福祉\n寡婦福祉協議\n協議会補助'),('身体障害者福祉協議会補助','身体障害者福祉\n祉協議会補助\n協議会補助'),('精神障害者家族会補助','精神障害者家族 精神障害者家\n会補助'),('部落解放同盟支部補助','部落解放同盟支 部落解放同盟\n部補助'),('敬老事業実施団体への補助','敬老事業実施団\n敬老会補助金\n体への補助'),('老人クラブ活動費補助','老人クラブ活動\n費補助'),('元気宅配便支援事業','元気宅配便支援 活き活き輝きボ 南関町老人ク\n改善して継続\n改善して継続\nランティア活動 ラブ連合会\n（統合）\n事業'),('シルバー人材センター補助','シルバー人材セ シルバー人材セ\nバー人材セン 現状維持\n現状維持 いて見直しを視野に入れた検討\nンター補助'),('有害鳥獣捕獲補助','有害鳥獣捕獲補 有害鳥獣捕獲\n助'),('担い手育成総合支援','担い手育成総合\n支援'),('水田農業推進事業','水田農業推進事\n業'),('緑の少年団補助','緑の少年団補助'),('土地改良区事業','土地改良区事業'),('商工会補助','商工会補助'),('TMO事業補助','TMO事業補助'),('婦人会研修費補助','婦人会研修費補 婦人会研修費\n助'),('民芸保存会補助','民芸保存会補助'),('子ども会連合会補助','子ども会連合会 子ども会連合会 南関町子ども\n補助'),('町体育協会補助','町体育協会補助')]:
+ row(c,t,name,raw,note='平成25年度の評価対象事業名称のみ。補助団体を事業名に置換せず、実施年度・一次/二次評価の列対応は推定しない。')
+hold(c,t,'南関町産業経済費補助金','Rows19–32 give beneficiary organisations under merged programme cells, not separate business titles. Do not invent one project per beneficiary.')
+hold(c,t,'総合的な学習事','Rows48–52 share a title across school beneficiaries; distinct project identity versus beneficiary breakdown unresolved.')
+hold(c,t,'まつり補助','Repeated generic festival title has different grant names; relation to existing projects requires identity evidence, no name-based double counting.')
+hold(c,t,'自衛隊父兄会','Other remaining interleaved title/subsidy/organisation columns cannot be safely separated from cached text alone; ratings and costs unassigned.')
+c,t=source('4ae74d4d13d038889d95641a','43364',2023,'R5.12.1')
+row(c,t,'物価高騰対応重点支援臨時給付金','物価高騰対応重\n1 点支援臨時給付\n金');c['rows'][-1]['yearProof']='R6.3.31'
+row(c,t,'町内小中学生の給食費補助事業','給食費補助事業',note='同一表の町内小中学生の給食費補助事業。始終期R5.4.1–R6.3.31のみを年度根拠とし、金額は列混在のため不採用。');c['rows'][-1]['yearProof']='R5.4.1'
+hold(c,t,'住民税均等割の','Remaining benefit rows span fiscal years or duplicate parent/addition/cumulative eligibility components in FY2024 book; precise annual identity unresolved.')
+hold(c,t,'ＬＰガス世帯支','Title fragments and other row labels interleaved; complete title/column boundary needs coordinate evidence, no inferred concatenation.')
+c,t=source('d2b91e33c6420ee2f805d27e','43364',2024,'R6.10.1')
+row(c,t,'玉東町内買物券事業（物価高騰対応）','玉東町内買物券事業\n（物価高騰対応）');c['rows'][-1]['yearProof']='R7.3.31'
+hold(c,t,'R5、R6の累計給付金額','Benefit rows combine prior/current year components also printed in previous book; annual business identity not safely separated, no sums.')
+hold(c,t,'R7.12.31','FY2024-labelled benefit runs through FY2025; execution-year allocation absent.')
+hold(c,t,'R8.2.12','LP-gas grant crosses FY2024–2025 and repeats earlier source fragments; annual identity held.')
+c,t=source('675318a6ecc8004d1a29f33e','43348',2024,'令和６年度物価高騰対応重点支援地方創生臨時交付金効果検証資料')
+for name,raw,year,proof in [('地域通貨補助金（重点支援）','地域通貨補助金\n\nの生活支援と、地元店舗利用の喚起により、町内事\n\n（重点支援）',2025,'R7.4.1'),('物価高騰対応LPガス使用世帯支援事業','物価高騰対応LPガス使用世帯支\n\nし、料金の一部を補助することにより、経済\n\n援事業補助金',2025,'R8.1.6'),('物価高騰対策給⾷費補助金','物価高騰対策給⾷\n\nう給⾷費値上げによる経費の一部を町が補助するこ\n\n費補助金',2024,'R6.5.1'),('保育所等給⾷費支援事業補助金','保育所等給⾷費支\n援事業補助金',2025,'R7.8.8')]:
+ row(c,t,name,raw,note='交付枠年度と実施年度を区別。保存済み表の始終期が属する年度のみを採用し、金額は未構造化。');c['rows'][-1].update(year=year,yearProof=proof)
+hold(c,t,'物価高騰対応重点','Three benefit rows have system-only/cross-year/cumulative components; existing FY2023/FY2024 grants may overlap, no new identity inferred.')
+c,t=source('ed290621949ab29343f6ad91','43348',2024,'令和5年度物価高騰対応重点支援地方創生臨時交付金効果検証資料')
+row(c,t,'物価高騰対応LPガス使用世帯⽀援事業','物価高騰対応LPガ\n6\n\nス使用世帯⽀援事\n業');c['rows'][-1]['yearProof']='令和6年11⽉25⽇'
+row(c,t,'地位通貨補助⾦（重点⽀援）','地位通貨補助⾦\n（重点⽀援）',note='原典の「地位通貨」表記を保存。令和6年4月4日–令和7年2月18日の実施期間。既存「地域通貨」との同一性は自動補正せず保留対象。');c['rows'].pop();hold(c,t,'地位通貨補助⾦','Source typo/alias versus regional-currency grant unresolved; do not add separate project for printed typo.')
+hold(c,t,'物価高騰対応重点','Benefit rows include cumulative years, child additions, system-only expense and implementation-start/end contradictions. Parent identity and annual execution remain unresolved.')
+c,t=source('77f6916c3ef1f06fe9e53ece','43348',2023,'令和5年度新型コロナウイルス感染症対応地方創生臨時交付金効果検証資料')
+for name,raw in [('美⾥町電⼒・ガス・⾷料品等価格高騰重点支援事業【低所得者世帯給付⾦】','美⾥町電⼒・ガ\nス・⾷料品等価格\n1\n\n事業\n\n交付対象事業の名\n\n高騰重点支援事業\n【低所得者世帯給\n付⾦】'),('地域通貨補助事業','地域通貨補助事業'),('農業⽔利施設電気料⾦高騰対策事業','農業⽔利施設電気\n料⾦高騰対策事業'),('物価高騰対策給⾷費補助事業','物価高騰対策給⾷\n費補助事業'),('副⾷費負担軽減事業','副⾷費負担軽減事 を受けた児童の家庭に対し、副⾷費を町が補助することによ\n業')]:row(c,t,name,raw)
+hold(c,t,'（事務費）','Administrative component of low-income grant, not another project.')
+hold(c,t,'保育料負担軽減事','Age-group and funding-window components of same childcare-fee relief; no independent projects inferred.')
+hold(c,t,'学校給⾷費補助事','Remaining school-meal and LP-gas title fragments cross narrative/row order; exact title plus period mapping requires further coordinate evidence.')
+# Misato individual names with bounded annual dates; other interleaved rows remain an explicit review queue.
+for id,year,proof,names in [
+ ('b8630489a55325545030c804',2022,'令和4年度新型コロナウイルス感染症対応地方創生臨時交付金効果検証資料',['消費喚起事業','地域環境整備事業','エアコン洗浄事業']),
+ ('79b0ada6b7b9a42cac24f548',2021,'令和3年度新型コロナウイルス感染症対応地方創生臨時交付金効果検証資料',['中央庁舎網戸設置事業','地域環境整備事業','避難所整備事業','消費喚起事業','オートサイト区画整理事業']),
+ ('1b4f89554a93c02fa1743c86',2020,'令和2年度新型コロナウイルス感染症対応地方創生臨時交付金効果検証資料',['地域環境整備事業','防災活動支援事業'])]:
+ c,t=source(id,'43348',year,proof)
+ for name in names:row(c,t,name,note='個別事業名称と同年度内の始終期を確認した範囲のみ。交付枠を全行の実施年度に適用せず、列順が崩れた金額は採用しない。')
+ c['holds'].append(dict(start=0,raw=t[:150],status='layout_review',reason='Remaining individual rows still actionable: wrapped/interleaved names and cross-year start/end columns require row-specific review. This source is not exhausted and not access-blocked.'))
+c=next(c for c in configs if c['sourceId']=='b8630489a55325545030c804');t=verified_text(c['sourceId'],'43348')
+for name,raw in [('マイナンバーカード取得促進事業','マイナンバーカー\nド取得促進事業'),('感染予防消耗品購⼊事業','感染予防消耗品購\n⼊事業'),('⾏政デジタル化推進基盤整備事業','⾏政デジタル化推 する基礎を構築するため、書⾯や対⾯、押印の⾒直し及びオ\n進基盤整備事業'),('社会教育施設感染症対策事業','社会教育施設感染\n症対策事業'),('やすらぎ交流体験施設感染症予防対策事業','やすらぎ交流体験\n15\n\n施設感染症予防対\n策事業'),('Ｂ＆Ｇ海洋センター体育館トイレ洋式化事業','Ｂ＆Ｇ海洋セン\n16\n\nター体育館トイレ\n洋式化事業'),('非接触型レジ導⼊事業','非接触型レジ導⼊ ウイルス感染症の感染拡⼤を防ぐため。非接触型のレジシス\n事業'),('コンビニ収納・スマホ決済導⼊事業','コンビニ収納・ス サービスの充実と利便性を向上させるため、税・料⾦につい\nマホ決済導⼊事業'),('QRコード決済事業','QRコード決済事業'),('感染防⽌対策支援員派遣事業','感染防⽌対策支援\n員派遣事業'),('学校運営に伴う感染症対策に係る支援事業','学校運営に伴う感 ①各学校や⾏事において新型コロナウイルス感染症対策の徹\n21\n\n染症対策に係る支 底を⾏うため感染予防のための消耗品を購⼊する\n援事業'),('ICT支援員委託事業','ICT支援員委託事\n業')]:row(c,t,name,raw,note='令和4年度実施期間の個別名。次年度の利用実績を当年度実績へ転用せず、金額は保存引用のみ。')
+for name in ['ワクチン接種会場への移動支援事業','テレワークサービス利⽤事業','東部地区活性化施設改修事業','ｷｬﾝﾌﾟ場空調改善事業','給⾷費保護者負担軽減対策事業']:
+ q=re.search(r'\s*'.join(re.escape(ch) for ch in name),t);assert q,name;row(c,t,name,q.group(),start=q.start())
+for name,raw in [('美⾥町特産品PR事業','美⾥町特産品PR事 材撮影や販促コピーの作成を⾏うことで、実店舗に縛られ\n業'),('ペーパーレス会議システム導⼊事業','ペーパーレス会議 会議運営やテレワークの促進にもつながり、新型コロナウイ\nシステム導⼊事業'),('低所得の⼦育て世帯に対する⼦育て世帯⽣活支援特別給付⾦（町独自分）','低所得の⼦育て世\n帯に対する⼦育て\n31\n\n世帯⽣活支援特別\n給付⾦\n（町独自分）'),('原油価格高騰対策事業','原油価格高騰対策 価高騰の影響を受けた、町内の中小企業者・小規模企業者\n事業'),('原油・物価高騰化対策支援事業（指定管理者支援）','原油・物価高騰化\n39\n\n対策支援事業（指\n定管理者支援）')]:row(c,t,name,raw)
+hold(c,t,'デジタル田園都市','Row32 financing portion explicitly identifies the same convenience-store/smartphone payment implementation as row18; no new business or summed costs.')
+for name,raw in [('保育所・認定⼦ども園等特別対策支援事業','保育所・認定⼦ど\n46\n\n事業\n\n交付対象事業の名\n\nも園等特別対策支\n援事業'),('保育所等給⾷支援事業','保育所等給⾷支援\n事業'),('美⾥バス利⽤促進事業','美⾥バス利⽤促進 より、買い物などの外出を控える交通弱者に対し、移動に係\n事業')]:row(c,t,name,raw)
+for raw,reason in [('原油価格高騰対策','Rows33/53 have identical project name for corporate/individual recipients; one project only, amounts not summed.'),('地域少⼦化対策重','Explicitly no annual implementation; no completed annual project inferred from grant label.'),('令和6年2⽉28⽇','Row50 cross-year and planned end; annual execution remains unresolved.'),('電気・ガス・⾷料','Row51 is funding-programme label with FY2022/FY2023 interval and missing spend; no independent annual business identity.'),('修学旅⾏支援事業','Rows41/42 same project split by purpose; no separate independent identifiers, keep components held.'),('地域自殺対策強化','Regional grant-programme label; standalone municipal business title absent.'),('妊娠出産⼦育て支','Grant-programme title versus constituent benefit identity unresolved.'),('フィルタリングソ','Row23 title fragments far apart in extracted order; exact complete-title boundary absent.')]:hold(c,t,raw,reason)
+# Other early rows still require review; retain actionable marker until checked.
+for name,raw in [('地域逸品商談支援事業','地域逸品商談支援 会を開催。それに伴い、商談会に慣れていない町内事業者を\n事業'),('観光スポット周遊キャンペーン事業','観光スポット周遊 町内各地域への周遊を促進し、滞在時間や観光消費の拡⼤を\nキャンペーン事業'),('新型コロナウイルス対策中小企業資⾦利⼦補給⾦','新型コロナウイル\n3\n\nス対策中小企業資\n⾦利⼦補給⾦'),('営業時間短縮に係る感染拡⼤防⽌協⼒⾦','営業時間短縮に係\n4\n\nる感染拡⼤防⽌協\n⼒⾦'),('避難所⽤備品購⼊事業','避難所⽤備品購⼊ う際に不特定多数の接触を避けるため、個々に分かれた充電\n事業'),('原油・物価高騰化対策支援事業（農業者及び法⼈支援）','原油・物価高騰化 ①新型コロナウイルス感染症の影響による、原油価格及び物\n38\n\n対策支援事業（農 価高騰の影響を受けた、町内の農業者及び農業法⼈等への経\n業者及び法⼈支\n\n済的支援を⾏う。\n\n援）')]:row(c,t,name,raw)
+hold(c,t,'学校保健特別対策','Row43 national programme title and same school-consumables implementation as row21; independent local project identity unproved.')
+hold(c,t,'応型契約管理シス','Row8 project-title beginning and ending are reversed and interleaved with narrative; exact printed order unavailable without coordinates. No guessed complete title.')
+c['holds']=[h for h in c['holds'] if h.get('status')!='layout_review']
+c=next(c for c in configs if c['sourceId']=='79b0ada6b7b9a42cac24f548');t=verified_text(c['sourceId'],'43348')
+for name in ['トイレ改修事業','蛇口改修事業','キャッシュレス決済の導入','美里バス利用促進事業']:
+ row(c,t,name)
+for name,raw in [('新型コロナウイルス対策中小企業資金利子補給金','新型コロナウイルス対策 ②新型コロナウイルス感染症の影響により中小\n中小企業資金利子補給金'),('道の駅美里「佐俣の湯」換気型空調設置事業','道の駅美里「佐俣の湯」換 気が可能な空調設備を整備することにより、施\n気型空調設置事業'),('スクール・サポート・スタッフ派遣事業','スクール・サポート・スタッ\nル・サポート・スタッフを任用する。\nフ派遣事業'),('学校運営に伴う感染症対策に係る支援事業','学校運営に伴う感染症対 集まる場所や機会において、迅速かつ柔軟に対\n策に係る支援事業'),('美里出身学生生活サポート事業','美里出身学生生活サポー\nられる学生の生活支援を目的とする\n令和3年10月1日\nト事業'),('やすらぎ交流体験施設大部屋空調整備事業','やすらぎ交流体験施設大\nイルス等の感染症拡大防止につなげるため、２\n部屋空調整備事業'),('キャンプ場管理棟空調改善事業','キャンプ場管理棟空調改 により、施設利用者が安心して利用できる環境\n善事業'),('森林・山村多面的機能発揮対策事業','森林・山村多面的機能発 備活動に対し助成を行い、雇用の場の確保を図\n揮対策事業'),('ワクチン接種会場への移動支援事業','ワクチン接種会場への移\n行う。\n動支援事業'),('各種相談・申請支援窓口開設事業','各種相談・申請支援窓口\n相談、国県の支援策への相談）窓口を開設する\n開設事業'),('営業時間短縮に係る感染拡大防止協力金','営業時間短縮に係る感染 給に係る町内事業者分の負担金\n拡大防止協力金'),('やすらぎ交流体験施設トイレ洋式化事業','やすらぎ交流体験施設ト のため、蓋付き洋式トイレへ改修し、利用者の感\n令和3年10月13日\nイレ洋式化事業')]:row(c,t,name,raw)
+hold(c,t,'修学旅行支援事業','Rows16/17 split same base project by transport/cancellation support; independent programme identity not proved, no double counting.')
+for name in ['学習環境整備事業','ICT支援員委託事業','スクールバス委託事業','緊急雇用対策事業']:row(c,t,name)
+for name,raw in [('GIGAスクール環境整備事業','GIGAスクール環境整備事\n徒への配布物等を同端末で行っているが、机の\n業'),('保育所等事業継続支援事業','保育所等事業継続支援事\n従事者への応援助成金\n業'),('フォレストアドベンチャー・美里整備事業','フォレストアドベンチャー・ 染防止対策をはかるために待機スペースの取\n美里整備事業'),('美里町中小企業者事業継続支援金','美里町中小企業者事業継 用・事業の維持を支援する。\n令和3年11月26日\n続支援金'),('フォレストアドベンチャー・美里改修事業','フォレストアドベンチャー・\nり、利用客及びスタッフも安心して利用できる環\n美里改修事業'),('オンライン申請対応型契約管理システム事業','オンライン申請対応型契\nにつながる。\n約管理システム事業'),('子育て世帯への臨時特別給付金事業','子育て世帯への臨時特別\n令和3年12月24日\nる。\n給付金事業'),('美里町中央庁舎空調設備改修事業','美里町中央庁舎空調設備\nする換気風量（30㎥/ｈ）を確保する仕様の設計\n改修事業')]:row(c,t,name,raw,note='令和3年度の個別実施名称。施設工事の設計のみを完成とせず、列混在の数値を転記しない。')
+row(c,t,'図書館パワーアップ事業')
+for name,raw in [('健（検）診結果等の様式の標準化整備事業（単独事業分）','健（検）診結果等の様式の 診断を推進するため、国による健（検）診結果の\n標準化整備事業（単独事 利活用に向けた情報標準化整備事業に伴い、\n業分）'),('健（検）診情報システム整備事業（単独事業分）','健（検）診情報システム整 診断を推進するため、国による健（検）診情報連\n備事業（単独事業分）')]:row(c,t,name,raw)
+for raw,reason in [('疾病予防対策事業費等補','Rows42/46/47/50 describe national/municipal funding parts of same health-system changes, with reversed descriptions for the two screening systems; no extra project or costs inferred.'),('地域少子化対策重点推進','Funding programme label without independent local business title; beneficiary count is not a separate project.'),('学校保健特別対策事業費','National funding part repeats local school-infection implementation; no extra project.'),('令和4年7月26日','Row51 is construction portion of same central-building air-conditioning project, crossing FY2021/FY2022; prior row41 design retained without completion or construction cost.')]:hold(c,t,raw,reason)
+# Only unreviewed title family from first page remains explicit below.
+hold(c,t,'地域の基礎的活力養成事','Row6 generic programme title is interleaved with multi-language sign installation; independent budget identity not established from narrative title fragment.')
+c['holds']=[h for h in c['holds'] if h.get('status')!='layout_review']
+c=next(c for c in configs if c['sourceId']=='1b4f89554a93c02fa1743c86');t=verified_text(c['sourceId'],'43348')
+for name in ['ICT教育環境整備事業','学校施設環境改善事業','庁舎内感染対策事業','緊急雇用対策事業']:row(c,t,name)
+for name,raw in [('美里町中小企業者事業継続支援事業','美里町中小企業者事業継\n②国（持続化給付金）又は県（事業継続支援金）\n続支援事業'),('各種相談・申請支援窓口開設事業','各種相談・申請支援窓口\n開設することで雇用・事業の維持を支援する。\n開設事業'),('美里出身学生に地元の産品で生活サポート事業','美里出身学生に地元の産\nで学生の生活支援を行う。\n品で生活サポート事業'),('オンライン申請対応型契約管理システム導入','オンライン申請対応型契\n者、来庁者の接触機会が減り感染防止につなが 令和2年12月9日\n約管理システム導入'),('コロナウイルス感染症対応支援','コロナウイルス感染症対 行った町内事業所を支援する\n応支援'),('プレミアム付き商品券発行事業','プレミアム付き商品券発 県内住民に販売することで、町内事業所を応援\n令和2年8月19日\n行事業')]:row(c,t,name,raw)
+for raw,reason in [('消費喚起事業','FY2020–FY2021 multi-year end; do not assign funding-year as sole execution year.'),('公立学校情報機器整備事','Cross-year FY2020–FY2021 and related ICT equipment row; annual identity/overlap unproved.'),('福祉避難所空調整備事業','Cross-year FY2020–FY2021; single annual execution not established.'),('地域の絆プロジェクト支援','Same programme split into environment/community components, independent identity unresolved.'),('学校保健特別対策事業','Repeated national programme and local infection-prevention implementation; preserve funding components without separate projects.')]:hold(c,t,raw,reason)
+for name in ['テレワーク環境整備事業','中央公民館網戸整備事業']:row(c,t,name)
+for name,raw in [('映像産業を軸とした観光・産業振興と地域ブランディング事業','映像産業を軸とした観光・ 作成し、各地域の魅力をPRする\n産業振興と地域ブランディ\nング事業'),('自主防災組織避難所運営事業','自主防災組織避難所運営\n立を促すことにより災害の備えへの意識の高揚\n事業'),('体育施設大型扇風機整備事業','体育施設大型扇風機整備 時に館内の感染症防止のために大型扇風機を\n事業'),('屋外社会体育施設用自動手指消毒器設置事業','屋外社会体育施設用自動 手指消毒を設置するスペースがないため壁掛け\n令和2年12月22日\n手指消毒器設置事業'),('インフルエンザ予防接種費用助成事業','インフルエンザ予防接種\n②インフルエンザの予防接種に係る費用\n費用助成事業')]:row(c,t,name,raw)
+for raw,reason in [('社会体育施設トイレ洋式','FY2020–FY2021 interval; annual execution allocation absent.'),('公園遊具設置事業','FY2020–FY2021 interval and detached date columns; annual attribution unproved.'),('庁内ネットワーク環境整備','FY2020–FY2021 interval; annual execution allocation absent.'),('図書館パワーアップ事業','Printed start May2021 conflicts with end March2021; do not repair source dates by guessing.'),('公共的空間安全・安心確','Repeated generic project labels for multiple facilities; business versus component identity unresolved.'),('子ども・子育て支援交付','National funding label versus local after-school child-care implementation, not a separate project identity.')]:hold(c,t,raw,reason)
+for name in ['学校給食事業者応援事業','蛇口改修事業','リモート講演会実施事業','芸術鑑賞補助事業','観光地PR事業']:row(c,t,name)
+for name,raw in [('思い出づくりタイムカプセル購入事業','思い出づくりタイムカプセ\n校の卒業生にタイムカプセル購入費を補助す\nル購入事業'),('飲食店等の感染防止対策事業','飲食店等の感染防止対策\n援する。\n事業'),('乳幼児検診・相談時感染対策事業','乳幼児検診・相談時感染\nための消耗品を購入する。\n対策事業'),('スクール・サポート・スタッフ派遣事業','スクール・サポート・スタッ ル・サポート・スタッフを新たに任用し雇用の確\nフ派遣事業'),('通いの場感染防止対策事業','通いの場感染防止対策事 防止対策の取組みに補助を行う。\n業'),('森林・山村多面的機能発揮対策事業','森林・山村多面的機能発 備活動に対し助成を行い、雇用の場の確保を図\nる。\n揮対策事業'),('タクシー事業者の感染防止対策支援','タクシー事業者の感染防 支援する\n②タクシー内にパーテーション設置費用、消毒\n止対策支援'),('コロナウイルス感染症対応雇用維持奨励金交付事業','コロナウイルス感染症対\n持を図る事業主の負担を軽減するとともに、雇\n応雇用維持奨励金交付事\n用維持の一層の推進を図る。\n業')]:row(c,t,name,raw)
+for raw,reason in [('ワーケーション環境整備','Printed start February2020 crosses FY2019/FY2020; no annual assignment from funding-year label.'),('修学旅行支援事業','Rows61/62 same base project with cancellation/transport components; do not count twice.'),('地域環境整備事業（観光）','Tourism component versus same base environmental-maintenance project unresolved; no extra identity.'),('地域の基礎的活力養成事','Generic programme heading versus specific signage installation lacks separate budget identifier.'),('観光地混雑解消事業','Detached title/date column requires exact row linkage; do not attach adjacent project date by proximity.')]:hold(c,t,raw,reason)
+# Keep remaining early-row provenance review actionable until the final reconciliation.
+for name,raw in [('子育て世帯臨時特別給付事業（新型コロナ対策分町独自分）','子育て世帯臨時特別給付\nにより経済的負担を軽減し子育て環境の整備を\n事業（新型コロナ対策分\n図る。\n町独自分）'),('新型コロナウイルス対策中小企業資金利子補給金','新型コロナウイルス対策 ②新型コロナウイルス感染症の影響により中小\n中小企業資金利子補給金'),('東部地区買い物拠点化事業','東部地区買い物拠点化事\nナウイルスの感染拡大を懸念して買い物に出か\n業')]:row(c,t,name,raw)
+row(c,t,'観光地混雑解消事業');c['rows'][-1]['yearProof']='令和2年4月23日'
+c['holds']=[h for h in c['holds'] if h.get('status')!='layout_review' and 'Detached title/date' not in h['reason']]
+# Koshi: distinguish actual single-business sheets from policy matrices and instructions.
+ledger=json.loads((root/'data/evaluations/descending-offline/43/source-ledger.json').read_text())
+for s in ledger:
+ if s['municipalityCode']!='43216' or s['status']!='unsupported_layout':continue
+ id=s['sourceId'];t=verified_text(id,'43216')
+ if t.startswith('事務事業マネジメントシート'):
+  proof=re.search(r'事務事業マネジメントシート\(令和\s*6年度実績と令和\s*7年度計画\)',t);assert proof,id
+  m=re.search(r'^事務事業名 ([^\n]+)',t,re.M);assert m,id
+  c,t=source(id,'43216',2024,proof.group());c['evaluationYear']=2025
+  row(c,t,m[1],m.group(),start=m.start(),note='令和6年度実績と令和7年度計画を区別した個別事務事業シート。金額の空欄や複数年度列、未選択の評価選択肢を推測しない。')
+ elif t.startswith('施策マネジメントシート'):
+  c,t=source(id,'43216',None,t.splitlines()[0]);hold(c,t,t[:500],'Policy-level management sheet: policy KPI/result columns and shared implementation narratives do not constitute individual business-sheet rows. No policy totals assigned to projects; named implementation coverage remains separate from this policy triage.')
+ else:
+  c,t=source(id,'43216',None,t.splitlines()[0]);hold(c,t,t,'Instructions explaining how to read management sheets; no actual business title/year or performance record.')
+# Minamata: each complete evaluation sheet, body titles (not contents-page aliases).
+minamata=[
+ ('3396692f56d73709c1a30b4d',2010,'２２',['小中学校再編成推進事業','小中学校耐震化推進事業','学校エコ改修と環境教育事業','日本一の読書のまちづくり','学力向上対策事業','いじめ、虐待、不登校児童生徒対策','環境教育（学校版環境ＩＳＯ）の推進','人権教育推進事業','文化会館自主文化事業','公民館自主事業','市民スポーツの推進とスポーツ振興計画策定']),
+ ('8e8fbadc886f8bee00e099c6',2011,'２３',['小中学校耐震化推進事業','学校エコ改修と環境教育事業','学力向上対策事業','いじめ、虐待、不登校児童生徒対策の充実','環境教育（学校版環境ＩＳＯ）の推進','日本一の読書のまちづくり','人権教育推進事業','文化会館自主文化事業','公民館自主文化事業','市民スポーツの推進','第６６回熊本県民体育祭水俣市・葦北郡大会開催','給食センターでの食育推進・地産地消推進事業']),
+ ('db9c71d2a27e44b522c02cfd',2012,'２４',['小中学校耐震化推進事業','学力向上対策事業','いじめ、虐待、不登校児童生徒対策の充実','環境教育（学校版環境ＩＳＯ）の推進','給食センターでの食育推進・地産地消推進事業','日本一の読書のまちづくり','人権教育推進事業','文化会館自主文化事業','公民館自主文化事業','市民スポーツの推進']),
+ ('2654b8be5ef9e0936c1fbfd0',2013,'２５',['学力向上対策事業','いじめ、虐待、不登校児童対策（いじめ、虐待、不登校児童生徒対策の充実）','環境教育（学校版環境ＩＳＯ等）の推進','給食センターにおける食育・地産地消推進事業','人権教育推進事業','文化会館自主文化事業','日本一の読書のまちづくり','公民館自主事業','市民スポーツの推進']),
+ ('0faf9f5cb7ffa0e6d121506e',2014,'２６',['小中学校施設耐震化推進事業（非構造部材）','学力向上対策事業','いじめ、虐待、不登校児童対策事業','環境教育（学校版環境ＩＳＯ等）の推進事業','小中学校におけるＩＣＴ化の推進事業','給食センターにおける食育・地産地消推進事業','人権教育推進事業','文化会館自主文化事業','日本一の読書のまちづくり事業','公民館自主事業','生涯スポーツ活動及び競技スポーツの推進事業'])]
+for id,fy,digit,names in minamata:
+ c,t=source(id,'43205',fy,f'（平成{digit}年度実績）');starts=[m.start() for m in re.finditer('重要政策実施状況評価表',t)];covered=set()
+ for name in names:
+  matches=[(a,t.find(name,a,a+400)) for a in starts if t.find(name,a,a+400)>=0];assert len(matches)==1,(id,name,matches)
+  a,p=matches[0];b=next((v for v in starts if v>a),len(t));body=t[a:b];assert len(body)>1000 and ('評価' in body and ('実績' in body or '成果' in body)),(id,name)
+  row(c,t,name,t[p:p+len(name)],start=p,note='本文の個別評価表の名称と表紙の実績年度を保持。目次の別表記は別事業にせず、実施期間・過年度経費・評価選択肢から数値を推測しない。');covered.add(a)
+ for a in starts:
+  if a not in covered:hold(c,t,t[a:a+300],'Remaining individual sheet title needs exact header mapping; not missing body or access denial.');c['holds'][-1]['status']='layout_review'
+ if fy==2013:hold(c,t,'平成２５年１１月','Cover publication year equals the full execution fiscal year while body states current FY25; preserve explicit execution FY2013, do not invent later evaluation year.')
+c=next(c for c in configs if c['sourceId']=='3396692f56d73709c1a30b4d');t=verified_text(c['sourceId'],'43205')
+for name in ['給食センターにおける食育・地産地消推進事業','第66回熊本県民体育祭水俣市・葦北郡大会開催準備']:
+ p=t.index(name,2000);row(c,t,name,start=p)
+c['holds']=[]
+c,t=source('8508d76439946c1d994d2ba3','43208',2024,'検証結果について（令和６年度）')
+row(c,t,'にぎわい再創出事業','■にぎわい再創出事業');row(c,t,'ふるさと未来創造事業','■ふるさと未来創造事業')
+hold(c,t,'山鹿市ふるさと','Shared parent title/cost and constituent activity names: do not add another parent record or allocate total cost/KPI among two verified business headings.')
+c,t=source('90c6d9df1c4d30b0e4bb2c7e','43205',None,'地方創生に関する事業の効果検証について')
+for name,raw,year in [('過疎地域におけるICTを活用した持続可能なまちづくり事業（移住促進）','過疎地域におけるICTを活用し\nた持続可能なまちづくり事業\n（移住促進）',2022),('「選ばれる水俣」推進事業（コンビニ交付）','「選ばれる水俣」推進事業\n（コンビニ交付）',2024),('道の駅みなまた再整備事業','道の駅みなまた再整備事業',2021)]:
+ row(c,t,name,raw,note='明示された事業実施年度を保持。後年のKPI・寄附年度・交付金額を当年度決算にしない。');c['rows'][-1].update(year=year,yearProof=str(year)+'年度')
+hold(c,t,'2023年度～2024年度','Donation-use projects have a two-year implementation period with cumulative/annual policy KPIs. Individual fiscal-year execution absent; no annual record split or donation-to-cost conversion.')
+hold(c,t,'オンライン手続の導入による自治体と住民との接点の多様化・充実化','Contents entry without matching complete individual assessment in saved body; no record from contents only.')
+hold(c,t,'くまもと農地ＧＩＳを活用した情報共有化事業','Contents entry and prefecture contribution without matching individual assessment in body; no municipality implementation inferred.')
+for id,code,proof,reason in [('8eef778a98f2f494527b7c05','43204','荒尾市行政経営計画','Administrative reform action matrix and account-wide financial summaries; numbered actions are organisational policy measures, not independently identified budget businesses. No reform/KPI row converted into project.'),('9679d349671c811581382343','43202','施策評価シート（評価対象年度：令和6年度）','Policy KPI matrix with multiyear target/actual columns; no bounded individual business-sheet identities. Policy indicators must not become projects or be assigned to similarly named projects.')]:
+ c,t=source(id,code,None,proof);hold(c,t,t[:500],reason)
+c,t=source('bd1275bf2c4a4d124d4ac201','43202',2024,'「市民の皆様による行政評価」におけるご質問に対する回答')
+raw='バドミントンアジアジュニアチャン\n円と約2.8倍に。 連盟を２回追加で訪問したためです。\nスポーツ振興課 ピオンシップ誘致事業'
+row(c,t,'バドミントンアジアジュニアチャンピオンシップ誘致事業',raw,note='質問の金額を実績として採用しない。市の回答に令和6年6月・9月、令和7年1月の誘致活動を明記。既存の日本代表合宿事業とは別の明示名称。');c['rows'][-1]['yearProof']='３回目（令和７年１月）は、八代市を開催地とする基本合意'
+master=next((root/'apps/web/public/evaluations-composed').glob('43202-*.json'));known={p['projectName'] for p in json.loads(master.read_text())['projects']}
+lines=t.splitlines(keepends=True);offset=0
+for i,line in enumerate(lines):
+ if re.match(r'^(市長公室|総務企画部|市民環境部|健康福祉部|経済文化交流部|農林水産部|建設部|教育部)',line):
+  raw=''.join(lines[i:i+3]).rstrip('\n');names=[n for n in known if n in raw]
+  for name,parts in [('令和6年能登半島地震支援事業（職員派遣）',['令和6年能登半島地震支援事','業（職員派遣）']),('新八代駅周辺大規模集客施設等整備基本計画策定事業',['新八代駅周辺大規模集客施設等整備','基本計画策定事業']),('防災行政情報通信システム管理運営事業',['防災行政情報通信システム管理運営','事業']),('電力・ガス・食料品等価格高騰重点支援給付金給付事業（重点交付金）',['電力・ガス・食料品等価格高騰重点','支援給付金給付事業（重点交付金）']),('アウトドアツーリズム推進事業（地方創生）',['アウトドアツーリズム推進事業（地','方創生）']),('クルーズ船寄港に伴う観光資源強化事業',['クルーズ船寄港に伴う観光資源強化','事業'])]:
+   if all(p in raw for p in parts):assert name in known;names.append(name)
+  if 'バドミントンアジアジュニアチャン' in raw:reason='New explicitly titled annual inducement project handled above; question amounts not used.'
+  elif names:reason='Existing master business reference(s): '+', '.join(sorted(set(names)))+'. Existing records/fields remain unchanged; question figures are not adopted as facts.'
+  else:reason='Department/question block lacks an independently bounded business title; no inference from neighbouring row.'
+  c['holds'].append(dict(start=len(t[:offset].encode('utf-16-le'))//2,raw=raw,reason=reason,status='reviewed_qa_reference'))
+ offset+=len(line)
 (root/'apps/crawler/src/evaluations/expansion/descending-kumamoto-map.ts').write_text('export const kumamotoRows = '+json.dumps(configs,ensure_ascii=False,indent=2)+';\n')
 print([(c['sourceId'],len(c['rows']),len(c['holds'])) for c in configs])

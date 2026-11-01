@@ -1,5 +1,5 @@
 {
-  "phase": "in_progress",
+  "phase": "bounded_source_review_complete_validation_running",
   "observedMaster": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
   "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
   "cohortMunicipalities": 44,
@@ -24,36 +24,39 @@
     "sources": 226,
     "hashVerifiedBodies": 196,
     "continuationParts": 4,
-    "candidateRecords": 1123,
-    "candidateMunicipalities": 15,
-    "duplicateOutputs": 567,
+    "candidateRecords": 1328,
+    "candidateMunicipalities": 21,
+    "duplicateOutputs": 604,
     "heldOutputs": 0,
     "productionRecordsAdded": 0,
     "existingFieldsChanged": 0,
     "municipalRequests": 0,
-    "layoutReviewedUnits": 1404,
+    "layoutReviewedUnits": 1799,
     "layoutActionableUnits": 0,
-    "layoutHeldUnits": 212,
+    "layoutHeldUnits": 297,
     "statuses": {
       "navigation": 63,
-      "duplicate": 18,
-      "reviewed_literal_businesses": 4,
-      "processed": 24,
-      "missing_body": 30,
-      "unsupported_layout": 87
+      "duplicate": 55,
+      "reviewed_literal_businesses": 37,
+      "processed": 41,
+      "missing_body": 30
     }
   },
-  "remaining": "87 source layouts plus source-specific holds remain. Further reviewed changes are staged outside the repository; no completion claim.",
+  "remaining": "All 115 formerly unsupported sources reviewed. 30 missing bodies and 297 explicit identity/period/duplicate/policy units remain held; 0 actionable layout units in this bounded source cohort. No claim of national completion.",
   "validation": {
-    "focusedTests": "9/9",
-    "independentCandidates": 3958,
-    "independentEvidence": 9208,
+    "focusedTests": "13/13",
+    "independentCandidates": 4163,
+    "independentEvidence": 9631,
     "typecheck": "passed",
     "webTests": "256/256",
     "lint": "passed",
     "national": "passed",
     "subpathStaticBuild": "109 pages passed",
-    "crawlerFullSuite": "409/409 passed; 696898 ms"
+    "crawlerFullSuite": "running, no duplicate process"
   },
-  "validatedCodeHead": "45500161c071b63ce50a52e6070c65d77d31e2c1"
+  "preservation": {
+    "priorCandidatesUnchanged": 1123,
+    "newCandidates": 205,
+    "existingFieldEnrichment": 0
+  }
 }
