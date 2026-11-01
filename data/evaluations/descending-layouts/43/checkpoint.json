@@ -53,6 +53,7 @@
     "lint": "passed",
     "national": "passed",
     "subpathStaticBuild": "109 pages passed",
-    "crawlerFullSuite": "running"
-  }
+    "crawlerFullSuite": "409/409 passed; 696898 ms"
+  },
+  "validatedCodeHead": "45500161c071b63ce50a52e6070c65d77d31e2c1"
 }
