@@ -1,0 +1,44 @@
+{
+  "phase": "in_progress",
+  "observedMaster": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "descendingRange": [
+    "42411 新上五島町",
+    "42201 長崎市"
+  ],
+  "recentMasterExclusions": 53,
+  "unpublishedUserChanges": "not observable",
+  "currentSummary": {
+    "cohort": "42",
+    "municipalities": 21,
+    "sources": 117,
+    "hashVerifiedBodies": 97,
+    "continuationParts": 7,
+    "candidateRecords": 2003,
+    "candidateMunicipalities": 6,
+    "duplicateOutputs": 1080,
+    "heldOutputs": 0,
+    "productionRecordsAdded": 0,
+    "existingFieldsChanged": 0,
+    "municipalRequests": 0,
+    "layoutReviewedUnits": 2438,
+    "layoutActionableUnits": 10,
+    "layoutHeldUnits": 187,
+    "statuses": {
+      "duplicate": 33,
+      "insufficient_evidence": 1,
+      "navigation": 22,
+      "processed": 17,
+      "missing_body": 20,
+      "reviewed_literal_businesses": 5,
+      "unsupported_layout": 19
+    }
+  },
+  "validation": {
+    "focusedTests": "6/6",
+    "independentCandidatesAcrossCohorts": 6166,
+    "independentEvidenceAcrossCohorts": 13679,
+    "crawlerTypecheck": "passed",
+    "fullRegression": "not run for this increment yet"
+  },
+  "remaining": "19 source layouts and 10 explicit actionable layout-review units; source-specific holds preserved. No acquisition, publication or existing-field changes."
+}
