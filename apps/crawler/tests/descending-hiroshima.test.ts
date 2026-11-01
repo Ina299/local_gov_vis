@@ -38,3 +38,24 @@ test('Fuchu same-name ICT units remain held; Miyoshi recommendations do not inve
  const ps=reviewHiroshima(source('4b2559af3ca2033540caa856','34209'))!.projects;
  assert.equal(ps.length,8);assert.ok(ps.every(p=>p.evaluationYear===2024&&p.evaluatedFiscalYear===null));
 });
+
+test('Takehara excludes ambiguous list-to-sheet identities and prior-year library relocation',()=>{
+ const old=reviewHiroshima(source('743451c8733c2d7371089a17','34203'))!.projects;
+ assert.equal(old.length,14);assert.equal(old.filter(p=>p.projectName==='公民館運営事業').length,1);
+ assert.ok(!old.some(p=>p.projectName.includes('図書館移転')));assert.ok(old.every(p=>p.evaluatedFiscalYear===2018));
+ const current=reviewHiroshima(source('8ebbed9d5bcf26a8dbf7c150','34203'))!.projects;
+ assert.equal(current.length,21);assert.ok(current.some(p=>p.projectName==='北海道余市町歴史交流事業'));
+ assert.ok(current.some(p=>p.projectName==='今井政之顕彰施設整備検討事業'));
+});
+test('Onomichi coverage additions preserve explicit FY and do not repair corrupted OCR title suffixes',()=>{
+ const ps=reviewHiroshima(source('eeb6f9bb3c2f44b3d04b01fc','34205'))!.projects;
+ assert.equal(ps.length,1);assert.equal(ps[0].projectName,'尾道市美術展事業');assert.equal(ps[0].evaluatedFiscalYear,2014);
+ assert.ok(!ps[0].projectName.includes('実路'));assert.equal(ps[0].department,null);
+ const prior=reviewHiroshima(source('e299c6de2073b91f7effd68f','34205'))!.projects;
+ assert.equal(prior.length,1);assert.equal(prior[0].projectName,'特別支援教育推進事業');
+});
+test('Kure keeps named implemented programmes separate from its 17 policy indicators',()=>{
+ const ps=reviewHiroshima(source('2b519a995cdae15d17fdf0fd','34202'))!.projects;
+ assert.equal(ps.length,3);assert.ok(ps.every(p=>p.evaluatedFiscalYear===2025&&p.indicators.length===0));
+ assert.ok(ps.some(p=>p.projectName==='「育ちと学びをつなぐ」幼保小協働推進事業'));
+});

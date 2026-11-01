@@ -1,0 +1,86 @@
+{
+  "oldCandidatesPreservedExactly": 549,
+  "newCandidates": 146,
+  "newByMunicipality": {
+    "尾道市": 9,
+    "竹原市": 130,
+    "呉市": 7
+  },
+  "currentCandidateRecords": 695,
+  "currentByMunicipality": [
+    {
+      "code": "34545",
+      "name": "神石高原町",
+      "records": 40
+    },
+    {
+      "code": "34462",
+      "name": "世羅町",
+      "records": 92
+    },
+    {
+      "code": "34431",
+      "name": "大崎上島町",
+      "records": 16
+    },
+    {
+      "code": "34369",
+      "name": "北広島町",
+      "records": 1
+    },
+    {
+      "code": "34368",
+      "name": "安芸太田町",
+      "records": 12
+    },
+    {
+      "code": "34309",
+      "name": "坂町",
+      "records": 185
+    },
+    {
+      "code": "34213",
+      "name": "廿日市市",
+      "records": 36
+    },
+    {
+      "code": "34212",
+      "name": "東広島市",
+      "records": 38
+    },
+    {
+      "code": "34209",
+      "name": "三次市",
+      "records": 8
+    },
+    {
+      "code": "34208",
+      "name": "府中市",
+      "records": 62
+    },
+    {
+      "code": "34207",
+      "name": "福山市",
+      "records": 22
+    },
+    {
+      "code": "34205",
+      "name": "尾道市",
+      "records": 46
+    },
+    {
+      "code": "34203",
+      "name": "竹原市",
+      "records": 130
+    },
+    {
+      "code": "34202",
+      "name": "呉市",
+      "records": 7
+    }
+  ],
+  "financialFieldsAdded": 0,
+  "ratingsAdded": 0,
+  "indicatorsAdded": 0,
+  "productionAdded": 0
+}

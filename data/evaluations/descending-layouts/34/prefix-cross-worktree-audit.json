@@ -1,0 +1,85 @@
+{
+  "rows": [
+    {
+      "repository": "local-gov-okinawa",
+      "sourceId": "3b7bcc5bf438c38595c122d2",
+      "characters": 120000,
+      "textSha256": "1865730246d7df6ceee75b3908fb3a11e478e3ba976b933e30b28e4fe71103b5",
+      "sourceSha256": "ae996e0e321fefd894e00fba1e8189a76a97320b5502a2978ca8468afa0ed71c",
+      "extraParts": []
+    },
+    {
+      "repository": "local-gov-okinawa",
+      "sourceId": "1a50b0c38ed8dbabae1fdf68",
+      "characters": 120000,
+      "textSha256": "67f7daaab71f9974d8156028cde49a7dd452504e7a925ec5f0849c6a9e5b67af",
+      "sourceSha256": "3b559c07894bd6465f64e47e0ae17323294ac76b44c7bdcef0e0b6fcef7edf0d",
+      "extraParts": []
+    },
+    {
+      "repository": "pr4-offline-review",
+      "sourceId": "3b7bcc5bf438c38595c122d2",
+      "characters": 120000,
+      "textSha256": "1865730246d7df6ceee75b3908fb3a11e478e3ba976b933e30b28e4fe71103b5",
+      "sourceSha256": "ae996e0e321fefd894e00fba1e8189a76a97320b5502a2978ca8468afa0ed71c",
+      "extraParts": []
+    },
+    {
+      "repository": "pr4-offline-review",
+      "sourceId": "1a50b0c38ed8dbabae1fdf68",
+      "characters": 120000,
+      "textSha256": "67f7daaab71f9974d8156028cde49a7dd452504e7a925ec5f0849c6a9e5b67af",
+      "sourceSha256": "3b559c07894bd6465f64e47e0ae17323294ac76b44c7bdcef0e0b6fcef7edf0d",
+      "extraParts": []
+    },
+    {
+      "repository": "local-gov-descending",
+      "sourceId": "3b7bcc5bf438c38595c122d2",
+      "characters": 120000,
+      "textSha256": "1865730246d7df6ceee75b3908fb3a11e478e3ba976b933e30b28e4fe71103b5",
+      "sourceSha256": "ae996e0e321fefd894e00fba1e8189a76a97320b5502a2978ca8468afa0ed71c",
+      "extraParts": []
+    },
+    {
+      "repository": "local-gov-descending",
+      "sourceId": "1a50b0c38ed8dbabae1fdf68",
+      "characters": 120000,
+      "textSha256": "67f7daaab71f9974d8156028cde49a7dd452504e7a925ec5f0849c6a9e5b67af",
+      "sourceSha256": "3b559c07894bd6465f64e47e0ae17323294ac76b44c7bdcef0e0b6fcef7edf0d",
+      "extraParts": []
+    },
+    {
+      "repository": "local-gov-offline-integration",
+      "sourceId": "3b7bcc5bf438c38595c122d2",
+      "characters": 120000,
+      "textSha256": "1865730246d7df6ceee75b3908fb3a11e478e3ba976b933e30b28e4fe71103b5",
+      "sourceSha256": "ae996e0e321fefd894e00fba1e8189a76a97320b5502a2978ca8468afa0ed71c",
+      "extraParts": []
+    },
+    {
+      "repository": "local-gov-offline-integration",
+      "sourceId": "1a50b0c38ed8dbabae1fdf68",
+      "characters": 120000,
+      "textSha256": "67f7daaab71f9974d8156028cde49a7dd452504e7a925ec5f0849c6a9e5b67af",
+      "sourceSha256": "3b559c07894bd6465f64e47e0ae17323294ac76b44c7bdcef0e0b6fcef7edf0d",
+      "extraParts": []
+    },
+    {
+      "repository": "local_gov_vis",
+      "sourceId": "3b7bcc5bf438c38595c122d2",
+      "characters": 120000,
+      "textSha256": "1865730246d7df6ceee75b3908fb3a11e478e3ba976b933e30b28e4fe71103b5",
+      "sourceSha256": "ae996e0e321fefd894e00fba1e8189a76a97320b5502a2978ca8468afa0ed71c",
+      "extraParts": []
+    },
+    {
+      "repository": "local_gov_vis",
+      "sourceId": "1a50b0c38ed8dbabae1fdf68",
+      "characters": 120000,
+      "textSha256": "67f7daaab71f9974d8156028cde49a7dd452504e7a925ec5f0849c6a9e5b67af",
+      "sourceSha256": "3b559c07894bd6465f64e47e0ae17323294ac76b44c7bdcef0e0b6fcef7edf0d",
+      "extraParts": []
+    }
+  ],
+  "filesystemScanNote": "No matching original PDF or extra part found in accessible workspace paths. System-owned /tmp/codex-daemon-1000 denied directory listing; not retried and not a source prerequisite."
+}

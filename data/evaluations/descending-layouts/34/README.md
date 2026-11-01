@@ -1,9 +1,9 @@
 # Hiroshima cached review — verified increment, phase open
 
-549 isolated candidates across 12 municipalities; production additions and existing field changes are zero. 80 of109 complete source texts are mapped in this checkpoint; one verified prefix contributes36 deduplicated candidates. Missing bodies20 and prefix tails2 remain distinct from layout review.
+695 isolated candidates across14 municipalities. Added146 since549: Onomichi9, Takehara130, Kure7. All previous549 records remain identical; no existing field edits, production additions or external writes.
 
-Validation: crawler516/516; Web256/256; focused10/10; quotes28,445 across11,876 cumulative candidates; typecheck,lint,national integrity and109-page static export at `/local_gov_vis` passed. Static font optimization was disabled temporarily and the config restored. National production remains500 municipalities/92,038 records.
+Validation: crawler519/519; Web256/256; focused13/13; quotes28,883 across12,022 cumulative candidates; typecheck, lint, national integrity and109-page static export at `/local_gov_vis` passed. Temporary font optimization option restored. Production remains500 municipalities/92,038 records.
 
-The11,876 fully validated candidate total covers Kagoshima46 through Hiroshima34 and excludes Okinawa1,084 and initial93. No publication.
+The12,022 total covers46 Kagoshima through34 Hiroshima, excluding Okinawa1,084 and initial93. Candidate records are not published records or proof of completed implementation.
 
-The review is not exhausted: the next external stage reviews all109 complete texts and contains152 additional proposals awaiting runtime tests and deduplication. It is separate from this checkpoint. `complete-review-queue.json` preserves pending units and20 missing bodies. The source-access manifest gate is unchanged. The53 recent-master municipalities remain excluded; unpublished user local edits are not observable.
+All109 complete cached texts have a first family review. This is not exhaustive business coverage: finer unit reviews remain open, with73 further Saka proposals saved separately awaiting runtime/dedup/tests. The source review ledger records remaining issues.20 absent bodies and2 missing prefix tails require input, not a current network denial. All53 exclusions and source-access gates remain. Unpublished user work cannot be observed.
