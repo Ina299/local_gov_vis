@@ -1,0 +1,40 @@
+[
+  {
+    "sourceId": "07c17b9c5dd1f35b462efbb9",
+    "sections": 39,
+    "proposals": 88,
+    "holds": [
+      {
+        "raw": "○ 的実施事業実施率 A 業務の内容は適切である D 事業・費用とも維持",
+        "start": 32399,
+        "reason": "名称欄が実施率というKPI表現、または末尾欠落。個別事業名を推測で補正しない。",
+        "status": "title_or_indicator_hold"
+      },
+      {
+        "raw": "使用済小型家電機器リ B 課題が少しあり業務の一部見直しが必要 D 事業・費用とも維持",
+        "start": 40861,
+        "reason": "名称欄が実施率というKPI表現、または末尾欠落。個別事業名を推測で補正しない。",
+        "status": "title_or_indicator_hold"
+      }
+    ]
+  },
+  {
+    "sourceId": "0e6ac7c20397f05a58cf2c86",
+    "sections": 39,
+    "proposals": 89,
+    "holds": [
+      {
+        "raw": "○ 的実施事業実施率 A 業務の内容は適切である D 事業・費用とも維持",
+        "start": 31707,
+        "reason": "名称欄が実施率というKPI表現、または末尾欠落。個別事業名を推測で補正しない。",
+        "status": "title_or_indicator_hold"
+      },
+      {
+        "raw": "使用済小型家電機器リ B 課題が少しあり業務の一部見直しが必要 D 事業・費用とも維持",
+        "start": 40360,
+        "reason": "名称欄が実施率というKPI表現、または末尾欠落。個別事業名を推測で補正しない。",
+        "status": "title_or_indicator_hold"
+      }
+    ]
+  }
+]

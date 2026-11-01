@@ -1,0 +1,5938 @@
+[
+  {
+    "number": 1,
+    "name": "議会運営費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "議会運営費"
+    ],
+    "start": 170
+  },
+  {
+    "number": 2,
+    "name": "議会ＩＣＴ推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "議会ＩＣＴ推進事業"
+    ],
+    "start": 378
+  },
+  {
+    "number": 3,
+    "name": "ＡＥＤ管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "ＡＥＤ管理事業"
+    ],
+    "start": 488
+  },
+  {
+    "number": 4,
+    "name": "行政管理課管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "行政管理課管理経費"
+    ],
+    "start": 548
+  },
+  {
+    "number": 5,
+    "name": "公用車運行管理業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "公用車運行管理業務"
+    ],
+    "start": 736
+  },
+  {
+    "number": 6,
+    "name": "固定資産評価審査委員会運営費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "固定資産評価審査委員会運営費"
+    ],
+    "start": 869
+  },
+  {
+    "number": 7,
+    "name": "秘書室管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "秘書室管理経費"
+    ],
+    "start": 979
+  },
+  {
+    "number": 8,
+    "name": "市庁舎管理業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "市庁舎管理業務"
+    ],
+    "start": 1082
+  },
+  {
+    "number": 9,
+    "name": "防災危機管理体制整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "防災危機管理体制整備事業"
+    ],
+    "start": 1208
+  },
+  {
+    "number": 10,
+    "name": "地域防災力向上事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "地域防災力向上事業"
+    ],
+    "start": 1342
+  },
+  {
+    "number": 11,
+    "name": "法務推進室管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "法務推進室管理経費"
+    ],
+    "start": 1521
+  },
+  {
+    "number": 12,
+    "name": "市民相談事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "市民相談事業"
+    ],
+    "start": 1681
+  },
+  {
+    "number": 13,
+    "name": "姉妹都市交流事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "姉妹都市交流事業"
+    ],
+    "start": 1813
+  },
+  {
+    "number": 14,
+    "name": "人事課管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "人事課管理経費"
+    ],
+    "start": 1978
+  },
+  {
+    "number": 15,
+    "name": "公共施設マネジメント事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "公共施設マネジメント事業"
+    ],
+    "start": 2118
+  },
+  {
+    "number": 16,
+    "name": "建築課管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "建築課管理経費"
+    ],
+    "start": 2249
+  },
+  {
+    "number": 17,
+    "name": "物品等管理業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "物品等管理業務"
+    ],
+    "start": 2332
+  },
+  {
+    "number": 18,
+    "name": "入札検査室管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "入札検査室管理経費"
+    ],
+    "start": 2398
+  },
+  {
+    "number": 19,
+    "name": "人事管理業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "人事管理業務"
+    ],
+    "start": 2502
+  },
+  {
+    "number": 20,
+    "name": "職員福利厚生業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "職員福利厚生業務"
+    ],
+    "start": 2567
+  },
+  {
+    "number": 21,
+    "name": "職員研修業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "職員研修業務"
+    ],
+    "start": 2738
+  },
+  {
+    "number": 22,
+    "name": "文書管理業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "文書管理業務"
+    ],
+    "start": 2884
+  },
+  {
+    "number": 23,
+    "name": "情報公開管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "情報公開管理事業"
+    ],
+    "start": 2948
+  },
+  {
+    "number": 24,
+    "name": "個人情報保護管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "個人情報保護管理事業"
+    ],
+    "start": 3075
+  },
+  {
+    "number": 25,
+    "name": "広報業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "広報業務"
+    ],
+    "start": 3191
+  },
+  {
+    "number": 26,
+    "name": "財政課管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "財政課管理経費"
+    ],
+    "start": 3270
+  },
+  {
+    "number": 27,
+    "name": "会計課管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "会計課管理経費"
+    ],
+    "start": 3351
+  },
+  {
+    "number": 28,
+    "name": "普通財産等管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "普通財産等管理事業"
+    ],
+    "start": 3545
+  },
+  {
+    "number": 29,
+    "name": "市有林管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "市有林管理事業"
+    ],
+    "start": 3663
+  },
+  {
+    "number": 30,
+    "name": "森林公園管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "森林公園管理事業"
+    ],
+    "start": 3798
+  },
+  {
+    "number": 31,
+    "name": "野島教員住宅管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "野島教員住宅管理事業"
+    ],
+    "start": 3929
+  },
+  {
+    "number": 32,
+    "name": "庁舎建設基金積立金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "庁舎建設基金積立金"
+    ],
+    "start": 3983
+  },
+  {
+    "number": 33,
+    "name": "庁舎建設事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "庁舎建設事業"
+    ],
+    "start": 4127
+  },
+  {
+    "number": 34,
+    "name": "財政調整基金積立金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "財政調整基金積立金"
+    ],
+    "start": 4281
+  },
+  {
+    "number": 35,
+    "name": "減債基金積立金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "減債基金積立金"
+    ],
+    "start": 4328
+  },
+  {
+    "number": 36,
+    "name": "政策推進課管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "政策推進課管理経費"
+    ],
+    "start": 4470
+  },
+  {
+    "number": 37,
+    "name": "ＵＪＩターン促進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "ＵＪＩターン促進事業"
+    ],
+    "start": 4652
+  },
+  {
+    "number": 38,
+    "name": "ふるさと寄附金推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "ふるさと寄附金推進事業"
+    ],
+    "start": 4846
+  },
+  {
+    "number": 39,
+    "name": "学公連携推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "学公連携推進事業"
+    ],
+    "start": 5014
+  },
+  {
+    "number": 40,
+    "name": "男女共同参画相談事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "男女共同参画相談事業"
+    ],
+    "start": 5183
+  },
+  {
+    "number": 41,
+    "name": "男女共同参画推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "男女共同参画推進事業"
+    ],
+    "start": 5334
+  },
+  {
+    "number": 42,
+    "name": "企業応援課管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "企業応援課管理経費"
+    ],
+    "start": 5580
+  },
+  {
+    "number": 43,
+    "name": "出張所管理業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "出張所管理業務"
+    ],
+    "start": 5692
+  },
+  {
+    "number": 44,
+    "name": "公平委員会運営費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "公平委員会運営費"
+    ],
+    "start": 5821
+  },
+  {
+    "number": 45,
+    "name": "消費生活対策事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "消費生活対策事業"
+    ],
+    "start": 5933
+  },
+  {
+    "number": 46,
+    "name": "土地対策関係業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "土地対策関係業務"
+    ],
+    "start": 6066
+  },
+  {
+    "number": 47,
+    "name": "情報システムマネジメント事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "情報システムマネジメント事業"
+    ],
+    "start": 6158
+  },
+  {
+    "number": 48,
+    "name": "ネットワークマネジメント事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "ネットワークマネジメント事業"
+    ],
+    "start": 6249
+  },
+  {
+    "number": 49,
+    "name": "ＤＸ推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "ＤＸ推進事業"
+    ],
+    "start": 6464
+  },
+  {
+    "number": 50,
+    "name": "公共交通対策事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "公共交通対策事業"
+    ],
+    "start": 6714
+  },
+  {
+    "number": 51,
+    "name": "離島振興事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "離島振興事業"
+    ],
+    "start": 6973
+  },
+  {
+    "number": 52,
+    "name": "高齢者等バス・タクシー運賃助成事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "高齢者等バス・タクシー運賃助成",
+      "事業"
+    ],
+    "start": 7019
+  },
+  {
+    "number": 53,
+    "name": "自治会防犯灯整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "自治会防犯灯整備事業"
+    ],
+    "start": 7188
+  },
+  {
+    "number": 54,
+    "name": "地域安心防犯灯設置事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "地域安心防犯灯設置事業"
+    ],
+    "start": 7320
+  },
+  {
+    "number": 55,
+    "name": "自治会振興事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "自治会振興事業"
+    ],
+    "start": 7504
+  },
+  {
+    "number": 56,
+    "name": "がんばる地域応援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "がんばる地域応援事業"
+    ],
+    "start": 7689
+  },
+  {
+    "number": 57,
+    "name": "コミュニティ推進連絡会議等助成事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "コミュニティ推進連絡会議等助成",
+      "事業"
+    ],
+    "start": 7793
+  },
+  {
+    "number": 58,
+    "name": "地区公共用施設整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "地区公共用施設整備事業"
+    ],
+    "start": 8013
+  },
+  {
+    "number": 59,
+    "name": "地域協働支援センター運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "地域協働支援センター運営事業"
+    ],
+    "start": 8173
+  },
+  {
+    "number": 60,
+    "name": "市民参画協働推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "市民参画協働推進事業"
+    ],
+    "start": 8310
+  },
+  {
+    "number": 61,
+    "name": "中山間地域振興事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "中山間地域振興事業"
+    ],
+    "start": 8406
+  },
+  {
+    "number": 62,
+    "name": "富海駅施設管理運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "富海駅施設管理運営事業"
+    ],
+    "start": 8560
+  },
+  {
+    "number": 63,
+    "name": "姉妹都市国際交流事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "姉妹都市国際交流事業"
+    ],
+    "start": 8731
+  },
+  {
+    "number": 64,
+    "name": "多彩な交流活動事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "多彩な交流活動事業"
+    ],
+    "start": 8859
+  },
+  {
+    "number": 65,
+    "name": "青少年劇場事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "青少年劇場事業"
+    ],
+    "start": 9018
+  },
+  {
+    "number": 66,
+    "name": "文化・芸術団体育成事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "文化・芸術団体育成事業"
+    ],
+    "start": 9186
+  },
+  {
+    "number": 67,
+    "name": "防府市文化協会助成事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "防府市文化協会助成事業"
+    ],
+    "start": 9322
+  },
+  {
+    "number": 68,
+    "name": "山頭火ふるさと館管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "山頭火ふるさと館管理事業"
+    ],
+    "start": 9516
+  },
+  {
+    "number": 69,
+    "name": "公会堂管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "公会堂管理事業"
+    ],
+    "start": 9816
+  },
+  {
+    "number": 70,
+    "name": "地域交流センター管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "地域交流センター管理事業"
+    ],
+    "start": 9952
+  },
+  {
+    "number": 71,
+    "name": "文化施設運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "文化施設運営事業"
+    ],
+    "start": 10136
+  },
+  {
+    "number": 72,
+    "name": "防府読売マラソン大会開催事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "防府読売マラソン大会開催事業"
+    ],
+    "start": 10355
+  },
+  {
+    "number": 73,
+    "name": "各種スポーツ活動推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "各種スポーツ活動推進事業"
+    ],
+    "start": 10551
+  },
+  {
+    "number": 74,
+    "name": "スポーツ推進委員活動事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "スポーツ推進委員活動事業"
+    ],
+    "start": 10707
+  },
+  {
+    "number": 75,
+    "name": "スポーツ団体等支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "スポーツ団体等支援事業"
+    ],
+    "start": 10865
+  },
+  {
+    "number": 76,
+    "name": "学校施設開放事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "学校施設開放事業"
+    ],
+    "start": 11021
+  },
+  {
+    "number": 77,
+    "name": "スポーツ推進計画策定事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "スポーツ推進計画策定事業"
+    ],
+    "start": 11073
+  },
+  {
+    "number": 78,
+    "name": "ほうふスポーツフェスタ開催事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "ほうふスポーツフェスタ開催事業"
+    ],
+    "start": 11232
+  },
+  {
+    "number": 79,
+    "name": "体育施設運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "体育施設運営事業"
+    ],
+    "start": 11435
+  },
+  {
+    "number": 80,
+    "name": "行政管理課諸費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "行政管理課諸費"
+    ],
+    "start": 11499
+  },
+  {
+    "number": 81,
+    "name": "くらし安全課諸費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "くらし安全課諸費"
+    ],
+    "start": 11693
+  },
+  {
+    "number": 82,
+    "name": "課税課管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "課税課管理経費"
+    ],
+    "start": 11946
+  },
+  {
+    "number": 83,
+    "name": "収納課管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "収納課管理経費"
+    ],
+    "start": 12021
+  },
+  {
+    "number": 84,
+    "name": "賦課業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "賦課業務"
+    ],
+    "start": 12134
+  },
+  {
+    "number": 85,
+    "name": "徴収業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "徴収業務"
+    ],
+    "start": 12194
+  },
+  {
+    "number": 86,
+    "name": "住居表示管理業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "住居表示管理業務"
+    ],
+    "start": 12300
+  },
+  {
+    "number": 87,
+    "name": "住民基本台帳管理業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "住民基本台帳管理業務"
+    ],
+    "start": 12478
+  },
+  {
+    "number": 88,
+    "name": "戸籍届出受理管理業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "戸籍届出受理管理業務"
+    ],
+    "start": 12678
+  },
+  {
+    "number": 89,
+    "name": "旅券発給・中長期在留者管理・郵便請求業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "旅券発給・中長期在留者管理・郵",
+      "便請求業務"
+    ],
+    "start": 12840
+  },
+  {
+    "number": 90,
+    "name": "選挙管理委員会運営費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "選挙管理委員会運営費"
+    ],
+    "start": 12991
+  },
+  {
+    "number": 91,
+    "name": "選挙啓発事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "選挙啓発事業"
+    ],
+    "start": 13137
+  },
+  {
+    "number": 92,
+    "name": "参議院議員通常選挙業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "参議院議員通常選挙業務"
+    ],
+    "start": 13232
+  },
+  {
+    "number": 93,
+    "name": "県知事選挙業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "県知事選挙業務"
+    ],
+    "start": 13306
+  },
+  {
+    "number": 94,
+    "name": "統計調査管理業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "統計調査管理業務"
+    ],
+    "start": 13367
+  },
+  {
+    "number": 95,
+    "name": "統計調査事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "統計調査事業"
+    ],
+    "start": 13424
+  },
+  {
+    "number": 96,
+    "name": "監査委員事務局管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "監査委員事務局管理経費"
+    ],
+    "start": 13593
+  },
+  {
+    "number": 97,
+    "name": "国民健康保険事業特別会計繰出金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "国民健康保険事業特別会計繰出金"
+    ],
+    "start": 13794
+  },
+  {
+    "number": 98,
+    "name": "高齢福祉課管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "高齢福祉課管理経費"
+    ],
+    "start": 13923
+  },
+  {
+    "number": 99,
+    "name": "在日外国人等福祉給付金給付事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "在日外国人等福祉給付金給付事業"
+    ],
+    "start": 14046
+  },
+  {
+    "number": 100,
+    "name": "成年後見制度利用促進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "成年後見制度利用促進事業"
+    ],
+    "start": 14185
+  },
+  {
+    "number": 101,
+    "name": "災害時要配慮者支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "災害時要配慮者支援事業"
+    ],
+    "start": 14282
+  },
+  {
+    "number": 102,
+    "name": "民生委員児童委員関係事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "民生委員児童委員関係事業"
+    ],
+    "start": 14458
+  },
+  {
+    "number": 103,
+    "name": "戦傷病者戦没者遺族等援護事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "戦傷病者戦没者遺族等援護事業"
+    ],
+    "start": 14584
+  },
+  {
+    "number": 104,
+    "name": "行旅病人死亡人困窮者援護事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "行旅病人死亡人困窮者援護事業"
+    ],
+    "start": 14731
+  },
+  {
+    "number": 105,
+    "name": "福祉総務課関係経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "福祉総務課関係経費"
+    ],
+    "start": 14884
+  },
+  {
+    "number": 106,
+    "name": "生活困窮者自立支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "生活困窮者自立支援事業"
+    ],
+    "start": 14983
+  },
+  {
+    "number": 107,
+    "name": "社会福祉協議会関係事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "社会福祉協議会関係事業"
+    ],
+    "start": 15165
+  },
+  {
+    "number": 108,
+    "name": "定額減税補足給付金支給事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "定額減税補足給付金支給事業"
+    ],
+    "start": 15313
+  },
+  {
+    "number": 109,
+    "name": "防府市地域福祉計画推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "防府市地域福祉計画推進事業"
+    ],
+    "start": 15538
+  },
+  {
+    "number": 110,
+    "name": "福祉指導監査室管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "福祉指導監査室管理経費"
+    ],
+    "start": 15795
+  },
+  {
+    "number": 111,
+    "name": "人権擁護委員関係業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "人権擁護委員関係業務"
+    ],
+    "start": 15894
+  },
+  {
+    "number": 112,
+    "name": "人権推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "人権推進事業"
+    ],
+    "start": 16075
+  },
+  {
+    "number": 113,
+    "name": "犯罪被害者等支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "犯罪被害者等支援事業"
+    ],
+    "start": 16149
+  },
+  {
+    "number": 114,
+    "name": "国民年金業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "国民年金業務"
+    ],
+    "start": 16291
+  },
+  {
+    "number": 115,
+    "name": "後期高齢者医療事業特別会計繰出金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "後期高齢者医療事業特別会計繰出",
+      "金"
+    ],
+    "start": 16360
+  },
+  {
+    "number": 116,
+    "name": "後期高齢者医療負担金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "後期高齢者医療負担金"
+    ],
+    "start": 16544
+  },
+  {
+    "number": 117,
+    "name": "高齢者の保健事業と介護予防の一体的実施事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "高齢者の保健事業と介護予防の一",
+      "体的実施事業"
+    ],
+    "start": 16713
+  },
+  {
+    "number": 118,
+    "name": "介護サービス等利用者対策事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "介護サービス等利用者対策事業"
+    ],
+    "start": 16940
+  },
+  {
+    "number": 119,
+    "name": "老人福祉施設整備補助事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "老人福祉施設整備補助事業"
+    ],
+    "start": 17104
+  },
+  {
+    "number": 120,
+    "name": "介護保険事業特別会計繰出金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "介護保険事業特別会計繰出金"
+    ],
+    "start": 17249
+  },
+  {
+    "number": 121,
+    "name": "老人ホーム入所・運営関係事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "老人ホーム入所・運営関係事業"
+    ],
+    "start": 17389
+  },
+  {
+    "number": 122,
+    "name": "高齢者日常生活用具給付等事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "高齢者日常生活用具給付等事業"
+    ],
+    "start": 17481
+  },
+  {
+    "number": 123,
+    "name": "寝具乾燥事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "寝具乾燥事業"
+    ],
+    "start": 17616
+  },
+  {
+    "number": 124,
+    "name": "地域福祉推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "地域福祉推進事業"
+    ],
+    "start": 17870
+  },
+  {
+    "number": 125,
+    "name": "はり、きゅう施術助成事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "はり、きゅう施術助成事業"
+    ],
+    "start": 18028
+  },
+  {
+    "number": 126,
+    "name": "敬老祝金支給事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "敬老祝金支給事業"
+    ],
+    "start": 18121
+  },
+  {
+    "number": 127,
+    "name": "老人憩の家維持管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "老人憩の家維持管理事業"
+    ],
+    "start": 18309
+  },
+  {
+    "number": 128,
+    "name": "老人クラブ助成事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "老人クラブ助成事業"
+    ],
+    "start": 18507
+  },
+  {
+    "number": 129,
+    "name": "訪問理美容サービス事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "訪問理美容サービス事業"
+    ],
+    "start": 18630
+  },
+  {
+    "number": 130,
+    "name": "敬老会等助成事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "敬老会等助成事業"
+    ],
+    "start": 18735
+  },
+  {
+    "number": 131,
+    "name": "離島要援護高齢者対策事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "離島要援護高齢者対策事業"
+    ],
+    "start": 18897
+  },
+  {
+    "number": 132,
+    "name": "福祉電話貸与事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "福祉電話貸与事業"
+    ],
+    "start": 19037
+  },
+  {
+    "number": 133,
+    "name": "老人福祉法適用措置事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "老人福祉法適用措置事業"
+    ],
+    "start": 19217
+  },
+  {
+    "number": 134,
+    "name": "生活管理指導短期宿泊事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "生活管理指導短期宿泊事業"
+    ],
+    "start": 19380
+  },
+  {
+    "number": 135,
+    "name": "在宅寝たきり高齢者等介護見舞金事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "在宅寝たきり高齢者等介護見舞金",
+      "事業"
+    ],
+    "start": 19445
+  },
+  {
+    "number": 136,
+    "name": "障害者福祉関係業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "障害者福祉関係業務"
+    ],
+    "start": 19692
+  },
+  {
+    "number": 137,
+    "name": "身体障害者福祉センター外４施設管理運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "身体障害者福祉センター外４施設",
+      "管理運営事業"
+    ],
+    "start": 19793
+  },
+  {
+    "number": 138,
+    "name": "地域生活支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "地域生活支援事業"
+    ],
+    "start": 20120
+  },
+  {
+    "number": 139,
+    "name": "障害者医療費給付事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "障害者医療費給付事業"
+    ],
+    "start": 20389
+  },
+  {
+    "number": 140,
+    "name": "介護・訓練等給付事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "介護・訓練等給付事業"
+    ],
+    "start": 20599
+  },
+  {
+    "number": 141,
+    "name": "生活支援用具給付事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "生活支援用具給付事業"
+    ],
+    "start": 20749
+  },
+  {
+    "number": 142,
+    "name": "福祉援護団体育成費補助事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "福祉援護団体育成費補助事業"
+    ],
+    "start": 20906
+  },
+  {
+    "number": 143,
+    "name": "障害者福祉都市推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "障害者福祉都市推進事業"
+    ],
+    "start": 21155
+  },
+  {
+    "number": 144,
+    "name": "障害児（者）措置事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "障害児（者）措置事業"
+    ],
+    "start": 21347
+  },
+  {
+    "number": 145,
+    "name": "心身障害者（児）扶養共済掛金助成事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "心身障害者（児）扶養共済掛金助",
+      "成事業"
+    ],
+    "start": 21441
+  },
+  {
+    "number": 146,
+    "name": "外出支援助成事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "外出支援助成事業"
+    ],
+    "start": 21627
+  },
+  {
+    "number": 147,
+    "name": "特別障害者手当等給付事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "特別障害者手当等給付事業"
+    ],
+    "start": 21792
+  },
+  {
+    "number": 148,
+    "name": "重度心身障害者医療費支給事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "重度心身障害者医療費支給事業"
+    ],
+    "start": 21908
+  },
+  {
+    "number": 149,
+    "name": "身体障害者福祉電話貸与事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "身体障害者福祉電話貸与事業"
+    ],
+    "start": 22063
+  },
+  {
+    "number": 150,
+    "name": "防府市福祉年金支給事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "防府市福祉年金支給事業"
+    ],
+    "start": 22218
+  },
+  {
+    "number": 151,
+    "name": "障害児支援給付事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "障害児支援給付事業"
+    ],
+    "start": 22447
+  },
+  {
+    "number": 152,
+    "name": "ひきこもり支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "ひきこもり支援事業"
+    ],
+    "start": 22657
+  },
+  {
+    "number": 153,
+    "name": "福祉センター運営業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "福祉センター運営業務"
+    ],
+    "start": 22775
+  },
+  {
+    "number": 154,
+    "name": "子育て推進課管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "子育て推進課管理経費"
+    ],
+    "start": 22942
+  },
+  {
+    "number": 155,
+    "name": "こども家庭センター整備・運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "こども家庭センター整備・運営事",
+      "業"
+    ],
+    "start": 23045
+  },
+  {
+    "number": 156,
+    "name": "母親クラブ活動支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "母親クラブ活動支援事業"
+    ],
+    "start": 23278
+  },
+  {
+    "number": 157,
+    "name": "ファミリーサポートセンター運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "ファミリーサポートセンター運営",
+      "事業"
+    ],
+    "start": 23351
+  },
+  {
+    "number": 158,
+    "name": "子育て短期支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "子育て短期支援事業"
+    ],
+    "start": 23621
+  },
+  {
+    "number": 159,
+    "name": "助産扶助費支給事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "助産扶助費支給事業"
+    ],
+    "start": 23777
+  },
+  {
+    "number": 160,
+    "name": "児童手当支給事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "児童手当支給事業"
+    ],
+    "start": 23958
+  },
+  {
+    "number": 161,
+    "name": "多子世帯保育料等軽減事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "多子世帯保育料等軽減事業"
+    ],
+    "start": 24122
+  },
+  {
+    "number": 162,
+    "name": "病児保育事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "病児保育事業"
+    ],
+    "start": 24372
+  },
+  {
+    "number": 163,
+    "name": "民間保育サービス施設助成事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "民間保育サービス施設助成事業"
+    ],
+    "start": 24540
+  },
+  {
+    "number": 164,
+    "name": "社会福祉施設整備補助事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "社会福祉施設整備補助事業"
+    ],
+    "start": 24703
+  },
+  {
+    "number": 165,
+    "name": "里親支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "里親支援事業"
+    ],
+    "start": 24934
+  },
+  {
+    "number": 166,
+    "name": "要保護児童対策地域協議会運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "要保護児童対策地域協議会運営事",
+      "業"
+    ],
+    "start": 25067
+  },
+  {
+    "number": 167,
+    "name": "養育支援訪問事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "養育支援訪問事業"
+    ],
+    "start": 25398
+  },
+  {
+    "number": 168,
+    "name": "子育て世帯訪問支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "子育て世帯訪問支援事業"
+    ],
+    "start": 25592
+  },
+  {
+    "number": 169,
+    "name": "子どものための教育・保育給付事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "子どものための教育・保育給付事",
+      "業"
+    ],
+    "start": 25732
+  },
+  {
+    "number": 170,
+    "name": "地域子育て支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "地域子育て支援事業"
+    ],
+    "start": 25997
+  },
+  {
+    "number": 171,
+    "name": "子どもの誕生・成長サポート事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "子どもの誕生・成長サポート事業"
+    ],
+    "start": 26144
+  },
+  {
+    "number": 172,
+    "name": "子育て支援活動補助事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "子育て支援活動補助事業"
+    ],
+    "start": 26269
+  },
+  {
+    "number": 173,
+    "name": "母子父子寡婦福祉資金支給事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "母子父子寡婦福祉資金支給事業"
+    ],
+    "start": 26445
+  },
+  {
+    "number": 174,
+    "name": "ひとり親家庭自立支援給付金事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "ひとり親家庭自立支援給付金事業"
+    ],
+    "start": 26599
+  },
+  {
+    "number": 175,
+    "name": "児童扶養手当支給事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "児童扶養手当支給事業"
+    ],
+    "start": 26784
+  },
+  {
+    "number": 176,
+    "name": "母子生活支援施設措置事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "母子生活支援施設措置事業"
+    ],
+    "start": 26963
+  },
+  {
+    "number": 177,
+    "name": "乳幼児医療費支給事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "乳幼児医療費支給事業"
+    ],
+    "start": 27110
+  },
+  {
+    "number": 178,
+    "name": "ひとり親家庭医療費支給事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "ひとり親家庭医療費支給事業"
+    ],
+    "start": 27220
+  },
+  {
+    "number": 179,
+    "name": "子ども医療費支給事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "子ども医療費支給事業"
+    ],
+    "start": 27451
+  },
+  {
+    "number": 180,
+    "name": "市立保育所管理・運営業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "市立保育所管理・運営業務"
+    ],
+    "start": 27675
+  },
+  {
+    "number": 181,
+    "name": "市立認定こども園管理・運営業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "市立認定こども園管理・運営業務"
+    ],
+    "start": 27894
+  },
+  {
+    "number": 182,
+    "name": "留守家庭児童学級運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "留守家庭児童学級運営事業"
+    ],
+    "start": 28072
+  },
+  {
+    "number": 183,
+    "name": "華城留守家庭児童学級建設事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "華城留守家庭児童学級建設事業"
+    ],
+    "start": 28177
+  },
+  {
+    "number": 184,
+    "name": "児童館運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "児童館運営事業"
+    ],
+    "start": 28329
+  },
+  {
+    "number": 185,
+    "name": "留守家庭児童クラブ事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "留守家庭児童クラブ事業"
+    ],
+    "start": 28507
+  },
+  {
+    "number": 186,
+    "name": "生活保護関係業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "生活保護関係業務"
+    ],
+    "start": 28605
+  },
+  {
+    "number": 187,
+    "name": "扶助費支給事務費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "扶助費支給事務費"
+    ],
+    "start": 28678
+  },
+  {
+    "number": 188,
+    "name": "扶助費支給事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "扶助費支給事業"
+    ],
+    "start": 28797
+  },
+  {
+    "number": 189,
+    "name": "罹災者救助援護事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "罹災者救助援護事業"
+    ],
+    "start": 28948
+  },
+  {
+    "number": 190,
+    "name": "と場事業特別会計繰出金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "と場事業特別会計繰出金"
+    ],
+    "start": 29009
+  },
+  {
+    "number": 191,
+    "name": "食生活改善地域組織事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "食生活改善地域組織事業"
+    ],
+    "start": 29149
+  },
+  {
+    "number": 192,
+    "name": "健康増進課管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "健康増進課管理経費"
+    ],
+    "start": 29292
+  },
+  {
+    "number": 193,
+    "name": "医師会等補助事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "医師会等補助事業"
+    ],
+    "start": 29509
+  },
+  {
+    "number": 194,
+    "name": "野島診療所運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "野島診療所運営事業"
+    ],
+    "start": 29651
+  },
+  {
+    "number": 195,
+    "name": "健康づくり推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "健康づくり推進事業"
+    ],
+    "start": 29783
+  },
+  {
+    "number": 196,
+    "name": "こころの健康づくり事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "こころの健康づくり事業"
+    ],
+    "start": 29898
+  },
+  {
+    "number": 197,
+    "name": "母子保健地域組織育成支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "母子保健地域組織育成支援事業"
+    ],
+    "start": 30028
+  },
+  {
+    "number": 198,
+    "name": "妊婦健康診査事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "妊婦健康診査事業"
+    ],
+    "start": 30247
+  },
+  {
+    "number": 199,
+    "name": "初回産科受診料支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "初回産科受診料支援事業"
+    ],
+    "start": 30439
+  },
+  {
+    "number": 200,
+    "name": "産婦健康診査事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "産婦健康診査事業"
+    ],
+    "start": 30610
+  },
+  {
+    "number": 201,
+    "name": "乳幼児健康診査事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "乳幼児健康診査事業"
+    ],
+    "start": 30787
+  },
+  {
+    "number": 202,
+    "name": "妊産婦保健指導事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "妊産婦保健指導事業"
+    ],
+    "start": 30965
+  },
+  {
+    "number": 203,
+    "name": "乳幼児保健指導事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "乳幼児保健指導事業"
+    ],
+    "start": 31153
+  },
+  {
+    "number": 204,
+    "name": "産科医等確保支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "産科医等確保支援事業"
+    ],
+    "start": 31257
+  },
+  {
+    "number": 205,
+    "name": "いのちの誕生支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "いのちの誕生支援事業"
+    ],
+    "start": 31369
+  },
+  {
+    "number": 206,
+    "name": "養育医療給付事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "養育医療給付事業"
+    ],
+    "start": 31511
+  },
+  {
+    "number": 207,
+    "name": "出産・子育て応援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "出産・子育て応援事業"
+    ],
+    "start": 31810
+  },
+  {
+    "number": 208,
+    "name": "妊娠・出産包括支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "妊娠・出産包括支援事業"
+    ],
+    "start": 32053
+  },
+  {
+    "number": 209,
+    "name": "妊婦健康サポート事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "妊婦健康サポート事業"
+    ],
+    "start": 32160
+  },
+  {
+    "number": 210,
+    "name": "畜犬登録事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "畜犬登録事業"
+    ],
+    "start": 32344
+  },
+  {
+    "number": 211,
+    "name": "予防接種事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "予防接種事業"
+    ],
+    "start": 32471
+  },
+  {
+    "number": 212,
+    "name": "感染症予防事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "感染症予防事業"
+    ],
+    "start": 32612
+  },
+  {
+    "number": 213,
+    "name": "環境衛生推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "環境衛生推進事業"
+    ],
+    "start": 32833
+  },
+  {
+    "number": 214,
+    "name": "市営墓地等管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "市営墓地等管理事業"
+    ],
+    "start": 33158
+  },
+  {
+    "number": 215,
+    "name": "大光寺原霊園管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "大光寺原霊園管理事業"
+    ],
+    "start": 33323
+  },
+  {
+    "number": 216,
+    "name": "環境衛生活動促進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "環境衛生活動促進事業"
+    ],
+    "start": 33433
+  },
+  {
+    "number": 217,
+    "name": "浄化槽設置整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "浄化槽設置整備事業"
+    ],
+    "start": 33588
+  },
+  {
+    "number": 218,
+    "name": "一次救急医療対策事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "一次救急医療対策事業"
+    ],
+    "start": 33750
+  },
+  {
+    "number": 219,
+    "name": "二次救急医療対策事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "二次救急医療対策事業"
+    ],
+    "start": 33962
+  },
+  {
+    "number": 220,
+    "name": "環境対策事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "環境対策事業"
+    ],
+    "start": 34139
+  },
+  {
+    "number": 221,
+    "name": "地球温暖化対策事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "地球温暖化対策事業"
+    ],
+    "start": 34345
+  },
+  {
+    "number": 222,
+    "name": "がん検診事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "がん検診事業"
+    ],
+    "start": 34574
+  },
+  {
+    "number": 223,
+    "name": "健康診査事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "健康診査事業"
+    ],
+    "start": 34657
+  },
+  {
+    "number": 224,
+    "name": "健康増進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "健康増進事業"
+    ],
+    "start": 34787
+  },
+  {
+    "number": 225,
+    "name": "保健センター管理業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "保健センター管理業務"
+    ],
+    "start": 34901
+  },
+  {
+    "number": 226,
+    "name": "斎場運営業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "斎場運営業務"
+    ],
+    "start": 35032
+  },
+  {
+    "number": 227,
+    "name": "クリーンセンター管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "クリーンセンター管理経費"
+    ],
+    "start": 35171
+  },
+  {
+    "number": 228,
+    "name": "ごみ収集運搬業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "ごみ収集運搬業務"
+    ],
+    "start": 35342
+  },
+  {
+    "number": 229,
+    "name": "最終処分場処理業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "最終処分場処理業務"
+    ],
+    "start": 35546
+  },
+  {
+    "number": 230,
+    "name": "ごみ減量化推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "ごみ減量化推進事業"
+    ],
+    "start": 35732
+  },
+  {
+    "number": 231,
+    "name": "廃棄物処理施設運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "廃棄物処理施設運営事業"
+    ],
+    "start": 35878
+  },
+  {
+    "number": 232,
+    "name": "廃棄物適正処理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "廃棄物適正処理事業"
+    ],
+    "start": 36049
+  },
+  {
+    "number": 233,
+    "name": "し尿処理業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "し尿処理業務"
+    ],
+    "start": 36274
+  },
+  {
+    "number": 234,
+    "name": "企業の魅力発信事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "企業の魅力発信事業"
+    ],
+    "start": 36415
+  },
+  {
+    "number": 235,
+    "name": "防府地域職業訓練センター運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "防府地域職業訓練センター運営事",
+      "業"
+    ],
+    "start": 36475
+  },
+  {
+    "number": 236,
+    "name": "働き方改革促進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "働き方改革促進事業"
+    ],
+    "start": 36700
+  },
+  {
+    "number": 237,
+    "name": "シルバー人材センター助成事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "シルバー人材センター助成事業"
+    ],
+    "start": 36874
+  },
+  {
+    "number": 238,
+    "name": "勤労者福祉向上事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "勤労者福祉向上事業"
+    ],
+    "start": 36991
+  },
+  {
+    "number": 239,
+    "name": "防府市中高年齢労働者福祉センター運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "防府市中高年齢労働者福祉セン",
+      "ター運営事業"
+    ],
+    "start": 37053
+  },
+  {
+    "number": 240,
+    "name": "人財活躍サポート事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "人財活躍サポート事業"
+    ],
+    "start": 37327
+  },
+  {
+    "number": 241,
+    "name": "農業委員会運営費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "農業委員会運営費"
+    ],
+    "start": 37454
+  },
+  {
+    "number": 242,
+    "name": "自作農創設促進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "自作農創設促進事業"
+    ],
+    "start": 37543
+  },
+  {
+    "number": 243,
+    "name": "農業者年金業務委託事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "農業者年金業務委託事業"
+    ],
+    "start": 37623
+  },
+  {
+    "number": 244,
+    "name": "機構集積支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "機構集積支援事業"
+    ],
+    "start": 37765
+  },
+  {
+    "number": 245,
+    "name": "農地集積加速化支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "農地集積加速化支援事業"
+    ],
+    "start": 37886
+  },
+  {
+    "number": 246,
+    "name": "中山間地域等直接支払制度事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "中山間地域等直接支払制度事業"
+    ],
+    "start": 38056
+  },
+  {
+    "number": 247,
+    "name": "拓け！！ほうふ農みらいプロモーション事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "拓け！！ほうふ農みらいプロモー",
+      "ション事業"
+    ],
+    "start": 38222
+  },
+  {
+    "number": 248,
+    "name": "担い手確保育成事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "担い手確保育成事業"
+    ],
+    "start": 38481
+  },
+  {
+    "number": 249,
+    "name": "新規就農者支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "新規就農者支援事業"
+    ],
+    "start": 38578
+  },
+  {
+    "number": 250,
+    "name": "農地中間管理機構事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "農地中間管理機構事業"
+    ],
+    "start": 38706
+  },
+  {
+    "number": 251,
+    "name": "青果市場事業特別会計繰出金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "青果市場事業特別会計繰出金"
+    ],
+    "start": 38877
+  },
+  {
+    "number": 252,
+    "name": "地産地消推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "地産地消推進事業"
+    ],
+    "start": 39100
+  },
+  {
+    "number": 253,
+    "name": "６次産業化支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "６次産業化支援事業"
+    ],
+    "start": 39285
+  },
+  {
+    "number": 254,
+    "name": "経営所得安定対策直接支払推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "経営所得安定対策直接支払推進事",
+      "業"
+    ],
+    "start": 39342
+  },
+  {
+    "number": 255,
+    "name": "農林水産振興課管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "農林水産振興課管理経費"
+    ],
+    "start": 39502
+  },
+  {
+    "number": 256,
+    "name": "環境保全型農業直接支援対策事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "環境保全型農業直接支援対策事業"
+    ],
+    "start": 39684
+  },
+  {
+    "number": 257,
+    "name": "法人等就業支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "法人等就業支援事業"
+    ],
+    "start": 39757
+  },
+  {
+    "number": 258,
+    "name": "農業振興対策業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "農業振興対策業務"
+    ],
+    "start": 39862
+  },
+  {
+    "number": 259,
+    "name": "農業近代化資金利子補給事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "農業近代化資金利子補給事業"
+    ],
+    "start": 40006
+  },
+  {
+    "number": 260,
+    "name": "農業施設管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "農業施設管理事業"
+    ],
+    "start": 40108
+  },
+  {
+    "number": 261,
+    "name": "園芸作物の生産機械整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "園芸作物の生産機械整備事業"
+    ],
+    "start": 40377
+  },
+  {
+    "number": 262,
+    "name": "経営体育成支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "経営体育成支援事業"
+    ],
+    "start": 40474
+  },
+  {
+    "number": 263,
+    "name": "集落営農法人連合体形成加速化事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "集落営農法人連合体形成加速化事",
+      "業"
+    ],
+    "start": 40548
+  },
+  {
+    "number": 264,
+    "name": "経営継承・発展等支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "経営継承・発展等支援事業"
+    ],
+    "start": 40795
+  },
+  {
+    "number": 265,
+    "name": "畜産振興対策業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "畜産振興対策業務"
+    ],
+    "start": 40945
+  },
+  {
+    "number": 266,
+    "name": "多面的機能支払交付金交付事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "多面的機能支払交付金交付事業"
+    ],
+    "start": 41123
+  },
+  {
+    "number": 267,
+    "name": "佐波川樋門管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "佐波川樋門管理事業"
+    ],
+    "start": 41221
+  },
+  {
+    "number": 268,
+    "name": "水路等維持補修事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "水路等維持補修事業"
+    ],
+    "start": 41339
+  },
+  {
+    "number": 269,
+    "name": "樋門・排水機場管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "樋門・排水機場管理事業"
+    ],
+    "start": 41472
+  },
+  {
+    "number": 270,
+    "name": "土地改良施設維持管理適正化事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "土地改良施設維持管理適正化事業"
+    ],
+    "start": 41618
+  },
+  {
+    "number": 271,
+    "name": "土地改良管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "土地改良管理事業"
+    ],
+    "start": 41743
+  },
+  {
+    "number": 272,
+    "name": "単独市費土地改良事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "単独市費土地改良事業"
+    ],
+    "start": 41897
+  },
+  {
+    "number": 273,
+    "name": "農道維持管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "農道維持管理事業"
+    ],
+    "start": 41996
+  },
+  {
+    "number": 274,
+    "name": "農村公園管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "農村公園管理事業"
+    ],
+    "start": 42087
+  },
+  {
+    "number": 275,
+    "name": "ため池防災減災対策事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "ため池防災減災対策事業"
+    ],
+    "start": 42295
+  },
+  {
+    "number": 276,
+    "name": "県営土地改良事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "県営土地改良事業"
+    ],
+    "start": 42388
+  },
+  {
+    "number": 277,
+    "name": "農業生産力等機能強化対策事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "農業生産力等機能強化対策事業"
+    ],
+    "start": 42513
+  },
+  {
+    "number": 278,
+    "name": "地籍調査事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "地籍調査事業"
+    ],
+    "start": 42643
+  },
+  {
+    "number": 279,
+    "name": "松くい虫伐倒駆除事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "松くい虫伐倒駆除事業"
+    ],
+    "start": 42732
+  },
+  {
+    "number": 280,
+    "name": "佐波川流域連携森林整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "佐波川流域連携森林整備事業"
+    ],
+    "start": 42812
+  },
+  {
+    "number": 281,
+    "name": "小規模治山事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "小規模治山事業"
+    ],
+    "start": 42962
+  },
+  {
+    "number": 282,
+    "name": "有害鳥獣対策事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "有害鳥獣対策事業"
+    ],
+    "start": 43123
+  },
+  {
+    "number": 283,
+    "name": "林業振興整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "林業振興整備事業"
+    ],
+    "start": 43249
+  },
+  {
+    "number": 284,
+    "name": "未来につなぐ森林づくり推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "未来につなぐ森林づくり推進事業"
+    ],
+    "start": 43422
+  },
+  {
+    "number": 285,
+    "name": "林道維持管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "林道維持管理事業"
+    ],
+    "start": 43531
+  },
+  {
+    "number": 286,
+    "name": "森林経営管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "森林経営管理事業"
+    ],
+    "start": 43675
+  },
+  {
+    "number": 287,
+    "name": "森の豊かな贈り物事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "森の豊かな贈り物事業"
+    ],
+    "start": 43868
+  },
+  {
+    "number": 288,
+    "name": "２０５０年の森づくりプロジェクト",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "２０５０年の森づくりプロジェク",
+      "ト"
+    ],
+    "start": 43969
+  },
+  {
+    "number": 289,
+    "name": "佐波川流域の絆・森と水と人づくり事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "佐波川流域の絆・森と水と人づく",
+      "り事業"
+    ],
+    "start": 44229
+  },
+  {
+    "number": 290,
+    "name": "水産振興業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "水産振興業務"
+    ],
+    "start": 44514
+  },
+  {
+    "number": 291,
+    "name": "水産流通活性化事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "水産流通活性化事業"
+    ],
+    "start": 44610
+  },
+  {
+    "number": 292,
+    "name": "漁業近代化資金利子補給事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "漁業近代化資金利子補給事業"
+    ],
+    "start": 44734
+  },
+  {
+    "number": 293,
+    "name": "ニューフィッシャー確保育成推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "ニューフィッシャー確保育成推進",
+      "事業"
+    ],
+    "start": 44815
+  },
+  {
+    "number": 294,
+    "name": "水産総合交流施設管理運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "水産総合交流施設管理運営事業"
+    ],
+    "start": 45036
+  },
+  {
+    "number": 295,
+    "name": "陸閘樋門管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "陸閘樋門管理事業"
+    ],
+    "start": 45220
+  },
+  {
+    "number": 296,
+    "name": "漁港施設維持管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "漁港施設維持管理事業"
+    ],
+    "start": 45289
+  },
+  {
+    "number": 297,
+    "name": "水産基盤ストックマネジメント事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "水産基盤ストックマネジメント事",
+      "業"
+    ],
+    "start": 45374
+  },
+  {
+    "number": 298,
+    "name": "漁港海岸堤防等老朽化対策事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "漁港海岸堤防等老朽化対策事業"
+    ],
+    "start": 45514
+  },
+  {
+    "number": 299,
+    "name": "漁村生活環境基盤整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "漁村生活環境基盤整備事業"
+    ],
+    "start": 45684
+  },
+  {
+    "number": 300,
+    "name": "野島漁村センター運営業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "野島漁村センター運営業務"
+    ],
+    "start": 45782
+  },
+  {
+    "number": 301,
+    "name": "商工振興課管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "商工振興課管理経費"
+    ],
+    "start": 45942
+  },
+  {
+    "number": 302,
+    "name": "企業誘致推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "企業誘致推進事業"
+    ],
+    "start": 46245
+  },
+  {
+    "number": 303,
+    "name": "中小企業育成事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "中小企業育成事業"
+    ],
+    "start": 46471
+  },
+  {
+    "number": 304,
+    "name": "チャレンジほうふ中小企業成長発展事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "チャレンジほうふ中小企業成長発",
+      "展事業"
+    ],
+    "start": 46599
+  },
+  {
+    "number": 305,
+    "name": "中小企業振興資金融資事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "中小企業振興資金融資事業"
+    ],
+    "start": 46850
+  },
+  {
+    "number": 306,
+    "name": "ほうふ産品販路開拓支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "ほうふ産品販路開拓支援事業"
+    ],
+    "start": 47031
+  },
+  {
+    "number": 307,
+    "name": "創業・チャレンジ応援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "創業・チャレンジ応援事業"
+    ],
+    "start": 47186
+  },
+  {
+    "number": 308,
+    "name": "エコライフ住宅推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "エコライフ住宅推進事業"
+    ],
+    "start": 47349
+  },
+  {
+    "number": 309,
+    "name": "創業・交流センター運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "創業・交流センター運営事業"
+    ],
+    "start": 47508
+  },
+  {
+    "number": 310,
+    "name": "まちなか創業促進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "まちなか創業促進事業"
+    ],
+    "start": 47655
+  },
+  {
+    "number": 311,
+    "name": "まちの賑わい創出・元気発信事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "まちの賑わい創出・元気発信事業"
+    ],
+    "start": 47851
+  },
+  {
+    "number": 312,
+    "name": "人手不足対策事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "人手不足対策事業"
+    ],
+    "start": 48009
+  },
+  {
+    "number": 313,
+    "name": "三田尻塩田記念産業公園管理運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "三田尻塩田記念産業公園管理運営",
+      "事業"
+    ],
+    "start": 48126
+  },
+  {
+    "number": 314,
+    "name": "サイクリングターミナル管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "サイクリングターミナル管理事業"
+    ],
+    "start": 48390
+  },
+  {
+    "number": 315,
+    "name": "海水浴場管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "海水浴場管理事業"
+    ],
+    "start": 48635
+  },
+  {
+    "number": 316,
+    "name": "観光コンベンション推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "観光コンベンション推進事業"
+    ],
+    "start": 48850
+  },
+  {
+    "number": 317,
+    "name": "観光関連団体等連携・助成事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "観光関連団体等連携・助成事業"
+    ],
+    "start": 49023
+  },
+  {
+    "number": 318,
+    "name": "情報発信・おもてなし力強化事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "情報発信・おもてなし力強化事業"
+    ],
+    "start": 49230
+  },
+  {
+    "number": 319,
+    "name": "まちの駅管理運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "まちの駅管理運営事業"
+    ],
+    "start": 49490
+  },
+  {
+    "number": 320,
+    "name": "観光施設等管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "観光施設等管理事業"
+    ],
+    "start": 49636
+  },
+  {
+    "number": 321,
+    "name": "道路課管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "道路課管理経費"
+    ],
+    "start": 49722
+  },
+  {
+    "number": 322,
+    "name": "法定外公共物管理業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "法定外公共物管理業務"
+    ],
+    "start": 49825
+  },
+  {
+    "number": 323,
+    "name": "河川港湾課管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "河川港湾課管理経費"
+    ],
+    "start": 49954
+  },
+  {
+    "number": 324,
+    "name": "交通安全対策事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "交通安全対策事業"
+    ],
+    "start": 50097
+  },
+  {
+    "number": 325,
+    "name": "駐輪場事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "駐輪場事業"
+    ],
+    "start": 50239
+  },
+  {
+    "number": 326,
+    "name": "交通安全対策施設整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "交通安全対策施設整備事業"
+    ],
+    "start": 50334
+  },
+  {
+    "number": 327,
+    "name": "交通安全対策施設維持管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "交通安全対策施設維持管理事業"
+    ],
+    "start": 50464
+  },
+  {
+    "number": 328,
+    "name": "道路附属物維持管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "道路附属物維持管理事業"
+    ],
+    "start": 50636
+  },
+  {
+    "number": 329,
+    "name": "住宅・建築物耐震化促進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "住宅・建築物耐震化促進事業"
+    ],
+    "start": 50863
+  },
+  {
+    "number": 330,
+    "name": "建築指導室管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "建築指導室管理経費"
+    ],
+    "start": 51103
+  },
+  {
+    "number": 331,
+    "name": "狭あい道路拡幅整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "狭あい道路拡幅整備事業"
+    ],
+    "start": 51218
+  },
+  {
+    "number": 332,
+    "name": "道路橋りょう管理業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "道路橋りょう管理業務"
+    ],
+    "start": 51358
+  },
+  {
+    "number": 333,
+    "name": "道路相談室管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "道路相談室管理経費"
+    ],
+    "start": 51443
+  },
+  {
+    "number": 334,
+    "name": "市道維持補修事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "市道維持補修事業"
+    ],
+    "start": 51518
+  },
+  {
+    "number": 335,
+    "name": "市道樹木管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "市道樹木管理事業"
+    ],
+    "start": 51664
+  },
+  {
+    "number": 336,
+    "name": "単市道路新設改良事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "単市道路新設改良事業"
+    ],
+    "start": 51780
+  },
+  {
+    "number": 337,
+    "name": "私道改良・舗装工事補助事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "私道改良・舗装工事補助事業"
+    ],
+    "start": 51891
+  },
+  {
+    "number": 338,
+    "name": "認定外道路整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "認定外道路整備事業"
+    ],
+    "start": 52035
+  },
+  {
+    "number": 339,
+    "name": "県道整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "県道整備事業"
+    ],
+    "start": 52101
+  },
+  {
+    "number": 340,
+    "name": "道路整備事業（補助）",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "道路整備事業（補助）"
+    ],
+    "start": 52225
+  },
+  {
+    "number": 341,
+    "name": "幹線道路整備促進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "幹線道路整備促進事業"
+    ],
+    "start": 52431
+  },
+  {
+    "number": 342,
+    "name": "防府北基地東道路整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "防府北基地東道路整備事業"
+    ],
+    "start": 52561
+  },
+  {
+    "number": 343,
+    "name": "橋りょう維持事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "橋りょう維持事業"
+    ],
+    "start": 52639
+  },
+  {
+    "number": 344,
+    "name": "河川維持管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "河川維持管理事業"
+    ],
+    "start": 52774
+  },
+  {
+    "number": 345,
+    "name": "単市河川改良事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "単市河川改良事業"
+    ],
+    "start": 52850
+  },
+  {
+    "number": 346,
+    "name": "基地周辺障害対策事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "基地周辺障害対策事業"
+    ],
+    "start": 53022
+  },
+  {
+    "number": 347,
+    "name": "雨水対策施設設置費助成事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "雨水対策施設設置費助成事業"
+    ],
+    "start": 53143
+  },
+  {
+    "number": 348,
+    "name": "緊急自然災害防止対策事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "緊急自然災害防止対策事業"
+    ],
+    "start": 53253
+  },
+  {
+    "number": 349,
+    "name": "小規模急傾斜地崩壊対策事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "小規模急傾斜地崩壊対策事業"
+    ],
+    "start": 53440
+  },
+  {
+    "number": 350,
+    "name": "港湾整備関連事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "港湾整備関連事業"
+    ],
+    "start": 53584
+  },
+  {
+    "number": 351,
+    "name": "港湾整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "港湾整備事業"
+    ],
+    "start": 53666
+  },
+  {
+    "number": 352,
+    "name": "空家等対策事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "空家等対策事業"
+    ],
+    "start": 53808
+  },
+  {
+    "number": 353,
+    "name": "防災広場整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "防災広場整備事業"
+    ],
+    "start": 53995
+  },
+  {
+    "number": 354,
+    "name": "都市計画課管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "都市計画課管理経費"
+    ],
+    "start": 54070
+  },
+  {
+    "number": 355,
+    "name": "開発建築指導課管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "開発建築指導課管理経費"
+    ],
+    "start": 54292
+  },
+  {
+    "number": 356,
+    "name": "大道駅周辺施設管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "大道駅周辺施設管理事業"
+    ],
+    "start": 54417
+  },
+  {
+    "number": 357,
+    "name": "防府駅周辺施設等管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "防府駅周辺施設等管理事業"
+    ],
+    "start": 54541
+  },
+  {
+    "number": 358,
+    "name": "景観形成事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "景観形成事業"
+    ],
+    "start": 54695
+  },
+  {
+    "number": 359,
+    "name": "単市街路整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "単市街路整備事業"
+    ],
+    "start": 54778
+  },
+  {
+    "number": 360,
+    "name": "街路整備事業（補助）",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "街路整備事業（補助）"
+    ],
+    "start": 54886
+  },
+  {
+    "number": 361,
+    "name": "県街路整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "県街路整備事業"
+    ],
+    "start": 55027
+  },
+  {
+    "number": 362,
+    "name": "都市下水路維持管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "都市下水路維持管理事業"
+    ],
+    "start": 55127
+  },
+  {
+    "number": 363,
+    "name": "児童遊園管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "児童遊園管理事業"
+    ],
+    "start": 55302
+  },
+  {
+    "number": 364,
+    "name": "公園緑地管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "公園緑地管理事業"
+    ],
+    "start": 55425
+  },
+  {
+    "number": 365,
+    "name": "公園整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "公園整備事業"
+    ],
+    "start": 55626
+  },
+  {
+    "number": 366,
+    "name": "緑化推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "緑化推進事業"
+    ],
+    "start": 55753
+  },
+  {
+    "number": 367,
+    "name": "市営住宅管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "市営住宅管理事業"
+    ],
+    "start": 55920
+  },
+  {
+    "number": 368,
+    "name": "市営住宅駐車場管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "市営住宅駐車場管理事業"
+    ],
+    "start": 56045
+  },
+  {
+    "number": 369,
+    "name": "市有住宅管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "市有住宅管理事業"
+    ],
+    "start": 56297
+  },
+  {
+    "number": 370,
+    "name": "公営住宅ストック総合改善事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "公営住宅ストック総合改善事業"
+    ],
+    "start": 56448
+  },
+  {
+    "number": 371,
+    "name": "公営住宅建替等事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "公営住宅建替等事業"
+    ],
+    "start": 56603
+  },
+  {
+    "number": 372,
+    "name": "火災予防啓発事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "火災予防啓発事業"
+    ],
+    "start": 56924
+  },
+  {
+    "number": 373,
+    "name": "消防本部管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "消防本部管理経費"
+    ],
+    "start": 57181
+  },
+  {
+    "number": 374,
+    "name": "消防・救助資機材等整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "消防・救助資機材等整備事業"
+    ],
+    "start": 57350
+  },
+  {
+    "number": 375,
+    "name": "消防職員教育訓練実施事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "消防職員教育訓練実施事業"
+    ],
+    "start": 57417
+  },
+  {
+    "number": 376,
+    "name": "救急業務運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "救急業務運営事業"
+    ],
+    "start": 57554
+  },
+  {
+    "number": 377,
+    "name": "救急隊員等教育訓練実施事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "救急隊員等教育訓練実施事業"
+    ],
+    "start": 57684
+  },
+  {
+    "number": 378,
+    "name": "消防庁舎管理業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "消防庁舎管理業務"
+    ],
+    "start": 57808
+  },
+  {
+    "number": 379,
+    "name": "通信指令施設整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "通信指令施設整備事業"
+    ],
+    "start": 57961
+  },
+  {
+    "number": 380,
+    "name": "消防通信指令業務共同運用事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "消防通信指令業務共同運用事業"
+    ],
+    "start": 58143
+  },
+  {
+    "number": 381,
+    "name": "消防団運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "消防団運営事業"
+    ],
+    "start": 58279
+  },
+  {
+    "number": 382,
+    "name": "消防団員教育訓練実施事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "消防団員教育訓練実施事業"
+    ],
+    "start": 58454
+  },
+  {
+    "number": 383,
+    "name": "消防水利整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "消防水利整備事業"
+    ],
+    "start": 58599
+  },
+  {
+    "number": 384,
+    "name": "消防団消防器庫整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "消防団消防器庫整備事業"
+    ],
+    "start": 58678
+  },
+  {
+    "number": 385,
+    "name": "消防車両等整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "消防車両等整備事業"
+    ],
+    "start": 58823
+  },
+  {
+    "number": 386,
+    "name": "消防署東出張所建替事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "消防署東出張所建替事業"
+    ],
+    "start": 58951
+  },
+  {
+    "number": 387,
+    "name": "農林漁港整備課水防業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "農林漁港整備課水防業務"
+    ],
+    "start": 59032
+  },
+  {
+    "number": 388,
+    "name": "河川港湾課水防業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "河川港湾課水防業務"
+    ],
+    "start": 59179
+  },
+  {
+    "number": 389,
+    "name": "消防本部水防業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "消防本部水防業務"
+    ],
+    "start": 59269
+  },
+  {
+    "number": 390,
+    "name": "災害対策業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "災害対策業務"
+    ],
+    "start": 59367
+  },
+  {
+    "number": 391,
+    "name": "教育委員会運営費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "教育委員会運営費"
+    ],
+    "start": 59457
+  },
+  {
+    "number": 392,
+    "name": "教育総務課管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "教育総務課管理経費"
+    ],
+    "start": 59538
+  },
+  {
+    "number": 393,
+    "name": "スクールバス運行事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "スクールバス運行事業"
+    ],
+    "start": 59656
+  },
+  {
+    "number": 394,
+    "name": "学校教育課管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "学校教育課管理経費"
+    ],
+    "start": 59736
+  },
+  {
+    "number": 395,
+    "name": "学校事務共同実施事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "学校事務共同実施事業"
+    ],
+    "start": 59847
+  },
+  {
+    "number": 396,
+    "name": "教育指導管理業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "教育指導管理業務"
+    ],
+    "start": 60054
+  },
+  {
+    "number": 397,
+    "name": "地域クラブ推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "地域クラブ推進事業"
+    ],
+    "start": 60206
+  },
+  {
+    "number": 398,
+    "name": "茜島シーサイドスクール事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "茜島シーサイドスクール事業"
+    ],
+    "start": 60375
+  },
+  {
+    "number": 399,
+    "name": "学校安全事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "学校安全事業"
+    ],
+    "start": 60515
+  },
+  {
+    "number": 400,
+    "name": "個のニーズに応じた教育支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "個のニーズに応じた教育支援事業"
+    ],
+    "start": 60693
+  },
+  {
+    "number": 401,
+    "name": "がんばる子どもたち応援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "がんばる子どもたち応援事業"
+    ],
+    "start": 60983
+  },
+  {
+    "number": 402,
+    "name": "地域と育む学び舎づくり事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "地域と育む学び舎づくり事業"
+    ],
+    "start": 61249
+  },
+  {
+    "number": 403,
+    "name": "外国語活動事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "外国語活動事業"
+    ],
+    "start": 61479
+  },
+  {
+    "number": 404,
+    "name": "知能検査・学力検査事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "知能検査・学力検査事業"
+    ],
+    "start": 61639
+  },
+  {
+    "number": 405,
+    "name": "ＩＣＴ教育推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "ＩＣＴ教育推進事業"
+    ],
+    "start": 61795
+  },
+  {
+    "number": 406,
+    "name": "小中学校教育研究事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "小中学校教育研究事業"
+    ],
+    "start": 61966
+  },
+  {
+    "number": 407,
+    "name": "学校図書館活用促進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "学校図書館活用促進事業"
+    ],
+    "start": 62165
+  },
+  {
+    "number": 408,
+    "name": "生徒指導・教育相談事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "生徒指導・教育相談事業"
+    ],
+    "start": 62363
+  },
+  {
+    "number": 409,
+    "name": "幼児施設利用支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "幼児施設利用支援事業"
+    ],
+    "start": 62675
+  },
+  {
+    "number": 410,
+    "name": "私立幼稚園特別支援教育費補助事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "私立幼稚園特別支援教育費補助事",
+      "業"
+    ],
+    "start": 62734
+  },
+  {
+    "number": 411,
+    "name": "学校法人教育活動補助事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "学校法人教育活動補助事業"
+    ],
+    "start": 62893
+  },
+  {
+    "number": 412,
+    "name": "幼稚園連盟補助事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "幼稚園連盟補助事業"
+    ],
+    "start": 63041
+  },
+  {
+    "number": 413,
+    "name": "小中一貫教育推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "小中一貫教育推進事業"
+    ],
+    "start": 63236
+  },
+  {
+    "number": 414,
+    "name": "防府市教育“夢”プロジェクト事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "防府市教育“夢”プロジェクト事業"
+    ],
+    "start": 63397
+  },
+  {
+    "number": 415,
+    "name": "新入学児童用かばん支給事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "新入学児童用かばん支給事業"
+    ],
+    "start": 63552
+  },
+  {
+    "number": 416,
+    "name": "小学校管理業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "小学校管理業務"
+    ],
+    "start": 63712
+  },
+  {
+    "number": 417,
+    "name": "小学校施設管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "小学校施設管理事業"
+    ],
+    "start": 63827
+  },
+  {
+    "number": 418,
+    "name": "小学校運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "小学校運営事業"
+    ],
+    "start": 63942
+  },
+  {
+    "number": 419,
+    "name": "小学校施設整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "小学校施設整備事業"
+    ],
+    "start": 64072
+  },
+  {
+    "number": 420,
+    "name": "小学校教材用品整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "小学校教材用品整備事業"
+    ],
+    "start": 64208
+  },
+  {
+    "number": 421,
+    "name": "小学校就学援助事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "小学校就学援助事業"
+    ],
+    "start": 64394
+  },
+  {
+    "number": 422,
+    "name": "小学校特別支援教育就学援助事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "小学校特別支援教育就学援助事業"
+    ],
+    "start": 64528
+  },
+  {
+    "number": 423,
+    "name": "長寿命化改良事業（小学校）",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "長寿命化改良事業（小学校）"
+    ],
+    "start": 64767
+  },
+  {
+    "number": 424,
+    "name": "中学校管理業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "中学校管理業務"
+    ],
+    "start": 64884
+  },
+  {
+    "number": 425,
+    "name": "中学校施設管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "中学校施設管理事業"
+    ],
+    "start": 64998
+  },
+  {
+    "number": 426,
+    "name": "中学校運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "中学校運営事業"
+    ],
+    "start": 65112
+  },
+  {
+    "number": 427,
+    "name": "中学校施設整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "中学校施設整備事業"
+    ],
+    "start": 65242
+  },
+  {
+    "number": 428,
+    "name": "中学校教材用品整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "中学校教材用品整備事業"
+    ],
+    "start": 65377
+  },
+  {
+    "number": 429,
+    "name": "中学校就学援助事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "中学校就学援助事業"
+    ],
+    "start": 65564
+  },
+  {
+    "number": 430,
+    "name": "中学校特別支援教育就学援助事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "中学校特別支援教育就学援助事業"
+    ],
+    "start": 65698
+  },
+  {
+    "number": 431,
+    "name": "長寿命化改良事業（中学校）",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "長寿命化改良事業（中学校）"
+    ],
+    "start": 65842
+  },
+  {
+    "number": 432,
+    "name": "生涯学習フェスティバル事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "生涯学習フェスティバル事業"
+    ],
+    "start": 65970
+  },
+  {
+    "number": 433,
+    "name": "生涯学習活動推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "生涯学習活動推進事業"
+    ],
+    "start": 66184
+  },
+  {
+    "number": 434,
+    "name": "生涯学習推進会議運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "生涯学習推進会議運営事業"
+    ],
+    "start": 66361
+  },
+  {
+    "number": 435,
+    "name": "生涯学習相談コーナー管理運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "生涯学習相談コーナー管理運営事",
+      "業"
+    ],
+    "start": 66446
+  },
+  {
+    "number": 436,
+    "name": "社会教育活動推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "社会教育活動推進事業"
+    ],
+    "start": 66733
+  },
+  {
+    "number": 437,
+    "name": "家庭教育推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "家庭教育推進事業"
+    ],
+    "start": 66881
+  },
+  {
+    "number": 438,
+    "name": "社会教育関係団体等育成事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "社会教育関係団体等育成事業"
+    ],
+    "start": 67019
+  },
+  {
+    "number": 439,
+    "name": "まちなか交流推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "まちなか交流推進事業"
+    ],
+    "start": 67184
+  },
+  {
+    "number": 440,
+    "name": "公民館活動推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "公民館活動推進事業"
+    ],
+    "start": 67387
+  },
+  {
+    "number": 441,
+    "name": "社会教育指導員活動推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "社会教育指導員活動推進事業"
+    ],
+    "start": 67499
+  },
+  {
+    "number": 442,
+    "name": "文化財保護管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "文化財保護管理事業"
+    ],
+    "start": 67620
+  },
+  {
+    "number": 443,
+    "name": "周防国府跡等発掘調査事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "周防国府跡等発掘調査事業"
+    ],
+    "start": 67749
+  },
+  {
+    "number": 444,
+    "name": "史跡萩往還三田尻御茶屋（英雲荘）保存修理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "史跡萩往還三田尻御茶屋（英雲",
+      "荘）保存修理事業"
+    ],
+    "start": 67828
+  },
+  {
+    "number": 445,
+    "name": "文化財活用事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "文化財活用事業"
+    ],
+    "start": 68002
+  },
+  {
+    "number": 446,
+    "name": "宮市本陣兄部家保存整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "宮市本陣兄部家保存整備事業"
+    ],
+    "start": 68080
+  },
+  {
+    "number": 447,
+    "name": "有形民俗文化財保存修理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "有形民俗文化財保存修理事業"
+    ],
+    "start": 68166
+  },
+  {
+    "number": 448,
+    "name": "緊急発掘調査受託事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "緊急発掘調査受託事業"
+    ],
+    "start": 68290
+  },
+  {
+    "number": 449,
+    "name": "青少年相談事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "青少年相談事業"
+    ],
+    "start": 68440
+  },
+  {
+    "number": 450,
+    "name": "成人お祝い事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "成人お祝い事業"
+    ],
+    "start": 68566
+  },
+  {
+    "number": 451,
+    "name": "青少年活動諸事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "青少年活動諸事業"
+    ],
+    "start": 68885
+  },
+  {
+    "number": 452,
+    "name": "子ども安全安心対策事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "子ども安全安心対策事業"
+    ],
+    "start": 69045
+  },
+  {
+    "number": 453,
+    "name": "非行防止・環境浄化事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "非行防止・環境浄化事業"
+    ],
+    "start": 69222
+  },
+  {
+    "number": 454,
+    "name": "青少年団体支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "青少年団体支援事業"
+    ],
+    "start": 69403
+  },
+  {
+    "number": 455,
+    "name": "地域学校協働活動推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "地域学校協働活動推進事業"
+    ],
+    "start": 69505
+  },
+  {
+    "number": 456,
+    "name": "地域における家庭教育支援基盤構築事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "地域における家庭教育支援基盤構",
+      "築事業"
+    ],
+    "start": 69606
+  },
+  {
+    "number": 457,
+    "name": "人権学習市民セミナー開設事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "人権学習市民セミナー開設事業"
+    ],
+    "start": 69805
+  },
+  {
+    "number": 458,
+    "name": "人権学習推進委員運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "人権学習推進委員運営事業"
+    ],
+    "start": 69962
+  },
+  {
+    "number": 459,
+    "name": "教育集会所管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "教育集会所管理事業"
+    ],
+    "start": 70103
+  },
+  {
+    "number": 460,
+    "name": "教育集会所講座開設事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "教育集会所講座開設事業"
+    ],
+    "start": 70215
+  },
+  {
+    "number": 461,
+    "name": "人権学習推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "人権学習推進事業"
+    ],
+    "start": 70403
+  },
+  {
+    "number": 462,
+    "name": "文化福祉会館管理業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "文化福祉会館管理業務"
+    ],
+    "start": 70506
+  },
+  {
+    "number": 463,
+    "name": "公民館・学供管理業務",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "公民館・学供管理業務"
+    ],
+    "start": 70697
+  },
+  {
+    "number": 464,
+    "name": "青少年科学館管理事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "青少年科学館管理事業"
+    ],
+    "start": 70865
+  },
+  {
+    "number": 465,
+    "name": "牟礼公民館建替事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "牟礼公民館建替事業"
+    ],
+    "start": 71141
+  },
+  {
+    "number": 466,
+    "name": "英雲荘運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "英雲荘運営事業"
+    ],
+    "start": 71325
+  },
+  {
+    "number": 467,
+    "name": "文化財郷土資料館運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "文化財郷土資料館運営事業"
+    ],
+    "start": 71477
+  },
+  {
+    "number": 468,
+    "name": "図書館運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "図書館運営事業"
+    ],
+    "start": 71636
+  },
+  {
+    "number": 469,
+    "name": "図書館ネットワーク事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "図書館ネットワーク事業"
+    ],
+    "start": 71812
+  },
+  {
+    "number": 470,
+    "name": "学校保健事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "学校保健事業"
+    ],
+    "start": 72044
+  },
+  {
+    "number": 471,
+    "name": "就学援助（医療）事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "就学援助（医療）事業"
+    ],
+    "start": 72176
+  },
+  {
+    "number": 472,
+    "name": "日本スポーツ振興センター災害共済事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "日本スポーツ振興センター災害共",
+      "済事業"
+    ],
+    "start": 72247
+  },
+  {
+    "number": 473,
+    "name": "学校給食実施事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "学校給食実施事業"
+    ],
+    "start": 72469
+  },
+  {
+    "number": 474,
+    "name": "給食センター運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "給食センター運営事業"
+    ],
+    "start": 72603
+  },
+  {
+    "number": 475,
+    "name": "学校給食公会計事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "学校給食公会計事業"
+    ],
+    "start": 72697
+  },
+  {
+    "number": 476,
+    "name": "就学援助（給食）事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "就学援助（給食）事業"
+    ],
+    "start": 72827
+  },
+  {
+    "number": 477,
+    "name": "特別支援教育給食費補助事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "特別支援教育給食費補助事業"
+    ],
+    "start": 72949
+  },
+  {
+    "number": 478,
+    "name": "小学校給食施設改善事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "小学校給食施設改善事業"
+    ],
+    "start": 73034
+  },
+  {
+    "number": 479,
+    "name": "交通災害共済事業特別会計繰出金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "交通災害共済事業特別会計繰出金"
+    ],
+    "start": 73279
+  },
+  {
+    "number": 480,
+    "name": "競輪事業管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "競輪事業管理経費"
+    ],
+    "start": 73364
+  },
+  {
+    "number": 481,
+    "name": "競輪場施設整備基金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "競輪場施設整備基金"
+    ],
+    "start": 73444
+  },
+  {
+    "number": 482,
+    "name": "交付金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "交付金"
+    ],
+    "start": 73526
+  },
+  {
+    "number": 483,
+    "name": "開催経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "開催経費"
+    ],
+    "start": 73590
+  },
+  {
+    "number": 484,
+    "name": "払戻金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "払戻金"
+    ],
+    "start": 73695
+  },
+  {
+    "number": 485,
+    "name": "地方債償還利子",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "地方債償還利子"
+    ],
+    "start": 73773
+  },
+  {
+    "number": 486,
+    "name": "一時借入金利子",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "一時借入金利子"
+    ],
+    "start": 73855
+  },
+  {
+    "number": 487,
+    "name": "予備費",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "予備費"
+    ],
+    "start": 73919
+  },
+  {
+    "number": 488,
+    "name": "一般事務費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "一般事務費"
+    ],
+    "start": 74013
+  },
+  {
+    "number": 489,
+    "name": "山口県国民健康保険団体連合会負担金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "山口県国民健康保険団体連合会負",
+      "担金"
+    ],
+    "start": 74132
+  },
+  {
+    "number": 490,
+    "name": "賦課事務費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "賦課事務費"
+    ],
+    "start": 74328
+  },
+  {
+    "number": 491,
+    "name": "徴収事務費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "徴収事務費"
+    ],
+    "start": 74466
+  },
+  {
+    "number": 492,
+    "name": "国民健康保険運営協議会費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "国民健康保険運営協議会費"
+    ],
+    "start": 74594
+  },
+  {
+    "number": 493,
+    "name": "国民健康保険趣旨普及費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "国民健康保険趣旨普及費"
+    ],
+    "start": 74868
+  },
+  {
+    "number": 494,
+    "name": "一般被保険者療養給付費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "一般被保険者療養給付費"
+    ],
+    "start": 75099
+  },
+  {
+    "number": 495,
+    "name": "一般被保険者療養費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "一般被保険者療養費"
+    ],
+    "start": 75294
+  },
+  {
+    "number": 496,
+    "name": "診療報酬等審査支払手数料",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "診療報酬等審査支払手数料"
+    ],
+    "start": 75462
+  },
+  {
+    "number": 497,
+    "name": "一般被保険者高額療養費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "一般被保険者高額療養費"
+    ],
+    "start": 75702
+  },
+  {
+    "number": 498,
+    "name": "一般被保険者高額介護合算療養費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "一般被保険者高額介護合算療養費"
+    ],
+    "start": 75932
+  },
+  {
+    "number": 499,
+    "name": "一般被保険者移送費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "一般被保険者移送費"
+    ],
+    "start": 76133
+  },
+  {
+    "number": 500,
+    "name": "出産育児一時金",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "出産育児一時金"
+    ],
+    "start": 76260
+  },
+  {
+    "number": 501,
+    "name": "出産育児一時金支払手数料",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "出産育児一時金支払手数料"
+    ],
+    "start": 76408
+  },
+  {
+    "number": 502,
+    "name": "葬祭費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "葬祭費"
+    ],
+    "start": 76527
+  },
+  {
+    "number": 503,
+    "name": "傷病手当金",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "傷病手当金"
+    ],
+    "start": 76707
+  },
+  {
+    "number": 504,
+    "name": "一般被保険者医療給付費納付金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "一般被保険者医療給付費納付金"
+    ],
+    "start": 76859
+  },
+  {
+    "number": 505,
+    "name": "一般被保険者後期高齢者支援金等納付金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "一般被保険者後期高齢者支援金等",
+      "納付金"
+    ],
+    "start": 76971
+  },
+  {
+    "number": 506,
+    "name": "介護納付金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "介護納付金"
+    ],
+    "start": 77160
+  },
+  {
+    "number": 507,
+    "name": "特定健康診査・特定保健指導事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "特定健康診査・特定保健指導事業"
+    ],
+    "start": 77497
+  },
+  {
+    "number": 508,
+    "name": "保健衛生普及事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "保健衛生普及事業"
+    ],
+    "start": 77689
+  },
+  {
+    "number": 509,
+    "name": "人間ドック利用助成事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "人間ドック利用助成事業"
+    ],
+    "start": 77851
+  },
+  {
+    "number": 510,
+    "name": "ヘルスアップ事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "ヘルスアップ事業"
+    ],
+    "start": 78114
+  },
+  {
+    "number": 511,
+    "name": "はり・きゅう施設利用助成事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "はり・きゅう施設利用助成事業"
+    ],
+    "start": 78249
+  },
+  {
+    "number": 512,
+    "name": "国民健康保険基金積立金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "国民健康保険基金積立金"
+    ],
+    "start": 78418
+  },
+  {
+    "number": 513,
+    "name": "一般被保険者保険料還付金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "一般被保険者保険料還付金"
+    ],
+    "start": 78578
+  },
+  {
+    "number": 514,
+    "name": "一般被保険者保険料還付加算金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "一般被保険者保険料還付加算金"
+    ],
+    "start": 78696
+  },
+  {
+    "number": 515,
+    "name": "県支出金等返還金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "県支出金等返還金"
+    ],
+    "start": 78757
+  },
+  {
+    "number": 516,
+    "name": "予備費",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "予備費"
+    ],
+    "start": 78887
+  },
+  {
+    "number": 517,
+    "name": "と場運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "と場運営事業"
+    ],
+    "start": 78955
+  },
+  {
+    "number": 518,
+    "name": "地方債償還元金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "地方債償還元金"
+    ],
+    "start": 79047
+  },
+  {
+    "number": 519,
+    "name": "地方債償還利子",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "地方債償還利子"
+    ],
+    "start": 79134
+  },
+  {
+    "number": 520,
+    "name": "予備費",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "予備費"
+    ],
+    "start": 79310
+  },
+  {
+    "number": 521,
+    "name": "青果市場管理経費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "青果市場管理経費"
+    ],
+    "start": 79411
+  },
+  {
+    "number": 522,
+    "name": "予備費",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "予備費"
+    ],
+    "start": 79533
+  },
+  {
+    "number": 523,
+    "name": "共済事業費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "共済事業費"
+    ],
+    "start": 79625
+  },
+  {
+    "number": 524,
+    "name": "予備費",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "予備費"
+    ],
+    "start": 79710
+  },
+  {
+    "number": 525,
+    "name": "一般管理費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "一般管理費"
+    ],
+    "start": 79774
+  },
+  {
+    "number": 526,
+    "name": "賦課徴収費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "賦課徴収費"
+    ],
+    "start": 79836
+  },
+  {
+    "number": 527,
+    "name": "納入奨励費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "納入奨励費"
+    ],
+    "start": 79898
+  },
+  {
+    "number": 528,
+    "name": "介護認定審査会費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "介護認定審査会費"
+    ],
+    "start": 80009
+  },
+  {
+    "number": 529,
+    "name": "認定調査費等",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "認定調査費等"
+    ],
+    "start": 80127
+  },
+  {
+    "number": 530,
+    "name": "趣旨普及費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "趣旨普及費"
+    ],
+    "start": 80224
+  },
+  {
+    "number": 531,
+    "name": "居宅介護サービス給付費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "居宅介護サービス給付費"
+    ],
+    "start": 80290
+  },
+  {
+    "number": 532,
+    "name": "特例居宅介護サービス給付費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "特例居宅介護サービス給付費"
+    ],
+    "start": 80365
+  },
+  {
+    "number": 533,
+    "name": "地域密着型介護サービス給付費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "地域密着型介護サービス給付費"
+    ],
+    "start": 80428
+  },
+  {
+    "number": 534,
+    "name": "特例地域密着型介護サービス給付費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "特例地域密着型介護サービス給付",
+      "費"
+    ],
+    "start": 80594
+  },
+  {
+    "number": 535,
+    "name": "施設介護サービス給付費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "施設介護サービス給付費"
+    ],
+    "start": 80674
+  },
+  {
+    "number": 536,
+    "name": "特例施設介護サービス給付費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "特例施設介護サービス給付費"
+    ],
+    "start": 80749
+  },
+  {
+    "number": 537,
+    "name": "居宅介護福祉用具購入費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "居宅介護福祉用具購入費"
+    ],
+    "start": 80812
+  },
+  {
+    "number": 538,
+    "name": "居宅介護住宅改修費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "居宅介護住宅改修費"
+    ],
+    "start": 80887
+  },
+  {
+    "number": 539,
+    "name": "居宅介護サービス計画給付費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "居宅介護サービス計画給付費"
+    ],
+    "start": 80956
+  },
+  {
+    "number": 540,
+    "name": "特例居宅介護サービス計画給付費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "特例居宅介護サービス計画給付費"
+    ],
+    "start": 81031
+  },
+  {
+    "number": 541,
+    "name": "介護予防サービス給付費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "介護予防サービス給付費"
+    ],
+    "start": 81096
+  },
+  {
+    "number": 542,
+    "name": "特例介護予防サービス給付費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "特例介護予防サービス給付費"
+    ],
+    "start": 81167
+  },
+  {
+    "number": 543,
+    "name": "地域密着型介護予防サービス給付費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "地域密着型介護予防サービス給付",
+      "費"
+    ],
+    "start": 81220
+  },
+  {
+    "number": 544,
+    "name": "特例地域密着型介護予防サービス給付費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "特例地域密着型介護予防サービス",
+      "給付費"
+    ],
+    "start": 81300
+  },
+  {
+    "number": 545,
+    "name": "介護予防福祉用具購入費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "介護予防福祉用具購入費"
+    ],
+    "start": 81384
+  },
+  {
+    "number": 546,
+    "name": "介護予防住宅改修費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "介護予防住宅改修費"
+    ],
+    "start": 81457
+  },
+  {
+    "number": 547,
+    "name": "介護予防サービス計画給付費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "介護予防サービス計画給付費"
+    ],
+    "start": 81526
+  },
+  {
+    "number": 548,
+    "name": "特例介護予防サービス計画給付費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "特例介護予防サービス計画給付費"
+    ],
+    "start": 81694
+  },
+  {
+    "number": 549,
+    "name": "審査支払手数料",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "審査支払手数料"
+    ],
+    "start": 81761
+  },
+  {
+    "number": 550,
+    "name": "高額介護サービス費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "高額介護サービス費"
+    ],
+    "start": 81832
+  },
+  {
+    "number": 551,
+    "name": "高額介護予防サービス費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "高額介護予防サービス費"
+    ],
+    "start": 81920
+  },
+  {
+    "number": 552,
+    "name": "高額医療合算介護サービス費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "高額医療合算介護サービス費"
+    ],
+    "start": 82052
+  },
+  {
+    "number": 553,
+    "name": "特定入所者介護サービス費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "特定入所者介護サービス費"
+    ],
+    "start": 82159
+  },
+  {
+    "number": 554,
+    "name": "特例特定入所者介護サービス費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "特例特定入所者介護サービス費"
+    ],
+    "start": 82279
+  },
+  {
+    "number": 555,
+    "name": "特定入所者介護予防サービス費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "特定入所者介護予防サービス費"
+    ],
+    "start": 82398
+  },
+  {
+    "number": 556,
+    "name": "特例特定入所者介護予防サービス費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "特例特定入所者介護予防サービス",
+      "費"
+    ],
+    "start": 82464
+  },
+  {
+    "number": 557,
+    "name": "介護予防ケアマネジメント事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "介護予防ケアマネジメント事業"
+    ],
+    "start": 82590
+  },
+  {
+    "number": 558,
+    "name": "介護予防・生活支援サービス事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "介護予防・生活支援サービス事業"
+    ],
+    "start": 82692
+  },
+  {
+    "number": 559,
+    "name": "介護予防普及啓発事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "介護予防普及啓発事業"
+    ],
+    "start": 82787
+  },
+  {
+    "number": 560,
+    "name": "地域介護予防活動支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "地域介護予防活動支援事業"
+    ],
+    "start": 82923
+  },
+  {
+    "number": 561,
+    "name": "介護予防把握事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "介護予防把握事業"
+    ],
+    "start": 83049
+  },
+  {
+    "number": 562,
+    "name": "地域リハビリテーション活動支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "地域リハビリテーション活動支援",
+      "事業"
+    ],
+    "start": 83251
+  },
+  {
+    "number": 563,
+    "name": "権利擁護事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "権利擁護事業"
+    ],
+    "start": 83436
+  },
+  {
+    "number": 564,
+    "name": "包括的・継続的ケアマネジメント支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "包括的・継続的ケアマネジメント",
+      "支援事業"
+    ],
+    "start": 83479
+  },
+  {
+    "number": 565,
+    "name": "地域包括支援センター運営事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "地域包括支援センター運営事業"
+    ],
+    "start": 83706
+  },
+  {
+    "number": 566,
+    "name": "在宅医療・介護連携推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "在宅医療・介護連携推進事業"
+    ],
+    "start": 83866
+  },
+  {
+    "number": 567,
+    "name": "生活支援体制整備事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "生活支援体制整備事業"
+    ],
+    "start": 83992
+  },
+  {
+    "number": 568,
+    "name": "認知症総合支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "認知症総合支援事業"
+    ],
+    "start": 84143
+  },
+  {
+    "number": 569,
+    "name": "地域ケア会議推進事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "地域ケア会議推進事業"
+    ],
+    "start": 84279
+  },
+  {
+    "number": 570,
+    "name": "福祉用具・住宅改修支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "福祉用具・住宅改修支援事業"
+    ],
+    "start": 84383
+  },
+  {
+    "number": 571,
+    "name": "介護給付費等適正化事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "介護給付費等適正化事業"
+    ],
+    "start": 84501
+  },
+  {
+    "number": 572,
+    "name": "成年後見制度利用支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "成年後見制度利用支援事業"
+    ],
+    "start": 84644
+  },
+  {
+    "number": 573,
+    "name": "家族介護継続支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "家族介護継続支援事業"
+    ],
+    "start": 84731
+  },
+  {
+    "number": 574,
+    "name": "地域自立生活支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "地域自立生活支援事業"
+    ],
+    "start": 84805
+  },
+  {
+    "number": 575,
+    "name": "認知症サポーター等養成事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "認知症サポーター等養成事業"
+    ],
+    "start": 84954
+  },
+  {
+    "number": 576,
+    "name": "審査支払手数料",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "審査支払手数料"
+    ],
+    "start": 85132
+  },
+  {
+    "number": 577,
+    "name": "元気アップくらぶ事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "元気アップくらぶ事業"
+    ],
+    "start": 85268
+  },
+  {
+    "number": 578,
+    "name": "在宅介護継続支援事業",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "在宅介護継続支援事業"
+    ],
+    "start": 85379
+  },
+  {
+    "number": 579,
+    "name": "基金積立金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "基金積立金"
+    ],
+    "start": 85440
+  },
+  {
+    "number": 580,
+    "name": "第１号被保険者保険料還付金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "第１号被保険者保険料還付金"
+    ],
+    "start": 85538
+  },
+  {
+    "number": 581,
+    "name": "第１号被保険者還付加算金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "第１号被保険者還付加算金"
+    ],
+    "start": 85612
+  },
+  {
+    "number": 582,
+    "name": "予備費",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "予備費"
+    ],
+    "start": 85680
+  },
+  {
+    "number": 583,
+    "name": "介護予防支援事業費",
+    "status": "literal_business_proposal",
+    "reason": "番号付き事業名とR6決算/R7予算列見出しを保存。金額・方向性の列対応は抽出しない。",
+    "titleFragments": [
+      "介護予防支援事業費"
+    ],
+    "start": 85820
+  },
+  {
+    "number": 584,
+    "name": "保険事業勘定繰出金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "保険事業勘定繰出金"
+    ],
+    "start": 85874
+  },
+  {
+    "number": 585,
+    "name": "一般管理費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "一般管理費"
+    ],
+    "start": 85977
+  },
+  {
+    "number": 586,
+    "name": "徴収費",
+    "status": "generic_account_identity_hold",
+    "reason": "部局管理経費又は会計別一般事務費。対象会計・独立事業の同一性を確定する追加証拠が必要。",
+    "titleFragments": [
+      "徴収費"
+    ],
+    "start": 86088
+  },
+  {
+    "number": 587,
+    "name": "後期高齢者医療広域連合納付金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "後期高齢者医療広域連合納付金"
+    ],
+    "start": 86202
+  },
+  {
+    "number": 588,
+    "name": "保険料還付金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "保険料還付金"
+    ],
+    "start": 86285
+  },
+  {
+    "number": 589,
+    "name": "還付加算金",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "還付加算金"
+    ],
+    "start": 86374
+  },
+  {
+    "number": 590,
+    "name": "予備費",
+    "status": "accounting_transfer_not_separate_project",
+    "reason": "基金・会計間繰出・負担金・納付・償還・返還・手数料・予備費の会計行。独立事業として件数を増やさない。",
+    "titleFragments": [
+      "予備費"
+    ],
+    "start": 86589
+  }
+]

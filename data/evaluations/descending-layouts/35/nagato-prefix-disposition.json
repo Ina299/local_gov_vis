@@ -1,0 +1,2171 @@
+[
+  {
+    "sourceId": "057374058fcf0e556f7429de",
+    "fiscalYear": 2023,
+    "expectedSourceSheets": 165,
+    "cachedCharacters": 120000,
+    "reportedFullCharacters": 150222,
+    "prefixSha256": "1716a9f721037db28b98ec75bfd5732f8fd3460cf3e85b008cd96fe900e7f18f",
+    "sourceSha256": "4961ed4782f8d63fa552cd338b9401e72a5aeb0971abd1984938fc1e1647cfd0",
+    "originalFullTextVerified": false,
+    "listedContinuations": 0,
+    "existingSourceBoundRecords": 128,
+    "rows": [
+      {
+        "start": 3171,
+        "name": "職員研修事業（自主研修・通信教育）",
+        "existingIds": [
+          "cached-35211-d4e650d6799d1034e7b72675"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 4109,
+        "name": "公共施設照明設備ＬＥＤ化事業",
+        "existingIds": [
+          "cached-35211-870b40c1aa6b9cd09cef59e7"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 4706,
+        "name": "シティプロモーション事業",
+        "existingIds": [
+          "cached-35211-b133ba168ec7ed37e3a9fd43"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 5893,
+        "name": "定住促進対策事業",
+        "existingIds": [
+          "cached-35211-d244a6453ac5d98f1791f346"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 7026,
+        "name": "地域おこし協力隊設置事業",
+        "existingIds": [
+          "cached-35211-4a7dae36cdf4b7ee03632ba9"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 8106,
+        "name": "ふるさと応援寄附推進事業",
+        "existingIds": [
+          "cached-35211-7736431b817cb0748fbd7cc4"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 9056,
+        "name": "医療・福祉系人材確保事業",
+        "existingIds": [
+          "cached-35211-2513f5763fd89a96e72ef2e2"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 10003,
+        "name": "集落機能再生事業",
+        "existingIds": [
+          "cached-35211-340e51b1997b0a1d107fb0b9"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 10797,
+        "name": "男女共同参画推進事業",
+        "existingIds": [
+          "cached-35211-437a690989fd888113902acc"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 11634,
+        "name": "地区集会所建設費助成金",
+        "existingIds": [
+          "cached-35211-895ebab89291fd0b42b3b6a9"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 12506,
+        "name": "コミュニティ創出支援事業",
+        "existingIds": [
+          "cached-35211-a116ee32a7ea6bf3c58a7bf5"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 13334,
+        "name": "まち・ひと創生推進事業",
+        "existingIds": [
+          "cached-35211-242101941d91c33ce2205db8"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 14031,
+        "name": "デジタルトランスフォーメーション推進事業",
+        "existingIds": [
+          "cached-35211-666ccb1e6c7ad89eb65498f9"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 14942,
+        "name": "市民が主役の地域活性化事業",
+        "existingIds": [
+          "cached-35211-c6fad6615742d2aef484a2f9",
+          "cached-35211-e8c2810da29e2dd9b9f186e0",
+          "cached-35211-695c504c929a804ea85f5e55",
+          "cached-35211-52382745749a923ec3845aa3"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 15600,
+        "name": "市民が主役の地域活性化事業",
+        "existingIds": [
+          "cached-35211-c6fad6615742d2aef484a2f9",
+          "cached-35211-e8c2810da29e2dd9b9f186e0",
+          "cached-35211-695c504c929a804ea85f5e55",
+          "cached-35211-52382745749a923ec3845aa3"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 16238,
+        "name": "市民が主役の地域活性化事業",
+        "existingIds": [
+          "cached-35211-c6fad6615742d2aef484a2f9",
+          "cached-35211-e8c2810da29e2dd9b9f186e0",
+          "cached-35211-695c504c929a804ea85f5e55",
+          "cached-35211-52382745749a923ec3845aa3"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 16872,
+        "name": "市民が主役の地域活性化事業",
+        "existingIds": [
+          "cached-35211-c6fad6615742d2aef484a2f9",
+          "cached-35211-e8c2810da29e2dd9b9f186e0",
+          "cached-35211-695c504c929a804ea85f5e55",
+          "cached-35211-52382745749a923ec3845aa3"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 17506,
+        "name": "市民が主役の地域活性化事業",
+        "existingIds": [
+          "cached-35211-c6fad6615742d2aef484a2f9",
+          "cached-35211-e8c2810da29e2dd9b9f186e0",
+          "cached-35211-695c504c929a804ea85f5e55",
+          "cached-35211-52382745749a923ec3845aa3"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 18146,
+        "name": "防災備蓄整備事業",
+        "existingIds": [
+          "cached-35211-c5815792f4f738c0b55a6a73"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 18629,
+        "name": "防犯灯更新事業",
+        "existingIds": [
+          "cached-35211-52c8aad6f6c8131e400f1dd8"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 19148,
+        "name": "多文化共生社会の構築に向けたグローバル化対策事業",
+        "existingIds": [
+          "cached-35211-28b4417a3dfe175ca977af66",
+          "cached-35211-96ac6006509f453c85082bc9"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 20168,
+        "name": "多文化共生社会の構築に向けたグローバル化対策事業",
+        "existingIds": [
+          "cached-35211-28b4417a3dfe175ca977af66",
+          "cached-35211-96ac6006509f453c85082bc9"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 20672,
+        "name": "海・山・人が織りなす新たな旅のスタイル創造事業",
+        "existingIds": [
+          "cached-35211-258d1fdc52c0befb5f9fe931"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 21687,
+        "name": "成年後見制度利用促進事業",
+        "existingIds": [
+          "cached-35211-c8cd3c922b3dc08ad4bd73af"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 22595,
+        "name": "多機関協働包括的支援体制整備事業",
+        "existingIds": [
+          "cached-35211-eb92c76e3f2e08ec7c92be60"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 23800,
+        "name": "住民税非課税世帯等に対する価格高騰重点支援給付金給付事業",
+        "existingIds": [
+          "cached-35211-7698e0aa9688e5076b280ca9"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 24932,
+        "name": "医療・介護・高齢・福祉施設等物価高騰対応支援金交付事業（地域福祉課分）",
+        "existingIds": [
+          "cached-35211-390e6adefac39a6c7a2c1558"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 25850,
+        "name": "医療・介護・高齢・福祉施設等物価高騰対応支援金交付事業（高齢福祉課分）",
+        "existingIds": [
+          "cached-35211-3e6329f69629c06e5c8e4070"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 26802,
+        "name": "低所得世帯等に対する物価高騰対応重点支援給付金給付事業",
+        "existingIds": [
+          "cached-35211-bbddacd423c59f2f1bfea5a0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 27959,
+        "name": "障害者福祉タクシー助成事業",
+        "existingIds": [
+          "cached-35211-f3bc4fb0e0fa6d1e40b506c8"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 28874,
+        "name": "障害福祉サービス等給付事業",
+        "existingIds": [
+          "cached-35211-7059b4e2964d17787e6bf43c"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 29955,
+        "name": "障害者自立支援協議会開催事業",
+        "existingIds": [
+          "cached-35211-daa03d7b368fa5ad8e939b61"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 30783,
+        "name": "地域生活支援事業",
+        "existingIds": [
+          "cached-35211-bf88c27e654f7a3d1a46b058"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 31868,
+        "name": "その他事業（単独事業）",
+        "existingIds": [
+          "cached-35211-af6b6f9702f1bc29e2e7cf59"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 32509,
+        "name": "敬老会開催事業",
+        "existingIds": [
+          "cached-35211-5ca7e99a19a6641bb805c639"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 33763,
+        "name": "高齢者等福祉タクシー助成事業",
+        "existingIds": [
+          "cached-35211-0f40bbe28c335819817fedd8"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 34770,
+        "name": "フレイル予防一体的事業",
+        "existingIds": [
+          "cached-35211-085ba7bc6032a42d8034f0ce"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 35865,
+        "name": "重層的支援体制整備事業（地域支援事業分）",
+        "existingIds": [
+          "cached-35211-5029f477fb78014392b13e51"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 37029,
+        "name": "子ども医療費助成事業",
+        "existingIds": [
+          "cached-35211-20b7590e6543c1c8e7181f08"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 38389,
+        "name": "放課後児童対策事業（放課後児童クラブ）",
+        "existingIds": [],
+        "status": "unmatched_complete_prefix_sheet"
+      },
+      {
+        "start": 39613,
+        "name": "地域子育て支援センター事業",
+        "existingIds": [
+          "cached-35211-5af8fd0bfc2db58df6304c40"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 40632,
+        "name": "ファミリーサポートセンター事業",
+        "existingIds": [
+          "cached-35211-dff7132c47186407ee460448"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 41442,
+        "name": "認定こども園施設整備事業",
+        "existingIds": [
+          "cached-35211-e6ca19004d6be8d96e0d3bf3"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 42087,
+        "name": "副食費助成事業",
+        "existingIds": [
+          "cached-35211-8b49f22752cafd4edd21dd60"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 42883,
+        "name": "子どもにやさしい環境づくり事業",
+        "existingIds": [],
+        "status": "unmatched_complete_prefix_sheet"
+      },
+      {
+        "start": 43833,
+        "name": "子ども家庭総合支援拠点事業",
+        "existingIds": [
+          "cached-35211-949338927eaaf9bf0b09c2ff"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 45032,
+        "name": "ヤングケアラー支援体制強化事業",
+        "existingIds": [
+          "cached-35211-7b7b23273e8de9ca62e4f8c7"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 46280,
+        "name": "つながりの場づくり支援事業",
+        "existingIds": [
+          "cached-35211-f62686735a8fb7b3d1f06973"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 46981,
+        "name": "入学エール給付金事業",
+        "existingIds": [],
+        "status": "unmatched_complete_prefix_sheet"
+      },
+      {
+        "start": 47601,
+        "name": "すくすく赤ちゃん応援券支給事業",
+        "existingIds": [],
+        "status": "unmatched_complete_prefix_sheet"
+      },
+      {
+        "start": 48414,
+        "name": "医療・介護・高齢・福祉施設等物価高騰対応支援金交付事業（子育て支援課分）",
+        "existingIds": [
+          "cached-35211-b901de43b14fe70b9d002eae"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 49026,
+        "name": "子育て世帯生活支援特別給付金給付事業（その他の世帯分）",
+        "existingIds": [],
+        "status": "unmatched_complete_prefix_sheet"
+      },
+      {
+        "start": 49686,
+        "name": "高等職業訓練促進給付金等事業",
+        "existingIds": [
+          "cached-35211-dac9d68705ede26f2fae5a32"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 50363,
+        "name": "障害児保育事業",
+        "existingIds": [
+          "cached-35211-8ce8e18fcaa3e7054fe2fe59"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 51104,
+        "name": "公立保育園施設改修事業（向津具保育園外壁補修工事）",
+        "existingIds": [
+          "cached-35211-fab904872310189be314ac83"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 51658,
+        "name": "公立保育園業務ＩＣＴ化推進事業",
+        "existingIds": [
+          "cached-35211-7f366eed7c9bbc409443ac88"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 52394,
+        "name": "公立保育園安全体制見守り推進事業",
+        "existingIds": [
+          "cached-35211-05630973641c14bb1299466f"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 52962,
+        "name": "子育て世帯生活支援特別給付金給付事業（ひとり親世帯分）",
+        "existingIds": [],
+        "status": "unmatched_complete_prefix_sheet"
+      },
+      {
+        "start": 53678,
+        "name": "生活保護事業",
+        "existingIds": [
+          "cached-35211-f49644bd25be8a5ebc7781f9"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 54735,
+        "name": "健幸百寿プロジェクト推進事業",
+        "existingIds": [
+          "cached-35211-51f73c3a952cfbff53acf1a6"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 55835,
+        "name": "医療・介護・高齢・福祉施設等物価高騰対応支援金交付事業（健康増進課分）",
+        "existingIds": [
+          "cached-35211-d84a0a26bafd41c4f4b73829"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 56477,
+        "name": "出産・子育て応援交付金事業",
+        "existingIds": [
+          "cached-35211-9b7c3f1f70ab79c62340d0b5"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 57221,
+        "name": "母と子の健康診査事業",
+        "existingIds": [
+          "cached-35211-e38862593ed5062e87f998d0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 58176,
+        "name": "成人保健事業",
+        "existingIds": [
+          "cached-35211-033c82f56a61f7f4a32bbe5c"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 59193,
+        "name": "新型コロナウイルス対策事業",
+        "existingIds": [
+          "cached-35211-5762c638b336ea841a70cb4c"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 59998,
+        "name": "省エネ家電買い換え支援事業",
+        "existingIds": [
+          "cached-35211-e127fdbfbe2e90524dc7785e"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 60650,
+        "name": "猫の不妊去勢手術費補助事業",
+        "existingIds": [
+          "cached-35211-59792e9e140aab5c110a5e63"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 61296,
+        "name": "応急診療所等運営事業",
+        "existingIds": [
+          "cached-35211-20d2f2972c13dcab5ab59f6b"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 62366,
+        "name": "ごみ収集事業（委託分）",
+        "existingIds": [
+          "cached-35211-95c0b590216fc36ef6d4b137"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 63294,
+        "name": "産業廃棄物最終処分場整地工事",
+        "existingIds": [
+          "cached-35211-40702972e102a9ea25974fdb"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 63815,
+        "name": "地域雇用創出事業",
+        "existingIds": [
+          "cached-35211-7accc0495a6651b7407f0db8"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 64667,
+        "name": "中山間地域等直接支払交付金事業",
+        "existingIds": [
+          "cached-35211-039ea88a07dd1aad78f354eb"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 65550,
+        "name": "有害鳥獣捕獲・駆除・被害防止等対策事業",
+        "existingIds": [
+          "cached-35211-5decea443287f37cebecd37c"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 66320,
+        "name": "環境保全型農業直接支払交付金事業",
+        "existingIds": [
+          "cached-35211-ae1cca3192ba0abf9aba26c5"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 67028,
+        "name": "就農円滑化対策事業",
+        "existingIds": [
+          "cached-35211-a39dedbc8575fbbb74a02a10"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 67747,
+        "name": "（一社）アグリながと運営支援事業",
+        "existingIds": [
+          "cached-35211-f75bb4b4f0372682d892e48e"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 68584,
+        "name": "新規就業者等産地拡大促進事業",
+        "existingIds": [
+          "cached-35211-4cd999a494ec4dc147891d53"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 69097,
+        "name": "美しい農村再生支援事業",
+        "existingIds": [
+          "cached-35211-47944033798169a15ae3d31c"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 69914,
+        "name": "未来農業創造事業",
+        "existingIds": [
+          "cached-35211-4e958c094be72cae61e1ad06"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 71145,
+        "name": "有機農業産地づくり推進事業",
+        "existingIds": [
+          "cached-35211-c496e179f8827e5bf60ba472"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 72003,
+        "name": "肥料等高騰対策事業",
+        "existingIds": [
+          "cached-35211-d2d15169bb1b23241e46b196"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 72558,
+        "name": "優良繁殖雌牛導入事業",
+        "existingIds": [
+          "cached-35211-9778fe1e1b9d55d6dbf12874"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 73210,
+        "name": "肥育素牛購入費補助事業",
+        "existingIds": [
+          "cached-35211-9f45a4e8ec74a3f828455624"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 74094,
+        "name": "キャトルステーション実証プロジェクト事業",
+        "existingIds": [
+          "cached-35211-a0d31afc0a9ccf20855d36d0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 74714,
+        "name": "ながと長州どり地区活性化事業",
+        "existingIds": [
+          "cached-35211-afeaeb91d84eadf9794bbcb2"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 75185,
+        "name": "県営事業負担金",
+        "existingIds": [
+          "cached-35211-893624b0cd363ea3ffa44396"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 76360,
+        "name": "多面的機能支払交付金事業",
+        "existingIds": [
+          "cached-35211-fed4ef9184bfe048bf0eef91"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 76875,
+        "name": "農業水路等長寿命化・防災減災事業",
+        "existingIds": [],
+        "status": "unmatched_complete_prefix_sheet"
+      },
+      {
+        "start": 77307,
+        "name": "地域が育む豊かな森林づくり推進事業",
+        "existingIds": [
+          "cached-35211-0f06752583a8c1e6f0dec98d"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 77904,
+        "name": "木育推進事業",
+        "existingIds": [
+          "cached-35211-a4454c715f981cdc5ae17170"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 79117,
+        "name": "林業成長産業化推進事業",
+        "existingIds": [
+          "cached-35211-baaeb4076f2ade0b8c76c071"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 80029,
+        "name": "林業法人運営支援事業",
+        "existingIds": [
+          "cached-35211-fe5ec80fa5959efc10ef0bc1"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 80730,
+        "name": "ながと産木材サプライチェーン構築事業",
+        "existingIds": [
+          "cached-35211-59ce8f453f580d0233ce8a10"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 81370,
+        "name": "水産物需要拡大推進事業",
+        "existingIds": [
+          "cached-35211-5ed0347016c195afae5d584e"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 82498,
+        "name": "ニューフィッシャー確保育成推進事業",
+        "existingIds": [
+          "cached-35211-7f4373bcfe00b9c1cb05700e"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 83417,
+        "name": "生産力向上チャレンジ推進事業",
+        "existingIds": [
+          "cached-35211-46123023b2329c0a31be2b72"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 84466,
+        "name": "種苗中間育成推進事業",
+        "existingIds": [
+          "cached-35211-4569cee427a87eb8fe8a98d0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 85358,
+        "name": "革新的漁業導入支援事業",
+        "existingIds": [
+          "cached-35211-049fa91c4485d8f41dda8db1"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 86105,
+        "name": "藻場保全活動に伴うＪブルークレジット活用モデル事業",
+        "existingIds": [
+          "cached-35211-c1f8e90386001532835466b9"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 86974,
+        "name": "漁港施設整備事業",
+        "existingIds": [
+          "cached-35211-7841faafe1087d865c9e3d95"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 87717,
+        "name": "バス路線運行維持対策事業",
+        "existingIds": [
+          "cached-35211-03b896f97bbfa6662c919794"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 88569,
+        "name": "地域公共交通推進事業",
+        "existingIds": [
+          "cached-35211-fc03441e078cdcb512879286"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 89843,
+        "name": "創業等支援事業",
+        "existingIds": [
+          "cached-35211-f13eff1c9ffe1f49692d5b1b"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 90853,
+        "name": "戦略的産業基盤強化事業",
+        "existingIds": [
+          "cached-35211-dd2e56b94936461684dc3028"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 91954,
+        "name": "長門市しごとセンターを核とした地域未来創造事業",
+        "existingIds": [
+          "cached-35211-5e6d9620f2572a8c78bc3c72"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 92856,
+        "name": "三隅地区工場用地整備事業",
+        "existingIds": [],
+        "status": "unmatched_complete_prefix_sheet"
+      },
+      {
+        "start": 93647,
+        "name": "中小企業経営安定資金利子補給金",
+        "existingIds": [
+          "cached-35211-351b4e383272ef530d0beddd"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 94361,
+        "name": "二次交通対策事業",
+        "existingIds": [
+          "cached-35211-b4959baa8bd5dd97a3162a2b"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 95713,
+        "name": "買い物支援実証事業",
+        "existingIds": [
+          "cached-35211-8e65e6ae357929261cfdd780"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 96300,
+        "name": "若者起業家支援事業",
+        "existingIds": [
+          "cached-35211-4abf437befd070a6c4574910"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 97452,
+        "name": "ながと賑わい創出支援事業",
+        "existingIds": [
+          "cached-35211-786949d7c686bea8bbf16564"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 98134,
+        "name": "ながと特産物振興事業",
+        "existingIds": [
+          "cached-35211-3712f79a02c0fb2bac851809"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 99341,
+        "name": "中小事業者サポート事業",
+        "existingIds": [
+          "cached-35211-b1944fd2d2dd24e870c69773"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 100046,
+        "name": "省エネ機器等導入支援事業",
+        "existingIds": [
+          "cached-35211-6db73a40d9300a7705ce2524"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 101101,
+        "name": "俵山温泉活性化事業",
+        "existingIds": [
+          "cached-35211-db0de5e1ff015cb2ea9d59b4"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 102105,
+        "name": "ぶちとくながと生活優待券第二弾発行事業",
+        "existingIds": [
+          "cached-35211-accf3e0e55c8dc9dca89b88f"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 103092,
+        "name": "キャンプ場・海水浴場コインシャワー更新事業",
+        "existingIds": [
+          "cached-35211-be96d94c54dbaee262769e89"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 103490,
+        "name": "観光施設等トイレ改修事業",
+        "existingIds": [
+          "cached-35211-e63a8e850b4f34170c9ea2d7"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 103924,
+        "name": "海水浴場監視員設置事業",
+        "existingIds": [
+          "cached-35211-e0fd650bb868a5062cd408d5"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 104581,
+        "name": "王子山公園施設改修事業",
+        "existingIds": [
+          "cached-35211-20ada77be8cff7fd4b9a48ae"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 105110,
+        "name": "集客イベント重点支援事業",
+        "existingIds": [
+          "cached-35211-4dd50bc49a6db870094a5666"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 105846,
+        "name": "地域資源を活用した食の魅力創造事業",
+        "existingIds": [
+          "cached-35211-e1d80b7191b1ca671b35908c"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 106797,
+        "name": "観光旅行者周遊促進事業",
+        "existingIds": [
+          "cached-35211-c426f38f941066bf315a4877"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 107495,
+        "name": "ながと国際観光推進事業",
+        "existingIds": [
+          "cached-35211-22542d29170fbcb0748d631f"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 108316,
+        "name": "長門湯本温泉観光まちづくり整備事業",
+        "existingIds": [
+          "cached-35211-606a1e35d15a960e2512948b"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 109203,
+        "name": "長門湯本温泉観光まちづくり推進事業",
+        "existingIds": [
+          "cached-35211-a38d76b16cff9b85c967bb7b"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 109913,
+        "name": "ながとスポーツコミッション事業",
+        "existingIds": [
+          "cached-35211-cb81547a1fce8344efec0c1d"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 111270,
+        "name": "向津具ダブルマラソン開催事業",
+        "existingIds": [
+          "cached-35211-8a2d4bfbbf8279f041346bd6"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 112263,
+        "name": "スポーツ合宿誘致事業",
+        "existingIds": [
+          "cached-35211-d6754e0f3662741f6a8a640d"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 113394,
+        "name": "自然災害防止事業（市道津黄線落石防止事業）",
+        "existingIds": [
+          "cached-35211-3ec6a52c3772ca6b9df0a23e"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 114022,
+        "name": "過疎対策事業",
+        "existingIds": [
+          "cached-35211-5816bea8a25f367796f489cd"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 115483,
+        "name": "社会資本整備総合交付金事業",
+        "existingIds": [
+          "cached-35211-bb2e3be9bc409f90f9e80d57"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 116046,
+        "name": "道路交通安全対策事業",
+        "existingIds": [
+          "cached-35211-c775a260f341f99cf64da6d9"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 116680,
+        "name": "県営道路改良舗装事業",
+        "existingIds": [
+          "cached-35211-57ac5a5dc4d729470fa268b1"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 117228,
+        "name": "県営急傾斜地崩壊対策事業",
+        "existingIds": [
+          "cached-35211-6ee27a4d6135711ccf7d6e5c"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 117901,
+        "name": "景観形成推進事業",
+        "existingIds": [
+          "cached-35211-6fa814a0bbc12b3ee8d833fc"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 118660,
+        "name": "その他公園等維持管理費（湊はまゆう公園遊具更新事業）",
+        "existingIds": [
+          "cached-35211-41e32fbd62f62620c18a7f56"
+        ],
+        "status": "existing_source_bound_record"
+      }
+    ],
+    "finalPartialSheetStart": 119212,
+    "tailStatus": "Not fetched; no continuation registered in metadata or found by source-id file inventory. Original full text hash cannot be recomputed."
+  },
+  {
+    "sourceId": "3de629a8dc70e9ed9c5cccbf",
+    "fiscalYear": 2024,
+    "expectedSourceSheets": 161,
+    "cachedCharacters": 120000,
+    "reportedFullCharacters": 154593,
+    "prefixSha256": "b3265803486bbbfe9915f3840b2a975e55f8515775733d9370792351db348f57",
+    "sourceSha256": "11bab1937ba2e6b7f902003451c4f11f3566a77be617818ff17dd580f1f595e5",
+    "originalFullTextVerified": false,
+    "listedContinuations": 0,
+    "existingSourceBoundRecords": 161,
+    "rows": [
+      {
+        "start": 2225,
+        "name": "職員研修事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p7-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 3185,
+        "name": "新市誕生２０周年記念事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p8-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 4298,
+        "name": "シティプロモーション事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p9-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 5563,
+        "name": "定住促進対策事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p10-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 6852,
+        "name": "地域おこし協力隊設置事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p11-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 7949,
+        "name": "ふるさと応援寄附推進事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p12-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 8943,
+        "name": "医療・福祉系人材確保事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p13-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 9831,
+        "name": "集落機能再生事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p14-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 10618,
+        "name": "男女共同参画推進事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p15-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 11558,
+        "name": "地区集会所建設費助成金",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p16-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 12396,
+        "name": "コミュニティ創出支援事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p17-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 13378,
+        "name": "まち・ひと創生推進事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p18-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 14182,
+        "name": "デジタルトランスフォーメーション推進事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p19-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 15538,
+        "name": "地方公共団体情報システム標準化対応事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p20-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 16214,
+        "name": "市民が主役の地域活性化事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p21-t0",
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p22-t0",
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p24-t0",
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p25-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 16867,
+        "name": "市民が主役の地域活性化事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p21-t0",
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p22-t0",
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p24-t0",
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p25-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 17522,
+        "name": "油谷地区小さな拠点づくり推進事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p23-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 18533,
+        "name": "市民が主役の地域活性化事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p21-t0",
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p22-t0",
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p24-t0",
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p25-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 19182,
+        "name": "市民が主役の地域活性化事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p21-t0",
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p22-t0",
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p24-t0",
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p25-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 19928,
+        "name": "音声告知端末放送システム更新事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p26-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 20471,
+        "name": "山口県防災行政無線再整備事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p27-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 21009,
+        "name": "多文化共生社会の構築に向けたグローバル化対策事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p28-t0",
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p29-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 22065,
+        "name": "多文化共生社会の構築に向けたグローバル化対策事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p28-t0",
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p29-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 22597,
+        "name": "２０２５年大阪・関西万博連携事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p30-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 23294,
+        "name": "定額減税補足給付金給付事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p31-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 24150,
+        "name": "窓口業務改革推進事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p32-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 24871,
+        "name": "成年後見制度利用促進事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p33-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 25768,
+        "name": "多機関協働包括的支援体制整備事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p34-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 26991,
+        "name": "低所得世帯等に対する物価高騰対応重点支援給付金給付事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p35-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 27923,
+        "name": "住民税非課税世帯に対する物価高騰対応重点支援給付金給付事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p36-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 29030,
+        "name": "障害者福祉タクシー助成事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p37-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 29989,
+        "name": "障害福祉サービス等給付事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p38-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 31059,
+        "name": "障害者自立支援協議会開催事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p39-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 31900,
+        "name": "地域生活支援事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p40-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 33252,
+        "name": "敬老会開催事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p41-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 34481,
+        "name": "福祉バス運行事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p42-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 35321,
+        "name": "高齢者等福祉タクシー助成事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p43-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 36568,
+        "name": "フレイル予防一体的事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p44-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 37597,
+        "name": "重層的支援体制整備事業（地域支援事業分）",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p45-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 38767,
+        "name": "子ども医療費助成事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p46-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 39980,
+        "name": "放課後児童対策事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p47-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 41199,
+        "name": "地域子育て支援センター事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p48-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 42194,
+        "name": "ファミリーサポートセンター事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p49-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 43122,
+        "name": "子どもにやさしい環境づくり事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p50-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 44048,
+        "name": "私立保育所施設整備事業（みすゞ保育園空調設備改修）",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p51-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 44714,
+        "name": "副食費助成事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p52-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 45509,
+        "name": "子ども家庭総合支援拠点事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p53-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 46953,
+        "name": "つながりの場づくり支援事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p54-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 47711,
+        "name": "入学エール給付金事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p55-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 48320,
+        "name": "すくすく赤ちゃん応援券支給事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p56-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 49009,
+        "name": "ながと子育て応援第２子以降保育料無償化事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p57-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 49984,
+        "name": "高等職業訓練促進給付金等事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p58-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 50718,
+        "name": "障害児保育事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p59-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 51643,
+        "name": "公立保育園施設改修事業（三隅保育園空調設備改修工事）",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p60-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 52270,
+        "name": "生活保護事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p61-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 53321,
+        "name": "健康づくり推進事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p62-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 54386,
+        "name": "出産・子育て応援交付金事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p63-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 55190,
+        "name": "母と子の健康診査事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p64-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 56405,
+        "name": "成人保健事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p65-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 57482,
+        "name": "食育推進事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p66-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 58372,
+        "name": "自殺予防対策事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p67-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 59237,
+        "name": "予防接種事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p68-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 60152,
+        "name": "猫の不妊去勢手術費補助事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p69-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 60972,
+        "name": "応急診療所等運営事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p70-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 62065,
+        "name": "救急医療体制確保対策事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p71-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 62859,
+        "name": "ごみ収集事業（委託分）",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p72-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 63994,
+        "name": "指定ごみ袋納入及び販売業務",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p73-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 64797,
+        "name": "地域雇用創出事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p74-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 65745,
+        "name": "人材確保支援事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p75-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 66560,
+        "name": "中山間地域等直接支払交付金事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p76-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 67439,
+        "name": "有害鳥獣捕獲・駆除・被害防止等対策事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p77-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 68244,
+        "name": "環境保全型農業直接支払交付金事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p78-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 68923,
+        "name": "就農円滑化対策事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p79-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 69659,
+        "name": "（一社）アグリながと運営支援事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p80-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 70636,
+        "name": "新規就業者等産地拡大促進事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p81-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 71215,
+        "name": "美しい農村再生支援事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p82-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 71912,
+        "name": "未来農業創造事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p83-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 73384,
+        "name": "有機農業産地づくり推進事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p84-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 74352,
+        "name": "畜産団地整備事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p85-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 75100,
+        "name": "畜産で稼げるまち創出事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p86-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 76415,
+        "name": "県営事業負担金",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p87-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 77553,
+        "name": "多面的機能支払交付金事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p88-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 78199,
+        "name": "やまぐち森林づくり県民税事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p89-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 78791,
+        "name": "木育推進事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p90-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 79982,
+        "name": "林業成長産業化推進事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p91-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 80813,
+        "name": "林業法人運営支援事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p92-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 81877,
+        "name": "ながと産木材サプライチェーン構築事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p93-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 82587,
+        "name": "水産物需要拡大推進事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p94-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 83641,
+        "name": "生産力向上チャレンジ推進事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p95-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 84536,
+        "name": "種苗中間育成事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p96-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 85611,
+        "name": "藻場保全活動に伴うＪブルークレジット活用モデル事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p97-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 86663,
+        "name": "アクアカルチャーサポート事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p98-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 87440,
+        "name": "漁港施設整備事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p99-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 88260,
+        "name": "バス路線運行維持対策事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p100-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 89053,
+        "name": "地域公共交通推進事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p101-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 90555,
+        "name": "創業等支援事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p102-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 91732,
+        "name": "戦略的産業基盤強化事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p103-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 93070,
+        "name": "三隅地区工場用地整備事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p104-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 93722,
+        "name": "長門市しごとセンターを核とした地域未来創造事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p105-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 94738,
+        "name": "中小企業経営安定資金利子補給金",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p106-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 95374,
+        "name": "二次交通対策事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p107-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 96547,
+        "name": "買い物支援実証事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p108-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 97125,
+        "name": "若者起業家支援事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p109-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 98243,
+        "name": "ながと特産物振興事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p110-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 99432,
+        "name": "俵山温泉活性化事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p111-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 100265,
+        "name": "仙崎地区活性化事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p112-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 100889,
+        "name": "ぶちとくながと生活優待券第二弾発行事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p113-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 101853,
+        "name": "事業承継支援事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p114-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 102695,
+        "name": "観光施設等整備事業（湯本地区身体障害者用駐車施設整備事業）",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p115-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 103174,
+        "name": "観光施設等整備事業（キャンプ場・海水浴場コインシャワー更新事業）",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p116-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 103583,
+        "name": "観光施設等整備事業（海水浴場トイレ・シャワー室換気機能改善事業）",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p117-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 104002,
+        "name": "観光施設等維持費（海水浴場監視員設置事業）",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p118-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 104754,
+        "name": "集客イベント重点支援事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p119-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 106044,
+        "name": "ながと国際観光推進事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p120-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 107138,
+        "name": "長門湯本温泉観光まちづくり整備事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p121-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 107691,
+        "name": "長門湯本温泉観光まちづくり推進事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p122-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 108529,
+        "name": "ながとスポーツコミッション事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p123-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 109891,
+        "name": "スポーツ合宿誘致事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p124-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 111056,
+        "name": "向津具ダブルマラソン開催事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p125-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 112099,
+        "name": "満足度の高い「ながと時間」創出事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p126-t0",
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p127-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 113117,
+        "name": "満足度の高い「ながと時間」創出事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p126-t0",
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p127-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 114218,
+        "name": "過疎対策事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p128-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 115789,
+        "name": "道路交通安全対策事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p129-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 116424,
+        "name": "県営道路改良舗装事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p130-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 117021,
+        "name": "県営急傾斜地崩壊対策事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p131-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 117850,
+        "name": "都市公園施設長寿命化計画策定事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p132-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 118311,
+        "name": "その他公園等維持管理費（田屋後田公園遊具更新事業）",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p133-t0"
+        ],
+        "status": "existing_source_bound_record"
+      },
+      {
+        "start": 118829,
+        "name": "地籍調査事業",
+        "existingIds": [
+          "35211:11bab1937ba2:single-period-block-11bab1937ba2-p134-t0"
+        ],
+        "status": "existing_source_bound_record"
+      }
+    ],
+    "finalPartialSheetStart": 119895,
+    "tailStatus": "Not fetched; no continuation registered in metadata or found by source-id file inventory. Original full text hash cannot be recomputed."
+  }
+]

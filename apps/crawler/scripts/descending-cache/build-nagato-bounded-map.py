@@ -1,0 +1,9 @@
+"""Rebuild only the explicitly reviewed prefix; no source access or tail synthesis."""
+from pathlib import Path
+import json,hashlib
+root=Path(__file__).resolve().parents[4];stage=Path(__file__).parent;docs=root/'apps/web/public/evaluation-evidence';c=json.loads((stage/'nagato-bounded-reviewed.json').read_text());m=json.loads((docs/'municipalities/35211.json').read_text());s=next(s for s in m['sources'] if s['id']==c['sourceId']);info=s['text'];b=(docs/info['assetPath']).read_bytes();assert len(b)==info['assetBytes'] and hashlib.sha256(b).hexdigest()==info['assetSha256'];d=json.loads(b);t=d['text'];assert d['sourceId']==c['sourceId'] and d['municipalityCode']==c['municipalityCode'];assert d['sourceUrl']==s['url']==c['sourceUrl'];assert d['sourceSha256']==s['acquisition']['sourceSha256']==c['sourceSha256'];assert info['truncated'] and not info.get('continuations');assert len(t)==info['exportedCharacters']==c['exportedCharacters']==120000;assert info['characters']==c['originalCharacters']==150222;assert hashlib.sha256(t.encode()).hexdigest()==info['textSha256']==c['prefixSha256'];assert c['proof'] in t;u=t.encode('utf-16-le')
+for row in c['rows']:
+ assert u[row['start']*2:row['start']*2+len(row['raw'].encode('utf-16-le'))].decode('utf-16-le')==row['raw'];assert u[row['contextStart']*2:row['end']*2].decode('utf-16-le')==row['context'];assert u[row['end']*2:].decode('utf-16-le').startswith('具体施策 ');assert row['context'].startswith('具体施策 ') and '総合評価' in row['context']
+assert len(c['rows'])==8
+(root/'apps/crawler/src/evaluations/expansion/descending-nagato-bounded-map.ts').write_text('// Pinned cached prefix only; not full-original verification.\nexport const nagatoBounded = '+json.dumps(c,ensure_ascii=False,indent=2)+';\n')
+print('Verified 8 complete sheets in a 120000-character prefix; original tail not recovered.')
