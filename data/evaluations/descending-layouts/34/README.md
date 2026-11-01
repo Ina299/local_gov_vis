@@ -1,9 +1,9 @@
 # Hiroshima cached review — verified increment, phase open
 
-912 isolated annual candidates across14 municipalities. Added87 (Onomichi11/Takehara76) since825. All previous825 records are identical. No existing field edits, production additions, municipal requests or external writes.
+1,016 isolated annual candidates across15 municipalities. Added104 (Saka28/Onomichi40/Takehara5/Kure27/HiroshimaCity4) since912. All prior912 records remain identical. No production additions, existing field changes, municipal requests or external writes.
 
-Validation: crawler528/528; Web256/256; focused22/22;29,511 quotes across12,239 cumulative candidates; typecheck, lint, national integrity and109-page static export at `/local_gov_vis` passed. Temporary font option restored. Production remains500 municipalities/92,038 records.
+Validation: crawler532/532; Web256/256; focused26/26;29,818 quotes across12,343 cumulative candidates; typecheck, lint, national integrity and109-page static export at `/local_gov_vis` passed. Temporary font option restored. Production remains500 municipalities/92,038 records.
 
-The12,239 candidate total covers46 Kagoshima through34 Hiroshima, excluding Okinawa1,084 and initial93. These are annual assessed candidates, not published records or proof of implementation. No new amounts, ratings or indicators were inferred.
+The12,343 candidate total covers46 Kagoshima through34 Hiroshima, excluding Okinawa1,084 and initial93. Candidates are annual assessed activities, not published records or proof all activities were implemented. No new amounts, ratings or indicators were inferred.
 
-All109 complete texts have a first family review, not a completeness claim.73 further external proposals await runtime/dedup/full validation. The additional209-header Takehara audit and remaining source-family work are retained separately.20 absent bodies and2 missing prefix tails require input, not a current network denial. All53 exclusions and access gates remain. Unpublished user work cannot be observed.
+109 complete texts have first family reviews, not exhaustive extraction.101 further externally staged proposals have hash/quote/alias screening only. The retained209-header Takehara audit and1,033-hint Saka disposition distinguish covered items, generic categories, future/historical references and identity holds. The2 old Onomichi books and OCR book still have unit review work.20 absent bodies and2 missing prefix tails require input; they are not current network denials. All53 exclusions and access gates remain. Unpublished user work is not observable.
