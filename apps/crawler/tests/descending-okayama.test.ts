@@ -119,3 +119,29 @@ test('Asakuchi later annual activity appendices do not recreate policy headings 
  }
  assert.ok(!run('19b4da585948ae0e1f6c3ead').projects.some(p=>p.projectName==='総合文化祭'||p.projectName==='金光キッズフェスティバル'));
 });
+test('Asakuchi deferred and cancelled 2020-2021 events never inherit the later actual year',()=>{
+ const y2020=run('19b4da585948ae0e1f6c3ead').projects;
+ assert.ok(!y2020.some(p=>p.projectName==='成人式'||p.projectName==='こども祭り'||p.projectName==='町家公園茶会'));
+ assert.ok(y2020.some(p=>p.projectName==='フットサル大会'&&p.evaluatedFiscalYear===2020));
+ const y2021=run('cfeb3eb6925796baffbb85d3').projects;
+ assert.ok(y2021.some(p=>p.projectName==='成人式'&&p.evaluatedFiscalYear===2021));
+ assert.ok(!y2021.some(p=>p.projectName==='宇宙☆自然講座'));
+ const next=run('debea25c6ac7aa481a3d1d33').projects.find(p=>p.projectName==='宇宙☆自然講座')!;
+ assert.equal(next.evaluatedFiscalYear,2022);assert.ok(next.evidence.some(e=>e.rawText?.includes('R3年度に中止になった延期講座')));
+});
+test('Asakuchi preserves actual trial years, annual duplicates and distinctly named parent activities',()=>{
+ const y2024=run('f12e80a7f4e149a44faca093').projects;
+ assert.equal(y2024.filter(p=>p.projectName==='ランチタイムで世界旅行').length,1);
+ const trial=y2024.find(p=>p.projectName==='楽しいヘルシークッキング')!;
+ assert.equal(trial.evaluatedFiscalYear,2024);assert.ok(trial.warnings.some(w=>w.includes('お試し企画のみ')));
+ assert.ok(!y2024.some(p=>p.projectName==='投扇興体験'||p.projectName==='町家☆Stories'));
+ assert.equal(y2024.filter(p=>p.projectName==='町家で投扇興体験').length,1);
+ assert.ok(y2024.some(p=>p.projectName==='町家塾'));
+});
+test('Asakuchi partial 2025 events keep cancelled seasons and named locations in evidence',()=>{
+ const ps=run('90b5410c7f774365a16a895f').projects;
+ const sports=ps.find(p=>p.projectName==='市民体育祭')!;assert.ok(sports.evidence.some(e=>e.rawText?.includes('金光 雨天中止')));
+ const futsal=ps.find(p=>p.projectName==='フットサル大会')!;assert.ok(futsal.evidence.some(e=>e.rawText?.includes('秋大会 雨天のため中止')));assert.ok(futsal.warnings.some(w=>w.includes('春のみ実施')));
+ for(const name of ['みどりの大学（金光地区）','天草学級（鴨方地区）','シーサイド大学（寄島地区）'])assert.equal(ps.filter(p=>p.projectName===name).length,1);
+ assert.ok(!ps.some(p=>p.projectName==='金光さつきっ子教室'||p.projectName==='三つ山っ子教室'));assert.ok(ps.some(p=>p.projectName==='子ども週末体験活動'));
+});
