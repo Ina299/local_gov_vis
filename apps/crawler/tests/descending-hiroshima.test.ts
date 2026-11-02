@@ -49,7 +49,7 @@ test('Takehara excludes ambiguous list-to-sheet identities and prior-year librar
 });
 test('Onomichi coverage additions preserve explicit FY and do not repair corrupted OCR title suffixes',()=>{
  const ps=reviewHiroshima(source('eeb6f9bb3c2f44b3d04b01fc','34205'))!.projects;
- assert.equal(ps.length,10);assert.equal(ps[0].projectName,'尾道市美術展事業');assert.ok(ps.every(p=>p.evaluatedFiscalYear===2014));
+ assert.equal(ps.length,17);assert.equal(ps[0].projectName,'尾道市美術展事業');assert.ok(ps.every(p=>p.evaluatedFiscalYear===2014));
  assert.ok(!ps[0].projectName.includes('実路'));assert.equal(ps[0].department,null);
  const prior=reviewHiroshima(source('e299c6de2073b91f7effd68f','34205'))!.projects;
  assert.equal(prior.length,5);assert.ok(prior.some(p=>p.projectName==='特別支援教育推進事業'));
@@ -234,4 +234,32 @@ test('Onomichi OCR followup uses readable names and bounds the current sheet rat
  for(const n of ['地域教育支援活動促進事業','市民音楽芸能祭','けんみん文化祭','囲碁のまちづくり活動の支援'])assert.equal(ps.filter(p=>p.projectName===n).length,1);
  assert.ok(!ps.some(p=>p.projectName==='新人演奏会'||p.projectName==='展覧会企画運営事業'));
  assert.ok(ps.every(p=>p.evaluatedFiscalYear===2014));
+});
+
+test('Onomichi final bounded units distinguish budget requests from current works and retain one sports festival',()=>{
+ const old=reviewHiroshima(source('45399a74fe0fd15a9b0b68f2','34205'))!.projects;
+ const next=reviewHiroshima(source('88c8acb3dd563a208b7035b8','34205'))!.projects;
+ assert.ok(!old.some(p=>p.projectName==='高須小学校給食調理場建設事業'));
+ assert.ok(next.some(p=>p.projectName==='高須小学校給食調理場建設事業'&&p.evaluatedFiscalYear===2011));
+ for(const ps of [old,next]){
+  for(const n of ['俳句コンクール','論文コンクール','スポーツフェスティバル'])assert.equal(ps.filter(p=>p.projectName===n).length,1);
+  assert.ok(ps.every(p=>p.amounts.length===0&&p.ratings.length===0&&p.indicators.length===0));
+ }
+});
+test('Hiroshima city final units do not turn contract periods or planned operation into extra assessed years',()=>{
+ for(const [id,y] of [['d23c00cd3bb2aed6ea16812e',2024],['17b9ab9bcd52af6de179e1e2',2025]] as const){
+  const ps=reviewHiroshima(source(id,'34100'))!.projects;
+  for(const n of ['復旧・復興支援技術職員派遣制度','水道料金等徴収業務','口座振替キャンペーン'])assert.equal(ps.filter(p=>p.projectName===n&&p.evaluatedFiscalYear===y).length,1);
+  assert.ok(ps.every(p=>p.evaluatedFiscalYear===y&&p.amounts.length===0&&p.ratings.length===0));
+ }
+ const ps=reviewHiroshima(source('17b9ab9bcd52af6de179e1e2','34100'))!.projects;
+ const solar=ps.find(p=>p.projectName==='ＰＰＡ（電力購入契約）方式による太陽光発電事業')!;assert.ok(solar);
+ assert.equal(solar.evaluatedFiscalYear,2025);assert.equal(solar.indicators.length,0);
+ assert.ok(solar.evidence.some(e=>e.rawText?.includes('令和８年４月')));
+});
+test('Onomichi OCR exact current names exclude substring adult ceremonies and unreadable exhibition labels',()=>{
+ const ps=reviewHiroshima(source('eeb6f9bb3c2f44b3d04b01fc','34205'))!.projects;
+ for(const n of ['国宝・重要文化財の修理事業','おのみち市民大学講座','おのみち公民館いきいき講座','出前読書活動','おのみち文学の館特別展示の実施','おのみち映画資料館特別展の実施','図書館の相互連携'])assert.equal(ps.filter(p=>p.projectName===n).length,1);
+ assert.ok(!ps.some(p=>p.projectName==='成人式'||p.projectName==='展覧会企画運営事業'));
+ assert.ok(ps.every(p=>p.evaluatedFiscalYear===2014&&p.amounts.length===0&&p.ratings.length===0&&p.indicators.length===0));
 });
