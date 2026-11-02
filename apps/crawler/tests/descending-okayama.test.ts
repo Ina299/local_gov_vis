@@ -1,0 +1,61 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {reviewOkayama} from '../src/evaluations/expansion/descending-okayama';
+import {okayamaRows} from '../src/evaluations/expansion/descending-okayama-map';
+import type {CachedInput} from '../src/evaluations/expansion/shared';
+function source(id:string,code:string):CachedInput {
+ const dir=new URL('../../web/public/evaluation-evidence/',import.meta.url);
+ const meta=JSON.parse(readFileSync(new URL(`municipalities/${code}.json`,dir),'utf8')).sources.find((s:{id:string})=>s.id===id);
+ const d=JSON.parse(readFileSync(new URL(`documents/${id}.json`,dir),'utf8'));let text=d.text,offset=[...text].length;
+ for(const c of meta.text.continuations??[]){const bytes=readFileSync(new URL(c.assetPath,dir));assert.equal(bytes.length,c.assetBytes);assert.equal(createHash('sha256').update(bytes).digest('hex'),c.assetSha256);const part=JSON.parse(bytes.toString());assert.equal(c.startCharacter,offset);assert.equal(part.startCharacter,offset);assert.equal(part.sourceId,id);assert.equal(part.sourceUrl,d.sourceUrl);assert.equal(part.sourceSha256,d.sourceSha256);assert.equal(createHash('sha256').update(part.text).digest('hex'),c.textSha256);text+=part.text;offset+=[...part.text].length;}
+ assert.equal(offset,meta.text.characters);assert.equal(createHash('sha256').update(text).digest('hex'),meta.text.fullTextSha256??meta.text.textSha256);
+ return{municipalityCode:code,municipalityName:'test',sourceId:id,sourceUrl:d.sourceUrl,sourcePageUrl:d.sourceUrl,sourceSha256:d.sourceSha256,fetchedAt:'2026-01-01T00:00:00Z',text,format:!['pdf','html','xlsx'].includes(meta.format)&&d.extractionMethod==='pdftotext_from_verified_bytes'?'pdf':!['pdf','html','xlsx'].includes(meta.format)&&d.extractionMethod==='visible_html_from_verified_bytes'?'html':meta.format,truncated:false};
+}
+
+const inputs=okayamaRows.map(c=>source(c.sourceId,c.municipalityCode));
+const run=(id:string)=>reviewOkayama(inputs.find(i=>i.sourceId===id)!,inputs)!;
+test('Okayama cached rows bind full source identity and every original text position',()=>{
+ for(const c of okayamaRows){const i=inputs.find(i=>i.sourceId===c.sourceId)!;const r=reviewOkayama(i,inputs)!;assert.equal(r.projects.length,c.rows.length);assert.equal(new Set(r.projects.map(p=>p.id)).size,r.projects.length);
+  for(const p of r.projects){assert.equal(p.amounts.length,0);assert.equal(p.ratings.length,0);assert.equal(p.indicators.length,0);assert.ok(p.evaluatedFiscalYear!==null||p.evaluationYear!==null);for(const e of p.evidence){const src=inputs.find(x=>x.sourceUrl===e.sourceUrl)!;const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}
+  for(const bad of [{...i,text:i.text+'x'},{...i,truncated:true},{...i,sourceSha256:'x'},{...i,sourceUrl:i.sourceUrl+'x'}])assert.equal(reviewOkayama(bad,inputs)!.projects.length,0);
+ }
+});
+test('Kibichuo official page-year mapping requires the saved page and exact source identity',()=>{
+ const i=inputs.find(i=>i.sourceId==='5ab79d373f7e5eadc546cf76')!;
+ assert.equal(reviewOkayama(i)!.status,'annual_identity_hold');
+ assert.equal(reviewOkayama(i,inputs.map(p=>p.sourceId==='2dee1c5c9dc70beb676e0463'?{...p,sourceSha256:'wrong'}:p))!.projects.length,0);
+ assert.equal(run(i.sourceId).projects.length,10);
+});
+test('Kibichuo grant years never turn solely following-year rows into current-year actual projects',()=>{
+ const ps=run('56a60f5479d295b9bd58bb92').projects;assert.equal(ps.length,18);assert.ok(ps.every(p=>p.evaluatedFiscalYear===2020));
+ for(const n of ['医療従事者支援事業','Ｗｅｂ会議用機器整備','新型コロナウイルス感染症対策追加給付金事業'])assert.ok(!ps.some(p=>p.projectName===n));
+ assert.equal(ps.filter(p=>p.projectName==='新型コロナウイルス感染症対策小規模事業者光熱費助成事業').length,1);
+ assert.ok(!run('8c5a9e65ca94354de5858f35').projects.some(p=>p.projectName.includes('交通DX')||p.projectName.includes('鳥獣対策DX')));
+});
+test('Kibichuo annual parent identities retain combined rows and exclude administrative or period duplicates',()=>{
+ const ps=run('5f252d5404445be04073a19a').projects;assert.equal(ps.length,5);assert.equal(ps.filter(p=>p.projectName==='給食費免除').length,1);assert.ok(!ps.some(p=>p.projectName.includes('事務費')));
+ const next=run('6e191575af0c690c7aa1b624').projects;assert.equal(next.length,3);assert.ok(next.every(p=>p.evaluatedFiscalYear===2024));assert.equal(next.filter(p=>p.projectName.includes('調整給付')).length,1);
+});
+test('Shoo retains all nineteen missing headings without recreating the sixteen production rows',()=>{
+ const ps=run('24bea74e0d1280a0dc4ad7ec').projects;assert.equal(ps.length,19);assert.ok(ps.every(p=>p.evaluatedFiscalYear===2023));
+ for(const n of ['工業団地オープンファクトリー事業','「“ほどヨイ！田舎”来てみんちゃい♪勝央体験」事業','「住んでみんちゃい！」勝央町定住促進補助事業','若者の自立支援・社会参画支援事業','スポーツによる健康で元気なまちづくり'])assert.ok(ps.some(p=>p.projectName===n));
+ for(const n of ['多様な人材の連携の場づくり','新規就農促進事業','情報化・技術革新への対応'])assert.ok(!ps.some(p=>p.projectName===n));
+ assert.ok(ps.find(p=>p.projectName==='プロモーション専門チームの設置')!.warnings.some(w=>w.includes('未設置')));
+});
+test('Shoo reversed fragments reject shifted, overlapping and out-of-unit source positions',()=>{
+ const c=okayamaRows.find(c=>c.sourceId==='24bea74e0d1280a0dc4ad7ec')!;
+ const row=c.rows.find(r=>'titleSegments' in r&&r.titleSegments?.length===2)!;
+ const segments=(row as {titleSegments:{start:number;raw:string}[]}).titleSegments;const old=segments.map(s=>({...s}));
+ try{segments[0].start++;assert.throws(()=>run(c.sourceId),/segment/);segments.splice(0,segments.length,...old.map(s=>({...s})));segments[1]={...segments[0]};assert.throws(()=>run(c.sourceId),/segment/);segments.splice(0,segments.length,...old.map(s=>({...s})));segments[0].start=0;assert.throws(()=>run(c.sourceId),/segment/);}finally{segments.splice(0,segments.length,...old);}
+});
+test('Yakage multiyear evaluation keeps assessment year and does not invent annual costs or duplicate relocated facilities',()=>{
+ const ps=run('69f1ebd7681f1cb34be02bca').projects;assert.equal(ps.length,15);assert.ok(ps.every(p=>p.evaluationYear===2023&&p.evaluatedFiscalYear===null));assert.equal(ps.filter(p=>p.projectName.includes('観光交流施設')).length,1);assert.ok(!ps.some(p=>p.projectName.includes('旧マルナカ')));
+});
+test('Hayashima excludes cancelled 2020 events and preserves the next-year explicit implementation',()=>{
+ const old=run('0b3e06b025d9bedc6f7abd95').projects;const next=run('39bda65a47717df297fe298f').projects;
+ assert.ok(!old.some(p=>p.projectName==='第３回花ござピンポン世界大会'||p.projectName==='子どもカレッジ体験事業'||p.projectName==='早島シネマ'));
+ assert.ok(next.some(p=>p.projectName==='第３回花ござピンポン世界大会'&&p.evaluatedFiscalYear===2021));assert.ok(next.some(p=>p.projectName==='ハヤシネマ'));
+ for(const id of ['a020e67b98e0efcb9ad080cb','aea08cca76acae0f7ee15cdd'])assert.equal(run(id).projects.length,0);
+});

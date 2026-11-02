@@ -1,0 +1,174 @@
+{
+  "prefecture": "33",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-02T00:14:48.538501+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "33681",
+      "municipalityName": "吉備中央町",
+      "datasetSha256": "3288eccb583df1d7255bd575fe0f1114dc52089ef5ac925371e5a6746de97b3e",
+      "evidenceShardSha256": "c5cb024d5bf002f285369cc8ce4a006b5b765af6040a188b6522c4d4c661d4a4"
+    },
+    {
+      "municipalityCode": "33666",
+      "municipalityName": "美咲町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "51ee2f03979897c57ee24eedbb4ef1542c784d6302af1ce230131a30068af53d"
+    },
+    {
+      "municipalityCode": "33663",
+      "municipalityName": "久米南町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a649f47515e89f9c54db85be4c7d911abc67d356a1b15627c67743f07dbf12a2"
+    },
+    {
+      "municipalityCode": "33643",
+      "municipalityName": "西粟倉村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3fd649dd46232bd249181f0d4bf42ca94c036f16ea98762f11afbfb80cb3b646"
+    },
+    {
+      "municipalityCode": "33623",
+      "municipalityName": "奈義町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "946fbe23d4e4a37a7ab7d37217ed9f4df7713d81f3808c8ca736f519824c9def"
+    },
+    {
+      "municipalityCode": "33622",
+      "municipalityName": "勝央町",
+      "datasetSha256": "c9b0afc43952f925a184acfea73959a514f7b32e8bd2de145c013b39d6c19290",
+      "evidenceShardSha256": "5de62caa845e9d37008ad359a99b233cb7f41585aff8b401dc14e313c8e8634a"
+    },
+    {
+      "municipalityCode": "33606",
+      "municipalityName": "鏡野町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b5978d94650aa419f64e0b3146df755402cd990136d73db3388fc0f792f3b123"
+    },
+    {
+      "municipalityCode": "33586",
+      "municipalityName": "新庄村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "303498da617d17918e3782effba5f8a7252c2a76026818e75744ba8e1e1e15bd"
+    },
+    {
+      "municipalityCode": "33461",
+      "municipalityName": "矢掛町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "8826df713591b26b35a493517cf6ab529a011865ba986f3ed57e38ecdd1dc64b"
+    },
+    {
+      "municipalityCode": "33445",
+      "municipalityName": "里庄町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "94a296b9ece5ed88a3576ab5a443f41559ce2a207074ff3768139acb6c44666a"
+    },
+    {
+      "municipalityCode": "33423",
+      "municipalityName": "早島町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c94a939cabcaa8460b76ef4de1d300d72379af90e98fee5b596bca2018f38dfb"
+    },
+    {
+      "municipalityCode": "33346",
+      "municipalityName": "和気町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c14aedf4ac9ab08e217b8c8f8efd8002e209e5091987ea0aa608dbeb672f5063"
+    },
+    {
+      "municipalityCode": "33216",
+      "municipalityName": "浅口市",
+      "datasetSha256": "e1dbc90292db9b2a6d4942db47e3fe4f4a9b5e5e472ded4bc27ee9ba4d7a2a25",
+      "evidenceShardSha256": "ea6b4069655e49b901ccb6af2a0855d733093449c15310a3e93223d4fe30184b"
+    },
+    {
+      "municipalityCode": "33215",
+      "municipalityName": "美作市",
+      "datasetSha256": "a4cfd7e09399aafd3d0f54a58c255e463884d9c038d617d9ebdb4fb75970931a",
+      "evidenceShardSha256": "c504e6cbbe4d28920ae61fb6ab6e238234dcbf415e1b1582736b6c7a583dfead"
+    },
+    {
+      "municipalityCode": "33214",
+      "municipalityName": "真庭市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f8f9d6a9279b852471e4dde209ba96dbecfbddeed7ca7ee2a1d3d0b66c975bab"
+    },
+    {
+      "municipalityCode": "33213",
+      "municipalityName": "赤磐市",
+      "datasetSha256": "658d45fdc543dfefac69e732cbb4c4d5467c8afff3f0862052f9b7421f9e535e",
+      "evidenceShardSha256": "eec501c39675ed5868ea582595a61479803fe5f87b882c68c9a664c3a89f2e9e"
+    },
+    {
+      "municipalityCode": "33212",
+      "municipalityName": "瀬戸内市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c874ff451de3314b9d74cb011b6c9321daf7bc50af06ce866ff37cae16751150"
+    },
+    {
+      "municipalityCode": "33211",
+      "municipalityName": "備前市",
+      "datasetSha256": "5568d7344baa477a324c3a66646014d38f2eec87eac533800ee6d46987e61351",
+      "evidenceShardSha256": "6fe52924b971c1799f4c4a16c806fd6c72694a3a560d6af2ffe4b10f5e969c24"
+    },
+    {
+      "municipalityCode": "33210",
+      "municipalityName": "新見市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "04ddef926767cdf799a91ba0b5c880c4a50c1f80c5db5ed69e1c586539065e22"
+    },
+    {
+      "municipalityCode": "33209",
+      "municipalityName": "高梁市",
+      "datasetSha256": "9a688fc03174c7d424e051a9c9981807aa57bbdeb7fa4d470c2f977566751765",
+      "evidenceShardSha256": "62ed2f420f52c2ec54019933d009ddaef0bcd878d7f0f60f52ccfc24dc6e69ed"
+    },
+    {
+      "municipalityCode": "33208",
+      "municipalityName": "総社市",
+      "datasetSha256": "363e1849a0a3905affe43a30d206e65dcbbdfae215929ea85e062aacdde16577",
+      "evidenceShardSha256": "b5b1939ab4491a83ebb46eedbe32fc9f9d232d7040e4b8d5bc0055778ea4818b"
+    },
+    {
+      "municipalityCode": "33207",
+      "municipalityName": "井原市",
+      "datasetSha256": "2c88cf2ac0655d83e741dd717619fc6d5b4430d4f47275ae72db07a71347fca0",
+      "evidenceShardSha256": "94702edb7c10f7eae8e58f34355adf36953809e8b012fb1ae1dc7f49d0b57be3"
+    },
+    {
+      "municipalityCode": "33205",
+      "municipalityName": "笠岡市",
+      "datasetSha256": "c70906f2612bd3f7cddfc4589aed59e6b9f5f4171bb629700d09106e809a9341",
+      "evidenceShardSha256": "4365d8b6c4ae0303388fc4dca67882abd7bb02477422301344a19e125534608b"
+    },
+    {
+      "municipalityCode": "33204",
+      "municipalityName": "玉野市",
+      "datasetSha256": "92ec87537a6bff9a71e9774475b96c07cc7ea92d9ec3ad83f2729508583dc9d7",
+      "evidenceShardSha256": "ce190e56b035638655977f3646c6ff604645e0e479d2094291cb9536e8bc37ce"
+    },
+    {
+      "municipalityCode": "33203",
+      "municipalityName": "津山市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "592f306fe544543011107db1366a565fa2c230dd6ee82e8d0e8e88f0f668e483"
+    },
+    {
+      "municipalityCode": "33100",
+      "municipalityName": "岡山市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f3d5a8829ec418ae53f13a8951d26606858d7aab0ab72a1d6daad0c075c389ef"
+    }
+  ],
+  "skipped": [
+    {
+      "municipalityCode": "33202",
+      "municipalityName": "倉敷市",
+      "reason": "Recent master dataset differs from common baseline"
+    }
+  ],
+  "readOnlyMasterObserved": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "currentScope": "33 Okayama,26 municipalities descending33681 to33100; excludes33202 and all53"
+}
