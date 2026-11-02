@@ -20,6 +20,14 @@ import { entries as m10 } from './m10';
 import { entries as m11 } from './m11';
 import { entries as m12 } from './m12';
 import { entries as m13 } from './m13';
+import { entries as m14 } from './m14';
+import { entries as m15 } from './m15';
+import { entries as m16 } from './m16';
+import { entries as m17 } from './m17';
+import { entries as m18 } from './m18';
+import { entries as m19 } from './m19';
+import { entries as m20 } from './m20';
+import { entries as m21 } from './m21';
 
 type Entry = { extract: (input: CachedInput, inputs: CachedInput[]) => ProjectEvaluation[]; scope: string };
 
@@ -45,4 +53,5 @@ export const enrichmentExtractors: { since: string; extractors: Record<string, E
   // 目的・事業内容・成果の補強（空欄だけを埋める。enrichment.ts の narratives）
   { since: '2026-11-01T00:00:00.000Z', extractors: combine([m0, m1, m2, m3, m4, m5]) },
   { since: '2026-11-02T00:00:00.000Z', extractors: combine([m6, m7, m8, m9, m10, m11, m12, m13]) },
+  { since: '2026-11-03T00:00:00.000Z', extractors: combine([m14, m15, m16, m17, m18, m19, m20, m21]) },
 ];
