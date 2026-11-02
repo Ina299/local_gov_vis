@@ -1,0 +1,16 @@
+{
+  "base": "70d19c104764049bf00c89f4a9f24349f5b9a7ed",
+  "old310DeepIdentical": true,
+  "runtimeCandidates": 785,
+  "newCandidates": 475,
+  "initial205Disposition": {
+    "retained": 204,
+    "excludedUnheldLeague": 1
+  },
+  "productionChanges": 0,
+  "municipalRequests": 0,
+  "externalWrites": 0,
+  "masterAtCohortPreflight": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "excludedMunicipalities": 53,
+  "unpublishedUserWork": "unobservable"
+}

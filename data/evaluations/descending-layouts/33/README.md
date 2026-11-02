@@ -1,7 +1,7 @@
 # Okayama cached review — open
 
-310 isolated candidates across7 municipalities. Added150 (Hayashima26, Asakuchi124) since160; all160 prior candidates remain deep-identical. No production records, existing fields, municipal requests or external writes. These annual/evaluation activities are not published records or proof that every named activity was implemented.
+785 isolated candidates across7 municipalities;475 additions since310, all310 prior candidates deep-identical. Of the initial205 unpublished proposals,204 retained andone explicitly unheld futsal league excluded. A suspended2022 aroma course was also excluded before acceptance. No production changes, municipal requests or external writes. Annual/evaluation activity candidates are not published records or evidence that every planned occurrence was delivered.
 
-Crawler550/550, Web256/256, focused10/10, typecheck, lint, national integrity,31060 exact quotes across12778 cumulative candidates, and109-page static export at `/local_gov_vis` passed. Temporary font option restored. Production remains500 municipalities/92038 records.
+Crawler555/555, Web256/256, focused15/15, typecheck, lint, national integrity,32700 exact quotes across13253 cumulative candidates, and109-page static export at `/local_gov_vis` passed. Temporary font option restored. Production remains500 municipalities/92038 records.
 
-The12778 total excludes Okinawa1084, initial93 and all external unaccepted proposals. The193-source Okayama inventory has178 complete bodies,one verified prefix,14 absent bodies. This checkpoint does not exhaust Okayama. Continue Asakuchi then descending codes, preserving53 exclusions and every acquisition/publication gate. User unpublished work is unobservable.
+The13253 total excludes Okinawa1084,initial93,and all external unaccepted proposals.193 Okayama sources:178 complete bodies,one verified prefix,14 absent bodies. This checkpoint does not exhaust Okayama or Asakuchi. Continue source review in descending order, preserving53 master exclusions and all acquisition/publication holds. Unpublished user local work cannot be observed.

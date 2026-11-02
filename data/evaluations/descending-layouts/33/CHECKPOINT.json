@@ -1,7 +1,7 @@
 {
-  "status": "OPEN Okayama cached review;310 validated candidates; further external proposals remain separate",
-  "base": "cc448595cda8a7f2a7d59b72730484fd407a5f13",
-  "candidateRecords": 310,
+  "status": "OPEN Okayama cached review;785 validated isolated candidates; external proposals remain separate",
+  "base": "70d19c104764049bf00c89f4a9f24349f5b9a7ed",
+  "candidateRecords": 785,
   "candidateMunicipalities": 7,
   "municipalities": [
     "吉備中央町",
@@ -12,8 +12,8 @@
     "早島町",
     "浅口市"
   ],
-  "cumulativeCandidates": 12778,
-  "cumulativeQuotes": 31060,
+  "cumulativeCandidates": 13253,
+  "cumulativeQuotes": 32700,
   "cumulativeExcludes": [
     "Okinawa1084",
     "initial93"
@@ -23,25 +23,29 @@
   "municipalRequests": 0,
   "externalWrites": 0,
   "tests": {
-    "focused": "10/10",
-    "crawler": "550/550",
+    "focused": "15/15",
+    "crawler": "555/555",
     "web": "256/256",
     "typecheck": "pass",
     "lint": "pass with existing font warning",
     "national": "500 municipalities/92038 records unchanged",
     "static": "109 pages at/local_gov_vis;temporary font option restored",
-    "quotes": "31060 exact quotes across12778 candidates"
+    "quotes": "32700 exact quotes across13253 candidates"
   },
   "inventory": {
     "sources": 193,
     "completeBodies": 178,
     "verifiedPrefixes": 1,
     "missingBodies": 14,
-    "mappedSourceConfigs": 51
+    "mappedSourceConfigs": 58
   },
-  "remaining": "Asakuchi remains under review. External normalized map has515 total proposals, including205 beyond installed310, with hash/position generator checks only and no runtime acceptance.29 unsupported-layout sources and72 duplicate-status sources retain coverage work;14 missing bodies andone prefix tail remain absent. Hayashima target-year conflicts remain held.",
+  "remaining": "Asakuchi remains under source-specific review. External proposals are not runtime accepted.29 unsupported-layout sources and65 duplicate-status sources retain coverage work;14 missing bodies andone prefix tail remain absent. Hayashima target-year conflicts remain held. Current national collection is not complete.",
   "gates": "53 master exclusions maintained;unpublished user changes unobservable;no acquisition until complete stop ledger/six original manifests;no publication authority",
-  "newInThisIncrement": 150,
-  "old160DeepIdentical": true,
-  "externalUnacceptedProposals": 205
+  "newInThisIncrement": 475,
+  "externalUnacceptedProposals": 261,
+  "old310DeepIdentical": true,
+  "initial205Disposition": {
+    "retained": 204,
+    "excludedUnheldLeague": 1
+  }
 }

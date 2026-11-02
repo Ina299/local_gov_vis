@@ -78,3 +78,44 @@ test('Asakuchi annual delivered-course appendices retain renamed courses and nev
   for(const p of run(id).projects){assert.deepEqual(p.amounts,[]);assert.deepEqual(p.indicators,[]);assert.deepEqual(p.ratings,[]);assert.ok(!p.projectName.includes('受講生'));}
  }
 });
+test('Asakuchi distinguishes cancelled tournaments and ambiguous night observations from separately delivered activities',()=>{
+ const y2018=run('0d1e6358d119224a4d3c7019').projects;
+ assert.ok(!y2018.some(p=>p.projectName==='フットサル大会'));
+ assert.ok(y2018.some(p=>p.projectName==='児童水泳教室'&&p.evaluatedFiscalYear===2018));
+ assert.ok(y2018.find(p=>p.projectName==='市民体育祭')!.warnings.some(w=>w.includes('一地区')&&w.includes('中止')));
+ const y2015=run('719a201c741bbd1ef25c7852').projects;
+ assert.ok(y2015.some(p=>p.projectName==='プラネタリウムコンサート'));
+ assert.ok(!y2015.some(p=>p.projectName==='国立天文台岡山天体物理観測所特別夜間観望会'));
+});
+test('Asakuchi fixed wrapped names retain distinct sites and annual parent scope',()=>{
+ const ps=run('7d9e44daba8a5d9b82f19274').projects;
+ for(const name of ['浅口市マラソン大会','アクアビクス教室（寄島）','アクアビクス教室（鴨方）','年末恒例！年越しそば打ち'])assert.equal(ps.filter(p=>p.projectName===name).length,1);
+ assert.ok(!ps.some(p=>p.projectName==='ＧＷは町家においでよ'||p.projectName==='放課後学習サポート事業'));
+ assert.ok(ps.some(p=>p.projectName==='学力向上Ｎｏ.１プロジェクト事業'));
+});
+test('Asakuchi excludes explicitly unheld league and suspended course without erasing distinct delivered rows',()=>{
+ const y2015=run('719a201c741bbd1ef25c7852').projects;
+ assert.ok(!y2015.some(p=>p.projectName==='フットサルリーグ'));
+ assert.ok(y2015.some(p=>p.projectName==='フットサル大会'));
+ const y2022=run('debea25c6ac7aa481a3d1d33').projects;
+ assert.ok(!y2022.some(p=>p.projectName==='アロマのある暮らし'));
+ assert.ok(y2022.some(p=>p.projectName==='バランスボールエクササイズ'));
+ assert.ok(y2022.find(p=>p.projectName==='バランスボールエクササイズ')!.evidence.some(e=>e.rawText?.includes('休止')));
+});
+test('Asakuchi childcare preserves explicit current year and excludes following-year implementation decision',()=>{
+ const y2015=run('719a201c741bbd1ef25c7852').projects;
+ assert.ok(y2015.some(p=>p.projectName==='一時預かり事業'&&p.evaluatedFiscalYear===2015));
+ assert.ok(!y2015.some(p=>p.projectName==='一時預かり事業（幼稚園型）'||p.projectName==='一時預かり事業(幼稚園型)'));
+ const y2016=run('08d45ae9a61fd68fdc958d17').projects;
+ for(const name of ['一時預かり事業(一般型)','一時預かり事業(幼稚園型)','休日保育事業','病後児保育事業','延長保育事業']){
+  const p=y2016.find(p=>p.projectName===name)!;assert.ok(p);assert.equal(p.evaluatedFiscalYear,2016);assert.deepEqual(p.amounts,[]);assert.deepEqual(p.indicators,[]);assert.deepEqual(p.ratings,[]);
+ }
+});
+test('Asakuchi later annual activity appendices do not recreate policy headings or borrow their scores',()=>{
+ for(const id of ['5a2110e7de245130b1bff72f','19b4da585948ae0e1f6c3ead','cfeb3eb6925796baffbb85d3','debea25c6ac7aa481a3d1d33','e5854c4ddadd9272db7c7166','f12e80a7f4e149a44faca093','90b5410c7f774365a16a895f']){
+  const ps=run(id).projects;assert.ok(ps.length>0);assert.ok(!ps.some(p=>p.projectName==='学校教育の充実'||p.projectName==='生涯学習の充実'));
+  assert.equal(ps.filter(p=>p.projectName==='ゼロから始める暮らしのペン・筆ペン習字').length,1);
+  for(const p of ps){assert.deepEqual(p.amounts,[]);assert.deepEqual(p.ratings,[]);assert.deepEqual(p.indicators,[]);assert.equal(p.evaluationYear,null);}
+ }
+ assert.ok(!run('19b4da585948ae0e1f6c3ead').projects.some(p=>p.projectName==='総合文化祭'||p.projectName==='金光キッズフェスティバル'));
+});
