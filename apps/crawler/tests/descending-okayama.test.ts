@@ -59,3 +59,22 @@ test('Hayashima excludes cancelled 2020 events and preserves the next-year expli
  assert.ok(next.some(p=>p.projectName==='第３回花ござピンポン世界大会'&&p.evaluatedFiscalYear===2021));assert.ok(next.some(p=>p.projectName==='ハヤシネマ'));
  for(const id of ['a020e67b98e0efcb9ad080cb','aea08cca76acae0f7ee15cdd'])assert.equal(run(id).projects.length,0);
 });
+test('Hayashima legacy activities keep annual identities without parent or alias duplication',()=>{
+ const a=run('da3562c40989d276df07b498').projects;
+ assert.equal(a.filter(p=>p.projectName==='放課後はやしま塾、土曜はやしま塾'&&p.evaluatedFiscalYear===2015).length,1);
+ assert.ok(!a.some(p=>p.projectName==='放課後はやしま塾'||p.projectName==='土曜はやしま塾'));
+ const b=run('78d4b7d29c59ecfc97f948fd').projects;
+ assert.ok(b.some(p=>p.projectName==='ボランティアパスポートの活用'&&p.evaluatedFiscalYear===2016));
+ assert.ok(!b.some(p=>p.projectName==='花ござ手織り教室'||p.projectName==='夏休みワクワク子ども教室'));
+ for(const id of ['4c85db758590397199ca44ae','96bd7771617749a8f18c01ea'])assert.equal(run(id).projects.length,0);
+});
+test('Asakuchi annual delivered-course appendices retain renamed courses and never align interleaved numbers by guess',()=>{
+ const old=run('7d9e44daba8a5d9b82f19274').projects;
+ assert.equal(old.filter(p=>p.projectName==='総合文化祭'&&p.evaluatedFiscalYear===2014).length,1);
+ const latest=run('0d1e6358d119224a4d3c7019').projects;
+ assert.ok(latest.some(p=>p.projectName==='やさしい実用書道'&&p.evaluatedFiscalYear===2018));
+ assert.ok(!latest.some(p=>p.projectName==='やさしい書道'));
+ for(const id of ['7d9e44daba8a5d9b82f19274','719a201c741bbd1ef25c7852','08d45ae9a61fd68fdc958d17','3715179422a3e72f71110f3f','0d1e6358d119224a4d3c7019']){
+  for(const p of run(id).projects){assert.deepEqual(p.amounts,[]);assert.deepEqual(p.indicators,[]);assert.deepEqual(p.ratings,[]);assert.ok(!p.projectName.includes('受講生'));}
+ }
+});

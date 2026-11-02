@@ -1,18 +1,19 @@
 {
-  "status": "OPEN Okayama cached review;160 validated candidates, additional proposals remain separate",
-  "base": "19614a88390fb82f889010a539228ce0bd7cec9a",
-  "candidateRecords": 160,
-  "candidateMunicipalities": 6,
+  "status": "OPEN Okayama cached review;310 validated candidates; further external proposals remain separate",
+  "base": "cc448595cda8a7f2a7d59b72730484fd407a5f13",
+  "candidateRecords": 310,
+  "candidateMunicipalities": 7,
   "municipalities": [
     "吉備中央町",
     "久米南町",
     "西粟倉村",
     "勝央町",
     "矢掛町",
-    "早島町"
+    "早島町",
+    "浅口市"
   ],
-  "cumulativeCandidates": 12628,
-  "cumulativeQuotes": 30610,
+  "cumulativeCandidates": 12778,
+  "cumulativeQuotes": 31060,
   "cumulativeExcludes": [
     "Okinawa1084",
     "initial93"
@@ -22,22 +23,25 @@
   "municipalRequests": 0,
   "externalWrites": 0,
   "tests": {
-    "focused": "8/8",
-    "crawler": "548/548",
+    "focused": "10/10",
+    "crawler": "550/550",
     "web": "256/256",
     "typecheck": "pass",
     "lint": "pass with existing font warning",
     "national": "500 municipalities/92038 records unchanged",
     "static": "109 pages at/local_gov_vis;temporary font option restored",
-    "quotes": "30610 exact quotes across12628 candidates"
+    "quotes": "31060 exact quotes across12778 candidates"
   },
   "inventory": {
     "sources": 193,
     "completeBodies": 178,
     "verifiedPrefixes": 1,
     "missingBodies": 14,
-    "mappedSourceConfigs": 44
+    "mappedSourceConfigs": 51
   },
-  "remaining": "Additional early Hayashima proposals are external, unaccepted. Complete the remaining review before advancing to lower municipality codes.36 unsupported layouts and72 duplicate-status sources still require source-specific coverage review; fourteen bodies and one tail are absent. Conflicting Hayashima report years remain evidence holds.",
-  "gates": "53 master exclusions maintained;unpublished user changes unobservable;no acquisition until complete stop ledger/six original manifests;no publication authority"
+  "remaining": "Asakuchi remains under review. External normalized map has515 total proposals, including205 beyond installed310, with hash/position generator checks only and no runtime acceptance.29 unsupported-layout sources and72 duplicate-status sources retain coverage work;14 missing bodies andone prefix tail remain absent. Hayashima target-year conflicts remain held.",
+  "gates": "53 master exclusions maintained;unpublished user changes unobservable;no acquisition until complete stop ledger/six original manifests;no publication authority",
+  "newInThisIncrement": 150,
+  "old160DeepIdentical": true,
+  "externalUnacceptedProposals": 205
 }

@@ -1,9 +1,7 @@
 # Okayama cached review — open
 
-160 isolated candidates across6 municipalities, fully validated. These are annual/evaluation activities, not published records or proof every activity was implemented. No amounts, ratings or numerical indicators were inferred. Production remains500 municipalities/92038 records.
+310 isolated candidates across7 municipalities. Added150 (Hayashima26, Asakuchi124) since160; all160 prior candidates remain deep-identical. No production records, existing fields, municipal requests or external writes. These annual/evaluation activities are not published records or proof that every named activity was implemented.
 
-The cumulative12628 candidates cover Kagoshima46 through current Okayama33, excluding Okinawa1084 and initial93. Additional external proposals are not included.
+Crawler550/550, Web256/256, focused10/10, typecheck, lint, national integrity,31060 exact quotes across12778 cumulative candidates, and109-page static export at `/local_gov_vis` passed. Temporary font option restored. Production remains500 municipalities/92038 records.
 
-Crawler548/548, Web256/256, focused8/8, typecheck, lint, national validation,30610 exact quotes and109-page static export at `/local_gov_vis` passed. Font option restored.
-
-The193-source inventory includes178 complete bodies,one verified prefix and14 absent bodies. This is a checkpoint, not exhaustion. Continue Hayashima then lower codes; retain year conflicts, parent/alias deduplication and all acquisition/publication holds. Unpublished user work is unobservable.
+The12778 total excludes Okinawa1084, initial93 and all external unaccepted proposals. The193-source Okayama inventory has178 complete bodies,one verified prefix,14 absent bodies. This checkpoint does not exhaust Okayama. Continue Asakuchi then descending codes, preserving53 exclusions and every acquisition/publication gate. User unpublished work is unobservable.
