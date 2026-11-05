@@ -23,12 +23,12 @@ test('Shimane proposals require full pinned bodies and literal evidence; no inve
  for(const c of configs){const i=inputs.find(i=>i.sourceId===c.sourceId)!;const r=run(c.sourceId);assert.equal(r.projects.length,c.rows.length);count+=r.projects.length;
  for(const p of r.projects){assert.equal(p.amounts.length,0);assert.equal(p.ratings.length,0);assert.equal(p.indicators.length,0);for(const e of p.evidence){const src=inputs.find(x=>x.sourceUrl===e.sourceUrl)!;const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}
  for(const bad of [{...i,text:i.text+'x'},{...i,truncated:true},{...i,sourceSha256:'x'},{...i,sourceUrl:i.sourceUrl+'x'}])assert.equal(reviewShimane(bad,inputs)!.projects.length,0);
- }assert.equal(count,334);
+ }assert.equal(count,352);
 });
 test('Mixed-year Iinan book uses verified official evaluation page without assuming a fiscal year',()=>{
  const id='f3f9f900ab3b50634631214a';const i=inputs.find(x=>x.sourceId===id)!;
- assert.equal(reviewShimane(i)!.status,'annual_identity_hold');assert.equal(run(id).projects.length,17);
- assert.ok(run(id).projects.every(p=>p.evaluatedFiscalYear===null&&p.evaluationYear===2026));
+ assert.equal(reviewShimane(i)!.status,'annual_identity_hold');assert.equal(run(id).projects.length,25);
+ assert.ok(run(id).projects.every(p=>p.evaluationYear===2026));assert.equal(run(id).projects.filter(p=>p.evaluatedFiscalYear===2025).length,3);assert.equal(run(id).projects.filter(p=>p.evaluatedFiscalYear===null).length,22);
  const bad=inputs.map(p=>p.sourceId==='ceb7a8e3630c09fcffc3f4a1'?{...p,sourceSha256:'wrong'}:p);assert.equal(reviewShimane(i,bad)!.projects.length,0);
 });
 test('Misato excludes policy slots and abolished activities; Gotsu retains complete continuation',()=>{
@@ -40,4 +40,11 @@ test('Misato excludes policy slots and abolished activities; Gotsu retains compl
 test('Izumo missing vertical header and Matsue nonstandard headers retain explicit fiscal years',()=>{
  const iz=run('fe9056720cb4cd8e1762108b').projects;assert.equal(iz.length,1);assert.ok(iz[0].projectName.startsWith('不登校対策事業'));assert.equal(iz[0].evaluatedFiscalYear,2022);
  assert.equal(run('6ab5323cc6d3469b3d8ea012').projects.length,2);assert.equal(run('d24a0538bf9608d515cbf1b0').projects.length,33);
+});
+
+test('Hamada four reversed titles preserve explicit evaluation year, without alias duplicate or target-year inference',()=>{
+ const ps=run('c8a2d61f5dce19995e435429').projects;assert.deepEqual(ps.map(p=>p.projectName),['地域における救急救命体制整備事業','ケーブルテレビ（ひゃこるネットみすみ）管理運営業務','休日夜間申告相談業務','生活保護各種通知業務']);assert.ok(ps.every(p=>p.evaluationYear===2018&&p.evaluatedFiscalYear===null));
+});
+test('Reversed title segments reject shifted source positions without guessing',()=>{
+ const c=shimaneRows.find(c=>c.sourceId==='c8a2d61f5dce19995e435429')!;const row=c.rows[0] as {titleSegments:{start:number;raw:string}[]};const old=row.titleSegments[0].start;try{row.titleSegments[0].start++;assert.throws(()=>run(c.sourceId),/segment/);}finally{row.titleSegments[0].start=old;}
 });

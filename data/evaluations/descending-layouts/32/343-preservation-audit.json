@@ -1,0 +1,29 @@
+{
+  "priorHead": "4e3acc54acb549afb3ad476ff3e4585d2c35ce5a",
+  "previousRecords": 327,
+  "newRecords": 16,
+  "preservedDeepEqual": true,
+  "newRecordsByMunicipality": {
+    "飯南町": 12,
+    "浜田市": 4
+  },
+  "existingFieldsChanged": 0,
+  "productionRecordsAdded": 0,
+  "additionalIdentityHolds": [
+    {
+      "sourceId": "57913c23c9847c34459199c7",
+      "candidateId": "cached-32386-5e4b01b9fffd18559e9905d1",
+      "existingId": "cached-32386-f40a9b6300ac99daf985850d",
+      "municipalityCode": "32386",
+      "projectName": "ヘルスアップ事業所認定事業"
+    },
+    {
+      "sourceId": "57913c23c9847c34459199c7",
+      "candidateId": "cached-32386-df27ba4fd1ce6c0cb2db488b",
+      "existingId": "cached-32386-4f762e6c63d5fa13e40bd4cd",
+      "municipalityCode": "32386",
+      "projectName": "「相談ネット」事業"
+    }
+  ],
+  "holdReason": "Same literal name collides with a candidate whose evaluatedFiscalYear is null. Fiscal-year equality is not proven. Conservative duplicate screen keeps both source configurations as evidence and adds no second record; no existing year overwritten."
+}
