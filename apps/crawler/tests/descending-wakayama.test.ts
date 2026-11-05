@@ -23,7 +23,7 @@ test('Wakayama proposals require full pinned bodies and literal evidence; no inv
  for(const c of configs){const i=inputs.find(i=>i.sourceId===c.sourceId)!;const r=run(c.sourceId);assert.equal(r.projects.length,c.rows.length);count+=r.projects.length;
  for(const p of r.projects){assert.equal(p.amounts.length,0);assert.equal(p.ratings.length,0);assert.equal(p.indicators.length,0);for(const e of p.evidence){const src=inputs.find(x=>x.sourceUrl===e.sourceUrl)!;const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}
  for(const bad of [{...i,text:i.text+'x'},{...i,truncated:true},{...i,sourceSha256:'x'},{...i,sourceUrl:i.sourceUrl+'x'}])assert.equal(reviewWakayama(bad,inputs)!.projects.length,0);
- }assert.equal(count,676);
+ }assert.equal(count,1963);
 });
 
 test('Taiji keeps multiyear fiscal period unknown and uses explicit post-evaluation date',()=>{const ps=run('e469190c5fba262ce6d889bd').projects;assert.equal(ps.length,1);assert.equal(ps[0].evaluatedFiscalYear,null);assert.equal(ps[0].evaluationYear,2023);assert.equal(ps[0].projectName,'都市防災総合推進事業（森浦地区）');});
@@ -42,4 +42,23 @@ test('Shirahama row dates override cover year and administrative funding is not 
  const ps=run('eeea4a05cdb050792ff40c05').projects;assert.equal(ps.length,10);assert.equal(ps.filter(p=>p.evaluatedFiscalYear===2022).length,2);
  const later=run('0a4b8efd48ed540838513c8e').projects;assert.equal(later.length,1);assert.equal(later[0].evaluatedFiscalYear,2025);assert.equal(later[0].projectName,'物価高騰対策観光誘客等事業');
  assert.equal(run('f62820c72342571a37c83bb4').projects.length,0);
+});
+
+test('Kudoyama repeated title prefixes bind distinct sheets and carryover funding never replaces explicit dates',()=>{
+ const ps=run('506df98d0f1bb6a9d5329fc9').projects;assert.equal(ps.length,54);assert.equal(new Set(ps.map(p=>p.id)).size,54);
+ assert.ok(ps.some(p=>p.projectName==='遠隔・オンライン学習の環境整備事業'));
+ assert.ok(ps.some(p=>p.projectName==='遠隔・オンライン学習の環境整備、GIGAスクール構想への支援事業'));
+ assert.equal(ps.find(p=>p.projectName==='地域防災計画改訂業務')!.evaluatedFiscalYear,2021);
+ assert.ok(!ps.some(p=>p.projectName==='防災備蓄倉庫建設事業'));
+});
+test('Kimino uses46 complete named assessments without inventing the aggregate47th; Koya retains nonexecution and subsidy context',()=>{
+ const k=run('6dd3e323e7a70b5d69dac11d');assert.equal(k.projects.length,46);assert.ok(k.projects.every(p=>p.evaluatedFiscalYear===2018&&p.evaluationYear===2019));assert.ok(k.units.some(u=>u.status==='identity_or_period_hold'));
+ const ps=run('1dbf0b3a93e3a810ec2b4758').projects;assert.equal(ps.length,10);assert.ok(ps.find(p=>p.projectName==='歴史的まちなみ整備事業')!.evidence.some(e=>e.rawText?.includes('事業主体：（宗）金剛峯寺')));
+});
+test('Gobo rejects unresolved anniversary-year conflicts and resolves displaced headers only at exact saved positions',()=>{
+ const ps=run('60d72a16f7ea392161605e17').projects;assert.equal(ps.length,120);assert.ok(!ps.some(p=>p.projectName==='NHK「のど自慢」'));assert.ok(ps.some(p=>p.projectName.includes('【繰越】住民税均等割のみ')));
+ const old=run('c8fb9e713808ff1660f50c2c').projects;assert.equal(old.length,131);assert.ok(old.some(p=>p.projectName==='一時保育事業'));assert.ok(old.every(p=>!['年','前','決算額','事業内容'].includes(p.projectName)));
+});
+test('Arida continuation-backed annual activities exclude internal financing and same-name components',()=>{
+ for(const [id,year,count]of [['39c803206cde4f1dde77d09c',2025,229],['66e4e0b41e364b58ca0f3bd2',2021,236]]as const){const i=inputs.find(x=>x.sourceId===id)!;assert.ok(i.text.length>120000);const ps=run(id).projects;assert.equal(ps.length,count);assert.equal(new Set(ps.map(p=>p.projectName)).size,count);assert.ok(ps.every(p=>p.evaluatedFiscalYear===year&&!/積立|繰出|償還|利子支払|予備費|事業人件費/.test(p.projectName)));assert.equal(reviewWakayama({...i,text:i.text.slice(0,120000)},inputs)!.projects.length,0);}
 });

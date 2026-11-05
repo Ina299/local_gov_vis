@@ -1,20 +1,31 @@
 {
-  "candidateRecords": 676,
-  "candidateMunicipalities": 6,
+  "candidateRecords": 1963,
+  "candidateMunicipalities": 17,
   "perMunicipality": {
     "太地町": 1,
     "那智勝浦町": 14,
     "すさみ町": 65,
     "上富田町": 25,
     "白浜町": 64,
-    "みなべ町": 507
+    "日高川町": 1,
+    "みなべ町": 507,
+    "日高町": 1,
+    "有田川町": 4,
+    "広川町": 4,
+    "湯浅町": 5,
+    "高野町": 10,
+    "九度山町": 99,
+    "紀美野町": 46,
+    "岩出市": 4,
+    "御坊市": 648,
+    "有田市": 465
   },
   "sourcesInventoried": 96,
   "completeBodies": 87,
   "continuationParts": 2,
   "missingBodies": 9,
-  "validatedCumulativeCandidates": 15925,
-  "validatedEvidence": 41706,
+  "validatedCumulativeCandidates": 17212,
+  "validatedEvidence": 45724,
   "excludedFromCumulative": [
     "Okinawa1084",
     "initial93"
@@ -32,14 +43,14 @@
   ],
   "phaseComplete": false,
   "checks": {
-    "focused": "7/7",
-    "crawler": "595/595",
+    "focused": "11/11",
+    "crawler": "599/599",
     "web": "256/256",
     "typecheck": "pass",
     "lint": "pass with existing font warning",
     "national": "pass; unchanged local baseline",
     "static": "109 pages /local_gov_vis",
-    "quotes": "41706 across15925 candidates"
+    "quotes": "45724 across17212 candidates"
   },
-  "remaining": "Independent external preview1963 includes these676; additional1287 remain unvalidated/unpublished. Continue cached source and unit review; no nationwide or prefecture completion claim."
+  "remaining": "96-source inventory reviewed with143 source-specific held units. Yura sameURL cached underHidaka requires explicit canonical-alias provenance support; this is actionable offline work, not absent global text or network denial. Eight other sources lack saved bodies. Nara144 proposals (128 after16 existing-identity duplicates) remain external, unvalidated/unpublished. No nationwide completion claim."
 }
