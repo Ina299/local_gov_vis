@@ -182,3 +182,14 @@ test('Niimi mixed fiscal periods and parent-child overlap remain excluded',()=>{
 test('Bizen response-year identities do not inherit policy target years or scores',()=>{
  const ps=run('d52a90ef5a57869f1622c3f4').projects;assert.equal(ps.length,3);assert.ok(ps.every(p=>p.evaluationYear===2025&&p.evaluatedFiscalYear===null&&p.amounts.length===0&&p.ratings.length===0));
 });
+
+test('Tamano annual assessment preserves 191 distinct titles without inventing a target fiscal year',()=>{
+ const ps=run('11f320694909863f1826ac70').projects;assert.equal(ps.length,191);assert.ok(ps.every(p=>p.evaluationYear===2025&&p.evaluatedFiscalYear===null&&p.amounts.length===0&&p.ratings.length===0));assert.equal(new Set(ps.map(p=>p.projectName)).size,191);assert.ok(ps.every(p=>/[ぁ-んァ-ヶ一-龥]/.test(p.projectName)&&!p.projectName.includes('再掲')));for(const name of ['子育てファミリーサポートセンター運営事業','教育サポートセンター管理運営事業','玉野市交通安全対策協議会運営補助事業'])assert.ok(ps.some(p=>p.projectName===name));
+});
+test('Okayama city separates FY2022/2023 from the following publication year and retains literal names',()=>{
+ for(const [id,fy,count]of [['ea17b592b25cd719b14ee0f7',2023,80],['737351a0367b10c6ea2f4e2e',2022,78]]as const){const ps=run(id).projects;assert.equal(ps.length,count);assert.ok(ps.every(p=>p.evaluatedFiscalYear===fy&&p.evaluationYear===fy+1&&p.amounts.length+p.ratings.length+p.indicators.length===0));assert.ok(ps.every(p=>p.evidence.some(e=>e.rawText?.includes('岡山市教育委員会')&&e.rawText.includes('８'))));assert.ok(!ps.some(p=>p.projectName==='公民館主催講座・クラブ講座'));assert.ok(ps.some(p=>p.projectName==='公民館運営事業(公民館基本方針の推進)'));}
+ assert.ok(run('ea17b592b25cd719b14ee0f7').projects.some(p=>p.projectName==='わくわく子どもまつり'));assert.ok(!run('737351a0367b10c6ea2f4e2e').projects.some(p=>p.projectName==='わくわく子どもまつり'));
+});
+test('Garbled text and comprehensive policy plans do not generate annual business records',()=>{
+ assert.equal(run('4b988a34ec754dc0afa41e3d').status,'text_encoding_evidence_hold');for(const id of ['4b988a34ec754dc0afa41e3d','0aeb0787924e01a52865a8e8','92f8229058b2c065a2d5ad62','0a132bc4d7128f6b51a7f6ee','3b27ca29d768604ecf55f705','efe97430ebb943c0e88de2b3'])assert.equal(run(id).projects.length,0);
+});

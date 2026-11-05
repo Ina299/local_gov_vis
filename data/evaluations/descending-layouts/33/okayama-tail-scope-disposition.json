@@ -1,0 +1,52 @@
+{
+  "sources": [
+    {
+      "sourceId": "0aeb0787924e01a52865a8e8",
+      "municipalityCode": "33204",
+      "fullTextSha256": "6815210a936d2216aa6ef074565d40be1b4ad2545fddb08196dd71b87810d41a",
+      "status": "policy_framework",
+      "reason": "2019-2026総合計画の将来目標・今後の取組。本文に文字化けが広範囲にあり個別実績の根拠にはしない。"
+    },
+    {
+      "sourceId": "92f8229058b2c065a2d5ad62",
+      "municipalityCode": "33204",
+      "fullTextSha256": "24861a0c9c0a2b18eed1ba871eecf60f22ca973a5b0c00886609a2309e31b62c",
+      "status": "policy_framework",
+      "reason": "2023総合計画の将来方針・目標値。年度別事務事業評価結果ではない。"
+    },
+    {
+      "sourceId": "4b988a34ec754dc0afa41e3d",
+      "municipalityCode": "33100",
+      "fullTextSha256": "1174f9bc9fdf42a79b665039d00afc4519be03f5473c240f69f6522f8bf94e07",
+      "status": "text_encoding_evidence_hold",
+      "reason": "Saved pdftotext body has pervasive non-Japanese glyph mapping. Five executor-local copies have identical text; no listed continuation or local PDF/bin original was found. Names/years cannot be restored from another year by guess. Need hash-matching original PDF/font mapping or independently verified correctly extracted text. No refetch."
+    }
+  ],
+  "garbledCopies": [
+    {
+      "path": "/workspace/local_gov_vis/apps/web/public/evaluation-evidence/documents/4b988a34ec754dc0afa41e3d.json",
+      "textSha256": "1174f9bc9fdf42a79b665039d00afc4519be03f5473c240f69f6522f8bf94e07",
+      "characters": 42489
+    },
+    {
+      "path": "/workspace/local-gov-offline-integration/apps/web/public/evaluation-evidence/documents/4b988a34ec754dc0afa41e3d.json",
+      "textSha256": "1174f9bc9fdf42a79b665039d00afc4519be03f5473c240f69f6522f8bf94e07",
+      "characters": 42489
+    },
+    {
+      "path": "/workspace/local-gov-descending/apps/web/public/evaluation-evidence/documents/4b988a34ec754dc0afa41e3d.json",
+      "textSha256": "1174f9bc9fdf42a79b665039d00afc4519be03f5473c240f69f6522f8bf94e07",
+      "characters": 42489
+    },
+    {
+      "path": "/workspace/pr4-offline-review/apps/web/public/evaluation-evidence/documents/4b988a34ec754dc0afa41e3d.json",
+      "textSha256": "1174f9bc9fdf42a79b665039d00afc4519be03f5473c240f69f6522f8bf94e07",
+      "characters": 42489
+    },
+    {
+      "path": "/workspace/local-gov-okinawa/apps/web/public/evaluation-evidence/documents/4b988a34ec754dc0afa41e3d.json",
+      "textSha256": "1174f9bc9fdf42a79b665039d00afc4519be03f5473c240f69f6522f8bf94e07",
+      "characters": 42489
+    }
+  ]
+}
