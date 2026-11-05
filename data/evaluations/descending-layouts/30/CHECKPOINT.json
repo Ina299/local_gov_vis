@@ -1,0 +1,43 @@
+{
+  "candidateRecords": 95,
+  "candidateMunicipalities": 4,
+  "perMunicipality": {
+    "太地町": 1,
+    "那智勝浦町": 14,
+    "上富田町": 25,
+    "みなべ町": 55
+  },
+  "sourcesInventoried": 96,
+  "completeBodies": 87,
+  "continuationParts": 2,
+  "missingBodies": 9,
+  "validatedCumulativeCandidates": 15344,
+  "validatedEvidence": 39889,
+  "excludedFromCumulative": [
+    "Okinawa1084",
+    "initial93"
+  ],
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0,
+  "prePushMaster": "b3f8012827bc5ed61637a616f11882e9f3ea5145",
+  "skippedMunicipalities": [
+    "30428 串本町",
+    "30427 北山村",
+    "30424 古座川町",
+    "30390 印南町",
+    "30206 田辺市"
+  ],
+  "phaseComplete": false,
+  "checks": {
+    "focused": "5/5",
+    "crawler": "593/593",
+    "web": "256/256",
+    "typecheck": "pass",
+    "lint": "pass with existing font warning",
+    "national": "pass; unchanged local branch baseline",
+    "static": "109 pages /local_gov_vis",
+    "quotes": "39889 across15344 candidates"
+  },
+  "remaining": "Continue cached annual/grant layouts.655-candidate external preview includes these95; extra560 are not full-test validated or published.20 additional grant proposals require page-year-context runtime support. Missing bodies remain held; no acquisition."
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "sourceId": "30948c054dea18ca8a9e3908",
+    "name": "在宅医療・介護連携推進事業",
+    "fiscalYear": 2025,
+    "contextStart": 0,
+    "contextEnd": 2362,
+    "reason": "Named medical/care cooperation programme and explicit annual meetings in same complete page. Do not assign the adjacent policy assessment symbol.",
+    "status": "semantic_review_passed_pending_driver_dedup_and_tests"
+  },
+  {
+    "sourceId": "30948c054dea18ca8a9e3908",
+    "name": "ウォーキング事業",
+    "fiscalYear": 2025,
+    "contextStart": 4743,
+    "contextEnd": 5841,
+    "reason": "Explicit annual participation and service results, separate from future targets. FY2024 C-type is a demonstration; FY2025 is standalone delivery. No KPI or amount extracted.",
+    "status": "semantic_review_passed_pending_driver_dedup_and_tests"
+  },
+  {
+    "sourceId": "30948c054dea18ca8a9e3908",
+    "name": "総合事業の短期集中予防サービス（C型）",
+    "fiscalYear": 2025,
+    "contextStart": 4743,
+    "contextEnd": 5841,
+    "reason": "Explicit annual participation and service results, separate from future targets. FY2024 C-type is a demonstration; FY2025 is standalone delivery. No KPI or amount extracted.",
+    "status": "semantic_review_passed_pending_driver_dedup_and_tests"
+  },
+  {
+    "sourceId": "30948c054dea18ca8a9e3908",
+    "name": "通いの場活動支援補助",
+    "fiscalYear": 2025,
+    "contextStart": 4743,
+    "contextEnd": 5841,
+    "reason": "Explicit annual participation and service results, separate from future targets. FY2024 C-type is a demonstration; FY2025 is standalone delivery. No KPI or amount extracted.",
+    "status": "semantic_review_passed_pending_driver_dedup_and_tests"
+  },
+  {
+    "sourceId": "f95588cb720ca12c9c4e976b",
+    "name": "在宅医療・介護連携推進事業",
+    "fiscalYear": 2024,
+    "contextStart": 0,
+    "contextEnd": 2377,
+    "reason": "Named medical/care cooperation programme and explicit annual meetings in same complete page. Do not assign the adjacent policy assessment symbol.",
+    "status": "semantic_review_passed_pending_driver_dedup_and_tests"
+  },
+  {
+    "sourceId": "f95588cb720ca12c9c4e976b",
+    "name": "ウォーキング事業",
+    "fiscalYear": 2024,
+    "contextStart": 4776,
+    "contextEnd": 5818,
+    "reason": "Explicit annual participation and service results, separate from future targets. FY2024 C-type is a demonstration; FY2025 is standalone delivery. No KPI or amount extracted.",
+    "status": "semantic_review_passed_pending_driver_dedup_and_tests"
+  },
+  {
+    "sourceId": "f95588cb720ca12c9c4e976b",
+    "name": "総合事業の短期集中予防サービス（C型）",
+    "fiscalYear": 2024,
+    "contextStart": 4776,
+    "contextEnd": 5818,
+    "reason": "Explicit annual participation and service results, separate from future targets. FY2024 C-type is a demonstration; FY2025 is standalone delivery. No KPI or amount extracted.",
+    "status": "semantic_review_passed_pending_driver_dedup_and_tests"
+  },
+  {
+    "sourceId": "f95588cb720ca12c9c4e976b",
+    "name": "通いの場活動支援補助",
+    "fiscalYear": 2024,
+    "contextStart": 4776,
+    "contextEnd": 5818,
+    "reason": "Explicit annual participation and service results, separate from future targets. FY2024 C-type is a demonstration; FY2025 is standalone delivery. No KPI or amount extracted.",
+    "status": "semantic_review_passed_pending_driver_dedup_and_tests"
+  },
+  {
+    "sourceId": "12096605755286201be21f4c",
+    "name": "紙おむつ給付費支給制度",
+    "fiscalYear": 2025,
+    "contextStart": 4821,
+    "contextEnd": 5055,
+    "reason": "Named programmes in annual results paragraph; preceding comparison-year figures are not copied.",
+    "status": "semantic_review_passed_pending_driver_dedup_and_tests"
+  },
+  {
+    "sourceId": "12096605755286201be21f4c",
+    "name": "配食サービス事業",
+    "fiscalYear": 2025,
+    "contextStart": 4821,
+    "contextEnd": 5055,
+    "reason": "Named programmes in annual results paragraph; preceding comparison-year figures are not copied.",
+    "status": "semantic_review_passed_pending_driver_dedup_and_tests"
+  },
+  {
+    "sourceId": "12096605755286201be21f4c",
+    "name": "成年後見制度利用支援事業",
+    "fiscalYear": 2025,
+    "contextStart": 4821,
+    "contextEnd": 5055,
+    "reason": "Named programmes in annual results paragraph; preceding comparison-year figures are not copied.",
+    "status": "semantic_review_passed_pending_driver_dedup_and_tests"
+  },
+  {
+    "sourceId": "e9f9d402b426d12ba17ec1cf",
+    "name": "紙おむつ給付費支給制度",
+    "fiscalYear": 2024,
+    "contextStart": 5008,
+    "contextEnd": 5242,
+    "reason": "Named programmes in annual results paragraph; preceding comparison-year figures are not copied.",
+    "status": "semantic_review_passed_pending_driver_dedup_and_tests"
+  },
+  {
+    "sourceId": "e9f9d402b426d12ba17ec1cf",
+    "name": "配食サービス事業",
+    "fiscalYear": 2024,
+    "contextStart": 5008,
+    "contextEnd": 5242,
+    "reason": "Named programmes in annual results paragraph; preceding comparison-year figures are not copied.",
+    "status": "semantic_review_passed_pending_driver_dedup_and_tests"
+  },
+  {
+    "sourceId": "e9f9d402b426d12ba17ec1cf",
+    "name": "成年後見制度利用支援事業",
+    "fiscalYear": 2024,
+    "contextStart": 5008,
+    "contextEnd": 5242,
+    "reason": "Named programmes in annual results paragraph; preceding comparison-year figures are not copied.",
+    "status": "semantic_review_passed_pending_driver_dedup_and_tests"
+  }
+]
