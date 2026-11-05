@@ -47,5 +47,7 @@
   },
   "scope": "Individual named rows only; not entire report financial-field coverage",
   "remaining": "Fourteen Iinan narrative proposals and four Hamada reversed-header proposals separately saved, unaccepted; one existing Hamada name alias held without overwrite.",
-  "validationCaveat": "Initial web typecheck overlapped static generation and failed TS6053 missing .next/types; rerun after successful build passed without source or assertion changes. Original failure log retained."
+  "validationCaveat": "Initial web typecheck overlapped static generation and failed TS6053 missing .next/types; rerun after successful build passed without source or assertion changes. Original failure log retained.",
+  "prePushMaster": "b3f8012827bc5ed61637a616f11882e9f3ea5145",
+  "prePushReconciliation": "All17 selected municipality dataset/evidence hashes remain unchanged against new master; original reference hashes retained."
 }
