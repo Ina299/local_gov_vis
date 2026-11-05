@@ -1,22 +1,26 @@
 {
-  "candidateRecords": 422,
-  "candidateMunicipalities": 6,
-  "rawProposals": 438,
-  "existingDuplicateProposals": 16,
+  "candidateRecords": 576,
+  "candidateMunicipalities": 10,
+  "rawProposals": 626,
+  "existingDuplicateProposals": 50,
   "perMunicipality": {
     "黒滝村": 50,
+    "下市町": 1,
     "上牧町": 18,
+    "明日香村": 1,
     "御杖村": 24,
+    "田原本町": 59,
+    "川西町": 27,
     "御所市": 238,
-    "橿原市": 36,
+    "橿原市": 102,
     "大和郡山市": 56
   },
   "sourcesInventoried": 74,
   "completeBodies": 55,
   "continuationParts": 5,
   "missingBodies": 19,
-  "validatedCumulativeCandidates": 17634,
-  "validatedEvidence": 47172,
+  "validatedCumulativeCandidates": 17788,
+  "validatedEvidence": 47636,
   "excludedFromCumulative": [
     "Okinawa1084",
     "initial93"
@@ -32,14 +36,14 @@
   ],
   "phaseComplete": false,
   "checks": {
-    "focused": "8/8",
-    "crawler": "607/607",
+    "focused": "14/14",
+    "crawler": "613/613",
     "web": "256/256",
     "typecheck": "pass",
     "lint": "pass with existing font warning",
     "national": "pass; unchanged local baseline",
     "static": "109 pages /local_gov_vis",
-    "quotes": "47172 across17634 candidates"
+    "quotes": "47636 across17788 candidates"
   },
-  "remaining": "Further214external raw proposals (Kawanishi27,Shimoichi1,Asuka1,Tawaramoto93,Kashihara92) are unpublished and unvalidated. Other cached layouts and source-specific evidence gaps remain; no national collection completion claim."
+  "remaining": "Sakurai827 andYamatokoriyama11 external proposals are unvalidated and unpublished. Other cached source-specific evidence gaps remain; no nationwide completion claim."
 }

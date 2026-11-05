@@ -256,9 +256,16 @@
     "characters": 1573,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "method_and_aggregate_only",
-      "reason": "Review procedure, aggregate policy/KPI counts and council dates. Not individual business records. Explicit年度進捗分 may support annual evidence only with a verified source pairing, never neighboring-list inference.",
-      "quote": "黒滝村総合計画（令和３年度進捗分）の効果検証結果について\n新型コロナウイルス感染症対応地方創生臨時交付金事業（令和２～３年\n度進捗分）の効果検証結果について\n"
+      "classification": "methodology_and_aggregate_only",
+      "reason": "Method, illustrative KPI values andpolicyaggregate counts; no individualbusiness title/evidence. Not an accesserror.",
+      "quote": "黒滝村総合計画（令和３年度進捗分）の効果検証結果について\n新型コロナウイルス感染症対応地方創生臨時交付金事業（令和２～３年\n度進捗分）の効果検証結果について\n",
+      "sourceId": "1c43359ae04ab8dcdb927d8d",
+      "fullTextSha256": "820e1a7e3f671eec46977cd5057ff3f9a88f8be2782bc294155b2b0e467b28e6",
+      "requiredEvidence": "Independent individualbusiness sheet; this source does not contain one.",
+      "proofStart": 0,
+      "proof": "黒滝村総合計画（令和３年度進捗分）の効果検証結果について\n新型コロナウイルス感染症対応地方創生臨時交付金事業（令和２～３年\n度進捗分）の効果検証結果について\n１．黒滝村総合計画審議会による効果検証会議開催日\n日\n\n時\n\n令和４年８月２５日（木）\n\n場\n\n所\n\n黒滝村役場\n\n出席委員\n\n１０：００～１１:１５\n\n2 階会議室\n\n外部有識者９名\n\n２．黒滝村総合計画（令和３年度進捗分）基本施策別事業進捗率\n\n集計表\n\n（別表の効果検証シート及び会議議事録と併せて重要事業評価指標（KPI）の達成状況を村ホ\nームページで公表。\n）\n\n事業進捗率・自己評価\n\n効果検証会議評価\n\n数\n\n100～\n90％\nA\n\n89～\n50％\nB\n\n50%未\n満\nC\n\nA\n\nB\n\nC\n\n基本施策１\n住み慣れた地域で生き\n",
+      "municipalRequests": 0,
+      "currentNetworkDenialClaim": false
     }
   },
   {
@@ -282,9 +289,16 @@
     "characters": 27475,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "actionable_layout_review",
-      "reason": "Separate right-side business name/purpose/annual actual columns from left-side policy KPI. Saved text interleaves them; exact title fragments and annual header binding require source-specific review. Not an access block; not declared exhausted.",
-      "warning": "※表の左側（KPI）が旧総合戦略、右側（事業目標）が旧総合計画実施計画を、後期総合計画の実施計画として総合計画上の取組毎に合成しており、行としてつながった内容ではありません"
+      "classification": "annual_column_identity_hold",
+      "reason": "Saved text explicitly says leftKPI/rightbusiness rows do not correspond. Target/actualyear headers and rightbusiness plan columns are interleaved. No precise individualexecution/reportyear binding established; do not transferKPIyear/grade tobusiness.",
+      "warning": "※表の左側（KPI）が旧総合戦略、右側（事業目標）が旧総合計画実施計画を、後期総合計画の実施計画として総合計画上の取組毎に合成しており、行としてつながった内容ではありません",
+      "sourceId": "ed761fb555a6eb14127e05ab",
+      "fullTextSha256": "41d0396a4afd02a9e63c996622e24f9fe9bf431d110dc504199cc021676cfc10",
+      "requiredEvidence": "Saved originalPDF/coordinates or explicit saved annualsource identity and business-column mapping; no municipalfetch permitted.",
+      "proofStart": 335,
+      "proof": "行としてつながった内容ではありません",
+      "municipalRequests": 0,
+      "currentNetworkDenialClaim": false
     }
   },
   {
@@ -313,7 +327,7 @@
       "newCandidates": 31,
       "existingDuplicates": 0,
       "heldUnits": 1,
-      "reason": "Full local607crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -337,9 +351,16 @@
     "characters": 1552,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "method_and_aggregate_only",
-      "reason": "Review procedure, aggregate policy/KPI counts and council dates. Not individual business records. Explicit年度進捗分 may support annual evidence only with a verified source pairing, never neighboring-list inference.",
-      "quote": "（議会説明資料）\n\n黒滝村総合計画（令和４年度進捗分）の効果検証結果について\n新型コロナウイルス感染症対応地方創生臨時交付金事業（令和４年度進\n捗分）の効果検証結果について\n"
+      "classification": "methodology_and_aggregate_only",
+      "reason": "Method, illustrative KPI values andpolicyaggregate counts; no individualbusiness title/evidence. Not an accesserror.",
+      "quote": "（議会説明資料）\n\n黒滝村総合計画（令和４年度進捗分）の効果検証結果について\n新型コロナウイルス感染症対応地方創生臨時交付金事業（令和４年度進\n捗分）の効果検証結果について\n",
+      "sourceId": "a39f0836300c2c6c561aed9c",
+      "fullTextSha256": "d54ac8f5ce363709960452738c137a4bc226bfc78d8227ad87baa939f0e795fc",
+      "requiredEvidence": "Independent individualbusiness sheet; this source does not contain one.",
+      "proofStart": 0,
+      "proof": "（議会説明資料）\n\n黒滝村総合計画（令和４年度進捗分）の効果検証結果について\n新型コロナウイルス感染症対応地方創生臨時交付金事業（令和４年度進\n捗分）の効果検証結果について\n１．黒滝村総合計画審議会による効果検証会議開催日\n日\n\n時\n\n令和５年８月２３日（水）\n\n場\n\n所\n\n黒滝村役場\n\n出席委員\n\n１０：００～１１:４５\n\n2 階会議室\n\n外部有識者１１名\n\n２．黒滝村総合計画（令和４年度進捗分）基本施策別事業進捗率\n\n集計表\n\n（別表の効果検証シート及び会議議事録と併せて重要事業評価指標（KPI）の達成状況を村ホ\nームページで公表。\n）\n\n事業進捗率・自己評価\n\n効果検証会議評価\n\n数\n\n100～\n90％\nA\n\n89～\n50％\nB\n\n50%未\n満\nC\n\nA\n\nB\n\nC\n\n基本施策１\n住み",
+      "municipalRequests": 0,
+      "currentNetworkDenialClaim": false
     }
   },
   {
@@ -363,9 +384,16 @@
     "characters": 24286,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "actionable_layout_review",
-      "reason": "Separate right-side business name/purpose/annual actual columns from left-side policy KPI. Saved text interleaves them; exact title fragments and annual header binding require source-specific review. Not an access block; not declared exhausted.",
-      "warning": "※表の左側（KPI）が旧総合戦略、右側（事業目標）が旧総合計画実施計画を、後期総合計画の実施計画として総合計画上の取組毎に合成しており、行としてつながった内容ではありません"
+      "classification": "annual_column_identity_hold",
+      "reason": "Saved text explicitly says leftKPI/rightbusiness rows do not correspond. Target/actualyear headers and rightbusiness plan columns are interleaved. No precise individualexecution/reportyear binding established; do not transferKPIyear/grade tobusiness.",
+      "warning": "※表の左側（KPI）が旧総合戦略、右側（事業目標）が旧総合計画実施計画を、後期総合計画の実施計画として総合計画上の取組毎に合成しており、行としてつながった内容ではありません",
+      "sourceId": "beed92110c97dbc37eb3c3b1",
+      "fullTextSha256": "d5857aab20a1e54e9411545f77ed6eb665b1b28163da503dc6173e7afb20e4f9",
+      "requiredEvidence": "Saved originalPDF/coordinates or explicit saved annualsource identity and business-column mapping; no municipalfetch permitted.",
+      "proofStart": 293,
+      "proof": "行としてつながった内容ではありません",
+      "municipalRequests": 0,
+      "currentNetworkDenialClaim": false
     }
   },
   {
@@ -394,7 +422,7 @@
       "newCandidates": 13,
       "existingDuplicates": 0,
       "heldUnits": 2,
-      "reason": "Full local607crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -418,9 +446,16 @@
     "characters": 1528,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "method_and_aggregate_only",
-      "reason": "Review procedure, aggregate policy/KPI counts and council dates. Not individual business records. Explicit年度進捗分 may support annual evidence only with a verified source pairing, never neighboring-list inference.",
-      "quote": "（議会説明資料）\n\n黒滝村総合計画（令和５年度進捗分）の効果検証結果について\n地方創生臨時交付金事業（令和５年度進捗分）の効果検証結果について\n"
+      "classification": "methodology_and_aggregate_only",
+      "reason": "Method, illustrative KPI values andpolicyaggregate counts; no individualbusiness title/evidence. Not an accesserror.",
+      "quote": "（議会説明資料）\n\n黒滝村総合計画（令和５年度進捗分）の効果検証結果について\n地方創生臨時交付金事業（令和５年度進捗分）の効果検証結果について\n",
+      "sourceId": "95d045d88904ee646f8922f9",
+      "fullTextSha256": "92fd767180d91ab5e7a21510b4bc21a0edec6b070df331e356725ba9a149cda1",
+      "requiredEvidence": "Independent individualbusiness sheet; this source does not contain one.",
+      "proofStart": 0,
+      "proof": "（議会説明資料）\n\n黒滝村総合計画（令和５年度進捗分）の効果検証結果について\n地方創生臨時交付金事業（令和５年度進捗分）の効果検証結果について\n１．黒滝村総合計画審議会による効果検証会議開催日\n日\n\n時\n\n令和６年８月２９日（木） １０：００～１１:００\n\n場\n\n所\n\n黒滝村役場\n\n出席委員\n\n2 階会議室\n\n外部有識者１０名\n\n２．黒滝村総合計画（令和５年度進捗分）基本施策別事業進捗率 集計表\n（別表の効果検証シート及び会議議事録と併せて重要事業評価指標（KPI）の達成状況を村ホ\nームページで公表。\n）\n\n事業進捗率・自己評価\n\n効果検証会議評価\n\n数\n\n100～\n90％\nA\n\n89～\n50％\nB\n\n50%未\n満\nC\n\nA\n\nB\n\nC\n\n基本施策１\n住み慣れた地域で生き\nがいが持てる村づく",
+      "municipalRequests": 0,
+      "currentNetworkDenialClaim": false
     }
   },
   {
@@ -444,9 +479,16 @@
     "characters": 24505,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "actionable_layout_review",
-      "reason": "Separate right-side business name/purpose/annual actual columns from left-side policy KPI. Saved text interleaves them; exact title fragments and annual header binding require source-specific review. Not an access block; not declared exhausted.",
-      "warning": "※表の左側（KPI）が旧総合戦略、右側（事業目標）が旧総合計画実施計画を、後期総合計画の実施計画として総合計画上の取組毎に合成しており、行としてつながった内容ではありません"
+      "classification": "annual_column_identity_hold",
+      "reason": "Saved text explicitly says leftKPI/rightbusiness rows do not correspond. Target/actualyear headers and rightbusiness plan columns are interleaved. No precise individualexecution/reportyear binding established; do not transferKPIyear/grade tobusiness.",
+      "warning": "※表の左側（KPI）が旧総合戦略、右側（事業目標）が旧総合計画実施計画を、後期総合計画の実施計画として総合計画上の取組毎に合成しており、行としてつながった内容ではありません",
+      "sourceId": "2a09ec805c2aa91c2cff84a8",
+      "fullTextSha256": "34456ffd729742d0f3492e162107924d678e04caf94eb0be476eb7b29b4e85e8",
+      "requiredEvidence": "Saved originalPDF/coordinates or explicit saved annualsource identity and business-column mapping; no municipalfetch permitted.",
+      "proofStart": 286,
+      "proof": "行としてつながった内容ではありません",
+      "municipalRequests": 0,
+      "currentNetworkDenialClaim": false
     }
   },
   {
@@ -475,7 +517,7 @@
       "newCandidates": 4,
       "existingDuplicates": 0,
       "heldUnits": 3,
-      "reason": "Full local607crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -499,9 +541,16 @@
     "characters": 1652,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "method_and_aggregate_only",
-      "reason": "Review procedure, aggregate policy/KPI counts and council dates. Not individual business records. Explicit年度進捗分 may support annual evidence only with a verified source pairing, never neighboring-list inference.",
-      "quote": "（議会説明資料）\n\n黒滝村総合計画（令和６年度進捗分）の効果検証結果について\n地方創生臨時交付金事業（令和６年度進捗分）の効果検証結果について\n"
+      "classification": "methodology_and_aggregate_only",
+      "reason": "Method, illustrative KPI values andpolicyaggregate counts; no individualbusiness title/evidence. Not an accesserror.",
+      "quote": "（議会説明資料）\n\n黒滝村総合計画（令和６年度進捗分）の効果検証結果について\n地方創生臨時交付金事業（令和６年度進捗分）の効果検証結果について\n",
+      "sourceId": "e8a7a2f4aba06149a84a4ff3",
+      "fullTextSha256": "2f25a589c12b9c76d027ef4fa81f35da3a2ef216e9ba02eb6c3e1254b3dc237a",
+      "requiredEvidence": "Independent individualbusiness sheet; this source does not contain one.",
+      "proofStart": 0,
+      "proof": "（議会説明資料）\n\n黒滝村総合計画（令和６年度進捗分）の効果検証結果について\n地方創生臨時交付金事業（令和６年度進捗分）の効果検証結果について\n１．黒滝村総合計画審議会による効果検証会議開催日\n日\n\n時\n\n令和７年８月２２日（木） １０：００～１１:００\n\n場\n\n所\n\n黒滝村役場\n\n出席委員\n\n２階会議室\n\n外部有識者１０名\n\n２．黒滝村総合計画（令和６年度進捗分）基本施策別事業進捗率\n\n集計表\n\n（別表の効果検証シート及び会議議事録と併せて重要事業評価指標（KPI）の達成状況を村ホームペ\nージで公表。）\n\n事業進捗率・自己評価\n\n事\n\n効果検証会議評価\n\n89～\n50％\nB\n\n50%\n未満\nC\n\n未\n\n数\n\n100～\n90％\nA\n\n基本施策１\n住み慣れた地域で生き\nがいが持てる村づくり\n\n",
+      "municipalRequests": 0,
+      "currentNetworkDenialClaim": false
     }
   },
   {
@@ -525,9 +574,16 @@
     "characters": 25317,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "actionable_layout_review",
-      "reason": "Separate right-side business name/purpose/annual actual columns from left-side policy KPI. Saved text interleaves them; exact title fragments and annual header binding require source-specific review. Not an access block; not declared exhausted.",
-      "warning": "※表の左側（KPI）が旧総合戦略、右側（事業目標）が旧総合計画実施計画を、後期総合計画の実施計画として総合計画上の取組毎に合成しており、行としてつながった内容ではありません"
+      "classification": "annual_column_identity_hold",
+      "reason": "Saved text explicitly says leftKPI/rightbusiness rows do not correspond. Target/actualyear headers and rightbusiness plan columns are interleaved. No precise individualexecution/reportyear binding established; do not transferKPIyear/grade tobusiness.",
+      "warning": "※表の左側（KPI）が旧総合戦略、右側（事業目標）が旧総合計画実施計画を、後期総合計画の実施計画として総合計画上の取組毎に合成しており、行としてつながった内容ではありません",
+      "sourceId": "3324582da3343ed933a73563",
+      "fullTextSha256": "11c343e7e19ea69475041a2bda6c1edbe3259a16d42eeff5a9a0d9f997454296",
+      "requiredEvidence": "Saved originalPDF/coordinates or explicit saved annualsource identity and business-column mapping; no municipalfetch permitted.",
+      "proofStart": 280,
+      "proof": "行としてつながった内容ではありません",
+      "municipalRequests": 0,
+      "currentNetworkDenialClaim": false
     }
   },
   {
@@ -556,7 +612,7 @@
       "newCandidates": 2,
       "existingDuplicates": 0,
       "heldUnits": 3,
-      "reason": "Full local607crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -580,8 +636,10 @@
     "characters": 23336,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "not_yet_reviewed_in_this_phase",
-      "reason": "Original inventory status retained; not evidence of exhaustion or denial."
+      "classification": "validated_individual_candidates",
+      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
+      "newCandidates": 1,
+      "existingDuplicates": 0
     }
   },
   {
@@ -615,8 +673,15 @@
       }
     ],
     "currentDisposition": {
-      "classification": "future_plan_with_policy_baseline",
-      "reason": "FY2022–2026comprehensive plan. EarlierFY2020evaluation explicitly concerns226policy outcome indicators, not separate individual business sheets; do not turn planning chapters or indicators into projects."
+      "classification": "policy_or_facility_plan_only",
+      "reason": "General plan2022–2026 and priorpolicy indicators; noannual individual-business boundary established. Planningperiod andbaseline2020 are not executionyear.",
+      "sourceId": "dee75923546ee97af8868dff",
+      "fullTextSha256": "027e0798b6dc4be3fc21e8f8dbf5828b7ccf38c187286622a7e6053ac553cd33",
+      "requiredEvidence": "Explicit individualbusiness boundary andannualidentity, absent inreviewed savedlayout.",
+      "proofStart": 0,
+      "proof": "第４次大淀町総合計画\n後期基本計画\n\n第 2 期大淀町地方創生総合戦略\n\n令和 4 年 3 月\n大淀町\n\n\n\nはじめに\n\n本町では、平成 29（2017）年３月に、\n「来たい、住みたい、住み続\nけたいまち\n\n大淀町～次世代へつなぐ共創のまちづくりをめざして～」\n\nを将来像に掲げた「第４次大淀町総合計画（基本構想及び前期基本計画）\n」\nを策定し、様々な施策に取り組んできたところです。\n\nこの間、我が国では、人口減少や少子高齢化の進行に加え、新型コロナウイルス感染症の流行、\nICT の急速な進歩などにより、社会経済情勢が大きく変化しました。\nこのような社会の動向を捉えるとともに、これまで推進した施策の達成状況の評価・検証や住民\nニーズの把握、現在の本町の課題を踏まえて、このたび、令和４（2022",
+      "municipalRequests": 0,
+      "currentNetworkDenialClaim": false
     }
   },
   {
@@ -700,8 +765,15 @@
       }
     ],
     "currentDisposition": {
-      "classification": "facility_asset_reconfiguration_plan",
-      "reason": "Physical facility portfolio/reconfiguration plan. FY2017asset condition evaluations andFY2018facility use baselines are not individual business implementation/evaluation records. No planned construction treated as actual."
+      "classification": "policy_or_facility_plan_only",
+      "reason": "Facility reconfiguration plan. Asset2017andusage2018 baselines do not establish annualbusiness identity.",
+      "sourceId": "73e08e94ccee86c3c0504b6d",
+      "fullTextSha256": "744fb06560a217a55d7638b29696085cbd9050e6636711f88378b1be4fd217ff",
+      "requiredEvidence": "Explicit individualbusiness boundary andannualidentity, absent inreviewed savedlayout.",
+      "proofStart": 0,
+      "proof": "広 陵 町\n公共施設再配置（再編）計画\n\n令和 2 年 3 月\n\n\n\n目\n\n次\n\nはじめに .................................................................... 1\n第１章 公共施設再配置（再編）計画について ................................... 2\n１．計画の目的 .............................................................. 2\n２．計画の位置付け .......................................................... 2\n３．計画の期間 .....................",
+      "municipalRequests": 0,
+      "currentNetworkDenialClaim": false
     }
   },
   {
@@ -756,8 +828,15 @@
     "characters": 10535,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "not_yet_reviewed_in_this_phase",
-      "reason": "Original inventory status retained; not evidence of exhaustion or denial."
+      "classification": "policy_or_facility_plan_only",
+      "reason": "Policy votes/comments; noindividual-project/year association. Do not turn policyvotes into projectratings.",
+      "sourceId": "16bcc6b264505cfb263b23de",
+      "fullTextSha256": "c91026b45daee354641de676459429bb808ad2744b6901a81089334cbd529188",
+      "requiredEvidence": "Explicit individualbusiness boundary andannualidentity, absent inreviewed savedlayout.",
+      "proofStart": 0,
+      "proof": "王寺町総合計画（第２期総合戦略） 効果検証の評価・意見 集計\n基本目標\n\n基本的方向\n\n具体的施策\n\n評価（人）\nＡ：高い効果が得られた\nＢ：一定の効果が得られた\nＣ：やや不十分な効果にとどまった\nＤ：効果は不十分もしくは見られなかった\nA\n\nB\n\nC\n\nコメント\n\nD\n\n(1)協働の仕組みの\n構築\n\n2\n\n10\n\n1\n\n0\n\n(2)お互いを尊重す\nるまちづくり\n\n0\n\n6\n\n6\n\n1\n\n協働による仕組みづく\nりや効率的な行政経営 (3)健全で効率的な\nにより、行政サービス 行財政運営\nの充実を図る\n\n5\n\n6\n\n2\n\n0\n\n協働による仕組みづく\nりや効率的な行政経営\nにより、行政サービス\nの充実を図る\n１ 住民に開か\nれ自立するま\nちづくり\n\n次第にコロナ禍の影響を脱すると考えられる。まち",
+      "municipalRequests": 0,
+      "currentNetworkDenialClaim": false
     }
   },
   {
@@ -786,7 +865,7 @@
       "newCandidates": 18,
       "existingDuplicates": 0,
       "heldUnits": 10,
-      "reason": "Full local607crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -897,8 +976,10 @@
     "characters": 80367,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "not_yet_reviewed_in_this_phase",
-      "reason": "Original inventory status retained; not evidence of exhaustion or denial."
+      "classification": "validated_individual_candidates",
+      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
+      "newCandidates": 1,
+      "existingDuplicates": 23
     }
   },
   {
@@ -1008,7 +1089,7 @@
       "newCandidates": 24,
       "existingDuplicates": 0,
       "heldUnits": 4,
-      "reason": "Full local607crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -1063,8 +1144,10 @@
     "characters": 29280,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "not_yet_reviewed_in_this_phase",
-      "reason": "Original inventory status retained; not evidence of exhaustion or denial."
+      "classification": "validated_individual_candidates",
+      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
+      "newCandidates": 22,
+      "existingDuplicates": 18
     }
   },
   {
@@ -1088,8 +1171,10 @@
     "characters": 28036,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "not_yet_reviewed_in_this_phase",
-      "reason": "Original inventory status retained; not evidence of exhaustion or denial."
+      "classification": "validated_individual_candidates",
+      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
+      "newCandidates": 25,
+      "existingDuplicates": 12
     }
   },
   {
@@ -1113,8 +1198,10 @@
     "characters": 27590,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "not_yet_reviewed_in_this_phase",
-      "reason": "Original inventory status retained; not evidence of exhaustion or denial."
+      "classification": "validated_individual_candidates",
+      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
+      "newCandidates": 12,
+      "existingDuplicates": 38
     }
   },
   {
@@ -1250,8 +1337,10 @@
     "characters": 47155,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "not_yet_reviewed_in_this_phase",
-      "reason": "Original inventory status retained; not evidence of exhaustion or denial."
+      "classification": "validated_individual_candidates",
+      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
+      "newCandidates": 27,
+      "existingDuplicates": 0
     }
   },
   {
@@ -1510,7 +1599,7 @@
       "rawAdditionalCandidates": 238,
       "otherNamedHeadingsInventoried": 344,
       "remaining": "102business headings plus344other headings reviewed;238candidate activities accepted. Specific identity/period/title-only holds retained; no blanket source completion.",
-      "reason": "Full local607crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
+      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
       "newCandidates": 238,
       "existingDuplicates": 0
     }
@@ -1691,9 +1780,16 @@
     "characters": 432,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "method_or_blank_template",
-      "reason": "Saved definition/instructions or annotated sample form, not completed individual municipal business sheet. Displayed sample years and field names are not records.",
-      "literalOpening": "■行政評価システムの目的\n〔導入目的〕\n○ 市民と力を合わせてよりよい地域づくりに取組むために、説明責任のさらなる\n充実をめざします。\n○ 適切な資源配分により、市民への必要な地域生活支援サービスの提供をめざし\nます。\n○ 行政事務の継続的な改善と効率化により、職員の対応の適切化をめざします。\n\n■「行政評価」の定義\n桜井市では、「行政評価」を次のように定義します。\n行政評価とは、\n「行政活動によ"
+      "classification": "methodology_and_aggregate_only",
+      "reason": "Method, illustrative KPI values andpolicyaggregate counts; no individualbusiness title/evidence. Not an accesserror.",
+      "literalOpening": "■行政評価システムの目的\n〔導入目的〕\n○ 市民と力を合わせてよりよい地域づくりに取組むために、説明責任のさらなる\n充実をめざします。\n○ 適切な資源配分により、市民への必要な地域生活支援サービスの提供をめざし\nます。\n○ 行政事務の継続的な改善と効率化により、職員の対応の適切化をめざします。\n\n■「行政評価」の定義\n桜井市では、「行政評価」を次のように定義します。\n行政評価とは、\n「行政活動によ",
+      "sourceId": "a5e024672103716802c229ab",
+      "fullTextSha256": "6a1ee6e03f63b6a3f0f3f68df03093557a9aff9923c2b99c2b967bd1d81da278",
+      "requiredEvidence": "Independent individualbusiness sheet; this source does not contain one.",
+      "proofStart": 0,
+      "proof": "■行政評価システムの目的\n〔導入目的〕\n○ 市民と力を合わせてよりよい地域づくりに取組むために、説明責任のさらなる\n充実をめざします。\n○ 適切な資源配分により、市民への必要な地域生活支援サービスの提供をめざし\nます。\n○ 行政事務の継続的な改善と効率化により、職員の対応の適切化をめざします。\n\n■「行政評価」の定義\n桜井市では、「行政評価」を次のように定義します。\n行政評価とは、\n「行政活動によって生み出された成果を測定し、\nその結果を次の活動へと結びつける一連のプロセス」のこと。\n\n行政評価は、ＰＤＣＡのマネジメントサイクルのうち、成果測定（ＣＨＥＣＫ）と\n改善（ＡＣＴＩＯＮ）の機能を担うものです。桜井市では、総合計画に基づいた実施\n計画・事業計画（ＰＬＡＮ）と行政評価システム（ＣＨＥＣ",
+      "municipalRequests": 0,
+      "currentNetworkDenialClaim": false
     }
   },
   {
@@ -1717,9 +1813,16 @@
     "characters": 633,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "method_or_blank_template",
-      "reason": "Saved definition/instructions or annotated sample form, not completed individual municipal business sheet. Displayed sample years and field names are not records.",
-      "literalOpening": "■桜井市における行政評価の構成\n桜井市行政評価は、「事務事業評価」と「施策評価」で構成されます。\n【第５次桜井市総合計画の体系】\n\n総合計画\n\n政策\n（章）\n節\n施策\n\n事務事業\n\n【施策評価】\n・ 施策の業績測定（総合計画\nの進行管理）\n・ 施策目標達成のための手段\n選択と資源配分\n【事務事業評価】\n・ 事務事業の業績測定\n・ 事務事業の成果向上・効率\n化のための業務改善\n\n〔事務事業評価〕\n○"
+      "classification": "methodology_and_aggregate_only",
+      "reason": "Method, illustrative KPI values andpolicyaggregate counts; no individualbusiness title/evidence. Not an accesserror.",
+      "literalOpening": "■桜井市における行政評価の構成\n桜井市行政評価は、「事務事業評価」と「施策評価」で構成されます。\n【第５次桜井市総合計画の体系】\n\n総合計画\n\n政策\n（章）\n節\n施策\n\n事務事業\n\n【施策評価】\n・ 施策の業績測定（総合計画\nの進行管理）\n・ 施策目標達成のための手段\n選択と資源配分\n【事務事業評価】\n・ 事務事業の業績測定\n・ 事務事業の成果向上・効率\n化のための業務改善\n\n〔事務事業評価〕\n○",
+      "sourceId": "8391885cfdd81ffff07e881b",
+      "fullTextSha256": "af77ae781c4aba89d37150e0b060c7a9103e0c266d27e3b7cd6a1a443d2b6155",
+      "requiredEvidence": "Independent individualbusiness sheet; this source does not contain one.",
+      "proofStart": 0,
+      "proof": "■桜井市における行政評価の構成\n桜井市行政評価は、「事務事業評価」と「施策評価」で構成されます。\n【第５次桜井市総合計画の体系】\n\n総合計画\n\n政策\n（章）\n節\n施策\n\n事務事業\n\n【施策評価】\n・ 施策の業績測定（総合計画\nの進行管理）\n・ 施策目標達成のための手段\n選択と資源配分\n【事務事業評価】\n・ 事務事業の業績測定\n・ 事務事業の成果向上・効率\n化のための業務改善\n\n〔事務事業評価〕\n○ 個々の事務事業について、投入コストや成果（業績）を把握し、事務事業レベ\nルの進行管理を行います。\n○ 事務事業の性質、現状、課題などを分析し、成果を高めてコストを削減するた\nめの業務改善のあり方について検討します。\n〔施策評価〕\n○ 事務事業を束ねた施策のレベルで、投入コストや成果（業績）を把握し",
+      "municipalRequests": 0,
+      "currentNetworkDenialClaim": false
     }
   },
   {
@@ -1793,9 +1896,16 @@
     "characters": 743,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "method_or_blank_template",
-      "reason": "Saved definition/instructions or annotated sample form, not completed individual municipal business sheet. Displayed sample years and field names are not records.",
-      "literalOpening": "平成29年度対象施策評価総括表\n目指す都\n市像\n（政策）\n\n施策\n\n課 名\n●は主担当\n課\n\n(平成30年\n実績（何をしたか・達成した数値は）\n施策指標名\n\n●企画政策課\n行政改革実\n総務課\n資産経営課 施計画の改\n10.信頼され\n1.行政改 財産活用課 善率(％)\nる行政を進\n革の推進\n契約検査課\nめるまち\n\n施策におけ\nる主担当課\n及び担当課\nを記載してい\nます。主担\n当課が施策\n総括表を記\n"
+      "classification": "annotated_template_only",
+      "reason": "Instructions/exampleforms, not a completedmunicipal individualassessment. Examplevalues mustnot be records.",
+      "literalOpening": "平成29年度対象施策評価総括表\n目指す都\n市像\n（政策）\n\n施策\n\n課 名\n●は主担当\n課\n\n(平成30年\n実績（何をしたか・達成した数値は）\n施策指標名\n\n●企画政策課\n行政改革実\n総務課\n資産経営課 施計画の改\n10.信頼され\n1.行政改 財産活用課 善率(％)\nる行政を進\n革の推進\n契約検査課\nめるまち\n\n施策におけ\nる主担当課\n及び担当課\nを記載してい\nます。主担\n当課が施策\n総括表を記\n",
+      "sourceId": "fd91527cbaaea7aedc0e10f7",
+      "fullTextSha256": "6d303c9f3aa38c32f415fe781468384a92f83994b7afbc45dd48b955bb5d9ec9",
+      "requiredEvidence": "Completedindividualsheet, not templateinstructions.",
+      "proofStart": 0,
+      "proof": "平成29年度対象施策評価総括表\n目指す都\n市像\n（政策）\n\n施策\n\n課 名\n●は主担当\n課\n\n(平成30年\n実績（何をしたか・達成した数値は）\n施策指標名\n\n●企画政策課\n行政改革実\n総務課\n資産経営課 施計画の改\n10.信頼され\n1.行政改 財産活用課 善率(％)\nる行政を進\n革の推進\n契約検査課\nめるまち\n\n施策におけ\nる主担当課\n及び担当課\nを記載してい\nます。主担\n当課が施策\n総括表を記\n述してくださ\nい。\n\n25年度\n\n26年度\n\n27年度\n\n達成度\n\n28年度 29年度(目標値) 29年度(実績) (単位％)\n\n未実施事項 今後の課題\n(5年間を振り返っ (5年間を振り返って\n何をなすべきか)\nて、\n何ができなったか)\n\n(例)\n80.8\n\n76.6\n\n85.1\n\n87.2\n\n1",
+      "municipalRequests": 0,
+      "currentNetworkDenialClaim": false
     }
   },
   {
@@ -1819,9 +1929,16 @@
     "characters": 2676,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "method_or_blank_template",
-      "reason": "Saved definition/instructions or annotated sample form, not completed individual municipal business sheet. Displayed sample years and field names are not records.",
-      "literalOpening": "施策評価表 （平成２９年度実施事業対象）\n\n（作成日：平成３０年\n\n月\n\n日）\n\n１．第３次総合計画における施策の体系\n目指す都市像\n（政策）\n\n番号\n\n名称\n\n施策\n\n番号\n\n名称\n\n橿原市第３次総合計画の体系への関連付けを記載しています。\n\n主担当部\n\n主担当課\n\n関係部\n\n関係課\n\n部長名\n\n２．施策の基本方針（第３次総合計画の基本方針をもとに記入する）\nこの施策により「誰を、何を、どこを」"
+      "classification": "annotated_template_only",
+      "reason": "Instructions/exampleforms, not a completedmunicipal individualassessment. Examplevalues mustnot be records.",
+      "literalOpening": "施策評価表 （平成２９年度実施事業対象）\n\n（作成日：平成３０年\n\n月\n\n日）\n\n１．第３次総合計画における施策の体系\n目指す都市像\n（政策）\n\n番号\n\n名称\n\n施策\n\n番号\n\n名称\n\n橿原市第３次総合計画の体系への関連付けを記載しています。\n\n主担当部\n\n主担当課\n\n関係部\n\n関係課\n\n部長名\n\n２．施策の基本方針（第３次総合計画の基本方針をもとに記入する）\nこの施策により「誰を、何を、どこを」",
+      "sourceId": "337e47ff6b435016e93f2f06",
+      "fullTextSha256": "12ea811c0f386a3549e9a757df5ba0b5417a5a22a6bd081d69c36e6a11189bdb",
+      "requiredEvidence": "Completedindividualsheet, not templateinstructions.",
+      "proofStart": 0,
+      "proof": "施策評価表 （平成２９年度実施事業対象）\n\n（作成日：平成３０年\n\n月\n\n日）\n\n１．第３次総合計画における施策の体系\n目指す都市像\n（政策）\n\n番号\n\n名称\n\n施策\n\n番号\n\n名称\n\n橿原市第３次総合計画の体系への関連付けを記載しています。\n\n主担当部\n\n主担当課\n\n関係部\n\n関係課\n\n部長名\n\n２．施策の基本方針（第３次総合計画の基本方針をもとに記入する）\nこの施策により「誰を、何を、どこを」「どのような状態にしたいのか」を記載しています。\n\nこの施策の目的\n\n３．施策の現状分析（第３次総合計画の現状と課題をもとに記入する）\n\nこの施策の概況\n\nこの施策に対する市民ニーズなど、\n具体的な事項について\n\n社会環境や国・県の動向など、\n施策を取り巻く環境について\n\n施策に対する市民のニーズ・",
+      "municipalRequests": 0,
+      "currentNetworkDenialClaim": false
     }
   },
   {
@@ -1845,9 +1962,16 @@
     "characters": 2438,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "method_or_blank_template",
-      "reason": "Saved definition/instructions or annotated sample form, not completed individual municipal business sheet. Displayed sample years and field names are not records.",
-      "literalOpening": "事務事業評価表（平成29年度実施事業対象）\n事業の種類を選択してください。⇒\n\n（\n\n担当部名\n\n関連付けを記載しています。\n\n総合計画の\n位置付け\n\n目指す都市像(政策)\n\n総合戦略の\n位置付け\n\n基本目標\n\n施\n\n策\n\n月\n\n日）\n\n事業\n\n）\n\n事務事業名 橿原市第３次総合計画の体系への\n\n（作成日：平成30年\n\n事業類型を下記のように分類しています。\n・ソフト事業\n担当課名 (義務)：法令"
+      "classification": "annotated_template_only",
+      "reason": "Instructions/exampleforms, not a completedmunicipal individualassessment. Examplevalues mustnot be records.",
+      "literalOpening": "事務事業評価表（平成29年度実施事業対象）\n事業の種類を選択してください。⇒\n\n（\n\n担当部名\n\n関連付けを記載しています。\n\n総合計画の\n位置付け\n\n目指す都市像(政策)\n\n総合戦略の\n位置付け\n\n基本目標\n\n施\n\n策\n\n月\n\n日）\n\n事業\n\n）\n\n事務事業名 橿原市第３次総合計画の体系への\n\n（作成日：平成30年\n\n事業類型を下記のように分類しています。\n・ソフト事業\n担当課名 (義務)：法令",
+      "sourceId": "31526857a8cd81e2345fdbb4",
+      "fullTextSha256": "32309979d8bb9a6dbbeccd581d9a481773a1fb033cc43977a512b833a136d852",
+      "requiredEvidence": "Completedindividualsheet, not templateinstructions.",
+      "proofStart": 0,
+      "proof": "事務事業評価表（平成29年度実施事業対象）\n事業の種類を選択してください。⇒\n\n（\n\n担当部名\n\n関連付けを記載しています。\n\n総合計画の\n位置付け\n\n目指す都市像(政策)\n\n総合戦略の\n位置付け\n\n基本目標\n\n施\n\n策\n\n月\n\n日）\n\n事業\n\n）\n\n事務事業名 橿原市第３次総合計画の体系への\n\n（作成日：平成30年\n\n事業類型を下記のように分類しています。\n・ソフト事業\n担当課名 (義務)：法令などにより実施が義務付けられた事業\n課長名\n・ソフト事業 (任意)：市が自主的に実施する市民サービス事業\n・内部管理・維持管理事業：直接的な市民サービスを伴わない内部的・定型的な業務\n・ハード事業：施設などの整備事業\n橿原市まち・ひと・しごと創生総合戦略の取\n組体系への関連付けを記載しています。\n\n",
+      "municipalRequests": 0,
+      "currentNetworkDenialClaim": false
     }
   },
   {
@@ -1871,8 +1995,10 @@
     "characters": 21948,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "not_yet_reviewed_in_this_phase",
-      "reason": "Original inventory status retained; not evidence of exhaustion or denial."
+      "classification": "validated_individual_candidates",
+      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
+      "newCandidates": 66,
+      "existingDuplicates": 338
     }
   },
   {
@@ -1896,8 +2022,15 @@
     "characters": 19649,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "not_yet_reviewed_in_this_phase",
-      "reason": "Original inventory status retained; not evidence of exhaustion or denial."
+      "classification": "policy_or_facility_plan_only",
+      "reason": "Policyaggregate KPI/comment table; no independently bounded individualbusiness identified. Policygrade cannotbe assigned to aproject.",
+      "sourceId": "b29ba103dc4c41198f7c8276",
+      "fullTextSha256": "596ad425bdda34eff2de4b9995b8f1096c68275a2cec9312f0bc7121d7770da6",
+      "requiredEvidence": "Explicit individualbusiness boundary andannualidentity, absent inreviewed savedlayout.",
+      "proofStart": 0,
+      "proof": "平成29年度対象施策評価総括表\n目指す都\n市像\n（政策）\n\n施策\n\n課\n\n●は主担当課\n\n道路河川課\n住宅政策課\n建築指導課\n\n2.耐震対策\nの推進\n\n1.安心・安\n全なまち\n\n3.消防体制\nの強化\n\n4.安心・安\n全な地域づ\nくりの推進\n\n実績（何をしたか・達成した数値は）\n\n名\n\n●危機管理課\n1.災害に備\nえる都市基\n盤と体制の\n強化\n\n(平成30年\n\n施策指標名\n自主防災組\n織に加入し\nている世帯\nの割合\n（％）\n避難所施設\nの耐震化率\n（％）\n\n達成度\n\n29年度(目標値) 29年度(実績) (単位％)\n\n28年度\n\n73.5\n\n73\n\n73\n\n73\n\n100\n\n75\n\n75%\n\n自主防災組織加 未結成地域への\n入率の未達成\n啓発\n\n×\n\n81\n\n81\n\n90\n\n90\n\n100\n\n",
+      "municipalRequests": 0,
+      "currentNetworkDenialClaim": false
     }
   },
   {
@@ -1926,7 +2059,7 @@
       "newCandidates": 1,
       "existingDuplicates": 16,
       "heldUnits": 0,
-      "reason": "Full local607crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -1955,7 +2088,7 @@
       "newCandidates": 35,
       "existingDuplicates": 0,
       "heldUnits": 0,
-      "reason": "Full local607crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -2011,7 +2144,7 @@
     "listedContinuations": [],
     "currentDisposition": {
       "classification": "validated_individual_candidates",
-      "reason": "Full local607crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
+      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
       "newCandidates": 56,
       "existingDuplicates": 0
     }

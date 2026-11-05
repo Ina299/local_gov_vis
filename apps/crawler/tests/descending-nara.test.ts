@@ -23,7 +23,7 @@ test('Nara proposals require full pinned bodies and literal evidence; no invente
  for(const c of configs){const i=inputs.find(i=>i.sourceId===c.sourceId)!;const r=run(c.sourceId);assert.equal(r.projects.length,c.rows.length);count+=r.projects.length;
  for(const p of r.projects){assert.equal(p.amounts.length,0);assert.equal(p.ratings.length,0);assert.equal(p.indicators.length,0);for(const e of p.evidence){const src=inputs.find(x=>x.sourceUrl===e.sourceUrl)!;const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}
  for(const bad of [{...i,text:i.text+'x'},{...i,truncated:true},{...i,sourceSha256:'x'},{...i,sourceUrl:i.sourceUrl+'x'}])assert.equal(reviewNara(bad,inputs)!.projects.length,0);
- }assert.equal(count,438);
+ }assert.equal(count,626);
 });
 
 
@@ -71,4 +71,42 @@ test('Yamatokoriyama keeps named FY2024 delivery and preparation distinct from m
  assert.ok(preparation.evidence.some(e=>e.rawText?.includes('の準備事業として庁内調整会議等を行った。')));
  assert.ok(ps.find(p=>p.projectName==='産後ケア事業'));
  assert.ok(ps.find(p=>p.projectName==='配食サービス事業'));
+});
+
+test('Kawanishi separates distinct events sharing context and excludes future-column services',()=>{
+ const ps=run('a74f25bc44c1c165b6a6d696').projects;assert.equal(ps.length,27);
+ assert.equal(new Set(ps.map(p=>p.id)).size,27);
+ assert.ok(ps.every(p=>p.evaluatedFiscalYear===2023&&p.evaluationYear===2025));
+ assert.ok(ps.some(p=>p.projectName.includes('ひだまりコンサート')));assert.ok(ps.some(p=>p.projectName.includes('なんでも発表会')));
+ assert.ok(ps.some(p=>p.projectName==='あいサポート研修'));
+ assert.ok(!ps.some(p=>p.projectName.includes('まるっと相談室')||p.projectName.includes('タクシー')||p.projectName.includes('こども家庭センター')));
+});
+test('Asuka retains one complete combined youth sheet omitted by wrapped-title parsing',()=>{
+ const ps=run('e7fe93eaecba39e9eebd8ac1').projects;assert.equal(ps.length,1);
+ assert.equal(ps[0].projectName,'青少年事業（子どもわくわく教室・あすか通学合宿）');
+ assert.equal(ps[0].evaluatedFiscalYear,2024);assert.equal(ps[0].evaluationYear,2025);
+});
+test('Shimoichi keeps the explicit report period and pandemic-limited activity',()=>{
+ const ps=run('30ada45239e9f2ad59e7b1af').projects;assert.equal(ps.length,1);
+ assert.equal(ps[0].projectName,'地域パートナーシップ事業');assert.equal(ps[0].evaluatedFiscalYear,2021);assert.equal(ps[0].evaluationYear,2022);
+});
+test('Tawaramoto preserves displaced total rows without assigning detached financial or grade columns',()=>{
+ for(const [id,year] of [['f758cb1b2ba1533d4f205a99',2021],['5565fdf67e9240940b21cb4e',2022],['8e5ee4a0176e870408091d62',2023]] as const){
+  const ps=run(id).projects;assert.equal(ps.length,31);assert.equal(new Set(ps.map(p=>p.projectName)).size,31);
+  assert.ok(ps.every(p=>p.evaluatedFiscalYear===year&&p.evaluationYear===year+1));
+  assert.ok(ps.some(p=>p.projectName.includes('唐古')&&p.projectName.includes('ミュージアム')));
+  assert.ok(ps.every(p=>p.amounts.length===0&&p.ratings.length===0));
+ }
+});
+test('Kashihara business list does not imply complete sheets or detached numeric assessments',()=>{
+ const ps=run('7e61c5b570344faab7a24d81').projects;assert.equal(ps.length,66);
+ assert.equal(new Set(ps.map(p=>p.projectName)).size,66);
+ assert.ok(ps.every(p=>p.projectName.endsWith('事業')&&p.evaluatedFiscalYear===2017&&p.evaluationYear===null));
+ assert.ok(ps.every(p=>p.warnings.some(w=>w.includes('list-level evidence'))&&p.amounts.length===0&&p.ratings.length===0));
+});
+test('Nara additions preserve every published candidate object including source-specific IDs and glyphs',()=>{
+ const baseline=JSON.parse(readFileSync(new URL('./fixtures/nara-published-422-hashes.json',import.meta.url),'utf8'));
+ const candidates=JSON.parse(readFileSync(new URL('../../../data/evaluations/descending-layouts/29/candidates.json',import.meta.url),'utf8')) as {id:string}[];
+ const byId=new Map(candidates.map(p=>[p.id,p]));assert.equal(baseline.rows.length,422);
+ for(const old of baseline.rows){assert.ok(byId.has(old.id),`Missing published candidate ${old.id}`);assert.equal(createHash('sha256').update(JSON.stringify(byId.get(old.id))).digest('hex'),old.sha256);}
 });
