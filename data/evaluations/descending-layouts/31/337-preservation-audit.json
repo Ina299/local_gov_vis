@@ -1,0 +1,38 @@
+{
+  "preserved224DeepEqual": true,
+  "newCandidatesAfterScreening": 113,
+  "totalAfterScreening": 337,
+  "perMunicipality": {
+    "江府町": 93,
+    "南部町": 39,
+    "大山町": 2,
+    "日吉津村": 34,
+    "琴浦町": 10,
+    "若桜町": 46,
+    "境港市": 5,
+    "倉吉市": 106,
+    "鳥取市": 2
+  },
+  "held": [
+    {
+      "sourceId": "6fb61a81fa10754a7b1c46f2",
+      "id": "cached-31201-1a2afdfc6cd6cb4d747e9da6",
+      "projectName": "生活保護受給者就労支援事業",
+      "reason": "No explicit fiscal/evaluation year extracted"
+    },
+    {
+      "sourceId": "942309cfb8b225992f020ae0",
+      "id": "cached-31201-68e3df1600d6a78adce18973",
+      "projectName": "輝く中山間地域創出事業",
+      "reason": "No explicit fiscal/evaluation year extracted"
+    },
+    {
+      "sourceId": "a6d88bcc687b27bbba60ab56",
+      "id": "cached-31201-ab47f79c795c81526c699278",
+      "projectName": "消費者啓発事業",
+      "reason": "No explicit fiscal/evaluation year extracted"
+    }
+  ],
+  "status": "Installed isolated candidates; full regression584/584 and quote validation passed",
+  "municipalRequests": 0
+}

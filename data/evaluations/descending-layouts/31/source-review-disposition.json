@@ -2854,9 +2854,9 @@
     "sourceId": "8201ce88da3d08f451e55c33",
     "url": "https://www.city.sakaiminato.lg.jp/upload/user/00111721-KaIB2w.pdf",
     "title": "境港市国民健康保険保健事業実施計画（第2期データヘルス計画・第3期特定健診等実施計画）評価（案）",
-    "status": "unsupported_layout",
-    "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
-    "accepted": 0,
+    "status": "processed",
+    "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
+    "accepted": 5,
     "duplicates": 0,
     "held": 0,
     "fullTextSha256": "1db63c15e19a269cd50443c83ee95f5f0f352f5723798f9a88584bbf52ae7a3d",
@@ -2865,8 +2865,47 @@
     "fetchedAt": "2026-10-21T08:43:47.294Z",
     "continuationParts": 0,
     "parserFamilies": 3,
-    "reviewStatus": "remaining_layout_review",
-    "reviewReason": "Complete cached body available; extraction still requires source-specific name/year/coverage review, not an access denial."
+    "reviewStatus": "individual_names_reviewed",
+    "reviewReason": "Explicit source-specific names and periods reviewed; policy and uncertain-period entries remain excluded. This is not a whole-source coverage assertion.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 16529,
+          "name": "特定健康診査受診率向上",
+          "status": "supported",
+          "reason": "令和6年3月の評価案。独立した保健事業の目標・令和4年度実施状況欄に限定。計画全体、KPI、一般的な地域包括ケア方針は独立事業にしない。正式確定評価とは断定せず、数値と評点は未抽出。"
+        },
+        {
+          "start": 17898,
+          "name": "特定保健指導実施率向上",
+          "status": "supported",
+          "reason": "令和6年3月の評価案。独立した保健事業の目標・令和4年度実施状況欄に限定。計画全体、KPI、一般的な地域包括ケア方針は独立事業にしない。正式確定評価とは断定せず、数値と評点は未抽出。"
+        },
+        {
+          "start": 18742,
+          "name": "糖尿病性腎症重症化予防",
+          "status": "supported",
+          "reason": "令和6年3月の評価案。独立した保健事業の目標・令和4年度実施状況欄に限定。計画全体、KPI、一般的な地域包括ケア方針は独立事業にしない。正式確定評価とは断定せず、数値と評点は未抽出。"
+        },
+        {
+          "start": 19641,
+          "name": "後発医薬品（ジェネリック医薬品）普及率の向上",
+          "status": "supported",
+          "reason": "令和6年3月の評価案。独立した保健事業の目標・令和4年度実施状況欄に限定。計画全体、KPI、一般的な地域包括ケア方針は独立事業にしない。正式確定評価とは断定せず、数値と評点は未抽出。"
+        },
+        {
+          "start": 16599,
+          "name": "医療費の適正化",
+          "status": "supported",
+          "reason": "令和6年3月の評価案。独立した保健事業の目標・令和4年度実施状況欄に限定。計画全体、KPI、一般的な地域包括ケア方針は独立事業にしない。正式確定評価とは断定せず、数値と評点は未抽出。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "＜R４年度実施状況＞"
+      ]
+    }
   },
   {
     "municipalityCode": "31203",
@@ -2874,9 +2913,9 @@
     "sourceId": "044b2c58791a59d43c1b5447",
     "url": "https://www.city.kurayoshi.lg.jp/secure/1825/02_令和6年度施策評価シート（全29施策）.pdf",
     "title": "施策評価シート",
-    "status": "unsupported_layout",
-    "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
-    "accepted": 0,
+    "status": "processed",
+    "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
+    "accepted": 35,
     "duplicates": 0,
     "held": 0,
     "fullTextSha256": "992b4dd3ab383294524dee99871f4ca620849922a2723901f1c4cfee612de4c5",
@@ -2885,8 +2924,227 @@
     "fetchedAt": "2026-10-11T17:53:38.283061+00:00",
     "continuationParts": 0,
     "parserFamilies": 3,
-    "reviewStatus": "remaining_layout_review",
-    "reviewReason": "Complete cached body available; extraction still requires source-specific name/year/coverage review, not an access denial."
+    "reviewStatus": "individual_names_reviewed",
+    "reviewReason": "Explicit source-specific names and periods reviewed; policy and uncertain-period entries remain excluded. This is not a whole-source coverage assertion.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 1480,
+          "name": "鳥獣害総合対策事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 1539,
+          "name": "環境保全型農業直接支払交付金事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 1639,
+          "name": "多面的機能支払交付金事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 1828,
+          "name": "農地集積・集約化対策事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 1970,
+          "name": "担い手規模拡大促進事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 2015,
+          "name": "就農条件整備事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 2073,
+          "name": "親元就農促進支援交付金事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 2204,
+          "name": "鳥取梨生産振興事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 2280,
+          "name": "がんばる農家プラン事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 2329,
+          "name": "がんばる地域プラン事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 10382,
+          "name": "林地台帳整備事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 20569,
+          "name": "子育て支援事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 20629,
+          "name": "ファミリーサポートセンター事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 20746,
+          "name": "不妊・不育治療助成事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 20835,
+          "name": "産後ケア事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 20954,
+          "name": "乳児家庭全戸訪問事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 21244,
+          "name": "幼児教育・保育利用者負担無償化事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 26283,
+          "name": "生活支援体制整備事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 37482,
+          "name": "倉吉スマイルプロジェクト推進事業補助金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 45661,
+          "name": "子育て応援事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 53255,
+          "name": "倉吉市移住定住者住宅取得支援補助金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 53367,
+          "name": "空き家利活用流通促進事業費補助金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 53483,
+          "name": "倉吉市移住定住促進空き家取得事業支援助成金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 53535,
+          "name": "移住就業支援事業交付金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 53579,
+          "name": "結婚新生活支援事業費補助金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 53618,
+          "name": "ふるさとでの新しいライフステージ支援補助金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 53841,
+          "name": "移住定住推進活動費補助金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 54122,
+          "name": "広域連携婚活事業費負担金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 54189,
+          "name": "えんトリ―入会登録料負担金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 77098,
+          "name": "伝建保存地区保存事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 80549,
+          "name": "自主防災組織防災資機材整備費補助金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 80786,
+          "name": "小規模急傾斜地崩壊対策事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 81231,
+          "name": "単県斜面崩壊復旧事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 83960,
+          "name": "元気の出る地域づくり支援事業費交付金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 84092,
+          "name": "協働のまちづくり活動助成金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "評価年度 令和６年度 令和５年度"
+      ]
+    }
   },
   {
     "municipalityCode": "31203",
@@ -2914,9 +3172,9 @@
     "sourceId": "387c1f1cd49e410eafccfccc",
     "url": "https://www.city.kurayoshi.lg.jp/secure/1825/02_令和7年度施策評価シート（全29施策）.pdf",
     "title": "施策評価シート",
-    "status": "unsupported_layout",
-    "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
-    "accepted": 0,
+    "status": "processed",
+    "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
+    "accepted": 38,
     "duplicates": 0,
     "held": 0,
     "fullTextSha256": "ca191698027ea0c9b822a352c330850cf200df60a439c8d6dc083d7a988f9790",
@@ -2925,8 +3183,245 @@
     "fetchedAt": "2026-10-11T17:53:25.881240+00:00",
     "continuationParts": 0,
     "parserFamilies": 3,
-    "reviewStatus": "remaining_layout_review",
-    "reviewReason": "Complete cached body available; extraction still requires source-specific name/year/coverage review, not an access denial."
+    "reviewStatus": "individual_names_reviewed",
+    "reviewReason": "Explicit source-specific names and periods reviewed; policy and uncertain-period entries remain excluded. This is not a whole-source coverage assertion.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 1504,
+          "name": "鳥獣害総合対策事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 1563,
+          "name": "環境保全型農業直接支払交付金事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 1662,
+          "name": "多面的機能支払交付金事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 1851,
+          "name": "農地集積・集約化対策事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 1993,
+          "name": "担い手規模拡大促進事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 2038,
+          "name": "就農条件整備事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 2101,
+          "name": "親元就農促進支援交付金事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 2184,
+          "name": "鳥取梨生産振興事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 2309,
+          "name": "がんばる地域プラン事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 5200,
+          "name": "空き家Re活用推進事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 5273,
+          "name": "にぎわいのある商店街づくり事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 10836,
+          "name": "林地台帳整備事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 21598,
+          "name": "子育て支援事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 21660,
+          "name": "ファミリーサポートセンター事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 21749,
+          "name": "不妊・不育治療助成事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 21852,
+          "name": "産後ケア事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 21978,
+          "name": "乳児家庭全戸訪問事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 22305,
+          "name": "幼児教育・保育利用者負担無償化事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 27809,
+          "name": "生活支援体制整備事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 39641,
+          "name": "倉吉スマイルプロジェクト推進事業補助金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 47397,
+          "name": "対話型ミーティング事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 48284,
+          "name": "子育て応援事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 56447,
+          "name": "移住定住者住宅取得支援補助金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 56540,
+          "name": "空き家利活用流通促進事業費補助金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 56655,
+          "name": "移住定住促進空き家活用事業支援助成金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 56705,
+          "name": "移住就業支援事業交付金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 56748,
+          "name": "結婚新生活支援事業費補助金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 56794,
+          "name": "ふるさとでの新しいライフステージ支援補助金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 57177,
+          "name": "移住定住推進活動費補助金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 57391,
+          "name": "広域連携婚活事業費負担金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 57441,
+          "name": "えんトリ―入会登録料負担金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 81860,
+          "name": "伝建保存地区保存事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 85595,
+          "name": "自主防災組織防災資機材整備費補助金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 85820,
+          "name": "小規模急傾斜地崩壊対策事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 86311,
+          "name": "単県斜面崩壊復旧事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 86344,
+          "name": "農林水産業補助災害復旧事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 89160,
+          "name": "元気の出る地域づくり支援事業費交付金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 89277,
+          "name": "協働のまちづくり活動助成金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "評価年度 令和７年度 令和６年度"
+      ]
+    }
   },
   {
     "municipalityCode": "31203",
@@ -3149,9 +3644,9 @@
     "sourceId": "bbda72c27eaf57389f5fbb9e",
     "url": "https://www.city.kurayoshi.lg.jp/secure/1825/02_ling-he-5nian-du-shi-ce-ping-jia-shitoquan-29shi-ce.pdf",
     "title": "施策評価シート",
-    "status": "unsupported_layout",
-    "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
-    "accepted": 0,
+    "status": "processed",
+    "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
+    "accepted": 33,
     "duplicates": 0,
     "held": 0,
     "fullTextSha256": "4d531ee44b7d780e46322a426a549020634f42b336eec7d01a7063f79f0d9c5f",
@@ -3160,8 +3655,215 @@
     "fetchedAt": "2026-10-11T17:53:54.265359+00:00",
     "continuationParts": 0,
     "parserFamilies": 3,
-    "reviewStatus": "remaining_layout_review",
-    "reviewReason": "Complete cached body available; extraction still requires source-specific name/year/coverage review, not an access denial."
+    "reviewStatus": "individual_names_reviewed",
+    "reviewReason": "Explicit source-specific names and periods reviewed; policy and uncertain-period entries remain excluded. This is not a whole-source coverage assertion.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 3327,
+          "name": "鳥獣害総合対策事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 3407,
+          "name": "環境保全型農業直接支払交付金事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 3511,
+          "name": "多面的機能支払交付金事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 3763,
+          "name": "畜産振興対策事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 3869,
+          "name": "農地集積・集約化対策事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 3916,
+          "name": "担い手規模拡大促進事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 3944,
+          "name": "就農条件整備事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 4003,
+          "name": "親元就農促進支援交付金事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 4129,
+          "name": "米価下落影響緩和対策事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 4157,
+          "name": "鳥取梨生産振興事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 4280,
+          "name": "がんばる農家プラン事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 4367,
+          "name": "がんばる地域プラン事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 22121,
+          "name": "子育て支援事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 22181,
+          "name": "ファミリーサポートセンター事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 22297,
+          "name": "不妊・不育治療助成事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 22405,
+          "name": "産後ケア事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 22513,
+          "name": "乳児家庭全戸訪問事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 22803,
+          "name": "幼児教育・保育利用者負担無償化事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 27020,
+          "name": "生活支援体制整備事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 37533,
+          "name": "日本女性会議補助金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 45381,
+          "name": "ブックスタート20周年記念事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 53094,
+          "name": "倉吉市移住定住者住宅取得支援補助金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 53293,
+          "name": "空き家利活用流通促進事業費補助金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 53396,
+          "name": "倉吉市移住定住促進空き家取得事業支援助成金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 53495,
+          "name": "移住就業支援事業交付金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 53872,
+          "name": "移住定住推進活動費補助金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 54015,
+          "name": "広域連携婚活事業費負担金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 75996,
+          "name": "伝建保存地区保存事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 79365,
+          "name": "自主防災組織防災資機材整備費補助金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 79665,
+          "name": "小規模急傾斜地崩壊対策事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 79993,
+          "name": "単県斜面崩壊復旧事業",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 82655,
+          "name": "元気の出る地域づくり支援事業費交付金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        },
+        {
+          "start": 82796,
+          "name": "協働のまちづくり活動助成金",
+          "status": "supported",
+          "reason": "同一施策シートの実績欄に明記された個別事業名。政策そのもの、県道整備の実施主体、広い公営企業区分、将来計画は推測で補わない。数値列・政策評点は未抽出。繰越記載がある場合も原文を残し予算年度の金額とは結びつけない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "評価年度 令和５年度 令和４年度"
+      ]
+    }
   },
   {
     "municipalityCode": "31203",
@@ -3869,19 +4571,40 @@
     "sourceId": "6fb61a81fa10754a7b1c46f2",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43039.pdf",
     "title": "PDF／92KB",
-    "status": "unsupported_layout",
-    "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
-    "accepted": 0,
+    "status": "processed",
+    "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
+    "accepted": 1,
     "duplicates": 0,
-    "held": 0,
+    "held": 1,
     "fullTextSha256": "4afe6d4eac3b3ffbb5ada348637b22e73e751162c1bfc147fe262f0690519082",
     "complete": true,
     "sourceSha256": "44f6b6b5faac15aea6cd73da2920bf905beef07b85a08ea95c77f8897df07622",
     "fetchedAt": "2026-10-11T18:12:48.673436+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "named_activity_period_review",
-    "reviewReason": "Specific named activity appears within policy indicator definition/comment; preserve its name evidence, resolve target period/identity before any project addition. Policy KPI not inherited."
+    "reviewStatus": "individual_names_reviewed",
+    "reviewReason": "Explicit source-specific names and periods reviewed; policy and uncertain-period entries remain excluded. This is not a whole-source coverage assertion.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 284,
+          "name": "生活保護受給者就労支援事業",
+          "status": "supported",
+          "reason": "政策KPI表内で名称と活動説明が明記された事業のみ。KPI行・政策自体は事業化せず、指標値や政策評点も引き継がない。複数年度表から対象年度を推測しない。"
+        },
+        {
+          "start": 1029,
+          "name": "介護給付適正化事業",
+          "status": "supported",
+          "reason": "政策KPI表内で名称と活動説明が明記された事業のみ。KPI行・政策自体は事業化せず、指標値や政策評点も引き継がない。複数年度表から対象年度を推測しない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "【政策】"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4109,19 +4832,40 @@
     "sourceId": "942309cfb8b225992f020ae0",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43064.pdf",
     "title": "PDF／76KB",
-    "status": "unsupported_layout",
-    "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
-    "accepted": 0,
+    "status": "processed",
+    "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
+    "accepted": 1,
     "duplicates": 0,
-    "held": 0,
+    "held": 1,
     "fullTextSha256": "44d3de6836a601df129c42ae53e5ef09a9d2f6a8c9df14ded2cc34f82a5d9280",
     "complete": true,
     "sourceSha256": "20c359dcbfdf5e1e958b537b2ec2aa62cd2761cb44f924514a5ec79594bae8be",
     "fetchedAt": "2026-10-11T18:17:38.564691+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "named_activity_period_review",
-    "reviewReason": "Specific named activity appears within policy indicator definition/comment; preserve its name evidence, resolve target period/identity before any project addition. Policy KPI not inherited."
+    "reviewStatus": "individual_names_reviewed",
+    "reviewReason": "Explicit source-specific names and periods reviewed; policy and uncertain-period entries remain excluded. This is not a whole-source coverage assertion.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 533,
+          "name": "輝く中山間地域創出事業",
+          "status": "supported",
+          "reason": "政策KPI表内で名称と活動説明が明記された事業のみ。KPI行・政策自体は事業化せず、指標値や政策評点も引き継がない。複数年度表から対象年度を推測しない。"
+        },
+        {
+          "start": 826,
+          "name": "とっとりふるさとリーダーアカデミー",
+          "status": "supported",
+          "reason": "政策KPI表内で名称と活動説明が明記された事業のみ。KPI行・政策自体は事業化せず、指標値や政策評点も引き継がない。複数年度表から対象年度を推測しない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "【政策】"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4249,19 +4993,34 @@
     "sourceId": "a6d88bcc687b27bbba60ab56",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43069.pdf",
     "title": "PDF／70KB",
-    "status": "unsupported_layout",
+    "status": "insufficient_evidence",
     "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
     "accepted": 0,
     "duplicates": 0,
-    "held": 0,
+    "held": 1,
     "fullTextSha256": "73c822c3193458a81787792a0fd3df8db24640638f0e138119930f27e1bac784",
     "complete": true,
     "sourceSha256": "5322c02dcec852e13e6401b60244ce79bfe8f9a8061bf787c0e9776d957be939",
     "fetchedAt": "2026-10-11T18:18:36.452720+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "named_activity_period_review",
-    "reviewReason": "Specific named activity appears within policy indicator definition/comment; preserve its name evidence, resolve target period/identity before any project addition. Policy KPI not inherited."
+    "reviewStatus": "individual_names_reviewed",
+    "reviewReason": "Explicit source-specific names and periods reviewed; policy and uncertain-period entries remain excluded. This is not a whole-source coverage assertion.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 305,
+          "name": "消費者啓発事業",
+          "status": "supported",
+          "reason": "政策KPI表内で名称と活動説明が明記された事業のみ。KPI行・政策自体は事業化せず、指標値や政策評点も引き継がない。複数年度表から対象年度を推測しない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "【政策】"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",

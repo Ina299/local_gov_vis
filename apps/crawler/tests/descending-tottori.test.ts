@@ -23,7 +23,7 @@ test('Tottori proposals require full pinned bodies and literal evidence; no inve
  for(const c of configs){const i=inputs.find(i=>i.sourceId===c.sourceId)!;const r=run(c.sourceId);assert.equal(r.projects.length,c.rows.length);count+=r.projects.length;
  for(const p of r.projects){assert.equal(p.amounts.length,0);assert.equal(p.ratings.length,0);assert.equal(p.indicators.length,0);for(const e of p.evidence){const src=inputs.find(x=>x.sourceUrl===e.sourceUrl)!;const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}
  for(const bad of [{...i,text:i.text+'x'},{...i,truncated:true},{...i,sourceSha256:'x'},{...i,sourceUrl:i.sourceUrl+'x'}])assert.equal(reviewTottori(bad,inputs)!.projects.length,0);
- }assert.equal(count,234);
+ }assert.equal(count,350);
 });
 test('Kofu requires official annual link identity; Daisen keeps fiscal year unknown',()=>{
  const i=inputs.find(x=>x.sourceId==='2bab04fffc69909151f760ca')!;
@@ -35,4 +35,13 @@ test('Hiezu and Wakasa distinguish report dates from target years and do not spl
  const h=run('fbfd32e68a167c9c43d2298c').projects;assert.equal(h.length,35);assert.ok(h.every(p=>p.evaluatedFiscalYear===2024&&p.evaluationYear===2025));
  const w=run('e2285bc27c5e3a125f7bf646').projects;assert.equal(w.length,23);assert.ok(w.every(p=>p.evaluatedFiscalYear===2023&&p.evaluationYear===2024));
  assert.equal(w.filter(p=>p.projectName.includes('自主防災組織')).length,1);
+});
+
+test('Kurayoshi individual implementation names retain target years without copying policy scores or amount columns',()=>{
+ for(const [id,fy] of [['044b2c58791a59d43c1b5447',2023],['387c1f1cd49e410eafccfccc',2024],['bbda72c27eaf57389f5fbb9e',2022]] as const){const ps=run(id).projects;assert.ok(ps.length>25);assert.ok(ps.every(p=>p.evaluatedFiscalYear===fy));assert.ok(!ps.some(p=>p.projectName==='水道事業'||p.projectName==='県道改良事業'||p.projectName.includes('PDCA')));}
+});
+test('Health report date is distinct from assessed year; policy-name mentions never invent target periods',()=>{
+ const ps=run('8201ce88da3d08f451e55c33').projects;assert.equal(ps.length,5);assert.ok(ps.every(p=>p.evaluatedFiscalYear===2022&&p.evaluationYear===2024));
+ const unknown=run('6fb61a81fa10754a7b1c46f2').projects.find(p=>p.projectName==='生活保護受給者就労支援事業')!;assert.equal(unknown.evaluatedFiscalYear,null);assert.equal(unknown.evaluationYear,null);
+ const known=run('6fb61a81fa10754a7b1c46f2').projects.find(p=>p.projectName==='介護給付適正化事業')!;assert.equal(known.evaluatedFiscalYear,2024);
 });
