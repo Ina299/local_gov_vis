@@ -1,0 +1,16 @@
+[
+  {
+    "sourceId": "f62820c72342571a37c83bb4",
+    "numberedSourceRows": 5,
+    "acceptedProposals": 0,
+    "heldRows": 5,
+    "reason": "Five rows mix prior FY2023 benefit eligibility and R5.12–R6.3 / R6.1–R6.9 / R5.12–R7.3 periods. First benefit also needs identity comparison to retained FY2023 low-income grant. Other four need target-period binding; do not silently assign FY2024 from grant cohort heading."
+  },
+  {
+    "sourceId": "0a4b8efd48ed540838513c8e",
+    "numberedSourceRows": 4,
+    "acceptedProposals": 1,
+    "heldRows": 3,
+    "reason": "Remaining rows: benefit row2 spansR6.1.24–R7.3.31, administration row6 is not another project, row7 spansR7.1.23–R7.12.28 with prior-tax-year wording. Preserve period/component holds; do not assign FY2025 from heading alone."
+  }
+]

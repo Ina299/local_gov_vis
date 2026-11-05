@@ -23,10 +23,23 @@ test('Wakayama proposals require full pinned bodies and literal evidence; no inv
  for(const c of configs){const i=inputs.find(i=>i.sourceId===c.sourceId)!;const r=run(c.sourceId);assert.equal(r.projects.length,c.rows.length);count+=r.projects.length;
  for(const p of r.projects){assert.equal(p.amounts.length,0);assert.equal(p.ratings.length,0);assert.equal(p.indicators.length,0);for(const e of p.evidence){const src=inputs.find(x=>x.sourceUrl===e.sourceUrl)!;const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}
  for(const bad of [{...i,text:i.text+'x'},{...i,truncated:true},{...i,sourceSha256:'x'},{...i,sourceUrl:i.sourceUrl+'x'}])assert.equal(reviewWakayama(bad,inputs)!.projects.length,0);
- }assert.equal(count,95);
+ }assert.equal(count,676);
 });
 
 test('Taiji keeps multiyear fiscal period unknown and uses explicit post-evaluation date',()=>{const ps=run('e469190c5fba262ce6d889bd').projects;assert.equal(ps.length,1);assert.equal(ps[0].evaluatedFiscalYear,null);assert.equal(ps[0].evaluationYear,2023);assert.equal(ps[0].projectName,'都市防災総合推進事業（森浦地区）');});
 test('Nachi separates demonstration from standalone delivery and never copies neighbouring KPI scores',()=>{for(const [id,year]of [['f95588cb720ca12c9c4e976b',2024],['30948c054dea18ca8a9e3908',2025]]as const){const ps=run(id).projects;assert.equal(ps.length,4);assert.ok(ps.every(p=>p.evaluatedFiscalYear===year));assert.ok(!ps.some(p=>p.projectName==='重層的支援体制整備事業'));const c=ps.find(p=>p.projectName.includes('C型'))!;assert.ok(c.evidence.some(e=>e.rawText?.includes('デモン')));assert.equal(c.ratings.length,0);}});
 test('Kamitonda only selects literal individual annual businesses; Minabe donation values never become costs',()=>{const k=run('be962b7ee2fde1aacce245c1').projects;assert.equal(k.length,25);assert.ok(k.every(p=>p.evaluatedFiscalYear===2024));assert.ok(!k.some(p=>p.projectName==='学校運営'||p.projectName==='熊野高校'));for(const [id,year]of [['7ebf54218a0e6cf98ba2d467',2022],['d801563bad4c8da014a14f23',2023],['7f4562ebd29b9a39e37d752f',2024]]as const){const ps=run(id).projects;assert.equal(ps.length,1);assert.equal(ps[0].evaluatedFiscalYear,year);assert.equal(ps[0].amounts.length,0);}});
 test('Minabe preserves explicit assessment names without promoting policy labels or correcting uncertain source titles',()=>{const r=run('0a955dc3b57ff4f7a5f052dc');assert.equal(r.projects.length,52);assert.ok(r.projects.every(p=>p.evaluatedFiscalYear===2024));assert.ok(!r.projects.some(p=>p.projectName==='農業振興施策'||p.projectName.includes('児童クラブ')));assert.equal(r.units.filter(x=>x.status==='identity_or_period_hold').length,1);});
+
+test('Minabe grant years retain exact official prior-year context and reject changed context offsets',()=>{
+ const id='66732ce32d96c7ed3b77f945';const i=inputs.find(x=>x.sourceId===id)!;const ps=run(id).projects;assert.equal(ps.length,3);
+ for(const p of ps){assert.equal(p.evaluatedFiscalYear,2016);assert.equal(p.evaluationYear,2017);assert.ok(p.evidence.some(e=>e.rawText?.includes('平成29年度効果検証')&&e.rawText.includes('前年度')));}
+ assert.equal(reviewWakayama(i,inputs.filter(x=>x.sourceId!=='9b158c2bd70e074294b50996'))!.projects.length,0);
+ const c=wakayamaRows.find(x=>x.sourceId===id)! as {pageYearContextStart:number};const saved=c.pageYearContextStart;
+ try{c.pageYearContextStart=saved+1;assert.equal(run(id).status,'annual_identity_hold');assert.equal(run(id).projects.length,0);}finally{c.pageYearContextStart=saved;}
+});
+test('Shirahama row dates override cover year and administrative funding is not a separate business',()=>{
+ const ps=run('eeea4a05cdb050792ff40c05').projects;assert.equal(ps.length,10);assert.equal(ps.filter(p=>p.evaluatedFiscalYear===2022).length,2);
+ const later=run('0a4b8efd48ed540838513c8e').projects;assert.equal(later.length,1);assert.equal(later[0].evaluatedFiscalYear,2025);assert.equal(later[0].projectName,'物価高騰対策観光誘客等事業');
+ assert.equal(run('f62820c72342571a37c83bb4').projects.length,0);
+});

@@ -1,0 +1,62 @@
+[
+  {
+    "sourceId": "6208475c5419b95524af6fdd",
+    "name": "イノブータン王国プレミアム商品券",
+    "segments": [
+      {
+        "start": 1140,
+        "raw": "イノブータン王国プレミ"
+      },
+      {
+        "start": 1152,
+        "raw": "アム商品券"
+      }
+    ],
+    "reason": "Literal named premium voucher programme, without appending an uncertain 事業 suffix from adjacent pamphlet row. Explicit R2.7–R3.3 period; no amounts copied."
+  },
+  {
+    "sourceId": "4a978fa5bb31c27a8877bb4c",
+    "name": "公共施設サーマルカメラ導入事業",
+    "segments": [
+      {
+        "start": 1762,
+        "raw": "公共施設サーマルカメラ"
+      },
+      {
+        "start": 627,
+        "raw": "導入事業"
+      }
+    ],
+    "reason": "Source-specific wrapped title resolved from literal saved fragments. Reverse text order retained with exact offsets; standalone suffix belongs to numbered source row. Explicit start/end dates are within target fiscal year. No numeric-column reconstruction."
+  },
+  {
+    "sourceId": "146471293256ba8c56e274c1",
+    "name": "公共施設サーマルカメラ導入事業",
+    "segments": [
+      {
+        "start": 1922,
+        "raw": "公共施設サーマルカメラ"
+      },
+      {
+        "start": 1147,
+        "raw": "導入事業"
+      }
+    ],
+    "reason": "Source-specific wrapped title resolved from literal saved fragments. Reverse text order retained with exact offsets; standalone suffix belongs to numbered source row. Explicit start/end dates are within target fiscal year. No numeric-column reconstruction."
+  },
+  {
+    "sourceId": "146471293256ba8c56e274c1",
+    "name": "感染予防間仕切り設置事業",
+    "segments": [
+      {
+        "start": 2048,
+        "raw": "感染予防間仕切り設置事"
+      },
+      {
+        "start": 1067,
+        "raw": "業"
+      }
+    ],
+    "reason": "Source-specific wrapped title resolved from literal saved fragments. Reverse text order retained with exact offsets; standalone suffix belongs to numbered source row. Explicit start/end dates are within target fiscal year. No numeric-column reconstruction."
+  }
+]
