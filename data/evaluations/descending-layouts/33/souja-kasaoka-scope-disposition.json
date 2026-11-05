@@ -1,0 +1,26 @@
+[
+  {
+    "sourceId": "efe97430ebb943c0e88de2b3",
+    "municipalityCode": "33208",
+    "fullTextSha256": "a0fc10491fa080f56efea84bbe39285d39060a3077b7a8a0675c76e5f812dc4b",
+    "status": "assessment_criteria_not_individual_record",
+    "reason": "実施手順・評価区分・予定日程のみ。具体的な評価対象事業が記入されたシートではない。",
+    "records": 0
+  },
+  {
+    "sourceId": "0a132bc4d7128f6b51a7f6ee",
+    "municipalityCode": "33205",
+    "fullTextSha256": "710a9f08fe9f8fa84085a69eebfec7dd79cf6aa9d887768c396c40b8984efe9f",
+    "status": "policy_framework",
+    "reason": "令和8年度の27施策の評価・委員会審議。政策評価やKPIを個別事業へ転記しない。個別取組表は別の保存済み施策評価シートで検証する。",
+    "records": 0
+  },
+  {
+    "sourceId": "3b27ca29d768604ecf55f705",
+    "municipalityCode": "33205",
+    "fullTextSha256": "59dd2aa0ca1afe69dfb7f2498bcb755ee9deddadc5d99532eaf6df16893fbf67",
+    "status": "policy_framework",
+    "reason": "令和7年度の36施策の評価・委員会審議。評価等級を個別事業へ転記しない。",
+    "records": 0
+  }
+]

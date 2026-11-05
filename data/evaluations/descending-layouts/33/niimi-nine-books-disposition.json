@@ -1,0 +1,136 @@
+[
+  {
+    "sourceId": "f01e081cf4f4f4e0294c1030",
+    "fiscalYear": 2016,
+    "evaluationYear": 2017,
+    "fullTextSha256": "23192a2f520d9e494179e5c8fe5c26b4c4600f14b9d2f1b2fb6fa72c4738e492",
+    "candidateRows": 54,
+    "departmentRows": 0,
+    "holds": [],
+    "status": "complete_book_title_review_runtime_and_full_regression_passed",
+    "numericFields": "not extracted; column association not established"
+  },
+  {
+    "sourceId": "36d78707d9334f924eb64b2b",
+    "fiscalYear": 2023,
+    "evaluationYear": 2024,
+    "fullTextSha256": "4a49ae97bc54b7a99ee19e0775f5e70b31708afa99d406e179ff0cbb6d830c01",
+    "candidateRows": 24,
+    "departmentRows": 0,
+    "holds": [],
+    "status": "complete_book_title_review_runtime_and_full_regression_passed",
+    "numericFields": "not extracted; column association not established"
+  },
+  {
+    "sourceId": "a93343902f28d6c036b73678",
+    "fiscalYear": 2022,
+    "evaluationYear": 2023,
+    "fullTextSha256": "057521e405ce56ccf5c4cffb932d4c9e85c0ba07bf31cd6cd625be08e9cad547",
+    "candidateRows": 36,
+    "departmentRows": 4,
+    "holds": [
+      {
+        "raw": "看護師確保対策支援事",
+        "start": 5060,
+        "reason": "対象列は令和4年度だが事業概要は令和5年度から別推進会へ補助開始。前身活動と新補助金の年度同一性を確定できない。",
+        "status": "grant_identity_start_year_conflict"
+      }
+    ],
+    "status": "complete_book_title_review_runtime_and_full_regression_passed",
+    "numericFields": "not extracted; column association not established"
+  },
+  {
+    "sourceId": "5527bd1be94562c0a45be757",
+    "fiscalYear": 2021,
+    "evaluationYear": 2022,
+    "fullTextSha256": "0a3790f4800d1dda634227e6f5d1d42b56bab9e9fc56525800882653e1546055",
+    "candidateRows": 75,
+    "departmentRows": 4,
+    "holds": [
+      {
+        "raw": "クリーンセンター基幹的",
+        "start": 8612,
+        "reason": "対象列見出しは令和3年度だが当該行実施欄は令和2年度と明示。実施対象年の不一致を推測解消しない。",
+        "status": "row_fiscal_year_conflict"
+      }
+    ],
+    "status": "complete_book_title_review_runtime_and_full_regression_passed",
+    "numericFields": "not extracted; column association not established"
+  },
+  {
+    "sourceId": "51a4bf668a7f45cbe2dd308e",
+    "fiscalYear": 2020,
+    "evaluationYear": 2021,
+    "fullTextSha256": "b7a078cc6cc6fe9800456abd06afccbbe6c92a8445a07f71466ac929da295887",
+    "candidateRows": 69,
+    "departmentRows": 4,
+    "holds": [],
+    "status": "complete_book_title_review_runtime_and_full_regression_passed",
+    "numericFields": "not extracted; column association not established"
+  },
+  {
+    "sourceId": "383de879ea644e6b7606ae4d",
+    "fiscalYear": 2024,
+    "evaluationYear": 2025,
+    "fullTextSha256": "947b3204332ce11ea3f9e98bec346530ceca7405169bc855d80c89d467622bd5",
+    "candidateRows": 79,
+    "departmentRows": 4,
+    "holds": [
+      {
+        "start": 19979,
+        "raw": "大佐中央配水区・ 大佐",
+        "status": "identity_or_period_hold",
+        "reason": "令和6年度実施内容に令和7年度繰越と本年度7年度施工が混在。各年度の活動境界を確定できないため追加保留。"
+      }
+    ],
+    "status": "complete_book_title_review_runtime_and_full_regression_passed",
+    "numericFields": "not extracted; column association not established"
+  },
+  {
+    "sourceId": "aabf53ce800728d419dcde18",
+    "fiscalYear": 2019,
+    "evaluationYear": 2020,
+    "fullTextSha256": "2817b3430653fb432c3311420c071cefc468d699ae003d156995aa45a792f2aa",
+    "candidateRows": 56,
+    "departmentRows": 0,
+    "holds": [
+      {
+        "start": 7729,
+        "raw": "生活困窮者就労準備",
+        "status": "identity_or_period_hold",
+        "reason": "行名は就労準備支援だが実施内容は家計改善支援、就労準備支援は今後実施検討と記載。名称・年度の対応を推測しない。"
+      }
+    ],
+    "status": "complete_book_title_review_runtime_and_full_regression_passed",
+    "numericFields": "not extracted; column association not established"
+  },
+  {
+    "sourceId": "83ac72d6b17b51d77f22249e",
+    "fiscalYear": 2018,
+    "evaluationYear": 2019,
+    "fullTextSha256": "38791544ccab1da4f6e2d927c6e607beb8a143a93ebc1a73018be9e710c814de",
+    "candidateRows": 50,
+    "departmentRows": 0,
+    "holds": [],
+    "status": "complete_book_title_review_runtime_and_full_regression_passed",
+    "numericFields": "not extracted; column association not established"
+  },
+  {
+    "sourceId": "cae4dc94434b466c6ea74cf2",
+    "fiscalYear": 2017,
+    "evaluationYear": 2018,
+    "fullTextSha256": "ec77f7e4509402097c31c20ed8b37f9d764326d094c5592aebde9089df3fa89a",
+    "candidateRows": 78,
+    "departmentRows": 0,
+    "holds": [
+      {
+        "start": 22860,
+        "raw": "観光施設魅力向上事",
+        "status": "overlapping_existing_project_scope",
+        "reason": "周遊型観光ツアー助成、スタンプラリー、大規模旅行商談会、観光キャラクターなど同表の独立行を包含。独立した追加事業として二重計上しない。"
+      }
+    ],
+    "status": "complete_book_title_review_runtime_and_full_regression_passed",
+    "numericFields": "not extracted; column association not established"
+  }
+]

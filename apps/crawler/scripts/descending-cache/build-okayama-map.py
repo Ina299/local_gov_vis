@@ -33,6 +33,8 @@ for c in json.loads((stage/'okayama-reviewed.json').read_text()):
   assert u[h['start']*2:h['start']*2+len(h['raw'].encode('utf-16-le'))].decode('utf-16-le')==h['raw']
   if h.get('context'):assert u[h['contextStart']*2:h['contextStart']*2+len(h['context'].encode('utf-16-le'))].decode('utf-16-le')==h['context']
   if h.get('yearProof'):assert h['yearProof'] in t
+  if h.get('department') or h.get('departmentProof'):
+   d=h['departmentProof'];assert h['department']==re.sub(r'\s+','',d['raw']);assert u[d['start']*2:d['start']*2+len(d['raw'].encode('utf-16-le'))].decode('utf-16-le')==d['raw'];assert h['contextStart']==d['start'] and h['context'].startswith(d['raw'])
   if h.get('titleSegments'):
    assert not h.get('titleFragments') and len(h['titleSegments'])>=2
    spans=[]

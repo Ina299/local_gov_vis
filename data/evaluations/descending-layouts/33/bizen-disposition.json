@@ -1,0 +1,25 @@
+[
+  {
+    "sourceId": "b8fb59a2b3d0df5359a588da",
+    "existingPreserved": [
+      "cached-33211-51e0b6a038d4e5404fdf9c4c",
+      "cached-33211-af55f2e5320ead5dc299d523"
+    ],
+    "proposed": [],
+    "sourceTextSha256": "cfa24f656948decb1358682987eb85d4883ab3278702c3ea2243b067d84e9203",
+    "unknownFiscalYear": true
+  },
+  {
+    "sourceId": "d52a90ef5a57869f1622c3f4",
+    "existingPreserved": [
+      "cached-33211-b099a6c2b56d334744b94488"
+    ],
+    "proposed": [
+      "生活保護受給者等就労自立促進事業",
+      "家計改善支援事業",
+      "通所付き添いサポーター事業"
+    ],
+    "sourceTextSha256": "2fe6d9f7205d84feb87e9be607ad6234df2259582f85fedab6f88e065df8d3d8",
+    "unknownFiscalYear": true
+  }
+]

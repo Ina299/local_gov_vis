@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
-import {reviewOkayama} from '../src/evaluations/expansion/descending-okayama';
+import {reviewOkayama, distinctOkayamaDepartmentRows} from '../src/evaluations/expansion/descending-okayama';
 import {okayamaRows} from '../src/evaluations/expansion/descending-okayama-map';
 import type {CachedInput} from '../src/evaluations/expansion/shared';
 function source(id:string,code:string):CachedInput {
@@ -153,7 +153,32 @@ test('Akaiwa adds only four wrapped names and keeps uncertain operating year unk
  const ps=run('348c5238bd8880b9604f9c0e').projects;assert.equal(ps.length,4);assert.ok(ps.every(p=>p.evaluationYear===2025&&p.evaluatedFiscalYear===null));assert.ok(ps.some(p=>p.projectName==='自治体ＤＸ推進事業（セミセルフレジ、多言語翻訳サービス導入）'));assert.equal(run('b540021397b2c55dcb2a42d5').projects.length,0);
 });
 test('Setouchi explicit businesses do not inherit policy totals or split combined activity outcomes',()=>{
- for(const [id,year,count] of [['d305acbf2ed8128257145002',2025,13],['cc5b95dfb46915cd3d0a3bff',2024,15],['2184a05521ceaa10c1c77036',2023,13]] as const){
+ for(const [id,year,count] of [['d305acbf2ed8128257145002',2025,19],['cc5b95dfb46915cd3d0a3bff',2024,21],['2184a05521ceaa10c1c77036',2023,20]] as const){
   const ps=run(id).projects;assert.equal(ps.length,count);assert.ok(ps.every(p=>p.evaluatedFiscalYear===year&&p.evaluationYear===null&&p.amounts.length===0&&p.indicators.length===0));assert.equal(ps.filter(p=>p.projectName==='家計相談支援事業').length,1);assert.ok(!ps.some(p=>p.projectName==='高齢者福祉の推進'));}
  const partial=run('cc5b95dfb46915cd3d0a3bff').projects.find(p=>p.projectName==='地域移行検討事業')!;assert.ok(partial.warnings.some(w=>w.includes('見送り')));assert.ok(partial.evidence.some(e=>e.rawText?.includes('実\n施を見送りました')));
+});
+
+test('Niimi complete annual books retain exact target years and independent branch identities',()=>{
+ const books=[['f01e081cf4f4f4e0294c1030',2016,54],['cae4dc94434b466c6ea74cf2',2017,78],['83ac72d6b17b51d77f22249e',2018,50],['aabf53ce800728d419dcde18',2019,56],['51a4bf668a7f45cbe2dd308e',2020,69],['5527bd1be94562c0a45be757',2021,75],['a93343902f28d6c036b73678',2022,36],['36d78707d9334f924eb64b2b',2023,24],['383de879ea644e6b7606ae4d',2024,79]] as const;
+ for(const [id,fy,n]of books){const ps=run(id).projects;assert.equal(ps.length,n);assert.ok(ps.every(p=>p.evaluatedFiscalYear===fy&&p.evaluationYear===fy+1));assert.equal(new Set(ps.map(p=>p.id)).size,n);}
+ for(const id of ['51a4bf668a7f45cbe2dd308e','5527bd1be94562c0a45be757','a93343902f28d6c036b73678','383de879ea644e6b7606ae4d']){const ps=run(id).projects.filter(p=>p.department);assert.equal(ps.length,4);assert.deepEqual(ps.map(p=>p.department),['大佐支局地域振興課','神郷支局地域振興課','哲多支局地域振興課','哲西支局地域振興課']);assert.ok(ps.every(p=>p.evidence.some(e=>e.rawText===p.department!.replace('地域振興課','\n地域振興課'))));}
+});
+test('Niimi dedup exception requires both reviewed source rows and exact department evidence',()=>{
+ const ps=run('a93343902f28d6c036b73678').projects.filter(p=>p.department);const [a,b]=ps;assert.ok(distinctOkayamaDepartmentRows(a,b));assert.ok(distinctOkayamaDepartmentRows(b,a));assert.equal(distinctOkayamaDepartmentRows(a,a),false);
+ for(const bad of [{...b,id:'unknown-existing-row'},{...b,department:null},{...b,department:a.department},{...b,evaluatedFiscalYear:2021},{...b,projectName:'unknown-name'},{...b,evidence:b.evidence.map(e=>({...e,sha256:'wrong'}))},{...b,evidence:b.evidence.map(e=>({...e,cell:'extracted-text:chars:0-1'}))}])assert.equal(distinctOkayamaDepartmentRows(a,bad),false);
+});
+test('Niimi department mapping rejects shifted or unmatched attribution proof',()=>{
+ const c=(okayamaRows as any[]).find(c=>c.sourceId==='a93343902f28d6c036b73678');const row=c.rows.find((r:any)=>r.department);const proof=row.departmentProof;const department=row.department;
+ try{row.departmentProof={...proof,start:proof.start+1};assert.throws(()=>run(c.sourceId),/department evidence mismatch/);row.departmentProof=proof;row.department='推測した部署';assert.throws(()=>run(c.sourceId),/department evidence mismatch/);}finally{row.departmentProof=proof;row.department=department;}
+});
+test('Niimi mixed fiscal periods and parent-child overlap remain excluded',()=>{
+ assert.ok(!run('5527bd1be94562c0a45be757').projects.some(p=>p.projectName==='クリーンセンター基幹的設備改良事業'));
+ assert.ok(!run('a93343902f28d6c036b73678').projects.some(p=>p.projectName==='看護師確保対策支援事業補助金'));
+ assert.ok(!run('aabf53ce800728d419dcde18').projects.some(p=>p.projectName==='生活困窮者就労準備支援事業'));
+ assert.ok(!run('cae4dc94434b466c6ea74cf2').projects.some(p=>p.projectName==='観光施設魅力向上事業'));
+ assert.ok(!run('383de879ea644e6b7606ae4d').projects.some(p=>p.projectName.includes('布瀬配水区統合')));
+ const p=run('383de879ea644e6b7606ae4d').projects.find(p=>p.projectName==='自転車ヘルメット支給事業')!;assert.equal(p.evaluatedFiscalYear,2024);assert.ok(p.evidence.some(e=>e.rawText?.includes('令和7年度新入学生徒用')));assert.deepEqual(p.amounts,[]);
+});
+test('Bizen response-year identities do not inherit policy target years or scores',()=>{
+ const ps=run('d52a90ef5a57869f1622c3f4').projects;assert.equal(ps.length,3);assert.ok(ps.every(p=>p.evaluationYear===2025&&p.evaluatedFiscalYear===null&&p.amounts.length===0&&p.ratings.length===0));
 });

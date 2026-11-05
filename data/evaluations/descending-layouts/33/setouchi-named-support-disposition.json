@@ -1,0 +1,39 @@
+[
+  {
+    "sourceId": "d305acbf2ed8128257145002",
+    "proposed": [
+      "高齢者徘徊対策促進事業",
+      "補聴器購入助成事業",
+      "結婚新生活支援事業",
+      "鳥獣被害に強い集落づくり支援事業",
+      "瀬戸内市生き活き農地再生事業",
+      "生ごみ処理機購入補助事業"
+    ],
+    "rule": "exact named activity only; no inferred fields; absent spellings are not substituted"
+  },
+  {
+    "sourceId": "cc5b95dfb46915cd3d0a3bff",
+    "proposed": [
+      "高齢者徘徊対策促進事業",
+      "補聴器購入助成事業",
+      "結婚新生活支援事業",
+      "鳥獣被害に強い集落づくり支援事業",
+      "生ごみ処理機購入補助事業",
+      "高齢福祉タクシー助成事業"
+    ],
+    "rule": "exact named activity only; no inferred fields; absent spellings are not substituted"
+  },
+  {
+    "sourceId": "2184a05521ceaa10c1c77036",
+    "proposed": [
+      "高齢者徘徊対策促進事業",
+      "補聴器購入助成事業",
+      "結婚新生活支援事業",
+      "鳥獣被害に強い集落づくり支援事業",
+      "定年帰農者等育成支援事業",
+      "瀬戸内市耕作放棄地解消等事業",
+      "高齢福祉タクシー助成事業"
+    ],
+    "rule": "exact named activity only; no inferred fields; absent spellings are not substituted"
+  }
+]

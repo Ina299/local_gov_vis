@@ -1,9 +1,9 @@
 import type {ProjectEvaluation} from '../../../../web/src/types/evaluation';
 import {createHash} from 'node:crypto';
 import type {LayoutReview} from './descending-layouts-r2';
-import {type CachedInput, project, evidence} from './shared';
+import {type CachedInput, project, evidence, stableId} from './shared';
 import {okayamaRows} from './descending-okayama-map';
-interface Row {name:string; titleFragments?:string[]; titleSegments?:{start:number;raw:string}[]; start:number; raw:string; note:string; year?:number; yearProof?:string;context?:string;contextStart?:number}
+interface Row {name:string; department?:string; departmentProof?:{raw:string;start:number}; titleFragments?:string[]; titleSegments?:{start:number;raw:string}[]; start:number; raw:string; note:string; year?:number; yearProof?:string;context?:string;contextStart?:number}
 interface Config {sourceId:string;municipalityCode:string;sourceUrl:string;sourceSha256:string;format:string;reviewStatus?:string;year:number|null;evaluationYear?:number;pageId?:string;pageHash?:string;pageProof?:string;pageSourceSha256?:string;pageUrl?:string;proof:string;fullTextSha256:string;rows:Row[];holds:{start:number;raw:string;reason:string;status?:string}[]}
 export function reviewOkayama(i:CachedInput, inputs:CachedInput[]=[]):LayoutReview|null {
  const c=(okayamaRows as Config[]).find(c=>c.sourceId===i.sourceId&&c.municipalityCode===i.municipalityCode);if(!c)return null;
@@ -23,9 +23,25 @@ export function reviewOkayama(i:CachedInput, inputs:CachedInput[]=[]):LayoutRevi
    }
    if(ranges.some((a,n)=>n>0&&a.start<ranges[n-1].end)||row.name!==row.titleSegments.map(s=>s.raw).join('').replace(/\s+/g,''))throw new Error('Okayama title segment identity mismatch');
   }
-  const p=project(i,'literal-'+row.start,row.name,c.evaluationYear??null,row.raw,row.start);if(page)p.evidence.push(evidence(page,c.pageProof!));if(row.titleSegments)for(const seg of row.titleSegments)p.evidence.push(evidence(i,seg.raw,seg.start));p.projectCode=null;p.evaluatedFiscalYear=row.year??c.year;p.evidence.push(evidence(i,c.proof));if(row.yearProof)p.evidence.push(evidence(i,row.yearProof));if(row.context)p.evidence.push(evidence(i,row.context,row.contextStart));p.warnings.push(row.note);r.projects.push(p);r.units.push({start:row.start,name:row.name,status:'supported',reason:row.note});
+  const p=project(i,'literal-'+row.start,row.name,c.evaluationYear??null,row.raw,row.start);if(row.department||row.departmentProof){const d=row.departmentProof;if(!row.department||!d||d.raw.replace(/\s+/g,'')!==row.department||!Number.isInteger(d.start)||d.start<0||i.text.slice(d.start,d.start+d.raw.length)!==d.raw||row.contextStart!==d.start||!row.context?.startsWith(d.raw))throw new Error('Okayama department evidence mismatch');p.department=row.department;p.evidence.push(evidence(i,d.raw,d.start));}if(page)p.evidence.push(evidence(page,c.pageProof!));if(row.titleSegments)for(const seg of row.titleSegments)p.evidence.push(evidence(i,seg.raw,seg.start));p.projectCode=null;p.evaluatedFiscalYear=row.year??c.year;p.evidence.push(evidence(i,c.proof));if(row.yearProof)p.evidence.push(evidence(i,row.yearProof));if(row.context)p.evidence.push(evidence(i,row.context,row.contextStart));p.warnings.push(row.note);r.projects.push(p);r.units.push({start:row.start,name:row.name,status:'supported',reason:row.note});
  }
  for(const h of c.holds){if(i.text.slice(h.start,h.start+h.raw.length)!==h.raw)throw new Error('Reviewed Okayama hold evidence mismatch');r.units.push({start:h.start,status:h.status??'identity_or_period_hold',reason:h.reason});}
  r.proofs=[c.proof];return r;
 }
 
+
+/** Only source-reviewed branch rows qualify; unknown department identities remain duplicates. */
+export function distinctOkayamaDepartmentRows(a:ProjectEvaluation,b:ProjectEvaluation):boolean {
+ if(a.municipalityCode!=='33210'||b.municipalityCode!=='33210'||!a.department||!b.department||a.department===b.department)return false;
+ const identify=(p:ProjectEvaluation)=>{
+  for(const c of okayamaRows as Config[]){
+   if(c.municipalityCode!==p.municipalityCode||c.year!==p.evaluatedFiscalYear||(c.evaluationYear??null)!==p.evaluationYear)continue;
+   for(const row of c.rows){const d=row.departmentProof;if(!d||row.department!==p.department||row.name!==p.projectName)continue;
+    const id=stableId({sourceUrl:c.sourceUrl,municipalityCode:c.municipalityCode} as CachedInput,'literal-'+row.start,c.evaluationYear??null);
+    if(p.id===id&&p.evidence.some(e=>e.sha256===c.sourceSha256&&e.sourceUrl===c.sourceUrl&&e.rawText===d.raw&&e.cell===`extracted-text:chars:${d.start}-${d.start+d.raw.length}`))return c.sourceId;
+   }
+  }
+  return null;
+ };
+ const left=identify(a);return left!==null&&left===identify(b);
+}

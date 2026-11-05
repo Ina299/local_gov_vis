@@ -1,8 +1,8 @@
 {
-  "status": "OPEN Okayama cached review;1131 validated isolated candidates",
-  "base": "79c3f81154c392652d7fd8c2bbe6069c6fb922b0",
-  "candidateRecords": 1131,
-  "candidateMunicipalities": 9,
+  "status": "OPEN Okayama cached review;1674 validated isolated candidates",
+  "base": "f8f3a217ab93e9081a39f2f794eb9eb39cda9ea0",
+  "candidateRecords": 1674,
+  "candidateMunicipalities": 11,
   "municipalities": [
     "吉備中央町",
     "久米南町",
@@ -12,10 +12,12 @@
     "早島町",
     "浅口市",
     "赤磐市",
-    "瀬戸内市"
+    "瀬戸内市",
+    "備前市",
+    "新見市"
   ],
-  "cumulativeCandidates": 13599,
-  "cumulativeQuotes": 33803,
+  "cumulativeCandidates": 14142,
+  "cumulativeQuotes": 36071,
   "cumulativeExcludes": [
     "Okinawa1084",
     "initial93"
@@ -25,26 +27,26 @@
   "municipalRequests": 0,
   "externalWrites": "Dedicated validated branch push authorized; no PR metadata, main/master, merge or deployment",
   "tests": {
-    "focused": "21/21",
-    "crawler": "561/561",
+    "focused": "26/26",
+    "crawler": "566/566",
     "web": "256/256",
     "typecheck": "pass",
     "lint": "pass with existing font warning",
     "national": "500 municipalities/92038 records unchanged",
-    "static": "109 pages at/local_gov_vis;temporary font option restored",
-    "quotes": "33803 exact quotes across13599 candidates"
+    "static": "109 pages at /local_gov_vis;temporary font option restored",
+    "quotes": "36071 exact quotes across14142 candidates"
   },
   "inventory": {
     "sources": 129,
     "completeBodies": 117,
     "verifiedPrefixes": 1,
     "missingBodies": 11,
-    "mappedSourceConfigs": 65
+    "mappedSourceConfigs": 79
   },
-  "remaining": "543 proposals saved externally and unaccepted;Niimi9books521 plus Setouchi19/Bizen3. Kasaoka bounded prefix and lower-code sources remain actionable. Mimasaka1 preserved off-branch due to current-master updates. No nationwide completion.",
+  "remaining": "457 externally saved proposals:Kasaoka108 bounded prefix,Tamano191 annual assessment titles,Okayama city158 FY2022/23 titles. Runtime/dedup/full tests pending. Missing originals and encoding holds remain;no nationwide completion.",
   "gates": "Original53 plus current-master dataset/evidence changes excluded. Original baseline hashes retained;unpublished changes unobservable. No municipal access;verified dedicated branch pushes only.",
-  "newInThisIncrement": 85,
-  "externalUnacceptedProposals": 543,
+  "newInThisIncrement": 543,
+  "externalUnacceptedProposals": 457,
   "old310DeepIdentical": true,
   "initial205Disposition": {
     "retained": 204,
@@ -57,5 +59,6 @@
     "municipalities": 26,
     "candidates": 2575,
     "meaning": "Municipality-level changes;not a duplicate count. Existing sets preserved."
-  }
+  },
+  "old1131DeepIdentical": true
 }
