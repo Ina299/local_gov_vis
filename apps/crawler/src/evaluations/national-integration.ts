@@ -17,7 +17,8 @@ export const BASELINE_CODES = ['01100', '11237', '14206'] as const;
 export const LIMITS = { indexBytes: 2 * 1024 * 1024, shardBytes: 32 * 1024 * 1024,
   baselineBytes: 8 * 1024 * 1024,
   // 全自治体の事業票の合計（未圧縮）。2026-11 に目的・事業内容・成果の補強で 512MiB を超えたため 1GiB に。配信は gzip（compress-data.mjs）
-  totalBytes: 1024 * 1024 * 1024, municipalities: 1741, records: 100_000 } as const;
+  // 事業票の件数。2026-11 に dots の降順レビュー分（8,986件）の追加で 100,000 を超えたため 200,000 に。
+  totalBytes: 1024 * 1024 * 1024, municipalities: 1741, records: 200_000 } as const;
 const INDEX_PATH = 'evaluations-index.json';
 const MANIFEST_PATH = 'data/evaluations/integration-provenance.json';
 const record = (value: unknown): value is Record<string, unknown> => !!value && typeof value === 'object' && !Array.isArray(value);

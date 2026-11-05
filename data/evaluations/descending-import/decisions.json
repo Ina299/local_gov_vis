@@ -1,0 +1,5766 @@
+{
+ "schemaVersion": 1,
+ "description": "dots の隔離候補（data/evaluations/descending-*/*/inputs）の取り込み前レビュー（2026-11-06）。資料ごとに事務事業の評価・成果報告・交付金事業の実施結果かを判定し、事業名でない行・本文で確かめられない候補などを個別に除外した。apps/crawler/src/assemble-descending-inputs.ts が読む。",
+ "sources": [
+  {
+   "municipalityCode": "45201",
+   "sha256": "08f4a9cc502f6bcaf6423b2a01ee88f4b95e32de03280b4ec09a5bfe62f0c5d9",
+   "include": true,
+   "docType": "新規事業評価一覧（予算の事前評価）",
+   "reason": "令和7年度新規事業評価一覧（令和8年度分）。No・課・事業名・評価の行。2件とも折返し名称がNo.96・101の行と一致。評価年度2025は公開済み宮崎市の評価表（2025, null）と同じ扱い。",
+   "checked": 2,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "45203",
+   "sha256": "fb8727673d58e65e230a031da8715db7e481f717e728b96d80d09a22a7f9046a",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和3年度の交付金充当事業ごとに事業名・事業費・成果・効果検証がある表。名称は折返しを含めNo.1〜の行と対応、年度は表題・本文「令和３年度において」で確認。",
+   "checked": 12,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "45341",
+   "sha256": "e35026b84002bf884f4bbe4b0af1fd51e499b8b8bbd324d7d13f5ead827fdcbe",
+   "include": false,
+   "docType": "広報紙の記事（外部評価結果のお知らせ）",
+   "reason": "広報みまた2013年11月号の記事で、公式の評価書・事業票ではない（演劇公演・西南戦争特集等と同じ号）。広報記事は対象外。実施（対象）年度も本文で確定できない。",
+   "checked": 5,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "45402",
+   "sha256": "1b38a83740d1e482ca4c5513e16201deb84513632ba770b5931a6c2a540ecac3",
+   "include": false,
+   "docType": "総合戦略 年度別実施計画の検証",
+   "reason": "総合戦略の実施計画検証の丸数字付き実施項目（KPI・活動単位）で事務事業評価ではない。ブリーフの除外例（新富町の検証）に該当。",
+   "checked": 3,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "45402",
+   "sha256": "9bd72af39705174d7bad2905dc14c9cd92d0013f64cbc1c820169551b28176ce",
+   "include": false,
+   "docType": "総合戦略 年度別実施計画の検証",
+   "reason": "総合戦略の実施計画検証の丸数字付き実施項目（KPI・活動単位）で事務事業評価ではない。ブリーフの除外例（新富町の検証）に該当。",
+   "checked": 3,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "45402",
+   "sha256": "8e766f1429b1941ec64cd7c5bc9f7b519ccaef3d021f0352491c72bb7eca998e",
+   "include": false,
+   "docType": "総合戦略 年度別実施計画の検証",
+   "reason": "総合戦略の実施計画検証の丸数字付き実施項目（KPI・活動単位）で事務事業評価ではない。ブリーフの除外例（新富町の検証）に該当。",
+   "checked": 3,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "45402",
+   "sha256": "137326acfb2f836ff9a7bd30998649b80b9e12241f14bae13183044e8fa51dd4",
+   "include": false,
+   "docType": "総合戦略 年度別実施計画の検証",
+   "reason": "総合戦略の実施計画検証の丸数字付き実施項目（KPI・活動単位）で事務事業評価ではない。ブリーフの除外例（新富町の検証）に該当。",
+   "checked": 3,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "45402",
+   "sha256": "686e4b2ef192e165df4b54997143b91180846bb8e6c76bacfaa7ab7f4484d5b1",
+   "include": false,
+   "docType": "総合戦略 年度別実施計画の検証",
+   "reason": "総合戦略の実施計画検証の丸数字付き実施項目（KPI・活動単位）で事務事業評価ではない。ブリーフの除外例（新富町の検証）に該当。",
+   "checked": 3,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "45402",
+   "sha256": "49b8722c438fc672f8450d3d767967ade1f8361dfb2ca3e3e19888877422418c",
+   "include": false,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "事業ごとの報告だが、本文に対象年度の記載がない（KPI年月H29.3のみ）。年度は別ページ由来で本文で確認できないため保留。 追加方針（実施年度が本文で確かめられること）に照らしても false のまま。",
+   "checked": 2,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "45402",
+   "sha256": "7fe4c24261d1c8b570c2e1385c8b6ec9ee99b295748acedc122590a7b7fadce3",
+   "include": false,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "事業ごとの評価表だが、本文に対象年度の記載がない（KPI年月H28.3のみ）。年度は別ページ由来で本文で確認できないため保留。 追加方針（実施年度が本文で確かめられること）に照らしても false のまま。",
+   "checked": 5,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "45429",
+   "sha256": "ce04440c99c3c95287fe6eb5faccedfa368555d34a1587673ba124ce87563bff",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和4年度の交付対象事業ごとに名称・決算額・成果・効果検証がある表。狭い名称欄の折返し（約5字幅）を連結した名称がNo.1〜24の行と対応。年度は表題で確認。",
+   "checked": 22,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "45430",
+   "sha256": "e669c214bdeda5bd068653b1e44cac0260f076500381b8ab0c91c47b33ab46f1",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和5年度、事業名・担当課・事業費・成果の行。3件とも名称欄と完全一致。",
+   "checked": 3,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "45431",
+   "sha256": "00c817dec57d9a6a6a7dfbf54623ead2ec7b5a479007cd6f2230e9c8747b1bd8",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和6年度、交付金事業名・事業費・効果の表。候補（No.11 緊急防犯灯設置事業 R6.4〜R7.3）を確認。",
+   "checked": 1,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46201",
+   "sha256": "541c4700460b9b9fcba5adbfbd0645df1781dcd636a661a3fd78b881a5db3078",
+   "include": true,
+   "docType": "事務事業評価結果一覧",
+   "reason": "事務事業評価結果一覧表（No・事業名・担当局課・評価結果A〜G）。11件とも折返しの2行が同一行の名称と一致。評価年度2025は本文に明記がなく公表ページ由来（本文は計画期間R7〜8のみで矛盾はしない）。",
+   "checked": 11,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46210",
+   "sha256": "9df9626e8f0f516f15f65eccfa8d718e246f8d368dcbbcb6deecd11e7915abd6",
+   "include": true,
+   "docType": "補助金等の評価結果",
+   "reason": "令和5年度の補助金・負担金ごとの評価（廃止・縮小・改善・継続と理由）。25件が補助金等名称欄と対応（折返し含む）。",
+   "checked": 25,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46213",
+   "sha256": "1e37c53009f9af90f3ac225c070ddebf27bad1ebb471c6e5e583ffa8e76d2387",
+   "include": true,
+   "docType": "事務事業評価シート（PDCA）",
+   "reason": "事業ごとの評価シート（事業名・総事業費・実績・振り返り・2025年度方向性）。令和6年度実施分の評価。同じ1枚のシートから2023年度分を別に作った候補は除外。",
+   "checked": 3,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46213",
+   "sha256": "37f22c101a51651272c3e4bbcf47b3a2b1665d9406417fd675a40ce3df974c2b",
+   "include": true,
+   "docType": "事務事業評価シート（PDCA）",
+   "reason": "コンビニ交付事業の評価シート1枚（2025年度方向性、R5・R6実績）。1枚から2年度分の候補が作られているため2023年度分を除外。",
+   "checked": 2,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46217",
+   "sha256": "41d5696537e68fc25d847fd35520c1f5328b2f37ab0a3faae8c8500fafd7f222",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和4年度実施計画分の事業ごと（名称・決算額・始期終期・成果・評価）。7件とも名称と始期終期がR4年度内であることを確認。",
+   "checked": 5,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46218",
+   "sha256": "82714a20cdd31adec05f8f621c69e821fe2069dd9ba1b75b5fb7f5deba8f158f",
+   "include": true,
+   "docType": "実施事務事業の一覧（事業・コスト方向性）",
+   "reason": "令和7年度に実施した事務事業ごとに担当課・施策体系・事業／コスト方向性を示す行政評価の一覧。438件を折返し断片の連結で照合し全件が行の名称欄に対応。",
+   "checked": 438,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46218",
+   "sha256": "012ae7852e3c980722a05bc2956e4a4c80cc2abd29de7615189ba58f4b10c1f8",
+   "include": true,
+   "docType": "実施事務事業の一覧（事業・コスト方向性）",
+   "reason": "令和6年度に実施した事務事業の一覧（同形式）。449件を折返し断片の連結で照合し全件が行の名称欄に対応。",
+   "checked": 449,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46223",
+   "sha256": "f6a1ed0c052bcb5d0be3456cd6fb73972b82e02b4624f90a82479e73467e681c",
+   "include": true,
+   "docType": "教育委員会の点検・評価報告書",
+   "reason": "教育委員会の事務事業の点検・評価。表紙等に「令和○年度事務事業対象」と明記され年度が一致。候補は評価対象事務事業名欄（括弧書き）と一致。公開済みの南九州市（同形式58件）と同じ扱い。",
+   "checked": 3,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46223",
+   "sha256": "8aeda98b15bc52e55aa8dafbf237265bea4baac14e8ef4600d62057f88db3d10",
+   "include": true,
+   "docType": "教育委員会の点検・評価報告書",
+   "reason": "教育委員会の事務事業の点検・評価。表紙等に「令和○年度事務事業対象」と明記され年度が一致。候補は評価対象事務事業名欄（括弧書き）と一致。公開済みの南九州市（同形式58件）と同じ扱い。",
+   "checked": 2,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46223",
+   "sha256": "0808d13d99f3d8f504cf47018cd63f0cce427ecaa36598c1645654fb40ab045e",
+   "include": true,
+   "docType": "教育委員会の点検・評価報告書",
+   "reason": "教育委員会の事務事業の点検・評価。表紙等に「令和○年度事務事業対象」と明記され年度が一致。候補は評価対象事務事業名欄（括弧書き）と一致。公開済みの南九州市（同形式58件）と同じ扱い。",
+   "checked": 2,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46223",
+   "sha256": "ba069b0e83de4fc948d9bb5d59ffae3dc648f7475c91fbd959151260ca0abcc8",
+   "include": true,
+   "docType": "教育委員会の点検・評価報告書",
+   "reason": "教育委員会の事務事業の点検・評価。表紙等に「令和○年度事務事業対象」と明記され年度が一致。候補は評価対象事務事業名欄（括弧書き）と一致。公開済みの南九州市（同形式58件）と同じ扱い。",
+   "checked": 4,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46223",
+   "sha256": "f8258539c21e23edcbd0d88d914e9eac9301e2d93f8e238c089cac14cd34c8b7",
+   "include": true,
+   "docType": "教育委員会の点検・評価報告書",
+   "reason": "教育委員会の事務事業の点検・評価。表紙等に「令和○年度事務事業対象」と明記され年度が一致。候補は評価対象事務事業名欄（括弧書き）と一致。公開済みの南九州市（同形式58件）と同じ扱い。",
+   "checked": 2,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46223",
+   "sha256": "8293ea281304a2560539042f4d83c7a4a012bfa871923bfbb9fb274fb3073ed3",
+   "include": true,
+   "docType": "教育委員会の点検・評価報告書",
+   "reason": "教育委員会の事務事業の点検・評価。表紙等に「令和○年度事務事業対象」と明記され年度が一致。候補は評価対象事務事業名欄（括弧書き）と一致。公開済みの南九州市（同形式58件）と同じ扱い。",
+   "checked": 2,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46223",
+   "sha256": "bff27d7ea420f56b2df7a080e163814de87c98eadbaa1469fb0d235911529c2b",
+   "include": true,
+   "docType": "教育委員会の点検・評価報告書",
+   "reason": "教育委員会の事務事業の点検・評価。表紙等に「令和○年度事務事業対象」と明記され年度が一致。候補は評価対象事務事業名欄（括弧書き）と一致。公開済みの南九州市（同形式58件）と同じ扱い。",
+   "checked": 2,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46223",
+   "sha256": "a361a105397857bfcb34e82b03a7b76d817e63d0f05d443ef14b46678b515cae",
+   "include": true,
+   "docType": "教育委員会の点検・評価報告書",
+   "reason": "教育委員会の事務事業の点検・評価。表紙等に「令和○年度事務事業対象」と明記され年度が一致。候補は評価対象事務事業名欄（括弧書き）と一致。公開済みの南九州市（同形式58件）と同じ扱い。",
+   "checked": 2,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46223",
+   "sha256": "3d9590d2235415ebdc3f4602026697bdf917cd941e54b53d55f7cb284e984c2c",
+   "include": true,
+   "docType": "教育委員会の点検・評価報告書",
+   "reason": "教育委員会の事務事業の点検・評価。表紙等に「令和○年度事務事業対象」と明記され年度が一致。候補は評価対象事務事業名欄（括弧書き）と一致。公開済みの南九州市（同形式58件）と同じ扱い。",
+   "checked": 4,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46223",
+   "sha256": "647d1f50ff48eb0209952ce23af56d3881ccb87038010269994e8313330c928d",
+   "include": true,
+   "docType": "教育委員会の点検・評価報告書",
+   "reason": "「主要事業」欄ごとの意見・提言と対応方針。候補名は主要事業欄の折返しと一致。年度は報告書の対象年度。公開済みの南九州市と同じ扱い。",
+   "checked": 5,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46223",
+   "sha256": "85bd0ba5aa36de0c1acc12065fb17efd893271c5b5fc4752a2eafecc3a103faf",
+   "include": true,
+   "docType": "教育委員会の点検・評価報告書",
+   "reason": "「主要事業」欄ごとの意見・提言と対応方針。候補名は主要事業欄の折返しと一致。年度は報告書の対象年度。公開済みの南九州市と同じ扱い。",
+   "checked": 1,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46224",
+   "sha256": "d44331bf8880965ee5941709e4be83111262e23ecc9e7f3e9e152748e9f3d015",
+   "include": true,
+   "docType": "事務事業評価結果一覧",
+   "reason": "令和6年度事務事業評価（令和5年度実施事務事業）の部門別一覧。31件が事業名欄と一致（1件は折返し）。",
+   "checked": 31,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46392",
+   "sha256": "a1afd0a87f909a4effb8fe515ae1cc2802a135a4c295108f34c9cf5809f4f090",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "年度別の事業名・所管・事業費・事業評価の表。折返し名称が行と対応。R2・R3冊子は年度見出しの前後で同名事業が両年度に出ていることを確認。",
+   "checked": 30,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46392",
+   "sha256": "656a8cf9ee446d65050ae000b61365e9ab7c0fa74a24a6cf222ff9f23ae54376",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "年度別の事業名・所管・事業費・事業評価の表。折返し名称が行と対応。R2・R3冊子は年度見出しの前後で同名事業が両年度に出ていることを確認。",
+   "checked": 16,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46392",
+   "sha256": "37891d725e8721e9034d337adcc8c6b0aba8284533111e1bbd4979ed8720d025",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "年度別の事業名・所管・事業費・事業評価の表。折返し名称が行と対応。R2・R3冊子は年度見出しの前後で同名事業が両年度に出ていることを確認。",
+   "checked": 5,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46392",
+   "sha256": "f6e8c1a14aee6d2c6018c189f221c79ec4068ed7b2cddb2fe081036bf064e856",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "年度別の事業名・所管・事業費・事業評価の表。折返し名称が行と対応。R2・R3冊子は年度見出しの前後で同名事業が両年度に出ていることを確認。",
+   "checked": 5,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46392",
+   "sha256": "37997f0911271273eef154a67284e83b6d73672e73ba19e9c83bc2c3d4710719",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "年度別の事業名・所管・事業費・事業評価の表。折返し名称が行と対応。R2・R3冊子は年度見出しの前後で同名事業が両年度に出ていることを確認。",
+   "checked": 2,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46404",
+   "sha256": "39aa61d1cdbfdb01e680fe3561a2c78d3012d4792220768b5ce585a1da19563f",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和4年度、交付対象事業の名称・担当課・始期終期・効果の表。45件中大半は完全一致。No.15の2行名称は除外。No.17・18は括弧内の事業名のみ（接頭の特別会計繰出名を省略）だが行とは対応。",
+   "checked": 45,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46452",
+   "sha256": "e6e17586c21cc1c7d186fabb2023bc891196d6c330a426c4369d342404cd7c58",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和5年度、No・所管・事業名・事業評価の表。4件の折返し名称がNo.1・3〜5の行と対応。",
+   "checked": 4,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46482",
+   "sha256": "28de4875aa542b97ec1648b8f397b22754d1c27541111ba5116c1efdca445144",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和6年度、交付対象事業名・事業費・効果の表。3件とも狭い名称欄の折返しを連結した名称が行No.2・7・11と対応（原文の「】】」もそのまま）。",
+   "checked": 3,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46491",
+   "sha256": "3a0e0ac3a3dab6af6a0a8fd51269e8ce4fd853df6926e0729f63417b5aeb29cd",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和6年度、事業名・事業費・成果の表。No.11・12は事業名。No.1は交付金の枠名なので除外。",
+   "checked": 3,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46501",
+   "sha256": "c44ac49c49961c3a01da7380309058a51cc68feabbfd5263196f5df36e377575",
+   "include": false,
+   "docType": "社会資本総合整備計画の事後評価書",
+   "reason": "計画単位の事後評価（計画期間H31〜R4、全体事業費118百万円）。候補「(2)下馬通線・野間工区」は工区名で事務事業名ではない。評価年度と実施年度も一致しない。",
+   "checked": 1,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46525",
+   "sha256": "868ec47307beb988acdf137201734088a3e30cc472140db1c916490f90513d5b",
+   "include": false,
+   "docType": "総合戦略の評価・検証（基本目標4）",
+   "reason": "総合戦略の施策項目（4-1-1等）ごとの様式でKPIと自己評価を並べたもの。「自衛隊との連携」「地域福祉計画」「公共施設等総合管理計画」「文化祭」など事業でない項目や経費なしの項目が多い。総合戦略の実施項目にあたるため除外（迷うものは false の方針）。",
+   "checked": 6,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "46527",
+   "sha256": "e914319ed0845f1f158d09f593cb93d62e902fd8c0906ec4d65d93c546febfcd",
+   "include": false,
+   "docType": "子ども・子育て支援事業計画（第3期）",
+   "reason": "計画書の中にある第2期の実施状況（概要と年度別実績件数）で、事業ごとの評価ではない。1項目から4年度分の候補を作っている。計画は対象外。",
+   "checked": 4,
+   "group": "g1"
+  },
+  {
+   "municipalityCode": "43202",
+   "sha256": "5e6a18d1ecb67282e28890707d9d957b68f37126b213dbf27f51a3a680661556",
+   "include": false,
+   "docType": "市民質問への回答一覧",
+   "reason": "市民による行政評価での質問に対する市の回答一覧。事業評価票ではなく、事業名も複数行に分断されている",
+   "checked": 0,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43205",
+   "sha256": "4fc5dd23868102eb4d97c8a8f04fffadaef951968cc395062d2794e2708301a7",
+   "include": false,
+   "docType": "地方創生交付金事業の効果検証",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 3,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43205",
+   "sha256": "2580728e9332ff6a5619692469cd2f31fcd0d05b9ec9b77c2d0bc101adf9484b",
+   "include": true,
+   "docType": "教育委員会 点検・評価報告書",
+   "reason": "水俣市教育委員会の点検・評価報告書（平成22年度実績）。事業ごとの重要政策実施状況評価表（投入経費・指標・評価点）。候補13件すべて本文の評価表名と一致",
+   "checked": 13,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43205",
+   "sha256": "33c96a708f3f93c06f46652c9404818317da73d8eaae298355da953621a2051f",
+   "include": true,
+   "docType": "教育委員会 点検・評価報告書",
+   "reason": "平成23年度実績の点検・評価報告書。事業ごとの評価表。候補12件すべて一致",
+   "checked": 12,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43205",
+   "sha256": "6a34fd490269080abae7512dfb0c02a2813fdc6ba6f93513a0e8b7dfcb394f90",
+   "include": true,
+   "docType": "教育委員会 点検・評価報告書",
+   "reason": "平成24年度実績の点検・評価報告書。事業ごとの評価表。候補10件すべて一致",
+   "checked": 10,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43205",
+   "sha256": "3252119e8ce1119c71329028595452ab25dfb5d98fc3aaee99bf9ff4da3c60fb",
+   "include": true,
+   "docType": "教育委員会 点検・評価報告書",
+   "reason": "平成25年度実績の点検・評価報告書。事業ごとの評価表。候補9件すべて一致",
+   "checked": 9,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43205",
+   "sha256": "efaf72888c49180b2ce02ef4a33984bdbcbdddda5960c07ece3f7c55fec1e70d",
+   "include": true,
+   "docType": "教育委員会 点検・評価報告書",
+   "reason": "平成26年度実績の点検・評価報告書。事業ごとの評価表。候補11件すべて一致",
+   "checked": 11,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43208",
+   "sha256": "09cd69583b338286d020703125275630e6d4d36e644d4a51e9a5ff0c2317e84c",
+   "include": false,
+   "docType": "地方創生交付金の検証結果",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 2,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43348",
+   "sha256": "f94659bbc38fa892d55a916547f5006b51acdb5827489252fbdc24bec3ae9014",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和6年度交付枠の物価高騰対応重点支援交付金の効果検証表。行ごとに事業名・始期終期・総事業費・効果検証。候補4件は始終期（R6.5〜R8.3）の年度と一致",
+   "checked": 4,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43348",
+   "sha256": "328a63f7549b9eb7921faf2eee7117b36fa09b5d7945b0756b1627e20a7652fb",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和5年度物価高騰対応重点支援交付金の効果検証表。行ごとに事業名・始期終期・総事業費・効果検証。候補1件（LPガス、R6.4.5〜R6.11.25）一致",
+   "checked": 1,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43348",
+   "sha256": "6ed757975291d62cad22966a5a16b75b55b4e916f4af6088eb6be69a1a8b6288",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和5年度コロナ臨時交付金の効果検証表。行ごとに事業名・始期終期（R5.4〜R6.3）・総事業費・効果検証。候補5件一致",
+   "checked": 5,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43348",
+   "sha256": "0056f89b118ee0f8b613a7e179ab8e9abadb70cc5815c84ffae1421304a1bc17",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和4年度コロナ臨時交付金の効果検証表（53行）。行ごとに事業名・始期終期・総事業費・効果検証。候補34件は列内改行を含め行の事業名と一致",
+   "checked": 34,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43348",
+   "sha256": "8e0e625f140d3e278c5d70a1d999a98e36d7a82c9dbe2c4cd21c083202034ab9",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和3年度コロナ臨時交付金の効果検証表。行ごとに事業名・始期終期・総事業費・効果検証。候補36件一致",
+   "checked": 36,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43348",
+   "sha256": "16308e66fd27664c948a505dc1772a215be59db55b0ff011da295e6ebe5c080d",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和2年度コロナ臨時交付金の効果検証表。行ごとに事業名・始期終期・総事業費・効果検証。候補36件一致",
+   "checked": 36,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43364",
+   "sha256": "816da57f765efe83ca5045e51ec5e216839f203ea91ff88545337363328e4870",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和5年度物価高騰重点支援の効果検証表。行ごとに事業名・始期終期・事業費・事業実施状況と効果。候補2件（R5.4〜R6.3）一致",
+   "checked": 2,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43364",
+   "sha256": "fafe68fd841a6d2cddc3a07e8aefeb5a65128365b5413f01027d04e279fb174d",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和6年度物価高騰重点支援の効果検証表。行ごとに事業名・始期終期・事業費・効果。候補1件（買物券、R6.10〜R7.3）一致",
+   "checked": 1,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43367",
+   "sha256": "6446dad736033dbe33952690c3b96efcb8ffcd55addbdf3a13c4a5226e94fc3b",
+   "include": true,
+   "docType": "補助金の事務事業評価結果一覧",
+   "reason": "平成25年度 事務事業評価（補助金）の評価結果一覧。補助金ごとに一次・二次評価とコメント。事業名は列内で改行されているが対応を確認（25件中24件）",
+   "checked": 24,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43369",
+   "sha256": "85b18154590d3c3ef52d88c0a82870f9e89edd4296327fc8373e3b1dc56f33bc",
+   "include": true,
+   "docType": "主要施策成果報告書",
+   "reason": "令和4年度主要施策成果報告書。「事業№N＿事業名 金額」形式の事業ごとの記載。続きのテキスト（-2）を含め264件すべて番号付き事業名と一致",
+   "checked": 264,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43369",
+   "sha256": "e8f13ab5e48e3af2e9075c9b0b8d05aa5ca4147a78528577493807fa6034c6fa",
+   "include": true,
+   "docType": "主要施策成果報告書",
+   "reason": "令和5年度主要施策成果報告書。番号付き事業ごとの記載。267件すべて一致",
+   "checked": 267,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43369",
+   "sha256": "62f8374f13e848cce021adc35af2b133db80a0732d0d85f44525069a3e4d8114",
+   "include": true,
+   "docType": "主要施策成果報告書",
+   "reason": "令和7年度主要施策成果報告書（令和8年9月提出）。番号付き事業ごとの記載。268件すべて一致（1件は名称に欄外の「なし」が混入）",
+   "checked": 268,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43403",
+   "sha256": "4edc5f938038ab33784f4cb76c87513d3eebfa4a3f7e51020546855eb2914503",
+   "include": false,
+   "docType": "基本事業評価調書",
+   "reason": "評価単位は基本事業（施策の下位）。候補は「構成事務事業」欄に列挙された名称のみで、事務事業ごとの評価・行がない",
+   "checked": 129,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43423",
+   "sha256": "7626308a829f04cb8b4eb3fa3ba038506b221a3d16e0775245c77be9b736ddde",
+   "include": false,
+   "docType": "主要事業の紹介（広報資料）",
+   "reason": "総合計画の取組を紹介する広報的資料。事業ごとの評価・成果票ではない",
+   "checked": 12,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43423",
+   "sha256": "3d1ddf5151172bd4cf549d18b27e93732ffa60b7b1384bf2c150e9080e3eab62",
+   "include": false,
+   "docType": "総合計画進捗状況レポート",
+   "reason": "総合計画の進捗・成果指標のレポート。計画の項目単位",
+   "checked": 2,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43423",
+   "sha256": "ea92eb4a5865e557ea93cabea851797c264e3a7b4937b5dcdfe45d60f6db1a1a",
+   "include": false,
+   "docType": "総合計画重点事業一覧（KPI）",
+   "reason": "総合計画の重点事業のKPI・予算推移表（前年度実績評価兼当年度実施計画）。候補の年度は表見出しと不一致と警告に明記",
+   "checked": 2,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43425",
+   "sha256": "f2da15b2b42221cc09cb96a0410de2807c2442d39a557cf7861859c195e0f32d",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和3年度コロナ臨時交付金の実施状況と効果検証。行ごとに事業名・始期終期（R3）・総事業費・効果検証。候補27件一致",
+   "checked": 27,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43428",
+   "sha256": "226affbbaf3bab7a9972d590c4f3512299f6ad752067792ade8dc63fe413a46f",
+   "include": false,
+   "docType": "都市再生整備計画 事後評価シート",
+   "reason": "都市再生整備計画（地区）単位の事後評価。候補は提案事業の列挙で、事業ごとの評価ではない",
+   "checked": 1,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43433",
+   "sha256": "ff022b7d6262d1e46a4157b2e3e5471716829fb3d6e0fd74d35591bd8cbc2a9e",
+   "include": false,
+   "docType": "総合戦略 効果検証（交付金事業）",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 1,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43433",
+   "sha256": "a5245cc64e4eac728017f43e912a73ee33baf49113ad92f543717fd177df2088",
+   "include": false,
+   "docType": "総合戦略 効果検証（交付金事業）",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 1,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43433",
+   "sha256": "7f71ba39b9b48a68811b096d1da1b84a23cb9ae95cb7a76ed35f033356e47f70",
+   "include": false,
+   "docType": "総合戦略 効果検証（交付金事業）",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 1,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43433",
+   "sha256": "cb4653e9a6dc432eb15f7d8a659c1567b855e922fbf06bdb4eceda09972a53e4",
+   "include": false,
+   "docType": "総合戦略 効果検証（交付金事業）",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 1,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43433",
+   "sha256": "05baf4243520a7a8c1fc280d0c2a579c29567d4aaf717c3278a753acc6fe8d1d",
+   "include": false,
+   "docType": "総合戦略 効果検証（交付金事業）",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 2,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43441",
+   "sha256": "8377de2329266772c09598e1000fa98ac0ccea548bd02b02bc7e429e3b37904b",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和5年度コロナ臨時交付金の実施状況及び効果検証。行ごとに事業名・事業実績額・実績・効果。候補7件一致",
+   "checked": 7,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43443",
+   "sha256": "f8e4b658b41492fedc771cdc9f2c929f5d48317ac39a2d05a78a3bca847edeec",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和6年度物価高騰重点支援の事業実績及び効果検証。行ごとに事業名・始期終期・事業費・実績・効果。候補6件一致（高校生医療費はNo.15/21の同一事業を1件にまとめたもの）",
+   "checked": 6,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43444",
+   "sha256": "c0cfcedfdc2623352511064b91d6ac9153c76642b9b4719fc905ed6f26e14024",
+   "include": false,
+   "docType": "地方創生推進交付金 効果検証",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 4,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43484",
+   "sha256": "f015731fd3c5d9ba05a6b28da49a59e9c965b1209aacbe634e18c48a544794bb",
+   "include": false,
+   "docType": "総合戦略 評価・検証報告書",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗・効果検証。戦略の施策・KPI／実施項目単位で、事務事業評価ではない",
+   "checked": 29,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43501",
+   "sha256": "25ab62a6fb8e930a2b59d6bdc05d17909f4d4a9b329ca2fa6346a4b19a951a73",
+   "include": false,
+   "docType": "総合計画・総合戦略 進捗状況",
+   "reason": "総合計画・総合戦略の進捗状況。計画の施策・KPI単位",
+   "checked": 2,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43505",
+   "sha256": "fb1f8bb76fb193b6e8334dc1153e5acf7ebe09aa01dac6912858092468686f91",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和5年度コロナ臨時交付金の実施状況・事業実績・効果検証。行ごとに事業名・始期終期・総事業費・実績。候補6件一致",
+   "checked": 6,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43506",
+   "sha256": "9c2eabf5569f17a27de440e4b76ddf72559afbf0896f1c2240a27a4ed79ae262",
+   "include": false,
+   "docType": "総合戦略 検証結果報告書",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗・効果検証。戦略の施策・KPI／実施項目単位で、事務事業評価ではない",
+   "checked": 2,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43511",
+   "sha256": "badb078a60f3d0338a9b2361f3e0dd0268ee8fe051fecac3b62f85bd406cea59",
+   "include": false,
+   "docType": "過疎地域持続的発展計画 達成状況評価",
+   "reason": "過疎計画の目標指標の達成状況評価。「主な事業名」は計画分野ごとの列挙で、事業ごとの評価ではない",
+   "checked": 30,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43511",
+   "sha256": "e5cec9729a6b2c0dc5027999eb1123fd763fc0d8d6e2600916a07d03a7a4315c",
+   "include": false,
+   "docType": "過疎地域持続的発展計画 達成状況評価",
+   "reason": "過疎計画の目標指標の達成状況評価。「主な事業名」は計画分野ごとの列挙で、事業ごとの評価ではない",
+   "checked": 31,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "43512",
+   "sha256": "d6e39420c5765da5ef7fbca27a19a0ab6fa45dea41ac398b4be82138fbbe7913",
+   "include": false,
+   "docType": "課の事務報告",
+   "reason": "企画調整課の年度事務報告（文章中心）。事業ごとの評価・成果票ではなく、候補には金額付きの給付区分名や広報発行なども混在",
+   "checked": 24,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44201",
+   "sha256": "5901debaa789bf26a195c1245ecd572c5f2716f59e688e0696f46155f2352345",
+   "include": false,
+   "docType": "行政改革推進プラン 実績",
+   "reason": "行政（行財政）改革推進計画の実施項目・取組の評価。改革項目単位で事務事業ではない",
+   "checked": 1,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44201",
+   "sha256": "81f5067e9a370a31a7d4a257f1c21a1e3cec615abe3324ac956a6c151cd3b421",
+   "include": false,
+   "docType": "行政改革推進プラン 実績",
+   "reason": "行政（行財政）改革推進計画の実施項目・取組の評価。改革項目単位で事務事業ではない",
+   "checked": 3,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44202",
+   "sha256": "aa5659ef4833f6901136eccc7a16290b622756f998479e6c70c5d1f09e88fc40",
+   "include": false,
+   "docType": "行政改革推進計画 内部評価",
+   "reason": "行政（行財政）改革推進計画の実施項目・取組の評価。改革項目単位で事務事業ではない",
+   "checked": 2,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44202",
+   "sha256": "2ed72e45a0033682eca93b05d079c6a844d41e6c15543e5257b9d63b3bf974a3",
+   "include": false,
+   "docType": "行政改革推進計画 内部評価",
+   "reason": "行政（行財政）改革推進計画の実施項目・取組の評価。改革項目単位で事務事業ではない",
+   "checked": 2,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44202",
+   "sha256": "a8c077c12c2fba5258cd0fd3af463e40a205c36d19b547d00189d8a337ab6dac",
+   "include": false,
+   "docType": "行政改革推進計画 実績総括表",
+   "reason": "行政（行財政）改革推進計画の実施項目・取組の評価。改革項目単位で事務事業ではない",
+   "checked": 2,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44208",
+   "sha256": "d892da76da82ed53bf928fe9dc7966211dcb3dc5fd1183ff8a35826bc04d3c46",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和7年度物価高騰重点支援の効果検証。繰越で未完了（公表予定）の行は候補に含まれず、候補3件は完了済み（R7.4〜R8.3）で効果記載あり。給食費は補正分・予備費分の2行を1事業にまとめたもの",
+   "checked": 3,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44208",
+   "sha256": "dd13939f25b01016992e3a133548c9a26425afceb749b48876ab0ccda67bef4a",
+   "include": true,
+   "docType": "教育委員会 点検評価報告書",
+   "reason": "竹田市教育行政点検評価（令和2年度対象）。主要施策ごとのシートに「主要な事務事業名称」欄の行（事業概要・成果・効果/達成点）。行事・講座・展示などは個別に除外",
+   "checked": 41,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44208",
+   "sha256": "f9e21e0c4e8f427d537002dfe633a04dacd53d9cffc36d453677384c7b7fc5e4",
+   "include": true,
+   "docType": "教育委員会 点検評価報告書",
+   "reason": "令和3年度対象の点検評価報告書。「主要な事務事業名称」欄の行。行事・講座・作業項目は個別に除外",
+   "checked": 54,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44208",
+   "sha256": "b09ab8df35da7fd1ab7056dddedbd3003744ad00d657d51c81c8f190f9dc5432",
+   "include": true,
+   "docType": "教育委員会 点検評価報告書",
+   "reason": "令和7年度事業の点検評価報告書（令和8年度）。「主要な事務事業名称」欄の行。大会・展示・講座などは個別に除外",
+   "checked": 60,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "b4f6a41f26aa8f67a46a9f6f77975b55bb20183d7ceaf5a0c86a804d5e12cd58",
+   "include": false,
+   "docType": "地方創生交付金 事業実施結果報告",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 18,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "70a5b106cae34ba3cc836f054a421e1285ba03ea653c981466bddd17c6010781",
+   "include": false,
+   "docType": "地方創生交付金 事業実施結果報告",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 3,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "6708c1a4dcc098005a20f4202141d3bb083443414fdc5479c483ebf8a35095f7",
+   "include": false,
+   "docType": "地方創生交付金 事業実施結果報告",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 0,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "6d9fc23c15bec2f51ee12766e1bd11924847722b960e76dacf66f7cdc77c1512",
+   "include": false,
+   "docType": "地方創生交付金 事業実施結果報告",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 0,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "659ba860c28d0b77affc3c5783f9d281345a2e4f2aaca0b3132394797d98b085",
+   "include": false,
+   "docType": "地方創生交付金 事業実施結果報告",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 2,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "a8fc0e95d5d14139210cc790e7599fed63d6d74a9c0d57bc38e4cd45323ccead",
+   "include": false,
+   "docType": "地方創生交付金 事業実施結果報告",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 1,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "0fd91c01fedf99b4d8a635e7fba3ddf421d8e89c09d0f068eaa673b86315ebef",
+   "include": false,
+   "docType": "地方創生交付金 事業実施結果報告",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 0,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "097bc4a0210e7061f2b46003f47d25c7a8981691838e70d5d5d5f4e31ba52ee9",
+   "include": false,
+   "docType": "地方創生交付金 事業実施結果報告",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 0,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "d0ea231c836619a80bfe154b26a5a5b443d3844c3fde5e41d106166ec58bd164",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和2年度コロナ臨時交付金の事業実績検証シート。行ごとに事業名・事業費・期間・事業効果・総合評価。候補29件は狭い列内で改行されているが行と対応。「公募中」で効果検証未了の1件を除外",
+   "checked": 29,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "264755ce7b7d6719971cf530a365c1f8bb6bd94397aeaecacfec7c726159dc33",
+   "include": false,
+   "docType": "地方創生交付金 事業実施結果報告",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 0,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "dc604fbb9fac73bc506aa3d6d02824c1ee3c9ce560d92741ad43a6beb0042e4c",
+   "include": false,
+   "docType": "地方創生交付金 事業実施結果報告",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 0,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "53c35a1369d24e5b69e4361f5d1e0c0fa76f22163b7941049c249971b83536e6",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和3年度コロナ臨時交付金の事業実績検証シート。行ごとに事業名・事業費・期間・効果・総合評価。「未評価（公募中）」の1件を除外",
+   "checked": 11,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "b6fa0d22d15049e9826a4da01c48f3c75c643c45746da4d0b6bc0f1accbb9170",
+   "include": false,
+   "docType": "総合戦略 具体的施策進捗",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗・効果検証。戦略の施策・KPI／実施項目単位で、事務事業評価ではない",
+   "checked": 100,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "6f8b71bf3b4854b29dba79a8ca4a7ebb713e9b7365ede7cd55d3fc5898760cbd",
+   "include": false,
+   "docType": "地方創生交付金 事業実施結果報告",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 0,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "2e2cf6ad339e482360de727d279e9d212d13acf6340beff6681484435a817073",
+   "include": false,
+   "docType": "地方創生交付金 事業実施結果報告",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 1,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "72f5a65e7e9ac6f4f6013e2df0ed61467df1c0333122f31fe79c34136c3a3857",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和4年度コロナ臨時交付金の事業実績検証シート。行ごとに事業名・事業費・期間・効果・総合評価。候補27件一致",
+   "checked": 27,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "b66ae73f607bf86af58db3d4b5436b3e7b62c5711f7934cb393aeb2813ca0e0f",
+   "include": false,
+   "docType": "総合戦略 具体的施策進捗",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗・効果検証。戦略の施策・KPI／実施項目単位で、事務事業評価ではない",
+   "checked": 50,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "e2269b8627927e9e1658856fdf97d0a809c3e3e0c13dd44aa60619ac92d443fc",
+   "include": false,
+   "docType": "地方創生交付金 事業実施結果報告",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 0,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "870e4adfbfbcf2145018d1fa2fa6788aa1002758c98c6d7e6841d80eb7c24f78",
+   "include": false,
+   "docType": "地方創生交付金 事業実施結果報告",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 1,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "83d4f8673baacf552a98941841d6c734ff1e10449f20fde8eb70f22bdbfd0240",
+   "include": false,
+   "docType": "地方創生交付金 事業実施結果報告",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 2,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "4426682fbd4f4bbe7f1428a7ea4fc11bd77d13409c972a998e52181c2ebc8576",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和5年度コロナ・物価高騰臨時交付金の事業実績検証シート。行ごとに事業名・事業費・期間・効果・総合評価。候補4件一致",
+   "checked": 4,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "c48037a5bb59014c92e6f669b60f3ebd405640b3076e2d4527ae5e8e02940a10",
+   "include": false,
+   "docType": "総合戦略 具体的施策進捗",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗・効果検証。戦略の施策・KPI／実施項目単位で、事務事業評価ではない",
+   "checked": 50,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "2db9e4e0030e3fde240af66cd3c845be26751c7e05ad463d2f182c3bedfe5737",
+   "include": false,
+   "docType": "地方創生交付金 事業実施結果報告",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 0,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "188c0e27dd680b0c089f425a8106059bdad7bd5ccea880b23706a658edecad0e",
+   "include": false,
+   "docType": "地方創生交付金 事業実施結果報告",
+   "reason": "地方創生推進／拠点整備／デジタル田園都市国家構想交付金の事業実施結果報告・効果検証。交付金事業のKPI検証で、事務事業評価ではない（新富町の検証と同類）",
+   "checked": 0,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "43bdf2359d31a56bbfacc9cd6f6fdfa54a54dcc5ce6a01f350bee269e79cc978",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和6年度分の物価高騰重点支援の事業実績検証シート（R5繰越完了分＋R6完了分）。候補3件は事業期間（R6.1〜3、R6.4〜10、R6.5〜12）と年度一致。調整給付は2区分に分かれた同一事業を1件にまとめたもの",
+   "checked": 3,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44209",
+   "sha256": "b55c371ca530ddb0ad02ba5c51947a9670eba1357ee2d16bb4eb06f1f0bcb876",
+   "include": false,
+   "docType": "総合戦略 具体的施策進捗",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗・効果検証。戦略の施策・KPI／実施項目単位で、事務事業評価ではない",
+   "checked": 50,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44211",
+   "sha256": "4a95a56b843e1d6d9c22cd7700e75b213b1ac4c6cfc004172bb3de09e680ba04",
+   "include": false,
+   "docType": "総合戦略 進捗状況（効果検証）",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗・効果検証。戦略の施策・KPI／実施項目単位で、事務事業評価ではない",
+   "checked": 4,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44211",
+   "sha256": "77f1429896cd8c10f7d58bee209c5f389fbcd1125d56621e7dd5e9c8d8c23883",
+   "include": false,
+   "docType": "総合戦略 進捗状況（効果検証）",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗・効果検証。戦略の施策・KPI／実施項目単位で、事務事業評価ではない",
+   "checked": 5,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44211",
+   "sha256": "2f5cfebd903f1e0679d52fe91c8e6dfd405e623383240dc145f4dc329e525c9a",
+   "include": false,
+   "docType": "総合戦略 進捗状況（効果検証）",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗・効果検証。戦略の施策・KPI／実施項目単位で、事務事業評価ではない",
+   "checked": 6,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44211",
+   "sha256": "ec3879601bb3cefcb3ca5cdddf98f41daecc10bbad6988605c95f3856d8e5a33",
+   "include": false,
+   "docType": "総合戦略 進捗状況（効果検証）",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗・効果検証。戦略の施策・KPI／実施項目単位で、事務事業評価ではない",
+   "checked": 3,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44211",
+   "sha256": "e84ddac3c9259c7f87fbd35345a43ee24b6a8c8622f8a49755302b285cdb9f59",
+   "include": false,
+   "docType": "総合戦略 進捗状況（効果検証）",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗・効果検証。戦略の施策・KPI／実施項目単位で、事務事業評価ではない",
+   "checked": 2,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44211",
+   "sha256": "76b1fb5849ea535f25a3def90d0929db95e960fd5383cca5c99fca09e3413a77",
+   "include": false,
+   "docType": "総合戦略 進捗状況（効果検証）",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗・効果検証。戦略の施策・KPI／実施項目単位で、事務事業評価ではない",
+   "checked": 6,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44213",
+   "sha256": "9e617c2aa7b153cbe69f8955f4a494eb624946c026704000a4025788e6f16c7a",
+   "include": false,
+   "docType": "行財政改革実施計画 実施状況報告",
+   "reason": "行政（行財政）改革推進計画の実施項目・取組の評価。改革項目単位で事務事業ではない",
+   "checked": 27,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44214",
+   "sha256": "91715c0b3e2c173f7d52e7eaa651e14ca940bc9080ac8cad6917c144dfae23f1",
+   "include": false,
+   "docType": "教育委員会 点検・評価報告書（方針単位）",
+   "reason": "評価単位は総合計画の施策・方針（主な取組方針ごとのA〜D）。候補は「具体的取組」欄の文章から拾った行事・講座・工事名（おはなし会、大会、祭り等）で事業ごとの評価行ではない",
+   "checked": 23,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44322",
+   "sha256": "02f7b44369e62913c2e39d4242563b3630d22399eccd2aaeae6048d930f3c956",
+   "include": false,
+   "docType": "教育委員会 点検・評価（項目表）",
+   "reason": "点検項目（事務の大項目）ごとの取組・成果表。候補の大半は大会・講座・教室・行事名で、事務事業単位の評価ではない",
+   "checked": 23,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "44461",
+   "sha256": "2b7f4adeffab6ca63c81b7b85a27a09751b18230591a30f43abc507bae03158e",
+   "include": false,
+   "docType": "総合戦略 事業進捗表",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗・効果検証。戦略の施策・KPI／実施項目単位で、事務事業評価ではない（事業進捗表は戦略事業のKPI票）",
+   "checked": 82,
+   "group": "g2"
+  },
+  {
+   "municipalityCode": "42201",
+   "sha256": "141dc3da50fe8721fd28776b174ff0a659cd6aa52cdfab60fe9922fd2c5393aa",
+   "include": true,
+   "docType": "事務事業の予算事前評価一覧",
+   "reason": "令和7年度事務事業評価（令和8年度当初予算に係る事前評価）一覧表。番号・部局・担当課・事務事業名・評価結果ごとの行。年度は評価年度2025・予算年度2026で本文と一致",
+   "checked": 8,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42201",
+   "sha256": "0ae728ed9d68202068bb0cb99a9d8dd5acfd62196d10785e9fd3d43f2c47042b",
+   "include": true,
+   "docType": "事務事業の予算事前評価一覧",
+   "reason": "令和7年度6月補正予算に係る事務事業評価会議 評価結果一覧。事業ごとの行（2件）。予算年度2025は本文と一致",
+   "checked": 2,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42201",
+   "sha256": "644a24add465ec08295470dc157b926625fb9e748a30b895e24ddeb08c90a151",
+   "include": true,
+   "docType": "事務事業の予算事前評価一覧",
+   "reason": "令和7年度補正予算事務事業評価一覧表（6月補正・9月補正予定）。事業ごとの行（2件）。予算年度2025は本文と一致",
+   "checked": 2,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42201",
+   "sha256": "b4396d8ab1ae08aa2616f76909e51f1827c6afcaedfa3a85921761915de649fb",
+   "include": true,
+   "docType": "事務事業の予算事前評価一覧",
+   "reason": "令和7年度1～2月補正予算に係る事務事業評価結果一覧表。事業ごとの行。予算年度2025は本文と一致。折返しで分断された名称は本文の同一セル内で確認",
+   "checked": 8,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42201",
+   "sha256": "c725d9508671ee0240c05503d68b4682d0594e0388a8dae8aebf805f8d52332a",
+   "include": true,
+   "docType": "事務事業の予算事前評価一覧",
+   "reason": "令和7年度当初予算に係る事務事業評価会議 評価結果一覧。事業ごとの行。予算年度2025は本文と一致",
+   "checked": 10,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42201",
+   "sha256": "e0caf1c8566905900747962bde88b8923a91efa14e7f0e8646a555f0df5f41ab",
+   "include": true,
+   "docType": "事務事業の予算事前評価一覧",
+   "reason": "令和6年度事務事業評価（R6年度11月補正予算に係る事前評価）一覧表。1件。評価年度・予算年度2024は本文と一致",
+   "checked": 1,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42201",
+   "sha256": "69dee1b1ab9d15d34283c63d082ed9037408dcb1c8d1ffbd85545cbc0da5e855",
+   "include": true,
+   "docType": "事務事業の予算事前評価一覧",
+   "reason": "令和6年度2月補正予算に係る事務事業評価会議 評価結果一覧。事業ごとの行。予算年度2024は本文と一致",
+   "checked": 6,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42201",
+   "sha256": "f135f0102dbc526d07265545a3d214b76d63178d5291fa4de19b3339ccdc7362",
+   "include": false,
+   "docType": "事務事業の予算事前評価一覧（公開済みと重複）",
+   "reason": "令和5年度事務事業評価（R6年度当初予算に係る事前評価）一覧表のPDF。同じ評価（R6当初の事前評価）は公開済みの長崎市データ（page/6078.html 由来30件）に収録済みで、候補17件はすべてその公開済み事業の括弧内（拡大内容）を落とした親事業名の重複。取り込むと同一評価が二重になるため除外",
+   "checked": 17,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42203",
+   "sha256": "b540df835d126733a4c37f1b477c56bd56c1c3deab51215df123a96639e997fa",
+   "include": true,
+   "docType": "事務事業評価結果一覧",
+   "reason": "令和7年度 事務事業評価結果一覧表（所管課・事業名・一次〜三次評価・予算額の行）。全13件を本文で確認。評価年度2025",
+   "checked": 13,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42203",
+   "sha256": "1a5981884786790d7e4fd30a14ed9c192b65a56dcd61e34a93d070231fe1b1b1",
+   "include": true,
+   "docType": "事務事業評価結果一覧",
+   "reason": "令和6年度 事務事業評価結果一覧表（施策見出しの下に所管課・事業名・評価・予算額の行）。施策見出しは候補に含まれていない。評価年度2024",
+   "checked": 8,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42204",
+   "sha256": "9a0ad50502a6421e8ac5ba42e3097290571aa72c061a8dddc64e3178f0027098",
+   "include": false,
+   "docType": "都市再生整備計画 事後評価シート",
+   "reason": "都市再生整備計画（まちづくり交付金）の事後評価シート。地区計画単位の評価で、候補は計画の構成事業（道路・広場・区画整理等の整備項目）や交付期間全体の事業であり、自治体の事務事業（予算の事業単位）の評価ではない",
+   "checked": 11,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42205",
+   "sha256": "ab59a534970f7a2476934d5a35dbbe83dfad5ef1e459cc7ce8cc92e9f0971954",
+   "include": true,
+   "docType": "事務事業評価結果一覧",
+   "reason": "令和6年度 部局別事務事業評価結果一覧（No.・主管課・事務事業名・方向性）。550行中546件、4字の短い名称（病院事業・出納事務・監査事務等）も番号付きの行で確認。評価年度2024",
+   "checked": 10,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42207",
+   "sha256": "22368187259d8a7c6202e69e022cafd32b856efcb55495407ab7622a4f7ec406",
+   "include": true,
+   "docType": "主要な施策の成果（決算）",
+   "reason": "平成24年度 主要な施策の成果（一般会計）。事業名・担当課・事項別明細書頁・事業費・成果の事業別の表。事業名セルは8字で折り返されるため分断を本文で確認。決算年度2012（全文は continuation で確認）",
+   "checked": 10,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42209",
+   "sha256": "7b890bc3790885c53304c4715737ecf3052238615cc469c53d1d0307e9360de3",
+   "include": false,
+   "docType": "都市再生整備計画 事後評価シート",
+   "reason": "都市再生整備計画（まちづくり交付金）の事後評価シート。地区計画単位の評価で、候補は計画の構成事業（道路・広場・区画整理等の整備項目）や交付期間全体の事業であり、自治体の事務事業（予算の事業単位）の評価ではない",
+   "checked": 9,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42211",
+   "sha256": "8f904a8ecb30f50d3fbb59eb526d8030bb97fed44895f4b41e71d36a55729ae6",
+   "include": true,
+   "docType": "事業評価一覧表（予算見直し）",
+   "reason": "令和7年度 事業評価一覧表（ソフト・ハード・その他事業の拡大／縮小／廃止／見直し）。担当課・事務事業名・実績・予算額・財政課評価の事業ごとの行。評価年度2025",
+   "checked": 8,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42211",
+   "sha256": "f2f03d3dbc4e7b86978c5863ba5a14180a9ad4012a97a176ce11d67db0df4410",
+   "include": true,
+   "docType": "事業評価一覧表（委託料）",
+   "reason": "令和5年度 事業評価一覧表＜委託料＞（令和6年3月 財政課）。令和4年度に実施した委託料ごとの名称・目標・実績・R4決算・R5予算・方向性。評価年度2023・対象年度2022は表頭と一致",
+   "checked": 8,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42211",
+   "sha256": "6b44234401ff11d9c4f62cd1c8ad21ec183349104a29cb94985437a64538ef9d",
+   "include": true,
+   "docType": "事業評価一覧表（見直し事業）",
+   "reason": "令和5年度 事業評価一覧表（拡大・縮小・廃止・見直し）。委託料ごとの一次・二次評価の行。全体版（R5一覧表）の候補と同名の重複はない。評価年度2023",
+   "checked": 5,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42211",
+   "sha256": "492d0f733d758c640941060c4d6710b1dec6ca784991a42fb51a9af08933ccdc",
+   "include": true,
+   "docType": "補助金等の評価一覧",
+   "reason": "令和3年度 事業評価一覧表＜補助金（交付金）＞（令和4年3月 財政課）。補助金ごとの目的・交付基準・決算・予算・評価の行。評価年度2021",
+   "checked": 6,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42211",
+   "sha256": "97352b61462d12d349b03955c7bea19ca993531f5efb705921e64f550fc96d20",
+   "include": true,
+   "docType": "事業評価一覧表（見直し事業）",
+   "reason": "令和3年度 事業評価一覧表（拡大・縮小・廃止・見直し）。補助金ごとの一次・二次評価。全体版との同名重複なし。評価年度2021",
+   "checked": 1,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42211",
+   "sha256": "d0c3b02af16e5cd5352b569697da98705537d8c7d885f60cde753e86f14419d6",
+   "include": true,
+   "docType": "事業評価一覧表",
+   "reason": "平成30年度 事業評価一覧表（平成31年3月 財政課）。担当課・事業名・目的・効果・決算額・方向性の事業ごとの行。全文（continuation含む）で全535件の名称を確認。評価年度2018",
+   "checked": 6,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42211",
+   "sha256": "a571f7cebf4deeee7b357d35b5b27407e374dd913a3de1dd40250e91fb5d80d4",
+   "include": true,
+   "docType": "事業評価一覧表",
+   "reason": "平成28年度 事業評価一覧表（平成28年12月 財政課）。事業ごとの行。全文で確認（国勢調査・結核検診も担当課付きの独立行）。評価年度2016",
+   "checked": 8,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42211",
+   "sha256": "c553820934a3a7f2e8819359b4d8fb221d6a871d6a6fb724608436cc246d1b5c",
+   "include": true,
+   "docType": "事業評価一覧表",
+   "reason": "平成26年度 事業評価一覧表（平成26年11月 財政課）。事業ごとの行。全文で確認。評価年度2014",
+   "checked": 8,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42211",
+   "sha256": "5b9d1cfd0ae0dc952707cffb85f8dccaff2e4cd5b63971dfb8581ee0189690cc",
+   "include": true,
+   "docType": "事業評価一覧表",
+   "reason": "平成25年度 事業評価一覧表（平成25年11月 財政課）。事業ごとの行。全文で確認。評価年度2013",
+   "checked": 8,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42212",
+   "sha256": "2906f6733f08bc24eec3752c30ccee21f372aa5498bc08b34ca43aaf9bfe569a",
+   "include": true,
+   "docType": "主要施策成果説明書",
+   "reason": "令和6年度 主要施策成果説明書の事業別ページ（事業名称・決算書頁・予算額・決算額・事業評価）。候補1件の事業名称を本文で確認。決算年度2024",
+   "checked": 1,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42214",
+   "sha256": "4fbe16be5fdb9f39e54b6ab9980b1bdca7cd5aa764dcb0350e0c195fecfd41fb",
+   "include": false,
+   "docType": "地方創生交付金事業の実績一覧（総合戦略の検証資料）",
+   "reason": "地方創生推進交付金のプロジェクトごとの年度別事業費・交付金額の表で、効果（実績）の記載がない（総合戦略の検証資料）。令和7年度は当年度の計画値を含み、候補は1プロジェクトを年度ごとに分けた行。追加方針（事業費＋実績・効果のある結果報告のみ include）に当たらないため除外",
+   "checked": 5,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42308",
+   "sha256": "74c5936988ac73129c84c902127b10ef102795f3baffa13a8ea56ab5cb670dd8",
+   "include": false,
+   "docType": "都市再生整備計画 事後評価シート",
+   "reason": "都市再生整備計画（まちづくり交付金）の事後評価シート。地区計画単位の評価で、候補は計画の構成事業（道路・広場・区画整理等の整備項目）や交付期間全体の事業であり、自治体の事務事業（予算の事業単位）の評価ではない",
+   "checked": 4,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42308",
+   "sha256": "d8eac073d0eeb4da789a7cb16359467f0063ef2df4b32d547da07c1c37a44c47",
+   "include": false,
+   "docType": "都市再生整備計画 事後評価シート",
+   "reason": "都市再生整備計画（まちづくり交付金）の事後評価シート。地区計画単位の評価で、候補は計画の構成事業（道路・広場・区画整理等の整備項目）や交付期間全体の事業であり、自治体の事務事業（予算の事業単位）の評価ではない",
+   "checked": 5,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42308",
+   "sha256": "99039b9c73346d1015b86e6daa22d6e3562f0bfb77bc2b520ca39992d4f5f2cf",
+   "include": false,
+   "docType": "社会資本総合整備計画 事後評価書",
+   "reason": "都市再生整備計画（まちづくり交付金）の事後評価シート。地区計画単位の評価で、候補は計画の構成事業（道路・広場・区画整理等の整備項目）や交付期間全体の事業であり、自治体の事務事業（予算の事業単位）の評価ではない（候補は計画全体の名称1件）",
+   "checked": 1,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42321",
+   "sha256": "d12c20dd5a4776743f50ea8b454f437bbc68ac153735a66ea3c6d76617dba4b0",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和3年度 新型コロナ地方創生臨時交付金 実施状況及び効果検証。No.・事業名・事業概要・事業費（実績額）・効果検証の事業ごとの表で、決算の成果説明に当たる。全12件を本文で確認。年度2021。追加方針により include（行ごとに事業名・事業費の実績・効果検証があり、実施年度を本文で確認。合計行・分割行の候補なし）",
+   "checked": 12,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42322",
+   "sha256": "dc664f51f71036f6e40c6b500f7eb9c5469a4fecec01c139a5021cf8c58f589c",
+   "include": true,
+   "docType": "事務事業評価一覧（予算事前評価）",
+   "reason": "令和7年度 川棚町事務事業評価審査会の評価結果（R8〜R10実施予定・継続のハード／ソフト事業・負担金・補助金・備品）。事務事業名・所管・評価区分・コメントの行で、予算の事業ごとの事前評価。評価年度2025",
+   "checked": 10,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42383",
+   "sha256": "47f5efb1a21ef56a7dc16e680a57214f7cf24f446e8640bd9d6e58de746a5abf",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和5年度 新型コロナ地方創生臨時交付金 事業実施状況及び効果検証。No.・所管課・事業名・総事業費・事業期間・効果検証の事業ごとの表。年度2023（事業期間R5.4.1〜R6.3.31等）。追加方針により include（行ごとに事業名・事業費の実績・効果検証があり、実施年度を本文で確認。合計行・分割行の候補なし）",
+   "checked": 4,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "42383",
+   "sha256": "aece7e931e525874b622f8436574a48d637b0ad6da8999650e0b6a151daa0262",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和5年度 物価高騰対応重点支援地方創生臨時交付金 事業実施状況及び効果検証。事業ごとの表。年度2023。追加方針により include（行ごとに事業名・事業費の実績・効果検証があり、実施年度を本文で確認。合計行・分割行の候補なし）",
+   "checked": 2,
+   "group": "g3"
+  },
+  {
+   "municipalityCode": "39206",
+   "sha256": "0fbc56811576fa7bdcbe9818ca3a0d932f96532e8cf46fbe927ca8efc53c0fc0",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "地方創生臨時交付金の実施状況・効果検証表。交付対象事業ごとの行（事業名・実施期間・事業費・効果）があり、公開済みの臨時交付金効果検証と同じ扱い。候補名と実施期間を本文で照合。R6実施計画分でR6.4〜R7.3実施。",
+   "checked": 2,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "39208",
+   "sha256": "e6e02689b6d560a4752e1c2e0b5b703484904c254159ec4798bf0b19a8e2f2f1",
+   "include": false,
+   "docType": "教育委員会点検・評価（小項目単位）",
+   "reason": "評価・ランク付けは36の小項目（施策）単位。候補は「取り組みの概要」の言及と公民館の事業別一覧表（芸能発表会・教室・美術展等の行事）で、事業ごとの評価ではない。",
+   "checked": 8,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "39212",
+   "sha256": "dff45baf3aa18c71a0394d66005c21aca6334bfa1de59b039d559994968c5131",
+   "include": true,
+   "docType": "教育委員会点検・評価（取組・事業ごとの内部・外部評価）",
+   "reason": "「取組・事業名」ごとに内部評価・外部評価の点数と到達目標・行動実績の表がある（H29年度対象）。候補13件とも一覧の名称と一致。",
+   "checked": 13,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "39306",
+   "sha256": "7f6033c34f1eb56f45d19743c464869463af5c05e9313dd2ecc8da9a8f10aff6",
+   "include": false,
+   "docType": "計画評価シート（子ども・子育て支援事業計画／地域福祉計画）",
+   "reason": "計画の基本施策・取り組むことの実施状況評価。候補は主な実施内容欄の言及で、事業単位の評価ではない（計画の実施項目）。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "39306",
+   "sha256": "5848852e3e13d90128508ce0cb7dab6245e86c5b547217d5eeb544beb037fb37",
+   "include": false,
+   "docType": "計画評価シート（子ども・子育て支援事業計画／地域福祉計画）",
+   "reason": "計画の基本施策・取り組むことの実施状況評価。候補は主な実施内容欄の言及で、事業単位の評価ではない（計画の実施項目）。",
+   "checked": 3,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "39344",
+   "sha256": "2ca26b355e37c3f35963eacb59b70bbe95b17005ff2901d94af112333b78ee3e",
+   "include": false,
+   "docType": "地域再生計画の交付金実績表",
+   "reason": "地域再生計画（道整備交付金）の路線別実績表で、評価は計画目標単位。路線は事務事業の評価票ではない（社会資本総合整備計画事後評価と同じく対象外）。",
+   "checked": 6,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "39363",
+   "sha256": "3aa00e5fbb749ea8f4f71a858f353e9ca491699882cc4d1d9bd6e5e8fa7a1510",
+   "include": true,
+   "docType": "教育委員会自己点検・評価（予算科目ごと）",
+   "reason": "教育予算の目（9-1-4等）ごとに最終予算額・財源と実現度・重要度の評価、実施記述がある。R6年度。",
+   "checked": 13,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "39386",
+   "sha256": "e4d62b72c2785e4ed547bdc5b8e0ec3d04e464a93db40c9ee55a08476700324f",
+   "include": false,
+   "docType": "総合戦略 効果検証シート",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗報告。施策・KPI単位の検証で事業単位の評価ではない。候補は具体的取組欄の事業名の言及。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "39412",
+   "sha256": "13aabb98ac67d33df4bfdcda282f8e7a1b2e8941e0814d37c6ccc85732fcbba6",
+   "include": true,
+   "docType": "行政評価 事務事業内部評価シート",
+   "reason": "R3事務事業内部評価シート（R2年度実績に対する事後評価）。津波避難対策推進事業は60事業の一覧と個別シートに実在。",
+   "checked": 1,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "39424",
+   "sha256": "27187a6596f7797ce3b5f3734b0f4b24f287ac16f444f3c53e49935dc7f3f6f6",
+   "include": false,
+   "docType": "教育委員会点検・評価（項目単位）",
+   "reason": "評価は中項目・小項目ごとの4段階。候補は「取り組みの概要」の文中の事業名で、事業ごとの評価ではない。",
+   "checked": 8,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "39427",
+   "sha256": "f31709bf43941e3b7fd65ca44942d271a0af5ea4fb6151e925b6168719d68292",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "地方創生臨時交付金の実施状況・効果検証表。交付対象事業ごとの行（事業名・実施期間・事業費・効果）があり、公開済みの臨時交付金効果検証と同じ扱い。候補名と実施期間を本文で照合。2件ともR6.4以降の実施期間でFY2024。",
+   "checked": 2,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "39428",
+   "sha256": "6fde3d5264ebddae5b1faa55c4e9424561e5056f91a335ebda4e84041b09b0d0",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "交付金事業1件の年度別KPI達成状況・交付金実績の報告。公開済みの交付金事業効果検証と同じ扱い。名称・年度は本文表題と一致。",
+   "checked": 1,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "39428",
+   "sha256": "bfca3704d08efb84d87c2d07fffa05ec96a8e526f2adb2c940232b78368c974e",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "交付金事業1件の年度別KPI達成状況・交付金実績の報告。公開済みの交付金事業効果検証と同じ扱い。名称・年度は本文表題と一致。",
+   "checked": 1,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "39428",
+   "sha256": "9e8f03bad3e288a54a8cdfb8ab4e0024830867a0ecfea65e383cf6825b00558a",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "交付金事業1件の年度別KPI達成状況・交付金実績の報告。公開済みの交付金事業効果検証と同じ扱い。名称・年度は本文表題と一致。",
+   "checked": 1,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "39428",
+   "sha256": "92fabd4da7cab1a5015bfb34ed5afa65479b10d4b939a7715bdc299e18e45e1a",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "交付金事業1件の年度別KPI達成状況・交付金実績の報告。公開済みの交付金事業効果検証と同じ扱い。名称・年度は本文表題と一致。",
+   "checked": 1,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40130",
+   "sha256": "2e56a01a5107391554628c1a0a3115a3152d48a3ee4c5a891f8ca58466ceeead",
+   "include": true,
+   "docType": "教育委員会点検・評価（主な取組みの事業ごと）",
+   "reason": "施策ごとの「令和６年度の主な取組み」に●事業見出しと実施内容・成果・課題があり、事業ごとに点検されている。94件を見出しと照合。",
+   "checked": 94,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40212",
+   "sha256": "306e9ed5f25b035e23b5da4339bc6a6a77a642a223ab69ccd2cd46f57bb78c73",
+   "include": false,
+   "docType": "行政改革推進委員会 答申（単一事業の検証）",
+   "reason": "廃止済みの大川の駅事業の経緯・事業費を検証した答申。年度の事務事業評価・成果報告ではなく、評価対象年度も定まらない。",
+   "checked": 1,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40213",
+   "sha256": "39f996ba8cb9bb71d34e2a66ceb0cceec7a1bc5923225caeb6bea0fa0d1a4760",
+   "include": true,
+   "docType": "施策評価シート（課題有事業の事業別シート）",
+   "reason": "事業名ごとにR6決算・成果指標・R6年度の取組み及び評価がある事業別シート。",
+   "checked": 8,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40214",
+   "sha256": "65854164c4bedcd3a7987110057b6debf2262194d5069edd060ffafbbd32431a",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "R5年度の交付金事業1件の実施報告。公開済みの交付金事業効果検証と同じ扱い。",
+   "checked": 1,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40216",
+   "sha256": "73ae6e5b15f025e39ccaabb7ca2465bdb4a4113a53f2514ebe9b4fb6a2676c54",
+   "include": true,
+   "docType": "事務事業評価シート",
+   "reason": "事務事業評価シート（令和5年度事務事業）。シートNo.子-7・事業No.R010050で名称一致。",
+   "checked": 1,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40218",
+   "sha256": "d59c30044db18260a46f16cd396dc1ca0f8d6ede356079ff38d410dd108cef93",
+   "include": false,
+   "docType": "教育委員会点検評価（施策の小項目単位）",
+   "reason": "達成度は施策の大・中・小項目単位。候補は取組状況欄の言及（子ども会育成会連絡協議会の共同実施等）で、事業ごとの評価ではない。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40218",
+   "sha256": "289cd42481d72897b5930f916cbd3f8b62746709ad0d912f1305e63959c63966",
+   "include": false,
+   "docType": "教育委員会点検評価（施策の小項目単位）",
+   "reason": "達成度は施策の大・中・小項目単位。候補は取組状況欄の言及（子ども会育成会連絡協議会の共同実施等）で、事業ごとの評価ではない。",
+   "checked": 2,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40218",
+   "sha256": "37b0c48c5ec494d4036002af4cf7717bca60d30d9841e22e4755eac627f84bdf",
+   "include": false,
+   "docType": "教育委員会点検評価（施策の小項目単位）",
+   "reason": "達成度は施策の大・中・小項目単位。候補は取組状況欄の言及（子ども会育成会連絡協議会の共同実施等）で、事業ごとの評価ではない。",
+   "checked": 2,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40220",
+   "sha256": "e2a63a9019a0235789d97ab7c4731f77887ed9b243b5ecd312c78421d3989b13",
+   "include": false,
+   "docType": "施策評価結果（総合計画33施策）",
+   "reason": "評価単位は総合計画の施策。候補は施策シートの取組欄で言及された事業名。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40220",
+   "sha256": "f0f77e7121c39341c2475e91b3a8efd06eb62f1386cc73bfec6ad6329567827a",
+   "include": false,
+   "docType": "施策評価結果（総合計画33施策）",
+   "reason": "評価単位は総合計画の施策。候補は施策シートの取組欄で言及された事業名。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40220",
+   "sha256": "37614ef2428ba4f88bf0998dd026a971a1fd8250be4d4893b7cd833976edd8f9",
+   "include": false,
+   "docType": "施策評価結果（総合計画33施策）",
+   "reason": "評価単位は総合計画の施策。候補は施策シートの取組欄で言及された事業名。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40220",
+   "sha256": "519c198ffb911b59661c0df6aaa2dfebcee16755f4998293af77c7fdb197c726",
+   "include": false,
+   "docType": "施策評価結果（総合計画33施策）",
+   "reason": "評価単位は総合計画の施策。候補は施策シートの取組欄で言及された事業名。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40220",
+   "sha256": "728282dbb535fcff2ed786def92195a0162039e3dd00c0034a843d2a34850f01",
+   "include": false,
+   "docType": "施策評価結果（総合計画33施策）",
+   "reason": "評価単位は総合計画の施策。候補は施策シートの取組欄で言及された事業名。",
+   "checked": 1,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40225",
+   "sha256": "500a4f9b2f54f5af038a40c4e93f14f3e9a525f9a2815e13196da5814e6a6f2c",
+   "include": true,
+   "docType": "教育委員会点検・評価（取組ごとの成果と課題）",
+   "reason": "施策の下の取組（①）ごとに成果と課題・今後の対応がある。H23年度分。街なみ環境整備事業は取組見出しではなく成果文中の言及のため個別除外。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40226",
+   "sha256": "2be132e7324146eb828b26c0882e1c626db66383b36ecb5d9f81c656cbbc5c74",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "地方創生臨時交付金の実施状況・効果検証表。交付対象事業ごとの行（事業名・実施期間・事業費・効果）があり、公開済みの臨時交付金効果検証と同じ扱い。候補名と実施期間を本文で照合。",
+   "checked": 1,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40226",
+   "sha256": "9bc2da2589a0ef363e95bccbf6beaaa455b3280eeb5813af310829f81528cb90",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "地方創生臨時交付金の実施状況・効果検証表。交付対象事業ごとの行（事業名・実施期間・事業費・効果）があり、公開済みの臨時交付金効果検証と同じ扱い。候補名と実施期間を本文で照合。",
+   "checked": 2,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40227",
+   "sha256": "6880eb22d052cfa5a9cdee91441d8c41bcefd7f88ae9b808c4ec70a9e7653054",
+   "include": true,
+   "docType": "事務事業 自己評価一覧",
+   "reason": "令和6年度事業の自己評価一覧（課名・事業名・決算額・評価欄）。330件全件を本文の行（折返し名称は前後行の連結）と照合し、不一致なし。",
+   "checked": 330,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40228",
+   "sha256": "a12306d4ccfadcf53d825c2ab4126758b346dfc14466e14cec1a5f7723587383",
+   "include": false,
+   "docType": "まちづくり報告書（施策・基本事業単位）",
+   "reason": "23施策・112基本事業の成果指標の報告。候補は原因分析の文中の事業名。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40229",
+   "sha256": "49aaf2f399ff82f87fda3fcc073541a3dcf19ce574b75b03148f3e48a504756b",
+   "include": false,
+   "docType": "行政改革プラン 進捗状況報告",
+   "reason": "行政改革の取組項目の進捗報告で事務事業評価ではない。候補は実施内容欄の言及。",
+   "checked": 3,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40229",
+   "sha256": "4f912fb89424dfb0140a0bace8d77b874e227cefb881e1316a83811d1ef726c6",
+   "include": false,
+   "docType": "行政改革プラン 進捗状況報告",
+   "reason": "行政改革の取組項目の進捗報告で事務事業評価ではない。候補は実施内容欄の言及。",
+   "checked": 2,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40342",
+   "sha256": "f53263480d8c216ceb6cc2b8b23975bf56ed763731e9e85c1a2a2389054b1663",
+   "include": false,
+   "docType": "総合戦略 進捗状況報告",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗報告。施策・KPI単位の検証で事業単位の評価ではない。",
+   "checked": 2,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40342",
+   "sha256": "53dd3c9ac0a3f79dfe92ebafcf59a9c82df0400221bbaa912c26de7efc565688",
+   "include": false,
+   "docType": "総合戦略 進捗状況報告",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗報告。施策・KPI単位の検証で事業単位の評価ではない。",
+   "checked": 3,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40342",
+   "sha256": "d272120488b22ece5226eec56e610acc3840fac5b24b2dedbad702ccf583ae9c",
+   "include": false,
+   "docType": "総合戦略 進捗状況報告",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗報告。施策・KPI単位の検証で事業単位の評価ではない。",
+   "checked": 3,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40342",
+   "sha256": "0cc13ca835af30cae8e8f6ebc87b58bc8e0a637623d47333d26f18400ea8dd0b",
+   "include": false,
+   "docType": "総合戦略 進捗状況報告",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗報告。施策・KPI単位の検証で事業単位の評価ではない。",
+   "checked": 3,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40342",
+   "sha256": "6ec918e5f666f27fafa22857aa727db856202b2ee85295ae45cb3346ce3fb25b",
+   "include": false,
+   "docType": "総合戦略 進捗状況報告",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗報告。施策・KPI単位の検証で事業単位の評価ではない。",
+   "checked": 3,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40342",
+   "sha256": "5249f4fcc6489f9d374efcac38e56577b9aad279ffdabf37e6768feac0e0da9a",
+   "include": false,
+   "docType": "総合戦略 進捗状況報告",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗報告。施策・KPI単位の検証で事業単位の評価ではない。",
+   "checked": 2,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40342",
+   "sha256": "8ddaa1b780353a27a56b918705a30dea22194b504b8bbaa5d090b5d1e6e59845",
+   "include": false,
+   "docType": "総合戦略 進捗状況報告",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗報告。施策・KPI単位の検証で事業単位の評価ではない。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40342",
+   "sha256": "a5b787af786f6bc882ee0e8a7794e790ceec51ce609b1a030673bce27015fce4",
+   "include": false,
+   "docType": "総合戦略 進捗状況報告",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗報告。施策・KPI単位の検証で事業単位の評価ではない。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40342",
+   "sha256": "ee77d83136d7e5536e13188f97991d754bce70485bc318596febf949f2da7fe7",
+   "include": false,
+   "docType": "総合戦略 進捗状況報告",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗報告。施策・KPI単位の検証で事業単位の評価ではない。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40342",
+   "sha256": "3160df1d8a9779ffb63e9baf01494dd1077915f63f4d8911da123657410bdff6",
+   "include": false,
+   "docType": "総合戦略 進捗状況報告",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗報告。施策・KPI単位の検証で事業単位の評価ではない。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40344",
+   "sha256": "20bc5267e00d4ee7d892aadc1ff50fc2832224999bff6d8b2f65e5ba19b0b02d",
+   "include": false,
+   "docType": "教育委員会点検・報告（教育振興基本計画の施策群単位）",
+   "reason": "評価は計画の施策群（「一時預かり事業の実施及び利用促進」等の文）ごとの4段階で、計画の実施項目。",
+   "checked": 2,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40382",
+   "sha256": "63300a9555f03d87ca6187f841a0d39d8baa0d72981abcc56784370719dffd2f",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "地方創生臨時交付金の実施状況・効果検証表。交付対象事業ごとの行（事業名・実施期間・事業費・効果）があり、公開済みの臨時交付金効果検証と同じ扱い。候補名と実施期間を本文で照合。年度内実施行のみ候補化され年度一致。",
+   "checked": 2,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40382",
+   "sha256": "a4bc761e5be16ea45a25ff163a42041c2f9642e925ff91c25989920193054f89",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "地方創生臨時交付金の実施状況・効果検証表。交付対象事業ごとの行（事業名・実施期間・事業費・効果）があり、公開済みの臨時交付金効果検証と同じ扱い。候補名と実施期間を本文で照合。年度内実施行のみ候補化され年度一致。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40382",
+   "sha256": "dc9373645aae939dac2a2f8738dcbb12a8720095c12d0ff254c6ec1a1e63ce4a",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "地方創生臨時交付金の実施状況・効果検証表。交付対象事業ごとの行（事業名・実施期間・事業費・効果）があり、公開済みの臨時交付金効果検証と同じ扱い。候補名と実施期間を本文で照合。年度内実施行のみ候補化され年度一致。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40402",
+   "sha256": "9bdcc0bec607c2502ec51af3a8312b6a8dd773eaf08dfd11755b95d0de6ce395",
+   "include": false,
+   "docType": "広報誌記事",
+   "reason": "広報くらての行政評価報告記事（広報記事は対象外）。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40421",
+   "sha256": "cfcf3d4df3d3df5b6813333a17d79201fd8f8919f3bca92cbde03f9685b9a046",
+   "include": true,
+   "docType": "教育委員会点検・評価（事業別シート）",
+   "reason": "R5年度の「事業名／担当課係／事業概要／事業実績／総合評価」の事業別シート44件。社会教育委員の会議は委員会の会議運営で個別除外。",
+   "checked": 44,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40447",
+   "sha256": "eb06f1d08b59e739a6d5b303e359d8b8812ba3d97b8547801a501ae3b1b31c49",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "地方創生臨時交付金の実施状況・効果検証表。交付対象事業ごとの行（事業名・実施期間・事業費・効果）があり、公開済みの臨時交付金効果検証と同じ扱い。候補名と実施期間を本文で照合。R3年度事業、実施期間R3.6〜R4.3。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40601",
+   "sha256": "9316d04b06a120abe270a78881402568817ea268524babde2a9c54792a1333b8",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "地方創生臨時交付金の実施状況・効果検証表。交付対象事業ごとの行（事業名・実施期間・事業費・効果）があり、公開済みの臨時交付金効果検証と同じ扱い。候補名と実施期間を本文で照合。R5交付金の繰越分でR6年度実施の行。商品券負担金は本文名「…負担金（重点支援分）」の括弧を落としているため個別除外。",
+   "checked": 3,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40602",
+   "sha256": "81f5ed094e183ac698956d1f79367da5503e5583e6b0131a94c9fdd10fd79a78",
+   "include": true,
+   "docType": "教育委員会事務点検評価（評価対象事業一覧）",
+   "reason": "「事務点検評価を行った事業」として8事業を掲げ事業ごとに評価（R6評価・R5対象）。",
+   "checked": 8,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40602",
+   "sha256": "047e7a13b7ab27b2274b2bad1966dd8f6f15540c2af2dbf5bea24b71ed749fd2",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "地方創生臨時交付金の実施状況・効果検証表。交付対象事業ごとの行（事業名・実施期間・事業費・効果）があり、公開済みの臨時交付金効果検証と同じ扱い。候補名と実施期間を本文で照合。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40605",
+   "sha256": "c48ac7d4eac0bc0d5c99d5ca6dd2d19fc32b6d18bda47bd51986996642729602",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "地方創生臨時交付金の実施状況・効果検証表。交付対象事業ごとの行（事業名・実施期間・事業費・効果）があり、公開済みの臨時交付金効果検証と同じ扱い。候補名と実施期間を本文で照合。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40610",
+   "sha256": "1f95d8718922e0d65a77c28544c62931d6712485bfc41445f928465b5c19f084",
+   "include": false,
+   "docType": "総合戦略の成果",
+   "reason": "まち・ひと・しごと創生総合戦略の進捗報告。施策・KPI単位の検証で事業単位の評価ではない。",
+   "checked": 3,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40625",
+   "sha256": "4fe29fa839402ae445c9610b45c8c9157abfe7113d0ad18d6d0b58ebf2507456",
+   "include": false,
+   "docType": "教育委員会評価報告書（主要事業＝取組単位）",
+   "reason": "評価（有効性・効率性・達成度）は「通学路の安全確保」等の主要事業（取組テーマ）単位。候補は内容・成果欄で言及された事業名で、評価単位ではない。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40625",
+   "sha256": "868b50cf563b18ae5dccbfd290e57bab7c6dc22b4738224e891b5fd569633c08",
+   "include": false,
+   "docType": "教育委員会評価報告書（主要事業＝取組単位）",
+   "reason": "評価（有効性・効率性・達成度）は「通学路の安全確保」等の主要事業（取組テーマ）単位。候補は内容・成果欄で言及された事業名で、評価単位ではない。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40647",
+   "sha256": "e441b2817d3cb76b490082478ea4336d94881753a25c1d90b36ff45a7ad355bd",
+   "include": true,
+   "docType": "事務事業評価 総括表",
+   "reason": "予算事業名ごとの一次・調整後評価の総括表。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40647",
+   "sha256": "13fc66473e775b3ff212540c972c88d8422814d74cda04e506819d9c033878c5",
+   "include": true,
+   "docType": "事務事業評価 総括表",
+   "reason": "予算事業名ごとの一次・調整後評価の総括表。",
+   "checked": 3,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "40647",
+   "sha256": "9eecbcd9b028bbfdc7ba5ed195a9651e830a325cd2e8151f4cbf46cdc9f8f957",
+   "include": true,
+   "docType": "事務事業評価シート",
+   "reason": "2024年度事務事業評価シート（事業No.83）。保存本文は12万字で打ち切りだが引用に様式どおりの事業名欄がある。",
+   "checked": 1,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41201",
+   "sha256": "cee4dff2a186973f0201e2e304e446f19f5a84093490cd47d487da76eeb2d83c",
+   "include": true,
+   "docType": "政策評価の主な重点取組事業（事業別欄）",
+   "reason": "政策評価内の「主な重点取組事業」欄に事業名・担当課・事業期間・取組実績・成果指標・決算額が事業ごとにある（R7年度実績）。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41201",
+   "sha256": "9d24157888aee0f6653b0d812588531e1f3889b1105f79d9861f4c7396de8597",
+   "include": true,
+   "docType": "政策評価の主な重点取組事業（事業別欄）",
+   "reason": "政策評価内の「主な重点取組事業」欄に事業名・担当課・事業期間・取組実績・成果指標・決算額が事業ごとにある（R7年度実績）。",
+   "checked": 4,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41205",
+   "sha256": "5fe8432f29d5b089e25fb55d351239969cee8a8cc0cba70210845513fc3eb063",
+   "include": true,
+   "docType": "主要な施策の成果に関する説明書",
+   "reason": "款項目・事務事業名・担当部課・決算額・主要な事務事業の概要成果の事業別様式（H30）。fulltext-continuations の続きパートをつないだ全文（sha一致）で289件すべてが事務事業名欄の行に実在することを確認。",
+   "checked": 289,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41206",
+   "sha256": "c4515d6bd371469ba12786dee872023a978a0b52fe20643f5d23d18d9cc4c684",
+   "include": false,
+   "docType": "行政改革プラン 主な成果",
+   "reason": "行政改革の取組成果のお知らせで事務事業評価ではない。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41206",
+   "sha256": "c1e0025792dde88cd4fb5f72f61b3a6e5f7758a78a5db7f1b2728e18b233057f",
+   "include": false,
+   "docType": "行政改革プラン 達成状況",
+   "reason": "行政改革の取組項目の達成状況で事務事業評価ではない。",
+   "checked": 4,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41206",
+   "sha256": "dae8bb073e5b215ffafd1d1f73d1be363459b37013327426c9d2509cf7803192",
+   "include": false,
+   "docType": "行政改革プラン 達成状況",
+   "reason": "行政改革の取組項目の達成状況で事務事業評価ではない。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41207",
+   "sha256": "d33e2358fdd5239b48016398743e160caf154068b8bb172eeba2a5b531f766aa",
+   "include": true,
+   "docType": "主要施策の成果説明書",
+   "reason": "事業名・事業費・所管課・事業内容の事業別様式（R4決算）。続きパートをつないだ全文（sha一致）で照合。金額・見出し断片の誤抽出7件、参考資料のコロナ・物価高騰対策再掲一覧表にだけ出る名称15件、小見出しだけの1件、本文名と異なる1件を個別除外。",
+   "checked": 133,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41208",
+   "sha256": "2ba0475e5218b89f12dced25b3a1201c3970419cfc2e0cfdb319fd6bfc841d83",
+   "include": true,
+   "docType": "実施計画進捗管理シート（事務事業ごと）",
+   "reason": "予算番号・事務事業名・担当課ごとに当年度の実施内容と今後の方向性を記載。R6版の下水道全体計画再編事業は本文で「令和５年度事業完了」でR6の実施記述がないため個別除外。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41208",
+   "sha256": "054738ab6bd8d743dd3d662be6ebd444d711113bff25a94bf4e039389c2d4199",
+   "include": true,
+   "docType": "実施計画進捗管理シート（事務事業ごと）",
+   "reason": "予算番号・事務事業名・担当課ごとに当年度の実施内容と今後の方向性を記載。R6版の下水道全体計画再編事業は本文で「令和５年度事業完了」でR6の実施記述がないため個別除外。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41208",
+   "sha256": "d864a71e0ee8a8b6f748980dd3e1fb953304578cf3acdba55e6a2a1261cbf4d3",
+   "include": true,
+   "docType": "実施計画進捗管理シート（事務事業ごと）",
+   "reason": "予算番号・事務事業名・担当課ごとに当年度の実施内容と今後の方向性を記載。R6版の下水道全体計画再編事業は本文で「令和５年度事業完了」でR6の実施記述がないため個別除外。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41209",
+   "sha256": "8caf65189a21b84c8190f08cc3b629405a2d2739ecd3c4f3e2e41184c41e9f10",
+   "include": true,
+   "docType": "主要な施策の成果説明書",
+   "reason": "事業名・政策分野・決算額・事業の目的と成果の事業別様式（R5）。続きパートをつないだ全文（sha一致）で240件すべてが「事業名 …」欄に実在することを確認。",
+   "checked": 240,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41345",
+   "sha256": "998ee082629312ea2499f7edb0d9fa86fafe46ad3a7ae38095a37633290db4db",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "交付金事業1件の効果検証（H27交付・H28実施）。公開済みの交付金事業効果検証と同じ扱い。",
+   "checked": 1,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41345",
+   "sha256": "e48307899e558d23ac138b89840aac4054fb7db677591878d90df0a898e31391",
+   "include": false,
+   "docType": "地方創生推進交付金 効果検証",
+   "reason": "交付対象事業1件の効果検証だが、本文に実施年度の記載がなく（年度は掲載リンク名のみ）、実施年度を本文で確かめられない。",
+   "checked": 1,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41345",
+   "sha256": "330159fb07a6053254f1cc6f9566252726002a49fef7570c611eb912d355fa82",
+   "include": false,
+   "docType": "地方創生推進交付金 効果検証",
+   "reason": "交付対象事業1件の効果検証だが、本文に実施年度の記載がなく（年度は掲載リンク名のみ）、実施年度を本文で確かめられない。",
+   "checked": 1,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41345",
+   "sha256": "f52131d65477173a7aac9ea05919574ee52d4eb8fd3a72a8138a1f289c4e76ae",
+   "include": false,
+   "docType": "地方創生推進交付金 効果検証",
+   "reason": "交付対象事業1件の効果検証だが、本文に実施年度の記載がなく（年度は掲載リンク名のみ）、実施年度を本文で確かめられない。",
+   "checked": 1,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41387",
+   "sha256": "e64f29f18b93d16ab8e6f0ec6eefd280a40b4e0a1d9c27d46a7c201fa1038f1b",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "地方創生臨時交付金の実施状況・効果検証表。交付対象事業ごとの行（事業名・実施期間・事業費・効果）があり、公開済みの臨時交付金効果検証と同じ扱い。候補名と実施期間を本文で照合。分離した名称片は同じ番号行内で確認。",
+   "checked": 2,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41387",
+   "sha256": "499491f30b63b30537c1cec57c1437568afbe00ba186b8e60ea426a926547002",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "地方創生臨時交付金の実施状況・効果検証表。交付対象事業ごとの行（事業名・実施期間・事業費・効果）があり、公開済みの臨時交付金効果検証と同じ扱い。候補名と実施期間を本文で照合。分離した名称片は同じ番号行内で確認。",
+   "checked": 3,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41387",
+   "sha256": "735d82ccf7356a9c847e99480ed0dffdceb691ec7e65bb8a7ce90d18c8d0a19a",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "地方創生臨時交付金の実施状況・効果検証表。交付対象事業ごとの行（事業名・実施期間・事業費・効果）があり、公開済みの臨時交付金効果検証と同じ扱い。候補名と実施期間を本文で照合。分離した名称片は同じ番号行内で確認。",
+   "checked": 2,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41401",
+   "sha256": "2144ddb4cd45f9e32b7d342edb6963d600796b8233a49f3faa0fe53fcc9c68be",
+   "include": true,
+   "docType": "事務事業評価一覧",
+   "reason": "番号・事務事業名・担当課・前年度事業費・評価・方向性の一覧。折返し・担当課挿入で分断された名称は前後の行で確認。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41401",
+   "sha256": "5cdba26571a0b6c90b11deac895b8d32d9dffaacbd0f435cbddb8bb251b9384d",
+   "include": true,
+   "docType": "事務事業の総点検総括表（評価結果報告）",
+   "reason": "事務事業評価結果のうち見直し検討対象事業を方向性・時期別に列挙した結果報告。名称は同年度の評価一覧と一致。",
+   "checked": 2,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41401",
+   "sha256": "1e7ef846d24b95bd5a11a49f30d0b667b31442a038b272e5c30d56d63a5e391d",
+   "include": true,
+   "docType": "事務事業の総点検総括表（評価結果報告）",
+   "reason": "事務事業評価結果のうち見直し検討対象事業を方向性・時期別に列挙した結果報告。名称は同年度の評価一覧と一致。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41401",
+   "sha256": "02b6699ec6e5ad12a722eb3876ce69276f2cf2678959f29979c9893653fca903",
+   "include": true,
+   "docType": "事務事業評価一覧",
+   "reason": "番号・事務事業名・担当課・前年度事業費・評価・方向性の一覧。折返し・担当課挿入で分断された名称は前後の行で確認。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41401",
+   "sha256": "13ea1047d9b471b7075cd529a0c545c08d9ecca078acb409a1265dfe27c1bb1c",
+   "include": true,
+   "docType": "事務事業の総点検総括表（評価結果報告）",
+   "reason": "事務事業評価結果のうち見直し検討対象事業を方向性・時期別に列挙した結果報告。名称は同年度の評価一覧と一致。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41401",
+   "sha256": "daa3a9bc984fc79ad4642bff0ef1b76b08468a3d1f7ee9011a2522c466b5ccb7",
+   "include": true,
+   "docType": "事務事業評価一覧",
+   "reason": "番号・事務事業名・担当課・前年度事業費・評価・方向性の一覧。折返し・担当課挿入で分断された名称は前後の行で確認。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41401",
+   "sha256": "5221982d03de12c356d2b9325e8518b203bd1c99d2c449381273d0d733a4aeb2",
+   "include": true,
+   "docType": "事務事業の総点検総括表（評価結果報告）",
+   "reason": "事務事業評価結果のうち見直し検討対象事業を方向性・時期別に列挙した結果報告。名称は同年度の評価一覧と一致。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41401",
+   "sha256": "c3660c4a12b8e287e0b60267c04af845265291d0201a0cd9e8249527aa06330c",
+   "include": true,
+   "docType": "事務事業評価一覧",
+   "reason": "番号・事務事業名・担当課・前年度事業費・評価・方向性の一覧。折返し・担当課挿入で分断された名称は前後の行で確認。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41401",
+   "sha256": "fda0bb7eef42298306fe7f4f0333f11425b125f802ca50969de050b3f26b585d",
+   "include": true,
+   "docType": "事務事業の総点検総括表（評価結果報告）",
+   "reason": "事務事業評価結果のうち見直し検討対象事業を方向性・時期別に列挙した結果報告。名称は同年度の評価一覧と一致。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41401",
+   "sha256": "c3b21b1cf1a1640ce9de538ff844d25f44abdb04a5bfa2cb2b1eb574cb413d16",
+   "include": true,
+   "docType": "事務事業評価一覧",
+   "reason": "番号・事務事業名・担当課・前年度事業費・評価・方向性の一覧。折返し・担当課挿入で分断された名称は前後の行で確認。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41423",
+   "sha256": "d313ff482e4eead37f83be58888652a9d845ed578f2fd4c665a3b9c546a41eaf",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "地方創生臨時交付金の実施状況・効果検証表。交付対象事業ごとの行（事業名・実施期間・事業費・効果）があり、公開済みの臨時交付金効果検証と同じ扱い。候補名と実施期間を本文で照合。11番（R5年4〜10月実施）はFY2023で一致。",
+   "checked": 15,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41424",
+   "sha256": "c614ddbf3315ae77dda43916b816367d797e1a0f8b2b8ff67bf10a867644c5fe",
+   "include": false,
+   "docType": "教育委員会点検・評価（主要な施策単位）",
+   "reason": "4段階評価は主要な施策単位。候補は施策の成果欄で言及された制度名。",
+   "checked": 2,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "41424",
+   "sha256": "6a9ee0e9ef782802c7bb0566ce912daf255d9fb4192cacd7ffccb96a4c950e10",
+   "include": false,
+   "docType": "社会資本総合整備計画 事後評価書",
+   "reason": "計画単位の事後評価。要素事業は計画の構成要素で事務事業の評価票ではない（公開済みの扱いでも対象外）。",
+   "checked": 5,
+   "group": "g4"
+  },
+  {
+   "municipalityCode": "35204",
+   "sha256": "662a2bb1e36317e093d7f7dba56c4080197bb99e0d72f18b12bcd00fdc0a28d0",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策単位）",
+   "reason": "点検・評価シートは項目（施策）単位。候補は実施状況欄の文中に出る講座・行事・大会・会議名で、事業ごとの評価票・行ではない",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "35207",
+   "sha256": "f09f23a6899dea1fcf8adb80fca6717f4a15fc897dae60eca6bee7e86451fd67",
+   "include": true,
+   "docType": "教育委員会事務事業評価報告書",
+   "reason": "番号付き事業一覧（32事業）と各事務事業の評価票。令和7年度対象・令和8年度評価を確認",
+   "checked": 1,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "35211",
+   "sha256": "4961ed4782f8d63fa552cd338b9401e72a5aeb0971abd1984938fc1e1647cfd0",
+   "include": true,
+   "docType": "事務事業評価結果の概要",
+   "reason": "令和5年度実施165事業の事業別評価結果（個票）。候補は12万字の保存範囲内の完結した個票",
+   "checked": 8,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "35212",
+   "sha256": "b4cb6e490ca911088562dfcdb3f0b8a06fb93b25ad5dc288982952c47036ec76",
+   "include": false,
+   "docType": "行政改革大綱行動計画の実績報告",
+   "reason": "行政改革の取組項目（人事評価制度・ふるさと納税の推進等）の実績で、予算の事務事業の評価ではない",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "35341",
+   "sha256": "f1234c2db29e5e204644f46698bd3b060296c8c702a07ef5c7ba6af9ccd6fa1e",
+   "include": true,
+   "docType": "教育委員会事務事業の点検・評価一覧表",
+   "reason": "No.付き事務事業の名称・経費・評価（A〜E）の一覧表。令和4年度対象",
+   "checked": 7,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "35343",
+   "sha256": "3975fd59efc53f6c7b040d9e82e57f5aaf94ee7324e32588512047ec1d4be5e3",
+   "include": true,
+   "docType": "教育委員会点検・評価（事業の点検・評価票）",
+   "reason": "一覧表の番号と事業ごとの点検・評価票。平成27年度事業",
+   "checked": 33,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "35344",
+   "sha256": "ffca6966890665a3617165686ebd670219a0cc4474a15dbdb3c6ccee7bc9720d",
+   "include": true,
+   "docType": "行政評価（施策評価シート内の関係主要事業評価）",
+   "reason": "施策評価シートの「６ 関係主要事業」表で事業ごとに分析・検証結果（A等）と今後の方向性が付く。候補はその事業名行（折返し復元を確認）。評価対象年度令和7年度",
+   "checked": 27,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "35344",
+   "sha256": "6187d65e6db4e224b13f600de9c250ea2ec819508a2a842b7471072ba8135548",
+   "include": true,
+   "docType": "行政評価（施策評価シート内の関係主要事業評価）",
+   "reason": "同上。評価対象年度令和6年度。事業名行に事業ごとの分析・検証結果と方向性あり",
+   "checked": 27,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "36203",
+   "sha256": "dd8c8d2a0bc5a44857e7e4974ba0a5f980f1268d23c3b33a44eecd4350bc87cb",
+   "include": true,
+   "docType": "主要施策の成果・事務事業評価等に関する説明書",
+   "reason": "令和7年度。番号付き事業ごとの目的・成果・事業費（継続パート含め全413,255字で名称を確認）",
+   "checked": 151,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "36204",
+   "sha256": "b877ff0bfade0c0474c63b01f7b03bd53f74b166c87655aaae3262bf7962fb5e",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策・計画項目単位）",
+   "reason": "計画項目（1-1-3等）単位の実施状況・評価。候補は文中の講座・大会・会・ワッペン運動等で事業ごとの評価ではない",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "36205",
+   "sha256": "484b0d6ca16bb1be176f93ec2c0c5b47796c3f90a828c93622799112fa2e7a1d",
+   "include": true,
+   "docType": "事務事業評価（継続事業）結果一覧",
+   "reason": "事務事業名・事業内容・R6事業費・1次/2次評価の一覧。令和6年度対象",
+   "checked": 112,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "36205",
+   "sha256": "2b9325be36bd5378ece89fea247bb95997847d022ef0d8bfcd944d5cf037cba2",
+   "include": true,
+   "docType": "事務事業評価（新規・拡大事業）結果一覧",
+   "reason": "予算の新規・拡大事業ごとの事前評価（部局内評価・最終評価）。令和7年度評価",
+   "checked": 22,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "36301",
+   "sha256": "67f20f07ce4e948d1652431a37c6e20438d1498e4a475a265cf30fc95a22ecba",
+   "include": true,
+   "docType": "事業検証結果（事務事業マネージメントシート）",
+   "reason": "●事業ごとに成果指標・R3実施結果・事業分析点数（妥当性等）・今後の方向性がある",
+   "checked": 11,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "36301",
+   "sha256": "1ac88b7b3fea221afa60979ec5314e3cb4313e0ad001d14f33447b8044641515",
+   "include": true,
+   "docType": "事業検証結果（事務事業マネージメントシート）",
+   "reason": "●事業ごとに成果指標・R4実施結果・事業分析点数・今後の方向性がある",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "36301",
+   "sha256": "611e6aaa70fbaec3da6de79f86078f358c65fe753e7a6c4fd90229f9f29ce5cd",
+   "include": false,
+   "docType": "総合計画評価（基本施策単位）",
+   "reason": "基本施策ごとに実施事業名を列挙し実施結果・方針をまとめた表。評価は施策単位で、事業ごとの評価ではない",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "36301",
+   "sha256": "23644cb269ca96a7b514fbb98b8e9d105666ade1bd541a45bce93f932812dbb7",
+   "include": false,
+   "docType": "総合計画中間評価調書（施策単位）",
+   "reason": "基本施策ごとのKPI・事業実施状況・施策全体の総合評価。協議会名（にっぽん恐竜協議会）や取組項目も混在し、事業ごとの評価票ではない",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "36301",
+   "sha256": "c9f9b177680ca2b02a0a6efe6fe6a88524311552878854b0751bcbf6ec1ae43b",
+   "include": false,
+   "docType": "総合計画前期（最終）評価調書（施策単位）",
+   "reason": "基本施策ごとのKPI・総合評価と後期計画の予定事業。事業ごとの評価ではない",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "36387",
+   "sha256": "1d15a56c995e498cd534d989a9ad8280768d34902d4d77e90587fca2ebc5f1a0",
+   "include": true,
+   "docType": "教育委員会事務事業点検・評価報告書（予算費目別）",
+   "reason": "予算費目（決算額付き）ごとに番号付き事務の実施状況と◎点検・評価がある。ただし候補の多くは文・行事名のため個別に除外",
+   "checked": 22,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "36401",
+   "sha256": "9b22d95271e17617e96c7b6f7b8ceaabea352b452631645b5fc4b36812cfe86e",
+   "include": false,
+   "docType": "総合戦略の実績一覧（KPI）",
+   "reason": "第2期総合戦略の施策・KPI実績表で、事務事業評価ではない",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "36402",
+   "sha256": "6731097d24b8a3ea12578063ddc9791da94e9eebd19351ed4de64dc0d3c5d32f",
+   "include": true,
+   "docType": "主要な施策の成果に関する説明書",
+   "reason": "令和6年度。事業ごとの成果説明と事業費の行",
+   "checked": 52,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "36403",
+   "sha256": "92db6bc8e2fa9f3b2cf3ae9546e5b3ae7f9d2f874c660241e18463397fba44df",
+   "include": true,
+   "docType": "教育委員会点検・評価報告書（評価シート）",
+   "reason": "番号付き事業一覧と評価（A/B）。令和7年度対象",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "36403",
+   "sha256": "233a9a24907b7f83cbe522d846aa084dbc3d72bd66667ee8cabc532e70181a73",
+   "include": true,
+   "docType": "教育委員会点検・評価報告書（評価シート）",
+   "reason": "番号付き事業一覧と評価。令和6年度対象",
+   "checked": 3,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "36403",
+   "sha256": "c480d06b30e197e4b5a67f76708e28418b381c4b3d3f5126bc64b47615918ad5",
+   "include": true,
+   "docType": "教育委員会点検・評価報告書（評価シート）",
+   "reason": "番号付き事業一覧と評価。令和5年度対象",
+   "checked": 4,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "36403",
+   "sha256": "7c48e9744b64b46a1765e4e0e2ad653fca9bb2e4c6706d8496f6637730413aed",
+   "include": true,
+   "docType": "教育委員会点検・評価報告書（評価シート）",
+   "reason": "番号付き事業一覧と評価。平成29年度対象",
+   "checked": 4,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "36489",
+   "sha256": "ef241b08ae87a70a9955c8a6c41b87e1f8022d930dfcf0390ecbbda463e1b9ed",
+   "include": true,
+   "docType": "行政評価（事務事業評価シート）結果表",
+   "reason": "整理番号付き事務事業名と2次評価の一覧。1510-005の折返し名称を確認",
+   "checked": 1,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "37204",
+   "sha256": "c9d44006693d20945a25a8b9789473565585f0c55f7997bcb15ac7e979acfce6",
+   "include": true,
+   "docType": "主要な施策の成果説明書（教育費抜粋）",
+   "reason": "事業ごとの決算額・事業概要・実績。令和6年度",
+   "checked": 50,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "37205",
+   "sha256": "9ebb64afc66eaf5939ba01bcaed0bd6c9b4cd06fdc7e2d07a8bbc76c9691fff6",
+   "include": true,
+   "docType": "教育委員会事務事業の点検・評価報告書",
+   "reason": "事業名・事業概要・令和6年度実施内容・自己評価の表",
+   "checked": 52,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "37206",
+   "sha256": "b38c6b34cf23e7121a5b43c890a71db6480cdbc0d3f3f51a92926074761c78cd",
+   "include": true,
+   "docType": "事務事業評価調書",
+   "reason": "事業ごとの評価調書（計画・実績・評価）。令和6年度",
+   "checked": 1,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "37206",
+   "sha256": "458b0221e3e93516eeb6efeb51b7637c7c73bebf7918c268a843385a17090a90",
+   "include": true,
+   "docType": "事務事業評価調書（病院）",
+   "reason": "病院事業会計①〜④の事業ごとの評価調書。令和6年度",
+   "checked": 4,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "37206",
+   "sha256": "cf5e416a4c896bb9b6ff060222048ef92635846c3d942ddf270e7df7c0063844",
+   "include": true,
+   "docType": "事務事業評価調書",
+   "reason": "事業ごとの評価調書。令和4年度",
+   "checked": 10,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "37206",
+   "sha256": "3b47c259c02c1ac67adfa4b21441306bc416afa9753dd7b20a5d02c936d68b1e",
+   "include": true,
+   "docType": "事務事業評価調書（病院・診療所）",
+   "reason": "病院事業会計①〜④・津田診療所事業の評価調書。令和4年度",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "37207",
+   "sha256": "49e94e9671736ffb6b8b92c05b460b1e718b1c544dea3dd8d19d6986fe881eb3",
+   "include": true,
+   "docType": "事務事業PDCAチェックシート",
+   "reason": "事務事業名・実施年度令和5年度の個別評価票",
+   "checked": 1,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "37207",
+   "sha256": "8dc6215c6b484db57992f04e3be8b84771b0cc58ebbf01cf66229072904c1a2d",
+   "include": true,
+   "docType": "事務事業PDCAチェックシート",
+   "reason": "事務事業名・実施年度令和5年度の個別評価票",
+   "checked": 1,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "37207",
+   "sha256": "3c975ad640450f804905166d1672b236ce3403ec6038c057e3244b407dd58116",
+   "include": true,
+   "docType": "事務事業PDCAチェックシート",
+   "reason": "事務事業名・実施年度令和5年度の個別評価票",
+   "checked": 1,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "37322",
+   "sha256": "e3bd40dc491b9761aad543b87f30ad4b6b3753f8c5068b68a6304ae26fec98d6",
+   "include": true,
+   "docType": "教育委員会事務事業の点検・評価表",
+   "reason": "令和6年度対象の事業ごとの点検・評価表",
+   "checked": 24,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "37324",
+   "sha256": "49f581f754b13e306e3f7563f7ae46b061571cd74135d7309a52348287ac2740",
+   "include": true,
+   "docType": "教育委員会事務事業の点検・評価表",
+   "reason": "目次の事業ごとの点検・評価表。令和6年度対象",
+   "checked": 15,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "37387",
+   "sha256": "83908bab1ac4fb7014db7e4ce6fdfec81ece315a61d9a2b804e0bad0fcc628df",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和6年度 物価高騰対応臨時交付金の事業実績及び効果検証。No.付き行ごとに事業名・事業始期終期・総事業費・事業実績・目標値・効果検証があり、実施年度R6を確認",
+   "checked": 11,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "37387",
+   "sha256": "b02bf3b51e348287b43389b0d9567d8e07853fc0c222f8445c238c01981b198c",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和5年度 物価高騰対応重点支援臨時交付金の事業実績及び効果検証。No.付き行ごとに事業名・始期終期・事業費・実績・効果。候補の読点入り名称は原表の1行の事業名そのもの",
+   "checked": 6,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "37404",
+   "sha256": "df333e4ea39c958e6a7ea98669ea385308ee9e4faf36b9461c7a040b57c3314b",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和4年度コロナ対応臨時交付金の事業実績及び事業効果検証シート。行ごとに事業名・始期終期・総事業費・事業実績・効果検証。財源別に分かれた同一事業（商品券No.1・2・45）は候補で1件に統合済み",
+   "checked": 39,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "37406",
+   "sha256": "b60fa499f2a1a564ad8a049b718abc6bb007505d1700a7a0939c2351efc9d94d",
+   "include": false,
+   "docType": "まち・ひと・しごと創生総合戦略 効果検証報告書",
+   "reason": "総合戦略のKPI・推進状況の検証。候補は検証コメント中の制度・事業名で、事務事業評価ではない",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "37406",
+   "sha256": "78f8bfa1a1ef485dc1a6451cb739f2c83caac39e963f545f1d60aa1e9a141bc4",
+   "include": false,
+   "docType": "まち・ひと・しごと創生総合戦略 効果検証報告書",
+   "reason": "総合戦略のKPI・推進状況の検証。候補は検証コメント中の制度・事業名で、事務事業評価ではない",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "37406",
+   "sha256": "954fdfd817d504d55481966f93e395e5532f60a28eef8c098c2b17108a6018a6",
+   "include": false,
+   "docType": "まち・ひと・しごと創生総合戦略 効果検証報告書",
+   "reason": "総合戦略のKPI・推進状況の検証。候補は検証コメント中の制度・事業名で、事務事業評価ではない",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "37406",
+   "sha256": "18f6792112112fc0d1752783a8968e1e943f45fd2af40d13921ea8e3c833c61b",
+   "include": false,
+   "docType": "まち・ひと・しごと創生総合戦略 効果検証報告書",
+   "reason": "総合戦略のKPI・推進状況の検証。候補は検証コメント中の制度・事業名で、事務事業評価ではない",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "37406",
+   "sha256": "d9ab74041ace03822f17474357f6d6cb203e833a9c56b518be759543c0838a90",
+   "include": false,
+   "docType": "まち・ひと・しごと創生総合戦略 効果検証報告書",
+   "reason": "総合戦略のKPI・推進状況の検証。候補は検証コメント中の制度・事業名で、事務事業評価ではない",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "37406",
+   "sha256": "5076d8eb8e759acc2c111fd2c6f38d3209bf77d6e388e352c7bbce06371043a3",
+   "include": false,
+   "docType": "まち・ひと・しごと創生総合戦略 効果検証報告書",
+   "reason": "総合戦略のKPI・推進状況の検証。候補は検証コメント中の制度・事業名で、事務事業評価ではない",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "37406",
+   "sha256": "b6ddb92de289c7415d4d23820c410fa850ecba4a6918da13c2952ba3d3354583",
+   "include": false,
+   "docType": "まち・ひと・しごと創生総合戦略 効果検証報告書",
+   "reason": "総合戦略のKPI・推進状況の検証。候補は検証コメント中の制度・事業名で、事務事業評価ではない",
+   "checked": 3,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "37406",
+   "sha256": "79a42f7bd1199f70020f96540a85633714629d424eff6bdccd84f002113eb412",
+   "include": false,
+   "docType": "まち・ひと・しごと創生総合戦略 効果検証報告書",
+   "reason": "総合戦略のKPI・推進状況の検証。候補は検証コメント中の制度・事業名で、事務事業評価ではない",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38203",
+   "sha256": "81442ea1f2adb2a2e7bb7981c498cc279c59803c2840f57db608dcd9bc013e1e",
+   "include": true,
+   "docType": "教育委員会点検・評価報告書（個別事業別）",
+   "reason": "個別事業・施策名ごとに予算執行状況（予算額・決算額）・実施状況・評価。平成31年度対象",
+   "checked": 63,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38203",
+   "sha256": "df7604cefa3aed7f9f9ebfb0500ad5a6289a7a6a94a69ccb8905ee118e7cf351",
+   "include": true,
+   "docType": "教育委員会点検・評価報告書（個別事業別）",
+   "reason": "個別事業・施策名ごとに予算執行状況・実施状況・評価。令和3年度対象",
+   "checked": 66,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38203",
+   "sha256": "7d4b2031ec74d8448ddc4383db79f1f604436b2cdcee22877008325f3d7d6d26",
+   "include": false,
+   "docType": "教育委員会点検・評価（政策シート）",
+   "reason": "令和4年度対象分は政策シート単位の主な取組・成果の文章。候補は文中の事業名で、事業ごとの評価ではない",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38204",
+   "sha256": "c663bb7e95d23d10d7474922adede01fd813e49eb1f5c9e0a301d76c0d9c3596",
+   "include": false,
+   "docType": "教育委員会点検評価（重点施策単位）",
+   "reason": "15重点施策ごとの実施状況。候補は美術展・芸能祭・俳句大会等の行事や文中の事業名",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38206",
+   "sha256": "a96beefd8a8eee32c4509bb9fb5b918106488c107bc70037cfee6166d5d91804",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策単位）",
+   "reason": "施策ごとの取組状況の文章。候補は文中の事業・行事名（二十歳の集い等）",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38213",
+   "sha256": "3b17afe57dadd51b3f5e34e8db323c032b519dff4691182545e0c1edfadc27e0",
+   "include": false,
+   "docType": "教育委員会点検評価（重点施策単位）",
+   "reason": "令和元年度以降の様式は16重点施策ごとに内部評価（妥当性等）。候補は実施状況内の見出しで、行事（書道パフォーマンス甲子園）・業務も混在",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38213",
+   "sha256": "9e5499dc02024df8777d7bcd035bf36791fa1991507f94c90fb452b4c545e167",
+   "include": false,
+   "docType": "教育委員会点検評価（重点施策単位）",
+   "reason": "同上（令和3年度）。評価は重点施策単位",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38213",
+   "sha256": "236ccd2a9bfec4aaeb026aafd99f8621e44176cdb747ff7443b808ba21bd33c4",
+   "include": false,
+   "docType": "教育委員会点検評価（重点施策単位）",
+   "reason": "同上（令和4年度）。評価は重点施策単位",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38213",
+   "sha256": "acc61c29c6e85fdd2277f2fba2e2ee3cafcd3d23a08713ec940251314c316b6b",
+   "include": false,
+   "docType": "教育委員会点検評価（重点施策単位）",
+   "reason": "同上（令和6年度）。評価は重点施策単位",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38213",
+   "sha256": "fff5622d0988734ea4af2489a3bb80feb335108c43f9e3786871f2e0878eb0f2",
+   "include": false,
+   "docType": "教育委員会点検評価（重点施策単位）",
+   "reason": "同上（令和7年度）。評価は重点施策単位",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38213",
+   "sha256": "7811478b8081a9e2ad001dcdb1af888c0b6604462f5f31a227ffc7a03a7a6eba",
+   "include": true,
+   "docType": "教育委員会点検評価（事業別内部評価）",
+   "reason": "平成20年度対象。事業・業務ごとに実績と内部評価（現状継続/改善継続等）",
+   "checked": 7,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38213",
+   "sha256": "2c3e68531f3e32c619ba24926b1af4511c6a342371393063a448ff3df2ecf79e",
+   "include": true,
+   "docType": "教育委員会点検評価（事業別内部評価）",
+   "reason": "平成21年度対象。事業・業務ごとの内部評価",
+   "checked": 11,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38213",
+   "sha256": "b5cd147a0937aa1336759ef83a224792e5bf2ca7bca5cb95557329b3255495bb",
+   "include": true,
+   "docType": "教育委員会点検評価（事業別内部評価）",
+   "reason": "平成22年度対象。事業・業務ごとの内部評価",
+   "checked": 13,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38213",
+   "sha256": "021d107ec0579fdc14e4e5cc47caf661cba94bf87bcd01940dd8a95a57e64484",
+   "include": true,
+   "docType": "教育委員会点検評価（事業別内部評価）",
+   "reason": "平成23年度対象。事業・業務ごとの内部評価",
+   "checked": 12,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38213",
+   "sha256": "35e7fbc15744ec418c1af7561aebccda3666a917efb49e6e08152fe933ae9f63",
+   "include": true,
+   "docType": "教育委員会点検評価（事業別内部評価）",
+   "reason": "平成24年度対象。事業・業務ごとの内部評価",
+   "checked": 10,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38213",
+   "sha256": "9b547fb372da2131e971da53217c5701d09be53d3131dd915a968368ff477420",
+   "include": true,
+   "docType": "教育委員会点検評価（事業別内部評価）",
+   "reason": "平成25年度対象。事業・業務ごとの内部評価",
+   "checked": 9,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38213",
+   "sha256": "7b164efe43a5ae829bf7c863a08eb6172abfc0c381bbce01c8648d52dde18aec",
+   "include": true,
+   "docType": "教育委員会点検評価（事業別内部評価）",
+   "reason": "平成26年度対象。事業・業務ごとの内部評価",
+   "checked": 7,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38213",
+   "sha256": "d07a2738a96d5a78f8b4a91950fb5656a9a50f1be7068fe526dc5f879348a097",
+   "include": true,
+   "docType": "教育委員会点検評価（事業別内部評価）",
+   "reason": "平成27年度対象。事業・業務ごとの内部評価",
+   "checked": 1,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38213",
+   "sha256": "4e95bcbf489abb1dfdf6f62156709325d425b4c7158a5eff1f1656ba38d40a98",
+   "include": true,
+   "docType": "教育委員会点検評価（事業別内部評価）",
+   "reason": "平成28年度対象。事業・業務ごとの内部評価",
+   "checked": 1,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38213",
+   "sha256": "7181ac6124b8a33d7b9c1892b5da94a45c49c2998a5bfe38b0b1a7ee9ce4241d",
+   "include": true,
+   "docType": "教育委員会点検評価（事業別内部評価）",
+   "reason": "平成29年度対象。事業・業務ごとの内部評価",
+   "checked": 4,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38213",
+   "sha256": "c330c348fb648c5101db0acf9c8f676291a85ebd839d3baf3b83f6806f7f1daf",
+   "include": false,
+   "docType": "教育委員会点検評価（重点施策単位）",
+   "reason": "令和元年度様式。評価は重点施策単位で、候補は実施状況内の見出し",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38213",
+   "sha256": "0e21dc551e45d9d63e758d72c86da5eed8569b3c4a170f5d3a39da455eb0fb3e",
+   "include": false,
+   "docType": "教育委員会点検評価（重点施策単位）",
+   "reason": "令和元年度様式。評価は重点施策単位で、候補は実施状況内の見出し",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38386",
+   "sha256": "a9b212d5d2cb4a2b04b806ac1ad08ebde5932e39b1549e130359afd02a2b522e",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和2年度コロナ対応臨時交付金の実施事業一覧・評価表。行ごとに事業名・【実績】・事業費・始期終期（R2.4〜R3.3等）・効果の記述。財源別の分割行は候補で統合済み",
+   "checked": 38,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38386",
+   "sha256": "4695599e9e2d602903df6f8ee3815685bbe5a3da1dd393a496ca9abf5d99a473",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和3年度コロナ対応臨時交付金の評価表。行ごとに事業名・総事業費・実施内容（〜を行った）・件数実績・始期終期R3.4〜R4.3を確認",
+   "checked": 23,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38386",
+   "sha256": "cf61028e8ea4cc6b646246de458086b8d59882924b5bcf231c5f48815c3281de",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "令和4年度コロナ対応臨時交付金の実施事業一覧・評価表。行ごとに事業名・総事業費・評価欄（【実績】等）・始期終期R4.4〜R5.3を確認",
+   "checked": 22,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38401",
+   "sha256": "abf7fcbf15aeae005326c13c75992b66a43e7f3380e13e12fe893fdd590959db",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "新しい地方経済・生活環境創生交付金（TYPE1）の活用状況。事業1件の令和7年度事業費（3,927千円）・取組内容・効果検証結果（指標）を記載した結果報告",
+   "checked": 1,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38402",
+   "sha256": "8c2cf8074e2bffada0a5b4f828f64bb95e74f5cf8f9a8a263a38e851a49f9482",
+   "include": true,
+   "docType": "教育委員会点検評価報告書（事業別評価表）",
+   "reason": "事業No.・事業名・決算額付きの事業別評価表。令和3年度事業・令和4年度評価",
+   "checked": 8,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38484",
+   "sha256": "60c7e8731fee9d2be7e788f6728e9dfaf002c4e6a3a1767e275dc7096fc4be55",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策単位）",
+   "reason": "施策ごとの評価。候補はマラソン大会・文化祭・俳句大会・ひなまつり等の行事・講座名",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "38488",
+   "sha256": "a05182a23a0a3799b09318c3f319240e92d3021bc18c1dd6a847c697449417a4",
+   "include": false,
+   "docType": "教育委員会点検・評価（基本施策単位）",
+   "reason": "一覧表の判定・今後の方向性は基本施策の行（2〜4事業を束ねた行）ごとで、事業ごとの評価ではない。行事（でちこんか事業）も含む",
+   "checked": 5,
+   "group": "g5"
+  },
+  {
+   "municipalityCode": "01230",
+   "sha256": "7727addde1ac35d98161f63de2625c2570c9682705559ba3da565ac249f37644",
+   "include": true,
+   "docType": "事務事業評価シート",
+   "reason": "令和７年度（令和６年度分）事務事業評価シートの束。様式・年度は本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "01543",
+   "sha256": "c2f9f8000890ff029682528a590f9451db688f68bf3cd273f81cc0407ea7769e",
+   "include": true,
+   "docType": "事務事業評価調書（1次評価）",
+   "reason": "事務事業評価調書の事務事業名欄に候補名があり、表題の年度と一致。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "01543",
+   "sha256": "0cd7bc6b0fc60eb4316a3ba81da4ec42b512b70671e737acf9e900b58e0eb3af",
+   "include": true,
+   "docType": "事務事業評価調書（1次評価）",
+   "reason": "事務事業評価調書の事務事業名欄に候補名があり、表題の年度と一致。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "01543",
+   "sha256": "8c9fe4290d612678dcb9e67ec3b0ef7c05fb719c388a807900ada237e5e877d5",
+   "include": true,
+   "docType": "事務事業評価調書（1次評価）",
+   "reason": "事務事業評価調書の事務事業名欄に候補名があり、表題の年度と一致。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "04445",
+   "sha256": "edb22b6228a8de4de53f26bd9958e1a8821e6c294a9c7acf715a0ce00c4e49cb",
+   "include": true,
+   "docType": "事務事業評価シート（補助金）",
+   "reason": "Ｒ１事務事業評価シート（補助金）の補助金ごとの票。",
+   "checked": 2,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "08204",
+   "sha256": "ab3fca0a9ce147ebf9512d5f318d307df0ae21c98471563f0a04d68678d89088",
+   "include": true,
+   "docType": "成果説明書兼事業評価書",
+   "reason": "令和6年度実施事業の評価書で事業名称欄に候補名を確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11208",
+   "sha256": "f2a9cd36a5d472d85746a7848c81f71a33c3d12b9573324c8a2fa9a17fdaed39",
+   "include": true,
+   "docType": "事務事業評価表【様式1】",
+   "reason": "令和８年度事務事業評価表：令和７年度事務事業の票で事業名・年度を確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11221",
+   "sha256": "745b0b42826886e215cf68a43dc8e8b866b766468db8ff698aa5bffd34e0bd76",
+   "include": true,
+   "docType": "事務事業評価（ダイジェストシート）",
+   "reason": "全事務事業対象のダイジェストシート。事務事業名欄に候補名を確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "42d2c8de3d7442d58ad9faa3f502d379690df515e8d45a77941868874f2a0c8e",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "f6f7fec1a3b6e44433db33e587ea2c879aa7677845c40c29b52fc28385f4b98c",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "c1ec82f04dced2eca9247b1f88ac7a4895753efbee0fdd7c3a7d395e491c54e1",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "bdcf88c54afdfebbde7d8cdf3ab4804d07d77bd993129018aeec237e9a34335f",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "afa3b1e6387b689ef26a3e7a46e12487ad5bd29c78deefeb9bfc25847892232a",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "f453583078e986db3f338853a318bb0922bac48be9ed7866d402dd88618c4d7b",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "c5ea6c3cdda57d2fba2a0106eb6d7117034fb3ab36a8da4e1b2db9670279b9ec",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "ab283b6ff427081c53fc237c0a739553f44fdcf425d332de16e0d0eee6470b3f",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "3604279c8de4772afc3f211032407471ccbbb333300499247e54beb7682cfa91",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "249e6a4c7da0776fc6252d431373a803e635285da281a97239580459a4e4716e",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "35a25510b367fd1255d58818cb0cfcd3b26350882000329c8fd2ed347ef88aea",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "ebf306984002ebfdf3332ed26c72e634c3662fea0c3902c536d44eb99d4d653e",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "1285432f56585efb80ccac466e37b470863b28f6b6c744aaa7d3edad24c60bf7",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "0e165e61cac5b9868133b44ec9aa0d2c95a596cf6059ba9e297f523f2068cdd6",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "90e42d2557a8d109e9be011058fcb10c5b5aff886f54acc54f1957a5b6ddbc3d",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "115c2012f2b40b3d9b105bcc4d27a14b4da3a426d7e9a8ab55d9002b29410dba",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "1240858fc43e0e3ba86a12a39de8d717eebedb80685494d9de35c9ee078b8b5b",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "24953dfba5d9bb73a55c6dee8e510f34ae698ad7611bf66e0fe843cf472f69fd",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "af004790e5258543bd580a17ef9eaf01e33ad7fe5b74b6ea2fdb185cede8c7ff",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "2df568d8fd767c7d66a782e247d8055d6aeca00a631c9c8303141f32b3a4273d",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "212107059580fd3c5f52ae9833084224cc046be4236deaece8c1e127c04f1cbc",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "6435cf64fa853f487947bd11b37883ff2f887c962b4d08cc880265f586dbf42e",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "f8dfdb6758dec1cab4734d14b79e8f9f9db3d0a9b84c19e6881a7fb09dd538bc",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "069ef89218b7ed3546ea650e63a9051b2c109f12f0588e8fd4f43b5e65190fc5",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "165d462eff3cd79af16f902a58415203fcd9743d7661fe92ea357dc6b65062c6",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "034f3d40defab5ab4afc9dfc08e14fe723da9279afbacf6f0b0fcbc96ce99565",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "3332287b98dca709be06ccb873fea5448ad7c3db3883c7236c838b886a354611",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "c9c1ec743a03f58458ce419eb3ab396555fa483cfa9e09a41cd10de5ab94200f",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "66507ed907db931519cff495a9c6ea7ba58a4e09697c982ee2d22fd95802d261",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "233358c431206d92c83334c7211e279aad7f91d5a3dbcfdbbbd196e0be06beb7",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "11225",
+   "sha256": "7a2744b7af99367b0ad49c2774202ee9582c8c08bc28b78d4e46a308d30cd6a6",
+   "include": true,
+   "docType": "事務事業評価シート（1事業1ファイル）",
+   "reason": "令和2年度事務事業評価シート（令和元年度分）。事務事業名欄・年度を本文で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "12232",
+   "sha256": "082c8b00472cb712d10ecb96e3a70ff9ed1e9b1bd7bc8d17fa67d9c5b37a91df",
+   "include": true,
+   "docType": "事後評価シート（実施計画事業）",
+   "reason": "平成27年度事業の事後評価シート（H28.5.31評価）。事務事業名欄で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "12232",
+   "sha256": "5071636fa2fd33e28c30073f9917a405b9965c717bde12712ff171d1967a753e",
+   "include": true,
+   "docType": "事後評価シート（実施計画事業）",
+   "reason": "平成27年度事業の事後評価シート（H28.5.31評価）。事務事業名欄で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "12232",
+   "sha256": "f2bc390921c95f2bd57d2dc8e538af7b8f50799a9f79997a1ea932743517304c",
+   "include": true,
+   "docType": "事後評価シート（実施計画事業）",
+   "reason": "平成27年度事業の事後評価シート（H28.5.31評価）。事務事業名欄で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "12232",
+   "sha256": "9b5151d89f6e83fdd1b2354c4dc4bf1e79cdd30646c6e48bbe834770cdd65748",
+   "include": true,
+   "docType": "事後評価シート（実施計画事業）",
+   "reason": "平成27年度事業の事後評価シート（H28.5.31評価）。事務事業名欄で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "12232",
+   "sha256": "b0d6ecd2baec4d4ef69438400b306fce1ef3e086b9fe9ca8355ba5160ae69039",
+   "include": true,
+   "docType": "事後評価シート（実施計画事業）",
+   "reason": "平成27年度事業の事後評価シート（H28.5.31評価）。事務事業名欄で確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "13114",
+   "sha256": "57ba2206bfa4e0f57d08757bd8dbc70beefc3b989ffa5d1bf237fc95b1d44742",
+   "include": true,
+   "docType": "行政評価 内部評価票",
+   "reason": "主要施策の成果冊子内の「令和6年度事業の行政評価」内部評価票。事業名欄・年度を確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "14100",
+   "sha256": "f1a63fe70152875baa72487a79a02b69171ec3d976d8f00e762d7b093903da8e",
+   "include": true,
+   "docType": "事業評価書",
+   "reason": "令和８年度事業評価書（令和７年度事業名）。事業名・年度を確認。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33216",
+   "sha256": "217fbae83808fa0b2b73a10c6254373f3bb42189a081576834fa44516992f450",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策単位）＋公民館講座等の実績一覧",
+   "reason": "評価は基本事業（施策）単位。候補は資料の生涯学習・公民館事業実績一覧の講座・教室・大会・行事名と本文中の言及が大半で、事業ごとの評価票ではない（ブリーフの浅口市講座の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33216",
+   "sha256": "0540972e685af739500327d36ac3498e9faf3a520628ce9827b1408a5a1e575b",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策単位）＋公民館講座等の実績一覧",
+   "reason": "評価は基本事業（施策）単位。候補は資料の生涯学習・公民館事業実績一覧の講座・教室・大会・行事名と本文中の言及が大半で、事業ごとの評価票ではない（ブリーフの浅口市講座の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33216",
+   "sha256": "a65dda431fdd8b684291dbcaa119f7cda0502031817ea0576cbef8ea52c14008",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策単位）＋公民館講座等の実績一覧",
+   "reason": "評価は基本事業（施策）単位。候補は資料の生涯学習・公民館事業実績一覧の講座・教室・大会・行事名と本文中の言及が大半で、事業ごとの評価票ではない（ブリーフの浅口市講座の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33216",
+   "sha256": "4c17b257ec75aadf9e0a542d483811a35bb23dcda91f87c69c260a2529dc4f3b",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策単位）＋公民館講座等の実績一覧",
+   "reason": "評価は基本事業（施策）単位。候補は資料の生涯学習・公民館事業実績一覧の講座・教室・大会・行事名と本文中の言及が大半で、事業ごとの評価票ではない（ブリーフの浅口市講座の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33216",
+   "sha256": "74e4c03106bd08328ca9bfb1bf45d1b20576e624f2bf9b274486bbc5127e1ea4",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策単位）＋公民館講座等の実績一覧",
+   "reason": "評価は基本事業（施策）単位。候補は資料の生涯学習・公民館事業実績一覧の講座・教室・大会・行事名と本文中の言及が大半で、事業ごとの評価票ではない（ブリーフの浅口市講座の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33216",
+   "sha256": "e7faffd27c91c2ad120d96766b75eb1891460cc4c9be08cb5a4af3391d3bbbac",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策単位）＋公民館講座等の実績一覧",
+   "reason": "評価は基本事業（施策）単位。候補は資料の生涯学習・公民館事業実績一覧の講座・教室・大会・行事名と本文中の言及が大半で、事業ごとの評価票ではない（ブリーフの浅口市講座の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33216",
+   "sha256": "16fd9ef56dbbe5884a8a3dd0e8cc74fcb82209e497775f400618366601abe953",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策単位）＋公民館講座等の実績一覧",
+   "reason": "評価は基本事業（施策）単位。候補は資料の生涯学習・公民館事業実績一覧の講座・教室・大会・行事名と本文中の言及が大半で、事業ごとの評価票ではない（ブリーフの浅口市講座の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33216",
+   "sha256": "82cf8ca20de3666b926b865278ddf956dc90a1d868e8ce7a42717bd8e512578b",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策単位）＋公民館講座等の実績一覧",
+   "reason": "評価は基本事業（施策）単位。候補は資料の生涯学習・公民館事業実績一覧の講座・教室・大会・行事名と本文中の言及が大半で、事業ごとの評価票ではない（ブリーフの浅口市講座の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33216",
+   "sha256": "988a2a354a4d35a1468390fc64abeb1a1d3ff1f10ac66da0bc1bfe32ce585e92",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策単位）＋公民館講座等の実績一覧",
+   "reason": "評価は基本事業（施策）単位。候補は資料の生涯学習・公民館事業実績一覧の講座・教室・大会・行事名と本文中の言及が大半で、事業ごとの評価票ではない（ブリーフの浅口市講座の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33216",
+   "sha256": "9f59e714da3b002a7aae48aefba78dafa7bcaff009bccb25fc37cb51e4c77078",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策単位）＋公民館講座等の実績一覧",
+   "reason": "評価は基本事業（施策）単位。候補は資料の生涯学習・公民館事業実績一覧の講座・教室・大会・行事名と本文中の言及が大半で、事業ごとの評価票ではない（ブリーフの浅口市講座の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33216",
+   "sha256": "686e8639659ed75ac6af8a1ec19ed4579aeacfe62851570c35794b85dcc28d2e",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策単位）＋公民館講座等の実績一覧",
+   "reason": "評価は基本事業（施策）単位。候補は資料の生涯学習・公民館事業実績一覧の講座・教室・大会・行事名と本文中の言及が大半で、事業ごとの評価票ではない（ブリーフの浅口市講座の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33216",
+   "sha256": "285c5d43ed45f32a88b22f8c4a3980fb3cc07d824a773c93e16b6ad2b4261413",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策単位）＋公民館講座等の実績一覧",
+   "reason": "評価は基本事業（施策）単位。候補は資料の生涯学習・公民館事業実績一覧の講座・教室・大会・行事名と本文中の言及が大半で、事業ごとの評価票ではない（ブリーフの浅口市講座の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33423",
+   "sha256": "0b5721830d2b4f258baf6429fe23f8cd323332d05d37de49648c3090afa80b02",
+   "include": true,
+   "docType": "教育委員会点検・評価報告書（重点項目ごとの目的・計画・成果・方向性）",
+   "reason": "重点項目ごとに目的・計画・成果・今後の方向性を記載。重点項目名が事業名の候補のみ残し、項目内に列挙された講座・行事・工事・会議は個別に除外。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33423",
+   "sha256": "1a9098060ab5459612734a2c9ae6f76d9307c34dc0be5e38fd41c2f21ebf81c1",
+   "include": true,
+   "docType": "教育委員会点検・評価報告書（重点項目ごとの目的・計画・成果・方向性）",
+   "reason": "重点項目ごとに目的・計画・成果・今後の方向性を記載。重点項目名が事業名の候補のみ残し、項目内に列挙された講座・行事・工事・会議は個別に除外。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33423",
+   "sha256": "6e0803f3623476baf41a41d7eee3f6de10b87c8b175d73a143170fb4aabfce29",
+   "include": true,
+   "docType": "教育委員会点検・評価報告書（重点項目ごとの目的・計画・成果・方向性）",
+   "reason": "重点項目ごとに目的・計画・成果・今後の方向性を記載。重点項目名が事業名の候補のみ残し、項目内に列挙された講座・行事・工事・会議は個別に除外。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33423",
+   "sha256": "4962f1c77fce9ab4ee2e171e89ced908588d6309cf6422eba1173e6ab00d2214",
+   "include": true,
+   "docType": "教育委員会点検・評価報告書（重点項目ごとの目的・計画・成果・方向性）",
+   "reason": "重点項目ごとに目的・計画・成果・今後の方向性を記載。重点項目名が事業名の候補のみ残し、項目内に列挙された講座・行事・工事・会議は個別に除外。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33423",
+   "sha256": "e3b9563d2d6a9027f1e851b2cf38f75ffddec01471fd0105774fea0866dc4ae3",
+   "include": true,
+   "docType": "教育委員会点検・評価報告書（重点項目ごとの目的・計画・成果・方向性）",
+   "reason": "重点項目ごとに目的・計画・成果・今後の方向性を記載。重点項目名が事業名の候補のみ残し、項目内に列挙された講座・行事・工事・会議は個別に除外。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33423",
+   "sha256": "e99cf3d79f5e1037a3540df803c258c92142a72649208291ae4f75248a7b6a7c",
+   "include": true,
+   "docType": "教育委員会点検・評価報告書（重点項目ごとの目的・計画・成果・方向性）",
+   "reason": "重点項目ごとに目的・計画・成果・今後の方向性を記載。重点項目名が事業名の候補のみ残し、項目内に列挙された講座・行事・工事・会議は個別に除外。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33423",
+   "sha256": "f466bbcf6a4ec50a34daaa9d88b793e1d231b93eac4792b60284437db0cd96d3",
+   "include": true,
+   "docType": "教育委員会点検・評価報告書（重点項目ごとの目的・計画・成果・方向性）",
+   "reason": "重点項目ごとに目的・計画・成果・今後の方向性を記載。重点項目名が事業名の候補のみ残し、項目内に列挙された講座・行事・工事・会議は個別に除外。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33461",
+   "sha256": "d04870c3ae4b3a9c6ca0465aa6547b3c41284ddbe21f8133ce7536f9724523c3",
+   "include": false,
+   "docType": "都市再生整備計画 事後評価シート",
+   "reason": "都市再生整備計画（交付金計画）の構成施設・整備項目の事後評価で、予算の事務事業単位の評価ではない。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33622",
+   "sha256": "493868677cc9708b47404e9c11ee0c38c2e6ef2d24a3c8f5c4624a9f4de15185",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "デジタル田園都市国家構想交付金の事業ごとに事業費・実績額・KPI・外部評価・今後の方針を記載した報告。事業名2件を表で確認。",
+   "checked": 2,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33622",
+   "sha256": "d331738f22e1e34a2afea43082797d6dcbe830088d32f3cd9570245f4959a52d",
+   "include": false,
+   "docType": "企業版ふるさと納税の実施結果報告",
+   "reason": "行の名称が制度名「地方創生応援税制（企業版ふるさと納税）」で事業名ではなく、実績額0。KPI報告。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33622",
+   "sha256": "c6281deeb82e36372fae3704db8d526e0e572adb9c32474511df17e861bfeb29",
+   "include": false,
+   "docType": "総合戦略 事業実施評価調書（KPI検証）",
+   "reason": "総合戦略の施策項目ごとのKPI検証（新富町の例と同型）。候補名も「自主防災体制の充実」など戦略項目で、名称の断片復元も多い。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33643",
+   "sha256": "2aacc8869cdbc917993c279d7b250163a3f287be54cf40d46c15396adab6fa25",
+   "include": false,
+   "docType": "総合振興計画 中間政策評価",
+   "reason": "総合振興計画の政策・施策単位の中間評価で事業単位でない。",
+   "checked": 2,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33663",
+   "sha256": "14832efa88127f13694cf7484028ca02c7127a1056a355113a0457a6ef85244e",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "交付金事業ごとに事業名・実績額・効果・担当課を記載。名称と年度（令和6年度）を確認。",
+   "checked": 3,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33681",
+   "sha256": "b4e73f2606338318815e8075d2408180547ee8e370d9d68609ba3951bc784c3e",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "交付金充当事業ごとに事業名・事業実績額・実施内容・効果を記載。事業名と年度を確認。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33681",
+   "sha256": "f092e70a41163349189cb2453cf1404104c53cf6df7e16b6a3eacd12bc20e516",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "交付金充当事業ごとに事業名・事業実績額・実施内容・効果を記載。事業名と年度を確認。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33681",
+   "sha256": "bb64ed4430a33878b2d59325f2e8b7ade59d6e6089ba4b13ddf3ebcc7450c3ce",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "交付金充当事業ごとに事業名・事業実績額・実施内容・効果を記載。事業名と年度を確認。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33681",
+   "sha256": "5fc77f4632c17ada6e215ecf34d82db041e80a2eab3a84408160f56a5a10bdb6",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "交付金充当事業ごとに事業名・事業実績額・実施内容・効果を記載。事業名と年度を確認。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33681",
+   "sha256": "3a3640445fbb243261e7a114f911eebe28995c9d86841fb9aa0dc3df71db5e3d",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "交付金充当事業ごとに事業名・事業実績額・実施内容・効果を記載。事業名と年度を確認。",
+   "checked": 3,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "33681",
+   "sha256": "87f4e7430467363091a610007cac769453780c7d7ab769fe5ca1339cdab8eaa3",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "交付金充当事業ごとに事業名・事業実績額・実施内容・効果を記載。事業名と年度を確認。",
+   "checked": 3,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34100",
+   "sha256": "31c775357bdf9a786352d21a13d5c904aa33745354f34f2df2af11bd0b5a1174",
+   "include": false,
+   "docType": "行政経営改革推進プランの実施状況",
+   "reason": "行革プランの改革項目の進捗管理で、候補は個票内の取組・制度名。予算の事務事業評価ではない。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34100",
+   "sha256": "97bdab53b7df184441784d379af2c2a70bcffc4873c2f9365d7a5fb65b2aa065",
+   "include": false,
+   "docType": "行政経営改革推進プランの実施状況",
+   "reason": "行革プランの改革項目の進捗管理で、候補は個票内の取組・制度名。予算の事務事業評価ではない。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34202",
+   "sha256": "8018e87a1a4b0fc5491b9dfaeffdb001a21deca05b6732ea8bdc0380d16780ce",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策単位）",
+   "reason": "評価は教育振興基本計画の施策・目標指標単位。候補は施策内の「取組状況」に列挙された活動名で、事業ごとの評価票ではない。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34202",
+   "sha256": "767ed72f653e6344a0568edf9bd736e677dd353e33bf266fd9aaf68969bf0ccd",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策単位）",
+   "reason": "評価は教育振興基本計画の施策・目標指標単位。候補は施策内の「取組状況」に列挙された活動名で、事業ごとの評価票ではない。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34202",
+   "sha256": "6c442b2cebc67a17bcbd0ba2a704bfcb12c77353e8b430433db7b97948fda62d",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策単位）",
+   "reason": "評価は教育振興基本計画の施策・目標指標単位。候補は施策内の「取組状況」に列挙された活動名で、事業ごとの評価票ではない。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34203",
+   "sha256": "fa22593fdd61a0eda3ddf6bd652880144c4cbb0dc2d6fbd849ad9b04975be303",
+   "include": true,
+   "docType": "教育委員会点検・評価報告書（主要事業ごと）",
+   "reason": "点検・評価の対象事業一覧と主要事業ごとの事業概要・取組内容・決算額・達成度・今後の方向性を確認。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34203",
+   "sha256": "d67f48fa442e690114a22353348166ba09f0247b0ceb1d2345ffc00e47d942b1",
+   "include": true,
+   "docType": "教育委員会点検・評価報告書（主要事業ごと）",
+   "reason": "点検・評価の対象事業一覧と主要事業ごとの事業概要・取組内容・決算額・達成度・今後の方向性を確認。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34203",
+   "sha256": "11f37e159579ded274fb5dce076c4e3fdf83cdd8340d0bb7e1ccce2561f4e334",
+   "include": true,
+   "docType": "教育委員会点検・評価報告書（主要事業ごと）",
+   "reason": "点検・評価の対象事業一覧と主要事業ごとの事業概要・取組内容・決算額・達成度・今後の方向性を確認。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34203",
+   "sha256": "d82266273d1072f6c6cc498904827cce6319fe6eae1e0d5a1b9f49a12c88e7d5",
+   "include": true,
+   "docType": "教育委員会点検・評価報告書（主要事業ごと）",
+   "reason": "点検・評価の対象事業一覧と主要事業ごとの事業概要・取組内容・決算額・達成度・今後の方向性を確認。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34203",
+   "sha256": "d4c8ff3590b29f51a387976b7169c073fb6f0ae60d884298cbbe36e19143ee06",
+   "include": true,
+   "docType": "教育委員会点検・評価報告書（主要事業ごと）",
+   "reason": "点検・評価の対象事業一覧と主要事業ごとの事業概要・取組内容・決算額・達成度・今後の方向性を確認。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34203",
+   "sha256": "e5b58ba95ed425af21d2ddad30194698cf1659f9a196b86eb6dfbb90fc199426",
+   "include": true,
+   "docType": "教育委員会点検・評価報告書（主要事業ごと）",
+   "reason": "点検・評価の対象事業一覧と主要事業ごとの事業概要・取組内容・決算額・達成度・今後の方向性を確認。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34203",
+   "sha256": "f159cbe4835faf4d735483388200e26377fe558069377c0be30b470efe797a1b",
+   "include": true,
+   "docType": "教育委員会点検・評価報告書（主要事業ごと）",
+   "reason": "点検・評価の対象事業一覧と主要事業ごとの事業概要・取組内容・決算額・達成度・今後の方向性を確認。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34205",
+   "sha256": "f53602cc79ffe604fc743992a2e8a0132e6f106af57d5e9ed91bfeb39622ce4a",
+   "include": true,
+   "docType": "教育委員会 評価点検シート（施策・事業ごと）",
+   "reason": "評価点検シートは施策・事業名ごと。シートの施策・事業名と一致する候補のみ残し、シート内容欄の取組・講座・大会・展覧会・工事項目は除外。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34205",
+   "sha256": "b0c7b5190ead7932e8987d175b3aa7b4a7ad9e1f6013d71b99e78d8bce0375de",
+   "include": true,
+   "docType": "教育委員会 評価点検シート（施策・事業ごと）",
+   "reason": "評価点検シートは施策・事業名ごと。シートの施策・事業名と一致する候補のみ残し、シート内容欄の取組・講座・大会・展覧会・工事項目は除外。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34205",
+   "sha256": "ac2c7f15ec4edf0a284f9e31cf366e2d75967f2671f6ae7d18684da356d2e744",
+   "include": true,
+   "docType": "教育委員会 評価点検シート（施策・事業ごと）",
+   "reason": "評価点検シートは施策・事業名ごと。シートの施策・事業名と一致する候補のみ残し、シート内容欄の取組・講座・大会・展覧会・工事項目は除外。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34205",
+   "sha256": "94564ba08f68b13b912993ee80bc56f79f5f06d278a8637774fe16de630c527c",
+   "include": false,
+   "docType": "教育委員会 評価点検シート（OCR本文）",
+   "reason": "保存本文がOCRで大きく崩れ、シートの施策・事業名と内容欄の取組の区別を確かめられない。候補も内容欄の行事・講座（市民音楽芸能祭・おのみち市民大学講座等）が多い。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34205",
+   "sha256": "83a2ead3f15cfcfba65d502ce4e20cb004546a3d22ab4827aba1f105ccd96257",
+   "include": true,
+   "docType": "教育委員会 評価点検シート（施策・事業ごと）",
+   "reason": "評価点検シートの施策・事業名と一致する候補のみ残し、2名称が改行で結合した候補・シート内の取組項目は除外。",
+   "checked": 3,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34205",
+   "sha256": "cc8e17816152672ce2ddf6ab1a5b843b2e4bb7c96eafb0c15b5253e120d48e51",
+   "include": true,
+   "docType": "教育委員会 評価点検シート（施策・事業ごと）",
+   "reason": "評価点検シートの施策・事業名と一致する候補のみ残し、2名称が改行で結合した候補・シート内の取組項目は除外。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34205",
+   "sha256": "140529a8af133225e9d039470e56b39d01c621a1193a9b14fd67df2e10e428d1",
+   "include": true,
+   "docType": "教育委員会 評価点検シート（施策・事業ごと）",
+   "reason": "評価点検シートの施策・事業名と一致する候補のみ残し、2名称が改行で結合した候補・シート内の取組項目は除外。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34205",
+   "sha256": "da85a9691432458579dc61bf72ab26bdc1b52178ab9cb876bbbd6c846c9f0068",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策単位）",
+   "reason": "令和4年度以降は施策単位の取組・成果記述と指標で、事業ごとの評価票がない。候補は取組文中の言及。",
+   "checked": 3,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34205",
+   "sha256": "59edcc8c02e8b96a40b275442edbe0a2ab2e623976d51ac18b11701ca470ea16",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策単位）",
+   "reason": "令和4年度以降は施策単位の取組・成果記述と指標で、事業ごとの評価票がない。候補は取組文中の言及。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34205",
+   "sha256": "de93a28b8c5f2eb30347caf7d5619ff62e22faa921a50d81c2d5d9dcbca2aa4b",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策単位）",
+   "reason": "令和4年度以降は施策単位の取組・成果記述と指標で、事業ごとの評価票がない。候補は取組文中の言及。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34205",
+   "sha256": "1e95378a93714283a629e97921ba6fca7e0ca6188ef908705c32047bbc7b9309",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策単位）",
+   "reason": "令和4年度以降は施策単位の取組・成果記述と指標で、事業ごとの評価票がない。候補は取組文中の言及。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34207",
+   "sha256": "1e8617c33dbc3dc6b69e250a1cc3dbe31d4d4bfd260c85596ffc4ceaa8741fcc",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策・取組単位）",
+   "reason": "施策・取組ごとの概要・取組内容・課題の記述で、候補は本文中のサービス・施設・制度名（きらりルーム、雑誌スポンサー制度等）の言及。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34207",
+   "sha256": "7df12c78ad0e3475c3c77c0a9338fdef267a6ba2dc3e58321d9dffbd70f5336b",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策・取組単位）",
+   "reason": "施策・取組ごとの概要・取組内容・課題の記述で、候補は本文中のサービス・施設・制度名（きらりルーム、雑誌スポンサー制度等）の言及。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34207",
+   "sha256": "c3b5af1486964bef81e7e73d1f6c7cc2c0c3342820ecf6e39f98785bee3aca58",
+   "include": false,
+   "docType": "教育委員会点検・評価（施策・取組単位）",
+   "reason": "施策・取組ごとの概要・取組内容・課題の記述で、候補は本文中のサービス・施設・制度名（きらりルーム、雑誌スポンサー制度等）の言及。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34208",
+   "sha256": "1eb7742af7848d7b5b411493b74bb2382912b33f18045631a0c27efa9b74bd39",
+   "include": true,
+   "docType": "議会常任委員会による決算事務事業評価（提言）",
+   "reason": "決算年度を明示した提言表で、番号・事務事業名・今後の方向性・提言が事業ごとに並ぶ。折返し名称を本文で確認。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34208",
+   "sha256": "eee452bfbcfea7b378eb34bf5c554128745ed5c8ac072fbb57c987b058750cb6",
+   "include": true,
+   "docType": "議会常任委員会による決算事務事業評価（提言）",
+   "reason": "決算年度を明示した提言表で、番号・事務事業名・今後の方向性・提言が事業ごとに並ぶ。折返し名称を本文で確認。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34208",
+   "sha256": "2d18be227aef1d0be3aef101410c4353660f7478e2f818be2f8476fb323ed98a",
+   "include": true,
+   "docType": "議会常任委員会による決算事務事業評価（提言）",
+   "reason": "決算年度を明示した提言表で、番号・事務事業名・今後の方向性・提言が事業ごとに並ぶ。折返し名称を本文で確認。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34208",
+   "sha256": "fe40aa1b1673b0b88ff761b7b587a9029279bd835d48ae2f0ab62d1d76b179ad",
+   "include": true,
+   "docType": "議会常任委員会による決算事務事業評価（提言）",
+   "reason": "決算年度を明示した提言表で、番号・事務事業名・今後の方向性・提言が事業ごとに並ぶ。折返し名称を本文で確認。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34208",
+   "sha256": "afbe6ed5264075d8c415c8cf984d99a9c421ad997af1b4cb351f2cb70a4b40e3",
+   "include": true,
+   "docType": "議会常任委員会による決算事務事業評価（提言）",
+   "reason": "決算年度を明示した提言表で、番号・事務事業名・今後の方向性・提言が事業ごとに並ぶ。折返し名称を本文で確認。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34209",
+   "sha256": "98f8e8000116ec4e7016757f99d9665f014963f4c7ead82977788ac0088c9250",
+   "include": true,
+   "docType": "行政チェック市民会議（外部評価）の提言と対応",
+   "reason": "提言のあった事務事業ごとに事業名・所管課・提言・対応状況を記載。令和6年度会議。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34212",
+   "sha256": "8d45bbb3e07482c9bf311bd91337aec865368e72074c38a67dff11ee5d756872",
+   "include": true,
+   "docType": "目的別事業群説明書（決算）",
+   "reason": "戦略を構成する事務事業表・事務事業欄（予算・決算）に候補名を確認。同市の公開済みデータと同じ資料種別。",
+   "checked": 3,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34212",
+   "sha256": "95ce307b3a99dadff86ae3a5b3de8242b4febfa5a57d2b3721f38130093d41d2",
+   "include": true,
+   "docType": "教育委員会事務事業評価報告書",
+   "reason": "施策の方針ごとの表で評価指標・達成率・事業名（担当課）が行ごとに対応。候補は事業名列の名称。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34212",
+   "sha256": "9a0b67826ef7acae8c9c1ad5ad9a4f5e3517a061fa19227c497791ed0f692f30",
+   "include": true,
+   "docType": "目的別事業群説明書（決算）",
+   "reason": "戦略を構成する事務事業表・事務事業欄（予算・決算）に候補名を確認。同市の公開済みデータと同じ資料種別。",
+   "checked": 1,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34212",
+   "sha256": "40856bf24c1032267948597aecbfc33f3d6f6097d39ecd00eaff51d8f6a2eb6e",
+   "include": true,
+   "docType": "目的別事業群説明書（決算）",
+   "reason": "戦略を構成する事務事業表・事務事業欄（予算・決算）に候補名を確認。同市の公開済みデータと同じ資料種別。",
+   "checked": 4,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34213",
+   "sha256": "ae996e0e321fefd894e00fba1e8189a76a97320b5502a2978ca8468afa0ed71c",
+   "include": false,
+   "docType": "施策評価結果",
+   "reason": "施策単位の評価。候補は「昨年度の取組の振り返り」欄に出てくる講座・制度・工事名の言及。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34309",
+   "sha256": "fbbc039a6e2fffe79c8792798c46672cea7f400f999bbc60ae56a2d9a29d02b8",
+   "include": false,
+   "docType": "教育委員会事務点検・評価（点検票）",
+   "reason": "候補は点検票本文に名指しされた協議会・教室・大会・公演名（ブリーフの坂町点検票の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34309",
+   "sha256": "e2c07603e46516a1c89ba097664b85d8fd2ae31a5af9d1fa92e912dc1062ada1",
+   "include": false,
+   "docType": "教育委員会事務点検・評価（点検票）",
+   "reason": "候補は点検票本文に名指しされた協議会・教室・大会・公演名（ブリーフの坂町点検票の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34309",
+   "sha256": "3c3dd21ec972c314c71e02d47fc2e4f7d93f1e58d08c609348211e460d9e44f6",
+   "include": false,
+   "docType": "教育委員会事務点検・評価（点検票）",
+   "reason": "候補は点検票本文に名指しされた協議会・教室・大会・公演名（ブリーフの坂町点検票の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34309",
+   "sha256": "17dfd024ca3511349f5db868cac1c84979d301fb1468f42141b5ab007387b1df",
+   "include": false,
+   "docType": "教育委員会事務点検・評価（点検票）",
+   "reason": "候補は点検票本文に名指しされた協議会・教室・大会・公演名（ブリーフの坂町点検票の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34309",
+   "sha256": "53c96b1549ca03ee8ff4471193f97af4ed135917c941f711636ff5912c1a6f3b",
+   "include": false,
+   "docType": "教育委員会事務点検・評価（点検票）",
+   "reason": "候補は点検票本文に名指しされた協議会・教室・大会・公演名（ブリーフの坂町点検票の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34309",
+   "sha256": "3f48ab1a1d95b75cc2ed6a9d0df27ceb692cac8ada6d497771a1d9121cf7c4f6",
+   "include": false,
+   "docType": "教育委員会事務点検・評価（点検票）",
+   "reason": "候補は点検票本文に名指しされた協議会・教室・大会・公演名（ブリーフの坂町点検票の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34309",
+   "sha256": "59117cc577ddc12c59b5d255160ab52d70e0a52c10cec295589f1d2e9ac5a65b",
+   "include": false,
+   "docType": "教育委員会事務点検・評価（点検票）",
+   "reason": "候補は点検票本文に名指しされた協議会・教室・大会・公演名（ブリーフの坂町点検票の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34309",
+   "sha256": "7f3bcc041087d8e98093ed76c4f3127403407ffbd999e222ec6cddbe22093110",
+   "include": false,
+   "docType": "教育委員会事務点検・評価（点検票）",
+   "reason": "候補は点検票本文に名指しされた協議会・教室・大会・公演名（ブリーフの坂町点検票の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34309",
+   "sha256": "bc468b506a3f9851725b4168bde8f4e0d4ff93a718ff6d200b2d671adff2b3fa",
+   "include": false,
+   "docType": "教育委員会事務点検・評価（点検票）",
+   "reason": "候補は点検票本文に名指しされた協議会・教室・大会・公演名（ブリーフの坂町点検票の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34309",
+   "sha256": "10791f6d97b290df2b7eef9a337318e81717a6fd1e92f809af658bda71377c1d",
+   "include": false,
+   "docType": "教育委員会事務点検・評価（点検票）",
+   "reason": "候補は点検票本文に名指しされた協議会・教室・大会・公演名（ブリーフの坂町点検票の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34309",
+   "sha256": "1459b212a7e527ad272b3729cb6840fa4e763e7c541bfe204d9664159b49f954",
+   "include": false,
+   "docType": "教育委員会事務点検・評価（点検票）",
+   "reason": "候補は点検票本文に名指しされた協議会・教室・大会・公演名（ブリーフの坂町点検票の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34309",
+   "sha256": "c7471e709cd192fdf0995c736985e97081e2a1c61414113809028acc98f5675e",
+   "include": false,
+   "docType": "教育委員会事務点検・評価（点検票）",
+   "reason": "候補は点検票本文に名指しされた協議会・教室・大会・公演名（ブリーフの坂町点検票の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34309",
+   "sha256": "26b1653ddc85c713b041560512516620a56acadfaaefb1853aa1649871109d66",
+   "include": false,
+   "docType": "教育委員会事務点検・評価（点検票）",
+   "reason": "候補は点検票本文に名指しされた協議会・教室・大会・公演名（ブリーフの坂町点検票の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34309",
+   "sha256": "53193dcddec4f71e224b97dae28e08887a091239a05bdaa8c41097d05d78a333",
+   "include": false,
+   "docType": "教育委員会事務点検・評価（点検票）",
+   "reason": "候補は点検票本文に名指しされた協議会・教室・大会・公演名（ブリーフの坂町点検票の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34309",
+   "sha256": "3aa97de69c9479454fa924e48486ec7816a7fae1733d21d4b429f140a952cb6a",
+   "include": false,
+   "docType": "教育委員会事務点検・評価（点検票）",
+   "reason": "候補は点検票本文に名指しされた協議会・教室・大会・公演名（ブリーフの坂町点検票の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34309",
+   "sha256": "58346dc5ffcd76cf9a781baedd781bf40f5d87b4362b282b18232b16c4b88283",
+   "include": false,
+   "docType": "教育委員会事務点検・評価（点検票）",
+   "reason": "候補は点検票本文に名指しされた協議会・教室・大会・公演名（ブリーフの坂町点検票の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34309",
+   "sha256": "91cd2afdf6d5a5b42cffad0d15544b1f1c7253421b19ca56c3665f6f3d1fcd06",
+   "include": false,
+   "docType": "教育委員会事務点検・評価（点検票）",
+   "reason": "候補は点検票本文に名指しされた協議会・教室・大会・公演名（ブリーフの坂町点検票の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34309",
+   "sha256": "6076f779de8d6a523362a85f1298a1376f63635d878469291932464fd4dc9ce8",
+   "include": false,
+   "docType": "教育委員会事務点検・評価（点検票）",
+   "reason": "候補は点検票本文に名指しされた協議会・教室・大会・公演名（ブリーフの坂町点検票の例）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34368",
+   "sha256": "5fa2852519efdb332f3f967d57fcea3b5f22874079f7c77546a16c1d8c9a4d97",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "交付対象事業ごとに事業費・充当額・期間・効果・担当課を記載。令和7年度分。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34369",
+   "sha256": "807fe378c7b9a64ff6d99f2b0c01901b9b0c0c7e8e16288e814e01b801bc6087",
+   "include": true,
+   "docType": "主要施策の概要・内部評価成果シート",
+   "reason": "主要施策成果シートの事業名欄に候補名を確認（令和6年度決算資料）。",
+   "checked": 2,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34431",
+   "sha256": "bbfe225bdad8fe066fb1d615a4b37cf30a2e2d6198238e69f3343a9aaba89b73",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "交付金事業ごとに事業名・概要・事業期間・事業実績・効果を記載。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34431",
+   "sha256": "e79a00d5bbf11231dcde532cbba08736534040bc5d324a8cb0135de78e56ba5a",
+   "include": true,
+   "docType": "交付金事業の実施結果・効果検証",
+   "reason": "交付金事業ごとに事業名・概要・事業期間・事業実績・効果を記載。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34462",
+   "sha256": "193f626ead1121fcbf6b23dbccefec7c95234e26719272c42c98a33c484dfc54",
+   "include": false,
+   "docType": "まち・ひと・しごと創生総合戦略 効果検証",
+   "reason": "総合戦略の基本施策・KPIの検証で、候補は施策内の取組名（新富町の例と同型）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34462",
+   "sha256": "99e8feb609115c10461895fee7b806e4d21d6497e384c67bba4acae4656b751e",
+   "include": false,
+   "docType": "まち・ひと・しごと創生総合戦略 効果検証",
+   "reason": "総合戦略の基本施策・KPIの検証で、候補は施策内の取組名（新富町の例と同型）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34462",
+   "sha256": "3ea426f628177a96ed4a859b638a6bd45c69c6d87077b0e29c57781eab0d4a23",
+   "include": false,
+   "docType": "まち・ひと・しごと創生総合戦略 効果検証",
+   "reason": "総合戦略の基本施策・KPIの検証で、候補は施策内の取組名（新富町の例と同型）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34462",
+   "sha256": "804571a51b1e10871c3b6e32085886812c126fad6605e80aa29992b4910802cf",
+   "include": false,
+   "docType": "まち・ひと・しごと創生総合戦略 効果検証",
+   "reason": "総合戦略の基本施策・KPIの検証で、候補は施策内の取組名（新富町の例と同型）。",
+   "checked": 5,
+   "group": "g6"
+  },
+  {
+   "municipalityCode": "34545",
+   "sha256": "e179b9f7719bb3cfe442d7a45093859755eb1ceb610d167e9a5b563290fc35fa",
+   "include": false,
+   "docType": "第2期総合戦略 事業効果検証",
+   "reason": "総合戦略のKPI審査票。候補は戦略上の「具体的な事業」項目（例: 保育の無償化、英語教育の充実）で、予算の事務事業評価ではない。",
+   "checked": 5,
+   "group": "g6"
+  }
+ ],
+ "projects": [
+  {
+   "id": "cached-46213-f065cc0a9642e69c7e48785c",
+   "include": false,
+   "reason": "同じ1枚の評価シート（令和6年度評価・2025年度方向性）から2023年度分を別に作っており、年度が合わない（2024年度分と重複）。"
+  },
+  {
+   "id": "cached-46213-25e7b5759349cdef0b5c9481",
+   "include": false,
+   "reason": "同じ1枚の評価シートから2023年度分を別に作っており、年度が合わない（2024年度分と重複）。"
+  },
+  {
+   "id": "cached-46404-1ec1e1560e99eeca7997877d",
+   "include": false,
+   "reason": "名称に2行（長島ぐるっと一周緑化対策事業／緊急対応型雇用創出・研修事業）が改行付きで混ざっている。1つの事業名として確定できない。"
+  },
+  {
+   "id": "cached-46491-91ce22796a3ea5369bd63f0c-fy2024",
+   "include": false,
+   "reason": "名称欄が交付金の枠名（給付金・定額減税一体支援枠）で、事業名ではない。"
+  },
+  {
+   "id": "cached-43367-4dfbe0384b04f139ea9003b5",
+   "include": false,
+   "reason": "事業名欄が「元気宅配便支援…事業補助」と補助金名「活き活き輝きボランティア活動事業補助」と行が混ざり、名称を確定できない"
+  },
+  {
+   "id": "cached-43369-5aeb8a79e6ece7bdc4d5282f",
+   "include": false,
+   "reason": "名称に隣の欄の「なし」が混入（本文は「ふれあいの森事務事業」）"
+  },
+  {
+   "id": "cached-44208-12ef097188336fcc92e91b91",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-3b5579c94e4cb8f172ebd0b5",
+   "include": false,
+   "reason": "本文は「Ｔ授業（竹田型授業）」「竹田型交流授業」で、「竹田型創造授業」の名称は本文にない"
+  },
+  {
+   "id": "cached-44208-2f96682ad528605a3d5ce47a",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-f5d708895d3a2d5c62c0d13f",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-1560df9a31b965cd101419c5",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-2d4673bf8594f979743edac8",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-fa60e072052fdce8d2b1652a",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-16a17c872d55699763c99ab4",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-e8db03f259cbc76d860a4a88",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-5e914ad5bd49144c0d50c48f",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-ff96a3cab2a717d3d12d72f9",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-2d8f13f062bf3bcc984b6c70",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-a875f59d49864b25d79c8208",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-d6d19e0a25c544df41d7d001",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-b214630a5ec8cfa07be24a36",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-b6372299f12642aaf978f47e",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-05e0e3728fb59b5dcd30a7a3",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-c566cf8fb2967cbbdfea0ef6",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-3597b9e6dde63e08c1bca303",
+   "include": false,
+   "reason": "取組の作業項目（学力調査の活用）で事業名ではない"
+  },
+  {
+   "id": "cached-44208-a84dbecb86e90cba8e8dfaa6",
+   "include": false,
+   "reason": "取組の作業項目（学力調査の活用）で事業名ではない"
+  },
+  {
+   "id": "cached-44208-824e2dbd9ce431c4a33996eb",
+   "include": false,
+   "reason": "取組の作業項目（プラン改訂）で事業名ではない"
+  },
+  {
+   "id": "cached-44208-6d1d1b22b71d23cde77c3a9c",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-e734fce670dbdcfef15d2437",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-af064da8173b8606341064a6",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-40f1df6a01e3c82d356ebf4d",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-9e3b1eda6ee12b5db4099f76",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-cafb5e6e03b9b93e0a6e6911",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-581f90ba5fced82379f49c77",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-46365df26b77f788faa8c35a",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-59a53810f97829f2b5e8cab8",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-2a64e53bfd368c8241801d62",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-1ccc184df564c626c242c3f2",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-cc99ae2da5992e1cb81ed974",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-810e1bbacbf4977706a32572",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-3e9a05a7151dbf6e48786dc9",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-bbf33d93f5a3565c49fb20f0",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-a5e6c7984ee446b8821f69ba",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-e94906de7dd734294be4d7ac",
+   "include": false,
+   "reason": "行の事業名ではなく成果欄の文中の大会名（行事・大会・展示・講座等の名称で、予算の事務事業単位ではない）"
+  },
+  {
+   "id": "cached-44208-5814ca8916d8009a7ef5e99a",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-47710809fca0af4847209fb2",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-f3ace7ba54f7f9e5b511b134",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-21fb544dd5d731871416ff8e",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-493cf6ec5a83751400371f91",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-9075dab0ab9ae1704ee4315a",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-39720a75340ffa8ed8d5a16f",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-4c6a801056a3e57e6604089e",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-e0617c7bab7cb7aa1880c4c2",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-b33ec12e423e56d39c662436",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-cf7cdabd6e5a3876380214b7",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-b4a7de44ac21ebc19553155d",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-2b91b84e780db7cea3496ab0",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-fbdb50e72d313b0f5b4b9783",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-45fd46d7006d2ed90ed89654",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-a4d89d046214760fbcc7c666",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-6899f37c9870a02774c48fdf",
+   "include": false,
+   "reason": "行事・大会・展示・講座等の名称で、予算の事務事業単位ではない"
+  },
+  {
+   "id": "cached-44208-b4d90bd7bb66493724d83b01",
+   "include": false,
+   "reason": "行の名称は「声楽コンク…」で、候補名は事業概要の文から採ったもの（行事・大会・展示・講座等の名称で、予算の事務事業単位ではない）"
+  },
+  {
+   "id": "cached-44208-8b50c41651e4fcc28dd9ff1a",
+   "include": false,
+   "reason": "行の名称は記念館運営管理で、コンクール名は事業概要の文中（行事・大会・展示・講座等の名称で、予算の事務事業単位ではない）"
+  },
+  {
+   "id": "cached-44209-ea33dbc7e9463c425879049a",
+   "include": false,
+   "reason": "総合評価が「公募中」で、本文に「引き続き効果検証を行っていく」とあり、効果検証が済んでいない"
+  },
+  {
+   "id": "cached-44209-21af3d86e0013ed2c437f616",
+   "include": false,
+   "reason": "総合評価が「未評価」（公募中、検証は令和6年度末に実施予定）で、実施結果の検証になっていない"
+  },
+  {
+   "id": "cached-42201-b7d3fef29158b3afa9d4a4ae",
+   "include": false,
+   "reason": "本文の事務事業名は「【単独】農業振興施設整備事業／費補助金 担い手農家支援施設」（親費目＋メニュー名）で、候補名「担い手農家支援施設費補助金」は親費目の末尾「費補助金」とメニュー名を逆順につないだもので、印字された事業名と一致しない"
+  },
+  {
+   "id": "cached-42207-a32b49f0408452299808e7dc",
+   "include": false,
+   "reason": "事業名セル「プロモーション事／業」は8字折返しの途中行の可能性があり、先頭が欠けた名称でないことを本文で確かめられない（直前頁の「平戸ブランド戦略的プロモーション事業」と同種の折返し）"
+  },
+  {
+   "id": "cached-39363-8d806fb1b0c780f54afa6e49",
+   "include": false,
+   "reason": "本文の科目名は「少年育成センタ－運営費」で、名称が行の途中で切れている。"
+  },
+  {
+   "id": "cached-40130-050f186450fe5b6d8cb86244",
+   "include": false,
+   "reason": "点検単位は●アントレプレナーシップ教育で、本事業はその実施内容欄の構成事業。事業ごとの評価ではない。"
+  },
+  {
+   "id": "cached-40225-a2bfc0ad9b9ebb71faf0644e",
+   "include": false,
+   "reason": "取組見出しではなく「伝建地区内の伝統的建築物の保存…」の成果文中の言及。"
+  },
+  {
+   "id": "cached-40421-4620d1b329e3ece4252a9da0",
+   "include": false,
+   "reason": "社会教育委員の会議（委員会の会議運営）で、事務事業名ではない。"
+  },
+  {
+   "id": "cached-40601-2dbcf3495100355aea862804",
+   "include": false,
+   "reason": "本文の事業名は「香春町プレミアム商品券発行事業費負担金（重点支援分）」で、括弧の範囲指定を落とした名称になっている。"
+  },
+  {
+   "id": "cached-41208-218910702dd44490d0e0a6ae",
+   "include": false,
+   "reason": "本文で「令和５年度事業完了」とされ、R6年度の実施記述がない。評価対象年度2024と合わない。"
+  },
+  {
+   "id": "cached-41207-ed1113a21afc8e3bfe5d1fce",
+   "include": false,
+   "reason": "事業名ではない（金額・件数・写真見出し・欄名の断片が事業名位置に入ったもの）。"
+  },
+  {
+   "id": "cached-41207-d232475aea366d09a5347375",
+   "include": false,
+   "reason": "事業名ではない（金額・件数・写真見出し・欄名の断片が事業名位置に入ったもの）。"
+  },
+  {
+   "id": "cached-41207-9e122e800c54fcd3e8d2e103",
+   "include": false,
+   "reason": "事業名ではない（金額・件数・写真見出し・欄名の断片が事業名位置に入ったもの）。"
+  },
+  {
+   "id": "cached-41207-59969c6e0e41c60eb4e98052",
+   "include": false,
+   "reason": "事業名ではない（金額・件数・写真見出し・欄名の断片が事業名位置に入ったもの）。"
+  },
+  {
+   "id": "cached-41207-4ecaac3541621465170ef8d4",
+   "include": false,
+   "reason": "事業名ではない（金額・件数・写真見出し・欄名の断片が事業名位置に入ったもの）。"
+  },
+  {
+   "id": "cached-41207-52535f50cad2fcf2074f4540",
+   "include": false,
+   "reason": "事業名ではない（金額・件数・写真見出し・欄名の断片が事業名位置に入ったもの）。"
+  },
+  {
+   "id": "cached-41207-3e2a178d3aadb65e2524f48c",
+   "include": false,
+   "reason": "事業名ではない（金額・件数・写真見出し・欄名の断片が事業名位置に入ったもの）。"
+  },
+  {
+   "id": "cached-41207-e4f31fd7801edc6421f9ed4b",
+   "include": false,
+   "reason": "事業名欄ではなく、交通安全施設等整備事業費の事業内容欄の小見出し（○）。"
+  },
+  {
+   "id": "cached-41207-bcfbf07332c0371b037c8673",
+   "include": false,
+   "reason": "巻末参考資料（新型コロナ・物価高騰対策の主な事業、一部再掲）の一覧表にだけ出る名称で、事業名欄と成果の記述がない。"
+  },
+  {
+   "id": "cached-41207-d5074ef609bddfa18c552a14",
+   "include": false,
+   "reason": "巻末参考資料（新型コロナ・物価高騰対策の主な事業、一部再掲）の一覧表にだけ出る名称で、事業名欄と成果の記述がない。"
+  },
+  {
+   "id": "cached-41207-99de83c2c1531f43da32eaec",
+   "include": false,
+   "reason": "巻末参考資料（新型コロナ・物価高騰対策の主な事業、一部再掲）の一覧表にだけ出る名称で、事業名欄と成果の記述がない。"
+  },
+  {
+   "id": "cached-41207-10da35841172f88b06dff132",
+   "include": false,
+   "reason": "巻末参考資料（新型コロナ・物価高騰対策の主な事業、一部再掲）の一覧表にだけ出る名称で、事業名欄と成果の記述がない。"
+  },
+  {
+   "id": "cached-41207-9c5a583899c3d4e3e6673790",
+   "include": false,
+   "reason": "巻末参考資料（新型コロナ・物価高騰対策の主な事業、一部再掲）の一覧表にだけ出る名称で、事業名欄と成果の記述がない。"
+  },
+  {
+   "id": "cached-41207-bc37583385320b9b7a73d7c7",
+   "include": false,
+   "reason": "巻末参考資料（新型コロナ・物価高騰対策の主な事業、一部再掲）の一覧表にだけ出る名称で、事業名欄と成果の記述がない。"
+  },
+  {
+   "id": "cached-41207-bf243472660246306e352db5",
+   "include": false,
+   "reason": "巻末参考資料（新型コロナ・物価高騰対策の主な事業、一部再掲）の一覧表にだけ出る名称で、事業名欄と成果の記述がない。"
+  },
+  {
+   "id": "cached-41207-539e4fa57faa2194f6927b94",
+   "include": false,
+   "reason": "本文の名称は「電力・ガス・食料品等物価高騰緊急支援給付金」で候補名と一致しない（複数給付金をまとめた事業名欄の一部）。"
+  },
+  {
+   "id": "cached-41207-0f27d0c76e646ee098f48168",
+   "include": false,
+   "reason": "巻末参考資料（新型コロナ・物価高騰対策の主な事業、一部再掲）の一覧表にだけ出る名称で、事業名欄と成果の記述がない。"
+  },
+  {
+   "id": "cached-41207-975471eff047e3817970366c",
+   "include": false,
+   "reason": "巻末参考資料（新型コロナ・物価高騰対策の主な事業、一部再掲）の一覧表にだけ出る名称で、事業名欄と成果の記述がない。"
+  },
+  {
+   "id": "cached-41207-8951c522b276416e552e791b",
+   "include": false,
+   "reason": "巻末参考資料（新型コロナ・物価高騰対策の主な事業、一部再掲）の一覧表にだけ出る名称で、事業名欄と成果の記述がない。"
+  },
+  {
+   "id": "cached-41207-3b4bb46615a298df87819937",
+   "include": false,
+   "reason": "巻末参考資料（新型コロナ・物価高騰対策の主な事業、一部再掲）の一覧表にだけ出る名称で、事業名欄と成果の記述がない。"
+  },
+  {
+   "id": "cached-41207-a47004c1ac156e88b4c6f39c",
+   "include": false,
+   "reason": "巻末参考資料（新型コロナ・物価高騰対策の主な事業、一部再掲）の一覧表にだけ出る名称で、事業名欄と成果の記述がない。"
+  },
+  {
+   "id": "cached-41207-4b59f401d8ed2c6bb4ffb32f",
+   "include": false,
+   "reason": "巻末参考資料（新型コロナ・物価高騰対策の主な事業、一部再掲）の一覧表にだけ出る名称で、事業名欄と成果の記述がない。"
+  },
+  {
+   "id": "cached-41207-aa29d796a1d6f94fa8ddec99",
+   "include": false,
+   "reason": "巻末参考資料（新型コロナ・物価高騰対策の主な事業、一部再掲）の一覧表にだけ出る名称で、事業名欄と成果の記述がない。"
+  },
+  {
+   "id": "cached-41207-97a529813375d3fa447e0eb0",
+   "include": false,
+   "reason": "巻末参考資料（新型コロナ・物価高騰対策の主な事業、一部再掲）の一覧表にだけ出る名称で、事業名欄と成果の記述がない。"
+  },
+  {
+   "id": "cached-36301-81895f01caa213c299e3f980",
+   "include": false,
+   "reason": "新型コロナで未実施と記載され、事業分析点数も空欄で評価されていない"
+  },
+  {
+   "id": "cached-36387-614364aee0ca5151db12db32",
+   "include": false,
+   "reason": "文（「〜を支給した。」）で事業名ではない"
+  },
+  {
+   "id": "cached-36387-6e715abdb47046aa17bd4577",
+   "include": false,
+   "reason": "文（「〜を支援した。」）で事業名ではない"
+  },
+  {
+   "id": "cached-36387-5d8af0f1e0777bb6e998788c",
+   "include": false,
+   "reason": "文（「〜に努めた。」）で事業名ではない"
+  },
+  {
+   "id": "cached-36387-17f195d2bea8ac700335ecb1",
+   "include": false,
+   "reason": "文で事業名ではない"
+  },
+  {
+   "id": "cached-36387-9eb1c54b9320be23650c8bef",
+   "include": false,
+   "reason": "展示・催し物（行事）"
+  },
+  {
+   "id": "cached-36387-720861f710727464c3078af8",
+   "include": false,
+   "reason": "講座・イベントの総称"
+  },
+  {
+   "id": "cached-36387-37d5db94907771db8282e059",
+   "include": false,
+   "reason": "展示（行事）"
+  },
+  {
+   "id": "cached-36387-e75c6c30d088b7391c9c3681",
+   "include": false,
+   "reason": "交流会（行事）"
+  },
+  {
+   "id": "cached-36387-a86215080165e8d051bc4529",
+   "include": false,
+   "reason": "読み聞かせ・配本など活動の総称で、独立した事業として確かめられない"
+  },
+  {
+   "id": "cached-36387-17d7f71f1afdcf6e54e9c9f3",
+   "include": false,
+   "reason": "団体の育成（団体の名前・総称）"
+  },
+  {
+   "id": "cached-01230-1eb59b15693cc46d831ed05d",
+   "include": false,
+   "reason": "保存本文（12万字で打切り）に事業名が無く、事業票と年度を本文で確かめられない。"
+  },
+  {
+   "id": "cached-04445-76e5c37e850e6cc795e8c3c2",
+   "include": false,
+   "reason": "保存本文に名称が無く、警告は一般・内部管理シートとしているが資料は補助金シート。本文で確認できない。"
+  },
+  {
+   "id": "cached-11221-e62e6cb8ebaab7376925e4b2",
+   "include": false,
+   "reason": "評価年度2022は本文と合わない（令和４年度事業を令和５年９月に評価・報告）。"
+  },
+  {
+   "id": "cached-33423-bfb73fd19f0c4511458d7eb3",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-b8de04058842d3bf5cf1622b",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-843c13f532b37a6cf62ea3cc",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-93d2c86f4adb56b660c36a8e",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-c0d218bd316c2de3cfe82729",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-56140bd3c5d2a680515fc966",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-9db4aa663f1d0e02046959ec",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-3b0a5787eb6907d54f941597",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-ad90c231a4ea4309658b315e",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-c1a54e9f7c684ccd49c411c7",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-329bff7dad3a75c8332d6ec2",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-0cf3c059a495dc188d22a1cc",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-c78494d453ac11687b694b30",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-1848af298ffb563e84df9976",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-76e062d28bf562d8ed56c825",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-4119e3fa7e92a41628c99b4e",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-c1d142a7047895202a3c8fc9",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-a4fba53857ae776c066b403e",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-55c17be8177c7558be01768b",
+   "include": false,
+   "reason": "重点項目ではなく「おわりに」の文中の言及（行事名）。"
+  },
+  {
+   "id": "cached-33423-2a6739806956bfbce7a02ef7",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-eaa44067a4db804ed4e8d5ac",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-f50b534f7ac3ded19865e73b",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-640013ec18a51e850a633ce6",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-5755d1a804463f09843a6129",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-50d14e289b3b8b2e1896710d",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-dce49f56fe19fcc8d26908f3",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-6fcc9f97b5b5d7889cb15a2e",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-570397e0c386950ffa7e7575",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-c9574ba3781da586486edfab",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-4a3893f5fd8de0ebc69c83a3",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-29de19d3fe55f6bb0de48d2d",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-14c285edcc8d208445775896",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-7cb6c42c6afa95dafc1cddd7",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-c6ed3bd2d3d6154e54c06466",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-b5e52dcc0b4b474b6e75f00f",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-92bd0cd76fd252cbf5e290c6",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-b09fd9ddfeae5a29c8e1562c",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-bb001f50d7c0e723d6a99f83",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-e56c3f17e10c1ea97578a188",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-ff3882c5b67f1ac30ffce74b",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-2132740e0a5e1c364feb6ce1",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-3486c1a90241c47070ef1307",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-27c8482506923c8e79806702",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-51085201739fa68b412c98f1",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-8c12a14a3b4a02a52c20432e",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-7547d18df2b3a3e5e4d1cfe5",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-476999ae9341c18e0779a32a",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-bf4fd912af049074ed917e03",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-019aa66cdffd19f13cf6ea19",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-cb6f821eac7e83f9693c410a",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-7f605a0f102bafb530f0cfe5",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-98a3c63089fd3b9d7b773c3b",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-ecc3f486db3abda4cb9d6b63",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-04f18aeb87b4230d91e7d19c",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-2472b1a9011eb6ea6c25b4c6",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-4ef970142a73e69037941b12",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-e30b4b5975fe5be8ab714bfc",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-8884887d3560f58a71a5cefb",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-9383b6d72ce1c5c6e57b5629",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-33423-3f1e255909508a09bb8ef73f",
+   "include": false,
+   "reason": "重点項目（事業）の名称ではなく、項目内に列挙された講座・教室・行事・工事・会議・団体等の名称。"
+  },
+  {
+   "id": "cached-34203-962153af3b71505684c393b2",
+   "include": false,
+   "reason": "団体（協議会）の名称で事業名ではない。"
+  },
+  {
+   "id": "cached-34203-a06ae33e2c881a5352e56d93",
+   "include": false,
+   "reason": "団体（協議会）の名称で事業名ではない。"
+  },
+  {
+   "id": "cached-34203-4df24a47b00853a1b144230f",
+   "include": false,
+   "reason": "団体（協議会）の名称で事業名ではない。"
+  },
+  {
+   "id": "cached-34203-82f2fe20659ec40bc6271e0e",
+   "include": false,
+   "reason": "団体（協議会）の名称で事業名ではない。"
+  },
+  {
+   "id": "cached-34203-454e016c65522ff6723e0796",
+   "include": false,
+   "reason": "団体（協議会）の名称で事業名ではない。"
+  },
+  {
+   "id": "cached-34203-d1f6528cd61470222f0b5983",
+   "include": false,
+   "reason": "団体（協議会）の名称で事業名ではない。"
+  },
+  {
+   "id": "cached-34205-a97c50b6b06a339972b6edf8",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-888aab895480b86bc44127e2",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-1e6135328d310e9c57338db2",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-4962fcbb0a6b0a99c260db75",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-2c243bd2b25aeab554f6c6fd",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-c6be28676572584b21145716",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-305ffcc6899dc92445865432",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-214162686f5b46404532c088",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-0885ee991321aba95564b3d2",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-2cb4bb2d70eb63f8bb1284f2",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-ba165a0a875b52cd600b3c46",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-a6e192cd542107bc8e8c1228",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-80271122cb9beac81167928d",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-c704c0e70c76e4cee96c25fa",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-cd6904f851847aa7c7f0effd",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-232a3a4d02a08a3b81f5d06f",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-83cfaab9e673c0274ca1469b",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-80ebef77d3acb0bc494c9a49",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-62c9edbb0c0faa2b8b0b587b",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-78d1965283a9bf0ef3e65eed",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-8bacb57e2cabbe3b2b1a568d",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-104652bd0efd911c74620ed8",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-c8fb52d2cad58af1cac78f5c",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-d8ffacae1d138948c967ecd0",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-a8d9918be55f2e71925814d6",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-169ba89ac2d6dbe6b383dffc",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-8cbca84b65bd449ef935c457",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-7ffbd0419ba99e7b02c5721c",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-f1d6ea3fba34811af0ede96f",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-9a229f0660d97f081f3076f5",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-4f656518398725610b8a79c0",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-9a726d6a342f4a9d7ea5c136",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-c576d7b6cd5915cf62b9bcc2",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-e3aea73fd57d790634df8194",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-e146359b5fb068403626651a",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-35b3b2037d1661813d1a8de6",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-17d2f759cd45b07ae507bb85",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-38f6d1254fe3a3c70f5e65ac",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-a9b4ca10ea1af9f0a0ea6e23",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-e6cf882ad7d97f4fedd560ee",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-bfeebede40e462f964bb92fc",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-414cd1065e15b36837ef68cc",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-60aaefeb49e532bdc6317ddb",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-2acd1b8254552514f1b2a4da",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-0327908c2eaca8b72aebb4c7",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-1042bf22867a0c7801c5c49b",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-7ff99044db26fca39f3bf4cf",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-7b207ca67dee543f1f6cdffe",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-8f5de84bc0a34a84b6b89b6c",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-547a4282af179f0bf0c2db28",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-2aeef5e78af59a272f0de627",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-e7bd748f2ce445e17308c78a",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-a0a83687e92b98fd3852781e",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-4bc3fd42c01df1ce94b79354",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-73810fa2794e256d8395ff51",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-05a63d851deed6a06f9f1bec",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-85b7cb1f160d9b83ed25e040",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-1858559ec01d70a4b2417d5e",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-81a4d171f267d42cb25d1108",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-f63356414ab74f74214298c5",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-6cf634f8f5636294c635d4f9",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-e3853fd5d559d47544d02301",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-0a96e37a5aac6e1ea5938b9b",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-ec11f659f7c0aa3330fcfebd",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-b5f2443d58d6babf2bb9ef0c",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-7df91278b350c1f5a55d0407",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-730b0c03356f343de4581019",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-53a8b465f9d3f09f98345830",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-9299a358f4642237831ec176",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-93fc37268bfc00a803282a8d",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-bdc8043107ff327ffa6f5b9f",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-4c3ee9a212480798084e155f",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-8fe4d37be09c00e69c9aeb0e",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-b4af09707d9fbf06ce35635f",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-1556c7759f2d7d2c7d697a67",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-fce066f8fb52c792e7ce0138",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-ba622436ca78c5b0c4fdf4dd",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-2c3a53d26e5f4f1ee285a8c5",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-4cfc3fc1e7395b80a205461b",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-e9e18ff91a079f2dc1b51fd7",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-67d2ee0e899e527b1481ac00",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-fb31623a95c3c310f454ffa9",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-53fba3bb8b4c8355b5d331ef",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-a588fb26752efc589f250711",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-1b36e2911d3de554e8ead45e",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-f90592b3d49ae2fd32cee1f6",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-42c724b5263f21b1add2cf13",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-2d86adeeb0a0b331613ca02c",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-bece8749469cb1fea7da7fc0",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-0eb85d93f5bc61aa09dfd524",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-29e3d397b1ca1bd3e3447845",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-48098fe142763468988b6d10",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-6d70dd26944d58cc3d2996e8",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-17515751aeaeb8f51853eac8",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-ef574eda80692319f5090b1a",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-ea7a7d2f36e286c65e6b920b",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-e8f599e1f2761a9c1d0075b0",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-2781627d293437dfab645798",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-f147d0c6918a1aa7059ae3be",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-09938a6f07b8affcb303eb11",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-e972be094b448cbc843c8398",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-80f32c0116d0ef665214aa3b",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-ba1376598810ac98c26880b8",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-9b0341ae520190b9b822a89d",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-61a1a8f1af98224a8a808bb5",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-a0d7930253a17e3aa8c5c9ca",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-dc27c79179a4e04657ba52e2",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-9dee4f421e7640d112774fdf",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-557751bbc4ca5cc9d61f2d67",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-d06af7f8ab37411f2d43214e",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-6b4db2c65e793134b8c8cce5",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-71806539ece98f2338532e1e",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-2032e3e95b7e003178f997e1",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-f1510bdc2b40bbc499f68b36",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-7e3beb1e06037023ed7061e5",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-c64ea6d54674c5679c4c21f9",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-53f914e4ef3b441de9a4df5c",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-83bf1e999139d6c74eaf62d0",
+   "include": false,
+   "reason": "2つの施策・事業名が改行で結合した名称（2行が混ざっている）。"
+  },
+  {
+   "id": "cached-34205-055723817d3876762b8328cf",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-751b67ed9f5fc9fe8feca343",
+   "include": false,
+   "reason": "2つの施策・事業名が改行で結合した名称（2行が混ざっている）。"
+  },
+  {
+   "id": "cached-34205-16a547de333f61f15f473808",
+   "include": false,
+   "reason": "2つの施策・事業名が改行で結合した名称（2行が混ざっている）。"
+  },
+  {
+   "id": "cached-34205-ac423e9f13ca4fd57db8ffe9",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-98e56d0f4c66da53d9a0f6f4",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-34205-875e2aac9799fb03c8faf05e",
+   "include": false,
+   "reason": "評価点検シートの施策・事業名ではなく、シート内容欄の取組・行事・講座・大会・展覧会・工事項目または本文中の言及。"
+  },
+  {
+   "id": "cached-37204-9131f25eb7f2d79407ff9cd9",
+   "include": false,
+   "reason": "公開済みの同じ年度・同じ名称の事業（cached-37204-9d05266ddc16cd4ff0992e50）と同一性を確かめられない（取り込みの同一性検査で停止）"
+  }
+ ]
+}

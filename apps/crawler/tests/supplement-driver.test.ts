@@ -8,6 +8,8 @@ import test from 'node:test';
 import { sha256 } from '../src/evaluations/national-integration';
 import { SUPPLEMENTAL_MANIFEST, type SupplementalManifest, type SupplementalInput } from '../src/evaluations/supplemental-integration';
 import type { EvaluationDataset } from '../../web/src/types/evaluation';
+/** assemble-descending-inputs.ts の DESCENDING_GENERATED_AT（スクリプトを import すると実行されるため値を写す） */
+const DESCENDING_GENERATED_AT='2026-11-01T13:00:00.000Z';
 
 test('supplement driver distinguishes PDF members sharing one ZIP URL by their content hashes',()=>{
  const scratch=mkdtempSync(join(tmpdir(),'evaluation-zip-members-'));
@@ -57,8 +59,12 @@ test('published supplemental inputs reproduce byte-for-byte from every hash-chec
    let groupIndex=0;
    for(const [generatedAt,inputs]of groups){
     const output=join(scratch,`batch-${batchIndex}-group-${groupIndex++}`,'shards');
-    execFileSync(process.execPath,['--import','tsx',join(root,'apps/crawler/src/extract-cached-evaluation-supplements.ts'),
-      '--output-dir',output,'--generated-at',generatedAt,'--codes',inputs.map(i=>i.municipalityCode).join(',')],{cwd:root,stdio:'pipe',timeout:1_200_000});
+    // dots の降順レビューの候補は抽出時刻が共通で、レビュー結果で絞ってまとめ直したものを取り込んでいる。
+    const script=generatedAt===DESCENDING_GENERATED_AT
+      ?['apps/crawler/src/assemble-descending-inputs.ts','--output-dir',output]
+      :['apps/crawler/src/extract-cached-evaluation-supplements.ts','--output-dir',output,'--generated-at',generatedAt];
+    execFileSync(process.execPath,['--import','tsx',join(root,script[0]),...script.slice(1),
+      '--codes',inputs.map(i=>i.municipalityCode).join(',')],{cwd:root,stdio:'pipe',timeout:1_200_000});
     for(const input of inputs){
      const reproduced=readFileSync(join(output,`${input.municipalityCode}.json`));
      assert.equal(reproduced.length,input.bytes,`Reproduced bytes: ${input.municipalityCode}`);
