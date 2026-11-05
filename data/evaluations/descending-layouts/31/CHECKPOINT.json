@@ -1,5 +1,5 @@
 {
-  "candidateRecords": 553,
+  "candidateRecords": 600,
   "candidateMunicipalities": 9,
   "perMunicipality": {
     "江府町": 93,
@@ -9,17 +9,17 @@
     "琴浦町": 10,
     "若桜町": 48,
     "境港市": 5,
-    "倉吉市": 106,
+    "倉吉市": 153,
     "鳥取市": 141
   },
-  "reviewedProposals": 683,
+  "reviewedProposals": 730,
   "newProposalDuplicates": 127,
   "sourcesInventoried": 159,
   "completeBodies": 150,
   "incompleteBodies": 1,
   "missingBodies": 8,
-  "validatedCumulativeCandidates": 15202,
-  "validatedEvidence": 39412,
+  "validatedCumulativeCandidates": 15249,
+  "validatedEvidence": 39600,
   "excludedFromCumulative": [
     "Okinawa1084",
     "initial93"
@@ -33,17 +33,17 @@
     "31370 湯梨浜町"
   ],
   "phaseComplete": false,
-  "pendingExternalProposals": 47,
+  "pendingExternalProposals": 0,
   "checks": {
-    "focused": "8/8",
-    "crawler": "587/587",
+    "focused": "9/9",
+    "crawler": "588/588",
     "web": "256/256",
     "typecheck": "pass",
     "lint": "pass with existing font warning",
     "national": "pass; unchanged local branch baseline",
     "static": "109 pages /local_gov_vis",
-    "quotes": "39412 across15202 candidates"
+    "quotes": "39600 across15249 candidates"
   },
-  "remaining": "47 Kurayoshi R3 actual-block proposals hash-verified in external preview; not included in553. Specific old plan/actual-coordinate, KPI period, clinic/account identity, incomplete/missing body holds retained. No municipality acquisition.",
+  "remaining": "Source-specific table-year/status alignment, clinic/account identity, KPI attribution and incomplete/missing body holds retained. Next descending cohort: Wakayama30 cached-only review, excluding five current-master municipalities. No municipality acquisition.",
   "additionalExplicitPeriodHolds": 3
 }

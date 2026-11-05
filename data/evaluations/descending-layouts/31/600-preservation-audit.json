@@ -1,0 +1,19 @@
+{
+  "preserved553DeepEqual": true,
+  "candidateRecords": 600,
+  "newCandidates": 47,
+  "perMunicipality": {
+    "江府町": 93,
+    "南部町": 39,
+    "大山町": 77,
+    "日吉津村": 34,
+    "琴浦町": 10,
+    "若桜町": 48,
+    "境港市": 5,
+    "倉吉市": 153,
+    "鳥取市": 141
+  },
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "status": "Validated isolated candidate; full regression588/588 and all quote checks passed"
+}

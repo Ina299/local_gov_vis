@@ -23,7 +23,7 @@ test('Tottori proposals require full pinned bodies and literal evidence; no inve
  for(const c of configs){const i=inputs.find(i=>i.sourceId===c.sourceId)!;const r=run(c.sourceId);assert.equal(r.projects.length,c.rows.length);count+=r.projects.length;
  for(const p of r.projects){assert.equal(p.amounts.length,0);assert.equal(p.ratings.length,0);assert.equal(p.indicators.length,0);for(const e of p.evidence){const src=inputs.find(x=>x.sourceUrl===e.sourceUrl)!;const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}
  for(const bad of [{...i,text:i.text+'x'},{...i,truncated:true},{...i,sourceSha256:'x'},{...i,sourceUrl:i.sourceUrl+'x'}])assert.equal(reviewTottori(bad,inputs)!.projects.length,0);
- }assert.equal(count,683);
+ }assert.equal(count,730);
 });
 test('Kofu requires official annual link identity; Daisen keeps fiscal year unknown',()=>{
  const i=inputs.find(x=>x.sourceId==='2bab04fffc69909151f760ca')!;
@@ -69,4 +69,13 @@ test('Daisen composed names reject altered fragment positions, synthetic names a
  try{row.name+='inferred';assert.throws(()=>run(c.sourceId),/composed title identity/);}finally{row.name=savedName;}
  try{proof.baseSegments[0].start++;assert.throws(()=>run(c.sourceId),/composed title evidence/);}finally{proof.baseSegments[0].start=savedStart;}
  const saved=[...proof.baseSegments];try{proof.baseSegments.push(proof.baseSegments[0]);assert.throws(()=>run(c.sourceId),/composed title identity/);}finally{proof.baseSegments.splice(0,proof.baseSegments.length,...saved);}
+});
+
+test('Kurayoshi older report binds47 literal programmes to R3 actual blocks, excluding future plans and carried-over execution',()=>{
+ const r=run('923877e19892720272d0ff4b');assert.equal(r.projects.length,47);
+ assert.ok(r.projects.every(p=>p.evaluatedFiscalYear===2021&&p.evaluationYear===2022));
+ assert.ok(r.projects.some(p=>p.projectName==='倉吉パークスクエアオープン20周年記念事業'));
+ assert.ok(r.projects.some(p=>p.projectName==='就農条件整備事業'&&p.evidence.some(e=>e.rawText?.includes('認定新規就農者７名に支援'))));
+ assert.ok(!r.projects.some(p=>p.projectName.includes('がんばる福高')||p.projectName==='単県斜面崩壊復旧事業'||p.projectName==='県道改良事業'));
+ assert.equal(r.units.filter(u=>u.status==='implementation_or_attribution_hold').length,4);
 });

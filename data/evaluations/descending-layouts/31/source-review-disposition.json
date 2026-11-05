@@ -318,8 +318,8 @@
         "事業名称"
       ]
     },
-    "reviewStatus": "processed",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference."
   },
   {
     "municipalityCode": "31403",
@@ -545,8 +545,8 @@
         "事業名称"
       ]
     },
-    "reviewStatus": "processed",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference."
   },
   {
     "municipalityCode": "31403",
@@ -682,8 +682,8 @@
         "事業名称"
       ]
     },
-    "reviewStatus": "processed",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference."
   },
   {
     "municipalityCode": "31403",
@@ -702,8 +702,8 @@
     "fetchedAt": "2026-10-23T19:20:41.494Z",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "verified_existing_name_coverage",
+    "reviewReason": "Individual business titles reconciled with existing IDs; four-books-26-existing-coverage and Tottori previous-row coverage audits retain mappings. No overwritten fields."
   },
   {
     "municipalityCode": "31403",
@@ -722,8 +722,8 @@
     "fetchedAt": "2026-10-23T19:20:44.345Z",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "verified_existing_name_coverage",
+    "reviewReason": "Individual business titles reconciled with existing IDs; four-books-26-existing-coverage and Tottori previous-row coverage audits retain mappings. No overwritten fields."
   },
   {
     "municipalityCode": "31402",
@@ -877,8 +877,8 @@
         "令和７年度南部町教育行政主要施策の点検・評価"
       ]
     },
-    "reviewStatus": "processed",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference."
   },
   {
     "municipalityCode": "31389",
@@ -932,8 +932,8 @@
         "令和６年度南部町教育行政主要施策の点検・評価"
       ]
     },
-    "reviewStatus": "processed",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference."
   },
   {
     "municipalityCode": "31389",
@@ -973,8 +973,8 @@
         "令和５年度南部町教育行政施策の概要"
       ]
     },
-    "reviewStatus": "processed",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference."
   },
   {
     "municipalityCode": "31389",
@@ -1026,8 +1026,8 @@
         "令和５年度南部町教育行政主要施策の点検・評価"
       ]
     },
-    "reviewStatus": "processed",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference."
   },
   {
     "municipalityCode": "31389",
@@ -1140,8 +1140,8 @@
         "令和４年度南部町教育行政主要施策の点検・評価"
       ]
     },
-    "reviewStatus": "processed",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference."
   },
   {
     "municipalityCode": "31389",
@@ -1260,8 +1260,8 @@
         "令和３年度南部町教育行政主要施策の点検・評価"
       ]
     },
-    "reviewStatus": "processed",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference."
   },
   {
     "municipalityCode": "31389",
@@ -1343,8 +1343,8 @@
         "令和２年度南部町教育行政主要施策の点検・評価"
       ]
     },
-    "reviewStatus": "processed",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference."
   },
   {
     "municipalityCode": "31389",
@@ -1467,8 +1467,8 @@
         "平成 30 年度南部町教育行政主要施策の点検・評価【総務・学校教育課】"
       ]
     },
-    "reviewStatus": "processed",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference."
   },
   {
     "municipalityCode": "31389",
@@ -1502,8 +1502,8 @@
         "平成 30 年度南部町教育行政主要施策の点検・評価【人権・社会教育課】"
       ]
     },
-    "reviewStatus": "processed",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference."
   },
   {
     "municipalityCode": "31386",
@@ -1636,8 +1636,8 @@
         "令和3年度 外部行政評価委員会・対象事業"
       ]
     },
-    "reviewStatus": "processed",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference."
   },
   {
     "municipalityCode": "31386",
@@ -1672,7 +1672,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -2940,8 +2940,8 @@
         "令和７年度（対象：令和６年度）"
       ]
     },
-    "reviewStatus": "processed",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference."
   },
   {
     "municipalityCode": "31384",
@@ -3053,8 +3053,8 @@
         "令和元年度 琴浦町事業レビュー（１日目） 評価結果及び意見一覧"
       ]
     },
-    "reviewStatus": "processed",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference."
   },
   {
     "municipalityCode": "31371",
@@ -3088,8 +3088,8 @@
         "２０１９年度"
       ]
     },
-    "reviewStatus": "processed",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference."
   },
   {
     "municipalityCode": "31371",
@@ -3147,8 +3147,8 @@
         "※2018年度(H30年度)公共施設レビュー対象事業"
       ]
     },
-    "reviewStatus": "processed",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference."
   },
   {
     "municipalityCode": "31371",
@@ -3206,8 +3206,8 @@
         "令和元年度 琴浦町事業レビュー（２日目） 評価結果及び意見一覧"
       ]
     },
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "verified_existing_name_coverage",
+    "reviewReason": "Individual business titles reconciled with existing IDs; four-books-26-existing-coverage and Tottori previous-row coverage audits retain mappings. No overwritten fields."
   },
   {
     "municipalityCode": "31371",
@@ -3346,8 +3346,8 @@
     "fetchedAt": "2026-10-11T17:38:12.202272+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "verified_existing_name_coverage",
+    "reviewReason": "Individual business titles reconciled with existing IDs; four-books-26-existing-coverage and Tottori previous-row coverage audits retain mappings. No overwritten fields."
   },
   {
     "municipalityCode": "31329",
@@ -3366,8 +3366,8 @@
     "fetchedAt": "2026-10-11T17:36:31.542593+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "verified_existing_name_coverage",
+    "reviewReason": "Individual business titles reconciled with existing IDs; four-books-26-existing-coverage and Tottori previous-row coverage audits retain mappings. No overwritten fields."
   },
   {
     "municipalityCode": "31329",
@@ -3580,7 +3580,7 @@
       ]
     },
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage."
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference."
   },
   {
     "municipalityCode": "31325",
@@ -3753,7 +3753,7 @@
       ]
     },
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage."
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference."
   },
   {
     "municipalityCode": "31325",
@@ -3852,8 +3852,8 @@
     "fetchedAt": "2026-10-23T19:20:04.603Z",
     "continuationParts": 0,
     "parserFamilies": 3,
-    "reviewStatus": "remaining_layout_review",
-    "reviewReason": "Policy KPI matrix includes a named subsidy and activities, but a KPI row must not become a business record. Need a bounded source quote proving individual programme identity and target-year relation; current/future target columns mixed."
+    "reviewStatus": "kpi_program_period_hold",
+    "reviewReason": "Complete matrix reviewed. 地域創生チャレンジサポート推進補助金 is only a KPI label; baseR5/targetR9/R6/R7 cells interleave, no bounded individual annual implementation sheet. Need explicit programme/year relation; do not infer from neighboring KPI values."
   },
   {
     "municipalityCode": "31204",
@@ -3872,8 +3872,8 @@
     "fetchedAt": "2026-10-21T08:43:47.294Z",
     "continuationParts": 0,
     "parserFamilies": 3,
-    "reviewStatus": "individual_names_reviewed",
-    "reviewReason": "Explicit source-specific names and periods reviewed; policy and uncertain-period entries remain excluded. This is not a whole-source coverage assertion.",
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -3931,8 +3931,8 @@
     "fetchedAt": "2026-10-11T17:53:38.283061+00:00",
     "continuationParts": 0,
     "parserFamilies": 3,
-    "reviewStatus": "individual_names_reviewed",
-    "reviewReason": "Explicit source-specific names and periods reviewed; policy and uncertain-period entries remain excluded. This is not a whole-source coverage assertion.",
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -4190,8 +4190,8 @@
     "fetchedAt": "2026-10-11T17:53:25.881240+00:00",
     "continuationParts": 0,
     "parserFamilies": 3,
-    "reviewStatus": "individual_names_reviewed",
-    "reviewReason": "Explicit source-specific names and periods reviewed; policy and uncertain-period entries remain excluded. This is not a whole-source coverage assertion.",
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -4547,8 +4547,8 @@
     "fetchedAt": "2026-10-11T17:54:18.777893+00:00",
     "continuationParts": 0,
     "parserFamilies": 3,
-    "reviewStatus": "remaining_layout_review",
-    "reviewReason": "Two-year plan/actual columns interleave in saved text; repeated same-name rows include current-year actual and next-year plan. Existing screening is not sufficient to map each occurrence to year/status. Need per-row explicit period boundary proof from this cache before addition; no numeric alignment inferred."
+    "reviewStatus": "plan_actual_alignment_hold",
+    "reviewReason": "All29 tables inspected: R3/R4 plan rows with floating actual labels cannot establish individual implementation/year for a new record. Later R4 report provides47 explicit R3 actual names separately. No values transferred between versions; original coordinate-resolved table or explicit annual implementation evidence needed for remaining names."
   },
   {
     "municipalityCode": "31203",
@@ -4591,9 +4591,9 @@
     "sourceId": "923877e19892720272d0ff4b",
     "url": "https://www.city.kurayoshi.lg.jp/secure/1825/di-12ci-cang-ji-shi-zong-he-ji-hua-shi-ce-ping-jia-shitoling-he-4nian-du-quan-ti-ling-he-4nian-11yue-7ri-xian-zai.pdf",
     "title": "施策評価シート",
-    "status": "unsupported_layout",
-    "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial",
-    "accepted": 0,
+    "status": "processed",
+    "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
+    "accepted": 47,
     "duplicates": 0,
     "held": 0,
     "fullTextSha256": "2cd25ee6fc0975bafea04960b341fee58464b3b141a9a7ec33b1f80897634d75",
@@ -4602,8 +4602,319 @@
     "fetchedAt": "2026-10-11T17:54:04.269608+00:00",
     "continuationParts": 0,
     "parserFamilies": 3,
-    "reviewStatus": "remaining_layout_review",
-    "reviewReason": "Two-year plan/actual columns interleave in saved text; repeated same-name rows include current-year actual and next-year plan. Existing screening is not sufficient to map each occurrence to year/status. Need per-row explicit period boundary proof from this cache before addition; no numeric alignment inferred."
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 2634,
+          "name": "就農条件整備事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 2657,
+          "name": "就農応援交付金事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 2684,
+          "name": "鳥獣被害総合対策事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 2727,
+          "name": "鳥取梨生産振興事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 2804,
+          "name": "鳥取型低コストハウスによる施設園芸等推進事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 2839,
+          "name": "がんばる農家プラン事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 2909,
+          "name": "がんばる地域プラン事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 6081,
+          "name": "倉吉版経営持続化支援事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 6132,
+          "name": "経営者チャレンジアップ支援事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 6161,
+          "name": "倉吉版GOTO商店街事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 6364,
+          "name": "小川家整備活用事業（庭園公開）",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 12716,
+          "name": "松林保護樹林帯造成事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 12734,
+          "name": "竹林整備事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 16760,
+          "name": "観光・生活対応型モビリティ導入検討業務委託料",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 16813,
+          "name": "ポップカルチャーによる観光客等誘致業務委託料",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 17032,
+          "name": "倉吉観光MICE協会補助金",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 17082,
+          "name": "鳥取中部観光推進機構負担金",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 23040,
+          "name": "不妊・不育治療助成事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 23088,
+          "name": "産後ケア事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 23130,
+          "name": "高等職業訓練給付金",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 23166,
+          "name": "子育て支援事業（子育て支援センター）",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 23226,
+          "name": "幼児教育・保育利用者負担無償化事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 23247,
+          "name": "ファミリーサポートセンター事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 23268,
+          "name": "乳児家庭全戸訪問事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 24938,
+          "name": "自立支援給付事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 24960,
+          "name": "地域生活支援事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 24983,
+          "name": "障がい者相談支援事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 27717,
+          "name": "地域包括支援事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 29768,
+          "name": "包括的支援体制構築事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 36561,
+          "name": "日本女性会議補助金",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 45506,
+          "name": "倉吉パークスクエアオープン20周年記念事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 48662,
+          "name": "文化財保存・保護事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 48731,
+          "name": "伝建保存地区保存事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 48788,
+          "name": "市民団体との連携事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 55646,
+          "name": "倉吉市移住定住者住宅取得支援補助金",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 55729,
+          "name": "空き家利活用流通促進事業費補助金",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 55763,
+          "name": "倉吉市移住定住促進空き家取得事業支援助成金",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 55806,
+          "name": "移住就業支援事業交付金",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 56059,
+          "name": "広域連携婚活事業費負担金",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 56151,
+          "name": "国際交流事業",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 61624,
+          "name": "資源ごみ回収報奨金",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 67392,
+          "name": "高齢運転者運転免許証自主返納支援事業補助金",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 67428,
+          "name": "交通災害共済加入促進報償金",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 80860,
+          "name": "自主防災組織防災資機材整備費補助金",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 83808,
+          "name": "元気の出る地域づくり支援事業費交付金",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 83841,
+          "name": "地域活動支援員業務委託料（うち事業費）",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 83875,
+          "name": "協働のまちづくり活動助成事業交付金",
+          "status": "supported",
+          "reason": "Manually bounded R3 actual block in R4 policy evaluation. R3 plan and R4 plan repetitions are excluded; implementation amounts and policy scores not inferred."
+        },
+        {
+          "start": 56102,
+          "status": "implementation_or_attribution_hold",
+          "reason": "Explicit COVID nonexecution; do not count as implemented"
+        },
+        {
+          "start": 80883,
+          "status": "implementation_or_attribution_hold",
+          "reason": "Explicit FY2022 carryover; do not assign actual implementation to FY2021"
+        },
+        {
+          "start": 80941,
+          "status": "implementation_or_attribution_hold",
+          "reason": "Explicit FY2022 carryover; do not assign actual implementation to FY2021"
+        },
+        {
+          "start": 70070,
+          "status": "implementation_or_attribution_hold",
+          "reason": "Prefectural road work; municipality executor identity not established"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "令和４年度 第12次倉吉市総合計画 施策評価シート"
+      ]
+    }
   },
   {
     "municipalityCode": "31203",
@@ -4662,8 +4973,8 @@
     "fetchedAt": "2026-10-11T17:53:54.265359+00:00",
     "continuationParts": 0,
     "parserFamilies": 3,
-    "reviewStatus": "individual_names_reviewed",
-    "reviewReason": "Explicit source-specific names and periods reviewed; policy and uncertain-period entries remain excluded. This is not a whole-source coverage assertion.",
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -5050,7 +5361,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -5103,7 +5414,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -5214,7 +5525,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -5255,7 +5566,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -5296,7 +5607,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -5350,8 +5661,8 @@
     "fetchedAt": "2026-10-11T18:13:55.294023+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "verified_existing_name_coverage",
+    "reviewReason": "Individual business titles reconciled with existing IDs; four-books-26-existing-coverage and Tottori previous-row coverage audits retain mappings. No overwritten fields."
   },
   {
     "municipalityCode": "31201",
@@ -5371,7 +5682,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -5448,7 +5759,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -5483,7 +5794,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -5542,7 +5853,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -5655,7 +5966,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -5797,8 +6108,8 @@
     "fetchedAt": "2026-10-11T18:18:43.329117+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "verified_existing_name_coverage",
+    "reviewReason": "Individual business titles reconciled with existing IDs; four-books-26-existing-coverage and Tottori previous-row coverage audits retain mappings. No overwritten fields."
   },
   {
     "municipalityCode": "31201",
@@ -5818,7 +6129,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -5871,7 +6182,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -5950,7 +6261,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -6029,7 +6340,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -6082,7 +6393,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -6123,7 +6434,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -6158,7 +6469,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -6245,7 +6556,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -6303,8 +6614,8 @@
     "fetchedAt": "2026-10-11T18:12:48.673436+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "individual_names_reviewed",
-    "reviewReason": "Explicit source-specific names and periods reviewed; policy and uncertain-period entries remain excluded. This is not a whole-source coverage assertion.",
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Explicit-year named activities retained;3 names without proven fiscal/evaluation-year binding held. Generic saved landing-page link labels do not establish source-specific year relation.",
     "layoutReview": {
       "units": [
         {
@@ -6505,7 +6816,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -6576,7 +6887,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -6648,8 +6959,8 @@
     "fetchedAt": "2026-10-11T18:17:38.564691+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "individual_names_reviewed",
-    "reviewReason": "Explicit source-specific names and periods reviewed; policy and uncertain-period entries remain excluded. This is not a whole-source coverage assertion.",
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Explicit-year named activities retained;3 names without proven fiscal/evaluation-year binding held. Generic saved landing-page link labels do not establish source-specific year relation.",
     "layoutReview": {
       "units": [
         {
@@ -6770,7 +7081,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -6887,7 +7198,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -6945,8 +7256,8 @@
     "fetchedAt": "2026-10-11T18:18:36.452720+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "individual_names_reviewed",
-    "reviewReason": "Explicit source-specific names and periods reviewed; policy and uncertain-period entries remain excluded. This is not a whole-source coverage assertion.",
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Explicit-year named activities retained;3 names without proven fiscal/evaluation-year binding held. Generic saved landing-page link labels do not establish source-specific year relation.",
     "layoutReview": {
       "units": [
         {
@@ -7021,7 +7332,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -7141,7 +7452,7 @@
     "status": "duplicate",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
     "accepted": 0,
-    "duplicates": 1,
+    "duplicates": 5,
     "held": 0,
     "fullTextSha256": "a1fc6d3f474460af6267c3d53d745c729df668d99c5fc7429cf62811a6cb4911",
     "complete": true,
@@ -7149,8 +7460,41 @@
     "fetchedAt": "2026-10-11T18:14:55.736307+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "verified_existing_name_coverage",
+    "reviewReason": "Individual business titles reconciled with existing IDs; four-books-26-existing-coverage and Tottori previous-row coverage audits retain mappings. No overwritten fields.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 446,
+          "name": "スマートエネルギータウン構想推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1202,
+          "name": "国際経済交流推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1608,
+          "name": "ＳＤＧｓ未来都市推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2755,
+          "name": "企業立地促進補助金",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -7190,7 +7534,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -7350,8 +7694,8 @@
     "fetchedAt": "2026-10-11T18:16:39.748905+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "verified_existing_name_coverage",
+    "reviewReason": "Individual business titles reconciled with existing IDs; four-books-26-existing-coverage and Tottori previous-row coverage audits retain mappings. No overwritten fields."
   },
   {
     "municipalityCode": "31201",
@@ -7371,7 +7715,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -7460,7 +7804,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -7561,7 +7905,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -7632,7 +7976,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -7699,7 +8043,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -7796,7 +8140,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
@@ -7861,7 +8205,7 @@
     "continuationParts": 0,
     "parserFamilies": 4,
     "reviewStatus": "reviewed_individual_names_and_holds",
-    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "reviewReason": "Literal names reviewed against complete pinned source; all accepted candidates and explicit holds retained in generated ledger. No numerical/policy-rating inference.",
     "layoutReview": {
       "units": [
         {
