@@ -28,6 +28,11 @@ import { entries as m18 } from './m18';
 import { entries as m19 } from './m19';
 import { entries as m20 } from './m20';
 import { entries as m21 } from './m21';
+import { entries as y0 } from './y0';
+import { entries as y1 } from './y1';
+import { entries as y2 } from './y2';
+import { entries as y3 } from './y3';
+import { entries as y4 } from './y4';
 
 type Entry = { extract: (input: CachedInput, inputs: CachedInput[]) => ProjectEvaluation[]; scope: string };
 
@@ -54,4 +59,6 @@ export const enrichmentExtractors: { since: string; extractors: Record<string, E
   { since: '2026-11-01T00:00:00.000Z', extractors: combine([m0, m1, m2, m3, m4, m5]) },
   { since: '2026-11-02T00:00:00.000Z', extractors: combine([m6, m7, m8, m9, m10, m11, m12, m13]) },
   { since: '2026-11-03T00:00:00.000Z', extractors: combine([m14, m15, m16, m17, m18, m19, m20, m21]) },
+  // 年度の記載がない公開済みレコードを、同じ資料から作った事業票で補う（enrichment.ts の yearlessSameDocument）
+  { since: '2026-11-04T00:00:00.000Z', extractors: combine([y0, y1, y2, y3, y4]) },
 ];

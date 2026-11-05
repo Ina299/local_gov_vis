@@ -127,7 +127,10 @@ export function extractKatsuura(input: CachedInput): ProjectEvaluation[] {
         if (m) p.amounts.push(amount(input, kind, fy, m[1], '千円', m[0].slice(1, -1), start + m.index! + 1));
       }
     }
-    if (p.amounts.length) p.evidence.push(evidence(input, '（単位：千円）', start + seg.indexOf('（単位：千円）')));
+    // 全文（FULLTEXT_SINCE 以降）では単位表記のない調書が現れる。単位を確認できない金額は採らず、その事業は飛ばす。
+    const unit = seg.indexOf('（単位：千円）');
+    if (p.amounts.length && unit < 0) continue;
+    if (p.amounts.length) p.evidence.push(evidence(input, '（単位：千円）', start + unit));
     p.warnings.push('勝浦市 R6事業 実施計画事業調書・事業評価書。R5・R6の予算額・決算額は、ラベル「ＲＮ予算額／ＲＮ決算額」の直後の行に単独の数値がある場合のみ採用（単位：千円）。列が崩れてラベルと数値が離れている欄は不採用。');
     p.warnings.push('主な目標・目標数値・結果・達成度・今後の方向性はR5〜R8の列が抽出テキスト上で混在し年度対応が確定できないため未収録。評価実施年度・評価対象年度は本文で特定できないため未設定。');
     out.push(p);

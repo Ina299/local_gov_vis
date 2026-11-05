@@ -22,6 +22,23 @@
           "inputSha256": "0ce610e19a4717cd8cfe555110940b063a83818e69551887545b7583c453da51"
         }
       ]
+    },
+    {
+      "correctedAt": "2026-11-03T17:05:15.618Z",
+      "municipalityCodes": [
+        "27140"
+      ],
+      "reason": "堺市の評価シートPDFのうち、目的・事業内容の本文が欄名より前にまとめて出力される票（010-031・010-057・011-284・011-287）で、「7 事業の目的」の直後にある事業内容の本文や欄名（事業内容／8）を目的として補強していたため、該当4件の目的の補強を取り消す（目的は空欄に戻す）",
+      "quote": "7 事業の目的\n\n事業内容\n8",
+      "changes": [
+        {
+          "batchGeneratedAt": "2026-11-01T00:00:00.000Z",
+          "municipalityCode": "27140",
+          "previousInputSha256": "1ccf0fd903c529e248f213b7f8a745b2e2fc817002cc82b21a842bca2917c574",
+          "inputSha256": "205b3724a676187e6f4b43b4de691c3c8f37fb66f1157a2dbd2aefb5e0baa1e9",
+          "enrichment": true
+        }
+      ]
     }
   ]
 }

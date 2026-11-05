@@ -60,8 +60,12 @@ function extractSakai(input: CachedInput): ProjectEvaluation[] {
     .filter(s => !['局', '部', '課', '事務事業分類', '事業番号', code].includes(s) && !/^[A-G] /.test(s));
   if (cellsAfter.length === 3 && /局$/.test(cellsAfter[0]) && /部$/.test(cellsAfter[1]) && /(?:課|室|所|センター)$/.test(cellsAfter[2])) p.department = cellsAfter.join(' ');
   else p.warnings.push('担当部署名の局・部・課の値セルの対応が抽出テキストで確定しないため担当課は未収録。');
-  const purpose = /\n7 事業の目的\n\n([^\n]+(?:\n[^\n]+)*)\n\n/.exec(t);
-  if (purpose && !/対象数|単位/.test(purpose[1])) p.purpose = purpose[1].replace(/\n/g, '');
+  // 7 事業の目的: 欄名と本文が「6 事業の対象／対象の本文（＋対象数・単位の短い値セル）／7 事業の目的／目的の本文」と並ぶ票のみ。
+  // 目的・事業内容の本文が欄名より前にまとめて出る票では「7 事業の目的」の直後が事業内容の本文や欄名（事業内容／8）になるため収録しない。
+  const purpose = /\n6 事業の対象\n\n([^\n]+(?:\n[^\n]+)*)((?:\n\n[^\n]+(?:\n[^\n]+)*)*?)\n\n7 事業の目的\n\n([^\n]+(?:\n[^\n]+)*)\n\n(?!事業内容\n8\n)/.exec(t);
+  const cells = purpose ? purpose[2].split('\n\n').slice(1) : [];
+  if (purpose && !/^\d+ /.test(purpose[1]) && !/事業の対象|事業の目的|事業内容|対象数|単位|事業の実施主体|主な支出先/.test(purpose[3])
+    && (!cells.length || (cells[0] === '対象数' && cells[1] === '単位' && cells.slice(2).every(c => c.length <= 12)))) p.purpose = purpose[3].replace(/\n/g, '');
 
   // Ⅲ．投入量（千円）: 事業費(a)＋人件費(b)＝年間経費(c) が列ごとに一致する列のみ採用。0 は未計上の可能性があるため収録しない。
   const cost = t.indexOf(COST_HEAD, s2);

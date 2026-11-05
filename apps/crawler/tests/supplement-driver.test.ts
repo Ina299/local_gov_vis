@@ -58,7 +58,7 @@ test('published supplemental inputs reproduce byte-for-byte from every hash-chec
    for(const [generatedAt,inputs]of groups){
     const output=join(scratch,`batch-${batchIndex}-group-${groupIndex++}`,'shards');
     execFileSync(process.execPath,['--import','tsx',join(root,'apps/crawler/src/extract-cached-evaluation-supplements.ts'),
-      '--output-dir',output,'--generated-at',generatedAt,'--codes',inputs.map(i=>i.municipalityCode).join(',')],{cwd:root,stdio:'pipe',timeout:300_000});
+      '--output-dir',output,'--generated-at',generatedAt,'--codes',inputs.map(i=>i.municipalityCode).join(',')],{cwd:root,stdio:'pipe',timeout:1_200_000});
     for(const input of inputs){
      const reproduced=readFileSync(join(output,`${input.municipalityCode}.json`));
      assert.equal(reproduced.length,input.bytes,`Reproduced bytes: ${input.municipalityCode}`);

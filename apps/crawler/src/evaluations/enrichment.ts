@@ -37,6 +37,10 @@ const norm = (v: string | null) => v?.normalize('NFKC').replace(/\s/g, '') ?? nu
 const samePeriod = (a: ProjectEvaluation, b: ProjectEvaluation): boolean | null =>
   a.evaluatedFiscalYear !== null && b.evaluatedFiscalYear !== null ? a.evaluatedFiscalYear === b.evaluatedFiscalYear
     : a.evaluationYear !== null && b.evaluationYear !== null ? a.evaluationYear === b.evaluationYear : null;
+// 年度の記載がない事業票どうしは、同じ資料（URL と SHA-256 が一致）から作ったものに限り同じ時期とみなす（yearless のとき）
+const yearless = (p: ProjectEvaluation) => p.evaluatedFiscalYear === null && p.evaluationYear === null;
+const sameDocument = (a: ProjectEvaluation, b: ProjectEvaluation) =>
+  a.evidence.some(x => b.evidence.some(y => x.sourceUrl === y.sourceUrl && x.sha256 === y.sha256));
 const departmentsCompatible = (a: string | null, b: string | null) => {
   const x = norm(a), y = norm(b);
   return !x || !y || x.includes(y) || y.includes(x);
@@ -76,12 +80,16 @@ export function additions(target: ProjectEvaluation, sheet: ProjectEvaluation, n
   return add;
 }
 
-/** One-to-one matching by name and a known, equal period; department only has to be compatible. */
-export function buildEnrichments(published: ProjectEvaluation[], sheets: ProjectEvaluation[], narratives = false): { enrichments: Enrichment[]; skipped: EnrichmentSkip[] } {
+/**
+ * One-to-one matching by name and a known, equal period; department only has to be compatible.
+ * yearlessSameDocument: 両方とも年度の記載がなく、同じ資料から作った事業票も突き合わせる（2026-11-04 以降の補強だけ）
+ */
+export function buildEnrichments(published: ProjectEvaluation[], sheets: ProjectEvaluation[], narratives = false, yearlessSameDocument = false): { enrichments: Enrichment[]; skipped: EnrichmentSkip[] } {
   const skipped: EnrichmentSkip[] = [];
   const pairs: { sheet: ProjectEvaluation; target: ProjectEvaluation }[] = [];
   for (const sheet of sheets) {
-    const candidates = published.filter(p => norm(p.projectName) === norm(sheet.projectName) && samePeriod(p, sheet) === true && departmentsCompatible(p.department, sheet.department));
+    const candidates = published.filter(p => norm(p.projectName) === norm(sheet.projectName)
+      && (samePeriod(p, sheet) === true || (yearlessSameDocument && yearless(p) && yearless(sheet) && sameDocument(p, sheet))) && departmentsCompatible(p.department, sheet.department));
     if (!candidates.length) { skipped.push({ sheetId: sheet.id, reason: 'no_match' }); continue; }
     if (candidates.length > 1) { skipped.push({ sheetId: sheet.id, reason: 'ambiguous_match' }); continue; }
     pairs.push({ sheet, target: candidates[0] });

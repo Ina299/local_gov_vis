@@ -44,6 +44,18 @@ test('matching is one-to-one by name and a known equal period; reprints must agr
   assert.deepEqual(disagree.skipped.map(s => s.reason), ['shared_target', 'shared_target']);
 });
 
+test('year-less records match only when enabled and built from the same document', () => {
+  const other = (rawText: string): EvaluationEvidence => ({ ...ev(rawText), sourceUrl: 'https://www.city.example.lg.jp/b.pdf', sha256: 'b'.repeat(64) });
+  const published = [record('p1', { evaluationYear: null }), record('p2', { projectName: '別資料の事業', evaluationYear: null })];
+  const sheets = [record('s1', { evaluationYear: null, purpose: '目的', evidence: [ev('シート')] }),
+    record('s2', { projectName: '別資料の事業', evaluationYear: null, purpose: '目的', evidence: [other('シート')] })];
+  assert.deepEqual(buildEnrichments(published, sheets, true).enrichments, [], 'off by default');
+  const { enrichments, skipped } = buildEnrichments(published, sheets, true, true);
+  assert.deepEqual(enrichments.map(e => [e.targetId, e.sheetId]), [['p1', 's1']]);
+  assert.deepEqual(skipped.map(s => [s.sheetId, s.reason]), [['s2', 'no_match']]);
+  assert.deepEqual(buildEnrichments([record('p1')], [record('s1', { evaluationYear: null, purpose: '目的' })], true, true).enrichments, [], 'a dated record never matches a year-less sheet');
+});
+
 test('applying an enrichment keeps identity and refuses drifted or non-additive inputs', () => {
   const target = record('p1');
   const dataset: EvaluationDataset = { schemaVersion: 1, generatedAt: '2026-10-24T00:00:00.000Z', sources: [], projects: [target] };
