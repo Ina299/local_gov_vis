@@ -41,6 +41,9 @@ const samePeriod = (a: ProjectEvaluation, b: ProjectEvaluation): boolean | null 
 const yearless = (p: ProjectEvaluation) => p.evaluatedFiscalYear === null && p.evaluationYear === null;
 const sameDocument = (a: ProjectEvaluation, b: ProjectEvaluation) =>
   a.evidence.some(x => b.evidence.some(y => x.sourceUrl === y.sourceUrl && x.sha256 === y.sha256));
+/** 2つの根拠が同じ公式ページに掲載された資料どうしか（呼び出し側が収集時の掲載ページで判定する） */
+export type SamePage = (a: EvaluationEvidence, b: EvaluationEvidence) => boolean;
+const onSamePage = (a: ProjectEvaluation, b: ProjectEvaluation, samePage: SamePage) => a.evidence.some(x => b.evidence.some(y => samePage(x, y)));
 const departmentsCompatible = (a: string | null, b: string | null) => {
   const x = norm(a), y = norm(b);
   return !x || !y || x.includes(y) || y.includes(x);
@@ -83,13 +86,14 @@ export function additions(target: ProjectEvaluation, sheet: ProjectEvaluation, n
 /**
  * One-to-one matching by name and a known, equal period; department only has to be compatible.
  * yearlessSameDocument: 両方とも年度の記載がなく、同じ資料から作った事業票も突き合わせる（2026-11-04 以降の補強だけ）
+ * samePage: 指定があれば、年度の記載がない事業票どうしは同じページに掲載された資料から作ったものも突き合わせる（2026-11-06 以降の補強だけ）
  */
-export function buildEnrichments(published: ProjectEvaluation[], sheets: ProjectEvaluation[], narratives = false, yearlessSameDocument = false): { enrichments: Enrichment[]; skipped: EnrichmentSkip[] } {
+export function buildEnrichments(published: ProjectEvaluation[], sheets: ProjectEvaluation[], narratives = false, yearlessSameDocument = false, samePage?: SamePage): { enrichments: Enrichment[]; skipped: EnrichmentSkip[] } {
   const skipped: EnrichmentSkip[] = [];
   const pairs: { sheet: ProjectEvaluation; target: ProjectEvaluation }[] = [];
   for (const sheet of sheets) {
     const candidates = published.filter(p => norm(p.projectName) === norm(sheet.projectName)
-      && (samePeriod(p, sheet) === true || (yearlessSameDocument && yearless(p) && yearless(sheet) && sameDocument(p, sheet))) && departmentsCompatible(p.department, sheet.department));
+      && (samePeriod(p, sheet) === true || (yearlessSameDocument && yearless(p) && yearless(sheet) && (sameDocument(p, sheet) || (samePage !== undefined && onSamePage(p, sheet, samePage))))) && departmentsCompatible(p.department, sheet.department));
     if (!candidates.length) { skipped.push({ sheetId: sheet.id, reason: 'no_match' }); continue; }
     if (candidates.length > 1) { skipped.push({ sheetId: sheet.id, reason: 'ambiguous_match' }); continue; }
     pairs.push({ sheet, target: candidates[0] });

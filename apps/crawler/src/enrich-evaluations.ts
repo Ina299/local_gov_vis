@@ -8,7 +8,7 @@
 import { mkdir, readFile, readdir, writeFile, rename, rm, mkdtemp } from 'node:fs/promises';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import type { EvaluationDataset, EvaluationSourceStatus, ProjectEvaluation } from '../../web/src/types/evaluation';
+import type { EvaluationDataset, EvaluationEvidence, EvaluationSourceStatus, ProjectEvaluation } from '../../web/src/types/evaluation';
 import type { DocumentText, MunicipalityEvidence } from '../../web/src/types/evaluationEvidence';
 import { sha256, verifyCoreIntegratedEvaluations } from './evaluations/national-integration';
 import { ENRICHMENT_INPUTS, SUPPLEMENTAL_MANIFEST, composeSupplemental, loadBatches, loadEnrichmentBatches, loadManifest, verifySupplementalDecisionProofs, verifySupplementalEvaluations } from './evaluations/supplemental-integration';
@@ -30,6 +30,8 @@ const json = (x: unknown) => Buffer.from(JSON.stringify(x) + '\n');
 const NARRATIVES_SINCE = '2026-11-01T00:00:00.000Z';
 /** この日時以降に生成する補強は、両方とも年度の記載がない事業票を、同じ資料から作ったものに限って突き合わせる */
 const YEARLESS_SINCE = '2026-11-04T00:00:00.000Z';
+/** この日時以降に生成する補強は、年度の記載がない事業票どうしを、同じ公式ページに掲載された資料から作ったものも突き合わせる */
+const SAME_PAGE_SINCE = '2026-11-06T00:00:00.000Z';
 
 async function publishedBefore(): Promise<Map<string, Buffer>> {
   const manifest = await loadManifest(root);
@@ -78,8 +80,19 @@ async function build(output: string, codes: string[]) {
     const bytes = shards.get(code);
     const published: ProjectEvaluation[] = bytes ? (JSON.parse(bytes.toString()) as EvaluationDataset).projects : [];
     const publishedIds = new Set(published.map(p => p.id));
+    // 掲載ページ: 収集時に資料へのリンクを確認した公式ページ。リンク名の年度が食い違う資料どうしは同じページでも突き合わせない。
+    const listing = new Map(muni.sources.filter(s => s.verification?.status === 'verified' && s.verification.evidenceSourceId && s.acquisition.sourceSha256)
+      .map(s => [`${s.url}
+${s.acquisition.sourceSha256}`, { page: s.verification!.evidenceSourceId!,
+        years: new Set((s.years ?? []).filter(y => y.basis === 'official_link_label').map(y => y.calendarYear)) }]));
+    const samePage = (a: EvaluationEvidence, b: EvaluationEvidence) => {
+      const x = listing.get(`${a.sourceUrl}
+${a.sha256}`), y = listing.get(`${b.sourceUrl}
+${b.sha256}`);
+      return !!x && !!y && x.page === y.page && (!x.years.size || !y.years.size || [...x.years].some(v => y.years.has(v)));
+    };
     const { enrichments, skipped } = buildEnrichments(published, sheets.filter(p => !publishedIds.has(p.id)), Date.parse(generatedAt!) >= Date.parse(NARRATIVES_SINCE),
-      Date.parse(generatedAt!) >= Date.parse(YEARLESS_SINCE));
+      Date.parse(generatedAt!) >= Date.parse(YEARLESS_SINCE), Date.parse(generatedAt!) >= Date.parse(SAME_PAGE_SINCE) ? samePage : undefined);
     const referenced = [...new Set(enrichments.flatMap(e => [...e.add.evidence, ...e.add.amounts.map(a => a.evidence), ...e.add.indicators.map(i => i.evidence), ...e.add.ratings.map(r => r.evidence)])
       .map(e => JSON.stringify([e.sourceUrl, e.sha256])))].sort();
     const sources: EvaluationSourceStatus[] = referenced.map(k => {

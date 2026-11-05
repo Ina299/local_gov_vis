@@ -56,6 +56,17 @@ test('year-less records match only when enabled and built from the same document
   assert.deepEqual(buildEnrichments([record('p1')], [record('s1', { evaluationYear: null, purpose: '目的' })], true, true).enrichments, [], 'a dated record never matches a year-less sheet');
 });
 
+test('year-less records built from documents on the same page match only when a page check is given', () => {
+  const other = (rawText: string): EvaluationEvidence => ({ ...ev(rawText), sourceUrl: 'https://www.city.example.lg.jp/b.pdf', sha256: 'b'.repeat(64) });
+  const published = [record('p1', { evaluationYear: null })];
+  const sheets = [record('s1', { evaluationYear: null, purpose: '目的', evidence: [other('説明資料')] })];
+  assert.deepEqual(buildEnrichments(published, sheets, true, true).enrichments, [], 'a different document needs the page check');
+  assert.deepEqual(buildEnrichments(published, sheets, true, true, () => false).enrichments, []);
+  assert.deepEqual(buildEnrichments(published, sheets, true, true, () => true).enrichments.map(e => [e.targetId, e.sheetId]), [['p1', 's1']]);
+  assert.deepEqual(buildEnrichments([record('p1')], [record('s1', { evaluationYear: null, purpose: '目的', evidence: [other('説明資料')] })], true, true, () => true).enrichments, [],
+    'a dated record never matches a year-less sheet');
+});
+
 test('applying an enrichment keeps identity and refuses drifted or non-additive inputs', () => {
   const target = record('p1');
   const dataset: EvaluationDataset = { schemaVersion: 1, generatedAt: '2026-10-24T00:00:00.000Z', sources: [], projects: [target] };
