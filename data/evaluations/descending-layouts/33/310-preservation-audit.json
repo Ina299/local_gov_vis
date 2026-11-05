@@ -1,0 +1,9 @@
+{
+  "base": "cc448595cda8a7f2a7d59b72730484fd407a5f13",
+  "oldCandidates": 160,
+  "workingCandidates": 310,
+  "oldCandidatesDeepIdentical": true,
+  "newCandidates": 150,
+  "productionChanges": 0,
+  "fullRegressionFor310": "not run yet"
+}

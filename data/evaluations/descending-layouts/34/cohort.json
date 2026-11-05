@@ -1,0 +1,149 @@
+{
+  "prefecture": "34",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-01T21:32:35.319446+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "34545",
+      "municipalityName": "神石高原町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "fea3cc50f87ca390ed17d9c69f5eda3a8944eda0cade0538dde8ea98a1cfa3d8"
+    },
+    {
+      "municipalityCode": "34462",
+      "municipalityName": "世羅町",
+      "datasetSha256": "52db58c457945160f9b97cd22b4661f8f2fd9607552a737048422008b1cba19f",
+      "evidenceShardSha256": "d8b64a5ad9fea0077e557317cf36a5edf8565c6f15cd7421ab2e862b89ea3936"
+    },
+    {
+      "municipalityCode": "34431",
+      "municipalityName": "大崎上島町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "2a497a608ead86a289ebe00cd73ab71229a703e3e78bc087a3bc42681e610062"
+    },
+    {
+      "municipalityCode": "34369",
+      "municipalityName": "北広島町",
+      "datasetSha256": "dab00d8a5a66757da8a2d4e143131cebc1cebeecf337f198870c74eca8f33d7d",
+      "evidenceShardSha256": "54edceb37c3925971711efdb2f9984e64c1c4cd72efb0a1a1061b4ea3d09c094"
+    },
+    {
+      "municipalityCode": "34368",
+      "municipalityName": "安芸太田町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3d0445df19853a57ea796e9784b1068e6221ac5a7c4c55f6a813f4b48043793f"
+    },
+    {
+      "municipalityCode": "34309",
+      "municipalityName": "坂町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "dbb9100f556baec5fa8d516823e5b8dc7e6edb500a67bd6b0e2f96445ca229ed"
+    },
+    {
+      "municipalityCode": "34307",
+      "municipalityName": "熊野町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "af336e9a448d9d72341862f376d883d5e6cf52b90c827b2738b378aca36f3cec"
+    },
+    {
+      "municipalityCode": "34304",
+      "municipalityName": "海田町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "42d1c4404c0281b7c30403fd14b38acf71f8ac0ae46d46796e997c460da3ffbe"
+    },
+    {
+      "municipalityCode": "34302",
+      "municipalityName": "府中町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "496523a503b9c6170aae2b64adb0fd1474062cc44a7538801637f42785488551"
+    },
+    {
+      "municipalityCode": "34215",
+      "municipalityName": "江田島市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "24adbd0d31a5f06957625e81e81be32e0002fb3ae99783385af304a7ec850f8f"
+    },
+    {
+      "municipalityCode": "34213",
+      "municipalityName": "廿日市市",
+      "datasetSha256": "c53d2c3fb4ca90f6605ed27c6f383f010683e9740129c9e538ab36096b7c1fff",
+      "evidenceShardSha256": "521ca18d66d1496e96423a9549fb8bbd64b29fdfe83abb00b8b0102328dcf312"
+    },
+    {
+      "municipalityCode": "34212",
+      "municipalityName": "東広島市",
+      "datasetSha256": "5c5bb129775679b820da786830acc45152ce53764d96432cc864fad3e22a4225",
+      "evidenceShardSha256": "04aae2bf21837835f5ce89f4c0213cd312cf8ce57199213f9bf959b99aa2e338"
+    },
+    {
+      "municipalityCode": "34211",
+      "municipalityName": "大竹市",
+      "datasetSha256": "581979a4f6051d9bbd8c8e303d4547f9746f3e81b7de4f2feaa39e79c9cdb78d",
+      "evidenceShardSha256": "274e874ca518e5da46e36765a5338847a469212b335a5b2f13939af47fc5fd46"
+    },
+    {
+      "municipalityCode": "34210",
+      "municipalityName": "庄原市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "9dd62b3d725c5283ce444874e97280b64d2b41da2ada19111b7581a6df6024a6"
+    },
+    {
+      "municipalityCode": "34209",
+      "municipalityName": "三次市",
+      "datasetSha256": "e261f0626450bd284ca920cecbd61eddb6a0a97967d9d5221c83c0925c75ba9c",
+      "evidenceShardSha256": "125906d6acea0e77e9a81ce6b97c12740a3fbd35b05e544bfc746a1a9c17c81d"
+    },
+    {
+      "municipalityCode": "34208",
+      "municipalityName": "府中市",
+      "datasetSha256": "9516f1cd6f1037ac4b6843164d235056a6819a9dcc37d59330a11c5ab9e9f07f",
+      "evidenceShardSha256": "a69c60cc56c2cb83d419a192b934adb6029a300e2560377bfccf6291a645a347"
+    },
+    {
+      "municipalityCode": "34207",
+      "municipalityName": "福山市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ad4a44e167811202d9cfa710ff339bb33064aa64679f615f6d63e26e6df5305e"
+    },
+    {
+      "municipalityCode": "34205",
+      "municipalityName": "尾道市",
+      "datasetSha256": "21a2d52e4448010c9c6ee3f6d6e01011ec6df5053e0dc70f1010c545a6a16cf2",
+      "evidenceShardSha256": "1578701c42f733ea318df11c3657d6867f997946fc11ef3ff1a8cffc2f98701c"
+    },
+    {
+      "municipalityCode": "34204",
+      "municipalityName": "三原市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "65f0d4fde3752f4ce2d45642ed7b5e8d8879112ce2ab7c2607ace700a2df2f6b"
+    },
+    {
+      "municipalityCode": "34203",
+      "municipalityName": "竹原市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "2174d35e6940887cc2409cb4b5f0ff8962444178e93f5a6932266ffa787a65f5"
+    },
+    {
+      "municipalityCode": "34202",
+      "municipalityName": "呉市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "add71b70223295a935fcb6e20781f929c71e80a504199834e7839d000883874c"
+    },
+    {
+      "municipalityCode": "34100",
+      "municipalityName": "広島市",
+      "datasetSha256": "8e2d8f380fabdb8511b9dba03b909afd47e28c5d78cb6c43777e1bb5d4994264",
+      "evidenceShardSha256": "9bc4d8808e5f7269f79286bb1e3a83aab9f4353bce67cce8fe1dc5aef7ca6aa7"
+    }
+  ],
+  "skipped": [
+    {
+      "municipalityCode": "34214",
+      "municipalityName": "安芸高田市",
+      "reason": "Recent master dataset differs from common baseline"
+    }
+  ],
+  "readOnlyMasterObserved": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6"
+}

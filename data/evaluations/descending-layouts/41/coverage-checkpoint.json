@@ -1,0 +1,60 @@
+{
+  "status": "cached_title_review_locally_validated",
+  "summary": {
+    "cohort": "41",
+    "municipalities": 20,
+    "sources": 110,
+    "hashVerifiedBodies": 89,
+    "continuationParts": 4,
+    "candidateRecords": 1317,
+    "candidateMunicipalities": 11,
+    "duplicateOutputs": 1544,
+    "heldOutputs": 0,
+    "productionRecordsAdded": 0,
+    "existingFieldsChanged": 0,
+    "municipalRequests": 0,
+    "layoutReviewedUnits": 2125,
+    "layoutActionableUnits": 0,
+    "layoutHeldUnits": 78,
+    "statuses": {
+      "missing_body": 21,
+      "duplicate": 9,
+      "reviewed_literal_businesses": 27,
+      "processed": 31,
+      "navigation": 12,
+      "duplicate_summary": 10
+    }
+  },
+  "completed": [
+    "61 previously unsupported sources",
+    "Kashima 246 header markers and 30-row grant recap",
+    "Arita newer lists: 370 printed rows, 369 literal title proposals and one printed alias typo held",
+    "Ogi 3 annual tables: 64 explicit budget/name rows each; mixed future/actual narrative not structured"
+  ],
+  "evidenceLimitations": [
+    "21 sources have no cached body; acquisition remains held",
+    "Financial and evaluation column alignment and independent identities explicitly held in source ledger",
+    "No original PDF bytes or coordinates newly acquired"
+  ],
+  "focusedTests": 12,
+  "fullRegression": {
+    "crawler": {
+      "passed": 438,
+      "failed": 0
+    },
+    "web": {
+      "passed": 256,
+      "failed": 0
+    },
+    "typecheck": "passed",
+    "lint": "passed; existing font warning",
+    "nationalVerification": "passed; 500 municipalities / 92038 records unchanged",
+    "staticBuild": "passed; /local_gov_vis; 109 pages; font optimization temporarily disabled and configuration restored",
+    "independentCandidates": 8692,
+    "independentEvidence": 19441,
+    "remoteCI": "not requested; local-only phase"
+  },
+  "publishedRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "testedCodeHead": "5a562e1624c0e92eea6b6225600e362126e4d4b9"
+}

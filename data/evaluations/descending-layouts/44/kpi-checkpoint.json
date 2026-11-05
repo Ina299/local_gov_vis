@@ -1,0 +1,18 @@
+{
+  "phase": "in_progress",
+  "previousValidatedHead": "5abf31518a520d5cd0d852d51057e8b39823cb71",
+  "candidateRecords": 715,
+  "additionalCandidatesSince465": 250,
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0,
+  "scope": "Four hash-matched Bungotakada KPI tables, 50 named activity rows per year, FY2020–2024. Operational activities, not inferred budget-business identities.",
+  "focusedTestsPassed": 11,
+  "independentValidation": {
+    "combinedCandidates": 2799,
+    "exactEvidenceReferences": 6861
+  },
+  "typecheck": "passed",
+  "fullRegression": "393/393 at prior465 checkpoint; not yet rerun for KPI extension",
+  "remaining": "665 actionable layout units including older Taketa sheets and unmapped KPI rows; 31 unsupported source layouts still require content review. No claim of exhaustion."
+}

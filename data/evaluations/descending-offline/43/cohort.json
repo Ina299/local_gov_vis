@@ -1,0 +1,280 @@
+{
+  "prefecture": "43",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-01T12:56:24.305661+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "43531",
+      "municipalityName": "苓北町",
+      "datasetSha256": "083352099b22e9ac202ebd02db7e5d3f8ea485753de9d109c615d7bf0501852a",
+      "evidenceShardSha256": "de9bf7fe9058135c710f3a123dd55bd3724a52ae5ceebe4e60a45dfb0628155c"
+    },
+    {
+      "municipalityCode": "43514",
+      "municipalityName": "あさぎり町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "9e887ad73c0c3e6e1954566c288d56a6f4c7cb7d2b149dab06334573daae15bd"
+    },
+    {
+      "municipalityCode": "43513",
+      "municipalityName": "球磨村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "41ad5a803137efcab48e2c75b8919d12d9a2c7a9792c6ec6a2e007fcb5b58fc6"
+    },
+    {
+      "municipalityCode": "43512",
+      "municipalityName": "山江村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "397a8daa4643b4fe58ff69627339e9619e8a648f3d8345753003e799b96a340c"
+    },
+    {
+      "municipalityCode": "43511",
+      "municipalityName": "五木村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ba18e37cc206967308c8402ed95352dd2615bf98c8a6a6402455781dc522f5ca"
+    },
+    {
+      "municipalityCode": "43510",
+      "municipalityName": "相良村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "05682220d0df386dc324a6542c28cfd4b6554df4c92629ad4580e106736b74c6"
+    },
+    {
+      "municipalityCode": "43507",
+      "municipalityName": "水上村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "70055db0e19298b9e19a7c8eb9468323845bce5c9bd06f903ce55c6d3559f919"
+    },
+    {
+      "municipalityCode": "43506",
+      "municipalityName": "湯前町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6019ddaa9e857727b404afc09900d993a28d2eb1f8bf1506cc58634f80ef77a9"
+    },
+    {
+      "municipalityCode": "43505",
+      "municipalityName": "多良木町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7d2322dafbdd78cb50989f42e80bb9253f1d6b489b2659836bc6f9a8fad4c584"
+    },
+    {
+      "municipalityCode": "43501",
+      "municipalityName": "錦町",
+      "datasetSha256": "f90346fa8e3779c1d50f122e94b765f3216b6bc11a9c0b991a8ca95849e6fca7",
+      "evidenceShardSha256": "aed55503f5ae361edbaf0196467fb15736374c1aa67b708d7929db183800a26d"
+    },
+    {
+      "municipalityCode": "43484",
+      "municipalityName": "津奈木町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b4f8a96138fa03a577d69de655605dbf1acc66923a0ed8804f7d24f187faae7b"
+    },
+    {
+      "municipalityCode": "43482",
+      "municipalityName": "芦北町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f0de31c8fd27341aac711e98edff2a16c2b62bb96da3e1d506104a85548b3dc0"
+    },
+    {
+      "municipalityCode": "43468",
+      "municipalityName": "氷川町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "36a576767fc239715efa8571b2a99fc82b0026546b155f6e0705760b5b2d34cb"
+    },
+    {
+      "municipalityCode": "43447",
+      "municipalityName": "山都町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "fb5cbb0fcf354c854d76596b81779d9d22e38f48554e3c53ae1f71f77eb765c4"
+    },
+    {
+      "municipalityCode": "43444",
+      "municipalityName": "甲佐町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3ad999f0b55b00fbf24601ad2794627bc4bc9adc58b7e8b75cc4bad8245ebfcd"
+    },
+    {
+      "municipalityCode": "43443",
+      "municipalityName": "益城町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "2eaea9e27142af83d880d2e4d24eddbcbd3820dd662e8bb79655f23273e1158a"
+    },
+    {
+      "municipalityCode": "43442",
+      "municipalityName": "嘉島町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "493cadb820aa8214171aa983cc07295e5a1d4d1c614c31c753a43acd449705e7"
+    },
+    {
+      "municipalityCode": "43441",
+      "municipalityName": "御船町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "34535a2e9137a83cfe5f0183fd063088d58897847161dc9d2b3eea8e8c50cf30"
+    },
+    {
+      "municipalityCode": "43433",
+      "municipalityName": "南阿蘇村",
+      "datasetSha256": "d41a86bf5d92525c58f98aec9330a297b69f63de10192063f7882a084da62b5a",
+      "evidenceShardSha256": "6318c121f3afe1a32816b64e84d5d9102df4a7bfc7eb0ff04cf86c47f3afbd46"
+    },
+    {
+      "municipalityCode": "43432",
+      "municipalityName": "西原村",
+      "datasetSha256": "70f9eae21c7202053c45b710e52d1fe58f70b2654136fb8ba86b553aab004d25",
+      "evidenceShardSha256": "3194f62571e60cb1e8e5bdabd8b7873a25e9bb81e028cafc6be81f69d7edc874"
+    },
+    {
+      "municipalityCode": "43428",
+      "municipalityName": "高森町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a4d8148ace7cbf0cbf11340c7c3ae67672e2e54c1f1fd18b5209e93e1f3c12d3"
+    },
+    {
+      "municipalityCode": "43425",
+      "municipalityName": "産山村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "18f2e0a061a7bd86aaa7995082d93474b0e513dcbe96d2bfadf98a214a03ea78"
+    },
+    {
+      "municipalityCode": "43424",
+      "municipalityName": "小国町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "9cf50f324d7dd15d94c0da9b075667db3aafbe17e234cb98dac1b733a92b6ef6"
+    },
+    {
+      "municipalityCode": "43423",
+      "municipalityName": "南小国町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "4e27c801c8fbca01a1406489bbebec0547b6ff5eefc48b80ab4dadf4e384e81a"
+    },
+    {
+      "municipalityCode": "43404",
+      "municipalityName": "菊陽町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e18a26346dc52079e317a58c978c2d2605c62fa0df3e4c6920fa46189cc54f16"
+    },
+    {
+      "municipalityCode": "43403",
+      "municipalityName": "大津町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "dc67d6361da91e5dbd3018ee8c641dca238bb212c987e2ea09363d4c69a38636"
+    },
+    {
+      "municipalityCode": "43369",
+      "municipalityName": "和水町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7c89f752d7340ab94f71d7695bb6d61ad1a5353de6beda68961e0712c6c1d074"
+    },
+    {
+      "municipalityCode": "43368",
+      "municipalityName": "長洲町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "8cbce3b2a8586886fd231715a85714f83e5523c0ab2618e7019b9780b1ca86d9"
+    },
+    {
+      "municipalityCode": "43367",
+      "municipalityName": "南関町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "188a6f67f0d08271bd694ab5f4df7f89322b3e6376984877df15d2330477f5b0"
+    },
+    {
+      "municipalityCode": "43364",
+      "municipalityName": "玉東町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "31f8134f0740dfe0d4ce4e8cb94b0ea351b5f6f9a82f443987dd02224e311a3c"
+    },
+    {
+      "municipalityCode": "43348",
+      "municipalityName": "美里町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f145e8df566f08cdd50cb6ed3eb0edb190ec51c060e66a17011390e84fd0adad"
+    },
+    {
+      "municipalityCode": "43216",
+      "municipalityName": "合志市",
+      "datasetSha256": "4114e533a8138b19f2027e25cc2d67c215f23d7feb9760626097a0b22d0906f8",
+      "evidenceShardSha256": "62ed8b01c74e91ae3634a2aa1bfd4e4f1528f1f55269d46873d6396c5cce1a3b"
+    },
+    {
+      "municipalityCode": "43215",
+      "municipalityName": "天草市",
+      "datasetSha256": "2cb1c8507c4af31fa02ddd9721cfea0c1984ee985afbf49e7caace927854f429",
+      "evidenceShardSha256": "f5badf6b7fcd6dfcd425d5a8e2a123e000e9351949284332ca62d43b53b14171"
+    },
+    {
+      "municipalityCode": "43214",
+      "municipalityName": "阿蘇市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "632b608d0e96061f3b877983f43efc444c89d00c8d362d6671015a0717b39e83"
+    },
+    {
+      "municipalityCode": "43213",
+      "municipalityName": "宇城市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "2e4d5fe05dac91f09163417d07ba47741a97f639fd4916fbe2f1619bd1e1d6db"
+    },
+    {
+      "municipalityCode": "43211",
+      "municipalityName": "宇土市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "df09c79c6b74c39f6213a6edbffea767b380ccd6eceb0698bc1155a48fcf63a7"
+    },
+    {
+      "municipalityCode": "43210",
+      "municipalityName": "菊池市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a1d793bd30fc84177ce4df5c2cdc6ddc6480289bcffe9846fc3e7d3ffb8805a4"
+    },
+    {
+      "municipalityCode": "43208",
+      "municipalityName": "山鹿市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e444afcc2e016035bae8168415cfafe0bd60501a1e3b95c5adda57139349aa94"
+    },
+    {
+      "municipalityCode": "43206",
+      "municipalityName": "玉名市",
+      "datasetSha256": "325149c50d47525677b3cddd276466fa136af757ce5d870dd0f778c4a76cbf71",
+      "evidenceShardSha256": "16af6a0c87fa70c6f8e5632d846f7ef68a7f27bf366755d55522297ff371c607"
+    },
+    {
+      "municipalityCode": "43205",
+      "municipalityName": "水俣市",
+      "datasetSha256": "fafe9005cbce630c028e561e3a1b227c46332523122952ba4c1f9b4ab3af1063",
+      "evidenceShardSha256": "34179dd1b5db09b1d81ba35ca4e122348f6ca6fae4a08657f22a319735adb6cc"
+    },
+    {
+      "municipalityCode": "43204",
+      "municipalityName": "荒尾市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "4d0368d4c96bfb72c6ecf311338fdb1948570b77133ebaf3f554a64b1edcce58"
+    },
+    {
+      "municipalityCode": "43203",
+      "municipalityName": "人吉市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "49c342459bbbef13b02ea0163a3e040ca66c901303fa144e8cefb7d710136adb"
+    },
+    {
+      "municipalityCode": "43202",
+      "municipalityName": "八代市",
+      "datasetSha256": "e258f3695040a3ab4ebc84dfb3938ce442e1bb060ec25ec3685fe9314a6e10fb",
+      "evidenceShardSha256": "6330d1c8588801f11bfa06c950c6e0308b3220a1b3c4fe7c2660a592e95dac63"
+    },
+    {
+      "municipalityCode": "43100",
+      "municipalityName": "熊本市",
+      "datasetSha256": "6a3b60ec608a75bd3dc3eb6f595ecfbd1adfeb4beca549453499ea009aa41e99",
+      "evidenceShardSha256": "3ed8c2ff8956275617450928152face5941add3e5fac0562e3ac7ae55caeb5df"
+    }
+  ],
+  "skipped": [
+    {
+      "municipalityCode": "43212",
+      "municipalityName": "上天草市",
+      "reason": "Recent master dataset differs from common baseline"
+    }
+  ]
+}

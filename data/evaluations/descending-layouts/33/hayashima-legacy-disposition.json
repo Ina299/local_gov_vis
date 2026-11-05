@@ -1,0 +1,176 @@
+[
+  {
+    "sourceId": "da3562c40989d276df07b498",
+    "nameFragments": [
+      "「まなびの舎」講座"
+    ],
+    "start": 11899,
+    "end": 12203,
+    "disposition": "proposed_actual_activity"
+  },
+  {
+    "sourceId": "da3562c40989d276df07b498",
+    "nameFragments": [
+      "まち探検 ロゲイニング"
+    ],
+    "start": 11974,
+    "end": 12203,
+    "disposition": "proposed_actual_activity"
+  },
+  {
+    "sourceId": "da3562c40989d276df07b498",
+    "nameFragments": [
+      "健康ウォーキング"
+    ],
+    "start": 12013,
+    "end": 12203,
+    "disposition": "proposed_actual_activity"
+  },
+  {
+    "sourceId": "da3562c40989d276df07b498",
+    "nameFragments": [
+      "ラジオ体操会"
+    ],
+    "start": 13086,
+    "end": 13205,
+    "disposition": "proposed_actual_activity"
+  },
+  {
+    "sourceId": "da3562c40989d276df07b498",
+    "raw": "早島歴史紀行",
+    "reason": "刊行実績は明示されるが、保存名称は刊行物名。独立事業名称と実施単位の確定を保留。",
+    "disposition": "activity_identity_hold"
+  },
+  {
+    "sourceId": "da3562c40989d276df07b498",
+    "raw": "ソフトボール大会",
+    "reason": "計画に名称があるが成果欄は講習会等の記載のみで大会実施を個別確認できない。",
+    "disposition": "implementation_evidence_hold"
+  },
+  {
+    "sourceId": "da3562c40989d276df07b498",
+    "raw": "年間１０回の講座",
+    "reason": "実施回数はあるが各講座名称がなく10事業へ分割できない。",
+    "disposition": "unnamed_activity_hold"
+  },
+  {
+    "sourceId": "78d4b7d29c59ecfc97f948fd",
+    "nameFragments": [
+      "「まなびの舎」"
+    ],
+    "start": 12673,
+    "end": 13108,
+    "disposition": "proposed_actual_activity"
+  },
+  {
+    "sourceId": "78d4b7d29c59ecfc97f948fd",
+    "raw": "花ござ手織り教室",
+    "reason": "今後の方向性にある計画。対象年度の実施証拠ではない。",
+    "disposition": "future_activity_hold"
+  },
+  {
+    "sourceId": "78d4b7d29c59ecfc97f948fd",
+    "raw": "ニュースポーツ体験会",
+    "reason": "スラックラインの実施は明示されるが活動の独立名称を確定できず、一般名を新しい固有事業名に加工しない。",
+    "disposition": "activity_identity_hold"
+  },
+  {
+    "sourceId": "78d4b7d29c59ecfc97f948fd",
+    "raw": "夏休みワクワク子ども教室",
+    "reason": "既存の早島っ子応援事業に含まれる子活動。親事業と重複追加しない。",
+    "disposition": "parent_activity_covered"
+  },
+  {
+    "sourceId": "78d4b7d29c59ecfc97f948fd",
+    "raw": "町民運動会",
+    "reason": "既存の町制施行120周年事業の活動と重複するため別候補としない。",
+    "disposition": "parent_activity_covered"
+  },
+  {
+    "sourceId": "06e6e2a1f0832f99f0961b2f",
+    "nameFragments": [
+      "「まなびの舎」"
+    ],
+    "start": 13291,
+    "end": 13984,
+    "disposition": "proposed_actual_activity"
+  },
+  {
+    "sourceId": "06e6e2a1f0832f99f0961b2f",
+    "nameFragments": [
+      "ファシリテイター養成講座"
+    ],
+    "start": 14602,
+    "end": 14830,
+    "disposition": "proposed_actual_activity"
+  },
+  {
+    "sourceId": "06e6e2a1f0832f99f0961b2f",
+    "nameFragments": [
+      "ロゲイニング"
+    ],
+    "start": 15663,
+    "end": 16547,
+    "disposition": "proposed_actual_activity"
+  },
+  {
+    "sourceId": "06e6e2a1f0832f99f0961b2f",
+    "nameFragments": [
+      "英会話塾"
+    ],
+    "start": 15674,
+    "end": 16547,
+    "disposition": "proposed_actual_activity"
+  },
+  {
+    "sourceId": "06e6e2a1f0832f99f0961b2f",
+    "nameFragments": [
+      "わくわくサマーホリデー"
+    ],
+    "start": 15691,
+    "end": 16547,
+    "disposition": "proposed_actual_activity"
+  },
+  {
+    "sourceId": "06e6e2a1f0832f99f0961b2f",
+    "nameFragments": [
+      "ＥＳＤわくわくタイム"
+    ],
+    "start": 16106,
+    "end": 16547,
+    "disposition": "proposed_actual_activity"
+  },
+  {
+    "sourceId": "06e6e2a1f0832f99f0961b2f",
+    "nameFragments": [
+      "はやしま塾"
+    ],
+    "start": 15657,
+    "end": 16547,
+    "disposition": "proposed_actual_activity"
+  },
+  {
+    "sourceId": "06e6e2a1f0832f99f0961b2f",
+    "raw": "ブックスタート",
+    "reason": "計画欄にはあるが成果欄の様々な講座だけから個別実施を確定しない。",
+    "disposition": "implementation_evidence_hold"
+  },
+  {
+    "sourceId": "06e6e2a1f0832f99f0961b2f",
+    "raw": "地域総合型スポーツクラブ",
+    "reason": "2～3年後の実現に向けた方向性であり当年度の実施ではない。",
+    "disposition": "future_activity_hold"
+  },
+  {
+    "sourceId": "06e6e2a1f0832f99f0961b2f",
+    "raw": "ボルダリングやスラッ",
+    "reason": "複合体験会の実施はあるが独立事業名が不明。二つの事業へ分割せず活動単位を保留。",
+    "disposition": "activity_identity_hold"
+  },
+  {
+    "sourceId": "06e6e2a1f0832f99f0961b2f",
+    "raw": "絵本の読み聞かせ",
+    "reason": "図書館の読み聞かせと地域教育個票に同様の活動記載があり同一活動か確定できない。二重計上を避ける。",
+    "disposition": "cross_unit_identity_hold"
+  }
+]

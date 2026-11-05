@@ -1,0 +1,208 @@
+[
+  {
+    "sourceId": "98c8265179881b46ed64a97a",
+    "municipalityCode": "34431",
+    "declaredCharacters": 0,
+    "exportedCharacters": 0,
+    "listedContinuations": 0,
+    "status": "missing_body",
+    "reason": "No nonempty cached text recorded. Acquisition held; no current municipal request attempted."
+  },
+  {
+    "sourceId": "d6561794d5e787ff19eab9c6",
+    "municipalityCode": "34431",
+    "declaredCharacters": 0,
+    "exportedCharacters": 0,
+    "listedContinuations": 0,
+    "status": "missing_body",
+    "reason": "No nonempty cached text recorded. Acquisition held; no current municipal request attempted."
+  },
+  {
+    "sourceId": "e7bdd83e7650be260dd34dce",
+    "municipalityCode": "34431",
+    "declaredCharacters": 0,
+    "exportedCharacters": 0,
+    "listedContinuations": 0,
+    "status": "missing_body",
+    "reason": "No nonempty cached text recorded. Acquisition held; no current municipal request attempted."
+  },
+  {
+    "sourceId": "b73fe78325d002ee6163f2fc",
+    "municipalityCode": "34431",
+    "declaredCharacters": 0,
+    "exportedCharacters": 0,
+    "listedContinuations": 0,
+    "status": "missing_body",
+    "reason": "No nonempty cached text recorded. Acquisition held; no current municipal request attempted."
+  },
+  {
+    "sourceId": "30db86856627d4ca1f625b71",
+    "municipalityCode": "34431",
+    "declaredCharacters": 0,
+    "exportedCharacters": 0,
+    "listedContinuations": 0,
+    "status": "missing_body",
+    "reason": "No nonempty cached text recorded. Acquisition held; no current municipal request attempted."
+  },
+  {
+    "sourceId": "1b487313f36642d8416bb8ba",
+    "municipalityCode": "34307",
+    "declaredCharacters": 0,
+    "exportedCharacters": 0,
+    "listedContinuations": 0,
+    "status": "missing_body",
+    "reason": "No nonempty cached text recorded. Acquisition held; no current municipal request attempted."
+  },
+  {
+    "sourceId": "3b7bcc5bf438c38595c122d2",
+    "municipalityCode": "34213",
+    "declaredCharacters": 200262,
+    "exportedCharacters": 120000,
+    "listedContinuations": 0,
+    "status": "verified_prefix_requires_bounded_review",
+    "prefixSha256": "1865730246d7df6ceee75b3908fb3a11e478e3ba976b933e30b28e4fe71103b5",
+    "availableAssets": [
+      "documents/3b7bcc5bf438c38595c122d2.json"
+    ],
+    "reason": "Verified saved prefix, not full book. No listed continuation or other local document part. Review complete sheets only when this municipality is reached; no refetch."
+  },
+  {
+    "sourceId": "1a50b0c38ed8dbabae1fdf68",
+    "municipalityCode": "34209",
+    "declaredCharacters": 465533,
+    "exportedCharacters": 120000,
+    "listedContinuations": 0,
+    "status": "verified_prefix_requires_bounded_review",
+    "prefixSha256": "67f7daaab71f9974d8156028cde49a7dd452504e7a925ec5f0849c6a9e5b67af",
+    "availableAssets": [
+      "documents/1a50b0c38ed8dbabae1fdf68.json"
+    ],
+    "reason": "Verified saved prefix, not full book. No listed continuation or other local document part. Review complete sheets only when this municipality is reached; no refetch."
+  },
+  {
+    "sourceId": "425dfd2bf20fc5a50a6e21ef",
+    "municipalityCode": "34205",
+    "declaredCharacters": 0,
+    "exportedCharacters": 0,
+    "listedContinuations": 0,
+    "status": "missing_body",
+    "reason": "No nonempty cached text recorded. Acquisition held; no current municipal request attempted."
+  },
+  {
+    "sourceId": "d93bf03b7d294e3d27c077e7",
+    "municipalityCode": "34205",
+    "declaredCharacters": 0,
+    "exportedCharacters": 0,
+    "listedContinuations": 0,
+    "status": "missing_body",
+    "reason": "No nonempty cached text recorded. Acquisition held; no current municipal request attempted."
+  },
+  {
+    "sourceId": "ba1bcb49d89c14e4fcdda5a4",
+    "municipalityCode": "34205",
+    "declaredCharacters": 0,
+    "exportedCharacters": 0,
+    "listedContinuations": 0,
+    "status": "missing_body",
+    "reason": "No nonempty cached text recorded. Acquisition held; no current municipal request attempted."
+  },
+  {
+    "sourceId": "1cd33611e51e9f829600384a",
+    "municipalityCode": "34205",
+    "declaredCharacters": 0,
+    "exportedCharacters": 0,
+    "listedContinuations": 0,
+    "status": "missing_body",
+    "reason": "No nonempty cached text recorded. Acquisition held; no current municipal request attempted."
+  },
+  {
+    "sourceId": "255f50eb4661d6bbd626b10b",
+    "municipalityCode": "34205",
+    "declaredCharacters": 0,
+    "exportedCharacters": 0,
+    "listedContinuations": 0,
+    "status": "missing_body",
+    "reason": "No nonempty cached text recorded. Acquisition held; no current municipal request attempted."
+  },
+  {
+    "sourceId": "62e3d79d656b77f0a4e7fc80",
+    "municipalityCode": "34205",
+    "declaredCharacters": 0,
+    "exportedCharacters": 0,
+    "listedContinuations": 0,
+    "status": "missing_body",
+    "reason": "No nonempty cached text recorded. Acquisition held; no current municipal request attempted."
+  },
+  {
+    "sourceId": "bbcf3871a0e626b83c1cf27d",
+    "municipalityCode": "34204",
+    "declaredCharacters": 0,
+    "exportedCharacters": 0,
+    "listedContinuations": 0,
+    "status": "missing_body",
+    "reason": "No nonempty cached text recorded. Acquisition held; no current municipal request attempted."
+  },
+  {
+    "sourceId": "0bb860946805609b9e3d9436",
+    "municipalityCode": "34203",
+    "declaredCharacters": 0,
+    "exportedCharacters": 0,
+    "listedContinuations": 0,
+    "status": "missing_body",
+    "reason": "No nonempty cached text recorded. Acquisition held; no current municipal request attempted."
+  },
+  {
+    "sourceId": "163518ab5e763cc2bc90ddd4",
+    "municipalityCode": "34203",
+    "declaredCharacters": 0,
+    "exportedCharacters": 0,
+    "listedContinuations": 0,
+    "status": "missing_body",
+    "reason": "No nonempty cached text recorded. Acquisition held; no current municipal request attempted."
+  },
+  {
+    "sourceId": "5bf31f5329c96f144ea3c8e6",
+    "municipalityCode": "34203",
+    "declaredCharacters": 0,
+    "exportedCharacters": 0,
+    "listedContinuations": 0,
+    "status": "missing_body",
+    "reason": "No nonempty cached text recorded. Acquisition held; no current municipal request attempted."
+  },
+  {
+    "sourceId": "400cae5df52ad34a2da37c89",
+    "municipalityCode": "34203",
+    "declaredCharacters": 0,
+    "exportedCharacters": 0,
+    "listedContinuations": 0,
+    "status": "missing_body",
+    "reason": "No nonempty cached text recorded. Acquisition held; no current municipal request attempted."
+  },
+  {
+    "sourceId": "3eae62161990ea780a7e39f3",
+    "municipalityCode": "34203",
+    "declaredCharacters": 0,
+    "exportedCharacters": 0,
+    "listedContinuations": 0,
+    "status": "missing_body",
+    "reason": "No nonempty cached text recorded. Acquisition held; no current municipal request attempted."
+  },
+  {
+    "sourceId": "c0b68afe6b511f08a453c47a",
+    "municipalityCode": "34203",
+    "declaredCharacters": 0,
+    "exportedCharacters": 0,
+    "listedContinuations": 0,
+    "status": "missing_body",
+    "reason": "No nonempty cached text recorded. Acquisition held; no current municipal request attempted."
+  },
+  {
+    "sourceId": "1d51f4abc136b7e746266d7c",
+    "municipalityCode": "34203",
+    "declaredCharacters": 0,
+    "exportedCharacters": 0,
+    "listedContinuations": 0,
+    "status": "missing_body",
+    "reason": "No nonempty cached text recorded. Acquisition held; no current municipal request attempted."
+  }
+]

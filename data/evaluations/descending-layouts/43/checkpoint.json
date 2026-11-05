@@ -1,0 +1,63 @@
+{
+  "phase": "bounded_source_review_complete_validated",
+  "observedMaster": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "cohortMunicipalities": 44,
+  "descendingRange": [
+    "43531 苓北町",
+    "43100 熊本市"
+  ],
+  "excludedMunicipality": "43212 上天草市",
+  "globalRecentMasterExclusions": 53,
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "productionChanges": 0,
+  "municipalRequests": 0,
+  "externalWrites": 0,
+  "initial115ReviewArchive": "/workspace/descending-layouts-20261101/kumamoto-first-review-115",
+  "reviewCorrections": [
+    "Yamae website renewal is explicitly FY2023; FY2024 is maintenance/operation.",
+    "Mashiki utility-subsidy execution end extends into FY2025; operating-cost year alone is insufficient."
+  ],
+  "currentSummary": {
+    "cohort": "43",
+    "municipalities": 44,
+    "sources": 226,
+    "hashVerifiedBodies": 196,
+    "continuationParts": 4,
+    "candidateRecords": 1328,
+    "candidateMunicipalities": 21,
+    "duplicateOutputs": 604,
+    "heldOutputs": 0,
+    "productionRecordsAdded": 0,
+    "existingFieldsChanged": 0,
+    "municipalRequests": 0,
+    "layoutReviewedUnits": 1799,
+    "layoutActionableUnits": 0,
+    "layoutHeldUnits": 297,
+    "statuses": {
+      "navigation": 63,
+      "duplicate": 55,
+      "reviewed_literal_businesses": 37,
+      "processed": 41,
+      "missing_body": 30
+    }
+  },
+  "remaining": "All 115 formerly unsupported sources reviewed. 30 missing bodies and 297 explicit identity/period/duplicate/policy units remain held; 0 actionable layout units in this bounded source cohort. No claim of national completion.",
+  "validation": {
+    "focusedTests": "13/13",
+    "independentCandidates": 4163,
+    "independentEvidence": 9631,
+    "typecheck": "passed",
+    "webTests": "256/256",
+    "lint": "passed",
+    "national": "passed",
+    "subpathStaticBuild": "109 pages passed",
+    "crawlerFullSuite": "413/413 passed; 611615 ms"
+  },
+  "preservation": {
+    "priorCandidatesUnchanged": 1123,
+    "newCandidates": 205,
+    "existingFieldEnrichment": 0
+  },
+  "validatedCodeHead": "c3927dc63a806ecb9bccae0311f3c42790966752"
+}

@@ -1,0 +1,52 @@
+{
+  "status": "OPEN Okayama cached review;1046 validated isolated candidates",
+  "base": "c5e7ef08f5cb3d24dbfdb06ae38c3c1798f57ad5",
+  "candidateRecords": 1046,
+  "candidateMunicipalities": 7,
+  "municipalities": [
+    "吉備中央町",
+    "久米南町",
+    "西粟倉村",
+    "勝央町",
+    "矢掛町",
+    "早島町",
+    "浅口市"
+  ],
+  "cumulativeCandidates": 13514,
+  "cumulativeQuotes": 33511,
+  "cumulativeExcludes": [
+    "Okinawa1084",
+    "initial93"
+  ],
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0,
+  "externalWrites": 0,
+  "tests": {
+    "focused": "18/18",
+    "crawler": "558/558",
+    "web": "256/256",
+    "typecheck": "pass",
+    "lint": "pass with existing font warning",
+    "national": "500 municipalities/92038 records unchanged",
+    "static": "109 pages at/local_gov_vis;temporary font option restored",
+    "quotes": "33511 exact quotes across13514 candidates"
+  },
+  "inventory": {
+    "sources": 193,
+    "completeBodies": 178,
+    "verifiedPrefixes": 1,
+    "missingBodies": 14,
+    "mappedSourceConfigs": 58
+  },
+  "remaining": "Further source-specific proposals are saved separately; Asakuchi lower-code sources remain under review. Missing bodies and all acquisition holds remain. Not nationwide completion.",
+  "gates": "53 master exclusions maintained;unpublished user changes unobservable;no acquisition until complete stop ledger/six original manifests;no publication authority",
+  "newInThisIncrement": 261,
+  "externalUnacceptedProposals": 86,
+  "old310DeepIdentical": true,
+  "initial205Disposition": {
+    "retained": 204,
+    "excludedUnheldLeague": 1
+  },
+  "old785DeepIdentical": true
+}

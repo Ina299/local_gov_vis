@@ -1,0 +1,136 @@
+{
+  "prefecture": "42",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-01T12:56:26.341310+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "42411",
+      "municipalityName": "新上五島町",
+      "datasetSha256": "2c8104849b5c27c099230b672239fa7d7a3ebda2693b72c4b8de6f20af3f86c4",
+      "evidenceShardSha256": "dc1999dc3aafdf4041d4f9bdad28f9daa288ca81a644cbe8843c7bc173fe4237"
+    },
+    {
+      "municipalityCode": "42391",
+      "municipalityName": "佐々町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b26f4217174e594b3004c247ffa50db1af241f4116def1b0f9f458312aa48dac"
+    },
+    {
+      "municipalityCode": "42383",
+      "municipalityName": "小値賀町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "99c390acc35e4d0ff175b1c8ac83417adc35f03a02dfc4172d06b0edba0e103c"
+    },
+    {
+      "municipalityCode": "42323",
+      "municipalityName": "波佐見町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b5f256069efa336a6d6348fd009254aff2bf44fed4ce2980394c5c2352b77f09"
+    },
+    {
+      "municipalityCode": "42322",
+      "municipalityName": "川棚町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "735522d83168beec57ee28f60f88215aa0ce3679be653ca32a7932fd69ffe75b"
+    },
+    {
+      "municipalityCode": "42321",
+      "municipalityName": "東彼杵町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "79c45daed10dee8be5f4268d7bac18640af546c145dd41423b3e2fac3e75f66e"
+    },
+    {
+      "municipalityCode": "42308",
+      "municipalityName": "時津町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a55499fbbd97593dbeb6dc324f1b7427b849b91e39d5376f3beb5cc623b718b3"
+    },
+    {
+      "municipalityCode": "42307",
+      "municipalityName": "長与町",
+      "datasetSha256": "b986860a692a027f4bd38733a93b9aba4d65f5a036b94f3b782aebe272d9b5e5",
+      "evidenceShardSha256": "48c2decaa7fa6bc24bcdd3dc79eb38139c36ae1caba1abaaca8ee3bea577d594"
+    },
+    {
+      "municipalityCode": "42214",
+      "municipalityName": "南島原市",
+      "datasetSha256": "b24c8a4ce584cccb65e1b288dd79f97dbb5bd5ad8fe381423fc67b78f8918096",
+      "evidenceShardSha256": "051b8e284b84147e284912202c91f816d5ae82552608fa4a8f778fcfd5129988"
+    },
+    {
+      "municipalityCode": "42213",
+      "municipalityName": "雲仙市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "4efb905a782f02a2b194613d9c1e68f324123a3625cd0e7a171d7f677bea00ed"
+    },
+    {
+      "municipalityCode": "42212",
+      "municipalityName": "西海市",
+      "datasetSha256": "acc170a2e06cfb46e3f3994a521bde0aec17163244b1ee72af91500fc04cc91a",
+      "evidenceShardSha256": "9d2458d25fca9d5c4e312355ed4e24c8975bfe6d0baef9dc1f985d4b2f7fa617"
+    },
+    {
+      "municipalityCode": "42211",
+      "municipalityName": "五島市",
+      "datasetSha256": "89ee7eddec82c618f25b329ac7542a152902a6112807b6b05b456309570b71ee",
+      "evidenceShardSha256": "77789d826e353f152cdfa056128839ea904f60ef131701d4385e6afbbf858eaa"
+    },
+    {
+      "municipalityCode": "42210",
+      "municipalityName": "壱岐市",
+      "datasetSha256": "1cf468cf4096e1c570732f635971e3969544edb0b31f99e178c1c5f4c4b9f538",
+      "evidenceShardSha256": "539bcce0437644c680e09322236706283f92b51704e1abc295caace06ea5d7a7"
+    },
+    {
+      "municipalityCode": "42209",
+      "municipalityName": "対馬市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "eb9fa35fe3e2e349203d2a7996d9cf74a50bae96401f3ca705ed8636fdd731da"
+    },
+    {
+      "municipalityCode": "42208",
+      "municipalityName": "松浦市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c82e149d59f77a15921b42105a8c6099e4bab6938a0a81dc6d12a0ebb5776fb2"
+    },
+    {
+      "municipalityCode": "42207",
+      "municipalityName": "平戸市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6f581393bc358b441b051ef22da789c2e8eb8fef685eebe6bbbcb1ac5ebc0181"
+    },
+    {
+      "municipalityCode": "42205",
+      "municipalityName": "大村市",
+      "datasetSha256": "51b2955bd8dd23ed7d63aeb66da00ebe9f5960092fa66b4e3caf96c5a93c6ff3",
+      "evidenceShardSha256": "3875563ba2d7e8a33d11934068c68edda44f8edb88c4bcbfff6568b83e63547c"
+    },
+    {
+      "municipalityCode": "42204",
+      "municipalityName": "諫早市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c230cb42931024f6089f1340f1653fc526b83ea51162698fb117fe3004027946"
+    },
+    {
+      "municipalityCode": "42203",
+      "municipalityName": "島原市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "daa76fe1406b3e8c5113117aa2d1d0daa618e7f3074b4443e8b6474eb61dad0e"
+    },
+    {
+      "municipalityCode": "42202",
+      "municipalityName": "佐世保市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a7b930d1359266a08d96883156aa0a28a0d32f3d1bbe856c0bf40c33796ad90e"
+    },
+    {
+      "municipalityCode": "42201",
+      "municipalityName": "長崎市",
+      "datasetSha256": "23ac28f7798c693518406023dc108cc60d4762060afef3dff579a4f674d5dfeb",
+      "evidenceShardSha256": "54b09fbf8230d78b865b96a8269baa73bc3257248c560c8319d079d657960aab"
+    }
+  ],
+  "skipped": []
+}

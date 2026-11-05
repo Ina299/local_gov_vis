@@ -1,0 +1,383 @@
+[
+  {
+    "sourceId": "ef18c74ae01e8b6876cce426",
+    "name": "議会運営事業",
+    "existingIds": [
+      "cached-37207-3bf6a338c0fc54b27528a7b8"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "e432abccbf28a5611ac98889",
+    "name": "職員研修事業",
+    "existingIds": [
+      "cached-37207-0fd776c8d98fc16aa3cac249"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "0581faa7b327103ab42b92cd",
+    "name": "選挙啓発にかかる事業",
+    "existingIds": [
+      "cached-37207-69075ac7eb267de154e130b3"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "1d6c4824ad20edabff5556b1",
+    "name": "公有地の民間活用推進事業",
+    "existingIds": [
+      "cached-37207-1fb6af0401acea722571ae56"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "53277825523b6c844c465bc8",
+    "name": "官民連携推進事業",
+    "existingIds": [
+      "cached-37207-a21db78c098390c5ea5bcccf"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "70bf348cfa7ce8e610d0456e",
+    "name": "ローカルスタートアップ支援事業",
+    "existingIds": [
+      "cached-37207-f1e91bfef03e0a3bbc919ca6"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "0bada6355b1c7399916d18cd",
+    "name": "観光推進事業・シティプロモーション事業",
+    "status": "missing_exact_annual_record_candidate",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "201db1689c09793f24ef946f",
+    "name": "地域公共交通事業",
+    "existingIds": [
+      "cached-37207-f368895ab3bb079914fd2816"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "38980834b83ae28a8853553f",
+    "name": "企業立地促進事業",
+    "existingIds": [
+      "cached-37207-4e17b31da95f3869bcdc8b7c"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "97d7c65d915fa0d25990000e",
+    "name": "自主防災組織等育成事業（自助・共助力の強化）",
+    "existingIds": [
+      "cached-37207-45229271f63baab5709f1cf2"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "bf11a1ccf35254e2f03f89db",
+    "name": "賦課徴収事業（前納報奨金）",
+    "existingIds": [
+      "cached-37207-35c5e8b0bd8b8ca41db10535"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "f8a3ac57b306ebea80a21c08",
+    "name": "人権啓発活動事業",
+    "existingIds": [
+      "cached-37207-c4200425c1553a144a620edd"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "66c6bbcdd037e95ffbafe8c1",
+    "name": "隣保館事業",
+    "existingIds": [
+      "cached-37207-f4205593691cef9589fb6516"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "4c2c974649c993862f7602d9",
+    "name": "住民票・印鑑登録証明コンビニ交付サービス事業",
+    "existingIds": [
+      "cached-37207-0e1ca0a3c0dfb38ceb341fc6"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "0b74d1ad3cf43ce14e873c88",
+    "name": "福祉バス運行事業",
+    "existingIds": [
+      "cached-37207-f80a83aa8c9af5e6dd611d3a"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "fa1da31c7d5ef9c16ad7fe5b",
+    "name": "生活保護受給者に対する自立支援事業",
+    "existingIds": [
+      "cached-37207-4455dab94add91595bc2fec6"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "754ffb042cf44f9015f69533",
+    "name": "ワクワク子育て応援事業",
+    "existingIds": [
+      "cached-37207-70b44829baefd697778df742"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "cdcdc56839ff16ddd8167040",
+    "name": "地域介護予防活動支援事業（地域ふれあい事業）",
+    "existingIds": [
+      "cached-37207-875618b3bde8701e3b29f38b"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "50dfc741cc4145d6640c82e9",
+    "name": "介護人材確保対策事業",
+    "existingIds": [
+      "cached-37207-1e39eed4507e02a86a52b192"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "4fc282f0492ecf9cede049c6",
+    "name": "クリーンエネルギー設備等支援事業",
+    "existingIds": [
+      "cached-37207-8d74dc6b83419d174476189b"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "36e8d7badcfaeac8e7cf77d7",
+    "name": "有害鳥獣等被害防止対策事業",
+    "existingIds": [
+      "cached-37207-ffe33163aae94c772706e6ef"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "19a1796aaec17d19de176cf4",
+    "name": "農業担い手育成事業",
+    "existingIds": [
+      "cached-37207-bdd2b2f1a1525a8219b80b26"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "1f194655ca08f1900981ba3c",
+    "name": "農地集積集約事業（耕作放棄地対策事業）",
+    "existingIds": [
+      "cached-37207-9a978953247a272fc4b38eda"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "2c772f5d921ffd55282d5f00",
+    "name": "ため池点検調査事業（市単独補助事業）",
+    "existingIds": [
+      "cached-37207-736633b10dafa21ed1fd7396"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "19fafe311f73606f1575f155",
+    "name": "工事監察事業",
+    "existingIds": [
+      "cached-37207-ca4a4db8539035b9da67eae8"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "3ad32411f7b6c05cd020020c",
+    "name": "市道維持修繕事業",
+    "existingIds": [
+      "cached-37207-96c396ca59c3a128b47d326c"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "1a6c6457516f8d82afde0a7c",
+    "name": "道路愛護報奨金交付事業",
+    "existingIds": [
+      "cached-37207-2eb4ab72c70ac2d762e418ff"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "a8cc04de4ac33c789b73cfba",
+    "name": "定住化促進事業",
+    "existingIds": [
+      "cached-37207-f5071d751503c7e2ea9400d6"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "789eb3b900c15bd026ff1711",
+    "name": "老朽危険空き家除却支援事業",
+    "existingIds": [
+      "cached-37207-db27b2e6d570794175f148d0"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "e919f833e1caf7bc3ea49596",
+    "name": "テレワーク等空き家改修事業",
+    "existingIds": [
+      "cached-37207-ca58353d86a22f69b9408dcd"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "3a87b6718d6b4a7ec958680a",
+    "name": "結婚新生活支援事業",
+    "existingIds": [
+      "cached-37207-1b1e2c731b6b4bb1555655cc"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "f175b71a713f73c7f37b3261",
+    "name": "行政監査事業",
+    "status": "missing_exact_annual_record_candidate",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "b95a6929c87cbdf4bd822e11",
+    "name": "非認知能力向上事業",
+    "existingIds": [
+      "cached-37207-6302d58a081a04171297d72b"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "1196bbc41decbfcb0bb9d17a",
+    "name": "キャリア教育推進事業",
+    "existingIds": [
+      "cached-37207-e802e4eb9e0c5f17c096ae58"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "6b302f95908c0ca7c8484991",
+    "name": "ICT教育推進事業",
+    "existingIds": [
+      "cached-37207-3da3f7a141e6fdde6a3cff5d"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "3cec5e9d63b126ea0fb11e5f",
+    "name": "地産地消推進事業",
+    "existingIds": [
+      "cached-37207-d11b1c91ef60f0060d9c5d16"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "ace1c492c0fa0969df9a0f13",
+    "name": "引田城跡保存活用事業",
+    "existingIds": [
+      "cached-37207-2ab92fd7e50b97bfe408fa59"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "a4be89bfda4c66b88929ee9e",
+    "name": "生涯学習課所管施設での放置自動車解消事業",
+    "existingIds": [
+      "cached-37207-964b7d7ced6eb3dd4a266cdc"
+    ],
+    "fullBook": "3f1cea6b6be2b03c48b0fdde",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  },
+  {
+    "sourceId": "66052d95472f1b8d27bbcafa",
+    "name": "ファミリー・サポート・センター事業",
+    "status": "missing_exact_annual_record_candidate",
+    "normalizedContained": true,
+    "datasetSha256": "b568502e0422e997431b16a05889094b261c02dee0bd902dda9b89997203d9d8"
+  }
+]

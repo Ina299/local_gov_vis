@@ -1,0 +1,272 @@
+{
+  "prefecture": "08",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-01T13:00:55.811514+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "08564",
+      "municipalityName": "利根町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "4d2ffa7a0152cd2e1762169e487fae0e53ce1ebb982b98315062746aa644e54d"
+    },
+    {
+      "municipalityCode": "08546",
+      "municipalityName": "境町",
+      "datasetSha256": "d1e77c22fe1b32b8d407139caa54e87ecc74e301c0181517481fecd9f3a7406d",
+      "evidenceShardSha256": "45c223e46ed6852123493246941cd0029ac0d71b9bc5c19d249b3cba02cf51c9"
+    },
+    {
+      "municipalityCode": "08542",
+      "municipalityName": "五霞町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "58a6b82166c3c4f0683942bdc26776782232163bc29dd2b47819b00d55492f51"
+    },
+    {
+      "municipalityCode": "08521",
+      "municipalityName": "八千代町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "90a6e7de530691830526dc9f50b27691686cbad445b10919f0ee1e80ceb5735b"
+    },
+    {
+      "municipalityCode": "08447",
+      "municipalityName": "河内町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "8dac399f39421014a89b47d3c71cb34e19a728a3962ab913a77891fb83e55ef5"
+    },
+    {
+      "municipalityCode": "08443",
+      "municipalityName": "阿見町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "2783d23501956c0b2e9ec9cc09b141af5b54cc43f211cc4c8b57a29b284aa39b"
+    },
+    {
+      "municipalityCode": "08442",
+      "municipalityName": "美浦村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "27b0b5652480352c5ddaeadc1a7d9af693526f40f4953d657a374ee6200257f6"
+    },
+    {
+      "municipalityCode": "08364",
+      "municipalityName": "大子町",
+      "datasetSha256": "ad8587fa95d7eb43080ba7efe44c168959edd6d7950e7372a1f994fd86f3a021",
+      "evidenceShardSha256": "c2574e17b07f2a6023557593abf375c14c818d04e052ad160bab034491eaa92f"
+    },
+    {
+      "municipalityCode": "08341",
+      "municipalityName": "東海村",
+      "datasetSha256": "2c924034693001b7708f20c9328b66bc93fc5b38be8cd9b573390409927b363c",
+      "evidenceShardSha256": "3ec84df580ec8b44480a72e755520499721c1fffd15f19b31bd11d186328e105"
+    },
+    {
+      "municipalityCode": "08310",
+      "municipalityName": "城里町",
+      "datasetSha256": "b7bcffc1e443434bce89660a4606018f1d733fc4b9eaf7412c79886ed653fa01",
+      "evidenceShardSha256": "0a314524d1a11c57fb26b37b77f7be9c81a1ca338bbd8e51e4389f2c258cd1ed"
+    },
+    {
+      "municipalityCode": "08309",
+      "municipalityName": "大洗町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b4837e047ce017f54b9216523eea0b1926668db5588c3d28f83867cd0121e6be"
+    },
+    {
+      "municipalityCode": "08302",
+      "municipalityName": "茨城町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d1e50fed59d21d2e6d4f1a943b3559f25283c08401bcde771a0f22f7e22de2a0"
+    },
+    {
+      "municipalityCode": "08236",
+      "municipalityName": "小美玉市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f0362c1918cbba8ecce7be91019a1d52c8a7a12187f8a3bec318f2270cbef39c"
+    },
+    {
+      "municipalityCode": "08235",
+      "municipalityName": "つくばみらい市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "026afbff4fad71c5c89c9d72501290f71fd86ac8152bb50beb42ecec8f161dd3"
+    },
+    {
+      "municipalityCode": "08234",
+      "municipalityName": "鉾田市",
+      "datasetSha256": "3aa4024d43f04be929cf4e3aa89fbcbf6a75c46b228c2365d3462bfef72127e6",
+      "evidenceShardSha256": "3fba2c9df6ce4af24ea7dbe080ab06f54fffaf0eb6a935f73b55b1b0ee261803"
+    },
+    {
+      "municipalityCode": "08233",
+      "municipalityName": "行方市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "5fcbd930aa29e55a8ace0f25f51a32458b9a7b3119ddc8c14162efeaccc6732a"
+    },
+    {
+      "municipalityCode": "08232",
+      "municipalityName": "神栖市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c9fabed212213ffcee7ddb7d634b320175f08c36d77a1bb07368d942642ed29b"
+    },
+    {
+      "municipalityCode": "08231",
+      "municipalityName": "桜川市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "41df720c967da78248f04cbcea40b942a8c397f3f49f1a2f61147c0492d87fc7"
+    },
+    {
+      "municipalityCode": "08230",
+      "municipalityName": "かすみがうら市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "57c8a265a41929374e5bedd5687ea4a369c0aa8324e6f2addf539f708e01d60f"
+    },
+    {
+      "municipalityCode": "08229",
+      "municipalityName": "稲敷市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "88b6adf17c773de7bc9144e9150fad2b0818dd95402abbd1652c03d42a8d9a7e"
+    },
+    {
+      "municipalityCode": "08228",
+      "municipalityName": "坂東市",
+      "datasetSha256": "d8d8d0f7de7b327e2b2b8db3ea60826e2a2684b8996d6365d984b4321f1f5c9a",
+      "evidenceShardSha256": "138c72fda50a428f74f5967c2eb3acba01efb7c0b8b52a8625e96f45baca6164"
+    },
+    {
+      "municipalityCode": "08227",
+      "municipalityName": "筑西市",
+      "datasetSha256": "d570d9de2c33719765e4b2fc1a1a1056a6294d7ca6799bd3146b1d92c53d9c8b",
+      "evidenceShardSha256": "171449442999d9abb1782c7c9c45a01210d4b0b5ecf127ef8f758f66e18c5822"
+    },
+    {
+      "municipalityCode": "08226",
+      "municipalityName": "那珂市",
+      "datasetSha256": "ead7f7f2587a1d632987b81140ebae6d44d55d03c4f7f9594f633408451fb65f",
+      "evidenceShardSha256": "3b3062225de4ea89b42d2b1e38209410f49a080cad423a18e77bd9f5c58ffb5d"
+    },
+    {
+      "municipalityCode": "08225",
+      "municipalityName": "常陸大宮市",
+      "datasetSha256": "1ce3c953f7e082f7324dc44df82655880a0137ba9f64e754bb83281a15295fbb",
+      "evidenceShardSha256": "5c7402d9d3f0c328cc824523bf5762dfaa57bfcbd6e02c6e8f40a9f0e20d1537"
+    },
+    {
+      "municipalityCode": "08224",
+      "municipalityName": "守谷市",
+      "datasetSha256": "c5c5a707f77e08d07eccaab1d04bab512a47950002884d986bbf841bc285e83f",
+      "evidenceShardSha256": "cc31871c3a26b684ff35bfb9e50138fd12ea57a06b0163ec4485d6a9d068a58b"
+    },
+    {
+      "municipalityCode": "08223",
+      "municipalityName": "潮来市",
+      "datasetSha256": "c02d0944ed0b3019130e830593e3ed9189446cbf7b7c312266a2c341e1af0820",
+      "evidenceShardSha256": "047b8c29d06e217112ed98b0c3d390ce079610f9002244195170351993050267"
+    },
+    {
+      "municipalityCode": "08222",
+      "municipalityName": "鹿嶋市",
+      "datasetSha256": "073438d27375cc67615c0971e2751417aca9842a6551b0977b110ca3278ba9b1",
+      "evidenceShardSha256": "9ec22f208513907ae5f299a4335a88d2a094353a14d80cb063fa95314f6a608f"
+    },
+    {
+      "municipalityCode": "08221",
+      "municipalityName": "ひたちなか市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "dc2d588c7babe8d483f9bfbc5925c2b37fb7c9df154cfc5b6a1fc98ea30cf166"
+    },
+    {
+      "municipalityCode": "08220",
+      "municipalityName": "つくば市",
+      "datasetSha256": "9fc80f6104d3af04dae2b924eef7da0d5fc3b740fe8ccd1cf6e0e119f170d87d",
+      "evidenceShardSha256": "0337e98f91e3070df2a59e525b367929da57fdd830cd2ad9e93cd9fa0274bcb7"
+    },
+    {
+      "municipalityCode": "08219",
+      "municipalityName": "牛久市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f1a7ef9140998106841d006824d0d5f8e819383e093b46ea3b93f56e3fe56770"
+    },
+    {
+      "municipalityCode": "08217",
+      "municipalityName": "取手市",
+      "datasetSha256": "82946c83b75dfd45052fd258a67b21c77cd4fb32f1d04725b691d0c6820c1b98",
+      "evidenceShardSha256": "3db25b3b0d7a00a262e8229ed12cb948699d57eee326040b1990d70e2d688236"
+    },
+    {
+      "municipalityCode": "08216",
+      "municipalityName": "笠間市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ecb8eaf14f14b499c3217053128e73b171573240240566c1306c195852513c66"
+    },
+    {
+      "municipalityCode": "08215",
+      "municipalityName": "北茨城市",
+      "datasetSha256": "5440bff2688e5a77c7f23f6909004bd6ad586673268f823bb6f883824b700e6d",
+      "evidenceShardSha256": "5bfdbd2ea21ddf7106841596a1c5fd65318a0609dcaf916329153d1767a1a2b9"
+    },
+    {
+      "municipalityCode": "08214",
+      "municipalityName": "高萩市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3fd6fff311ce03473f2012e58751b3cf549fdf3e3aa54a5aea4ec3868fd72e61"
+    },
+    {
+      "municipalityCode": "08212",
+      "municipalityName": "常陸太田市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e3c07edce1bc3c80a9eff70024457ec3a9dda725da19fe3d78559e2bffb16c11"
+    },
+    {
+      "municipalityCode": "08208",
+      "municipalityName": "龍ケ崎市",
+      "datasetSha256": "b68ead5bcc58645d924858ba46d0b919af1ffbdff48969aa0dfb4263f41e1cf1",
+      "evidenceShardSha256": "915db2217e8ae16a75896cec723a1b26eca63fb1f505a2909ecab0a914e86102"
+    },
+    {
+      "municipalityCode": "08207",
+      "municipalityName": "結城市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7c02d03c30ac25415e79467d0b25eb5f90bde802e56265ac99a7771db720cf9e"
+    },
+    {
+      "municipalityCode": "08204",
+      "municipalityName": "古河市",
+      "datasetSha256": "df77b969cca88b88596a07d3b54da1f93063e5f690fcc3c77a818197d4b0dfb4",
+      "evidenceShardSha256": "b9091022e8bf1cb8543139f003684faf8ea47a19f8dd0013f878cbe0d2d1d891"
+    },
+    {
+      "municipalityCode": "08203",
+      "municipalityName": "土浦市",
+      "datasetSha256": "93a87bdf3c231f71a9d6ac914ce3aeb0eba7d92512983ed7d7d00c8ebba03c38",
+      "evidenceShardSha256": "e5fc2ce9bff5a19957ecf8ca271414f894e9894d9d92005abd6d6cea28c167bf"
+    },
+    {
+      "municipalityCode": "08202",
+      "municipalityName": "日立市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d820f0345782ec7fd4a9958d3524eeac65457fe2441fe8f766b7382d26ebba72"
+    },
+    {
+      "municipalityCode": "08201",
+      "municipalityName": "水戸市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a4c9ad18b4d562d19e199831cdcff135a74734ba7879753236e1a93350a7f6cf"
+    }
+  ],
+  "skipped": [
+    {
+      "municipalityCode": "08205",
+      "municipalityName": "石岡市",
+      "reason": "Recent master dataset differs from common baseline"
+    },
+    {
+      "municipalityCode": "08210",
+      "municipalityName": "下妻市",
+      "reason": "Recent master dataset differs from common baseline"
+    },
+    {
+      "municipalityCode": "08211",
+      "municipalityName": "常総市",
+      "reason": "Recent master dataset differs from common baseline"
+    }
+  ]
+}

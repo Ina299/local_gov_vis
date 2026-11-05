@@ -1,0 +1,244 @@
+{
+  "prefecture": "29",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-01T12:57:45.533760+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "29453",
+      "municipalityName": "東吉野村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "84003d6397be2c3e0b6cb9f6faffa1f07dbe9e2e0cd12c35b60daca75824b5c3"
+    },
+    {
+      "municipalityCode": "29452",
+      "municipalityName": "川上村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3308c2bd94b8cbad9c9fd77b70927cc43b74f4607ac3e1b41f13821bc56751d4"
+    },
+    {
+      "municipalityCode": "29451",
+      "municipalityName": "上北山村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "bfffcf30d728c23e95ea4e6e722a818712872ce2039b8218e8bec470682d1bdc"
+    },
+    {
+      "municipalityCode": "29450",
+      "municipalityName": "下北山村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c01514e5932185fef5d426c4936687ec339da603ae039028d5ebf4fda81f73e7"
+    },
+    {
+      "municipalityCode": "29449",
+      "municipalityName": "十津川村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "09bd4fbbe450b6cdfcc946061d852e563c5ba2bc6e5dd5b6e857fc0001089795"
+    },
+    {
+      "municipalityCode": "29447",
+      "municipalityName": "野迫川村",
+      "datasetSha256": "1988d87fde6935a925831f8e2b0a5b62cfb69accdb867beeb401b11dca7e743d",
+      "evidenceShardSha256": "15603efc9bba394bed1f71ebb80ab68050f02200f78375023e842fb482998ee9"
+    },
+    {
+      "municipalityCode": "29446",
+      "municipalityName": "天川村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "dc8c1b1ac195021c2c3eebcc9560cf47d96cee023d524ce27d4cff830154f243"
+    },
+    {
+      "municipalityCode": "29444",
+      "municipalityName": "黒滝村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "06985f9c1b989b13b16a74d352b32aeebf74d200075515ef2162f196a3f3af89"
+    },
+    {
+      "municipalityCode": "29443",
+      "municipalityName": "下市町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "073914f08ee3ec84f74e26b4eea332a06b48ddfda52bf3d3dd0dff8ffcd1dffb"
+    },
+    {
+      "municipalityCode": "29442",
+      "municipalityName": "大淀町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6b1ca5e9b7df6d28a065f49ea92614defffc0e9761e8af78aabd18f032d19f79"
+    },
+    {
+      "municipalityCode": "29441",
+      "municipalityName": "吉野町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "2d39f5786e85828be82b63210351655d0605d63387ae60a60b6e7a3526b9fc81"
+    },
+    {
+      "municipalityCode": "29427",
+      "municipalityName": "河合町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e9cadac36c218ade4154e5a70733b6e09a7a12d4dfdb69beac47e8edfd60e756"
+    },
+    {
+      "municipalityCode": "29426",
+      "municipalityName": "広陵町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "df7bcfd59ed1e7880eab2bf8189aa715c788ac367353d709ece3f5234dc4b17a"
+    },
+    {
+      "municipalityCode": "29425",
+      "municipalityName": "王寺町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "8bf4930763a2e727693f2bab1fd8ddb5bd1ebd68e67d21199c196bbeffc3cbf9"
+    },
+    {
+      "municipalityCode": "29424",
+      "municipalityName": "上牧町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f8ae2a28ddb3004208ef95ed8e3acb46fb0af491c2f5b7c724dbb4d5dc841703"
+    },
+    {
+      "municipalityCode": "29402",
+      "municipalityName": "明日香村",
+      "datasetSha256": "eebf692b00e5f1012a9cce65049ac917bb3d61db246bfb0a546713b83c51259d",
+      "evidenceShardSha256": "ad87a76242d99156ba1de4118a2893b1c632b015fe11ae8ea6110070c122cfed"
+    },
+    {
+      "municipalityCode": "29401",
+      "municipalityName": "高取町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7d7e62a7bc362347c4230b076a29c46d3fb508cc68b9bbebbd08c9eab8e326aa"
+    },
+    {
+      "municipalityCode": "29386",
+      "municipalityName": "御杖村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "1ddec734bfffa71af173a27a2d3451876a29de10f29c21571b0662eda88eda44"
+    },
+    {
+      "municipalityCode": "29385",
+      "municipalityName": "曽爾村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b079ddb1a5192566f32997c893682cf6b902ec72f8943066ddb19c1c1d77156f"
+    },
+    {
+      "municipalityCode": "29363",
+      "municipalityName": "田原本町",
+      "datasetSha256": "564e22e40bfb10ea388cc6571020da3815526b3ca2757a6110fafec20d32d161",
+      "evidenceShardSha256": "87ca847b23aff59f997e1bb2ea82f8e87ac75fb69a8f8db99906a7d028df546e"
+    },
+    {
+      "municipalityCode": "29362",
+      "municipalityName": "三宅町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "26f339841f84f01fc3f67307de20683815e6bf156d5f960e86732be3555aa59d"
+    },
+    {
+      "municipalityCode": "29361",
+      "municipalityName": "川西町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f1f32d1bc939c2569fcf8d6919b41eda24dca6ae53cf6a691b2d8e3182e3fd92"
+    },
+    {
+      "municipalityCode": "29345",
+      "municipalityName": "安堵町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "8e4c08331eed5edc288ddfc438a281e963c1e07509de9eb015c26fabfd26b43f"
+    },
+    {
+      "municipalityCode": "29344",
+      "municipalityName": "斑鳩町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "82970f4907b0ed505a1b345c86060163df227429ded227ea1f1ea8ae5525d4ce"
+    },
+    {
+      "municipalityCode": "29343",
+      "municipalityName": "三郷町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "4a6a4a3fbe9dfcb9613fad3bcce605fedd814230209e59f269d6cf39a4a8ed54"
+    },
+    {
+      "municipalityCode": "29342",
+      "municipalityName": "平群町",
+      "datasetSha256": "f778afc9b74790db3c911f3f7245e5284977b0c0529165e38a3103a00de48433",
+      "evidenceShardSha256": "f1ccbc809d1988380492ec4cb7a645ca5a39c59d23ee50c2bc505849d24627ff"
+    },
+    {
+      "municipalityCode": "29322",
+      "municipalityName": "山添村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6bf5db14a0e7d34c8249caa015b2a2e1d21539366f4c72f9e727403b0692b1f4"
+    },
+    {
+      "municipalityCode": "29212",
+      "municipalityName": "宇陀市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a1c284288516e2377532b84619bb4a4d950411759dafcf5b1de71ff734fc179f"
+    },
+    {
+      "municipalityCode": "29211",
+      "municipalityName": "葛城市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "0052a96e3a6948c8984cc55b0dbd343da0780a371e96ff970f5c5aadf58308b7"
+    },
+    {
+      "municipalityCode": "29210",
+      "municipalityName": "香芝市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "188107d7c58b23c170f4c2527252843bab93b2a13834699723da04c9014c4622"
+    },
+    {
+      "municipalityCode": "29209",
+      "municipalityName": "生駒市",
+      "datasetSha256": "1673197fa26bfaed311d43af0c83fa4cb7320e1982a922df65e7b2500688e043",
+      "evidenceShardSha256": "fdeeeec689c685df42a17103a89fadc7df72d7bdbc45af50504511626e13ae45"
+    },
+    {
+      "municipalityCode": "29208",
+      "municipalityName": "御所市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "1162b38faca1524f88e07be48fdb2d59e13045b8a718698831d21e79848ff284"
+    },
+    {
+      "municipalityCode": "29207",
+      "municipalityName": "五條市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "9fc4f606e989ea777b48117d2127e1a10c6eee6ea7ae1f5930985515c0f07272"
+    },
+    {
+      "municipalityCode": "29206",
+      "municipalityName": "桜井市",
+      "datasetSha256": "ebd73ccadb7d9ea6f14bf72f110665b5b169fa213afa613bc3f6801c2e0fcc4a",
+      "evidenceShardSha256": "0edbe65311956cc971443aa599bef2fde99ac8ca0cfe889831c3749927b5d6cf"
+    },
+    {
+      "municipalityCode": "29205",
+      "municipalityName": "橿原市",
+      "datasetSha256": "2f74062f6270a3213ebf5b46d7aa945b0a8da912d6756a2c6d1baad1de26d427",
+      "evidenceShardSha256": "5886282bb9ddc6476fa792217cec20e7b017d68a73c50bbba403f28614334a6d"
+    },
+    {
+      "municipalityCode": "29204",
+      "municipalityName": "天理市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a3261288e0af115db77cde7ed5bc3da4d692ff97e955cfdab1ccc6fcb62a96d6"
+    },
+    {
+      "municipalityCode": "29203",
+      "municipalityName": "大和郡山市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "2b15c00e3e8cf88e82201525e5c23e6a0acf8b8247607b97a878da68ed850973"
+    },
+    {
+      "municipalityCode": "29202",
+      "municipalityName": "大和高田市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "04bba2da94bc80456700c1446e3fcb73f21323f0ed4ceeccf7a46737fc20f9ee"
+    },
+    {
+      "municipalityCode": "29201",
+      "municipalityName": "奈良市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "290527cf2de5c9c3283985ebfebf0a8851d414c7f33c267124fadf5292f448a8"
+    }
+  ],
+  "skipped": []
+}

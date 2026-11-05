@@ -1,0 +1,255 @@
+{
+  "prefecture": "28",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-01T12:57:48.408295+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "28586",
+      "municipalityName": "新温泉町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d73fb5de57ec2b6d4d253001e0bef4772afea15fcccdf268a0679dfd63b1a169"
+    },
+    {
+      "municipalityCode": "28585",
+      "municipalityName": "香美町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "4ec9040a9c0d27ab75a2d13ede367ce5fb65e7e0be08be7fe6a4039258750892"
+    },
+    {
+      "municipalityCode": "28501",
+      "municipalityName": "佐用町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "050665372bd226586931b5aedb445894ce3912e7c7f2be61856266be33ea35ea"
+    },
+    {
+      "municipalityCode": "28481",
+      "municipalityName": "上郡町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3dbed023cd74cd4065b8f8e9df7dab37f42fe18003ae66102d2b262d7f6cabce"
+    },
+    {
+      "municipalityCode": "28464",
+      "municipalityName": "太子町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ba13820202195d113c3dd4eeb1edb0d445a4615db8887c6acf1ea6fe6c8d09b7"
+    },
+    {
+      "municipalityCode": "28446",
+      "municipalityName": "神河町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e2190f811248b3d1bacf268acd31872be53f2e9382ba96a7afa8a0ca2b896d2d"
+    },
+    {
+      "municipalityCode": "28443",
+      "municipalityName": "福崎町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d67095a78b3fcbe53d90dffe903e3ba76ccc932bc2376d445b53ccb343200d24"
+    },
+    {
+      "municipalityCode": "28442",
+      "municipalityName": "市川町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d6e0afb8532f69512d2fa31d1b1cf93024bf913f4da662164d404f8123bab903"
+    },
+    {
+      "municipalityCode": "28382",
+      "municipalityName": "播磨町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "bb57bc15ca395b2cea769471854319eda0b2c8ecbb8f85633d0176faae47324f"
+    },
+    {
+      "municipalityCode": "28381",
+      "municipalityName": "稲美町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c36891ee9b25aecaa154f38e842d68c7bf6ebef9594371a0d82609a2a7877b4d"
+    },
+    {
+      "municipalityCode": "28365",
+      "municipalityName": "多可町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "dc7b0fa48fa48c7991530ed6368a190623d1a71e6d7ee44bf508eb256068fd30"
+    },
+    {
+      "municipalityCode": "28301",
+      "municipalityName": "猪名川町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d52ba9300c9f4c7790bdd35d9bafb42e6c15c69a0a77aa0639aa7276d1686128"
+    },
+    {
+      "municipalityCode": "28229",
+      "municipalityName": "たつの市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e256c011788ab2f0822d71c9049514ef1f356c3674a84144478a006f2a9b7462"
+    },
+    {
+      "municipalityCode": "28228",
+      "municipalityName": "加東市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "435b0e613ce46c650d5b6aceb61d98c89cbf3657e6fde0418cc9af1fba9ce895"
+    },
+    {
+      "municipalityCode": "28227",
+      "municipalityName": "宍粟市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "20fe392701d34fe5fcd2ff51c91a2eb1b556344801dbf087f3897cf8e07ff13f"
+    },
+    {
+      "municipalityCode": "28226",
+      "municipalityName": "淡路市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7dfa95b916c524b4d94fedf5019a959d0b194fdfb262ac50f8f9a4739b570978"
+    },
+    {
+      "municipalityCode": "28225",
+      "municipalityName": "朝来市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "2741cc8c89d23d4ce9aa657ffcbed59e5320377ed6353ee85ad51cf56d9ef0d3"
+    },
+    {
+      "municipalityCode": "28224",
+      "municipalityName": "南あわじ市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "345490a8c080a3bae6a86ecef61ed29cc855609b24107b4b76b9e712aa5124dd"
+    },
+    {
+      "municipalityCode": "28223",
+      "municipalityName": "丹波市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d934e9a6a4853c1d17101973122921a4a50b42adf88c91f50823d02c43d308b1"
+    },
+    {
+      "municipalityCode": "28222",
+      "municipalityName": "養父市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "abc239d4410fa159c9e0242ca9ca9e43f32152038834ebda44622163fd87d8c7"
+    },
+    {
+      "municipalityCode": "28221",
+      "municipalityName": "丹波篠山市",
+      "datasetSha256": "86f69f581821f913354e6361901e51193e9800c3c1b75117f01ad23e28103070",
+      "evidenceShardSha256": "eeb16a02f0c2e26c89dc6d9cc2411d1d4b0c335a00e5658abfed5a4228412418"
+    },
+    {
+      "municipalityCode": "28220",
+      "municipalityName": "加西市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "610f7f2279217579e800a708de8e059313f1a76c577b872988801eaf1ddc471d"
+    },
+    {
+      "municipalityCode": "28219",
+      "municipalityName": "三田市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "4d9151ff184dc06da9f051598368a09d94d17ae821ea7f692ddda2712bec273c"
+    },
+    {
+      "municipalityCode": "28218",
+      "municipalityName": "小野市",
+      "datasetSha256": "e6bdd363be3e39f92d79c981fca7314ca7f73a83391cea26a5745611ef389343",
+      "evidenceShardSha256": "ef2a0b4bf33f5b24ec89568949ca37586b3c2edb0dca72af2ed3e108918ca7e0"
+    },
+    {
+      "municipalityCode": "28217",
+      "municipalityName": "川西市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "401d41805fc4b9aef69c39c1fea3332be70f181ad10b5740c605174f1ec77787"
+    },
+    {
+      "municipalityCode": "28216",
+      "municipalityName": "高砂市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3900bc638ad79aca15777760ef308e21c8830a1ca41e4ca66169302218243823"
+    },
+    {
+      "municipalityCode": "28215",
+      "municipalityName": "三木市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "39309bc8d4828c366a7f6ae5307fb1c475b8832bfc36a961836fef6c4af4f43a"
+    },
+    {
+      "municipalityCode": "28214",
+      "municipalityName": "宝塚市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a985c4c98a57cd13fa456c6ecbd21f59438c0ce10f93e8f42985b191bb615769"
+    },
+    {
+      "municipalityCode": "28213",
+      "municipalityName": "西脇市",
+      "datasetSha256": "7f7a862ad884fe751065dc46afc10cf184f24ee00118f818eab4b75180b08e11",
+      "evidenceShardSha256": "f7e370bab5205e5adc084fa50c52fb5c2f9fcfaffe03b74885954a64dc02ed81"
+    },
+    {
+      "municipalityCode": "28212",
+      "municipalityName": "赤穂市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "33b50586b52b1c3030e86d66db055361b0f97c863acf21690ec25f548a6d5c6f"
+    },
+    {
+      "municipalityCode": "28210",
+      "municipalityName": "加古川市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ed7984d4367ee8cb7ec0e663d9939b1e2f526cd7aaa29515a022e7db4ce52ad4"
+    },
+    {
+      "municipalityCode": "28209",
+      "municipalityName": "豊岡市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "8f5cecb7547b668d1f866450c9b300121bd9668f7ed63cdc9dd152e7eed2245e"
+    },
+    {
+      "municipalityCode": "28208",
+      "municipalityName": "相生市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7b762ac65123749db288babd60b4f8c74e1776ce7256541446ed8ed7554506aa"
+    },
+    {
+      "municipalityCode": "28207",
+      "municipalityName": "伊丹市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3a106f3ce8a0712406d17feac775a4cd3e3d94ed4c1f5a57e4cb9e95f0ae1e8f"
+    },
+    {
+      "municipalityCode": "28206",
+      "municipalityName": "芦屋市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "740c8cb876a9fbf277cab70355b01dcdcf3c7baabc5de19c1670ac1feb8f4839"
+    },
+    {
+      "municipalityCode": "28205",
+      "municipalityName": "洲本市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "5366a257645b1f4fcba6a5366c0702d4452469faa6cd65854397ce9392edef00"
+    },
+    {
+      "municipalityCode": "28202",
+      "municipalityName": "尼崎市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6fa3548e69c255ef58bddcd27136a940d799fbe26d49798120c19b84696de149"
+    },
+    {
+      "municipalityCode": "28201",
+      "municipalityName": "姫路市",
+      "datasetSha256": "8545885cd31c19aecc39168e75baf07eae25cceaa0a8412cb57412244992834b",
+      "evidenceShardSha256": "94cd23c9c79c35deb2fcb4de1c6840d28d1d5f5ca27a6a243e7944e84f10b4c6"
+    },
+    {
+      "municipalityCode": "28100",
+      "municipalityName": "神戸市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ac2a9d6c0509b525d1e81e4d535285461a98194b78919b9b3f47ef9bf5f0807e"
+    }
+  ],
+  "skipped": [
+    {
+      "municipalityCode": "28203",
+      "municipalityName": "明石市",
+      "reason": "Recent master dataset differs from common baseline"
+    },
+    {
+      "municipalityCode": "28204",
+      "municipalityName": "西宮市",
+      "reason": "Recent master dataset differs from common baseline"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "scope": "Offline Hiroshima source-family follow-up; no source requests",
+  "holds": [
+    {
+      "family": "Saka source FY2013 opening events",
+      "reason": "Preparatory applications and arrangements for subsequent opening; do not import as completed FY2013 events. FY2014 evaluation supplies separate evidence."
+    },
+    {
+      "family": "Saka course categories",
+      "reason": "Adult, household, senior and gender/peace lecture category totals do not identify all underlying individual lectures. Exact named programme list and individual boundaries are required; do not turn category counts into project counts."
+    },
+    {
+      "family": "Saka school councils FY2023–2024",
+      "reason": "学校運営協議会 describes multiple schools/community-school mechanisms. Distinct council/project identities and scope are not given in this passage."
+    },
+    {
+      "family": "Saka childhood activities inside library festival",
+      "reason": "Origami, miniature books and read-aloud activities are named parts of accepted festival; do not split children from parent without separate named-course evidence."
+    },
+    {
+      "family": "Saka FY2023 reading/origami lectures",
+      "reason": "External review says activities resumed, but chronology and overlap with library festival/regular read-aloud groups are not resolved. No new separately named project without scope evidence."
+    },
+    {
+      "family": "Saka FY2018 坂町を知ろう",
+      "reason": "Detailed annual body explicitly attributes occurrence to 平成29年度; summary mixes historic/current activities. Do not infer FY2018."
+    },
+    {
+      "family": "Saka FY2020–2023 first-picture-book programmes",
+      "reason": "Cached text explicitly says cancellation. Keep absent from implemented-event additions; source retained for cancellation-aware representation."
+    },
+    {
+      "family": "Saka FY2023–2024 第１５回吹奏楽フェスティバル",
+      "reason": "Same ordinal appears in adjacent annual books; event identity remains unresolved. No double addition until identity clarified."
+    },
+    {
+      "family": "Sera 紹介チャンネル掲載事業",
+      "reason": "Regex fragment ends before 者 in 紹介チャンネル掲載事業者. This is a business/operator count, not a literal programme title."
+    },
+    {
+      "family": "Sera directional programmes",
+      "reason": "サポート支援事業, 介護助手導入促進事業, 世羅町観光振興補助事業, インバウンド対策事業補助金 and 救急相談センター事業 occur in 全体を通しての方向性 passages. Exact annual implementation scope is not established by nearby interleaved KPI columns; require unambiguous current-year evidence or original table coordinates."
+    },
+    {
+      "family": "Sera ピースライナー割引制度",
+      "reason": "Committee opinion indicates a service but does not resolve municipal project ownership/overlap with broader existing transport support. Retain as evidence hold."
+    },
+    {
+      "family": "Sera online medical application",
+      "reason": "Same report uses いつでもドクター and どこでもドクター; conflicting alias remains unresolved."
+    },
+    {
+      "family": "Missing inputs",
+      "reason": "20 source bodies absent;2 cached prefixes have no listed continuation and same prefix in5 accessible worktrees. Need original body/tail input; this is not a current denial. Retrieval remains held pending6 manifests/full proven cumulative hold ledger."
+    }
+  ],
+  "phaseComplete": false,
+  "note": "Specific holds do not claim nationwide exhaustion. Pending57 verified-text proposals remain outside working768 map. Existing assessed candidates may be cancelled or planned; counts do not assert completed implementation."
+}

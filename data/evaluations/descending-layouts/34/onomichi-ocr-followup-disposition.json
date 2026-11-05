@@ -1,0 +1,20 @@
+[
+  {
+    "sourceId": "8a545b3f077af11b2c0472ea",
+    "year": 2013,
+    "name": "尾道市美術展事業",
+    "status": "external_proposal_pending_runtime"
+  },
+  {
+    "sourceId": "8a545b3f077af11b2c0472ea",
+    "year": 2013,
+    "name": "家庭教育支援事業の推進",
+    "status": "external_proposal_pending_runtime",
+    "resolvedHold": {
+      "raw": "家庭教育支援事業の推遡",
+      "start": 32887,
+      "reason": "見出しの推遡、実鮒などOCR誤認があり、正しい全文名称・個票境界を推測補正しない。残余は原画像または明瞭な保存済み同一原典箇所での照合が必要。",
+      "status": "ocr_title_identity_hold"
+    }
+  }
+]

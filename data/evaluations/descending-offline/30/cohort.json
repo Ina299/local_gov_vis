@@ -1,0 +1,190 @@
+{
+  "prefecture": "30",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-01T12:57:32.306794+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "30428",
+      "municipalityName": "串本町",
+      "datasetSha256": "f1306518b7947eaeba805419b31efb5bfa6ef9d2d61eab8b26e13471a66cda91",
+      "evidenceShardSha256": "cd93a42fe3cb60e71d4db8af293e24e53deb34a9c881f51bea3521a04b5ad6b8"
+    },
+    {
+      "municipalityCode": "30427",
+      "municipalityName": "北山村",
+      "datasetSha256": "f2c89ebb51026a61435a777d31d75bd87dee0568092464e0c98791205d6a5411",
+      "evidenceShardSha256": "d0d60898b05fd0e346d67ec777c30053c20ab16b42d9f95a51fb9fd5f3e3db23"
+    },
+    {
+      "municipalityCode": "30424",
+      "municipalityName": "古座川町",
+      "datasetSha256": "68bacc2f655bfb1b1921706a3af1f1c8b45ff6d1f943fc01960a4a881380891a",
+      "evidenceShardSha256": "40b9af2ef3c6a80bd6229c53de4a0921c511d1e28feb17c2302aca65e7a61138"
+    },
+    {
+      "municipalityCode": "30422",
+      "municipalityName": "太地町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ac0db51696a79e512eb3fc7122e3c2ca8d63321205afac141da82312d1d1adc4"
+    },
+    {
+      "municipalityCode": "30421",
+      "municipalityName": "那智勝浦町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "40d6b9cd755f67d28fcd641d6fdb67209d4caf02783bd35ab06c044da8d7e4d1"
+    },
+    {
+      "municipalityCode": "30406",
+      "municipalityName": "すさみ町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "5cbea01dd1ac9296daf47b0889140a2e98672178398ae0e6ca216b1c71e03616"
+    },
+    {
+      "municipalityCode": "30404",
+      "municipalityName": "上富田町",
+      "datasetSha256": "b846f493ded9829f288fd28836eb4c301447126f78146e3ed787e075589d7684",
+      "evidenceShardSha256": "f6ae2dbe4ca76310ea1a79931563716ad8a20a4eaac49ab472288f77a53127f4"
+    },
+    {
+      "municipalityCode": "30401",
+      "municipalityName": "白浜町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b0564758b13fb4eb2bc21c43cf9b778e3e7b2fe0d45d21fc8ebb14688ac2d65c"
+    },
+    {
+      "municipalityCode": "30392",
+      "municipalityName": "日高川町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "34d731451ba2e9fcd779576e54df86216e280f886aec4eb14826ca9454de1bf0"
+    },
+    {
+      "municipalityCode": "30391",
+      "municipalityName": "みなべ町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d6dd7636e6ae4bb6751af95995ee93de139c6c718f7c7c989b15b5c789ef423f"
+    },
+    {
+      "municipalityCode": "30390",
+      "municipalityName": "印南町",
+      "datasetSha256": "10e7b59c06bbec23cb1e67ff5c73dc6a559540cd243a68ab7e7ff04a1c44bcc9",
+      "evidenceShardSha256": "9b6b412ae1a845693032d86541a727191ca8203a4d571d281907fdc35094cd5f"
+    },
+    {
+      "municipalityCode": "30383",
+      "municipalityName": "由良町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "31fa181ab48c6498816f091823c49c3d9afe39cbcbb1b4cdd6b83ebb54ee32fb"
+    },
+    {
+      "municipalityCode": "30382",
+      "municipalityName": "日高町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "077bf4a48b564666d40b1777859099a5e9c1155cbbb2044fd27e50a640f588de"
+    },
+    {
+      "municipalityCode": "30381",
+      "municipalityName": "美浜町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7cc1b9441b9c39ab29002bb46619672ea110089cdf2fd7e18ea963735fdb02a8"
+    },
+    {
+      "municipalityCode": "30366",
+      "municipalityName": "有田川町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "06c993f51b26bb78b93055f031809a9fc492715ccff1cf3992ded89d16eb4303"
+    },
+    {
+      "municipalityCode": "30362",
+      "municipalityName": "広川町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "987b0fdbb649506b6f524907344ecd1da69f01085c99a4d0f5a8484368952192"
+    },
+    {
+      "municipalityCode": "30361",
+      "municipalityName": "湯浅町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "dcf8ec698491c7b1c69ecb1afc0bd22b4205a1e71ae51c86f02aa57d9f676e3c"
+    },
+    {
+      "municipalityCode": "30344",
+      "municipalityName": "高野町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ac3abd9fd234d10616edd27141fd4de9c173c8413a2f755f85b799066135fd64"
+    },
+    {
+      "municipalityCode": "30343",
+      "municipalityName": "九度山町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ae182c1d60c9387f85f88d9fae8e10fe80385e37632fa0b8b3bbc445da7b86e8"
+    },
+    {
+      "municipalityCode": "30341",
+      "municipalityName": "かつらぎ町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "9009c210ace3d902358df9ec7743441fafad622371ad65c5b539f0bfccd40fa0"
+    },
+    {
+      "municipalityCode": "30304",
+      "municipalityName": "紀美野町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "8aef20178c7127ede46296008fa3f86bc9751b793b99ea6df56d2c4149c9d3e6"
+    },
+    {
+      "municipalityCode": "30209",
+      "municipalityName": "岩出市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "35977cff51099e91d7a481126d9092d0ab4c6fd80905e3a1bc041133b516752f"
+    },
+    {
+      "municipalityCode": "30208",
+      "municipalityName": "紀の川市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "bfe49651b860d0969de5ea4c67ae880a139cd785f5a406016476b20550ca476a"
+    },
+    {
+      "municipalityCode": "30207",
+      "municipalityName": "新宮市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "11ebadce9e516b6a9cd491a57fb09f7fd2c41754ff0b6f5a1f2628ea0242074a"
+    },
+    {
+      "municipalityCode": "30206",
+      "municipalityName": "田辺市",
+      "datasetSha256": "c0e1efdf25dbba0897c4bf0154859dc4638576c0cfb441795838878f5a546b60",
+      "evidenceShardSha256": "c57422d9cc645c697f9026158709054bddd18349185f62a98fc78002d16fa0b3"
+    },
+    {
+      "municipalityCode": "30205",
+      "municipalityName": "御坊市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b7c6f589ee5d27369c2b9424e467913534954635cedd07f6137e793a0e8b8f60"
+    },
+    {
+      "municipalityCode": "30204",
+      "municipalityName": "有田市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "2ba72fe740c4b20b0138cbd6958692bcfa77e6340f1708484c26571efa4073d9"
+    },
+    {
+      "municipalityCode": "30203",
+      "municipalityName": "橋本市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3b98263605bdd30391e2364c12c793bd5e15a54dc967702f2ddfcab7b0b2117c"
+    },
+    {
+      "municipalityCode": "30202",
+      "municipalityName": "海南市",
+      "datasetSha256": "a70709b6e7d12c8e756c80601eac9ca1785fc2f9f6b3200fec7d57111d848493",
+      "evidenceShardSha256": "20774ada4ad4c554cc5b91ff86492b923a17d7adb0b56b0c414278f956aefad1"
+    },
+    {
+      "municipalityCode": "30201",
+      "municipalityName": "和歌山市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c0e799c6ff089271fe5f06c9a636857772b2df8d4c8b98b6560e47964af41da0"
+    }
+  ],
+  "skipped": []
+}

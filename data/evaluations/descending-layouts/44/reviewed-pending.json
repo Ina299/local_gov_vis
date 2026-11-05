@@ -1,0 +1,431 @@
+{
+  "state": "review_complete_related_measures_not_new_projects",
+  "saiki": {
+    "sourceId": "ae3501fef03e9d38ae395c85",
+    "municipalityCode": "44205",
+    "sourceFullTextSha256": "25262e6e51e62d563f60e7ede845280d2cc08d61a06e25247d22ead0e85a00a7",
+    "reviewedSheets": 24,
+    "excludedExampleSheets": 1,
+    "evaluationYear": 2026,
+    "fiscalYear": 2025,
+    "rows": [
+      {
+        "name": "人事評価制度の適正な運用",
+        "raw": "実施項目 ① 人事評価制度の適正な運用",
+        "start": 4165,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 4823,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "職員研修等の充実",
+        "raw": "実施項目 ② 職員研修等の充実",
+        "start": 5578,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 6217,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "行財政規模に応じた適正な定員管理",
+        "raw": "実施項目 ① 【重点】行財政規模に応じた適正な定員管理",
+        "start": 6689,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 7587,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "職員数700人を見据えた組織体制の構築",
+        "raw": "実施項目 ② 【重点】職員数700人を見据えた組織体制の構築",
+        "start": 8287,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 8840,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "健康経営の推進",
+        "raw": "実施項目 ① 健康経営の推進",
+        "start": 9689,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 10624,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "ワーク・ライフ・バランスの充実",
+        "raw": "実施項目 ② ワーク・ライフ・バランスの充実",
+        "start": 11739,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 12528,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "選択と集中による予算編成",
+        "raw": "実施項目 ① 選択と集中による予算編成",
+        "start": 14035,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 14670,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "投資的経費の平準化による市債残高の削減",
+        "raw": "実施項目 ② 【重点】投資的経費の平準化による市債残高の削減",
+        "start": 15436,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 16147,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "特別会計の健全経営の維持",
+        "raw": "実施項目 ③ 特別会計の健全経営の維持",
+        "start": 16701,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 17948,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "公営企業会計の健全経営の維持",
+        "raw": "実施項目 ④ 公営企業会計の健全経営の維持",
+        "start": 20095,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 21293,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "さらなる市税等の収納対策",
+        "raw": "実施項目 ① さらなる市税等の収納対策",
+        "start": 23141,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 24827,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "財源の開拓と確保",
+        "raw": "実施項目 ② 財源の開拓と確保",
+        "start": 26044,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 27486,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "公共施設等総合管理計画の推進",
+        "raw": "実施項目 ① 公共施設等総合管理計画の推進",
+        "start": 30100,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 30761,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "公共施設等の最適な管理運営",
+        "raw": "実施項目 ② 公共施設等の最適な管理運営",
+        "start": 33561,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 34148,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "公有財産の活用・処分",
+        "raw": "実施項目 ① 公有財産の活用・処分",
+        "start": 35044,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 35749,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "市民サービスのデジタル化の推進",
+        "raw": "実施項目 ① 【重点】市民サービスのデジタル化の推進",
+        "start": 37542,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 38221,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "予算・組織編成と連動した施策・事業評価",
+        "raw": "実施項目 ① 予算・組織編成と連動した施策・事業評価",
+        "start": 38927,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 39534,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "少子化に対応した子どもにとって望ましい教育環境の整備",
+        "raw": "少子化に対応した子どもにとって望ましい教育 担 当 課 学校教育課・教育総務課・こども福祉課\n実施項目 ②\n環境の整備 関 係 課",
+        "start": 40226,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 41531,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "自治体DXの推進",
+        "raw": "実施項目 ① 【重点】自治体DXの推進",
+        "start": 43249,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 44091,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "公民連携の推進",
+        "raw": "実施項目 ① 公民連携の推進",
+        "start": 45014,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 45669,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "地域コミュニティ活動・市民協働のまちづくりの推進",
+        "raw": "実施項目 ① 地域コミュニティ活動・市民協働のまちづくりの推進",
+        "start": 46284,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 47291,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "災害時に活きるネットワークづくり・防災力の向上",
+        "raw": "実施項目 ② 災害時に活きるネットワークづくり・防災力の向上",
+        "start": 48742,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 49636,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "福祉保健相談体制の整備",
+        "raw": "実施項目 ③ 福祉保健相談体制の整備",
+        "start": 50995,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 51814,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      },
+      {
+        "name": "人口減少に伴う広域化・共同化の推進",
+        "raw": "実施項目 ④ 人口減少に伴う広域化・共同化の推進",
+        "start": 52875,
+        "yearProof": "【令和7年度 実施内容】",
+        "yearStart": 53784,
+        "disposition": "related_reform_measure",
+        "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+        "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+      }
+    ],
+    "status": "related_reform_measures_identity_not_established",
+    "sourceUrl": "https://www.city.saiki.oita.jp/kiji0033847/3_3847_up_45ji28gh.pdf",
+    "sourceSha256": "7c2aa5fd731f4970c4e6cae5c740c01117106b05925e9b667e8590ccfb432f1e",
+    "fetchedAt": "2026-10-11T17:40:52.141013+00:00"
+  },
+  "beppu": [
+    {
+      "sourceId": "4cee0c4324613cc000cda9a3",
+      "municipalityCode": "44202",
+      "sourceFullTextSha256": "a7b0e381bd6d14a5ccc036df7d3a850f9276112cc7257fb8993ea32dfe9f1c73",
+      "fiscalYear": 2021,
+      "rows": [
+        {
+          "name": "市民満足度の高い行政サービスの推進",
+          "raw": "改革項目 1 市民満足度の高い行政サービスの推進",
+          "start": 104,
+          "yearProof": "第4次別府市行政改革推進計画取組計画表（令和3年度）",
+          "yearStart": 0,
+          "disposition": "related_reform_measure",
+          "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+          "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+        },
+        {
+          "name": "多様な情報媒体の活用",
+          "raw": "改革項目 4 多様な情報媒体の活用",
+          "start": 1452,
+          "yearProof": "第4次別府市行政改革推進計画取組計画表（令和3年度）",
+          "yearStart": 1343,
+          "disposition": "related_reform_measure",
+          "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+          "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+        },
+        {
+          "name": "自主防災連携訓練の実施",
+          "raw": "改革項目 14 自主防災連携訓練の実施",
+          "start": 2475,
+          "yearProof": "第４次別府市行政改革推進計画取組計画表（令和３年度）",
+          "yearStart": 2368,
+          "disposition": "related_reform_measure",
+          "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+          "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+        },
+        {
+          "name": "国民健康保険税の徴収率向上",
+          "raw": "改革項目 25 国民健康保険税の徴収率向上",
+          "start": 3889,
+          "yearProof": "第４次別府市行政改革推進計画取組計画表（令和３年度）",
+          "yearStart": 3817,
+          "disposition": "related_reform_measure",
+          "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+          "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+        }
+      ],
+      "status": "related_reform_measures_identity_not_established",
+      "sourceUrl": "https://www.city.beppu.oita.jp/doc/sisei/gyouseikaikaku/gaibu_hyouka/r04_1.pdf",
+      "sourceSha256": "0b54d9bd3acbe78e83dd9f0e2f25e75c44eb11907bb29b07fae695116a1d609b",
+      "fetchedAt": "2026-10-11T18:21:26.488864+00:00"
+    },
+    {
+      "sourceId": "6a1cb26c7e28435a0db3ba84",
+      "municipalityCode": "44202",
+      "sourceFullTextSha256": "3afad538cd7830a696f5bdefeda1f769469423fb243ad164eecb592f9f293798",
+      "fiscalYear": 2019,
+      "rows": [
+        {
+          "name": "ＩＣＴ活用能力及びセキュリティ意識の向上",
+          "raw": "改革項目 6 ＩＣＴ活用能力及びセキュリティ意識の向上",
+          "start": 74,
+          "yearProof": "第４次別府市行政改革推進計画取組計画表（平成31年度）",
+          "yearStart": 0,
+          "disposition": "related_reform_measure",
+          "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+          "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+        },
+        {
+          "name": "公共施設の適正配置の推進",
+          "raw": "改革項目 16 公共施設の適正配置の推進",
+          "start": 1217,
+          "yearProof": "第４次別府市行政改革推進計画取組計画表（平成31年度）",
+          "yearStart": 1112,
+          "disposition": "related_reform_measure",
+          "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+          "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+        },
+        {
+          "name": "採用試験の見直し及び広報の強化",
+          "raw": "改革項目 42 採用試験の見直し及び広報の強化",
+          "start": 2113,
+          "yearProof": "第４次別府市行政改革推進計画取組計画表（平成31年度）",
+          "yearStart": 2043,
+          "disposition": "related_reform_measure",
+          "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+          "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+        }
+      ],
+      "status": "related_reform_measures_identity_not_established",
+      "sourceUrl": "https://www.city.beppu.oita.jp/doc/sisei/gyouseikaikaku/gaibu_hyouka/r02_1.pdf",
+      "sourceSha256": "f6056d6c1c2da8209dea6804e7c2742ce907cb1e56540136972f62000db9ec3a",
+      "fetchedAt": "2026-10-11T18:21:57.960010+00:00"
+    },
+    {
+      "sourceId": "95432392285e617e4cbb252b",
+      "municipalityCode": "44202",
+      "sourceFullTextSha256": "0eed70906b3065ec611b15dddaaff520665ffc098f5549e7ae9fe53f87ad03d7",
+      "fiscalYear": 2022,
+      "rows": [
+        {
+          "name": "協働のまちづくりの推進",
+          "raw": "改革項目 9 協働のまちづくりの推進",
+          "start": 81,
+          "yearProof": "第4次別府市行政改革推進計画取組計画表（令和4年度）",
+          "yearStart": 0,
+          "disposition": "related_reform_measure",
+          "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+          "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+        },
+        {
+          "name": "心身障害者福祉手当の再構築",
+          "raw": "改革項目 32 心身障害者福祉手当の再構築",
+          "start": 1449,
+          "yearProof": "第4次別府市行政改革推進計画取組計画表（令和4年度）",
+          "yearStart": 1375,
+          "disposition": "related_reform_measure",
+          "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+          "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+        }
+      ],
+      "status": "related_reform_measures_identity_not_established",
+      "sourceUrl": "https://www.city.beppu.oita.jp/doc/sisei/gyouseikaikaku/gaibu_hyouka/r05_1.pdf",
+      "sourceSha256": "def66272fba0dc22561bc12240d7db6f21cdaa099bb20641bd11e0d8e71aeca3",
+      "fetchedAt": "2026-10-11T18:21:10.288357+00:00"
+    },
+    {
+      "sourceId": "acd9b9205a5ee705ea2f4168",
+      "municipalityCode": "44202",
+      "sourceFullTextSha256": "a6d6bb465d3b42290e8e7d13486e48adf56ba1ff8930ea639b705f09317aef43",
+      "fiscalYear": 2020,
+      "rows": [
+        {
+          "name": "マイナンバーカード活用による行政サービスの拡充",
+          "raw": "改革項目 8 マイナンバーカード活用による行政サービスの拡充",
+          "start": 105,
+          "yearProof": "第４次別府市行政改革推進計画取組計画表（令和２年度）",
+          "yearStart": 0,
+          "disposition": "related_reform_measure",
+          "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+          "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+        },
+        {
+          "name": "債権管理条例制定に伴う適正な市債権の管理",
+          "raw": "改革項目 23 債権管理条例制定に伴う適正な市債権の管理",
+          "start": 1991,
+          "yearProof": "第４次別府市行政改革推進計画取組計画表（令和２年度）",
+          "yearStart": 1916,
+          "disposition": "related_reform_measure",
+          "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+          "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+        },
+        {
+          "name": "高齢者福祉施策の総合的な見直し",
+          "raw": "改革項目 33 高齢者福祉施策の総合的な見直し",
+          "start": 3392,
+          "yearProof": "第４次別府市行政改革推進計画取組計画表（令和２年度）",
+          "yearStart": 3312,
+          "disposition": "related_reform_measure",
+          "reason": "The printed annual title is an administrative-reform measure. This exact row does not uniquely identify an independent business or bind subordinate costs and ratings to one. Original name/year evidence remains available; no project is generated.",
+          "requiredEvidence": "A separately identified business, or an explicit mapping from this reform item to an existing project identity."
+        }
+      ],
+      "status": "related_reform_measures_identity_not_established",
+      "sourceUrl": "https://www.city.beppu.oita.jp/doc/sisei/gyouseikaikaku/gaibu_hyouka/r03_1.pdf",
+      "sourceSha256": "82a9c937895a5b8908e6ae904fc593176cedc80ae6327d71af8cf0244155de2e",
+      "fetchedAt": "2026-10-11T18:21:39.214769+00:00"
+    }
+  ],
+  "acceptedRecords": 0,
+  "nextStep": "Only reopen a row when explicit individual-business identity evidence links its administrative-reform measure to a project. Do not inherit policy-wide costs/ratings.",
+  "reviewedRows": 36
+}

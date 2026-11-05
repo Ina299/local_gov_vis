@@ -1,0 +1,413 @@
+{
+  "sourceId": "8c81d0d29b2bc97031cfc38b",
+  "metadata": {
+    "assetBytes": 316435,
+    "assetPath": "documents/8c81d0d29b2bc97031cfc38b.json",
+    "assetSha256": "39b20d7c5c826a14f13723347faed6d219f6593a2314233faa8130a06af171a0",
+    "characters": 131341,
+    "exportedCharacters": 120000,
+    "extractionMethod": "cached_extracted_text_hash_verified",
+    "inputTextSha256": "9ad72694323644fda00a2e014b75dcb3ba35a812d28318527172a7fa6ebebd7d",
+    "label": "unstructured_source_text",
+    "preview": "令和４年度行政評価\n令和４年１１月\n四万十町\n１ 行政評価とは\n行政機関が主体となって、総合振興計画の体系に基づき、自らの行政活動を点検・評価\nし、その結果を改善につなげていくことであり、それらをシステムとして行政活動の中に\n組み込んで実施することです。\n２ 行政評価の目的\n（１）協働によるまちづくりの推進 （町民との情報共有の推進、町政への町民参画の推進）\n（２）効率的で効果的な町政運営の確立（総合振興計画の推進、職員の意識改革と能力の向上）\n３ 評価項目\n令和４年度については、政策目標２．新たな地域ブランドで活力あるまちと４．まちの将来を担\nう人を育むまちに関連する５つの施策目標と、その施策に関連する事務事業５９事業について内部\n評価を実施しました。【事務事業評価（事後評価）と施策評価を実施】\n目指すまちの 基本方針 政策目標 施策目標\n将来像\n１.特色ある農林水産 (1)農畜産業の振興\n業を生かすまち (2)林業・水産業の振興\n基本方針１\n２.新たな地域ブラン (3)多様な産業の展開\n挑戦し続ける\nドで活力あるまち (4)雇用の促進\n山 産業づくり\n・ ３.本物のおもてなし (5)商工業の振興\n川 があるまち (6)交流の促進\n・\n海\n(7)子どもを産み育てる環境\n自 ４.まちの将来を担う\nの充実\n然 基本方針２ 人を育むまち\n(8)教育環境の充実\nが (9)現在と未来を担う人材育\n生涯元気で 成の推進\n人 郷土愛に満ちた\nが 人づくり (10)住民主体の地域づくりの\n推進\n元 ５.生きがい・誇りを持 (11)人権尊重の推進\n気 てるまち (12)芸術文化・生涯学習・スポ",
+    "status": "available",
+    "textSha256": "456a5d03a2c9b3accb96c1d5c04475824580f8fb0d569e4c2d83ef515c21be2d",
+    "truncated": true
+  },
+  "completeCachedSheetRows": [
+    {
+      "name": "ふるさと支援事業",
+      "start": 3361,
+      "matchedIds": [
+        "cached-39412-f9e857cf88ec493e39dcdf50"
+      ]
+    },
+    {
+      "name": "四万十ヒノキブランド化の推進",
+      "start": 5665,
+      "matchedIds": [
+        "cached-39412-3d7c3e71cb5293ca7ad1de09"
+      ]
+    },
+    {
+      "name": "地産外商推進事業",
+      "start": 7947,
+      "matchedIds": [
+        "cached-39412-7e3c58b63865094c1346009a"
+      ]
+    },
+    {
+      "name": "四万十町特産品及び地域情報発信事業",
+      "start": 10318,
+      "matchedIds": [
+        "cached-39412-ac4125adc1f4a224abfbd557"
+      ]
+    },
+    {
+      "name": "四万十町ネット販売展開事業",
+      "start": 12544,
+      "matchedIds": [
+        "cached-39412-cf32aa7cec6ab4a94f08c1f3"
+      ]
+    },
+    {
+      "name": "無料職業紹介所・会社説明会の開催",
+      "start": 14785,
+      "matchedIds": [
+        "cached-39412-65c3f70fc711478917b690a3"
+      ]
+    },
+    {
+      "name": "四万十町コールセンター等立地促進事業",
+      "start": 17428,
+      "matchedIds": [
+        "cached-39412-5e0891d42cdebb31ead23dae"
+      ]
+    },
+    {
+      "name": "勤労者福祉対策",
+      "start": 19788,
+      "matchedIds": [
+        "cached-39412-2457e317dacc07c79ca51f9a"
+      ]
+    },
+    {
+      "name": "企業立地等促進事業",
+      "start": 21801,
+      "matchedIds": [
+        "cached-39412-39a48ffc60665613c443305f"
+      ]
+    },
+    {
+      "name": "ひとり親家庭医療費助成",
+      "start": 23649,
+      "matchedIds": [
+        "cached-39412-cccc070a9c151158530d2e78"
+      ]
+    },
+    {
+      "name": "乳幼児・児童医療費助成制度",
+      "start": 25366,
+      "matchedIds": [
+        "cached-39412-921b9077ceaa1246c5d7407a"
+      ]
+    },
+    {
+      "name": "安心子育て支援事業（出産祝金）",
+      "start": 27040,
+      "matchedIds": [
+        "cached-39412-71489033d8f2d0655ec2e415"
+      ]
+    },
+    {
+      "name": "母子保健事業",
+      "start": 29119,
+      "matchedIds": [
+        "cached-39412-7ee7eb690a510cc59f840d7b"
+      ]
+    },
+    {
+      "name": "児童虐待防止事業",
+      "start": 31408,
+      "matchedIds": [
+        "cached-39412-6c90dd0f29132e8ed6db93b0"
+      ]
+    },
+    {
+      "name": "婚活推進事業",
+      "start": 33751,
+      "matchedIds": [
+        "cached-39412-97036ef3241ccb696f3e2381"
+      ]
+    },
+    {
+      "name": "妊婦健康診査通院費助成事業",
+      "start": 36277,
+      "matchedIds": [
+        "cached-39412-60de9c3676e88387c206a02f"
+      ]
+    },
+    {
+      "name": "地域子ども・子育て支援事業",
+      "start": 38134,
+      "matchedIds": [
+        "cached-39412-295b18ccb8c265fbbd516441"
+      ]
+    },
+    {
+      "name": "乳児・幼児健康診査",
+      "start": 40136,
+      "matchedIds": [
+        "cached-39412-aa3b80353d2b4d97b224b230"
+      ]
+    },
+    {
+      "name": "若者定住促進支援事業",
+      "start": 42292,
+      "matchedIds": [
+        "cached-39412-56eeaf9fa14091d4d10aebb3"
+      ]
+    },
+    {
+      "name": "私立保育所運営支援事業",
+      "start": 44237,
+      "matchedIds": [
+        "cached-39412-19621f7a7589a4164f1a65fe"
+      ]
+    },
+    {
+      "name": "奨学金貸付事業",
+      "start": 46069,
+      "matchedIds": [
+        "cached-39412-f1efbd6bed0c769d0def666f"
+      ]
+    },
+    {
+      "name": "特別支援教育就学奨励費給付事業",
+      "start": 47725,
+      "matchedIds": [
+        "cached-39412-3d0788cc40891c021376dbd0"
+      ]
+    },
+    {
+      "name": "放課後児童対策事業",
+      "start": 49616,
+      "matchedIds": [
+        "cached-39412-22affdf2b5c8f07c59ed2ae4"
+      ]
+    },
+    {
+      "name": "多子世帯保育料等軽減事業",
+      "start": 51702,
+      "matchedIds": [
+        "cached-39412-a091c948f761c7c121eef6eb"
+      ]
+    },
+    {
+      "name": "地域子育て支援拠点事業",
+      "start": 53591,
+      "matchedIds": [
+        "cached-39412-e6d416ae3df2f84b9cc31b27"
+      ]
+    },
+    {
+      "name": "不妊治療費助成事業",
+      "start": 55905,
+      "matchedIds": [
+        "cached-39412-771468eab60e290b5b2aa840"
+      ]
+    },
+    {
+      "name": "新生児聴覚検査事業",
+      "start": 58137,
+      "matchedIds": [
+        "cached-39412-e0bfacd6e38ab7d2821a06f3"
+      ]
+    },
+    {
+      "name": "ファミリーサポートセンター事業",
+      "start": 59940,
+      "matchedIds": [
+        "cached-39412-36cc7fcb49f06eaed035cd75"
+      ]
+    },
+    {
+      "name": "未熟児養育医療給付事業",
+      "start": 62208,
+      "matchedIds": [
+        "cached-39412-05143d360f5b04b19c335471"
+      ]
+    },
+    {
+      "name": "子育て世代包括支援センター事業",
+      "start": 63771,
+      "matchedIds": [
+        "cached-39412-d82df15a5983abe83380fed7"
+      ]
+    },
+    {
+      "name": "小・中学校施設維持管理事業",
+      "start": 66180,
+      "matchedIds": [
+        "cached-39412-9e1089b7344e3d2c163b0618"
+      ]
+    },
+    {
+      "name": "学校防災対策事業",
+      "start": 67761,
+      "matchedIds": [
+        "cached-39412-0f60e48a96c3b0f06ce55722"
+      ]
+    },
+    {
+      "name": "地域学校協働本部事業",
+      "start": 69532,
+      "matchedIds": [
+        "cached-39412-3643364dd8c57c90a33e3cbc"
+      ]
+    },
+    {
+      "name": "放課後等学習支援事業",
+      "start": 71896,
+      "matchedIds": [
+        "cached-39412-cf58d8b45d9f9bb971f1bc9d"
+      ]
+    },
+    {
+      "name": "外国語活動推進事業",
+      "start": 73679,
+      "matchedIds": [
+        "cached-39412-7c472651f8edc190c4dde0fe"
+      ]
+    },
+    {
+      "name": "学校適正配置推進事業",
+      "start": 75591,
+      "matchedIds": [
+        "cached-39412-d41fc13d9ab3ccce374c9837"
+      ]
+    },
+    {
+      "name": "教育支援センター運営事業",
+      "start": 77879,
+      "matchedIds": [
+        "cached-39412-e49cffb00310f737b91dbba8"
+      ]
+    },
+    {
+      "name": "ICT教育推進事業",
+      "start": 80085,
+      "matchedIds": [
+        "cached-39412-e0b62f29e976eebc94916fda"
+      ]
+    },
+    {
+      "name": "地域教育推進事業",
+      "start": 82228,
+      "matchedIds": [
+        "cached-39412-ba6f7e098b41431dd40a7938"
+      ]
+    },
+    {
+      "name": "理科教育振興事業",
+      "start": 84319,
+      "matchedIds": [
+        "cached-39412-cc328374af46e04896b95117"
+      ]
+    },
+    {
+      "name": "学力向上対策事業",
+      "start": 86200,
+      "matchedIds": [
+        "cached-39412-f36a3bc4f37d5074c5bdb073"
+      ]
+    },
+    {
+      "name": "学校図書館支援員配置事業",
+      "start": 88480,
+      "matchedIds": [
+        "cached-39412-5f995675543e0f4bf2b3a6ba"
+      ]
+    },
+    {
+      "name": "到達度把握授業評価事業",
+      "start": 90204,
+      "matchedIds": [
+        "cached-39412-1b4ed5b9509185947a89d6de"
+      ]
+    },
+    {
+      "name": "特別支援教育支援員配置事業",
+      "start": 92544,
+      "matchedIds": [
+        "cached-39412-ee6b83af2faa7d73ac3818ed"
+      ]
+    },
+    {
+      "name": "校内研究支援事業",
+      "start": 94433,
+      "matchedIds": [
+        "cached-39412-33e5cb6f2959b392447ba33a"
+      ]
+    },
+    {
+      "name": "教育研究所運営事業",
+      "start": 96541,
+      "matchedIds": [
+        "cached-39412-9ba6beb036ddba8a8a7cd123"
+      ]
+    },
+    {
+      "name": "要保護及び準要保護児童生徒援助費給付事業",
+      "start": 99234,
+      "matchedIds": [
+        "cached-39412-9b1ecf7cf33da4eb69b63ada"
+      ]
+    },
+    {
+      "name": "異校種間連携教育推進事業",
+      "start": 101166,
+      "matchedIds": [
+        "cached-39412-21fd46dfb1c37e4f51264284"
+      ]
+    },
+    {
+      "name": "通学対策事業",
+      "start": 103259,
+      "matchedIds": [
+        "cached-39412-8e2ebc26d3d5f1d6bc123ae0"
+      ]
+    },
+    {
+      "name": "学校運営等支援事業",
+      "start": 105153,
+      "matchedIds": [
+        "cached-39412-3c8c03faf594d275c8772af3"
+      ]
+    },
+    {
+      "name": "社会教育団体支援事業",
+      "start": 106931,
+      "matchedIds": [
+        "cached-39412-0eaca7be54e86789beab4b0b"
+      ]
+    },
+    {
+      "name": "四万十町奨学金等返還支援事業補助金（人材育成事業「未来塾」分）",
+      "start": 109049,
+      "matchedIds": [
+        "cached-39412-d5b02663bf74515a841dca22"
+      ]
+    },
+    {
+      "name": "統合型校務支援システム運営事業",
+      "start": 111264,
+      "matchedIds": [
+        "cached-39412-f271c1c7aa969a16136afc5c"
+      ]
+    },
+    {
+      "name": "学校給食センター維持管理事業",
+      "start": 113129,
+      "matchedIds": [
+        "cached-39412-c63039d82956397c4e30f269"
+      ]
+    },
+    {
+      "name": "町内高校入学祝い金事業（人材育成事業「未来塾」分）",
+      "start": 114727,
+      "matchedIds": [
+        "cached-39412-cdbfd36722bb80d5c07fafa9"
+      ]
+    },
+    {
+      "name": "町内高校給食支援事業（人材育成事業「未来塾」分）",
+      "start": 116554,
+      "matchedIds": [
+        "cached-39412-06cf27567d7d482b04b0fb35"
+      ]
+    }
+  ],
+  "partialLastTitle": "人材育成推進事業「未来塾」",
+  "disposition": "No new candidate from prefix. Preserve full-body gap; existing summary evidence handles post-cutoff records separately."
+}

@@ -1,0 +1,62 @@
+{
+  "phase": "bounded_cached_review_complete_validated",
+  "observedMaster": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "descendingRange": [
+    "42411 新上五島町",
+    "42201 長崎市"
+  ],
+  "recentMasterExclusions": 53,
+  "unpublishedUserChanges": "not observable",
+  "currentSummary": {
+    "cohort": "42",
+    "municipalities": 21,
+    "sources": 117,
+    "hashVerifiedBodies": 97,
+    "continuationParts": 7,
+    "candidateRecords": 3212,
+    "candidateMunicipalities": 12,
+    "duplicateOutputs": 1105,
+    "heldOutputs": 0,
+    "productionRecordsAdded": 0,
+    "existingFieldsChanged": 0,
+    "municipalRequests": 0,
+    "layoutReviewedUnits": 3828,
+    "layoutActionableUnits": 0,
+    "layoutHeldUnits": 304,
+    "statuses": {
+      "duplicate": 34,
+      "insufficient_evidence": 1,
+      "navigation": 23,
+      "processed": 31,
+      "missing_body": 20,
+      "reviewed_literal_businesses": 8
+    }
+  },
+  "validation": {
+    "focusedTests": "13/13 passed",
+    "independent": {
+      "validatedCandidateRecords": 7375,
+      "validatedEvidence": 16098,
+      "productionRecordsAdded": 0
+    },
+    "fullRegression": {
+      "crawler": "426/426 passed",
+      "web": "256/256 passed",
+      "typecheck": "passed",
+      "lint": "passed (existing font warning only)",
+      "national": "passed; unchanged 500 municipalities / 92038 records",
+      "staticExport": "passed; 109 pages; /local_gov_vis; font optimization disabled only during offline build and exact configuration restored"
+    }
+  },
+  "remaining": "20 missing bodies, one incomplete source, and 304 explicit identity/period/component holds. No remaining actionable units in this bounded review; source coverage remains partial. Acquisition held pending original stop ledger. Nationwide task continues with Saga.",
+  "preservation": {
+    "prior2737Unchanged": true,
+    "newCandidates": 475,
+    "existingFieldEnrichment": 0,
+    "baselineSaikaiRecordExcluded": 1,
+    "priorSupplementalIdentitiesPreserved": 4
+  },
+  "previousValidatedCodeHead": "42f15dd632182af1cbfd3c817e05abd59bac4991",
+  "reproduce": "python apps/crawler/scripts/descending-cache/build-nagasaki-map.py; node --import tsx apps/crawler/src/review-descending-cache.ts data/evaluations/descending-layouts/42/cohort.json data/evaluations/descending-layouts/42 data/evaluations/descending-offline; node --import tsx apps/crawler/src/validate-descending-cache.ts --layouts",
+  "testedCodeHead": "c8cf55ca909d10002ea5398f14c188aef0d58035"
+}

@@ -1,0 +1,124 @@
+{
+  "prefecture": "35",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-01T12:57:18.674589+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "35502",
+      "municipalityName": "阿武町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "0a41a0c10b45b02deccdf25848c0fb002034c2440858c6f2eb5f9b13dbf343f5"
+    },
+    {
+      "municipalityCode": "35344",
+      "municipalityName": "平生町",
+      "datasetSha256": "55b8b1d9eb12d5a7fb2d362e2b8bf884d335af6372a6dafb046947929887b988",
+      "evidenceShardSha256": "c2e498cdaf041cc0a6e5f20c76264cd080132fad82000301906dc344f35cec16"
+    },
+    {
+      "municipalityCode": "35343",
+      "municipalityName": "田布施町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "9b0e3cb981fb2d361e64577b52dd500512f627969e814226b9f8fbf0dc85286a"
+    },
+    {
+      "municipalityCode": "35341",
+      "municipalityName": "上関町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "fceda87a4a1085f497e907bdf8e23a7d6efcf0a36841c6952ad9b97a091bccc4"
+    },
+    {
+      "municipalityCode": "35321",
+      "municipalityName": "和木町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "fe28f527ba9eb5af13e8eb7f6c99cd890d8305e05b8a44a52b0e3db34d8401fb"
+    },
+    {
+      "municipalityCode": "35305",
+      "municipalityName": "周防大島町",
+      "datasetSha256": "49d5c76762dfd1f66fea43375c0e91e7cfb05ebba715edd68b5542b02f2cddad",
+      "evidenceShardSha256": "a4d84958170a7b07bfd114e70892c45a8d8df1f18c101b7316814bc2050b4d33"
+    },
+    {
+      "municipalityCode": "35216",
+      "municipalityName": "山陽小野田市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "377f3d2545bbd43c5760ca6321b0a0f8d4dbe8190d440779e1e8bb7d200c90ef"
+    },
+    {
+      "municipalityCode": "35213",
+      "municipalityName": "美祢市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "31a308e961964d11059f43ce8e1c260ad2482916a7c1e109da053bd149a2fd2e"
+    },
+    {
+      "municipalityCode": "35212",
+      "municipalityName": "柳井市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7773d77d35e60b95569fbbbc866d21c73b066033788ce63e02350a0f92f7fc9e"
+    },
+    {
+      "municipalityCode": "35211",
+      "municipalityName": "長門市",
+      "datasetSha256": "9b88573ae1766b10b78c38f3c8c692e549d190af6349145b8edaf4b9e9440b2a",
+      "evidenceShardSha256": "f9b843e94c9b33d3896db8f82a86b734bc9a46f7f576fde330907d3b45c0451d"
+    },
+    {
+      "municipalityCode": "35210",
+      "municipalityName": "光市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "737a475a5f25dd6b258f913b581669de2077742f36ec736d66680492dc7e9b13"
+    },
+    {
+      "municipalityCode": "35208",
+      "municipalityName": "岩国市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f658573556b612a83a911dcd36447ded6f77db338d9364dbf23b699a366bdab1"
+    },
+    {
+      "municipalityCode": "35207",
+      "municipalityName": "下松市",
+      "datasetSha256": "c25fd36b32b7baa871067e93f776164c725a89ed5ed7d2fd2f6849d3c0ff8033",
+      "evidenceShardSha256": "6c8af5521e6250921d2eae5263d4d336bcfb63591d8bc60c435e180b8f9d8fbb"
+    },
+    {
+      "municipalityCode": "35206",
+      "municipalityName": "防府市",
+      "datasetSha256": "83a7dda6d4434e94aed01cce523a7e1dc959725af2c674c7fdce2b67bfc87780",
+      "evidenceShardSha256": "55e6bb590e44ba9e9dea2369afef936b72c192ec086207f60a0b4696aadf573e"
+    },
+    {
+      "municipalityCode": "35204",
+      "municipalityName": "萩市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3e2ee1be3b075370c35209a3ec648f7fd05f9ef9c372f8025e1c7d4d38941889"
+    },
+    {
+      "municipalityCode": "35203",
+      "municipalityName": "山口市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "4398e19ad860e9752194404cb4eeaecd4901e509aa8e7f6b1d431acb383a263d"
+    },
+    {
+      "municipalityCode": "35202",
+      "municipalityName": "宇部市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e32ebb3f7655b155b71c3a0301fcd41bb694d2ccae00e55ed89c9a5d0ef7fe98"
+    },
+    {
+      "municipalityCode": "35201",
+      "municipalityName": "下関市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "45859f1f9749c605c51747ee1295cc5c12ada4982bee2f878bef9da32696e709"
+    }
+  ],
+  "skipped": [
+    {
+      "municipalityCode": "35215",
+      "municipalityName": "周南市",
+      "reason": "Recent master dataset differs from common baseline"
+    }
+  ]
+}

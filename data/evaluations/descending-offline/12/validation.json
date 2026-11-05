@@ -1,0 +1,27 @@
+{
+  "commonValidation": "../validation.json",
+  "cohort": {
+    "cohort": "12",
+    "municipalities": 53,
+    "sources": 253,
+    "hashVerifiedBodies": 206,
+    "continuationParts": 26,
+    "candidateRecords": 5,
+    "candidateMunicipalities": 1,
+    "duplicateOutputs": 2413,
+    "heldOutputs": 1,
+    "productionRecordsAdded": 0,
+    "existingFieldsChanged": 0,
+    "municipalRequests": 0,
+    "statuses": {
+      "navigation": 49,
+      "unsupported_layout": 94,
+      "missing_body": 47,
+      "insufficient_evidence": 4,
+      "duplicate": 54,
+      "processed": 5
+    }
+  },
+  "candidateSha256": "25af434c6b37bb4233a05452d2633f7d0fec53c3c3ef03ef451b41eafd538126",
+  "ledgerSha256": "cdacb289034b0e54c6b7e498b96999d8bdf186dc08fac4596075cd26c7a0e6ae"
+}

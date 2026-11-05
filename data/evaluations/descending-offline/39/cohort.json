@@ -1,0 +1,214 @@
+{
+  "prefecture": "39",
+  "master": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-01T12:57:09.135275+00:00",
+  "unpublishedUserChanges": "not observable; collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "39428",
+      "municipalityName": "黒潮町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "291b1f609ca9cea6a3d6f93cf1b0cd377481910e963599a524c914579b1a20a3"
+    },
+    {
+      "municipalityCode": "39427",
+      "municipalityName": "三原村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "06d274f4ff136ef0073dd37834557ec91d850df3c46d34a79b1917adacc49dfc"
+    },
+    {
+      "municipalityCode": "39424",
+      "municipalityName": "大月町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "0c11050102d0e8a94bb0c5728f127c2a6c4163922e6f224f87ad36a1e9b1b376"
+    },
+    {
+      "municipalityCode": "39412",
+      "municipalityName": "四万十町",
+      "datasetSha256": "22f7105e35a9dc7e3cb808551bb9fe631aa0da1db4b2822401d8d43e58e5f20d",
+      "evidenceShardSha256": "92bf6e1a918205f49cdbfd43de4491720ffa4aed37cc385fe4d9967cb6af31ae"
+    },
+    {
+      "municipalityCode": "39411",
+      "municipalityName": "津野町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e4e93e829ccf59e7efee68c44a35f4ea62c9870b8438ec3ff348ca6600c62c8d"
+    },
+    {
+      "municipalityCode": "39410",
+      "municipalityName": "日高村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d8b48fffbf5efee0fe00ba25f78522b17f9013ee6bff5f52fbaf6387ec557877"
+    },
+    {
+      "municipalityCode": "39405",
+      "municipalityName": "檮原町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "cf8c251f6d85e7a5231ce16b0b80a907fde6683ed0cd677889854660ed9bd88c"
+    },
+    {
+      "municipalityCode": "39403",
+      "municipalityName": "越知町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "338931cd8039a17cd1d4cbcad12e65ef5b2e3635b4395a622027d018ff231ab6"
+    },
+    {
+      "municipalityCode": "39402",
+      "municipalityName": "佐川町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f731e3227bebc5cf42e6594530bf3468305390c5b0ebee9f8d8085a2e6491a1c"
+    },
+    {
+      "municipalityCode": "39401",
+      "municipalityName": "中土佐町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "8f64d8bd5fd1e6d1b58a8f0831a7de7de607b51826d657c039e26ebeb88f7a6a"
+    },
+    {
+      "municipalityCode": "39387",
+      "municipalityName": "仁淀川町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ea7d6650d0e1c0f87586ac0ae772b8400fa9b179892b4393b2005de0837b5a80"
+    },
+    {
+      "municipalityCode": "39386",
+      "municipalityName": "いの町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "31984f5fde4fadb49081ca4b38ffd94395b686a666b7539e6df9eb4ca7407f0e"
+    },
+    {
+      "municipalityCode": "39364",
+      "municipalityName": "大川村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ab64d3e7e8e4ed83fb503218d251f99962aa840e03371cb9f2298ea18a0613cb"
+    },
+    {
+      "municipalityCode": "39363",
+      "municipalityName": "土佐町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a3ccdf0a0a2cd18b2c5c90dfa9f61e830ad6aa9fbd9a0b889d326653725b3824"
+    },
+    {
+      "municipalityCode": "39344",
+      "municipalityName": "大豊町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7cfedf034254ad2a4f7958930735031d11d88acdc00afd5b029886f685816fd2"
+    },
+    {
+      "municipalityCode": "39341",
+      "municipalityName": "本山町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "9b12b3adb298ebc550316923d869e76edca6872ec31bd1624324c6516679e92e"
+    },
+    {
+      "municipalityCode": "39307",
+      "municipalityName": "芸西村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d464a206864c53681a4802b3f7216c88cd9a4a7a44fcd0b5f1fdfc6e21ff6cbb"
+    },
+    {
+      "municipalityCode": "39306",
+      "municipalityName": "馬路村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "cb45453d99f807b9f8a76eee77e8caa0f57d8165e6d2d5af34e3ecee090e3ad8"
+    },
+    {
+      "municipalityCode": "39305",
+      "municipalityName": "北川村",
+      "datasetSha256": "ed8518a150de48795e4b02c2ea382b008dc5e9b98ff395199eaad3f09cd90bd6",
+      "evidenceShardSha256": "d98e1d6f5303d6fdc3b523d4a9e6c9780f41a3daaa43e2a8c4ed4faf2321d47c"
+    },
+    {
+      "municipalityCode": "39304",
+      "municipalityName": "安田町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "5fdbb43ac2999abb16035017b25cbcf36596dc7aaa6f5ee7b5d5a6891e31d494"
+    },
+    {
+      "municipalityCode": "39303",
+      "municipalityName": "田野町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "0eda7dfbd641d6c24faee0171fe56cb1e588d74208a5c050604b0099ca7cb45b"
+    },
+    {
+      "municipalityCode": "39302",
+      "municipalityName": "奈半利町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "25463cc20aa72cb232d64b6d210a37fd6805c136f968f34eaac4548b594a5f10"
+    },
+    {
+      "municipalityCode": "39301",
+      "municipalityName": "東洋町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "1b49ff268d7d8c05307f183a9e3cfabafa9bc77c02ac00aeb126afc6585a291b"
+    },
+    {
+      "municipalityCode": "39212",
+      "municipalityName": "香美市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "dba6958326b095965f73e0d9f1e285705d6c322a835e913ec1820676354a200a"
+    },
+    {
+      "municipalityCode": "39211",
+      "municipalityName": "香南市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "bc0701cd2310d481ebb19962e1a834a4466667c1ffba2bdf5b66a2f8ce03136a"
+    },
+    {
+      "municipalityCode": "39210",
+      "municipalityName": "四万十市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "832c1e19688b33967a11b3161d009b7af4b4247c5bf9cac6d77229040f1ac06e"
+    },
+    {
+      "municipalityCode": "39209",
+      "municipalityName": "土佐清水市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a6ead0dc6d964ab76c0b6c67eba3debaea41fef73f5c30f57f406015db8279b7"
+    },
+    {
+      "municipalityCode": "39208",
+      "municipalityName": "宿毛市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "288b3bd6d4d5a0f62405c66831526edbc98bc5eae74323ad7ef181dee5fc6c3d"
+    },
+    {
+      "municipalityCode": "39206",
+      "municipalityName": "須崎市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d2905a9d60bb462baacc6ae184b72e35625b119c4832a8d8a3b11b41ba2b1eb4"
+    },
+    {
+      "municipalityCode": "39205",
+      "municipalityName": "土佐市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "73630b62026bf90780f77e458d3e1f8d695e6dc9867d1ba786e990e8b87cb7f7"
+    },
+    {
+      "municipalityCode": "39203",
+      "municipalityName": "安芸市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7b618a8c1420458495cef177c4963220ac69d128d5b1a4ed3235886422210a7d"
+    },
+    {
+      "municipalityCode": "39202",
+      "municipalityName": "室戸市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d65b016deb77e5ed58fb201b5885fe106ca156851469dd999d62bd1d7082c474"
+    },
+    {
+      "municipalityCode": "39201",
+      "municipalityName": "高知市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7d21db3561e143c08d37ff7abb4ab44a56039c7dc0f91c21b01be59edf1126ce"
+    }
+  ],
+  "skipped": [
+    {
+      "municipalityCode": "39204",
+      "municipalityName": "南国市",
+      "reason": "Recent master dataset differs from common baseline"
+    }
+  ]
+}

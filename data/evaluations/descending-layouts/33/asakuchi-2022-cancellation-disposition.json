@@ -1,0 +1,356 @@
+[
+  {
+    "name": "漢字検定",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 61291,
+    "pageStart": 61176,
+    "pageEnd": 62062
+  },
+  {
+    "name": "小学生ドローン体験教室",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 61491,
+    "pageStart": 61176,
+    "pageEnd": 62062
+  },
+  {
+    "name": "プログラミングドローン体験教室",
+    "status": "title_layout_needs_further_review",
+    "matches": 0,
+    "disposition": "actual_named_activity"
+  },
+  {
+    "name": "浅口ドローンクラブ",
+    "status": "title_layout_needs_further_review",
+    "matches": 0,
+    "disposition": "actual_named_activity"
+  },
+  {
+    "name": "ボランティア育成講座",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 61716,
+    "pageStart": 61176,
+    "pageEnd": 62062
+  },
+  {
+    "name": "家庭教育学級",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 61988,
+    "pageStart": 61176,
+    "pageEnd": 62062
+  },
+  {
+    "name": "中高生だっぴ",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 62019,
+    "pageStart": 61176,
+    "pageEnd": 62062
+  },
+  {
+    "name": "二十歳の集い",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 62090,
+    "pageStart": 62062,
+    "pageEnd": 63107
+  },
+  {
+    "name": "夏GAKUサプリ",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 62457,
+    "pageStart": 62062,
+    "pageEnd": 63107
+  },
+  {
+    "name": "フットサル大会",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 63421,
+    "pageStart": 63107,
+    "pageEnd": 63711
+  },
+  {
+    "name": "ナイターソフトボール大会",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 63180,
+    "pageStart": 63107,
+    "pageEnd": 63711
+  },
+  {
+    "name": "ボッチャ教室",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 63378,
+    "pageStart": 63107,
+    "pageEnd": 63711
+  },
+  {
+    "name": "モルック教室",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 63458,
+    "pageStart": 63107,
+    "pageEnd": 63711
+  },
+  {
+    "name": "文化財講座",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 63747,
+    "pageStart": 63711,
+    "pageEnd": 64845
+  },
+  {
+    "name": "総合文化祭",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 63797,
+    "pageStart": 63711,
+    "pageEnd": 64845
+  },
+  {
+    "name": "金光キッズフェスティバル",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 63816,
+    "pageStart": 63711,
+    "pageEnd": 64845
+  },
+  {
+    "name": "日中国交正常化50周年記念講演会",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 63946,
+    "pageStart": 63711,
+    "pageEnd": 64845
+  },
+  {
+    "name": "中学生英語スピーチコンテスト",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 63964,
+    "pageStart": 63711,
+    "pageEnd": 64845
+  },
+  {
+    "name": "初級英会話講座",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 63981,
+    "pageStart": 63711,
+    "pageEnd": 64845
+  },
+  {
+    "name": "英会話動画の作成・公開",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 63990,
+    "pageStart": 63711,
+    "pageEnd": 64845
+  },
+  {
+    "name": "クリスマスプラネタリウム",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 64015,
+    "pageStart": 63711,
+    "pageEnd": 64845
+  },
+  {
+    "name": "こども天文クラブ",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 64735,
+    "pageStart": 63711,
+    "pageEnd": 64845
+  },
+  {
+    "name": "せいめい望遠鏡電視観望会",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 64953,
+    "pageStart": 64845,
+    "pageEnd": 65865
+  },
+  {
+    "name": "かがく広場",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 65093,
+    "pageStart": 64845,
+    "pageEnd": 65865
+  },
+  {
+    "name": "望遠鏡を作ろう！",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 65235,
+    "pageStart": 64845,
+    "pageEnd": 65865
+  },
+  {
+    "name": "シン・ナナヨン探検隊",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 65387,
+    "pageStart": 64845,
+    "pageEnd": 65865
+  },
+  {
+    "name": "学校連携事業",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 66107,
+    "pageStart": 65865,
+    "pageEnd": 67060
+  },
+  {
+    "name": "こども祭り",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 66120,
+    "pageStart": 65865,
+    "pageEnd": 67060
+  },
+  {
+    "name": "プラネタリウムコンサート",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 66126,
+    "pageStart": 65865,
+    "pageEnd": 67060
+  },
+  {
+    "name": "宇宙☆自然講座",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 66702,
+    "pageStart": 65865,
+    "pageEnd": 67060
+  },
+  {
+    "name": "町家塾",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 66845,
+    "pageStart": 65865,
+    "pageEnd": 67060
+  },
+  {
+    "name": "昔の道具展",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 67079,
+    "pageStart": 67060,
+    "pageEnd": 67966
+  },
+  {
+    "name": "まちや映画会",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 67109,
+    "pageStart": 67060,
+    "pageEnd": 67966
+  },
+  {
+    "name": "お茶の点て方体験",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 67468,
+    "pageStart": 67060,
+    "pageEnd": 67966
+  },
+  {
+    "name": "鴨方まち歩き",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 67525,
+    "pageStart": 67060,
+    "pageEnd": 67966
+  },
+  {
+    "name": "季節の行事企画展",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 67533,
+    "pageStart": 67060,
+    "pageEnd": 67966
+  },
+  {
+    "name": "とんど焼き体験",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 67543,
+    "pageStart": 67060,
+    "pageEnd": 67966
+  },
+  {
+    "name": "町家でむかしむかし",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 67552,
+    "pageStart": 67060,
+    "pageEnd": 67966
+  },
+  {
+    "name": "町家スプリングコンサート",
+    "status": "title_layout_needs_further_review",
+    "matches": 0,
+    "disposition": "actual_named_activity"
+  },
+  {
+    "name": "ランチタイムで世界旅行",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 69256,
+    "pageStart": 68866,
+    "pageEnd": 69738
+  },
+  {
+    "name": "簡単ランチとスィーツ入門",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 69269,
+    "pageStart": 68866,
+    "pageEnd": 69738
+  },
+  {
+    "name": "やさしいヨガ",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 69512,
+    "pageStart": 68866,
+    "pageEnd": 69738
+  },
+  {
+    "name": "てごねせっけんを作ろう",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 69539,
+    "pageStart": 68866,
+    "pageEnd": 69738
+  },
+  {
+    "name": "やさしい日本語講座",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 69696,
+    "pageStart": 68866,
+    "pageEnd": 69738
+  },
+  {
+    "name": "アロマスプレーを作ろう",
+    "status": "proposed_manually_verified_activity",
+    "startCodepoint": 69740,
+    "pageStart": 69738,
+    "pageEnd": 69961
+  },
+  {
+    "name": "市民体育祭",
+    "status": "explicit_nonimplementation_or_deferral",
+    "reason": "中止。",
+    "pageStart": 63107,
+    "pageEnd": 63711
+  },
+  {
+    "name": "古文書同好会",
+    "status": "explicit_nonimplementation_or_deferral",
+    "reason": "中止。",
+    "pageStart": 63711,
+    "pageEnd": 64845
+  },
+  {
+    "name": "町家公園茶会",
+    "status": "explicit_nonimplementation_or_deferral",
+    "reason": "6月・10月・3月すべて中止。",
+    "pageStart": 67060,
+    "pageEnd": 67966
+  },
+  {
+    "name": "まちや寄席",
+    "status": "explicit_nonimplementation_or_deferral",
+    "reason": "中止。",
+    "pageStart": 67060,
+    "pageEnd": 67966
+  },
+  {
+    "name": "阿藤公園茶会",
+    "status": "explicit_nonimplementation_or_deferral",
+    "reason": "7月蓮見茶会中止。",
+    "pageStart": 67060,
+    "pageEnd": 67966
+  },
+  {
+    "name": "論語かるた大会",
+    "status": "explicit_nonimplementation_or_deferral",
+    "reason": "2月中止。",
+    "pageStart": 67060,
+    "pageEnd": 67966
+  }
+]

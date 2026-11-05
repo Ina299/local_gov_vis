@@ -1,0 +1,3541 @@
+[
+  {
+    "sourceId": "60231cbd9dc9e6a88639287a",
+    "municipalityCode": "34545",
+    "municipalityName": "神石高原町",
+    "url": "https://www.jinsekigun.jp/town/formation/seisaku/01/sougou2_kekka/",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "9ee4f1ad973fda4048b813289ed7ea75a0297c9facb2a9493f982311234c4e67",
+    "sourceSha256": "b1d74f8199edca6220821eea8296f4c5de3c6443ab5a2149f1d488645da9844a",
+    "fetchedAt": "2026-10-21T08:44:29.309Z",
+    "characters": 252,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_or_policy_outline",
+    "reviewStatus": "navigation_or_policy_outline",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "神石高原町第2期総合戦略 事業効果検証結果について | 広島県・神石郡 神石高原町(じんせきこうげんちょう)行政サイト",
+        "start": 0,
+        "reason": "全保存本文を確認。リンク一覧・評価制度・政策体系・会議資料名であり独立事業の対象年度と個票を確定できない。公表日や会議年から事業年を補わない。関連本文は別sourceIdで審査する。",
+        "status": "no_individual_annual_sheet"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "02e1e4e07c7f437778e4a884",
+    "municipalityCode": "34545",
+    "municipalityName": "神石高原町",
+    "url": "https://www.jinsekigun.jp/user/filer_public/51/8e/518e68d1-80d4-4fc9-a5d2-ddae7d15df73/di-2qi-zong-he-zhan-lue-shi-ye-xiao-guo-jian-zheng-yi-lan-biao-_r6nian-du-shi-ye.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "45f548ca972b5331888fab9b0541c3c40d46b98841fee401de5e33347d717cfc",
+    "sourceSha256": "e179b9f7719bb3cfe442d7a45093859755eb1ceb610d167e9a5b563290fc35fa",
+    "fetchedAt": "2026-10-23T19:22:21.083Z",
+    "characters": 9394,
+    "continuationParts": 0,
+    "accepted": 40,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 40,
+    "holds": [
+      {
+        "raw": "森林環境譲与税",
+        "start": 4868,
+        "reason": "22番は税財源名で独立した事業範囲が不明。30番の道の駅の活性化は38番の機能強化と同じ実績のため二重計上しない。具体的事業欄と支援名の上位政策欄は区別済み。",
+        "status": "policy_or_identity_hold"
+      },
+      {
+        "raw": "道の駅の活性化",
+        "start": 6301,
+        "reason": "22番は税財源名で独立した事業範囲が不明。30番の道の駅の活性化は38番の機能強化と同じ実績のため二重計上しない。具体的事業欄と支援名の上位政策欄は区別済み。",
+        "status": "policy_or_identity_hold"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "b9af33a3eff6251e5866c4cd",
+    "municipalityCode": "34462",
+    "municipalityName": "世羅町",
+    "url": "https://www.town.sera.hiroshima.jp/soshiki/17/9294.html",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "364b715a1c73cd34e9b6cbf6e57a60d35df6109f25bdf652db92653f243de2e3",
+    "sourceSha256": "4a690dda445479d285704f025751508bb9dce763f30ff117e9e03ba766d269e1",
+    "fetchedAt": "2026-10-21T08:44:28.929Z",
+    "characters": 1305,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_or_policy_outline",
+    "reviewStatus": "navigation_or_policy_outline",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "世羅町人口ビジョン及び世羅町第2次まち・ひと・しごと創生総合戦略の効果検証について - 世羅町ホームページ",
+        "start": 0,
+        "reason": "全保存本文を確認。リンク一覧・評価制度・政策体系・会議資料名であり独立事業の対象年度と個票を確定できない。公表日や会議年から事業年を補わない。関連本文は別sourceIdで審査する。",
+        "status": "no_individual_annual_sheet"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "e437868f5e87946c1f215df9",
+    "municipalityCode": "34462",
+    "municipalityName": "世羅町",
+    "url": "https://www.town.sera.hiroshima.jp/uploaded/attachment/11619.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "6ab122344b7b5025a55a7662a358b88c21fd6100f390d29c33187cc8a86da4f3",
+    "sourceSha256": "193f626ead1121fcbf6b23dbccefec7c95234e26719272c42c98a33c484dfc54",
+    "fetchedAt": "2026-10-23T19:22:07.867Z",
+    "characters": 17059,
+    "continuationParts": 0,
+    "accepted": 26,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 26,
+    "holds": [
+      {
+        "raw": "令和６年度の成果",
+        "start": 1480,
+        "reason": "残る人口・観光消費・入学率・医師数等のKPI、包括的政策章及び将来の方向性は独立事業レコードにしない。個別名・対象範囲を示す証拠がないものは保留。",
+        "status": "policy_or_indicator_identity_hold"
+      },
+      {
+        "raw": "いつでもドクター",
+        "start": 14873,
+        "status": "conflicting_alias_identity_hold",
+        "reason": "同一医療施策のアプリ名が「いつでもドクター」「どこでもドクター」で不一致。追加の正確な名称・同一性証拠が必要。別事業として二重計上しない。"
+      },
+      {
+        "raw": "どこでもドクター",
+        "start": 15965,
+        "status": "conflicting_alias_identity_hold",
+        "reason": "同一医療施策のアプリ名が「いつでもドクター」「どこでもドクター」で不一致。追加の正確な名称・同一性証拠が必要。別事業として二重計上しない。"
+      },
+      {
+        "raw": "せらまちタクシー",
+        "start": 927,
+        "reason": "同年度の一般乗合旅客自動車運送拡充事業の概要に明記されたサービス名と範囲が重なる。既存レコードを保ち別名で二重計上しない。",
+        "status": "overlapping_existing_project_scope"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "676f8f0759ed1b5bdca71e77",
+    "municipalityCode": "34462",
+    "municipalityName": "世羅町",
+    "url": "https://www.town.sera.hiroshima.jp/uploaded/attachment/11620.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "c80403549b14768ac9d08b5dfe677fe812589d60b915ed4f5086ec36b14ec69f",
+    "sourceSha256": "624c7d6be03dfe5ed53d99523578e848bd81f9ac63ce638cd5d51acbe191c6fc",
+    "fetchedAt": "2026-10-23T19:22:10.135Z",
+    "characters": 1442,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 2,
+    "parserStatus": "duplicate",
+    "reviewStatus": "duplicate",
+    "proposals": 1,
+    "holds": [],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "7ddaf70925bf3dbcd1deee78",
+    "municipalityCode": "34462",
+    "municipalityName": "世羅町",
+    "url": "https://www.town.sera.hiroshima.jp/uploaded/attachment/11621.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "776ddfbc0294babfc095c8006e28eb630722c3979c72b24b18b50162d8869874",
+    "sourceSha256": "99e8feb609115c10461895fee7b806e4d21d6497e384c67bba4acae4656b751e",
+    "fetchedAt": "2026-10-23T19:22:13.065Z",
+    "characters": 16169,
+    "continuationParts": 0,
+    "accepted": 25,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 25,
+    "holds": [
+      {
+        "raw": "令和 5 年度の成果",
+        "start": 1487,
+        "reason": "残る人口・観光消費・入学率・医師数等のKPI、包括的政策章及び将来の方向性は独立事業レコードにしない。個別名・対象範囲を示す証拠がないものは保留。",
+        "status": "policy_or_indicator_identity_hold"
+      },
+      {
+        "raw": "せらまちタクシー",
+        "start": 907,
+        "reason": "同年度の一般乗合旅客自動車運送拡充事業の概要に明記されたサービス名と範囲が重なる。既存レコードを保ち別名で二重計上しない。",
+        "status": "overlapping_existing_project_scope"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "103c37056219aaeb9f908833",
+    "municipalityCode": "34462",
+    "municipalityName": "世羅町",
+    "url": "https://www.town.sera.hiroshima.jp/uploaded/attachment/11622.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "577d186c8e9fcff1c26759d7e6622dfc558edbc875dffcf21a125dea525d3753",
+    "sourceSha256": "25139002e426e4027cec9eaf8ff23e22f341349f0b6420f954be9c46682a862f",
+    "fetchedAt": "2026-10-23T19:22:15.766Z",
+    "characters": 1404,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 2,
+    "parserStatus": "duplicate",
+    "reviewStatus": "duplicate",
+    "proposals": 1,
+    "holds": [],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "b2404f08720894e2616e58c6",
+    "municipalityCode": "34462",
+    "municipalityName": "世羅町",
+    "url": "https://www.town.sera.hiroshima.jp/uploaded/attachment/8531.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "6c81354e601da7ffad05a70ba442427a7761e443740258238e7252f125388cc7",
+    "sourceSha256": "3ea426f628177a96ed4a859b638a6bd45c69c6d87077b0e29c57781eab0d4a23",
+    "fetchedAt": "2026-10-23T19:22:18.713Z",
+    "characters": 16667,
+    "continuationParts": 0,
+    "accepted": 22,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 22,
+    "holds": [
+      {
+        "raw": "令和４年度の成果",
+        "start": 2428,
+        "reason": "残る人口・観光消費・入学率・医師数等のKPI、包括的政策章及び将来の方向性は独立事業レコードにしない。個別名・対象範囲を示す証拠がないものは保留。",
+        "status": "policy_or_indicator_identity_hold"
+      },
+      {
+        "raw": "せらまちタクシー",
+        "start": 1767,
+        "reason": "同年度の一般乗合旅客自動車運送拡充事業の概要に明記されたサービス名と範囲が重なる。既存レコードを保ち別名で二重計上しない。",
+        "status": "overlapping_existing_project_scope"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "e7748e7bb47198799cfc7a00",
+    "municipalityCode": "34462",
+    "municipalityName": "世羅町",
+    "url": "https://www.town.sera.hiroshima.jp/uploaded/attachment/8993.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "84b292fab61d1d65a1b1167d828fcc709223b2bc69bb57170ccb4678986a2652",
+    "sourceSha256": "d0a091666a7434184bb6905daea030850476026291956465f37b1d1407e26d4d",
+    "fetchedAt": "2026-10-23T19:22:21.731Z",
+    "characters": 2672,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 4,
+    "parserStatus": "duplicate",
+    "reviewStatus": "duplicate",
+    "proposals": 2,
+    "holds": [],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "3046113f228017a300abb563",
+    "municipalityCode": "34462",
+    "municipalityName": "世羅町",
+    "url": "https://www.town.sera.hiroshima.jp/uploaded/attachment/6869.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "3d50b408813caad5703c7bb09fa710d11f59e412e3a3115fefca33c60bcfa951",
+    "sourceSha256": "804571a51b1e10871c3b6e32085886812c126fad6605e80aa29992b4910802cf",
+    "fetchedAt": "2026-10-23T19:22:24.545Z",
+    "characters": 14934,
+    "continuationParts": 0,
+    "accepted": 24,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 24,
+    "holds": [
+      {
+        "raw": "令和３年度の成果",
+        "start": 446,
+        "reason": "残る人口・観光消費・入学率・医師数等のKPI、包括的政策章及び将来の方向性は独立事業レコードにしない。個別名・対象範囲を示す証拠がないものは保留。",
+        "status": "policy_or_indicator_identity_hold"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "f0f99dd5661c663edfdcd630",
+    "municipalityCode": "34462",
+    "municipalityName": "世羅町",
+    "url": "https://www.town.sera.hiroshima.jp/uploaded/attachment/6917.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "04917512d1a90ae0a94f08df082c039f21e975561a0c2fe1141334daf88da4fe",
+    "sourceSha256": "c5ef34f13fb0701d18a5baa68271f1bd7dbdc86bf9e62070d0360f33acd38300",
+    "fetchedAt": "2026-10-23T19:22:26.901Z",
+    "characters": 2066,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 4,
+    "parserStatus": "duplicate",
+    "reviewStatus": "duplicate",
+    "proposals": 2,
+    "holds": [],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "98c8265179881b46ed64a97a",
+    "municipalityCode": "34431",
+    "municipalityName": "大崎上島町",
+    "url": "https://www.town.osakikamijima.hiroshima.jp/material/files/group/8/syakaisihon-jigohyouka.pdf",
+    "inventoryStatus": "missing_or_incomplete_cached_body",
+    "fullTextSha256": null,
+    "sourceSha256": null,
+    "fetchedAt": null,
+    "characters": null,
+    "continuationParts": null,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "missing_body",
+    "reviewStatus": "missing_body",
+    "proposals": 0,
+    "holds": [
+      {
+        "status": "missing_body",
+        "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
+      }
+    ],
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
+  },
+  {
+    "sourceId": "2d7125f85c4517d08448e802",
+    "municipalityCode": "34431",
+    "municipalityName": "大崎上島町",
+    "url": "https://www.town.osakikamijima.hiroshima.jp/soshiki/kikaku/1234/6473.html",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "480e881896259f021ba268e8e95222bb781abe65dbcf93bad0722858ed6c8a2f",
+    "sourceSha256": "21fdaa59fe4a7c6d28178aaa51602b37bf35a118a46c0302aafef6f5d3eaa791",
+    "fetchedAt": "2026-10-21T08:44:28.641Z",
+    "characters": 952,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_or_policy_outline",
+    "reviewStatus": "navigation_or_policy_outline",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "新型コロナウイルス感染症対応地方創生臨時交付金及び物価高騰対応重点支援地方創生臨時交付金活用事業について／大崎上島町",
+        "start": 0,
+        "reason": "全保存本文を確認。リンク一覧・評価制度・政策体系・会議資料名であり独立事業の対象年度と個票を確定できない。公表日や会議年から事業年を補わない。関連本文は別sourceIdで審査する。",
+        "status": "no_individual_annual_sheet"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "1498e9299e5a7f2be6b168d0",
+    "municipalityCode": "34431",
+    "municipalityName": "大崎上島町",
+    "url": "https://www.town.osakikamijima.hiroshima.jp/material/files/group/20/R7kouka.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "4dbff74b22b26b298f9299a43d4671b324a1d12cdee47190deb2f4262ae554c9",
+    "sourceSha256": "bbfe225bdad8fe066fb1d615a4b37cf30a2e2d6198238e69f3343a9aaba89b73",
+    "fetchedAt": "2026-10-23T19:22:05.154Z",
+    "characters": 2532,
+    "continuationParts": 0,
+    "accepted": 11,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 11,
+    "holds": [],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "c45717b600d44c8ca26bdb98",
+    "municipalityCode": "34431",
+    "municipalityName": "大崎上島町",
+    "url": "https://www.town.osakikamijima.hiroshima.jp/material/files/group/20/R6_zyuuten_kouhyou_.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "d96a1aa905912224b60c0106f39ea00c20b5d0d1773872278afcd0da4c5c5e89",
+    "sourceSha256": "e79a00d5bbf11231dcde532cbba08736534040bc5d324a8cb0135de78e56ba5a",
+    "fetchedAt": "2026-10-23T19:22:08.370Z",
+    "characters": 1242,
+    "continuationParts": 0,
+    "accepted": 5,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 5,
+    "holds": [],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "d6561794d5e787ff19eab9c6",
+    "municipalityCode": "34431",
+    "municipalityName": "大崎上島町",
+    "url": "https://www.town.osakikamijima.hiroshima.jp/material/files/group/20/R5_corona_zyuuten_kouhyou.xlsx",
+    "inventoryStatus": "missing_or_incomplete_cached_body",
+    "fullTextSha256": null,
+    "sourceSha256": null,
+    "fetchedAt": null,
+    "characters": null,
+    "continuationParts": null,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "missing_body",
+    "reviewStatus": "missing_body",
+    "proposals": 0,
+    "holds": [
+      {
+        "status": "missing_body",
+        "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
+      }
+    ],
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
+  },
+  {
+    "sourceId": "e7bdd83e7650be260dd34dce",
+    "municipalityCode": "34431",
+    "municipalityName": "大崎上島町",
+    "url": "https://www.town.osakikamijima.hiroshima.jp/material/files/group/20/R4_kouhyou.xlsx",
+    "inventoryStatus": "missing_or_incomplete_cached_body",
+    "fullTextSha256": null,
+    "sourceSha256": null,
+    "fetchedAt": null,
+    "characters": null,
+    "continuationParts": null,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "missing_body",
+    "reviewStatus": "missing_body",
+    "proposals": 0,
+    "holds": [
+      {
+        "status": "missing_body",
+        "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
+      }
+    ],
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
+  },
+  {
+    "sourceId": "b73fe78325d002ee6163f2fc",
+    "municipalityCode": "34431",
+    "municipalityName": "大崎上島町",
+    "url": "https://www.town.osakikamijima.hiroshima.jp/material/files/group/20/R3_kouhyou.xlsx",
+    "inventoryStatus": "missing_or_incomplete_cached_body",
+    "fullTextSha256": null,
+    "sourceSha256": null,
+    "fetchedAt": null,
+    "characters": null,
+    "continuationParts": null,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "missing_body",
+    "reviewStatus": "missing_body",
+    "proposals": 0,
+    "holds": [
+      {
+        "status": "missing_body",
+        "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
+      }
+    ],
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
+  },
+  {
+    "sourceId": "30db86856627d4ca1f625b71",
+    "municipalityCode": "34431",
+    "municipalityName": "大崎上島町",
+    "url": "https://www.town.osakikamijima.hiroshima.jp/material/files/group/2/R2_kouhyou.xlsx",
+    "inventoryStatus": "missing_or_incomplete_cached_body",
+    "fullTextSha256": null,
+    "sourceSha256": null,
+    "fetchedAt": null,
+    "characters": null,
+    "continuationParts": null,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "missing_body",
+    "reviewStatus": "missing_body",
+    "proposals": 0,
+    "holds": [
+      {
+        "status": "missing_body",
+        "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
+      }
+    ],
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
+  },
+  {
+    "sourceId": "8043b98b2ff81d4b46204e05",
+    "municipalityCode": "34369",
+    "municipalityName": "北広島町",
+    "url": "https://www.town.kitahiroshima.lg.jp/soshiki/4/1221.html",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "2ec192eb8b364b5388eebf6165a3c37eb498bd5274b30478dc6bfba15a87d250",
+    "sourceSha256": "2654620d01b3cb1a3bf3c22e1099f3e71c7a8ec4fa2467e6436b5f65cbeeaab0",
+    "fetchedAt": "2026-10-21T08:44:29.407Z",
+    "characters": 6500,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_or_policy_outline",
+    "reviewStatus": "navigation_or_policy_outline",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "第2次北広島町長期総合計画 - 北広島町ホームページ",
+        "start": 0,
+        "reason": "全保存本文を確認。リンク一覧・評価制度・政策体系・会議資料名であり独立事業の対象年度と個票を確定できない。公表日や会議年から事業年を補わない。関連本文は別sourceIdで審査する。",
+        "status": "no_individual_annual_sheet"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "88d5b0951f3cad04d5acea87",
+    "municipalityCode": "34369",
+    "municipalityName": "北広島町",
+    "url": "https://www.town.kitahiroshima.lg.jp/uploaded/attachment/27495.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "8a537ea83e31c40ceda3cc799324bff7bd4998dcdff94e4c131503b7a48f0f2e",
+    "sourceSha256": "dc2cb3e3e84068f17b8c3de73e5b41adc9098e609d2a7e6a33de22dbd740eea7",
+    "fetchedAt": "2026-10-21T08:44:31.267Z",
+    "characters": 3119,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "evaluation_framework_not_projects",
+    "reviewStatus": "evaluation_framework_not_projects",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "令和６年度実施事業の評価・検証について\n\n資料２\n\n１．まちづくり総合委員会での評価・検証の趣旨\n(１) 長期総合計画\n長期総合計画は、「めざすまちの将来像」を実現するため、計画で設定する目標※の\n達成状況を評価・検証し、効果的な施策の改善を図る体制として、\nまちづくり総合委員会を設置することを定めています。\n※長期総合計画では、計画の進捗を客観的に評価・検証する\n成果指標（重要行政評価指標（KPI）\n）を設定しています。\n\n【第２次北広島町長期総合計画】\n第２次北広島町長期総合計画は、町民が「住みたい、住んで良かった、住み続けたい」と満足\n感と幸福感を感じられるまちをめざし、平成 29 年度から 10 年間の総合的なまちづくりの指針\nとなる計画として策定しました。\n\n第２次長期総合計画の構成\n基本構想\n\nまちづくりの基本理念や本町がめざすまちの将来像、将来像を実現するための\n重点方針等を示したもの\n\n基本計画\n\n【計画期間：Ｈ29 年度～Ｒ８年度】\n\n基本構想を実現するための重点的な取組、具体的な施策・個別施策を体系的に\n示すもの\n\n【前期期間：Ｈ29 年度～Ｒ３年度】\n【後期期間：Ｒ４年度～Ｒ８年度】\n\n実施計画\n\n基本計画で定めた施策体系に基づいて事業施策方針を明らかにし、実施する事\n業を体系的に示すもの\n\n後期基本計画の取組概要\n施策分野\n\n重点的な取組\n\n〈施策分野Ⅰ〉\n\n① 農業・畜産業の振興\n\n❶事業承継及び担い手の確保\n\n活力のある産業の\n\n② 林業・水産業の振興\n\n❷商品やサービスのブランド化\n\n創造と成長\n\n③ 商工業の振興\n\nによる販路拡大\n\n④ 起業支援と担い手育成\n〈施策分野Ⅱ〉\n\n① 暮らしの基盤となる住環境の充実\n\n❶旧町を超えた地域交流の拡大\n\nにぎわいと活気に\n\n② 子どもの健やかな成長を支える環境づくり\n\n❷\"北広島ブランド\"としての魅\n\n満ちたまちづくり\n\n③ すべての人への充実した教育・学びの提供\n\n力の磨き上げと情報発信\n\n④ 歴史・文化・伝統の継承と発信\n⑤ 移住・定住を促すＰＲと受け入れ体制の強化\n⑥ 交流を生むまちの魅力づくりと観光振興\n⑦ スポーツを通じたまちづくりの推進\n\n1\n\n\n施策分野\n\n重点的な取組\n\n〈施策分野Ⅲ〉\n\n① 地域福祉の推進\n\n安心して元気に暮\n\n② 健康づくり・元気づくりの推進\n\n❶持続可能な地域コミュニティ\n\nらせる地域の創出\n\n③ 高齢者福祉の推進\n\nの充実・強化\n❷健康づくり・元気づくりの推\n\n④ 障がい者福祉の推進\n\n進\n\n⑤ 人権の尊重・共生社会の実現\n〈施策分野Ⅳ〉\n\n① 地域の拠点づくりとネットワークの形成\n\n生活基盤の強化・強\n\n② 交通環境の整備と移動に係る利便性の確保\n\n点とネットワークづくり\n\n靭化\n\n③ 情報通信技術の基盤整備と利活用の推進\n\n❷新たな情報通信技術を活用し\n\n④ 生物多様性の保全と持続可能な循環型社会の形成\n\n❶生活機能を維持するための拠\n\nた利便性の向上\n\n⑤ 水を大切にする暮らしの維持\n⑥ 災害や緊急時に強い地域社会の実現\n⑦ 安全な暮らしの確保\n〈施策分野Ⅴ〉\n\n① 町民と行政による協働のまちづくり\n\n住民のための行財\n\n② 健全な行財政改革\n\n❶地域間をつなぐ人材ネットワ\nークの仕組みづくり\n\n政運営\n\n❷DX（デジタルトランスフォー\nメーション）の導入によるス\nマート化\n\n(２) 総合戦略\n総合戦略は、住民、地域、団体、企業、行政など町全体で共有し、協働して推進する計画で\nあるため、ＰＤCA の各過程においても、町全体が関わる体制を構築し、高い実行性を確保\nすることが必要です。\n北広島町総合戦略では、町内各界各層とともに推進・検証をしていくための有識者会議と\nして、まちづくり総合委員会を設置することを規定しています。\n※総合戦略の推進にあたっては、長期総合計画と整合した成果指標\n（重要行政評価指標（KPI））を設定しています。\n\n【第２期北広島町総合戦略】\n第２期北広島町総合戦略は、\n「北広島町人口ビジョン」における課題を踏まえ、めざすべき将\n来の方向を定め、人口の将来展望を実現することを目的に、今後５年間で重点的に取り組む施\n策、事業を定めています。\n\nめざすべき将来の方向性\n（１） 「北広島町での暮らし」 を選択する定住者の増加\n（２） 「結婚・出産・子育ての希望」 をかなえられる環境の整備\n（３） 高齢化・過疎化に対応した、生活機能を維持できる地域づくり\n（４） 関係人口の創出・拡大による都市部とのつながり強化\n（５） 新しい時代の流れを力にする Society5.0、SDGｓ の推進\n\n2\n\n\n２．令和６年度実施事業の評価・検証\n（１） 評価・検証の手順\n令和６年度 実施事業についての評価・検証を、次の手順で実施します。\nCheck\n\nAction\n\n①内部評価\n\n②検証\n\n③見直し改善\n\n事業担当課\n\nまちづくり総合委員会\n\n担当課\n\n① 内部評価（事業成果と課題・問題点の整理）\n第２次北広島町長期総合計画・総合戦略の推進にあたって、成果指標（KPI）の達成状況と\nあわせ、令和６年度決算資料を元に、\n「令和６年度主要施策の概要」として事業成果（目標達\n成状況）と課題・問題点をとりまとめました。\n\n② 検証（効果的な施策の改善を図るために）\n前記①「令和６年度主要施策の概要」に記載する、成果指標（KPI）の達成状況および「事\n業成果（目標達成状況）と課題・問題点」について、効果的な施策の改善を図るためにまちづ\nくり総合委員会においてご意見をいただきます。\n\n③ 見直し改善\n計画の着実な進捗を図るため、前記②による検証の結果を踏まえ、事務事業の見直しや改\n善に努め、\n「Plan（計画）\n」\n「Do（実行）\n」\n「Check（評価・検証）\n」\n「Action（改善）\n」サイクルを\n確立します。\n評価・検証の結果については、透明性を確保するためホームページを通じて広く公表しま\nす。\n過去の検証結果（北広島町ホームページ：第 2 次北広島町長期総合計画）\nhttps://www.town.kitahiroshima.lg.jp/soshiki/4/1221.html\n\n3\n\n\n（参考資料）\n（参考１） 北広島町まちづくり基本条例\n(評価)\n第 41 条 町は、総合計画などの重要な計画、予算、決算、事務内容などについて評価を実\n施しなければならない。\n２ 町は、前項の評価の結果を分かりやすく住民に公表し、政策や事務執行に反映しなけれ\nばならない。\n\n（参考２） 長期総合計画と、人口ビジョン・総合戦略との関係\n「地方人口ビジョン」\n・\n「地方版総合戦略」の策定は、法律上は努力義務ですが、\n「まち・ひ\nと・しごと創生」に関する施策として国の交付金を受けるための前提条件であり、国の「長期\nビジョン」\n・\n「総合戦略」を勘案して、平成２７年度中に、ほぼ全ての県・市町村で策定されま\nした。\n北広島町では、人口減少と地域経済縮小の克服を目指し、「まち・ひと・しごと創生法」に\n基づき「北広島町人口ビジョン」\n・\n「北広島町総合戦略」を平成 27 年 10 月に策定しました。\n\n総合戦略は、第２次長期総合計画の基本構想と基本計画の一部、実施計画の一部\nと位置付けています。\n\n・ 北広島町人口ビジョン （対象期間：2060 年まで）\n・ 第２期北広島町総合戦略 （計画期間：令和２年度から令和６年度までの５年間※）\n\n4",
+        "start": 0,
+        "reason": "総合計画の評価手順・政策分野及び総合戦略の説明資料。個別実績票は別冊140票で照合。",
+        "status": "policy_framework"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "5565c33146172695cb5c5757",
+    "municipalityCode": "34369",
+    "municipalityName": "北広島町",
+    "url": "https://www.town.kitahiroshima.lg.jp/uploaded/attachment/27496.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "123c9eb40f9ff36fca51242ce7f841f59d2a5c83d81990db3ba4514663affaef",
+    "sourceSha256": "807fe378c7b9a64ff6d99f2b0c01901b9b0c0c7e8e16288e814e01b801bc6087",
+    "fetchedAt": "2026-10-21T08:44:36.981Z",
+    "characters": 169053,
+    "continuationParts": 1,
+    "accepted": 1,
+    "duplicates": 279,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 140,
+    "holds": [],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "d0d8568f4e3947dfa89d8fcb",
+    "municipalityCode": "34368",
+    "municipalityName": "安芸太田町",
+    "url": "https://www.akiota.jp/soshiki/5/11229.html",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "8d0b49bacdcf07a62d448c13588f17fb3ac58f74221541dcef6d90531b58851d",
+    "sourceSha256": "5a8524e97956f3c5c59ef3126fb40201f0d836f1abb3834c499193a97d44e0fa",
+    "fetchedAt": "2026-10-21T08:44:27.886Z",
+    "characters": 489,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_or_policy_outline",
+    "reviewStatus": "navigation_or_policy_outline",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "物価高騰対応重点支援地方創生臨時交付金 - 安芸太田町公式サイト",
+        "start": 0,
+        "reason": "全保存本文を確認。リンク一覧・評価制度・政策体系・会議資料名であり独立事業の対象年度と個票を確定できない。公表日や会議年から事業年を補わない。関連本文は別sourceIdで審査する。",
+        "status": "no_individual_annual_sheet"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "e6b980c94ae3646d82a86bbc",
+    "municipalityCode": "34368",
+    "municipalityName": "安芸太田町",
+    "url": "https://www.akiota.jp/uploaded/attachment/10719.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "0652691ef5f2dce41ad57260971b3675537637317a4c6f9de7fb73adbe64a0ed",
+    "sourceSha256": "5fa2852519efdb332f3f967d57fcea3b5f22874079f7c77546a16c1d8c9a4d97",
+    "fetchedAt": "2026-10-23T19:22:03.313Z",
+    "characters": 3909,
+    "continuationParts": 0,
+    "accepted": 12,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 12,
+    "holds": [],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "4e0c308e5b9a812fa58df2c2",
+    "municipalityCode": "34309",
+    "municipalityName": "坂町",
+    "url": "https://www.town.saka.lg.jp/2023/05/26/%E6%95%99%E8%82%B2%E5%A7%94%E5%93%A1%E4%BC%9A%E4%BA%8B%E5%8B%99%E7%82%B9%E6%A4%9C%E3%83%BB%E8%A9%95%E4%BE%A1%E5%A0%B1%E5%91%8A%E6%9B%B8/",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "03e1944d4d8e4843871a3aa3003241d64d20a763217468b4a417cd9b270a8bb3",
+    "sourceSha256": "bc0b2a219e8a84942591d410afe43b6134a42dd7bb8aa3946fdf68c517f047db",
+    "fetchedAt": "2026-10-21T08:44:27.623Z",
+    "characters": 762,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_or_policy_outline",
+    "reviewStatus": "navigation_or_policy_outline",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "教育委員会事務点検・評価報告書 – 広島県 坂町役場 ホームページ",
+        "start": 0,
+        "reason": "全保存本文を確認。リンク一覧・評価制度・政策体系・会議資料名であり独立事業の対象年度と個票を確定できない。公表日や会議年から事業年を補わない。関連本文は別sourceIdで審査する。",
+        "status": "no_individual_annual_sheet"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "c4d03a632696949eb0cee4cd",
+    "municipalityCode": "34309",
+    "municipalityName": "坂町",
+    "url": "https://www.town.saka.lg.jp/wp-content/uploads/2000/sites/03/files/cyousei_info/seisaku_houshin/kyouiku/images/houkokuH20.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "9dc862316c9b24f126dba2db404c2d549a7e62bce379c9f286ba506dfd6138f9",
+    "sourceSha256": "fbbc039a6e2fffe79c8792798c46672cea7f400f999bbc60ae56a2d9a29d02b8",
+    "fetchedAt": "2026-10-21T08:44:29.380Z",
+    "characters": 16300,
+    "continuationParts": 0,
+    "accepted": 14,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 14,
+    "holds": [
+      {
+        "raw": "対象年度\n平成２０年度",
+        "start": 1122,
+        "reason": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "status": "general_activity_individual_boundary_unresolved",
+        "note": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "previousReason": "残る政策目標・普通の授業活動・史編さんの断片・協議会内の道徳参観日等は独立事業の範囲を未確認。白リスト外の名称を含めた全票内容確認は継続中。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "539bdc5c866a032bb53578ea",
+    "municipalityCode": "34309",
+    "municipalityName": "坂町",
+    "url": "https://www.town.saka.lg.jp/wp-content/uploads/2000/sites/03/files/cyousei_info/seisaku_houshin/kyouiku/images/houkokuH21.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "c74c182a67a685913be74bf61e3756b66daa7fc0074ea288b1ad33882a6cb1b7",
+    "sourceSha256": "e2c07603e46516a1c89ba097664b85d8fd2ae31a5af9d1fa92e912dc1062ada1",
+    "fetchedAt": "2026-10-21T08:44:31.132Z",
+    "characters": 18548,
+    "continuationParts": 0,
+    "accepted": 14,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 14,
+    "holds": [
+      {
+        "raw": "対象年度\n平成２１年度",
+        "start": 1081,
+        "reason": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "status": "general_activity_individual_boundary_unresolved",
+        "note": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "previousReason": "残る政策目標・普通の授業活動・史編さんの断片・協議会内の道徳参観日等は独立事業の範囲を未確認。白リスト外の名称を含めた全票内容確認は継続中。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "abd560855eb0bf3301cd5bc1",
+    "municipalityCode": "34309",
+    "municipalityName": "坂町",
+    "url": "https://www.town.saka.lg.jp/wp-content/uploads/2000/sites/03/files/cyousei_info/seisaku_houshin/kyouiku/images/houkokuH22_000.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "4f3eb9880c8dd76f9424d0f6bc5c87ad156b9f768de295d7cf4dd7916c88a60e",
+    "sourceSha256": "3c3dd21ec972c314c71e02d47fc2e4f7d93f1e58d08c609348211e460d9e44f6",
+    "fetchedAt": "2026-10-21T08:44:32.834Z",
+    "characters": 18585,
+    "continuationParts": 0,
+    "accepted": 14,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 14,
+    "holds": [
+      {
+        "raw": "対象年度\n平成２２年度",
+        "start": 987,
+        "reason": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "status": "general_activity_individual_boundary_unresolved",
+        "note": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "previousReason": "残る政策目標・普通の授業活動・史編さんの断片・協議会内の道徳参観日等は独立事業の範囲を未確認。白リスト外の名称を含めた全票内容確認は継続中。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "d1ba46e08a873930efcc7e21",
+    "municipalityCode": "34309",
+    "municipalityName": "坂町",
+    "url": "https://www.town.saka.lg.jp/wp-content/uploads/2000/sites/03/files/cyousei_info/seisaku_houshin/kyouiku/images/23_jimutenken.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "4f23df821b7d052738d9bfb20b24794e6635cdf9e12e9204973f92490b0c22e4",
+    "sourceSha256": "17dfd024ca3511349f5db868cac1c84979d301fb1468f42141b5ab007387b1df",
+    "fetchedAt": "2026-10-23T19:21:54.584Z",
+    "characters": 20689,
+    "continuationParts": 0,
+    "accepted": 15,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 15,
+    "holds": [
+      {
+        "raw": "対象年度\n平成２３年度",
+        "start": 1040,
+        "reason": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "status": "general_activity_individual_boundary_unresolved",
+        "note": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "previousReason": "残る政策目標・普通の授業活動・史編さんの断片・協議会内の道徳参観日等は独立事業の範囲を未確認。白リスト外の名称を含めた全票内容確認は継続中。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "e5c6523084502deeec039466",
+    "municipalityCode": "34309",
+    "municipalityName": "坂町",
+    "url": "https://www.town.saka.lg.jp/wp-content/uploads/2000/sites/03/files/cyousei_info/seisaku_houshin/kyouiku/images/tenkenhyouka_24.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "0311ffd28de12e2f3c185cc5546184a7c15a30e6f24d8186220707abaa368e05",
+    "sourceSha256": "53c96b1549ca03ee8ff4471193f97af4ed135917c941f711636ff5912c1a6f3b",
+    "fetchedAt": "2026-10-23T19:21:57.730Z",
+    "characters": 19782,
+    "continuationParts": 0,
+    "accepted": 17,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 17,
+    "holds": [
+      {
+        "raw": "対象年度\n平成２４年度",
+        "start": 1025,
+        "reason": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "status": "general_activity_individual_boundary_unresolved",
+        "note": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "previousReason": "残る政策目標・普通の授業活動・史編さんの断片・協議会内の道徳参観日等は独立事業の範囲を未確認。白リスト外の名称を含めた全票内容確認は継続中。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "ede19b1365e901eb8d2c1ce5",
+    "municipalityCode": "34309",
+    "municipalityName": "坂町",
+    "url": "https://www.town.saka.lg.jp/wp-content/uploads/2000/sites/03/files/cyousei_info/seisaku_houshin/kyouiku/images/tenkenhyouka_h25.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "4f6a79c9cbb184e63535ef4c7d9fa053b299100628b894d0c0558307f6c634ce",
+    "sourceSha256": "3f48ab1a1d95b75cc2ed6a9d0df27ceb692cac8ada6d497771a1d9121cf7c4f6",
+    "fetchedAt": "2026-10-23T19:22:00.106Z",
+    "characters": 28502,
+    "continuationParts": 0,
+    "accepted": 19,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 19,
+    "holds": [
+      {
+        "raw": "対象年度\n平成２５年度",
+        "start": 1036,
+        "reason": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "status": "general_activity_individual_boundary_unresolved",
+        "note": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "previousReason": "残る政策目標・普通の授業活動・史編さんの断片・協議会内の道徳参観日等は独立事業の範囲を未確認。白リスト外の名称を含めた全票内容確認は継続中。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "07cbdeee1c8cfac58a2cdcca",
+    "municipalityCode": "34309",
+    "municipalityName": "坂町",
+    "url": "https://www.town.saka.lg.jp/wp-content/uploads/2000/sites/03/files/cyousei_info/seisaku_houshin/kyouiku/images/H26_tenkenhyouka.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "f93aeaf43c5532b86952ecf29fdada55b8f816d486373eaa9b885dabd56a3670",
+    "sourceSha256": "59117cc577ddc12c59b5d255160ab52d70e0a52c10cec295589f1d2e9ac5a65b",
+    "fetchedAt": "2026-10-23T19:22:03.371Z",
+    "characters": 27143,
+    "continuationParts": 0,
+    "accepted": 22,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 22,
+    "holds": [
+      {
+        "raw": "対象年度\n平成２６年度",
+        "start": 1040,
+        "reason": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "status": "general_activity_individual_boundary_unresolved",
+        "note": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "previousReason": "残る政策目標・普通の授業活動・史編さんの断片・協議会内の道徳参観日等は独立事業の範囲を未確認。白リスト外の名称を含めた全票内容確認は継続中。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "b9344c367ad96e228dc72152",
+    "municipalityCode": "34309",
+    "municipalityName": "坂町",
+    "url": "https://www.town.saka.lg.jp/wp-content/uploads/2000/sites/03/files/cyousei_info/seisaku_houshin/kyouiku/images/H27_tenkenhyouka.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "6ce490cf7736278f7e4537c3cfb1fd6c3ec299a2c331c4d797f291f82d099732",
+    "sourceSha256": "7f3bcc041087d8e98093ed76c4f3127403407ffbd999e222ec6cddbe22093110",
+    "fetchedAt": "2026-10-23T19:22:06.537Z",
+    "characters": 28445,
+    "continuationParts": 0,
+    "accepted": 25,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 25,
+    "holds": [
+      {
+        "raw": "対象年度\n平成２７年度",
+        "start": 1044,
+        "reason": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "status": "general_activity_individual_boundary_unresolved",
+        "note": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "previousReason": "残る政策目標・普通の授業活動・史編さんの断片・協議会内の道徳参観日等は独立事業の範囲を未確認。白リスト外の名称を含めた全票内容確認は継続中。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "4dfa8dee02be878b31208e49",
+    "municipalityCode": "34309",
+    "municipalityName": "坂町",
+    "url": "https://www.town.saka.lg.jp/wp-content/uploads/2000/sites/03/files/cyousei_info/images/h28tenkenhyouka_1.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "e9c73a3537aa62fab97b16fdb8f52ef3f4fc5f2148a39c91c591feb52236fe73",
+    "sourceSha256": "bc468b506a3f9851725b4168bde8f4e0d4ff93a718ff6d200b2d671adff2b3fa",
+    "fetchedAt": "2026-10-23T19:22:09.551Z",
+    "characters": 30315,
+    "continuationParts": 0,
+    "accepted": 23,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 23,
+    "holds": [
+      {
+        "raw": "対象年度\n平成２８年度",
+        "start": 1073,
+        "reason": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "status": "general_activity_individual_boundary_unresolved",
+        "note": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "previousReason": "残る政策目標・普通の授業活動・史編さんの断片・協議会内の道徳参観日等は独立事業の範囲を未確認。白リスト外の名称を含めた全票内容確認は継続中。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "048cd4d8de0c19c90e8c3268",
+    "municipalityCode": "34309",
+    "municipalityName": "坂町",
+    "url": "https://www.town.saka.lg.jp/wp-content/uploads/2000/sites/03/files/cyousei_info/images/H29tenkenhyouka.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "df8f47bf0d613dfaef630770016c3dacfc97005da00dbe8fb3ddc871d0b88822",
+    "sourceSha256": "10791f6d97b290df2b7eef9a337318e81717a6fd1e92f809af658bda71377c1d",
+    "fetchedAt": "2026-10-23T19:22:12.093Z",
+    "characters": 30887,
+    "continuationParts": 0,
+    "accepted": 23,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 23,
+    "holds": [
+      {
+        "raw": "対象年度\n平成２９年度",
+        "start": 1080,
+        "reason": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "status": "general_activity_individual_boundary_unresolved",
+        "note": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "previousReason": "残る政策目標・普通の授業活動・史編さんの断片・協議会内の道徳参観日等は独立事業の範囲を未確認。白リスト外の名称を含めた全票内容確認は継続中。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "29462634940779f1015fe793",
+    "municipalityCode": "34309",
+    "municipalityName": "坂町",
+    "url": "https://www.town.saka.lg.jp/wp-content/uploads/2000/sites/03/files/cyousei_info/images/H30tenkenhyouka.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "37daaa23bf22df71d362c7fb3012c60d92c584d6af164a954605c719354e7217",
+    "sourceSha256": "1459b212a7e527ad272b3729cb6840fa4e763e7c541bfe204d9664159b49f954",
+    "fetchedAt": "2026-10-23T19:22:14.732Z",
+    "characters": 25724,
+    "continuationParts": 0,
+    "accepted": 18,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 18,
+    "holds": [
+      {
+        "raw": "対象年度\n平成３０年度",
+        "start": 1009,
+        "reason": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "status": "general_activity_individual_boundary_unresolved",
+        "note": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "previousReason": "残る政策目標・普通の授業活動・史編さんの断片・協議会内の道徳参観日等は独立事業の範囲を未確認。白リスト外の名称を含めた全票内容確認は継続中。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "7d13b86ebfc55a173ca30e38",
+    "municipalityCode": "34309",
+    "municipalityName": "坂町",
+    "url": "https://www.town.saka.lg.jp/wp-content/uploads/2000/sites/03/files/cyousei_info/images/R01tenkenhyouka_1.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "dc385503495eaa3d6e04045919ac89696d93488bc1bca99857ddd7c6a89864fb",
+    "sourceSha256": "c7471e709cd192fdf0995c736985e97081e2a1c61414113809028acc98f5675e",
+    "fetchedAt": "2026-10-23T19:22:17.420Z",
+    "characters": 21239,
+    "continuationParts": 0,
+    "accepted": 17,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 17,
+    "holds": [
+      {
+        "raw": "対象年度\n令和元年度",
+        "start": 968,
+        "reason": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "status": "general_activity_individual_boundary_unresolved",
+        "note": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "previousReason": "残る政策目標・普通の授業活動・史編さんの断片・協議会内の道徳参観日等は独立事業の範囲を未確認。白リスト外の名称を含めた全票内容確認は継続中。"
+      },
+      {
+        "raw": "広島県 PTA 連合会研修会",
+        "start": 20563,
+        "status": "event_identity_or_cancelled_hold",
+        "reason": "県PTA連合会の研修会は町の独立事業としての実施主体が確定せず未採用。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "90a341714420a90cf3a63214",
+    "municipalityCode": "34309",
+    "municipalityName": "坂町",
+    "url": "https://www.town.saka.lg.jp/wp-content/uploads/2000/sites/03/files/cyousei_info/images/R02tenkenhyouka.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "504c3519e4faaa6d8be207735b4298cceb196c290f6a93e053ea85dd70fa1d5f",
+    "sourceSha256": "26b1653ddc85c713b041560512516620a56acadfaaefb1853aa1649871109d66",
+    "fetchedAt": "2026-10-23T19:22:20.179Z",
+    "characters": 28545,
+    "continuationParts": 0,
+    "accepted": 14,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 14,
+    "holds": [
+      {
+        "raw": "対象年度\n令和２年度",
+        "start": 1000,
+        "reason": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "status": "general_activity_individual_boundary_unresolved",
+        "note": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "previousReason": "残る政策目標・普通の授業活動・史編さんの断片・協議会内の道徳参観日等は独立事業の範囲を未確認。白リスト外の名称を含めた全票内容確認は継続中。"
+      },
+      {
+        "raw": "各種（主催）イベントの開催",
+        "start": 27356,
+        "status": "event_identity_or_cancelled_hold",
+        "reason": "2020年度の掲載イベントは中止、2021年度も平和音楽祭・のど自慢は中止と明示。実施済みイベントとして追加しない。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "7bf6d509b4c79f59ba41295c",
+    "municipalityCode": "34309",
+    "municipalityName": "坂町",
+    "url": "https://www.town.saka.lg.jp/wp-content/uploads/2023/05/令和3年度事務点検・評価報告.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "da31c3b4569662b8c62f307daacf9a268ae37d980ea9ded8ae8a52701251dfb4",
+    "sourceSha256": "53193dcddec4f71e224b97dae28e08887a091239a05bdaa8c41097d05d78a333",
+    "fetchedAt": "2026-10-23T19:22:23.298Z",
+    "characters": 24895,
+    "continuationParts": 0,
+    "accepted": 17,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 17,
+    "holds": [
+      {
+        "raw": "対象年度\n令和３年度",
+        "start": 1094,
+        "reason": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "status": "general_activity_individual_boundary_unresolved",
+        "note": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "previousReason": "残る政策目標・普通の授業活動・史編さんの断片・協議会内の道徳参観日等は独立事業の範囲を未確認。白リスト外の名称を含めた全票内容確認は継続中。"
+      },
+      {
+        "raw": "各種（主催）イベントの開催",
+        "start": 23523,
+        "status": "event_identity_or_cancelled_hold",
+        "reason": "2020年度の掲載イベントは中止、2021年度も平和音楽祭・のど自慢は中止と明示。実施済みイベントとして追加しない。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "7165760cfcafcf8bc68fab39",
+    "municipalityCode": "34309",
+    "municipalityName": "坂町",
+    "url": "https://www.town.saka.lg.jp/wp-content/uploads/2023/05/令和４年度事務点検・評価報告書（PDFファイル：MB）.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "5dcfa11001be90e2b21c6d688e018d1842b240b0380eb709395ea7c6d94dbf34",
+    "sourceSha256": "3aa97de69c9479454fa924e48486ec7816a7fae1733d21d4b429f140a952cb6a",
+    "fetchedAt": "2026-10-23T19:22:26.135Z",
+    "characters": 26208,
+    "continuationParts": 0,
+    "accepted": 22,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 22,
+    "holds": [
+      {
+        "raw": "対象年度\n令和４年度",
+        "start": 1002,
+        "reason": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "status": "general_activity_individual_boundary_unresolved",
+        "note": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "previousReason": "残る政策目標・普通の授業活動・史編さんの断片・協議会内の道徳参観日等は独立事業の範囲を未確認。白リスト外の名称を含めた全票内容確認は継続中。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "08370e552ea8b35028e9b88c",
+    "municipalityCode": "34309",
+    "municipalityName": "坂町",
+    "url": "https://www.town.saka.lg.jp/wp-content/uploads/2023/05/令和５年度事務点検・評価報告書（PDFファイル：MB）-1.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "dadb4b0035aaa68feb1e47bf70dabd9d9920aeba9fcff43b37b04844472195d5",
+    "sourceSha256": "58346dc5ffcd76cf9a781baedd781bf40f5d87b4362b282b18232b16c4b88283",
+    "fetchedAt": "2026-10-23T19:22:29.467Z",
+    "characters": 33589,
+    "continuationParts": 0,
+    "accepted": 19,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 19,
+    "holds": [
+      {
+        "raw": "対象年度\n令和５年度",
+        "start": 1003,
+        "reason": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "status": "general_activity_individual_boundary_unresolved",
+        "note": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "previousReason": "残る政策目標・普通の授業活動・史編さんの断片・協議会内の道徳参観日等は独立事業の範囲を未確認。白リスト外の名称を含めた全票内容確認は継続中。"
+      },
+      {
+        "raw": "第１５回吹奏楽フェスティバル",
+        "start": 32010,
+        "status": "event_identity_or_cancelled_hold",
+        "reason": "2023・2024年度の両本文に同じ第15回表記。年次の公演同一性が未解決のため、この2行を採用しない。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "47348d4bbf1d3a4df2a3616e",
+    "municipalityCode": "34309",
+    "municipalityName": "坂町",
+    "url": "https://www.town.saka.lg.jp/wp-content/uploads/2023/05/令和６年度事務点検・評価報告書.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "cfd07f3740865c07e55317a6d23efb0a31796bb222495733e144536d37f726cc",
+    "sourceSha256": "91cd2afdf6d5a5b42cffad0d15544b1f1c7253421b19ca56c3665f6f3d1fcd06",
+    "fetchedAt": "2026-10-23T19:22:32.480Z",
+    "characters": 35609,
+    "continuationParts": 0,
+    "accepted": 23,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 23,
+    "holds": [
+      {
+        "raw": "対象年度\n令和６年度",
+        "start": 1091,
+        "reason": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "status": "general_activity_individual_boundary_unresolved",
+        "note": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "previousReason": "残る政策目標・普通の授業活動・史編さんの断片・協議会内の道徳参観日等は独立事業の範囲を未確認。白リスト外の名称を含めた全票内容確認は継続中。"
+      },
+      {
+        "raw": "第１５回吹奏楽フェスティバル",
+        "start": 34274,
+        "status": "event_identity_or_cancelled_hold",
+        "reason": "2023・2024年度の両本文に同じ第15回表記。年次の公演同一性が未解決のため、この2行を採用しない。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "9298caba40131327955219a0",
+    "municipalityCode": "34309",
+    "municipalityName": "坂町",
+    "url": "https://www.town.saka.lg.jp/wp-content/uploads/2023/05/令和７年度事務点検・評価報告書-1.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "ee1bbcad92110e8e9245b13c6abf7491aa2d72f1772d76e2d85109d29160653b",
+    "sourceSha256": "6076f779de8d6a523362a85f1298a1376f63635d878469291932464fd4dc9ce8",
+    "fetchedAt": "2026-10-23T19:22:35.812Z",
+    "characters": 36124,
+    "continuationParts": 0,
+    "accepted": 23,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 23,
+    "holds": [
+      {
+        "raw": "対象年度\n令和７年度",
+        "start": 1174,
+        "reason": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "status": "general_activity_individual_boundary_unresolved",
+        "note": "既存の坂町名称ヒント1,033箇所を照合し、重複・一般カテゴリー・中止・次年度・同一性保留をsaka-residual-disposition-1016.jsonに記録。史跡案内看板の終了年度は2年度本文で解決し追加提案へ移した。名称ヒントの完了は全文章の網羅抽出を意味せず、残る一般教育活動・政策章の独立事業境界は未確定。 固有名称ヒントの有限レビュー後に残る一般教育・政策活動については、独立事業を示す名称・ID・境界の証拠不足として保持。網羅抽出完了を意味しない。",
+        "previousReason": "残る政策目標・普通の授業活動・史編さんの断片・協議会内の道徳参観日等は独立事業の範囲を未確認。白リスト外の名称を含めた全票内容確認は継続中。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "1b487313f36642d8416bb8ba",
+    "municipalityCode": "34307",
+    "municipalityName": "熊野町",
+    "url": "https://www.town.kumano.hiroshima.jp/www/contents/1602563422727/files/R5jimutenken.pdf",
+    "inventoryStatus": "missing_or_incomplete_cached_body",
+    "fullTextSha256": null,
+    "sourceSha256": null,
+    "fetchedAt": null,
+    "characters": null,
+    "continuationParts": null,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "missing_body",
+    "reviewStatus": "missing_body",
+    "proposals": 0,
+    "holds": [
+      {
+        "status": "missing_body",
+        "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
+      }
+    ],
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
+  },
+  {
+    "sourceId": "55f91f2783eccc9021053454",
+    "municipalityCode": "34304",
+    "municipalityName": "海田町",
+    "url": "https://www.town.kaita.lg.jp/soshiki/2/549.html",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "8ffbdde3d9c57fe944db4d184368802388ff2671ab9332cadfe15a2d3dcae379",
+    "sourceSha256": "258cf1a9ca7b04f3776e5ddf18025a53fa38abc0a4f1a6287b258004c76a7517",
+    "fetchedAt": "2026-10-11T17:32:40.754682+00:00",
+    "characters": 654,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_or_policy_outline",
+    "reviewStatus": "navigation_or_policy_outline",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "海田町の行政改革 - 海田町ホームページ（かいたブランド課）",
+        "start": 0,
+        "reason": "全保存本文を確認。リンク一覧・評価制度・政策体系・会議資料名であり独立事業の対象年度と個票を確定できない。公表日や会議年から事業年を補わない。関連本文は別sourceIdで審査する。",
+        "status": "no_individual_annual_sheet"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "998733b5b7426911103483b8",
+    "municipalityCode": "34302",
+    "municipalityName": "府中町",
+    "url": "https://www.town.fuchu.hiroshima.jp/site/5sogokeikaku/index-2.html",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "c638aa995f598773c1d8258cde6b2d2e26b4dbba04f166c02fdd98e4f39790a2",
+    "sourceSha256": "8fb09958c3e3085e3e6f51bd468cbb81f921d32f51e6e4a06414fe74902436eb",
+    "fetchedAt": "2026-10-21T08:44:25.708Z",
+    "characters": 113,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_or_policy_outline",
+    "reviewStatus": "navigation_or_policy_outline",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "第5次総合計画 - 府中町公式サイト",
+        "start": 0,
+        "reason": "全保存本文を確認。リンク一覧・評価制度・政策体系・会議資料名であり独立事業の対象年度と個票を確定できない。公表日や会議年から事業年を補わない。関連本文は別sourceIdで審査する。",
+        "status": "no_individual_annual_sheet"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "e0e6940d5391d3ff3864b331",
+    "municipalityCode": "34215",
+    "municipalityName": "江田島市",
+    "url": "https://www.city.etajima.hiroshima.jp/cms/articles/show/11932",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "f4c04cd6014db1a388ba5952a133a8ab2bf13107f9fe3207c38c918f4b89494f",
+    "sourceSha256": "cac4c7440915295dad2490210a2620045643f54f7a97b9e6361f525ea5534efb",
+    "fetchedAt": "2026-10-21T08:44:25.488Z",
+    "characters": 739,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_or_policy_outline",
+    "reviewStatus": "navigation_or_policy_outline",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "令和8年度第1回江田島市行財政改革審議会を開催しました｜江田島市役所ホームページ",
+        "start": 0,
+        "reason": "全保存本文を確認。リンク一覧・評価制度・政策体系・会議資料名であり独立事業の対象年度と個票を確定できない。公表日や会議年から事業年を補わない。関連本文は別sourceIdで審査する。",
+        "status": "no_individual_annual_sheet"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "3b7bcc5bf438c38595c122d2",
+    "municipalityCode": "34213",
+    "municipalityName": "廿日市市",
+    "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/87564.pdf",
+    "inventoryStatus": "missing_or_incomplete_cached_body",
+    "fullTextSha256": "1865730246d7df6ceee75b3908fb3a11e478e3ba976b933e30b28e4fe71103b5",
+    "sourceSha256": "ae996e0e321fefd894e00fba1e8189a76a97320b5502a2978ca8468afa0ed71c",
+    "fetchedAt": "2026-10-11T17:38:47.416666+00:00",
+    "characters": null,
+    "continuationParts": 0,
+    "accepted": 36,
+    "duplicates": 3,
+    "parserStatus": "processed",
+    "reviewStatus": "verified_prefix_complete_sections_only",
+    "proposals": 39,
+    "holds": [
+      {
+        "status": "missing_original_tail",
+        "reason": "Only120000of200262cached characters; no listed continuations;20 complete retrospective sections reviewed; remainder80262absent."
+      }
+    ],
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
+  },
+  {
+    "sourceId": "bfa231ca54805e1cec7b57c9",
+    "municipalityCode": "34213",
+    "municipalityName": "廿日市市",
+    "url": "https://www.city.hatsukaichi.hiroshima.jp/soshiki/140/132243.html",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "5fce94862695d3a74cd8f81f9554b5ef03e7c285efbd54788ea5a09efcae1871",
+    "sourceSha256": "92c436a2a49c6a553c1e18877f88cb16bb1ce012a721d7a6f0e355f5e1bfdc63",
+    "fetchedAt": "2026-10-11T17:32:39.594860+00:00",
+    "characters": 1784,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_or_policy_outline",
+    "reviewStatus": "navigation_or_policy_outline",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "施策評価・事務事業評価結果（令和6年度実績） - 広島県廿日市市（はつかいち）けん玉発祥・宮島のあるまち（行政経営改革推進課）",
+        "start": 0,
+        "reason": "全保存本文を確認。リンク一覧・評価制度・政策体系・会議資料名であり独立事業の対象年度と個票を確定できない。公表日や会議年から事業年を補わない。関連本文は別sourceIdで審査する。",
+        "status": "no_individual_annual_sheet"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "0c74455c3314a67dde65de43",
+    "municipalityCode": "34212",
+    "municipalityName": "東広島市",
+    "url": "https://www.city.higashihiroshima.lg.jp/material/files/group/73/20241224.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "fae720faa9cd3ad47d489c1a6c9d8e789ef930203f460888a2a8e78b95f56a9a",
+    "sourceSha256": "8d45bbb3e07482c9bf311bd91337aec865368e72074c38a67dff11ee5d756872",
+    "fetchedAt": "2026-10-11T17:50:09.802971+00:00",
+    "characters": 82785,
+    "continuationParts": 0,
+    "accepted": 3,
+    "duplicates": 94,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 50,
+    "holds": [],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "4228fa5ae7f3842dbf4a3b7e",
+    "municipalityCode": "34212",
+    "municipalityName": "東広島市",
+    "url": "https://www.city.higashihiroshima.lg.jp/material/files/group/73/09270001.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "520fbbaf7730fbbcaf0fa12c22a7032eba204e6225518ab148776e63dc4bf031",
+    "sourceSha256": "95ce307b3a99dadff86ae3a5b3de8242b4febfa5a57d2b3721f38130093d41d2",
+    "fetchedAt": "2026-10-11T17:51:38.704410+00:00",
+    "characters": 30612,
+    "continuationParts": 0,
+    "accepted": 30,
+    "duplicates": 26,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 43,
+    "holds": [],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "5e1118e119d5029e848c074a",
+    "municipalityCode": "34212",
+    "municipalityName": "東広島市",
+    "url": "https://www.city.higashihiroshima.lg.jp/material/files/group/73/20231224.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "ec5abe86bb86da8853223dd4a99fc15c53e2d3aa74f6c3a328fd8bdbbb2d20d0",
+    "sourceSha256": "9a0b67826ef7acae8c9c1ad5ad9a4f5e3517a061fa19227c497791ed0f692f30",
+    "fetchedAt": "2026-10-11T17:50:50.401060+00:00",
+    "characters": 77925,
+    "continuationParts": 0,
+    "accepted": 1,
+    "duplicates": 98,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 50,
+    "holds": [],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "e27ea7952f13f851fe1a3e18",
+    "municipalityCode": "34212",
+    "municipalityName": "東広島市",
+    "url": "https://www.city.higashihiroshima.lg.jp/material/files/group/73/251125.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "0096b0170dd122acbadc9faafcfdb089eb4ba71a1ba4c9685356a17b70d1fe3a",
+    "sourceSha256": "40856bf24c1032267948597aecbfc33f3d6f6097d39ecd00eaff51d8f6a2eb6e",
+    "fetchedAt": "2026-10-11T17:42:55.351936+00:00",
+    "characters": 91104,
+    "continuationParts": 0,
+    "accepted": 4,
+    "duplicates": 96,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 52,
+    "holds": [],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "e581504a8613ca9433cd609c",
+    "municipalityCode": "34212",
+    "municipalityName": "東広島市",
+    "url": "https://www.city.higashihiroshima.lg.jp/soshiki/kyoikuiinkaigakkokyoiku/2/4/12752.html",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "5afe8080a403155342e2ca50a0fd288b2b0e23139e91ae6d3524fae01a9dc417",
+    "sourceSha256": "729ff7053c3acfdeaa92ba8db87e7ed1570d62e0c65d9a18a2a7ce57e2a0c2f3",
+    "fetchedAt": "2026-10-11T17:32:36.141606+00:00",
+    "characters": 820,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_or_policy_outline",
+    "reviewStatus": "navigation_or_policy_outline",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "教育委員会事務事業評価報告書／東広島市ホームページ",
+        "start": 0,
+        "reason": "全保存本文を確認。リンク一覧・評価制度・政策体系・会議資料名であり独立事業の対象年度と個票を確定できない。公表日や会議年から事業年を補わない。関連本文は別sourceIdで審査する。",
+        "status": "no_individual_annual_sheet"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "0437e4f6cf934dd01b44a942",
+    "municipalityCode": "34211",
+    "municipalityName": "大竹市",
+    "url": "https://www.city.otake.hiroshima.jp/material/files/group/3/2-3sihyou1.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "249c40421be15f31167f8c2aa1131bb7569509cfeb35e80d03e309274ebc38a5",
+    "sourceSha256": "e6776a40210d46c61f2b0675dfaf0611b54436675c1220a3d6a9d1229da56b0f",
+    "fetchedAt": "2026-10-11T18:18:25.340648+00:00",
+    "characters": 3001,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 68,
+    "parserStatus": "duplicate",
+    "reviewStatus": "duplicate",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "第３節 指標の達成状況",
+        "start": 0,
+        "reason": "概要の③は複数の具体事業をまとめた大事業名と明示。事業評価表はその大事業と複数年KPIであり個別事務事業票ではない。既存68名称の年度未確定記録は変更せず、R2欄から新規年度記録を増やさない。",
+        "status": "aggregate_business_indicators_not_individual_sheets"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "1163fa2aa83dd55bc49bc932",
+    "municipalityCode": "34211",
+    "municipalityName": "大竹市",
+    "url": "https://www.city.otake.hiroshima.jp/material/files/group/3/2-2KPI2.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "bb4beac4c2c56b69f7caa591eaa30613e92446c2e324c6047fe7d975c0cc6e74",
+    "sourceSha256": "2aa09ea202b8d12cce0ef927d14cce55a86bb58311172e5d35d9907decc355f3",
+    "fetchedAt": "2026-10-11T18:18:06.743790+00:00",
+    "characters": 2428,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "policy_kpi_not_individual_sheets",
+    "reviewStatus": "policy_kpi_not_individual_sheets",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "基本目標2 若い世代の結婚・出産・子育ての希望をかなえる",
+        "start": 0,
+        "reason": "基本目標・施策単位のKPI推移。個別事業名/年度境界を確定できず、KPIごとのプロジェクト化をしない。",
+        "status": "policy_kpi_not_individual_sheets"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "23b488c0e32d84e7d7b6c33c",
+    "municipalityCode": "34211",
+    "municipalityName": "大竹市",
+    "url": "https://www.city.otake.hiroshima.jp/material/files/group/3/1-2anketoippan.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "0b7075989cba5be3e43159b06c8bf41bf31e1acfeec80d6e65fc8201ca62061b",
+    "sourceSha256": "5af400d1a6fd506d933983d21764550e61ef3d38c5a63d6e370004cf335da01c",
+    "fetchedAt": "2026-10-11T18:17:26.007927+00:00",
+    "characters": 19073,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "citizen_survey_not_business_records",
+    "reviewStatus": "citizen_survey_not_business_records",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "第２節 アンケート分析（一般回答分）",
+        "start": 0,
+        "reason": "市民の回答・提案・質問紙又は調査概要。事業名に似た回答語句を行政の実施事業に変換しない。",
+        "status": "citizen_survey_not_business_records"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "2a9d9619ce29868a57c0cb3b",
+    "municipalityCode": "34211",
+    "municipalityName": "大竹市",
+    "url": "https://www.city.otake.hiroshima.jp/shisei/keikaku/gyouseihyouka/index.html",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "c2edb5011dab637413311c352559a448706fadc52d9d31135e6c7b3ebf2c3e31",
+    "sourceSha256": "a347fd93766d3de9c24063f16172e54192a85b200730c5612370349b8ce3ff2d",
+    "fetchedAt": "2026-10-11T17:32:35.243941+00:00",
+    "characters": 191,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_cover_or_methodology",
+    "reviewStatus": "navigation_cover_or_methodology",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "行政評価・事業評価／大竹市ホームページ",
+        "start": 0,
+        "reason": "表紙・目次・案内・数値の読み方。例示表は実数でない旨を明示。独立事業レコードにしない。",
+        "status": "navigation_cover_or_methodology"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "459eadb3900b7190ed353f7d",
+    "municipalityCode": "34211",
+    "municipalityName": "大竹市",
+    "url": "https://www.city.otake.hiroshima.jp/material/files/group/3/2-1gaiyou.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "aa35d79f42d9c55d0232f9eb5313790a9c410166d9bd719feeed8a71e91f1cde",
+    "sourceSha256": "c7a421d0f6cffebbf95e3c4c01c3a9fcf3a8cc7e39539fd760f3175c3e06ccc8",
+    "fetchedAt": "2026-10-11T18:17:56.574611+00:00",
+    "characters": 1267,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_cover_or_methodology",
+    "reviewStatus": "navigation_cover_or_methodology",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "第２章 総合戦略（後期基本計画実施計画）における重要業績評価指標",
+        "start": 0,
+        "reason": "表紙・目次・案内・数値の読み方。例示表は実数でない旨を明示。独立事業レコードにしない。",
+        "status": "navigation_cover_or_methodology"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "59ca497974aff08da141f6e9",
+    "municipalityCode": "34211",
+    "municipalityName": "大竹市",
+    "url": "https://www.city.otake.hiroshima.jp/material/files/group/3/1-4jiyukijyutu.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "f9f055e21428b060608027e2ef53bee5d29172aa17b19cb32969429403fa9238",
+    "sourceSha256": "137a1e9b9c3b158e7e97fcad1a40bf5bff4d660126827896b78eda8f741ab2ff",
+    "fetchedAt": "2026-10-11T18:17:42.358711+00:00",
+    "characters": 28467,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "citizen_survey_not_business_records",
+    "reviewStatus": "citizen_survey_not_business_records",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "第４節 自由記述「幸せ感に関するご意見、ご提案」など",
+        "start": 0,
+        "reason": "市民の回答・提案・質問紙又は調査概要。事業名に似た回答語句を行政の実施事業に変換しない。",
+        "status": "citizen_survey_not_business_records"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "7011e720fd206c0c344985c4",
+    "municipalityCode": "34211",
+    "municipalityName": "大竹市",
+    "url": "https://www.city.otake.hiroshima.jp/material/files/group/3/1-3anketomonita.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "1b5b18721f984ca3060ced0a7aa547a2ef18ce61edd328420c4096380cd130df",
+    "sourceSha256": "76a30b2e8beadf98abd35a20c722053c0085e26ab2000b33fc462d02cd0a68d8",
+    "fetchedAt": "2026-10-11T18:17:35.376903+00:00",
+    "characters": 3760,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "citizen_survey_not_business_records",
+    "reviewStatus": "citizen_survey_not_business_records",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "第３節 アンケート分析（モニター回答分）",
+        "start": 0,
+        "reason": "市民の回答・提案・質問紙又は調査概要。事業名に似た回答語句を行政の実施事業に変換しない。",
+        "status": "citizen_survey_not_business_records"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "787f9d1b5361e71cf1613d40",
+    "municipalityCode": "34211",
+    "municipalityName": "大竹市",
+    "url": "https://www.city.otake.hiroshima.jp/material/files/group/3/2-3sihyou3.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "c45bbab3f0c88d0b45cfeac2895dea1236322f15bc6a1e9fd45cbe3f043270b8",
+    "sourceSha256": "274a9bdeb6fcea38a8315e0a3fe8048d332fde0f972f6c4a40e6ed1106397bf1",
+    "fetchedAt": "2026-10-11T18:18:42.961146+00:00",
+    "characters": 11472,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "aggregate_business_indicators_not_individual_sheets",
+    "reviewStatus": "aggregate_business_indicators_not_individual_sheets",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "基本目標3 誰もが健康で生きがいをもち、安心して暮らせる地域を実現する",
+        "start": 0,
+        "reason": "概要の③は複数の具体事業をまとめた大事業名と明示。事業評価表はその大事業と複数年KPIであり個別事務事業票ではない。既存68名称の年度未確定記録は変更せず、R2欄から新規年度記録を増やさない。",
+        "status": "aggregate_business_indicators_not_individual_sheets"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "791019d6a6168d636bf793a9",
+    "municipalityCode": "34211",
+    "municipalityName": "大竹市",
+    "url": "https://www.city.otake.hiroshima.jp/material/files/group/3/1-1gaiyou.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "4cfb5adff0f5ed588f7d05bf108c36552af6032165d6d5099643ed3270a7e4ff",
+    "sourceSha256": "6434e7a967f5a94d8a2afd726e1cf7d722c01dc4607e9aa37b6157d43fa99ad2",
+    "fetchedAt": "2026-10-11T18:17:17.725070+00:00",
+    "characters": 3087,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "citizen_survey_not_business_records",
+    "reviewStatus": "citizen_survey_not_business_records",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "第１章 「大竹市民の幸せ感に関するアンケート」調査報告書",
+        "start": 0,
+        "reason": "市民の回答・提案・質問紙又は調査概要。事業名に似た回答語句を行政の実施事業に変換しない。",
+        "status": "citizen_survey_not_business_records"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "842179826077682e85cf4511",
+    "municipalityCode": "34211",
+    "municipalityName": "大竹市",
+    "url": "https://www.city.otake.hiroshima.jp/shisei/keikaku/gyouseihyouka/1643868716685.html",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "83b97abc28637fe1ecb5392af2cd304ce6ea5b9786809f3fc559dc3015378e26",
+    "sourceSha256": "2056cc386273cfc4d18c830e7b52322671a2166f7a2dd76dae036c16b9e6fdd6",
+    "fetchedAt": "2026-10-11T17:52:28.196905+00:00",
+    "characters": 1547,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_cover_or_methodology",
+    "reviewStatus": "navigation_cover_or_methodology",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "令和2年度行政評価報告書／大竹市ホームページ",
+        "start": 0,
+        "reason": "表紙・目次・案内・数値の読み方。例示表は実数でない旨を明示。独立事業レコードにしない。",
+        "status": "navigation_cover_or_methodology"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "b857c94462846c830d53bddb",
+    "municipalityCode": "34211",
+    "municipalityName": "大竹市",
+    "url": "https://www.city.otake.hiroshima.jp/material/files/group/3/hyoushimokuji.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "6fbebb69cbf05339aa2d858f4e110a3ee4e8349dccd806278315579b54a9c3a3",
+    "sourceSha256": "791515bc784580a1b1492a41dd081b7104c4c345c69a0dcdf600d1ed823748f0",
+    "fetchedAt": "2026-10-11T18:17:09.473476+00:00",
+    "characters": 1594,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_cover_or_methodology",
+    "reviewStatus": "navigation_cover_or_methodology",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "行政評価報告書",
+        "start": 0,
+        "reason": "表紙・目次・案内・数値の読み方。例示表は実数でない旨を明示。独立事業レコードにしない。",
+        "status": "navigation_cover_or_methodology"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "bf6fc4e41e73c842a002bfcb",
+    "municipalityCode": "34211",
+    "municipalityName": "大竹市",
+    "url": "https://www.city.otake.hiroshima.jp/material/files/group/3/R2gyouseihyoukahoukokusyo.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "93c0ad1310709d974a6583481528499c4d836b9048f38ccbd48c6962950e9241",
+    "sourceSha256": "64abe4975f3cd519375f3da4c4db31fe4a8cb7d345be226d1179be32864036da",
+    "fetchedAt": "2026-10-11T17:52:54.456046+00:00",
+    "characters": 99977,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "aggregate_business_indicators_not_individual_sheets",
+    "reviewStatus": "aggregate_business_indicators_not_individual_sheets",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "行政評価報告書",
+        "start": 0,
+        "reason": "概要の③は複数の具体事業をまとめた大事業名と明示。事業評価表はその大事業と複数年KPIであり個別事務事業票ではない。既存68名称の年度未確定記録は変更せず、R2欄から新規年度記録を増やさない。",
+        "status": "aggregate_business_indicators_not_individual_sheets"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "c3f2597bc26ab3e6e821a8fe",
+    "municipalityCode": "34211",
+    "municipalityName": "大竹市",
+    "url": "https://www.city.otake.hiroshima.jp/material/files/group/3/2-3sihyou2.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "533eae1e25832cb6af28d964c30cec11fa29308a1956e5a1b1f9817c5dd81a66",
+    "sourceSha256": "7fb5e5911695ad078ffc1effdd9a2010e714716dc6f79b619ed5e8bebc2a27b7",
+    "fetchedAt": "2026-10-11T18:18:32.851884+00:00",
+    "characters": 5855,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "aggregate_business_indicators_not_individual_sheets",
+    "reviewStatus": "aggregate_business_indicators_not_individual_sheets",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "基本目標2 若い世代の結婚・出産・子育ての希望をかなえる",
+        "start": 0,
+        "reason": "概要の③は複数の具体事業をまとめた大事業名と明示。事業評価表はその大事業と複数年KPIであり個別事務事業票ではない。既存68名称の年度未確定記録は変更せず、R2欄から新規年度記録を増やさない。",
+        "status": "aggregate_business_indicators_not_individual_sheets"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "d72022ccb3a7baed737f73c3",
+    "municipalityCode": "34211",
+    "municipalityName": "大竹市",
+    "url": "https://www.city.otake.hiroshima.jp/material/files/group/3/1-4anketoyoushi.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "47b37f550fbbee5ecdcffb764b45e2029cf2e2acb4dee20c97f0640b82b2dee6",
+    "sourceSha256": "79f22a61c03e70ec29ca68f70d26ad53a1cba561c1bce22daf959712fed2e3c1",
+    "fetchedAt": "2026-10-11T18:17:51.108288+00:00",
+    "characters": 10224,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "citizen_survey_not_business_records",
+    "reviewStatus": "citizen_survey_not_business_records",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "第５節 資料",
+        "start": 0,
+        "reason": "市民の回答・提案・質問紙又は調査概要。事業名に似た回答語句を行政の実施事業に変換しない。",
+        "status": "citizen_survey_not_business_records"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "db5b314d17f9e9edb3d02761",
+    "municipalityCode": "34211",
+    "municipalityName": "大竹市",
+    "url": "https://www.city.otake.hiroshima.jp/material/files/group/3/2-2KPI3.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "05fa13fcd5e34ba3e5d0042072642f534e2b7be4cc14e51910d59d2d0ccc607d",
+    "sourceSha256": "42df3ba7524ea1cd9ed73a3b801e60796dfb05e4d41c643fdf4b0489920b46d2",
+    "fetchedAt": "2026-10-11T18:18:17.452940+00:00",
+    "characters": 7743,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "policy_kpi_not_individual_sheets",
+    "reviewStatus": "policy_kpi_not_individual_sheets",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "基本目標3 誰もが健康で生きがいをもち，安心して暮らせる地域を実現する",
+        "start": 0,
+        "reason": "基本目標・施策単位のKPI推移。個別事業名/年度境界を確定できず、KPIごとのプロジェクト化をしない。",
+        "status": "policy_kpi_not_individual_sheets"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "e009e3e74feb4bcf88b8938c",
+    "municipalityCode": "34211",
+    "municipalityName": "大竹市",
+    "url": "https://www.city.otake.hiroshima.jp/material/files/group/3/2-2KPI1.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "91aa9d4e46cd167e4308071ce12a4e8c002242806ea3bed9c8a21e2debd8cc69",
+    "sourceSha256": "fde271d00a3f5b8cd4b8f754a1daac84b310e5186bcff2eb7833b51561c2ca78",
+    "fetchedAt": "2026-10-11T18:18:00.766499+00:00",
+    "characters": 1994,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "policy_kpi_not_individual_sheets",
+    "reviewStatus": "policy_kpi_not_individual_sheets",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "第２節 重要業績評価指標（ＫＰＩ）の達成状況",
+        "start": 0,
+        "reason": "基本目標・施策単位のKPI推移。個別事業名/年度境界を確定できず、KPIごとのプロジェクト化をしない。",
+        "status": "policy_kpi_not_individual_sheets"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "bf128899768173cd6cdf8820",
+    "municipalityCode": "34210",
+    "municipalityName": "庄原市",
+    "url": "https://www.city.shobara.hiroshima.jp/main/government/seisaku/cat04/cat1/post_1654.html",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "fde3b18336b5838a90fb0107c16eff0d73e52c99efaaf506131f7371df6a31af",
+    "sourceSha256": "f7e3689207295307652932573a7236f896645bbb9f8e1c9994bc6e2b927145ad",
+    "fetchedAt": "2026-10-11T17:32:32.490163+00:00",
+    "characters": 772,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_or_framework_without_individual_year_records",
+    "reviewStatus": "navigation_or_framework_without_individual_year_records",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "行政評価とは | 広島県庄原市のホームページへようこそ",
+        "start": 0,
+        "reason": "全保存本文を確認。年度別原典リンク・評価制度・方法の案内であり、個別事業の明示年度と名称の対応を掲載していない。原典リンクを新たに取得せず、政策や報告書名を事業化しない。庄原市まちづくりプランナー・モニター事業という名称はあるが、具体的な対象年度の記載がない。",
+        "status": "navigation_or_framework_without_individual_year_records"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "08e16710156bdea0360ce2df",
+    "municipalityCode": "34209",
+    "municipalityName": "三次市",
+    "url": "https://www.city.miyoshi.hiroshima.jp/soshiki/5/35922.html",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "6b798d7f3a1c77ebf69656615bd8f29f9f4212f0b2bbaab0cc29a80c3414e1e8",
+    "sourceSha256": "fd38bd4775cf716b71a6d19bfb49f4efc5f9d8169d7d9e5bfb7759820ce00228",
+    "fetchedAt": "2026-10-11T17:23:32.649371+00:00",
+    "characters": 446,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_or_framework_without_individual_year_records",
+    "reviewStatus": "navigation_or_framework_without_individual_year_records",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "行政評価の結果-令和7年度 - 三次市ホームページ",
+        "start": 0,
+        "reason": "全保存本文を確認。年度別原典リンク・評価制度・方法の案内であり、個別事業の明示年度と名称の対応を掲載していない。原典リンクを新たに取得せず、政策や報告書名を事業化しない。令和7年度に実施した146件という年次証拠はあるが、既存146件の年度欄変更は今回の非重複候補作業の権限外。既存値を変更しない。",
+        "status": "navigation_or_framework_without_individual_year_records"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "1a50b0c38ed8dbabae1fdf68",
+    "municipalityCode": "34209",
+    "municipalityName": "三次市",
+    "url": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/30029.pdf",
+    "inventoryStatus": "missing_or_incomplete_cached_body",
+    "fullTextSha256": "67f7daaab71f9974d8156028cde49a7dd452504e7a925ec5f0849c6a9e5b67af",
+    "sourceSha256": "3b559c07894bd6465f64e47e0ae17323294ac76b44c7bdcef0e0b6fcef7edf0d",
+    "fetchedAt": "2026-10-11T17:37:55.311742+00:00",
+    "characters": null,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "insufficient_evidence",
+    "reviewStatus": "verified_prefix_covered_existing_cohort",
+    "proposals": 0,
+    "holds": [
+      {
+        "status": "missing_original_tail_and_existing_fields_out_of_scope",
+        "reason": "Only120000of465533characters,no listed continuations;146units matched to complete second-list. Existing field enrichment outside current disjoint scope."
+      }
+    ],
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
+  },
+  {
+    "sourceId": "446b28e05121f4e08ad40530",
+    "municipalityCode": "34209",
+    "municipalityName": "三次市",
+    "url": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/30407.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "2ef67392de8b20a45d1fe098dc5ea64769d5e0f963fd44ab12868e52caae72a3",
+    "sourceSha256": "56da2db4fec0787852a9a9d1e1a2d5ed00506830a5d7f2bce0d3280822482a93",
+    "fetchedAt": "2026-10-11T17:38:01.143274+00:00",
+    "characters": 7028,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "existing_annual_cohort_covered",
+    "reviewStatus": "existing_annual_cohort_covered",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "三次市行政チェック市民会議からの提言",
+        "start": 6,
+        "reason": "既存2025評価年146事業と番号・名称を照合。表記差27件と91番の旧名称を記録。既存値を保持し同年同事業を追加しない。提言の8事業及び集計図表を新規事業に増やさない。",
+        "status": "existing_annual_identity_covered"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "4b2559af3ca2033540caa856",
+    "municipalityCode": "34209",
+    "municipalityName": "三次市",
+    "url": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/30030.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "cbd8e96b90397610087d221209a259e178f7b23298fc6ca93033b0b9a152220e",
+    "sourceSha256": "98f8e8000116ec4e7016757f99d9665f014963f4c7ead82977788ac0088c9250",
+    "fetchedAt": "2026-10-11T17:41:23.423643+00:00",
+    "characters": 10921,
+    "continuationParts": 0,
+    "accepted": 8,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 8,
+    "holds": [],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "6cd49ffe70f14bba91ea5ffe",
+    "municipalityCode": "34209",
+    "municipalityName": "三次市",
+    "url": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/30027.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "fc0f71cea66e0e518a04d4f89ad79c830d9ed253ed98363f44fb09b612ca98f6",
+    "sourceSha256": "ea48bbe319dbf9874079f24049b1e9651e0d6ec186557fbc7922448e69ea4bfd",
+    "fetchedAt": "2026-10-11T17:36:37.806790+00:00",
+    "characters": 1272,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "existing_annual_cohort_covered",
+    "reviewStatus": "existing_annual_cohort_covered",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "令和７年度行政評価（事務事業評価）の結果の概要",
+        "start": 0,
+        "reason": "既存2025評価年146事業と番号・名称を照合。表記差27件と91番の旧名称を記録。既存値を保持し同年同事業を追加しない。提言の8事業及び集計図表を新規事業に増やさない。",
+        "status": "existing_annual_identity_covered"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "882e284c09423483f05564fd",
+    "municipalityCode": "34209",
+    "municipalityName": "三次市",
+    "url": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/30028.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "7ce7731b700604bafb8621be4410645242e4c9d559a48b01edbca72fe4403733",
+    "sourceSha256": "ab35b87dd26f731036e2c9e0b4f793e762a9beb0d198be8a76671c088933e3d1",
+    "fetchedAt": "2026-10-11T17:37:49.351777+00:00",
+    "characters": 91868,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 11,
+    "parserStatus": "duplicate",
+    "reviewStatus": "duplicate",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "令和7年度評価対象事業一覧",
+        "start": 14,
+        "reason": "既存2025評価年146事業と番号・名称を照合。表記差27件と91番の旧名称を記録。既存値を保持し同年同事業を追加しない。提言の8事業及び集計図表を新規事業に増やさない。",
+        "status": "existing_annual_identity_covered"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "0bec050a7325777e223ddeec",
+    "municipalityCode": "34208",
+    "municipalityName": "府中市",
+    "url": "https://www.city.fuchu.hiroshima.jp/shisei/shigikai/kaikaku/2117.html",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "73fd65de669de83ea9ad5fb10c35d454560af49abef3399258ee6d374a6a7f44",
+    "sourceSha256": "ba853c201d34c69b52cd50d2114a656503b3fb6dc2c5fd2b83f6d265a2774226",
+    "fetchedAt": "2026-10-11T17:32:32.781835+00:00",
+    "characters": 883,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_or_framework_without_individual_year_records",
+    "reviewStatus": "navigation_or_framework_without_individual_year_records",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "事務事業評価／広島県府中市",
+        "start": 0,
+        "reason": "全保存本文を確認。年度別原典リンク・評価制度・方法の案内であり、個別事業の明示年度と名称の対応を掲載していない。原典リンクを新たに取得せず、政策や報告書名を事業化しない。",
+        "status": "navigation_or_framework_without_individual_year_records"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "49c4562787f48283d4c44c26",
+    "municipalityCode": "34208",
+    "municipalityName": "府中市",
+    "url": "https://www.city.fuchu.hiroshima.jp/material/files/group/19/jimujigyouhyouka_R02.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "503583af16b4d729fcb02113506273c9fced5e084c327e843cb91b4e27c9cf42",
+    "sourceSha256": "1eb7742af7848d7b5b411493b74bb2382912b33f18045631a0c27efa9b74bd39",
+    "fetchedAt": "2026-10-11T17:52:29.292776+00:00",
+    "characters": 3140,
+    "continuationParts": 0,
+    "accepted": 13,
+    "duplicates": 2,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 14,
+    "holds": [
+      {
+        "raw": "ＩＣＴを活用したま",
+        "start": 897,
+        "reason": "5番と10番が同一名称・異なる委員会。まちづくり一般とオンライン診療の別事業識別を確定できず、同名年度レコードとして二重計上しない。",
+        "status": "same_name_different_scope_hold"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "6297cb6206b6858ed53616cb",
+    "municipalityCode": "34208",
+    "municipalityName": "府中市",
+    "url": "https://www.city.fuchu.hiroshima.jp/material/files/group/19/R04jimujigyou_teigen.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "b45b77f75700c61a042c76c929639c37088812b589be7782e60544b80b245a78",
+    "sourceSha256": "eee452bfbcfea7b378eb34bf5c554128745ed5c8ac072fbb57c987b058750cb6",
+    "fetchedAt": "2026-10-11T17:50:47.684978+00:00",
+    "characters": 3014,
+    "continuationParts": 0,
+    "accepted": 14,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 14,
+    "holds": [],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "875e536943b6fe7cd2257b56",
+    "municipalityCode": "34208",
+    "municipalityName": "府中市",
+    "url": "https://www.city.fuchu.hiroshima.jp/material/files/group/19/20251201jimujigyouhyouka.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "58e869782394cd62d1b30a693385588b0f95f0c5f1729eceee5d8a68918c3019",
+    "sourceSha256": "2d18be227aef1d0be3aef101410c4353660f7478e2f818be2f8476fb323ed98a",
+    "fetchedAt": "2026-10-11T17:42:55.072707+00:00",
+    "characters": 3234,
+    "continuationParts": 0,
+    "accepted": 11,
+    "duplicates": 4,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 13,
+    "holds": [],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "8a8590f3f1cb3b7f314b809e",
+    "municipalityCode": "34208",
+    "municipalityName": "府中市",
+    "url": "https://www.city.fuchu.hiroshima.jp/material/files/group/19/R05jimujigyou_teigen.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "324482be84c4fa208b3703952bd015ed12bbdf3e47a0fad3dc8abb9c9b0f8099",
+    "sourceSha256": "fe40aa1b1673b0b88ff761b7b587a9029279bd835d48ae2f0ab62d1d76b179ad",
+    "fetchedAt": "2026-10-11T17:49:48.811404+00:00",
+    "characters": 3642,
+    "continuationParts": 0,
+    "accepted": 14,
+    "duplicates": 2,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 15,
+    "holds": [],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "eaf2ecebe1d01ed48320b7a0",
+    "municipalityCode": "34208",
+    "municipalityName": "府中市",
+    "url": "https://www.city.fuchu.hiroshima.jp/material/files/group/19/R03jimujigyou_teigen.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "1069779a702bbf46163ff06eb9b1504d7c9a83cd5a46cc32d718b62d18b6beff",
+    "sourceSha256": "afbe6ed5264075d8c415c8cf984d99a9c421ad997af1b4cb351f2cb70a4b40e3",
+    "fetchedAt": "2026-10-11T17:51:28.578008+00:00",
+    "characters": 3219,
+    "continuationParts": 0,
+    "accepted": 10,
+    "duplicates": 10,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 15,
+    "holds": [],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "7533a2868cf46f6775fc32c3",
+    "municipalityCode": "34207",
+    "municipalityName": "福山市",
+    "url": "https://www.city.fukuyama.hiroshima.jp/site/kyoiku/52117.html",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "65c0eefabb4f1fe240d0c792e3a159934a664ad61172d4642b4584c023d1f2c9",
+    "sourceSha256": "f6f407fe0f6cc06dd1c225830902725f3a7b81acba8716faa24d653c0b5c8bcd",
+    "fetchedAt": "2026-10-21T08:44:22.708Z",
+    "characters": 745,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_or_framework_without_individual_year_records",
+    "reviewStatus": "navigation_or_framework_without_individual_year_records",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "教育に関する事務の管理及び執行の状況の点検及び評価について - 福山市ホームページ",
+        "start": 0,
+        "reason": "全保存本文を確認。年度別原典リンク・評価制度・方法の案内であり、個別事業の明示年度と名称の対応を掲載していない。原典リンクを新たに取得せず、政策や報告書名を事業化しない。",
+        "status": "navigation_or_framework_without_individual_year_records"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "41bf12c9562a46374cd7a768",
+    "municipalityCode": "34207",
+    "municipalityName": "福山市",
+    "url": "https://www.city.fukuyama.hiroshima.jp/uploaded/attachment/290081.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "0e2f924b5a51a2faac5ef078d71b0b8db95461b455b7ea465c2697852cfb0323",
+    "sourceSha256": "1e8617c33dbc3dc6b69e250a1cc3dbe31d4d4bfd260c85596ffc4ceaa8741fcc",
+    "fetchedAt": "2026-10-21T08:44:24.675Z",
+    "characters": 46558,
+    "continuationParts": 0,
+    "accepted": 8,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 8,
+    "holds": [
+      {
+        "raw": "【２０２３年度（令和５年度）対象】",
+        "start": 14,
+        "reason": "政策章・一般研修・学校整備一般・修理施設別の列対応・議案名のみの事業は、独立年次事業名または実施範囲を確定できない。次年度方針と会議の議題だけを年度実績に変換しない。",
+        "status": "policy_or_unresolved_individual_boundary"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "d118c9ea91ec6b68ff1cbbeb",
+    "municipalityCode": "34207",
+    "municipalityName": "福山市",
+    "url": "https://www.city.fukuyama.hiroshima.jp/uploaded/attachment/317452.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "2974c7c7910ca0209218f326679a18b48092d5a2f80471fa823cd8d3e511bde5",
+    "sourceSha256": "7df12c78ad0e3475c3c77c0a9338fdef267a6ba2dc3e58321d9dffbd70f5336b",
+    "fetchedAt": "2026-10-21T08:44:26.857Z",
+    "characters": 47034,
+    "continuationParts": 0,
+    "accepted": 7,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 7,
+    "holds": [
+      {
+        "raw": "【２０２４年度（令和６年度）対象】",
+        "start": 14,
+        "reason": "政策章・一般研修・学校整備一般・修理施設別の列対応・議案名のみの事業は、独立年次事業名または実施範囲を確定できない。次年度方針と会議の議題だけを年度実績に変換しない。",
+        "status": "policy_or_unresolved_individual_boundary"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "3f4bfae1079f77ddf71a15f0",
+    "municipalityCode": "34207",
+    "municipalityName": "福山市",
+    "url": "https://www.city.fukuyama.hiroshima.jp/uploaded/attachment/345094.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "63a6ff2118c9e14c76b9c31a34cb90c872bb6f73e14bf7ec4375de9f4c5a6d28",
+    "sourceSha256": "c3b5af1486964bef81e7e73d1f6c7cc2c0c3342820ecf6e39f98785bee3aca58",
+    "fetchedAt": "2026-10-21T08:44:29.012Z",
+    "characters": 51334,
+    "continuationParts": 0,
+    "accepted": 7,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 7,
+    "holds": [
+      {
+        "raw": "【２０２５年度（令和７年度）対象】",
+        "start": 14,
+        "reason": "政策章・一般研修・学校整備一般・修理施設別の列対応・議案名のみの事業は、独立年次事業名または実施範囲を確定できない。次年度方針と会議の議題だけを年度実績に変換しない。",
+        "status": "policy_or_unresolved_individual_boundary"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "546c1f1360f404aa84ac71d3",
+    "municipalityCode": "34205",
+    "municipalityName": "尾道市",
+    "url": "https://www.city.onomichi.hiroshima.jp/site/kyoiku/67445.html",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "17334963b339b92d2d5c6ad7c60e87e61ae64d98a3b329e79a72f6f19835d86a",
+    "sourceSha256": "f8c5e05b50b6144c5141a8251a602e3a9566530836ccc2ded7a38578ffb1da74",
+    "fetchedAt": "2026-10-21T08:44:21.179Z",
+    "characters": 1031,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_or_framework_without_individual_year_records",
+    "reviewStatus": "navigation_or_framework_without_individual_year_records",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "教育に関する事務の点検及び評価 - 教育委員会 - 尾道市ホームページ",
+        "start": 0,
+        "reason": "全保存本文を確認。年度別原典リンク・評価制度・方法の案内であり、個別事業の明示年度と名称の対応を掲載していない。原典リンクを新たに取得せず、政策や報告書名を事業化しない。",
+        "status": "navigation_or_framework_without_individual_year_records"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "425dfd2bf20fc5a50a6e21ef",
+    "municipalityCode": "34205",
+    "municipalityName": "尾道市",
+    "url": "https://www.city.onomichi.hiroshima.jp/soshiki/59/1596.html",
+    "inventoryStatus": "missing_or_incomplete_cached_body",
+    "fullTextSha256": null,
+    "sourceSha256": null,
+    "fetchedAt": null,
+    "characters": null,
+    "continuationParts": null,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "missing_body",
+    "reviewStatus": "missing_body",
+    "proposals": 0,
+    "holds": [
+      {
+        "status": "missing_body",
+        "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
+      }
+    ],
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
+  },
+  {
+    "sourceId": "45399a74fe0fd15a9b0b68f2",
+    "municipalityCode": "34205",
+    "municipalityName": "尾道市",
+    "url": "https://www.city.onomichi.hiroshima.jp/uploaded/attachment/894.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "1b848e51637f1d8480a64701d2155a01d049df2a8c8fa1daa6d8a382bc09132c",
+    "sourceSha256": "f53602cc79ffe604fc743992a2e8a0132e6f106af57d5e9ed91bfeb39622ce4a",
+    "fetchedAt": "2026-10-21T08:44:22.925Z",
+    "characters": 56837,
+    "continuationParts": 0,
+    "accepted": 70,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 70,
+    "holds": [
+      {
+        "raw": "平成２２年度に実施した",
+        "start": 1445,
+        "reason": "108個票区切りを本文offsetで確認。94区切りは名称明瞭な活動へ対応、13区切りは計画・学校全体運営・既存施設・事業名不明・過去将来混在による独立事業の範囲が未確定、1区切りは空の重複見出し。詳細はonomichi-108-unit-final-disposition.json。数値抽出完了とは扱わない。",
+        "status": "individual_scope_unresolved",
+        "note": "108個票区切りを本文offsetで確認。94区切りは名称明瞭な活動へ対応、13区切りは計画・学校全体運営・既存施設・事業名不明・過去将来混在による独立事業の範囲が未確定、1区切りは空の重複見出し。詳細はonomichi-108-unit-final-disposition.json。数値抽出完了とは扱わない。",
+        "previousReason": "事業名を明示する個票14件のみ今回採用。残る一般施策名と個票内の具体的活動は独立単位・重複範囲の確認が必要。未完了のレビューとして保持。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "88c8acb3dd563a208b7035b8",
+    "municipalityCode": "34205",
+    "municipalityName": "尾道市",
+    "url": "https://www.city.onomichi.hiroshima.jp/uploaded/attachment/895.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "52ac60bbcf94eae8c76fa13dbde8f592a41643f8e608858aa3ef3c30f3a3fc62",
+    "sourceSha256": "b0c7b5190ead7932e8987d175b3aa7b4a7ad9e1f6013d71b99e78d8bce0375de",
+    "fetchedAt": "2026-10-21T08:44:24.719Z",
+    "characters": 61115,
+    "continuationParts": 0,
+    "accepted": 76,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 76,
+    "holds": [
+      {
+        "raw": "平成２３年度に実施した",
+        "start": 1505,
+        "reason": "108個票区切りを本文offsetで確認。94区切りは名称明瞭な活動へ対応、13区切りは計画・学校全体運営・既存施設・事業名不明・過去将来混在による独立事業の範囲が未確定、1区切りは空の重複見出し。詳細はonomichi-108-unit-final-disposition.json。数値抽出完了とは扱わない。",
+        "status": "individual_scope_unresolved",
+        "note": "108個票区切りを本文offsetで確認。94区切りは名称明瞭な活動へ対応、13区切りは計画・学校全体運営・既存施設・事業名不明・過去将来混在による独立事業の範囲が未確定、1区切りは空の重複見出し。詳細はonomichi-108-unit-final-disposition.json。数値抽出完了とは扱わない。",
+        "previousReason": "事業名を明示する個票14件のみ今回採用。残る一般施策名と個票内の具体的活動は独立単位・重複範囲の確認が必要。未完了のレビューとして保持。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "d93bf03b7d294e3d27c077e7",
+    "municipalityCode": "34205",
+    "municipalityName": "尾道市",
+    "url": "https://www.city.onomichi.hiroshima.jp/uploaded/attachment/896.pdf",
+    "inventoryStatus": "missing_or_incomplete_cached_body",
+    "fullTextSha256": null,
+    "sourceSha256": null,
+    "fetchedAt": null,
+    "characters": null,
+    "continuationParts": null,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "missing_body",
+    "reviewStatus": "missing_body",
+    "proposals": 0,
+    "holds": [
+      {
+        "status": "missing_body",
+        "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
+      }
+    ],
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
+  },
+  {
+    "sourceId": "8a545b3f077af11b2c0472ea",
+    "municipalityCode": "34205",
+    "municipalityName": "尾道市",
+    "url": "https://www.city.onomichi.hiroshima.jp/uploaded/attachment/897.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "75c486f0e05d10dcc303cb346fcfa2bc337ccf10fb89e3e58bd41e6e764d2a87",
+    "sourceSha256": "ac2c7f15ec4edf0a284f9e31cf366e2d75967f2671f6ae7d18684da356d2e744",
+    "fetchedAt": "2026-10-23T19:21:30.712Z",
+    "characters": 63572,
+    "continuationParts": 0,
+    "accepted": 5,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 5,
+    "holds": [
+      {
+        "raw": "因島南小学教施設整備事業",
+        "start": 41571,
+        "status": "ocr_title_identity_hold",
+        "reason": "同原典38頁に因島南小学校施設整備の明瞭な記述があり、施設名自体の不明とはしない。ただし既存の学校施設整備候補に対応する工事内訳として扱い、40頁の給食実施設計を別事業に重複計上しない。小学教のOCR表記・金額は訂正しない。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "eeb6f9bb3c2f44b3d04b01fc",
+    "municipalityCode": "34205",
+    "municipalityName": "尾道市",
+    "url": "https://www.city.onomichi.hiroshima.jp/uploaded/attachment/898.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "2a494d8c3c1cdd3b46cfecce49cbd75087609bd5f625c54571c8efb523bfb433",
+    "sourceSha256": "94564ba08f68b13b912993ee80bc56f79f5f06d278a8637774fe16de630c527c",
+    "fetchedAt": "2026-10-23T19:21:34.249Z",
+    "characters": 77408,
+    "continuationParts": 0,
+    "accepted": 17,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 17,
+    "holds": [
+      {
+        "raw": "安全安心て噴の向い学校施設整備事業",
+        "start": 45169,
+        "reason": "OCRにより名称中の複数文字が壊れている。名称の推測訂正をせず、原画像又は同一原典の明瞭な名称箇所での照合を要する。",
+        "status": "ocr_title_identity_hold"
+      },
+      {
+        "raw": "平\n匹\n成 26年度に 実施 した",
+        "start": 1541,
+        "reason": "明瞭な名称17件を同年度個票へ対応。事業語60箇所の有限探索と他年度名称の本文照合を記録。残りはOCR破損した名称を同一原典の明瞭な文字または元画像で確認する必要がある。校内1/2成人式を成人式と誤認しない。別年度から名称を修復しない。",
+        "status": "ocr_identity_evidence_insufficient",
+        "note": "明瞭な名称17件を同年度個票へ対応。事業語60箇所の有限探索と他年度名称の本文照合を記録。残りはOCR破損した名称を同一原典の明瞭な文字または元画像で確認する必要がある。校内1/2成人式を成人式と誤認しない。別年度から名称を修復しない。",
+        "previousReason": "この資料はOCRが広範囲で崩れている。今回明瞭な名称と個票境界を確認できた1件以外の単位は個別判読レビューが未完了。未取得やアクセス拒否とは扱わない。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "ba1bcb49d89c14e4fcdda5a4",
+    "municipalityCode": "34205",
+    "municipalityName": "尾道市",
+    "url": "https://www.city.onomichi.hiroshima.jp/uploaded/attachment/899.pdf",
+    "inventoryStatus": "missing_or_incomplete_cached_body",
+    "fullTextSha256": null,
+    "sourceSha256": null,
+    "fetchedAt": null,
+    "characters": null,
+    "continuationParts": null,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "missing_body",
+    "reviewStatus": "missing_body",
+    "proposals": 0,
+    "holds": [
+      {
+        "status": "missing_body",
+        "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
+      }
+    ],
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
+  },
+  {
+    "sourceId": "1cd33611e51e9f829600384a",
+    "municipalityCode": "34205",
+    "municipalityName": "尾道市",
+    "url": "https://www.city.onomichi.hiroshima.jp/uploaded/attachment/8703.pdf",
+    "inventoryStatus": "missing_or_incomplete_cached_body",
+    "fullTextSha256": null,
+    "sourceSha256": null,
+    "fetchedAt": null,
+    "characters": null,
+    "continuationParts": null,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "missing_body",
+    "reviewStatus": "missing_body",
+    "proposals": 0,
+    "holds": [
+      {
+        "status": "missing_body",
+        "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
+      }
+    ],
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
+  },
+  {
+    "sourceId": "255f50eb4661d6bbd626b10b",
+    "municipalityCode": "34205",
+    "municipalityName": "尾道市",
+    "url": "https://www.city.onomichi.hiroshima.jp/uploaded/attachment/12810.pdf",
+    "inventoryStatus": "missing_or_incomplete_cached_body",
+    "fullTextSha256": null,
+    "sourceSha256": null,
+    "fetchedAt": null,
+    "characters": null,
+    "continuationParts": null,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "missing_body",
+    "reviewStatus": "missing_body",
+    "proposals": 0,
+    "holds": [
+      {
+        "status": "missing_body",
+        "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
+      }
+    ],
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
+  },
+  {
+    "sourceId": "62e3d79d656b77f0a4e7fc80",
+    "municipalityCode": "34205",
+    "municipalityName": "尾道市",
+    "url": "https://www.city.onomichi.hiroshima.jp/uploaded/attachment/17795.pdf",
+    "inventoryStatus": "missing_or_incomplete_cached_body",
+    "fullTextSha256": null,
+    "sourceSha256": null,
+    "fetchedAt": null,
+    "characters": null,
+    "continuationParts": null,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "missing_body",
+    "reviewStatus": "missing_body",
+    "proposals": 0,
+    "holds": [
+      {
+        "status": "missing_body",
+        "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
+      }
+    ],
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
+  },
+  {
+    "sourceId": "fede86bf82341474079d1c78",
+    "municipalityCode": "34205",
+    "municipalityName": "尾道市",
+    "url": "https://www.city.onomichi.hiroshima.jp/uploaded/attachment/23906.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "c3749814be7bbd3a7e6f7dc192f0a0cf81aa29d7b59d94a6b33791e832021068",
+    "sourceSha256": "83a2ead3f15cfcfba65d502ce4e20cb004546a3d22ab4827aba1f105ccd96257",
+    "fetchedAt": "2026-10-23T19:21:48.329Z",
+    "characters": 63395,
+    "continuationParts": 0,
+    "accepted": 3,
+    "duplicates": 37,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 3,
+    "holds": [
+      {
+        "raw": "評価点検シート\n\n施策・事業名 生徒指導の充実\n22\n所管課 教育指導課\n夢と志を抱きグローバル社会を生き抜く子どもの育成「尾道教育みら\nいプラン２」\n「豊かな心」の育成\n生徒指導の推進\n自己指導能力の向上にむけた生徒指導の充実\n\n尾道教育総合推進計画掲載ページ\n\n内\n容\n\n政策の柱\n\n１\n\n基本方針\n重点目標\n目\n的\n\n２\n３\n\n１ いじめ・問題行動をなくすための取組\nきめ細やかな生徒指導の充実を目指し、組織的な生徒指導体制を確立する。\n２ 不登校減少への取組\n・不登校の未然防止及び不登校児童",
+        "start": 21758,
+        "reason": "本文内の明示事業名 いじめ・問題行動への対応を充実する事業 と当年度成果を採用。政策表題、複数活動の合算指標や改善策は事業値に転用しない。",
+        "status": "named_subunit_reviewed"
+      },
+      {
+        "raw": "評価点検シート\n\n施策・事業名 スポーツ施設の整備\n生涯学習課\n因島瀬戸田地域教育課\n集い・学び・生かす生涯学習の推進\nスポーツを楽しみ体力と健康を増進する環境づくり\nスポーツ施設の充実と活用\nスポーツ施設の整備\n\n尾道教育総合推進計画掲載ページ\n\n政策の柱\n基本方針\n重点目標\n目\n的\n\n４\n２\n３\n\n48\n\n所管課\n\n１ 市民スポーツ広場の機能充実\n内 ２ その他のスポーツ施設等の整備・改修（バリアフリー化等）\n容 ３ 市内スポーツ施設の効果的・効率的活用（学校施設開放事業）\n４ 旧小・中学校",
+        "start": 49974,
+        "reason": "複数施設工事または学校全体の教育行政を束ねた表題。単一事業との同一性・独立範囲を確定できず、政策表題や各購入・構成作業を追加事業に変換しない。",
+        "status": "aggregate_operational_sheet_held"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "3ee3370f414dc61f49b936c7",
+    "municipalityCode": "34205",
+    "municipalityName": "尾道市",
+    "url": "https://www.city.onomichi.hiroshima.jp/uploaded/attachment/30624.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "bd465c1845f3f68b0583d71c8cb1eaddf03154ddff0cdeead0020452927446cf",
+    "sourceSha256": "cc8e17816152672ce2ddf6ab1a5b843b2e4bb7c96eafb0c15b5253e120d48e51",
+    "fetchedAt": "2026-10-23T19:21:51.223Z",
+    "characters": 64067,
+    "continuationParts": 0,
+    "accepted": 1,
+    "duplicates": 40,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 1,
+    "holds": [],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "e299c6de2073b91f7effd68f",
+    "municipalityCode": "34205",
+    "municipalityName": "尾道市",
+    "url": "https://www.city.onomichi.hiroshima.jp/uploaded/attachment/38173.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "a28a3fb5037b07d45a2bc307903f98dddd1d127c60e23890684d2a1f7676ab5b",
+    "sourceSha256": "140529a8af133225e9d039470e56b39d01c621a1193a9b14fd67df2e10e428d1",
+    "fetchedAt": "2026-10-23T19:21:54.535Z",
+    "characters": 66350,
+    "continuationParts": 0,
+    "accepted": 5,
+    "duplicates": 35,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 5,
+    "holds": [
+      {
+        "raw": "評価点検シート\n\n施策・事業名 生徒指導の充実\n22\n所管課 教育指導課\n夢と志を抱きグローバル社会を生き抜く子どもの育成「尾道教育みらいプラ\nン２」\n「豊かな心」の育成\n生徒指導の推進\n自己指導能力の向上にむけた生徒指導の充実\n\n尾道教育総合推進計画掲載ページ\n\n政策の柱\n\n１\n\n基本方針\n２\n重点目標\n３\n目\n的\n\n内\n容\n\n取\n組\n状\n況\nと\n成\n果\n\n課\n題\n\n改\n善\nの\n方\n向\n性\n\n１ いじめ・問題行動をなくすための取組\nきめ細やかな生徒指導の充実を目指し、組織的な生徒指導体制を確立",
+        "start": 22059,
+        "reason": "本文内の明示事業名 いじめ・問題行動への対応を充実する事業 と当年度成果を採用。政策表題、複数活動の合算指標や改善策は事業値に転用しない。",
+        "status": "named_subunit_reviewed"
+      },
+      {
+        "raw": "評価点検シート\n\n施策・事業名 尾道南高等学校の教育活動を充実する取組\n30\n所管課 学校経営企画課\n夢と志を抱きグローバル社会を生き抜く子どもの育成「尾道教育みらいプ\nラン２」\n信頼される学校づくり\n特色ある学校づくりの推進\n活力・魅力ある学校づくりの推進\n\n尾道教育総合推進計画掲載ページ\n\n政策の柱\n\n１\n\n基本方針\n４\n重点目標\n２\n目\n的\n内\n容\n\n１ 尾道南高等学校を充実させる取組\n様々な課題を持つ生徒や働きながら学ぶ生徒の状況に応じて、きめ細やかな支援を推進\nする。\n多様な生徒のニー",
+        "start": 30565,
+        "reason": "複数施設工事または学校全体の教育行政を束ねた表題。単一事業との同一性・独立範囲を確定できず、政策表題や各購入・構成作業を追加事業に変換しない。",
+        "status": "aggregate_operational_sheet_held"
+      },
+      {
+        "raw": "評価点検シート\n\n施策・事業名 教職員が力を発揮できる環境を整備する取組\n30\n所管課 学校経営企画課\n夢と志を抱きグローバル社会を生き抜く子どもの育成「尾道教育みらいプ\nラン２」\n信頼される学校づくり\n特色ある学校づくりの推進\n活力・魅力ある学校づくりの推進\n\n尾道教育総合推進計画掲載ページ\n\n政策の柱\n\n１\n\n基本方針\n４\n重点目標\n２\n目\n的\n\n内\n容\n\n取\n組\n状\n況\nと\n成\n果\n\n課\n題\n\n改\n善\nの\n方\n向\n性\n\n平成 30 年 10 月に策定した「学校における働き方改革取組方針」に",
+        "start": 32000,
+        "reason": "本文内の明示事業名 統合型校務支援システムの導入 と当年度成果を採用。政策表題、複数活動の合算指標や改善策は事業値に転用しない。",
+        "status": "named_subunit_reviewed"
+      },
+      {
+        "raw": "評価点検シート\n\n施策・事業名\n\n尾道教育総合推進計画掲載ページ\n\n政策の柱\n５\n基本方針\n１\n重点目標\n１\n目\n的\n\n魅力ある展覧会の開催・豊かな地域文化をはぐくむ情報発\n信\n51\n\n所管課\n\n美術館\n\n歴史・文化・芸術の継承と創造\n心豊かな感性を育む芸術・文化活動の推進\n心豊かな感性を育む芸術・文化活動の推進\n開かれた美術館づくり\n\n１ 魅力ある展覧会の開催\n展覧会の質の向上に努め、魅力ある展覧会を開催することにより、市民の美術鑑賞機会\nの充実を図る。\n内\n（１）展覧会企画運営事業の実施\n容",
+        "start": 58469,
+        "reason": "本文内の明示事業名 展覧会企画運営事業 と当年度成果を採用。政策表題、複数活動の合算指標や改善策は事業値に転用しない。",
+        "status": "named_subunit_reviewed"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "ec395d1115603f86a785e7e0",
+    "municipalityCode": "34205",
+    "municipalityName": "尾道市",
+    "url": "https://www.city.onomichi.hiroshima.jp/uploaded/attachment/44520.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "6c48fd463a8fe68eac883a1869ff9b4bf17a787b26e91e3fe6318dd3e5abd95f",
+    "sourceSha256": "da85a9691432458579dc61bf72ab26bdc1b52178ab9cb876bbbd6c846c9f0068",
+    "fetchedAt": "2026-10-23T19:21:57.546Z",
+    "characters": 51863,
+    "continuationParts": 0,
+    "accepted": 3,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 3,
+    "holds": [
+      {
+        "raw": "スマート公民館構築事業",
+        "start": 38551,
+        "reason": "導入して利用者増を目指す改善方向であり、当年度実施済みの個別事業とは確定しない。",
+        "status": "identity_attribution_or_future_hold"
+      },
+      {
+        "raw": "子どもの居場所づくり事業",
+        "start": 45050,
+        "reason": "尾道市社会福祉協議会による事業の受入れで、市自身の独立実施主体としない。",
+        "status": "identity_attribution_or_future_hold"
+      },
+      {
+        "raw": "地域教育支援活動推進事業",
+        "start": 50966,
+        "reason": "促進事業との表記揺れ・同一活動の可能性があるため重複追加しない。",
+        "status": "identity_attribution_or_future_hold"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "48be9ad3aad229f15735beb3",
+    "municipalityCode": "34205",
+    "municipalityName": "尾道市",
+    "url": "https://www.city.onomichi.hiroshima.jp/uploaded/attachment/50099.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "9b0bd7bf71c7817735e950fe46c954d6c0a1b74ff44d69f5847d306ba1f37f48",
+    "sourceSha256": "59edcc8c02e8b96a40b275442edbe0a2ab2e623976d51ac18b11701ca470ea16",
+    "fetchedAt": "2026-10-23T19:21:59.912Z",
+    "characters": 49944,
+    "continuationParts": 0,
+    "accepted": 11,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 11,
+    "holds": [
+      {
+        "raw": "子どもの居場所づくり事業",
+        "start": 41666,
+        "reason": "社会福祉協議会の事業を市施設が受入れた記載であり、市自身の独立事業として追加しない。",
+        "status": "attribution_scope_or_future_hold"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "097054f0189853a027f9fb02",
+    "municipalityCode": "34205",
+    "municipalityName": "尾道市",
+    "url": "https://www.city.onomichi.hiroshima.jp/uploaded/attachment/55469.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "eb6dc0af95e04065c00f6c5af1a7da5dbc431bc1973f5ad45138047d70e5696c",
+    "sourceSha256": "de93a28b8c5f2eb30347caf7d5619ff62e22faa921a50d81c2d5d9dcbca2aa4b",
+    "fetchedAt": "2026-10-23T19:22:03.135Z",
+    "characters": 53439,
+    "continuationParts": 0,
+    "accepted": 9,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 9,
+    "holds": [
+      {
+        "raw": "子どもの居場所づくり事業",
+        "start": 44464,
+        "reason": "社会福祉協議会の事業を市施設が受入れた記載であり、市自身の独立事業として追加しない。",
+        "status": "attribution_scope_or_future_hold"
+      },
+      {
+        "raw": "日本遺産ゲートウェイ機能強化事業",
+        "start": 46318,
+        "reason": "2024ゲートウェイは採用済み日本遺産推進事業の財源・構成活動で二重計上しない。2025校内教育支援は今後方針で、当年度実績に変換しない。",
+        "status": "attribution_scope_or_future_hold"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "249f56389f65298e60bf6d47",
+    "municipalityCode": "34205",
+    "municipalityName": "尾道市",
+    "url": "https://www.city.onomichi.hiroshima.jp/uploaded/attachment/60711.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "5a19cd5811916dd2d5bf9bda9fc876aa2e08f3c20e8afbe3868a72c167128cf8",
+    "sourceSha256": "1e95378a93714283a629e97921ba6fca7e0ca6188ef908705c32047bbc7b9309",
+    "fetchedAt": "2026-10-23T19:22:05.902Z",
+    "characters": 56511,
+    "continuationParts": 0,
+    "accepted": 9,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 9,
+    "holds": [
+      {
+        "raw": "子どもの居場所づくり事業",
+        "start": 47308,
+        "reason": "社会福祉協議会の事業を市施設が受入れた記載であり、市自身の独立事業として追加しない。",
+        "status": "attribution_scope_or_future_hold"
+      },
+      {
+        "raw": "校内教育支援セ\nンター推進事業",
+        "start": 24120,
+        "reason": "2024ゲートウェイは採用済み日本遺産推進事業の財源・構成活動で二重計上しない。2025校内教育支援は今後方針で、当年度実績に変換しない。",
+        "status": "attribution_scope_or_future_hold"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "2588b01eb3d919a4a3861900",
+    "municipalityCode": "34204",
+    "municipalityName": "三原市",
+    "url": "https://www.city.mihara.hiroshima.jp/site/kyouiku/tenken.html",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "277405a828374e888da3d588f53241c63f2d0fef5c60581c682cd75a79b54836",
+    "sourceSha256": "6cec338ec246c3ecad9c9f1a85d9a2b6e180df61eb6b6afc7b1c8f9ed4b2a99a",
+    "fetchedAt": "2026-10-21T08:44:19.171Z",
+    "characters": 448,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_or_framework_without_individual_year_records",
+    "reviewStatus": "navigation_or_framework_without_individual_year_records",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "教育に関する事務の管理及び執行の状況の点検及び評価に関する報告書を公表しています - 三原市ホームページ",
+        "start": 0,
+        "reason": "全保存本文を確認。年度別原典リンク・評価制度・方法の案内であり、個別事業の明示年度と名称の対応を掲載していない。原典リンクを新たに取得せず、政策や報告書名を事業化しない。",
+        "status": "navigation_or_framework_without_individual_year_records"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "bbcf3871a0e626b83c1cf27d",
+    "municipalityCode": "34204",
+    "municipalityName": "三原市",
+    "url": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/148933.pdf",
+    "inventoryStatus": "missing_or_incomplete_cached_body",
+    "fullTextSha256": null,
+    "sourceSha256": null,
+    "fetchedAt": null,
+    "characters": null,
+    "continuationParts": null,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "missing_body",
+    "reviewStatus": "missing_body",
+    "proposals": 0,
+    "holds": [
+      {
+        "status": "missing_body",
+        "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
+      }
+    ],
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
+  },
+  {
+    "sourceId": "0bb860946805609b9e3d9436",
+    "municipalityCode": "34203",
+    "municipalityName": "竹原市",
+    "url": "https://www.city.takehara.lg.jp/kosodate_kyoiku/kyouiku/kyoikuiinkai/jimutenkenhyoka_kyoikuyoran/index.html",
+    "inventoryStatus": "missing_or_incomplete_cached_body",
+    "fullTextSha256": null,
+    "sourceSha256": null,
+    "fetchedAt": null,
+    "characters": null,
+    "continuationParts": null,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "missing_body",
+    "reviewStatus": "missing_body",
+    "proposals": 0,
+    "holds": [
+      {
+        "status": "missing_body",
+        "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
+      }
+    ],
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
+  },
+  {
+    "sourceId": "988ad6322bf58ef34e4f1086",
+    "municipalityCode": "34203",
+    "municipalityName": "竹原市",
+    "url": "https://www.city.takehara.lg.jp/soshikikarasagasu/somugakujika/gyomuannai/3/3/1826.html",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "7e93fc2be9d6f402f36d5ad12f41c03b261708916344ee8543d028ef9b6a9a1f",
+    "sourceSha256": "a7fd9b9db109d59aa3a84e25d7a92f4d9abd1675b61b10a90979c178feed7dae",
+    "fetchedAt": "2026-10-21T08:44:18.573Z",
+    "characters": 1009,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_or_framework_without_individual_year_records",
+    "reviewStatus": "navigation_or_framework_without_individual_year_records",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "事務点検評価／竹原市",
+        "start": 0,
+        "reason": "全保存本文を確認。年度別原典リンク・評価制度・方法の案内であり、個別事業の明示年度と名称の対応を掲載していない。原典リンクを新たに取得せず、政策や報告書名を事業化しない。",
+        "status": "navigation_or_framework_without_individual_year_records"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "b4b9165bf22d7fb9891e6a33",
+    "municipalityCode": "34203",
+    "municipalityName": "竹原市",
+    "url": "https://www.city.takehara.lg.jp/material/files/group/18/R4houkokusho.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "c86fef3d124a0ef4686e3d9aaaec902e1fc411b4bbf00030b0a9795aed78b7fb",
+    "sourceSha256": "fa22593fdd61a0eda3ddf6bd652880144c4cbb0dc2d6fbd849ad9b04975be303",
+    "fetchedAt": "2026-10-21T08:44:22.069Z",
+    "characters": 37250,
+    "continuationParts": 0,
+    "accepted": 33,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 33,
+    "holds": [
+      {
+        "raw": "点検・評価の対象事業\n地域ともにある信頼される学校づくりの推進\n\nコミュニティ・スクール推進事業\n教職員の人材育成\n\n幼保小連携教育の推進\n\nスタートカリュキラム\n\n「確かな学力」の向上\n\n未来の人材育成事業\n「学びの変革」全校展開\n学校 ICT 活用教育推進事業\n特別支援教育，介助員配置\n\n「豊かな心」の育成\n\n生徒指導支援事業\n竹原市キャリアスタートウィークの実施\n道徳教育推進\n\n「健やかな体」の育成\n\n体力テストの分析を通した指導の工夫改善\n\n充実した教育環境づくり\n\n小中一貫教育の推進\n竹原市立学校適正配置計画策定事業\n\n（２）生涯学習・青少年育成\n重点的施策\n点検・評価の対象事業\n生涯学習拠点・機会の充実\n\n地域交流センター運営事業\n図書館運営事業\n竹原市総合文化祭開催事業\nときめき講座開催事業\n\n学校と地域の協働による生涯学習の推進\n\n学びから始まる地域づくりプロジェクト\n文化芸術体験等事業\n\nスポーツ・芸術の振興\n\nスポーツ推進委員活動事業\nトップアスリート等スポーツ教室\n各種大会等開催事業\n竹原市美術展開催事業\n\n家庭・学校・地域等の連携よる教育力の向上\n\n家庭相談員、子ども会育成事業\n\nの推進\n\n青少年育成竹原市民会議\n\n- 3 -\n\n\n（３） 歴史・文化財\n重点的施策\n点検・評価の対象事業\n文化財の保存・承継の推進\n\n歴史的建造物調査分析事業\n旧森川家住宅保存修理事業\n伝統的建造物群保存事業\n\n文化財の活用の推進\n\n文化施設管理運営事業\n歴史的建造物社会実験実施事業\n\n歴史資産の普及啓発の推進\n\n竹原歴史文化啓発事業\n重伝建選定４０周年記念事業\n\n- 4 -\n\n\n",
+        "start": 1601,
+        "reason": "全209概要見出しを既存・追加候補または明示再掲・重複・年度矛盾・人名欠落の保留へ対応付けた。目次の政策章や個票下の下位活動を追加事業には数えない。詳細はtakehara-header-closure-ledger.json。",
+        "status": "individual_sheet_boundaries_reviewed"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "79d92670653ab02fd1ac07b4",
+    "municipalityCode": "34203",
+    "municipalityName": "竹原市",
+    "url": "https://www.city.takehara.lg.jp/material/files/group/18/R5houkokusho.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "ec48480612f4f6efdf6b591c3b23730ee1b2d1de8f23905853a2842e8c0de504",
+    "sourceSha256": "d67f48fa442e690114a22353348166ba09f0247b0ceb1d2345ffc00e47d942b1",
+    "fetchedAt": "2026-10-21T08:44:25.598Z",
+    "characters": 39048,
+    "continuationParts": 0,
+    "accepted": 32,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 32,
+    "holds": [
+      {
+        "raw": "点検・評価の対象事業\n地域ともにある信頼される学校づくりの推進\n\nコミュニティ・スクール推進事業\n教職員の人材育成\n\n幼保小連携教育の推進\n\n幼保小連携教育\n\n「確かな学力」の向上\n\n未来の人材育成事業\n「学びの変革」全校展開\n学校ＩＣＴ活用教育推進事業\n特別支援教育、介助員配置\n\n「豊かな心」の育成\n\n生徒指導支援事業\n竹原市キャリアスタートウィークの実施\n道徳教育推進\n\n「健やかな体」の育成\n\n体力テストの分析を通した指導の工夫改善\n\n充実した教育環境づくり\n\n小中一貫教育の推進\n市立学校適正配置計画の推進\n\n（２）生涯学習・青少年育成\n重点的施策\n点検・評価の対象事業\n生涯学習拠点・機会の充実\n\n地域交流センター運営事業\n図書館運営事業\n竹原市総合文化祭開催事業\nときめき講座開催事業\n\n学校と地域の協働による生涯学習の推進\n\nコミュニティ・スクール推進事業\n文化芸術体験等事業\n\nスポーツ・芸術の振興\n\nテニスコート改修事業\nトップアスリート等スポーツ教室\n各種大会等開催事業\n竹原市美術展開催事業\n陶藝家 井政之氏作品寄附受納\n\n家庭・学校・地域等の連携よる教育力の向上\n\n家庭相談業務、子ども会育成事業\n\nの推進\n\n青少年育成竹原市民会議\n\n- 3 -\n\n\n（３） 歴史・文化財\n重点的施策\n点検・評価の対象事業\n文化財の保存・承継の推進\n\n歴史的建造物調査分析事業\n旧森川家住宅保存修理事業\n伝統的建造物群保存事業\n\n文化財の活用の推進\n\n文化施設公開事業\n歴史的建造物活用促進事業\n\n歴史資産の普及啓発の推進\n\n竹原歴史文化啓発事業\n日本遺産（北前船寄港地）活用事業\n\n- 4 -\n\n\n",
+        "start": 1693,
+        "reason": "全209概要見出しを既存・追加候補または明示再掲・重複・年度矛盾・人名欠落の保留へ対応付けた。目次の政策章や個票下の下位活動を追加事業には数えない。詳細はtakehara-header-closure-ledger.json。",
+        "status": "individual_sheet_boundaries_reviewed"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "8ebbed9d5bcf26a8dbf7c150",
+    "municipalityCode": "34203",
+    "municipalityName": "竹原市",
+    "url": "https://www.city.takehara.lg.jp/material/files/group/18/R6houkokusho.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "c8d45d8e101f7aeed91cdeb4b5d681a78dabef683f48ca1f44146b6248b3001d",
+    "sourceSha256": "11f37e159579ded274fb5dce076c4e3fdf83cdd8340d0bb7e1ccce2561f4e334",
+    "fetchedAt": "2026-10-21T08:44:28.396Z",
+    "characters": 43147,
+    "continuationParts": 0,
+    "accepted": 34,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 34,
+    "holds": [
+      {
+        "raw": "点検・評価の対象事業\n地域ともにある信頼される学校づくりの推進\n\nコミュニティ・スクール推進事業\n教職員の人材育成\n\n幼保小連携教育の推進\n\n幼保小連携教育\n\n「確かな学力」の向上\n\n未来の人材育成事業\n「学びの変革」全校展開\n学校ＩＣＴ活用教育推進事業\n特別支援教育\n介助員配置\n\n「豊かな心」の育成\n\n生徒指導支援事業\n竹原市キャリアスタートウィークの実施\n道徳教育推進\n\n「健やかな体」の育成\n\n体力テストの分析を通した指導の工夫改善\n\n充実した教育環境づくり\n\n小中一貫教育の推進\n市立学校適正配置計画の推進\n学校施設空調整備事業\n\n（２）生涯学習・青少年育成\n重点的施策\n点検・評価の対象事業\n生涯学習拠点・機会の充実\n\n地域交流センター運営事業\n図書館運営事業\n竹原市総合文化祭開催事業\nときめき講座開催事業\n\n学校と地域の協働による生涯学習の推進\n\nコミュニティ・スクール推進事業\n文化芸術体験等事業\n\nスポーツ、芸術・文化の振興\n\nトップアスリート等スポーツ教室\n各種大会等開催事業\n竹原市美術展開催事業\n今井政之顕彰施設整備検討事業\n\n家庭・学校・地域等の連携よる教育力向上の\n\n家庭相談業務\n\n推進\n\n青少年育成竹原市民会議\n\n- 3 -\n\n\n（３） 歴史・文化財\n重点的施策\n点検・評価の対象事業\n文化財の保存・承継の推進\n\n歴史的建造物調査分析事業\n旧森川家住宅保存修理事業\n伝統的建造物群保存事業\n亀田家住宅取得・保存活用事業\n\n文化財の活用の推進\n\n文化施設公開事業\n歴史的建造物活用促進事業\n\n歴史資産の普及啓発の推進\n\n竹原歴史文化啓発事業\n北海道余市町歴史交流事業\n\n- 4 -\n\n\n",
+        "start": 1641,
+        "reason": "全209概要見出しを既存・追加候補または明示再掲・重複・年度矛盾・人名欠落の保留へ対応付けた。目次の政策章や個票下の下位活動を追加事業には数えない。詳細はtakehara-header-closure-ledger.json。",
+        "status": "individual_sheet_boundaries_reviewed"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "1cf5ac05cbb416fa376789d1",
+    "municipalityCode": "34203",
+    "municipalityName": "竹原市",
+    "url": "https://www.city.takehara.lg.jp/material/files/group/18/R3houkoku.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "f5c98d7ad21aeea9dac508eb636d10546c7d41d2a4487bd79224fc112073723e",
+    "sourceSha256": "d82266273d1072f6c6cc498904827cce6319fe6eae1e0d5a1b9f49a12c88e7d5",
+    "fetchedAt": "2026-10-23T19:21:26.756Z",
+    "characters": 39896,
+    "continuationParts": 0,
+    "accepted": 33,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 33,
+    "holds": [
+      {
+        "raw": "点検・評価の対象事業\n地域ともにある信頼される学校づくりの推進\n\nコミュニティ・スクール導入事業\n教職員の人材育成\n\n幼保小連携教育の推進\n\nスタートカリュキラム\n\n「確かな学力」の向上\n\n未来の人材育成事業\n「学びの変革」全校展開\n学校 ICT 活用教育推進事業\n特別支援教育，介助員配置\n\n「豊かな心」の育成\n\n生徒指導支援事業\n竹原市キャリアスタートウィークの実施\n道徳教育推進\n\n「健やかな体」の育成\n\n体力テスト分析を通した指導の工夫改善\n\n充実した教育環境づくり\n\n小中一貫教育の推進\n竹原市立学校適正配置懇話会事業\n\n（２）生涯学習・青少年育成\n重点的施策\n点検・評価の対象事業\n生涯学習拠点・機会の充実\n\n地域交流センター運営事業\n図書館運営事業\n竹原市総合文化祭開催事業\n竹原市立学校児童生徒図画書道展開催事業\n\n学校と地域の協働による生涯学習の推進\n\n学びから始まる地域づくりプロジェクト\n文化芸術体験等事業\n\nスポーツ・芸術の振興\n\nスポーツ推進委員活動事業\nトップアスリート等スポーツ教室\n各種大会等開催事業\n竹原市美術展開催事業\n\n家庭・学校・地域等の連携よる教育力の向上\n\n家庭相談員，こども会育成事業\n\nの推進\n\n青少年育成竹原市民会議\n\n- 3 -\n\n\n（３） 歴史・文化財\n重点的施策\n点検・評価の対象事業\n文化財の保存・承継の推進\n\n文化財指定事業\n旧森川家住宅調査分析事業\n伝統的建造物群保存事業\n\n文化財の活用の推進\n\n文化施設管理運営事業\n歴史的建造物社会実験実施事業\n\n歴史資産の普及啓発の推進\n\n竹原歴史文化啓発事業\n埋蔵文化財啓発事業\n\n- 4 -\n\n\n",
+        "start": 1599,
+        "reason": "全209概要見出しを既存・追加候補または明示再掲・重複・年度矛盾・人名欠落の保留へ対応付けた。目次の政策章や個票下の下位活動を追加事業には数えない。詳細はtakehara-header-closure-ledger.json。",
+        "status": "individual_sheet_boundaries_reviewed"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "46b03d09c4a37e76d533103e",
+    "municipalityCode": "34203",
+    "municipalityName": "竹原市",
+    "url": "https://www.city.takehara.lg.jp/material/files/group/18/R2houkokusho.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "6dc62b027e4748c12be8ed8aced95ba4df71697e8c03f12b34c1036a803cf3d5",
+    "sourceSha256": "d4c8ff3590b29f51a387976b7169c073fb6f0ae60d884298cbbe36e19143ee06",
+    "fetchedAt": "2026-10-23T19:21:31.423Z",
+    "characters": 40915,
+    "continuationParts": 0,
+    "accepted": 30,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 30,
+    "holds": [
+      {
+        "raw": "点検・評価の対象事業\n地域ともにある信頼される学校づくりの推進\n\nコミュニティ・スクール導入事業\n教職員の人材育成\n\n幼保小連携教育の推進\n\nスタートカリュキラム\n\n「確かな学力」の向上\n\n未来の人材育成事業\n「学びの変革」全校展開\n学校 ICT 活用教育推進事業\n特別支援教育\n\n「豊かな心」の育成\n\n生徒指導支援\n竹原市キャリアスタートウィークの実施\n\n「健やかな体」の育成\n\n体力テスト分析を通した指導の工夫改善\n\n充実した教育環境づくり\n\n小中一貫教育の推進\n竹原市立学校適正配置懇話会\n\n（２）生涯学習・青少年育成\n重点的施策\n点検・評価の対象事業\n生涯学習拠点・機会の充実\n\n地域交流センター運営事業\n図書館運営事業\n竹原市総合文化祭開催事業\n竹原市立学校児童生徒図画書道展開催事業\n\n学校と地域の協働による生涯学習の推進\n\n学びから始まる地域づくりプロジェクト\n文化芸術体験等事業\n\nスポーツ・芸術の振興\n\nスポーツ推進委員活動事業\nトップアスリート等スポーツ教室\n各種大会等開催事業\n竹原市美術展開催事業\n\n家庭・学校・地域等の連携よる教育力の向上\n\n家庭相談員，こども会育成事業\n\nの推進\n\n青少年育成竹原市民会議\n\n- 14 -\n\n\n（３） 歴史・文化財\n重点的施策\n点検・評価の対象事業\n文化財の保存・承継の推進\n\n旧森川家住宅調査分析事業\n伝統的建造物群保存事業\n\n文化財の活用の推進\n\n文化施設管理運営事業\n\n歴史資産の普及啓発の推進\n\n竹原歴史文化啓発事業\n\n- 15 -\n\n\n",
+        "start": 12181,
+        "reason": "全209概要見出しを既存・追加候補または明示再掲・重複・年度矛盾・人名欠落の保留へ対応付けた。目次の政策章や個票下の下位活動を追加事業には数えない。詳細はtakehara-header-closure-ledger.json。",
+        "status": "individual_sheet_boundaries_reviewed"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "14b6083b6d35807412cadd08",
+    "municipalityCode": "34203",
+    "municipalityName": "竹原市",
+    "url": "https://www.city.takehara.lg.jp/material/files/group/18/R1houkokusho.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "8920c241b50558cb0610ff099b04af9bf6b5333202d69fcf403493b6453b573c",
+    "sourceSha256": "e5b58ba95ed425af21d2ddad30194698cf1659f9a196b86eb6dfbb90fc199426",
+    "fetchedAt": "2026-10-23T19:21:34.355Z",
+    "characters": 35548,
+    "continuationParts": 0,
+    "accepted": 28,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 28,
+    "holds": [
+      {
+        "raw": "点検・評価の対象事業\n地域ともにある信頼される学校づくりの推進\n\nコミュニティ・スクール導入事業\n教職員の人材育成\n人材育成の推進\n\n幼保小連携教育の推進\n\nスタートカリュキラム\n\n「確かな学力」の向上\n\n未来の人材育成事業\n「学びの変革」全校展開\n学校 ICT 活用教育推進事業\n特別支援教育\n\n「豊かな心」の育成\n\n生徒指導支援員\n竹原市キャリアスタートウィークの実施\n\n「健やかな体」の育成\n\n体力テスト分析を通した指導の工夫改善\n\n充実した教育環境づくり\n\n小中一貫教育の推進\n\n（２）生涯学習・青少年育成\n重点的施策\n点検・評価の対象事業\n生涯学習拠点・機会の充実\n\n地域交流センター運営事業\n図書館運営事業\n竹原市総合文化祭開催事業\n竹原市立学校児童生徒図画書道展開催事業\n\n学校と地域の協働による生涯学習の推進\n\n学びから始まる地域づくりプロジェクト\n文化芸術体験等事業\n\nスポーツ・芸術の振興\n\nスポーツ推進委員活動事業\nトップアスリート等スポーツ教室\n各種大会等開催事業\n竹原市美術展開催事業\n\n家庭・学校・地域等の連携よる教育力の向上\n\n家庭相談員，こども会育成事業\n\nの推進\n\n青少年育成竹原市民会議\n青少年指導員設置事業\n\n- 10 -\n\n\n（３） 歴史・文化財\n重点的施策\n点検・評価の対象事業\n文化財の保存・承継の推進\n\n旧森川家住宅調査分析事業\n伝統的建造物群保存事業\n\n文化財の活用の推進\n\n文化施設管理運営事業\n\n歴史資産の普及啓発の推進\n\n日本遺産（北前船寄港地）活用事業\n\n- 11 -\n\n\n",
+        "start": 9632,
+        "reason": "全209概要見出しを既存・追加候補または明示再掲・重複・年度矛盾・人名欠落の保留へ対応付けた。目次の政策章や個票下の下位活動を追加事業には数えない。詳細はtakehara-header-closure-ledger.json。",
+        "status": "individual_sheet_boundaries_reviewed"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "743451c8733c2d7371089a17",
+    "municipalityCode": "34203",
+    "municipalityName": "竹原市",
+    "url": "https://www.city.takehara.lg.jp/material/files/group/18/H30jimutennkennhyouka.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "84d2078bec0a8aab9ce83cf66728f4f8cdd5e59d1ca62e9db9df88fb0d19874b",
+    "sourceSha256": "f159cbe4835faf4d735483388200e26377fe558069377c0be30b470efe797a1b",
+    "fetchedAt": "2026-10-23T19:21:37.526Z",
+    "characters": 27675,
+    "continuationParts": 0,
+    "accepted": 21,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 21,
+    "holds": [
+      {
+        "raw": "〔決算額（H29）",
+        "start": 17843,
+        "reason": "図書館移転個票は対象年度と前年決算表示が混在。2018年度の独立実施対象かを確定するまで未採用。",
+        "status": "target_year_conflict_hold"
+      },
+      {
+        "raw": "公民館運営事 【事業概要】",
+        "start": 16368,
+        "reason": "同一公民館事業が複数の施策に再掲されるため1件として保持。政策章名は独立事業に変換しない。",
+        "status": "duplicate_reprint"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "163518ab5e763cc2bc90ddd4",
+    "municipalityCode": "34203",
+    "municipalityName": "竹原市",
+    "url": "https://www.city.takehara.lg.jp/material/files/group/18/H29jimutennkennhyouka.pdf",
+    "inventoryStatus": "missing_or_incomplete_cached_body",
+    "fullTextSha256": null,
+    "sourceSha256": null,
+    "fetchedAt": null,
+    "characters": null,
+    "continuationParts": null,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "missing_body",
+    "reviewStatus": "missing_body",
+    "proposals": 0,
+    "holds": [
+      {
+        "status": "missing_body",
+        "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
+      }
+    ],
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
+  },
+  {
+    "sourceId": "5bf31f5329c96f144ea3c8e6",
+    "municipalityCode": "34203",
+    "municipalityName": "竹原市",
+    "url": "https://www.city.takehara.lg.jp/material/files/group/18/H28jimutennkennhyouka.pdf",
+    "inventoryStatus": "missing_or_incomplete_cached_body",
+    "fullTextSha256": null,
+    "sourceSha256": null,
+    "fetchedAt": null,
+    "characters": null,
+    "continuationParts": null,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "missing_body",
+    "reviewStatus": "missing_body",
+    "proposals": 0,
+    "holds": [
+      {
+        "status": "missing_body",
+        "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
+      }
+    ],
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
+  },
+  {
+    "sourceId": "400cae5df52ad34a2da37c89",
+    "municipalityCode": "34203",
+    "municipalityName": "竹原市",
+    "url": "https://www.city.takehara.lg.jp/material/files/group/18/H27jimutennkennhyouka.pdf",
+    "inventoryStatus": "missing_or_incomplete_cached_body",
+    "fullTextSha256": null,
+    "sourceSha256": null,
+    "fetchedAt": null,
+    "characters": null,
+    "continuationParts": null,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "missing_body",
+    "reviewStatus": "missing_body",
+    "proposals": 0,
+    "holds": [
+      {
+        "status": "missing_body",
+        "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
+      }
+    ],
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
+  },
+  {
+    "sourceId": "3eae62161990ea780a7e39f3",
+    "municipalityCode": "34203",
+    "municipalityName": "竹原市",
+    "url": "https://www.city.takehara.lg.jp/material/files/group/18/H26jimutennkennhyouka.pdf",
+    "inventoryStatus": "missing_or_incomplete_cached_body",
+    "fullTextSha256": null,
+    "sourceSha256": null,
+    "fetchedAt": null,
+    "characters": null,
+    "continuationParts": null,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "missing_body",
+    "reviewStatus": "missing_body",
+    "proposals": 0,
+    "holds": [
+      {
+        "status": "missing_body",
+        "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
+      }
+    ],
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
+  },
+  {
+    "sourceId": "c0b68afe6b511f08a453c47a",
+    "municipalityCode": "34203",
+    "municipalityName": "竹原市",
+    "url": "https://www.city.takehara.lg.jp/material/files/group/18/H25jimutennkennhyouka.pdf",
+    "inventoryStatus": "missing_or_incomplete_cached_body",
+    "fullTextSha256": null,
+    "sourceSha256": null,
+    "fetchedAt": null,
+    "characters": null,
+    "continuationParts": null,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "missing_body",
+    "reviewStatus": "missing_body",
+    "proposals": 0,
+    "holds": [
+      {
+        "status": "missing_body",
+        "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
+      }
+    ],
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
+  },
+  {
+    "sourceId": "1d51f4abc136b7e746266d7c",
+    "municipalityCode": "34203",
+    "municipalityName": "竹原市",
+    "url": "https://www.city.takehara.lg.jp/material/files/group/18/H24jimutennkennhyouka.pdf",
+    "inventoryStatus": "missing_or_incomplete_cached_body",
+    "fullTextSha256": null,
+    "sourceSha256": null,
+    "fetchedAt": null,
+    "characters": null,
+    "continuationParts": null,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "missing_body",
+    "reviewStatus": "missing_body",
+    "proposals": 0,
+    "holds": [
+      {
+        "status": "missing_body",
+        "reason": "No nonempty cached text. Acquisition remains held pending original6manifests or complete cumulative stop ledger. No request made."
+      }
+    ],
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim.",
+    "additionalExternalProposals": 0
+  },
+  {
+    "sourceId": "7333b82a714c958d027df394",
+    "municipalityCode": "34202",
+    "municipalityName": "呉市",
+    "url": "https://www.city.kure.lg.jp/soshiki/11/jimutenkenhyouka-houkokusyo29.html",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "e44c4354bc6c235eb442bbaec3e7533e315a7732dac53f36720ddb93f7beedc9",
+    "sourceSha256": "546919fbed8dfd1d64414eded56d6d4f9582bd1e7c530104a64a49839eed774c",
+    "fetchedAt": "2026-10-21T08:44:16.595Z",
+    "characters": 801,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_or_framework_without_individual_year_records",
+    "reviewStatus": "navigation_or_framework_without_individual_year_records",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "教育委員会事務点検・評価報告書 ※PDF - 呉市ホームページ",
+        "start": 0,
+        "reason": "全保存本文を確認。年度別原典リンク・評価制度・方法の案内であり、個別事業の明示年度と名称の対応を掲載していない。原典リンクを新たに取得せず、政策や報告書名を事業化しない。",
+        "status": "navigation_or_framework_without_individual_year_records"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "9dd9727937ed824a4938fa62",
+    "municipalityCode": "34202",
+    "municipalityName": "呉市",
+    "url": "https://www.city.kure.lg.jp/uploaded/life/179732_481552_misc.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "b7bebe4f07174c1867893c4a81e6bdd953b6cda4a3a70c5863f635f4708cfb54",
+    "sourceSha256": "8018e87a1a4b0fc5491b9dfaeffdb001a21deca05b6732ea8bdc0380d16780ce",
+    "fetchedAt": "2026-10-21T08:44:18.642Z",
+    "characters": 35981,
+    "continuationParts": 0,
+    "accepted": 11,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 11,
+    "holds": [
+      {
+        "raw": "（令和５年度事務事業対象）",
+        "start": 16,
+        "reason": "取組状況の独立した名称付き活動を追加レビュー済み。特別支援職員の複数職種を並べた人数欄は個別事業境界が不明で分割しない。県・市・加配等のSSR混在は一括して市事業にしない。一般的な授業改善・研修・施設管理は独立事業名を創作せず、翌年度の呉こどもチャット相談等は対象年度に遡及しない。",
+        "status": "mixed_scope_and_aggregate_units_held"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "3aa67c097a7dd9df6ba569a1",
+    "municipalityCode": "34202",
+    "municipalityName": "呉市",
+    "url": "https://www.city.kure.lg.jp/uploaded/life/179732_481553_misc.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "96a92380bf54205d1f09728f6e0a603c891afab1c71a7f4e70e0e2dca2dc70b1",
+    "sourceSha256": "767ed72f653e6344a0568edf9bd736e677dd353e33bf266fd9aaf68969bf0ccd",
+    "fetchedAt": "2026-10-21T08:44:20.410Z",
+    "characters": 36528,
+    "continuationParts": 0,
+    "accepted": 11,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 11,
+    "holds": [
+      {
+        "raw": "（令和６年度事務事業対象）",
+        "start": 16,
+        "reason": "取組状況の独立した名称付き活動を追加レビュー済み。特別支援職員の複数職種を並べた人数欄は個別事業境界が不明で分割しない。県・市・加配等のSSR混在は一括して市事業にしない。一般的な授業改善・研修・施設管理は独立事業名を創作せず、翌年度の呉こどもチャット相談等は対象年度に遡及しない。",
+        "status": "mixed_scope_and_aggregate_units_held"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "2b519a995cdae15d17fdf0fd",
+    "municipalityCode": "34202",
+    "municipalityName": "呉市",
+    "url": "https://www.city.kure.lg.jp/uploaded/life/179732_481555_misc.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "dffbe0d33d6a5b8f81ae4821be263455ad7f10d728771cfe67cefa8ecc9d8026",
+    "sourceSha256": "6c442b2cebc67a17bcbd0ba2a704bfcb12c77353e8b430433db7b97948fda62d",
+    "fetchedAt": "2026-10-21T08:44:22.482Z",
+    "characters": 41113,
+    "continuationParts": 0,
+    "accepted": 12,
+    "duplicates": 0,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 12,
+    "holds": [
+      {
+        "raw": "（令和７年度事務事業対象）",
+        "start": 16,
+        "reason": "取組状況の独立した名称付き活動を追加レビュー済み。特別支援職員の複数職種を並べた人数欄は個別事業境界が不明で分割しない。県・市・加配等のSSR混在は一括して市事業にしない。一般的な授業改善・研修・施設管理は独立事業名を創作せず、翌年度の呉こどもチャット相談等は対象年度に遡及しない。",
+        "status": "mixed_scope_and_aggregate_units_held"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "17b9ab9bcd52af6de179e1e2",
+    "municipalityCode": "34100",
+    "municipalityName": "広島市",
+    "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/018/851/260925/260925.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "6e7452b140a716ceeb4aed5f782f4f752fd7f7d5a10d0c213ebbf32f56c120ba",
+    "sourceSha256": "31c775357bdf9a786352d21a13d5c904aa33745354f34f2df2af11bd0b5a1174",
+    "fetchedAt": "2026-10-11T17:37:01.112551+00:00",
+    "characters": 20604,
+    "continuationParts": 0,
+    "accepted": 8,
+    "duplicates": 7,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 11,
+    "holds": [
+      {
+        "raw": "＜令和７年度の実施状況＞",
+        "start": 1844,
+        "reason": "2冊54区切りを本文境界で台帳化。21区切りは明示名称を年度へ対応、33区切りは法人・学校・病院全体、収納率、方針、匿名業務や将来取組等で独立事業名と範囲が確定しない。hiroshima-city-54-unit-disposition.jsonに各理由と原文を保存。集計指標を追加事業や費用に変換しない。",
+        "status": "institution_or_policy_individual_scope_unresolved",
+        "note": "2冊54区切りを本文境界で台帳化。21区切りは明示名称を年度へ対応、33区切りは法人・学校・病院全体、収納率、方針、匿名業務や将来取組等で独立事業名と範囲が確定しない。hiroshima-city-54-unit-disposition.jsonに各理由と原文を保存。集計指標を追加事業や費用に変換しない。",
+        "previousReason": "一般改革目標、企業会計全体の経営改善、他団体の事業・補助制度の背景説明は独立事業評価に変換しない。その他の個別制度・具体的サービスの年度境界レビューは未完了。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "7015ee7e458ea0e2856d2174",
+    "municipalityCode": "34100",
+    "municipalityName": "広島市",
+    "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/018/851/250813.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "2d780b63e6bf5b14e8eb4eb1c136225a9d5c9f04574f909db07264cc8f224a0a",
+    "sourceSha256": "3ad28bb8c0e097f338d9dde542328dd95551d490d2fc357ca249c42207610101",
+    "fetchedAt": "2026-10-11T17:36:54.861104+00:00",
+    "characters": 13211,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "multiyear_plan_not_annual_execution",
+    "reviewStatus": "multiyear_plan_not_annual_execution",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "広島市行政経営改革推進プラン",
+        "start": 0,
+        "reason": "令和6～9年度の改革計画・改訂版。工程や今後の取組を実績年度に変換しない。同一対象の年度実施状況2冊を別に確認済み。計画書を重複の年次レコードにしない。",
+        "status": "multiyear_plan_not_annual_execution"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "d23c00cd3bb2aed6ea16812e",
+    "municipalityCode": "34100",
+    "municipalityName": "広島市",
+    "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/018/851/250925.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "5aa4d6d6503ac0ff90478360d46eb5f23e6bb434d81b0e6ded1256e2fb4d7fb8",
+    "sourceSha256": "97bdab53b7df184441784d379af2c2a70bcffc4873c2f9365d7a5fb65b2aa065",
+    "fetchedAt": "2026-10-11T17:37:09.499402+00:00",
+    "characters": 19998,
+    "continuationParts": 0,
+    "accepted": 8,
+    "duplicates": 7,
+    "parserStatus": "processed",
+    "reviewStatus": "processed",
+    "proposals": 11,
+    "holds": [
+      {
+        "raw": "＜令和６年度の実施状況＞",
+        "start": 1757,
+        "reason": "2冊54区切りを本文境界で台帳化。21区切りは明示名称を年度へ対応、33区切りは法人・学校・病院全体、収納率、方針、匿名業務や将来取組等で独立事業名と範囲が確定しない。hiroshima-city-54-unit-disposition.jsonに各理由と原文を保存。集計指標を追加事業や費用に変換しない。",
+        "status": "institution_or_policy_individual_scope_unresolved",
+        "note": "2冊54区切りを本文境界で台帳化。21区切りは明示名称を年度へ対応、33区切りは法人・学校・病院全体、収納率、方針、匿名業務や将来取組等で独立事業名と範囲が確定しない。hiroshima-city-54-unit-disposition.jsonに各理由と原文を保存。集計指標を追加事業や費用に変換しない。",
+        "previousReason": "一般改革目標、企業会計全体の経営改善、他団体の事業・補助制度の背景説明は独立事業評価に変換しない。その他の個別制度・具体的サービスの年度境界レビューは未完了。"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "f902c388d5bc61cb12c413cc",
+    "municipalityCode": "34100",
+    "municipalityName": "広島市",
+    "url": "https://www.city.hiroshima.lg.jp/shisei/gyosei/1021768/1018851.html",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "7e7047fe56da0101a35a7c2a4149394aa4e09878cf09c5b77dfbe31533b98f40",
+    "sourceSha256": "8368de207186f674b631305ce66d739f3ef3c6543c62122b7216b0ce8aa79cef",
+    "fetchedAt": "2026-10-11T17:32:30.523389+00:00",
+    "characters": 716,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "navigation_or_framework_without_individual_year_records",
+    "reviewStatus": "navigation_or_framework_without_individual_year_records",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "広島市行政経営改革推進プラン｜広島市公式ウェブサイト",
+        "start": 0,
+        "reason": "全保存本文を確認。年度別原典リンク・評価制度・方法の案内であり、個別事業の明示年度と名称の対応を掲載していない。原典リンクを新たに取得せず、政策や報告書名を事業化しない。",
+        "status": "navigation_or_framework_without_individual_year_records"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  },
+  {
+    "sourceId": "fb5870265ba141ddc954aecf",
+    "municipalityCode": "34100",
+    "municipalityName": "広島市",
+    "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/018/851/260401/260401.pdf",
+    "inventoryStatus": "complete_hash_verified",
+    "fullTextSha256": "eceff557dd8f460220ff2b63a7556530a6474b22b7f962caf3edbb416f9cdfec",
+    "sourceSha256": "933670c7e395e283458761883ddac2021b880336e3d7398a1fa18909221c60fc",
+    "fetchedAt": "2026-10-11T17:36:50.855972+00:00",
+    "characters": 13712,
+    "continuationParts": 0,
+    "accepted": 0,
+    "duplicates": 0,
+    "parserStatus": "multiyear_plan_not_annual_execution",
+    "reviewStatus": "multiyear_plan_not_annual_execution",
+    "proposals": 0,
+    "holds": [
+      {
+        "raw": "広島市行政経営改革推進プラン",
+        "start": 0,
+        "reason": "令和6～9年度の改革計画・改訂版。工程や今後の取組を実績年度に変換しない。同一対象の年度実施状況2冊を別に確認済み。計画書を重複の年次レコードにしない。",
+        "status": "multiyear_plan_not_annual_execution"
+      }
+    ],
+    "additionalExternalProposals": 0,
+    "coverageClaim": "First source-family review only; exact unit holds retained. No nationwide or source completeness claim."
+  }
+]
