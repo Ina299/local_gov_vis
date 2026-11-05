@@ -1,0 +1,45 @@
+{
+  "sourceId": "76526b41adb250351b6efc67",
+  "evaluationYear": 2021,
+  "amountYearConflict": "Header says FY2020 financials; column says FY2019. No amount extraction.",
+  "rows": [
+    {
+      "name": "だいせんファンクラブ事業",
+      "matches": []
+    },
+    {
+      "name": "デマンドバス事業",
+      "matches": [
+        {
+          "id": "cached-31386-6f680e1adc2c014bf389b62c",
+          "fy": 2020,
+          "ey": 2021
+        }
+      ]
+    },
+    {
+      "name": "タクシー助成事業",
+      "matches": []
+    },
+    {
+      "name": "耕畜連携推進事業",
+      "matches": [
+        {
+          "id": "cached-31386-149ecf94b5a49e896b7c2e93",
+          "fy": 2020,
+          "ey": 2021
+        }
+      ]
+    },
+    {
+      "name": "プール管理費",
+      "matches": [
+        {
+          "id": "cached-31386-58bfd77c0ec957f00e6e4645",
+          "fy": 2020,
+          "ey": 2021
+        }
+      ]
+    }
+  ]
+}

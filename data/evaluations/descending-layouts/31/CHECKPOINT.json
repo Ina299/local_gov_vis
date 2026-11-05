@@ -1,0 +1,45 @@
+{
+  "candidateRecords": 224,
+  "candidateMunicipalities": 6,
+  "perMunicipality": {
+    "江府町": 93,
+    "南部町": 39,
+    "大山町": 2,
+    "日吉津村": 34,
+    "琴浦町": 10,
+    "若桜町": 46
+  },
+  "reviewedProposals": 234,
+  "newProposalDuplicates": 10,
+  "sourcesInventoried": 159,
+  "completeBodies": 150,
+  "incompleteBodies": 1,
+  "missingBodies": 8,
+  "validatedCumulativeCandidates": 14873,
+  "validatedEvidence": 38046,
+  "excludedFromCumulative": [
+    "Okinawa1084",
+    "initial93"
+  ],
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0,
+  "prePushMaster": "b3f8012827bc5ed61637a616f11882e9f3ea5145",
+  "skippedMunicipalities": [
+    "31202 米子市",
+    "31370 湯梨浜町"
+  ],
+  "phaseComplete": false,
+  "pendingExternalProposals": 116,
+  "checks": {
+    "focused": "3/3",
+    "quotes": "14873/38046",
+    "crawler": "582/582",
+    "web": "256/256",
+    "typecheck": "passed",
+    "lint": "passed with existing warning",
+    "static": "109 pages /local_gov_vis",
+    "national": "500 municipalities/92038 branch baseline unchanged"
+  },
+  "remaining": "Further individual layout review remains in complete cached bodies.159 sources accounted in inventory; not all extracted.8 missing and1 incomplete stay held. No new source access authorized."
+}

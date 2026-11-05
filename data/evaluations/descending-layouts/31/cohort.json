@@ -1,0 +1,128 @@
+{
+  "prefecture": "31",
+  "master": "f243827b6176065eaa05dfb6ef65e482b35de6fb",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-05T19:23:10.795479+00:00",
+  "unpublishedUserChanges": "not observable;collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "31403",
+      "municipalityName": "江府町",
+      "datasetSha256": "2241bffd621a57750dbb6dca386abdbc988568f0bf528dadb593e4886f5a2dc0",
+      "evidenceShardSha256": "933a80846db6edae8cd05409e60f9649f5d76f60fbdebdc182cb7d036a208a52"
+    },
+    {
+      "municipalityCode": "31402",
+      "municipalityName": "日野町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "03eeb441e7a5afe869da869ff9187449a9dc7b4409143126b49d40bba262fa29"
+    },
+    {
+      "municipalityCode": "31401",
+      "municipalityName": "日南町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b00f554e6140d7c1f0fb7a414fbee68aa8e119c3f29457db2230ed9f81c05fff"
+    },
+    {
+      "municipalityCode": "31390",
+      "municipalityName": "伯耆町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "de757d058ab533f32a350b33b042cca68b3868e71b23ec9c59b545fa0a20b64e"
+    },
+    {
+      "municipalityCode": "31389",
+      "municipalityName": "南部町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a5b25bac50be3d0d9b2601dd5533706e34f303d98b1e3d4e93fcb4b5ba3ae358"
+    },
+    {
+      "municipalityCode": "31386",
+      "municipalityName": "大山町",
+      "datasetSha256": "320d8b9b56c3b2732922e7cf2d393dfdcbf0ba1ef582d709b42e949e5e957c98",
+      "evidenceShardSha256": "0800f500f2e4df4fec0cec87fa6afe1b47ba167e5960c100e19abec6e238a008"
+    },
+    {
+      "municipalityCode": "31384",
+      "municipalityName": "日吉津村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "abd635d5d032a8898a7f7befe8b1cf0fc4f560d9088f094fac9e4d135a14bb2d"
+    },
+    {
+      "municipalityCode": "31372",
+      "municipalityName": "北栄町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e423f58b15d27d110d48af6bff1cfa37ed424ae351e2680b8ef238f5b4e1f046"
+    },
+    {
+      "municipalityCode": "31371",
+      "municipalityName": "琴浦町",
+      "datasetSha256": "3621097a8352c89997914293f429a5153b6b9732c7a983d18f466ce2bca57504",
+      "evidenceShardSha256": "7bc6647a815012deae95d4841f713a4b279549079d3b29f459c0cc033b7ed48c"
+    },
+    {
+      "municipalityCode": "31364",
+      "municipalityName": "三朝町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "1f540187b316ea490bbdb97660caab25705b981bcd3d504cab7489d657dbeceb"
+    },
+    {
+      "municipalityCode": "31329",
+      "municipalityName": "八頭町",
+      "datasetSha256": "19ef339adb40fcce92eac3d730abcc8732b7e3888444ea5586497836157d350f",
+      "evidenceShardSha256": "d57110717d107dc4d22c331e3e5335ed2714287079ba712714ed35966983bfab"
+    },
+    {
+      "municipalityCode": "31328",
+      "municipalityName": "智頭町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "033080817170be9ecddf3222cb066c6cfa0b107a708798d01b9e51891f6853a4"
+    },
+    {
+      "municipalityCode": "31325",
+      "municipalityName": "若桜町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "36244fb02fd5930642736c820e526c0b826669647f3eb7d5a8bb057ef86c5e96"
+    },
+    {
+      "municipalityCode": "31302",
+      "municipalityName": "岩美町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "cd57e904bd95b3425ea2a3d4913b05cefed5a871ec72842d7c80901bf39cdf21"
+    },
+    {
+      "municipalityCode": "31204",
+      "municipalityName": "境港市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "2ccfe8751c095154ebf033779eb1fcef7f4e3b6df973e61e8ddf898db12e4209"
+    },
+    {
+      "municipalityCode": "31203",
+      "municipalityName": "倉吉市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "89be3a2b4a1325ebfb4cffe1232d55f89a11f294c40e0d79b80b0eaf7526d8bd"
+    },
+    {
+      "municipalityCode": "31201",
+      "municipalityName": "鳥取市",
+      "datasetSha256": "2fc4ef2fe06507ab908205cfa7e00d82c73283ec270bdfa8bda031c126aa02b4",
+      "evidenceShardSha256": "6baf4ab93111085797052e47571a91026ea307473e4979e3f62ff6e9a64b3649"
+    }
+  ],
+  "skipped": [
+    {
+      "municipalityCode": "31370",
+      "municipalityName": "湯梨浜町",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "31202",
+      "municipalityName": "米子市",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    }
+  ],
+  "rule": "Only exact unchanged dataset/evidence hashes; retain original exclusions; never update baseline hashes to silence mismatch."
+}
