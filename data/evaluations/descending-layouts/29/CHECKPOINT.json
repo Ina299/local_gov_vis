@@ -1,21 +1,22 @@
 {
-  "candidateRecords": 210,
-  "candidateMunicipalities": 5,
-  "rawProposals": 226,
+  "candidateRecords": 422,
+  "candidateMunicipalities": 6,
+  "rawProposals": 438,
   "existingDuplicateProposals": 16,
   "perMunicipality": {
     "黒滝村": 50,
     "上牧町": 18,
     "御杖村": 24,
-    "御所市": 82,
-    "橿原市": 36
+    "御所市": 238,
+    "橿原市": 36,
+    "大和郡山市": 56
   },
   "sourcesInventoried": 74,
   "completeBodies": 55,
   "continuationParts": 5,
   "missingBodies": 19,
-  "validatedCumulativeCandidates": 17422,
-  "validatedEvidence": 46536,
+  "validatedCumulativeCandidates": 17634,
+  "validatedEvidence": 47172,
   "excludedFromCumulative": [
     "Okinawa1084",
     "initial93"
@@ -31,14 +32,14 @@
   ],
   "phaseComplete": false,
   "checks": {
-    "focused": "6/6",
-    "crawler": "605/605",
+    "focused": "8/8",
+    "crawler": "607/607",
     "web": "256/256",
     "typecheck": "pass",
     "lint": "pass with existing font warning",
     "national": "pass; unchanged local baseline",
     "static": "109 pages /local_gov_vis",
-    "quotes": "46536 across17422 candidates"
+    "quotes": "47172 across17634 candidates"
   },
-  "remaining": "Gose82 accepted; further212 proposals external and unvalidated (Gose156,Yamatokoriyama56); source-specific holds and further actionable cached layouts remain. Kurotaki strategy layout needs separate business/year evidence and must not join unrelated policyKPI rows. Missing bodies remain held; no nationwide completion claim."
+  "remaining": "Further214external raw proposals (Kawanishi27,Shimoichi1,Asuka1,Tawaramoto93,Kashihara92) are unpublished and unvalidated. Other cached layouts and source-specific evidence gaps remain; no national collection completion claim."
 }

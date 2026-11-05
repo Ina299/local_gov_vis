@@ -1,0 +1,554 @@
+[
+  {
+    "index": 0,
+    "name": "元気城下町プラザ運営事業",
+    "start": 2054,
+    "raw": "元気城下町プラザ運営事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 1962,
+    "contextEnd": 2072
+  },
+  {
+    "index": 1,
+    "name": "水木十五堂賞事業",
+    "start": 4016,
+    "raw": "水木十五堂賞事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 3889,
+    "contextEnd": 4030
+  },
+  {
+    "index": 2,
+    "name": "シティプロモーション事業",
+    "start": 4092,
+    "raw": "シティプロモーション事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 4032,
+    "contextEnd": 4110
+  },
+  {
+    "index": 3,
+    "name": "市制７０周年事業",
+    "start": 4142,
+    "raw": "市制７０周年事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 4112,
+    "contextEnd": 4156
+  },
+  {
+    "index": 4,
+    "name": "奈良県移住支援事業",
+    "start": 4495,
+    "raw": "奈良県移住支援事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 4431,
+    "contextEnd": 4510
+  },
+  {
+    "index": 5,
+    "name": "地域の絆応援助成金事業",
+    "start": 4615,
+    "raw": "地域の絆応援助成金事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 4569,
+    "contextEnd": 4632
+  },
+  {
+    "index": 6,
+    "name": "その他の事業",
+    "start": 4687,
+    "raw": "その他の事業に要した経費",
+    "status": "specific_evidence_or_identity_hold",
+    "reason": "Genericその他/青少年育成に係る事業 aggregate; not an individual named project."
+  },
+  {
+    "index": 7,
+    "name": "地籍調査事業",
+    "start": 6197,
+    "raw": "地籍調査事業に要した経費",
+    "status": "specific_evidence_or_identity_hold",
+    "reason": "Generic aggregate or precise title appears only as expenditure label without independently matched delivery narrative in this reviewed family. Keep out pending concrete context review."
+  },
+  {
+    "index": 8,
+    "name": "市民交流館管理運営事業",
+    "start": 6691,
+    "raw": "市民交流館管理運営事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 6613,
+    "contextEnd": 6708
+  },
+  {
+    "index": 9,
+    "name": "巡回バス事業",
+    "start": 7333,
+    "raw": "巡回バス事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 7263,
+    "contextEnd": 7345
+  },
+  {
+    "index": 10,
+    "name": "スポーツ振興事業",
+    "start": 10391,
+    "raw": "スポーツ振興事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 10325,
+    "contextEnd": 10405
+  },
+  {
+    "index": 11,
+    "name": "武道振興事業委託",
+    "start": 10484,
+    "raw": "武道振興事業委託に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 10407,
+    "contextEnd": 10498
+  },
+  {
+    "index": 12,
+    "name": "生活困窮者自立支援事業",
+    "start": 14284,
+    "raw": "生活困窮者自立支援事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 14238,
+    "contextEnd": 14301
+  },
+  {
+    "index": 13,
+    "name": "住居確保給付金事業",
+    "start": 14400,
+    "raw": "住居確保給付金事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 14303,
+    "contextEnd": 14415
+  },
+  {
+    "index": 14,
+    "name": "広域就労準備支援事業",
+    "start": 14595,
+    "raw": "広域就労準備支援事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 14538,
+    "contextEnd": 14611
+  },
+  {
+    "index": 15,
+    "name": "重層的支援体制整備事業",
+    "start": 15631,
+    "raw": "重層的支援体制整備事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 15612,
+    "contextEnd": 15669
+  },
+  {
+    "index": 16,
+    "name": "理美容サービス事業",
+    "start": 18114,
+    "raw": "理美容サービス事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 18049,
+    "contextEnd": 18129
+  },
+  {
+    "index": 17,
+    "name": "敬老会事業",
+    "start": 18247,
+    "raw": "敬老会事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 18220,
+    "contextEnd": 18258
+  },
+  {
+    "index": 18,
+    "name": "高齢者生活支援対策事業",
+    "start": 18352,
+    "raw": "高齢者生活支援対策事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 18323,
+    "contextEnd": 18369
+  },
+  {
+    "index": 19,
+    "name": "布団丸洗いサービス事業",
+    "start": 18392,
+    "raw": "布団丸洗いサービス事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 18049,
+    "contextEnd": 18409
+  },
+  {
+    "index": 20,
+    "name": "老人クラブ活動助成事業",
+    "start": 18492,
+    "raw": "老人クラブ活動助成事業に要した経費",
+    "status": "specific_evidence_or_identity_hold",
+    "reason": "Generic aggregate or precise title appears only as expenditure label without independently matched delivery narrative in this reviewed family. Keep out pending concrete context review."
+  },
+  {
+    "index": 21,
+    "name": "生活管理短期宿泊事業",
+    "start": 18615,
+    "raw": "生活管理短期宿泊事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 18550,
+    "contextEnd": 18631
+  },
+  {
+    "index": 22,
+    "name": "生活保護就労支援事業",
+    "start": 24324,
+    "raw": "生活保護就労支援事業に要した経費",
+    "status": "specific_evidence_or_identity_hold",
+    "reason": "Generic aggregate or precise title appears only as expenditure label without independently matched delivery narrative in this reviewed family. Keep out pending concrete context review."
+  },
+  {
+    "index": 23,
+    "name": "健康づくり推進事業",
+    "start": 25536,
+    "raw": "健康づくり推進事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 25485,
+    "contextEnd": 25551
+  },
+  {
+    "index": 24,
+    "name": "骨髄ドナー事業",
+    "start": 25709,
+    "raw": "骨髄ドナー事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 25639,
+    "contextEnd": 25722
+  },
+  {
+    "index": 25,
+    "name": "すこやか２１推進事業",
+    "start": 25919,
+    "raw": "すこやか２１推進事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 25847,
+    "contextEnd": 25983
+  },
+  {
+    "index": 26,
+    "name": "予防接種事業",
+    "start": 26187,
+    "raw": "予防接種事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 26088,
+    "contextEnd": 26199
+  },
+  {
+    "index": 27,
+    "name": "アピアランスケア助成事業",
+    "start": 28101,
+    "raw": "アピアランスケア助成事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 28041,
+    "contextEnd": 28119
+  },
+  {
+    "index": 28,
+    "name": "妊婦健診事業",
+    "start": 28912,
+    "raw": "妊婦健診事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 28828,
+    "contextEnd": 28924
+  },
+  {
+    "index": 29,
+    "name": "産後ケア事業",
+    "start": 28995,
+    "raw": "産後ケア事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 28904,
+    "contextEnd": 29007
+  },
+  {
+    "index": 30,
+    "name": "多胎家事支援事業",
+    "start": 29035,
+    "raw": "多胎家事支援事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 29019,
+    "contextEnd": 29049
+  },
+  {
+    "index": 31,
+    "name": "不妊治療費等助成事業",
+    "start": 29078,
+    "raw": "不妊治療費等助成事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 29059,
+    "contextEnd": 29094
+  },
+  {
+    "index": 32,
+    "name": "清浄会館再整備事業",
+    "start": 29727,
+    "raw": "清浄会館再整備事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 29602,
+    "contextEnd": 29742
+  },
+  {
+    "index": 33,
+    "name": "営農改善指導育成等事業",
+    "start": 35276,
+    "raw": "営農改善指導育成等事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 35175,
+    "contextEnd": 35293
+  },
+  {
+    "index": 34,
+    "name": "新規就農者確保事業",
+    "start": 35368,
+    "raw": "新規就農者確保事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 35340,
+    "contextEnd": 35383
+  },
+  {
+    "index": 35,
+    "name": "大和郡山市農業振興事業",
+    "start": 35438,
+    "raw": "大和郡山市農業振興事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 35385,
+    "contextEnd": 35455
+  },
+  {
+    "index": 36,
+    "name": "多面的機能支払交付金事業",
+    "start": 36148,
+    "raw": "多面的機能支払交付金事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 36061,
+    "contextEnd": 36166
+  },
+  {
+    "index": 37,
+    "name": "異業種交流事業補助金",
+    "start": 37314,
+    "raw": "異業種交流事業補助金に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 37223,
+    "contextEnd": 37330
+  },
+  {
+    "index": 38,
+    "name": "地域産業活性化事業",
+    "start": 37341,
+    "raw": "地域産業活性化事業に要した経費",
+    "status": "specific_evidence_or_identity_hold",
+    "reason": "Generic aggregate or precise title appears only as expenditure label without independently matched delivery narrative in this reviewed family. Keep out pending concrete context review."
+  },
+  {
+    "index": 39,
+    "name": "住宅リフォーム助成事業",
+    "start": 37553,
+    "raw": "住宅リフォーム助成事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 37520,
+    "contextEnd": 37570
+  },
+  {
+    "index": 40,
+    "name": "その他都市計画事業",
+    "start": 41716,
+    "raw": "その他都市計画事業に要した経費",
+    "status": "specific_evidence_or_identity_hold",
+    "reason": "Genericその他/青少年育成に係る事業 aggregate; not an individual named project."
+  },
+  {
+    "index": 41,
+    "name": "郡山城跡公園整備事業",
+    "start": 42396,
+    "raw": "郡山城跡公園整備事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 42364,
+    "contextEnd": 42412
+  },
+  {
+    "index": 42,
+    "name": "郡山城にぎわいづくり事業",
+    "start": 42445,
+    "raw": "郡山城にぎわいづくり事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 42426,
+    "contextEnd": 42484
+  },
+  {
+    "index": 43,
+    "name": "的場古池公園管理事業",
+    "start": 42515,
+    "raw": "的場古池公園管理事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 42485,
+    "contextEnd": 42531
+  },
+  {
+    "index": 44,
+    "name": "個別避難計画作成事業",
+    "start": 44701,
+    "raw": "個別避難計画作成事業に要した経費",
+    "status": "specific_evidence_or_identity_hold",
+    "reason": "Generic aggregate or precise title appears only as expenditure label without independently matched delivery narrative in this reviewed family. Keep out pending concrete context review."
+  },
+  {
+    "index": 45,
+    "name": "市教育研修事業",
+    "start": 45162,
+    "raw": "市教育研修事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 45143,
+    "contextEnd": 45208
+  },
+  {
+    "index": 46,
+    "name": "校園内研究推進奨励事業",
+    "start": 45495,
+    "raw": "校園内研究推進奨励事業に要した経費",
+    "status": "specific_evidence_or_identity_hold",
+    "reason": "Generic aggregate or precise title appears only as expenditure label without independently matched delivery narrative in this reviewed family. Keep out pending concrete context review."
+  },
+  {
+    "index": 47,
+    "name": "文化芸術補助事業",
+    "start": 45619,
+    "raw": "文化芸術補助事業に要した経費",
+    "status": "specific_evidence_or_identity_hold",
+    "reason": "Generic aggregate or precise title appears only as expenditure label without independently matched delivery narrative in this reviewed family. Keep out pending concrete context review."
+  },
+  {
+    "index": 48,
+    "name": "多様な学び支援事業",
+    "start": 45694,
+    "raw": "多様な学び支援事業に要した経費",
+    "status": "specific_evidence_or_identity_hold",
+    "reason": "Generic aggregate or precise title appears only as expenditure label without independently matched delivery narrative in this reviewed family. Keep out pending concrete context review."
+  },
+  {
+    "index": 49,
+    "name": "交流事業",
+    "start": 46593,
+    "raw": "交流事業に要した経費",
+    "status": "specific_evidence_or_identity_hold",
+    "reason": "交流事業 generic title and市制70周年 component; avoid duplicating anniversary parent or inventing title."
+  },
+  {
+    "index": 50,
+    "name": "中学校トイレ改修事業",
+    "start": 46912,
+    "raw": "中学校トイレ改修事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 46885,
+    "contextEnd": 46928
+  },
+  {
+    "index": 51,
+    "name": "放課後子ども教室推進事業",
+    "start": 50217,
+    "raw": "放課後子ども教室推進事業に要した経費",
+    "status": "specific_evidence_or_identity_hold",
+    "reason": "Generic aggregate or precise title appears only as expenditure label without independently matched delivery narrative in this reviewed family. Keep out pending concrete context review."
+  },
+  {
+    "index": 52,
+    "name": "青少年育成に係る事業",
+    "start": 50277,
+    "raw": "青少年育成に係る事業に要した経費",
+    "status": "specific_evidence_or_identity_hold",
+    "reason": "Genericその他/青少年育成に係る事業 aggregate; not an individual named project."
+  },
+  {
+    "index": 53,
+    "name": "脳ドック事業",
+    "start": 61419,
+    "raw": "脳ドック事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 61349,
+    "contextEnd": 61431
+  },
+  {
+    "index": 54,
+    "name": "口腔健診事業",
+    "start": 61442,
+    "raw": "口腔健診事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 61349,
+    "contextEnd": 61454
+  },
+  {
+    "index": 55,
+    "name": "高齢者移動支援事業委託",
+    "start": 67652,
+    "raw": "高齢者移動支援事業委託に要した経費",
+    "status": "specific_evidence_or_identity_hold",
+    "reason": "Generic aggregate or precise title appears only as expenditure label without independently matched delivery narrative in this reviewed family. Keep out pending concrete context review."
+  },
+  {
+    "index": 56,
+    "name": "総合相談事業委託",
+    "start": 68150,
+    "raw": "総合相談事業委託に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 68099,
+    "contextEnd": 68164
+  },
+  {
+    "index": 57,
+    "name": "権利擁護事業委託",
+    "start": 68286,
+    "raw": "権利擁護事業委託に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 68218,
+    "contextEnd": 68300
+  },
+  {
+    "index": 58,
+    "name": "配食サービス事業",
+    "start": 68667,
+    "raw": "配食サービス事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 68596,
+    "contextEnd": 68681
+  },
+  {
+    "index": 59,
+    "name": "緊急通報体制整備事業委託",
+    "start": 68693,
+    "raw": "緊急通報体制整備事業委託に要した経費",
+    "status": "specific_evidence_or_identity_hold",
+    "reason": "Generic aggregate or precise title appears only as expenditure label without independently matched delivery narrative in this reviewed family. Keep out pending concrete context review."
+  },
+  {
+    "index": 60,
+    "name": "住宅改修支援事業",
+    "start": 68928,
+    "raw": "住宅改修支援事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 68847,
+    "contextEnd": 68942
+  },
+  {
+    "index": 61,
+    "name": "生活支援体制整備事業委託",
+    "start": 69243,
+    "raw": "生活支援体制整備事業委託に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 69203,
+    "contextEnd": 69261
+  },
+  {
+    "index": 62,
+    "name": "居宅介護サービス事業",
+    "start": 70248,
+    "raw": "居宅介護サービス事業に要した経費",
+    "status": "proposal_pending_hash_dedup_validation",
+    "contextStart": 70199,
+    "contextEnd": 70264
+  }
+]

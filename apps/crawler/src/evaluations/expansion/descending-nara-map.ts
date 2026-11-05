@@ -2655,6 +2655,1254 @@ export const naraRows = [
         "contextStart": 85603,
         "context": "１．任意事業費\n\n１８,５８１千円\n\n地域の実情に応じて実施される高齢者支援事業\n１,５５２千円\n\n（１）「食」の自立支援事業委託（配食）\n対象数： ２２人\n\n４,４３５食\n\n（２）緊急通報システム委託\n\n２,７１８千円\n\n緊急通報装置 利用者数： １３３人\n（３）介護給付費通知作成委託\n\n４０７千円\n\n通知件数： １,８３４件\n３,７１２千円\n\n（４）家族介護用品支給（紙おむつ）\n対象者数： ６５人\n（５）後見人等報酬扶助\n\n１,０７２千円\n\n",
         "note": "Explicit named service with actual output in generic任意事業費. Parent account not counted; no shared amounts or adjacent output association inferred."
+      },
+      {
+        "name": "顧問弁護士委託",
+        "raw": "顧問弁護士委託",
+        "start": 22651,
+        "contextStart": 22648,
+        "context": "（１）顧問弁護士委託\n\n１,０５６千円\n\n相談件数： ４６件\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "シティプロモーション費",
+        "raw": "シティプロモーション費",
+        "start": 23310,
+        "contextStart": 23308,
+        "context": "６．シティプロモーション費\n市民が情報発信を行うプロモーションサイトの作成委託等を行った。\n\n２０,３５４千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "自治体情報セキュリティクラウド運営委託",
+        "raw": "自治体情報セキュリティクラウド運営委託",
+        "start": 24681,
+        "contextStart": 24678,
+        "context": "（１）自治体情報セキュリティクラウド運営委託\n\n１,６５７千円\n\n｢自治体情報セキュリティクラウド｣としてインターネット接続に関するセキュリティ\n強化を行った。\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "地域デジタル推進費",
+        "raw": "地域デジタル推進費",
+        "start": 24933,
+        "contextStart": 24931,
+        "context": "３．地域デジタル推進費\n\n４,６１１千円\n\n（１）ソフト使用\n\n３,８６６千円\n\nデジタル田園都市国家構想交付金を活用し、LINEを利用した市民向けの電子\n申請システムの導入等を行った。\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "公用車集中管理費",
+        "raw": "公用車集中管理費",
+        "start": 25128,
+        "contextStart": 25126,
+        "context": "３．公用車集中管理費\n\n９,２８０千円\n\n共用車保有状況\n令和４年度末\n保 有 台 数\n\n※リース車含む\n令 和 ５ 年 度 中\n登 録\n\n28 台\n\n廃 車\n\n4台\n\n4台\n\n令和５年度末\n保 有 台 数\n\n増 減\n0台\n\n28 台\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "事業化支援委託",
+        "raw": "事業化支援委託",
+        "start": 25624,
+        "contextStart": 25621,
+        "context": "（１）事業化支援委託\n\n８,０６３千円\n\n新庁舎基本計画の追補版として、「近鉄御所駅西側市有地における複合施設整備\nの検討（案）」を作成した。\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "広報紙発行費",
+        "raw": "広報紙発行費",
+        "start": 25717,
+        "contextStart": 25715,
+        "context": "１．広報紙発行費\n\n１２,６８１千円\n\n「広報御所」を毎月1回発行し、行政情報の周知及び市民活動の紹介等を行った。\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "女性相談事業",
+        "raw": "女性相談事業",
+        "start": 25949,
+        "contextStart": 25946,
+        "context": "（１）女性相談事業\n実施回数： ６回\n\n相談件数： ６件\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "「女と男の集い」開催費",
+        "raw": "「女と男の集い」開催費",
+        "start": 25978,
+        "contextStart": 25976,
+        "context": "２．「女と男の集い」開催費\n\n１６８千円\n\n30\n\n\n区\n\n分\n\n決算額（千円）\n\n２０２３年度「女と男のつどい」\n開催日：\n\n２月１７日（土）１３：３０～\n\n開催場所：\n\n御所市文化ホール\n\n演題：\n\n「夢に向かって落語に生きる」\n\n講師：\n\n落語家 露の都さん\n\n参加人数：\n\n１７７人\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "自治会掲示板設置費補助",
+        "raw": "自治会掲示板設置費補助",
+        "start": 26194,
+        "contextStart": 26191,
+        "context": "（２）自治会掲示板設置費補助\n\n５０千円\n\n対象自治会： 西垣内自治会\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "戸籍住民基本台帳費",
+        "raw": "戸籍住民基本台帳費",
+        "start": 27434,
+        "contextStart": 27432,
+        "context": "１．戸籍住民基本台帳費\n\n９,３１７千円\n\n戸籍・住民・印鑑証明などの作成及び発行事務に要した経費\n住民票等発行状況は、次のとおり。\n\n戸\n\n区\n\n分\n\n件数（件）\n\n収入額（円）\n\n戸\n\n籍\n\n9,946\n\n5,978,700\n\n61\n\n21,350\n\n955\n\n286,500\n\n7,522\n\n2,256,600\n\n4,803\n\n1,440,900\n\n籍\n\n受\n\n戸\n\n理\n\n籍\n\n住\n印\n\n証\n附\n\n登\n\n録\n\n等\n\n票\n\n民\n\n鑑\n\n明\n票\n\n証\n\n明\n\n書\n\n身\n\n分\n\n証\n\n明\n\n書\n\n372\n\n111,600\n\nそ\n\nの\n\n他\n\n証\n\n明\n\n204\n\n98,700\n\n行\n\n許\n\n178\n\n133,500\n\n臨\n\n時\n\n運\n\n可\n\n証\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "社会を明るくする運動委託",
+        "raw": "社会を明るくする運動委託",
+        "start": 28648,
+        "contextStart": 28645,
+        "context": "（１）社会を明るくする運動委託\n\n１５０千円\n\nすべての市民が犯罪の防止について理解を深め、それぞれの立場において力\nを合わせ、犯罪や非行のない社会を築くための啓発活動を行った。\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "民生児童委員活動費",
+        "raw": "民生児童委員活動費",
+        "start": 28886,
+        "contextStart": 28884,
+        "context": "５．民生児童委員活動費\n民生児童委員の活動に対し助成を行った。\n\n２,０８８千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "障害福祉計画策定業務委託",
+        "raw": "障害福祉計画策定業務委託",
+        "start": 29173,
+        "contextStart": 29170,
+        "context": "（１）障害福祉計画策定業務委託\n\n２,９５９千円\n\n障害福祉施策の推進を図るため、「第７期御所市障害福祉計画及び第３期御所\n市障害児福祉計画」の策定業務の委託を行った。\n\n33\n\n\n区\n\n分\n\n決算額（千円）\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "福祉タクシー基本料金助成事業",
+        "raw": "福祉タクシー基本料金助成事業",
+        "start": 29305,
+        "contextStart": 29302,
+        "context": "（３）福祉タクシー基本料金助成事業\n\n４,２４５千円\n\n重度心身障害者が市内のタクシーを利用する際、年間４８回の基本料金の助成\nを行った。\n該当者数： ３０８人\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "心身障害者医療費",
+        "raw": "心身障害者医療費",
+        "start": 31093,
+        "contextStart": 31091,
+        "context": "１．心身障害者医療費\n\n２７,５６８千円\n\n（１）重度心身障害者＜児＞医療\n\n２７,１８７千円\n\n年間助成件数：\n助成費：\n\n４,１３４件\n２７,１８７千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "老人保護施設入所委託",
+        "raw": "老人保護施設入所委託",
+        "start": 31238,
+        "contextStart": 31235,
+        "context": "（２）老人保護施設入所委託\n\n２３,６２３千円\n\n施\n美\n\n設\n吉\n\n野\n\n名\n\n入所人員（人）\n\n園\n\n3\n\n聖 ヨ ゼ フ ホ ー ム\n\n5\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "重度心身障害老人等医療（後期高齢）",
+        "raw": "重度心身障害老人等医療（後期高齢）",
+        "start": 31620,
+        "contextStart": 31617,
+        "context": "（２）重度心身障害老人等医療（後期高齢）\n\n２４,３３６千円\n\n年間助成件数：\n\n７,４７９件\n\n助成費：\n\n２４,３３６千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "老人福祉センター費",
+        "raw": "老人福祉センター費",
+        "start": 31991,
+        "contextStart": 31989,
+        "context": "１．老人福祉センター費\n\n２０,６５７千円\n\n利用状況\n月\n\n開館日数（日） 利 用 者 数 （ 人 ） 一 日 平 均 利 用 者 数 （ 人 ）\n\n４月\n\n20\n\n1,083\n\n54\n\n５月\n\n19\n\n1,234\n\n65\n\n６月\n\n22\n\n1,378\n\n63\n\n７月\n\n20\n\n1,452\n\n73\n\n８月\n\n22\n\n1,454\n\n66\n\n９月\n\n20\n\n1,374\n\n69\n\n１０月\n\n19\n\n1,321\n\n70\n\n１１月\n\n20\n\n1,370\n\n69\n\n１２月\n\n19\n\n1,355\n\n71\n\n１月\n\n18\n\n1,212\n\n67\n\n２月\n\n19\n\n1,437\n\n76\n\n３月\n\n21\n\n1,671\n\n80\n\n計\n\n239\n\n16,341\n\n68\n\n36\n\n\n区\n\n分\n\n決算額（千円）\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "介護予防センター費",
+        "raw": "介護予防センター費",
+        "start": 32338,
+        "contextStart": 32336,
+        "context": "２．介護予防センター費\n利用状況\n月\n\n１４７,６５３千円\n\n（改修工事により７月より葛公民館に機能を移転）\n\n開館日数（日） 利 用 者 数 （ 人 ） 一 日 平 均 利 用 者 数 （ 人 ）\n\n４月\n\n20\n\n205\n\n10\n\n５月\n\n20\n\n281\n\n14\n\n６月\n\n22\n\n289\n\n13\n\n７月\n\n20\n\n238\n\n12\n\n８月\n\n22\n\n216\n\n10\n\n９月\n\n20\n\n234\n\n12\n\n１０月\n\n21\n\n254\n\n12\n\n１１月\n\n20\n\n250\n\n13\n\n１２月\n\n20\n\n216\n\n11\n\n１月\n\n19\n\n264\n\n14\n\n２月\n\n19\n\n284\n\n15\n\n３月\n\n20\n\n285\n\n14\n\n計\n\n243\n\n3,016\n\n12\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "老人憩の家費",
+        "raw": "老人憩の家費",
+        "start": 32665,
+        "contextStart": 32663,
+        "context": "３．老人憩の家費\n\n４４,８６４千円\n\n教室利用状況\n月\n\n開催回数（回） 参 加 人 数 （ 人 ） 一 回 平 均 参 加 人 数 （ 人 ）\n\n４月\n\n6\n\n45\n\n8\n\n５月\n\n6\n\n47\n\n8\n\n６月\n\n6\n\n40\n\n7\n\n７月\n\n8\n\n58\n\n7\n\n８月\n\n8\n\n53\n\n7\n\n９月\n\n8\n\n56\n\n7\n\n１０月\n\n8\n\n56\n\n7\n\n１１月\n\n7\n\n39\n\n6\n\n１２月\n\n6\n\n43\n\n7\n\n１月\n\n9\n\n56\n\n6\n\n２月\n\n7\n\n47\n\n7\n\n３月\n\n7\n\n38\n\n5\n\n計\n\n86\n\n578\n\n7\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "人権啓発推進費",
+        "raw": "人権啓発推進費",
+        "start": 33024,
+        "contextStart": 33022,
+        "context": "１．人権啓発推進費\n\n３,３２１千円\n\n部落差別をはじめ、あらゆる形態の差別をなくすための環境と雰囲気づくりのために\n様々な啓発媒体を通して職員や市民の人権意識の高揚に努めた。\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "人権擁護委員費",
+        "raw": "人権擁護委員費",
+        "start": 33113,
+        "contextStart": 33111,
+        "context": "２．人権擁護委員費\n\n１４４千円\n\n住民の人権相談や人権擁護運動の助長に努めた。\n人権相談実施回数： ２４回\n\n相談件数： ６件\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "奈良県市町村啓発連協費",
+        "raw": "奈良県市町村啓発連協費",
+        "start": 33179,
+        "contextStart": 33177,
+        "context": "３．奈良県市町村啓発連協費\n\n３２２千円\n\n奈良県内における部落問題及びあらゆる人権問題について行政啓発活動の推進\n体制を確立し、実践活動の強化を図った。\n\n37\n\n\n区\n\n分\n\n決算額（千円）\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "４．１１「人権を確かめあう日」記念集会費",
+        "raw": "４．１１「人権を確かめあう日」記念集会費",
+        "start": 33278,
+        "contextStart": 33276,
+        "context": "４．４．１１「人権を確かめあう日」記念集会費\n\n７３千円\n\n令和５年度は未開催\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "市民集会費",
+        "raw": "市民集会費",
+        "start": 33447,
+        "contextStart": 33445,
+        "context": "６．市民集会費\n\n４０８千円\n\n「インターネットと人とのかかわり合い～突然、僕は殺人犯にされた～」\n\n開催日：\n\n７月８日（土）１３：３０～\n\n開催場所：\n\n御所市文化ホール\n\n講師：\n\nスマイリーキクチさん\n\n参加人数：\n\n１５５人\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "人権センター費",
+        "raw": "人権センター費",
+        "start": 33590,
+        "contextStart": 33588,
+        "context": "１．人権センター費\n\n３７,７０８千円\n\n人権が尊重される社会の実現と「人権のまちづくり」を推進し、教育と啓発の拠点と\nして設立され、その管理、運営を行った。\n（１）高圧ケーブル等更新工事\n\n２,９１５千円\n\n（２）駐車場整備工事\n\n３,５６４千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "県人権教育推進協議会負担",
+        "raw": "県人権教育推進協議会負担",
+        "start": 33760,
+        "contextStart": 33757,
+        "context": "（１）県人権教育推進協議会負担\n\n４３千円\n\n県内の機関・団体が加入し、人権問題の解決に向けた取り組みを行い、\n強い連携のもと人権教育の推進に努めた。\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "ふれあい人権セミナー費",
+        "raw": "ふれあい人権セミナー費",
+        "start": 33835,
+        "contextStart": 33833,
+        "context": "２．ふれあい人権セミナー費\n\n１８０千円\n\n今日的な人権問題についてテーマを設定し、連続講座形式で年６回セミナーを\n実施した。\n参加人数： １７７人\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "チャイルドシート等購入費補助",
+        "raw": "チャイルドシート等購入費補助",
+        "start": 33980,
+        "contextStart": 33977,
+        "context": "（１）チャイルドシート等購入費補助\n\n３９５千円\n\n子育て世帯の経済的負担軽減のため、購入費の１／２を補助（上限１５,０００円）\n件数： ３７件\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "子ども食堂応援補助",
+        "raw": "子ども食堂応援補助",
+        "start": 34053,
+        "contextStart": 34050,
+        "context": "（２）子ども食堂応援補助\n\n５７８千円\n\n市内の子ども食堂を運営している団体に補助金を交付した。\n件数： ２件\n１３,０８２千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "家庭相談業務費",
+        "raw": "家庭相談業務費",
+        "start": 34118,
+        "contextStart": 34116,
+        "context": "２．家庭相談業務費\nこども家庭相談センターにおいて家庭相談員を配置し児童虐待等、児童に関する\nさまざまな相談に応じた。\n\n５６４千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "低所得の子育て世帯に対する生活支援特別給付（ひとり親世帯分）",
+        "raw": "低所得の子育て世帯に対する生活支援特別給付（ひとり親世帯分）",
+        "start": 34252,
+        "contextStart": 34249,
+        "context": "（１）低所得の子育て世帯に対する生活支援特別給付（ひとり親世帯分）\n２０,５５０千円\n\n児童数： ４１１人× ５万円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "低所得の子育て世帯に対する生活支援特別給付（ひとり親世帯以外分）",
+        "raw": "低所得の子育て世帯に対する生活支援特別給付（ひとり親世帯以外分）",
+        "start": 34312,
+        "contextStart": 34309,
+        "context": "（２）低所得の子育て世帯に対する生活支援特別給付（ひとり親世帯以外分）\n児童数： ３１３人× ５万円\n\n１５,６５０千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "私立保育所等運営",
+        "raw": "私立保育所等運営",
+        "start": 34824,
+        "contextStart": 34821,
+        "context": "（１）私立保育所等運営\n\n２５８,７２４千円\n\n保育需要に伴う児童の保護と健全育成のため、私立保育所等の果たす役割は\n大きく、その運営に対し長時間保育・障害児保育など保育内容の充実を図るた\nめ措置委託を行った。\n施 設 名 （ 私 立 ）\n\n入 所 延 人 員 ( 人 ) 委託運営費 (千円) 保 育 所 在 籍 人 数 ( 人 )\n\n第一葛城学園\n\n1,043\n\n87,668\n\n90\n\n恵愛保育所\n\n703\n\n73,969\n\n59\n\n葛カトリック幼稚園\n\n392\n\n38,598\n\n33\n\nはじかみ保育園\n\n132\n\n15,145\n\n11\n\n華表保育園\n\n36\n\n2,468\n\n3\n\n浄正院保育園\n\n48\n\n3,929\n\n4\n\nともえ学園\n\n12\n\n1,432\n\n1\n\nあやの台保育園\n\n12\n\n1,503\n\n1\n\nつぼみ認定こども園\n\n24\n\n3,244\n\n2\n\n延明保育園\n\n24\n\n1,732\n\n2\n\n花吉野えんめい保育園\n\n60\n\n6,180\n\n5\n\nちべん保育園\n\n17\n\n1,661\n\n1\n\nきたの学園\n\n24\n\n2,990\n\n2\n\nげんきこども園\n\n36\n\n7,870\n\n3\n\n西部保育園\n\n1\n\n40\n\n1\n\n成和保育園\n\n2\n\n203\n\n2\n\n三倉堂保育園\n\n2\n\n410\n\n1\n\n39\n\n\n区\n\n分\n\n決算額（千円）\n\n奈良文化幼稚園\n\n60\n\n5,476\n\n5\n\nあやの台幼稚園\n\n12\n\n733\n\n1\n\n飛鳥学院保育所\n\n12\n\n718\n\n1\n\n浮孔保育所\n\n4\n\n405\n\n0\n\nきぼうこども園\n\n24\n\n1,992\n\n2\n\n新庄小学校附属幼稚園\n\n11\n\n355\n\n1\n\n258,721\n\n231\n\n合\n\n2,691\n\n計\n\n※保育所在籍人数は令和６年３月末現在\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "子育て短期支援事業委託",
+        "raw": "子育て短期支援事業委託",
+        "start": 35574,
+        "contextStart": 35571,
+        "context": "（２）子育て短期支援事業委託\n対象： ２施設\n\n４６２千円\n措置児童数： ６人\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "児童手当支給",
+        "raw": "児童手当支給",
+        "start": 35638,
+        "contextStart": 35635,
+        "context": "（１）児童手当支給\n\n２１６,０５５千円\n\n中学校修了までの子どもを対象に、月額５,０００円～１５,０００円を支給した。\n月\n\n額\n\n対 象 延児 童数\n\n支\n\n給\n\n額\n\n5,000 円\n\n337 人\n\n1,685 千円\n\n10,000 円\n\n14,435 人\n\n144,350 千円\n\n15,000 円\n\n4,668 人\n\n70,020 千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "児童扶養手当支給",
+        "raw": "児童扶養手当支給",
+        "start": 35813,
+        "contextStart": 35810,
+        "context": "（２）児童扶養手当支給\n\n１３０,１０４千円\n\n延支給件数： ２,７８４件\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "ひとり親家庭等医療費",
+        "raw": "ひとり親家庭等医療費",
+        "start": 35985,
+        "contextStart": 35983,
+        "context": "１．ひとり親家庭等医療費\n\n１２,６７７千円\n\n（１）ひとり親家庭等医療\n\n１２,２８２千円\n\n年間助成件数：\n\n４,７６９件\n\n助成費：\n\n１２,２８２千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "保育所運営費",
+        "raw": "保育所運営費",
+        "start": 36087,
+        "contextStart": 36085,
+        "context": "１．保育所運営費\n\n１７９,３３３千円\n\n近年の核家族化と共働き家庭の増加に伴い、保育を必要とする児童の保護と健全\n育成のため、次のとおり入所措置を行った。\n\n（単位：人）\n\n定 員\n\n入所者数\n\n保育士数\n\n業務員数\n\n石 光 保 育 所\n\n90\n\n89\n\n19\n\n2\n\n小 林 保 育 所\n\n60\n\n14\n\n8\n\n1\n\n葛 城 保 育 所\n\n120\n\n45\n\n17\n\n2\n\n幸 町 保 育 所\n\n90\n\n38\n\n12\n\n3\n\n360\n\n186\n\n56\n\n8\n\n施\n\n設\n\n合\n\n名\n\n計\n\n※「入所者数」は令和６年３月末現在\n秋津保育所・御所保育所は、【６ 幼児園費】に計上\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "地域子育て支援センター事業委託",
+        "raw": "地域子育て支援センター事業委託",
+        "start": 36397,
+        "contextStart": 36394,
+        "context": "（１）地域子育て支援センター事業委託\n\n５,５００千円\n\n対象： 恵愛保育所\n\n40\n\n\n区\n\n分\n\n決算額（千円）\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "延長保育事業補助",
+        "raw": "延長保育事業補助",
+        "start": 36457,
+        "contextStart": 36454,
+        "context": "（２）延長保育事業補助\n\n２,５１７千円\n\n対象： 恵愛保育所・第一葛城学園\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "家庭支援推進保育事業費補助",
+        "raw": "家庭支援推進保育事業費補助",
+        "start": 36496,
+        "contextStart": 36493,
+        "context": "（３）家庭支援推進保育事業費補助\n\n５,３０１千円\n\n対象： 第一葛城学園\n４,２００千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "障害児保育質向上事業費補助",
+        "raw": "障害児保育質向上事業費補助",
+        "start": 36543,
+        "contextStart": 36540,
+        "context": "（４）障害児保育質向上事業費補助\n対象： 恵愛保育所・第一葛城学園\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "幼児園運営費",
+        "raw": "幼児園運営費",
+        "start": 36597,
+        "contextStart": 36595,
+        "context": "１．幼児園運営費\n定 員\n\n入所者数\n\n秋 津 保 育 所\n\n60\n\n御 所 保 育 所\n\n60\n120\n\n施\n\n設\n\n合\n\n１６,０２１千円\n\n（単位：人）\n\n名\n\n計\n\n保育士数\n\n業務員数\n\n22\n\n7\n\n1\n\n60\n\n15\n\n3\n\n82\n\n22\n\n4\n\n※「入所者数」は、令和６年３月末現在\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "学童保育所費",
+        "raw": "学童保育所費",
+        "start": 36771,
+        "contextStart": 36769,
+        "context": "１．学童保育所費\n\n（単位：人）\n\n大正\n\n御所\n\n秋津\n\n葛城\n\n葛\n\n掖上\n\n名柄\n\n合 計\n\n数\n\n80\n\n80\n\n40\n\n50\n\n40\n\n30\n\n25\n\n345\n\n登録者数\n\n51\n\n60\n\n27\n\n20\n\n17\n\n24\n\n18\n\n217\n\n定\n\n１０２,３８０千円\n\n※「登録者数」は、令和６年３月末現在\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "子ども医療費",
+        "raw": "子ども医療費",
+        "start": 36952,
+        "contextStart": 36950,
+        "context": "１．子ども医療費\n\n４３,６６６千円\n\n（１）子ども医療\n\n３８,８６８千円\n\n年間助成件数：\n助成費：\n\n１８,１２９件\n３８,８６８千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "電力・ガス・食料品等価格高騰重点支援給付",
+        "raw": "電力・ガス・食料品等価格高騰重点支援給付",
+        "start": 37134,
+        "contextStart": 37131,
+        "context": "（１）電力・ガス・食料品等価格高騰重点支援給付\n\n１３９,１４０千円\n\n電力・ガス・食料品等価格高騰重点支援給付金を支給した。\n対象世帯数： ４,６３８世帯\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "物価高騰対応重点支援給付",
+        "raw": "物価高騰対応重点支援給付",
+        "start": 37239,
+        "contextStart": 37236,
+        "context": "（１）物価高騰対応重点支援給付\n\n２９７,１５０千円\n\n物価高騰対応重点支援給付金を支給した。\n対象世帯数： ４,２４５世帯\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "物価高騰対応子育て応援給付",
+        "raw": "物価高騰対応子育て応援給付",
+        "start": 37420,
+        "contextStart": 37417,
+        "context": "（１）物価高騰対応子育て応援給付\n\n３１,５５０千円\n\n物価高騰対応子育て応援給付金を支給した。\n対象人数： ６３１人\n\n41\n\n\n区\n\n分\n\n決算額（千円）\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "生活保護費",
+        "raw": "生活保護費",
+        "start": 37758,
+        "contextStart": 37756,
+        "context": "１．生活保護費\n\n１,０４８,１７１千円\n\n生活保護法に基づき、生活困窮者に対し各種の必要な扶助を行い、生活の安定を\n図るとともに、その自立を支援することに努めた。\n生活保護費及び生活扶助費の状況\n\n区\n\n令\n\n分\n\n和\n\n４\n\n年\n\n度\n\n令\n\n和\n\n５\n\n年\n\n度\n\n延件数（件）金額（千円）延件数（件）金額（千円）\n\n生\n\n活\n\n扶\n\n助\n\n費\n\n5,300\n\n287,507\n\n5,306\n\n287,563\n\n住\n\n宅\n\n扶\n\n助\n\n費\n\n4,717\n\n109,541\n\n4,746\n\n113,830\n\n教\n\n育\n\n扶\n\n助\n\n費\n\n381\n\n5,722\n\n401\n\n5,972\n\n介\n\n護\n\n扶\n\n助\n\n費\n\n1,991\n\n28,399\n\n2,131\n\n35,305\n\n医\n\n療\n\n扶\n\n助\n\n費\n\n5,714\n\n578,909\n\n5,857\n\n580,867\n\n出\n\n産\n\n扶\n\n助\n\n費\n\n2\n\n842\n\n3\n\n310\n\n生\n\n業\n\n扶\n\n助\n\n費\n\n186\n\n4,622\n\n176\n\n3,020\n\n葬\n\n祭\n\n扶\n\n助\n\n費\n\n15\n\n3,181\n\n9\n\n1,734\n\n90\n\n19,857\n\n86\n\n19,570\n\n18,396\n\n1,038,580\n\n18,715\n\n1,048,171\n\n保護施設事務費及び委託事務費\n\n合\n\n計\n\n生活保護世帯数の状況\n\n区\n\n分\n\n令和４年度末現在 令和５年度末現在\n\n比 較 増 減\n\n保護世帯 （戸）\n\n498\n\n497\n\n▲1\n\n保護人口 （人）\n\n668\n\n663\n\n▲5\n\n保護率\n\n27.92\n\n28.19\n\n0.27\n\n（‰）\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "南和周辺地区病院群輪番制負担",
+        "raw": "南和周辺地区病院群輪番制負担",
+        "start": 38641,
+        "contextStart": 38638,
+        "context": "（１）南和周辺地区病院群輪番制負担\n\n３,９８０千円\n\n御所市・大淀町の医療機関の輪番制により休日、夜間の応急二次診療を実施\nするための経費を負担した。\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "小児深夜診療負担",
+        "raw": "小児深夜診療負担",
+        "start": 38718,
+        "contextStart": 38715,
+        "context": "（２）小児深夜診療負担\n\n１,２８７千円\n\n42\n\n\n区\n\n分\n\n決算額（千円）\n\n橿原市休日夜間応急診療所（午後９：００～翌５：３０）での１５歳以下の小児の\n受診者割の経費を負担した。\n受診者数： ３２人\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "産婦人科一次救急市町村負担",
+        "raw": "産婦人科一次救急市町村負担",
+        "start": 38822,
+        "contextStart": 38819,
+        "context": "（３）産婦人科一次救急市町村負担\n\n５２６千円\n\nかかりつけ医と連絡がとれない急病時に対応するため、県内を北和と中南和の\n２地域に分け、医療機関の輪番制による休日、夜間の産婦人科一次救急医療\nを行うための経費を負担した。\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "骨髄移植ドナー支援事業助成",
+        "raw": "骨髄移植ドナー支援事業助成",
+        "start": 38933,
+        "contextStart": 38930,
+        "context": "（４）骨髄移植ドナー支援事業助成\n\n１４０千円\n\n公益財団法人日本骨髄バンクにドナー登録し、骨髄等を提供した人に対し、\n助成金を交付した。\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "健康教育費",
+        "raw": "健康教育費",
+        "start": 39369,
+        "contextStart": 39367,
+        "context": "２．健康教育費\n\n５,９４９千円\n\n生活習慣病の予防に関する正しい知識の普及を図るための講座を実施した。\n実施回数：\n\n３０回\n\n参加延人数：\n\n４４１人\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "健康相談費",
+        "raw": "健康相談費",
+        "start": 39448,
+        "contextStart": 39446,
+        "context": "３．健康相談費\n\n１７４千円\n\n個別の健康相談を希望される人に対し、適切な栄養指導等を実施した。\n実施回数：\n\n４回\n\n参加延人数：\n\n６５人\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "健康診査費",
+        "raw": "健康診査費",
+        "start": 39521,
+        "contextStart": 39519,
+        "context": "４．健康診査費\n\n１,４５３千円\n\n骨密度、肝炎ウィルス検査及び歯周疾患検診を実施した。\n（骨密度検診）\n\n実施回数：\n\n３回\n\n受診人数：\n\n６５人\n\n（肝炎ウィルス検査）\n\n受診人数：\n\n６９人\n\n（歯周疾患検診）\n\n受診人数： １３５人\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "訪問指導費",
+        "raw": "訪問指導費",
+        "start": 39644,
+        "contextStart": 39642,
+        "context": "５．訪問指導費\n\n２７２千円\n\n療養上の保健指導が必要な人及びその家族に対し家庭を訪問し、指導を行った。\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "肺がん・結核検診費",
+        "raw": "肺がん・結核検診費",
+        "start": 39697,
+        "contextStart": 39695,
+        "context": "６．肺がん・結核検診費\n実施回数： １３回\n\n２,４８０千円\n受診人数： ８２８人\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "胃がん検診費",
+        "raw": "胃がん検診費",
+        "start": 39740,
+        "contextStart": 39738,
+        "context": "７．胃がん検診費\n（集団検診）実施回数： １３回\n\n７,７５２千円\n受診人数： ５２８人\n\nバリウム 受診人数：\n受診人数： ２８人\n２８人\n（個別検診）バリウム\n内視鏡 受診人数：\n受診人数： ２８人\n２３７人\n（個別検診）バリウム\n\n43\n\n\n区\n\n分\n\n決算額（千円）\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "子宮がん検診費",
+        "raw": "子宮がん検診費",
+        "start": 39879,
+        "contextStart": 39877,
+        "context": "８．子宮がん検診費\n\n３,２７３千円\n\n（集団検診）実施回数： １２回\n\n受診人数： ３０５人\n\n（個別検診）受診人数：１９４人\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "乳がん検診費",
+        "raw": "乳がん検診費",
+        "start": 39944,
+        "contextStart": 39942,
+        "context": "９．乳がん検診費\n\n２,９９８千円\n\n（集団検診）実施回数： １２回\n\n受診人数： ３３３人\n\n（個別検診）受診人数：１７５人\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "大腸がん検診費",
+        "raw": "大腸がん検診費",
+        "start": 40009,
+        "contextStart": 40006,
+        "context": "１０．大腸がん検診費\n\n３,８２６千円\n\n（集団検診）実施回数： １３回\n\n受診人数： ９００人\n\n（個別検診）受診人数：５４７人\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "前立腺がん検診費",
+        "raw": "前立腺がん検診費",
+        "start": 40268,
+        "contextStart": 40265,
+        "context": "１２．前立腺がん検診費\n\n１,４２１千円\n\n（集団検診）実施回数：\n\n９回\n\n受診人数： ２４４人\n\n（個別検診）受診人数：２３６人\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "個別予防接種費",
+        "raw": "個別予防接種費",
+        "start": 40335,
+        "contextStart": 40332,
+        "context": "１３．個別予防接種費\n\n５２,７２０千円\n\n（1）予防接種の実績\n種\n\n別\n\n麻 疹 ・ 風 疹\n\n対\n\n象\n\n者\n\n延人数 (人)\n\n１\n\n期\n\n生後１歳～２歳未満\n\n71\n\n２\n\n期\n\n幼稚園・保育所年長児\n\n87\n90\n\n１回目\n日 本 脳 炎\n１\n（特例措置者含む）\n\n期 ２回目\n追\n\n日\n\n本\n\n脳\n\n水\n\n炎\n\n痘\n\n２\n\n期\n\n初\n\n回\n\n追\n\n加\n\n３歳～９０か月未満\n\n85\n90\n\n加\n９歳～１３歳未満\n生後１２か月～６０か月未満\n\n116\n72\n71\n\nＢ Ｃ Ｇ\n\n生後３か月～１２か月未満\n\n60\n\n４ 種 混 合\n（ジフテリア・破傷風・百日咳・ポリオ）\n\n生後３か月～９０か月未満\n\n218\n\n２ 期\n\n１１歳以上１３歳未満\n（小学６年生に通知）\n\n90\n\n炎\n\n生後２か月～１２か月未満\n\n191\n\n生後２か月～６０か月未満\n\n259\n\n２ 種 混 合\n（ジフテリア 破傷風）\nＢ\n\n型\n\n肝\n\nヒ\n小\n\n児\n\n用\n\nブ\n肺\n\nロ タ ウ イ ル ス\n\n炎\n\n球\n\n菌\n\n生後２か月～６０か月未満\n\n261\n\n１\n\n価\n\n生後６週～２４週\n\n99\n\n５\n\n価\n\n生後６週～３２週\n\n33\n\n（定期接種）小学６年生～高校１年生\n（キャッチアップ接種）平成９年４月２日\n～平成１８年４月１日生まれの女子\n\n201\n\n子 宮 頸 が ん ワ ク チ ン\n\n44\n\n\n区\n\n分\n\n決算額（千円）\n5,371\n\n満６５歳以上\n満６０歳以上６５歳未満の人であって\n心臓・腎臓・呼吸器等の機能に自己\nの身辺の日常生活が極度に制限さ\nれる程度の障害を有する人及びヒト\n免疫不全ウイルスによる免疫の機\n能に日常生活がほとんど不可能な\n程度の障害を有する人\n\n高齢者インフルエンザ\n\n種\n\n別\n\n対\n\n高 齢 者 用 肺 炎 球 菌\n\n象\n\n者\n\n4\n\n延人数 (人)\n\n65 ・ 70 ・ 75 ・ 80 ・ 85 ・ 90 ・ 95 ・ 100 歳\n\n245\n\n満６０歳以上６５歳未満の人であって\n心臓・腎臓・呼吸器等の機能に自己\nの身辺の日常生活が極度に制限さ\nれる程度の障害を有する人及びヒト\n免疫不全ウイルスによる免疫の機\n能に日常生活がほとんど不可能な\n程度の障害を有する人\n\n0\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "集団予防接種費",
+        "raw": "集団予防接種費",
+        "start": 41289,
+        "contextStart": 41286,
+        "context": "１４．集団予防接種費\n\n１,６２４千円\n\n種\n\n別\n\n対\n\n４ 種 混 合\n（ジフテリア・破傷風・百日咳・ポリオ）\n\n象\n\n者\n\n回 数 （ 回 ） 延人数（人）\n\n生後３か月～９０か月未満\n\n12\n\n61\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "新型コロナウイルスワクチン接種費",
+        "raw": "新型コロナウイルスワクチン接種費",
+        "start": 41394,
+        "contextStart": 41391,
+        "context": "１５．新型コロナウイルスワクチン接種費\n\n１２７,１７７千円\n\n接種対象者への新型コロナウイルスワクチン接種を実施する体制の整備・確保を\n行った。\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "地域猫活動関係経費",
+        "raw": "地域猫活動関係経費",
+        "start": 41506,
+        "contextStart": 41488,
+        "context": "１．環境衛生費\n\n３,０１４千円\n\n地域猫活動関係経費\n飼い主のいない猫（野良猫）による環境被害を減らす取り組みを推進した。\n（１）保護猫治療\n\n８３６千円\n\n（２）野良猫不妊去勢手術助成\n\n９４４千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "旧火葬場解体・合葬墓等新築工事",
+        "raw": "旧火葬場解体・合葬墓等新築工事",
+        "start": 41660,
+        "contextStart": 41657,
+        "context": "（２）旧火葬場解体・合葬墓等新築工事\n\n８１,２８８千円\n\n旧火葬場解体及び合葬墓等新築工事を行った。\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "火葬業務費",
+        "raw": "火葬業務費",
+        "start": 41711,
+        "contextStart": 41709,
+        "context": "３．火葬業務費\n\n７４,０７８千円\n\n（１）火葬炉使用状況\n大 人\n\n小 人\n\n440件\n\n1件\n\n死 産 児 肢体のみ\n2件\n\n計\n\n2件\n\n445件\n\n（２）動物火葬炉使用状況\n個別火葬 合同火葬\n30件\n\n39件\n\n計\n69件\n\n（３）施設利用状況\n式 場 A\n\n式 場 B\n\n13件\n\n3件\n\n待 合 室 １ 待 合 室 ２ 多目的室 霊 安 室\n6件\n\n8件\n\n3件\n\n（４）火葬業務委託\n\n4件\n９,３１２千円\n\n45\n\n\n区\n\n分\n\n決算額（千円）\n\n遺体及び愛玩動物（ペット）等の火葬に関する業務を行った。\n（５）弁護士委託\n\n７,７００千円\n\n新火葬場整備事業違約金請求の訴訟に係る弁護士費用の着手金を支出した。\n（６）園地維持管理委託\n\n２２,０００千円\n\n園地の植栽などの維持管理を行った。\n（７）駐車場管理委託\n\n２,８０８千円\n\n園内駐車場の美化維持業務を行った。\n（８）地域活動等事業補助\n\n２,０００千円\n\n新火葬場設置区域内の地域の振興及び活性化を図るため、地域活動等に要する\n経費について補助を行った。\n２１,０００千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "休日応急診療所費",
+        "raw": "休日応急診療所費",
+        "start": 42305,
+        "contextStart": 42303,
+        "context": "１．休日応急診療所費\n\n１１,０２０千円\n\nいきいきライフセンターにおいて、医師会の協力を得て日曜・祝日（６６日）、年末年始\n（６日）に診察を行い、市民の緊急診療に対応した。\n区\n\n分\n\n受診者数（人）\n\n日 曜\n\n内 科\n\n359\n\n祝 日\n\n小 児 科\n\n69\n\n年末年始 そ の 他\n\n6\n\n７２日\n\n434\n\n計\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "妊婦健康診査費",
+        "raw": "妊婦健康診査費",
+        "start": 42488,
+        "contextStart": 42486,
+        "context": "１．妊婦健康診査費\n\n９,０９５千円\n\n母子手帳交付者数：\n\n８９人\n\n不妊治療費助成申請者数：\n\n２２人\n\n母子手帳アプリ利用人数：\n\n７３人\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "乳児相談・４か月児健診費",
+        "raw": "乳児相談・４か月児健診費",
+        "start": 42562,
+        "contextStart": 42560,
+        "context": "２．乳児相談・４か月児健診費\n\n８３２千円\n\n（１）乳児相談\n対象者：７か月児・１０か月児\n\n実施回数： １２回\n\n相談人数： １５１人\n\n実施回数： １２回\n\n受診人数：\n\n（２）４か月児健康診査\n対象者：４か月児\n\n６９人\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "１歳６か月児健診費",
+        "raw": "１歳６か月児健診費",
+        "start": 42677,
+        "contextStart": 42675,
+        "context": "３．１歳６か月児健診費\n\n５５７千円\n\n対象者：１歳７か月～１歳８か月児\n\n実施回数：\n\n６回\n\n受診人数：\n\n８２人\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "幼児歯科健診費",
+        "raw": "幼児歯科健診費",
+        "start": 42738,
+        "contextStart": 42736,
+        "context": "４．幼児歯科健診費\n\n６７８千円\n\n（１）２歳児歯科検診\n対象者：２歳３か月～２歳６か月児\n\n実施回数：\n\n４回\n\n受診人数：\n\n５６人\n\n（２）フッ化物洗口事業\n対象者：市内各幼児園・保育園の４～５歳児\n対象者数：\n\n８４人\n\n実施児：\n\n７６人\n\n実施率：\n\n９０.５％\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "３歳６か月児健診費",
+        "raw": "３歳６か月児健診費",
+        "start": 42877,
+        "contextStart": 42875,
+        "context": "５．３歳６か月児健診費\n対象者：３歳７か月～３歳８か月児\n\n５３１千円\n実施回数：\n\n６回\n\n受診人数： １０１人\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "すくすく相談費",
+        "raw": "すくすく相談費",
+        "start": 43036,
+        "contextStart": 43034,
+        "context": "７．すくすく相談費\n\n４,７５４千円\n\n臨床心理士による発達検査と適切な関わり方のアドバイス等を実施した。\n対象者：就学前の児童\n相談人数：\n\n８１人\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "Helloベビー・パパママ教室費",
+        "raw": "Helloベビー・パパママ教室費",
+        "start": 43113,
+        "contextStart": 43111,
+        "context": "８．Helloベビー・パパママ教室費\n\n１,６４１千円\n\n母親・両親教室及び離乳食教室の実施と啓発物品の配布を行った。\nＨｅｌｌｏベビー教室（母親教室）\n\n実施回数：\n\n４回\n\n参加人数：\n\n１４人\n\nパパママ教室（両親教室）\n\n実施回数：\n\n１回\n\n参加組数：\n\n６組\n\nママ'sキッチン（離乳食教室）\n\n実施回数：\n\n６回\n\n参加人数：\n\n２５人\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "子育て世代包括支援センター費",
+        "raw": "子育て世代包括支援センター費",
+        "start": 43290,
+        "contextStart": 43288,
+        "context": "９．子育て世代包括支援センター費\n電話相談：\n\n１０１件\n\n来所相談：\n\n９６４千円\n３４件\n\n家庭訪問：\n\n１０件\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "未熟児養育医療費",
+        "raw": "未熟児養育医療費",
+        "start": 43486,
+        "contextStart": 43483,
+        "context": "１１．未熟児養育医療費\n\n４６８千円\n\n（１）未熟児養育医療支給\n\n４６８千円\n\n年間助成件数：\n\n２件\n\n助成費：\n\n４６８千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "地球温暖化対策実行計画策定委託",
+        "raw": "地球温暖化対策実行計画策定委託",
+        "start": 43771,
+        "contextStart": 43768,
+        "context": "（１）地球温暖化対策実行計画策定委託\n\n１,８９０千円\n\n地球温暖化対策の推進に関する法律に基づき、本市が実施している事務及び\n事業に関し、省エネルギー、省資源、廃棄物の減量化等の取組を推進し、温室\n効果ガスの排出量を削減することを目的として実行計画を策定した。\n２３８,７３２千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "生ごみ処理機補助",
+        "raw": "生ごみ処理機補助",
+        "start": 43941,
+        "contextStart": 43938,
+        "context": "（３）生ごみ処理機補助\n\n家庭における生ごみの自家処理を促進し、ごみの減量を図るべく、生ごみ処理\n容器等の購入に対する補助を行った。\n電気式容器 コンポスト等\n補 助 件 数\n\n4 件\n\n合\n\n8 件\n\n計\n12 件\n１,９９９千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "リサイクル推進補助",
+        "raw": "リサイクル推進補助",
+        "start": 44059,
+        "contextStart": 44056,
+        "context": "（４）リサイクル推進補助\n\nごみの減量化及び資源ごみのリサイクルを推進するため、自治会等各種団体\nが実施する集団資源回収に対し助成金を交付した。\n助成団体数： 延 １９５団体\n\n47\n\n\n区\n\n分\n\n決算額（千円）\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "ごみ処理費",
+        "raw": "ごみ処理費",
+        "start": 44212,
+        "contextStart": 44210,
+        "context": "１．ごみ処理費\n\n１１９,３６２千円\n\n本年も広く市民に分別を呼びかけ、その協力のもと収集業務を行った。\n収集・中間処理（直営）\n稼動日数（日）\n\n260 ※やまとクリーンパーク搬入のため、\n\n収集・中間処理量（ｔ）\n\n5,981\n\n許可業者搬入量は除く。\n\n（収集・持込）\n\n収集量（ｔ）\n年\n\n間\n\n１日あたり平均\n\n持込量（ｔ）\n\n（不燃物には資源ゴミを含む。）\n計（ ｔ ）\n\n可燃物\n\n不燃物\n\n可燃物\n\n不燃物\n\n可燃物\n\n不燃物\n\n4,527\n\n462\n\n938\n\n54\n\n5,465\n\n516\n\n17.41\n\n1.78\n\n3.61\n\n0.21\n\n21.02\n\n1.98\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "葛城地区清掃事務組合負担",
+        "raw": "葛城地区清掃事務組合負担",
+        "start": 44549,
+        "contextStart": 44546,
+        "context": "（１）葛城地区清掃事務組合負担\n\n２３５,３９０千円\n\n平成１５年４月より、し尿は全てアクアセンターにて処理している。\n年間処理量： １３,１３８kl\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "農業委員会費",
+        "raw": "農業委員会費",
+        "start": 44690,
+        "contextStart": 44688,
+        "context": "１．農業委員会費\n\n１４,２１７千円\n\n（１）農業委員会活動の状況\n委員数： １７人（令和６年３月３１日現在）\n定例委員会開催回数： １２回\n\n付議件数： １７３件\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "地籍調査費",
+        "raw": "地籍調査費",
+        "start": 46046,
+        "contextStart": 46044,
+        "context": "１．地籍調査費\n\n１３,８１３千円\n\n地籍の明確化を図り、災害復旧の円滑化を図るため事業を行った。\n調査地区： 高天地区・西北窪地区・北窪地区の一部\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "鳥獣被害対策実施隊事業",
+        "raw": "鳥獣被害対策実施隊事業",
+        "start": 46571,
+        "contextStart": 46568,
+        "context": "（１）鳥獣被害対策実施隊事業\n\n有害鳥獣の駆除のための鳥獣被害対策実施隊による活動により、農産物の保護\nに努めた。\n出動報酬：\n\n２,７４７千円\n\n捕獲報酬：\n\n６３０千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "有害獣捕獲防護施設設置事業補助",
+        "raw": "有害獣捕獲防護施設設置事業補助",
+        "start": 46680,
+        "contextStart": 46677,
+        "context": "（３）有害獣捕獲防護施設設置事業補助\n\n７６８千円\n\n補助対象者： １７名\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "事業者相談支援参加負担",
+        "raw": "事業者相談支援参加負担",
+        "start": 46955,
+        "contextStart": 46952,
+        "context": "（１）事業者相談支援参加負担\n\n１,２００千円\n\n実績： 延べ ６０件\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "市工場設置奨励",
+        "raw": "市工場設置奨励",
+        "start": 47019,
+        "contextStart": 47016,
+        "context": "（３）市工場設置奨励\n\n４７４千円\n\n実績： ２社\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "産業振興センター施設費",
+        "raw": "産業振興センター施設費",
+        "start": 47841,
+        "contextStart": 47839,
+        "context": "２．産業振興センター施設費\n\n８,２３１千円\n\n利用状況\n利用件数：\n\n２４８件\n\n利用者数：\n\n３,７８１人\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "産地商品展示即売・履物デザイン展開催費",
+        "raw": "産地商品展示即売・履物デザイン展開催費",
+        "start": 47898,
+        "contextStart": 47896,
+        "context": "３．産地商品展示即売・履物デザイン展開催費\n\n３,５７３千円\n\n第３６回サンダル履物コンテスト\n応募数：\n\n１，３２９人\n\n１，３７９点\n１,２２１千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "観光施設整備工事",
+        "raw": "観光施設整備工事",
+        "start": 48941,
+        "contextStart": 48938,
+        "context": "（１）観光施設整備工事\n\n５,３３３千円\n\n葛城山口駅下広場に法面植生工事（シバザクラ １,６５０株）を行った。\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "道路維持費",
+        "raw": "道路維持費",
+        "start": 49217,
+        "contextStart": 49215,
+        "context": "１．道路維持費\n\n１０６,８１４千円\n\n（１）測量設計委託\n施\n\n工\n\n箇\n\n２,２２２千円\n所\n\n委\n\n託\n\n内\n\n容\n\n委託費（千円）\n\n測量業務委託 A＝ 0.007㎢\n\n鴨神上・北窪\n\n2,222\n\n（２）道路維持工事\n\n４５,１９９千円\n\n擁壁工などによる維持工事を行い、市民生活の利便性を図った。\n施\n\n工\n\n箇\n\n所\n\n工\n\n事\n\n内\n\n容\n\n工事費（千円）\n\n小林・楢原\n\n工事延長 Ｌ＝ 39.0m\n\n側溝工\n\n3,978\n\n蛇穴～玉手\n\n工事延長 Ｌ＝ 1.5km\n\n除草工\n\n1,826\n\n新田～伏見\n\n工事延長 Ｌ＝ 3.5km\n\n除草工\n\n2,712\n\n小林\n\n小林地内一円\n\n除草工\n\n939\n\n重阪\n\n工事延長 Ｌ＝ 152.7m\n\n側溝工\n\n5,044\n\n北窪\n\n工事延長 Ｌ＝ 11.0m\n\n擁壁工\n\n2,134\n\n増・名柄\n\n工事延長 Ｌ＝ 47.6m\n\n嵩上工・擁壁工\n\n2,872\n\n櫛羅\n\n工事延長 Ｌ＝ 21.5m\n\n擁壁工・側溝工\n\n3,980\n\n今出\n\n工事延長 Ｌ＝ 30.1m\n\n擁壁工・側溝工\n\n2,002\n\n樋野\n\n工事延長 Ｌ＝ 38.0m\n\n側溝工\n\n3,076\n\n52\n\n\n区\n施\n\n工\n\n箇\n\n分\n\n所\n\n工\n\n事\n\n決算額（千円）\n\n内\n\n容\n\n工事費（千円）\n\n鴨神上\n\n工事延長 Ｌ＝ 51.2m\n\n擁壁工\n\n3,597\n\n僧堂他\n\n工事延長 Ｌ＝ 52.6m\n\n床張工\n\n4,039\n\n朝町他\n\n床版補修\n\n櫛羅\n\n道路維持作業 一式\n\n6箇所\n\n8,705\n295\n\n計\n\n45,199\n\n（３）道路舗装工事\n\n３７,５９９千円\n\n損傷の著しい箇所について、舗装工事を行い交通の安全性と利便性の向上を図った。\n施\n\n工\n\n箇\n\n所\n\n工\n\n事\n\n内\n\n容\n\n工事費（千円）\n\n増\n\n工事延長 Ｌ＝ 240.0m\n\n舗装面積 Ａ＝\n\n657㎡\n\n4,926\n\n柏原・東寺田\n\n工事延長 Ｌ＝ 338.6m\n\n舗装面積 Ａ＝ 1,480㎡\n\n5,939\n\n小林\n\n工事延長 Ｌ＝ 143.7m\n\n舗装面積 Ａ＝\n\n850㎡\n\n7,804\n\n船路\n\n工事延長 Ｌ＝ 220.0m\n\n舗装面積 Ａ＝\n\n773㎡\n\n8,547\n\n柿ヶ坪町・東辻\n\n工事延長 Ｌ＝ 152.0m\n\n舗装面積 Ａ＝\n\n677㎡\n\n5,466\n\n小林\n\n工事延長 Ｌ＝ 148.1m\n\n舗装面積 Ａ＝\n\n725㎡\n\n4,917\n\n計\n\n37,599\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "道路新設改良費",
+        "raw": "道路新設改良費",
+        "start": 50436,
+        "contextStart": 50434,
+        "context": "１．道路新設改良費\n\n１４５,８９０千円\n\n幅員の狭隘な道路改良工事及び整備後の舗装復旧、また老朽化による傷んだ路面\nの舗装工事に努め、生活環境の改善を図った。\n（１）測量設計委託\n施\n\n工\n\n箇\n\n１２,９５７千円\n所\n\n委\n\n託\n\n内\n\n容\n\n委託費（千円）\n\n南十三・北十三\n\n発注資料整理業務\n\n一式\n\n590\n\n櫛羅\n\n測量業務委託 A＝ 0.002㎢\n\n3,135\n\n櫛羅\n\n道路詳細設計業務委託 L＝\n\n今城・古瀬\n\n測量業務委託 A＝ 0.015㎢\n\n3,391\n\n楢原\n\n測量業務委託 A＝ 0.010㎢\n\n2,585\n\n計\n\n12,957\n\n270.0m\n\n（２）道路改良工事\n施\n\n工\n\n箇\n\n3,256\n\n４３,９２６千円\n所\n\n工\n\n事\n\n内\n\n容\n\n工事費（千円）\n\n楢原\n\n工事延長 Ｌ＝ 46.0m\n\n擁壁工・側溝工\n\n4,072\n\n玉手\n\n工事延長 Ｌ＝ 25.6m\n\n擁壁工・側溝工\n\n4,014\n\n増・関屋\n\n工事延長 Ｌ＝ 43.3m\n\n擁壁工・側溝工\n\n7,167\n\n楢原\n\n工事延長 Ｌ＝ 30.8m\n\n側溝工\n\n5,757\n\n南郷\n\n工事延長 Ｌ＝ 23.8m\n\nブロック積工・側溝工\n\n11,246\n\n櫛羅\n\n工事延長 Ｌ＝ 68.4m\n\n擁壁工・側溝工\n\n9,196\n\n53\n\n\n区\n施\n\n工\n\n箇\n\n分\n\n所\n\n朝妻\n\n工\n\n事\n\n内\n\n工事延長 Ｌ＝ 87.0m\n\n決算額（千円）\n容\n\n工事費（千円）\n\n法面工\n\n2,474\n\n計\n\n43,926\n\n（３）道路舗装工事\n施\n\n工\n\n７１,５１２千円\n\n箇\n\n所\n\n工\n\n事\n\n内\n\n容\n\n工事費（千円）\n\n柏原他\n\n工事延長 Ｌ＝\n\n86m 舗装面積 Ａ＝\n\n180㎡\n\n1,133\n\n東辻\n\n工事延長 Ｌ＝\n\n131m 舗装面積 Ａ＝\n\n445㎡\n\n3,165\n\n室\n\n工事延長 Ｌ＝\n\n116m 舗装面積 Ａ＝\n\n431㎡\n\n3,135\n\n宮前町・栄町\n\n工事延長 Ｌ＝\n\n91m 舗装面積 Ａ＝\n\n168㎡\n\n2,563\n\n鴨神下\n\n工事延長 Ｌ＝\n\n80m 舗装面積 Ａ＝\n\n299㎡\n\n2,940\n\n小林\n\n工事延長 Ｌ＝\n\n125m 舗装面積 Ａ＝\n\n793㎡\n\n4,213\n\n今城\n\n工事延長 Ｌ＝\n\n85m 舗装面積 Ａ＝\n\n319㎡\n\n3,096\n\n北十三\n\n工事延長 Ｌ＝\n\n210m 舗装面積 Ａ＝\n\n576㎡\n\n4,180\n\n御門町・南十三\n\n工事延長 Ｌ＝\n\n155m 舗装面積 Ａ＝\n\n799㎡\n\n6,113\n\n出屋敷\n\n工事延長 Ｌ＝\n\n283m 舗装面積 Ａ＝\n\n782㎡\n\n6,528\n\n蛇穴・條\n\n工事延長 Ｌ＝\n\n77m 舗装面積 Ａ＝\n\n191㎡\n\n2,412\n\n柏原\n\n工事延長 Ｌ＝\n\n160m 舗装面積 Ａ＝\n\n319㎡\n\n4,378\n\n森脇\n\n工事延長 Ｌ＝\n\n225m 舗装面積 Ａ＝\n\n831㎡\n\n6,116\n\n三室\n\n工事延長 Ｌ＝\n\n227m 舗装面積 Ａ＝ 1,319㎡\n\n8,136\n\n古瀬\n\n工事延長 Ｌ＝\n\n123m 舗装面積 Ａ＝\n\n437㎡\n\n4,201\n\n楢原\n\n工事延長 Ｌ＝\n\n122m 舗装面積 Ａ＝\n\n317㎡\n\n2,449\n\n重阪\n\n工事延長 Ｌ＝\n\n150m 舗装面積 Ａ＝\n\n518㎡\n\n6,754\n\n計\n\n71,512\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "交通安全施設整備費",
+        "raw": "交通安全施設整備費",
+        "start": 52547,
+        "contextStart": 52545,
+        "context": "１．交通安全施設整備費\n\n１９,１８９千円\n\n（１）修繕\n\n２,４８０千円\n\n交通事故が多発している今日、その安全対策として防護柵、道路反射鏡などの\n修繕を行い、歩行者の安全を守り、交通事故の防止に努めた。\n工\n\n事\n\n名\n\n工\n\n事\n\n内\n\n容\n\n工事費（千円）\n\n防護柵設置工事\n\nガードレール\n\n149\n\n道路反射鏡設置工事\n\nカーブミラー ２１基\n\n1,664\n\n視線誘導標工事\n\nデリネーター\n\n41\n\nその他\n\n自発光式道路鋲、看板、その他\n\n626\n\n計\n\n2,480\n\n（２）交通安全施設整備工事\n\n２,９５３千円\n\n交通事故が多発している今日、その安全対策として防護柵の設置、道路反射鏡\nの整備などを行い、歩行者の安全を守り、交通事故の防止に努めた。\n工\n\n事\n\n名\n\n工\n\n事\n\n内\n\n容\n\n工事費（千円）\n\n防護柵設置工事\n\nガードレール、転落防止柵\n\n917\n\n道路反射鏡設置工事\n\nカーブミラー ５基\n\n501\n\nその他\n\n区画線、車止め、その他\n\n1,535\n\n計\n\n2,953\n\n（３）通学路交通安全施設整備工事\n\n１２,５８５千円\n\n通学路交通安全プログラムに基づき、児童・生徒が安全に通学できるように、\n通学路の安全確保を図った。\n施\n\n工\n\n箇\n\n所\n\n工\n\n事\n\n内\n\n容\n\n工事費（千円）\n\n柏原\n\n工事延長 Ｌ＝\n\n290m カラー舗装面積 Ａ＝\n\n42㎡\n\n1,397\n\n樋野\n\n工事延長 Ｌ＝\n\n54m ガードレール\n\nL＝\n\n42.5m\n\n1,574\n\n名柄・船路\n\n工事延長 Ｌ＝\n\n902m カラー舗装面積 Ａ＝\n\n58㎡\n\n1,470\n\n蛇穴・南十三・池之内他 工事延長 Ｌ＝ 1,164m カラー舗装面積 Ａ＝ 232㎡\n\n3,255\n\n三室\n\n4,889\n\n工事延長 Ｌ＝\n\n97m 転落防止柵\n\nL＝\n\n11.5m\n\n計\n\n12,585\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "都市計画図及びデータ修正業務委託",
+        "raw": "都市計画図及びデータ修正業務委託",
+        "start": 54123,
+        "contextStart": 54120,
+        "context": "（１）都市計画図及びデータ修正業務委託\n\n３,９７１千円\n\n都市計画支援システムにおける生産緑地及び用途地域データを修正し、都市計画\n図作成の委託を行った。\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "立地適正化計画策定委託",
+        "raw": "立地適正化計画策定委託",
+        "start": 54202,
+        "contextStart": 54199,
+        "context": "（２）立地適正化計画策定委託\n\n３,１４７千円\n\nJR・近鉄御所駅を中心とした中心市街地地区の整備を進めていくため、立地適正\n化計画を策定した。\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "都市施設管理費",
+        "raw": "都市施設管理費",
+        "start": 54481,
+        "contextStart": 54479,
+        "context": "１．都市施設管理費\n\n６２,２７０千円\n\n（１）公園改修工事\n\n２３,９７６千円\n\n葛城ハイツ児童公園樹木伐採、茅草北児童公園改修\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "公営住宅集約化支援委託",
+        "raw": "公営住宅集約化支援委託",
+        "start": 55129,
+        "contextStart": 55126,
+        "context": "（１）公営住宅集約化支援委託\n\n５,４８９千円\n\n令和５年２月に締結した県市連携による公営住宅建替え連携協定に基づき、\n市営住宅集約化に関する方針を策定するため、専門的な知識・経験を有する\n民間事業者に集約化検討業務を委託した。\n３,１１６千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "防草シート敷設工事",
+        "raw": "防草シート敷設工事",
+        "start": 55690,
+        "contextStart": 55687,
+        "context": "（１）防草シート敷設工事\n\n１,８５９千円\n\n除却した市営住宅跡地 （今出団地・栗阪団地） に雑草が繁殖しないよう、防草\n\n57\n\n\n区\n\n分\n\n決算額（千円）\n\nシートの敷設工事を実施した。\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "外壁改修工事",
+        "raw": "外壁改修工事",
+        "start": 55787,
+        "contextStart": 55784,
+        "context": "（２）外壁改修工事\n\n１２５,８５１千円\n\n市営住宅サン葛城について、外壁等劣化部分の改修工事を行った。\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "改良住宅集会所改修工事",
+        "raw": "改良住宅集会所改修工事",
+        "start": 55869,
+        "contextStart": 55866,
+        "context": "（１）改良住宅集会所改修工事\n\n公共施設のバリアフリー化を推進するため、改良住宅集会所のバリアフリー改修\n工事を実施した。\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "公営住宅空家対策費",
+        "raw": "公営住宅空家対策費",
+        "start": 55930,
+        "contextStart": 55928,
+        "context": "３．公営住宅空家対策費\n\n５８,３６２千円\n\n市営住宅等の空家に対して入居者募集をするため修繕した。\n市営住宅： ２戸\n\n改良住宅： １４戸\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "危険空家等解体工事補助",
+        "raw": "危険空家等解体工事補助",
+        "start": 56099,
+        "contextStart": 56096,
+        "context": "（１）危険空家等解体工事補助\n\n７,７２５千円\n\n老朽化した危険空家の解体を促進するため、危険空家の解体工事を実施した者\nに対して、補助金を交付した。\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "広域消防費",
+        "raw": "広域消防費",
+        "start": 56250,
+        "contextStart": 56248,
+        "context": "１．広域消防費\n\n３８０,８７３千円\n\n（１）奈良県広域消防組合負担\n\n３８０,８７３千円\n\n近年の災害は社会情勢の変化に伴い複雑化、大規模化しており、それに対応すべく\n人的整備をはじめ資機材の充実を図るべく御所市においても応分の負担を行った。\n救急業務状況は次のとおり。\n事故種別\n\n出 動 件 数 （ 件 ）\n\n搬 送 人 員 （ 人 ）\n\n令和３年中 令和４年中 令和５年中 令和３年中 令和４年中 令和５年中\n\n火 災\n\n6\n\n20\n\n20\n\n1\n\n3\n\n4\n\n水難事故\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n交通事故\n\n124\n\n128\n\n100\n\n119\n\n109\n\n98\n\n急 病\n\n1,130\n\n1,402\n\n1,400\n\n1,024\n\n1,231\n\n1,263\n\n一般負傷\n\n284\n\n332\n\n313\n\n267\n\n304\n\n293\n\n労働災害\n\n20\n\n23\n\n25\n\n19\n\n22\n\n24\n\n運動競技\n\n5\n\n11\n\n16\n\n5\n\n11\n\n15\n\n自損行為\n\n31\n\n20\n\n12\n\n19\n\n13\n\n10\n\n加 害\n\n1\n\n6\n\n6\n\n1\n\n5\n\n5\n\nそ の 他\n\n259\n\n277\n\n254\n\n196\n\n212\n\n183\n\n計\n\n1,860\n\n2,219\n\n2,146\n\n1,651\n\n1,910\n\n1,895\n\n火災発生状況は次のとおり。\n建物（件）\n\n林野（件）\n\n車両（件） その他（件）\n\n令和３年中\n\n4\n\n0\n\n1\n\n8\n\n13\n\n7,009\n\n令和４年中\n\n5\n\n1\n\n2\n\n12\n\n20\n\n17,018\n\n令和５年中\n\n12\n\n0\n\n1\n\n7\n\n20\n\n171,972\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "消防団費",
+        "raw": "消防団費",
+        "start": 57029,
+        "contextStart": 57027,
+        "context": "２．消防団費\n\n４４,６０５千円\n\n市民の生命・身体・財産を災害等から守るため、消火活動及び市内巡視、防火防災等の\n啓発活動を行った。\n（１）修繕\n\n４,３１８千円\n\n老朽化した消防団車庫の修繕を行った。\n２,１００千円\n\n（２）被服調製\n法被（乙種制服）の調製を行った。\n（３）消防団DXアプリケーション利用\n\n３９６千円\n\n災害時の円滑な出動指令と災害現場の見える化、団員及び事務費局の事務\n負担軽減、情報伝達のペーパーレス化を目的として、消防団アプリを導入した。\n（４）無線機器\n\n１,９５７千円\n\n災害時に団員間の連絡手段として用いるデジタル簡易無線機の購入を行った。\n（５）消防車\n\n１,８９０千円\n\n老朽化の激しい本部軽トラックの更新を行った。\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "消火栓整備工事",
+        "raw": "消火栓整備工事",
+        "start": 57565,
+        "contextStart": 57562,
+        "context": "（１）消火栓整備工事\n維持修繕箇所： 櫛羅・原谷・柏原・小殿・東持田\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "防火水槽新設工事",
+        "raw": "防火水槽新設工事",
+        "start": 57624,
+        "contextStart": 57621,
+        "context": "（１）防火水槽新設工事\n\n１０,１１４千円\n\n防火水槽新設箇所： 南郷\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "総合防災マップ策定委託",
+        "raw": "総合防災マップ策定委託",
+        "start": 57704,
+        "contextStart": 57701,
+        "context": "（１）総合防災マップ策定委託\n\n３,９６０千円\n\n浸水想定区域及び土砂災害警戒区域の見直しに伴い、総合防災マップの更新\nを行った。\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "避難所誘導灯設置工事",
+        "raw": "避難所誘導灯設置工事",
+        "start": 57770,
+        "contextStart": 57767,
+        "context": "（２）避難所誘導灯設置工事\n\n１０,７８０千円\n\n避難所の位置を示すための照明灯を６箇所設置した。\n設置箇所： 大正小・名柄小・秋津小・葛城小・葛小中・掖上小\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "無線設備点検委託",
+        "raw": "無線設備点検委託",
+        "start": 57943,
+        "contextStart": 57940,
+        "context": "（１）無線設備点検委託\n\n８８０千円\n\n移動系防災無線の指令卓及び中継装置の保守点検を行った。\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "防災行政無線実施設計業務委託",
+        "raw": "防災行政無線実施設計業務委託",
+        "start": 57991,
+        "contextStart": 57988,
+        "context": "（２）防災行政無線実施設計業務委託\n\n４８３千円\n\n59\n\n\n区\n\n分\n\n決算額（千円）\n\n防災行政無線（同報系）システムの整備工事に向け、詳細な設計業務を委託した。\n３５０千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "防災センター費",
+        "raw": "防災センター費",
+        "start": 58173,
+        "contextStart": 58171,
+        "context": "３．防災センター費\n\n１,６３６千円\n\n市民の防災に関する知識の向上及び防災意識の高揚を図るとともに、災害発生時\nの応急活動の拠点として運営を行った。\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "災害派遣費",
+        "raw": "災害派遣費",
+        "start": 58816,
+        "contextStart": 58814,
+        "context": "６．災害派遣費\n\n１,１９７千円\n\n令和６年能登半島地震に伴い、石川県穴水町への職員派遣を行った。\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "教育委員会費",
+        "raw": "教育委員会費",
+        "start": 58968,
+        "contextStart": 58966,
+        "context": "１．教育委員会費\n\n２,８５６千円\n\n委員会の開催状況\n区\n\n分\n\n定例委員会\n\n開催回数（回）\n\n付議件数 （件）\n\n12\n\n16\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "葛小学校屋上防水改修工事",
+        "raw": "葛小学校屋上防水改修工事",
+        "start": 59640,
+        "contextStart": 59628,
+        "context": "（２）学校施設改修工事\n葛小学校屋上防水改修工事\n\n１６,５００千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "市教育振興会委託",
+        "raw": "市教育振興会委託",
+        "start": 59775,
+        "contextStart": 59772,
+        "context": "（１）市教育振興会委託\n\n６５６千円\n\n学校教育の振興を目的として教育活動の内容充実に努めた。\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "特色ある学校づくり補助",
+        "raw": "特色ある学校づくり補助",
+        "start": 59823,
+        "contextStart": 59820,
+        "context": "（２）特色ある学校づくり補助\n\n１,３３０千円\n\n各学校が創意工夫を生かした特色ある教育の展開を図るために、児童の創造性\nや活力を生かしたさまざまな体験・交流活動などの取組を行った。\n学 校 名\n\n主\n\nな\n\n事\n\n業\n\n内\n\n容\n\n御 所 小 学 校 御所まちの学習・平和学習・町探検学習・栽培学習・防災学習\n掖 上 小 学 校 平和学習・勤労生産体験学習・町探検学習・いのちの学習\n秋 津 小 学 校 農業体験学習・平和学習・森林環境学習・町探検学習・いのちの学習\n葛 小 学 校 環境学習・伝統文化学習・平和学習・栽培学習・国際理解学習\n葛 城 小 学 校 農業体験学習・平和学習・環境学習・伝統文化学習\n名 柄 小 学 校 栽培学習・平和学習・伝統文化学習・ボランティア学習\n大 正 小 学 校 栽培学習・環境学習・平和学習・食育学習・町探検学習・国際理解学習\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "要及び準要保護児童援助費",
+        "raw": "要及び準要保護児童援助費",
+        "start": 60207,
+        "contextStart": 60205,
+        "context": "２．要及び準要保護児童援助費\n対象者数： １２５人 （要保護： ２８人\n\n６,８９４千円\n準要保護： ９７人）\n\n61\n\n\n区\n\n分\n\n決算額（千円）\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "要及び準要保護生徒援助費",
+        "raw": "要及び準要保護生徒援助費",
+        "start": 61368,
+        "contextStart": 61366,
+        "context": "２．要及び準要保護生徒援助費\n\n６,１３６千円\n\n対象者数： ６６人 （要保護： ２２人\n\n準要保護： ４４人）\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "教育支援活動費",
+        "raw": "教育支援活動費",
+        "start": 61839,
+        "contextStart": 61837,
+        "context": "１．教育支援活動費\n\n２,０１０千円\n\n園・学校と地域が連携を図ることにより、幼児・児童・生徒の活動を支援し、地域の\n教育力向上に努めた。\n実施園校：\n\n１１園校 （御所幼・御所小・掖上小・秋津小・葛城小・名柄小・\n大正小・葛小中・御所中・大正中・葛上中）\n\n地域コーディネーター： ６人\n\nボランティア： ４２６人\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "二十歳を祝う会開催費",
+        "raw": "二十歳を祝う会開催費",
+        "start": 61999,
+        "contextStart": 61997,
+        "context": "２．二十歳を祝う会開催費\n令和６年１月８日実施\n\n６４９千円\n参加者数： １４１人 （対象者数： １９４人）\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "女性学級開設委託",
+        "raw": "女性学級開設委託",
+        "start": 62206,
+        "contextStart": 62203,
+        "context": "（１）女性学級開設委託\n学 級 名\n女 性 学 級\n\n１８０千円\n\n学 級 数 開 催 回 数 （ 回 ） 参加延人数 （人）\n3 学級\n\n24\n\n320\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "中央公民館費",
+        "raw": "中央公民館費",
+        "start": 62304,
+        "contextStart": 62302,
+        "context": "１．中央公民館費\n\n６,９０５千円\n\n（１）中央公民館利用状況： １,７４６件\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "公民館教室開催費",
+        "raw": "公民館教室開催費",
+        "start": 62365,
+        "contextStart": 62363,
+        "context": "３．公民館教室開催費\n\n１,９７１千円\n\n市民の生涯学習の拠点とし、また人々が交流するコミュニケーションの場として１５\n教室を開催した。\n\n63\n\n\n区\n\n分\n\n決算額（千円）\n\n開催教室は次のとおり。\n教\n\n室\n\n名\n\n学級生数（人） 開催回数（回）\n\n着\n\n付\n\n教\n\n室\n\n14\n\n18\n\n茶\n\n道\n\n教\n\n室\n\n14\n\n14\n\n書\n\n道\n\n教\n\n室\n\n19\n\n18\n\n料\n\n理\n\n教\n\n室\n\n5\n\n10\n\n男 の 料 理 教 室\n\n11\n\n5\n\n手\n\n室\n\n15\n\n18\n\n日 本 語 教 室\n\n21\n\n18\n\n7\n\n18\n\n社 交 ダ ン ス\n\n16\n\n18\n\n絵 て が み 教 室\n\n11\n\n18\n\n切 り 絵 教 室\n\n9\n\n10\n\nお菓子作り教室\n\n15\n\n5\n\n子どもダンス教室\n\n9\n\n18\n\n男 の ヨ ガ 教 室\n\n15\n\n17\n\nフ ラ ダ ン ス\n\n12\n\n18\n\n編\n\n英\n\n教\n会\n\n話\n\n公民館主催事業参加者数： 延２,６０５人\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "葛公民館費",
+        "raw": "葛公民館費",
+        "start": 62798,
+        "contextStart": 62796,
+        "context": "４．葛公民館費\n\n３,３９６千円\n\n（１）葛公民館利用状況： ５５８件\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "葛公民館講座開催費",
+        "raw": "葛公民館講座開催費",
+        "start": 62854,
+        "contextStart": 62852,
+        "context": "６．葛公民館講座開催費\n\n３１４千円\n\n開催教室・講座は次のとおり。\n教\n\n室\n\n名\n\n学級生数（人） 開催回数（回）\n\n季節の手 仕事 料理 教室\n\n6\n\n4\n\nカラダ美調整レッスン\n\n16\n\n7\n\n（単発講座）\n\n講\n\n座\n\n名\n\n受講者数（人）\n\n天 体 観 測\n\n71\n\nしめ縄づくり\n\n10\n\n主催事業＜講座＞参加者数： 延１８３人\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "文化財事務所案内看板設置業務委託料",
+        "raw": "文化財事務所案内看板設置業務委託料",
+        "start": 63685,
+        "contextStart": 63663,
+        "context": "（１）看板設置業務委託\n\n１,１３２千円\n\n文化財事務所案内看板設置業務委託料\n４,８３６千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "青少年センター費",
+        "raw": "青少年センター費",
+        "start": 64305,
+        "contextStart": 64303,
+        "context": "１．青少年センター費\n\n４９３千円\n\n地域における青少年の健全育成を図るため、青少年への指導、助言及び広報啓発\n活動、巡視巡回活動等を実施した。\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "青少年チャレンジ講座費",
+        "raw": "青少年チャレンジ講座費",
+        "start": 64378,
+        "contextStart": 64376,
+        "context": "２．青少年チャレンジ講座費\n\n１５６千円\n\n他校の児童と交流し、自立性や協調性を育む目的で実施している事業\nボッチャ講座、ごせまちフィールドワーク講座、アイシングクッキー作り講座、天体観測\n\n65\n\n\n区\n\n分\n\n決算額（千円）\n\n講座、LaQ講座の５講座と社会見学を実施した。\n参加人数：\n\n市内小学校１年生～６年生児童\n延 １３７人\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "アザレアホール費",
+        "raw": "アザレアホール費",
+        "start": 64572,
+        "contextStart": 64570,
+        "context": "１．アザレアホール費\n\n１８,４５３千円\n\n（１）利用状況\n区\n\n分\n\n利用回数（回） 利用人数（人）\n\n文化ホール\n\n61\n\n6,821\n\n会 議 室\n\n120\n\n1,059\n\n視 聴 覚 室\n\n132\n\n2,021\n\n計\n\n313\n\n9,901\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "図書館費",
+        "raw": "図書館費",
+        "start": 64698,
+        "contextStart": 64696,
+        "context": "２．図書館費\n\n２８,６６９千円\n\n（１）図書館業務委託\n\n１９,１０７千円\n\n（２）図書購入\n\n４,２５０千円\n\n本年度は一般図書１,０３３冊、児童図書８４１冊及びＤＶＤ・CD計１４枚を購入した。\n令和５年度末\n\nその他の資料\n\n蔵書数（冊）\n\n（ビデオ等）\n\n一般図書\n\n73,022\n\n435\n\n73,457\n\n児童図書\n\n45,307\n\n111\n\n45,418\n\n計\n\n118,329\n\n546\n\n118,875\n\n合\n\n計\n\n図書貸出状況は次のとおり。\n貸 出 数 （ 冊 ・ 本 ）\n項目 開 貸 出 人 数 （ 人 ・ 団 体 ）\n館\n個\n人\n個人＋団体\n個\n人\n個人＋団体\n日\n団 体\n団 体\n月\n数 一般書 児童書\n合 計 １日平均 一般書 児童書\n合 計 １日平均\n４月\n\n25\n\n1,559\n\n142\n\n50\n\n1,751\n\n70\n\n4,854\n\n699\n\n502\n\n6,055\n\n242\n\n５月\n\n24\n\n1,536\n\n201\n\n71\n\n1,808\n\n75\n\n5,012\n\n823\n\n738\n\n6,573\n\n274\n\n６月\n\n25\n\n1,663\n\n189\n\n74\n\n1,926\n\n77\n\n5,184\n\n788\n\n651\n\n6,623\n\n265\n\n７月\n\n24\n\n1,751\n\n162\n\n41\n\n1,954\n\n81\n\n5,100\n\n902\n\n342\n\n6,344\n\n264\n\n８月\n\n25\n\n1,832\n\n236\n\n40\n\n2,108\n\n84\n\n5,422\n\n1,255\n\n210\n\n6,887\n\n275\n\n９月\n\n23\n\n1,723\n\n129\n\n69\n\n1,921\n\n84\n\n3,829\n\n2,098\n\n732\n\n6,659\n\n290\n\n１０月\n\n24\n\n1,780\n\n186\n\n60\n\n2,026\n\n84\n\n5,163\n\n868\n\n611\n\n6,642\n\n277\n\n１１月\n\n17\n\n1,300\n\n197\n\n62\n\n1,559\n\n92\n\n3,973\n\n778\n\n651\n\n5,402\n\n318\n\n１２月\n\n19\n\n1,489\n\n123\n\n22\n\n1,634\n\n86\n\n4,819\n\n741\n\n213\n\n5,773\n\n304\n\n１月\n\n22\n\n1,539\n\n180\n\n63\n\n1,782\n\n81\n\n4,656\n\n669\n\n637\n\n5,962\n\n271\n\n２月\n\n22\n\n1,885\n\n204\n\n63\n\n2,152\n\n98\n\n5,387\n\n833\n\n550\n\n6,770\n\n308\n\n３月\n\n25\n\n1,932\n\n155\n\n35\n\n2,122\n\n85\n\n5,731\n\n863\n\n273\n\n6,867\n\n275\n\n合計\n\n275\n\n19,989\n\n2,104\n\n650\n\n22,743\n\n83 59,130 11,317\n\n6,110 76,557\n\n278\n\n視聴覚（ビデオ・DVD・CD）利用状況は次のとおり。\n開館日数（日）\n\n貸 出 （ 本 ）\n貸 出 数\n\n１日平均\n\n４月\n\n25\n\n44\n\n2\n\n５月\n\n24\n\n44\n\n2\n\n６月\n\n25\n\n50\n\n2\n\n７月\n\n24\n\n78\n\n3\n\n66\n\n\n区\n\n分\n\n開館日数（日）\n\n決算額（千円）\n\n貸 出 （ 本 ）\n貸 出 数\n\n１日平均\n\n８月\n\n25\n\n126\n\n5\n\n９月\n\n23\n\n75\n\n3\n\n１０月\n\n24\n\n53\n\n2\n\n１１月\n\n17\n\n61\n\n4\n\n１２月\n\n19\n\n61\n\n3\n\n１月\n\n22\n\n77\n\n4\n\n２月\n\n22\n\n70\n\n3\n\n３月\n\n25\n\n98\n\n4\n\n合 計\n\n275\n\n837\n\n3\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "文化交流センター費",
+        "raw": "文化交流センター費",
+        "start": 66247,
+        "contextStart": 66245,
+        "context": "１．文化交流センター費\n\n６,２１６千円\n\n（１）文化交流センター利用状況： １,５５６件\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "教室開催費",
+        "raw": "教室開催費",
+        "start": 66317,
+        "contextStart": 66315,
+        "context": "３．教室開催費\n\n６７８千円\n\n市民の創造的で多様な文化活動を通した交流を図る場として教室を開催し、芸術\n文化に親しむ機会を提供した。\n開催教室は次のとおり。\n教\n\n室\n\n名\n\n学級生数（人） 開催回数（回）\n\n和 太 鼓 教 室\n\n17\n\n34\n\n陶\n\n芸\n\n教\n\n室\n\n12\n\n20\n\n洋\n\n画\n\n教\n\n室\n\n6\n\n20\n\nガーデニング教室\n\n22\n\n7\n\nスポーツ吹矢教室\n\n6\n\n20\n\n（単発講座）\n\n講\n\n座\n\n名\n\nお正月用寄せ植え講座\n\n受講者数（人）\n20\n\n文化交流センター主催事業参加者数： 延１,０２４人\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "高等学校等入学支度",
+        "raw": "高等学校等入学支度",
+        "start": 66840,
+        "contextStart": 66837,
+        "context": "（１）高等学校等入学支度\n\n６０千円\n\n教育の機会均等に基づき、勉学の意欲がありながら経済的な理由で就学が困難な\n生徒の高等学校への進学を容易にすることを目的として、支度金を給付した。\n\n67\n\n\n区\n\n分\n給付額（１人あたり）\n\n支 援 金 区 分\n高等学校入学支援金\n\n公立：\n\n60,000 円\n\n私立：\n\n0 円\n\n決算額（千円）\n\n人 数\n\n金\n\n額\n\n1人\n\n60 千円\n\n-\n\n0 千円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "坂本奨学金給付",
+        "raw": "坂本奨学金給付",
+        "start": 67042,
+        "contextStart": 67039,
+        "context": "（２）坂本奨学金給付\n\n５,１００千円\n\n「勉学の意欲がありながら経済的理由で修学困難な学生の進路保障に役立て\nてほしい」と寄附金を受け、これを元に奨学基金を設置し、交付規則に基づき、\n当該学生に対して給付を行った。\n区\n\n給付額（１人あたり）\n\n分\n\n人 数\n\n金\n\n額\n\n高校生\n\n180,000 円\n\n23 人\n\n4,140 千円\n\n大学生（短大生含む。）\n\n240,000 円\n\n4人\n\n960 千円\n\n27 人\n\n5,100 千円\n\n計\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "国際・全国大会等参加助成",
+        "raw": "国際・全国大会等参加助成",
+        "start": 67473,
+        "contextStart": 67470,
+        "context": "（１）国際・全国大会等参加助成\n\n４９０千円\n\n対象件数： ２３件\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "スポーツフェスティバル費",
+        "raw": "スポーツフェスティバル費",
+        "start": 67506,
+        "contextStart": 67504,
+        "context": "２．スポーツフェスティバル費\n\n３,９２０千円\n\n実施日： 令和５年１１月１９日\n\n参加人数： 約５５０人\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "金剛葛城山下一周駅伝大会費",
+        "raw": "金剛葛城山下一周駅伝大会費",
+        "start": 67635,
+        "contextStart": 67633,
+        "context": "４．金剛葛城山下一周駅伝大会費\n\n２,８００千円\n\n実施日： 令和６年２月４日\n\n参加人数：\n\n５８９人\n\n８０チーム\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "市民マラソン大会費",
+        "raw": "市民マラソン大会費",
+        "start": 67817,
+        "contextStart": 67815,
+        "context": "６．市民マラソン大会費\n実施日： 令和５年１１月１９日\n\n参加人数： １９７人\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "市民運動公園費",
+        "raw": "市民運動公園費",
+        "start": 67881,
+        "contextStart": 67879,
+        "context": "１．市民運動公園費\n\n１９,２１０千円\n\n（１）利用状況\n施\n\n設\n\n市 民 運 動\n\n名\n公 園\n\n貸出件数（件） 使用人数（人）\n862\n\n35,344\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "出産育児一時金",
+        "raw": "出産育児一時金",
+        "start": 75162,
+        "contextStart": 75160,
+        "context": "１．出産育児一時金\n\n４,９０８千円\n\n出産育児一時金の状況\n支給件数\n10 件\n\n期\n\n間\n\n１\n\n件\n\n当\n\nり\n\nの\n\n支\n\n給\n\n額\n\n令和5年3月31日まで\n\n420,000円（産科医療補償制度対象外分娩［408,000円］）\n\n令和5年4月1日以降\n\n500,000円（産科医療補償制度対象外分娩［488,000円］）\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "葬祭諸費",
+        "raw": "葬祭諸費",
+        "start": 75378,
+        "contextStart": 75376,
+        "context": "１．葬祭諸費\n\n９９０千円\n\n葬祭費の状況\n支給件数 １ 件 当 り の 支 給 額\n33 件\n\n30,000 円\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "人間ドック検診費",
+        "raw": "人間ドック検診費",
+        "start": 75910,
+        "contextStart": 75908,
+        "context": "１．人間ドック検診費\n助成対象者数\n\n１,２２６千円\n41 人\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "脳ドック検診費",
+        "raw": "脳ドック検診費",
+        "start": 75943,
+        "contextStart": 75941,
+        "context": "２．脳ドック検診費\n助成対象者数\n\n１,２００千円\n52 人\n\n76\n\n\n区\n\n決算額（千円）\n\n分\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "介護給付費請求書審査支払手数料",
+        "raw": "介護給付費請求書審査支払手数料",
+        "start": 84140,
+        "contextStart": 84138,
+        "context": "１．介護給付費請求書審査支払手数料\n\n３,３２０千円\n\n対象件数： ４６,１５４件\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "高額介護サービス等費",
+        "raw": "高額介護サービス等費",
+        "start": 84209,
+        "contextStart": 84207,
+        "context": "１．高額介護サービス等費\n\n９６,０５０千円\n\n対象件数： ７,６１７件\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "高額医療合算介護サービス等費",
+        "raw": "高額医療合算介護サービス等費",
+        "start": 84276,
+        "contextStart": 84274,
+        "context": "１．高額医療合算介護サービス等費\n\n８,６９８千円\n\n対象件数： ３０２件\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "特定入所者介護サービス等費",
+        "raw": "特定入所者介護サービス等費",
+        "start": 84345,
+        "contextStart": 84343,
+        "context": "１．特定入所者介護サービス等費\n\n１５０,１８９千円\n\n（１）特定入所者介護サービス\n\n１５０,１７３千円\n\n対象件数： ９,５３０件\n（２）特定入所者介護予防サービス\n\n１６千円\n\n対象件数： １６件\n\n90\n\n\n区\n\n分\n\n決算額（千円）\n\n",
+        "note": "Manually reviewed bounded named service inFY2023成果 report. Report2024; no inferred amounts, ratings, numeric associations, or extra child/parent duplicates. Cancellations and carryover labels remain verbatim."
+      },
+      {
+        "name": "政務活動費交付",
+        "raw": "政務活動費交付",
+        "start": 22098,
+        "contextStart": 21955,
+        "context": "１．議会費\n\n１１４,０８７千円\n\n（１）議会開催状況\n区\n\n常 任 議会運営 特 別\n委 員 会 委 員 会 委 員 会\n\n分\n\n定 例 会\n\n臨 時 会\n\n回 数 （回）\n\n4\n\n1\n\n3\n\n10\n\n5\n\n27\n\n会議日数（日）\n\n17\n\n1\n\n3\n\n10\n\n11\n\n27\n\n（２）政務活動費交付\n\n協 議 会\n\n１,１５７千円\n\n議員活動における、調査研究、自己研修等の必要経費に対し活動費として交付した。\n",
+        "note": "Explicit named child service; generic account parent excluded. No numeric field extraction."
+      },
+      {
+        "name": "霜月祭補助",
+        "raw": "霜月祭補助",
+        "start": 22719,
+        "contextStart": 22700,
+        "context": "１．企画費\n\n１,４０２千円\n\n（１）霜月祭補助\n\n６８７千円\n\n霜月祭イベント経費に１／２を乗じた額を実行委員会に対し、補助金として交付した。\n",
+        "note": "Explicit named child service; generic account parent excluded. No numeric field extraction."
+      },
+      {
+        "name": "住宅耐震診断委託",
+        "raw": "住宅耐震診断委託",
+        "start": 55052,
+        "contextStart": 55033,
+        "context": "１．住宅費\n\n１,７０２千円\n\n（１）住宅耐震診断委託\n\n４００千円\n\n件数： ８件\n６８７千円\n\n（２）危険ブロック塀撤去補助\n件数： １０件\n",
+        "note": "Explicit named child service; generic account parent excluded. No numeric field extraction."
+      },
+      {
+        "name": "危険ブロック塀撤去補助",
+        "raw": "危険ブロック塀撤去補助",
+        "start": 55086,
+        "contextStart": 55033,
+        "context": "１．住宅費\n\n１,７０２千円\n\n（１）住宅耐震診断委託\n\n４００千円\n\n件数： ８件\n６８７千円\n\n（２）危険ブロック塀撤去補助\n件数： １０件\n",
+        "note": "Explicit named child service; generic account parent excluded. No numeric field extraction."
       }
     ],
     "holds": [
@@ -2777,10 +4025,771 @@ export const naraRows = [
         "start": 88800,
         "raw": "２．保健事業介護予防一体的実施事業費\n\n７６千円\n\n（１）KDBシステム負担\n\n４千円\n\n97\n\n\n98\n\n\n",
         "reason": "Only title and sum or generic burden/licence subheading; no independently identifiable bounded delivery evidence here. Other cached evidence could resolve, not an access denial."
+      },
+      {
+        "start": 22351,
+        "raw": "２．人事管理費\n\n１９,９１９千円\n\n（１）職員健康診断実施状況\n実\n\n施\n\n内\n\n容\n\n受診者数（人）委託料（千円）\n\n職 員 定 期 健 康 診 断\n\n406\n\n2,074\n\nV\n\n128\n\n269\n\nD\n\nT\n\n作\n\n業\n\n検\n\n査\n\n（２）職員研修実施状況\n研\n\n修\n\n名\n\n受講者数 （人） 経 費 （ 千 円 ）\n62\n\n奈 良 県 市 町 村 職 員 研 修 セ ン タ ー\n市\n\n町\n\n村\n\nア\n\nカ\n\nデ\n\nミ\n\nー\n\n1\n\n等\n\n36\n\n",
+        "reason": "Staff health/training statistics use broken spaced labels. Exact independent program-title identity remains unresolved; no fabricated title."
+      },
+      {
+        "start": 28537,
+        "raw": "１．監査委員費\n\n3\n\n民\n\n生\n\n２,３０６千円\n\n費\n\n5,679,852\n\n",
+        "reason": "Only audit-account total; next民生費 category is not activity evidence."
+      },
+      {
+        "start": 28840,
+        "raw": "４．社会福祉協議会費\n（１）社会福祉協議会負担\n\n２７,５９８千円\n１０,１２８千円\n\n",
+        "reason": "Only council-account burden totals; no bounded service or output."
+      },
+      {
+        "start": 31388,
+        "raw": "３．老人福祉費＜繰越分＞\n\n４０,３１２千円\n\n（１）介護施設等整備補助\n\n４０,３１２千円\n（単位：千円）\n\n",
+        "reason": "Carryover介護施設等整備補助 has only sum; no independent service description."
+      },
+      {
+        "start": 32950,
+        "raw": "１．シルバー人材センター費\n\n８,９６０千円\n\n（１）シルバー人材センター補助\n\n８,８００千円\n\n",
+        "reason": "Only silver-centre subsidy title and sum; independent delivery not described."
+      },
+      {
+        "start": 33316,
+        "raw": "５．人権問題講演会開催費\n\n２３６千円\n\n「思いやりで社会を変える～飲酒運転撲滅への願い～」\n開催日：\n\n１２月３日（土）１３：３０～\n\n開催場所：\n\n御所市文化ホール\n\n講師：\n\nNPO法人はあとスペース理事長 山本美也子さん\n\n参加人数：\n\n１０１人\n\n",
+        "reason": "December3 is labelled Saturday, inconsistent withFY2023 calendar; explicit event year remains unresolved. Do not mechanically fix."
+      },
+      {
+        "start": 34455,
+        "raw": "５．感染症対策費（子育て世帯への生活支援特別給付金）＜繰越分＞\n\n１２１千円\n\n（１）子育て世帯への生活支援特別給付\n児童数： ６人× ２万円\n\n１２０千円\n\n",
+        "reason": "Carryover child benefit may be prior-year/component; exact independent fiscal identity unresolved."
+      },
+      {
+        "start": 34535,
+        "raw": "６．感染症対策費＜繰越分＞\n\n２５１千円\n\n（１）低所得のひとり親世帯に対する生活支援特別給付（市独自分）\n児童数： ３人× ５万円\n\n１５０千円\n\n（２）ひとり親世帯以外の低所得の子育て世帯に対する生活支援特別給付（市独自分）\n児童数： ２人× ５万円\n\n１００千円\n\n",
+        "reason": "Carryover、市独自 supplement overlaps named benefits. Do not add payment rounds/components as projects."
+      },
+      {
+        "start": 35848,
+        "raw": "３．物価高騰対策費\n\n５,６１９千円\n\n（１）私立保育所等運営\n\n５,５３７千円\n\n（２）副食費補足給付費負担\n\n８２千円\n\n",
+        "reason": "Private nursery inflation supplement is a component of already named operation; no new independent identity."
+      },
+      {
+        "start": 37069,
+        "raw": "１．生活保護総務費\n\n５０,５３７千円\n\n（１）国庫返還\n\n３８,７２２千円\n\n",
+        "reason": "National reimbursement only, no new service."
+      },
+      {
+        "start": 37299,
+        "raw": "４．物価高騰対策費（均等割課税分）\n\n６９,７７０千円\n\n（１）物価高騰対応重点支援給付\n\n６７,９００千円\n\n物価高騰対応重点支援給付金を支給した。\n対象世帯数： ６７９世帯\n",
+        "reason": "Equal-tax-rate recipient category of same重点支援給付; retain context, not duplicate project."
+      },
+      {
+        "start": 39000,
+        "raw": "２．国民健康保険関連費\n\n３４６,１１６千円\n\n（１）国民健康保険事業特別会計繰出\n内\n\n３４６,１１６千円\n\n訳\n\n金 額 （ 円 ）\n\n財 政 安 定 化 支 援 事 業\n\n46,006,000\n\n保険基盤安定（保険税軽減分）\n\n149,053,590\n\n保険基盤安定（保険者支援分）\n\n67,038,512\n\n未 就 学 児 均 等 割 保 険 税\n\n1,265,032\n\n産\n\n前\n\n産\n\n助\n職\n\n員\n\n後\n\n保\n\n産\n\n費\n\n給\n\n与\n\nそ\n\n険\n\n3,272,000\n\n等\n費\n\nの\n\n54,468,046\n\n等\n\n25,000,000\n\n他\n\n合\n\n12,570\n\n税\n\n346,115,750\n\n計\n\n",
+        "reason": "Special-account transfer financial breakdown, not separate programs."
+      },
+      {
+        "start": 44832,
+        "raw": "１．農業振興費\n\n７,２８１千円\n\n（１）食と農のフェスタ委託\n\n６００千円\n２,１９１千円\n\n（２）農産物生産振興促進事業委託\n",
+        "reason": "Only agriculture commission titles/sums; no additional delivery evidence in this bounded unit."
+      },
+      {
+        "start": 52096,
+        "raw": "４．道路新設改良費＜繰越分＞\n\n２８,６２６千円\n\n（１）道路改良工事\n施\n\n工\n\n箇\n\n２８,６２６千円\n所\n\n三室\n\n工\n\n事\n\n内\n\n工事延長 Ｌ＝ 196.9m\n\n容\n\n工事費（千円）\n\n側溝工\n\n28,626\n（単位：千円）\n\n",
+        "reason": "Carryover road improvement component of same annual title; no second project."
+      },
+      {
+        "start": 54545,
+        "raw": "２．都市施設管理費＜繰越分＞\n\n２９,６３２千円\n２９,６３２千円\n\n（１）公園改修工事\n施\n\n工\n\n箇\n\n等\n\n所\n\n内\n\n容\n\n工事費（千円）\n\n御所の郷児童公園\n\n公園改修\n\n7,661\n\nミ ド リ 台 公 園 他\n\n擁壁改修・遊具撤去\n\n11,419\n\n幸 町 緑 地 ② 他\n\n公園舗装\n\n9,427\n\n人権ふるさと公園\n\n公園改修\n\n1,125\n\n計\n\n29,632\n\n56\n\n\n区\n\n分\n\n決算額（千円）\n\n",
+        "reason": "Carryover park works same annual management activity; preserve alternative context, not duplicate."
+      },
+      {
+        "start": 57356,
+        "raw": "３．消防団費＜繰越分＞\n\n２,５１１千円\n\n（１）消防車\n\n２,４９０千円\n\n御所市防災安全協会の寄附により消防団広報車を購入した。\n",
+        "reason": "Carryover消防車 is component of消防団費 activity, not additional project."
+      },
+      {
+        "start": 58631,
+        "raw": "５．（仮称）防災市民センター費\n\n２４,１１４千円\n\n（１）公用車\n\n４,８６６千円\n\n災害時には非常用電源として活用が可能な電気自動車を購入した。\n（２）施設用備品\n\n９,２６１千円\n\n施設利用者の安全性・利便性の向上や、防災展示の充実等を目的として、車いす、\nスロープ、フロアシート、プロジェクター、案内板、展示パネル、ロビーチェア等の\n施設用備品を購入した。\n",
+        "reason": "Centre equipment and vehicle purchases may be components of existing centre-development project; independent identity unresolved."
+      },
+      {
+        "start": 59171,
+        "raw": "３．物価高騰対策費\n\n３,１６８千円\n\n（１）学校給食費補助\n\n３,１６８千円\n\n",
+        "reason": "Only school meal subsidy sum and title; overlap with meal support remains unresolved."
+      },
+      {
+        "start": 60575,
+        "raw": "２．学校施設費\n\n３５,０９６千円\n\n中学校の状況（令和５年５月１日現在）\n学 校 名\n\n学級数（学級）\n\n児童数（人）\n\n御所中学校\n\n9\n\n216\n\n葛 中 学 校\n\n5\n\n36\n\n葛上中学校\n\n5\n\n56\n\n大正中学校\n\n5\n\n87\n\n24\n\n395\n\n合\n\n計\n\n７,９３４千円\n\n（１）修繕\n学校別修繕費の状況\n学\n\n校\n\n御\n\n所\n\n葛\n\n中\n\n葛\n\n上\n\n大\n\n正\n\n（単位：千円）\n\n名\n\n修 繕 費\n\n学\n\n校\n\n3,100\n\n学\n\n校\n\n-\n\n中\n\n学\n\n校\n\n996\n\n中\n\n学\n\n校\n\n3,838\n\n中\n\n",
+        "reason": "Same学校施設費 across school levels; no new unambiguous named work here. Avoid invented school suffix."
+      },
+      {
+        "start": 60978,
+        "raw": "１．教育振興費\n\n１４,４４３千円\n\n（１）市教育振興会委託\n\n８２７千円\n\n学校教育の振興を目的として教育活動の内容充実に努めた。\n（２）特色ある学校づくり補助\n\n７５５千円\n\n各学校が創意工夫を生かした特色ある教育の展開を図るために、生徒の創造性\nや活力を生かしたさまざまな体験・交流活動などの取組を行った。\n学\n\n校\n\n名\n\n主\n\nな\n\n事\n\n業\n\n内\n\n容\n\n御 所 中 学 校 職場体験学習・ボランティア体験学習・御所の伝統文化・歴史学習\n葛 中 学 校\n\n職場体験学習・環境学習・ボランティア体験学習・平和学習\n\n葛 上 中 学 校 職場体験学習・国際理解学習・ボランティア体験学習・自然体験学習\n大 正 中 学 校 職場体験学習・平和学習・人権総合学習・先輩への聞き取り学習\n（３）各種大会選手派遣費補助\n\n４８０千円\n\n62\n\n\n区\n\n分\n\n決算額（千円）\n\n",
+        "reason": "Same市教育振興会/特色ある学校づくり across school levels; no duplicated title/year. Extra派遣補助 only sum."
+      },
+      {
+        "start": 66623,
+        "raw": "１．人権教育総務費\n\n９,２２１千円\n\n人権教育指導員による関係機関・団体との連絡調整及び指導・助言により、効果的\nな人権教育を行った。\n\n",
+        "reason": "Generic human-rights coordination account without distinct named individual project."
+      },
+      {
+        "start": 66715,
+        "raw": "１．人権教育推進費\n\n２,４１５千円\n\n全ての市民に対して、同和問題をはじめとするさまざまな人権問題について正しい\n理解と認識を培うべく種々の事業を行った。\n\n",
+        "reason": "Same人権教育推進費 with broad种々の事業 statement; cannot identify distinct child programs."
+      },
+      {
+        "start": 67988,
+        "raw": "３．その他保健体育施設費\n\n３,９４７千円\n\n68\n\n\n区\n\n分\n\n決算額（千円）\n\n（１）利用状況\n施\n\n設\n\n名\n\n貸出件数（件） 使用人数（人）\n\n市\n\n民\n\n運\n\n動\n\n場\n\n200\n\n6,560\n\n健\n\n民\n\n運\n\n動\n\n場\n\n299\n\n8,405\n\n健 民 テ ニ ス コ ー ト\n\n966\n\n18,220\n\n中央コートゲートボール場\n\n156\n\n4,836\n\n栗 阪 ゲ ー ト ボ ー ル 場\n\n188\n\n5,076\n\n",
+        "reason": "Other sports facilities aggregate has several sites; no distinct named operation unit."
+      },
+      {
+        "start": 68423,
+        "raw": "２．物価高騰対策費\n\n４０,８６３千円\n\n（１）学校給食費特別会計繰出\n\n４０,８６３千円\n\n物価高騰対策として、子育て世帯への経済的支援を実施した学校給食費無償化\nに伴い、学校給食費特別会計に繰出を行った。\n\n10 災 害 復 旧 費\n\n35,802\n\n",
+        "reason": "School meal special-account transfer financing, not extra service record."
+      },
+      {
+        "start": 74071,
+        "raw": "１．一般管理費（人件費含む。）\n\n４６,６３０千円\n１,６８８千円\n\n（１）情報集約システム手数料\n",
+        "reason": "General management/system fee total only."
+      },
+      {
+        "start": 74209,
+        "raw": "１．連合会負担金\n\n２,４７７千円\n\n（１）国保連合会事務費負担\n\n１，４９５千円\n\n",
+        "reason": "Insurance association administrative burden only."
+      },
+      {
+        "start": 74274,
+        "raw": "１．共同事業負担金\n\n３,７２９千円\n\n（１）共同事業負担\n\n３,７２９千円\n\n",
+        "reason": "Generic joint-operation burden only."
+      },
+      {
+        "start": 74458,
+        "raw": "１．運営協議会費\n\n１０５千円\n\n2 保 険 給 付 費\n\n2,121,678\n\n",
+        "reason": "Insurance council sum followed by next financial category; no activity evidence."
+      },
+      {
+        "start": 75468,
+        "raw": "１．傷病手当金\n\n１１千円\n\n3 国 民 健 康 保 険 事 業 費 納 付 金\n\n858,925\n\n市町村が負担する「保険給付費」と同額を奈良県が「普通交付金」として支払うにあたり、\nその交付金の原資の一部として各市町村が奈良県へ納付した。\n\n",
+        "reason": "Sickness allowance sum followed by unrelated premium contribution; boundary cannot supply activity."
+      },
+      {
+        "start": 75800,
+        "raw": "１．その他の共同事業拠出金\n\n１千円\n\n（１）退職者医療受給権者リスト送付拠出\n\n１千円\n\n5 保 健 事 業 費\n\n34,289\n\n",
+        "reason": "List transmission contribution sum; nexthealthcategory unrelated."
+      },
+      {
+        "start": 79610,
+        "raw": "１．国民宿舎管理運営費\n\n６６,４８７千円\n\n国民宿舎葛城高原ロッジの管理運営に要した人件費\n\n2\n\n事\n\n業\n\n費\n\n13,734\n\n",
+        "reason": "Lodge personnel expense component of existing lodge service, not second project."
+      },
+      {
+        "start": 82700,
+        "raw": "１．計画策定委員会費\n\n３,２１９千円\n\n2 保 険 給 付 費\n\n3,293,943\n\n",
+        "reason": "Planning committee sum; nextinsurancecategory unrelated."
+      },
+      {
+        "start": 88731,
+        "raw": "１．健康診査費\n\n１４,９５１千円\n\n令和５年４月１日時点\n被保険者数： ５,６２２人\n受診者数： １,２５８人\n受診率： ２２.３８％\n",
+        "reason": "Same健康診査費 in later elderly account; distinct title/year identity unresolved without inventing qualifier."
+      },
+      {
+        "start": 26902,
+        "raw": "１．賦課費\n\n４８,１２１千円\n\n（１）固定資産路線価見直業務委託\n\n８,９１０千円\n\n（２）鑑定評価時点修正作業委託\n\n３０８千円\n\n（３）土地家屋登記管理システム構築委託\n\n１,９８０千円\n\n",
+        "reason": "Three tax-system commission titles and sums only; independent delivery not described."
+      },
+      {
+        "start": 27019,
+        "raw": "１．徴収費\n\n１８,６４７千円\n\n31\n\n\n区\n\n分\n\n決算額（千円）\n\n滞納処分状況 （国保税を含む。）\n不動産 預貯金 保険\n\n差押区分\n\n7\n\n件数（件）\n\n86\n\n給与\n\n32\n\n年金 その他 合計\n\n8\n\n6\n\n11\n\n150\n\n差押による換価の状況 （国保税を含む。）\n金額（千円）\n換\n\n12,459\n\n価\n\n（１）市税過誤納還付金・返還金の状況\n税\n市\n民\n税\n\n還\n\n目\n\n付\n\n金\n\n返\n\n還\n\n金\n\n件数（件）\n\n金額（千円）\n\n件数（件）\n\n金額（千円）\n\n個\n\n人\n\n89\n\n9,195\n\n―\n\n―\n\n法\n\n人\n\n43\n\n6,047\n\n―\n\n―\n\n77\n\n315\n\n18\n\n125\n\n固 定 資 産 税\n軽 自 動 車 税\n\n3\n\n17\n\n―\n\n―\n\n計\n\n212\n\n15,574\n\n18\n\n125\n\n",
+        "reason": "Generic account or fee table without distinct evidenced named individual activity; no manufactured project from account label."
+      },
+      {
+        "start": 39351,
+        "raw": "１．予防費\n\n３,４３１千円\n\n",
+        "reason": "Generic account or fee table without distinct evidenced named individual activity; no manufactured project from account label."
+      },
+      {
+        "start": 45195,
+        "raw": "１．農地費\n\n９７千円\n\n48\n\n\n区\n\n分\n\n決算額（千円）\n\n",
+        "reason": "Generic account or fee table without distinct evidenced named individual activity; no manufactured project from account label."
+      },
+      {
+        "start": 57011,
+        "raw": "１．消防費\n\n２,４５０千円\n\n",
+        "reason": "Generic account or fee table without distinct evidenced named individual activity; no manufactured project from account label."
+      },
+      {
+        "start": 74351,
+        "raw": "１．賦課費\n\n１,５７１千円\n\n",
+        "reason": "Generic account or fee table without distinct evidenced named individual activity; no manufactured project from account label."
+      },
+      {
+        "start": 74367,
+        "raw": "２．徴収費\n\n１,９７４千円\n\n",
+        "reason": "Generic account or fee table without distinct evidenced named individual activity; no manufactured project from account label."
+      },
+      {
+        "start": 77786,
+        "raw": "１．給食費\n\n７０,３１２千円\n\n（１）学校給食費の推移\n（単位：円）\n施行年月日\n区分\n\nＳ５６．４．１\n\nＳ５９．４．１\n\nＨ元．４．１\n\nＨ８．４．１\n\n小\n\n学\n\n校\n\n2,800\n\n3,100\n\n3,200\n\n3,400\n\n中\n\n学\n\n校\n\n3,100\n\n3,400\n\n3,500\n\n3,700\n\n（単位：円）\n施行年月日\n区分\n\n小\n中\n\n学\n学\n\nＨ１１．４．１\n\nＨ１２．４．１\n\nＨ２４．４．１\n\n校\n\n3,400\n\n3,700\n\n3,900\n\n校\n\n3,700\n\n4,100\n\n4,300\n\n（２）給食人員等に関する調べ\n上段（ ）は対象者数・下段は総食数\n項目\n給食実施総人員（人）・総食数（食）\n児童・生徒\n\n区分\n小 学 校\n中 学 校\n\n給食費負担額\n（千円）\n\nそ の 他\n\n計\n\n(712)\n\n(110)\n\n(301)\n\n(1,123)\n\n123,008\n\n18,975\n\n1,429\n\n143,412\n\n(393)\n\n(70)\n\n(130)\n\n(593)\n\n63,815\n\n11,438\n\n540\n\n75,793\n\n給食センター\n計\n\n職 員\n\n(34)\n\n(34)\n\n6,055\n\n6,055\n\n(1,105)\n\n(214)\n\n(431)\n\n(1,750)\n\n186,823\n\n36,468\n\n1,969\n\n225,260\n\n児童・生徒\n\n学校・センター職員\n\n55,406\n\n11,051\n\n計\n66,457\n\n2 繰 上 充 用 金\n\n2,003\n\n",
+        "reason": "Meal special-account cost/history and recipient table overlaps existing school meal program; identity requires dedup evidence."
+      },
+      {
+        "start": 88467,
+        "raw": "１．徴収費\n\n１,４００千円\n\n（１）過年度保険料払戻\n\n１０千円\n\n2 後 期 高 齢 者 医 療 広 域 連 合 納 付 金\n\n510,044\n\n",
+        "reason": "Generic account or fee table without distinct evidenced named individual activity; no manufactured project from account label."
       }
     ],
     "sourceSha256": "4452834e926ebdd1c8435fd11b5fb3dfb5276c7a6f2f2a5b7660cbe19e649753",
     "sourceUrl": "https://www.city.gose.nara.jp/cmsfiles/contents/0000002/2930/r5kessangaiyou.pdf",
+    "recordedFormat": "pdf",
+    "format": "pdf"
+  },
+  {
+    "sourceId": "6c578263da16f5a44bfd0d09",
+    "municipalityCode": "29203",
+    "year": 2024,
+    "evaluationYear": 2025,
+    "proof": "令 和 ６ 年 度\n\n主要施策の成果及び予算執行の実績報告書\n\n大 和 郡 山 市\n\n\n主 要 な 施 策 の 成 果 、 そ の 他 予 算 執 行 の 実 績 に つ い て\n\n令 和 ６ 年 度 中 の 主 要 な 施 策 の 成 果 、 そ の 他 予 算 の 執 行 に つ い て\n\n報 告 す る 。\n\n令 和 ７ 年 ９ 月\n\n日 提 出\n\n大 和 郡 山 市 長\n\n上 田\n\n清",
+    "fullTextSha256": "a57bae79b8ff9c0ee1c6793259aa9459fbc02e62fba17ef3a5f5a10b6a0ef009",
+    "rows": [
+      {
+        "name": "元気城下町プラザ運営事業",
+        "start": 2054,
+        "raw": "元気城下町プラザ運営事業",
+        "contextStart": 1962,
+        "context": "イベントや観光スポットの案内、特産物\nの展示販売を通して、魅力を発信するとと\nもに、各種証明書の交付業務や納税業務も\n行い、その利便性からも市民に身近な施設\nとして利用されている。\n\n元気城下町プラザ運営事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "水木十五堂賞事業",
+        "start": 4016,
+        "raw": "水木十五堂賞事業",
+        "contextStart": 3889,
+        "context": "本市に縁のある偉大な先人である水木要\n太郎の功績を顕彰するため、様々な分野で\n蒐集を行い、現代の「語り部」あるいは\n「生き字引」にふさわしい博識を持って社\n会に貢献している人物を対象に水木十五堂\n賞の表彰を行った。\n【第13回受賞者：橋爪 節也 氏】\n\n水木十五堂賞事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "シティプロモーション事業",
+        "start": 4092,
+        "raw": "シティプロモーション事業",
+        "contextStart": 4032,
+        "context": "大和郡山市の認知度の向上、及び当市へ\nの転入者数の増加に資するため、市民との\nＦａｃｅｂｏｏｋ共同運営事業を行った。\n\nシティプロモーション事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "市制７０周年事業",
+        "start": 4142,
+        "raw": "市制７０周年事業",
+        "contextStart": 4112,
+        "context": "市制７０周年を記念し、４月２３日に記\n念式典を挙行した。\n\n市制７０周年事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "奈良県移住支援事業",
+        "start": 4495,
+        "raw": "奈良県移住支援事業",
+        "contextStart": 4431,
+        "context": "東京一極集中の是正及び県内の中小企業\n等人材確保のため、県と連携し東京圏から\n本市へ移住した方へ移住支援金の交付を行\nった。\n\n奈良県移住支援事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "地域の絆応援助成金事業",
+        "start": 4615,
+        "raw": "地域の絆応援助成金事業",
+        "contextStart": 4569,
+        "context": "若者の移住定住、市内中小企業等就業支\n援を目的として、奨学金返還支援金の交付\nを行った。\n\n地域の絆応援助成金事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "市民交流館管理運営事業",
+        "start": 6691,
+        "raw": "市民交流館管理運営事業",
+        "contextStart": 6613,
+        "context": "市民交流館はＪＲ郡山駅東口に隣接する\n利便性の高い貸館である。市民やボランテ\nィア団体の会合、民間企業の面接会場や講\n演会など、使用内容は多岐にわたる。\n\n市民交流館管理運営事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "巡回バス事業",
+        "start": 7333,
+        "raw": "巡回バス事業",
+        "contextStart": 7263,
+        "context": "市内公共施設と近鉄・ＪＲ郡山駅間のバ\nス路線を確保するとともに、市域の公共交\n通空白地域の利便性を高めるため、計３路\n線の運行を行った。\n\n巡回バス事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "スポーツ振興事業",
+        "start": 10391,
+        "raw": "スポーツ振興事業",
+        "contextStart": 10325,
+        "context": "市スポーツ協会等の団体に市民歩こう会\n等の年間を通したスポーツ振興事業を委託\nする等、市民の体力づくりやスポーツ振興\nを図った。\n\nスポーツ振興事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "武道振興事業委託",
+        "start": 10484,
+        "raw": "武道振興事業委託",
+        "contextStart": 10407,
+        "context": "大和郡山市武道振興会に武道振興事業を\n委託し、剣道、柔道、なぎなた、弓道、少\n林寺拳法、空手道、合氣道、相撲の教室開\n催等を行い、武道の振興に努めた。\n\n武道振興事業委託に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "生活困窮者自立支援事業",
+        "start": 14284,
+        "raw": "生活困窮者自立支援事業",
+        "contextStart": 14238,
+        "context": "生活困窮者が抱える多様な問題に対応す\nるため、関係機関と連携し、自立相談支援\nを行った。\n\n生活困窮者自立支援事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "住居確保給付金事業",
+        "start": 14400,
+        "raw": "住居確保給付金事業",
+        "contextStart": 14303,
+        "context": "生活困窮者のうち離職等により経済的に\n困窮し、住居を喪失又は家賃を支払うこと\nが困難となった者で、就職を容易にするた\nめ住居を確保する必要があると認められる\n者に対して給付金の支給を行った。\n\n住居確保給付金事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "広域就労準備支援事業",
+        "start": 14595,
+        "raw": "広域就労準備支援事業",
+        "contextStart": 14538,
+        "context": "生活困窮者のうち直ちに就労が困難な者\nに対して奈良県生活困窮者等広域就労準備\n支援事業への参加の支援を行った。\n\n広域就労準備支援事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "重層的支援体制整備事業",
+        "start": 15631,
+        "raw": "重層的支援体制整備事業",
+        "contextStart": 15612,
+        "context": "重層的支援体制整備事業へ移行するため\n重層的支援体制整備事業に要した経費\nの準備事業として庁内調整会議等を行った。",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "理美容サービス事業",
+        "start": 18114,
+        "raw": "理美容サービス事業",
+        "contextStart": 18049,
+        "context": "在宅高齢者に理美容サービス・布団丸洗\nいサービスを実施した。\n理美容サービス 延３０３回\n９３人\n布団サービス\n延１７回\n９人\n\n理美容サービス事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "敬老会事業",
+        "start": 18247,
+        "raw": "敬老会事業",
+        "contextStart": 18220,
+        "context": "敬老会事業を行うため、社会福祉協議会\nへ委託した。\n\n敬老会事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "高齢者生活支援対策事業",
+        "start": 18352,
+        "raw": "高齢者生活支援対策事業",
+        "contextStart": 18323,
+        "context": "ホームヘルパー等を派遣し、日常生活の\n支援等を行った。\n\n高齢者生活支援対策事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "布団丸洗いサービス事業",
+        "start": 18392,
+        "raw": "布団丸洗いサービス事業",
+        "contextStart": 18049,
+        "context": "在宅高齢者に理美容サービス・布団丸洗\nいサービスを実施した。\n理美容サービス 延３０３回\n９３人\n布団サービス\n延１７回\n９人\n\n理美容サービス事業に要した経費\n\n長寿のお祝いに自宅を訪問し、お祝品を\n贈呈した。\n１００歳訪問\n２８人\n９７歳訪問\n１０３人\n８８歳お祝い\n５７７人\n\n長寿者お祝い事業（１００・９７・８８\n歳）に要した経費\n\n敬老会事業を行うため、社会福祉協議会\nへ委託した。\n\n敬老会事業に要した経費\n\n低所得者が安心して介護サービスが受け\nられるよう給付金を支給した。\n延１，５１８人\n\n高齢者生活支援給付金支給に要した経費\n\nホームヘルパー等を派遣し、日常生活の\n支援等を行った。\n\n高齢者生活支援対策事業に要した経費\n\n74,695,301\n1,212,000\n布団丸洗いサービス事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "生活管理短期宿泊事業",
+        "start": 18615,
+        "raw": "生活管理短期宿泊事業",
+        "contextStart": 18550,
+        "context": "生活管理短期宿泊事業を実施した。\n延べ人数\n２５人\n延べ日数 ４０８日\n養護老人ホーム（かんざん園）施設の維\n持管理を行った。\n\n生活管理短期宿泊事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "健康づくり推進事業",
+        "start": 25536,
+        "raw": "健康づくり推進事業",
+        "contextStart": 25485,
+        "context": "大和郡山市健康づくり推進員連絡協議会\nの協力を得て、地域の実状に応じた健康づ\nくり事業を実施した。\n\n健康づくり推進事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "骨髄ドナー事業",
+        "start": 25709,
+        "raw": "骨髄ドナー事業",
+        "contextStart": 25639,
+        "context": "骨髄・末梢神経細胞の提供を行ったドナ\nーに対し、骨髄等の採取の際に生じる経済\n的負担の軽減を図れるよう助成金を交付し\nた。\n対象者\n１人\n\n骨髄ドナー事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "すこやか２１推進事業",
+        "start": 25919,
+        "raw": "すこやか２１推進事業",
+        "contextStart": 25847,
+        "context": "「みんながいきいきと安心して暮らせる\nまち」をめざして市民とともに健康なまち\nづくりに取り組む「大和郡山すこやか２１\n\n26,143,835\n\nすこやか２１推進事業に要した経費\n1,181,025\n\n\n計画」に基づき、市民の皆さんと健康づく\nりを支援する取り組みを進めた。",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "予防接種事業",
+        "start": 26187,
+        "raw": "予防接種事業",
+        "contextStart": 26088,
+        "context": "感染症の発生及びまん延を予防するため\n345,535,681\n市医師会の協力を得て予防接種を実施し、\n公衆衛生の向上及び増進を図った。また結\n核予防のためにＢＣＧ予防接種を実施した。\n＜予防事業＞\n予防接種事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "アピアランスケア助成事業",
+        "start": 28101,
+        "raw": "アピアランスケア助成事業",
+        "contextStart": 28041,
+        "context": "がん治療に伴う容貌の変化に対する苦痛\nの軽減を図るため、アピアランスケア助成\n事業を実施した。\n延べ助成人数\n３２人\n\nアピアランスケア助成事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "妊婦健診事業",
+        "start": 28912,
+        "raw": "妊婦健診事業",
+        "contextStart": 28828,
+        "context": "妊婦一般健康診査\n\n４，５９８件\n６１６人\n\n妊産婦訪問指導\n乳幼児訪問指導\n\n延４０８人\n延４２３人\n\n子どもすこやか相談\n２４８回\n\n延３６９人\n\n産後ケア事業\n\n妊婦健診事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "産後ケア事業",
+        "start": 28995,
+        "raw": "産後ケア事業",
+        "contextStart": 28904,
+        "context": "産後ケア事業\n\n妊婦健診事業に要した経費\n40,419,121\n妊産婦・乳幼児訪問に要した経費\n3,584,628\n子どもすこやか相談に要した経費\n\n延８９人\n\n3,408,600\n産後ケア事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "多胎家事支援事業",
+        "start": 29035,
+        "raw": "多胎家事支援事業",
+        "contextStart": 29019,
+        "context": "多胎家事支援事業\n\n延２５人\n\n多胎家事支援事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "不妊治療費等助成事業",
+        "start": 29078,
+        "raw": "不妊治療費等助成事業",
+        "contextStart": 29059,
+        "context": "不妊治療費等助成事業\n\n延１１６人\n\n不妊治療費等助成事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "清浄会館再整備事業",
+        "start": 29727,
+        "raw": "清浄会館再整備事業",
+        "contextStart": 29602,
+        "context": "清浄会館の再整備に伴い、測量、境界確\n定、文化財調査を行った。\n清浄会館再整備事業者の選定を行い、基\n本・実施設計業務を開始した。\n地球温暖化防止のため、一事業者として\n13,999,184\n庁舎内温室効果ガスの排出量の測定と抑制\nに取り組んだ。\n\n清浄会館再整備事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "営農改善指導育成等事業",
+        "start": 35276,
+        "raw": "営農改善指導育成等事業",
+        "contextStart": 35175,
+        "context": "特産イチゴの振興と地域輪作農業の確立\n27,494,278\n栽培技術の高位平準化等施設野菜を中心に\n水稲、いちじく、畜産、廃プラスチック等\nの処理等幅広く対応し、地域農業の振興と\n指導推進を図った。\n\n営農改善指導育成等事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "新規就農者確保事業",
+        "start": 35368,
+        "raw": "新規就農者確保事業",
+        "contextStart": 35340,
+        "context": "青年の就農意欲の喚起と就農後の定着を\n図った。\n５件\n\n新規就農者確保事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "大和郡山市農業振興事業",
+        "start": 35438,
+        "raw": "大和郡山市農業振興事業",
+        "contextStart": 35385,
+        "context": "農産物生産における研究、改善、技術の\n向上、農業生産組織の強化を目的とする団\n体への育成指導を図った。\n\n大和郡山市農業振興事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "多面的機能支払交付金事業",
+        "start": 36148,
+        "raw": "多面的機能支払交付金事業",
+        "contextStart": 36061,
+        "context": "農業・農村の多面的機能の維持・発揮を\n図るため、交付金による取組を推進し、そ\nれを支える地域活動の実施団体が作成する\n事業計画を認定し、各活動の実施状況の確\n認を行った。\n\n多面的機能支払交付金事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "異業種交流事業補助金",
+        "start": 37314,
+        "raw": "異業種交流事業補助金",
+        "contextStart": 37223,
+        "context": "商工会活動及び異業種交流事業等により\n51,441,110\n市内の小規模事業者並びに中小企業者の発\n展に寄与した。\n\n市商工会事業に対する補助金に要した経\n費\n11,350,000\n異業種交流事業補助金に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "住宅リフォーム助成事業",
+        "start": 37553,
+        "raw": "住宅リフォーム助成事業",
+        "contextStart": 37520,
+        "context": "既存住宅の居住環境の質の向上及び市内\n経済の活性化に寄与した。\n\n住宅リフォーム助成事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "郡山城跡公園整備事業",
+        "start": 42396,
+        "raw": "郡山城跡公園整備事業",
+        "contextStart": 42364,
+        "context": "郡山城跡公園の整備に伴う城内学舎跡地\nの整備工事等を行った。\n\n郡山城跡公園整備事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "郡山城にぎわいづくり事業",
+        "start": 42445,
+        "raw": "郡山城にぎわいづくり事業",
+        "contextStart": 42426,
+        "context": "郡山城天守台展望施設の利活用を図るた\n郡山城にぎわいづくり事業に要した経費\nめ、郡山城にぎわいづくり事業を実施した。",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "的場古池公園管理事業",
+        "start": 42515,
+        "raw": "的場古池公園管理事業",
+        "contextStart": 42485,
+        "context": "的場古池公園の適正な管理に努めた。\n\n1,200,000\n\n的場古池公園管理事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "市教育研修事業",
+        "start": 45162,
+        "raw": "市教育研修事業",
+        "contextStart": 45143,
+        "context": "市教育研修事業の充実を図り、その他の\n市教育研修事業に要した経費\n145,591,883\n教育振興の運営・学校教育の向上に努めた。",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "中学校トイレ改修事業",
+        "start": 46912,
+        "raw": "中学校トイレ改修事業",
+        "contextStart": 46885,
+        "context": "中学校トイレ改修事業に伴う施設整備工\n事を行った。\n\n中学校トイレ改修事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "脳ドック事業",
+        "start": 61419,
+        "raw": "脳ドック事業",
+        "contextStart": 61349,
+        "context": "大和郡山市医師会や歯科医師会の協力の\nもと、脳ドックや口腔健診事業を実施し、\n被保険者の疾病の早期管理・治療、予防保\n健の充実を図った。\n\n脳ドック事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "口腔健診事業",
+        "start": 61442,
+        "raw": "口腔健診事業",
+        "contextStart": 61349,
+        "context": "大和郡山市医師会や歯科医師会の協力の\nもと、脳ドックや口腔健診事業を実施し、\n被保険者の疾病の早期管理・治療、予防保\n健の充実を図った。\n\n脳ドック事業に要した経費\n4,947,391\n口腔健診事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "総合相談事業委託",
+        "start": 68150,
+        "raw": "総合相談事業委託",
+        "contextStart": 68099,
+        "context": "高齢者が安心して生活を継続できるよう\n16,987,853\n幅広く相談を受け、必要な支援を行った。\n\n総合相談事業委託に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "権利擁護事業委託",
+        "start": 68286,
+        "raw": "権利擁護事業委託",
+        "contextStart": 68218,
+        "context": "総合相談等から把握した高齢者虐待など\n6,612,205\nの困難事例への対応、成年後見制度の活用\n等、高齢者の生活維持支援を行った。\n\n権利擁護事業委託に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "配食サービス事業",
+        "start": 68667,
+        "raw": "配食サービス事業",
+        "contextStart": 68596,
+        "context": "高齢者の在宅生活支援として、栄養改善\nと見守りを目的とした配食や、紙おむつ支\n給事業等を行った。\n\n予\n\n算\n\n執\n\n行\n\nの\n\n実\n\n績\n\n配食サービス事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "住宅改修支援事業",
+        "start": 68928,
+        "raw": "住宅改修支援事業",
+        "contextStart": 68847,
+        "context": "担当ケアマネージャーのいない利用者の\n住宅改修理由書を作成した事業所の支援を\n行った。\n\n介護給付適正化に要した経費\n\n2,211,000\n\n6,762,904\n住宅改修支援事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "生活支援体制整備事業委託",
+        "start": 69243,
+        "raw": "生活支援体制整備事業委託",
+        "contextStart": 69203,
+        "context": "高齢者への多様な生活支援サービスの取\n24,000,000\nり組みを行った。\n\n生活支援体制整備事業委託に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "居宅介護サービス事業",
+        "start": 70248,
+        "raw": "居宅介護サービス事業",
+        "contextStart": 70199,
+        "context": "要支援認定者が介護サービスを円滑に利\n用できるよう、委託も含めて適切なプラン\n作成を実施した。\n\n居宅介護サービス事業に要した経費",
+        "note": "Literal named activity and matching delivery narrative inFY2024annual成果 report, published2025. No costs or ratings inferred from interleaved expenditure columns. Preparatory work is preserved as preparatory work."
+      },
+      {
+        "name": "まちづくりアイデアサポート事業",
+        "raw": "まちづくりアイデアサポート事業",
+        "start": 3865,
+        "contextStart": 3786,
+        "context": "市民の自主的なアイデアのもと、まちづ\nくりに積極的なグループへの活動を支援し\nた。１グループの支援上限額は３０万円で\n２８のグループについて支援を行った。\n\nまちづくりアイデアサポート事業に要し\nた経費",
+        "note": "Manually matched literal named activity and specific delivery narrative. Wrapped title joins only saved fragments, not neighboring columns. No amount or rating inference."
+      },
+      {
+        "name": "障害者虐待防止対策支援事業",
+        "raw": "障害者虐待防止対策支援事業",
+        "start": 13965,
+        "contextStart": 13946,
+        "context": "障害者虐待防止対策会議を実施した。\n\n障害者虐待防止対策支援事業に要した経\n費",
+        "note": "Manually matched literal named activity and specific delivery narrative. Wrapped title joins only saved fragments, not neighboring columns. No amount or rating inference."
+      },
+      {
+        "name": "長寿者お祝い事業（１００・９７・８８歳）",
+        "raw": "長寿者お祝い事業（１００・９７・８８\n歳）",
+        "start": 18191,
+        "contextStart": 18131,
+        "context": "長寿のお祝いに自宅を訪問し、お祝品を\n贈呈した。\n１００歳訪問\n２８人\n９７歳訪問\n１０３人\n８８歳お祝い\n５７７人\n\n長寿者お祝い事業（１００・９７・８８\n歳）に要した経費",
+        "note": "Manually matched literal named activity and specific delivery narrative. Wrapped title joins only saved fragments, not neighboring columns. No amount or rating inference.",
+        "titleFragments": [
+          "長寿者お祝い事業（１００・９７・８８",
+          "歳）"
+        ]
+      },
+      {
+        "name": "民間認定こども園、病児保育施設の整備事業",
+        "raw": "民間認定こども園、病児保育施設の整備\n事業",
+        "start": 21330,
+        "contextStart": 21280,
+        "context": "定員拡大のため、昭和やまとこども園の\n建替整備を実施するとともに、病児保育施\n設の整備を進めた。\n\n民間認定こども園、病児保育施設の整備\n事業に要した経費",
+        "note": "Manually matched literal named activity and specific delivery narrative. Wrapped title joins only saved fragments, not neighboring columns. No amount or rating inference.",
+        "titleFragments": [
+          "民間認定こども園、病児保育施設の整備",
+          "事業"
+        ]
+      },
+      {
+        "name": "放課後児童健全育成事業運営補助及び支援員等の処遇改善",
+        "raw": "放課後児童健全育成事業運営補助及び支\n援員等の処遇改善",
+        "start": 21438,
+        "contextStart": 21401,
+        "context": "留守家庭児童の健全育成のため放課後児\n童健全育成に係る事業を実施した。\n\n放課後児童健全育成事業運営補助及び支\n援員等の処遇改善に要した経費",
+        "note": "Manually matched literal named activity and specific delivery narrative. Wrapped title joins only saved fragments, not neighboring columns. No amount or rating inference.",
+        "titleFragments": [
+          "放課後児童健全育成事業運営補助及び支",
+          "援員等の処遇改善"
+        ]
+      },
+      {
+        "name": "地域経済循環創造事業補助金",
+        "raw": "地域経済循環創造事業補助金",
+        "start": 38049,
+        "contextStart": 37937,
+        "context": "総務省のローカル10,000プロジェクトを\n活用し、地域の人材、資源、資金を活用し\nた民間事業者の新規事業に係る初期投資費\n用を補助することで将来にわたって富を生\nみ出していく仕組み（地域経済循環）づく\nりに取り組んだ。\n\n地域経済循環創造事業補助金に要した経\n費",
+        "note": "Manually matched literal named activity and specific delivery narrative. Wrapped title joins only saved fragments, not neighboring columns. No amount or rating inference."
+      },
+      {
+        "name": "近鉄郡山駅周辺整備事業の調査等",
+        "raw": "近鉄郡山駅周辺整備事業の調査等",
+        "start": 41964,
+        "contextStart": 41920,
+        "context": "近鉄郡山駅周辺地区まちづくり基本計画\n82,950,030\nに基づく調査等を行った。\n\n近鉄郡山駅周辺整備事業の調査等に要し\nた経費",
+        "note": "Manually matched literal named activity and specific delivery narrative. Wrapped title joins only saved fragments, not neighboring columns. No amount or rating inference."
+      },
+      {
+        "name": "中学校エレベーター設置事業",
+        "raw": "中学校エレベーター設置事業",
+        "start": 46956,
+        "contextStart": 46930,
+        "context": "中学校エレベーター設置事業に伴う工事\nを行った。\n\n中学校エレベーター設置事業に要した経\n費",
+        "note": "Manually matched literal named activity and specific delivery narrative. Wrapped title joins only saved fragments, not neighboring columns. No amount or rating inference."
+      }
+    ],
+    "holds": [
+      {
+        "start": 4687,
+        "raw": "その他の事業に要した経費",
+        "reason": "Genericその他/青少年育成に係る事業 aggregate; not an individual named project."
+      },
+      {
+        "start": 6197,
+        "raw": "地籍調査事業に要した経費",
+        "reason": "Generic aggregate or precise title appears only as expenditure label without independently matched delivery narrative in this reviewed family. Keep out pending concrete context review."
+      },
+      {
+        "start": 18492,
+        "raw": "老人クラブ活動助成事業に要した経費",
+        "reason": "Generic aggregate or precise title appears only as expenditure label without independently matched delivery narrative in this reviewed family. Keep out pending concrete context review."
+      },
+      {
+        "start": 24324,
+        "raw": "生活保護就労支援事業に要した経費",
+        "reason": "Generic aggregate or precise title appears only as expenditure label without independently matched delivery narrative in this reviewed family. Keep out pending concrete context review."
+      },
+      {
+        "start": 37341,
+        "raw": "地域産業活性化事業に要した経費",
+        "reason": "Generic aggregate or precise title appears only as expenditure label without independently matched delivery narrative in this reviewed family. Keep out pending concrete context review."
+      },
+      {
+        "start": 41716,
+        "raw": "その他都市計画事業に要した経費",
+        "reason": "Genericその他/青少年育成に係る事業 aggregate; not an individual named project."
+      },
+      {
+        "start": 44701,
+        "raw": "個別避難計画作成事業に要した経費",
+        "reason": "Generic aggregate or precise title appears only as expenditure label without independently matched delivery narrative in this reviewed family. Keep out pending concrete context review."
+      },
+      {
+        "start": 45495,
+        "raw": "校園内研究推進奨励事業に要した経費",
+        "reason": "Generic aggregate or precise title appears only as expenditure label without independently matched delivery narrative in this reviewed family. Keep out pending concrete context review."
+      },
+      {
+        "start": 45619,
+        "raw": "文化芸術補助事業に要した経費",
+        "reason": "Generic aggregate or precise title appears only as expenditure label without independently matched delivery narrative in this reviewed family. Keep out pending concrete context review."
+      },
+      {
+        "start": 45694,
+        "raw": "多様な学び支援事業に要した経費",
+        "reason": "Generic aggregate or precise title appears only as expenditure label without independently matched delivery narrative in this reviewed family. Keep out pending concrete context review."
+      },
+      {
+        "start": 46593,
+        "raw": "交流事業に要した経費",
+        "reason": "交流事業 generic title and市制70周年 component; avoid duplicating anniversary parent or inventing title."
+      },
+      {
+        "start": 50217,
+        "raw": "放課後子ども教室推進事業に要した経費",
+        "reason": "Generic aggregate or precise title appears only as expenditure label without independently matched delivery narrative in this reviewed family. Keep out pending concrete context review."
+      },
+      {
+        "start": 50277,
+        "raw": "青少年育成に係る事業に要した経費",
+        "reason": "Genericその他/青少年育成に係る事業 aggregate; not an individual named project."
+      },
+      {
+        "start": 67652,
+        "raw": "高齢者移動支援事業委託に要した経費",
+        "reason": "Generic aggregate or precise title appears only as expenditure label without independently matched delivery narrative in this reviewed family. Keep out pending concrete context review."
+      },
+      {
+        "start": 68693,
+        "raw": "緊急通報体制整備事業委託に要した経費",
+        "reason": "Generic aggregate or precise title appears only as expenditure label without independently matched delivery narrative in this reviewed family. Keep out pending concrete context review."
+      }
+    ],
+    "sourceSha256": "6832046a9d2cc4fb2dfdb9a70b6ebac700542270abc932506a93a5c94e354a9c",
+    "sourceUrl": "https://www.city.yamatokoriyama.lg.jp/material/files/group/6/syuyousesaku_r6.pdf",
     "recordedFormat": "pdf",
     "format": "pdf"
   }
