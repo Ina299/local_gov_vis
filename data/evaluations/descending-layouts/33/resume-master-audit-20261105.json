@@ -1,0 +1,146 @@
+{
+  "observedMaster": "f243827b6176065eaa05dfb6ef65e482b35de6fb",
+  "originalBaselineRetained": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
+  "municipalityChecks": [
+    {
+      "municipalityCode": "33681",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33666",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33663",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33643",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33623",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33622",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33606",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33586",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33461",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33445",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33423",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33346",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33216",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33215",
+      "datasetUnchanged": false,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33214",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33213",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33212",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33211",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33210",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33209",
+      "datasetUnchanged": false,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33208",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33207",
+      "datasetUnchanged": false,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33205",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33204",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33203",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    },
+    {
+      "municipalityCode": "33100",
+      "datasetUnchanged": true,
+      "evidenceUnchanged": true
+    }
+  ],
+  "excludedMunicipalities": [
+    "33215",
+    "33209",
+    "33207"
+  ],
+  "preservedUnpushedCandidateCount": 1,
+  "mimasakaSameNameInMaster": 0,
+  "reason": "Municipality updated by user, so do not add even though exact name absent. Existing production untouched.",
+  "unpublishedUserChanges": "not observable",
+  "archiveSha256": "e976c6b78c5b5872308ed691970d4ef69bb3759650ba97e8c62766fd0a96d22e"
+}

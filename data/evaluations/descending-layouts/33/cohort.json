@@ -84,12 +84,6 @@
       "evidenceShardSha256": "ea6b4069655e49b901ccb6af2a0855d733093449c15310a3e93223d4fe30184b"
     },
     {
-      "municipalityCode": "33215",
-      "municipalityName": "美作市",
-      "datasetSha256": "a4cfd7e09399aafd3d0f54a58c255e463884d9c038d617d9ebdb4fb75970931a",
-      "evidenceShardSha256": "c504e6cbbe4d28920ae61fb6ab6e238234dcbf415e1b1582736b6c7a583dfead"
-    },
-    {
       "municipalityCode": "33214",
       "municipalityName": "真庭市",
       "datasetSha256": null,
@@ -120,22 +114,10 @@
       "evidenceShardSha256": "04ddef926767cdf799a91ba0b5c880c4a50c1f80c5db5ed69e1c586539065e22"
     },
     {
-      "municipalityCode": "33209",
-      "municipalityName": "高梁市",
-      "datasetSha256": "9a688fc03174c7d424e051a9c9981807aa57bbdeb7fa4d470c2f977566751765",
-      "evidenceShardSha256": "62ed2f420f52c2ec54019933d009ddaef0bcd878d7f0f60f52ccfc24dc6e69ed"
-    },
-    {
       "municipalityCode": "33208",
       "municipalityName": "総社市",
       "datasetSha256": "363e1849a0a3905affe43a30d206e65dcbbdfae215929ea85e062aacdde16577",
       "evidenceShardSha256": "b5b1939ab4491a83ebb46eedbe32fc9f9d232d7040e4b8d5bc0055778ea4818b"
-    },
-    {
-      "municipalityCode": "33207",
-      "municipalityName": "井原市",
-      "datasetSha256": "2c88cf2ac0655d83e741dd717619fc6d5b4430d4f47275ae72db07a71347fca0",
-      "evidenceShardSha256": "94702edb7c10f7eae8e58f34355adf36953809e8b012fb1ae1dc7f49d0b57be3"
     },
     {
       "municipalityCode": "33205",
@@ -167,8 +149,23 @@
       "municipalityCode": "33202",
       "municipalityName": "倉敷市",
       "reason": "Recent master dataset differs from common baseline"
+    },
+    {
+      "municipalityCode": "33215",
+      "municipalityName": "美作市",
+      "reason": "Current master changed since original cohort selection; preserved separately, excluded from further candidate output"
+    },
+    {
+      "municipalityCode": "33209",
+      "municipalityName": "高梁市",
+      "reason": "Current master changed since original cohort selection; preserved separately, excluded from further candidate output"
+    },
+    {
+      "municipalityCode": "33207",
+      "municipalityName": "井原市",
+      "reason": "Current master changed since original cohort selection; preserved separately, excluded from further candidate output"
     }
   ],
-  "readOnlyMasterObserved": "afa1c415e26f2f63d5d3f2c397b8dcf167f522a6",
-  "currentScope": "33 Okayama,26 municipalities descending33681 to33100; excludes33202 and all53"
+  "readOnlyMasterObserved": "f243827b6176065eaa05dfb6ef65e482b35de6fb",
+  "currentScope": "23 unchanged Okayama municipalities;33202,33207,33209,33215 excluded. Original baseline hashes retained."
 }

@@ -145,3 +145,15 @@ test('Asakuchi partial 2025 events keep cancelled seasons and named locations in
  for(const name of ['みどりの大学（金光地区）','天草学級（鴨方地区）','シーサイド大学（寄島地区）'])assert.equal(ps.filter(p=>p.projectName===name).length,1);
  assert.ok(!ps.some(p=>p.projectName==='金光さつきっ子教室'||p.projectName==='三つ山っ子教室'));assert.ok(ps.some(p=>p.projectName==='子ども週末体験活動'));
 });
+
+test('Maniwa facility counts and assessment criteria never become business identities',()=>{
+ for(const id of ['1ca1d564730b23d7e59a1087','b330d575b5d96682ada63bf3'])assert.equal(run(id).projects.length,0);
+});
+test('Akaiwa adds only four wrapped names and keeps uncertain operating year unknown',()=>{
+ const ps=run('348c5238bd8880b9604f9c0e').projects;assert.equal(ps.length,4);assert.ok(ps.every(p=>p.evaluationYear===2025&&p.evaluatedFiscalYear===null));assert.ok(ps.some(p=>p.projectName==='自治体ＤＸ推進事業（セミセルフレジ、多言語翻訳サービス導入）'));assert.equal(run('b540021397b2c55dcb2a42d5').projects.length,0);
+});
+test('Setouchi explicit businesses do not inherit policy totals or split combined activity outcomes',()=>{
+ for(const [id,year,count] of [['d305acbf2ed8128257145002',2025,13],['cc5b95dfb46915cd3d0a3bff',2024,15],['2184a05521ceaa10c1c77036',2023,13]] as const){
+  const ps=run(id).projects;assert.equal(ps.length,count);assert.ok(ps.every(p=>p.evaluatedFiscalYear===year&&p.evaluationYear===null&&p.amounts.length===0&&p.indicators.length===0));assert.equal(ps.filter(p=>p.projectName==='家計相談支援事業').length,1);assert.ok(!ps.some(p=>p.projectName==='高齢者福祉の推進'));}
+ const partial=run('cc5b95dfb46915cd3d0a3bff').projects.find(p=>p.projectName==='地域移行検討事業')!;assert.ok(partial.warnings.some(w=>w.includes('見送り')));assert.ok(partial.evidence.some(e=>e.rawText?.includes('実\n施を見送りました')));
+});

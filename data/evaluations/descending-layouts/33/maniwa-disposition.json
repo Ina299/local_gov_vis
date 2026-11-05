@@ -1,0 +1,21 @@
+[
+  {
+    "sourceId": "1ca1d564730b23d7e59a1087",
+    "municipalityCode": "33214",
+    "status": "related_facility_assessment_not_business_identity",
+    "fiscalYear": 2021,
+    "evaluationYear": 2022,
+    "facilityNames": 91,
+    "facilityCount": 101,
+    "acceptedBusinessCandidates": 0,
+    "fullTextSha256": "7919441ee48755e861b2f27caea716ded5b92f15b968a0cd4843c5214773e1a3",
+    "missingFact": "Explicit facility-to-individual-business identity; not missing text and not a network denial."
+  },
+  {
+    "sourceId": "b330d575b5d96682ada63bf3",
+    "municipalityCode": "33214",
+    "status": "assessment_criteria_not_individual_record",
+    "acceptedBusinessCandidates": 0,
+    "fullTextSha256": "30d1d32024e6f5885d4c167e8400285524301511f104b36d8f297dadbfa94801"
+  }
+]
