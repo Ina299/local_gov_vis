@@ -1,0 +1,23 @@
+[
+  {
+    "sourceId": "a4798ca1a298a0f8fcef17ef",
+    "rowNumber": 12,
+    "contextStart": 4708,
+    "raw": "中山間地域の水田農業の維持・発\n展を図るため、人・農地プランに 中山間地域の水田農業の維持・発展を図るた\n位置付けられている農業者（認定 め、各地域における中心的な担い手農家を「地\n中山間地域を支える水田農\n12 ○ 農業者、集落営農組織、集落営農 実績なし（事業実施を見送ることとしたため） － 域計画」を深化させながら確保・育成していく 農林水産部 農政企画課 －\n業支援事業補助金\n組織の構成員または認定新規就農 とともに、必要な支援について検討・実施して\n者を除く。）等の農業用機械導入 いく。\nを支援する。",
+    "reason": "Explicitly states implementation deferred and no actual activity; no project execution inferred."
+  },
+  {
+    "sourceId": "a4798ca1a298a0f8fcef17ef",
+    "rowNumber": 19,
+    "contextStart": 7327,
+    "raw": "事業\n意欲と能力のある林業経営体に対 本林業用高性能機器の導入により、原木を低コ\nして、木材生産を通じた持続的な ストで安定的に供給し、木材生産量の増に寄与 意欲と能力のある林業経営体に対し、木材生産\n林業・木材産業強化総合対 林業経営の確立及び原木を低コス 令和７年度へ繰り越し事業のため、令和６年度 するものと考える。 を通じた持続的な林業経営の確立、効率的な林\n19 ○ 農林水産部 林務水産課 －\n策事業費 トで安定的に供給するために、高 実績は無し。 国庫補助事業を活用し、高性能林業機械等の整 業経営、原木供給の低コスト化の推進による競\n性能林業機械等の導入支援を行 備を実施することにより林業の成長産業化が図 争力の強化等を図るため、継続して実施する。\nい、林業の成長産業化を図る。 られている。\nAI、ICTを活用して、新しい木材",
+    "reason": "Explicitly carried to FY2025 with no FY2024 actual activity; do not assign future implementation to FY2024."
+  },
+  {
+    "sourceId": "fd8f8cb63aec7733effa501e",
+    "rowNumber": 4,
+    "contextStart": 1316,
+    "raw": "保険給付費の適正化を図るため、 ・認定調査票の点検、更新・変更認定の訪問調 令和６年度は積極的に住宅改修の着工前確認を\n本人にとっても生活状況の改善につながるため\nウェブサイト等による利用者への 査 8,131件 行った。また、ケアプラン点検数としては目標\n介護給付等費用適正化事業 重要である。今後も令和６年度のように住宅改\n4 適切なサービスの利用についての ・ケアプラン点検 76事業所、417件 値には達しなかったもののケアマネとの面談を 福祉部 長寿社会課 366\n費（事業運営費） 修の着工前確認を積極的に行うとともに、ケア\n啓発、ケアプラン点検や縦覧点検 ・住宅改修執行状況の確認 ５件 通して給付費の適正化につなげることができ\nプラン点検等を通して引き続き給付費の適正化\nなどを実施する。 ・福祉用具購入・貸与調査 １回 た。",
+    "reason": "Alias hold against retained FY2024 candidate cached-31201-98b069308599f7316cb862fd (介護給付適正化事業): same care-plan inspection,417 cases in both sources. Preserve fuller title and source as alternative evidence, do not append a second project or overwrite retained candidate."
+  }
+]

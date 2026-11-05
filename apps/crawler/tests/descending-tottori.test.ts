@@ -23,7 +23,7 @@ test('Tottori proposals require full pinned bodies and literal evidence; no inve
  for(const c of configs){const i=inputs.find(i=>i.sourceId===c.sourceId)!;const r=run(c.sourceId);assert.equal(r.projects.length,c.rows.length);count+=r.projects.length;
  for(const p of r.projects){assert.equal(p.amounts.length,0);assert.equal(p.ratings.length,0);assert.equal(p.indicators.length,0);for(const e of p.evidence){const src=inputs.find(x=>x.sourceUrl===e.sourceUrl)!;const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}
  for(const bad of [{...i,text:i.text+'x'},{...i,truncated:true},{...i,sourceSha256:'x'},{...i,sourceUrl:i.sourceUrl+'x'}])assert.equal(reviewTottori(bad,inputs)!.projects.length,0);
- }assert.equal(count,350);
+ }assert.equal(count,683);
 });
 test('Kofu requires official annual link identity; Daisen keeps fiscal year unknown',()=>{
  const i=inputs.find(x=>x.sourceId==='2bab04fffc69909151f760ca')!;
@@ -33,7 +33,7 @@ test('Kofu requires official annual link identity; Daisen keeps fiscal year unkn
 });
 test('Hiezu and Wakasa distinguish report dates from target years and do not split grouped budgets',()=>{
  const h=run('fbfd32e68a167c9c43d2298c').projects;assert.equal(h.length,35);assert.ok(h.every(p=>p.evaluatedFiscalYear===2024&&p.evaluationYear===2025));
- const w=run('e2285bc27c5e3a125f7bf646').projects;assert.equal(w.length,23);assert.ok(w.every(p=>p.evaluatedFiscalYear===2023&&p.evaluationYear===2024));
+ const w=run('e2285bc27c5e3a125f7bf646').projects;assert.equal(w.length,24);assert.ok(w.every(p=>p.evaluatedFiscalYear===2023&&p.evaluationYear===2024));
  assert.equal(w.filter(p=>p.projectName.includes('自主防災組織')).length,1);
 });
 
@@ -44,4 +44,29 @@ test('Health report date is distinct from assessed year; policy-name mentions ne
  const ps=run('8201ce88da3d08f451e55c33').projects;assert.equal(ps.length,5);assert.ok(ps.every(p=>p.evaluatedFiscalYear===2022&&p.evaluationYear===2024));
  const unknown=run('6fb61a81fa10754a7b1c46f2').projects.find(p=>p.projectName==='生活保護受給者就労支援事業')!;assert.equal(unknown.evaluatedFiscalYear,null);assert.equal(unknown.evaluationYear,null);
  const known=run('6fb61a81fa10754a7b1c46f2').projects.find(p=>p.projectName==='介護給付適正化事業')!;assert.equal(known.evaluatedFiscalYear,2024);
+});
+
+test('Tottori wrapped rows keep literal title fragments, excluding nonexecution, carryover and a proven alias',()=>{
+ const ids=['a4798ca1a298a0f8fcef17ef','fd8f8cb63aec7733effa501e'];
+ const all=ids.flatMap(id=>run(id).projects);
+ assert.ok(!all.some(p=>p.projectName==='中山間地域を支える水田農業支援事業補助金'||p.projectName==='林業・木材産業強化総合対策事業費'||p.projectName==='介護給付等費用適正化事業費（事業運営費）'));
+ assert.ok(all.length>10);assert.ok(all.every(p=>p.evaluatedFiscalYear===2024));
+});
+test('Daisen composite identities retain independent explanation names, target fiscal year and excluded rows',()=>{
+ const r=run('cbf1084567037b6e4e4b44a6');assert.equal(r.projects.length,146);
+ assert.ok(r.projects.some(p=>p.projectName==='こどもと楽しいまちプロジェクト事業【説明名称：こどもと楽しいまちプロジェクト委託料】'));
+ assert.ok(r.projects.some(p=>p.projectName==='こどもと楽しいまちプロジェクト事業【説明名称：こどもと楽しいまちプロジェクト事業補助金】'));
+ assert.ok(r.projects.every(p=>p.evaluatedFiscalYear===2020&&p.evaluationYear===2021));
+ assert.equal(r.units.filter(u=>u.status==='not_evaluation_target').length,21);
+ assert.equal(r.units.filter(u=>u.status==='account_identity_hold').length,1);
+ assert.ok(!r.projects.some(p=>p.projectName.includes('小さな拠点促進支援')));
+});
+test('Daisen composed names reject altered fragment positions, synthetic names and overlapping proof',()=>{
+ const c=tottoriRows.find(c=>c.sourceId==='cbf1084567037b6e4e4b44a6')!;
+ const row=c.rows.find(r=>'composedTitle' in r&&r.composedTitle?.descriptionSegments.length)!;
+ assert.ok('composedTitle' in row&&row.composedTitle);const proof=row.composedTitle!;
+ const savedName=row.name,savedStart=proof.baseSegments[0].start;
+ try{row.name+='inferred';assert.throws(()=>run(c.sourceId),/composed title identity/);}finally{row.name=savedName;}
+ try{proof.baseSegments[0].start++;assert.throws(()=>run(c.sourceId),/composed title evidence/);}finally{proof.baseSegments[0].start=savedStart;}
+ const saved=[...proof.baseSegments];try{proof.baseSegments.push(proof.baseSegments[0]);assert.throws(()=>run(c.sourceId),/composed title identity/);}finally{proof.baseSegments.splice(0,proof.baseSegments.length,...saved);}
 });

@@ -1,0 +1,2912 @@
+[
+  {
+    "number": "1",
+    "baseName": "一般管理費（一般）",
+    "description": "集落コミュニティ活動補助金",
+    "baseSegments": [
+      {
+        "start": 531,
+        "raw": "一般管理費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 541,
+        "raw": "集落コミュニティ活動補助金"
+      }
+    ],
+    "start": 521,
+    "raw": "1 総務課 2 1 一般管理費（一般） 集落コミュニティ活動補助金 11,022 Ａ Ｂ Ｂ Ｂ 維持 維持 維 持 維 持",
+    "department": "総務課",
+    "departmentOffset": 523
+  },
+  {
+    "number": "2",
+    "baseName": "一般管理費（一般）",
+    "description": "特定空家等除却促進事業補助金",
+    "baseSegments": [
+      {
+        "start": 594,
+        "raw": "一般管理費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 604,
+        "raw": "特定空家等除却促進事業補助金"
+      }
+    ],
+    "start": 584,
+    "raw": "2 総務課 2 2 一般管理費（一般） 特定空家等除却促進事業補助金 0 Ａ Ｂ Ａ Ａ 維持 維持 皆 減 休廃止",
+    "department": "総務課",
+    "departmentOffset": 586
+  },
+  {
+    "number": "3",
+    "baseName": "ホームページ管理事業",
+    "description": "ホームページ管理委託料",
+    "baseSegments": [
+      {
+        "start": 651,
+        "raw": "ホームページ管理事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 662,
+        "raw": "ホームページ管理委託料"
+      }
+    ],
+    "start": 643,
+    "raw": "3 総務課 5 ホームページ管理事業 ホームページ管理委託料 366 Ａ Ａ Ａ Ａ 維持 維持 維 持 維 持",
+    "department": "総務課",
+    "departmentOffset": 645
+  },
+  {
+    "number": "4",
+    "baseName": "財産管理費（一般）",
+    "description": "（公用車管理）",
+    "baseSegments": [
+      {
+        "start": 708,
+        "raw": "財産管理費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 718,
+        "raw": "（公用車管理）"
+      }
+    ],
+    "start": 700,
+    "raw": "4 総務課 8 財産管理費（一般） （公用車管理） 3,636 Ａ Ｂ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "総務課",
+    "departmentOffset": 702
+  },
+  {
+    "number": "5",
+    "baseName": "本庁舎管理事業",
+    "description": "宿日直業務委託料",
+    "baseSegments": [
+      {
+        "start": 765,
+        "raw": "本庁舎管理事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 773,
+        "raw": "宿日直業務委託料"
+      }
+    ],
+    "start": 754,
+    "raw": "5 総務課 1205 本庁舎管理事業 宿日直業務委託料 4,366 Ａ Ｂ Ｂ Ｂ 維持 維持 維 持 維 持",
+    "department": "総務課",
+    "departmentOffset": 756
+  },
+  {
+    "number": "6",
+    "baseName": "電子計算費（一般）",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 959,
+        "raw": "電子計算費（一般）"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 950,
+    "raw": "6 総務課 30 電子計算費（一般） 130,864 Ａ Ａ Ｂ Ｂ 縮小 拡充 縮 小 拡 充",
+    "department": "総務課",
+    "departmentOffset": 952
+  },
+  {
+    "number": "7",
+    "baseName": "情報通信事業",
+    "description": "大山チャンネル作成委託料",
+    "baseSegments": [
+      {
+        "start": 1008,
+        "raw": "情報通信事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 1015,
+        "raw": "大山チャンネル作成委託料"
+      }
+    ],
+    "start": 999,
+    "raw": "7 総務課 11 情報通信事業 大山チャンネル作成委託料 30,008 Ｂ Ａ Ｂ Ｂ 維持 拡充 維 持 拡 充",
+    "department": "総務課",
+    "departmentOffset": 1001
+  },
+  {
+    "number": "8",
+    "baseName": "自主防災組織育成事業",
+    "description": "自主防災組織育成補助金",
+    "baseSegments": [
+      {
+        "start": 1067,
+        "raw": "自主防災組織育成事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 1078,
+        "raw": "自主防災組織育成補助金"
+      }
+    ],
+    "start": 1057,
+    "raw": "8 総務課 749 自主防災組織育成事業 自主防災組織育成補助金 3,021 Ａ Ｂ Ｂ Ｂ 維持 維持 維 持 拡 充",
+    "department": "総務課",
+    "departmentOffset": 1059
+  },
+  {
+    "number": "9",
+    "baseName": "消防施設費（一般）",
+    "description": "消防施設整備費補助金",
+    "baseSegments": [
+      {
+        "start": 1128,
+        "raw": "消防施設費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 1138,
+        "raw": "消防施設整備費補助金"
+      }
+    ],
+    "start": 1118,
+    "raw": "9 総務課 275 消防施設費（一般） 消防施設整備費補助金 4,131 Ａ Ａ Ｂ Ａ 縮小 維持 縮 小 維 持",
+    "department": "総務課",
+    "departmentOffset": 1120
+  },
+  {
+    "number": "10",
+    "baseName": "ふるさと応援基金事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 1188,
+        "raw": "ふるさと応援基金事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 1177,
+    "raw": "10 企画課 839 ふるさと応援基金事業 419,638 Ａ Ａ Ｂ Ｂ 拡大 拡充 維 持 維 持",
+    "department": "企画課",
+    "departmentOffset": 1180
+  },
+  {
+    "number": "11",
+    "baseName": "鳥取大学連携事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 1241,
+        "raw": "鳥取大学連携事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 1229,
+    "raw": "11 企画課 1255 鳥取大学連携事業 36 Ａ Ｂ Ａ Ａ 維持 維持 維 持 拡 充",
+    "department": "企画課",
+    "departmentOffset": 1232
+  },
+  {
+    "number": "12",
+    "baseName": "こどもと楽しいまちプロジェクト事業",
+    "description": "こどもと楽しいまちプロジェクト委託料",
+    "baseSegments": [
+      {
+        "start": 1275,
+        "raw": "こどもと楽しいまちプロ"
+      },
+      {
+        "start": 1342,
+        "raw": "ジェクト事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 1287,
+        "raw": "こどもと楽しいまちプロジェクト委"
+      },
+      {
+        "start": 1349,
+        "raw": "託料"
+      }
+    ],
+    "start": 1275,
+    "raw": "こどもと楽しいまちプロ こどもと楽しいまちプロジェクト委\n12 企画課 1341 1 0 Ａ Ｂ Ａ Ａ 維持 維持 皆 減 休廃止\nジェクト事業 託料",
+    "department": "企画課",
+    "departmentOffset": 1307
+  },
+  {
+    "number": "13",
+    "baseName": "こどもと楽しいまちプロジェクト事業",
+    "description": "こどもと楽しいまちプロジェクト事業補助金",
+    "baseSegments": [
+      {
+        "start": 1352,
+        "raw": "こどもと楽しいまちプロ"
+      },
+      {
+        "start": 1419,
+        "raw": "ジェクト事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 1364,
+        "raw": "こどもと楽しいまちプロジェクト事"
+      },
+      {
+        "start": 1426,
+        "raw": "業補助金"
+      }
+    ],
+    "start": 1352,
+    "raw": "こどもと楽しいまちプロ こどもと楽しいまちプロジェクト事\n13 企画課 1341 2 0 Ａ Ｂ Ａ Ａ 維持 維持 皆 減 休廃止\nジェクト事業 業補助金",
+    "department": "企画課",
+    "departmentOffset": 1384
+  },
+  {
+    "number": "14",
+    "baseName": "国際交流事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 1443,
+        "raw": "国際交流事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 1431,
+    "raw": "14 社会教育課 12 国際交流事業 0 Ａ Ｂ Ｂ Ｂ 維持 拡充 維 持 維 持",
+    "department": "社会教育課",
+    "departmentOffset": 1434
+  },
+  {
+    "number": "15",
+    "baseName": "だいせんファンクラブ事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 1614,
+        "raw": "だいせんファンクラブ事"
+      },
+      {
+        "start": 1664,
+        "raw": "業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 1614,
+    "raw": "だいせんファンクラブ事\n15 企画課 14 202 Ａ Ｂ Ｂ Ｂ 維持 維持 維 持 維 持 ●\n業",
+    "department": "企画課",
+    "departmentOffset": 1629
+  },
+  {
+    "number": "16",
+    "baseName": "大山恵みの里プロジェクト推進事業",
+    "description": "大山恵みの里づくり促進事業補助金",
+    "baseSegments": [
+      {
+        "start": 1666,
+        "raw": "大山恵みの里プロジェク"
+      },
+      {
+        "start": 1735,
+        "raw": "ト推進事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 1689,
+        "raw": "大山恵みの里づくり促進事業補助金"
+      }
+    ],
+    "start": 1666,
+    "raw": "大山恵みの里プロジェク\n16 企画課 628 大山恵みの里づくり促進事業補助金 15,430 Ｃ Ｃ Ｃ Ｃ 維持 維持 縮 小 拡 充\nト推進事業",
+    "department": "企画課",
+    "departmentOffset": 1681
+  },
+  {
+    "number": "18",
+    "baseName": "地域自主組織育成支援事業",
+    "description": "地域自主組織育成支援事業補助金",
+    "baseSegments": [
+      {
+        "start": 1741,
+        "raw": "地域自主組織育成支援事"
+      },
+      {
+        "start": 1811,
+        "raw": "業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 1766,
+        "raw": "地域自主組織育成支援事業補助金"
+      }
+    ],
+    "start": 1741,
+    "raw": "地域自主組織育成支援事\n18 企画課 765 2 地域自主組織育成支援事業補助金 29,917 Ａ Ａ Ｂ Ｂ 維持 維持 維 持 維 持\n業",
+    "department": "企画課",
+    "departmentOffset": 1756
+  },
+  {
+    "number": "19",
+    "baseName": "地域自主組織育成支援事業",
+    "description": "大山町まちづくり活性化交付金",
+    "baseSegments": [
+      {
+        "start": 1813,
+        "raw": "地域自主組織育成支援事"
+      },
+      {
+        "start": 1881,
+        "raw": "業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 1838,
+        "raw": "大山町まちづくり活性化交付金"
+      }
+    ],
+    "start": 1813,
+    "raw": "地域自主組織育成支援事\n19 企画課 765 3 大山町まちづくり活性化交付金 7,213 Ａ Ａ Ｂ Ｂ 維持 維持 維 持 維 持\n業",
+    "department": "企画課",
+    "departmentOffset": 1828
+  },
+  {
+    "number": "20",
+    "baseName": "地域自主組織育成支援事業",
+    "description": "みんなで取り組む中山間地域計画づくり支援事業費補助金",
+    "baseSegments": [
+      {
+        "start": 1883,
+        "raw": "地域自主組織育成支援事"
+      },
+      {
+        "start": 1953,
+        "raw": "業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 1895,
+        "raw": "みんなで取り組む中山間地域計画づ"
+      },
+      {
+        "start": 1955,
+        "raw": "くり支援事業費補助金"
+      }
+    ],
+    "start": 1883,
+    "raw": "地域自主組織育成支援事 みんなで取り組む中山間地域計画づ\n20 企画課 765 4 2,000 Ａ Ａ Ｂ Ａ 維持 維持 皆 減 休廃止\n業 くり支援事業費補助金",
+    "department": "企画課",
+    "departmentOffset": 1915
+  },
+  {
+    "number": "21",
+    "baseName": "移住定住促進事業",
+    "description": "移住マッチングモデル推進事業委託料",
+    "baseSegments": [
+      {
+        "start": 1996,
+        "raw": "移住定住促進事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 1966,
+        "raw": "移住マッチングモデル推進事業委託"
+      },
+      {
+        "start": 2033,
+        "raw": "料"
+      }
+    ],
+    "start": 1966,
+    "raw": "移住マッチングモデル推進事業委託\n21 企画課 817 1 移住定住促進事業 1,505 Ａ Ｂ Ｂ Ｂ 維持 拡充 維 持 拡 充\n料",
+    "department": "企画課",
+    "departmentOffset": 1986
+  },
+  {
+    "number": "22",
+    "baseName": "移住定住促進事業",
+    "description": "大山暮らし体験助成金",
+    "baseSegments": [
+      {
+        "start": 2048,
+        "raw": "移住定住促進事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 2057,
+        "raw": "大山暮らし体験助成金"
+      }
+    ],
+    "start": 2035,
+    "raw": "22 企画課 817 2 移住定住促進事業 大山暮らし体験助成金 12 Ｂ Ｃ Ｃ Ｃ 縮小 縮小 皆 減 休廃止",
+    "department": "企画課",
+    "departmentOffset": 2038
+  },
+  {
+    "number": "23",
+    "baseName": "移住定住促進事業",
+    "description": "移住者受入交流奨励金",
+    "baseSegments": [
+      {
+        "start": 2106,
+        "raw": "移住定住促進事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 2115,
+        "raw": "移住者受入交流奨励金"
+      }
+    ],
+    "start": 2093,
+    "raw": "23 企画課 817 3 移住定住促進事業 移住者受入交流奨励金 50 Ｂ Ｃ Ｃ Ｃ 皆減 休廃止 皆 減 休廃止",
+    "department": "企画課",
+    "departmentOffset": 2096
+  },
+  {
+    "number": "24",
+    "baseName": "移住定住促進事業",
+    "description": "移住定住助成金",
+    "baseSegments": [
+      {
+        "start": 2165,
+        "raw": "移住定住促進事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 2174,
+        "raw": "移住定住助成金"
+      }
+    ],
+    "start": 2152,
+    "raw": "24 企画課 817 4 移住定住促進事業 移住定住助成金 6,778 Ａ Ｂ Ａ Ａ 維持 維持 維 持 維 持",
+    "department": "企画課",
+    "departmentOffset": 2155
+  },
+  {
+    "number": "25",
+    "baseName": "結婚対策推進事業",
+    "description": "負担金",
+    "baseSegments": [
+      {
+        "start": 2362,
+        "raw": "結婚対策推進事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 2371,
+        "raw": "負担金"
+      }
+    ],
+    "start": 2350,
+    "raw": "25 企画課 1057 結婚対策推進事業 負担金 80 Ａ Ａ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "企画課",
+    "departmentOffset": 2353
+  },
+  {
+    "number": "26",
+    "baseName": "集落支援員活用事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 2412,
+        "raw": "集落支援員活用事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 2400,
+    "raw": "26 企画課 1189 集落支援員活用事業 17,513 Ａ Ａ Ｂ Ｂ 維持 維持 維 持 維 持",
+    "department": "企画課",
+    "departmentOffset": 2403
+  },
+  {
+    "number": "27",
+    "baseName": "デマンドバス事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 2461,
+        "raw": "デマンドバス事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 2451,
+    "raw": "27 企画課 33 デマンドバス事業 28,319 A B A Ｂ 維持 維持 維 持 維 持 ●",
+    "department": "企画課",
+    "departmentOffset": 2454
+  },
+  {
+    "number": "28",
+    "baseName": "先端技術社会実装事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 2513,
+        "raw": "先端技術社会実装事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 2501,
+    "raw": "28 企画課 1371 先端技術社会実装事業 1,282 Ａ Ａ Ａ Ｄ 皆減 休廃止 皆 減 休廃止",
+    "department": "企画課",
+    "departmentOffset": 2504
+  },
+  {
+    "number": "29",
+    "baseName": "坂農産物処理加工所管理事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 2553,
+        "raw": "坂農産物処理加工所管"
+      },
+      {
+        "start": 2602,
+        "raw": "理事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 2553,
+    "raw": "坂農産物処理加工所管\n29 企画課 1104 731 Ａ Ｂ Ｂ Ｂ 維持 維持 維 持 維 持\n理事業",
+    "department": "企画課",
+    "departmentOffset": 2567
+  },
+  {
+    "number": "30",
+    "baseName": "地域自主組織等施設管理事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 2606,
+        "raw": "地域自主組織等施設管理"
+      },
+      {
+        "start": 2658,
+        "raw": "事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 2606,
+    "raw": "地域自主組織等施設管理\n30 企画課 1199 6,694 Ｃ Ｂ Ｂ Ｂ 維持 維持 維 持 維 持\n事業",
+    "department": "企画課",
+    "departmentOffset": 2621
+  },
+  {
+    "number": "31",
+    "baseName": "商工振興費（一般）",
+    "description": "町商工会補助金",
+    "baseSegments": [
+      {
+        "start": 2672,
+        "raw": "商工振興費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 2682,
+        "raw": "町商工会補助金"
+      }
+    ],
+    "start": 2661,
+    "raw": "31 企画課 251 商工振興費（一般） 町商工会補助金 5,000 Ａ Ａ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "企画課",
+    "departmentOffset": 2664
+  },
+  {
+    "number": "33",
+    "baseName": "社会福祉総務費（一般）",
+    "description": "町遺族会補助金",
+    "baseSegments": [
+      {
+        "start": 2728,
+        "raw": "社会福祉総務費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 2740,
+        "raw": "町遺族会補助金"
+      }
+    ],
+    "start": 2718,
+    "raw": "33 住民課 76 社会福祉総務費（一般） 町遺族会補助金 177 Ａ Ｂ Ａ Ａ 維持 維持 維 持 維 持",
+    "department": "住民課",
+    "departmentOffset": 2721
+  },
+  {
+    "number": "34",
+    "baseName": "公害対策事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 2785,
+        "raw": "公害対策事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 2774,
+    "raw": "34 住民課 163 公害対策事業 1,544 Ａ Ａ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "住民課",
+    "departmentOffset": 2777
+  },
+  {
+    "number": "35",
+    "baseName": "野良猫不妊・去勢手術支援事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 2960,
+        "raw": "野良猫不妊・去勢手術支"
+      },
+      {
+        "start": 3009,
+        "raw": "援事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 2960,
+    "raw": "野良猫不妊・去勢手術支\n35 住民課 1293 15 Ａ Ｂ Ａ Ａ 維持 維持 維 持 維 持\n援事業",
+    "department": "住民課",
+    "departmentOffset": 2975
+  },
+  {
+    "number": "36’1",
+    "baseName": "社会福祉総務費（一般）ほか",
+    "description": "地域福祉ネットワーク事業委託料",
+    "baseSegments": [
+      {
+        "start": 3013,
+        "raw": "社会福祉総務費（一般）"
+      },
+      {
+        "start": 3085,
+        "raw": "ほか"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 3041,
+        "raw": "地域福祉ネットワーク事業委託料"
+      }
+    ],
+    "start": 3013,
+    "raw": "社会福祉総務費（一般）\n36’1 福祉介護課 76 1 地域福祉ネットワーク事業委託料 1,247 Ａ Ａ Ｂ Ａ 維持 維持 維 持 維 持\nほか",
+    "department": "福祉介護課",
+    "departmentOffset": 3030
+  },
+  {
+    "number": "36’2",
+    "baseName": "社会福祉総務費（一般）ほか",
+    "description": "町社会福祉協議会補助金",
+    "baseSegments": [
+      {
+        "start": 3088,
+        "raw": "社会福祉総務費（一般）"
+      },
+      {
+        "start": 3157,
+        "raw": "ほか"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 3116,
+        "raw": "町社会福祉協議会補助金"
+      }
+    ],
+    "start": 3088,
+    "raw": "社会福祉総務費（一般）\n36’2 福祉介護課 76 1 町社会福祉協議会補助金 28,969 Ａ Ａ Ｂ Ａ 維持 維持 維 持 維 持\nほか",
+    "department": "福祉介護課",
+    "departmentOffset": 3105
+  },
+  {
+    "number": "36’3",
+    "baseName": "社会福祉総務費（一般）ほか",
+    "description": "支え愛事業分",
+    "baseSegments": [
+      {
+        "start": 3160,
+        "raw": "社会福祉総務費（一般）"
+      },
+      {
+        "start": 3220,
+        "raw": "ほか"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 3188,
+        "raw": "支え愛事業分"
+      }
+    ],
+    "start": 3160,
+    "raw": "社会福祉総務費（一般）\n36’3 福祉介護課 76 1 支え愛事業分 75 Ａ Ｂ Ａ Ａ 維持 維持 維 持 維 持\nほか",
+    "department": "福祉介護課",
+    "departmentOffset": 3177
+  },
+  {
+    "number": "37",
+    "baseName": "社会福祉総務費（一般）",
+    "description": "避難行動要支援者台帳システム保守委託料",
+    "baseSegments": [
+      {
+        "start": 3254,
+        "raw": "社会福祉総務費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 3223,
+        "raw": "避難行動要支援者台帳システム保守"
+      },
+      {
+        "start": 3292,
+        "raw": "委託料"
+      }
+    ],
+    "start": 3223,
+    "raw": "避難行動要支援者台帳システム保守\n37 福祉介護課 76 2 社会福祉総務費（一般） 251 Ａ Ｂ Ｂ Ｂ 縮小 拡充 縮 小 拡 充\n委託料",
+    "department": "福祉介護課",
+    "departmentOffset": 3243
+  },
+  {
+    "number": "38",
+    "baseName": "タクシー助成事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 3307,
+        "raw": "タクシー助成事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 3296,
+    "raw": "38 企画課 531 タクシー助成事業 2,880 Ａ Ｂ Ｂ Ｂ 縮小 維持 維 持 維 持 ●",
+    "department": "企画課",
+    "departmentOffset": 3299
+  },
+  {
+    "number": "39",
+    "baseName": "長寿祝金",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 3358,
+        "raw": "長寿祝金"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 3346,
+    "raw": "39 福祉介護課 88 長寿祝金 1,390 Ａ Ｂ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "福祉介護課",
+    "departmentOffset": 3349
+  },
+  {
+    "number": "40",
+    "baseName": "シルバー交付金",
+    "description": "輝くシルバー交付金",
+    "baseSegments": [
+      {
+        "start": 3405,
+        "raw": "シルバー交付金"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 3413,
+        "raw": "輝くシルバー交付金"
+      }
+    ],
+    "start": 3391,
+    "raw": "40 福祉介護課 1315 シルバー交付金 輝くシルバー交付金 6,061 Ａ Ｂ Ａ Ａ 維持 維持 維 持 維 持",
+    "department": "福祉介護課",
+    "departmentOffset": 3394
+  },
+  {
+    "number": "41",
+    "baseName": "同和対策費（一般）",
+    "description": "地区活動費補助金",
+    "baseSegments": [
+      {
+        "start": 3463,
+        "raw": "同和対策費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 3473,
+        "raw": "地区活動費補助金"
+      }
+    ],
+    "start": 3451,
+    "raw": "41 福祉介護課 98 同和対策費（一般） 地区活動費補助金 1,002 Ａ Ｂ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "福祉介護課",
+    "departmentOffset": 3454
+  },
+  {
+    "number": "42",
+    "baseName": "各種団体等運営費補助事業",
+    "description": "町身体障害者福祉協会補助金",
+    "baseSegments": [
+      {
+        "start": 3650,
+        "raw": "各種団体等運営費補助事"
+      },
+      {
+        "start": 3717,
+        "raw": "業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 3677,
+        "raw": "町身体障害者福祉協会補助金"
+      }
+    ],
+    "start": 3650,
+    "raw": "各種団体等運営費補助事\n42 福祉介護課 116 1 町身体障害者福祉協会補助金 458 Ａ Ｂ Ｂ Ｂ 維持 維持 維 持 維 持\n業",
+    "department": "福祉介護課",
+    "departmentOffset": 3665
+  },
+  {
+    "number": "43",
+    "baseName": "各種団体等運営費補助事業",
+    "description": "障害者グループホーム夜間世話人等配置事業補助金",
+    "baseSegments": [
+      {
+        "start": 3719,
+        "raw": "各種団体等運営費補助事"
+      },
+      {
+        "start": 3791,
+        "raw": "業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 3731,
+        "raw": "障害者グループホーム夜間世話人等"
+      },
+      {
+        "start": 3793,
+        "raw": "配置事業補助金"
+      }
+    ],
+    "start": 3719,
+    "raw": "各種団体等運営費補助事 障害者グループホーム夜間世話人等\n43 福祉介護課 116 2 1,006 Ａ Ａ Ａ Ａ 維持 維持 維 持 維 持\n業 配置事業補助金",
+    "department": "福祉介護課",
+    "departmentOffset": 3751
+  },
+  {
+    "number": "44",
+    "baseName": "あすなろクラブ",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 3814,
+        "raw": "あすなろクラブ"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 3801,
+    "raw": "44 福祉介護課 787 あすなろクラブ 2,341 Ａ Ａ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "福祉介護課",
+    "departmentOffset": 3804
+  },
+  {
+    "number": "45",
+    "baseName": "同和教育費（一般）",
+    "description": "町同和教育推進協議会補助金",
+    "baseSegments": [
+      {
+        "start": 3865,
+        "raw": "同和教育費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 3875,
+        "raw": "町同和教育推進協議会補助金"
+      }
+    ],
+    "start": 3850,
+    "raw": "45 福祉介護課 335 1 同和教育費（一般） 町同和教育推進協議会補助金 2,000 Ａ Ａ Ｂ Ｂ 拡大 拡充 維 持 維 持",
+    "department": "福祉介護課",
+    "departmentOffset": 3853
+  },
+  {
+    "number": "46",
+    "baseName": "同和教育費（一般）",
+    "description": "進学奨励交付金",
+    "baseSegments": [
+      {
+        "start": 3932,
+        "raw": "同和教育費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 3942,
+        "raw": "進学奨励交付金"
+      }
+    ],
+    "start": 3917,
+    "raw": "46 福祉介護課 335 2 同和教育費（一般） 進学奨励交付金 300 Ｂ Ｃ Ｂ Ｃ 縮小 縮小 縮 小 縮 小",
+    "department": "福祉介護課",
+    "departmentOffset": 3920
+  },
+  {
+    "number": "47",
+    "baseName": "同和教育費（一般）",
+    "description": "全国人権・同和教育研究大会旅費補助金",
+    "baseSegments": [
+      {
+        "start": 4008,
+        "raw": "同和教育費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 3976,
+        "raw": "全国人権・同和教育研究大会旅費補"
+      },
+      {
+        "start": 4042,
+        "raw": "助金"
+      }
+    ],
+    "start": 3976,
+    "raw": "全国人権・同和教育研究大会旅費補\n47 福祉介護課 335 3 同和教育費（一般） 0 Ａ Ａ Ｂ Ａ 維持 維持 維 持 維 持\n助金",
+    "department": "福祉介護課",
+    "departmentOffset": 3996
+  },
+  {
+    "number": "49",
+    "baseName": "予防接種事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 4058,
+        "raw": "予防接種事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 4045,
+    "raw": "49 健康対策課 153 予防接種事業 19,966 Ａ Ｂ Ｂ Ａ 維持 維持 拡 大 拡 充",
+    "department": "健康対策課",
+    "departmentOffset": 4048
+  },
+  {
+    "number": "50",
+    "baseName": "健康づくり推進事業",
+    "description": "脳ドック助成事業",
+    "baseSegments": [
+      {
+        "start": 4107,
+        "raw": "健康づくり推進事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 4117,
+        "raw": "脳ドック助成事業"
+      }
+    ],
+    "start": 4094,
+    "raw": "50 健康対策課 155 健康づくり推進事業 脳ドック助成事業 385 Ｂ Ｂ Ｂ Ｂ 維持 拡充 拡 大 拡 充",
+    "department": "健康対策課",
+    "departmentOffset": 4097
+  },
+  {
+    "number": "51",
+    "baseName": "疾病予防費",
+    "description": "疾病予防費（人間ドック助成）",
+    "baseSegments": [
+      {
+        "start": 4165,
+        "raw": "疾病予防費"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 4171,
+        "raw": "疾病予防費（人間ドック助成）"
+      }
+    ],
+    "start": 4152,
+    "raw": "51 健康対策課 491 疾病予防費 疾病予防費（人間ドック助成） 1,787 Ａ Ｂ Ｂ Ｂ 維持 拡充 拡 大 拡 充",
+    "department": "健康対策課",
+    "departmentOffset": 4155
+  },
+  {
+    "number": "54",
+    "baseName": "農業振興費（一般）",
+    "description": "営農協議会補助金",
+    "baseSegments": [
+      {
+        "start": 5040,
+        "raw": "農業振興費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 5050,
+        "raw": "営農協議会補助金"
+      }
+    ],
+    "start": 5027,
+    "raw": "54 農林水産課 182 農業振興費（一般） 営農協議会補助金 0 Ａ Ｂ Ｂ Ｂ 維持 維持 維 持 維 持",
+    "department": "農林水産課",
+    "departmentOffset": 5030
+  },
+  {
+    "number": "55",
+    "baseName": "野生鳥獣被害防止事業",
+    "description": "野生鳥獣被害防止柵設置事業補助金",
+    "baseSegments": [
+      {
+        "start": 5096,
+        "raw": "野生鳥獣被害防止事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 5107,
+        "raw": "野生鳥獣被害防止柵設置事業補助金"
+      }
+    ],
+    "start": 5083,
+    "raw": "55 農林水産課 187 野生鳥獣被害防止事業 野生鳥獣被害防止柵設置事業補助金 1,889 Ａ Ａ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "農林水産課",
+    "departmentOffset": 5086
+  },
+  {
+    "number": "56",
+    "baseName": "果樹共済掛金助成事業",
+    "description": "果樹共済掛金農家負担助成補助金",
+    "baseSegments": [
+      {
+        "start": 5165,
+        "raw": "果樹共済掛金助成事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 5176,
+        "raw": "果樹共済掛金農家負担助成補助金"
+      }
+    ],
+    "start": 5152,
+    "raw": "56 農林水産課 625 果樹共済掛金助成事業 果樹共済掛金農家負担助成補助金 195 Ａ Ｂ Ｂ Ａ 維持 維持 縮 小 維 持",
+    "department": "農林水産課",
+    "departmentOffset": 5155
+  },
+  {
+    "number": "58",
+    "baseName": "耕畜連携推進事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 5232,
+        "raw": "耕畜連携推進事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 5218,
+    "raw": "58 農林水産課 1193 耕畜連携推進事業 1,911 Ａ Ａ Ｂ Ａ 維持 維持 維 持 維 持 ●",
+    "department": "農林水産課",
+    "departmentOffset": 5221
+  },
+  {
+    "number": "59",
+    "baseName": "畜産業費（一般）",
+    "description": "性判別精液導入事業補助金",
+    "baseSegments": [
+      {
+        "start": 5286,
+        "raw": "畜産業費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 5295,
+        "raw": "性判別精液導入事業補助金"
+      }
+    ],
+    "start": 5271,
+    "raw": "59 農林水産課 208 1 畜産業費（一般） 性判別精液導入事業補助金 2,000 Ａ Ａ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "農林水産課",
+    "departmentOffset": 5274
+  },
+  {
+    "number": "60",
+    "baseName": "畜産業費（一般）",
+    "description": "優良雌牛導入保留奨励事業補助金",
+    "baseSegments": [
+      {
+        "start": 5351,
+        "raw": "畜産業費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 5360,
+        "raw": "優良雌牛導入保留奨励事業補助金"
+      }
+    ],
+    "start": 5336,
+    "raw": "60 農林水産課 208 2 畜産業費（一般） 優良雌牛導入保留奨励事業補助金 800 Ａ Ａ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "農林水産課",
+    "departmentOffset": 5339
+  },
+  {
+    "number": "61",
+    "baseName": "畜産業費（一般）",
+    "description": "乳牛共進会補助金",
+    "baseSegments": [
+      {
+        "start": 5417,
+        "raw": "畜産業費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 5426,
+        "raw": "乳牛共進会補助金"
+      }
+    ],
+    "start": 5402,
+    "raw": "61 農林水産課 208 3 畜産業費（一般） 乳牛共進会補助金 0 Ａ Ａ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "農林水産課",
+    "departmentOffset": 5405
+  },
+  {
+    "number": "62",
+    "baseName": "単町土地改良事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 5472,
+        "raw": "単町土地改良事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 5459,
+    "raw": "62 農林水産課 213 単町土地改良事業 11,273 Ａ Ａ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "農林水産課",
+    "departmentOffset": 5462
+  },
+  {
+    "number": "65",
+    "baseName": "御来屋漁港水産物直販所管理費",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 5510,
+        "raw": "御来屋漁港水産物直販所"
+      },
+      {
+        "start": 5563,
+        "raw": "管理費"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 5510,
+    "raw": "御来屋漁港水産物直販所\n65 農林水産課 865 2,654 Ａ Ｂ Ｂ Ｂ 縮小 拡充 縮 小 拡 充\n管理費",
+    "department": "農林水産課",
+    "departmentOffset": 5525
+  },
+  {
+    "number": "66",
+    "baseName": "漁港区域漂着物処理事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 5720,
+        "raw": "漁港区域漂着物処理事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 5707,
+    "raw": "66 農林水産課 994 漁港区域漂着物処理事業 998 Ａ Ａ Ａ Ａ 維持 維持 拡 大 拡 充",
+    "department": "農林水産課",
+    "departmentOffset": 5710
+  },
+  {
+    "number": "68",
+    "baseName": "観光費（一般）",
+    "description": "温泉活用促進補助金",
+    "baseSegments": [
+      {
+        "start": 5771,
+        "raw": "観光費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 5779,
+        "raw": "温泉活用促進補助金"
+      }
+    ],
+    "start": 5758,
+    "raw": "68 観光課 252 1 観光費（一般） 温泉活用促進補助金 259 Ａ Ａ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "観光課",
+    "departmentOffset": 5761
+  },
+  {
+    "number": "69",
+    "baseName": "観光費（一般）",
+    "description": "大山僧兵太鼓保存会補助金",
+    "baseSegments": [
+      {
+        "start": 5828,
+        "raw": "観光費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 5836,
+        "raw": "大山僧兵太鼓保存会補助金"
+      }
+    ],
+    "start": 5815,
+    "raw": "69 観光課 252 2 観光費（一般） 大山僧兵太鼓保存会補助金 70 Ａ Ｂ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "観光課",
+    "departmentOffset": 5818
+  },
+  {
+    "number": "70",
+    "baseName": "観光費（一般）",
+    "description": "イベント補助金",
+    "baseSegments": [
+      {
+        "start": 5887,
+        "raw": "観光費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 5895,
+        "raw": "イベント補助金"
+      }
+    ],
+    "start": 5874,
+    "raw": "70 観光課 252 3 観光費（一般） イベント補助金 441 Ｃ Ｂ Ｃ Ｃ 縮小 維持 縮 小 維 持",
+    "department": "観光課",
+    "departmentOffset": 5877
+  },
+  {
+    "number": "72",
+    "baseName": "観光費（一般）",
+    "description": "マラソンフェスタ補助金",
+    "baseSegments": [
+      {
+        "start": 5942,
+        "raw": "観光費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 5950,
+        "raw": "マラソンフェスタ補助金"
+      }
+    ],
+    "start": 5929,
+    "raw": "72 観光課 252 5 観光費（一般） マラソンフェスタ補助金 2,600 Ａ Ｂ Ｃ Ｂ 縮小 拡充 皆 減 休廃止",
+    "department": "観光課",
+    "departmentOffset": 5932
+  },
+  {
+    "number": "73",
+    "baseName": "観光費（一般）",
+    "description": "大山町コンベンション等開催支援助成金",
+    "baseSegments": [
+      {
+        "start": 6020,
+        "raw": "観光費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 5990,
+        "raw": "大山町コンベンション等開催支援助"
+      },
+      {
+        "start": 6054,
+        "raw": "成金"
+      }
+    ],
+    "start": 5990,
+    "raw": "大山町コンベンション等開催支援助\n73 観光課 252 6 観光費（一般） 275 Ａ Ｂ Ｂ Ｂ 維持 拡充 皆 減 休廃止\n成金",
+    "department": "観光課",
+    "departmentOffset": 6010
+  },
+  {
+    "number": "74",
+    "baseName": "保健体育総務費（一般）",
+    "description": "紅葉カップソフトバレー大会補助金",
+    "baseSegments": [
+      {
+        "start": 6070,
+        "raw": "保健体育総務費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 6082,
+        "raw": "紅葉カップソフトバレー大会補助金"
+      }
+    ],
+    "start": 6057,
+    "raw": "74 観光課 340 1 保健体育総務費（一般） 紅葉カップソフトバレー大会補助金 0 Ａ Ｂ Ｂ Ｂ 縮小 維持 維 持 拡 充",
+    "department": "観光課",
+    "departmentOffset": 6060
+  },
+  {
+    "number": "75",
+    "baseName": "保健体育総務費（一般）",
+    "description": "国体記念スキー大会補助金",
+    "baseSegments": [
+      {
+        "start": 6136,
+        "raw": "保健体育総務費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 6148,
+        "raw": "国体記念スキー大会補助金"
+      }
+    ],
+    "start": 6123,
+    "raw": "75 観光課 340 2 保健体育総務費（一般） 国体記念スキー大会補助金 0 Ｃ Ｃ Ｃ Ｃ 縮小 縮小 縮 小 縮 小",
+    "department": "観光課",
+    "departmentOffset": 6126
+  },
+  {
+    "number": "76",
+    "baseName": "スキー場サービスセンター",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 6185,
+        "raw": "スキー場サービスセン"
+      },
+      {
+        "start": 6233,
+        "raw": "ター"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 6185,
+    "raw": "スキー場サービスセン\n76 観光課 751 536 Ａ Ｂ Ａ Ａ 維持 維持 維 持 維 持\nター",
+    "department": "観光課",
+    "departmentOffset": 6199
+  },
+  {
+    "number": "77",
+    "baseName": "SEA TO SUMMIT事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 6388,
+        "raw": "SEA TO SUMMIT事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 6376,
+    "raw": "77 観光課 1092 SEA TO SUMMIT事業 465 Ａ Ａ Ｂ Ｂ 維持 維持 維 持 維 持",
+    "department": "観光課",
+    "departmentOffset": 6379
+  },
+  {
+    "number": "78",
+    "baseName": "大山町観光協会支援事業",
+    "description": "観光案内業務委託料",
+    "baseSegments": [
+      {
+        "start": 6444,
+        "raw": "大山町観光協会支援事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 6456,
+        "raw": "観光案内業務委託料"
+      }
+    ],
+    "start": 6430,
+    "raw": "78 観光課 1211 1 大山町観光協会支援事業 観光案内業務委託料 11,621 Ａ Ｂ Ｂ Ａ 維持 拡充 縮 小 維 持",
+    "department": "観光課",
+    "departmentOffset": 6433
+  },
+  {
+    "number": "79",
+    "baseName": "大山町観光協会支援事業",
+    "description": "大山ツアーデスク運営補助金",
+    "baseSegments": [
+      {
+        "start": 6509,
+        "raw": "大山町観光協会支援事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 6521,
+        "raw": "大山ツアーデスク運営補助金"
+      }
+    ],
+    "start": 6495,
+    "raw": "79 観光課 1211 2 大山町観光協会支援事業 大山ツアーデスク運営補助金 3,200 Ｃ Ｂ Ｂ Ｂ 縮小 拡充 縮 小 拡 充",
+    "department": "観光課",
+    "departmentOffset": 6498
+  },
+  {
+    "number": "80",
+    "baseName": "大山町観光協会支援事業",
+    "description": "大山町観光協会補助金",
+    "baseSegments": [
+      {
+        "start": 6577,
+        "raw": "大山町観光協会支援事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 6589,
+        "raw": "大山町観光協会補助金"
+      }
+    ],
+    "start": 6563,
+    "raw": "80 観光課 1211 3 大山町観光協会支援事業 大山町観光協会補助金 778 Ｃ Ｂ Ｃ Ｂ 維持 拡充 維 持 維 持",
+    "department": "観光課",
+    "departmentOffset": 6566
+  },
+  {
+    "number": "81",
+    "baseName": "大山町観光協会支援事業",
+    "description": "大山町観光協会中山支部補助金",
+    "baseSegments": [
+      {
+        "start": 6640,
+        "raw": "大山町観光協会支援事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 6652,
+        "raw": "大山町観光協会中山支部補助金"
+      }
+    ],
+    "start": 6626,
+    "raw": "81 観光課 1211 4 大山町観光協会支援事業 大山町観光協会中山支部補助金 436 Ｃ Ｂ Ｃ Ｃ 縮小 拡充 維 持 維 持",
+    "department": "観光課",
+    "departmentOffset": 6629
+  },
+  {
+    "number": "82",
+    "baseName": "大山町観光協会支援事業",
+    "description": "大山町観光協会名和支部補助金",
+    "baseSegments": [
+      {
+        "start": 6707,
+        "raw": "大山町観光協会支援事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 6719,
+        "raw": "大山町観光協会名和支部補助金"
+      }
+    ],
+    "start": 6693,
+    "raw": "82 観光課 1211 5 大山町観光協会支援事業 大山町観光協会名和支部補助金 470 Ｃ Ｂ Ｂ Ｃ 維持 拡充 維 持 維 持",
+    "department": "観光課",
+    "departmentOffset": 6696
+  },
+  {
+    "number": "83",
+    "baseName": "大山町観光協会支援事業",
+    "description": "大山町観光協会大山支部補助金",
+    "baseSegments": [
+      {
+        "start": 6774,
+        "raw": "大山町観光協会支援事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 6786,
+        "raw": "大山町観光協会大山支部補助金"
+      }
+    ],
+    "start": 6760,
+    "raw": "83 観光課 1211 6 大山町観光協会支援事業 大山町観光協会大山支部補助金 349 Ｂ Ｂ Ｂ Ｂ 縮小 拡充 維 持 維 持",
+    "department": "観光課",
+    "departmentOffset": 6763
+  },
+  {
+    "number": "84",
+    "baseName": "大山町観光協会支援事業",
+    "description": "大山観光局補助金",
+    "baseSegments": [
+      {
+        "start": 6841,
+        "raw": "大山町観光協会支援事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 6853,
+        "raw": "大山観光局補助金"
+      }
+    ],
+    "start": 6827,
+    "raw": "84 観光課 1211 7 大山町観光協会支援事業 大山観光局補助金 1,700 Ａ Ｂ Ｂ Ｂ 維持 拡充 縮 小 維 持",
+    "department": "観光課",
+    "departmentOffset": 6830
+  },
+  {
+    "number": "85",
+    "baseName": "モンベル活用事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 6902,
+        "raw": "モンベル活用事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 6890,
+    "raw": "85 観光課 1213 モンベル活用事業 919 Ａ Ａ Ａ Ａ 維持 維持 維 持 維 持",
+    "department": "観光課",
+    "departmentOffset": 6893
+  },
+  {
+    "number": "86",
+    "baseName": "日本遺産魅力発信推進事業",
+    "description": "日本遺産大山山麓魅力発信推進協議会負担金",
+    "baseSegments": [
+      {
+        "start": 7078,
+        "raw": "日本遺産魅力発信推進事"
+      },
+      {
+        "start": 7145,
+        "raw": "業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 7090,
+        "raw": "日本遺産大山山麓魅力発信推進協議"
+      },
+      {
+        "start": 7147,
+        "raw": "会負担金"
+      }
+    ],
+    "start": 7078,
+    "raw": "日本遺産魅力発信推進事 日本遺産大山山麓魅力発信推進協議\n86 観光課 1278 145 Ａ Ｂ Ｂ Ｂ 縮小 維持 縮 小 維 持\n業 会負担金",
+    "department": "観光課",
+    "departmentOffset": 7110
+  },
+  {
+    "number": "87",
+    "baseName": "文化財費（一般）",
+    "description": "町伝統芸能行事保存継承事業補助金",
+    "baseSegments": [
+      {
+        "start": 7163,
+        "raw": "文化財費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 7172,
+        "raw": "町伝統芸能行事保存継承事業補助金"
+      }
+    ],
+    "start": 7152,
+    "raw": "87 観光課 336 文化財費（一般） 町伝統芸能行事保存継承事業補助金 0 Ａ Ｂ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "観光課",
+    "departmentOffset": 7155
+  },
+  {
+    "number": "88",
+    "baseName": "建造物等公開活用事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 7224,
+        "raw": "建造物等公開活用事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 7213,
+    "raw": "88 観光課 545 建造物等公開活用事業 1,975 Ａ Ｂ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "観光課",
+    "departmentOffset": 7216
+  },
+  {
+    "number": "89",
+    "baseName": "所子伝統的建造物群保存地区保存事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 7263,
+        "raw": "所子伝統的建造物群保存"
+      },
+      {
+        "start": 7315,
+        "raw": "地区保存事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 7263,
+    "raw": "所子伝統的建造物群保存\n89 観光課 774 17,753 Ａ Ｂ Ｂ Ｂ 維持 拡充 維 持 維 持\n地区保存事業",
+    "department": "観光課",
+    "departmentOffset": 7278
+  },
+  {
+    "number": "90",
+    "baseName": "大山僧坊跡等保存活用事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 7322,
+        "raw": "大山僧坊跡等保存活用事"
+      },
+      {
+        "start": 7372,
+        "raw": "業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 7322,
+    "raw": "大山僧坊跡等保存活用事\n90 観光課 1006 461 Ａ Ｂ Ａ Ａ 維持 維持 維 持 維 持\n業",
+    "department": "観光課",
+    "departmentOffset": 7337
+  },
+  {
+    "number": "91",
+    "baseName": "索道管理費",
+    "description": "国立公園記念スキー大会負担金",
+    "baseSegments": [
+      {
+        "start": 7388,
+        "raw": "索道管理費"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 7394,
+        "raw": "国立公園記念スキー大会負担金"
+      }
+    ],
+    "start": 7374,
+    "raw": "91 観光課 1007 1 索道管理費 国立公園記念スキー大会負担金 60 Ｃ Ｂ Ｃ Ｃ 維持 維持 縮 小 縮 小",
+    "department": "観光課",
+    "departmentOffset": 7377
+  },
+  {
+    "number": "92",
+    "baseName": "索道管理費",
+    "description": "西日本スキーマスターズ負担金",
+    "baseSegments": [
+      {
+        "start": 7448,
+        "raw": "索道管理費"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 7454,
+        "raw": "西日本スキーマスターズ負担金"
+      }
+    ],
+    "start": 7434,
+    "raw": "92 観光課 1007 2 索道管理費 西日本スキーマスターズ負担金 200 Ａ Ｂ Ｂ Ｂ 維持 維持 維 持 維 持",
+    "department": "観光課",
+    "departmentOffset": 7437
+  },
+  {
+    "number": "93",
+    "baseName": "索道管理費",
+    "description": "アルペンスキー大会負担金",
+    "baseSegments": [
+      {
+        "start": 7509,
+        "raw": "索道管理費"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 7515,
+        "raw": "アルペンスキー大会負担金"
+      }
+    ],
+    "start": 7495,
+    "raw": "93 観光課 1007 3 索道管理費 アルペンスキー大会負担金 200 Ａ Ｂ Ｂ Ｂ 維持 維持 維 持 維 持",
+    "department": "観光課",
+    "departmentOffset": 7498
+  },
+  {
+    "number": "94",
+    "baseName": "索道管理費",
+    "description": "スキー場ＰＲ事業補助金",
+    "baseSegments": [
+      {
+        "start": 7568,
+        "raw": "索道管理費"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 7574,
+        "raw": "スキー場ＰＲ事業補助金"
+      }
+    ],
+    "start": 7554,
+    "raw": "94 観光課 1007 4 索道管理費 スキー場ＰＲ事業補助金 1,000 Ａ Ｂ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "観光課",
+    "departmentOffset": 7557
+  },
+  {
+    "number": "95",
+    "baseName": "索道管理費",
+    "description": "スキー場開き祭負担金",
+    "baseSegments": [
+      {
+        "start": 7769,
+        "raw": "索道管理費"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 7775,
+        "raw": "スキー場開き祭負担金"
+      }
+    ],
+    "start": 7755,
+    "raw": "95 観光課 1007 5 索道管理費 スキー場開き祭負担金 0 Ａ Ｂ Ａ Ｂ 維持 維持 維 持 維 持",
+    "department": "観光課",
+    "departmentOffset": 7758
+  },
+  {
+    "number": "96",
+    "baseName": "移住定住促進事業",
+    "description": "宅地造成事業補助金",
+    "baseSegments": [
+      {
+        "start": 7821,
+        "raw": "移住定住促進事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 7830,
+        "raw": "宅地造成事業補助金"
+      }
+    ],
+    "start": 7810,
+    "raw": "96 建設課 817 移住定住促進事業 宅地造成事業補助金 10,000 Ａ Ａ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "建設課",
+    "departmentOffset": 7813
+  },
+  {
+    "number": "97",
+    "baseName": "仁王堂公園管理事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 7879,
+        "raw": "仁王堂公園管理事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 7869,
+    "raw": "97 建設課 40 仁王堂公園管理事業 4,050 Ａ Ａ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "建設課",
+    "departmentOffset": 7872
+  },
+  {
+    "number": "98",
+    "baseName": "名和公園管理事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 7927,
+        "raw": "名和公園管理事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 7917,
+    "raw": "98 建設課 41 名和公園管理事業 2,026 Ａ Ａ Ａ Ａ 維持 維持 維 持 維 持",
+    "department": "建設課",
+    "departmentOffset": 7920
+  },
+  {
+    "number": "99",
+    "baseName": "展望公園管理事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 7974,
+        "raw": "展望公園管理事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 7964,
+    "raw": "99 建設課 42 展望公園管理事業 76 Ａ Ａ Ａ Ａ 維持 維持 維 持 維 持",
+    "department": "建設課",
+    "departmentOffset": 7967
+  },
+  {
+    "number": "100",
+    "baseName": "社会福祉総務費（一般）",
+    "description": "防犯灯設置補助金",
+    "baseSegments": [
+      {
+        "start": 8019,
+        "raw": "社会福祉総務費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 8031,
+        "raw": "防犯灯設置補助金"
+      }
+    ],
+    "start": 8008,
+    "raw": "100 建設課 76 社会福祉総務費（一般） 防犯灯設置補助金 1,040 Ａ Ｂ Ａ Ａ 維持 維持 維 持 維 持",
+    "department": "建設課",
+    "departmentOffset": 8012
+  },
+  {
+    "number": "101",
+    "baseName": "集落環境整備事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 8080,
+        "raw": "集落環境整備事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 8068,
+    "raw": "101 建設課 260 集落環境整備事業 2,936 Ａ Ａ Ａ Ａ 維持 維持 維 持 維 持",
+    "department": "建設課",
+    "departmentOffset": 8072
+  },
+  {
+    "number": "102",
+    "baseName": "住宅用地造成事業費",
+    "description": "（一般会計繰出、償還金元利除く）",
+    "baseSegments": [
+      {
+        "start": 8129,
+        "raw": "住宅用地造成事業費"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 8139,
+        "raw": "（一般会計繰出、償還金元利除く）"
+      }
+    ],
+    "start": 8117,
+    "raw": "102 建設課 420 住宅用地造成事業費 （一般会計繰出、償還金元利除く） 1,466 Ａ Ａ Ｂ Ａ 維持 維持 拡 大 拡 充",
+    "department": "建設課",
+    "departmentOffset": 8121
+  },
+  {
+    "number": "103",
+    "baseName": "病児保育事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 8201,
+        "raw": "病児保育事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 8184,
+    "raw": "103 幼児・学校教育課 911 病児保育事業 357 Ａ Ｂ Ａ Ａ 維持 維持 維 持 維 持",
+    "department": "幼児・学校教育課",
+    "departmentOffset": 8188
+  },
+  {
+    "number": "104",
+    "baseName": "教育振興費（一般）",
+    "description": "運転業務委託料",
+    "baseSegments": [
+      {
+        "start": 8392,
+        "raw": "教育振興費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 8402,
+        "raw": "運転業務委託料"
+      }
+    ],
+    "start": 8375,
+    "raw": "104 幼児・学校教育課 280 教育振興費（一般） 運転業務委託料 29,537 Ａ Ａ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "幼児・学校教育課",
+    "departmentOffset": 8379
+  },
+  {
+    "number": "106",
+    "baseName": "地域ぐるみの学校安全体制整備推進事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 8439,
+        "raw": "地域ぐるみの学校安全体"
+      },
+      {
+        "start": 8493,
+        "raw": "制整備推進事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 8439,
+    "raw": "地域ぐるみの学校安全体\n106 幼児・学校教育課 912 75 Ａ Ｂ Ａ Ａ 維持 維持 維 持 維 持\n制整備推進事業",
+    "department": "幼児・学校教育課",
+    "departmentOffset": 8455
+  },
+  {
+    "number": "107",
+    "baseName": "スクールソーシャルワーカー等活用事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 8501,
+        "raw": "スクールソーシャルワー"
+      },
+      {
+        "start": 8559,
+        "raw": "カー等活用事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 8501,
+    "raw": "スクールソーシャルワー\n107 幼児・学校教育課 1063 3,534 Ａ Ｂ Ａ Ｃ 拡大 拡充 拡 大 拡 充\nカー等活用事業",
+    "department": "幼児・学校教育課",
+    "departmentOffset": 8517
+  },
+  {
+    "number": "108",
+    "baseName": "小中連携学力向上推進事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 8567,
+        "raw": "小中連携学力向上推進事"
+      },
+      {
+        "start": 8625,
+        "raw": "業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 8567,
+    "raw": "小中連携学力向上推進事\n108 幼児・学校教育課 1188 1,232 Ａ Ａ Ａ Ａ 維持 維持 維 持 維 持\n業",
+    "department": "幼児・学校教育課",
+    "departmentOffset": 8583
+  },
+  {
+    "number": "109",
+    "baseName": "特別支援学校児童生徒通学支援事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 8627,
+        "raw": "特別支援学校児童生徒通"
+      },
+      {
+        "start": 8683,
+        "raw": "学支援事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 8627,
+    "raw": "特別支援学校児童生徒通\n109 幼児・学校教育課 1344 961 Ａ Ａ Ｂ Ａ 維持 維持 維 持 維 持\n学支援事業",
+    "department": "幼児・学校教育課",
+    "departmentOffset": 8643
+  },
+  {
+    "number": "112",
+    "baseName": "国際交流推進費（事務局費）",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 8689,
+        "raw": "国際交流推進費（事務局"
+      },
+      {
+        "start": 8747,
+        "raw": "費）"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 8689,
+    "raw": "国際交流推進費（事務局\n112 幼児・学校教育課 309 15,739 Ａ Ａ Ｂ Ａ 維持 維持 維 持 維 持\n費）",
+    "department": "幼児・学校教育課",
+    "departmentOffset": 8705
+  },
+  {
+    "number": "113",
+    "baseName": "社会教育総務費（一般）",
+    "description": "次世代活動者育成支援補助金",
+    "baseSegments": [
+      {
+        "start": 8767,
+        "raw": "社会教育総務費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 8779,
+        "raw": "次世代活動者育成支援補助金"
+      }
+    ],
+    "start": 8750,
+    "raw": "113 幼児・学校教育課 313 社会教育総務費（一般） 次世代活動者育成支援補助金 0 Ａ Ｂ Ａ Ａ 維持 維持 維 持 維 持",
+    "department": "幼児・学校教育課",
+    "departmentOffset": 8754
+  },
+  {
+    "number": "114",
+    "baseName": "子育て講座",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 8834,
+        "raw": "子育て講座"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 8817,
+    "raw": "114 幼児・学校教育課 321 子育て講座 0 Ａ Ｂ Ａ Ｂ 縮小 維持 維 持 維 持",
+    "department": "幼児・学校教育課",
+    "departmentOffset": 8821
+  },
+  {
+    "number": "115",
+    "baseName": "家庭教育支援基盤形成事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 8864,
+        "raw": "家庭教育支援基盤形成事"
+      },
+      {
+        "start": 8919,
+        "raw": "業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 8864,
+    "raw": "家庭教育支援基盤形成事\n115 幼児・学校教育課 553 104 Ａ Ｂ Ａ Ａ 維持 維持 維 持 維 持\n業",
+    "department": "幼児・学校教育課",
+    "departmentOffset": 8880
+  },
+  {
+    "number": "116",
+    "baseName": "社会教育総務費（一般）",
+    "description": "女性団体活動費補助金",
+    "baseSegments": [
+      {
+        "start": 9078,
+        "raw": "社会教育総務費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 9090,
+        "raw": "女性団体活動費補助金"
+      }
+    ],
+    "start": 9062,
+    "raw": "116 社会教育課 313 1 社会教育総務費（一般） 女性団体活動費補助金 600 Ａ Ｂ Ｂ Ｂ 維持 拡充 維 持 拡 充",
+    "department": "社会教育課",
+    "departmentOffset": 9066
+  },
+  {
+    "number": "117",
+    "baseName": "社会教育総務費（一般）",
+    "description": "青年団体活動補助金",
+    "baseSegments": [
+      {
+        "start": 9143,
+        "raw": "社会教育総務費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 9155,
+        "raw": "青年団体活動補助金"
+      }
+    ],
+    "start": 9127,
+    "raw": "117 社会教育課 313 2 社会教育総務費（一般） 青年団体活動補助金 100 Ａ Ｂ Ｂ Ｂ 縮小 維持 維 持 維 持",
+    "department": "社会教育課",
+    "departmentOffset": 9131
+  },
+  {
+    "number": "118",
+    "baseName": "社会教育総務費（一般）",
+    "description": "子ども会育成連絡協議会補助金",
+    "baseSegments": [
+      {
+        "start": 9207,
+        "raw": "社会教育総務費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 9219,
+        "raw": "子ども会育成連絡協議会補助金"
+      }
+    ],
+    "start": 9191,
+    "raw": "118 社会教育課 313 3 社会教育総務費（一般） 子ども会育成連絡協議会補助金 22 Ｂ Ｂ Ｂ Ｂ 縮小 維持 縮 小 維 持",
+    "department": "社会教育課",
+    "departmentOffset": 9195
+  },
+  {
+    "number": "119",
+    "baseName": "社会教育総務費（一般）",
+    "description": "青少年育成大山町民会議補助金",
+    "baseSegments": [
+      {
+        "start": 9275,
+        "raw": "社会教育総務費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 9287,
+        "raw": "青少年育成大山町民会議補助金"
+      }
+    ],
+    "start": 9259,
+    "raw": "119 社会教育課 313 4 社会教育総務費（一般） 青少年育成大山町民会議補助金 250 Ａ Ｂ Ａ Ｂ 維持 拡充 維 持 維 持",
+    "department": "社会教育課",
+    "departmentOffset": 9263
+  },
+  {
+    "number": "120",
+    "baseName": "成人式",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 9342,
+        "raw": "成人式"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 9328,
+    "raw": "120 社会教育課 314 成人式 1,924 Ａ Ａ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "社会教育課",
+    "departmentOffset": 9332
+  },
+  {
+    "number": "121",
+    "baseName": "人材育成交流事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 9388,
+        "raw": "人材育成交流事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 9374,
+    "raw": "121 社会教育課 315 人材育成交流事業 0 Ａ Ａ Ａ Ａ 維持 維持 維 持 維 持",
+    "department": "社会教育課",
+    "departmentOffset": 9378
+  },
+  {
+    "number": "122",
+    "baseName": "生涯学習大会",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 9435,
+        "raw": "生涯学習大会"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 9421,
+    "raw": "122 社会教育課 318 生涯学習大会 0 Ｂ Ｂ Ｂ Ｂ 維持 拡充 維 持 維 持",
+    "department": "社会教育課",
+    "departmentOffset": 9425
+  },
+  {
+    "number": "123",
+    "baseName": "文化祭",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 9480,
+        "raw": "文化祭"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 9466,
+    "raw": "123 社会教育課 322 文化祭 2,232 Ａ Ｂ Ｂ Ｂ 維持 拡充 維 持 維 持",
+    "department": "社会教育課",
+    "departmentOffset": 9470
+  },
+  {
+    "number": "125",
+    "baseName": "保健体育総務費（一般）",
+    "description": "町体育協会補助金",
+    "baseSegments": [
+      {
+        "start": 9528,
+        "raw": "保健体育総務費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 9540,
+        "raw": "町体育協会補助金"
+      }
+    ],
+    "start": 9512,
+    "raw": "125 社会教育課 340 1 保健体育総務費（一般） 町体育協会補助金 649 Ｂ Ｂ Ｂ Ｂ 縮小 拡充 維 持 維 持",
+    "department": "社会教育課",
+    "departmentOffset": 9516
+  },
+  {
+    "number": "126",
+    "baseName": "保健体育総務費（一般）",
+    "description": "町スポーツ少年団補助金",
+    "baseSegments": [
+      {
+        "start": 9732,
+        "raw": "保健体育総務費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 9744,
+        "raw": "町スポーツ少年団補助金"
+      }
+    ],
+    "start": 9716,
+    "raw": "126 社会教育課 340 2 保健体育総務費（一般） 町スポーツ少年団補助金 850 Ａ Ｂ Ｂ Ｂ 維持 拡充 維 持 拡 充",
+    "department": "社会教育課",
+    "departmentOffset": 9720
+  },
+  {
+    "number": "129",
+    "baseName": "プール管理費",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 9796,
+        "raw": "プール管理費"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 9782,
+    "raw": "129 社会教育課 348 プール管理費 1,399 Ｃ Ｂ Ｂ Ｂ 縮小 維持 縮 小 維 持 ●",
+    "department": "社会教育課",
+    "departmentOffset": 9786
+  },
+  {
+    "number": "130",
+    "baseName": "グラウンド管理費",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 9847,
+        "raw": "グラウンド管理費"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 9833,
+    "raw": "130 社会教育課 349 グラウンド管理費 56 Ａ Ｂ Ｂ Ｂ 維持 拡充 縮 小 縮 小",
+    "department": "社会教育課",
+    "departmentOffset": 9837
+  },
+  {
+    "number": "131",
+    "baseName": "通学合宿推進事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 9895,
+        "raw": "通学合宿推進事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 9881,
+    "raw": "131 名和公民館 319 通学合宿推進事業 3 Ａ Ｃ Ｂ Ｂ 縮小 維持 維 持 維 持",
+    "department": "名和公民館",
+    "departmentOffset": 9885
+  },
+  {
+    "number": "132",
+    "baseName": "図書館費",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 9942,
+        "raw": "図書館費"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 9928,
+    "raw": "132 名和公民館 334 図書館費 6,169 Ａ Ｂ Ｂ Ｂ 維持 拡充 維 持 拡 充",
+    "department": "名和公民館",
+    "departmentOffset": 9932
+  },
+  {
+    "number": "133",
+    "baseName": "保健体育総務費（一般）",
+    "description": "町民運動会補助金",
+    "baseSegments": [
+      {
+        "start": 9989,
+        "raw": "保健体育総務費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 10001,
+        "raw": "町民運動会補助金"
+      }
+    ],
+    "start": 9975,
+    "raw": "133 名和公民館 340 保健体育総務費（一般） 町民運動会補助金 0 Ｂ Ｃ Ｂ Ｂ 維持 拡充 維 持 拡 充",
+    "department": "名和公民館",
+    "departmentOffset": 9979
+  },
+  {
+    "number": "134",
+    "baseName": "通学合宿推進事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 10048,
+        "raw": "通学合宿推進事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 10034,
+    "raw": "134 中山公民館 319 通学合宿推進事業 0 Ａ Ａ Ａ Ａ 維持 維持 維 持 維 持",
+    "department": "中山公民館",
+    "departmentOffset": 10038
+  },
+  {
+    "number": "136",
+    "baseName": "子ども体験活動支援事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 10097,
+        "raw": "子ども体験活動支援事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 10081,
+    "raw": "136 中山公民館 326 2 子ども体験活動支援事業 20 Ｂ Ａ Ａ Ｂ 維持 拡充 維 持 拡 充",
+    "department": "中山公民館",
+    "departmentOffset": 10085
+  },
+  {
+    "number": "137",
+    "baseName": "大山カレッジ事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 10148,
+        "raw": "大山カレッジ事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 10134,
+    "raw": "137 中山公民館 781 大山カレッジ事業 257 Ｂ Ａ Ｂ Ｂ 維持 拡充 維 持 拡 充",
+    "department": "中山公民館",
+    "departmentOffset": 10138
+  },
+  {
+    "number": "138",
+    "baseName": "土曜授業等実施事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 10339,
+        "raw": "土曜授業等実施事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 10324,
+    "raw": "138 中山公民館 1215 土曜授業等実施事業 0 Ａ Ｂ Ａ Ｂ 維持 拡充 維 持 維 持",
+    "department": "中山公民館",
+    "departmentOffset": 10328
+  },
+  {
+    "number": "139",
+    "baseName": "保健体育総務費（一般）",
+    "description": "町民運動会補助金",
+    "baseSegments": [
+      {
+        "start": 10387,
+        "raw": "保健体育総務費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 10399,
+        "raw": "町民運動会補助金"
+      }
+    ],
+    "start": 10373,
+    "raw": "139 中山公民館 340 保健体育総務費（一般） 町民運動会補助金 5 Ａ Ｂ Ｂ Ｂ 維持 拡充 維 持 拡 充",
+    "department": "中山公民館",
+    "departmentOffset": 10377
+  },
+  {
+    "number": "140",
+    "baseName": "大山町老人福祉センター運営事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 10432,
+        "raw": "大山町老人福祉センター"
+      },
+      {
+        "start": 10486,
+        "raw": "運営事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 10432,
+    "raw": "大山町老人福祉センター\n140 大山公民館 728 1,437 Ｃ Ｃ Ｃ Ｃ 拡大 拡充 維 持 維 持\n運営事業",
+    "department": "大山公民館",
+    "departmentOffset": 10448
+  },
+  {
+    "number": "141",
+    "baseName": "大山農村環境改善センター運営費",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 10491,
+        "raw": "大山農村環境改善セン"
+      },
+      {
+        "start": 10545,
+        "raw": "ター運営費"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 10491,
+    "raw": "大山農村環境改善セン\n141 大山公民館 226 13,313 Ａ Ｂ Ｃ Ｂ 縮小 維持 維 持 維 持\nター運営費",
+    "department": "大山公民館",
+    "departmentOffset": 10506
+  },
+  {
+    "number": "142",
+    "baseName": "通学合宿推進事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 10565,
+        "raw": "通学合宿推進事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 10551,
+    "raw": "142 大山公民館 319 通学合宿推進事業 0 Ａ Ａ Ｂ Ｂ 縮小 維持 維 持 維 持",
+    "department": "大山公民館",
+    "departmentOffset": 10555
+  },
+  {
+    "number": "144",
+    "baseName": "子ども体験活動支援事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 10614,
+        "raw": "子ども体験活動支援事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 10598,
+    "raw": "144 大山公民館 326 2 子ども体験活動支援事業 2 Ｃ Ｂ Ｂ Ｂ 維持 維持 維 持 維 持",
+    "department": "大山公民館",
+    "departmentOffset": 10602
+  },
+  {
+    "number": "145",
+    "baseName": "大山公民館",
+    "description": "所子分館活動補助金",
+    "baseSegments": [
+      {
+        "start": 10664,
+        "raw": "大山公民館"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 10670,
+        "raw": "所子分館活動補助金"
+      }
+    ],
+    "start": 10650,
+    "raw": "145 大山公民館 331 大山公民館 所子分館活動補助金 0 Ａ Ａ Ｂ Ｂ 維持 拡充 維 持 維 持",
+    "department": "大山公民館",
+    "departmentOffset": 10654
+  },
+  {
+    "number": "146",
+    "baseName": "大山分館",
+    "description": "大山分館活動補助金",
+    "baseSegments": [
+      {
+        "start": 10718,
+        "raw": "大山分館"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 10723,
+        "raw": "大山分館活動補助金"
+      }
+    ],
+    "start": 10704,
+    "raw": "146 大山公民館 332 大山分館 大山分館活動補助金 95 Ａ Ｂ Ａ Ｂ 維持 拡充 維 持 維 持",
+    "department": "大山公民館",
+    "departmentOffset": 10708
+  },
+  {
+    "number": "147",
+    "baseName": "高麗分館",
+    "description": "高麗分館活動補助金",
+    "baseSegments": [
+      {
+        "start": 10772,
+        "raw": "高麗分館"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 10777,
+        "raw": "高麗分館活動補助金"
+      }
+    ],
+    "start": 10758,
+    "raw": "147 大山公民館 333 高麗分館 高麗分館活動補助金 86 Ａ Ｂ Ｂ Ｂ 維持 拡充 維 持 維 持",
+    "department": "大山公民館",
+    "departmentOffset": 10762
+  },
+  {
+    "number": "148",
+    "baseName": "図書館費",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 10967,
+        "raw": "図書館費"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 10953,
+    "raw": "148 大山公民館 334 図書館費 6,190 Ａ Ｂ Ｂ Ｂ 維持 拡充 維 持 拡 充",
+    "department": "大山公民館",
+    "departmentOffset": 10957
+  },
+  {
+    "number": "149",
+    "baseName": "フォーラム管理事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 11013,
+        "raw": "フォーラム管理事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 11000,
+    "raw": "149 地籍調査課 35 フォーラム管理事業 422 Ａ Ａ Ａ Ａ 維持 維持 維 持 維 持",
+    "department": "地籍調査課",
+    "departmentOffset": 11004
+  },
+  {
+    "number": "150",
+    "baseName": "教育支援センター費（一般）",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 11049,
+        "raw": "教育支援センター費（一"
+      },
+      {
+        "start": 11106,
+        "raw": "般）"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 11049,
+    "raw": "教育支援センター費（一\n150 教育支援センター 681 9,067 Ａ Ａ Ａ Ａ 維持 維持 維 持 維 持\n般）",
+    "department": "教育支援センター",
+    "departmentOffset": 11065
+  },
+  {
+    "number": "151",
+    "baseName": "教職員研修等事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 11126,
+        "raw": "教職員研修等事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 11109,
+    "raw": "151 教育支援センター 725 教職員研修等事業 40 Ａ Ｂ Ａ Ａ 維持 維持 維 持 維 持",
+    "department": "教育支援センター",
+    "departmentOffset": 11113
+  },
+  {
+    "number": "152",
+    "baseName": "ふるさと学習推進事業",
+    "description": "冊子印刷製本",
+    "baseSegments": [
+      {
+        "start": 11177,
+        "raw": "ふるさと学習推進事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 11188,
+        "raw": "冊子印刷製本"
+      }
+    ],
+    "start": 11160,
+    "raw": "152 教育支援センター 800 ふるさと学習推進事業 冊子印刷製本 2,999 Ａ Ａ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "教育支援センター",
+    "departmentOffset": 11164
+  },
+  {
+    "number": "153",
+    "baseName": "家庭教育推進事業",
+    "description": "冊子印刷製本",
+    "baseSegments": [
+      {
+        "start": 11241,
+        "raw": "家庭教育推進事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 11250,
+        "raw": "冊子印刷製本"
+      }
+    ],
+    "start": 11223,
+    "raw": "153 教育支援センター 1093 家庭教育推進事業 冊子印刷製本 220 Ａ Ａ Ａ Ａ 維持 維持 維 持 維 持",
+    "department": "教育支援センター",
+    "departmentOffset": 11227
+  },
+  {
+    "number": "155",
+    "baseName": "ファミリーサポートセンター",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 11283,
+        "raw": "ファミリーサポートセン"
+      },
+      {
+        "start": 11336,
+        "raw": "ター"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 11283,
+    "raw": "ファミリーサポートセン\n155 こども課 134 1,128 Ａ Ｂ Ｂ Ｂ 維持 拡充 維 持 拡 充\nター",
+    "department": "こども課",
+    "departmentOffset": 11299
+  },
+  {
+    "number": "156",
+    "baseName": "読書推進事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 11352,
+        "raw": "読書推進事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 11339,
+    "raw": "156 こども課 803 読書推進事業 498 Ａ Ｂ Ａ Ａ 維持 維持 維 持 維 持",
+    "department": "こども課",
+    "departmentOffset": 11343
+  },
+  {
+    "number": "157",
+    "baseName": "放課後児童クラブ",
+    "description": "歳入歳出合わせてみてみる",
+    "baseSegments": [
+      {
+        "start": 11398,
+        "raw": "放課後児童クラブ"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 11407,
+        "raw": "歳入歳出合わせてみてみる"
+      }
+    ],
+    "start": 11385,
+    "raw": "157 こども課 135 放課後児童クラブ 歳入歳出合わせてみてみる 25,722 Ａ Ｂ Ｂ Ｂ 拡大 拡充 維 持 維 持",
+    "department": "こども課",
+    "departmentOffset": 11389
+  },
+  {
+    "number": "158",
+    "baseName": "子育て支援センターなわ",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 11603,
+        "raw": "子育て支援センターなわ"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 11590,
+    "raw": "158 こども課 546 子育て支援センターなわ 906 Ａ Ｂ Ｂ Ｂ 維持 拡充 維 持 維 持",
+    "department": "こども課",
+    "departmentOffset": 11594
+  },
+  {
+    "number": "159",
+    "baseName": "子育て支援センターなかやま",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 11641,
+        "raw": "子育て支援センターなか"
+      },
+      {
+        "start": 11693,
+        "raw": "やま"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 11641,
+    "raw": "子育て支援センターなか\n159 こども課 1112 937 Ａ Ｂ Ｂ Ｂ 維持 拡充 維 持 維 持\nやま",
+    "department": "こども課",
+    "departmentOffset": 11657
+  },
+  {
+    "number": "160",
+    "baseName": "子育て支援センターだいせん",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 11696,
+        "raw": "子育て支援センターだい"
+      },
+      {
+        "start": 11750,
+        "raw": "せん"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 11696,
+    "raw": "子育て支援センターだい\n160 こども課 1113 2,420 Ａ Ｂ Ｂ Ａ 維持 維持 維 持 維 持\nせん",
+    "department": "こども課",
+    "departmentOffset": 11712
+  },
+  {
+    "number": "164",
+    "baseName": "子育て支援事業",
+    "description": "チャイルドシート購入補助金",
+    "baseSegments": [
+      {
+        "start": 11767,
+        "raw": "子育て支援事業"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 11775,
+        "raw": "チャイルドシート購入補助金"
+      }
+    ],
+    "start": 11753,
+    "raw": "164 こども課 1363 子育て支援事業 チャイルドシート購入補助金 272 Ａ Ｂ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "こども課",
+    "departmentOffset": 11757
+  },
+  {
+    "number": "165",
+    "baseName": "母子保健事業",
+    "description": "",
+    "baseSegments": [
+      {
+        "start": 11828,
+        "raw": "母子保健事業"
+      }
+    ],
+    "descriptionSegments": [],
+    "start": 11815,
+    "raw": "165 こども課 151 母子保健事業 12,959 Ａ Ｂ Ｂ Ａ 維持 維持 維 持 維 持",
+    "department": "こども課",
+    "departmentOffset": 11819
+  },
+  {
+    "number": "166",
+    "baseName": "社会教育総務費（一般）",
+    "description": "名和奏友会補助金",
+    "baseSegments": [
+      {
+        "start": 11880,
+        "raw": "社会教育総務費（一般）"
+      }
+    ],
+    "descriptionSegments": [
+      {
+        "start": 11892,
+        "raw": "名和奏友会補助金"
+      }
+    ],
+    "start": 11864,
+    "raw": "166 社会教育課 313 5 社会教育総務費（一般） 名和奏友会補助金 0 Ｂ Ｂ Ｂ Ｂ 縮小 維持 縮 小 維 持",
+    "department": "社会教育課",
+    "departmentOffset": 11868
+  }
+]

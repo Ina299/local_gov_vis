@@ -1,0 +1,224 @@
+[
+  {
+    "sourceId": "b50d11a4d77777f274824358",
+    "municipalityCode": "31329",
+    "fullTextSha256": "38b1e819216403bf6899f005125773aa3872ec409fd7756e2215ce2273a8cecb",
+    "individualUnits": 10,
+    "allUnitsHaveExistingIds": true,
+    "duplicates": [
+      {
+        "sourceId": "b50d11a4d77777f274824358",
+        "candidateId": "cached-31329-34cefc8befbfbc5cfe763ef8",
+        "existingId": "cached-31329-34cefc8befbfbc5cfe763ef8",
+        "municipalityCode": "31329",
+        "projectName": "空き家対策事業"
+      },
+      {
+        "sourceId": "b50d11a4d77777f274824358",
+        "candidateId": "cached-31329-ea4c9036b59f3738876505b9",
+        "existingId": "cached-31329-ea4c9036b59f3738876505b9",
+        "municipalityCode": "31329",
+        "projectName": "移住定住推進事業"
+      },
+      {
+        "sourceId": "b50d11a4d77777f274824358",
+        "candidateId": "cached-31329-081dcc296f693a9338c28243",
+        "existingId": "cached-31329-081dcc296f693a9338c28243",
+        "municipalityCode": "31329",
+        "projectName": "ふるさと納税促進事業"
+      },
+      {
+        "sourceId": "b50d11a4d77777f274824358",
+        "candidateId": "cached-31329-28703031a07451e64b48130d",
+        "existingId": "cached-31329-28703031a07451e64b48130d",
+        "municipalityCode": "31329",
+        "projectName": "地方創生推進事業"
+      },
+      {
+        "sourceId": "b50d11a4d77777f274824358",
+        "candidateId": "cached-31329-974fb6f7dd20bb9ff496145e",
+        "existingId": "cached-31329-974fb6f7dd20bb9ff496145e",
+        "municipalityCode": "31329",
+        "projectName": "若桜鉄道対策費"
+      },
+      {
+        "sourceId": "b50d11a4d77777f274824358",
+        "candidateId": "cached-31329-cf4b5fb0bf6c672fe3110c53",
+        "existingId": "cached-31329-cf4b5fb0bf6c672fe3110c53",
+        "municipalityCode": "31329",
+        "projectName": "集落支援事業"
+      },
+      {
+        "sourceId": "b50d11a4d77777f274824358",
+        "candidateId": "cached-31329-1f9a162f4c3794eb2cce5f24",
+        "existingId": "cached-31329-1f9a162f4c3794eb2cce5f24",
+        "municipalityCode": "31329",
+        "projectName": "果樹就農者確保育成事業"
+      },
+      {
+        "sourceId": "b50d11a4d77777f274824358",
+        "candidateId": "cached-31329-c7ecc8bf2126e652181c70e8",
+        "existingId": "cached-31329-c7ecc8bf2126e652181c70e8",
+        "municipalityCode": "31329",
+        "projectName": "地域おこし協力隊等事業"
+      },
+      {
+        "sourceId": "b50d11a4d77777f274824358",
+        "candidateId": "cached-31329-f008a8d64f43fe4bb1ede699",
+        "existingId": "cached-31329-f008a8d64f43fe4bb1ede699",
+        "municipalityCode": "31329",
+        "projectName": "野生鳥獣被害防止事業費"
+      },
+      {
+        "sourceId": "b50d11a4d77777f274824358",
+        "candidateId": "cached-31329-c1c731a3313a6a08a8c86585",
+        "existingId": "cached-31329-c1c731a3313a6a08a8c86585",
+        "municipalityCode": "31329",
+        "projectName": "森林環境整備事業"
+      }
+    ],
+    "status": "complete named-unit coverage; no field overwrite"
+  },
+  {
+    "sourceId": "c51a7e71d4b7749351c1f9ea",
+    "municipalityCode": "31329",
+    "fullTextSha256": "2f2b321bc138dda35dbb56e7792166a964874833217861d9bea1fcd0e2bb6625",
+    "individualUnits": 6,
+    "allUnitsHaveExistingIds": true,
+    "duplicates": [
+      {
+        "sourceId": "c51a7e71d4b7749351c1f9ea",
+        "candidateId": "cached-31329-cff1c574ecb39abdd07f90db",
+        "existingId": "cached-31329-cff1c574ecb39abdd07f90db",
+        "municipalityCode": "31329",
+        "projectName": "移住定住推進事業"
+      },
+      {
+        "sourceId": "c51a7e71d4b7749351c1f9ea",
+        "candidateId": "cached-31329-425c6919a6c6e6aedf44870d",
+        "existingId": "cached-31329-425c6919a6c6e6aedf44870d",
+        "municipalityCode": "31329",
+        "projectName": "ふるさと納税促進事業"
+      },
+      {
+        "sourceId": "c51a7e71d4b7749351c1f9ea",
+        "candidateId": "cached-31329-d16d2b29fd0173aee1261709",
+        "existingId": "cached-31329-d16d2b29fd0173aee1261709",
+        "municipalityCode": "31329",
+        "projectName": "放課後児童クラブ運営費"
+      },
+      {
+        "sourceId": "c51a7e71d4b7749351c1f9ea",
+        "candidateId": "cached-31329-f025f4e319846a762a136011",
+        "existingId": "cached-31329-f025f4e319846a762a136011",
+        "municipalityCode": "31329",
+        "projectName": "地域おこし協力隊等事業"
+      },
+      {
+        "sourceId": "c51a7e71d4b7749351c1f9ea",
+        "candidateId": "cached-31329-3df7e4c5d078ef698a24357b",
+        "existingId": "cached-31329-3df7e4c5d078ef698a24357b",
+        "municipalityCode": "31329",
+        "projectName": "野生鳥獣被害防止事業費"
+      },
+      {
+        "sourceId": "c51a7e71d4b7749351c1f9ea",
+        "candidateId": "cached-31329-2961fc43173301bb4970a6f3",
+        "existingId": "cached-31329-2961fc43173301bb4970a6f3",
+        "municipalityCode": "31329",
+        "projectName": "除雪対策費"
+      }
+    ],
+    "status": "complete named-unit coverage; no field overwrite"
+  },
+  {
+    "sourceId": "5eba37d26db61e87d777d155",
+    "municipalityCode": "31403",
+    "fullTextSha256": "61eee49f0a483fcad9c477168439556f28dae4074c702ebebc62730ceab221d8",
+    "individualUnits": 5,
+    "allUnitsHaveExistingIds": true,
+    "duplicates": [
+      {
+        "sourceId": "5eba37d26db61e87d777d155",
+        "candidateId": "cached-31403-96d2b0c3c4b02691bc8830fd",
+        "existingId": "cached-31403-96d2b0c3c4b02691bc8830fd",
+        "municipalityCode": "31403",
+        "projectName": "江府町住民税非課税世帯臨時給付金事業"
+      },
+      {
+        "sourceId": "5eba37d26db61e87d777d155",
+        "candidateId": "cached-31403-1b32775124e0d5e612f38205",
+        "existingId": "cached-31403-1b32775124e0d5e612f38205",
+        "municipalityCode": "31403",
+        "projectName": "江府町住民税均等割非課税世帯臨時給付金事業"
+      },
+      {
+        "sourceId": "5eba37d26db61e87d777d155",
+        "candidateId": "cached-31403-5a0fef27d5138a2b0398ed74",
+        "existingId": "cached-31403-5a0fef27d5138a2b0398ed74",
+        "municipalityCode": "31403",
+        "projectName": "江府町住民税均等割非課税世帯臨時給付金事業（子育て世帯支援分）"
+      },
+      {
+        "sourceId": "5eba37d26db61e87d777d155",
+        "candidateId": "cached-31403-a1bd1e15ec01783698196e1f",
+        "existingId": "cached-31403-a1bd1e15ec01783698196e1f",
+        "municipalityCode": "31403",
+        "projectName": "江府町定額減税事業（事務費）"
+      },
+      {
+        "sourceId": "5eba37d26db61e87d777d155",
+        "candidateId": "cached-31403-e976c598cbdddaec1ead5fc5",
+        "existingId": "cached-31403-e976c598cbdddaec1ead5fc5",
+        "municipalityCode": "31403",
+        "projectName": "給油等助成券発行補助事業"
+      }
+    ],
+    "status": "complete named-unit coverage; no field overwrite"
+  },
+  {
+    "sourceId": "fa9055ebf9e164a5c53d7224",
+    "municipalityCode": "31403",
+    "fullTextSha256": "fcbed61813cf2c5b2c48a8ed328ca802e8b83b0e569610c35341a633333b3cad",
+    "individualUnits": 5,
+    "allUnitsHaveExistingIds": true,
+    "duplicates": [
+      {
+        "sourceId": "fa9055ebf9e164a5c53d7224",
+        "candidateId": "cached-31403-d810cba646997f92db5c81ac",
+        "existingId": "cached-31403-d810cba646997f92db5c81ac",
+        "municipalityCode": "31403",
+        "projectName": "江府町住民税非課税世帯臨時給付金事業"
+      },
+      {
+        "sourceId": "fa9055ebf9e164a5c53d7224",
+        "candidateId": "cached-31403-a6af2bed3e8c579a21a5cfe9",
+        "existingId": "cached-31403-a6af2bed3e8c579a21a5cfe9",
+        "municipalityCode": "31403",
+        "projectName": "江府町住民税均等割非課税世帯臨時給付金事業"
+      },
+      {
+        "sourceId": "fa9055ebf9e164a5c53d7224",
+        "candidateId": "cached-31403-72aa64d49a908ab7f2405d18",
+        "existingId": "cached-31403-72aa64d49a908ab7f2405d18",
+        "municipalityCode": "31403",
+        "projectName": "江府町R6低所得世帯支援・定額減税不足額給付事業"
+      },
+      {
+        "sourceId": "fa9055ebf9e164a5c53d7224",
+        "candidateId": "cached-31403-97129745d8bbe4959ad5a719",
+        "existingId": "cached-31403-97129745d8bbe4959ad5a719",
+        "municipalityCode": "31403",
+        "projectName": "江府町物価高騰対策交付金給付事業"
+      },
+      {
+        "sourceId": "fa9055ebf9e164a5c53d7224",
+        "candidateId": "cached-31403-301655d5521c3b4ff07c1c24",
+        "existingId": "cached-31403-301655d5521c3b4ff07c1c24",
+        "municipalityCode": "31403",
+        "projectName": "畜産経営緊急救済事業費補助金"
+      }
+    ],
+    "status": "complete named-unit coverage; no field overwrite"
+  }
+]

@@ -1660,10 +1660,10 @@
     "sourceId": "cbf1084567037b6e4e4b44a6",
     "url": "https://www.daisen.jp/user/filer_public/1a/52/1a523015-5b46-48bd-836f-2385578c6669/reiwa-3-nendo-gyousei-hyouka-zimu-zigyou-hyouka-2-tugi-hyoukakekka.pdf",
     "title": "令和3年度行政評価(事務事業評価)2次評価結果",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
-    "duplicates": 64,
+    "accepted": 75,
+    "duplicates": 135,
     "held": 0,
     "fullTextSha256": "8da6dcc96443c4d791c5645d6e21a36abf91be1531b04f4a3d875e6690dd113c",
     "complete": true,
@@ -1671,8 +1671,1003 @@
     "fetchedAt": "2026-10-11T17:51:59.137654+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 521,
+          "name": "一般管理費（一般）【説明名称：集落コミュニティ活動補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 584,
+          "name": "一般管理費（一般）【説明名称：特定空家等除却促進事業補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 643,
+          "name": "ホームページ管理事業【説明名称：ホームページ管理委託料】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 700,
+          "name": "財産管理費（一般）【説明名称：（公用車管理）】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 754,
+          "name": "本庁舎管理事業【説明名称：宿日直業務委託料】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 950,
+          "name": "電子計算費（一般）",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 999,
+          "name": "情報通信事業【説明名称：大山チャンネル作成委託料】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 1057,
+          "name": "自主防災組織育成事業【説明名称：自主防災組織育成補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 1118,
+          "name": "消防施設費（一般）【説明名称：消防施設整備費補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 1177,
+          "name": "ふるさと応援基金事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 1229,
+          "name": "鳥取大学連携事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 1275,
+          "name": "こどもと楽しいまちプロジェクト事業【説明名称：こどもと楽しいまちプロジェクト委託料】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 1352,
+          "name": "こどもと楽しいまちプロジェクト事業【説明名称：こどもと楽しいまちプロジェクト事業補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 1431,
+          "name": "国際交流事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 1614,
+          "name": "だいせんファンクラブ事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 1666,
+          "name": "大山恵みの里プロジェクト推進事業【説明名称：大山恵みの里づくり促進事業補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 1741,
+          "name": "地域自主組織育成支援事業【説明名称：地域自主組織育成支援事業補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 1813,
+          "name": "地域自主組織育成支援事業【説明名称：大山町まちづくり活性化交付金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 1883,
+          "name": "地域自主組織育成支援事業【説明名称：みんなで取り組む中山間地域計画づくり支援事業費補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 1966,
+          "name": "移住定住促進事業【説明名称：移住マッチングモデル推進事業委託料】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 2035,
+          "name": "移住定住促進事業【説明名称：大山暮らし体験助成金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 2093,
+          "name": "移住定住促進事業【説明名称：移住者受入交流奨励金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 2152,
+          "name": "移住定住促進事業【説明名称：移住定住助成金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 2350,
+          "name": "結婚対策推進事業【説明名称：負担金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 2400,
+          "name": "集落支援員活用事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 2451,
+          "name": "デマンドバス事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 2501,
+          "name": "先端技術社会実装事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 2553,
+          "name": "坂農産物処理加工所管理事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 2606,
+          "name": "地域自主組織等施設管理事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 2661,
+          "name": "商工振興費（一般）【説明名称：町商工会補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 2718,
+          "name": "社会福祉総務費（一般）【説明名称：町遺族会補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 2774,
+          "name": "公害対策事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 2960,
+          "name": "野良猫不妊・去勢手術支援事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 3013,
+          "name": "社会福祉総務費（一般）ほか【説明名称：地域福祉ネットワーク事業委託料】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 3088,
+          "name": "社会福祉総務費（一般）ほか【説明名称：町社会福祉協議会補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 3160,
+          "name": "社会福祉総務費（一般）ほか【説明名称：支え愛事業分】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 3223,
+          "name": "社会福祉総務費（一般）【説明名称：避難行動要支援者台帳システム保守委託料】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 3296,
+          "name": "タクシー助成事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 3346,
+          "name": "長寿祝金",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 3391,
+          "name": "シルバー交付金【説明名称：輝くシルバー交付金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 3451,
+          "name": "同和対策費（一般）【説明名称：地区活動費補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 3650,
+          "name": "各種団体等運営費補助事業【説明名称：町身体障害者福祉協会補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 3719,
+          "name": "各種団体等運営費補助事業【説明名称：障害者グループホーム夜間世話人等配置事業補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 3801,
+          "name": "あすなろクラブ",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 3850,
+          "name": "同和教育費（一般）【説明名称：町同和教育推進協議会補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 3917,
+          "name": "同和教育費（一般）【説明名称：進学奨励交付金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 3976,
+          "name": "同和教育費（一般）【説明名称：全国人権・同和教育研究大会旅費補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 4045,
+          "name": "予防接種事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 4094,
+          "name": "健康づくり推進事業【説明名称：脳ドック助成事業】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 4152,
+          "name": "疾病予防費【説明名称：疾病予防費（人間ドック助成）】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 5027,
+          "name": "農業振興費（一般）【説明名称：営農協議会補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 5083,
+          "name": "野生鳥獣被害防止事業【説明名称：野生鳥獣被害防止柵設置事業補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 5152,
+          "name": "果樹共済掛金助成事業【説明名称：果樹共済掛金農家負担助成補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 5218,
+          "name": "耕畜連携推進事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 5271,
+          "name": "畜産業費（一般）【説明名称：性判別精液導入事業補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 5336,
+          "name": "畜産業費（一般）【説明名称：優良雌牛導入保留奨励事業補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 5402,
+          "name": "畜産業費（一般）【説明名称：乳牛共進会補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 5459,
+          "name": "単町土地改良事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 5510,
+          "name": "御来屋漁港水産物直販所管理費",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 5707,
+          "name": "漁港区域漂着物処理事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 5758,
+          "name": "観光費（一般）【説明名称：温泉活用促進補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 5815,
+          "name": "観光費（一般）【説明名称：大山僧兵太鼓保存会補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 5874,
+          "name": "観光費（一般）【説明名称：イベント補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 5929,
+          "name": "観光費（一般）【説明名称：マラソンフェスタ補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 5990,
+          "name": "観光費（一般）【説明名称：大山町コンベンション等開催支援助成金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 6057,
+          "name": "保健体育総務費（一般）【説明名称：紅葉カップソフトバレー大会補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 6123,
+          "name": "保健体育総務費（一般）【説明名称：国体記念スキー大会補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 6185,
+          "name": "スキー場サービスセンター",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 6376,
+          "name": "SEA TO SUMMIT事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 6430,
+          "name": "大山町観光協会支援事業【説明名称：観光案内業務委託料】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 6495,
+          "name": "大山町観光協会支援事業【説明名称：大山ツアーデスク運営補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 6563,
+          "name": "大山町観光協会支援事業【説明名称：大山町観光協会補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 6626,
+          "name": "大山町観光協会支援事業【説明名称：大山町観光協会中山支部補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 6693,
+          "name": "大山町観光協会支援事業【説明名称：大山町観光協会名和支部補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 6760,
+          "name": "大山町観光協会支援事業【説明名称：大山町観光協会大山支部補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 6827,
+          "name": "大山町観光協会支援事業【説明名称：大山観光局補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 6890,
+          "name": "モンベル活用事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 7078,
+          "name": "日本遺産魅力発信推進事業【説明名称：日本遺産大山山麓魅力発信推進協議会負担金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 7152,
+          "name": "文化財費（一般）【説明名称：町伝統芸能行事保存継承事業補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 7213,
+          "name": "建造物等公開活用事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 7263,
+          "name": "所子伝統的建造物群保存地区保存事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 7322,
+          "name": "大山僧坊跡等保存活用事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 7374,
+          "name": "索道管理費【説明名称：国立公園記念スキー大会負担金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 7434,
+          "name": "索道管理費【説明名称：西日本スキーマスターズ負担金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 7495,
+          "name": "索道管理費【説明名称：アルペンスキー大会負担金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 7554,
+          "name": "索道管理費【説明名称：スキー場ＰＲ事業補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 7755,
+          "name": "索道管理費【説明名称：スキー場開き祭負担金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 7810,
+          "name": "移住定住促進事業【説明名称：宅地造成事業補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 7869,
+          "name": "仁王堂公園管理事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 7917,
+          "name": "名和公園管理事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 7964,
+          "name": "展望公園管理事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 8008,
+          "name": "社会福祉総務費（一般）【説明名称：防犯灯設置補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 8068,
+          "name": "集落環境整備事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 8117,
+          "name": "住宅用地造成事業費【説明名称：（一般会計繰出、償還金元利除く）】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 8184,
+          "name": "病児保育事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 8375,
+          "name": "教育振興費（一般）【説明名称：運転業務委託料】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 8439,
+          "name": "地域ぐるみの学校安全体制整備推進事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 8501,
+          "name": "スクールソーシャルワーカー等活用事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 8567,
+          "name": "小中連携学力向上推進事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 8627,
+          "name": "特別支援学校児童生徒通学支援事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 8689,
+          "name": "国際交流推進費（事務局費）",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 8750,
+          "name": "社会教育総務費（一般）【説明名称：次世代活動者育成支援補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 8817,
+          "name": "子育て講座",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 8864,
+          "name": "家庭教育支援基盤形成事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 9062,
+          "name": "社会教育総務費（一般）【説明名称：女性団体活動費補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 9127,
+          "name": "社会教育総務費（一般）【説明名称：青年団体活動補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 9191,
+          "name": "社会教育総務費（一般）【説明名称：子ども会育成連絡協議会補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 9259,
+          "name": "社会教育総務費（一般）【説明名称：青少年育成大山町民会議補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 9328,
+          "name": "成人式",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 9374,
+          "name": "人材育成交流事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 9421,
+          "name": "生涯学習大会",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 9466,
+          "name": "文化祭",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 9512,
+          "name": "保健体育総務費（一般）【説明名称：町体育協会補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 9716,
+          "name": "保健体育総務費（一般）【説明名称：町スポーツ少年団補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 9782,
+          "name": "プール管理費",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 9833,
+          "name": "グラウンド管理費",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 9881,
+          "name": "通学合宿推進事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 9928,
+          "name": "図書館費",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 9975,
+          "name": "保健体育総務費（一般）【説明名称：町民運動会補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 10034,
+          "name": "通学合宿推進事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 10081,
+          "name": "子ども体験活動支援事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 10134,
+          "name": "大山カレッジ事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 10324,
+          "name": "土曜授業等実施事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 10373,
+          "name": "保健体育総務費（一般）【説明名称：町民運動会補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 10432,
+          "name": "大山町老人福祉センター運営事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 10491,
+          "name": "大山農村環境改善センター運営費",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 10551,
+          "name": "通学合宿推進事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 10598,
+          "name": "子ども体験活動支援事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 10650,
+          "name": "大山公民館【説明名称：所子分館活動補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 10704,
+          "name": "大山分館【説明名称：大山分館活動補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 10758,
+          "name": "高麗分館【説明名称：高麗分館活動補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 10953,
+          "name": "図書館費",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 11000,
+          "name": "フォーラム管理事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 11049,
+          "name": "教育支援センター費（一般）",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 11109,
+          "name": "教職員研修等事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 11160,
+          "name": "ふるさと学習推進事業【説明名称：冊子印刷製本】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 11223,
+          "name": "家庭教育推進事業【説明名称：冊子印刷製本】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 11283,
+          "name": "ファミリーサポートセンター",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 11339,
+          "name": "読書推進事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 11385,
+          "name": "放課後児童クラブ【説明名称：歳入歳出合わせてみてみる】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 11590,
+          "name": "子育て支援センターなわ",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 11641,
+          "name": "子育て支援センターなかやま",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 11696,
+          "name": "子育て支援センターだいせん",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 11753,
+          "name": "子育て支援事業【説明名称：チャイルドシート購入補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 11815,
+          "name": "母子保健事業",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 11864,
+          "name": "社会教育総務費（一般）【説明名称：名和奏友会補助金】",
+          "status": "supported",
+          "reason": "R3 evaluation of R2; literal business name and explanation-name columns. Zero expenditure or closure direction is not proof of implementation. No numerical fields inferred."
+        },
+        {
+          "start": 11946,
+          "status": "not_evaluation_target",
+          "reason": "Explicitly excluded from second evaluation; not a newly accepted evaluated project"
+        },
+        {
+          "start": 12003,
+          "status": "not_evaluation_target",
+          "reason": "Explicitly excluded from second evaluation; not a newly accepted evaluated project"
+        },
+        {
+          "start": 12244,
+          "status": "not_evaluation_target",
+          "reason": "Explicitly excluded from second evaluation; not a newly accepted evaluated project"
+        },
+        {
+          "start": 12294,
+          "status": "not_evaluation_target",
+          "reason": "Explicitly excluded from second evaluation; not a newly accepted evaluated project"
+        },
+        {
+          "start": 12353,
+          "status": "not_evaluation_target",
+          "reason": "Explicitly excluded from second evaluation; not a newly accepted evaluated project"
+        },
+        {
+          "start": 12419,
+          "status": "not_evaluation_target",
+          "reason": "Explicitly excluded from second evaluation; not a newly accepted evaluated project"
+        },
+        {
+          "start": 12471,
+          "status": "not_evaluation_target",
+          "reason": "Explicitly excluded from second evaluation; not a newly accepted evaluated project"
+        },
+        {
+          "start": 12521,
+          "status": "not_evaluation_target",
+          "reason": "Explicitly excluded from second evaluation; not a newly accepted evaluated project"
+        },
+        {
+          "start": 12583,
+          "status": "not_evaluation_target",
+          "reason": "Explicitly excluded from second evaluation; not a newly accepted evaluated project"
+        },
+        {
+          "start": 12620,
+          "status": "not_evaluation_target",
+          "reason": "Explicitly excluded from second evaluation; not a newly accepted evaluated project"
+        },
+        {
+          "start": 12671,
+          "status": "not_evaluation_target",
+          "reason": "Explicitly excluded from second evaluation; not a newly accepted evaluated project"
+        },
+        {
+          "start": 12706,
+          "status": "not_evaluation_target",
+          "reason": "Explicitly excluded from second evaluation; not a newly accepted evaluated project"
+        },
+        {
+          "start": 12751,
+          "status": "not_evaluation_target",
+          "reason": "Explicitly excluded from second evaluation; not a newly accepted evaluated project"
+        },
+        {
+          "start": 12958,
+          "status": "not_evaluation_target",
+          "reason": "Explicitly excluded from second evaluation; not a newly accepted evaluated project"
+        },
+        {
+          "start": 13012,
+          "status": "not_evaluation_target",
+          "reason": "Explicitly excluded from second evaluation; not a newly accepted evaluated project"
+        },
+        {
+          "start": 13079,
+          "status": "not_evaluation_target",
+          "reason": "Explicitly excluded from second evaluation; not a newly accepted evaluated project"
+        },
+        {
+          "start": 13132,
+          "status": "not_evaluation_target",
+          "reason": "Explicitly excluded from second evaluation; not a newly accepted evaluated project"
+        },
+        {
+          "start": 13196,
+          "status": "not_evaluation_target",
+          "reason": "Explicitly excluded from second evaluation; not a newly accepted evaluated project"
+        },
+        {
+          "start": 13235,
+          "status": "not_evaluation_target",
+          "reason": "Explicitly excluded from second evaluation; not a newly accepted evaluated project"
+        },
+        {
+          "start": 13282,
+          "status": "not_evaluation_target",
+          "reason": "Explicitly excluded from second evaluation; not a newly accepted evaluated project"
+        },
+        {
+          "start": 13328,
+          "status": "not_evaluation_target",
+          "reason": "Explicitly excluded from second evaluation; not a newly accepted evaluated project"
+        },
+        {
+          "start": 4354,
+          "status": "account_identity_hold",
+          "reason": "Six clinic/account rows share aggregate number53; repeated clinic names with distinct accounting codes lack explicit business/account identity in saved text. Do not infer six distinct projects."
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "令和3年度 行政評価対象事業一覧表（令和2年度事後評価）2次評価結果"
+      ]
+    }
   },
   {
     "municipalityCode": "31386",
@@ -2422,7 +3417,7 @@
     "title": "〖令和5年度〗第10次若桜町総合計画≪評価シート≫",
     "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 23,
+    "accepted": 24,
     "duplicates": 0,
     "held": 0,
     "fullTextSha256": "150472d9be0265b6e614693b47bdfa60eade44690bca221a9a68c1af17336a28",
@@ -2570,6 +3565,12 @@
           "name": "若桜町企業版ふるさと納税地域創生基金",
           "status": "supported",
           "reason": "関連事業欄の明示された予算・決算・実施内容の単位。併記事業は分割せず、政策指標を事業評価に転用しない。金額列は未抽出。前年度比較値や公表年を対象年度と混同しない。"
+        },
+        {
+          "start": 3043,
+          "name": "若桜町林業研究会育成事業費補助金、若桜町林業担い手奨学金支援助成金、鳥取県森林整備担い手育成総合対策事業費補助金",
+          "status": "supported",
+          "reason": "Explicit grouped forestry subsidies with annual implementation block. Keep combined name; no splitting into three records or financial-column inference. Interleaved policy concern is not part of title."
         }
       ],
       "status": "reviewed_literal_businesses",
@@ -2578,8 +3579,8 @@
         "R4年度（1年目）"
       ]
     },
-    "reviewStatus": "processed",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage."
   },
   {
     "municipalityCode": "31325",
@@ -2589,7 +3590,7 @@
     "title": "〖令和6年度〗第10次若桜町総合計画≪評価シート≫",
     "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 23,
+    "accepted": 24,
     "duplicates": 0,
     "held": 0,
     "fullTextSha256": "715c6d146fe51d7072dcdf509cb97a1b01faa251b54ae2ac0c8495c6986323c2",
@@ -2737,6 +3738,12 @@
           "name": "若桜町企業版ふるさと納税地域創生基金",
           "status": "supported",
           "reason": "関連事業欄の明示された予算・決算・実施内容の単位。併記事業は分割せず、政策指標を事業評価に転用しない。金額列は未抽出。前年度比較値や公表年を対象年度と混同しない。"
+        },
+        {
+          "start": 3802,
+          "name": "若桜町林業研究会育成事業費補助金、若桜町林業担い手奨学金支援助成金、鳥取県森林整備担い手育成総合対策事業費補助金",
+          "status": "supported",
+          "reason": "Explicit grouped forestry subsidies with annual implementation block. Keep combined name; no splitting into three records or financial-column inference. Interleaved policy concern is not part of title."
         }
       ],
       "status": "reviewed_literal_businesses",
@@ -2745,8 +3752,8 @@
         "R5年度（2年目）"
       ]
     },
-    "reviewStatus": "processed",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage."
   },
   {
     "municipalityCode": "31325",
@@ -4031,9 +5038,9 @@
     "sourceId": "0153367cc8c6dd80c1f14aa4",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43094.pdf",
     "title": "PDF／204KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
+    "accepted": 4,
     "duplicates": 4,
     "held": 0,
     "fullTextSha256": "7067054a9a8dd9e226f58def13d227f582b5a6bc48eeb95df13c22e47f172e32",
@@ -4042,8 +5049,41 @@
     "fetchedAt": "2026-10-11T18:15:15.054112+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 162,
+          "name": "関西情報発信拠点推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 534,
+          "name": "ＳＤＧｓ未来都市推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2803,
+          "name": "起業のまち「鳥取」創造プロジェクト事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3114,
+          "name": "キャッシュレス決済促進事業費（物価高騰対応臨時交付金）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4051,10 +5091,10 @@
     "sourceId": "0a02946a0ed9c34f8fef2b11",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43096.pdf",
     "title": "PDF／175KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
-    "duplicates": 4,
+    "accepted": 5,
+    "duplicates": 6,
     "held": 0,
     "fullTextSha256": "6006563ae092c44d475736c4550f06dc7c862b4550673c9609a1c5c9aff7e716",
     "complete": true,
@@ -4062,8 +5102,59 @@
     "fetchedAt": "2026-10-11T18:15:47.360125+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 115,
+          "name": "鳥取市・麒麟のまち圏域魅力発見支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1095,
+          "name": "人材誘致・定住促進対策事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1882,
+          "name": "とっとり・つながり創出事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2803,
+          "name": "グリーンツーリズム推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3174,
+          "name": "ＳＤＧｓ未来都市推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 4408,
+          "name": "関係人口推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 4648,
+          "name": "定期借地権付土地分譲事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4111,9 +5202,9 @@
     "sourceId": "16cf5f18ac0818780b592909",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43113.pdf",
     "title": "PDF／140KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
+    "accepted": 2,
     "duplicates": 3,
     "held": 0,
     "fullTextSha256": "847a1e1bde1dc1a4d19526694bc9cf577c6841a17b712886b72bafc286ee69ee",
@@ -4122,8 +5213,29 @@
     "fetchedAt": "2026-10-11T18:18:57.446382+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 1123,
+          "name": "大型ごみ戸別有料収集事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2039,
+          "name": "住宅省エネルギー改修等促進事業費（物価高騰対応臨時交付金）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4131,9 +5243,9 @@
     "sourceId": "18064ca9be098ff2c81aabff",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43104.pdf",
     "title": "PDF／97KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
+    "accepted": 2,
     "duplicates": 2,
     "held": 0,
     "fullTextSha256": "eb388ae0856b7bf49f572020cea3241e143138658d190983fe6fa6138d7048da",
@@ -4142,8 +5254,29 @@
     "fetchedAt": "2026-10-11T18:17:08.380394+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 134,
+          "name": "重要文化財仁風閣保存整備事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1034,
+          "name": "埋蔵文化財体験・活用事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4151,9 +5284,9 @@
     "sourceId": "19a685695b18713fddbc9b6f",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43090.pdf",
     "title": "PDFファイル／101KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
+    "accepted": 1,
     "duplicates": 3,
     "held": 0,
     "fullTextSha256": "60a5ef2aa5688c48c9a2cd9d017af6297414a5e332000f38bc90e4da0cc97106",
@@ -4162,8 +5295,23 @@
     "fetchedAt": "2026-10-11T18:14:24.689586+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 1529,
+          "name": "外国人等児童生徒編入学支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4211,9 +5359,9 @@
     "sourceId": "2c0959a73ac58ffd7bbe9233",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43083.pdf",
     "title": "PDF／196KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
+    "accepted": 8,
     "duplicates": 8,
     "held": 0,
     "fullTextSha256": "fc498f0dfa2801323c8e900ed8f9500dc638e96012ba94bd68ab03e1cc452f77",
@@ -4222,8 +5370,65 @@
     "fetchedAt": "2026-10-11T18:13:22.333008+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 172,
+          "name": "高齢者介護予防・地域活動等支援バス運行事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1160,
+          "name": "eスポーツを活用した高齢者等の社会参加推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2460,
+          "name": "福祉ボランティアのまちづくり事業助成交付金",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2864,
+          "name": "老人の明るいまち推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3812,
+          "name": "高齢者の保健事業と介護予防の一体的実施事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 5462,
+          "name": "健康教育・健康相談・訪問指導事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 5950,
+          "name": "シルバー人材センター運営補助金",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 7853,
+          "name": "地域リハビリテーション活動支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4231,9 +5436,9 @@
     "sourceId": "2dc6e6592b017031e09d4cda",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43084.pdf",
     "title": "PDF／137KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
+    "accepted": 1,
     "duplicates": 6,
     "held": 0,
     "fullTextSha256": "834bf5572c933aeae159360a31d509c6d2f6e2367641f6abac2c8b0ee7076797",
@@ -4242,8 +5447,23 @@
     "fetchedAt": "2026-10-11T18:13:33.071867+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 766,
+          "name": "夜間休日急患診療所運営委託費等",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4251,9 +5471,9 @@
     "sourceId": "2f4b8898ea2d2350db6cbf93",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43105.pdf",
     "title": "PDF／175KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
+    "accepted": 5,
     "duplicates": 11,
     "held": 0,
     "fullTextSha256": "f576714130837bf3c020d291b0ff23c51c3c45f0a8e9b7f482ac5de1d2c1940f",
@@ -4262,8 +5482,47 @@
     "fetchedAt": "2026-10-11T18:17:20.862398+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 85,
+          "name": "鳥取豊岡宮津自動車道整備推進協議会負担金",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1476,
+          "name": "地域主体型生活交通確保支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3214,
+          "name": "福祉のまちづくり推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3751,
+          "name": "住宅セーフティネット事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 4588,
+          "name": "公共下水道建設改良事業（管渠費）「未普及対策事業」",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4271,10 +5530,10 @@
     "sourceId": "32b11a9714867de901e9c1cb",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43092.pdf",
     "title": "PDF／278KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
-    "duplicates": 3,
+    "accepted": 6,
+    "duplicates": 11,
     "held": 0,
     "fullTextSha256": "5b232c0286a218bc8a5836d8ff93d38145ed11608c32ecb393c3fde1903ee573",
     "complete": true,
@@ -4282,8 +5541,101 @@
     "fetchedAt": "2026-10-11T18:14:45.286240+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 156,
+          "name": "女性デジタル人材育成事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 531,
+          "name": "鳥取市・麒麟のまち圏域魅力発見支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1023,
+          "name": "環境教育推進費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1794,
+          "name": "スマートエネルギータウン構想推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3038,
+          "name": "関西情報発信拠点推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3410,
+          "name": "ＳＤＧｓ未来都市推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 4179,
+          "name": "雇用促進協議会支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 5336,
+          "name": "ふるさと起業家支援プロジェクト事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 5982,
+          "name": "物産振興体制強化事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 6614,
+          "name": "企業立地促進補助金",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 7018,
+          "name": "労働力確保対策企業支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 7779,
+          "name": "起業のまち「鳥取」創造プロジェクト事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 8149,
+          "name": "人材確保推進事業費（物価高騰対応臨時交付金）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 8610,
+          "name": "農商工連携マッチング事業費（物価高騰対応臨時交付金）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4291,10 +5643,10 @@
     "sourceId": "438a19ae211033f799534757",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43077.pdf",
     "title": "PDF／241KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
-    "duplicates": 21,
+    "accepted": 18,
+    "duplicates": 22,
     "held": 0,
     "fullTextSha256": "6ee575c271176cdbe431c2b58197a0a87160348458c7082ae3537589f52390e7",
     "complete": true,
@@ -4302,8 +5654,131 @@
     "fetchedAt": "2026-10-11T18:12:24.839381+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 140,
+          "name": "地域食堂ネットワーク運営費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 494,
+          "name": "子どもの居場所づくり推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 881,
+          "name": "男女共同参画かがやき企業認定事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1292,
+          "name": "女性デジタル人材育成事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2706,
+          "name": "子どもの貧困対策推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3485,
+          "name": "ひとり親家庭自立支援給付金事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3941,
+          "name": "ファミリーサポートセンター事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 4593,
+          "name": "保育所緊急整備事業費補助金",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 5578,
+          "name": "こども誰でも通園制度事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 9360,
+          "name": "インクルーシブ教育システム推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 10704,
+          "name": "子育て世代包括支援センター運営費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 11574,
+          "name": "希望をかなえる妊娠・出産支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 12385,
+          "name": "健やかな妊娠・出産のための応援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 12795,
+          "name": "子育て支援アプリ活用推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 13129,
+          "name": "出産・子育て応援交付金事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 14490,
+          "name": "放課後子ども教室推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 14727,
+          "name": "働き方改革推進事業費（物価高騰対応臨時交付金）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 15011,
+          "name": "マタニティサポート！妊婦さん応援給付金事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 15275,
+          "name": "放課後児童対策事業費（物価高騰対応臨時交付金）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4331,9 +5806,9 @@
     "sourceId": "450bf628bcdd2140839975c0",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43082.pdf",
     "title": "PDF／99KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
+    "accepted": 4,
     "duplicates": 1,
     "held": 0,
     "fullTextSha256": "3b4ec258b8889b983feff613a7dc3eb076f44f6cbd87bdf41a87e4abd3b9a485",
@@ -4342,8 +5817,41 @@
     "fetchedAt": "2026-10-11T18:13:13.931794+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 156,
+          "name": "身体・知的・精神障害者相談員設置事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 509,
+          "name": "医療的ケア児等送迎支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1248,
+          "name": "コミュニケーション支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1604,
+          "name": "障がい施設サービス利用コーディネート機能強化事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4351,9 +5859,9 @@
     "sourceId": "468ed5add8f0fdba6deaa3e2",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43097.pdf",
     "title": "PDF／205KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
+    "accepted": 5,
     "duplicates": 7,
     "held": 0,
     "fullTextSha256": "7540fd3d8c0dbb9fff8f6848e60d026de99a597bfcd0cdccae3bde88a9aac956",
@@ -4362,8 +5870,47 @@
     "fetchedAt": "2026-10-11T18:15:57.042423+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 770,
+          "name": "周遊観光促進事業費（物価高騰対応臨時交付金）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1220,
+          "name": "大阪・関西万博誘客アクション事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 5672,
+          "name": "インバウンド等滞在環境上質化事業費（物価高騰対応臨時交付金）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 6354,
+          "name": "国際観光推進事業費（物価高騰対応臨時交付金）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 6913,
+          "name": "観光産業育成支援事業費（物価高騰対応臨時交付金）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4391,10 +5938,10 @@
     "sourceId": "47ecd52aafe4cb0e8ffc39fa",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43087.pdf",
     "title": "PDF／127KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
-    "duplicates": 1,
+    "accepted": 3,
+    "duplicates": 3,
     "held": 0,
     "fullTextSha256": "82ad0b43ce33cfe784c234a209a508dfb1d85410b28a173994a81f6de78f3e94",
     "complete": true,
@@ -4402,8 +5949,47 @@
     "fetchedAt": "2026-10-11T18:14:04.811383+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 150,
+          "name": "女と男とのハーモニーフェスタ事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 527,
+          "name": "男女共同参画登録団体補助金",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1468,
+          "name": "男女共同参画かがやき企業認定事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1957,
+          "name": "女性応援つながりサポート事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2340,
+          "name": "女性デジタル人材育成事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4431,9 +6017,9 @@
     "sourceId": "5114f39243c636729c4f5211",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43085.pdf",
     "title": "PDF／145KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
+    "accepted": 4,
     "duplicates": 5,
     "held": 0,
     "fullTextSha256": "850f624c73a2eed0bf44658e6977f9c1971bd1036777e6b2ae60eaecab2e2c67",
@@ -4442,8 +6028,41 @@
     "fetchedAt": "2026-10-11T18:13:43.346703+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 1454,
+          "name": "麒麟のまち交流スポーツ大会事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1827,
+          "name": "ガイナーレ鳥取力向上事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2351,
+          "name": "子どものこころづくり支援「夢の教室」事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2771,
+          "name": "東京オリ・パラレガシー継承事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4451,10 +6070,10 @@
     "sourceId": "5580c830ae78cdb15a9e9427",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43099.pdf",
     "title": "PDF／115KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
-    "duplicates": 2,
+    "accepted": 1,
+    "duplicates": 3,
     "held": 0,
     "fullTextSha256": "5b93e6728fa5e31030f5b16670aa31ff22d04d0633b3a7d4073149d6f5e0c5f5",
     "complete": true,
@@ -4462,8 +6081,29 @@
     "fetchedAt": "2026-10-11T18:16:08.449957+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 1062,
+          "name": "鳥取市知名度アップ大作戦事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1569,
+          "name": "関西情報発信拠点推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4471,9 +6111,9 @@
     "sourceId": "594aacd5897a0f7acb15ab52",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43111.pdf",
     "title": "PDF／80KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
+    "accepted": 1,
     "duplicates": 2,
     "held": 0,
     "fullTextSha256": "52bba6f1f6b37e42dc4da7780f3ea2e17022b8d37575ffa70c98978d14e99adf",
@@ -4482,8 +6122,23 @@
     "fetchedAt": "2026-10-11T18:18:32.107741+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 582,
+          "name": "安全安心まちづくり推進助成費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4491,9 +6146,9 @@
     "sourceId": "5d7307da0126f29013e8b44c",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43110.pdf",
     "title": "PDF／189KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
+    "accepted": 3,
     "duplicates": 11,
     "held": 0,
     "fullTextSha256": "bae500a1ad7f505405a5939d2e642371f4b5532e29365e0ce217d246188a8ee7",
@@ -4502,8 +6157,35 @@
     "fetchedAt": "2026-10-11T18:18:17.632665+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 3530,
+          "name": "避難行動要支援者支援制度普及促進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 4822,
+          "name": "住宅・建築物耐震診断・改修支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 5228,
+          "name": "公共下水道建設改良事業（管渠費）「浸水対策事業」",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4551,10 +6233,10 @@
     "sourceId": "6927f18e831c20fc05b0d89d",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43108.pdf",
     "title": "PDF／126KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
-    "duplicates": 2,
+    "accepted": 3,
+    "duplicates": 4,
     "held": 0,
     "fullTextSha256": "0a9757c418d11b7d5ee391c3b9530d41e897cfef2f695e6a00ea1f1a69076b0b",
     "complete": true,
@@ -4562,8 +6244,47 @@
     "fetchedAt": "2026-10-11T18:17:57.780919+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 85,
+          "name": "山陰縦貫・超高速鉄道整備推進市町村会議負担金",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 329,
+          "name": "要望活動事務費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 586,
+          "name": "鳥取県東部鉄道利用促進実行委員会負担金",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 895,
+          "name": "鳥取空港の利用を促進する懇話会負担金",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1272,
+          "name": "地域主体型生活交通確保支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4772,9 +6493,9 @@
     "sourceId": "8b4bff03ac87b97454165413",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43106.pdf",
     "title": "PDF／143KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
+    "accepted": 7,
     "duplicates": 2,
     "held": 0,
     "fullTextSha256": "4f26fe3ca2c53684f7d8c8dcde09b5476bf2ba6d78ada6ff257d12c9eb32d2eb",
@@ -4783,8 +6504,59 @@
     "fetchedAt": "2026-10-11T18:17:33.496796+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 115,
+          "name": "商店街にぎわい形成促進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1085,
+          "name": "遊休不動産利活用推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1602,
+          "name": "中心市街地活性化助成事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1923,
+          "name": "中心市街地活性化推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2858,
+          "name": "鳥取駅前太平線再生プロジェクト事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3203,
+          "name": "鳥取駅周辺再整備推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3759,
+          "name": "旧本庁舎跡地にぎわい創出事業費（物価高騰対応臨時交付金）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4792,10 +6564,10 @@
     "sourceId": "8e76117529242259f8fff771",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43100.pdf",
     "title": "PDF／156KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
-    "duplicates": 2,
+    "accepted": 2,
+    "duplicates": 4,
     "held": 0,
     "fullTextSha256": "dce5ba5b226f9f57a0ae45abd5f5a59b5fe5c8aa7ed4733b14237610ec46650d",
     "complete": true,
@@ -4803,8 +6575,41 @@
     "fetchedAt": "2026-10-11T18:16:27.504973+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 663,
+          "name": "鳥取・岡山県境連携推進協議会負担金",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1277,
+          "name": "人材誘致・定住促進対策事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2249,
+          "name": "広域観光開拓・推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3339,
+          "name": "鳥の農場文化交流創造事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4953,10 +6758,10 @@
     "sourceId": "a4798ca1a298a0f8fcef17ef",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43095.pdf",
     "title": "PDF／269KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
-    "duplicates": 16,
+    "accepted": 10,
+    "duplicates": 19,
     "held": 0,
     "fullTextSha256": "54c6a1fc567d166b47560e205cda2402fb2773b8c0d6497b89ce29a02e1e219c",
     "complete": true,
@@ -4964,8 +6769,105 @@
     "fetchedAt": "2026-10-11T18:15:36.990087+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 156,
+          "name": "学校給食計画栽培支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 536,
+          "name": "ＳＤＧｓ未来都市推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2067,
+          "name": "農産物販路拡大支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3089,
+          "name": "スマート農業実装加速化促進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3497,
+          "name": "もうかる６次化・農商工連携支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3910,
+          "name": "鳥の農場文化交流創造事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 5558,
+          "name": "林業労働者確保育成対策事業負担金",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 5881,
+          "name": "林業労働者雇用条件改善事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 6221,
+          "name": "林業新規就業者支援対策事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 7683,
+          "name": "森林産業イノベーション推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 7980,
+          "name": "鳥取かにフェスタ開催事業費補助金",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 8886,
+          "name": "港整備推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 10695,
+          "name": "中山間地域等直接支払交付金",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 4708,
+          "status": "explicit_nonimplementation_hold",
+          "reason": "Explicitly states implementation deferred and no actual activity; no project execution inferred."
+        },
+        {
+          "start": 7327,
+          "status": "explicit_nonimplementation_hold",
+          "reason": "Explicitly carried to FY2025 with no FY2024 actual activity; do not assign future implementation to FY2024."
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -4973,10 +6875,10 @@
     "sourceId": "a47cbc5333c53bed57c96f8f",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43102.pdf",
     "title": "PDF／136KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
-    "duplicates": 3,
+    "accepted": 4,
+    "duplicates": 4,
     "held": 0,
     "fullTextSha256": "a169d6d1af6384cdecec76f51d0d38ea5d676648fe9b7459b047bc4ee5a70561",
     "complete": true,
@@ -4984,8 +6886,47 @@
     "fetchedAt": "2026-10-11T18:16:49.945012+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 619,
+          "name": "文化芸術推進事業補助金",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1072,
+          "name": "舞台芸術×地域活性化事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1549,
+          "name": "麒麟のまち鳥取市美術展開催費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2444,
+          "name": "文化交流拠点周辺整備事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3154,
+          "name": "文化芸術のまちづくり推進事業費（物価高騰対応臨時交付金）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -5068,10 +7009,10 @@
     "sourceId": "ada8cda0c4ffd08abf3e4ffa",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43078.pdf",
     "title": "PDF／234KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
-    "duplicates": 7,
+    "accepted": 8,
+    "duplicates": 9,
     "held": 0,
     "fullTextSha256": "ec8eec4630978e5011d96da62d5a1be9b80f8b930ce89dc7444a6c0b3f1f9b19",
     "complete": true,
@@ -5079,8 +7020,77 @@
     "fetchedAt": "2026-10-11T18:12:33.204828+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 490,
+          "name": "鳥取市・麒麟のまち圏域魅力発見支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 990,
+          "name": "舞台芸術×地域活性化事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1443,
+          "name": "鳥取市グローバル人材育成事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1885,
+          "name": "語学指導等外国青年招致事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 4445,
+          "name": "魅力と徹底の学力向上推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 5161,
+          "name": "自立と創造の学校・学園づくり推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 5742,
+          "name": "ＧＩＧＡスクール構想事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 6987,
+          "name": "市立保育園完全給食化事業費（物価高騰対応臨時交付金）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 7280,
+          "name": "小学校大規模改造事業費（令和５年度国１次補正）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 7783,
+          "name": "中学校大規模改造事業費（令和５年度国１次補正）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -5168,10 +7178,10 @@
     "sourceId": "c35a74a3ddd13b06811c11c7",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43114.pdf",
     "title": "PDF／131KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
-    "duplicates": 4,
+    "accepted": 1,
+    "duplicates": 5,
     "held": 0,
     "fullTextSha256": "0c61df17dc5cefb43d74fb6b1c1b169e04856b17d943028c576accd6a20d21ec",
     "complete": true,
@@ -5179,8 +7189,29 @@
     "fetchedAt": "2026-10-11T18:19:09.854705+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 118,
+          "name": "生活衛生営業許可・監督指導事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 943,
+          "name": "環境教育推進費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -5328,10 +7359,10 @@
     "sourceId": "d7fc508bf14c6e48f97f72b1",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43081.pdf",
     "title": "PDF／172KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
-    "duplicates": 3,
+    "accepted": 8,
+    "duplicates": 5,
     "held": 0,
     "fullTextSha256": "fbe55af944ee01d92569980db4b078f075d7ea62099bdd1d67013e5f88e084c1",
     "complete": true,
@@ -5339,8 +7370,77 @@
     "fetchedAt": "2026-10-11T18:13:03.828466+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 537,
+          "name": "介護保険事業計画・高齢者福祉計画推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 926,
+          "name": "とっとり東部権利擁護支援センター運営事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1678,
+          "name": "包括支援センター運営事業費（事業運営費）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2152,
+          "name": "生活支援体制整備事業費（事業運営費）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2908,
+          "name": "雇用促進協議会支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3430,
+          "name": "地域リハビリテーション活動支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3984,
+          "name": "在宅医療・介護連携推進事業費（事業運営費）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 4499,
+          "name": "認知症地域支援・ケア向上事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 5093,
+          "name": "認知症初期集中支援推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 6048,
+          "name": "認知症サポーター等養成事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -5348,10 +7448,10 @@
     "sourceId": "df8d82cf180be4d22081f7df",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43107.pdf",
     "title": "PDF／190KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
-    "duplicates": 3,
+    "accepted": 8,
+    "duplicates": 7,
     "held": 0,
     "fullTextSha256": "47f6b3144a449f6d407287e53fb77d50e9c013017a72625b2c687d666cc1ece8",
     "complete": true,
@@ -5359,8 +7459,89 @@
     "fetchedAt": "2026-10-11T18:17:44.553343+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 384,
+          "name": "人材誘致・定住促進対策事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1171,
+          "name": "とっとり・つながり創出事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2554,
+          "name": "中山間地域・買い物支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2933,
+          "name": "地域おこし協力隊定住・定着支援事業",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3566,
+          "name": "伝統工芸等後継者育成支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3961,
+          "name": "地域おこし協力隊事業費（国府地域）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 4407,
+          "name": "地域プロジェクトマネージャー事業費（河原地域）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 4839,
+          "name": "地域おこし協力隊事業費（用瀬地域）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 5462,
+          "name": "地域おこし協力隊事業費（気高地域）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 5911,
+          "name": "地域おこし協力隊事業費（鹿野地域）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 6303,
+          "name": "文化交流拠点周辺整備事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 6671,
+          "name": "わったいな祭事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -5368,9 +7549,9 @@
     "sourceId": "ebc71add7fb0b02ae390f842",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43079.pdf",
     "title": "PDF／143KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
+    "accepted": 7,
     "duplicates": 1,
     "held": 0,
     "fullTextSha256": "25cb10eca4877730db0f721c4fa796dcc483c69375776a81005919c1f20ecbc4",
@@ -5379,8 +7560,59 @@
     "fetchedAt": "2026-10-11T18:12:44.050202+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 704,
+          "name": "地域学校協働活動推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1147,
+          "name": "鳥取市生涯学習推進講座麒麟のまちアカデミー開設費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1568,
+          "name": "子育てネットワーク推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1962,
+          "name": "若者応援プロジェクト事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2452,
+          "name": "さじアストロパーク企画イベント等事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2787,
+          "name": "地域社会教育活動総合事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3208,
+          "name": "図書館情報管理システム処理費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -5388,10 +7620,10 @@
     "sourceId": "f413b7689c0da8849a081027",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43091.pdf",
     "title": "PDF／112KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
-    "duplicates": 4,
+    "accepted": 2,
+    "duplicates": 5,
     "held": 0,
     "fullTextSha256": "a63725ec5d3c3a62f38b76b3a6139e1e1754828ca8c841984e1e8230e791c403",
     "complete": true,
@@ -5399,8 +7631,35 @@
     "fetchedAt": "2026-10-11T18:14:34.186165+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 162,
+          "name": "若者による地方創生政策推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1822,
+          "name": "ジゲおこし事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2104,
+          "name": "町内集会所建設等補助金（物価高騰対応臨時交付金）",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -5428,10 +7687,10 @@
     "sourceId": "f8241c0edb0a40f49208e68e",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43088.pdf",
     "title": "PDF／143KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
-    "duplicates": 1,
+    "accepted": 2,
+    "duplicates": 7,
     "held": 0,
     "fullTextSha256": "c6da1666a5ca3eba7c8cb5842237deda2d19739547ae17008aa0804911f94922",
     "complete": true,
@@ -5439,8 +7698,65 @@
     "fetchedAt": "2026-10-11T18:14:13.847514+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 179,
+          "name": "地域共生社会推進・包括的支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1072,
+          "name": "地域食堂ネットワーク運営費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1426,
+          "name": "子どもの居場所づくり推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1964,
+          "name": "地域の「話し愛・支え愛」推進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2439,
+          "name": "福祉事業所指導監督事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2894,
+          "name": "避難行動要支援者支援制度普及促進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3283,
+          "name": "とっとり東部権利擁護支援センター運営事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3738,
+          "name": "ヤングケアラー支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -5468,10 +7784,10 @@
     "sourceId": "fd2fea5f20471840d12724e8",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43109.pdf",
     "title": "PDF／160KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
-    "duplicates": 3,
+    "accepted": 2,
+    "duplicates": 7,
     "held": 0,
     "fullTextSha256": "012d3c492874b4401389b359ba30ccb23f5d7e2172c0c67cded2e5c90911e04c",
     "complete": true,
@@ -5479,8 +7795,53 @@
     "fetchedAt": "2026-10-11T18:18:07.735308+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 615,
+          "name": "市政広報費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1398,
+          "name": "超高速情報通信基盤整備事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1799,
+          "name": "鳥取県自治体ＩＣＴ共同化推進協議会事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 2466,
+          "name": "大型ごみ戸別有料収集事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3129,
+          "name": "ＧＩＧＡスクール構想事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 3688,
+          "name": "図書館情報管理システム処理費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   },
   {
     "municipalityCode": "31201",
@@ -5488,9 +7849,9 @@
     "sourceId": "fd8f8cb63aec7733effa501e",
     "url": "https://www.city.tottori.lg.jp/uploaded/attachment/43080.pdf",
     "title": "PDF／108KB",
-    "status": "duplicate",
+    "status": "processed",
     "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete",
-    "accepted": 0,
+    "accepted": 2,
     "duplicates": 1,
     "held": 0,
     "fullTextSha256": "2b325b4b71582b3e605c033e5e2a021f39a48d0185ac07cd261bbe5fa00abad3",
@@ -5499,7 +7860,33 @@
     "fetchedAt": "2026-10-11T18:12:53.116349+00:00",
     "continuationParts": 0,
     "parserFamilies": 4,
-    "reviewStatus": "duplicate",
-    "reviewReason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    "reviewStatus": "reviewed_individual_names_and_holds",
+    "reviewReason": "Source-specific literal titles reviewed; exclusions/aliases/period holds retained. Source row coverage audits distinguish duplicate rows from complete book coverage.",
+    "layoutReview": {
+      "units": [
+        {
+          "start": 191,
+          "name": "生活困窮者自立相談支援事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1002,
+          "name": "ジェネリック医薬品利用促進事業費",
+          "status": "supported",
+          "reason": "令和6年度成果の個別事務事業表。事業名セルの折返しを、行番号と各行先頭の原文位置を個別確認して結合。同年度同名の他施策への再掲は重複除外。横長表の金額・成果・課題列は推測で分離せず、概要欄の令和7年度を実績年度にしない。"
+        },
+        {
+          "start": 1316,
+          "status": "alias_identity_hold",
+          "reason": "Alias hold against retained FY2024 candidate cached-31201-98b069308599f7316cb862fd (介護給付適正化事業): same care-plan inspection,417 cases in both sources. Preserve fuller title and source as alternative evidence, do not append a second project or overwrite retained candidate."
+        }
+      ],
+      "status": "reviewed_literal_businesses",
+      "reason": "Source-specific named annual assessed activities; candidate counts do not assert implementation. No policy KPI or financial-column inference.",
+      "proofs": [
+        "（令和6～7年度） （令和6年度） （実績）"
+      ]
+    }
   }
 ]

@@ -1,0 +1,67 @@
+{
+  "sourceId": "cbf1084567037b6e4e4b44a6",
+  "reviewedLiteralRows": 146,
+  "newAccepted": 75,
+  "duplicatesConservativelyCollapsed": 71,
+  "excludedSecondEvaluationRows": 21,
+  "clinicRowsHeld": 6,
+  "repeatedNamesAcrossDepartments": {
+    "通学合宿推進事業": [
+      {
+        "number": "131",
+        "department": "名和公民館",
+        "sourceBusinessCode": "see literal row"
+      },
+      {
+        "number": "134",
+        "department": "中山公民館",
+        "sourceBusinessCode": "see literal row"
+      },
+      {
+        "number": "142",
+        "department": "大山公民館",
+        "sourceBusinessCode": "see literal row"
+      }
+    ],
+    "図書館費": [
+      {
+        "number": "132",
+        "department": "名和公民館",
+        "sourceBusinessCode": "see literal row"
+      },
+      {
+        "number": "148",
+        "department": "大山公民館",
+        "sourceBusinessCode": "see literal row"
+      }
+    ],
+    "保健体育総務費（一般）【説明名称：町民運動会補助金】": [
+      {
+        "number": "133",
+        "department": "名和公民館",
+        "sourceBusinessCode": "see literal row"
+      },
+      {
+        "number": "139",
+        "department": "中山公民館",
+        "sourceBusinessCode": "see literal row"
+      }
+    ],
+    "子ども体験活動支援事業": [
+      {
+        "number": "136",
+        "department": "中山公民館",
+        "sourceBusinessCode": "see literal row"
+      },
+      {
+        "number": "144",
+        "department": "大山公民館",
+        "sourceBusinessCode": "see literal row"
+      }
+    ]
+  },
+  "reason": "Source business code repeats across public halls; preserve every literal row in mapping and avoid adding same-name/year records until independent record identity is established. Existing values and quotes unchanged. Document headline173 does not override observed row accounting.",
+  "observedPhysicalRows": 173,
+  "headlineClaims": "2次評価対象173事業（対象外21事業は除く）",
+  "countReconciliationHold": "Observed146 evaluated named rows +6 clinic/account rows +21 excluded rows=173. Header would imply194 including exclusions; source count claim not reconciled. No21 invented records; needs official clarification or coordinate/original table evidence before claiming header-based completeness."
+}

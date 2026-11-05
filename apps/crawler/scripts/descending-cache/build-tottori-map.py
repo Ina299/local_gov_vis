@@ -16,7 +16,7 @@ def verified_text(id,code):
 for c in json.loads((stage/'tottori-reviewed.json').read_text()):
  t=verified_text(c['sourceId'],c['municipalityCode']);assert hashlib.sha256(t.encode()).hexdigest()==c['fullTextSha256'];assert c['proof'] in t;u=t.encode('utf-16-le')
  for h in c['rows']+c['holds']:
-  if 'name' in h: assert h['name'] in h['raw'] or h.get('titleFragments') or h.get('titleSegments'), 'Title needs literal or fragment proof'
+  if 'name' in h: assert h['name'] in h['raw'] or h.get('titleFragments') or h.get('titleSegments') or h.get('composedTitle'), 'Title needs literal or fragment proof'
   assert u[h['start']*2:h['start']*2+len(h['raw'].encode('utf-16-le'))].decode('utf-16-le')==h['raw']
   if h.get('context'):assert u[h['contextStart']*2:h['contextStart']*2+len(h['context'].encode('utf-16-le'))].decode('utf-16-le')==h['context']
   if h.get('yearProof'):assert h['yearProof'] in t
@@ -30,6 +30,13 @@ for c in json.loads((stage/'tottori-reviewed.json').read_text()):
     assert u[a*2:b*2].decode('utf-16-le')==seg['raw'];spans.append((a,b))
    spans.sort();assert all(spans[k][0]>=spans[k-1][1] for k in range(1,len(spans)))
    assert h['name']==re.sub(r'\s+','',''.join(seg['raw'] for seg in h['titleSegments']))
+  if h.get('composedTitle'):
+   ct=h['composedTitle'];assert ct['baseSegments'] and not h.get('titleSegments') and not h.get('titleFragments');spans=[]
+   for seg in ct['baseSegments']+ct['descriptionSegments']:
+    a=seg['start'];b=a+len(seg['raw'].encode('utf-16-le'))//2;assert seg['raw'] and a>=h['start'] and b<=h['start']+len(h['raw'].encode('utf-16-le'))//2
+    assert u[a*2:b*2].decode('utf-16-le')==seg['raw'];spans.append((a,b))
+   spans.sort();assert all(spans[k][0]>=spans[k-1][1] for k in range(1,len(spans)))
+   base=''.join(x['raw'] for x in ct['baseSegments']);desc=''.join(x['raw'] for x in ct['descriptionSegments']);assert h['name']==base+('【説明名称：'+desc+'】' if desc else '')
  if c.get('pageId'):
   m=json.loads((docs.parent/'municipalities'/(c['municipalityCode']+'.json')).read_text());src=next(x for x in m['sources'] if x['id']==c['sourceId']);page=next(x for x in m['sources'] if x['id']==c['pageId']);pt=verified_text(c['pageId'],c['municipalityCode'])
   assert hashlib.sha256(pt.encode()).hexdigest()==c['pageHash'] and c['pageProof'] in pt

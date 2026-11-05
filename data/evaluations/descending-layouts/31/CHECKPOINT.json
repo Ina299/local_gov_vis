@@ -1,25 +1,25 @@
 {
-  "candidateRecords": 337,
+  "candidateRecords": 553,
   "candidateMunicipalities": 9,
   "perMunicipality": {
     "江府町": 93,
     "南部町": 39,
-    "大山町": 2,
+    "大山町": 77,
     "日吉津村": 34,
     "琴浦町": 10,
-    "若桜町": 46,
+    "若桜町": 48,
     "境港市": 5,
     "倉吉市": 106,
-    "鳥取市": 2
+    "鳥取市": 141
   },
-  "reviewedProposals": 350,
-  "newProposalDuplicates": 10,
+  "reviewedProposals": 683,
+  "newProposalDuplicates": 127,
   "sourcesInventoried": 159,
   "completeBodies": 150,
   "incompleteBodies": 1,
   "missingBodies": 8,
-  "validatedCumulativeCandidates": 14986,
-  "validatedEvidence": 38388,
+  "validatedCumulativeCandidates": 15202,
+  "validatedEvidence": 39412,
   "excludedFromCumulative": [
     "Okinawa1084",
     "initial93"
@@ -33,17 +33,17 @@
     "31370 湯梨浜町"
   ],
   "phaseComplete": false,
-  "pendingExternalProposals": 185,
+  "pendingExternalProposals": 47,
   "checks": {
-    "focused": "5/5",
-    "crawler": "584/584",
+    "focused": "8/8",
+    "crawler": "587/587",
     "web": "256/256",
     "typecheck": "pass",
-    "lint": "pass; existing font warning",
-    "national": "pass; branch baseline500/92038 unchanged",
+    "lint": "pass with existing font warning",
+    "national": "pass; unchanged local branch baseline",
     "static": "109 pages /local_gov_vis",
-    "quotes": "38388 across14986 candidates"
+    "quotes": "39412 across15202 candidates"
   },
-  "remaining": "185 additional title proposals preview as139 new records, not installed or full-regression-validated. Daisen146 literal rows additionally mapped pending proof/parser/duplicate validation.8 missing bodies and1 incomplete remain held. No municipal requests.",
+  "remaining": "47 Kurayoshi R3 actual-block proposals hash-verified in external preview; not included in553. Specific old plan/actual-coordinate, KPI period, clinic/account identity, incomplete/missing body holds retained. No municipality acquisition.",
   "additionalExplicitPeriodHolds": 3
 }
