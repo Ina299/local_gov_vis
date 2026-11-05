@@ -3,7 +3,7 @@ import { type CachedInput, evidence, project } from '../shared';
 import { mergeReprints, nfkc, type Entry } from '../batch9/i1-util';
 
 // ---------------------------------------------------------------- 今治市（教育委員会 点検及び評価報告書 令和７年度・令和６年度対象）
-// 各「取組事業NN」の見出し（〇事業名）と《事業概要》を収録。KPI表は年度列と値の対応が段組みで崩れる回があるため未収録。
+// 各「取組事業NN」の見出し（〇事業名）と《事業概要》を収録。《事業概要》は目的の欄ではなく事業の概要のため、事業内容（activities）とする。KPI表は年度列と値の対応が段組みで崩れる回があるため未収録。
 function extractImabari(input: CachedInput): ProjectEvaluation[] {
   if (input.municipalityCode !== '38202' || input.sourceId !== '2c7a24345e7aad651c437bc5') return [];
   const t = input.text;
@@ -18,7 +18,7 @@ function extractImabari(input: CachedInput): ProjectEvaluation[] {
     p.evidence.push(evidence(input, title, 0));
     const ov = /《事業概要》\n([\s\S]*?)\n《令和６年度の主な取組・実績》/.exec(t.slice(start, start + 1500));
     if (ov && !/- \d+ -/.test(ov[1])) {
-      p.purpose = ov[1].trim();
+      p.activities = ov[1].trim();
       p.evidence.push(evidence(input, ov[0], start + ov.index));
     }
     p.warnings.push('教育委員会の点検・評価報告書（令和７年度・令和６年度対象）の取組事業。評価年度は表紙の「令和７年度」、評価対象年度は「令和６年度対象」による。KPI表（実績値・目標値）は年度列との対応が段組みで崩れる回があるため未収録。事業費の記載はなく、担当課の記載もない。事業ごとの評価記号はなく、評価は《事業の課題、評価、今後の展開》の文章のみ（未収録）。');

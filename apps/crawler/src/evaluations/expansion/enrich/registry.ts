@@ -43,6 +43,7 @@ import { entries as m28 } from './m28';
 import { entries as m29 } from './m29';
 import { entries as p0 } from './p0';
 import { entries as p1 } from './p1';
+import { entries as p2 } from './p2';
 
 type Entry = { extract: (input: CachedInput, inputs: CachedInput[]) => ProjectEvaluation[]; scope: string };
 
@@ -74,4 +75,5 @@ export const enrichmentExtractors: { since: string; extractors: Record<string, E
   { since: '2026-11-05T00:00:00.000Z', extractors: combine([m22, m23, m24, m25, m26, m27, m28, m29]) },
   // 年度の記載がない公開済みレコードを、同じページに掲載された資料から作った事業票で補う（enrichment.ts の samePage）
   { since: '2026-11-06T00:00:00.000Z', extractors: combine([p0, p1]) },
+  { since: '2026-11-07T00:00:00.000Z', extractors: combine([p2]) },
 ];

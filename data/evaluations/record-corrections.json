@@ -39,6 +39,45 @@
           "enrichment": true
         }
       ]
+    },
+    {
+      "correctedAt": "2026-11-05T15:19:45.129Z",
+      "municipalityCodes": [
+        "38202"
+      ],
+      "reason": "今治市の教育委員会点検・評価報告書の《事業概要》は事業の概要で目的の欄ではないため、目的から事業内容へ移す（34件）",
+      "quote": "《事業概要》",
+      "changes": [
+        {
+          "batchGeneratedAt": "2026-10-24T00:00:00.000Z",
+          "municipalityCode": "38202",
+          "previousInputSha256": "eddf72e5ee127643fd076a9860ef169cb9972e04effa0317e2b3b7d152e0a68b",
+          "inputSha256": "00af22b3ea2bff96a69e91bb96675f76ccbe0bdaa889bdb6582bdf828670c6d8"
+        },
+        {
+          "batchGeneratedAt": "2026-11-05T00:00:00.000Z",
+          "municipalityCode": "38202",
+          "previousInputSha256": "79f69354dba04e581255b191989da6304e1747c5413a6209f8d9979bcd7ede24",
+          "inputSha256": "cda538a51dcbc62c5845547c26111ee4db80c75d4a3bc94d88fc574e6b86c5a4",
+          "enrichment": true
+        }
+      ]
+    },
+    {
+      "correctedAt": "2026-11-05T15:23:53.874Z",
+      "municipalityCodes": [
+        "06203"
+      ],
+      "reason": "鶴岡市の行政評価調書の「取組概要」は目的と手段をあわせた取組の概要で目的の欄ではないため、目的から事業内容へ移す",
+      "quote": "取組概要",
+      "changes": [
+        {
+          "batchGeneratedAt": "2026-10-18T21:02:17.160Z",
+          "municipalityCode": "06203",
+          "previousInputSha256": "b8a856f6170e08bd822206c42cb6ccfa67bf40e250f354a45b3e6991c0e76668",
+          "inputSha256": "39d9cf199b18f5fd841f8aae6301b5a3414153c60f331fb771f6d1c15ed231c1"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "description": "収集時に掲載ページ（verification.evidenceSourceId）が記録されなかった資料の掲載ページ。保存したページの本文で、見出し（section）の後にリンク名（label）が「(サイズ)」とともに載っていることを照合のたびに確かめる。同じページ・同じ見出しの資料どうしだけを同じページとみなす。recordedAt 以降の補強だけに効く。",
+  "entries": [
+    { "municipalityCode": "06403", "sourceId": "a24e9ba203e80f1bbf1968ff", "pageSourceId": "52ecaa2261648de1d75940d9", "recordedAt": "2026-11-07T00:00:00.000Z",
+      "section": "第1期 飯豊町まち・ひと・しごと創生総合戦略検証結果を公開します。", "label": "第1期 飯豊町まち・ひと・しごと創生総合戦略（評価シート一覧）" },
+    { "municipalityCode": "06403", "sourceId": "f304683a881a1fdd74daf7a9", "pageSourceId": "52ecaa2261648de1d75940d9", "recordedAt": "2026-11-07T00:00:00.000Z",
+      "section": "第1期 飯豊町まち・ひと・しごと創生総合戦略検証結果を公開します。", "label": "第1期 飯豊町まち・ひと・しごと創生総合戦略（事業別レビューシート）" }
+  ]
+}

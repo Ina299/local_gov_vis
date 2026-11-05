@@ -32,6 +32,8 @@ const NARRATIVES_SINCE = '2026-11-01T00:00:00.000Z';
 const YEARLESS_SINCE = '2026-11-04T00:00:00.000Z';
 /** この日時以降に生成する補強は、年度の記載がない事業票どうしを、同じ公式ページに掲載された資料から作ったものも突き合わせる */
 const SAME_PAGE_SINCE = '2026-11-06T00:00:00.000Z';
+const sourcePages: { entries: { municipalityCode: string; sourceId: string; pageSourceId: string; recordedAt: string; section: string; label: string }[] } =
+  JSON.parse(await readFile(join(root, 'data/evaluations/source-pages.json'), 'utf8'));
 
 async function publishedBefore(): Promise<Map<string, Buffer>> {
   const manifest = await loadManifest(root);
@@ -85,6 +87,22 @@ async function build(output: string, codes: string[]) {
       .map(s => [`${s.url}
 ${s.acquisition.sourceSha256}`, { page: s.verification!.evidenceSourceId!,
         years: new Set((s.years ?? []).filter(y => y.basis === 'official_link_label').map(y => y.calendarYear)) }]));
+    // 収集時に掲載ページが記録されなかった資料は、保存したページの本文で確かめて記録した掲載ページ（source-pages.json）を使う。ページ内の見出しまで同じ資料だけを同じページとみなす。
+    for (const e of sourcePages.entries.filter(e => e.municipalityCode === code && Date.parse(generatedAt!) >= Date.parse(e.recordedAt))) {
+      const s = muni.sources.find(x => x.id === e.sourceId), page = muni.sources.find(x => x.id === e.pageSourceId);
+      if (!s?.acquisition.sourceSha256 || s.verification?.evidenceSourceId || page?.text.status !== 'available') throw new Error(`Source page record does not apply: ${e.sourceId}`);
+      const text: string = JSON.parse(await readFile(join(evidenceDir, page.text.assetPath!), 'utf8')).text, at = text.indexOf(`
+${e.section}
+`);
+      if (at < 0 || text.indexOf(`
+${e.section}
+`, at + 1) >= 0 || !text.slice(at).includes(`
+${e.label}
+(`) || !s.title?.startsWith(`${e.label} (`))
+        throw new Error(`Source page record is not on the saved page: ${e.sourceId}`);
+      listing.set(`${s.url}
+${s.acquisition.sourceSha256}`, { page: `${e.pageSourceId}#${e.section}`, years: new Set() });
+    }
     const samePage = (a: EvaluationEvidence, b: EvaluationEvidence) => {
       const x = listing.get(`${a.sourceUrl}
 ${a.sha256}`), y = listing.get(`${b.sourceUrl}
