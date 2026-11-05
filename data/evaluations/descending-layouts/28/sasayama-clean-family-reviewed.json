@@ -1,0 +1,4061 @@
+[
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "東雲・後川・草山診療所保健事業",
+    "start": 2140,
+    "previous": "B",
+    "following": "行：（３）4",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "重複・頻回受診相談事業",
+    "start": 4853,
+    "previous": "B",
+    "following": "407 訪問・指導人数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "重複・頻回受診相談事業",
+    "start": 2406,
+    "previous": "572",
+    "following": "ま-23Ｐ",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "重複・頻回受診相談事業",
+    "start": 2239,
+    "previous": "B",
+    "following": "378 訪問・指導人数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "特定健診等受診補助事業",
+    "start": 5004,
+    "previous": "A",
+    "following": "8,641 特定健診受診件数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "歯科保健事務事業",
+    "start": 5423,
+    "previous": "B",
+    "following": "517 関係会議開催数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "歯科保健事務事業",
+    "start": 2866,
+    "previous": "B",
+    "following": "ま＋２３",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "保健福祉計画策定事業",
+    "start": 10317,
+    "previous": "B",
+    "following": "5,924 計画策定進捗度",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "老人クラブの育成事業",
+    "start": 10427,
+    "previous": "B",
+    "following": "8,794 老人クラブ会員数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "老人クラブの育成事業",
+    "start": 10833,
+    "previous": "B",
+    "following": "8,232 老人クラブ会員数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "老人クラブの育成事業",
+    "start": 8791,
+    "previous": "B",
+    "following": "9,027 会員数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "人生80年いきいき住宅助成事業",
+    "start": 10491,
+    "previous": "B",
+    "following": "5,295 助成件数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "生きがいデイサービス事業",
+    "start": 10682,
+    "previous": "C",
+    "following": "1,318 延べ利用者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "生きがいデイサービス事業",
+    "start": 13269,
+    "previous": "B",
+    "following": "1,767 延べ利用者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "老人日常生活用具給付事業",
+    "start": 10738,
+    "previous": "C",
+    "following": "1,525 給付件数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "老人日常生活用具給付事業",
+    "start": 13327,
+    "previous": "B",
+    "following": "653 給付件数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "在宅老人介護用品給付事業",
+    "start": 10790,
+    "previous": "B",
+    "following": "4,683 利用者延べ人数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "在宅老人介護用品給付事業",
+    "start": 13464,
+    "previous": "B",
+    "following": "12313 配食サービス事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "在宅老人介護用品給付事業",
+    "start": 10709,
+    "previous": "D",
+    "following": "3,158 利用者延べ人数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "地域自立生活支援事業",
+    "start": 11062,
+    "previous": "B",
+    "following": "1,536 施設訪問回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "地域自立生活支援事業",
+    "start": 13670,
+    "previous": "B",
+    "following": "1,021 施設訪問回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "災害時要援護事業",
+    "start": 11170,
+    "previous": "B",
+    "following": "3,145 登録者数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "特別障害者手当等支給事業",
+    "start": 13170,
+    "previous": "B",
+    "following": "5,824 手当支給延べ人数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "特別障害者手当等支給事業",
+    "start": 17276,
+    "previous": "B",
+    "following": "5,957 手当支給延べ人数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "特別障害者手当等支給事業",
+    "start": 14231,
+    "previous": "B",
+    "following": "6,482 手当支給延べ人数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "障害者自立支援事業",
+    "start": 13232,
+    "previous": "B",
+    "following": "3,585 審査会開催回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "障害者自立支援事業",
+    "start": 17336,
+    "previous": "B",
+    "following": "4,231 審査会開催回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "障害者自立支援事業",
+    "start": 13869,
+    "previous": "B",
+    "following": "4,902 開催回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "全国車いすマラソン大会推進事業",
+    "start": 13438,
+    "previous": "B",
+    "following": "12202 障害者団体補助事業",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "生活保護一般事業",
+    "start": 15833,
+    "previous": "B",
+    "following": "4,734 嘱託医数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "生活保護一般事業",
+    "start": 16925,
+    "previous": "D",
+    "following": "4,412 嘱託医数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "生活保護一般事業",
+    "start": 14640,
+    "previous": "A",
+    "following": "3,357 嘱託職員数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "セーフティネット支援対策等事業",
+    "start": 15879,
+    "previous": "B",
+    "following": "2,948 参加者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "中国残留邦人等支援給付事業",
+    "start": 15970,
+    "previous": "A",
+    "following": "3,288 保護人員",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "中国残留邦人等支援給付事業",
+    "start": 17087,
+    "previous": "A",
+    "following": "3,407 保護人員",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "中国残留邦人等支援給付事業",
+    "start": 14687,
+    "previous": "B",
+    "following": "3,539 保護人員",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "住宅手当緊急特別措置事業",
+    "start": 16021,
+    "previous": "A",
+    "following": "1,191 手当支給者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "住宅手当緊急特別措置事業",
+    "start": 17138,
+    "previous": "A",
+    "following": "2,113 手当支給者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "住宅手当緊急特別措置事業",
+    "start": 15102,
+    "previous": "B",
+    "following": "917 手当支給者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "高額療養費給付（貸付・償還）事業",
+    "start": 16301,
+    "previous": "B",
+    "following": "1,803 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "重度心身障害者医療費助成事業",
+    "start": 16698,
+    "previous": "B",
+    "following": "31,345 受給者数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "重度精神障害者医療費助成事業",
+    "start": 16815,
+    "previous": "B",
+    "following": "7,112 受給者数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "乳幼児医療費助成事業",
+    "start": 16921,
+    "previous": "B",
+    "following": "63,137 受給者数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "乳幼児医療費助成事業",
+    "start": 21005,
+    "previous": "1",
+    "following": "57,409 受給者数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "乳幼児医療費助成事業",
+    "start": 17086,
+    "previous": "6",
+    "following": "55,715 受給者数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "母子家庭等医療費助成事業",
+    "start": 16982,
+    "previous": "B",
+    "following": "12,108 受給者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "母子家庭等医療費助成事業",
+    "start": 21062,
+    "previous": "B",
+    "following": "12,707 受給者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "母子家庭等医療費助成事業",
+    "start": 17644,
+    "previous": "B",
+    "following": "12,913 受給者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "介護認定審査事業",
+    "start": 17039,
+    "previous": "B",
+    "following": "12,651 数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "介護認定審査事業",
+    "start": 11854,
+    "previous": "B",
+    "following": "12313 高額介護サービス給付事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "介護保険給付管理事業",
+    "start": 17238,
+    "previous": "B",
+    "following": "2,334 審査支払手数料",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "介護保険給付管理事業",
+    "start": 14406,
+    "previous": "B",
+    "following": "2,711 審査支払手数料",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "まなびすとバンク事業",
+    "start": 24041,
+    "previous": "C",
+    "following": "行＋６８",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "まなびすとバンク事業",
+    "start": 92386,
+    "previous": "B",
+    "following": "33304",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "まなびすとバンク事業",
+    "start": 82415,
+    "previous": "B",
+    "following": "33304",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "郷土味学講座事業",
+    "start": 24731,
+    "previous": "B",
+    "following": "945 受講者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "古文書入門講座事業",
+    "start": 24778,
+    "previous": "B",
+    "following": "891 受講者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "古文書入門講座事業",
+    "start": 85767,
+    "previous": "B",
+    "following": "947 受講者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "丹波篠山おもしろゼミナール事業",
+    "start": 24895,
+    "previous": "B",
+    "following": "584 受講者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "視聴覚教育支援事業",
+    "start": 25820,
+    "previous": "B",
+    "following": "4,892 編集室利用人数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "視聴覚教育支援事業",
+    "start": 76929,
+    "previous": "B",
+    "following": "4,488 編集室利用人数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "地域映像の記録、公開、保存事業",
+    "start": 25950,
+    "previous": "A",
+    "following": "6,008 年間制作本数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "図書館アドバイザー設置事業",
+    "start": 26008,
+    "previous": "B",
+    "following": "7,225 雇用人数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "各世代学習機会提供事業",
+    "start": 26059,
+    "previous": "D",
+    "following": "6,682 学習活動実施回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "各世代学習機会提供事業",
+    "start": 89840,
+    "previous": "B",
+    "following": "7,160 学習活動実施回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "市内図書館ネットワーク事業",
+    "start": 26240,
+    "previous": "B",
+    "following": "8,075 貸出冊数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "市内図書館ネットワーク事業",
+    "start": 89896,
+    "previous": "B",
+    "following": "9,443 貸出冊数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "市内図書館ネットワーク事業",
+    "start": 80009,
+    "previous": "B",
+    "following": "5,891 配本所貸出冊数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "図書館利用啓発事業",
+    "start": 26309,
+    "previous": "B",
+    "following": "6,580 等受入人数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "図書館利用啓発事業",
+    "start": 89790,
+    "previous": "B",
+    "following": "7,401 受入人数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "図書館利用啓発事業",
+    "start": 79905,
+    "previous": "B",
+    "following": "3,314 各種研修受入人数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "蔵書整備充実事業",
+    "start": 26360,
+    "previous": "B",
+    "following": "8,747 蔵書冊数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "蔵書整備充実事業",
+    "start": 89725,
+    "previous": "B",
+    "following": "22,830 蔵書冊数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "消防施設整備事業",
+    "start": 29046,
+    "previous": "B",
+    "following": "25,775 工事件数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "消防施設整備事業",
+    "start": 60575,
+    "previous": "B",
+    "following": "20,703 工事件数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "消防施設整備事業",
+    "start": 53553,
+    "previous": "-",
+    "following": "18,695 工事件数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "救急活動の情報管理事業",
+    "start": 30610,
+    "previous": "B",
+    "following": "914 救急件数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "救急活動の情報管理事業",
+    "start": 61052,
+    "previous": "57",
+    "following": "764 救急件数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "救急活動の情報管理事業",
+    "start": 52899,
+    "previous": "B",
+    "following": "1,105 救急件数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "救急活動の情報管理事業",
+    "start": 53108,
+    "previous": "B",
+    "following": "1,105 救急件数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "救急救命士養成事業",
+    "start": 30743,
+    "previous": "B",
+    "following": "9,101 員数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "交通安全事務事業",
+    "start": 33115,
+    "previous": "B",
+    "following": "11,954 指導回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "犯罪被害者等支援事業",
+    "start": 33237,
+    "previous": "B",
+    "following": "21205 防犯活動支援事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "ダム開発関連事業",
+    "start": 35730,
+    "previous": "B",
+    "following": "1,683 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "ダム開発関連事業",
+    "start": 113899,
+    "previous": "A",
+    "following": "4,585",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "水道施設統廃合事業",
+    "start": 35815,
+    "previous": "A",
+    "following": "5,851 管理対象施設数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "水道施設統廃合事業",
+    "start": 127230,
+    "previous": "B",
+    "following": "44111",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "水道施設統廃合事業",
+    "start": 114159,
+    "previous": "B",
+    "following": "8,967 削減",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "重点分野雇用創造事業",
+    "start": 35869,
+    "previous": "B",
+    "following": "2,382 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "施設維持管理事業",
+    "start": 36313,
+    "previous": "B",
+    "following": "63,553 総処理量",
+    "status": "evidence_hold",
+    "reason": "Generic service title without identifying facility."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "先行地籍調査事業",
+    "start": 39156,
+    "previous": "B",
+    "following": "5,284 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "都市公園維持管理事業",
+    "start": 39408,
+    "previous": "B",
+    "following": "9,996 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "都市公園維持管理事業",
+    "start": 116110,
+    "previous": "B",
+    "following": "ま：（６）−",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "バス路線活性化支援助成事業",
+    "start": 41754,
+    "previous": "C",
+    "following": "5,170 助成金額",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "バス路線活性化支援助成事業",
+    "start": 120014,
+    "previous": "B",
+    "following": "行：(4)-1",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "バス路線活性化支援助成事業",
+    "start": 107348,
+    "previous": "B",
+    "following": "行:",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "子育ていちばん条例制定事業",
+    "start": 44045,
+    "previous": "B",
+    "following": "2,016 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "子育ていちばん条例制定事業",
+    "start": 20856,
+    "previous": "ー",
+    "following": "4,187",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "母子生活支援施設委託事業",
+    "start": 44143,
+    "previous": "B",
+    "following": "1,708 委託施設数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "母子生活支援施設委託事業",
+    "start": 21775,
+    "previous": "B",
+    "following": "2,593 委託施設数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "母子生活支援施設委託事業",
+    "start": 18254,
+    "previous": "149",
+    "following": "1,819 委託施設数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "ファミリーサポートセンター事業",
+    "start": 44427,
+    "previous": "B",
+    "following": "31102 子育てふれあいセンター事業",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "ファミリーサポートセンター事業",
+    "start": 17699,
+    "previous": "B",
+    "following": "2,627 登録者数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "すこやか相談事業",
+    "start": 44958,
+    "previous": "B",
+    "following": "1,509 実施回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "すこやか相談事業",
+    "start": 2794,
+    "previous": "A",
+    "following": "2,604 実施回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "すくすく相談事業",
+    "start": 45007,
+    "previous": "B",
+    "following": "635 実施回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "すくすく相談事業",
+    "start": 3570,
+    "previous": "B",
+    "following": "ま＋３３",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "乳児健康相談事業",
+    "start": 45051,
+    "previous": "B",
+    "following": "1,508 実施回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "乳児健康相談事業",
+    "start": 3620,
+    "previous": "B",
+    "following": "ま＋３３",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "乳児健康相談事業",
+    "start": 2843,
+    "previous": "B",
+    "following": "2,074 実施回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "パパママ教室事業",
+    "start": 45148,
+    "previous": "B",
+    "following": "1,381 実施回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "パパママ教室事業",
+    "start": 3729,
+    "previous": "B",
+    "following": "ま＋３３",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "パパママ教室事業",
+    "start": 2892,
+    "previous": "B",
+    "following": "1,788 開催回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "親子あそび教室事業",
+    "start": 45245,
+    "previous": "B",
+    "following": "1,826 実施回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "親子あそび教室事業",
+    "start": 3838,
+    "previous": "B",
+    "following": "ま＋３３",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "親子あそび教室事業",
+    "start": 2688,
+    "previous": "B",
+    "following": "3,390 実施回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "思春期保健福祉体験学習事業",
+    "start": 45295,
+    "previous": "B",
+    "following": "2,620 事業実施校",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "思春期保健福祉体験学習事業",
+    "start": 3894,
+    "previous": "B",
+    "following": "ま＋３３",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "思春期保健福祉体験学習事業",
+    "start": 3087,
+    "previous": "B",
+    "following": "2,089 体験学習事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "神戸大学地域連携事業",
+    "start": 45434,
+    "previous": "B",
+    "following": "31128 妊婦健康診査費補助事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "神戸大学地域連携事業",
+    "start": 3954,
+    "previous": "B",
+    "following": "ま＋３３",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "私立保育所特別運営事業",
+    "start": 47666,
+    "previous": "B",
+    "following": "958 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "私立保育所特別運営事業",
+    "start": 72989,
+    "previous": "B",
+    "following": "5,476",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "私立保育所特別運営事業",
+    "start": 64419,
+    "previous": "B",
+    "following": "606",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "私立保育所障害児保育事業",
+    "start": 47710,
+    "previous": "B",
+    "following": "3,951 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "私立保育所障害児保育事業",
+    "start": 73036,
+    "previous": "B",
+    "following": "4,831",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "私立保育所障害児保育事業",
+    "start": 64542,
+    "previous": "B",
+    "following": "2,000",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "私立保育所延長保育事業",
+    "start": 47757,
+    "previous": "B",
+    "following": "3,527 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "私立保育所延長保育事業",
+    "start": 73084,
+    "previous": "B",
+    "following": "3,539",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "私立保育所延長保育事業",
+    "start": 64372,
+    "previous": "B",
+    "following": "4,920",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "管外保育運営事業",
+    "start": 47803,
+    "previous": "B",
+    "following": "4,683 対象者数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "管外保育運営事業",
+    "start": 73131,
+    "previous": "B",
+    "following": "5,262 対象者数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "管外保育運営事業",
+    "start": 64590,
+    "previous": "B",
+    "following": "31110",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "療育体制整備事業",
+    "start": 48659,
+    "previous": "B",
+    "following": "31220",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "療育体制整備事業",
+    "start": 17455,
+    "previous": "B",
+    "following": "1,650",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "教育課程推進事業",
+    "start": 50567,
+    "previous": "B",
+    "following": "2,806 支援教師配置数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "教育課程推進事業",
+    "start": 78261,
+    "previous": "B",
+    "following": "7,106 支援教師配置数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "生徒指導体制充実事業",
+    "start": 50728,
+    "previous": "B",
+    "following": "1,350 研修会開催回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "生徒指導体制充実事業",
+    "start": 78783,
+    "previous": "-",
+    "following": "1,641 研修会開催回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "心のサポート事業",
+    "start": 50833,
+    "previous": "B",
+    "following": "8,137 推進校数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "篠山小学校校舎検討事業",
+    "start": 53394,
+    "previous": "B",
+    "following": "2,061 委員会の開催数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "教科用図書採択事業",
+    "start": 53729,
+    "previous": "B",
+    "following": "3,465 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "教職員研修会事業",
+    "start": 54261,
+    "previous": "B",
+    "following": "3,244 研修会開催回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "理科おもしろ推進事業",
+    "start": 54313,
+    "previous": "A",
+    "following": "1,270 推進員配置校",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "理科おもしろ推進事業",
+    "start": 78361,
+    "previous": "A",
+    "following": "1,333 推進員配置校数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "学校安全安心づくり事業",
+    "start": 54576,
+    "previous": "B",
+    "following": "32223 ひょうご放課後プラン事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "学校安全安心づくり事業",
+    "start": 79390,
+    "previous": "B",
+    "following": "17,912 防災訓練実施校数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "フォリナーサポート事業",
+    "start": 57101,
+    "previous": "B",
+    "following": "3,610 配置人数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "スクールブリッジ事業",
+    "start": 57199,
+    "previous": "B",
+    "following": "1,493 実施校数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "死廃小動物処理事務事業",
+    "start": 59896,
+    "previous": "B",
+    "following": "952 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "地域グリーンリーダー事業",
+    "start": 60103,
+    "previous": "B",
+    "following": "810 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "森林の整備計画事業",
+    "start": 62700,
+    "previous": "B",
+    "following": "2,310 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "森林の整備計画事業",
+    "start": 138950,
+    "previous": "B",
+    "following": "764",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "林道維持管理事業",
+    "start": 62744,
+    "previous": "B",
+    "following": "873 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "林道維持管理事業",
+    "start": 138993,
+    "previous": "B",
+    "following": "1,909",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "森林組合の育成事業",
+    "start": 62785,
+    "previous": "B",
+    "following": "953 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "森林組合の育成事業",
+    "start": 139037,
+    "previous": "B",
+    "following": "3,464",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "松くい虫防除対策事業",
+    "start": 62827,
+    "previous": "B",
+    "following": "694 量",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "緑の少年団関係事業",
+    "start": 62917,
+    "previous": "B",
+    "following": "598 緑の少年団活動",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "緑の少年団関係事業",
+    "start": 139213,
+    "previous": "B",
+    "following": "903 緑の少年団活動",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "市単独補助治山事業",
+    "start": 63231,
+    "previous": "B",
+    "following": "564 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "地域づくり活動支援モデル事業",
+    "start": 63376,
+    "previous": "B",
+    "following": "478 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "地域づくり活動支援モデル事業",
+    "start": 117888,
+    "previous": "B",
+    "following": "1,000 活動回数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "管理棟、計量棟他管理事業",
+    "start": 65708,
+    "previous": "B",
+    "following": "5,293 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "資源ごみ拠点回収事業",
+    "start": 65755,
+    "previous": "B",
+    "following": "7,304 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "資源ごみ拠点回収事業",
+    "start": 55595,
+    "previous": "B",
+    "following": "1,684",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "リサイクル施設維持管理事業",
+    "start": 65855,
+    "previous": "B",
+    "following": "68,555 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "計量・可燃性粗大ごみ破砕事業",
+    "start": 65904,
+    "previous": "B",
+    "following": "9,925 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "浸出水処理施設維持管理事業",
+    "start": 65953,
+    "previous": "B",
+    "following": "14,523 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "施設周辺環境美化事業",
+    "start": 66002,
+    "previous": "B",
+    "following": "5,478 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "施設周辺環境美化事業",
+    "start": 53800,
+    "previous": "B",
+    "following": "24213 量目検査業務【再掲】",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "緑のカーテン事業",
+    "start": 66047,
+    "previous": "B",
+    "following": "1,830 取り組み施設数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "不法投棄物処理事務事業",
+    "start": 66100,
+    "previous": "A",
+    "following": "5,184 不法投棄物処理量",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "古民家再生活用モデル事業",
+    "start": 72763,
+    "previous": "A",
+    "following": "4,770 再生事業件数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "定住促進制度検討事業",
+    "start": 72815,
+    "previous": "B",
+    "following": "6,825 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "ふるさと定住宅地貸付事業",
+    "start": 72860,
+    "previous": "D",
+    "following": "4,227 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "史跡篠山城跡整備事業",
+    "start": 75318,
+    "previous": "B",
+    "following": "7,598 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "史跡篠山城跡整備事業",
+    "start": 93611,
+    "previous": "B",
+    "following": "3,460 -",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "脊椎動物化石保護・活用事業",
+    "start": 77963,
+    "previous": "B",
+    "following": "10,487 参加者数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "脊椎動物化石保護・活用事業",
+    "start": 150979,
+    "previous": "B",
+    "following": "ま:P48",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "交響ホール施設管理事業",
+    "start": 78021,
+    "previous": "B",
+    "following": "33,481 年間利用率",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "交響ホール主催公演事業",
+    "start": 78075,
+    "previous": "B",
+    "following": "21,153 事業の収支比率",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "ボランティアスタッフ運営事業",
+    "start": 78275,
+    "previous": "A",
+    "following": "6,652 連携事業回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "さぎそうホール管理運営事業",
+    "start": 78366,
+    "previous": "B",
+    "following": "43209",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "遊休農地防止対策事業",
+    "start": 81410,
+    "previous": "B",
+    "following": "1,191 遊休農地解消",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "農地パトロール事業",
+    "start": 81538,
+    "previous": "B",
+    "following": "1,985 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "土づくり対策推進事業",
+    "start": 81582,
+    "previous": "B",
+    "following": "177 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "生産組合活動支援事業",
+    "start": 83915,
+    "previous": "B",
+    "following": "行：(5)-1",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "生産組合活動支援事業",
+    "start": 142636,
+    "previous": "A",
+    "following": "行：(5)-1",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "市農業生産組合協議会補助事業",
+    "start": 83982,
+    "previous": "B",
+    "following": "行：(5)-1",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "集落営農組織高度化促進事業",
+    "start": 84132,
+    "previous": "B",
+    "following": "51213 新規就農研修委託事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "特産物振興対策補助金事業",
+    "start": 86433,
+    "previous": "B",
+    "following": "2,228 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "丹波篠山楽農パートナー事業",
+    "start": 87484,
+    "previous": "B",
+    "following": "797 パートナー登録数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "丹波篠山楽農パートナー事業",
+    "start": 142579,
+    "previous": "A",
+    "following": "1,240 パートナー登録数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "企業誘致パンフレット作成事業",
+    "start": 89613,
+    "previous": "15",
+    "following": "1,531 パンフレット作成数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "企業誘致パンフレット作成事業",
+    "start": 155027,
+    "previous": "-",
+    "following": "ま P52",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "企業紹介・出展事業",
+    "start": 89879,
+    "previous": "B",
+    "following": "2,542 出展企業数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "農工団地地権者調査事業",
+    "start": 89927,
+    "previous": "B",
+    "following": "4,553 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "農工団地地権者調査事業",
+    "start": 155501,
+    "previous": "-",
+    "following": "ま P52",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "農工団地地権者調査事業",
+    "start": 139471,
+    "previous": "B",
+    "following": "1,898",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "企業誘致サイト刷新事業",
+    "start": 89973,
+    "previous": "B",
+    "following": "1,197 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "緊急雇用創出事業",
+    "start": 90135,
+    "previous": "B",
+    "following": "1,191 規雇用者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "緊急雇用創出事業",
+    "start": 139130,
+    "previous": "B",
+    "following": "515",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "篠山市産業活性化支援事業",
+    "start": 90368,
+    "previous": "B",
+    "following": "9,794 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "22年工業統計調査事業",
+    "start": 90440,
+    "previous": "B",
+    "following": "52118",
+    "status": "evidence_hold",
+    "reason": "Year inprojecttitle differs or requires comparison withannualreport identity."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "22年工業統計調査事業",
+    "start": 153106,
+    "previous": "B",
+    "following": "382",
+    "status": "evidence_hold",
+    "reason": "Year inprojecttitle differs or requires comparison withannualreport identity."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "創造都市ネットワーク推進事業",
+    "start": 92400,
+    "previous": "B",
+    "following": "3,061 －",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "たきまつり補助金交付事業",
+    "start": 100788,
+    "previous": "B",
+    "following": "行:(5)1",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "観光経済効果調査事業",
+    "start": 101095,
+    "previous": "D",
+    "following": "1,570 調査回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "観光施設整備事業",
+    "start": 101143,
+    "previous": "D",
+    "following": "2,966 着工数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "予算・決算に関する事業",
+    "start": 103647,
+    "previous": "B",
+    "following": "8,699 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "出資法人経営審査事業",
+    "start": 104031,
+    "previous": "B",
+    "following": "3,135 審査会開催回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "出資法人経営審査事業",
+    "start": 182055,
+    "previous": "140",
+    "following": "4,157 審査会開催回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "篠山丹南地区防災行政無線事業",
+    "start": 104082,
+    "previous": "B",
+    "following": "3,397 無線整備率",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "市民何でもご意見箱事業",
+    "start": 104646,
+    "previous": "B",
+    "following": "397 受付件数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "地域環境整備事業・苦情処理事業",
+    "start": 104782,
+    "previous": "B",
+    "following": "61129 こんにちは市長室",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "政策課題研究事業",
+    "start": 106751,
+    "previous": "A",
+    "following": "597 －",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "自治基本条例推進事業",
+    "start": 111178,
+    "previous": "B",
+    "following": "61304",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "自治基本条例推進事業",
+    "start": 179770,
+    "previous": "B",
+    "following": "2,042 検証委員会開催数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "酒井貞子人材育成基金事業",
+    "start": 113559,
+    "previous": "B",
+    "following": "794 申請件数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "酒井貞子人材育成基金事業",
+    "start": 29480,
+    "previous": "B",
+    "following": "368 申請件数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "善意の日の表彰事業",
+    "start": 117588,
+    "previous": "B",
+    "following": "553 受賞者",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "善意の日の表彰事業",
+    "start": 34456,
+    "previous": "B",
+    "following": "880 受賞者",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "県遺徳顕彰会負担金事業",
+    "start": 117689,
+    "previous": "B",
+    "following": "161 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "県遺徳顕彰会負担金事業",
+    "start": 14971,
+    "previous": "B",
+    "following": "89",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "2f361c684fbe2856437d9689",
+    "name": "丹有原爆被爆者会負担事業",
+    "start": 117733,
+    "previous": "B",
+    "following": "179 －",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "丹有原爆被爆者会負担事業",
+    "start": 16741,
+    "previous": "B",
+    "following": "35",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "丹有原爆被爆者会負担事業",
+    "start": 15057,
+    "previous": "C",
+    "following": "27",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "８０２０運動事業",
+    "start": 2355,
+    "previous": "A",
+    "following": "ま-23Ｐ",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "８０２０運動事業",
+    "start": 2189,
+    "previous": "B",
+    "following": "394 参加人数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "妊婦健康診査費補助事業",
+    "start": 4011,
+    "previous": "A",
+    "following": "ま＋３３",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "妊婦健康診査費補助事業",
+    "start": 1750,
+    "previous": "A",
+    "following": "12,582 受益者数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "高齢者就業機会確保事業",
+    "start": 10780,
+    "previous": "B",
+    "following": "13,971 会員数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "老人保護措置事業",
+    "start": 13091,
+    "previous": "B",
+    "following": "46,879 措置人数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "老人保護措置事業",
+    "start": 11396,
+    "previous": "A",
+    "following": "50,435 措置人数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "緊急通報体制整備事業",
+    "start": 13165,
+    "previous": "B",
+    "following": "行３９",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "東部地域支援センター事業",
+    "start": 14011,
+    "previous": "B",
+    "following": "12320 東部介護予防サービス事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "老人保健医療費給付事業",
+    "start": 14079,
+    "previous": "382",
+    "following": "12322 老人医療費助成事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "介護予防特定高齢者施策事業",
+    "start": 14645,
+    "previous": "B",
+    "following": "12331 介護予防一般高齢者施策事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "福祉資金借入金利子補給事業",
+    "start": 16556,
+    "previous": "B",
+    "following": "176 給付件数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "福祉資金借入金利子補給事業",
+    "start": 14826,
+    "previous": "B",
+    "following": "177",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "市遺族会補助事業",
+    "start": 16605,
+    "previous": "B",
+    "following": "835",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "傷痍軍人会補助事業",
+    "start": 16786,
+    "previous": "B",
+    "following": "57",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "傷痍軍人会補助事業",
+    "start": 15015,
+    "previous": "B",
+    "following": "49",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "篠山ﾃﾞｲｻｰﾋﾞｽｾﾝﾀｰ運営事業",
+    "start": 16868,
+    "previous": "D",
+    "following": "84 利用者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "篠山ﾃﾞｲｻｰﾋﾞｽｾﾝﾀｰ運営事業",
+    "start": 11754,
+    "previous": "A",
+    "following": "6,686 利用者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "生活保護措置事業",
+    "start": 17036,
+    "previous": "B",
+    "following": "78,842 保護人員",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "生活保護措置事業",
+    "start": 14523,
+    "previous": "B",
+    "following": "80,331 保護人員",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "障害者団体補助事業",
+    "start": 17190,
+    "previous": "B",
+    "following": "12,283 相談員相談件数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "精神保健福祉事業",
+    "start": 17637,
+    "previous": "B",
+    "following": "6,850 家族相談会開催数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "子育てガイドブック作成事業",
+    "start": 20905,
+    "previous": "B",
+    "following": "447",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "子どもの遊び場づくり補助事業",
+    "start": 20952,
+    "previous": "C",
+    "following": "92 補助金交付地区数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "児童扶養手当支給事業",
+    "start": 21437,
+    "previous": "B",
+    "following": "83,128 受給資格者数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "子ども手当支給事業",
+    "start": 21494,
+    "previous": "A",
+    "following": "77,761 支給延児童数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "児童手当支給事業",
+    "start": 21559,
+    "previous": "B",
+    "following": "14,714 支給延児童数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "児童手当支給事業",
+    "start": 18480,
+    "previous": "B",
+    "following": "12529 子育て応援特別手当支給事業",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "特別児童扶養手当事業",
+    "start": 21622,
+    "previous": "A",
+    "following": "434 受給者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "特別児童扶養手当事業",
+    "start": 18527,
+    "previous": "-",
+    "following": "489 受給者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "高等技能訓練促進費等事業",
+    "start": 21947,
+    "previous": "A",
+    "following": "667 給付対象者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "高等技能訓練促進費等事業",
+    "start": 18362,
+    "previous": "A",
+    "following": "251 給付対象者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "年末年始短期里親事業",
+    "start": 21997,
+    "previous": "A",
+    "following": "129 対象者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "摂丹地区里親会事業",
+    "start": 22046,
+    "previous": "B",
+    "following": "86 −",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "摂丹地区里親会事業",
+    "start": 18035,
+    "previous": "B",
+    "following": "84",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "婦人共励会補助事業",
+    "start": 22087,
+    "previous": "B",
+    "following": "234 補助金の削減",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "スポーツクラブ２１交流事業",
+    "start": 27250,
+    "previous": "B",
+    "following": "1,730 実施回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "篠山市体育協会支援事業",
+    "start": 27301,
+    "previous": "B",
+    "following": "5,781 主催事業開催数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "空き家活用モデル事業",
+    "start": 38263,
+    "previous": "ー",
+    "following": "21209",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "環境基本計画管理事務事業",
+    "start": 53208,
+    "previous": "B",
+    "following": "ま43",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "土砂災害防災訓練事業",
+    "start": 58539,
+    "previous": "B",
+    "following": "3,748 訓練参加者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "土砂災害防災訓練事業",
+    "start": 55609,
+    "previous": "B",
+    "following": "2,033 訓練回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "地域防災訓練助成事業",
+    "start": 58593,
+    "previous": "B",
+    "following": "1,282 訓練実施値域数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "防災会議事務局事業",
+    "start": 61459,
+    "previous": "B",
+    "following": "2,072 開催回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "庁内防災体制整備事業",
+    "start": 65445,
+    "previous": "B",
+    "following": "25402 国民保護協議会事務局事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "丹波の森大学事業",
+    "start": 67391,
+    "previous": "-",
+    "following": "153",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "市民プラザ運営事業",
+    "start": 67586,
+    "previous": "D",
+    "following": "792 会員数(団体数)",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "コミュニティ助成事業",
+    "start": 67638,
+    "previous": "A",
+    "following": "446",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "コミュニティ助成事業",
+    "start": 59005,
+    "previous": "B",
+    "following": "572",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "保育園バス運行委託事業",
+    "start": 73249,
+    "previous": "B",
+    "following": "8,413 バス利用者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "保育園バス運行委託事業",
+    "start": 64279,
+    "previous": "A",
+    "following": "7,972",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "幼稚園預かり保育事業",
+    "start": 73348,
+    "previous": "A",
+    "following": "71,922 設数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "読書活動向上事業",
+    "start": 78310,
+    "previous": "B",
+    "following": "944 する子どもの割合",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "外国語指導助手派遣事業",
+    "start": 78484,
+    "previous": "C",
+    "following": "20,688 配置人数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "学校情報化支援事業",
+    "start": 78618,
+    "previous": "A",
+    "following": "32115 教職員研修会事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "スクールカウンセラー配置事業",
+    "start": 78880,
+    "previous": "B",
+    "following": "5,807 対象校数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "自然学校推進事業",
+    "start": 79218,
+    "previous": "B",
+    "following": "9,056 実施校数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "わくわくオーケストラ教室事業",
+    "start": 79267,
+    "previous": "B",
+    "following": "1,998 実施校数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "家庭教育セミナー事業",
+    "start": 85815,
+    "previous": "A",
+    "following": "2,034 受講者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "ひょうご放課後プラン事業",
+    "start": 88947,
+    "previous": "B",
+    "following": "33205 うりぼう師範実施事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "人権擁護委員協議会補助事業",
+    "start": 94464,
+    "previous": "B",
+    "following": "1,751",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "各種人権研修会事業",
+    "start": 94559,
+    "previous": "B",
+    "following": "2,536 講座参加者",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "人権学習活動支援事業",
+    "start": 98185,
+    "previous": "B",
+    "following": "1,344 成人学級開催回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "人権学習活動支援事業",
+    "start": 84056,
+    "previous": "8,399",
+    "following": "1,337 成人学級開催",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "人権条例制定事務事業",
+    "start": 98240,
+    "previous": "B",
+    "following": "34205 研修会館等維持管理委託業務",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "文化財保護・管理事業",
+    "start": 105300,
+    "previous": "ー",
+    "following": "5,739 審議会開催数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "伝統文化振興事業",
+    "start": 105372,
+    "previous": "ー",
+    "following": "5,548 入場者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "伝統文化振興事業",
+    "start": 93873,
+    "previous": "A",
+    "following": "4,151 入場者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "サクラ生育環境保全事業",
+    "start": 116166,
+    "previous": "B",
+    "following": "ま：（６）−",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "道路新設改良事業",
+    "start": 117898,
+    "previous": "B",
+    "following": "174,934 道路改良率",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "道路維持修繕事業",
+    "start": 117959,
+    "previous": "B",
+    "following": "26,563 道路改良率",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "道路維持修繕事業",
+    "start": 105549,
+    "previous": "45,059",
+    "following": "42102 国庫補助道路整備事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "公共交通対策調整事業",
+    "start": 119899,
+    "previous": "B",
+    "following": "ま29",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "公共交通対策調整事業",
+    "start": 107422,
+    "previous": "B",
+    "following": "ま:P29",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "バス路線維持確保対策事業",
+    "start": 119954,
+    "previous": "B",
+    "following": "ま29",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "下水道施設改築更新事業",
+    "start": 121812,
+    "previous": "B",
+    "following": "6,960 改築更新費",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "下水道施設改築更新事業",
+    "start": 109145,
+    "previous": "B",
+    "following": "5,655 改築更新費",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "し尿収集運搬事業",
+    "start": 123652,
+    "previous": "B",
+    "following": "20,149 し尿汲取件数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "汚泥投入処理事業",
+    "start": 123771,
+    "previous": "B",
+    "following": "4,582 投入量",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "汚泥投入処理事業",
+    "start": 111000,
+    "previous": "B",
+    "following": "11,046 投入量",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "原浄水施設改良事業",
+    "start": 127073,
+    "previous": "B",
+    "following": "ま：30P",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "配給水施設改良事業",
+    "start": 127126,
+    "previous": "A",
+    "following": "ま：30P",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "地域イントラネット事業",
+    "start": 132532,
+    "previous": "C",
+    "following": "16,756 イントラ網管理施設数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "地域イントラネット事業",
+    "start": 119237,
+    "previous": "B",
+    "following": "14,817 管理",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "ＣＡＴＶ自主製作番組事業",
+    "start": 136666,
+    "previous": "B",
+    "following": "3,632 行政番組放送回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "農業振興地域整備促進事業",
+    "start": 138764,
+    "previous": "B",
+    "following": "1,535",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "農業振興地域整備促進事業",
+    "start": 124894,
+    "previous": "B",
+    "following": "1,437",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "農作業受託組織事業",
+    "start": 138812,
+    "previous": "B",
+    "following": "6,169",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "転作作物確認立ち会い事業",
+    "start": 138857,
+    "previous": "B",
+    "following": "4,007",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "数量調整円滑化推進事業",
+    "start": 138905,
+    "previous": "B",
+    "following": "555",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "数量調整円滑化推進事業",
+    "start": 125055,
+    "previous": "B",
+    "following": "5,322",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "有害鳥獣駆除対策事業",
+    "start": 139249,
+    "previous": "B",
+    "following": "行：（４）−",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "環境対策育林事業",
+    "start": 139278,
+    "previous": "５５",
+    "following": "ま：４７Ｐ",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "環境対策育林事業",
+    "start": 125175,
+    "previous": "B",
+    "following": "ま:Ｐ47",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "畜産衛生対策事業",
+    "start": 140542,
+    "previous": "B",
+    "following": "ま５０",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "家畜管理技術導入促進事業",
+    "start": 140623,
+    "previous": "B",
+    "following": "ま５０",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "家畜管理技術導入促進事業",
+    "start": 124302,
+    "previous": "B",
+    "following": "502 削蹄実施頭数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "但馬牛増頭促進事業",
+    "start": 140686,
+    "previous": "B",
+    "following": "ま５０",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "家畜損害防止事業",
+    "start": 140741,
+    "previous": "B",
+    "following": "51132 畜産部会補助事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "担い手育成支援事業",
+    "start": 143150,
+    "previous": "B",
+    "following": "1,520",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "担い手サポートセンター事業",
+    "start": 143664,
+    "previous": "B",
+    "following": "51216 農業経営構造対策事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "担い手サポートセンター事業",
+    "start": 128251,
+    "previous": "B",
+    "following": "51212 担い手育成支援事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "丹波篠山元気回復フェア事業",
+    "start": 146083,
+    "previous": "B",
+    "following": "ま：50",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "中心市街地活性化事業",
+    "start": 150853,
+    "previous": "B",
+    "following": "2,367 空き店舗解消件数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "中心市街地活性化事業",
+    "start": 134490,
+    "previous": "B",
+    "following": "1,178 空き店舗解消件数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "商工会経営改善普及事業",
+    "start": 150966,
+    "previous": "B",
+    "following": "28,415 指導回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "商工会地域総合振興事業",
+    "start": 152986,
+    "previous": "B",
+    "following": "7,298 補助事業件数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "22年経済センサス調査事業",
+    "start": 153151,
+    "previous": "B",
+    "following": "153",
+    "status": "evidence_hold",
+    "reason": "Year inprojecttitle differs or requires comparison withannualreport identity."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "雇用促進奨励事業",
+    "start": 154921,
+    "previous": "A",
+    "following": "682 新規雇用創出数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "市内遊休地調査事業",
+    "start": 155271,
+    "previous": "B",
+    "following": "ま P52",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "市内遊休地調査事業",
+    "start": 138611,
+    "previous": "C",
+    "following": "ま:P52",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "市内企業誘致適地指定事業",
+    "start": 155322,
+    "previous": "B",
+    "following": "0",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "市内企業誘致適地指定事業",
+    "start": 138560,
+    "previous": "B",
+    "following": "ま:P52",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "企業誘致フェア２００９出展事業",
+    "start": 155447,
+    "previous": "-",
+    "following": "ま P52",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "企業誘致フェア２００９出展事業",
+    "start": 139305,
+    "previous": "B",
+    "following": "941",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "農工団地進入路測量設計事業",
+    "start": 155551,
+    "previous": "-",
+    "following": "ま P52",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "篠山市企業紹介展事業",
+    "start": 155607,
+    "previous": "D",
+    "following": "ま53",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "全国京都会議事業",
+    "start": 159839,
+    "previous": "B",
+    "following": "355 観光客数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "丹波篠山観光協会助成事業",
+    "start": 159968,
+    "previous": "B",
+    "following": "5,244 観光客数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "丹波篠山観光協会助成事業",
+    "start": 141103,
+    "previous": "B",
+    "following": "4,702 観光客数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "観光案内所委託事業",
+    "start": 160174,
+    "previous": "B",
+    "following": "53202 駅観光案内所委託事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "ｼｬｸﾅｹﾞを育てる会助成事業",
+    "start": 161875,
+    "previous": "B",
+    "following": "548 会員数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "ｼｬｸﾅｹﾞを育てる会助成事業",
+    "start": 145438,
+    "previous": "B",
+    "following": "532 実施回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "たんなん樽太鼓助成事業",
+    "start": 161928,
+    "previous": "B",
+    "following": "409 活動回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "たんなん樽太鼓助成事業",
+    "start": 145297,
+    "previous": "37",
+    "following": "401 活動回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "自然活用型ＣＳＲ事業",
+    "start": 162150,
+    "previous": "B",
+    "following": "53302 シャクナゲまつり補助事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "丹波篠山味まつり補助事業",
+    "start": 162417,
+    "previous": "B",
+    "following": "行:(4)-57",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "丹波篠山味まつり補助事業",
+    "start": 145764,
+    "previous": "A",
+    "following": "3,965 実施回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "議会広報発行事業",
+    "start": 179899,
+    "previous": "A",
+    "following": "行:(27）",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "議会広報発行事業",
+    "start": 162026,
+    "previous": "B",
+    "following": "71104 情報公開制度業務",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "指定管理者制度事業",
+    "start": 181843,
+    "previous": "85",
+    "following": "行（３）２６、",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "6173941d80f4f6da1b453e54",
+    "name": "行政評価実施事業",
+    "start": 182097,
+    "previous": "7",
+    "following": "71204 補助事業審査・査定業務",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "広報啓発パンフ作成事業",
+    "start": 1896,
+    "previous": "B",
+    "following": "546 配布世帯数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "西紀老人福祉ｾﾝﾀｰ管理事業",
+    "start": 10593,
+    "previous": "A",
+    "following": "5,967 利用者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "老人医療費助成事業",
+    "start": 11074,
+    "previous": "B",
+    "following": "16,695 受給者数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "東部介護予防サービス事業",
+    "start": 11446,
+    "previous": "B",
+    "following": "9,764 数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "後期高齢者医療健康診査事業",
+    "start": 12344,
+    "previous": "A",
+    "following": "12331 権利擁護事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "重度障害者医療費助成事業",
+    "start": 14000,
+    "previous": "A",
+    "following": "32,410 受給者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "放課後児童対策事業",
+    "start": 17044,
+    "previous": "B",
+    "following": "23,225 児童クラブ数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "児童短期入所事業",
+    "start": 17602,
+    "previous": "B",
+    "following": "272",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "子育てふれあいセンター事業",
+    "start": 17785,
+    "previous": "C",
+    "following": "10,061 センター数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "次世代育成支援対策事業",
+    "start": 17839,
+    "previous": "B",
+    "following": "7,286 協議会開催回数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "こんにちは赤ちゃん事業",
+    "start": 17891,
+    "previous": "B",
+    "following": "479 訪問率",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "篠山市体育協会事業",
+    "start": 23064,
+    "previous": "B",
+    "following": "5,991 主催事業開催数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "篠山ＡＢＣマラソン大会事業",
+    "start": 23114,
+    "previous": "B",
+    "following": "13,071 参加者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "体育指導委員活動事業",
+    "start": 23226,
+    "previous": "B",
+    "following": "3,047 講習会開催数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "市更生保護女性会補助事業",
+    "start": 26349,
+    "previous": "405",
+    "following": "14108",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "地域住宅交付金事業",
+    "start": 33280,
+    "previous": "C",
+    "following": "17,722 数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "みくまりダム管理事業",
+    "start": 36318,
+    "previous": "B",
+    "following": "2,854",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "景観形成支援事業",
+    "start": 39792,
+    "previous": "B",
+    "following": "1,105 景観助成件数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "備補助金事務事業",
+    "start": 46815,
+    "previous": "B",
+    "following": "755",
+    "status": "evidence_hold",
+    "reason": "Truncated title prefix missing."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "環境保全審議会事務事業",
+    "start": 46857,
+    "previous": "B",
+    "following": "760",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "環境基本計画策定事務事業",
+    "start": 46968,
+    "previous": "B",
+    "following": "ま:P43",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "ごみ指定袋販売業務委託事業",
+    "start": 48574,
+    "previous": "-",
+    "following": "4,523",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "防災基盤整備事業",
+    "start": 53600,
+    "previous": "A",
+    "following": "1,258 施設整備件数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "ヘリポート整備事業",
+    "start": 53702,
+    "previous": "B",
+    "following": "333",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "通信資機材整備事業",
+    "start": 53745,
+    "previous": "C",
+    "following": "341",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "防災資機材等整備事業",
+    "start": 55552,
+    "previous": "B",
+    "following": "1,460 備蓄トイレ整備率",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "私立保育所運営事業",
+    "start": 64326,
+    "previous": "B",
+    "following": "40,393",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "篠山市指定研究事業",
+    "start": 68357,
+    "previous": "B",
+    "following": "1,036 実施校数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "人権教育推進事業",
+    "start": 68509,
+    "previous": "A",
+    "following": "739 人権学習実施校数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "人権教育推進事業",
+    "start": 89118,
+    "previous": "B",
+    "following": "739 校数",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "防災体制実施事業",
+    "start": 69418,
+    "previous": "A",
+    "following": "1,108 実施校数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "篠山市学力向上実践推進事業",
+    "start": 69585,
+    "previous": "B",
+    "following": "2,164 事業実施校数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "花と絵本と音楽のある学舎事業",
+    "start": 69697,
+    "previous": "A",
+    "following": "468 事業実施校数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "学校評価システム事業",
+    "start": 69936,
+    "previous": "A",
+    "following": "32132 学校保健関係事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "人生セミナー事業",
+    "start": 76246,
+    "previous": "44",
+    "following": "736 新規受講生",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "教育プロジェクト助成事業",
+    "start": 76282,
+    "previous": "2",
+    "following": "1,105 助成団体数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "ささやま市民文化講座事業",
+    "start": 76405,
+    "previous": "1,043",
+    "following": "1,563 受講者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "地域づくり推進事業",
+    "start": 76729,
+    "previous": "B",
+    "following": "7,327 まつり来場者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "ビデオコンクール事業",
+    "start": 76877,
+    "previous": "B",
+    "following": "6,160 応募作品数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "世代毎学習機会充実事業",
+    "start": 79958,
+    "previous": "B",
+    "following": "3,338 実施回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "人権啓発活動地方委託事業",
+    "start": 84388,
+    "previous": "B",
+    "following": "1,450 校",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "西荘人権啓発・広報活動事業",
+    "start": 84522,
+    "previous": "B",
+    "following": "103 館だより発行部数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "菅隣保館相談事業",
+    "start": 86491,
+    "previous": "A",
+    "following": "439 相談事業回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "西荘隣保館相談事業",
+    "start": 86540,
+    "previous": "A",
+    "following": "253 相談事業回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "川西隣保館相談事業",
+    "start": 86590,
+    "previous": "A",
+    "following": "170 相談事業回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "中野隣保館相談事業",
+    "start": 86643,
+    "previous": "A",
+    "following": "1,509 相談事業回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "牛ヶ瀬隣保館相談事業",
+    "start": 86695,
+    "previous": "A",
+    "following": "262 相談事業回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "菅隣保館交流事業",
+    "start": 86746,
+    "previous": "A",
+    "following": "830 交流教室開催回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "西荘隣保館交流事業",
+    "start": 86797,
+    "previous": "B",
+    "following": "151 交流教室開催回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "川西隣保館交流事業",
+    "start": 86849,
+    "previous": "B",
+    "following": "171 交流教室開催回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "中野隣保館交流事業",
+    "start": 86906,
+    "previous": "B",
+    "following": "1,646 交流教室開催回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "牛ヶ瀬隣保館交流事業",
+    "start": 86963,
+    "previous": "B",
+    "following": "272 交流教室開催回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "菅隣保館地域福祉事業",
+    "start": 87019,
+    "previous": "B",
+    "following": "387 回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "西荘隣保館地域福祉事業",
+    "start": 87066,
+    "previous": "B",
+    "following": "192 回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "川西隣保館地域福祉事業",
+    "start": 87114,
+    "previous": "B",
+    "following": "108 回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "中野隣保館地域福祉事業",
+    "start": 87161,
+    "previous": "B",
+    "following": "407 回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "市民ミュージカル実施事業",
+    "start": 91586,
+    "previous": "75",
+    "following": "5,782 カルの実施",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "文化施設４館運営事業",
+    "start": 93823,
+    "previous": "A",
+    "following": "22,890 展覧会回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "都市公園管理事業",
+    "start": 100603,
+    "previous": "-",
+    "following": "13,634",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "コミュニティバス運行事業",
+    "start": 107286,
+    "previous": "B",
+    "following": "ま:P29",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "非水洗化施設維持管理事業",
+    "start": 110935,
+    "previous": "B",
+    "following": "23,162 し尿汲取件数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "携帯電話対策事業",
+    "start": 119189,
+    "previous": "A",
+    "following": "2,792 整備施設数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "森林組合育成事業",
+    "start": 124454,
+    "previous": "3",
+    "following": "3,731",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "森林整備地域活動支援事業",
+    "start": 124498,
+    "previous": "B",
+    "following": "1,372",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "森林整備計画事業",
+    "start": 124572,
+    "previous": "B",
+    "following": "51108 緊急防災林整備事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "土地改良事業公共事業",
+    "start": 125408,
+    "previous": "B",
+    "following": "21,574 総農家戸数",
+    "status": "evidence_hold",
+    "reason": "Repeated generic title components require original-column review."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "県営土地改良事業",
+    "start": 125459,
+    "previous": "B",
+    "following": "21,925 耕地面積",
+    "status": "evidence_hold",
+    "reason": "Prefectural responsibility versus municipal business identity requires specific source context."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "土地改良施設維持適正化事業",
+    "start": 125571,
+    "previous": "B",
+    "following": "2,555 工事件数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "村づくり交付金事業",
+    "start": 125694,
+    "previous": "A",
+    "following": "ま:P50",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "集落営農機械等整備促進事業",
+    "start": 127452,
+    "previous": "B",
+    "following": "1,105 集落営農組織数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "認定農業者連絡協議会事業",
+    "start": 127630,
+    "previous": "C",
+    "following": "51204 生産組合活動支援事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "特産物流通対策事業",
+    "start": 127762,
+    "previous": "B",
+    "following": "88",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "就農定着対策事業",
+    "start": 127887,
+    "previous": "5,002",
+    "following": "2,116 新規就農者数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "農業経営構造対策事業",
+    "start": 128620,
+    "previous": "B",
+    "following": "51220",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "丹波篠山黒まめ検定事業",
+    "start": 130247,
+    "previous": "C",
+    "following": "3,382 関連イベントの実施回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "地域ブランド保護事業",
+    "start": 130432,
+    "previous": "B",
+    "following": "ま:P51",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "地域ブランド開発事業",
+    "start": 130498,
+    "previous": "B",
+    "following": "ま:P51",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "市外企業訪問誘致事業",
+    "start": 138725,
+    "previous": "B",
+    "following": "ま:P52",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "市内企業訪問事業",
+    "start": 138778,
+    "previous": "A",
+    "following": "ま:P52",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "企業誘致アンケート調査事業",
+    "start": 138829,
+    "previous": "A",
+    "following": "ま:P52",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "ふるさと雇用再生事業",
+    "start": 139172,
+    "previous": "B",
+    "following": "442",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "農工団地井水調査事業",
+    "start": 139354,
+    "previous": "A",
+    "following": "52311 篠山市企業紹介展業務",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "大正ﾛﾏﾝ館施設整備事業",
+    "start": 141177,
+    "previous": "A",
+    "following": "8,083 利用人数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "こんだ薬師温泉施設運営事業",
+    "start": 141245,
+    "previous": "B",
+    "following": "53102 こんだ薬師温泉施設整備事業",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "古市義士祭補助事業",
+    "start": 145223,
+    "previous": "D",
+    "following": "614 実施回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "デカンショ節保存会補助事業",
+    "start": 145256,
+    "previous": "1",
+    "following": "884 講習会実施回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "丹波篠山太鼓助成事業",
+    "start": 145346,
+    "previous": "C",
+    "following": "401 活動回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "シャクナゲまつり補助事業",
+    "start": 145560,
+    "previous": "-",
+    "following": "1,633 実施回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "デカンショ祭補助事業",
+    "start": 145610,
+    "previous": "B",
+    "following": "7,969 実施回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "大国寺と丹波茶まつり補助事業",
+    "start": 145658,
+    "previous": "A",
+    "following": "2,986 実施回数",
+    "status": "literal_complete_pending_validation",
+    "reason": "Reviewed complete title withsame-line five-digit tableboundary and adjacent financial/reform column boundary; no numeric alignment inferred."
+  },
+  {
+    "sourceId": "b8285a353df66a1b3da8cf7a",
+    "name": "官学地域連携事業",
+    "start": 152575,
+    "previous": "2,519",
+    "following": "63102 兵庫５カ国交流会議",
+    "status": "same_year_duplicate",
+    "reason": "Already represented exact annualidentity."
+  }
+]

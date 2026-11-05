@@ -1,0 +1,1191 @@
+[
+  {
+    "index": 0,
+    "start": 2123,
+    "end": 2703,
+    "name": "ふるさと大使創設事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 2218,
+        "raw": "事業費\n\n4,800 円",
+        "value": "4,800"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 1,
+    "start": 2703,
+    "end": 3322,
+    "name": "公用電気自動車導入事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 2802,
+        "raw": "事業費\n\n5,586,000 円",
+        "value": "5,586,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 2,
+    "start": 3322,
+    "end": 4281,
+    "name": "デマンド型乗合タクシー運行事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 3425,
+        "raw": "事業費\n\n12,114,778 円",
+        "value": "12,114,778"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 3,
+    "start": 4281,
+    "end": 4887,
+    "name": "ふるさと納税推進事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 4378,
+        "raw": "事業費\n\n123,403,744 円",
+        "value": "123,403,744"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 4,
+    "start": 4887,
+    "end": 5919,
+    "name": "窓口手数料等キャッシュレス決済導入事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 4989,
+        "raw": "事業費\n23,696 円",
+        "value": "23,696"
+      },
+      {
+        "start": 5048,
+        "raw": "事業費\n2,474,144 円",
+        "value": "2,474,144"
+      },
+      {
+        "start": 5110,
+        "raw": "事業費\n37,689 円",
+        "value": "37,689"
+      },
+      {
+        "start": 5173,
+        "raw": "事業費\n25,203 円",
+        "value": "25,203"
+      },
+      {
+        "start": 5231,
+        "raw": "事業費\n31,204 円",
+        "value": "31,204"
+      },
+      {
+        "start": 5289,
+        "raw": "事業費\n93,994 円",
+        "value": "93,994"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 5,
+    "start": 5919,
+    "end": 6851,
+    "name": "証明書等コンビニ交付サービス事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 6101,
+        "raw": "事業費\n\n7,101,828 円",
+        "value": "7,101,828"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 6,
+    "start": 6851,
+    "end": 7901,
+    "name": "重度障害者医療費助成・高齢重度障害者医療費助成事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 7032,
+        "raw": "事業費\n80,049,922 円",
+        "value": "80,049,922"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 7,
+    "start": 7901,
+    "end": 8651,
+    "name": "地域福祉計画策定事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 8007,
+        "raw": "事業費\n\n2,301,700 円",
+        "value": "2,301,700"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 8,
+    "start": 8651,
+    "end": 9754,
+    "name": "低所得者支援及び定額減税補足給付金給付事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 8788,
+        "raw": "事業費\n\n339,185,853 円",
+        "value": "339,185,853"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 9,
+    "start": 9754,
+    "end": 10469,
+    "name": "住民税非課税世帯に対する給付金給付事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 9887,
+        "raw": "事業費\n\n3,703,567 円",
+        "value": "3,703,567"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 10,
+    "start": 10469,
+    "end": 11689,
+    "name": "住民税非課税世帯等に対する臨時特別給付金給付事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 11,
+    "start": 11689,
+    "end": 12635,
+    "name": "防犯カメラ設置等事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 11786,
+        "raw": "事業費\n\n85,897,508 円",
+        "value": "85,897,508"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 12,
+    "start": 12635,
+    "end": 13292,
+    "name": "自動録音電話機等普及促進事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 12737,
+        "raw": "事業費\n\n1,422,400 円",
+        "value": "1,422,400"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 13,
+    "start": 13292,
+    "end": 14196,
+    "name": "防犯灯・街灯維持管理事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 13397,
+        "raw": "事業費\n\n20,184,598 円",
+        "value": "20,184,598"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 14,
+    "start": 14196,
+    "end": 15223,
+    "name": "高齢者優待利用券交付事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 14304,
+        "raw": "事業費\n\n35,656,027 円",
+        "value": "35,656,027"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 15,
+    "start": 15223,
+    "end": 15976,
+    "name": "敬老お祝い事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 15321,
+        "raw": "事業費\n\n7,023,631 円",
+        "value": "7,023,631"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 16,
+    "start": 15976,
+    "end": 16862,
+    "name": "総合福祉会館空調設備改修事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 16096,
+        "raw": "事業費\n\n36,366,880 円",
+        "value": "36,366,880"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 17,
+    "start": 16862,
+    "end": 17766,
+    "name": "こども家庭センター設置運営事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 17065,
+        "raw": "事業費\n\n18,236,903 円",
+        "value": "18,236,903"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 18,
+    "start": 17766,
+    "end": 18873,
+    "name": "こども計画策定事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 17872,
+        "raw": "事業費\n6,347,905 円",
+        "value": "6,347,905"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 19,
+    "start": 18873,
+    "end": 19451,
+    "name": "出産お祝い金支給事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 18978,
+        "raw": "事業費\n\n9,000,000 円",
+        "value": "9,000,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 20,
+    "start": 19451,
+    "end": 20168,
+    "name": "こどもの居場所づくり支援事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 19563,
+        "raw": "事業費\n\n435,000 円",
+        "value": "435,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 21,
+    "start": 20168,
+    "end": 20783,
+    "name": "保育所等子育て支援カウンセラー事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 20276,
+        "raw": "事業費\n\n576,000 円",
+        "value": "576,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 22,
+    "start": 20783,
+    "end": 21390,
+    "name": "保育所等給食費支援事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 20885,
+        "raw": "事業費\n\n4,983,000 円",
+        "value": "4,983,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 23,
+    "start": 21390,
+    "end": 22145,
+    "name": "児童手当支給事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 21488,
+        "raw": "事業費\n\n532,035,000 円",
+        "value": "532,035,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 24,
+    "start": 22145,
+    "end": 22814,
+    "name": "子育て家庭ショートステイ事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 22254,
+        "raw": "事業費\n\n26,900 円",
+        "value": "26,900"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 25,
+    "start": 22814,
+    "end": 23490,
+    "name": "保育所緊急整備事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 22914,
+        "raw": "事業費\n\n127,644,000 円",
+        "value": "127,644,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 26,
+    "start": 23490,
+    "end": 24262,
+    "name": "いなみっこ広場一時預かり保育利用促進事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 23606,
+        "raw": "事業費\n\n15,540 円",
+        "value": "15,540"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 27,
+    "start": 24262,
+    "end": 24838,
+    "name": "一般不妊治療費助成事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 24364,
+        "raw": "事業費\n\n704,180 円",
+        "value": "704,180"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 28,
+    "start": 24838,
+    "end": 25805,
+    "name": "妊娠出産子育て支援事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 24943,
+        "raw": "事業費\n23,950,981 円",
+        "value": "23,950,981"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 29,
+    "start": 25805,
+    "end": 26937,
+    "name": "帯状疱疹任意予防接種費助成事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 25911,
+        "raw": "事業費\n\n5,329,192 円",
+        "value": "5,329,192"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 30,
+    "start": 26937,
+    "end": 27583,
+    "name": "飼い主のいない猫の不妊去勢手術補助事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 27043,
+        "raw": "事業費\n\n45,000 円",
+        "value": "45,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 31,
+    "start": 27583,
+    "end": 28339,
+    "name": "地球温暖化対策実行計画(区域施策編)策定事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 27702,
+        "raw": "事業費\n\n7,677,295 円",
+        "value": "7,677,295"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 32,
+    "start": 28339,
+    "end": 29013,
+    "name": "電気自動車等普及促進事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 28447,
+        "raw": "事業費\n\n850,000 円",
+        "value": "850,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 33,
+    "start": 29013,
+    "end": 29582,
+    "name": "空きびん回収用ドラム缶更新事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 29117,
+        "raw": "事業費\n\n2,046,000 円",
+        "value": "2,046,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 34,
+    "start": 29582,
+    "end": 30318,
+    "name": "広域ごみ処理事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 29680,
+        "raw": "事業費\n\n18,686,342 円",
+        "value": "18,686,342"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 35,
+    "start": 30318,
+    "end": 31018,
+    "name": "農薬に頼らない稲作技術実証事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 30421,
+        "raw": "事業費\n\n2,253,300 円",
+        "value": "2,253,300"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 36,
+    "start": 31018,
+    "end": 31732,
+    "name": "地域計画策定推進事業（人・農地プラン）",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 31130,
+        "raw": "事業費\n\n9,647,000 円",
+        "value": "9,647,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 37,
+    "start": 31732,
+    "end": 32261,
+    "name": "地震対策ため池防災事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 31832,
+        "raw": "事業費\n\n8,207,551 円",
+        "value": "8,207,551"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 38,
+    "start": 32261,
+    "end": 32907,
+    "name": "多面的機能支払事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 32361,
+        "raw": "事業費\n\n109,761,130 円",
+        "value": "109,761,130"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 39,
+    "start": 32907,
+    "end": 33635,
+    "name": "基幹水利施設整備事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 33009,
+        "raw": "事業費\n\n13,667,478 円",
+        "value": "13,667,478"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 40,
+    "start": 33635,
+    "end": 34334,
+    "name": "水利施設等保全高度化事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 33745,
+        "raw": "事業費\n\n69,998,500 円",
+        "value": "69,998,500"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 41,
+    "start": 34334,
+    "end": 34957,
+    "name": "加古大池利活用施設管理棟改修事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 34445,
+        "raw": "事業費\n\n18,058,700 円",
+        "value": "18,058,700"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 42,
+    "start": 34957,
+    "end": 35486,
+    "name": "商工業振興補助事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 35048,
+        "raw": "事業費\n\n16,661,246 円",
+        "value": "16,661,246"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 43,
+    "start": 35486,
+    "end": 36715,
+    "name": "にぎわい創出補助事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 35577,
+        "raw": "事業費\n\n2,998,000 円",
+        "value": "2,998,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 44,
+    "start": 36715,
+    "end": 37292,
+    "name": "稲美町プレミアム付商品券事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 36813,
+        "raw": "事業費\n\n148,836,000 円",
+        "value": "148,836,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 45,
+    "start": 37292,
+    "end": 37895,
+    "name": "稲美町地域振興商品券事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 37395,
+        "raw": "事業費\n\n98,056,245 円",
+        "value": "98,056,245"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 46,
+    "start": 37895,
+    "end": 38626,
+    "name": "町道維持補修事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 37992,
+        "raw": "事業費\n\n74,402,900 円",
+        "value": "74,402,900"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 47,
+    "start": 38626,
+    "end": 39333,
+    "name": "町道草谷学校線歩道整備事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 38734,
+        "raw": "事業費\n\n30,000,000 円",
+        "value": "30,000,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 48,
+    "start": 39333,
+    "end": 40078,
+    "name": "親元近居住宅取得等支援補助事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 39453,
+        "raw": "事業費\n\n8,280,000 円",
+        "value": "8,280,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 49,
+    "start": 40078,
+    "end": 40945,
+    "name": "沿道活性化にぎわいづくり補助事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 40185,
+        "raw": "事業費\n5,880,000 円",
+        "value": "5,880,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 50,
+    "start": 40945,
+    "end": 41811,
+    "name": "土地利用計画策定事業（市街化調整区域）",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 41061,
+        "raw": "事業費\n\n5,085,300 円",
+        "value": "5,085,300"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 51,
+    "start": 41811,
+    "end": 42417,
+    "name": "田園集落まちづくり住宅新築促進事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 41934,
+        "raw": "事業費\n\n180,000 円",
+        "value": "180,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 52,
+    "start": 42417,
+    "end": 43031,
+    "name": "菊徳地区土地区画整理事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 42524,
+        "raw": "事業費\n18,095,000 円",
+        "value": "18,095,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 53,
+    "start": 43031,
+    "end": 43671,
+    "name": "国安小池公園整備事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 43130,
+        "raw": "事業費\n\n84,602,100 円",
+        "value": "84,602,100"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 54,
+    "start": 43671,
+    "end": 44557,
+    "name": "公園施設長寿命化計画変更事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 43775,
+        "raw": "事業費\n\n21,340,000 円",
+        "value": "21,340,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 55,
+    "start": 44557,
+    "end": 45329,
+    "name": "公園施設長寿命化対策事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 44659,
+        "raw": "事業費\n\n34,568,600 円",
+        "value": "34,568,600"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 56,
+    "start": 45329,
+    "end": 46287,
+    "name": "教育振興基本計画策定事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 45435,
+        "raw": "事業費\n\n3,333,299 円",
+        "value": "3,333,299"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 57,
+    "start": 46287,
+    "end": 47147,
+    "name": "ＩＣＴ利活用学校支援事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 46392,
+        "raw": "事業費\n\n82,444,011 円",
+        "value": "82,444,011"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 58,
+    "start": 47147,
+    "end": 48049,
+    "name": "幼・小・中一貫した国際理解教育推進事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 47259,
+        "raw": "事業費\n\n27,201,065 円",
+        "value": "27,201,065"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 59,
+    "start": 48049,
+    "end": 48894,
+    "name": "ふれあい教室充実事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 48148,
+        "raw": "事業費\n\n2,501,230 円",
+        "value": "2,501,230"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 60,
+    "start": 48894,
+    "end": 49860,
+    "name": "不登校児童生徒支援事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 48994,
+        "raw": "事業費\n\n900,000 円",
+        "value": "900,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 61,
+    "start": 49860,
+    "end": 50813,
+    "name": "小学校体育館照明設備等更新事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 49963,
+        "raw": "事業費\n40,742,900 円",
+        "value": "40,742,900"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 62,
+    "start": 50813,
+    "end": 51654,
+    "name": "小学校エレベーター設置事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 50922,
+        "raw": "事業費\n53,413,000 円",
+        "value": "53,413,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 63,
+    "start": 51654,
+    "end": 52403,
+    "name": "中学校体育館照明設備等更新事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 51764,
+        "raw": "事業費\n\n28,380,000 円",
+        "value": "28,380,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 64,
+    "start": 52403,
+    "end": 53469,
+    "name": "中学校部活動地域移行事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 52530,
+        "raw": "事業費\n\n6,372,290 円",
+        "value": "6,372,290"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 65,
+    "start": 53469,
+    "end": 54299,
+    "name": "幼稚園教育計画策定事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 53564,
+        "raw": "事業費\n\n101,700 円",
+        "value": "101,700"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 66,
+    "start": 54299,
+    "end": 55377,
+    "name": "人権教育啓発事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 54397,
+        "raw": "事業費\n\n4,114,339 円",
+        "value": "4,114,339"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 67,
+    "start": 55377,
+    "end": 56739,
+    "name": "放課後児童クラブ管理運営事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 55489,
+        "raw": "事業費\n\n52,639,532 円",
+        "value": "52,639,532"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 68,
+    "start": 56739,
+    "end": 57892,
+    "name": "町史編さん事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 56917,
+        "raw": "事業費\n\n812,223 円",
+        "value": "812,223"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 69,
+    "start": 57892,
+    "end": 58858,
+    "name": "文化の森空調設備改修事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 57995,
+        "raw": "事業費\n\n80,490,300 円",
+        "value": "80,490,300"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 70,
+    "start": 58858,
+    "end": 59716,
+    "name": "スポーツ施設等予約システム運用事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 59059,
+        "raw": "事業費\n3,441,900 円",
+        "value": "3,441,900"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 71,
+    "start": 59716,
+    "end": 60466,
+    "name": "文化の森第2駐車場整備事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 59820,
+        "raw": "事業費\n\n28,410,800 円",
+        "value": "28,410,800"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 72,
+    "start": 60466,
+    "end": 61373,
+    "name": "トップアスリート招待事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 60569,
+        "raw": "事業費\n\n1,000,000 円",
+        "value": "1,000,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 73,
+    "start": 61373,
+    "end": 62196,
+    "name": "アーバンスポーツ施設調査設計事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 61483,
+        "raw": "事業費\n\n6,611,000 円",
+        "value": "6,611,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 74,
+    "start": 62196,
+    "end": 62909,
+    "name": "学校給食食材物価上昇分支援事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 62302,
+        "raw": "事業費\n\n19,416,535 円",
+        "value": "19,416,535"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 75,
+    "start": 62909,
+    "end": 63602,
+    "name": "学校給食公会計化事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 63010,
+        "raw": "事業費\n\n12,132,800 円",
+        "value": "12,132,800"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 76,
+    "start": 63602,
+    "end": 64629,
+    "name": "西部配水場更新事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 63699,
+        "raw": "事業費\n\n1,030,843,900 円",
+        "value": "1,030,843,900"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  },
+  {
+    "index": 77,
+    "start": 64629,
+    "end": 65658,
+    "name": "下水道広域化推進総合事業",
+    "completeBody": true,
+    "pendingDirectCostSpans": [
+      {
+        "start": 64737,
+        "raw": "事業費\n\n17,270,000 円",
+        "value": "17,270,000"
+      }
+    ],
+    "costStatus": "not_accepted_pending_alignment_review"
+  }
+]

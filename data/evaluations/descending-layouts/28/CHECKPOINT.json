@@ -1,0 +1,42 @@
+{
+  "candidateRecords": 1856,
+  "rawProposals": 1858,
+  "perMunicipality": {
+    "稲美町": 78,
+    "猪名川町": 419,
+    "丹波篠山市": 1359
+  },
+  "sourcesInventoried": 86,
+  "completeBodies": 68,
+  "continuationParts": 2,
+  "missingBodies": 18,
+  "existingDuplicateOutputs": 576,
+  "validatedCumulativeCandidates": 20482,
+  "validatedEvidence": 53969,
+  "excludedFromCumulative": [
+    "Okinawa1084",
+    "initial93"
+  ],
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0,
+  "master": "b3f8012827bc5ed61637a616f11882e9f3ea5145",
+  "excludedMunicipalities": [
+    "28218 小野市",
+    "28213 西脇市",
+    "28204 西宮市",
+    "28203 明石市",
+    "28201 姫路市"
+  ],
+  "phaseComplete": false,
+  "checks": {
+    "focused": "15/15",
+    "crawler": "632/632",
+    "web": "256/256",
+    "typecheck": "pass",
+    "lint": "pass with existing font warning",
+    "national": "pass; unchanged local baseline",
+    "static": "109 pages /local_gov_vis"
+  },
+  "remaining": "All17processed sources remain partial coverage. Further88wrapped-title proposals are external andunvalidated; token-boundary andcoverage review remains actionable. External later proposals are not included. Missing18bodies held withoutnetwork retrieval. User unpublished local changes cannot be observed. CI remainsunverified after earlierActions403; no retry or manualdispatch."
+}

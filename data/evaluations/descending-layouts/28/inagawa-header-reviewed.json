@@ -1,0 +1,950 @@
+[
+  {
+    "sourceId": "4bad4f3ba197da937016a6b6",
+    "added": 17,
+    "rows": [
+      {
+        "start": 2260,
+        "raw": "事務事業名等\n主な施策・事業名を掲げています。",
+        "name": "主な施策・事業名を掲げています。",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 2932,
+        "raw": "事務事業名等\nわくわくスクールプラン推進事業",
+        "name": "わくわくスクールプラン推進事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 6655,
+        "raw": "事務事業名等\n中学校学習到達度調査",
+        "name": "中学校学習到達度調査",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 11025,
+        "raw": "事務事業名等\n各学校における道徳授業研究",
+        "name": "各学校における道徳授業研究",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 12893,
+        "raw": "事務事業名等\n身体的活動力判定事業",
+        "name": "身体的活動力判定事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 15075,
+        "raw": "事務事業名等\n人権感覚を育む指導方法研究推進",
+        "name": "人権感覚を育む指導方法研究推進",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 16229,
+        "raw": "事務事業名等\n教育相談事業",
+        "name": "教育相談事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 18369,
+        "raw": "事務事業名等\n\n７－(1)",
+        "name": "７－(1)",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 19503,
+        "raw": "事務事業名等\n中学校部活動支援事業",
+        "name": "中学校部活動支援事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 20400,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 22979,
+        "raw": "事務事業名等\n幼稚園教育研究会",
+        "name": "幼稚園教育研究会",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 24523,
+        "raw": "事務事業名等\n\n児童安全対策事業（ＣＡＰ講習会）",
+        "name": "児童安全対策事業（ＣＡＰ講習会）",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 25294,
+        "raw": "事務事業名等\n\n（再掲）",
+        "name": "（再掲）",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 25472,
+        "raw": "事務事業名等\n\nトライやる・ウィーク",
+        "name": "トライやる・ウィーク",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 25565,
+        "raw": "事務事業名等\n\n国旗・国旗の意義の理解推進",
+        "name": "国旗・国旗の意義の理解推進",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 26516,
+        "raw": "事務事業名等\n\n避難所開設連絡会議",
+        "name": "避難所開設連絡会議",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 27198,
+        "raw": "事務事業名等\n\n教育用コンピュータ整備・活用事業",
+        "name": "教育用コンピュータ整備・活用事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 28312,
+        "raw": "事務事業名等\n教職員人事・服務監督",
+        "name": "教職員人事・服務監督",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 30180,
+        "raw": "事務事業名等\n留守家庭児童育成室事業",
+        "name": "留守家庭児童育成室事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 30772,
+        "raw": "事務事業名等\n\n学習機会の提供",
+        "name": "学習機会の提供",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 32115,
+        "raw": "事務事業名等\n\n図書館資料の充実",
+        "name": "図書館資料の充実",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 34389,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 37449,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 41962,
+        "raw": "事務事業名等\n\n放課後子どもプラン事業",
+        "name": "放課後子どもプラン事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      }
+    ]
+  },
+  {
+    "sourceId": "01158a23769d3c9a13f766b0",
+    "added": 17,
+    "rows": [
+      {
+        "start": 2246,
+        "raw": "事務事業名等\n主な施策・事業名を掲げています。",
+        "name": "主な施策・事業名を掲げています。",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 2750,
+        "raw": "事務事業名等\nわくわくスクールプラン推進事業",
+        "name": "わくわくスクールプラン推進事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 5724,
+        "raw": "事務事業名等\n教職員人事・服務監督",
+        "name": "教職員人事・服務監督",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 7237,
+        "raw": "事務事業名等\n小学校・中学校学習到達度調査",
+        "name": "小学校・中学校学習到達度調査",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 11096,
+        "raw": "事務事業名等\n各学校における道徳授業研究",
+        "name": "各学校における道徳授業研究",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 12919,
+        "raw": "事務事業名等\n身体的活動力判定事業",
+        "name": "身体的活動力判定事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 15145,
+        "raw": "事務事業名等\n人権感覚を育む指導方法研究推進",
+        "name": "人権感覚を育む指導方法研究推進",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 16150,
+        "raw": "事務事業名等\n教育相談事業",
+        "name": "教育相談事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 18194,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 18995,
+        "raw": "事務事業名等\n特別活動担当者会",
+        "name": "特別活動担当者会",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 19664,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 22682,
+        "raw": "事務事業名等\n幼稚園教育研究会",
+        "name": "幼稚園教育研究会",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 23825,
+        "raw": "事務事業名等\n\n教育用コンピュータ整備・活用事業",
+        "name": "教育用コンピュータ整備・活用事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 24855,
+        "raw": "事務事業名等\n\n児童安全対策事業（ＣＡＰ講習会）",
+        "name": "児童安全対策事業（ＣＡＰ講習会）",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 25610,
+        "raw": "事務事業名等\n\n国旗・国旗の意義の理解推進",
+        "name": "国旗・国旗の意義の理解推進",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 26475,
+        "raw": "事務事業名等\n\n避難所開設連絡会議",
+        "name": "避難所開設連絡会議",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 27149,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 27583,
+        "raw": "事務事業名等\n\nトライやる・ウィーク推進事業",
+        "name": "トライやる・ウィーク推進事業",
+        "status": "same_year_name_already_represented",
+        "reason": "Name already represented; noadditionalidentity asserted."
+      },
+      {
+        "start": 27645,
+        "raw": "事務事業名等\n留守家庭児童育成室事業",
+        "name": "留守家庭児童育成室事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 28303,
+        "raw": "事務事業名等\n\n学習機会の提供",
+        "name": "学習機会の提供",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 33894,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 37859,
+        "raw": "事務事業名等\n\n放課後子どもプラン事業",
+        "name": "放課後子どもプラン事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 39816,
+        "raw": "事務事業名等\n\n多田銀銅山遺跡詳細分布調査",
+        "name": "多田銀銅山遺跡詳細分布調査",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      }
+    ]
+  },
+  {
+    "sourceId": "478fffb21426ff6ed1ab23d2",
+    "added": 6,
+    "rows": [
+      {
+        "start": 2277,
+        "raw": "事務事業名等\n主な施策・事業名を掲げています。",
+        "name": "主な施策・事業名を掲げています。",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 2693,
+        "raw": "事務事業名等\n\n学校園評議員制度の設置",
+        "name": "学校園評議員制度の設置",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 5448,
+        "raw": "事務事業名等\n\n教職員研修の実施",
+        "name": "教職員研修の実施",
+        "status": "same_year_name_already_represented",
+        "reason": "Name already represented; noadditionalidentity asserted."
+      },
+      {
+        "start": 6930,
+        "raw": "事務事業名等\n\n英語科教員 ALT 活用研修会",
+        "name": "英語科教員 ALT 活用研修会",
+        "status": "same_year_name_already_represented",
+        "reason": "Name already represented; noadditionalidentity asserted."
+      },
+      {
+        "start": 10762,
+        "raw": "事務事業名等\n\n価",
+        "name": "価",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 12516,
+        "raw": "事務事業名等\n\n価",
+        "name": "価",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 14631,
+        "raw": "事務事業名等\n\n公開授業研究 2 回",
+        "name": "公開授業研究 2 回",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 16464,
+        "raw": "事務事業名等\n\n教育相談事業",
+        "name": "教育相談事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 17585,
+        "raw": "事務事業名等\n\n１件",
+        "name": "１件",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 18302,
+        "raw": "事務事業名等\n\nトライやる・ウィーク推進事業",
+        "name": "トライやる・ウィーク推進事業",
+        "status": "same_year_name_already_represented",
+        "reason": "Name already represented; noadditionalidentity asserted."
+      },
+      {
+        "start": 19006,
+        "raw": "事務事業名等\n\n兵庫教育大学、川西養護学校との連携協",
+        "name": "兵庫教育大学、川西養護学校との連携協",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 22024,
+        "raw": "事務事業名等\n\n3回",
+        "name": "3回",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 23341,
+        "raw": "事務事業名等\n\n教育用コンピュータ整備・活用事業",
+        "name": "教育用コンピュータ整備・活用事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 24388,
+        "raw": "事務事業名等\n\n児童安全対策事業（ＣＡＰ講習会）",
+        "name": "児童安全対策事業（ＣＡＰ講習会）",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 25235,
+        "raw": "事務事業名等\n\n国旗・国旗の意義の理解推進",
+        "name": "国旗・国旗の意義の理解推進",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 26059,
+        "raw": "事務事業名等\n\n避難所開設連絡会議",
+        "name": "避難所開設連絡会議",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 26696,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 27115,
+        "raw": "事務事業名等\n\n小中学校における太陽光発電システム",
+        "name": "小中学校における太陽光発電システム",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 27243,
+        "raw": "事務事業名等\n\n留守家庭児童育成室事業",
+        "name": "留守家庭児童育成室事業",
+        "status": "same_year_name_already_represented",
+        "reason": "Name already represented; noadditionalidentity asserted."
+      },
+      {
+        "start": 27846,
+        "raw": "事務事業名等\n\n6回",
+        "name": "6回",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 34094,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 37703,
+        "raw": "事務事業名等\n\n168 人",
+        "name": "168 人",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 39910,
+        "raw": "事務事業名等\n\nふるさと館事業",
+        "name": "ふるさと館事業",
+        "status": "same_year_name_already_represented",
+        "reason": "Name already represented; noadditionalidentity asserted."
+      }
+    ]
+  },
+  {
+    "sourceId": "5f2c88c7936da920a44d4983",
+    "added": 27,
+    "rows": [
+      {
+        "start": 2742,
+        "raw": "事務事業名等\n主な施策・事業名を掲げています。",
+        "name": "主な施策・事業名を掲げています。",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 3270,
+        "raw": "事務事業名等\nわくわくスク－ルプラン推進事業",
+        "name": "わくわくスク－ルプラン推進事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 3775,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 4829,
+        "raw": "事務事業名等\n\n１－(4)",
+        "name": "１－(4)",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 5815,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 6728,
+        "raw": "事務事業名等\n教育用コンピュ－タ整備・活用事業",
+        "name": "教育用コンピュ－タ整備・活用事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 7731,
+        "raw": "事務事業名等\n英語指導助手派遣事業",
+        "name": "英語指導助手派遣事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 8733,
+        "raw": "事務事業名等\n各学校における道徳授業研究",
+        "name": "各学校における道徳授業研究",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 9157,
+        "raw": "事務事業名等\n\n５－(1)",
+        "name": "５－(1)",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 9696,
+        "raw": "事務事業名等\nトライやる・ウィ－ク推進事業",
+        "name": "トライやる・ウィ－ク推進事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 10297,
+        "raw": "事務事業名等\n国旗・国歌の意義の理解推進",
+        "name": "国旗・国歌の意義の理解推進",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 10910,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 11836,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 12418,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 13391,
+        "raw": "事務事業名等\n学校保健事業",
+        "name": "学校保健事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 14108,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 14676,
+        "raw": "事務事業名等\n兵庫教育大学、川西養護学校との連携協",
+        "name": "兵庫教育大学、川西養護学校との連携協",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 15345,
+        "raw": "事務事業名等\nスク－ルアシスタント配置事業",
+        "name": "スク－ルアシスタント配置事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 16274,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 17001,
+        "raw": "事務事業名等\n特別支援教育公開講座",
+        "name": "特別支援教育公開講座",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 17914,
+        "raw": "事務事業名等\n\n教育相談事業",
+        "name": "教育相談事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 18648,
+        "raw": "事務事業名等\n\n11－(3)",
+        "name": "11－(3)",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 19630,
+        "raw": "事務事業名等\n幼稚園教育研究会",
+        "name": "幼稚園教育研究会",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 20166,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 20920,
+        "raw": "事務事業名等\n\n各中学校ブロック研修会の充実",
+        "name": "各中学校ブロック研修会の充実",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 21309,
+        "raw": "事務事業名等\n\n学校園評議員制度の設置",
+        "name": "学校園評議員制度の設置",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 22299,
+        "raw": "事務事業名等\n\n学校園経営研究会",
+        "name": "学校園経営研究会",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 23103,
+        "raw": "事務事業名等\n\n15－(3)",
+        "name": "15－(3)",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 23946,
+        "raw": "事務事業名等\n人権感覚を育む指導方法研究推進",
+        "name": "人権感覚を育む指導方法研究推進",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 24347,
+        "raw": "事務事業名等\n\n16－(2)",
+        "name": "16－(2)",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 25140,
+        "raw": "事務事業名等\n留守家庭児童育成室事業",
+        "name": "留守家庭児童育成室事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 25680,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 26705,
+        "raw": "事務事業名等\n情報モラル講演会の開催",
+        "name": "情報モラル講演会の開催",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 27099,
+        "raw": "事務事業名等\n児童安全対策事業（ＣＡＰ講習会）",
+        "name": "児童安全対策事業（ＣＡＰ講習会）",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 27813,
+        "raw": "事務事業名等\n\n19－(4)",
+        "name": "19－(4)",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 28155,
+        "raw": "事務事業名等\n避難所開設連絡会議",
+        "name": "避難所開設連絡会議",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 28496,
+        "raw": "事務事業名等\n\n学校支援地域本部事業",
+        "name": "学校支援地域本部事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 28768,
+        "raw": "事務事業名等\n家庭学習の手引きの活用",
+        "name": "家庭学習の手引きの活用",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 29089,
+        "raw": "事務事業名等\n里山環境体験学習",
+        "name": "里山環境体験学習",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 29576,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 30927,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 31721,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 32748,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 33694,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 34647,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 35029,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 35709,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 36187,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 36795,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 37774,
+        "raw": "事務事業名等\n全国大会等出場者への活動助成",
+        "name": "全国大会等出場者への活動助成",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 38580,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 39387,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 39862,
+        "raw": "事務事業名等\n放課後子どもプラン事業",
+        "name": "放課後子どもプラン事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 40617,
+        "raw": "事務事業名等\n\n４－(3)",
+        "name": "４－(3)",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 41334,
+        "raw": "事務事業名等\n\n5－(1)",
+        "name": "5－(1)",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 41815,
+        "raw": "事務事業名等\n青少年フォ－ラム",
+        "name": "青少年フォ－ラム",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 42424,
+        "raw": "事務事業名等\n\n7－(1)",
+        "name": "7－(1)",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 42877,
+        "raw": "事務事業名等\n\n８－（１） ふるさと館事業",
+        "name": "ふるさと館事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 43368,
+        "raw": "事務事業名等\n\n８－（2） 多田銀銅山悠久の館事業",
+        "name": "多田銀銅山悠久の館事業",
+        "status": "header_title_pending_validation",
+        "reason": "Reviewed complete individualbusiness-title header."
+      },
+      {
+        "start": 44138,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 44507,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      },
+      {
+        "start": 45358,
+        "raw": "事務事業名等\n\n事業内容・実施状況等",
+        "name": "事業内容・実施状況等",
+        "status": "nonrecord_or_incomplete_title_hold",
+        "reason": "Heading/scalar, incomplete title orpotentialalias; no guessedcompletion."
+      }
+    ]
+  }
+]

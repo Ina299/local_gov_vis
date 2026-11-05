@@ -1,0 +1,15 @@
+{
+  "sourceIds": [
+    "96b1ca85162b04005c939730",
+    "f6ccf980b9afe5dc9e7e7721",
+    "d01430eaa02afdc1bfc0df18",
+    "a6b5f27b09a38a95f6676b0f"
+  ],
+  "classification": "related_adoption_or_budget_material_only",
+  "includedEvaluationCandidates": 0,
+  "verifiedAnnualBudgetIdentities": 3,
+  "reason": "Annualbudgetlinks and parentbusinessidentity areverified, butthese documents are appropriation/adoptionplans, not individualevaluation results. Keep relatedsource audit separate; do not addthree evaluationrecords merelyfrom budgetyears.",
+  "nextInput": "Saved KPI-effect measurement documents linked byofficialpage forFY2024/FY2025, or anothercached evaluatedindividualsheet. No newmunicipalfetch authorized.",
+  "networkDeniedNow": false,
+  "municipalRequests": 0
+}
