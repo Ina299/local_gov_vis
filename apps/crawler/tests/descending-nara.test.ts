@@ -23,7 +23,7 @@ test('Nara proposals require full pinned bodies and literal evidence; no invente
  for(const c of configs){const i=inputs.find(i=>i.sourceId===c.sourceId)!;const r=run(c.sourceId);assert.equal(r.projects.length,c.rows.length);count+=r.projects.length;
  for(const p of r.projects){assert.equal(p.amounts.length,0);assert.equal(p.ratings.length,0);assert.equal(p.indicators.length,0);for(const e of p.evidence){const src=inputs.find(x=>x.sourceUrl===e.sourceUrl)!;const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}
  for(const bad of [{...i,text:i.text+'x'},{...i,truncated:true},{...i,sourceSha256:'x'},{...i,sourceUrl:i.sourceUrl+'x'}])assert.equal(reviewNara(bad,inputs)!.projects.length,0);
- }assert.equal(count,144);
+ }assert.equal(count,226);
 });
 
 
@@ -39,4 +39,14 @@ test('Mitsue preserves explicit report year with unknown multiyear fiscal period
 });
 test('Kashihara requires actual individual-sheet boundaries; no policy summary or template instructions',()=>{
  for(const [id,count] of [['01754fa0403312c0a92ae2be',17],['3294042dde48423d292fdbc2',35]] as const){const ps=run(id).projects;assert.equal(ps.length,count);assert.ok(ps.every(p=>p.evaluatedFiscalYear===2017&&p.evaluationYear===2018));assert.equal(new Set(ps.map(p=>p.projectName.normalize('NFKC'))).size,count);}
+});
+
+test('Gose keeps explicit execution year separate from reimbursement and does not duplicate carryover accounts',()=>{
+ const ps=run('a355359dd76abd07e1dff57b').projects;assert.equal(ps.length,82);
+ const old=ps.find(p=>p.projectName.includes('物価高騰対策生活応援振興券事業費'))!;assert.equal(old.evaluatedFiscalYear,2022);assert.ok(old.evidence.some(e=>e.rawText?.includes('令和５年度分')));
+ assert.ok(!ps.some(p=>p.projectName==='任意事業費'||p.projectName==='基幹系システム事業費＜繰越分＞'));
+ assert.equal(ps.filter(p=>p.projectName==='特別支援教育支援事業費').length,1);
+ assert.equal(ps.filter(p=>p.projectName.startsWith('北十三柳原線他整備事業費')).length,1);
+ assert.ok(ps.some(p=>p.projectName==='「食」の自立支援事業委託（配食）'));
+ const lodge=ps.find(p=>p.projectName==='国民宿舎事業費')!;assert.ok(lodge.evidence.filter(e=>e.rawText?.includes('年度別利用状況')).every(e=>!e.rawText?.includes('介護保険事業特別会計')));
 });

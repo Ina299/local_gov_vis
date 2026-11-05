@@ -313,7 +313,7 @@
       "newCandidates": 31,
       "existingDuplicates": 0,
       "heldUnits": 1,
-      "reason": "Full local604crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local605crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -394,7 +394,7 @@
       "newCandidates": 13,
       "existingDuplicates": 0,
       "heldUnits": 2,
-      "reason": "Full local604crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local605crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -475,7 +475,7 @@
       "newCandidates": 4,
       "existingDuplicates": 0,
       "heldUnits": 3,
-      "reason": "Full local604crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local605crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -556,7 +556,7 @@
       "newCandidates": 2,
       "existingDuplicates": 0,
       "heldUnits": 3,
-      "reason": "Full local604crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local605crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -786,7 +786,7 @@
       "newCandidates": 18,
       "existingDuplicates": 0,
       "heldUnits": 10,
-      "reason": "Full local604crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local605crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -1008,7 +1008,7 @@
       "newCandidates": 24,
       "existingDuplicates": 0,
       "heldUnits": 4,
-      "reason": "Full local604crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local605crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -1505,12 +1505,14 @@
     "characters": 99282,
     "listedContinuations": [],
     "currentDisposition": {
-      "classification": "external_additional_candidates_pending",
+      "classification": "validated_individual_candidates",
       "reviewedBusinessCostHeadings": 102,
       "rawAdditionalCandidates": 82,
       "otherNamedHeadingsInventoried": 344,
-      "remaining": "Other headings are unreviewed, including summaries and financial tables. Not whole-source coverage.",
-      "reason": "82 source-specific proposals hash/quote preview passed outside repository; additional focused/full checks and integration remain. Not included in128candidate checkpoint."
+      "remaining": "344other headings reviewed externally;156further proposals remain unvalidated. This82candidate checkpoint does not claim full source coverage.",
+      "reason": "Full local605crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
+      "newCandidates": 82,
+      "existingDuplicates": 0
     }
   },
   {
@@ -1924,7 +1926,7 @@
       "newCandidates": 1,
       "existingDuplicates": 16,
       "heldUnits": 0,
-      "reason": "Full local604crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local605crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -1953,7 +1955,7 @@
       "newCandidates": 35,
       "existingDuplicates": 0,
       "heldUnits": 0,
-      "reason": "Full local604crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local605crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
