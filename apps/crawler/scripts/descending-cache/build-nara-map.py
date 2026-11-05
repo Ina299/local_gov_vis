@@ -22,6 +22,11 @@ for c in json.loads((stage/'nara-reviewed.json').read_text()):
   if h.get('yearProof'):assert h['yearProof'] in t
   if h.get('department') or h.get('departmentProof'):
    d=h['departmentProof'];assert h['department']==re.sub(r'\s+','',d['raw']);assert u[d['start']*2:d['start']*2+len(d['raw'].encode('utf-16-le'))].decode('utf-16-le')==d['raw'];assert h['contextStart']==d['start'] and h['context'].startswith(d['raw'])
+  if h.get('titleFragments'):
+   assert h['name']==re.sub(r'\s+','',''.join(h['titleFragments']))
+   offset=0
+   for fragment in h['titleFragments']:
+    at=h['raw'].find(fragment,offset);assert at>=0;offset=at+len(fragment)
   if h.get('titleSegments'):
    assert not h.get('titleFragments') and len(h['titleSegments'])>=2
    spans=[]

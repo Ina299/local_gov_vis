@@ -1,0 +1,4319 @@
+[
+  {
+    "sourceId": "b63c3c6ceaa5caa9a820bcd6",
+    "tables": [
+      {
+        "table": 0,
+        "start": 2843,
+        "end": 3992,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 3595,
+            "raw": "7\n\n自治連合事業への補助金の交\n付事業\n",
+            "proposedText": "自治連合事業への補助金の交\n付事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 3947,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 3970,
+            "raw": "4\n\n0\nD：事業の統合・休廃止の検討\n",
+            "proposedText": "0\nD：事業の統合・休廃止の検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 1,
+        "start": 6752,
+        "end": 7521,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 7242,
+            "raw": "5\n\n桜井市情報公開条例・桜井市個\n人情報保護条例の適正施行\n",
+            "proposedText": "桜井市情報公開条例・桜井市個\n人情報保護条例の適正施行",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 7476,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 7499,
+            "raw": "7\n\n0\nD：事業の統合・休廃止の検討\n",
+            "proposedText": "0\nD：事業の統合・休廃止の検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 2,
+        "start": 9533,
+        "end": 10161,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 9636,
+            "raw": "1\n\nリニア中央新幹線建設促進奈良\n県期成同盟会への加盟\n",
+            "proposedText": "リニア中央新幹線建設促進奈良\n県期成同盟会への加盟",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 3,
+        "start": 12388,
+        "end": 13634,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 13407,
+            "raw": "12\n\n法令審査会の運営、例規等の整\n備\n",
+            "proposedText": "法令審査会の運営、例規等の整\n備",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 4,
+        "start": 16936,
+        "end": 18252,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 17407,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 17964,
+            "raw": "1\n\n3 監査業務\n",
+            "proposedText": "3 監査業務",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 17975,
+            "raw": "14\n\n中和幹線粟殿近隣周辺地区まち\nづくり事業\n",
+            "proposedText": "中和幹線粟殿近隣周辺地区まち\nづくり事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 18084,
+            "raw": "16\n\nうち\n一般財源\n",
+            "proposedText": "うち\n一般財源",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 5,
+        "start": 18252,
+        "end": 19705,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 19376,
+            "raw": "95\n\n※【総合評価判定】A：計画通りに事業を進めることが適当 B:事業の進め方の改善の検討\n※【今後の方向性（成果・コスト）】 拡充 ・ 現状維持 ・ 縮小 ・ 休廃止\n",
+            "proposedText": "※【総合評価判定】A：計画通りに事業を進めることが適当 B:事業の進め方の改善の検討\n※【今後の方向性（成果・コスト）】 拡充 ・ 現状維持 ・ 縮小 ・ 休廃止",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 19463,
+            "raw": "17\n\nうち\n一般財源\n",
+            "proposedText": "うち\n一般財源",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 6,
+        "start": 19705,
+        "end": 20544,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 20491,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 7,
+        "start": 23977,
+        "end": 25480,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 24645,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 25275,
+            "raw": "12\n\n第2期桜井市観光基本計画策定\n事業\n",
+            "proposedText": "第2期桜井市観光基本計画策定\n事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 25434,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 25457,
+            "raw": "21\n\n0\nD：事業の統合・休廃止の検討\n",
+            "proposedText": "0\nD：事業の統合・休廃止の検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 8,
+        "start": 28297,
+        "end": 29715,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 28344,
+            "raw": "1\n\n一般建築物における地域木材活\n用補助事業\n",
+            "proposedText": "一般建築物における地域木材活\n用補助事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 28654,
+            "raw": "43\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 28796,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 28985,
+            "raw": "0\n\n5 4Hクラブ育成補助事業\n6\n",
+            "proposedText": "5 4Hクラブ育成補助事業\n6",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 29128,
+            "raw": "4\n\nうち\n一般財源\n",
+            "proposedText": "うち\n一般財源",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 29200,
+            "raw": "12\n\n森林環境税関連事業（SDGs関\n連）\n",
+            "proposedText": "森林環境税関連事業（SDGs関\n連）",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 29257,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 29278,
+            "raw": "13\n\n人・農地問題解決加速化支援事\n業\n",
+            "proposedText": "人・農地問題解決加速化支援事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 29347,
+            "raw": "14\n\n倉橋溜池ふれあい公園の維持管\n理事業\n",
+            "proposedText": "倉橋溜池ふれあい公園の維持管\n理事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 29694,
+            "raw": "24\n\nD：事業の統合・休廃止の検討\n",
+            "proposedText": "D：事業の統合・休廃止の検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 9,
+        "start": 29715,
+        "end": 31190,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 29818,
+            "raw": "17\n\n中山間地域等直接支払交付金事\n業\n",
+            "proposedText": "中山間地域等直接支払交付金事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 30169,
+            "raw": "19\n\n農業施設管理に伴う負担金支払\n事業\n",
+            "proposedText": "農業施設管理に伴う負担金支払\n事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 30207,
+            "raw": "21\n\n農業振興に伴う土地改良区等へ\nの負担金支払事業\n",
+            "proposedText": "農業振興に伴う土地改良区等へ\nの負担金支払事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 30346,
+            "raw": "23\n\n農業用制度資金に係る利子補給\n事業\n",
+            "proposedText": "農業用制度資金に係る利子補給\n事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 30392,
+            "raw": "24\n\n農地や山林の災害発生に伴う事\n業\n",
+            "proposedText": "農地や山林の災害発生に伴う事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 30505,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 30946,
+            "raw": "26\n\n農地等の利用に関する証明及び\n協議事業\n",
+            "proposedText": "農地等の利用に関する証明及び\n協議事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 10,
+        "start": 31190,
+        "end": 31847,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 31269,
+            "raw": "33\n\n木材生産林育成整備事業（SDGs\n関連）\n",
+            "proposedText": "木材生産林育成整備事業（SDGs\n関連）",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 31428,
+            "raw": "35\n\n歴史と里山資源を活用した地域づ\nくり事業\n",
+            "proposedText": "歴史と里山資源を活用した地域づ\nくり事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 11,
+        "start": 34364,
+        "end": 35136,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 34887,
+            "raw": "2\n\nうち\n一般財源\n",
+            "proposedText": "うち\n一般財源",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 12,
+        "start": 37749,
+        "end": 38724,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 38462,
+            "raw": "8\n\n中和幹線沿道大福地区企業誘\n致事業\n",
+            "proposedText": "中和幹線沿道大福地区企業誘\n致事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 13,
+        "start": 40942,
+        "end": 41656,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 41390,
+            "raw": "2\n\n起業支援のためのシステム構築\n支援\n",
+            "proposedText": "起業支援のためのシステム構築\n支援",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 14,
+        "start": 44022,
+        "end": 45609,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 44235,
+            "raw": "25\n\n3 健康づくり普及事業\n",
+            "proposedText": "3 健康づくり普及事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 44571,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 44601,
+            "raw": "7\n\n糖尿病性腎症等重症化予防対\n策\n",
+            "proposedText": "糖尿病性腎症等重症化予防対\n策",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 44621,
+            "raw": "8\n\n特定健康診査・がん検診等事業\nけんこう増進課 78,895\n",
+            "proposedText": "特定健康診査・がん検診等事業\nけんこう増進課 78,895",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 45563,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 15,
+        "start": 47628,
+        "end": 48667,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 48169,
+            "raw": "6\n\n地域共生社会の実現に向けた包\n括的支援体制構築事業\n",
+            "proposedText": "地域共生社会の実現に向けた包\n括的支援体制構築事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 48248,
+            "raw": "7\n\n中国残留邦人等地域生活支援\n事業\n",
+            "proposedText": "中国残留邦人等地域生活支援\n事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 48297,
+            "raw": "8\n\n日本赤十字社奈良県支部との連\n携\n",
+            "proposedText": "日本赤十字社奈良県支部との連\n携",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 16,
+        "start": 50603,
+        "end": 52037,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 50956,
+            "raw": "6\n\n在宅重度身体障害者訪問審査の\n実施事業\n",
+            "proposedText": "在宅重度身体障害者訪問審査の\n実施事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 51286,
+            "raw": "8\n\n肢体不自由児父母の会並びに知的障害児（育\n成会・療育教室）行事への助成\n",
+            "proposedText": "肢体不自由児父母の会並びに知的障害児（育\n成会・療育教室）行事への助成",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 51357,
+            "raw": "9\n\n自立支援医療費（育成医療費）の\n給付\n",
+            "proposedText": "自立支援医療費（育成医療費）の\n給付",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 51422,
+            "raw": "10\n\n自立支援医療費（更生医療費）の\n給付事業\n",
+            "proposedText": "自立支援医療費（更生医療費）の\n給付事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 51716,
+            "raw": "13\n\n手話奉仕員養成事業並びに手話\n講習会（中級）の実施\n",
+            "proposedText": "手話奉仕員養成事業並びに手話\n講習会（中級）の実施",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 51760,
+            "raw": "15\n\n障害者（児）団体連合会や各団体\nへの補助\n",
+            "proposedText": "障害者（児）団体連合会や各団体\nへの補助",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 51995,
+            "raw": "44\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 17,
+        "start": 52037,
+        "end": 53384,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 52341,
+            "raw": "19\n\n障害程度区分認定審査会開催費\n用負担\n",
+            "proposedText": "障害程度区分認定審査会開催費\n用負担",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 52406,
+            "raw": "20\n\n身体障害者自動車運転免許取得\nの奨励\n",
+            "proposedText": "身体障害者自動車運転免許取得\nの奨励",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 53215,
+            "raw": "24\n\n声の広報並びに点字ワープロ利\n用支援\n",
+            "proposedText": "声の広報並びに点字ワープロ利\n用支援",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 53342,
+            "raw": "45\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 18,
+        "start": 53384,
+        "end": 54111,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 19,
+        "start": 55898,
+        "end": 57535,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 55977,
+            "raw": "1\n\nシルバー人材センターの運営補\n助\n",
+            "proposedText": "シルバー人材センターの運営補\n助",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 56344,
+            "raw": "4\n\nうち\n一般財源\n",
+            "proposedText": "うち\n一般財源",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 56881,
+            "raw": "75\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 57263,
+            "raw": "12\n\n養護老人ホーム入所措置への支\n援\n",
+            "proposedText": "養護老人ホーム入所措置への支\n援",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 57299,
+            "raw": "14\n\n老人クラブ連合会リーダー等の\n育成及び健康づくり事業補助\n",
+            "proposedText": "老人クラブ連合会リーダー等の\n育成及び健康づくり事業補助",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 57493,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 20,
+        "start": 60129,
+        "end": 61583,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 61089,
+            "raw": "38\n\n3 ファミリーサポートセンター事業\n",
+            "proposedText": "3 ファミリーサポートセンター事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 61202,
+            "raw": "62\n\n5 子ども一時預かり事業\n",
+            "proposedText": "5 子ども一時預かり事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 61538,
+            "raw": "52\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 21,
+        "start": 61583,
+        "end": 62251,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 61745,
+            "raw": "18\n\n母子・父子・寡婦家庭への支援\n事業\n",
+            "proposedText": "母子・父子・寡婦家庭への支援\n事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 61782,
+            "raw": "19\n\n子ども福祉医療費助成事業\n（こども・ひとり親・未熟児）\n",
+            "proposedText": "子ども福祉医療費助成事業\n（こども・ひとり親・未熟児）",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 62198,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 22,
+        "start": 64400,
+        "end": 65256,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 65213,
+            "raw": "56\n\n任意\n義務\n",
+            "proposedText": "任意\n義務",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 65234,
+            "raw": "0\n\n0\nD：事業の統合・休廃止の検討\n",
+            "proposedText": "0\nD：事業の統合・休廃止の検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 23,
+        "start": 67251,
+        "end": 67903,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 67424,
+            "raw": "1\n\n休日夜間応急診療所の管理・運\nけんこう増進課 25,399\n",
+            "proposedText": "休日夜間応急診療所の管理・運\nけんこう増進課 25,399",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 67516,
+            "raw": "2\n\n桜井地区病院群二次輪番制の\n実施\n",
+            "proposedText": "桜井地区病院群二次輪番制の\n実施",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 24,
+        "start": 70224,
+        "end": 70946,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 25,
+        "start": 72764,
+        "end": 73618,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 73572,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 26,
+        "start": 75943,
+        "end": 77371,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 76273,
+            "raw": "3\n\n安全衛生関係講習会・機器点\n検・各種検査の実施\n",
+            "proposedText": "安全衛生関係講習会・機器点\n検・各種検査の実施",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 76338,
+            "raw": "4\n\n遠距離通学者への支援（小学\n校・中学校）\n",
+            "proposedText": "遠距離通学者への支援（小学\n校・中学校）",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 76740,
+            "raw": "8\n\n学校給食衛生管理基準変更時\nの対応\n",
+            "proposedText": "学校給食衛生管理基準変更時\nの対応",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 76847,
+            "raw": "11\n\n給食センターの合理的・効率的な\n施設の運営の検討\n",
+            "proposedText": "給食センターの合理的・効率的な\n施設の運営の検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 76922,
+            "raw": "12\n\n給食残菜（生ごみ）の発生抑制に\nついての検討\n",
+            "proposedText": "給食残菜（生ごみ）の発生抑制に\nついての検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 77330,
+            "raw": "68\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 27,
+        "start": 77371,
+        "end": 78858,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 78646,
+            "raw": "69\n\nうち\n一般財源\n",
+            "proposedText": "うち\n一般財源",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 28,
+        "start": 78858,
+        "end": 79800,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 78971,
+            "raw": "33\n\n特別支援教育児童・生徒への就\n学奨励\n",
+            "proposedText": "特別支援教育児童・生徒への就\n学奨励",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 79048,
+            "raw": "34\n\n日本スポーツ振興センターとの\n連携（小・中学校）\n",
+            "proposedText": "日本スポーツ振興センターとの\n連携（小・中学校）",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 79131,
+            "raw": "35\n\n不登校児童生徒の適応指導の\n実施\n",
+            "proposedText": "不登校児童生徒の適応指導の\n実施",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 79435,
+            "raw": "38\n\n要保護及び準要保護児童・生徒\nの就学奨励\n",
+            "proposedText": "要保護及び準要保護児童・生徒\nの就学奨励",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 79520,
+            "raw": "39\n\n子どもの貧困対策計画の策定\n（再掲）\n",
+            "proposedText": "子どもの貧困対策計画の策定\n（再掲）",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 29,
+        "start": 81694,
+        "end": 82917,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 30,
+        "start": 85488,
+        "end": 86244,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 31,
+        "start": 88246,
+        "end": 89211,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 88570,
+            "raw": "3\n\n桜井市ボーイ・ガールスカウト活\n動への支援\n",
+            "proposedText": "桜井市ボーイ・ガールスカウト活\n動への支援",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 88651,
+            "raw": "4\n\n桜井市幼小中PTA協議会への支\n援\n",
+            "proposedText": "桜井市幼小中PTA協議会への支\n援",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 32,
+        "start": 91818,
+        "end": 92955,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 92194,
+            "raw": "5\n\n山田寺跡・纒向遺跡魅力発信事\n業\n",
+            "proposedText": "山田寺跡・纒向遺跡魅力発信事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 92304,
+            "raw": "2\n\nR4\n決算\n",
+            "proposedText": "R4\n決算",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 92584,
+            "raw": "9\n\n纒向遺跡の調査研究・普及啓発\n事業\n",
+            "proposedText": "纒向遺跡の調査研究・普及啓発\n事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 92645,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 92666,
+            "raw": "10\n\n纒向遺跡及び市内史跡保存整\n備事業\n",
+            "proposedText": "纒向遺跡及び市内史跡保存整\n備事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 33,
+        "start": 94769,
+        "end": 95726,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 94931,
+            "raw": "2\n\n11小学校区人権教育推進協議会\n活動\n",
+            "proposedText": "11小学校区人権教育推進協議会\n活動",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 95017,
+            "raw": "3\n\n差別をなくす市民集会及び関連事\n業\n",
+            "proposedText": "差別をなくす市民集会及び関連事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 95092,
+            "raw": "4\n\n桜井ふれあいセンターの管理運\n営\n",
+            "proposedText": "桜井ふれあいセンターの管理運\n営",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 34,
+        "start": 97383,
+        "end": 98042,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 35,
+        "start": 100145,
+        "end": 100833,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 36,
+        "start": 103613,
+        "end": 104546,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 104384,
+            "raw": "15\n\n※【総合評価判定】A：計画通りに事業を進めることが適当 B:事業の進め方の改善の検討\n※【今後の方向性（成果・コスト）】 拡充 ・ 現状維持 ・ 縮小 ・ 休廃止\n",
+            "proposedText": "※【総合評価判定】A：計画通りに事業を進めることが適当 B:事業の進め方の改善の検討\n※【今後の方向性（成果・コスト）】 拡充 ・ 現状維持 ・ 縮小 ・ 休廃止",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 104524,
+            "raw": "0\n\n0\nD：事業の統合・休廃止の検討\n",
+            "proposedText": "0\nD：事業の統合・休廃止の検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 37,
+        "start": 106893,
+        "end": 107730,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 106996,
+            "raw": "1\n\n再生可能エネルギーの利活用の\n情報提供\n",
+            "proposedText": "再生可能エネルギーの利活用の\n情報提供",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 107424,
+            "raw": "4\n\nR6\n予算\n",
+            "proposedText": "R6\n予算",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 38,
+        "start": 109786,
+        "end": 110421,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 109899,
+            "raw": "1\n\n開発指導・建築指導行政の適正\nな推進\n",
+            "proposedText": "開発指導・建築指導行政の適正\nな推進",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 110375,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 39,
+        "start": 112277,
+        "end": 113496,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 113450,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 40,
+        "start": 115780,
+        "end": 116551,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 116228,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 116509,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 41,
+        "start": 119344,
+        "end": 120636,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 119391,
+            "raw": "1\n\nブロック壁等撤去工事補助金交\n付\n",
+            "proposedText": "ブロック壁等撤去工事補助金交\n付",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 119463,
+            "raw": "2\n\n既存木造住宅耐震改修事業補\n助金交付\n",
+            "proposedText": "既存木造住宅耐震改修事業補\n助金交付",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 119906,
+            "raw": "7\n\n近鉄大福駅周辺地区まちづくり\n事業\n",
+            "proposedText": "近鉄大福駅周辺地区まちづくり\n事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 120003,
+            "raw": "4\n\nR4\n決算\n",
+            "proposedText": "R4\n決算",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 120092,
+            "raw": "9\n\n市営住宅等の空家募集及び入\n居手続に関する事務\n",
+            "proposedText": "市営住宅等の空家募集及び入\n居手続に関する事務",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 120161,
+            "raw": "10\n\n市営住宅等の使用料に関する事\n務\n",
+            "proposedText": "市営住宅等の使用料に関する事\n務",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 120244,
+            "raw": "11\n\n市営住宅等建替・大規模改修事\n業\n",
+            "proposedText": "市営住宅等建替・大規模改修事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 120454,
+            "raw": "13\n\n老朽危険空家等除却支援事業\n補助金交付\n",
+            "proposedText": "老朽危険空家等除却支援事業\n補助金交付",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 120594,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 42,
+        "start": 122625,
+        "end": 123213,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 123171,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 43,
+        "start": 125526,
+        "end": 126219,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 126177,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 44,
+        "start": 128906,
+        "end": 130523,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 130276,
+            "raw": "6\n\n水道料金徴収等に関する業務の\n委託\n",
+            "proposedText": "水道料金徴収等に関する業務の\n委託",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 45,
+        "start": 130523,
+        "end": 131192,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 130599,
+            "raw": "17\n\n配水管路更新計画に基づく更新\n事業\n",
+            "proposedText": "配水管路更新計画に基づく更新\n事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 131150,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 46,
+        "start": 133472,
+        "end": 134555,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 133570,
+            "raw": "1\n\nし尿収集・運搬・料金収納業務の\n委託\n",
+            "proposedText": "し尿収集・運搬・料金収納業務の\n委託",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 133824,
+            "raw": "3\n\n下水道施設のストックマネジメン\nト（長寿命化）事業\n",
+            "proposedText": "下水道施設のストックマネジメン\nト（長寿命化）事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 133920,
+            "raw": "4\n\n下水道事業計画区域縮小化事\n業\n",
+            "proposedText": "下水道事業計画区域縮小化事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 134513,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 47,
+        "start": 136110,
+        "end": 137000,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 136238,
+            "raw": "14\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 136958,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 48,
+        "start": 139119,
+        "end": 139910,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 139698,
+            "raw": "4\n\n避難所生活環境等整備及び機\n能強化事業\n",
+            "proposedText": "避難所生活環境等整備及び機\n能強化事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 139868,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 49,
+        "start": 142594,
+        "end": 143292,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 142713,
+            "raw": "1\n\n交通安全母の会補助金 交通安\n全思想の普及\n",
+            "proposedText": "交通安全母の会補助金 交通安\n全思想の普及",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 142794,
+            "raw": "2\n\n放置自転車指導即移動業務 自\n転車の放置防止及び撤去\n",
+            "proposedText": "放置自転車指導即移動業務 自\n転車の放置防止及び撤去",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 143250,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 50,
+        "start": 145479,
+        "end": 146308,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 146266,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 51,
+        "start": 148194,
+        "end": 149255,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 149216,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "17ac9fd6afef2d580e343b26",
+    "tables": [
+      {
+        "table": 0,
+        "start": 3032,
+        "end": 4320,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 3904,
+            "raw": "7\n\n自治連合事業への補助金の交\n付事業\n",
+            "proposedText": "自治連合事業への補助金の交\n付事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 4268,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 4291,
+            "raw": "4\n\n0\nD：事業の統合・休廃止の検討\n",
+            "proposedText": "0\nD：事業の統合・休廃止の検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 1,
+        "start": 6917,
+        "end": 7760,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 7510,
+            "raw": "5\n\n桜井市情報公開条例・桜井市個\n人情報保護条例の適正施行\n",
+            "proposedText": "桜井市情報公開条例・桜井市個\n人情報保護条例の適正施行",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 7708,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 7731,
+            "raw": "7\n\n0\nD：事業の統合・休廃止の検討\n",
+            "proposedText": "0\nD：事業の統合・休廃止の検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 2,
+        "start": 9884,
+        "end": 10563,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 10013,
+            "raw": "1\n\nリニア中央新幹線建設促進奈良\n県期成同盟会への加盟\n",
+            "proposedText": "リニア中央新幹線建設促進奈良\n県期成同盟会への加盟",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 3,
+        "start": 12821,
+        "end": 14226,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 13871,
+            "raw": "0\n\n奈良県移住・就業・起業支援事業\n",
+            "proposedText": "奈良県移住・就業・起業支援事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 13918,
+            "raw": "12\n\n法令審査会の運営、例規等の整\n備\n",
+            "proposedText": "法令審査会の運営、例規等の整\n備",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 13987,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 4,
+        "start": 17124,
+        "end": 18591,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 17699,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 18329,
+            "raw": "1\n\n3 監査業務\n",
+            "proposedText": "3 監査業務",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 18340,
+            "raw": "14\n\n中和幹線粟殿近隣周辺地区まち\nづくり事業\n",
+            "proposedText": "中和幹線粟殿近隣周辺地区まち\nづくり事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 18449,
+            "raw": "16\n\nR7\n予算\n",
+            "proposedText": "R7\n予算",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 5,
+        "start": 18591,
+        "end": 20273,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 20010,
+            "raw": "17\n\nうち\n一般財源\n",
+            "proposedText": "うち\n一般財源",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 6,
+        "start": 20273,
+        "end": 21201,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 7,
+        "start": 24689,
+        "end": 26376,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 25173,
+            "raw": "0\n\n7 桜井観光案内所運営\n",
+            "proposedText": "7 桜井観光案内所運営",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 25542,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 25636,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 26209,
+            "raw": "14\n\nR7\n予算\n",
+            "proposedText": "R7\n予算",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 26325,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 26348,
+            "raw": "21\n\n0\nD：事業の統合・休廃止の検討\n",
+            "proposedText": "0\nD：事業の統合・休廃止の検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 8,
+        "start": 29227,
+        "end": 30786,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 29284,
+            "raw": "1\n\n一般建築物における地域木材活\n用補助事業\n",
+            "proposedText": "一般建築物における地域木材活\n用補助事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 29622,
+            "raw": "95\n\n7 経営所得安定対策等推進事業\n",
+            "proposedText": "7 経営所得安定対策等推進事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 29920,
+            "raw": "6\n\n環境保全型農業直接支払交付金\n事業\n",
+            "proposedText": "環境保全型農業直接支払交付金\n事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 30135,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 30215,
+            "raw": "12\n\n森林環境税関連事業（SDGs関\n連）\n",
+            "proposedText": "森林環境税関連事業（SDGs関\n連）",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 30281,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 30302,
+            "raw": "13\n\n人・農地問題解決加速化支援事\n業\n",
+            "proposedText": "人・農地問題解決加速化支援事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 30375,
+            "raw": "14\n\n倉橋溜池ふれあい公園の維持管\n理事業\n",
+            "proposedText": "倉橋溜池ふれあい公園の維持管\n理事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 30760,
+            "raw": "24\n\nD：事業の統合・休廃止の検討\n",
+            "proposedText": "D：事業の統合・休廃止の検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 9,
+        "start": 30786,
+        "end": 32440,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 30843,
+            "raw": "17\n\n中山間地域等直接支払交付金事\n業\n",
+            "proposedText": "中山間地域等直接支払交付金事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 31283,
+            "raw": "19\n\n農業施設管理に伴う負担金支払\n事業\n",
+            "proposedText": "農業施設管理に伴う負担金支払\n事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 31321,
+            "raw": "21\n\n農業振興に伴う土地改良区等へ\nの負担金支払事業\n",
+            "proposedText": "農業振興に伴う土地改良区等へ\nの負担金支払事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 31489,
+            "raw": "23\n\n農業用制度資金に係る利子補給\n事業\n",
+            "proposedText": "農業用制度資金に係る利子補給\n事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 31541,
+            "raw": "24\n\n農地や山林の災害発生に伴う事\n業\n",
+            "proposedText": "農地や山林の災害発生に伴う事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 31676,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 32191,
+            "raw": "26\n\n農地等の利用に関する証明及び\n協議事業\n",
+            "proposedText": "農地等の利用に関する証明及び\n協議事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 10,
+        "start": 32440,
+        "end": 33163,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 32494,
+            "raw": "33\n\n木材生産林育成整備事業（SDGs\n関連）\n",
+            "proposedText": "木材生産林育成整備事業（SDGs\n関連）",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 32724,
+            "raw": "35\n\nうち\n一般財源\n",
+            "proposedText": "うち\n一般財源",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 33112,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 33135,
+            "raw": "26\n\n0\nD：事業の統合・休廃止の検討\n",
+            "proposedText": "0\nD：事業の統合・休廃止の検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 11,
+        "start": 35822,
+        "end": 36668,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 36445,
+            "raw": "2\n\nR7\n予算\n",
+            "proposedText": "R7\n予算",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 12,
+        "start": 39072,
+        "end": 40153,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 39236,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 39917,
+            "raw": "8\n\n中和幹線沿道大福地区企業誘\n致事業\n",
+            "proposedText": "中和幹線沿道大福地区企業誘\n致事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 13,
+        "start": 42371,
+        "end": 43136,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 42412,
+            "raw": "2\n\n起業支援のためのシステム構築\n支援\n",
+            "proposedText": "起業支援のためのシステム構築\n支援",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 42763,
+            "raw": "4\n\n桜井市雇用対策協議会への補\n助\n",
+            "proposedText": "桜井市雇用対策協議会への補\n助",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 42848,
+            "raw": "5\n\n商工会優良社員市長表彰の授\n与\n",
+            "proposedText": "商工会優良社員市長表彰の授\n与",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 14,
+        "start": 45500,
+        "end": 47328,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 46381,
+            "raw": "7\n\n糖尿病性腎症等重症化予防対\n策\n",
+            "proposedText": "糖尿病性腎症等重症化予防対\n策",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 46401,
+            "raw": "8\n\n特定健康診査・がん検診等事業\nけんこう増進課 78,895\n",
+            "proposedText": "特定健康診査・がん検診等事業\nけんこう増進課 78,895",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 47277,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 15,
+        "start": 49455,
+        "end": 50606,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 50051,
+            "raw": "6\n\n地域共生社会の実現に向けた包\n括的支援体制構築事業\n",
+            "proposedText": "地域共生社会の実現に向けた包\n括的支援体制構築事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 50144,
+            "raw": "7\n\n中国残留邦人等地域生活支援\n事業\n",
+            "proposedText": "中国残留邦人等地域生活支援\n事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 50200,
+            "raw": "8\n\n日本赤十字社奈良県支部との連\n携\n",
+            "proposedText": "日本赤十字社奈良県支部との連\n携",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 16,
+        "start": 52676,
+        "end": 54287,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 52715,
+            "raw": "2\n\n移動支援及び日中一時支援事\n業\n",
+            "proposedText": "移動支援及び日中一時支援事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 52748,
+            "raw": "4\n\n外国人重度心身障害者特別給\n付金支給事業\n",
+            "proposedText": "外国人重度心身障害者特別給\n付金支給事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 53229,
+            "raw": "63\n\n県障害者スポーツ大会並びに市民体\n",
+            "proposedText": "県障害者スポーツ大会並びに市民体",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 53251,
+            "raw": "6\n\n今後の方向性\n",
+            "proposedText": "今後の方向性",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 53423,
+            "raw": "8\n\n肢体不自由児父母の会並びに知的障害児\n（育成会・療育教室）行事への助成\n",
+            "proposedText": "肢体不自由児父母の会並びに知的障害児\n（育成会・療育教室）行事への助成",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 53502,
+            "raw": "9\n\n自立支援医療費（育成医療費）\nの給付\n",
+            "proposedText": "自立支援医療費（育成医療費）\nの給付",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 53577,
+            "raw": "10\n\n自立支援医療費（更生医療費）\nの給付事業\n",
+            "proposedText": "自立支援医療費（更生医療費）\nの給付事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 53869,
+            "raw": "13\n\n手話奉仕員養成事業並びに手話\n講習会（中級）の実施\n",
+            "proposedText": "手話奉仕員養成事業並びに手話\n講習会（中級）の実施",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 53913,
+            "raw": "15\n\n障害者（児）団体連合会や各団\n体への補助\n",
+            "proposedText": "障害者（児）団体連合会や各団\n体への補助",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 54220,
+            "raw": "44\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 17,
+        "start": 54287,
+        "end": 55826,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 54617,
+            "raw": "19\n\n障害程度区分認定審査会開催\n費用負担\n",
+            "proposedText": "障害程度区分認定審査会開催\n費用負担",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 54692,
+            "raw": "20\n\n身体障害者自動車運転免許取\n得の奨励\n",
+            "proposedText": "身体障害者自動車運転免許取\n得の奨励",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 54755,
+            "raw": "21\n\n身体障害者自動車改造への扶\n助\n",
+            "proposedText": "身体障害者自動車改造への扶\n助",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 55652,
+            "raw": "24\n\n声の広報並びに点字ワープロ利\n用支援\n",
+            "proposedText": "声の広報並びに点字ワープロ利\n用支援",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 55759,
+            "raw": "45\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 18,
+        "start": 55826,
+        "end": 56630,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 19,
+        "start": 58542,
+        "end": 60396,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 58594,
+            "raw": "1\n\nシルバー人材センターの運営補\n助\n",
+            "proposedText": "シルバー人材センターの運営補\n助",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 59036,
+            "raw": "4\n\nうち\n一般財源\n",
+            "proposedText": "うち\n一般財源",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 59252,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 59935,
+            "raw": "12\n\n養護老人ホーム入所措置への支\n援\n",
+            "proposedText": "養護老人ホーム入所措置への支\n援",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 59971,
+            "raw": "14\n\n老人クラブ連合会リーダー等の\n育成及び健康づくり事業補助\n",
+            "proposedText": "老人クラブ連合会リーダー等の\n育成及び健康づくり事業補助",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 60345,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 20,
+        "start": 63224,
+        "end": 64868,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 63415,
+            "raw": "53\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 63476,
+            "raw": "78\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 21,
+        "start": 64868,
+        "end": 65585,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 65066,
+            "raw": "18\n\n母子・父子・寡婦家庭への支援事\n業\n",
+            "proposedText": "母子・父子・寡婦家庭への支援事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 65103,
+            "raw": "19\n\n子ども福祉医療費助成事業\n（こども・ひとり親・未熟児）\n",
+            "proposedText": "子ども福祉医療費助成事業\n（こども・ひとり親・未熟児）",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 65535,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 22,
+        "start": 68048,
+        "end": 68996,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 23,
+        "start": 70893,
+        "end": 71602,
+        "targetYear": 2022,
+        "yearProof": "施策評価シート（対象年度：令和4年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 71066,
+            "raw": "1\n\n休日夜間応急診療所の管理・運\nけんこう増進課 25,399\n",
+            "proposedText": "休日夜間応急診療所の管理・運\nけんこう増進課 25,399",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 71173,
+            "raw": "2\n\n桜井地区病院群二次輪番制の\n実施\n",
+            "proposedText": "桜井地区病院群二次輪番制の\n実施",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 71552,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 24,
+        "start": 74042,
+        "end": 74849,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 25,
+        "start": 77140,
+        "end": 78072,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 26,
+        "start": 80716,
+        "end": 82317,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和５年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 81070,
+            "raw": "3\n\n安全衛生関係講習会・機器点\n検・各種検査の実施\n",
+            "proposedText": "安全衛生関係講習会・機器点\n検・各種検査の実施",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 81145,
+            "raw": "4\n\n遠距離通学者への支援（小学\n校・中学校）\n",
+            "proposedText": "遠距離通学者への支援（小学\n校・中学校）",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 81604,
+            "raw": "8\n\n学校給食衛生管理基準変更時\nの対応\n",
+            "proposedText": "学校給食衛生管理基準変更時\nの対応",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 81733,
+            "raw": "11\n\n給食センターの合理的・効率的\nな施設の運営の検討\n",
+            "proposedText": "給食センターの合理的・効率的\nな施設の運営の検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 81814,
+            "raw": "12\n\n給食残菜（生ごみ）の発生抑制\nについての検討\n",
+            "proposedText": "給食残菜（生ごみ）の発生抑制\nについての検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 82291,
+            "raw": "68\n\nD：事業の統合・休廃止の検討\n",
+            "proposedText": "D：事業の統合・休廃止の検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 27,
+        "start": 82317,
+        "end": 83982,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和５年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 83905,
+            "raw": "36\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 83929,
+            "raw": "69\n\nうち\n一般財源\n",
+            "proposedText": "うち\n一般財源",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 28,
+        "start": 83982,
+        "end": 85024,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和５年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 84125,
+            "raw": "33\n\n特別支援教育児童・生徒への\n就学奨励\n",
+            "proposedText": "特別支援教育児童・生徒への\n就学奨励",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 84216,
+            "raw": "34\n\n日本スポーツ振興センターとの\n連携（小・中学校）\n",
+            "proposedText": "日本スポーツ振興センターとの\n連携（小・中学校）",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 84313,
+            "raw": "35\n\n不登校児童生徒の適応指導の\n実施\n",
+            "proposedText": "不登校児童生徒の適応指導の\n実施",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 84627,
+            "raw": "38\n\n要保護及び準要保護児童・生\n徒の就学奨励\n",
+            "proposedText": "要保護及び準要保護児童・生\n徒の就学奨励",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 84721,
+            "raw": "39\n\n子どもの貧困対策計画の策定\n（再掲）\n",
+            "proposedText": "子どもの貧困対策計画の策定\n（再掲）",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 84973,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 84996,
+            "raw": "70\n\n0\nD：事業の統合・休廃止の検討\n",
+            "proposedText": "0\nD：事業の統合・休廃止の検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 29,
+        "start": 87113,
+        "end": 88471,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 30,
+        "start": 90869,
+        "end": 91694,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 31,
+        "start": 93913,
+        "end": 94973,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 94260,
+            "raw": "3\n\n桜井市ボーイ・ガールスカウト活\n動への支援\n",
+            "proposedText": "桜井市ボーイ・ガールスカウト活\n動への支援",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 94351,
+            "raw": "4\n\n桜井市幼小中PTA協議会への支\n援\n",
+            "proposedText": "桜井市幼小中PTA協議会への支\n援",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 32,
+        "start": 97491,
+        "end": 98772,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 97635,
+            "raw": "1\n\n世界文化遺産への登録\n",
+            "proposedText": "世界文化遺産への登録",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 97708,
+            "raw": "2\n\n山田寺跡・纒向遺跡魅力発信事\n業\n",
+            "proposedText": "山田寺跡・纒向遺跡魅力発信事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 97781,
+            "raw": "3\n\n市内遺跡等環境整備事業\n",
+            "proposedText": "市内遺跡等環境整備事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 97859,
+            "raw": "4\n\n市内遺跡発掘調査事業\n",
+            "proposedText": "市内遺跡発掘調査事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 97936,
+            "raw": "5\n\n地域の特色ある歴史文化を学ぶ\n学習会等の実施\n",
+            "proposedText": "地域の特色ある歴史文化を学ぶ\n学習会等の実施",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 97993,
+            "raw": "6\n\n文化財の保存・修復等の補助\n",
+            "proposedText": "文化財の保存・修復等の補助",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 98065,
+            "raw": "7\n\n文化財保護審議会の運営\n",
+            "proposedText": "文化財保護審議会の運営",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 98133,
+            "raw": "8\n\n埋蔵文化財センター管理事業\n",
+            "proposedText": "埋蔵文化財センター管理事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 98239,
+            "raw": "9\n\n纒向遺跡の調査研究・普及啓発\n事業\n",
+            "proposedText": "纒向遺跡の調査研究・普及啓発\n事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 98341,
+            "raw": "10\n\n纒向遺跡及び市内史跡保存整\n備事業\n",
+            "proposedText": "纒向遺跡及び市内史跡保存整\n備事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 98721,
+            "raw": "82\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 98745,
+            "raw": "0\n\n0\nD：事業の統合・休廃止の検討\n",
+            "proposedText": "0\nD：事業の統合・休廃止の検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 33,
+        "start": 100720,
+        "end": 101770,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 100772,
+            "raw": "1\n\n企業内人権教育推進協議会活\n動\n",
+            "proposedText": "企業内人権教育推進協議会活\n動",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 100857,
+            "raw": "2\n\n11小学校区人権教育推進協議\n会活動\n",
+            "proposedText": "11小学校区人権教育推進協議\n会活動",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 100957,
+            "raw": "3\n\n差別をなくす市民集会及び関連\n事業\n",
+            "proposedText": "差別をなくす市民集会及び関連\n事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 101042,
+            "raw": "4\n\n桜井ふれあいセンターの管理運\n営\n",
+            "proposedText": "桜井ふれあいセンターの管理運\n営",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 101541,
+            "raw": "7\n\nうち\n一般財源\n",
+            "proposedText": "うち\n一般財源",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 34,
+        "start": 103417,
+        "end": 104129,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 35,
+        "start": 106045,
+        "end": 106777,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 106326,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 36,
+        "start": 109507,
+        "end": 112993,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 110491,
+            "raw": "94\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 110515,
+            "raw": "0\n\n0\nD：事業の統合・休廃止の検討\n",
+            "proposedText": "0\nD：事業の統合・休廃止の検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 111753,
+            "raw": "1\n\n再生可能エネルギーの利活用の情報\n提供\n",
+            "proposedText": "再生可能エネルギーの利活用の情報\n提供",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 111855,
+            "raw": "2\n\nごみの分別収集の実施\n",
+            "proposedText": "ごみの分別収集の実施",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 112127,
+            "raw": "3\n\nごみ焼却施設運営事業\n",
+            "proposedText": "ごみ焼却施設運営事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 37,
+        "start": 112993,
+        "end": 113904,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 113114,
+            "raw": "1\n\n再生可能エネルギーの利活用\nの情報提供\n",
+            "proposedText": "再生可能エネルギーの利活用\nの情報提供",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 113589,
+            "raw": "4\n\n家庭生ごみ自家処理容器設置\nへの助成\n",
+            "proposedText": "家庭生ごみ自家処理容器設置\nへの助成",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 38,
+        "start": 115931,
+        "end": 116600,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 116075,
+            "raw": "1\n\n開発指導・建築指導行政の適正\nな推進\n",
+            "proposedText": "開発指導・建築指導行政の適正\nな推進",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 116548,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 39,
+        "start": 118585,
+        "end": 119944,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 119893,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 40,
+        "start": 122267,
+        "end": 123114,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 122797,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 123062,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 41,
+        "start": 126052,
+        "end": 127476,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 126104,
+            "raw": "1\n\nブロック塀等撤去工事補助金交\n付事業\n",
+            "proposedText": "ブロック塀等撤去工事補助金交\n付事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 126187,
+            "raw": "2\n\n既存木造住宅耐震改修補助金\n交付事業\n",
+            "proposedText": "既存木造住宅耐震改修補助金\n交付事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 126876,
+            "raw": "9\n\n市営住宅等の空家募集及び入\n居手続に関する事務\n",
+            "proposedText": "市営住宅等の空家募集及び入\n居手続に関する事務",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 126951,
+            "raw": "10\n\n市営住宅等の使用料に関する事\n務\n",
+            "proposedText": "市営住宅等の使用料に関する事\n務",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 127044,
+            "raw": "11\n\n市営住宅等建替・大規模改修事\n業\n",
+            "proposedText": "市営住宅等建替・大規模改修事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 127295,
+            "raw": "13\n\n老朽危険空家等除却支援事業\n補助金交付\n",
+            "proposedText": "老朽危険空家等除却支援事業\n補助金交付",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 127424,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 42,
+        "start": 129587,
+        "end": 130207,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 130155,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 43,
+        "start": 132528,
+        "end": 133271,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 133219,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 44,
+        "start": 136118,
+        "end": 137977,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 137699,
+            "raw": "6\n\n水道料金徴収等に関する業務の\n委託\n",
+            "proposedText": "水道料金徴収等に関する業務の\n委託",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 45,
+        "start": 137977,
+        "end": 138707,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 138060,
+            "raw": "17\n\n配水管路更新計画に基づく更新\n事業\n",
+            "proposedText": "配水管路更新計画に基づく更新\n事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 138655,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 46,
+        "start": 140896,
+        "end": 142129,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 141009,
+            "raw": "1\n\nし尿収集・運搬・料金収納業務の\n委託\n",
+            "proposedText": "し尿収集・運搬・料金収納業務の\n委託",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 141276,
+            "raw": "3\n\n下水道施設のストックマネジメン\nト（長寿命化）事業\n",
+            "proposedText": "下水道施設のストックマネジメン\nト（長寿命化）事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 141390,
+            "raw": "4\n\n下水道事業計画区域縮小化事\n業\n",
+            "proposedText": "下水道事業計画区域縮小化事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 142077,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 47,
+        "start": 143838,
+        "end": 144820,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 144768,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 48,
+        "start": 147190,
+        "end": 148052,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 147844,
+            "raw": "4\n\n避難所生活環境等整備及び機能\n強化事業\n",
+            "proposedText": "避難所生活環境等整備及び機能\n強化事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 148005,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 49,
+        "start": 150592,
+        "end": 151343,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 150735,
+            "raw": "1\n\n交通安全母の会補助金 交通安\n全思想の普及\n",
+            "proposedText": "交通安全母の会補助金 交通安\n全思想の普及",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 150826,
+            "raw": "2\n\n放置自転車指導即移動業務 自\n転車の放置防止及び撤去\n",
+            "proposedText": "放置自転車指導即移動業務 自\n転車の放置防止及び撤去",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 151291,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 50,
+        "start": 153464,
+        "end": 154379,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 154327,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 51,
+        "start": 156265,
+        "end": 157456,
+        "targetYear": 2023,
+        "yearProof": "施策評価シート（対象年度：令和5年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 157407,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "3e320c00a857a444c480d1aa",
+    "tables": [
+      {
+        "table": 0,
+        "start": 3467,
+        "end": 4861,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 3676,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 4445,
+            "raw": "7\n\n自治連合事業への補助金の交\n付事業\n",
+            "proposedText": "自治連合事業への補助金の交\n付事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 1,
+        "start": 7527,
+        "end": 8440,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 8118,
+            "raw": "5\n\n桜井市情報公開条例・桜井市個\n人情報保護条例の適正施行\n",
+            "proposedText": "桜井市情報公開条例・桜井市個\n人情報保護条例の適正施行",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 2,
+        "start": 10551,
+        "end": 11270,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 10704,
+            "raw": "1\n\nリニア中央新幹線建設促進奈良\n県期成同盟会への加盟\n",
+            "proposedText": "リニア中央新幹線建設促進奈良\n県期成同盟会への加盟",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 3,
+        "start": 13594,
+        "end": 15146,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 14784,
+            "raw": "0\n\n奈良県移住・就業・起業支援事業\n",
+            "proposedText": "奈良県移住・就業・起業支援事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 14831,
+            "raw": "12\n\n法令審査会の運営、例規等の整\n備\n",
+            "proposedText": "法令審査会の運営、例規等の整\n備",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 14900,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 4,
+        "start": 17980,
+        "end": 19584,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 18375,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 18651,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 19351,
+            "raw": "1\n\n3 監査業務\n",
+            "proposedText": "3 監査業務",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 19362,
+            "raw": "14\n\n中和幹線粟殿近隣周辺地区まち\nづくり事業\n",
+            "proposedText": "中和幹線粟殿近隣周辺地区まち\nづくり事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 5,
+        "start": 19584,
+        "end": 21493,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 21137,
+            "raw": "36\n\n※【総合評価判定】A：計画通りに事業を進めることが適当 B:事業の進め方の改善の検討\n※【今後の方向性（成果・コスト）】 拡充 ・ 現状維持 ・ 縮小 ・ 休廃止\n",
+            "proposedText": "※【総合評価判定】A：計画通りに事業を進めることが適当 B:事業の進め方の改善の検討\n※【今後の方向性（成果・コスト）】 拡充 ・ 現状維持 ・ 縮小 ・ 休廃止",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 21224,
+            "raw": "36\n\nうち\n一般財源\n",
+            "proposedText": "うち\n一般財源",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 21253,
+            "raw": "0\n\nR7\n予算\n",
+            "proposedText": "R7\n予算",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 6,
+        "start": 21493,
+        "end": 22516,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 22187,
+            "raw": "34\n\n行政情報ネットワーク基盤の整\n備\n",
+            "proposedText": "行政情報ネットワーク基盤の整\n備",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 7,
+        "start": 26345,
+        "end": 28192,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 27044,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 27305,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 27935,
+            "raw": "12\n\n第2期桜井市観光基本計画策定 観光まちづくり課\n5,998\n",
+            "proposedText": "第2期桜井市観光基本計画策定 観光まちづくり課\n5,998",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 8,
+        "start": 31011,
+        "end": 32745,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 31068,
+            "raw": "1\n\n一般建築物における地域木材活\n用補助事業\n",
+            "proposedText": "一般建築物における地域木材活\n用補助事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 31602,
+            "raw": "0\n\n9 県産材生産促進事業\n",
+            "proposedText": "9 県産材生産促進事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 31752,
+            "raw": "4\n\n農地利用等に関する申請管理事\n務事業\n",
+            "proposedText": "農地利用等に関する申請管理事\n務事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 31789,
+            "raw": "6\n\n環境保全型農業直接支払交付金\n事業\n",
+            "proposedText": "環境保全型農業直接支払交付金\n事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 32004,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 32126,
+            "raw": "12\n\n森林環境税関連事業（SDGs関\n連）\n",
+            "proposedText": "森林環境税関連事業（SDGs関\n連）",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 32202,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 32223,
+            "raw": "13\n\n人・農地問題解決加速化支援事\n業\n",
+            "proposedText": "人・農地問題解決加速化支援事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 32296,
+            "raw": "14\n\n倉橋溜池ふれあい公園の維持管\n理事業\n",
+            "proposedText": "倉橋溜池ふれあい公園の維持管\n理事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 9,
+        "start": 32745,
+        "end": 34567,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 32802,
+            "raw": "17\n\n中山間地域等直接支払交付金事\n業\n",
+            "proposedText": "中山間地域等直接支払交付金事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 33313,
+            "raw": "19\n\n農業施設管理に伴う負担金支払\n事業\n",
+            "proposedText": "農業施設管理に伴う負担金支払\n事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 33351,
+            "raw": "21\n\n農業振興に伴う土地改良区等へ\nの負担金支払事業\n",
+            "proposedText": "農業振興に伴う土地改良区等へ\nの負担金支払事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 33519,
+            "raw": "23\n\n農業用制度資金に係る利子補給\n事業\n",
+            "proposedText": "農業用制度資金に係る利子補給\n事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 33577,
+            "raw": "24\n\n農地や山林の災害発生に伴う事\n業\n",
+            "proposedText": "農地や山林の災害発生に伴う事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 33732,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 34322,
+            "raw": "26\n\n農地等の利用に関する証明及び\n協議事業\n",
+            "proposedText": "農地等の利用に関する証明及び\n協議事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 10,
+        "start": 34567,
+        "end": 35353,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 34631,
+            "raw": "33\n\n木材生産林育成整備事業（SDGs\n関連）\n",
+            "proposedText": "木材生産林育成整備事業（SDGs\n関連）",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 34917,
+            "raw": "35\n\nうち\n一般財源\n",
+            "proposedText": "うち\n一般財源",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 11,
+        "start": 38036,
+        "end": 38942,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 12,
+        "start": 41744,
+        "end": 42917,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 41945,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 42722,
+            "raw": "8\n\n中和幹線沿道大福地区企業誘\n致事業\n",
+            "proposedText": "中和幹線沿道大福地区企業誘\n致事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 13,
+        "start": 45235,
+        "end": 46042,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 45276,
+            "raw": "2\n\n起業支援のためのシステム構築\n支援\n",
+            "proposedText": "起業支援のためのシステム構築\n支援",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 45650,
+            "raw": "4\n\n桜井市雇用対策協議会への補\n助\n",
+            "proposedText": "桜井市雇用対策協議会への補\n助",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 45745,
+            "raw": "5\n\n商工会優良社員市長表彰の授\n与\n",
+            "proposedText": "商工会優良社員市長表彰の授\n与",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 14,
+        "start": 48483,
+        "end": 50508,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 48877,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 49240,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 49499,
+            "raw": "7\n\n糖尿病性腎症等重症化予防対\n策\n",
+            "proposedText": "糖尿病性腎症等重症化予防対\n策",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 49519,
+            "raw": "8\n\n特定健康診査・がん検診等事業\nけんこう増進課 78,895\n",
+            "proposedText": "特定健康診査・がん検診等事業\nけんこう増進課 78,895",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 15,
+        "start": 52599,
+        "end": 53853,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 53248,
+            "raw": "6\n\n地域共生社会の実現に向けた包\n括的支援体制構築事業\n",
+            "proposedText": "地域共生社会の実現に向けた包\n括的支援体制構築事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 53356,
+            "raw": "7\n\n中国残留邦人等地域生活支援\n事業\n",
+            "proposedText": "中国残留邦人等地域生活支援\n事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 53419,
+            "raw": "8\n\n日本赤十字社奈良県支部との連\n携\n",
+            "proposedText": "日本赤十字社奈良県支部との連\n携",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 16,
+        "start": 55980,
+        "end": 57761,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 56019,
+            "raw": "2\n\n移動支援及び日中一時支援事\n業\n",
+            "proposedText": "移動支援及び日中一時支援事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 56052,
+            "raw": "4\n\n外国人重度心身障害者特別給\n付金支給事業\n",
+            "proposedText": "外国人重度心身障害者特別給\n付金支給事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 56660,
+            "raw": "63\n\n県障害者スポーツ大会並びに市民体\n",
+            "proposedText": "県障害者スポーツ大会並びに市民体",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 56682,
+            "raw": "6\n\n今後の方向性\n",
+            "proposedText": "今後の方向性",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 56796,
+            "raw": "8\n\n肢体不自由児父母の会並びに知的障害児\n（育成会・療育教室）行事への助成\n",
+            "proposedText": "肢体不自由児父母の会並びに知的障害児\n（育成会・療育教室）行事への助成",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 56883,
+            "raw": "9\n\n自立支援医療費（育成医療費）\nの給付\n",
+            "proposedText": "自立支援医療費（育成医療費）\nの給付",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 56967,
+            "raw": "10\n\n自立支援医療費（更生医療費）\nの給付事業\n",
+            "proposedText": "自立支援医療費（更生医療費）\nの給付事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 57308,
+            "raw": "13\n\n手話奉仕員養成事業並びに手話\n講習会（中級）の実施\n",
+            "proposedText": "手話奉仕員養成事業並びに手話\n講習会（中級）の実施",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 57352,
+            "raw": "15\n\n障害者（児）団体連合会や各団\n体への補助\n",
+            "proposedText": "障害者（児）団体連合会や各団\n体への補助",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 17,
+        "start": 57761,
+        "end": 59484,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 58116,
+            "raw": "19\n\n障害程度区分認定審査会開催\n費用負担\n",
+            "proposedText": "障害程度区分認定審査会開催\n費用負担",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 58201,
+            "raw": "20\n\n身体障害者自動車運転免許取\n得の奨励\n",
+            "proposedText": "身体障害者自動車運転免許取\n得の奨励",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 58270,
+            "raw": "21\n\n身体障害者自動車改造への扶\n助\n",
+            "proposedText": "身体障害者自動車改造への扶\n助",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 59314,
+            "raw": "24\n\n声の広報並びに点字ワープロ利\n用支援\n",
+            "proposedText": "声の広報並びに点字ワープロ利\n用支援",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 18,
+        "start": 59484,
+        "end": 60353,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 19,
+        "start": 62340,
+        "end": 64407,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 62401,
+            "raw": "1\n\nシルバー人材センターの運営補\n助\n",
+            "proposedText": "シルバー人材センターの運営補\n助",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 62816,
+            "raw": "4\n\n介護予防・日常生活支援総合事\n業\n",
+            "proposedText": "介護予防・日常生活支援総合事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 63129,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 63589,
+            "raw": "64\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 64103,
+            "raw": "12\n\n養護老人ホーム入所措置への支\n援\n",
+            "proposedText": "養護老人ホーム入所措置への支\n援",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 64139,
+            "raw": "14\n\n老人クラブ連合会リーダー等の\n育成及び健康づくり事業補助\n",
+            "proposedText": "老人クラブ連合会リーダー等の\n育成及び健康づくり事業補助",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 20,
+        "start": 67371,
+        "end": 69213,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 67563,
+            "raw": "58\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 67626,
+            "raw": "57\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 68857,
+            "raw": "0\n\n11 子どもの貧困対策計画の策定\n",
+            "proposedText": "11 子どもの貧困対策計画の策定",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 21,
+        "start": 69213,
+        "end": 69984,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 69447,
+            "raw": "18\n\n母子・父子・寡婦家庭への支援事\n業\n",
+            "proposedText": "母子・父子・寡婦家庭への支援事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 69484,
+            "raw": "19\n\n子ども福祉医療費助成事業\n（こども・ひとり親・未熟児）\n",
+            "proposedText": "子ども福祉医療費助成事業\n（こども・ひとり親・未熟児）",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 22,
+        "start": 72881,
+        "end": 73915,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 23,
+        "start": 75559,
+        "end": 76321,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 75732,
+            "raw": "1\n\n休日夜間応急診療所の管理・運\nけんこう増進課 25,399\n",
+            "proposedText": "休日夜間応急診療所の管理・運\nけんこう増進課 25,399",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 75856,
+            "raw": "2\n\n桜井地区病院群二次輪番制の\n実施\n",
+            "proposedText": "桜井地区病院群二次輪番制の\n実施",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 24,
+        "start": 78793,
+        "end": 79665,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 25,
+        "start": 82295,
+        "end": 83308,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 26,
+        "start": 85765,
+        "end": 87529,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 86139,
+            "raw": "3\n\n安全衛生関係講習会・機器点\n学校教育課\n",
+            "proposedText": "安全衛生関係講習会・機器点\n学校教育課",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 86223,
+            "raw": "4\n\n遠距離通学者への支援（小学\n学校教育課\n",
+            "proposedText": "遠距離通学者への支援（小学\n学校教育課",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 86873,
+            "raw": "8\n\n学校給食衛生管理基準変更\n時の対応\n",
+            "proposedText": "学校給食衛生管理基準変更\n時の対応",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 86895,
+            "raw": "11\n\n給食センターの合理的・効率\n的な施設の運営の検討\n",
+            "proposedText": "給食センターの合理的・効率\n的な施設の運営の検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 86982,
+            "raw": "12\n\n給食残菜（生ごみ）の発生抑\n制についての検討\n",
+            "proposedText": "給食残菜（生ごみ）の発生抑\n制についての検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 27,
+        "start": 87529,
+        "end": 89360,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 87978,
+            "raw": "21\n\n総合評価 事業の種類\n",
+            "proposedText": "総合評価 事業の種類",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 88936,
+            "raw": "25\n\n小学校施設維持管理及び安\n全対策\n",
+            "proposedText": "小学校施設維持管理及び安\n全対策",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 89183,
+            "raw": "12\n\n拡大\n",
+            "proposedText": "拡大",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 89236,
+            "raw": "12\n\n6,897 12,601 12,601 拡充\n",
+            "proposedText": "6,897 12,601 12,601 拡充",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 28,
+        "start": 89360,
+        "end": 90478,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 89531,
+            "raw": "33\n\n特別支援教育児童・生徒への\n学校教育課\n",
+            "proposedText": "特別支援教育児童・生徒への\n学校教育課",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 89635,
+            "raw": "34\n\n日本スポーツ振興センターと\nの連携（小・中学校）\n",
+            "proposedText": "日本スポーツ振興センターと\nの連携（小・中学校）",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 89746,
+            "raw": "35\n\n不登校児童生徒の適応指導\nの実施\n",
+            "proposedText": "不登校児童生徒の適応指導\nの実施",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 90228,
+            "raw": "38\n\n義務\n義務\n",
+            "proposedText": "義務\n義務",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 29,
+        "start": 92517,
+        "end": 94001,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 30,
+        "start": 96433,
+        "end": 97316,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 31,
+        "start": 99530,
+        "end": 100668,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 99890,
+            "raw": "3\n\n桜井市ボーイ・ガールスカウト活\n動への支援\n",
+            "proposedText": "桜井市ボーイ・ガールスカウト活\n動への支援",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 99991,
+            "raw": "4\n\n桜井市幼小中PTA協議会への支\n援\n",
+            "proposedText": "桜井市幼小中PTA協議会への支\n援",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 32,
+        "start": 103187,
+        "end": 104595,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 103341,
+            "raw": "1\n\n世界文化遺産への登録\n",
+            "proposedText": "世界文化遺産への登録",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 103428,
+            "raw": "2\n\n山田寺跡・纒向遺跡魅力発信事\n業\n",
+            "proposedText": "山田寺跡・纒向遺跡魅力発信事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 103511,
+            "raw": "3\n\n市内遺跡等環境整備事業\n",
+            "proposedText": "市内遺跡等環境整備事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 103603,
+            "raw": "4\n\n市内遺跡発掘調査事業\n",
+            "proposedText": "市内遺跡発掘調査事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 103694,
+            "raw": "5\n\n地域の特色ある歴史文化を学ぶ\n学習会等の実施\n",
+            "proposedText": "地域の特色ある歴史文化を学ぶ\n学習会等の実施",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 103757,
+            "raw": "6\n\n文化財の保存・修復等の補助\n",
+            "proposedText": "文化財の保存・修復等の補助",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 103843,
+            "raw": "7\n\n文化財保護審議会の運営\n",
+            "proposedText": "文化財保護審議会の運営",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 103919,
+            "raw": "8\n\n埋蔵文化財センター管理事業\n",
+            "proposedText": "埋蔵文化財センター管理事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 104039,
+            "raw": "9\n\n纒向遺跡の調査研究・普及啓発\n事業\n",
+            "proposedText": "纒向遺跡の調査研究・普及啓発\n事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 104155,
+            "raw": "10\n\n纒向遺跡及び市内史跡保存整\n備事業\n",
+            "proposedText": "纒向遺跡及び市内史跡保存整\n備事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 33,
+        "start": 106547,
+        "end": 107686,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 106608,
+            "raw": "1\n\n企業内人権教育推進協議会活\n動\n",
+            "proposedText": "企業内人権教育推進協議会活\n動",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 106703,
+            "raw": "2\n\n11小学校区人権教育推進協議\n会活動\n",
+            "proposedText": "11小学校区人権教育推進協議\n会活動",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 106821,
+            "raw": "3\n\n差別をなくす市民集会及び関連\n事業\n",
+            "proposedText": "差別をなくす市民集会及び関連\n事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 106893,
+            "raw": "45\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 106915,
+            "raw": "4\n\n桜井ふれあいセンターの管理運\n営\n",
+            "proposedText": "桜井ふれあいセンターの管理運\n営",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 107380,
+            "raw": "7\n\n人権を確かめあう日記念集会及\nび関連事業\n",
+            "proposedText": "人権を確かめあう日記念集会及\nび関連事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 34,
+        "start": 109344,
+        "end": 110094,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 35,
+        "start": 111899,
+        "end": 112660,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 36,
+        "start": 115407,
+        "end": 116530,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 37,
+        "start": 118972,
+        "end": 119960,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 119125,
+            "raw": "1\n\n再生可能エネルギーの利活用の\n情報提供\n",
+            "proposedText": "再生可能エネルギーの利活用の\n情報提供",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 119592,
+            "raw": "4\n\n家庭生ごみ自家処理容器設置へ\nの助成\n",
+            "proposedText": "家庭生ごみ自家処理容器設置へ\nの助成",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 38,
+        "start": 122011,
+        "end": 122713,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 122072,
+            "raw": "1\n\n開発指導・建築指導行政の適\n正な推進\n",
+            "proposedText": "開発指導・建築指導行政の適\n正な推進",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 122389,
+            "raw": "4\n\n用途及び土地利用の定期見直\nし\n",
+            "proposedText": "用途及び土地利用の定期見直\nし",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 39,
+        "start": 124691,
+        "end": 126258,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 40,
+        "start": 128498,
+        "end": 129412,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 129122,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 41,
+        "start": 132425,
+        "end": 133979,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 132486,
+            "raw": "1\n\nブロック塀等撤去工事補助金交\n付事業\n",
+            "proposedText": "ブロック塀等撤去工事補助金交\n付事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 132575,
+            "raw": "2\n\n既存木造住宅耐震改修補助金\n交付事業\n",
+            "proposedText": "既存木造住宅耐震改修補助金\n交付事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 133328,
+            "raw": "9\n\n市営住宅等の空家募集及び入\n居手続に関する事務\n",
+            "proposedText": "市営住宅等の空家募集及び入\n居手続に関する事務",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 133409,
+            "raw": "10\n\n市営住宅等の使用料に関する事\n務\n",
+            "proposedText": "市営住宅等の使用料に関する事\n務",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 133512,
+            "raw": "11\n\n市営住宅等建替・大規模改修事\n業\n",
+            "proposedText": "市営住宅等建替・大規模改修事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 133808,
+            "raw": "13\n\n老朽危険空家等除却支援事業\n補助金交付\n",
+            "proposedText": "老朽危険空家等除却支援事業\n補助金交付",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 42,
+        "start": 136239,
+        "end": 136886,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 43,
+        "start": 139392,
+        "end": 140182,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 44,
+        "start": 143321,
+        "end": 145171,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 144898,
+            "raw": "6\n\n水道料金徴収等に関する業務の\n委託\n",
+            "proposedText": "水道料金徴収等に関する業務の\n委託",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 45,
+        "start": 145171,
+        "end": 145894,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 145240,
+            "raw": "17\n\n配水管路更新計画に基づく更新\n事業\n",
+            "proposedText": "配水管路更新計画に基づく更新\n事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 145847,
+            "raw": "0\n\nC：事業規模・内容・主体の見直し検討\n",
+            "proposedText": "C：事業規模・内容・主体の見直し検討",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 46,
+        "start": 148312,
+        "end": 149657,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 148462,
+            "raw": "1\n\nし尿収集・運搬・料金収納業務の\n委託\n",
+            "proposedText": "し尿収集・運搬・料金収納業務の\n委託",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 148720,
+            "raw": "3\n\n下水道施設のストックマネジメン\nト（長寿命化）事業\n",
+            "proposedText": "下水道施設のストックマネジメン\nト（長寿命化）事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 148850,
+            "raw": "4\n\n下水道事業計画区域縮小化事\n業\n",
+            "proposedText": "下水道事業計画区域縮小化事\n業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 149043,
+            "raw": "20\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 149400,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 47,
+        "start": 151467,
+        "end": 152518,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 151615,
+            "raw": "52\n\n2 市街地浸水対策事業\n",
+            "proposedText": "2 市街地浸水対策事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 151904,
+            "raw": "0\n\n6 水路等改良事業\n",
+            "proposedText": "6 水路等改良事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 48,
+        "start": 154927,
+        "end": 155860,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 155662,
+            "raw": "4\n\n避難所生活環境等整備及び機能\n強化事業\n",
+            "proposedText": "避難所生活環境等整備及び機能\n強化事業",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 49,
+        "start": 158383,
+        "end": 159179,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 158536,
+            "raw": "1\n\n交通安全母の会補助金 交通安\n全思想の普及\n",
+            "proposedText": "交通安全母の会補助金 交通安\n全思想の普及",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          },
+          {
+            "start": 158637,
+            "raw": "2\n\n放置自転車指導即移動業務 自\n転車の放置防止及び撤去\n",
+            "proposedText": "放置自転車指導即移動業務 自\n転車の放置防止及び撤去",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      },
+      {
+        "table": 50,
+        "start": 161296,
+        "end": 162283,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": []
+      },
+      {
+        "table": 51,
+        "start": 164263,
+        "end": 165557,
+        "targetYear": 2024,
+        "yearProof": "施策評価シート（対象年度：令和6年度）",
+        "floatingTitleUnits": [
+          {
+            "start": 164869,
+            "raw": "0\n\n現状維持 現状維持\n",
+            "proposedText": "現状維持 現状維持",
+            "status": "detached_number_title_review",
+            "reason": "Standalone number and following text may belong to reordered financial columns; need explicit row association, not inferred ordinal matching."
+          }
+        ]
+      }
+    ]
+  }
+]

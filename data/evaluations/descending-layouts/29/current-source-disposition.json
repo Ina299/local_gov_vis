@@ -327,7 +327,7 @@
       "newCandidates": 31,
       "existingDuplicates": 0,
       "heldUnits": 1,
-      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local617crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -422,7 +422,7 @@
       "newCandidates": 13,
       "existingDuplicates": 0,
       "heldUnits": 2,
-      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local617crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -517,7 +517,7 @@
       "newCandidates": 4,
       "existingDuplicates": 0,
       "heldUnits": 3,
-      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local617crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -612,7 +612,7 @@
       "newCandidates": 2,
       "existingDuplicates": 0,
       "heldUnits": 3,
-      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local617crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -637,7 +637,7 @@
     "listedContinuations": [],
     "currentDisposition": {
       "classification": "validated_individual_candidates",
-      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
+      "reason": "Full local617crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
       "newCandidates": 1,
       "existingDuplicates": 0
     }
@@ -865,7 +865,7 @@
       "newCandidates": 18,
       "existingDuplicates": 0,
       "heldUnits": 10,
-      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local617crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -977,7 +977,7 @@
     "listedContinuations": [],
     "currentDisposition": {
       "classification": "validated_individual_candidates",
-      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
+      "reason": "Full local617crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
       "newCandidates": 1,
       "existingDuplicates": 23
     }
@@ -1089,7 +1089,7 @@
       "newCandidates": 24,
       "existingDuplicates": 0,
       "heldUnits": 4,
-      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local617crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -1145,7 +1145,7 @@
     "listedContinuations": [],
     "currentDisposition": {
       "classification": "validated_individual_candidates",
-      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
+      "reason": "Full local617crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
       "newCandidates": 22,
       "existingDuplicates": 18
     }
@@ -1172,7 +1172,7 @@
     "listedContinuations": [],
     "currentDisposition": {
       "classification": "validated_individual_candidates",
-      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
+      "reason": "Full local617crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
       "newCandidates": 25,
       "existingDuplicates": 12
     }
@@ -1199,7 +1199,7 @@
     "listedContinuations": [],
     "currentDisposition": {
       "classification": "validated_individual_candidates",
-      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
+      "reason": "Full local617crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
       "newCandidates": 12,
       "existingDuplicates": 38
     }
@@ -1338,7 +1338,7 @@
     "listedContinuations": [],
     "currentDisposition": {
       "classification": "validated_individual_candidates",
-      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
+      "reason": "Full local617crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
       "newCandidates": 27,
       "existingDuplicates": 0
     }
@@ -1599,7 +1599,7 @@
       "rawAdditionalCandidates": 238,
       "otherNamedHeadingsInventoried": 344,
       "remaining": "102business headings plus344other headings reviewed;238candidate activities accepted. Specific identity/period/title-only holds retained; no blanket source completion.",
-      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
+      "reason": "Full local617crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
       "newCandidates": 238,
       "existingDuplicates": 0
     }
@@ -1660,8 +1660,10 @@
       }
     ],
     "currentDisposition": {
-      "classification": "not_yet_reviewed_in_this_phase",
-      "reason": "Original inventory status retained; not evidence of exhaustion or denial."
+      "classification": "validated_individual_candidates",
+      "reason": "Full local617crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
+      "newCandidates": 259,
+      "existingDuplicates": 156
     }
   },
   {
@@ -1695,8 +1697,10 @@
       }
     ],
     "currentDisposition": {
-      "classification": "not_yet_reviewed_in_this_phase",
-      "reason": "Original inventory status retained; not evidence of exhaustion or denial."
+      "classification": "validated_individual_candidates",
+      "reason": "Full local617crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
+      "newCandidates": 284,
+      "existingDuplicates": 129
     }
   },
   {
@@ -1730,8 +1734,10 @@
       }
     ],
     "currentDisposition": {
-      "classification": "not_yet_reviewed_in_this_phase",
-      "reason": "Original inventory status retained; not evidence of exhaustion or denial."
+      "classification": "validated_individual_candidates",
+      "reason": "Full local617crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
+      "newCandidates": 284,
+      "existingDuplicates": 129
     }
   },
   {
@@ -1996,7 +2002,7 @@
     "listedContinuations": [],
     "currentDisposition": {
       "classification": "validated_individual_candidates",
-      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
+      "reason": "Full local617crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
       "newCandidates": 66,
       "existingDuplicates": 338
     }
@@ -2059,7 +2065,7 @@
       "newCandidates": 1,
       "existingDuplicates": 16,
       "heldUnits": 0,
-      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local617crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -2088,7 +2094,7 @@
       "newCandidates": 35,
       "existingDuplicates": 0,
       "heldUnits": 0,
-      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
+      "reason": "Full local617crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete."
     }
   },
   {
@@ -2144,8 +2150,8 @@
     "listedContinuations": [],
     "currentDisposition": {
       "classification": "validated_individual_candidates",
-      "reason": "Full local613crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
-      "newCandidates": 56,
+      "reason": "Full local617crawler/256Web and quote validation passed. Candidate records only, not production. Source coverage is not asserted complete.",
+      "newCandidates": 67,
       "existingDuplicates": 0
     }
   },

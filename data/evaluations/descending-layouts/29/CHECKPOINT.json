@@ -1,7 +1,7 @@
 {
-  "candidateRecords": 576,
-  "candidateMunicipalities": 10,
-  "rawProposals": 626,
+  "candidateRecords": 1414,
+  "candidateMunicipalities": 11,
+  "rawProposals": 1464,
   "existingDuplicateProposals": 50,
   "perMunicipality": {
     "黒滝村": 50,
@@ -12,15 +12,16 @@
     "田原本町": 59,
     "川西町": 27,
     "御所市": 238,
+    "桜井市": 827,
     "橿原市": 102,
-    "大和郡山市": 56
+    "大和郡山市": 67
   },
   "sourcesInventoried": 74,
   "completeBodies": 55,
   "continuationParts": 5,
   "missingBodies": 19,
-  "validatedCumulativeCandidates": 17788,
-  "validatedEvidence": 47636,
+  "validatedCumulativeCandidates": 18626,
+  "validatedEvidence": 50139,
   "excludedFromCumulative": [
     "Okinawa1084",
     "initial93"
@@ -36,14 +37,14 @@
   ],
   "phaseComplete": false,
   "checks": {
-    "focused": "14/14",
-    "crawler": "613/613",
+    "focused": "18/18",
+    "crawler": "617/617",
     "web": "256/256",
     "typecheck": "pass",
     "lint": "pass with existing font warning",
     "national": "pass; unchanged local baseline",
     "static": "109 pages /local_gov_vis",
-    "quotes": "47636 across17788 candidates"
+    "quotes": "50139 across18626 candidates"
   },
-  "remaining": "Sakurai827 andYamatokoriyama11 external proposals are unvalidated and unpublished. Other cached source-specific evidence gaps remain; no nationwide completion claim."
+  "remaining": "Sakurai827 and Yamatokoriyama11 are now validated additions; prior576 preserved exactly. Hyogo497 external proposals remain unvalidated and unpublished. Other cached source-specific evidence gaps remain; no nationwide completion claim."
 }

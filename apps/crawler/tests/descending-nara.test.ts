@@ -23,7 +23,7 @@ test('Nara proposals require full pinned bodies and literal evidence; no invente
  for(const c of configs){const i=inputs.find(i=>i.sourceId===c.sourceId)!;const r=run(c.sourceId);assert.equal(r.projects.length,c.rows.length);count+=r.projects.length;
  for(const p of r.projects){assert.equal(p.amounts.length,0);assert.equal(p.ratings.length,0);assert.equal(p.indicators.length,0);for(const e of p.evidence){const src=inputs.find(x=>x.sourceUrl===e.sourceUrl)!;const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}
  for(const bad of [{...i,text:i.text+'x'},{...i,truncated:true},{...i,sourceSha256:'x'},{...i,sourceUrl:i.sourceUrl+'x'}])assert.equal(reviewNara(bad,inputs)!.projects.length,0);
- }assert.equal(count,626);
+ }assert.equal(count,1464);
 });
 
 
@@ -64,7 +64,7 @@ test('Gose separates named child services from account totals and retains cancel
  assert.ok(council.evidence.filter(e=>e.rawText?.includes('議会開催状況')).every(e=>!e.rawText?.includes('総\n\n務')));
 });
 test('Yamatokoriyama keeps named FY2024 delivery and preparation distinct from miscellaneous expense labels',()=>{
- const ps=run('6c578263da16f5a44bfd0d09').projects;assert.equal(ps.length,56);
+ const ps=run('6c578263da16f5a44bfd0d09').projects;assert.equal(ps.length,67);
  assert.ok(ps.every(p=>p.evaluatedFiscalYear===2024&&p.evaluationYear===2025));
  assert.ok(!ps.some(p=>p.projectName==='その他の事業'||p.projectName==='その他都市計画事業'||p.projectName==='交流事業'));
  const preparation=ps.find(p=>p.projectName==='重層的支援体制整備事業')!;
@@ -109,4 +109,17 @@ test('Nara additions preserve every published candidate object including source-
  const candidates=JSON.parse(readFileSync(new URL('../../../data/evaluations/descending-layouts/29/candidates.json',import.meta.url),'utf8')) as {id:string}[];
  const byId=new Map(candidates.map(p=>[p.id,p]));assert.equal(baseline.rows.length,422);
  for(const old of baseline.rows){assert.ok(byId.has(old.id),`Missing published candidate ${old.id}`);assert.equal(createHash('sha256').update(JSON.stringify(byId.get(old.id))).digest('hex'),old.sha256);}
+});
+
+for(const [sid,count]of [['b63c3c6ceaa5caa9a820bcd6',259],['17ac9fd6afef2d580e343b26',284],['3e320c00a857a444c480d1aa',284]] as const){test(`Sakurai ${sid} complete literal annual business titles, no detached financial or policy fields`,()=>{
+ const ps=run(sid).projects;assert.equal(ps.length,count);assert.equal(new Set(ps.map(p=>p.id)).size,count);assert.equal(new Set(ps.map(p=>p.projectName.normalize('NFKC').replace(/\s+/g,''))).size,count);
+ assert.ok(ps.every(p=>p.evaluationYear===null&&p.amounts.length===0&&p.ratings.length===0&&p.indicators.length===0));
+ assert.ok(!ps.some(p=>['水道施設の減価償却','企業債償還金の算定','営業外費用の算定','地域活動支援センター事業','地域活動支援センター事業委託','定'].includes(p.projectName)));
+ assert.ok(ps.some(p=>p.projectName==='自治連合事業への補助金の交付事業'));
+ assert.ok(!ps.some(p=>p.projectName.includes('交通安全母の会補助金')||p.projectName.includes('放置自転車指導即移動業務')));
+});}
+test('Yamatokoriyama expense-only identities do not imply independently matched delivery or aligned actualcost',()=>{
+ const ps=run('6c578263da16f5a44bfd0d09').projects;const labels=ps.filter(p=>p.warnings.some(w=>w.includes('Expense-label identity only')));assert.equal(labels.length,11);assert.ok(labels.every(p=>p.amounts.length===0&&p.ratings.length===0));
+ assert.ok(labels.some(p=>p.projectName==='緊急通報体制整備事業委託'));
+ assert.ok(!ps.some(p=>p.projectName==='その他の事業'||p.projectName==='交流事業'));
 });
