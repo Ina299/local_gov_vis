@@ -1,0 +1,43 @@
+{
+  "candidateRecords": 128,
+  "candidateMunicipalities": 4,
+  "rawProposals": 144,
+  "existingDuplicateProposals": 16,
+  "perMunicipality": {
+    "黒滝村": 50,
+    "上牧町": 18,
+    "御杖村": 24,
+    "橿原市": 36
+  },
+  "sourcesInventoried": 74,
+  "completeBodies": 55,
+  "continuationParts": 5,
+  "missingBodies": 19,
+  "validatedCumulativeCandidates": 17340,
+  "validatedEvidence": 46289,
+  "excludedFromCumulative": [
+    "Okinawa1084",
+    "initial93"
+  ],
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0,
+  "prePushMaster": "b3f8012827bc5ed61637a616f11882e9f3ea5145",
+  "skippedMunicipalities": [
+    "29447 野迫川村",
+    "29342 平群町",
+    "29209 生駒市"
+  ],
+  "phaseComplete": false,
+  "checks": {
+    "focused": "5/5",
+    "crawler": "604/604",
+    "web": "256/256",
+    "typecheck": "pass",
+    "lint": "pass with existing font warning",
+    "national": "pass; unchanged local baseline",
+    "static": "109 pages /local_gov_vis",
+    "quotes": "46289 across17340 candidates"
+  },
+  "remaining": "Gose82 additional proposals are external/unpublished; source-specific holds and further actionable cached layouts remain. Kurotaki strategy layout needs separate business/year evidence and must not join unrelated policyKPI rows. Missing bodies remain held; no nationwide completion claim."
+}
