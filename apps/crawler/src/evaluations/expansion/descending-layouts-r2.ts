@@ -1,3 +1,4 @@
+import {reviewShimane} from './descending-shimane';
 import {reviewOkayama} from './descending-okayama';
 import {reviewHiroshima} from './descending-hiroshima';
 import {reviewYamaguchi} from './descending-yamaguchi';
@@ -47,6 +48,7 @@ const evidenceHolds:Record<string,{code:string;proof:string;reason:string;status
  '0a23c81c6c6ae8a10e4fd6cd':{code:'46492',proof:'２．2020 年度実績（\n「宇宙乃浦」創生・「スペースサイエンスタウン構想」実現プロジェクト）',status:'joint_project_identity_hold',reason:'2020 actual report jointly covers two named projects with shared activities/budget, followed by2021 plans and forecast KPI cells. Individual allocation and boundaries are absent; do not split or assign shared figures.'}
 };
 export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]):LayoutReview|null{
+ const shimane=reviewShimane(input,inputs);if(shimane)return shimane;
  const okayama=reviewOkayama(input,inputs);if(okayama)return okayama;
  const hiroshima=reviewHiroshima(input,inputs);if(hiroshima)return hiroshima;
  const yamaguchi=reviewYamaguchi(input,inputs);if(yamaguchi)return yamaguchi;

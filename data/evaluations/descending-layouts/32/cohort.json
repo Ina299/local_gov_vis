@@ -1,0 +1,128 @@
+{
+  "prefecture": "32",
+  "master": "f243827b6176065eaa05dfb6ef65e482b35de6fb",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-05T19:22:04.740326+00:00",
+  "unpublishedUserChanges": "not observable;collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "32528",
+      "municipalityName": "隠岐の島町",
+      "datasetSha256": "bd78054291fab36e2b48540e4506ed2789b75c8e426a32991fae44a31c22c1f9",
+      "evidenceShardSha256": "6b2750a3a383291969b250c8a9e730425830d7c7580c1c7f48af3569e8446525"
+    },
+    {
+      "municipalityCode": "32527",
+      "municipalityName": "知夫村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "87b23a438a30cb9d26a2e7496ac14c4c631ed3d33337388f93e5fbe21888a824"
+    },
+    {
+      "municipalityCode": "32526",
+      "municipalityName": "西ノ島町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "8404674bb0b2741aa9bb47ec331f3b578b2bb8ae0e5e677f766784cbddb79791"
+    },
+    {
+      "municipalityCode": "32525",
+      "municipalityName": "海士町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f964be7f32b17dc53f49cb85cdb7d5bf480b0be599a8171a43830b880e4686b4"
+    },
+    {
+      "municipalityCode": "32505",
+      "municipalityName": "吉賀町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "70f91d91ece2f2b51cf9e4fa52a43726d5e84a1275497bf0f29769ffb9e7fc69"
+    },
+    {
+      "municipalityCode": "32501",
+      "municipalityName": "津和野町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a7aa9a2932082b4deaebae8621d1036241832cfa717f445f5a718ded8beb7686"
+    },
+    {
+      "municipalityCode": "32449",
+      "municipalityName": "邑南町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "00873e3c236de02a4f9687439a73726316747f95006f4b8c49be17fe5e8c1ae0"
+    },
+    {
+      "municipalityCode": "32448",
+      "municipalityName": "美郷町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "1242dddea3c57394523d1e26bc7545a2218b4076b936df570b88c3b887f7238e"
+    },
+    {
+      "municipalityCode": "32441",
+      "municipalityName": "川本町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c36acec1f238fd0797d78f37fe571029d13fb85991005b024af88ae29f500cc3"
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "639193dbe59eeb817eaa564be5d3bc9116db6027360dd9e7571b050ddd3723f2"
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c8393d2f6d2fa8d95ac499701b3c9bd54a458813bfce4ca1581dd6fc6193bb50"
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c4640b04d2c99ff613c9964266d143db52c34c169d76acd8d82ce6a7091fab1e"
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e64091ee062e487e0104d0f6cb870e9c725bc0daac1d8418d8a770f31c3f384f"
+    },
+    {
+      "municipalityCode": "32205",
+      "municipalityName": "大田市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "686d3d40566742ed79acdd386d5cd97c62141fb3d61a100d5da1514f829e6ed6"
+    },
+    {
+      "municipalityCode": "32203",
+      "municipalityName": "出雲市",
+      "datasetSha256": "3d996ad2808c9186cf847fd5b9e65eb7764916db4b0534d4af392a9b1080985b",
+      "evidenceShardSha256": "dff84451a35162f4f2acb9a75b1f4b290f3009c16dfd75f54dc23c2ff6e98219"
+    },
+    {
+      "municipalityCode": "32202",
+      "municipalityName": "浜田市",
+      "datasetSha256": "e5ce368ba66409834e6150b786fd183fdc1c083a6ba49039f5e666fb45d727bf",
+      "evidenceShardSha256": "926624058692f8137d26b68c176147f967ee007613ceb4780b0b8b2113266108"
+    },
+    {
+      "municipalityCode": "32201",
+      "municipalityName": "松江市",
+      "datasetSha256": "02fe2564cfb66d60fa80b30c5e765320d5cec902aae8972e86c07132e972199c",
+      "evidenceShardSha256": "70fd445552bd7f614e4b32f1cc1f307374774777d141baad70c23f6847219351"
+    }
+  ],
+  "skipped": [
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "32204",
+      "municipalityName": "益田市",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    }
+  ],
+  "rule": "Only exact unchanged dataset/evidence hashes; retain original exclusions; never update baseline hashes to silence mismatch."
+}

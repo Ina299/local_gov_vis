@@ -1,0 +1,51 @@
+{
+  "candidateRecords": 327,
+  "candidateMunicipalities": 9,
+  "perMunicipality": {
+    "津和野町": 29,
+    "美郷町": 36,
+    "飯南町": 27,
+    "奥出雲町": 1,
+    "雲南市": 11,
+    "江津市": 142,
+    "大田市": 46,
+    "出雲市": 1,
+    "松江市": 34
+  },
+  "reviewedProposals": 334,
+  "newProposalDuplicates": 7,
+  "priorParserDuplicates": 348,
+  "sourcesInventoried": 66,
+  "completeBodies": 35,
+  "incompleteBodies": 1,
+  "missingBodies": 30,
+  "validatedCumulativeCandidates": 14633,
+  "validatedEvidence": 37426,
+  "excludedFromCumulative": [
+    "Okinawa1084",
+    "initial93"
+  ],
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0,
+  "master": "f243827b6176065eaa05dfb6ef65e482b35de6fb",
+  "skippedMunicipalities": [
+    "32206 安来市",
+    "32204 益田市"
+  ],
+  "phaseComplete": false,
+  "pendingExternalProposals": 18,
+  "checks": {
+    "crawler": "577/577",
+    "web": "256/256",
+    "focused": "4/4",
+    "typecheck": "passed after build completed",
+    "lint": "passed with existing font warning",
+    "static": "109 pages at /local_gov_vis",
+    "national": "500 municipalities / 92038 unchanged",
+    "quotes": "14633 candidates / 37426 quotes"
+  },
+  "scope": "Individual named rows only; not entire report financial-field coverage",
+  "remaining": "Fourteen Iinan narrative proposals and four Hamada reversed-header proposals separately saved, unaccepted; one existing Hamada name alias held without overwrite.",
+  "validationCaveat": "Initial web typecheck overlapped static generation and failed TS6053 missing .next/types; rerun after successful build passed without source or assertion changes. Original failure log retained."
+}

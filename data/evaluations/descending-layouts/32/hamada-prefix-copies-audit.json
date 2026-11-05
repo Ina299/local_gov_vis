@@ -1,0 +1,45 @@
+{
+  "copies": [
+    {
+      "root": "local-gov-descending",
+      "sourceSha256": "9d6cea708bcb81c07027fb8dc940151130549a7c601d18c61c957df45670a36e",
+      "textSha256": "0d7c7d159a9acd0a903e24415a3c2f549f3f8ddfb0dc452fad7aa9e481c5fddb",
+      "length": 120000,
+      "characters": 211460,
+      "continuations": []
+    },
+    {
+      "root": "local-gov-okinawa",
+      "sourceSha256": "9d6cea708bcb81c07027fb8dc940151130549a7c601d18c61c957df45670a36e",
+      "textSha256": "0d7c7d159a9acd0a903e24415a3c2f549f3f8ddfb0dc452fad7aa9e481c5fddb",
+      "length": 120000,
+      "characters": 211460,
+      "continuations": []
+    },
+    {
+      "root": "local_gov_vis",
+      "sourceSha256": "9d6cea708bcb81c07027fb8dc940151130549a7c601d18c61c957df45670a36e",
+      "textSha256": "0d7c7d159a9acd0a903e24415a3c2f549f3f8ddfb0dc452fad7aa9e481c5fddb",
+      "length": 120000,
+      "characters": 211460,
+      "continuations": []
+    },
+    {
+      "root": "local-gov-offline-integration",
+      "sourceSha256": "9d6cea708bcb81c07027fb8dc940151130549a7c601d18c61c957df45670a36e",
+      "textSha256": "0d7c7d159a9acd0a903e24415a3c2f549f3f8ddfb0dc452fad7aa9e481c5fddb",
+      "length": 120000,
+      "characters": 211460,
+      "continuations": []
+    },
+    {
+      "root": "pr4-offline-review",
+      "sourceSha256": "9d6cea708bcb81c07027fb8dc940151130549a7c601d18c61c957df45670a36e",
+      "textSha256": "0d7c7d159a9acd0a903e24415a3c2f549f3f8ddfb0dc452fad7aa9e481c5fddb",
+      "length": 120000,
+      "characters": 211460,
+      "continuations": []
+    }
+  ],
+  "reason": "All five local copies checked. Initial summary readable; individual-sheet body has font-encoding corruption and incomplete last sheet. Do not infer names/amounts from corrupted glyphs. No refetch; full correctly decoded verified original needed for absent/unreadable detail."
+}
