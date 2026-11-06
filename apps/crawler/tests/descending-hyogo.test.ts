@@ -23,7 +23,7 @@ test('Hyogo proposals require full pinned bodies and literal evidence; no invent
  for(const c of configs){const i=inputs.find(i=>i.sourceId===c.sourceId)!;const r=run(c.sourceId);assert.equal(r.projects.length,c.rows.length);count+=r.projects.length;
  for(const p of r.projects){assert.equal(p.amounts.length,0);assert.equal(p.ratings.length,0);assert.equal(p.indicators.length,0);for(const e of p.evidence){const src=inputs.find(x=>x.sourceUrl===e.sourceUrl)!;const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}
  for(const bad of [{...i,text:i.text+'x'},{...i,truncated:true},{...i,sourceSha256:'x'},{...i,sourceUrl:i.sourceUrl+'x'}])assert.equal(reviewHyogo(bad,inputs)!.projects.length,0);
- }assert.equal(count,2030);
+ }assert.equal(count,2120);
 });
 
 
@@ -46,12 +46,12 @@ test('Sasayama list identities do not inherit policy grades or invent carryover/
 test('Awaji budget related materials and joint cross-year grants remain outside evaluation candidates',()=>{
  for(const id of ['f6ccf980b9afe5dc9e7e7721','d01430eaa02afdc1bfc0df18','a6b5f27b09a38a95f6676b0f','29d969ee5bf4fd4184f5e0ec','efb6a2b57bb7def5b4c8241f'])assert.ok(!configs.some(c=>c.sourceId===id));
 });
-for(const [sid,year,count]of [['2f361c684fbe2856437d9689',2011,201],['6173941d80f4f6da1b453e54',2010,267],['b8285a353df66a1b3da8cf7a',2009,239],['ac5332c108d6aa6f063dfe6c',2008,87]]as const)test(`Sasayama ${year} complete annual names reject fragment and numeric-column inference`,()=>{
+for(const [sid,year,count]of [['2f361c684fbe2856437d9689',2011,201],['6173941d80f4f6da1b453e54',2010,267],['b8285a353df66a1b3da8cf7a',2009,239],['ac5332c108d6aa6f063dfe6c',2008,89]]as const)test(`Sasayama ${year} complete annual names reject fragment and numeric-column inference`,()=>{
  const ps=run(sid).projects;assert.equal(ps.length,count);assert.ok(ps.every(p=>p.evaluatedFiscalYear===year&&p.evaluationYear===null));assert.equal(new Set(ps.map(p=>p.projectName.normalize('NFKC').replace(/\s+/g,''))).size,count);
  assert.ok(!ps.some(p=>['備補助金事務事業','制事業','金事業','事業','負担軽減事業','助事業','事務事業','局事業','理事業','ト」事業','助成事業','会事業','援協議会事業','支援事業','研究事業','各助成金事業','各負担金事業','県営土地改良事業'].includes(p.projectName)));
 });
 test('Sasayama FY2007 keeps wrapped title qualifiers and rejects descriptions posing as titles',()=>{
- const ps=run('f54a43aebbed7ce3b3271439').projects;assert.equal(ps.length,94);assert.ok(ps.every(p=>p.evaluatedFiscalYear===2007&&p.evaluationYear===2008));
+ const ps=run('f54a43aebbed7ce3b3271439').projects;assert.equal(ps.length,182);assert.ok(ps.every(p=>p.evaluatedFiscalYear===2007&&p.evaluationYear===2008));
  for(const n of ['放課後児童対策事業（民営）','食文化センター事業（各種料理教室）','こんだ薬師温泉施設運営事業','本庁舎・第2庁舎管理事務','篠山体育振興会事務局事務','災害情報の収集･管理業務'])assert.ok(ps.some(p=>p.projectName===n));
  for(const n of ['放課後児童対策事業','こんだ薬師温泉施設運営支援','本庁舎・第2庁舎の維持管理','選挙管理委員会事務','紀支部支援事業','ラザ施設管理'])assert.ok(!ps.some(p=>p.projectName===n));
 });
@@ -74,3 +74,11 @@ test('Sasayama wrapped titles exclude mixed KPI prefixes, reprints and qualified
  for(const name of ['低所得者対策事業[特別会計]','介護認定訪問調査(東部）','介護認定訪問調査(西部）','汚水処理施設共同整備事業（ミックス）','国内交流推進事業岐阜県高山市','住宅防火診断義務'])assert.ok(ps.some(p=>p.projectName===name));
  for(const name of ['低所得者対策事業[一般会計]','老人保健医療費適正化対策事業','老人保健医療費給付事業','継続的評価分析支援事業','長寿祝い金支給事務','高齢者福祉の充実','住宅防火診断業務','介護認定訪問調査'])assert.ok(!ps.some(p=>p.projectName===name));
  });
+
+test('Sasayama FY2007 title segments do not borrow policy suffixes or adjacent branch names',()=>{
+ const ps=run('f54a43aebbed7ce3b3271439').projects;
+ const activity=ps.find(p=>p.projectName==='生産組合活動支援事業')!;assert.ok(activity);assert.ok(activity.evidence.some(e=>e.rawText.includes('手の育 業')));
+ const taki=ps.find(p=>p.projectName==='市保健衛生推進協議会多紀支部事務局')!;assert.ok(taki);assert.ok(!taki.evidence[0].rawText.includes('城東'));
+ for(const name of ['市保健衛生推進協議会城東支部事務局','公立保育所事業（事務・管理・運営）','母子保健推進員活動事業（愛育班活動）','メディカルコントロール体制構築事業','メディカルコントロール体制の推進事業'])assert.ok(ps.some(p=>p.projectName===name));
+ assert.ok(!ps.some(p=>['任意事業','市保健衛生推進協議会事務局','メディカルコントロール事業','政策事業'].includes(p.projectName)));
+});

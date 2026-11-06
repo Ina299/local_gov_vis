@@ -1,0 +1,92 @@
+[
+  {
+    "sourceId": "ac5332c108d6aa6f063dfe6c",
+    "fullTextSha256": "a9b233f1fc4dcea26c99b6c7736115a608e4654267881419f781eaccad78d59e",
+    "status": "title_association_hold",
+    "unjoinedFragments": [
+      {
+        "start": 1982,
+        "end": 1992,
+        "rawText": "家族介護慰労金・在宅"
+      },
+      {
+        "start": 2944,
+        "end": 2952,
+        "rawText": "介護手当支給事業"
+      }
+    ],
+    "reason": "Fragments separated by other rows/columns or extracted in reverse order. Saved text alone does not establish the title-part association; do not join by grammar or neighboring entry. Need a provenance-verified original layout or explicit same-source row identity evidence, not network permission alone."
+  },
+  {
+    "sourceId": "ac5332c108d6aa6f063dfe6c",
+    "fullTextSha256": "a9b233f1fc4dcea26c99b6c7736115a608e4654267881419f781eaccad78d59e",
+    "status": "title_association_hold",
+    "unjoinedFragments": [
+      {
+        "start": 4639,
+        "end": 4650,
+        "rawText": "防火対象物、危険物施設"
+      },
+      {
+        "start": 4752,
+        "end": 4764,
+        "rawText": "等立入検査・防火管理指導"
+      }
+    ],
+    "reason": "Fragments separated by other rows/columns or extracted in reverse order. Saved text alone does not establish the title-part association; do not join by grammar or neighboring entry. Need a provenance-verified original layout or explicit same-source row identity evidence, not network permission alone."
+  },
+  {
+    "sourceId": "ac5332c108d6aa6f063dfe6c",
+    "fullTextSha256": "a9b233f1fc4dcea26c99b6c7736115a608e4654267881419f781eaccad78d59e",
+    "status": "title_association_hold",
+    "unjoinedFragments": [
+      {
+        "start": 7854,
+        "end": 7866,
+        "rawText": "幼保一体化を指向した新し"
+      },
+      {
+        "start": 7973,
+        "end": 7983,
+        "rawText": "い幼稚園づくりの展開"
+      }
+    ],
+    "reason": "Fragments separated by other rows/columns or extracted in reverse order. Saved text alone does not establish the title-part association; do not join by grammar or neighboring entry. Need a provenance-verified original layout or explicit same-source row identity evidence, not network permission alone."
+  },
+  {
+    "sourceId": "ac5332c108d6aa6f063dfe6c",
+    "fullTextSha256": "a9b233f1fc4dcea26c99b6c7736115a608e4654267881419f781eaccad78d59e",
+    "status": "title_association_hold",
+    "unjoinedFragments": [
+      {
+        "start": 9274,
+        "end": 9284,
+        "rawText": "篠山城下町における町"
+      },
+      {
+        "start": 9473,
+        "end": 9481,
+        "rawText": "並みの保存と活用"
+      }
+    ],
+    "reason": "Fragments separated by other rows/columns or extracted in reverse order. Saved text alone does not establish the title-part association; do not join by grammar or neighboring entry. Need a provenance-verified original layout or explicit same-source row identity evidence, not network permission alone."
+  },
+  {
+    "sourceId": "ac5332c108d6aa6f063dfe6c",
+    "fullTextSha256": "a9b233f1fc4dcea26c99b6c7736115a608e4654267881419f781eaccad78d59e",
+    "status": "title_association_hold",
+    "unjoinedFragments": [
+      {
+        "start": 9308,
+        "end": 9318,
+        "rawText": "福住地区における町並"
+      },
+      {
+        "start": 9302,
+        "end": 9306,
+        "rawText": "みの調査"
+      }
+    ],
+    "reason": "Fragments separated by other rows/columns or extracted in reverse order. Saved text alone does not establish the title-part association; do not join by grammar or neighboring entry. Need a provenance-verified original layout or explicit same-source row identity evidence, not network permission alone."
+  }
+]
