@@ -455,8 +455,8 @@
     "parserStatus": "navigation",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "covered_navigation",
+    "reviewReason": "Five named designated-management facilities match the five saved individual sheets. The annual HTML list adds no separate facility activity; no amounts or grades are inferred."
   },
   {
     "municipalityCode": "27226",
@@ -472,8 +472,8 @@
     "parserStatus": "processed",
     "accepted": 1,
     "duplicates": 0,
-    "reviewDisposition": "processed",
-    "reviewReason": "Full source-specific validation passed; exact annual names only, no numerical or rating inference."
+    "reviewDisposition": "processed_partial",
+    "reviewReason": "One literal designated-management candidate per complete source sheet already retained. Facility management is distinguished from construction. Numeric/grade fields remain untransferred."
   },
   {
     "municipalityCode": "27226",
@@ -489,8 +489,8 @@
     "parserStatus": "processed",
     "accepted": 1,
     "duplicates": 0,
-    "reviewDisposition": "processed",
-    "reviewReason": "Full source-specific validation passed; exact annual names only, no numerical or rating inference."
+    "reviewDisposition": "processed_partial",
+    "reviewReason": "One literal designated-management candidate per complete source sheet already retained. Facility management is distinguished from construction. Numeric/grade fields remain untransferred."
   },
   {
     "municipalityCode": "27226",
@@ -506,8 +506,8 @@
     "parserStatus": "processed",
     "accepted": 1,
     "duplicates": 0,
-    "reviewDisposition": "processed",
-    "reviewReason": "Full source-specific validation passed; exact annual names only, no numerical or rating inference."
+    "reviewDisposition": "processed_partial",
+    "reviewReason": "One literal designated-management candidate per complete source sheet already retained. Facility management is distinguished from construction. Numeric/grade fields remain untransferred."
   },
   {
     "municipalityCode": "27226",
@@ -523,8 +523,8 @@
     "parserStatus": "processed",
     "accepted": 1,
     "duplicates": 0,
-    "reviewDisposition": "processed",
-    "reviewReason": "Full source-specific validation passed; exact annual names only, no numerical or rating inference."
+    "reviewDisposition": "processed_partial",
+    "reviewReason": "One literal designated-management candidate per complete source sheet already retained. Facility management is distinguished from construction. Numeric/grade fields remain untransferred."
   },
   {
     "municipalityCode": "27226",
@@ -540,8 +540,8 @@
     "parserStatus": "processed",
     "accepted": 1,
     "duplicates": 0,
-    "reviewDisposition": "processed",
-    "reviewReason": "Full source-specific validation passed; exact annual names only, no numerical or rating inference."
+    "reviewDisposition": "processed_partial",
+    "reviewReason": "One literal designated-management candidate per complete source sheet already retained. Facility management is distinguished from construction. Numeric/grade fields remain untransferred."
   },
   {
     "municipalityCode": "27225",
@@ -557,8 +557,8 @@
     "parserStatus": "navigation",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "covered_navigation",
+    "reviewReason": "Annual publication page explicitly says FY2026 report assesses FY2025 activities; links to main book and appendix, no additional individual activities."
   },
   {
     "municipalityCode": "27225",
@@ -574,8 +574,8 @@
     "parserStatus": "processed",
     "accepted": 15,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "processed_partial",
+    "reviewReason": "Fifteen actual named activities retained from main report; policy headings and mixed KPI tables excluded from individual record count."
   },
   {
     "municipalityCode": "27225",
@@ -591,8 +591,8 @@
     "parserStatus": "unsupported_layout",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "missing_sheet_text_and_period_hold",
+    "reviewReason": "All5680cached characters reviewed. Appendix pages7–18 contain only page numbers in saved text; no listed continuations and no original PDF found in this worktree/recovery directory. GIGA passage explicitly describes planned FY2020 completion, not FY2025 actuals. SIST/school-cooperation activities already represented by main-book candidates. Need original readable pages or precise new period evidence; no retrieval made."
   },
   {
     "municipalityCode": "27224",
@@ -659,8 +659,8 @@
     "parserStatus": "navigation",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "covered_navigation",
+    "reviewReason": "FY2025 annual report link and publication date only. Individual records are grounded in the full continued book, not this link count."
   },
   {
     "municipalityCode": "27221",
@@ -684,10 +684,10 @@
     "characters": 196774,
     "fullTextSha256": "ae47439190cf4463e7191fdda240961c195e6734e20fe2d090b2d824c25f4191",
     "parserStatus": "processed",
-    "accepted": 121,
+    "accepted": 275,
     "duplicates": 0,
     "reviewDisposition": "processed_partial",
-    "reviewReason": "121literal named annual activities accepted from complete hash-verified continued text; numerical cells, policy aggregates and ambiguous bridge identities excluded. Additional operational scopes remain under separate review."
+    "reviewReason": "275literal named annual activities accepted from complete continued text;180remainder headings reviewed:76accepted and104reasoned holds. Aggregate and future-only descriptions excluded; zero claims and unperformed subwork remain explicit."
   },
   {
     "municipalityCode": "27220",
@@ -1122,8 +1122,8 @@
     "parserStatus": "navigation",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "covered_navigation",
+    "reviewReason": "FY2010 committee meetings and report links; no separate individual sheet content on the HTML page."
   },
   {
     "municipalityCode": "27213",
@@ -1139,8 +1139,8 @@
     "parserStatus": "unsupported_layout",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "policy_question_only",
+    "reviewReason": "Committee questions on child support/waste/housing policy. Questions and requested comparisons are not observed project outcomes or complete individual business assessment sheets."
   },
   {
     "municipalityCode": "27213",
@@ -1156,8 +1156,8 @@
     "parserStatus": "unsupported_layout",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "policy_question_only",
+    "reviewReason": "Committee questions on child support/waste/housing policy. Questions and requested comparisons are not observed project outcomes or complete individual business assessment sheets."
   },
   {
     "municipalityCode": "27213",
@@ -1173,8 +1173,8 @@
     "parserStatus": "unsupported_layout",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "policy_question_only",
+    "reviewReason": "Committee questions on child support/waste/housing policy. Questions and requested comparisons are not observed project outcomes or complete individual business assessment sheets."
   },
   {
     "municipalityCode": "27213",
@@ -1190,8 +1190,8 @@
     "parserStatus": "unsupported_layout",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "duplicate_draft_report",
+    "reviewReason": "Draft of the same FY2010 external evaluation, not a new evaluation year. Named infant medical subsidy comment is already retained from the final report; six policy chapters are not individual projects."
   },
   {
     "municipalityCode": "27213",
@@ -1224,8 +1224,8 @@
     "parserStatus": "unsupported_layout",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "methodology_not_business",
+    "reviewReason": "Reading guide and external-assessment policy describe evaluation procedure and policy indicators, not completed individual assessments. No record generated from instructions or sample fields."
   },
   {
     "municipalityCode": "27213",
@@ -1241,8 +1241,8 @@
     "parserStatus": "unsupported_layout",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "methodology_not_business",
+    "reviewReason": "Reading guide and external-assessment policy describe evaluation procedure and policy indicators, not completed individual assessments. No record generated from instructions or sample fields."
   },
   {
     "municipalityCode": "27212",
@@ -1292,8 +1292,8 @@
     "parserStatus": "navigation",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "multi_year_plan_identity_hold",
+    "reviewReason": "Full saved HTML lists eighteen multi-year social-infrastructure plans with ex-ante/ex-post status and linked PDFs. It does not identify single-year individual business records or evaluation dates; end years are not converted into fiscal-year evidence. Linked original evaluation bodies are absent from this local municipality inventory."
   },
   {
     "municipalityCode": "27209",
@@ -1372,8 +1372,8 @@
     "parserStatus": "unsupported_layout",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "blank_template_not_business",
+    "reviewReason": "Full1141character reading guide contains blank cost/KPI/business-name fields and example policy code030015. No real individual business identity, numeric outcomes or costs are present."
   },
   {
     "municipalityCode": "27207",
@@ -1440,8 +1440,8 @@
     "parserStatus": "navigation",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "navigation_missing_individual_bodies",
+    "reviewReason": "Department-level links for FY2018 assessment forms only; department names/counts are not businesses. The separate verified secondary report supplies nineteen actual names."
   },
   {
     "municipalityCode": "27205",
@@ -1457,8 +1457,8 @@
     "parserStatus": "navigation",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "bound_period_evidence",
+    "reviewReason": "Official saved page explicitly links FY2018 second-stage report to FY2017 activities assessed in first stage. Used as pinned period/link evidence, not an extra record."
   },
   {
     "municipalityCode": "27205",
@@ -1474,8 +1474,8 @@
     "parserStatus": "unsupported_layout",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "aggregate_counts_not_business",
+    "reviewReason": "Counts105policies/1133businesses by department only. No individual names or annual sheet bodies; aggregate counts are not materialized as records."
   },
   {
     "municipalityCode": "27205",
@@ -1491,8 +1491,8 @@
     "parserStatus": "unsupported_layout",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "methodology_not_business",
+    "reviewReason": "Generic assessment questions and available1/3/5point choices are instructions, not scores actually assigned to individual businesses."
   },
   {
     "municipalityCode": "27205",
@@ -1508,8 +1508,8 @@
     "parserStatus": "unsupported_layout",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "methodology_not_business",
+    "reviewReason": "Explains selection of3policies19businesses, meeting dates and committee membership. Supports assessment context but does not add individual business entries beyond the linked results."
   },
   {
     "municipalityCode": "27205",
@@ -1522,11 +1522,11 @@
     "inventoryStatus": "complete_hash_verified",
     "characters": 15067,
     "fullTextSha256": "77b0d9a0b87b201bd5e0c52f135c49ee1c0c1455dc6e0efbdc58cf9a8bea2f97",
-    "parserStatus": "unsupported_layout",
-    "accepted": 0,
+    "parserStatus": "processed",
+    "accepted": 19,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "processed_partial",
+    "reviewReason": "Nineteen FY2018 secondary-assessment entries targetFY2017 as explicitly established by bound official page; two identical titles are separate only with exact department-fragment evidence. Policy totals are excluded."
   },
   {
     "municipalityCode": "27205",
@@ -1610,8 +1610,8 @@
     "parserStatus": "navigation",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "navigation_missing_individual_bodies",
+    "reviewReason": "Full2356character page explains assessment and links to digital budget book. Generic site menus are not evaluated business names; individual digital-budget sheets are absent from saved page."
   },
   {
     "municipalityCode": "27202",
@@ -1627,8 +1627,8 @@
     "parserStatus": "navigation",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "navigation_missing_individual_bodies",
+    "reviewReason": "Full396character audit-office page links FY2025 business sheets and reading guide. It contains no individual business title; office name is not invented as a project."
   },
   {
     "municipalityCode": "27100",
@@ -1644,7 +1644,7 @@
     "parserStatus": "navigation",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "navigation_missing_individual_bodies",
+    "reviewReason": "Full1039character page is repeated ward/bureau policy navigation. No individual project-year sheets; ward and bureau names are not projects."
   }
 ]

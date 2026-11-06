@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
-import {reviewOsaka} from '../src/evaluations/expansion/descending-osaka';
+import {reviewOsaka,distinctSuitaDepartmentRows} from '../src/evaluations/expansion/descending-osaka';
 import {osakaRows} from '../src/evaluations/expansion/descending-osaka-map';
 import type {CachedInput} from '../src/evaluations/expansion/shared';
 function source(id:string,code:string):CachedInput {
@@ -23,7 +23,7 @@ test('Osaka reviewed bodies require exact complete source identity and quote bou
  for(const c of configs){const i=inputs.find(i=>i.sourceId===c.sourceId)!;const r=run(c.sourceId);count+=r.projects.length;assert.equal(r.projects.length,c.rows.length);
  for(const p of r.projects){assert.equal(p.amounts.length,0);assert.equal(p.ratings.length,0);assert.equal(p.indicators.length,0);for(const e of p.evidence){const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;const src=inputs.find(x=>x.sourceUrl===e.sourceUrl);assert.ok(src);assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}
  for(const bad of [{...i,text:i.text+'x'},{...i,truncated:true},{...i,sourceSha256:'x'},{...i,sourceUrl:i.sourceUrl+'x'},{...i,format:'xlsx' as const}])assert.equal(reviewOsaka(bad,inputs)!.projects.length,0);
- }assert.equal(count,199);
+ }assert.equal(count,372);
 });
 test('Kanan combines sports continuation sheets and excludes survey summaries and component activities',()=>{
  const r=run('a3a002ef083e6f4b17f780a2'),ps=r.projects;assert.equal(ps.length,50);assert.equal(new Set(ps.map(p=>p.projectName)).size,50);assert.ok(ps.every(p=>p.evaluatedFiscalYear===2025&&p.evaluationYear===2026));
@@ -59,7 +59,7 @@ test('Takaishi names implemented activities without copying policy scores, prior
 });
 
 test('Kashiwara annual activities bind departments and explicit FY2025 without treating future budgets as actuals',()=>{
- const ps=run('121aeac89c6e4a6ece040632').projects;assert.equal(ps.length,121);
+ const ps=run('121aeac89c6e4a6ece040632').projects;assert.equal(ps.length,275);
  assert.ok(ps.every(p=>p.evaluatedFiscalYear===2025&&p.evaluationYear===null&&p.department&&p.amounts.length===0&&p.ratings.length===0&&p.indicators.length===0));
  for(const [name,department]of [['学校給食費補助事業','学務課'],['オンライン教育推進事業','指導課'],['地域福祉計画策定事業','福祉総務課'],['国際交流事業に関すること','にぎわい観光課'],['児童手当について','子育て支援課']])assert.ok(ps.some(p=>p.projectName===name&&p.department===department),name);
  const plan=ps.find(p=>p.projectName==='地域福祉計画策定事業')!;assert.ok(plan.evidence.some(e=>e.rawText.includes('令和 8 年度～令和 12 年度')));assert.equal(plan.evaluatedFiscalYear,2025);
@@ -67,7 +67,7 @@ test('Kashiwara annual activities bind departments and explicit FY2025 without t
 test('Kashiwara excludes numeric table cells, funds, insurance aggregate and unresolved bridge identities',()=>{
  const ps=run('121aeac89c6e4a6ece040632').projects;
  for(const name of ['件（産学官連携事業（5 件）含む。）','事業所','公園等整備事業基金','介護保険事業','橋りょう維持事業','高齢者介護保険利用料軽減措置事業','福祉有償運送市町村共同運営事業','月期末手当・勤勉手当','予算','決算'])assert.ok(!ps.some(p=>p.projectName===name),name);
- assert.equal(new Set(ps.map(p=>[p.projectName,p.department,p.evaluatedFiscalYear].join('|'))).size,121);
+ assert.equal(new Set(ps.map(p=>[p.projectName,p.department,p.evaluatedFiscalYear].join('|'))).size,275);
 });
 test('Kashiwara needs verified continuation text rather than only the first120000 characters',()=>{
  const i=inputs.find(x=>x.sourceId==='121aeac89c6e4a6ece040632')!;assert.equal(i.text.length,196774);assert.ok(run(i.sourceId).projects.some(p=>p.evidence.some(e=>Number(e.cell!.match(/chars:(\d+)/)![1])>=120000)));
@@ -77,4 +77,40 @@ test('Kashiwara needs verified continuation text rather than only the first12000
 
 test('Izumisano retains one explicitly named individual comment rather than policy chapters or repeated remarks',()=>{
  const ps=run('82d10803f411f03a9aa99045').projects;assert.equal(ps.length,1);const p=ps[0];assert.equal(p.projectName,'乳幼児医療費助成事業');assert.equal(p.evaluationYear,2010);assert.equal(p.evaluatedFiscalYear,null);assert.equal(p.amounts.length,0);assert.equal(p.ratings.length,0);assert.ok(p.warnings.some(w=>w.includes('個別評価票全文ではない')));assert.ok(p.evidence.some(e=>e.rawText.includes('１次評価でＡ')));
+});
+
+test('Suita nineteen secondary assessments retain FY2017 targets and distinct same-name departments',()=>{
+ const ps=run('9eb3185abca640c0d074ee33').projects;assert.equal(ps.length,19);assert.ok(ps.every(p=>p.evaluatedFiscalYear===2017&&p.evaluationYear===2018&&p.amounts.length===0&&p.ratings.length===0&&p.indicators.length===0));
+ const centers=ps.filter(p=>p.projectName==='地域子育て支援センター事業');assert.equal(centers.length,2);assert.deepEqual(centers.map(p=>p.department).sort(),['保育幼稚園室','子育て支援課']);
+ for(const name of ['子どもの生活支援事業','子ども見守り家庭訪問事業','育児支援家庭訪問事業','児童虐待防止対策事業','児童会館運営事業','山の学校・海の学校事業','こどもプラザ事業','自然体験交流センター管理事業','青少年活動サポートプラザ施設運営事業','青少年活動サポートプラザ青少年相談事業','少年自然の家施設管理事業','子育て広場助成事業','のびのび子育てプラザ事業','一時預かり事業','ファミリー・サポート・センター事業','子育て支援コンシェルジュ事業','子育て支援活動事業'])assert.ok(ps.some(p=>p.projectName===name),name);
+ assert.ok(ps.every(p=>p.evidence.some(e=>e.rawText.includes('平成29年度に実施した1,133事務事業'))));assert.ok(!ps.some(p=>p.projectName==='子どもの貧困対策'));
+});
+test('Suita target year needs its verified official page and explicit fiscal-year statement',()=>{
+ const id='9eb3185abca640c0d074ee33',i=inputs.find(x=>x.sourceId===id)!;assert.equal(reviewOsaka(i,inputs.filter(x=>x.sourceId!=='c78f175f92b078e6ea9b6a8a'))!.status,'annual_identity_hold');
+ const c=(osakaRows as unknown as Array<{sourceId:string;year:number|null}>).find(x=>x.sourceId===id)!;const old=c.year;try{c.year=2016;assert.equal(run(id).status,'annual_identity_hold');}finally{c.year=old;}
+});
+test('Suita interleaved department fragments require exact bounded offsets and identity',()=>{
+ const id='9eb3185abca640c0d074ee33';const c=(osakaRows as unknown as Array<{sourceId:string;rows:Array<{department?:string;departmentSegments?:{start:number;raw:string}[]}>}>).find(x=>x.sourceId===id)!;const row=c.rows.find(x=>x.department==='保育幼稚園室')!;const old=row.departmentSegments![0].start;try{row.departmentSegments![0].start++;assert.throws(()=>run(id),/department segment evidence/);}finally{row.departmentSegments![0].start=old;}
+ const dep=row.department;try{row.department='子育て支援課';assert.throws(()=>run(id),/department segment identity/);}finally{row.department=dep;}
+});
+
+test('Kashiwara named administrative services keep zero activity and next-year triggers distinct',()=>{
+ const ps=run('121aeac89c6e4a6ece040632').projects;assert.equal(ps.length,275);
+ const zero=ps.find(p=>p.projectName==='災害救助費')!;assert.ok(zero.evidence.some(e=>e.rawText.includes('令和 7 年度の支給はありませんでした')));assert.ok(zero.warnings.some(w=>w.includes('支給実績があったとは扱わない')));assert.equal(zero.amounts.length,0);
+ const hazard=ps.find(p=>p.projectName==='ハザードマップの作成に関すること')!;assert.equal(hazard.evaluatedFiscalYear,2025);assert.ok(hazard.evidence.some(e=>e.rawText.includes('令和 8 年度出水期')&&e.rawText.includes('更新を行いました')));
+ for(const name of ['備蓄品の充実等に関すること','避難所感染防止に関すること','都市計画基礎調査に関すること','玉手山公園維持管理','社会福祉の充実','事務概要','教育委員会事務局'])assert.ok(!ps.some(p=>p.projectName===name),name);
+});
+
+test('Kashiwara remaining services retain decision-year distinctions and omitted work',()=>{
+ const ps=run('121aeac89c6e4a6ece040632').projects;assert.equal(ps.length,275);
+ const audit=ps.find(p=>p.projectName==='財務監査')!;assert.ok(audit.evidence.some(e=>e.rawText.includes('二課については実施せず')));assert.ok(audit.warnings.some(w=>w.includes('全対象の監査完了とは扱わない')));
+ const accounts=ps.find(p=>p.projectName==='決算審査及び基金の運用状況審査')!;assert.equal(accounts.evaluatedFiscalYear,2025);assert.ok(accounts.evidence.some(e=>e.rawText.includes('令和 6 年度分')));assert.equal(accounts.amounts.length,0);
+ const housing=ps.find(p=>p.projectName==='重度身体障害者住宅改造助成に関すること')!;assert.ok(housing.evidence.some(e=>e.rawText.includes('申込件数：0 件')));assert.equal(housing.amounts.length,0);
+ for(const name of ['予算','決算','市債','基金','管理施設一覧（令和 8 年 3 月 31 日現在）','選挙人名簿登録者数','職員の給与関係（企業会計・特別会計除く）'])assert.ok(!ps.some(p=>p.projectName===name),name);
+});
+
+test('Suita duplicate exception requires both exact source rows and never accepts department labels alone',()=>{
+ const centers=run('9eb3185abca640c0d074ee33').projects.filter(p=>p.projectName==='地域子育て支援センター事業');const [a,b]=centers;
+ assert.ok(distinctSuitaDepartmentRows(a,b));assert.ok(!distinctSuitaDepartmentRows(a,a));
+ for(const bad of [{...b,id:'unknown'},{...b,evidence:[]},{...b,evaluatedFiscalYear:2016},{...b,evidence:b.evidence.map(e=>({...e,sha256:'changed'}))},{...b,department:'未確認部署'}])assert.ok(!distinctSuitaDepartmentRows(a,bad));
 });

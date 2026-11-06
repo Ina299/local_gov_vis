@@ -20,7 +20,12 @@ for c in json.loads((stage/'osaka-reviewed.json').read_text()):
   assert u[h['start']*2:h['start']*2+len(h['raw'].encode('utf-16-le'))].decode('utf-16-le')==h['raw']
   if h.get('context'):assert u[h['contextStart']*2:h['contextStart']*2+len(h['context'].encode('utf-16-le'))].decode('utf-16-le')==h['context']
   if h.get('yearProof'):assert h['yearProof'] in t
-  if h.get('department') or h.get('departmentProof'):
+  if h.get('departmentSegments'):
+   ds=h['departmentSegments'];assert not h.get('departmentProof') and len(ds)>=2 and h['department']==re.sub(r'\s+','',''.join(d['raw'] for d in ds));spans=[]
+   for d in ds:
+    a=d['start'];b=a+len(d['raw'].encode('utf-16-le'))//2;assert a>=h['start'] and b<=h['start']+len(h['raw'].encode('utf-16-le'))//2 and u[a*2:b*2].decode('utf-16-le')==d['raw'];spans.append((a,b))
+   spans.sort();assert all(spans[k][0]>=spans[k-1][1] for k in range(1,len(spans)))
+  elif h.get('department') or h.get('departmentProof'):
    d=h['departmentProof'];assert h['department']==re.sub(r'\s+','',d['raw']);assert u[d['start']*2:d['start']*2+len(d['raw'].encode('utf-16-le'))].decode('utf-16-le')==d['raw'];assert h['contextStart']==d['start'] and h['context'].startswith(d['raw'])
   if h.get('titleFragments'):
    assert h['name']==re.sub(r'\s+','',''.join(h['titleFragments']))
@@ -45,6 +50,7 @@ for c in json.loads((stage/'osaka-reviewed.json').read_text()):
  if c.get('pageId'):
   m=json.loads((docs.parent/'municipalities'/(c['municipalityCode']+'.json')).read_text());src=next(x for x in m['sources'] if x['id']==c['sourceId']);page=next(x for x in m['sources'] if x['id']==c['pageId']);pt=verified_text(c['pageId'],c['municipalityCode'])
   assert hashlib.sha256(pt.encode()).hexdigest()==c['pageHash'] and c['pageProof'] in pt
+  if c.get('pageTargetYearProof'):assert isinstance(c['year'],int) and c['pageTargetYearProof'] in pt and any(y in re.sub(r'\s+','',c['pageTargetYearProof']) for y in [str(c['year'])+'年度','平成'+str(c['year']-1988)+'年度','令和'+str(c['year']-2018)+'年度'])
   if c.get('pagePeriodProof'):assert c['pagePeriodProof'] in pt and str(c['evaluationYear'])+'年度' in c['pagePeriodProof']
   if c.get('pageYearContext'):
    pu=pt.encode('utf-16-le');a=c['pageYearContextStart'];ctx=c['pageYearContext'];assert isinstance(a,int) and a>=0 and pu[a*2:a*2+len(ctx.encode('utf-16-le'))].decode('utf-16-le')==ctx and c['pageProof'] in ctx and '前年度' in ctx

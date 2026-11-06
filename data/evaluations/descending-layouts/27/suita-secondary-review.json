@@ -1,0 +1,346 @@
+{
+  "sourceId": "9eb3185abca640c0d074ee33",
+  "status": "validated_candidate",
+  "rows": [
+    {
+      "name": "子どもの生活支援事業",
+      "start": 905,
+      "titleSegments": [
+        {
+          "raw": "子どもの生活支援",
+          "start": 905
+        },
+        {
+          "raw": "事業",
+          "start": 919
+        }
+      ],
+      "department": null,
+      "departmentSegments": null,
+      "rawSha256": "156f92469a04502779ce9ddec10942dc846934fab9a429bc0342c138407697a2"
+    },
+    {
+      "name": "子ども見守り家庭訪問事業",
+      "start": 1413,
+      "titleSegments": [
+        {
+          "raw": "子ども見守り家庭",
+          "start": 1413
+        },
+        {
+          "raw": "訪問事業",
+          "start": 1422
+        }
+      ],
+      "department": null,
+      "departmentSegments": null,
+      "rawSha256": "a69552b87d8dcbf926476c1684edc7bc7a14aa0bcf3f7e80b63006a91e0ad037"
+    },
+    {
+      "name": "育児支援家庭訪問事業",
+      "start": 2239,
+      "titleSegments": [
+        {
+          "raw": "育児支援家庭訪問",
+          "start": 2239
+        },
+        {
+          "raw": "事業",
+          "start": 2253
+        }
+      ],
+      "department": null,
+      "departmentSegments": null,
+      "rawSha256": "70c2165e0cce6e8fed56af40439ce95d6c4242e4dd160b5f79c6a7d3851d09b7"
+    },
+    {
+      "name": "児童虐待防止対策事業",
+      "start": 2846,
+      "titleSegments": [
+        {
+          "raw": "児童虐待防止対策",
+          "start": 2846
+        },
+        {
+          "raw": "事業",
+          "start": 2860
+        }
+      ],
+      "department": null,
+      "departmentSegments": null,
+      "rawSha256": "34069f4d9d431d08d0349bd467c5059ceae2401cb74b103ba05345ac6f4279ad"
+    },
+    {
+      "name": "児童会館運営事業",
+      "start": 4490,
+      "titleSegments": [
+        {
+          "raw": "児童会館運営事業",
+          "start": 4490
+        }
+      ],
+      "department": null,
+      "departmentSegments": null,
+      "rawSha256": "2e2fd417aee227c8bf26dd910fa11b1a34bcb066d6d8bd43362c4ae9dfa6eb38"
+    },
+    {
+      "name": "山の学校・海の学校事業",
+      "start": 5440,
+      "titleSegments": [
+        {
+          "raw": "山の学校・海の学",
+          "start": 5440
+        },
+        {
+          "raw": "校事業",
+          "start": 5454
+        }
+      ],
+      "department": null,
+      "departmentSegments": null,
+      "rawSha256": "fc4527b5ac8e8a69e2f1cfc0d417325b73a28a4294214def92e47d8a94bd7a24"
+    },
+    {
+      "name": "こどもプラザ事業",
+      "start": 6837,
+      "titleSegments": [
+        {
+          "raw": "こどもプラザ事業",
+          "start": 6837
+        }
+      ],
+      "department": null,
+      "departmentSegments": null,
+      "rawSha256": "b31cef4a8e44307d174e28fac9c6567eeba95582d738ca3bcded91717c649193"
+    },
+    {
+      "name": "自然体験交流センター管理事業",
+      "start": 6235,
+      "titleSegments": [
+        {
+          "raw": "自然体験交流セン",
+          "start": 6235
+        },
+        {
+          "raw": "ター管理事業",
+          "start": 6249
+        }
+      ],
+      "department": null,
+      "departmentSegments": null,
+      "rawSha256": "78e8a6e7a645b271eee886c19a9a77f04d47a14106e641d5e4cae78975ad03b0"
+    },
+    {
+      "name": "青少年活動サポートプラザ施設運営事業",
+      "start": 6966,
+      "titleSegments": [
+        {
+          "raw": "青少年活動サポー",
+          "start": 6966
+        },
+        {
+          "raw": "トプラザ施設運営",
+          "start": 6975
+        },
+        {
+          "raw": "事業",
+          "start": 6989
+        }
+      ],
+      "department": null,
+      "departmentSegments": null,
+      "rawSha256": "fbe2c2eefb2dabbc91009df2ef45ea686f618151794def71ef7614204e54347f"
+    },
+    {
+      "name": "青少年活動サポートプラザ青少年相談事業",
+      "start": 7645,
+      "titleSegments": [
+        {
+          "raw": "青少年活動サポー",
+          "start": 7645
+        },
+        {
+          "raw": "トプラザ青少年相",
+          "start": 7654
+        },
+        {
+          "raw": "談事業",
+          "start": 7668
+        }
+      ],
+      "department": null,
+      "departmentSegments": null,
+      "rawSha256": "308eeb8b30489b1ec6324629a1af7c515931054b1a0025490aa406667a9b588a"
+    },
+    {
+      "name": "少年自然の家施設管理事業",
+      "start": 8347,
+      "titleSegments": [
+        {
+          "raw": "少年自然の家施設",
+          "start": 8347
+        },
+        {
+          "raw": "管理事業",
+          "start": 8361
+        }
+      ],
+      "department": null,
+      "departmentSegments": null,
+      "rawSha256": "fe22aa000a0b2e7d68d59596a760753cedacc0c820af65c91cc39160a6c6d91e"
+    },
+    {
+      "name": "地域子育て支援センター事業",
+      "start": 10110,
+      "titleSegments": [
+        {
+          "raw": "地域子育て支援セ",
+          "start": 10110
+        },
+        {
+          "raw": "ンター事業",
+          "start": 10175
+        }
+      ],
+      "department": "子育て支援課",
+      "departmentSegments": [
+        {
+          "raw": "子育て支援",
+          "start": 10119
+        },
+        {
+          "raw": "課",
+          "start": 10181
+        }
+      ],
+      "rawSha256": "7a6c9b03dc2b22463ecc7dc8a356108f74dbf9a267b6974c99c712ebe77e631d"
+    },
+    {
+      "name": "子育て広場助成事業",
+      "start": 10776,
+      "titleSegments": [
+        {
+          "raw": "子育て広場助成事",
+          "start": 10776
+        },
+        {
+          "raw": "業",
+          "start": 10842
+        }
+      ],
+      "department": null,
+      "departmentSegments": null,
+      "rawSha256": "9808b885bd9f329d668c0d4b49792e887e42e3c1e88431ad0e83c7e739a6c202"
+    },
+    {
+      "name": "のびのび子育てプラザ事業",
+      "start": 11451,
+      "titleSegments": [
+        {
+          "raw": "のびのび子育てプ",
+          "start": 11451
+        },
+        {
+          "raw": "ラザ事業",
+          "start": 11517
+        }
+      ],
+      "department": null,
+      "departmentSegments": null,
+      "rawSha256": "5d7cd1a34fa7025bfff4e6bd60077960c9b7c260020577a97529e0047e40ebed"
+    },
+    {
+      "name": "一時預かり事業",
+      "start": 12462,
+      "titleSegments": [
+        {
+          "raw": "一時預かり事業",
+          "start": 12462
+        }
+      ],
+      "department": null,
+      "departmentSegments": null,
+      "rawSha256": "faa409ad4356fcb83926909f60cf9bb0024a1b8c8c09cebddc5455ae5546da9b"
+    },
+    {
+      "name": "ファミリー・サポート・センター事業",
+      "start": 13261,
+      "titleSegments": [
+        {
+          "raw": "ファミリー・サポー",
+          "start": 13261
+        },
+        {
+          "raw": "ト・センター事業",
+          "start": 13271
+        }
+      ],
+      "department": null,
+      "departmentSegments": null,
+      "rawSha256": "82db8bba7ca57ff3f9af45294cf9566f487688f9fc39441900050b03d9d53b9b"
+    },
+    {
+      "name": "子育て支援コンシェルジュ事業",
+      "start": 13502,
+      "titleSegments": [
+        {
+          "raw": "子育て支援コンシェ",
+          "start": 13502
+        },
+        {
+          "raw": "ルジュ事業",
+          "start": 13610
+        }
+      ],
+      "department": null,
+      "departmentSegments": null,
+      "rawSha256": "484f7e8f96ccffaba237c3cb72d1e6b25de75edfced1eb4e2012acb588d68964"
+    },
+    {
+      "name": "地域子育て支援センター事業",
+      "start": 13927,
+      "titleSegments": [
+        {
+          "raw": "地域子育て支援セ",
+          "start": 13927
+        },
+        {
+          "raw": "ンター事業",
+          "start": 13941
+        }
+      ],
+      "department": "保育幼稚園室",
+      "departmentSegments": [
+        {
+          "raw": "保育幼稚",
+          "start": 13936
+        },
+        {
+          "raw": "園室",
+          "start": 13947
+        }
+      ],
+      "rawSha256": "93e7df65f5c21c902cf64b12b3f23b7fc083be220590776bda7ccfa8ed1433cd"
+    },
+    {
+      "name": "子育て支援活動事業",
+      "start": 13951,
+      "titleSegments": [
+        {
+          "raw": "子育て支援活動事",
+          "start": 13951
+        },
+        {
+          "raw": "業",
+          "start": 13965
+        }
+      ],
+      "department": null,
+      "departmentSegments": null,
+      "rawSha256": "7b5472bea242ebc0b24d8fbdf9721b83220dec24011894e646f0d5874d487173"
+    }
+  ],
+  "proposals": 19,
+  "policyHeadingsNotBusinesses": 3,
+  "followupYears": "FY2018/2019/2020 response books are not independent evaluation-year records; reviewed separately"
+}

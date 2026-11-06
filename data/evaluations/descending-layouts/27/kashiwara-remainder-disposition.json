@@ -1,0 +1,1809 @@
+{
+  "sourceId": "121aeac89c6e4a6ece040632",
+  "fullTextSha256": "ae47439190cf4463e7191fdda240961c195e6734e20fe2d090b2d824c25f4191",
+  "reviewed": 180,
+  "proposals": 76,
+  "holds": 104,
+  "rows": [
+    {
+      "index": 0,
+      "title": "表彰関係",
+      "department": "秘書広報課",
+      "start": 7944,
+      "end": 8274,
+      "sourceBlockSha256": "e099ac974201c214c113b66a31158c27f2b527743736d59cb2170d03488c9c47",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 1,
+      "title": "総合計画に関すること",
+      "department": "企画調整課",
+      "start": 12340,
+      "end": 12495,
+      "sourceBlockSha256": "66e561dbfe15606c1c6f206c168a1bfdf53df260166d13d09389f438459bf948",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "総合計画全体の進行管理。個別事業ではなく計画の横断的管理であるため別事業化しない。"
+    },
+    {
+      "index": 2,
+      "title": "まちづくり応援寄附金及びふるさと基金に関すること",
+      "department": "企画調整課",
+      "start": 13628,
+      "end": 14762,
+      "sourceBlockSha256": "6ee22caa8ec1a148c768262a8b0f1e5bd0766bc837b78b2cf3779e7f857124f9",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 3,
+      "title": "事務事業の総合調整に関すること",
+      "department": "企画調整課",
+      "start": 14762,
+      "end": 14851,
+      "sourceBlockSha256": "2743542d91c9b4ec72fc71f880ea82227a9d320c2b4d8f87910c8f2a486d6f05",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 4,
+      "title": "事務組織及び事務改善に関すること",
+      "department": "企画調整課",
+      "start": 14851,
+      "end": 14995,
+      "sourceBlockSha256": "8978ea4773d258a0b6cceddd5cf7fd2a63fe066f81e07fbbc7c0d5a08ca030be",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "組織改善委員会の一般的所掌説明で、当年度の具体的審議・実施内容がない。"
+    },
+    {
+      "index": 5,
+      "title": "広域行政に関すること",
+      "department": "企画調整課",
+      "start": 14995,
+      "end": 15783,
+      "sourceBlockSha256": "0ff39023665bf8ad46c2469e4b479e403e900620e4be4c244c2849476c94b1b8",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "複数広域協議会の総括。公民連携等との包含関係と個別活動の年度対応が未確定。"
+    },
+    {
+      "index": 6,
+      "title": "総合教育会議に関すること",
+      "department": "企画調整課",
+      "start": 16383,
+      "end": 16665,
+      "sourceBlockSha256": "f87e9f16bd0750562a6e1b037c7f5d1892a552ed741736734724fe8101aad46f",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 7,
+      "title": "職員研修",
+      "department": "人事課",
+      "start": 18037,
+      "end": 20049,
+      "sourceBlockSha256": "1672d974ba443bc3a9a5a15362fc651f80e88853cba6e694b4873fb6d61c3124",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 8,
+      "title": "健康診断関係",
+      "department": "人事課",
+      "start": 20049,
+      "end": 20529,
+      "sourceBlockSha256": "73c9652d931a3f355152f0b293931dedb9f474174f914ee5f05de3d942fd6d7b",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 9,
+      "title": "職員の給与関係（企業会計・特別会計除く）",
+      "department": "人事課",
+      "start": 20529,
+      "end": 20780,
+      "sourceBlockSha256": "46a6c4e753b2a9e98d56cc8fa5f9598f5a46cac9c44be129e975f41083452615",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "職員給与・手当総額の集計。複数事業の人件費を個別事業として追加しない。"
+    },
+    {
+      "index": 10,
+      "title": "月期末手当・勤勉手当",
+      "department": "人事課",
+      "start": 20720,
+      "end": 20780,
+      "sourceBlockSha256": "dddc90190eeb8e455d15fd7814fa3d787e82cb4ba788cc532b5f9783183f16c3",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 11,
+      "title": "災害補償関係",
+      "department": "人事課",
+      "start": 20780,
+      "end": 20859,
+      "sourceBlockSha256": "c5db25f5feea9e3b5217950389879e254b35e43b5572b55ccbd5beb4c339dd8d",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 12,
+      "title": "柏原市地域防災計画の改定に関すること",
+      "department": "危機管理課",
+      "start": 21360,
+      "end": 22092,
+      "sourceBlockSha256": "3e1bb2fed03b67903bab683521bb713857c29f14c83a94d8dac545b13eaf5f55",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "令和4年改定と今後の見直し・計画説明であり、令和7年度改定の証拠がない。"
+    },
+    {
+      "index": 13,
+      "title": "情報収集体制及び伝達手段の確保に関すること",
+      "department": "危機管理課",
+      "start": 22092,
+      "end": 22247,
+      "sourceBlockSha256": "b27e7f71e264b9962db2169230b7576e441188685a6991148560d8fc2c5768dc",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "通信体制整備の項目一覧。無線/Jアラート個別活動との重複範囲が未確定。"
+    },
+    {
+      "index": 14,
+      "title": "災害発生時における職員配備体制等に関すること",
+      "department": "危機管理課",
+      "start": 22247,
+      "end": 23298,
+      "sourceBlockSha256": "7c5eee11f8a88f25127ee71bbb7c677994d3ebe002fe6ab8f6b9f78a88eb8047",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "災害時の配備基準と体制説明。年度の発動実績・独立事業の境界がない。"
+    },
+    {
+      "index": 15,
+      "title": "柏原市災害対策本部等に関すること",
+      "department": "危機管理課",
+      "start": 23298,
+      "end": 23702,
+      "sourceBlockSha256": "9ee4ff2b16937cfb8acaf60ada95c3aa081e229bf57fa33e91c2cb9c097f825a",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "災害対策本部の設置条件であり、当年度の設置実績がない。"
+    },
+    {
+      "index": 16,
+      "title": "防災行政無線の整備に関すること",
+      "department": "危機管理課",
+      "start": 23887,
+      "end": 24041,
+      "sourceBlockSha256": "304de4146f433b9135e2b52af11efb393797596b7273b39dc8c4d5ccb835bdfd",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "既存通信ネットワークの一般的説明。Jアラート更新との独立性・当年度整備内容が不明。"
+    },
+    {
+      "index": 17,
+      "title": "全国瞬時警報システム（J アラート）に関すること",
+      "department": "危機管理課",
+      "start": 27138,
+      "end": 27449,
+      "sourceBlockSha256": "a96c369fddd24683e68a6968c1cffee3252d13ee7aede23d32cc66c94f95ebdb",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 18,
+      "title": "原子力災害に係る広域避難の受入に関すること",
+      "department": "危機管理課",
+      "start": 28326,
+      "end": 28481,
+      "sourceBlockSha256": "03d9934c470fd262e02b594acfda0eeb8076545307826936ff4e033430bcb2c5",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "将来の原子力災害時の受入調整の必要性のみで、年度の実施記述がない。"
+    },
+    {
+      "index": 19,
+      "title": "柏原市消防団活動に関すること",
+      "department": "危機管理課",
+      "start": 28481,
+      "end": 28849,
+      "sourceBlockSha256": "19b88102c5816277a76af2df329f0eb6f50b54ab3959bd3640f70c6e525e052c",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 20,
+      "title": "大阪南消防組合に関すること",
+      "department": "危機管理課",
+      "start": 28849,
+      "end": 28956,
+      "sourceBlockSha256": "fef88b10d95c347c9eccbb5196309d851d3dd79a336da02093c8f569c78a633d",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "消防組合の構成・共同処理の組織説明。個別活動は消防団・救急業務で別確認。"
+    },
+    {
+      "index": 21,
+      "title": "高速道路救急業務に関すること",
+      "department": "危機管理課",
+      "start": 28956,
+      "end": 29048,
+      "sourceBlockSha256": "03e3693d9ac455e1f626507612edb22ab9b27d6a73b9fa4d48b9c74f17a36ab7",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 22,
+      "title": "航空消防業務に関すること",
+      "department": "危機管理課",
+      "start": 29048,
+      "end": 29147,
+      "sourceBlockSha256": "ee2631e2ebbf65473ca24e3a990fd7147bc362a1e4c503aaeb479089876b4403",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "航空消防の一般的備え。年度の契約・実施事実が明記されていない。"
+    },
+    {
+      "index": 23,
+      "title": "歳末夜警巡視に関すること",
+      "department": "危機管理課",
+      "start": 29312,
+      "end": 29422,
+      "sourceBlockSha256": "2f095c8007c2da7e3dd3c054081669f0fd3906f2af3af593a844ecd507b2baad",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 24,
+      "title": "自動車損害共済に関すること",
+      "department": "総務課",
+      "start": 31733,
+      "end": 32024,
+      "sourceBlockSha256": "0aa1403abb64fa1e20a9fe854969dd1600d683fe041599b8a387dd5bb1bdf0d2",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 25,
+      "title": "基幹系業務（住民記録、国民健康保険、税務関係等）システムの管理及び運用",
+      "department": "デジタル推進課",
+      "start": 32032,
+      "end": 32352,
+      "sourceBlockSha256": "f0ec8ca1a6386a513e26bc2e1975696e469c30c27c72ca49f344f2cb078c27c3",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 26,
+      "title": "公開サーバーの管理及び運用",
+      "department": "デジタル推進課",
+      "start": 32352,
+      "end": 32451,
+      "sourceBlockSha256": "f0fea8ec1b5dd66e4fbb3f699e03180f1303fc872e6a450ba8ed15e7375893e4",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 27,
+      "title": "行政内部の各種業務サーバーの管理及び運用",
+      "department": "デジタル推進課",
+      "start": 32451,
+      "end": 32533,
+      "sourceBlockSha256": "1bce55968d36da6d3f7f5f94749dc5e9f7cdb8bb0e044fae3b9c3a374571d6af",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 28,
+      "title": "地域イントラネットのネットワークの管理及び運用",
+      "department": "デジタル推進課",
+      "start": 32533,
+      "end": 32755,
+      "sourceBlockSha256": "e7969bf70718e31e8f0385b0f1ed85c4e2dd21696b95ca23f9e910a19db517e3",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 29,
+      "title": "ＬＧＷＡＮ（総合行政ネットワーク）の管理及び運用",
+      "department": "デジタル推進課",
+      "start": 33004,
+      "end": 33200,
+      "sourceBlockSha256": "e89f3eec7ee43ffd064c851a46c317a4d845a6eb38b2d82917f79cdb63de8546",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 30,
+      "title": "自治体ＤＸ（デジタルトランスフォーメーション）の取組の推進",
+      "department": "デジタル推進課",
+      "start": 33200,
+      "end": 33411,
+      "sourceBlockSha256": "f9aa002a82cef3fe428a4fd6d23413991bd5c6e8967c9172014dcd4509f92ee4",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 31,
+      "title": "大阪市町村スマートシティ推進連絡会議（ＧｏｖＴｅｃｈ大阪）への参加",
+      "department": "デジタル推進課",
+      "start": 33411,
+      "end": 33843,
+      "sourceBlockSha256": "709bbdcebc4e6c865d3baf6e6eeb079d92168c7a591c7d25589e3100ce8704af",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 32,
+      "title": "市の建築物の工事の設計に関すること",
+      "department": "公有財産マネジメント課",
+      "start": 34989,
+      "end": 35214,
+      "sourceBlockSha256": "1e7356c0eef73bf4931455fa18dd2fb79f9befd39ab16fbdf66ad4e5c50ad141",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "設計・監理の所掌に複数施設工事を含む。各施設整備候補との包含・重複を避けて保留。"
+    },
+    {
+      "index": 33,
+      "title": "市の建築物の工事の施工及び監督に関すること",
+      "department": "公有財産マネジメント課",
+      "start": 35214,
+      "end": 35718,
+      "sourceBlockSha256": "f12906a1f5a9452575321e02c971c499348ff10d3baabf6c39cc36f74816c717",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "建築工事の監督という所掌と複数施設工事の交錯した表。既存施設候補との包含関係未確定。"
+    },
+    {
+      "index": 34,
+      "title": "柏原市立保健センター施設整備工事",
+      "department": "公有財産マネジメント課",
+      "start": 35718,
+      "end": 35796,
+      "sourceBlockSha256": "d6fb40392d2fc7a7b0b42efaa6486539fc46e1981a862b9c45252cf83a74d978",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "工事名称・説明が複数列で交錯する表の行。施設整備候補との包含関係及び完全な工事境界の確認が必要。"
+    },
+    {
+      "index": 35,
+      "title": "高尾山創造の森トイレ洋式化工事",
+      "department": "公有財産マネジメント課",
+      "start": 35796,
+      "end": 35815,
+      "sourceBlockSha256": "d20170f5619ec0eb11bf7c1bdbf492e6d172d11790d39e441b209ec8dbd9cdc6",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "工事名称・説明が複数列で交錯する表の行。施設整備候補との包含関係及び完全な工事境界の確認が必要。"
+    },
+    {
+      "index": 36,
+      "title": "第 1 期柏原病院 EHP 空調設備機器更新工",
+      "department": "公有財産マネジメント課",
+      "start": 35815,
+      "end": 35844,
+      "sourceBlockSha256": "f892f54b65e2967cf10738de212a3d678a6568fe98ebbbb3ee8a2b0761c4361a",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "工事名称・説明が複数列で交錯する表の行。施設整備候補との包含関係及び完全な工事境界の確認が必要。"
+    },
+    {
+      "index": 37,
+      "title": "大阪南消防組合国分出張所感染症対策個",
+      "department": "公有財産マネジメント課",
+      "start": 35844,
+      "end": 35871,
+      "sourceBlockSha256": "93277bd091ec2a5d0df60db49c2fcee12f9d793b11570f10da7bd8a7e37a0e67",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "工事名称・説明が複数列で交錯する表の行。施設整備候補との包含関係及び完全な工事境界の確認が必要。"
+    },
+    {
+      "index": 38,
+      "title": "男女共同参画センター施設整備工事",
+      "department": "公有財産マネジメント課",
+      "start": 35871,
+      "end": 35891,
+      "sourceBlockSha256": "84ff39cd75a1d9d1b4636a8bb1f6733da881f4a3160a9ef562ed6d6324013385",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "工事名称・説明が複数列で交錯する表の行。施設整備候補との包含関係及び完全な工事境界の確認が必要。"
+    },
+    {
+      "index": 39,
+      "title": "（仮称）市民交流センター施設整備工事",
+      "department": "公有財産マネジメント課",
+      "start": 36269,
+      "end": 36325,
+      "sourceBlockSha256": "ec8d5866dca39eb61f75ee3c4558baad516469aecf628bdc6d15ed0fb89e1115",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "工事名称・説明が複数列で交錯する表の行。施設整備候補との包含関係及び完全な工事境界の確認が必要。"
+    },
+    {
+      "index": 40,
+      "title": "予算",
+      "department": "財政課",
+      "start": 36329,
+      "end": 39367,
+      "sourceBlockSha256": "0682e0c83196199c38706a05e65954c16ea78f1f3b39e6082d848f3861440adc",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "予算・決算・税財源・債務・基金・健全化比率の財政全体集計であり個別事業ではない。"
+    },
+    {
+      "index": 41,
+      "title": "決算",
+      "department": "財政課",
+      "start": 39367,
+      "end": 39696,
+      "sourceBlockSha256": "ae717299616db5d41f6e2721dad662601d6ba8460d56f2ffcc30a92f3e5ffaea",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "予算・決算・税財源・債務・基金・健全化比率の財政全体集計であり個別事業ではない。"
+    },
+    {
+      "index": 42,
+      "title": "地方交付税",
+      "department": "財政課",
+      "start": 39696,
+      "end": 40009,
+      "sourceBlockSha256": "57311df19fc9aba6d9b67e48b3a601b80442d8e291b3c9e0ac6fedda071a3337",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "予算・決算・税財源・債務・基金・健全化比率の財政全体集計であり個別事業ではない。"
+    },
+    {
+      "index": 43,
+      "title": "市債",
+      "department": "財政課",
+      "start": 40009,
+      "end": 40230,
+      "sourceBlockSha256": "357173fa2bcfccbcb5384d59239654bdee5226fb951b6da6711778ab509bc4c3",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "予算・決算・税財源・債務・基金・健全化比率の財政全体集計であり個別事業ではない。"
+    },
+    {
+      "index": 44,
+      "title": "基金",
+      "department": "財政課",
+      "start": 40230,
+      "end": 40472,
+      "sourceBlockSha256": "dafa082118a7da92b59297753956fd0cb188166cdebdcf36ee54ddb51224ae96",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "予算・決算・税財源・債務・基金・健全化比率の財政全体集計であり個別事業ではない。"
+    },
+    {
+      "index": 45,
+      "title": "地方公共団体の財政の健全化に関する法律に基づく健全化判断比率等の算定結果",
+      "department": "財政課",
+      "start": 40472,
+      "end": 41281,
+      "sourceBlockSha256": "0bdd4bc44d34b11c386f2062841bb96685db6ded511115c8e22ab69a7b2f3101",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "予算・決算・税財源・債務・基金・健全化比率の財政全体集計であり個別事業ではない。"
+    },
+    {
+      "index": 46,
+      "title": "物品関係",
+      "department": "契約検査課",
+      "start": 41839,
+      "end": 42279,
+      "sourceBlockSha256": "e37679393a941c5e54f849caedeaa25a4adf30e537562f41d944bd8c57d134ab",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 47,
+      "title": "建設工事関係",
+      "department": "契約検査課",
+      "start": 42279,
+      "end": 42586,
+      "sourceBlockSha256": "59eb0db89d4f3540f4969f0b66debccacddedc5d673ca41f2b92efe5d0f6d600",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "入札契約・検査の種類別件数集計であり独立した個別事業名ではない。"
+    },
+    {
+      "index": 48,
+      "title": "業務委託関係",
+      "department": "契約検査課",
+      "start": 42586,
+      "end": 42710,
+      "sourceBlockSha256": "2073b744af0c076cc4e746593c69da8ed1e6680f249e9e5d91f2dd0e359a7f5b",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "入札契約・検査の種類別件数集計であり独立した個別事業名ではない。"
+    },
+    {
+      "index": 49,
+      "title": "その他（賃借・物品）",
+      "department": "契約検査課",
+      "start": 42710,
+      "end": 42761,
+      "sourceBlockSha256": "f114f5e5ffa95e8d0f3fdf7f1de31aafdf46f1980f4a7494b8161c147baf038f",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "入札契約・検査の種類別件数集計であり独立した個別事業名ではない。"
+    },
+    {
+      "index": 50,
+      "title": "単価契約関係",
+      "department": "契約検査課",
+      "start": 42761,
+      "end": 42814,
+      "sourceBlockSha256": "a9b05e56fca52ad316e025bc8075358c3e935d781a4f397aa6cca02050624cea",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "入札契約・検査の種類別件数集計であり独立した個別事業名ではない。"
+    },
+    {
+      "index": 51,
+      "title": "建設工事、業務委託検査状況",
+      "department": "契約検査課",
+      "start": 42814,
+      "end": 43020,
+      "sourceBlockSha256": "636be00d0da4c5e51dd2046ffba01d63c4ee213ecb4551f7d3426b992ceb4020",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "入札契約・検査の種類別件数集計であり独立した個別事業名ではない。"
+    },
+    {
+      "index": 52,
+      "title": "億円を超え",
+      "department": "課税課",
+      "start": 45256,
+      "end": 46943,
+      "sourceBlockSha256": "fc0379c4f75f361cfd221781697a10339ff2c180660d89e883b9e298dd5191e5",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 53,
+      "title": "億円以下の法人",
+      "department": "課税課",
+      "start": 45298,
+      "end": 46943,
+      "sourceBlockSha256": "38cdd00bfa929ba345dd1adfc45332ff808d6c3c31941b6ab9497178c5d9f81b",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 54,
+      "title": "市税における証明書発行件数及び手数料",
+      "department": "課税課",
+      "start": 46943,
+      "end": 47092,
+      "sourceBlockSha256": "077cac6cfe5cac28aeca1c01df2fd4669a5affd5442a12d67ba69d3cc918f800",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "証明書の件数・手数料の集計見出し。同名別係の集計を独立事業にしない。"
+    },
+    {
+      "index": 55,
+      "title": "市税における証明書発行件数及び手数料",
+      "department": "課税課",
+      "start": 48682,
+      "end": 48755,
+      "sourceBlockSha256": "a1657ae51f26b031109083f9ba945c01d82d84d53ae2fc09428a4a863eeff972",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "証明書の件数・手数料の集計見出し。同名別係の集計を独立事業にしない。"
+    },
+    {
+      "index": 56,
+      "title": "市税等の収納に関すること。",
+      "department": "納税課",
+      "start": 48763,
+      "end": 49444,
+      "sourceBlockSha256": "96137a112d0d5ad93c5bc43ef6b46c9144abede577b7dd39ec22db2fea36a60d",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 57,
+      "title": "市税等に係る納税証明に関すること。",
+      "department": "納税課",
+      "start": 49444,
+      "end": 49614,
+      "sourceBlockSha256": "182b5378cdbcf2239e67baf65d28e93aae65c94b9daecd198a7461f197462153",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 58,
+      "title": "大阪府地方税徴収機構との連携に関すること",
+      "department": "納税課",
+      "start": 50082,
+      "end": 50410,
+      "sourceBlockSha256": "74a1a658b0b44d2f3510c433cd88d41331bbb975e16c971306c20fbab86e1914",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 59,
+      "title": "市民課における事務の概要",
+      "department": "市民課",
+      "start": 50414,
+      "end": 50541,
+      "sourceBlockSha256": "a899ae303d574a6f8d1006cf725ea2076828aedd405b06c315db541b9530f01e",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "部署の全般的所掌説明。複数住民手続を一つの事業として数えない。"
+    },
+    {
+      "index": 60,
+      "title": "市民課事務に係る件数等の集計",
+      "department": "市民課",
+      "start": 50541,
+      "end": 52550,
+      "sourceBlockSha256": "cafdbf71c0833f3d3846855fa97d92c926524b29bc6945d4f6b2004719a510e7",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "戸籍・人口・届出等の統計集計であり事業名ではない。"
+    },
+    {
+      "index": 61,
+      "title": "月号",
+      "department": "人権推進課",
+      "start": 52920,
+      "end": 56381,
+      "sourceBlockSha256": "f70030e60ec3531a27eabd19b7eb3dcfe74858b00639d0e1fa66971b92e9e56e",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 62,
+      "title": "月号",
+      "department": "人権推進課",
+      "start": 52926,
+      "end": 56381,
+      "sourceBlockSha256": "c23b73a0e44323e4f04a62c5fea88d452f5188d6852bbbf9af2e70d943eef8cc",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 63,
+      "title": "し尿処理に関すること",
+      "department": "環境対策課",
+      "start": 63735,
+      "end": 64332,
+      "sourceBlockSha256": "d081d65a7a0608356514573a1ea5b9f6e20cdbc8aec76115f09c30dec8fd8e39",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 64,
+      "title": "公害対策に関すること",
+      "department": "環境対策課",
+      "start": 65282,
+      "end": 65484,
+      "sourceBlockSha256": "0a159ce3ae218afc5f25f55ba5d3c3a6cc900d862033dc0f3765121a2788b5eb",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "苦情・届出の種類別集計。既存の環境監視候補との業務範囲が未確定。"
+    },
+    {
+      "index": 65,
+      "title": "名（採用：4 名）",
+      "department": "産業振興課",
+      "start": 71660,
+      "end": 72152,
+      "sourceBlockSha256": "e5972eb87087e3278d255099d99cc528578118ace00a5addea516b7034ce968f",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 66,
+      "title": "名（採用：2 名）",
+      "department": "産業振興課",
+      "start": 72120,
+      "end": 72152,
+      "sourceBlockSha256": "4bc431f540215284bda2139435f78f2a84b390f47ee3afc7214209e6c2cd067a",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 67,
+      "title": "名（採用：0 名）",
+      "department": "産業振興課",
+      "start": 72138,
+      "end": 72152,
+      "sourceBlockSha256": "8f60395ff9915d6961c9fb8301da82c22a0e1148ee42a6212ceff36ed38d9115",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 68,
+      "title": "箇所",
+      "department": "産業振興課",
+      "start": 73035,
+      "end": 74063,
+      "sourceBlockSha256": "3e12bab9c5cd1b2110c8690ddc17dfd6ff3168b42b1344eafafd69cef0d94129",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 69,
+      "title": "箇所",
+      "department": "産業振興課",
+      "start": 73051,
+      "end": 74063,
+      "sourceBlockSha256": "f6260b15e064df95b82c536aac62d74505c81457bae593bd6b6f45517f664f08",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 70,
+      "title": "区画",
+      "department": "産業振興課",
+      "start": 73095,
+      "end": 74063,
+      "sourceBlockSha256": "ce1da55fffdb9654470679d633fa9b99f64c123fd946165631c7906affe8723c",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 71,
+      "title": "農業委員会",
+      "department": "産業振興課",
+      "start": 75924,
+      "end": 76181,
+      "sourceBlockSha256": "49451c749819b4a69d1e11b2329eca2476aadeef86cbb38566f73d27e424a56b",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 72,
+      "title": "農業者年金業務",
+      "department": "産業振興課",
+      "start": 76181,
+      "end": 76448,
+      "sourceBlockSha256": "845960fd29c8bebd2315c0dc93239c5016aaa13fc4f769991286c5bb7451496d",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 73,
+      "title": "農地パトロールの実施",
+      "department": "産業振興課",
+      "start": 76448,
+      "end": 76571,
+      "sourceBlockSha256": "e7f149146c0dde5bc9e7c01866c745c3ed2cc223f5736270b2baf48aa78104c9",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 74,
+      "title": "町会の区長との連絡に関すること",
+      "department": "地域連携支援課",
+      "start": 80640,
+      "end": 80913,
+      "sourceBlockSha256": "490fc9c7f4993cdcb92de80c407503089cebf14d8e6e66c618b6b494f6ce3901",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "区長の一般的役割説明。市の独立した年度事業の実施証拠がない。"
+    },
+    {
+      "index": 75,
+      "title": "区長会との連絡に関すること",
+      "department": "地域連携支援課",
+      "start": 80913,
+      "end": 81471,
+      "sourceBlockSha256": "9517d5ba00efc622e72bd81a0a14f0fc7881bb63d9f22ce3fa7a8a123ed75899",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 76,
+      "title": "市立コミュニティ会館に関すること",
+      "department": "地域連携支援課",
+      "start": 81774,
+      "end": 82196,
+      "sourceBlockSha256": "219246f875b990e6fc76f85a76bbd8931b11a3a7647a238c6b2d7ef79a9458fa",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 77,
+      "title": "特定非営利活動法人の設立の認証等に関すること",
+      "department": "地域連携支援課",
+      "start": 82395,
+      "end": 82537,
+      "sourceBlockSha256": "2aec1d5868941dc2cabc31e083a12acef15d223a69eb407a038bb9fc9d68456d",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 78,
+      "title": "認可地縁団体に関すること",
+      "department": "地域連携支援課",
+      "start": 82537,
+      "end": 82656,
+      "sourceBlockSha256": "9f462410928141d9d820128f48ccce26e5878be704907e5108e070dcbc75181e",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 79,
+      "title": "国勢調査に関すること",
+      "department": "地域連携支援課",
+      "start": 82656,
+      "end": 82800,
+      "sourceBlockSha256": "f37c325b8d6fb0a80ef2997548267721d1ca217c277158897f4c55f726f1e1a8",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "国勢調査の一般的説明のみ。当年度の実施記述がない。暦から実施を推定しない。"
+    },
+    {
+      "index": 80,
+      "title": "基幹統計調査その他統計調査に関すること",
+      "department": "地域連携支援課",
+      "start": 82800,
+      "end": 82918,
+      "sourceBlockSha256": "5b56060e79b4b34679b0b362ce650e4b586112c3de915ad158daac87c5b669e3",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 81,
+      "title": "統計書の企画発行",
+      "department": "地域連携支援課",
+      "start": 82918,
+      "end": 83030,
+      "sourceBlockSha256": "d769602737375b58726a5fe34660f8d3f726aecf966033876f3583926a416fa2",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 82,
+      "title": "団体",
+      "department": "福祉総務課",
+      "start": 85419,
+      "end": 85779,
+      "sourceBlockSha256": "5d2f9c808631e349de3621b382242900774fdec1fd85041309bde754421b7d74",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 83,
+      "title": "生活保護関係",
+      "department": "福祉総務課",
+      "start": 87710,
+      "end": 88492,
+      "sourceBlockSha256": "0e37fb0eca3091bfb578d0b26bfe4e6ab0702d160a94c717d3c7e90b81b87363",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 84,
+      "title": "行旅病人及び行旅死亡関係",
+      "department": "福祉総務課",
+      "start": 88492,
+      "end": 88628,
+      "sourceBlockSha256": "47e8a4ed571cb29bb801d60a8cc27d699436bb1f35b9763567c2995e629760b5",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 85,
+      "title": "身体障害者福祉に関すること",
+      "department": "障害福祉課",
+      "start": 88640,
+      "end": 89446,
+      "sourceBlockSha256": "c0e3eebfd0211721bed715da77540d13075ce7d0cd7f1fec89b5a6bada2cbffd",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "身体障害者福祉という制度領域の説明と手帳人口集計。個別給付と別事業にしない。"
+    },
+    {
+      "index": 86,
+      "title": "知的障害者福祉に関すること",
+      "department": "障害福祉課",
+      "start": 89446,
+      "end": 89849,
+      "sourceBlockSha256": "d80e97c0ffb8ca88569831edb43c214179d1874efcbcc5c3b2e53210e06d664b",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "知的障害者福祉という制度領域の説明と手帳人口集計。個別給付と別事業にしない。"
+    },
+    {
+      "index": 87,
+      "title": "精神障害者福祉に関すること",
+      "department": "障害福祉課",
+      "start": 89849,
+      "end": 90139,
+      "sourceBlockSha256": "4609b34aaaabc8bfc615a07a992ccac5e04f9a8cb874127c852513cc3b678451",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "精神障害者福祉という制度領域の説明と手帳人口集計。個別給付と別事業にしない。"
+    },
+    {
+      "index": 88,
+      "title": "障害者及び障害児に支給する手当に関すること",
+      "department": "障害福祉課",
+      "start": 90139,
+      "end": 90618,
+      "sourceBlockSha256": "886a797bb216e14865c871dd289a2a64f72a02fd4142712ec6192c27ae2f7e4e",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 89,
+      "title": "重度身体障害者住宅改造助成に関すること",
+      "department": "障害福祉課",
+      "start": 90956,
+      "end": 91134,
+      "sourceBlockSha256": "7440f69922907e42b70ae814786e2fd93140003b9c7da0563e9e74037ca46461",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 90,
+      "title": "重度障害者の医療費助成に関すること",
+      "department": "障害福祉課",
+      "start": 91134,
+      "end": 91565,
+      "sourceBlockSha256": "745a4b9b185c3901728ece41235b34d5ac3a39faaa1f01d359e73c30990f3370",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 91,
+      "title": "障害者（児）の相談支援事業所に関すること",
+      "department": "障害福祉課",
+      "start": 91636,
+      "end": 91907,
+      "sourceBlockSha256": "c80d6490ee212fa5379777184d8fe6d92e24b614970950a3abb8f2c7ba92460b",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "相談支援事業所の連絡先・件数表。既存相談支援事業との包含関係を確定できない。"
+    },
+    {
+      "index": 92,
+      "title": "自立支援給付に関すること",
+      "department": "障害福祉課",
+      "start": 92791,
+      "end": 94008,
+      "sourceBlockSha256": "1f871ffdb320bf896c86878992872cca6909821b5dd0b5d45ac4feca78950800",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 93,
+      "title": "歳以上の身体障害者手帳を所持する方で、手術等の治療により、日常生活",
+      "department": "障害福祉課",
+      "start": 93703,
+      "end": 94008,
+      "sourceBlockSha256": "96e64195efa006b176ebcff898460248e140750f75da56626619177aaab2dd35",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 94,
+      "title": "歳未満の身体に障害のある児童で、手術等の治療により、確実な治療効果",
+      "department": "障害福祉課",
+      "start": 93818,
+      "end": 94008,
+      "sourceBlockSha256": "a9ed505d980019641db98a4adac93c71d5ad82858a465cfa2f673e9d430730a8",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 95,
+      "title": "基金に関すること",
+      "department": "障害福祉課",
+      "start": 94910,
+      "end": 95083,
+      "sourceBlockSha256": "939680563e7dc7e5f84ff10b12ae5ada80d9e25305e8fb62bb81b6d9bea24d00",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "基金残高表であり年度の個別事業ではない。"
+    },
+    {
+      "index": 96,
+      "title": "施設",
+      "department": "福祉指導監査課",
+      "start": 97311,
+      "end": 97377,
+      "sourceBlockSha256": "439ea0a9ef9ad5db5ca2e27d09cf1d0d161e0b1cd193f27f37be1697a04ef446",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 97,
+      "title": "幼稚園について",
+      "department": "こども施設課",
+      "start": 106990,
+      "end": 108086,
+      "sourceBlockSha256": "e456d4b46379547ba768765e16e780ffd9719e94bae7845bc0dcdf71ee6a9f19",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "幼稚園・こども園の施設概要、開園年、在籍児童の集計。個別運営事業名がない。"
+    },
+    {
+      "index": 98,
+      "title": "クラブ",
+      "department": "高齢介護課",
+      "start": 112852,
+      "end": 112908,
+      "sourceBlockSha256": "a4da1e43532cb1acecb2f17f6930b6080753cb19ecfe3b3ae07eb69e3c1f7c3c",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 99,
+      "title": "高齢者福祉行事",
+      "department": "高齢介護課",
+      "start": 112908,
+      "end": 113050,
+      "sourceBlockSha256": "c4bc79295324dce8e007cd7a968e7a07f7a89b28241ecf9c7e4372ef39fc94fb",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 100,
+      "title": "老人福祉センター",
+      "department": "高齢介護課",
+      "start": 113050,
+      "end": 114057,
+      "sourceBlockSha256": "1caef9cd7d96ead51fb82ba2314e33c184471d9d5a9990318562fa238d8223bc",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 101,
+      "title": "第 1 号被保険者数の状況（各月末）",
+      "department": "高齢介護課",
+      "start": 116087,
+      "end": 116517,
+      "sourceBlockSha256": "e6b110512753aaa3f6bb843c3aef7696b079d531f161a06b9a9be4d8e14a9819",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "年齢別被保険者数表で事業ではない。"
+    },
+    {
+      "index": 102,
+      "title": "所得段階別保険料等に関する状況",
+      "department": "高齢介護課",
+      "start": 116517,
+      "end": 117513,
+      "sourceBlockSha256": "6e412e280d08290ad8d70e8054610c09cfc60caf0ee1977f2cb73de1ce3c8c48",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "所得段階別の保険料率表で事業ではない。"
+    },
+    {
+      "index": 103,
+      "title": "保険料賦課収納に関する状況",
+      "department": "高齢介護課",
+      "start": 117513,
+      "end": 117846,
+      "sourceBlockSha256": "6167b170f71cdf90dbad0eeb3586de933fb1cf3b95a503cd193134f2bbd1d584",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "保険料収納の集計表。給付/保険事務全体との独立した事業境界がない。"
+    },
+    {
+      "index": 104,
+      "title": "要介護認定に関する状況",
+      "department": "高齢介護課",
+      "start": 117846,
+      "end": 118386,
+      "sourceBlockSha256": "cab0942a3537445c9943aaa9c641aa94e208c3c27b906638b6b5e9abd7585506",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 105,
+      "title": "国民健康保険の給付に関すること。",
+      "department": "保険年金課",
+      "start": 119602,
+      "end": 120260,
+      "sourceBlockSha256": "13a5305f80aad1d8b9c0f721154460d4f50d24e8bed5515b5ae8f2f03f19a4d3",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "給付制度の一般的種類説明。年度の具体的活動・支給実績の証拠がない。"
+    },
+    {
+      "index": 106,
+      "title": "歳以上の被保険者の方を対象に、疾患を未然に防ぐために提携医療機関で健康診査を受診",
+      "department": "保険年金課",
+      "start": 120478,
+      "end": 120944,
+      "sourceBlockSha256": "e121eefb97b00d62edce4695439ee161b24db9f7cff021e79283b14cf98a2f27",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 107,
+      "title": "歳以上の方は特定健康診査と同時受診となり、通常健診は 8,440 円、脳検査付きは 14,410 円",
+      "department": "保険年金課",
+      "start": 120575,
+      "end": 120944,
+      "sourceBlockSha256": "a09c462bbc548c348372be4290bc54509d3133c271fe7bee251eab86bf475c4e",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 108,
+      "title": "国民健康保険料の賦課・徴収及び収納に関すること。",
+      "department": "保険年金課",
+      "start": 121322,
+      "end": 121994,
+      "sourceBlockSha256": "d14c3aea51fed214601be73ec197ac7a090c87964c934299800624f8bd184cdb",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 109,
+      "title": "後期高齢者医療制度の申請・届出の受付などに関すること。",
+      "department": "保険年金課",
+      "start": 122523,
+      "end": 122903,
+      "sourceBlockSha256": "44ac08899d8771d8aebafbb23b8109025813fb5e9f501a2ca4e464a8c4c84203",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 110,
+      "title": "後期高齢者医療保険料の徴収に関すること。",
+      "department": "保険年金課",
+      "start": 122903,
+      "end": 123220,
+      "sourceBlockSha256": "691a5c23988f3c4a609316885b5f9ac71fcff9cc0008413176c254df71c904db",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 111,
+      "title": "後期高齢者医療制度の広報及び啓発に関すること。",
+      "department": "保険年金課",
+      "start": 123220,
+      "end": 123339,
+      "sourceBlockSha256": "e55cd736b76b801f92f60870cb3995c3d59cd645e6773f26d27d1152b66fc013",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 112,
+      "title": "国民年金受給権者に関すること",
+      "department": "保険年金課",
+      "start": 124820,
+      "end": 125064,
+      "sourceBlockSha256": "dc5e1ac3c7dc512b228a191eae15b47f7d40c700d5a90649aa26333632e86a82",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 113,
+      "title": "年金生活者支援給付金に関すること",
+      "department": "保険年金課",
+      "start": 125064,
+      "end": 125412,
+      "sourceBlockSha256": "7c33cbc4d41e86e458374bdcd1c1c8d32600e372e91ef95a9d7f14471e237042",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 114,
+      "title": "交付金に関すること",
+      "department": "保険年金課",
+      "start": 125412,
+      "end": 125641,
+      "sourceBlockSha256": "0b5038a37a365f63bde4139eb8e9c1e8dd3100fbdbf2cdcfdf20cff83c6f3394",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "既出年金事務への国交付金の収入集計。別事業にしない。"
+    },
+    {
+      "index": 115,
+      "title": "全国都市国民年金協議会に関すること",
+      "department": "保険年金課",
+      "start": 125641,
+      "end": 125839,
+      "sourceBlockSha256": "19809b84584a8c8536f7156182360a81ba9eed5f28242e0fe03146a4e852355c",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "全国協議会の一般的説明・毎年の要望書。年度の具体的参加実施内容がない。"
+    },
+    {
+      "index": 116,
+      "title": "都市計画の明示（証明）に関すること",
+      "department": "都市政策課",
+      "start": 126168,
+      "end": 126399,
+      "sourceBlockSha256": "f22815f072493ffc5366550700b10fdf25e3372ed2c054aed0b3095448d6579e",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 117,
+      "title": "土地区画整理事業に関すること",
+      "department": "都市政策課",
+      "start": 126399,
+      "end": 126482,
+      "sourceBlockSha256": "9862fe58141d1f3a2270eb593ab989c085f8899cec9ca391570f671cef1fbafb",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 118,
+      "title": "国土利用計画法による届出に関すること",
+      "department": "都市政策課",
+      "start": 126482,
+      "end": 126622,
+      "sourceBlockSha256": "e78dea2a0e27732476df3877fc128c88d3758e101a2c81fef12cf9d0d100a463",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 119,
+      "title": "生産緑地の追加指定に関すること",
+      "department": "都市政策課",
+      "start": 126622,
+      "end": 126838,
+      "sourceBlockSha256": "40978d4be84306af1c74b3d51be44c34f907bc44da501da06e8b9ed6bc69c3da",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 120,
+      "title": "生産緑地買取りに関する関係機関との協議に関すること",
+      "department": "都市政策課",
+      "start": 126838,
+      "end": 126958,
+      "sourceBlockSha256": "c1b4daacb347cb240c3e98e758b4e967ee43b871572fd3f019c60a5d8a2b87de",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 121,
+      "title": "バリアフリー基本構想に関すること",
+      "department": "都市政策課",
+      "start": 126958,
+      "end": 127014,
+      "sourceBlockSha256": "cc49acba5c70362548ca6f9a996310b76482c7d1b2e2800a9b671b372354cc7d",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "基本構想に基づく推進方針のみ。年度の具体的実施記述がない。"
+    },
+    {
+      "index": 122,
+      "title": "交通安全対策に関すること",
+      "department": "交通政策課",
+      "start": 128588,
+      "end": 130956,
+      "sourceBlockSha256": "0e08007df34c13a4cc5796d20a32d3c835999fc7a3a0ae24e8752214c1adad87",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "交通安全の複数活動総括。既存交通安全施設等との事業境界・下位活動の重複を先に解決する必要。"
+    },
+    {
+      "index": 123,
+      "title": "本",
+      "department": "交通政策課",
+      "start": 129946,
+      "end": 130956,
+      "sourceBlockSha256": "6885226b74d4ace1c2cd292e680e4e7dd4b9ad0836b45bd64f610b84b416ddd5",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 124,
+      "title": "基",
+      "department": "交通政策課",
+      "start": 129951,
+      "end": 130956,
+      "sourceBlockSha256": "e9aeaee9573345b3aa20366bf7cd42bbeef728b9081400fe3838a3c8c643b327",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 125,
+      "title": "自転車駐車場・自動車駐車場施設に関すること",
+      "department": "交通政策課",
+      "start": 131289,
+      "end": 132503,
+      "sourceBlockSha256": "a5d5ffbd034278703505712a99969d30e5c8c77addfa1df680493ecdc2833c04",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "駐輪駐車場の設置年・面積・使用料一覧。年度の個別整備または運営活動の明記がない。"
+    },
+    {
+      "index": 126,
+      "title": "分までごと 100 円",
+      "department": "交通政策課",
+      "start": 132399,
+      "end": 132503,
+      "sourceBlockSha256": "bbcc14b56ef7f8f02b8953b50c32e200849e6ef582848196cd57889aa036a323",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 127,
+      "title": "市内循環バス及び地域公共交通に関すること",
+      "department": "交通政策課",
+      "start": 132503,
+      "end": 133418,
+      "sourceBlockSha256": "fc5745eb8b713f6afa651d7263513e3c2c0e575245fafbff99216860b5219d6e",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 128,
+      "title": "便",
+      "department": "交通政策課",
+      "start": 132967,
+      "end": 133418,
+      "sourceBlockSha256": "bc7bcd7e231e6148ee90e72703f8033d5bd7f0551068c5ec29a2852af069519c",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 129,
+      "title": "公共用地の取得に関すること",
+      "department": "用地課",
+      "start": 133422,
+      "end": 133585,
+      "sourceBlockSha256": "80013ee3e51cef972db32ca5dbecf419e09a92d37cf8dedb2db965f48a7e1fdc",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "公共用地取得の一般的所掌一覧。個別事業の取得と切り離した年度活動が不明。"
+    },
+    {
+      "index": 130,
+      "title": "地価公示及び地価調査に関すること",
+      "department": "用地課",
+      "start": 133585,
+      "end": 133742,
+      "sourceBlockSha256": "7c6a846187848ba6ece14b7ff4151f2cda4d52ff1c14178a60d237d419662510",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 131,
+      "title": "公有地の拡大の推進に関する法律に係る事務に関すること",
+      "department": "用地課",
+      "start": 133742,
+      "end": 133928,
+      "sourceBlockSha256": "acb86767cbdfeb391322bd96017727742530e5b03162aed27e7246c1e4463ae1",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 132,
+      "title": "土地開発公社に関すること",
+      "department": "用地課",
+      "start": 133928,
+      "end": 134126,
+      "sourceBlockSha256": "095c863fcefb38b60fa0e03117d5ff4c9784d4996d61d3898bc75471f7e1ac6f",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 133,
+      "title": "条、42 条、43 条、44 条、45 条、47 条、施行規則",
+      "department": "都市開発課",
+      "start": 134425,
+      "end": 134601,
+      "sourceBlockSha256": "3b7efbfc7f9950878d891ef417bcb14b818c0c4191cbc49247fe61f915bedf3b",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 134,
+      "title": "大阪府福祉のまちづくり条例による都市施設の事前協議等に関すること",
+      "department": "都市開発課",
+      "start": 135681,
+      "end": 135807,
+      "sourceBlockSha256": "6dd9cff19b100dfa1b8c540f28afc1387baa63f620b13e3ecc1fa01dd8b624de",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 135,
+      "title": "空家の発生の抑制に関すること",
+      "department": "都市開発課",
+      "start": 136028,
+      "end": 136192,
+      "sourceBlockSha256": "f1879ac13d1cc4bc67835854b9f493688094a1d03808f9a60a7b6bace83935db",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 136,
+      "title": "点",
+      "department": "道路河川管理課",
+      "start": 137564,
+      "end": 137658,
+      "sourceBlockSha256": "889c2156531f983945cdb860a38c1d3f053dced75ddeffa4c554de44890e01cd",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 137,
+      "title": "点",
+      "department": "道路河川管理課",
+      "start": 137625,
+      "end": 137658,
+      "sourceBlockSha256": "4ebd7caaf5d5f3b5c166919412c44c27d18927faec7090117ef8896aad171be7",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 138,
+      "title": "点",
+      "department": "道路河川管理課",
+      "start": 137637,
+      "end": 137658,
+      "sourceBlockSha256": "85f3b3ae74e6109dbc949e91c63f06a09bba85dda41c35cd7ea57a7a7293004a",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 139,
+      "title": "公共用地の境界明示に関すること",
+      "department": "道路河川管理課",
+      "start": 137658,
+      "end": 137967,
+      "sourceBlockSha256": "fd56270bb2a635d8f77f54acf0571ccc294838926e85df993d28173f4bf13c0b",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 140,
+      "title": "箇所",
+      "department": "道路河川管理課",
+      "start": 140350,
+      "end": 140365,
+      "sourceBlockSha256": "b78d46cc4e6e3cadf9043b85e3c0766da7718601ac7cc49e26c5100a5d90f4f1",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 141,
+      "title": "管理施設一覧（令和 8 年 3 月 31 日現在）",
+      "department": "みどり公園課",
+      "start": 145430,
+      "end": 151295,
+      "sourceBlockSha256": "80169cef5adf1fe42c11888197a13540993221a02b299d95843b79c6090bac08",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "管理公園等の施設一覧。施設の数を事業数にしない。"
+    },
+    {
+      "index": 142,
+      "title": "か所",
+      "department": "みどり公園課",
+      "start": 151008,
+      "end": 151295,
+      "sourceBlockSha256": "e5aa11c054fc70ffc2fecd5388a5416847dca13a76b495ddb754e3d4d48e7131",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 143,
+      "title": "か所",
+      "department": "みどり公園課",
+      "start": 151014,
+      "end": 151295,
+      "sourceBlockSha256": "447311de187bb9a12965ab95a57454359448980efc9cc35d9a4e30bd4802ef95",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 144,
+      "title": "人槽",
+      "department": "下水工務課",
+      "start": 151614,
+      "end": 151892,
+      "sourceBlockSha256": "5f6beadc6dcfb9a007142fb354b3ee44ee82f45de662e9ab7b0af9c4e9e7366d",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 145,
+      "title": "人槽",
+      "department": "下水工務課",
+      "start": 151702,
+      "end": 151892,
+      "sourceBlockSha256": "a115a3ef2f2b6d18f00b4ffc0829991e97da31934a7c5b9ac4396a136e2e9b80",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 146,
+      "title": "指定金融機関等検査",
+      "department": "会計管理室",
+      "start": 152024,
+      "end": 152372,
+      "sourceBlockSha256": "3e69a00ba6a345917ab525ce9244a00372e25093612e03deaaa7438ac3cce7a0",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 147,
+      "title": "月下旬",
+      "department": "社会教育課",
+      "start": 158808,
+      "end": 159486,
+      "sourceBlockSha256": "44e88381486cf5c0d4b04020fd0e863378902519fb6d9d69a98e29d1d9b0168b",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 148,
+      "title": "時から 21 時まで公園内の桜のライトアップを実施しました。",
+      "department": "社会教育課",
+      "start": 161003,
+      "end": 161037,
+      "sourceBlockSha256": "d4c2140abb5b00869406acf880fc7af72e0f6aa63eaa8f8d33803c3b2688501a",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 149,
+      "title": "組",
+      "department": "社会教育課",
+      "start": 161270,
+      "end": 161345,
+      "sourceBlockSha256": "bb5b4d1a8ade53bac576780e5cdaa938ad0517e24ecb2a2555f7967a4897bcb2",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 150,
+      "title": "組",
+      "department": "社会教育課",
+      "start": 161316,
+      "end": 161345,
+      "sourceBlockSha256": "8c7e4e02c0f686b5f14b4dc937b76d99890ed623c0171c97d07cfa7f0686f877",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 151,
+      "title": "文化財の調査と保存に関すること",
+      "department": "文化財課",
+      "start": 161350,
+      "end": 161562,
+      "sourceBlockSha256": "5f8620796dcbf8780d7652c9d2a6390aacdd1fec80f7570c34a5d9b3c3b4fd90",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 152,
+      "title": "文化財の愛護の推進啓発に関すること",
+      "department": "文化財課",
+      "start": 161829,
+      "end": 163234,
+      "sourceBlockSha256": "1df83fb162b0be9a3f8c73e2ffc08377fac1b84ca05fc53db3fcd03a509b2b2c",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 153,
+      "title": "月を教育月間と定め、各学校園においてそれぞれの行事や取組が実施されました。全体会",
+      "department": "指導課",
+      "start": 178295,
+      "end": 180097,
+      "sourceBlockSha256": "3a1bee259e7b41a238da0aaa99f95a0833e8df48ac57b64e4751b63d6a36b318",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 154,
+      "title": "公民館利用数及び使用料収入の状況",
+      "department": "公民館",
+      "start": 184624,
+      "end": 185700,
+      "sourceBlockSha256": "dc63cdca3d55d3d3de4d000c2b590b6d41aea92e6f5459d2eba0f5ad3b8b78b5",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "部屋別の利用人数・使用料収入集計。公民館事業に重ねて別事業化しない。"
+    },
+    {
+      "index": 155,
+      "title": "歳～",
+      "department": "図書館",
+      "start": 186149,
+      "end": 187228,
+      "sourceBlockSha256": "f686d2ce816302442ed3769e88c12e203d384174334fa1168315432a4261abe3",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "数値・単位・日付・条件文が見出し正規表現に一致したもの。事業名ではなく、包含する既存事業の本文を維持する。"
+    },
+    {
+      "index": 156,
+      "title": "館外サービスに関すること（移動図書館、市立柏原病院文庫）",
+      "department": "図書館",
+      "start": 188700,
+      "end": 189513,
+      "sourceBlockSha256": "dc1a32da82db74eac9b2cbd75358226717f8f68081a5d5ebeffea3a0affb5e5d",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 157,
+      "title": "複写（コピー）サービスに関すること",
+      "department": "図書館",
+      "start": 189513,
+      "end": 189631,
+      "sourceBlockSha256": "492b2303bfe95a45141cce06619a4a348952be49de2dfb24d479b246097dc231",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 158,
+      "title": "情報発信に関すること",
+      "department": "図書館",
+      "start": 189631,
+      "end": 189755,
+      "sourceBlockSha256": "51a2adebfafe2eb7081b2e2aa78ab64784ac0d79002502d71d0458a001dde0e5",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 159,
+      "title": "教育コラボレーション演習に関すること",
+      "department": "図書館",
+      "start": 189949,
+      "end": 190040,
+      "sourceBlockSha256": "798d7cfb8a58f940c6580e29c232d2cd9a6b87ec1842a4b78d144cd10b0f8fb5",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 160,
+      "title": "特集展示に関すること",
+      "department": "図書館",
+      "start": 190040,
+      "end": 190329,
+      "sourceBlockSha256": "03a417ec412a6804ce24ee891ec8e8a5e35ca9bb0b7e84c27cd37e6935b1b6dc",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 161,
+      "title": "選挙管理委員会の状況",
+      "department": "行政委員会",
+      "start": 190707,
+      "end": 190742,
+      "sourceBlockSha256": "055a583499fbb85e139a8cc79c711f27cdfa28d1193f6a127f383bd6d79f3750",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "選挙管理委員会の開催・議案数のみで、個別事業名がない。"
+    },
+    {
+      "index": 162,
+      "title": "選挙人名簿登録者数",
+      "department": "行政委員会",
+      "start": 190742,
+      "end": 190873,
+      "sourceBlockSha256": "b3e8171eac5593705b177ad95988671afb484603d956573ab45a0328e5591fdb",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "選挙人名簿登録人数の集計で事業ではない。"
+    },
+    {
+      "index": 163,
+      "title": "令和 7 年度中に執行された選挙",
+      "department": "行政委員会",
+      "start": 190873,
+      "end": 192136,
+      "sourceBlockSha256": "450865ae8e828e1db07e161ebb13fc0a599855b6b5f2c739ea82f960f25019c2",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "当年度選挙複数の執行・投票率の総括。選挙別独立事業の登録とは区別する。"
+    },
+    {
+      "index": 164,
+      "title": "検察審査員候補者の選定",
+      "department": "行政委員会",
+      "start": 192136,
+      "end": 192510,
+      "sourceBlockSha256": "987c117f218c56956343eb3ba232be97e731dfbedcc1857884da46aeb603541d",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 165,
+      "title": "裁判員候補者の選定",
+      "department": "行政委員会",
+      "start": 192510,
+      "end": 192789,
+      "sourceBlockSha256": "62d315cfaa09a1bd20cd72b922a3274c5ef25142264fe46450c4cb1c038c7130",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 166,
+      "title": "明るい選挙啓発ポスターコンクール",
+      "department": "行政委員会",
+      "start": 192789,
+      "end": 193157,
+      "sourceBlockSha256": "1567baace3145925df1a2ff659debf5858d25930bad5bb272b7f4e4efbd4bc53",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 167,
+      "title": "財務監査",
+      "department": "行政委員会",
+      "start": 193157,
+      "end": 193448,
+      "sourceBlockSha256": "01630817493426163e92dfba719e6730d3edbe9d1502566f9c65da49513684a9",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 168,
+      "title": "例月出納検査",
+      "department": "行政委員会",
+      "start": 193448,
+      "end": 194073,
+      "sourceBlockSha256": "f17694f6683c03cd536a2c214ca4b1786b3960a43587b821fb8302bb6f7ffeb7",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 169,
+      "title": "決算審査及び基金の運用状況審査",
+      "department": "行政委員会",
+      "start": 194073,
+      "end": 194351,
+      "sourceBlockSha256": "2eb6aa2b93bfd7a7f5c041e18c117707ca0399352fb116c0e4078e134c3f7c95",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 170,
+      "title": "審議の概要及び結果",
+      "department": "行政委員会",
+      "start": 194351,
+      "end": 194464,
+      "sourceBlockSha256": "1770558314f7f3c295fc56a92d583a48ed10956a1ccf05b526b9bd023d3452a3",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "公平委員会の議案・議決表。個別事業名・境界がない。"
+    },
+    {
+      "index": 171,
+      "title": "地方公務員法第 53 条の規定による登録団体",
+      "department": "行政委員会",
+      "start": 194464,
+      "end": 194573,
+      "sourceBlockSha256": "91aaf84e6db11ba16b72d53d2a813598938dcf363534da8987e002b72e059a08",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "職員団体登録の届出件数で、公平委員会事務との独立境界がない。"
+    },
+    {
+      "index": 172,
+      "title": "公平委員会への要求等",
+      "department": "行政委員会",
+      "start": 194573,
+      "end": 194717,
+      "sourceBlockSha256": "12966a87a96f0092fbe78ab6db4c21b05a97c41402361bd763e2634f9e174d2e",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "公平委員会への要求件数であり別事業ではない。"
+    },
+    {
+      "index": 173,
+      "title": "固定資産評価審査委員会",
+      "department": "行政委員会",
+      "start": 194717,
+      "end": 194859,
+      "sourceBlockSha256": "9df10169c14fdcb421ccd50ebcff45237a0ad51c165363dfe254ba6c40282756",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "固定資産評価審査委員会の所掌と申出0件。独立事業名を補作しない。"
+    },
+    {
+      "index": 174,
+      "title": "市議会の情報提供について",
+      "department": "議会事務局",
+      "start": 194865,
+      "end": 195118,
+      "sourceBlockSha256": "51ec69c4911250fe0bc06738bc9f3b7c03d8b89f69d9c6f82bf691f0e307b355",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 175,
+      "title": "本会議審議状況",
+      "department": "議会事務局",
+      "start": 195445,
+      "end": 195684,
+      "sourceBlockSha256": "8a706fe95c0e596c35577198de4e6f71e131f379106b07ed747314fc53f52cfa",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "本会議開催日程の一覧。個別事業ではない。"
+    },
+    {
+      "index": 176,
+      "title": "委員会等開催状況",
+      "department": "議会事務局",
+      "start": 195684,
+      "end": 195899,
+      "sourceBlockSha256": "3a9b7d62c891a359c774dcb865839198629c6f2861d5dbfde0b6ca16bc12afb5",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "委員会開催回数・議案件数の一覧。個別事業ではない。"
+    },
+    {
+      "index": 177,
+      "title": "請願、陳情等受付件数",
+      "department": "議会事務局",
+      "start": 195899,
+      "end": 195932,
+      "sourceBlockSha256": "02ff2f5fc42906c646f2c31b58785ef226fe6ea6fa0a97136ab8c4c8a1bf3172",
+      "status": "held_not_independent_or_insufficient_evidence",
+      "reason": "請願陳情の件数集計。個別事業ではない。"
+    },
+    {
+      "index": 178,
+      "title": "常任委員会行政視察",
+      "department": "議会事務局",
+      "start": 195932,
+      "end": 196159,
+      "sourceBlockSha256": "ac67f0f1b7e54a66b1cf608bac1abed517140419edb1b1bd8ac335668204fe28",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    },
+    {
+      "index": 179,
+      "title": "「かしわら市議会だより」の発行",
+      "department": "議会事務局",
+      "start": 196334,
+      "end": 196774,
+      "sourceBlockSha256": "3c3665b65e6835724b488a5657b5e89a25d016ca9ab964fdfc18961755bed71d",
+      "status": "validated_candidate",
+      "reason": "明記された行政サービス・事務の年度実施記述を保持。構成手続・人数・上限額・財源を別事業または実績額にしない。"
+    }
+  ]
+}

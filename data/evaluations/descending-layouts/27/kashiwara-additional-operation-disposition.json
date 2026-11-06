@@ -1,0 +1,1033 @@
+{
+  "proposals": 78,
+  "reviewedHolds": 36,
+  "pending": 0,
+  "rows": [
+    {
+      "department": "企画調整課",
+      "title": "まち・ひと・しごと創生総合戦略推進委員会に関すること",
+      "start": 10040,
+      "end": 10675,
+      "sourceBlockSha256": "9167eb8caeb23000133d48e81a80b62d3b03aa3259824cb0a5c0eb349a351161",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "企画調整課",
+      "title": "指定管理者選定委員会に関すること",
+      "start": 10675,
+      "end": 11733,
+      "sourceBlockSha256": "1e448d1bc323a23a4dc143896a3ebaa486c625376ead11280f37e6f6bc866941",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "企画調整課",
+      "title": "市立柏原病院あり方検討委員会に関すること",
+      "start": 11733,
+      "end": 12104,
+      "sourceBlockSha256": "8421a7a6e35e9a7494336d7d9fc77b09443aee84b09f8746e5b8c592d2c7ad8f",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "企画調整課",
+      "title": "市行政の基本的施策に係る企画及び立案に関すること",
+      "start": 12104,
+      "end": 12340,
+      "sourceBlockSha256": "a2ab8ad1b5ac36933ea1b8e798107aad97d9be62b38472b93a3de17324043f51",
+      "status": "reviewed_hold",
+      "reason": "Broad planning umbrella combines service subscription and conditional future surveys; no independent annual project boundary"
+    },
+    {
+      "department": "企画調整課",
+      "title": "行財政運営の健全化及び効率化に関すること",
+      "start": 15783,
+      "end": 16264,
+      "sourceBlockSha256": "42fd93ede79aa37ac26c780eb0902cbc1080c8929bfc1c4b9fe79d484a90231a",
+      "status": "reviewed_hold",
+      "reason": "Reform-policy and working-group umbrella; do not turn policy itself into business"
+    },
+    {
+      "department": "企画調整課",
+      "title": "庁議の庶務に関すること",
+      "start": 16264,
+      "end": 16383,
+      "sourceBlockSha256": "aa12f61589eb1359f1af26c536bde22a5c4591ba14bf9a7b13acb9ef79a99ecb",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "人事課",
+      "title": "人事及び労務管理",
+      "start": 17071,
+      "end": 18037,
+      "sourceBlockSha256": "b562134fda438a20ce01b3af993c2c33f6c766ed1683775ce449670a804b4eff",
+      "status": "reviewed_hold",
+      "reason": "Personnel establishment statistics and multiple functions; no single independently bounded programme chosen"
+    },
+    {
+      "department": "危機管理課",
+      "title": "危機管理の総括に関すること",
+      "start": 20865,
+      "end": 21360,
+      "sourceBlockSha256": "95a4cfa1f4b73d2bd8e3a51aa0ac6c989134b43e678b549b6afb0c0b5863f18f",
+      "status": "reviewed_hold",
+      "reason": "Crisis-management umbrella mixes committee functions and FY2023 history; current individual activity boundaries need review"
+    },
+    {
+      "department": "危機管理課",
+      "title": "備蓄品の充実等に関すること",
+      "start": 23702,
+      "end": 23887,
+      "sourceBlockSha256": "7a868fef6f7ac5b696e0080fe11d7d9dabae232eb27584ada3005e59989dcb37",
+      "status": "reviewed_hold",
+      "reason": "Prospective supply-preparation description; no explicit FY2025 execution or assessment in bounded section"
+    },
+    {
+      "department": "危機管理課",
+      "title": "災害時における協力体制の構築に関すること",
+      "start": 24041,
+      "end": 27138,
+      "sourceBlockSha256": "075d84546ce68964d5e238bc94f90a32bbd249c6f8d7f2adfde43d4b5010138f",
+      "status": "reviewed_hold",
+      "reason": "Multi-decade agreements table; FY2025 work not yet isolated from historic agreements"
+    },
+    {
+      "department": "危機管理課",
+      "title": "ハザードマップの作成に関すること",
+      "start": 27449,
+      "end": 27581,
+      "sourceBlockSha256": "c1ff5b2b7125091cc325b8458e0715f9396c18056990f9616abc41f955ee1ff8",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "危機管理課",
+      "title": "自主防災組織の整備と訓練の実施に関すること",
+      "start": 27581,
+      "end": 28105,
+      "sourceBlockSha256": "2bb85d98a547fa1e1978b04dbab45631af3d73515f7b3898febd85b3968302fb",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "危機管理課",
+      "title": "各種訓練の実施及び参加に関すること",
+      "start": 28105,
+      "end": 28326,
+      "sourceBlockSha256": "e94ca149f95877daa38f0a4ae2eb9eeeb32beaa60c0e8d9ca89f3f0ce8a2b7b2",
+      "status": "reviewed_hold",
+      "reason": "General list of exercises including already covered local drills; no separate confirmed annual events chosen"
+    },
+    {
+      "department": "危機管理課",
+      "title": "救急安心センター運営業務に関すること",
+      "start": 29147,
+      "end": 29312,
+      "sourceBlockSha256": "34d9eb7312ff76bb703636101106198014d3f28495ee529057b1ce340ccfb356",
+      "status": "reviewed_hold",
+      "reason": "General joint emergency-service description without explicit annual performance in this section"
+    },
+    {
+      "department": "危機管理課",
+      "title": "避難所感染防止に関すること",
+      "start": 29422,
+      "end": 29548,
+      "sourceBlockSha256": "c62dd6d1efe7198255bdcb39faa95a5ebb4dbfaee53d7c52c6f26f48a7d98165",
+      "status": "reviewed_hold",
+      "reason": "Prospective emergency infection-control guidance; no annual implementation evidence"
+    },
+    {
+      "department": "総務課",
+      "title": "法制文書関係",
+      "start": 29552,
+      "end": 29872,
+      "sourceBlockSha256": "45ddf2257eccb7e8421d888acf2814f9683cb0be67e957e5287c38489da7d561",
+      "status": "reviewed_hold",
+      "reason": "Calendar2025 legislative statistics within fiscal2025 book; do not infer fiscal-year totals or a separate project"
+    },
+    {
+      "department": "総務課",
+      "title": "情報公開関係",
+      "start": 29872,
+      "end": 30329,
+      "sourceBlockSha256": "a19a1fe20065524b7ff3c7c5706c9a155cbbd5fa8e8edfabea1dce519870c622",
+      "status": "reviewed_hold",
+      "reason": "General disclosure procedure; remaining detailed annual table requires separate scope check"
+    },
+    {
+      "department": "総務課",
+      "title": "個人情報保護関係",
+      "start": 30329,
+      "end": 30773,
+      "sourceBlockSha256": "1a9f72f846b0684c893caecfcb0affc28d2136ca1c053805c790dcd77acce799",
+      "status": "reviewed_hold",
+      "reason": "Privacy procedure and mixed-year table; remaining annual activity scope requires review"
+    },
+    {
+      "department": "総務課",
+      "title": "庁舎施設管理関係",
+      "start": 30773,
+      "end": 31001,
+      "sourceBlockSha256": "42f78c846a79b5e4ba329fbb812ba1d58b18809fae51a92bf7f5eb1bee870936",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "総務課",
+      "title": "車両の運行及び管理に関すること",
+      "start": 31001,
+      "end": 31446,
+      "sourceBlockSha256": "1e39abde81f069c50d567a2e98dc6af3cfe631557169baa10071940ddf7bc997",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "総務課",
+      "title": "職員の安全運転管理に関すること",
+      "start": 31446,
+      "end": 31733,
+      "sourceBlockSha256": "cf21d6a3e6e717d6236e784f2208614031e38facdce3b87de84b226dbb7fd59c",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "デジタル推進課",
+      "title": "パーソナルコンピュータ及びプリンターの管理及び運用",
+      "start": 32755,
+      "end": 33004,
+      "sourceBlockSha256": "f03a1496a6022f7ce8c0fb6a926461df14ba18490bc0eecd000e8bbe62a4cb6e",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "デジタル推進課",
+      "title": "情報セキュリティに関する対策",
+      "start": 33843,
+      "end": 34540,
+      "sourceBlockSha256": "e3f6989e2e46d1acac32cdd1a8f93926826e5ac48daf247f7767ac048ba4ca8c",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "公有財産マネジメント課",
+      "title": "市有財産管理に関すること",
+      "start": 34728,
+      "end": 34989,
+      "sourceBlockSha256": "a8e422d9bfc4469ade68471dde54b0c46666711eac464218737b38e2d951569d",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "公有財産マネジメント課",
+      "title": "柏原中学校受水槽更新工事（その２）",
+      "start": 35891,
+      "end": 36269,
+      "sourceBlockSha256": "8805fef9c4ccb98d14746a5ee3cfea8131295c9100ee73a78b55641e1d1d2438",
+      "status": "reviewed_hold",
+      "reason": "Contract-table text interleaves unrelated school/health/fire works; title is not a complete independent sheet and component overlap unresolved"
+    },
+    {
+      "department": "納税課",
+      "title": "市税等の滞納処分に関すること。",
+      "start": 49614,
+      "end": 50082,
+      "sourceBlockSha256": "04a95b57fd1d0a95cae14bce2da01cb9daf1368b83ce8efde3de77d903cf0de8",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "環境対策課",
+      "title": "狂犬病予防に関すること",
+      "start": 61831,
+      "end": 62050,
+      "sourceBlockSha256": "271e0a6311685037bbd0e24123c7e48e378e8efe326f77b78ff178b349badd48",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "環境対策課",
+      "title": "空き地・空家に関すること",
+      "start": 62050,
+      "end": 62304,
+      "sourceBlockSha256": "87cde2f0049e71faa44a9d0b247efce473920823ac37e6d5343a2aa0c95c7d14",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "環境対策課",
+      "title": "違法屋外広告物の撤去に関すること",
+      "start": 62304,
+      "end": 62515,
+      "sourceBlockSha256": "6c0e7f2347b6f1ce511e30844083f0a87a3a226e13543244a7c8db11f6a85624",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "環境対策課",
+      "title": "死獣の取り扱いに関すること",
+      "start": 62515,
+      "end": 62649,
+      "sourceBlockSha256": "332c6862884725bcd0da9e7963ba71c8ee4fed4e04c324449eb9c4ff85c3de77",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "環境対策課",
+      "title": "有害生物駆除に関すること",
+      "start": 62649,
+      "end": 62690,
+      "sourceBlockSha256": "19dc2f1e3c51b1e716258981851624ccd4510483716ff509a4cf92b39333b8dd",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "環境対策課",
+      "title": "環境美化推進に関すること",
+      "start": 62690,
+      "end": 62791,
+      "sourceBlockSha256": "cce08e3521abe7f661cd90b693c0d94d93c08217fd496fcab4b91e1aa4a723f0",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "環境対策課",
+      "title": "火葬場施設管理に関すること",
+      "start": 62791,
+      "end": 62987,
+      "sourceBlockSha256": "dccbb635cf1e4b3e425fe214739dbdbd6af491c492939a9e069ef20931e57a27",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "環境対策課",
+      "title": "公衆便所維持管理に関すること",
+      "start": 62987,
+      "end": 63036,
+      "sourceBlockSha256": "6cb4046c349ed71fa4c2a3d97819c77579f42ff98b284d0bd8e1a9788f74e3a2",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "環境対策課",
+      "title": "塵芥処理に関すること",
+      "start": 63036,
+      "end": 63489,
+      "sourceBlockSha256": "43ff139306f5699b201f2ae4e587cae419ae31032df23b78555e12c53e4b31fe",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "環境対策課",
+      "title": "不法投棄対策に関すること",
+      "start": 63489,
+      "end": 63666,
+      "sourceBlockSha256": "fe278de0ae6c1b1099dab302a4f59f9a953c7baf77f9c6a471da0480b2947501",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "環境対策課",
+      "title": "地区清掃汚泥処理に関すること",
+      "start": 63666,
+      "end": 63735,
+      "sourceBlockSha256": "912789f20157f3e41c139c17b5735450a71d3d9685be4ffee49a23de546ae310",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "環境対策課",
+      "title": "柏羽藤環境事業組合に関すること",
+      "start": 64332,
+      "end": 64472,
+      "sourceBlockSha256": "f799baab225c9332b3cdeb659342798d027fd482b02841c94563d03208d51729",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "環境対策課",
+      "title": "廃棄物減量等推進に関すること",
+      "start": 64472,
+      "end": 65282,
+      "sourceBlockSha256": "c6943e0d11ed3962f505ab3b120f7eba9568ad5e452f3730ae1be80225fb3b7d",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "環境対策課",
+      "title": "大気汚染対策に関すること",
+      "start": 65484,
+      "end": 65866,
+      "sourceBlockSha256": "e32cebf4162fe001d258431208ce97951be799ab2b0b2214ac17aaeb07f94396",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "環境対策課",
+      "title": "水質汚濁対策に関すること",
+      "start": 65866,
+      "end": 66879,
+      "sourceBlockSha256": "7c25d965ee8e78ab863c66324b1251a4b30d9379958465bdb9b8c7963748aaa1",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "環境対策課",
+      "title": "騒音振動対策に関すること",
+      "start": 66879,
+      "end": 68146,
+      "sourceBlockSha256": "e95ae24eb8e5db62191fe7ca79f5323c7d8535c922e288654ebb560aa6d02e8f",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "環境対策課",
+      "title": "ダイオキシン対策に関すること",
+      "start": 68146,
+      "end": 68597,
+      "sourceBlockSha256": "b9bb58caa8fe9d87a45c7d73eb235b24fb457a37db24f26d3c34886f7a8facf6",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "環境対策課",
+      "title": "水道等指導監督に関すること",
+      "start": 68597,
+      "end": 68697,
+      "sourceBlockSha256": "7545918704b61191bd492bf89eb073d7d9584014e55c0ab52943d142c2181925",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "産業振興課",
+      "title": "消費生活相談",
+      "start": 72152,
+      "end": 72358,
+      "sourceBlockSha256": "4453fb0986b8c41c992b710bd35df36a48442edd9fde4dbce9da664de6e0f7da",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "産業振興課",
+      "title": "経営所得安定対策",
+      "start": 74434,
+      "end": 74527,
+      "sourceBlockSha256": "eae92e35d49e721890f53cced4d42cc5ea5eefd0c5dc44e158c37b27aa543845",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "地域連携支援課",
+      "title": "非営利公益市民活動の支援に関すること",
+      "start": 81471,
+      "end": 81774,
+      "sourceBlockSha256": "fa1dd50908eaebe73777c08ab6c9a0fc8e3ff5ae11d5b375f9f25276de6dcbce",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "地域連携支援課",
+      "title": "市政への市民の参加及び市民との協働によるまちづくりの推進に関すること",
+      "start": 82196,
+      "end": 82395,
+      "sourceBlockSha256": "04ae760d5b9c1241020175335bf8addd43d529c418c06800411c8c25b8ec8eb6",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "地域連携支援課",
+      "title": "防犯に関すること",
+      "start": 83030,
+      "end": 83155,
+      "sourceBlockSha256": "b7b84bd81ac95f2656880149c2808bbd30a643e2491ecbe866e823895674a119",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "地域連携支援課",
+      "title": "その他自治振興に関すること",
+      "start": 83155,
+      "end": 84174,
+      "sourceBlockSha256": "876d27af09530525225a8e2b0e8ee55f2123d96f6d4554a030e1d302001d5860",
+      "status": "reviewed_hold",
+      "reason": "Miscellaneous community umbrella; named subactivities require separate review rather than counting umbrella"
+    },
+    {
+      "department": "福祉総務課",
+      "title": "社会福祉事務費",
+      "start": 84186,
+      "end": 84288,
+      "sourceBlockSha256": "7769cff4bd9e43beb0244ded78510d7f2fa42455aee8b4bf483e6f4c154cb151",
+      "status": "reviewed_hold",
+      "reason": "Miscellaneous welfare administration cost heading combines grants and survivor allowances; retain without guessed independent identity"
+    },
+    {
+      "department": "福祉総務課",
+      "title": "社会福祉の充実",
+      "start": 84288,
+      "end": 85419,
+      "sourceBlockSha256": "22a5d67c4343c25962236d1e76468e1c0a9059ca62178b2459954174d669010d",
+      "status": "reviewed_hold",
+      "reason": "Policy-level welfare improvement heading; do not count as individual business"
+    },
+    {
+      "department": "福祉総務課",
+      "title": "災害救助費",
+      "start": 87533,
+      "end": 87710,
+      "sourceBlockSha256": "eda3b4d2e42465cb373a576052a6d8ebf3d8e47c6cd8febdc9da32fbf6fa5d2d",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "障害福祉課",
+      "title": "自立支援センターの管理に関すること",
+      "start": 91565,
+      "end": 91636,
+      "sourceBlockSha256": "74c3bda4dd16b2a0768a0f9db3ee3805c37603ec43cf3f5b5a1d323b3042a2bd",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "障害福祉課",
+      "title": "柏原市障害者基幹相談支援センターに関すること",
+      "start": 91907,
+      "end": 92272,
+      "sourceBlockSha256": "82e3f998300c8f10bee799e53200069e55d6fb0ff605568c79d5a108c34092d4",
+      "status": "reviewed_hold",
+      "reason": "General consultation/guardianship duties; overlaps community support service and annual independent identity not resolved"
+    },
+    {
+      "department": "福祉指導監査課",
+      "title": "社会福祉法人の設立の認可及び指導監査等に関すること",
+      "start": 95091,
+      "end": 95282,
+      "sourceBlockSha256": "0627108785d7082a9b53c537b165d7ef5e436358d37fec10f09a13ec7deabea8",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "福祉指導監査課",
+      "title": "児童福祉施設等の設置の認可及び指導監査等に関すること",
+      "start": 95282,
+      "end": 95568,
+      "sourceBlockSha256": "861ad952be62a49931e15a55607597cf971fcbf15ce1168237f6117bd2b8342b",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "福祉指導監査課",
+      "title": "認可外保育施設の設置の届出受理及び指導等に関すること",
+      "start": 95568,
+      "end": 95758,
+      "sourceBlockSha256": "2a836ff3aa2abeb9e810938e2610d34e08b91ddb366008e412cee52ade502a3b",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "福祉指導監査課",
+      "title": "介護保険サービス事業者等の指定、指導及び監査等に関すること",
+      "start": 95758,
+      "end": 96163,
+      "sourceBlockSha256": "64c8a280e247d134f0bcb8ff7daf915a35ae1ba546b219a5a8ccfc1248923a93",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "福祉指導監査課",
+      "title": "介護予防・生活支援サービス（総合事業）の指定に関すること",
+      "start": 96244,
+      "end": 96416,
+      "sourceBlockSha256": "42c43f23affc10b39214ac64fdd00cc691b8c34c89dfddeb4c84452b4459b5ac",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "福祉指導監査課",
+      "title": "障害福祉サービス事業者等の指定、指導及び監査等に関すること",
+      "start": 96444,
+      "end": 96879,
+      "sourceBlockSha256": "42c6eb5fe00015c454d7c03f29d1cfd325782a44cb2eddc86bacc6ca1a69e172",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "福祉指導監査課",
+      "title": "特別養護老人ホームの設置の認可及び指導等に関すること",
+      "start": 96879,
+      "end": 97151,
+      "sourceBlockSha256": "b9a6c0128bc42a6394d10732d4de2ae42ec0f335a06beb92c7ac1856ae2e7210",
+      "status": "reviewed_hold",
+      "reason": "Explicitly undertaken together with already selected care-provider designation; distinct programme identity unresolved"
+    },
+    {
+      "department": "福祉指導監査課",
+      "title": "有料老人ホームの設置の届出受理及び指導等に関すること",
+      "start": 97151,
+      "end": 97311,
+      "sourceBlockSha256": "7439ba78200c65b3e275bddc9e563998773cbac4d8ad32395ab22ea2211c215d",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "福祉指導監査課",
+      "title": "老人福祉センターを経営する事業、放課後児童健全育成事業、隣保事業、老人居宅生活支援事",
+      "start": 97377,
+      "end": 97612,
+      "sourceBlockSha256": "f5a68d0b2d2c310229fb3ef0888d8f972f96997b56c26e83b4bf3bea0564783b",
+      "status": "reviewed_hold",
+      "reason": "Long grouped legal-notification category, overlapping childcare/care-provider designation; do not split listed provider types into programmes"
+    },
+    {
+      "department": "子育て支援課",
+      "title": "母子生活支援施設について",
+      "start": 101319,
+      "end": 101472,
+      "sourceBlockSha256": "d4a4fb8a1930cf7fd3a7972e2ccc2f18d61b3949fdc8cc4e0b71124104810f05",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "こども家庭安心課",
+      "title": "健康福祉センター管理費",
+      "start": 104608,
+      "end": 104685,
+      "sourceBlockSha256": "2b22e0aab76fa41e342ebf827c4c13771f679048a42ff2e7936c5ca603167ef7",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "こども施設課",
+      "title": "保育施設について",
+      "start": 104692,
+      "end": 106990,
+      "sourceBlockSha256": "addd59ceecebc84cd74e5a6d4a8d115164d51dad92f5e09b0557120752681c46",
+      "status": "reviewed_hold",
+      "reason": "Facility overview and aggregate enrolment across public/private childcare; independent operating-project boundaries not identified"
+    },
+    {
+      "department": "保険年金課",
+      "title": "国民健康保険被保険者の資格取得、喪失など諸届に関すること。",
+      "start": 119255,
+      "end": 119602,
+      "sourceBlockSha256": "c7eaf2437b07e026732b6d25152c38ad0a777f4d991d453fac2f165cdb388afb",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "保険年金課",
+      "title": "国民健康保険運営協議会に関すること。",
+      "start": 120944,
+      "end": 121322,
+      "sourceBlockSha256": "5c811091c7ce90bf9b036526a8ff12b400676bd45734fb4fbbd4a75f45a5c875",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "保険年金課",
+      "title": "国民健康保険料の督促及び滞納処分に関すること。",
+      "start": 121994,
+      "end": 122523,
+      "sourceBlockSha256": "80a808f460c21279bce4856e78cc4be206f2c73360820fe64f9c7677af19bd34",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "保険年金課",
+      "title": "大阪府後期高齢者医療広域連合との連絡及び調整に関すること。",
+      "start": 123748,
+      "end": 124820,
+      "sourceBlockSha256": "860241adf882d5482aa2038fdf7f613d4ef649e611738b23733aca97bebdcd66",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "都市政策課",
+      "title": "都市計画の決定に関すること",
+      "start": 125970,
+      "end": 126168,
+      "sourceBlockSha256": "173fee899e80b852c482af55d046822eab34382770bd754a54732c321df56ee7",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "都市政策課",
+      "title": "住宅施策に関すること",
+      "start": 127014,
+      "end": 127188,
+      "sourceBlockSha256": "decdafd4d3c67567f131c7a2f884ffb48eabf42c8aa6c317b47f105bf80bca76",
+      "status": "reviewed_hold",
+      "reason": "Broad housing-policy coordination with multiple procedures; separate annual programme identity not established"
+    },
+    {
+      "department": "都市政策課",
+      "title": "都市計画基礎調査に関すること",
+      "start": 127188,
+      "end": 127294,
+      "sourceBlockSha256": "57f32fb3dec033c74d20a3d572b182c7b9b53ed8d6f2be8aa32ce452e7bf1831",
+      "status": "reviewed_hold",
+      "reason": "General survey everyfive years; no explicit FY2025 execution in bounded section"
+    },
+    {
+      "department": "都市政策課",
+      "title": "まちづくりに関すること",
+      "start": 127294,
+      "end": 127561,
+      "sourceBlockSha256": "739a32e0f1a4a4b70f0f262235a79efc3baaec01fe02c83cd6570db13d06b48d",
+      "status": "reviewed_hold",
+      "reason": "Broad planning of several areas and future infrastructure; not a completed independent annual programme"
+    },
+    {
+      "department": "交通政策課",
+      "title": "通学路の安全対策に関すること",
+      "start": 130956,
+      "end": 131289,
+      "sourceBlockSha256": "c78322c2015824e82320fe85f0bac467ec8bc1c10a4d7bf146789fa6680cfb22",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "都市開発課",
+      "title": "都市計画法による協議及び開発許可に関すること",
+      "start": 134132,
+      "end": 134425,
+      "sourceBlockSha256": "ac4ae93bb21f9871085d9d55a660b1ced50a01f4047bacb8af624ebb5064fc2e",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "都市開発課",
+      "title": "都市計画法による建築等の制限の許可申請に関すること",
+      "start": 134601,
+      "end": 134697,
+      "sourceBlockSha256": "4b22d0fec4b78b6239624137e37259c30b2c66f23dac5aeba9230f595d120799",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "都市開発課",
+      "title": "宅地造成及び特定盛土等規制法による許可等に関すること",
+      "start": 134697,
+      "end": 134959,
+      "sourceBlockSha256": "698bcc7fcbd2b1da1480b1e64c63bf65262ac0c33b009d1bbec8caad6efc14eb",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "都市開発課",
+      "title": "建築基準法による用途地域内の建築許可に関すること",
+      "start": 134959,
+      "end": 135109,
+      "sourceBlockSha256": "208ae5c9dd9177813033401905af9ee3c21af34375f0eefec0bf18236cba5070",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "都市開発課",
+      "title": "建築確認申請に関すること",
+      "start": 135109,
+      "end": 135232,
+      "sourceBlockSha256": "11f2bfa1ef2d7d367e1fcea8d7b470fe395523e697736f481e43ec11ca0f11ac",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "都市開発課",
+      "title": "金剛生駒紀泉国定公園内工作物の許可申請副申に関すること",
+      "start": 135232,
+      "end": 135364,
+      "sourceBlockSha256": "e5e1b368990c9fad46bf69504d283b63a06ce7719470beef3d5ac1fa14d32b20",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "都市開発課",
+      "title": "建築基準法による道路の位置の指定に関すること",
+      "start": 135364,
+      "end": 135575,
+      "sourceBlockSha256": "414af927aa1dca8f53ac4af4127ab37c884b1b90e4840692617de21c1b47fbac",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "都市開発課",
+      "title": "市開発指導要綱に関すること",
+      "start": 135575,
+      "end": 135681,
+      "sourceBlockSha256": "0f1f9661aa42a90d885eac294a66471a4741cc10a794b35890d07e8478131fba",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "都市開発課",
+      "title": "大阪府屋外広告物条例による許可等に関すること",
+      "start": 135807,
+      "end": 136028,
+      "sourceBlockSha256": "d56afd68b20c95bf0a7d5bffb2f93ecbd90e83a775256d728d45f9daae147f65",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "都市開発課",
+      "title": "空家対策に関すること",
+      "start": 136192,
+      "end": 136583,
+      "sourceBlockSha256": "13b57beacc356f38c2c695eec0c568adac5217e2d7e35340376e150cdab5f615",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "都市開発課",
+      "title": "耐震診断、耐震改修、木造住宅除却、ブロック塀等撤去に関すること",
+      "start": 136583,
+      "end": 136851,
+      "sourceBlockSha256": "5f24e20b626d50496573a2f5ba61f9dbac2581e8d60c67594d0c04f53f7618d2",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "道路河川管理課",
+      "title": "占用許可等申請に関すること",
+      "start": 136865,
+      "end": 137564,
+      "sourceBlockSha256": "b1315f01e2449169e818e7a605c902e6dcd7f710129fe83486d5cae3bcb20b6e",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "道路河川管理課",
+      "title": "駅周辺の施設に関すること",
+      "start": 138288,
+      "end": 138691,
+      "sourceBlockSha256": "51bdbd8b00d336568817d609b7105b01662de6e31467ac1a95bad685901c7945",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "道路河川管理課",
+      "title": "橋りょう維持事業",
+      "start": 139908,
+      "end": 140114,
+      "sourceBlockSha256": "c19619ee6cafa9e19142b89c031dfd894f72a21a2f424aa674d57d013be79263",
+      "status": "reviewed_hold",
+      "reason": "Preserve prior same-year bridge-maintenance identity hold across two departments"
+    },
+    {
+      "department": "みどり公園課",
+      "title": "玉手山公園維持管理",
+      "start": 142092,
+      "end": 142875,
+      "sourceBlockSha256": "34058d329908e10aeb22a436d2aa6c7e7988780a91df70b2339865f4ef43f9bc",
+      "status": "reviewed_hold",
+      "reason": "Potential component of accepted citywide park maintenance; distinct project identity/cost boundary unresolved"
+    },
+    {
+      "department": "みどり公園課",
+      "title": "史跡高井田横穴公園維持管理",
+      "start": 142875,
+      "end": 143217,
+      "sourceBlockSha256": "15f37a0cdc9e32b719a240e3655b8f34b7a647d66b8a3dd393a9081c3c85e22b",
+      "status": "reviewed_hold",
+      "reason": "Potential component of accepted citywide park maintenance; distinct project identity/cost boundary unresolved"
+    },
+    {
+      "department": "みどり公園課",
+      "title": "大和川親水公園維持管理",
+      "start": 143217,
+      "end": 143527,
+      "sourceBlockSha256": "60f65251ffb35b2f82c6bc08a60d0313c3bd3d7221dbe7765857628454dd1f56",
+      "status": "reviewed_hold",
+      "reason": "Potential component of accepted citywide park maintenance; distinct project identity/cost boundary unresolved"
+    },
+    {
+      "department": "みどり公園課",
+      "title": "柏原市大和川河川空間利用調整協議会",
+      "start": 143527,
+      "end": 143992,
+      "sourceBlockSha256": "cb2d33b769dbbdb039e661102aeaa148fc538fc76fcd22911ee37720ac7e421a",
+      "status": "reviewed_hold",
+      "reason": "Council description principally established2021/approved2023; no specific FY2025 activity yet established"
+    },
+    {
+      "department": "教育総務課",
+      "title": "教育委員会の運営及び庶務に関すること",
+      "start": 152378,
+      "end": 152792,
+      "sourceBlockSha256": "e7ab388cac1a4f6361297fabf8060f4e0fb984e43cea5697a1e048e8100dcf63",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "教育総務課",
+      "title": "市立学校の運営支援に関すること",
+      "start": 152792,
+      "end": 153170,
+      "sourceBlockSha256": "019041154361ca5663098e9380368c90ba4825cb9aab3a95b3f745eb18cf0726",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "教育総務課",
+      "title": "教材教具及び教育環境の整備に関すること",
+      "start": 153170,
+      "end": 153584,
+      "sourceBlockSha256": "33bd5fd960baaecaaf55cffca335e2988b09f835947bc160f2f8cd5a1587fb6b",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "教育総務課",
+      "title": "市立学校施設の維持管理に関すること",
+      "start": 153584,
+      "end": 153950,
+      "sourceBlockSha256": "cf2d314e4a2da1f46a4d86630f6b282f14b6bb313794eee8556b5029f1851158",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "教育総務課",
+      "title": "市立学校施設の整備及び営繕に関すること",
+      "start": 153950,
+      "end": 154327,
+      "sourceBlockSha256": "b897665c3ab99011f5d35d0ec308165505d9602e4bb2fc9600e80b46ccdb4f3d",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "教育総務課",
+      "title": "施設情報及び関係機関との連絡調整に関すること",
+      "start": 154327,
+      "end": 154729,
+      "sourceBlockSha256": "3c8fbb1b7361ca76edd481b7c198be9c134f5a413f12595d9121c957967f390a",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "社会教育課",
+      "title": "社会教育課事務費",
+      "start": 154735,
+      "end": 154935,
+      "sourceBlockSha256": "1de5a5e96e0f4ddd90976bcaeb6031e349f9fc3a81befefc5bb9bf7fce3ae6aa",
+      "status": "reviewed_hold",
+      "reason": "Department administration umbrella and broad learning-policy objectives; not a separate project from named learning programmes"
+    },
+    {
+      "department": "文化財課",
+      "title": "指定文化財の管理及び指導に関すること",
+      "start": 161562,
+      "end": 161829,
+      "sourceBlockSha256": "6051c1bfb751cad76e06cb41f46fe28ac39b7e019dc2bde49644794c7d861fbb",
+      "status": "reviewed_hold",
+      "reason": "Designation counts show zero newFY2025 designations, other historic preservation activities need explicit independent annual scope"
+    },
+    {
+      "department": "文化財課",
+      "title": "歴史資料館に関すること",
+      "start": 163234,
+      "end": 168651,
+      "sourceBlockSha256": "be6b7bc7d6e98d1efe46b278a546687d62eb1abe93e3b99dc0fb98003a33ee33",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "学務課",
+      "title": "教育委員会事務局",
+      "start": 171920,
+      "end": 173193,
+      "sourceBlockSha256": "37f26b3c2d3351d6ec9fa6987bbb8f13800b30f8d6253087a95ef0f6a79ccfe8",
+      "status": "reviewed_hold",
+      "reason": "Education-secretariat organisation overview, not a separately named programme"
+    },
+    {
+      "department": "指導課",
+      "title": "教育指導運営費",
+      "start": 176681,
+      "end": 178295,
+      "sourceBlockSha256": "2711fa06b50e94a7d05cda43eeca0a032d43e58c616789975c936a3ce17d8d5f",
+      "status": "reviewed_hold",
+      "reason": "Broad school-policy objectives and guidance umbrella; do not count policy as a project"
+    },
+    {
+      "department": "公民館",
+      "title": "事務概要",
+      "start": 180848,
+      "end": 184624,
+      "sourceBlockSha256": "89e65cf4338ad4e37715adedabcd27a7ccf7dc6f0b0312ed758ea931bca9f358",
+      "status": "reviewed_hold",
+      "reason": "Generic public-hall office overview lacks a literal independent project title; constituent programmes need separate attribution"
+    },
+    {
+      "department": "図書館",
+      "title": "一般利用者サービスに関すること",
+      "start": 185704,
+      "end": 186149,
+      "sourceBlockSha256": "163a9a57e3b722a80ee44e44f66ca21ac324673054fb5fb3d17a1feacc8e4a96",
+      "status": "reviewed_hold",
+      "reason": "General library use aggregates overlap selected target-specific library services; no additional aggregate project"
+    },
+    {
+      "department": "図書館",
+      "title": "児童サービスに関すること",
+      "start": 187228,
+      "end": 188030,
+      "sourceBlockSha256": "004128a67739513a916d34913b1e29a5558efc0660d2e27392a007a25fe2ff85",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "図書館",
+      "title": "障がい者・高齢者サービスに関すること",
+      "start": 188030,
+      "end": 188254,
+      "sourceBlockSha256": "fd90e52b15e08442549fce941f62ed616f753053c04539e4937db4e45b83952d",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "図書館",
+      "title": "電子書籍サービスに関すること",
+      "start": 188254,
+      "end": 188700,
+      "sourceBlockSha256": "20ec1b38928ad830bb0cd4d5e94867ad5845b504ebb06003e724220223d25e80",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "図書館",
+      "title": "雑誌スポンサー制度に関すること",
+      "start": 189755,
+      "end": 189847,
+      "sourceBlockSha256": "abffb5ebad9792e4eff2f237075cb88f54d393bdf4dbf58bce6a46da1d5a1e16",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "図書館",
+      "title": "図書館施設の利用に関すること",
+      "start": 189847,
+      "end": 189949,
+      "sourceBlockSha256": "e29751be429c0943d36658c82aef9bb6b376cfa811d204951af0d5f2cfe728ff",
+      "status": "validated_candidate",
+      "reason": "Named annual municipal administrative/service activity with explicit bounded body; no numerical fields inferred"
+    },
+    {
+      "department": "図書館",
+      "title": "年中行事に関すること",
+      "start": 190329,
+      "end": 190687,
+      "sourceBlockSha256": "3a1538ab09d4a5914e9dce6688affb50055c3a383fd68a9a18f35d53086e8da1",
+      "status": "reviewed_hold",
+      "reason": "Annual-event aggregate overlaps selected child/library services; no additional independent event programme identity"
+    },
+    {
+      "department": "議会事務局",
+      "title": "行政視察の受入れ状況",
+      "start": 196159,
+      "end": 196334,
+      "sourceBlockSha256": "e3d0d9d4bc67ba59f25e37c08f969a2af3cb077a7112cbc54e7eed4cadc09ed7",
+      "status": "reviewed_hold",
+      "reason": "Receptions table of visiting councils; do not turn two visitor rows into separate projects"
+    }
+  ]
+}

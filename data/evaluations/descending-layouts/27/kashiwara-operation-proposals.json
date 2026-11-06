@@ -1,0 +1,553 @@
+{
+  "status": "validated_candidate",
+  "proposals": 78,
+  "previous121Unchanged": true,
+  "rows": [
+    {
+      "name": "まち・ひと・しごと創生総合戦略推進委員会に関すること",
+      "department": "企画調整課",
+      "start": 10040,
+      "end": 10675,
+      "sourceBlockSha256": "9167eb8caeb23000133d48e81a80b62d3b03aa3259824cb0a5c0eb349a351161"
+    },
+    {
+      "name": "指定管理者選定委員会に関すること",
+      "department": "企画調整課",
+      "start": 10675,
+      "end": 11733,
+      "sourceBlockSha256": "1e448d1bc323a23a4dc143896a3ebaa486c625376ead11280f37e6f6bc866941"
+    },
+    {
+      "name": "市立柏原病院あり方検討委員会に関すること",
+      "department": "企画調整課",
+      "start": 11733,
+      "end": 12104,
+      "sourceBlockSha256": "8421a7a6e35e9a7494336d7d9fc77b09443aee84b09f8746e5b8c592d2c7ad8f"
+    },
+    {
+      "name": "庁議の庶務に関すること",
+      "department": "企画調整課",
+      "start": 16264,
+      "end": 16383,
+      "sourceBlockSha256": "aa12f61589eb1359f1af26c536bde22a5c4591ba14bf9a7b13acb9ef79a99ecb"
+    },
+    {
+      "name": "ハザードマップの作成に関すること",
+      "department": "危機管理課",
+      "start": 27449,
+      "end": 27581,
+      "sourceBlockSha256": "c1ff5b2b7125091cc325b8458e0715f9396c18056990f9616abc41f955ee1ff8"
+    },
+    {
+      "name": "自主防災組織の整備と訓練の実施に関すること",
+      "department": "危機管理課",
+      "start": 27581,
+      "end": 28105,
+      "sourceBlockSha256": "2bb85d98a547fa1e1978b04dbab45631af3d73515f7b3898febd85b3968302fb"
+    },
+    {
+      "name": "庁舎施設管理関係",
+      "department": "総務課",
+      "start": 30773,
+      "end": 31001,
+      "sourceBlockSha256": "42f78c846a79b5e4ba329fbb812ba1d58b18809fae51a92bf7f5eb1bee870936"
+    },
+    {
+      "name": "車両の運行及び管理に関すること",
+      "department": "総務課",
+      "start": 31001,
+      "end": 31446,
+      "sourceBlockSha256": "1e39abde81f069c50d567a2e98dc6af3cfe631557169baa10071940ddf7bc997"
+    },
+    {
+      "name": "職員の安全運転管理に関すること",
+      "department": "総務課",
+      "start": 31446,
+      "end": 31733,
+      "sourceBlockSha256": "cf21d6a3e6e717d6236e784f2208614031e38facdce3b87de84b226dbb7fd59c"
+    },
+    {
+      "name": "パーソナルコンピュータ及びプリンターの管理及び運用",
+      "department": "デジタル推進課",
+      "start": 32755,
+      "end": 33004,
+      "sourceBlockSha256": "f03a1496a6022f7ce8c0fb6a926461df14ba18490bc0eecd000e8bbe62a4cb6e"
+    },
+    {
+      "name": "情報セキュリティに関する対策",
+      "department": "デジタル推進課",
+      "start": 33843,
+      "end": 34540,
+      "sourceBlockSha256": "e3f6989e2e46d1acac32cdd1a8f93926826e5ac48daf247f7767ac048ba4ca8c"
+    },
+    {
+      "name": "市有財産管理に関すること",
+      "department": "公有財産マネジメント課",
+      "start": 34728,
+      "end": 34989,
+      "sourceBlockSha256": "a8e422d9bfc4469ade68471dde54b0c46666711eac464218737b38e2d951569d"
+    },
+    {
+      "name": "市税等の滞納処分に関すること。",
+      "department": "納税課",
+      "start": 49614,
+      "end": 50082,
+      "sourceBlockSha256": "04a95b57fd1d0a95cae14bce2da01cb9daf1368b83ce8efde3de77d903cf0de8"
+    },
+    {
+      "name": "狂犬病予防に関すること",
+      "department": "環境対策課",
+      "start": 61831,
+      "end": 62050,
+      "sourceBlockSha256": "271e0a6311685037bbd0e24123c7e48e378e8efe326f77b78ff178b349badd48"
+    },
+    {
+      "name": "空き地・空家に関すること",
+      "department": "環境対策課",
+      "start": 62050,
+      "end": 62304,
+      "sourceBlockSha256": "87cde2f0049e71faa44a9d0b247efce473920823ac37e6d5343a2aa0c95c7d14"
+    },
+    {
+      "name": "違法屋外広告物の撤去に関すること",
+      "department": "環境対策課",
+      "start": 62304,
+      "end": 62515,
+      "sourceBlockSha256": "6c0e7f2347b6f1ce511e30844083f0a87a3a226e13543244a7c8db11f6a85624"
+    },
+    {
+      "name": "死獣の取り扱いに関すること",
+      "department": "環境対策課",
+      "start": 62515,
+      "end": 62649,
+      "sourceBlockSha256": "332c6862884725bcd0da9e7963ba71c8ee4fed4e04c324449eb9c4ff85c3de77"
+    },
+    {
+      "name": "有害生物駆除に関すること",
+      "department": "環境対策課",
+      "start": 62649,
+      "end": 62690,
+      "sourceBlockSha256": "19dc2f1e3c51b1e716258981851624ccd4510483716ff509a4cf92b39333b8dd"
+    },
+    {
+      "name": "環境美化推進に関すること",
+      "department": "環境対策課",
+      "start": 62690,
+      "end": 62791,
+      "sourceBlockSha256": "cce08e3521abe7f661cd90b693c0d94d93c08217fd496fcab4b91e1aa4a723f0"
+    },
+    {
+      "name": "火葬場施設管理に関すること",
+      "department": "環境対策課",
+      "start": 62791,
+      "end": 62987,
+      "sourceBlockSha256": "dccbb635cf1e4b3e425fe214739dbdbd6af491c492939a9e069ef20931e57a27"
+    },
+    {
+      "name": "公衆便所維持管理に関すること",
+      "department": "環境対策課",
+      "start": 62987,
+      "end": 63036,
+      "sourceBlockSha256": "6cb4046c349ed71fa4c2a3d97819c77579f42ff98b284d0bd8e1a9788f74e3a2"
+    },
+    {
+      "name": "塵芥処理に関すること",
+      "department": "環境対策課",
+      "start": 63036,
+      "end": 63489,
+      "sourceBlockSha256": "43ff139306f5699b201f2ae4e587cae419ae31032df23b78555e12c53e4b31fe"
+    },
+    {
+      "name": "不法投棄対策に関すること",
+      "department": "環境対策課",
+      "start": 63489,
+      "end": 63666,
+      "sourceBlockSha256": "fe278de0ae6c1b1099dab302a4f59f9a953c7baf77f9c6a471da0480b2947501"
+    },
+    {
+      "name": "地区清掃汚泥処理に関すること",
+      "department": "環境対策課",
+      "start": 63666,
+      "end": 63735,
+      "sourceBlockSha256": "912789f20157f3e41c139c17b5735450a71d3d9685be4ffee49a23de546ae310"
+    },
+    {
+      "name": "柏羽藤環境事業組合に関すること",
+      "department": "環境対策課",
+      "start": 64332,
+      "end": 64472,
+      "sourceBlockSha256": "f799baab225c9332b3cdeb659342798d027fd482b02841c94563d03208d51729"
+    },
+    {
+      "name": "廃棄物減量等推進に関すること",
+      "department": "環境対策課",
+      "start": 64472,
+      "end": 65282,
+      "sourceBlockSha256": "c6943e0d11ed3962f505ab3b120f7eba9568ad5e452f3730ae1be80225fb3b7d"
+    },
+    {
+      "name": "大気汚染対策に関すること",
+      "department": "環境対策課",
+      "start": 65484,
+      "end": 65866,
+      "sourceBlockSha256": "e32cebf4162fe001d258431208ce97951be799ab2b0b2214ac17aaeb07f94396"
+    },
+    {
+      "name": "水質汚濁対策に関すること",
+      "department": "環境対策課",
+      "start": 65866,
+      "end": 66879,
+      "sourceBlockSha256": "7c25d965ee8e78ab863c66324b1251a4b30d9379958465bdb9b8c7963748aaa1"
+    },
+    {
+      "name": "騒音振動対策に関すること",
+      "department": "環境対策課",
+      "start": 66879,
+      "end": 68146,
+      "sourceBlockSha256": "e95ae24eb8e5db62191fe7ca79f5323c7d8535c922e288654ebb560aa6d02e8f"
+    },
+    {
+      "name": "ダイオキシン対策に関すること",
+      "department": "環境対策課",
+      "start": 68146,
+      "end": 68597,
+      "sourceBlockSha256": "b9bb58caa8fe9d87a45c7d73eb235b24fb457a37db24f26d3c34886f7a8facf6"
+    },
+    {
+      "name": "水道等指導監督に関すること",
+      "department": "環境対策課",
+      "start": 68597,
+      "end": 68697,
+      "sourceBlockSha256": "7545918704b61191bd492bf89eb073d7d9584014e55c0ab52943d142c2181925"
+    },
+    {
+      "name": "消費生活相談",
+      "department": "産業振興課",
+      "start": 72152,
+      "end": 72358,
+      "sourceBlockSha256": "4453fb0986b8c41c992b710bd35df36a48442edd9fde4dbce9da664de6e0f7da"
+    },
+    {
+      "name": "経営所得安定対策",
+      "department": "産業振興課",
+      "start": 74434,
+      "end": 74527,
+      "sourceBlockSha256": "eae92e35d49e721890f53cced4d42cc5ea5eefd0c5dc44e158c37b27aa543845"
+    },
+    {
+      "name": "非営利公益市民活動の支援に関すること",
+      "department": "地域連携支援課",
+      "start": 81471,
+      "end": 81774,
+      "sourceBlockSha256": "fa1dd50908eaebe73777c08ab6c9a0fc8e3ff5ae11d5b375f9f25276de6dcbce"
+    },
+    {
+      "name": "市政への市民の参加及び市民との協働によるまちづくりの推進に関すること",
+      "department": "地域連携支援課",
+      "start": 82196,
+      "end": 82395,
+      "sourceBlockSha256": "04ae760d5b9c1241020175335bf8addd43d529c418c06800411c8c25b8ec8eb6"
+    },
+    {
+      "name": "防犯に関すること",
+      "department": "地域連携支援課",
+      "start": 83030,
+      "end": 83155,
+      "sourceBlockSha256": "b7b84bd81ac95f2656880149c2808bbd30a643e2491ecbe866e823895674a119"
+    },
+    {
+      "name": "災害救助費",
+      "department": "福祉総務課",
+      "start": 87533,
+      "end": 87710,
+      "sourceBlockSha256": "eda3b4d2e42465cb373a576052a6d8ebf3d8e47c6cd8febdc9da32fbf6fa5d2d"
+    },
+    {
+      "name": "自立支援センターの管理に関すること",
+      "department": "障害福祉課",
+      "start": 91565,
+      "end": 91636,
+      "sourceBlockSha256": "74c3bda4dd16b2a0768a0f9db3ee3805c37603ec43cf3f5b5a1d323b3042a2bd"
+    },
+    {
+      "name": "社会福祉法人の設立の認可及び指導監査等に関すること",
+      "department": "福祉指導監査課",
+      "start": 95091,
+      "end": 95282,
+      "sourceBlockSha256": "0627108785d7082a9b53c537b165d7ef5e436358d37fec10f09a13ec7deabea8"
+    },
+    {
+      "name": "児童福祉施設等の設置の認可及び指導監査等に関すること",
+      "department": "福祉指導監査課",
+      "start": 95282,
+      "end": 95568,
+      "sourceBlockSha256": "861ad952be62a49931e15a55607597cf971fcbf15ce1168237f6117bd2b8342b"
+    },
+    {
+      "name": "認可外保育施設の設置の届出受理及び指導等に関すること",
+      "department": "福祉指導監査課",
+      "start": 95568,
+      "end": 95758,
+      "sourceBlockSha256": "2a836ff3aa2abeb9e810938e2610d34e08b91ddb366008e412cee52ade502a3b"
+    },
+    {
+      "name": "介護保険サービス事業者等の指定、指導及び監査等に関すること",
+      "department": "福祉指導監査課",
+      "start": 95758,
+      "end": 96244,
+      "sourceBlockSha256": "af81eb9476d4938cea0d0ee9ffb953fbbeed0ea8d36f801411c83fa666a7a9ad"
+    },
+    {
+      "name": "介護予防・生活支援サービス（総合事業）の指定に関すること",
+      "department": "福祉指導監査課",
+      "start": 96244,
+      "end": 96444,
+      "sourceBlockSha256": "439fb97c41aafd2c475b20ce86fc675d991d8f0eb6bf91a215ccfd1fa4c6817f"
+    },
+    {
+      "name": "障害福祉サービス事業者等の指定、指導及び監査等に関すること",
+      "department": "福祉指導監査課",
+      "start": 96444,
+      "end": 96879,
+      "sourceBlockSha256": "42c6eb5fe00015c454d7c03f29d1cfd325782a44cb2eddc86bacc6ca1a69e172"
+    },
+    {
+      "name": "有料老人ホームの設置の届出受理及び指導等に関すること",
+      "department": "福祉指導監査課",
+      "start": 97151,
+      "end": 97377,
+      "sourceBlockSha256": "ca0ff832950d2fa177b7999aee0ff240110ab10dbaeb76d13150446ee4151638"
+    },
+    {
+      "name": "母子生活支援施設について",
+      "department": "子育て支援課",
+      "start": 101319,
+      "end": 101472,
+      "sourceBlockSha256": "d4a4fb8a1930cf7fd3a7972e2ccc2f18d61b3949fdc8cc4e0b71124104810f05"
+    },
+    {
+      "name": "健康福祉センター管理費",
+      "department": "こども家庭安心課",
+      "start": 104608,
+      "end": 104685,
+      "sourceBlockSha256": "2b22e0aab76fa41e342ebf827c4c13771f679048a42ff2e7936c5ca603167ef7"
+    },
+    {
+      "name": "国民健康保険被保険者の資格取得、喪失など諸届に関すること。",
+      "department": "保険年金課",
+      "start": 119255,
+      "end": 119602,
+      "sourceBlockSha256": "c7eaf2437b07e026732b6d25152c38ad0a777f4d991d453fac2f165cdb388afb"
+    },
+    {
+      "name": "国民健康保険運営協議会に関すること。",
+      "department": "保険年金課",
+      "start": 120944,
+      "end": 121322,
+      "sourceBlockSha256": "5c811091c7ce90bf9b036526a8ff12b400676bd45734fb4fbbd4a75f45a5c875"
+    },
+    {
+      "name": "国民健康保険料の督促及び滞納処分に関すること。",
+      "department": "保険年金課",
+      "start": 121994,
+      "end": 122523,
+      "sourceBlockSha256": "80a808f460c21279bce4856e78cc4be206f2c73360820fe64f9c7677af19bd34"
+    },
+    {
+      "name": "大阪府後期高齢者医療広域連合との連絡及び調整に関すること。",
+      "department": "保険年金課",
+      "start": 123748,
+      "end": 124820,
+      "sourceBlockSha256": "860241adf882d5482aa2038fdf7f613d4ef649e611738b23733aca97bebdcd66"
+    },
+    {
+      "name": "都市計画の決定に関すること",
+      "department": "都市政策課",
+      "start": 125970,
+      "end": 126168,
+      "sourceBlockSha256": "173fee899e80b852c482af55d046822eab34382770bd754a54732c321df56ee7"
+    },
+    {
+      "name": "通学路の安全対策に関すること",
+      "department": "交通政策課",
+      "start": 130956,
+      "end": 131289,
+      "sourceBlockSha256": "c78322c2015824e82320fe85f0bac467ec8bc1c10a4d7bf146789fa6680cfb22"
+    },
+    {
+      "name": "都市計画法による協議及び開発許可に関すること",
+      "department": "都市開発課",
+      "start": 134132,
+      "end": 134601,
+      "sourceBlockSha256": "d18b927102c4f4496a7abc2996f4c09b66cf959969d4077d8c9446afff5bb087"
+    },
+    {
+      "name": "都市計画法による建築等の制限の許可申請に関すること",
+      "department": "都市開発課",
+      "start": 134601,
+      "end": 134697,
+      "sourceBlockSha256": "4b22d0fec4b78b6239624137e37259c30b2c66f23dac5aeba9230f595d120799"
+    },
+    {
+      "name": "宅地造成及び特定盛土等規制法による許可等に関すること",
+      "department": "都市開発課",
+      "start": 134697,
+      "end": 134959,
+      "sourceBlockSha256": "698bcc7fcbd2b1da1480b1e64c63bf65262ac0c33b009d1bbec8caad6efc14eb"
+    },
+    {
+      "name": "建築基準法による用途地域内の建築許可に関すること",
+      "department": "都市開発課",
+      "start": 134959,
+      "end": 135109,
+      "sourceBlockSha256": "208ae5c9dd9177813033401905af9ee3c21af34375f0eefec0bf18236cba5070"
+    },
+    {
+      "name": "建築確認申請に関すること",
+      "department": "都市開発課",
+      "start": 135109,
+      "end": 135232,
+      "sourceBlockSha256": "11f2bfa1ef2d7d367e1fcea8d7b470fe395523e697736f481e43ec11ca0f11ac"
+    },
+    {
+      "name": "金剛生駒紀泉国定公園内工作物の許可申請副申に関すること",
+      "department": "都市開発課",
+      "start": 135232,
+      "end": 135364,
+      "sourceBlockSha256": "e5e1b368990c9fad46bf69504d283b63a06ce7719470beef3d5ac1fa14d32b20"
+    },
+    {
+      "name": "建築基準法による道路の位置の指定に関すること",
+      "department": "都市開発課",
+      "start": 135364,
+      "end": 135575,
+      "sourceBlockSha256": "414af927aa1dca8f53ac4af4127ab37c884b1b90e4840692617de21c1b47fbac"
+    },
+    {
+      "name": "市開発指導要綱に関すること",
+      "department": "都市開発課",
+      "start": 135575,
+      "end": 135681,
+      "sourceBlockSha256": "0f1f9661aa42a90d885eac294a66471a4741cc10a794b35890d07e8478131fba"
+    },
+    {
+      "name": "大阪府屋外広告物条例による許可等に関すること",
+      "department": "都市開発課",
+      "start": 135807,
+      "end": 136028,
+      "sourceBlockSha256": "d56afd68b20c95bf0a7d5bffb2f93ecbd90e83a775256d728d45f9daae147f65"
+    },
+    {
+      "name": "空家対策に関すること",
+      "department": "都市開発課",
+      "start": 136192,
+      "end": 136583,
+      "sourceBlockSha256": "13b57beacc356f38c2c695eec0c568adac5217e2d7e35340376e150cdab5f615"
+    },
+    {
+      "name": "耐震診断、耐震改修、木造住宅除却、ブロック塀等撤去に関すること",
+      "department": "都市開発課",
+      "start": 136583,
+      "end": 136851,
+      "sourceBlockSha256": "5f24e20b626d50496573a2f5ba61f9dbac2581e8d60c67594d0c04f53f7618d2"
+    },
+    {
+      "name": "占用許可等申請に関すること",
+      "department": "道路河川管理課",
+      "start": 136865,
+      "end": 137658,
+      "sourceBlockSha256": "b879e5c79359856436c3b6be3d5864a536a256bca01e065be36a4c95dabca48a"
+    },
+    {
+      "name": "駅周辺の施設に関すること",
+      "department": "道路河川管理課",
+      "start": 138288,
+      "end": 138691,
+      "sourceBlockSha256": "51bdbd8b00d336568817d609b7105b01662de6e31467ac1a95bad685901c7945"
+    },
+    {
+      "name": "教育委員会の運営及び庶務に関すること",
+      "department": "教育総務課",
+      "start": 152378,
+      "end": 152792,
+      "sourceBlockSha256": "e7ab388cac1a4f6361297fabf8060f4e0fb984e43cea5697a1e048e8100dcf63"
+    },
+    {
+      "name": "市立学校の運営支援に関すること",
+      "department": "教育総務課",
+      "start": 152792,
+      "end": 153170,
+      "sourceBlockSha256": "019041154361ca5663098e9380368c90ba4825cb9aab3a95b3f745eb18cf0726"
+    },
+    {
+      "name": "教材教具及び教育環境の整備に関すること",
+      "department": "教育総務課",
+      "start": 153170,
+      "end": 153584,
+      "sourceBlockSha256": "33bd5fd960baaecaaf55cffca335e2988b09f835947bc160f2f8cd5a1587fb6b"
+    },
+    {
+      "name": "市立学校施設の維持管理に関すること",
+      "department": "教育総務課",
+      "start": 153584,
+      "end": 153950,
+      "sourceBlockSha256": "cf2d314e4a2da1f46a4d86630f6b282f14b6bb313794eee8556b5029f1851158"
+    },
+    {
+      "name": "市立学校施設の整備及び営繕に関すること",
+      "department": "教育総務課",
+      "start": 153950,
+      "end": 154327,
+      "sourceBlockSha256": "b897665c3ab99011f5d35d0ec308165505d9602e4bb2fc9600e80b46ccdb4f3d"
+    },
+    {
+      "name": "施設情報及び関係機関との連絡調整に関すること",
+      "department": "教育総務課",
+      "start": 154327,
+      "end": 154729,
+      "sourceBlockSha256": "3c8fbb1b7361ca76edd481b7c198be9c134f5a413f12595d9121c957967f390a"
+    },
+    {
+      "name": "歴史資料館に関すること",
+      "department": "文化財課",
+      "start": 163234,
+      "end": 168651,
+      "sourceBlockSha256": "be6b7bc7d6e98d1efe46b278a546687d62eb1abe93e3b99dc0fb98003a33ee33"
+    },
+    {
+      "name": "児童サービスに関すること",
+      "department": "図書館",
+      "start": 187228,
+      "end": 188030,
+      "sourceBlockSha256": "004128a67739513a916d34913b1e29a5558efc0660d2e27392a007a25fe2ff85"
+    },
+    {
+      "name": "障がい者・高齢者サービスに関すること",
+      "department": "図書館",
+      "start": 188030,
+      "end": 188254,
+      "sourceBlockSha256": "fd90e52b15e08442549fce941f62ed616f753053c04539e4937db4e45b83952d"
+    },
+    {
+      "name": "電子書籍サービスに関すること",
+      "department": "図書館",
+      "start": 188254,
+      "end": 188700,
+      "sourceBlockSha256": "20ec1b38928ad830bb0cd4d5e94867ad5845b504ebb06003e724220223d25e80"
+    },
+    {
+      "name": "雑誌スポンサー制度に関すること",
+      "department": "図書館",
+      "start": 189755,
+      "end": 189847,
+      "sourceBlockSha256": "abffb5ebad9792e4eff2f237075cb88f54d393bdf4dbf58bce6a46da1d5a1e16"
+    },
+    {
+      "name": "図書館施設の利用に関すること",
+      "department": "図書館",
+      "start": 189847,
+      "end": 189949,
+      "sourceBlockSha256": "e29751be429c0943d36658c82aef9bb6b376cfa811d204951af0d5f2cfe728ff"
+    }
+  ]
+}
