@@ -1,0 +1,3235 @@
+[
+  {
+    "code": "11102",
+    "name": "東雲診療所診療業務",
+    "status": "proposal_unvalidated",
+    "start": 1942
+  },
+  {
+    "code": "11103",
+    "name": "後川診療所診療業務",
+    "status": "proposal_unvalidated",
+    "start": 2012
+  },
+  {
+    "code": "11104",
+    "name": "草山診療所診療業務",
+    "status": "proposal_unvalidated",
+    "start": 2076
+  },
+  {
+    "code": "11101",
+    "name": "地域医療検討事務",
+    "status": "proposal_unvalidated",
+    "start": 2212
+  },
+  {
+    "code": "11106",
+    "name": "東雲施設空調設備改修事業",
+    "status": "proposal_unvalidated",
+    "start": 2256
+  },
+  {
+    "code": "11107",
+    "name": "東雲施設屋根改修工事",
+    "status": "proposal_unvalidated",
+    "start": 2303
+  },
+  {
+    "code": "11113",
+    "name": "保健事業担当者研修・保健師研修・栄養士研修・予防接種従事者研修等事業",
+    "status": "proposal_unvalidated",
+    "start": 2585
+  },
+  {
+    "code": "11114",
+    "name": "救急医療対策補助金",
+    "status": "proposal_unvalidated",
+    "start": 2661
+  },
+  {
+    "code": "11115",
+    "name": "兵庫医科大学医師確保対策費補助金",
+    "status": "proposal_unvalidated",
+    "start": 2719
+  },
+  {
+    "code": "11108",
+    "name": "今田診療所診療業務",
+    "status": "proposal_unvalidated",
+    "start": 2797
+  },
+  {
+    "code": "11109",
+    "name": "献血事業",
+    "status": "proposal_unvalidated",
+    "start": 2814
+  },
+  {
+    "code": "11202",
+    "name": "８０２０運動事業",
+    "status": "proposal_unvalidated",
+    "start": 4803
+  },
+  {
+    "code": "11201",
+    "name": "広報啓発パンフ作成事業",
+    "status": "proposal_unvalidated",
+    "start": 4926
+  },
+  {
+    "code": "11204",
+    "name": "健診等受診補助事業",
+    "status": "proposal_unvalidated",
+    "start": 4954
+  },
+  {
+    "code": "11206",
+    "name": "健康増進事業総括事務",
+    "status": "proposal_unvalidated",
+    "start": 5075
+  },
+  {
+    "code": "11210",
+    "name": "訪問指導業務",
+    "status": "proposal_unvalidated",
+    "start": 5291
+  },
+  {
+    "code": "11208",
+    "name": "健診・がん検診事業",
+    "status": "proposal_unvalidated",
+    "start": 5330
+  },
+  {
+    "code": "11214",
+    "name": "関係機関連絡事務・会議",
+    "status": "proposal_unvalidated",
+    "start": 5616
+  },
+  {
+    "code": "11215",
+    "name": "医療費通知事業",
+    "status": "proposal_unvalidated",
+    "start": 5635
+  },
+  {
+    "code": "12105",
+    "name": "西紀老人福祉ｾﾝﾀｰ管理",
+    "status": "proposal_unvalidated",
+    "start": 10261
+  },
+  {
+    "code": "12117",
+    "name": "高齢者相談業務等",
+    "status": "proposal_unvalidated",
+    "start": 10904
+  },
+  {
+    "code": "12101",
+    "name": "社会福祉協議会助成事業",
+    "status": "proposal_unvalidated",
+    "start": 11246
+  },
+  {
+    "code": "12102",
+    "name": "集落等福祉活動補助事業",
+    "status": "proposal_unvalidated",
+    "start": 11277
+  },
+  {
+    "code": "12103",
+    "name": "市民生児童委員協議会活動補助事業",
+    "status": "proposal_unvalidated",
+    "start": 11297
+  },
+  {
+    "code": "12104",
+    "name": "高齢者就業機会確保事業",
+    "status": "proposal_unvalidated",
+    "start": 11322
+  },
+  {
+    "code": "12111",
+    "name": "緊急通報体制整備事業",
+    "status": "proposal_unvalidated",
+    "start": 11357
+  },
+  {
+    "code": "12112",
+    "name": "外出支援サービス事業",
+    "status": "proposal_unvalidated",
+    "start": 11375
+  },
+  {
+    "code": "12116",
+    "name": "配食サービス事業",
+    "status": "proposal_unvalidated",
+    "start": 11393
+  },
+  {
+    "code": "12202",
+    "name": "障害者団体補助事業",
+    "status": "proposal_unvalidated",
+    "start": 13467
+  },
+  {
+    "code": "12203",
+    "name": "身体障害者福祉事業",
+    "status": "proposal_unvalidated",
+    "start": 13521
+  },
+  {
+    "code": "12207",
+    "name": "障害者自立支援給付事業",
+    "status": "proposal_unvalidated",
+    "start": 13597
+  },
+  {
+    "code": "12208",
+    "name": "グループホーム等利用者家賃負担軽減事業",
+    "status": "proposal_unvalidated",
+    "start": 13617
+  },
+  {
+    "code": "12210",
+    "name": "生活のしづらさなどに関する調査",
+    "status": "proposal_unvalidated",
+    "start": 13661
+  },
+  {
+    "code": "12301",
+    "name": "行旅病人・行旅死亡人取扱事務事業",
+    "status": "proposal_unvalidated",
+    "start": 15709
+  },
+  {
+    "code": "12308",
+    "name": "国民健康保険税賦課業務",
+    "status": "proposal_unvalidated",
+    "start": 16128
+  },
+  {
+    "code": "12309",
+    "name": "資格異動事務",
+    "status": "proposal_unvalidated",
+    "start": 16193
+  },
+  {
+    "code": "12310",
+    "name": "被保険者証等交付事務",
+    "status": "proposal_unvalidated",
+    "start": 16234
+  },
+  {
+    "code": "12315",
+    "name": "給付発生原因点検事務",
+    "status": "proposal_unvalidated",
+    "start": 16428
+  },
+  {
+    "code": "12316",
+    "name": "第三者求償事務",
+    "status": "proposal_unvalidated",
+    "start": 16471
+  },
+  {
+    "code": "12317",
+    "name": "診療報酬明細書点検調査事務",
+    "status": "proposal_unvalidated",
+    "start": 16511
+  },
+  {
+    "code": "12318",
+    "name": "月報・年報作成事務",
+    "status": "proposal_unvalidated",
+    "start": 16559
+  },
+  {
+    "code": "12330",
+    "name": "要支援・要介護認定調査・主治医意見書作成依頼事業",
+    "status": "proposal_unvalidated",
+    "start": 17086
+  },
+  {
+    "code": "12333",
+    "name": "介護保険料賦課徴収事務",
+    "status": "proposal_unvalidated",
+    "start": 17308
+  },
+  {
+    "code": "12311",
+    "name": "療養給付費・療養費給付事業",
+    "status": "proposal_unvalidated",
+    "start": 17447
+  },
+  {
+    "code": "12314",
+    "name": "出産育児一時金給付事業",
+    "status": "proposal_unvalidated",
+    "start": 17468
+  },
+  {
+    "code": "12319",
+    "name": "老人保健医療費給付事業",
+    "status": "proposal_unvalidated",
+    "start": 17487
+  },
+  {
+    "code": "12320",
+    "name": "後期高齢者医療事務事業",
+    "status": "proposal_unvalidated",
+    "start": 17506
+  },
+  {
+    "code": "12334",
+    "name": "国民年金事務",
+    "status": "proposal_unvalidated",
+    "start": 17630
+  },
+  {
+    "code": "12403",
+    "name": "住民学習",
+    "status": "proposal_unvalidated",
+    "start": 20465
+  },
+  {
+    "code": "12404",
+    "name": "各種人権研修会",
+    "status": "proposal_unvalidated",
+    "start": 20508
+  },
+  {
+    "code": "12405",
+    "name": "あいさつ運動",
+    "status": "proposal_unvalidated",
+    "start": 20756
+  },
+  {
+    "code": "12406",
+    "name": "ふれあい館運営審議会",
+    "status": "proposal_unvalidated",
+    "start": 20770
+  },
+  {
+    "code": "12412",
+    "name": "男女共同参画審議会事業",
+    "status": "proposal_unvalidated",
+    "start": 21058
+  },
+  {
+    "code": "12413",
+    "name": "男女共同参画センター運営委員会事業",
+    "status": "proposal_unvalidated",
+    "start": 21086
+  },
+  {
+    "code": "12414",
+    "name": "地域交流事業",
+    "status": "proposal_unvalidated",
+    "start": 21155
+  },
+  {
+    "code": "12415",
+    "name": "児童相談事業",
+    "status": "proposal_unvalidated",
+    "start": 21169
+  },
+  {
+    "code": "12417",
+    "name": "地域組織活動（母親クラブ）育成事業",
+    "status": "proposal_unvalidated",
+    "start": 21260
+  },
+  {
+    "code": "12418",
+    "name": "結婚相談事業（企画課）",
+    "status": "proposal_unvalidated",
+    "start": 21334
+  },
+  {
+    "code": "12419",
+    "name": "結婚相談事業（人権推進課）",
+    "status": "proposal_unvalidated",
+    "start": 21397
+  },
+  {
+    "code": "12421",
+    "name": "市遺族会補助事業",
+    "status": "proposal_unvalidated",
+    "start": 21521
+  },
+  {
+    "code": "12422",
+    "name": "市追悼式",
+    "status": "proposal_unvalidated",
+    "start": 21564
+  },
+  {
+    "code": "13101",
+    "name": "各種スポーツ団体支援事業",
+    "status": "proposal_unvalidated",
+    "start": 23608
+  },
+  {
+    "code": "13102",
+    "name": "スポーツクラブ２１交流事業",
+    "status": "proposal_unvalidated",
+    "start": 23656
+  },
+  {
+    "code": "13103",
+    "name": "スポーツ推進委員活動",
+    "status": "proposal_unvalidated",
+    "start": 23713
+  },
+  {
+    "code": "13105",
+    "name": "篠山ＡＢＣマラソン大会実施事業",
+    "status": "proposal_unvalidated",
+    "start": 24071
+  },
+  {
+    "code": "13107",
+    "name": "社会体育施設及び学校体育施設利用管理事務",
+    "status": "proposal_unvalidated",
+    "start": 24109
+  },
+  {
+    "code": "13108",
+    "name": "西紀運動公園管理業務",
+    "status": "proposal_unvalidated",
+    "start": 24160
+  },
+  {
+    "code": "13111",
+    "name": "かぞくdeおいしんぼクッキング事業",
+    "status": "proposal_unvalidated",
+    "start": 24332
+  },
+  {
+    "code": "13130",
+    "name": "海洋センター連絡協議会負担金",
+    "status": "proposal_unvalidated",
+    "start": 25005
+  },
+  {
+    "code": "13131",
+    "name": "青少年創造力･行動力開発プログラム事業の企画・立案業務",
+    "status": "proposal_unvalidated",
+    "start": 25049
+  },
+  {
+    "code": "13112",
+    "name": "ささやま市民文化講座事業",
+    "status": "proposal_unvalidated",
+    "start": 25121
+  },
+  {
+    "code": "13113",
+    "name": "ちびっ子伝統産業体験交流事業の充実",
+    "status": "proposal_unvalidated",
+    "start": 25135
+  },
+  {
+    "code": "13114",
+    "name": "家庭教育セミナー事業",
+    "status": "proposal_unvalidated",
+    "start": 25166
+  },
+  {
+    "code": "13115",
+    "name": "各種社会教育関係団体の自立支援事業",
+    "status": "proposal_unvalidated",
+    "start": 25185
+  },
+  {
+    "code": "13116",
+    "name": "学習拠点となる中央館運営業務",
+    "status": "proposal_unvalidated",
+    "start": 25211
+  },
+  {
+    "code": "13117",
+    "name": "芸術活動・文化活動支援事業",
+    "status": "proposal_unvalidated",
+    "start": 25233
+  },
+  {
+    "code": "13118",
+    "name": "公民館の情報発信事業",
+    "status": "proposal_unvalidated",
+    "start": 25254
+  },
+  {
+    "code": "13119",
+    "name": "高齢者大学事業",
+    "status": "proposal_unvalidated",
+    "start": 25272
+  },
+  {
+    "code": "13120",
+    "name": "青少年健全育成団体連携事業",
+    "status": "proposal_unvalidated",
+    "start": 25287
+  },
+  {
+    "code": "13121",
+    "name": "文化協会事務局事務",
+    "status": "proposal_unvalidated",
+    "start": 25308
+  },
+  {
+    "code": "13122",
+    "name": "文化祭事務局事務",
+    "status": "proposal_unvalidated",
+    "start": 25325
+  },
+  {
+    "code": "13123",
+    "name": "丹波たんなん味覚まつり・にしきふるさとまつり実行委員会事務局事務",
+    "status": "proposal_unvalidated",
+    "start": 25506
+  },
+  {
+    "code": "13126",
+    "name": "今田元旦マラソン大会実行委員会事務局事務",
+    "status": "proposal_unvalidated",
+    "start": 25566
+  },
+  {
+    "code": "13127",
+    "name": "成人式事業",
+    "status": "proposal_unvalidated",
+    "start": 25595
+  },
+  {
+    "code": "13132",
+    "name": "ビデオコンクール開催による映像文化発展事業",
+    "status": "proposal_unvalidated",
+    "start": 25685
+  },
+  {
+    "code": "13134",
+    "name": "情報通信技術（ICT）学習推進事業",
+    "status": "proposal_unvalidated",
+    "start": 25882
+  },
+  {
+    "code": "21101",
+    "name": "防災訓練事業",
+    "status": "proposal_unvalidated",
+    "start": 28765
+  },
+  {
+    "code": "21102",
+    "name": "防災一般事務",
+    "status": "proposal_unvalidated",
+    "start": 28779
+  },
+  {
+    "code": "21103",
+    "name": "災害対策事業",
+    "status": "proposal_unvalidated",
+    "start": 28802
+  },
+  {
+    "code": "21104",
+    "name": "国民保護事業",
+    "status": "proposal_unvalidated",
+    "start": 28835
+  },
+  {
+    "code": "21106",
+    "name": "西紀防災行政無線関係事務",
+    "status": "proposal_unvalidated",
+    "start": 28891
+  },
+  {
+    "code": "21107",
+    "name": "消防団事業",
+    "status": "proposal_unvalidated",
+    "start": 28911
+  },
+  {
+    "code": "21108",
+    "name": "消防団事務",
+    "status": "proposal_unvalidated",
+    "start": 28959
+  },
+  {
+    "code": "21109",
+    "name": "消防団員表彰事務",
+    "status": "proposal_unvalidated",
+    "start": 29003
+  },
+  {
+    "code": "21116",
+    "name": "職員研修計画事務",
+    "status": "proposal_unvalidated",
+    "start": 29234
+  },
+  {
+    "code": "21117",
+    "name": "企画調整事務",
+    "status": "proposal_unvalidated",
+    "start": 29284
+  },
+  {
+    "code": "21119",
+    "name": "表彰に関する事務",
+    "status": "proposal_unvalidated",
+    "start": 29355
+  },
+  {
+    "code": "21120",
+    "name": "公務災害補償事務",
+    "status": "proposal_unvalidated",
+    "start": 29399
+  },
+  {
+    "code": "21121",
+    "name": "消防施設計画事務",
+    "status": "proposal_unvalidated",
+    "start": 29446
+  },
+  {
+    "code": "21112",
+    "name": "兵庫県まとい会篠山支部事務局事業",
+    "status": "proposal_unvalidated",
+    "start": 29526
+  },
+  {
+    "code": "21113",
+    "name": "消防広域化推進事業",
+    "status": "proposal_unvalidated",
+    "start": 29576
+  },
+  {
+    "code": "21114",
+    "name": "救急車、消防広報車購入整備事業",
+    "status": "proposal_unvalidated",
+    "start": 29587
+  },
+  {
+    "code": "21115",
+    "name": "消防・救急無線デジタル化推進事業",
+    "status": "proposal_unvalidated",
+    "start": 29610
+  },
+  {
+    "code": "21118",
+    "name": "被服貸与事務",
+    "status": "proposal_unvalidated",
+    "start": 29641
+  },
+  {
+    "code": "21122",
+    "name": "消防統計事務",
+    "status": "proposal_unvalidated",
+    "start": 29655
+  },
+  {
+    "code": "21123",
+    "name": "消防職員委員会事務",
+    "status": "proposal_unvalidated",
+    "start": 29687
+  },
+  {
+    "code": "21126",
+    "name": "防火管理者制度事務",
+    "status": "proposal_unvalidated",
+    "start": 29821
+  },
+  {
+    "code": "21127",
+    "name": "予防広報事務",
+    "status": "proposal_unvalidated",
+    "start": 29876
+  },
+  {
+    "code": "21128",
+    "name": "住宅防火診断事務",
+    "status": "proposal_unvalidated",
+    "start": 29917
+  },
+  {
+    "code": "21129",
+    "name": "防火安全協会事務",
+    "status": "proposal_unvalidated",
+    "start": 29967
+  },
+  {
+    "code": "21130",
+    "name": "住宅防火に関する事務",
+    "status": "proposal_unvalidated",
+    "start": 30021
+  },
+  {
+    "code": "21132",
+    "name": "総合訓練の立案・広報事務",
+    "status": "proposal_unvalidated",
+    "start": 30278
+  },
+  {
+    "code": "21133",
+    "name": "火災調査に伴う情報管理事務",
+    "status": "proposal_unvalidated",
+    "start": 30298
+  },
+  {
+    "code": "21125",
+    "name": "防火対象物、危険物施設等への立入検査と防火管理指導業務",
+    "status": "proposal_unvalidated",
+    "start": 30242
+  },
+  {
+    "code": "21136",
+    "name": "消防団支援事務",
+    "status": "proposal_unvalidated",
+    "start": 30525
+  },
+  {
+    "code": "21137",
+    "name": "災害防御計画等作成事務",
+    "status": "proposal_unvalidated",
+    "start": 30565
+  },
+  {
+    "code": "21138",
+    "name": "救急活動の情報管理事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "21140",
+    "name": "防火広報事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "21141",
+    "name": "救急救命士養成事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "21139",
+    "name": "メディカルコントロール体制構築事業",
+    "status": "proposal_unvalidated",
+    "start": 30808
+  },
+  {
+    "code": "21142",
+    "name": "消防団及び自主防災の訓練指導業務",
+    "status": "proposal_unvalidated",
+    "start": 30847
+  },
+  {
+    "code": "21143",
+    "name": "救急講習及び市民救命士講習事業",
+    "status": "proposal_unvalidated",
+    "start": 30871
+  },
+  {
+    "code": "21144",
+    "name": "火災調査事務",
+    "status": "proposal_unvalidated",
+    "start": 30973
+  },
+  {
+    "code": "21145",
+    "name": "警防活動(火災･救急･救助）の充実･強化事務",
+    "status": "proposal_unvalidated",
+    "start": 31044
+  },
+  {
+    "code": "21146",
+    "name": "消防地水利調査事務",
+    "status": "proposal_unvalidated",
+    "start": 31080
+  },
+  {
+    "code": "21147",
+    "name": "火災防ぎょ計画の策定事務",
+    "status": "proposal_unvalidated",
+    "start": 31133
+  },
+  {
+    "code": "21148",
+    "name": "災害情報の収集･管理業務",
+    "status": "proposal_unvalidated",
+    "start": 31186
+  },
+  {
+    "code": "21150",
+    "name": "オフトーク通信放送業務",
+    "status": "proposal_unvalidated",
+    "start": 31274
+  },
+  {
+    "code": "21151",
+    "name": "篠山市有線放送共同施設協会関係事務",
+    "status": "proposal_unvalidated",
+    "start": 31328
+  },
+  {
+    "code": "21149",
+    "name": "メディカルコントロール体制の推進事業",
+    "status": "proposal_unvalidated",
+    "start": 31393
+  },
+  {
+    "code": "21201",
+    "name": "消費者相談業務及び消費者行政に関する事務",
+    "status": "proposal_unvalidated",
+    "start": 32970
+  },
+  {
+    "code": "21202",
+    "name": "犯罪被害者等支援事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "21203",
+    "name": "交通安全事務事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "21204",
+    "name": "交通安全施設事務",
+    "status": "proposal_unvalidated",
+    "start": 33168
+  },
+  {
+    "code": "21205",
+    "name": "防犯活動支援事業",
+    "status": "proposal_unvalidated",
+    "start": 33261
+  },
+  {
+    "code": "22101",
+    "name": "窓口業務、開閉栓、検針、調査業務・上下水道料金徴収業務",
+    "status": "proposal_unvalidated",
+    "start": 35222
+  },
+  {
+    "code": "22102",
+    "name": "広報宣伝業務",
+    "status": "proposal_unvalidated",
+    "start": 35352
+  },
+  {
+    "code": "22103",
+    "name": "漏水減免事務",
+    "status": "proposal_unvalidated",
+    "start": 35399
+  },
+  {
+    "code": "22104",
+    "name": "下水道使用料の賦課徴収業務",
+    "status": "proposal_unvalidated",
+    "start": 35447
+  },
+  {
+    "code": "22107",
+    "name": "水質検査業務",
+    "status": "proposal_unvalidated",
+    "start": 35683
+  },
+  {
+    "code": "22108",
+    "name": "ダム開発関連事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "22110",
+    "name": "水道施設統廃合事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "22111",
+    "name": "重点分野雇用創造事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "22109",
+    "name": "原浄水・配給水施設改良事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "22112",
+    "name": "汚水処理施設共同整備事業（MICS）",
+    "status": "proposal_unvalidated",
+    "start": 36062
+  },
+  {
+    "code": "22113",
+    "name": "下水道施設改築更新事業",
+    "status": "proposal_unvalidated",
+    "start": 36094
+  },
+  {
+    "code": "22114",
+    "name": "管路施設及び終末処理場等の維持管理事業",
+    "status": "proposal_unvalidated",
+    "start": 36107
+  },
+  {
+    "code": "22115",
+    "name": "宅内排水設備工事の受付検査、指定工事店、責任技術者の登録事業",
+    "status": "proposal_unvalidated",
+    "start": 36134
+  },
+  {
+    "code": "22120",
+    "name": "し尿処理事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "22116",
+    "name": "合併浄化槽の設置審査及び補助事業",
+    "status": "proposal_unvalidated",
+    "start": 36481
+  },
+  {
+    "code": "22117",
+    "name": "水洗便所改造資金融資あっせん及び利子補給事業",
+    "status": "proposal_unvalidated",
+    "start": 36505
+  },
+  {
+    "code": "22118",
+    "name": "下水道事業受益者負担金（分担金）の賦課徴収",
+    "status": "proposal_unvalidated",
+    "start": 36535
+  },
+  {
+    "code": "22201",
+    "name": "市営駐車場管理業務",
+    "status": "proposal_unvalidated",
+    "start": 38614
+  },
+  {
+    "code": "22202",
+    "name": "篠山口駅西駐車場管理業務",
+    "status": "proposal_unvalidated",
+    "start": 38676
+  },
+  {
+    "code": "22203",
+    "name": "国庫補助道路整備事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "22212",
+    "name": "法定外公共物の許認可事務",
+    "status": "proposal_unvalidated",
+    "start": 39066
+  },
+  {
+    "code": "22213",
+    "name": "各事業の土地調査及び登記事務",
+    "status": "proposal_unvalidated",
+    "start": 39113
+  },
+  {
+    "code": "22214",
+    "name": "先行地籍調査事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "22215",
+    "name": "河川愛護の啓発事務",
+    "status": "proposal_unvalidated",
+    "start": 39205
+  },
+  {
+    "code": "22218",
+    "name": "公園施設等維持管理業務",
+    "status": "proposal_unvalidated",
+    "start": 39367
+  },
+  {
+    "code": "22219",
+    "name": "都市公園維持管理事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "22220",
+    "name": "都市施設維持管理業務",
+    "status": "proposal_unvalidated",
+    "start": 39459
+  },
+  {
+    "code": "22204",
+    "name": "道路新設改良事業",
+    "status": "proposal_unvalidated",
+    "start": 39549
+  },
+  {
+    "code": "22205",
+    "name": "道路維持修繕事業",
+    "status": "proposal_unvalidated",
+    "start": 39565
+  },
+  {
+    "code": "22206",
+    "name": "橋梁維持修繕事業",
+    "status": "proposal_unvalidated",
+    "start": 39604
+  },
+  {
+    "code": "22207",
+    "name": "河川整備事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "22208",
+    "name": "公共土木施設災害復旧事業",
+    "status": "proposal_unvalidated",
+    "start": 39634
+  },
+  {
+    "code": "22209",
+    "name": "みくまりダム管理事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "22210",
+    "name": "道路法・河川法各種申請の協議･指導・処理事業",
+    "status": "proposal_unvalidated",
+    "start": 39666
+  },
+  {
+    "code": "22211",
+    "name": "官民有地境界協定事務",
+    "status": "proposal_unvalidated",
+    "start": 39702
+  },
+  {
+    "code": "22217",
+    "name": "市営住宅使用料賦課業務",
+    "status": "proposal_unvalidated",
+    "start": 39720
+  },
+  {
+    "code": "22301",
+    "name": "コミュニティバス運行事業",
+    "status": "proposal_unvalidated",
+    "start": 41571
+  },
+  {
+    "code": "22302",
+    "name": "公共交通対策調整事業",
+    "status": "proposal_unvalidated",
+    "start": 41591
+  },
+  {
+    "code": "22303",
+    "name": "バス路線維持確保対策事業",
+    "status": "proposal_unvalidated",
+    "start": 41644
+  },
+  {
+    "code": "22304",
+    "name": "携帯電話対策事業",
+    "status": "proposal_unvalidated",
+    "start": 41664
+  },
+  {
+    "code": "22305",
+    "name": "地上デジタル放送受信対策事業",
+    "status": "proposal_unvalidated",
+    "start": 41699
+  },
+  {
+    "code": "22306",
+    "name": "バス路線活性化支援助成事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31107",
+    "name": "子育ていちばん条例制定事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31108",
+    "name": "母子自立支援員業務",
+    "status": "proposal_unvalidated",
+    "start": 44099
+  },
+  {
+    "code": "31109",
+    "name": "母子生活支援施設委託事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31101",
+    "name": "ファミリーサポートセンター事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31102",
+    "name": "子育てふれあいセンター事業",
+    "status": "proposal_unvalidated",
+    "start": 44456
+  },
+  {
+    "code": "31103",
+    "name": "児童扶養手当支給事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31104",
+    "name": "児童手当支給事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31105",
+    "name": "特別児童扶養手当事業",
+    "status": "proposal_unvalidated",
+    "start": 44618
+  },
+  {
+    "code": "31110",
+    "name": "母子自立支援教育訓練給付事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31111",
+    "name": "高等技能訓練促進費等事業",
+    "status": "proposal_unvalidated",
+    "start": 44721
+  },
+  {
+    "code": "31112",
+    "name": "年末年始短期里親事業",
+    "status": "proposal_unvalidated",
+    "start": 44741
+  },
+  {
+    "code": "31113",
+    "name": "婦人共励会補助事業",
+    "status": "proposal_unvalidated",
+    "start": 44759
+  },
+  {
+    "code": "31115",
+    "name": "母子保健事業総括事務",
+    "status": "proposal_unvalidated",
+    "start": 44802
+  },
+  {
+    "code": "31116",
+    "name": "母子健康手帳交付事務",
+    "status": "proposal_unvalidated",
+    "start": 44820
+  },
+  {
+    "code": "31117",
+    "name": "訪問指導事業",
+    "status": "proposal_unvalidated",
+    "start": 44838
+  },
+  {
+    "code": "31118",
+    "name": "乳幼児健診事業",
+    "status": "proposal_unvalidated",
+    "start": 44911
+  },
+  {
+    "code": "31119",
+    "name": "すこやか相談事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31120",
+    "name": "すくすく相談事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31121",
+    "name": "乳児健康相談事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31122",
+    "name": "子育て相談事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31123",
+    "name": "パパママ教室事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31124",
+    "name": "離乳食教室事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31125",
+    "name": "親子あそび教室事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31126",
+    "name": "思春期保健福祉体験学習事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31127",
+    "name": "神戸大学地域連携事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31128",
+    "name": "妊婦健康診査費補助事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31129",
+    "name": "要保護児童対策地域協議会事業",
+    "status": "proposal_unvalidated",
+    "start": 45477
+  },
+  {
+    "code": "31206",
+    "name": "私立保育所特別運営事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31207",
+    "name": "私立保育所障害児保育事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31208",
+    "name": "私立保育所延長保育事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31209",
+    "name": "管外保育運営事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31201",
+    "name": "家庭児童相談室業務",
+    "status": "proposal_unvalidated",
+    "start": 48083
+  },
+  {
+    "code": "31202",
+    "name": "家庭児童相談員連絡協議会事業",
+    "status": "proposal_unvalidated",
+    "start": 48112
+  },
+  {
+    "code": "31203",
+    "name": "放課後児童対策事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31204",
+    "name": "児童短期入所事業",
+    "status": "proposal_unvalidated",
+    "start": 48235
+  },
+  {
+    "code": "31205",
+    "name": "私立保育所運営事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31211",
+    "name": "ひょうご多子世帯保育料軽減事業",
+    "status": "proposal_unvalidated",
+    "start": 48314
+  },
+  {
+    "code": "31212",
+    "name": "認定こども園の運営",
+    "status": "proposal_unvalidated",
+    "start": 48337
+  },
+  {
+    "code": "31213",
+    "name": "幼稚園預かり保育事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31214",
+    "name": "幼稚園教育事業",
+    "status": "proposal_unvalidated",
+    "start": 48372
+  },
+  {
+    "code": "31216",
+    "name": "幼保一体化推進事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "31217",
+    "name": "幼稚園管理事業",
+    "status": "proposal_unvalidated",
+    "start": 48516
+  },
+  {
+    "code": "31219",
+    "name": "療育体制整備事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "32101",
+    "name": "学力向上事業",
+    "status": "proposal_unvalidated",
+    "start": 50475
+  },
+  {
+    "code": "32102",
+    "name": "指定研究事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "32109",
+    "name": "生徒指導体制充実事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "32110",
+    "name": "体力向上事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "32111",
+    "name": "心のサポート事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "32112",
+    "name": "特別支援教育事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "32104",
+    "name": "「ことばの力」育成事業",
+    "status": "proposal_unvalidated",
+    "start": 50986
+  },
+  {
+    "code": "32105",
+    "name": "外国語活動支援事業",
+    "status": "proposal_unvalidated",
+    "start": 51025
+  },
+  {
+    "code": "32106",
+    "name": "学校情報化支援事業",
+    "status": "proposal_unvalidated",
+    "start": 51059
+  },
+  {
+    "code": "32107",
+    "name": "学びの交差展事業",
+    "status": "proposal_unvalidated",
+    "start": 51086
+  },
+  {
+    "code": "32108",
+    "name": "道徳教育推進事業",
+    "status": "proposal_unvalidated",
+    "start": 51113
+  },
+  {
+    "code": "31106",
+    "name": "次世代育成支援対策交付金申請事務",
+    "status": "proposal_unvalidated",
+    "start": 44637
+  },
+  {
+    "code": "31114",
+    "name": "母子保健推進員活動事業（愛育班活動）",
+    "status": "proposal_unvalidated",
+    "start": 44770
+  },
+  {
+    "code": "31210",
+    "name": "公立保育所事業（事務・管理・運営）",
+    "status": "proposal_unvalidated",
+    "start": 48272
+  },
+  {
+    "code": "31215",
+    "name": "幼稚園教諭と保育園保育士資質向上事業",
+    "status": "proposal_unvalidated",
+    "start": 48396
+  },
+  {
+    "code": "32202",
+    "name": "教育委員会運営",
+    "status": "proposal_unvalidated",
+    "start": 53351
+  },
+  {
+    "code": "32203",
+    "name": "篠山小学校校舎検討事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "32204",
+    "name": "スクールバス管理事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "32205",
+    "name": "教育総務費・学校保健関係事業",
+    "status": "proposal_unvalidated",
+    "start": 53552
+  },
+  {
+    "code": "32206",
+    "name": "遠距離通学助成事業",
+    "status": "proposal_unvalidated",
+    "start": 53593
+  },
+  {
+    "code": "32207",
+    "name": "児童生徒の就学事務",
+    "status": "proposal_unvalidated",
+    "start": 53644
+  },
+  {
+    "code": "32208",
+    "name": "統計調査及び学校基本調査",
+    "status": "proposal_unvalidated",
+    "start": 53688
+  },
+  {
+    "code": "32209",
+    "name": "教科用図書採択事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "32210",
+    "name": "児童生徒の就学援助事務",
+    "status": "proposal_unvalidated",
+    "start": 53939
+  },
+  {
+    "code": "32211",
+    "name": "耐震補強事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "32212",
+    "name": "学校施設維持管理費",
+    "status": "proposal_unvalidated",
+    "start": 53972
+  },
+  {
+    "code": "32213",
+    "name": "学校施設・設備の維持管理事業",
+    "status": "proposal_unvalidated",
+    "start": 53989
+  },
+  {
+    "code": "32214",
+    "name": "学校教育振興事業",
+    "status": "proposal_unvalidated",
+    "start": 54011
+  },
+  {
+    "code": "32215",
+    "name": "教職員用PC整備事業",
+    "status": "proposal_unvalidated",
+    "start": 54027
+  },
+  {
+    "code": "32219",
+    "name": "教職員研修会事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "32220",
+    "name": "理科おもしろ推進事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "32221",
+    "name": "不登校支援事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "32222",
+    "name": "学校安全安心づくり事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "32223",
+    "name": "ひょうご放課後プラン事業",
+    "status": "proposal_unvalidated",
+    "start": 54601
+  },
+  {
+    "code": "32225",
+    "name": "青少年育成相談業務",
+    "status": "proposal_unvalidated",
+    "start": 54698
+  },
+  {
+    "code": "32227",
+    "name": "学校地域連携事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "32301",
+    "name": "国際交流推進事業",
+    "status": "proposal_unvalidated",
+    "start": 56898
+  },
+  {
+    "code": "32302",
+    "name": "奨学金貸付事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "32303",
+    "name": "篠山ふるさとガイドブック",
+    "status": "proposal_unvalidated",
+    "start": 57010
+  },
+  {
+    "code": "32304",
+    "name": "学校給食費の収納事務",
+    "status": "proposal_unvalidated",
+    "start": 57062
+  },
+  {
+    "code": "32305",
+    "name": "フォリナーサポート事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "32306",
+    "name": "食育推進事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "32307",
+    "name": "スクールブリッジ事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "32316",
+    "name": "うりぼう師範実施事業",
+    "status": "proposal_unvalidated",
+    "start": 57756
+  },
+  {
+    "code": "32317",
+    "name": "人権教育推進事業",
+    "status": "proposal_unvalidated",
+    "start": 57774
+  },
+  {
+    "code": "41101",
+    "name": "市営斎場受付事務",
+    "status": "proposal_unvalidated",
+    "start": 59825
+  },
+  {
+    "code": "41102",
+    "name": "市営斎場施設管理事業",
+    "status": "proposal_unvalidated",
+    "start": 59841
+  },
+  {
+    "code": "41103",
+    "name": "愛玩動物に関する事務",
+    "status": "proposal_unvalidated",
+    "start": 59859
+  },
+  {
+    "code": "41104",
+    "name": "死廃小動物処理事務事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "41106",
+    "name": "墓地、埋葬等事務事業",
+    "status": "proposal_unvalidated",
+    "start": 60182
+  },
+  {
+    "code": "41107",
+    "name": "市営墓地に関する事務事業",
+    "status": "proposal_unvalidated",
+    "start": 60200
+  },
+  {
+    "code": "41108",
+    "name": "防疫事務事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "41109",
+    "name": "兵庫県都市清掃事務協議会",
+    "status": "proposal_unvalidated",
+    "start": 60064
+  },
+  {
+    "code": "41110",
+    "name": "地域グリーンリーダー事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "41111",
+    "name": "環境基本計画関連事務",
+    "status": "proposal_unvalidated",
+    "start": 60229
+  },
+  {
+    "code": "41112",
+    "name": "改正省エネ法関係事務",
+    "status": "proposal_unvalidated",
+    "start": 60278
+  },
+  {
+    "code": "41113",
+    "name": "環境基本条例関連事務",
+    "status": "proposal_unvalidated",
+    "start": 60321
+  },
+  {
+    "code": "41114",
+    "name": "(財）ひょうご環境創造協会会費",
+    "status": "proposal_unvalidated",
+    "start": 60462
+  },
+  {
+    "code": "41115",
+    "name": "環境保全事務事業",
+    "status": "proposal_unvalidated",
+    "start": 60485
+  },
+  {
+    "code": "41117",
+    "name": "篠山城跡公園堀浄化事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "41201",
+    "name": "自然活用型ＣＳＲ事業",
+    "status": "proposal_unvalidated",
+    "start": 63014
+  },
+  {
+    "code": "41202",
+    "name": "丹波篠山渓谷の森公園管理費",
+    "status": "proposal_unvalidated",
+    "start": 62638
+  },
+  {
+    "code": "41203",
+    "name": "森林の整備計画事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "41204",
+    "name": "林道維持管理事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "41205",
+    "name": "森林組合の育成事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "41206",
+    "name": "松くい虫防除対策事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "41207",
+    "name": "渓流工整備事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "41208",
+    "name": "緑の少年団関係事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "41209",
+    "name": "森林整備地域活動支援事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "41210",
+    "name": "環境対策育林事業",
+    "status": "proposal_unvalidated",
+    "start": 63068
+  },
+  {
+    "code": "41211",
+    "name": "緊急防災林整備事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "41213",
+    "name": "市単独補助治山事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "41214",
+    "name": "里山林再生事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "41215",
+    "name": "森林病害虫等防除事業",
+    "status": "proposal_unvalidated",
+    "start": 63505
+  },
+  {
+    "code": "41217",
+    "name": "地域づくり活動支援モデル事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "41306",
+    "name": "ごみ減量・資源化啓発事業",
+    "status": "proposal_unvalidated",
+    "start": 66227
+  },
+  {
+    "code": "41312",
+    "name": "リサイクル施設維持管理事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "41313",
+    "name": "計量・可燃性粗大ごみ破砕事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "41314",
+    "name": "浸出水処理施設維持管理事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "41316",
+    "name": "緑のカーテン事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "41317",
+    "name": "不法投棄物処理事務事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "32228",
+    "name": "子どもの居場所づくり事業（通学合宿・トライしようDAY）",
+    "status": "proposal_unvalidated",
+    "start": 54778
+  },
+  {
+    "code": "32229",
+    "name": "教育懇談会・地域教育トーク等の実施",
+    "status": "proposal_unvalidated",
+    "start": 54814
+  },
+  {
+    "code": "32318",
+    "name": "感謝の気持ちを届けようプロジェクト2011事業",
+    "status": "proposal_unvalidated",
+    "start": 57784
+  },
+  {
+    "code": "41105",
+    "name": "衛生委員・保健衛生推進協議会事務事業",
+    "status": "proposal_unvalidated",
+    "start": 60155
+  },
+  {
+    "code": "41116",
+    "name": "加古川・由良川水濁協、武庫川環境保全協、大気連、瀬戸連等関連団体事務",
+    "status": "proposal_unvalidated",
+    "start": 60495
+  },
+  {
+    "code": "41212",
+    "name": "針葉樹林と広葉樹林の混交林整備事業",
+    "status": "proposal_unvalidated",
+    "start": 63159
+  },
+  {
+    "code": "41216",
+    "name": "木質燃料暖房器具設置モデル事業",
+    "status": "proposal_unvalidated",
+    "start": 63325
+  },
+  {
+    "code": "41218",
+    "name": "環境保全型農業直接支払交付金事業",
+    "status": "proposal_unvalidated",
+    "start": 63517
+  },
+  {
+    "code": "41219",
+    "name": "農地・水・環境保全向上対策事業（営農活動支援）",
+    "status": "proposal_unvalidated",
+    "start": 63541
+  },
+  {
+    "code": "41302",
+    "name": "地球温暖化対策に関する事務事業",
+    "status": "proposal_unvalidated",
+    "start": 65308
+  },
+  {
+    "code": "41303",
+    "name": "自治会におけるじん芥収集所施設整備補助金事務事業",
+    "status": "proposal_unvalidated",
+    "start": 65331
+  },
+  {
+    "code": "41304",
+    "name": "ごみ収集及び運搬に関する事務事業",
+    "status": "proposal_unvalidated",
+    "start": 65363
+  },
+  {
+    "code": "41307",
+    "name": "計量・手数料徴収・医療ごみ処理事業",
+    "status": "proposal_unvalidated",
+    "start": 66281
+  },
+  {
+    "code": "41310",
+    "name": "計量・医療ごみ処理・焼却関係委託事業",
+    "status": "proposal_unvalidated",
+    "start": 66301
+  },
+  {
+    "code": "41311",
+    "name": "焼却施設・最終処分場維持管理事業",
+    "status": "proposal_unvalidated",
+    "start": 66327
+  },
+  {
+    "code": "42101",
+    "name": "桜並木管理委託業務",
+    "status": "proposal_unvalidated",
+    "start": 68207
+  },
+  {
+    "code": "42201",
+    "name": "まちづくり交付金事業",
+    "status": "proposal_unvalidated",
+    "start": 70427
+  },
+  {
+    "code": "42203",
+    "name": "地域開発事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "42204",
+    "name": "地区整備計画策定業務",
+    "status": "proposal_unvalidated",
+    "start": 70622
+  },
+  {
+    "code": "42301",
+    "name": "篠山暮らし案内所運営業務",
+    "status": "proposal_unvalidated",
+    "start": 72664
+  },
+  {
+    "code": "42302",
+    "name": "空き家バンク運営事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "42303",
+    "name": "古民家再生活用モデル事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "42304",
+    "name": "定住促進制度検討事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "42305",
+    "name": "ふるさと定住宅地貸付事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "42306",
+    "name": "篠山市住生活基本計画策定業務",
+    "status": "proposal_unvalidated",
+    "start": 72913
+  },
+  {
+    "code": "43101",
+    "name": "特定用地管理事務",
+    "status": "proposal_unvalidated",
+    "start": 75280
+  },
+  {
+    "code": "43102",
+    "name": "史跡篠山城跡整備事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "43105",
+    "name": "文化財保護・管理事業",
+    "status": "proposal_unvalidated",
+    "start": 75633
+  },
+  {
+    "code": "43106",
+    "name": "文化施設４館運営事業",
+    "status": "proposal_unvalidated",
+    "start": 75651
+  },
+  {
+    "code": "43107",
+    "name": "伝統文化振興事業",
+    "status": "proposal_unvalidated",
+    "start": 75669
+  },
+  {
+    "code": "43202",
+    "name": "篠山市展充実事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "43203",
+    "name": "脊椎動物化石保護・活用事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "43204",
+    "name": "交響ホール施設管理事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "43205",
+    "name": "交響ホール主催公演事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "43206",
+    "name": "市民ミュージカル公演事業",
+    "status": "proposal_unvalidated",
+    "start": 78228
+  },
+  {
+    "code": "43207",
+    "name": "ボランティアスタッフ運営事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "43208",
+    "name": "さぎそうホール管理運営事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "42202",
+    "name": "都市計画基礎調査、篠山市基礎図管理業務",
+    "status": "proposal_unvalidated",
+    "start": 70477
+  },
+  {
+    "code": "43201",
+    "name": "チルドレンズミュージアム施設維持管理・施設活用事業",
+    "status": "proposal_unvalidated",
+    "start": 77817
+  },
+  {
+    "code": "51101",
+    "name": "農業振興地域整備促進事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "51103",
+    "name": "農地・水保全管理支払交付金",
+    "status": "proposal_unvalidated",
+    "start": 80929
+  },
+  {
+    "code": "51115",
+    "name": "農業施設の補修・改善事業",
+    "status": "proposal_unvalidated",
+    "start": 81262
+  },
+  {
+    "code": "51116",
+    "name": "有害鳥獣駆除対策事業",
+    "status": "proposal_unvalidated",
+    "start": 81282
+  },
+  {
+    "code": "51118",
+    "name": "農地保有合理化事業",
+    "status": "proposal_unvalidated",
+    "start": 81338
+  },
+  {
+    "code": "51119",
+    "name": "遊休農地防止対策事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "51120",
+    "name": "農業者年金事務費",
+    "status": "proposal_unvalidated",
+    "start": 81467
+  },
+  {
+    "code": "51122",
+    "name": "農地パトロール事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "51123",
+    "name": "土づくり対策推進事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "51202",
+    "name": "農業近代化資金等利子補給事業",
+    "status": "proposal_unvalidated",
+    "start": 83542
+  },
+  {
+    "code": "51203",
+    "name": "農作業受託組織事業",
+    "status": "proposal_unvalidated",
+    "start": 83564
+  },
+  {
+    "code": "51204",
+    "name": "認定農業者連絡協議会補助事業",
+    "status": "proposal_unvalidated",
+    "start": 83608
+  },
+  {
+    "code": "51205",
+    "name": "担い手経営展開支援リース事業",
+    "status": "proposal_unvalidated",
+    "start": 83647
+  },
+  {
+    "code": "51206",
+    "name": "農地流動化事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "51208",
+    "name": "農業経営改善計画関係事務",
+    "status": "proposal_unvalidated",
+    "start": 83837
+  },
+  {
+    "code": "51209",
+    "name": "篠山楽農スクール事業",
+    "status": "proposal_unvalidated",
+    "start": 83871
+  },
+  {
+    "code": "51210",
+    "name": "生産組合活動支援事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "51211",
+    "name": "市農業生産組合協議会補助事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "51212",
+    "name": "集落営農組織高度化促進事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "51213",
+    "name": "新規就農研修委託事業",
+    "status": "proposal_unvalidated",
+    "start": 84159
+  },
+  {
+    "code": "51214",
+    "name": "就農研修費助成事業",
+    "status": "proposal_unvalidated",
+    "start": 84191
+  },
+  {
+    "code": "51216",
+    "name": "担い手サポートセンター事業",
+    "status": "proposal_unvalidated",
+    "start": 84420
+  },
+  {
+    "code": "51217",
+    "name": "食農教育事業",
+    "status": "proposal_unvalidated",
+    "start": 84441
+  },
+  {
+    "code": "51301",
+    "name": "山の芋振興事業",
+    "status": "proposal_unvalidated",
+    "start": 86290
+  },
+  {
+    "code": "51303",
+    "name": "特産物振興対策補助金事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "51308",
+    "name": "ご当地グルメ篠山グランプリ事業",
+    "status": "proposal_unvalidated",
+    "start": 86742
+  },
+  {
+    "code": "51309",
+    "name": "地域ブランド保護事業",
+    "status": "proposal_unvalidated",
+    "start": 86797
+  },
+  {
+    "code": "51310",
+    "name": "畜産振興事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "51311",
+    "name": "但馬牛増頭促進事業",
+    "status": "proposal_unvalidated",
+    "start": 87242
+  },
+  {
+    "code": "51312",
+    "name": "市農産物品評会補助事業",
+    "status": "proposal_unvalidated",
+    "start": 87259
+  },
+  {
+    "code": "51315",
+    "name": "農業振興大会事業",
+    "status": "proposal_unvalidated",
+    "start": 87387
+  },
+  {
+    "code": "51316",
+    "name": "数量調整円滑化推進事業",
+    "status": "proposal_unvalidated",
+    "start": 87403
+  },
+  {
+    "code": "51318",
+    "name": "丹波篠山楽農パートナー事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "52101",
+    "name": "工場等施設整備奨励事業",
+    "status": "proposal_unvalidated",
+    "start": 89541
+  },
+  {
+    "code": "52102",
+    "name": "雇用促進奨励事業",
+    "status": "proposal_unvalidated",
+    "start": 89577
+  },
+  {
+    "code": "52103",
+    "name": "企業誘致パンフレット作成事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "52104",
+    "name": "企業訪問誘致事業（直営）",
+    "status": "proposal_unvalidated",
+    "start": 89668
+  },
+  {
+    "code": "52105",
+    "name": "市外企業訪問誘致事業（委託）",
+    "status": "proposal_unvalidated",
+    "start": 89705
+  },
+  {
+    "code": "52106",
+    "name": "市内遊休地調査事業",
+    "status": "proposal_unvalidated",
+    "start": 89741
+  },
+  {
+    "code": "52107",
+    "name": "企業紹介・出展事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "52108",
+    "name": "農工団地地権者調査事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "52109",
+    "name": "企業誘致サイト刷新事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "52110",
+    "name": "地域人材確保事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "52111",
+    "name": "企業紹介ガイドブック",
+    "status": "proposal_unvalidated",
+    "start": 90096
+  },
+  {
+    "code": "52112",
+    "name": "緊急雇用創出事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "52113",
+    "name": "ふるさと雇用再生事業",
+    "status": "proposal_unvalidated",
+    "start": 90219
+  },
+  {
+    "code": "52114",
+    "name": "丹波杜氏組合事務局業務",
+    "status": "proposal_unvalidated",
+    "start": 90266
+  },
+  {
+    "code": "52115",
+    "name": "篠山技能高等学院運営管理事務",
+    "status": "proposal_unvalidated",
+    "start": 90316
+  },
+  {
+    "code": "52116",
+    "name": "篠山市産業活性化支援事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "52201",
+    "name": "伝統食に光プロジェクト事業",
+    "status": "proposal_unvalidated",
+    "start": 92352
+  },
+  {
+    "code": "52202",
+    "name": "創造都市ネットワーク推進事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "52301",
+    "name": "商工会支援事業",
+    "status": "proposal_unvalidated",
+    "start": 94469
+  },
+  {
+    "code": "52302",
+    "name": "中心市街地活性化事業",
+    "status": "proposal_unvalidated",
+    "start": 94484
+  },
+  {
+    "code": "52303",
+    "name": "融資事務",
+    "status": "proposal_unvalidated",
+    "start": 94502
+  },
+  {
+    "code": "52305",
+    "name": "量目検査業務",
+    "status": "proposal_unvalidated",
+    "start": 94544
+  },
+  {
+    "code": "52306",
+    "name": "商工振興施設運営管理業務",
+    "status": "proposal_unvalidated",
+    "start": 95152
+  },
+  {
+    "code": "52307",
+    "name": "酒造記念館運営管理業務",
+    "status": "proposal_unvalidated",
+    "start": 95116
+  },
+  {
+    "code": "52308",
+    "name": "産業活性化事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "51102",
+    "name": "中山間地域交付金直接支払制度事業",
+    "status": "proposal_unvalidated",
+    "start": 80399
+  },
+  {
+    "code": "51112",
+    "name": "市獣害対策・鳥獣被害防止対策施設整備事業",
+    "status": "proposal_unvalidated",
+    "start": 81170
+  },
+  {
+    "code": "51113",
+    "name": "鳥獣被害防止総合対策交付金事業",
+    "status": "proposal_unvalidated",
+    "start": 81198
+  },
+  {
+    "code": "51114",
+    "name": "地域農業水利施設ストックマネジメント事業",
+    "status": "proposal_unvalidated",
+    "start": 81221
+  },
+  {
+    "code": "51117",
+    "name": "農地法に基づく申請・相談業務等実施事業",
+    "status": "proposal_unvalidated",
+    "start": 81305
+  },
+  {
+    "code": "51121",
+    "name": "委員総会、農政会議、定例本会議、運営委員会等実施事業",
+    "status": "proposal_unvalidated",
+    "start": 81625
+  },
+  {
+    "code": "51201",
+    "name": "担い手農地情報活用集積促進事業",
+    "status": "proposal_unvalidated",
+    "start": 83339
+  },
+  {
+    "code": "51207",
+    "name": "新山村振興等農林漁業特別対策事業",
+    "status": "proposal_unvalidated",
+    "start": 83812
+  },
+  {
+    "code": "51215",
+    "name": "市担い手育成総合支援協議会事業",
+    "status": "proposal_unvalidated",
+    "start": 84396
+  },
+  {
+    "code": "51302",
+    "name": "協議会負担金事業（丹波黒大豆優良種子生産協議会・山の芋種芋生産推進協議会）",
+    "status": "proposal_unvalidated",
+    "start": 86336
+  },
+  {
+    "code": "51305",
+    "name": "東京都庁「全国観光ＰＲイベント」事業",
+    "status": "proposal_unvalidated",
+    "start": 86581
+  },
+  {
+    "code": "51306",
+    "name": "丹波篠山特産物振興事業(緊急雇用）",
+    "status": "proposal_unvalidated",
+    "start": 86607
+  },
+  {
+    "code": "51307",
+    "name": "丹波篠山黒枝豆「販売解禁イベント」実行委員会補助事業",
+    "status": "proposal_unvalidated",
+    "start": 86632
+  },
+  {
+    "code": "51317",
+    "name": "ひょうご市民農園（レベルアップ型）整備事業",
+    "status": "proposal_unvalidated",
+    "start": 87425
+  },
+  {
+    "code": "52304",
+    "name": "（仮称）篠山市商工業振興基本条例策定業務",
+    "status": "proposal_unvalidated",
+    "start": 94515
+  },
+  {
+    "code": "53104",
+    "name": "温泉活性化事業",
+    "status": "proposal_unvalidated",
+    "start": 96803
+  },
+  {
+    "code": "53301",
+    "name": "城東味まつり補助金交付事業",
+    "status": "proposal_unvalidated",
+    "start": 100726
+  },
+  {
+    "code": "53302",
+    "name": "たきまつり補助金交付事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "53304",
+    "name": "観光ｲﾍﾞﾝﾄ事業",
+    "status": "proposal_unvalidated",
+    "start": 101001
+  },
+  {
+    "code": "53305",
+    "name": "観光おもてなし事業",
+    "status": "proposal_unvalidated",
+    "start": 101018
+  },
+  {
+    "code": "53306",
+    "name": "ｲﾍﾞﾝﾄ渋滞対策事業",
+    "status": "proposal_unvalidated",
+    "start": 101052
+  },
+  {
+    "code": "53307",
+    "name": "観光経済効果調査事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "53308",
+    "name": "観光施設整備事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "61101",
+    "name": "丹波の森構想の推進事業",
+    "status": "proposal_unvalidated",
+    "start": 103203
+  },
+  {
+    "code": "61102",
+    "name": "総合計画の進捗管理と見直し業務",
+    "status": "proposal_unvalidated",
+    "start": 103256
+  },
+  {
+    "code": "61103",
+    "name": "市名検討事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "61104",
+    "name": "行政評価実施事業",
+    "status": "proposal_unvalidated",
+    "start": 103407
+  },
+  {
+    "code": "61105",
+    "name": "指定管理者制度事業",
+    "status": "proposal_unvalidated",
+    "start": 104189
+  },
+  {
+    "code": "61106",
+    "name": "広告事業",
+    "status": "proposal_unvalidated",
+    "start": 103462
+  },
+  {
+    "code": "61107",
+    "name": "補助事業審査・査定業務",
+    "status": "proposal_unvalidated",
+    "start": 104123
+  },
+  {
+    "code": "61109",
+    "name": "予算・決算に関する事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "61110",
+    "name": "予算執行管理業務",
+    "status": "proposal_unvalidated",
+    "start": 103699
+  },
+  {
+    "code": "61111",
+    "name": "地方交付税事務",
+    "status": "proposal_unvalidated",
+    "start": 103742
+  },
+  {
+    "code": "61112",
+    "name": "地方債・公債費事務",
+    "status": "proposal_unvalidated",
+    "start": 103784
+  },
+  {
+    "code": "61113",
+    "name": "財政状況調査・公表事務",
+    "status": "proposal_unvalidated",
+    "start": 103843
+  },
+  {
+    "code": "61115",
+    "name": "地方公会計制度事務",
+    "status": "proposal_unvalidated",
+    "start": 103933
+  },
+  {
+    "code": "61116",
+    "name": "基金・債務負担行為事務",
+    "status": "proposal_unvalidated",
+    "start": 103977
+  },
+  {
+    "code": "61117",
+    "name": "出資法人経営審査事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "61118",
+    "name": "篠山丹南地区防災行政無線事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "61119",
+    "name": "地域イントラネット事業",
+    "status": "proposal_unvalidated",
+    "start": 104230
+  },
+  {
+    "code": "61120",
+    "name": "市広報「丹波篠山」発行事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "61121",
+    "name": "市民べんり帳の修正・作成事務",
+    "status": "proposal_unvalidated",
+    "start": 104371
+  },
+  {
+    "code": "61122",
+    "name": "自衛隊員募集事務",
+    "status": "proposal_unvalidated",
+    "start": 104418
+  },
+  {
+    "code": "61123",
+    "name": "ふるさと一番会議",
+    "status": "proposal_unvalidated",
+    "start": 104459
+  },
+  {
+    "code": "61124",
+    "name": "陳情・要望事務",
+    "status": "proposal_unvalidated",
+    "start": 104506
+  },
+  {
+    "code": "61125",
+    "name": "無料法律相談事務",
+    "status": "proposal_unvalidated",
+    "start": 104561
+  },
+  {
+    "code": "61126",
+    "name": "行政相談事務",
+    "status": "proposal_unvalidated",
+    "start": 104608
+  },
+  {
+    "code": "61127",
+    "name": "市民何でもご意見箱事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "61128",
+    "name": "地域環境整備事業・苦情処理事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "61129",
+    "name": "こんにちは市長室",
+    "status": "proposal_unvalidated",
+    "start": 104811
+  },
+  {
+    "code": "61130",
+    "name": "市ホームページ作成事業",
+    "status": "proposal_unvalidated",
+    "start": 104827
+  },
+  {
+    "code": "61201",
+    "name": "政策課題研究事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "61202",
+    "name": "情報公開制度運用事務",
+    "status": "proposal_unvalidated",
+    "start": 106815
+  },
+  {
+    "code": "61203",
+    "name": "個人情報保護制度運用事務",
+    "status": "proposal_unvalidated",
+    "start": 106833
+  },
+  {
+    "code": "61204",
+    "name": "高等学校振興会補助事業",
+    "status": "proposal_unvalidated",
+    "start": 106853
+  },
+  {
+    "code": "61205",
+    "name": "電算運用業務",
+    "status": "proposal_unvalidated",
+    "start": 106918
+  },
+  {
+    "code": "61206",
+    "name": "統計調査員の確保、管理事業",
+    "status": "proposal_unvalidated",
+    "start": 106932
+  },
+  {
+    "code": "61207",
+    "name": "個人市民税の賦課事務",
+    "status": "proposal_unvalidated",
+    "start": 106498
+  },
+  {
+    "code": "61208",
+    "name": "法人市民税の賦課事務",
+    "status": "proposal_unvalidated",
+    "start": 106569
+  },
+  {
+    "code": "61210",
+    "name": "たばこ税・入湯税の賦課事務",
+    "status": "proposal_unvalidated",
+    "start": 106999
+  },
+  {
+    "code": "61212",
+    "name": "土地の評価に関する事務",
+    "status": "proposal_unvalidated",
+    "start": 107063
+  },
+  {
+    "code": "61213",
+    "name": "家屋の評価に関する事務",
+    "status": "proposal_unvalidated",
+    "start": 107127
+  },
+  {
+    "code": "61214",
+    "name": "償却資産に関する事務",
+    "status": "proposal_unvalidated",
+    "start": 107194
+  },
+  {
+    "code": "61216",
+    "name": "徴収業務（現年・過年度）",
+    "status": "proposal_unvalidated",
+    "start": 108322
+  },
+  {
+    "code": "61217",
+    "name": "人事・給与事務",
+    "status": "proposal_unvalidated",
+    "start": 108342
+  },
+  {
+    "code": "61218",
+    "name": "職員研修事務",
+    "status": "proposal_unvalidated",
+    "start": 107620
+  },
+  {
+    "code": "61219",
+    "name": "職員の福利厚生事務",
+    "status": "proposal_unvalidated",
+    "start": 107672
+  },
+  {
+    "code": "61220",
+    "name": "本庁舎・第2庁舎管理事務",
+    "status": "proposal_unvalidated",
+    "start": 107725
+  },
+  {
+    "code": "61221",
+    "name": "財産管理事務（土地・建物）",
+    "status": "proposal_unvalidated",
+    "start": 107793
+  },
+  {
+    "code": "61222",
+    "name": "市バス運行管理業務",
+    "status": "proposal_unvalidated",
+    "start": 107864
+  },
+  {
+    "code": "61223",
+    "name": "入札・契約の適正化業務",
+    "status": "proposal_unvalidated",
+    "start": 107918
+  },
+  {
+    "code": "61224",
+    "name": "公金の管理・調達事務",
+    "status": "proposal_unvalidated",
+    "start": 107973
+  },
+  {
+    "code": "61225",
+    "name": "決算調整事務",
+    "status": "proposal_unvalidated",
+    "start": 108018
+  },
+  {
+    "code": "61226",
+    "name": "定期監査業務",
+    "status": "proposal_unvalidated",
+    "start": 108059
+  },
+  {
+    "code": "61227",
+    "name": "財政援助団体監査業務",
+    "status": "proposal_unvalidated",
+    "start": 108100
+  },
+  {
+    "code": "61228",
+    "name": "例月出納検査業務",
+    "status": "proposal_unvalidated",
+    "start": 108145
+  },
+  {
+    "code": "61229",
+    "name": "決算審査業務",
+    "status": "proposal_unvalidated",
+    "start": 108188
+  },
+  {
+    "code": "61230",
+    "name": "住民監査請求に基づく監査業務",
+    "status": "proposal_unvalidated",
+    "start": 108229
+  },
+  {
+    "code": "61231",
+    "name": "職員団体の登録業務",
+    "status": "proposal_unvalidated",
+    "start": 108278
+  },
+  {
+    "code": "61232",
+    "name": "管理職員等の範囲決定業務",
+    "status": "proposal_unvalidated",
+    "start": 108498
+  },
+  {
+    "code": "61233",
+    "name": "選挙管理委員会事務",
+    "status": "proposal_unvalidated",
+    "start": 108545
+  },
+  {
+    "code": "61234",
+    "name": "兵庫県議会議員選挙業務",
+    "status": "proposal_unvalidated",
+    "start": 108589
+  },
+  {
+    "code": "61235",
+    "name": "農業委員会委員選挙業務",
+    "status": "proposal_unvalidated",
+    "start": 108635
+  },
+  {
+    "code": "61236",
+    "name": "市議会議員選挙業務(準備）",
+    "status": "proposal_unvalidated",
+    "start": 108681
+  },
+  {
+    "code": "61237",
+    "name": "固定資産評価審査委員会事務",
+    "status": "proposal_unvalidated",
+    "start": 108729
+  },
+  {
+    "code": "61238",
+    "name": "戸籍・住民票等関連業務",
+    "status": "proposal_unvalidated",
+    "start": 108795
+  },
+  {
+    "code": "61239",
+    "name": "総合窓口業務",
+    "status": "proposal_unvalidated",
+    "start": 108832
+  },
+  {
+    "code": "61240",
+    "name": "城東支所窓口業務",
+    "status": "proposal_unvalidated",
+    "start": 108894
+  },
+  {
+    "code": "61241",
+    "name": "多紀支所窓口業務",
+    "status": "proposal_unvalidated",
+    "start": 108946
+  },
+  {
+    "code": "61242",
+    "name": "西紀支所窓口業務",
+    "status": "proposal_unvalidated",
+    "start": 108998
+  },
+  {
+    "code": "61243",
+    "name": "丹南支所窓口業務",
+    "status": "proposal_unvalidated",
+    "start": 109049
+  },
+  {
+    "code": "61244",
+    "name": "今田支所窓口業務",
+    "status": "proposal_unvalidated",
+    "start": 109101
+  },
+  {
+    "code": "61301",
+    "name": "自治基本条例推進事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "61302",
+    "name": "参画・協働プラン策定事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "61303",
+    "name": "地区まちづくり条例制定事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "53102",
+    "name": "レンタサイクルえこりん事業[重点分野雇用創造事業]",
+    "status": "proposal_unvalidated",
+    "start": 96727
+  },
+  {
+    "code": "53103",
+    "name": "オススメ観光PR事業[重点分野雇用創造事業]",
+    "status": "proposal_unvalidated",
+    "start": 96760
+  },
+  {
+    "code": "53303",
+    "name": "味覚フェア楽市楽座補助金交付事業",
+    "status": "proposal_unvalidated",
+    "start": 100968
+  },
+  {
+    "code": "61108",
+    "name": "篠山再生計画（行財政改革編）策定・推進事業",
+    "status": "proposal_unvalidated",
+    "start": 103560
+  },
+  {
+    "code": "61114",
+    "name": "財政収支見通し、健全化法関係事務",
+    "status": "proposal_unvalidated",
+    "start": 104143
+  },
+  {
+    "code": "61209",
+    "name": "軽自動車税の賦課事務（コンビニ収納開始・オリジナルナンバープレート製作）",
+    "status": "proposal_unvalidated",
+    "start": 106947
+  },
+  {
+    "code": "61211",
+    "name": "確定申告・市民税申告相談全般に関する事務",
+    "status": "proposal_unvalidated",
+    "start": 107014
+  },
+  {
+    "code": "61215",
+    "name": "固定資産税の評価替えに関する事務",
+    "status": "proposal_unvalidated",
+    "start": 107390
+  },
+  {
+    "code": "61245",
+    "name": "支所管内公共施設管理事務[西紀]",
+    "status": "proposal_unvalidated",
+    "start": 109147
+  },
+  {
+    "code": "61246",
+    "name": "支所管内公共施設管理事務[今田]",
+    "status": "proposal_unvalidated",
+    "start": 109278
+  },
+  {
+    "code": "62102",
+    "name": "コミュニティセンタ－管理業務",
+    "status": "proposal_unvalidated",
+    "start": 113037
+  },
+  {
+    "code": "62103",
+    "name": "自治会行政事務",
+    "status": "proposal_unvalidated",
+    "start": 113102
+  },
+  {
+    "code": "62104",
+    "name": "篠山市自治会長会事務局事務",
+    "status": "proposal_unvalidated",
+    "start": 113271
+  },
+  {
+    "code": "62105",
+    "name": "まちづくり協議会事務",
+    "status": "proposal_unvalidated",
+    "start": 113301
+  },
+  {
+    "code": "62107",
+    "name": "県民交流広場事業推進事務",
+    "status": "proposal_unvalidated",
+    "start": 113353
+  },
+  {
+    "code": "62108",
+    "name": "丹波の森大学事業",
+    "status": "proposal_unvalidated",
+    "start": 113373
+  },
+  {
+    "code": "62109",
+    "name": "地域アドバイザー配置業務",
+    "status": "proposal_unvalidated",
+    "start": 113414
+  },
+  {
+    "code": "62110",
+    "name": "後川・雲部小跡地利用計画事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "62111",
+    "name": "地域サポート職員制度事務",
+    "status": "proposal_unvalidated",
+    "start": 113520
+  },
+  {
+    "code": "62112",
+    "name": "酒井貞子人材育成基金事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "62201",
+    "name": "市民プラザ運営事業",
+    "status": "proposal_unvalidated",
+    "start": 114999
+  },
+  {
+    "code": "62202",
+    "name": "コミュニティ助成事業",
+    "status": "proposal_unvalidated",
+    "start": 115138
+  },
+  {
+    "code": "62203",
+    "name": "緑化関連事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "62301",
+    "name": "官学地域連携事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "62302",
+    "name": "丹波篠山ふるさと応援団事務",
+    "status": "proposal_unvalidated",
+    "start": 117383
+  },
+  {
+    "code": "62303",
+    "name": "地域間交流事業",
+    "status": "proposal_unvalidated",
+    "start": 117404
+  },
+  {
+    "code": "62304",
+    "name": "国内交流推進事業",
+    "status": "proposal_unvalidated",
+    "start": 117419
+  },
+  {
+    "code": "62306",
+    "name": "市保護司会補助事業",
+    "status": "proposal_unvalidated",
+    "start": 117463
+  },
+  {
+    "code": "62307",
+    "name": "市更生保護女性会補助事業",
+    "status": "proposal_unvalidated",
+    "start": 117541
+  },
+  {
+    "code": "62308",
+    "name": "善意の日の表彰事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "62310",
+    "name": "福祉資金借入金利子補給事業",
+    "status": "proposal_unvalidated",
+    "start": 117813
+  },
+  {
+    "code": "62311",
+    "name": "県遺徳顕彰会負担金事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "62312",
+    "name": "丹有原爆被爆者会負担事業",
+    "status": "existing_same_source_name"
+  },
+  {
+    "code": "62101",
+    "name": "集落における公共的施設建設助成事業",
+    "status": "proposal_unvalidated",
+    "start": 112894
+  },
+  {
+    "code": "62106",
+    "name": "ふるさと自立計画推進モデル事業交流・拠点等整備費",
+    "status": "proposal_unvalidated",
+    "start": 113320
+  },
+  {
+    "code": "62309",
+    "name": "無年金外国籍高齢者等福祉給付金支給事業",
+    "status": "proposal_unvalidated",
+    "start": 117785
+  },
+  {
+    "code": "12321",
+    "name": "後期高齢者医療健康診査事業",
+    "status": "proposal_unvalidated",
+    "start": 17525
+  },
+  {
+    "code": "12322",
+    "name": "介護保険事業所実地指導",
+    "status": "proposal_unvalidated",
+    "start": 17975
+  },
+  {
+    "code": "62305",
+    "name": "ﾕﾆﾊﾞｰｻﾙ社会づくり実践ﾓﾃﾞﾙ事業",
+    "status": "proposal_unvalidated",
+    "start": 117435
+  },
+  {
+    "code": "11311",
+    "name": "食生活改善推進活動事業（いずみ会活動）",
+    "status": "proposal_unvalidated",
+    "start": 7544
+  },
+  {
+    "code": "21131",
+    "name": "消防用設備等の設置、維持管理指導",
+    "status": "proposal_unvalidated",
+    "start": 30069
+  },
+  {
+    "code": "12408",
+    "name": "地域福祉事業（日置ふれあい館）",
+    "status": "proposal_unvalidated",
+    "start": 20798
+  },
+  {
+    "code": "12409",
+    "name": "地域福祉事業（西紀ふれあい館）",
+    "status": "proposal_unvalidated",
+    "start": 20821
+  },
+  {
+    "code": "12410",
+    "name": "地域福祉事業（味間ふれあい館）",
+    "status": "proposal_unvalidated",
+    "start": 20844
+  },
+  {
+    "code": "12411",
+    "name": "地域福祉事業（古市ふれあい館）",
+    "status": "proposal_unvalidated",
+    "start": 20867
+  },
+  {
+    "code": "32224",
+    "name": "青少年健全育成団体連携事業（市青少年健全育成推進連絡協議会）",
+    "status": "proposal_unvalidated",
+    "start": 54653
+  },
+  {
+    "code": "32226",
+    "name": "青少年健全育成団体連携事業（市PTA協議会・市子ども会連絡協議会）",
+    "status": "proposal_unvalidated",
+    "start": 54709
+  },
+  {
+    "code": "32309",
+    "name": "篠山東部学校給食センター特色のある献立作成事業",
+    "status": "proposal_unvalidated",
+    "start": 57541
+  },
+  {
+    "code": "32310",
+    "name": "篠山東部学校給食センター食育推進活動事業",
+    "status": "proposal_unvalidated",
+    "start": 57572
+  },
+  {
+    "code": "32311",
+    "name": "篠山東部学校給食センター学校給食調理業務",
+    "status": "proposal_unvalidated",
+    "start": 57600
+  },
+  {
+    "code": "32312",
+    "name": "篠山西部学校給食センター地元産物活用事業",
+    "status": "proposal_unvalidated",
+    "start": 57628
+  },
+  {
+    "code": "32313",
+    "name": "篠山西部学校給食センター特色のある献立作成事業",
+    "status": "proposal_unvalidated",
+    "start": 57656
+  },
+  {
+    "code": "32314",
+    "name": "篠山西部学校給食センター食育推進活動事業",
+    "status": "proposal_unvalidated",
+    "start": 57687
+  },
+  {
+    "code": "32315",
+    "name": "篠山西部学校給食センター学校給食調理業務",
+    "status": "proposal_unvalidated",
+    "start": 57715
+  },
+  {
+    "code": "43104",
+    "name": "福住地区における町並み保存・活用事業",
+    "status": "proposal_unvalidated",
+    "start": 75587
+  },
+  {
+    "code": "51108",
+    "name": "土地改良施設の整備（市単独環境配慮型土地改良事業）",
+    "status": "proposal_unvalidated",
+    "start": 81057
+  },
+  {
+    "code": "51109",
+    "name": "土地改良施設の整備・災害農地復旧事業",
+    "status": "proposal_unvalidated",
+    "start": 81090
+  },
+  {
+    "name": "地域福祉事業（畑ふれあい館）",
+    "status": "proposal_unvalidated",
+    "start": 20782
+  },
+  {
+    "name": "篠山市体育協会および体育振興会支援事業",
+    "status": "proposal_unvalidated",
+    "start": 24088
+  },
+  {
+    "name": "篠山総合スポーツセンター管理・受付事業",
+    "status": "proposal_unvalidated",
+    "start": 24172
+  },
+  {
+    "name": "丹波文化団体連絡協議会負担金事業",
+    "status": "proposal_unvalidated",
+    "start": 24952
+  },
+  {
+    "name": "篠山東部学校給食センター地元産物活用事業",
+    "status": "proposal_unvalidated",
+    "start": 57519
+  },
+  {
+    "name": "一般廃棄物収集処理に関する事務事業",
+    "status": "proposal_unvalidated",
+    "start": 65289
+  },
+  {
+    "name": "資源ごみ集団回収活動奨励金事務事業",
+    "status": "proposal_unvalidated",
+    "start": 66471
+  },
+  {
+    "name": "篠山城下町における町並み保存・活用事業",
+    "status": "proposal_unvalidated",
+    "start": 75566
+  },
+  {
+    "name": "史跡篠山城跡保存管理計画策定事業",
+    "status": "proposal_unvalidated",
+    "start": 75875
+  },
+  {
+    "name": "青山デカンショ実行委員会補助金事業",
+    "status": "proposal_unvalidated",
+    "start": 86562
+  },
+  {
+    "name": "着地型観光事業[重点分野雇用創造事業]",
+    "status": "proposal_unvalidated",
+    "start": 96706
+  },
+  {
+    "name": "観光PR事業",
+    "status": "proposal_unvalidated",
+    "start": 98713
+  },
+  {
+    "name": "体験教育推進事業",
+    "status": "proposal_unvalidated",
+    "start": 51123
+  }
+]

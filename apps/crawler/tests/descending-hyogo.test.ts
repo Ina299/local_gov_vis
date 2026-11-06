@@ -23,7 +23,7 @@ test('Hyogo proposals require full pinned bodies and literal evidence; no invent
  for(const c of configs){const i=inputs.find(i=>i.sourceId===c.sourceId)!;const r=run(c.sourceId);assert.equal(r.projects.length,c.rows.length);count+=r.projects.length;
  for(const p of r.projects){assert.equal(p.amounts.length,0);assert.equal(p.ratings.length,0);assert.equal(p.indicators.length,0);for(const e of p.evidence){const src=inputs.find(x=>x.sourceUrl===e.sourceUrl)!;const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}
  for(const bad of [{...i,text:i.text+'x'},{...i,truncated:true},{...i,sourceSha256:'x'},{...i,sourceUrl:i.sourceUrl+'x'}])assert.equal(reviewHyogo(bad,inputs)!.projects.length,0);
- }assert.equal(count,2277);
+ }assert.equal(count,2708);
 });
 
 
@@ -46,7 +46,7 @@ test('Sasayama list identities do not inherit policy grades or invent carryover/
 test('Awaji budget related materials and joint cross-year grants remain outside evaluation candidates',()=>{
  for(const id of ['f6ccf980b9afe5dc9e7e7721','d01430eaa02afdc1bfc0df18','a6b5f27b09a38a95f6676b0f','29d969ee5bf4fd4184f5e0ec','efb6a2b57bb7def5b4c8241f'])assert.ok(!configs.some(c=>c.sourceId===id));
 });
-for(const [sid,year,count]of [['2f361c684fbe2856437d9689',2011,201],['6173941d80f4f6da1b453e54',2010,267],['b8285a353df66a1b3da8cf7a',2009,239],['ac5332c108d6aa6f063dfe6c',2008,89]]as const)test(`Sasayama ${year} complete annual names reject fragment and numeric-column inference`,()=>{
+for(const [sid,year,count]of [['2f361c684fbe2856437d9689',2011,632],['6173941d80f4f6da1b453e54',2010,267],['b8285a353df66a1b3da8cf7a',2009,239],['ac5332c108d6aa6f063dfe6c',2008,89]]as const)test(`Sasayama ${year} complete annual names reject fragment and numeric-column inference`,()=>{
  const ps=run(sid).projects;assert.equal(ps.length,count);assert.ok(ps.every(p=>p.evaluatedFiscalYear===year&&p.evaluationYear===null));assert.equal(new Set(ps.map(p=>p.projectName.normalize('NFKC').replace(/\s+/g,''))).size,count);
  assert.ok(!ps.some(p=>['備補助金事務事業','制事業','金事業','事業','負担軽減事業','助事業','事務事業','局事業','理事業','ト」事業','助成事業','会事業','援協議会事業','支援事業','研究事業','各助成金事業','各負担金事業','県営土地改良事業'].includes(p.projectName)));
 });
@@ -93,4 +93,23 @@ test('Sasayama FY2007 repeated generic rows stay held and qualified titles are n
  assert.equal(ps.filter(p=>p.projectName==='償還推進事業').length,1);
  const src=inputs.find(i=>i.sourceId==='f54a43aebbed7ce3b3271439')!;
  const tail=ps.find(p=>p.projectName==='漏水減免事務')!;assert.ok(tail.evidence.some(e=>e.cell&&Number(e.cell.match(/chars:(\d+)/)?.[1])>src.text.indexOf('28/28')));
+});
+
+
+test('Sasayama FY2011 keeps complete service titles apart from prior actual and future target columns',()=>{
+ const ps=run('2f361c684fbe2856437d9689').projects;
+ assert.ok(ps.every(p=>p.evaluatedFiscalYear===2011&&p.evaluationYear===null&&p.amounts.length===0&&p.ratings.length===0&&p.indicators.length===0));
+ for(const name of ['健診等受診補助事業','保健事業担当者研修・保健師研修・栄養士研修・予防接種従事者研修等事業','篠山東部学校給食センター地元産物活用事業','篠山西部学校給食センター地元産物活用事業','地域福祉事業（日置ふれあい館）','地域福祉事業（古市ふれあい館）','青少年健全育成団体連携事業（市PTA協議会・市子ども会連絡協議会）'])assert.ok(ps.some(p=>p.projectName===name),name);
+ assert.ok(!ps.some(p=>p.projectName==='がん検診等受診者健診等受診補助事業'));
+ const expense=ps.find(p=>p.projectName==='兵庫医科大学医師確保対策費補助金')!;assert.ok(expense);assert.ok(!expense.evidence[0].rawText.includes('補助金額'));
+});
+
+test('Sasayama FY2011 does not turn component lists, repeated identities or detached codes into extra records',()=>{
+ const result=run('2f361c684fbe2856437d9689'),ps=result.projects;
+ assert.equal(result.units.filter(u=>u.status==='identity_or_period_hold').length,25);
+ for(const name of ['介護保険苦情相談事業','各補助金事業','各助成金事業','各負担金事業','県営土地改良事業','22年工業統計調査事業','24年経済センサス調査事業','丹南音頭保存会補助事業','④まるいの事業'])assert.ok(!ps.some(p=>p.projectName===name),name);
+ for(const name of ['観光PR事業','体験教育推進事業','かぞくdeおいしんぼクッキング事業','子育てふれあいセンター事業','国際交流推進事業'])assert.equal(ps.filter(p=>p.projectName===name).length,1,name);
+ // This identity already existed before this tranche: retain it, but add no second ambiguous row.
+ const retained=ps.filter(p=>p.projectName==='資源ごみ拠点回収事業');assert.equal(retained.length,1);assert.ok(retained[0].evidence.some(e=>e.cell==='extracted-text:chars:65761-65771'&&e.rawText==='資源ごみ拠点回収事業'));
+ assert.ok(ps.every(p=>p.projectCode===null));
 });

@@ -1,20 +1,20 @@
 {
-  "candidateRecords": 2275,
-  "rawProposals": 2277,
+  "candidateRecords": 2706,
+  "rawProposals": 2708,
   "perMunicipality": {
     "稲美町": 78,
     "猪名川町": 419,
-    "丹波篠山市": 1778
+    "丹波篠山市": 2209
   },
-  "additionalCandidateRecords": 157,
-  "previousPublishedHead": "e7b9f2b1243d581330a8012f80e619b4599c64f1",
+  "additionalCandidateRecords": 431,
+  "previousPublishedHead": "ab69040a3e6cf4f403c03c0f839d6c23fb31663b",
   "sourcesInventoried": 86,
   "completeBodies": 68,
   "continuationParts": 2,
   "missingBodies": 18,
   "existingDuplicateOutputs": 576,
-  "validatedCumulativeCandidates": 20901,
-  "validatedEvidence": 55524,
+  "validatedCumulativeCandidates": 21332,
+  "validatedEvidence": 57011,
   "excludedFromCumulative": [
     "Okinawa1084",
     "initial93"
@@ -35,8 +35,8 @@
   ],
   "phaseComplete": false,
   "checks": {
-    "focused": "20/20",
-    "crawler": "637/637",
+    "focused": "22/22",
+    "crawler": "639/639",
     "web": "256/256",
     "typecheck": "pass",
     "lint": "pass with existing font warning",
@@ -44,5 +44,5 @@
     "static": "109 pages /local_gov_vis",
     "fieldProposals": "71 proposals /213 exactquotes /7negative cases"
   },
-  "remaining": "FY2007 title review:339 identities and12 explicit holds after all28footer sections andtail; no financial orgrade inference. FY2008 five annual-scope andfive fragmented-title holds retained. FY2011 andotherannual books have actionable cached work. External subsequent proposals notincluded. Missing18bodies held; no new acquisition. CI unverified after priorActions403, not retried. User unpublished local changes are notobservable."
+  "remaining": "FY2011:632 title identities,25 held units;1131 token dispositions reviewed across41policy sections. No numerical or grade inference. FY2010 and FY2009 remain actionable cached sources; external next-tranche proposals are unvalidated and excluded. Prior FY2007/08 holds remain. Missing18 bodies held, no acquisition. CI unverified after priorActions403; no retry. User unpublished changes unobservable."
 }
