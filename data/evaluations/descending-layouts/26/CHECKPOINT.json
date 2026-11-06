@@ -1,0 +1,31 @@
+{
+  "candidateRecords": 82,
+  "additionalCandidateRecords": 82,
+  "previousPublishedHead": "775fc4d7491b6286abf1d882e228d0cbefff0e16",
+  "perMunicipality": {
+    "伊根町": 15,
+    "南山城村": 1,
+    "笠置町": 4,
+    "宇治田原町": 62
+  },
+  "validatedCumulativeCandidates": 22704,
+  "validatedEvidence": 62122,
+  "excludedSeparateSets": {
+    "Okinawa": 1084,
+    "initial": 93
+  },
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0,
+  "checks": {
+    "focused": "6/6 Kyoto",
+    "crawler": "669/669",
+    "web": "256/256 serial",
+    "typecheck": "passed",
+    "lint": "passed; existing font warning",
+    "national": "verified",
+    "static": "109/109 subpath export"
+  },
+  "remaining": "八幡市決算書・福知山市教育点検評価の保存済み本文は継続レビュー対象。本文未保存3資料は取得せず保留。8件の年度・繰越重複保留。全国収集完了ではない。",
+  "remoteCI": "unverified; prior Actions API 403; no retry"
+}

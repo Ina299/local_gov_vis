@@ -1,0 +1,169 @@
+{
+  "prefecture": "26",
+  "master": "b3f8012827bc5ed61637a616f11882e9f3ea5145",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-06T03:41:30.710191+00:00",
+  "unpublishedUserChanges": "not observable;collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "26465",
+      "municipalityName": "与謝野町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "045fb2d6829f51397d4365aaa1423c118b6a49553d72fad6d4877d4005daa584"
+    },
+    {
+      "municipalityCode": "26463",
+      "municipalityName": "伊根町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7e1cf2997ba81e27758c69aa1fcca011dd71f9a98857f99ab4f964e7077c3a1f"
+    },
+    {
+      "municipalityCode": "26407",
+      "municipalityName": "京丹波町",
+      "datasetSha256": "e6255b46ae34679b779fbe67bca692e1f73bfc66fd567a7ad77e1f947be4fd89",
+      "evidenceShardSha256": "491af82b60367beffdba833aa8835eb87eb2cbfd9a3b6fcf0ca499589638976e"
+    },
+    {
+      "municipalityCode": "26367",
+      "municipalityName": "南山城村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7f0dbf115d876ce1d9c715979edce35637386ea745ed5a0f1d90548377db21c0"
+    },
+    {
+      "municipalityCode": "26366",
+      "municipalityName": "精華町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "82ee9f724577eec10afa619e6fe03a60d9c6d5c8d9cfee4aca21a448b4a576bf"
+    },
+    {
+      "municipalityCode": "26365",
+      "municipalityName": "和束町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "1b63f2970cb373ad540f4ae5402a5dc0aae18fbde7d090c50f27d58248a44235"
+    },
+    {
+      "municipalityCode": "26364",
+      "municipalityName": "笠置町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f03e305ea17c88e6726bf754b2de456a829dc25fe331a94db17b98d0d20a6918"
+    },
+    {
+      "municipalityCode": "26344",
+      "municipalityName": "宇治田原町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "9c10654051f1993d7632ff1a68b354c94103b5526f994969b32483cab8a29271"
+    },
+    {
+      "municipalityCode": "26343",
+      "municipalityName": "井手町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3837789b3e433fa47bf19f16593254a13b361ec3dc4ba60bed62793efb891bdf"
+    },
+    {
+      "municipalityCode": "26322",
+      "municipalityName": "久御山町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "14c0e145ca3201269732dc5852d370d8f277a9adfcde224534e111688e2a75c6"
+    },
+    {
+      "municipalityCode": "26303",
+      "municipalityName": "大山崎町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "67700f8d0e6881576e344aa3f7e0876eeee8eafdafb2af3e263efdd45fb29abe"
+    },
+    {
+      "municipalityCode": "26214",
+      "municipalityName": "木津川市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "584447ddf8b4577a91efc4fd5894e915e7bf9a10aee9d941d02eaa3bce2c9f85"
+    },
+    {
+      "municipalityCode": "26213",
+      "municipalityName": "南丹市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "0f3de8857c2cb6fa00264c6c8004e6e780f4ca03c4097d680a62f622b254970b"
+    },
+    {
+      "municipalityCode": "26212",
+      "municipalityName": "京丹後市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "70f731e1dcc0a28b6f08c18699392f351527aaf6cf9806d5972515dd84d6ece8"
+    },
+    {
+      "municipalityCode": "26211",
+      "municipalityName": "京田辺市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b9871113ec4a56ca135c9bc20a1e26de647f47358d9f5ae648e049101035eb0c"
+    },
+    {
+      "municipalityCode": "26210",
+      "municipalityName": "八幡市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "86468c55b8e000efe27649799164a4df29d986b6c6d3e078c255115189f16832"
+    },
+    {
+      "municipalityCode": "26209",
+      "municipalityName": "長岡京市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "8bb10e227ae035026cfb25552e20f02d685380c751e53a15559049cbdd412aea"
+    },
+    {
+      "municipalityCode": "26208",
+      "municipalityName": "向日市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a59408a5219ce341eb2528d7e554d5e3ff22aac184df10bdb09dfc6fe4abc723"
+    },
+    {
+      "municipalityCode": "26207",
+      "municipalityName": "城陽市",
+      "datasetSha256": "deacd7ae0e1371dd155183df91c3792ecf872943c93297998b0019e24bfb3b18",
+      "evidenceShardSha256": "1b1cddbe8c2e7c4412221a31cf9b5a8fdba8058ad4361b73055382821ef85276"
+    },
+    {
+      "municipalityCode": "26206",
+      "municipalityName": "亀岡市",
+      "datasetSha256": "8a6fdf470e165a2bab253e6b183d6de060cfa2afad024e265865aa54e8be4420",
+      "evidenceShardSha256": "d12a1e54ccb733d1e735bb95663cce35908e68d81ce78e20b62b710d46bfb255"
+    },
+    {
+      "municipalityCode": "26205",
+      "municipalityName": "宮津市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "72e9380e83b83c9e9fe4740d09d55ac513dcf319f7e563b739cdda705e6eee19"
+    },
+    {
+      "municipalityCode": "26203",
+      "municipalityName": "綾部市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "4db1b72d8c86fd66903e0c84bd6d0da850374ad020707451ffc0315aba5e2661"
+    },
+    {
+      "municipalityCode": "26202",
+      "municipalityName": "舞鶴市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f06e3ba7f8313398b8a92291dee7ca6d5ad1b2c956d80eaa79e61d31ed0f79d8"
+    },
+    {
+      "municipalityCode": "26201",
+      "municipalityName": "福知山市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "9323aa397a9ee336ffc5706dba316c6a7d857ee186149ce03582f5523319db88"
+    },
+    {
+      "municipalityCode": "26100",
+      "municipalityName": "京都市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "5b694b2bbd2aec8182388c7d87ef774a91ac2e480fdcc1d180630bdbbe9d3695"
+    }
+  ],
+  "skipped": [
+    {
+      "municipalityCode": "26204",
+      "municipalityName": "宇治市",
+      "reasons": [
+        "original recent-master exclusion: local baseline differs from common ancestor"
+      ]
+    }
+  ],
+  "rule": "Only exact unchanged dataset/evidence hashes; retain original exclusions; never update baseline hashes to silence mismatch."
+}

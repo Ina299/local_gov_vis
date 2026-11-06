@@ -1,3 +1,4 @@
+import {reviewKyoto} from './descending-kyoto';
 import {reviewOsaka} from './descending-osaka';
 import {reviewHyogo} from './descending-hyogo';
 import {reviewNara} from './descending-nara';
@@ -53,6 +54,7 @@ const evidenceHolds:Record<string,{code:string;proof:string;reason:string;status
  '0a23c81c6c6ae8a10e4fd6cd':{code:'46492',proof:'２．2020 年度実績（\n「宇宙乃浦」創生・「スペースサイエンスタウン構想」実現プロジェクト）',status:'joint_project_identity_hold',reason:'2020 actual report jointly covers two named projects with shared activities/budget, followed by2021 plans and forecast KPI cells. Individual allocation and boundaries are absent; do not split or assign shared figures.'}
 };
 export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]):LayoutReview|null{
+ const kyoto=reviewKyoto(input,inputs);if(kyoto)return kyoto;
  const osaka=reviewOsaka(input,inputs);if(osaka)return osaka;
  const hyogo=reviewHyogo(input,inputs);if(hyogo)return hyogo;
  const nara=reviewNara(input,inputs);if(nara)return nara;
