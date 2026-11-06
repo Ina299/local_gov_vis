@@ -23,7 +23,7 @@ test('Hyogo proposals require full pinned bodies and literal evidence; no invent
  for(const c of configs){const i=inputs.find(i=>i.sourceId===c.sourceId)!;const r=run(c.sourceId);assert.equal(r.projects.length,c.rows.length);count+=r.projects.length;
  for(const p of r.projects){assert.equal(p.amounts.length,0);assert.equal(p.ratings.length,0);assert.equal(p.indicators.length,0);for(const e of p.evidence){const src=inputs.find(x=>x.sourceUrl===e.sourceUrl)!;const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}
  for(const bad of [{...i,text:i.text+'x'},{...i,truncated:true},{...i,sourceSha256:'x'},{...i,sourceUrl:i.sourceUrl+'x'}])assert.equal(reviewHyogo(bad,inputs)!.projects.length,0);
- }assert.equal(count,2708);
+ }assert.equal(count,3325);
 });
 
 
@@ -46,7 +46,7 @@ test('Sasayama list identities do not inherit policy grades or invent carryover/
 test('Awaji budget related materials and joint cross-year grants remain outside evaluation candidates',()=>{
  for(const id of ['f6ccf980b9afe5dc9e7e7721','d01430eaa02afdc1bfc0df18','a6b5f27b09a38a95f6676b0f','29d969ee5bf4fd4184f5e0ec','efb6a2b57bb7def5b4c8241f'])assert.ok(!configs.some(c=>c.sourceId===id));
 });
-for(const [sid,year,count]of [['2f361c684fbe2856437d9689',2011,632],['6173941d80f4f6da1b453e54',2010,267],['b8285a353df66a1b3da8cf7a',2009,239],['ac5332c108d6aa6f063dfe6c',2008,89]]as const)test(`Sasayama ${year} complete annual names reject fragment and numeric-column inference`,()=>{
+for(const [sid,year,count]of [['2f361c684fbe2856437d9689',2011,632],['6173941d80f4f6da1b453e54',2010,601],['b8285a353df66a1b3da8cf7a',2009,522],['ac5332c108d6aa6f063dfe6c',2008,89]]as const)test(`Sasayama ${year} complete annual names reject fragment and numeric-column inference`,()=>{
  const ps=run(sid).projects;assert.equal(ps.length,count);assert.ok(ps.every(p=>p.evaluatedFiscalYear===year&&p.evaluationYear===null));assert.equal(new Set(ps.map(p=>p.projectName.normalize('NFKC').replace(/\s+/g,''))).size,count);
  assert.ok(!ps.some(p=>['備補助金事務事業','制事業','金事業','事業','負担軽減事業','助事業','事務事業','局事業','理事業','ト」事業','助成事業','会事業','援協議会事業','支援事業','研究事業','各助成金事業','各負担金事業','県営土地改良事業'].includes(p.projectName)));
 });
@@ -64,7 +64,7 @@ test('Hyogo wrapped additions preserve all1856 previously published candidate ob
  for(const old of fixture.rows){assert.ok(byId.has(old.id),old.id);assert.equal(createHash('sha256').update(JSON.stringify(byId.get(old.id))).digest('hex'),old.sha256);}
 });
 test('Sasayama wrapped titles exclude mixed KPI prefixes, reprints and qualified-title aliases',()=>{
- for(const sid of ['6173941d80f4f6da1b453e54','b8285a353df66a1b3da8cf7a']){const ps=run(sid).projects;assert.ok(ps.every(p=>!p.projectName.includes('【再掲】')&&!p.projectName.includes('繰越')));assert.ok(!ps.some(p=>['行:(4)-1アクション事業','ま:P52会）事業','休日診療所事業・病院群輪番制事業'].includes(p.projectName)));}
+ for(const sid of ['6173941d80f4f6da1b453e54','b8285a353df66a1b3da8cf7a']){const ps=run(sid).projects;assert.ok(ps.every(p=>!p.projectName.includes('【再掲】')&&!p.projectName.includes('繰越')));assert.ok(!ps.some(p=>['行:(4)-1アクション事業','ま:P52会）事業'].includes(p.projectName)));}
  const ps=run('6173941d80f4f6da1b453e54').projects;assert.ok(ps.some(p=>p.projectName==='母子保健推進員活動事業（愛育班活動）'));assert.ok(ps.some(p=>p.projectName==='要支援・要介護認定調査・主治医意見書作成依頼事業'));
  assert.ok(!run('2f361c684fbe2856437d9689').projects.some(p=>p.projectName==='がん検診等受診者健診等受診補助事業'));
 });
@@ -112,4 +112,34 @@ test('Sasayama FY2011 does not turn component lists, repeated identities or deta
  // This identity already existed before this tranche: retain it, but add no second ambiguous row.
  const retained=ps.filter(p=>p.projectName==='資源ごみ拠点回収事業');assert.equal(retained.length,1);assert.ok(retained[0].evidence.some(e=>e.cell==='extracted-text:chars:65761-65771'&&e.rawText==='資源ごみ拠点回収事業'));
  assert.ok(ps.every(p=>p.projectCode===null));
+});
+
+
+test('Sasayama FY2010 retains explicit institution and service qualifiers without numerical attribution',()=>{
+ const ps=run('6173941d80f4f6da1b453e54').projects;
+ assert.equal(ps.length,601);assert.ok(ps.every(p=>p.evaluatedFiscalYear===2010&&p.evaluationYear===null&&p.projectCode===null&&p.amounts.length===0&&p.ratings.length===0&&p.indicators.length===0));
+ for(const name of ['無年金外国籍高齢者等福祉給付金支給事業','体育指導委員会事業「ミニ駅伝大会」','ごみ収集及び運搬に関する事務事業','農業近代化資金等利子補給事業','地元産物活用事業（東部給食センター）','地元産物活用事業（西部給食センター）','生活・人権相談事業（畑ふれあい館）','生活・人権相談事業（日置ふれあい館）','交流施設等運営事業（黒豆の館）','交流施設等運営事業（丹波旬の市南部店）','市営駐輪場使用料徴収業務（一時利用）','市営駐輪場使用料徴収業務（定時利用）'])assert.ok(ps.some(p=>p.projectName===name),name);
+ const first=ps.find(p=>p.projectName==='無年金外国籍高齢者等福祉給付金支給事業')!;assert.ok(first.evidence.some(e=>e.rawText==='無年金外国籍高齢者等福祉給'));assert.ok(first.evidence.some(e=>e.rawText==='付金支給事業'));
+});
+
+test('Sasayama FY2010 rejects disconnected titles, ambiguous annual identities and duplicate section names',()=>{
+ const result=run('6173941d80f4f6da1b453e54'),ps=result.projects;assert.equal(result.units.filter(u=>u.status==='identity_or_period_hold').length,56);
+ for(const name of ['県営土地改良事業','22年工業統計調査事業','22年経済センサス調査事業','施設管理業務','施設維持管理事業','各種受付事務','視聴覚教育支援事業','業','事業','地域交流事業'])assert.ok(!ps.some(p=>p.projectName===name),name);
+ for(const name of ['トライやる・ウィーク、トライやる・アクション事業','救急車、消防広報車購入整備事業','アグリ産業クラスター構想（研究会）事業'])assert.equal(ps.filter(p=>p.projectName===name).length,1,name);
+ assert.ok(!ps.some(p=>/^(?:行[:：]|ま P52)/.test(p.projectName)));assert.equal(new Set(ps.map(p=>p.projectName.normalize('NFKC').replace(/\s+/g,''))).size,ps.length);
+});
+
+
+test('Sasayama FY2009 literal combined services preserve source spelling and target fiscal year',()=>{
+ const ps=run('b8285a353df66a1b3da8cf7a').projects;assert.equal(ps.length,522);assert.ok(ps.every(p=>p.evaluatedFiscalYear===2009&&p.evaluationYear===null&&p.projectCode===null&&p.amounts.length===0&&p.ratings.length===0&&p.indicators.length===0));
+ for(const name of ['休日診療所事業・病院群輪番制事業','ちびっ子伝統産業体験交流事業事業','住宅防火診断義務','牛ヶ瀬保館費地域福祉事業','安全安心な学校給食の推進（西部）事業','特色ある献立づくり（東部）の実施事業','特色ある献立づくり(西部）の実施事業','教育振興基本計画策定事業','開発支援事務（消防施設設置）','築城４００年記念事業'])assert.ok(ps.some(p=>p.projectName===name),name);
+ const combined=ps.find(p=>p.projectName==='休日診療所事業・病院群輪番制事業')!;assert.ok(combined.evidence.some(e=>e.rawText==='休日診療所事業・病院群輪番'));assert.ok(combined.evidence.some(e=>e.rawText==='制事業'));
+ // FY2010 has detached fragments; the explicit adjacent FY2009 source does not release that separate source's hold.
+ assert.ok(!run('6173941d80f4f6da1b453e54').projects.some(p=>p.projectName==='休日診療所事業・病院群輪番制事業'));
+});
+
+test('Sasayama FY2009 holds repeated section identities and carryover rather than filling from neighbouring years',()=>{
+ const result=run('b8285a353df66a1b3da8cf7a'),ps=result.projects;assert.equal(result.units.filter(u=>u.status==='identity_or_period_hold').length,66);
+ for(const name of ['消防地水利調査事務','災害情報の収集･管理業務','子どもの居場所づくり事業','県営土地改良事業','21年工業統計調査事務','安全安心な学校給食の推進（東部）事業','ちびっ子伝統産業体験交流事業','住宅防火診断業務'])assert.ok(!ps.some(p=>p.projectName===name),name);
+ assert.ok(ps.every(p=>!p.projectName.includes('繰越')&&!p.projectName.includes('【再掲】')));assert.equal(new Set(ps.map(p=>p.projectName.normalize('NFKC').replace(/\s+/g,''))).size,ps.length);
 });

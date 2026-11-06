@@ -16339,6 +16339,3524 @@ export const hyogoRows = [
           }
         ],
         "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "健康増進事業総括事務",
+        "start": 2522,
+        "raw": "健康増進事業総括事務",
+        "note": "Manually reviewed literal annual-business-table title, code 11105. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 2516,
+        "context": "11105 健康増進事業総括事務"
+      },
+      {
+        "name": "健診・がん検診事業",
+        "start": 2589,
+        "raw": "健診・がん検診事業",
+        "note": "Manually reviewed literal annual-business-table title, code 11107. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 2583,
+        "context": "11107 健診・がん検診事業"
+      },
+      {
+        "name": "健康相談事業",
+        "start": 2612,
+        "raw": "健康相談事業",
+        "note": "Manually reviewed literal annual-business-table title, code 11108. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 2606,
+        "context": "11108 健康相談事業"
+      },
+      {
+        "name": "訪問指導業務",
+        "start": 2625,
+        "raw": "訪問指導業務",
+        "note": "Manually reviewed literal annual-business-table title, code 11109. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 2619,
+        "context": "11109 訪問指導業務"
+      },
+      {
+        "name": "健康ささやま２１計画事業",
+        "start": 2762,
+        "raw": "健康ささやま２１計画事業",
+        "note": "Manually reviewed literal annual-business-table title, code 11112. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 2756,
+        "context": "11112 健康ささやま２１計画事業"
+      },
+      {
+        "name": "自殺対策事業",
+        "start": 2819,
+        "raw": "自殺対策事業",
+        "note": "Manually reviewed literal annual-business-table title, code 11114. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 2813,
+        "context": "11114 自殺対策事業"
+      },
+      {
+        "name": "母子保健事業総括事務",
+        "start": 3385,
+        "raw": "母子保健事業総括事務",
+        "note": "Manually reviewed literal annual-business-table title, code 11121. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 3379,
+        "context": "11121 母子保健事業総括事務"
+      },
+      {
+        "name": "母子健康手帳交付事務",
+        "start": 3456,
+        "raw": "母子健康手帳交付事務",
+        "note": "Manually reviewed literal annual-business-table title, code 11122. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 3450,
+        "context": "11122 母子健康手帳交付事務"
+      },
+      {
+        "name": "訪問指導事業",
+        "start": 3480,
+        "raw": "訪問指導事業",
+        "note": "Manually reviewed literal annual-business-table title, code 11123. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 3474,
+        "context": "11123 訪問指導事業"
+      },
+      {
+        "name": "乳幼児健診事業",
+        "start": 3500,
+        "raw": "乳幼児健診事業",
+        "note": "Manually reviewed literal annual-business-table title, code 11124. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 3494,
+        "context": "11124 乳幼児健診事業"
+      },
+      {
+        "name": "すこやか相談事業",
+        "start": 3521,
+        "raw": "すこやか相談事業",
+        "note": "Manually reviewed literal annual-business-table title, code 11125. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 3515,
+        "context": "11125 すこやか相談事業"
+      },
+      {
+        "name": "国民健康保険税賦課業務",
+        "start": 5958,
+        "raw": "国民健康保険税賦課業務",
+        "note": "Manually reviewed literal annual-business-table title, code 11204. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 5952,
+        "context": "11204 国民健康保険税賦課業務"
+      },
+      {
+        "name": "地域医療検討事務",
+        "start": 6034,
+        "raw": "地域医療検討事務",
+        "note": "Manually reviewed literal annual-business-table title, code 11201. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 6028,
+        "context": "11201 地域医療検討事務"
+      },
+      {
+        "name": "広報啓発パンフ作成事業",
+        "start": 6056,
+        "raw": "広報啓発パンフ作成事業",
+        "note": "Manually reviewed literal annual-business-table title, code 11202. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 6050,
+        "context": "11202 広報啓発パンフ作成事業"
+      },
+      {
+        "name": "東雲診療所診療業務",
+        "start": 6090,
+        "raw": "東雲診療所診療業務",
+        "note": "Manually reviewed literal annual-business-table title, code 11205. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 6084,
+        "context": "11205 東雲診療所診療業務"
+      },
+      {
+        "name": "後川診療所診療業務",
+        "start": 6159,
+        "raw": "後川診療所診療業務",
+        "note": "Manually reviewed literal annual-business-table title, code 11206. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 6153,
+        "context": "11206 後川診療所診療業務"
+      },
+      {
+        "name": "草山診療所診療業務",
+        "start": 6224,
+        "raw": "草山診療所診療業務",
+        "note": "Manually reviewed literal annual-business-table title, code 11207. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 6218,
+        "context": "11207 草山診療所診療業務"
+      },
+      {
+        "name": "今田診療所診療業務",
+        "start": 6342,
+        "raw": "今田診療所診療業務",
+        "note": "Manually reviewed literal annual-business-table title, code 11209. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 6336,
+        "context": "11209 今田診療所診療業務"
+      },
+      {
+        "name": "西紀老人福祉ｾﾝﾀｰ管理",
+        "start": 12734,
+        "raw": "西紀老人福祉ｾﾝﾀｰ管理",
+        "note": "Manually reviewed literal annual-business-table title, code 12301. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 12728,
+        "context": "12301 西紀老人福祉ｾﾝﾀｰ管理"
+      },
+      {
+        "name": "高齢者祝福事業事務",
+        "start": 12986,
+        "raw": "高齢者祝福事業事務",
+        "note": "Manually reviewed literal annual-business-table title, code 12305. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 12980,
+        "context": "12305 高齢者祝福事業事務"
+      },
+      {
+        "name": "外出支援サービス事業",
+        "start": 13208,
+        "raw": "外出支援サービス事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12309. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 13202,
+        "context": "12309 外出支援サービス事業"
+      },
+      {
+        "name": "配食サービス事業",
+        "start": 13489,
+        "raw": "配食サービス事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12313. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 13483,
+        "context": "12313 配食サービス事業"
+      },
+      {
+        "name": "介護保険苦情相談事業",
+        "start": 14162,
+        "raw": "介護保険苦情相談事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12323. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 14156,
+        "context": "12323 介護保険苦情相談事業"
+      },
+      {
+        "name": "介護認定審査事業",
+        "start": 14179,
+        "raw": "介護認定審査事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12324. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 14173,
+        "context": "12324 介護認定審査事業"
+      },
+      {
+        "name": "高額介護サービス給付事業",
+        "start": 14349,
+        "raw": "高額介護サービス給付事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12328. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 14343,
+        "context": "12328 高額介護サービス給付事業"
+      },
+      {
+        "name": "介護予防一般高齢者施策事業",
+        "start": 14671,
+        "raw": "介護予防一般高齢者施策事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12331. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 14665,
+        "context": "12331 介護予防一般高齢者施策事業"
+      },
+      {
+        "name": "後期高齢者医療費給付事業",
+        "start": 14691,
+        "raw": "後期高齢者医療費給付事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12332. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 14685,
+        "context": "12332 後期高齢者医療費給付事業"
+      },
+      {
+        "name": "後期高齢者医療健康診査事業",
+        "start": 14710,
+        "raw": "後期高齢者医療健康診査事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12333. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 14704,
+        "context": "12333 後期高齢者医療健康診査事業"
+      },
+      {
+        "name": "県遺徳顕彰会負担金事業",
+        "start": 16702,
+        "raw": "県遺徳顕彰会負担金事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12406. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 16696,
+        "context": "12406 県遺徳顕彰会負担金事業"
+      },
+      {
+        "name": "身体障害者福祉事業",
+        "start": 17458,
+        "raw": "身体障害者福祉事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12417. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 17452,
+        "context": "12417 身体障害者福祉事業"
+      },
+      {
+        "name": "障害者自立支援給付事業",
+        "start": 17560,
+        "raw": "障害者自立支援給付事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12421. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 17554,
+        "context": "12421 障害者自立支援給付事業"
+      },
+      {
+        "name": "重度障害者医療費助成事業",
+        "start": 17831,
+        "raw": "重度障害者医療費助成事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12426. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 17825,
+        "context": "12426 重度障害者医療費助成事業"
+      },
+      {
+        "name": "寡婦医療費助成事業",
+        "start": 18073,
+        "raw": "寡婦医療費助成事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12430. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 18067,
+        "context": "12430 寡婦医療費助成事業"
+      },
+      {
+        "name": "子育てふれあいセンター事業",
+        "start": 20790,
+        "raw": "子育てふれあいセンター事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12507. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 20784,
+        "context": "12507 子育てふれあいセンター事業"
+      },
+      {
+        "name": "家庭児童相談室業務",
+        "start": 21165,
+        "raw": "家庭児童相談室業務",
+        "note": "Manually reviewed literal annual-business-table title, code 12515. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 21159,
+        "context": "12515 家庭児童相談室業務"
+      },
+      {
+        "name": "療育体制整備事業",
+        "start": 21311,
+        "raw": "療育体制整備事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12517. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 21305,
+        "context": "12517 療育体制整備事業"
+      },
+      {
+        "name": "母子自立支援員業務",
+        "start": 21677,
+        "raw": "母子自立支援員業務",
+        "note": "Manually reviewed literal annual-business-table title, code 12525. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 21671,
+        "context": "12525 母子自立支援員業務"
+      },
+      {
+        "name": "母子生活支援施設措置事務",
+        "start": 21731,
+        "raw": "母子生活支援施設措置事務",
+        "note": "Manually reviewed literal annual-business-table title, code 12526. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 21725,
+        "context": "12526 母子生活支援施設措置事務"
+      },
+      {
+        "name": "児童短期入所事業",
+        "start": 21824,
+        "raw": "児童短期入所事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12519. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 21818,
+        "context": "12519 児童短期入所事業"
+      },
+      {
+        "name": "国民年金事務",
+        "start": 23185,
+        "raw": "国民年金事務",
+        "note": "Manually reviewed literal annual-business-table title, code 12601. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 23179,
+        "context": "12601 国民年金事務"
+      },
+      {
+        "name": "社会体育施設利用管理事務",
+        "start": 25346,
+        "raw": "社会体育施設利用管理事務",
+        "note": "Manually reviewed literal annual-business-table title, code 13101. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 25340,
+        "context": "13101 社会体育施設利用管理事務"
+      },
+      {
+        "name": "西紀運動公園管理業務",
+        "start": 25394,
+        "raw": "西紀運動公園管理業務",
+        "note": "Manually reviewed literal annual-business-table title, code 13102. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 25388,
+        "context": "13102 西紀運動公園管理業務"
+      },
+      {
+        "name": "市保護司会補助事業",
+        "start": 30468,
+        "raw": "市保護司会補助事業",
+        "note": "Manually reviewed literal annual-business-table title, code 14104. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 30462,
+        "context": "14104 市保護司会補助事業"
+      },
+      {
+        "name": "市更生保護女性会補助事業",
+        "start": 30484,
+        "raw": "市更生保護女性会補助事業",
+        "note": "Manually reviewed literal annual-business-table title, code 14105. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 30478,
+        "context": "14105 市更生保護女性会補助事業"
+      },
+      {
+        "name": "集落等福祉活動補助事業",
+        "start": 32449,
+        "raw": "集落等福祉活動補助事業",
+        "note": "Manually reviewed literal annual-business-table title, code 14201. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 32443,
+        "context": "14201 集落等福祉活動補助事業"
+      },
+      {
+        "name": "日本赤十字社事務",
+        "start": 34393,
+        "raw": "日本赤十字社事務",
+        "note": "Manually reviewed literal annual-business-table title, code 14303. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 34387,
+        "context": "14303 日本赤十字社事務"
+      },
+      {
+        "name": "市営住宅等改修工事業務",
+        "start": 37951,
+        "raw": "市営住宅等改修工事業務",
+        "note": "Manually reviewed literal annual-business-table title, code 21203. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 37945,
+        "context": "21203 市営住宅等改修工事業務"
+      },
+      {
+        "name": "市営住宅維持管理業務",
+        "start": 37999,
+        "raw": "市営住宅維持管理業務",
+        "note": "Manually reviewed literal annual-business-table title, code 21204. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 37993,
+        "context": "21204 市営住宅維持管理業務"
+      },
+      {
+        "name": "市営住宅使用料賦課業務",
+        "start": 38081,
+        "raw": "市営住宅使用料賦課業務",
+        "note": "Manually reviewed literal annual-business-table title, code 21207. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 38075,
+        "context": "21207 市営住宅使用料賦課業務"
+      },
+      {
+        "name": "空き家バンク運営事業",
+        "start": 38367,
+        "raw": "空き家バンク運営事業",
+        "note": "Manually reviewed literal annual-business-table title, code 21201. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 38361,
+        "context": "21201 空き家バンク運営事業"
+      },
+      {
+        "name": "自然公園施設等維持管理業務",
+        "start": 39891,
+        "raw": "自然公園施設等維持管理業務",
+        "note": "Manually reviewed literal annual-business-table title, code 22101. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 39885,
+        "context": "22101 自然公園施設等維持管理業務"
+      },
+      {
+        "name": "公園施設改修工事業務",
+        "start": 39951,
+        "raw": "公園施設改修工事業務",
+        "note": "Manually reviewed literal annual-business-table title, code 22102. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 39945,
+        "context": "22102 公園施設改修工事業務"
+      },
+      {
+        "name": "橋梁整備事業",
+        "start": 41431,
+        "raw": "橋梁整備事業",
+        "note": "Manually reviewed literal annual-business-table title, code 22201. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 41425,
+        "context": "22201 橋梁整備事業"
+      },
+      {
+        "name": "ささやま桜協会事務局業務",
+        "start": 45178,
+        "raw": "ささやま桜協会事務局業務",
+        "note": "Manually reviewed literal annual-business-table title, code 23102. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 45172,
+        "context": "23102 ささやま桜協会事務局業務"
+      },
+      {
+        "name": "まちづくり交付金事業",
+        "start": 47257,
+        "raw": "まちづくり交付金事業",
+        "note": "Manually reviewed literal annual-business-table title, code 23201. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 47251,
+        "context": "23201 まちづくり交付金事業"
+      },
+      {
+        "name": "景観形成支援事業",
+        "start": 47307,
+        "raw": "景観形成支援事業",
+        "note": "Manually reviewed literal annual-business-table title, code 23202. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 47301,
+        "context": "23202 景観形成支援事業"
+      },
+      {
+        "name": "篠山環境みらい会議事務",
+        "start": 50986,
+        "raw": "篠山環境みらい会議事務",
+        "note": "Manually reviewed literal annual-business-table title, code 24103. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 50980,
+        "context": "24103 篠山環境みらい会議事務"
+      },
+      {
+        "name": "地球温暖化対策実行計画事務",
+        "start": 53265,
+        "raw": "地球温暖化対策実行計画事務",
+        "note": "Manually reviewed literal annual-business-table title, code 24204. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 53259,
+        "context": "24204 地球温暖化対策実行計画事務"
+      },
+      {
+        "name": "環境保全事務事業",
+        "start": 53323,
+        "raw": "環境保全事務事業",
+        "note": "Manually reviewed literal annual-business-table title, code 24205. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 53317,
+        "context": "24205 環境保全事務事業"
+      },
+      {
+        "name": "緑のカーテン普及事業",
+        "start": 53425,
+        "raw": "緑のカーテン普及事業",
+        "note": "Manually reviewed literal annual-business-table title, code 24203. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 53419,
+        "context": "24203 緑のカーテン普及事業"
+      },
+      {
+        "name": "ごみ指定袋購入事務",
+        "start": 53443,
+        "raw": "ごみ指定袋購入事務",
+        "note": "Manually reviewed literal annual-business-table title, code 24208. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 53437,
+        "context": "24208 ごみ指定袋購入事務"
+      },
+      {
+        "name": "資源ごみ拠点回収業務",
+        "start": 53459,
+        "raw": "資源ごみ拠点回収業務",
+        "note": "Manually reviewed literal annual-business-table title, code 24209. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 53453,
+        "context": "24209 資源ごみ拠点回収業務"
+      },
+      {
+        "name": "ごみ収集運搬業務委託事務",
+        "start": 53673,
+        "raw": "ごみ収集運搬業務委託事務",
+        "note": "Manually reviewed literal annual-business-table title, code 24210. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 53667,
+        "context": "24210 ごみ収集運搬業務委託事務"
+      },
+      {
+        "name": "ごみ収集運搬業務",
+        "start": 55467,
+        "raw": "ごみ収集運搬業務",
+        "note": "Manually reviewed literal annual-business-table title, code 24302. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 55461,
+        "context": "24302 ごみ収集運搬業務"
+      },
+      {
+        "name": "粗大ごみ収集運搬業務",
+        "start": 55512,
+        "raw": "粗大ごみ収集運搬業務",
+        "note": "Manually reviewed literal annual-business-table title, code 24303. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 55506,
+        "context": "24303 粗大ごみ収集運搬業務"
+      },
+      {
+        "name": "ごみ指定袋販売業務",
+        "start": 55556,
+        "raw": "ごみ指定袋販売業務",
+        "note": "Manually reviewed literal annual-business-table title, code 24304. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 55550,
+        "context": "24304 ごみ指定袋販売業務"
+      },
+      {
+        "name": "施設見学者説明案内事務",
+        "start": 55647,
+        "raw": "施設見学者説明案内事務",
+        "note": "Manually reviewed literal annual-business-table title, code 24306. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 55641,
+        "context": "24306 施設見学者説明案内事務"
+      },
+      {
+        "name": "広報等市民啓発業務",
+        "start": 55714,
+        "raw": "広報等市民啓発業務",
+        "note": "Manually reviewed literal annual-business-table title, code 24307. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 55708,
+        "context": "24307 広報等市民啓発業務"
+      },
+      {
+        "name": "ガラス細工体験教室運営業務",
+        "start": 55758,
+        "raw": "ガラス細工体験教室運営業務",
+        "note": "Manually reviewed literal annual-business-table title, code 24308. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 55752,
+        "context": "24308 ガラス細工体験教室運営業務"
+      },
+      {
+        "name": "計量・受付事務",
+        "start": 55812,
+        "raw": "計量・受付事務",
+        "note": "Manually reviewed literal annual-business-table title, code 24309. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 55806,
+        "context": "24309 計量・受付事務"
+      },
+      {
+        "name": "管理棟、計量棟他管理業務",
+        "start": 55856,
+        "raw": "管理棟、計量棟他管理業務",
+        "note": "Manually reviewed literal annual-business-table title, code 24310. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 55850,
+        "context": "24310 管理棟、計量棟他管理業務"
+      },
+      {
+        "name": "ごみ指定袋在庫管理",
+        "start": 55904,
+        "raw": "ごみ指定袋在庫管理",
+        "note": "Manually reviewed literal annual-business-table title, code 24311. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 55898,
+        "context": "24311 ごみ指定袋在庫管理"
+      },
+      {
+        "name": "感染性廃棄物処理業務",
+        "start": 55947,
+        "raw": "感染性廃棄物処理業務",
+        "note": "Manually reviewed literal annual-business-table title, code 24312. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 55941,
+        "context": "24312 感染性廃棄物処理業務"
+      },
+      {
+        "name": "可燃性粗大ごみ破砕業務",
+        "start": 55993,
+        "raw": "可燃性粗大ごみ破砕業務",
+        "note": "Manually reviewed literal annual-business-table title, code 24313. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 55987,
+        "context": "24313 可燃性粗大ごみ破砕業務"
+      },
+      {
+        "name": "公害関係物質等分析委託業務",
+        "start": 56119,
+        "raw": "公害関係物質等分析委託業務",
+        "note": "Manually reviewed literal annual-business-table title, code 24316. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 56113,
+        "context": "24316 公害関係物質等分析委託業務"
+      },
+      {
+        "name": "焼却灰搬出、処理委託事務",
+        "start": 56166,
+        "raw": "焼却灰搬出、処理委託事務",
+        "note": "Manually reviewed literal annual-business-table title, code 24317. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 56160,
+        "context": "24317 焼却灰搬出、処理委託事務"
+      },
+      {
+        "name": "最終処分場管理業務",
+        "start": 56212,
+        "raw": "最終処分場管理業務",
+        "note": "Manually reviewed literal annual-business-table title, code 24318. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 56206,
+        "context": "24318 最終処分場管理業務"
+      },
+      {
+        "name": "ごみ搬入受付業務",
+        "start": 56255,
+        "raw": "ごみ搬入受付業務",
+        "note": "Manually reviewed literal annual-business-table title, code 24319. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 56249,
+        "context": "24319 ごみ搬入受付業務"
+      },
+      {
+        "name": "リサイクル施設処理管理業務",
+        "start": 56300,
+        "raw": "リサイクル施設処理管理業務",
+        "note": "Manually reviewed literal annual-business-table title, code 24320. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 56294,
+        "context": "24320 リサイクル施設処理管理業務"
+      },
+      {
+        "name": "滲出水処理施設管理業務",
+        "start": 56378,
+        "raw": "滲出水処理施設管理業務",
+        "note": "Manually reviewed literal annual-business-table title, code 24322. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 56372,
+        "context": "24322 滲出水処理施設管理業務"
+      },
+      {
+        "name": "ごみ選別業務委託事務",
+        "start": 56480,
+        "raw": "ごみ選別業務委託事務",
+        "note": "Manually reviewed literal annual-business-table title, code 24324. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 56474,
+        "context": "24324 ごみ選別業務委託事務"
+      },
+      {
+        "name": "ごみ焼却施設管理業務",
+        "start": 56527,
+        "raw": "ごみ焼却施設管理業務",
+        "note": "Manually reviewed literal annual-business-table title, code 24314. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 56521,
+        "context": "24314 ごみ焼却施設管理業務"
+      },
+      {
+        "name": "資源化物の売却業務",
+        "start": 56545,
+        "raw": "資源化物の売却業務",
+        "note": "Manually reviewed literal annual-business-table title, code 24321. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 56539,
+        "context": "24321 資源化物の売却業務"
+      },
+      {
+        "name": "防火管理者制度事務",
+        "start": 58060,
+        "raw": "防火管理者制度事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25103. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 58054,
+        "context": "25103 防火管理者制度事務"
+      },
+      {
+        "name": "住宅防火診断事務",
+        "start": 58144,
+        "raw": "住宅防火診断事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25105. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 58138,
+        "context": "25105 住宅防火診断事務"
+      },
+      {
+        "name": "防火安全協会事務",
+        "start": 58194,
+        "raw": "防火安全協会事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25106. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 58188,
+        "context": "25106 防火安全協会事務"
+      },
+      {
+        "name": "住宅防火に関する事務",
+        "start": 58248,
+        "raw": "住宅防火に関する事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25107. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 58242,
+        "context": "25107 住宅防火に関する事務"
+      },
+      {
+        "name": "火災調査事務",
+        "start": 58450,
+        "raw": "火災調査事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25113. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 58444,
+        "context": "25113 火災調査事務"
+      },
+      {
+        "name": "防災・減災啓発活動業務",
+        "start": 58652,
+        "raw": "防災・減災啓発活動業務",
+        "note": "Manually reviewed literal annual-business-table title, code 25117. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 58646,
+        "context": "25117 防災・減災啓発活動業務"
+      },
+      {
+        "name": "総合訓練の立案・広報事務",
+        "start": 58773,
+        "raw": "総合訓練の立案・広報事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25108. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 58767,
+        "context": "25108 総合訓練の立案・広報事務"
+      },
+      {
+        "name": "火災調査に伴う情報管理事務",
+        "start": 58805,
+        "raw": "火災調査に伴う情報管理事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25109. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 58799,
+        "context": "25109 火災調査に伴う情報管理事務"
+      },
+      {
+        "name": "消防委員会事務",
+        "start": 60455,
+        "raw": "消防委員会事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25205. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 60449,
+        "context": "25205 消防委員会事務"
+      },
+      {
+        "name": "消防団員名簿管理事務",
+        "start": 60499,
+        "raw": "消防団員名簿管理事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25206. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 60493,
+        "context": "25206 消防団員名簿管理事務"
+      },
+      {
+        "name": "消防団員表彰事務",
+        "start": 60534,
+        "raw": "消防団員表彰事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25207. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 60528,
+        "context": "25207 消防団員表彰事務"
+      },
+      {
+        "name": "オフトーク通信放送業務",
+        "start": 60715,
+        "raw": "オフトーク通信放送業務",
+        "note": "Manually reviewed literal annual-business-table title, code 25203. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 60709,
+        "context": "25203 オフトーク通信放送業務"
+      },
+      {
+        "name": "消防団事業",
+        "start": 60733,
+        "raw": "消防団事業",
+        "note": "Manually reviewed literal annual-business-table title, code 25204. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 60727,
+        "context": "25204 消防団事業"
+      },
+      {
+        "name": "消防広域化推進事業",
+        "start": 60775,
+        "raw": "消防広域化推進事業",
+        "note": "Manually reviewed literal annual-business-table title, code 25210. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 60769,
+        "context": "25210 消防広域化推進事業"
+      },
+      {
+        "name": "消防団支援事務",
+        "start": 60883,
+        "raw": "消防団支援事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25214. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 60877,
+        "context": "25214 消防団支援事務"
+      },
+      {
+        "name": "災害防御計画等作成事務",
+        "start": 61018,
+        "raw": "災害防御計画等作成事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25215. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 61012,
+        "context": "25215 災害防御計画等作成事務"
+      },
+      {
+        "name": "消防地水利調査事務",
+        "start": 61208,
+        "raw": "消防地水利調査事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25219. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 61202,
+        "context": "25219 消防地水利調査事務"
+      },
+      {
+        "name": "火災防ぎょ計画の策定事務",
+        "start": 61261,
+        "raw": "火災防ぎょ計画の策定事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25220. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 61255,
+        "context": "25220 火災防ぎょ計画の策定事務"
+      },
+      {
+        "name": "災害情報の収集･管理業務",
+        "start": 61314,
+        "raw": "災害情報の収集･管理業務",
+        "note": "Manually reviewed literal annual-business-table title, code 25221. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 61308,
+        "context": "25221 災害情報の収集･管理業務"
+      },
+      {
+        "name": "救急救命士養成事業",
+        "start": 61350,
+        "raw": "救急救命士養成事業",
+        "note": "Manually reviewed literal annual-business-table title, code 25222. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 61344,
+        "context": "25222 救急救命士養成事業"
+      },
+      {
+        "name": "災害対応業務",
+        "start": 63457,
+        "raw": "災害対応業務",
+        "note": "Manually reviewed literal annual-business-table title, code 25301. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 63451,
+        "context": "25301 災害対応業務"
+      },
+      {
+        "name": "防災資機材等整備事業",
+        "start": 65259,
+        "raw": "防災資機材等整備事業",
+        "note": "Manually reviewed literal annual-business-table title, code 25403. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 65253,
+        "context": "25403 防災資機材等整備事業"
+      },
+      {
+        "name": "国民保護協議会事務局事業",
+        "start": 65468,
+        "raw": "国民保護協議会事務局事業",
+        "note": "Manually reviewed literal annual-business-table title, code 25402. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 65462,
+        "context": "25402 国民保護協議会事務局事業"
+      },
+      {
+        "name": "自治会行政事務",
+        "start": 67262,
+        "raw": "自治会行政事務",
+        "note": "Manually reviewed literal annual-business-table title, code 26101. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 67256,
+        "context": "26101 自治会行政事務"
+      },
+      {
+        "name": "篠山市自治会長会事務局事務",
+        "start": 67306,
+        "raw": "篠山市自治会長会事務局事務",
+        "note": "Manually reviewed literal annual-business-table title, code 26102. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 67300,
+        "context": "26102 篠山市自治会長会事務局事務"
+      },
+      {
+        "name": "認可地縁団体事務",
+        "start": 67355,
+        "raw": "認可地縁団体事務",
+        "note": "Manually reviewed literal annual-business-table title, code 26103. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 67349,
+        "context": "26103 認可地縁団体事務"
+      },
+      {
+        "name": "地域アドバイザー配置業務",
+        "start": 67439,
+        "raw": "地域アドバイザー配置業務",
+        "note": "Manually reviewed literal annual-business-table title, code 26105. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 67433,
+        "context": "26105 地域アドバイザー配置業務"
+      },
+      {
+        "name": "市民プラザ開設事業",
+        "start": 67547,
+        "raw": "市民プラザ開設事業",
+        "note": "Manually reviewed literal annual-business-table title, code 26107. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 67541,
+        "context": "26107 市民プラザ開設事業"
+      },
+      {
+        "name": "交通安全運動・啓発事務",
+        "start": 69019,
+        "raw": "交通安全運動・啓発事務",
+        "note": "Manually reviewed literal annual-business-table title, code 26201. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 69013,
+        "context": "26201 交通安全運動・啓発事務"
+      },
+      {
+        "name": "交通安全対策連絡会議事務",
+        "start": 69037,
+        "raw": "交通安全対策連絡会議事務",
+        "note": "Manually reviewed literal annual-business-table title, code 26202. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 69031,
+        "context": "26202 交通安全対策連絡会議事務"
+      },
+      {
+        "name": "交通安全施設事務",
+        "start": 69056,
+        "raw": "交通安全施設事務",
+        "note": "Manually reviewed literal annual-business-table title, code 26203. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 69050,
+        "context": "26203 交通安全施設事務"
+      },
+      {
+        "name": "交通安全指導員事務",
+        "start": 69071,
+        "raw": "交通安全指導員事務",
+        "note": "Manually reviewed literal annual-business-table title, code 26204. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 69065,
+        "context": "26204 交通安全指導員事務"
+      },
+      {
+        "name": "まちづくり協議会事務",
+        "start": 70738,
+        "raw": "まちづくり協議会事務",
+        "note": "Manually reviewed literal annual-business-table title, code 26301. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 70732,
+        "context": "26301 まちづくり協議会事務"
+      },
+      {
+        "name": "学校適正規模・適正配置業務",
+        "start": 77705,
+        "raw": "学校適正規模・適正配置業務",
+        "note": "Manually reviewed literal annual-business-table title, code 32101. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 77699,
+        "context": "32101 学校適正規模・適正配置業務"
+      },
+      {
+        "name": "ふるさとガイドブック作成事業",
+        "start": 77738,
+        "raw": "ふるさとガイドブック作成事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32102. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 77732,
+        "context": "32102 ふるさとガイドブック作成事業"
+      },
+      {
+        "name": "学校保健関係事業",
+        "start": 77759,
+        "raw": "学校保健関係事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32103. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 77753,
+        "context": "32103 学校保健関係事業"
+      },
+      {
+        "name": "通学に関する事務",
+        "start": 77797,
+        "raw": "通学に関する事務",
+        "note": "Manually reviewed literal annual-business-table title, code 32105. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 77791,
+        "context": "32105 通学に関する事務"
+      },
+      {
+        "name": "篠山市学校保健会補助事業",
+        "start": 78133,
+        "raw": "篠山市学校保健会補助事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32104. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 78127,
+        "context": "32104 篠山市学校保健会補助事業"
+      },
+      {
+        "name": "小学校外国語活動支援事業",
+        "start": 78441,
+        "raw": "小学校外国語活動支援事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32112. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 78435,
+        "context": "32112 小学校外国語活動支援事業"
+      },
+      {
+        "name": "教職員研修会事業",
+        "start": 78640,
+        "raw": "教職員研修会事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32115. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 78634,
+        "context": "32115 教職員研修会事業"
+      },
+      {
+        "name": "学びの交差展事業",
+        "start": 78674,
+        "raw": "学びの交差展事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32116. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 78668,
+        "context": "32116 学びの交差展事業"
+      },
+      {
+        "name": "道徳教育推進事業",
+        "start": 78704,
+        "raw": "道徳教育推進事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32117. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 78698,
+        "context": "32117 道徳教育推進事業"
+      },
+      {
+        "name": "フォリナーサポート事業",
+        "start": 79062,
+        "raw": "フォリナーサポート事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32122. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 79056,
+        "context": "32122 フォリナーサポート事業"
+      },
+      {
+        "name": "体力向上事業",
+        "start": 79080,
+        "raw": "体力向上事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32123. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 79074,
+        "context": "32123 体力向上事業"
+      },
+      {
+        "name": "特別支援教育事業",
+        "start": 79148,
+        "raw": "特別支援教育事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32125. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 79142,
+        "context": "32125 特別支援教育事業"
+      },
+      {
+        "name": "環境体験事業",
+        "start": 79175,
+        "raw": "環境体験事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32126. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 79169,
+        "context": "32126 環境体験事業"
+      },
+      {
+        "name": "ふるさと創生奨学金事業",
+        "start": 81123,
+        "raw": "ふるさと創生奨学金事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32201. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 81117,
+        "context": "32201 ふるさと創生奨学金事業"
+      },
+      {
+        "name": "教育懇談会等実施事業",
+        "start": 82800,
+        "raw": "教育懇談会等実施事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32302. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 82794,
+        "context": "32302 教育懇談会等実施事業"
+      },
+      {
+        "name": "ささやま市民文化講座事業",
+        "start": 86012,
+        "raw": "ささやま市民文化講座事業",
+        "note": "Manually reviewed literal annual-business-table title, code 33104. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 86006,
+        "context": "33104 ささやま市民文化講座事業"
+      },
+      {
+        "name": "郷土味学講座事業",
+        "start": 86064,
+        "raw": "郷土味学講座事業",
+        "note": "Manually reviewed literal annual-business-table title, code 33108. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 86058,
+        "context": "33108 郷土味学講座事業"
+      },
+      {
+        "name": "青少年健全育成団体連携事業",
+        "start": 86155,
+        "raw": "青少年健全育成団体連携事業",
+        "note": "Manually reviewed literal annual-business-table title, code 33111. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 86149,
+        "context": "33111 青少年健全育成団体連携事業"
+      },
+      {
+        "name": "人生セミナー事業",
+        "start": 86175,
+        "raw": "人生セミナー事業",
+        "note": "Manually reviewed literal annual-business-table title, code 33112. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 86169,
+        "context": "33112 人生セミナー事業"
+      },
+      {
+        "name": "うりぼう師範実施事業",
+        "start": 88972,
+        "raw": "うりぼう師範実施事業",
+        "note": "Manually reviewed literal annual-business-table title, code 33205. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 88966,
+        "context": "33205 うりぼう師範実施事業"
+      },
+      {
+        "name": "芸術活動・文化活動支援事業",
+        "start": 89223,
+        "raw": "芸術活動・文化活動支援事業",
+        "note": "Manually reviewed literal annual-business-table title, code 33210. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 89217,
+        "context": "33210 芸術活動・文化活動支援事業"
+      },
+      {
+        "name": "平和施策事業",
+        "start": 94179,
+        "raw": "平和施策事業",
+        "note": "Manually reviewed literal annual-business-table title, code 34101. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 94173,
+        "context": "34101 平和施策事業"
+      },
+      {
+        "name": "人権研究大会参加事務",
+        "start": 94225,
+        "raw": "人権研究大会参加事務",
+        "note": "Manually reviewed literal annual-business-table title, code 34102. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 94219,
+        "context": "34102 人権研究大会参加事務"
+      },
+      {
+        "name": "人権啓発活動地方委託事業",
+        "start": 94498,
+        "raw": "人権啓発活動地方委託事業",
+        "note": "Manually reviewed literal annual-business-table title, code 34106. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 94492,
+        "context": "34106 人権啓発活動地方委託事業"
+      },
+      {
+        "name": "人権に係る総合的な施策業務",
+        "start": 96828,
+        "raw": "人権に係る総合的な施策業務",
+        "note": "Manually reviewed literal annual-business-table title, code 34201. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 96822,
+        "context": "34201 人権に係る総合的な施策業務"
+      },
+      {
+        "name": "人権相談業務",
+        "start": 96942,
+        "raw": "人権相談業務",
+        "note": "Manually reviewed literal annual-business-table title, code 34203. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 96936,
+        "context": "34203 人権相談業務"
+      },
+      {
+        "name": "人権啓発・広報事務",
+        "start": 97050,
+        "raw": "人権啓発・広報事務",
+        "note": "Manually reviewed literal annual-business-table title, code 34206. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 97044,
+        "context": "34206 人権啓発・広報事務"
+      },
+      {
+        "name": "研修会館等維持管理委託業務",
+        "start": 98263,
+        "raw": "研修会館等維持管理委託業務",
+        "note": "Manually reviewed literal annual-business-table title, code 34205. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 98257,
+        "context": "34205 研修会館等維持管理委託業務"
+      },
+      {
+        "name": "男女共同参画審議会事業",
+        "start": 100723,
+        "raw": "男女共同参画審議会事業",
+        "note": "Manually reviewed literal annual-business-table title, code 34308. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 100717,
+        "context": "34308 男女共同参画審議会事業"
+      },
+      {
+        "name": "女性委員会事業",
+        "start": 100757,
+        "raw": "女性委員会事業",
+        "note": "Manually reviewed literal annual-business-table title, code 34306. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 100751,
+        "context": "34306 女性委員会事業"
+      },
+      {
+        "name": "人権教育推進事業",
+        "start": 100786,
+        "raw": "人権教育推進事業",
+        "note": "Manually reviewed literal annual-business-table title, code 34309. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 100780,
+        "context": "34309 人権教育推進事業"
+      },
+      {
+        "name": "交響ホール施設管理事業",
+        "start": 102815,
+        "raw": "交響ホール施設管理事業",
+        "note": "Manually reviewed literal annual-business-table title, code 35101. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 102809,
+        "context": "35101 交響ホール施設管理事業"
+      },
+      {
+        "name": "交響ホール主催公演事業",
+        "start": 102833,
+        "raw": "交響ホール主催公演事業",
+        "note": "Manually reviewed literal annual-business-table title, code 35102. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 102827,
+        "context": "35102 交響ホール主催公演事業"
+      },
+      {
+        "name": "市民ミュージカル公演事業",
+        "start": 102851,
+        "raw": "市民ミュージカル公演事業",
+        "note": "Manually reviewed literal annual-business-table title, code 35103. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 102845,
+        "context": "35103 市民ミュージカル公演事業"
+      },
+      {
+        "name": "ボランティアスタッフ運営事業",
+        "start": 102870,
+        "raw": "ボランティアスタッフ運営事業",
+        "note": "Manually reviewed literal annual-business-table title, code 35104. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 102864,
+        "context": "35104 ボランティアスタッフ運営事業"
+      },
+      {
+        "name": "史跡篠山城跡整備事業",
+        "start": 105191,
+        "raw": "史跡篠山城跡整備事業",
+        "note": "Manually reviewed literal annual-business-table title, code 35202. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 105185,
+        "context": "35202 史跡篠山城跡整備事業"
+      },
+      {
+        "name": "文化施設４館運営事業",
+        "start": 105341,
+        "raw": "文化施設４館運営事業",
+        "note": "Manually reviewed literal annual-business-table title, code 35206. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 105335,
+        "context": "35206 文化施設４館運営事業"
+      },
+      {
+        "name": "篠山市展充実事業",
+        "start": 107178,
+        "raw": "篠山市展充実事業",
+        "note": "Manually reviewed literal annual-business-table title, code 35301. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 107172,
+        "context": "35301 篠山市展充実事業"
+      },
+      {
+        "name": "里づくり計画策定支援業務",
+        "start": 110610,
+        "raw": "里づくり計画策定支援業務",
+        "note": "Manually reviewed literal annual-business-table title, code 41201. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 110604,
+        "context": "41201 里づくり計画策定支援業務"
+      },
+      {
+        "name": "地区整備計画策定業務",
+        "start": 110661,
+        "raw": "地区整備計画策定業務",
+        "note": "Manually reviewed literal annual-business-table title, code 41202. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 110655,
+        "context": "41202 地区整備計画策定業務"
+      },
+      {
+        "name": "市営駐輪場維持管理業務",
+        "start": 113035,
+        "raw": "市営駐輪場維持管理業務",
+        "note": "Manually reviewed literal annual-business-table title, code 41302. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 113029,
+        "context": "41302 市営駐輪場維持管理業務"
+      },
+      {
+        "name": "都市公園施設改修工事業務",
+        "start": 116227,
+        "raw": "都市公園施設改修工事業務",
+        "note": "Manually reviewed literal annual-business-table title, code 41504. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 116221,
+        "context": "41504 都市公園施設改修工事業務"
+      },
+      {
+        "name": "県民まちなみ緑化事業事務",
+        "start": 116283,
+        "raw": "県民まちなみ緑化事業事務",
+        "note": "Manually reviewed literal annual-business-table title, code 41505. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 116277,
+        "context": "41505 県民まちなみ緑化事業事務"
+      },
+      {
+        "name": "コミュニティバス運行事業",
+        "start": 119845,
+        "raw": "コミュニティバス運行事業",
+        "note": "Manually reviewed literal annual-business-table title, code 42201. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 119839,
+        "context": "42201 コミュニティバス運行事業"
+      },
+      {
+        "name": "水質検査業務",
+        "start": 126861,
+        "raw": "水質検査業務",
+        "note": "Manually reviewed literal annual-business-table title, code 44105. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 126855,
+        "context": "44105 水質検査業務"
+      },
+      {
+        "name": "節水意識の普及業務",
+        "start": 126923,
+        "raw": "節水意識の普及業務",
+        "note": "Manually reviewed literal annual-business-table title, code 44106. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 126917,
+        "context": "44106 節水意識の普及業務"
+      },
+      {
+        "name": "ダム開発関連事業",
+        "start": 127028,
+        "raw": "ダム開発関連事業",
+        "note": "Manually reviewed literal annual-business-table title, code 44107. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 127022,
+        "context": "44107 ダム開発関連事業"
+      },
+      {
+        "name": "携帯電話対策事業",
+        "start": 132714,
+        "raw": "携帯電話対策事業",
+        "note": "Manually reviewed literal annual-business-table title, code 45101. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 132708,
+        "context": "45101 携帯電話対策事業"
+      },
+      {
+        "name": "電算運用業務",
+        "start": 134472,
+        "raw": "電算運用業務",
+        "note": "Manually reviewed literal annual-business-table title, code 45203. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 134466,
+        "context": "45203 電算運用業務"
+      },
+      {
+        "name": "市広報「丹波篠山」発行事業",
+        "start": 134485,
+        "raw": "市広報「丹波篠山」発行事業",
+        "note": "Manually reviewed literal annual-business-table title, code 45204. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 134479,
+        "context": "45204 市広報「丹波篠山」発行事業"
+      },
+      {
+        "name": "市ホームページ作成事業",
+        "start": 134941,
+        "raw": "市ホームページ作成事業",
+        "note": "Manually reviewed literal annual-business-table title, code 45201. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 134935,
+        "context": "45201 市ホームページ作成事業"
+      },
+      {
+        "name": "ネットワーク管理事業",
+        "start": 134959,
+        "raw": "ネットワーク管理事業",
+        "note": "Manually reviewed literal annual-business-table title, code 45202. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 134953,
+        "context": "45202 ネットワーク管理事業"
+      },
+      {
+        "name": "ヘルプデスク業務",
+        "start": 136626,
+        "raw": "ヘルプデスク業務",
+        "note": "Manually reviewed literal annual-business-table title, code 45301. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 136620,
+        "context": "45301 ヘルプデスク業務"
+      },
+      {
+        "name": "松くい虫防除対策事業",
+        "start": 139088,
+        "raw": "松くい虫防除対策事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51109. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 139082,
+        "context": "51109 松くい虫防除対策事業"
+      },
+      {
+        "name": "市単独補助治山事業",
+        "start": 139365,
+        "raw": "市単独補助治山事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51117. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 139359,
+        "context": "51117 市単独補助治山事業"
+      },
+      {
+        "name": "特産物振興対策補助金事業",
+        "start": 139382,
+        "raw": "特産物振興対策補助金事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51121. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 139376,
+        "context": "51121 特産物振興対策補助金事業"
+      },
+      {
+        "name": "災害農地復旧事業",
+        "start": 139616,
+        "raw": "災害農地復旧事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51130. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 139610,
+        "context": "51130 災害農地復旧事業"
+      },
+      {
+        "name": "畜産部会補助事業",
+        "start": 140762,
+        "raw": "畜産部会補助事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51132. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 140756,
+        "context": "51132 畜産部会補助事業"
+      },
+      {
+        "name": "篠山楽農スクール事業",
+        "start": 142536,
+        "raw": "篠山楽農スクール事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51201. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 142530,
+        "context": "51201 篠山楽農スクール事業"
+      },
+      {
+        "name": "集落営農組織高度化促進事業",
+        "start": 143293,
+        "raw": "集落営農組織高度化促進事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51207. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 143287,
+        "context": "51207 集落営農組織高度化促進事業"
+      },
+      {
+        "name": "新規就農研修委託事業",
+        "start": 143328,
+        "raw": "新規就農研修委託事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51210. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 143322,
+        "context": "51210 新規就農研修委託事業"
+      },
+      {
+        "name": "就農研修費助成",
+        "start": 143345,
+        "raw": "就農研修費助成",
+        "note": "Manually reviewed literal annual-business-table title, code 51211. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 143339,
+        "context": "51211 就農研修費助成"
+      },
+      {
+        "name": "農業経営改善計画関係事務",
+        "start": 143550,
+        "raw": "農業経営改善計画関係事務",
+        "note": "Manually reviewed literal annual-business-table title, code 51217. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 143544,
+        "context": "51217 農業経営改善計画関係事務"
+      },
+      {
+        "name": "農業経営構造対策事業",
+        "start": 143690,
+        "raw": "農業経営構造対策事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51216. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 143684,
+        "context": "51216 農業経営構造対策事業"
+      },
+      {
+        "name": "市農産物品評会補助事業",
+        "start": 145584,
+        "raw": "市農産物品評会補助事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51301. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 145578,
+        "context": "51301 市農産物品評会補助事業"
+      },
+      {
+        "name": "青果物価格安定事業",
+        "start": 145650,
+        "raw": "青果物価格安定事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51303. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 145644,
+        "context": "51303 青果物価格安定事業"
+      },
+      {
+        "name": "丹波地区茶業振興会補助事業",
+        "start": 145666,
+        "raw": "丹波地区茶業振興会補助事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51304. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 145660,
+        "context": "51304 丹波地区茶業振興会補助事業"
+      },
+      {
+        "name": "土づくり対策推進事業",
+        "start": 145898,
+        "raw": "土づくり対策推進事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51306. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 145892,
+        "context": "51306 土づくり対策推進事業"
+      },
+      {
+        "name": "山の芋振興事業",
+        "start": 145947,
+        "raw": "山の芋振興事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51305. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 145941,
+        "context": "51305 山の芋振興事業"
+      },
+      {
+        "name": "丹波篠山黒まめ検定事業",
+        "start": 146214,
+        "raw": "丹波篠山黒まめ検定事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51310. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 146208,
+        "context": "51310 丹波篠山黒まめ検定事業"
+      },
+      {
+        "name": "伝統食に光プロジェクト事業",
+        "start": 146290,
+        "raw": "伝統食に光プロジェクト事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51313. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 146284,
+        "context": "51313 伝統食に光プロジェクト事業"
+      },
+      {
+        "name": "地域ブランド保護事業",
+        "start": 146310,
+        "raw": "地域ブランド保護事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51314. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 146304,
+        "context": "51314 地域ブランド保護事業"
+      },
+      {
+        "name": "農業施設の補修・改善事業",
+        "start": 148396,
+        "raw": "農業施設の補修・改善事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51411. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 148390,
+        "context": "51411 農業施設の補修・改善事業"
+      },
+      {
+        "name": "市民センター運営管理業務",
+        "start": 150911,
+        "raw": "市民センター運営管理業務",
+        "note": "Manually reviewed literal annual-business-table title, code 52103. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 150905,
+        "context": "52103 市民センター運営管理業務"
+      },
+      {
+        "name": "量目検査業務",
+        "start": 151116,
+        "raw": "量目検査業務",
+        "note": "Manually reviewed literal annual-business-table title, code 52101. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 151110,
+        "context": "52101 量目検査業務"
+      },
+      {
+        "name": "王地山陶器所運営管理業務",
+        "start": 152875,
+        "raw": "王地山陶器所運営管理業務",
+        "note": "Manually reviewed literal annual-business-table title, code 52201. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 152869,
+        "context": "52201 王地山陶器所運営管理業務"
+      },
+      {
+        "name": "丹波伝統工芸公園管理業務",
+        "start": 152931,
+        "raw": "丹波伝統工芸公園管理業務",
+        "note": "Manually reviewed literal annual-business-table title, code 52202. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 152925,
+        "context": "52202 丹波伝統工芸公園管理業務"
+      },
+      {
+        "name": "丹波杜氏組合事務局業務",
+        "start": 153228,
+        "raw": "丹波杜氏組合事務局業務",
+        "note": "Manually reviewed literal annual-business-table title, code 52204. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 153222,
+        "context": "52204 丹波杜氏組合事務局業務"
+      },
+      {
+        "name": "酒造記念館運営管理業務",
+        "start": 153246,
+        "raw": "酒造記念館運営管理業務",
+        "note": "Manually reviewed literal annual-business-table title, code 52205. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 153240,
+        "context": "52205 酒造記念館運営管理業務"
+      },
+      {
+        "name": "工場等施設整備奨励事業",
+        "start": 154878,
+        "raw": "工場等施設整備奨励事業",
+        "note": "Manually reviewed literal annual-business-table title, code 52301. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 154872,
+        "context": "52301 工場等施設整備奨励事業"
+      },
+      {
+        "name": "企業誘致アンケート調査事業",
+        "start": 155062,
+        "raw": "企業誘致アンケート調査事業",
+        "note": "Manually reviewed literal annual-business-table title, code 52304. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 155056,
+        "context": "52304 企業誘致アンケート調査事業"
+      },
+      {
+        "name": "市内企業訪問事業",
+        "start": 155090,
+        "raw": "市内企業訪問事業",
+        "note": "Manually reviewed literal annual-business-table title, code 52305. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 155084,
+        "context": "52305 市内企業訪問事業"
+      },
+      {
+        "name": "地域人材確保ネットワーク事業",
+        "start": 155854,
+        "raw": "地域人材確保ネットワーク事業",
+        "note": "Manually reviewed literal annual-business-table title, code 52318. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 155848,
+        "context": "52318 地域人材確保ネットワーク事業"
+      },
+      {
+        "name": "緊急雇用創出事業",
+        "start": 155875,
+        "raw": "緊急雇用創出事業",
+        "note": "Manually reviewed literal annual-business-table title, code 52319. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 155869,
+        "context": "52319 緊急雇用創出事業"
+      },
+      {
+        "name": "ふるさと雇用再生事業",
+        "start": 155890,
+        "raw": "ふるさと雇用再生事業",
+        "note": "Manually reviewed literal annual-business-table title, code 52320. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 155884,
+        "context": "52320 ふるさと雇用再生事業"
+      },
+      {
+        "name": "味覚フェア楽市楽座支援事務",
+        "start": 157325,
+        "raw": "味覚フェア楽市楽座支援事務",
+        "note": "Manually reviewed literal annual-business-table title, code 53101. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 157319,
+        "context": "53101 味覚フェア楽市楽座支援事務"
+      },
+      {
+        "name": "こんだ薬師温泉施設運営事業",
+        "start": 157441,
+        "raw": "こんだ薬師温泉施設運営事業",
+        "note": "Manually reviewed literal annual-business-table title, code 53105. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 157435,
+        "context": "53105 こんだ薬師温泉施設運営事業"
+      },
+      {
+        "name": "こんだ薬師温泉施設整備事業",
+        "start": 157461,
+        "raw": "こんだ薬師温泉施設整備事業",
+        "note": "Manually reviewed literal annual-business-table title, code 53106. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 157455,
+        "context": "53106 こんだ薬師温泉施設整備事業"
+      },
+      {
+        "name": "大正ﾛﾏﾝ館施設整備事業",
+        "start": 157481,
+        "raw": "大正ﾛﾏﾝ館施設整備事業",
+        "note": "Manually reviewed literal annual-business-table title, code 53107. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 157475,
+        "context": "53107 大正ﾛﾏﾝ館施設整備事業"
+      },
+      {
+        "name": "駅観光案内所委託事業",
+        "start": 160196,
+        "raw": "駅観光案内所委託事業",
+        "note": "Manually reviewed literal annual-business-table title, code 53202. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 160190,
+        "context": "53202 駅観光案内所委託事業"
+      },
+      {
+        "name": "ひょうごﾂｰﾘｽﾞﾑ協会事業",
+        "start": 160250,
+        "raw": "ひょうごﾂｰﾘｽﾞﾑ協会事業",
+        "note": "Manually reviewed literal annual-business-table title, code 53204. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 160244,
+        "context": "53204 ひょうごﾂｰﾘｽﾞﾑ協会事業"
+      },
+      {
+        "name": "シャクナゲまつり補助事業",
+        "start": 162173,
+        "raw": "シャクナゲまつり補助事業",
+        "note": "Manually reviewed literal annual-business-table title, code 53302. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 162167,
+        "context": "53302 シャクナゲまつり補助事業"
+      },
+      {
+        "name": "デカンショ祭補助事業",
+        "start": 162193,
+        "raw": "デカンショ祭補助事業",
+        "note": "Manually reviewed literal annual-business-table title, code 53305. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 162187,
+        "context": "53305 デカンショ祭補助事業"
+      },
+      {
+        "name": "デカンショ節保存会補助事業",
+        "start": 162231,
+        "raw": "デカンショ節保存会補助事業",
+        "note": "Manually reviewed literal annual-business-table title, code 53306. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 162225,
+        "context": "53306 デカンショ節保存会補助事業"
+      },
+      {
+        "name": "古市義士祭補助事業",
+        "start": 162251,
+        "raw": "古市義士祭補助事業",
+        "note": "Manually reviewed literal annual-business-table title, code 53307. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 162245,
+        "context": "53307 古市義士祭補助事業"
+      },
+      {
+        "name": "丹波篠山太鼓助成事業",
+        "start": 162314,
+        "raw": "丹波篠山太鼓助成事業",
+        "note": "Manually reviewed literal annual-business-table title, code 53309. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 162308,
+        "context": "53309 丹波篠山太鼓助成事業"
+      },
+      {
+        "name": "丹波の森構想推進事業",
+        "start": 168291,
+        "raw": "丹波の森構想推進事業",
+        "note": "Manually reviewed literal annual-business-table title, code 62101. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 168285,
+        "context": "62101 丹波の森構想推進事業"
+      },
+      {
+        "name": "地域間交流事業",
+        "start": 169964,
+        "raw": "地域間交流事業",
+        "note": "Manually reviewed literal annual-business-table title, code 63102. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 169958,
+        "context": "63102 地域間交流事業"
+      },
+      {
+        "name": "たきまつり実行委員会支援事業",
+        "start": 171844,
+        "raw": "たきまつり実行委員会支援事業",
+        "note": "Manually reviewed literal annual-business-table title, code 63202. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 171838,
+        "context": "63202 たきまつり実行委員会支援事業"
+      },
+      {
+        "name": "篠山暮らし案内所運営業務",
+        "start": 174464,
+        "raw": "篠山暮らし案内所運営業務",
+        "note": "Manually reviewed literal annual-business-table title, code 64102. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 174458,
+        "context": "64102 篠山暮らし案内所運営業務"
+      },
+      {
+        "name": "丹波篠山ふるさと応援団事務",
+        "start": 174589,
+        "raw": "丹波篠山ふるさと応援団事務",
+        "note": "Manually reviewed literal annual-business-table title, code 64104. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 174583,
+        "context": "64104 丹波篠山ふるさと応援団事務"
+      },
+      {
+        "name": "国内交流推進事業",
+        "start": 174647,
+        "raw": "国内交流推進事業",
+        "note": "Manually reviewed literal annual-business-table title, code 64105. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 174641,
+        "context": "64105 国内交流推進事業"
+      },
+      {
+        "name": "個人情報保護制度運用事務",
+        "start": 179929,
+        "raw": "個人情報保護制度運用事務",
+        "note": "Manually reviewed literal annual-business-table title, code 71105. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 179923,
+        "context": "71105 個人情報保護制度運用事務"
+      },
+      {
+        "name": "ふるさと一番会議開催事業",
+        "start": 179985,
+        "raw": "ふるさと一番会議開催事業",
+        "note": "Manually reviewed literal annual-business-table title, code 71106. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 179979,
+        "context": "71106 ふるさと一番会議開催事業"
+      },
+      {
+        "name": "情報公開制度運用事務",
+        "start": 180017,
+        "raw": "情報公開制度運用事務",
+        "note": "Manually reviewed literal annual-business-table title, code 71104. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 180011,
+        "context": "71104 情報公開制度運用事務"
+      },
+      {
+        "name": "補助事業審査・査定業務",
+        "start": 182119,
+        "raw": "補助事業審査・査定業務",
+        "note": "Manually reviewed literal annual-business-table title, code 71204. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 182113,
+        "context": "71204 補助事業審査・査定業務"
+      },
+      {
+        "name": "高齢者相談業務等",
+        "start": 13520,
+        "raw": "高齢者相談業務等",
+        "note": "Manually reviewed literal annual-business-table title, code 12314. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 13514,
+        "context": "12314 高齢者相談業務等"
+      },
+      {
+        "name": "介護保険事業所実地指導",
+        "start": 14315,
+        "raw": "介護保険事業所実地指導",
+        "note": "Manually reviewed literal annual-business-table title, code 12327. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 14309,
+        "context": "12327 介護保険事業所実地指導"
+      },
+      {
+        "name": "多紀連山整備促進協議会",
+        "start": 29104,
+        "raw": "多紀連山整備促進協議会",
+        "note": "Manually reviewed literal annual-business-table title, code 13301. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 29098,
+        "context": "13301 多紀連山整備促進協議会"
+      },
+      {
+        "name": "認定こども園の新設",
+        "start": 73308,
+        "raw": "認定こども園の新設",
+        "note": "Manually reviewed literal annual-business-table title, code 31109. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 73302,
+        "context": "31109 認定こども園の新設"
+      },
+      {
+        "name": "市外企業訪問誘致事業（直営）",
+        "start": 155147,
+        "raw": "市外企業訪問誘致事業（直営）",
+        "note": "Manually reviewed literal annual-business-table title, code 52306. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 155141,
+        "context": "52306 市外企業訪問誘致事業（直営）"
+      },
+      {
+        "name": "市外企業訪問誘致事業（委託）",
+        "start": 155212,
+        "raw": "市外企業訪問誘致事業（委託）",
+        "note": "Manually reviewed literal annual-business-table title, code 52307. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 155206,
+        "context": "52307 市外企業訪問誘致事業（委託）"
+      },
+      {
+        "name": "大国寺と丹波茶まつり補助事業",
+        "start": 162267,
+        "raw": "大国寺と丹波茶まつり補助事業",
+        "note": "Manually reviewed literal annual-business-table title, code 53308. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 162261,
+        "context": "53308 大国寺と丹波茶まつり補助事業"
+      },
+      {
+        "name": "救急車、消防広報車購入整備事業",
+        "start": 60808,
+        "raw": "救急車、消防広報車購入整備\n行：（4）69\n25211 事業",
+        "note": "Manually reviewed literal annual-business-table title, code 25211. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "titleSegments": [
+          {
+            "start": 60808,
+            "raw": "救急車、消防広報車購入整備"
+          },
+          {
+            "start": 60836,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 60808,
+        "context": "救急車、消防広報車購入整備\n行：（4）69\n25211 事業"
+      },
+      {
+        "name": "トライやる・ウィーク、トライやる・アクション事業",
+        "start": 79319,
+        "raw": "トライやる・ウィーク、トライやる・\n行:(4)-1\n32129 アクション事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32129. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "titleSegments": [
+          {
+            "start": 79319,
+            "raw": "トライやる・ウィーク、トライやる・"
+          },
+          {
+            "start": 79351,
+            "raw": "アクション事業"
+          }
+        ],
+        "contextStart": 79319,
+        "context": "トライやる・ウィーク、トライやる・\n行:(4)-1\n32129 アクション事業"
+      },
+      {
+        "name": "アグリ産業クラスター構想（研究会）事業",
+        "start": 155389,
+        "raw": "アグリ産業クラスター構想（研究\nま P52\n52310 会）事業",
+        "note": "Manually reviewed literal annual-business-table title, code 52310. FY2010 post-evaluation source; H21 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "titleSegments": [
+          {
+            "start": 155389,
+            "raw": "アグリ産業クラスター構想（研究"
+          },
+          {
+            "start": 155417,
+            "raw": "会）事業"
+          }
+        ],
+        "contextStart": 155389,
+        "context": "アグリ産業クラスター構想（研究\nま P52\n52310 会）事業"
+      },
+      {
+        "name": "地域介護・福祉空間整備交付金事業",
+        "start": 12747,
+        "raw": "地域介護・福祉空間整備交付\n12302 金事業",
+        "titleSegments": [
+          {
+            "start": 12747,
+            "raw": "地域介護・福祉空間整備交付"
+          },
+          {
+            "start": 12767,
+            "raw": "金事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "地域子育てネットワーク連絡会事務局事務",
+        "start": 20755,
+        "raw": "地域子育てネットワーク連絡会\n\n12506 事務局事務",
+        "titleSegments": [
+          {
+            "start": 20755,
+            "raw": "地域子育てネットワーク連絡会"
+          },
+          {
+            "start": 20777,
+            "raw": "事務局事務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "次世代育成支援対策交付金申請事務",
+        "start": 20817,
+        "raw": "次世代育成支援対策交付金申\n12508 請事務",
+        "titleSegments": [
+          {
+            "start": 20817,
+            "raw": "次世代育成支援対策交付金申"
+          },
+          {
+            "start": 20837,
+            "raw": "請事務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "ﾕﾆﾊﾞｰｻﾙ社会づくり実践ﾓﾃﾞﾙ事業",
+        "start": 30382,
+        "raw": "ﾕﾆﾊﾞｰｻﾙ社会づくり実践ﾓﾃﾞﾙ\n\n14101 事業",
+        "titleSegments": [
+          {
+            "start": 30382,
+            "raw": "ﾕﾆﾊﾞｰｻﾙ社会づくり実践ﾓﾃﾞﾙ"
+          },
+          {
+            "start": 30408,
+            "raw": "事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "景観形成に関する建築等指導業務",
+        "start": 45366,
+        "raw": "景観形成に関する建築等指導\n23105 業務",
+        "titleSegments": [
+          {
+            "start": 45366,
+            "raw": "景観形成に関する建築等指導"
+          },
+          {
+            "start": 45386,
+            "raw": "業務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "資源ごみ集団回収活動奨励金事務事業",
+        "start": 53340,
+        "raw": "資源ごみ集団回収活動奨励金\n24206 事務事業",
+        "titleSegments": [
+          {
+            "start": 53340,
+            "raw": "資源ごみ集団回収活動奨励金"
+          },
+          {
+            "start": 53360,
+            "raw": "事務事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "最終処分場水処理施設保守管理委託業務",
+        "start": 56419,
+        "raw": "最終処分場水処理施設保守管\n24323 理委託業務",
+        "titleSegments": [
+          {
+            "start": 56419,
+            "raw": "最終処分場水処理施設保守管"
+          },
+          {
+            "start": 56439,
+            "raw": "理委託業務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "防火対象物、危険物施設等への立入検査と防火管理指導業務",
+        "start": 58714,
+        "raw": "防火対象物、危険物施設等への立入検査\n25102 と防火管理指導業務",
+        "titleSegments": [
+          {
+            "start": 58714,
+            "raw": "防火対象物、危険物施設等への立入検査"
+          },
+          {
+            "start": 58739,
+            "raw": "と防火管理指導業務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "消防団及び自主防災の訓練指導業務",
+        "start": 58832,
+        "raw": "消防団及び自主防災の訓練指\n25111 導業務",
+        "titleSegments": [
+          {
+            "start": 58832,
+            "raw": "消防団及び自主防災の訓練指"
+          },
+          {
+            "start": 58852,
+            "raw": "導業務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "防災行政無線保守点検及び放送事務",
+        "start": 60684,
+        "raw": "防災行政無線保守点検及び放\n25202 送事務",
+        "titleSegments": [
+          {
+            "start": 60684,
+            "raw": "防災行政無線保守点検及び放"
+          },
+          {
+            "start": 60704,
+            "raw": "送事務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "メディカルコントロール体制構築事業",
+        "start": 61108,
+        "raw": "メディカルコントロール体制構築\n\n25217 事業",
+        "titleSegments": [
+          {
+            "start": 61108,
+            "raw": "メディカルコントロール体制構築"
+          },
+          {
+            "start": 61131,
+            "raw": "事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "感謝の気持ちを届けようプロジェクト2010事業",
+        "start": 78713,
+        "raw": "感謝の気持ちを届けようプロ\n\n32118 ジェクト2010事業",
+        "titleSegments": [
+          {
+            "start": 78713,
+            "raw": "感謝の気持ちを届けようプロ"
+          },
+          {
+            "start": 78734,
+            "raw": "ジェクト2010事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "篠山きらめき教育プランの啓発事業",
+        "start": 82768,
+        "raw": "篠山きらめき教育プランの啓発\n\n32301 事業",
+        "titleSegments": [
+          {
+            "start": 82768,
+            "raw": "篠山きらめき教育プランの啓発"
+          },
+          {
+            "start": 82790,
+            "raw": "事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "かぞくdeおいしんぼクッキング事業",
+        "start": 86085,
+        "raw": "かぞくdeおいしんぼクッキング\n\n33109 事業",
+        "titleSegments": [
+          {
+            "start": 86085,
+            "raw": "かぞくdeおいしんぼクッキング"
+          },
+          {
+            "start": 86108,
+            "raw": "事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "青少年創造力･行動力開発プログラム事業の企画・立案業務",
+        "start": 86112,
+        "raw": "青少年創造力･行動力開発プロ\n\n33110 グラム事業の企画・立案業務",
+        "titleSegments": [
+          {
+            "start": 86112,
+            "raw": "青少年創造力･行動力開発プロ"
+          },
+          {
+            "start": 86134,
+            "raw": "グラム事業の企画・立案業務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "青少年健全育成団体との連携事業",
+        "start": 86615,
+        "raw": "青少年健全育成団体との連携\n33116 事業",
+        "titleSegments": [
+          {
+            "start": 86615,
+            "raw": "青少年健全育成団体との連携"
+          },
+          {
+            "start": 86635,
+            "raw": "事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "チルドレンズミュージアム施設維持管理業務",
+        "start": 88658,
+        "raw": "チルドレンズミュージアム施設\n\n33201 維持管理業務",
+        "titleSegments": [
+          {
+            "start": 88658,
+            "raw": "チルドレンズミュージアム施設"
+          },
+          {
+            "start": 88680,
+            "raw": "維持管理業務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "篠山市人権・同和教育研究協議会運営補助事業",
+        "start": 94277,
+        "raw": "篠山市人権・同和教育研究協\n34103 議会運営補助事業",
+        "titleSegments": [
+          {
+            "start": 94277,
+            "raw": "篠山市人権・同和教育研究協"
+          },
+          {
+            "start": 94297,
+            "raw": "議会運営補助事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "人権侵害救済に係る総合的な施策業務",
+        "start": 96874,
+        "raw": "人権侵害救済に係る総合的な\n34202 施策業務",
+        "titleSegments": [
+          {
+            "start": 96874,
+            "raw": "人権侵害救済に係る総合的な"
+          },
+          {
+            "start": 96894,
+            "raw": "施策業務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "体験型人権学習活動支援助成事業",
+        "start": 98278,
+        "raw": "体験型人権学習活動支援助成\n\n34208 事業",
+        "titleSegments": [
+          {
+            "start": 98278,
+            "raw": "体験型人権学習活動支援助成"
+          },
+          {
+            "start": 98299,
+            "raw": "事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "たんば田園交響ホール大規模改修工事事業",
+        "start": 102885,
+        "raw": "たんば田園交響ホール大規模\n35105 改修工事事業",
+        "titleSegments": [
+          {
+            "start": 102885,
+            "raw": "たんば田園交響ホール大規模"
+          },
+          {
+            "start": 102905,
+            "raw": "改修工事事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "篠山城下町における町並み保存・活用事業",
+        "start": 105214,
+        "raw": "篠山城下町における町並み保\n35203 存・活用事業",
+        "titleSegments": [
+          {
+            "start": 105214,
+            "raw": "篠山城下町における町並み保"
+          },
+          {
+            "start": 105234,
+            "raw": "存・活用事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "文化財の総合的な保存・活用推進事業",
+        "start": 105420,
+        "raw": "文化財の総合的な保存・活用推\n\n35208 進事業",
+        "titleSegments": [
+          {
+            "start": 105420,
+            "raw": "文化財の総合的な保存・活用推"
+          },
+          {
+            "start": 105442,
+            "raw": "進事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "篠山口駅自由通路橋等維持管理業務",
+        "start": 112448,
+        "raw": "篠山口駅自由通路橋等維持管\n\n41301 理業務",
+        "titleSegments": [
+          {
+            "start": 112448,
+            "raw": "篠山口駅自由通路橋等維持管"
+          },
+          {
+            "start": 112469,
+            "raw": "理業務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "花いっぱいモデル助成に関する業務",
+        "start": 115979,
+        "raw": "花いっぱいモデル助成に関する\n\n41501 業務",
+        "titleSegments": [
+          {
+            "start": 115979,
+            "raw": "花いっぱいモデル助成に関する"
+          },
+          {
+            "start": 116001,
+            "raw": "業務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "水洗便所改造資金融資あっせん及び利子補給事業",
+        "start": 121975,
+        "raw": "水洗便所改造資金融資あっせ\n43102 ん及び利子補給事業",
+        "titleSegments": [
+          {
+            "start": 121975,
+            "raw": "水洗便所改造資金融資あっせ"
+          },
+          {
+            "start": 121995,
+            "raw": "ん及び利子補給事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "管路施設及び終末処理場等の維持管理事業",
+        "start": 122050,
+        "raw": "管路施設及び終末処理場等の\n43106 維持管理事業",
+        "titleSegments": [
+          {
+            "start": 122050,
+            "raw": "管路施設及び終末処理場等の"
+          },
+          {
+            "start": 122070,
+            "raw": "維持管理事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "窓口業務、開閉栓、検針、調査業務・上下水道料金徴収業務",
+        "start": 126542,
+        "raw": "窓口業務、開閉栓、検針、調査\n\n44101 業務・上下水道料金徴収業務",
+        "titleSegments": [
+          {
+            "start": 126542,
+            "raw": "窓口業務、開閉栓、検針、調査"
+          },
+          {
+            "start": 126564,
+            "raw": "業務・上下水道料金徴収業務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "針葉樹林と広葉樹林の混交林整備事業",
+        "start": 139325,
+        "raw": "針葉樹林と広葉樹林の混交林\n\n51116 整備事業",
+        "titleSegments": [
+          {
+            "start": 139325,
+            "raw": "針葉樹林と広葉樹林の混交林"
+          },
+          {
+            "start": 139346,
+            "raw": "整備事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "中山間地域交付金直接支払制度事業",
+        "start": 139395,
+        "raw": "中山間地域交付金直接支払制\n51122 度事業",
+        "titleSegments": [
+          {
+            "start": 139395,
+            "raw": "中山間地域交付金直接支払制"
+          },
+          {
+            "start": 139415,
+            "raw": "度事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "丹波黒大豆優良種子生産協議会負担金事業",
+        "start": 139963,
+        "raw": "丹波黒大豆優良種子生産協議\n51119 会負担金事業",
+        "titleSegments": [
+          {
+            "start": 139963,
+            "raw": "丹波黒大豆優良種子生産協議"
+          },
+          {
+            "start": 139983,
+            "raw": "会負担金事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "丹波篠山黒枝豆「販売解禁イベント」実行委員会補助事業",
+        "start": 146226,
+        "raw": "丹波篠山黒枝豆「販売解禁イベ\n51311 ント」実行委員会補助事業",
+        "titleSegments": [
+          {
+            "start": 146226,
+            "raw": "丹波篠山黒枝豆「販売解禁イベ"
+          },
+          {
+            "start": 146247,
+            "raw": "ント」実行委員会補助事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "ひょうご市民農園（レベルアップ型）整備事業",
+        "start": 148128,
+        "raw": "ひょうご市民農園（レベルアップ\n\n51401 型）整備事業",
+        "titleSegments": [
+          {
+            "start": 148128,
+            "raw": "ひょうご市民農園（レベルアップ"
+          },
+          {
+            "start": 148151,
+            "raw": "型）整備事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "新山村振興等農林漁業特別対策事業",
+        "start": 148159,
+        "raw": "新山村振興等農林漁業特別対\n51402 策事業",
+        "titleSegments": [
+          {
+            "start": 148159,
+            "raw": "新山村振興等農林漁業特別対"
+          },
+          {
+            "start": 148179,
+            "raw": "策事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "市広報誌企業レポート（サービス業等）事業",
+        "start": 155794,
+        "raw": "市広報誌企業レポート（サービ\n\n52316 ス業等）事業",
+        "titleSegments": [
+          {
+            "start": 155794,
+            "raw": "市広報誌企業レポート（サービ"
+          },
+          {
+            "start": 155816,
+            "raw": "ス業等）事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "ディスカバーささやまグループ助成事業",
+        "start": 157356,
+        "raw": "ディスカバーささやまグループ\n53102 助成事業",
+        "titleSegments": [
+          {
+            "start": 157356,
+            "raw": "ディスカバーささやまグループ"
+          },
+          {
+            "start": 157377,
+            "raw": "助成事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "特産館ささやま公衆便所維持管理助成事業",
+        "start": 157382,
+        "raw": "特産館ささやま公衆便所維持管\n53103 理助成事業",
+        "titleSegments": [
+          {
+            "start": 157382,
+            "raw": "特産館ささやま公衆便所維持管"
+          },
+          {
+            "start": 157403,
+            "raw": "理助成事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "王地山公園ささやま荘等運営委託業務",
+        "start": 157409,
+        "raw": "王地山公園ささやま荘等運営委\n53104 託業務",
+        "titleSegments": [
+          {
+            "start": 157409,
+            "raw": "王地山公園ささやま荘等運営委"
+          },
+          {
+            "start": 157430,
+            "raw": "託業務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "「ひょうご」の観光地活性化推進事業",
+        "start": 160282,
+        "raw": "「ひょうご」の観光地活性化推進\n53209 事業",
+        "titleSegments": [
+          {
+            "start": 160282,
+            "raw": "「ひょうご」の観光地活性化推進"
+          },
+          {
+            "start": 160304,
+            "raw": "事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "城東味まつり実行委員会補助金支払事務",
+        "start": 171797,
+        "raw": "城東味まつり実行委員会補助\n\n63201 金支払事務",
+        "titleSegments": [
+          {
+            "start": 171797,
+            "raw": "城東味まつり実行委員会補助"
+          },
+          {
+            "start": 171818,
+            "raw": "金支払事務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "ワラワラ短期交換留学生受入・派遣事業",
+        "start": 178018,
+        "raw": "ワラワラ短期交換留学生受入・\n\n65201 派遣事業",
+        "titleSegments": [
+          {
+            "start": 178018,
+            "raw": "ワラワラ短期交換留学生受入・"
+          },
+          {
+            "start": 178040,
+            "raw": "派遣事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "総合計画の策定、篠山再生計画（まちづくり編）の進捗管理業務",
+        "start": 185042,
+        "raw": "総合計画の策定、篠山再生計画（まちづく\n\n71401 り編）の進捗管理業務",
+        "titleSegments": [
+          {
+            "start": 185042,
+            "raw": "総合計画の策定、篠山再生計画（まちづく"
+          },
+          {
+            "start": 185069,
+            "raw": "り編）の進捗管理業務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "健診等受診補助事業（各種検診助成）",
+        "start": 2633,
+        "raw": "健診等受診補助事業（各種検\n11103 診助成）",
+        "titleSegments": [
+          {
+            "start": 2633,
+            "raw": "健診等受診補助事業（各種検"
+          },
+          {
+            "start": 2653,
+            "raw": "診助成）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "高齢重度障害者医療費助成事業",
+        "start": 14724,
+        "raw": "高齢重度障害者医療費助成事\n12334 業",
+        "titleSegments": [
+          {
+            "start": 14724,
+            "raw": "高齢重度障害者医療費助成事"
+          },
+          {
+            "start": 14744,
+            "raw": "業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "ﾎﾞﾗﾝﾃｨｱ活動団体育成補助事業",
+        "start": 30412,
+        "raw": "ﾎﾞﾗﾝﾃｨｱ活動団体育成補助事\n14102 業",
+        "titleSegments": [
+          {
+            "start": 30412,
+            "raw": "ﾎﾞﾗﾝﾃｨｱ活動団体育成補助事"
+          },
+          {
+            "start": 30435,
+            "raw": "業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "市営住宅使用料等徴収業務（直営分）",
+        "start": 38021,
+        "raw": "市営住宅使用料等徴収業務\n21205 （直営分）",
+        "titleSegments": [
+          {
+            "start": 38021,
+            "raw": "市営住宅使用料等徴収業務"
+          },
+          {
+            "start": 38040,
+            "raw": "（直営分）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "市営住宅使用料等回収業務（弁護士委託分）",
+        "start": 38046,
+        "raw": "市営住宅使用料等回収業務\n21206 （弁護士委託分）",
+        "titleSegments": [
+          {
+            "start": 38046,
+            "raw": "市営住宅使用料等回収業務"
+          },
+          {
+            "start": 38065,
+            "raw": "（弁護士委託分）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "景観法導入事務（景観条例・景観計画策定）",
+        "start": 45246,
+        "raw": "景観法導入事務（景観条例・景\n23103 観計画策定）",
+        "titleSegments": [
+          {
+            "start": 45246,
+            "raw": "景観法導入事務（景観条例・景"
+          },
+          {
+            "start": 45267,
+            "raw": "観計画策定）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "地球温暖化防止活動推進員事務",
+        "start": 51169,
+        "raw": "地球温暖化防止活動推進員事\n24105 務",
+        "titleSegments": [
+          {
+            "start": 51169,
+            "raw": "地球温暖化防止活動推進員事"
+          },
+          {
+            "start": 51189,
+            "raw": "務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "ごみ分別収集カレンダー作成事務",
+        "start": 53713,
+        "raw": "ごみ分別収集カレンダー作成事\n24211 務",
+        "titleSegments": [
+          {
+            "start": 53713,
+            "raw": "ごみ分別収集カレンダー作成事"
+          },
+          {
+            "start": 53734,
+            "raw": "務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "ごみ焼却施設運転管理委託業務",
+        "start": 56064,
+        "raw": "ごみ焼却施設運転管理委託業\n24315 務",
+        "titleSegments": [
+          {
+            "start": 56064,
+            "raw": "ごみ焼却施設運転管理委託業"
+          },
+          {
+            "start": 56084,
+            "raw": "務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "公立保育所事業（事務・管理・運営）",
+        "start": 73439,
+        "raw": "公立保育所事業（事務・管理・\n31106 運営）",
+        "titleSegments": [
+          {
+            "start": 73439,
+            "raw": "公立保育所事業（事務・管理・"
+          },
+          {
+            "start": 73460,
+            "raw": "運営）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "地元産物活用事業（東部給食センター）",
+        "start": 79581,
+        "raw": "地元産物活用事業\n32131 （東部給食センター）",
+        "titleSegments": [
+          {
+            "start": 79581,
+            "raw": "地元産物活用事業"
+          },
+          {
+            "start": 79596,
+            "raw": "（東部給食センター）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "特色のある献立作成事業（東部給食センター）",
+        "start": 79607,
+        "raw": "特色のある献立作成事業\n32132 （東部給食センター）",
+        "titleSegments": [
+          {
+            "start": 79607,
+            "raw": "特色のある献立作成事業"
+          },
+          {
+            "start": 79625,
+            "raw": "（東部給食センター）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "食育推進活動事業（東部給食センター）",
+        "start": 79636,
+        "raw": "食育推進活動事業\n32133 （東部給食センター）",
+        "titleSegments": [
+          {
+            "start": 79636,
+            "raw": "食育推進活動事業"
+          },
+          {
+            "start": 79651,
+            "raw": "（東部給食センター）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "地元産物活用事業（西部給食センター）",
+        "start": 79662,
+        "raw": "地元産物活用事業\n32134 （西部給食センター）",
+        "titleSegments": [
+          {
+            "start": 79662,
+            "raw": "地元産物活用事業"
+          },
+          {
+            "start": 79677,
+            "raw": "（西部給食センター）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "特色のある献立作成事業（西部給食センター）",
+        "start": 79688,
+        "raw": "特色のある献立作成事業\n32135 （西部給食センター）",
+        "titleSegments": [
+          {
+            "start": 79688,
+            "raw": "特色のある献立作成事業"
+          },
+          {
+            "start": 79706,
+            "raw": "（西部給食センター）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "公民館の情報発信事業（中央公民館事業）",
+        "start": 85920,
+        "raw": "公民館の情報発信事業\n33102 （中央公民館事業）",
+        "titleSegments": [
+          {
+            "start": 85920,
+            "raw": "公民館の情報発信事業"
+          },
+          {
+            "start": 85937,
+            "raw": "（中央公民館事業）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "公民館の情報発信事業（中央公民館分館事業）",
+        "start": 86560,
+        "raw": "公民館の情報発信事業\n33114 （中央公民館分館事業）",
+        "titleSegments": [
+          {
+            "start": 86560,
+            "raw": "公民館の情報発信事業"
+          },
+          {
+            "start": 86577,
+            "raw": "（中央公民館分館事業）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "高齢者大学事業（中央公民館分館事業）",
+        "start": 86589,
+        "raw": "高齢者大学事業\n33115 （中央公民館分館事業）",
+        "titleSegments": [
+          {
+            "start": 86589,
+            "raw": "高齢者大学事業"
+          },
+          {
+            "start": 86603,
+            "raw": "（中央公民館分館事業）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "子どもの居場所づくり事業(通学合宿）",
+        "start": 88704,
+        "raw": "子どもの居場所づくり事業\n33202 (通学合宿）",
+        "titleSegments": [
+          {
+            "start": 88704,
+            "raw": "子どもの居場所づくり事業"
+          },
+          {
+            "start": 88723,
+            "raw": "(通学合宿）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "人権啓発・広報活動・研究事業（畑ふれあい館）",
+        "start": 94983,
+        "raw": "人権啓発・広報活動・研究事業\n\n34108 （畑ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 94983,
+            "raw": "人権啓発・広報活動・研究事業"
+          },
+          {
+            "start": 95005,
+            "raw": "（畑ふれあい館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "人権啓発・広報活動・研究事業（日置ふれあい館）",
+        "start": 95015,
+        "raw": "人権啓発・広報活動・研究事業\n\n34109 （日置ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 95015,
+            "raw": "人権啓発・広報活動・研究事業"
+          },
+          {
+            "start": 95037,
+            "raw": "（日置ふれあい館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "人権啓発・広報活動・研究事業（西紀ふれあい館）",
+        "start": 95048,
+        "raw": "人権啓発・広報活動・研究事業\n\n34110 （西紀ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 95048,
+            "raw": "人権啓発・広報活動・研究事業"
+          },
+          {
+            "start": 95070,
+            "raw": "（西紀ふれあい館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "人権啓発・広報活動・研究事業（味間ふれあい館）",
+        "start": 95081,
+        "raw": "人権啓発・広報活動・研究事業\n34111 （味間ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 95081,
+            "raw": "人権啓発・広報活動・研究事業"
+          },
+          {
+            "start": 95102,
+            "raw": "（味間ふれあい館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "生活・人権相談事業（畑ふれあい館）",
+        "start": 98303,
+        "raw": "生活・人権相談事業\n\n34209 （畑ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 98303,
+            "raw": "生活・人権相談事業"
+          },
+          {
+            "start": 98320,
+            "raw": "（畑ふれあい館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "地域福祉事業（畑ふれあい館）",
+        "start": 97260,
+        "raw": "地域福祉事業\n34211 （畑ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 97260,
+            "raw": "地域福祉事業"
+          },
+          {
+            "start": 97273,
+            "raw": "（畑ふれあい館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "生活・人権相談事業（日置ふれあい館）",
+        "start": 98342,
+        "raw": "生活・人権相談事業\n34215 （日置ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 98342,
+            "raw": "生活・人権相談事業"
+          },
+          {
+            "start": 98358,
+            "raw": "（日置ふれあい館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "地域住民相互交流事業（日置ふれあい館）",
+        "start": 98368,
+        "raw": "地域住民相互交流事業\n34216 （日置ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 98368,
+            "raw": "地域住民相互交流事業"
+          },
+          {
+            "start": 98385,
+            "raw": "（日置ふれあい館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "地域福祉事業（日置ふれあい館）",
+        "start": 98395,
+        "raw": "地域福祉事業\n34217 （日置ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 98395,
+            "raw": "地域福祉事業"
+          },
+          {
+            "start": 98408,
+            "raw": "（日置ふれあい館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "隣保館連絡協議会負担金事業（日置ふれあい館）",
+        "start": 98418,
+        "raw": "隣保館連絡協議会負担金事業\n34218 （日置ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 98418,
+            "raw": "隣保館連絡協議会負担金事業"
+          },
+          {
+            "start": 98438,
+            "raw": "（日置ふれあい館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "ふれあい館運営委員会開催事業（日置ふれあい館）",
+        "start": 98448,
+        "raw": "ふれあい館運営委員会開催事業\n\n34219 （日置ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 98448,
+            "raw": "ふれあい館運営委員会開催事業"
+          },
+          {
+            "start": 98470,
+            "raw": "（日置ふれあい館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "生活・人権相談事業（西紀ふれあい館）",
+        "start": 98481,
+        "raw": "生活・人権相談事業\n34220 （西紀ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 98481,
+            "raw": "生活・人権相談事業"
+          },
+          {
+            "start": 98497,
+            "raw": "（西紀ふれあい館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "地域住民相互交流事業（西紀ふれあい館）",
+        "start": 98507,
+        "raw": "地域住民相互交流事業\n34221 （西紀ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 98507,
+            "raw": "地域住民相互交流事業"
+          },
+          {
+            "start": 98524,
+            "raw": "（西紀ふれあい館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "地域福祉事業（西紀ふれあい館）",
+        "start": 98534,
+        "raw": "地域福祉事業\n34222 （西紀ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 98534,
+            "raw": "地域福祉事業"
+          },
+          {
+            "start": 98547,
+            "raw": "（西紀ふれあい館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "隣保館連絡協議会負担金事業（西紀ふれあい館）",
+        "start": 98557,
+        "raw": "隣保館連絡協議会負担金事業\n34223 （西紀ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 98557,
+            "raw": "隣保館連絡協議会負担金事業"
+          },
+          {
+            "start": 98577,
+            "raw": "（西紀ふれあい館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "生活・人権相談事業（味間ふれあい館）",
+        "start": 98619,
+        "raw": "生活・人権相談事業\n\n34225 （味間ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 98619,
+            "raw": "生活・人権相談事業"
+          },
+          {
+            "start": 98636,
+            "raw": "（味間ふれあい館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "地域住民相互交流事業（味間ふれあい館）",
+        "start": 98647,
+        "raw": "地域住民相互交流事業\n\n34226 （味間ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 98647,
+            "raw": "地域住民相互交流事業"
+          },
+          {
+            "start": 98665,
+            "raw": "（味間ふれあい館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "地域福祉事業（味間ふれあい館）",
+        "start": 98675,
+        "raw": "地域福祉事業\n\n34227 （味間ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 98675,
+            "raw": "地域福祉事業"
+          },
+          {
+            "start": 98689,
+            "raw": "（味間ふれあい館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "隣保館連絡協議会負担金事業（味間ふれあい館）",
+        "start": 98699,
+        "raw": "隣保館連絡協議会負担金事業\n\n34228 （味間ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 98699,
+            "raw": "隣保館連絡協議会負担金事業"
+          },
+          {
+            "start": 98720,
+            "raw": "（味間ふれあい館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "生活・人権相談事業（古市ふれあい館）",
+        "start": 98763,
+        "raw": "生活・人権相談事業\n34230 （古市ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 98763,
+            "raw": "生活・人権相談事業"
+          },
+          {
+            "start": 98779,
+            "raw": "（古市ふれあい館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "地域住民相互交流事業（古市ふれあい館）",
+        "start": 98789,
+        "raw": "地域住民相互交流事業\n34231 （古市ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 98789,
+            "raw": "地域住民相互交流事業"
+          },
+          {
+            "start": 98806,
+            "raw": "（古市ふれあい館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "地域福祉事業（古市ふれあい館）",
+        "start": 98816,
+        "raw": "地域福祉事業\n34232 （古市ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 98816,
+            "raw": "地域福祉事業"
+          },
+          {
+            "start": 98829,
+            "raw": "（古市ふれあい館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "啓発事業（フィフティだより配布、セミナー等開催）",
+        "start": 100515,
+        "raw": "啓発事業（フィフティだより配\n34302 布、セミナー等開催）",
+        "titleSegments": [
+          {
+            "start": 100515,
+            "raw": "啓発事業（フィフティだより配"
+          },
+          {
+            "start": 100536,
+            "raw": "布、セミナー等開催）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "情報発信事業（図書、ビデオの貸し出し）",
+        "start": 100547,
+        "raw": "情報発信事業（図書、ビデオの\n34303 貸し出し）",
+        "titleSegments": [
+          {
+            "start": 100547,
+            "raw": "情報発信事業（図書、ビデオの"
+          },
+          {
+            "start": 100568,
+            "raw": "貸し出し）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "男女共同参画推進本部会議事業",
+        "start": 100574,
+        "raw": "男女共同参画推進本部会議事\n34304 業",
+        "titleSegments": [
+          {
+            "start": 100574,
+            "raw": "男女共同参画推進本部会議事"
+          },
+          {
+            "start": 100594,
+            "raw": "業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "市営駐輪場使用料徴収業務（一時利用）",
+        "start": 112653,
+        "raw": "市営駐輪場使用料徴収業務\n41303 （一時利用）",
+        "titleSegments": [
+          {
+            "start": 112653,
+            "raw": "市営駐輪場使用料徴収業務"
+          },
+          {
+            "start": 112672,
+            "raw": "（一時利用）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "市営駐輪場使用料徴収業務（定時利用）",
+        "start": 112679,
+        "raw": "市営駐輪場使用料徴収業務\n41304 （定時利用）",
+        "titleSegments": [
+          {
+            "start": 112679,
+            "raw": "市営駐輪場使用料徴収業務"
+          },
+          {
+            "start": 112698,
+            "raw": "（定時利用）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "宅内排水設備工事の受付検査、指定工事店、責任技術者の登録事業（下水道関連）",
+        "start": 122077,
+        "raw": "宅内排水設備工事の受付検査、指定工事\n\n43107 店、責任技術者の登録事業（下水道関連）",
+        "titleSegments": [
+          {
+            "start": 122077,
+            "raw": "宅内排水設備工事の受付検査、指定工事"
+          },
+          {
+            "start": 122103,
+            "raw": "店、責任技術者の登録事業（下水道関連）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "交流施設等運営事業（ハートピアセンター）",
+        "start": 148183,
+        "raw": "交流施設等運営事業\n51403 （ハートピアセンター）",
+        "titleSegments": [
+          {
+            "start": 148183,
+            "raw": "交流施設等運営事業"
+          },
+          {
+            "start": 148199,
+            "raw": "（ハートピアセンター）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "交流施設等運営事業（ハートピア農園）",
+        "start": 148211,
+        "raw": "交流施設等運営事業\n51404 （ハートピア農園）",
+        "titleSegments": [
+          {
+            "start": 148211,
+            "raw": "交流施設等運営事業"
+          },
+          {
+            "start": 148227,
+            "raw": "（ハートピア農園）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "交流施設等運営事業（大山荘の里市民農園）",
+        "start": 148237,
+        "raw": "交流施設等運営事業\n51405 （大山荘の里市民農園）",
+        "titleSegments": [
+          {
+            "start": 148237,
+            "raw": "交流施設等運営事業"
+          },
+          {
+            "start": 148253,
+            "raw": "（大山荘の里市民農園）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "交流施設等運営事業（黒豆の館）",
+        "start": 148265,
+        "raw": "交流施設等運営事業\n51406 （黒豆の館）",
+        "titleSegments": [
+          {
+            "start": 148265,
+            "raw": "交流施設等運営事業"
+          },
+          {
+            "start": 148281,
+            "raw": "（黒豆の館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "交流施設等運営事業（丹波旬の市）",
+        "start": 148288,
+        "raw": "交流施設等運営事業\n51407 （丹波旬の市）",
+        "titleSegments": [
+          {
+            "start": 148288,
+            "raw": "交流施設等運営事業"
+          },
+          {
+            "start": 148304,
+            "raw": "（丹波旬の市）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "交流施設等運営事業（丹波旬の市南部店）",
+        "start": 148312,
+        "raw": "交流施設等運営事業\n51408 （丹波旬の市南部店）",
+        "titleSegments": [
+          {
+            "start": 148312,
+            "raw": "交流施設等運営事業"
+          },
+          {
+            "start": 148328,
+            "raw": "（丹波旬の市南部店）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "交流施設等運営事業（農家高齢者創作館）",
+        "start": 148339,
+        "raw": "交流施設等運営事業\n51409 （農家高齢者創作館）",
+        "titleSegments": [
+          {
+            "start": 148339,
+            "raw": "交流施設等運営事業"
+          },
+          {
+            "start": 148355,
+            "raw": "（農家高齢者創作館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "篠山技能高等学院運営管理事務",
+        "start": 155824,
+        "raw": "篠山技能高等学院運営管理事\n\n52317 務",
+        "titleSegments": [
+          {
+            "start": 155824,
+            "raw": "篠山技能高等学院運営管理事"
+          },
+          {
+            "start": 155845,
+            "raw": "務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "篠山ふるさとガイドブック作成事業",
+        "start": 166330,
+        "raw": "篠山ふるさとガイドブック作成事\n\n61201 業",
+        "titleSegments": [
+          {
+            "start": 166330,
+            "raw": "篠山ふるさとガイドブック作成事"
+          },
+          {
+            "start": 166353,
+            "raw": "業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2010 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "無年金外国籍高齢者等福祉給付金支給事業",
+        "start": 16366,
+        "raw": "無年金外国籍高齢者等福祉給\n\n市一般財源\n〔人件費込〕\n\n活動指標\n\n（千円）\n\n単位\n\n124\n\nH21\nH22\nH22\n実績値 実績値 目標値\n\n対H22\n達成度\n\n事業の\n方向性\n\n12401 付金支給事業",
+        "titleSegments": [
+          {
+            "start": 16366,
+            "raw": "無年金外国籍高齢者等福祉給"
+          },
+          {
+            "start": 16466,
+            "raw": "付金支給事業"
+          }
+        ],
+        "note": "Manually reviewed first business row: title split only by standard table headers, with no intervening business code or title. Explicit FY2010 post-evaluation; no numeric attribution."
+      },
+      {
+        "name": "体育指導委員会事業「ミニ駅伝大会」",
+        "start": 27105,
+        "raw": "体育指導委員会事業「ミニ駅伝\n\n再生\n計画\n\n市一般財源\n〔人件費込〕\n\n（千円）\n\n活動指標\n\n単位\n\n132\n\nH21\nH22\nH22\n実績値 実績値 目標値\n\n対H22\n達成度\n\n事業の\n方向性\n\n13201 大会」",
+        "titleSegments": [
+          {
+            "start": 27105,
+            "raw": "体育指導委員会事業「ミニ駅伝"
+          },
+          {
+            "start": 27213,
+            "raw": "大会」"
+          }
+        ],
+        "note": "Manually reviewed first business row: title split only by standard table headers, with no intervening business code or title. Explicit FY2010 post-evaluation; no numeric attribution."
+      },
+      {
+        "name": "ごみ収集及び運搬に関する事務事業",
+        "start": 55327,
+        "raw": "ごみ収集及び運搬に関する事\n\n市一般財源\n〔人件費込〕\n\n（千円）\n\n活動指標\n\n単位\n\n243\n\nH21\nH22\nH22\n実績値 実績値 目標値\n\n対H22\n達成度\n\n事業の\n方向性\n\n24301 務事業",
+        "titleSegments": [
+          {
+            "start": 55327,
+            "raw": "ごみ収集及び運搬に関する事"
+          },
+          {
+            "start": 55427,
+            "raw": "務事業"
+          }
+        ],
+        "note": "Manually reviewed first business row: title split only by standard table headers, with no intervening business code or title. Explicit FY2010 post-evaluation; no numeric attribution."
+      },
+      {
+        "name": "農業近代化資金等利子補給事業",
+        "start": 138638,
+        "raw": "農業近代化資金等利子補給事\n\n市一般財源\n〔人件費込〕\n\n（千円）\n\n活動指標\n\n単位\n\nH21\nH22\nH22\n実績値 実績値 目標値\n\n対H22\n達成度\n\n事業の\n方向性\n\n51101 業",
+        "titleSegments": [
+          {
+            "start": 138638,
+            "raw": "農業近代化資金等利子補給事"
+          },
+          {
+            "start": 138733,
+            "raw": "業"
+          }
+        ],
+        "note": "Manually reviewed first business row: title split only by standard table headers, with no intervening business code or title. Explicit FY2010 post-evaluation; no numeric attribution."
       }
     ],
     "holds": [
@@ -16401,6 +19919,226 @@ export const hyogoRows = [
         "start": 139462,
         "raw": "県営土地改良事業",
         "reason": "Prefectural project title alone does not establish a distinct municipality-specific role or business share; hold pending explicit saved evidence."
+      },
+      {
+        "start": 2180,
+        "raw": "11110 み会活動）\n\nま＋２３\n\n3,175 員数\n\n人\n\n269\n\n247\n\n280\n\n△\n\nB\n\n母子保健推進員活動事業（愛\n11111 育班活動）\n\nま＋２３\n\n7,320 声かけ訪問件数\n\n人\n\n56621\n\n57000\n\n57,000\n\n○\n\nB\n\n％\n\n68.9\n\n-\n\n向上\n\nー\n\nB\n\n％\n\n86\n\n95\n\n90\n\n◎\n\nA\n\n11101",
+        "reason": "11110: Title prefix/suffix are separated by unrelated rows or indicator columns. Complete cached text exists, but exact title-to-code association is not demonstrated by adjacent text. Need verified original layout or an unambiguous saved association; no invented completion."
+      },
+      {
+        "start": 3361,
+        "raw": "11120 関係機関連絡事務・会議\n11121 母子保健事業総括事務\n\n麻しん風しん予防\n\n母子健康手帳発行\n1,553 数\nこんにちは赤ちゃ\n3,312 ん訪問実施率\n\n−\n\n11122 母子健康手帳交付事務\n\nま＋３３\n\n11123 訪問指導事業\n\nま＋３３\n\n11124 乳幼児健診事業\n\nま＋３３\n\n11125 すこやか相談事業\n\nま＋３３\n\n2,36",
+        "reason": "11120: Printed generic title does not identify the subject, service or facility sufficiently for distinct annual identity. Do not supply a qualifier from policy headings or nearby indicators."
+      },
+      {
+        "start": 6285,
+        "raw": "11208 業\n\n行：（３）-4\n\n869 健康講座参加者\n\n人\n\n-\n\n86\n\n90\n\n○\n\nB\n\n11209 今田診療所診療業務\n\n行：（３）-4\n\n17,491 年間延べ患者数\n\n人\n\n7,498\n\n7,242\n\n7,600\n\n○\n\nB\n\n11210 制事業\n\nま＋２１\n\n24,098 実施病院数\n\n日\n\n465\n\n493\n\n493\n\n◎\n\nB\n\n11",
+        "reason": "11208: Title prefix/suffix are separated by unrelated rows or indicator columns. Complete cached text exists, but exact title-to-code association is not demonstrated by adjacent text. Need verified original layout or an unambiguous saved association; no invented completion."
+      },
+      {
+        "start": 10960,
+        "raw": "12201 業\n\n12205\n12206\n12207\n12208\n12209\n12210\n12211\n12212\n12213\n12214\n12215\n12216\n12217\n12218\n12219\n12220\n12221\n12222\n12223\n12224\n12225\n12226\n12227\n12228\n12229\n12230\n12231\n12232\n122",
+        "reason": "12201: Title prefix/suffix are separated by unrelated rows or indicator columns. Complete cached text exists, but exact title-to-code association is not demonstrated by adjacent text. Need verified original layout or an unambiguous saved association; no invented completion."
+      },
+      {
+        "start": 16828,
+        "raw": "12409 業\n\n84 利用者数\n\n人\n\n527\n\n541\n\n−\n\n−\n\nD\n\n12410 篠山ﾃﾞｲｻｰﾋﾞｽｾﾝﾀｰ運営事業\n\n84 利用者数\n\n人\n\n718\n\n736\n\n−\n\n−\n\nD\n\n12411 生活保護一般事業\n\n4,412 嘱託医数\n\n人\n\n0\n\n0\n\nー\n\nー\n\nB\n\nセーフティネット支援対策等事\n12412 業\n\n資質向上研修延べ\n2,73",
+        "reason": "12409: Title prefix/suffix are separated by unrelated rows or indicator columns. Complete cached text exists, but exact title-to-code association is not demonstrated by adjacent text. Need verified original layout or an unambiguous saved association; no invented completion."
+      },
+      {
+        "start": 17915,
+        "raw": "12428 業\n\n7,728 受給者数\n\n人\n\n16\n\n21\n\n-\n\nー\n\nB\n\n高齢重度精神障害者医療費助\n12429 成事業【再掲】\n\n3,299 受給者数\n\n人\n\n5\n\n7\n\n-\n\nー\n\nB\n\nー\n\nー\n\nB\n\n高齢重度障害者医療費助成事\n\n12427 業【再掲】\n\n重度精神障害者医療費助成事\n\n12430 寡婦医療費助成事業\n12431\n12432\n",
+        "reason": "12428: Title prefix/suffix are separated by unrelated rows or indicator columns. Complete cached text exists, but exact title-to-code association is not demonstrated by adjacent text. Need verified original layout or an unambiguous saved association; no invented completion."
+      },
+      {
+        "start": 20352,
+        "raw": "12501 地域交流事業\n\n単位\n\nH21\nH22\nH22\n実績値 実績値 目標値\n\n回\n\n35\n\n35\n\n35\n\n対H22\n達成度\n\n事業の\n方向性\n\n◎\n\nB\n\n−\n\nB\n\n12502 児童相談事業\n\n611 養育上の相談件数\n\n回\n\n26\n\n26\n\n12503 広報活動事業\n\n534 情報の提供回数\n\n回\n\n21\n\n21\n\n30\n\n△\n\nB\n\n地域組織",
+        "reason": "12501: Printed generic title does not identify the subject, service or facility sufficiently for distinct annual identity. Do not supply a qualifier from policy headings or nearby indicators."
+      },
+      {
+        "start": 21117,
+        "raw": "12514 業\n\n3,319 協議会開催回数\n\n回\n\n5\n\n5\n\n―\n\n−\n\nB\n\n12515 家庭児童相談室業務\n\n3,964 相談件数\n\n件\n\n272\n\n224\n\n―\n\n−\n\nB\n\n回\n\n3\n\n4\n\n―\n\n−\n\nB\n\nー\n\n−\n\nB\n\n◎\n\nA\n\n―\n\n−\n\nB\n\n要保護児童対策地域協議会事\n\n家庭児童相談員連絡協議会事\n12516 業\n\n198 協議会",
+        "reason": "12514: Title prefix/suffix are separated by unrelated rows or indicator columns. Complete cached text exists, but exact title-to-code association is not demonstrated by adjacent text. Need verified original layout or an unambiguous saved association; no invented completion."
+      },
+      {
+        "start": 21908,
+        "raw": "12528 業\n\n165 給付対象者数\n\n人\n\n0\n\n1\n\n1\n\n◎\n\nA\n\n12529 高等技能訓練促進費等事業\n\n667 給付対象者数\n\n人\n\n1\n\n2\n\n1\n\n◎\n\nA\n\n12530 年末年始短期里親事業\n\n129 対象者数\n\n人\n\n13\n\n14\n\n13\n\n◎\n\nB\n\n12531 摂丹地区里親会事業\n\n86 −\n\n−\n\n−\n\nー\n\n−\n\nー\n\nB\n\n1",
+        "reason": "12528: Title prefix/suffix are separated by unrelated rows or indicator columns. Complete cached text exists, but exact title-to-code association is not demonstrated by adjacent text. Need verified original layout or an unambiguous saved association; no invented completion."
+      },
+      {
+        "start": 53161,
+        "raw": "24201 衛生に関する業務\n\n行２２\n\n255\n\nー\n\nー\n\nー\n\nー\n\nー\n\n−\n\nB\n\n24202 環境基本計画管理事務事業\n\nま43\n\n840\n\n−\n\n-\n\n-\n\n-\n\n−\n\n−\n\nB\n\n24204 地球温暖化対策実行計画事務\n\n緑のカーテン\n1,426 取り組み施設数\n温室効果ガス排出\n535 量\n\n24205 環境保全事務事業\n\n2,069\n\n資",
+        "reason": "24201: Printed generic title does not identify the subject, service or facility sufficiently for distinct annual identity. Do not supply a qualifier from policy headings or nearby indicators."
+      },
+      {
+        "start": 58108,
+        "raw": "25104 予防広報事務\n\n5,643\n\nー\n\nー\n\nB\n\n25105 住宅防火診断事務\n\n3,088 老人宅訪問数\n\n件\n\n20\n\n9\n\n20\n\n△\n\nB\n\n25106 防火安全協会事務\n\n5,617 会員事業所数\n\n件\n\n125\n\n124\n\n130\n\n○\n\nB\n\n25107 住宅防火に関する事務\n\n3,607 住警器設置率\n\n％\n\n37\n\n41\n\n50\n",
+        "reason": "25104: Printed generic title does not identify the subject, service or facility sufficiently for distinct annual identity. Do not supply a qualifier from policy headings or nearby indicators."
+      },
+      {
+        "start": 58819,
+        "raw": "25110 各種受付事務\n消防団及び自主防災の訓練指\n25111 導業務\n救急講習及び市民救命士講習\n25112 事業\n\n25118\n25119\n25120\n25121\n25122\n25123\n25124\n25125\n25126\n25127\n25128\n25129\n25130\n25131\n25132\n25133\n25134\n25135\n\nー\n\n行+70\n\nー",
+        "reason": "25110: Printed generic title does not identify the subject, service or facility sufficiently for distinct annual identity. Do not supply a qualifier from policy headings or nearby indicators."
+      },
+      {
+        "start": 60864,
+        "raw": "25213 開発支援事務\n25214 消防団支援事務\n\n0\n\nー\n\n消防水利等の設置\n1,156 指導件数\n消防団幹部会議開\n392 催\n\nー\n\nー\n\nー\n\nー\n\nー\n\nー\n2\n\nー\n\n0\nー\n\n件\n\n6\n\n11\n\n回\n\n6\n\n6\n\n6\n\n◎\n\nB\n\n56\n\n◎\n\nB\n\nー\n\nB\n\n◎\n\nB\n\n25215 災害防御計画等作成事務\n\n382 調査箇所\n\n件\n\n",
+        "reason": "25213: Printed generic title does not identify the subject, service or facility sufficiently for distinct annual identity. Do not supply a qualifier from policy headings or nearby indicators."
+      },
+      {
+        "start": 61642,
+        "raw": "25218 充実･強化事務\n\n防災・減災啓発活動業務【再\n\n25227 掲】\n25228\n25229\n25230\n25231\n25232\n25233\n25234\n25235\n\n161,584\n\nー\n\nフォーラム参加者\n\n1,380 数\n\nー\n\nー\n\nー\n1\nー\n\n\n施策評価シート（平成２２年度実施分事後評価）\n施策№\n\n253\n\n施策大綱大項目\n\n評価担当課",
+        "reason": "25218: Title prefix/suffix are separated by unrelated rows or indicator columns. Complete cached text exists, but exact title-to-code association is not demonstrated by adjacent text. Need verified original layout or an unambiguous saved association; no invented completion."
+      },
+      {
+        "start": 78220,
+        "raw": "32108 指定研究事業\n\n3,102 数\n\n校\n\n3\n\n9\n\n9\n\n◎\n\nB\n\n32109 教育課程推進事業\n\n7,106 支援教師配置数\n\n人\n\n2\n\n2\n\n2\n\n◎\n\nB\n\n32110 読書活動向上事業\n\n944 する子どもの割合\n\n％\n\n27\n\n25\n\n25\n\n◎\n\nA\n\n32111 理科おもしろ推進事業\n\n1,333 推進員配置校数\n\n校\n\n10\n",
+        "reason": "32108: Printed generic title does not identify the subject, service or facility sufficiently for distinct annual identity. Do not supply a qualifier from policy headings or nearby indicators."
+      },
+      {
+        "start": 86049,
+        "raw": "33101 務\n\n33108 郷土味学講座事業\n\n行＋（４）\n＋７７\n\nかぞくdeおいしんぼクッキング\n\n33109 事業\n\n青少年創造力･行動力開発プロ\n\n33110 グラム事業の企画・立案業務\n\n33111 青少年健全育成団体連携事業\n33112 人生セミナー事業\n\n人\n\n208\n\n215\n\n210\n\n◎\n\nA\n\n人\n\n−\n\n28\n\n20\n\n◎\n\nB\n\n",
+        "reason": "33101: Title prefix/suffix are separated by unrelated rows or indicator columns. Complete cached text exists, but exact title-to-code association is not demonstrated by adjacent text. Need verified original layout or an unambiguous saved association; no invented completion."
+      },
+      {
+        "start": 86392,
+        "raw": "33120 視聴覚教育支援事業\n\n33122\n33123\n33124\n33125\n33126\n33127\n33128\n33129\n33130\n33131\n33132\n33133\n33134\n33135\n\n-\n\n公民館職員としての技能向上\n研修会等に出席した職員の延\nべ人数\n\n学習拠点となる公民館運営業 行＋（３）\n33113 務\n３\n公民館の情報発信事業\n3",
+        "reason": "33120: Repeated full title occurs under separate codes/sections without an explicit reprint label at this occurrence. Need evidence of same versus distinct annual business; do not invent qualifiers or double count."
+      },
+      {
+        "start": 86550,
+        "raw": "33113 務\n３\n公民館の情報発信事業\n33114 （中央公民館分館事業）\n高齢者大学事業\n33115 （中央公民館分館事業）\n青少年健全育成団体との連携\n33116 事業\n情報通信技術（ICT）学習推進\n行（４）８３\n33117 事業\n地域映像の記録、公開、保存事\n33118 業\nビデオコンクール開催による映\n33119 像文化発展事業\n\n33121\n\n",
+        "reason": "33113: Title prefix/suffix are separated by unrelated rows or indicator columns. Complete cached text exists, but exact title-to-code association is not demonstrated by adjacent text. Need verified original layout or an unambiguous saved association; no invented completion."
+      },
+      {
+        "start": 86661,
+        "raw": "33117 事業\n地域映像の記録、公開、保存事\n33118 業\nビデオコンクール開催による映\n33119 像文化発展事業\n\n33121\n\n2\n\n−\n\n回\n\n−\n\n4\n\n4\n\n◎\n\nB\n\n人\n\n511\n\n451\n\n530\n\n○\n\nB\n\n回\n\n2\n\n2\n\n2\n\n◎\n\nB\n\n3,445 利用人数\n\n人\n\n3,161\n\n2,323\n\n3,500\n\n△\n\nB\n\n5,2",
+        "reason": "33117: Repeated full title occurs under separate codes/sections without an explicit reprint label at this occurrence. Need evidence of same versus distinct annual business; do not invent qualifiers or double count."
+      },
+      {
+        "start": 86685,
+        "raw": "33118 業\nビデオコンクール開催による映\n33119 像文化発展事業\n\n33121\n\n2\n\n−\n\n回\n\n−\n\n4\n\n4\n\n◎\n\nB\n\n人\n\n511\n\n451\n\n530\n\n○\n\nB\n\n回\n\n2\n\n2\n\n2\n\n◎\n\nB\n\n3,445 利用人数\n\n人\n\n3,161\n\n2,323\n\n3,500\n\n△\n\nB\n\n5,295 年間制作本数\n\n本\n\n85\n\n67\n\n65",
+        "reason": "33118: Repeated full title occurs under separate codes/sections without an explicit reprint label at this occurrence. Need evidence of same versus distinct annual business; do not invent qualifiers or double count."
+      },
+      {
+        "start": 89130,
+        "raw": "33208 （市子ども会連絡協議会）\n\n各種社会教育関係団体の自立支援事業\n\n自立支援により、自主運\n\n33209 （中央公民館事業）\n\n3,027 営に移行できた団体数\n\n33210 芸術活動・文化活動支援事業\n\n1,909 数\n\n文化協会加盟団体\n\n事業の\n方向性\n\n単位\n\n通学合宿実施団体\n2,360 数\nトライしようDAY参\n1,442 加児童数\n放",
+        "reason": "33208: Title prefix/suffix are separated by unrelated rows or indicator columns. Complete cached text exists, but exact title-to-code association is not demonstrated by adjacent text. Need verified original layout or an unambiguous saved association; no invented completion."
+      },
+      {
+        "start": 89182,
+        "raw": "33209 （中央公民館事業）\n\n3,027 営に移行できた団体数\n\n33210 芸術活動・文化活動支援事業\n\n1,909 数\n\n文化協会加盟団体\n\n事業の\n方向性\n\n単位\n\n通学合宿実施団体\n2,360 数\nトライしようDAY参\n1,442 加児童数\n放課後子ども教室\n2,413 実施教室数\n\n33207 （市PTA協議会）\n\n332\n\nー\n\nー\n\nー\n\n",
+        "reason": "33209: Title prefix/suffix are separated by unrelated rows or indicator columns. Complete cached text exists, but exact title-to-code association is not demonstrated by adjacent text. Need verified original layout or an unambiguous saved association; no invented completion."
+      },
+      {
+        "start": 89331,
+        "raw": "33207 （市PTA協議会）\n\n332\n\nー\n\nー\n\nー\n\n対H22\n達成度\n\n回\n\n2\n\n2\n\n2\n\n◎\n\nB\n\n回\n\n3\n\n3\n\n3\n\n◎\n\nB\n\n団体\n\n−\n\n4\n\n4\n\n◎\n\nB\n\n団体\n\n185\n\n183\n\n185\n\n○\n\nB\n\n各種社会教育関係団体の自立支援事業\n33211 （中央公民館分館事業）\n\n自立支援により、自主運\n950 営に移行でき",
+        "reason": "33207: Title prefix/suffix are separated by unrelated rows or indicator columns. Complete cached text exists, but exact title-to-code association is not demonstrated by adjacent text. Need verified original layout or an unambiguous saved association; no invented completion."
+      },
+      {
+        "start": 90165,
+        "raw": "33219 事業\n\nトライやる・ウィーク等\n\n行（４）８３\n\n地域映像の記録、公開、保存事\n33220 業\nビデオコンクール開催による映\n33221 像文化発展事業\n\n33222 視聴覚教育支援事業\n33223 まなびすとバンク事業【再掲】\n33224\n33225\n33226\n33227\n33228\n33229\n33230\n33231\n33232\n33233",
+        "reason": "33219: Repeated full title occurs under separate codes/sections without an explicit reprint label at this occurrence. Need evidence of same versus distinct annual business; do not invent qualifiers or double count."
+      },
+      {
+        "start": 90211,
+        "raw": "33220 業\nビデオコンクール開催による映\n33221 像文化発展事業\n\n33222 視聴覚教育支援事業\n33223 まなびすとバンク事業【再掲】\n33224\n33225\n33226\n33227\n33228\n33229\n33230\n33231\n33232\n33233\n33234\n33235\n\n行＋６８\n\n\n施策評価シート（平成２２年度実施分事後評価）\n施策",
+        "reason": "33220: Repeated full title occurs under separate codes/sections without an explicit reprint label at this occurrence. Need evidence of same versus distinct annual business; do not invent qualifiers or double count."
+      },
+      {
+        "start": 90234,
+        "raw": "33221 像文化発展事業\n\n33222 視聴覚教育支援事業\n33223 まなびすとバンク事業【再掲】\n33224\n33225\n33226\n33227\n33228\n33229\n33230\n33231\n33232\n33233\n33234\n33235\n\n行＋６８\n\n\n施策評価シート（平成２２年度実施分事後評価）\n施策№\n\n333\n\n施策大綱大項目\n\n評価担当課名",
+        "reason": "33221: Repeated full title occurs under separate codes/sections without an explicit reprint label at this occurrence. Need evidence of same versus distinct annual business; do not invent qualifiers or double count."
+      },
+      {
+        "start": 90249,
+        "raw": "33222 視聴覚教育支援事業\n33223 まなびすとバンク事業【再掲】\n33224\n33225\n33226\n33227\n33228\n33229\n33230\n33231\n33232\n33233\n33234\n33235\n\n行＋６８\n\n\n施策評価シート（平成２２年度実施分事後評価）\n施策№\n\n333\n\n施策大綱大項目\n\n評価担当課名：中央図書館\n\n333\n\n関連",
+        "reason": "33222: Repeated full title occurs under separate codes/sections without an explicit reprint label at this occurrence. Need evidence of same versus distinct annual business; do not invent qualifiers or double count."
+      },
+      {
+        "start": 97209,
+        "raw": "34210 （畑ふれあい館）\n\n179 交流教室開催回数\n\n回\n\n58\n\n38\n\n60\n\n△\n\nB\n\n地域福祉事業\n34211 （畑ふれあい館）\n隣保館連絡協議会負担金事業\n34212 （畑ふれあい館）\n\n健康増進教室開催\n170 回数\n\n回\n\n11\n\n3\n\n12\n\n△\n\nB\n\n63 協議会開催回数\n\n回\n\n6\n\n6\n\n6\n\n◎\n\nB\n\nふれあい館運営委員会",
+        "reason": "34210: Title prefix/suffix are separated by unrelated rows or indicator columns. Complete cached text exists, but exact title-to-code association is not demonstrated by adjacent text. Need verified original layout or an unambiguous saved association; no invented completion."
+      },
+      {
+        "start": 100705,
+        "raw": "34307 員会事業\n\n34308 男女共同参画審議会事業\n\n1,457 審議会開催回数\n\n34306 女性委員会事業\n男女共同参画センター運営委\n\n34309 人権教育推進事業\n34310\n34311\n34312\n34313\n34314\n34315\n34316\n34317\n34318\n34319\n34320\n34321\n34322\n34323\n34324\n",
+        "reason": "34307: Title prefix/suffix are separated by unrelated rows or indicator columns. Complete cached text exists, but exact title-to-code association is not demonstrated by adjacent text. Need verified original layout or an unambiguous saved association; no invented completion."
+      },
+      {
+        "start": 100978,
+        "raw": "34301 介護、家庭問題、人間関係等）\n\n女性委員会開催回\n1,298 数\n運営委員会開催回\n1,440 数\n\n対H22\n達成度\n\nー\n\n\n施策評価シート（平成２２年度実施分事後評価）\n施策№\n\n351\n\n施策大綱大項目\n\n351\n\n評価担当課名：たんば田園交響ホール 関連部局：社会教育・文化財課、公民館\n\nⅢ生涯学習の充実\n\n後期基本計画掲載\nP.５４\n",
+        "reason": "34301: Title prefix/suffix are separated by unrelated rows or indicator columns. Complete cached text exists, but exact title-to-code association is not demonstrated by adjacent text. Need verified original layout or an unambiguous saved association; no invented completion."
+      },
+      {
+        "start": 105750,
+        "raw": "35201 特定用地の管理・利活用事務\n\nー\n\n352\n\n1\nー\n\n1\nー\n\n6\nー\n\n5\nー\n\n2\n\n―\n2\n\n2\n\n1\n\n\n施策評価シート（平成２２年度実施分事後評価）\n施策№\n\n353\n\n施策大綱大項目\n\n353\n後期基本計画掲載\nP.５４\n\n評価担当課名：社会教育・文化財課 関連部局：\n\nⅢ生涯学習の充実\n\n5.芸術・文化の振興\n\n中項目\n\n中項目の",
+        "reason": "35201: Printed generic title does not identify the subject, service or facility sufficiently for distinct annual identity. Do not supply a qualifier from policy headings or nearby indicators."
+      },
+      {
+        "start": 123592,
+        "raw": "43201 施設維持管理事業\n\n32,855 総処理量\n\nKI\n\n5,300\n\n5,018\n\n5,013\n\n◎\n\nB\n\n43202 し尿収集運搬事業\n\n20,149 し尿汲取件数\n\n件\n\n4,950\n\n4,551\n\n4,700\n\n○\n\nB\n\n43203 し尿処理事業\n\n7,612 し尿処理量\n\nｋｌ\n\n2,090\n\n1,955\n\n1,950\n\n◎\n\nB\n\n4",
+        "reason": "43201: Printed generic title does not identify the subject, service or facility sufficiently for distinct annual identity. Do not supply a qualifier from policy headings or nearby indicators."
+      },
+      {
+        "start": 126986,
+        "raw": "44103 施設の維持管理業務\n44104 緊急時の対策及び復旧業務\n\n44107 ダム開発関連事業\n\nま：30P\n\n3,755\n\n-\n\n-\n\n-\n\n-\n\n−\n\nー\n\nB\n\n44108 原浄水施設改良事業\n\nま：30P\n\n11,619\n\n-\n\n-\n\n-\n\n-\n\n−\n\nー\n\nA\n\n44109 配給水施設改良事業\n\nま：30P\n\n18,651 有収率の向上\n\n％",
+        "reason": "44103: Printed generic title does not identify the subject, service or facility sufficiently for distinct annual identity. Do not supply a qualifier from policy headings or nearby indicators."
+      },
+      {
+        "start": 127002,
+        "raw": "44104 緊急時の対策及び復旧業務\n\n44107 ダム開発関連事業\n\nま：30P\n\n3,755\n\n-\n\n-\n\n-\n\n-\n\n−\n\nー\n\nB\n\n44108 原浄水施設改良事業\n\nま：30P\n\n11,619\n\n-\n\n-\n\n-\n\n-\n\n−\n\nー\n\nA\n\n44109 配給水施設改良事業\n\nま：30P\n\n18,651 有収率の向上\n\n％\n\n82.3\n\n82.5\n\n82",
+        "reason": "44104: Printed generic title does not identify the subject, service or facility sufficiently for distinct annual identity. Do not supply a qualifier from policy headings or nearby indicators."
+      },
+      {
+        "start": 130712,
+        "raw": "44301 広報宣伝業務\n44302\n44303\n44304\n44305\n44306\n44307\n44308\n44309\n44310\n44311\n44312\n44313\n44314\n44315\n44316\n44317\n44318\n44319\n44320\n44321\n44322\n44323\n44324\n44325\n44326\n44327\n44328\n44329",
+        "reason": "44301: Printed generic title does not identify the subject, service or facility sufficiently for distinct annual identity. Do not supply a qualifier from policy headings or nearby indicators."
+      },
+      {
+        "start": 139429,
+        "raw": "51123 土地改良事業公共事業\n土地改良施設の整備\n51124 県営土地改良事業\n土地改良施設の整備\n51125 県土地改良事業団体連合会事\n業\n土地改良施設の整備\n51126 土地改良施設維持適正化事業\n土地改良施設の整備\n51127 中山間地域総合整備事業\n土地改良施設の整備\n51128 村づくり交付金事業\n鳥獣被害防止対策施設整備事\n51129 業\n",
+        "reason": "51123: Repeated 土地改良施設の整備 heading and subordinate labels need complete business boundary and municipal-role evidence; prefectural participation is not inferred."
+      },
+      {
+        "start": 139481,
+        "raw": "51125 県土地改良事業団体連合会事\n業\n土地改良施設の整備\n51126 土地改良施設維持適正化事業\n土地改良施設の整備\n51127 中山間地域総合整備事業\n土地改良施設の整備\n51128 村づくり交付金事業\n鳥獣被害防止対策施設整備事\n51129 業\n\n51130 災害農地復旧事業\n\n4\n\n4\n\n-\n\n−\n\n−\n\nー\n\nB\n\nｈａ\n\n126\n\n130\n\n",
+        "reason": "51125: Repeated 土地改良施設の整備 heading and subordinate labels need complete business boundary and municipal-role evidence; prefectural participation is not inferred."
+      },
+      {
+        "start": 139513,
+        "raw": "51126 土地改良施設維持適正化事業\n土地改良施設の整備\n51127 中山間地域総合整備事業\n土地改良施設の整備\n51128 村づくり交付金事業\n鳥獣被害防止対策施設整備事\n51129 業\n\n51130 災害農地復旧事業\n\n4\n\n4\n\n-\n\n−\n\n−\n\nー\n\nB\n\nｈａ\n\n126\n\n130\n\n120\n\n○\n\nB\n\nha\n\n50\n\n92\n\n22\n\n◎\n\nB\n",
+        "reason": "51126: Repeated 土地改良施設の整備 heading and subordinate labels need complete business boundary and municipal-role evidence; prefectural participation is not inferred."
+      },
+      {
+        "start": 139543,
+        "raw": "51127 中山間地域総合整備事業\n土地改良施設の整備\n51128 村づくり交付金事業\n鳥獣被害防止対策施設整備事\n51129 業\n\n51130 災害農地復旧事業\n\n4\n\n4\n\n-\n\n−\n\n−\n\nー\n\nB\n\nｈａ\n\n126\n\n130\n\n120\n\n○\n\nB\n\nha\n\n50\n\n92\n\n22\n\n◎\n\nB\n\n921 交林整備面積\n\n針葉樹林と広葉樹林の混\n\nｈａ\n\n",
+        "reason": "51127: Repeated 土地改良施設の整備 heading and subordinate labels need complete business boundary and municipal-role evidence; prefectural participation is not inferred."
+      },
+      {
+        "start": 139571,
+        "raw": "51128 村づくり交付金事業\n鳥獣被害防止対策施設整備事\n51129 業\n\n51130 災害農地復旧事業\n\n4\n\n4\n\n-\n\n−\n\n−\n\nー\n\nB\n\nｈａ\n\n126\n\n130\n\n120\n\n○\n\nB\n\nha\n\n50\n\n92\n\n22\n\n◎\n\nB\n\n921 交林整備面積\n\n針葉樹林と広葉樹林の混\n\nｈａ\n\n62\n\n60\n\n10\n\n◎\n\nA\n\n382\n\n−\n\nー\n",
+        "reason": "51128: Repeated 土地改良施設の整備 heading and subordinate labels need complete business boundary and municipal-role evidence; prefectural participation is not inferred."
+      },
+      {
+        "start": 143269,
+        "raw": "51206 業\n\n行：(5)-1\n\n51207 集落営農組織高度化促進事業\n担い手農地情報活用集積促進\n\n51210 新規就農研修委託事業\n51211 就農研修費助成\n市担い手育成総合支援協議会\n51212 事業\n\n％\n\n21\n\n22\n\n30\n\n△\n\nB\n\n2,917\n\n認定農業者数\n新規就農者\n集落営農組織\n\n経営体\n人\n組織\n\n41\n6\n111\n\n41\n",
+        "reason": "51206: Title prefix/suffix are separated by unrelated rows or indicator columns. Complete cached text exists, but exact title-to-code association is not demonstrated by adjacent text. Need verified original layout or an unambiguous saved association; no invented completion."
+      },
+      {
+        "start": 151124,
+        "raw": "52105 融資事務\n企業誘致パンフレット作成事業\n\n52106 【再掲】\n\n企業誘致アンケート調査事業\n\nま P52\n\n（千円）\n\n0\n\nH21\nH22\nH22\n実績値 実績値 目標値\n\n対H22\n達成度\n\n52107 【再掲】\n\nま P52\n\n52108 市内企業訪問事業【再掲】\n\nま P52\n\n2,860 企業訪問社数\n\n社\n\n-\n\n50\n\n10\n\n◎",
+        "reason": "52105: Printed generic title does not identify the subject, service or facility sufficiently for distinct annual identity. Do not supply a qualifier from policy headings or nearby indicators."
+      },
+      {
+        "start": 164275,
+        "raw": "61101 施設管理業務\nふるさと篠山へ帰ろう住もう運\n61102 動推進事務【再掲】\nスポーツクラブ２１交流事業【再\n61103 掲】\n子どもの居場所づくり事業\n61104 (通学合宿）【再掲】\n子どもの居場所づくり事業\n61105 （トライしようDAY）【再掲】\n\n市一般財源\n〔人件費込〕\n\nま：Ｐ１３\n\n4,813\n\nふるさと篠山へ帰ろう住もう運\n動推",
+        "reason": "61101: Printed generic title does not identify the subject, service or facility sufficiently for distinct annual identity. Do not supply a qualifier from policy headings or nearby indicators."
+      },
+      {
+        "start": 174406,
+        "raw": "64101 動推進事務\n\nま：Ｐ１３\n\n4,813 動推進助成金交付対象団体数\n\n件\n\n21\n\n20\n\n64102 篠山暮らし案内所運営業務\n\nま：Ｐ１３\n\n2,062 相談登録件数\n\n件\n\n81\n\n45\n\nま：Ｐ１３\n\n臨時案内所参加回\n1,043 数\n\n回\n\n3\n\n兵庫田舎暮らし他自然居住支\n64103 援協議会事業\n\n対H22\n達成度\n\n20\n\n641",
+        "reason": "64101: Title prefix/suffix are separated by unrelated rows or indicator columns. Complete cached text exists, but exact title-to-code association is not demonstrated by adjacent text. Need verified original layout or an unambiguous saved association; no invented completion."
       }
     ],
     "sourceSha256": "4d65d3111f7604232320034377f9983f33efe4b15b7873cb4c3e265ba7130f71",
@@ -18129,6 +21867,2884 @@ export const hyogoRows = [
           }
         ],
         "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "健診・がん検診事業",
+        "start": 1539,
+        "raw": "健診・がん検診事業",
+        "note": "Manually reviewed literal annual-business-table title, code 11101. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 1533,
+        "context": "11101 健診・がん検診事業"
+      },
+      {
+        "name": "国民健康保険税賦課業務",
+        "start": 1932,
+        "raw": "国民健康保険税賦課業務",
+        "note": "Manually reviewed literal annual-business-table title, code 11107. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 1926,
+        "context": "11107 国民健康保険税賦課業務"
+      },
+      {
+        "name": "予防接種事業",
+        "start": 2331,
+        "raw": "予防接種事業",
+        "note": "Manually reviewed literal annual-business-table title, code 11113. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 2325,
+        "context": "11113 予防接種事業"
+      },
+      {
+        "name": "健康増進事業総括事務",
+        "start": 3232,
+        "raw": "健康増進事業総括事務",
+        "note": "Manually reviewed literal annual-business-table title, code 11129. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 3226,
+        "context": "11129 健康増進事業総括事務"
+      },
+      {
+        "name": "すくすく相談事業",
+        "start": 3272,
+        "raw": "すくすく相談事業",
+        "note": "Manually reviewed literal annual-business-table title, code 11130. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 3266,
+        "context": "11130 すくすく相談事業"
+      },
+      {
+        "name": "母子保健事業総括事務",
+        "start": 3303,
+        "raw": "母子保健事業総括事務",
+        "note": "Manually reviewed literal annual-business-table title, code 11131. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 3297,
+        "context": "11131 母子保健事業総括事務"
+      },
+      {
+        "name": "母子健康手帳の交付事業",
+        "start": 3336,
+        "raw": "母子健康手帳の交付事業",
+        "note": "Manually reviewed literal annual-business-table title, code 11132. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 3330,
+        "context": "11132 母子健康手帳の交付事業"
+      },
+      {
+        "name": "地域医療体制推進事務",
+        "start": 4974,
+        "raw": "地域医療体制推進事務",
+        "note": "Manually reviewed literal annual-business-table title, code 11201. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 4968,
+        "context": "11201 地域医療体制推進事務"
+      },
+      {
+        "name": "今田診療所運営業務",
+        "start": 5027,
+        "raw": "今田診療所運営業務",
+        "note": "Manually reviewed literal annual-business-table title, code 11202. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 5021,
+        "context": "11202 今田診療所運営業務"
+      },
+      {
+        "name": "後川診療所運営業務",
+        "start": 5085,
+        "raw": "後川診療所運営業務",
+        "note": "Manually reviewed literal annual-business-table title, code 11203. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 5079,
+        "context": "11203 後川診療所運営業務"
+      },
+      {
+        "name": "東雲診療所運営業務",
+        "start": 5137,
+        "raw": "東雲診療所運営業務",
+        "note": "Manually reviewed literal annual-business-table title, code 11204. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 5131,
+        "context": "11204 東雲診療所運営業務"
+      },
+      {
+        "name": "草山診療所運営業務",
+        "start": 5195,
+        "raw": "草山診療所運営業務",
+        "note": "Manually reviewed literal annual-business-table title, code 11205. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 5189,
+        "context": "11205 草山診療所運営業務"
+      },
+      {
+        "name": "高齢者就業機会確保事業",
+        "start": 8910,
+        "raw": "高齢者就業機会確保事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12201. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 8904,
+        "context": "12201 高齢者就業機会確保事業"
+      },
+      {
+        "name": "外出支援サービス事業",
+        "start": 10820,
+        "raw": "外出支援サービス事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12302. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 10814,
+        "context": "12302 外出支援サービス事業"
+      },
+      {
+        "name": "老人日常生活用具給付事業",
+        "start": 10921,
+        "raw": "老人日常生活用具給付事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12307. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 10915,
+        "context": "12307 老人日常生活用具給付事業"
+      },
+      {
+        "name": "老人保健医療費給付事業",
+        "start": 11157,
+        "raw": "老人保健医療費給付事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12311. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 11151,
+        "context": "12311 老人保健医療費給付事業"
+      },
+      {
+        "name": "介護保険給付管理事業",
+        "start": 11277,
+        "raw": "介護保険給付管理事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12316. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 11271,
+        "context": "12316 介護保険給付管理事業"
+      },
+      {
+        "name": "高齢者祝福事業事務",
+        "start": 11650,
+        "raw": "高齢者祝福事業事務",
+        "note": "Manually reviewed literal annual-business-table title, code 12324. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 11644,
+        "context": "12324 高齢者祝福事業事務"
+      },
+      {
+        "name": "高齢者相談業務",
+        "start": 11703,
+        "raw": "高齢者相談業務",
+        "note": "Manually reviewed literal annual-business-table title, code 12325. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 11697,
+        "context": "12325 高齢者相談業務"
+      },
+      {
+        "name": "高額介護サービス給付事業",
+        "start": 11875,
+        "raw": "高額介護サービス給付事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12313. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 11869,
+        "context": "12313 高額介護サービス給付事業"
+      },
+      {
+        "name": "介護保険事業所実地指導事業",
+        "start": 11894,
+        "raw": "介護保険事業所実地指導事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12314. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 11888,
+        "context": "12314 介護保険事業所実地指導事業"
+      },
+      {
+        "name": "東部地域支援センター事業",
+        "start": 11936,
+        "raw": "東部地域支援センター事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12320. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 11930,
+        "context": "12320 東部地域支援センター事業"
+      },
+      {
+        "name": "緊急通報体制整備事業",
+        "start": 11955,
+        "raw": "緊急通報体制整備事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12321. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 11949,
+        "context": "12321 緊急通報体制整備事業"
+      },
+      {
+        "name": "配食サービス事業",
+        "start": 11972,
+        "raw": "配食サービス事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12322. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 11966,
+        "context": "12322 配食サービス事業"
+      },
+      {
+        "name": "介護予防特定高齢者施策事業",
+        "start": 12179,
+        "raw": "介護予防特定高齢者施策事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12329. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 12173,
+        "context": "12329 介護予防特定高齢者施策事業"
+      },
+      {
+        "name": "寡婦医療費助成事業",
+        "start": 13627,
+        "raw": "寡婦医療費助成事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12401. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 13621,
+        "context": "12401 寡婦医療費助成事業"
+      },
+      {
+        "name": "障害者自立支援給付事業",
+        "start": 13732,
+        "raw": "障害者自立支援給付事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12402. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 13726,
+        "context": "12402 障害者自立支援給付事業"
+      },
+      {
+        "name": "身体障害者福祉一般事務",
+        "start": 14179,
+        "raw": "身体障害者福祉一般事務",
+        "note": "Manually reviewed literal annual-business-table title, code 12409. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 14173,
+        "context": "12409 身体障害者福祉一般事務"
+      },
+      {
+        "name": "自立支援法精神保健福祉事務",
+        "start": 14406,
+        "raw": "自立支援法精神保健福祉事務",
+        "note": "Manually reviewed literal annual-business-table title, code 12413. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 14400,
+        "context": "12413 自立支援法精神保健福祉事務"
+      },
+      {
+        "name": "十市一郡戦没者追悼式事業",
+        "start": 15202,
+        "raw": "十市一郡戦没者追悼式事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12422. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 15196,
+        "context": "12422 十市一郡戦没者追悼式事業"
+      },
+      {
+        "name": "市遺族会補助事業",
+        "start": 15221,
+        "raw": "市遺族会補助事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12423. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 15215,
+        "context": "12423 市遺族会補助事業"
+      },
+      {
+        "name": "家庭児童相談室業務",
+        "start": 17505,
+        "raw": "家庭児童相談室業務",
+        "note": "Manually reviewed literal annual-business-table title, code 12510. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 17499,
+        "context": "12510 家庭児童相談室業務"
+      },
+      {
+        "name": "母子自立支援員業務",
+        "start": 17945,
+        "raw": "母子自立支援員業務",
+        "note": "Manually reviewed literal annual-business-table title, code 12519. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 17939,
+        "context": "12519 母子自立支援員業務"
+      },
+      {
+        "name": "母子生活支援施設事務",
+        "start": 18237,
+        "raw": "母子生活支援施設事務",
+        "note": "Manually reviewed literal annual-business-table title, code 12524. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 18231,
+        "context": "12524 母子生活支援施設事務"
+      },
+      {
+        "name": "子育て応援特別手当支給事業",
+        "start": 18501,
+        "raw": "子育て応援特別手当支給事業",
+        "note": "Manually reviewed literal annual-business-table title, code 12529. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 18495,
+        "context": "12529 子育て応援特別手当支給事業"
+      },
+      {
+        "name": "国民年金事務",
+        "start": 19513,
+        "raw": "国民年金事務",
+        "note": "Manually reviewed literal annual-business-table title, code 12601. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 19507,
+        "context": "12601 国民年金事務"
+      },
+      {
+        "name": "社会体育施設利用管理事務",
+        "start": 23187,
+        "raw": "社会体育施設利用管理事務",
+        "note": "Manually reviewed literal annual-business-table title, code 13205. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 23181,
+        "context": "13205 社会体育施設利用管理事務"
+      },
+      {
+        "name": "スポーツクラブ２１事業",
+        "start": 23264,
+        "raw": "スポーツクラブ２１事業",
+        "note": "Manually reviewed literal annual-business-table title, code 13202. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 23258,
+        "context": "13202 スポーツクラブ２１事業"
+      },
+      {
+        "name": "多紀連山整備促進協議会事業",
+        "start": 24573,
+        "raw": "多紀連山整備促進協議会事業",
+        "note": "Manually reviewed literal annual-business-table title, code 13301. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 24567,
+        "context": "13301 多紀連山整備促進協議会事業"
+      },
+      {
+        "name": "多紀連山山開き事業",
+        "start": 24612,
+        "raw": "多紀連山山開き事業",
+        "note": "Manually reviewed literal annual-business-table title, code 13303. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 24606,
+        "context": "13303 多紀連山山開き事業"
+      },
+      {
+        "name": "市保護司会補助事業",
+        "start": 26391,
+        "raw": "市保護司会補助事業",
+        "note": "Manually reviewed literal annual-business-table title, code 14103. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 26385,
+        "context": "14103 市保護司会補助事業"
+      },
+      {
+        "name": "集落等福祉活動補助事業",
+        "start": 27979,
+        "raw": "集落等福祉活動補助事業",
+        "note": "Manually reviewed literal annual-business-table title, code 14201. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 27973,
+        "context": "14201 集落等福祉活動補助事業"
+      },
+      {
+        "name": "善意の日の表彰事業",
+        "start": 29440,
+        "raw": "善意の日の表彰事業",
+        "note": "Manually reviewed literal annual-business-table title, code 14301. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 29434,
+        "context": "14301 善意の日の表彰事業"
+      },
+      {
+        "name": "日本赤十字社事務",
+        "start": 29637,
+        "raw": "日本赤十字社事務",
+        "note": "Manually reviewed literal annual-business-table title, code 14304. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 29631,
+        "context": "14304 日本赤十字社事務"
+      },
+      {
+        "name": "老人会事務人件費補助事業",
+        "start": 29669,
+        "raw": "老人会事務人件費補助事業",
+        "note": "Manually reviewed literal annual-business-table title, code 14305. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 29663,
+        "context": "14305 老人会事務人件費補助事業"
+      },
+      {
+        "name": "住宅使用料賦課・徴収事務",
+        "start": 33099,
+        "raw": "住宅使用料賦課・徴収事務",
+        "note": "Manually reviewed literal annual-business-table title, code 21201. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 33093,
+        "context": "21201 住宅使用料賦課・徴収事務"
+      },
+      {
+        "name": "市営住宅管理業務",
+        "start": 33313,
+        "raw": "市営住宅管理業務",
+        "note": "Manually reviewed literal annual-business-table title, code 21203. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 33307,
+        "context": "21203 市営住宅管理業務"
+      },
+      {
+        "name": "公園施設管理事務",
+        "start": 34698,
+        "raw": "公園施設管理事務",
+        "note": "Manually reviewed literal annual-business-table title, code 22101. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 34692,
+        "context": "22101 公園施設管理事務"
+      },
+      {
+        "name": "ささやま桜協会事務局業務",
+        "start": 39514,
+        "raw": "ささやま桜協会事務局業務",
+        "note": "Manually reviewed literal annual-business-table title, code 23101. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 39508,
+        "context": "23101 ささやま桜協会事務局業務"
+      },
+      {
+        "name": "景観法導入事務",
+        "start": 39709,
+        "raw": "景観法導入事務",
+        "note": "Manually reviewed literal annual-business-table title, code 23103. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 39703,
+        "context": "23103 景観法導入事務"
+      },
+      {
+        "name": "まちづくり交付金事業",
+        "start": 41606,
+        "raw": "まちづくり交付金事業",
+        "note": "Manually reviewed literal annual-business-table title, code 23201. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 41600,
+        "context": "23201 まちづくり交付金事業"
+      },
+      {
+        "name": "地球温暖化防止活動推進事務",
+        "start": 44862,
+        "raw": "地球温暖化防止活動推進事務",
+        "note": "Manually reviewed literal annual-business-table title, code 24101. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 44856,
+        "context": "24101 地球温暖化防止活動推進事務"
+      },
+      {
+        "name": "量目検査業務",
+        "start": 46908,
+        "raw": "量目検査業務",
+        "note": "Manually reviewed literal annual-business-table title, code 24205. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 46902,
+        "context": "24205 量目検査業務"
+      },
+      {
+        "name": "環境保全事務事業",
+        "start": 47001,
+        "raw": "環境保全事務事業",
+        "note": "Manually reviewed literal annual-business-table title, code 24202. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 46995,
+        "context": "24202 環境保全事務事業"
+      },
+      {
+        "name": "ごみ収集運搬業務委託事業",
+        "start": 48540,
+        "raw": "ごみ収集運搬業務委託事業",
+        "note": "Manually reviewed literal annual-business-table title, code 24302. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 48534,
+        "context": "24302 ごみ収集運搬業務委託事業"
+      },
+      {
+        "name": "清掃センター施設見学事業",
+        "start": 48684,
+        "raw": "清掃センター施設見学事業",
+        "note": "Manually reviewed literal annual-business-table title, code 24306. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 48678,
+        "context": "24306 清掃センター施設見学事業"
+      },
+      {
+        "name": "防火広報事業",
+        "start": 50184,
+        "raw": "防火広報事業",
+        "note": "Manually reviewed literal annual-business-table title, code 25101. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 50178,
+        "context": "25101 防火広報事業"
+      },
+      {
+        "name": "総合訓練の立案・広報事務",
+        "start": 50237,
+        "raw": "総合訓練の立案・広報事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25103. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 50231,
+        "context": "25103 総合訓練の立案・広報事務"
+      },
+      {
+        "name": "火災調査に伴う情報管理事務",
+        "start": 50392,
+        "raw": "火災調査に伴う情報管理事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25105. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 50386,
+        "context": "25105 火災調査に伴う情報管理事務"
+      },
+      {
+        "name": "防火管理者制度事務",
+        "start": 50512,
+        "raw": "防火管理者制度事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25107. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 50506,
+        "context": "25107 防火管理者制度事務"
+      },
+      {
+        "name": "防火安全協会事務",
+        "start": 50566,
+        "raw": "防火安全協会事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25108. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 50560,
+        "context": "25108 防火安全協会事務"
+      },
+      {
+        "name": "住宅防火に関する事務",
+        "start": 50620,
+        "raw": "住宅防火に関する事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25109. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 50614,
+        "context": "25109 住宅防火に関する事務"
+      },
+      {
+        "name": "火災調査事務",
+        "start": 51071,
+        "raw": "火災調査事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25104. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 51065,
+        "context": "25104 火災調査事務"
+      },
+      {
+        "name": "火災防ぎょ計画の策定事務",
+        "start": 52696,
+        "raw": "火災防ぎょ計画の策定事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25205. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 52690,
+        "context": "25205 火災防ぎょ計画の策定事務"
+      },
+      {
+        "name": "災害防ぎょ計画等作成事務",
+        "start": 52749,
+        "raw": "災害防ぎょ計画等作成事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25206. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 52743,
+        "context": "25206 災害防ぎょ計画等作成事務"
+      },
+      {
+        "name": "救急救命士養成事業",
+        "start": 53249,
+        "raw": "救急救命士養成事業",
+        "note": "Manually reviewed literal annual-business-table title, code 25214. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 53243,
+        "context": "25214 救急救命士養成事業"
+      },
+      {
+        "name": "消防広域化の推進業務",
+        "start": 53286,
+        "raw": "消防広域化の推進業務",
+        "note": "Manually reviewed literal annual-business-table title, code 25216. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 53280,
+        "context": "25216 消防広域化の推進業務"
+      },
+      {
+        "name": "消防団支援事務",
+        "start": 53309,
+        "raw": "消防団支援事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25217. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 53303,
+        "context": "25217 消防団支援事務"
+      },
+      {
+        "name": "消防団員表彰事務",
+        "start": 53420,
+        "raw": "消防団員表彰事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25219. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 53414,
+        "context": "25219 消防団員表彰事務"
+      },
+      {
+        "name": "消防団員名簿管理事務",
+        "start": 53469,
+        "raw": "消防団員名簿管理事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25220. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 53463,
+        "context": "25220 消防団員名簿管理事務"
+      },
+      {
+        "name": "消防委員会事務",
+        "start": 53535,
+        "raw": "消防委員会事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25221. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 53529,
+        "context": "25221 消防委員会事務"
+      },
+      {
+        "name": "オフトーク通信放送業務",
+        "start": 53815,
+        "raw": "オフトーク通信放送業務",
+        "note": "Manually reviewed literal annual-business-table title, code 25227. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 53809,
+        "context": "25227 オフトーク通信放送業務"
+      },
+      {
+        "name": "防災行政無線整備事業",
+        "start": 53855,
+        "raw": "防災行政無線整備事業",
+        "note": "Manually reviewed literal annual-business-table title, code 25228. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 53849,
+        "context": "25228 防災行政無線整備事業"
+      },
+      {
+        "name": "災害対応業務",
+        "start": 55267,
+        "raw": "災害対応業務",
+        "note": "Manually reviewed literal annual-business-table title, code 25301. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 55261,
+        "context": "25301 災害対応業務"
+      },
+      {
+        "name": "国民保護協議会事務",
+        "start": 55460,
+        "raw": "国民保護協議会事務",
+        "note": "Manually reviewed literal annual-business-table title, code 25303. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 55454,
+        "context": "25303 国民保護協議会事務"
+      },
+      {
+        "name": "防災・減災啓発活動業務",
+        "start": 55507,
+        "raw": "防災・減災啓発活動業務",
+        "note": "Manually reviewed literal annual-business-table title, code 25304. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 55501,
+        "context": "25304 防災・減災啓発活動業務"
+      },
+      {
+        "name": "庁内防災体制整備",
+        "start": 57321,
+        "raw": "庁内防災体制整備",
+        "note": "Manually reviewed literal annual-business-table title, code 25409. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 57315,
+        "context": "25409 庁内防災体制整備"
+      },
+      {
+        "name": "自治会行政事務",
+        "start": 58838,
+        "raw": "自治会行政事務",
+        "note": "Manually reviewed literal annual-business-table title, code 26101. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 58832,
+        "context": "26101 自治会行政事務"
+      },
+      {
+        "name": "認可地縁団体事務",
+        "start": 58882,
+        "raw": "認可地縁団体事務",
+        "note": "Manually reviewed literal annual-business-table title, code 26102. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 58876,
+        "context": "26102 認可地縁団体事務"
+      },
+      {
+        "name": "篠山市自治会長会事務局事務",
+        "start": 58926,
+        "raw": "篠山市自治会長会事務局事務",
+        "note": "Manually reviewed literal annual-business-table title, code 26103. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 58920,
+        "context": "26103 篠山市自治会長会事務局事務"
+      },
+      {
+        "name": "味間地域防犯推進協議会事務",
+        "start": 59173,
+        "raw": "味間地域防犯推進協議会事務",
+        "note": "Manually reviewed literal annual-business-table title, code 26110. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 59167,
+        "context": "26110 味間地域防犯推進協議会事務"
+      },
+      {
+        "name": "篠山防犯協会補助金交付事務",
+        "start": 59236,
+        "raw": "篠山防犯協会補助金交付事務",
+        "note": "Manually reviewed literal annual-business-table title, code 26106. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 59230,
+        "context": "26106 篠山防犯協会補助金交付事務"
+      },
+      {
+        "name": "防犯協会篠山支部事務",
+        "start": 59256,
+        "raw": "防犯協会篠山支部事務",
+        "note": "Manually reviewed literal annual-business-table title, code 26107. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 59250,
+        "context": "26107 防犯協会篠山支部事務"
+      },
+      {
+        "name": "市民プラザ開設事業",
+        "start": 59317,
+        "raw": "市民プラザ開設事業",
+        "note": "Manually reviewed literal annual-business-table title, code 26111. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 59311,
+        "context": "26111 市民プラザ開設事業"
+      },
+      {
+        "name": "交通安全施設事務",
+        "start": 60708,
+        "raw": "交通安全施設事務",
+        "note": "Manually reviewed literal annual-business-table title, code 26201. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 60702,
+        "context": "26201 交通安全施設事務"
+      },
+      {
+        "name": "交通安全指導員事務",
+        "start": 60764,
+        "raw": "交通安全指導員事務",
+        "note": "Manually reviewed literal annual-business-table title, code 26202. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 60758,
+        "context": "26202 交通安全指導員事務"
+      },
+      {
+        "name": "交通安全運動・啓発事務",
+        "start": 60811,
+        "raw": "交通安全運動・啓発事務",
+        "note": "Manually reviewed literal annual-business-table title, code 26203. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 60805,
+        "context": "26203 交通安全運動・啓発事務"
+      },
+      {
+        "name": "交通安全対策連絡会議事務",
+        "start": 60858,
+        "raw": "交通安全対策連絡会議事務",
+        "note": "Manually reviewed literal annual-business-table title, code 26204. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 60852,
+        "context": "26204 交通安全対策連絡会議事務"
+      },
+      {
+        "name": "まちづくり協議会事務",
+        "start": 62267,
+        "raw": "まちづくり協議会事務",
+        "note": "Manually reviewed literal annual-business-table title, code 26301. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 62261,
+        "context": "26301 まちづくり協議会事務"
+      },
+      {
+        "name": "幼保一体化（プロジェクト）事業",
+        "start": 64103,
+        "raw": "幼保一体化（プロジェクト）事業",
+        "note": "Manually reviewed literal annual-business-table title, code 31101. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 64097,
+        "context": "31101 幼保一体化（プロジェクト）事業"
+      },
+      {
+        "name": "教育課程実施事業",
+        "start": 68094,
+        "raw": "教育課程実施事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32101. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 68088,
+        "context": "32101 教育課程実施事業"
+      },
+      {
+        "name": "学校適正配置事業",
+        "start": 68109,
+        "raw": "学校適正配置事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32102. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 68103,
+        "context": "32102 学校適正配置事業"
+      },
+      {
+        "name": "学習指導推進事業",
+        "start": 68313,
+        "raw": "学習指導推進事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32104. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 68307,
+        "context": "32104 学習指導推進事業"
+      },
+      {
+        "name": "「ことば」の力の向上事業",
+        "start": 68441,
+        "raw": "「ことば」の力の向上事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32106. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 68435,
+        "context": "32106 「ことば」の力の向上事業"
+      },
+      {
+        "name": "道徳教育推進事業",
+        "start": 68468,
+        "raw": "道徳教育推進事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32107. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 68462,
+        "context": "32107 道徳教育推進事業"
+      },
+      {
+        "name": "生徒指導事業",
+        "start": 68790,
+        "raw": "生徒指導事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32111. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 68784,
+        "context": "32111 生徒指導事業"
+      },
+      {
+        "name": "不登校支援事業",
+        "start": 68815,
+        "raw": "不登校支援事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32112. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 68809,
+        "context": "32112 不登校支援事業"
+      },
+      {
+        "name": "特別支援教育推進事業",
+        "start": 68847,
+        "raw": "特別支援教育推進事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32113. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 68841,
+        "context": "32113 特別支援教育推進事業"
+      },
+      {
+        "name": "体力・運動能力向上事業",
+        "start": 69225,
+        "raw": "体力・運動能力向上事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32119. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 69219,
+        "context": "32119 体力・運動能力向上事業"
+      },
+      {
+        "name": "特色ある学校づくりの推進事業",
+        "start": 69251,
+        "raw": "特色ある学校づくりの推進事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32120. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 69245,
+        "context": "32120 特色ある学校づくりの推進事業"
+      },
+      {
+        "name": "教職員研修会事務",
+        "start": 69518,
+        "raw": "教職員研修会事務",
+        "note": "Manually reviewed literal annual-business-table title, code 32125. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 69512,
+        "context": "32125 教職員研修会事務"
+      },
+      {
+        "name": "学校保健関係事業",
+        "start": 69959,
+        "raw": "学校保健関係事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32132. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 69953,
+        "context": "32132 学校保健関係事業"
+      },
+      {
+        "name": "通学関連事務",
+        "start": 69974,
+        "raw": "通学関連事務",
+        "note": "Manually reviewed literal annual-business-table title, code 32133. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 69968,
+        "context": "32133 通学関連事務"
+      },
+      {
+        "name": "ふるさと創生奨学金事業",
+        "start": 71179,
+        "raw": "ふるさと創生奨学金事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32201. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 71173,
+        "context": "32201 ふるさと創生奨学金事業"
+      },
+      {
+        "name": "教育懇談会等実施事業",
+        "start": 72824,
+        "raw": "教育懇談会等実施事業",
+        "note": "Manually reviewed literal annual-business-table title, code 32302. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 72818,
+        "context": "32302 教育懇談会等実施事業"
+      },
+      {
+        "name": "中央館方式管理事務",
+        "start": 76332,
+        "raw": "中央館方式管理事務",
+        "note": "Manually reviewed literal annual-business-table title, code 33104. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 76326,
+        "context": "33104 中央館方式管理事務"
+      },
+      {
+        "name": "食文化センター事業",
+        "start": 76518,
+        "raw": "食文化センター事業",
+        "note": "Manually reviewed literal annual-business-table title, code 33109. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 76512,
+        "context": "33109 食文化センター事業"
+      },
+      {
+        "name": "古文書入門講座事業",
+        "start": 76594,
+        "raw": "古文書入門講座事業",
+        "note": "Manually reviewed literal annual-business-table title, code 33101. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 76588,
+        "context": "33101 古文書入門講座事業"
+      },
+      {
+        "name": "うりぼう師範検定事業",
+        "start": 79340,
+        "raw": "うりぼう師範検定事業",
+        "note": "Manually reviewed literal annual-business-table title, code 33202. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 79334,
+        "context": "33202 うりぼう師範検定事業"
+      },
+      {
+        "name": "ひょうご放課後プラン事業",
+        "start": 79378,
+        "raw": "ひょうご放課後プラン事業",
+        "note": "Manually reviewed literal annual-business-table title, code 33204. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 79372,
+        "context": "33204 ひょうご放課後プラン事業"
+      },
+      {
+        "name": "子どもの読書活動推進事業",
+        "start": 79696,
+        "raw": "子どもの読書活動推進事業",
+        "note": "Manually reviewed literal annual-business-table title, code 33207. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 79690,
+        "context": "33207 子どもの読書活動推進事業"
+      },
+      {
+        "name": "学校図書館連携事業",
+        "start": 79729,
+        "raw": "学校図書館連携事業",
+        "note": "Manually reviewed literal annual-business-table title, code 33208. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 79723,
+        "context": "33208 学校図書館連携事業"
+      },
+      {
+        "name": "蔵書整備事務",
+        "start": 79848,
+        "raw": "蔵書整備事務",
+        "note": "Manually reviewed literal annual-business-table title, code 33209. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 79842,
+        "context": "33209 蔵書整備事務"
+      },
+      {
+        "name": "各種人権研修会事業",
+        "start": 84094,
+        "raw": "各種人権研修会事業",
+        "note": "Manually reviewed literal annual-business-table title, code 34102. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 84088,
+        "context": "34102 各種人権研修会事業"
+      },
+      {
+        "name": "人権研究大会参加事務",
+        "start": 84110,
+        "raw": "人権研究大会参加事務",
+        "note": "Manually reviewed literal annual-business-table title, code 34103. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 84104,
+        "context": "34103 人権研究大会参加事務"
+      },
+      {
+        "name": "人権啓発・広報事務",
+        "start": 84345,
+        "raw": "人権啓発・広報事務",
+        "note": "Manually reviewed literal annual-business-table title, code 34107. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 84339,
+        "context": "34107 人権啓発・広報事務"
+      },
+      {
+        "name": "平和施策事業",
+        "start": 84860,
+        "raw": "平和施策事業",
+        "note": "Manually reviewed literal annual-business-table title, code 34115. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 84854,
+        "context": "34115 平和施策事業"
+      },
+      {
+        "name": "研修会館管理運営事業",
+        "start": 86260,
+        "raw": "研修会館管理運営事業",
+        "note": "Manually reviewed literal annual-business-table title, code 34202. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 86254,
+        "context": "34202 研修会館管理運営事業"
+      },
+      {
+        "name": "人権センター・人権相談業務",
+        "start": 86445,
+        "raw": "人権センター・人権相談業務",
+        "note": "Manually reviewed literal annual-business-table title, code 34203. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 86439,
+        "context": "34203 人権センター・人権相談業務"
+      },
+      {
+        "name": "人権に係る総合的な施策業務",
+        "start": 87417,
+        "raw": "人権に係る総合的な施策業務",
+        "note": "Manually reviewed literal annual-business-table title, code 34220. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 87411,
+        "context": "34220 人権に係る総合的な施策業務"
+      },
+      {
+        "name": "牛ヶ瀬保館費地域福祉事業",
+        "start": 87449,
+        "raw": "牛ヶ瀬保館費地域福祉事業",
+        "note": "Manually reviewed literal annual-business-table title, code 34218. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 87443,
+        "context": "34218 牛ヶ瀬保館費地域福祉事業"
+      },
+      {
+        "name": "住民学習事業",
+        "start": 87469,
+        "raw": "住民学習事業",
+        "note": "Manually reviewed literal annual-business-table title, code 34221. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 87463,
+        "context": "34221 住民学習事業"
+      },
+      {
+        "name": "女性委員会開催事務",
+        "start": 89169,
+        "raw": "女性委員会開催事務",
+        "note": "Manually reviewed literal annual-business-table title, code 34301. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 89163,
+        "context": "34301 女性委員会開催事務"
+      },
+      {
+        "name": "男女共同参画審議会開催事務",
+        "start": 89287,
+        "raw": "男女共同参画審議会開催事務",
+        "note": "Manually reviewed literal annual-business-table title, code 34305. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 89281,
+        "context": "34305 男女共同参画審議会開催事務"
+      },
+      {
+        "name": "交響ホール管理事務",
+        "start": 91280,
+        "raw": "交響ホール管理事務",
+        "note": "Manually reviewed literal annual-business-table title, code 35103. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 91274,
+        "context": "35103 交響ホール管理事務"
+      },
+      {
+        "name": "第５回篠山市展事業",
+        "start": 91635,
+        "raw": "第５回篠山市展事業",
+        "note": "Manually reviewed literal annual-business-table title, code 35105. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 91629,
+        "context": "35105 第５回篠山市展事業"
+      },
+      {
+        "name": "文化財の保護・管理業務",
+        "start": 93778,
+        "raw": "文化財の保護・管理業務",
+        "note": "Manually reviewed literal annual-business-table title, code 35207. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 93772,
+        "context": "35207 文化財の保護・管理業務"
+      },
+      {
+        "name": "地区整備計画策定事業",
+        "start": 97405,
+        "raw": "地区整備計画策定事業",
+        "note": "Manually reviewed literal annual-business-table title, code 41102. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 97399,
+        "context": "41102 地区整備計画策定事業"
+      },
+      {
+        "name": "里づくり計画策定支援業務",
+        "start": 98835,
+        "raw": "里づくり計画策定支援業務",
+        "note": "Manually reviewed literal annual-business-table title, code 41201. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 98829,
+        "context": "41201 里づくり計画策定支援業務"
+      },
+      {
+        "name": "道路新設改良事業",
+        "start": 105327,
+        "raw": "道路新設改良事業",
+        "note": "Manually reviewed literal annual-business-table title, code 42103. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 105321,
+        "context": "42103 道路新設改良事業"
+      },
+      {
+        "name": "バス路線維持確保対策事業",
+        "start": 107231,
+        "raw": "バス路線維持確保対策事業",
+        "note": "Manually reviewed literal annual-business-table title, code 42201. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 107225,
+        "context": "42201 バス路線維持確保対策事業"
+      },
+      {
+        "name": "し尿収集運搬処理事業",
+        "start": 110878,
+        "raw": "し尿収集運搬処理事業",
+        "note": "Manually reviewed literal annual-business-table title, code 43201. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 110872,
+        "context": "43201 し尿収集運搬処理事業"
+      },
+      {
+        "name": "給水施設の維持管理業務",
+        "start": 113672,
+        "raw": "給水施設の維持管理業務",
+        "note": "Manually reviewed literal annual-business-table title, code 44101. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 113666,
+        "context": "44101 給水施設の維持管理業務"
+      },
+      {
+        "name": "配給水施設改良事業",
+        "start": 113710,
+        "raw": "配給水施設改良事業",
+        "note": "Manually reviewed literal annual-business-table title, code 44102. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 113704,
+        "context": "44102 配給水施設改良事業"
+      },
+      {
+        "name": "原浄水施設改良事業",
+        "start": 113835,
+        "raw": "原浄水施設改良事業",
+        "note": "Manually reviewed literal annual-business-table title, code 44103. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 113829,
+        "context": "44103 原浄水施設改良事業"
+      },
+      {
+        "name": "水質検査業務",
+        "start": 114017,
+        "raw": "水質検査業務",
+        "note": "Manually reviewed literal annual-business-table title, code 44106. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 114011,
+        "context": "44106 水質検査業務"
+      },
+      {
+        "name": "水道料金徴収業務",
+        "start": 114066,
+        "raw": "水道料金徴収業務",
+        "note": "Manually reviewed literal annual-business-table title, code 44107. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 114060,
+        "context": "44107 水道料金徴収業務"
+      },
+      {
+        "name": "節水意識の普及業務",
+        "start": 114202,
+        "raw": "節水意識の普及業務",
+        "note": "Manually reviewed literal annual-business-table title, code 44110. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 114196,
+        "context": "44110 節水意識の普及業務"
+      },
+      {
+        "name": "電算運用業務",
+        "start": 120837,
+        "raw": "電算運用業務",
+        "note": "Manually reviewed literal annual-business-table title, code 45201. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 120831,
+        "context": "45201 電算運用業務"
+      },
+      {
+        "name": "市ホームページ作成業務",
+        "start": 120866,
+        "raw": "市ホームページ作成業務",
+        "note": "Manually reviewed literal annual-business-table title, code 45202. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 120860,
+        "context": "45202 市ホームページ作成業務"
+      },
+      {
+        "name": "ネットワーク管理業務",
+        "start": 120894,
+        "raw": "ネットワーク管理業務",
+        "note": "Manually reviewed literal annual-business-table title, code 45203. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 120888,
+        "context": "45203 ネットワーク管理業務"
+      },
+      {
+        "name": "ヘルプデスク事務",
+        "start": 122385,
+        "raw": "ヘルプデスク事務",
+        "note": "Manually reviewed literal annual-business-table title, code 45301. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 122379,
+        "context": "45301 ヘルプデスク事務"
+      },
+      {
+        "name": "ＣＡＴＶ自主製作番組事務",
+        "start": 122493,
+        "raw": "ＣＡＴＶ自主製作番組事務",
+        "note": "Manually reviewed literal annual-business-table title, code 45302. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 122487,
+        "context": "45302 ＣＡＴＶ自主製作番組事務"
+      },
+      {
+        "name": "畜産部会補助事業",
+        "start": 124343,
+        "raw": "畜産部会補助事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51102. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 124337,
+        "context": "51102 畜産部会補助事業"
+      },
+      {
+        "name": "家畜損害防止事業",
+        "start": 124378,
+        "raw": "家畜損害防止事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51103. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 124372,
+        "context": "51103 家畜損害防止事業"
+      },
+      {
+        "name": "畜産衛生対策事業",
+        "start": 124424,
+        "raw": "畜産衛生対策事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51104. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 124418,
+        "context": "51104 畜産衛生対策事業"
+      },
+      {
+        "name": "松くい虫防除対策事業",
+        "start": 124800,
+        "raw": "松くい虫防除対策事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51111. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 124794,
+        "context": "51111 松くい虫防除対策事業"
+      },
+      {
+        "name": "林道維持管理事業",
+        "start": 124856,
+        "raw": "林道維持管理事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51112. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 124850,
+        "context": "51112 林道維持管理事業"
+      },
+      {
+        "name": "転作作物確認立ち会い業務",
+        "start": 125108,
+        "raw": "転作作物確認立ち会い業務",
+        "note": "Manually reviewed literal annual-business-table title, code 51118. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 125102,
+        "context": "51118 転作作物確認立ち会い業務"
+      },
+      {
+        "name": "特産物振興対策事業",
+        "start": 125204,
+        "raw": "特産物振興対策事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51114. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 125198,
+        "context": "51114 特産物振興対策事業"
+      },
+      {
+        "name": "県畜産共進会事務",
+        "start": 125296,
+        "raw": "県畜産共進会事務",
+        "note": "Manually reviewed literal annual-business-table title, code 51120. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 125290,
+        "context": "51120 県畜産共進会事務"
+      },
+      {
+        "name": "但馬牛増頭促進事業",
+        "start": 125319,
+        "raw": "但馬牛増頭促進事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51121. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 125313,
+        "context": "51121 但馬牛増頭促進事業"
+      },
+      {
+        "name": "生産組合活動支援事業",
+        "start": 127655,
+        "raw": "生産組合活動支援事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51204. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 127649,
+        "context": "51204 生産組合活動支援事業"
+      },
+      {
+        "name": "市農業生産組合協議会事業",
+        "start": 127672,
+        "raw": "市農業生産組合協議会事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51205. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 127666,
+        "context": "51205 市農業生産組合協議会事業"
+      },
+      {
+        "name": "元気な農業づくり推進対策事業",
+        "start": 127720,
+        "raw": "元気な農業づくり推進対策事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51206. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 127714,
+        "context": "51206 元気な農業づくり推進対策事業"
+      },
+      {
+        "name": "農地流動化促進事業",
+        "start": 127869,
+        "raw": "農地流動化促進事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51209. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 127863,
+        "context": "51209 農地流動化促進事業"
+      },
+      {
+        "name": "担い手育成支援事業",
+        "start": 128277,
+        "raw": "担い手育成支援事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51212. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 128271,
+        "context": "51212 担い手育成支援事業"
+      },
+      {
+        "name": "水田経営対策加入促進事業",
+        "start": 128445,
+        "raw": "水田経営対策加入促進事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51217. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 128439,
+        "context": "51217 水田経営対策加入促進事業"
+      },
+      {
+        "name": "農業経営改善計画関係事務",
+        "start": 128505,
+        "raw": "農業経営改善計画関係事務",
+        "note": "Manually reviewed literal annual-business-table title, code 51218. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 128499,
+        "context": "51218 農業経営改善計画関係事務"
+      },
+      {
+        "name": "青山デカンショ実行委員会事務",
+        "start": 130196,
+        "raw": "青山デカンショ実行委員会事務",
+        "note": "Manually reviewed literal annual-business-table title, code 51301. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 130190,
+        "context": "51301 青山デカンショ実行委員会事務"
+      },
+      {
+        "name": "市農産物品評会事務",
+        "start": 130377,
+        "raw": "市農産物品評会事務",
+        "note": "Manually reviewed literal annual-business-table title, code 51304. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 130371,
+        "context": "51304 市農産物品評会事務"
+      },
+      {
+        "name": "地域特産物振興事業",
+        "start": 130529,
+        "raw": "地域特産物振興事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51307. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 130523,
+        "context": "51307 地域特産物振興事業"
+      },
+      {
+        "name": "丹波地区茶業振興会事務",
+        "start": 130571,
+        "raw": "丹波地区茶業振興会事務",
+        "note": "Manually reviewed literal annual-business-table title, code 51309. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 130565,
+        "context": "51309 丹波地区茶業振興会事務"
+      },
+      {
+        "name": "青果物価格安定事業",
+        "start": 130589,
+        "raw": "青果物価格安定事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51310. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 130583,
+        "context": "51310 青果物価格安定事業"
+      },
+      {
+        "name": "丹波篠山元気回復フェア事業",
+        "start": 130876,
+        "raw": "丹波篠山元気回復フェア事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51313. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 130870,
+        "context": "51313 丹波篠山元気回復フェア事業"
+      },
+      {
+        "name": "市民農園関係事務",
+        "start": 132454,
+        "raw": "市民農園関係事務",
+        "note": "Manually reviewed literal annual-business-table title, code 51401. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 132448,
+        "context": "51401 市民農園関係事務"
+      },
+      {
+        "name": "緑の少年団関係事務",
+        "start": 132583,
+        "raw": "緑の少年団関係事務",
+        "note": "Manually reviewed literal annual-business-table title, code 51403. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 132577,
+        "context": "51403 緑の少年団関係事務"
+      },
+      {
+        "name": "農村交流施設の整備事業",
+        "start": 132805,
+        "raw": "農村交流施設の整備事業",
+        "note": "Manually reviewed literal annual-business-table title, code 51406. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 132799,
+        "context": "51406 農村交流施設の整備事業"
+      },
+      {
+        "name": "中小企業融資事務",
+        "start": 134408,
+        "raw": "中小企業融資事務",
+        "note": "Manually reviewed literal annual-business-table title, code 52101. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 134402,
+        "context": "52101 中小企業融資事務"
+      },
+      {
+        "name": "市民センター運営管理業務",
+        "start": 134548,
+        "raw": "市民センター運営管理業務",
+        "note": "Manually reviewed literal annual-business-table title, code 52103. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 134542,
+        "context": "52103 市民センター運営管理業務"
+      },
+      {
+        "name": "商工会経営改善普及事業",
+        "start": 134879,
+        "raw": "商工会経営改善普及事業",
+        "note": "Manually reviewed literal annual-business-table title, code 52108. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 134873,
+        "context": "52108 商工会経営改善普及事業"
+      },
+      {
+        "name": "商工会地域総合振興事業",
+        "start": 136479,
+        "raw": "商工会地域総合振興事業",
+        "note": "Manually reviewed literal annual-business-table title, code 52201. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 136473,
+        "context": "52201 商工会地域総合振興事業"
+      },
+      {
+        "name": "丹波杜氏組合事務局業務",
+        "start": 136566,
+        "raw": "丹波杜氏組合事務局業務",
+        "note": "Manually reviewed literal annual-business-table title, code 52202. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 136560,
+        "context": "52202 丹波杜氏組合事務局業務"
+      },
+      {
+        "name": "丹波伝統工芸公園管理業務",
+        "start": 136616,
+        "raw": "丹波伝統工芸公園管理業務",
+        "note": "Manually reviewed literal annual-business-table title, code 52203. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 136610,
+        "context": "52203 丹波伝統工芸公園管理業務"
+      },
+      {
+        "name": "酒造記念館運営管理業務",
+        "start": 136819,
+        "raw": "酒造記念館運営管理業務",
+        "note": "Manually reviewed literal annual-business-table title, code 52204. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 136813,
+        "context": "52204 酒造記念館運営管理業務"
+      },
+      {
+        "name": "プレミアム付商品券発行事業",
+        "start": 136919,
+        "raw": "プレミアム付商品券発行事業",
+        "note": "Manually reviewed literal annual-business-table title, code 52208. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 136913,
+        "context": "52208 プレミアム付商品券発行事業"
+      },
+      {
+        "name": "工場等施設整備奨励事業",
+        "start": 138482,
+        "raw": "工場等施設整備奨励事業",
+        "note": "Manually reviewed literal annual-business-table title, code 52301. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 138476,
+        "context": "52301 工場等施設整備奨励事業"
+      },
+      {
+        "name": "雇用促進奨励事業",
+        "start": 138966,
+        "raw": "雇用促進奨励事業",
+        "note": "Manually reviewed literal annual-business-table title, code 52310. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 138960,
+        "context": "52310 雇用促進奨励事業"
+      },
+      {
+        "name": "企業見学会業務",
+        "start": 139222,
+        "raw": "企業見学会業務",
+        "note": "Manually reviewed literal annual-business-table title, code 52315. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 139216,
+        "context": "52315 企業見学会業務"
+      },
+      {
+        "name": "企業紹介パンフレット配布業務",
+        "start": 139263,
+        "raw": "企業紹介パンフレット配布業務",
+        "note": "Manually reviewed literal annual-business-table title, code 52316. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 139257,
+        "context": "52316 企業紹介パンフレット配布業務"
+      },
+      {
+        "name": "篠山市企業紹介展業務",
+        "start": 139378,
+        "raw": "篠山市企業紹介展業務",
+        "note": "Manually reviewed literal annual-business-table title, code 52311. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 139372,
+        "context": "52311 篠山市企業紹介展業務"
+      },
+      {
+        "name": "こんだ薬師温泉施設整備事業",
+        "start": 141271,
+        "raw": "こんだ薬師温泉施設整備事業",
+        "note": "Manually reviewed literal annual-business-table title, code 53102. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 141265,
+        "context": "53102 こんだ薬師温泉施設整備事業"
+      },
+      {
+        "name": "観光案内所委託事業",
+        "start": 142884,
+        "raw": "観光案内所委託事業",
+        "note": "Manually reviewed literal annual-business-table title, code 53201. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 142878,
+        "context": "53201 観光案内所委託事業"
+      },
+      {
+        "name": "駅観光案内所委託事業",
+        "start": 142900,
+        "raw": "駅観光案内所委託事業",
+        "note": "Manually reviewed literal annual-business-table title, code 53202. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 142894,
+        "context": "53202 駅観光案内所委託事業"
+      },
+      {
+        "name": "全国京都会議負担金事業",
+        "start": 142990,
+        "raw": "全国京都会議負担金事業",
+        "note": "Manually reviewed literal annual-business-table title, code 53206. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 142984,
+        "context": "53206 全国京都会議負担金事業"
+      },
+      {
+        "name": "丹波の森構想の推進事業",
+        "start": 150860,
+        "raw": "丹波の森構想の推進事業",
+        "note": "Manually reviewed literal annual-business-table title, code 62101. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 150854,
+        "context": "62101 丹波の森構想の推進事業"
+      },
+      {
+        "name": "たきまつり実行委員会支援事業",
+        "start": 154518,
+        "raw": "たきまつり実行委員会支援事業",
+        "note": "Manually reviewed literal annual-business-table title, code 63202. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 154512,
+        "context": "63202 たきまつり実行委員会支援事業"
+      },
+      {
+        "name": "丹波篠山ふるさと応援団事務",
+        "start": 156481,
+        "raw": "丹波篠山ふるさと応援団事務",
+        "note": "Manually reviewed literal annual-business-table title, code 64101. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 156475,
+        "context": "64101 丹波篠山ふるさと応援団事務"
+      },
+      {
+        "name": "篠山暮らし案内所運営業務",
+        "start": 156843,
+        "raw": "篠山暮らし案内所運営業務",
+        "note": "Manually reviewed literal annual-business-table title, code 64106. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 156837,
+        "context": "64106 篠山暮らし案内所運営業務"
+      },
+      {
+        "name": "築城４００年記念事業",
+        "start": 156924,
+        "raw": "築城４００年記念事業",
+        "note": "Manually reviewed literal annual-business-table title, code 64107. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 156918,
+        "context": "64107 築城４００年記念事業"
+      },
+      {
+        "name": "情報公開制度業務",
+        "start": 162048,
+        "raw": "情報公開制度業務",
+        "note": "Manually reviewed literal annual-business-table title, code 71104. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 162042,
+        "context": "71104 情報公開制度業務"
+      },
+      {
+        "name": "個人情報保護制度業務",
+        "start": 162063,
+        "raw": "個人情報保護制度業務",
+        "note": "Manually reviewed literal annual-business-table title, code 71105. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 162057,
+        "context": "71105 個人情報保護制度業務"
+      },
+      {
+        "name": "行政評価実施事業",
+        "start": 163596,
+        "raw": "行政評価実施事業",
+        "note": "Manually reviewed literal annual-business-table title, code 71202. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 163590,
+        "context": "71202 行政評価実施事業"
+      },
+      {
+        "name": "指定管理者制度事業",
+        "start": 163644,
+        "raw": "指定管理者制度事業",
+        "note": "Manually reviewed literal annual-business-table title, code 71203. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 163638,
+        "context": "71203 指定管理者制度事業"
+      },
+      {
+        "name": "広告事業",
+        "start": 163942,
+        "raw": "広告事業",
+        "note": "Manually reviewed literal annual-business-table title, code 71204. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 163936,
+        "context": "71204 広告事業"
+      },
+      {
+        "name": "住宅防火診断義務",
+        "start": 50673,
+        "raw": "住宅防火診断義務",
+        "note": "Manually reviewed literal annual-business-table title, code 25110. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 50667,
+        "context": "25110 住宅防火診断義務"
+      },
+      {
+        "name": "開発支援事務（消防施設設置）",
+        "start": 53265,
+        "raw": "開発支援事務（消防施設設置）",
+        "note": "Manually reviewed literal annual-business-table title, code 25215. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 53259,
+        "context": "25215 開発支援事務（消防施設設置）"
+      },
+      {
+        "name": "防災会議事務局",
+        "start": 53964,
+        "raw": "防災会議事務局",
+        "note": "Manually reviewed literal annual-business-table title, code 25230. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 53958,
+        "context": "25230 防災会議事務局"
+      },
+      {
+        "name": "預かり保育事業（認定こども園）",
+        "start": 66187,
+        "raw": "預かり保育事業（認定こども園）",
+        "note": "Manually reviewed literal annual-business-table title, code 31202. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 66181,
+        "context": "31202 預かり保育事業（認定こども園）"
+      },
+      {
+        "name": "幼稚園管理費",
+        "start": 66278,
+        "raw": "幼稚園管理費",
+        "note": "Manually reviewed literal annual-business-table title, code 31205. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 66272,
+        "context": "31205 幼稚園管理費"
+      },
+      {
+        "name": "環境教育事業（体験活動）",
+        "start": 68876,
+        "raw": "環境教育事業（体験活動）",
+        "note": "Manually reviewed literal annual-business-table title, code 32114. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 68870,
+        "context": "32114 環境教育事業（体験活動）"
+      },
+      {
+        "name": "自然学校事業（体験活動）",
+        "start": 68927,
+        "raw": "自然学校事業（体験活動）",
+        "note": "Manually reviewed literal annual-business-table title, code 32115. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 68921,
+        "context": "32115 自然学校事業（体験活動）"
+      },
+      {
+        "name": "学校評議員制度",
+        "start": 72956,
+        "raw": "学校評議員制度",
+        "note": "Manually reviewed literal annual-business-table title, code 32304. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 72950,
+        "context": "32304 学校評議員制度"
+      },
+      {
+        "name": "企業誘致パンフレット作成事業",
+        "start": 138889,
+        "raw": "企業誘致パンフレット作成事業",
+        "note": "Manually reviewed literal annual-business-table title, code 52308. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 138883,
+        "context": "52308 企業誘致パンフレット作成事業"
+      },
+      {
+        "name": "地域人材確保ネットワーク業務",
+        "start": 139082,
+        "raw": "地域人材確保ネットワーク業務",
+        "note": "Manually reviewed literal annual-business-table title, code 52312. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 139076,
+        "context": "52312 地域人材確保ネットワーク業務"
+      },
+      {
+        "name": "兵庫５カ国交流会議",
+        "start": 152596,
+        "raw": "兵庫５カ国交流会議",
+        "note": "Manually reviewed literal annual-business-table title, code 63102. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 152590,
+        "context": "63102 兵庫５カ国交流会議"
+      },
+      {
+        "name": "ふるさといちばん会議",
+        "start": 162080,
+        "raw": "ふるさといちばん会議",
+        "note": "Manually reviewed literal annual-business-table title, code 71106. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "contextStart": 162074,
+        "context": "71106 ふるさといちばん会議"
+      },
+      {
+        "name": "アグリ産業クラスター構想（研究会）事業",
+        "start": 138663,
+        "raw": "アグリ産業クラスター構想（研究\nま:P52\n52304 会）事業",
+        "note": "Manually reviewed literal annual-business-table title, code 52304. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "titleSegments": [
+          {
+            "start": 138663,
+            "raw": "アグリ産業クラスター構想（研究"
+          },
+          {
+            "start": 138691,
+            "raw": "会）事業"
+          }
+        ],
+        "contextStart": 138663,
+        "context": "アグリ産業クラスター構想（研究\nま:P52\n52304 会）事業"
+      },
+      {
+        "name": "救急講習及び普通救命講習事業",
+        "start": 50768,
+        "raw": "救急講習及び普通救命講習事\n行:\n25112 業",
+        "note": "Manually reviewed literal annual-business-table title, code 25112. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "titleSegments": [
+          {
+            "start": 50768,
+            "raw": "救急講習及び普通救命講習事"
+          },
+          {
+            "start": 50791,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 50768,
+        "context": "救急講習及び普通救命講習事\n行:\n25112 業"
+      },
+      {
+        "name": "教育振興基本計画策定事業",
+        "start": 72803,
+        "raw": "教育振興基本計画策定事\n業",
+        "note": "Manually reviewed literal annual-business-table title, code 32301. FY2009 post-evaluation source; H20 actuals and H22 targets are not assigned to project fields. No policy/KPI prefix, amount or assessment inference.",
+        "titleSegments": [
+          {
+            "start": 72803,
+            "raw": "教育振興基本計画策定事"
+          },
+          {
+            "start": 72815,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 72796,
+        "context": "32301\n\n教育振興基本計画策定事\n業"
+      },
+      {
+        "name": "休日診療所事業・病院群輪番制事業",
+        "start": 5247,
+        "raw": "休日診療所事業・病院群輪番\n11206 制事業",
+        "titleSegments": [
+          {
+            "start": 5247,
+            "raw": "休日診療所事業・病院群輪番"
+          },
+          {
+            "start": 5267,
+            "raw": "制事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "市民生児童委員協議会活動補助事業",
+        "start": 7353,
+        "raw": "市民生児童委員協議会活動補\n\n12101 助事業",
+        "titleSegments": [
+          {
+            "start": 7353,
+            "raw": "市民生児童委員協議会活動補"
+          },
+          {
+            "start": 7374,
+            "raw": "助事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "ﾕﾆﾊﾞｰｻﾙ社会づくり実践ﾓﾃﾞﾙ地区協議会事業",
+        "start": 26460,
+        "raw": "ﾕﾆﾊﾞｰｻﾙ社会づくり実践ﾓﾃﾞﾙ\n\n14101 地区協議会事業",
+        "titleSegments": [
+          {
+            "start": 26460,
+            "raw": "ﾕﾆﾊﾞｰｻﾙ社会づくり実践ﾓﾃﾞﾙ"
+          },
+          {
+            "start": 26486,
+            "raw": "地区協議会事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "市社会福祉協議会職員人件費補助事業",
+        "start": 29589,
+        "raw": "市社会福祉協議会職員人件費\n\n14303 補助事業",
+        "titleSegments": [
+          {
+            "start": 29589,
+            "raw": "市社会福祉協議会職員人件費"
+          },
+          {
+            "start": 29610,
+            "raw": "補助事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "これから100年のまちづくり普及啓発事業",
+        "start": 41774,
+        "raw": "これから100年のまちづくり普及\n\n23204 啓発事業",
+        "titleSegments": [
+          {
+            "start": 41774,
+            "raw": "これから100年のまちづくり普及"
+          },
+          {
+            "start": 41798,
+            "raw": "啓発事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "消防団及び自主防災の訓練指導業務",
+        "start": 50800,
+        "raw": "消防団及び自主防災の訓練指\n25113 導業務",
+        "titleSegments": [
+          {
+            "start": 50800,
+            "raw": "消防団及び自主防災の訓練指"
+          },
+          {
+            "start": 50820,
+            "raw": "導業務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "兵庫県まとい会篠山支部の活動推進事務",
+        "start": 50824,
+        "raw": "兵庫県まとい会篠山支部の活\n25114 動推進事務",
+        "titleSegments": [
+          {
+            "start": 50824,
+            "raw": "兵庫県まとい会篠山支部の活"
+          },
+          {
+            "start": 50844,
+            "raw": "動推進事務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "「１.１７は忘れない」地域防災訓練事務",
+        "start": 55274,
+        "raw": "「１.１７は忘れない」地域防災訓\n\n25302 練事務",
+        "titleSegments": [
+          {
+            "start": 55274,
+            "raw": "「１.１７は忘れない」地域防災訓"
+          },
+          {
+            "start": 55298,
+            "raw": "練事務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "「まちづくり防犯グループ」登録申請事務",
+        "start": 59267,
+        "raw": "「まちづくり防犯グループ」登録\n\n26108 申請事務",
+        "titleSegments": [
+          {
+            "start": 59267,
+            "raw": "「まちづくり防犯グループ」登録"
+          },
+          {
+            "start": 59290,
+            "raw": "申請事務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "県民交流広場モデル事業推進事務",
+        "start": 62278,
+        "raw": "県民交流広場モデル事業推進\n\n26302 事務",
+        "titleSegments": [
+          {
+            "start": 62278,
+            "raw": "県民交流広場モデル事業推進"
+          },
+          {
+            "start": 62299,
+            "raw": "事務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "ちびっ子伝統産業体験交流事業事業",
+        "start": 76486,
+        "raw": "ちびっ子伝統産業体験交流事\n\n33108 業事業",
+        "titleSegments": [
+          {
+            "start": 76486,
+            "raw": "ちびっ子伝統産業体験交流事"
+          },
+          {
+            "start": 76507,
+            "raw": "業事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "情報通信技術（ICT）学習推進事業",
+        "start": 77010,
+        "raw": "情報通信技術（ICT）学習推進\n\n33113 事業",
+        "titleSegments": [
+          {
+            "start": 77010,
+            "raw": "情報通信技術（ICT）学習推進"
+          },
+          {
+            "start": 77033,
+            "raw": "事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "チルドレンズミュージアム施設維持管理業務",
+        "start": 79288,
+        "raw": "チルドレンズミュージアム施設\n\n33201 維持管理業務",
+        "titleSegments": [
+          {
+            "start": 79288,
+            "raw": "チルドレンズミュージアム施設"
+          },
+          {
+            "start": 79310,
+            "raw": "維持管理業務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "川西人権啓発・広報活動・研究事業",
+        "start": 84775,
+        "raw": "川西人権啓発・広報活動・研究\n\n34112 事業",
+        "titleSegments": [
+          {
+            "start": 84775,
+            "raw": "川西人権啓発・広報活動・研究"
+          },
+          {
+            "start": 84797,
+            "raw": "事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "中野隣保館人権啓発・広報活動事業",
+        "start": 84801,
+        "raw": "中野隣保館人権啓発・広報活\n\n34113 動事業",
+        "titleSegments": [
+          {
+            "start": 84801,
+            "raw": "中野隣保館人権啓発・広報活"
+          },
+          {
+            "start": 84822,
+            "raw": "動事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "牛ケ瀬隣保館人権啓発・広報活動事業",
+        "start": 84827,
+        "raw": "牛ケ瀬隣保館人権啓発・広報活\n\n34114 動事業",
+        "titleSegments": [
+          {
+            "start": 84827,
+            "raw": "牛ケ瀬隣保館人権啓発・広報活"
+          },
+          {
+            "start": 84849,
+            "raw": "動事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "研修会館・児童遊園施設修繕事務事業",
+        "start": 86227,
+        "raw": "研修会館・児童遊園施設修繕\n\n34201 事務事業",
+        "titleSegments": [
+          {
+            "start": 86227,
+            "raw": "研修会館・児童遊園施設修繕"
+          },
+          {
+            "start": 86248,
+            "raw": "事務事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "人権侵害救済に係る総合的な施策業務",
+        "start": 87350,
+        "raw": "人権侵害救済に係る総合的な\n34219 施策業務",
+        "titleSegments": [
+          {
+            "start": 87350,
+            "raw": "人権侵害救済に係る総合的な"
+          },
+          {
+            "start": 87370,
+            "raw": "施策業務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "男女共同参画センター運営委員会開催事務",
+        "start": 89252,
+        "raw": "男女共同参画センター運営委員\n\n34304 会開催事務",
+        "titleSegments": [
+          {
+            "start": 89252,
+            "raw": "男女共同参画センター運営委員"
+          },
+          {
+            "start": 89274,
+            "raw": "会開催事務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "たんば田園交響ホールボランティアスタッフ舞台運営事業",
+        "start": 91211,
+        "raw": "たんば田園交響ホールボラン\n\n35101 ティアスタッフ舞台運営事業",
+        "titleSegments": [
+          {
+            "start": 91211,
+            "raw": "たんば田園交響ホールボラン"
+          },
+          {
+            "start": 91232,
+            "raw": "ティアスタッフ舞台運営事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "たんば田園交響ホール主催事業の実施",
+        "start": 91247,
+        "raw": "たんば田園交響ホール主催事\n\n35102 業の実施",
+        "titleSegments": [
+          {
+            "start": 91247,
+            "raw": "たんば田園交響ホール主催事"
+          },
+          {
+            "start": 91268,
+            "raw": "業の実施"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "文化財の総合的な保存と活用の推進業務",
+        "start": 93991,
+        "raw": "文化財の総合的な保存と活用\n\n35210 の推進業務",
+        "titleSegments": [
+          {
+            "start": 93991,
+            "raw": "文化財の総合的な保存と活用"
+          },
+          {
+            "start": 94012,
+            "raw": "の推進業務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "花いっぱいモデル助成に関する業務",
+        "start": 103831,
+        "raw": "花いっぱいモデル助成に関する\n\n41502 業務",
+        "titleSegments": [
+          {
+            "start": 103831,
+            "raw": "花いっぱいモデル助成に関する"
+          },
+          {
+            "start": 103853,
+            "raw": "業務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "管路施設及び終末処理場等の維持管理事業",
+        "start": 109269,
+        "raw": "管路施設及び終末処理場等の\n\n43103 維持管理事業",
+        "titleSegments": [
+          {
+            "start": 109269,
+            "raw": "管路施設及び終末処理場等の"
+          },
+          {
+            "start": 109290,
+            "raw": "維持管理事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "水洗便所改造資金融資あっせん及び利子補給事業",
+        "start": 109342,
+        "raw": "水洗便所改造資金融資あっせ\n\n43107 ん及び利子補給事業",
+        "titleSegments": [
+          {
+            "start": 109342,
+            "raw": "水洗便所改造資金融資あっせ"
+          },
+          {
+            "start": 109363,
+            "raw": "ん及び利子補給事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "市単独の災害復旧工事及びため池調査設計業務",
+        "start": 125253,
+        "raw": "市単独の災害復旧工事及びため池\n51119 調査設計業務",
+        "titleSegments": [
+          {
+            "start": 125253,
+            "raw": "市単独の災害復旧工事及びため池"
+          },
+          {
+            "start": 125275,
+            "raw": "調査設計業務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "関西茶業振興大会兵庫県大会運営委員会事務",
+        "start": 125837,
+        "raw": "関西茶業振興大会兵庫県大会\n51129 運営委員会事務",
+        "titleSegments": [
+          {
+            "start": 125837,
+            "raw": "関西茶業振興大会兵庫県大会"
+          },
+          {
+            "start": 125857,
+            "raw": "運営委員会事務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "丹波篠山黒枝豆「販売解禁イベント」実行委員会事務",
+        "start": 130303,
+        "raw": "丹波篠山黒枝豆「販売解禁イベ\n51303 ント」実行委員会事務",
+        "titleSegments": [
+          {
+            "start": 130303,
+            "raw": "丹波篠山黒枝豆「販売解禁イベ"
+          },
+          {
+            "start": 130324,
+            "raw": "ント」実行委員会事務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "神戸大学・篠山市地域連携研究事業",
+        "start": 130539,
+        "raw": "神戸大学・篠山市地域連携研\n\n51308 究事業",
+        "titleSegments": [
+          {
+            "start": 130539,
+            "raw": "神戸大学・篠山市地域連携研"
+          },
+          {
+            "start": 130560,
+            "raw": "究事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "特産館ささやま公衆便所維持管理助成事業",
+        "start": 141285,
+        "raw": "特産館ささやま公衆便所維持管\n53103 理助成事業",
+        "titleSegments": [
+          {
+            "start": 141285,
+            "raw": "特産館ささやま公衆便所維持管"
+          },
+          {
+            "start": 141306,
+            "raw": "理助成事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "王地山公園ささやま荘等運営委託業務",
+        "start": 141312,
+        "raw": "王地山公園ささやま荘等運営委\n53104 託業務",
+        "titleSegments": [
+          {
+            "start": 141312,
+            "raw": "王地山公園ささやま荘等運営委"
+          },
+          {
+            "start": 141333,
+            "raw": "託業務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "「ひょうご」の観光地活性化推進事業",
+        "start": 142911,
+        "raw": "「ひょうご」の観光地活性化推進\n53203 事業",
+        "titleSegments": [
+          {
+            "start": 142911,
+            "raw": "「ひょうご」の観光地活性化推進"
+          },
+          {
+            "start": 142933,
+            "raw": "事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "ふるさと篠山へ帰ろう住もう運動推進助成金事業",
+        "start": 147352,
+        "raw": "ふるさと篠山へ帰ろう住もう運動推進助成\n\n61101 金事業",
+        "titleSegments": [
+          {
+            "start": 147352,
+            "raw": "ふるさと篠山へ帰ろう住もう運動推進助成"
+          },
+          {
+            "start": 147379,
+            "raw": "金事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "ふるさと篠山へ帰ろう住もう運動推進事務",
+        "start": 156495,
+        "raw": "ふるさと篠山へ帰ろう住もう運動\n\n64102 推進事務",
+        "titleSegments": [
+          {
+            "start": 156495,
+            "raw": "ふるさと篠山へ帰ろう住もう運動"
+          },
+          {
+            "start": 156518,
+            "raw": "推進事務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "ワラワラ短期交換留学生受入・派遣事業",
+        "start": 159895,
+        "raw": "ワラワラ短期交換留学生受入・\n\n65201 派遣事業",
+        "titleSegments": [
+          {
+            "start": 159895,
+            "raw": "ワラワラ短期交換留学生受入・"
+          },
+          {
+            "start": 159917,
+            "raw": "派遣事業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "総合計画審議会、総合計画の進行管理事務",
+        "start": 161827,
+        "raw": "総合計画審議会、総合計画の\n71103 進行管理事務",
+        "titleSegments": [
+          {
+            "start": 161827,
+            "raw": "総合計画審議会、総合計画の"
+          },
+          {
+            "start": 161847,
+            "raw": "進行管理事務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "母子保健推進員活動事業（愛育班活動）",
+        "start": 1599,
+        "raw": "母子保健推進員活動事業（愛\n11102 育班活動）",
+        "titleSegments": [
+          {
+            "start": 1599,
+            "raw": "母子保健推進員活動事業（愛"
+          },
+          {
+            "start": 1619,
+            "raw": "育班活動）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "訪問指導事業（こんにちは赤ちゃん事業）",
+        "start": 1625,
+        "raw": "訪問指導事業（こんにちは赤\n11103 ちゃん事業）",
+        "titleSegments": [
+          {
+            "start": 1625,
+            "raw": "訪問指導事業（こんにちは赤"
+          },
+          {
+            "start": 1645,
+            "raw": "ちゃん事業）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "全国車いすマラソン大会推進事業",
+        "start": 8922,
+        "raw": "全国車いすマラソン大会推進事\n\n12202 業",
+        "titleSegments": [
+          {
+            "start": 8922,
+            "raw": "全国車いすマラソン大会推進事"
+          },
+          {
+            "start": 8944,
+            "raw": "業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "重度精神障害者医療費助成事業",
+        "start": 14291,
+        "raw": "重度精神障害者医療費助成事\n12411 業",
+        "titleSegments": [
+          {
+            "start": 14291,
+            "raw": "重度精神障害者医療費助成事"
+          },
+          {
+            "start": 14311,
+            "raw": "業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "家庭児童相談員連絡協議会事業",
+        "start": 17552,
+        "raw": "家庭児童相談員連絡協議会事\n\n12511 業",
+        "titleSegments": [
+          {
+            "start": 17552,
+            "raw": "家庭児童相談員連絡協議会事"
+          },
+          {
+            "start": 17573,
+            "raw": "業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "地域子育てネットワーク連絡会事務局",
+        "start": 18183,
+        "raw": "地域子育てネットワーク連絡会\n\n12515 事務局",
+        "titleSegments": [
+          {
+            "start": 18183,
+            "raw": "地域子育てネットワーク連絡会"
+          },
+          {
+            "start": 18205,
+            "raw": "事務局"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "粗大ごみ収集運搬業務委託事業",
+        "start": 48654,
+        "raw": "粗大ごみ収集運搬業務委託事\n\n24305 業",
+        "titleSegments": [
+          {
+            "start": 48654,
+            "raw": "粗大ごみ収集運搬業務委託事"
+          },
+          {
+            "start": 48675,
+            "raw": "業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "防火対象物、危険物施設等立入検査・防火管理指導",
+        "start": 50438,
+        "raw": "防火対象物、危険物施設等立\n25106 入検査・防火管理指導",
+        "titleSegments": [
+          {
+            "start": 50438,
+            "raw": "防火対象物、危険物施設等立"
+          },
+          {
+            "start": 50458,
+            "raw": "入検査・防火管理指導"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "教育施設の整備事業（耐震診断調査）",
+        "start": 68027,
+        "raw": "教育施設の整備事業（耐震診\n\n32103 断調査）",
+        "titleSegments": [
+          {
+            "start": 68027,
+            "raw": "教育施設の整備事業（耐震診"
+          },
+          {
+            "start": 68048,
+            "raw": "断調査）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "「トライやる・ウィーク」、「トライやる」アクション事業（体験活動）",
+        "start": 69164,
+        "raw": "「トライやる・ウィーク」、「トライや\n\n32117 る」アクション事業（体験活動）",
+        "titleSegments": [
+          {
+            "start": 69164,
+            "raw": "「トライやる・ウィーク」、「トライや"
+          },
+          {
+            "start": 69190,
+            "raw": "る」アクション事業（体験活動）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "丹波篠山おもしろゼミナール事業",
+        "start": 76461,
+        "raw": "丹波篠山おもしろゼミナール事\n\n33107 業",
+        "titleSegments": [
+          {
+            "start": 76461,
+            "raw": "丹波篠山おもしろゼミナール事"
+          },
+          {
+            "start": 76483,
+            "raw": "業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "青少年健全育成団体との連携事業（公民館）",
+        "start": 77053,
+        "raw": "青少年健全育成団体との連携\n\n33117 事業（公民館）",
+        "titleSegments": [
+          {
+            "start": 77053,
+            "raw": "青少年健全育成団体との連携"
+          },
+          {
+            "start": 77074,
+            "raw": "事業（公民館）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "人権擁護委員協議会負担金事業",
+        "start": 84735,
+        "raw": "人権擁護委員協議会負担金事\n\n34109 業",
+        "titleSegments": [
+          {
+            "start": 84735,
+            "raw": "人権擁護委員協議会負担金事"
+          },
+          {
+            "start": 84756,
+            "raw": "業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "啓発事業（フィフティだより、セミナー等開催）",
+        "start": 89179,
+        "raw": "啓発事業（フィフティだより、セミ\n\n34302 ナー等開催）",
+        "titleSegments": [
+          {
+            "start": 89179,
+            "raw": "啓発事業（フィフティだより、セミ"
+          },
+          {
+            "start": 89203,
+            "raw": "ナー等開催）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "相談事業（女性問題、DV、セクハラ、子育て、介護、人間関係等）",
+        "start": 89211,
+        "raw": "相談事業（女性問題、DV、セクハラ、子育\n\n34303 て、介護、人間関係等）",
+        "titleSegments": [
+          {
+            "start": 89211,
+            "raw": "相談事業（女性問題、DV、セクハラ、子育"
+          },
+          {
+            "start": 89239,
+            "raw": "て、介護、人間関係等）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "男女共同参画情報発信事業（図書、ビデオの貸し出し）",
+        "start": 89301,
+        "raw": "男女共同参画情報発信事業（図書、ビデオ\n\n34306 の貸し出し）",
+        "titleSegments": [
+          {
+            "start": 89301,
+            "raw": "男女共同参画情報発信事業（図書、ビデオ"
+          },
+          {
+            "start": 89328,
+            "raw": "の貸し出し）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "男女共同参画推進庁内会議事務",
+        "start": 89336,
+        "raw": "男女共同参画推進庁内会議事\n\n34307 務",
+        "titleSegments": [
+          {
+            "start": 89336,
+            "raw": "男女共同参画推進庁内会議事"
+          },
+          {
+            "start": 89357,
+            "raw": "務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "宅内排水設備工事受付検査、指定工事店、責任技術者登録",
+        "start": 109233,
+        "raw": "宅内排水設備工事受付検査、指定工事\n\n43102 店、責任技術者登録",
+        "titleSegments": [
+          {
+            "start": 109233,
+            "raw": "宅内排水設備工事受付検査、指定工事"
+          },
+          {
+            "start": 109258,
+            "raw": "店、責任技術者登録"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "下水道施設建設・修繕工事（管路・処理場）",
+        "start": 109298,
+        "raw": "下水道施設建設・修繕工事（管\n\n43104 路・処理場）",
+        "titleSegments": [
+          {
+            "start": 109298,
+            "raw": "下水道施設建設・修繕工事（管"
+          },
+          {
+            "start": 109320,
+            "raw": "路・処理場）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "地上デジタル放送受信対策事業",
+        "start": 119315,
+        "raw": "地上デジタル放送受信対策事\n\n45102 業",
+        "titleSegments": [
+          {
+            "start": 119315,
+            "raw": "地上デジタル放送受信対策事"
+          },
+          {
+            "start": 119336,
+            "raw": "業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "山の芋種芋生産推進協議会事業",
+        "start": 125214,
+        "raw": "山の芋種芋生産推進協議会事\n\n51115 業",
+        "titleSegments": [
+          {
+            "start": 125214,
+            "raw": "山の芋種芋生産推進協議会事"
+          },
+          {
+            "start": 125235,
+            "raw": "業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "鳥獣被害防止対策施設整備事業",
+        "start": 125815,
+        "raw": "鳥獣被害防止対策施設整備事\n51128 業",
+        "titleSegments": [
+          {
+            "start": 125815,
+            "raw": "鳥獣被害防止対策施設整備事"
+          },
+          {
+            "start": 125835,
+            "raw": "業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "担い手農地情報活用集積促進事業（農地流動化）",
+        "start": 127816,
+        "raw": "担い手農地情報活用集積促進\n\n51208 事業（農地流動化）",
+        "titleSegments": [
+          {
+            "start": 127816,
+            "raw": "担い手農地情報活用集積促進"
+          },
+          {
+            "start": 127837,
+            "raw": "事業（農地流動化）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "農地・水・環境保全向上対策事業",
+        "start": 132817,
+        "raw": "農地・水・環境保全向上対策事\n\n51407 業",
+        "titleSegments": [
+          {
+            "start": 132817,
+            "raw": "農地・水・環境保全向上対策事"
+          },
+          {
+            "start": 132839,
+            "raw": "業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "篠山技能高等学院運営管理事務",
+        "start": 138937,
+        "raw": "篠山技能高等学院運営管理事\n52309 務",
+        "titleSegments": [
+          {
+            "start": 138937,
+            "raw": "篠山技能高等学院運営管理事"
+          },
+          {
+            "start": 138957,
+            "raw": "務"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "外客誘致促進委員会負担金事業",
+        "start": 142936,
+        "raw": "外客誘致促進委員会負担金事\n53204 業",
+        "titleSegments": [
+          {
+            "start": 142936,
+            "raw": "外客誘致促進委員会負担金事"
+          },
+          {
+            "start": 142956,
+            "raw": "業"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "篠山口観光案内ｺｰﾅｰ改修工事",
+        "start": 143002,
+        "raw": "篠山口観光案内ｺｰﾅｰ改修工\n\n53207 事",
+        "titleSegments": [
+          {
+            "start": 143002,
+            "raw": "篠山口観光案内ｺｰﾅｰ改修工"
+          },
+          {
+            "start": 143024,
+            "raw": "事"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "イベント支援事務(味覚フェア楽市楽座)",
+        "start": 145039,
+        "raw": "イベント支援事務(味覚フェア楽\n\n53301 市楽座)",
+        "titleSegments": [
+          {
+            "start": 145039,
+            "raw": "イベント支援事務(味覚フェア楽"
+          },
+          {
+            "start": 145062,
+            "raw": "市楽座)"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "施設管理業務(まちづくりセンター)",
+        "start": 147384,
+        "raw": "施設管理業務(まちづくりセン\n61102 ター)",
+        "titleSegments": [
+          {
+            "start": 147384,
+            "raw": "施設管理業務(まちづくりセン"
+          },
+          {
+            "start": 147405,
+            "raw": "ター)"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "国内交流推進事業（岐阜県高山市）",
+        "start": 156524,
+        "raw": "国内交流推進事業（岐阜県高\n\n64103 山市）",
+        "titleSegments": [
+          {
+            "start": 156524,
+            "raw": "国内交流推進事業（岐阜県高"
+          },
+          {
+            "start": 156545,
+            "raw": "山市）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "多文化共生事業（在住外国人生活支援）",
+        "start": 158686,
+        "raw": "多文化共生事業（在住外国人\n\n65101 生活支援）",
+        "titleSegments": [
+          {
+            "start": 158686,
+            "raw": "多文化共生事業（在住外国人"
+          },
+          {
+            "start": 158707,
+            "raw": "生活支援）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "わくわくオーケストラ事業（体験活動）",
+        "start": 69136,
+        "raw": "わくわくオーケストラ事業（体験\n\n32116 活動）",
+        "titleSegments": [
+          {
+            "start": 69136,
+            "raw": "わくわくオーケストラ事業（体験"
+          },
+          {
+            "start": 69159,
+            "raw": "活動）"
+          }
+        ],
+        "note": "Explicit adjacent title/code/title sequence reviewed in FY2009 business table; preserve venue and combined qualifiers. No monetary, KPI or grade inference."
+      },
+      {
+        "name": "安全安心な学校給食の推進（西部）事業",
+        "start": 74139,
+        "raw": "安全安心な学校給食の推進（西 ま−３\n32402 部）事業",
+        "titleSegments": [
+          {
+            "start": 74139,
+            "raw": "安全安心な学校給食の推進（西"
+          },
+          {
+            "start": 74164,
+            "raw": "部）事業"
+          }
+        ],
+        "note": "Explicit adjacent prefix, printed plan marker, code and title suffix. Preserve east/west and original parenthesis glyphs. FY2009 assessed business; no KPI or monetary assignment."
+      },
+      {
+        "name": "特色ある献立づくり（東部）の実施事業",
+        "start": 74172,
+        "raw": "特色ある献立づくり（東部）の実 ま−３\n32403 施事業",
+        "titleSegments": [
+          {
+            "start": 74172,
+            "raw": "特色ある献立づくり（東部）の実"
+          },
+          {
+            "start": 74198,
+            "raw": "施事業"
+          }
+        ],
+        "note": "Explicit adjacent prefix, printed plan marker, code and title suffix. Preserve east/west and original parenthesis glyphs. FY2009 assessed business; no KPI or monetary assignment."
+      },
+      {
+        "name": "特色ある献立づくり(西部）の実施事業",
+        "start": 74205,
+        "raw": "特色ある献立づくり(西部）の実 ま−３\n32404 施事業",
+        "titleSegments": [
+          {
+            "start": 74205,
+            "raw": "特色ある献立づくり(西部）の実"
+          },
+          {
+            "start": 74231,
+            "raw": "施事業"
+          }
+        ],
+        "note": "Explicit adjacent prefix, printed plan marker, code and title suffix. Preserve east/west and original parenthesis glyphs. FY2009 assessed business; no KPI or monetary assignment."
+      },
+      {
+        "name": "学校・家庭・地域との連携による食育推進（東部）事業",
+        "start": 74238,
+        "raw": "学校・家庭・地域との連携による食\nま−３\n32405 育推進（東部）事業",
+        "titleSegments": [
+          {
+            "start": 74238,
+            "raw": "学校・家庭・地域との連携による食"
+          },
+          {
+            "start": 74265,
+            "raw": "育推進（東部）事業"
+          }
+        ],
+        "note": "Explicit adjacent prefix, printed plan marker, code and title suffix. Preserve east/west and original parenthesis glyphs. FY2009 assessed business; no KPI or monetary assignment."
+      },
+      {
+        "name": "学校・家庭・地域との連携による食育推進(西部）事業",
+        "start": 74278,
+        "raw": "学校・家庭・地域との連携による食\nま−３\n32406 育推進(西部）事業",
+        "titleSegments": [
+          {
+            "start": 74278,
+            "raw": "学校・家庭・地域との連携による食"
+          },
+          {
+            "start": 74305,
+            "raw": "育推進(西部）事業"
+          }
+        ],
+        "note": "Explicit adjacent prefix, printed plan marker, code and title suffix. Preserve east/west and original parenthesis glyphs. FY2009 assessed business; no KPI or monetary assignment."
       }
     ],
     "holds": [
@@ -18201,6 +24817,266 @@ export const hyogoRows = [
         "start": 125465,
         "raw": "県営土地改良事業",
         "reason": "Prefectural project title alone does not establish a distinct municipality-specific role or business share; hold pending explicit saved evidence."
+      },
+      {
+        "start": 2052,
+        "raw": "11109 診・ドック等）\n\n健診等受診補助事業(各種検\n\n6,112 がん検診等受診者数\n\n人\n\n9,406\n\n9,559\n\n9,600\n\n○\n\nA\n\n11110 医療費通知事業\n\n2,505 送付件数\n\n件\n\n31,519\n\n31,652\n\n31,800\n\n○\n\nB\n\n11111 ８０２０運動事業\n\n394 参加人数\n\n人\n\n512\n\n513\n\n571\n",
+        "reason": "11109: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 2292,
+        "raw": "11108 診）\n\n国民健康保険税納税通知\n\n麻しん風しん予防\n\n11113 予防接種事業\n\n53,565 接種2期接種率\n\n％\n\n90.10\n\n93.37\n\n95\n\n○\n\nB\n\n11114 乳幼児健診事業\n\n14,955 乳幼児検診受診率\n\n％\n\n96\n\n95\n\n100\n\n○\n\nB\n\n11115 健康教育事業\n\n4,535 健康教育実施数\n\n人\n\n1,20",
+        "reason": "11108: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 2603,
+        "raw": "11118 関係機関連絡事務・会議\n\n篠山市いずみ会会\n3,726 員数\n連絡調整に関する\n9,274 会議の開催回数\n\n回\n\n105\n\n176\n\n180\n\n○\n\nB\n\n11119 親子あそび教室事業\n\n3,390 実施回数\n\n回\n\n22\n\n23\n\n24\n\n○\n\nB\n\n11120 食育推進事業\n\n朝食を毎日食べて\n1,673 いる子どもの割合\n\n％\n\n86\n",
+        "reason": "11118: Generic literal title lacks an explicit service/facility/subject for distinct annual identity; policy headings and nearby KPI labels are not borrowed as qualifiers."
+      },
+      {
+        "start": 10651,
+        "raw": "12305 業\n\n今田老人福祉センター管理事\n\n1,415 利用者数\n\n人\n\n540\n\n527\n\n-\n\n−\n\nD\n\n12306 在宅老人介護用品給付事業\n\n3,158 利用者延べ人数\n\n人\n\n1,099\n\n1,104\n\n1,100\n\n◎\n\nB\n\n6\n\n14\n\n15\n\n◎\n\nB\n\n3,158 対象者数\n\n12301 敬老事業\n12302 外出支援サービス事業\n",
+        "reason": "12305: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 10831,
+        "raw": "12303 高齢者支援事業\n\n（千円）\n\n行:\n(4)-40\n行:\n(4)-41\n\n外出支援サービス\n\n9,931 登録者数\n\n生活援助事業利用\n\n対H22\n達成度\n\n12307 老人日常生活用具給付事業\n\n651 給付件数\n\n件\n\n老人保健医療費適正化対策事\n12308 業\n\n433 -\n\n-\n\n-\n\n-\n\n-\n\n−\n\nC\n\n要支援・要介護認定調査・主治医",
+        "reason": "12303: Generic literal title lacks an explicit service/facility/subject for distinct annual identity; policy headings and nearby KPI labels are not borrowed as qualifiers."
+      },
+      {
+        "start": 11603,
+        "raw": "12323 業\n\n3,239 助成件数\n\n件\n\n13\n\n6\n\n15\n\n△\n\nA\n\n12324 高齢者祝福事業事務\n\n3,658 対象者数\n\n人\n\n245\n\n258\n\n300\n\n○\n\nA\n\n12325 高齢者相談業務\n\n2,356 相談件数\n\n件\n\n3,440\n\n5,522\n\n5,500\n\n◎\n\nA\n\n12326 篠山ﾃﾞｲｻｰﾋﾞｽｾﾝﾀｰ運営事業\n\n6,6",
+        "reason": "12323: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 14774,
+        "raw": "12419 務事業\n\n行旅病人・行旅死亡人取扱事\n\n153\n\n-\n\n-\n\n-\n\n-\n\n-\n\n−\n\nB\n\n12420 福祉資金借入金利子補給事業\n\n177\n\n-\n\n-\n\n-\n\n-\n\n-\n\n−\n\nB\n\n1,731 参列者数\n\n人\n\n430\n\n420\n\n450\n\n○\n\nB\n\n1,495 参列者数\n\n人\n\n320\n\n350\n\n-\n\n−\n\nD\n\n1,552\n\n-\n\n-",
+        "reason": "12419: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 17242,
+        "raw": "12505 広報活動事業\n\n518 情報の提供回数\n\n回\n\n32\n\n21\n\n30\n\n○\n\nB\n\n12506 まちの子育てひろば事業\n\n児童館の解放日数\n634\n（月）\n\n日数\n\n21\n\n21\n\n21\n\n◎\n\nB\n\n12507 児童相談事業\n\n589 養育上の相談件数\n\n回\n\n21\n\n26\n\n50\n\n△\n\nA\n\n要保護児童対策地域協議会\n12508 （児童福祉",
+        "reason": "12505: Generic literal title lacks an explicit service/facility/subject for distinct annual identity; policy headings and nearby KPI labels are not borrowed as qualifiers."
+      },
+      {
+        "start": 18324,
+        "raw": "12526 業\n\n74 給付対象者数\n\n人\n\n0\n\n0\n\n1\n\n○\n\nA\n\n12527 高等技能訓練促進費等事業\n\n251 給付対象者数\n\n人\n\n0\n\n1\n\n1\n\n○\n\nA\n\n89,569 支給延児童数\n\n人\n\n44,706\n\n44,331\n\n50460\n\n◎\n\nD\n\n-\n\n-\n\n-\n\n−\n\nD\n\n◎\n\nB\n\n12528 児童手当支給事業\n12529 子育て",
+        "reason": "12526: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 26430,
+        "raw": "14102 業\n\n14106\n\n市一般財源\n〔人件費込〕\n\nﾕﾆﾊﾞｰｻﾙ社会づくり実践ﾓﾃﾞﾙ\n\n14101 地区協議会事業\n\n14105\n\n再生\n計画\n\n542 会員数\n\n対H22\n達成度\n\n事業の\n方向性\n\n−\n\nA\n\n◎\n\nB\n\n-\n\n−\n\nB\n\n420\n\n○\n\nB\n\n45\n\n\n142\n\n施策評価シート（平成２１年度実施分事後評価）\n142\n\n施策№",
+        "reason": "14102: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 47027,
+        "raw": "24206 衛生に関する業務\n24207\n24208\n24209\n24210\n24211\n24212\n24213\n24214\n24215\n24216\n24217\n24218\n24219\n24220\n24221\n24222\n24223\n24224\n24225\n24226\n24227\n24228\n24229\n24230\n24231\n24232\n24233\n242",
+        "reason": "24206: Generic literal title lacks an explicit service/facility/subject for distinct annual identity; policy headings and nearby KPI labels are not borrowed as qualifiers."
+      },
+      {
+        "start": 48896,
+        "raw": "24304 務事業\n\n対H22\n達成度\n\n80\n\n74\n\n85\n\n\n施策評価シート（平成２１年度実施分事後評価）\n施策№\n\n251\n\n施策大綱大項目\n\n評価担当課名：総務課\n\n251\n\n関連部局：消防署、予防課、警防課、管理課\n\nⅡ生活環境の向上\n\n後期基本計画掲載\nP.３４\n\n5.防災体制の強化\n\n中項目\n\n中項目の基本方針\n\nあらゆる災害から生命、財産を",
+        "reason": "24304: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 50207,
+        "raw": "25102 予防広報事務\n\n3,748\n\n-\n\n25103 総合訓練の立案・広報事務\n\n-\n\n消防団との連携訓\n373 練\n\n20,335\n\n251\n\nH20\nH21\nH22\n実績値 実績値 目標値\n21\n-\n\n38\n-\n\n1\n\n件\n\n32\n-\n\n1\n\n1\n\n対H22\n達成度\n\n事業の\n方向性\n\n◎\n\nB\n\n−\n\nB\n\n◎\n\nB\n\n−\n\nB\n\n-\n\n-\n\n2",
+        "reason": "25102: Generic literal title lacks an explicit service/facility/subject for distinct annual identity; policy headings and nearby KPI labels are not borrowed as qualifiers."
+      },
+      {
+        "start": 50719,
+        "raw": "25111 各種受付事務\n\n1,841 文書処理簿\n\n件\n\n240\n\n209\n\n-\n\n−\n\nB\n\n救急講習及び普通救命講習事\n行:\n25112 業\n(4)-70\n消防団及び自主防災の訓練指\n25113 導業務\n兵庫県まとい会篠山支部の活\n25114 動推進事務\n「１.１７は忘れない」地域防災訓\n25115 練事務【再掲】\n防災・減災啓発活動業務【再\n2511",
+        "reason": "25111: Generic literal title lacks an explicit service/facility/subject for distinct annual identity; policy headings and nearby KPI labels are not borrowed as qualifiers."
+      },
+      {
+        "start": 52414,
+        "raw": "25201 送事務\n\n警防活動(火災･救急･救助）の\n\n159,855\n\n25202 充実･強化事務\n\nメディカルコントロール体制の推\n\n-\n\n25,350 救急搬送人員\n\n25203 進事業\n\nメディカルコントロール体制構築\n\n気管挿管認定救命\n\n単位\n\nH20\nH21\nH22\n実績値 実績値 目標値\n92\n\n回\n\n95\n\n90\n\n対H22\n達成度\n\n事業",
+        "reason": "25201: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 52451,
+        "raw": "25202 充実･強化事務\n\nメディカルコントロール体制の推\n\n-\n\n25,350 救急搬送人員\n\n25203 進事業\n\nメディカルコントロール体制構築\n\n気管挿管認定救命\n\n単位\n\nH20\nH21\nH22\n実績値 実績値 目標値\n92\n\n回\n\n95\n\n90\n\n対H22\n達成度\n\n事業の\n方向性\n\n◎\n\nB\n\n-\n\n-\n\n-\n\n-\n\n−\n\nB\n\n人\n\n1,4",
+        "reason": "25202: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 52501,
+        "raw": "25203 進事業\n\nメディカルコントロール体制構築\n\n気管挿管認定救命\n\n単位\n\nH20\nH21\nH22\n実績値 実績値 目標値\n92\n\n回\n\n95\n\n90\n\n対H22\n達成度\n\n事業の\n方向性\n\n◎\n\nB\n\n-\n\n-\n\n-\n\n-\n\n−\n\nB\n\n人\n\n1,462\n\n1,629\n\n-\n\n−\n\nB\n\n25204 事業\n\n2,981 士数\n\n人\n\n6\n\n8\n\n1",
+        "reason": "25203: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 52796,
+        "raw": "25207 消防地水利調査事務\n\n7,117 調査箇所\n\n件\n\n273\n\n225\n\n251.0\n\n○\n\nB\n\n25208 災害情報の収集･管理業務\n\n3,695\n\n-\n\n-\n\n-\n\n-\n\n-\n\n−\n\nB\n\n25209 救急活動の情報管理事業\n\n1,105 救急件数\n\n件\n\n1,439\n\n1,667\n\n-\n\n−\n\nB\n\n25210 新任者養成事業\n\n5,927",
+        "reason": "25207: Same title appears under different codes without an explicit reprint marker. Need evidence of shared versus distinct business identity; no duplicate or invented qualifier."
+      },
+      {
+        "start": 52851,
+        "raw": "25208 災害情報の収集･管理業務\n\n3,695\n\n-\n\n-\n\n-\n\n-\n\n-\n\n−\n\nB\n\n25209 救急活動の情報管理事業\n\n1,105 救急件数\n\n件\n\n1,439\n\n1,667\n\n-\n\n−\n\nB\n\n25210 新任者養成事業\n\n5,927 消防職員養成職員\n\n人\n\n1\n\n1\n\n-\n\n−\n\nC\n\n25211 消防地水利調査事務\n\n7,117 調査箇",
+        "reason": "25208: Same title appears under different codes without an explicit reprint marker. Need evidence of shared versus distinct business identity; no duplicate or invented qualifier."
+      },
+      {
+        "start": 53005,
+        "raw": "25211 消防地水利調査事務\n\n7,117 調査箇所\n\n件\n\n273\n\n225\n\n251.0\n\n○\n\nB\n\n25212 災害情報の収集･管理業務\n\n3,695\n\n-\n\n-\n\n-\n\n-\n\n-\n\n−\n\nB\n\n25213 救急活動の情報管理事業\n\n1,105 救急件数\n\n件\n\n1,439\n\n1,667\n\n-\n\n−\n\nB\n\n人\n\n1\n\n0\n\n−\n\nA\n\n件\n\n8\n",
+        "reason": "25211: Same title appears under different codes without an explicit reprint marker. Need evidence of shared versus distinct business identity; no duplicate or invented qualifier."
+      },
+      {
+        "start": 53060,
+        "raw": "25212 災害情報の収集･管理業務\n\n3,695\n\n-\n\n-\n\n-\n\n-\n\n-\n\n−\n\nB\n\n25213 救急活動の情報管理事業\n\n1,105 救急件数\n\n件\n\n1,439\n\n1,667\n\n-\n\n−\n\nB\n\n人\n\n1\n\n0\n\n−\n\nA\n\n件\n\n8\n\n6\n\n-\n\n−\n\nB\n\n-\n\n−\n\nB\n\n救急救命士養成職\n625 員\n消防水利等の設置\n1,115 指導件",
+        "reason": "25212: Same title appears under different codes without an explicit reprint marker. Need evidence of shared versus distinct business identity; no duplicate or invented qualifier."
+      },
+      {
+        "start": 58969,
+        "raw": "26104 事務\n\n368\n\n-\n\n-\n\n-\n\n-\n\n-\n\n−\n\nB\n\n26105 コミュニティ助成事業\n\n572\n\n-\n\n-\n\n-\n\n-\n\n-\n\n−\n\nB\n\n3,255\n\n-\n\n-\n\n-\n\n-\n\n-\n\n−\n\nB\n\n74\n\n-\n\n-\n\n-\n\n-\n\n-\n\n−\n\nD\n\n368\n\n-\n\n-\n\n-\n\n-\n\n-\n\n−\n\nB\n\n26109 会事務\n\n1,105\n\n-\n\n",
+        "reason": "26104: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 59128,
+        "raw": "26109 会事務\n\n1,105\n\n-\n\n-\n\n-\n\n-\n\n-\n\n−\n\nB\n\n26110 味間地域防犯推進協議会事務\n\n1,115 部会の活動回数\n\n◎\n\nD\n\n○\n\nA\n\n篠山市地区・校区自治会長会\n\n26106 篠山防犯協会補助金交付事務\n26107 防犯協会篠山支部事務\n「まちづくり防犯グループ」登録\n\n26108 申請事務\n\n篠山市生活安全推進連絡協",
+        "reason": "26109: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 60924,
+        "raw": "26205 陳情・要望事務\n26206\n26207\n26208\n26209\n26210\n26211\n26212\n26213\n26214\n26215\n26216\n26217\n26218\n26219\n26220\n26221\n26222\n26223\n26224\n26225\n26226\n26227\n26228\n26229\n26230\n26231\n26232\n2623",
+        "reason": "26205: Generic literal title lacks an explicit service/facility/subject for distinct annual identity; policy headings and nearby KPI labels are not borrowed as qualifiers."
+      },
+      {
+        "start": 64198,
+        "raw": "31102 運営）\n\nH20\nH21\nH22\n実績値 実績値 目標値\n6\n\n対H22\n達成度\n\n事業の\n方向性\n\n2\n\n3\n\n△\n\nD\n\n5\n\n5\n\n◎\n\nA\n\n31103 保育園バス運行委託事業\n\n7,972\n\n-\n\n-\n\n-\n\n-\n\n-\n\n−\n\nB\n\n31104 私立保育所運営事業\n\n40,393\n\n-\n\n-\n\n-\n\n-\n\n-\n\n−\n\nB\n\n31105 ",
+        "reason": "31102: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 68693,
+        "raw": "32109 （使える英語教育）\n\n多文化共生教育推進事業\n\nフォリナサポートの\n\n6,909 配置校数\n\n32110 （フォリナサポート）\n\n生徒指導研修会の\n\n736 開催回数\n\n32111 生徒指導事業\n\nゆめハウス通級生の\n\n32112 不登校支援事業\n\n10,757 学校への復帰状況\n\n32113 特別支援教育推進事業\n\n66,003 置数\n\n321",
+        "reason": "32109: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 68746,
+        "raw": "32110 （フォリナサポート）\n\n生徒指導研修会の\n\n736 開催回数\n\n32111 生徒指導事業\n\nゆめハウス通級生の\n\n32112 不登校支援事業\n\n10,757 学校への復帰状況\n\n32113 特別支援教育推進事業\n\n66,003 置数\n\n32114 環境教育事業（体験活動）\n\n2,186 回）\n\n校\n\n15\n\n19\n\n17\n\n◎\n\nB\n\n32115",
+        "reason": "32110: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 74319,
+        "raw": "32401 部）事業\n\n32407\n32408\n32409\n32410\n32411\n32412\n32413\n32414\n32415\n32416\n32417\n32418\n32419\n32420\n32421\n32422\n32423\n32424\n32425\n32426\n32427\n32428\n32429\n32430\n32431\n32432\n32433\n32434\n",
+        "reason": "32401: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 76833,
+        "raw": "33114 務\n\n5,109 年間制作本数\n\n本\n\n68\n\n85\n\n65\n\n◎\n\nB\n\n33115 ビデオコンクール事業\n\n6,160 応募作品数\n\n本\n\n80\n\n68\n\n80\n\n○\n\nB\n\n33116 視聴覚教育支援事業\n\n4,488 編集室利用人数\n\n人\n\n775\n\n865\n\n800\n\n◎\n\nB\n\n5,155\n\n-\n\n-\n\n-\n\n-\n\n−\n\nB\n\n情報通",
+        "reason": "33114: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 79594,
+        "raw": "33203 子どもの居場所づくり事業\n\n332\n\n青少年健全育成団体との連携\n33205 事業\n\n6,522\n\n33206 芸術活動・文化活動支援事業\n\n文化協会加盟団体\n10,899 数\n\n33207 子どもの読書活動推進事業\n\n2,209 絡会の開催\n\n33208 学校図書館連携事業\n\n対H22\n達成度\n\n-\n\n-\n\n-\n\n-\n\n−\n\nB\n\n団体\n\n18",
+        "reason": "33203: Same title appears under different codes without an explicit reprint marker. Need evidence of shared versus distinct business identity; no duplicate or invented qualifier."
+      },
+      {
+        "start": 84160,
+        "raw": "34104 議会運営事業\n\n9,209 助\n\n円\n\n26,986\n\n8,500\n\n○\n\nA\n\n34105 住民学習事業【再掲】\n\n8,257 自治会実施率\n\n％\n\n前期93.8 前期96.6 前期100\n後期72.6 後期68.6 後期100\n\n○\n\nB\n\n34106 事業\n\n6,175 市内解学開催回数\n\n回\n\n287\n\n249\n\n250\n\n◎\n\nB\n\n3",
+        "reason": "34104: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 89081,
+        "raw": "34308 務\n\n658 会議回数\n\n回\n\n1\n\n1\n\n1\n\n◎\n\nB\n\n34309 人権教育推進事業\n\n739 校数\n\n校\n\n25\n\n25\n\n23\n\n◎\n\nB\n\n34301 女性委員会開催事務\n啓発事業（フィフティだより、セミ\n\n34302 ナー等開催）\n\n相談事業（女性問題、DV、セクハラ、子育\n\n34303 て、介護、人間関係等）\n\n男女共同参画センタ",
+        "reason": "34308: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 93703,
+        "raw": "35205 事業\n\n福住地区町並み保存・活用事\n\n調査・保存計画策\n\n8\n\n箇所\n\n6\n\n5\n\n35206 業\n\n4,177 定\n\n-\n\n35207 文化財の保護・管理業務\n\n4,401 審議会開催数\n\n回\n\n2\n\n2\n\n2\n\n○\n\nA\n\n35208 文化施設４館運営事業\n\n22,890 展覧会回数\n\n回\n\n1\n\n1\n\n1\n\n○\n\nA\n\n35209 伝統文化",
+        "reason": "35205: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 93751,
+        "raw": "35206 業\n\n4,177 定\n\n-\n\n35207 文化財の保護・管理業務\n\n4,401 審議会開催数\n\n回\n\n2\n\n2\n\n2\n\n○\n\nA\n\n35208 文化施設４館運営事業\n\n22,890 展覧会回数\n\n回\n\n1\n\n1\n\n1\n\n○\n\nA\n\n35209 伝統文化振興事業\n\n4,151 入場者数\n\n人\n\n588\n\n538\n\n560\n\n◎\n\nA\n\n2,356 ",
+        "reason": "35206: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 94019,
+        "raw": "35211 特定用地の管理・利活用事務\n35212\n35213\n35214\n35215\n35216\n35217\n35218\n35219\n35220\n35221\n35222\n35223\n35224\n35225\n35226\n35227\n35228\n35229\n35230\n35231\n35232\n35233\n35234\n35235\n\nま45P\n\n-\n\n-\n\n-\n\n",
+        "reason": "35211: Generic literal title lacks an explicit service/facility/subject for distinct annual identity; policy headings and nearby KPI labels are not borrowed as qualifiers."
+      },
+      {
+        "start": 100540,
+        "raw": "41302 業\n\n13,901\n\n-\n\n-\n\n41303 景観形成支援事業【再掲】\n\n1,105 景観助成件数\n\n件\n\n-\n\n41304 都市公園管理事業\n\n13,634\n\n-\n\n-\n\n41301 市営駐輪場維持管理事業\n篠山口駅自由通路橋等管理事\n\n41305\n41306\n41307\n41308\n41309\n41310\n41311\n41312\n41313\n",
+        "reason": "41302: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 109093,
+        "raw": "43105 （ミックス）\n\n7,325 MICS事業進捗率\n\n％\n\n5\n\n7\n\n10.0\n\n○\n\nB\n\n43106 下水道施設改築更新事業\n\n5,655 改築更新費\n\n千円\n\n10,000\n\n15,500\n\n○\n\nB\n\n1\n\n1\n\n○\n\nC\n\n43101 合併浄化槽設置審査事業\n宅内排水設備工事受付検査、指定工事\n\n43102 店、責任技術者登録\n\n管路施設",
+        "reason": "43105: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 113988,
+        "raw": "44105 務\n\n94,245 修理等件数\n\n44106 水質検査業務\n\n7,616 理検査実施件数\n\n件\n\n-\n\n427\n\n-\n\n−\n\nB\n\n44107 水道料金徴収業務\n\n42,741 過年度徴収率\n\n％\n\n67.7\n\n62.3\n\n65.9\n\n○\n\nB\n\n44108 広報宣伝業務\n\n5,581 数\n\n回\n\n1\n\n2\n\n2\n\n◎\n\nB\n\n44109 水道施",
+        "reason": "44105: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 114118,
+        "raw": "44108 広報宣伝業務\n\n5,581 数\n\n回\n\n1\n\n2\n\n2\n\n◎\n\nB\n\n44109 水道施設統廃合事業\n\n8,967 削減\n\n82\n\n◎\n\nB\n\n44110 節水意識の普及業務\n\n1,841 学習人数\n\n−\n\nB\n\n窓口業務、開閉栓、検針、調査業務・上下\n\n44111\n44112\n44113\n44114\n44115\n44116\n44117\n4411",
+        "reason": "44108: Generic literal title lacks an explicit service/facility/subject for distinct annual identity; policy headings and nearby KPI labels are not borrowed as qualifiers."
+      },
+      {
+        "start": 125519,
+        "raw": "51124 務\n\n1,321 総農家戸数\n\n戸\n\n4,400\n\n4,400\n\n4,400\n\n◎\n\nB\n\n51125 土地改良施設維持適正化事業\n\n2,555 工事件数\n\n件\n\n4\n\n4\n\n4\n\n◎\n\nB\n\n県土地改良事業団体連合会業\n\n51126 中山間地域総合整備事業\n\nま:P50\n\n12,270 工事件数\n\n件\n\n7\n\n3\n\n5\n\n○\n\nA\n\n51127",
+        "reason": "51124: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 125637,
+        "raw": "51126 中山間地域総合整備事業\n\nま:P50\n\n12,270 工事件数\n\n件\n\n7\n\n3\n\n5\n\n○\n\nA\n\n51127 村づくり交付金事業\n\nま:P50\n\n14,277 工事件数\n\n件\n\n3\n\n3\n\n5\n\n○\n\nA\n\n6,021 工事件数\n\n件\n\n0\n\n4\n\n5\n\n△\n\nA\n\nイベントの実施回\n1,736 数\n\n回\n\n1\n\n1\n\n1\n\n◎\n\nB\n\n鳥獣",
+        "reason": "51126: Land-improvement titles require complete business boundary and municipal role evidence; preserve prefectural responsibility hold."
+      },
+      {
+        "start": 127406,
+        "raw": "51201 業\n\n6,457 認定農業者数\n\n経営体\n\n40\n\n41\n\n40\n\n◎\n\nB\n\n51202 集落営農機械等整備促進事業\n\n1,105 集落営農組織数\n\n組織\n\n113\n\n113\n\n180\n\n△\n\nA\n\n1,534 認定農業者数\n\n経営体\n\n40\n\n41\n\n40\n\n◎\n\nB\n\n2,533 集落営農組織数\n\n組織\n\n113\n\n111\n\n180\n\n△\n",
+        "reason": "51201: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 128311,
+        "raw": "51214 アドバイザー派遣事業\n51215 中山間地域直接支払制度事業\n\nま:P50\n\n-\n\n7,458 組織数\n\n40\n\n経営体\n-\n\n組織\n\n-\n\n41\n-\n\n33\n\n40\n-\n\n33\n\n認定農業者数\n新規就農者\n集落営農組織\n\n経営体\n人\n組織\n\n51217 水田経営対策加入促進事業\n\n1,105 集落営農組織数\n\n組織\n\n113\n\n111\n\n180",
+        "reason": "51214: Generic literal title lacks an explicit service/facility/subject for distinct annual identity; policy headings and nearby KPI labels are not borrowed as qualifiers."
+      },
+      {
+        "start": 132474,
+        "raw": "51402 官学連携事業\n\n810\n\n-\n\n単位\n\nH20\nH21\nH22\n実績値 実績値 目標値\n3\n\n箇所\n-\n\n-\n\n3\n-\n\n4\n-\n\n対H22\n達成度\n\n事業の\n方向性\n\n○\n\nB\n\n−\n\nB\n\n51403 緑の少年団関係事務\n\n1,300 緑の少年団活動\n\n校\n\n5\n\n5\n\n4\n\n◎\n\nC\n\n51404 交流施設等の運営事務\n\n20,023 利用",
+        "reason": "51402: Generic literal title lacks an explicit service/facility/subject for distinct annual identity; policy headings and nearby KPI labels are not borrowed as qualifiers."
+      },
+      {
+        "start": 132627,
+        "raw": "51404 交流施設等の運営事務\n\n20,023 利用者数\n\n人\n\n117,972\n\n119,500\n\n130,000\n\n○\n\nB\n\n-\n\n-\n\n-\n\n-\n\n−\n\nB\n\n15,438 来場者\n\n人\n\n2,058\n\n2,286\n\n3,000\n\n○\n\nB\n\n39,709 組織数\n\n組織\n\n67\n\n67\n\n67\n\n◎\n\nB\n\n51405 治山事業\n51406 農村",
+        "reason": "51404: Generic literal title lacks an explicit service/facility/subject for distinct annual identity; policy headings and nearby KPI labels are not borrowed as qualifiers."
+      },
+      {
+        "start": 136843,
+        "raw": "52205 21年工業統計調査事務\n21年経済センサス基礎調査事\n\n52206 務\n\n企業誘致アンケート調査事業\n\n52207 【再掲】\n\n52208 プレミアム付商品券発行事業\n52209\n52210\n52211\n52212\n52213\n52214\n52215\n52216\n52217\n52218\n52219\n52220\n52221\n52222\n52223\n",
+        "reason": "52205: Calendar-year survey label needs explicit assessed/implementation fiscal-year association; do not substitute the title year for the annual identity."
+      },
+      {
+        "start": 136877,
+        "raw": "52206 務\n\n企業誘致アンケート調査事業\n\n52207 【再掲】\n\n52208 プレミアム付商品券発行事業\n52209\n52210\n52211\n52212\n52213\n52214\n52215\n52216\n52217\n52218\n52219\n52220\n52221\n52222\n52223\n52224\n52225\n52226\n52227\n52228\n5222",
+        "reason": "52206: Calendar-year survey label needs explicit assessed/implementation fiscal-year association; do not substitute the title year for the annual identity."
+      },
+      {
+        "start": 147432,
+        "raw": "61104 子どもの居場所づくり事業\n61105\n61106\n61107\n61108\n61109\n61110\n61111\n61112\n61113\n61114\n61115\n61116\n61117\n61118\n61119\n61120\n61121\n61122\n61123\n61124\n61125\n61126\n61127\n61128\n61129\n61130\n61131",
+        "reason": "61104: Same title appears under different codes without an explicit reprint marker. Need evidence of shared versus distinct business identity; no duplicate or invented qualifier."
+      },
+      {
+        "start": 151049,
+        "raw": "62103 護・活用事業\n\nま:P48\n\n1,178\n\n-\n\n-\n\n-\n\n-\n\n-\n\n−\n\nA\n\n62104\n62105\n62106\n62107\n62108\n62109\n62110\n62111\n62112\n62113\n62114\n62115\n62116\n62117\n62118\n62119\n62120\n62121\n62122\n62123\n62124\n62125",
+        "reason": "62103: Source explicitly marks 繰越明許. Do not create a separate target-year record or merge with the ordinary fossil-preservation project without fiscal identity evidence."
+      },
+      {
+        "start": 155031,
+        "raw": "63201 金支払事務\n\n63203 持管理業務【再掲】\n\n対H22\n達成度\n\n15\n\n\n641\n\n施策評価シート（平成２１年度実施分事後評価）\n施策№\n\n641\n\n施策大綱大項目\n\n評価担当課名：政策部\n\n関連部局：観光課、農林課、企業振興課\n\nⅥ連携・交流の促進\n\n後期基本計画掲載\nP.８４\n\n4.国内の連携・交流の促進\n\n中項目\n\n中項目の基本方針\n\n",
+        "reason": "63201: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 156892,
+        "raw": "64104 係事務\n\n兵庫田舎暮らし他自然居住支\n\n64107 築城４００年記念事業\n\n21,900 （H２１年度終了）\n\n-\n\n-\n\n-\n\n-\n\n−\n\nD\n\n64108 観光案内所委託業務【再掲】\n\n5,662 案内頻度\n\n回\n\n17,902\n\n16,258\n\n16,000\n\n◎\n\nA\n\n2,200 案内頻度\n\n回\n\n11,072\n\n9,977\n\n10,0",
+        "reason": "64104: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
+      },
+      {
+        "start": 163997,
+        "raw": "71201 務\n\nH20\nH21\nH22\n実績値 実績値 目標値\n−\n\n4\n-\n\n\n713\n\n施策評価シート（平成２１年度実施分事後評価）\n713\n\n施策№\n\n評価担当課名：企画課\n\nⅦ計画の推進\n\n施策大綱大項目\n\n後期基本計画掲載\nP.８９\n\n関連部局：全ての部局\n\n1.計画の推進\n\n中項目\n\n中項目の基本方針\n\n厳しい行財政状況のなかで、効率的・機動的",
+        "reason": "71201: Detached title prefix/suffix crosses indicator columns or other business rows. Cached text exists; exact association needs verified layout or explicit saved linkage. No inferred title completion."
       }
     ],
     "sourceSha256": "15f443967521dcd95ed8a0df8907a1a08e733fb5dc2f12308add8411459507d0",
