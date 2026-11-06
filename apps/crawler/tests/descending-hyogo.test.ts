@@ -23,7 +23,7 @@ test('Hyogo proposals require full pinned bodies and literal evidence; no invent
  for(const c of configs){const i=inputs.find(i=>i.sourceId===c.sourceId)!;const r=run(c.sourceId);assert.equal(r.projects.length,c.rows.length);count+=r.projects.length;
  for(const p of r.projects){assert.equal(p.amounts.length,0);assert.equal(p.ratings.length,0);assert.equal(p.indicators.length,0);for(const e of p.evidence){const src=inputs.find(x=>x.sourceUrl===e.sourceUrl)!;const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}
  for(const bad of [{...i,text:i.text+'x'},{...i,truncated:true},{...i,sourceSha256:'x'},{...i,sourceUrl:i.sourceUrl+'x'}])assert.equal(reviewHyogo(bad,inputs)!.projects.length,0);
- }assert.equal(count,2120);
+ }assert.equal(count,2277);
 });
 
 
@@ -51,7 +51,7 @@ for(const [sid,year,count]of [['2f361c684fbe2856437d9689',2011,201],['6173941d80
  assert.ok(!ps.some(p=>['備補助金事務事業','制事業','金事業','事業','負担軽減事業','助事業','事務事業','局事業','理事業','ト」事業','助成事業','会事業','援協議会事業','支援事業','研究事業','各助成金事業','各負担金事業','県営土地改良事業'].includes(p.projectName)));
 });
 test('Sasayama FY2007 keeps wrapped title qualifiers and rejects descriptions posing as titles',()=>{
- const ps=run('f54a43aebbed7ce3b3271439').projects;assert.equal(ps.length,182);assert.ok(ps.every(p=>p.evaluatedFiscalYear===2007&&p.evaluationYear===2008));
+ const ps=run('f54a43aebbed7ce3b3271439').projects;assert.equal(ps.length,339);assert.ok(ps.every(p=>p.evaluatedFiscalYear===2007&&p.evaluationYear===2008));
  for(const n of ['放課後児童対策事業（民営）','食文化センター事業（各種料理教室）','こんだ薬師温泉施設運営事業','本庁舎・第2庁舎管理事務','篠山体育振興会事務局事務','災害情報の収集･管理業務'])assert.ok(ps.some(p=>p.projectName===n));
  for(const n of ['放課後児童対策事業','こんだ薬師温泉施設運営支援','本庁舎・第2庁舎の維持管理','選挙管理委員会事務','紀支部支援事業','ラザ施設管理'])assert.ok(!ps.some(p=>p.projectName===n));
 });
@@ -81,4 +81,16 @@ test('Sasayama FY2007 title segments do not borrow policy suffixes or adjacent b
  const taki=ps.find(p=>p.projectName==='市保健衛生推進協議会多紀支部事務局')!;assert.ok(taki);assert.ok(!taki.evidence[0].rawText.includes('城東'));
  for(const name of ['市保健衛生推進協議会城東支部事務局','公立保育所事業（事務・管理・運営）','母子保健推進員活動事業（愛育班活動）','メディカルコントロール体制構築事業','メディカルコントロール体制の推進事業'])assert.ok(ps.some(p=>p.projectName===name));
  assert.ok(!ps.some(p=>['任意事業','市保健衛生推進協議会事務局','メディカルコントロール事業','政策事業'].includes(p.projectName)));
+});
+
+
+test('Sasayama FY2007 repeated generic rows stay held and qualified titles are not split or aliased',()=>{
+ const result=run('f54a43aebbed7ce3b3271439'),ps=result.projects;
+ assert.equal(result.units.filter(u=>u.status==='identity_or_period_hold').length,12);
+ assert.equal(new Set(ps.map(p=>p.projectName.normalize('NFKC').replace(/\s+/g,''))).size,339);
+ for(const name of ['高齢者大学かやのみ学園、羽束学園','相談事業（女性問題、DV、セクハラ、子育て、介護、人間関係等）','子どもの居場所づくり推進事業（通学合宿）','ちっびこ伝統産業体験交流事業','「まちづくり防犯グループ」登録申請事務','漏水減免事務'])assert.ok(ps.some(p=>p.projectName===name),name);
+ for(const name of ['相談事業','交流事業','任意事業','高齢者大学羽束学園','〔住宅資金特別会計〕償還推進事業','篠山市公民館運営審議会事務局事務'])assert.ok(!ps.some(p=>p.projectName===name),name);
+ assert.equal(ps.filter(p=>p.projectName==='償還推進事業').length,1);
+ const src=inputs.find(i=>i.sourceId==='f54a43aebbed7ce3b3271439')!;
+ const tail=ps.find(p=>p.projectName==='漏水減免事務')!;assert.ok(tail.evidence.some(e=>e.cell&&Number(e.cell.match(/chars:(\d+)/)?.[1])>src.text.indexOf('28/28')));
 });

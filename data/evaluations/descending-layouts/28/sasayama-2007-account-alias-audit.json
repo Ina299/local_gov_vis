@@ -1,0 +1,24 @@
+{
+  "sourceId": "f54a43aebbed7ce3b3271439",
+  "existingName": "償還推進事業",
+  "proposedQualifiedName": "〔住宅資金特別会計〕償還推進事業",
+  "disposition": "same_source_same_row_alias_not_added",
+  "appliedFields": 0,
+  "reason": "Existing title and qualified proposal use the same title occurrence. Preserve existing object; account qualifier is not a second project.",
+  "proposedEvidence": {
+    "name": "〔住宅資金特別会計〕償還推進事業",
+    "start": 110128,
+    "raw": "〔住宅資金特別会計〕 改修に対して、住宅資金を個人貸付制度として実施してき\n償還推進事業",
+    "note": "Reviewed title identity in footer-delimited text bucket 28 (not asserted PDF coordinates). Preserve source glyphs and district qualifiers; word boundaries prevent taking a suffix from policy labels or narrative. No inferred financial or assessment values.",
+    "titleSegments": [
+      {
+        "start": 110128,
+        "raw": "〔住宅資金特別会計〕"
+      },
+      {
+        "start": 110166,
+        "raw": "償還推進事業"
+      }
+    ]
+  }
+}
