@@ -1,9 +1,12 @@
 {
   "prefecture": "27",
-  "candidateRecords": 55,
+  "candidateRecords": 77,
   "perMunicipality": {
     "河南町": 50,
-    "藤井寺市": 5
+    "太子町": 5,
+    "交野市": 2,
+    "藤井寺市": 5,
+    "高石市": 15
   },
   "selectedMunicipalities": 39,
   "excludedMunicipalities": 4,
@@ -15,23 +18,25 @@
   "existingFieldsChanged": 0,
   "fieldEnrichment": 0,
   "municipalRequests": 0,
-  "validatedCumulativeCandidates": 22007,
-  "validatedEvidence": 59278,
+  "validatedCumulativeCandidates": 22029,
+  "validatedEvidence": 59364,
   "separateExcludedSets": {
     "Okinawa": 1084,
     "initial": 93
   },
   "master": "b3f8012827bc5ed61637a616f11882e9f3ea5145",
   "checks": {
-    "focused": "3/3 Osaka,27/27 Hyogo",
-    "crawler": "647/647 combined working tree",
-    "web": "256/256",
+    "focused": "7/7 Osaka",
+    "crawler": "651/651",
+    "web": "256/256 serial; initial parallel glossary timeout preserved in logs; no assertion or timeout changes",
     "typecheck": "passed",
-    "lint": "passed;existingfontwarning",
+    "lint": "passed; existing font warning",
     "national": "verified",
     "static": "109/109 subpath export"
   },
   "ci": "Unverified; priorActionsAPI403 not retried. No manual dispatch orPR edits.",
-  "remaining": "This is an increment, not Osaka completion. Next22proposals for Taishi/Katano/Takaishi are outside this commit; additional policy,layout and coverage sources remain under offline review. Missing9bodies require saved authorized input; acquisition gates remain.",
-  "unpublishedUserChanges": "not observable;collision freedom not guaranteed"
+  "remaining": "Increment, not Osaka completion. Kashiwara121 proposals are separately saved and NOT accepted or included. Other layout/coverage reviews and9missing bodies remain; no acquisition.",
+  "unpublishedUserChanges": "not observable;collision freedom not guaranteed",
+  "additionalCandidateRecords": 22,
+  "previousPublishedHead": "5d7e9bf11561ec9e8869582c8b90dce54463d286"
 }

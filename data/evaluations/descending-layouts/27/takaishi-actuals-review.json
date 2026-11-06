@@ -1,0 +1,117 @@
+{
+  "rows": [
+    {
+      "name": "小中連携推進支援事業",
+      "titleStart": 14225,
+      "actualSectionStart": 14201,
+      "actualSectionEnd": 14649,
+      "actualSectionSha256": "7e6a0c78e2f9872c8e660d04b56838be0d9486a3aaf85e6d8c6aea24c172415c"
+    },
+    {
+      "name": "SISTⅣ事業",
+      "titleStart": 19183,
+      "actualSectionStart": 18525,
+      "actualSectionEnd": 19273,
+      "actualSectionSha256": "addd9f80da5c967852bcdf6e8e6394ab9bec2f21e4d3a573628196886e28e189"
+    },
+    {
+      "name": "English Camp in Takaishi",
+      "titleStart": 20709,
+      "actualSectionStart": 20543,
+      "actualSectionEnd": 20999,
+      "actualSectionSha256": "9a41d0ab2cb065cb720f72aa501e8c466478e9c0e00abaad91a140037c1881e7"
+    },
+    {
+      "name": "幼小中連携事業",
+      "titleStart": 31198,
+      "actualSectionStart": 30822,
+      "actualSectionEnd": 31431,
+      "actualSectionSha256": "70a9e1c0f77d454d8cb4a9dd8d1db8002d6bd5f6be540e2ad6cc9ee3b24d928b"
+    },
+    {
+      "name": "元気広場推進事業",
+      "titleStart": 34374,
+      "actualSectionStart": 34486,
+      "actualSectionEnd": 34739,
+      "actualSectionSha256": "0b0e4b4f3dbfa9227fe086800c82574ebd8da480c5b27e1391abab53067297a0"
+    },
+    {
+      "name": "高石小学校の校庭開放事業",
+      "titleStart": 34673,
+      "actualSectionStart": 34486,
+      "actualSectionEnd": 34739,
+      "actualSectionSha256": "0b0e4b4f3dbfa9227fe086800c82574ebd8da480c5b27e1391abab53067297a0"
+    },
+    {
+      "name": "家庭教育学級",
+      "titleStart": 33487,
+      "actualSectionStart": 33463,
+      "actualSectionEnd": 33833,
+      "actualSectionSha256": "1780f9bae06b36cbe9f13e0e4c97c304b833d34bc495f3d35aebdfe3346bf109"
+    },
+    {
+      "name": "公民館講座",
+      "titleStart": 33600,
+      "actualSectionStart": 33463,
+      "actualSectionEnd": 33833,
+      "actualSectionSha256": "1780f9bae06b36cbe9f13e0e4c97c304b833d34bc495f3d35aebdfe3346bf109"
+    },
+    {
+      "name": "電子図書館サービス",
+      "titleStart": 35492,
+      "actualSectionStart": 35311,
+      "actualSectionEnd": 35633,
+      "actualSectionSha256": "2616eb8a8f63b3ca8c0ea295314becf8e69a282d048b34f7f20e54682035eb7d"
+    },
+    {
+      "name": "予約本受取サービス",
+      "titleStart": 35581,
+      "actualSectionStart": 35311,
+      "actualSectionEnd": 35633,
+      "actualSectionSha256": "2616eb8a8f63b3ca8c0ea295314becf8e69a282d048b34f7f20e54682035eb7d"
+    },
+    {
+      "name": "アプラ「まち講座」",
+      "titleStart": 36112,
+      "actualSectionStart": 36088,
+      "actualSectionEnd": 36561,
+      "actualSectionSha256": "afb89b6e85ab85a87531d18fac0d945862f9ca71920ea0cc16e216bbe5e65784"
+    },
+    {
+      "name": "市民文化祭",
+      "titleStart": 36433,
+      "actualSectionStart": 36088,
+      "actualSectionEnd": 36561,
+      "actualSectionSha256": "afb89b6e85ab85a87531d18fac0d945862f9ca71920ea0cc16e216bbe5e65784"
+    },
+    {
+      "name": "親と子の軽体操教室",
+      "titleStart": 37130,
+      "actualSectionStart": 37098,
+      "actualSectionEnd": 37289,
+      "actualSectionSha256": "90d0f1b3fe18d370ade5f64dc75cf4975f8d83d6fdedc0e99d883a6052377eca"
+    },
+    {
+      "name": "社会を明るくする運動・高石市青少年健全育成市民大会",
+      "titleStart": 37766,
+      "actualSectionStart": 37677,
+      "actualSectionEnd": 37919,
+      "actualSectionSha256": "f052ef22e528a2ce0897f80eef4f0ea6c630e998b4173319675d4cd336aea373"
+    },
+    {
+      "name": "ぴよぴよルーム",
+      "titleStart": 35472,
+      "actualSectionStart": 35311,
+      "actualSectionEnd": 35633,
+      "actualSectionSha256": "2616eb8a8f63b3ca8c0ea295314becf8e69a282d048b34f7f20e54682035eb7d"
+    }
+  ],
+  "excluded": [
+    "policy headings and common A/B scores",
+    "prefectural model-school programmes without separate municipal programme identity",
+    "broad facility maintenance descriptions without independent project identity",
+    "27lecture/54event aggregate counts, not that many new projects",
+    "survey questions and prior/future year indicator values",
+    "appendix historical2020GIGA plans and image-only table pages"
+  ]
+}

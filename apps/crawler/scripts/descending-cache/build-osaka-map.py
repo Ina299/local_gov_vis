@@ -45,6 +45,7 @@ for c in json.loads((stage/'osaka-reviewed.json').read_text()):
  if c.get('pageId'):
   m=json.loads((docs.parent/'municipalities'/(c['municipalityCode']+'.json')).read_text());src=next(x for x in m['sources'] if x['id']==c['sourceId']);page=next(x for x in m['sources'] if x['id']==c['pageId']);pt=verified_text(c['pageId'],c['municipalityCode'])
   assert hashlib.sha256(pt.encode()).hexdigest()==c['pageHash'] and c['pageProof'] in pt
+  if c.get('pagePeriodProof'):assert c['pagePeriodProof'] in pt and str(c['evaluationYear'])+'年度' in c['pagePeriodProof']
   if c.get('pageYearContext'):
    pu=pt.encode('utf-16-le');a=c['pageYearContextStart'];ctx=c['pageYearContext'];assert isinstance(a,int) and a>=0 and pu[a*2:a*2+len(ctx.encode('utf-16-le'))].decode('utf-16-le')==ctx and c['pageProof'] in ctx and '前年度' in ctx
   assert src['title']==c['savedLinkTitle']==c['pageProof'] and src['navigationReview']==c['savedLinkRelation']
