@@ -1,0 +1,36 @@
+{
+  "candidateRecords": 589,
+  "previousPublishedHead": "5b41eba12ebe2f067a75a25b9fa1e44998f000b2",
+  "perMunicipality": {
+    "御浜町": 5,
+    "度会町": 25,
+    "多気町": 14,
+    "菰野町": 4,
+    "鳥羽市": 197,
+    "尾鷲市": 3,
+    "桑名市": 87,
+    "松阪市": 17,
+    "四日市市": 237
+  },
+  "validatedCumulativeCandidates": 24395,
+  "validatedEvidence": 67031,
+  "excludedSeparateSets": {
+    "Okinawa": 1084,
+    "initial": 93
+  },
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0,
+  "newRecordActivityFields": 0,
+  "checks": {
+    "focused": "9/9 Mie",
+    "crawler": "688/688",
+    "web": "256/256 serial",
+    "typecheck": "passed",
+    "lint": "passed; existing font warning",
+    "national": "verified",
+    "static": "109/109 subpath export"
+  },
+  "remoteCI": "unverified; prior Actions API403; no retry",
+  "remaining": "Offline phase active: staged additional116 candidates (Owase46,Toba12,Yokkaichi2,Taki56) are independently hash/quote/duplicate checked but NOT part of this589 checkpoint or full-branch validated. Yokkaichi235-number title coverage resolved in stage only. Kameyama123 annual-link rows/410 links need fiscal-year semantics evidence. Five missing bodies and one incomplete prefix held without fetching. Continue offline work; nationwide incomplete."
+}

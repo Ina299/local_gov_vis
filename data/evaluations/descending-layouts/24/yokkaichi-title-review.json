@@ -1,0 +1,2270 @@
+[
+  {
+    "n": 0,
+    "start": 126,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 1,
+    "start": 248,
+    "raw": "１ 全世代共通\n1-1．こどもの人権尊重",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 2,
+    "start": 273,
+    "raw": "保育園・幼稚園・こども園で\nの職員や保護者への人権研\n修",
+    "status": "literal_candidate",
+    "name": "保育園・幼稚園・こども園での職員や保護者への人権研修"
+  },
+  {
+    "n": 3,
+    "start": 598,
+    "raw": "保育園・幼稚園・こども園で\nの人権教育",
+    "status": "literal_candidate",
+    "name": "保育園・幼稚園・こども園での人権教育"
+  },
+  {
+    "n": 4,
+    "start": 778,
+    "raw": "四日市人権擁護委員協議会\nの支援",
+    "status": "literal_candidate",
+    "name": "四日市人権擁護委員協議会の支援"
+  },
+  {
+    "n": 5,
+    "start": 1214,
+    "raw": "人権センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 6,
+    "start": 1371,
+    "raw": "人権センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 7,
+    "start": 1386,
+    "raw": "こどものための出前講座の\n開催",
+    "status": "literal_candidate",
+    "name": "こどものための出前講座の開催"
+  },
+  {
+    "n": 8,
+    "start": 1573,
+    "raw": "人権センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 9,
+    "start": 1588,
+    "raw": "人権学習支援事業",
+    "status": "literal_candidate",
+    "name": "人権学習支援事業"
+  },
+  {
+    "n": 10,
+    "start": 1744,
+    "raw": "人権センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 11,
+    "start": 1765,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 12,
+    "start": 1873,
+    "raw": "人権学習推進事業",
+    "status": "literal_candidate",
+    "name": "人権学習推進事業"
+  },
+  {
+    "n": 13,
+    "start": 2067,
+    "raw": "人権センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 14,
+    "start": 2082,
+    "raw": "人権教育・啓発推進事業",
+    "status": "literal_candidate",
+    "name": "人権教育・啓発推進事業"
+  },
+  {
+    "n": 15,
+    "start": 2255,
+    "raw": "人権センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 16,
+    "start": 2401,
+    "raw": "人権センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 17,
+    "start": 2417,
+    "raw": "人権に関する蔵書等の充実",
+    "status": "literal_candidate",
+    "name": "人権に関する蔵書等の充実"
+  },
+  {
+    "n": 18,
+    "start": 2558,
+    "raw": "人権センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 19,
+    "start": 2574,
+    "raw": "じんけんフェスタ事業",
+    "status": "literal_candidate",
+    "name": "じんけんフェスタ事業"
+  },
+  {
+    "n": 20,
+    "start": 2690,
+    "raw": "人権センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 21,
+    "start": 2706,
+    "raw": "人権まちづくり推進事業",
+    "status": "literal_candidate",
+    "name": "人権まちづくり推進事業"
+  },
+  {
+    "n": 22,
+    "start": 2893,
+    "raw": "人権センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 23,
+    "start": 2909,
+    "raw": "人権擁護委員の活動支援",
+    "status": "literal_candidate",
+    "name": "人権擁護委員の活動支援"
+  },
+  {
+    "n": 24,
+    "start": 3077,
+    "raw": "人権センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 25,
+    "start": 3294,
+    "raw": "親子映画観賞会の開催",
+    "status": "literal_candidate",
+    "name": "親子映画観賞会の開催"
+  },
+  {
+    "n": 26,
+    "start": 3312,
+    "raw": "親子映画観賞会の開催",
+    "status": "same_name_reprint_or_component_hold",
+    "reason": "Same literal name and FY2025 already covered; no extra name invented for departmental or subrow variants."
+  },
+  {
+    "n": 27,
+    "start": 3487,
+    "raw": "人権センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 28,
+    "start": 3499,
+    "raw": "男女平等・デートＤＶ予防教\n育講師派遣事業",
+    "status": "literal_candidate",
+    "name": "男女平等・デートＤＶ予防教育講師派遣事業"
+  },
+  {
+    "n": 29,
+    "start": 3816,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 30,
+    "start": 3925,
+    "raw": "女性のための電話相談\n男性のための電話相談",
+    "status": "literal_candidate",
+    "name": "女性のための電話相談男性のための電話相談"
+  },
+  {
+    "n": 31,
+    "start": 4811,
+    "raw": "学校人権教育リーダー育成\n研修会",
+    "status": "literal_candidate",
+    "name": "学校人権教育リーダー育成研修会"
+  },
+  {
+    "n": 32,
+    "start": 5162,
+    "raw": "小中学校での人権教育の推\n進",
+    "status": "literal_candidate",
+    "name": "小中学校での人権教育の推進"
+  },
+  {
+    "n": 33,
+    "start": 5843,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 34,
+    "start": 5960,
+    "raw": "1-2．遊びや体験の機会づくり、生活習慣の形成・定着",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 35,
+    "start": 6452,
+    "raw": "こども未来課（青少年\n育成室）",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 36,
+    "start": 6477,
+    "raw": "生活リズム出前講座",
+    "status": "literal_candidate",
+    "name": "生活リズム出前講座"
+  },
+  {
+    "n": 37,
+    "start": 6599,
+    "raw": "こども未来課（青少年\n育成室）",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 38,
+    "start": 7412,
+    "raw": "就労に役立つ日本語習得の\n支援",
+    "status": "literal_candidate",
+    "name": "就労に役立つ日本語習得の支援"
+  },
+  {
+    "n": 39,
+    "start": 7778,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 40,
+    "start": 7883,
+    "raw": "動物愛護教室の開催",
+    "status": "literal_candidate",
+    "name": "動物愛護教室の開催"
+  },
+  {
+    "n": 41,
+    "start": 8153,
+    "raw": "観光施設整備",
+    "status": "literal_candidate",
+    "name": "観光施設整備"
+  },
+  {
+    "n": 42,
+    "start": 8556,
+    "raw": "アートスタートプログラム",
+    "status": "literal_candidate",
+    "name": "アートスタートプログラム"
+  },
+  {
+    "n": 43,
+    "start": 8915,
+    "raw": "こどもの文化鑑賞機会の充\n実",
+    "status": "literal_candidate",
+    "name": "こどもの文化鑑賞機会の充実"
+  },
+  {
+    "n": 44,
+    "start": 9088,
+    "raw": "指定管理者事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 45,
+    "start": 9124,
+    "raw": "学び舎音楽会の開催",
+    "status": "literal_candidate",
+    "name": "学び舎音楽会の開催"
+  },
+  {
+    "n": 46,
+    "start": 9303,
+    "raw": "指定管理者事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 47,
+    "start": 9352,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 48,
+    "start": 9612,
+    "raw": "幼児期から体を動かす習慣\nづくり事業",
+    "status": "literal_candidate",
+    "name": "幼児期から体を動かす習慣づくり事業"
+  },
+  {
+    "n": 49,
+    "start": 10020,
+    "raw": "こども四日市（こどもによる\nこどものまち）の開催",
+    "status": "literal_candidate",
+    "name": "こども四日市（こどもによるこどものまち）の開催"
+  },
+  {
+    "n": 50,
+    "start": 10192,
+    "raw": "20,440\n（すわ公園交流\n館指定管理料）",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 51,
+    "start": 10295,
+    "raw": "地場産業体験学習",
+    "status": "literal_candidate",
+    "name": "地場産業体験学習"
+  },
+  {
+    "n": 52,
+    "start": 10815,
+    "raw": "ものづくり講座の開催",
+    "status": "literal_candidate",
+    "name": "ものづくり講座の開催"
+  },
+  {
+    "n": 53,
+    "start": 11041,
+    "raw": "食と農のふれあい推進事業\n費補助金",
+    "status": "literal_candidate",
+    "name": "食と農のふれあい推進事業費補助金"
+  },
+  {
+    "n": 54,
+    "start": 11331,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 55,
+    "start": 11342,
+    "raw": "公共交通の利用方法等の啓\n発",
+    "status": "literal_candidate",
+    "name": "公共交通の利用方法等の啓発"
+  },
+  {
+    "n": 56,
+    "start": 11600,
+    "raw": "公園の整備",
+    "status": "literal_candidate",
+    "name": "公園の整備"
+  },
+  {
+    "n": 57,
+    "start": 11893,
+    "raw": "こどもの読書環境の充実",
+    "status": "literal_candidate",
+    "name": "こどもの読書環境の充実"
+  },
+  {
+    "n": 58,
+    "start": 13050,
+    "raw": "1-3．こどもの貧困の解消",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 59,
+    "start": 13069,
+    "raw": "実費徴収に係る補足給付",
+    "status": "literal_candidate",
+    "name": "実費徴収に係る補足給付"
+  },
+  {
+    "n": 60,
+    "start": 13091,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 61,
+    "start": 13200,
+    "raw": "就労自立促進事業",
+    "status": "literal_candidate",
+    "name": "就労自立促進事業"
+  },
+  {
+    "n": 62,
+    "start": 13710,
+    "raw": "労働相談機関の情報提供",
+    "status": "literal_candidate",
+    "name": "労働相談機関の情報提供"
+  },
+  {
+    "n": 63,
+    "start": 14663,
+    "raw": "四日市市奨学金支給事業",
+    "status": "literal_candidate",
+    "name": "四日市市奨学金支給事業"
+  },
+  {
+    "n": 64,
+    "start": 15029,
+    "raw": "就学援助",
+    "status": "literal_candidate",
+    "name": "就学援助"
+  },
+  {
+    "n": 65,
+    "start": 15353,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 66,
+    "start": 15529,
+    "raw": "1-4．障害児や医療的ケア児等への支援",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 67,
+    "start": 15554,
+    "raw": "学童保育所指導員研修",
+    "status": "literal_candidate",
+    "name": "学童保育所指導員研修"
+  },
+  {
+    "n": 68,
+    "start": 15735,
+    "raw": "学童保育所障害児対応指導\n員配置への支援",
+    "status": "literal_candidate",
+    "name": "学童保育所障害児対応指導員配置への支援"
+  },
+  {
+    "n": 69,
+    "start": 15923,
+    "raw": "育成医療の給付",
+    "status": "literal_candidate",
+    "name": "育成医療の給付"
+  },
+  {
+    "n": 70,
+    "start": 16085,
+    "raw": "特別児童扶養手当",
+    "status": "literal_candidate",
+    "name": "特別児童扶養手当"
+  },
+  {
+    "n": 71,
+    "start": 16260,
+    "raw": "小児慢性特定疾病医療費助\n成",
+    "status": "literal_candidate",
+    "name": "小児慢性特定疾病医療費助成"
+  },
+  {
+    "n": 72,
+    "start": 16506,
+    "raw": "小児慢性特定疾病児童日常\n生活用具の支給",
+    "status": "literal_candidate",
+    "name": "小児慢性特定疾病児童日常生活用具の支給"
+  },
+  {
+    "n": 73,
+    "start": 16677,
+    "raw": "おもちゃ図書館事業",
+    "status": "literal_candidate",
+    "name": "おもちゃ図書館事業"
+  },
+  {
+    "n": 74,
+    "start": 17189,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 75,
+    "start": 17200,
+    "raw": "障害児相談支援事業",
+    "status": "literal_candidate",
+    "name": "障害児相談支援事業"
+  },
+  {
+    "n": 76,
+    "start": 17656,
+    "raw": "専門的支援が必要な児童へ\nの発達支援",
+    "status": "literal_candidate",
+    "name": "専門的支援が必要な児童への発達支援"
+  },
+  {
+    "n": 77,
+    "start": 18615,
+    "raw": "あけぼの学園",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 78,
+    "start": 18691,
+    "raw": "あけぼの学園",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 79,
+    "start": 18948,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 80,
+    "start": 19057,
+    "raw": "障害児福祉手当の支給",
+    "status": "literal_candidate",
+    "name": "障害児福祉手当の支給"
+  },
+  {
+    "n": 81,
+    "start": 19253,
+    "raw": "障害者医療費の助成",
+    "status": "literal_candidate",
+    "name": "障害者医療費の助成"
+  },
+  {
+    "n": 82,
+    "start": 19477,
+    "raw": "日常生活用具の給付",
+    "status": "literal_candidate",
+    "name": "日常生活用具の給付"
+  },
+  {
+    "n": 83,
+    "start": 19656,
+    "raw": "補装具費の支給",
+    "status": "literal_candidate",
+    "name": "補装具費の支給"
+  },
+  {
+    "n": 84,
+    "start": 19834,
+    "raw": "特別支援教育就学奨励費",
+    "status": "literal_candidate",
+    "name": "特別支援教育就学奨励費"
+  },
+  {
+    "n": 85,
+    "start": 20134,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 86,
+    "start": 20239,
+    "raw": "1-5.児童虐待防止対策と社会的養護の推進及びヤングケアラーへの支援",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 87,
+    "start": 20279,
+    "raw": "育児フォローアップ事業",
+    "status": "literal_candidate",
+    "name": "育児フォローアップ事業"
+  },
+  {
+    "n": 88,
+    "start": 20526,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 89,
+    "start": 20865,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 90,
+    "start": 20884,
+    "raw": "子育てに困難を抱える家庭\n等への支援事業の充実",
+    "status": "literal_candidate",
+    "name": "子育てに困難を抱える家庭等への支援事業の充実"
+  },
+  {
+    "n": 91,
+    "start": 21127,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 92,
+    "start": 21778,
+    "raw": "ヤングケアラーへの支援",
+    "status": "literal_candidate",
+    "name": "ヤングケアラーへの支援"
+  },
+  {
+    "n": 93,
+    "start": 22085,
+    "raw": "ヤングケアラーへの支援",
+    "status": "same_name_reprint_or_component_hold",
+    "reason": "Same literal name and FY2025 already covered; no extra name invented for departmental or subrow variants."
+  },
+  {
+    "n": 94,
+    "start": 22363,
+    "raw": "育ち支援課等",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 95,
+    "start": 22377,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 96,
+    "start": 22958,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 97,
+    "start": 22973,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 98,
+    "start": 22992,
+    "raw": "児童虐待防止啓発の実施及\nび研修会等の開催",
+    "status": "literal_candidate",
+    "name": "児童虐待防止啓発の実施及び研修会等の開催"
+  },
+  {
+    "n": 99,
+    "start": 23633,
+    "raw": "学びのセーフティネットの構\n築",
+    "status": "literal_candidate",
+    "name": "学びのセーフティネットの構築"
+  },
+  {
+    "n": 100,
+    "start": 24008,
+    "raw": "こども未来課（青少年\n育成室）",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 101,
+    "start": 24040,
+    "raw": "1-6．自殺対策や犯罪からこども・若者を守る取組",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 102,
+    "start": 24219,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 103,
+    "start": 24328,
+    "raw": "青少年ネット被害・非行防止\n研修会の開催",
+    "status": "literal_candidate",
+    "name": "青少年ネット被害・非行防止研修会の開催"
+  },
+  {
+    "n": 104,
+    "start": 24528,
+    "raw": "こども未来課（青少年\n育成室）",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 105,
+    "start": 24914,
+    "raw": "こども未来課（青少年\n育成室）",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 106,
+    "start": 25122,
+    "raw": "こども未来課（青少年\n育成室）",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 107,
+    "start": 25147,
+    "raw": "子育て世帯への防災啓発",
+    "status": "literal_candidate",
+    "name": "子育て世帯への防災啓発"
+  },
+  {
+    "n": 108,
+    "start": 25386,
+    "raw": "避難確保計画の作成や訓練\nの実施",
+    "status": "literal_candidate",
+    "name": "避難確保計画の作成や訓練の実施"
+  },
+  {
+    "n": 109,
+    "start": 25711,
+    "raw": "防犯力の高い地域社会づく\nり",
+    "status": "literal_candidate",
+    "name": "防犯力の高い地域社会づくり"
+  },
+  {
+    "n": 110,
+    "start": 25980,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 111,
+    "start": 26085,
+    "raw": "社会を明るくする運動",
+    "status": "literal_candidate",
+    "name": "社会を明るくする運動"
+  },
+  {
+    "n": 112,
+    "start": 26520,
+    "raw": "YESnet（四日市早期支援\nネットワーク）の構築",
+    "status": "literal_candidate",
+    "name": "YESnet（四日市早期支援ネットワーク）の構築"
+  },
+  {
+    "n": 113,
+    "start": 26901,
+    "raw": "YESnet（四日市早期支援\nネットワーク）の構築",
+    "status": "same_name_reprint_or_component_hold",
+    "reason": "Same literal name and FY2025 already covered; no extra name invented for departmental or subrow variants."
+  },
+  {
+    "n": 114,
+    "start": 27267,
+    "raw": "通学路交通安全対策",
+    "status": "literal_candidate",
+    "name": "通学路交通安全対策"
+  },
+  {
+    "n": 115,
+    "start": 27654,
+    "raw": "自殺予防教育",
+    "status": "literal_candidate",
+    "name": "自殺予防教育"
+  },
+  {
+    "n": 116,
+    "start": 27992,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 117,
+    "start": 28245,
+    "raw": "防災・安全教育の推進",
+    "status": "literal_candidate",
+    "name": "防災・安全教育の推進"
+  },
+  {
+    "n": 118,
+    "start": 28647,
+    "raw": "２ 子育て当事者\n2-1.子育てや教育に関する経済的負担の軽減",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 119,
+    "start": 28684,
+    "raw": "子ども医療費の助成",
+    "status": "literal_candidate",
+    "name": "子ども医療費の助成"
+  },
+  {
+    "n": 120,
+    "start": 28862,
+    "raw": "児童手当の支給",
+    "status": "literal_candidate",
+    "name": "児童手当の支給"
+  },
+  {
+    "n": 121,
+    "start": 29262,
+    "raw": "養育医療の給付",
+    "status": "literal_candidate",
+    "name": "養育医療の給付"
+  },
+  {
+    "n": 122,
+    "start": 29275,
+    "raw": "第３子以降保育料の無償化",
+    "status": "literal_candidate",
+    "name": "第３子以降保育料の無償化"
+  },
+  {
+    "n": 123,
+    "start": 29383,
+    "raw": "認可外保育施設保育料の助\n成",
+    "status": "literal_candidate",
+    "name": "認可外保育施設保育料の助成"
+  },
+  {
+    "n": 124,
+    "start": 29562,
+    "raw": "幼児教育・保育の無償化",
+    "status": "literal_candidate",
+    "name": "幼児教育・保育の無償化"
+  },
+  {
+    "n": 125,
+    "start": 29872,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 126,
+    "start": 30159,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 127,
+    "start": 30174,
+    "raw": "2-2.地域子育て支援、家庭教育支援",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 128,
+    "start": 30795,
+    "raw": "ファミリー・サポート・セン\nター事業",
+    "status": "literal_candidate",
+    "name": "ファミリー・サポート・センター事業"
+  },
+  {
+    "n": 129,
+    "start": 30826,
+    "raw": "103-1 利用者支援事業",
+    "status": "literal_candidate",
+    "name": "利用者支援事業"
+  },
+  {
+    "n": 130,
+    "start": 31304,
+    "raw": "103-2 利用者支援事業",
+    "status": "same_name_reprint_or_component_hold",
+    "reason": "Same literal name and FY2025 already covered; no extra name invented for departmental or subrow variants."
+  },
+  {
+    "n": 131,
+    "start": 32419,
+    "raw": "各事業費に含む",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 132,
+    "start": 33386,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 133,
+    "start": 33457,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 134,
+    "start": 33469,
+    "raw": "地域子育て相談機関の設置",
+    "status": "literal_candidate",
+    "name": "地域子育て相談機関の設置"
+  },
+  {
+    "n": 135,
+    "start": 33638,
+    "raw": "「家庭の日」啓発",
+    "status": "literal_candidate",
+    "name": "「家庭の日」啓発"
+  },
+  {
+    "n": 136,
+    "start": 33653,
+    "raw": "家庭教育講座",
+    "status": "literal_candidate",
+    "name": "家庭教育講座"
+  },
+  {
+    "n": 137,
+    "start": 33766,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 138,
+    "start": 34584,
+    "raw": "各事業費に含む",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 139,
+    "start": 34818,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 140,
+    "start": 34830,
+    "raw": "地域に出向いて実施する保\n健師・栄養士相談",
+    "status": "literal_candidate",
+    "name": "地域に出向いて実施する保健師・栄養士相談"
+  },
+  {
+    "n": 141,
+    "start": 35015,
+    "raw": "一時保育事業",
+    "status": "literal_candidate",
+    "name": "一時保育事業"
+  },
+  {
+    "n": 142,
+    "start": 35218,
+    "raw": "こども誰でも通園制度",
+    "status": "literal_candidate",
+    "name": "こども誰でも通園制度"
+  },
+  {
+    "n": 143,
+    "start": 35396,
+    "raw": "私立幼稚園等の一時預かり",
+    "status": "literal_candidate",
+    "name": "私立幼稚園等の一時預かり"
+  },
+  {
+    "n": 144,
+    "start": 35493,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 145,
+    "start": 35598,
+    "raw": "2-3.共働き・共育ての推進、男性の家事・子育てへの主体的な参画促進・拡大",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 146,
+    "start": 35642,
+    "raw": "就業中の妊産婦の健康管理\nの啓発",
+    "status": "literal_candidate",
+    "name": "就業中の妊産婦の健康管理の啓発"
+  },
+  {
+    "n": 147,
+    "start": 35835,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 148,
+    "start": 35855,
+    "raw": "男女共同参画の学習機会提\n供",
+    "status": "literal_candidate",
+    "name": "男女共同参画の学習機会提供"
+  },
+  {
+    "n": 149,
+    "start": 36061,
+    "raw": "2-4.ひとり親家庭への支援",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 150,
+    "start": 36308,
+    "raw": "ファミリー・サポート・セン\nター利用料の軽減",
+    "status": "literal_candidate",
+    "name": "ファミリー・サポート・センター利用料の軽減"
+  },
+  {
+    "n": 151,
+    "start": 36580,
+    "raw": "児童扶養手当の支給",
+    "status": "literal_candidate",
+    "name": "児童扶養手当の支給"
+  },
+  {
+    "n": 152,
+    "start": 36733,
+    "raw": "一人親家庭等医療費の助成",
+    "status": "literal_candidate",
+    "name": "一人親家庭等医療費の助成"
+  },
+  {
+    "n": 153,
+    "start": 36853,
+    "raw": "自立を支援する就業支援給\n付",
+    "status": "literal_candidate",
+    "name": "自立を支援する就業支援給付"
+  },
+  {
+    "n": 154,
+    "start": 37070,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 155,
+    "start": 37090,
+    "raw": "ひとり親家庭の生活相談等",
+    "status": "literal_candidate",
+    "name": "ひとり親家庭の生活相談等"
+  },
+  {
+    "n": 156,
+    "start": 37259,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 157,
+    "start": 37527,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 158,
+    "start": 37632,
+    "raw": "125-1 養育費確保のための支援",
+    "status": "literal_candidate",
+    "name": "養育費確保のための支援"
+  },
+  {
+    "n": 159,
+    "start": 37854,
+    "raw": "125-2 養育費確保のための支援",
+    "status": "same_name_reprint_or_component_hold",
+    "reason": "Same literal name and FY2025 already covered; no extra name invented for departmental or subrow variants."
+  },
+  {
+    "n": 160,
+    "start": 38060,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 161,
+    "start": 38306,
+    "raw": "ひとり親世帯等の住宅確保\nに関する支援",
+    "status": "literal_candidate",
+    "name": "ひとり親世帯等の住宅確保に関する支援"
+  },
+  {
+    "n": 162,
+    "start": 38493,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 163,
+    "start": 38598,
+    "raw": "３ 誕生前から就学前まで\n3-1.切れ目のない保健・医療の確保",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 164,
+    "start": 38656,
+    "raw": "不育症治療費の助成",
+    "status": "literal_candidate",
+    "name": "不育症治療費の助成"
+  },
+  {
+    "n": 165,
+    "start": 38810,
+    "raw": "母子健康手帳の交付",
+    "status": "literal_candidate",
+    "name": "母子健康手帳の交付"
+  },
+  {
+    "n": 166,
+    "start": 39156,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 167,
+    "start": 39171,
+    "raw": "低所得の妊婦に対する初回\n産科受診料支援事業",
+    "status": "literal_candidate",
+    "name": "低所得の妊婦に対する初回産科受診料支援事業"
+  },
+  {
+    "n": 168,
+    "start": 39414,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 169,
+    "start": 39429,
+    "raw": "妊婦のための支援給付",
+    "status": "literal_candidate",
+    "name": "妊婦のための支援給付"
+  },
+  {
+    "n": 170,
+    "start": 39748,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 171,
+    "start": 39763,
+    "raw": "産前・産後サポート事業",
+    "status": "literal_candidate",
+    "name": "産前・産後サポート事業"
+  },
+  {
+    "n": 172,
+    "start": 40039,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 173,
+    "start": 40064,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 174,
+    "start": 40242,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 175,
+    "start": 40262,
+    "raw": "育児学級「パパママ教室」",
+    "status": "literal_candidate",
+    "name": "育児学級「パパママ教室」"
+  },
+  {
+    "n": 176,
+    "start": 40604,
+    "raw": "妊婦歯科健康診査",
+    "status": "literal_candidate",
+    "name": "妊婦歯科健康診査"
+  },
+  {
+    "n": 177,
+    "start": 40756,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 178,
+    "start": 40771,
+    "raw": "新生児聴覚検査",
+    "status": "literal_candidate",
+    "name": "新生児聴覚検査"
+  },
+  {
+    "n": 179,
+    "start": 41075,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 180,
+    "start": 41090,
+    "raw": "産後ケア事業",
+    "status": "literal_candidate",
+    "name": "産後ケア事業"
+  },
+  {
+    "n": 181,
+    "start": 41420,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 182,
+    "start": 41435,
+    "raw": "産婦健康診査事業",
+    "status": "literal_candidate",
+    "name": "産婦健康診査事業"
+  },
+  {
+    "n": 183,
+    "start": 41750,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 184,
+    "start": 41790,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 185,
+    "start": 41853,
+    "raw": "こんにちは赤ちゃん訪問",
+    "status": "literal_candidate",
+    "name": "こんにちは赤ちゃん訪問"
+  },
+  {
+    "n": 186,
+    "start": 42154,
+    "raw": "はじめまして絵本事業",
+    "status": "literal_candidate",
+    "name": "はじめまして絵本事業"
+  },
+  {
+    "n": 187,
+    "start": 42326,
+    "raw": "予防接種の促進",
+    "status": "literal_candidate",
+    "name": "予防接種の促進"
+  },
+  {
+    "n": 188,
+    "start": 42511,
+    "raw": "親子支援事業「パンダひろ\nば」",
+    "status": "literal_candidate",
+    "name": "親子支援事業「パンダひろば」"
+  },
+  {
+    "n": 189,
+    "start": 42600,
+    "raw": "乳児一般健康診査（４か月\n児・10か月児等）",
+    "status": "literal_candidate",
+    "name": "乳児一般健康診査（４か月児・10か月児等）"
+  },
+  {
+    "n": 190,
+    "start": 43061,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 191,
+    "start": 43136,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 192,
+    "start": 43223,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 193,
+    "start": 43299,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 194,
+    "start": 43386,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 195,
+    "start": 43493,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 196,
+    "start": 43508,
+    "raw": "１歳６か月児健康診査",
+    "status": "literal_candidate",
+    "name": "１歳６か月児健康診査"
+  },
+  {
+    "n": 197,
+    "start": 43759,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 198,
+    "start": 43774,
+    "raw": "３歳児健康診査",
+    "status": "literal_candidate",
+    "name": "３歳児健康診査"
+  },
+  {
+    "n": 199,
+    "start": 44034,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 200,
+    "start": 44054,
+    "raw": "心理発達相談",
+    "status": "literal_candidate",
+    "name": "心理発達相談"
+  },
+  {
+    "n": 201,
+    "start": 44350,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 202,
+    "start": 44370,
+    "raw": "親子教室「ラッコ」「イルカ」",
+    "status": "literal_candidate",
+    "name": "親子教室「ラッコ」「イルカ」"
+  },
+  {
+    "n": 203,
+    "start": 44798,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 204,
+    "start": 44810,
+    "raw": "乳幼児食教室の開催",
+    "status": "literal_candidate",
+    "name": "乳幼児食教室の開催"
+  },
+  {
+    "n": 205,
+    "start": 45185,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 206,
+    "start": 45202,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 207,
+    "start": 45353,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 208,
+    "start": 45446,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 209,
+    "start": 45534,
+    "raw": "幼児歯科健康診査",
+    "status": "literal_candidate",
+    "name": "幼児歯科健康診査"
+  },
+  {
+    "n": 210,
+    "start": 45644,
+    "raw": "妊産婦・乳幼児訪問指導",
+    "status": "literal_candidate",
+    "name": "妊産婦・乳幼児訪問指導"
+  },
+  {
+    "n": 211,
+    "start": 45907,
+    "raw": "育児相談（歯科相談）",
+    "status": "literal_candidate",
+    "name": "育児相談（歯科相談）"
+  },
+  {
+    "n": 212,
+    "start": 46102,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 213,
+    "start": 46122,
+    "raw": "子育て支援事業での育児相\n談",
+    "status": "literal_candidate",
+    "name": "子育て支援事業での育児相談"
+  },
+  {
+    "n": 214,
+    "start": 46391,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 215,
+    "start": 46652,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 216,
+    "start": 46824,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 217,
+    "start": 46934,
+    "raw": "助産施設利用者への支援",
+    "status": "literal_candidate",
+    "name": "助産施設利用者への支援"
+  },
+  {
+    "n": 218,
+    "start": 47135,
+    "raw": "こども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 219,
+    "start": 47677,
+    "raw": "引き続き適正な事務の遂行及び、制度の周\n知啓発に努める",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 220,
+    "start": 47841,
+    "raw": "引き続き制度に基づき適正な事務を遂行\nする",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 221,
+    "start": 47880,
+    "raw": "未就学児に係る国民健康保\n険料の減額措置",
+    "status": "literal_candidate",
+    "name": "未就学児に係る国民健康保険料の減額措置"
+  },
+  {
+    "n": 222,
+    "start": 48294,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 223,
+    "start": 48806,
+    "raw": "保健企画課\n保健予防課\nこども家庭センター",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 224,
+    "start": 49155,
+    "raw": "3-2.成長の保障と遊びの充実",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 225,
+    "start": 49177,
+    "raw": "病児保育",
+    "status": "literal_candidate",
+    "name": "病児保育"
+  },
+  {
+    "n": 226,
+    "start": 49445,
+    "raw": "延長保育",
+    "status": "literal_candidate",
+    "name": "延長保育"
+  },
+  {
+    "n": 227,
+    "start": 49529,
+    "raw": "休日保育",
+    "status": "literal_candidate",
+    "name": "休日保育"
+  },
+  {
+    "n": 228,
+    "start": 49931,
+    "raw": "公立園の施設改修等整備",
+    "status": "literal_candidate",
+    "name": "公立園の施設改修等整備"
+  },
+  {
+    "n": 229,
+    "start": 50193,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 230,
+    "start": 50679,
+    "raw": "特別支援保育・教育の研修",
+    "status": "literal_candidate",
+    "name": "特別支援保育・教育の研修"
+  },
+  {
+    "n": 231,
+    "start": 50981,
+    "raw": "特別支援保育体制の充実",
+    "status": "literal_candidate",
+    "name": "特別支援保育体制の充実"
+  },
+  {
+    "n": 232,
+    "start": 51251,
+    "raw": "保育園や幼稚園での翻訳や\n通訳の対応",
+    "status": "literal_candidate",
+    "name": "保育園や幼稚園での翻訳や通訳の対応"
+  },
+  {
+    "n": 233,
+    "start": 51425,
+    "raw": "引き続き、対象保護者や園児のニーズに対\n応していく",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 234,
+    "start": 51749,
+    "raw": "校連携)",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 235,
+    "start": 51849,
+    "raw": "校連携)",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 236,
+    "start": 51883,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 237,
+    "start": 53022,
+    "raw": "英語指導員による外国語活\n動",
+    "status": "literal_candidate",
+    "name": "英語指導員による外国語活動"
+  },
+  {
+    "n": 238,
+    "start": 53048,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 239,
+    "start": 53295,
+    "raw": "４ 学童期・思春期\n4-1.安心して過ごし学ぶことのできる質の高い公教育",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 240,
+    "start": 53338,
+    "raw": "小規模校アシスト事業",
+    "status": "literal_candidate",
+    "name": "小規模校アシスト事業"
+  },
+  {
+    "n": 241,
+    "start": 53547,
+    "raw": "学びを支える教育施設の整\n備",
+    "status": "literal_candidate",
+    "name": "学びを支える教育施設の整備"
+  },
+  {
+    "n": 242,
+    "start": 53815,
+    "raw": "177-1 食育の推進",
+    "status": "literal_candidate",
+    "name": "食育の推進"
+  },
+  {
+    "n": 243,
+    "start": 54127,
+    "raw": "177-2 食育の推進",
+    "status": "same_name_reprint_or_component_hold",
+    "reason": "Same literal name and FY2025 already covered; no extra name invented for departmental or subrow variants."
+  },
+  {
+    "n": 244,
+    "start": 54325,
+    "raw": "こども未来課（青少年\n育成室）",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 245,
+    "start": 54380,
+    "raw": "学校業務の適正化",
+    "status": "literal_candidate",
+    "name": "学校業務の適正化"
+  },
+  {
+    "n": 246,
+    "start": 55072,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 247,
+    "start": 55090,
+    "raw": "健康教育の推進",
+    "status": "literal_candidate",
+    "name": "健康教育の推進"
+  },
+  {
+    "n": 248,
+    "start": 55195,
+    "raw": "学校経営の充実",
+    "status": "literal_candidate",
+    "name": "学校経営の充実"
+  },
+  {
+    "n": 249,
+    "start": 55322,
+    "raw": "新教育プログラムの６つの柱に基づいた就",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 250,
+    "start": 55364,
+    "raw": "就学前から中学校卒業時ま",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 251,
+    "start": 55378,
+    "raw": "新教育プログラムの６つの柱に基づいた就",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 252,
+    "start": 56487,
+    "raw": "就学前から中学校卒業時ま",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 253,
+    "start": 56941,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 254,
+    "start": 57057,
+    "raw": "持続可能な社会を目指す教\n184-1\n育の充実",
+    "status": "literal_candidate",
+    "name": "持続可能な社会を目指す教育の充実"
+  },
+  {
+    "n": 255,
+    "start": 57315,
+    "raw": "持続可能な社会を目指す教\n184-2\n育の充実",
+    "status": "same_name_reprint_or_component_hold",
+    "reason": "Same literal name and FY2025 already covered; no extra name invented for departmental or subrow variants."
+  },
+  {
+    "n": 256,
+    "start": 58738,
+    "raw": "学校教育による学力保障",
+    "status": "literal_candidate",
+    "name": "学校教育による学力保障"
+  },
+  {
+    "n": 257,
+    "start": 58765,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 258,
+    "start": 58972,
+    "raw": "キャリア教育の推進",
+    "status": "literal_candidate",
+    "name": "キャリア教育の推進"
+  },
+  {
+    "n": 259,
+    "start": 59262,
+    "raw": "言語活動の充実による読解\n力・表現力の育成",
+    "status": "literal_candidate",
+    "name": "言語活動の充実による読解力・表現力の育成"
+  },
+  {
+    "n": 260,
+    "start": 60175,
+    "raw": "筋道立てて説明できる論理\n的思考力の育成",
+    "status": "literal_candidate",
+    "name": "筋道立てて説明できる論理的思考力の育成"
+  },
+  {
+    "n": 261,
+    "start": 60592,
+    "raw": "生徒指導の充実",
+    "status": "literal_candidate",
+    "name": "生徒指導の充実"
+  },
+  {
+    "n": 262,
+    "start": 61025,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 263,
+    "start": 61083,
+    "raw": "体力・運動能力の向上",
+    "status": "literal_candidate",
+    "name": "体力・運動能力の向上"
+  },
+  {
+    "n": 264,
+    "start": 61525,
+    "raw": "道徳教育の充実",
+    "status": "literal_candidate",
+    "name": "道徳教育の充実"
+  },
+  {
+    "n": 265,
+    "start": 61810,
+    "raw": "読書活動の充実",
+    "status": "literal_candidate",
+    "name": "読書活動の充実"
+  },
+  {
+    "n": 266,
+    "start": 62778,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 267,
+    "start": 63018,
+    "raw": "日本語指導が必要なこども\nへの指導の充実",
+    "status": "literal_candidate",
+    "name": "日本語指導が必要なこどもへの指導の充実"
+  },
+  {
+    "n": 268,
+    "start": 63411,
+    "raw": "防災・安全教育の推進",
+    "status": "same_name_reprint_or_component_hold",
+    "reason": "Same literal name and FY2025 already covered; no extra name invented for departmental or subrow variants."
+  },
+  {
+    "n": 269,
+    "start": 63854,
+    "raw": "学びを支える指導体制の充\n実",
+    "status": "literal_candidate",
+    "name": "学びを支える指導体制の充実"
+  },
+  {
+    "n": 270,
+    "start": 64743,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 271,
+    "start": 64848,
+    "raw": "ＩＣＴ活用による情報活用能\n力の育成",
+    "status": "literal_candidate",
+    "name": "ＩＣＴ活用による情報活用能力の育成"
+  },
+  {
+    "n": 272,
+    "start": 65250,
+    "raw": "教職員の資質・能力の向上",
+    "status": "literal_candidate",
+    "name": "教職員の資質・能力の向上"
+  },
+  {
+    "n": 273,
+    "start": 65626,
+    "raw": "情報モラル教育の充実",
+    "status": "literal_candidate",
+    "name": "情報モラル教育の充実"
+  },
+  {
+    "n": 274,
+    "start": 65822,
+    "raw": "１人１台端末やデジタル教科\n書の導入",
+    "status": "literal_candidate",
+    "name": "１人１台端末やデジタル教科書の導入"
+  },
+  {
+    "n": 275,
+    "start": 66143,
+    "raw": "こどもよっかいちCO2ダイ\nエット作戦",
+    "status": "literal_candidate",
+    "name": "こどもよっかいちCO2ダイエット作戦"
+  },
+  {
+    "n": 276,
+    "start": 66389,
+    "raw": "ごみ収集車を用いた小学校\nでの出前講座の実施",
+    "status": "literal_candidate",
+    "name": "ごみ収集車を用いた小学校での出前講座の実施"
+  },
+  {
+    "n": 277,
+    "start": 66861,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 278,
+    "start": 66868,
+    "raw": "ごみの発生抑制の推進",
+    "status": "literal_candidate",
+    "name": "ごみの発生抑制の推進"
+  },
+  {
+    "n": 279,
+    "start": 67109,
+    "raw": "4-2.こどもの居場所づくり",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 280,
+    "start": 67125,
+    "raw": "児童館事業",
+    "status": "literal_candidate",
+    "name": "児童館事業"
+  },
+  {
+    "n": 281,
+    "start": 67375,
+    "raw": "移動児童館事業",
+    "status": "literal_candidate",
+    "name": "移動児童館事業"
+  },
+  {
+    "n": 282,
+    "start": 67711,
+    "raw": "こども広場整備事業",
+    "status": "literal_candidate",
+    "name": "こども広場整備事業"
+  },
+  {
+    "n": 283,
+    "start": 67889,
+    "raw": "新図書館整備事業",
+    "status": "literal_candidate",
+    "name": "新図書館整備事業"
+  },
+  {
+    "n": 284,
+    "start": 68079,
+    "raw": "211-2 新図書館整備事業",
+    "status": "same_name_reprint_or_component_hold",
+    "reason": "Same literal name and FY2025 already covered; no extra name invented for departmental or subrow variants."
+  },
+  {
+    "n": 285,
+    "start": 68166,
+    "raw": "R7実施なし",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 286,
+    "start": 68288,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 287,
+    "start": 68295,
+    "raw": "「地域のつながり」強化事業",
+    "status": "literal_candidate",
+    "name": "「地域のつながり」強化事業"
+  },
+  {
+    "n": 288,
+    "start": 69384,
+    "raw": "博物館事業",
+    "status": "literal_candidate",
+    "name": "博物館事業"
+  },
+  {
+    "n": 289,
+    "start": 69871,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 290,
+    "start": 70090,
+    "raw": "職員研修所",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 291,
+    "start": 70101,
+    "raw": "4-3.成年年齢を迎える前に必要となる知識に関する情報提供や教育",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 292,
+    "start": 70135,
+    "raw": "交換学生・教師の相互派遣\n（トリオ）",
+    "status": "literal_candidate",
+    "name": "交換学生・教師の相互派遣（トリオ）"
+  },
+  {
+    "n": 293,
+    "start": 70498,
+    "raw": "インターンシップの受入",
+    "status": "literal_candidate",
+    "name": "インターンシップの受入"
+  },
+  {
+    "n": 294,
+    "start": 70781,
+    "raw": "0\n(R7は在庫の\nリーフレットが\nあったため印刷\nしなかった）",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 295,
+    "start": 70862,
+    "raw": "食育講座の開催",
+    "status": "literal_candidate",
+    "name": "食育講座の開催"
+  },
+  {
+    "n": 296,
+    "start": 71037,
+    "raw": "農水振興課（農業セン\nター）",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 297,
+    "start": 71057,
+    "raw": "高校生地球環境塾",
+    "status": "literal_candidate",
+    "name": "高校生地球環境塾"
+  },
+  {
+    "n": 298,
+    "start": 71323,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 299,
+    "start": 71381,
+    "raw": "主権者教育",
+    "status": "literal_candidate",
+    "name": "主権者教育"
+  },
+  {
+    "n": 300,
+    "start": 71513,
+    "raw": "職場体験学習",
+    "status": "literal_candidate",
+    "name": "職場体験学習"
+  },
+  {
+    "n": 301,
+    "start": 72113,
+    "raw": "参加者の声を聞きながら、議会体験や高校\n生同士の活発な議論を通じて、地方政治へ\nの関心を高める取り組みを継続する",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 302,
+    "start": 72284,
+    "raw": "こども未来課（青少年\n育成室）",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 303,
+    "start": 72310,
+    "raw": "結婚祝金の給付",
+    "status": "literal_candidate",
+    "name": "結婚祝金の給付"
+  },
+  {
+    "n": 304,
+    "start": 72807,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 305,
+    "start": 72865,
+    "raw": "プレ社会人セミナー",
+    "status": "literal_candidate",
+    "name": "プレ社会人セミナー"
+  },
+  {
+    "n": 306,
+    "start": 73065,
+    "raw": "高校生議会",
+    "status": "literal_candidate",
+    "name": "高校生議会"
+  },
+  {
+    "n": 307,
+    "start": 73287,
+    "raw": "4-4.いじめ防止",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 308,
+    "start": 73303,
+    "raw": "青少年とその家庭の悩み相\n談",
+    "status": "literal_candidate",
+    "name": "青少年とその家庭の悩み相談"
+  },
+  {
+    "n": 309,
+    "start": 73410,
+    "raw": "地域の青少年相談員による\n相談",
+    "status": "literal_candidate",
+    "name": "地域の青少年相談員による相談"
+  },
+  {
+    "n": 310,
+    "start": 73550,
+    "raw": "５ 青年期\n5-1.就労支援、雇用と経済的基盤の安定のための取組や、結婚を希望する人への支援、結婚に伴う新生活への支援",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 311,
+    "start": 73621,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 312,
+    "start": 73731,
+    "raw": "高校生支援プログラム",
+    "status": "literal_candidate",
+    "name": "高校生支援プログラム"
+  },
+  {
+    "n": 313,
+    "start": 73914,
+    "raw": "就労準備支援事業",
+    "status": "literal_candidate",
+    "name": "就労準備支援事業"
+  },
+  {
+    "n": 314,
+    "start": 74165,
+    "raw": "保護課\n(生活支援室)",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 315,
+    "start": 74399,
+    "raw": "231-1 ひきこもりに関する相談",
+    "status": "literal_candidate",
+    "name": "ひきこもりに関する相談"
+  },
+  {
+    "n": 316,
+    "start": 74989,
+    "raw": "取組・事業",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 317,
+    "start": 75047,
+    "raw": "231-2 ひきこもりに関する相談",
+    "status": "same_name_reprint_or_component_hold",
+    "reason": "Same literal name and FY2025 already covered; no extra name invented for departmental or subrow variants."
+  },
+  {
+    "n": 318,
+    "start": 75135,
+    "raw": "231-3 ひきこもりに関する相談",
+    "status": "same_name_reprint_or_component_hold",
+    "reason": "Same literal name and FY2025 already covered; no extra name invented for departmental or subrow variants."
+  },
+  {
+    "n": 319,
+    "start": 75305,
+    "raw": "福祉総務課と共\n同して対応",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 320,
+    "start": 75323,
+    "raw": "福祉総務課と共同して対応",
+    "status": "not_project_title",
+    "reason": "Table header, policy category, department, funding annotation, future-direction narrative, or incomplete title fragment."
+  },
+  {
+    "n": 321,
+    "start": 75433,
+    "raw": "若者交流イベントの開催",
+    "status": "literal_candidate",
+    "name": "若者交流イベントの開催"
+  },
+  {
+    "n": 322,
+    "start": 75843,
+    "raw": "求職者資格取得助成金",
+    "status": "literal_candidate",
+    "name": "求職者資格取得助成金"
+  },
+  {
+    "n": 323,
+    "start": 76673,
+    "raw": "三世代同居等支援補助金",
+    "status": "literal_candidate",
+    "name": "三世代同居等支援補助金"
+  }
+]
