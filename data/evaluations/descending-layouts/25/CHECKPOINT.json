@@ -1,0 +1,34 @@
+{
+  "candidateRecords": 684,
+  "previousPublishedHead": "4bbb35e628f0a2ac9c6375db987b5b0ca64d9fe4",
+  "perMunicipality": {
+    "愛荘町": 26,
+    "竜王町": 5,
+    "日野町": 19,
+    "高島市": 65,
+    "野洲市": 76,
+    "栗東市": 39,
+    "草津市": 454
+  },
+  "validatedCumulativeCandidates": 23806,
+  "validatedEvidence": 64966,
+  "excludedSeparateSets": {
+    "Okinawa": 1084,
+    "initial": 93
+  },
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0,
+  "newRecordActivityFields": 5,
+  "checks": {
+    "focused": "7/7 Shiga",
+    "crawler": "679/679",
+    "web": "256/256 serial",
+    "typecheck": "passed",
+    "lint": "passed; existing font warning",
+    "national": "verified",
+    "static": "109/109 subpath export"
+  },
+  "remoteCI": "unverified; prior Actions API403; no retry",
+  "remaining": "18missing bodies held;2Hino text/font corruption sources;8Hino2015 grant titles require reviewed cross-part annual binding. Full quantitative extraction not claimed. Continue descending cached cohorts; nationwide incomplete."
+}
