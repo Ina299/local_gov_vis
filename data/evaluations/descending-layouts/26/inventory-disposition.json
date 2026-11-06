@@ -714,11 +714,12 @@
     "inventoryStatus": "complete_hash_verified",
     "characters": 35249,
     "fullTextSha256": "20e2ae02542c81ffff6efed0267e6cb93174de826be94bccedb234d3378b0b47",
-    "reviewDisposition": "actionable_layout_review",
-    "reviewReason": "Complete verified cached body; Yawata annual table and Fukuchiyama education review require exact business/field boundary mapping. Layout effort is not access denial.",
-    "parserStatus": "unsupported_layout",
-    "accepted": 0,
-    "duplicates": 0
+    "reviewDisposition": "validated_partial_candidates",
+    "reviewReason": "105 exact source/year/name candidates; prior records preserved. Not production or all-field completion.",
+    "parserStatus": "processed",
+    "accepted": 105,
+    "duplicates": 0,
+    "validationStatus": "validated_candidate"
   },
   {
     "municipalityCode": "26100",

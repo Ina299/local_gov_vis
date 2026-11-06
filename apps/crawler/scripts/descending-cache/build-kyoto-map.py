@@ -18,6 +18,10 @@ for c in json.loads((stage/'kyoto-reviewed.json').read_text()):
  for h in c['rows']+c['holds']:
   if 'name' in h: assert h['name'] in h['raw'] or h.get('titleFragments') or h.get('titleSegments') or h.get('composedTitle'), 'Title needs literal or fragment proof'
   assert u[h['start']*2:h['start']*2+len(h['raw'].encode('utf-16-le'))].decode('utf-16-le')==h['raw']
+  if h.get('activitiesProof'):
+   a=h['activitiesProof'];assert isinstance(a['start'],int) and isinstance(a['titleStart'],int) and a['start']>=0 and a['titleStart']>=0 and a['raw'] and re.sub(r'\s+','',a['title'])==h['name']
+   end=a['titleStart']+len(a['title'].encode('utf-16-le'))//2;assert a['start']>=end and not u[end*2:a['start']*2].decode('utf-16-le').strip()
+   for start,raw in [(a['start'],a['raw']),(a['titleStart'],a['title'])]:assert u[start*2:start*2+len(raw.encode('utf-16-le'))].decode('utf-16-le')==raw
   if h.get('context'):assert u[h['contextStart']*2:h['contextStart']*2+len(h['context'].encode('utf-16-le'))].decode('utf-16-le')==h['context']
   if h.get('yearProof'):assert h['yearProof'] in t
   if h.get('departmentSegments'):

@@ -1,0 +1,55 @@
+{
+  "sourceId": "493a5f65aab317fdb7be11a1",
+  "municipalityCode": "26201",
+  "sourceUrl": "https://www.city.fukuchiyama.lg.jp/uploaded/attachment/52326.pdf",
+  "sourceSha256": "67d09bce00f315db7ce77bf1dda6ef5c2c59886457e54062e2f471615b782289",
+  "fullTextSha256": "20e2ae02542c81ffff6efed0267e6cb93174de826be94bccedb234d3378b0b47",
+  "characters": 35249,
+  "targetFiscalYear": 2024,
+  "evaluationYear": 2025,
+  "publishedMonth": "2026-01",
+  "status": "stage_only_full_branch_validation_pending",
+  "individualEvaluationTableNames": 105,
+  "pageNameCounts": {
+    "21": 12,
+    "22": 12,
+    "23": 12,
+    "24": 12,
+    "25": 12,
+    "26": 12,
+    "27": 12,
+    "28": 12,
+    "29": 9
+  },
+  "newActivityFields": 15,
+  "mainNarratives": 20,
+  "narrativeDispositions": {
+    "exact_title_activity_proposal": 15,
+    "combined_or_alias_narrative_not_applied": 5
+  },
+  "additionalRecordsFromNarratives": 0,
+  "amountsAdded": 0,
+  "ratingsAdded": 0,
+  "indicatorsAdded": 0,
+  "exclusions": [
+    {
+      "section": "表紙・目次・法令・委員・会議議案・組織図・事務分担",
+      "reason": "個別事業ではない。会議や担当業務の列挙を事業追加に転用しない。"
+    },
+    {
+      "section": "19–20頁の評価総括表",
+      "reason": "施策毎平均値・総合評価。個別事業へA/Bや平均点を配賦しない。"
+    },
+    {
+      "section": "21–29頁の数値列",
+      "reason": "抽出本文で名称・指標・実績目標・点数・担当課・番号の読み順が分離。名称は明示断片で復元できるが数値の行対応を推測しない。"
+    },
+    {
+      "section": "主な事業20概要",
+      "reason": "評価表と完全一致する15名称だけ活動本文を紐付ける。小中合算や表記差5件は別事業を作らず結合保留。"
+    }
+  ],
+  "remaining": "5合算・別表記概要の対応と数値列の原典位置関係は保留。105個別名称の網羅を確認した範囲であり全フィールド構造化ではない。",
+  "municipalRequests": 0,
+  "productionRecordsAdded": 0
+}

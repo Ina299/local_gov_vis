@@ -19,8 +19,8 @@ const inputs=configs.map(c=>source(c.sourceId,c.municipalityCode));
 for(const c of configs)if(c.pageId&&!inputs.some(i=>i.sourceId===c.pageId))inputs.push(source(c.pageId,c.municipalityCode));
 const run=(id:string)=>reviewKyoto(inputs.find(i=>i.sourceId===id)!,inputs)!;
 
-test('Kyoto395 reviewed annual identities retain exact hashes and bounded title fragments',()=>{
- let n=0;const ids=new Set<string>();for(const c of configs){const i=inputs.find(x=>x.sourceId===c.sourceId)!;const r=run(c.sourceId);n+=r.projects.length;assert.equal(r.projects.length,c.rows.length);for(const p of r.projects){assert.ok(!ids.has(p.id),p.id);ids.add(p.id);assert.equal(p.amounts.length,0);assert.equal(p.indicators.length,0);assert.equal(p.ratings.length,0);for(const e of p.evidence){const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;const src=inputs.find(x=>x.sourceUrl===e.sourceUrl)!;assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}for(const bad of [{...i,text:i.text+'x'},{...i,sourceSha256:'x'},{...i,truncated:true}])assert.equal(reviewKyoto(bad,inputs)!.projects.length,0);}assert.equal(n,395);
+test('Kyoto500 reviewed annual identities retain exact hashes and bounded title fragments',()=>{
+ let n=0;const ids=new Set<string>();for(const c of configs){const i=inputs.find(x=>x.sourceId===c.sourceId)!;const r=run(c.sourceId);n+=r.projects.length;assert.equal(r.projects.length,c.rows.length);for(const p of r.projects){assert.ok(!ids.has(p.id),p.id);ids.add(p.id);assert.equal(p.amounts.length,0);assert.equal(p.indicators.length,0);assert.equal(p.ratings.length,0);for(const e of p.evidence){const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;const src=inputs.find(x=>x.sourceUrl===e.sourceUrl)!;assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}for(const bad of [{...i,text:i.text+'x'},{...i,sourceSha256:'x'},{...i,truncated:true}])assert.equal(reviewKyoto(bad,inputs)!.projects.length,0);}assert.equal(n,500);
 });
 test('Ine annual conflicts and reprinted capital expenses do not produce extra records',()=>{
  const r=run('4d9cd8710cde81888a4b3639');assert.equal(r.projects.length,3);assert.ok(r.units.some(u=>u.status==='conflicting_period_hold'));assert.ok(!r.projects.some(p=>p.projectName.endsWith('活用した地域活性化計画')));
@@ -47,4 +47,18 @@ test('Yawata full continuation keeps annual activity names and rejects funding, 
  for(const name of ['地域ケア会議推進','府道八幡インター線整備事業費負担金','木造住宅耐震改修助成','妊婦保健指導'])assert.ok(r.projects.some(p=>p.projectName===name),name);
  assert.ok(r.projects.some(p=>p.evidence.some(e=>Number(e.cell?.match(/chars:(\d+)/)?.[1])>120000)));
  assert.ok(r.units.some(u=>u.status==='identity_review_pending_hold'));
+});
+
+test('Fukuchiyama105 individual names use target2024 evaluation2025 rather than publication2026 or policy aggregates',()=>{
+ const r=run('493a5f65aab317fdb7be11a1');assert.equal(r.projects.length,105);assert.equal(new Set(r.projects.map(p=>p.id)).size,105);
+ assert.ok(r.projects.every(p=>p.evaluatedFiscalYear===2024&&p.evaluationYear===2025&&p.amounts.length===0&&p.ratings.length===0&&p.indicators.length===0));
+ assert.ok(r.projects.some(p=>p.projectName==='教師用教科書・指導書購入事業（小学校）'));assert.ok(r.projects.some(p=>p.projectName==='教師用教科書・指導書購入事業（中学校）'));
+ assert.ok(!r.projects.some(p=>p.projectName==='小・中学校施設環境改善事業'));assert.ok(!r.projects.some(p=>p.projectName==='公共施設の最適化'));
+});
+test('Fukuchiyama activity excerpts require exact matching narrative titles and offsets; combined narratives stay unassigned',()=>{
+ const r=run('493a5f65aab317fdb7be11a1');assert.equal(r.projects.filter(p=>p.activities!==null).length,15);
+ const c=(kyotoRows as any[]).find(c=>c.sourceId==='493a5f65aab317fdb7be11a1'),row=c.rows.find((r:any)=>r.activitiesProof),original=row.activitiesProof;
+ for(const patch of [{raw:original.raw+'x'},{start:original.start+1},{title:'別事業'},{titleStart:original.titleStart+1}]){try{row.activitiesProof={...original,...patch};assert.throws(()=>run(c.sourceId),/activity narrative identity/);}finally{row.activitiesProof=original;}}
+ const p=r.projects.find(p=>p.projectName==='小学校施設環境改善事業')!;assert.equal(p.activities,null);
+ assert.ok(r.projects.find(p=>p.projectName==='小学校水泳指導委託事業')!.activities!.includes('小学校全１４校'));
 });
