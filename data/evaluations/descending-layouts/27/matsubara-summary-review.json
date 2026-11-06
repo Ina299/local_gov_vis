@@ -1,0 +1,386 @@
+{
+  "sourceId": "88145d32938034d93d8ca311",
+  "status": "validated_candidate",
+  "listedNames": 304,
+  "uniqueNameProposals": 299,
+  "ambiguousNames": [
+    {
+      "name": "行政評価事務事業",
+      "start": 129,
+      "raw": "行政評価事務事業\n",
+      "department": "企画政策課",
+      "departmentProof": {
+        "raw": "企画政策課",
+        "start": 40
+      },
+      "context": "企画政策課",
+      "contextStart": 40,
+      "note": "令和6年度事務事業評価結果（令和5年度事業）の公式一覧に掲載された事業名・担当課のみを保持する部分候補。個別評価票本文の取得や内容・評価・金額の構造化完了を意味しない。一覧の見出しから明記された対象年度2023・評価年度2024を保持し、数値・成果・評点を補わない。"
+    },
+    {
+      "name": "母子保健指導事業",
+      "start": 1338,
+      "raw": "母子保健指導事業\n",
+      "department": "子育て支援課",
+      "departmentProof": {
+        "raw": "子育て支援課",
+        "start": 1158
+      },
+      "context": "子育て支援課",
+      "contextStart": 1158,
+      "note": "令和6年度事務事業評価結果（令和5年度事業）の公式一覧に掲載された事業名・担当課のみを保持する部分候補。個別評価票本文の取得や内容・評価・金額の構造化完了を意味しない。一覧の見出しから明記された対象年度2023・評価年度2024を保持し、数値・成果・評点を補わない。"
+    },
+    {
+      "name": "母子保健指導事業",
+      "start": 1700,
+      "raw": "母子保健指導事業\n",
+      "department": "地域保健課",
+      "departmentProof": {
+        "raw": "地域保健課",
+        "start": 1681
+      },
+      "context": "地域保健課",
+      "contextStart": 1681,
+      "note": "令和6年度事務事業評価結果（令和5年度事業）の公式一覧に掲載された事業名・担当課のみを保持する部分候補。個別評価票本文の取得や内容・評価・金額の構造化完了を意味しない。一覧の見出しから明記された対象年度2023・評価年度2024を保持し、数値・成果・評点を補わない。"
+    },
+    {
+      "name": "きれいなまちづくり啓発事業（不法投棄等防止対策事業）",
+      "start": 2769,
+      "raw": "きれいなまちづくり啓発事業（不法投棄等防止対策事業）\n",
+      "department": "環境政策課",
+      "departmentProof": {
+        "raw": "環境政策課",
+        "start": 2652
+      },
+      "context": "環境政策課",
+      "contextStart": 2652,
+      "note": "令和6年度事務事業評価結果（令和5年度事業）の公式一覧に掲載された事業名・担当課のみを保持する部分候補。個別評価票本文の取得や内容・評価・金額の構造化完了を意味しない。一覧の見出しから明記された対象年度2023・評価年度2024を保持し、数値・成果・評点を補わない。"
+    },
+    {
+      "name": "きれいなまちづくり啓発事業（不法投棄等防止対策事業）",
+      "start": 2984,
+      "raw": "きれいなまちづくり啓発事業（不法投棄等防止対策事業）\n",
+      "department": "環境業務課",
+      "departmentProof": {
+        "raw": "環境業務課",
+        "start": 2881
+      },
+      "context": "環境業務課",
+      "contextStart": 2881,
+      "note": "令和6年度事務事業評価結果（令和5年度事業）の公式一覧に掲載された事業名・担当課のみを保持する部分候補。個別評価票本文の取得や内容・評価・金額の構造化完了を意味しない。一覧の見出しから明記された対象年度2023・評価年度2024を保持し、数値・成果・評点を補わない。"
+    }
+  ],
+  "organizationHeadings": [
+    {
+      "start": 138,
+      "raw": "秘書課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 171,
+      "raw": "観光・シティプロモーション課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 255,
+      "raw": "人事課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 288,
+      "raw": "危機管理課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 359,
+      "raw": "デジタル推進課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 402,
+      "raw": "総務部",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 406,
+      "raw": "総務課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 486,
+      "raw": "財政課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 513,
+      "raw": "財産管理課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 580,
+      "raw": "課税課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 700,
+      "raw": "納税課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 731,
+      "raw": "契約検査室",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 765,
+      "raw": "福祉部",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 769,
+      "raw": "福祉総務課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 891,
+      "raw": "障害福祉課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 1151,
+      "raw": "子育て支援課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 1446,
+      "raw": "子ども施設課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 1623,
+      "raw": "福祉指導課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 1671,
+      "raw": "健康部",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 1675,
+      "raw": "地域保健課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 1819,
+      "raw": "保険年金課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 1930,
+      "raw": "高齢介護課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 2080,
+      "raw": "医療支援課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 2218,
+      "raw": "市民協働部",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 2224,
+      "raw": "市民協働課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 2360,
+      "raw": "いきがい学習課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 2500,
+      "raw": "人権交流室",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 2540,
+      "raw": "人権交流センター",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 2640,
+      "raw": "市民生活部",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 2646,
+      "raw": "環境政策課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 2808,
+      "raw": "環境予防課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 2875,
+      "raw": "環境業務課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 3023,
+      "raw": "窓口課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 3071,
+      "raw": "産業振興課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 3233,
+      "raw": "都市整備部",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 3239,
+      "raw": "まちづくり推進課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 3435,
+      "raw": "みち・みどり整備課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 3662,
+      "raw": "建築住宅課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 3710,
+      "raw": "上下水道部",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 3716,
+      "raw": "上下水道総務課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 3820,
+      "raw": "上下水道管理課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 3886,
+      "raw": "上下水道建設課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 3962,
+      "raw": "会計室",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 3989,
+      "raw": "議会事務局",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 4034,
+      "raw": "行政委員会総合事務局",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 4075,
+      "raw": "農業委員会事務局",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 4084,
+      "raw": "農業委員会",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 4117,
+      "raw": "教育委員会教育総務部",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 4128,
+      "raw": "教育政策課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 4165,
+      "raw": "教育総務課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 4299,
+      "raw": "学校給食課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 4335,
+      "raw": "文化財課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 4376,
+      "raw": "教育委員会学校教育部",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 4387,
+      "raw": "教職員課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 4475,
+      "raw": "教育推進課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 4569,
+      "raw": "地域教育課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 4702,
+      "raw": "教育研修センター",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 4800,
+      "raw": "消防本部",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 4805,
+      "raw": "総務課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 4868,
+      "raw": "予防課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 4926,
+      "raw": "警防課",
+      "disposition": "navigation_or_organizational_heading"
+    },
+    {
+      "start": 4974,
+      "raw": "消防署",
+      "disposition": "navigation_or_organizational_heading"
+    }
+  ],
+  "proposalsRequirePriorDedup": true
+}

@@ -1,0 +1,59 @@
+{
+  "status": "validated_candidate",
+  "totalEvaluationUnits": 115,
+  "existingUnits": 109,
+  "additionalProposals": 4,
+  "missingSheetText": 2,
+  "rows": [
+    {
+      "sourceId": "61db7ed8185e46b9532c76d2",
+      "year": 2021,
+      "name": "青少年センター活動",
+      "start": 49779,
+      "end": 51679,
+      "sourceBlockSha256": "3c60d14b9560cac551bce1e0adc838ce56ae581ba7c946202af4f1e4a4e7810b",
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "sourceId": "740585de24be5fc6a86b99c7",
+      "year": 2022,
+      "name": "食育及び学校給食",
+      "start": 667,
+      "disposition": "missing_sheet_text_hold"
+    },
+    {
+      "sourceId": "740585de24be5fc6a86b99c7",
+      "year": 2022,
+      "name": "学校保健の充実",
+      "start": 709,
+      "disposition": "missing_sheet_text_hold"
+    },
+    {
+      "sourceId": "9d6798e7be9f4a314cb9b13b",
+      "year": 2023,
+      "name": "スポーツ活動の普及",
+      "start": 39065,
+      "end": 40326,
+      "sourceBlockSha256": "6ece920a4d646b598c4178834d508531282af4a90bd95ddf3f10e19c8c1f10f3",
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "sourceId": "83b3b780070b5c2eda8db897",
+      "year": 2024,
+      "name": "スポーツ活動の普及",
+      "start": 41833,
+      "end": 43283,
+      "sourceBlockSha256": "ef7c45ce0ff1c5f8b8630bea3df8bbab18af6e69b667a218543a042783d61642",
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "sourceId": "83b3b780070b5c2eda8db897",
+      "year": 2024,
+      "name": "文化財の調査研究・保護継承および文化財の活用",
+      "start": 44890,
+      "end": 47094,
+      "sourceBlockSha256": "5a68294409096d6f921ac094cc9890845d79b68c54f5a83c7a7b2bd0de7ced17",
+      "disposition": "reviewed_proposal_not_validated"
+    }
+  ]
+}

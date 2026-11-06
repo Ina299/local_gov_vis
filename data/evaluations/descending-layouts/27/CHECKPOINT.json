@@ -1,6 +1,6 @@
 {
   "prefecture": "27",
-  "candidateRecords": 372,
+  "candidateRecords": 670,
   "perMunicipality": {
     "河南町": 50,
     "太子町": 5,
@@ -8,6 +8,8 @@
     "藤井寺市": 5,
     "高石市": 15,
     "柏原市": 275,
+    "和泉市": 4,
+    "松原市": 294,
     "泉佐野市": 1,
     "吹田市": 19
   },
@@ -21,16 +23,16 @@
   "existingFieldsChanged": 0,
   "fieldEnrichment": 0,
   "municipalRequests": 0,
-  "validatedCumulativeCandidates": 22324,
-  "validatedEvidence": 60580,
+  "validatedCumulativeCandidates": 22622,
+  "validatedEvidence": 61772,
   "separateExcludedSets": {
     "Okinawa": 1084,
     "initial": 93
   },
   "master": "b3f8012827bc5ed61637a616f11882e9f3ea5145",
   "checks": {
-    "focused": "17/17 Osaka",
-    "crawler": "661/661",
+    "focused": "19/19 Osaka",
+    "crawler": "663/663",
     "web": "256/256 serial; assertions and timeouts unchanged",
     "typecheck": "passed",
     "lint": "passed;existingfontwarning",
@@ -38,8 +40,8 @@
     "static": "109/109 subpath export"
   },
   "ci": "Unverified; priorActionsAPI403 not retried. No manual dispatch orPR edits.",
-  "remaining": "Increment, not Osaka completion. Matsubara299 and Izumi4 are separate next-stage proposals, not included; prior-record dedup still required. Kashiwara180remaining headers reviewed:76proposed and104held with exact reasons. Missing9bodies and source-specific incomplete text remain held. No acquisition.",
+  "remaining": "All90 sources have individual review dispositions;9missing bodies,2missing Izumi sheet texts and5Matsubara identity holds remain. Three Suita response sources have actionable dated narrative field-review work, not new annual records. No acquisition.",
   "unpublishedUserChanges": "not observable;collision freedom not guaranteed",
-  "additionalCandidateRecords": 173,
-  "previousPublishedHead": "ff413b45a1c28fed6da4f3320f0e8afc5bd91189"
+  "additionalCandidateRecords": 298,
+  "previousPublishedHead": "c8d8d1dab08f994342ce045ffbe3523f66447d23"
 }

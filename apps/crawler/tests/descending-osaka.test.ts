@@ -23,7 +23,7 @@ test('Osaka reviewed bodies require exact complete source identity and quote bou
  for(const c of configs){const i=inputs.find(i=>i.sourceId===c.sourceId)!;const r=run(c.sourceId);count+=r.projects.length;assert.equal(r.projects.length,c.rows.length);
  for(const p of r.projects){assert.equal(p.amounts.length,0);assert.equal(p.ratings.length,0);assert.equal(p.indicators.length,0);for(const e of p.evidence){const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;const src=inputs.find(x=>x.sourceUrl===e.sourceUrl);assert.ok(src);assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}
  for(const bad of [{...i,text:i.text+'x'},{...i,truncated:true},{...i,sourceSha256:'x'},{...i,sourceUrl:i.sourceUrl+'x'},{...i,format:'xlsx' as const}])assert.equal(reviewOsaka(bad,inputs)!.projects.length,0);
- }assert.equal(count,372);
+ }assert.equal(count,675);
 });
 test('Kanan combines sports continuation sheets and excludes survey summaries and component activities',()=>{
  const r=run('a3a002ef083e6f4b17f780a2'),ps=r.projects;assert.equal(ps.length,50);assert.equal(new Set(ps.map(p=>p.projectName)).size,50);assert.ok(ps.every(p=>p.evaluatedFiscalYear===2025&&p.evaluationYear===2026));
@@ -113,4 +113,19 @@ test('Suita duplicate exception requires both exact source rows and never accept
  const centers=run('9eb3185abca640c0d074ee33').projects.filter(p=>p.projectName==='地域子育て支援センター事業');const [a,b]=centers;
  assert.ok(distinctSuitaDepartmentRows(a,b));assert.ok(!distinctSuitaDepartmentRows(a,a));
  for(const bad of [{...b,id:'unknown'},{...b,evidence:[]},{...b,evaluatedFiscalYear:2016},{...b,evidence:b.evidence.map(e=>({...e,sha256:'changed'}))},{...b,department:'未確認部署'}])assert.ok(!distinctSuitaDepartmentRows(a,bad));
+});
+
+test('Matsubara official list retains named FY2023 entries but no imagined sheet contents',()=>{
+ const r=run('88145d32938034d93d8ca311');assert.equal(r.projects.length,299);assert.equal(r.units.filter(u=>u.status==='identity_or_period_hold').length,5);
+ for(const p of r.projects){assert.equal(p.evaluatedFiscalYear,2023);assert.equal(p.evaluationYear,2024);assert.ok(p.department);assert.equal(p.amounts.length,0);assert.equal(p.ratings.length,0);assert.equal(p.indicators.length,0);assert.ok(p.warnings.some(w=>w.includes('個別評価票本文の取得や内容・評価・金額の構造化完了を意味しない')));}
+ for(const name of ['母子保健指導事業','きれいなまちづくり啓発事業（不法投棄等防止対策事業）','総務部','消防本部'])assert.ok(!r.projects.some(p=>p.projectName===name));
+ for(const name of ['市税賦課事務事業（固定資産税及び都市計画税）','訓練等給付事業（就労支援）','公共下水道建設事業（雨水）','公共下水道建設事業（汚水）','アドプト・ガーデン・ロード・プログラム'])assert.ok(r.projects.some(p=>p.projectName===name));
+ const dep=r.projects.find(p=>p.projectName==='消防情報システム整備事業')!;assert.equal(dep.department,'消防本部総務課');
+});
+
+test('Izumi missing units use literal sheet titles and both pages while image-only sheets stay held',()=>{
+ const ids=['61db7ed8185e46b9532c76d2','740585de24be5fc6a86b99c7','9d6798e7be9f4a314cb9b13b','83b3b780070b5c2eda8db897'];const ps=ids.flatMap(id=>run(id).projects);assert.equal(ps.length,4);
+ assert.deepEqual(ps.map(p=>p.evaluatedFiscalYear),[2021,2023,2024,2024]);assert.ok(ps.every(p=>p.department&&p.amounts.length===0&&p.indicators.length===0&&p.ratings.length===0));
+ assert.equal(ps.filter(p=>p.projectName==='スポーツ活動の普及').length,2);assert.ok(!ps.some(p=>p.projectName==='スポーツ施設の普及'));assert.ok(ps.find(p=>p.projectName.startsWith('文化財'))!.evidence.some(e=>e.rawText.includes('●令和6年度の事業評価')));
+ assert.equal(run(ids[1]).projects.length,0);assert.equal(run(ids[1]).units.filter(u=>u.status==='missing_sheet_text_hold').length,2);
 });

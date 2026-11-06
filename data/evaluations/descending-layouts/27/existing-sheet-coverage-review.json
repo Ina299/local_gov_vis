@@ -1,0 +1,1484 @@
+[
+  {
+    "code": "27383",
+    "sourceId": "0edbecb3fa7a7b3224ed8422",
+    "sourceHeaderCount": 139,
+    "existingRecords": 139,
+    "rows": [
+      {
+        "start": 220,
+        "name": "地域防災計画改定事業",
+        "existingIds": [
+          "cached-27383-5c0ee68dee8a0f0ad92992d0"
+        ],
+        "raw": "1\n01010101\n総務課\n地域防災計画改定事業(PDF:",
+        "sha256": "c106bf567b278155a31829159139f2da207378db88931447215799a1f1b356ed"
+      },
+      {
+        "start": 267,
+        "name": "災害対策事業",
+        "existingIds": [
+          "cached-27383-74fc35544a5ba4cdfc42939b"
+        ],
+        "raw": "2\n01010102\n総務課\n災害対策事業(PDF:",
+        "sha256": "5a7bca51b82592b54981bcdb41617e765448f5927d8f126ec59cea26d1fa41f0"
+      },
+      {
+        "start": 310,
+        "name": "防災拠点整備事業",
+        "existingIds": [
+          "cached-27383-546eeba15b101aec1eb499f8"
+        ],
+        "raw": "3\n01010201\n総務課\n防災拠点整備事業(PDF:",
+        "sha256": "ecea3e87e9a0eed646ef12af3cfc6a95ef45e0c7c372ea674a48eab4e03be3ed"
+      },
+      {
+        "start": 355,
+        "name": "同報系防災行政デジタル無線整備事業",
+        "existingIds": [
+          "cached-27383-2545eeb2c0005c9e96e47c9b"
+        ],
+        "raw": "4\n01010301\n総務課\n同報系防災行政デジタル無線整備事業(PDF:",
+        "sha256": "c9f272e3cf485abfba31e8968bc864bb95075b20e7efabc8f29825bf9307eae7"
+      },
+      {
+        "start": 409,
+        "name": "防災対策事業",
+        "existingIds": [
+          "cached-27383-929e7731e254f0412f56196f"
+        ],
+        "raw": "5\n01010302\n総務課\n防災対策事業(PDF:",
+        "sha256": "709cd7b1da1d3a5691ac3e5e75f00a42a828fb84dba51daa56db6b84acbe6e37"
+      },
+      {
+        "start": 452,
+        "name": "建築物耐震化事業",
+        "existingIds": [
+          "cached-27383-2dacf696721ba802f053edca"
+        ],
+        "raw": "6\n01010601\n地域振興課\n建築物耐震化事業(PDF:",
+        "sha256": "377af9db90e3c9eb0147582d840c587c7cca238178390114873c22f3c0cc2833"
+      },
+      {
+        "start": 499,
+        "name": "防犯灯LED化事業",
+        "existingIds": [
+          "cached-27383-90026b6edc5f5d8eadfb9ddb"
+        ],
+        "raw": "7\n01020102\n総務課\n防犯灯LED化事業(PDF:",
+        "sha256": "295f9bc0b74ad94b44948aa2fa0d25570095e8d21c777950cfe5f4c2a0d610bc"
+      },
+      {
+        "start": 545,
+        "name": "消防団車両更新事業",
+        "existingIds": [
+          "cached-27383-c646376620c2eaedf581f16a"
+        ],
+        "raw": "8\n01030101\n総務課\n消防団車両更新事業(PDF:",
+        "sha256": "d1005a744b178e873029ba0916224414a08fb8587f0f18c976bd8382c18a5fa1"
+      },
+      {
+        "start": 591,
+        "name": "消防施設維持管理事業",
+        "existingIds": [
+          "cached-27383-5478fedb3ecfa1cbf839f182"
+        ],
+        "raw": "9\n01030102\n総務課\n消防施設維持管理事業(PDF:",
+        "sha256": "2e938a127fa55c460eb40fa9844b494135c775bdb723231e0c7ff134b1b855e1"
+      },
+      {
+        "start": 638,
+        "name": "常備消防消防車整備事業",
+        "existingIds": [
+          "cached-27383-edd72a2292aabacd611715ee"
+        ],
+        "raw": "10\n01030104\n総務課\n常備消防消防車整備事業(PDF:",
+        "sha256": "d78e2134d7a76c1159f656afa109ae01dfab222aca332082434934de990e1dc8"
+      },
+      {
+        "start": 687,
+        "name": "消防団運営事業",
+        "existingIds": [
+          "cached-27383-cb5c854c0636eb4a07e7d5e1"
+        ],
+        "raw": "11\n01030201\n総務課\n消防団運営事業(PDF:",
+        "sha256": "494e92e716e72abd0b073843137ddbcda521ee398b8373a28113d91ff348496c"
+      },
+      {
+        "start": 732,
+        "name": "広域消防事業",
+        "existingIds": [
+          "cached-27383-8d91dcf2e70771f5a9367ca9"
+        ],
+        "raw": "12\n01030301\n総務課\n広域消防事業(PDF:",
+        "sha256": "2c4d07d10614fd3ea80a967fa47cc63addf1ef29e67d009f0744c59af7827a38"
+      },
+      {
+        "start": 776,
+        "name": "救急安心センター運営事業",
+        "existingIds": [
+          "cached-27383-bf5f20644bd1ac45545ca21a"
+        ],
+        "raw": "13\n01030401\n総務課\n救急安心センター運営事業(PDF:",
+        "sha256": "1d0fd94bef6cdabe839dfc278ef7c0c311c219014d69f0b9d110a73b66e7bbcd"
+      },
+      {
+        "start": 826,
+        "name": "水道老朽管更新事業",
+        "existingIds": [
+          "cached-27383-45c89122767647ed7f894154"
+        ],
+        "raw": "14\n01040101\n上下水道課\n水道老朽管更新事業(PDF:",
+        "sha256": "65f84e1c929554d2daaf99fa9bd20325f03e5cacd4fedc7817547e3f8fc618d3"
+      },
+      {
+        "start": 875,
+        "name": "水道施設改修事業",
+        "existingIds": [
+          "cached-27383-a9c313ea33e83f7d73bad309"
+        ],
+        "raw": "15\n01040102\n上下水道課\n水道施設改修事業(PDF:",
+        "sha256": "e2ba1d408283b04f709f530caf4d45b74249e092b50ae604ddaf23fb12489d2b"
+      },
+      {
+        "start": 923,
+        "name": "塵芥収集処理事業",
+        "existingIds": [
+          "cached-27383-095dfbdcb5a97e7104bc4c9f"
+        ],
+        "raw": "16\n01050101\n住民課\n塵芥収集処理事業(PDF:",
+        "sha256": "41478e3bd6bb4b36cbefb06ca7fbf0c4717cd34f4abe621da27f0add900b4f51"
+      },
+      {
+        "start": 969,
+        "name": "資源リサイクル推進事業",
+        "existingIds": [
+          "cached-27383-6f75f3df27e5514d4ca148b9"
+        ],
+        "raw": "17\n01050201\n住民課\n資源リサイクル推進事業(PDF:",
+        "sha256": "2448ac6679537d83555fba870bdcc49cda6698da63ed6218dfcf39d5684d2a06"
+      },
+      {
+        "start": 1018,
+        "name": "下水道整備事業",
+        "existingIds": [
+          "cached-27383-88bef71419ef2a53be5d42b2"
+        ],
+        "raw": "18\n01060101\n上下水道課\n下水道整備事業(PDF:",
+        "sha256": "c2add816c244710d960cd7f9a9796ed7b4b10efbec381ad8f6a85ae972205a90"
+      },
+      {
+        "start": 1063,
+        "name": "合併処理浄化槽設置補助事業",
+        "existingIds": [
+          "cached-27383-f97d974c9d313aa3df0d637f"
+        ],
+        "raw": "19\n01060201\n上下水道課\n合併処理浄化槽設置補助事業(PDF:",
+        "sha256": "a0879767e5a5a7cbe36467b49d141ed0997e9c943a3f57cfc6ed85ae5279d95d"
+      },
+      {
+        "start": 1116,
+        "name": "下水道使用料徴収事業",
+        "existingIds": [
+          "cached-27383-bf30b9035b7be2fd69a7cc7d"
+        ],
+        "raw": "20\n01060303\n上下水道課\n下水道使用料徴収事業(PDF:",
+        "sha256": "f24de8b8d95783d16f703e84ee9b88e32245e5936a1db92310055d0b5db44ebd"
+      },
+      {
+        "start": 1166,
+        "name": "受益者負担金徴収事業",
+        "existingIds": [
+          "cached-27383-5e261dffd7d46a735751c993"
+        ],
+        "raw": "21\n01060304\n上下水道課\n受益者負担金徴収事業(PDF:",
+        "sha256": "739bef6981e1a8221536a165c77225079a844d25c13a3c9f5a7c9662180f97f8"
+      },
+      {
+        "start": 1216,
+        "name": "し尿収集処理事業",
+        "existingIds": [
+          "cached-27383-745f895689f3312603995a1b"
+        ],
+        "raw": "22\n01060401\n住民課\nし尿収集処理事業(PDF:",
+        "sha256": "23d758f1938d1118dfeaa2a246ee551b69d9d8239bc0ccaa063f72c41b1ec15b"
+      },
+      {
+        "start": 1262,
+        "name": "公害対策事業",
+        "existingIds": [
+          "cached-27383-5661a7c21c22a129902b5efc"
+        ],
+        "raw": "23\n01070201\n住民課\n公害対策事業(PDF:",
+        "sha256": "cbf6033daed866ce0365002071b7faa437fbb68c64c2aec7a513394e3bb4a07d"
+      },
+      {
+        "start": 1398,
+        "name": "地域自殺対策緊急強化事業",
+        "existingIds": [
+          "cached-27383-05f1a201666c846f595fe0a0"
+        ],
+        "raw": "24\n02010101\n健康福祉課\n地域自殺対策緊急強化事業(PDF:",
+        "sha256": "37cf12f338cc30ba90bca590c4b7dbcef9abb6a46d38485fa002d381ed1831ec"
+      },
+      {
+        "start": 1450,
+        "name": "母子保健事業",
+        "existingIds": [
+          "cached-27383-6cdbd42b43abbfdd56afae6c"
+        ],
+        "raw": "25\n02010102\n健康福祉課\n母子保健事業(PDF:",
+        "sha256": "157672fb2252488249e4106c86a4c574737b80cf2c147c57563044199e1c2d39"
+      },
+      {
+        "start": 1496,
+        "name": "保健センタ－管理運営事業",
+        "existingIds": [
+          "cached-27383-c8044ff13c4ebc1c2b90ce25"
+        ],
+        "raw": "26\n02010103\n健康福祉課\n保健センタ－管理運営事業(PDF:",
+        "sha256": "266fd157ab83a6f67417434c7d04d019c462ca203b1ad7d50936577ae78ed17c"
+      },
+      {
+        "start": 1548,
+        "name": "任意予防接種費用助成事業",
+        "existingIds": [
+          "cached-27383-9c8e541d2a2d5da0ef2275d0"
+        ],
+        "raw": "27\n02010201\n健康福祉課\n任意予防接種費用助成事業(PDF:",
+        "sha256": "f8b045f9a8699a3569da1b8dcf8c9bb0e24c3be1d0c7321b91625f0848934b38"
+      },
+      {
+        "start": 1600,
+        "name": "妊産婦健康診査公費助成事業",
+        "existingIds": [
+          "cached-27383-b4af963c26062f3e2a6c4213"
+        ],
+        "raw": "28\n02010202\n健康福祉課\n妊産婦健康診査公費助成事業(PDF:",
+        "sha256": "f6b4df14f0df15f19f593d2a2780f6aafe8e1400d20317a5399c884d01c7314b"
+      },
+      {
+        "start": 1651,
+        "name": "健康増進法関連保健事業",
+        "existingIds": [
+          "cached-27383-36a9db9e186593b77bff1c81"
+        ],
+        "raw": "29\n02010204\n健康福祉課\n健康増進法関連保健事業(PDF:",
+        "sha256": "1af3ca5abc9588b8f623037285c2efb8d02365114d8302cdcb4252a4129a3d8f"
+      },
+      {
+        "start": 1702,
+        "name": "飼犬登録・狂犬病予防注射事業",
+        "existingIds": [
+          "cached-27383-a3d59c3b1ed16d373db1567f"
+        ],
+        "raw": "30\n02010206\n住民課\n飼犬登録・狂犬病予防注射事業(PDF:",
+        "sha256": "fe744e7c51ddb368edeae2579361cd3475ac609455db0621cf350e268ae12808"
+      },
+      {
+        "start": 1754,
+        "name": "国民健康保険診療所運営事業",
+        "existingIds": [
+          "cached-27383-3f263597cae8183bf2846f14"
+        ],
+        "raw": "31\n02020105\n健康福祉課\n国民健康保険診療所運営事業(PDF:",
+        "sha256": "bbe202ae5cbf4f1657fd48aea1a31c456f8ad88f5522f900de7b0e992102e435"
+      },
+      {
+        "start": 1807,
+        "name": "食育推進事業",
+        "existingIds": [
+          "cached-27383-46d0a8ea9547a946500338f8"
+        ],
+        "raw": "32\n02030101\n健康福祉課\n食育推進事業(PDF:",
+        "sha256": "b1584e5efcaa7e6eb736dab2ebd8b0530b6cc4f09f085fb53fea0844785d876d"
+      },
+      {
+        "start": 1853,
+        "name": "高齢者ショ－トステイ事業",
+        "existingIds": [
+          "cached-27383-cb9b559e575ed1a98b80cd41"
+        ],
+        "raw": "33\n02040301\n健康福祉課\n高齢者ショ－トステイ事業(PDF:",
+        "sha256": "1da310465f43577ed9146881175abed09b8c060928a84e0996361300975bd8c2"
+      },
+      {
+        "start": 1905,
+        "name": "高齢者デイサービス事業",
+        "existingIds": [
+          "cached-27383-41088a7f6b9416a6a880d5c6"
+        ],
+        "raw": "34\n02040302\n健康福祉課\n高齢者デイサービス事業(PDF:",
+        "sha256": "ba6d4fc45c7d40b2f9abb7a8cce8db38286755369cf27621da7c8d70fe9d429e"
+      },
+      {
+        "start": 1956,
+        "name": "高齢者ホ－ムヘルプサ－ビス事業",
+        "existingIds": [
+          "cached-27383-b65a2f9f66f4a0063cda179e"
+        ],
+        "raw": "35\n02040303\n健康福祉課\n高齢者ホ－ムヘルプサ－ビス事業(PDF:",
+        "sha256": "8bdc870b41cf7f1736990b5b83c41f9ca720b963746e363649b7f8add722550b"
+      },
+      {
+        "start": 2011,
+        "name": "敬老金支給事業",
+        "existingIds": [
+          "cached-27383-35580fa755efdebebd721a51"
+        ],
+        "raw": "36\n02040306\n健康福祉課\n敬老金支給事業(PDF:",
+        "sha256": "41cfcbc89e71a3b5b923d8ce95cb441555175e08a84dc02ec6721b2f2ec3dab0"
+      },
+      {
+        "start": 2058,
+        "name": "おむつ給付金事業",
+        "existingIds": [
+          "cached-27383-1557ec782c50c91e91ed079a"
+        ],
+        "raw": "37\n02040307\n健康福祉課\nおむつ給付金事業(PDF:",
+        "sha256": "100dbcd8a8036bd030620af92ba6b428169cfb1b6fd6123d5f229cdcb7a7679d"
+      },
+      {
+        "start": 2106,
+        "name": "緊急通報装置事業",
+        "existingIds": [
+          "cached-27383-45992409416b32eb45aadda3"
+        ],
+        "raw": "38\n02040308\n健康福祉課\n緊急通報装置事業(PDF:",
+        "sha256": "ded555686aa65187ba0554d94131c884e4c8eaeb2c4e635231c6af7dd001c08d"
+      },
+      {
+        "start": 2154,
+        "name": "配食サービス事業",
+        "existingIds": [
+          "cached-27383-a6fbfc86dcbb479d5e4f5e5e"
+        ],
+        "raw": "39\n02040309\n健康福祉課\n配食サービス事業(PDF:",
+        "sha256": "3451571eab76cda1342a6ba04c1b3f0ef3fdf94704d9b0d6c6140e6674056925"
+      },
+      {
+        "start": 2202,
+        "name": "社会福祉法人による利用者負担減免助成事業",
+        "existingIds": [
+          "cached-27383-3a088921634c16ba962ff19c"
+        ],
+        "raw": "40\n02040311\n健康福祉課\n社会福祉法人による利用者負担減免助成事業(PDF:",
+        "sha256": "ff15747941f3054da281e498fc0fe281a4d8057ef334ebac31870c23e895ed39"
+      },
+      {
+        "start": 2262,
+        "name": "老人医療費支給事業",
+        "existingIds": [
+          "cached-27383-28084961995db0136f7bd84a"
+        ],
+        "raw": "41\n02040352\n住民課\n老人医療費支給事業(PDF:",
+        "sha256": "2659884c08b6a09c759ae7ed902c1583924fc0c4194a63887e9a14494e4d34ce"
+      },
+      {
+        "start": 2309,
+        "name": "心身障害児通園施設運営費補助事業",
+        "existingIds": [
+          "cached-27383-aa0e304a98caa64f1d400fe4"
+        ],
+        "raw": "42\n02050104\n健康福祉課\n心身障害児通園施設運営費補助事業(PDF:",
+        "sha256": "5a48be2f145ca5b25e14f2302636141a28ff840e03afa3ddfe3b65dd2773df1f"
+      },
+      {
+        "start": 2365,
+        "name": "身体障害者医療費支給事業",
+        "existingIds": [
+          "cached-27383-0ba17b101355af2fec3c97dd"
+        ],
+        "raw": "43\n02050316\n住民課\n身体障害者医療費支給事業(PDF:",
+        "sha256": "f713768800989b2dd123041c6004c5812f5fa4b0fdb450c4792e22e4b73b90d6"
+      },
+      {
+        "start": 2413,
+        "name": "基幹相談支援センター事業",
+        "existingIds": [
+          "cached-27383-157b741f539eda7201953889"
+        ],
+        "raw": "44\n02050317\n健康福祉課\n基幹相談支援センター事業(PDF:",
+        "sha256": "39a900946c5ca35ce59e4b4e0ef90a2b69415172380da7d4b53e3ce8f1ff939e"
+      },
+      {
+        "start": 2465,
+        "name": "障害児通所支援給付費事業",
+        "existingIds": [
+          "cached-27383-3e6620f0b4d0fdf54532756a"
+        ],
+        "raw": "45\n02050318\n健康福祉課\n障害児通所支援給付費事業(PDF:",
+        "sha256": "3a9ce30a5059c9122c6de2e55fe751ebbcf9919f34f9a317b09ce04f3de10293"
+      },
+      {
+        "start": 2517,
+        "name": "早期療育事業",
+        "existingIds": [
+          "cached-27383-514e31611405992604620c9a"
+        ],
+        "raw": "46\n02050319\n健康福祉課\n早期療育事業(PDF:",
+        "sha256": "456e53f93ae49e4352c41614dd2f8ff14ec17f663136981fa7510afab718ae7c"
+      },
+      {
+        "start": 2563,
+        "name": "発達障がい児療育事業",
+        "existingIds": [
+          "cached-27383-7ff21d45e5964978fc70c140"
+        ],
+        "raw": "47\n02050320\n健康福祉課\n発達障がい児療育事業(PDF:",
+        "sha256": "4fb6e8e4193338b22fde1fd5143344f30a209be94b9a7dbbff16613a94995f10"
+      },
+      {
+        "start": 2613,
+        "name": "障がい者緊急一時保護居室確保事業",
+        "existingIds": [
+          "cached-27383-48014c9e11ef94a4fb9bd44e"
+        ],
+        "raw": "48\n02050321\n健康福祉課\n障がい者緊急一時保護居室確保事業(PDF:",
+        "sha256": "6d4c1c3e00c77967ef27b717226eaa4839cfd189325cbf9b315e6470d2d4a449"
+      },
+      {
+        "start": 2669,
+        "name": "社会参加促進事業",
+        "existingIds": [
+          "cached-27383-8a7b96bc509c316968150acf"
+        ],
+        "raw": "49\n02060202\n健康福祉課\n社会参加促進事業(PDF:",
+        "sha256": "cc9a28b043e6198eb49f7354843a019f111c7367459bf44523b1027d799f0c57"
+      },
+      {
+        "start": 2717,
+        "name": "社会福祉協議会運営事業",
+        "existingIds": [
+          "cached-27383-8fe64d5918b15b99e1b8e32d"
+        ],
+        "raw": "50\n02060301\n健康福祉課\n社会福祉協議会運営事業(PDF:",
+        "sha256": "e32a6dcac52ea177733761b2d0acb61a56ec01f4365a43759ac4e85aa7e0440b"
+      },
+      {
+        "start": 2768,
+        "name": "小地域ネットワーク事業",
+        "existingIds": [
+          "cached-27383-5b0b762c7e6f2d0968bb13dc"
+        ],
+        "raw": "51\n02060302\n健康福祉課\n小地域ネットワーク事業(PDF:",
+        "sha256": "62d63aeeb7202c589d5da9dc3cafcecaeb1e20bbd2857798169aa44e13b7517e"
+      },
+      {
+        "start": 2819,
+        "name": "コミュニティソーシャルワーカー配置事業",
+        "existingIds": [
+          "cached-27383-5f7f57c2527929d885d92c06"
+        ],
+        "raw": "52\n02060303\n健康福祉課\nコミュニティソーシャルワーカー配置事業(PDF:",
+        "sha256": "6a460a4bf11dce7d7e0acdae10de31c4632b324bc812b2bd9364eff80bb8c620"
+      },
+      {
+        "start": 2878,
+        "name": "災害救助費事業",
+        "existingIds": [
+          "cached-27383-a87da273d469e8006f9c584a"
+        ],
+        "raw": "53\n02060404\n総務課\n災害救助費事業(PDF:",
+        "sha256": "7562162b8de5b47f9f84282d5aa5b13606498df409af34256aedb9fbfd66b308"
+      },
+      {
+        "start": 2923,
+        "name": "地域子育て支援拠点事業",
+        "existingIds": [
+          "cached-27383-b24ea55ce03ca0c615fead66"
+        ],
+        "raw": "54\n02070103\n健康福祉課\n地域子育て支援拠点事業(PDF:",
+        "sha256": "a80b77d74579e4ff390cd27dd2069caf7438f2ede9177a360cfb1ac06362118c"
+      },
+      {
+        "start": 2974,
+        "name": "ちびっこ老人憩いの広場維持管理事業",
+        "existingIds": [
+          "cached-27383-f9c5b1c63e8a141788bff1f2"
+        ],
+        "raw": "55\n02070104\n健康福祉課\nちびっこ老人憩いの広場維持管理事業(PDF:",
+        "sha256": "5bbc71465446cce86ca7e55ef33d357080bcecd8c84d5004c36402ae3496acfc"
+      },
+      {
+        "start": 3031,
+        "name": "保育所入所事業",
+        "existingIds": [
+          "cached-27383-5abbd869e66c6ecb3fa37517"
+        ],
+        "raw": "56\n02070201\n健康福祉課\n保育所入所事業(PDF:",
+        "sha256": "3adc0d3c7930b5c771f71c8beed4f6328ac9323339a17c48977c4e5b3600f353"
+      },
+      {
+        "start": 3078,
+        "name": "保育所運営費補助事業",
+        "existingIds": [
+          "cached-27383-e7d0e7562e6dcdfa3e2f6ae7"
+        ],
+        "raw": "57\n02070202\n健康福祉課\n保育所運営費補助事業(PDF:",
+        "sha256": "2bdc0dddbe9fea96bdea2a4f3ec7ca1074667a422669f466693de8b9ccc38b59"
+      },
+      {
+        "start": 3128,
+        "name": "スクールソーシャルワーカー活用事業",
+        "existingIds": [
+          "cached-27383-b6ef773d336fe157a9608aa6"
+        ],
+        "raw": "58\n02070301\n健康福祉課\nスクールソーシャルワーカー活用事業(PDF:",
+        "sha256": "faabaeca5076fc28d89bf7603103609762b27853a7c3201fb3955a3c2a8534dc"
+      },
+      {
+        "start": 3185,
+        "name": "子育て支援ヘルパー派遣事業",
+        "existingIds": [
+          "cached-27383-97c1c5721c3a3be27ecc0187"
+        ],
+        "raw": "59\n02070302\n健康福祉課\n子育て支援ヘルパー派遣事業(PDF:",
+        "sha256": "3d52b941921f0f7ecf2a6cb22f7c5d350051bbcf39b2b2470dd7f2065c38f6dd"
+      },
+      {
+        "start": 3238,
+        "name": "児童虐待防止事業",
+        "existingIds": [
+          "cached-27383-bf1306e1a58ccd78c9b0a7af"
+        ],
+        "raw": "60\n02070303\n健康福祉課\n児童虐待防止事業(PDF:",
+        "sha256": "24aeeacbc3ca7c7dcf7e72cb74c66a2301cf5029b025129843e35de4dc3f4ba1"
+      },
+      {
+        "start": 3286,
+        "name": "子育て短期支援事業",
+        "existingIds": [
+          "cached-27383-66a0b443cb1ef26cada43a69"
+        ],
+        "raw": "61\n02070304\n健康福祉課\n子育て短期支援事業(PDF:",
+        "sha256": "6544c3fd9bed6d28b324062ee8273735969ce89aff90b7d8e628c051c53f5699"
+      },
+      {
+        "start": 3333,
+        "name": "子育て応援出産お祝い事業",
+        "existingIds": [
+          "cached-27383-472157f5d65ac50a2350c614"
+        ],
+        "raw": "62\n02070501\n健康福祉課\n子育て応援出産お祝い事業(PDF:",
+        "sha256": "2afb7c7aa046c2547c6f2c10060892b5ad6c2252a54fcbaf882aa31622dc84ed"
+      },
+      {
+        "start": 3385,
+        "name": "子ども医療費助成事業",
+        "existingIds": [
+          "cached-27383-2f2ef8d27d701aab119aab70"
+        ],
+        "raw": "63\n02070502\n住民課\n子ども医療費助成事業(PDF:",
+        "sha256": "5928ae3f667cb2df20ccad68f9a836e9714e0d53377ec8c7982ecfe1156c69df"
+      },
+      {
+        "start": 3433,
+        "name": "ひとり親家庭医療費支給事業",
+        "existingIds": [
+          "cached-27383-a022a9a0c9a14ce68a92b8ce"
+        ],
+        "raw": "64\n02070508\n住民課\nひとり親家庭医療費支給事業(PDF:",
+        "sha256": "39cc70261735d862d178bd6a81889c0d56d3aecafa0af8fe044153ae20f48b11"
+      },
+      {
+        "start": 3484,
+        "name": "国民健康保険疾病予防事業",
+        "existingIds": [
+          "cached-27383-71899815efe0aae1fff8daeb"
+        ],
+        "raw": "65\n02080122\n住民課\n国民健康保険疾病予防事業(PDF:",
+        "sha256": "01a7c4ef835dd36aa68383a0e45a4d2c0d91a4a2792f3ff1606f4224c17234e3"
+      },
+      {
+        "start": 3630,
+        "name": "小学校通学バス運行事業",
+        "existingIds": [
+          "cached-27383-38ff201573f8ebd505032ac1"
+        ],
+        "raw": "66\n03010201\n教育課\n小学校通学バス運行事業(PDF:",
+        "sha256": "d32e51eaed45a8177d243db7c1766b86f0d19c1efecb4ac54302bd2b2532e5d3"
+      },
+      {
+        "start": 3679,
+        "name": "中学校通学バス運行事業",
+        "existingIds": [
+          "cached-27383-94be83203b825be6168a0442"
+        ],
+        "raw": "67\n03010202\n教育課\n中学校通学バス運行事業(PDF:",
+        "sha256": "b064e882557a5cb70d9143cfa373ca875a928268e60ecd7f1bf1830af40e822c"
+      },
+      {
+        "start": 3728,
+        "name": "幼稚園通園バス運行事業",
+        "existingIds": [
+          "cached-27383-1bdaf0fb40efd3f8400d4447"
+        ],
+        "raw": "68\n03010203\n教育課\n幼稚園通園バス運行事業(PDF:",
+        "sha256": "cab1ec6f53d59c681415e7207f96b19881d85b78904181fca65236be1de476ef"
+      },
+      {
+        "start": 3777,
+        "name": "学校給食事業",
+        "existingIds": [
+          "cached-27383-7d8ee5974de4065aa386406c"
+        ],
+        "raw": "69\n03010204\n教育課\n学校給食事業(PDF:",
+        "sha256": "c4e21ba99741821f43eecb0b1783807135426c2e3604f05d9b3a8efe20ea7da0"
+      },
+      {
+        "start": 3821,
+        "name": "給食センタ－維持管理事業",
+        "existingIds": [
+          "cached-27383-1c040ee355b02a384bd3f596"
+        ],
+        "raw": "70\n03010205\n教育課\n給食センタ－維持管理事業(PDF:",
+        "sha256": "1f8958119122b4cd8ba1a97613275c62ac20c7f545cbadf449e2858ed1dd922f"
+      },
+      {
+        "start": 3871,
+        "name": "遠距離通学補助金事業",
+        "existingIds": [
+          "cached-27383-a0de7c49de46e3e1e2a7331e"
+        ],
+        "raw": "71\n03010206\n教育課\n遠距離通学補助金事業(PDF:",
+        "sha256": "4bbcb9bd4a010e43ef455e7b30ec76109d35509ba83a87475dffbd7ba12784d9"
+      },
+      {
+        "start": 3919,
+        "name": "預かり保育運営事業",
+        "existingIds": [
+          "cached-27383-f168944e576e3668ad463589"
+        ],
+        "raw": "72\n03010208\n教育課\n預かり保育運営事業(PDF:",
+        "sha256": "aff1d4ae47cecc41bfa601c19e091c2f3f9f76cf0e402bf28916076ab0379a90"
+      },
+      {
+        "start": 3966,
+        "name": "英語教育推進事業",
+        "existingIds": [
+          "cached-27383-312c6d0e78c3f376805bab32"
+        ],
+        "raw": "73\n03010301\n教育課\n英語教育推進事業(PDF:",
+        "sha256": "e8fbd3c6d1d161fdcca7b497359f6e35a9a40dc4356d4911ce057fcb40e5d59a"
+      },
+      {
+        "start": 4012,
+        "name": "留学生交流事業",
+        "existingIds": [
+          "cached-27383-f0e54988000155dec20d136e"
+        ],
+        "raw": "74\n03010302\n教育課\n留学生交流事業(PDF:",
+        "sha256": "265447e2f85a9e9efe9ad51cbcee26084b76a2b05d3822a6fbdef05dffcfc92e"
+      },
+      {
+        "start": 4057,
+        "name": "海外留学体験事業",
+        "existingIds": [
+          "cached-27383-cf76accca1ef14cc3d0829a7"
+        ],
+        "raw": "75\n03010303\n教育課\n海外留学体験事業(PDF:",
+        "sha256": "929457a70e573600f15898bab4a07dd2bfeadf5f8844fe9b89e0a19962e24f76"
+      },
+      {
+        "start": 4103,
+        "name": "千早小吹台小学校耐震補強工事",
+        "existingIds": [
+          "cached-27383-2035b9ac5a35fe464aaea2e7"
+        ],
+        "raw": "76\n03010401\n教育課\n千早小吹台小学校耐震補強工事(PDF:",
+        "sha256": "a7ec9ff1210a5d34cdb6c917b2283bb5918f42e1ed59916b0885fc36d967cbbe"
+      },
+      {
+        "start": 4155,
+        "name": "情報教育推進事業",
+        "existingIds": [
+          "cached-27383-4823011ddb31098b2a428632"
+        ],
+        "raw": "77\n03010403\n教育課\n情報教育推進事業(PDF:",
+        "sha256": "c000a9c046e1504b4002509db5b0fe9a9bd7a6f9e5d8fc268c01cd46e5f2d159"
+      },
+      {
+        "start": 4201,
+        "name": "学校運営補助金等事業",
+        "existingIds": [
+          "cached-27383-915bc4fb791431be8e122bf7"
+        ],
+        "raw": "78\n03010404\n教育課\n学校運営補助金等事業(PDF:",
+        "sha256": "d1001ae8e550823a5501085b0c2f33020cdcaccd4ddfa1d8d5468fb70f4c50f4"
+      },
+      {
+        "start": 4249,
+        "name": "小学校施設管理事業",
+        "existingIds": [
+          "cached-27383-d1b010028c46585c5fa0f378"
+        ],
+        "raw": "79\n03010405\n教育課\n小学校施設管理事業(PDF:",
+        "sha256": "37dc82c75e0f95e7c60a4c186a476b321f6bc5c20d3bfef8d31014dac3801ca0"
+      },
+      {
+        "start": 4296,
+        "name": "小学校図書室運営事業",
+        "existingIds": [
+          "cached-27383-2968c97172a84e507e99191f"
+        ],
+        "raw": "80\n03010407\n教育課\n小学校図書室運営事業(PDF:",
+        "sha256": "0421d33e3e928f66524eb5d43637e8255aa85ecfb4c4ba340536692a4187500e"
+      },
+      {
+        "start": 4344,
+        "name": "中学校施設管理事業",
+        "existingIds": [
+          "cached-27383-16faacf088774f7c08abcddb"
+        ],
+        "raw": "81\n03010408\n教育課\n中学校施設管理事業(PDF:",
+        "sha256": "57abd8d0136db4ca23e1a3acaeb57dd31a6f85c825552f25fce9fb09ce26aade"
+      },
+      {
+        "start": 4391,
+        "name": "中学校図書室運営事業",
+        "existingIds": [
+          "cached-27383-c7cde944999e9170fd59e369"
+        ],
+        "raw": "82\n03010410\n教育課\n中学校図書室運営事業(PDF:",
+        "sha256": "2270532262a547de781af8bf4b724ced2950b30ccf60b48450d9743531d868f8"
+      },
+      {
+        "start": 4439,
+        "name": "幼稚園施設管理事業",
+        "existingIds": [
+          "cached-27383-e5c3a0b9142fa5eceb52622c"
+        ],
+        "raw": "83\n03010411\n教育課\n幼稚園施設管理事業(PDF:",
+        "sha256": "130ec4d9b6d045dfc5728cb444ee00fd6d97332d1a98d0d59639acc6b0e31839"
+      },
+      {
+        "start": 4486,
+        "name": "就学援助費事業",
+        "existingIds": [
+          "cached-27383-e6979f5747bb6c901d5b5c33"
+        ],
+        "raw": "84\n03010413\n教育課\n就学援助費事業(PDF:",
+        "sha256": "9b733b87f2c117d89a33363f3af8c1f06eb9f4dd451381f143b311f7d92ac97f"
+      },
+      {
+        "start": 4531,
+        "name": "文化財村民協働事業",
+        "existingIds": [
+          "cached-27383-02986de7d425c2196e225d2b"
+        ],
+        "raw": "85\n03030101\n教育課\n文化財村民協働事業(PDF:",
+        "sha256": "e1f02deaa47fc23d2ac43a4dcadd5f3277980cea6e23fc3485becd9acaa1e885"
+      },
+      {
+        "start": 4578,
+        "name": "文化財保護事業",
+        "existingIds": [
+          "cached-27383-222c3bccf06cf109ec03bf29"
+        ],
+        "raw": "86\n03030102\n教育課\n文化財保護事業(PDF:",
+        "sha256": "b32253d97addd9ffb656dceaa3b4d54a00ee4d7030e2805b154aea77b1318f9b"
+      },
+      {
+        "start": 4623,
+        "name": "郷土資料館運営事業",
+        "existingIds": [
+          "cached-27383-660ce9daf6143471a27988d0"
+        ],
+        "raw": "87\n03030103\n教育課\n郷土資料館運営事業(PDF:",
+        "sha256": "90684b328b5cb90e746f016acbe308497fb8e0cc91a355e002dafad9b4d08b8b"
+      },
+      {
+        "start": 4670,
+        "name": "村民大学事業",
+        "existingIds": [
+          "cached-27383-e7b59e0d4c2e9d9fa17ac8c3"
+        ],
+        "raw": "88\n03040101\n教育課\n村民大学事業(PDF:",
+        "sha256": "dc3e5d33b14c07a037c282648272908f61db8b5502174dba75817bace1a83c2f"
+      },
+      {
+        "start": 4714,
+        "name": "各種公民館事業",
+        "existingIds": [
+          "cached-27383-b1cb4f4e59036d71d65e0bb5"
+        ],
+        "raw": "89\n03040102\n教育課\n各種公民館事業(PDF:",
+        "sha256": "e99c14744f31d83ffb160e363ee22fafad49446c1b6d0acf11546cccb0aa11ac"
+      },
+      {
+        "start": 4759,
+        "name": "くすのきホール管理運営事業",
+        "existingIds": [
+          "cached-27383-2738a623c82b011aa503d8e0"
+        ],
+        "raw": "90\n03040201\n教育課\nくすのきホール管理運営事業(PDF:",
+        "sha256": "906794e10ed8131c236d5ebefad51afee7cc01431a951916aa6a7e0aad1bc682"
+      },
+      {
+        "start": 4810,
+        "name": "海洋センター施設管理運営事業",
+        "existingIds": [
+          "cached-27383-53129d5234c6bd78497ea8ee"
+        ],
+        "raw": "91\n03040202\n教育課\n海洋センター施設管理運営事業(PDF:",
+        "sha256": "532c67a45f245b4c70152d3a2b3258b7708568926af588c26ccc858ba551cee6"
+      },
+      {
+        "start": 4862,
+        "name": "他体育施設管理事業（運動場・テニスコート・野外活動センター）",
+        "existingIds": [
+          "cached-27383-497c5e6258a1d34ee55c42d5"
+        ],
+        "raw": "92\n03040203\n教育課\n他体育施設管理事業（運動場・テニスコート・野外活動センター）(PDF:",
+        "sha256": "52993c2d62cb5810592e9ca1c1173ca48102e9bd9265363a6611deaa6ccbee14"
+      },
+      {
+        "start": 4930,
+        "name": "体育振興事業（B&G財団・スポーツ推進委員・各種教室）",
+        "existingIds": [
+          "cached-27383-23f20bb038c450a635cc8e2a"
+        ],
+        "raw": "93\n03040204\n教育課\n体育振興事業（B&G財団・スポーツ推進委員・各種教室）(PDF:",
+        "sha256": "785fc306f5f74cf514696d36a73c50e325b859fdab7930f055fcf1b0c7b61f6c"
+      },
+      {
+        "start": 4995,
+        "name": "図書室運営事業",
+        "existingIds": [
+          "cached-27383-0494dbfaa04b43a79ec29edc"
+        ],
+        "raw": "94\n03040302\n教育課\n図書室運営事業(PDF:",
+        "sha256": "fa148bf6c23f842d03fab41f88e5a940a1d4192471276ea1f98aeffcad7292a9"
+      },
+      {
+        "start": 5142,
+        "name": "金剛山管理事業",
+        "existingIds": [
+          "cached-27383-bcb9ddd8f97d89c5cd00057f"
+        ],
+        "raw": "95\n04010101\n地域振興課\n金剛山管理事業(PDF:",
+        "sha256": "affa8133af7e6daf29d9668b2a1ef10d5f8f54a2375ec4007b1f5577c1fb09b3"
+      },
+      {
+        "start": 5189,
+        "name": "金剛山観光振興事業",
+        "existingIds": [
+          "cached-27383-6a7fbbe23a63a5cca384cc83"
+        ],
+        "raw": "96\n04010102\n地域振興課\n金剛山観光振興事業(PDF:",
+        "sha256": "f0248a54c4cb5fa3024a99f3f7c7940df25ef305fe2d333e7b4b676810f95093"
+      },
+      {
+        "start": 5236,
+        "name": "金剛山ロ-プウェイ管理事業",
+        "existingIds": [
+          "cached-27383-7d4dccb885477d9903274410"
+        ],
+        "raw": "97\n04010104\n地域振興課\n金剛山ロ-プウェイ管理事業(PDF:",
+        "sha256": "6de132c37f29cf97088e3888bc219f6ccb8c651ffc1e25234003e642732e97f8"
+      },
+      {
+        "start": 5289,
+        "name": "香楠荘宿泊管理事業",
+        "existingIds": [
+          "cached-27383-4923b4f834baf21166a94178"
+        ],
+        "raw": "98\n04010105\n地域振興課\n香楠荘宿泊管理事業(PDF:",
+        "sha256": "d6a9840f5a7d6deaf2c873970d3211e6676670876ede32545b95ecfbbfb7138d"
+      },
+      {
+        "start": 5338,
+        "name": "金剛山周辺活性化事業",
+        "existingIds": [
+          "cached-27383-8c21bb931be34110ba848d63"
+        ],
+        "raw": "99\n04010106\n地域振興課\n金剛山周辺活性化事業(PDF:",
+        "sha256": "bf43e1a90b7cf9f0128a14df7dfa7ef17abfd6adc326118a5d7e5dbe344d00d1"
+      },
+      {
+        "start": 5388,
+        "name": "奉建塔周辺活性化事業",
+        "existingIds": [
+          "cached-27383-c24ee0809b5f60499eb55f73"
+        ],
+        "raw": "100\n04010201\n交流人口増加PT\n奉建塔周辺活性化事業(PDF:",
+        "sha256": "2bf3855036a97cf39a28d653949456e4be2d228f787add41357ba28442136ba1"
+      },
+      {
+        "start": 5442,
+        "name": "地域グルメ・お土産開発事業",
+        "existingIds": [
+          "cached-27383-e409f03cd7d43e00018a247d"
+        ],
+        "raw": "101\n04010401\n地域振興課\n地域グルメ・お土産開発事業(PDF:",
+        "sha256": "b12c5323a6b5c0a76067f7dc30a811d0492c400ef2595caf48010f80241007a3"
+      },
+      {
+        "start": 5496,
+        "name": "奥河内観光事業",
+        "existingIds": [
+          "cached-27383-489e262ba43f8a8c6bed8df2"
+        ],
+        "raw": "102\n04010501\n地域振興課\n奥河内観光事業(PDF:",
+        "sha256": "fa461a7aa4cc1ca834894ec2067e33e0a78b034366c15fefc153eebdbc58470a"
+      },
+      {
+        "start": 5544,
+        "name": "観光振興事業",
+        "existingIds": [
+          "cached-27383-a3f2076d6c52b9dc91d5d73a"
+        ],
+        "raw": "103\n04010601\n地域振興課\n観光振興事業(PDF:",
+        "sha256": "dd216928a9fe9b812c5f9771139aee3ff026cb3cf06a2e9fa44f0f094da5c0ef"
+      },
+      {
+        "start": 5591,
+        "name": "金剛山の里 棚田夢灯り＆収穫祭",
+        "existingIds": [
+          "cached-27383-177da4e1e81ee82593e2fc21"
+        ],
+        "raw": "104\n04020301\n地域振興課\n金剛山の里 棚田夢灯り＆収穫祭(PDF:",
+        "sha256": "972d909fbd1b8e927149a3ae25580acc1609ef032bc980ebd235ed1cea5f8690"
+      },
+      {
+        "start": 5647,
+        "name": "有害鳥獣駆除対策事業",
+        "existingIds": [
+          "cached-27383-fb6ada4382b6a9df261d2a30"
+        ],
+        "raw": "105\n04020302\n地域振興課\n有害鳥獣駆除対策事業(PDF:",
+        "sha256": "284d701bfe3b3c147f7b006e07d17fcc7192f24fe3af350f26374fafdc137de9"
+      },
+      {
+        "start": 5698,
+        "name": "棚田ふる里保全基金事業",
+        "existingIds": [
+          "cached-27383-a7f9f291869772f90be0e13d"
+        ],
+        "raw": "106\n04020303\n地域振興課\n棚田ふる里保全基金事業(PDF:",
+        "sha256": "6406352762bd01392d1a13c0c49e4651363f4123b041b3c268ef4bad2620a4ff"
+      },
+      {
+        "start": 5750,
+        "name": "農道舗装・用水路整備地区支援事業",
+        "existingIds": [
+          "cached-27383-16f57df985ccaf6fe527e347"
+        ],
+        "raw": "107\n04020304\n地域振興課\n農道舗装・用水路整備地区支援事業(PDF:",
+        "sha256": "f973d5f145b4c70ea8b97789c0694255228defc0c9781d7e776cc7d1060f2b80"
+      },
+      {
+        "start": 5807,
+        "name": "農道舗装及び用水路整備事業",
+        "existingIds": [
+          "cached-27383-c74df897ab11c0d1dfb7453d"
+        ],
+        "raw": "108\n04020311\n地域振興課\n農道舗装及び用水路整備事業(PDF:",
+        "sha256": "e2183257e0fe19a58964a60a61faae3f728533c5ac8f3982341fed891c2fac8b"
+      },
+      {
+        "start": 5861,
+        "name": "森林整備事業",
+        "existingIds": [
+          "cached-27383-8b9f1085bf50b3976b830f17"
+        ],
+        "raw": "109\n04020501\n地域振興課\n森林整備事業(PDF:",
+        "sha256": "593de729268f4ab85bff1d5e3d0a683b8292007875557d3f25f2b860ac168a3d"
+      },
+      {
+        "start": 5908,
+        "name": "森林環境保全整備事業",
+        "existingIds": [
+          "cached-27383-4f2e936ffc904ad256916d44"
+        ],
+        "raw": "110\n04020601\n地域振興課\n森林環境保全整備事業(PDF:",
+        "sha256": "a629a8816b57d91db341ad62abb19b6bcf5adfb23b6726c4b25391f03cff5491"
+      },
+      {
+        "start": 5959,
+        "name": "商工業振興事業",
+        "existingIds": [
+          "cached-27383-8bbee0184cc9c9975467f529"
+        ],
+        "raw": "111\n04030101\n地域振興課\n商工業振興事業(PDF:",
+        "sha256": "3576e190039706892e8794fc5b004cf555d8e097f6bfd0281470685f6258a64a"
+      },
+      {
+        "start": 6007,
+        "name": "企業誘致事業",
+        "existingIds": [
+          "cached-27383-3be6767dc39f1fbdd896f554"
+        ],
+        "raw": "112\n04030201\n地域振興課\n企業誘致事業(PDF:",
+        "sha256": "f348d0a715b916e387020f93c8cd809c23c55ba4004a9fbcf9e9fb0a699a7242"
+      },
+      {
+        "start": 6054,
+        "name": "消費者行政事業",
+        "existingIds": [
+          "cached-27383-b0a88adce804de81a80872e3"
+        ],
+        "raw": "113\n04030301\n地域振興課\n消費者行政事業(PDF:",
+        "sha256": "19998623ebcfb88f168e6e6673ab5e1bc20be4391c9245f903102cfb1afad11e"
+      },
+      {
+        "start": 6102,
+        "name": "地域就労支援事業",
+        "existingIds": [
+          "cached-27383-3c613432be5805d8fe746998"
+        ],
+        "raw": "114\n04030302\n地域振興課\n地域就労支援事業(PDF:",
+        "sha256": "42164e56a18fc90fac6e3d9ce45d1b5a3e9cea65102d46f492a1930454d056bb"
+      },
+      {
+        "start": 6151,
+        "name": "消費者生活相談充実事業",
+        "existingIds": [
+          "cached-27383-881fadcf8b842c16585b8c80"
+        ],
+        "raw": "115\n04030303\n地域振興課\n消費者生活相談充実事業(PDF:",
+        "sha256": "e84c09f53213d48277f5b5f390e715127928e43b0d859f7c506ddff544044a48"
+      },
+      {
+        "start": 6295,
+        "name": "村道整備事業",
+        "existingIds": [
+          "cached-27383-cf9d3bb7cf31ae1a949b0087"
+        ],
+        "raw": "116\n05010101\n地域振興課\n村道整備事業(PDF:",
+        "sha256": "8ae2e391effd7140460d5b24372fa58f032823b9143ca5c34b3cb21a490bdf20"
+      },
+      {
+        "start": 6342,
+        "name": "交通安全対策事業",
+        "existingIds": [
+          "cached-27383-a25c74f85f58c7087173a4e5"
+        ],
+        "raw": "117\n05010302\n総務課\n交通安全対策事業(PDF:",
+        "sha256": "fe19e03bfb0f06d44f58b5b1f87e4109a62f4d9a6dde0967d281b1a3ecc2e261"
+      },
+      {
+        "start": 6389,
+        "name": "買い物弱者対策と地域公共交通のあり方調査研究",
+        "existingIds": [
+          "cached-27383-8e3d9f7025c506b1d35daf0a"
+        ],
+        "raw": "118\n05030101\n地域振興課\n買い物弱者対策と地域公共交通のあり方調査研究(PDF:",
+        "sha256": "7d9042c0d8920af97b60bbd31bc4d831b313562754aca6f4bf5a555f38852488"
+      },
+      {
+        "start": 6452,
+        "name": "定住促進に関する調査研究",
+        "existingIds": [
+          "cached-27383-0a552f6364bed83240c0706a"
+        ],
+        "raw": "119\n05040101\n総務課\n定住促進に関する調査研究(PDF:",
+        "sha256": "f61833d0775989d8f0c3c493ca7c004c13fb6f6df1b4ffa5bbc7066997a4bd0d"
+      },
+      {
+        "start": 6599,
+        "name": "区長会事業",
+        "existingIds": [
+          "cached-27383-dd28fe0d60cbf34766a6e3f5"
+        ],
+        "raw": "120\n06010101\n総務課\n区長会事業(PDF:",
+        "sha256": "d550313ee6d7e711a9e133cd02c23b344612479259d8280ba523bbfa39f06328"
+      },
+      {
+        "start": 6643,
+        "name": "広報発行事業",
+        "existingIds": [
+          "cached-27383-8e468d0d5a69110bead04825"
+        ],
+        "raw": "121\n06010201\n総務課\n広報発行事業(PDF:",
+        "sha256": "7d16cb1a747a5bba067ef07dc077c5ab0178cd1cd5b632591e99d786a6ddb2ba"
+      },
+      {
+        "start": 6688,
+        "name": "電子情報発信・運用事業",
+        "existingIds": [
+          "cached-27383-6e81e3f248f63b752fc501db"
+        ],
+        "raw": "122\n06010202\n総務課\n電子情報発信・運用事業(PDF:",
+        "sha256": "fd087824c9f8af52849126b87ff38270dd1d69486df4ddd397ea59f5cf8847f1"
+      },
+      {
+        "start": 6738,
+        "name": "住民協働提案型むらづくり事業",
+        "existingIds": [
+          "cached-27383-caf81783fd4e0129ae7e5de2"
+        ],
+        "raw": "123\n06020201\n総務課\n住民協働提案型むらづくり事業(PDF:",
+        "sha256": "40e2ff27898aa4974db2364d9552791ad7b73c07e17a98f41b6fac0df572b28f"
+      },
+      {
+        "start": 6791,
+        "name": "男女共同参画事業",
+        "existingIds": [
+          "cached-27383-abf20673f103c9023155cd88"
+        ],
+        "raw": "124\n06030101\n住民課\n男女共同参画事業(PDF:",
+        "sha256": "9885e45c0b89bf42a5d65f35a615cfa4a6b5c226db780944276ac013dad5492f"
+      },
+      {
+        "start": 6838,
+        "name": "人権啓発事業",
+        "existingIds": [
+          "cached-27383-9b0f0ab0e7798934fbf1df50"
+        ],
+        "raw": "125\n06030201\n住民課\n人権啓発事業(PDF:",
+        "sha256": "7c52bcbf42e8940b14bfb4a8e0e3402371bd7c98bbd43a644a68cedc473cc45b"
+      },
+      {
+        "start": 6883,
+        "name": "賦課徴収事業",
+        "existingIds": [
+          "cached-27383-cfe11b3ed4a09c7ca53d37e2"
+        ],
+        "raw": "126\n06040104\n総務課\n賦課徴収事業(PDF:",
+        "sha256": "923a83c4df6965be4032e3b5b247647775b9db62ddf6176f12d2e00efc3f66d9"
+      },
+      {
+        "start": 6928,
+        "name": "入札・契約関係事務事業",
+        "existingIds": [
+          "cached-27383-d6173387fdac08863ee0dd9c"
+        ],
+        "raw": "127\n06040201\n総務課\n入札・契約関係事務事業(PDF:",
+        "sha256": "5a7d94fee4560b34a4f6bb7696ee9ced77787fc5499519283e600144ebc82cd3"
+      },
+      {
+        "start": 6978,
+        "name": "庁舎維持管理事業",
+        "existingIds": [
+          "cached-27383-d1c88f06b593dc70684996e2"
+        ],
+        "raw": "128\n06040203\n総務課\n庁舎維持管理事業(PDF:",
+        "sha256": "34ea23e7fc8168beb5d2749c8379177dda18be38d49c7a421567c01badc6b655"
+      },
+      {
+        "start": 7025,
+        "name": "公用車管理事業",
+        "existingIds": [
+          "cached-27383-8ea2eae8b11e8107afe6ef93"
+        ],
+        "raw": "129\n06040204\n総務課\n公用車管理事業(PDF:",
+        "sha256": "9b9ed852ab465aff549112b29541ff4d783d8fae10493001522b9f037b08af2c"
+      },
+      {
+        "start": 7069,
+        "name": "その他財産維持管理事業",
+        "existingIds": [
+          "cached-27383-4921a74c5073e37b45a5836b"
+        ],
+        "raw": "130\n06040205\n総務課\nその他財産維持管理事業(PDF:",
+        "sha256": "36855c964f32d4657b0cb537b5964ede57bedeed621107c6fcd5c27bb91d4cd9"
+      },
+      {
+        "start": 7119,
+        "name": "マイクロバス運行事業",
+        "existingIds": [
+          "cached-27383-edc017cd6c7619d92d4893a9"
+        ],
+        "raw": "131\n06040206\n総務課\nマイクロバス運行事業(PDF:",
+        "sha256": "4ebc536aa6c377b74964dc352f205bfa4c7b15c0ff5c1d9380fcf9a096132e90"
+      },
+      {
+        "start": 7168,
+        "name": "人事管理事業",
+        "existingIds": [
+          "cached-27383-0b8e4bb3882c5e9858a36801"
+        ],
+        "raw": "132\n06040301\n人事財政課\n人事管理事業(PDF:",
+        "sha256": "7ba672730a8937ea28aa60bebc2ed67220df2610f049a3d4e9e8b9622eb1d2e4"
+      },
+      {
+        "start": 7215,
+        "name": "職員福利厚生事業",
+        "existingIds": [
+          "cached-27383-a53fe201807e77f1c93d49d9"
+        ],
+        "raw": "133\n06040302\n人事財政課\n職員福利厚生事業(PDF:",
+        "sha256": "77912055d1a7fcb5c0639b08e2244444f79bc2b8fa706b1f94c80c203bf1a120"
+      },
+      {
+        "start": 7264,
+        "name": "職員研修事業",
+        "existingIds": [
+          "cached-27383-4bb687fc8a7587f72df799db"
+        ],
+        "raw": "134\n06040401\n人事財政課\n職員研修事業(PDF:",
+        "sha256": "bfc0596c7c182253739b00384bb93849eb2eda56b417bf48115e6fb52b4fc6a3"
+      },
+      {
+        "start": 7309,
+        "name": "村表彰事業",
+        "existingIds": [
+          "cached-27383-923ff2f435bfc7b12238f70d"
+        ],
+        "raw": "135\n06040402\n人事財政課\n村表彰事業(PDF:",
+        "sha256": "dfd178fe1622f1b772d27b530b6c1acb0146454bc9fccbf3c35f5a143db5dd03"
+      },
+      {
+        "start": 7355,
+        "name": "連絡所管理運営事業",
+        "existingIds": [
+          "cached-27383-62d2a87f06366fc1eb38edca"
+        ],
+        "raw": "136\n06040515\n住民課\n連絡所管理運営事業(PDF:",
+        "sha256": "590a4bc2401a3d034602526e2ac24699b5e23fef8a0cde0075ee23755dd684f8"
+      },
+      {
+        "start": 7403,
+        "name": "事務事業評価事業",
+        "existingIds": [
+          "cached-27383-32ca09d5c827ba3232e7f088"
+        ],
+        "raw": "137\n06050101\n総務課\n事務事業評価事業(PDF:",
+        "sha256": "87ba126c0f680594a1c30a5146a3cd1a948b2054cb67e8b99785935aed3b8724"
+      },
+      {
+        "start": 7450,
+        "name": "外部評価事業",
+        "existingIds": [
+          "cached-27383-6a86a2f8fe2488d487fb8b07"
+        ],
+        "raw": "138\n06050201\n総務課\n外部評価事業(PDF:",
+        "sha256": "d1165b91be7f107586fc68ab737051a447ba5cd6125d5b7a0c38147a760ecf41"
+      },
+      {
+        "start": 7495,
+        "name": "3市2町1村広域共同処理事業",
+        "existingIds": [
+          "cached-27383-97b371151925991d0cb954ec"
+        ],
+        "raw": "139\n06060101\n総務課\n3市2町1村広域共同処理事業(PDF:",
+        "sha256": "b7f44e421aa8e40b68cbe8a2e2df165dbdc27b44fc59326749c904ee961b5ae7"
+      }
+    ]
+  },
+  {
+    "code": "27218",
+    "sourceId": "c07f7eebe43b6c808e715289",
+    "sourceHeaderCount": 17,
+    "existingRecords": 17,
+    "rows": [
+      {
+        "start": 0,
+        "name": "防災訓練事業",
+        "existingIds": [
+          "cached-27218-abc0fd7bce27e2c939cff8ba"
+        ],
+        "raw": "実施計画事業調書\n令和７年度（決算）\n事業名\n\n街づくり分科会Ａ\n\n防災訓練事業",
+        "sha256": "6ad5de7899c95d57a36fa68dee825192b1121dac4224467b8e28406138d4de06"
+      },
+      {
+        "start": 2420,
+        "name": "防災対策事業",
+        "existingIds": [
+          "cached-27218-a65b89b4cb2a77446aa78830"
+        ],
+        "raw": "実施計画事業調書\n令和７年度（決算）\n事業名\n\n街づくり分科会Ａ\n\n防災対策事業",
+        "sha256": "12ecb4c18a1614d445a7941abbb278b51fc46956eaec319da8f44f06ba46d35d"
+      },
+      {
+        "start": 4632,
+        "name": "自主防災組織育成事業",
+        "existingIds": [
+          "cached-27218-4190a9b914aac3e131b06baf"
+        ],
+        "raw": "実施計画事業調書\n令和７年度（決算）\n事業名\n\n街づくり分科会Ａ\n\n自主防災組織育成事業",
+        "sha256": "697cb964af381b4d50717f28ee0192580d69dbd5e5b7236c6f7ad1968b680ea1"
+      },
+      {
+        "start": 6775,
+        "name": "全世代地域市民会議運営事業",
+        "existingIds": [
+          "cached-27218-e4f601bb0e78c0400f00448e"
+        ],
+        "raw": "実施計画事業調書\n令和７年度（決算）\n事業名\n\n街づくり分科会Ａ\n\n全世代地域市民会議運営事業",
+        "sha256": "35cddc8d33f526cb19773591fb088abfb1f64f055137847697cdedc62cd485cc"
+      },
+      {
+        "start": 8921,
+        "name": "市制施行７０周年記念推進事業",
+        "existingIds": [
+          "cached-27218-07fb819b423df90051c5d357"
+        ],
+        "raw": "実施計画事業調書\n令和７年度（決算）\n事業名\n\n街づくり分科会Ａ\n\n市制施行７０周年記念推進事業",
+        "sha256": "227a3f34954b0b0c645590341f3ed06b3223e91ca0311f5a15a13b2fdabfd9e1"
+      },
+      {
+        "start": 10751,
+        "name": "総合計画・総合戦略推進事業",
+        "existingIds": [
+          "cached-27218-4ecfcdfb6dae9d0efee6e7fe"
+        ],
+        "raw": "実施計画事業調書\n令和７年度（決算）\n事業名\n\n街づくり分科会Ａ\n\n総合計画・総合戦略推進事業",
+        "sha256": "75f232eb869de086c6085e62deb0b7385bef4deffc7bed63d7eac30993cd5758"
+      },
+      {
+        "start": 13229,
+        "name": "大東の魅力づくり事業（秘書広報）",
+        "existingIds": [
+          "cached-27218-a68a3153b1ee58716e25d5cc"
+        ],
+        "raw": "実施計画事業調書\n令和７年度（決算）\n事業名\n\n街づくり分科会Ａ\n\n大東の魅力づくり事業（秘書広報）",
+        "sha256": "ae66428d361714b85d95b993a02681a3aecb7804ab9a8a1a4d35d3c0b64fefb2"
+      },
+      {
+        "start": 15473,
+        "name": "市民相談事業",
+        "existingIds": [
+          "cached-27218-ab3a7cb22643318f988ff08d"
+        ],
+        "raw": "実施計画事業調書\n令和７年度（決算）\n事業名\n\n街づくり分科会Ａ\n\n市民相談事業",
+        "sha256": "7521dd6d72630a64ec217434bcdcaae6502a99bea0c8ee17047d2e0ab48ff0d0"
+      },
+      {
+        "start": 17269,
+        "name": "広報だいとう発行事業",
+        "existingIds": [
+          "cached-27218-f406090b43ff89f60ac0e9cd"
+        ],
+        "raw": "実施計画事業調書\n令和７年度（決算）\n事業名\n\n街づくり分科会Ａ\n\n広報だいとう発行事業",
+        "sha256": "902ffb7bec14bc392d88d3c7304229cb9d1a6ad94ea97bbb8ac813f42ff0c14a"
+      },
+      {
+        "start": 19370,
+        "name": "公民連携総合調整事業",
+        "existingIds": [
+          "cached-27218-e6f42acf62546bda27a30976"
+        ],
+        "raw": "実施計画事業調書\n令和７年度（決算）\n事業名\n\n街づくり分科会Ａ\n\n公民連携総合調整事業",
+        "sha256": "aa5d560a19af30af51f8bfc87ee0beb635545d04d5e0d1f8b045a899e050342b"
+      },
+      {
+        "start": 22089,
+        "name": "北条まちづくり推進事業（公共）",
+        "existingIds": [
+          "cached-27218-56f607abb53914a83e88b82f"
+        ],
+        "raw": "実施計画事業調書\n令和７年度（決算）\n事業名\n\n街づくり分科会Ａ\n\n北条まちづくり推進事業（公共）",
+        "sha256": "acef9ba91d8af95322945811e8870c43535e6216a7ee92e135cbc2482ec36b9b"
+      },
+      {
+        "start": 24362,
+        "name": "北条まちづくり推進事業（Ⅱ期）",
+        "existingIds": [
+          "cached-27218-0b7e22bc29b0d99b8efb6b15"
+        ],
+        "raw": "実施計画事業調書\n令和７年度（決算）\n事業名\n\n街づくり分科会Ａ\n\n北条まちづくり推進事業（Ⅱ期）",
+        "sha256": "21e7804b92789544121ae74bfd2bb9c4d0efccbf01d5b9480f9bc04a5fb575db"
+      },
+      {
+        "start": 26877,
+        "name": "財産活用推進事業（地方創生）",
+        "existingIds": [
+          "cached-27218-e55c604d8c4caa85fb5dc4bb"
+        ],
+        "raw": "実施計画事業調書\n令和７年度（決算）\n事業名\n\n街づくり分科会Ａ\n\n財産活用推進事業（地方創生）",
+        "sha256": "dc96d373a3e8b83ba341dd1fec28b6fc73f40376428138390a3e2e7ac0dcdf95"
+      },
+      {
+        "start": 29397,
+        "name": "行政サービスデジタル化推進事業",
+        "existingIds": [
+          "cached-27218-0f4c1037923b40b761cda64f"
+        ],
+        "raw": "実施計画事業調書\n令和７年度（決算）\n事業名\n\n街づくり分科会Ａ\n\n行政サービスデジタル化推進事業",
+        "sha256": "99b61c7230ac8331eb18c82cd8176a975fdd9d336787c8ba5a7e9014e3648772"
+      },
+      {
+        "start": 32249,
+        "name": "新庁舎整備推進事業",
+        "existingIds": [
+          "cached-27218-4806a988c85a63f4bd35883a"
+        ],
+        "raw": "実施計画事業調書\n令和７年度（決算）\n事業名\n\n街づくり分科会Ａ\n\n新庁舎整備推進事業",
+        "sha256": "752f7a65441ac35276f8e84266ec52126a83c265ce7599149e928112c7a70337"
+      },
+      {
+        "start": 34578,
+        "name": "職員研修事業",
+        "existingIds": [
+          "cached-27218-51b64e4e4cb6aa7993f9b917"
+        ],
+        "raw": "実施計画事業調書\n令和７年度（決算）\n事業名\n\n街づくり分科会Ａ\n\n職員研修事業",
+        "sha256": "212d2c25602a10cb2c82cfea32b5766e88c32214fc1ac2cb08dcd140e13ff77a"
+      },
+      {
+        "start": 36735,
+        "name": "議会だより発行事業",
+        "existingIds": [
+          "cached-27218-a82d4121a42e13e642c1c302"
+        ],
+        "raw": "実施計画事業調書\n令和７年度（決算）\n事業名\n\n街づくり分科会Ａ\n\n議会だより発行事業",
+        "sha256": "d4d428a4b4cfc65c16d1ff72427c7d3ed1dc61294ba3072f73d567daefdfabc8"
+      }
+    ]
+  },
+  {
+    "code": "27217",
+    "sourceId": "3237d1d3503e196077eed866",
+    "sourceHeaderCount": 6,
+    "existingRecords": 6,
+    "rows": [
+      {
+        "start": 26,
+        "name": "松原市まち・ひと・しごと創生総合戦略策定事業",
+        "existingIds": [
+          "cached-27217-c96a617fe998d6bfd19e6cf4"
+        ],
+        "raw": "事務事業評価シート\n松原市まち・ひと・しごと創生総合戦略策定事業",
+        "sha256": "23dbece359a292f7d745fc12cff7446b779133b9229fcac7a4f16cd91962908e"
+      },
+      {
+        "start": 2245,
+        "name": "移住定住促進事業",
+        "existingIds": [
+          "cached-27217-c389ef97941585bacc7a03e2"
+        ],
+        "raw": "事務事業評価シート\n移住定住促進事業",
+        "sha256": "f3b33568797d11bbe98556d635bae3a4e125f70fb93fc2e2407a0f787bb39cfe"
+      },
+      {
+        "start": 4314,
+        "name": "市政報告会事業",
+        "existingIds": [
+          "cached-27217-f1ace099a55d834694acc3e5"
+        ],
+        "raw": "事務事業評価シート\n市政報告会事業",
+        "sha256": "67639bc73da6196a2a9390f4b1c17a59e3d858c5e32e2d3ffc2af7a269d183ee"
+      },
+      {
+        "start": 6164,
+        "name": "スケートボードパークを核としたまちづくり事業",
+        "existingIds": [
+          "cached-27217-fe9995a5a6f064527508df39"
+        ],
+        "raw": "事務事業評価シート\n事務事業コード\nスケートボードパークを核としたまちづくり事業",
+        "sha256": "eafa0a766fdda38028d91daeb750bae09c002e7d4c05689db3bcc20236c4ddf9"
+      },
+      {
+        "start": 8496,
+        "name": "子ども議会事業",
+        "existingIds": [
+          "cached-27217-2bd3f25f6c0b1bf6f7ae21b9"
+        ],
+        "raw": "事務事業評価シート\n子ども議会事業",
+        "sha256": "7adc56243be20ea2da82308c3d5436b539173b6c939793a90d6eb37c0ed72434"
+      },
+      {
+        "start": 10332,
+        "name": "行政評価事業",
+        "existingIds": [
+          "cached-27217-a912b425f6e3b55ef3cdb618"
+        ],
+        "raw": "事務事業評価シート\n行政評価事業",
+        "sha256": "8c48b0bf743d10fafc079eeb4b8482a0ff54c70e9ff4a3ba2289cfd5818dc4b0"
+      }
+    ]
+  }
+]

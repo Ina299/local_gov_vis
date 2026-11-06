@@ -716,7 +716,7 @@
     "accepted": 0,
     "duplicates": 0,
     "reviewDisposition": "missing_body",
-    "reviewReason": "No saved text; acquisition remains held."
+    "reviewReason": "No readable saved text asset and no listed continuation. Metadata/title alone cannot supply an individual sheet. Acquisition held pending original cumulative stop evidence; this is not a current host-denial claim."
   },
   {
     "municipalityCode": "27220",
@@ -745,7 +745,7 @@
     "accepted": 0,
     "duplicates": 0,
     "reviewDisposition": "missing_body",
-    "reviewReason": "No saved text; acquisition remains held."
+    "reviewReason": "No readable saved text asset and no listed continuation. Metadata/title alone cannot supply an individual sheet. Acquisition held pending original cumulative stop evidence; this is not a current host-denial claim."
   },
   {
     "municipalityCode": "27220",
@@ -774,7 +774,7 @@
     "accepted": 0,
     "duplicates": 0,
     "reviewDisposition": "missing_body",
-    "reviewReason": "No saved text; acquisition remains held."
+    "reviewReason": "No readable saved text asset and no listed continuation. Metadata/title alone cannot supply an individual sheet. Acquisition held pending original cumulative stop evidence; this is not a current host-denial claim."
   },
   {
     "municipalityCode": "27219",
@@ -803,7 +803,7 @@
     "accepted": 0,
     "duplicates": 0,
     "reviewDisposition": "missing_body",
-    "reviewReason": "No saved text; acquisition remains held."
+    "reviewReason": "No readable saved text asset and no listed continuation. Metadata/title alone cannot supply an individual sheet. Acquisition held pending original cumulative stop evidence; this is not a current host-denial claim."
   },
   {
     "municipalityCode": "27219",
@@ -833,11 +833,11 @@
     "inventoryStatus": "complete_hash_verified",
     "characters": 62174,
     "fullTextSha256": "acd498b1e75b81fdcda9662d1c13949ff6c862c05c4c05965cd04fd0752320b0",
-    "parserStatus": "duplicate",
-    "accepted": 0,
+    "parserStatus": "processed",
+    "accepted": 1,
     "duplicates": 29,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "coverage_reviewed",
+    "reviewReason": "30 individual evaluation units:29existing plus 青少年センター活動 proposed; bounded complete sheet and explicit targetFY2021/eval2022."
   },
   {
     "municipalityCode": "27219",
@@ -853,8 +853,8 @@
     "parserStatus": "duplicate",
     "accepted": 0,
     "duplicates": 27,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "missing_sheet_text_hold",
+    "reviewReason": "29 contents entries:27existing; 食育及び学校給食 and 学校保健の充実 occur only in contents; corresponding pages36-39 not readable in saved full text, no listed continuations or original bytes found. Need readable cached originals; no acquisition."
   },
   {
     "municipalityCode": "27219",
@@ -867,11 +867,11 @@
     "inventoryStatus": "complete_hash_verified",
     "characters": 60873,
     "fullTextSha256": "81e4c38f840641654bcde391f040802209b871ef7cf08ff521c9b8d359d7433d",
-    "parserStatus": "duplicate",
-    "accepted": 0,
+    "parserStatus": "processed",
+    "accepted": 1,
     "duplicates": 28,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "coverage_reviewed",
+    "reviewReason": "29 units:28existing plus actual sheet title スポーツ活動の普及; contents typo スポーツ施設の普及 must not replace sheet title. No numbers inferred."
   },
   {
     "municipalityCode": "27219",
@@ -884,11 +884,11 @@
     "inventoryStatus": "complete_hash_verified",
     "characters": 62387,
     "fullTextSha256": "4f67332edc90685dee4ff4e5d0a3496b754a2ff074d3c1a07935443a29e2f30b",
-    "parserStatus": "duplicate",
-    "accepted": 0,
+    "parserStatus": "processed",
+    "accepted": 2,
     "duplicates": 25,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "coverage_reviewed",
+    "reviewReason": "27 units:25existing plus sports and cultural-property units; wrapped title/repeated second-page headers reviewed, not separate records."
   },
   {
     "municipalityCode": "27218",
@@ -921,8 +921,8 @@
     "parserStatus": "duplicate",
     "accepted": 0,
     "duplicates": 17,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "record_coverage_verified",
+    "reviewReason": "17 explicit individual FY2025 decision-year sheets matched all17 existing identities; no missing record established. This is record-identity coverage, not all-field completeness."
   },
   {
     "municipalityCode": "27217",
@@ -935,11 +935,11 @@
     "inventoryStatus": "complete_hash_verified",
     "characters": 5012,
     "fullTextSha256": "c12fe1e5d4dec052d19218f6a6d538e78f41bb48731b4c97df5c9b5595c234e7",
-    "parserStatus": "navigation",
-    "accepted": 0,
-    "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "parserStatus": "processed",
+    "accepted": 294,
+    "duplicates": 5,
+    "reviewDisposition": "processed_partial",
+    "reviewReason": "304 official names:299 proposed,5 prior exact duplicates reduce to294 new candidates;4 repeated names across departments and1alias held. Only annual index names/departments/year; no full-sheet or numeric coverage claim."
   },
   {
     "municipalityCode": "27217",
@@ -955,8 +955,8 @@
     "parserStatus": "duplicate",
     "accepted": 0,
     "duplicates": 6,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "record_coverage_verified",
+    "reviewReason": "All6 individual sheets mapped to6 existing records; administrative-evaluation name alias in index held and old values retained."
   },
   {
     "municipalityCode": "27217",
@@ -985,7 +985,7 @@
     "accepted": 0,
     "duplicates": 0,
     "reviewDisposition": "missing_body",
-    "reviewReason": "No saved text; acquisition remains held."
+    "reviewReason": "No readable saved text asset and no listed continuation. Metadata/title alone cannot supply an individual sheet. Acquisition held pending original cumulative stop evidence; this is not a current host-denial claim."
   },
   {
     "municipalityCode": "27217",
@@ -1014,7 +1014,7 @@
     "accepted": 0,
     "duplicates": 0,
     "reviewDisposition": "missing_body",
-    "reviewReason": "No saved text; acquisition remains held."
+    "reviewReason": "No readable saved text asset and no listed continuation. Metadata/title alone cannot supply an individual sheet. Acquisition held pending original cumulative stop evidence; this is not a current host-denial claim."
   },
   {
     "municipalityCode": "27217",
@@ -1043,7 +1043,7 @@
     "accepted": 0,
     "duplicates": 0,
     "reviewDisposition": "missing_body",
-    "reviewReason": "No saved text; acquisition remains held."
+    "reviewReason": "No readable saved text asset and no listed continuation. Metadata/title alone cannot supply an individual sheet. Acquisition held pending original cumulative stop evidence; this is not a current host-denial claim."
   },
   {
     "municipalityCode": "27217",
@@ -1072,7 +1072,7 @@
     "accepted": 0,
     "duplicates": 0,
     "reviewDisposition": "missing_body",
-    "reviewReason": "No saved text; acquisition remains held."
+    "reviewReason": "No readable saved text asset and no listed continuation. Metadata/title alone cannot supply an individual sheet. Acquisition held pending original cumulative stop evidence; this is not a current host-denial claim."
   },
   {
     "municipalityCode": "27216",
@@ -1339,7 +1339,7 @@
     "accepted": 0,
     "duplicates": 0,
     "reviewDisposition": "missing_body",
-    "reviewReason": "No saved text; acquisition remains held."
+    "reviewReason": "No readable saved text asset and no listed continuation. Metadata/title alone cannot supply an individual sheet. Acquisition held pending original cumulative stop evidence; this is not a current host-denial claim."
   },
   {
     "municipalityCode": "27208",
@@ -1542,8 +1542,8 @@
     "parserStatus": "unsupported_layout",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "field_review_pending",
+    "reviewReason": "All19 response identities match FY2018 evaluations; no new evaluation-year records. Multi-column text interleaves primary/secondary assessments, commissioner comments and actual/future responses. Field boundaries need explicit segment mapping; no current access denial and no field accepted yet."
   },
   {
     "municipalityCode": "27205",
@@ -1559,8 +1559,8 @@
     "parserStatus": "unsupported_layout",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "field_review_pending",
+    "reviewReason": "Six FY2019 responses refer to priorFY2018 evaluations; no six newprojects. Actual review/visits and future plans need separately bounded quotes; fiscal-year identity remains prior evaluation."
   },
   {
     "municipalityCode": "27205",
@@ -1576,8 +1576,8 @@
     "parserStatus": "unsupported_layout",
     "accepted": 0,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "field_review_pending",
+    "reviewReason": "One FY2020 response for existing児童会館運営事業 explicitly says designated-manager requirements revised and direction confirmed. A reliable narrative enrichment is possible using ordered column fragments and full-page hash evidence; it is not a newFY2020 evaluation record."
   },
   {
     "municipalityCode": "27204",
