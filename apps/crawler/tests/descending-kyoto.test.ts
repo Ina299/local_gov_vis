@@ -19,8 +19,8 @@ const inputs=configs.map(c=>source(c.sourceId,c.municipalityCode));
 for(const c of configs)if(c.pageId&&!inputs.some(i=>i.sourceId===c.pageId))inputs.push(source(c.pageId,c.municipalityCode));
 const run=(id:string)=>reviewKyoto(inputs.find(i=>i.sourceId===id)!,inputs)!;
 
-test('Kyoto82 proposed annual identities retain exact hashes and bounded title fragments',()=>{
- let n=0;const ids=new Set<string>();for(const c of configs){const i=inputs.find(x=>x.sourceId===c.sourceId)!;const r=run(c.sourceId);n+=r.projects.length;assert.equal(r.projects.length,c.rows.length);for(const p of r.projects){assert.ok(!ids.has(p.id),p.id);ids.add(p.id);assert.equal(p.amounts.length,0);assert.equal(p.indicators.length,0);assert.equal(p.ratings.length,0);for(const e of p.evidence){const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;const src=inputs.find(x=>x.sourceUrl===e.sourceUrl)!;assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}for(const bad of [{...i,text:i.text+'x'},{...i,sourceSha256:'x'},{...i,truncated:true}])assert.equal(reviewKyoto(bad,inputs)!.projects.length,0);}assert.equal(n,82);
+test('Kyoto395 reviewed annual identities retain exact hashes and bounded title fragments',()=>{
+ let n=0;const ids=new Set<string>();for(const c of configs){const i=inputs.find(x=>x.sourceId===c.sourceId)!;const r=run(c.sourceId);n+=r.projects.length;assert.equal(r.projects.length,c.rows.length);for(const p of r.projects){assert.ok(!ids.has(p.id),p.id);ids.add(p.id);assert.equal(p.amounts.length,0);assert.equal(p.indicators.length,0);assert.equal(p.ratings.length,0);for(const e of p.evidence){const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;const src=inputs.find(x=>x.sourceUrl===e.sourceUrl)!;assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}for(const bad of [{...i,text:i.text+'x'},{...i,sourceSha256:'x'},{...i,truncated:true}])assert.equal(reviewKyoto(bad,inputs)!.projects.length,0);}assert.equal(n,395);
 });
 test('Ine annual conflicts and reprinted capital expenses do not produce extra records',()=>{
  const r=run('4d9cd8710cde81888a4b3639');assert.equal(r.projects.length,3);assert.ok(r.units.some(u=>u.status==='conflicting_period_hold'));assert.ok(!r.projects.some(p=>p.projectName.endsWith('活用した地域活性化計画')));
@@ -38,4 +38,13 @@ test('Same-named primary and secondary-school sheets need exact accounting ident
 });
 test('Kasagi four benefit identities retain target-year and carryover distinctions without costs',()=>{
  const ps=run('ebaf1f1b0ab21b13f9a55407').projects;assert.equal(ps.length,4);assert.ok(ps.every(p=>p.evaluatedFiscalYear===2023&&p.amounts.length===0));assert.equal(new Set(ps.map(p=>p.projectName)).size,4);
+});
+
+test('Yawata full continuation keeps annual activity names and rejects funding, statistics and guessed amounts',()=>{
+ const r=run('70cb11f7640c217cbd971c51');assert.equal(r.projects.length,313);
+ assert.ok(r.projects.every(p=>p.evaluatedFiscalYear===2021&&p.evaluationYear===null&&p.amounts.length===0&&p.ratings.length===0&&p.indicators.length===0));
+ for(const name of ['（国）','（府）','支払基金交付金','グラウンド','国補正分','一般分'])assert.ok(!r.projects.some(p=>p.projectName===name),name);
+ for(const name of ['地域ケア会議推進','府道八幡インター線整備事業費負担金','木造住宅耐震改修助成','妊婦保健指導'])assert.ok(r.projects.some(p=>p.projectName===name),name);
+ assert.ok(r.projects.some(p=>p.evidence.some(e=>Number(e.cell?.match(/chars:(\d+)/)?.[1])>120000)));
+ assert.ok(r.units.some(u=>u.status==='identity_review_pending_hold'));
 });

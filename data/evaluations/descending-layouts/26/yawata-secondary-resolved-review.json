@@ -1,0 +1,951 @@
+{
+  "secondaryParagraphs": 155,
+  "rows": [
+    {
+      "index": 0,
+      "name": "高齢者福祉事業",
+      "status": "aggregate_not_record",
+      "reason": "主要施策本文前の社会保障等の財源集計であり、本文の事業と重複する。"
+    },
+    {
+      "index": 1,
+      "name": "保健衛生",
+      "status": "aggregate_not_record",
+      "reason": "主要施策本文前の社会保障等の財源集計であり、本文の事業と重複する。"
+    },
+    {
+      "index": 2,
+      "name": "障がい者福祉事業",
+      "status": "aggregate_not_record",
+      "reason": "主要施策本文前の社会保障等の財源集計であり、本文の事業と重複する。"
+    },
+    {
+      "index": 3,
+      "name": "生活保護扶助事業",
+      "status": "aggregate_not_record",
+      "reason": "主要施策本文前の社会保障等の財源集計であり、本文の事業と重複する。"
+    },
+    {
+      "index": 4,
+      "name": "医療費助成事業業",
+      "status": "aggregate_not_record",
+      "reason": "主要施策本文前の社会保障等の財源集計であり、本文の事業と重複する。"
+    },
+    {
+      "index": 5,
+      "name": "医療体制確保事業",
+      "status": "aggregate_not_record",
+      "reason": "主要施策本文前の社会保障等の財源集計であり、本文の事業と重複する。"
+    },
+    {
+      "index": 6,
+      "name": "疾病予防対策事業母合",
+      "status": "aggregate_not_record",
+      "reason": "主要施策本文前の社会保障等の財源集計であり、本文の事業と重複する。"
+    },
+    {
+      "index": 7,
+      "name": "議会運営及び議員活動",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 8,
+      "name": "一般行政事務管理",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 9,
+      "name": "税務一般総務費税務一般事務経費確定申告作成業務委託税務協議会分担金",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 10,
+      "name": "統計調査一般総務",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 11,
+      "name": "学校基本調査",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 12,
+      "name": "経済センサス活動調査",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 13,
+      "name": "監査事務",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 14,
+      "name": "くらしの資金貸付金生活困窮者自立支援",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "前後を確認した主要施策欄又は同じ行の本文に明示された名称。連結された別事業名は分離。",
+      "alreadyCoveredNames": [
+        "生活困窮者自立支援"
+      ]
+    },
+    {
+      "index": 15,
+      "name": "給付対象",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 16,
+      "name": "給付金給付",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 17,
+      "name": "給付世帯数生活保護",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 18,
+      "name": "立替金貸付金福祉基金積",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 19,
+      "name": "生活保護申請者つなぎ資金緊急貸付単身世帯",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 20,
+      "name": "保険者支援分",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 21,
+      "name": "財政支援分",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 22,
+      "name": "市独自分事務費分",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 23,
+      "name": "福祉会館運営利用者数指定管理者指定管理料",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 24,
+      "name": "保険給付費分地域支援事業費分低所得者保険料軽減分事務費分",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 25,
+      "name": "定率負担金分保険基盤安定分事務費分",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 26,
+      "name": "自立支援",
+      "status": "parent_group_not_record",
+      "reason": "自立支援・地域生活支援・その他事業の上位集計区分。個別支援活動に加えて親を重複計上しない。"
+    },
+    {
+      "index": 27,
+      "name": "地域生活支援",
+      "status": "parent_group_not_record",
+      "reason": "自立支援・地域生活支援・その他事業の上位集計区分。個別支援活動に加えて親を重複計上しない。"
+    },
+    {
+      "index": 28,
+      "name": "意思疎通支援",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "前後を確認した主要施策欄又は同じ行の本文に明示された名称。連結された別事業名は分離。"
+    },
+    {
+      "index": 29,
+      "name": "移動支援",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "前後を確認した主要施策欄又は同じ行の本文に明示された名称。連結された別事業名は分離。"
+    },
+    {
+      "index": 30,
+      "name": "補装具給付障がい者障がい児補装具修理障がい者障がい児",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 31,
+      "name": "地域生活支援",
+      "status": "parent_group_not_record",
+      "reason": "自立支援・地域生活支援・その他事業の上位集計区分。個別支援活動に加えて親を重複計上しない。"
+    },
+    {
+      "index": 32,
+      "name": "地域活動支援センター",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "前後を確認した主要施策欄又は同じ行の本文に明示された名称。連結された別事業名は分離。"
+    },
+    {
+      "index": 33,
+      "name": "その他事業",
+      "status": "parent_group_not_record",
+      "reason": "自立支援・地域生活支援・その他事業の上位集計区分。個別支援活動に加えて親を重複計上しない。"
+    },
+    {
+      "index": 34,
+      "name": "地域生活支援",
+      "status": "parent_group_not_record",
+      "reason": "自立支援・地域生活支援・その他事業の上位集計区分。個別支援活動に加えて親を重複計上しない。"
+    },
+    {
+      "index": 35,
+      "name": "地域生活支援拠点事業",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "前後を確認した主要施策欄又は同じ行の本文に明示された名称。連結された別事業名は分離。"
+    },
+    {
+      "index": 36,
+      "name": "児童福祉一般事務",
+      "status": "secondary_review_pending",
+      "reason": "本文前後と既存候補との境界・同一性の追加確認が必要。見出しキーワードだけでは候補化しない。"
+    },
+    {
+      "index": 37,
+      "name": "小児慢性特定疾病児童日常生活用具給付延",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 38,
+      "name": "軽・中等度難聴児支援事業助成",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 39,
+      "name": "民間認定こども園運営",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 40,
+      "name": "病児保育",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 41,
+      "name": "助産費助成",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 42,
+      "name": "子育て世帯生活支援特別給付金給付",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 43,
+      "name": "公立認定こども園運営",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 44,
+      "name": "子ども・子育て支援センター児童数",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 45,
+      "name": "［主な経費内訳］南山小学校内放課後児童健全育成施設行政ＬＡＮ構築業務委託",
+      "status": "expense_component",
+      "reason": "主事業の備品・委託・工事内訳。新規の独立事業として追加しない。"
+    },
+    {
+      "index": 46,
+      "name": "事業用備品購入",
+      "status": "expense_component",
+      "reason": "主事業の備品・委託・工事内訳。新規の独立事業として追加しない。"
+    },
+    {
+      "index": 47,
+      "name": "新型コロナウイルス感染症対策備品空気清浄機",
+      "status": "expense_component",
+      "reason": "主事業の備品・委託・工事内訳。新規の独立事業として追加しない。"
+    },
+    {
+      "index": 48,
+      "name": "災害救助活動",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 49,
+      "name": "妊妊婦保健産指導婦保健指導",
+      "status": "secondary_review_pending",
+      "reason": "本文前後と既存候補との境界・同一性の追加確認が必要。見出しキーワードだけでは候補化しない。"
+    },
+    {
+      "index": 50,
+      "name": "妊婦健康診査事業診査委託",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 51,
+      "name": "診査助成",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 52,
+      "name": "産婦健康診査事業診査委託受診者診査助成受診者",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 53,
+      "name": "健康づくり推進",
+      "status": "parent_group_not_record",
+      "reason": "健康づくり・農業振興・防災対策等の上位グループ見出し。下位の具体的な活動と二重計上しない。"
+    },
+    {
+      "index": 54,
+      "name": "やわたヘルスプロモーション推進",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 55,
+      "name": "後期高齢者等健康診査生活予防習慣病検診",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 56,
+      "name": "「美しいまちづくりまかせて！」事業",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 57,
+      "name": "公害調査・防止河川水質調査",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 58,
+      "name": "母子健康センター管理運営施設管理業務委託",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 59,
+      "name": "清掃一般事務",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 60,
+      "name": "城南衛生管理組合じんかい関係負担金",
+      "status": "financial_or_account_transfer",
+      "reason": "広域組合負担・別会計繰出出資補助又は基金積立の項目。サービス実施事業として追加しない。"
+    },
+    {
+      "index": 61,
+      "name": "城南衛生管理組合し尿関係負担金",
+      "status": "financial_or_account_transfer",
+      "reason": "広域組合負担・別会計繰出出資補助又は基金積立の項目。サービス実施事業として追加しない。"
+    },
+    {
+      "index": 62,
+      "name": "水道事業会計出資金",
+      "status": "financial_or_account_transfer",
+      "reason": "広域組合負担・別会計繰出出資補助又は基金積立の項目。サービス実施事業として追加しない。"
+    },
+    {
+      "index": 63,
+      "name": "水道事業会計補助金",
+      "status": "financial_or_account_transfer",
+      "reason": "広域組合負担・別会計繰出出資補助又は基金積立の項目。サービス実施事業として追加しない。"
+    },
+    {
+      "index": 64,
+      "name": "技能修得施設入所支度金助成就労支援",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "前後を確認した主要施策欄又は同じ行の本文に明示された名称。連結された別事業名は分離。"
+    },
+    {
+      "index": 65,
+      "name": "農業振興対策",
+      "status": "parent_group_not_record",
+      "reason": "健康づくり・農業振興・防災対策等の上位グループ見出し。下位の具体的な活動と二重計上しない。"
+    },
+    {
+      "index": 66,
+      "name": "野菜価格安定対策",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 67,
+      "name": "維持管理",
+      "status": "covered_title_fragment",
+      "reason": "排水機場維持管理の名称後半。施策内容欄の完全名を別途確認し抽出。"
+    },
+    {
+      "index": 68,
+      "name": "川北排水機場維持管理排水区域面積",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "前後を確認した主要施策欄又は同じ行の本文に明示された名称。連結された別事業名は分離。"
+    },
+    {
+      "index": 69,
+      "name": "操作・点検等維持管理",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 70,
+      "name": "自家用電気工作物保安管理",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 71,
+      "name": "土地改良施設維持管理適正化事業負担金監視カメラ設備更新分",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 72,
+      "name": "多面的機能促進事業負担金実施主体",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 73,
+      "name": "事業内容",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 74,
+      "name": "森林環境整備基金積立金",
+      "status": "financial_or_account_transfer",
+      "reason": "広域組合負担・別会計繰出出資補助又は基金積立の項目。サービス実施事業として追加しない。"
+    },
+    {
+      "index": 75,
+      "name": "中小企業金融対策",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 76,
+      "name": "法定外公共物管理システム保守委託",
+      "status": "expense_component",
+      "reason": "主事業の備品・委託・工事内訳。新規の独立事業として追加しない。"
+    },
+    {
+      "index": 77,
+      "name": "一般事務",
+      "status": "secondary_review_pending",
+      "reason": "本文前後と既存候補との境界・同一性の追加確認が必要。見出しキーワードだけでは候補化しない。"
+    },
+    {
+      "index": 78,
+      "name": "道路台帳整備新規",
+      "status": "expense_component",
+      "reason": "主事業の備品・委託・工事内訳。新規の独立事業として追加しない。"
+    },
+    {
+      "index": 79,
+      "name": "街路樹管理委託",
+      "status": "expense_component",
+      "reason": "主事業の備品・委託・工事内訳。新規の独立事業として追加しない。"
+    },
+    {
+      "index": 80,
+      "name": "ポケットパーク管理委託",
+      "status": "expense_component",
+      "reason": "主事業の備品・委託・工事内訳。新規の独立事業として追加しない。"
+    },
+    {
+      "index": 81,
+      "name": "道路等美化推進業務委託",
+      "status": "expense_component",
+      "reason": "主事業の備品・委託・工事内訳。新規の独立事業として追加しない。"
+    },
+    {
+      "index": 82,
+      "name": "拠点整備",
+      "status": "covered_or_incomplete_fragment",
+      "reason": "前後の明示名称に結合して検討済みの断片又は不完全な分類語。単独事業ではない。"
+    },
+    {
+      "index": 83,
+      "name": "埋蔵文化財調査委託",
+      "status": "expense_component",
+      "reason": "主事業の備品・委託・工事内訳。新規の独立事業として追加しない。"
+    },
+    {
+      "index": 84,
+      "name": "拠点整備",
+      "status": "covered_or_incomplete_fragment",
+      "reason": "前後の明示名称に結合して検討済みの断片又は不完全な分類語。単独事業ではない。"
+    },
+    {
+      "index": 85,
+      "name": "橋本駅前仮設ロータリー等整備",
+      "status": "expense_component",
+      "reason": "主事業の備品・委託・工事内訳。新規の独立事業として追加しない。"
+    },
+    {
+      "index": 86,
+      "name": "整備事業費",
+      "status": "covered_or_incomplete_fragment",
+      "reason": "前後の明示名称に結合して検討済みの断片又は不完全な分類語。単独事業ではない。"
+    },
+    {
+      "index": 87,
+      "name": "維持管理",
+      "status": "covered_title_fragment",
+      "reason": "排水機場維持管理の名称後半。施策内容欄の完全名を別途確認し抽出。"
+    },
+    {
+      "index": 88,
+      "name": "都市計画一般事務",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 89,
+      "name": "八幡排水機場維持管理ポンプ運転・ゲート及び除塵機操作",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "前後を確認した主要施策欄又は同じ行の本文に明示された名称。連結された別事業名は分離。"
+    },
+    {
+      "index": 90,
+      "name": "関する事業",
+      "status": "covered_or_incomplete_fragment",
+      "reason": "前後の明示名称に結合して検討済みの断片又は不完全な分類語。単独事業ではない。"
+    },
+    {
+      "index": 91,
+      "name": "関連事務",
+      "status": "covered_or_incomplete_fragment",
+      "reason": "前後の明示名称に結合して検討済みの断片又は不完全な分類語。単独事業ではない。"
+    },
+    {
+      "index": 92,
+      "name": "下水道事業",
+      "status": "financial_or_account_transfer",
+      "reason": "広域組合負担・別会計繰出出資補助又は基金積立の項目。サービス実施事業として追加しない。"
+    },
+    {
+      "index": 93,
+      "name": "市民スポーツ施設・都市公園等管理",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 94,
+      "name": "緑化推進活",
+      "status": "covered_or_incomplete_fragment",
+      "reason": "前後の明示名称に結合して検討済みの断片又は不完全な分類語。単独事業ではない。"
+    },
+    {
+      "index": 95,
+      "name": "花のまちづくり事業",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 96,
+      "name": "自然保護緑化促進交付金",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 97,
+      "name": "自然保護緑化促進交付金",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 98,
+      "name": "耐震診断",
+      "status": "covered_or_incomplete_fragment",
+      "reason": "前後の明示名称に結合して検討済みの断片又は不完全な分類語。単独事業ではない。"
+    },
+    {
+      "index": 99,
+      "name": "改修助成",
+      "status": "secondary_review_pending",
+      "reason": "本文前後と既存候補との境界・同一性の追加確認が必要。見出しキーワードだけでは候補化しない。"
+    },
+    {
+      "index": 100,
+      "name": "木造住宅簡易耐震改修事業費助成",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 101,
+      "name": "資金等貸付事業",
+      "status": "financial_or_account_transfer",
+      "reason": "広域組合負担・別会計繰出出資補助又は基金積立の項目。サービス実施事業として追加しない。"
+    },
+    {
+      "index": 102,
+      "name": "女性防火推進隊員",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 103,
+      "name": "防災対策",
+      "status": "parent_group_not_record",
+      "reason": "健康づくり・農業振興・防災対策等の上位グループ見出し。下位の具体的な活動と二重計上しない。"
+    },
+    {
+      "index": 104,
+      "name": "防災対策",
+      "status": "parent_group_not_record",
+      "reason": "健康づくり・農業振興・防災対策等の上位グループ見出し。下位の具体的な活動と二重計上しない。"
+    },
+    {
+      "index": 105,
+      "name": "教育委員定例会臨時会学校等訪問",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 106,
+      "name": "特別支援教育支援",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 107,
+      "name": "小学校管理運営",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 108,
+      "name": "くすのき小学校・さくら小学校屋内運動場空調設備等整備工事設計業務委託",
+      "status": "expense_component",
+      "reason": "主事業の備品・委託・工事内訳。新規の独立事業として追加しない。"
+    },
+    {
+      "index": 109,
+      "name": "中学校管理運営",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 110,
+      "name": "幼稚園管理運営",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 111,
+      "name": "一般保護",
+      "status": "secondary_review_pending",
+      "reason": "本文前後と既存候補との境界・同一性の追加確認が必要。見出しキーワードだけでは候補化しない。"
+    },
+    {
+      "index": 112,
+      "name": "講座運営",
+      "status": "secondary_review_pending",
+      "reason": "本文前後と既存候補との境界・同一性の追加確認が必要。見出しキーワードだけでは候補化しない。"
+    },
+    {
+      "index": 113,
+      "name": "文化センター管理運営",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 114,
+      "name": "保健体育一般事務",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 115,
+      "name": "診療所一般管理",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 116,
+      "name": "駐車場管理運営",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 117,
+      "name": "一般管理",
+      "status": "secondary_review_pending",
+      "reason": "本文前後と既存候補との境界・同一性の追加確認が必要。見出しキーワードだけでは候補化しない。"
+    },
+    {
+      "index": 118,
+      "name": "普通徴収",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 119,
+      "name": "うち併用徴収",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 120,
+      "name": "居宅介護サービス給付分",
+      "status": "usage_statistic",
+      "reason": "介護給付内の利用サービス区分・給付内訳。親の給付事業と二重計上しない。"
+    },
+    {
+      "index": 121,
+      "name": "居宅療養管理指導",
+      "status": "usage_statistic",
+      "reason": "介護給付内の利用サービス区分・給付内訳。親の給付事業と二重計上しない。"
+    },
+    {
+      "index": 122,
+      "name": "地域密着型介護サービス給付分",
+      "status": "usage_statistic",
+      "reason": "介護給付内の利用サービス区分・給付内訳。親の給付事業と二重計上しない。"
+    },
+    {
+      "index": 123,
+      "name": "施設介護サービス給付分",
+      "status": "usage_statistic",
+      "reason": "介護給付内の利用サービス区分・給付内訳。親の給付事業と二重計上しない。"
+    },
+    {
+      "index": 124,
+      "name": "計画給付費",
+      "status": "covered_or_incomplete_fragment",
+      "reason": "前後の明示名称に結合して検討済みの断片又は不完全な分類語。単独事業ではない。"
+    },
+    {
+      "index": 125,
+      "name": "計画給付",
+      "status": "covered_or_incomplete_fragment",
+      "reason": "前後の明示名称に結合して検討済みの断片又は不完全な分類語。単独事業ではない。"
+    },
+    {
+      "index": 126,
+      "name": "介護予防サービス給付",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 127,
+      "name": "介護予防サービス給付分",
+      "status": "usage_statistic",
+      "reason": "介護給付内の利用サービス区分・給付内訳。親の給付事業と二重計上しない。"
+    },
+    {
+      "index": 128,
+      "name": "介護予防訪問看護",
+      "status": "usage_statistic",
+      "reason": "介護給付内の利用サービス区分・給付内訳。親の給付事業と二重計上しない。"
+    },
+    {
+      "index": 129,
+      "name": "介護予防訪問リハビリテーション",
+      "status": "usage_statistic",
+      "reason": "介護給付内の利用サービス区分・給付内訳。親の給付事業と二重計上しない。"
+    },
+    {
+      "index": 130,
+      "name": "介護予防通所リハビリテーション",
+      "status": "usage_statistic",
+      "reason": "介護給付内の利用サービス区分・給付内訳。親の給付事業と二重計上しない。"
+    },
+    {
+      "index": 131,
+      "name": "介護予防短期入所生活介護",
+      "status": "usage_statistic",
+      "reason": "介護給付内の利用サービス区分・給付内訳。親の給付事業と二重計上しない。"
+    },
+    {
+      "index": 132,
+      "name": "介護予防短期入所療養介護",
+      "status": "usage_statistic",
+      "reason": "介護給付内の利用サービス区分・給付内訳。親の給付事業と二重計上しない。"
+    },
+    {
+      "index": 133,
+      "name": "介護予防特定施設入居者生活介護",
+      "status": "usage_statistic",
+      "reason": "介護給付内の利用サービス区分・給付内訳。親の給付事業と二重計上しない。"
+    },
+    {
+      "index": 134,
+      "name": "介護予防居宅療養管理指導",
+      "status": "usage_statistic",
+      "reason": "介護給付内の利用サービス区分・給付内訳。親の給付事業と二重計上しない。"
+    },
+    {
+      "index": 135,
+      "name": "介護予防訪問入浴介護",
+      "status": "usage_statistic",
+      "reason": "介護給付内の利用サービス区分・給付内訳。親の給付事業と二重計上しない。"
+    },
+    {
+      "index": 136,
+      "name": "介護予防福祉用具貸与",
+      "status": "usage_statistic",
+      "reason": "介護給付内の利用サービス区分・給付内訳。親の給付事業と二重計上しない。"
+    },
+    {
+      "index": 137,
+      "name": "地域密着型介護予防サービス給付分",
+      "status": "usage_statistic",
+      "reason": "介護給付内の利用サービス区分・給付内訳。親の給付事業と二重計上しない。"
+    },
+    {
+      "index": 138,
+      "name": "介護予防小規模多機能型居宅介護",
+      "status": "usage_statistic",
+      "reason": "介護給付内の利用サービス区分・給付内訳。親の給付事業と二重計上しない。"
+    },
+    {
+      "index": 139,
+      "name": "介護予防認知症対応型通所介護",
+      "status": "usage_statistic",
+      "reason": "介護給付内の利用サービス区分・給付内訳。親の給付事業と二重計上しない。"
+    },
+    {
+      "index": 140,
+      "name": "介護予防",
+      "status": "covered_or_incomplete_fragment",
+      "reason": "前後の明示名称に結合して検討済みの断片又は不完全な分類語。単独事業ではない。"
+    },
+    {
+      "index": 141,
+      "name": "介護予防",
+      "status": "covered_or_incomplete_fragment",
+      "reason": "前後の明示名称に結合して検討済みの断片又は不完全な分類語。単独事業ではない。"
+    },
+    {
+      "index": 142,
+      "name": "計画給付費",
+      "status": "covered_or_incomplete_fragment",
+      "reason": "前後の明示名称に結合して検討済みの断片又は不完全な分類語。単独事業ではない。"
+    },
+    {
+      "index": 143,
+      "name": "計画給付",
+      "status": "covered_or_incomplete_fragment",
+      "reason": "前後の明示名称に結合して検討済みの断片又は不完全な分類語。単独事業ではない。"
+    },
+    {
+      "index": 144,
+      "name": "介護予防短期入所生活介護",
+      "status": "usage_statistic",
+      "reason": "介護給付内の利用サービス区分・給付内訳。親の給付事業と二重計上しない。"
+    },
+    {
+      "index": 145,
+      "name": "介護予防短期入所生活介護",
+      "status": "usage_statistic",
+      "reason": "介護給付内の利用サービス区分・給付内訳。親の給付事業と二重計上しない。"
+    },
+    {
+      "index": 146,
+      "name": "閉じこもり予防支援",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 147,
+      "name": "高齢者口腔機能向上支援",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 148,
+      "name": "閉じこもり予防",
+      "status": "secondary_review_pending",
+      "reason": "本文前後と既存候補との境界・同一性の追加確認が必要。見出しキーワードだけでは候補化しない。"
+    },
+    {
+      "index": 149,
+      "name": "地域包括支援センター運営",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 150,
+      "name": "見守り支援対象者把握",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 151,
+      "name": "介護支援サポーター",
+      "status": "reviewed_proposal_not_validated",
+      "reason": "数値直前のパターンで漏れた主要施策欄を本文前後で確認。数値対応は推測しない。"
+    },
+    {
+      "index": 152,
+      "name": "利用者へ介護給付費を通知",
+      "status": "detail_or_existing_identity",
+      "reason": "本文前後を確認。既に抽出した事業の説明・費目・対象・利用実績・別表記のいずれかで、独立事業の追加としない。"
+    },
+    {
+      "index": 153,
+      "name": "介護保険給付費基金積立",
+      "status": "financial_or_account_transfer",
+      "reason": "広域組合負担・別会計繰出出資補助又は基金積立の項目。サービス実施事業として追加しない。"
+    },
+    {
+      "index": 154,
+      "name": "一般管理",
+      "status": "secondary_review_pending",
+      "reason": "本文前後と既存候補との境界・同一性の追加確認が必要。見出しキーワードだけでは候補化しない。"
+    }
+  ],
+  "statusCounts": {
+    "aggregate_not_record": 7,
+    "reviewed_proposal_not_validated": 40,
+    "detail_or_existing_identity": 37,
+    "parent_group_not_record": 9,
+    "secondary_review_pending": 9,
+    "expense_component": 11,
+    "financial_or_account_transfer": 8,
+    "covered_title_fragment": 2,
+    "covered_or_incomplete_fragment": 13,
+    "usage_statistic": 19
+  },
+  "proposalsAcrossBothScreens": 308
+}

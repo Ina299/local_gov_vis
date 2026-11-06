@@ -1,0 +1,2549 @@
+{
+  "sourceId": "70cb11f7640c217cbd971c51",
+  "fullTextSha256": "0832c90643ed0d017ad45ee59c6735c66b84a0b552dad90893840b62b2332de9",
+  "reviewedHeadingCandidates": 418,
+  "remainingHeadingCandidates": 0,
+  "proposals": 267,
+  "rows": [
+    {
+      "index": 0,
+      "raw": "高 齢 者 福 祉 事 業",
+      "disposition": "aggregate_not_record",
+      "reason": "主要な施策本文より前にある社会保障財源充当の集計表。本文の同事業と重複するため個別事業として追加しない。"
+    },
+    {
+      "index": 1,
+      "raw": "医 療 費 助 成 事 業\n業",
+      "disposition": "aggregate_not_record",
+      "reason": "主要な施策本文より前にある社会保障財源充当の集計表。本文の同事業と重複するため個別事業として追加しない。"
+    },
+    {
+      "index": 2,
+      "raw": "医 療 体 制 確 保 事 業",
+      "disposition": "aggregate_not_record",
+      "reason": "主要な施策本文より前にある社会保障財源充当の集計表。本文の同事業と重複するため個別事業として追加しない。"
+    },
+    {
+      "index": 3,
+      "name": "契約検査事務",
+      "start": 47604,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 4,
+      "name": "指定管理者選定",
+      "start": 47628,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 5,
+      "raw": "職員退職手当\n基 金 積 立",
+      "disposition": "financial_aggregate",
+      "reason": "基金積立の金融・財政集計項目。個別の住民向け事業として追加しない。"
+    },
+    {
+      "index": 6,
+      "name": "庁舎管理",
+      "start": 48048,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 7,
+      "name": "庁舎整備",
+      "start": 48071,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 8,
+      "name": "庁舎整備（ＩＴ関連）",
+      "start": 48400,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 9,
+      "name": "庁舎及び敷地環境整備",
+      "start": 48506,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 10,
+      "name": "車両管理",
+      "start": 48957,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 11,
+      "name": "広報活動",
+      "start": 49034,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 12,
+      "name": "広聴活動",
+      "start": 49055,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 13,
+      "name": "情報公開個人情報保護",
+      "start": 49663,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 14,
+      "name": "例規管理",
+      "start": 49908,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 15,
+      "name": "財政管理",
+      "start": 49997,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 16,
+      "raw": "基 金 積 立",
+      "disposition": "financial_aggregate",
+      "reason": "基金積立の金融・財政集計項目。個別の住民向け事業として追加しない。"
+    },
+    {
+      "index": 17,
+      "name": "会計管理",
+      "start": 50627,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 18,
+      "name": "財産維持管理",
+      "start": 50656,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 19,
+      "name": "企画調整",
+      "start": 50684,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 20,
+      "name": "公平委員会運営",
+      "start": 50857,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 21,
+      "name": "バス交通対策",
+      "start": 50961,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 22,
+      "name": "公共交通事業者等支援",
+      "start": 51623,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 23,
+      "name": "交通安全対策",
+      "start": 51652,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 24,
+      "name": "電算化推進",
+      "start": 51671,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 25,
+      "name": "平和推進",
+      "start": 52825,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 26,
+      "name": "コミュニティ事業",
+      "start": 53184,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 27,
+      "name": "男山地域再生",
+      "start": 53910,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 28,
+      "name": "市民協働活動",
+      "start": 53934,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 29,
+      "name": "女性政策推進",
+      "start": 53953,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 30,
+      "name": "八幡産てん茶普及啓発",
+      "start": 54869,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 31,
+      "name": "お茶の京都普及啓発",
+      "start": 54916,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 32,
+      "name": "防犯対策",
+      "start": 55050,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 33,
+      "name": "犯罪被害者等支援",
+      "start": 55331,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 34,
+      "name": "消費生活対策",
+      "start": 55574,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 35,
+      "name": "自衛官募集委託事務",
+      "start": 55594,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 36,
+      "name": "ふれあい交流事業",
+      "start": 55617,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 37,
+      "raw": "（国）",
+      "disposition": "column_label",
+      "reason": "国・府等の財源列ラベルであり事業名ではない。"
+    },
+    {
+      "index": 38,
+      "name": "固定資産評価審査委員会運営",
+      "start": 56238,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 39,
+      "name": "賦課徴収",
+      "start": 56264,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 40,
+      "name": "選挙管理委員会運営",
+      "start": 58369,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 41,
+      "raw": "（府）",
+      "disposition": "column_label",
+      "reason": "国・府等の財源列ラベルであり事業名ではない。"
+    },
+    {
+      "index": 42,
+      "name": "選挙啓発活動",
+      "start": 58420,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 43,
+      "name": "衆議院議員総選挙執行",
+      "start": 58452,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 44,
+      "name": "知事選挙執行",
+      "start": 58594,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 45,
+      "name": "戦没者遺族等援護",
+      "start": 59711,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 46,
+      "raw": "（府）",
+      "disposition": "column_label",
+      "reason": "国・府等の財源列ラベルであり事業名ではない。"
+    },
+    {
+      "index": 47,
+      "name": "戦没者追悼",
+      "start": 59746,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 48,
+      "name": "重度心身障害老人健康管理",
+      "start": 59762,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 49,
+      "name": "社会福祉一般事務",
+      "start": 59789,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 50,
+      "name": "民生委員会運営",
+      "start": 59818,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 51,
+      "name": "福祉有償運送運営協議会運営",
+      "start": 59841,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 52,
+      "name": "社会福祉事業",
+      "start": 59875,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 53,
+      "name": "地域福祉推進計画",
+      "start": 60004,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 54,
+      "raw": "地域懇談会開催\n参画団体へのアンケート実施\n男山Ｂ地区 見守り隊活動支援",
+      "disposition": "narrative_not_record",
+      "reason": "実施内容、委託先又は列が連結された説明文であり新規事業見出しではない。"
+    },
+    {
+      "index": 55,
+      "raw": "文化センター",
+      "disposition": "layout_review_pending",
+      "reason": "名義・前後の列対応が未確定。短い断片だけで独立事業を増やさず、続く本文内の境界照合を行う。"
+    },
+    {
+      "index": 56,
+      "name": "生活困窮者自立支援",
+      "start": 60714,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 57,
+      "raw": "住民税非課税",
+      "disposition": "covered_title_fragment",
+      "reason": "住民税非課税という途中断片。正式な給付金名はindex59で別途照合し、この断片では追加しない。"
+    },
+    {
+      "index": 58,
+      "raw": "（国）",
+      "disposition": "column_label",
+      "reason": "国・府等の財源列ラベルであり事業名ではない。"
+    },
+    {
+      "index": 59,
+      "name": "住民税非課税世帯等に対する臨時特別給付金",
+      "start": 61449,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 60,
+      "raw": "給付世帯数\n生 活 保 護",
+      "disposition": "reviewed_proposal_not_validated",
+      "reason": "施策の内容欄で反復明示された正式名称を使用。費目断片から補完しない。",
+      "name": "生活保護申請者つなぎ資金緊急貸付"
+    },
+    {
+      "index": 61,
+      "raw": "申請者つなぎ",
+      "disposition": "covered_title_fragment",
+      "reason": "生活保護申請者つなぎ資金の同一行断片。index60の明示名称と重複。"
+    },
+    {
+      "index": 62,
+      "raw": "一 般 分",
+      "disposition": "financial_aggregate",
+      "reason": "福祉基金の元金・寄附金・利子積立欄。実施事業ではない。"
+    },
+    {
+      "index": 63,
+      "raw": "（国）",
+      "disposition": "column_label",
+      "reason": "国・府等の財源列ラベルであり事業名ではない。"
+    },
+    {
+      "index": 64,
+      "name": "人権交流センター管理運営",
+      "start": 62137,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 65,
+      "name": "福祉会館管理運営",
+      "start": 62692,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 66,
+      "name": "有都福祉交流センター管理運営",
+      "start": 62770,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 67,
+      "name": "共同浴場管理運営",
+      "start": 62946,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 68,
+      "name": "老人医療給付",
+      "start": 62975,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 69,
+      "name": "後期高齢者医療",
+      "start": 63260,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 70,
+      "name": "高齢者保健事業・介護予防等一体的実施",
+      "start": 63310,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 71,
+      "name": "老人福祉一般総務",
+      "start": 63483,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 72,
+      "name": "敬老のつどい・長寿祝い",
+      "start": 63674,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 73,
+      "name": "老人保護",
+      "start": 63941,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 74,
+      "name": "シルバー人材センター運営",
+      "start": 63963,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 75,
+      "name": "老人クラブ活動",
+      "start": 63990,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 76,
+      "name": "日常生活用具給付等",
+      "start": 64013,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 77,
+      "name": "八寿園管理運営",
+      "start": 64037,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 78,
+      "raw": "高齢者雇用サポート事業\n派遣事業の実施\n地域ニーズ対応事業\n元気シニアによる生活支援事業",
+      "disposition": "narrative_not_record",
+      "reason": "実施内容、委託先又は列が連結された説明文であり新規事業見出しではない。"
+    },
+    {
+      "index": 79,
+      "name": "南ケ丘老人の家運営",
+      "start": 64722,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 80,
+      "name": "都老人の家運営",
+      "start": 64758,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 81,
+      "name": "男山地域再生・地域包括ケア事業助成",
+      "start": 64840,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 82,
+      "name": "地域密着型サービス等整備等助成",
+      "start": 64960,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 83,
+      "raw": "介護保険特別\n会計繰出金",
+      "disposition": "account_transfer",
+      "reason": "会計繰出金又は広域連合費の会計移転項目。対応するサービス事業との重複計上を避ける。"
+    },
+    {
+      "index": 84,
+      "raw": "医療特別会計\n繰\n出\n金",
+      "disposition": "account_transfer",
+      "reason": "会計繰出金又は広域連合費の会計移転項目。対応するサービス事業との重複計上を避ける。"
+    },
+    {
+      "index": 85,
+      "raw": "京都府後期\n高齢者医療\n広域連合費",
+      "disposition": "account_transfer",
+      "reason": "会計繰出金又は広域連合費の会計移転項目。対応するサービス事業との重複計上を避ける。"
+    },
+    {
+      "index": 86,
+      "name": "重度心身障害者医療給付",
+      "start": 65883,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 87,
+      "name": "障害者福祉一般総務",
+      "start": 66188,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 88,
+      "name": "障害者対策",
+      "start": 66348,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 89,
+      "name": "障害者福祉サービス等利用者負担金助成",
+      "start": 66859,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 90,
+      "name": "特別障害者手当等給付",
+      "start": 67040,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 91,
+      "name": "自立支援医療",
+      "start": 67274,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 92,
+      "name": "相談支援",
+      "start": 68177,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 93,
+      "name": "成年後見制度利用支援",
+      "start": 68192,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 94,
+      "name": "手話奉仕員養成研修",
+      "start": 69044,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 95,
+      "name": "日常生活用具給付",
+      "start": 69179,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 96,
+      "name": "障害者虐待防止対策支援",
+      "start": 69317,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 97,
+      "raw": "そ の 他\n事\n業",
+      "disposition": "aggregate_not_record",
+      "reason": "その他事業という複数活動の集計欄。内容にある個別事業を別途検討し、この総称で水増ししない。"
+    },
+    {
+      "index": 98,
+      "name": "障害者介護給付費等支給認定審査会",
+      "start": 69724,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 99,
+      "raw": "委託先 朗読ボランティアサークル「よむよむ」",
+      "disposition": "narrative_not_record",
+      "reason": "実施内容、委託先又は列が連結された説明文であり新規事業見出しではない。"
+    },
+    {
+      "index": 100,
+      "name": "施設等利用給付",
+      "start": 71107,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 101,
+      "name": "児童福祉一般事務(子育て支援課)",
+      "start": 71268,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 102,
+      "raw": "児 童 福 祉\n一 般 事 務",
+      "disposition": "layout_review_pending",
+      "reason": "名前断片と担当・項目の対応を追加照合する必要がある。推測で補完せず本文内の確認対象として残す。"
+    },
+    {
+      "index": 103,
+      "name": "家庭児童相談室運営",
+      "start": 71644,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 104,
+      "name": "子ども・子育て支援総合推進",
+      "start": 71871,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 105,
+      "name": "地域少子化対策強化",
+      "start": 71896,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 106,
+      "name": "京都府立八幡支援学校放課後等健全育成事業助成",
+      "start": 72004,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 107,
+      "name": "障害児施設措置",
+      "start": 72114,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 108,
+      "raw": "(保育・幼稚園課)",
+      "disposition": "department_label",
+      "reason": "保育・幼稚園課という担当部署のラベル。単独事業ではない。"
+    },
+    {
+      "index": 109,
+      "name": "小児慢性特定疾病児童日常生活用具給付",
+      "start": 72449,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 110,
+      "raw": "発達障害児等早期療育支援事業委託\n事業内容 ペアレントトレーニング、親子教室、\nソーシャルスキルトレーニング\n委 託 先 社会福祉法人 朔日",
+      "disposition": "narrative_not_record",
+      "reason": "委託先・対象・件数・支出説明の連結であり独立した事業名欄ではない。"
+    },
+    {
+      "index": 111,
+      "name": "軽・中等度難聴児支援",
+      "start": 72703,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 112,
+      "name": "発達障害児等早期療育支援",
+      "start": 72725,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 113,
+      "name": "児童発達支援事業助成",
+      "start": 72785,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 114,
+      "name": "子育て支援医療給付",
+      "start": 72850,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 115,
+      "name": "未熟児養育医療給付",
+      "start": 73260,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 116,
+      "name": "民間保育所運営",
+      "start": 73311,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 117,
+      "name": "民間保育所振興",
+      "start": 73368,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 118,
+      "name": "民間認定こども園振興",
+      "start": 75278,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 119,
+      "name": "児童手当支給",
+      "start": 76332,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 120,
+      "name": "児童扶養手当支給",
+      "start": 76391,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 121,
+      "name": "子育て世帯への臨時特別給付金給付",
+      "start": 76438,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 122,
+      "raw": "第三子以降加算\n全部支給\n一部支給\n支給者総数",
+      "disposition": "narrative_not_record",
+      "reason": "委託先・対象・件数・支出説明の連結であり独立した事業名欄ではない。"
+    },
+    {
+      "index": 123,
+      "name": "母子生活支援施設入所",
+      "start": 77181,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 124,
+      "name": "新生児臨時支援",
+      "start": 77250,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 125,
+      "name": "母子福祉",
+      "start": 77409,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 126,
+      "name": "母子家庭等対策総合支援",
+      "start": 77514,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 127,
+      "raw": "一 般 財 源",
+      "disposition": "column_label",
+      "reason": "国・府・諸収入・一般財源等の財源列表示であり事業名ではない。"
+    },
+    {
+      "index": 128,
+      "name": "一人親家庭医療給付",
+      "start": 77910,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 129,
+      "name": "公立保育所運営",
+      "start": 78056,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 130,
+      "name": "子育て支援センター運営",
+      "start": 78734,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 131,
+      "name": "ファミリーサポートセンター運営",
+      "start": 79594,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 132,
+      "name": "児童館運営",
+      "start": 79956,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 133,
+      "name": "放課後児童健全育成",
+      "start": 80500,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 134,
+      "raw": "（諸収入）",
+      "disposition": "column_label",
+      "reason": "国・府・諸収入・一般財源等の財源列表示であり事業名ではない。"
+    },
+    {
+      "index": 135,
+      "name": "保健衛生一般事務",
+      "start": 81812,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 136,
+      "raw": "（国）",
+      "disposition": "column_label",
+      "reason": "国・府・諸収入・一般財源等の財源列表示であり事業名ではない。"
+    },
+    {
+      "index": 137,
+      "name": "産婦保健指導",
+      "start": 82202,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 138,
+      "name": "母子保健指導",
+      "start": 82544,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 139,
+      "name": "不妊治療給付",
+      "start": 82593,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 140,
+      "name": "やわた未来いきいき健幸プロジェクト",
+      "start": 83275,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 141,
+      "name": "スマートウェルネスシティ推進",
+      "start": 83325,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 142,
+      "name": "健康コミュニティ推進",
+      "start": 83763,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 143,
+      "name": "献血対策",
+      "start": 83899,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 144,
+      "name": "食生活改善推進",
+      "start": 83939,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 145,
+      "name": "病院群輪番制運営",
+      "start": 84134,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 146,
+      "name": "入所施設等感染防止対策支援",
+      "start": 84337,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 147,
+      "name": "自宅療養者等支援",
+      "start": 84369,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 148,
+      "name": "新型コロナウイルス避難施設整備",
+      "start": 84448,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 149,
+      "name": "動物飼養管理対策",
+      "start": 84569,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 150,
+      "name": "予防接種",
+      "start": 84625,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 151,
+      "name": "健康教育",
+      "start": 85761,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 152,
+      "name": "健康相談",
+      "start": 85796,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 153,
+      "name": "肝炎ウイルス検診",
+      "start": 85836,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 154,
+      "name": "子宮がん検診",
+      "start": 86193,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 155,
+      "name": "乳がん検診",
+      "start": 86249,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 156,
+      "name": "肺がん検診",
+      "start": 86362,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 157,
+      "raw": "一 般 財 源",
+      "disposition": "column_label",
+      "reason": "国・府・諸収入・一般財源等の財源列表示であり事業名ではない。"
+    },
+    {
+      "index": 158,
+      "name": "大腸がん検診",
+      "start": 86548,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 159,
+      "name": "前立腺がん検診",
+      "start": 86570,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 160,
+      "name": "がん検診推進",
+      "start": 86592,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 161,
+      "raw": "（国）",
+      "disposition": "column_label",
+      "reason": "国・府・諸収入・一般財源等の財源列表示であり事業名ではない。"
+    },
+    {
+      "index": 162,
+      "name": "骨粗しょう症検診",
+      "start": 86836,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 163,
+      "name": "後期高齢者歯科健康診査",
+      "start": 86883,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 164,
+      "name": "地球温暖化対策推進",
+      "start": 86908,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 165,
+      "name": "猫避妊手術費助成",
+      "start": 86934,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 166,
+      "name": "環境保全対策",
+      "start": 86958,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 167,
+      "name": "第３次環境基本計画策定",
+      "start": 88017,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 168,
+      "name": "火葬料助成",
+      "start": 88104,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 169,
+      "name": "母子健康センター管理",
+      "start": 88142,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 170,
+      "raw": "休 日 応 急\n診療所特別\n会計繰出金",
+      "disposition": "account_transfer",
+      "reason": "別会計繰出・出資・補助又は一部事務組合負担金等の会計移転欄。サービス実施事業と重複計上しない。"
+    },
+    {
+      "index": 171,
+      "raw": "休日応急診療所特別会計へ繰出",
+      "disposition": "account_transfer",
+      "reason": "別会計繰出・出資・補助又は一部事務組合負担金等の会計移転欄。サービス実施事業と重複計上しない。"
+    },
+    {
+      "index": 172,
+      "name": "ごみ減量・リサイクル推進",
+      "start": 88529,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 173,
+      "raw": "件 数 戸別収集\n持込収集",
+      "disposition": "narrative_not_record",
+      "reason": "委託先・対象・件数・支出説明の連結であり独立した事業名欄ではない。"
+    },
+    {
+      "index": 174,
+      "raw": "城南衛生管理\n組合じんかい\n関係負担金",
+      "disposition": "account_transfer",
+      "reason": "別会計繰出・出資・補助又は一部事務組合負担金等の会計移転欄。サービス実施事業と重複計上しない。"
+    },
+    {
+      "index": 175,
+      "raw": "城南衛生管理\n組 合 し 尿\n関係負担金",
+      "disposition": "account_transfer",
+      "reason": "別会計繰出・出資・補助又は一部事務組合負担金等の会計移転欄。サービス実施事業と重複計上しない。"
+    },
+    {
+      "index": 176,
+      "name": "水道料金助成",
+      "start": 89696,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 177,
+      "raw": "水道事業会計\n出\n資\n金",
+      "disposition": "account_transfer",
+      "reason": "別会計繰出・出資・補助又は一部事務組合負担金等の会計移転欄。サービス実施事業と重複計上しない。"
+    },
+    {
+      "index": 178,
+      "raw": "水道事業会計\n補\n助\n金",
+      "disposition": "account_transfer",
+      "reason": "別会計繰出・出資・補助又は一部事務組合負担金等の会計移転欄。サービス実施事業と重複計上しない。"
+    },
+    {
+      "index": 179,
+      "raw": "対象 男山金振地区配水管布設替工事他",
+      "disposition": "narrative_not_record",
+      "reason": "委託先・対象・件数・支出説明の連結であり独立した事業名欄ではない。"
+    },
+    {
+      "index": 180,
+      "raw": "基礎年金拠出金に係る公的負担に要する経費",
+      "disposition": "narrative_not_record",
+      "reason": "委託先・対象・件数・支出説明の連結であり独立した事業名欄ではない。"
+    },
+    {
+      "index": 181,
+      "name": "労働諸費一般総務",
+      "start": 90220,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 182,
+      "name": "日雇特例被保険者事務",
+      "start": 90248,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 183,
+      "raw": "（国）",
+      "disposition": "column_label",
+      "reason": "国・府・諸収入・一般財源等の財源列表示であり事業名ではない。"
+    },
+    {
+      "index": 184,
+      "raw": "八幡市域就職面接会\n共 催 ハローワーク伏見\n新型コロナウイルス感染防止のため中止",
+      "disposition": "cancelled_event_description",
+      "reason": "就職面接会の共催先を含む説明であり、新型コロナ感染防止のため中止と明記。実施済みの新事業として追加しない。"
+    },
+    {
+      "index": 185,
+      "name": "農業委員会運営",
+      "start": 90504,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 186,
+      "name": "農地基本台帳整備",
+      "start": 90526,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 187,
+      "name": "農業一般総務",
+      "start": 90549,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 188,
+      "name": "農業者年金業務",
+      "start": 90569,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 189,
+      "raw": "（府）",
+      "disposition": "column_label",
+      "reason": "国・府・諸収入・一般財源等の財源列表示であり事業名ではない。"
+    },
+    {
+      "index": 190,
+      "name": "環境にやさしい野菜づくり",
+      "start": 91227,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 191,
+      "name": "茶業振興対策",
+      "start": 91505,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 192,
+      "name": "農業金融対策",
+      "start": 91685,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 193,
+      "name": "水田農業構造改革対策",
+      "start": 91762,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 194,
+      "name": "やわた流れ橋交流プラザ",
+      "start": 92029,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 195,
+      "name": "都市・農村ふれあい",
+      "start": 92055,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 196,
+      "name": "地域農業担い手認定者支援",
+      "start": 92081,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 197,
+      "name": "地産地消推進",
+      "start": 92905,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 198,
+      "name": "有害鳥獣駆除",
+      "start": 92943,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 199,
+      "name": "米価下落対策",
+      "start": 93189,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 200,
+      "name": "農業者災害復旧支援",
+      "start": 93698,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 201,
+      "name": "地籍調査",
+      "start": 93722,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 202,
+      "name": "農業用水対策",
+      "start": 93742,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 203,
+      "raw": "現地調査、点検・整理等",
+      "disposition": "narrative_not_record",
+      "reason": "委託先・対象・件数・支出説明の連結であり独立した事業名欄ではない。"
+    },
+    {
+      "index": 204,
+      "name": "排水事業負担軽減",
+      "start": 94007,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 205,
+      "name": "農業用施設維持補修",
+      "start": 94127,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 206,
+      "raw": "（諸収入）",
+      "disposition": "column_label",
+      "reason": "国・府・諸収入・一般財源等の財源列表示であり事業名ではない。"
+    },
+    {
+      "index": 207,
+      "name": "一般林業振興",
+      "start": 95130,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 208,
+      "raw": "森林環境整備\n基金積立金",
+      "disposition": "financial_aggregate",
+      "reason": "森林環境整備基金への積立項目で、独立した実施事業を示すものではない。"
+    },
+    {
+      "index": 209,
+      "name": "自動車処理事業振興対策",
+      "start": 95252,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 210,
+      "name": "一般商工振興",
+      "start": 95274,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 211,
+      "name": "中小企業者等事業継続支援金給付",
+      "start": 96001,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 212,
+      "name": "八幡おうえん飲食券",
+      "start": 96161,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 213,
+      "name": "観光振興",
+      "start": 96641,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 214,
+      "raw": "法定外公共物管理システム保守委託",
+      "disposition": "narrative_not_record",
+      "reason": "主要施策の委託・工事等の内訳説明。親事業と二重に追加しない。"
+    },
+    {
+      "index": 215,
+      "raw": "維持補修",
+      "disposition": "reviewed_proposal_not_validated",
+      "reason": "同じ施策欄の前後の明示名称断片を保存本文内で照合。数値列は転記しない。",
+      "name": "市道・下排水路等維持補修"
+    },
+    {
+      "index": 216,
+      "name": "駅前広場管理",
+      "start": 98130,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 217,
+      "raw": "維持補修",
+      "disposition": "reviewed_proposal_not_validated",
+      "reason": "同じ施策欄の前後の明示名称断片を保存本文内で照合。数値列は転記しない。",
+      "name": "道路照明維持補修"
+    },
+    {
+      "index": 218,
+      "name": "交通安全施設整備",
+      "start": 98183,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 219,
+      "name": "放置自転車等対策",
+      "start": 98206,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 220,
+      "raw": "橋本駅周辺",
+      "disposition": "reviewed_proposal_not_validated",
+      "reason": "同じ施策欄の前後の明示名称断片を保存本文内で照合。数値列は転記しない。",
+      "name": "橋本駅周辺拠点整備"
+    },
+    {
+      "index": 221,
+      "raw": "建物移転等補償金\n橋本駅周辺",
+      "disposition": "duplicate_carryover",
+      "reason": "橋本駅周辺拠点整備の２年度繰越行。通常分index220と重複して計上しない。"
+    },
+    {
+      "index": 222,
+      "raw": "（国）",
+      "disposition": "column_label",
+      "reason": "国府等の財源列ラベルであり事業名ではない。"
+    },
+    {
+      "index": 223,
+      "raw": "橋本駅前仮設ロータリー等整備",
+      "disposition": "narrative_not_record",
+      "reason": "主要施策の委託・工事等の内訳説明。親事業と二重に追加しない。"
+    },
+    {
+      "index": 224,
+      "raw": "建物移転等補償金\n府 道 八 幡",
+      "disposition": "layout_review_pending",
+      "reason": "名称の前半・後半が金額や別列で分離。本文の断片対応を追加確認する必要がある。金額を名称に混ぜず推測では追加しない。"
+    },
+    {
+      "index": 225,
+      "raw": "国 補 正 分",
+      "disposition": "subdivision_not_record",
+      "reason": "繰越・国補正分又は防災対策内の財源・区分。独立の実施事業として追加しない。"
+    },
+    {
+      "index": 226,
+      "name": "野神線道路整備",
+      "start": 99945,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 227,
+      "name": "府道八幡田辺線整備事業費負担金",
+      "start": 99969,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 228,
+      "name": "科手土井線道路整備",
+      "start": 100158,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 229,
+      "name": "河川維持補修",
+      "start": 100383,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 230,
+      "raw": "樋 門 維 持\n管",
+      "disposition": "reviewed_proposal_not_validated",
+      "reason": "同じ施策欄の前後の明示名称断片を保存本文内で照合。数値列は転記しない。",
+      "name": "樋門維持管理"
+    },
+    {
+      "index": 231,
+      "raw": "（国）",
+      "disposition": "column_label",
+      "reason": "国府等の財源列ラベルであり事業名ではない。"
+    },
+    {
+      "index": 232,
+      "raw": "都市計画に",
+      "disposition": "reviewed_proposal_not_validated",
+      "reason": "同じ施策欄の前後の明示名称断片を保存本文内で照合。数値列は転記しない。",
+      "name": "都市計画に関する事業"
+    },
+    {
+      "index": 233,
+      "raw": "国土利用法",
+      "disposition": "reviewed_proposal_not_validated",
+      "reason": "同じ施策欄の前後の明示名称断片を保存本文内で照合。数値列は転記しない。",
+      "name": "国土利用法関連事務"
+    },
+    {
+      "index": 234,
+      "raw": "届出件数",
+      "disposition": "usage_statistic",
+      "reason": "届出件数又は施設・設備別利用実績の行であり、独立した事業名ではない。"
+    },
+    {
+      "index": 235,
+      "raw": "グラウンド",
+      "disposition": "usage_statistic",
+      "reason": "届出件数又は施設・設備別利用実績の行であり、独立した事業名ではない。"
+    },
+    {
+      "index": 236,
+      "raw": "テニスコート",
+      "disposition": "usage_statistic",
+      "reason": "届出件数又は施設・設備別利用実績の行であり、独立した事業名ではない。"
+    },
+    {
+      "index": 237,
+      "raw": "グラウンド",
+      "disposition": "usage_statistic",
+      "reason": "届出件数又は施設・設備別利用実績の行であり、独立した事業名ではない。"
+    },
+    {
+      "index": 238,
+      "raw": "テニスコート",
+      "disposition": "usage_statistic",
+      "reason": "届出件数又は施設・設備別利用実績の行であり、独立した事業名ではない。"
+    },
+    {
+      "index": 239,
+      "raw": "グラウンド",
+      "disposition": "usage_statistic",
+      "reason": "届出件数又は施設・設備別利用実績の行であり、独立した事業名ではない。"
+    },
+    {
+      "index": 240,
+      "raw": "グラウンド",
+      "disposition": "usage_statistic",
+      "reason": "届出件数又は施設・設備別利用実績の行であり、独立した事業名ではない。"
+    },
+    {
+      "index": 241,
+      "raw": "グラウンド",
+      "disposition": "usage_statistic",
+      "reason": "届出件数又は施設・設備別利用実績の行であり、独立した事業名ではない。"
+    },
+    {
+      "index": 242,
+      "raw": "こども動物園",
+      "disposition": "usage_statistic",
+      "reason": "届出件数又は施設・設備別利用実績の行であり、独立した事業名ではない。"
+    },
+    {
+      "index": 243,
+      "raw": "グラウンド",
+      "disposition": "usage_statistic",
+      "reason": "届出件数又は施設・設備別利用実績の行であり、独立した事業名ではない。"
+    },
+    {
+      "index": 244,
+      "raw": "照明設備",
+      "disposition": "usage_statistic",
+      "reason": "届出件数又は施設・設備別利用実績の行であり、独立した事業名ではない。"
+    },
+    {
+      "index": 245,
+      "raw": "テニスコート",
+      "disposition": "usage_statistic",
+      "reason": "届出件数又は施設・設備別利用実績の行であり、独立した事業名ではない。"
+    },
+    {
+      "index": 246,
+      "raw": "照明設備",
+      "disposition": "usage_statistic",
+      "reason": "届出件数又は施設・設備別利用実績の行であり、独立した事業名ではない。"
+    },
+    {
+      "index": 247,
+      "raw": "壁打ちコート",
+      "disposition": "usage_statistic",
+      "reason": "届出件数又は施設・設備別利用実績の行であり、独立した事業名ではない。"
+    },
+    {
+      "index": 248,
+      "raw": "アリーナ",
+      "disposition": "usage_statistic",
+      "reason": "届出件数又は施設・設備別利用実績の行であり、独立した事業名ではない。"
+    },
+    {
+      "index": 249,
+      "raw": "フリースペース",
+      "disposition": "usage_statistic",
+      "reason": "届出件数又は施設・設備別利用実績の行であり、独立した事業名ではない。"
+    },
+    {
+      "index": 250,
+      "raw": "コインロッカー",
+      "disposition": "usage_statistic",
+      "reason": "届出件数又は施設・設備別利用実績の行であり、独立した事業名ではない。"
+    },
+    {
+      "index": 251,
+      "raw": "シャワー",
+      "disposition": "usage_statistic",
+      "reason": "届出件数又は施設・設備別利用実績の行であり、独立した事業名ではない。"
+    },
+    {
+      "index": 252,
+      "raw": "緑 化 推 進\n活",
+      "disposition": "reviewed_proposal_not_validated",
+      "reason": "同じ施策欄の前後の明示名称断片を保存本文内で照合。数値列は転記しない。",
+      "name": "緑化推進活動"
+    },
+    {
+      "index": 253,
+      "raw": "花のまちづくり事業",
+      "disposition": "narrative_not_record",
+      "reason": "主要施策の委託・工事等の内訳説明。親事業と二重に追加しない。"
+    },
+    {
+      "index": 254,
+      "raw": "（諸収入）",
+      "disposition": "column_label",
+      "reason": "国府等の財源列ラベルであり事業名ではない。"
+    },
+    {
+      "index": 255,
+      "raw": "木 造 住 宅",
+      "disposition": "reviewed_proposal_not_validated",
+      "reason": "同じ施策欄の前後の明示名称断片を保存本文内で照合。数値列は転記しない。",
+      "name": "木造住宅耐震診断"
+    },
+    {
+      "index": 256,
+      "raw": "（国）",
+      "disposition": "column_label",
+      "reason": "国府等の財源列ラベルであり事業名ではない。"
+    },
+    {
+      "index": 257,
+      "raw": "耐震診断、診断結果の説明、概算工事費の",
+      "disposition": "column_label",
+      "reason": "国府等の財源列ラベルであり事業名ではない。"
+    },
+    {
+      "index": 258,
+      "raw": "（国）",
+      "disposition": "column_label",
+      "reason": "国府等の財源列ラベルであり事業名ではない。"
+    },
+    {
+      "index": 259,
+      "raw": "住 宅 新 築",
+      "disposition": "financial_aggregate",
+      "reason": "住宅新築資金等貸付事業基金積立金（利子分）と明示。新規貸付実施を示さない。"
+    },
+    {
+      "index": 260,
+      "raw": "資金等貸付事業",
+      "disposition": "covered_title_fragment",
+      "reason": "index259基金積立金の名称後半。新規貸付事業として追加しない。"
+    },
+    {
+      "index": 261,
+      "name": "消防本部運営及び常備消防並びに救急活動",
+      "start": 105416,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 262,
+      "name": "消防団運営及び活動",
+      "start": 105924,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 263,
+      "name": "女性防火推進隊活動",
+      "start": 106124,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 264,
+      "name": "消防団員退職報償金",
+      "start": 106148,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 265,
+      "raw": "消防団員退職\n報償金負担金",
+      "disposition": "financial_contribution",
+      "reason": "退職報償金の負担金。支給事業とは別の住民サービスとして重複計上しない。"
+    },
+    {
+      "index": 266,
+      "name": "消防団員等公務災害補償負担金",
+      "start": 106251,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 267,
+      "name": "単独水利施設整備",
+      "start": 106545,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 268,
+      "name": "消防施設維持管理",
+      "start": 106620,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 269,
+      "name": "機械器具整備事業",
+      "start": 106649,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 270,
+      "name": "緊急通報システム管理",
+      "start": 106678,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 271,
+      "name": "消防庁舎整備事業",
+      "start": 106705,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 272,
+      "name": "水防対策",
+      "start": 107291,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 273,
+      "raw": "一 般 分",
+      "disposition": "subdivision_not_record",
+      "reason": "繰越・国補正分又は防災対策内の財源・区分。独立の実施事業として追加しない。"
+    },
+    {
+      "index": 274,
+      "raw": "防 災 分",
+      "disposition": "subdivision_not_record",
+      "reason": "繰越・国補正分又は防災対策内の財源・区分。独立の実施事業として追加しない。"
+    },
+    {
+      "index": 275,
+      "name": "災害対策啓発",
+      "start": 108159,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 276,
+      "name": "災害時要援護者支援対策",
+      "start": 108239,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 277,
+      "name": "一般災害対策",
+      "start": 108274,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 278,
+      "name": "教育委員会運営",
+      "start": 108619,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 279,
+      "name": "事務局運営",
+      "start": 108660,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 280,
+      "name": "教育支援委員会",
+      "start": 108816,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 281,
+      "name": "教育支援センター運営",
+      "start": 108951,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 282,
+      "name": "ＧＩＧＡスクール構想整備",
+      "start": 109402,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 283,
+      "name": "学校改革推進",
+      "start": 109798,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 284,
+      "name": "仕事・文化体験活動",
+      "start": 109928,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 285,
+      "name": "学力向上推進",
+      "start": 110057,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 286,
+      "name": "いじめ防止対策委員会",
+      "start": 110090,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 287,
+      "name": "スタディサポート（鳩嶺教室）",
+      "start": 110111,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 288,
+      "name": "人権教育総合推進地域",
+      "start": 110163,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 289,
+      "name": "小学校教育振興",
+      "start": 111679,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 290,
+      "name": "小学校屋内運動場空調設備等整備",
+      "start": 111716,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 291,
+      "raw": "南山小学校トイレ大規模改造工事設計業務委託",
+      "disposition": "narrative_not_record",
+      "reason": "主要施策の委託・工事等の内訳説明。親事業と二重に追加しない。"
+    },
+    {
+      "index": 292,
+      "name": "中学校教育振興",
+      "start": 113603,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 293,
+      "name": "私立幼稚園助成",
+      "start": 114365,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 294,
+      "name": "私立幼稚園運営",
+      "start": 115174,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 295,
+      "raw": "利 用 給 付",
+      "disposition": "identity_review_pending",
+      "reason": "児童福祉費の同名「施設等利用給付」と幼稚園費の同名項目の独立性と対象範囲を本文で照合する必要がある。"
+    },
+    {
+      "index": 296,
+      "raw": "（府）",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 297,
+      "name": "社会教育委員",
+      "start": 115732,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 298,
+      "name": "集会所管理運営・学習活動",
+      "start": 115748,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 299,
+      "name": "社会教育一般総務",
+      "start": 115775,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 300,
+      "name": "地域学校協働活動推進",
+      "start": 115902,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 301,
+      "name": "地域連携教育活動推進",
+      "start": 116523,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 302,
+      "name": "やわた放課後学習クラブ運営",
+      "start": 116567,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 303,
+      "name": "生涯学習推進",
+      "start": 116771,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 304,
+      "name": "生涯学習センター管理運営",
+      "start": 117240,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 305,
+      "raw": "ふれあいホール",
+      "disposition": "usage_statistic",
+      "reason": "施設利用状況又は給付事業内の施設・サービス種別実績。親事業とは別の事業として数えない。"
+    },
+    {
+      "index": 306,
+      "raw": "会議室",
+      "disposition": "usage_statistic",
+      "reason": "施設利用状況又は給付事業内の施設・サービス種別実績。親事業とは別の事業として数えない。"
+    },
+    {
+      "index": 307,
+      "raw": "講習室",
+      "disposition": "usage_statistic",
+      "reason": "施設利用状況又は給付事業内の施設・サービス種別実績。親事業とは別の事業として数えない。"
+    },
+    {
+      "index": 308,
+      "name": "市民交流センター管理運営",
+      "start": 117784,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 309,
+      "name": "文化振興",
+      "start": 117820,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 310,
+      "name": "徒然草文学賞表彰",
+      "start": 117840,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 311,
+      "raw": "文化振興基金\n積\n立",
+      "disposition": "financial_aggregate",
+      "reason": "基金積立又は公債元金・利子の金融集計項目であり独立実施事業として追加しない。"
+    },
+    {
+      "index": 312,
+      "name": "美術工芸品調査",
+      "start": 118616,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 313,
+      "name": "市内遺跡調査",
+      "start": 119291,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 314,
+      "name": "発掘調査",
+      "start": 119311,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 315,
+      "name": "ふるさと学習館管理運営",
+      "start": 119329,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 316,
+      "name": "名勝松花堂及び書院庭園保存活用",
+      "start": 119363,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 317,
+      "name": "公民館管理運営",
+      "start": 119397,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 318,
+      "raw": "講 座 運 営",
+      "disposition": "layout_review_pending",
+      "reason": "名称が複数の列に分断又は一般的な短い見出しのため、前後の事業名と対象範囲の追加照合が必要。"
+    },
+    {
+      "index": 319,
+      "name": "図書館運営",
+      "start": 120604,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 320,
+      "name": "松花堂庭園管理運営",
+      "start": 122560,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 321,
+      "raw": "会 議 室",
+      "disposition": "usage_statistic",
+      "reason": "施設利用状況又は給付事業内の施設・サービス種別実績。親事業とは別の事業として数えない。"
+    },
+    {
+      "index": 322,
+      "raw": "講 習 室",
+      "disposition": "usage_statistic",
+      "reason": "施設利用状況又は給付事業内の施設・サービス種別実績。親事業とは別の事業として数えない。"
+    },
+    {
+      "index": 323,
+      "raw": "ギャラリー",
+      "disposition": "usage_statistic",
+      "reason": "施設利用状況又は給付事業内の施設・サービス種別実績。親事業とは別の事業として数えない。"
+    },
+    {
+      "index": 324,
+      "raw": "交流広場",
+      "disposition": "usage_statistic",
+      "reason": "施設利用状況又は給付事業内の施設・サービス種別実績。親事業とは別の事業として数えない。"
+    },
+    {
+      "index": 325,
+      "raw": "昭乗広場",
+      "disposition": "usage_statistic",
+      "reason": "施設利用状況又は給付事業内の施設・サービス種別実績。親事業とは別の事業として数えない。"
+    },
+    {
+      "index": 326,
+      "raw": "書院の間",
+      "disposition": "usage_statistic",
+      "reason": "施設利用状況又は給付事業内の施設・サービス種別実績。親事業とは別の事業として数えない。"
+    },
+    {
+      "index": 327,
+      "raw": "美 術 館",
+      "disposition": "usage_statistic",
+      "reason": "施設利用状況又は給付事業内の施設・サービス種別実績。親事業とは別の事業として数えない。"
+    },
+    {
+      "index": 328,
+      "name": "市民総合体育大会開催",
+      "start": 124330,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 329,
+      "raw": "スポーツ振興\n基 金 積 立",
+      "disposition": "financial_aggregate",
+      "reason": "基金積立又は公債元金・利子の金融集計項目であり独立実施事業として追加しない。"
+    },
+    {
+      "index": 330,
+      "raw": "長期債元金",
+      "disposition": "financial_aggregate",
+      "reason": "基金積立又は公債元金・利子の金融集計項目であり独立実施事業として追加しない。"
+    },
+    {
+      "index": 331,
+      "raw": "長期債利子",
+      "disposition": "financial_aggregate",
+      "reason": "基金積立又は公債元金・利子の金融集計項目であり独立実施事業として追加しない。"
+    },
+    {
+      "index": 332,
+      "raw": "消 耗 器 材",
+      "disposition": "expense_component",
+      "reason": "医療事業の消耗器材・衛生材料の費目。新たな事業として追加しない。"
+    },
+    {
+      "index": 333,
+      "raw": "衛 生 材 料",
+      "disposition": "expense_component",
+      "reason": "医療事業の消耗器材・衛生材料の費目。新たな事業として追加しない。"
+    },
+    {
+      "index": 334,
+      "raw": "一 般 管 理",
+      "disposition": "layout_review_pending",
+      "reason": "名称が複数の列に分断又は一般的な短い見出しのため、前後の事業名と対象範囲の追加照合が必要。"
+    },
+    {
+      "index": 335,
+      "name": "居宅介護サービス給付",
+      "start": 127166,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 336,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 337,
+      "raw": "訪問介護",
+      "disposition": "usage_statistic",
+      "reason": "施設利用状況又は給付事業内の施設・サービス種別実績。親事業とは別の事業として数えない。"
+    },
+    {
+      "index": 338,
+      "name": "地域密着型介護サービス給付",
+      "start": 127754,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 339,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 340,
+      "name": "施設介護サービス給付",
+      "start": 127900,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 341,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 342,
+      "raw": "住 宅 改 修",
+      "disposition": "reviewed_proposal_not_validated",
+      "reason": "施策の内容欄で反復明示された正式名称を使用。費目断片から補完しない。",
+      "name": "居宅介護住宅改修費給付"
+    },
+    {
+      "index": 343,
+      "raw": "計 画 給 付",
+      "disposition": "reviewed_proposal_not_validated",
+      "reason": "施策の内容欄で反復明示された正式名称を使用。費目断片から補完しない。",
+      "name": "居宅介護サービス計画給付"
+    },
+    {
+      "index": 344,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 345,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 346,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 347,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 348,
+      "name": "地域密着型介護予防サービス給付",
+      "start": 129657,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 349,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 350,
+      "raw": "住 宅 改 修",
+      "disposition": "reviewed_proposal_not_validated",
+      "reason": "施策の内容欄で反復明示された正式名称を使用。費目断片から補完しない。",
+      "name": "介護予防住宅改修費給付"
+    },
+    {
+      "index": 351,
+      "raw": "計 画 給 付",
+      "disposition": "reviewed_proposal_not_validated",
+      "reason": "施策の内容欄で反復明示された正式名称を使用。費目断片から補完しない。",
+      "name": "介護予防サービス計画給付"
+    },
+    {
+      "index": 352,
+      "raw": "(繰入金)",
+      "disposition": "layout_review_pending",
+      "reason": "名称が複数の列に分断又は一般的な短い見出しのため、前後の事業名と対象範囲の追加照合が必要。"
+    },
+    {
+      "index": 353,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 354,
+      "raw": "(繰入金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 355,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 356,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 357,
+      "raw": "(府)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 358,
+      "raw": "(繰入金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 359,
+      "name": "高額介護サービス",
+      "start": 130684,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 360,
+      "name": "高額介護予防サービス",
+      "start": 130732,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 361,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 362,
+      "name": "高額医療合算介護サービス",
+      "start": 130834,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 363,
+      "name": "高額医療合算介護予防サービス",
+      "start": 130894,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 364,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 365,
+      "name": "市町村特別給付",
+      "start": 131278,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 366,
+      "name": "特定入所者介護サービス",
+      "start": 131592,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 367,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 368,
+      "raw": "介護老人保健施設",
+      "disposition": "usage_statistic",
+      "reason": "施設利用状況又は給付事業内の施設・サービス種別実績。親事業とは別の事業として数えない。"
+    },
+    {
+      "index": 369,
+      "raw": "介護医療院",
+      "disposition": "usage_statistic",
+      "reason": "施設利用状況又は給付事業内の施設・サービス種別実績。親事業とは別の事業として数えない。"
+    },
+    {
+      "index": 370,
+      "raw": "介護療養型医療施設",
+      "disposition": "usage_statistic",
+      "reason": "施設利用状況又は給付事業内の施設・サービス種別実績。親事業とは別の事業として数えない。"
+    },
+    {
+      "index": 371,
+      "raw": "地域密着型介護老人福祉\n施設入所者生活介護",
+      "disposition": "usage_statistic",
+      "reason": "施設利用状況又は給付事業内の施設・サービス種別実績。親事業とは別の事業として数えない。"
+    },
+    {
+      "index": 372,
+      "raw": "短期入所生活介護",
+      "disposition": "usage_statistic",
+      "reason": "施設利用状況又は給付事業内の施設・サービス種別実績。親事業とは別の事業として数えない。"
+    },
+    {
+      "index": 373,
+      "raw": "短期入所療養介護",
+      "disposition": "usage_statistic",
+      "reason": "施設利用状況又は給付事業内の施設・サービス種別実績。親事業とは別の事業として数えない。"
+    },
+    {
+      "index": 374,
+      "raw": "介護医療院",
+      "disposition": "usage_statistic",
+      "reason": "施設利用状況又は給付事業内の施設・サービス種別実績。親事業とは別の事業として数えない。"
+    },
+    {
+      "index": 375,
+      "raw": "介護療養型医療施設",
+      "disposition": "usage_statistic",
+      "reason": "施設利用状況又は給付事業内の施設・サービス種別実績。親事業とは別の事業として数えない。"
+    },
+    {
+      "index": 376,
+      "raw": "地域密着型介護老人福祉\n施設入所者生活介護",
+      "disposition": "usage_statistic",
+      "reason": "施設利用状況又は給付事業内の施設・サービス種別実績。親事業とは別の事業として数えない。"
+    },
+    {
+      "index": 377,
+      "raw": "短期入所生活介護",
+      "disposition": "usage_statistic",
+      "reason": "施設利用状況又は給付事業内の施設・サービス種別実績。親事業とは別の事業として数えない。"
+    },
+    {
+      "index": 378,
+      "raw": "短期入所療養介護",
+      "disposition": "usage_statistic",
+      "reason": "施設利用状況又は給付事業内の施設・サービス種別実績。親事業とは別の事業として数えない。"
+    },
+    {
+      "index": 379,
+      "name": "特定入所者介護予防サービス",
+      "start": 132273,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 380,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 381,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 382,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 383,
+      "raw": "（社会福祉協議会へ委託）\n事業内容 運動、茶話会等の開催による閉じ\nこもり及び認知症の予防改善",
+      "disposition": "narrative_not_record",
+      "reason": "委託先・事業内容の文が連結されたもの。独立した見出しではない。"
+    },
+    {
+      "index": 384,
+      "raw": "（社会福祉協議会へ委託）\n事業内容 個別プログラムに沿った運動、ゲ\nーム等による運動機能の向上支援",
+      "disposition": "narrative_not_record",
+      "reason": "委託先・事業内容の文が連結されたもの。独立した見出しではない。"
+    },
+    {
+      "index": 385,
+      "name": "高齢者栄養改善",
+      "start": 133044,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 386,
+      "name": "訪問型サービスB",
+      "start": 133112,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 387,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 388,
+      "raw": "(府)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 389,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 390,
+      "raw": "一 般 財 源",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 391,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 392,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 393,
+      "name": "介護予防ケアマネジメント",
+      "start": 134059,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 394,
+      "name": "高額介護予防サービス費相当",
+      "start": 134114,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 395,
+      "name": "高額医療合算介護予防サービス費相当",
+      "start": 134171,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 396,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 397,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 398,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 399,
+      "name": "高齢者健康相談",
+      "start": 135031,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 400,
+      "raw": "(国)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 401,
+      "raw": "対象",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 402,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 403,
+      "raw": "家族介護者\n交\n流",
+      "disposition": "cancelled_event_description",
+      "reason": "家族介護者のリフレッシュ事業は感染防止のため中止と明記。名称だけで当年度実施済みの活動としない。"
+    },
+    {
+      "index": 404,
+      "name": "高齢者介護用品助成",
+      "start": 136368,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 405,
+      "name": "家族介護者慰労金助成",
+      "start": 136394,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 406,
+      "raw": "成年後見制度\n利 用 支 援",
+      "disposition": "identity_review_pending",
+      "reason": "障害者福祉側の同名成年後見制度利用支援との対象・独立性を本文で照合する必要がある。"
+    },
+    {
+      "index": 407,
+      "name": "福祉用具・住宅改修支援",
+      "start": 136463,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 408,
+      "name": "シルバーライフラインシステム整備",
+      "start": 136503,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 409,
+      "name": "介護給付費等適正化",
+      "start": 136654,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 410,
+      "name": "配食サービス",
+      "start": 137119,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 411,
+      "name": "認知症サポーター養成",
+      "start": 137138,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 412,
+      "name": "八幡市あんしんネットワーク",
+      "start": 137189,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 413,
+      "name": "多職種連携在宅療養支援",
+      "start": 137370,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 414,
+      "name": "オレンジカフェ",
+      "start": 137415,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 415,
+      "raw": "(支払基金交付金)",
+      "disposition": "column_label",
+      "reason": "国府・支払基金交付金・繰入金等の財源列又は説明中のラベルであり事業名ではない。"
+    },
+    {
+      "index": 416,
+      "name": "認知症初期集中支援推進",
+      "start": 137851,
+      "disposition": "reviewed_proposal_not_validated"
+    },
+    {
+      "index": 417,
+      "name": "地域ケア会議推進",
+      "start": 137916,
+      "disposition": "reviewed_proposal_not_validated"
+    }
+  ],
+  "scope": "金額前の見出し候補418箇所の一次レビュー。全本文の個別事業網羅ではなく、断片・同名候補と正規表現対象外の施策欄は継続レビュー対象。",
+  "dispositionCounts": {
+    "aggregate_not_record": 4,
+    "reviewed_proposal_not_validated": 267,
+    "financial_aggregate": 9,
+    "column_label": 53,
+    "narrative_not_record": 15,
+    "layout_review_pending": 6,
+    "covered_title_fragment": 3,
+    "account_transfer": 9,
+    "department_label": 1,
+    "cancelled_event_description": 2,
+    "duplicate_carryover": 1,
+    "subdivision_not_record": 3,
+    "usage_statistic": 40,
+    "financial_contribution": 1,
+    "identity_review_pending": 2,
+    "expense_component": 2
+  }
+}

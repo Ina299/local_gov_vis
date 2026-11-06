@@ -1,15 +1,16 @@
 {
-  "candidateRecords": 82,
-  "additionalCandidateRecords": 82,
-  "previousPublishedHead": "775fc4d7491b6286abf1d882e228d0cbefff0e16",
+  "candidateRecords": 395,
+  "additionalCandidateRecords": 313,
+  "previousPublishedHead": "a0407f2e2cea6d3c63c619ed8294decfd248f81b",
   "perMunicipality": {
     "伊根町": 15,
     "南山城村": 1,
     "笠置町": 4,
-    "宇治田原町": 62
+    "宇治田原町": 62,
+    "八幡市": 313
   },
-  "validatedCumulativeCandidates": 22704,
-  "validatedEvidence": 62122,
+  "validatedCumulativeCandidates": 23017,
+  "validatedEvidence": 62775,
   "excludedSeparateSets": {
     "Okinawa": 1084,
     "initial": 93
@@ -18,14 +19,14 @@
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "6/6 Kyoto",
-    "crawler": "669/669",
+    "focused": "7/7 Kyoto",
+    "crawler": "670/670",
     "web": "256/256 serial",
     "typecheck": "passed",
-    "lint": "passed; existing font warning",
+    "lint": "passed;existingfontwarning",
     "national": "verified",
     "static": "109/109 subpath export"
   },
-  "remaining": "八幡市決算書・福知山市教育点検評価の保存済み本文は継続レビュー対象。本文未保存3資料は取得せず保留。8件の年度・繰越重複保留。全国収集完了ではない。",
+  "remaining": "八幡市は418見出し・155補助段落をレビューし313年度活動名を候補化。会計区分・同名範囲・数値列の対応は保留し、全項目抽出とはしない。福知山市105名・15活動本文は別保管の次段階候補で未適用。本文未保存3資料は取得せず保留。全国未完了。",
   "remoteCI": "unverified; prior Actions API 403; no retry"
 }
