@@ -1,18 +1,18 @@
 {
-  "candidateRecords": 1944,
-  "rawProposals": 1946,
+  "candidateRecords": 2028,
+  "rawProposals": 2030,
   "perMunicipality": {
     "稲美町": 78,
     "猪名川町": 419,
-    "丹波篠山市": 1447
+    "丹波篠山市": 1531
   },
   "sourcesInventoried": 86,
   "completeBodies": 68,
   "continuationParts": 2,
   "missingBodies": 18,
   "existingDuplicateOutputs": 576,
-  "validatedCumulativeCandidates": 20570,
-  "validatedEvidence": 54321,
+  "validatedCumulativeCandidates": 20654,
+  "validatedEvidence": 54630,
   "excludedFromCumulative": [
     "Okinawa1084",
     "initial93"
@@ -30,13 +30,19 @@
   ],
   "phaseComplete": false,
   "checks": {
-    "focused": "17/17",
-    "crawler": "634/634",
+    "focused": "18/18",
+    "crawler": "635/635",
     "web": "256/256",
     "typecheck": "pass",
     "lint": "pass with existing font warning",
     "national": "pass; unchanged local baseline",
-    "static": "109 pages /local_gov_vis"
+    "static": "109 pages /local_gov_vis",
+    "fieldProposals": "71 proposals /213 exactquotes /7negative cases"
   },
-  "remaining": "All17processed sources remain partial coverage. The88wrapped-title proposals passed validation; further token-boundary andcoverage review remains actionable. External later proposals are not included. Missing18bodies held withoutnetwork retrieval. User unpublished local changes cannot be observed. CI remainsunverified after earlierActions403; no retry or manualdispatch."
+  "remaining": "FY2008 title review adds84 records; five retirement/annual-scope ambiguities held. Other title/coverage work remains actionable, including FY2007 book and seven further FY2008 identities. Inami71actual-cost proposals are validated separately andnot applied; seven monetary rows remain held. Missing18bodies require held acquisition. No blanket network denial. CI unverified after priorActions403.",
+  "validatedFieldProposals": 71,
+  "fieldProposalEvidence": 213,
+  "appliedFieldEnrichments": 0,
+  "additionalCandidateRecords": 84,
+  "previousPublishedHead": "7722f8cf363372b411cf9d871719926a2e3157bd"
 }

@@ -1,0 +1,536 @@
+[
+  {
+    "name": "今田地区敬老会支援",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "今田地区敬老会支\n行:\n(4)-22\n援",
+    "start": 944
+  },
+  {
+    "name": "外出支援サービス事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "外出支援サービス事 行:\n12303\n(4)-40\n業",
+    "start": 965
+  },
+  {
+    "name": "高齢者住宅支援事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "高齢者住宅支援事\n行:\n12304\n(4)-41\n業",
+    "start": 993
+  },
+  {
+    "name": "西紀老人福祉ｾﾝﾀｰ管理",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "西紀老人福祉ｾﾝﾀｰ\n12305\n管理",
+    "start": 1020
+  },
+  {
+    "name": "今田老人福祉センター管理",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "今田老人福祉セン\n12306\nター管理",
+    "start": 1047
+  },
+  {
+    "name": "在宅老人介護用品給付事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "在宅老人介護用品\n給付事業",
+    "start": 1067
+  },
+  {
+    "name": "老人日常生活用具給付事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "老人日常生活用具\n12308\n給付事業",
+    "start": 1081
+  },
+  {
+    "name": "在宅高齢者外出支援用具給付事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "在宅高齢者外出支\n12309\n援用具給付事業",
+    "start": 1101
+  },
+  {
+    "name": "老人保健医療費適正化対策事業",
+    "status": "evidence_hold",
+    "reason": "Retirement note in interleaved annual table; no independent confirmation of active target-year scope. Preserve title but do not add annual record.",
+    "matches": 1
+  },
+  {
+    "name": "要支援・要介護認定調査・主治医意見書作成依頼事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "要支援・要介護認定調査・主治\n医意見書作成依頼事業",
+    "start": 1633
+  },
+  {
+    "name": "老人医療費助成事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "老人医療費助成事\n12312\n業",
+    "start": 1667
+  },
+  {
+    "name": "老人保健医療費給付事業",
+    "status": "evidence_hold",
+    "reason": "Retirement note in interleaved annual table; no independent confirmation of active target-year scope. Preserve title but do not add annual record.",
+    "matches": 1
+  },
+  {
+    "name": "介護保険苦情相談事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "介護保険苦情相談\n事業",
+    "start": 1704
+  },
+  {
+    "name": "介護保険給付管理事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "介護保険給付管理\n12318\n事業",
+    "start": 1716
+  },
+  {
+    "name": "低所得者対策事業[一般会計]",
+    "status": "evidence_hold",
+    "reason": "Retirement note in interleaved annual table; no independent confirmation of active target-year scope. Preserve title but do not add annual record.",
+    "matches": 1
+  },
+  {
+    "name": "介護給付等費用適正化事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "介護給付等費用適\n12320\n正化事業",
+    "start": 1756
+  },
+  {
+    "name": "地域介護・福祉空間整備等交付金事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "地域介護・福祉空間\n12321\n整備等交付金事業",
+    "start": 1776
+  },
+  {
+    "name": "東部介護予防サービス事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "東部介護予防サービ\nス事業",
+    "start": 1808
+  },
+  {
+    "name": "東部地域支援センター",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "東部地域支援セン\n12324\nター",
+    "start": 1822
+  },
+  {
+    "name": "介護認定訪問調査(東部）",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "介護認定訪問調査\n12325\n(東部）",
+    "start": 1840
+  },
+  {
+    "name": "介護予防事業（東部）",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "介護予防事業（東\n12326\n部）",
+    "start": 1860
+  },
+  {
+    "name": "継続的評価分析支援事業",
+    "status": "evidence_hold",
+    "reason": "Retirement note in interleaved annual table; no independent confirmation of active target-year scope. Preserve title but do not add annual record.",
+    "matches": 1
+  },
+  {
+    "name": "西部介護予防サービス事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "西部介護予防サービ\n12328\nス事業",
+    "start": 1897
+  },
+  {
+    "name": "西部地域支援センター",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "西部地域支援セン\n12329\nター",
+    "start": 1917
+  },
+  {
+    "name": "介護認定訪問調査(西部）",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "介護認定訪問調査\n12330\n(西部）",
+    "start": 1935
+  },
+  {
+    "name": "高齢者相談業務等",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "高齢者相談業務等",
+    "start": 1962
+  },
+  {
+    "name": "老人福祉法届出事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "老人福祉法届出事\n業",
+    "start": 1971
+  },
+  {
+    "name": "篠山ﾃﾞｲｻｰﾋﾞｽｾﾝﾀｰ運営事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "篠山ﾃﾞｲｻｰﾋﾞｽｾﾝﾀｰ\n12340\n運営事業",
+    "start": 1994
+  },
+  {
+    "name": "後期高齢者医療健康診査事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "後期高齢者医療\n12341\n健康診査事業",
+    "start": 2020
+  },
+  {
+    "name": "後期高齢者医療費給付事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "後期高齢者医療費\n12342\n給付事業",
+    "start": 2041
+  },
+  {
+    "name": "人生80年いきいき住宅助成事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "人生80年いきいき住\n宅助成事業",
+    "start": 2893
+  },
+  {
+    "name": "長寿祝い金支給事務",
+    "status": "evidence_hold",
+    "reason": "Retirement note in interleaved annual table; no independent confirmation of active target-year scope. Preserve title but do not add annual record.",
+    "matches": 1
+  },
+  {
+    "name": "介護認定審査事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "介護認定審査事業",
+    "start": 3348
+  },
+  {
+    "name": "低所得者対策事業[特別会計]",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "低所得者対策事業\n[特別会計]",
+    "start": 3271
+  },
+  {
+    "name": "介護予防事業（西部）",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "介護予防事業（西\n12332\n部）",
+    "start": 3288
+  },
+  {
+    "name": "緊急通報体制整備事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "緊急通報体制整備\n12333\n事業",
+    "start": 3306
+  },
+  {
+    "name": "地域支援事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "地域支援事業",
+    "start": 3078
+  },
+  {
+    "name": "給食サービス事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "給食サービス事業",
+    "start": 3246
+  },
+  {
+    "name": "まちづくり協議会事務",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "まちづくり協議会\n事務",
+    "start": 6198
+  },
+  {
+    "name": "県民交流広場モデル事業推進事務",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "県民交流広場モデル\n事業推進事務",
+    "start": 6222
+  },
+  {
+    "name": "地域サポート職員制度事務",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "地域サポート職員制\n26303\n度事務",
+    "start": 6239
+  },
+  {
+    "name": "西紀南部開発促進協議会",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "西紀南部開発促進\n行:\n26304\n(3)-1\n協議会",
+    "start": 6259
+  },
+  {
+    "name": "西紀中地区里づくり振興会",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "西紀中地区里づくり\n行:\n26305\n(3)-1\n振興会",
+    "start": 6287
+  },
+  {
+    "name": "幼稚園教育の充実",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "幼稚園教育の充実",
+    "start": 7712
+  },
+  {
+    "name": "幼稚園教育の教育環境の整備",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "幼稚園教育の教育\n環境の整備",
+    "start": 7951
+  },
+  {
+    "name": "文化財の保護・管理",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "文化財の保護・管理",
+    "start": 9333
+  },
+  {
+    "name": "文化施設４館の運営",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "文化施設４館の運営",
+    "start": 9376
+  },
+  {
+    "name": "伝統文化の振興（春日能）",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "伝統文化の振興（春\n日能）",
+    "start": 9483
+  },
+  {
+    "name": "文化財の総合的な保存と活用の推進",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "文化財の総合的な保\n35206\n存と活用の推進",
+    "start": 9497
+  },
+  {
+    "name": "汚水処理施設共同整備事業（ミックス）",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "汚水処理施設共同\n整備事業（ミックス）",
+    "start": 10674
+  },
+  {
+    "name": "観光案内所委託事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "観光案内所委託事\n業",
+    "start": 12105
+  },
+  {
+    "name": "駅観光案内所委託事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "駅観光案内所委託\n53202\n事業",
+    "start": 12116
+  },
+  {
+    "name": "丹波観光ネットワーク推進委員会負担金",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "丹波観光ネットワー\nク推進委員会負担金",
+    "start": 12179
+  },
+  {
+    "name": "外客誘致促進委員会負担金事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "外客誘致促進委員\n53205\n会負担金事業",
+    "start": 12199
+  },
+  {
+    "name": "ひょうごﾂｰﾘｽﾞﾑ協会負担金事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "ひょうごﾂｰﾘｽﾞﾑ協会\n53206\n負担金事業",
+    "start": 12221
+  },
+  {
+    "name": "全国京都会議負担金事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "全国京都会議負担\n53207\n金事業",
+    "start": 12246
+  },
+  {
+    "name": "犬山市観光交流事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "犬山市観光交流事\n53208\n業",
+    "start": 12265
+  },
+  {
+    "name": "丹波篠山ふるさと応援団事務",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "丹波篠山ふるさと応\nま:P17\n援団事務",
+    "start": 14258
+  },
+  {
+    "name": "丹波篠山ふるさと応援寄付金事務",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "丹波篠山ふるさと\n応援寄付金事務",
+    "start": 14318
+  },
+  {
+    "name": "篠山再生市民会議事務局",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "篠山再生市民会議\n事務局",
+    "start": 15970
+  },
+  {
+    "name": "指定管理者制度事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "指定管理者制度事\n71203\n業",
+    "start": 15983
+  },
+  {
+    "name": "行政評価実施事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "行政評価実施事業",
+    "start": 16327
+  },
+  {
+    "name": "広告事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "広告事業",
+    "start": 16343
+  },
+  {
+    "name": "防災・減災啓発活動業務",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "防災・減災啓発活動\n業務",
+    "start": 4324
+  },
+  {
+    "name": "予防広報事務",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "予防広報事務",
+    "start": 4489
+  },
+  {
+    "name": "総合訓練の立案・広報事務",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "総合訓練の立案・広\n報事務",
+    "start": 4589
+  },
+  {
+    "name": "火災調査事務",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "火災調査事務",
+    "start": 4610
+  },
+  {
+    "name": "火災調査に伴う情報管理事務",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "火災調査に伴う情報\n管理事務",
+    "start": 4624
+  },
+  {
+    "name": "防火管理者制度事務",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "防火管理者制度事\n務",
+    "start": 4674
+  },
+  {
+    "name": "防火安全協会事務",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "防火安全協会事務",
+    "start": 4714
+  },
+  {
+    "name": "住宅防火に関する事務",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "住宅防火に関する事\n務",
+    "start": 4779
+  },
+  {
+    "name": "住宅防火診断義務",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "住宅防火診断義務",
+    "start": 4998
+  },
+  {
+    "name": "各種受付事務",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "各種受付事務",
+    "start": 5032
+  },
+  {
+    "name": "救急講習及び普通救命講習事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "救急講習及び普通\n行:\n(4)-70\n救命講習事業",
+    "start": 5144
+  },
+  {
+    "name": "消防団及び自主防災の訓練指導業務",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "消防団及び自主防\n25114\n災の訓練指導業務",
+    "start": 5170
+  },
+  {
+    "name": "兵庫県まとい会篠山支部の活動推進",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "兵庫県まとい会篠山 行:\n25115\n(3)-1\n支部の活動推進",
+    "start": 5194
+  },
+  {
+    "name": "「ひょうご」の観光地活性化推進事業補助金",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "「ひょうご」の観光地活\n\n53203 性化推進事業補助金",
+    "start": 12149
+  },
+  {
+    "name": "築城400年主催事業の企画・実施",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "築城400年主催事業 ま:P18\n-19\nの企画・実施",
+    "start": 13938
+  },
+  {
+    "name": "築城400年協賛・支援事業の調整",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "築城400年協賛・支 ま:P18\n64103\n-19\n援事業の調整",
+    "start": 13966
+  },
+  {
+    "name": "築城400年庁内PJTの運営（丹波篠山のまつり、丹波篠山学、篠山の美、新特産創造）",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "築城400年庁内PJTの運営（丹\n\n64104 波篠山のまつり、丹波篠山学、\n篠山の美、新特産創造）",
+    "start": 14007
+  },
+  {
+    "name": "ふるさと篠山へ帰ろう住もう運動推進事務",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "ふるさと篠山へ帰ろう住\n\n64107 もう運動推進事務",
+    "start": 14442
+  },
+  {
+    "name": "庁内プロジェクトチーム運営事務",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "庁内プロジェクトチー\nま:P13\nム運営事務",
+    "start": 14471
+  },
+  {
+    "name": "国内交流推進事業岐阜県高山市",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "国内交流推進事業\nま:P56\n64109\n岐阜県高山市",
+    "start": 14494
+  },
+  {
+    "name": "たんば田舎暮らしフォーラム関係事務",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "たんば田舎暮らし\nま:P13\n64110\nフォーラム関係事務",
+    "start": 14522
+  },
+  {
+    "name": "兵庫田舎暮らし他自然居住支援協議会事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "兵庫田舎暮らし他自然\n64111 居住支援協議会事業",
+    "start": 14647
+  },
+  {
+    "name": "まちなか再生総合プロデュース事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "まちなか再生総合プ ま:P18\n-19\nロデュース事業",
+    "start": 14681
+  },
+  {
+    "name": "緊急雇用就業機会創出基金事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "緊急雇用就業機会 ま:P18\n64113\n-19\n創出基金事業",
+    "start": 14709
+  },
+  {
+    "name": "篠山再生計画（行財政改革編）策定・推進事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "篠山再生計画（行財政改革\n\n71201 編）策定・推進事業",
+    "start": 15939
+  },
+  {
+    "name": "第２次行政改革実施計画･集中改革プラン取りまとめ事業",
+    "status": "pending_duplicate_and_parser_validation",
+    "raw": "第２次行政改革実施計画･集中\n\n71205 改革プラン取りまとめ事業",
+    "start": 16022
+  }
+]

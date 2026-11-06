@@ -13548,6 +13548,1214 @@
         "start": 4453,
         "raw": "防火広報事業",
         "note": "Explicit annualpost-evaluation business-table identity only. Full literal name reviewed; no policy grade, financialcolumn, indicator or detached narrative inferred."
+      },
+      {
+        "name": "今田地区敬老会支援",
+        "start": 944,
+        "raw": "今田地区敬老会支\n行:\n(4)-22\n援",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 944,
+            "raw": "今田地区敬老会支"
+          },
+          {
+            "start": 963,
+            "raw": "援"
+          }
+        ]
+      },
+      {
+        "name": "外出支援サービス事業",
+        "start": 965,
+        "raw": "外出支援サービス事 行:\n12303\n(4)-40\n業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 965,
+            "raw": "外出支援サービス事"
+          },
+          {
+            "start": 991,
+            "raw": "業"
+          }
+        ]
+      },
+      {
+        "name": "高齢者住宅支援事業",
+        "start": 993,
+        "raw": "高齢者住宅支援事\n行:\n12304\n(4)-41\n業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 993,
+            "raw": "高齢者住宅支援事"
+          },
+          {
+            "start": 1018,
+            "raw": "業"
+          }
+        ]
+      },
+      {
+        "name": "西紀老人福祉ｾﾝﾀｰ管理",
+        "start": 1020,
+        "raw": "西紀老人福祉ｾﾝﾀｰ\n12305\n管理",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 1020,
+            "raw": "西紀老人福祉ｾﾝﾀｰ"
+          },
+          {
+            "start": 1037,
+            "raw": "管理"
+          }
+        ]
+      },
+      {
+        "name": "今田老人福祉センター管理",
+        "start": 1047,
+        "raw": "今田老人福祉セン\n12306\nター管理",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 1047,
+            "raw": "今田老人福祉セン"
+          },
+          {
+            "start": 1062,
+            "raw": "ター管理"
+          }
+        ]
+      },
+      {
+        "name": "在宅老人介護用品給付事業",
+        "start": 1067,
+        "raw": "在宅老人介護用品\n給付事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 1067,
+            "raw": "在宅老人介護用品"
+          },
+          {
+            "start": 1076,
+            "raw": "給付事業"
+          }
+        ]
+      },
+      {
+        "name": "老人日常生活用具給付事業",
+        "start": 1081,
+        "raw": "老人日常生活用具\n12308\n給付事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 1081,
+            "raw": "老人日常生活用具"
+          },
+          {
+            "start": 1096,
+            "raw": "給付事業"
+          }
+        ]
+      },
+      {
+        "name": "在宅高齢者外出支援用具給付事業",
+        "start": 1101,
+        "raw": "在宅高齢者外出支\n12309\n援用具給付事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 1101,
+            "raw": "在宅高齢者外出支"
+          },
+          {
+            "start": 1116,
+            "raw": "援用具給付事業"
+          }
+        ]
+      },
+      {
+        "name": "要支援・要介護認定調査・主治医意見書作成依頼事業",
+        "start": 1633,
+        "raw": "要支援・要介護認定調査・主治\n医意見書作成依頼事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 1633,
+            "raw": "要支援・要介護認定調査・主治"
+          },
+          {
+            "start": 1648,
+            "raw": "医意見書作成依頼事業"
+          }
+        ]
+      },
+      {
+        "name": "老人医療費助成事業",
+        "start": 1667,
+        "raw": "老人医療費助成事\n12312\n業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 1667,
+            "raw": "老人医療費助成事"
+          },
+          {
+            "start": 1682,
+            "raw": "業"
+          }
+        ]
+      },
+      {
+        "name": "介護保険苦情相談事業",
+        "start": 1704,
+        "raw": "介護保険苦情相談\n事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 1704,
+            "raw": "介護保険苦情相談"
+          },
+          {
+            "start": 1713,
+            "raw": "事業"
+          }
+        ]
+      },
+      {
+        "name": "介護保険給付管理事業",
+        "start": 1716,
+        "raw": "介護保険給付管理\n12318\n事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 1716,
+            "raw": "介護保険給付管理"
+          },
+          {
+            "start": 1731,
+            "raw": "事業"
+          }
+        ]
+      },
+      {
+        "name": "介護給付等費用適正化事業",
+        "start": 1756,
+        "raw": "介護給付等費用適\n12320\n正化事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 1756,
+            "raw": "介護給付等費用適"
+          },
+          {
+            "start": 1771,
+            "raw": "正化事業"
+          }
+        ]
+      },
+      {
+        "name": "地域介護・福祉空間整備等交付金事業",
+        "start": 1776,
+        "raw": "地域介護・福祉空間\n12321\n整備等交付金事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 1776,
+            "raw": "地域介護・福祉空間"
+          },
+          {
+            "start": 1792,
+            "raw": "整備等交付金事業"
+          }
+        ]
+      },
+      {
+        "name": "東部介護予防サービス事業",
+        "start": 1808,
+        "raw": "東部介護予防サービ\nス事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 1808,
+            "raw": "東部介護予防サービ"
+          },
+          {
+            "start": 1818,
+            "raw": "ス事業"
+          }
+        ]
+      },
+      {
+        "name": "東部地域支援センター",
+        "start": 1822,
+        "raw": "東部地域支援セン\n12324\nター",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 1822,
+            "raw": "東部地域支援セン"
+          },
+          {
+            "start": 1837,
+            "raw": "ター"
+          }
+        ]
+      },
+      {
+        "name": "介護認定訪問調査(東部）",
+        "start": 1840,
+        "raw": "介護認定訪問調査\n12325\n(東部）",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 1840,
+            "raw": "介護認定訪問調査"
+          },
+          {
+            "start": 1855,
+            "raw": "(東部）"
+          }
+        ]
+      },
+      {
+        "name": "介護予防事業（東部）",
+        "start": 1860,
+        "raw": "介護予防事業（東\n12326\n部）",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 1860,
+            "raw": "介護予防事業（東"
+          },
+          {
+            "start": 1875,
+            "raw": "部）"
+          }
+        ]
+      },
+      {
+        "name": "西部介護予防サービス事業",
+        "start": 1897,
+        "raw": "西部介護予防サービ\n12328\nス事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 1897,
+            "raw": "西部介護予防サービ"
+          },
+          {
+            "start": 1913,
+            "raw": "ス事業"
+          }
+        ]
+      },
+      {
+        "name": "西部地域支援センター",
+        "start": 1917,
+        "raw": "西部地域支援セン\n12329\nター",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 1917,
+            "raw": "西部地域支援セン"
+          },
+          {
+            "start": 1932,
+            "raw": "ター"
+          }
+        ]
+      },
+      {
+        "name": "介護認定訪問調査(西部）",
+        "start": 1935,
+        "raw": "介護認定訪問調査\n12330\n(西部）",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 1935,
+            "raw": "介護認定訪問調査"
+          },
+          {
+            "start": 1950,
+            "raw": "(西部）"
+          }
+        ]
+      },
+      {
+        "name": "高齢者相談業務等",
+        "start": 1962,
+        "raw": "高齢者相談業務等",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns."
+      },
+      {
+        "name": "老人福祉法届出事業",
+        "start": 1971,
+        "raw": "老人福祉法届出事\n業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 1971,
+            "raw": "老人福祉法届出事"
+          },
+          {
+            "start": 1980,
+            "raw": "業"
+          }
+        ]
+      },
+      {
+        "name": "篠山ﾃﾞｲｻｰﾋﾞｽｾﾝﾀｰ運営事業",
+        "start": 1994,
+        "raw": "篠山ﾃﾞｲｻｰﾋﾞｽｾﾝﾀｰ\n12340\n運営事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 1994,
+            "raw": "篠山ﾃﾞｲｻｰﾋﾞｽｾﾝﾀｰ"
+          },
+          {
+            "start": 2015,
+            "raw": "運営事業"
+          }
+        ]
+      },
+      {
+        "name": "後期高齢者医療健康診査事業",
+        "start": 2020,
+        "raw": "後期高齢者医療\n12341\n健康診査事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 2020,
+            "raw": "後期高齢者医療"
+          },
+          {
+            "start": 2034,
+            "raw": "健康診査事業"
+          }
+        ]
+      },
+      {
+        "name": "後期高齢者医療費給付事業",
+        "start": 2041,
+        "raw": "後期高齢者医療費\n12342\n給付事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 2041,
+            "raw": "後期高齢者医療費"
+          },
+          {
+            "start": 2056,
+            "raw": "給付事業"
+          }
+        ]
+      },
+      {
+        "name": "人生80年いきいき住宅助成事業",
+        "start": 2893,
+        "raw": "人生80年いきいき住\n宅助成事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 2893,
+            "raw": "人生80年いきいき住"
+          },
+          {
+            "start": 2904,
+            "raw": "宅助成事業"
+          }
+        ]
+      },
+      {
+        "name": "介護認定審査事業",
+        "start": 3348,
+        "raw": "介護認定審査事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns."
+      },
+      {
+        "name": "低所得者対策事業[特別会計]",
+        "start": 3271,
+        "raw": "低所得者対策事業\n[特別会計]",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 3271,
+            "raw": "低所得者対策事業"
+          },
+          {
+            "start": 3280,
+            "raw": "[特別会計]"
+          }
+        ]
+      },
+      {
+        "name": "介護予防事業（西部）",
+        "start": 3288,
+        "raw": "介護予防事業（西\n12332\n部）",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 3288,
+            "raw": "介護予防事業（西"
+          },
+          {
+            "start": 3303,
+            "raw": "部）"
+          }
+        ]
+      },
+      {
+        "name": "緊急通報体制整備事業",
+        "start": 3306,
+        "raw": "緊急通報体制整備\n12333\n事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 3306,
+            "raw": "緊急通報体制整備"
+          },
+          {
+            "start": 3321,
+            "raw": "事業"
+          }
+        ]
+      },
+      {
+        "name": "地域支援事業",
+        "start": 3078,
+        "raw": "地域支援事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns."
+      },
+      {
+        "name": "給食サービス事業",
+        "start": 3246,
+        "raw": "給食サービス事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns."
+      },
+      {
+        "name": "まちづくり協議会事務",
+        "start": 6198,
+        "raw": "まちづくり協議会\n事務",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 6198,
+            "raw": "まちづくり協議会"
+          },
+          {
+            "start": 6207,
+            "raw": "事務"
+          }
+        ]
+      },
+      {
+        "name": "県民交流広場モデル事業推進事務",
+        "start": 6222,
+        "raw": "県民交流広場モデル\n事業推進事務",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 6222,
+            "raw": "県民交流広場モデル"
+          },
+          {
+            "start": 6232,
+            "raw": "事業推進事務"
+          }
+        ]
+      },
+      {
+        "name": "地域サポート職員制度事務",
+        "start": 6239,
+        "raw": "地域サポート職員制\n26303\n度事務",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 6239,
+            "raw": "地域サポート職員制"
+          },
+          {
+            "start": 6255,
+            "raw": "度事務"
+          }
+        ]
+      },
+      {
+        "name": "西紀南部開発促進協議会",
+        "start": 6259,
+        "raw": "西紀南部開発促進\n行:\n26304\n(3)-1\n協議会",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 6259,
+            "raw": "西紀南部開発促進"
+          },
+          {
+            "start": 6283,
+            "raw": "協議会"
+          }
+        ]
+      },
+      {
+        "name": "西紀中地区里づくり振興会",
+        "start": 6287,
+        "raw": "西紀中地区里づくり\n行:\n26305\n(3)-1\n振興会",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 6287,
+            "raw": "西紀中地区里づくり"
+          },
+          {
+            "start": 6312,
+            "raw": "振興会"
+          }
+        ]
+      },
+      {
+        "name": "幼稚園教育の充実",
+        "start": 7712,
+        "raw": "幼稚園教育の充実",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns."
+      },
+      {
+        "name": "幼稚園教育の教育環境の整備",
+        "start": 7951,
+        "raw": "幼稚園教育の教育\n環境の整備",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 7951,
+            "raw": "幼稚園教育の教育"
+          },
+          {
+            "start": 7960,
+            "raw": "環境の整備"
+          }
+        ]
+      },
+      {
+        "name": "文化財の保護・管理",
+        "start": 9333,
+        "raw": "文化財の保護・管理",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns."
+      },
+      {
+        "name": "文化施設４館の運営",
+        "start": 9376,
+        "raw": "文化施設４館の運営",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns."
+      },
+      {
+        "name": "伝統文化の振興（春日能）",
+        "start": 9483,
+        "raw": "伝統文化の振興（春\n日能）",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 9483,
+            "raw": "伝統文化の振興（春"
+          },
+          {
+            "start": 9493,
+            "raw": "日能）"
+          }
+        ]
+      },
+      {
+        "name": "文化財の総合的な保存と活用の推進",
+        "start": 9497,
+        "raw": "文化財の総合的な保\n35206\n存と活用の推進",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 9497,
+            "raw": "文化財の総合的な保"
+          },
+          {
+            "start": 9513,
+            "raw": "存と活用の推進"
+          }
+        ]
+      },
+      {
+        "name": "汚水処理施設共同整備事業（ミックス）",
+        "start": 10674,
+        "raw": "汚水処理施設共同\n整備事業（ミックス）",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 10674,
+            "raw": "汚水処理施設共同"
+          },
+          {
+            "start": 10683,
+            "raw": "整備事業（ミックス）"
+          }
+        ]
+      },
+      {
+        "name": "観光案内所委託事業",
+        "start": 12105,
+        "raw": "観光案内所委託事\n業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 12105,
+            "raw": "観光案内所委託事"
+          },
+          {
+            "start": 12114,
+            "raw": "業"
+          }
+        ]
+      },
+      {
+        "name": "駅観光案内所委託事業",
+        "start": 12116,
+        "raw": "駅観光案内所委託\n53202\n事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 12116,
+            "raw": "駅観光案内所委託"
+          },
+          {
+            "start": 12131,
+            "raw": "事業"
+          }
+        ]
+      },
+      {
+        "name": "丹波観光ネットワーク推進委員会負担金",
+        "start": 12179,
+        "raw": "丹波観光ネットワー\nク推進委員会負担金",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 12179,
+            "raw": "丹波観光ネットワー"
+          },
+          {
+            "start": 12189,
+            "raw": "ク推進委員会負担金"
+          }
+        ]
+      },
+      {
+        "name": "外客誘致促進委員会負担金事業",
+        "start": 12199,
+        "raw": "外客誘致促進委員\n53205\n会負担金事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 12199,
+            "raw": "外客誘致促進委員"
+          },
+          {
+            "start": 12214,
+            "raw": "会負担金事業"
+          }
+        ]
+      },
+      {
+        "name": "ひょうごﾂｰﾘｽﾞﾑ協会負担金事業",
+        "start": 12221,
+        "raw": "ひょうごﾂｰﾘｽﾞﾑ協会\n53206\n負担金事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 12221,
+            "raw": "ひょうごﾂｰﾘｽﾞﾑ協会"
+          },
+          {
+            "start": 12240,
+            "raw": "負担金事業"
+          }
+        ]
+      },
+      {
+        "name": "全国京都会議負担金事業",
+        "start": 12246,
+        "raw": "全国京都会議負担\n53207\n金事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 12246,
+            "raw": "全国京都会議負担"
+          },
+          {
+            "start": 12261,
+            "raw": "金事業"
+          }
+        ]
+      },
+      {
+        "name": "犬山市観光交流事業",
+        "start": 12265,
+        "raw": "犬山市観光交流事\n53208\n業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 12265,
+            "raw": "犬山市観光交流事"
+          },
+          {
+            "start": 12280,
+            "raw": "業"
+          }
+        ]
+      },
+      {
+        "name": "丹波篠山ふるさと応援団事務",
+        "start": 14258,
+        "raw": "丹波篠山ふるさと応\nま:P17\n援団事務",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 14258,
+            "raw": "丹波篠山ふるさと応"
+          },
+          {
+            "start": 14274,
+            "raw": "援団事務"
+          }
+        ]
+      },
+      {
+        "name": "丹波篠山ふるさと応援寄付金事務",
+        "start": 14318,
+        "raw": "丹波篠山ふるさと\n応援寄付金事務",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 14318,
+            "raw": "丹波篠山ふるさと"
+          },
+          {
+            "start": 14327,
+            "raw": "応援寄付金事務"
+          }
+        ]
+      },
+      {
+        "name": "篠山再生市民会議事務局",
+        "start": 15970,
+        "raw": "篠山再生市民会議\n事務局",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 15970,
+            "raw": "篠山再生市民会議"
+          },
+          {
+            "start": 15979,
+            "raw": "事務局"
+          }
+        ]
+      },
+      {
+        "name": "指定管理者制度事業",
+        "start": 15983,
+        "raw": "指定管理者制度事\n71203\n業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 15983,
+            "raw": "指定管理者制度事"
+          },
+          {
+            "start": 15998,
+            "raw": "業"
+          }
+        ]
+      },
+      {
+        "name": "行政評価実施事業",
+        "start": 16327,
+        "raw": "行政評価実施事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns."
+      },
+      {
+        "name": "広告事業",
+        "start": 16343,
+        "raw": "広告事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns."
+      },
+      {
+        "name": "防災・減災啓発活動業務",
+        "start": 4324,
+        "raw": "防災・減災啓発活動\n業務",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 4324,
+            "raw": "防災・減災啓発活動"
+          },
+          {
+            "start": 4334,
+            "raw": "業務"
+          }
+        ]
+      },
+      {
+        "name": "予防広報事務",
+        "start": 4489,
+        "raw": "予防広報事務",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns."
+      },
+      {
+        "name": "総合訓練の立案・広報事務",
+        "start": 4589,
+        "raw": "総合訓練の立案・広\n報事務",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 4589,
+            "raw": "総合訓練の立案・広"
+          },
+          {
+            "start": 4599,
+            "raw": "報事務"
+          }
+        ]
+      },
+      {
+        "name": "火災調査事務",
+        "start": 4610,
+        "raw": "火災調査事務",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns."
+      },
+      {
+        "name": "火災調査に伴う情報管理事務",
+        "start": 4624,
+        "raw": "火災調査に伴う情報\n管理事務",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 4624,
+            "raw": "火災調査に伴う情報"
+          },
+          {
+            "start": 4634,
+            "raw": "管理事務"
+          }
+        ]
+      },
+      {
+        "name": "防火管理者制度事務",
+        "start": 4674,
+        "raw": "防火管理者制度事\n務",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 4674,
+            "raw": "防火管理者制度事"
+          },
+          {
+            "start": 4683,
+            "raw": "務"
+          }
+        ]
+      },
+      {
+        "name": "防火安全協会事務",
+        "start": 4714,
+        "raw": "防火安全協会事務",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns."
+      },
+      {
+        "name": "住宅防火に関する事務",
+        "start": 4779,
+        "raw": "住宅防火に関する事\n務",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 4779,
+            "raw": "住宅防火に関する事"
+          },
+          {
+            "start": 4789,
+            "raw": "務"
+          }
+        ]
+      },
+      {
+        "name": "住宅防火診断義務",
+        "start": 4998,
+        "raw": "住宅防火診断義務",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns."
+      },
+      {
+        "name": "各種受付事務",
+        "start": 5032,
+        "raw": "各種受付事務",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns."
+      },
+      {
+        "name": "救急講習及び普通救命講習事業",
+        "start": 5144,
+        "raw": "救急講習及び普通\n行:\n(4)-70\n救命講習事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 5144,
+            "raw": "救急講習及び普通"
+          },
+          {
+            "start": 5163,
+            "raw": "救命講習事業"
+          }
+        ]
+      },
+      {
+        "name": "消防団及び自主防災の訓練指導業務",
+        "start": 5170,
+        "raw": "消防団及び自主防\n25114\n災の訓練指導業務",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 5170,
+            "raw": "消防団及び自主防"
+          },
+          {
+            "start": 5185,
+            "raw": "災の訓練指導業務"
+          }
+        ]
+      },
+      {
+        "name": "兵庫県まとい会篠山支部の活動推進",
+        "start": 5194,
+        "raw": "兵庫県まとい会篠山 行:\n25115\n(3)-1\n支部の活動推進",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 5194,
+            "raw": "兵庫県まとい会篠山"
+          },
+          {
+            "start": 5219,
+            "raw": "支部の活動推進"
+          }
+        ]
+      },
+      {
+        "name": "「ひょうご」の観光地活性化推進事業補助金",
+        "start": 12149,
+        "raw": "「ひょうご」の観光地活\n\n53203 性化推進事業補助金",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 12149,
+            "raw": "「ひょうご」の観光地活"
+          },
+          {
+            "start": 12168,
+            "raw": "性化推進事業補助金"
+          }
+        ]
+      },
+      {
+        "name": "築城400年主催事業の企画・実施",
+        "start": 13938,
+        "raw": "築城400年主催事業 ま:P18\n-19\nの企画・実施",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 13938,
+            "raw": "築城400年主催事業"
+          },
+          {
+            "start": 13959,
+            "raw": "の企画・実施"
+          }
+        ]
+      },
+      {
+        "name": "築城400年協賛・支援事業の調整",
+        "start": 13966,
+        "raw": "築城400年協賛・支 ま:P18\n64103\n-19\n援事業の調整",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 13966,
+            "raw": "築城400年協賛・支"
+          },
+          {
+            "start": 13993,
+            "raw": "援事業の調整"
+          }
+        ]
+      },
+      {
+        "name": "築城400年庁内PJTの運営（丹波篠山のまつり、丹波篠山学、篠山の美、新特産創造）",
+        "start": 14007,
+        "raw": "築城400年庁内PJTの運営（丹\n\n64104 波篠山のまつり、丹波篠山学、\n篠山の美、新特産創造）",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 14007,
+            "raw": "築城400年庁内PJTの運営（丹"
+          },
+          {
+            "start": 14031,
+            "raw": "波篠山のまつり、丹波篠山学、"
+          },
+          {
+            "start": 14046,
+            "raw": "篠山の美、新特産創造）"
+          }
+        ]
+      },
+      {
+        "name": "ふるさと篠山へ帰ろう住もう運動推進事務",
+        "start": 14442,
+        "raw": "ふるさと篠山へ帰ろう住\n\n64107 もう運動推進事務",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 14442,
+            "raw": "ふるさと篠山へ帰ろう住"
+          },
+          {
+            "start": 14461,
+            "raw": "もう運動推進事務"
+          }
+        ]
+      },
+      {
+        "name": "庁内プロジェクトチーム運営事務",
+        "start": 14471,
+        "raw": "庁内プロジェクトチー\nま:P13\nム運営事務",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 14471,
+            "raw": "庁内プロジェクトチー"
+          },
+          {
+            "start": 14488,
+            "raw": "ム運営事務"
+          }
+        ]
+      },
+      {
+        "name": "国内交流推進事業岐阜県高山市",
+        "start": 14494,
+        "raw": "国内交流推進事業\nま:P56\n64109\n岐阜県高山市",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 14494,
+            "raw": "国内交流推進事業"
+          },
+          {
+            "start": 14515,
+            "raw": "岐阜県高山市"
+          }
+        ]
+      },
+      {
+        "name": "たんば田舎暮らしフォーラム関係事務",
+        "start": 14522,
+        "raw": "たんば田舎暮らし\nま:P13\n64110\nフォーラム関係事務",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 14522,
+            "raw": "たんば田舎暮らし"
+          },
+          {
+            "start": 14543,
+            "raw": "フォーラム関係事務"
+          }
+        ]
+      },
+      {
+        "name": "兵庫田舎暮らし他自然居住支援協議会事業",
+        "start": 14647,
+        "raw": "兵庫田舎暮らし他自然\n64111 居住支援協議会事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 14647,
+            "raw": "兵庫田舎暮らし他自然"
+          },
+          {
+            "start": 14664,
+            "raw": "居住支援協議会事業"
+          }
+        ]
+      },
+      {
+        "name": "まちなか再生総合プロデュース事業",
+        "start": 14681,
+        "raw": "まちなか再生総合プ ま:P18\n-19\nロデュース事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 14681,
+            "raw": "まちなか再生総合プ"
+          },
+          {
+            "start": 14701,
+            "raw": "ロデュース事業"
+          }
+        ]
+      },
+      {
+        "name": "緊急雇用就業機会創出基金事業",
+        "start": 14709,
+        "raw": "緊急雇用就業機会 ま:P18\n64113\n-19\n創出基金事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 14709,
+            "raw": "緊急雇用就業機会"
+          },
+          {
+            "start": 14734,
+            "raw": "創出基金事業"
+          }
+        ]
+      },
+      {
+        "name": "篠山再生計画（行財政改革編）策定・推進事業",
+        "start": 15939,
+        "raw": "篠山再生計画（行財政改革\n\n71201 編）策定・推進事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 15939,
+            "raw": "篠山再生計画（行財政改革"
+          },
+          {
+            "start": 15959,
+            "raw": "編）策定・推進事業"
+          }
+        ]
+      },
+      {
+        "name": "第２次行政改革実施計画･集中改革プラン取りまとめ事業",
+        "start": 16022,
+        "raw": "第２次行政改革実施計画･集中\n\n71205 改革プラン取りまとめ事業",
+        "note": "Explicit FY2008 assessed-business table. Preserve exact wrapped title and qualifiers; no numeric/grade/activity association from interleaved columns.",
+        "titleSegments": [
+          {
+            "start": 16022,
+            "raw": "第２次行政改革実施計画･集中"
+          },
+          {
+            "start": 16044,
+            "raw": "改革プラン取りまとめ事業"
+          }
+        ]
       }
     ],
     "holds": []

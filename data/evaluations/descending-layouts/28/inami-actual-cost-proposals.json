@@ -1,0 +1,2487 @@
+[
+  {
+    "candidateId": "cached-28381-42b68ae9ca1b2af6aab627ab",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "ふるさと大使創設事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 4800,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 2123,
+        "end": 2130,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 2218,
+        "end": 2230,
+        "rawText": "事業費\n\n4,800 円"
+      },
+      {
+        "start": 2640,
+        "end": 2697,
+        "rawText": "予算現額\n\n160,000 円\n\n0円\n\n160,000 円\n\n決算額\n\n4,800 円\n\n0円\n\n4,800 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-3ed04e5c1e23fe60d11457a2",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "公用電気自動車導入事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 5586000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 2703,
+        "end": 2710,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 2802,
+        "end": 2818,
+        "rawText": "事業費\n\n5,586,000 円"
+      },
+      {
+        "start": 3247,
+        "end": 3316,
+        "rawText": "予算現額\n\n5,586,000 円\n\n0円\n\n5,586,000 円\n\n決算額\n\n5,586,000 円\n\n0円\n\n5,586,000 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-c2fa6d5b9a21b81d4ef6673e",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "デマンド型乗合タクシー運行事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 12114778,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 3322,
+        "end": 3329,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 3425,
+        "end": 3442,
+        "rawText": "事業費\n\n12,114,778 円"
+      },
+      {
+        "start": 4184,
+        "end": 4275,
+        "rawText": "予算現額\n\n20,267,000 円\n\n18,205,000 円\n\n2,062,000 円\n\n決算額\n\n12,114,778 円\n\n10,832,305 円\n\n1,282,473 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-a2ae94fc0a7ca71e85c9c12c",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "地域福祉計画策定事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 2301700,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 7901,
+        "end": 7908,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 8007,
+        "end": 8023,
+        "rawText": "事業費\n\n2,301,700 円"
+      },
+      {
+        "start": 8576,
+        "end": 8645,
+        "rawText": "予算現額\n\n2,390,000 円\n\n0円\n\n2,390,000 円\n\n決算額\n\n2,301,700 円\n\n0円\n\n2,301,700 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-8ed73cca8c12689a19d68acb",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "低所得者支援及び定額減税補足給付金給付事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 339185853,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 8651,
+        "end": 8658,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 8788,
+        "end": 8806,
+        "rawText": "事業費\n\n339,185,853 円"
+      },
+      {
+        "start": 9671,
+        "end": 9748,
+        "rawText": "予算現額\n\n339,860,000 円\n\n0円\n\n339,860,000 円\n\n決算額\n\n339,185,853 円\n\n0円\n\n339,185,853 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-a25e4afaff6e4f9e398c0be0",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "住民税非課税世帯に対する給付金給付事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 3703567,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 9754,
+        "end": 9761,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 9887,
+        "end": 9903,
+        "rawText": "事業費\n\n3,703,567 円"
+      },
+      {
+        "start": 10393,
+        "end": 10462,
+        "rawText": "予算現額\n\n3,715,000 円\n\n0円\n\n3,715,000 円\n\n決算額\n\n3,703,567 円\n\n0円\n\n3,703,567 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-6db2c916accc7101ba25885b",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "防犯カメラ設置等事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 85897508,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 11689,
+        "end": 11696,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 11786,
+        "end": 11803,
+        "rawText": "事業費\n\n85,897,508 円"
+      },
+      {
+        "start": 12536,
+        "end": 12628,
+        "rawText": "予算現額\n\n88,619,000 円\n\n11,217,000 円\n\n77,402,000 円\n\n決算額\n\n85,897,508 円\n\n9,574,000 円\n\n76,323,508 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-14ec5f129317058b4bafdc00",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "自動録音電話機等普及促進事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 1422400,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 12635,
+        "end": 12642,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 12737,
+        "end": 12753,
+        "rawText": "事業費\n\n1,422,400 円"
+      },
+      {
+        "start": 13216,
+        "end": 13285,
+        "rawText": "予算現額\n\n1,730,000 円\n\n0円\n\n1,730,000 円\n\n決算額\n\n1,422,400 円\n\n0円\n\n1,422,400 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-7e649dc27ac4b63b63df4513",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "防犯灯・街灯維持管理事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 20184598,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 13292,
+        "end": 13299,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 13397,
+        "end": 13414,
+        "rawText": "事業費\n\n20,184,598 円"
+      },
+      {
+        "start": 14097,
+        "end": 14189,
+        "rawText": "予算現額\n\n24,005,000 円\n\n12,800,000 円\n\n11,205,000 円\n\n決算額\n\n20,184,598 円\n\n9,100,494 円\n\n11,084,104 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-7f8328779467eb12cceee26b",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "高齢者優待利用券交付事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 35656027,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 14196,
+        "end": 14203,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 14304,
+        "end": 14321,
+        "rawText": "事業費\n\n35,656,027 円"
+      },
+      {
+        "start": 15125,
+        "end": 15216,
+        "rawText": "予算現額\n\n39,694,000 円\n\n38,503,000 円\n\n1,191,000 円\n\n決算額\n\n35,656,027 円\n\n31,145,436 円\n\n4,510,591 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-b6df1eba56e9d27d8eb2ac0c",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "敬老お祝い事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 7023631,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 15223,
+        "end": 15230,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 15321,
+        "end": 15337,
+        "rawText": "事業費\n\n7,023,631 円"
+      },
+      {
+        "start": 15882,
+        "end": 15969,
+        "rawText": "予算現額\n\n7,458,000 円\n\n6,211,000 円\n\n1,247,000 円\n\n決算額\n\n7,023,631 円\n\n5,621,471 円\n\n1,402,160 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-c39d942dbc4d3bacccb4e8eb",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "総合福祉会館空調設備改修事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 36366880,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 15976,
+        "end": 15983,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 16096,
+        "end": 16113,
+        "rawText": "事業費\n\n36,366,880 円"
+      },
+      {
+        "start": 16782,
+        "end": 16855,
+        "rawText": "予算現額\n\n45,741,000 円\n\n0円\n\n45,741,000 円\n\n決算額\n\n36,366,880 円\n\n0円\n\n36,366,880 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-5afac6f2cfad6bd549b91d7a",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "こども計画策定事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 6347905,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 17766,
+        "end": 17773,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 17872,
+        "end": 17887,
+        "rawText": "事業費\n6,347,905 円"
+      },
+      {
+        "start": 18784,
+        "end": 18866,
+        "rawText": "予算現額\n\n8,821,000 円\n\n157,000 円\n\n8,664,000 円\n\n決算額\n\n6,347,905 円\n\n34,079 円\n\n6,313,826 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-8f3aad1b79b46dc5729cfb96",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "出産お祝い金支給事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 9000000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 18873,
+        "end": 18880,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 18978,
+        "end": 18994,
+        "rawText": "事業費\n\n9,000,000 円"
+      },
+      {
+        "start": 19368,
+        "end": 19444,
+        "rawText": "予算現額\n\n9,500,000 円\n\n9,500,000 円\n\n0円\n\n決算額\n\n9,000,000 円\n\n8,300,000 円\n\n700,000 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-f3d648c626486dfde38dde59",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "保育所等子育て支援カウンセラー事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 576000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 20168,
+        "end": 20175,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 20276,
+        "end": 20290,
+        "rawText": "事業費\n\n576,000 円"
+      },
+      {
+        "start": 20715,
+        "end": 20776,
+        "rawText": "予算現額\n\n960,000 円\n\n960,000 円\n\n0円\n\n決算額\n\n576,000 円\n\n576,000 円\n\n0円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-f44244216d95884b1d0f932f",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "保育所等給食費支援事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 4983000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 20783,
+        "end": 20790,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 20885,
+        "end": 20901,
+        "rawText": "事業費\n\n4,983,000 円"
+      },
+      {
+        "start": 21314,
+        "end": 21383,
+        "rawText": "予算現額\n\n4,983,000 円\n\n4,983,000 円\n\n0円\n\n決算額\n\n4,983,000 円\n\n4,983,000 円\n\n0円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-59c5f02e6c05d3753f23fea4",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "児童手当支給事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 532035000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 21390,
+        "end": 21397,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 21488,
+        "end": 21506,
+        "rawText": "事業費\n\n532,035,000 円"
+      },
+      {
+        "start": 22041,
+        "end": 22138,
+        "rawText": "予算現額\n\n532,735,000 円\n\n462,085,000 円\n\n70,650,000 円\n\n決算額\n\n532,035,000 円\n\n461,585,000 円\n\n70,450,000 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-94e863c038e252cf23d5b7d6",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "子育て家庭ショートステイ事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 26900,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 22145,
+        "end": 22152,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 22254,
+        "end": 22267,
+        "rawText": "事業費\n\n26,900 円"
+      },
+      {
+        "start": 22741,
+        "end": 22807,
+        "rawText": "予算現額\n\n248,000 円\n\n124,000 円\n\n124,000 円\n\n決算額\n\n26,900 円\n\n0円\n\n26,900 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-5405e4bdcae346a4bd371666",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "保育所緊急整備事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 127644000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 22814,
+        "end": 22821,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 22914,
+        "end": 22932,
+        "rawText": "事業費\n\n127,644,000 円"
+      },
+      {
+        "start": 23406,
+        "end": 23483,
+        "rawText": "予算現額\n\n127,644,000 円\n\n0円\n\n127,644,000 円\n\n決算額\n\n127,644,000 円\n\n0円\n\n127,644,000 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-5a5bf2578614fc78d4fe1cb2",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "いなみっこ広場一時預かり保育利用促進事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 15540,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 23490,
+        "end": 23497,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 23606,
+        "end": 23619,
+        "rawText": "事業費\n\n15,540 円"
+      },
+      {
+        "start": 24198,
+        "end": 24255,
+        "rawText": "予算現額\n\n23,000 円\n\n0円\n\n23,000 円\n\n決算額\n\n15,540 円\n\n0円\n\n15,540 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-e7699d61979824c49a89e228",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "一般不妊治療費助成事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 704180,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 24262,
+        "end": 24269,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 24364,
+        "end": 24378,
+        "rawText": "事業費\n\n704,180 円"
+      },
+      {
+        "start": 24753,
+        "end": 24831,
+        "rawText": "予算現額\n\n1,040,000 円\n\n1,000,000 円\n\n40,000 円\n\n決算額\n\n704,180 円\n\n382,010 円\n\n322,170 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-dcb7ace155a453f665ea153b",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "帯状疱疹任意予防接種費助成事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 5329192,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 25805,
+        "end": 25812,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 25911,
+        "end": 25927,
+        "rawText": "事業費\n\n5,329,192 円"
+      },
+      {
+        "start": 26861,
+        "end": 26930,
+        "rawText": "予算現額\n\n6,151,000 円\n\n0円\n\n6,151,000 円\n\n決算額\n\n5,329,192 円\n\n0円\n\n5,329,192 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-01dec639f16a70a687355da0",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "飼い主のいない猫の不妊去勢手術補助事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 45000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 26937,
+        "end": 26944,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 27043,
+        "end": 27056,
+        "rawText": "事業費\n\n45,000 円"
+      },
+      {
+        "start": 27517,
+        "end": 27576,
+        "rawText": "予算現額\n\n250,000 円\n\n0円\n\n250,000 円\n\n決算額\n\n45,000 円\n\n0円\n\n45,000 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-7c6378c28db63910c5ba2c9a",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "地球温暖化対策実行計画(区域施策編)策定事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 7677295,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 27583,
+        "end": 27590,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 27702,
+        "end": 27718,
+        "rawText": "事業費\n\n7,677,295 円"
+      },
+      {
+        "start": 28263,
+        "end": 28332,
+        "rawText": "予算現額\n\n8,480,000 円\n\n0円\n\n8,480,000 円\n\n決算額\n\n7,677,295 円\n\n0円\n\n7,677,295 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-a01cbe89af1b439163f32e2d",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "電気自動車等普及促進事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 850000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 28339,
+        "end": 28346,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 28447,
+        "end": 28461,
+        "rawText": "事業費\n\n850,000 円"
+      },
+      {
+        "start": 28941,
+        "end": 29006,
+        "rawText": "予算現額\n\n2,000,000 円\n\n0円\n\n2,000,000 円\n\n決算額\n\n850,000 円\n\n0円\n\n850,000 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-5440c6807914df415f932b39",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "空きびん回収用ドラム缶更新事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 2046000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 29013,
+        "end": 29020,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 29117,
+        "end": 29133,
+        "rawText": "事業費\n\n2,046,000 円"
+      },
+      {
+        "start": 29506,
+        "end": 29575,
+        "rawText": "予算現額\n\n2,046,000 円\n\n0円\n\n2,046,000 円\n\n決算額\n\n2,046,000 円\n\n0円\n\n2,046,000 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-ad9d033e06448c2583d5d105",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "広域ごみ処理事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 18686342,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 29582,
+        "end": 29589,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 29680,
+        "end": 29697,
+        "rawText": "事業費\n\n18,686,342 円"
+      },
+      {
+        "start": 30220,
+        "end": 30311,
+        "rawText": "予算現額\n\n19,960,000 円\n\n18,334,000 円\n\n1,626,000 円\n\n決算額\n\n18,686,342 円\n\n17,371,426 円\n\n1,314,916 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-c72fdd91f2df010ec243cef6",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "農薬に頼らない稲作技術実証事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 2253300,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 30318,
+        "end": 30325,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 30421,
+        "end": 30437,
+        "rawText": "事業費\n\n2,253,300 円"
+      },
+      {
+        "start": 30928,
+        "end": 31011,
+        "rawText": "予算現額\n\n2,254,000 円\n\n600,000 円\n\n1,654,000 円\n\n決算額\n\n2,253,300 円\n\n600,000 円\n\n1,653,300 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-aafd4165a3bb321f399024f0",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "地域計画策定推進事業（人・農地プラン）",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 9647000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 31018,
+        "end": 31025,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 31130,
+        "end": 31146,
+        "rawText": "事業費\n\n9,647,000 円"
+      },
+      {
+        "start": 31656,
+        "end": 31725,
+        "rawText": "予算現額\n\n9,712,000 円\n\n0円\n\n9,712,000 円\n\n決算額\n\n9,647,000 円\n\n0円\n\n9,647,000 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-7a75626af864289660e0d5a9",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "地震対策ため池防災事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 8207551,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 31732,
+        "end": 31739,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 31832,
+        "end": 31848,
+        "rawText": "事業費\n\n8,207,551 円"
+      },
+      {
+        "start": 32167,
+        "end": 32254,
+        "rawText": "予算現額\n\n8,208,000 円\n\n5,500,000 円\n\n2,708,000 円\n\n決算額\n\n8,207,551 円\n\n5,499,923 円\n\n2,707,628 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-b299915455bf085020920323",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "基幹水利施設整備事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 13667478,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 32907,
+        "end": 32914,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 33009,
+        "end": 33026,
+        "rawText": "事業費\n\n13,667,478 円"
+      },
+      {
+        "start": 33539,
+        "end": 33628,
+        "rawText": "予算現額\n\n13,668,000 円\n\n7,050,000 円\n\n6,618,000 円\n\n決算額\n\n13,667,478 円\n\n7,049,889 円\n\n6,617,589 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-c95a16ca0312996e723edcf0",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "水利施設等保全高度化事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 69998500,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 33635,
+        "end": 33642,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 33745,
+        "end": 33762,
+        "rawText": "事業費\n\n69,998,500 円"
+      },
+      {
+        "start": 34254,
+        "end": 34327,
+        "rawText": "予算現額\n\n70,000,000 円\n\n0円\n\n70,000,000 円\n\n決算額\n\n69,998,500 円\n\n0円\n\n69,998,500 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-bd97e924f3b1ab810568c314",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "加古大池利活用施設管理棟改修事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 18058700,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 34334,
+        "end": 34341,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 34445,
+        "end": 34462,
+        "rawText": "事業費\n\n18,058,700 円"
+      },
+      {
+        "start": 34877,
+        "end": 34950,
+        "rawText": "予算現額\n\n19,140,000 円\n\n0円\n\n19,140,000 円\n\n決算額\n\n18,058,700 円\n\n0円\n\n18,058,700 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-8e30b1b8757bc927dcb7f687",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "商工業振興補助事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 16661246,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 34957,
+        "end": 34964,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 35048,
+        "end": 35065,
+        "rawText": "事業費\n\n16,661,246 円"
+      },
+      {
+        "start": 35388,
+        "end": 35475,
+        "rawText": "予算現額\n\n17,350,000 円\n\n16,908,000 円\n\n442,000 円\n\n決算額\n\n16,661,246 円\n\n16,443,202 円\n\n218,044 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-684c4659cc55e05b5c964072",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "稲美町プレミアム付商品券事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 148836000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 36715,
+        "end": 36722,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 36813,
+        "end": 36831,
+        "rawText": "事業費\n\n148,836,000 円"
+      },
+      {
+        "start": 37188,
+        "end": 37285,
+        "rawText": "予算現額\n\n165,000,000 円\n\n117,700,000 円\n\n47,300,000 円\n\n決算額\n\n148,836,000 円\n\n111,718,000 円\n\n37,118,000 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-89717a03f46f141d9e15f12b",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "稲美町地域振興商品券事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 98056245,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 37292,
+        "end": 37299,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 37395,
+        "end": 37412,
+        "rawText": "事業費\n\n98,056,245 円"
+      },
+      {
+        "start": 37813,
+        "end": 37888,
+        "rawText": "予算現額\n\n106,131,000 円\n\n0円\n\n106,131,000 円\n\n決算額\n\n98,056,245 円\n\n0円\n\n98,056,245 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-035fa690a34bcd624912c76a",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "町道維持補修事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 74402900,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 37895,
+        "end": 37902,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 37992,
+        "end": 38009,
+        "rawText": "事業費\n\n74,402,900 円"
+      },
+      {
+        "start": 38454,
+        "end": 38547,
+        "rawText": "予算現額\n\n82,676,000 円\n\n69,180,000 円\n\n13,496,000 円\n\n決算額\n\n74,402,900 円\n\n52,882,500 円\n\n21,520,400 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-933a31d6fc10fcc4fd5c64ce",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "親元近居住宅取得等支援補助事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 8280000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 39333,
+        "end": 39340,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 39453,
+        "end": 39469,
+        "rawText": "事業費\n\n8,280,000 円"
+      },
+      {
+        "start": 39987,
+        "end": 40067,
+        "rawText": "予算現額\n\n12,600,000 円\n\n12,600,000 円\n\n0円\n\n決算額\n\n8,280,000 円\n\n6,840,000 円\n\n1,440,000 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-05c726346d2e662512825944",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "沿道活性化にぎわいづくり補助事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 5880000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 40078,
+        "end": 40085,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 40185,
+        "end": 40200,
+        "rawText": "事業費\n5,880,000 円"
+      },
+      {
+        "start": 40850,
+        "end": 40938,
+        "rawText": "予算現額\n\n12,000,000 円\n\n9,280,000 円\n\n2,720,000 円\n\n決算額\n\n5,880,000 円\n\n4,500,000 円\n\n1,380,000 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-d466461f51c8fb369042679b",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "土地利用計画策定事業（市街化調整区域）",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 5085300,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 40945,
+        "end": 40952,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 41061,
+        "end": 41077,
+        "rawText": "事業費\n\n5,085,300 円"
+      },
+      {
+        "start": 41735,
+        "end": 41804,
+        "rawText": "予算現額\n\n5,089,000 円\n\n0円\n\n5,089,000 円\n\n決算額\n\n5,085,300 円\n\n0円\n\n5,085,300 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-b82e6a11dd9cbc98acea1334",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "国安小池公園整備事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 84602100,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 43031,
+        "end": 43038,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 43130,
+        "end": 43147,
+        "rawText": "事業費\n\n84,602,100 円"
+      },
+      {
+        "start": 43570,
+        "end": 43664,
+        "rawText": "予算現額\n\n101,312,000 円\n\n46,950,000 円\n\n54,362,000 円\n\n決算額\n\n84,602,100 円\n\n40,869,400 円\n\n43,732,700 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-5682fee8150ae6a4ea5ea141",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "公園施設長寿命化計画変更事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 21340000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 43671,
+        "end": 43678,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 43775,
+        "end": 43792,
+        "rawText": "事業費\n\n21,340,000 円"
+      },
+      {
+        "start": 44477,
+        "end": 44550,
+        "rawText": "予算現額\n\n23,360,000 円\n\n0円\n\n23,360,000 円\n\n決算額\n\n21,340,000 円\n\n0円\n\n21,340,000 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-d5aca102eb060aeb2719acd9",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "教育振興基本計画策定事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 3333299,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 45329,
+        "end": 45336,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 45435,
+        "end": 45451,
+        "rawText": "事業費\n\n3,333,299 円"
+      },
+      {
+        "start": 46211,
+        "end": 46280,
+        "rawText": "予算現額\n\n3,443,000 円\n\n0円\n\n3,443,000 円\n\n決算額\n\n3,333,299 円\n\n0円\n\n3,333,299 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-6d57493b4e44e540d3b7f911",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "幼・小・中一貫した国際理解教育推進事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 27201065,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 47147,
+        "end": 47154,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 47259,
+        "end": 47276,
+        "rawText": "事業費\n\n27,201,065 円"
+      },
+      {
+        "start": 47953,
+        "end": 48038,
+        "rawText": "予算現額\n\n27,405,000 円\n\n27,322,000 円\n\n83,000 円\n\n決算額\n\n27,201,065 円\n\n27,168,720 円\n\n32,345 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-9ffd974d314f10c90cde37f5",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "ふれあい教室充実事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 2501230,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 48049,
+        "end": 48056,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 48148,
+        "end": 48164,
+        "rawText": "事業費\n\n2,501,230 円"
+      },
+      {
+        "start": 48804,
+        "end": 48887,
+        "rawText": "予算現額\n\n2,512,000 円\n\n250,000 円\n\n2,262,000 円\n\n決算額\n\n2,501,230 円\n\n249,089 円\n\n2,252,141 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-cb4622e4fea3435ad817fde8",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "不登校児童生徒支援事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 900000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 48894,
+        "end": 48901,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 48994,
+        "end": 49008,
+        "rawText": "事業費\n\n900,000 円"
+      },
+      {
+        "start": 49792,
+        "end": 49853,
+        "rawText": "予算現額\n\n900,000 円\n\n0円\n\n900,000 円\n\n決算額\n\n900,000 円\n\n0円\n\n900,000 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-3e5662b189f9de8f4105ef52",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "小学校体育館照明設備等更新事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 40742900,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 49860,
+        "end": 49867,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 49963,
+        "end": 49979,
+        "rawText": "事業費\n40,742,900 円"
+      },
+      {
+        "start": 50715,
+        "end": 50806,
+        "rawText": "予算現額\n\n58,678,000 円\n\n5,812,000 円\n\n52,866,000 円\n\n決算額\n\n40,742,900 円\n\n2,915,000 円\n\n37,827,900 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-3617558045b1c40534339341",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "小学校エレベーター設置事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 53413000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 50813,
+        "end": 50820,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 50922,
+        "end": 50938,
+        "rawText": "事業費\n53,413,000 円"
+      },
+      {
+        "start": 51556,
+        "end": 51647,
+        "rawText": "予算現額\n\n54,686,000 円\n\n3,622,000 円\n\n51,064,000 円\n\n決算額\n\n53,413,000 円\n\n3,183,800 円\n\n50,229,200 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-07b1d4e1c2d1e973fe04718e",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "中学校体育館照明設備等更新事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 28380000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 51654,
+        "end": 51661,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 51764,
+        "end": 51781,
+        "rawText": "事業費\n\n28,380,000 円"
+      },
+      {
+        "start": 52305,
+        "end": 52396,
+        "rawText": "予算現額\n\n35,634,000 円\n\n4,535,000 円\n\n31,099,000 円\n\n決算額\n\n28,380,000 円\n\n1,914,000 円\n\n26,466,000 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-9e1cdf88f1e0e626c27418f8",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "中学校部活動地域移行事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 6372290,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 52403,
+        "end": 52410,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 52530,
+        "end": 52546,
+        "rawText": "事業費\n\n6,372,290 円"
+      },
+      {
+        "start": 53375,
+        "end": 53462,
+        "rawText": "予算現額\n\n6,985,000 円\n\n3,036,000 円\n\n3,949,000 円\n\n決算額\n\n6,372,290 円\n\n1,499,882 円\n\n4,872,408 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-d14324faaa697a94762da5c1",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "幼稚園教育計画策定事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 101700,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 53469,
+        "end": 53476,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 53564,
+        "end": 53578,
+        "rawText": "事業費\n\n101,700 円"
+      },
+      {
+        "start": 54227,
+        "end": 54292,
+        "rawText": "予算現額\n\n144,000 円\n\n144,000 円\n\n0円\n\n決算額\n\n101,700 円\n\n98,700 円\n\n3,000 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-fbaebe17d9de1f03f0bea380",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "人権教育啓発事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 4114339,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 54299,
+        "end": 54306,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 54397,
+        "end": 54413,
+        "rawText": "事業費\n\n4,114,339 円"
+      },
+      {
+        "start": 55287,
+        "end": 55370,
+        "rawText": "予算現額\n\n4,506,000 円\n\n4,339,000 円\n\n167,000 円\n\n決算額\n\n4,114,339 円\n\n3,994,450 円\n\n119,889 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-82e3ceae026bf2563b3f1776",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "文化の森空調設備改修事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 80490300,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 57892,
+        "end": 57899,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 57995,
+        "end": 58012,
+        "rawText": "事業費\n\n80,490,300 円"
+      },
+      {
+        "start": 58760,
+        "end": 58851,
+        "rawText": "予算現額\n\n80,538,000 円\n\n1,743,000 円\n\n78,795,000 円\n\n決算額\n\n80,490,300 円\n\n1,496,000 円\n\n78,994,300 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-e331dd79e274e9b072eccdac",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "文化の森第2駐車場整備事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 28410800,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 59716,
+        "end": 59723,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 59820,
+        "end": 59837,
+        "rawText": "事業費\n\n28,410,800 円"
+      },
+      {
+        "start": 60368,
+        "end": 60459,
+        "rawText": "予算現額\n\n28,794,000 円\n\n3,557,000 円\n\n25,237,000 円\n\n決算額\n\n28,410,800 円\n\n3,534,300 円\n\n24,876,500 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-f0c8354b90f234303dbcf76b",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "アーバンスポーツ施設調査設計事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 6611000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 61373,
+        "end": 61380,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 61483,
+        "end": 61499,
+        "rawText": "事業費\n\n6,611,000 円"
+      },
+      {
+        "start": 62120,
+        "end": 62189,
+        "rawText": "予算現額\n\n6,851,000 円\n\n0円\n\n6,851,000 円\n\n決算額\n\n6,611,000 円\n\n0円\n\n6,611,000 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-00ff4a23e2f339f3fc28587d",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "学校給食食材物価上昇分支援事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 19416535,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 62196,
+        "end": 62203,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 62302,
+        "end": 62319,
+        "rawText": "事業費\n\n19,416,535 円"
+      },
+      {
+        "start": 62811,
+        "end": 62902,
+        "rawText": "予算現額\n\n19,472,000 円\n\n13,840,000 円\n\n5,632,000 円\n\n決算額\n\n19,416,535 円\n\n12,284,298 円\n\n7,132,237 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-6e320e85ce6593a27a65f58a",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "学校給食公会計化事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 12132800,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 62909,
+        "end": 62916,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 63010,
+        "end": 63027,
+        "rawText": "事業費\n\n12,132,800 円"
+      },
+      {
+        "start": 63510,
+        "end": 63595,
+        "rawText": "予算現額\n\n13,573,000 円\n\n54,000 円\n\n13,519,000 円\n\n決算額\n\n12,132,800 円\n\n11,900 円\n\n12,120,900 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-20587599b7520309d0b4ad9d",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "西部配水場更新事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 1030843900,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 63602,
+        "end": 63609,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 63699,
+        "end": 63719,
+        "rawText": "事業費\n\n1,030,843,900 円"
+      },
+      {
+        "start": 64521,
+        "end": 64622,
+        "rawText": "予算現額\n\n1,030,900,000 円\n\n97,417,000 円\n\n933,483,000 円\n\n決算額\n\n1,030,843,900 円\n\n97,416,930 円\n\n933,426,970 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-1de9552f667d37fc37916318",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "下水道広域化推進総合事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 17270000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 64629,
+        "end": 64636,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 64737,
+        "end": 64754,
+        "rawText": "事業費\n\n17,270,000 円"
+      },
+      {
+        "start": 65581,
+        "end": 65654,
+        "rawText": "予算現額\n\n22,220,000 円\n\n0円\n\n22,220,000 円\n\n決算額\n\n17,270,000 円\n\n0円\n\n17,270,000 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-3591ce8d36d54186f523d8cf",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "ふるさと納税推進事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 123403744,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 4281,
+        "end": 4288,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 4378,
+        "end": 4396,
+        "rawText": "事業費\n\n123,403,744 円"
+      },
+      {
+        "start": 4777,
+        "end": 4877,
+        "rawText": "予算現額\n\n156,463,000 円\n\n173,928,000 円\n\n△ 17,465,000 円\n\n決算額\n\n123,403,744 円\n\n133,391,964 円\n\n△ 9,988,220 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-f067bf6967259f902fe3aa22",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "こどもの居場所づくり支援事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 435000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 19451,
+        "end": 19458,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 19563,
+        "end": 19577,
+        "rawText": "事業費\n\n435,000 円"
+      },
+      {
+        "start": 20084,
+        "end": 20161,
+        "rawText": "予算現額\n\n881,000 円\n\n600,000 円\n\n281,000 円\n\n決算額\n\n435,000 円\n\n556,040 円\n\n△ 121,040 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-78e03c67b496fc78151c69d7",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "妊娠出産子育て支援事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 23950981,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 24838,
+        "end": 24845,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 24943,
+        "end": 24959,
+        "rawText": "事業費\n23,950,981 円"
+      },
+      {
+        "start": 25702,
+        "end": 25794,
+        "rawText": "予算現額\n\n26,088,000 円\n\n30,139,000 円\n\n△ 4,051,000 円\n\n決算額\n\n23,950,981 円\n\n23,974,820 円\n\n△ 23,839 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-9d504727f4a8cff0326b5308",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "多面的機能支払事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 109761130,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 32261,
+        "end": 32268,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 32361,
+        "end": 32379,
+        "rawText": "事業費\n\n109,761,130 円"
+      },
+      {
+        "start": 32797,
+        "end": 32896,
+        "rawText": "予算現額\n\n109,822,000 円\n\n116,192,000 円\n\n△ 6,370,000 円\n\n決算額\n\n109,761,130 円\n\n115,918,100 円\n\n△ 6,156,970 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-9f06dfc3b76f41db7f41ae4b",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "にぎわい創出補助事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 2998000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 35486,
+        "end": 35493,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 35577,
+        "end": 35593,
+        "rawText": "事業費\n\n2,998,000 円"
+      },
+      {
+        "start": 36617,
+        "end": 36708,
+        "rawText": "予算現額\n\n3,000,000 円\n\n8,200,000 円\n\n△ 5,200,000 円\n\n決算額\n\n2,998,000 円\n\n5,651,000 円\n\n△ 2,653,000 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-fde106faf0fd4a541eb6ed11",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "町道草谷学校線歩道整備事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 30000000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 38626,
+        "end": 38633,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 38734,
+        "end": 38751,
+        "rawText": "事業費\n\n30,000,000 円"
+      },
+      {
+        "start": 39184,
+        "end": 39281,
+        "rawText": "予算現額\n\n30,000,000 円\n\n44,180,000 円\n\n△ 14,180,000 円\n\n決算額\n\n30,000,000 円\n\n43,920,545 円\n\n△ 13,920,545 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-edd8a22ce3d51e66ac1f3358",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "田園集落まちづくり住宅新築促進事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 180000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 41811,
+        "end": 41818,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 41934,
+        "end": 41948,
+        "rawText": "事業費\n\n180,000 円"
+      },
+      {
+        "start": 42340,
+        "end": 42410,
+        "rawText": "予算現額\n\n900,000 円\n\n900,000 円\n\n0円\n\n決算額\n\n180,000 円\n\n900,000 円\n\n△ 720,000 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-fed334a8abae88a256b50d96",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "菊徳地区土地区画整理事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 18095000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 42417,
+        "end": 42424,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 42524,
+        "end": 42540,
+        "rawText": "事業費\n18,095,000 円"
+      },
+      {
+        "start": 42923,
+        "end": 43020,
+        "rawText": "予算現額\n\n19,541,000 円\n\n44,535,000 円\n\n△ 24,994,000 円\n\n決算額\n\n18,095,000 円\n\n44,535,000 円\n\n△ 26,440,000 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-4f821264f1d495462c662e63",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "公園施設長寿命化対策事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 34568600,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 44557,
+        "end": 44564,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 44659,
+        "end": 44676,
+        "rawText": "事業費\n\n34,568,600 円"
+      },
+      {
+        "start": 45221,
+        "end": 45318,
+        "rawText": "予算現額\n\n37,633,000 円\n\n60,859,000 円\n\n△ 23,226,000 円\n\n決算額\n\n34,568,600 円\n\n52,422,200 円\n\n△ 17,853,600 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-73ee74b1f8f91c5441e6d907",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "ＩＣＴ利活用学校支援事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 82444011,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 46287,
+        "end": 46294,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 46392,
+        "end": 46409,
+        "rawText": "事業費\n\n82,444,011 円"
+      },
+      {
+        "start": 47037,
+        "end": 47136,
+        "rawText": "予算現額\n\n85,129,000 円\n\n107,106,000 円\n\n△ 21,977,000 円\n\n決算額\n\n82,444,011 円\n\n104,762,361 円\n\n△ 22,318,350 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-ee6b4d99c3efdadc1b6d4d59",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "放課後児童クラブ管理運営事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 52639532,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 55377,
+        "end": 55384,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 55489,
+        "end": 55506,
+        "rawText": "事業費\n\n52,639,532 円"
+      },
+      {
+        "start": 56633,
+        "end": 56728,
+        "rawText": "予算現額\n\n55,079,000 円\n\n57,332,000 円\n\n△ 2,253,000 円\n\n決算額\n\n52,639,532 円\n\n53,778,048 円\n\n△ 1,138,516 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  },
+  {
+    "candidateId": "cached-28381-7ccb0901c32c6215c9824473",
+    "municipalityCode": "28381",
+    "sourceId": "5ab9e8fdc9ee5aee927abad4",
+    "projectName": "トップアスリート招待事業",
+    "fiscalYear": 2024,
+    "sourceLabel": "事業費",
+    "reportingContext": "令和６年度決算",
+    "amountYen": 1000000,
+    "sourceUrl": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/7/06sixyuyousesaku.pdf",
+    "sourceSha256": "b78626fbb386a4a2fcf1c96d7042f1cf628d7667d81e9237d248c12c84925eba",
+    "fetchedAt": "2026-10-21T08:43:24.525Z",
+    "fullTextSha256": "72f143134113b1c1d47c4198f147d7a3302be6584cfd64aae5bebdeee33f8f9f",
+    "quotes": [
+      {
+        "start": 60466,
+        "end": 60473,
+        "rawText": "令和６年度決算"
+      },
+      {
+        "start": 60569,
+        "end": 60585,
+        "rawText": "事業費\n\n1,000,000 円"
+      },
+      {
+        "start": 61286,
+        "end": 61366,
+        "rawText": "予算現額\n\n1,000,000 円\n\n1,001,000 円\n\n△ 1,000 円\n\n決算額\n\n1,000,000 円\n\n933,340 円\n\n66,660 円"
+      }
+    ],
+    "status": "validated_field_proposal_not_applied",
+    "note": "Annual closing-report project cost equals the separately printed current-year closing total within the same individual business sheet. No prior-year, budget, difference, or multi-account sum inferred. Existing candidate object unchanged.",
+    "amountType": "actual",
+    "currency": "JPY"
+  }
+]
