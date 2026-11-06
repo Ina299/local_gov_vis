@@ -1,12 +1,14 @@
 {
   "prefecture": "27",
-  "candidateRecords": 77,
+  "candidateRecords": 199,
   "perMunicipality": {
     "河南町": 50,
     "太子町": 5,
     "交野市": 2,
     "藤井寺市": 5,
-    "高石市": 15
+    "高石市": 15,
+    "柏原市": 121,
+    "泉佐野市": 1
   },
   "selectedMunicipalities": 39,
   "excludedMunicipalities": 4,
@@ -18,25 +20,25 @@
   "existingFieldsChanged": 0,
   "fieldEnrichment": 0,
   "municipalRequests": 0,
-  "validatedCumulativeCandidates": 22029,
-  "validatedEvidence": 59364,
+  "validatedCumulativeCandidates": 22151,
+  "validatedEvidence": 59850,
   "separateExcludedSets": {
     "Okinawa": 1084,
     "initial": 93
   },
   "master": "b3f8012827bc5ed61637a616f11882e9f3ea5145",
   "checks": {
-    "focused": "7/7 Osaka",
-    "crawler": "651/651",
-    "web": "256/256 serial; initial parallel glossary timeout preserved in logs; no assertion or timeout changes",
+    "focused": "11/11 Osaka",
+    "crawler": "655/655",
+    "web": "256/256 serial; assertions and timeouts unchanged",
     "typecheck": "passed",
-    "lint": "passed; existing font warning",
+    "lint": "passed;existingfontwarning",
     "national": "verified",
     "static": "109/109 subpath export"
   },
   "ci": "Unverified; priorActionsAPI403 not retried. No manual dispatch orPR edits.",
-  "remaining": "Increment, not Osaka completion. Kashiwara121 proposals are separately saved and NOT accepted or included. Other layout/coverage reviews and9missing bodies remain; no acquisition.",
+  "remaining": "Increment, not Osaka completion. Kashiwara78additionaloperations and Suita19 are separately saved unvalidated proposals outside this commit. Other source reviews and9missing bodies remain. No acquisition.",
   "unpublishedUserChanges": "not observable;collision freedom not guaranteed",
-  "additionalCandidateRecords": 22,
-  "previousPublishedHead": "5d7e9bf11561ec9e8869582c8b90dce54463d286"
+  "additionalCandidateRecords": 122,
+  "previousPublishedHead": "9fddd5bddf5f66b1f61c6409c55f16142043a4d0"
 }

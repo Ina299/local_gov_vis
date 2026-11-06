@@ -1,0 +1,849 @@
+[
+  {
+    "name": "広報かしわら印刷発行事業",
+    "department": "秘書広報課",
+    "start": 8274,
+    "end": 8511,
+    "sha256": "f04c95990a4550f9c005eac627c14ec6d7827714a948c3cb8fe70ce660c87fc4"
+  },
+  {
+    "name": "その他広報事業",
+    "department": "秘書広報課",
+    "start": 8511,
+    "end": 9356,
+    "sha256": "05dfcb1ca1dfd88a43b275fe9f5db64c339c2fcfb34cc350db32952f73d3e4ed"
+  },
+  {
+    "name": "無料法律相談",
+    "department": "秘書広報課",
+    "start": 9356,
+    "end": 9586,
+    "sha256": "75fd83886a38de0d3e1b73df0c1a9217aa2ff93ea9492dd95326ed766035bd19"
+  },
+  {
+    "name": "ウェブサイト等管理運営事業",
+    "department": "秘書広報課",
+    "start": 9586,
+    "end": 10034,
+    "sha256": "256c2f406d98b26f6a1a1f955ac653c99cee274970e2adc0443d0022e1481462"
+  },
+  {
+    "name": "公民連携事業に関すること",
+    "department": "企画調整課",
+    "start": 12495,
+    "end": 13628,
+    "sha256": "b50950beefdef28c07178bdd65781536133144eb227817d58af5c800b58cd694"
+  },
+  {
+    "name": "2025 年日本国際博覧会関連事業",
+    "department": "企画調整課",
+    "start": 16665,
+    "end": 17063,
+    "sha256": "03c65c448c7cbae5d296744269af958821cf1d106c43a9c39d9c984737d001ad"
+  },
+  {
+    "name": "公共施設等再編整備事業に関すること",
+    "department": "公有財産マネジメント課",
+    "start": 34552,
+    "end": 34728,
+    "sha256": "b4eab29956b55db62e454f6367950f4ed7c9b89830e7d7b5a627ad2b7cfd1e0b"
+  },
+  {
+    "name": "市民税課税事業",
+    "department": "課税課",
+    "start": 43029,
+    "end": 44503,
+    "sha256": "bb44c865c5e4935ecff0511d4f9ab60dec2e94a6b4e91ec66d3316fe6bb81584"
+  },
+  {
+    "name": "諸税課税事業（法人市民税・軽自動車税・市たばこ税）",
+    "department": "課税課",
+    "start": 44503,
+    "end": 46943,
+    "sha256": "bb388aa0aa4cddf85ea0e53058f084aac782cfd00cca914fc89f840a766d2ae5"
+  },
+  {
+    "name": "固定資産税等課税事業（固定資産税・都市計画税・国有資産等所在市町村交付金）",
+    "department": "課税課",
+    "start": 47092,
+    "end": 48682,
+    "sha256": "2a851ee9031e229f37976021d3886a13f34d25d7d05bffccb577ca8e9cf6d3ec"
+  },
+  {
+    "name": "人権推進事業",
+    "department": "人権推進課",
+    "start": 52556,
+    "end": 56381,
+    "sha256": "9dac4da0e1b0ff0fde09898891c35e43351b305856a90a56c0e516ff627695d6"
+  },
+  {
+    "name": "平和事業",
+    "department": "人権推進課",
+    "start": 56381,
+    "end": 56736,
+    "sha256": "777e05727e6f235bf205e7ce1ec39aba73c60eb88e90adc7d470993d9fa8b26b"
+  },
+  {
+    "name": "男女共同参画社会推進事業",
+    "department": "人権推進課",
+    "start": 56736,
+    "end": 60966,
+    "sha256": "334b30a2bfbe584333c29d29963376ee48a263a3d87bf88004c06191e093cbe2"
+  },
+  {
+    "name": "男女共同参画センター運営事業",
+    "department": "人権推進課",
+    "start": 60966,
+    "end": 61819,
+    "sha256": "1a470198bce2938be1e6fb1e3bf1b9bf3f5396a53ccd9036049f5dbfb5fd2d46"
+  },
+  {
+    "name": "商工業振興事業",
+    "department": "産業振興課",
+    "start": 68709,
+    "end": 70374,
+    "sha256": "4408c7c75cbeed67dde7573c5bc838560df210ec53cf39eabae8885a5748ba94"
+  },
+  {
+    "name": "勤労者センター管理事業",
+    "department": "産業振興課",
+    "start": 70374,
+    "end": 70526,
+    "sha256": "1fa2799764d886235a4f7b689a2a4f7ffb692e29848ea0712417f019200fb5f7"
+  },
+  {
+    "name": "地域就労支援事業",
+    "department": "産業振興課",
+    "start": 70526,
+    "end": 72152,
+    "sha256": "a777add56c2bd5bef9e1927f7fea7f5056b2a2ce2e9a2ba5f796e43e93f36d23"
+  },
+  {
+    "name": "農業振興事業",
+    "department": "産業振興課",
+    "start": 72358,
+    "end": 74063,
+    "sha256": "ed0d88902508c4449c535cda81d34c685eb42a448c4b2cf508fc5deb66924eea"
+  },
+  {
+    "name": "地域農政推進対策事業",
+    "department": "産業振興課",
+    "start": 74063,
+    "end": 74434,
+    "sha256": "ce87ddf98531d325a99c4edc28a5477dccfa99c47522bf05054197d73d3531ed"
+  },
+  {
+    "name": "有害鳥獣駆除対策事業",
+    "department": "産業振興課",
+    "start": 74527,
+    "end": 74919,
+    "sha256": "2361e4505a030f7f9dbe2024176d3e198259ee098c06e5afc2b99d6b0fceddcd"
+  },
+  {
+    "name": "むら活き活き交流事業",
+    "department": "産業振興課",
+    "start": 74919,
+    "end": 75049,
+    "sha256": "5ce9cf7738cd9a2a82a7a591f40160862c0bb7bb5bd60be7bd883d8d561e6997"
+  },
+  {
+    "name": "林業振興事業",
+    "department": "産業振興課",
+    "start": 75049,
+    "end": 75540,
+    "sha256": "11000cada1fca526c4a36cb7e636d9d98f587066ffbd8155bedaf6a2ba1cd0f0"
+  },
+  {
+    "name": "府民参加の森事業",
+    "department": "産業振興課",
+    "start": 75540,
+    "end": 75924,
+    "sha256": "0be86dc09642bee2832df6b51d5eeea4a4e21ecdd7890511a0aee0b938da3f8c"
+  },
+  {
+    "name": "地域にぎわい創造事業に関すること",
+    "department": "にぎわい観光課",
+    "start": 76579,
+    "end": 79942,
+    "sha256": "60aaa88e58035211651e3a293ddf2b4babae5e9308c6878154f4f8837e53f32d"
+  },
+  {
+    "name": "国際交流事業に関すること",
+    "department": "にぎわい観光課",
+    "start": 79942,
+    "end": 80632,
+    "sha256": "b2c8c0288457eaaea322c3d41e145c8bbfd78d01f8a8062dc2c77e983da332b2"
+  },
+  {
+    "name": "地域福祉計画策定事業",
+    "department": "福祉総務課",
+    "start": 85779,
+    "end": 86439,
+    "sha256": "664d5e39f8c11a9039858ea1ee4ed9d5f70693460969346b6286ffc4792ba0cb"
+  },
+  {
+    "name": "個別避難計画作成事業",
+    "department": "福祉総務課",
+    "start": 86439,
+    "end": 86691,
+    "sha256": "afd3867ed439331e83234a24597a21ed23901528da1a5ba3519a8de0f209cd12"
+  },
+  {
+    "name": "生活困窮者自立支援事業",
+    "department": "福祉総務課",
+    "start": 86691,
+    "end": 87079,
+    "sha256": "67530802d9afed21961168dccfda581ae0c5e91c39eb04bcca511ad2771ca86d"
+  },
+  {
+    "name": "物価高騰対策給付金給付事業",
+    "department": "福祉総務課",
+    "start": 87079,
+    "end": 87240,
+    "sha256": "de3de25bebd01210b2df54bf2c20230e40fb8e856ca641494363439b5d919c66"
+  },
+  {
+    "name": "住民税非課税世帯支援給付金給付事業",
+    "department": "福祉総務課",
+    "start": 87240,
+    "end": 87404,
+    "sha256": "7030b248e08d84a8b39d55aefba41ab4bdbdecb3625d0462d54bd7870e787e61"
+  },
+  {
+    "name": "住民税非課税世帯おこめ券配布事業",
+    "department": "福祉総務課",
+    "start": 87404,
+    "end": 87533,
+    "sha256": "8a0b8b5cd3d256bd12670e2622bb993acd0dc348db2bedb8bc6f76ab3823f161"
+  },
+  {
+    "name": "障害者援護事業に関すること",
+    "department": "障害福祉課",
+    "start": 90618,
+    "end": 90956,
+    "sha256": "6dde7f18d1a47f7cc4fe7b1d281ce43b5f93f35846ddab6b5d9bb5354ae7f7d8"
+  },
+  {
+    "name": "障害児支援事業に関すること",
+    "department": "障害福祉課",
+    "start": 92272,
+    "end": 92791,
+    "sha256": "da07de30ec79bb5262f285d6308e3b323a59dfbc21d9ae1e9d532cfaa70071f8"
+  },
+  {
+    "name": "地域生活支援事業に関すること",
+    "department": "障害福祉課",
+    "start": 94008,
+    "end": 94910,
+    "sha256": "565101f9c725659d18e992a4a8211d590ca0c5038f62ba8db5a5fb06aa59799d"
+  },
+  {
+    "name": "地域子育て支援センター事業",
+    "department": "子育て支援課",
+    "start": 97626,
+    "end": 98068,
+    "sha256": "d08b4aa0c829064469f21fdd79fc3d4b9993152447a8baa81a0e791b7bd172c4"
+  },
+  {
+    "name": "つどいの広場事業",
+    "department": "子育て支援課",
+    "start": 98068,
+    "end": 98602,
+    "sha256": "37ccc1f058664e130264693875903474c4c8cfdd58f30b8e1916bf96b4713e71"
+  },
+  {
+    "name": "子育て応援イベント事業",
+    "department": "子育て支援課",
+    "start": 98602,
+    "end": 98793,
+    "sha256": "7abb3daa49538f5a2a79c03b8afc8618d3890b3721e1768834ee63a07a894189"
+  },
+  {
+    "name": "子育て支援事業",
+    "department": "子育て支援課",
+    "start": 98793,
+    "end": 99669,
+    "sha256": "bc3a17428061bd2cfdf9346db00d88cf0eb66743491755a3cc89f66f69c087f8"
+  },
+  {
+    "name": "放課後児童健全育成事業",
+    "department": "子育て支援課",
+    "start": 99669,
+    "end": 100389,
+    "sha256": "33a52f3deec4dcec27dcfd269132956b3b59985c657142a1c891c32b13e97693"
+  },
+  {
+    "name": "結婚支援事業",
+    "department": "子育て支援課",
+    "start": 100389,
+    "end": 101063,
+    "sha256": "68ec09a4f61d5feff364f5cd0842b6d022b704d35732e347771217a6e495e411"
+  },
+  {
+    "name": "ひとり親家庭等福祉対策事業",
+    "department": "子育て支援課",
+    "start": 101063,
+    "end": 101319,
+    "sha256": "a0859fd6b81d16aca38bc9b472183f8edef2b612680a0dcdcf681a37bfc51ce3"
+  },
+  {
+    "name": "児童手当について",
+    "department": "子育て支援課",
+    "start": 101472,
+    "end": 101849,
+    "sha256": "4e8a4fbf695436a2184e112e20523c223dd207e2e183c556da7ec2dd291bf333"
+  },
+  {
+    "name": "児童扶養手当について",
+    "department": "子育て支援課",
+    "start": 101849,
+    "end": 102148,
+    "sha256": "084378d2637fdaf9e02798f15bc0332c1a68eaf7904e73c1b186a091c1ea1536"
+  },
+  {
+    "name": "助産施設入所保護事業",
+    "department": "子育て支援課",
+    "start": 102148,
+    "end": 102261,
+    "sha256": "3fa093e095961e112d6be5efe9035c2f3b78786377aa3b1dfac4866770960fc2"
+  },
+  {
+    "name": "ひとり親家庭等医療費助成事業",
+    "department": "子育て支援課",
+    "start": 102261,
+    "end": 102437,
+    "sha256": "c4bae27f9f2d15703aa4e0ea2c127b35314dbde878678b15171de5d1197b6e71"
+  },
+  {
+    "name": "こども医療費助成事業",
+    "department": "子育て支援課",
+    "start": 102437,
+    "end": 102601,
+    "sha256": "3d6e88a8bc78899e8a08366776eb6a16d151b909f42d78fff6b56743cce65888"
+  },
+  {
+    "name": "未熟児養育医療助成事業",
+    "department": "子育て支援課",
+    "start": 102601,
+    "end": 102719,
+    "sha256": "8324962a153ce46ea4e76eca79856966fd288cd5bc59a5a6415febee93e3920c"
+  },
+  {
+    "name": "子育て世帯おこめ券配布事業",
+    "department": "子育て支援課",
+    "start": 102719,
+    "end": 102896,
+    "sha256": "aebb5dc5424e1b68141fe057dc869d9998985194c1623d8dc2dca343990b7493"
+  },
+  {
+    "name": "物価高対応子育て応援手当支給事業",
+    "department": "子育て支援課",
+    "start": 102896,
+    "end": 103209,
+    "sha256": "2e5332ca84b57757f28f41f468335cccc33bf33ffa3f6431a2d692c62bea8031"
+  },
+  {
+    "name": "子ども家庭総合支援事業",
+    "department": "こども家庭安心課",
+    "start": 103218,
+    "end": 103411,
+    "sha256": "e1098d240a931e87f483c97ad9b076959ddb2a3e5c84791c62b06eb514dcee84"
+  },
+  {
+    "name": "母子保健事業",
+    "department": "こども家庭安心課",
+    "start": 103411,
+    "end": 104377,
+    "sha256": "f25731176f0d89dfdb5a010c2ad6223377906b181846bfd416dcb8c1d8906024"
+  },
+  {
+    "name": "妊婦のための支援給付及び妊婦等包括相談支援事業",
+    "department": "こども家庭安心課",
+    "start": 104377,
+    "end": 104608,
+    "sha256": "16ee4c759a08bf9ac74b31f5e44391596c374bdc7b041f74c5bdd3d544637117"
+  },
+  {
+    "name": "私立保育所等に対する助成事業について",
+    "department": "こども施設課",
+    "start": 108086,
+    "end": 108834,
+    "sha256": "12cec3f226160b1255830b6bc9143eb0a42d893e15e1048fb96d050816a3ce1f"
+  },
+  {
+    "name": "幼児教育・保育無償化事業",
+    "department": "こども施設課",
+    "start": 108834,
+    "end": 109174,
+    "sha256": "b6484d2eadb28bf3cb89f7d85dfc12f083dbd04b5a71001f5b90c5c077652fbb"
+  },
+  {
+    "name": "年末年始休日診療",
+    "department": "健康づくり課",
+    "start": 109181,
+    "end": 109358,
+    "sha256": "e235eac2f6d9f5ed2896fb58d49ad4d14a24b01ca47db5f027644745e3f049d5"
+  },
+  {
+    "name": "献血推進事業",
+    "department": "健康づくり課",
+    "start": 109358,
+    "end": 109553,
+    "sha256": "3836434fd14ed06c52d905e84588805a0533bf9479ed3faf89126b2509b5abbc"
+  },
+  {
+    "name": "予防接種事業",
+    "department": "健康づくり課",
+    "start": 109553,
+    "end": 111343,
+    "sha256": "0e6495c7e2f9482cafd55e2b9a321e1a4b25c2328f44423cc2a070119c2eeeb6"
+  },
+  {
+    "name": "健康増進事業",
+    "department": "健康づくり課",
+    "start": 111343,
+    "end": 111925,
+    "sha256": "7cd83fc346fd5f0f3edfee7dba642526b023621f12a55784dc2fc9b798ca72d3"
+  },
+  {
+    "name": "高齢者の生活・安全支援事業",
+    "department": "高齢介護課",
+    "start": 112148,
+    "end": 112536,
+    "sha256": "926314e27da4d5712e380a218914461dc1aa2ee2c368c4abe398e3ed2c81d594"
+  },
+  {
+    "name": "高齢者の生きがいと健康づくり推進事業",
+    "department": "高齢介護課",
+    "start": 112536,
+    "end": 112674,
+    "sha256": "45411c47e28ce2fd8e8b42ad46a7539c68e2cc63f5ec11d6405e9e40c211bc6b"
+  },
+  {
+    "name": "養護老人ホーム入所措置事業",
+    "department": "高齢介護課",
+    "start": 112674,
+    "end": 112719,
+    "sha256": "00f825d8ecf450580507a7e2e05c3aaea59d0a7fb05ab073fdc3f62314b9a664"
+  },
+  {
+    "name": "シルバー人材センター運営補助事業",
+    "department": "高齢介護課",
+    "start": 112719,
+    "end": 112762,
+    "sha256": "fe21dd700969c92eb343a965dd7394d4757263c640929f2480a6225e83a6a9f0"
+  },
+  {
+    "name": "老人クラブ活動事業",
+    "department": "高齢介護課",
+    "start": 112762,
+    "end": 112908,
+    "sha256": "b8fef39a5d25e193832127965db6ca1fc8e523d950a6f4aa65bce1bafcd87312"
+  },
+  {
+    "name": "包括的支援事業",
+    "department": "高齢介護課",
+    "start": 114057,
+    "end": 114310,
+    "sha256": "96fe8c75ebf5100038ae5d188830f5e05ca899e4b08a7881ea05665fa67e3bfe"
+  },
+  {
+    "name": "地域介護予防活動支援事業",
+    "department": "高齢介護課",
+    "start": 114310,
+    "end": 114528,
+    "sha256": "c7e609cfb36d013d1854d978fc468d84a2d997a774d77cfaa352b3353e44da32"
+  },
+  {
+    "name": "地域支援事業（介護保険事業）",
+    "department": "高齢介護課",
+    "start": 114528,
+    "end": 115418,
+    "sha256": "3d779678e55c34ac2fb49fbe8e7d186ab748feaef607742281eb23a597886a73"
+  },
+  {
+    "name": "介護保険事業計画策定に関する業務",
+    "department": "高齢介護課",
+    "start": 115709,
+    "end": 116087,
+    "sha256": "bf5b8a41a945edfd9ebcd87f3e509010c68a26669bb2f68cf721cd694c293125"
+  },
+  {
+    "name": "国民健康保険の保健事業に関すること。",
+    "department": "保険年金課",
+    "start": 120260,
+    "end": 120944,
+    "sha256": "2d6ab5cd616707ac20759c57de4012d0bd0a923ad39dd26a6771e379d7a32a9a"
+  },
+  {
+    "name": "後期高齢者医療制度の保健事業に関すること。",
+    "department": "保険年金課",
+    "start": 123339,
+    "end": 123748,
+    "sha256": "e4d000f21c8b9e0257b9e91c87b1ae86ff443cf73c299d15688271f20cc6883a"
+  },
+  {
+    "name": "大県本郷線整備推進事業に関すること",
+    "department": "都市政策課",
+    "start": 127561,
+    "end": 127742,
+    "sha256": "10f62c84994ddb70ea10b0063cf1b741656608880c12d324a0cc899697e227c7"
+  },
+  {
+    "name": "道路新設改良事業",
+    "department": "都市政策課",
+    "start": 127742,
+    "end": 127912,
+    "sha256": "9f7f070d3ea0273e8b3bf6f418be5e23a4cf1b8870891caea7cbbb8248edc827"
+  },
+  {
+    "name": "信貴太平寺線整備事業",
+    "department": "都市政策課",
+    "start": 127912,
+    "end": 128057,
+    "sha256": "499ff2dd94aa47f1f942a61b991edf385142547ee2c6f509becfbe4e4b4cbc4a"
+  },
+  {
+    "name": "上市法善寺線道路整備事業",
+    "department": "都市政策課",
+    "start": 128057,
+    "end": 128259,
+    "sha256": "31c379ca75f56666a563715e7df79c33fec2581a7abc577068126ae1ec223ced"
+  },
+  {
+    "name": "田辺旭ヶ丘線整備事業",
+    "department": "都市政策課",
+    "start": 128383,
+    "end": 128582,
+    "sha256": "b0e6ec6e41f959888b968ba5e0e5775899b400fc752336c278512aa515d69afd"
+  },
+  {
+    "name": "長瀬川・高井田水路管理事業",
+    "department": "道路河川管理課",
+    "start": 137967,
+    "end": 138166,
+    "sha256": "91772e7281e3a5c8e68dff7d936883a3f7db03b43eb346c2c0060337e9e0c822"
+  },
+  {
+    "name": "私道舗装助成事業",
+    "department": "道路河川管理課",
+    "start": 138166,
+    "end": 138288,
+    "sha256": "8b75fc762a22bcd905ab62c4e13ff5523d0c289fa94feda9dd7b7bd072c4de06"
+  },
+  {
+    "name": "ため池等維持補修事業",
+    "department": "道路河川管理課",
+    "start": 138691,
+    "end": 138974,
+    "sha256": "223ce429aba70f1ea92209cddaf4e214d7851b860ba3ea2d3397408cf50e2b7d"
+  },
+  {
+    "name": "農道維持補修事業",
+    "department": "道路河川管理課",
+    "start": 138974,
+    "end": 139211,
+    "sha256": "3c41685887c15fab2476568c35a56218a7097933c12f7053b7ac99f091ec2236"
+  },
+  {
+    "name": "市道維持補修事業",
+    "department": "道路河川管理課",
+    "start": 139211,
+    "end": 139776,
+    "sha256": "c4e862eb8aeb0d53609f951f15bb9759f763e7b7ca100dca2200ed9aa895dafd"
+  },
+  {
+    "name": "市内道路横断溝補修事業",
+    "department": "道路河川管理課",
+    "start": 139776,
+    "end": 139908,
+    "sha256": "3e3657d245e97f09beee94970be7fab8bddb530f1ee8ad05042e9f685f274c29"
+  },
+  {
+    "name": "浸水対策事業",
+    "department": "道路河川管理課",
+    "start": 140114,
+    "end": 140365,
+    "sha256": "5482e2696e2088678a269e2f2d48d457a1af424572361b53a41ebb98f4ca1a36"
+  },
+  {
+    "name": "河川改修事業",
+    "department": "道路河川管理課",
+    "start": 140365,
+    "end": 140618,
+    "sha256": "a4e817ed562acf6d47d3dbfdecb308f8023846e3112f11001bb41f2a98f3fc8d"
+  },
+  {
+    "name": "市道災害復旧事業",
+    "department": "道路河川管理課",
+    "start": 140618,
+    "end": 140755,
+    "sha256": "6baf4e2d307398c27b2f23b3cc2ee7986c3236abff35111f9e2313d33120c2e6"
+  },
+  {
+    "name": "公園管理事業",
+    "department": "みどり公園課",
+    "start": 140762,
+    "end": 142092,
+    "sha256": "271d6df1327ad7c8eebc89b709a9642fc9ecec638ef6b8f81d4d851e4183135d"
+  },
+  {
+    "name": "地域緑化推進事業",
+    "department": "みどり公園課",
+    "start": 143992,
+    "end": 144861,
+    "sha256": "e5c08ddd10dc130840db0d6e6c89f84d5441af1f9b599a90c3dd09094b1dc996"
+  },
+  {
+    "name": "緑地の保全管理事業",
+    "department": "みどり公園課",
+    "start": 144861,
+    "end": 145014,
+    "sha256": "ed97658c8591ae69d4665e62f56c7b3198eb2fd77c4d9436e65a87337c8f4037"
+  },
+  {
+    "name": "土地埋立対策事業",
+    "department": "みどり公園課",
+    "start": 145014,
+    "end": 145203,
+    "sha256": "130b5aa4898868b9c5c7a1836ff4c64b3f95c0fb782e9f560af91ef98c7dfd62"
+  },
+  {
+    "name": "生涯学習事業",
+    "department": "社会教育課",
+    "start": 154935,
+    "end": 155263,
+    "sha256": "bc17de4b2d25bc7bf45dd6db3ee90f283bc88905a4cb13d330701cf59fd35d36"
+  },
+  {
+    "name": "成人式開催事業",
+    "department": "社会教育課",
+    "start": 155263,
+    "end": 155609,
+    "sha256": "0800784888240d7e2fc79b6027369873327f1828ccaace7a0e52a540aa031d75"
+  },
+  {
+    "name": "社会教育団体活動事業",
+    "department": "社会教育課",
+    "start": 155609,
+    "end": 156174,
+    "sha256": "7423b803dca7eaa686c14c08e859dc54b8b2c88134c5356259abbaf34a93dbb0"
+  },
+  {
+    "name": "青少年講座等開催事業",
+    "department": "社会教育課",
+    "start": 156174,
+    "end": 156425,
+    "sha256": "3c0fb91eccd8e84341fb7ca3f2fa3e90f7ac371caa74a1266744ee7720d4170d"
+  },
+  {
+    "name": "青少年健全育成活動事業",
+    "department": "社会教育課",
+    "start": 156425,
+    "end": 159486,
+    "sha256": "cf02d3d40aaeff803caa3d87dd5ad4146e5bf686d917592229a83482f214325a"
+  },
+  {
+    "name": "放課後子ども教室推進事業",
+    "department": "社会教育課",
+    "start": 159486,
+    "end": 160169,
+    "sha256": "258acc4250b44041f11ff673564ee55764f84ac2c132792ece683e91457ff32e"
+  },
+  {
+    "name": "文化会館施設管理費、文化会館施設整備事業",
+    "department": "社会教育課",
+    "start": 160169,
+    "end": 160439,
+    "sha256": "ac9931f15ee88f4faa46629746f3534305cda63a8a31dc7ac27b5bc12a9a9316"
+  },
+  {
+    "name": "竜田古道の里山公園維持管理費",
+    "department": "社会教育課",
+    "start": 160439,
+    "end": 160834,
+    "sha256": "35acce9d24338adb2e148e65c68311497f9ab96e13b753803ccad208ecfa8780"
+  },
+  {
+    "name": "竜田古道の里山公園地域活性化事業",
+    "department": "社会教育課",
+    "start": 160834,
+    "end": 161037,
+    "sha256": "d240fe98071f31bbf561a612a16cf7f3bd66992ce5450b5d5d6bb337e214c839"
+  },
+  {
+    "name": "家庭教育事業",
+    "department": "社会教育課",
+    "start": 161037,
+    "end": 161270,
+    "sha256": "80ca25477dc274896ae197a0aeb1713e264a1cf087783a17a0a3fde018e22735"
+  },
+  {
+    "name": "生涯スポーツ振興事業",
+    "department": "スポーツ推進課",
+    "start": 168716,
+    "end": 168924,
+    "sha256": "168285fdc4f2e8435e92caf1423812612b883fc7b5c0b8a55b32777461ca6140"
+  },
+  {
+    "name": "生涯スポーツ推進事業",
+    "department": "スポーツ推進課",
+    "start": 168924,
+    "end": 170105,
+    "sha256": "ecc3f9129f17bed3ffadae8d176ca7b10ccf20589632b22d869499198460ea1a"
+  },
+  {
+    "name": "体育施設管理事業",
+    "department": "スポーツ推進課",
+    "start": 170105,
+    "end": 170698,
+    "sha256": "5cfdbefe2ed87d0a8d8a49935e1b064e8bb76dc127c91615a4697aad2c249f0c"
+  },
+  {
+    "name": "体育館管理事業",
+    "department": "スポーツ推進課",
+    "start": 170698,
+    "end": 171422,
+    "sha256": "71af97ea0a64bf413f56ac84b1f5d1d29c5da26c26e9ded34f6f5df058834e08"
+  },
+  {
+    "name": "体育施設整備事業",
+    "department": "スポーツ推進課",
+    "start": 171422,
+    "end": 171679,
+    "sha256": "737da7707ea6e9e97ce902e4673cb8a35ef090f6c8dc4459f97294fed06d1d1d"
+  },
+  {
+    "name": "公民連携事業",
+    "department": "スポーツ推進課",
+    "start": 171679,
+    "end": 171916,
+    "sha256": "2da40680876f9a7ff2033417bf0d6be5e067f6bd12342350b11c9552c55cea99"
+  },
+  {
+    "name": "スクールバス運行事業",
+    "department": "学務課",
+    "start": 173193,
+    "end": 173285,
+    "sha256": "21a70d64b036f7ba5c94efba6edab223257a892984d3c8424ece7afb7cf93734"
+  },
+  {
+    "name": "学校給食費補助事業",
+    "department": "学務課",
+    "start": 173285,
+    "end": 173449,
+    "sha256": "77d0dd74f160af63078b108d794cc5faebcf26d7daf03e88a6aa129f34adbb6e"
+  },
+  {
+    "name": "小学校保健対策事業",
+    "department": "学務課",
+    "start": 173449,
+    "end": 173938,
+    "sha256": "6c831b2c8c7b3289b2d20e4512143cf87c28825f47beb3a1834eaab1d6f1b01b"
+  },
+  {
+    "name": "小学校就学援助",
+    "department": "学務課",
+    "start": 173938,
+    "end": 174468,
+    "sha256": "6bc4da0609f50368ab0955093c5fec9a341374f95bf7d81cf15d889edb75483c"
+  },
+  {
+    "name": "小学校支援教育就学奨励費",
+    "department": "学務課",
+    "start": 174468,
+    "end": 174768,
+    "sha256": "cf36599db3de6464cac8479e10a9e1080ab33e3e444036d56a76e4b0d9d3c272"
+  },
+  {
+    "name": "中学校保健対策事業",
+    "department": "学務課",
+    "start": 174768,
+    "end": 175255,
+    "sha256": "4566b048a122141702d38e7e47967a2ab577e6259581778da9792db30c9e74cf"
+  },
+  {
+    "name": "中学校就学援助",
+    "department": "学務課",
+    "start": 175255,
+    "end": 175601,
+    "sha256": "57531edfd110eba08bf9a1cf6acb91903e02f6a6b2d8c6411441c2509409e9aa"
+  },
+  {
+    "name": "中学校支援教育就学奨励費",
+    "department": "学務課",
+    "start": 175601,
+    "end": 175908,
+    "sha256": "3007dd362adb9ffb38d5f822e69ddc0c6202842265fa53f944eab470137dae8d"
+  },
+  {
+    "name": "幼稚園保育対策事業",
+    "department": "学務課",
+    "start": 175908,
+    "end": 175996,
+    "sha256": "91fc12c49afae7e481844b90ec4f3b58ff6785011a82f7c26b7084611312e1c2"
+  },
+  {
+    "name": "奨学基金貸付事業",
+    "department": "指導課",
+    "start": 176000,
+    "end": 176263,
+    "sha256": "8be4e9189bbd56cf9cd150170e0ee0457223851520bdf6696d35bdf1e2aecbbb"
+  },
+  {
+    "name": "小・中学校英語指導事業",
+    "department": "指導課",
+    "start": 176263,
+    "end": 176521,
+    "sha256": "487748907f55d492a27e6834d7a5358491ccafb163f85c34b5a3575ab180c415"
+  },
+  {
+    "name": "小学校スクールカウンセラー配置事業",
+    "department": "指導課",
+    "start": 176521,
+    "end": 176681,
+    "sha256": "063cf4d198129a0275f1b5cac45d9435eb4e31143548d82c607b14ea63359a64"
+  },
+  {
+    "name": "幼・小・中一貫教育推進事業",
+    "department": "指導課",
+    "start": 180097,
+    "end": 180235,
+    "sha256": "bb2208ef2c9ed7007f75fa74f169113c29acef80c7b193f909df8663625ffe62"
+  },
+  {
+    "name": "小学校教育運営事業",
+    "department": "指導課",
+    "start": 180235,
+    "end": 180332,
+    "sha256": "d676a4c4a395efab2f9d937eb8a40312d5cd9feb2e800240e2e6efdf0f8f64e4"
+  },
+  {
+    "name": "中学校教育運営事業",
+    "department": "指導課",
+    "start": 180332,
+    "end": 180426,
+    "sha256": "4d018d0617553c2ab50afb1d3dc0cad1a132a6f9a94504625d2338cc8a236435"
+  },
+  {
+    "name": "学力向上対策事業",
+    "department": "指導課",
+    "start": 180426,
+    "end": 180628,
+    "sha256": "c47fadbfef2b483e4db244ad8a489de93c46e20d296fbfc85f574d5b482d784c"
+  },
+  {
+    "name": "オンライン教育推進事業",
+    "department": "指導課",
+    "start": 180628,
+    "end": 180844,
+    "sha256": "1f494470971e7546b43c8f239b7f8584742c76f702733caf08fbac1e2a49002f"
+  },
+  {
+    "name": "SNS の管理運営と映像配信事業について",
+    "department": "議会事務局",
+    "start": 195118,
+    "end": 195445,
+    "sha256": "04b0ace17aa013e6b6c2cde486904999931d14138475a0acdc0225887a28240b"
+  }
+]

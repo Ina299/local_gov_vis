@@ -23,7 +23,7 @@ test('Osaka reviewed bodies require exact complete source identity and quote bou
  for(const c of configs){const i=inputs.find(i=>i.sourceId===c.sourceId)!;const r=run(c.sourceId);count+=r.projects.length;assert.equal(r.projects.length,c.rows.length);
  for(const p of r.projects){assert.equal(p.amounts.length,0);assert.equal(p.ratings.length,0);assert.equal(p.indicators.length,0);for(const e of p.evidence){const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;const src=inputs.find(x=>x.sourceUrl===e.sourceUrl);assert.ok(src);assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}
  for(const bad of [{...i,text:i.text+'x'},{...i,truncated:true},{...i,sourceSha256:'x'},{...i,sourceUrl:i.sourceUrl+'x'},{...i,format:'xlsx' as const}])assert.equal(reviewOsaka(bad,inputs)!.projects.length,0);
- }assert.equal(count,77);
+ }assert.equal(count,199);
 });
 test('Kanan combines sports continuation sheets and excludes survey summaries and component activities',()=>{
  const r=run('a3a002ef083e6f4b17f780a2'),ps=r.projects;assert.equal(ps.length,50);assert.equal(new Set(ps.map(p=>p.projectName)).size,50);assert.ok(ps.every(p=>p.evaluatedFiscalYear===2025&&p.evaluationYear===2026));
@@ -56,4 +56,25 @@ test('Takaishi names implemented activities without copying policy scores, prior
  for(const name of ['小中連携推進支援事業','SISTⅣ事業','English Camp in Takaishi','ぴよぴよルーム','高石小学校の校庭開放事業','市民文化祭'])assert.ok(ps.some(p=>p.projectName===name),name);
  for(const name of ['学力の向上','信頼と責任のある学校づくり','社会教育施設の適正管理','54 事業','コミュニティスクール導入'])assert.ok(!ps.some(p=>p.projectName===name));
  assert.equal(ps.filter(p=>p.projectName==='公民館講座').length,1);assert.equal(ps.filter(p=>p.projectName==='アプラ「まち講座」').length,1);
+});
+
+test('Kashiwara annual activities bind departments and explicit FY2025 without treating future budgets as actuals',()=>{
+ const ps=run('121aeac89c6e4a6ece040632').projects;assert.equal(ps.length,121);
+ assert.ok(ps.every(p=>p.evaluatedFiscalYear===2025&&p.evaluationYear===null&&p.department&&p.amounts.length===0&&p.ratings.length===0&&p.indicators.length===0));
+ for(const [name,department]of [['学校給食費補助事業','学務課'],['オンライン教育推進事業','指導課'],['地域福祉計画策定事業','福祉総務課'],['国際交流事業に関すること','にぎわい観光課'],['児童手当について','子育て支援課']])assert.ok(ps.some(p=>p.projectName===name&&p.department===department),name);
+ const plan=ps.find(p=>p.projectName==='地域福祉計画策定事業')!;assert.ok(plan.evidence.some(e=>e.rawText.includes('令和 8 年度～令和 12 年度')));assert.equal(plan.evaluatedFiscalYear,2025);
+});
+test('Kashiwara excludes numeric table cells, funds, insurance aggregate and unresolved bridge identities',()=>{
+ const ps=run('121aeac89c6e4a6ece040632').projects;
+ for(const name of ['件（産学官連携事業（5 件）含む。）','事業所','公園等整備事業基金','介護保険事業','橋りょう維持事業','高齢者介護保険利用料軽減措置事業','福祉有償運送市町村共同運営事業','月期末手当・勤勉手当','予算','決算'])assert.ok(!ps.some(p=>p.projectName===name),name);
+ assert.equal(new Set(ps.map(p=>[p.projectName,p.department,p.evaluatedFiscalYear].join('|'))).size,121);
+});
+test('Kashiwara needs verified continuation text rather than only the first120000 characters',()=>{
+ const i=inputs.find(x=>x.sourceId==='121aeac89c6e4a6ece040632')!;assert.equal(i.text.length,196774);assert.ok(run(i.sourceId).projects.some(p=>p.evidence.some(e=>Number(e.cell!.match(/chars:(\d+)/)![1])>=120000)));
+ assert.equal(reviewOsaka({...i,text:i.text.slice(0,120000)},inputs)!.status,'source_integrity_hold');
+});
+
+
+test('Izumisano retains one explicitly named individual comment rather than policy chapters or repeated remarks',()=>{
+ const ps=run('82d10803f411f03a9aa99045').projects;assert.equal(ps.length,1);const p=ps[0];assert.equal(p.projectName,'乳幼児医療費助成事業');assert.equal(p.evaluationYear,2010);assert.equal(p.evaluatedFiscalYear,null);assert.equal(p.amounts.length,0);assert.equal(p.ratings.length,0);assert.ok(p.warnings.some(w=>w.includes('個別評価票全文ではない')));assert.ok(p.evidence.some(e=>e.rawText.includes('１次評価でＡ')));
 });

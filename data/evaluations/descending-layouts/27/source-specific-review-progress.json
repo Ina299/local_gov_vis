@@ -406,6 +406,30 @@
     "reviewReason": "General provider self/external-assessment legal guidance and blank forms. No named municipal provider annual assessment body; external WAMNET link not followed."
   },
   {
+    "municipalityCode": "27221",
+    "municipalityName": "柏原市",
+    "sourceId": "121aeac89c6e4a6ece040632",
+    "title": "令和7年度事務事業年次報告書",
+    "url": "https://www.city.kashiwara.lg.jp/docs/2026062900018/file_contents/R7jimujigyou.pdf",
+    "sourceSha256": "4359d56389ec9e4ca95c3d23090a01ce61ff20d302ebe7cf75731a25277bfd53",
+    "listedContinuations": [
+      {
+        "assetBytes": 195627,
+        "assetPath": "documents/121aeac89c6e4a6ece040632-2.json",
+        "assetSha256": "639d56c428f52007e19a3fad719d12c15b10ebef2061ad14cdbc0b398ffeea2b",
+        "exportedCharacters": 76774,
+        "part": 2,
+        "startCharacter": 120000,
+        "textSha256": "e986190060575aed21de3162bbdd38aa39f347abc78915b1296e8e6e2d161935"
+      }
+    ],
+    "inventoryStatus": "complete_hash_verified",
+    "characters": 196774,
+    "fullTextSha256": "ae47439190cf4463e7191fdda240961c195e6734e20fe2d090b2d824c25f4191",
+    "reviewDisposition": "processed_partial",
+    "reviewReason": "121literal named annual activities accepted from complete hash-verified continued text; numerical cells, policy aggregates and ambiguous bridge identities excluded. Additional operational scopes remain under separate review."
+  },
+  {
     "municipalityCode": "27219",
     "municipalityName": "和泉市",
     "sourceId": "8dc37f31303a132164756305",
@@ -460,6 +484,20 @@
     "fullTextSha256": "d43b5f127bbae2ffff9eb4153f81ad003b1ebbcfee43fc65855bd7df4c1849eb",
     "reviewDisposition": "district_multiyear_identity_hold",
     "reviewReason": "Neyagawa station-east district FY2008–2012 grant evaluation in FY2012. District total, construction components, removed social experiment and mixed-year indicators are not independent annual business sheets. No allocation of district cost/ratings or treating removed work as executed."
+  },
+  {
+    "municipalityCode": "27213",
+    "municipalityName": "泉佐野市",
+    "sourceId": "82d10803f411f03a9aa99045",
+    "title": "外部評価委員会報告書",
+    "url": "https://www.city.izumisano.lg.jp/material/files/group/33/houkokusyo.pdf",
+    "sourceSha256": "c4bef07545c992dde4d6ddb18968bda803a7dc6d529a30a6049951783f055b75",
+    "listedContinuations": [],
+    "inventoryStatus": "complete_hash_verified",
+    "characters": 16867,
+    "fullTextSha256": "e51204432dec32bf8054563dd832b585cc1f4b311cc823dd2b09e2de99872d01",
+    "reviewDisposition": "processed_partial",
+    "reviewReason": "One explicitly named individual business comment in FY2010 external report; six policy headings and repeated comment are not additional businesses, target fiscal year remains unknown."
   },
   {
     "municipalityCode": "27212",

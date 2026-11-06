@@ -1,0 +1,1163 @@
+{
+  "status": "validated_candidate",
+  "sourceId": "121aeac89c6e4a6ece040632",
+  "fullTextSha256": "ae47439190cf4463e7191fdda240961c195e6734e20fe2d090b2d824c25f4191",
+  "departmentBlocks": 44,
+  "totalHeaderProposals": 424,
+  "firstPassReviewed": 115,
+  "proposed": 104,
+  "excluded": 11,
+  "remaining": "Other non-business-word headings, underlying tables and interrupted boundaries still require review; not source completion",
+  "rows": [
+    {
+      "index": 0,
+      "name": "広報かしわら印刷発行事業",
+      "department": "秘書広報課",
+      "start": 8274,
+      "end": 8511,
+      "blockSha256": "f04c95990a4550f9c005eac627c14ec6d7827714a948c3cb8fe70ce660c87fc4",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 1,
+      "name": "その他広報事業",
+      "department": "秘書広報課",
+      "start": 8511,
+      "end": 9356,
+      "blockSha256": "05dfcb1ca1dfd88a43b275fe9f5db64c339c2fcfb34cc350db32952f73d3e4ed",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 2,
+      "name": "ウェブサイト等管理運営事業",
+      "department": "秘書広報課",
+      "start": 9586,
+      "end": 10034,
+      "blockSha256": "256c2f406d98b26f6a1a1f955ac653c99cee274970e2adc0443d0022e1481462",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 3,
+      "name": "件（産学官連携事業（5 件）含む。）",
+      "department": "企画調整課",
+      "start": 13415,
+      "end": 13628,
+      "blockSha256": "6c8d2c6f06aab58530bade4d353010aa57719d07a08e453bda4781df18ad3d47",
+      "status": "excluded_or_identity_hold",
+      "reason": "Numeric count of collaborations, not a project heading"
+    },
+    {
+      "index": 4,
+      "name": "2025 年日本国際博覧会関連事業",
+      "department": "企画調整課",
+      "start": 16665,
+      "end": 17063,
+      "blockSha256": "03c65c448c7cbae5d296744269af958821cf1d106c43a9c39d9c984737d001ad",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 5,
+      "name": "市民税課税事業",
+      "department": "課税課",
+      "start": 43029,
+      "end": 44503,
+      "blockSha256": "bb44c865c5e4935ecff0511d4f9ab60dec2e94a6b4e91ec66d3316fe6bb81584",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 6,
+      "name": "諸税課税事業（法人市民税・軽自動車税・市たばこ税）",
+      "department": "課税課",
+      "start": 44503,
+      "end": 45256,
+      "blockSha256": "aceae78baf4cad1d97aa81c5b9d7792ca014b20467a5a9fd7d52316ad6842d2c",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 7,
+      "name": "固定資産税等課税事業（固定資産税・都市計画税・国有資産等所在市町村交付金）",
+      "department": "課税課",
+      "start": 47092,
+      "end": 48682,
+      "blockSha256": "2a851ee9031e229f37976021d3886a13f34d25d7d05bffccb577ca8e9cf6d3ec",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 8,
+      "name": "人権推進事業",
+      "department": "人権推進課",
+      "start": 52556,
+      "end": 52920,
+      "blockSha256": "0ed40f925f1f4421676636580efd95db4430698eeebb4e2f4bded267556af856",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 9,
+      "name": "平和事業",
+      "department": "人権推進課",
+      "start": 56381,
+      "end": 56736,
+      "blockSha256": "777e05727e6f235bf205e7ce1ec39aba73c60eb88e90adc7d470993d9fa8b26b",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 10,
+      "name": "男女共同参画社会推進事業",
+      "department": "人権推進課",
+      "start": 56736,
+      "end": 60966,
+      "blockSha256": "334b30a2bfbe584333c29d29963376ee48a263a3d87bf88004c06191e093cbe2",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 11,
+      "name": "男女共同参画センター運営事業",
+      "department": "人権推進課",
+      "start": 60966,
+      "end": 61819,
+      "blockSha256": "1a470198bce2938be1e6fb1e3bf1b9bf3f5396a53ccd9036049f5dbfb5fd2d46",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 12,
+      "name": "商工業振興事業",
+      "department": "産業振興課",
+      "start": 68709,
+      "end": 70374,
+      "blockSha256": "4408c7c75cbeed67dde7573c5bc838560df210ec53cf39eabae8885a5748ba94",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 13,
+      "name": "勤労者センター管理事業",
+      "department": "産業振興課",
+      "start": 70374,
+      "end": 70526,
+      "blockSha256": "1fa2799764d886235a4f7b689a2a4f7ffb692e29848ea0712417f019200fb5f7",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 14,
+      "name": "地域就労支援事業",
+      "department": "産業振興課",
+      "start": 70526,
+      "end": 71660,
+      "blockSha256": "fc7cef00e974f3bf3052f929bf880ab44302c819061af82e9f198e4b56e6ae84",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 15,
+      "name": "農業振興事業",
+      "department": "産業振興課",
+      "start": 72358,
+      "end": 73035,
+      "blockSha256": "d7ac5431931db0228e4a9fd3d7a631345cbed03630f7e49941faf9c7048136c0",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 16,
+      "name": "地域農政推進対策事業",
+      "department": "産業振興課",
+      "start": 74063,
+      "end": 74434,
+      "blockSha256": "ce87ddf98531d325a99c4edc28a5477dccfa99c47522bf05054197d73d3531ed",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 17,
+      "name": "有害鳥獣駆除対策事業",
+      "department": "産業振興課",
+      "start": 74527,
+      "end": 74919,
+      "blockSha256": "2361e4505a030f7f9dbe2024176d3e198259ee098c06e5afc2b99d6b0fceddcd",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 18,
+      "name": "むら活き活き交流事業",
+      "department": "産業振興課",
+      "start": 74919,
+      "end": 75049,
+      "blockSha256": "5ce9cf7738cd9a2a82a7a591f40160862c0bb7bb5bd60be7bd883d8d561e6997",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 19,
+      "name": "林業振興事業",
+      "department": "産業振興課",
+      "start": 75049,
+      "end": 75540,
+      "blockSha256": "11000cada1fca526c4a36cb7e636d9d98f587066ffbd8155bedaf6a2ba1cd0f0",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 20,
+      "name": "府民参加の森事業",
+      "department": "産業振興課",
+      "start": 75540,
+      "end": 75924,
+      "blockSha256": "0be86dc09642bee2832df6b51d5eeea4a4e21ecdd7890511a0aee0b938da3f8c",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 21,
+      "name": "地域福祉計画策定事業",
+      "department": "福祉総務課",
+      "start": 85779,
+      "end": 86439,
+      "blockSha256": "664d5e39f8c11a9039858ea1ee4ed9d5f70693460969346b6286ffc4792ba0cb",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 22,
+      "name": "個別避難計画作成事業",
+      "department": "福祉総務課",
+      "start": 86439,
+      "end": 86691,
+      "blockSha256": "afd3867ed439331e83234a24597a21ed23901528da1a5ba3519a8de0f209cd12",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 23,
+      "name": "生活困窮者自立支援事業",
+      "department": "福祉総務課",
+      "start": 86691,
+      "end": 87079,
+      "blockSha256": "67530802d9afed21961168dccfda581ae0c5e91c39eb04bcca511ad2771ca86d",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 24,
+      "name": "物価高騰対策給付金給付事業",
+      "department": "福祉総務課",
+      "start": 87079,
+      "end": 87240,
+      "blockSha256": "de3de25bebd01210b2df54bf2c20230e40fb8e856ca641494363439b5d919c66",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 25,
+      "name": "住民税非課税世帯支援給付金給付事業",
+      "department": "福祉総務課",
+      "start": 87240,
+      "end": 87404,
+      "blockSha256": "7030b248e08d84a8b39d55aefba41ab4bdbdecb3625d0462d54bd7870e787e61",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 26,
+      "name": "住民税非課税世帯おこめ券配布事業",
+      "department": "福祉総務課",
+      "start": 87404,
+      "end": 87533,
+      "blockSha256": "8a0b8b5cd3d256bd12670e2622bb993acd0dc348db2bedb8bc6f76ab3823f161",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 27,
+      "name": "事業所",
+      "department": "福祉指導監査課",
+      "start": 96163,
+      "end": 96202,
+      "blockSha256": "8c23f4bb28f49847f9168a5a867a630057608a4b87104335892024910351947d",
+      "status": "excluded_or_identity_hold",
+      "reason": "Number of service establishments, not a project"
+    },
+    {
+      "index": 28,
+      "name": "事業所",
+      "department": "福祉指導監査課",
+      "start": 96202,
+      "end": 96244,
+      "blockSha256": "a64cfe8f04dc86fce3e88c28228d20231863184a8e81070be6ee5b5858253716",
+      "status": "excluded_or_identity_hold",
+      "reason": "Number of service establishments, not a project"
+    },
+    {
+      "index": 29,
+      "name": "事業所",
+      "department": "福祉指導監査課",
+      "start": 96416,
+      "end": 96444,
+      "blockSha256": "a969b5c7173b42bc110e500dffa73533a1ad355f62a13aa84fe99e597437e3cd",
+      "status": "excluded_or_identity_hold",
+      "reason": "Number of service establishments, not a project"
+    },
+    {
+      "index": 30,
+      "name": "老人福祉センターを経営する事業、放課後児童健全育成事業、隣保事業、老人居宅生活支援事",
+      "department": "福祉指導監査課",
+      "start": 97377,
+      "end": 97612,
+      "blockSha256": "f5a68d0b2d2c310229fb3ef0888d8f972f96997b56c26e83b4bf3bea0564783b",
+      "status": "excluded_or_identity_hold",
+      "reason": "Wrapped legal notification category, not an independently named service project"
+    },
+    {
+      "index": 31,
+      "name": "地域子育て支援センター事業",
+      "department": "子育て支援課",
+      "start": 97626,
+      "end": 98068,
+      "blockSha256": "d08b4aa0c829064469f21fdd79fc3d4b9993152447a8baa81a0e791b7bd172c4",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 32,
+      "name": "つどいの広場事業",
+      "department": "子育て支援課",
+      "start": 98068,
+      "end": 98602,
+      "blockSha256": "37ccc1f058664e130264693875903474c4c8cfdd58f30b8e1916bf96b4713e71",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 33,
+      "name": "子育て応援イベント事業",
+      "department": "子育て支援課",
+      "start": 98602,
+      "end": 98793,
+      "blockSha256": "7abb3daa49538f5a2a79c03b8afc8618d3890b3721e1768834ee63a07a894189",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 34,
+      "name": "子育て支援事業",
+      "department": "子育て支援課",
+      "start": 98793,
+      "end": 99669,
+      "blockSha256": "bc3a17428061bd2cfdf9346db00d88cf0eb66743491755a3cc89f66f69c087f8",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 35,
+      "name": "放課後児童健全育成事業",
+      "department": "子育て支援課",
+      "start": 99669,
+      "end": 100389,
+      "blockSha256": "33a52f3deec4dcec27dcfd269132956b3b59985c657142a1c891c32b13e97693",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 36,
+      "name": "結婚支援事業",
+      "department": "子育て支援課",
+      "start": 100389,
+      "end": 101063,
+      "blockSha256": "68ec09a4f61d5feff364f5cd0842b6d022b704d35732e347771217a6e495e411",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 37,
+      "name": "ひとり親家庭等福祉対策事業",
+      "department": "子育て支援課",
+      "start": 101063,
+      "end": 101319,
+      "blockSha256": "a0859fd6b81d16aca38bc9b472183f8edef2b612680a0dcdcf681a37bfc51ce3",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 38,
+      "name": "助産施設入所保護事業",
+      "department": "子育て支援課",
+      "start": 102148,
+      "end": 102261,
+      "blockSha256": "3fa093e095961e112d6be5efe9035c2f3b78786377aa3b1dfac4866770960fc2",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 39,
+      "name": "ひとり親家庭等医療費助成事業",
+      "department": "子育て支援課",
+      "start": 102261,
+      "end": 102437,
+      "blockSha256": "c4bae27f9f2d15703aa4e0ea2c127b35314dbde878678b15171de5d1197b6e71",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 40,
+      "name": "こども医療費助成事業",
+      "department": "子育て支援課",
+      "start": 102437,
+      "end": 102601,
+      "blockSha256": "3d6e88a8bc78899e8a08366776eb6a16d151b909f42d78fff6b56743cce65888",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 41,
+      "name": "未熟児養育医療助成事業",
+      "department": "子育て支援課",
+      "start": 102601,
+      "end": 102719,
+      "blockSha256": "8324962a153ce46ea4e76eca79856966fd288cd5bc59a5a6415febee93e3920c",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 42,
+      "name": "子育て世帯おこめ券配布事業",
+      "department": "子育て支援課",
+      "start": 102719,
+      "end": 102896,
+      "blockSha256": "aebb5dc5424e1b68141fe057dc869d9998985194c1623d8dc2dca343990b7493",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 43,
+      "name": "物価高対応子育て応援手当支給事業",
+      "department": "子育て支援課",
+      "start": 102896,
+      "end": 103209,
+      "blockSha256": "2e5332ca84b57757f28f41f468335cccc33bf33ffa3f6431a2d692c62bea8031",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 44,
+      "name": "子ども家庭総合支援事業",
+      "department": "こども家庭安心課",
+      "start": 103218,
+      "end": 103411,
+      "blockSha256": "e1098d240a931e87f483c97ad9b076959ddb2a3e5c84791c62b06eb514dcee84",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 45,
+      "name": "母子保健事業",
+      "department": "こども家庭安心課",
+      "start": 103411,
+      "end": 104377,
+      "blockSha256": "f25731176f0d89dfdb5a010c2ad6223377906b181846bfd416dcb8c1d8906024",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 46,
+      "name": "妊婦のための支援給付及び妊婦等包括相談支援事業",
+      "department": "こども家庭安心課",
+      "start": 104377,
+      "end": 104608,
+      "blockSha256": "16ee4c759a08bf9ac74b31f5e44391596c374bdc7b041f74c5bdd3d544637117",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 47,
+      "name": "私立保育所等に対する助成事業について",
+      "department": "こども施設課",
+      "start": 108086,
+      "end": 108834,
+      "blockSha256": "12cec3f226160b1255830b6bc9143eb0a42d893e15e1048fb96d050816a3ce1f",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 48,
+      "name": "幼児教育・保育無償化事業",
+      "department": "こども施設課",
+      "start": 108834,
+      "end": 109174,
+      "blockSha256": "b6484d2eadb28bf3cb89f7d85dfc12f083dbd04b5a71001f5b90c5c077652fbb",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 49,
+      "name": "献血推進事業",
+      "department": "健康づくり課",
+      "start": 109358,
+      "end": 109553,
+      "blockSha256": "3836434fd14ed06c52d905e84588805a0533bf9479ed3faf89126b2509b5abbc",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 50,
+      "name": "予防接種事業",
+      "department": "健康づくり課",
+      "start": 109553,
+      "end": 111343,
+      "blockSha256": "0e6495c7e2f9482cafd55e2b9a321e1a4b25c2328f44423cc2a070119c2eeeb6",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 51,
+      "name": "健康増進事業",
+      "department": "健康づくり課",
+      "start": 111343,
+      "end": 111925,
+      "blockSha256": "7cd83fc346fd5f0f3edfee7dba642526b023621f12a55784dc2fc9b798ca72d3",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 52,
+      "name": "高齢者の生活・安全支援事業",
+      "department": "高齢介護課",
+      "start": 112148,
+      "end": 112536,
+      "blockSha256": "926314e27da4d5712e380a218914461dc1aa2ee2c368c4abe398e3ed2c81d594",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 53,
+      "name": "高齢者の生きがいと健康づくり推進事業",
+      "department": "高齢介護課",
+      "start": 112536,
+      "end": 112674,
+      "blockSha256": "45411c47e28ce2fd8e8b42ad46a7539c68e2cc63f5ec11d6405e9e40c211bc6b",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 54,
+      "name": "養護老人ホーム入所措置事業",
+      "department": "高齢介護課",
+      "start": 112674,
+      "end": 112719,
+      "blockSha256": "00f825d8ecf450580507a7e2e05c3aaea59d0a7fb05ab073fdc3f62314b9a664",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 55,
+      "name": "シルバー人材センター運営補助事業",
+      "department": "高齢介護課",
+      "start": 112719,
+      "end": 112762,
+      "blockSha256": "fe21dd700969c92eb343a965dd7394d4757263c640929f2480a6225e83a6a9f0",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 56,
+      "name": "老人クラブ活動事業",
+      "department": "高齢介護課",
+      "start": 112762,
+      "end": 112852,
+      "blockSha256": "4b5add383798ce96c4ff79aaa61aadcb82ff80a4c290595d226548e95349c3d7",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 57,
+      "name": "包括的支援事業",
+      "department": "高齢介護課",
+      "start": 114057,
+      "end": 114310,
+      "blockSha256": "96fe8c75ebf5100038ae5d188830f5e05ca899e4b08a7881ea05665fa67e3bfe",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 58,
+      "name": "地域介護予防活動支援事業",
+      "department": "高齢介護課",
+      "start": 114310,
+      "end": 114528,
+      "blockSha256": "c7e609cfb36d013d1854d978fc468d84a2d997a774d77cfaa352b3353e44da32",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 59,
+      "name": "地域支援事業（介護保険事業）",
+      "department": "高齢介護課",
+      "start": 114528,
+      "end": 115418,
+      "blockSha256": "3d779678e55c34ac2fb49fbe8e7d186ab748feaef607742281eb23a597886a73",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 60,
+      "name": "介護保険事業",
+      "department": "高齢介護課",
+      "start": 115418,
+      "end": 115709,
+      "blockSha256": "db4e3518e923c4ffe08b42bb07791380defe749992a942c877f5b24263cb83e8",
+      "status": "excluded_or_identity_hold",
+      "reason": "Insurance-wide aggregate overlaps separately identified programmes; no extra programme"
+    },
+    {
+      "index": 61,
+      "name": "介護保険事業計画策定に関する業務",
+      "department": "高齢介護課",
+      "start": 115709,
+      "end": 116087,
+      "blockSha256": "bf5b8a41a945edfd9ebcd87f3e509010c68a26669bb2f68cf721cd694c293125",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 62,
+      "name": "高齢者介護保険利用料軽減措置事業",
+      "department": "高齢介護課",
+      "start": 118386,
+      "end": 118546,
+      "blockSha256": "faa38c74b08dec478f4bb23b40b8af4aaa9db7c1983fda1b6b9117e8a49e851c",
+      "status": "excluded_or_identity_hold",
+      "reason": "Scheme description only; no explicit current-year activity evidence in this bounded section"
+    },
+    {
+      "index": 63,
+      "name": "福祉有償運送市町村共同運営事業",
+      "department": "高齢介護課",
+      "start": 118546,
+      "end": 118739,
+      "blockSha256": "48e9e0ec2e572a298db540e10c94cf3aa2b302e25f7295ccb06d9fc741f2b236",
+      "status": "excluded_or_identity_hold",
+      "reason": "Joint-council scheme explanation only; no explicit current-year municipal activity"
+    },
+    {
+      "index": 64,
+      "name": "国民健康保険の保健事業に関すること。",
+      "department": "保険年金課",
+      "start": 120260,
+      "end": 120478,
+      "blockSha256": "97d7bdee56defc48f4a8e572522384c779cf4d23df495a91812d7eb871d538de",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 65,
+      "name": "後期高齢者医療制度の保健事業に関すること。",
+      "department": "保険年金課",
+      "start": 123339,
+      "end": 123748,
+      "blockSha256": "e4d000f21c8b9e0257b9e91c87b1ae86ff443cf73c299d15688271f20cc6883a",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 66,
+      "name": "道路新設改良事業",
+      "department": "都市政策課",
+      "start": 127742,
+      "end": 127912,
+      "blockSha256": "9f7f070d3ea0273e8b3bf6f418be5e23a4cf1b8870891caea7cbbb8248edc827",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 67,
+      "name": "信貴太平寺線整備事業",
+      "department": "都市政策課",
+      "start": 127912,
+      "end": 128057,
+      "blockSha256": "499ff2dd94aa47f1f942a61b991edf385142547ee2c6f509becfbe4e4b4cbc4a",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 68,
+      "name": "上市法善寺線道路整備事業",
+      "department": "都市政策課",
+      "start": 128057,
+      "end": 128259,
+      "blockSha256": "31c379ca75f56666a563715e7df79c33fec2581a7abc577068126ae1ec223ced",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 69,
+      "name": "橋りょう維持事業",
+      "department": "都市政策課",
+      "start": 128259,
+      "end": 128383,
+      "blockSha256": "c709f4a428d1a92a5f9267ef586027847e0f1537ac17646c41e9ca392df11dbb",
+      "status": "excluded_or_identity_hold",
+      "reason": "Same annual bridge-maintenance name appears in two departments; carryover notation and shared bridge prevent resolved distinct identity"
+    },
+    {
+      "index": 70,
+      "name": "田辺旭ヶ丘線整備事業",
+      "department": "都市政策課",
+      "start": 128383,
+      "end": 128582,
+      "blockSha256": "b0e6ec6e41f959888b968ba5e0e5775899b400fc752336c278512aa515d69afd",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 71,
+      "name": "長瀬川・高井田水路管理事業",
+      "department": "道路河川管理課",
+      "start": 137967,
+      "end": 138166,
+      "blockSha256": "91772e7281e3a5c8e68dff7d936883a3f7db03b43eb346c2c0060337e9e0c822",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 72,
+      "name": "私道舗装助成事業",
+      "department": "道路河川管理課",
+      "start": 138166,
+      "end": 138288,
+      "blockSha256": "8b75fc762a22bcd905ab62c4e13ff5523d0c289fa94feda9dd7b7bd072c4de06",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 73,
+      "name": "ため池等維持補修事業",
+      "department": "道路河川管理課",
+      "start": 138691,
+      "end": 138974,
+      "blockSha256": "223ce429aba70f1ea92209cddaf4e214d7851b860ba3ea2d3397408cf50e2b7d",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 74,
+      "name": "農道維持補修事業",
+      "department": "道路河川管理課",
+      "start": 138974,
+      "end": 139211,
+      "blockSha256": "3c41685887c15fab2476568c35a56218a7097933c12f7053b7ac99f091ec2236",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 75,
+      "name": "市道維持補修事業",
+      "department": "道路河川管理課",
+      "start": 139211,
+      "end": 139776,
+      "blockSha256": "c4e862eb8aeb0d53609f951f15bb9759f763e7b7ca100dca2200ed9aa895dafd",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 76,
+      "name": "市内道路横断溝補修事業",
+      "department": "道路河川管理課",
+      "start": 139776,
+      "end": 139908,
+      "blockSha256": "3e3657d245e97f09beee94970be7fab8bddb530f1ee8ad05042e9f685f274c29",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 77,
+      "name": "橋りょう維持事業",
+      "department": "道路河川管理課",
+      "start": 139908,
+      "end": 140114,
+      "blockSha256": "c19619ee6cafa9e19142b89c031dfd894f72a21a2f424aa674d57d013be79263",
+      "status": "excluded_or_identity_hold",
+      "reason": "Same annual bridge-maintenance name appears in two departments; preserve rather than duplicate"
+    },
+    {
+      "index": 78,
+      "name": "浸水対策事業",
+      "department": "道路河川管理課",
+      "start": 140114,
+      "end": 140350,
+      "blockSha256": "a538321af070c25bfc925bd754565eba87283088f92aa316efac6c66cd12bfc0",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 79,
+      "name": "河川改修事業",
+      "department": "道路河川管理課",
+      "start": 140365,
+      "end": 140618,
+      "blockSha256": "a4e817ed562acf6d47d3dbfdecb308f8023846e3112f11001bb41f2a98f3fc8d",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 80,
+      "name": "市道災害復旧事業",
+      "department": "道路河川管理課",
+      "start": 140618,
+      "end": 140755,
+      "blockSha256": "6baf4e2d307398c27b2f23b3cc2ee7986c3236abff35111f9e2313d33120c2e6",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 81,
+      "name": "公園管理事業",
+      "department": "みどり公園課",
+      "start": 140762,
+      "end": 142092,
+      "blockSha256": "271d6df1327ad7c8eebc89b709a9642fc9ecec638ef6b8f81d4d851e4183135d",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 82,
+      "name": "地域緑化推進事業",
+      "department": "みどり公園課",
+      "start": 143992,
+      "end": 144861,
+      "blockSha256": "e5c08ddd10dc130840db0d6e6c89f84d5441af1f9b599a90c3dd09094b1dc996",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 83,
+      "name": "緑地の保全管理事業",
+      "department": "みどり公園課",
+      "start": 144861,
+      "end": 145014,
+      "blockSha256": "ed97658c8591ae69d4665e62f56c7b3198eb2fd77c4d9436e65a87337c8f4037",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 84,
+      "name": "土地埋立対策事業",
+      "department": "みどり公園課",
+      "start": 145014,
+      "end": 145203,
+      "blockSha256": "130b5aa4898868b9c5c7a1836ff4c64b3f95c0fb782e9f560af91ef98c7dfd62",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 85,
+      "name": "公園等整備事業基金",
+      "department": "みどり公園課",
+      "start": 145203,
+      "end": 145430,
+      "blockSha256": "96f696aa61148c912f68fd66250c83cf497c324eeb1765edb8f7c596952e97de",
+      "status": "excluded_or_identity_hold",
+      "reason": "Fund balance/policy explanation, not independently implemented business"
+    },
+    {
+      "index": 86,
+      "name": "生涯学習事業",
+      "department": "社会教育課",
+      "start": 154935,
+      "end": 155263,
+      "blockSha256": "bc17de4b2d25bc7bf45dd6db3ee90f283bc88905a4cb13d330701cf59fd35d36",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 87,
+      "name": "成人式開催事業",
+      "department": "社会教育課",
+      "start": 155263,
+      "end": 155609,
+      "blockSha256": "0800784888240d7e2fc79b6027369873327f1828ccaace7a0e52a540aa031d75",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 88,
+      "name": "社会教育団体活動事業",
+      "department": "社会教育課",
+      "start": 155609,
+      "end": 156174,
+      "blockSha256": "7423b803dca7eaa686c14c08e859dc54b8b2c88134c5356259abbaf34a93dbb0",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 89,
+      "name": "青少年講座等開催事業",
+      "department": "社会教育課",
+      "start": 156174,
+      "end": 156425,
+      "blockSha256": "3c0fb91eccd8e84341fb7ca3f2fa3e90f7ac371caa74a1266744ee7720d4170d",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 90,
+      "name": "青少年健全育成活動事業",
+      "department": "社会教育課",
+      "start": 156425,
+      "end": 158808,
+      "blockSha256": "d0156cb83d3c6a68b8ccbe034ac022b63ab592491330f0e858a30a288a2d496a",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 91,
+      "name": "放課後子ども教室推進事業",
+      "department": "社会教育課",
+      "start": 159486,
+      "end": 160169,
+      "blockSha256": "258acc4250b44041f11ff673564ee55764f84ac2c132792ece683e91457ff32e",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 92,
+      "name": "文化会館施設管理費、文化会館施設整備事業",
+      "department": "社会教育課",
+      "start": 160169,
+      "end": 160439,
+      "blockSha256": "ac9931f15ee88f4faa46629746f3534305cda63a8a31dc7ac27b5bc12a9a9316",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 93,
+      "name": "竜田古道の里山公園地域活性化事業",
+      "department": "社会教育課",
+      "start": 160834,
+      "end": 161003,
+      "blockSha256": "82e71f8cd1ba95743bf85be953d5a3f8c20ea60cd5b876a6c2e0e9141c0be2f8",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 94,
+      "name": "家庭教育事業",
+      "department": "社会教育課",
+      "start": 161037,
+      "end": 161270,
+      "blockSha256": "80ca25477dc274896ae197a0aeb1713e264a1cf087783a17a0a3fde018e22735",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 95,
+      "name": "生涯スポーツ振興事業",
+      "department": "スポーツ推進課",
+      "start": 168716,
+      "end": 168924,
+      "blockSha256": "168285fdc4f2e8435e92caf1423812612b883fc7b5c0b8a55b32777461ca6140",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 96,
+      "name": "生涯スポーツ推進事業",
+      "department": "スポーツ推進課",
+      "start": 168924,
+      "end": 170105,
+      "blockSha256": "ecc3f9129f17bed3ffadae8d176ca7b10ccf20589632b22d869499198460ea1a",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 97,
+      "name": "体育施設管理事業",
+      "department": "スポーツ推進課",
+      "start": 170105,
+      "end": 170698,
+      "blockSha256": "5cfdbefe2ed87d0a8d8a49935e1b064e8bb76dc127c91615a4697aad2c249f0c",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 98,
+      "name": "体育館管理事業",
+      "department": "スポーツ推進課",
+      "start": 170698,
+      "end": 171422,
+      "blockSha256": "71af97ea0a64bf413f56ac84b1f5d1d29c5da26c26e9ded34f6f5df058834e08",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 99,
+      "name": "体育施設整備事業",
+      "department": "スポーツ推進課",
+      "start": 171422,
+      "end": 171679,
+      "blockSha256": "737da7707ea6e9e97ce902e4673cb8a35ef090f6c8dc4459f97294fed06d1d1d",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 100,
+      "name": "公民連携事業",
+      "department": "スポーツ推進課",
+      "start": 171679,
+      "end": 171916,
+      "blockSha256": "2da40680876f9a7ff2033417bf0d6be5e067f6bd12342350b11c9552c55cea99",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 101,
+      "name": "スクールバス運行事業",
+      "department": "学務課",
+      "start": 173193,
+      "end": 173285,
+      "blockSha256": "21a70d64b036f7ba5c94efba6edab223257a892984d3c8424ece7afb7cf93734",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 102,
+      "name": "学校給食費補助事業",
+      "department": "学務課",
+      "start": 173285,
+      "end": 173449,
+      "blockSha256": "77d0dd74f160af63078b108d794cc5faebcf26d7daf03e88a6aa129f34adbb6e",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 103,
+      "name": "小学校保健対策事業",
+      "department": "学務課",
+      "start": 173449,
+      "end": 173938,
+      "blockSha256": "6c831b2c8c7b3289b2d20e4512143cf87c28825f47beb3a1834eaab1d6f1b01b",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 104,
+      "name": "中学校保健対策事業",
+      "department": "学務課",
+      "start": 174768,
+      "end": 175255,
+      "blockSha256": "4566b048a122141702d38e7e47967a2ab577e6259581778da9792db30c9e74cf",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 105,
+      "name": "幼稚園保育対策事業",
+      "department": "学務課",
+      "start": 175908,
+      "end": 175996,
+      "blockSha256": "91fc12c49afae7e481844b90ec4f3b58ff6785011a82f7c26b7084611312e1c2",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 106,
+      "name": "奨学基金貸付事業",
+      "department": "指導課",
+      "start": 176000,
+      "end": 176263,
+      "blockSha256": "8be4e9189bbd56cf9cd150170e0ee0457223851520bdf6696d35bdf1e2aecbbb",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 107,
+      "name": "小・中学校英語指導事業",
+      "department": "指導課",
+      "start": 176263,
+      "end": 176521,
+      "blockSha256": "487748907f55d492a27e6834d7a5358491ccafb163f85c34b5a3575ab180c415",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 108,
+      "name": "小学校スクールカウンセラー配置事業",
+      "department": "指導課",
+      "start": 176521,
+      "end": 176681,
+      "blockSha256": "063cf4d198129a0275f1b5cac45d9435eb4e31143548d82c607b14ea63359a64",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 109,
+      "name": "幼・小・中一貫教育推進事業",
+      "department": "指導課",
+      "start": 180097,
+      "end": 180235,
+      "blockSha256": "bb2208ef2c9ed7007f75fa74f169113c29acef80c7b193f909df8663625ffe62",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 110,
+      "name": "小学校教育運営事業",
+      "department": "指導課",
+      "start": 180235,
+      "end": 180332,
+      "blockSha256": "d676a4c4a395efab2f9d937eb8a40312d5cd9feb2e800240e2e6efdf0f8f64e4",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 111,
+      "name": "中学校教育運営事業",
+      "department": "指導課",
+      "start": 180332,
+      "end": 180426,
+      "blockSha256": "4d018d0617553c2ab50afb1d3dc0cad1a132a6f9a94504625d2338cc8a236435",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 112,
+      "name": "学力向上対策事業",
+      "department": "指導課",
+      "start": 180426,
+      "end": 180628,
+      "blockSha256": "c47fadbfef2b483e4db244ad8a489de93c46e20d296fbfc85f574d5b482d784c",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 113,
+      "name": "オンライン教育推進事業",
+      "department": "指導課",
+      "start": 180628,
+      "end": 180844,
+      "blockSha256": "1f494470971e7546b43c8f239b7f8584742c76f702733caf08fbac1e2a49002f",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    },
+    {
+      "index": 114,
+      "name": "SNS の管理運営と映像配信事業について",
+      "department": "議会事務局",
+      "start": 195118,
+      "end": 195445,
+      "blockSha256": "04b0ace17aa013e6b6c2cde486904999931d14138475a0acdc0225887a28240b",
+      "status": "validated_candidate",
+      "reason": "Literal named annual business with bounded narrative; no financial or score extraction"
+    }
+  ]
+}

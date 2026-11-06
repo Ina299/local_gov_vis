@@ -1,0 +1,138 @@
+[
+  {
+    "name": "無料法律相談",
+    "department": "秘書広報課",
+    "start": 9356,
+    "end": 9586,
+    "blockSha256": "75fd83886a38de0d3e1b73df0c1a9217aa2ff93ea9492dd95326ed766035bd19",
+    "status": "validated_candidate"
+  },
+  {
+    "name": "公民連携事業に関すること",
+    "department": "企画調整課",
+    "start": 12495,
+    "end": 13415,
+    "blockSha256": "c63f06cf97eb6d3d8f77b6b3add7b8390708f01378512adf91c9888780991e2f",
+    "status": "validated_candidate"
+  },
+  {
+    "name": "公共施設等再編整備事業に関すること",
+    "department": "公有財産マネジメント課",
+    "start": 34552,
+    "end": 34728,
+    "blockSha256": "b4eab29956b55db62e454f6367950f4ed7c9b89830e7d7b5a627ad2b7cfd1e0b",
+    "status": "validated_candidate"
+  },
+  {
+    "name": "地域にぎわい創造事業に関すること",
+    "department": "にぎわい観光課",
+    "start": 76579,
+    "end": 79942,
+    "blockSha256": "60aaa88e58035211651e3a293ddf2b4babae5e9308c6878154f4f8837e53f32d",
+    "status": "validated_candidate"
+  },
+  {
+    "name": "国際交流事業に関すること",
+    "department": "にぎわい観光課",
+    "start": 79942,
+    "end": 80632,
+    "blockSha256": "b2c8c0288457eaaea322c3d41e145c8bbfd78d01f8a8062dc2c77e983da332b2",
+    "status": "validated_candidate"
+  },
+  {
+    "name": "障害者援護事業に関すること",
+    "department": "障害福祉課",
+    "start": 90618,
+    "end": 90956,
+    "blockSha256": "6dde7f18d1a47f7cc4fe7b1d281ce43b5f93f35846ddab6b5d9bb5354ae7f7d8",
+    "status": "validated_candidate"
+  },
+  {
+    "name": "障害児支援事業に関すること",
+    "department": "障害福祉課",
+    "start": 92272,
+    "end": 92791,
+    "blockSha256": "da07de30ec79bb5262f285d6308e3b323a59dfbc21d9ae1e9d532cfaa70071f8",
+    "status": "validated_candidate"
+  },
+  {
+    "name": "地域生活支援事業に関すること",
+    "department": "障害福祉課",
+    "start": 94008,
+    "end": 94910,
+    "blockSha256": "565101f9c725659d18e992a4a8211d590ca0c5038f62ba8db5a5fb06aa59799d",
+    "status": "validated_candidate"
+  },
+  {
+    "name": "児童手当について",
+    "department": "子育て支援課",
+    "start": 101472,
+    "end": 101849,
+    "blockSha256": "4e8a4fbf695436a2184e112e20523c223dd207e2e183c556da7ec2dd291bf333",
+    "status": "validated_candidate"
+  },
+  {
+    "name": "児童扶養手当について",
+    "department": "子育て支援課",
+    "start": 101849,
+    "end": 102148,
+    "blockSha256": "084378d2637fdaf9e02798f15bc0332c1a68eaf7904e73c1b186a091c1ea1536",
+    "status": "validated_candidate"
+  },
+  {
+    "name": "年末年始休日診療",
+    "department": "健康づくり課",
+    "start": 109181,
+    "end": 109358,
+    "blockSha256": "e235eac2f6d9f5ed2896fb58d49ad4d14a24b01ca47db5f027644745e3f049d5",
+    "status": "validated_candidate"
+  },
+  {
+    "name": "大県本郷線整備推進事業に関すること",
+    "department": "都市政策課",
+    "start": 127561,
+    "end": 127742,
+    "blockSha256": "10f62c84994ddb70ea10b0063cf1b741656608880c12d324a0cc899697e227c7",
+    "status": "validated_candidate"
+  },
+  {
+    "name": "竜田古道の里山公園維持管理費",
+    "department": "社会教育課",
+    "start": 160439,
+    "end": 160834,
+    "blockSha256": "35acce9d24338adb2e148e65c68311497f9ab96e13b753803ccad208ecfa8780",
+    "status": "validated_candidate"
+  },
+  {
+    "name": "小学校就学援助",
+    "department": "学務課",
+    "start": 173938,
+    "end": 174468,
+    "blockSha256": "6bc4da0609f50368ab0955093c5fec9a341374f95bf7d81cf15d889edb75483c",
+    "status": "validated_candidate"
+  },
+  {
+    "name": "小学校支援教育就学奨励費",
+    "department": "学務課",
+    "start": 174468,
+    "end": 174768,
+    "blockSha256": "cf36599db3de6464cac8479e10a9e1080ab33e3e444036d56a76e4b0d9d3c272",
+    "status": "validated_candidate"
+  },
+  {
+    "name": "中学校就学援助",
+    "department": "学務課",
+    "start": 175255,
+    "end": 175601,
+    "blockSha256": "57531edfd110eba08bf9a1cf6acb91903e02f6a6b2d8c6411441c2509409e9aa",
+    "status": "validated_candidate"
+  },
+  {
+    "name": "中学校支援教育就学奨励費",
+    "department": "学務課",
+    "start": 175601,
+    "end": 175908,
+    "blockSha256": "3007dd362adb9ffb38d5f822e69ddc0c6202842265fa53f944eab470137dae8d",
+    "status": "validated_candidate"
+  }
+]

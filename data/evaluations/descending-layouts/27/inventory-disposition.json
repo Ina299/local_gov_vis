@@ -683,11 +683,11 @@
     "inventoryStatus": "complete_hash_verified",
     "characters": 196774,
     "fullTextSha256": "ae47439190cf4463e7191fdda240961c195e6734e20fe2d090b2d824c25f4191",
-    "parserStatus": "unsupported_layout",
-    "accepted": 0,
+    "parserStatus": "processed",
+    "accepted": 121,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "processed_partial",
+    "reviewReason": "121literal named annual activities accepted from complete hash-verified continued text; numerical cells, policy aggregates and ambiguous bridge identities excluded. Additional operational scopes remain under separate review."
   },
   {
     "municipalityCode": "27220",
@@ -1204,11 +1204,11 @@
     "inventoryStatus": "complete_hash_verified",
     "characters": 16867,
     "fullTextSha256": "e51204432dec32bf8054563dd832b585cc1f4b311cc823dd2b09e2de99872d01",
-    "parserStatus": "unsupported_layout",
-    "accepted": 0,
+    "parserStatus": "processed",
+    "accepted": 1,
     "duplicates": 0,
-    "reviewDisposition": "pending_body_or_coverage_review",
-    "reviewReason": "Parser output alone does not establish exhaustive source coverage; further cached review remains."
+    "reviewDisposition": "processed_partial",
+    "reviewReason": "One explicitly named individual business comment in FY2010 external report; six policy headings and repeated comment are not additional businesses, target fiscal year remains unknown."
   },
   {
     "municipalityCode": "27213",
