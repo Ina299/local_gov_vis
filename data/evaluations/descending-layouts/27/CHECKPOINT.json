@@ -1,0 +1,37 @@
+{
+  "prefecture": "27",
+  "candidateRecords": 55,
+  "perMunicipality": {
+    "河南町": 50,
+    "藤井寺市": 5
+  },
+  "selectedMunicipalities": 39,
+  "excludedMunicipalities": 4,
+  "sources": 90,
+  "hashVerifiedBodies": 81,
+  "continuationParts": 1,
+  "missingBodies": 9,
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "fieldEnrichment": 0,
+  "municipalRequests": 0,
+  "validatedCumulativeCandidates": 22007,
+  "validatedEvidence": 59278,
+  "separateExcludedSets": {
+    "Okinawa": 1084,
+    "initial": 93
+  },
+  "master": "b3f8012827bc5ed61637a616f11882e9f3ea5145",
+  "checks": {
+    "focused": "3/3 Osaka,27/27 Hyogo",
+    "crawler": "647/647 combined working tree",
+    "web": "256/256",
+    "typecheck": "passed",
+    "lint": "passed;existingfontwarning",
+    "national": "verified",
+    "static": "109/109 subpath export"
+  },
+  "ci": "Unverified; priorActionsAPI403 not retried. No manual dispatch orPR edits.",
+  "remaining": "This is an increment, not Osaka completion. Next22proposals for Taishi/Katano/Takaishi are outside this commit; additional policy,layout and coverage sources remain under offline review. Missing9bodies require saved authorized input; acquisition gates remain.",
+  "unpublishedUserChanges": "not observable;collision freedom not guaranteed"
+}
