@@ -10747,6 +10747,966 @@ export const hyogoRows = [
         "start": 182103,
         "raw": "行政評価実施事業",
         "note": "Literal business-table name inexplicit annualpost-evaluation source. Source-specific title/boundary reviewed; no policy KPI, grade, cost or detached narrative assigned."
+      },
+      {
+        "name": "母子保健推進員活動事業（愛育班活動）",
+        "start": 2233,
+        "raw": "母子保健推進員活動事業（愛\n11111 育班活動）",
+        "titleSegments": [
+          {
+            "start": 2233,
+            "raw": "母子保健推進員活動事業（愛"
+          },
+          {
+            "start": 2253,
+            "raw": "育班活動）"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "健診等受診補助事業（特定健診実施）",
+        "start": 2658,
+        "raw": "健診等受診補助事業（特定健\n11104 診実施）",
+        "titleSegments": [
+          {
+            "start": 2658,
+            "raw": "健診等受診補助事業（特定健"
+          },
+          {
+            "start": 2678,
+            "raw": "診実施）"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "食育推進事業（食育推進本部会議）",
+        "start": 2782,
+        "raw": "食育推進事業\n11113 （食育推進本部会議）",
+        "titleSegments": [
+          {
+            "start": 2782,
+            "raw": "食育推進事業"
+          },
+          {
+            "start": 2795,
+            "raw": "（食育推進本部会議）"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "介護基盤の緊急整備特別対策事業",
+        "start": 12771,
+        "raw": "介護基盤の緊急整備特別対策\n12303 事業",
+        "titleSegments": [
+          {
+            "start": 12771,
+            "raw": "介護基盤の緊急整備特別対策"
+          },
+          {
+            "start": 12791,
+            "raw": "事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "人生80年いきいき住宅助成事業",
+        "start": 13035,
+        "raw": "人生80年いきいき住宅助成事\n12306 業",
+        "titleSegments": [
+          {
+            "start": 13035,
+            "raw": "人生80年いきいき住宅助成事"
+          },
+          {
+            "start": 13056,
+            "raw": "業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "要支援・要介護認定調査・主治医意見書作成依頼事業",
+        "start": 14188,
+        "raw": "要支援・要介護認定調査・主治\n12325 医意見書作成依頼事業",
+        "titleSegments": [
+          {
+            "start": 14188,
+            "raw": "要支援・要介護認定調査・主治"
+          },
+          {
+            "start": 14209,
+            "raw": "医意見書作成依頼事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "高齢重度精神障害者医療費助成事業",
+        "start": 14746,
+        "raw": "高齢重度精神障害者医療費助\n12335 成事業",
+        "titleSegments": [
+          {
+            "start": 14746,
+            "raw": "高齢重度精神障害者医療費助"
+          },
+          {
+            "start": 14766,
+            "raw": "成事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "行旅病人・行旅死亡人取扱事務事業",
+        "start": 16502,
+        "raw": "行旅病人・行旅死亡人取扱事\n12402 務事業",
+        "titleSegments": [
+          {
+            "start": 16502,
+            "raw": "行旅病人・行旅死亡人取扱事"
+          },
+          {
+            "start": 16522,
+            "raw": "務事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "セーフティネット支援対策等事業",
+        "start": 16971,
+        "raw": "セーフティネット支援対策等事\n12412 業",
+        "titleSegments": [
+          {
+            "start": 16971,
+            "raw": "セーフティネット支援対策等事"
+          },
+          {
+            "start": 16992,
+            "raw": "業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "グループホーム等利用者家賃負担軽減事業",
+        "start": 17572,
+        "raw": "グループホーム等利用者家賃\n12422 負担軽減事業",
+        "titleSegments": [
+          {
+            "start": 17572,
+            "raw": "グループホーム等利用者家賃"
+          },
+          {
+            "start": 17592,
+            "raw": "負担軽減事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "地域組織活動（母親クラブ）育成事業",
+        "start": 20528,
+        "raw": "地域組織活動（母親クラブ）育成\n12504 事業",
+        "titleSegments": [
+          {
+            "start": 20528,
+            "raw": "地域組織活動（母親クラブ）育成"
+          },
+          {
+            "start": 20550,
+            "raw": "事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "家庭児童相談員連絡協議会事業",
+        "start": 21267,
+        "raw": "家庭児童相談員連絡協議会事\n12516 業",
+        "titleSegments": [
+          {
+            "start": 21267,
+            "raw": "家庭児童相談員連絡協議会事"
+          },
+          {
+            "start": 21287,
+            "raw": "業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "篠山ＡＢＣマラソン大会実施事業",
+        "start": 27353,
+        "raw": "篠山ＡＢＣマラソン大会実施事\n13204 業",
+        "titleSegments": [
+          {
+            "start": 27353,
+            "raw": "篠山ＡＢＣマラソン大会実施事"
+          },
+          {
+            "start": 27374,
+            "raw": "業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "市民生児童委員協議会活動補助事業",
+        "start": 30437,
+        "raw": "市民生児童委員協議会活動補\n14103 助事業",
+        "titleSegments": [
+          {
+            "start": 30437,
+            "raw": "市民生児童委員協議会活動補"
+          },
+          {
+            "start": 30457,
+            "raw": "助事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "市社会福祉協議会職員人件費補助事業",
+        "start": 34328,
+        "raw": "市社会福祉協議会職員人件費\n14302 補助事業",
+        "titleSegments": [
+          {
+            "start": 34328,
+            "raw": "市社会福祉協議会職員人件費"
+          },
+          {
+            "start": 34348,
+            "raw": "補助事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "集落におけるじん芥収集所施設整備補助金事務事業",
+        "start": 53365,
+        "raw": "集落におけるじん芥収集所施設\n24207 整備補助金事務事業",
+        "titleSegments": [
+          {
+            "start": 53365,
+            "raw": "集落におけるじん芥収集所施設"
+          },
+          {
+            "start": 53386,
+            "raw": "整備補助金事務事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "救急講習及び市民救命士講習事業",
+        "start": 58856,
+        "raw": "救急講習及び市民救命士講習\n25112 事業",
+        "titleSegments": [
+          {
+            "start": 58856,
+            "raw": "救急講習及び市民救命士講習"
+          },
+          {
+            "start": 58876,
+            "raw": "事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "消防・救急無線デジタル化推進事業",
+        "start": 60839,
+        "raw": "消防・救急無線デジタル化推進\n25212 事業",
+        "titleSegments": [
+          {
+            "start": 60839,
+            "raw": "消防・救急無線デジタル化推進"
+          },
+          {
+            "start": 60860,
+            "raw": "事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "メディカルコントロール体制の推進事業",
+        "start": 61395,
+        "raw": "メディカルコントロール体制の推\n25223 進事業",
+        "titleSegments": [
+          {
+            "start": 61395,
+            "raw": "メディカルコントロール体制の推"
+          },
+          {
+            "start": 61417,
+            "raw": "進事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "後川・雲部小跡地利用計画事業",
+        "start": 67498,
+        "raw": "後川・雲部小跡地利用計画事\n26106 業",
+        "titleSegments": [
+          {
+            "start": 67498,
+            "raw": "後川・雲部小跡地利用計画事"
+          },
+          {
+            "start": 67518,
+            "raw": "業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "県民交流広場モデル事業推進事務",
+        "start": 70749,
+        "raw": "県民交流広場モデル事業推進\n26302 事務",
+        "titleSegments": [
+          {
+            "start": 70749,
+            "raw": "県民交流広場モデル事業推進"
+          },
+          {
+            "start": 70769,
+            "raw": "事務"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "ひょうご多子世帯保育料軽減事業",
+        "start": 73464,
+        "raw": "ひょうご多子世帯保育料軽減事\n31107 業",
+        "titleSegments": [
+          {
+            "start": 73464,
+            "raw": "ひょうご多子世帯保育料軽減事"
+          },
+          {
+            "start": 73485,
+            "raw": "業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "幼稚園教諭と保育園保育士資質向上事業",
+        "start": 73488,
+        "raw": "幼稚園教諭と保育園保育士資\n31112 質向上事業",
+        "titleSegments": [
+          {
+            "start": 73488,
+            "raw": "幼稚園教諭と保育園保育士資"
+          },
+          {
+            "start": 73508,
+            "raw": "質向上事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "安全安心な教育施設の整備事業",
+        "start": 78147,
+        "raw": "安全安心な教育施設の整備事\n32106 業",
+        "titleSegments": [
+          {
+            "start": 78147,
+            "raw": "安全安心な教育施設の整備事"
+          },
+          {
+            "start": 78167,
+            "raw": "業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "食育推進事業（学校教育推進事業）",
+        "start": 79087,
+        "raw": "食育推進事業\n32124 （学校教育推進事業）",
+        "titleSegments": [
+          {
+            "start": 79087,
+            "raw": "食育推進事業"
+          },
+          {
+            "start": 79100,
+            "raw": "（学校教育推進事業）"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "食育推進活動事業（西部給食センター）",
+        "start": 79717,
+        "raw": "食育推進活動事業\n32136 （西部給食センター）",
+        "titleSegments": [
+          {
+            "start": 79717,
+            "raw": "食育推進活動事業"
+          },
+          {
+            "start": 79732,
+            "raw": "（西部給食センター）"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "高齢者大学事業（中央公民館事業）",
+        "start": 85947,
+        "raw": "高齢者大学事業\n33103 （中央公民館事業）",
+        "titleSegments": [
+          {
+            "start": 85947,
+            "raw": "高齢者大学事業"
+          },
+          {
+            "start": 85961,
+            "raw": "（中央公民館事業）"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "丹波篠山おもしろゼミナール事業",
+        "start": 86025,
+        "raw": "丹波篠山おもしろゼミナール事\n33105 業",
+        "titleSegments": [
+          {
+            "start": 86025,
+            "raw": "丹波篠山おもしろゼミナール事"
+          },
+          {
+            "start": 86046,
+            "raw": "業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "ビデオコンクール開催による映像文化発展事業",
+        "start": 86693,
+        "raw": "ビデオコンクール開催による映\n33119 像文化発展事業",
+        "titleSegments": [
+          {
+            "start": 86693,
+            "raw": "ビデオコンクール開催による映"
+          },
+          {
+            "start": 86714,
+            "raw": "像文化発展事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "子どもの居場所づくり事業（トライしようDAY）",
+        "start": 88730,
+        "raw": "子どもの居場所づくり事業\n33203 （トライしようDAY）",
+        "titleSegments": [
+          {
+            "start": 88730,
+            "raw": "子どもの居場所づくり事業"
+          },
+          {
+            "start": 88749,
+            "raw": "（トライしようDAY）"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "青少年健全育成団体連携事業（市青少年健全育成推進連絡協議会）",
+        "start": 88999,
+        "raw": "青少年健全育成団体連携事業\n33206 （市青少年健全育成推進連絡協議会）",
+        "titleSegments": [
+          {
+            "start": 88999,
+            "raw": "青少年健全育成団体連携事業"
+          },
+          {
+            "start": 89019,
+            "raw": "（市青少年健全育成推進連絡協議会）"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "各種社会教育関係団体の自立支援事業（中央公民館分館事業）",
+        "start": 89452,
+        "raw": "各種社会教育関係団体の自立支援事業\n33211 （中央公民館分館事業）",
+        "titleSegments": [
+          {
+            "start": 89452,
+            "raw": "各種社会教育関係団体の自立支援事業"
+          },
+          {
+            "start": 89476,
+            "raw": "（中央公民館分館事業）"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "芸術活動・文化活動の支援事業",
+        "start": 89536,
+        "raw": "芸術活動・文化活動の支援事\n33212 業",
+        "titleSegments": [
+          {
+            "start": 89536,
+            "raw": "芸術活動・文化活動の支援事"
+          },
+          {
+            "start": 89556,
+            "raw": "業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "丹波地区人権・同和教育研究協議会運営補助事業",
+        "start": 94306,
+        "raw": "丹波地区人権・同和教育研究\n34104 協議会運営補助事業",
+        "titleSegments": [
+          {
+            "start": 94306,
+            "raw": "丹波地区人権・同和教育研究"
+          },
+          {
+            "start": 94326,
+            "raw": "協議会運営補助事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "人権啓発・広報活動・研究事業（古市ふれあい館）",
+        "start": 95112,
+        "raw": "人権啓発・広報活動・研究事業\n34112 （古市ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 95112,
+            "raw": "人権啓発・広報活動・研究事業"
+          },
+          {
+            "start": 95133,
+            "raw": "（古市ふれあい館）"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "隣保館連絡協議会負担金事業（畑ふれあい館）",
+        "start": 97282,
+        "raw": "隣保館連絡協議会負担金事業\n34212 （畑ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 97282,
+            "raw": "隣保館連絡協議会負担金事業"
+          },
+          {
+            "start": 97302,
+            "raw": "（畑ふれあい館）"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "ふれあい館運営委員会開催事業（畑ふれあい館）",
+        "start": 97379,
+        "raw": "ふれあい館運営委員会開催事業\n34213 （畑ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 97379,
+            "raw": "ふれあい館運営委員会開催事業"
+          },
+          {
+            "start": 97400,
+            "raw": "（畑ふれあい館）"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "ふれあい館運営審議会開催事業（畑ふれあい館）",
+        "start": 97441,
+        "raw": "ふれあい館運営審議会開催事業\n34214 （畑ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 97441,
+            "raw": "ふれあい館運営審議会開催事業"
+          },
+          {
+            "start": 97462,
+            "raw": "（畑ふれあい館）"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "ふれあい館運営委員会開催事業（古市ふれあい館）",
+        "start": 98123,
+        "raw": "ふれあい館運営委員会開催事業\n34234 （古市ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 98123,
+            "raw": "ふれあい館運営委員会開催事業"
+          },
+          {
+            "start": 98144,
+            "raw": "（古市ふれあい館）"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "ふれあい館運営委員会開催事業（西紀ふれあい館）",
+        "start": 98587,
+        "raw": "ふれあい館運営委員会開催事業\n34224 （西紀ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 98587,
+            "raw": "ふれあい館運営委員会開催事業"
+          },
+          {
+            "start": 98608,
+            "raw": "（西紀ふれあい館）"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "ふれあい館運営委員会開催事業（味間ふれあい館）",
+        "start": 98731,
+        "raw": "ふれあい館運営委員会開催事業\n34229 （味間ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 98731,
+            "raw": "ふれあい館運営委員会開催事業"
+          },
+          {
+            "start": 98752,
+            "raw": "（味間ふれあい館）"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "隣保館連絡協議会負担金事業（古市ふれあい館）",
+        "start": 98839,
+        "raw": "隣保館連絡協議会負担金事業\n34233 （古市ふれあい館）",
+        "titleSegments": [
+          {
+            "start": 98839,
+            "raw": "隣保館連絡協議会負担金事業"
+          },
+          {
+            "start": 98859,
+            "raw": "（古市ふれあい館）"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "男女共同参画推進庁内会議事業",
+        "start": 100596,
+        "raw": "男女共同参画推進庁内会議事\n34305 業",
+        "titleSegments": [
+          {
+            "start": 100596,
+            "raw": "男女共同参画推進庁内会議事"
+          },
+          {
+            "start": 100616,
+            "raw": "業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "福住地区における町並み保存・活用事業",
+        "start": 105241,
+        "raw": "福住地区における町並み保存・\n35204 活用事業",
+        "titleSegments": [
+          {
+            "start": 105241,
+            "raw": "福住地区における町並み保存・"
+          },
+          {
+            "start": 105262,
+            "raw": "活用事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "宅内排水設備工事の受付検査、指定工事店、責任技術者の登録事業（総務関連）",
+        "start": 122005,
+        "raw": "宅内排水設備工事の受付検査、指定工事\n43103 店、責任技術者の登録事業（総務関連）",
+        "titleSegments": [
+          {
+            "start": 122005,
+            "raw": "宅内排水設備工事の受付検査、指定工事"
+          },
+          {
+            "start": 122030,
+            "raw": "店、責任技術者の登録事業（総務関連）"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "汚水処理施設共同整備事業（MICS）",
+        "start": 123829,
+        "raw": "汚水処理施設共同整備事業\n43205 （MICS）",
+        "titleSegments": [
+          {
+            "start": 123829,
+            "raw": "汚水処理施設共同整備事業"
+          },
+          {
+            "start": 123848,
+            "raw": "（MICS）"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "地上デジタル放送受信対策事業",
+        "start": 132723,
+        "raw": "地上デジタル放送受信対策事\n45102 業",
+        "titleSegments": [
+          {
+            "start": 132723,
+            "raw": "地上デジタル放送受信対策事"
+          },
+          {
+            "start": 132743,
+            "raw": "業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "鳥獣被害防止対策施設整備事業",
+        "start": 139587,
+        "raw": "鳥獣被害防止対策施設整備事\n51129 業",
+        "titleSegments": [
+          {
+            "start": 139587,
+            "raw": "鳥獣被害防止対策施設整備事"
+          },
+          {
+            "start": 139607,
+            "raw": "業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "山の芋種芋生産推進協議会負担金事業",
+        "start": 139990,
+        "raw": "山の芋種芋生産推進協議会負\n51120 担金事業",
+        "titleSegments": [
+          {
+            "start": 139990,
+            "raw": "山の芋種芋生産推進協議会負"
+          },
+          {
+            "start": 140010,
+            "raw": "担金事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "市農業生産組合協議会補助事業",
+        "start": 142703,
+        "raw": "市農業生産組合協議会補助事\n51204 業",
+        "titleSegments": [
+          {
+            "start": 142703,
+            "raw": "市農業生産組合協議会補助事"
+          },
+          {
+            "start": 142723,
+            "raw": "業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "担い手経営展開支援リース事業",
+        "start": 142958,
+        "raw": "担い手経営展開支援リース事\n51209 業",
+        "titleSegments": [
+          {
+            "start": 142958,
+            "raw": "担い手経営展開支援リース事"
+          },
+          {
+            "start": 142978,
+            "raw": "業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "市担い手育成総合支援協議会事業",
+        "start": 143353,
+        "raw": "市担い手育成総合支援協議会\n51212 事業",
+        "titleSegments": [
+          {
+            "start": 143353,
+            "raw": "市担い手育成総合支援協議会"
+          },
+          {
+            "start": 143373,
+            "raw": "事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "農地・水・環境保全向上対策事業（営農活動支援）",
+        "start": 145612,
+        "raw": "農地・水・環境保全向上対策事\n51302 業（営農活動支援）",
+        "titleSegments": [
+          {
+            "start": 145612,
+            "raw": "農地・水・環境保全向上対策事"
+          },
+          {
+            "start": 145633,
+            "raw": "業（営農活動支援）"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "ご当地グルメ篠山グランプリ事業",
+        "start": 146260,
+        "raw": "ご当地グルメ篠山グランプリ事\n51312 業",
+        "titleSegments": [
+          {
+            "start": 146260,
+            "raw": "ご当地グルメ篠山グランプリ事"
+          },
+          {
+            "start": 146281,
+            "raw": "業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "農地・水・環境保全向上対策事業",
+        "start": 148366,
+        "raw": "農地・水・環境保全向上対策事\n51410 業",
+        "titleSegments": [
+          {
+            "start": 148366,
+            "raw": "農地・水・環境保全向上対策事"
+          },
+          {
+            "start": 148387,
+            "raw": "業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "外客誘致促進委員会負担金事業",
+        "start": 159766,
+        "raw": "外客誘致促進委員会負担金事\n53205 業",
+        "titleSegments": [
+          {
+            "start": 159766,
+            "raw": "外客誘致促進委員会負担金事"
+          },
+          {
+            "start": 159786,
+            "raw": "業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "篠山口観光案内ｺｰﾅｰ改修工事事業",
+        "start": 160218,
+        "raw": "篠山口観光案内ｺｰﾅｰ改修工\n53203 事事業",
+        "titleSegments": [
+          {
+            "start": 160218,
+            "raw": "篠山口観光案内ｺｰﾅｰ改修工"
+          },
+          {
+            "start": 160239,
+            "raw": "事事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "丹波焼陶器祭りと物産市補助事業",
+        "start": 162336,
+        "raw": "丹波焼陶器祭りと物産市補助\n53310 事業",
+        "titleSegments": [
+          {
+            "start": 162336,
+            "raw": "丹波焼陶器祭りと物産市補助"
+          },
+          {
+            "start": 162356,
+            "raw": "事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "兵庫田舎暮らし他自然居住支援協議会事業",
+        "start": 174541,
+        "raw": "兵庫田舎暮らし他自然居住支\n64103 援協議会事業",
+        "titleSegments": [
+          {
+            "start": 174541,
+            "raw": "兵庫田舎暮らし他自然居住支"
+          },
+          {
+            "start": 174561,
+            "raw": "援協議会事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "篠山再生計画（行財政改革編）策定・推進事業",
+        "start": 181999,
+        "raw": "篠山再生計画（行財政改革編）\n71205 策定・推進事業",
+        "titleSegments": [
+          {
+            "start": 181999,
+            "raw": "篠山再生計画（行財政改革編）"
+          },
+          {
+            "start": 182020,
+            "raw": "策定・推進事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
       }
     ],
     "holds": [
@@ -12089,6 +13049,454 @@ export const hyogoRows = [
         "start": 162032,
         "raw": "議会広報発行事業",
         "note": "Literal business-table name inexplicit annualpost-evaluation source. Source-specific title/boundary reviewed; no policy KPI, grade, cost or detached narrative assigned."
+      },
+      {
+        "name": "にっこり！５歳児ステップ教室事業",
+        "start": 1806,
+        "raw": "にっこり！５歳児ステップ教室\n11105 事業",
+        "titleSegments": [
+          {
+            "start": 1806,
+            "raw": "にっこり！５歳児ステップ教室"
+          },
+          {
+            "start": 1827,
+            "raw": "事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "食生活改善推進活動事業（いずみ会活動）",
+        "start": 2551,
+        "raw": "食生活改善推進活動事業（い\n11117 ずみ会活動）",
+        "titleSegments": [
+          {
+            "start": 2551,
+            "raw": "食生活改善推進活動事業（い"
+          },
+          {
+            "start": 2571,
+            "raw": "ずみ会活動）"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "老人保健医療費適正化対策事業",
+        "start": 10948,
+        "raw": "老人保健医療費適正化対策事\n12308 業",
+        "titleSegments": [
+          {
+            "start": 10948,
+            "raw": "老人保健医療費適正化対策事"
+          },
+          {
+            "start": 10968,
+            "raw": "業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "要支援・要介護認定調査・主治医意見書作成依頼事業",
+        "start": 10996,
+        "raw": "要支援・要介護認定調査・主治医意見書作\n12309 成依頼事業",
+        "titleSegments": [
+          {
+            "start": 10996,
+            "raw": "要支援・要介護認定調査・主治医意見書作"
+          },
+          {
+            "start": 11022,
+            "raw": "成依頼事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "高齢重度障害者医療費助成事業",
+        "start": 14055,
+        "raw": "高齢重度障害者医療費助成事\n12407 業",
+        "titleSegments": [
+          {
+            "start": 14055,
+            "raw": "高齢重度障害者医療費助成事"
+          },
+          {
+            "start": 14075,
+            "raw": "業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "高齢重度精神障害者医療費助成事業",
+        "start": 14313,
+        "raw": "高齢重度精神障害者医療費助\n12412 成事業",
+        "titleSegments": [
+          {
+            "start": 14313,
+            "raw": "高齢重度精神障害者医療費助"
+          },
+          {
+            "start": 14333,
+            "raw": "成事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "無年金外国籍高齢者等福祉給付金支給事業",
+        "start": 14467,
+        "raw": "無年金外国籍高齢者等福祉給\n12414 付金支給事業",
+        "titleSegments": [
+          {
+            "start": 14467,
+            "raw": "無年金外国籍高齢者等福祉給"
+          },
+          {
+            "start": 14487,
+            "raw": "付金支給事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "生活保護制度安定運営対策特別事業",
+        "start": 14574,
+        "raw": "生活保護制度安定運営対策特\n12416 別事業",
+        "titleSegments": [
+          {
+            "start": 14574,
+            "raw": "生活保護制度安定運営対策特"
+          },
+          {
+            "start": 14594,
+            "raw": "別事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "地域組織活動（母親クラブ）育成事業補助金",
+        "start": 17178,
+        "raw": "地域組織活動（母親クラブ）育\n12504 成事業補助金",
+        "titleSegments": [
+          {
+            "start": 17178,
+            "raw": "地域組織活動（母親クラブ）育"
+          },
+          {
+            "start": 17199,
+            "raw": "成事業補助金"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "要保護児童対策地域協議会（児童福祉）事業",
+        "start": 17398,
+        "raw": "要保護児童対策地域協議会\n12508 （児童福祉）事業",
+        "titleSegments": [
+          {
+            "start": 17398,
+            "raw": "要保護児童対策地域協議会"
+          },
+          {
+            "start": 17417,
+            "raw": "（児童福祉）事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "救急車、消防連絡車購入整備事業",
+        "start": 53648,
+        "raw": "救急車、消防連絡車購入整備\n25224 事業",
+        "titleSegments": [
+          {
+            "start": 53648,
+            "raw": "救急車、消防連絡車購入整備"
+          },
+          {
+            "start": 53668,
+            "raw": "事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "篠山丹南防災行政無線維持管理事業",
+        "start": 53898,
+        "raw": "篠山丹南防災行政無線維持管\n25229 理事業",
+        "titleSegments": [
+          {
+            "start": 53898,
+            "raw": "篠山丹南防災行政無線維持管"
+          },
+          {
+            "start": 53918,
+            "raw": "理事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "ひょうご多子世帯保育料軽減事業",
+        "start": 64492,
+        "raw": "ひょうご多子世帯保育料軽減事\n31108 業",
+        "titleSegments": [
+          {
+            "start": 64492,
+            "raw": "ひょうご多子世帯保育料軽減事"
+          },
+          {
+            "start": 64513,
+            "raw": "業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "学校間連携（スクールブリッジ事業）の推進事業",
+        "start": 69298,
+        "raw": "学校間連携（スクールブリッジ事\n32121 業）の推進事業",
+        "titleSegments": [
+          {
+            "start": 69298,
+            "raw": "学校間連携（スクールブリッジ事"
+          },
+          {
+            "start": 69320,
+            "raw": "業）の推進事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "教育実践活性化事業及び教育実践功績賞",
+        "start": 69467,
+        "raw": "教育実践活性化事業及び教育\n32124 実践功績賞",
+        "titleSegments": [
+          {
+            "start": 69467,
+            "raw": "教育実践活性化事業及び教育"
+          },
+          {
+            "start": 69487,
+            "raw": "実践功績賞"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "学校間連携の推進〜教育課程研究開発校指定事業〜",
+        "start": 69749,
+        "raw": "学校間連携の推進〜教育課程研究開発\n32129 校指定事業〜",
+        "titleSegments": [
+          {
+            "start": 69749,
+            "raw": "学校間連携の推進〜教育課程研究開発"
+          },
+          {
+            "start": 69773,
+            "raw": "校指定事業〜"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "オープンスクール（学校公開）推進事業",
+        "start": 69809,
+        "raw": "オープンスクール（学校公開）推\n32130 進事業",
+        "titleSegments": [
+          {
+            "start": 69809,
+            "raw": "オープンスクール（学校公開）推"
+          },
+          {
+            "start": 69831,
+            "raw": "進事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "青少年健全育成団体との連携事業",
+        "start": 79619,
+        "raw": "青少年健全育成団体との連携\n33205 事業",
+        "titleSegments": [
+          {
+            "start": 79619,
+            "raw": "青少年健全育成団体との連携"
+          },
+          {
+            "start": 79639,
+            "raw": "事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "各種社会教育関係団体の自立支援事業",
+        "start": 80066,
+        "raw": "各種社会教育関係団体の自立\n33213 支援事業",
+        "titleSegments": [
+          {
+            "start": 80066,
+            "raw": "各種社会教育関係団体の自立"
+          },
+          {
+            "start": 80086,
+            "raw": "支援事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "針葉樹林と広葉樹林の混交林整備事業",
+        "start": 124626,
+        "raw": "針葉樹林と広葉樹林の混交林\n51109 整備事業",
+        "titleSegments": [
+          {
+            "start": 124626,
+            "raw": "針葉樹林と広葉樹林の混交林"
+          },
+          {
+            "start": 124646,
+            "raw": "整備事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "市担い手育成総合支援協議会事業",
+        "start": 128287,
+        "raw": "市担い手育成総合支援協議会\n51213 事業",
+        "titleSegments": [
+          {
+            "start": 128287,
+            "raw": "市担い手育成総合支援協議会"
+          },
+          {
+            "start": 128307,
+            "raw": "事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "担い手の育成支援事業（アドバイザー事業）",
+        "start": 128554,
+        "raw": "担い手の育成支援事業（アドバ\n51219 イザー事業）",
+        "titleSegments": [
+          {
+            "start": 128554,
+            "raw": "担い手の育成支援事業（アドバ"
+          },
+          {
+            "start": 128575,
+            "raw": "イザー事業）"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "東京都庁「全国観光ＰＲイベント」事業",
+        "start": 130823,
+        "raw": "東京都庁「全国観光ＰＲイベン\n51312 ト」事業",
+        "titleSegments": [
+          {
+            "start": 130823,
+            "raw": "東京都庁「全国観光ＰＲイベン"
+          },
+          {
+            "start": 130844,
+            "raw": "ト」事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "農工団地（篠山中央地区）井戸設置事業",
+        "start": 139416,
+        "raw": "農工団地（篠山中央地区）井戸\n52319 設置事業",
+        "titleSegments": [
+          {
+            "start": 139416,
+            "raw": "農工団地（篠山中央地区）井戸"
+          },
+          {
+            "start": 139437,
+            "raw": "設置事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "ひょうごﾂｰﾘｽﾞﾑ協会負担金事業",
+        "start": 142958,
+        "raw": "ひょうごﾂｰﾘｽﾞﾑ協会負担金事\n53205 業",
+        "titleSegments": [
+          {
+            "start": 142958,
+            "raw": "ひょうごﾂｰﾘｽﾞﾑ協会負担金事"
+          },
+          {
+            "start": 142981,
+            "raw": "業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "丹波観光ネットワーク推進委員会負担金事業",
+        "start": 143085,
+        "raw": "丹波観光ネットワーク推進委員\n53210 会負担金事業",
+        "titleSegments": [
+          {
+            "start": 143085,
+            "raw": "丹波観光ネットワーク推進委員"
+          },
+          {
+            "start": 143106,
+            "raw": "会負担金事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "丹波焼陶器祭りと物産市補助事業",
+        "start": 145710,
+        "raw": "丹波焼陶器祭りと物産市補助\n53312 事業",
+        "titleSegments": [
+          {
+            "start": 145710,
+            "raw": "丹波焼陶器祭りと物産市補助"
+          },
+          {
+            "start": 145730,
+            "raw": "事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
+      },
+      {
+        "name": "篠山再生計画（行財政改革編）策定・推進事業",
+        "start": 163697,
+        "raw": "篠山再生計画（行財政改革編）\n71205 策定・推進事業",
+        "titleSegments": [
+          {
+            "start": 163697,
+            "raw": "篠山再生計画（行財政改革編）"
+          },
+          {
+            "start": 163718,
+            "raw": "策定・推進事業"
+          }
+        ],
+        "note": "Wrapped literal name reviewed inannualbusiness table; no financial/indicator/grade association. Reprints, mixedKPI prefixes andpossible qualified-title aliases excluded."
       }
     ],
     "holds": [

@@ -23,7 +23,7 @@ test('Hyogo proposals require full pinned bodies and literal evidence; no invent
  for(const c of configs){const i=inputs.find(i=>i.sourceId===c.sourceId)!;const r=run(c.sourceId);assert.equal(r.projects.length,c.rows.length);count+=r.projects.length;
  for(const p of r.projects){assert.equal(p.amounts.length,0);assert.equal(p.ratings.length,0);assert.equal(p.indicators.length,0);for(const e of p.evidence){const src=inputs.find(x=>x.sourceUrl===e.sourceUrl)!;const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}
  for(const bad of [{...i,text:i.text+'x'},{...i,truncated:true},{...i,sourceSha256:'x'},{...i,sourceUrl:i.sourceUrl+'x'}])assert.equal(reviewHyogo(bad,inputs)!.projects.length,0);
- }assert.equal(count,1858);
+ }assert.equal(count,1946);
 });
 
 
@@ -46,7 +46,7 @@ test('Sasayama list identities do not inherit policy grades or invent carryover/
 test('Awaji budget related materials and joint cross-year grants remain outside evaluation candidates',()=>{
  for(const id of ['f6ccf980b9afe5dc9e7e7721','d01430eaa02afdc1bfc0df18','a6b5f27b09a38a95f6676b0f','29d969ee5bf4fd4184f5e0ec','efb6a2b57bb7def5b4c8241f'])assert.ok(!configs.some(c=>c.sourceId===id));
 });
-for(const [sid,year,count]of [['2f361c684fbe2856437d9689',2011,201],['6173941d80f4f6da1b453e54',2010,207],['b8285a353df66a1b3da8cf7a',2009,211],['ac5332c108d6aa6f063dfe6c',2008,3]]as const)test(`Sasayama ${year} complete annual names reject fragment and numeric-column inference`,()=>{
+for(const [sid,year,count]of [['2f361c684fbe2856437d9689',2011,201],['6173941d80f4f6da1b453e54',2010,267],['b8285a353df66a1b3da8cf7a',2009,239],['ac5332c108d6aa6f063dfe6c',2008,3]]as const)test(`Sasayama ${year} complete annual names reject fragment and numeric-column inference`,()=>{
  const ps=run(sid).projects;assert.equal(ps.length,count);assert.ok(ps.every(p=>p.evaluatedFiscalYear===year&&p.evaluationYear===null));assert.equal(new Set(ps.map(p=>p.projectName.normalize('NFKC').replace(/\s+/g,''))).size,count);
  assert.ok(!ps.some(p=>['備補助金事務事業','制事業','金事業','事業','負担軽減事業','助事業','事務事業','局事業','理事業','ト」事業','助成事業','会事業','援協議会事業','支援事業','研究事業','各助成金事業','各負担金事業','県営土地改良事業'].includes(p.projectName)));
 });
@@ -57,3 +57,14 @@ test('Sasayama FY2007 keeps wrapped title qualifiers and rejects descriptions po
 });
 
 for(const [sid,fy,count]of [['6d11a627e95289515c8c7c93',2012,16],['99bb5bc168629657e8c4b220',2013,36]]as const)test(`Sasayama coverage supplement ${fy} preserves explicit targetperiod and omits ambiguous outcomes`,()=>{const ps=run(sid).projects;assert.equal(ps.length,count);assert.ok(ps.every(p=>p.evaluatedFiscalYear===fy&&p.evaluationYear===null&&p.warnings.some(w=>w.includes('Coverage supplement'))));});
+
+test('Hyogo wrapped additions preserve all1856 previously published candidate objects',()=>{
+ const fixture=JSON.parse(readFileSync(new URL('./fixtures/hyogo-published-1856-hashes.json',import.meta.url),'utf8'));
+ const ps=JSON.parse(readFileSync(new URL('../../../data/evaluations/descending-layouts/28/candidates.json',import.meta.url),'utf8'))as {id:string}[];const byId=new Map(ps.map(p=>[p.id,p]));assert.equal(fixture.base,'093104c48ab7ff0291212f45a1ecd9a8ff07e0a0');assert.equal(fixture.rows.length,1856);
+ for(const old of fixture.rows){assert.ok(byId.has(old.id),old.id);assert.equal(createHash('sha256').update(JSON.stringify(byId.get(old.id))).digest('hex'),old.sha256);}
+});
+test('Sasayama wrapped titles exclude mixed KPI prefixes, reprints and qualified-title aliases',()=>{
+ for(const sid of ['6173941d80f4f6da1b453e54','b8285a353df66a1b3da8cf7a']){const ps=run(sid).projects;assert.ok(ps.every(p=>!p.projectName.includes('【再掲】')&&!p.projectName.includes('繰越')));assert.ok(!ps.some(p=>['行:(4)-1アクション事業','ま:P52会）事業','休日診療所事業・病院群輪番制事業'].includes(p.projectName)));}
+ const ps=run('6173941d80f4f6da1b453e54').projects;assert.ok(ps.some(p=>p.projectName==='母子保健推進員活動事業（愛育班活動）'));assert.ok(ps.some(p=>p.projectName==='要支援・要介護認定調査・主治医意見書作成依頼事業'));
+ assert.ok(!run('2f361c684fbe2856437d9689').projects.some(p=>p.projectName==='がん検診等受診者健診等受診補助事業'));
+});
