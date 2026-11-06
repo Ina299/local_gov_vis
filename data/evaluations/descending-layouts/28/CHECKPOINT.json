@@ -1,20 +1,21 @@
 {
-  "candidateRecords": 3323,
-  "rawProposals": 3325,
+  "candidateRecords": 3326,
+  "rawProposals": 3328,
   "perMunicipality": {
+    "香美町": 3,
     "稲美町": 78,
     "猪名川町": 419,
     "丹波篠山市": 2826
   },
-  "additionalCandidateRecords": 617,
-  "previousPublishedHead": "1e58c7b7b4eebc1d34190e6056e57e10615d7a07",
+  "additionalCandidateRecords": 3,
+  "previousPublishedHead": "99dd950dbdc680d37f878c8b71381b41bf50479f",
   "sourcesInventoried": 86,
   "completeBodies": 68,
   "continuationParts": 2,
   "missingBodies": 18,
   "existingDuplicateOutputs": 576,
-  "validatedCumulativeCandidates": 21949,
-  "validatedEvidence": 59049,
+  "validatedCumulativeCandidates": 22007,
+  "validatedEvidence": 59278,
   "excludedFromCumulative": [
     "Okinawa1084",
     "initial93"
@@ -35,8 +36,8 @@
   ],
   "phaseComplete": false,
   "checks": {
-    "focused": "26/26",
-    "crawler": "643/643",
+    "focused": "27/27",
+    "crawler": "647/647 combined working tree",
     "web": "256/256",
     "typecheck": "pass",
     "lint": "pass with existing font warning",
@@ -44,5 +45,5 @@
     "static": "109 pages /local_gov_vis",
     "fieldProposals": "71 proposals /213 exactquotes /7negative cases"
   },
-  "remaining": "FY2010:601 titles/56held units;FY2009:522titles/66saved holds, including old overlapping holds retained. Token dispositions1899/1858 fully reviewed; no numerical or grade inference. Prior FY2007/08/11 holds retained. Separate33cachedHTML audit found3preassessment candidates for next review, not included. Missing18bodies held, no acquisition. CI unverified after priorActions403; no retry. User unpublished changes unobservable."
+  "remaining": "33savedHTML bodies audited; Kami3preassessments accepted,32navigation/nonindividual sources retained. FY2007–2011 identity/layout holds and18missing bodies remain. No acquisition, no nationwide completion. Combined checkpoint includes separately committed Osaka55."
 }

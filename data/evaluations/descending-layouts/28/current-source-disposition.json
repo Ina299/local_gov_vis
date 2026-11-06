@@ -27,9 +27,9 @@
     "sourceId": "e9a0f4641c13a4ceeb14ee89",
     "url": "https://www.town.mikata-kami.lg.jp/gyouseijouhou/gyoseihyoka/4395.html",
     "title": "公共事業評価の審査結果",
-    "status": "navigation",
+    "status": "processed",
     "reason": "Saved HTML; no supported individual-business output yet",
-    "accepted": 0,
+    "accepted": 3,
     "duplicates": 0,
     "held": 0,
     "fullTextSha256": "c73c2201d798974fcb96b6323a7f82166eb23c960976f8ccaadf4ba056db62b0",
@@ -39,8 +39,8 @@
     "continuationParts": 0,
     "parserFamilies": 3,
     "currentDisposition": {
-      "classification": "navigation_material",
-      "reason": "Saved source/page guidance; no individual-sheet parser output. Navigation classification does not claim no further useful content exists."
+      "classification": "reviewed_public_works_preassessment",
+      "reason": "3explicit complete named2025preassessments; implementationFY2026onward, targetfiscalyearnull; no actuals/amountinference"
     }
   },
   {

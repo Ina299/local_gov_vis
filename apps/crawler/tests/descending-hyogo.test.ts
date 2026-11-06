@@ -23,7 +23,7 @@ test('Hyogo proposals require full pinned bodies and literal evidence; no invent
  for(const c of configs){const i=inputs.find(i=>i.sourceId===c.sourceId)!;const r=run(c.sourceId);assert.equal(r.projects.length,c.rows.length);count+=r.projects.length;
  for(const p of r.projects){assert.equal(p.amounts.length,0);assert.equal(p.ratings.length,0);assert.equal(p.indicators.length,0);for(const e of p.evidence){const src=inputs.find(x=>x.sourceUrl===e.sourceUrl)!;const m=e.cell!.match(/chars:(\d+)-(\d+)/)!;assert.equal(src.text.slice(+m[1],+m[2]),e.rawText);}}
  for(const bad of [{...i,text:i.text+'x'},{...i,truncated:true},{...i,sourceSha256:'x'},{...i,sourceUrl:i.sourceUrl+'x'}])assert.equal(reviewHyogo(bad,inputs)!.projects.length,0);
- }assert.equal(count,3325);
+ }assert.equal(count,3328);
 });
 
 
@@ -142,4 +142,12 @@ test('Sasayama FY2009 holds repeated section identities and carryover rather tha
  const result=run('b8285a353df66a1b3da8cf7a'),ps=result.projects;assert.equal(result.units.filter(u=>u.status==='identity_or_period_hold').length,66);
  for(const name of ['消防地水利調査事務','災害情報の収集･管理業務','子どもの居場所づくり事業','県営土地改良事業','21年工業統計調査事務','安全安心な学校給食の推進（東部）事業','ちびっ子伝統産業体験交流事業','住宅防火診断業務'])assert.ok(!ps.some(p=>p.projectName===name),name);
  assert.ok(ps.every(p=>!p.projectName.includes('繰越')&&!p.projectName.includes('【再掲】')));assert.equal(new Set(ps.map(p=>p.projectName.normalize('NFKC').replace(/\s+/g,''))).size,ps.length);
+});
+
+test('Kami public works preassessments preserve review year without turning open-ended plans into annual actuals',()=>{
+ const ps=run('e9a0f4641c13a4ceeb14ee89').projects;assert.equal(ps.length,3);
+ assert.deepEqual(ps.map(p=>p.projectName),['境自治会集会所整備事業（香住区境地内）','小代南部健康高原専用水道ろ過施設整備事業（小代区新屋地内）','村岡歯科診療所整備事業（村岡区村岡地内）']);
+ assert.ok(ps.every(p=>p.evaluationYear===2025&&p.evaluatedFiscalYear===null&&p.amounts.length===0&&p.ratings.length===0&&p.indicators.length===0&&p.outcomes===null));
+ assert.ok(ps.every(p=>p.warnings.some(w=>w.includes('事前審査')&&w.includes('実施済み'))));
+ for(const p of ps){assert.ok(p.evidence.some(e=>e.rawText.includes('令和8年度以降')));assert.ok(p.evidence.some(e=>/^令和7年(?:11月12日|12月11日)$/.test(e.rawText)));}
 });
