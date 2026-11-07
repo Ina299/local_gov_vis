@@ -99,6 +99,9 @@ export function mergeSupplementalDataset(base:EvaluationDataset|null, incoming:E
     }
     let replay:ProjectEvaluation|undefined;const applied:string[]=[];
     for(const old of projects){
+      // Budget lines and evaluation sheets are different source records; never merge them by name alone.
+      if (!!old.initialBudget !== !!p.initialBudget) continue;
+      if (old.initialBudget && p.initialBudget && (old.initialBudget.fiscalYear !== p.initialBudget.fiscalYear || old.initialBudget.account !== p.initialBudget.account || old.initialBudget.category !== p.initialBudget.category || old.initialBudget.item !== p.initialBudget.item)) continue;
       const sameName=normalize(old.projectName)===normalize(p.projectName);
       const sameCode=old.projectCode!==null && p.projectCode!==null && normalize(old.projectCode)===normalize(p.projectCode);
       if(!sameName&&!sameCode)continue;

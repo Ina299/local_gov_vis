@@ -40,10 +40,11 @@ export function filterEvaluations(
   return projects.filter((project) => {
     if (filters.municipality && project.municipalityCode !== filters.municipality) return false;
     if (!matchesEvaluationYear(project.evaluationYear, filters.evaluationYear)) return false;
-    if (!matchesEvaluationYear(project.evaluatedFiscalYear, filters.fiscalYear)) return false;
+    if (!matchesEvaluationYear(project.initialBudget?.fiscalYear ?? project.evaluatedFiscalYear, filters.fiscalYear)) return false;
     if (!terms.length) return true;
     const text = normalizeSearch([
       project.projectName, project.projectCode, project.municipalityName, project.department,
+      project.initialBudget?.category, project.initialBudget?.item, project.initialBudget?.account,
       project.purpose, project.activities, project.outcomes,
       ...project.indicators.flatMap((indicator) => [indicator.name, indicator.target, indicator.actual]),
       ...project.ratings.flatMap((rating) => [rating.label, rating.value]),
@@ -124,6 +125,11 @@ function isEvidence(value: unknown): boolean {
     && isNullableString(value.sheet) && isNullableString(value.cell);
 }
 
+function isInitialBudget(value: unknown): boolean {
+  return value === undefined || (isRecord(value) && Number.isInteger(value.fiscalYear)
+    && ['account', 'category', 'item'].every(key => isString(value[key])));
+}
+
 /** Fail visibly on malformed assets rather than silently displaying incomplete/zero totals. */
 export function parseEvaluationDataset(value: unknown): EvaluationDataset {
   const valid = isRecord(value) && value.schemaVersion === 1 && isString(value.generatedAt)
@@ -137,6 +143,7 @@ export function parseEvaluationDataset(value: unknown): EvaluationDataset {
         && isNullableString(document.sha256) && isNullableString(document.fetchedAt)
         && isNumber(document.projectCount) && isString(document.message)))
     && isArrayOf(value.projects, (project) => isRecord(project)
+      && isInitialBudget(project.initialBudget)
       && ['id', 'municipalityCode', 'municipalityName', 'projectName'].every((key) => isString(project[key]))
       && ['projectCode', 'department', 'purpose', 'activities', 'outcomes'].every((key) => isNullableString(project[key]))
       && isNullableNumber(project.evaluationYear) && isNullableNumber(project.evaluatedFiscalYear)

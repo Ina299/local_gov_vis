@@ -43,6 +43,8 @@ export interface EvaluationRating {
 }
 
 export interface ProjectEvaluation {
+  /** Initial-budget line, separate from an evaluation sheet. Categories are not departments. */
+  initialBudget?: { fiscalYear: number; account: string; category: string; item: string };
   id: string;
   municipalityCode: string;
   municipalityName: string;

@@ -43,7 +43,8 @@ export function ProjectCostSankey({ projects, municipalityCode, municipalityName
   const [chosen, setChosen] = useState<number | null>(null);
   const fiscalYear = chosen !== null && years.some((y) => y.fiscalYear === chosen) ? chosen : defaultFlowYear(years);
   const year = years.find((y) => y.fiscalYear === fiscalYear) ?? null;
-  const layout = useMemo(() => (year ? costFlowLayout(year) : null), [year]);
+  const hasInitialBudget = kind === 'budget' && projects.some(p => p.initialBudget?.fiscalYear === fiscalYear);
+  const layout = useMemo(() => (year ? costFlowLayout(year, 10, 15, hasInitialBudget ? '款' : '部局') : null), [year, hasInitialBudget]);
   const [hover, setHover] = useState<{ key: string; x: number; y: number; text: string } | null>(null);
   // 収支図などから #evaluation-cost-flow 付きで来たとき、読み込み後に図の位置へ移る（ブラウザのアンカー移動は描画前で効かない）
   const sectionRef = useRef<HTMLElement>(null);
@@ -91,8 +92,10 @@ export function ProjectCostSankey({ projects, municipalityCode, municipalityName
         </label>
       </div>
       <p className="evaluation-muted">
-        {municipalityName}の評価資料から{kindLabel}を読み取れた{year.projects.length.toLocaleString()}事業の合計 {formatAmount(year.total)} を、所管の部局ごとに分けています。
-        <strong>歳出総額ではありません。</strong>収録できた事業だけの合計で、人件費等の別建ての費用は含みません。地図の収支図（款・項）とは別の集計で、対応関係はありません。
+        {hasInitialBudget ? <>{municipalityName}の当初予算書から読み取れた{year.projects.length.toLocaleString()}件（予備費を含む）、合計 {formatAmount(year.total)} を予算の款ごとに分けています。款は支出目的の分類です。</> : <>
+          {municipalityName}の評価資料から{kindLabel}を読み取れた{year.projects.length.toLocaleString()}事業の合計 {formatAmount(year.total)} を、所管の部局ごとに分けています。
+          <strong>歳出総額ではありません。</strong>収録できた事業だけの合計で、人件費等の別建ての費用は含みません。地図の収支図（款・項）とは別の集計で、対応関係はありません。
+        </>}
         {kind === 'budget' && <> 予算額は計画の値で、実際に使われた額（決算額）とは異なります。資料により当初予算・最終予算などの違いがあります。</>}
         {(year.conflicting > 0 || year.ambiguous > 0) && <> 同じ事業の再掲で金額が食い違う{year.conflicting}事業と、同じ年度の{kindLabel}が一つに決まらない{year.ambiguous}件は除いています。</>}
       </p>
@@ -161,9 +164,9 @@ ${formatAmount(context.total)}
         </div>}
       </div>
       <details className="evaluation-cost-flow-table">
-        <summary>表で見る（部局別・上位事業）</summary>
+        <summary>表で見る（{hasInitialBudget ? '款別' : '部局別'}・上位事業）</summary>
         <table>
-          <thead><tr><th scope="col">部局・事業</th><th scope="col">{kindLabel}</th><th scope="col">構成比</th><th scope="col">事業数</th></tr></thead>
+          <thead><tr><th scope="col">{hasInitialBudget ? '款' : '部局'}・事業</th><th scope="col">{kindLabel}</th><th scope="col">構成比</th><th scope="col">事業数</th></tr></thead>
           <tbody>
             {mids.map((m) => <tr key={m.key}><th scope="row">{m.label}</th><td>{formatAmount(m.amount)}</td><td>{share(m.amount)}</td><td>{m.count.toLocaleString()}</td></tr>)}
           </tbody>

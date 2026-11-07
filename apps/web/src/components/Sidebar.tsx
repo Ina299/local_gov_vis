@@ -1096,7 +1096,7 @@ export function Sidebar({
       </div>
 
       {flowOpen && selectedRegion.expenditures.length > 0 && (
-        <SankeyModal budget={selectedRegion} onClose={() => onFlowOpenChange(false)} />
+        <SankeyModal budget={selectedRegion} yearlyBudgets={yearlyBudgets} onClose={() => onFlowOpenChange(false)} />
       )}
       {budgetComparisonOpen && selectedRegion.expenditures.length > 0 && (
         <BudgetComparisonModal

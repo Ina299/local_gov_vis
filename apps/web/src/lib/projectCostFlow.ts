@@ -35,7 +35,7 @@ export function departmentGroup(department: string | null): string {
 
 /** 決算額（actual）または予算額（budget）が年度ごとに 1 つに決まる事業だけを、事業名＋所管で重複なく集計する */
 export function costFlowYears(projects: ProjectEvaluation[], minimumProjects = 5, kind: FlowKind = 'actual'): CostFlowYear[] {
-  const byYear = new Map<number, Map<string, { name: string; department: string; amounts: Set<number>; records: number }>>();
+  const byYear = new Map<number, Map<string, { name: string; department: string; group: string; amounts: Set<number>; records: number }>>();
   const ambiguous = new Map<number, number>();
   for (const p of projects) {
     const perYear = new Map<number, Set<number>>();
@@ -46,9 +46,10 @@ export function costFlowYears(projects: ProjectEvaluation[], minimumProjects = 5
     for (const [year, values] of Array.from(perYear)) {
       if (values.size > 1) { ambiguous.set(year, (ambiguous.get(year) ?? 0) + 1); continue; }
       const department = p.department?.trim() || '';
-      const key = `${norm(p.projectName)}\u0000${norm(department)}`;
+      const group = p.initialBudget ? `${p.initialBudget.category}（款）` : departmentGroup(department || null);
+      const key = p.initialBudget ? `initial:${p.initialBudget.account}:${p.initialBudget.category}:${p.initialBudget.item}:${norm(p.projectName)}` : `${norm(p.projectName)}\u0000${norm(department)}`;
       const year_ = byYear.get(year) ?? new Map();
-      const entry = year_.get(key) ?? { name: p.projectName, department, amounts: new Set<number>(), records: 0 };
+      const entry = year_.get(key) ?? { name: p.projectName, department, group, amounts: new Set<number>(), records: 0 };
       entry.amounts.add(Array.from(values)[0]); entry.records += 1;
       year_.set(key, entry); byYear.set(year, year_);
     }
@@ -58,7 +59,7 @@ export function costFlowYears(projects: ProjectEvaluation[], minimumProjects = 5
     const flow: FlowProject[] = []; let conflicting = 0;
     for (const [key, e] of Array.from(entries)) {
       if (e.amounts.size > 1) { conflicting++; continue; }
-      flow.push({ key, name: e.name, department: e.department || '所管不明', group: departmentGroup(e.department || null), amount: Array.from(e.amounts)[0], records: e.records });
+      flow.push({ key, name: e.name, department: e.department || '所管不明', group: e.group, amount: Array.from(e.amounts)[0], records: e.records });
     }
     if (flow.length < minimumProjects) continue;
     flow.sort((a, b) => b.amount - a.amount || a.name.localeCompare(b.name, 'ja'));
@@ -93,7 +94,7 @@ export function budgetContext(recordedTotal: number, totalExpenditure: number | 
 }
 
 /** 上位の部局・事業だけを個別に出し、残りは「その他」にまとめた 3 列のサンキー配置 */
-export function costFlowLayout(year: CostFlowYear, maxGroups = 10, maxProjects = 15): FlowLayout {
+export function costFlowLayout(year: CostFlowYear, maxGroups = 10, maxProjects = 15, groupLabel = '部局'): FlowLayout {
   const groupTotals = new Map<string, { amount: number; count: number }>();
   for (const p of year.projects) {
     const g = groupTotals.get(p.group) ?? { amount: 0, count: 0 };
@@ -101,7 +102,7 @@ export function costFlowLayout(year: CostFlowYear, maxGroups = 10, maxProjects =
   }
   const rankedGroups = Array.from(groupTotals).sort((a, b) => b[1].amount - a[1].amount || a[0].localeCompare(b[0], 'ja'));
   const shownGroups = new Set(rankedGroups.slice(0, maxGroups).map(([g]) => g));
-  const groupOf = (p: FlowProject) => shownGroups.has(p.group) ? p.group : 'その他の部局';
+  const groupOf = (p: FlowProject) => shownGroups.has(p.group) ? p.group : `その他の${groupLabel}`;
   const shownProjects = new Set(year.projects.slice(0, maxProjects).map(p => p.key));
 
   // 右列: 上位事業（個別）＋ 部局ごとの「その他の事業」
@@ -120,7 +121,7 @@ export function costFlowLayout(year: CostFlowYear, maxGroups = 10, maxProjects =
     const node = middle.get(g) ?? { key: `g:${g}`, label: g, amount: 0, count: 0, column: 1 as const, y: 0, h: 0 };
     node.amount += p.amount; node.count++; middle.set(g, node);
   }
-  const mids = Array.from(middle.values()).sort((a, b) => (a.label === 'その他の部局' ? 1 : 0) - (b.label === 'その他の部局' ? 1 : 0) || b.amount - a.amount);
+  const mids = Array.from(middle.values()).sort((a, b) => (a.label === `その他の${groupLabel}` ? 1 : 0) - (b.label === `その他の${groupLabel}` ? 1 : 0) || b.amount - a.amount);
   // 右列は部局の並びに沿って、部局内では金額順（「その他の事業」は各部局の末尾）
   const order = new Map(mids.map((m, i) => [m.label, i]));
   const rights = Array.from(right.values()).sort((a, b) => {
@@ -142,7 +143,7 @@ export function costFlowLayout(year: CostFlowYear, maxGroups = 10, maxProjects =
   for (const m of mids) { ribbons.push({ key: `root>${m.key}`, from: 'root', to: m.key, amount: m.amount, y0: ry, y1: m.y, h: m.h }); ry += m.h; }
   const outY = new Map(mids.map(m => [m.label, m.y])); const inY = new Map(rights.map(r => [r.key, r.y]));
   for (const r of rights) for (const m of mids) {
-    const amount = links.get(`${m.label} ${r.key}`); if (!amount) continue;
+    const amount = links.get(`${m.label}\u0000${r.key}`); if (!amount) continue;
     const h = amount * unit;
     ribbons.push({ key: `${m.key}>${r.key}`, from: m.key, to: r.key, amount, y0: outY.get(m.label)!, y1: inY.get(r.key)!, h });
     outY.set(m.label, outY.get(m.label)! + h); inY.set(r.key, inY.get(r.key)! + h);

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "import:komoro-budget": "node --import tsx src/import-komoro-budget.ts",
     "import:dashboard": "tsx src/import-dashboard.ts",
     "import:municipal": "tsx src/import-municipal.ts && tsx src/import-yomi.ts",
     "import:yomi": "tsx src/import-yomi.ts",

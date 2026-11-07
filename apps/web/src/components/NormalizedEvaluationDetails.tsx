@@ -130,8 +130,13 @@ export function ProjectCard({ project, defaultOpen = false }: { project: Project
       </div>
       <h3>{project.projectName}</h3>
       <div className="evaluation-project-meta">
-        <span><strong>評価年度（資料表記）</strong> {formatEvaluationYear(project.evaluationYear)}</span>
-        <span><strong>評価対象年度</strong> {formatEvaluationYear(project.evaluatedFiscalYear)}</span>
+        {project.initialBudget ? <>
+          <span><strong>当初予算</strong> {project.initialBudget.fiscalYear}年度 {project.initialBudget.account}</span>
+          <span><strong>款・項</strong> {project.initialBudget.category}・{project.initialBudget.item}</span>
+        </> : <>
+          <span><strong>評価年度（資料表記）</strong> {formatEvaluationYear(project.evaluationYear)}</span>
+          <span><strong>評価対象年度</strong> {formatEvaluationYear(project.evaluatedFiscalYear)}</span>
+        </>}
         <span><strong>担当</strong> {project.department || '記載なし・未取得'}</span>
         {project.projectCode !== null && <span><strong>事業番号</strong> {project.projectCode}</span>}
       </div>
@@ -260,7 +265,7 @@ export function MunicipalityEvaluations({ entry, loader, refreshIndex }: {
     ...(dataset?.projects.map((project) => project.evaluationYear) ?? []),
     ...(dataset?.sources.map((source) => source.evaluationYear) ?? []),
   ]), [dataset]);
-  const fiscalYears = useMemo(() => evaluationYearOptions(dataset?.projects.map((project) => project.evaluatedFiscalYear) ?? []), [dataset]);
+  const fiscalYears = useMemo(() => evaluationYearOptions(dataset?.projects.map((project) => project.initialBudget?.fiscalYear ?? project.evaluatedFiscalYear) ?? []), [dataset]);
   const projects = useMemo(() => dataset ? filterEvaluations(dataset.projects, filters) : [], [dataset, filters]);
   const sources = useMemo(() => dataset ? filterEvaluationSources(dataset.sources, filters) : [], [dataset, filters]);
   const clearSearch = () => { setQuery(''); setEvaluationYear(''); setFiscalYear(''); };
@@ -278,7 +283,7 @@ export function MunicipalityEvaluations({ entry, loader, refreshIndex }: {
           <input type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="事業名、担当課、目的、成果など" />
         </label>
         <label>評価年度（資料表記）<select value={evaluationYear} onChange={(event) => setEvaluationYear(event.target.value)}><option value="">すべての年度</option>{evaluationYears.map((year) => <option key={year} value={year}>{year === 'unknown' ? '年度不明' : `${year}年度`}</option>)}</select></label>
-        <label>評価対象年度<select value={fiscalYear} onChange={(event) => setFiscalYear(event.target.value)}><option value="">すべての年度</option>{fiscalYears.map((year) => <option key={year} value={year}>{year === 'unknown' ? '年度不明' : `${year}年度`}</option>)}</select></label>
+        <label>対象年度<select value={fiscalYear} onChange={(event) => setFiscalYear(event.target.value)}><option value="">すべての年度</option>{fiscalYears.map((year) => <option key={year} value={year}>{year === 'unknown' ? '年度不明' : `${year}年度`}</option>)}</select></label>
         <p className="evaluation-filter-help">この検索は選択中の自治体のみが対象です。他自治体の事業は取得・検索しません。空欄・未取得はゼロや低評価を意味せず、年度が読み取れない資料は「年度不明」と表示します。</p>
       </form>
       <ProjectCostSankey projects={dataset.projects} municipalityCode={entry.municipalityCode} municipalityName={entry.municipalityName} onSelectProject={(name) => {

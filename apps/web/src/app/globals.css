@@ -2392,3 +2392,23 @@ a.text-button {
 .evaluation-key-facts dd { margin: 0; font-size: 1.05rem; font-weight: 600; color: #1a1a2e; }
 .evaluation-warning-details > summary { cursor: pointer; color: #536879; font-size: .83rem; margin: 6px 0; }
 .evaluation-panel-link { margin: 0 0 6px; text-align: left; }
+.year-changes { padding: 12px 0; }
+.year-change-controls { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 16px; }
+.year-change-controls label { display: flex; align-items: center; gap: 6px; font-size: 13px; }
+.year-change-controls select { padding: 8px; border: 1px solid #d8d6cf; border-radius: 6px; background: #fff; color: #1a1a2e; }
+.year-change-scroll { overflow-x: auto; margin: 16px 0; }
+.year-change-table { width: 100%; min-width: 560px; border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; }
+.year-change-table caption { text-align: left; font-weight: 600; padding: 0 0 12px; }
+.year-change-table th, .year-change-table td { padding: 11px 12px; border-bottom: 1px solid #e7e9ec; text-align: right; white-space: nowrap; }
+.year-change-table th:first-child { text-align: left; white-space: normal; min-width: 130px; }
+.year-change-table thead, .year-change-total { background: #f3f4f6; font-weight: 600; }
+.year-change-increase { color: #a64216; }
+.year-change-decrease { color: #17629c; }
+.year-change-empty { padding: 24px 12px; background: #f3f4f6; border-radius: 6px; }
+@media (max-width: 700px) {
+  .sankey-modal-head { flex-wrap: wrap; gap: 10px; }
+  .sankey-modal-head .modal-head-actions { width: 100%; flex-wrap: wrap; gap: 8px; }
+  .sankey-modal-head .modal-close { margin-left: auto; }
+  .sankey-modal-head .comparison-segmented button { padding: 8px 10px; font-size: 12px; }
+  .year-change-controls { gap: 8px; }
+}

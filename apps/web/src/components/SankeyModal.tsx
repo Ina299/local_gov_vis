@@ -6,6 +6,7 @@ import { formatAmount } from '@/lib/format';
 import { dataUrl } from '@/lib/paths';
 import { evaluationEntryHref } from '@/lib/evaluationCoverage';
 import { EvaluationCostFlowPanel } from './EvaluationCostFlowPanel';
+import { BudgetYearChanges } from './BudgetYearChanges';
 import { GLOSSARY } from '@/lib/glossary';
 import { loadAverages, type BudgetAverages } from '@/lib/averages';
 import { MobileFlowMosaic } from '@/components/MobileFlowMosaic';
@@ -22,12 +23,13 @@ import {
 
 interface SankeyModalProps {
   budget: LocalGovBudget;
+  yearlyBudgets: LocalGovBudget[];
   onClose: () => void;
 }
 
 
 /** 歳入内訳 → 財源区分（一般・特定） → 歳出（款） → 歳出（項）の資金フロー図 */
-export function SankeyModal({ budget, onClose }: SankeyModalProps) {
+export function SankeyModal({ budget, yearlyBudgets, onClose }: SankeyModalProps) {
   useEffect(() => {
     const handle = (e: KeyboardEvent) => {
       if (e.key === 'Escape') onClose();
@@ -158,7 +160,7 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
   const hasCostFlow = budget.evaluationCoverage?.level === 0;
   const evaluationUrl = dataUrl(evaluationEntryHref(budget.code, budget.evaluationCoverage));
   // 事業コストの流れがある自治体は、収支図と同じモーダルの中でタブで切り替える
-  const [tab, setTab] = useState<'flow' | 'projects'>('flow');
+  const [tab, setTab] = useState<'flow' | 'projects' | 'changes'>('flow');
 
   return (
     <div className="modal-overlay" onClick={onClose}>
@@ -171,19 +173,19 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
         aria-label={`${budget.name} 収支図`}
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="modal-head">
+        <div className="modal-head sankey-modal-head">
           <h3>
             {budget.code.length === 5 ? `${budget.prefecture} ` : ''}
-            {budget.name} {tab === 'flow' ? '収支図' : '事務事業評価'}
+            {budget.name} {tab === 'flow' ? '収支図' : tab === 'changes' ? '年度増減' : '事務事業評価'}
           </h3>
           <div className="modal-head-actions">
-            {hasCostFlow ? (
-              <div className="comparison-segmented" role="tablist" aria-label="表示する図">
+              <div className="comparison-segmented" role="tablist" aria-label="表示内容">
                 <button type="button" role="tab" aria-selected={tab === 'flow'} className={tab === 'flow' ? 'active' : ''} onClick={() => setTab('flow')}>収支図</button>
-                <button type="button" role="tab" aria-selected={tab === 'projects'} className={tab === 'projects' ? 'active' : ''} onClick={() => setTab('projects')}
-                  title="評価資料から読み取れた事業ごとの金額を、部局別にたどる図。予算の款・項と個別事業は自動で対応付けません">事務事業評価</button>
+                <button type="button" role="tab" aria-selected={tab === 'changes'} className={tab === 'changes' ? 'active' : ''} onClick={() => setTab('changes')}>年度増減</button>
+                {hasCostFlow && <button type="button" role="tab" aria-selected={tab === 'projects'} className={tab === 'projects' ? 'active' : ''} onClick={() => setTab('projects')}
+                  title="評価資料から読み取れた事業ごとの金額を、部局別にたどる図。予算の款・項と個別事業は自動で対応付けません">事務事業評価</button>}
               </div>
-            ) : (
+            {!hasCostFlow && (
               <a className="text-button" href={evaluationUrl}
                 title="この自治体の事務事業評価と資料の取得状況を確認します。予算の款・項と個別事業は自動で対応付けません">
                 事務事業評価を読む →
@@ -194,7 +196,9 @@ export function SankeyModal({ budget, onClose }: SankeyModalProps) {
             </button>
           </div>
         </div>
-        {tab === 'projects' ? (
+        {tab === 'changes' ? (
+          <BudgetYearChanges key={`${budget.code}-${budget.fiscalYear}`} budget={budget} yearlyBudgets={yearlyBudgets} />
+        ) : tab === 'projects' ? (
           <EvaluationCostFlowPanel code={budget.code} name={budget.name} coverage={budget.evaluationCoverage} />
         ) : (
           <>
