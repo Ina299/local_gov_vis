@@ -29,6 +29,7 @@ export type MapMetricKey =
   | 'foreignRatio'
   | 'births'
   | 'regionalReproductionRate'
+  | 'totalFertilityRate'
   | 'populationChange'
   | 'foreignBirthRatio'
   | 'fiscalIndex'
@@ -108,6 +109,7 @@ export interface MetricDef {
   yearIndependent?: boolean;
   /** yearIndependent の指標で、年度の欄に出す年（例: 配分年度 2026）。無ければ選択中の年度をそのまま出す */
   asOf?: number;
+  asOfLabel?: string;
   /**
    * 同じデータの見方違い（配分額／前年度比／要確認度など）をヘッダーで 1 つのボタンにまとめ、
    * 選んだときだけ下の段に見方の切替を出す。key が同じ指標が 1 つの組
@@ -286,8 +288,16 @@ export const METRICS: MetricDef[] = [
     kind: 'index',
     category: 'population',
     description:
-      '年齢別出生率と、出生から再生産年齢まで地域に残る累積残存率を統合した地域人口再生産率（RRR）。1が現在の出生・死亡・人口移動の下で世代交代を維持できる水準。厚労省 人口動態保健所・市区町村別統計（出生率: 2018〜2022年）／総務省 住民基本台帳人口（残存率: 2020〜2025年）。小規模自治体は人口移動による振れが大きい',
+      '地域人口再生産率（RRR）の年度別推計。年度YはY−4年1月1日からY＋1年1月1日の日本人女性の5年コーホート残存率を使用（例：2024年度は2020→2025年）。年齢別出生率は2018〜2022年のベイズ推定値を全年度で固定しており、年度差は人口の残存・移動の変化を表す。単年の出生率ではない。1が世代交代の維持水準。小規模自治体では人口移動による振れが大きい。出典：総務省住民基本台帳、厚労省人口動態保健所・市区町村別統計',
+  },
+  {
+    key: 'totalFertilityRate',
+    label: '合計特殊出生率',
+    kind: 'index',
+    category: 'population',
+    description: '女性1人が生涯に産む子どもの数に相当する合計特殊出生率。厚労省「人口動態保健所・市区町村別統計」2018〜2022年のベイズ推定値。単年値ではなく5年間の期間指標。人口移動は含まない。',
     yearIndependent: true,
+    asOfLabel: '2018〜2022年',
   },
   {
     key: 'foreignRatio',
@@ -868,6 +878,7 @@ export function metricValue(
     key === 'foreignRatio' ||
     key === 'births' ||
     key === 'regionalReproductionRate' ||
+    key === 'totalFertilityRate' ||
     key === 'populationChange' ||
     key === 'foreignBirthRatio'
   ) {

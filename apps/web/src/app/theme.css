@@ -229,7 +229,10 @@ select {
   }
 }
 
+.year-select { width: 156px; flex: 0 0 156px; }
 .year-select select {
+  width: 100%;
+  font-variant-numeric: tabular-nums;
   min-height: 36px;
   padding: 0 32px 0 var(--sp-2);
   border: 1px solid rgba(255, 255, 255, 0.28);
@@ -252,7 +255,7 @@ select {
   font-weight: var(--fw-medium);
   cursor: default;
   background-image: none;
-  padding-right: var(--sp-2);
+  padding-right: 32px;
 }
 
 /* ---------- 地図の上の部品 ---------- */

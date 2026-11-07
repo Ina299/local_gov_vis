@@ -776,7 +776,7 @@ export default function Home({ initialView = 'map' }: HomeProps) {
             ) : yearIndependent ? (
               <div className="year-select year-select--fixed" title="この指標は年度によらない値です（表示は値の年）">
                 <select aria-label="年度" value="fixed" disabled>
-                  <option value="fixed">{metricDef(metricKey).asOf ?? year}年度</option>
+                  <option value="fixed">{metricDef(metricKey).asOfLabel ?? `${metricDef(metricKey).asOf ?? year}年度`}</option>
                 </select>
               </div>
             ) : (

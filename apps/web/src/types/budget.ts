@@ -75,6 +75,8 @@ export interface Demographics {
    * 年齢別出生率と人口移動を含む累積残存率から算出し、1が世代交代の維持水準
    */
   regionalReproductionRate?: number;
+  /** 2018〜2022年の合計特殊出生率（ベイズ推定値）。年度によらない期間指標。 */
+  totalFertilityRate?: number;
 }
 
 /**

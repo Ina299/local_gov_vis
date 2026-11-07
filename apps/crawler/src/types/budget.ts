@@ -63,6 +63,8 @@ export interface Demographics {
    * 1が、現在の出生・死亡・人口移動の下で世代交代を維持できる水準
    */
   regionalReproductionRate?: number;
+  /** 2018〜2022年の合計特殊出生率（ベイズ推定値）。年度によらない期間指標。 */
+  totalFertilityRate?: number;
 }
 
 /**

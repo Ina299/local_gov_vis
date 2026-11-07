@@ -17,7 +17,7 @@
  *   地域人口再生産率（RRR）:
  *     - 厚生労働省「平成30年～令和4年 人口動態保健所・市区町村別統計」
  *       （母の年齢階級別出生率・ベイズ推定値）
- *     - 総務省「住民基本台帳に基づく人口」2020年・2025年の女性年齢階級別人口
+ *     - 総務省「住民基本台帳に基づく人口」2016〜2025年の日本人女性年齢階級別人口（年度YはY−4→Y＋1年）
  *     地域人口再生産率（廣嶋2011）の定義に従い、純再生産率の生存率を
  *     人口移動を含む年齢別累積残存率に置き換えて算出する。
  *     定義のレビュー: 丸山洋平（2023）「マクロ統計データの組み合わせによる
@@ -35,6 +35,7 @@ import { constants as cryptoConstants } from 'crypto';
 import * as XLSX from 'xlsx';
 import { parse } from 'csv-parse/sync';
 import type { LocalGovBudget, Demographics } from './types/budget.js';
+import { loadReproductionData } from './demographics/reproduction';
 
 /** e-Stat 住基4表のstatInfId。キーは対応する予算年度（値はその翌年1月1日時点の版） */
 const JUKI_TABLES: Record<
@@ -74,14 +75,6 @@ const JUKI_TABLES: Record<
     foreignDynamics: '000040306688',
   },
 };
-
-/** RRRの累積残存率を作る5年間の始点（2020年1月1日） */
-const RRR_BASE_AGE_TABLE = '000031971233'; // 20-08 日本人住民
-const RRR_END_AGE_TABLE = '000040306662'; // 25-08 日本人住民
-/** 2018～2022年の市区町村別・母の年齢階級別出生率（ベイズ推定値） */
-const RRR_FERTILITY_TABLE = '000040174881';
-/** 出生性比を女児100：男児105として女児割合へ変換 */
-const FEMALE_BIRTH_SHARE = 100 / 205;
 
 // fileKind=0 はExcel
 const estatUrl = (statInfId: string) =>
@@ -177,99 +170,6 @@ function parseJuki(buf: Buffer): Map<string, AgePopulation> {
       total,
       elderly: sumRange(row, ELDERLY_START, AGE_COL_END),
     });
-  }
-  return result;
-}
-
-/** 0～4歳から45～49歳までの日本人女性人口（5歳階級） */
-type FemaleAges = number[];
-
-function parseFemaleAges(buf: Buffer): Map<string, FemaleAges> {
-  const wb = XLSX.read(buf);
-  const rows: unknown[][] = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]], {
-    header: 1,
-  });
-  const result = new Map<string, FemaleAges>();
-  for (const row of rows) {
-    const rawCode = String(row[0] ?? '');
-    if (!/^\d{6}$/.test(rawCode) || row[3] !== '女') continue;
-    const isPref = row[2] === '-' || row[2] === '' || row[2] == null;
-    const code = isPref ? rawCode.slice(0, 2) : rawCode.slice(0, 5);
-    const ages = row.slice(5, 15);
-    if (ages.length !== 10 || !ages.every((value) => typeof value === 'number')) continue;
-    result.set(code, ages as number[]);
-  }
-  return result;
-}
-
-/** 15～19歳から45～49歳までの女性人口千対出生率（ベイズ推定値） */
-function parseBayesianFertilityRates(buf: Buffer): Map<string, number[]> {
-  const wb = XLSX.read(buf);
-  const rows: unknown[][] = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]], {
-    header: 1,
-  });
-  const result = new Map<string, number[]>();
-  const numberValue = (value: unknown): number | null => {
-    if (typeof value === 'number') return value;
-    const parsed = Number(String(value ?? '').replace('*', '').trim());
-    return Number.isFinite(parsed) ? parsed : null;
-  };
-  for (const row of rows) {
-    const label = String(row[0] ?? '').trim();
-    const match = label.match(/^(\d{5}|\d{2})/);
-    if (!match) continue; // 全国・保健所（4桁）を除外
-    const rates = row.slice(2, 9).map(numberValue);
-    if (rates.length !== 7 || rates.some((value) => value === null)) continue;
-    result.set(match[1], rates as number[]);
-  }
-  return result;
-}
-
-/**
- * 地域人口再生産率（RRR）を算出する。
- *
- * 2020→2025年の同一女性コーホート人口比を年齢順に累積した「累積残存率」は、
- * 生存だけでなく転出入も含む。通常の純再生産率の生存率をこの残存率に置き換え、
- * 2018～2022年の年齢別出生率（5歳階級）を適用する。
- */
-function buildRegionalReproductionRates(
-  female2020: Map<string, FemaleAges>,
-  female2025: Map<string, FemaleAges>,
-  fertilityRates: Map<string, number[]>
-): Map<string, number> {
-  const result = new Map<string, number>();
-  for (const [code, rates] of fertilityRates) {
-    const base = female2020.get(code);
-    const end = female2025.get(code);
-    if (!base || !end) continue;
-
-    let cumulativeRetention = 1;
-    const retentionByAge: number[] = [1];
-    let valid = true;
-    // 2020年の0～4歳が2025年の5～9歳になる同一コーホートの比を順次累積
-    for (let ageIndex = 1; ageIndex < 10; ageIndex++) {
-      const denominator = base[ageIndex - 1];
-      if (denominator <= 0) {
-        valid = false;
-        break;
-      }
-      cumulativeRetention *= end[ageIndex] / denominator;
-      retentionByAge.push(cumulativeRetention);
-    }
-    if (!valid) continue;
-
-    let rrr = 0;
-    for (let fertilityIndex = 0; fertilityIndex < rates.length; fertilityIndex++) {
-      const ageIndex = fertilityIndex + 3; // 15～19歳は年齢人口配列のindex 3
-      rrr +=
-        5 *
-        (rates[fertilityIndex] / 1000) *
-        FEMALE_BIRTH_SHARE *
-        retentionByAge[ageIndex];
-    }
-    if (Number.isFinite(rrr) && rrr >= 0) {
-      result.set(code, Math.round(rrr * 10000) / 10000);
-    }
   }
   return result;
 }
@@ -425,19 +325,7 @@ const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 async function main() {
   const area = parseMencho(await fetchBufferLegacyTls(MENCHO_URL));
 
-  // RRRは全年度共通の期間指標。2020→2025年の女性コーホート残存率と
-  // 2018～2022年の年齢階級別出生率を組み合わせる
-  const [baseJapaneseBuf, endJapaneseBuf, fertilityBuf] = await Promise.all([
-    fetchEstatBuffer(RRR_BASE_AGE_TABLE),
-    fetchEstatBuffer(RRR_END_AGE_TABLE),
-    fetchEstatBuffer(RRR_FERTILITY_TABLE),
-  ]);
-  const regionalReproductionRates = buildRegionalReproductionRates(
-    parseFemaleAges(baseJapaneseBuf),
-    parseFemaleAges(endJapaneseBuf),
-    parseBayesianFertilityRates(fertilityBuf)
-  );
-  console.log(`地域人口再生産率（RRR）: ${regionalReproductionRates.size}団体`);
+  const reproduction = await loadReproductionData(fetchEstatBuffer);
 
   // 年度ごとに住基4表を取得してdemographicsを組み立てる（年度間は1秒空ける）
   const demographicsByYear = new Map<number, Map<string, Demographics>>();
@@ -464,9 +352,13 @@ async function main() {
         totalDynamics,
         foreignDynamics,
         area,
-        regionalReproductionRates
+        reproduction.byYear.get(Number(year))!
       )
     );
+    for (const [code, d] of demographicsByYear.get(Number(year))!) {
+      const tfr = reproduction.fertility.get(code);
+      if (tfr !== undefined) d.totalFertilityRate = tfr;
+    }
     await sleep(1000);
   }
   console.log(`面積: ${area.size}団体`);

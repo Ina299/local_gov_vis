@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "update:reproduction": "tsx src/update-reproduction.ts && tsx src/build-municipal-all.ts",
     "import:komoro-budget": "node --import tsx src/import-komoro-budget.ts",
     "import:dashboard": "tsx src/import-dashboard.ts",
     "import:municipal": "tsx src/import-municipal.ts && tsx src/import-yomi.ts",

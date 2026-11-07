@@ -24,6 +24,7 @@ const budget: LocalGovBudget = {
     foreignRatio: 0.0515,
     births: 89_000,
     regionalReproductionRate: 0.81,
+    totalFertilityRate: 1.6,
     populationChange: 91_000,
     foreignBirthRatio: 0.0473,
   },
@@ -64,6 +65,8 @@ describe('metricValue', () => {
     expect(metricValue(budget, 'elderlyRatio', 'total')).toBe(0.2248);
     expect(metricValue(budget, 'births', 'total')).toBe(89_000);
     expect(metricValue(budget, 'regionalReproductionRate', 'total')).toBe(0.81);
+    expect(metricValue(budget, 'totalFertilityRate', 'total')).toBe(1.6);
+    expect(formatMetricValue(1.6, 'totalFertilityRate')).toBe('1.60');
     expect(metricValue(budget, 'populationChange', 'total')).toBe(91_000);
     expect(metricValue(budget, 'foreignBirthRatio', 'total')).toBe(0.0473);
   });
@@ -141,6 +144,7 @@ describe('カテゴリ定義', () => {
       'elderlyRatio',
       'births',
       'regionalReproductionRate',
+      'totalFertilityRate',
       'foreignRatio',
       'foreignBirthRatio',
       'populationChange',
@@ -291,7 +295,8 @@ describe('カテゴリ定義', () => {
     ] as const) {
       expect(metricDef(key).yearIndependent).toBeUndefined();
     }
-    expect(metricDef('regionalReproductionRate').yearIndependent).toBe(true);
+    expect(metricDef('regionalReproductionRate').yearIndependent).toBeUndefined();
+    expect(metricDef('totalFertilityRate').yearIndependent).toBe(true);
     expect(metricDef('expenditure').yearIndependent).toBeUndefined();
   });
 
