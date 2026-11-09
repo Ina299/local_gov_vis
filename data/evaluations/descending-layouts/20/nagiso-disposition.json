@@ -1,0 +1,490 @@
+[
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 41440,
+    "title": "メンタルヘルス支援事業の実施",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 54781,
+    "title": "集会所修繕事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 69470,
+    "title": "辺地対策事業債",
+    "status": "not_project",
+    "reason": "Debt category, not an individual business.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 69482,
+    "title": "過疎対策事業債",
+    "status": "not_project",
+    "reason": "Debt category, not an individual business.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 69908,
+    "title": "公有林整備事業債",
+    "status": "not_project",
+    "reason": "Debt category, not an individual business.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 90256,
+    "title": "南木曽町低所得者支援及び定額減税補足給付金（調整給付）事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 98798,
+    "title": "南木曽町地域づくり支援事業補助金",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 105907,
+    "title": "地域発元気づくり支援 金事業（長野県事業）",
+    "status": "external_role_hold",
+    "reason": "Explicit prefecture project; local contribution must be separately identified before assigning a municipal project.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 106362,
+    "title": "補助事業等つなぎ資金貸付",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 109683,
+    "title": "木曽広域ケーブルテレビ整備事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 110560,
+    "title": "コミュニテイ助成事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 110655,
+    "title": "電源立地地域対策交付金事業",
+    "status": "funding_not_project",
+    "reason": "Electric-power grant allocation is a funding mechanism; the two beneficiary projects require independent child identity/dedup review.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 110965,
+    "title": "リニア中央新幹線事業への対応",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 118139,
+    "title": "農泊推進事業（南木曽「ウェルネス農泊」推進協議会）",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 119235,
+    "title": "テレワーク施設運営事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 119623,
+    "title": "チャレンジナガノ官民連携事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 141595,
+    "title": "各種交付事業",
+    "status": "layout_review",
+    "reason": "Umbrella funding/account/activity section: review children and duplicates before creating individual records.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 145299,
+    "title": "地域支援事業",
+    "status": "layout_review",
+    "reason": "Umbrella funding/account/activity section: review children and duplicates before creating individual records.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 147718,
+    "title": "地域支援事業・包括的支援事業（地域包括支援センターの運営）",
+    "status": "layout_review",
+    "reason": "Umbrella funding/account/activity section: review children and duplicates before creating individual records.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 166890,
+    "title": "高齢者の保健事業と介護予防の一体的実施事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 180390,
+    "title": "事業の実績",
+    "status": "statistics_not_project",
+    "reason": "Section is parking operation statistics; this generic heading is not an individual project name.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 189023,
+    "title": "町単小規模修繕事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 189138,
+    "title": "農地農業用施設災害復旧事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 189353,
+    "title": "県単緊急農地防災事業",
+    "status": "external_role_hold",
+    "reason": "Explicit prefecture project; local contribution must be separately identified before assigning a municipal project.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 189476,
+    "title": "小水力利活用促進事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 190017,
+    "title": "南木曽町耕作条件改善事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 190298,
+    "title": "国土調査事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 191556,
+    "title": "多面的機能支払交付金事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 192055,
+    "title": "かんがい用水路改良事業",
+    "status": "layout_review",
+    "reason": "Umbrella funding/account/activity section: review children and duplicates before creating individual records.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 192214,
+    "title": "災害復旧事業関係",
+    "status": "parent_child_identity_hold",
+    "reason": "Disaster funding table repeats agricultural restoration already selected; national/municipal funding rows are not additional projects without independent identity.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 195712,
+    "title": "林道開設・改良等事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 195863,
+    "title": "カモシカ対策事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 196043,
+    "title": "森林病害虫等防除対策事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 196363,
+    "title": "有害鳥獣駆除事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 196984,
+    "title": "治山事業（県事業）",
+    "status": "external_role_hold",
+    "reason": "Explicit prefecture project; local contribution must be separately identified before assigning a municipal project.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 197219,
+    "title": "災害復旧事業",
+    "status": "generic_name_hold",
+    "reason": "Generic disaster restoration heading overlaps funding tables; require exact project identity to avoid duplicating detailed road works.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 197943,
+    "title": "町有林造成事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 198304,
+    "title": "林道開設・改良・維持事業",
+    "status": "alias_identity_hold",
+    "reason": "Road expenditure table overlaps 林道開設・改良等事業; preserve both raw labels without creating an assumed second project.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 199002,
+    "title": "カモシカ対策事業",
+    "status": "duplicate_evidence",
+    "reason": "Same annual name repeated in expenditure table; not another business.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 199249,
+    "title": "森林病害虫等防除対策事業",
+    "status": "duplicate_evidence",
+    "reason": "Same annual name repeated in expenditure table; not another business.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 199760,
+    "title": "有害鳥獣駆除事業",
+    "status": "duplicate_evidence",
+    "reason": "Same annual name repeated in expenditure table; not another business.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 201387,
+    "title": "治山事業費",
+    "status": "external_role_hold",
+    "reason": "Explicit prefecture project; local contribution must be separately identified before assigning a municipal project.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 226005,
+    "title": "セカンドブック・サードブック事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 230257,
+    "title": "南木曽町公民館事業",
+    "status": "layout_review",
+    "reason": "Umbrella funding/account/activity section: review children and duplicates before creating individual records.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 232238,
+    "title": "教育委員会事業関係",
+    "status": "layout_review",
+    "reason": "Umbrella funding/account/activity section: review children and duplicates before creating individual records.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 235707,
+    "title": "その他の事業",
+    "status": "layout_review",
+    "reason": "Umbrella funding/account/activity section: review children and duplicates before creating individual records.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 244015,
+    "title": "町指定文化財等保護事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 244949,
+    "title": "街なみ環境整備事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 246239,
+    "title": "妻籠宿保存事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 247085,
+    "title": "重要伝統的建造物群保存地区保存事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 247419,
+    "title": "その他保存事業関連",
+    "status": "not_project",
+    "reason": "Other-preservation heading reports no notable World Heritage activity; no individual business name.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 257230,
+    "title": "被保険者等の推移（各年度３月31日現在）※事業月報A表",
+    "status": "not_project",
+    "reason": "Population/subscriber statistics, not individual business identity.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 257422,
+    "title": "被保険者異動状況（令和７年３月31日現在）※事業年報A表",
+    "status": "not_project",
+    "reason": "Population/subscriber statistics, not individual business identity.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 265057,
+    "title": "保健事業",
+    "status": "layout_review",
+    "reason": "Umbrella funding/account/activity section: review children and duplicates before creating individual records.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 265792,
+    "title": "高額療養費貸付事業",
+    "status": "proposal",
+    "reason": "Named project with bounded actual-report context; numeric columns omitted.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 272208,
+    "title": "人間ドック助成事業の状況",
+    "status": "same_name_scope_hold",
+    "reason": "Human-dock assistance appears under national health insurance and elderly health insurance; preserve beneficiary distinction before assigning identity, no renamed invented title.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 277896,
+    "title": "建設改良事業",
+    "status": "layout_review",
+    "reason": "Umbrella funding/account/activity section: review children and duplicates before creating individual records.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 278321,
+    "title": "リニア中央新幹線工事にかかる水道水源対策（リニア補償金事業）",
+    "status": "layout_review",
+    "reason": "Requires bounded child/project identity review; not an evidence/access denial.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 282386,
+    "title": "下水道事業への加入状況",
+    "status": "not_project",
+    "reason": "Population/subscriber statistics, not individual business identity.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 287059,
+    "title": "農業集落排水事業への加入状況",
+    "status": "not_project",
+    "reason": "Population/subscriber statistics, not individual business identity.",
+    "offsetUnit": "unicode_code_points"
+  },
+  {
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "start": 294601,
+    "title": "建設事業",
+    "status": "generic_name_hold",
+    "reason": "Construction work is described within sewer special account; generic 建設事業 heading alone cannot uniquely name the project.",
+    "offsetUnit": "unicode_code_points"
+  }
+]

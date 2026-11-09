@@ -1,0 +1,1786 @@
+export const reviewed = [
+  {
+    "source": {
+      "municipalityCode": "20452",
+      "municipalityName": "筑北村",
+      "sourceId": "4d4933d51526b313f49d8cfc",
+      "title": "令和6年度 物価高騰対応重点支援地方創生交付金充当事業 実施状況及びその効果",
+      "url": "https://www.vill.chikuhoku.lg.jp/fs/1/2/8/0/9/_/%E4%BB%A4%E5%92%8C6%E5%B9%B4%E5%BA%A6%E3%80%80%E5%AE%9F%E6%96%BD%E7%8A%B6%E6%B3%81%E5%8F%8A%E3%81%B3%E3%81%9D%E3%81%AE%E5%8A%B9%E6%9E%9C%EF%BC%88%E7%89%A9%E4%BE%A1%E9%AB%98%E9%A8%B0%EF%BC%89.pdf",
+      "sourceSha256": "1721cbec5d30d372f3e4060d22f30b0006d7151b892ee0b7b266b69d50d7cba7",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 1707,
+      "fullTextSha256": "8acd45cf41e2be02e2e2e0ca6bc1357c024efc68a6c235e3972a25cc444b71bd"
+    },
+    "proof": "令和6年度 物価高騰対応重点支援地方創生交付金充当事業 実施状況及びその効果",
+    "proofStart": 0,
+    "rows": [
+      {
+        "name": "物価高騰重点支援臨時交付金（低所得世帯）",
+        "start": 70,
+        "raw": "物価高騰重点支援臨時交付\n金（低所得世帯）",
+        "segments": [
+          {
+            "start": 70,
+            "raw": "物価高騰重点支援臨時交付\n金（低所得世帯）"
+          }
+        ],
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "proofStart": 0,
+        "proof": "令和6年度 物価高騰対応重点支援地方創生交付金充当事業 実施状況及びその効果\n(単位：円）\n実績額の財源内訳\n事業\n番号\n\n事業名\n\n1\n\n物価高騰重点支援臨時交付\n金（低所得世帯）\n\n物価高騰重点支援臨時交付\n金（調整給付）\n\n主管課\n\n総務課\n\n総務課\n\n事業概要（事業実績）\n\n〇物価高が続く中で低所得世帯への支援を行うこと\nで、低所得の方々の生活を維持する。\n・給付金\nR5年度分の住民税非課税世帯 35世帯×70千円＝\n35,630,000円\n\n〇物価高が続く中で低所得世帯と、子育てをしている\n低所得世帯への支援を行う。\n・調整給付金 708人 27,610千円\n・新非課税世帯給付金 60世帯 6,000千円\n・事務費\n事務費の内容 [需用費（事務用品等） 役務費（郵送\n料等） 業務委託料 として支出]\n\n総事業費\n\n地方創生\n交付金\n\nその他の\n国県支出金\n\nその他財源\n\n事業の効果\n\n一般財源\n\n2,450,000\n\n2,450,000\n\n0\n\n0\n\n35,189,068\n\n35,139,000\n\n0\n\n0\n\n物価高騰の負担増が続く中、特に家計への影響\n0 が大きい低所得世帯（住民税非課税世帯）の経済\n的な負担軽減に寄与することができた。\n\n50,068\n\n物価高騰の負担増が続く中、特に家計への影響\nが大きい低所得世帯（住民税所得割非課税世帯）\nの経済的な負担軽減に寄与することができた。\n\n2\n【充当元】令和5年度筑北村低\n所得世帯に対する特別支援\n金（子育て世帯支援枠）【物価\n高騰対策給付金】（事業費）\n【充当先】令和6年度物価高騰\n重点支援臨時交付金（調整給\n付）（事業費）\n\n令和6年度筑北村物価高騰対\n応地方創生臨時交付金\n\n総務課\n\n総務課\n\n〇物価高が続く中で低所得世帯と、子育てをしている\n低所得世帯への支援を行う。\n・新非課税世帯給付金 1世帯 100千円\n\n100,000\n\n100,000\n\n0\n\n0\n\n0\n\n〇物価高が続く中で低所得世帯と、子育てをしている\n低所得世帯への支援を行う。\n・給付金\nR6年度分の住民税非課税世帯 474世帯 14,220,000\n円\n・事務費\n事務費の内容 [需用費（事務用品等） 役務費（郵送\n料等） 業務委託料 として支出]\n\n14,274,292\n\n14,274,000\n\n0\n\n0\n\n292\n\n〇物価高が続く中で低所得世帯と、子育てをしている\n低所得世帯への支援を行う。\n・調整給付金 53人 1,450千円\n・住民税非課税世帯 31世帯 930,000円\n・非課税世帯子育て給付 25人 500千円\n・事務費\n事務費の内容 [需用費（事務用品等） 役務費（郵送\n料等） 業務委託料 として支出]\n\n3,501,320\n\n3,495,000\n\n0\n\n0\n\n6,320\n\n3,710,921\n\n854,000\n\n0\n\n0\n\n2,856,921\n\n物価高騰の負担増が続く中で、子育て世帯の経\n済財的な負担軽減に寄与することができた。\n\n40,853,602\n\n27,494,000\n\n0\n\n0\n\n13,359,602\n\n商品券配布により住民の生活支援、地域経済の\n消費拡大、産業の支援につながった。\n\n物価高騰の負担増が続く中、特に家計への影響\nが大きい子育て中の低所得世帯の経済的な負担\n軽減に寄与することができた。\n\n7\n\n（繰越分）\n令和6年度筑北村物価高騰対\n応地方創生臨時交付金\n\n11 小学校給食費無償化事業\n\n12\n\n令和6年度（繰越）筑北村生活\n応援商品券配布事業\n\n総務課\n\n〇物価高が続く中で、小学校給食費を無償化すること\nで、子育て世帯の負担を軽減する。\n教育委員会 ・R6年4月～9月の小学校給食費となる需用費に充当\n（教職員分は除く）\n\n観光課\n\n①物価高が続く中で、本交付金を活用した商品券（住\n民一人あたり1万円）を配布することにより、生活費の負\n担を軽減する。\n・村内商品券使用額 38,680千円\n・事務費\n事務費の内容 [需用費（事務用品等） 役務費（郵送\n料等） 業務委託料 として支出]",
+        "note": "Only explicit individual business titles; no guessed expenditure or score-column correspondence. Unknown implementation year remains null for Asahi."
+      },
+      {
+        "name": "物価高騰重点支援臨時交付金（調整給付）",
+        "start": 93,
+        "raw": "物価高騰重点支援臨時交付\n金（調整給付）",
+        "segments": [
+          {
+            "start": 93,
+            "raw": "物価高騰重点支援臨時交付\n金（調整給付）"
+          }
+        ],
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "proofStart": 0,
+        "proof": "令和6年度 物価高騰対応重点支援地方創生交付金充当事業 実施状況及びその効果\n(単位：円）\n実績額の財源内訳\n事業\n番号\n\n事業名\n\n1\n\n物価高騰重点支援臨時交付\n金（低所得世帯）\n\n物価高騰重点支援臨時交付\n金（調整給付）\n\n主管課\n\n総務課\n\n総務課\n\n事業概要（事業実績）\n\n〇物価高が続く中で低所得世帯への支援を行うこと\nで、低所得の方々の生活を維持する。\n・給付金\nR5年度分の住民税非課税世帯 35世帯×70千円＝\n35,630,000円\n\n〇物価高が続く中で低所得世帯と、子育てをしている\n低所得世帯への支援を行う。\n・調整給付金 708人 27,610千円\n・新非課税世帯給付金 60世帯 6,000千円\n・事務費\n事務費の内容 [需用費（事務用品等） 役務費（郵送\n料等） 業務委託料 として支出]\n\n総事業費\n\n地方創生\n交付金\n\nその他の\n国県支出金\n\nその他財源\n\n事業の効果\n\n一般財源\n\n2,450,000\n\n2,450,000\n\n0\n\n0\n\n35,189,068\n\n35,139,000\n\n0\n\n0\n\n物価高騰の負担増が続く中、特に家計への影響\n0 が大きい低所得世帯（住民税非課税世帯）の経済\n的な負担軽減に寄与することができた。\n\n50,068\n\n物価高騰の負担増が続く中、特に家計への影響\nが大きい低所得世帯（住民税所得割非課税世帯）\nの経済的な負担軽減に寄与することができた。\n\n2\n【充当元】令和5年度筑北村低\n所得世帯に対する特別支援\n金（子育て世帯支援枠）【物価\n高騰対策給付金】（事業費）\n【充当先】令和6年度物価高騰\n重点支援臨時交付金（調整給\n付）（事業費）\n\n令和6年度筑北村物価高騰対\n応地方創生臨時交付金\n\n総務課\n\n総務課\n\n〇物価高が続く中で低所得世帯と、子育てをしている\n低所得世帯への支援を行う。\n・新非課税世帯給付金 1世帯 100千円\n\n100,000\n\n100,000\n\n0\n\n0\n\n0\n\n〇物価高が続く中で低所得世帯と、子育てをしている\n低所得世帯への支援を行う。\n・給付金\nR6年度分の住民税非課税世帯 474世帯 14,220,000\n円\n・事務費\n事務費の内容 [需用費（事務用品等） 役務費（郵送\n料等） 業務委託料 として支出]\n\n14,274,292\n\n14,274,000\n\n0\n\n0\n\n292\n\n〇物価高が続く中で低所得世帯と、子育てをしている\n低所得世帯への支援を行う。\n・調整給付金 53人 1,450千円\n・住民税非課税世帯 31世帯 930,000円\n・非課税世帯子育て給付 25人 500千円\n・事務費\n事務費の内容 [需用費（事務用品等） 役務費（郵送\n料等） 業務委託料 として支出]\n\n3,501,320\n\n3,495,000\n\n0\n\n0\n\n6,320\n\n3,710,921\n\n854,000\n\n0\n\n0\n\n2,856,921\n\n物価高騰の負担増が続く中で、子育て世帯の経\n済財的な負担軽減に寄与することができた。\n\n40,853,602\n\n27,494,000\n\n0\n\n0\n\n13,359,602\n\n商品券配布により住民の生活支援、地域経済の\n消費拡大、産業の支援につながった。\n\n物価高騰の負担増が続く中、特に家計への影響\nが大きい子育て中の低所得世帯の経済的な負担\n軽減に寄与することができた。\n\n7\n\n（繰越分）\n令和6年度筑北村物価高騰対\n応地方創生臨時交付金\n\n11 小学校給食費無償化事業\n\n12\n\n令和6年度（繰越）筑北村生活\n応援商品券配布事業\n\n総務課\n\n〇物価高が続く中で、小学校給食費を無償化すること\nで、子育て世帯の負担を軽減する。\n教育委員会 ・R6年4月～9月の小学校給食費となる需用費に充当\n（教職員分は除く）\n\n観光課\n\n①物価高が続く中で、本交付金を活用した商品券（住\n民一人あたり1万円）を配布することにより、生活費の負\n担を軽減する。\n・村内商品券使用額 38,680千円\n・事務費\n事務費の内容 [需用費（事務用品等） 役務費（郵送\n料等） 業務委託料 として支出]",
+        "note": "Only explicit individual business titles; no guessed expenditure or score-column correspondence. Unknown implementation year remains null for Asahi."
+      },
+      {
+        "name": "小学校給食費無償化事業",
+        "start": 1443,
+        "raw": "小学校給食費無償化事業",
+        "segments": [
+          {
+            "start": 1443,
+            "raw": "小学校給食費無償化事業"
+          }
+        ],
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "proofStart": 0,
+        "proof": "令和6年度 物価高騰対応重点支援地方創生交付金充当事業 実施状況及びその効果\n(単位：円）\n実績額の財源内訳\n事業\n番号\n\n事業名\n\n1\n\n物価高騰重点支援臨時交付\n金（低所得世帯）\n\n物価高騰重点支援臨時交付\n金（調整給付）\n\n主管課\n\n総務課\n\n総務課\n\n事業概要（事業実績）\n\n〇物価高が続く中で低所得世帯への支援を行うこと\nで、低所得の方々の生活を維持する。\n・給付金\nR5年度分の住民税非課税世帯 35世帯×70千円＝\n35,630,000円\n\n〇物価高が続く中で低所得世帯と、子育てをしている\n低所得世帯への支援を行う。\n・調整給付金 708人 27,610千円\n・新非課税世帯給付金 60世帯 6,000千円\n・事務費\n事務費の内容 [需用費（事務用品等） 役務費（郵送\n料等） 業務委託料 として支出]\n\n総事業費\n\n地方創生\n交付金\n\nその他の\n国県支出金\n\nその他財源\n\n事業の効果\n\n一般財源\n\n2,450,000\n\n2,450,000\n\n0\n\n0\n\n35,189,068\n\n35,139,000\n\n0\n\n0\n\n物価高騰の負担増が続く中、特に家計への影響\n0 が大きい低所得世帯（住民税非課税世帯）の経済\n的な負担軽減に寄与することができた。\n\n50,068\n\n物価高騰の負担増が続く中、特に家計への影響\nが大きい低所得世帯（住民税所得割非課税世帯）\nの経済的な負担軽減に寄与することができた。\n\n2\n【充当元】令和5年度筑北村低\n所得世帯に対する特別支援\n金（子育て世帯支援枠）【物価\n高騰対策給付金】（事業費）\n【充当先】令和6年度物価高騰\n重点支援臨時交付金（調整給\n付）（事業費）\n\n令和6年度筑北村物価高騰対\n応地方創生臨時交付金\n\n総務課\n\n総務課\n\n〇物価高が続く中で低所得世帯と、子育てをしている\n低所得世帯への支援を行う。\n・新非課税世帯給付金 1世帯 100千円\n\n100,000\n\n100,000\n\n0\n\n0\n\n0\n\n〇物価高が続く中で低所得世帯と、子育てをしている\n低所得世帯への支援を行う。\n・給付金\nR6年度分の住民税非課税世帯 474世帯 14,220,000\n円\n・事務費\n事務費の内容 [需用費（事務用品等） 役務費（郵送\n料等） 業務委託料 として支出]\n\n14,274,292\n\n14,274,000\n\n0\n\n0\n\n292\n\n〇物価高が続く中で低所得世帯と、子育てをしている\n低所得世帯への支援を行う。\n・調整給付金 53人 1,450千円\n・住民税非課税世帯 31世帯 930,000円\n・非課税世帯子育て給付 25人 500千円\n・事務費\n事務費の内容 [需用費（事務用品等） 役務費（郵送\n料等） 業務委託料 として支出]\n\n3,501,320\n\n3,495,000\n\n0\n\n0\n\n6,320\n\n3,710,921\n\n854,000\n\n0\n\n0\n\n2,856,921\n\n物価高騰の負担増が続く中で、子育て世帯の経\n済財的な負担軽減に寄与することができた。\n\n40,853,602\n\n27,494,000\n\n0\n\n0\n\n13,359,602\n\n商品券配布により住民の生活支援、地域経済の\n消費拡大、産業の支援につながった。\n\n物価高騰の負担増が続く中、特に家計への影響\nが大きい子育て中の低所得世帯の経済的な負担\n軽減に寄与することができた。\n\n7\n\n（繰越分）\n令和6年度筑北村物価高騰対\n応地方創生臨時交付金\n\n11 小学校給食費無償化事業\n\n12\n\n令和6年度（繰越）筑北村生活\n応援商品券配布事業\n\n総務課\n\n〇物価高が続く中で、小学校給食費を無償化すること\nで、子育て世帯の負担を軽減する。\n教育委員会 ・R6年4月～9月の小学校給食費となる需用費に充当\n（教職員分は除く）\n\n観光課\n\n①物価高が続く中で、本交付金を活用した商品券（住\n民一人あたり1万円）を配布することにより、生活費の負\n担を軽減する。\n・村内商品券使用額 38,680千円\n・事務費\n事務費の内容 [需用費（事務用品等） 役務費（郵送\n料等） 業務委託料 として支出]",
+        "note": "Only explicit individual business titles; no guessed expenditure or score-column correspondence. Unknown implementation year remains null for Asahi."
+      }
+    ]
+  },
+  {
+    "source": {
+      "municipalityCode": "20451",
+      "municipalityName": "朝日村",
+      "sourceId": "85f5a8cc78fd2e20cc1e959e",
+      "title": "主要施策21（4-8-1）村民と行政が役割と責任を分担し、協働のむらづくりを推進します (PDFファイル: 144.0KB)",
+      "url": "https://www.vill.asahi.nagano.jp/material/files/group/11/s8-1.pdf",
+      "sourceSha256": "efa25e20c299a68700180f596a7cedbd6b90e7de0fdd2c1c8e4fb3ef303e4bc5",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 1028,
+      "fullTextSha256": "f2a2ec30082c3b4290a9c531e305d98cbc9f09cecd3732bc6df34cb03f417a94"
+    },
+    "proof": "令和５年度 施策評価シート",
+    "proofStart": 12,
+    "rows": [
+      {
+        "name": "区長活動報償金",
+        "start": 430,
+        "raw": "区長活動報償金",
+        "segments": [
+          {
+            "start": 430,
+            "raw": "区長活動報償金"
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "proofStart": 0,
+        "proof": "（様式２）\n１\n\n２\n\n令和５年度 施策評価シート\n\n施策の位置づけ\n基本戦略\n４．未来へつながる村をつくります\n重点目標\n主要施策\n８－１．村民と行政が役割と責任を分担し、協働のむらづくりを推進します\n施策の評価\n\n指標（ＫＰＩ）\n\n単\n位\n\n基準値\n\n達成値\n\n目標値\n\nH30\n\nR1\n\nR2\n\nR3\n\nR4\n\n住民活動への参加意\n欲啓発のためのセミ\nナーやフォーラム等\nの参加者数\n\n人\n\n0\n\n0\n\n0\n\n32\n\n20\n\n21\n\n企画財政課\n\n自治会加入率\n\n％\n\n86.3\n\n89.3\n\n85.7\n\n85.6\n\n85.7\n\n90.0\n\n総務課\n\nR5\n\nR6\n\n担当課\n\n３ 主な取組\n1 協働のむらづくりの推進\n\n総合評価\n\n本村が住みよい村となるよう、村民や団体、起業、関係機関、行政等のあらゆる主体が情報を共有\nし、意見交換や対話を重ねながら、協働のむらづくりを推進\n\nＡ\n\n事務事業名\n\n担当課\n\n記号\n\n成果\n\nコスト\n\n評価\n\n148 区長活動報償金\n149 地区活動費交付金\n\n総務課\n\n5\n\n維持\n\n維持\n\nＡ\n\n総務課\n\n5\n\n維持\n\n維持\n\nＡ\n\n４-１\n\n施策の評価・検証\n\n評価視点\n\n重点化\n\n（総務課）\n\n評価コメント\n地区役員の見直し、地区未加入者、地区の再編について住民を含めた検討を行う\n\n事業構成の適正\n事業の重点化\n４-２\n\n施策の評価・検証\n\n評価視点\n事業構成の適正\n\n事業の重点化\n\n４-３\n\n新たな地区自主防災部会の状況を勘案し、地区の見直しを行う\n\n評価コメント\n協働を進めるため集落点検を実施し地域の課題・現状の把握が行えたが、更に進め\nるための取組の企画が必要である。団体間交流会の開催により、多くの団体が会員不\n足等による活動の継続問題が見えてきており、対応の検討が必要。\n協働の村づくり指針に基づき、協働を進めるための体制づくりとして、集落支援員\nによる地域課題の把握、助成事業制度の研究、各種団体の交流会開催、各団体の活動\n内容周知のための取組等を実施する。\n\n施策の評価・検証\n\n評価視点\n\n（企画財政課）\n\n（教育委員会）\n\n事業構成の適正\n\n評価コメント\n地域との連携により子供の育成を図る。\n公民館活動を通じ、地域（分館）活動の活性化を図る。\n\n事業の重点化\n\nコミュニティ・スクールを活用し、地域と共同で学校運営を図る。\n公民館本館事業の見直しを行い、分館事業の活性化を図る。",
+        "note": "Only explicit individual business titles; no guessed expenditure or score-column correspondence. Unknown implementation year remains null for Asahi."
+      },
+      {
+        "name": "地区活動費交付金",
+        "start": 442,
+        "raw": "地区活動費交付金",
+        "segments": [
+          {
+            "start": 442,
+            "raw": "地区活動費交付金"
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "proofStart": 0,
+        "proof": "（様式２）\n１\n\n２\n\n令和５年度 施策評価シート\n\n施策の位置づけ\n基本戦略\n４．未来へつながる村をつくります\n重点目標\n主要施策\n８－１．村民と行政が役割と責任を分担し、協働のむらづくりを推進します\n施策の評価\n\n指標（ＫＰＩ）\n\n単\n位\n\n基準値\n\n達成値\n\n目標値\n\nH30\n\nR1\n\nR2\n\nR3\n\nR4\n\n住民活動への参加意\n欲啓発のためのセミ\nナーやフォーラム等\nの参加者数\n\n人\n\n0\n\n0\n\n0\n\n32\n\n20\n\n21\n\n企画財政課\n\n自治会加入率\n\n％\n\n86.3\n\n89.3\n\n85.7\n\n85.6\n\n85.7\n\n90.0\n\n総務課\n\nR5\n\nR6\n\n担当課\n\n３ 主な取組\n1 協働のむらづくりの推進\n\n総合評価\n\n本村が住みよい村となるよう、村民や団体、起業、関係機関、行政等のあらゆる主体が情報を共有\nし、意見交換や対話を重ねながら、協働のむらづくりを推進\n\nＡ\n\n事務事業名\n\n担当課\n\n記号\n\n成果\n\nコスト\n\n評価\n\n148 区長活動報償金\n149 地区活動費交付金\n\n総務課\n\n5\n\n維持\n\n維持\n\nＡ\n\n総務課\n\n5\n\n維持\n\n維持\n\nＡ\n\n４-１\n\n施策の評価・検証\n\n評価視点\n\n重点化\n\n（総務課）\n\n評価コメント\n地区役員の見直し、地区未加入者、地区の再編について住民を含めた検討を行う\n\n事業構成の適正\n事業の重点化\n４-２\n\n施策の評価・検証\n\n評価視点\n事業構成の適正\n\n事業の重点化\n\n４-３\n\n新たな地区自主防災部会の状況を勘案し、地区の見直しを行う\n\n評価コメント\n協働を進めるため集落点検を実施し地域の課題・現状の把握が行えたが、更に進め\nるための取組の企画が必要である。団体間交流会の開催により、多くの団体が会員不\n足等による活動の継続問題が見えてきており、対応の検討が必要。\n協働の村づくり指針に基づき、協働を進めるための体制づくりとして、集落支援員\nによる地域課題の把握、助成事業制度の研究、各種団体の交流会開催、各団体の活動\n内容周知のための取組等を実施する。\n\n施策の評価・検証\n\n評価視点\n\n（企画財政課）\n\n（教育委員会）\n\n事業構成の適正\n\n評価コメント\n地域との連携により子供の育成を図る。\n公民館活動を通じ、地域（分館）活動の活性化を図る。\n\n事業の重点化\n\nコミュニティ・スクールを活用し、地域と共同で学校運営を図る。\n公民館本館事業の見直しを行い、分館事業の活性化を図る。",
+        "note": "Only explicit individual business titles; no guessed expenditure or score-column correspondence. Unknown implementation year remains null for Asahi."
+      }
+    ]
+  },
+  {
+    "source": {
+      "municipalityCode": "20450",
+      "municipalityName": "山形村",
+      "sourceId": "013b611306c1a05bb127d8bf",
+      "title": "効果検証R2公表用 (PDF 1.27MB)",
+      "url": "https://www.vill.yamagata.nagano.jp/fs/1/6/6/9/0/8/_/%E5%8A%B9%E6%9E%9C%E6%A4%9C%E8%A8%BCR2%E5%85%AC%E8%A1%A8%E7%94%A8.pdf",
+      "sourceSha256": "123abfcaf5dfd1429941f04c1ee692b7c044b0df62c4239398b26949ffc6cd0d",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 16189,
+      "fullTextSha256": "cbd51e952fd713758463fe26c89dd37245e23bad6dbbb2d98e3e58fb44a411e8"
+    },
+    "proof": "令和2年度新型コロナウイルス感染症対応地方創生臨時交付金実施計画 実施状況及び効果検証",
+    "proofStart": 0,
+    "rows": [
+      {
+        "name": "防災活動支援事業",
+        "start": 226,
+        "raw": "防災活動支援事業",
+        "segments": [
+          {
+            "start": 226,
+            "raw": "防災活動支援事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "地域環境整備事業",
+        "start": 979,
+        "raw": "地域環境整備事業",
+        "segments": [
+          {
+            "start": 979,
+            "raw": "地域環境整備事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "公共施設等の管理維持体制持続化事業",
+        "start": 1067,
+        "raw": "公共施設等の管理維持体\n制持続化事業",
+        "segments": [
+          {
+            "start": 1067,
+            "raw": "公共施設等の管理維持体"
+          },
+          {
+            "start": 1079,
+            "raw": "制持続化事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "社会生活維持関連事業者の換気システム設置応援事業",
+        "start": 1383,
+        "raw": "社会生活維持関連事業者 ③庁舎空調室外蓄熱槽緑青による冷媒管腐食予防工事、蓄熱\nの換気システム設置応援事 槽ユニット切り離し\n業",
+        "segments": [
+          {
+            "start": 1383,
+            "raw": "社会生活維持関連事業者"
+          },
+          {
+            "start": 1423,
+            "raw": "の換気システム設置応援事"
+          },
+          {
+            "start": 1446,
+            "raw": "業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "休業支援金（指定管理料）",
+        "start": 2480,
+        "raw": "休業支援金（指定管理料）",
+        "segments": [
+          {
+            "start": 2480,
+            "raw": "休業支援金（指定管理料）"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "子育て世帯特別支援臨時給付金事業",
+        "start": 2494,
+        "raw": "子育て世帯特別支援臨時\n給付金事業",
+        "segments": [
+          {
+            "start": 2494,
+            "raw": "子育て世帯特別支援臨時"
+          },
+          {
+            "start": 2506,
+            "raw": "給付金事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "児童手当現況届の返信経費",
+        "start": 2782,
+        "raw": "児童手当現況届の返信経\n費",
+        "segments": [
+          {
+            "start": 2782,
+            "raw": "児童手当現況届の返信経"
+          },
+          {
+            "start": 2794,
+            "raw": "費"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "密集軽減のための輸送能力増強事業",
+        "start": 2962,
+        "raw": "密集軽減のための輸送能\n力増強事業",
+        "segments": [
+          {
+            "start": 2962,
+            "raw": "密集軽減のための輸送能"
+          },
+          {
+            "start": 2974,
+            "raw": "力増強事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "子ども食堂臨時代替事業",
+        "start": 3631,
+        "raw": "子ども食堂臨時代替事業",
+        "segments": [
+          {
+            "start": 3631,
+            "raw": "子ども食堂臨時代替事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "保育園感染拡大防止対策事業",
+        "start": 4094,
+        "raw": "保育園感染拡大防止対策\n事業",
+        "segments": [
+          {
+            "start": 4094,
+            "raw": "保育園感染拡大防止対策"
+          },
+          {
+            "start": 4106,
+            "raw": "事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "飲食店特別支援臨時給付金事業",
+        "start": 4663,
+        "raw": "飲食店特別支援臨時給付\n金事業",
+        "segments": [
+          {
+            "start": 4663,
+            "raw": "飲食店特別支援臨時給付"
+          },
+          {
+            "start": 4675,
+            "raw": "金事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "事業所応援商品券事業",
+        "start": 4680,
+        "raw": "事業所応援商品券事業",
+        "segments": [
+          {
+            "start": 4680,
+            "raw": "事業所応援商品券事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held. Additional funding/round label②retained, not a second same-year business.",
+        "alternatives": [
+          {
+            "start": 15118,
+            "raw": "事業所応援商品券事業②"
+          }
+        ]
+      },
+      {
+        "name": "県・市町村連携 新型コロナウイルス拡大防止協力企業等特別支援事業",
+        "start": 5057,
+        "raw": "県・市町村連携 新型コロナ 業所に対する協力金等給付事業への市町村協力金（１事業所当\nウイルス拡大防止協力企業 たり県20万円・市町村10万円の計30万円を給付）\n等特別支援事業",
+        "segments": [
+          {
+            "start": 5057,
+            "raw": "県・市町村連携 新型コロナ"
+          },
+          {
+            "start": 5100,
+            "raw": "ウイルス拡大防止協力企業"
+          },
+          {
+            "start": 5139,
+            "raw": "等特別支援事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "鳥獣捕獲檻管理事業",
+        "start": 5235,
+        "raw": "鳥獣捕獲檻管理事業",
+        "segments": [
+          {
+            "start": 5235,
+            "raw": "鳥獣捕獲檻管理事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "狩猟免許更新応援事業",
+        "start": 5293,
+        "raw": "狩猟免許更新応援事業",
+        "segments": [
+          {
+            "start": 5293,
+            "raw": "狩猟免許更新応援事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "金利、保証料など金銭面での支援事業",
+        "start": 5543,
+        "raw": "金利、保証料など金銭面で\n②借入の際発生する保証料に対する補助金\nの支援事業",
+        "segments": [
+          {
+            "start": 5543,
+            "raw": "金利、保証料など金銭面で"
+          },
+          {
+            "start": 5576,
+            "raw": "の支援事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "緊急対応型雇用創出・研修事業",
+        "start": 7515,
+        "raw": "緊急対応型雇用創出・研修 ②報酬 1,402（千円） 手当 132（千円）\n事業",
+        "segments": [
+          {
+            "start": 7515,
+            "raw": "緊急対応型雇用創出・研修"
+          },
+          {
+            "start": 7553,
+            "raw": "事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "インドア花いっぱい応援事業",
+        "start": 7608,
+        "raw": "インドア花いっぱい応援事\n業",
+        "segments": [
+          {
+            "start": 7608,
+            "raw": "インドア花いっぱい応援事"
+          },
+          {
+            "start": 7621,
+            "raw": "業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "スカイランドきよみず宿泊助成券拡充事業",
+        "start": 9612,
+        "raw": "スカイランドきよみず宿泊助\n②村民が施設利用した時に利用料の一部。\n成券拡充事業",
+        "segments": [
+          {
+            "start": 9612,
+            "raw": "スカイランドきよみず宿泊助"
+          },
+          {
+            "start": 9646,
+            "raw": "成券拡充事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "新型コロナウイルス対策事業広報事業",
+        "start": 9747,
+        "raw": "新型コロナウイルス対策事\n業広報事業",
+        "segments": [
+          {
+            "start": 9747,
+            "raw": "新型コロナウイルス対策事"
+          },
+          {
+            "start": 9760,
+            "raw": "業広報事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "山形村地域活性化商品券配布事業",
+        "start": 9767,
+        "raw": "山形村地域活性化商品券\n配布事業",
+        "segments": [
+          {
+            "start": 9767,
+            "raw": "山形村地域活性化商品券"
+          },
+          {
+            "start": 9779,
+            "raw": "配布事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "3密解消通勤通学バス運行事業",
+        "start": 11052,
+        "raw": "3密解消通勤通学バス運行\n②路線バスを運行するバス会社との委託契約。\n事業",
+        "segments": [
+          {
+            "start": 11052,
+            "raw": "3密解消通勤通学バス運行"
+          },
+          {
+            "start": 11087,
+            "raw": "事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "事業者特別支援臨時給付金事業",
+        "start": 11329,
+        "raw": "事業者特別支援臨時給付\n金事業",
+        "segments": [
+          {
+            "start": 11329,
+            "raw": "事業者特別支援臨時給付"
+          },
+          {
+            "start": 11341,
+            "raw": "金事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "プレミアム付き前払い食事券等事業",
+        "start": 11346,
+        "raw": "プレミアム付き前払い食事\n券等事業",
+        "segments": [
+          {
+            "start": 11346,
+            "raw": "プレミアム付き前払い食事"
+          },
+          {
+            "start": 11359,
+            "raw": "券等事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "新型コロナ感染対策水道料金減免手洗いうがい推進事業",
+        "start": 12352,
+        "raw": "新型コロナ感染対策水道料 ②上水道事業、簡易水道特別会計への繰出\n金減免手洗いうがい推進 （水道基本料金の減免に係る費用）\n事業",
+        "segments": [
+          {
+            "start": 12352,
+            "raw": "新型コロナ感染対策水道料"
+          },
+          {
+            "start": 12385,
+            "raw": "金減免手洗いうがい推進"
+          },
+          {
+            "start": 12414,
+            "raw": "事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "学校給食事業者等への応援事業",
+        "start": 12901,
+        "raw": "学校給食事業者等への応 ②給食納入業者へ違約金\n援事業",
+        "segments": [
+          {
+            "start": 12901,
+            "raw": "学校給食事業者等への応"
+          },
+          {
+            "start": 12925,
+            "raw": "援事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "分散勤務用事務室整備事業",
+        "start": 13324,
+        "raw": "分散勤務用事務室整備事\n業",
+        "segments": [
+          {
+            "start": 13324,
+            "raw": "分散勤務用事務室整備事"
+          },
+          {
+            "start": 13336,
+            "raw": "業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "新そば味わい祭り食事券事業",
+        "start": 13403,
+        "raw": "新そば味わい祭り食事券事 リピートしてもらえるよう食事券を配布する。\n業",
+        "segments": [
+          {
+            "start": 13403,
+            "raw": "新そば味わい祭り食事券事"
+          },
+          {
+            "start": 13438,
+            "raw": "業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "新型コロナウイルスPCR検査・抗原定量検査費用助成事業",
+        "start": 14929,
+        "raw": "新型コロナウイルスPCR検 ②PCR検査は、1回当たり20,000円を上限\n査・抗原定量検査費用助成\n抗原定量検査は、1回当たり7,500円を上限\n事業",
+        "segments": [
+          {
+            "start": 14929,
+            "raw": "新型コロナウイルスPCR検"
+          },
+          {
+            "start": 14967,
+            "raw": "査・抗原定量検査費用助成"
+          },
+          {
+            "start": 15003,
+            "raw": "事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "来庁者感染防止対策事業",
+        "start": 15105,
+        "raw": "来庁者感染防止対策事業",
+        "segments": [
+          {
+            "start": 15105,
+            "raw": "来庁者感染防止対策事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "観光PR用バーチャル動画作成事業",
+        "start": 15131,
+        "raw": "観光PR用バーチャル動画\n作成事業",
+        "segments": [
+          {
+            "start": 15131,
+            "raw": "観光PR用バーチャル動画"
+          },
+          {
+            "start": 15144,
+            "raw": "作成事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      }
+    ]
+  },
+  {
+    "source": {
+      "municipalityCode": "20450",
+      "municipalityName": "山形村",
+      "sourceId": "b379206052fae2c749d30910",
+      "title": "効果検証R3公表用 (PDF 1.11MB)",
+      "url": "https://www.vill.yamagata.nagano.jp/fs/1/6/6/9/0/9/_/%E5%8A%B9%E6%9E%9C%E6%A4%9C%E8%A8%BCR3%E5%85%AC%E8%A1%A8%E7%94%A8.pdf",
+      "sourceSha256": "9a382f7699c24839678db8f2a81f6295eaf981728c93f525ac1a20b874646292",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 12374,
+      "fullTextSha256": "9dc43f7ed87fb76bd6b77cf79397b6cf36b8500e4f08da2cf19814b3294d87a9"
+    },
+    "proof": "令和3年度新型コロナウイルス感染症対応地方創生臨時交付金実施計画 実施状況及び効果検証",
+    "proofStart": 0,
+    "rows": [
+      {
+        "name": "山形村地形図作成業務",
+        "start": 216,
+        "raw": "山形村地形図作成業務",
+        "segments": [
+          {
+            "start": 216,
+            "raw": "山形村地形図作成業務"
+          }
+        ],
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "庁舎水道ハンドル交換工事",
+        "start": 668,
+        "raw": "庁舎水道ハンドル交換工事",
+        "segments": [
+          {
+            "start": 668,
+            "raw": "庁舎水道ハンドル交換工事"
+          }
+        ],
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "疲れた心身を癒すと共にスカイランドを応援しよう事業",
+        "start": 926,
+        "raw": "疲れた心身を癒すと共にス ③配布枚数：世帯2,500戸×4枚＝10,000枚\nカイランドを応援しよう事業",
+        "segments": [
+          {
+            "start": 926,
+            "raw": "疲れた心身を癒すと共にス"
+          },
+          {
+            "start": 965,
+            "raw": "カイランドを応援しよう事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "分散勤務用事務室整備事業",
+        "start": 1082,
+        "raw": "分散勤務用事務室整備事\n業",
+        "segments": [
+          {
+            "start": 1082,
+            "raw": "分散勤務用事務室整備事"
+          },
+          {
+            "start": 1094,
+            "raw": "業"
+          }
+        ],
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "3密解消通勤通学バス運行事業",
+        "start": 1310,
+        "raw": "3密解消通勤通学バス運行\n②路線バスを運行するバス会社との委託契約。\n事業",
+        "segments": [
+          {
+            "start": 1310,
+            "raw": "3密解消通勤通学バス運行"
+          },
+          {
+            "start": 1345,
+            "raw": "事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "金利、保証料など金銭面での支援事業",
+        "start": 2652,
+        "raw": "金利、保証料など金銭面で\n②借入の際発生する保証料に対する補助金\nの支援事業",
+        "segments": [
+          {
+            "start": 2652,
+            "raw": "金利、保証料など金銭面で"
+          },
+          {
+            "start": 2685,
+            "raw": "の支援事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "防災活動支援事業",
+        "start": 2803,
+        "raw": "防災活動支援事業",
+        "segments": [
+          {
+            "start": 2803,
+            "raw": "防災活動支援事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "密集軽減のための輸送能力増強事業",
+        "start": 3826,
+        "raw": "密集軽減のための輸送能\n力増強事業",
+        "segments": [
+          {
+            "start": 3826,
+            "raw": "密集軽減のための輸送能"
+          },
+          {
+            "start": 3838,
+            "raw": "力増強事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "保育園、児童館におけるＩＣＴ化支援事業",
+        "start": 4254,
+        "raw": "保育園、児童館におけるＩＣ （ICTに識見のある者を雇用し、令和4年度の事業開始に向け\nＴ化支援事業",
+        "segments": [
+          {
+            "start": 4254,
+            "raw": "保育園、児童館におけるＩＣ"
+          },
+          {
+            "start": 4298,
+            "raw": "Ｔ化支援事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "保育園遊戯室エアコン設置工事",
+        "start": 4917,
+        "raw": "保育園遊戯室エアコン設置\n備を行う\n工事",
+        "segments": [
+          {
+            "start": 4917,
+            "raw": "保育園遊戯室エアコン設置"
+          },
+          {
+            "start": 4935,
+            "raw": "工事"
+          }
+        ],
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "図書館パワーアップ事業",
+        "start": 5873,
+        "raw": "図書館パワーアップ事業",
+        "segments": [
+          {
+            "start": 5873,
+            "raw": "図書館パワーアップ事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "成人式感染症対策事業",
+        "start": 6971,
+        "raw": "成人式感染症対策事業",
+        "segments": [
+          {
+            "start": 6971,
+            "raw": "成人式感染症対策事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "デジタル格差解消のためのスマホ相談窓口事業",
+        "start": 7468,
+        "raw": "デジタル格差解消のための\nむ。\nスマホ相談窓口事業",
+        "segments": [
+          {
+            "start": 7468,
+            "raw": "デジタル格差解消のための"
+          },
+          {
+            "start": 7484,
+            "raw": "スマホ相談窓口事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "ふるさとを遠くで見守る応援事業パート２",
+        "start": 7758,
+        "raw": "ふるさとを遠くで見守る応\n援事業パート２",
+        "segments": [
+          {
+            "start": 7758,
+            "raw": "ふるさとを遠くで見守る応"
+          },
+          {
+            "start": 7771,
+            "raw": "援事業パート２"
+          }
+        ],
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "子育て世帯特別支援臨時給付金事業",
+        "start": 7780,
+        "raw": "子育て世帯特別支援臨時\n給付金事業",
+        "segments": [
+          {
+            "start": 7780,
+            "raw": "子育て世帯特別支援臨時"
+          },
+          {
+            "start": 7792,
+            "raw": "給付金事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "タブレット端末用ソフト等の導入とオンライン学習環境の整備",
+        "start": 8361,
+        "raw": "タブレット端末用ソフト等の が行るよう環境整備を行う\n導入とオンライン学習環境 ②ソフトの購入、設定委託料と機材購入費\nの整備",
+        "segments": [
+          {
+            "start": 8361,
+            "raw": "タブレット端末用ソフト等の"
+          },
+          {
+            "start": 8388,
+            "raw": "導入とオンライン学習環境"
+          },
+          {
+            "start": 8421,
+            "raw": "の整備"
+          }
+        ],
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "文書管理改善等支援業務",
+        "start": 9401,
+        "raw": "文書管理改善等支援業務",
+        "segments": [
+          {
+            "start": 9401,
+            "raw": "文書管理改善等支援業務"
+          }
+        ],
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "放課後児童クラブ感染対策事業",
+        "start": 9820,
+        "raw": "放課後児童クラブ感染対策\n②放課後児童クラブ利用者を受け入れるための必要備品購入\n事業",
+        "segments": [
+          {
+            "start": 9820,
+            "raw": "放課後児童クラブ感染対策"
+          },
+          {
+            "start": 9861,
+            "raw": "事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "新そば味わい祭り食事券等事業",
+        "start": 10495,
+        "raw": "新そば味わい祭り食事券等\n②村内そば店での食事券配布（1人300円分）\n事業",
+        "segments": [
+          {
+            "start": 10495,
+            "raw": "新そば味わい祭り食事券等"
+          },
+          {
+            "start": 10531,
+            "raw": "事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "商工業事業者コロナ対策応援金",
+        "start": 11324,
+        "raw": "商工業事業者コロナ対策応\n②村内商工事業者への給付金\n援金",
+        "segments": [
+          {
+            "start": 11324,
+            "raw": "商工業事業者コロナ対策応"
+          },
+          {
+            "start": 11351,
+            "raw": "援金"
+          }
+        ],
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "職員感染対策事業",
+        "start": 11797,
+        "raw": "職員感染対策事業",
+        "segments": [
+          {
+            "start": 11797,
+            "raw": "職員感染対策事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      }
+    ]
+  },
+  {
+    "source": {
+      "municipalityCode": "20450",
+      "municipalityName": "山形村",
+      "sourceId": "b8880cb3c88f0c665f58bc59",
+      "title": "効果検証R4公表用 (PDF 1.11MB)",
+      "url": "https://www.vill.yamagata.nagano.jp/fs/1/6/6/9/1/0/_/%E5%8A%B9%E6%9E%9C%E6%A4%9C%E8%A8%BCR4%E5%85%AC%E8%A1%A8%E7%94%A8.pdf",
+      "sourceSha256": "2cfa010d0717d8bbc543ba9776bd9c1a703bd60a9e40264798a85633f82ff456",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 15552,
+      "fullTextSha256": "47030e5083fdcc38ced98b296500ea1d93635dbec549aec07d3b5d44247cd04e"
+    },
+    "proof": "令和4年度新型コロナウイルス感染症対応地方創生臨時交付金実施計画 実施状況及び効果検証",
+    "proofStart": 0,
+    "rows": [
+      {
+        "name": "村の魅力配信事業",
+        "start": 218,
+        "raw": "村の魅力配信事業",
+        "segments": [
+          {
+            "start": 218,
+            "raw": "村の魅力配信事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "コンビニ収納導入事業",
+        "start": 441,
+        "raw": "コンビニ収納導入事業",
+        "segments": [
+          {
+            "start": 441,
+            "raw": "コンビニ収納導入事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "デジタル化に向けた不安解消相談窓口開設事業",
+        "start": 829,
+        "raw": "デジタル化に向けた不安解 行い交付率の向上を図り、手続きなどでコロナ禍における来庁の\n消相談窓口開設事業",
+        "segments": [
+          {
+            "start": 829,
+            "raw": "デジタル化に向けた不安解"
+          },
+          {
+            "start": 872,
+            "raw": "消相談窓口開設事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "移住定住促進事業",
+        "start": 1240,
+        "raw": "移住定住促進事業",
+        "segments": [
+          {
+            "start": 1240,
+            "raw": "移住定住促進事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "高齢者お出かけ支援事業",
+        "start": 2490,
+        "raw": "高齢者お出かけ支援事業",
+        "segments": [
+          {
+            "start": 2490,
+            "raw": "高齢者お出かけ支援事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "第６波対応事業復活支援給付金",
+        "start": 2849,
+        "raw": "第６波対応事業復活支援給 ②中小法人、個人事業者へ一律１０万円給付（交付金",
+        "segments": [
+          {
+            "start": 2849,
+            "raw": "第６波対応事業復活支援給"
+          },
+          {
+            "start": 2884,
+            "raw": "付金"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "第６波対応飲食店支援給付金",
+        "start": 3459,
+        "raw": "第６波対応飲食店支援給付\n②飲食店事業者へ一律１０万円給付（交付金",
+        "segments": [
+          {
+            "start": 3459,
+            "raw": "第６波対応飲食店支援給付"
+          },
+          {
+            "start": 3491,
+            "raw": "金"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "ワクチン集団接種会場の駐車場整備",
+        "start": 3784,
+        "raw": "ワクチン集団接種会場の駐 会場の環境を構築する。\n車場整備",
+        "segments": [
+          {
+            "start": 3784,
+            "raw": "ワクチン集団接種会場の駐"
+          },
+          {
+            "start": 3809,
+            "raw": "車場整備"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "保育所Ｗｉ-Ｆｉ環境整備事業",
+        "start": 3881,
+        "raw": "保育所Ｗｉ-Ｆｉ環境整備事\n業",
+        "segments": [
+          {
+            "start": 3881,
+            "raw": "保育所Ｗｉ-Ｆｉ環境整備事"
+          },
+          {
+            "start": 3895,
+            "raw": "業"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "密集軽減のための輸送能力増強事業",
+        "start": 4067,
+        "raw": "密集軽減のための輸送能\n力増強事業",
+        "segments": [
+          {
+            "start": 4067,
+            "raw": "密集軽減のための輸送能"
+          },
+          {
+            "start": 4079,
+            "raw": "力増強事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "子育て支援センター魅力向上及び3密防止対策事業",
+        "start": 5512,
+        "raw": "子育て支援センター魅力向\nし、屋内、屋外の遊びを分散させ、安心して利用してもらえる環\n上及び3密防止対策事業",
+        "segments": [
+          {
+            "start": 5512,
+            "raw": "子育て支援センター魅力向"
+          },
+          {
+            "start": 5555,
+            "raw": "上及び3密防止対策事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "保育園3密防止対策遊具設置事業",
+        "start": 5897,
+        "raw": "保育園3密防止対策遊具設 いており、３密を避けるための保育環境整備として遊具の更新を\n置事業",
+        "segments": [
+          {
+            "start": 5897,
+            "raw": "保育園3密防止対策遊具設"
+          },
+          {
+            "start": 5940,
+            "raw": "置事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "農業者トレーニングセンターの換気扇の更新",
+        "start": 6166,
+        "raw": "農業者トレーニングセン\nターの換気扇の更新",
+        "segments": [
+          {
+            "start": 6166,
+            "raw": "農業者トレーニングセン"
+          },
+          {
+            "start": 6178,
+            "raw": "ターの換気扇の更新"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "分散勤務用事務室整備事業",
+        "start": 6442,
+        "raw": "分散勤務用事務室整備事\n業",
+        "segments": [
+          {
+            "start": 6442,
+            "raw": "分散勤務用事務室整備事"
+          },
+          {
+            "start": 6454,
+            "raw": "業"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "防災活動支援事業",
+        "start": 7221,
+        "raw": "防災活動支援事業",
+        "segments": [
+          {
+            "start": 7221,
+            "raw": "防災活動支援事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "役場庁舎安心確保事業",
+        "start": 7231,
+        "raw": "役場庁舎安心確保事業",
+        "segments": [
+          {
+            "start": 7231,
+            "raw": "役場庁舎安心確保事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "職員感染対策事業",
+        "start": 8418,
+        "raw": "職員感染対策事業",
+        "segments": [
+          {
+            "start": 8418,
+            "raw": "職員感染対策事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "公共施設消毒事業",
+        "start": 8743,
+        "raw": "公共施設消毒事業",
+        "segments": [
+          {
+            "start": 8743,
+            "raw": "公共施設消毒事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "コミュニティ拠点施設整備事業",
+        "start": 9263,
+        "raw": "コミュニティ拠点施設整備\n事業",
+        "segments": [
+          {
+            "start": 9263,
+            "raw": "コミュニティ拠点施設整備"
+          },
+          {
+            "start": 9276,
+            "raw": "事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "原油価格・物価高騰等総合緊急対策事業①（令和4年予算分）",
+        "start": 10067,
+        "raw": "原油価格・物価高騰等総合\n21人（延べ195人）×4,500円＝877,500円\n緊急対策事業①（令和4年\n村外幼稚園通園児分（個人へ現金給付）\n予算分）",
+        "segments": [
+          {
+            "start": 10067,
+            "raw": "原油価格・物価高騰等総合"
+          },
+          {
+            "start": 10108,
+            "raw": "緊急対策事業①（令和4年"
+          },
+          {
+            "start": 10140,
+            "raw": "予算分）"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "原油価格・物価高騰に伴う生活支援事業②",
+        "start": 10606,
+        "raw": "原油価格・物価高騰に伴う住\n民及び事業者等の生活支援を目的として、水道料金の基本料金\nを６ヶ月減免する。（ただし公共施設は減免対象外）\n②上水道事業、簡易水道特別会計への繰出し。（水道基本料金\n原油価格・物価高騰に伴う の減免に係る費用）\n生活支援事業②",
+        "segments": [
+          {
+            "start": 10606,
+            "raw": "原油価格・物価高騰に伴う"
+          },
+          {
+            "start": 10726,
+            "raw": "生活支援事業②"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "役場庁舎感染予防事業",
+        "start": 11730,
+        "raw": "役場庁舎感染予防事業",
+        "segments": [
+          {
+            "start": 11730,
+            "raw": "役場庁舎感染予防事業"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "保育施設に対する物価高騰対策支援",
+        "start": 11742,
+        "raw": "保育施設に対する物価高\n騰対策支援",
+        "segments": [
+          {
+            "start": 11742,
+            "raw": "保育施設に対する物価高"
+          },
+          {
+            "start": 11754,
+            "raw": "騰対策支援"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "福祉・介護施設への物価高騰対策支援",
+        "start": 12955,
+        "raw": "福祉・介護施設への物価高 ③事業形態による\n騰対策支援",
+        "segments": [
+          {
+            "start": 12955,
+            "raw": "福祉・介護施設への物価高"
+          },
+          {
+            "start": 12977,
+            "raw": "騰対策支援"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "わくわくチケット第2弾",
+        "start": 13261,
+        "raw": "わくわくチケット第2弾",
+        "segments": [
+          {
+            "start": 13261,
+            "raw": "わくわくチケット第2弾"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held. One voucher implementation funded byR4andR3budget allocations, explicitNo31同様; preserve funding evidence without double counting.",
+        "alternatives": [
+          {
+            "start": 15239,
+            "raw": "わくわくチケット第2弾（R3 ③通信運搬費1,501,892円\n予算活用分）\n手数料66,000円（計数機点検手数料15,000円×4台×1.1）\n委託料2,057,574円（宛名ラベル作成60,964円\nチケット業務一式1,996,610円（商品券印刷、封入、のぼ旗、\n封筒））\n補助金85,700,000円（10,000円×8,570人）\n計 89,326千円のうち30，000千円\n④村民\n\nR4.12\n\nR5.3\n\n56,044\n\n17,681 No31と同様\n\nNo31と同様\n\n"
+          }
+        ]
+      },
+      {
+        "name": "鉢盛中学校給食費賄材料補助",
+        "start": 13460,
+        "raw": "鉢盛中学校給食費賄材料\n補助",
+        "segments": [
+          {
+            "start": 13460,
+            "raw": "鉢盛中学校給食費賄材料"
+          },
+          {
+            "start": 13472,
+            "raw": "補助"
+          }
+        ],
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "スポーツ大会参加支援事業",
+        "start": 6784,
+        "raw": "スポーツ大会参加支援事業",
+        "segments": [
+          {
+            "start": 6784,
+            "raw": "スポーツ大会参加支援事業"
+          }
+        ],
+        "proofStart": 6737,
+        "proof": "①市町村対抗駅伝参加者に対し、抗原検査を行いコロナ禍にお\nける大会に安心して参加していただく\nスポーツ大会参加支援事業 ②抗原検査キットの購入（消耗品）\n③参加者17名×＠1,760円＝29,920円\n④監督2名、一般9名、小学生6名\n\nから参加する選手含め全員が抗原検査\nキットを使用してから大会に参加するこ\n\nR4.4\n\nR4.4\n\n30\n\n30 抗原検査キット17名分 29,920円\n\nとができた。\n②監督・選手の不安払しょくにも寄与す\nることができ、引率者・保護者も含め安\n心・安全な大会参加ができた。\n\n教育政策課\n\n\n",
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2022,
+        "note": "Explicit village support business providing antigen kits; not the external sporting event itself. No numerical or funding-column attribution inferred."
+      }
+    ]
+  },
+  {
+    "source": {
+      "municipalityCode": "20450",
+      "municipalityName": "山形村",
+      "sourceId": "2face60203aba29221bd6687",
+      "title": "効果検証R5 公表用 (PDF 481KB)",
+      "url": "https://www.vill.yamagata.nagano.jp/fs/1/7/9/9/3/2/_/%E5%8A%B9%E6%9E%9C%E6%A4%9C%E8%A8%BCR5%E3%80%80%E5%85%AC%E8%A1%A8%E7%94%A8.pdf",
+      "sourceSha256": "376a3a27f768aca5bb4e60c7b810d86fde8102c1a9a0bf2c8153608cd0cee4fe",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3707,
+      "fullTextSha256": "1adae56166b2e31418e47f52258bd066abc6fb4fdfa4ec9aca7a32a4d3f080b8"
+    },
+    "proof": "令和5年度新型コロナウイルス感染症対応地方創生臨時交付金実施計画 実施状況及び効果検証",
+    "proofStart": 0,
+    "rows": [
+      {
+        "name": "低所得者支援【低所得者世帯給付金】",
+        "start": 250,
+        "raw": "低所得者支援【低所得者世\n②低所得者への一律30,000円支給\n帯給付金】",
+        "segments": [
+          {
+            "start": 250,
+            "raw": "低所得者支援【低所得者世"
+          },
+          {
+            "start": 282,
+            "raw": "帯給付金】"
+          }
+        ],
+        "evaluatedFiscalYear": 2023,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "エネルギー食料品価格等の物価高騰に伴う子育て世帯支援",
+        "start": 1040,
+        "raw": "エネルギー食料品価格等の\n村外幼稚園通園児分（個人へ現金給付）\n物価高騰に伴う子育て世帯\n3人×4,500円×6ヶ月＝81,000円\n支援",
+        "segments": [
+          {
+            "start": 1040,
+            "raw": "エネルギー食料品価格等の"
+          },
+          {
+            "start": 1072,
+            "raw": "物価高騰に伴う子育て世帯"
+          },
+          {
+            "start": 1107,
+            "raw": "支援"
+          }
+        ],
+        "evaluatedFiscalYear": 2023,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "水道・簡水支援事業（上水道・簡易水道操出）",
+        "start": 2279,
+        "raw": "水道・簡水支援事業（上水\n道・簡易水道操出）",
+        "segments": [
+          {
+            "start": 2279,
+            "raw": "水道・簡水支援事業（上水"
+          },
+          {
+            "start": 2292,
+            "raw": "道・簡易水道操出）"
+          }
+        ],
+        "evaluatedFiscalYear": 2023,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "保育施設に対する物価高騰対策支援",
+        "start": 2567,
+        "raw": "保育施設に対する物価高\n騰対策支援",
+        "segments": [
+          {
+            "start": 2567,
+            "raw": "保育施設に対する物価高"
+          },
+          {
+            "start": 2579,
+            "raw": "騰対策支援"
+          }
+        ],
+        "evaluatedFiscalYear": 2023,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "福祉・介護施設への物価高騰対策支援",
+        "start": 2932,
+        "raw": "福祉・介護施設への物価高 ③事業形態による\n騰対策支援",
+        "segments": [
+          {
+            "start": 2932,
+            "raw": "福祉・介護施設への物価高"
+          },
+          {
+            "start": 2954,
+            "raw": "騰対策支援"
+          }
+        ],
+        "evaluatedFiscalYear": 2023,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      }
+    ]
+  },
+  {
+    "source": {
+      "municipalityCode": "20450",
+      "municipalityName": "山形村",
+      "sourceId": "0ff2b02d36a63a54717c3225",
+      "title": "物価高騰対応重点支援地方創生臨時交付金効果検証R6 公表用 (PDF 264KB)",
+      "url": "https://www.vill.yamagata.nagano.jp/fs/2/0/0/4/1/2/_/%E7%89%A9%E4%BE%A1%E9%AB%98%E9%A8%B0%E5%AF%BE%E5%BF%9C%E9%87%8D%E7%82%B9%E6%94%AF%E6%8F%B4%E5%9C%B0%E6%96%B9%E5%89%B5%E7%94%9F%E8%87%A8%E6%99%82%E4%BA%A4%E4%BB%98%E9%87%91%E5%8A%B9%E6%9E%9C%E6%A4%9C%E8%A8%BCR6%E3%80%80%E5%85%AC%E8%A1%A8%E7%94%A8.pdf",
+      "sourceSha256": "f68f7795f05972a370a821f78dfc083408238fd16b2336d0caa0a7a76bb56560",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 838,
+      "fullTextSha256": "0a42937661d933de6f045695402acc7d3851451f6d58ffb358f1dabc69eae7d8"
+    },
+    "proof": "令和6年度物価高騰重点支援地方創生臨時交付金実施計画 実施状況及び効果検証",
+    "proofStart": 0,
+    "rows": [
+      {
+        "name": "物価高騰対応重点支援事業",
+        "start": 134,
+        "raw": "物価高騰対応重点支援事\n業",
+        "segments": [
+          {
+            "start": 134,
+            "raw": "物価高騰対応重点支援事"
+          },
+          {
+            "start": 146,
+            "raw": "業"
+          }
+        ],
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      }
+    ]
+  },
+  {
+    "source": {
+      "municipalityCode": "20450",
+      "municipalityName": "山形村",
+      "sourceId": "6cccd92e27b89373fdf1ccfb",
+      "title": "物価高騰対応重点支援地方創生臨時交付金効果検証R5 公表用 (PDF 300KB)",
+      "url": "https://www.vill.yamagata.nagano.jp/fs/1/7/9/9/3/3/_/%E7%89%A9%E4%BE%A1%E9%AB%98%E9%A8%B0%E5%AF%BE%E5%BF%9C%E9%87%8D%E7%82%B9%E6%94%AF%E6%8F%B4%E5%9C%B0%E6%96%B9%E5%89%B5%E7%94%9F%E8%87%A8%E6%99%82%E4%BA%A4%E4%BB%98%E9%87%91%E5%8A%B9%E6%9E%9C%E6%A4%9C%E8%A8%BCR5%20%E5%85%AC%E8%A1%A8%E7%94%A8.pdf",
+      "sourceSha256": "b5168be2272d6ddbf5b6b65cc664767cb25440754d1290ab3d06e5672139a6ff",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 2058,
+      "fullTextSha256": "8adec4cb46c31b3e3bf40de5d708268140f7c15169e155f3f824714a5135859c"
+    },
+    "proof": "令和5年度物価高騰重点支援地方創生臨時交付金実施計画 実施状況及び効果検証",
+    "proofStart": 0,
+    "rows": [
+      {
+        "name": "山形村電力・ガス・食料品等価格高騰緊急支援給付金（追加分）【物価高騰対策給付金】",
+        "start": 248,
+        "raw": "山形村電力・ガス・食料品\n②低所得世帯への給付金及び事務費\n等価格高騰緊急支援給付\n③給付金額 R5年度の住民税非課税世帯 640世帯×70千円\n金（追加分）【物価高騰対策\n事務費455千円 事務費の内容 ［需用費（事務用品等）役務費\n給付金】",
+        "segments": [
+          {
+            "start": 248,
+            "raw": "山形村電力・ガス・食料品"
+          },
+          {
+            "start": 278,
+            "raw": "等価格高騰緊急支援給付"
+          },
+          {
+            "start": 321,
+            "raw": "金（追加分）【物価高騰対策"
+          },
+          {
+            "start": 366,
+            "raw": "給付金】"
+          }
+        ],
+        "evaluatedFiscalYear": 2023,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "物価高騰対応重点支援事業(住民税均等割のみ課税世帯）【物価高騰対策給付金】",
+        "start": 448,
+        "raw": "物価高騰対応重点支援事\n②住民税均等割のみ課税世帯等への給付金及び事務費\n業(住民税均等割のみ課税\n③給付金額 R5年度の住民税均等割のみ課税世帯等210世帯\n世帯）【物価高騰対策給付\n×100千円 事務費173千円 事務費の内容 ［需用費（事務用\n金】",
+        "segments": [
+          {
+            "start": 448,
+            "raw": "物価高騰対応重点支援事"
+          },
+          {
+            "start": 485,
+            "raw": "業(住民税均等割のみ課税"
+          },
+          {
+            "start": 528,
+            "raw": "世帯）【物価高騰対策給付"
+          },
+          {
+            "start": 573,
+            "raw": "金】"
+          }
+        ],
+        "evaluatedFiscalYear": 2023,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "物価高騰対応重点支援事業（こども加算）【物価高騰対策給付金】",
+        "start": 880,
+        "raw": "物価高騰対応重点支援事\n業（こども加算）【物価高騰\n対策給付金】",
+        "segments": [
+          {
+            "start": 880,
+            "raw": "物価高騰対応重点支援事"
+          },
+          {
+            "start": 892,
+            "raw": "業（こども加算）【物価高騰"
+          },
+          {
+            "start": 906,
+            "raw": "対策給付金】"
+          }
+        ],
+        "evaluatedFiscalYear": 2023,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      },
+      {
+        "name": "物価高騰対策対応子育て世帯特別支援臨時給付金",
+        "start": 914,
+        "raw": "物価高騰対策対応子育て\n世帯特別支援臨時給付金",
+        "segments": [
+          {
+            "start": 914,
+            "raw": "物価高騰対策対応子育て"
+          },
+          {
+            "start": 926,
+            "raw": "世帯特別支援臨時給付金"
+          }
+        ],
+        "evaluatedFiscalYear": 2023,
+        "evaluationYear": null,
+        "note": "Literal named implementation row in explicit fiscal report. No money, quantities, score or department inferred from interleaved columns. Funding components/duplicate safety labels/cross-year units separately held."
+      }
+    ]
+  }
+];

@@ -1,32 +1,37 @@
 {
-  "candidateRecords": 346,
+  "candidateRecords": 480,
   "perMunicipality": {
     "信濃町": 2,
     "高山村": 9,
     "坂城町": 48,
-    "松川村": 287
+    "松川村": 287,
+    "筑北村": 3,
+    "朝日村": 2,
+    "山形村": 89,
+    "王滝村": 11,
+    "南木曽町": 29
   },
-  "validatedCumulativeCandidates": 28540,
-  "validatedEvidence": 82301,
+  "validatedCumulativeCandidates": 28674,
+  "validatedEvidence": 82839,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "cbd665e04184a38a88998ef4b50ada7e2619adf8",
+  "previousHead": "bc05893ca5781d7380f6ef0edb1da66795dad27e",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "6/6",
-    "crawler": "760/760",
+    "focused": "18/18",
+    "crawler": "772/772",
     "web": "256/256; maxWorkers=1",
     "typecheck": "passed",
     "lint": "passed; existing font warning",
     "national": "passed branch baseline",
     "static": "109/109 subpath",
-    "quotes": "28540 candidates /82301 quotes"
+    "quotes": "28674 candidates /82839 quotes"
   },
   "remoteCI": "unverified; known Actions API403 not retried",
-  "remaining": "Nagano cached review continues. Grants94, Otaki11 and Nagiso29 are stage-only, not included.27missing bodies;1incomplete source requires bounded-sheet review, no refetch."
+  "remaining": "Nagano cached review continues. Stage-only221: Kiso3,Nagiso additional25,Oshika106,Toyooka87.27missing bodies and1incomplete source remain acquisition-held; layouts are separate actionable queue."
 }

@@ -1,0 +1,32 @@
+[
+  {
+    "sourceId": "4d4933d51526b313f49d8cfc",
+    "status": "identity_period_hold",
+    "reason": "Funding transfer row reuses adjustment-benefit destination; do not create a transfer project. Regular/carryover重点支援titles andvoucher carryover row require explicit execution-period and shared-identity resolution. No amounts mapped; printed arithmetic anomaly retained."
+  },
+  {
+    "sourceId": "e66e946fdfd1fc43ab5cc92d",
+    "status": "navigation_or_policy_kpi",
+    "reason": "Navigation,policy/KPI table or external policy comments. Not individual business sheets; do not convert policy headings, statistical rows, programme examples or future proposals to annual business records. Individual business-sheet publication is expressly omitted in saved landing-page text; cached policy21 provides only2explicit business names, with unknown targetyear."
+  },
+  {
+    "sourceId": "4defcf5afaacf767869544c3",
+    "status": "navigation_or_policy_kpi",
+    "reason": "Navigation,policy/KPI table or external policy comments. Not individual business sheets; do not convert policy headings, statistical rows, programme examples or future proposals to annual business records. Individual business-sheet publication is expressly omitted in saved landing-page text; cached policy21 provides only2explicit business names, with unknown targetyear."
+  },
+  {
+    "sourceId": "fc7d8c80f2c281871b770b70",
+    "status": "navigation_or_policy_kpi",
+    "reason": "Navigation,policy/KPI table or external policy comments. Not individual business sheets; do not convert policy headings, statistical rows, programme examples or future proposals to annual business records. Individual business-sheet publication is expressly omitted in saved landing-page text; cached policy21 provides only2explicit business names, with unknown targetyear."
+  },
+  {
+    "sourceId": "9e54c4b2463a03631b633255",
+    "status": "navigation_or_policy_kpi",
+    "reason": "Navigation,policy/KPI table or external policy comments. Not individual business sheets; do not convert policy headings, statistical rows, programme examples or future proposals to annual business records. Individual business-sheet publication is expressly omitted in saved landing-page text; cached policy21 provides only2explicit business names, with unknown targetyear."
+  },
+  {
+    "sourceId": "cf10c8211e7197f80c0f4a58",
+    "status": "navigation_or_policy_kpi",
+    "reason": "Navigation,policy/KPI table or external policy comments. Not individual business sheets; do not convert policy headings, statistical rows, programme examples or future proposals to annual business records. Individual business-sheet publication is expressly omitted in saved landing-page text; cached policy21 provides only2explicit business names, with unknown targetyear."
+  }
+]
