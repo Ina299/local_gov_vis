@@ -1,3 +1,5 @@
+import {reviewMori} from './descending-mori';
+import {reviewShizuokaSheets} from './descending-shizuoka-sheets';
 import {reviewAichi} from './descending-aichi';
 import {reviewMie} from './descending-mie';
 import {reviewShiga} from './descending-shiga';
@@ -57,6 +59,7 @@ const evidenceHolds:Record<string,{code:string;proof:string;reason:string;status
  '0a23c81c6c6ae8a10e4fd6cd':{code:'46492',proof:'２．2020 年度実績（\n「宇宙乃浦」創生・「スペースサイエンスタウン構想」実現プロジェクト）',status:'joint_project_identity_hold',reason:'2020 actual report jointly covers two named projects with shared activities/budget, followed by2021 plans and forecast KPI cells. Individual allocation and boundaries are absent; do not split or assign shared figures.'}
 };
 export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]):LayoutReview|null{
+ const shizuoka=reviewMori(input)??reviewShizuokaSheets(input);if(shizuoka)return shizuoka;
  const aichi=reviewAichi(input);if(aichi)return aichi;
  const mie=reviewMie(input);if(mie)return mie;
  const shiga=reviewShiga(input);if(shiga)return shiga;

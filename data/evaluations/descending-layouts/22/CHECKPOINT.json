@@ -1,0 +1,29 @@
+{
+  "candidateRecords": 1614,
+  "perMunicipality": {
+    "森町": 1592,
+    "川根本町": 22
+  },
+  "validatedCumulativeCandidates": 26940,
+  "validatedEvidence": 76112,
+  "separateSets": {
+    "Okinawa": 1084,
+    "initial": 93
+  },
+  "previousHead": "e447093b20ca01f7e5c2deebb4831889081137d3",
+  "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0,
+  "checks": {
+    "focused": "8/8",
+    "crawler": "711/711",
+    "web": "256/256",
+    "typecheck": "passed",
+    "lint": "passed; existing font warning",
+    "national": "passed branch baseline",
+    "static": "109/109 subpath"
+  },
+  "remoteCI": "unverified; known API403 not retried",
+  "remaining": "Shizuoka review ongoing: 92 sources, 90 verified cached bodies, 2 missing. Driver unsupported_layout is pending review, not a terminal evidence/access blocker. Additional proposals remain outside this checkpoint. Archive includes master-adopted/excluded records; not all new production data."
+}

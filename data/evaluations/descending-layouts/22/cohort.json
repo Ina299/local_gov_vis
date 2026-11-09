@@ -1,0 +1,228 @@
+{
+  "prefecture": "22",
+  "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-09T14:37:30.506655+00:00",
+  "unpublishedUserChanges": "not observable;collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "22461",
+      "municipalityName": "森町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a55bd6a22d66f1690c2d4997a2dd12acacb8d2e471031fb8d99ced3108674d61"
+    },
+    {
+      "municipalityCode": "22429",
+      "municipalityName": "川根本町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b3747f1589d1824a28a5b37e65a08b70b5ed20a1eb82a00c326fd570c5f33d8f"
+    },
+    {
+      "municipalityCode": "22424",
+      "municipalityName": "吉田町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f0281eec7654bb995d5b04ecde897e079e5a260d2dff9f4d5706de83ea821838"
+    },
+    {
+      "municipalityCode": "22344",
+      "municipalityName": "小山町",
+      "datasetSha256": "a4eb2b0810fb0d56dc32112b6d919aa44a0fb8ff620b75d27dc4d8f53348fbcb",
+      "evidenceShardSha256": "31901191e693e62718d1677e64cc2dcf7964ab34cb541ed8fa0b2eb4a8654e9c"
+    },
+    {
+      "municipalityCode": "22342",
+      "municipalityName": "長泉町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c554e12da2437010a25bdb54e2cb8c499bd2f156cca9496e0defa68297a4badf"
+    },
+    {
+      "municipalityCode": "22341",
+      "municipalityName": "清水町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "067ca7364e7c8d5f1911f0bc67cc63b7058dd280903331a24d34410d8fc37f4b"
+    },
+    {
+      "municipalityCode": "22325",
+      "municipalityName": "函南町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "85e520814dc26be50385ce35ebd8df5778f016cbb22d96dd02908781243b6b33"
+    },
+    {
+      "municipalityCode": "22305",
+      "municipalityName": "松崎町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6a20f17c9244ea7dee9c3ac74ad0ca8a9ee46114eacdd1338369b37be2d92a87"
+    },
+    {
+      "municipalityCode": "22302",
+      "municipalityName": "河津町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "28b5f19082db10c7117998715acf18e80332f0964d2faed0513c6a43a20d2a01"
+    },
+    {
+      "municipalityCode": "22301",
+      "municipalityName": "東伊豆町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "41c34085b9f0a80303303ef29800743f161768d1ca5e1a264a071b7b28f4711b"
+    },
+    {
+      "municipalityCode": "22226",
+      "municipalityName": "牧之原市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a82c6810094dee945cef0adc3633e7baa8ac9528eac4764a63abeac11f0e2d4b"
+    },
+    {
+      "municipalityCode": "22225",
+      "municipalityName": "伊豆の国市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "098cd347c55b057378dd13bc57aaa38e1ba1188f7d37ce5de8ac3a1bb914be3b"
+    },
+    {
+      "municipalityCode": "22224",
+      "municipalityName": "菊川市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ddb3e1e2e00e33047a68b05ac5f449ec6a313351560f2921fd964d783edaa449"
+    },
+    {
+      "municipalityCode": "22223",
+      "municipalityName": "御前崎市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "0916a87280e50a40fa60b9d5b8c7aea50dc0da06507b51a6d3442bbb74e0427f"
+    },
+    {
+      "municipalityCode": "22222",
+      "municipalityName": "伊豆市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "bf59dd63a21bd8cda2a721ecf54768602abf702c8a58682730793257728c313d"
+    },
+    {
+      "municipalityCode": "22221",
+      "municipalityName": "湖西市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b176cfba0ef59b5dcdb20d250847af1955ace5fd9f6bcf5404ce2f56b42d49f7"
+    },
+    {
+      "municipalityCode": "22220",
+      "municipalityName": "裾野市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e64ca3a9ec80ab4883ab6452aaf90cb3bba7805523fa069ef64451b14d4f4b3f"
+    },
+    {
+      "municipalityCode": "22219",
+      "municipalityName": "下田市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "0e4d73e56ad41768df0b6740bc47eede39c8f787b089a192c1d80dcd55944a3f"
+    },
+    {
+      "municipalityCode": "22216",
+      "municipalityName": "袋井市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "2793f6db7f02bac54f937ecbd0ff46286c9c67d032474c710b757ff09ca0beb0"
+    },
+    {
+      "municipalityCode": "22215",
+      "municipalityName": "御殿場市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "9da0b4247a01f8514f4f22f54abd43827c1046391188cf32bc19ce9fc86879f0"
+    },
+    {
+      "municipalityCode": "22212",
+      "municipalityName": "焼津市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b93154603cba8d7042b45f7cf8db73a6d6369d1ed248507ed99db24cb5b7253b"
+    },
+    {
+      "municipalityCode": "22211",
+      "municipalityName": "磐田市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "5728704643f13285dc1833043886110011ad45d10d115923b77575c40cf5abaf"
+    },
+    {
+      "municipalityCode": "22209",
+      "municipalityName": "島田市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "278b98b401250a88749450cf575f732fe0ef709c8671c9aa4837eef80a382e89"
+    },
+    {
+      "municipalityCode": "22208",
+      "municipalityName": "伊東市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "2bf73a4367f5474e3f89d12edeabf4f267ed591961e01dd5db2f12ff6191b1b3"
+    },
+    {
+      "municipalityCode": "22207",
+      "municipalityName": "富士宮市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "4343a708abe6c6a335b63a30650972107b188d4c1150a683d4284715a1c49165"
+    },
+    {
+      "municipalityCode": "22206",
+      "municipalityName": "三島市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7fa0a7e7153316a84c89d4774cabc5bdb908bcd09df75eb017cfd69b7c326caf"
+    },
+    {
+      "municipalityCode": "22205",
+      "municipalityName": "熱海市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "39ee0a128c7f3291cc2440fdaaaa991f8b90512a5f3f1ecd47d6b671bc674751"
+    },
+    {
+      "municipalityCode": "22203",
+      "municipalityName": "沼津市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c8d34582c7634239252b05722636791426e58ba02082e59f56272cc5525a2793"
+    },
+    {
+      "municipalityCode": "22100",
+      "municipalityName": "静岡市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6e20819824016f035fe36eb3bcb80727b192f966bc0563e38ecd05a0bb763c71"
+    }
+  ],
+  "skipped": [
+    {
+      "municipalityCode": "22306",
+      "municipalityName": "西伊豆町",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "22304",
+      "municipalityName": "南伊豆町",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "22214",
+      "municipalityName": "藤枝市",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "22213",
+      "municipalityName": "掛川市",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "22210",
+      "municipalityName": "富士市",
+      "reasons": [
+        "original recent-master exclusion: local baseline differs from common ancestor"
+      ]
+    },
+    {
+      "municipalityCode": "22130",
+      "municipalityName": "浜松市",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    }
+  ],
+  "rule": "Only exact unchanged dataset/evidence hashes; retain original exclusions; never update baseline hashes to silence mismatch."
+}
