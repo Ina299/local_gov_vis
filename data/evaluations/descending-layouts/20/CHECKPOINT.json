@@ -1,5 +1,5 @@
 {
-  "candidateRecords": 1638,
+  "candidateRecords": 1642,
   "perMunicipality": {
     "信濃町": 2,
     "高山村": 9,
@@ -10,7 +10,7 @@
     "山形村": 89,
     "王滝村": 11,
     "木祖村": 9,
-    "南木曽町": 167,
+    "南木曽町": 171,
     "大鹿村": 106,
     "豊丘村": 89,
     "泰阜村": 9,
@@ -30,27 +30,27 @@
     "岡谷市": 344,
     "上田市": 12
   },
-  "validatedCumulativeCandidates": 29832,
-  "validatedEvidence": 86742,
+  "validatedCumulativeCandidates": 29836,
+  "validatedEvidence": 86758,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "8baf75d02902f49db495f6b123eb01c6f3a4ab99",
+  "previousHead": "dab91198ced1742da053bdc029e08bb05ba80462",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "123/123",
-    "crawler": "877/877",
+    "focused": "126/126",
+    "crawler": "880/880",
     "web": "256/256; serial",
     "typecheck": "passed",
     "lint": "passed; existing font warning",
     "national": "passed branch baseline",
     "static": "109/109 subpath",
-    "quotes": "29832 candidates /86742 quotes"
+    "quotes": "29836 candidates /86758 quotes"
   },
   "remoteCI": "unverified; known ActionsAPI403 not retried",
-  "remaining": "Thirteen welfare/forestry names verified;4current-year roadprogramme proposals remain separately staged.1forest overlap hold and exact consultation/family-support/year holds remain.27missing bodies and1incomplete source without refetch."
+  "remaining": "Current cached Nagano named-unit review completed with explicit source-specific holds:27missing bodies,1incomplete source,24noncandidate layouts with documented reasons,forest/consultation/family/year identity holds. Processed sources do not assert complete field coverage. Yamanashi74andFukui proposals remain separately staged."
 }

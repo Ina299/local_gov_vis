@@ -1,3 +1,4 @@
+import{reviewNagisoRoads}from'./descending-nagano-roads';
 import{reviewSuwaTourism}from'./descending-nagano-suwa-tourism';
 import{reviewYasuoka2018}from'./descending-nagano-yasuoka-2018';
 import{reviewNamedGrantPeriods}from'./descending-nagano-named-grant-periods';
@@ -104,7 +105,7 @@ const evidenceHolds:Record<string,{code:string;proof:string;reason:string;status
 };
 export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]):LayoutReview|null{
  const kisoReview=reviewKiso(input,inputs);if(kisoReview)return kisoReview;
- const nagisomoreReview=reviewNagisoMore(input);if(nagisomoreReview){const prior=reviewNagisoNext(input)!;if(prior.status==='source_integrity_hold'||nagisomoreReview.status==='source_integrity_hold')return {projects:[],units:[],proofs:[],status:'source_integrity_hold',reason:'Bothsource reviews must pass'};return {...prior,projects:[...prior.projects,...nagisomoreReview.projects],units:[...prior.units,...nagisomoreReview.units]};}
+ const nagisomoreReview=reviewNagisoMore(input);if(nagisomoreReview){const prior=reviewNagisoNext(input),roads=reviewNagisoRoads(input);if(!prior||!roads||prior.status==='source_integrity_hold'||nagisomoreReview.status==='source_integrity_hold'||roads.status==='source_integrity_hold')return {projects:[],units:[],proofs:[],status:'source_integrity_hold',reason:'All three source reviews must pass'};return {...prior,projects:[...prior.projects,...nagisomoreReview.projects,...roads.projects],units:[...prior.units,...nagisomoreReview.units,...roads.units]};}
  const nagisonextReview=reviewNagisoNext(input);if(nagisonextReview)return nagisonextReview;
  const oshikaReview=reviewOshika(input);if(oshikaReview)return oshikaReview;
  const toyookaReview=reviewToyooka(input,inputs);if(toyookaReview)return toyookaReview;
