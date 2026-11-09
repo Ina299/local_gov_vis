@@ -1,5 +1,5 @@
 {
-  "candidateRecords": 616,
+  "candidateRecords": 801,
   "perMunicipality": {
     "白川村": 320,
     "御嵩町": 128,
@@ -11,29 +11,36 @@
     "揖斐川町": 10,
     "安八町": 10,
     "神戸町": 15,
-    "関ケ原町": 35
+    "関ケ原町": 35,
+    "垂井町": 26,
+    "岐南町": 5,
+    "飛騨市": 2,
+    "瑞穂市": 80,
+    "山県市": 39,
+    "可児市": 13,
+    "瑞浪市": 20
   },
-  "validatedCumulativeCandidates": 27979,
-  "validatedEvidence": 80200,
+  "validatedCumulativeCandidates": 28164,
+  "validatedEvidence": 80781,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "1695fc5f070859b4d3acaed66ffae57c257eb956",
+  "previousHead": "ea338c42873fff8b90d8936830e8e10f4ab81533",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "14/14",
-    "crawler": "737/737",
+    "focused": "26/26",
+    "crawler": "749/749",
     "web": "256/256, maxWorkers=1",
     "typecheck": "passed",
     "lint": "passed; existing font warning",
     "national": "passed branch baseline",
     "static": "109/109 subpath",
-    "quotes": "27979 candidates /80200 quotes"
+    "quotes": "28164 candidates /80781 quotes"
   },
   "remoteCI": "unverified; known Actions API403 not retried",
-  "remaining": "185 separately staged proposals are not included or fully validated. Layout review remains actionable; 16 missing bodies held; three garbled Godo sources require original bytes or verified glyph mapping. Unpublished user changes unobservable."
+  "remaining": "30 separately staged followup/layout proposals excluded; full integration/regression pending. Missing16 bodies, Godo3garbled texts, row-period and identity holds remain; no municipal requests."
 }

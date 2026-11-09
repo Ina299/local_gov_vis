@@ -1,3 +1,7 @@
+import{reviewGifuActivities}from'./descending-gifu-activities';
+import{reviewMizuhoPrimary}from'./descending-gifu-mizuho';
+import{reviewGifuEducationNames}from'./descending-gifu-education';
+import{reviewKaniMizunami}from'./descending-gifu-council';
 import{reviewGifuNext}from'./descending-gifu-bounded';
 import{reviewGifu}from'./descending-gifu-shirakawa';
 import{reviewMitake}from'./descending-gifu-mitake';
@@ -64,7 +68,7 @@ const evidenceHolds:Record<string,{code:string;proof:string;reason:string;status
  '0a23c81c6c6ae8a10e4fd6cd':{code:'46492',proof:'２．2020 年度実績（\n「宇宙乃浦」創生・「スペースサイエンスタウン構想」実現プロジェクト）',status:'joint_project_identity_hold',reason:'2020 actual report jointly covers two named projects with shared activities/budget, followed by2021 plans and forecast KPI cells. Individual allocation and boundaries are absent; do not split or assign shared figures.'}
 };
 export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]):LayoutReview|null{
- const gifu=reviewGifuNext(input)??reviewGifu(input)??reviewMitake(input)??reviewTomika(input);if(gifu)return gifu;
+ const gifu=reviewGifuActivities(input)??reviewMizuhoPrimary(input)??reviewGifuEducationNames(input)??reviewKaniMizunami(input)??reviewGifuNext(input)??reviewGifu(input)??reviewMitake(input)??reviewTomika(input);if(gifu)return gifu;
  const shizuoka=reviewMori(input)??reviewShizuokaSheets(input)??reviewIwata(input);if(shizuoka)return shizuoka;
  const aichi=reviewAichi(input);if(aichi)return aichi;
  const mie=reviewMie(input);if(mie)return mie;
