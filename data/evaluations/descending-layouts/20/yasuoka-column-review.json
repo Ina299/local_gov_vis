@@ -1,0 +1,28 @@
+{
+  "sourceId": "4d0c8450d13e04616edfbb4a",
+  "cachedTextSha256": "d2554121ed92b61d086b28bca683ca3d9d2afbf98e8061e63b49423389d7ec7b",
+  "characters": 8397,
+  "status": "fiscal_column_alignment_review",
+  "reviewedScope": "Full cached headings and first employment/agriculture policy block; remaining blocks not yet exhaustively reviewed",
+  "proofs": [
+    {
+      "rawText": "平成30年度事業について",
+      "startCharacter": 77
+    },
+    {
+      "rawText": "2015年度\n（平成27年\n度）",
+      "startCharacter": 91
+    },
+    {
+      "rawText": "2019年度\n（令和元年度）",
+      "startCharacter": 145
+    },
+    {
+      "rawText": "2018年度\n（平成30年度）",
+      "startCharacter": 1692
+    }
+  ],
+  "reason": "2015～2017の事業費・KPI実績、2018年度事業、2019目標の列見出しが本文で離れており、政策見出しと個別活動を区別する必要。見出しの年だけを全行の決算年度へ適用しない。",
+  "nextAction": "Remaining bounded individual activities and their explicit period/identity require review; layout work remains actionable, no access denial.",
+  "accepted": 0
+}

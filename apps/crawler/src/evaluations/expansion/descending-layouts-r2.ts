@@ -1,3 +1,6 @@
+import{reviewNamedGrantPeriods}from'./descending-nagano-named-grant-periods';
+import{reviewTenryuKpi}from'./descending-nagano-tenryu-kpi';
+import{reviewAsahiExternal}from'./descending-nagano-asahi-external';
 import{reviewAsahiKpi}from'./descending-nagano-asahi-kpi';
 import{reviewUeda}from'./descending-nagano-ueda';
 import{reviewOkayaProgress}from'./descending-nagano-okaya-progress';
@@ -123,6 +126,9 @@ export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]
  const okayaprogressReview=reviewOkayaProgress(input);if(okayaprogressReview)return okayaprogressReview;
  const uedaReview=reviewUeda(input);if(uedaReview)return uedaReview;
  const asahiKpiReview=reviewAsahiKpi(input,inputs);if(asahiKpiReview)return asahiKpiReview;
+ const asahiexternalReview=reviewAsahiExternal(input,inputs);if(asahiexternalReview)return asahiexternalReview;
+ const tenryukpiReview=reviewTenryuKpi(input,inputs);if(tenryukpiReview)return tenryukpiReview;
+ const namedgrantperiodsReview=reviewNamedGrantPeriods(input);if(namedgrantperiodsReview)return namedgrantperiodsReview;
  const grantsReview=reviewNaganoGrants(input);if(grantsReview)return grantsReview;
  const strategyReview=reviewStrategy(input);if(strategyReview)return strategyReview;
  const nagisoReview=reviewNagiso(input);if(nagisoReview)return nagisoReview;

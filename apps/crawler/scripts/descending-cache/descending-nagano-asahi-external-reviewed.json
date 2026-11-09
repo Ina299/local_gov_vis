@@ -1,0 +1,33 @@
+{
+  "source": {
+    "municipalityCode": "20451",
+    "municipalityName": "朝日村",
+    "sourceId": "cf10c8211e7197f80c0f4a58",
+    "url": "https://www.vill.asahi.nagano.jp/material/files/group/11/r4_gaibu.pdf",
+    "sourceSha256": "03afa8e56d46e9b3e34cb958edfd2cc6bb8a1022282e4fddbbe8cf59f823e772",
+    "fullTextSha256": "5a99eea04783d14c92a995276ba21e6e8d66600e673d865d04f150720a132331",
+    "assetPath": "documents/cf10c8211e7197f80c0f4a58.json",
+    "assetSha256": "4990c19d9f320f7a641ee5a4c6288051f3ddf1dde65b67ddc1ff31ca3f1ac371"
+  },
+  "yearSource": {
+    "municipalityCode": "20451",
+    "municipalityName": "朝日村",
+    "sourceId": "e66e946fdfd1fc43ab5cc92d",
+    "url": "https://www.vill.asahi.nagano.jp/official/soshikikarasagasu/kikakuzaisei/kikakutanto/4/4198.html",
+    "sourceSha256": "c8207c97c6f89364104235ff7434c2593d4849428c68ff440ea884529c2a33ab",
+    "fullTextSha256": "70f3cd07b01dcddbccfd21342ac252be3443ff5293ec2633e04767864bb4ec64",
+    "assetPath": "documents/e66e946fdfd1fc43ab5cc92d.json",
+    "assetSha256": "dd5315fb84557179e362990802216db6ac89a1d2821baf5c2938e7688d8f80a3"
+  },
+  "name": "ゼロカーボン推進補助金",
+  "raw": "ゼロカーボン推進補助金",
+  "start": 7751,
+  "proof": "ゼロカーボン推進補助金の括りに含まれている。令和５\n・一例として、生ごみを減らすためのコンポスターの補助金\n年度から補助金額を引き上げた。\nは事務事業評価のどの項目に該当するのか？\n建設環境課 ・近隣自治体を参考に補助金額の上限を１万円から３万円\n・補助金額の拡充を図ったとのことだが年間何件あり、増額\nに引き上げた。申請件数は７件／年。引上げ後、現時点で\n後の実績はどうか？\n７件。",
+  "proofStart": 7751,
+  "yearProof": "令和5年度 行政評価（外部評価）",
+  "yearProofStart": 1632,
+  "linkProof": "外部評価まとめ (PDFファイル: 562.4KB)",
+  "linkProofStart": 1679,
+  "evaluationYear": 2023,
+  "evaluatedFiscalYear": null
+}

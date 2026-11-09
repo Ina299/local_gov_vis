@@ -1,0 +1,41 @@
+{
+  "sourceId": "15c84080811ea70453dba415",
+  "sourceUrl": "https://www.city.suwa.lg.jp/uploaded/attachment/38569.pdf",
+  "sourceSha256": "d56057998303e99b10a9e1a4fe2176c7f20d179f7ff7b81d2e4fb11c08a9fdb4",
+  "prefixSha256": "40925be92766ab00b33368599a98ab1572c251e9165148a57d94df1375b1cb7c",
+  "recordedInputTextSha256": "304391b5f1d1109bd4321026cbccf2db0c8135136c743535ce797c5e549df0f0",
+  "originalCharacters": 137516,
+  "availableCharacters": 120000,
+  "missingCharacters": 17516,
+  "listedContinuationParts": 0,
+  "status": "8_stage_candidates_tests_passed_fullvalidation_pending",
+  "acceptedStageNames": [
+    "高齢者生活支援事業",
+    "任意事業",
+    "地球温暖化対策事業",
+    "芸術・文化振興事業",
+    "産業連携推進事業",
+    "観光宣伝事業",
+    "機構集積支援事業",
+    "人材確保推進事業"
+  ],
+  "heldFinalPage": [
+    {
+      "start": 118948,
+      "name": "区・自治会支援事業",
+      "reason": "Last cached page46/52 has no next-page closing boundary; do not emit partial row."
+    },
+    {
+      "start": 119856,
+      "name": "まちづくり推進事業",
+      "reason": "Last cached page46/52 has no next-page closing boundary; do not emit partial row."
+    }
+  ],
+  "masterPrimaryRecordsCompared": 28,
+  "masterHistoricalCount": 204,
+  "historicalRecordBodiesVerified": false,
+  "masterMatchingCandidates": 0,
+  "reason": "完結した保存ページ内の明記された2021年度事務事業名8件だけを抽出。既存28件の全値を保持し、元の204件という索引表示から個別レコードを推測しない。候補公開前に完全な重複保証があるとは主張しない。",
+  "scope": "既存の単行名称プローブ38件のうち28件は既存、8件は完結ページ、2件は不完全末尾。折返し名称・他の行はまだ別途レビュー対象。全文や204件全体の構造化完了ではない。",
+  "networkRequests": 0
+}

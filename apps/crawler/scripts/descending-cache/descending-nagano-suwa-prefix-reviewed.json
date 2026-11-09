@@ -1,0 +1,141 @@
+{
+  "sourceId": "15c84080811ea70453dba415",
+  "municipalityCode": "20206",
+  "municipalityName": "諏訪市",
+  "sourceUrl": "https://www.city.suwa.lg.jp/uploaded/attachment/38569.pdf",
+  "sourceSha256": "d56057998303e99b10a9e1a4fe2176c7f20d179f7ff7b81d2e4fb11c08a9fdb4",
+  "prefixSha256": "40925be92766ab00b33368599a98ab1572c251e9165148a57d94df1375b1cb7c",
+  "originalCharacters": 137516,
+  "exportedCharacters": 120000,
+  "recordedInputTextSha256": "304391b5f1d1109bd4321026cbccf2db0c8135136c743535ce797c5e549df0f0",
+  "year": 2021,
+  "evaluationYear": 2021,
+  "proof": "令和3年度 事務事業評価結果 一覧表",
+  "proofStart": 23,
+  "rows": [
+    {
+      "name": "高齢者生活支援事業",
+      "serial": "22",
+      "start": 14816,
+      "raw": "高齢者生活支援事業",
+      "identityLine": "22 高齢者生活支援事業",
+      "identityLineStart": 14813,
+      "pageStart": 13730,
+      "pageMarker": "7/52",
+      "pageEnd": 16325,
+      "nextPageMarker": "8/52",
+      "note": "2021年度の整理番号付き名称のみ。完結ページ境界を確認。整列が不明な決算額・評価記号・説明列は抽出しない。既存28件との照合は別監査。索引上の過去204件の実体は未確認であり、公開新規と断定しない。",
+      "end": 14825
+    },
+    {
+      "name": "任意事業",
+      "serial": "25",
+      "start": 16988,
+      "raw": "任意事業",
+      "identityLine": "自 25 任意事業",
+      "identityLineStart": 16983,
+      "pageStart": 16325,
+      "pageMarker": "8/52",
+      "pageEnd": 19033,
+      "nextPageMarker": "9/52",
+      "note": "2021年度の整理番号付き名称のみ。完結ページ境界を確認。整列が不明な決算額・評価記号・説明列は抽出しない。既存28件との照合は別監査。索引上の過去204件の実体は未確認であり、公開新規と断定しない。",
+      "end": 16992
+    },
+    {
+      "name": "地球温暖化対策事業",
+      "serial": "51",
+      "start": 33897,
+      "raw": "地球温暖化対策事業",
+      "identityLine": "51 地球温暖化対策事業",
+      "identityLineStart": 33894,
+      "pageStart": 31380,
+      "pageMarker": "14/52",
+      "pageEnd": 35110,
+      "nextPageMarker": "15/52",
+      "note": "2021年度の整理番号付き名称のみ。完結ページ境界を確認。整列が不明な決算額・評価記号・説明列は抽出しない。既存28件との照合は別監査。索引上の過去204件の実体は未確認であり、公開新規と断定しない。",
+      "end": 33906
+    },
+    {
+      "name": "芸術・文化振興事業",
+      "serial": "75",
+      "start": 53083,
+      "raw": "芸術・文化振興事業",
+      "identityLine": "75 芸術・文化振興事業",
+      "identityLineStart": 53080,
+      "pageStart": 50552,
+      "pageMarker": "20/52",
+      "pageEnd": 54281,
+      "nextPageMarker": "21/52",
+      "note": "2021年度の整理番号付き名称のみ。完結ページ境界を確認。整列が不明な決算額・評価記号・説明列は抽出しない。既存28件との照合は別監査。索引上の過去204件の実体は未確認であり、公開新規と断定しない。",
+      "end": 53092
+    },
+    {
+      "name": "産業連携推進事業",
+      "serial": "128",
+      "start": 85715,
+      "raw": "産業連携推進事業",
+      "identityLine": "128 産業連携推進事業",
+      "identityLineStart": 85711,
+      "pageStart": 83049,
+      "pageMarker": "33/52",
+      "pageEnd": 85867,
+      "nextPageMarker": "34/52",
+      "note": "2021年度の整理番号付き名称のみ。完結ページ境界を確認。整列が不明な決算額・評価記号・説明列は抽出しない。既存28件との照合は別監査。索引上の過去204件の実体は未確認であり、公開新規と断定しない。",
+      "end": 85723
+    },
+    {
+      "name": "観光宣伝事業",
+      "serial": "134",
+      "start": 90586,
+      "raw": "観光宣伝事業",
+      "identityLine": "134 観光宣伝事業",
+      "identityLineStart": 90582,
+      "pageStart": 88990,
+      "pageMarker": "35/52",
+      "pageEnd": 91878,
+      "nextPageMarker": "36/52",
+      "note": "2021年度の整理番号付き名称のみ。完結ページ境界を確認。整列が不明な決算額・評価記号・説明列は抽出しない。既存28件との照合は別監査。索引上の過去204件の実体は未確認であり、公開新規と断定しない。",
+      "end": 90592
+    },
+    {
+      "name": "機構集積支援事業",
+      "serial": "146",
+      "start": 98527,
+      "raw": "機構集積支援事業",
+      "identityLine": "146 機構集積支援事業",
+      "identityLineStart": 98523,
+      "pageStart": 97025,
+      "pageMarker": "38/52",
+      "pageEnd": 100185,
+      "nextPageMarker": "39/52",
+      "note": "2021年度の整理番号付き名称のみ。完結ページ境界を確認。整列が不明な決算額・評価記号・説明列は抽出しない。既存28件との照合は別監査。索引上の過去204件の実体は未確認であり、公開新規と断定しない。",
+      "end": 98535
+    },
+    {
+      "name": "人材確保推進事業",
+      "serial": "162",
+      "start": 109456,
+      "raw": "人材確保推進事業",
+      "identityLine": "162 人材確保推進事業",
+      "identityLineStart": 109452,
+      "pageStart": 108183,
+      "pageMarker": "42/52",
+      "pageEnd": 110976,
+      "nextPageMarker": "43/52",
+      "note": "2021年度の整理番号付き名称のみ。完結ページ境界を確認。整列が不明な決算額・評価記号・説明列は抽出しない。既存28件との照合は別監査。索引上の過去204件の実体は未確認であり、公開新規と断定しない。",
+      "end": 109464
+    }
+  ],
+  "holds": [
+    {
+      "start": 118948,
+      "name": "区・自治会支援事業",
+      "reason": "Last cached page46/52 has no next-page closing boundary; do not emit partial row."
+    },
+    {
+      "start": 119856,
+      "name": "まちづくり推進事業",
+      "reason": "Last cached page46/52 has no next-page closing boundary; do not emit partial row."
+    }
+  ]
+}
