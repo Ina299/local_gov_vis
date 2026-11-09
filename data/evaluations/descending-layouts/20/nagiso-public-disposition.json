@@ -1,0 +1,65 @@
+{
+  "source": {
+    "municipalityCode": "20423",
+    "municipalityName": "南木曽町",
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "title": "令和6年度主要事業成果報告書 (pdf, 17.42MB)",
+    "url": "https://www.town.nagiso.nagano.jp/cmsfiles/contents/0000000/272/seikahoukoku.pdf",
+    "sourceSha256": "ff4d10f6d75fb89f214317541f0f738227e2100962810cf3e97018badc792c49",
+    "listedContinuations": [
+      {
+        "assetBytes": 288685,
+        "assetPath": "documents/2a732aac0ca82c9f821a41c1-2.json",
+        "assetSha256": "b04dc732bd7d5eeca7b832987492ea9170f8aa09767c6be42e22105177bee12a",
+        "exportedCharacters": 120000,
+        "part": 2,
+        "startCharacter": 120000,
+        "textSha256": "893d9a4c311d49659a523afa0b7046ea204fcd21fd6263a17442701b2f992f84"
+      },
+      {
+        "assetBytes": 125514,
+        "assetPath": "documents/2a732aac0ca82c9f821a41c1-3.json",
+        "assetSha256": "e65c8f3b3cc72725da9d3d63c8ddb7e5e9b46abde52d10ef7f7f8e77f315fe2e",
+        "exportedCharacters": 57525,
+        "part": 3,
+        "startCharacter": 240000,
+        "textSha256": "809e26197552ec9432764b23f7c9e5ae0113b689d2775ac00351abd2dba02ff2"
+      }
+    ],
+    "inventoryStatus": "complete_hash_verified",
+    "characters": 297525,
+    "fullTextSha256": "f8943ce8916f5ec96e719552817d5ed50479a40836c40c5ff852cc1eff067efb"
+  },
+  "prior45Preserved": true,
+  "reviewedScope": "Named individual school/water/public-health service blocks in complete annual report; not full-book completion",
+  "holds": [
+    "蘇南高校同窓会支援の5費目は親子事業関係を確定せず個別計上しない",
+    "文化財補助の親事業は既存28件群の該当名を保持し、補助財源項目を重複事業にしない",
+    "国保・上下水道等の会計収支・償還表を個別事業にしない",
+    "過年度借入・繰越・県施工の名前を現年度町事業へ無条件転用しない",
+    "この4事業区分内の町道補修60箇所・道路愛護作業48地区・除雪契約159路線等は独立候補へ分割しない",
+    "その他の工事区分・繰越/県施工/現年度識別は未レビュー箇所を残す"
+  ],
+  "additional20": [
+    "ポイ捨て防止監視パトロール事業",
+    "学校給食費負担軽減事業",
+    "中信地区私立学校補助金",
+    "英語検定等検定料補助金",
+    "移動音楽教室鑑賞費補助金",
+    "教育旅行補助金",
+    "学校行事広域ケーブルテレビ番組放送事業",
+    "（部活動支援）南木曽町教育委員会公用車購入事業",
+    "総合型スポーツクラブ補助金",
+    "児童遊具事業",
+    "胃検診等疾病予防事業補助",
+    "人間ドック助成事業",
+    "医療費通知事業",
+    "特定健康診査・特定保健指導事業",
+    "簡易給水施設整備助成",
+    "簡易給水施設水質検査",
+    "道路維持補修事業",
+    "道路台帳整備事業",
+    "除雪対策事業",
+    "河川整備事業"
+  ]
+}

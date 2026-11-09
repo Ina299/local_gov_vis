@@ -1,0 +1,1322 @@
+{
+  "sources": [
+    {
+      "source": {
+        "municipalityCode": "20204",
+        "municipalityName": "岡谷市",
+        "sourceId": "40a971d99549cf4007224834",
+        "title": "【会議資料】令和7年度進捗状況について",
+        "url": "https://www.city.okaya.lg.jp/material/files/group/2/kaigisiror2.pdf",
+        "sourceSha256": "16e6aeb5436140131ffbe67d108fc645f426d9054d8d53e07ee1aa1898e2088b",
+        "listedContinuations": [],
+        "inventoryStatus": "complete_hash_verified",
+        "characters": 28585,
+        "fullTextSha256": "8510f9134754f30d9dcd0fef167a6115df9194be07330617660a932d3bbf3be5"
+      },
+      "year": 2025,
+      "reviewed": 37,
+      "accepted": 32,
+      "rows": [
+        {
+          "probeIndex": 0,
+          "name": "子育て支援ショートステイ等事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 1,
+          "name": "子育てファミリー訪問支援事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 2,
+          "name": "３歳未満児保育料軽減事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 3,
+          "name": "岡谷市保健センター整備事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 4,
+          "name": "地域サポートセンター事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 5,
+          "name": "避難行動要支援者避難支援事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 6,
+          "name": "高齢者のための補聴器購入助成事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 7,
+          "name": "通所型介護予防事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 8,
+          "name": "国民健康保険特定健康診査等事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 9,
+          "name": "健康づくり推進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 10,
+          "name": "病院群輪番制病院運営事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 11,
+          "name": "低所得世帯等学校給食費無償化事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 12,
+          "name": "学校給食費保護者負担軽減事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 13,
+          "name": "学びを活かす岡谷学「コレカラ岡谷」事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 14,
+          "name": "スポーツ施設整備事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 15,
+          "name": "スポーツ振興事業",
+          "status": "insufficient_identity_evidence",
+          "reason": "Parent sports title overlaps adjacent named programme",
+          "matches": []
+        },
+        {
+          "probeIndex": 16,
+          "name": "信州やまなみ国スポ・全障スポ推進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 17,
+          "name": "工業の持続的な発展に向けて、製造業等の事業",
+          "status": "insufficient_identity_evidence",
+          "reason": "Narrative sentence fragment, not title",
+          "matches": []
+        },
+        {
+          "probeIndex": 18,
+          "name": "サポートファーム事業",
+          "status": "insufficient_identity_evidence",
+          "reason": "Support farm and citizen farm parent/alias relation uncertain",
+          "matches": []
+        },
+        {
+          "probeIndex": 19,
+          "name": "市民農園事業",
+          "status": "insufficient_identity_evidence",
+          "reason": "Same support farm heading, not another project",
+          "matches": []
+        },
+        {
+          "probeIndex": 20,
+          "name": "岡谷シルク推進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 21,
+          "name": "家族にもやさしい職場づくりでUIJターン強化事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 22,
+          "name": "消防団員 準中型自動車免許取得事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 23,
+          "name": "交通安全対策推進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 24,
+          "name": "通学路交通安全対策事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 25,
+          "name": "マイボトル持ってeco(いこ）う！推進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 26,
+          "name": "プラスチック資源循環促進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 27,
+          "name": "空き家の適正管理事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 28,
+          "name": "住宅耐震診断・改修事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 29,
+          "name": "移住・田舎ぐらし応援事業",
+          "status": "insufficient_identity_evidence",
+          "reason": "Wrapped title prefix interleaved with neighboring heading",
+          "matches": []
+        },
+        {
+          "probeIndex": 30,
+          "name": "諏訪湖スマートIC整備事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 31,
+          "name": "計画的舗装修繕事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 32,
+          "name": "シルキーバス運行事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 33,
+          "name": "水道施設耐震化事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 34,
+          "name": "下水道総合地震対策事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 35,
+          "name": "ふるさと寄附促進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 36,
+          "name": "公共施設等総合管理計画推進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        }
+      ]
+    },
+    {
+      "source": {
+        "municipalityCode": "20204",
+        "municipalityName": "岡谷市",
+        "sourceId": "5c27a816281184ea83011a3b",
+        "title": "【会議資料】令和6年度進捗状況について",
+        "url": "https://www.city.okaya.lg.jp/material/files/group/2/R7_02_shiryou1.pdf",
+        "sourceSha256": "99ecef9369caf04660f81bb53ab04273bd9a72052f86a4084412c2ce556ab9e1",
+        "listedContinuations": [],
+        "inventoryStatus": "complete_hash_verified",
+        "characters": 28070,
+        "fullTextSha256": "1cad0d7aafda8f930cbaf3029332bc5c71d2e8c985e600d891de52ede2cd5b4f"
+      },
+      "year": 2024,
+      "reviewed": 38,
+      "accepted": 32,
+      "rows": [
+        {
+          "probeIndex": 0,
+          "name": "こども家庭センター「まゆっこベースおかや」設置事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 1,
+          "name": "３歳未満児保育料軽減事業",
+          "status": "evidence_supported_alias_duplicate",
+          "reason": "同年度・同じ3歳未満児保育料軽減。決算報告の子育て応援という冠を含む既存名を維持し、進捗資料の短縮名を別事業にしない。",
+          "matches": [
+            "cached-20204-05adcb61c9d6bd22fbd976cf"
+          ],
+          "existingName": "子育て応援 ３歳未満児保育料軽減事業",
+          "existingEvidence": [
+            {
+              "sourceUrl": "https://www.city.okaya.lg.jp/material/files/group/2/R06_gyouseihoukokusyo.pdf",
+              "sourcePageUrl": "https://www.city.okaya.lg.jp/material/files/group/2/R06_gyouseihoukokusyo.pdf",
+              "format": "pdf",
+              "fetchedAt": "2026-10-21T11:35:38.385Z",
+              "sha256": "f58466d7568e9d942f95e5d05e6fc6193cee89a132a0304b472954753f8fdc7a",
+              "rawText": "子育て応援 ３歳未満児保育料軽減事業",
+              "page": null,
+              "sheet": null,
+              "cell": "extracted-text:chars:133710-133728"
+            },
+            {
+              "sourceUrl": "https://www.city.okaya.lg.jp/material/files/group/2/R06_gyouseihoukokusyo.pdf",
+              "sourcePageUrl": "https://www.city.okaya.lg.jp/material/files/group/2/R06_gyouseihoukokusyo.pdf",
+              "format": "pdf",
+              "fetchedAt": "2026-10-21T11:35:38.385Z",
+              "sha256": "f58466d7568e9d942f95e5d05e6fc6193cee89a132a0304b472954753f8fdc7a",
+              "rawText": "子育て応援 ３歳未満児保育料軽減事業\n ３ 歳 未 満 児 の 保 育 料 に つ い て 、低 所 得 世 帯 及 び 多 子 世 帯 の 保 育 料\nを軽減することにより、子育て世帯の経済的な支援を図った。",
+              "page": null,
+              "sheet": null,
+              "cell": "extracted-text:chars:133710-133815"
+            },
+            {
+              "sourceUrl": "https://www.city.okaya.lg.jp/material/files/group/2/R06_gyouseihoukokusyo.pdf",
+              "sourcePageUrl": "https://www.city.okaya.lg.jp/material/files/group/2/R06_gyouseihoukokusyo.pdf",
+              "format": "pdf",
+              "fetchedAt": "2026-10-21T11:35:38.385Z",
+              "sha256": "f58466d7568e9d942f95e5d05e6fc6193cee89a132a0304b472954753f8fdc7a",
+              "rawText": "令和６年度の一般会計歳出決算額は22,742,687,473円 で、前年度決算額に比べ",
+              "page": null,
+              "sheet": null,
+              "cell": "extracted-text:chars:2946-2989"
+            }
+          ]
+        },
+        {
+          "probeIndex": 2,
+          "name": "保育園給食食材費物価高騰対策事業",
+          "status": "existing_candidate_duplicate",
+          "reason": "Same normalized name and explicit fiscal year",
+          "matches": [
+            "cached-20204-14f85557cf31aff2ac5a0f24"
+          ]
+        },
+        {
+          "probeIndex": 3,
+          "name": "小児科・産婦人科オンライン相談事業",
+          "status": "existing_candidate_duplicate",
+          "reason": "Same normalized name and explicit fiscal year",
+          "matches": [
+            "cached-20204-9a66bc4174bd7b045d71fd9c"
+          ]
+        },
+        {
+          "probeIndex": 4,
+          "name": "地域サポートセンター事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 5,
+          "name": "避難行動要支援者避難支援事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 6,
+          "name": "あったか見守りネットワーク事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 7,
+          "name": "通所型介護予防事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 8,
+          "name": "国民健康保険特定健康診査等事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 9,
+          "name": "健康づくり推進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 10,
+          "name": "病院群輪番制病院運営事業",
+          "status": "existing_candidate_duplicate",
+          "reason": "Same normalized name and explicit fiscal year",
+          "matches": [
+            "cached-20204-dc4dbb818ad4e80295f76c7e"
+          ]
+        },
+        {
+          "probeIndex": 11,
+          "name": "低所得世帯等学校給食費無償化事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 12,
+          "name": "学校給食費保護者負担軽減事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 13,
+          "name": "学びを活かす岡谷学「コレカラ岡谷」事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 14,
+          "name": "スポーツ振興事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 15,
+          "name": "スポーツ施設整備事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 16,
+          "name": "工業の持続的な発展に向けて、製造業等の事業",
+          "status": "insufficient_identity_evidence",
+          "reason": "Narrative fragment",
+          "matches": []
+        },
+        {
+          "probeIndex": 17,
+          "name": "サポートファーム事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 18,
+          "name": "岡谷シルク推進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 19,
+          "name": "諏訪湖サイクリングロード活用推進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 20,
+          "name": "ワーケーション等実施支援事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 21,
+          "name": "家族にもやさしい職場づくりでUIJターン強化事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 22,
+          "name": "消防団車両整備事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 23,
+          "name": "交通安全対策推進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 24,
+          "name": "生活道路安全対策事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 25,
+          "name": "通学路交通安全対策事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 26,
+          "name": "エコドライブ推進事業所登録事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 27,
+          "name": "空き家の適正管理事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 28,
+          "name": "住宅耐震診断・改修事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 29,
+          "name": "移住・田舎ぐらし応援事業",
+          "status": "insufficient_identity_evidence",
+          "reason": "Wrapped title prefix interleaved with neighboring heading",
+          "matches": []
+        },
+        {
+          "probeIndex": 30,
+          "name": "諏訪湖サイクリングロード整備事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 31,
+          "name": "諏訪湖スマートIC整備事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 32,
+          "name": "計画的舗装修繕事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 33,
+          "name": "シルキーバス運行事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 34,
+          "name": "水道施設耐震化事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 35,
+          "name": "下水道総合地震対策事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 36,
+          "name": "ふるさと寄附促進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 37,
+          "name": "公共施設等総合管理計画推進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        }
+      ]
+    },
+    {
+      "source": {
+        "municipalityCode": "20204",
+        "municipalityName": "岡谷市",
+        "sourceId": "e0dd5b60e618578f36dbda1b",
+        "title": "【会議資料】令和5年度進捗状況について",
+        "url": "https://www.city.okaya.lg.jp/material/files/group/2/R6shingikai2_shinchoku1.pdf",
+        "sourceSha256": "2742e315baefa9cabb8f419956fd45c01e0e040c95349742eccb207ee5cd904c",
+        "listedContinuations": [],
+        "inventoryStatus": "complete_hash_verified",
+        "characters": 34612,
+        "fullTextSha256": "aa452c5b87869e167b6507a9c08e7a66401538ab07db02a059c6d564ca97ae84"
+      },
+      "year": 2023,
+      "reviewed": 30,
+      "accepted": 26,
+      "rows": [
+        {
+          "probeIndex": 0,
+          "name": "子ども家庭総合支援拠点事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 1,
+          "name": "保育環境改善等事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 2,
+          "name": "地域サポートセンター事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 3,
+          "name": "避難行動要支援者避難支援事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 4,
+          "name": "あったか見守りネットワーク事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 5,
+          "name": "通所型介護予防事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 6,
+          "name": "国民健康保険特定健康診査等事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 7,
+          "name": "健康づくり推進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 8,
+          "name": "病院群輪番制病院運営事業",
+          "status": "existing_candidate_duplicate",
+          "reason": "Same normalized name and explicit fiscal year",
+          "matches": [
+            "cached-20204-5f0a4ab1eae97b71b067722f"
+          ]
+        },
+        {
+          "probeIndex": 9,
+          "name": "「岡谷市川岸学園整備基本計画」の策定 バリアフリー化事業、トイレ洋式化事業",
+          "status": "insufficient_identity_evidence",
+          "reason": "Two separate project headings are interleaved in one text line",
+          "matches": []
+        },
+        {
+          "probeIndex": 10,
+          "name": "学びを活かす岡谷学「コレカラ岡谷」事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 11,
+          "name": "スポーツ施設整備事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 12,
+          "name": "工業の持続的な発展に向けて、製造業等の事業",
+          "status": "insufficient_identity_evidence",
+          "reason": "Narrative fragment",
+          "matches": []
+        },
+        {
+          "probeIndex": 13,
+          "name": "岡谷・シルクスイートオーナー事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 14,
+          "name": "岡谷シルク推進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 15,
+          "name": "「岡谷へ行こう」関係人口等創出・拡大事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 16,
+          "name": "交通安全対策推進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 17,
+          "name": "生活道路安全対策事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 18,
+          "name": "通学路交通安全対策事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 19,
+          "name": "空き家の適正管理事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 20,
+          "name": "住宅耐震診断・改修事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 21,
+          "name": "移住・田舎ぐらし応援事業",
+          "status": "insufficient_identity_evidence",
+          "reason": "Wrapped title prefix interleaved with neighboring heading",
+          "matches": []
+        },
+        {
+          "probeIndex": 22,
+          "name": "諏訪湖サイクリングロード整備事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 23,
+          "name": "諏訪湖スマートIC整備事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 24,
+          "name": "計画的舗装修繕事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 25,
+          "name": "シルキーバス運行事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 26,
+          "name": "水道施設耐震化事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 27,
+          "name": "下水道総合地震対策事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 28,
+          "name": "ふるさと寄附促進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 29,
+          "name": "公共施設等総合管理計画推進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        }
+      ]
+    },
+    {
+      "source": {
+        "municipalityCode": "20204",
+        "municipalityName": "岡谷市",
+        "sourceId": "a859f4cd1e12e1d748d05166",
+        "title": "【会議資料】令和4年度進捗状況について",
+        "url": "https://www.city.okaya.lg.jp/material/files/group/2/R5shingikai2_shinchoku1.pdf",
+        "sourceSha256": "2c86cd5d2c60224551dbdadfde9a4c6964fd4944b8037a3fff67343e24a21f10",
+        "listedContinuations": [],
+        "inventoryStatus": "complete_hash_verified",
+        "characters": 28220,
+        "fullTextSha256": "c0d3e7f8466d679915dee5916d950e3dd713cf8879723b82eda3b0cc00f4f8b0"
+      },
+      "year": 2022,
+      "reviewed": 31,
+      "accepted": 29,
+      "rows": [
+        {
+          "probeIndex": 0,
+          "name": "子ども家庭総合支援拠点事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 1,
+          "name": "公立保育園エアコン設置事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 2,
+          "name": "地域サポートセンター事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 3,
+          "name": "避難行動要支援者避難支援事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 4,
+          "name": "あったか見守りネットワーク事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 5,
+          "name": "通所型介護予防事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 6,
+          "name": "国民健康保険特定健康診査等事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 7,
+          "name": "健康づくり推進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 8,
+          "name": "病院群輪番制病院運営事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 9,
+          "name": "岡谷南部中学校トイレ洋式化事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 10,
+          "name": "“じっくり学習！岡谷学”講座事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 11,
+          "name": "スポーツ施設整備事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 12,
+          "name": "商工業振興条例に基づく助成金による ・ 製造業エネルギーコスト削減支援事業",
+          "status": "insufficient_identity_evidence",
+          "reason": "Two columns interleave subsidy title and adjoining policy support",
+          "matches": []
+        },
+        {
+          "probeIndex": 13,
+          "name": "岡谷・シルクスイートオーナー事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 14,
+          "name": "岡谷シルク推進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 15,
+          "name": "「岡谷へ行こう」関係人口等創出・拡大事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 16,
+          "name": "消防団車両整備事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 17,
+          "name": "交通安全対策推進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 18,
+          "name": "生活道路安全対策事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 19,
+          "name": "通学路交通安全対策事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 20,
+          "name": "おかや３R探検隊事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 21,
+          "name": "空き家の適正管理事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 22,
+          "name": "住宅耐震診断・改修事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 23,
+          "name": "移住・田舎ぐらし応援事業",
+          "status": "insufficient_identity_evidence",
+          "reason": "Wrapped title prefix interleaved with neighboring heading",
+          "matches": []
+        },
+        {
+          "probeIndex": 24,
+          "name": "諏訪湖周サイクリングロード整備事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 25,
+          "name": "諏訪湖スマートIC整備事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 26,
+          "name": "計画的舗装修繕事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 27,
+          "name": "シルキーバス運行事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 28,
+          "name": "水道施設耐震化事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 29,
+          "name": "下水道総合地震対策事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 30,
+          "name": "ふるさと寄附促進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        }
+      ]
+    },
+    {
+      "source": {
+        "municipalityCode": "20204",
+        "municipalityName": "岡谷市",
+        "sourceId": "82d6e67c31e7db54da614401",
+        "title": "【会議資料】令和3年度進捗状況について",
+        "url": "https://www.city.okaya.lg.jp/material/files/group/2/R4shingikai2_shinchoku1.pdf",
+        "sourceSha256": "714752352b21071c6fe2c89c6e69fa9c1f725cdfcece43fadb145b865814ea1c",
+        "listedContinuations": [],
+        "inventoryStatus": "complete_hash_verified",
+        "characters": 27875,
+        "fullTextSha256": "68bc1b09c1cd3dd791c4ea31f056fade9f67970cc2a194947144eb3f452e4b8b"
+      },
+      "year": 2021,
+      "reviewed": 32,
+      "accepted": 30,
+      "rows": [
+        {
+          "probeIndex": 0,
+          "name": "公立保育園連絡用アプリ導入事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 1,
+          "name": "子ども発達支援センター事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 2,
+          "name": "地域サポートセンター事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 3,
+          "name": "避難行動要支援者避難支援事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 4,
+          "name": "あったか見守りネットワーク事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 5,
+          "name": "通所型介護予防事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 6,
+          "name": "国民健康保険特定健康診査等事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 7,
+          "name": "健康づくり推進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 8,
+          "name": "病院群輪番制病院運営事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 9,
+          "name": "岡谷東部中学校管理教室棟長寿命化大規模改修事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 10,
+          "name": "長地小学校トイレ洋式化事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 11,
+          "name": "豊かな人生を紡ぐ“岡谷学”講座事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 12,
+          "name": "性の醸成を図るため、ファーストブックプレゼント事業",
+          "status": "insufficient_identity_evidence",
+          "reason": "Narrative reference to earlier first-book programme, not heading",
+          "matches": []
+        },
+        {
+          "probeIndex": 13,
+          "name": "スポーツ施設整備事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 14,
+          "name": "アスリートフェスティバルinおかやホストタウンプログラム推進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 15,
+          "name": "岡谷市中小企業生産性革命推進事業補助金",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 16,
+          "name": "サポートファーム（栽培指導者付き市民農園）事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 17,
+          "name": "岡谷シルク推進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 18,
+          "name": "「岡谷へ行こう」関係人口等創出・拡大事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 19,
+          "name": "設置・運営訓練等事業",
+          "status": "insufficient_identity_evidence",
+          "reason": "Heading interrupted by another column label",
+          "matches": []
+        },
+        {
+          "probeIndex": 20,
+          "name": "防災倉庫整備事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 21,
+          "name": "消防団車両整備事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 22,
+          "name": "交通安全対策推進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 23,
+          "name": "生活道路安全対策事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 24,
+          "name": "通学路交通安全対策事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 25,
+          "name": "わかりやすい！ごみ減量PR事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 26,
+          "name": "空き家バンク移住・田舎ぐらし応援事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 27,
+          "name": "諏訪湖周サイクリングロード整備事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 28,
+          "name": "シルキーバス運行事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 29,
+          "name": "水道施設耐震化事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 30,
+          "name": "下水道総合地震対策事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        },
+        {
+          "probeIndex": 31,
+          "name": "ふるさと寄附促進事業",
+          "status": "accepted_stage_proposal",
+          "reason": null,
+          "matches": []
+        }
+      ]
+    }
+  ],
+  "remaining": "Other wrapped/non-business-ending headings remain separate layout review; this ledger covers every one-line business-ending probe only."
+}

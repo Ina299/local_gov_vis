@@ -1,3 +1,6 @@
+import{reviewUeda}from'./descending-nagano-ueda';
+import{reviewOkayaProgress}from'./descending-nagano-okaya-progress';
+import{reviewTatsunoExtra}from'./descending-nagano-tatsuno-extra';
 import{reviewOkayaMore}from'./descending-nagano-okaya-more';
 import{reviewNagisoMore}from'./descending-nagano-nagiso-more';
 import{reviewOkaya}from'./descending-nagano-okaya';
@@ -115,6 +118,9 @@ export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]
  const koumiReview=reviewKoumi(input);if(koumiReview)return koumiReview;
  const okayamoreReview=reviewOkayaMore(input);if(okayamoreReview){const prior=reviewOkaya(input)!;if(prior.status==='source_integrity_hold'||okayamoreReview.status==='source_integrity_hold')return {projects:[],units:[],proofs:[],status:'source_integrity_hold',reason:'Bothsource reviews must pass'};return {...prior,projects:[...prior.projects,...okayamoreReview.projects],units:[...prior.units,...okayamoreReview.units]};}
  const okayaReview=reviewOkaya(input);if(okayaReview)return okayaReview;
+ const tatsunoextraReview=reviewTatsunoExtra(input);if(tatsunoextraReview)return tatsunoextraReview;
+ const okayaprogressReview=reviewOkayaProgress(input);if(okayaprogressReview)return okayaprogressReview;
+ const uedaReview=reviewUeda(input);if(uedaReview)return uedaReview;
  const grantsReview=reviewNaganoGrants(input);if(grantsReview)return grantsReview;
  const strategyReview=reviewStrategy(input);if(strategyReview)return strategyReview;
  const nagisoReview=reviewNagiso(input);if(nagisoReview)return nagisoReview;

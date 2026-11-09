@@ -1,0 +1,40 @@
+[
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "b5bcd2e6cdde2c1b4bf42761",
+      "title": "平成23年度補助金事業別評価シート",
+      "url": "https://www.town.tatsuno.lg.jp/gyosei/soshiki/machizukuriseisakuka/choseijoho/4/1/4-1/658.html",
+      "sourceSha256": "869fb1f8abfbe735085fa97b6963d7a9217b615c1786c3e161e950a24c948e58",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3100,
+      "fullTextSha256": "dea5e000ef907719b424901986f9f071d52ce7a882785d43d47903b4673d2124"
+    },
+    "yearProof": "平成23年度に実施した主要事業の補助金評価を行いました。",
+    "yearProofStart": 64,
+    "rows": [
+      {
+        "name": "辰野町りんごオーナー制推進委員会補助金",
+        "raw": "辰野町りんごオーナー制推進委員会補助金",
+        "start": 1139,
+        "proof": "辰野町りんごオーナー制推進委員会補助金",
+        "proofStart": 1139,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2011,
+        "note": "公式年度評価一覧に明記された事務事業名称。40既存PDF由来候補と照合し、同一名称・年度のない2件のみ。更新日2022年を評価年にしない。未取得の評価シート内容・金額は推測しない。"
+      },
+      {
+        "name": "羽北道路改良委員会補助金",
+        "raw": "羽北道路改良委員会補助金",
+        "start": 2275,
+        "proof": "羽北道路改良委員会補助金",
+        "proofStart": 2275,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2011,
+        "note": "公式年度評価一覧に明記された事務事業名称。40既存PDF由来候補と照合し、同一名称・年度のない2件のみ。更新日2022年を評価年にしない。未取得の評価シート内容・金額は推測しない。"
+      }
+    ]
+  }
+]

@@ -1,0 +1,353 @@
+{
+  "source": {
+    "municipalityCode": "20382",
+    "municipalityName": "辰野町",
+    "sourceId": "b5bcd2e6cdde2c1b4bf42761",
+    "title": "平成23年度補助金事業別評価シート",
+    "url": "https://www.town.tatsuno.lg.jp/gyosei/soshiki/machizukuriseisakuka/choseijoho/4/1/4-1/658.html",
+    "sourceSha256": "869fb1f8abfbe735085fa97b6963d7a9217b615c1786c3e161e950a24c948e58",
+    "listedContinuations": [],
+    "inventoryStatus": "complete_hash_verified",
+    "characters": 3100,
+    "fullTextSha256": "dea5e000ef907719b424901986f9f071d52ce7a882785d43d47903b4673d2124"
+  },
+  "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "reviewed": 42,
+  "exactExisting": 37,
+  "aliasHolds": 3,
+  "proposals": 2,
+  "rows": [
+    {
+      "name": "自主防災組織発足等補助金",
+      "status": "alias_hold",
+      "matches": [
+        "cached-20382-4169f55b8e93feee0673ccad"
+      ],
+      "note": "名称表記差を保存し既存値を上書きしない"
+    },
+    {
+      "name": "協働のまちづくり支援事業",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-58737607ff99b82def3767e0"
+      ],
+      "note": ""
+    },
+    {
+      "name": "辰野町衛生自治連合会補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-b53b8e40b89ef117920a9951"
+      ],
+      "note": ""
+    },
+    {
+      "name": "消費者の会活動補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-191dff2ef74d24943534904e"
+      ],
+      "note": ""
+    },
+    {
+      "name": "町遺族会補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-675b91c97792f97ea323ac93"
+      ],
+      "note": ""
+    },
+    {
+      "name": "町知的障害者育成会補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-5d4de6c2fd21dee8908f434c"
+      ],
+      "note": ""
+    },
+    {
+      "name": "障害者扶養共済加入補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-c01137f7dbf4a8e49e0736d2"
+      ],
+      "note": ""
+    },
+    {
+      "name": "障害者にやさしい住宅改良推進事業補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-58636ce38544b0d455d5d03f"
+      ],
+      "note": ""
+    },
+    {
+      "name": "通所通園等推進事業補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-1cf106ce6b997ed89765efcc"
+      ],
+      "note": ""
+    },
+    {
+      "name": "すこやか友の会活動補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-94910ee546aaad25a329f817"
+      ],
+      "note": ""
+    },
+    {
+      "name": "食生活推進協議会活動補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-ef48bd916f47b65fc0e49b51"
+      ],
+      "note": ""
+    },
+    {
+      "name": "農業者年金協会補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-09cad89531f31d7cd19d601c"
+      ],
+      "note": ""
+    },
+    {
+      "name": "ソバ、大豆刈取補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-367135c4a40262ba0d3dc0ef"
+      ],
+      "note": ""
+    },
+    {
+      "name": "生活改善事業補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-f6b0c5216fba16b1f8da7f23"
+      ],
+      "note": ""
+    },
+    {
+      "name": "辰野町りんごオーナー制推進委員会補助金",
+      "status": "accepted_stage_proposal",
+      "matches": [],
+      "note": ""
+    },
+    {
+      "name": "辰野町有害鳥獣駆除対策協議会補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-2395c027cfed51dc5ca35f4c"
+      ],
+      "note": ""
+    },
+    {
+      "name": "中山間水と土ふれあい事業補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-5703f29ca87e8a4f9e20c964"
+      ],
+      "note": ""
+    },
+    {
+      "name": "生産森林組合育成補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-607cb1dbbf3b06f308711273"
+      ],
+      "note": ""
+    },
+    {
+      "name": "松枯損木伐倒補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-d5c7920bf19ab4118391ec74"
+      ],
+      "note": ""
+    },
+    {
+      "name": "森林造成事業補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-194d81827ecd6ce3168dd9f7"
+      ],
+      "note": ""
+    },
+    {
+      "name": "森林整備地域活動支援補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-c56b18e61d0cd3da4d8a4614"
+      ],
+      "note": ""
+    },
+    {
+      "name": "辰野町観光協会補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-cbe667d14b73623d89f62fcc"
+      ],
+      "note": ""
+    },
+    {
+      "name": "商工業誘致及び振興補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-552125a3a64e53b1a62871ba"
+      ],
+      "note": ""
+    },
+    {
+      "name": "小規模事業指導費補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-99c9530d7cfc310a48b0fc68"
+      ],
+      "note": ""
+    },
+    {
+      "name": "商工業振興費補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-3f3e32c956d19d397c768028"
+      ],
+      "note": ""
+    },
+    {
+      "name": "商工業振興資金利子補給及び保証料",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-99c680f9685d9f63f5e0a1a3"
+      ],
+      "note": ""
+    },
+    {
+      "name": "勤労者住宅建設資金利子補給補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-2f90386d256d05de4a9fd604"
+      ],
+      "note": ""
+    },
+    {
+      "name": "中小企業退職共済掛金補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-236caff9ed17e5e52c057453"
+      ],
+      "note": ""
+    },
+    {
+      "name": "勤労者互助会補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-95de0100ac737f198d08c195"
+      ],
+      "note": ""
+    },
+    {
+      "name": "除雪機補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-3162da0882e21d81aa5c41fc"
+      ],
+      "note": ""
+    },
+    {
+      "name": "羽北道路改良委員会補助金",
+      "status": "accepted_stage_proposal",
+      "matches": [],
+      "note": ""
+    },
+    {
+      "name": "水洗便所等改造融資あっせん利子補給補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-3f4dba39baf01d74ce6d3f65"
+      ],
+      "note": ""
+    },
+    {
+      "name": "幼児教育振興補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-dff1cb58517e5810b1157491"
+      ],
+      "note": ""
+    },
+    {
+      "name": "総合学習振興補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-2f17f3eecd35844a690a7d91"
+      ],
+      "note": ""
+    },
+    {
+      "name": "こども自転車安全教室補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-382d9e33b1fb86aadecd0b7a"
+      ],
+      "note": ""
+    },
+    {
+      "name": "全国大会出場補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-6523b8998d30031eead89570"
+      ],
+      "note": ""
+    },
+    {
+      "name": "町文化団体育成補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-4d0fc51f780dd530f65655fd"
+      ],
+      "note": ""
+    },
+    {
+      "name": "女性団体連絡協議会活動費補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-c19017793f298021b6c885e6"
+      ],
+      "note": ""
+    },
+    {
+      "name": "ホース購入補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-89f270dbe9488f5f00291c0e"
+      ],
+      "note": ""
+    },
+    {
+      "name": "消火栓ホース購入補助金",
+      "status": "existing_same_name_year",
+      "matches": [
+        "cached-20382-1f7de4ca327edcc2b153b93b"
+      ],
+      "note": ""
+    },
+    {
+      "name": "県ポンプ繰法・ラッパ吹奏大会補助金",
+      "status": "alias_hold",
+      "matches": [
+        "cached-20382-b4fb2621207596fefde2b4cc"
+      ],
+      "note": "名称表記差を保存し既存値を上書きしない"
+    },
+    {
+      "name": "郡ポンプ繰法・ラッパ吹奏大会補助金",
+      "status": "alias_hold",
+      "matches": [
+        "cached-20382-7aca42dc80551c1d02e31edb"
+      ],
+      "note": "名称表記差を保存し既存値を上書きしない"
+    }
+  ]
+}
