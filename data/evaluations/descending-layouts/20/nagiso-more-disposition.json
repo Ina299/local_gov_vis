@@ -1,0 +1,54 @@
+{
+  "source": {
+    "municipalityCode": "20423",
+    "municipalityName": "南木曽町",
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "title": "令和6年度主要事業成果報告書 (pdf, 17.42MB)",
+    "url": "https://www.town.nagiso.nagano.jp/cmsfiles/contents/0000000/272/seikahoukoku.pdf",
+    "sourceSha256": "ff4d10f6d75fb89f214317541f0f738227e2100962810cf3e97018badc792c49",
+    "listedContinuations": [
+      {
+        "assetBytes": 288685,
+        "assetPath": "documents/2a732aac0ca82c9f821a41c1-2.json",
+        "assetSha256": "b04dc732bd7d5eeca7b832987492ea9170f8aa09767c6be42e22105177bee12a",
+        "exportedCharacters": 120000,
+        "part": 2,
+        "startCharacter": 120000,
+        "textSha256": "893d9a4c311d49659a523afa0b7046ea204fcd21fd6263a17442701b2f992f84"
+      },
+      {
+        "assetBytes": 125514,
+        "assetPath": "documents/2a732aac0ca82c9f821a41c1-3.json",
+        "assetSha256": "e65c8f3b3cc72725da9d3d63c8ddb7e5e9b46abde52d10ef7f7f8e77f315fe2e",
+        "exportedCharacters": 57525,
+        "part": 3,
+        "startCharacter": 240000,
+        "textSha256": "809e26197552ec9432764b23f7c9e5ae0113b689d2775ac00351abd2dba02ff2"
+      }
+    ],
+    "inventoryStatus": "complete_hash_verified",
+    "characters": 297525,
+    "fullTextSha256": "f8943ce8916f5ec96e719552817d5ed50479a40836c40c5ff852cc1eff067efb"
+  },
+  "acceptedProposals": 45,
+  "productionRecordsAdded": 0,
+  "reviewedHoldClasses": [
+    {
+      "reason": "Voucher useFebruary-May2025crossesfiscalboundary, settlementexplicitlynextyear; no annualfinancialinference",
+      "text": "※換金率、精算については次年度報告"
+    },
+    {
+      "reason": "FY2023carriedoverbenefits retained as prior-year context, not newFY2024records",
+      "text": "令和５年度南木曽町物価高騰対策臨時給付金こども加算【繰越事業】"
+    },
+    {
+      "reason": "Club-delivered classlist not split into municipal projects without separate identity",
+      "text": "総合型地域スポーツクラブ"
+    },
+    {
+      "reason": "Debt/funding financialtables not treated as annualbusinessactuals",
+      "text": "繰越事業"
+    }
+  ],
+  "remaining": "Full annualbook is only partially covered; unnamed and wrapped activities, finance-table identity and parent-child scope remain reviewable."
+}

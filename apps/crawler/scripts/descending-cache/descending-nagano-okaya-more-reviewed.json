@@ -1,0 +1,1416 @@
+[
+  {
+    "source": {
+      "municipalityCode": "20204",
+      "municipalityName": "岡谷市",
+      "sourceId": "729865793e91d8a8d3c98199",
+      "title": "令和6年度行政報告書",
+      "url": "https://www.city.okaya.lg.jp/material/files/group/2/R06_gyouseihoukokusyo.pdf",
+      "sourceSha256": "f58466d7568e9d942f95e5d05e6fc6193cee89a132a0304b472954753f8fdc7a",
+      "listedContinuations": [
+        {
+          "assetBytes": 289679,
+          "assetPath": "documents/729865793e91d8a8d3c98199-2.json",
+          "assetSha256": "47de674567e202488982cd23a3ed811af3d11732be00bb9833afc17d7f360e48",
+          "exportedCharacters": 120000,
+          "part": 2,
+          "startCharacter": 120000,
+          "textSha256": "ee0f6dafd48c184e0e1f130b56714c5beffdc978401e472a3bd2bd50b52cfced"
+        },
+        {
+          "assetBytes": 43022,
+          "assetPath": "documents/729865793e91d8a8d3c98199-3.json",
+          "assetSha256": "0c437b982bdb390abc83d94b4f5127ec961c7c88c4337413f098b8014034da71",
+          "exportedCharacters": 18629,
+          "part": 3,
+          "startCharacter": 240000,
+          "textSha256": "8ac1277ce1d835cc7fe672e23d0941a535ba39d85d4c3ee0306350eb15e59002"
+        }
+      ],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 258629,
+      "fullTextSha256": "c2cad33961c27aa5ff809873531affe59c6faa7396ddf091ef43e50304e52660"
+    },
+    "yearProof": "令和６年度の一般会計歳出決算額は22,742,687,473円 で、前年度決算額に比べ",
+    "yearProofStart": 2946,
+    "rows": [
+      {
+        "name": "電子自治体推進事業",
+        "raw": "電子自治体推進事業",
+        "start": 18729,
+        "proof": "電子自治体推進事業\n  長野県市町村自治振興組合が運営する「電子自治体推進事業」\nに係る経費を負担した。",
+        "proofStart": 18729,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "会議録等作成支援システム事業",
+        "raw": "会議録等作成支援システム事業",
+        "start": 19912,
+        "proof": "会議録等作成支援システム事業\n  ＡＩを活用した会議録等作成の音声反訳システムについて、\n庁内的な活用を図り、業務の効率化に努めた。",
+        "proofStart": 19912,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "市民意見収集事業",
+        "raw": "市民意見収集事業",
+        "start": 29122,
+        "proof": "市民意見収集事業\n・ 市 民 提 案 ボ ッ ク ス （ 市 長 へ の 手 紙 ）： ２ ４ 件\n  ・ホームページからの意見、要望、質問：３３８件\n内訳：市長Ｅメール ２３件\n各課宛   ３１５件\n  ・市民アンケート\n    対象者：無作為抽出による１８歳以上の市民\n        １，２００人\n    調査方法：郵送配布、郵送・インターネット回答\n    調査期間：６月１０日（月）～２８日（金）\n    回収件数：５２７件（うちインターネット１１５件）\n    回収率：４３．９％\n 円\n\n− 45 −\n\n\nシルキーチャン\nネル事業\n\n姉妹都市交流事\n業\n\n担当課職員によるイベント情報など市民に行政を身近に感じて\nいただけるような番組制作を行った。",
+        "proofStart": 29122,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "ハザードマップ更新事業",
+        "raw": "ハザードマップ更新事業",
+        "start": 67434,
+        "proof": "ハザードマップ更新事業\n長 野 県 が 公 表 し た 十 四 瀬 川 、塚 間 川 及 び 大 川 の 洪 水 浸 水 想 定\n区域図を基にくらしマップおかやのハザードマップデータを\n更新するとともに、新たに「洪水・土砂災害ハザードマップ」\nを 作 成 し 、全 戸 配 布 及 び ホ ー ム ペ ー ジ へ の 掲 載 等 に よ り 周 知 を\n図った。",
+        "proofStart": 67434,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "防災啓発共同事業",
+        "raw": "防災啓発共同事業",
+        "start": 68078,
+        "proof": "防災啓発共同事業\n  諏 訪 広 域 連 合 と 諏 訪 ６ 市 町 村 共 同 で 防 災 講 演 会 を 開 催 し た 。",
+        "proofStart": 68078,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "防災行政無線等デジタル化整備事業",
+        "raw": "防災行政無線等デジタル化整備事業",
+        "start": 69722,
+        "proof": "防災行政無線等デジタル化整備事業\n令 和 ５ 年 度 か ら 令 和 ７ 年 度 ま で の ３ ヵ 年 計 画 と し 、緊 急 時 の\n情 報 発 信 機 能 の 強 化 を 図 る た め 、防 災 行 政 無 線 の デ ジ タ ル 化 及\nび 防 災 気 象 情 報 シ ス テ ム の 構 築 を 進 め た 。",
+        "proofStart": 69722,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "自主防災組織強化事業補助金",
+        "raw": "自主防災組織強化事業補助金",
+        "start": 70267,
+        "proof": "自主防災組織強化事業補助金\n自 主 防 災 組 織 に 対 し て 、防 災 資 機 材 購 入 事 業 、広 報 啓 発 事 業\n及び防災士資格取得事業の実施による組織の強化を図るため、\n補助金を交付した。",
+        "proofStart": 70267,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "我がまち守る防災資機材緊急整備事業",
+        "raw": "我がまち守る防災資機材緊急整備事業",
+        "start": 72375,
+        "proof": "我がまち守る防災資機材緊急整備事業\n激 甚 化・頻 発 化 す る 自 然 災 害 に 備 え 、災 害 時 の 応 急 対 応 や 避\n難所開設に必要な防災資機材の整備を図った。",
+        "proofStart": 72375,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "福祉医療支給事業",
+        "raw": "福祉医療支給事業",
+        "start": 82314,
+        "proof": "福祉医療支給事業\n乳 幼 児 等 、 障 が い 者 、 ひ と り 親 家 庭 等 に 対 し て 、 福 祉 医 療 費 給 付 金 を 支 給 し た 。",
+        "proofStart": 82314,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "住宅用再エネ設備等導入促進事業",
+        "raw": "住宅用再エネ設備等導入促進事業",
+        "start": 91060,
+        "proof": "住宅用再エネ設備等導入促進事業\n再 生 可 能 エ ネ ル ギ ー の 普 及 を 図 り 有 効 に 活 用 す る た め 、市 内 の 住\n宅 等 に 蓄 電 シ ス テ ム や 電 気 自 動 車 充 放 電 設 備 （ 9+） を 設 置 さ れ る\n方への補助を行った。",
+        "proofStart": 91060,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "諏訪湖ヒシ除去体験事業",
+        "raw": "諏訪湖ヒシ除去体験事業",
+        "start": 92713,
+        "proof": "諏訪湖ヒシ除去体験事業\n諏訪湖の環境を守るため、手作業でのヒシの除去作業を行い、\n現状の認識と諏訪湖に対する意識高揚を図った。",
+        "proofStart": 92713,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "アレチウリ駆除事業",
+        "raw": "アレチウリ駆除事業",
+        "start": 92932,
+        "proof": "アレチウリ駆除事業\n生態系を破壊するアレチウリを駆除するため、各区・ボランティア\n団 体 の 協 力 を 得 て 、諏 訪 湖 畔・河 川 敷 等 で 駆 除 作 業 を 行 っ た 団 体 等\nに対して、タオルなど作業に伴う消耗品を支給した。",
+        "proofStart": 92932,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "岡谷市資源物分別回収促進事業補助金",
+        "raw": "岡谷市資源物分別回収促進事業補助金",
+        "start": 99532,
+        "proof": "岡谷市資源物分別回収促進事業補助金\n   資 源 物 の 分 別 回 収 を 促 進 す る た め 、資 源 物 回 収 事 業 者 に 対 し 回 収\n量 に 応 じ た 補 助 金 （ ６ ． ４ 円 NJ） を 交 付 し た 。",
+        "proofStart": 99532,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "プラスチック資源循環促進事業",
+        "raw": "プラスチック資源循環促進事業",
+        "start": 100016,
+        "proof": "プラスチック資源循環促進事業\n令 和 ７ 年 度 の 市 内 全 域 で の プ ラ ス チ ッ ク 資 源 分 別 収 集 に 向 け 、モ\nデ ル 事 業 を 実 施 し 、試 験 的 な 回 収 と 調 査 を 実 施 し た ほ か 、市 内 全 域\nにおいて住民説明会等を実施した。",
+        "proofStart": 100016,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "人権啓発事業",
+        "raw": "人権啓発事業",
+        "start": 104074,
+        "proof": "人権啓発事業\n ・保育園啓発活動\n ・小学生「人権の花」運動（神明小学校）\n ・中学生「全国人権作文コンテスト」\n ・地域人権啓発活動活性化事業（人権ミニフェスティバル）",
+        "proofStart": 104074,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "一時生活支援事業",
+        "raw": "一時生活支援事業",
+        "start": 105581,
+        "proof": "一時生活支援事業\n       一時宿泊所等確保事業  利用者０名\n       福祉電話貸与事業    利用者１名",
+        "proofStart": 105581,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "母子家庭自立支援給付事業",
+        "raw": "母子家庭自立支援給付事業",
+        "start": 111410,
+        "proof": "母子家庭自立支援給付事業\nひ と り 親 家 庭 の 経 済 的 自 立 に 効 果 的 な 資 格 取 得 の 支 援 の た め 、教\n育 訓 練 講 座 の 受 講 支 援 や 、養 成 機 関 に ６ か 月 以 上 就 学 す る 場 合 の 生\n活費を支援する給付金を支給した。",
+        "proofStart": 111410,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "高齢者クラブ連合会補助金",
+        "raw": "高齢者クラブ連合会補助金",
+        "start": 116414,
+        "proof": "高齢者クラブ連合会補助金\n\n   高齢者クラブ連合会の事業活動に対して助成を行った。",
+        "proofStart": 116414,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "地区高齢者クラブ補助金",
+        "raw": "地区高齢者クラブ補助金",
+        "start": 116460,
+        "proof": "地区高齢者クラブ補助金\n\n   地区単位で行われている高齢者クラブの活動に対して助成を\n\n行った。",
+        "proofStart": 116460,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "シルバー人材センター補助金",
+        "raw": "シルバー人材センター補助金",
+        "start": 116545,
+        "proof": "シルバー人材センター補助金\n\n高齢者に就業の機会を提供する等、生きがいの創出と社会参加\n\nの 機 会 拡 大 を 図 る た め 、岡 谷 下 諏 訪 広 域 シ ル バ ー 人 材 セ ン タ ー\n\nに対して助成を行った。",
+        "proofStart": 116545,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "地域支え合い型移動支援補助金",
+        "raw": "地域支え合い型移動支援補助金",
+        "start": 116661,
+        "proof": "地域支え合い型移動支援補助金\n\n   地域住 民が高 齢 者等の 通院、買 い物、通 いの場 等への 自家用 車\n\nで の 送 迎 を 行 う 活 動 に 対 し て 、ボ ラ ン テ ィ ア 活 動 保 険 料 の 補 助\n\nを行った。",
+        "proofStart": 116661,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "住宅改修アドバイザー事業",
+        "raw": "住宅改修アドバイザー事業",
+        "start": 116986,
+        "proof": "住宅改修アドバイザー事業\n   高 齢 者 等 が 居 住 し て い る 住 宅 を 改 修 す る に あ た り 、 申 請 に\n基づき適切な住宅改修を行うための指導助言を行った。",
+        "proofStart": 116986,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "介護保険広報啓発事業",
+        "raw": "介護保険広報啓発事業",
+        "start": 119616,
+        "proof": "介護保険広報啓発事業\n（１）市報、ホームページ等による制度周知\n（２）介護保険制度をわかりやすく説明した「介護保険なんでも読\n本 （ 岡 谷 版 ）」 を 発 刊 し 窓 口 等 で 配 布\n（ ３ ）被 保 険 者 証 交 付 説 明 会（ ６ ５ 歳 到 達 者 説 明 会：対 象 ５ ３ ０ 人 ）\n・開催数 １２回（４月～３月）\n・出席者数 ２５１人（出席率 ４７．４％）",
+        "proofStart": 119616,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "介護予防普及啓発事業",
+        "raw": "介護予防普及啓発事業",
+        "start": 120422,
+        "proof": "介護予防普及啓発事業\n（１）教室案内・申込受付業務\n事 業 対 象 者 、要 支 援・要 介 護 認 定 者（ 認 定 申 請 中 含 む ）、広\n域外住所地特例者を除いた第１号被保険者（令和６年度予定\n者も含む）へ教室案内を送付し、介護予防普及啓発事業の対\n象者リストの作成を行った。",
+        "proofStart": 120422,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "権利擁護事業",
+        "raw": "権利擁護事業",
+        "start": 121652,
+        "proof": "権利擁護事業\n（１）高齢者のための司法書士による無料法律相談日\n・ 毎 月 １ 回 （ 第 ３ 水 曜 日 ） 相 談 者  延 べ １ ６ 人\n（２）高齢者虐待に関する対応\n  ・ 相 談 件 数 延 べ １ ７ ８ 件\n（実件数３４件 内、虐待を確認した実件数２２件）\n\n\n\n− 173 −",
+        "proofStart": 121652,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "総合相談事業",
+        "raw": "総合相談事業",
+        "start": 121806,
+        "proof": "総合相談事業\n\n  介護等について広く市民の相談に応じ、適切な支援へつなぐと\nともに、継続的な見守り等を行うため、戸別訪問等により高齢者\nや家族の状況等の実態把握に努めた。",
+        "proofStart": 121806,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "認知症地域支援・ケア向上事業",
+        "raw": "認知症地域支援・ケア向上事業",
+        "start": 122826,
+        "proof": "認知症地域支援・ケア向上事業\n 認知症の人ができる限り住み慣れた環境で暮らし続けること\nが で き る よ う 、当 事 者 及 び そ の 家 族 へ の 相 談 支 援 を 行 っ た ほ か 、\n支援体制の強化のため、地域の医療機関・介護サービス事業所\n等との連携に努めた。",
+        "proofStart": 122826,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "要介護者介護用品購入費支給事業",
+        "raw": "要介護者介護用品購入費支給事業",
+        "start": 124383,
+        "proof": "要介護者介護用品購入費支給事業\n要介護３以上の要介護者を在宅で介護する家族の支援として、\n介護用品（紙おむつ・尿取りパット）の購入に係る費用の一部を\n助成した。",
+        "proofStart": 124383,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "介護相談員派遣事業",
+        "raw": "介護相談員派遣事業",
+        "start": 124673,
+        "proof": "介護相談員派遣事業\n介護保険施設等と利用者の橋渡し役として、介護相談員を\n派遣して利用者からの苦情や相談に応じ、介護サービスの質の\n向上に努めた。",
+        "proofStart": 124673,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "２４時間緊急時駆けつけ安心サービス事業",
+        "raw": "２４時間緊急時駆けつけ安心サービス事業",
+        "start": 125077,
+        "proof": "２４時間緊急時駆けつけ安心サービス事業\n   ひとり暮らし高齢者等の緊急事態等における通報手段を確保\nす る た め 、緊 急 通 報 端 末 を 貸 与 し 緊 急 事 態 等 へ の 対 応 を 図 っ た 。",
+        "proofStart": 125077,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "配食サービス事業",
+        "raw": "配食サービス事業",
+        "start": 125199,
+        "proof": "配食サービス事業\n食の自立支援事業として、虚弱でひとり暮らしの高齢者等で\n安否確認が必要な者に対し、配食サービスを行った。",
+        "proofStart": 125199,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "地域子育て支援拠点事業",
+        "raw": "地域子育て支援拠点事業",
+        "start": 131188,
+        "proof": "地域子育て支援拠点事業\n子育て支援センターや地域と連携し、子育て支援を行った。",
+        "proofStart": 131188,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "子ども発達支援センター事業",
+        "raw": "子ども発達支援センター事業",
+        "start": 131366,
+        "proof": "子ども発達支援センター事業\n・心 身 の 発 達 に 支 援 を 必 要 と す る 未 就 園 の 児 童 に 対 し 、機 能 訓 練 及\nび日常生活のための訓練、保護者への家庭における訓練方法の指\n導、療育に関し相談支援を行った。",
+        "proofStart": 131366,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "保育園健康管理事業",
+        "raw": "保育園健康管理事業",
+        "start": 132792,
+        "proof": "保育園健康管理事業\n園児の健康管理のため、各種健康診断、検査等を実施したほか、\n食 育 推 進 に つ い て の 調 査 、研 究 や 保 護 者 対 象 の 講 座 、実 習 な ど を 実\n施し、園児の健康増進に努めた。",
+        "proofStart": 132792,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "保育職員研修事業",
+        "raw": "保育職員研修事業",
+        "start": 132908,
+        "proof": "保育職員研修事業\n多 様 化 す る 保 育 ニ ー ズ に 応 え る た め 、各 種 職 員 研 修 を 実 施 し 、保\n育 園 職 員 の 資 質 の 向 上 に 努 め る と と も に 、園 長 会 、主 査 会 、栄 養 士\n会等を定期的に実施して保育内容の充実を図った。",
+        "proofStart": 132908,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "ぼくもわたしも おかやっ子事業",
+        "raw": "ぼくもわたしも おかやっ子事業",
+        "start": 133056,
+        "proof": "ぼくもわたしも おかやっ子事業\n岡 谷 の 歴 史・文 化・地 域 資 源 に 触 れ 合 う 機 会 と し て 体 験 型 事 業 を\n実施した。",
+        "proofStart": 133056,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "世界にタッチ“英語に触れよう”事業",
+        "raw": "世界にタッチ“英語に触れよう”事業",
+        "start": 133236,
+        "proof": "世界にタッチ“英語に触れよう”事業\n 国際交流員により、英語や外国文化に触れる事業を実施した。",
+        "proofStart": 133236,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "やってみようキッズエプロン隊事業",
+        "raw": "やってみようキッズエプロン隊事業",
+        "start": 133286,
+        "proof": "やってみようキッズエプロン隊事業\n季節や旬の食材を活用し、児童が実際に見て、触れて、食べる\n一 連 の 体 験 を 実 施 し た 。",
+        "proofStart": 133286,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "私立保育園運営費等補助事業",
+        "raw": "私立保育園運営費等補助事業",
+        "start": 133480,
+        "proof": "私立保育園運営費等補助事業\n市内２私立保育園及び地域型保育事業所の運営に対する補助を\n行 い 、児 童 の 処 遇 向 上 と 保 育 内 容 の 充 実 を 図 っ た 。",
+        "proofStart": 133480,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "子育て応援 ３歳未満児保育料軽減事業",
+        "raw": "子育て応援 ３歳未満児保育料軽減事業",
+        "start": 133710,
+        "proof": "子育て応援 ３歳未満児保育料軽減事業\n ３ 歳 未 満 児 の 保 育 料 に つ い て 、低 所 得 世 帯 及 び 多 子 世 帯 の 保 育 料\nを軽減することにより、子育て世帯の経済的な支援を図った。",
+        "proofStart": 133710,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "保育園給食食材費物価高騰対策事業",
+        "raw": "保育園給食食材費物価高騰対策事業",
+        "start": 133828,
+        "proof": "保育園給食食材費物価高騰対策事業\n 物 価 高 騰 等 の 影 響 に よ る 食 材 費 の 高 騰 分 を 公 費 負 担 し 、栄 養 価 と\n量を満たした給食を提供した。",
+        "proofStart": 133828,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "公立保育所移管整備事業",
+        "raw": "公立保育所移管整備事業",
+        "start": 134061,
+        "proof": "公立保育所移管整備事業\n岡 谷 市 保 育 園 整 備 計 画 に 基 づ く 保 育 所 整 備 事 業 に よ り 、市 が 開 設\nし た 保 育 所 の 移 管 運 営 法 人 学 校 法 人 信 学 会 に 対 し 、信 学 会 東 堀 こ\nど も 園 整 備 事 業 に か か る 補 助 を 行 っ た 。",
+        "proofStart": 134061,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "私立幼稚園運営費等補助事業",
+        "raw": "私立幼稚園運営費等補助事業",
+        "start": 136190,
+        "proof": "私立幼稚園運営費等補助事業\n幼 児 教 育 の 推 進 、充 実 支 援 の た め 、市 内 ３ 私 立 幼 稚 園 に 対 し て 運\n営 費 等 の 補 助 を 行 っ た 。",
+        "proofStart": 136190,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "病院群輪番制病院運営事業",
+        "raw": "病院群輪番制病院運営事業",
+        "start": 140630,
+        "proof": "病院群輪番制病院運営事業\n  住 民 の 夜 間 、休 日 に お け る 入 院 治 療 を 必 要 と す る 重 症 救 急 患 者\nの医療確保のため、諏訪広域連合で諏訪地域の６病院を指定し、\n病院群輪番制病院運営事業を行った。",
+        "proofStart": 140630,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "献血事業",
+        "raw": "献血事業",
+        "start": 141050,
+        "proof": "献血事業\n医 療 用 血 液 確 保 の た め 、長 野 県 赤 十 字 血 液 セ ン タ ー（ 諏 訪 出 張\n所 ）、諏訪保健福祉事務所とともに、市内事業所への献血協力依頼\nや街頭献血等を実施した。",
+        "proofStart": 141050,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "不妊及び不育症治療費助成事業",
+        "raw": "不妊及び不育症治療費助成事業",
+        "start": 143244,
+        "proof": "不妊及び不育症治療費助成事業\n不 妊 治 療 等 を 行 っ て い る 夫 婦 に 医 療 費 の 一 部 を 助 成 し 、経 済 的\n負担の軽減を図った。",
+        "proofStart": 143244,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "未熟児養育医療給付事業",
+        "raw": "未熟児養育医療給付事業",
+        "start": 143401,
+        "proof": "未熟児養育医療給付事業\n  養 育 の た め に 入 院 が 必 要 な 未 熟 児 に 対 し て 、そ の 養 育 に 必 要 な\n医療費の支給を行った。",
+        "proofStart": 143401,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "家庭訪問指導事業",
+        "raw": "家庭訪問指導事業",
+        "start": 144740,
+        "proof": "家庭訪問指導事業\n乳幼児のいる家庭に対して訪問を実施し、乳幼児健康診査や\n予防接種をはじめ育児に関する情報を提供するとともに、産婦\n及 び 乳 幼 児 の 健 康 管 理 を 行 っ た 。",
+        "proofStart": 144740,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "健康ポイント事業",
+        "raw": "健康ポイント事業",
+        "start": 146965,
+        "proof": "健康ポイント事業\n  健診受診者や健康づくりに関する講演会の参加者にオカヤペイ\nカ ー ド の ポ イ ン ト 引 換 券 を 配 布 し 、加 盟 店 等 で オ カ ヤ ペ イ カ ー ド\nに ポ イ ン ト の 付 与 を 行 う こ と で 、市 民 の 健 康 づ く り や 健 康 増 進 に\n対する意識の啓発を図った。",
+        "proofStart": 146965,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "自殺対策推進事業",
+        "raw": "自殺対策推進事業",
+        "start": 147733,
+        "proof": "自殺対策推進事業\n岡 谷 市 自 殺 対 策 計 画 に 基 づ き 、地 域 に お け る 自 殺 対 策 の 強 化 を\n図った。",
+        "proofStart": 147733,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "高齢者の保健事業と介護予防等の一体的な実施事業",
+        "raw": "高齢者の保健事業と介護予防等の一体的な実施事業",
+        "start": 148167,
+        "proof": "高齢者の保健事業と介護予防等の一体的な実施事業\n  高 齢 者 の 多 様 な 課 題 に 対 応 し 、き め 細 や か な 支 援 を 実 施 す る た\nめ、保健事業と介護予防に係る各種事業を実施した。",
+        "proofStart": 148167,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "アピアランスケアサポート事業",
+        "raw": "アピアランスケアサポート事業",
+        "start": 148766,
+        "proof": "アピアランスケアサポート事業\n  がん患者の就労、社会参加の促進等の療養生活の質の維持向上を\n目的とし、がん治療に伴う補整具の購入費用の一部を助成した。",
+        "proofStart": 148766,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "熱中症対策事業",
+        "raw": "熱中症対策事業",
+        "start": 148888,
+        "proof": "熱中症対策事業\n  熱 中 症 対 策 と し て 、熱 中 症 特 別 警 戒 ア ラ ー ト 発 表 時 に 開 放 す る\n 指定暑熱施設とアラート発表時に関わらず暑さを凌ぐ一時休憩\n所 の ２ つ の 機 能 を 備 え た『 涼 み ど こ ろ  お か や ク ー ル ベ ー ス 』を\n 市内２５ヵ所に指定し、各施設において運用した。",
+        "proofStart": 148888,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "工業会育成事業",
+        "raw": "工業会育成事業",
+        "start": 161893,
+        "proof": "工業会育成事業\n（ １ ） 岡 谷 市 金 属 工 業 連 合 会 会 員 企 業 数  ８ ０ 社\n    ・岡谷市機械精密工業会 ５０社\n・岡谷市電気工業会    ８社\n    ・岡谷市表面処理工業会 １６社\n    ・岡谷市計量器工業会   ７社\n（ ２ ） 評 議 員 会 及 び 総 会 等 の 開 催\n岡谷市金属工業連合会評議員会及び４工業会の総会並\nびに情報交換会を開催し、市内企業の現状把握と企業間\n連携を深めた。",
+        "proofStart": 161893,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "商工業振興条例に基づく助成事業",
+        "raw": "商工業振興条例に基づく助成事業",
+        "start": 163562,
+        "proof": "商工業振興条例に基づく助成事業\n市 内 企 業 の 流 出 防 止 及 び 企 業 誘 致 の 推 進 を 図 る た め 、工 場 等\nの新設増設を行う事業者に対して土地取得額の一部や工場等\nに か か る 固 定 資 産 税 相 当 額 を 助 成 し 、市 内 で の 事 業 拡 大 や 空 き\n工場等の有効活用を促した。",
+        "proofStart": 163562,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "企業立地支援事業",
+        "raw": "企業立地支援事業",
+        "start": 163781,
+        "proof": "企業立地支援事業\n  市内空工場等の活用促進と市外からの企業立地を促進する\nた め 、市 外 か ら 市 内 へ 中 小 企 業 者 が 工 場 等 を 賃 借 し 転 入 す る 場\n合 に 対 し 、当 該 工 場 等 の 家 賃 相 当 分 の 一 部 に つ い て 助 成 を 行 っ\nた。",
+        "proofStart": 163781,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "創業のまち岡谷実現事業",
+        "raw": "創業のまち岡谷実現事業",
+        "start": 164128,
+        "proof": "創業のまち岡谷実現事業\n市 内 の 独 立 創 業 を 促 進 し 、創 業 者 の 経 営 基 盤 の 確 立 及 び 営 業\n開拓を支援するため補助金を交付した。",
+        "proofStart": 164128,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "信州大学との連携強化事業",
+        "raw": "信州大学との連携強化事業",
+        "start": 164296,
+        "proof": "信州大学との連携強化事業\n  諏訪圏サテライトキャンパスを活用し、市内企業の技術相\n談 、新 技 術 創 出 の た め の リ カ レ ン ト 教 育 等 を 行 い 、市 内 産 業 の\n活 性 化 と 持 続 的 発 展 を 図 る と と も に 、若 年 人 材 に 向 け た ロ ケ ッ\nトワークショップを通じてモノづくり意識の醸成を図った。",
+        "proofStart": 164296,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "商工業用地等取得推進事業",
+        "raw": "商工業用地等取得推進事業",
+        "start": 166435,
+        "proof": "商工業用地等取得推進事業\n 岡 谷 宅 地 建 物 取 引 業 協 会 と の 協 定 に 基 づ き 、市 内 に お け る 土\n地 の 有 効 活 用 を 促 進 し 、市 内 企 業 の 市 外 へ の 流 出 防 止 及 び 企 業\n誘 致 を 推 進 す る た め 、商 工 業 用 地 等 の 取 得 等 を 希 望 す る 企 業 に\n対し、積極的な情報提供を行った。",
+        "proofStart": 166435,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "岡谷絹工房後継者育成事業補助金",
+        "raw": "岡谷絹工房後継者育成事業補助金",
+        "start": 175578,
+        "proof": "岡谷絹工房後継者育成事業補助金\nシルク岡谷の歴史と文化を継承し、絹を素材としたクラフト\n製品の開発研究や後継者の育成を図る岡谷絹工房後継者育成事\n業に支援した。",
+        "proofStart": 175578,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "地域おこし協力隊ブランド推進事業",
+        "raw": "地域おこし協力隊ブランド推進事業",
+        "start": 178729,
+        "proof": "地域おこし協力隊ブランド推進事業\n  養 蚕 か ら 製 糸 、製 品 化 ま で を 市 内 で 完 結 で き る 岡 谷 市 な ら で\nは の 環 境 を 活 か し た「 岡 谷 シ ル ク 」の ブ ラ ン ド 化 に よ る ま ち づ\nく り の 推 進 に 、地 域 お こ し 協 力 隊 と 地 域 関 係 者 が 連 携 し 取 り 組\nんだ。",
+        "proofStart": 178729,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "武井武雄生誕１３０年記念事業",
+        "raw": "武井武雄生誕１３０年記念事業",
+        "start": 180392,
+        "proof": "武井武雄生誕１３０年記念事業\n・東京都目黒区美術館、石川県立美術館、愛知県一宮市三岸\n節子記念美術館にて全国巡回展を実施した。",
+        "proofStart": 180392,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "童画館整備事業",
+        "raw": "童画館整備事業",
+        "start": 180894,
+        "proof": "童画館整備事業\n（１）日本童画美術館非常照明改修工事\n    ・契約金額：２，７１７，０００円\n（ ２ ） 日 本 童 画 美 術 館 パ ッ ケ ー ジ エ ア コ ン （ 3$&５ ） 更 新 工 事\n    ・契約金額：７，８１０，０００円\n 円\n\n\n− 242 −\n\n\n博物館管理運営事\n業\n\n\n岡谷蚕糸博物館の維持管理に必要な光熱水費や動態展示業務を\n含む、各種委託料等を予算計上し、適切な管理及び運営を行った。",
+        "proofStart": 180894,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "マルベリー広場開放イベント開催事業",
+        "raw": "マルベリー広場開放イベント開催事業",
+        "start": 181247,
+        "proof": "マルベリー広場開放イベント開催事業\n   岡谷蚕糸博物館の芝生広場（マルベリー広場）の有効活用に\nより地域交流とにぎわいを創出し 岡谷蚕糸博物館の来館者増\nにつなげた。",
+        "proofStart": 181247,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "ふれあい花壇づくり事業",
+        "raw": "ふれあい花壇づくり事業",
+        "start": 202313,
+        "proof": "ふれあい花壇づくり事業\n・プランター貸与、花苗助成 認定団体数 ３４団体",
+        "proofStart": 202313,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "温泉スタンド事業",
+        "raw": "温泉スタンド事業",
+        "start": 203614,
+        "proof": "温泉スタンド事業\n温泉スタンド利用件数\n   ２００㍑       ７，３２３件\n   ３００㍑       ３，３３７件\n   合  計      １０，６６０件",
+        "proofStart": 203614,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "学びのおかやサポート事業",
+        "raw": "学びのおかやサポート事業",
+        "start": 222561,
+        "proof": "学びのおかやサポート事業\n地域の教育力を学校教育、社会教育、社会体育の場で活用する\nため、ボランティア保険への加入費用を公費負担し、広くボラン\nティア活動への参画を進めた。",
+        "proofStart": 222561,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "第７次岡谷市生涯学習推進計画策定事業",
+        "raw": "第７次岡谷市生涯学習推進計画策定事業",
+        "start": 222661,
+        "proof": "第７次岡谷市生涯学習推進計画策定事業\n人生１００年時代を心豊かに迎え、継続した生涯学習の基盤を\n築くこ とを目 的とし て 第７次 岡谷市 生涯学 習 推進計 画を策 定した 。",
+        "proofStart": 222661,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "湊コミュニティスクール連携事業",
+        "raw": "湊コミュニティスクール連携事業",
+        "start": 224347,
+        "proof": "湊コミュニティスクール連携事業\n\n・公民館体験講座 「陶芸講座～ハロウィンのランタン作り～」\n\n湊小学校４学年 １７人 引率教諭 １人",
+        "proofStart": 224347,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "ホリデイスクエア事業",
+        "raw": "ホリデイスクエア事業",
+        "start": 231510,
+        "proof": "ホリデイスクエア事業\n・ Ｈ ａ ｐ ｐ ｙ Ｓ ｍ ｉ ｌ ｅ Ｈ Ｕ Ｌ Ａ ～観て、踊って、笑顔になろう～\n来場者人数  ７０人\n・爽やか！オカリナコンサート      来場者人数  ９０人\n・皆で楽しく踊ろう クリスマスダンスパーティー\n来場者人数  ４０人\n・歌い人ごんべ 冬のあったかコンサート 来場者人数 １００人",
+        "proofStart": 231510,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "夏休み子ども交流事業",
+        "raw": "夏休み子ども交流事業",
+        "start": 232483,
+        "proof": "夏休み子ども交流事業\n  東伊豆町の小学５年生と岡谷市の小学５・６年生が、岡谷市の\nシルクファクトの見学や岡谷市塩嶺野外活動センターでのレクリエ\nーション、野外炊飯、花火などを通じ、２日間昼夜を共にし、姉妹\n都市交流を行った。",
+        "proofStart": 232483,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "「家庭読書の日」事業",
+        "raw": "「家庭読書の日」事業",
+        "start": 234793,
+        "proof": "「家庭読書の日」事業\n・広報への掲載、貸出冊数の上限拡大\n・家庭読書の日周知チラシの配布",
+        "proofStart": 234793,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "ファーストチョイスブック事業",
+        "raw": "ファーストチョイスブック事業",
+        "start": 234894,
+        "proof": "ファーストチョイスブック事業\n・ ３ 歳 児 健診 時 に引換 券 を 配 布し 、 図書館 に て オ リジ ナ ルキャ\nラクター付図書カードをプレゼントした。",
+        "proofStart": 234894,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "まちかど図書館事業",
+        "raw": "まちかど図書館事業",
+        "start": 235319,
+        "proof": "まちかど図書館事業\n・市内公共 施設７か所 に設置（諏訪 湖ハイ ツ、生涯学 習活動 センタ ー、\n勤 労 青 少 年 ホ ー ム 、市 役 所 ロ ビ ー 、市 民 総 合 体 育 館 、美 術 考 古 館 、\nロマネット）",
+        "proofStart": 235319,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      },
+      {
+        "name": "スポーツ＆健康 高齢者運動促進事業",
+        "raw": "スポーツ＆健康 高齢者運動促進事業",
+        "start": 244445,
+        "proof": "スポーツ＆健康 高齢者運動促進事業\n・元気いきいき岡谷シニアスポーツデー ４回 参加者９８人",
+        "proofStart": 244445,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Reviewed unique numbered business/service heading and bounded activitystatement inFY2024annual report. No constituent indicator countedseparately; countyexecuted works, genericfacilities and uncertaincolumn fragments held. No amountassigned."
+      }
+    ]
+  },
+  {
+    "source": {
+      "municipalityCode": "20204",
+      "municipalityName": "岡谷市",
+      "sourceId": "dafe7fe3339746b513f95ae5",
+      "title": "令和5年度行政報告書",
+      "url": "https://www.city.okaya.lg.jp/material/files/group/2/R05_gyouseihoukokusyo.pdf",
+      "sourceSha256": "e5a25fb48ac39d462f6d26c321e6064d8ca4d0e4854b854c00efdc36cbed8357",
+      "listedContinuations": [
+        {
+          "assetBytes": 290452,
+          "assetPath": "documents/dafe7fe3339746b513f95ae5-2.json",
+          "assetSha256": "8aeb865bac6f3955b0d900116ad6adf4d57a4b9697f643f5dec5c407375de5b9",
+          "exportedCharacters": 120000,
+          "part": 2,
+          "startCharacter": 120000,
+          "textSha256": "2b474ff1c3fc2eb403dc5e0d2fb4f82467e45193295706fd8240dfaa8eafd035"
+        },
+        {
+          "assetBytes": 59335,
+          "assetPath": "documents/dafe7fe3339746b513f95ae5-3.json",
+          "assetSha256": "63fac2615fbeef9d54eb62d9402dd0b683e6f6fff40fddf822a9aa87d7d5e9c8",
+          "exportedCharacters": 25288,
+          "part": 3,
+          "startCharacter": 240000,
+          "textSha256": "298339d5c3671f994a7461dcb57b58ca55f72d56020b37f39324479ad6de0675"
+        }
+      ],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 265288,
+      "fullTextSha256": "0948a0324856690cdfa8390870c5962ee40539cb1b55c048e6ac817ed03ef75a"
+    },
+    "yearProof": "令和５年度行政報告書",
+    "yearProofStart": 37,
+    "rows": [
+      {
+        "name": "電子自治体推進事業",
+        "raw": "電子自治体推進事業",
+        "start": 21555,
+        "proof": "電子自治体推進事業\n  長野県市町村自治振興組合が運営する「電子自治体推進事業」\nに係る経費を負担した。",
+        "proofStart": 21555,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "会議録等作成支援システム事業",
+        "raw": "会議録等作成支援システム事業",
+        "start": 22671,
+        "proof": "会議録等作成支援システム事業\n  ＡＩを活用した会議録等作成の音声反訳システムについて、\n庁内的な活用を図り、業務の効率化に努めた。",
+        "proofStart": 22671,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "市民意見収集事業",
+        "raw": "市民意見収集事業",
+        "start": 31943,
+        "proof": "市民意見収集事業\n・ 市 民 提 案 ボ ッ ク ス （ 市 長 へ の 手 紙 ）： ５ ２ 件\n  ・ホームページからの意見、要望、質問：２８８件\n内訳：市長Ｅメール ２３件\n各課宛   ２６５件\n 円\n\n45\n\n\nシルキーチャン\nネル事業\n\n姉妹都市交流事\n業\n\n担当課職員によるイベント情報など市民に行政を身近に感じて\nいただけるような番組制作を行った。",
+        "proofStart": 31943,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "防災啓発共同事業",
+        "raw": "防災啓発共同事業",
+        "start": 70867,
+        "proof": "防災啓発共同事業\n  諏 訪 広 域 連 合 と 諏 訪 ６ 市 町 村 共 同 で 防 災 講 演 会 を 開 催 し た 。",
+        "proofStart": 70867,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "防災行政無線等デジタル化整備事業",
+        "raw": "防災行政無線等デジタル化整備事業",
+        "start": 72972,
+        "proof": "防災行政無線等デジタル化整備事業\n 令 和 ５ 年 度 か ら 令 和 ７ 年 度 ま で の ３ ヵ 年 計 画 と し 、緊 急 時 の\n情報発信機能の強化を図るため、防災行政無線のデジタル化\n109\n\n\n\n\n自主防災組織育\n成事業\n\n防災訓練事業\n\n 及び防災気象情報システムの構築に着手した。",
+        "proofStart": 72972,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "我がまち守る防災資機材緊急整備事業",
+        "raw": "我がまち守る防災資機材緊急整備事業",
+        "start": 75685,
+        "proof": "我がまち守る防災資機材緊急整備事業\n激 甚 化・頻 発 化 す る 自 然 災 害 に 備 え 、災 害 時 の 応 急 対 応 や 避\n難所開設に必要な防災資機材の整備を図った。",
+        "proofStart": 75685,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "住宅用再エネ設備等導入促進事業",
+        "raw": "住宅用再エネ設備等導入促進事業",
+        "start": 95291,
+        "proof": "住宅用再エネ設備等導入促進事業\n 再 生 可 能 エ ネ ル ギ ー の 普 及 を 図 り 有 効 に 活 用 す る た め 、市 内 の 住\n宅 等 に 蓄 電 シ ス テ ム や 電 気 自 動 車 充 放 電 設 備 （ 9+） を 設 置 さ れ る\n方への補助を行った。",
+        "proofStart": 95291,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "諏訪湖ヒシ除去体験事業",
+        "raw": "諏訪湖ヒシ除去体験事業",
+        "start": 96710,
+        "proof": "諏訪湖ヒシ除去体験事業\n   諏訪湖の環境を守るため、手作業でのヒシの除去作業を行い、\n現状の認識と諏訪湖に対する意識の高揚を図った。",
+        "proofStart": 96710,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "アレチウリ駆除事業",
+        "raw": "アレチウリ駆除事業",
+        "start": 97035,
+        "proof": "アレチウリ駆除事業\n   生態系を破壊するアレチウリを駆除するため、各区・ボランティア\n団 体 の 協 力 を 得 て 、諏 訪 湖 畔・河 川 敷 等 で 駆 除 作 業 を 行 っ た 団 体 等\nに対して、手袋など、作業に伴う消耗品等を支給した。",
+        "proofStart": 97035,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "岡谷市資源物分別回収促進事業補助金",
+        "raw": "岡谷市資源物分別回収促進事業補助金",
+        "start": 103371,
+        "proof": "岡谷市資源物分別回収促進事業補助金\n   資 源 物 の 分 別 回 収 を 促 進 す る た め 、資 源 物 回 収 事 業 者 に 対 し 回 収\n量 に 応 じ た 補 助 金 （ ６ ． ４ 円 NJ） を 交 付 し た 。",
+        "proofStart": 103371,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "人権啓発事業",
+        "raw": "人権啓発事業",
+        "start": 106801,
+        "proof": "人権啓発事業\n ・保育園啓発活動\n ・小学生「人権の花」運動（川岸小学校）\n ・中学生「全国人権作文コンテスト」",
+        "proofStart": 106801,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "一時生活支援事業",
+        "raw": "一時生活支援事業",
+        "start": 108370,
+        "proof": "一時生活支援事業\n       一時宿泊所等確保事業  利用者３名\n       福祉電話貸与事業    利用者０名",
+        "proofStart": 108370,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "母子家庭自立支援給付事業",
+        "raw": "母子家庭自立支援給付事業",
+        "start": 113630,
+        "proof": "母子家庭自立支援給付事業\nひ と り 親 家 庭 の 経 済 的 自 立 に 効 果 的 な 資 格 取 得 の 支 援 の た め 、教\n育 訓 練 講 座 の 受 講 支 援 や 、養 成 機 関 に １ 年 以 上 就 学 す る 場 合 の 生 活\n費を支援する給付金を支給した。",
+        "proofStart": 113630,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "高齢者クラブ連合会補助金",
+        "raw": "高齢者クラブ連合会補助金",
+        "start": 119106,
+        "proof": "高齢者クラブ連合会補助金\n   高齢者クラブ連合会の事業活動に対して助成を行った。",
+        "proofStart": 119106,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "地区高齢者クラブ補助金",
+        "raw": "地区高齢者クラブ補助金",
+        "start": 119150,
+        "proof": "地区高齢者クラブ補助金\n   地区単位で行われている高齢者クラブの活動に対して助成を\n行った。",
+        "proofStart": 119150,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "シルバー人材センター補助金",
+        "raw": "シルバー人材センター補助金",
+        "start": 119230,
+        "proof": "シルバー人材センター補助金\n高齢者に就業の機会を提供する等、生きがいの創出と社会参加\nの 機 会 拡 大 を 図 る た め 、岡 谷 下 諏 訪 広 域 シ ル バ ー 人 材 セ ン タ ー\nに対して助成を行った。",
+        "proofStart": 119230,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "地域支え合い型移動支援補助金",
+        "raw": "地域支え合い型移動支援補助金",
+        "start": 119342,
+        "proof": "地域支え合い型移動支援補助金\n   地域住 民が高 齢 者等の 通院、買 い物、通 いの場 等への 自家用 車\nで の 送 迎 を 行 う 活 動 に 対 し て 、ボ ラ ン テ ィ ア 活 動 保 険 料 の 補 助\nを行った。",
+        "proofStart": 119342,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "住宅改修アドバイザー事業",
+        "raw": "住宅改修アドバイザー事業",
+        "start": 119676,
+        "proof": "住宅改修アドバイザー事業\n   高齢者等が居住している住宅を改修するに当たり、申請に\n基づき適切な住宅改修を行うための指導助言を行った。",
+        "proofStart": 119676,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "介護保険広報啓発事業",
+        "raw": "介護保険広報啓発事業",
+        "start": 122556,
+        "proof": "介護保険広報啓発事業\n（１）市報、ホームページ等による制度周知\n（２）介護保険制度をわかりやすく説明した「介護保険なんでも読\n本 （ 岡 谷 版 ）」 を 発 刊 し 窓 口 等 で 配 布\n（ ３ ）被 保 険 者 証 交 付 説 明 会（ ６ ５ 歳 到 達 者 説 明 会：対 象 ５ ２ ８ 人 ）\n・開催数 １２回（４月～３月）\n・出席者数 ２６２人（出席率 ５０．０％）",
+        "proofStart": 122556,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "介護予防普及啓発事業",
+        "raw": "介護予防普及啓発事業",
+        "start": 123412,
+        "proof": "介護予防普及啓発事業\n（１）教室案内・申込受付業務\n事業対象者、要支援・要介護認定者、認定申請中者、広域\n外住所地特例者を除いた第１号被保険者（令和５年度予定者\nも含む）へ教室案内を送付し、介護予防普及啓発事業の対象\n者リストの作成を行った。",
+        "proofStart": 123412,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "権利擁護事業",
+        "raw": "権利擁護事業",
+        "start": 124678,
+        "proof": "権利擁護事業\n（１）高齢者のための司法書士による無料法律相談日\n・ 毎 月 １ 回 （ 第 ３ 水 曜 日 ） 相 談 者  延 べ ２ ０ 人\n（２）高齢者虐待に関する対応\n  ・ 相 談 件 数 延 べ １ ７ ０ 件\n（実件数３１件 内、虐待を確認した実件数１５件）",
+        "proofStart": 124678,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "総合相談事業",
+        "raw": "総合相談事業",
+        "start": 124817,
+        "proof": "総合相談事業\n\n  介護等について広く市民の相談に応じ、適切な支援へつなぐと\nともに、継続的な見守り等を行うため、戸別訪問等により高齢者\nや家族の状況等の実態把握に努めた。",
+        "proofStart": 124817,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "認知症地域支援・ケア向上事業",
+        "raw": "認知症地域支援・ケア向上事業",
+        "start": 125868,
+        "proof": "認知症地域支援・ケア向上事業\n 認知症の人ができる限り住み慣れた環境で暮らし続けること\nができるよう、当事者及びその家族への相談支援を行うととも\nに、支援体制の強化のため、地域の医療機関・介護サービス事\n業所等との連携に努めた。",
+        "proofStart": 125868,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "要介護者介護用品購入費支給事業",
+        "raw": "要介護者介護用品購入費支給事業",
+        "start": 127348,
+        "proof": "要介護者介護用品購入費支給事業\n要介護３以上の要介護者を在宅で介護する家族の支援として、\n介護用品（紙おむつ・尿取りパット）の購入に係る費用の一部を\n助成した。",
+        "proofStart": 127348,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "介護相談員派遣事業",
+        "raw": "介護相談員派遣事業",
+        "start": 127708,
+        "proof": "介護相談員派遣事業\n介護保険施設等と利用者の橋渡し役として、介護相談員を\n派遣して利用者からの苦情や相談に応じ、介護サービスの質の\n向上に努めた。",
+        "proofStart": 127708,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "２４時間緊急時駆けつけ安心サービス事業",
+        "raw": "２４時間緊急時駆けつけ安心サービス事業",
+        "start": 128081,
+        "proof": "２４時間緊急時駆けつけ安心サービス事業\n   ひとり暮らし高齢者等の緊急事態等における通報手段を確保\nす る た め 、緊 急 通 報 端 末 を 貸 与 し 緊 急 事 態 等 へ の 対 応 を 図 っ た 。",
+        "proofStart": 128081,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "配食サービス事業",
+        "raw": "配食サービス事業",
+        "start": 128203,
+        "proof": "配食サービス事業\n食の自立支援事業として、虚弱でひとり暮らしの高齢者等で\n安否確認が必要な者に対し、配食サービスを行った。",
+        "proofStart": 128203,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "地域子育て支援拠点事業",
+        "raw": "地域子育て支援拠点事業",
+        "start": 134259,
+        "proof": "地域子育て支援拠点事業\n子育て支援センターや地域と連携し、子育て支援を行った。",
+        "proofStart": 134259,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "子ども発達支援センター事業",
+        "raw": "子ども発達支援センター事業",
+        "start": 134444,
+        "proof": "子ども発達支援センター事業\n・心 身 の 発 達 に 支 援 を 必 要 と す る 未 就 園 の 児 童 に 対 し 、機 能 訓 練 及\nび日常生活のための訓練、保護者への家庭における訓練方法の指\n導、療育に関し相談支援を行った。",
+        "proofStart": 134444,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "保育園健康管理事業",
+        "raw": "保育園健康管理事業",
+        "start": 135653,
+        "proof": "保育園健康管理事業\n園児の健康管理のため、各種健康診断、検査等を実施したほか、\n食育推進についての調査、研究や保護者対象の講座、実習などを\n実施し、園児の健康増進に努めた。",
+        "proofStart": 135653,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "保育職員研修事業",
+        "raw": "保育職員研修事業",
+        "start": 135742,
+        "proof": "保育職員研修事業\n多 様 化 す る 保 育 ニ ー ズ に 応 え る た め 、各 種 職 員 研 修 を 実 施 し 、保\n育 園 職 員 の 資 質 の 向 上 に 努 め る と と も に 、園 長 会 、主 査 会 、栄 養 士\n会等を定期的に実施して保育内容の充実を図った。",
+        "proofStart": 135742,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "ぼくもわたしも おかやっ子事業",
+        "raw": "ぼくもわたしも おかやっ子事業",
+        "start": 135890,
+        "proof": "ぼくもわたしも おかやっ子事業\n岡 谷 の 歴 史・文 化・地 域 資 源 に 触 れ 合 う 機 会 と し て 体 験 型 事 業 を\n実施した。",
+        "proofStart": 135890,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "世界にタッチ“英語に触れよう”事業",
+        "raw": "世界にタッチ“英語に触れよう”事業",
+        "start": 136089,
+        "proof": "世界にタッチ“英語に触れよう”事業\n 国際交流員により、英語や外国文化に触れる事業を実施した。",
+        "proofStart": 136089,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "やってみようキッズエプロン隊事業",
+        "raw": "やってみようキッズエプロン隊事業",
+        "start": 136139,
+        "proof": "やってみようキッズエプロン隊事業\n季節や旬の食材を活用し、児童が実際に見て、触れて、食べる\n一 連 の 体 験 を 実 施 し た 。",
+        "proofStart": 136139,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "公立保育所移管整備事業",
+        "raw": "公立保育所移管整備事業",
+        "start": 136962,
+        "proof": "公立保育所移管整備事業\n岡 谷 市 保 育 園 整 備 計 画 に 基 づ く 保 育 所 整 備 事 業 に よ り 、市 が 開 設\nした保育所の移管運営法人（学校法人信学会）対し、信学会東堀\nこ ど も 園 整 備 事 業 に か か る 補 助 を 行 っ た 。",
+        "proofStart": 136962,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "私立幼稚園運営費等補助事業",
+        "raw": "私立幼稚園運営費等補助事業",
+        "start": 138446,
+        "proof": "私立幼稚園運営費等補助事業\n幼 児 教 育 の 推 進 、充 実 支 援 の た め 、市 内 ３ 私 立 幼 稚 園 に 対 し て 運\n営 費 等 の 補 助 を 行 っ た 。",
+        "proofStart": 138446,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "病院群輪番制病院運営事業",
+        "raw": "病院群輪番制病院運営事業",
+        "start": 142822,
+        "proof": "病院群輪番制病院運営事業\n  住 民 の 夜 間 、休 日 に お け る 入 院 治 療 を 必 要 と す る 重 症 救 急 患 者\nの医療確保のため、諏訪広域連合で諏訪地域の６病院を指定し、\n病院群輪番制病院運営事業を行った。",
+        "proofStart": 142822,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "献血事業",
+        "raw": "献血事業",
+        "start": 143163,
+        "proof": "献血事業\n医 療 用 血 液 確 保 の た め 、長 野 県 赤 十 字 血 液 セ ン タ ー（ 諏 訪 出 張\n所 ）、 諏 訪 保 健 福 祉 事 務 所 と と も に 、 市 内 事 業 所 へ の 献 血 協 力 依\n頼 や 街 頭 献 血 等 を 実 施 し た 。",
+        "proofStart": 143163,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "不妊及び不育症治療費助成事業",
+        "raw": "不妊及び不育症治療費助成事業",
+        "start": 145660,
+        "proof": "不妊及び不育症治療費助成事業\n不 妊 治 療 等 を 行 っ て い る 夫 婦 に 医 療 費 の 一 部 を 助 成 し 、経 済 的\n負担の軽減を図った。",
+        "proofStart": 145660,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "未熟児養育医療給付事業",
+        "raw": "未熟児養育医療給付事業",
+        "start": 145881,
+        "proof": "未熟児養育医療給付事業\n  養 育 の た め に 入 院 が 必 要 な 未 熟 児 に 対 し て 、そ の 養 育 に 必 要 な\n医療費の支給を行った。",
+        "proofStart": 145881,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "家庭訪問指導事業",
+        "raw": "家庭訪問指導事業",
+        "start": 147626,
+        "proof": "家庭訪問指導事業\n乳幼児のいる家庭に対して訪問を実施し、乳幼児健康診査や\n予防接種をはじめ育児に関する情報を提供するとともに、産婦\n及 び 乳 幼 児 の 健 康 管 理 を 行 っ た 。",
+        "proofStart": 147626,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "健康ポイント事業",
+        "raw": "健康ポイント事業",
+        "start": 150326,
+        "proof": "健康ポイント事業\n  健診受診者や健康づくりに関する講演会の参加者に「オカヤ\nペ イ カ ー ド 」の ポ イ ン ト 引 換 券 を 配 布 し 、加 盟 店 等 で オ カ ヤ ペ イ\nカ ー ド に ポ イ ン ト の 付 与 を 行 う こ と で 、市 民 の 健 康 づ く り や 健 康\n増 進 に 対 す る 意 識 の 啓 発 を 図 っ た 。",
+        "proofStart": 150326,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "自殺対策推進事業",
+        "raw": "自殺対策推進事業",
+        "start": 151553,
+        "proof": "自殺対策推進事業\n岡 谷 市 自 殺 対 策 計 画 に 基 づ き 、地 域 に お け る 自 殺 対 策 の 強 化 を\n図った。",
+        "proofStart": 151553,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "高齢者の保健事業と介護予防等の一体的な実施事業",
+        "raw": "高齢者の保健事業と介護予防等の一体的な実施事業",
+        "start": 152210,
+        "proof": "高齢者の保健事業と介護予防等の一体的な実施事業\n  高齢者の多様な課題に対応し、きめ細やかな支援を実施する\nため、保健事業と介護予防に係る各種事業を実施した。",
+        "proofStart": 152210,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "アピアランスケアサポート事業",
+        "raw": "アピアランスケアサポート事業",
+        "start": 152880,
+        "proof": "アピアランスケアサポート事業\n  がん患者の就労、社会参加の促進等の療養生活の質の維持向上を\n目的とし、がん治療に伴う補整具の購入費用の一部を助成した。",
+        "proofStart": 152880,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "工業会育成事業",
+        "raw": "工業会育成事業",
+        "start": 167309,
+        "proof": "工業会育成事業\n（ １ ） 岡 谷 市 金 属 工 業 連 合 会 会 員 企 業 数  ８ ２ 社\n    ・岡谷市機械精密工業会 ５０社\n・岡谷市電気工業会   １０社\n    ・岡谷市表面処理工業会 １６社\n    ・岡谷市計量器工業会   ７社\n（ ２ ） 評 議 員 会 及 び 総 会 等 の 開 催\n岡谷市金属工業連合会評議員会及び４工業会の総会並\nびに情報交換会を開催し、市内企業の現状把握と企業間\n連携を深めた。",
+        "proofStart": 167309,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "商工業振興条例に基づく助成事業",
+        "raw": "商工業振興条例に基づく助成事業",
+        "start": 169872,
+        "proof": "商工業振興条例に基づく助成事業\n市 内 企 業 の 流 出 防 止 及 び 企 業 誘 致 の 推 進 を 図 る た め 、工 場 等\nの新設増設を行う事業者に対して土地取得額の一部や工場等\nに か か る 固 定 資 産 税 相 当 額 を 助 成 し 、市 内 で の 事 業 拡 大 や 空 き\n工場等の有効活用を促した。",
+        "proofStart": 169872,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "商工業用地等取得推進事業",
+        "raw": "商工業用地等取得推進事業",
+        "start": 171783,
+        "proof": "商工業用地等取得推進事業\n 岡 谷 宅 地 建 物 取 引 業 協 会 と の 協 定 に 基 づ き 、市 内 に お け る 土\n地 の 有 効 活 用 を 促 進 し 、市 内 企 業 の 市 外 へ の 流 出 防 止 及 び 企 業\n誘 致 を 推 進 す る た め 、商 工 業 用 地 等 の 取 得 等 を 希 望 す る 企 業 に\n対し、積極的な情報提供を行った。",
+        "proofStart": 171783,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "岡谷絹工房後継者育成事業補助金",
+        "raw": "岡谷絹工房後継者育成事業補助金",
+        "start": 181502,
+        "proof": "岡谷絹工房後継者育成事業補助金\nシルク岡谷の歴史と文化を継承し、絹を素材としたクラフト\n製品の開発研究や後継者の育成を図る岡谷絹工房後継者育成事\n業に支援した。",
+        "proofStart": 181502,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "地域おこし協力隊ブランド推進事業",
+        "raw": "地域おこし協力隊ブランド推進事業",
+        "start": 186559,
+        "proof": "地域おこし協力隊ブランド推進事業\n  養 蚕 か ら 製 糸 、製 品 化 ま で を 市 内 で 完 結 で き る 岡 谷 市 な ら で\nは の 環 境 を 活 か し た 、「 岡 谷 シ ル ク 」 の ブ ラ ン ド 化 に よ る ま ち\nづ く り の 推 進 に 、地 域 お こ し 協 力 隊 と 地 域 関 係 者 が 連 携 し 取 り\n組んだ。",
+        "proofStart": 186559,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "ふれあい花壇づくり事業",
+        "raw": "ふれあい花壇づくり事業",
+        "start": 209776,
+        "proof": "ふれあい花壇づくり事業\n・プランター貸与、花苗助成 認定団体数 ３４団体",
+        "proofStart": 209776,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "温泉スタンド事業",
+        "raw": "温泉スタンド事業",
+        "start": 211104,
+        "proof": "温泉スタンド事業\n温泉スタンド利用件数\n   ２００㍑       ７，９３４件\n   ３００㍑       ３，２１１件\n   合  計      １１，１４５件",
+        "proofStart": 211104,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "学びのおかやサポート事業",
+        "raw": "学びのおかやサポート事業",
+        "start": 229039,
+        "proof": "学びのおかやサポート事業\n地域の教育力を学校教育、社会教育、社会体育の場で活用する\nため、ボランティア保険への加入費用を公費負担し、広くボラン\nティア活動への参画を進めた。",
+        "proofStart": 229039,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "湊コミュニティスクール連携事業",
+        "raw": "湊コミュニティスクール連携事業",
+        "start": 230986,
+        "proof": "湊コミュニティスクール連携事業\n・公民館体験講座 「陶芸講座～ハロウィンランタン作り～」\n湊小学校４学年 １９人 引率教諭 １人",
+        "proofStart": 230986,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "ホリデイスクエア事業",
+        "raw": "ホリデイスクエア事業",
+        "start": 238046,
+        "proof": "ホリデイスクエア事業\n・オカリナロビーコンサート       来場者人数 １１０人\n・ベレーザ フラメンコ・ミニライブ   来場者人数  ８０人\n・あひる Ｘｍａｓコンサート      来場者人数 １１０人\n・やまびこ男声合唱団 ロビーコンサート 来場者人数 １００人",
+        "proofStart": 238046,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "夏休み子ども交流事業",
+        "raw": "夏休み子ども交流事業",
+        "start": 238823,
+        "proof": "夏休み子ども交流事業\n  東伊豆町の小学５年生と岡谷市の小学５・６年生が、東伊豆町の\nアニマルキングダムの見学やレクリエーション、花火などを通じ、\n２日間昼夜を共にし、姉妹都市交流を行った。",
+        "proofStart": 238823,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "ファーストチョイスブック事業",
+        "raw": "ファーストチョイスブック事業",
+        "start": 241217,
+        "proof": "ファーストチョイスブック事業\n・ ３ 歳 児 健診 時 に引換 券 を 配 布し 、 図書館 に て オ リジ ナ ルキャ\nラクター付図書カードをプレゼントした。",
+        "proofStart": 241217,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "まちかど図書館事業",
+        "raw": "まちかど図書館事業",
+        "start": 241583,
+        "proof": "まちかど図書館事業\n・市内公共 施設６ か所 に設置（諏訪 湖ハイ ツ、生涯学 習活動 センタ ー、\n勤 労 青 少 年 ホ ー ム 、市 役 所 ロ ビ ー 、市 民 総 合 体 育 館 、美 術 考 古 館 ）",
+        "proofStart": 241583,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      },
+      {
+        "name": "スポーツ＆健康 高齢者運動促進事業",
+        "raw": "スポーツ＆健康 高齢者運動促進事業",
+        "start": 250279,
+        "proof": "スポーツ＆健康 高齢者運動促進事業\n・元 気 い き い き 岡 谷 シ ニ ア ス ポ ー ツ デ ー  ４ 回  参 加 者 １ １ ４ 人",
+        "proofStart": 250279,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently verifiedFY2023named heading and own-source narrative. No value or status borrowed fromFY2024counterpart. No policygrade oramount inferred."
+      }
+    ]
+  }
+]

@@ -1,0 +1,586 @@
+{
+  "source": {
+    "municipalityCode": "20204",
+    "municipalityName": "岡谷市",
+    "sourceId": "729865793e91d8a8d3c98199",
+    "title": "令和6年度行政報告書",
+    "url": "https://www.city.okaya.lg.jp/material/files/group/2/R06_gyouseihoukokusyo.pdf",
+    "sourceSha256": "f58466d7568e9d942f95e5d05e6fc6193cee89a132a0304b472954753f8fdc7a",
+    "listedContinuations": [
+      {
+        "assetBytes": 289679,
+        "assetPath": "documents/729865793e91d8a8d3c98199-2.json",
+        "assetSha256": "47de674567e202488982cd23a3ed811af3d11732be00bb9833afc17d7f360e48",
+        "exportedCharacters": 120000,
+        "part": 2,
+        "startCharacter": 120000,
+        "textSha256": "ee0f6dafd48c184e0e1f130b56714c5beffdc978401e472a3bd2bd50b52cfced"
+      },
+      {
+        "assetBytes": 43022,
+        "assetPath": "documents/729865793e91d8a8d3c98199-3.json",
+        "assetSha256": "0c437b982bdb390abc83d94b4f5127ec961c7c88c4337413f098b8014034da71",
+        "exportedCharacters": 18629,
+        "part": 3,
+        "startCharacter": 240000,
+        "textSha256": "8ac1277ce1d835cc7fe672e23d0941a535ba39d85d4c3ee0306350eb15e59002"
+      }
+    ],
+    "inventoryStatus": "complete_hash_verified",
+    "characters": 258629,
+    "fullTextSha256": "c2cad33961c27aa5ff809873531affe59c6faa7396ddf091ef43e50304e52660"
+  },
+  "reviewed": 96,
+  "acceptedProposals": 75,
+  "rows": [
+    {
+      "name": "電子自治体推進事業",
+      "status": "accepted_proposal",
+      "start": 18727
+    },
+    {
+      "name": "会議録等作成支援システム事業",
+      "status": "accepted_proposal",
+      "start": 19910
+    },
+    {
+      "name": "市民意見収集事業",
+      "status": "accepted_proposal",
+      "start": 29120
+    },
+    {
+      "name": "ハザードマップ更新事業",
+      "status": "accepted_proposal",
+      "start": 67432
+    },
+    {
+      "name": "防災啓発共同事業",
+      "status": "accepted_proposal",
+      "start": 68076
+    },
+    {
+      "name": "防災行政無線等デジタル化整備事業",
+      "status": "accepted_proposal",
+      "start": 69720
+    },
+    {
+      "name": "自主防災組織強化事業補助金",
+      "status": "accepted_proposal",
+      "start": 70265
+    },
+    {
+      "name": "我がまち守る防災資機材緊急整備事業",
+      "status": "accepted_proposal",
+      "start": 72373
+    },
+    {
+      "name": "福祉医療支給事業",
+      "status": "accepted_proposal",
+      "start": 82312
+    },
+    {
+      "name": "国民健康保険事業",
+      "status": "hold",
+      "reason": "Entire insuranceaccount",
+      "start": 82563
+    },
+    {
+      "name": "ゼロカーボン普及啓発事業",
+      "status": "hold",
+      "reason": "Broadpolicyprogramme withmultiple constituentactions",
+      "start": 89296
+    },
+    {
+      "name": "住宅用再エネ設備等導入促進事業",
+      "status": "accepted_proposal",
+      "start": 91058
+    },
+    {
+      "name": "諏訪湖ヒシ除去体験事業",
+      "status": "accepted_proposal",
+      "start": 92711
+    },
+    {
+      "name": "アレチウリ駆除事業",
+      "status": "accepted_proposal",
+      "start": 92930
+    },
+    {
+      "name": "自動車騒音常時監視事業",
+      "status": "hold",
+      "reason": "Numeric newline interrupts firstsentence; bodyboundary requiresreview",
+      "start": 93066
+    },
+    {
+      "name": "岡谷市資源物分別回収促進事業補助金",
+      "status": "accepted_proposal",
+      "start": 99530
+    },
+    {
+      "name": "プラスチック資源循環促進事業",
+      "status": "accepted_proposal",
+      "start": 100014
+    },
+    {
+      "name": "人権啓発事業",
+      "status": "accepted_proposal",
+      "start": 104072
+    },
+    {
+      "name": "一時生活支援事業",
+      "status": "accepted_proposal",
+      "start": 105579
+    },
+    {
+      "name": "障がい者手当等給付事業",
+      "status": "hold",
+      "reason": "Firstsentence interrupted bynumericcolumn",
+      "start": 105823
+    },
+    {
+      "name": "障がい者等福祉事業",
+      "status": "hold",
+      "reason": "Multiple disabilitybenefits unresolvedparentchild identity",
+      "start": 106121
+    },
+    {
+      "name": "母子家庭自立支援給付事業",
+      "status": "accepted_proposal",
+      "start": 111408
+    },
+    {
+      "name": "福祉タクシー運行事業",
+      "status": "hold",
+      "reason": "Historical/statistical table ratherthan bounded currentactivity",
+      "start": 113586
+    },
+    {
+      "name": "中国残留邦人等生活支援事業",
+      "status": "hold",
+      "reason": "Paymentstatistics withoutcomplete rowactivities",
+      "start": 113695
+    },
+    {
+      "name": "高齢者クラブ連合会補助金",
+      "status": "accepted_proposal",
+      "start": 116412
+    },
+    {
+      "name": "地区高齢者クラブ補助金",
+      "status": "accepted_proposal",
+      "start": 116458
+    },
+    {
+      "name": "シルバー人材センター補助金",
+      "status": "accepted_proposal",
+      "start": 116543
+    },
+    {
+      "name": "地域支え合い型移動支援補助金",
+      "status": "accepted_proposal",
+      "start": 116659
+    },
+    {
+      "name": "住宅改修アドバイザー事業",
+      "status": "accepted_proposal",
+      "start": 116984
+    },
+    {
+      "name": "介護保険広報啓発事業",
+      "status": "accepted_proposal",
+      "start": 119614
+    },
+    {
+      "name": "介護予防普及啓発事業",
+      "status": "accepted_proposal",
+      "start": 120420
+    },
+    {
+      "name": "権利擁護事業",
+      "status": "accepted_proposal",
+      "start": 121650
+    },
+    {
+      "name": "総合相談事業",
+      "status": "accepted_proposal",
+      "start": 121804
+    },
+    {
+      "name": "認知症地域支援・ケア向上事業",
+      "status": "accepted_proposal",
+      "start": 122824
+    },
+    {
+      "name": "要介護者介護用品購入費支給事業",
+      "status": "accepted_proposal",
+      "start": 124381
+    },
+    {
+      "name": "介護相談員派遣事業",
+      "status": "accepted_proposal",
+      "start": 124671
+    },
+    {
+      "name": "２４時間緊急時駆けつけ安心サービス事業",
+      "status": "accepted_proposal",
+      "start": 125075
+    },
+    {
+      "name": "配食サービス事業",
+      "status": "accepted_proposal",
+      "start": 125197
+    },
+    {
+      "name": "子育て支援館「こどものくに」運営事業",
+      "status": "hold",
+      "reason": "Facilityprogramme vsnestedservices hierarchy needsreview",
+      "start": 130324
+    },
+    {
+      "name": "地域子育て支援拠点事業",
+      "status": "accepted_proposal",
+      "start": 131186
+    },
+    {
+      "name": "子ども発達支援センター事業",
+      "status": "accepted_proposal",
+      "start": 131364
+    },
+    {
+      "name": "その他発達支援事業",
+      "status": "hold",
+      "reason": "Genericotherdevelopment category withoverlapping supportprogrammes",
+      "start": 131683
+    },
+    {
+      "name": "保育園健康管理事業",
+      "status": "accepted_proposal",
+      "start": 132790
+    },
+    {
+      "name": "保育職員研修事業",
+      "status": "accepted_proposal",
+      "start": 132906
+    },
+    {
+      "name": "ぼくもわたしも おかやっ子事業",
+      "status": "accepted_proposal",
+      "start": 133054
+    },
+    {
+      "name": "世界にタッチ“英語に触れよう”事業",
+      "status": "accepted_proposal",
+      "start": 133234
+    },
+    {
+      "name": "やってみようキッズエプロン隊事業",
+      "status": "accepted_proposal",
+      "start": 133284
+    },
+    {
+      "name": "私立保育園運営費等補助事業",
+      "status": "accepted_proposal",
+      "start": 133477
+    },
+    {
+      "name": "子育て応援 ３歳未満児保育料軽減事業",
+      "status": "accepted_proposal",
+      "start": 133707
+    },
+    {
+      "name": "保育園給食食材費物価高騰対策事業",
+      "status": "accepted_proposal",
+      "start": 133825
+    },
+    {
+      "name": "公立保育所移管整備事業",
+      "status": "accepted_proposal",
+      "start": 134059
+    },
+    {
+      "name": "運営費等補助事業",
+      "status": "hold",
+      "reason": "Genericoperating subsidy title needs explicitfacilityidentity",
+      "start": 134356
+    },
+    {
+      "name": "私立幼稚園運営費等補助事業",
+      "status": "accepted_proposal",
+      "start": 136188
+    },
+    {
+      "name": "病院群輪番制病院運営事業",
+      "status": "accepted_proposal",
+      "start": 140628
+    },
+    {
+      "name": "献血事業",
+      "status": "accepted_proposal",
+      "start": 141048
+    },
+    {
+      "name": "相談事業",
+      "status": "hold",
+      "reason": "Genericconsultation heading spanning multiple services",
+      "start": 142787
+    },
+    {
+      "name": "不妊及び不育症治療費助成事業",
+      "status": "accepted_proposal",
+      "start": 143242
+    },
+    {
+      "name": "未熟児養育医療給付事業",
+      "status": "accepted_proposal",
+      "start": 143399
+    },
+    {
+      "name": "家庭訪問指導事業",
+      "status": "accepted_proposal",
+      "start": 144737
+    },
+    {
+      "name": "健康ポイント事業",
+      "status": "accepted_proposal",
+      "start": 146963
+    },
+    {
+      "name": "自殺対策推進事業",
+      "status": "accepted_proposal",
+      "start": 147731
+    },
+    {
+      "name": "高齢者の保健事業と介護予防等の一体的な実施事業",
+      "status": "accepted_proposal",
+      "start": 148165
+    },
+    {
+      "name": "アピアランスケアサポート事業",
+      "status": "accepted_proposal",
+      "start": 148764
+    },
+    {
+      "name": "熱中症対策事業",
+      "status": "accepted_proposal",
+      "start": 148885
+    },
+    {
+      "name": "工業会育成事業",
+      "status": "accepted_proposal",
+      "start": 161891
+    },
+    {
+      "name": "商工業振興条例に基づく助成事業",
+      "status": "accepted_proposal",
+      "start": 163560
+    },
+    {
+      "name": "企業立地支援事業",
+      "status": "accepted_proposal",
+      "start": 163779
+    },
+    {
+      "name": "創業のまち岡谷実現事業",
+      "status": "accepted_proposal",
+      "start": 164126
+    },
+    {
+      "name": "信州大学との連携強化事業",
+      "status": "accepted_proposal",
+      "start": 164294
+    },
+    {
+      "name": "首都圏産業振興活動事業",
+      "status": "hold",
+      "reason": "Numericnewline interrupts firstsentence",
+      "start": 165985
+    },
+    {
+      "name": "商工業用地等取得推進事業",
+      "status": "accepted_proposal",
+      "start": 166433
+    },
+    {
+      "name": "制度資金あっせん事業",
+      "status": "hold",
+      "reason": "Interleaved unrelated caption within firstsentence",
+      "start": 168157
+    },
+    {
+      "name": "岡谷絹工房後継者育成事業補助金",
+      "status": "accepted_proposal",
+      "start": 175576
+    },
+    {
+      "name": "地域おこし協力隊ブランド推進事業",
+      "status": "accepted_proposal",
+      "start": 178727
+    },
+    {
+      "name": "主催公演事業",
+      "status": "hold",
+      "reason": "Genericfacility performance category",
+      "start": 179488
+    },
+    {
+      "name": "独自企画事業",
+      "status": "hold",
+      "reason": "Genericfacility performance category",
+      "start": 179657
+    },
+    {
+      "name": "武井武雄生誕１３０年記念事業",
+      "status": "accepted_proposal",
+      "start": 180390
+    },
+    {
+      "name": "童画館整備事業",
+      "status": "accepted_proposal",
+      "start": 180892
+    },
+    {
+      "name": "マルベリー広場開放イベント開催事業",
+      "status": "accepted_proposal",
+      "start": 181245
+    },
+    {
+      "name": "地区整備計画による道路整備事業",
+      "status": "hold",
+      "reason": "Broadroad category withoutbounded individualworkidentity",
+      "start": 194392
+    },
+    {
+      "name": "子育て支援事業",
+      "status": "hold",
+      "reason": "Genericchildcare title inhousing programme; needs explicitidentity",
+      "start": 194827
+    },
+    {
+      "name": "ふれあい花壇づくり事業",
+      "status": "accepted_proposal",
+      "start": 202311
+    },
+    {
+      "name": "河川事業",
+      "status": "hold",
+      "reason": "Prefectureexecuted works, notmunicipal programme",
+      "start": 202379
+    },
+    {
+      "name": "砂防事業",
+      "status": "hold",
+      "reason": "Prefectureexecuted works",
+      "start": 202420
+    },
+    {
+      "name": "急傾斜地崩壊対策事業",
+      "status": "hold",
+      "reason": "Prefectureexecuted works",
+      "start": 202481
+    },
+    {
+      "name": "維持補修事業",
+      "status": "hold",
+      "reason": "Prefectureexecuted works",
+      "start": 202506
+    },
+    {
+      "name": "温泉スタンド事業",
+      "status": "accepted_proposal",
+      "start": 203612
+    },
+    {
+      "name": "学びのおかやサポート事業",
+      "status": "accepted_proposal",
+      "start": 222559
+    },
+    {
+      "name": "第７次岡谷市生涯学習推進計画策定事業",
+      "status": "accepted_proposal",
+      "start": 222659
+    },
+    {
+      "name": "湊コミュニティスクール連携事業",
+      "status": "accepted_proposal",
+      "start": 224345
+    },
+    {
+      "name": "ホリデイスクエア事業",
+      "status": "accepted_proposal",
+      "start": 231507
+    },
+    {
+      "name": "夏休み子ども交流事業",
+      "status": "accepted_proposal",
+      "start": 232481
+    },
+    {
+      "name": "「家庭読書の日」事業",
+      "status": "accepted_proposal",
+      "start": 234791
+    },
+    {
+      "name": "ファーストチョイスブック事業",
+      "status": "accepted_proposal",
+      "start": 234892
+    },
+    {
+      "name": "まちかど図書館事業",
+      "status": "accepted_proposal",
+      "start": 235316
+    },
+    {
+      "name": "スポーツ＆健康 高齢者運動促進事業",
+      "status": "accepted_proposal",
+      "start": 244443
+    }
+  ],
+  "remaining": "Other wrapped headings andFY2023counterparts not yet exhausted",
+  "additional2023Review": {
+    "exactMatched": 60,
+    "acceptedProposals": 59,
+    "held": [
+      {
+        "name": "創業のまち岡谷実現事業",
+        "reason": "Interleavedenterprise-attractioncaption in currentyears firststatement; avoid uncertain association"
+      }
+    ],
+    "source": {
+      "municipalityCode": "20204",
+      "municipalityName": "岡谷市",
+      "sourceId": "dafe7fe3339746b513f95ae5",
+      "title": "令和5年度行政報告書",
+      "url": "https://www.city.okaya.lg.jp/material/files/group/2/R05_gyouseihoukokusyo.pdf",
+      "sourceSha256": "e5a25fb48ac39d462f6d26c321e6064d8ca4d0e4854b854c00efdc36cbed8357",
+      "listedContinuations": [
+        {
+          "assetBytes": 290452,
+          "assetPath": "documents/dafe7fe3339746b513f95ae5-2.json",
+          "assetSha256": "8aeb865bac6f3955b0d900116ad6adf4d57a4b9697f643f5dec5c407375de5b9",
+          "exportedCharacters": 120000,
+          "part": 2,
+          "startCharacter": 120000,
+          "textSha256": "2b474ff1c3fc2eb403dc5e0d2fb4f82467e45193295706fd8240dfaa8eafd035"
+        },
+        {
+          "assetBytes": 59335,
+          "assetPath": "documents/dafe7fe3339746b513f95ae5-3.json",
+          "assetSha256": "63fac2615fbeef9d54eb62d9402dd0b683e6f6fff40fddf822a9aa87d7d5e9c8",
+          "exportedCharacters": 25288,
+          "part": 3,
+          "startCharacter": 240000,
+          "textSha256": "298339d5c3671f994a7461dcb57b58ca55f72d56020b37f39324479ad6de0675"
+        }
+      ],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 265288,
+      "fullTextSha256": "0948a0324856690cdfa8390870c5962ee40539cb1b55c048e6ac817ed03ef75a"
+    }
+  },
+  "completePairAcceptedProposals": 134,
+  "quoteBoundaryCorrections": [
+    "One-time living support excludes adjacent disability/coordinationservice",
+    "Flowerbed support excludes following prefecturalworksheading",
+    "Minato school activity excludes following Kawagishi facilityparagraph"
+  ]
+}

@@ -1,3 +1,5 @@
+import{reviewOkayaMore}from'./descending-nagano-okaya-more';
+import{reviewNagisoMore}from'./descending-nagano-nagiso-more';
 import{reviewOkaya}from'./descending-nagano-okaya';
 import{reviewKoumi}from'./descending-nagano-koumi';
 import{reviewIijima2021Extra}from'./descending-nagano-iijima-2021-extra';
@@ -93,6 +95,7 @@ const evidenceHolds:Record<string,{code:string;proof:string;reason:string;status
 };
 export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]):LayoutReview|null{
  const kisoReview=reviewKiso(input,inputs);if(kisoReview)return kisoReview;
+ const nagisomoreReview=reviewNagisoMore(input);if(nagisomoreReview){const prior=reviewNagisoNext(input)!;if(prior.status==='source_integrity_hold'||nagisomoreReview.status==='source_integrity_hold')return {projects:[],units:[],proofs:[],status:'source_integrity_hold',reason:'Bothsource reviews must pass'};return {...prior,projects:[...prior.projects,...nagisomoreReview.projects],units:[...prior.units,...nagisomoreReview.units]};}
  const nagisonextReview=reviewNagisoNext(input);if(nagisonextReview)return nagisonextReview;
  const oshikaReview=reviewOshika(input);if(oshikaReview)return oshikaReview;
  const toyookaReview=reviewToyooka(input,inputs);if(toyookaReview)return toyookaReview;
@@ -110,6 +113,7 @@ export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]
  const sakuhoReview=reviewSakuho(input);if(sakuhoReview)return sakuhoReview;
  const kawakamiReview=reviewKawakami(input);if(kawakamiReview)return kawakamiReview;
  const koumiReview=reviewKoumi(input);if(koumiReview)return koumiReview;
+ const okayamoreReview=reviewOkayaMore(input);if(okayamoreReview){const prior=reviewOkaya(input)!;if(prior.status==='source_integrity_hold'||okayamoreReview.status==='source_integrity_hold')return {projects:[],units:[],proofs:[],status:'source_integrity_hold',reason:'Bothsource reviews must pass'};return {...prior,projects:[...prior.projects,...okayamoreReview.projects],units:[...prior.units,...okayamoreReview.units]};}
  const okayaReview=reviewOkaya(input);if(okayaReview)return okayaReview;
  const grantsReview=reviewNaganoGrants(input);if(grantsReview)return grantsReview;
  const strategyReview=reviewStrategy(input);if(strategyReview)return strategyReview;
