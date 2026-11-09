@@ -1,3 +1,8 @@
+import{reviewNiigataHtml}from'./descending-niigata-html';
+import{reviewNagaoka}from'./descending-niigata-nagaoka';
+import{reviewOjiya}from'./descending-niigata-ojiya';
+import{reviewTokamachi}from'./descending-niigata-tokamachi';
+import{reviewGosen}from'./descending-niigata-gosen';
 import{reviewSado}from'./descending-niigata-sado';
 import{reviewUonumaHistory}from'./descending-niigata-uonuma-history';
 import{reviewUonumaSummary}from'./descending-niigata-uonuma';
@@ -170,12 +175,17 @@ export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]
  const toyamaoyabeReview=reviewOyabeMissing(input,inputs);if(toyamaoyabeReview)return toyamaoyabeReview;
  const niigatasekikawaReview=reviewSekikawa(input);if(niigatasekikawaReview)return niigatasekikawaReview;
  const niigatakariwaReview=reviewKariwa(input);if(niigatakariwaReview)return niigatakariwaReview;
- const niigatayuzawaReview=reviewYuzawa2025(input);if(niigatayuzawaReview)return niigatayuzawaReview;
+ const niigatayuzawaReview=reviewYuzawa2025(input,inputs);if(niigatayuzawaReview)return niigatayuzawaReview;
  const niigataagaReview=reviewAga(input);if(niigataagaReview)return niigataagaReview;
  const niigataminamiuonumaReview=reviewMinamiuonuma(input);if(niigataminamiuonumaReview)return niigataminamiuonumaReview;
  const niigatauonumaReview=reviewUonumaSummary(input);if(niigatauonumaReview)return niigatauonumaReview;
  const niigatauonuma_historyReview=reviewUonumaHistory(input);if(niigatauonuma_historyReview)return niigatauonuma_historyReview;
  const niigatasadoReview=reviewSado(input);if(niigatasadoReview)return niigatasadoReview;
+ const niigatagosenReview=reviewGosen(input);if(niigatagosenReview)return niigatagosenReview;
+ const niigatatokamachiReview=reviewTokamachi(input);if(niigatatokamachiReview)return niigatatokamachiReview;
+ const niigataojiyaReview=reviewOjiya(input);if(niigataojiyaReview)return niigataojiyaReview;
+ const niigatanagaokaReview=reviewNagaoka(input);if(niigatanagaokaReview)return niigatanagaokaReview;
+ const niigatahtmlReview=reviewNiigataHtml(input);if(niigatahtmlReview)return niigatahtmlReview;
  const grantsReview=reviewNaganoGrants(input);if(grantsReview)return grantsReview;
  const strategyReview=reviewStrategy(input);if(strategyReview)return strategyReview;
  const nagisoReview=reviewNagiso(input);if(nagisoReview)return nagisoReview;

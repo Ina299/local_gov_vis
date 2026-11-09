@@ -1,6 +1,6 @@
 {
-  "phase": "Niigata first verified tranche; prefecture review remains open",
-  "candidateRecords": 954,
+  "phase": "Niigata second verified tranche;prefecture review remains open",
+  "candidateRecords": 1901,
   "stageTitleOnlyHolds": 160,
   "sourceRows": 58,
   "remainingSources": [
@@ -31,8 +31,8 @@
     {
       "sourceId": "f5424b734a5898e1fedca578",
       "municipalityName": "湯沢町",
-      "status": "duplicate",
-      "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+      "status": "additional_stage_candidates",
+      "reason": "63numbered rows;58previous,5wrappednames staged but not in1901."
     },
     {
       "sourceId": "3d577f4fc5807b7d69759367",
@@ -43,8 +43,8 @@
     {
       "sourceId": "182a077a731b5380c490a824",
       "municipalityName": "田上町",
-      "status": "duplicate",
-      "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+      "status": "additional_stage_candidate",
+      "reason": "76headers/75names;74previous,1variantlabel sheet staged but not in1901."
     },
     {
       "sourceId": "8416df8d82176176a5ca1162",
@@ -97,8 +97,8 @@
     {
       "sourceId": "2c691ae7907456479dcf01b4",
       "municipalityName": "上越市",
-      "status": "duplicate",
-      "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+      "status": "annual_identity_hold",
+      "reason": "160 additional title proposals remain out: reform report planning scopeH31-H34 does not establish individual fiscal/evaluationyear."
     },
     {
       "sourceId": "3d1a6ec65d57f9eb2816696c",
@@ -107,43 +107,22 @@
       "reason": "No saved text asset; acquisition held pending original stop ledger"
     },
     {
-      "sourceId": "a97e2e42d3ef80866908d59d",
-      "municipalityName": "五泉市",
-      "status": "unsupported_layout",
-      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial"
-    },
-    {
       "sourceId": "e127a20bedce66c03596c99e",
       "municipalityName": "妙高市",
       "status": "missing_body",
       "reason": "No saved text asset; acquisition held pending original stop ledger"
     },
     {
-      "sourceId": "81bb7c068b21ea5c6c3fc28b",
-      "municipalityName": "十日町市",
-      "status": "unsupported_layout",
-      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial"
-    },
-    {
-      "sourceId": "29f29c373bdcf5b84f84524f",
-      "municipalityName": "小千谷市",
-      "status": "unsupported_layout",
-      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial"
-    },
-    {
       "sourceId": "b49d4c30011f34e096c030fc",
       "municipalityName": "柏崎市",
-      "status": "duplicate",
-      "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
-    },
-    {
-      "sourceId": "d988aef3581a596e117ed1e8",
-      "municipalityName": "長岡市",
-      "status": "unsupported_layout",
-      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial"
+      "status": "covered_named_html_rows",
+      "reason": "8previous and8new individual titles covered;2018group labels not individual business titles;linkedPDFdetails unavailable."
     }
   ],
-  "coverage": "Processed means accepted rows, not complete source coverage; remaining Sekikawa/Kariwa/Uonuma source-local rows and Joetsu year/title holds are separately staged. Gosen/Tokamachi/Ojiya/Nagaoka remain actionable.",
+  "coverage": "Named families reviewed, not complete numerical extraction. Next146 candidates and detailed residual-source evidence review are staged separately.14missingbodies andJoetsuannualidentityholds remain. No nationwidecompletion.",
   "municipalRequests": 0,
-  "productionRecordsAdded": 0
+  "productionRecordsAdded": 0,
+  "newCandidatesThisTranche": 947,
+  "candidateFiscalYearEnrichments": 201,
+  "stageOnlyAdditionalCandidates": 146
 }

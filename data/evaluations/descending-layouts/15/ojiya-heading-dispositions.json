@@ -1,0 +1,2098 @@
+[
+  {
+    "name": "議会経費",
+    "department": "議会事務局",
+    "start": 31082,
+    "raw": "○議会経費【議会事務局】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "議会事務局経費",
+    "department": "議会事務局",
+    "start": 32824,
+    "raw": "○議会事務局経費【議会事務局】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "行政視察経費",
+    "department": "議会事務局",
+    "start": 32870,
+    "raw": "○行政視察経費【議会事務局】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "総務課経費",
+    "department": "総務課",
+    "start": 33227,
+    "raw": "○総務課経費【総務課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "特別職給与費",
+    "department": "総務課",
+    "start": 39504,
+    "raw": "○特別職給与費【総務課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "褒賞経費",
+    "department": "企画政策課",
+    "start": 39827,
+    "raw": "○褒賞経費【企画政策課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "町内会経費",
+    "department": "総務課",
+    "start": 40133,
+    "raw": "○町内会経費【総務課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "庁舎管理経費",
+    "department": "総務課",
+    "start": 40224,
+    "raw": "○庁舎管理経費【総務課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "職員福利厚生経費",
+    "department": "総務課",
+    "start": 40548,
+    "raw": "○職員福利厚生経費【総務課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "職員研修経費",
+    "department": "総務課",
+    "start": 40659,
+    "raw": "○職員研修経費【総務課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "市長会経費",
+    "department": "企画政策課",
+    "start": 40788,
+    "raw": "○市長会経費【企画政策課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "市民災害保険経費",
+    "department": "総務課",
+    "start": 40995,
+    "raw": "○市民災害保険経費【総務課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "情報化推進事業",
+    "department": "企画政策課",
+    "start": 41259,
+    "raw": "○情報化推進事業【企画政策課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "会計管理経費",
+    "department": "総務課",
+    "start": 43330,
+    "raw": "○会計管理経費【総務課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "生活安全経費",
+    "department": "市民生活課",
+    "start": 44043,
+    "raw": "○生活安全経費【市民生活課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "片貝総合センター管理運営経費",
+    "department": "市民生活課",
+    "start": 44618,
+    "raw": "○片貝総合センター管理運営経費【市民生活課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "住民センター管理運営経費",
+    "department": "市民生活課",
+    "start": 44851,
+    "raw": "○住民センター管理運営経費【市民生活課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "男女共同参画推進事業",
+    "department": "市民生活課",
+    "start": 45153,
+    "raw": "○男女共同参画推進事業【市民生活課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "ウクライナ避難民支援事業",
+    "department": "企画政策課",
+    "start": 46303,
+    "raw": "○ウクライナ避難民支援事業【企画政策課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "文書管理経費",
+    "department": "総務課",
+    "start": 46391,
+    "raw": "○文書管理経費【総務課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "広報誌発行事業",
+    "department": "企画政策課",
+    "start": 48003,
+    "raw": "○広報誌発行事業【企画政策課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "広報広聴経費",
+    "department": "企画政策課",
+    "start": 48046,
+    "raw": "○広報広聴経費【企画政策課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "普通財産管理経費",
+    "department": "総務課",
+    "start": 49345,
+    "raw": "○普通財産管理経費【総務課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "車両管理経費",
+    "department": "総務課",
+    "start": 50403,
+    "raw": "○車両管理経費【総務課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "車両整備事業",
+    "department": "総務課",
+    "start": 53141,
+    "raw": "○車両整備事業【総務課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "企画政策課経費",
+    "department": "企画政策課",
+    "start": 53241,
+    "raw": "○企画政策課経費【企画政策課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "非核平和推進事業",
+    "department": "企画政策課",
+    "start": 57742,
+    "raw": "○非核平和推進事業【企画政策課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "ふるさと納税推進事業",
+    "department": "企画政策課",
+    "start": 58134,
+    "raw": "○ふるさと納税推進事業【企画政策課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "交通安全推進経費",
+    "department": "防災安全課",
+    "start": 58549,
+    "raw": "○交通安全推進経費【防災安全課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "地域振興事業",
+    "department": "商工振興課",
+    "start": 59759,
+    "raw": "○地域振興事業【商工振興課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "地域おこし協力隊推進事業",
+    "department": "にぎわい交流課",
+    "start": 61218,
+    "raw": "○地域おこし協力隊推進事業【にぎわい交流課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "公共交通対策事業",
+    "department": "にぎわい交流課",
+    "start": 61354,
+    "raw": "○公共交通対策事業【にぎわい交流課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "過年度収入払戻金",
+    "department": "税務課",
+    "start": 62402,
+    "raw": "○過年度収入払戻金【税務課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "税務課経費",
+    "department": "税務課",
+    "start": 62470,
+    "raw": "○税務課経費【税務課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "賦課徴収経費",
+    "department": "税務課",
+    "start": 62536,
+    "raw": "○賦課徴収経費【税務課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "固定資産評価審査委員会経費",
+    "department": "監査委員事務局",
+    "start": 66962,
+    "raw": "○固定資産評価審査委員会経費【監査委員事務局】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "戸籍住民基本台帳経費",
+    "department": "市民生活課",
+    "start": 67051,
+    "raw": "○戸籍住民基本台帳経費【市民生活課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "選挙管理委員会経費",
+    "department": "総務課",
+    "start": 71311,
+    "raw": "○選挙管理委員会経費【総務課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "衆議院議員総選挙及び最高裁判所裁判官国民審査経費",
+    "department": "総務課",
+    "start": 71880,
+    "raw": "○衆議院議員総選挙及び最高裁判所裁判官国民審査経費【総務課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "統計調査総務経費",
+    "department": "総務課",
+    "start": 72854,
+    "raw": "○統計調査総務経費【総務課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "その他統計調査経費",
+    "department": "総務課",
+    "start": 72938,
+    "raw": "○その他統計調査経費【総務課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "農林業センサス経費",
+    "department": "総務課",
+    "start": 73386,
+    "raw": "○農林業センサス経費【総務課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "監査委員経費",
+    "department": "監査委員事務局",
+    "start": 73735,
+    "raw": "○監査委員経費【監査委員事務局】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "災害救助経費",
+    "department": "防災安全課",
+    "start": 74081,
+    "raw": "○災害救助経費【防災安全課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "社会福祉総務経費",
+    "department": "福祉課",
+    "start": 74384,
+    "raw": "○社会福祉総務経費【福祉課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "民生委員・児童委員経費",
+    "department": "福祉課",
+    "start": 75027,
+    "raw": "○民生委員・児童委員経費【福祉課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "社会福祉協議会補助事業",
+    "department": "福祉課",
+    "start": 75213,
+    "raw": "○社会福祉協議会補助事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "遺家族援護経費",
+    "department": "福祉課",
+    "start": 75489,
+    "raw": "○遺家族援護経費【福祉課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "総合福祉センター管理運営経費",
+    "department": "福祉課",
+    "start": 75545,
+    "raw": "○総合福祉センター管理運営経費【福祉課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "地域福祉センター管理運営経費",
+    "department": "福祉課",
+    "start": 75770,
+    "raw": "○地域福祉センター管理運営経費【福祉課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "国民健康保険特別会計繰出金",
+    "department": "市民生活課",
+    "start": 75997,
+    "raw": "○国民健康保険特別会計繰出金【市民生活課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "生活困窮者自立支援事業",
+    "department": "福祉課",
+    "start": 76072,
+    "raw": "○生活困窮者自立支援事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "生活困窮者任意事業",
+    "department": "福祉課",
+    "start": 76429,
+    "raw": "○生活困窮者任意事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "価格高騰緊急支援給付金事業",
+    "department": "福祉課",
+    "start": 76815,
+    "raw": "○価格高騰緊急支援給付金事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "障害者福祉総務経費",
+    "department": "福祉課",
+    "start": 77190,
+    "raw": "○障害者福祉総務経費【福祉課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "障害者介護給付費等支給審査会経費",
+    "department": "福祉課",
+    "start": 78196,
+    "raw": "○障害者介護給付費等支給審査会経費【福祉課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "障害者介護給付費等認定調査経費",
+    "department": "福祉課",
+    "start": 78363,
+    "raw": "○障害者介護給付費等認定調査経費【福祉課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "障害者介護給付費等給付事業",
+    "department": "福祉課",
+    "start": 78537,
+    "raw": "○障害者介護給付費等給付事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "障害者地域生活支援事業",
+    "department": "福祉課",
+    "start": 79923,
+    "raw": "○障害者地域生活支援事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "補装具費給付事業",
+    "department": "福祉課",
+    "start": 81667,
+    "raw": "○補装具費給付事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "自立支援医療給付事業",
+    "department": "福祉課",
+    "start": 81861,
+    "raw": "○自立支援医療給付事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "在宅心身障害者福祉推進事業",
+    "department": "福祉課",
+    "start": 82039,
+    "raw": "○在宅心身障害者福祉推進事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "重度心身障害者医療費助成事業",
+    "department": "福祉課",
+    "start": 82462,
+    "raw": "○重度心身障害者医療費助成事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "特別障害者手当等給付事業",
+    "department": "福祉課",
+    "start": 82886,
+    "raw": "○特別障害者手当等給付事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "精神障害者福祉事業",
+    "department": "福祉課",
+    "start": 83057,
+    "raw": "○精神障害者福祉事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "老人福祉総務経費",
+    "department": "福祉課",
+    "start": 83653,
+    "raw": "○老人福祉総務経費【福祉課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "老人医療費助成事業",
+    "department": "福祉課",
+    "start": 84101,
+    "raw": "○老人医療費助成事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "老人保護措置事業",
+    "department": "福祉課",
+    "start": 84365,
+    "raw": "○老人保護措置事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "高齢者福祉推進事業",
+    "department": "福祉課",
+    "start": 84555,
+    "raw": "○高齢者福祉推進事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "在宅生活支援事業",
+    "department": "福祉課",
+    "start": 85332,
+    "raw": "○在宅生活支援事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "介護保険低所得者利用負担軽減事業",
+    "department": "福祉課",
+    "start": 86121,
+    "raw": "○介護保険低所得者利用負担軽減事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "施設管理運営経費",
+    "department": "福祉課",
+    "start": 86212,
+    "raw": "○施設管理運営経費【福祉課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "介護保険特別会計繰出金",
+    "department": "福祉課",
+    "start": 87274,
+    "raw": "○介護保険特別会計繰出金【福祉課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "後期高齢者医療特別会計繰出金",
+    "department": "市民生活課",
+    "start": 87308,
+    "raw": "○後期高齢者医療特別会計繰出金【市民生活課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "国民年金経費",
+    "department": "市民生活課",
+    "start": 87362,
+    "raw": "○国民年金経費【市民生活課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "児童福祉経費",
+    "department": "健康・子育て応援課",
+    "start": 88481,
+    "raw": "○児童福祉経費【健康・子育て応援課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "保育園経費",
+    "department": "教育・保育課",
+    "start": 88996,
+    "raw": "○保育園経費【教育・保育課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "保育園施設整備事業",
+    "department": "教育・保育課",
+    "start": 89441,
+    "raw": "○保育園施設整備事業【教育・保育課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "子ども・子育て支援事業",
+    "department": "教育・保育課",
+    "start": 89664,
+    "raw": "○子ども・子育て支援事業【教育・保育課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "子ども・子育て支援事業（繰越明許分）",
+    "department": "教育・保育課",
+    "start": 91159,
+    "raw": "○子ども・子育て支援事業（繰越明許分）【教育・保育課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "放課後児童健全育成事業",
+    "department": "教育・保育課",
+    "start": 91306,
+    "raw": "○放課後児童健全育成事業【教育・保育課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "病児・病後児保育事業",
+    "department": "健康・子育て応援課",
+    "start": 92035,
+    "raw": "○病児・病後児保育事業【健康・子育て応援課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "地域子育て支援拠点事業",
+    "department": "健康・子育て応援課",
+    "start": 92220,
+    "raw": "○地域子育て支援拠点事業【健康・子育て応援課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "母子福祉経費",
+    "department": "健康・子育て応援課",
+    "start": 93350,
+    "raw": "○母子福祉経費【健康・子育て応援課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "ひとり親家庭等医療費助成事業",
+    "department": "健康・子育て応援課",
+    "start": 93466,
+    "raw": "○ひとり親家庭等医療費助成事業【健康・子育て応援課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "児童扶養手当支給事業",
+    "department": "健康・子育て応援課",
+    "start": 93933,
+    "raw": "○児童扶養手当支給事業【健康・子育て応援課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "児童遊園管理経費",
+    "department": "教育・保育課",
+    "start": 94061,
+    "raw": "○児童遊園管理経費【教育・保育課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "健康・こどもプラザ経費",
+    "department": "教育・保育課",
+    "start": 94524,
+    "raw": "○健康・こどもプラザ経費【教育・保育課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "生活保護経費",
+    "department": "福祉課",
+    "start": 94568,
+    "raw": "○生活保護経費【福祉課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "生活保護適正実施推進等事業",
+    "department": "福祉課",
+    "start": 94936,
+    "raw": "○生活保護適正実施推進等事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "就労支援員配置事業",
+    "department": "福祉課",
+    "start": 95105,
+    "raw": "○就労支援員配置事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "生活保護事業",
+    "department": "福祉課",
+    "start": 95291,
+    "raw": "○生活保護事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "保健衛生総務経費",
+    "department": "健康・子育て応援課",
+    "start": 95680,
+    "raw": "○保健衛生総務経費【健康・子育て応援課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "健康づくり推進事業",
+    "department": "健康・子育て応援課",
+    "start": 96834,
+    "raw": "○健康づくり推進事業【健康・子育て応援課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "精神保健経費",
+    "department": "健康・子育て応援課",
+    "start": 97401,
+    "raw": "○精神保健経費【健康・子育て応援課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "病院統合支援事業",
+    "department": "健康・子育て応援課",
+    "start": 97915,
+    "raw": "○病院統合支援事業【健康・子育て応援課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "健康増進総務経費",
+    "department": "健康・子育て応援課",
+    "start": 98055,
+    "raw": "○健康増進総務経費【健康・子育て応援課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "健康診査事業",
+    "department": "健康・子育て応援課",
+    "start": 98384,
+    "raw": "○健康診査事業【健康・子育て応援課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "健康教育事業",
+    "department": "健康・子育て応援課",
+    "start": 98867,
+    "raw": "○健康教育事業【健康・子育て応援課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "健康相談事業",
+    "department": "健康・子育て応援課",
+    "start": 99071,
+    "raw": "○健康相談事業【健康・子育て応援課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "訪問指導事業",
+    "department": "健康・子育て応援課",
+    "start": 99141,
+    "raw": "○訪問指導事業【健康・子育て応援課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "がん検診事業",
+    "department": "健康・子育て応援課",
+    "start": 99482,
+    "raw": "○がん検診事業【健康・子育て応援課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "感染症予防事業",
+    "department": "健康・子育て応援課",
+    "start": 99730,
+    "raw": "○感染症予防事業【健康・子育て応援課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "3歳児1歳6か月児健康診査事業",
+    "department": "健康・子育て応援課",
+    "start": 101977,
+    "raw": "○3歳児1歳6か月児健康診査事業【健康・子育て応援課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "母子保健事業",
+    "department": "健康・子育て応援課",
+    "start": 102005,
+    "raw": "○母子保健事業【健康・子育て応援課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "子ども医療費助成事業",
+    "department": "健康・子育て応援課",
+    "start": 103973,
+    "raw": "○子ども医療費助成事業【健康・子育て応援課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "環境衛生経費",
+    "department": "環境共生課",
+    "start": 104539,
+    "raw": "○環境衛生経費【環境共生課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "資源物集団回収奨励事業",
+    "department": "環境共生課",
+    "start": 105216,
+    "raw": "○資源物集団回収奨励事業【環境共生課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "斎場管理経費",
+    "department": "環境共生課",
+    "start": 105423,
+    "raw": "○斎場管理経費【環境共生課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "環境保全対策経費",
+    "department": "環境共生課",
+    "start": 105653,
+    "raw": "○環境保全対策経費【環境共生課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "合併処理浄化槽設置整備事業",
+    "department": "環境共生課",
+    "start": 106616,
+    "raw": "○合併処理浄化槽設置整備事業【環境共生課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "清掃総務経費",
+    "department": "環境共生課",
+    "start": 106756,
+    "raw": "○清掃総務経費【環境共生課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "ごみ収集経費",
+    "department": "環境共生課",
+    "start": 106779,
+    "raw": "○ごみ収集経費【環境共生課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "可燃ごみ処理経費",
+    "department": "環境共生課",
+    "start": 107134,
+    "raw": "○可燃ごみ処理経費【環境共生課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "不燃ごみ処理経費",
+    "department": "環境共生課",
+    "start": 107718,
+    "raw": "○不燃ごみ処理経費【環境共生課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "し尿処理経費",
+    "department": "環境共生課",
+    "start": 108586,
+    "raw": "○し尿処理経費【環境共生課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "簡易水道組合補助金",
+    "department": "環境共生課",
+    "start": 109114,
+    "raw": "○簡易水道組合補助金【環境共生課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "水道事業会計資本費補助金",
+    "department": "環境共生課",
+    "start": 109187,
+    "raw": "○水道事業会計資本費補助金【環境共生課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "水道事業会計退職給付費負担金",
+    "department": "環境共生課",
+    "start": 109208,
+    "raw": "○水道事業会計退職給付費負担金【環境共生課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "勤労青少年ホーム経費",
+    "department": "文化スポーツ課",
+    "start": 109329,
+    "raw": "○勤労青少年ホーム経費【文化スポーツ課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "勤労青少年ホーム運営事業",
+    "department": "文化スポーツ課",
+    "start": 109358,
+    "raw": "○勤労青少年ホーム運営事業【文化スポーツ課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "労働諸経費",
+    "department": "商工振興課",
+    "start": 110068,
+    "raw": "○労働諸経費【商工振興課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "農業委員会経費",
+    "department": "農林課",
+    "start": 111681,
+    "raw": "○農業委員会経費【農林課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "農業総務経費",
+    "department": "農林課",
+    "start": 114398,
+    "raw": "○農業総務経費【農林課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "農業管理センター経費",
+    "department": "農林課",
+    "start": 114479,
+    "raw": "○農業管理センター経費【農林課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "農業者等就労施設経費",
+    "department": "農林課",
+    "start": 114702,
+    "raw": "○農業者等就労施設経費【農林課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "農業振興経費",
+    "department": "農林課",
+    "start": 114841,
+    "raw": "○農業振興経費【農林課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "農業振興事業",
+    "department": "農林課",
+    "start": 115676,
+    "raw": "○農業振興事業【農林課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "農業経営基盤強化促進対策事業",
+    "department": "農林課",
+    "start": 117532,
+    "raw": "○農業経営基盤強化促進対策事業【農林課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "中山間地域等直接支払事業",
+    "department": "農林課",
+    "start": 118646,
+    "raw": "○中山間地域等直接支払事業【農林課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "ふれあいの里管理経費",
+    "department": "にぎわい交流課",
+    "start": 118887,
+    "raw": "○ふれあいの里管理経費【にぎわい交流課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "生産調整対策経費",
+    "department": "農林課",
+    "start": 119234,
+    "raw": "○生産調整対策経費【農林課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "農地管理経費",
+    "department": "農林課",
+    "start": 120014,
+    "raw": "○農地管理経費【農林課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "農業基盤整備事業",
+    "department": "農林課",
+    "start": 120262,
+    "raw": "○農業基盤整備事業【農林課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "農業集落排水事業負担金",
+    "department": "農林課",
+    "start": 122773,
+    "raw": "○農業集落排水事業負担金【農林課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "農業基盤整備事業（繰越明許分）",
+    "department": "農林課",
+    "start": 122878,
+    "raw": "○農業基盤整備事業（繰越明許分）【農林課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "畜産振興経費",
+    "department": "農林課",
+    "start": 123738,
+    "raw": "○畜産振興経費【農林課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "堆肥センター管理運営経費",
+    "department": "農林課",
+    "start": 123972,
+    "raw": "○堆肥センター管理運営経費【農林課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "林業総務経費",
+    "department": "農林課",
+    "start": 124082,
+    "raw": "○林業総務経費【農林課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "林道管理経費",
+    "department": "農林課",
+    "start": 124110,
+    "raw": "○林道管理経費【農林課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "林道振興経費",
+    "department": "農林課",
+    "start": 124204,
+    "raw": "○林道振興経費【農林課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "水産業振興経費",
+    "department": "農林課",
+    "start": 124326,
+    "raw": "○水産業振興経費【農林課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "商工総務経費",
+    "department": "商工振興課",
+    "start": 125850,
+    "raw": "○商工総務経費【商工振興課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "商工業振興経費",
+    "department": "商工振興課",
+    "start": 125881,
+    "raw": "○商工業振興経費【商工振興課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "商工業振興事業",
+    "department": "商工振興課",
+    "start": 125905,
+    "raw": "○商工業振興事業【商工振興課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "商工業融資事業",
+    "department": "商工振興課",
+    "start": 128045,
+    "raw": "○商工業融資事業【商工振興課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "観光推進事業",
+    "department": "にぎわい交流課",
+    "start": 128426,
+    "raw": "○観光推進事業【にぎわい交流課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "地域間交流センター経費",
+    "department": "にぎわい交流課",
+    "start": 130849,
+    "raw": "○地域間交流センター経費【にぎわい交流課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "総合産業会館サンプラザ経費",
+    "department": "にぎわい交流課",
+    "start": 131794,
+    "raw": "○総合産業会館サンプラザ経費【にぎわい交流課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "錦鯉の里経費",
+    "department": "にぎわい交流課",
+    "start": 132038,
+    "raw": "○錦鯉の里経費【にぎわい交流課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "企業立地促進事業",
+    "department": "商工振興課",
+    "start": 132265,
+    "raw": "○企業立地促進事業【商工振興課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "テレワークステーションおぢや経費",
+    "department": "商工振興課",
+    "start": 132466,
+    "raw": "○テレワークステーションおぢや経費【商工振興課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "工業用水道事業会計退職給付費負担金",
+    "department": "商工振興課",
+    "start": 133068,
+    "raw": "○工業用水道事業会計退職給付費負担金【商工振興課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "土木総務経費",
+    "department": "建設課",
+    "start": 133186,
+    "raw": "○土木総務経費【建設課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "克雪対策事業",
+    "department": "建設課",
+    "start": 133214,
+    "raw": "○克雪対策事業【建設課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "克雪住宅普及事業",
+    "department": "建設課",
+    "start": 133481,
+    "raw": "○克雪住宅普及事業【建設課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "道路橋りょう総務経費",
+    "department": "建設課",
+    "start": 133627,
+    "raw": "○道路橋りょう総務経費【建設課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "克雪管理センター経費",
+    "department": "福祉課",
+    "start": 133877,
+    "raw": "○克雪管理センター経費【福祉課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "道路橋りょう維持経費",
+    "department": "建設課",
+    "start": 134277,
+    "raw": "○道路橋りょう維持経費【建設課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "道路橋りょう補助事業",
+    "department": "建設課",
+    "start": 134443,
+    "raw": "○道路橋りょう補助事業【建設課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "道路橋りょう単独事業",
+    "department": "建設課",
+    "start": 134687,
+    "raw": "○道路橋りょう単独事業【建設課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "道路橋りょう単独事業（繰越明許分）",
+    "department": "建設課",
+    "start": 134909,
+    "raw": "○道路橋りょう単独事業（繰越明許分）【建設課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "除雪対策経費",
+    "department": "建設課",
+    "start": 135050,
+    "raw": "○除雪対策経費【建設課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "融雪施設整備助成事業",
+    "department": "建設課",
+    "start": 136266,
+    "raw": "○融雪施設整備助成事業【建設課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "融雪施設補助事業",
+    "department": "建設課",
+    "start": 136464,
+    "raw": "○融雪施設補助事業【建設課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "融雪施設単独事業",
+    "department": "建設課",
+    "start": 136592,
+    "raw": "○融雪施設単独事業【建設課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "車両センター経費",
+    "department": "建設課",
+    "start": 136878,
+    "raw": "○車両センター経費【建設課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "未認定道路除雪事業",
+    "department": "建設課",
+    "start": 136901,
+    "raw": "○未認定道路除雪事業【建設課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "除雪対策経費（繰越明許分）",
+    "department": "建設課",
+    "start": 136984,
+    "raw": "○除雪対策経費（繰越明許分）【建設課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "河川総務経費",
+    "department": "建設課",
+    "start": 137135,
+    "raw": "○河川総務経費【建設課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "河川整備事業",
+    "department": "建設課",
+    "start": 137532,
+    "raw": "○河川整備事業【建設課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "県営急傾斜地崩壊防止対策事業負担金",
+    "department": "建設課",
+    "start": 137622,
+    "raw": "○県営急傾斜地崩壊防止対策事業負担金【建設課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "都市整備経費",
+    "department": "建設課",
+    "start": 137726,
+    "raw": "○都市整備経費【建設課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "図書館等複合施設整備事業",
+    "department": "にぎわい交流課",
+    "start": 139162,
+    "raw": "○図書館等複合施設整備事業【にぎわい交流課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "図書館等複合施設整備事業（逓次繰越分）",
+    "department": "にぎわい交流課",
+    "start": 140272,
+    "raw": "○図書館等複合施設整備事業（逓次繰越分）【にぎわい交流課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "図書館等複合施設整備事業（繰越明許分）",
+    "department": "にぎわい交流課",
+    "start": 140575,
+    "raw": "○図書館等複合施設整備事業（繰越明許分）【にぎわい交流課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "公園管理経費",
+    "department": "建設課",
+    "start": 141090,
+    "raw": "○公園管理経費【建設課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "街路整備事業",
+    "department": "建設課",
+    "start": 141431,
+    "raw": "○街路整備事業【建設課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "公共下水道事業負担金",
+    "department": "建設課",
+    "start": 141629,
+    "raw": "○公共下水道事業負担金【建設課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "住宅総務経費",
+    "department": "建設課",
+    "start": 141692,
+    "raw": "○住宅総務経費【建設課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "公営住宅管理経費",
+    "department": "建設課",
+    "start": 141974,
+    "raw": "○公営住宅管理経費【建設課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "公営住宅施設整備事業",
+    "department": "建設課",
+    "start": 142059,
+    "raw": "○公営住宅施設整備事業【建設課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "国土調査事業",
+    "department": "建設課",
+    "start": 142263,
+    "raw": "○国土調査事業【建設課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "国土調査事業（繰越明許分）",
+    "department": "建設課",
+    "start": 143253,
+    "raw": "○国土調査事業（繰越明許分）【建設課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "本部・署経費",
+    "department": "消防本部・消防署",
+    "start": 143740,
+    "raw": "○本部・署経費【消防本部・消防署】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "出張所経費",
+    "department": "消防本部・消防署",
+    "start": 143758,
+    "raw": "○出張所経費【消防本部・消防署】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "非常備消防経費",
+    "department": "消防本部・消防署",
+    "start": 150253,
+    "raw": "○非常備消防経費【消防本部・消防署】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "消防施設経費",
+    "department": "消防本部・消防署",
+    "start": 150794,
+    "raw": "○消防施設経費【消防本部・消防署】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "消防施設整備事業",
+    "department": "消防本部・消防署",
+    "start": 151174,
+    "raw": "○消防施設整備事業【消防本部・消防署】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "水防経費",
+    "department": "防災安全課",
+    "start": 151302,
+    "raw": "○水防経費【防災安全課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "防災安全経費",
+    "department": "防災安全課",
+    "start": 151502,
+    "raw": "○防災安全経費【防災安全課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "気象観測経費",
+    "department": "消防本部・消防署",
+    "start": 153583,
+    "raw": "○気象観測経費【消防本部・消防署】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "（仮称）防災センター整備事業",
+    "department": "防災安全課",
+    "start": 155458,
+    "raw": "○（仮称）防災センター整備事業【防災安全課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "（仮称）防災センター整備事業（繰越明許分）",
+    "department": "防災安全課",
+    "start": 155899,
+    "raw": "○（仮称）防災センター整備事業（繰越明許分）【防災安全課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "教育委員会経費",
+    "department": "教育・保育課",
+    "start": 156117,
+    "raw": "○教育委員会経費【教育・保育課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "学校教育総務経費",
+    "department": "教育・保育課",
+    "start": 156766,
+    "raw": "○学校教育総務経費【教育・保育課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "教育指導経費",
+    "department": "教育・保育課",
+    "start": 156984,
+    "raw": "○教育指導経費【教育・保育課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "適応指導教室経費",
+    "department": "教育・保育課",
+    "start": 161800,
+    "raw": "○適応指導教室経費【教育・保育課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "教育センター経費",
+    "department": "教育・保育課",
+    "start": 162515,
+    "raw": "○教育センター経費【教育・保育課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "教職員住宅経費",
+    "department": "教育・保育課",
+    "start": 163521,
+    "raw": "○教職員住宅経費【教育・保育課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "小学校管理経費",
+    "department": "教育・保育課",
+    "start": 163616,
+    "raw": "○小学校管理経費【教育・保育課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "小学校教育振興経費",
+    "department": "教育・保育課",
+    "start": 164008,
+    "raw": "○小学校教育振興経費【教育・保育課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "児童援助事業",
+    "department": "教育・保育課",
+    "start": 165113,
+    "raw": "○児童援助事業【教育・保育課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "小学校理科教育等設備整備事業",
+    "department": "教育・保育課",
+    "start": 165315,
+    "raw": "○小学校理科教育等設備整備事業【教育・保育課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "小学校施設整備事業",
+    "department": "教育・保育課",
+    "start": 165556,
+    "raw": "○小学校施設整備事業【教育・保育課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "中学校管理経費",
+    "department": "教育・保育課",
+    "start": 165989,
+    "raw": "○中学校管理経費【教育・保育課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "中学校教育振興経費",
+    "department": "教育・保育課",
+    "start": 166486,
+    "raw": "○中学校教育振興経費【教育・保育課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "生徒援助事業",
+    "department": "教育・保育課",
+    "start": 167657,
+    "raw": "○生徒援助事業【教育・保育課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "中学校理科教育等設備整備事業",
+    "department": "教育・保育課",
+    "start": 167804,
+    "raw": "○中学校理科教育等設備整備事業【教育・保育課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "中学校施設整備事業",
+    "department": "教育・保育課",
+    "start": 168101,
+    "raw": "○中学校施設整備事業【教育・保育課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "特別支援学校管理経費",
+    "department": "教育・保育課",
+    "start": 168584,
+    "raw": "○特別支援学校管理経費【教育・保育課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "特別支援学校教育振興経費",
+    "department": "教育・保育課",
+    "start": 168818,
+    "raw": "○特別支援学校教育振興経費【教育・保育課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "社会教育総務経費",
+    "department": "文化スポーツ課",
+    "start": 169395,
+    "raw": "○社会教育総務経費【文化スポーツ課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "文化振興基金事業",
+    "department": "文化スポーツ課",
+    "start": 170072,
+    "raw": "○文化振興基金事業【文化スポーツ課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "文化財保存事業",
+    "department": "にぎわい交流課",
+    "start": 170392,
+    "raw": "○文化財保存事業【にぎわい交流課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "市民学習センター管理運営経費",
+    "department": "文化スポーツ課",
+    "start": 171238,
+    "raw": "○市民学習センター管理運営経費【文化スポーツ課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "地域子どもはぐくみ事業",
+    "department": "教育・保育課",
+    "start": 171467,
+    "raw": "○地域子どもはぐくみ事業【教育・保育課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "ときめきめぐりあい推進事業",
+    "department": "文化スポーツ課",
+    "start": 172066,
+    "raw": "○ときめきめぐりあい推進事業【文化スポーツ課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "国際交流推進事業",
+    "department": "にぎわい交流課",
+    "start": 172421,
+    "raw": "○国際交流推進事業【にぎわい交流課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "青少年対策経費",
+    "department": "文化スポーツ課",
+    "start": 172483,
+    "raw": "○青少年対策経費【文化スポーツ課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "育成センター経費",
+    "department": "文化スポーツ課",
+    "start": 172798,
+    "raw": "○育成センター経費【文化スポーツ課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "公民館経費",
+    "department": "文化スポーツ課",
+    "start": 173302,
+    "raw": "○公民館経費【文化スポーツ課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "公民館事業",
+    "department": "文化スポーツ課",
+    "start": 173595,
+    "raw": "○公民館事業【文化スポーツ課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "芸術文化振興事業",
+    "department": "文化スポーツ課",
+    "start": 175525,
+    "raw": "○芸術文化振興事業【文化スポーツ課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "ひと・まち・文化共創拠点経費",
+    "department": "にぎわい交流課",
+    "start": 177518,
+    "raw": "○ひと・まち・文化共創拠点経費【にぎわい交流課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "市民の家経費",
+    "department": "にぎわい交流課",
+    "start": 182109,
+    "raw": "○市民の家経費【にぎわい交流課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "市民会館経費",
+    "department": "文化スポーツ課",
+    "start": 182476,
+    "raw": "○市民会館経費【文化スポーツ課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "学校保健経費",
+    "department": "教育・保育課",
+    "start": 183068,
+    "raw": "○学校保健経費【教育・保育課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "学校給食経費",
+    "department": "教育・保育課",
+    "start": 183608,
+    "raw": "○学校給食経費【教育・保育課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "学校給食センター経費",
+    "department": "教育・保育課",
+    "start": 184281,
+    "raw": "○学校給食センター経費【教育・保育課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "社会体育総務経費",
+    "department": "文化スポーツ課",
+    "start": 184936,
+    "raw": "○社会体育総務経費【文化スポーツ課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "社会体育振興事業",
+    "department": "文化スポーツ課",
+    "start": 185078,
+    "raw": "○社会体育振興事業【文化スポーツ課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "スポーツ振興基金事業",
+    "department": "文化スポーツ課",
+    "start": 187770,
+    "raw": "○スポーツ振興基金事業【文化スポーツ課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "都市公園体育施設等管理経費",
+    "department": "文化スポーツ課",
+    "start": 188097,
+    "raw": "○都市公園体育施設等管理経費【文化スポーツ課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "スポーツ広場管理経費",
+    "department": "文化スポーツ課",
+    "start": 188346,
+    "raw": "○スポーツ広場管理経費【文化スポーツ課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "東小千谷体育センター経費",
+    "department": "文化スポーツ課",
+    "start": 188375,
+    "raw": "○東小千谷体育センター経費【文化スポーツ課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "吉谷トレーニングセンター管理運営経費",
+    "department": "文化スポーツ課",
+    "start": 188460,
+    "raw": "○吉谷トレーニングセンター管理運営経費【文化スポーツ課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "総合体育館経費",
+    "department": "文化スポーツ課",
+    "start": 188762,
+    "raw": "○総合体育館経費【文化スポーツ課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "農地・施設単独災害復旧事業",
+    "department": "農林課",
+    "start": 189971,
+    "raw": "○農地・施設単独災害復旧事業【農林課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "水産施設単独災害復旧事業",
+    "department": "農林課",
+    "start": 190078,
+    "raw": "○水産施設単独災害復旧事業【農林課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "道路単独災害復旧事業",
+    "department": "建設課",
+    "start": 190206,
+    "raw": "○道路単独災害復旧事業【建設課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "河川単独災害復旧事業",
+    "department": "建設課",
+    "start": 190253,
+    "raw": "○河川単独災害復旧事業【建設課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "小学校災害復旧事業",
+    "department": "教育・保育課",
+    "start": 190321,
+    "raw": "○小学校災害復旧事業【教育・保育課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "一般管理経費",
+    "department": "市民生活課",
+    "start": 192321,
+    "raw": "○一般管理経費【市民生活課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "出産育児一時金支給経費",
+    "department": "市民生活課",
+    "start": 194136,
+    "raw": "○出産育児一時金支給経費【市民生活課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "葬祭費支給経費",
+    "department": "市民生活課",
+    "start": 194204,
+    "raw": "○葬祭費支給経費【市民生活課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "保健事業",
+    "department": "市民生活課",
+    "start": 194276,
+    "raw": "○保健事業【市民生活課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "特定健康診査等事業",
+    "department": "市民生活課",
+    "start": 194788,
+    "raw": "○特定健康診査等事業【市民生活課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "一般管理経費",
+    "department": "福祉課",
+    "start": 196822,
+    "raw": "○一般管理経費【福祉課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "介護認定審査会経費",
+    "department": "福祉課",
+    "start": 197435,
+    "raw": "○介護認定審査会経費【福祉課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "認定調査等経費",
+    "department": "福祉課",
+    "start": 198526,
+    "raw": "○認定調査等経費【福祉課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "介護報酬明細書審査支払経費",
+    "department": "福祉課",
+    "start": 200948,
+    "raw": "○介護報酬明細書審査支払経費【福祉課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "高額介護サービス費負担金",
+    "department": "福祉課",
+    "start": 201014,
+    "raw": "○高額介護サービス費負担金【福祉課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "高額医療合算介護サービス費負担金",
+    "department": "福祉課",
+    "start": 201276,
+    "raw": "○高額医療合算介護サービス費負担金【福祉課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "介護予防・生活支援サービス事業",
+    "department": "福祉課",
+    "start": 201653,
+    "raw": "○介護予防・生活支援サービス事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "一般介護予防事業",
+    "department": "福祉課",
+    "start": 201999,
+    "raw": "○一般介護予防事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "包括的支援事業",
+    "department": "福祉課",
+    "start": 202564,
+    "raw": "○包括的支援事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "任意事業",
+    "department": "福祉課",
+    "start": 204036,
+    "raw": "○任意事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "介護人材確保・定着事業",
+    "department": "福祉課",
+    "start": 204450,
+    "raw": "○介護人材確保・定着事業【福祉課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "一般管理経費",
+    "department": "市民生活課",
+    "start": 206050,
+    "raw": "○一般管理経費【市民生活課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  },
+  {
+    "name": "後期高齢者保健事業",
+    "department": "市民生活課",
+    "start": 206142,
+    "raw": "○後期高齢者保健事業【市民生活課】",
+    "status": "named_programme_reviewed",
+    "reason": "Explicit programme heading; carryover variants grouped."
+  },
+  {
+    "name": "後期高齢者医療広域連合納付金",
+    "department": "市民生活課",
+    "start": 206322,
+    "raw": "○後期高齢者医療広域連合納付金【市民生活課】",
+    "status": "administrative_expense_scope_review_pending",
+    "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker."
+  }
+]

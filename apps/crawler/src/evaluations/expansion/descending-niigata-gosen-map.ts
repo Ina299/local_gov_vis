@@ -1,0 +1,4246 @@
+export const reviewed = [
+  {
+    "municipalityCode": "15218",
+    "municipalityName": "五泉市",
+    "sourceId": "a97e2e42d3ef80866908d59d",
+    "sourceUrl": "https://www.city.gosen.lg.jp/material/files/group/20/R1syuyousesaku.pdf",
+    "sourceSha256": "bd37ddac511a4269adf28edae22c5e4af6640d82efa48c92dafdfac1910e1968",
+    "textSha256": "cb02ef645df94f6685200e4026d764d355b456798c80f3e0cd226c858f2a2115",
+    "year": 2019,
+    "yearProof": "令 和 元 年 度 決 算\n\n主要施策の説明書\n\n五 泉 市\n\n\n地方自治法（昭和22年法律第67号）第233条第5項の規定に基づき、\n令和元年度における主要な施策の成果を説明する書類を提出します。\n\n令和2年9月\n五泉市長\n\n伊 藤\n\n勝 美\n\n\n",
+    "rows": [
+      {
+        "index": 1,
+        "name": "学力向上形成事業",
+        "department": "学校教育課",
+        "departmentStart": 9128,
+        "parts": [
+          {
+            "start": 9119,
+            "raw": "学力向上形成事業"
+          }
+        ],
+        "contextStart": 9119,
+        "context": "学力向上形成事業\n【学校教育課】",
+        "contextSha256": "f6e7bc99eb7560cc5915e55772147f4b5369df2a6e6c069406fa9110cb6842d0",
+        "carryover": false
+      },
+      {
+        "index": 2,
+        "name": "総合学習支援事業",
+        "department": "学校教育課",
+        "departmentStart": 9391,
+        "parts": [
+          {
+            "start": 9382,
+            "raw": "総合学習支援事業"
+          }
+        ],
+        "contextStart": 9382,
+        "context": "総合学習支援事業\n【学校教育課】",
+        "contextSha256": "eed5a57b3d4773f1c0c91146b8e2bac7b34b9d8e6195ae625b3102fceaa0392c",
+        "carryover": false
+      },
+      {
+        "index": 3,
+        "name": "国際理解活動推進事業",
+        "department": "学校教育課",
+        "departmentStart": 9412,
+        "parts": [
+          {
+            "start": 9400,
+            "raw": "国際理解活動推進"
+          },
+          {
+            "start": 9409,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 9400,
+        "context": "国際理解活動推進\n事業\n【学校教育課】",
+        "contextSha256": "596804376e25a63f5333bbc9fa64b2c893a08491cb65f0dd1ba561e98505a350",
+        "carryover": false
+      },
+      {
+        "index": 4,
+        "name": "語学指導等外国青年招致事業",
+        "department": "学校教育課",
+        "departmentStart": 9846,
+        "parts": [
+          {
+            "start": 9831,
+            "raw": "語学指導等外国青"
+          },
+          {
+            "start": 9840,
+            "raw": "年招致事業"
+          }
+        ],
+        "contextStart": 9831,
+        "context": "語学指導等外国青\n年招致事業\n【学校教育課】",
+        "contextSha256": "0368d6d1b5f2b10efa9007bceb63855dff3d81b73c55e62bb21917f9e1e879ad",
+        "carryover": false
+      },
+      {
+        "index": 5,
+        "name": "学校現場における業務改善加速事業",
+        "department": "学校教育課",
+        "departmentStart": 9873,
+        "parts": [
+          {
+            "start": 9855,
+            "raw": "学校現場における"
+          },
+          {
+            "start": 9864,
+            "raw": "業務改善加速事業"
+          }
+        ],
+        "contextStart": 9855,
+        "context": "学校現場における\n業務改善加速事業\n【学校教育課】",
+        "contextSha256": "c7ed3c2a04969ee5ad5b9464e945754213766f524c16d4144cacb7571db51bdd",
+        "carryover": false
+      },
+      {
+        "index": 6,
+        "name": "中学校教育振興費",
+        "department": "学校教育課",
+        "departmentStart": 10412,
+        "parts": [
+          {
+            "start": 10401,
+            "raw": "中学校教育振興費"
+          }
+        ],
+        "contextStart": 10401,
+        "context": "中学校教育振興費 新\n【学校教育課】",
+        "contextSha256": "7b43936a78f2b7472c75d1b6082cd909b57fa32a53bb56598d3fd782f92a14d6",
+        "carryover": false
+      },
+      {
+        "index": 7,
+        "name": "適応指導教室事業",
+        "department": "学校教育課",
+        "departmentStart": 10589,
+        "parts": [
+          {
+            "start": 10580,
+            "raw": "適応指導教室事業"
+          }
+        ],
+        "contextStart": 10580,
+        "context": "適応指導教室事業\n【学校教育課】",
+        "contextSha256": "d55989b7f4d3bb0117f508f1241e1dfc5792b85e38a42d9da0a748910f178aca",
+        "carryover": false
+      },
+      {
+        "index": 8,
+        "name": "スクールカウンセラー配置事業",
+        "department": "学校教育課",
+        "departmentStart": 10614,
+        "parts": [
+          {
+            "start": 10598,
+            "raw": "スクールカウンセ"
+          },
+          {
+            "start": 10607,
+            "raw": "ラー配置事業"
+          }
+        ],
+        "contextStart": 10598,
+        "context": "スクールカウンセ\nラー配置事業\n【学校教育課】",
+        "contextSha256": "b8ee984812f5030faa09158951fd842526afa8fbe9f926ded7d04e6bb3b31c85",
+        "carryover": false
+      },
+      {
+        "index": 9,
+        "name": "心の教室相談事業",
+        "department": "学校教育課",
+        "departmentStart": 11034,
+        "parts": [
+          {
+            "start": 11025,
+            "raw": "心の教室相談事業"
+          }
+        ],
+        "contextStart": 11025,
+        "context": "心の教室相談事業\n【学校教育課】",
+        "contextSha256": "b01aea4403ce30abb1ceaa3c2365d1695e6ee85cc261b5d888e038d14bb29ee6",
+        "carryover": false
+      },
+      {
+        "index": 10,
+        "name": "特別支援教育推進事業",
+        "department": "学校教育課",
+        "departmentStart": 11209,
+        "parts": [
+          {
+            "start": 11197,
+            "raw": "特別支援教育推進"
+          },
+          {
+            "start": 11206,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 11197,
+        "context": "特別支援教育推進\n事業\n【学校教育課】",
+        "contextSha256": "3ea42814744d27e78ac4a7f017995a50814b15b8586402d967631de1f1c3788f",
+        "carryover": false
+      },
+      {
+        "index": 11,
+        "name": "通級学級支援事業",
+        "department": "学校教育課",
+        "departmentStart": 11227,
+        "parts": [
+          {
+            "start": 11218,
+            "raw": "通級学級支援事業"
+          }
+        ],
+        "contextStart": 11218,
+        "context": "通級学級支援事業\n【学校教育課】",
+        "contextSha256": "4e450956859ad4f28e3c9820faa0ad5ec3582d3391c681d520b7c6bda1ea424f",
+        "carryover": false
+      },
+      {
+        "index": 12,
+        "name": "奨学金貸付事業",
+        "department": "学校教育課",
+        "departmentStart": 11673,
+        "parts": [
+          {
+            "start": 11665,
+            "raw": "奨学金貸付事業"
+          }
+        ],
+        "contextStart": 11665,
+        "context": "奨学金貸付事業\n【学校教育課】",
+        "contextSha256": "4fe49111369d90290bcc089581a99c19869791e50f43c4db9965f29bc1e10ce4",
+        "carryover": false
+      },
+      {
+        "index": 13,
+        "name": "要保護・準要保護児童生徒援助事業",
+        "department": "学校教育課",
+        "departmentStart": 11907,
+        "parts": [
+          {
+            "start": 11885,
+            "raw": "要保護・準要保護"
+          },
+          {
+            "start": 11896,
+            "raw": "児童生徒援助事業"
+          }
+        ],
+        "contextStart": 11885,
+        "context": "要保護・準要保護\n拡\n児童生徒援助事業\n充\n【学校教育課】",
+        "contextSha256": "fb20738c1811e80333cca6b25ec2e640c5bb75689294dea3a2c849833e710fc2",
+        "carryover": false
+      },
+      {
+        "index": 14,
+        "name": "幼稚園補助事業",
+        "department": "学校教育課",
+        "departmentStart": 11924,
+        "parts": [
+          {
+            "start": 11916,
+            "raw": "幼稚園補助事業"
+          }
+        ],
+        "contextStart": 11916,
+        "context": "幼稚園補助事業\n【学校教育課】",
+        "contextSha256": "02ac6192143b6827eb1acb58972b56a158e7f0b0b86b4f050d55caefd08bd412",
+        "carryover": false
+      },
+      {
+        "index": 15,
+        "name": "遠距離通学支援事業",
+        "department": "学校教育課",
+        "departmentStart": 12390,
+        "parts": [
+          {
+            "start": 12375,
+            "raw": "遠距離通学支援事"
+          },
+          {
+            "start": 12386,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 12375,
+        "context": "遠距離通学支援事\n拡\n業\n充\n【学校教育課】",
+        "contextSha256": "fe2ddfb14af52a542fe464a4b8b60495109bdc55dc016147f2f88bd966586638",
+        "carryover": false
+      },
+      {
+        "index": 16,
+        "name": "地域ぐるみの学校安全体制整備推進事業",
+        "department": "学校教育課",
+        "departmentStart": 12420,
+        "parts": [
+          {
+            "start": 12399,
+            "raw": "地域ぐるみの学校"
+          },
+          {
+            "start": 12408,
+            "raw": "安全体制整備推進"
+          },
+          {
+            "start": 12417,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 12399,
+        "context": "地域ぐるみの学校\n安全体制整備推進\n事業\n【学校教育課】",
+        "contextSha256": "d31752055b3259121978b2bf983a60c9db1083c96b40de40344587f5ef6b7f8e",
+        "carryover": false
+      },
+      {
+        "index": 17,
+        "name": "小中学校ＩＣＴ機器等整備事業",
+        "department": "学校教育課",
+        "departmentStart": 12852,
+        "parts": [
+          {
+            "start": 12832,
+            "raw": "小中学校ＩＣＴ機"
+          },
+          {
+            "start": 12843,
+            "raw": "器等整備事業"
+          }
+        ],
+        "contextStart": 12832,
+        "context": "小中学校ＩＣＴ機\n拡\n器等整備事業\n充\n【学校教育課】",
+        "contextSha256": "2ad2d301ebd8e1bb194897ba6b2ae31d1e9d0f2572de73fac89fc3719fbbc5ca",
+        "carryover": false
+      },
+      {
+        "index": 18,
+        "name": "小中学校便所洋式化整備事業",
+        "department": "学校教育課",
+        "departmentStart": 13063,
+        "parts": [
+          {
+            "start": 13044,
+            "raw": "小中学校便所洋式"
+          },
+          {
+            "start": 13055,
+            "raw": "化整備事業"
+          }
+        ],
+        "contextStart": 13044,
+        "context": "小中学校便所洋式\n新\n化整備事業\n規\n【学校教育課】",
+        "contextSha256": "8dd90422f55b20bbf067223f716d58bc870814b5bbe584c022044c9083c7b8ac",
+        "carryover": false
+      },
+      {
+        "index": 19,
+        "name": "【繰越】小中学校便所洋式化整備事業",
+        "department": "学校教育課",
+        "departmentStart": 13260,
+        "parts": [
+          {
+            "start": 13236,
+            "raw": "【繰越】小中学校"
+          },
+          {
+            "start": 13245,
+            "raw": "便所洋式化整備事"
+          },
+          {
+            "start": 13256,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 13236,
+        "context": "【繰越】小中学校\n便所洋式化整備事 新\n業\n規\n【学校教育課】",
+        "contextSha256": "8fd3103fa66083ac47529174c487b72eadef7ac16ad17d6c541c30e2565eb72f",
+        "carryover": true
+      },
+      {
+        "index": 20,
+        "name": "村松小学校グラウンド整備事業",
+        "department": "学校教育課",
+        "departmentStart": 13289,
+        "parts": [
+          {
+            "start": 13269,
+            "raw": "村松小学校グラウ"
+          },
+          {
+            "start": 13280,
+            "raw": "ンド整備事業"
+          }
+        ],
+        "contextStart": 13269,
+        "context": "村松小学校グラウ\n新\nンド整備事業\n規\n【学校教育課】",
+        "contextSha256": "28b74689d2d7b5c58367c4138f8697b634963a249415becbb5b190d01d0d2f11",
+        "carryover": false
+      },
+      {
+        "index": 21,
+        "name": "五泉東小学校屋上防水事業",
+        "department": "学校教育課",
+        "departmentStart": 13316,
+        "parts": [
+          {
+            "start": 13298,
+            "raw": "五泉東小学校屋上"
+          },
+          {
+            "start": 13309,
+            "raw": "防水事業"
+          }
+        ],
+        "contextStart": 13298,
+        "context": "五泉東小学校屋上 新\n防水事業\n規\n【学校教育課】",
+        "contextSha256": "4d45c32c66828faf66880b03add58415cd987e6f9f8138d478f10b8f9ed7d25e",
+        "carryover": false
+      },
+      {
+        "index": 22,
+        "name": "村松桜中学校旧寄宿舎解体事業",
+        "department": "学校教育課",
+        "departmentStart": 13345,
+        "parts": [
+          {
+            "start": 13325,
+            "raw": "村松桜中学校旧寄"
+          },
+          {
+            "start": 13336,
+            "raw": "宿舎解体事業"
+          }
+        ],
+        "contextStart": 13325,
+        "context": "村松桜中学校旧寄\n新\n宿舎解体事業\n規\n【学校教育課】",
+        "contextSha256": "d8a8f93e7ac6b50c8572392c78f4e9d724bea40588a91d03bc0d6d7fb500c714",
+        "carryover": false
+      },
+      {
+        "index": 23,
+        "name": "公立認定こども園整備事業",
+        "department": "学校教育課",
+        "departmentStart": 13866,
+        "parts": [
+          {
+            "start": 13805,
+            "raw": "公立認定こども園"
+          },
+          {
+            "start": 13848,
+            "raw": "整備事業"
+          }
+        ],
+        "contextStart": 13805,
+        "context": "公立認定こども園\n幼保連携型認定こども園を整備し、就学前の子どもの教育・保育及び子育\n整備事業\nて環境の充実を図る。\n新\n【学校教育課】",
+        "contextSha256": "0525b32bf0b4ac7f06c0831acaf15c25d07c733efc5fde1843b729b5bbad35f0",
+        "carryover": false
+      },
+      {
+        "index": 24,
+        "name": "【繰越】冷房設備対応事業",
+        "department": "学校教育課",
+        "departmentStart": 13967,
+        "parts": [
+          {
+            "start": 13953,
+            "raw": "【繰越】冷房設備"
+          },
+          {
+            "start": 13962,
+            "raw": "対応事業"
+          }
+        ],
+        "contextStart": 13953,
+        "context": "【繰越】冷房設備\n対応事業\n【学校教育課】",
+        "contextSha256": "365f78028d415f6dadc1dba2e8c1ad8ee0e8b0f155cd7f68b86aeed55fea60c3",
+        "carryover": true
+      },
+      {
+        "index": 25,
+        "name": "民間指導者登録・活用事業",
+        "department": "生涯学習課",
+        "departmentStart": 14216,
+        "parts": [
+          {
+            "start": 14202,
+            "raw": "民間指導者登録・"
+          },
+          {
+            "start": 14211,
+            "raw": "活用事業"
+          }
+        ],
+        "contextStart": 14202,
+        "context": "民間指導者登録・\n活用事業\n【生涯学習課】",
+        "contextSha256": "755b9f7fcac219fc8bd7617a380c6959db6ed9ed059c0e1104f8cf918ee0ab6b",
+        "carryover": false
+      },
+      {
+        "index": 26,
+        "name": "(総合戦略)寺子屋事業",
+        "department": "生涯学習課",
+        "departmentStart": 14475,
+        "parts": [
+          {
+            "start": 14462,
+            "raw": "(総合戦略)寺子屋"
+          },
+          {
+            "start": 14472,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 14462,
+        "context": "(総合戦略)寺子屋\n事業\n【生涯学習課】",
+        "contextSha256": "e96b15ce03b3285daee1297a5f3974fa59ecfa6bbecaeec8c055520d75a2ac64",
+        "carryover": false
+      },
+      {
+        "index": 27,
+        "name": "講座等開設事業",
+        "department": "生涯学習課",
+        "departmentStart": 14901,
+        "parts": [
+          {
+            "start": 14893,
+            "raw": "講座等開設事業"
+          }
+        ],
+        "contextStart": 14893,
+        "context": "講座等開設事業\n【生涯学習課】",
+        "contextSha256": "6b02b5fb3217e0905ce80be2b03b1771ea262566b0acdfc633c3cd445c628f8b",
+        "carryover": false
+      },
+      {
+        "index": 28,
+        "name": "村松公民館運営管理事業",
+        "department": "生涯学習課",
+        "departmentStart": 15217,
+        "parts": [
+          {
+            "start": 15204,
+            "raw": "村松公民館運営管"
+          },
+          {
+            "start": 15213,
+            "raw": "理事業"
+          }
+        ],
+        "contextStart": 15204,
+        "context": "村松公民館運営管\n理事業\n【生涯学習課】",
+        "contextSha256": "95f15aff7ab353337b1f38fc3a2a2f926f684e9992b6ab8b697f96790fbd3191",
+        "carryover": false
+      },
+      {
+        "index": 29,
+        "name": "(総合戦略)健康増進・体力づくり事業",
+        "department": "スポーツ推進課",
+        "departmentStart": 15356,
+        "parts": [
+          {
+            "start": 15335,
+            "raw": "(総合戦略)健康増"
+          },
+          {
+            "start": 15345,
+            "raw": "進・体力づくり事"
+          },
+          {
+            "start": 15354,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 15335,
+        "context": "(総合戦略)健康増\n進・体力づくり事\n業\n【スポーツ推進課】",
+        "contextSha256": "dd24a60f72c3695e154802b43f7aa6b0f51eca2ea200133746f76cb3f9ee91f3",
+        "carryover": false
+      },
+      {
+        "index": 30,
+        "name": "スポーツ大会開催事業",
+        "department": "スポーツ推進課",
+        "departmentStart": 15637,
+        "parts": [
+          {
+            "start": 15625,
+            "raw": "スポーツ大会開催"
+          },
+          {
+            "start": 15634,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 15625,
+        "context": "スポーツ大会開催\n事業\n【スポーツ推進課】",
+        "contextSha256": "d23ce88a9c0b5391a68cd9fe2951774da580b8d347cd89eb15a658398e7ae4ab",
+        "carryover": false
+      },
+      {
+        "index": 31,
+        "name": "スポーツ競技者育成事業",
+        "department": "スポーツ推進課",
+        "departmentStart": 15930,
+        "parts": [
+          {
+            "start": 15917,
+            "raw": "スポーツ競技者育"
+          },
+          {
+            "start": 15926,
+            "raw": "成事業"
+          }
+        ],
+        "contextStart": 15917,
+        "context": "スポーツ競技者育\n成事業\n【スポーツ推進課】",
+        "contextSha256": "e17c6cf88d30674600c4dfc0d2bd04f9c49c0a4a0569a1a7a6625869baca6189",
+        "carryover": false
+      },
+      {
+        "index": 32,
+        "name": "スポーツ推進委員育成事業",
+        "department": "スポーツ推進課",
+        "departmentStart": 16306,
+        "parts": [
+          {
+            "start": 15945,
+            "raw": "スポーツ推進委員"
+          },
+          {
+            "start": 15954,
+            "raw": "育成事業"
+          }
+        ],
+        "contextStart": 15945,
+        "context": "スポーツ推進委員\n育成事業\n\n【成果】\nバドミントン競技において、ジュニア層の育成強化を図った。また、各種\n1,400,000 スポーツ、文化活動に関わる全国大会及びブロック大会等に、県代表として\n出場する選手等に奨励費の助成を行った。\n・ジュニア選手育成･強化事業費 400,000円\n・各種大会奨励費支給事業費\n1,000,000円\nスポーツ部門\n文化部門\nブロック大会 個人 22件、団体 4件\n個人 0件、団体 0件\n全国大会\n個人 26件、団体 3件\n個人 4件、団体 0件\n国際大会\n個人 4件、団体 0件\n個人 2件、団体 0件\n【目的】\nスポーツ推進委員の運動指導者としての資質の向上を図り、より多くの市\n民が、スポーツに親しめるようスポーツ教室等の内容をより充実したものに\nする。\n1,108,080\n\n【スポーツ推進課】",
+        "contextSha256": "5e4185a09965025781e975d1a41209f678c3fbb099b9163977c42bad974da229",
+        "carryover": false
+      },
+      {
+        "index": 33,
+        "name": "体育団体育成支援事業",
+        "department": "スポーツ推進課",
+        "departmentStart": 16513,
+        "parts": [
+          {
+            "start": 16501,
+            "raw": "体育団体育成支援"
+          },
+          {
+            "start": 16510,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 16501,
+        "context": "体育団体育成支援\n事業\n【スポーツ推進課】",
+        "contextSha256": "44b0c65cf38bbf15dd5760ee475e6f953d983d70ea6c683b1b088dca24005dc5",
+        "carryover": false
+      },
+      {
+        "index": 34,
+        "name": "(総合戦略)五泉ライド事業",
+        "department": "スポーツ推進課",
+        "departmentStart": 16826,
+        "parts": [
+          {
+            "start": 16811,
+            "raw": "(総合戦略)五泉ラ"
+          },
+          {
+            "start": 16821,
+            "raw": "イド事業"
+          }
+        ],
+        "contextStart": 16811,
+        "context": "(総合戦略)五泉ラ\nイド事業\n【スポーツ推進課】",
+        "contextSha256": "ce08d6d8d01e4d66aa09331f7f936a4c931e75c09cc95a20698a6c8fc7961909",
+        "carryover": false
+      },
+      {
+        "index": 35,
+        "name": "(総合戦略)合宿誘致促進事業",
+        "department": "スポーツ推進課",
+        "departmentStart": 17117,
+        "parts": [
+          {
+            "start": 17101,
+            "raw": "(総合戦略)合宿誘"
+          },
+          {
+            "start": 17111,
+            "raw": "致促進事業"
+          }
+        ],
+        "contextStart": 17101,
+        "context": "(総合戦略)合宿誘\n致促進事業\n【スポーツ推進課】",
+        "contextSha256": "0d5bc4e23b86d8b6fc8ee4c65fbd188e3dd112cb0b95453c6005271414450b96",
+        "carryover": false
+      },
+      {
+        "index": 36,
+        "name": "総合会館改修事業",
+        "department": "スポーツ推進課",
+        "departmentStart": 17360,
+        "parts": [
+          {
+            "start": 17349,
+            "raw": "総合会館改修事業"
+          }
+        ],
+        "contextStart": 17349,
+        "context": "総合会館改修事業 拡\n【スポーツ推進課】",
+        "contextSha256": "cf0fa887386e23ac379fa5147696304dc1f7625df08dbe8016ec42faffa9cdc3",
+        "carryover": false
+      },
+      {
+        "index": 37,
+        "name": "体育施設管理運営事業",
+        "department": "スポーツ推進課",
+        "departmentStart": 17517,
+        "parts": [
+          {
+            "start": 17373,
+            "raw": "体育施設管理運営"
+          },
+          {
+            "start": 17384,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 17373,
+        "context": "体育施設管理運営 拡\n事業\n充\n\n27,410,200 【成果】\n総合会館の設備改修工事を行った。\n・各技館空調設備工事\n・中ホール音響設備更新工事\n【目的】\n各種スポーツ活動の拠点施設として、利用者が安全で安心して利用できる\nように施設の管理運営と整備を行う。\n88,899,075\n\n【スポーツ推進課】",
+        "contextSha256": "b182de13720bab294d85149926ccd0d09fa1b5a0164f45d1e044199b8eb113d5",
+        "carryover": false
+      },
+      {
+        "index": 38,
+        "name": "芸術・文化市民発表事業",
+        "department": "生涯学習課",
+        "departmentStart": 17667,
+        "parts": [
+          {
+            "start": 17654,
+            "raw": "芸術・文化市民発"
+          },
+          {
+            "start": 17663,
+            "raw": "表事業"
+          }
+        ],
+        "contextStart": 17654,
+        "context": "芸術・文化市民発\n表事業\n【生涯学習課】",
+        "contextSha256": "76e36acd28ecf5207245dcfd6a2a6156140bf1a93eb4e84953d854867288fca5",
+        "carryover": false
+      },
+      {
+        "index": 39,
+        "name": "芸術・文化鑑賞事業",
+        "department": "生涯学習課",
+        "departmentStart": 17906,
+        "parts": [
+          {
+            "start": 17895,
+            "raw": "芸術・文化鑑賞事"
+          },
+          {
+            "start": 17904,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 17895,
+        "context": "芸術・文化鑑賞事\n業\n【生涯学習課】",
+        "contextSha256": "c9880f0cc4b8448a6c86d0f7bb33d087c1af56a4635362a4b2d3a0f2b6c5b20e",
+        "carryover": false
+      },
+      {
+        "index": 40,
+        "name": "文化財保護・保存事業",
+        "department": "生涯学習課",
+        "departmentStart": 18543,
+        "parts": [
+          {
+            "start": 18531,
+            "raw": "文化財保護・保存"
+          },
+          {
+            "start": 18540,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 18531,
+        "context": "文化財保護・保存\n事業\n【生涯学習課】",
+        "contextSha256": "4569261f8724055070d80fb5765c443f758847e706d53a6b7740c089dabd773f",
+        "carryover": false
+      },
+      {
+        "index": 41,
+        "name": "発掘調査事業",
+        "department": "生涯学習課",
+        "departmentStart": 19078,
+        "parts": [
+          {
+            "start": 19071,
+            "raw": "発掘調査事業"
+          }
+        ],
+        "contextStart": 19071,
+        "context": "発掘調査事業\n【生涯学習課】",
+        "contextSha256": "c64e4de7a9125f79c23be3be6809e80a5cc6a029b8a091fcd2cfc10352309cd6",
+        "carryover": false
+      },
+      {
+        "index": 42,
+        "name": "社会参加促進事業",
+        "department": "高齢福祉課",
+        "departmentStart": 19096,
+        "parts": [
+          {
+            "start": 19087,
+            "raw": "社会参加促進事業"
+          }
+        ],
+        "contextStart": 19087,
+        "context": "社会参加促進事業\n【高齢福祉課】",
+        "contextSha256": "b7bff1ad1002b3c3753e2ffb961949075ab115e3157bc3b3d5908968c289c365",
+        "carryover": false
+      },
+      {
+        "index": 43,
+        "name": "生きがい促進事業",
+        "department": "高齢福祉課",
+        "departmentStart": 19413,
+        "parts": [
+          {
+            "start": 19404,
+            "raw": "生きがい促進事業"
+          }
+        ],
+        "contextStart": 19404,
+        "context": "生きがい促進事業\n【高齢福祉課】",
+        "contextSha256": "b13511985b1f7d18bfd65187fcca9dcf2718e1246a87703f3245e000fdaf6250",
+        "carryover": false
+      },
+      {
+        "index": 44,
+        "name": "いきいきシニアプラザむらまつ運営管理事業",
+        "department": "高齢福祉課",
+        "departmentStart": 19445,
+        "parts": [
+          {
+            "start": 19422,
+            "raw": "いきいきシニアプ"
+          },
+          {
+            "start": 19431,
+            "raw": "ラザむらまつ運営"
+          },
+          {
+            "start": 19440,
+            "raw": "管理事業"
+          }
+        ],
+        "contextStart": 19422,
+        "context": "いきいきシニアプ\nラザむらまつ運営\n管理事業\n【高齢福祉課】",
+        "contextSha256": "f8c7ae1fbb7ce924a107762545c823547137feafa6331c3f91a0bfdc8276590d",
+        "carryover": false
+      },
+      {
+        "index": 45,
+        "name": "老人福祉センター維持管理事業",
+        "department": "高齢福祉課",
+        "departmentStart": 19831,
+        "parts": [
+          {
+            "start": 19815,
+            "raw": "老人福祉センター"
+          },
+          {
+            "start": 19824,
+            "raw": "維持管理事業"
+          }
+        ],
+        "contextStart": 19815,
+        "context": "老人福祉センター\n維持管理事業\n【高齢福祉課】",
+        "contextSha256": "f76787939cca23f56450fd350eae5eb4f60ada95ca68822d32ad6986a9cf9fe8",
+        "carryover": false
+      },
+      {
+        "index": 46,
+        "name": "馬下保養センター運営管理事業",
+        "department": "高齢福祉課",
+        "departmentStart": 19856,
+        "parts": [
+          {
+            "start": 19840,
+            "raw": "馬下保養センター"
+          },
+          {
+            "start": 19849,
+            "raw": "運営管理事業"
+          }
+        ],
+        "contextStart": 19840,
+        "context": "馬下保養センター\n運営管理事業\n【高齢福祉課】",
+        "contextSha256": "9746ff7d67a5302279c55a58baa375b752d13eb5bb1342461bc80727d3266bee",
+        "carryover": false
+      },
+      {
+        "index": 47,
+        "name": "シルバー人材センター支援事業",
+        "department": "高齢福祉課",
+        "departmentStart": 19881,
+        "parts": [
+          {
+            "start": 19865,
+            "raw": "シルバー人材セン"
+          },
+          {
+            "start": 19874,
+            "raw": "ター支援事業"
+          }
+        ],
+        "contextStart": 19865,
+        "context": "シルバー人材セン\nター支援事業\n【高齢福祉課】",
+        "contextSha256": "075361c99082a7c726043c33e599059841f02ff50cd5a921f784cad250b9547c",
+        "carryover": false
+      },
+      {
+        "index": 48,
+        "name": "障害児通所支援事業",
+        "department": "こども課",
+        "departmentStart": 20247,
+        "parts": [
+          {
+            "start": 20236,
+            "raw": "障害児通所支援事"
+          },
+          {
+            "start": 20245,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 20236,
+        "context": "障害児通所支援事\n業\n【こども課】",
+        "contextSha256": "ea9d8d58bd5c9807b27f96f1373d7b6cd71c0d07f6137858aeefef7e3b158ef3",
+        "carryover": false
+      },
+      {
+        "index": 49,
+        "name": "育成医療費助成事業",
+        "department": "こども課",
+        "departmentStart": 20266,
+        "parts": [
+          {
+            "start": 20255,
+            "raw": "育成医療費助成事"
+          },
+          {
+            "start": 20264,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 20255,
+        "context": "育成医療費助成事\n業\n【こども課】",
+        "contextSha256": "71637ac3cce02035199b22ab3d9c9374aaf5ce8e784461b09f33360df81d2008",
+        "carryover": false
+      },
+      {
+        "index": 50,
+        "name": "障害福祉サービス費給付事業",
+        "department": "健康福祉課",
+        "departmentStart": 20623,
+        "parts": [
+          {
+            "start": 20608,
+            "raw": "障害福祉サービス"
+          },
+          {
+            "start": 20617,
+            "raw": "費給付事業"
+          }
+        ],
+        "contextStart": 20608,
+        "context": "障害福祉サービス\n費給付事業\n【健康福祉課】",
+        "contextSha256": "36ba486b33c4c60d9e0ba793733eb48fe010bb8489870b72b072f11e54d5e9e0",
+        "carryover": false
+      },
+      {
+        "index": 51,
+        "name": "障害者地域生活支援サービス費等給付事業",
+        "department": "健康福祉課",
+        "departmentStart": 20989,
+        "parts": [
+          {
+            "start": 20967,
+            "raw": "障害者地域生活支"
+          },
+          {
+            "start": 20976,
+            "raw": "援サービス費等給"
+          },
+          {
+            "start": 20985,
+            "raw": "付事業"
+          }
+        ],
+        "contextStart": 20967,
+        "context": "障害者地域生活支\n援サービス費等給\n付事業\n【健康福祉課】",
+        "contextSha256": "cc3cf1a3c3c668a9f2b6249bfaa46ee63a18659da76c8def84b199c3728cff56",
+        "carryover": false
+      },
+      {
+        "index": 52,
+        "name": "障害者地域活動支援センター事業",
+        "department": "健康福祉課",
+        "departmentStart": 21015,
+        "parts": [
+          {
+            "start": 20998,
+            "raw": "障害者地域活動支"
+          },
+          {
+            "start": 21007,
+            "raw": "援センター事業"
+          }
+        ],
+        "contextStart": 20998,
+        "context": "障害者地域活動支\n援センター事業\n【健康福祉課】",
+        "contextSha256": "ef15bd236e60e7ef207e78346a746918cc6b92f5789dcedec11fceaa39729604",
+        "carryover": false
+      },
+      {
+        "index": 53,
+        "name": "障がい者基幹相談支援センター事業",
+        "department": "健康福祉課",
+        "departmentStart": 21042,
+        "parts": [
+          {
+            "start": 21024,
+            "raw": "障がい者基幹相談"
+          },
+          {
+            "start": 21033,
+            "raw": "支援センター事業"
+          }
+        ],
+        "contextStart": 21024,
+        "context": "障がい者基幹相談\n支援センター事業\n【健康福祉課】",
+        "contextSha256": "1f034375b9528e0a0b61ef5f66d47476cc20ded2a71d3b5014581d936811c1df",
+        "carryover": false
+      },
+      {
+        "index": 54,
+        "name": "妊婦健康診査事業",
+        "department": "こども課",
+        "departmentStart": 21659,
+        "parts": [
+          {
+            "start": 21650,
+            "raw": "妊婦健康診査事業"
+          }
+        ],
+        "contextStart": 21650,
+        "context": "妊婦健康診査事業\n【こども課】",
+        "contextSha256": "eeee9c8994b24b871a1b15a84cc48da5b9c0c6e8a677ceab096145704a4de8f6",
+        "carryover": false
+      },
+      {
+        "index": 55,
+        "name": "(総合戦略)不妊治療助成事業",
+        "department": "こども課",
+        "departmentStart": 21683,
+        "parts": [
+          {
+            "start": 21667,
+            "raw": "(総合戦略)不妊治療助"
+          },
+          {
+            "start": 21679,
+            "raw": "成事業"
+          }
+        ],
+        "contextStart": 21667,
+        "context": "(総合戦略)不妊治療助\n成事業\n【こども課】",
+        "contextSha256": "7f1bd9389332157b3789e28cf8ca20769313ff12167e5bffa8d4dca30720e19d",
+        "carryover": false
+      },
+      {
+        "index": 56,
+        "name": "(総合戦略)妊産婦医療費助成事業",
+        "department": "こども課",
+        "departmentStart": 21880,
+        "parts": [
+          {
+            "start": 21862,
+            "raw": "(総合戦略)妊産婦医療"
+          },
+          {
+            "start": 21874,
+            "raw": "費助成事業"
+          }
+        ],
+        "contextStart": 21862,
+        "context": "(総合戦略)妊産婦医療\n費助成事業\n【こども課】",
+        "contextSha256": "c5019e14a85a84006778895a1b83e6cd67b8dee0ff8d76c4a7a5ba4015435ec2",
+        "carryover": false
+      },
+      {
+        "index": 57,
+        "name": "乳児家庭訪問事業",
+        "department": "こども課",
+        "departmentStart": 21897,
+        "parts": [
+          {
+            "start": 21888,
+            "raw": "乳児家庭訪問事業"
+          }
+        ],
+        "contextStart": 21888,
+        "context": "乳児家庭訪問事業\n【こども課】",
+        "contextSha256": "c697b575c77a0640b29f8b613a0e560ad862973c3c6c6aa3a097816622aa6f7a",
+        "carryover": false
+      },
+      {
+        "index": 58,
+        "name": "養育医療費助成事業",
+        "department": "こども課",
+        "departmentStart": 22418,
+        "parts": [
+          {
+            "start": 22408,
+            "raw": "養育医療費助成事業"
+          }
+        ],
+        "contextStart": 22408,
+        "context": "養育医療費助成事業\n【こども課】",
+        "contextSha256": "b9d7c45bd652b90b7fb7bc740d0f1336e0d29950ccd2f03c0e9282a64f26bfc0",
+        "carryover": false
+      },
+      {
+        "index": 59,
+        "name": "乳幼児健康診査事業",
+        "department": "こども課",
+        "departmentStart": 22470,
+        "parts": [
+          {
+            "start": 22460,
+            "raw": "乳幼児健康診査事業"
+          }
+        ],
+        "contextStart": 22460,
+        "context": "乳幼児健康診査事業\n【こども課】",
+        "contextSha256": "ab98e30f8dac408572a97882aeff189e42e64cbeaec8c7e6177b61e24aa607c8",
+        "carryover": false
+      },
+      {
+        "index": 60,
+        "name": "むし歯予防事業",
+        "department": "こども課",
+        "departmentStart": 23054,
+        "parts": [
+          {
+            "start": 23046,
+            "raw": "むし歯予防事業"
+          }
+        ],
+        "contextStart": 23046,
+        "context": "むし歯予防事業\n【こども課】",
+        "contextSha256": "29b33e773dcfd0fed6684158fd7f5e6738e49ea114e982c82dd07888fa1e6c5a",
+        "carryover": false
+      },
+      {
+        "index": 61,
+        "name": "子育て世代包括支援センター運営事業",
+        "department": "こども課",
+        "departmentStart": 23392,
+        "parts": [
+          {
+            "start": 23369,
+            "raw": "子育て世代包括支援セ"
+          },
+          {
+            "start": 23382,
+            "raw": "ンター運営事業"
+          }
+        ],
+        "contextStart": 23369,
+        "context": "子育て世代包括支援セ\n新\nンター運営事業\n規\n【こども課】",
+        "contextSha256": "d3b719522f54533025f212f2460ff3169342f748e1e2e67ce1460bb7292856e9",
+        "carryover": false
+      },
+      {
+        "index": 62,
+        "name": "子ども・子育て支援事業",
+        "department": "こども課",
+        "departmentStart": 23417,
+        "parts": [
+          {
+            "start": 23400,
+            "raw": "子ども・子育て支援事"
+          },
+          {
+            "start": 23413,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 23400,
+        "context": "子ども・子育て支援事\n新\n業\n規\n【こども課】",
+        "contextSha256": "732c76b6e693e07fdaaa97e54a38d5dc6dcf63438278a2981c248bb083097235",
+        "carryover": false
+      },
+      {
+        "index": 63,
+        "name": "公立保育園施設営繕・整備事業",
+        "department": "こども課",
+        "departmentStart": 23445,
+        "parts": [
+          {
+            "start": 23425,
+            "raw": "公立保育園施設営繕・"
+          },
+          {
+            "start": 23438,
+            "raw": "整備事業"
+          }
+        ],
+        "contextStart": 23425,
+        "context": "公立保育園施設営繕・\n新\n整備事業\n規\n【こども課】",
+        "contextSha256": "c9b79ac23ef7691d05445d8a8c89346cbe23ce8f5daecfe3a2c13071b07a6d22",
+        "carryover": false
+      },
+      {
+        "index": 64,
+        "name": "公立認定こども園開設準備事業",
+        "department": "学校教育課",
+        "departmentStart": 23471,
+        "parts": [
+          {
+            "start": 23453,
+            "raw": "公立認定こども園開設"
+          },
+          {
+            "start": 23464,
+            "raw": "準備事業"
+          }
+        ],
+        "contextStart": 23453,
+        "context": "公立認定こども園開設\n準備事業\n新\n【学校教育課】",
+        "contextSha256": "d17d20b557957ce800c394fe782110fcb0442b3bf4045d0ae05f627ef534bc7e",
+        "carryover": false
+      },
+      {
+        "index": 65,
+        "name": "私立保育園支援事業",
+        "department": "こども課",
+        "departmentStart": 23506,
+        "parts": [
+          {
+            "start": 23496,
+            "raw": "私立保育園支援事業"
+          }
+        ],
+        "contextStart": 23496,
+        "context": "私立保育園支援事業\n【こども課】",
+        "contextSha256": "7642eb267bf84b3e7b645ffe837b9179a17d0a3212f7527c060c2434cbf2d2bb",
+        "carryover": false
+      },
+      {
+        "index": 66,
+        "name": "(総合戦略)放課後児童健全育成事業",
+        "department": "こども課",
+        "departmentStart": 24330,
+        "parts": [
+          {
+            "start": 24307,
+            "raw": "(総合戦略)放課後児童"
+          },
+          {
+            "start": 24321,
+            "raw": "健全育成事業"
+          }
+        ],
+        "contextStart": 24307,
+        "context": "(総合戦略)放課後児童\n拡\n健全育成事業\n充\n【こども課】",
+        "contextSha256": "5466cb5d17b1d8250bda622be38d9528aa5a649ce3f8d9f0999f279f246962b8",
+        "carryover": false
+      },
+      {
+        "index": 67,
+        "name": "(総合戦略)病児保育運営事業",
+        "department": "こども課",
+        "departmentStart": 24354,
+        "parts": [
+          {
+            "start": 24338,
+            "raw": "(総合戦略)病児保育運"
+          },
+          {
+            "start": 24350,
+            "raw": "営事業"
+          }
+        ],
+        "contextStart": 24338,
+        "context": "(総合戦略)病児保育運\n営事業\n【こども課】",
+        "contextSha256": "677f67e7fc4ef16321b95b696e4ba0e59add898dd4c0c949d34fc89508ae2066",
+        "carryover": false
+      },
+      {
+        "index": 68,
+        "name": "(総合戦略)ファミリーサポートセンター運営事業",
+        "department": "こども課",
+        "departmentStart": 24388,
+        "parts": [
+          {
+            "start": 24362,
+            "raw": "(総合戦略)ファミリー"
+          },
+          {
+            "start": 24374,
+            "raw": "サポートセンター運営"
+          },
+          {
+            "start": 24385,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 24362,
+        "context": "(総合戦略)ファミリー\nサポートセンター運営\n事業\n【こども課】",
+        "contextSha256": "3c5d9cab770c2594b4ab6c1fb02e558603cf3d603bf21d0427b32cefcd999a68",
+        "carryover": false
+      },
+      {
+        "index": 69,
+        "name": "(総合戦略)子育て支援センター運営事業",
+        "department": "こども課",
+        "departmentStart": 25121,
+        "parts": [
+          {
+            "start": 25100,
+            "raw": "(総合戦略)子育て支援"
+          },
+          {
+            "start": 25112,
+            "raw": "センター運営事業"
+          }
+        ],
+        "contextStart": 25100,
+        "context": "(総合戦略)子育て支援\nセンター運営事業\n【こども課】",
+        "contextSha256": "725e4d7844bf215dc8c2ed07d25c9cb3e3f834cf6c908d196223e3ab4dce4343",
+        "carryover": false
+      },
+      {
+        "index": 70,
+        "name": "児童手当給付事業",
+        "department": "こども課",
+        "departmentStart": 25138,
+        "parts": [
+          {
+            "start": 25129,
+            "raw": "児童手当給付事業"
+          }
+        ],
+        "contextStart": 25129,
+        "context": "児童手当給付事業\n【こども課】",
+        "contextSha256": "2983fffd23550f2f9e3be40dad2b28f05423ce536d13ccdeb57bf446b667a6b5",
+        "carryover": false
+      },
+      {
+        "index": 71,
+        "name": "(総合戦略)ファミリー子育て応援パスポート事業",
+        "department": "こども課",
+        "departmentStart": 25412,
+        "parts": [
+          {
+            "start": 25386,
+            "raw": "(総合戦略)ファミリー"
+          },
+          {
+            "start": 25398,
+            "raw": "子育て応援パスポート"
+          },
+          {
+            "start": 25409,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 25386,
+        "context": "(総合戦略)ファミリー\n子育て応援パスポート\n事業\n【こども課】",
+        "contextSha256": "3f292ae4ae65914f27a19b66004e7efe1711e59261ed860f92a853e67dacc276",
+        "carryover": false
+      },
+      {
+        "index": 72,
+        "name": "(総合戦略)子ども医療費助成事業",
+        "department": "こども課",
+        "departmentStart": 25438,
+        "parts": [
+          {
+            "start": 25420,
+            "raw": "(総合戦略)子ども医療"
+          },
+          {
+            "start": 25432,
+            "raw": "費助成事業"
+          }
+        ],
+        "contextStart": 25420,
+        "context": "(総合戦略)子ども医療\n費助成事業\n【こども課】",
+        "contextSha256": "ff14b06ee3351cd317eaa725b2c53bb133c16cedd5011c19f27911d77cfb6b99",
+        "carryover": false
+      },
+      {
+        "index": 73,
+        "name": "ひとり親家庭助成事業",
+        "department": "こども課",
+        "departmentStart": 25788,
+        "parts": [
+          {
+            "start": 25777,
+            "raw": "ひとり親家庭助成事業"
+          }
+        ],
+        "contextStart": 25777,
+        "context": "ひとり親家庭助成事業\n【こども課】",
+        "contextSha256": "de6a67389cea0ea5a49c473b7c1dfc75600b4af5767818b8831767ecb009df22",
+        "carryover": false
+      },
+      {
+        "index": 74,
+        "name": "児童扶養手当等支給事業",
+        "department": "こども課",
+        "departmentStart": 25809,
+        "parts": [
+          {
+            "start": 25796,
+            "raw": "児童扶養手当等支給事"
+          },
+          {
+            "start": 25807,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 25796,
+        "context": "児童扶養手当等支給事\n業\n【こども課】",
+        "contextSha256": "d058076179758d7967ce7e26333931613fdcb54715a4ecd6bf55b28747dfd3bc",
+        "carryover": false
+      },
+      {
+        "index": 75,
+        "name": "児童保護費等給付事業",
+        "department": "こども課",
+        "departmentStart": 25828,
+        "parts": [
+          {
+            "start": 25817,
+            "raw": "児童保護費等給付事業"
+          }
+        ],
+        "contextStart": 25817,
+        "context": "児童保護費等給付事業\n【こども課】",
+        "contextSha256": "8ad926d4b945f505b81efccb890452923acd62ac55ef39aaff7c09e7ba371230",
+        "carryover": false
+      },
+      {
+        "index": 76,
+        "name": "子どもの虐待・ＤＶ等防止事業",
+        "department": "こども課",
+        "departmentStart": 26355,
+        "parts": [
+          {
+            "start": 26339,
+            "raw": "子どもの虐待・ＤＶ等"
+          },
+          {
+            "start": 26350,
+            "raw": "防止事業"
+          }
+        ],
+        "contextStart": 26339,
+        "context": "子どもの虐待・ＤＶ等\n防止事業\n【こども課】",
+        "contextSha256": "717a7d783d9eb631a0f74a5119b3a44cc568686ab07946c060dd1b9ed182c340",
+        "carryover": false
+      },
+      {
+        "index": 77,
+        "name": "健康づくり推進事業",
+        "department": "健康福祉課",
+        "departmentStart": 26607,
+        "parts": [
+          {
+            "start": 26597,
+            "raw": "健康づくり推進事業"
+          }
+        ],
+        "contextStart": 26597,
+        "context": "健康づくり推進事業\n【健康福祉課】",
+        "contextSha256": "36514d7a8424f81f1e37c23f1756844ad89b722ed36bf669c8e424946b688353",
+        "carryover": false
+      },
+      {
+        "index": 78,
+        "name": "(総合戦略)ごせんまるごとヘルシーガイドブック事業",
+        "department": "健康福祉課",
+        "departmentStart": 26644,
+        "parts": [
+          {
+            "start": 26616,
+            "raw": "(総合戦略)ごせんまる"
+          },
+          {
+            "start": 26628,
+            "raw": "ごとヘルシーガイド"
+          },
+          {
+            "start": 26638,
+            "raw": "ブック事業"
+          }
+        ],
+        "contextStart": 26616,
+        "context": "(総合戦略)ごせんまる\nごとヘルシーガイド\nブック事業\n【健康福祉課】",
+        "contextSha256": "d767d7962918014aea5addc641ce78a93be820984bb57397c588df20ec60e82e",
+        "carryover": false
+      },
+      {
+        "index": 79,
+        "name": "健康診査等事業",
+        "department": "健康福祉課",
+        "departmentStart": 27220,
+        "parts": [
+          {
+            "start": 27212,
+            "raw": "健康診査等事業"
+          }
+        ],
+        "contextStart": 27212,
+        "context": "健康診査等事業\n【健康福祉課】",
+        "contextSha256": "dda5922bc9c37dd63b7795a2e63b63259e9f52f3caf51e7f151caea3fbeadd4f",
+        "carryover": false
+      },
+      {
+        "index": 80,
+        "name": "子ども等予防接種事業",
+        "department": "こども課",
+        "departmentStart": 27240,
+        "parts": [
+          {
+            "start": 27229,
+            "raw": "子ども等予防接種事業"
+          }
+        ],
+        "contextStart": 27229,
+        "context": "子ども等予防接種事業\n【こども課】",
+        "contextSha256": "4a7419a8c9c2021e8edac8923f7669855027a74669c17abbf91391e21ac5c262",
+        "carryover": false
+      },
+      {
+        "index": 81,
+        "name": "(総合戦略)がん予防事業",
+        "department": "健康福祉課",
+        "departmentStart": 27549,
+        "parts": [
+          {
+            "start": 27535,
+            "raw": "(総合戦略)がん予防事"
+          },
+          {
+            "start": 27547,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 27535,
+        "context": "(総合戦略)がん予防事\n業\n【健康福祉課】",
+        "contextSha256": "3d21e64ef4700c7198b35837c0c003a4b8354bae96a3800d52bf921e56ab9de3",
+        "carryover": false
+      },
+      {
+        "index": 82,
+        "name": "成人歯科保健事業",
+        "department": "健康福祉課",
+        "departmentStart": 28095,
+        "parts": [
+          {
+            "start": 28086,
+            "raw": "成人歯科保健事業"
+          }
+        ],
+        "contextStart": 28086,
+        "context": "成人歯科保健事業\n【健康福祉課】",
+        "contextSha256": "bb11b9a9d3c8a4552dd769d16dad6637347b12088ff3f24d0a7f6177b60e6226",
+        "carryover": false
+      },
+      {
+        "index": 83,
+        "name": "後期高齢者健康診査等事業",
+        "department": "健康福祉課",
+        "departmentStart": 28118,
+        "parts": [
+          {
+            "start": 28104,
+            "raw": "後期高齢者健康診査等"
+          },
+          {
+            "start": 28115,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 28104,
+        "context": "後期高齢者健康診査等\n事業\n【健康福祉課】",
+        "contextSha256": "f3153a378cb4660e88f0e4846db315a894d6a0f48b8274be9801b351fa3fc4d8",
+        "carryover": false
+      },
+      {
+        "index": 84,
+        "name": "高齢者等予防接種事業",
+        "department": "健康福祉課",
+        "departmentStart": 28651,
+        "parts": [
+          {
+            "start": 28640,
+            "raw": "高齢者等予防接種事業"
+          }
+        ],
+        "contextStart": 28640,
+        "context": "高齢者等予防接種事業\n【健康福祉課】",
+        "contextSha256": "d14a411aa64aa8cc7079f9e3c3597187d1190dbcf652b8b7f6f26a2cd86f2f5e",
+        "carryover": false
+      },
+      {
+        "index": 85,
+        "name": "地域自殺対策緊急強化事業",
+        "department": "健康福祉課",
+        "departmentStart": 28904,
+        "parts": [
+          {
+            "start": 28890,
+            "raw": "地域自殺対策緊急強化"
+          },
+          {
+            "start": 28901,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 28890,
+        "context": "地域自殺対策緊急強化\n事業\n【健康福祉課】",
+        "contextSha256": "c6452bf3b24a367579a8a40c6956524a6d25eb6a091b030fcbbd41d78638f9ad",
+        "carryover": false
+      },
+      {
+        "index": 86,
+        "name": "食育推進事業",
+        "department": "学校教育課",
+        "departmentStart": 29251,
+        "parts": [
+          {
+            "start": 29244,
+            "raw": "食育推進事業"
+          }
+        ],
+        "contextStart": 29244,
+        "context": "食育推進事業\n【学校教育課】",
+        "contextSha256": "8c50af3d68d23da34ab532774c44851310de54679ad9de49070113091a9fefe0",
+        "carryover": false
+      },
+      {
+        "index": 87,
+        "name": "学校給食運営事業",
+        "department": "学校教育課",
+        "departmentStart": 29269,
+        "parts": [
+          {
+            "start": 29260,
+            "raw": "学校給食運営事業"
+          }
+        ],
+        "contextStart": 29260,
+        "context": "学校給食運営事業\n【学校教育課】",
+        "contextSha256": "2060f8d1afb03c5c1914a5de7d76190fb2705afc786694c40495ce04431b0c44",
+        "carryover": false
+      },
+      {
+        "index": 88,
+        "name": "幼稚園給食運営事業",
+        "department": "学校教育課",
+        "departmentStart": 29599,
+        "parts": [
+          {
+            "start": 29589,
+            "raw": "幼稚園給食運営事業"
+          }
+        ],
+        "contextStart": 29589,
+        "context": "幼稚園給食運営事業\n【学校教育課】",
+        "contextSha256": "4c5c92f00dcaabf8b140c0135cedd54b96d5f555a2c36612cc95ccaef7933541",
+        "carryover": false
+      },
+      {
+        "index": 89,
+        "name": "学校給食調理業務委託事業",
+        "department": "学校教育課",
+        "departmentStart": 29851,
+        "parts": [
+          {
+            "start": 29837,
+            "raw": "学校給食調理業務委託"
+          },
+          {
+            "start": 29848,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 29837,
+        "context": "学校給食調理業務委託\n事業\n【学校教育課】",
+        "contextSha256": "51fda4032fde861e1396867c42ae7d071ea8f95f7ff0ccfbda86b68cebdc9c2a",
+        "carryover": false
+      },
+      {
+        "index": 90,
+        "name": "(総合戦略)在宅介護支援センター運営事業",
+        "department": "高齢福祉課",
+        "departmentStart": 29882,
+        "parts": [
+          {
+            "start": 29860,
+            "raw": "(総合戦略)在宅介護支"
+          },
+          {
+            "start": 29872,
+            "raw": "援センター運営事業"
+          }
+        ],
+        "contextStart": 29860,
+        "context": "(総合戦略)在宅介護支\n援センター運営事業\n【高齢福祉課】",
+        "contextSha256": "1be8ddedd7164fff56aa8bd67d752372e4b0f2f984543d499ded20a6e24f1238",
+        "carryover": false
+      },
+      {
+        "index": 91,
+        "name": "介護予防推進事業",
+        "department": "高齢福祉課",
+        "departmentStart": 30246,
+        "parts": [
+          {
+            "start": 30237,
+            "raw": "介護予防推進事業"
+          }
+        ],
+        "contextStart": 30237,
+        "context": "介護予防推進事業\n【高齢福祉課】",
+        "contextSha256": "3c1e14f543eb85c53d98e81ed24e2a17d2db9b91537a86c82634ecf47f48e7f6",
+        "carryover": false
+      },
+      {
+        "index": 92,
+        "name": "高齢者生活支援事業",
+        "department": "高齢福祉課",
+        "departmentStart": 30265,
+        "parts": [
+          {
+            "start": 30255,
+            "raw": "高齢者生活支援事業"
+          }
+        ],
+        "contextStart": 30255,
+        "context": "高齢者生活支援事業\n【高齢福祉課】",
+        "contextSha256": "6e18c326fa194dbdc05e27e331074468c4992814c078ec0edb0d294a79e8a157",
+        "carryover": false
+      },
+      {
+        "index": 93,
+        "name": "高齢者支援事業",
+        "department": "高齢福祉課",
+        "departmentStart": 30622,
+        "parts": [
+          {
+            "start": 30614,
+            "raw": "高齢者支援事業"
+          }
+        ],
+        "contextStart": 30614,
+        "context": "高齢者支援事業\n【高齢福祉課】",
+        "contextSha256": "4d9d4aac63af2d9a8d3cc9cf32d51d5324e27e7cc3444448947e13e1503c8eaf",
+        "carryover": false
+      },
+      {
+        "index": 94,
+        "name": "要介護者支援事業",
+        "department": "高齢福祉課",
+        "departmentStart": 30878,
+        "parts": [
+          {
+            "start": 30869,
+            "raw": "要介護者支援事業"
+          }
+        ],
+        "contextStart": 30869,
+        "context": "要介護者支援事業\n【高齢福祉課】",
+        "contextSha256": "063224a5db9aec584922287df3156e65be54b16c29a2b6bf6a12fc0bcdbe54d9",
+        "carryover": false
+      },
+      {
+        "index": 95,
+        "name": "地域包括支援センター管理運営事業",
+        "department": "高齢福祉課",
+        "departmentStart": 30909,
+        "parts": [
+          {
+            "start": 30891,
+            "raw": "地域包括支援センター"
+          },
+          {
+            "start": 30902,
+            "raw": "管理運営事業"
+          }
+        ],
+        "contextStart": 30891,
+        "context": "地域包括支援センター\n管理運営事業\n【高齢福祉課】",
+        "contextSha256": "c91c1bbaeaae29522e69c99596f8f4ce18ba195023237595381aba601ff3c37a",
+        "carryover": false
+      },
+      {
+        "index": 96,
+        "name": "地域包括支援センター事業",
+        "department": "高齢福祉課",
+        "departmentStart": 31297,
+        "parts": [
+          {
+            "start": 31283,
+            "raw": "地域包括支援センター"
+          },
+          {
+            "start": 31294,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 31283,
+        "context": "地域包括支援センター\n事業\n【高齢福祉課】",
+        "contextSha256": "3905056f22397b6474f011bdfbb85f8dc8b597e6660dd193cc9e5bd44180f033",
+        "carryover": false
+      },
+      {
+        "index": 97,
+        "name": "(総合戦略)家族支援事業",
+        "department": "高齢福祉課",
+        "departmentStart": 31515,
+        "parts": [
+          {
+            "start": 31501,
+            "raw": "(総合戦略)家族支援事"
+          },
+          {
+            "start": 31513,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 31501,
+        "context": "(総合戦略)家族支援事\n業\n【高齢福祉課】",
+        "contextSha256": "db7d1fc39c2876b3ef3af17d2c41f1d9471a54b75e367136be1e238b86194eee",
+        "carryover": false
+      },
+      {
+        "index": 98,
+        "name": "地域中核病院支援事業",
+        "department": "健康福祉課",
+        "departmentStart": 31535,
+        "parts": [
+          {
+            "start": 31524,
+            "raw": "地域中核病院支援事業"
+          }
+        ],
+        "contextStart": 31524,
+        "context": "地域中核病院支援事業\n【健康福祉課】",
+        "contextSha256": "aac0b75340cf6c5bcfb5ddd23bff2659e4b6968e0d64454a162b68476caff5c4",
+        "carryover": false
+      },
+      {
+        "index": 99,
+        "name": "(総合戦略)救急医療対策事業",
+        "department": "健康福祉課",
+        "departmentStart": 31999,
+        "parts": [
+          {
+            "start": 31983,
+            "raw": "(総合戦略)救急医療対"
+          },
+          {
+            "start": 31995,
+            "raw": "策事業"
+          }
+        ],
+        "contextStart": 31983,
+        "context": "(総合戦略)救急医療対\n策事業\n【健康福祉課】",
+        "contextSha256": "0a34f382614449b0abca126fcb173b22e3f1e8ad6419361929efbd623dd2d7b6",
+        "carryover": false
+      },
+      {
+        "index": 100,
+        "name": "生活困窮者自立支援事業",
+        "department": "健康福祉課",
+        "departmentStart": 32021,
+        "parts": [
+          {
+            "start": 32008,
+            "raw": "生活困窮者自立支援事"
+          },
+          {
+            "start": 32019,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 32008,
+        "context": "生活困窮者自立支援事\n業\n【健康福祉課】",
+        "contextSha256": "4e86550eb995da6e35d968ef45a27539112b1c2dd79a68655cabc5ff7d0c71f1",
+        "carryover": false
+      },
+      {
+        "index": 101,
+        "name": "(総合戦略)特定健康診査等事業",
+        "department": "市民課",
+        "departmentStart": 32631,
+        "parts": [
+          {
+            "start": 32614,
+            "raw": "(総合戦略)特定健康診"
+          },
+          {
+            "start": 32626,
+            "raw": "査等事業"
+          }
+        ],
+        "contextStart": 32614,
+        "context": "(総合戦略)特定健康診\n査等事業\n【市民課】",
+        "contextSha256": "ae8b5a49355450d6ef00e2bbc9081499f420a4c2f2b0aab775c5e28af591cd9f",
+        "carryover": false
+      },
+      {
+        "index": 102,
+        "name": "保健衛生普及事業",
+        "department": "市民課",
+        "departmentStart": 32647,
+        "parts": [
+          {
+            "start": 32638,
+            "raw": "保健衛生普及事業"
+          }
+        ],
+        "contextStart": 32638,
+        "context": "保健衛生普及事業\n【市民課】",
+        "contextSha256": "5cd23826defd629117bca9b96f1d12bd689d41b98292d6bda81e8d52d73923b3",
+        "carryover": false
+      },
+      {
+        "index": 103,
+        "name": "健康づくり事業",
+        "department": "市民課",
+        "departmentStart": 33096,
+        "parts": [
+          {
+            "start": 33088,
+            "raw": "健康づくり事業"
+          }
+        ],
+        "contextStart": 33088,
+        "context": "健康づくり事業\n【市民課】",
+        "contextSha256": "3976026ccc7e296056e8b4e15dbec7883a5f78845bdc221d00c493fa5bd95022",
+        "carryover": false
+      },
+      {
+        "index": 104,
+        "name": "まちぐるみの健康づくり事業",
+        "department": "市民課",
+        "departmentStart": 33123,
+        "parts": [
+          {
+            "start": 33108,
+            "raw": "まちぐるみの健康づく"
+          },
+          {
+            "start": 33119,
+            "raw": "り事業"
+          }
+        ],
+        "contextStart": 33108,
+        "context": "まちぐるみの健康づく\nり事業\n【市民課】",
+        "contextSha256": "40a39b7b131f9411a1a370f07d6d06653fe903bfc08dedce87d9d789e31f6a6c",
+        "carryover": false
+      },
+      {
+        "index": 105,
+        "name": "（総合戦略）特定健康診査受診対策事業",
+        "department": "市民課",
+        "departmentStart": 33422,
+        "parts": [
+          {
+            "start": 33398,
+            "raw": "（総合戦略）特定健康"
+          },
+          {
+            "start": 33411,
+            "raw": "診査受診対策事業"
+          }
+        ],
+        "contextStart": 33398,
+        "context": "（総合戦略）特定健康\n新\n診査受診対策事業\n規\n【市民課】",
+        "contextSha256": "831bf3d68931df718d975719d2eba39a3a4bc16a235613342e4119e3aaccc09c",
+        "carryover": false
+      },
+      {
+        "index": 106,
+        "name": "国保保健指導事業",
+        "department": "市民課",
+        "departmentStart": 33625,
+        "parts": [
+          {
+            "start": 33616,
+            "raw": "国保保健指導事業"
+          }
+        ],
+        "contextStart": 33616,
+        "context": "国保保健指導事業\n【市民課】",
+        "contextSha256": "60124207b5945862b24d38930407184cddd8392269d5b736977a2cc3de611d48",
+        "carryover": false
+      },
+      {
+        "index": 107,
+        "name": "後期高齢者人間ドック助成事業",
+        "department": "市民課",
+        "departmentStart": 33771,
+        "parts": [
+          {
+            "start": 33755,
+            "raw": "後期高齢者人間ドック"
+          },
+          {
+            "start": 33766,
+            "raw": "助成事業"
+          }
+        ],
+        "contextStart": 33755,
+        "context": "後期高齢者人間ドック\n助成事業\n【市民課】",
+        "contextSha256": "945da76db40716d2527fc24ac1013bbc43b4c7ba4e4c58a868fa48e8791e2e18",
+        "carryover": false
+      },
+      {
+        "index": 108,
+        "name": "環境保全啓発事業",
+        "department": "環境保全課",
+        "departmentStart": 34072,
+        "parts": [
+          {
+            "start": 34063,
+            "raw": "環境保全啓発事業"
+          }
+        ],
+        "contextStart": 34063,
+        "context": "環境保全啓発事業\n【環境保全課】",
+        "contextSha256": "43a184d2daf4d13839db65eeade73a4e50daa159eefcb3c481c9b8a1abd0a647",
+        "carryover": false
+      },
+      {
+        "index": 109,
+        "name": "水環境保全事業",
+        "department": "環境保全課",
+        "departmentStart": 34273,
+        "parts": [
+          {
+            "start": 34265,
+            "raw": "水環境保全事業"
+          }
+        ],
+        "contextStart": 34265,
+        "context": "水環境保全事業\n【環境保全課】",
+        "contextSha256": "1b5b6330695df79464e2a43e038e02778e82be51c37da3ded8f00aecbca0904f",
+        "carryover": false
+      },
+      {
+        "index": 110,
+        "name": "地球温暖化防止事業",
+        "department": "環境保全課",
+        "departmentStart": 34646,
+        "parts": [
+          {
+            "start": 34636,
+            "raw": "地球温暖化防止事業"
+          }
+        ],
+        "contextStart": 34636,
+        "context": "地球温暖化防止事業\n【環境保全課】",
+        "contextSha256": "bd680cd238114c52c0c5a38235f7b6254fdd02f944d2233db2c83424cab5dbae",
+        "carryover": false
+      },
+      {
+        "index": 111,
+        "name": "交通安全啓発事業",
+        "department": "環境保全課",
+        "departmentStart": 35754,
+        "parts": [
+          {
+            "start": 35745,
+            "raw": "交通安全啓発事業"
+          }
+        ],
+        "contextStart": 35745,
+        "context": "交通安全啓発事業\n【環境保全課】",
+        "contextSha256": "4c857937a03a834600a0dc7a474daccb560d21a347ddbea06a483712c2b63dae",
+        "carryover": false
+      },
+      {
+        "index": 112,
+        "name": "(総合戦略)防犯等対策事業",
+        "department": "総務課",
+        "departmentStart": 35778,
+        "parts": [
+          {
+            "start": 35763,
+            "raw": "(総合戦略)防犯等対策"
+          },
+          {
+            "start": 35775,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 35763,
+        "context": "(総合戦略)防犯等対策\n事業\n【総務課】",
+        "contextSha256": "1c1e8c3b36ce19edd1b5866319f25ab7003059205c797c8fe76dfa4312e3b3c9",
+        "carryover": false
+      },
+      {
+        "index": 113,
+        "name": "防犯灯整備･維持事業",
+        "department": "総務課",
+        "departmentStart": 35796,
+        "parts": [
+          {
+            "start": 35785,
+            "raw": "防犯灯整備･維持事業"
+          }
+        ],
+        "contextStart": 35785,
+        "context": "防犯灯整備･維持事業\n【総務課】",
+        "contextSha256": "9a5a169bcebf11880c21e70c93897222f3526544e41cdba9eb97f85095440dfd",
+        "carryover": false
+      },
+      {
+        "index": 114,
+        "name": "(総合戦略)除雪事業",
+        "department": "都市整備課",
+        "departmentStart": 35814,
+        "parts": [
+          {
+            "start": 35803,
+            "raw": "(総合戦略)除雪事業"
+          }
+        ],
+        "contextStart": 35803,
+        "context": "(総合戦略)除雪事業\n【都市整備課】",
+        "contextSha256": "5bba65cfa6bf86d1ba0b6de5a4331678af3be28be90f2a181d4d135bbab18387",
+        "carryover": false
+      },
+      {
+        "index": 115,
+        "name": "雪寒地域道路整備事業",
+        "department": "都市整備課",
+        "departmentStart": 35834,
+        "parts": [
+          {
+            "start": 35823,
+            "raw": "雪寒地域道路整備事業"
+          }
+        ],
+        "contextStart": 35823,
+        "context": "雪寒地域道路整備事業\n【都市整備課】",
+        "contextSha256": "404271c37d47bd41ec45f99374675c97c5a0b5414c77d39e123f33a2c1581a04",
+        "carryover": false
+      },
+      {
+        "index": 116,
+        "name": "【繰越】雪寒地域道路整備事業",
+        "department": "都市整備課",
+        "departmentStart": 36629,
+        "parts": [
+          {
+            "start": 36613,
+            "raw": "【繰越】雪寒地域道路"
+          },
+          {
+            "start": 36624,
+            "raw": "整備事業"
+          }
+        ],
+        "contextStart": 36613,
+        "context": "【繰越】雪寒地域道路\n整備事業\n【都市整備課】",
+        "contextSha256": "7169376f96394df1d65935e7ac8c6f13c8b7e586e8513da3a6aab115343ea22a",
+        "carryover": true
+      },
+      {
+        "index": 117,
+        "name": "(総合戦略)防災関係業務",
+        "department": "総務課",
+        "departmentStart": 37733,
+        "parts": [
+          {
+            "start": 37719,
+            "raw": "(総合戦略)防災関係業"
+          },
+          {
+            "start": 37731,
+            "raw": "務"
+          }
+        ],
+        "contextStart": 37719,
+        "context": "(総合戦略)防災関係業\n務\n【総務課】",
+        "contextSha256": "cab4b01d2cfe489e02816a51ddc5e0cd3f969571d1f721c709f2e102f3340f1a",
+        "carryover": false
+      },
+      {
+        "index": 118,
+        "name": "防災基盤整備事業",
+        "department": "総務課",
+        "departmentStart": 38154,
+        "parts": [
+          {
+            "start": 38145,
+            "raw": "防災基盤整備事業"
+          }
+        ],
+        "contextStart": 38145,
+        "context": "防災基盤整備事業\n【総務課】",
+        "contextSha256": "ef78760f40327d9b60337f5838d35fa13ac7d9859ecb0b3b25b684d555260f48",
+        "carryover": false
+      },
+      {
+        "index": 119,
+        "name": "(総合戦略)水防事業",
+        "department": "都市整備課",
+        "departmentStart": 38172,
+        "parts": [
+          {
+            "start": 38161,
+            "raw": "(総合戦略)水防事業"
+          }
+        ],
+        "contextStart": 38161,
+        "context": "(総合戦略)水防事業\n【都市整備課】",
+        "contextSha256": "3850a8be94fcd4dd1834e0e453778ee244a667f38116cb9f51b1f5dc200a4781",
+        "carryover": false
+      },
+      {
+        "index": 120,
+        "name": "河川整備事業",
+        "department": "都市整備課",
+        "departmentStart": 38188,
+        "parts": [
+          {
+            "start": 38181,
+            "raw": "河川整備事業"
+          }
+        ],
+        "contextStart": 38181,
+        "context": "河川整備事業\n【都市整備課】",
+        "contextSha256": "e742c1aa80416606e1ea0bdb6a8dd5a744960c68252ef80e165ec04aa2318cff",
+        "carryover": false
+      },
+      {
+        "index": 121,
+        "name": "青少年健全育成事業",
+        "department": "生涯学習課",
+        "departmentStart": 38638,
+        "parts": [
+          {
+            "start": 38628,
+            "raw": "青少年健全育成事業"
+          }
+        ],
+        "contextStart": 38628,
+        "context": "青少年健全育成事業\n【生涯学習課】",
+        "contextSha256": "2c1d90b2f9568bb6d25cf778d7d21515d987a45053b7cc90b13c4b77eb93d2ca",
+        "carryover": false
+      },
+      {
+        "index": 122,
+        "name": "青少年相談事業",
+        "department": "生涯学習課",
+        "departmentStart": 38849,
+        "parts": [
+          {
+            "start": 38841,
+            "raw": "青少年相談事業"
+          }
+        ],
+        "contextStart": 38841,
+        "context": "青少年相談事業\n【生涯学習課】",
+        "contextSha256": "13a67524f4f6938b0e46c1473f653f4b97b40e069ac754c1c822a29e133f5969",
+        "carryover": false
+      },
+      {
+        "index": 123,
+        "name": "青少年指導員事業",
+        "department": "生涯学習課",
+        "departmentStart": 38867,
+        "parts": [
+          {
+            "start": 38858,
+            "raw": "青少年指導員事業"
+          }
+        ],
+        "contextStart": 38858,
+        "context": "青少年指導員事業\n【生涯学習課】",
+        "contextSha256": "e5ee6b8486cb1aeb49199afd34d8d357b475b77a9d7553acbfe06d6048e62b8e",
+        "carryover": false
+      },
+      {
+        "index": 124,
+        "name": "市民の国際感覚の育成事業",
+        "department": "総務課",
+        "departmentStart": 39068,
+        "parts": [
+          {
+            "start": 39054,
+            "raw": "市民の国際感覚の育成"
+          },
+          {
+            "start": 39065,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 39054,
+        "context": "市民の国際感覚の育成\n事業\n【総務課】",
+        "contextSha256": "94b8d16a9ae1cd169c5c0b23730f942ea28182f2512a69da0b5677e56dbb784b",
+        "carryover": false
+      },
+      {
+        "index": 125,
+        "name": "(総合戦略)経済活性化推進事業",
+        "department": "商工観光課",
+        "departmentStart": 39422,
+        "parts": [
+          {
+            "start": 39405,
+            "raw": "(総合戦略)経済活性化"
+          },
+          {
+            "start": 39417,
+            "raw": "推進事業"
+          }
+        ],
+        "contextStart": 39405,
+        "context": "(総合戦略)経済活性化\n推進事業\n【商工観光課】",
+        "contextSha256": "ae7ee48d8806c8ca780e8fd78c2afd31d34e202eec266562ffe118a297abde7e",
+        "carryover": false
+      },
+      {
+        "index": 126,
+        "name": "(総合戦略)商業活性化支援事業",
+        "department": "商工観光課",
+        "departmentStart": 39844,
+        "parts": [
+          {
+            "start": 39827,
+            "raw": "(総合戦略)商業活性化"
+          },
+          {
+            "start": 39839,
+            "raw": "支援事業"
+          }
+        ],
+        "contextStart": 39827,
+        "context": "(総合戦略)商業活性化\n支援事業\n【商工観光課】",
+        "contextSha256": "b53f9e477546a6b518ecd5a2fac25944613b7c80e94bea6f0ddc103006f9e900",
+        "carryover": false
+      },
+      {
+        "index": 127,
+        "name": "(総合戦略)まちづくり推進事業",
+        "department": "商工観光課",
+        "departmentStart": 39870,
+        "parts": [
+          {
+            "start": 39853,
+            "raw": "(総合戦略)まちづくり"
+          },
+          {
+            "start": 39865,
+            "raw": "推進事業"
+          }
+        ],
+        "contextStart": 39853,
+        "context": "(総合戦略)まちづくり\n推進事業\n【商工観光課】",
+        "contextSha256": "d1cd56ecf90b43d39dea9f9c218d8aef3ff10bfd9dbc4385c9d26d7075392389",
+        "carryover": false
+      },
+      {
+        "index": 128,
+        "name": "(総合戦略)ごせん起業者応援事業",
+        "department": "商工観光課",
+        "departmentStart": 39897,
+        "parts": [
+          {
+            "start": 39879,
+            "raw": "(総合戦略)ごせん起業"
+          },
+          {
+            "start": 39891,
+            "raw": "者応援事業"
+          }
+        ],
+        "contextStart": 39879,
+        "context": "(総合戦略)ごせん起業\n者応援事業\n【商工観光課】",
+        "contextSha256": "32c60f6678e193900fb4d2a19f64c62b5752b8a6da9b3cdb6a2fd91229137ab7",
+        "carryover": false
+      },
+      {
+        "index": 129,
+        "name": "(総合戦略)工業活性化支援事業",
+        "department": "商工観光課",
+        "departmentStart": 40738,
+        "parts": [
+          {
+            "start": 40717,
+            "raw": "(総合戦略)工業活性化"
+          },
+          {
+            "start": 40731,
+            "raw": "支援事業"
+          }
+        ],
+        "contextStart": 40717,
+        "context": "(総合戦略)工業活性化\n新\n支援事業\n規\n【商工観光課】",
+        "contextSha256": "188a0e6e491da83a018791bcfda5fb07a2eadb4aeef6cceb6c068a0e1dd72553",
+        "carryover": false
+      },
+      {
+        "index": 130,
+        "name": "(総合戦略)金融対策事業",
+        "department": "商工観光課",
+        "departmentStart": 40951,
+        "parts": [
+          {
+            "start": 40937,
+            "raw": "(総合戦略)金融対策事"
+          },
+          {
+            "start": 40949,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 40937,
+        "context": "(総合戦略)金融対策事\n業\n【商工観光課】",
+        "contextSha256": "3e3f6af0ad12b3c8033548c43b974a9b775ea7dd62ac299b5a81eeb72dc98dee",
+        "carryover": false
+      },
+      {
+        "index": 131,
+        "name": "(総合戦略)五泉ニット地域ブランド化事業",
+        "department": "商工観光課",
+        "departmentStart": 41299,
+        "parts": [
+          {
+            "start": 41277,
+            "raw": "(総合戦略)五泉ニット"
+          },
+          {
+            "start": 41289,
+            "raw": "地域ブランド化事業"
+          }
+        ],
+        "contextStart": 41277,
+        "context": "(総合戦略)五泉ニット\n地域ブランド化事業\n【商工観光課】",
+        "contextSha256": "77080e9baccccfff3732ffd5b550d184540135e3863dc0bcdb95d307a0582e9d",
+        "carryover": false
+      },
+      {
+        "index": 132,
+        "name": "ふるさと応援寄附金事業",
+        "department": "企画政策課",
+        "departmentStart": 41325,
+        "parts": [
+          {
+            "start": 41308,
+            "raw": "ふるさと応援寄附金事"
+          },
+          {
+            "start": 41321,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 41308,
+        "context": "ふるさと応援寄附金事\n新\n業\n規\n【企画政策課】",
+        "contextSha256": "d9aea88f76b0fa8db393aa844bf486aa3017029577bf20bdcb78baed309ac304",
+        "carryover": false
+      },
+      {
+        "index": 133,
+        "name": "農林特産品振興事業",
+        "department": "農林課",
+        "departmentStart": 41758,
+        "parts": [
+          {
+            "start": 41748,
+            "raw": "農林特産品振興事業"
+          }
+        ],
+        "contextStart": 41748,
+        "context": "農林特産品振興事業\n【農林課】",
+        "contextSha256": "321ce7931d2269844a84d95ad3c515762346f8c6b977c3f4f76b82400419195f",
+        "carryover": false
+      },
+      {
+        "index": 134,
+        "name": "(総合戦略)総合戦略作物(エゴマ)栽培推進事業",
+        "department": "農林課",
+        "departmentStart": 41791,
+        "parts": [
+          {
+            "start": 41765,
+            "raw": "(総合戦略)総合戦略作"
+          },
+          {
+            "start": 41777,
+            "raw": "物(エゴマ)栽培推進事"
+          },
+          {
+            "start": 41789,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 41765,
+        "context": "(総合戦略)総合戦略作\n物(エゴマ)栽培推進事\n業\n【農林課】",
+        "contextSha256": "ec67e4d97d8c8724bcd4caa988b313d4f8e9cdcc0c467309e904979ba8d21ee8",
+        "carryover": false
+      },
+      {
+        "index": 135,
+        "name": "園芸作物連作障害実証事業",
+        "department": "農林課",
+        "departmentStart": 42265,
+        "parts": [
+          {
+            "start": 42251,
+            "raw": "園芸作物連作障害実証"
+          },
+          {
+            "start": 42262,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 42251,
+        "context": "園芸作物連作障害実証\n事業\n【農林課】",
+        "contextSha256": "50d1fb2ca35853f1344a3273019315f53a060484bb102d301c1491ee19e2a386",
+        "carryover": false
+      },
+      {
+        "index": 136,
+        "name": "担い手育成事業",
+        "department": "農林課",
+        "departmentStart": 42548,
+        "parts": [
+          {
+            "start": 42540,
+            "raw": "担い手育成事業"
+          }
+        ],
+        "contextStart": 42540,
+        "context": "担い手育成事業\n【農林課】",
+        "contextSha256": "c358851844bc99a15a01493b5d4dcb13892a66c515087526b56543170e72b4ce",
+        "carryover": false
+      },
+      {
+        "index": 137,
+        "name": "(総合戦略)五泉で農業やってみ隊支援事業",
+        "department": "農林課",
+        "departmentStart": 42589,
+        "parts": [
+          {
+            "start": 42567,
+            "raw": "(総合戦略)五泉で農業"
+          },
+          {
+            "start": 42579,
+            "raw": "やってみ隊支援事業"
+          }
+        ],
+        "contextStart": 42567,
+        "context": "(総合戦略)五泉で農業\nやってみ隊支援事業\n【農林課】",
+        "contextSha256": "9574cde2a196c2792c1be59d8b685cecb1319906ab99836b6b77fa3b2dc7ede0",
+        "carryover": false
+      },
+      {
+        "index": 138,
+        "name": "農業経営安定化推進事業",
+        "department": "農林課",
+        "departmentStart": 43109,
+        "parts": [
+          {
+            "start": 43096,
+            "raw": "農業経営安定化推進事"
+          },
+          {
+            "start": 43107,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 43096,
+        "context": "農業経営安定化推進事\n業\n【農林課】",
+        "contextSha256": "0407e7814ddea849b3fc570be96e9721f362a968d1b66e348efe0339118bfc04",
+        "carryover": false
+      },
+      {
+        "index": 139,
+        "name": "農作物生産推進事業",
+        "department": "農林課",
+        "departmentStart": 43423,
+        "parts": [
+          {
+            "start": 43413,
+            "raw": "農作物生産推進事業"
+          }
+        ],
+        "contextStart": 43413,
+        "context": "農作物生産推進事業\n【農林課】",
+        "contextSha256": "f410ae1371f94f46a55e00c5642226b575f4bfb39659fca9dfbfa3a5c169f28b",
+        "carryover": false
+      },
+      {
+        "index": 140,
+        "name": "数量調整円滑化推進事業",
+        "department": "農林課",
+        "departmentStart": 43985,
+        "parts": [
+          {
+            "start": 43972,
+            "raw": "数量調整円滑化推進事"
+          },
+          {
+            "start": 43983,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 43972,
+        "context": "数量調整円滑化推進事\n業\n【農林課】",
+        "contextSha256": "27e6c0b8871b17b5df775a9277499572d37b506cc55f12daa5a2857729c42c7e",
+        "carryover": false
+      },
+      {
+        "index": 141,
+        "name": "(総合戦略)数量調整円滑化推進事業",
+        "department": "農林課",
+        "departmentStart": 44282,
+        "parts": [
+          {
+            "start": 44263,
+            "raw": "(総合戦略)数量調整円"
+          },
+          {
+            "start": 44275,
+            "raw": "滑化推進事業"
+          }
+        ],
+        "contextStart": 44263,
+        "context": "(総合戦略)数量調整円\n滑化推進事業\n【農林課】",
+        "contextSha256": "f8498394efe90fbdc171ad0de9f1a5dc8ee1f8b74e89b131cea86212590bd24e",
+        "carryover": false
+      },
+      {
+        "index": 142,
+        "name": "農業基盤整備事業",
+        "department": "農林課",
+        "departmentStart": 44624,
+        "parts": [
+          {
+            "start": 44615,
+            "raw": "農業基盤整備事業"
+          }
+        ],
+        "contextStart": 44615,
+        "context": "農業基盤整備事業\n【農林課】",
+        "contextSha256": "41c307b094a4f7793272c5a0c3fedcaebdb113792f8cb3cb7b176038e567adda",
+        "carryover": false
+      },
+      {
+        "index": 143,
+        "name": "【繰越】農業基盤整備事業",
+        "department": "農林課",
+        "departmentStart": 45070,
+        "parts": [
+          {
+            "start": 45056,
+            "raw": "【繰越】農業基盤整備"
+          },
+          {
+            "start": 45067,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 45056,
+        "context": "【繰越】農業基盤整備\n事業\n【農林課】",
+        "contextSha256": "c1fe0d574edbf4c07b83175545cbc9847060658f2be828019e7cf6ae14052eff",
+        "carryover": true
+      },
+      {
+        "index": 144,
+        "name": "農業基盤維持管理事業",
+        "department": "農林課",
+        "departmentStart": 45508,
+        "parts": [
+          {
+            "start": 45497,
+            "raw": "農業基盤維持管理事業"
+          }
+        ],
+        "contextStart": 45497,
+        "context": "農業基盤維持管理事業\n【農林課】",
+        "contextSha256": "917fe0ed8a75c85861ea1fe120d1544c7ec21bdba6eb21b9ec2004818b9bc032",
+        "carryover": false
+      },
+      {
+        "index": 145,
+        "name": "【繰越】農業基盤維持管理事業",
+        "department": "農林課",
+        "departmentStart": 45531,
+        "parts": [
+          {
+            "start": 45515,
+            "raw": "【繰越】農業基盤維持"
+          },
+          {
+            "start": 45526,
+            "raw": "管理事業"
+          }
+        ],
+        "contextStart": 45515,
+        "context": "【繰越】農業基盤維持\n管理事業\n【農林課】",
+        "contextSha256": "09b5e4233446b902cb7361d817f5d4c25b48dbf0b2d13c614f51b66a1bd2339b",
+        "carryover": true
+      },
+      {
+        "index": 146,
+        "name": "治山事業",
+        "department": "農林課",
+        "departmentStart": 45543,
+        "parts": [
+          {
+            "start": 45538,
+            "raw": "治山事業"
+          }
+        ],
+        "contextStart": 45538,
+        "context": "治山事業\n【農林課】",
+        "contextSha256": "aa4a681544e92cf303475c97fc2d2d3a9420bc7d0f7443222fc31daae79009a7",
+        "carryover": false
+      },
+      {
+        "index": 147,
+        "name": "林道等整備・維持管理事業",
+        "department": "農林課",
+        "departmentStart": 46260,
+        "parts": [
+          {
+            "start": 46246,
+            "raw": "林道等整備・維持管理"
+          },
+          {
+            "start": 46257,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 46246,
+        "context": "林道等整備・維持管理\n事業\n【農林課】",
+        "contextSha256": "1f1b7469ab38637a031990df60bd4ca4dee1e12a9f5840e7b49a4e5c03dc6ddb",
+        "carryover": false
+      },
+      {
+        "index": 148,
+        "name": "(総合戦略)林道等整備・維持管理事業",
+        "department": "農林課",
+        "departmentStart": 46569,
+        "parts": [
+          {
+            "start": 46549,
+            "raw": "(総合戦略)林道等整"
+          },
+          {
+            "start": 46560,
+            "raw": "備・維持管理事業"
+          }
+        ],
+        "contextStart": 46549,
+        "context": "(総合戦略)林道等整\n備・維持管理事業\n【農林課】",
+        "contextSha256": "3422d21762d3f6775d9940950f6160311a8fff4934d50f266889d55c9e396dd8",
+        "carryover": false
+      },
+      {
+        "index": 149,
+        "name": "保安林(松)保護事業",
+        "department": "農林課",
+        "departmentStart": 46984,
+        "parts": [
+          {
+            "start": 46973,
+            "raw": "保安林(松)保護事業"
+          }
+        ],
+        "contextStart": 46973,
+        "context": "保安林(松)保護事業\n【農林課】",
+        "contextSha256": "9ec5a105f9876afe0a4016d7a2827c8a15f72bf1c2f55521d3c72aad6dd088fa",
+        "carryover": false
+      },
+      {
+        "index": 150,
+        "name": "都市消費者交流事業",
+        "department": "農林課",
+        "departmentStart": 47121,
+        "parts": [
+          {
+            "start": 47111,
+            "raw": "都市消費者交流事業"
+          }
+        ],
+        "contextStart": 47111,
+        "context": "都市消費者交流事業\n【農林課】",
+        "contextSha256": "0dda187f503eac9109d7d64d98048e802a52813a56716d5eb8410584ed81bc31",
+        "carryover": false
+      },
+      {
+        "index": 151,
+        "name": "(総合戦略)観光振興事業",
+        "department": "商工観光課",
+        "departmentStart": 47404,
+        "parts": [
+          {
+            "start": 47390,
+            "raw": "(総合戦略)観光振興事"
+          },
+          {
+            "start": 47402,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 47390,
+        "context": "(総合戦略)観光振興事\n業\n【商工観光課】",
+        "contextSha256": "8eed75b83ac38756600557fb370889ebb37c64c73694a491e1ab76c22d91c07b",
+        "carryover": false
+      },
+      {
+        "index": 152,
+        "name": "観光施設管理整備事業",
+        "department": "商工観光課",
+        "departmentStart": 47636,
+        "parts": [
+          {
+            "start": 47625,
+            "raw": "観光施設管理整備事業"
+          }
+        ],
+        "contextStart": 47625,
+        "context": "観光施設管理整備事業\n【商工観光課】",
+        "contextSha256": "bd941b2585c6ee04a9653e7da11f08c54f5cf839ab1cf0d543b369c21425301e",
+        "carryover": false
+      },
+      {
+        "index": 153,
+        "name": "(総合戦略)五泉応援団交流ネットワーク事業",
+        "department": "商工観光課",
+        "departmentStart": 47946,
+        "parts": [
+          {
+            "start": 47923,
+            "raw": "(総合戦略)五泉応援団"
+          },
+          {
+            "start": 47935,
+            "raw": "交流ネットワーク事業"
+          }
+        ],
+        "contextStart": 47923,
+        "context": "(総合戦略)五泉応援団\n交流ネットワーク事業\n【商工観光課】",
+        "contextSha256": "6cd8dce999d911a544dd8832be400aeabe41cc91dd325163c5181f29281f094b",
+        "carryover": false
+      },
+      {
+        "index": 154,
+        "name": "(総合戦略)The Gosenbrand ごせん桜アロマ事業",
+        "department": "商工観光課",
+        "departmentStart": 47988,
+        "parts": [
+          {
+            "start": 47955,
+            "raw": "(総合戦略)The Gosen"
+          },
+          {
+            "start": 47971,
+            "raw": "brand ごせん桜アロマ"
+          },
+          {
+            "start": 47985,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 47955,
+        "context": "(総合戦略)The Gosen\nbrand ごせん桜アロマ\n事業\n【商工観光課】",
+        "contextSha256": "84ff9944df5d6dd64fff61ea409362b7c10eab2160974e8d2d6d4a0dfe6087a3",
+        "carryover": false
+      },
+      {
+        "index": 155,
+        "name": "(総合戦略)複合施設建設事業",
+        "department": "都市整備課",
+        "departmentStart": 48389,
+        "parts": [
+          {
+            "start": 48332,
+            "raw": "(総合戦略)複合施設建"
+          },
+          {
+            "start": 48371,
+            "raw": "設事業"
+          }
+        ],
+        "contextStart": 48332,
+        "context": "(総合戦略)複合施設建\n新\n産業振興の情報発信拠点となる複合施設を整備する。\n設事業\n576,525,369\n規\n【都市整備課】",
+        "contextSha256": "ede6167f619da8c15f85e9d01b9187cc910fa1989597b7ba7784abefe890a5aa",
+        "carryover": false
+      },
+      {
+        "index": 156,
+        "name": "【繰越】(総合戦略)複合施設建設事業",
+        "department": "都市整備課",
+        "departmentStart": 48451,
+        "parts": [
+          {
+            "start": 48431,
+            "raw": "【繰越】(総合戦略)複"
+          },
+          {
+            "start": 48443,
+            "raw": "合施設建設事業"
+          }
+        ],
+        "contextStart": 48431,
+        "context": "【繰越】(総合戦略)複\n合施設建設事業\n【都市整備課】",
+        "contextSha256": "1cf300d4f51293bee772b223e9752659b68e4cc816492d3c3256fa22e2a8255c",
+        "carryover": true
+      },
+      {
+        "index": 157,
+        "name": "(総合戦略)五泉市プロモーション事業",
+        "department": "企画政策課",
+        "departmentStart": 48500,
+        "parts": [
+          {
+            "start": 48480,
+            "raw": "(総合戦略)五泉市プロ"
+          },
+          {
+            "start": 48492,
+            "raw": "モーション事業"
+          }
+        ],
+        "contextStart": 48480,
+        "context": "(総合戦略)五泉市プロ\nモーション事業\n【企画政策課】",
+        "contextSha256": "820cf0814c33ada96dce5ff1ea4095fc799f9da1b454302ceebcc424c53f6c6b",
+        "carryover": false
+      },
+      {
+        "index": 158,
+        "name": "（総合戦略）五泉の良いことつたえ隊支援事業",
+        "department": "商工観光課",
+        "departmentStart": 48537,
+        "parts": [
+          {
+            "start": 48509,
+            "raw": "（総合戦略）五泉の良"
+          },
+          {
+            "start": 48520,
+            "raw": "いことつたえ隊支援事"
+          },
+          {
+            "start": 48533,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 48509,
+        "context": "（総合戦略）五泉の良\nいことつたえ隊支援事 新\n業\n規\n【商工観光課】",
+        "contextSha256": "efd1971a81b2ecec2bbf35792ec0565866d4eadd2c66e12d0d6e600295c80639",
+        "carryover": false
+      },
+      {
+        "index": 159,
+        "name": "国民文化祭シンポジウム事業",
+        "department": "生涯学習課",
+        "departmentStart": 48565,
+        "parts": [
+          {
+            "start": 48546,
+            "raw": "国民文化祭シンポジウ"
+          },
+          {
+            "start": 48559,
+            "raw": "ム事業"
+          }
+        ],
+        "contextStart": 48546,
+        "context": "国民文化祭シンポジウ\n新\nム事業\n規\n【生涯学習課】",
+        "contextSha256": "5a785b10581d5a1916e645f80878b3b9d0f8b57b44c3f4649ae29f7a98bd11e3",
+        "carryover": false
+      },
+      {
+        "index": 160,
+        "name": "（総合戦略）20歳のための地元ハローワーク事業",
+        "department": "商工観光課",
+        "departmentStart": 48604,
+        "parts": [
+          {
+            "start": 48574,
+            "raw": "（総合戦略）20歳のた"
+          },
+          {
+            "start": 48586,
+            "raw": "めの地元ハローワーク"
+          },
+          {
+            "start": 48601,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 48574,
+        "context": "（総合戦略）20歳のた\nめの地元ハローワーク 拡\n充\n事業\n【商工観光課】",
+        "contextSha256": "8d98dc0c9abd7aaf068b93b1625ed88be22a6899dcd0b411a85e5226a603641f",
+        "carryover": false
+      },
+      {
+        "index": 161,
+        "name": "（総合戦略）若年者職業的自立支援事業",
+        "department": "商工観光課",
+        "departmentStart": 49580,
+        "parts": [
+          {
+            "start": 49560,
+            "raw": "（総合戦略）若年者職"
+          },
+          {
+            "start": 49571,
+            "raw": "業的自立支援事業"
+          }
+        ],
+        "contextStart": 49560,
+        "context": "（総合戦略）若年者職\n業的自立支援事業\n【商工観光課】",
+        "contextSha256": "1a139624b4c86f35b439c301b9df83a9dbe6930b2ae3f67b4a196fe32f60efb1",
+        "carryover": false
+      },
+      {
+        "index": 162,
+        "name": "(総合戦略)企業誘致推進事業",
+        "department": "商工観光課",
+        "departmentStart": 49778,
+        "parts": [
+          {
+            "start": 49762,
+            "raw": "(総合戦略)企業誘致推"
+          },
+          {
+            "start": 49774,
+            "raw": "進事業"
+          }
+        ],
+        "contextStart": 49762,
+        "context": "(総合戦略)企業誘致推\n進事業\n【商工観光課】",
+        "contextSha256": "eb59e2459306085468371c42a3f36896d591ab4fa62e47140291f6d04b549838",
+        "carryover": false
+      },
+      {
+        "index": 163,
+        "name": "(総合戦略)縁結び支援事業",
+        "department": "こども課",
+        "departmentStart": 50058,
+        "parts": [
+          {
+            "start": 50043,
+            "raw": "(総合戦略)縁結び支援"
+          },
+          {
+            "start": 50055,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 50043,
+        "context": "(総合戦略)縁結び支援\n事業\n【こども課】",
+        "contextSha256": "bf8d9969f618da06309f723f0db0945d2f8d49db2635b7f9581cdb73db2240bd",
+        "carryover": false
+      },
+      {
+        "index": 164,
+        "name": "(総合戦略)グランドファミリー住まいる事業",
+        "department": "企画政策課",
+        "departmentStart": 50279,
+        "parts": [
+          {
+            "start": 50255,
+            "raw": "(総合戦略)グランド"
+          },
+          {
+            "start": 50266,
+            "raw": "ファミリー住まいる事"
+          },
+          {
+            "start": 50277,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 50255,
+        "context": "(総合戦略)グランド\nファミリー住まいる事\n業\n【企画政策課】",
+        "contextSha256": "3e433b95a5ab5a9e2ee9851dd7e16c298f2dd594343803cb951ab3d11aeda668",
+        "carryover": false
+      },
+      {
+        "index": 165,
+        "name": "(総合戦略)ウェルカムファミリー住まいる事業",
+        "department": "企画政策課",
+        "departmentStart": 50649,
+        "parts": [
+          {
+            "start": 50624,
+            "raw": "(総合戦略)ウェルカム"
+          },
+          {
+            "start": 50636,
+            "raw": "ファミリー住まいる事"
+          },
+          {
+            "start": 50647,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 50624,
+        "context": "(総合戦略)ウェルカム\nファミリー住まいる事\n業\n【企画政策課】",
+        "contextSha256": "1231aa84352f9428161732121a92303b5e2f35896a8c072ddfa5ca0d9bb9dfc5",
+        "carryover": false
+      },
+      {
+        "index": 166,
+        "name": "（総合戦略）元気出せごせ ん若 者ワ ークショップ事業",
+        "department": "企画政策課",
+        "departmentStart": 50978,
+        "parts": [
+          {
+            "start": 50948,
+            "raw": "（総合戦略）元気出せ"
+          },
+          {
+            "start": 50959,
+            "raw": "ごせ ん若 者ワ ーク"
+          },
+          {
+            "start": 50971,
+            "raw": "ショップ事業"
+          }
+        ],
+        "contextStart": 50948,
+        "context": "（総合戦略）元気出せ\nごせ ん若 者ワ ーク\nショップ事業\n【企画政策課】",
+        "contextSha256": "88e1a80f68953010b7ade399a4037fa5aa604329659eacb3bcfdc6c8fd00aa40",
+        "carryover": false
+      },
+      {
+        "index": 167,
+        "name": "(総合戦略)Ｕターン・Ｉターン等促進事業",
+        "department": "企画政策課",
+        "departmentStart": 51331,
+        "parts": [
+          {
+            "start": 51305,
+            "raw": "(総合戦略)Ｕターン・"
+          },
+          {
+            "start": 51319,
+            "raw": "Ｉターン等促進事業"
+          }
+        ],
+        "contextStart": 51305,
+        "context": "(総合戦略)Ｕターン・\n新\nＩターン等促進事業\n規\n【企画政策課】",
+        "contextSha256": "88f081485e9987487b2ede8dda1b1e56c39adf987ecb93b83c355f09fdb405e2",
+        "carryover": false
+      },
+      {
+        "index": 168,
+        "name": "(総合戦略)地域おこし協力隊事業",
+        "department": "企画政策課",
+        "departmentStart": 51358,
+        "parts": [
+          {
+            "start": 51340,
+            "raw": "(総合戦略)地域おこし"
+          },
+          {
+            "start": 51352,
+            "raw": "協力隊事業"
+          }
+        ],
+        "contextStart": 51340,
+        "context": "(総合戦略)地域おこし\n協力隊事業\n【企画政策課】",
+        "contextSha256": "289abad802da7da76c7972abddb2cfc1e87ae89b74d8719cde19b0edea2d80e1",
+        "carryover": false
+      },
+      {
+        "index": 169,
+        "name": "廃棄物対策事業",
+        "department": "環境保全課",
+        "departmentStart": 51932,
+        "parts": [
+          {
+            "start": 51924,
+            "raw": "廃棄物対策事業"
+          }
+        ],
+        "contextStart": 51924,
+        "context": "廃棄物対策事業\n【環境保全課】",
+        "contextSha256": "44ad2386b3a6c094333c979c002ec86a4072792d0e419a9eb9c184caa4bf80a6",
+        "carryover": false
+      },
+      {
+        "index": 170,
+        "name": "リサイクル推進事業",
+        "department": "環境保全課",
+        "departmentStart": 52175,
+        "parts": [
+          {
+            "start": 52165,
+            "raw": "リサイクル推進事業"
+          }
+        ],
+        "contextStart": 52165,
+        "context": "リサイクル推進事業\n【環境保全課】",
+        "contextSha256": "e8f30598aa493cfa1945ad5917e7243f4b5454b974ad5a9194639d2728a56188",
+        "carryover": false
+      },
+      {
+        "index": 171,
+        "name": "排水対策事業",
+        "department": "環境保全課",
+        "departmentStart": 52414,
+        "parts": [
+          {
+            "start": 52407,
+            "raw": "排水対策事業"
+          }
+        ],
+        "contextStart": 52407,
+        "context": "排水対策事業\n【環境保全課】",
+        "contextSha256": "50933976c54dbf4539a04b04cc5fca684019215e459ca1a4e848cc50d5e53ee1",
+        "carryover": false
+      },
+      {
+        "index": 172,
+        "name": "道路改良事業",
+        "department": "都市整備課",
+        "departmentStart": 52725,
+        "parts": [
+          {
+            "start": 52718,
+            "raw": "道路改良事業"
+          }
+        ],
+        "contextStart": 52718,
+        "context": "道路改良事業\n【都市整備課】",
+        "contextSha256": "a8b0d63bceb3182cc24a99182dbc8475244dfdce24ce27350329d6f934f786ea",
+        "carryover": false
+      },
+      {
+        "index": 173,
+        "name": "【繰越】道路改良事業",
+        "department": "都市整備課",
+        "departmentStart": 52745,
+        "parts": [
+          {
+            "start": 52734,
+            "raw": "【繰越】道路改良事業"
+          }
+        ],
+        "contextStart": 52734,
+        "context": "【繰越】道路改良事業\n【都市整備課】",
+        "contextSha256": "723ea99d1b62c93092b9ac9d74a363a1dff5975ed14c577914e53a4f973a138b",
+        "carryover": true
+      },
+      {
+        "index": 174,
+        "name": "道路改良事業（三本木中野3号線）",
+        "department": "都市整備課",
+        "departmentStart": 53098,
+        "parts": [
+          {
+            "start": 53080,
+            "raw": "道路改良事業"
+          },
+          {
+            "start": 53087,
+            "raw": "（三本木中野3号線）"
+          }
+        ],
+        "contextStart": 53080,
+        "context": "道路改良事業\n（三本木中野3号線）\n【都市整備課】",
+        "contextSha256": "784189d4fc8dd1fe225833fd13ee3b1f6577d5bc8bfbf0a910601ecbb7529159",
+        "carryover": false
+      },
+      {
+        "index": 175,
+        "name": "【繰越】道路改良事業（三本木中野3号線）",
+        "department": "都市整備課",
+        "departmentStart": 53129,
+        "parts": [
+          {
+            "start": 53107,
+            "raw": "【繰越】道路改良事業"
+          },
+          {
+            "start": 53118,
+            "raw": "（三本木中野3号線）"
+          }
+        ],
+        "contextStart": 53107,
+        "context": "【繰越】道路改良事業\n（三本木中野3号線）\n【都市整備課】",
+        "contextSha256": "543a665bc6d7070ab623eed026a1e83f92954c244f1d590cddf673ee03da4bfa",
+        "carryover": true
+      },
+      {
+        "index": 176,
+        "name": "橋梁管理事業",
+        "department": "都市整備課",
+        "departmentStart": 53145,
+        "parts": [
+          {
+            "start": 53138,
+            "raw": "橋梁管理事業"
+          }
+        ],
+        "contextStart": 53138,
+        "context": "橋梁管理事業\n【都市整備課】",
+        "contextSha256": "56c05b2a6b62b11c02902b041c87a1442ebd97e98790f1048e0a0552a8e2ad67",
+        "carryover": false
+      },
+      {
+        "index": 177,
+        "name": "(総合戦略)生活路線バス支援事業",
+        "department": "企画政策課",
+        "departmentStart": 53571,
+        "parts": [
+          {
+            "start": 53553,
+            "raw": "(総合戦略)生活路線バ"
+          },
+          {
+            "start": 53565,
+            "raw": "ス支援事業"
+          }
+        ],
+        "contextStart": 53553,
+        "context": "(総合戦略)生活路線バ\nス支援事業\n【企画政策課】",
+        "contextSha256": "d2e5dc825af899a4ac84be5360fe8c9858d2e5d19e97112e124477e790130252",
+        "carryover": false
+      },
+      {
+        "index": 178,
+        "name": "(総合戦略)地域公共交通活性化・再生総合事業",
+        "department": "企画政策課",
+        "departmentStart": 53861,
+        "parts": [
+          {
+            "start": 53832,
+            "raw": "(総合戦略)地域公共交"
+          },
+          {
+            "start": 53844,
+            "raw": "通活性化・再生総合事"
+          },
+          {
+            "start": 53857,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 53832,
+        "context": "(総合戦略)地域公共交\n通活性化・再生総合事 新\n業\n規\n【企画政策課】",
+        "contextSha256": "9c1d1c1dae0ec71f19d1128397ae4cc1cd16c3a4692d97bb5a94900b55e28b46",
+        "carryover": false
+      },
+      {
+        "index": 179,
+        "name": "(総合戦略)空家対策事業",
+        "department": "環境保全課",
+        "departmentStart": 54263,
+        "parts": [
+          {
+            "start": 54249,
+            "raw": "(総合戦略)空家対策事"
+          },
+          {
+            "start": 54261,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 54249,
+        "context": "(総合戦略)空家対策事\n業\n【環境保全課】",
+        "contextSha256": "a446a5e814ab4742a3e41f2e12a97221a630d8658b911c9f6be68abc80bd3e13",
+        "carryover": false
+      },
+      {
+        "index": 180,
+        "name": "【繰越】五泉駅周辺整備事業",
+        "department": "都市整備課",
+        "departmentStart": 54461,
+        "parts": [
+          {
+            "start": 54446,
+            "raw": "【繰越】五泉駅周辺整"
+          },
+          {
+            "start": 54457,
+            "raw": "備事業"
+          }
+        ],
+        "contextStart": 54446,
+        "context": "【繰越】五泉駅周辺整\n備事業\n【都市整備課】",
+        "contextSha256": "7c043f100f4911bc4c5d02785f73507983212974f47aa55c8c2e8f93b9049a5d",
+        "carryover": true
+      },
+      {
+        "index": 181,
+        "name": "市営住宅建設事業",
+        "department": "都市整備課",
+        "departmentStart": 54479,
+        "parts": [
+          {
+            "start": 54470,
+            "raw": "市営住宅建設事業"
+          }
+        ],
+        "contextStart": 54470,
+        "context": "市営住宅建設事業\n【都市整備課】",
+        "contextSha256": "9b9a7217a6fb39e14f9315837a53addfd2b72bb48de20b6db825affec33896df",
+        "carryover": false
+      },
+      {
+        "index": 182,
+        "name": "都市計画策定事業",
+        "department": "都市整備課",
+        "departmentStart": 54776,
+        "parts": [
+          {
+            "start": 54767,
+            "raw": "都市計画策定事業"
+          }
+        ],
+        "contextStart": 54767,
+        "context": "都市計画策定事業\n【都市整備課】",
+        "contextSha256": "ccaef3b26ae726d0d670efef8d59a06538369475647007a20272a8a8378c611a",
+        "carryover": false
+      },
+      {
+        "index": 183,
+        "name": "住居表示整備事業",
+        "department": "地域振興課",
+        "departmentStart": 54794,
+        "parts": [
+          {
+            "start": 54785,
+            "raw": "住居表示整備事業"
+          }
+        ],
+        "contextStart": 54785,
+        "context": "住居表示整備事業\n【地域振興課】",
+        "contextSha256": "eedf6786d7bd8ee3cf6a9c9012d7ea297219f1b58c03a6e08bd4200b619da57a",
+        "carryover": false
+      },
+      {
+        "index": 184,
+        "name": "公園等の維持管理事業",
+        "department": "農林課",
+        "departmentStart": 55062,
+        "parts": [
+          {
+            "start": 55051,
+            "raw": "公園等の維持管理事業"
+          }
+        ],
+        "contextStart": 55051,
+        "context": "公園等の維持管理事業\n【農林課】",
+        "contextSha256": "2c0ce41137ac68ddf4906a4f7099eca934a0f9767f6f41f1233e2d4edd78647a",
+        "carryover": false
+      },
+      {
+        "index": 185,
+        "name": "村松・城跡公園施設維持管理事業",
+        "department": "商工観光課",
+        "departmentStart": 55251,
+        "parts": [
+          {
+            "start": 55230,
+            "raw": "村松・城跡公園施設維"
+          },
+          {
+            "start": 55243,
+            "raw": "持管理事業"
+          }
+        ],
+        "contextStart": 55230,
+        "context": "村松・城跡公園施設維\n拡\n持管理事業\n充\n【商工観光課】",
+        "contextSha256": "cdfd35b0238ebd1b2467f2b50bbd3210d74b78e8d1ec3e5424d499d3a221a755",
+        "carryover": false
+      },
+      {
+        "index": 186,
+        "name": "南公園整備事業",
+        "department": "都市整備課",
+        "departmentStart": 55532,
+        "parts": [
+          {
+            "start": 55524,
+            "raw": "南公園整備事業"
+          }
+        ],
+        "contextStart": 55524,
+        "context": "南公園整備事業\n【都市整備課】",
+        "contextSha256": "beddacf009745c60546f9292d803ed613befad5d3368bd310668e84fde6fff86",
+        "carryover": false
+      },
+      {
+        "index": 187,
+        "name": "自治総合センターコミュニティ助成事業",
+        "department": "企画政策課",
+        "departmentStart": 55741,
+        "parts": [
+          {
+            "start": 55721,
+            "raw": "自治総合センターコ"
+          },
+          {
+            "start": 55731,
+            "raw": "ミュニティ助成事業"
+          }
+        ],
+        "contextStart": 55721,
+        "context": "自治総合センターコ\nミュニティ助成事業\n【企画政策課】",
+        "contextSha256": "4a4b810be76c415b8aeec8621023a7116cf415e6b86a243804631c703e098b15",
+        "carryover": false
+      },
+      {
+        "index": 188,
+        "name": "人権啓発推進事業",
+        "department": "企画政策課",
+        "departmentStart": 55985,
+        "parts": [
+          {
+            "start": 55976,
+            "raw": "人権啓発推進事業"
+          }
+        ],
+        "contextStart": 55976,
+        "context": "人権啓発推進事業\n【企画政策課】",
+        "contextSha256": "9fe503660e0bf95974e021ece9a47e5cffeaaf5b92e87daa8e70af58905a6b71",
+        "carryover": false
+      },
+      {
+        "index": 189,
+        "name": "広島平和記念式典中学生派遣事業",
+        "department": "総務課",
+        "departmentStart": 56020,
+        "parts": [
+          {
+            "start": 55999,
+            "raw": "広島平和記念式典中学"
+          },
+          {
+            "start": 56012,
+            "raw": "生派遣事業"
+          }
+        ],
+        "contextStart": 55999,
+        "context": "広島平和記念式典中学\n拡\n生派遣事業\n充\n【総務課】",
+        "contextSha256": "eb48f4ab429468ad30a5223169f930487b0fcb3636277a8b9fedf63ec556be01",
+        "carryover": false
+      },
+      {
+        "index": 190,
+        "name": "男女共同参画推進事業",
+        "department": "企画政策課",
+        "departmentStart": 56525,
+        "parts": [
+          {
+            "start": 56514,
+            "raw": "男女共同参画推進事業"
+          }
+        ],
+        "contextStart": 56514,
+        "context": "男女共同参画推進事業\n【企画政策課】",
+        "contextSha256": "9e0e27940bd106278e44f33d1ac91b4cebbd42e65ad1fe09e950c76060b6ef41",
+        "carryover": false
+      },
+      {
+        "index": 191,
+        "name": "広報広聴事業",
+        "department": "総務課",
+        "departmentStart": 56878,
+        "parts": [
+          {
+            "start": 56871,
+            "raw": "広報広聴事業"
+          }
+        ],
+        "contextStart": 56871,
+        "context": "広報広聴事業\n【総務課】",
+        "contextSha256": "3b5876c5309b45b8a541b4fed11a78f25c2c5da87a0b5e1cf7ef1a84dd8623fc",
+        "carryover": false
+      },
+      {
+        "index": 192,
+        "name": "固定資産税課税資料整備事業",
+        "department": "税務課",
+        "departmentStart": 57244,
+        "parts": [
+          {
+            "start": 57229,
+            "raw": "固定資産税課税資料整"
+          },
+          {
+            "start": 57240,
+            "raw": "備事業"
+          }
+        ],
+        "contextStart": 57229,
+        "context": "固定資産税課税資料整\n備事業\n【税務課】",
+        "contextSha256": "413aab660df3def3da855d59e1440c61613c6067d8bce349a9d49a70ef32ae61",
+        "carryover": false
+      },
+      {
+        "index": 193,
+        "name": "情報システム管理事業",
+        "department": "企画政策課",
+        "departmentStart": 57516,
+        "parts": [
+          {
+            "start": 57505,
+            "raw": "情報システム管理事業"
+          }
+        ],
+        "contextStart": 57505,
+        "context": "情報システム管理事業\n【企画政策課】",
+        "contextSha256": "32e5232a1c6bdacbb9a64406548b62fff85a937792a6b816ec6e314157c32daf",
+        "carryover": false
+      },
+      {
+        "index": 194,
+        "name": "人材育成の推進事業",
+        "department": "総務課",
+        "departmentStart": 57700,
+        "parts": [
+          {
+            "start": 57690,
+            "raw": "人材育成の推進事業"
+          }
+        ],
+        "contextStart": 57690,
+        "context": "人材育成の推進事業\n【総務課】",
+        "contextSha256": "2e99518b8f888bd6871327ae522348b3019267fd0529297786e7f20acad4ef38",
+        "carryover": false
+      },
+      {
+        "index": 195,
+        "name": "本庁舎等管理業務",
+        "department": "総務課",
+        "departmentStart": 57853,
+        "parts": [
+          {
+            "start": 57844,
+            "raw": "本庁舎等管理業務"
+          }
+        ],
+        "contextStart": 57844,
+        "context": "本庁舎等管理業務\n【総務課】",
+        "contextSha256": "ab3ec1be414202b643ef0c1d148214e7d2d9cb2a2834dca2c01097d5d6947327",
+        "carryover": false
+      },
+      {
+        "index": 196,
+        "name": "人口減少対策事業",
+        "department": "企画政策課",
+        "departmentStart": 58062,
+        "parts": [
+          {
+            "start": 58053,
+            "raw": "人口減少対策事業"
+          }
+        ],
+        "contextStart": 58053,
+        "context": "人口減少対策事業\n【企画政策課】",
+        "contextSha256": "e8d7b4fad6d8911ac5383d40034ea6045bddfdd044f6edc05c07a2bf94ed2853",
+        "carryover": false
+      },
+      {
+        "index": 197,
+        "name": "一般被保険者療養給付費",
+        "department": "市民課",
+        "departmentStart": 58619,
+        "parts": [
+          {
+            "start": 58606,
+            "raw": "一般被保険者療養給"
+          },
+          {
+            "start": 58616,
+            "raw": "付費"
+          }
+        ],
+        "contextStart": 58606,
+        "context": "一般被保険者療養給\n付費\n【市民課】",
+        "contextSha256": "ac5998d30bf8deb4757a20719783627951771e3c0b6ad90eb2714c6131dcacb4",
+        "carryover": false
+      },
+      {
+        "index": 198,
+        "name": "退職被保険者等療養給付費",
+        "department": "市民課",
+        "departmentStart": 58640,
+        "parts": [
+          {
+            "start": 58626,
+            "raw": "退職被保険者等療養"
+          },
+          {
+            "start": 58636,
+            "raw": "給付費"
+          }
+        ],
+        "contextStart": 58626,
+        "context": "退職被保険者等療養\n給付費\n【市民課】",
+        "contextSha256": "9431f4b07e95ac8af5242d47c1af416ecf7ce2b556ba187c1d6b59a1a9a24f29",
+        "carryover": false
+      },
+      {
+        "index": 199,
+        "name": "特定健康診査等事業",
+        "department": "市民課",
+        "departmentStart": 58657,
+        "parts": [
+          {
+            "start": 58647,
+            "raw": "特定健康診査等事業"
+          }
+        ],
+        "contextStart": 58647,
+        "context": "特定健康診査等事業\n【市民課】",
+        "contextSha256": "21adace16d1ede92afb1c83b9cb302a5e1cdb7589706b4fc5ed711cd086f856b",
+        "carryover": false
+      },
+      {
+        "index": 200,
+        "name": "保健衛生普及事業",
+        "department": "市民課",
+        "departmentStart": 58673,
+        "parts": [
+          {
+            "start": 58664,
+            "raw": "保健衛生普及事業"
+          }
+        ],
+        "contextStart": 58664,
+        "context": "保健衛生普及事業\n【市民課】",
+        "contextSha256": "5cd23826defd629117bca9b96f1d12bd689d41b98292d6bda81e8d52d73923b3",
+        "carryover": false
+      },
+      {
+        "index": 201,
+        "name": "健康づくり事業",
+        "department": "市民課",
+        "departmentStart": 59570,
+        "parts": [
+          {
+            "start": 59562,
+            "raw": "健康づくり事業"
+          }
+        ],
+        "contextStart": 59562,
+        "context": "健康づくり事業\n【市民課】",
+        "contextSha256": "3976026ccc7e296056e8b4e15dbec7883a5f78845bdc221d00c493fa5bd95022",
+        "carryover": false
+      },
+      {
+        "index": 202,
+        "name": "（総合戦略）特定健康診査受診対策事業",
+        "department": "市民課",
+        "departmentStart": 59769,
+        "parts": [
+          {
+            "start": 59745,
+            "raw": "（総合戦略）特定健"
+          },
+          {
+            "start": 59757,
+            "raw": "康診査受診対策事業"
+          }
+        ],
+        "contextStart": 59745,
+        "context": "（総合戦略）特定健\n新\n康診査受診対策事業\n規\n【市民課】",
+        "contextSha256": "776593d9d8fcb8d690575ca6f91da5bbd364d1de99fc5a35b606ca85ba870438",
+        "carryover": false
+      },
+      {
+        "index": 203,
+        "name": "国保保健指導事業",
+        "department": "市民課",
+        "departmentStart": 59971,
+        "parts": [
+          {
+            "start": 59962,
+            "raw": "国保保健指導事業"
+          }
+        ],
+        "contextStart": 59962,
+        "context": "国保保健指導事業\n【市民課】",
+        "contextSha256": "60124207b5945862b24d38930407184cddd8392269d5b736977a2cc3de611d48",
+        "carryover": false
+      },
+      {
+        "index": 204,
+        "name": "介護認定事業",
+        "department": "高齢福祉課",
+        "departmentStart": 60512,
+        "parts": [
+          {
+            "start": 60505,
+            "raw": "介護認定事業"
+          }
+        ],
+        "contextStart": 60505,
+        "context": "介護認定事業\n【高齢福祉課】",
+        "contextSha256": "de44793957fae37c72c69abdffbbc5cd231b280de0ae31133487ebcaf0c4068e",
+        "carryover": false
+      },
+      {
+        "index": 205,
+        "name": "介護サービス等諸費",
+        "department": "高齢福祉課",
+        "departmentStart": 60681,
+        "parts": [
+          {
+            "start": 60671,
+            "raw": "介護サービス等諸費"
+          }
+        ],
+        "contextStart": 60671,
+        "context": "介護サービス等諸費\n【高齢福祉課】",
+        "contextSha256": "6179390661d78ed766c02e1c184453f055090f17ca5d8bcce196e3b90a589b2a",
+        "carryover": false
+      },
+      {
+        "index": 206,
+        "name": "介護予防サービス等諸費",
+        "department": "高齢福祉課",
+        "departmentStart": 60904,
+        "parts": [
+          {
+            "start": 60892,
+            "raw": "介護予防サービス等諸費"
+          }
+        ],
+        "contextStart": 60892,
+        "context": "介護予防サービス等諸費\n【高齢福祉課】",
+        "contextSha256": "abf88c38c144300864c077b8243f994e054cb164969e234a86b5deac6982bfcd",
+        "carryover": false
+      },
+      {
+        "index": 207,
+        "name": "介護サービス利用低所得者対策事業",
+        "department": "高齢福祉課",
+        "departmentStart": 61085,
+        "parts": [
+          {
+            "start": 61067,
+            "raw": "介護サービス利用低所得者"
+          },
+          {
+            "start": 61080,
+            "raw": "対策事業"
+          }
+        ],
+        "contextStart": 61067,
+        "context": "介護サービス利用低所得者\n対策事業\n【高齢福祉課】",
+        "contextSha256": "c9388ce5db14ac62560f8b8a9b24f6c4b87803d670b7134746e688ebd758000a",
+        "carryover": false
+      },
+      {
+        "index": 208,
+        "name": "介護予防事業",
+        "department": "高齢福祉課",
+        "departmentStart": 61334,
+        "parts": [
+          {
+            "start": 61327,
+            "raw": "介護予防事業"
+          }
+        ],
+        "contextStart": 61327,
+        "context": "介護予防事業\n【高齢福祉課】",
+        "contextSha256": "914c3f4a59df245f003f8604b1b313b9a81414e832e4d07c78d85a41445e5491",
+        "carryover": false
+      },
+      {
+        "index": 209,
+        "name": "包括的支援事業・任意事業",
+        "department": "高齢福祉課",
+        "departmentStart": 61556,
+        "parts": [
+          {
+            "start": 61543,
+            "raw": "包括的支援事業・任意事業"
+          }
+        ],
+        "contextStart": 61543,
+        "context": "包括的支援事業・任意事業\n【高齢福祉課】",
+        "contextSha256": "34f0018d6db7991181eaac6c356cd90308e118b21d6d570dc3c04119a3d14207",
+        "carryover": false
+      },
+      {
+        "index": 210,
+        "name": "川東財産区管理事業",
+        "department": "農林課",
+        "departmentStart": 63201,
+        "parts": [
+          {
+            "start": 63191,
+            "raw": "川東財産区管理事業"
+          }
+        ],
+        "contextStart": 63191,
+        "context": "川東財産区管理事業\n【農林課】",
+        "contextSha256": "9e39195f672723daa2c88c8eaa82936bce649c98cde2141b206ac44d901d48c2",
+        "carryover": false
+      },
+      {
+        "index": 211,
+        "name": "後期高齢者人間ドック助成事業",
+        "department": "市民課",
+        "departmentStart": 63693,
+        "parts": [
+          {
+            "start": 63677,
+            "raw": "後期高齢者人間ドック"
+          },
+          {
+            "start": 63688,
+            "raw": "助成事業"
+          }
+        ],
+        "contextStart": 63677,
+        "context": "後期高齢者人間ドック\n助成事業\n【市民課】",
+        "contextSha256": "945da76db40716d2527fc24ac1013bbc43b4c7ba4e4c58a868fa48e8791e2e18",
+        "carryover": false
+      },
+      {
+        "index": 212,
+        "name": "図書貸し出し事業",
+        "department": "図書館",
+        "departmentStart": 18118,
+        "parts": [
+          {
+            "start": 18109,
+            "raw": "図書貸し出し事業"
+          }
+        ],
+        "contextStart": 18109,
+        "context": "図書貸し出し事業\n【図書館】",
+        "contextSha256": "ef93e796615e496c373b415382760d77c95f09af3d6ad93987e52c262429ad4e",
+        "carryover": false
+      },
+      {
+        "index": 213,
+        "name": "読書推進事業",
+        "department": "図書館",
+        "departmentStart": 18524,
+        "parts": [
+          {
+            "start": 18517,
+            "raw": "読書推進事業"
+          }
+        ],
+        "contextStart": 18517,
+        "context": "読書推進事業\n【図書館】",
+        "contextSha256": "f8ba3d88f5210b8ce7dd7dfff0738f21969cb86d18ec03000c3c8a325e3d595b",
+        "carryover": false
+      },
+      {
+        "index": 214,
+        "name": "配水管更新事業",
+        "department": "上下水道局",
+        "departmentStart": 34663,
+        "parts": [
+          {
+            "start": 34655,
+            "raw": "配水管更新事業"
+          }
+        ],
+        "contextStart": 34655,
+        "context": "配水管更新事業\n【上下水道局】",
+        "contextSha256": "e6b21017abfd148234233bad95737c53d1f9c13a5e282664f889e676850bfd33",
+        "carryover": false
+      },
+      {
+        "index": 215,
+        "name": "配水池増設事業",
+        "department": "上下水道局",
+        "departmentStart": 34680,
+        "parts": [
+          {
+            "start": 34672,
+            "raw": "配水池増設事業"
+          }
+        ],
+        "contextStart": 34672,
+        "context": "配水池増設事業\n【上下水道局】",
+        "contextSha256": "3c66de208b9f893d650b37373faf154bc87475fea7593b6b06005c1ab8da928f",
+        "carryover": false
+      },
+      {
+        "index": 216,
+        "name": "水源増設事業",
+        "department": "上下水道局",
+        "departmentStart": 34696,
+        "parts": [
+          {
+            "start": 34689,
+            "raw": "水源増設事業"
+          }
+        ],
+        "contextStart": 34689,
+        "context": "水源増設事業\n【上下水道局】",
+        "contextSha256": "53b3600ca2f0bef9981116749785fb67611cfe3ea6a2db86c5a545ba5e6c45d0",
+        "carryover": false
+      },
+      {
+        "index": 217,
+        "name": "浄水場施設整備・更新事業",
+        "department": "上下水道局",
+        "departmentStart": 35401,
+        "parts": [
+          {
+            "start": 35387,
+            "raw": "浄水場施設整備・更新"
+          },
+          {
+            "start": 35398,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 35387,
+        "context": "浄水場施設整備・更新\n事業\n【上下水道局】",
+        "contextSha256": "7aef4a70fb9af43bc9c3aeedd56fef50227605761a7e12827fc22b4705f72b4b",
+        "carryover": false
+      },
+      {
+        "index": 218,
+        "name": "雨水管渠整備事業",
+        "department": "上下水道局",
+        "departmentStart": 35419,
+        "parts": [
+          {
+            "start": 35410,
+            "raw": "雨水管渠整備事業"
+          }
+        ],
+        "contextStart": 35410,
+        "context": "雨水管渠整備事業\n【上下水道局】",
+        "contextSha256": "8b9cbd3fe2365397f2dc75056aa25dc4ab6d5bc1d57f59926c0ee4b2cda6734b",
+        "carryover": false
+      },
+      {
+        "index": 219,
+        "name": "耐震性防火水槽等整備事業",
+        "department": "消防本部",
+        "departmentStart": 36652,
+        "parts": [
+          {
+            "start": 36638,
+            "raw": "耐震性防火水槽等整備"
+          },
+          {
+            "start": 36649,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 36638,
+        "context": "耐震性防火水槽等整備\n事業\n【消防本部】",
+        "contextSha256": "52555612eabf55c09f17771a3c2ea3b3af592285bd7d32f15cbfb3ded59ef3c1",
+        "carryover": false
+      },
+      {
+        "index": 220,
+        "name": "消火栓整備事業",
+        "department": "消防本部",
+        "departmentStart": 36668,
+        "parts": [
+          {
+            "start": 36660,
+            "raw": "消火栓整備事業"
+          }
+        ],
+        "contextStart": 36660,
+        "context": "消火栓整備事業\n【消防本部】",
+        "contextSha256": "1decbe5af31c70b22ab7c6dd70ce5f4b47cb0e6f5ea3f5917204bebf7916cff5",
+        "carryover": false
+      },
+      {
+        "index": 221,
+        "name": "消防団施設等整備管理事業",
+        "department": "消防本部",
+        "departmentStart": 37034,
+        "parts": [
+          {
+            "start": 37020,
+            "raw": "消防団施設等整備管理"
+          },
+          {
+            "start": 37031,
+            "raw": "事業"
+          }
+        ],
+        "contextStart": 37020,
+        "context": "消防団施設等整備管理\n事業\n【消防本部】",
+        "contextSha256": "e530db74f7ab1e37fd9e40c289badcd47b3cda5048fe7453b1020a8c4c73a06c",
+        "carryover": false
+      },
+      {
+        "index": 222,
+        "name": "小型動力ポンプ整備事業",
+        "department": "消防本部",
+        "departmentStart": 37055,
+        "parts": [
+          {
+            "start": 37042,
+            "raw": "小型動力ポンプ整備事"
+          },
+          {
+            "start": 37053,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 37042,
+        "context": "小型動力ポンプ整備事\n業\n【消防本部】",
+        "contextSha256": "1d463412be3e8d79e81c445b24404e97d2e848b5e382bcf5cb7187b370dfb86d",
+        "carryover": false
+      },
+      {
+        "index": 223,
+        "name": "（総合戦略）救急救助活動業務",
+        "department": "消防本部",
+        "departmentStart": 37079,
+        "parts": [
+          {
+            "start": 37063,
+            "raw": "（総合戦略）救急救助"
+          },
+          {
+            "start": 37074,
+            "raw": "活動業務"
+          }
+        ],
+        "contextStart": 37063,
+        "context": "（総合戦略）救急救助\n活動業務\n【消防本部】",
+        "contextSha256": "df104889459c123163f8fe223f779b6a3ba72d773c6a3ba583dd734f00afa72b",
+        "carryover": false
+      },
+      {
+        "index": 224,
+        "name": "（総合戦略）救急隊員育成事業",
+        "department": "消防本部",
+        "departmentStart": 37107,
+        "parts": [
+          {
+            "start": 37087,
+            "raw": "（総合戦略）救急隊員"
+          },
+          {
+            "start": 37100,
+            "raw": "育成事業"
+          }
+        ],
+        "contextStart": 37087,
+        "context": "（総合戦略）救急隊員\n拡\n育成事業\n充\n【消防本部】",
+        "contextSha256": "5ea995efe4c25f9ec33e04fe395ffa8ed669ecd25a2f65ad8884a9a5355f136f",
+        "carryover": false
+      },
+      {
+        "index": 225,
+        "name": "汚水管渠整備事業",
+        "department": "上下水道局",
+        "departmentStart": 52432,
+        "parts": [
+          {
+            "start": 52423,
+            "raw": "汚水管渠整備事業"
+          }
+        ],
+        "contextStart": 52423,
+        "context": "汚水管渠整備事業\n【上下水道局】",
+        "contextSha256": "99b8188d0278f4995422af2b5534690272b446f3c9baae99d956b25abfa7fb4e",
+        "carryover": false
+      },
+      {
+        "index": 226,
+        "name": "地方公営企業法適用事業",
+        "department": "上下水道局",
+        "departmentStart": 57386,
+        "parts": [
+          {
+            "start": 57373,
+            "raw": "地方公営企業法適用事"
+          },
+          {
+            "start": 57384,
+            "raw": "業"
+          }
+        ],
+        "contextStart": 57373,
+        "context": "地方公営企業法適用事\n業\n【上下水道局】",
+        "contextSha256": "2bc98fd11f76a7a031c6d6dcc32b5cfced05ae3b0aff57657dde17ae8a24e12f",
+        "carryover": false
+      },
+      {
+        "index": 227,
+        "name": "雨水管渠整備事業",
+        "department": "上下水道局",
+        "departmentStart": 62275,
+        "parts": [
+          {
+            "start": 62266,
+            "raw": "雨水管渠整備事業"
+          }
+        ],
+        "contextStart": 62266,
+        "context": "雨水管渠整備事業\n【上下水道局】",
+        "contextSha256": "8b9cbd3fe2365397f2dc75056aa25dc4ab6d5bc1d57f59926c0ee4b2cda6734b",
+        "carryover": false
+      },
+      {
+        "index": 228,
+        "name": "汚水管渠整備事業",
+        "department": "上下水道局",
+        "departmentStart": 62293,
+        "parts": [
+          {
+            "start": 62284,
+            "raw": "汚水管渠整備事業"
+          }
+        ],
+        "contextStart": 62284,
+        "context": "汚水管渠整備事業\n【上下水道局】",
+        "contextSha256": "99b8188d0278f4995422af2b5534690272b446f3c9baae99d956b25abfa7fb4e",
+        "carryover": false
+      }
+    ]
+  }
+];

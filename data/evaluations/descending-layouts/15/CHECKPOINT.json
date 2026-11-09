@@ -1,35 +1,43 @@
 {
-  "candidateRecords": 954,
+  "candidateRecords": 1901,
   "perMunicipality": {
     "関川村": 44,
     "刈羽村": 144,
+    "津南町": 1,
     "湯沢町": 201,
     "阿賀町": 5,
     "南魚沼市": 7,
     "魚沼市": 529,
-    "佐渡市": 24
+    "佐渡市": 24,
+    "五泉市": 211,
+    "十日町市": 54,
+    "小千谷市": 102,
+    "柏崎市": 8,
+    "長岡市": 571
   },
-  "validatedCumulativeCandidates": 31338,
-  "validatedEvidence": 92990,
+  "validatedCumulativeCandidates": 32285,
+  "validatedEvidence": 95695,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "e86694d722baf92fb51d12a3b6a6f03f7dc5e943",
+  "previousHead": "5e8d0f886ac977dc001c4f4c931305db25b5e5e8",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "27/27",
-    "crawler": "947/947",
+    "focused": "43/43",
+    "crawler": "963/963",
     "web": "256/256;serial",
     "typecheck": "passed",
     "lint": "passed;existingfontwarning",
     "national": "passed branch baseline",
     "static": "109/109 subpath",
-    "quotes": "31338 candidates /92990 quotes"
+    "quotes": "32285 candidates /95695 quotes"
   },
   "remoteCI": "unverified;known ActionsAPI403 not retried",
-  "remaining": "Prefecture review remains open: next947 staged separately;Joetsu160 title-only annual-evidence holds;14missing bodies;remaining partial/table scope review."
+  "remaining": "Prefecture review remains open: next146 staged separately;Joetsu160 title-only annual-evidence holds;14missing bodies;remaining partial/table scope review.",
+  "newCandidatesThisTranche": 947,
+  "candidateFiscalYearEnrichments": 201
 }
