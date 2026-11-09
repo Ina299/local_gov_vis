@@ -1,0 +1,30 @@
+{
+  "sourceId": "4d0c8450d13e04616edfbb4a",
+  "reviewedCharacters": 8397,
+  "reviewScope": "Full cached text, asset/source/text hashes verified",
+  "sourceType": "policy review with separately named individual activities, not standalone business evaluation sheets",
+  "stageProposals": 5,
+  "explicitFiscalProof": "平成30年度事業について",
+  "evaluatedFiscalYear": 2018,
+  "evaluationYear": null,
+  "omittedFields": [
+    "2015–2017 financial columns",
+    "2019 targets",
+    "2018 numerical actuals",
+    "internal/external ratings"
+  ],
+  "holds": [
+    {
+      "reason": "Policy headings and general objectives are not project names"
+    },
+    {
+      "reason": "成婚リンク,子育て広場,グリーンレンジャー,買い物弱者 are prior2020unknown-period identities/possible aliases; no unconditional duplicate creation"
+    },
+    {
+      "reason": "Regional aviation programme attribution not solely village; no independent village project emitted"
+    }
+  ],
+  "previousFourCandidates": "unchanged",
+  "validation": "Stage tests only; full integration validation pending",
+  "networkAccess": false
+}
