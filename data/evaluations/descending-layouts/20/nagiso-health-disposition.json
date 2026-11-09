@@ -1,0 +1,68 @@
+{
+  "prior65Preserved": true,
+  "additional24": [
+    "障害者にやさしい住宅改良促進事業",
+    "心身障害児（者）タイムケア事業",
+    "難病患者ヘルパー事業",
+    "難病患者短期入所事業",
+    "難病患者日常生活用具給付事業",
+    "障害者タクシー・リフトバス乗車券助成",
+    "障害児入所・通所給付 事業",
+    "ボランティア送迎 事業",
+    "地域ケア会議推進事業",
+    "任意予防接種助成",
+    "思春期託児体験事業",
+    "不妊治療費助成",
+    "遠方出産に係る交通費等助成",
+    "新生児聴覚検査助成",
+    "アピアランスケア助成",
+    "セーフティーネット制度資金利子補給事業",
+    "木材産業体験事業",
+    "農振農用地一般管理事業",
+    "町有牛導入事業",
+    "水田農業共同利用施設整 備事業補助金",
+    "出産祝い金",
+    "出産・子育て応援ギフト（給付金）",
+    "未熟児養育医療費",
+    "三歳児親子歯科健診"
+  ],
+  "source": {
+    "municipalityCode": "20423",
+    "municipalityName": "南木曽町",
+    "sourceId": "2a732aac0ca82c9f821a41c1",
+    "title": "令和6年度主要事業成果報告書 (pdf, 17.42MB)",
+    "url": "https://www.town.nagiso.nagano.jp/cmsfiles/contents/0000000/272/seikahoukoku.pdf",
+    "sourceSha256": "ff4d10f6d75fb89f214317541f0f738227e2100962810cf3e97018badc792c49",
+    "listedContinuations": [
+      {
+        "assetBytes": 288685,
+        "assetPath": "documents/2a732aac0ca82c9f821a41c1-2.json",
+        "assetSha256": "b04dc732bd7d5eeca7b832987492ea9170f8aa09767c6be42e22105177bee12a",
+        "exportedCharacters": 120000,
+        "part": 2,
+        "startCharacter": 120000,
+        "textSha256": "893d9a4c311d49659a523afa0b7046ea204fcd21fd6263a17442701b2f992f84"
+      },
+      {
+        "assetBytes": 125514,
+        "assetPath": "documents/2a732aac0ca82c9f821a41c1-3.json",
+        "assetSha256": "e65c8f3b3cc72725da9d3d63c8ddb7e5e9b46abde52d10ef7f7f8e77f315fe2e",
+        "exportedCharacters": 57525,
+        "part": 3,
+        "startCharacter": 240000,
+        "textSha256": "809e26197552ec9432764b23f7c9e5ae0113b689d2775ac00351abd2dba02ff2"
+      }
+    ],
+    "inventoryStatus": "complete_hash_verified",
+    "characters": 297525,
+    "fullTextSha256": "f8943ce8916f5ec96e719552817d5ed50479a40836c40c5ff852cc1eff067efb"
+  },
+  "holds": [
+    "高齢者在宅介護支援事業は既存の緊急通報体制等整備事業を含む見出しなので別追加しない",
+    "身体知的障害者福祉事業・難病患者等福祉事業は今回の個別子事業と二重計上しない",
+    "認知症総合支援事業は既存の認知症見守りとの範囲照合を継続",
+    "英国市場販路形成と新生児祝い品は名古屋市主導・長久手市との交流事業にあたり、単独の南木曽事業との帰属確認を保留",
+    "森林の里親・忠犬など既存の林業/鳥獣事業の下位項目を別候補にしない"
+  ],
+  "remaining": "Other named sections and table/carryover identities still under review; no whole-book completion claim"
+}

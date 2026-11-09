@@ -1,0 +1,29 @@
+{
+  "sourceId": "ff1fe2728a87bb13cd072af6",
+  "characters": 2451,
+  "cachedTextSha256": "c0f8184c6bc1ce74f4d17012c9984bc750f0699b9063b64666c427743c9b0925",
+  "reviewedWholeCachedText": true,
+  "status": "mixed_annual_cohort_and_execution_identity_hold",
+  "quotes": [
+    {
+      "rawText": "分2,520千円【R5年度】",
+      "startCharacter": 218
+    },
+    {
+      "rawText": "【R6年度・R6年度繰越】",
+      "startCharacter": 1737
+    },
+    {
+      "rawText": "千円のうち給付金1,750千円【R7年\n度】",
+      "startCharacter": 1892
+    },
+    {
+      "rawText": "令和７年１月～６",
+      "startCharacter": 2356
+    }
+  ],
+  "reason": "2024年度表内に2023年度給付残額・2024年度繰越・2025年度不足額給付を掲載。事業番号6はNo.2事務費の再掲で別事業にしない。複合名と混在期間の重複照合を完了するまで年度別レコード追加なし。",
+  "nextEvidence": "各給付の既存候補との同一性と対象期間を示す対応表。金額欄の座標がなくても名前だけ追加できる場合は引き続き検討し、金額は割り当てない。",
+  "newRecords": 0,
+  "notAnAccessDenial": true
+}

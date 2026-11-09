@@ -1,3 +1,4 @@
+import{reviewAsahiKpi}from'./descending-nagano-asahi-kpi';
 import{reviewUeda}from'./descending-nagano-ueda';
 import{reviewOkayaProgress}from'./descending-nagano-okaya-progress';
 import{reviewTatsunoExtra}from'./descending-nagano-tatsuno-extra';
@@ -121,6 +122,7 @@ export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]
  const tatsunoextraReview=reviewTatsunoExtra(input);if(tatsunoextraReview)return tatsunoextraReview;
  const okayaprogressReview=reviewOkayaProgress(input);if(okayaprogressReview)return okayaprogressReview;
  const uedaReview=reviewUeda(input);if(uedaReview)return uedaReview;
+ const asahiKpiReview=reviewAsahiKpi(input,inputs);if(asahiKpiReview)return asahiKpiReview;
  const grantsReview=reviewNaganoGrants(input);if(grantsReview)return grantsReview;
  const strategyReview=reviewStrategy(input);if(strategyReview)return strategyReview;
  const nagisoReview=reviewNagiso(input);if(nagisoReview)return nagisoReview;

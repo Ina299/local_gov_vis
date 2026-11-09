@@ -1,16 +1,16 @@
 {
-  "candidateRecords": 1419,
+  "candidateRecords": 1446,
   "perMunicipality": {
     "信濃町": 2,
     "高山村": 9,
     "坂城町": 48,
     "松川村": 287,
     "筑北村": 3,
-    "朝日村": 2,
+    "朝日村": 3,
     "山形村": 89,
     "王滝村": 11,
     "木祖村": 9,
-    "南木曽町": 119,
+    "南木曽町": 145,
     "大鹿村": 106,
     "豊丘村": 88,
     "泰阜村": 4,
@@ -28,27 +28,27 @@
     "岡谷市": 344,
     "上田市": 12
   },
-  "validatedCumulativeCandidates": 29613,
-  "validatedEvidence": 86090,
+  "validatedCumulativeCandidates": 29640,
+  "validatedEvidence": 86172,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "b9f1112275f4d6d3e0a79900435ab63b17e74179",
+  "previousHead": "f3623e6c6af17db25817019c77c5c6174ec67908",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "98/98",
-    "crawler": "852/852",
+    "focused": "101/101",
+    "crawler": "855/855",
     "web": "256/256; serial",
     "typecheck": "passed",
     "lint": "passed; existing font warning",
     "national": "passed branch baseline",
     "static": "109/109 subpath",
-    "quotes": "29613 candidates /86090 quotes"
+    "quotes": "29640 candidates /86172 quotes"
   },
   "remoteCI": "unverified; known ActionsAPI403 not retried",
-  "remaining": "Cached Nagano review continues. Source-ledger processed/duplicate is partial coverage, not whole-book completeness. Additional27 stage candidates await integration/fullchecks.27missing bodies and1incomplete source remain without refetch."
+  "remaining": "Cached Nagano review continues. Source-ledger processed/duplicate is partial coverage, not whole-book completeness. Additional25 stage candidates await integration/fullchecks.27missing bodies and1incomplete source remain without refetch."
 }

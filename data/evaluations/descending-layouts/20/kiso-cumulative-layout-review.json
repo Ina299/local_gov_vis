@@ -1,0 +1,25 @@
+{
+  "sourceId": "f3453d6ef42bc5c0bb6bb43f",
+  "cachedTextSha256": "aa726289308b93bc76ea59aa26896c94d02895dbf4461209942c40a7ec69fd43",
+  "characters": 5624,
+  "reviewedWholeCachedText": true,
+  "status": "period_and_parent_identity_hold",
+  "evidence": [
+    {
+      "quote": "R3年度（まで）の具体的な取り組み内容",
+      "startCharacter": 387
+    },
+    {
+      "quote": "目標数値\nR06",
+      "startCharacter": 377
+    },
+    {
+      "quote": "令和２年度 ９軒\n令和３年度 ８軒",
+      "startCharacter": 4692
+    }
+  ],
+  "reason": "R3年度までの累積取組とR4/R5/R6の計画を混載。主な施策と下位事業内容が段組で並び、単一事業の年度対象範囲・重複関係をこの表だけで確定できない。既存9件を保持し、この原典から追加しない。",
+  "nextEvidence": "個別活動の実施年度・評価実施年を明記した保存済み根拠と既存候補との対応。未保存原典は取得しない。",
+  "notAnAccessDenial": true,
+  "newRecords": 0
+}
