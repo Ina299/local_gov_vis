@@ -1,23 +1,28 @@
 {
-  "candidateRecords": 104,
+  "candidateRecords": 807,
   "perMunicipality": {
     "豊根村": 5,
-    "新城市": 99
+    "新城市": 484,
+    "一宮市": 141,
+    "豊橋市": 13,
+    "常滑市": 30,
+    "西尾市": 95,
+    "小牧市": 39
   },
-  "validatedCumulativeCandidates": 24623,
-  "validatedEvidence": 67705,
+  "validatedCumulativeCandidates": 25326,
+  "validatedEvidence": 69425,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "c0cabe4838135d43a8a0d062cd2db7195010b839",
+  "previousHead": "1f7bd7a2d3fb3fb311732088dd751a7ad5e25406",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "6/6",
-    "crawler": "699/699",
+    "focused": "10/10",
+    "crawler": "703/703",
     "web": "256/256",
     "typecheck": "passed",
     "lint": "passed; existing font warning",
@@ -25,5 +30,6 @@
     "static": "109/109 subpath"
   },
   "remoteCI": "unverified; known API403 not retried",
-  "remaining": "Aichi phase ongoing: separate stage807 includes104, remaining703 not full-suite validated or pushed;165 original bodies absent; no fetching. Current archive includes master-adopted and excluded candidates; not a count of all-new production records."
+  "remaining": "Aichi inventory266: reviewed named sources14, missing bodies165, navigation/method75, insufficient individual-result evidence12. Source-specific identity/year holds retained. Static cached-phase disposition only, not nationwide acquisition completion. Archive includes master-adopted/excluded records; not all new production data.",
+  "additionalCandidates": 703
 }
