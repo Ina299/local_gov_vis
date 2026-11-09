@@ -1,0 +1,4983 @@
+{
+  "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "sources": [
+    {
+      "sourceId": "bedfce21ecb4317408da1eee",
+      "sheetBoundaries": 210,
+      "proposals": 0,
+      "units": [
+        {
+          "start": 10873,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 11586,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 12661,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 13263,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 13984,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 14873,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 15605,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 16158,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 16742,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 18122,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 18936,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 19912,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 20729,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 21498,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 23990,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 25428,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 26158,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 28960,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 29798,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 30796,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 31326,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 31982,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 32768,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 34191,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 34972,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 35655,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 36301,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 37632,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 39006,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 39880,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 40423,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 41115,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 45476,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 46260,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 47337,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 48180,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 48809,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 49639,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 50270,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 51013,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 51633,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 52590,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 53667,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 54265,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 55165,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 55803,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 56890,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 57624,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 58218,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 59259,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 60250,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 61958,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 63236,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 64488,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 65240,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 66063,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 67075,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 67979,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 68738,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 69342,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 69879,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 70453,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 71018,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 71901,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 72805,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 73782,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 80009,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 81167,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 81926,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 83263,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 84639,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 85440,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 86259,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 86790,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 87556,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 89346,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 90007,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 91091,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 91811,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 92566,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 93312,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 94008,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 94706,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 95486,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 96032,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 96946,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 97804,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 98402,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 99195,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 100098,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 100875,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 101605,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 102344,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 103287,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 104066,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 104731,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 106716,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 107407,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 108211,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 109162,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 109758,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 110313,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 110778,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 111299,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 111810,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 112301,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 112847,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 113456,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 117049,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 117722,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 118235,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 119025,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 119841,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 121208,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 121877,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 122672,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 123656,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 124592,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 125447,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 126211,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 127175,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 127883,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 128450,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 129132,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 129782,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 130453,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 131585,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 132417,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 133129,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 134108,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 134846,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 135464,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 136038,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 139770,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 140429,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 141254,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 142138,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 142816,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 144840,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 146472,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 147089,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 148022,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 148943,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 149969,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 152319,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 153188,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 154222,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 155014,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 156035,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 156553,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 157015,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 157511,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 157999,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 162602,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 163514,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 165297,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 165963,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 166954,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 167911,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 168447,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 169456,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 170059,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 171000,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 171617,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 172193,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 172849,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 173849,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 175149,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 176786,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 178084,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 179694,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 180984,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 181515,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 183117,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 184162,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 184951,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 185832,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 187145,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 188424,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 189128,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 189683,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 190515,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 192103,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 193301,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 194144,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 194992,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 196226,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 199811,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 200776,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 201331,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 202273,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 202969,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 203514,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 204073,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 204675,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 205285,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 205872,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 206462,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 207073,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 207685,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 208303,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 208840,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 209439,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 210275,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 210992,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 211911,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 212879,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 213538,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 213976,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 214498,
+          "status": "header_or_year_hold"
+        }
+      ],
+      "acceptedProposals": 0
+    },
+    {
+      "sourceId": "a544f56b778257a6b1462b6e",
+      "sheetBoundaries": 208,
+      "proposals": 0,
+      "units": [
+        {
+          "start": 10775,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 11519,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 12650,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 13243,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 14283,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 14944,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 15497,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 16047,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 17518,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 18228,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 19029,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 19876,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 20655,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 23092,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 24401,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 25132,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 27800,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 28545,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 29537,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 30174,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 30855,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 31687,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 32969,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 33867,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 34552,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 35699,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 37203,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 38051,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 38581,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 39274,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 43724,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 44393,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 45096,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 46108,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 46816,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 47722,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 48304,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 49014,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 49669,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 50665,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 51819,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 52427,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 53515,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 54143,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 55138,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 55913,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 56475,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 57630,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 58655,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 60357,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 61787,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 63170,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 63954,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 64830,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 65808,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 66636,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 67387,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 68083,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 68645,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 69215,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 70361,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 71974,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 73083,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 74280,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 80406,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 81411,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 82308,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 83706,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 85090,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 85859,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 86489,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 87035,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 87790,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 89816,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 90505,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 91236,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 91978,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 92724,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 93447,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 94128,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 95010,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 95595,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 96522,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 97383,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 97943,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 98788,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 99692,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 100553,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 101338,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 102148,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 103096,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 103843,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 104482,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 106884,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 107554,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 108600,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 109104,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 109798,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 110413,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 110942,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 111465,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 111968,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 112519,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 113129,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 116823,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 117494,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 118032,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 118863,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 119736,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 121027,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 121735,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 122520,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 123319,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 124244,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 125122,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 125921,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 126901,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 127763,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 128337,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 129093,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 129694,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 130362,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 131559,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 132367,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 133097,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 134054,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 134763,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 135485,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 136051,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 136512,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 136976,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 140652,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 141269,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 142591,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 143354,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 143911,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 146047,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 147666,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 148258,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 149284,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 150572,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 152058,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 154676,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 155700,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 156952,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 157714,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 158959,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 159648,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 160163,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 160647,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 161186,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 165710,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 166519,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 168462,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 169350,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 170128,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 171320,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 171856,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 172799,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 173386,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 174074,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 174658,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 175289,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 175937,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 176878,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 178255,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 179859,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 181243,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 182875,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 184271,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 184913,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 186620,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 187778,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 188501,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 189462,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 190811,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 192181,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 193006,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 193607,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 194445,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 196076,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 197116,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 197919,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 198834,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 200108,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 203578,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 204534,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 205530,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 206612,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 207410,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 208025,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 208602,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 209162,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 209849,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 210406,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 210985,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 211531,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 212157,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 212734,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 213273,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 213829,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 214608,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 215388,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 216252,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 217215,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 217894,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 218320,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 218850,
+          "status": "header_or_year_hold"
+        }
+      ],
+      "acceptedProposals": 0
+    },
+    {
+      "sourceId": "2b3a5ca5ebd4032f0d2a4650",
+      "sheetBoundaries": 210,
+      "proposals": 18,
+      "units": [
+        {
+          "start": 10822,
+          "code": "1110",
+          "name": "一般管理事務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-e9fca8745442a87d9301a32a"
+          ]
+        },
+        {
+          "start": 11562,
+          "code": "1111",
+          "name": "一般管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-6989fb887c2e295c4f385f17"
+          ]
+        },
+        {
+          "start": 12712,
+          "code": "1121",
+          "name": "文書費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-ae41250d671b65f54dce1634"
+          ]
+        },
+        {
+          "start": 13336,
+          "code": "1122",
+          "name": "広報広聴費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-82631385e8c5a87db061f220"
+          ]
+        },
+        {
+          "start": 14307,
+          "code": "1152",
+          "name": "役場庁舎管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-4748c27e0719562b2a6c7e0d"
+          ]
+        },
+        {
+          "start": 14964,
+          "code": "1153",
+          "name": "車両管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-42944b2425a00df71d5e1998"
+          ]
+        },
+        {
+          "start": 15488,
+          "code": "1156",
+          "name": "西庁舎管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-51fe915c92c9ec872b38482d"
+          ]
+        },
+        {
+          "start": 16019,
+          "code": "1167",
+          "name": "情報機器管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-006069ce7eef84c96ad2c0e5"
+          ]
+        },
+        {
+          "start": 17644,
+          "code": "1193",
+          "name": "循環バス運行事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-2c7ca8f175db8a46b1708ac9"
+          ]
+        },
+        {
+          "start": 18402,
+          "code": "1194",
+          "name": "飯島駅管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-be7784ea5b97071c7e9b73a5"
+          ]
+        },
+        {
+          "start": 19100,
+          "code": "1801",
+          "name": "交通安全対策費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-a7f5e1500b5f367d8b83a195"
+          ]
+        },
+        {
+          "start": 20062,
+          "code": "1831",
+          "name": "防犯対策費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-113b884355d5b71a04054ea4"
+          ]
+        },
+        {
+          "start": 20916,
+          "code": "1861",
+          "name": "防災対策費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-fd4f07b96d6c007aedf2e7d0"
+          ]
+        },
+        {
+          "start": 24385,
+          "code": "4921",
+          "name": "非常備消防費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-f7cd554b6026e5473e8b6541"
+          ]
+        },
+        {
+          "start": 26290,
+          "code": "4931",
+          "name": "消防施設費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-74e50dc64165001116950409"
+          ]
+        },
+        {
+          "start": 27058,
+          "code": "4941",
+          "name": "水防費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-15c25f93662f58a4a84b1360"
+          ]
+        },
+        {
+          "start": 29639,
+          "code": "1211",
+          "name": "税務総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-8afc5aabe0cd08acfc1accc1"
+          ]
+        },
+        {
+          "start": 30344,
+          "code": "1212",
+          "name": "税務基礎資料整備事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-1d8e02a108f72e2655092443"
+          ]
+        },
+        {
+          "start": 31326,
+          "code": "1221",
+          "name": "賦課徴収費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-83dd5f14d8c7522418603019"
+          ]
+        },
+        {
+          "start": 32149,
+          "code": "1311",
+          "name": "戸籍住民基本台帳費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-bf2f72fa291eb3c88a99884a"
+          ]
+        },
+        {
+          "start": 33621,
+          "code": "2871",
+          "name": "環境衛生費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-d525e833f7f1d7b3e1ee70d6"
+          ]
+        },
+        {
+          "start": 34710,
+          "code": "2872",
+          "name": "新エネルギー普及対策事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-3ef921d3b7c6706cd96813cc"
+          ]
+        },
+        {
+          "start": 36070,
+          "code": "2921",
+          "name": "塵芥処理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-198fe1c2466b31339ef1aeb3"
+          ]
+        },
+        {
+          "start": 36863,
+          "code": "2931",
+          "name": "し尿処理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-ada0bf12947164d22a7ddb31"
+          ]
+        },
+        {
+          "start": 37392,
+          "code": "4132",
+          "name": "消費者行政活性化事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-03c681b6aeaa2624cb416f77"
+          ]
+        },
+        {
+          "start": 38099,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 42348,
+          "code": "2101",
+          "name": "社会福祉総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-9afe4fcde603ddd209bec26f"
+          ]
+        },
+        {
+          "start": 43018,
+          "code": "2103",
+          "name": "地域福祉総合事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-1f6b18e740a60e2a486b9d00"
+          ]
+        },
+        {
+          "start": 43812,
+          "code": "2104",
+          "name": "生活困窮者自立相談支援事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-243589febf104184e617fb99"
+          ]
+        },
+        {
+          "start": 44712,
+          "code": "2105",
+          "name": "重層的支援体制整備移行準備事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-730a4def3734aff06d0ed866"
+          ]
+        },
+        {
+          "start": 45492,
+          "code": "2112",
+          "name": "住民税非課税世帯等に対する臨時特別給付金",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-96f467b04d9a4eb3e5c8188d"
+          ]
+        },
+        {
+          "start": 46080,
+          "code": "2113",
+          "name": "長野県生活困窮世帯緊急支援事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-40e98ff09b4fc2d3e8f4ca87"
+          ]
+        },
+        {
+          "start": 46632,
+          "code": "2114",
+          "name": "電力・ガス・食料品等価格高騰緊急支援事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-75a31ec81cb560c51af424cd"
+          ]
+        },
+        {
+          "start": 47238,
+          "code": "2201",
+          "name": "地域福祉センター管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-ba8e077a9f496957a377e1f6"
+          ]
+        },
+        {
+          "start": 47926,
+          "code": "2251",
+          "name": "障がい者福祉総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-4bd92f5d4f6614aba3db8b09"
+          ]
+        },
+        {
+          "start": 48589,
+          "code": "2252",
+          "name": "在宅障がい者福祉事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-c5fd3073a5d917ab8a1508da"
+          ]
+        },
+        {
+          "start": 49756,
+          "code": "2255",
+          "name": "障がい者自立支援事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-54bbb6ff711c9081bb799cb3"
+          ]
+        },
+        {
+          "start": 51138,
+          "code": "2301",
+          "name": "老人福祉総務費",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 51756,
+          "code": "2303",
+          "name": "在宅老人福祉事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-f569307908327bf189250d55"
+          ]
+        },
+        {
+          "start": 52819,
+          "code": "2308",
+          "name": "介護予防拠点施設管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-9eb6fe654f5a738a602bd13c"
+          ]
+        },
+        {
+          "start": 53458,
+          "code": "2401",
+          "name": "福祉医療費給付事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-28228efff3d5735a75ef7d40"
+          ]
+        },
+        {
+          "start": 54363,
+          "code": "2613",
+          "name": "障がい児通所等支援事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-478c2407ef89df9e09ccf12b"
+          ]
+        },
+        {
+          "start": 55203,
+          "code": "2631",
+          "name": "ひとり親等福祉費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-3040abdff0c606b028635f28"
+          ]
+        },
+        {
+          "start": 55903,
+          "code": "2811",
+          "name": "保健衛生総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-2d834936002bb74254785d11"
+          ]
+        },
+        {
+          "start": 57064,
+          "code": "2821",
+          "name": "感染症予防事業",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 58122,
+          "code": "2823",
+          "name": "新型コロナウイルスワクチン接種事業",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 58794,
+          "code": "2841",
+          "name": "母子保健事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-b986432033903818e3667f6e"
+          ]
+        },
+        {
+          "start": 60620,
+          "code": "2852",
+          "name": "健康づくり運動事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-fd493f261152df8336ca6930"
+          ]
+        },
+        {
+          "start": 61990,
+          "code": "2853",
+          "name": "健康増進事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-0d1350bb9a1152ef065bbdd7"
+          ]
+        },
+        {
+          "start": 63296,
+          "code": "2891",
+          "name": "診療所費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-1870ce748ba0bae4f5ff940e"
+          ]
+        },
+        {
+          "start": 64203,
+          "code": "6050",
+          "name": "（国民健康保険特別会計）保健衛生普及事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-f553c03d13433c62d3bc8faa"
+          ]
+        },
+        {
+          "start": 65082,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 66060,
+          "code": "6052",
+          "name": "（国民健康保険特別会計）特定健康診査等事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-71d276be916db12088b2e932"
+          ]
+        },
+        {
+          "start": 66870,
+          "code": "6053",
+          "name": "（国民健康保険特別会計）健康づくり推進事業",
+          "status": "prior_year_or_no_current_activity_hold",
+          "reason": "Current period activity not demonstrated; do not turn prior-year reprint into current-year project."
+        },
+        {
+          "start": 67572,
+          "code": "6405",
+          "name": "（後期高齢者医療特別会計）保健事業費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-9034c0f192acfcc6d1112d2a"
+          ]
+        },
+        {
+          "start": 68337,
+          "code": "7701",
+          "name": "（介護保険特別会計）一般管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-80208db48854fab8df0c46ad"
+          ]
+        },
+        {
+          "start": 68995,
+          "code": "7711",
+          "name": "（介護保険特別会計）賦課徴収費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-3f5cbdb5b5283eaf25685cab"
+          ]
+        },
+        {
+          "start": 69551,
+          "code": "7716",
+          "name": "（介護保険特別会計）認定調査費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-6ee4bfbb0315106c4dd28ed0"
+          ]
+        },
+        {
+          "start": 70126,
+          "code": "7763",
+          "name": "（介護保険特別会計）地域包括支援センター運営事業",
+          "status": "summary_name_mismatch"
+        },
+        {
+          "start": 70916,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 72473,
+          "code": "7765",
+          "name": "（介護保険特別会計）任意事業費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-62b087f6a5bc90943dbebc6a"
+          ]
+        },
+        {
+          "start": 73557,
+          "code": "7767",
+          "name": "（介護保険特別会計）一般介護予防事業費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-6740423f536fb1f6c28f1ff7"
+          ]
+        },
+        {
+          "start": 74811,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 80732,
+          "code": "3111",
+          "name": "農業委員会費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-b790fa0070402bada82c85e1"
+          ]
+        },
+        {
+          "start": 81758,
+          "code": "3211",
+          "name": "経営所得安定対策事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-7ac4867d9eb858e3f6ec7880"
+          ]
+        },
+        {
+          "start": 82439,
+          "code": "3212",
+          "name": "機構集積協力金交付事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-d36476b9ead904d556bf5bb9"
+          ]
+        },
+        {
+          "start": 83759,
+          "code": "3213",
+          "name": "新規就農・経営継承総合支援事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-e63556c9d60bfcb52acd71f2"
+          ]
+        },
+        {
+          "start": 84794,
+          "code": "3221",
+          "name": "環境保全型農業直接支援対策事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-f09464c721e9fb562883e449"
+          ]
+        },
+        {
+          "start": 85533,
+          "code": "3225",
+          "name": "集落営農支援事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-8223d47be43dd52293ab3860"
+          ]
+        },
+        {
+          "start": 86192,
+          "code": "3232",
+          "name": "都市・農村交流事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-aa8e6a82d1c0e65cb4215cf0"
+          ]
+        },
+        {
+          "start": 86833,
+          "code": "3290",
+          "name": "農作物災害等対策事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-57f6e0833197c6d8bca0f040"
+          ]
+        },
+        {
+          "start": 87581,
+          "code": "3300",
+          "name": "農業振興総合対策事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-dd296b08b9cc1a31646b7d15"
+          ]
+        },
+        {
+          "start": 89308,
+          "code": "3301",
+          "name": "中山間地域等直接支払事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-b4cbfd5bc3e1bf7adf36b996"
+          ]
+        },
+        {
+          "start": 90005,
+          "code": "3404",
+          "name": "農地整備事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-05378fde240fb0ab6544dc8b"
+          ]
+        },
+        {
+          "start": 90772,
+          "code": "3413",
+          "name": "多面的機能支払",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-fecec7dc1ea710847c3754d3"
+          ]
+        },
+        {
+          "start": 91561,
+          "code": "3415",
+          "name": "農村地域防災減災事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-73d6fb8b0bc5cf4baa07c083"
+          ]
+        },
+        {
+          "start": 92310,
+          "code": "3424",
+          "name": "農地耕作条件改善事業",
+          "status": "prior_year_or_no_current_activity_hold",
+          "reason": "Current period activity not demonstrated; do not turn prior-year reprint into current-year project."
+        },
+        {
+          "start": 92910,
+          "code": "3425",
+          "name": "農業水路等長寿命化・防災減災事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-0801d8370521bc25694a6017"
+          ]
+        },
+        {
+          "start": 93624,
+          "code": "3431",
+          "name": "ほ場整備事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-4523d81aa11df470fa8a3fff"
+          ]
+        },
+        {
+          "start": 94581,
+          "code": "3741",
+          "name": "道の駅本郷建物管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-322f1b74061f56a3c6eeee19"
+          ]
+        },
+        {
+          "start": 95176,
+          "code": "3742",
+          "name": "道の駅花の里いいじま管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-bd6ec1a334800d005a49811e"
+          ]
+        },
+        {
+          "start": 95872,
+          "code": "3743",
+          "name": "道の駅田切の里管理費",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 96560,
+          "code": "3801",
+          "name": "林業総務費",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 97211,
+          "code": "3851",
+          "name": "緑化推進事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-7876635b572b7d7b46747b81"
+          ]
+        },
+        {
+          "start": 98003,
+          "code": "3855",
+          "name": "林業振興事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-821762f6b9d7ad7c0ac05fc3"
+          ]
+        },
+        {
+          "start": 98871,
+          "code": "3856",
+          "name": "松くい虫防除事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-342aae768876b0c67454b590"
+          ]
+        },
+        {
+          "start": 99700,
+          "code": "3859",
+          "name": "緑化推進事業",
+          "status": "summary_name_mismatch"
+        },
+        {
+          "start": 100478,
+          "code": "3863",
+          "name": "町有林整備事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-40d300d9e4e5ca27d89f394f"
+          ]
+        },
+        {
+          "start": 101211,
+          "code": "3865",
+          "name": "森林環境譲与税活用事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-6d5c9601debb66aa55f3243d"
+          ]
+        },
+        {
+          "start": 102191,
+          "code": "3903",
+          "name": "林道整備事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-13733e1db92a8f5db0de9965"
+          ]
+        },
+        {
+          "start": 102925,
+          "code": "4111",
+          "name": "商工総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-94adbee21e6280285b2e840f"
+          ]
+        },
+        {
+          "start": 103596,
+          "code": "4121",
+          "name": "商工業振興費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-ec0ecce8283b7b01c273c61e"
+          ]
+        },
+        {
+          "start": 105989,
+          "code": "4123",
+          "name": "伝統技術等承継支援事業",
+          "status": "prior_year_or_no_current_activity_hold",
+          "reason": "Current period activity not demonstrated; do not turn prior-year reprint into current-year project."
+        },
+        {
+          "start": 106662,
+          "code": "4124",
+          "name": "くらし復興券１億円事業",
+          "status": "prior_year_or_no_current_activity_hold",
+          "reason": "Current period activity not demonstrated; do not turn prior-year reprint into current-year project."
+        },
+        {
+          "start": 107234,
+          "code": "4125",
+          "name": "事業承継支援事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-7fbc3c8adb035c885a343338"
+          ]
+        },
+        {
+          "start": 107984,
+          "code": "4162",
+          "name": "企業誘致費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-b2fc02f00ed72cdb10988d23"
+          ]
+        },
+        {
+          "start": 109045,
+          "code": "5811",
+          "name": "農業施設災害復旧事業（補助）",
+          "status": "prior_year_or_no_current_activity_hold",
+          "reason": "Current period activity not demonstrated; do not turn prior-year reprint into current-year project."
+        },
+        {
+          "start": 109531,
+          "code": "5812",
+          "name": "農業施設災害復旧事業（単独）",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-11c5c4bbdef69ecf62353e09"
+          ]
+        },
+        {
+          "start": 110154,
+          "code": "5821",
+          "name": "林業施設災害復旧事業（補助）",
+          "status": "prior_year_or_no_current_activity_hold",
+          "reason": "Current period activity not demonstrated; do not turn prior-year reprint into current-year project."
+        },
+        {
+          "start": 110612,
+          "code": "5822",
+          "name": "林業施設災害復旧事業（単独）",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-ff57a88dc853955dedb7230c"
+          ]
+        },
+        {
+          "start": 111149,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 111754,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 112462,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 113083,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 113605,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 114140,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 114687,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 115272,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 115881,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 119439,
+          "code": "1175",
+          "name": "子育て世帯０－３歳上下水道関連応援事業",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 120059,
+          "code": "2861",
+          "name": "上水道整備事業",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 120585,
+          "code": "2941",
+          "name": "合併処理浄化槽設置整備事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-807b75773fe2f0e43991554f"
+          ]
+        },
+        {
+          "start": 121432,
+          "code": "2942",
+          "name": "合併処理浄化槽管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-de70a56124843c5c1c1f1ff2"
+          ]
+        },
+        {
+          "start": 122258,
+          "code": "4201",
+          "name": "土木総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-bbe06d9bdd62550be5e7b053"
+          ]
+        },
+        {
+          "start": 123594,
+          "code": "4207",
+          "name": "地籍調査事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-c64c0419c6d52ff2d2be68f8"
+          ]
+        },
+        {
+          "start": 124446,
+          "code": "4221",
+          "name": "道路維持費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-3b4fe8641e12d4b06d638f97"
+          ]
+        },
+        {
+          "start": 125322,
+          "code": "4231",
+          "name": "町道整備事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-faae1f9110b19d273a48d259"
+          ]
+        },
+        {
+          "start": 126140,
+          "code": "4235",
+          "name": "社会資本整備総合交付金事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-d99a9ca1d64b7fdc60dbc053"
+          ]
+        },
+        {
+          "start": 127062,
+          "code": "4238",
+          "name": "県営農道整備事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-5f9efddeeb2143b176fb7e1b"
+          ]
+        },
+        {
+          "start": 127968,
+          "code": "4240",
+          "name": "踏切道改良計画事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-1c3249ca1ef97f359cdb9732"
+          ]
+        },
+        {
+          "start": 128755,
+          "code": "4252",
+          "name": "道路メンテナンス事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-394f3bcb901fd8ddd1fe366c"
+          ]
+        },
+        {
+          "start": 129705,
+          "code": "4261",
+          "name": "国県関連事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-955be0deb5db226ada380404"
+          ]
+        },
+        {
+          "start": 130565,
+          "code": "4263",
+          "name": "道の駅本郷管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-20b47c201d0832ac09e8aaee"
+          ]
+        },
+        {
+          "start": 131163,
+          "code": "4264",
+          "name": "国道１５３号伊那バレー・リニア北バイパス改良促進費",
+          "status": "summary_name_mismatch"
+        },
+        {
+          "start": 132019,
+          "code": "4311",
+          "name": "河川総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-326c4460e7172b1a74b3a05c"
+          ]
+        },
+        {
+          "start": 132638,
+          "code": "4322",
+          "name": "河川整備事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-9537834d350fdd0c9b16b70d"
+          ]
+        },
+        {
+          "start": 133290,
+          "code": "4411",
+          "name": "都市計画総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-326723d4b3ce1407e9ac7ba5"
+          ]
+        },
+        {
+          "start": 134499,
+          "code": "4511",
+          "name": "町営住宅管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-6c80321aa7aaa54de82ea4cf"
+          ]
+        },
+        {
+          "start": 135324,
+          "code": "4512",
+          "name": "町営住宅整備事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-dda951c5af3835117f8cc041"
+          ]
+        },
+        {
+          "start": 136080,
+          "code": "4531",
+          "name": "住宅耐震対策促進事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-7451fbed8040d634f351e1b0"
+          ]
+        },
+        {
+          "start": 137011,
+          "code": "4532",
+          "name": "空き家対策事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-6c2f67dc62a8cef54a8c9b42"
+          ]
+        },
+        {
+          "start": 137791,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 138476,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 139100,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 139563,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 140282,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 144015,
+          "code": "1162",
+          "name": "国際・友好都市交流費",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 144649,
+          "code": "1165",
+          "name": "儲かる飯島町チャレンジ事業",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 145986,
+          "code": "1166",
+          "name": "活性化推進事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-4b734770061cbf3264655547"
+          ]
+        },
+        {
+          "start": 146751,
+          "code": "1170",
+          "name": "地域おこし協力隊起業支援事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-ba98b48f02d7f45b34d27682"
+          ]
+        },
+        {
+          "start": 147299,
+          "code": "1171",
+          "name": "定住促進事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-a72e32c28e42de375017e5cb"
+          ]
+        },
+        {
+          "start": 149709,
+          "code": "1172",
+          "name": "出会い・婚活推進事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-d1c9446a026bd6ad99ac6b70"
+          ]
+        },
+        {
+          "start": 151568,
+          "code": "1173",
+          "name": "ふるさといいじま応援基金費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-191d0c842758c5caee6fa905"
+          ]
+        },
+        {
+          "start": 152170,
+          "code": "1174",
+          "name": "元気なまちづくり推進事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-7bffa661c254c00b7425f7e5"
+          ]
+        },
+        {
+          "start": 153115,
+          "code": "1176",
+          "name": "環境循環ライフ構想推進費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-6ac81d2d257f88ecbb9466b4"
+          ]
+        },
+        {
+          "start": 154483,
+          "code": "1178",
+          "name": "飯島流ワーケーション事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-d3d114cbb0befb544339c44d"
+          ]
+        },
+        {
+          "start": 155888,
+          "code": "1192",
+          "name": "協働のまちづくり推進費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-20d20208d65607a2114b53c3"
+          ]
+        },
+        {
+          "start": 158369,
+          "code": "4141",
+          "name": "観光費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-285959a96402f078d32fc86f"
+          ]
+        },
+        {
+          "start": 159343,
+          "code": "4143",
+          "name": "観光施設管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-338ff0caf2af3f9d575b1a7b"
+          ]
+        },
+        {
+          "start": 160574,
+          "code": "4144",
+          "name": "山岳観光費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-f66daa5aa8cfdc3d3096d546"
+          ]
+        },
+        {
+          "start": 161423,
+          "code": "4441",
+          "name": "与田切公園管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-2e8735fa6456ed4154bb0c4c"
+          ]
+        },
+        {
+          "start": 162508,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 163060,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 163586,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 164089,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 164638,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 168931,
+          "code": "2611",
+          "name": "児童福祉総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-ec41398947211a40c15b2ca2"
+          ]
+        },
+        {
+          "start": 169867,
+          "code": "2641",
+          "name": "認可保育園運営費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-5b17d46aed4692e9f5b10eac"
+          ]
+        },
+        {
+          "start": 171660,
+          "code": "2661",
+          "name": "放課後児童健全育成事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-a81e6d979041fa9590ae0e9c"
+          ]
+        },
+        {
+          "start": 172416,
+          "code": "2671",
+          "name": "子育て支援センター事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-f4b7cad5ed2dae9e547e99d7"
+          ]
+        },
+        {
+          "start": 173306,
+          "code": "2673",
+          "name": "子ども・子育て支援事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-4ff81a93b3c9d695f24e4350"
+          ]
+        },
+        {
+          "start": 174502,
+          "code": "5111",
+          "name": "教育委員会費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-75e2083647d2666e9584b332"
+          ]
+        },
+        {
+          "start": 175045,
+          "code": "5121",
+          "name": "学校教育総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-e9f60c378fb0da8215555e5d"
+          ]
+        },
+        {
+          "start": 176024,
+          "code": "5122",
+          "name": "奨学基金費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-06c27e2ae571af0ded617402"
+          ]
+        },
+        {
+          "start": 176613,
+          "code": "5123",
+          "name": "子ども支援費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-9746cefd5326f3b7a8a9c41f"
+          ]
+        },
+        {
+          "start": 178378,
+          "code": "5124",
+          "name": "子ども広場推進事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-ce23e49dfc58081ce51a9e71"
+          ]
+        },
+        {
+          "start": 178971,
+          "code": "5126",
+          "name": "学校支援費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-2e9d8eccf081f4221689dc2b"
+          ]
+        },
+        {
+          "start": 179640,
+          "code": "5131",
+          "name": "教員住宅管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-2048154500577b45f47f7205"
+          ]
+        },
+        {
+          "start": 180594,
+          "code": "5211",
+          "name": "飯島小学校管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-9d952fb98489c72ae8a93393"
+          ]
+        },
+        {
+          "start": 182063,
+          "code": "5221",
+          "name": "飯島小学校教育振興費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-88d4c72fe4577d736692581b"
+          ]
+        },
+        {
+          "start": 183666,
+          "code": "5241",
+          "name": "七久保小学校管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-9f3817fea1c790add6dd8d9f"
+          ]
+        },
+        {
+          "start": 185123,
+          "code": "5251",
+          "name": "七久保小学校教育振興費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-e67ba08253996581f98ede52"
+          ]
+        },
+        {
+          "start": 186721,
+          "code": "5311",
+          "name": "中学校管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-714581da20ddcb195f7f57dd"
+          ]
+        },
+        {
+          "start": 188196,
+          "code": "5312",
+          "name": "英語指導助手招致費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-e0078f3a944200b0468df8ff"
+          ]
+        },
+        {
+          "start": 188877,
+          "code": "5321",
+          "name": "中学校教育振興費",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 190491,
+          "code": "5611",
+          "name": "生涯学習費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-e8a3deac30a0ebafa76b7d1f"
+          ]
+        },
+        {
+          "start": 191712,
+          "code": "5612",
+          "name": "男女共同参画推進費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-dcbcfbf87644bc51a6711912"
+          ]
+        },
+        {
+          "start": 192577,
+          "code": "5623",
+          "name": "公民館費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-29756b706b4ef5dc1f67c415"
+          ]
+        },
+        {
+          "start": 193400,
+          "code": "5631",
+          "name": "図書館費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-b8d7548f211f5ef81e870a27"
+          ]
+        },
+        {
+          "start": 194657,
+          "code": "5641",
+          "name": "文化館費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-fadaa6bcfa8a87de167509e1"
+          ]
+        },
+        {
+          "start": 196070,
+          "code": "5651",
+          "name": "文化財保護費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-d7299939dcf56c490a3ac1b5"
+          ]
+        },
+        {
+          "start": 196727,
+          "code": "5652",
+          "name": "埋蔵文化財調査費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-78a4df658e7eed76878a8316"
+          ]
+        },
+        {
+          "start": 197295,
+          "code": "5661",
+          "name": "歴史民俗資料館費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-8acaeb5b36ca28706b732f35"
+          ]
+        },
+        {
+          "start": 198258,
+          "code": "5711",
+          "name": "保健体育総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-dfdf8723758fa20a1f28dfb4"
+          ]
+        },
+        {
+          "start": 199844,
+          "code": "5721",
+          "name": "体育館等管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-14030d96a2de7921899ad4f8"
+          ]
+        },
+        {
+          "start": 200677,
+          "code": "5722",
+          "name": "屋外運動場管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-89c22957036ad00d8863e7f0"
+          ]
+        },
+        {
+          "start": 201562,
+          "code": "5731",
+          "name": "海洋センター費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-e75c8a52879337aa05433e55"
+          ]
+        },
+        {
+          "start": 202786,
+          "code": "5741",
+          "name": "学校給食センター費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-672cd56f80b84e65db0e88ad"
+          ]
+        },
+        {
+          "start": 206065,
+          "code": "1161",
+          "name": "企画費",
+          "status": "summary_name_mismatch"
+        },
+        {
+          "start": 207173,
+          "code": "1131",
+          "name": "財政管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-31e9a09811a860e3224e5f5b"
+          ]
+        },
+        {
+          "start": 208031,
+          "code": "1151",
+          "name": "財産管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-0c04b05f955d05635bb58f2e"
+          ]
+        },
+        {
+          "start": 208828,
+          "code": "1155",
+          "name": "財産管理費",
+          "status": "summary_name_mismatch"
+        },
+        {
+          "start": 209467,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 210037,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 210596,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 211253,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 211804,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 212378,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 212935,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 213536,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 214178,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 214707,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 215325,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 216050,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 216655,
+          "code": "1141",
+          "name": "会計管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-4fa38085583fa71372290d93"
+          ]
+        },
+        {
+          "start": 217506,
+          "code": "1154",
+          "name": "物品集中購買費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-9dee46972a2d27f2ed84d38f"
+          ]
+        },
+        {
+          "start": 218471,
+          "code": "1001",
+          "name": "議会費",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 219451,
+          "code": "1511",
+          "name": "統計調査総務費",
+          "status": "prior_year_or_no_current_activity_hold",
+          "reason": "Current period activity not demonstrated; do not turn prior-year reprint into current-year project."
+        },
+        {
+          "start": 219892,
+          "code": "1521",
+          "name": "指定統計調査費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-f8c5dfa358d4cbc51ab9585b"
+          ]
+        },
+        {
+          "start": 220412,
+          "code": "1601",
+          "name": "監査委員費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-dd9cfd94de2bc68c4d9c79e0"
+          ]
+        }
+      ],
+      "acceptedProposals": 11
+    },
+    {
+      "sourceId": "6311e3a822a1b2fce4a3d545",
+      "sheetBoundaries": 205,
+      "proposals": 12,
+      "units": [
+        {
+          "start": 10468,
+          "code": "1110",
+          "name": "一般管理事務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-4b592731390300c248827c08"
+          ]
+        },
+        {
+          "start": 11206,
+          "code": "1111",
+          "name": "一般管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-70efc3191e89124294c26084"
+          ]
+        },
+        {
+          "start": 12365,
+          "code": "1121",
+          "name": "文書費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-36ea98fcdea6815a96b6cd16"
+          ]
+        },
+        {
+          "start": 12975,
+          "code": "1122",
+          "name": "広報広聴費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-3ff42a028862888d7dd31a4e"
+          ]
+        },
+        {
+          "start": 13886,
+          "code": "1152",
+          "name": "役場庁舎管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-40b7665449ba0a4696c77557"
+          ]
+        },
+        {
+          "start": 14592,
+          "code": "1153",
+          "name": "車両管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-88d25d23d1bc56f2f6f525b6"
+          ]
+        },
+        {
+          "start": 15110,
+          "code": "1156",
+          "name": "西庁舎管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-22775dce98b20451bf186684"
+          ]
+        },
+        {
+          "start": 15697,
+          "code": "1167",
+          "name": "情報機器管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-0029116308df87ad97159c37"
+          ]
+        },
+        {
+          "start": 17448,
+          "code": "1193",
+          "name": "循環バス運行事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-4b883480c9c59d322bfe9ef8"
+          ]
+        },
+        {
+          "start": 18198,
+          "code": "1194",
+          "name": "飯島駅管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-3b54c94b1c0ce8a544239619"
+          ]
+        },
+        {
+          "start": 18889,
+          "code": "1801",
+          "name": "交通安全対策費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-d544035784a7ce761c85cce2"
+          ]
+        },
+        {
+          "start": 19828,
+          "code": "1831",
+          "name": "防犯対策費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-cecd9a6ffc4adb5a81685ba1"
+          ]
+        },
+        {
+          "start": 20630,
+          "code": "1861",
+          "name": "防災対策費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-91aa3bded76881589ca19d19"
+          ]
+        },
+        {
+          "start": 24331,
+          "code": "4921",
+          "name": "非常備消防費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-29497ad89340bed031eda2d0"
+          ]
+        },
+        {
+          "start": 26481,
+          "code": "4931",
+          "name": "消防施設費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-c4f3801c7b3fd0ec55465880"
+          ]
+        },
+        {
+          "start": 27325,
+          "code": "4941",
+          "name": "水防費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-27b6972eaca99de48ea601c3"
+          ]
+        },
+        {
+          "start": 29745,
+          "code": "1211",
+          "name": "税務総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-c32e63ce375e7ee8fb5e2e5e"
+          ]
+        },
+        {
+          "start": 30505,
+          "code": "1212",
+          "name": "税務基礎資料整備事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-4371c552294fd2f3f73aa463"
+          ]
+        },
+        {
+          "start": 31464,
+          "code": "1221",
+          "name": "賦課徴収費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-9bb45e20b9fa17961297479f"
+          ]
+        },
+        {
+          "start": 32405,
+          "code": "1311",
+          "name": "戸籍住民基本台帳費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-824b65b16832c6e3fa036d32"
+          ]
+        },
+        {
+          "start": 34004,
+          "code": "2871",
+          "name": "環境衛生費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-12798c308046eb7aeb8d2152"
+          ]
+        },
+        {
+          "start": 35060,
+          "code": "2872",
+          "name": "新エネルギー普及対策事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-2991fae0bfd9ad5cd4706458"
+          ]
+        },
+        {
+          "start": 36428,
+          "code": "2921",
+          "name": "塵芥処理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-d471a376a89dfb9ab50a5422"
+          ]
+        },
+        {
+          "start": 37164,
+          "code": "2931",
+          "name": "し尿処理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-fbc5ac86338f75b8752d6170"
+          ]
+        },
+        {
+          "start": 37693,
+          "code": "4132",
+          "name": "消費者行政活性化事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-e44aa42f5c9734c815ad5314"
+          ]
+        },
+        {
+          "start": 38396,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 42179,
+          "code": "2101",
+          "name": "社会福祉総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-6c73f17ed5d892c1417d1227"
+          ]
+        },
+        {
+          "start": 42970,
+          "code": "2103",
+          "name": "地域福祉総合事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-9d5780290f365bc7bbc58599"
+          ]
+        },
+        {
+          "start": 43799,
+          "code": "2104",
+          "name": "生活困窮者自立相談支援事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-78a4981286f28fa153de2f47"
+          ]
+        },
+        {
+          "start": 44845,
+          "code": "2105",
+          "name": "重層的支援体制整備移行準備事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-d4e7715a15660b5166fbf464"
+          ]
+        },
+        {
+          "start": 45736,
+          "code": "2112",
+          "name": "住民税非課税世帯等に対する臨時特別給付金",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-d1136c5ce975bac1f4acb862"
+          ]
+        },
+        {
+          "start": 46387,
+          "code": "2113",
+          "name": "長野県生活困窮世帯緊急支援事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-98ee4105464f9807c8ac64ae"
+          ]
+        },
+        {
+          "start": 46972,
+          "code": "2114",
+          "name": "電力・ガス・食料品等価格高騰緊急支援事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-d9984a6f3d737643810ec529"
+          ]
+        },
+        {
+          "start": 47606,
+          "code": "2201",
+          "name": "地域福祉センター管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-0cc26fe31bd4e735daab89bd"
+          ]
+        },
+        {
+          "start": 48408,
+          "code": "2251",
+          "name": "障がい者福祉総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-a3d3f5d98f95e9573bc81170"
+          ]
+        },
+        {
+          "start": 49071,
+          "code": "2252",
+          "name": "在宅障がい者福祉事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-2a9ec8f66a1b5939421573de"
+          ]
+        },
+        {
+          "start": 50248,
+          "code": "2255",
+          "name": "障がい者自立支援事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-5d91ce312009374cd046a3a6"
+          ]
+        },
+        {
+          "start": 51605,
+          "code": "2301",
+          "name": "老人福祉総務費",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 52372,
+          "code": "2303",
+          "name": "在宅老人福祉事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-9b72d43f8a5b6b0fd8c480dc"
+          ]
+        },
+        {
+          "start": 53562,
+          "code": "2308",
+          "name": "介護予防拠点施設管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-e1eb37db142469e1b9bdce4b"
+          ]
+        },
+        {
+          "start": 54257,
+          "code": "2401",
+          "name": "福祉医療費給付事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-b8493cbfb02fbd5f8bd5b038"
+          ]
+        },
+        {
+          "start": 55079,
+          "code": "2613",
+          "name": "障がい児通所等支援事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-f3cc3edb127ac1590178bd43"
+          ]
+        },
+        {
+          "start": 55913,
+          "code": "2631",
+          "name": "ひとり親等福祉費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-31ab930885f3e0eee9f2bcc8"
+          ]
+        },
+        {
+          "start": 56615,
+          "code": "2811",
+          "name": "保健衛生総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-7e41255dfef430391364a604"
+          ]
+        },
+        {
+          "start": 57589,
+          "code": "2821",
+          "name": "感染症予防事業",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 58587,
+          "code": "2823",
+          "name": "新型コロナウイルスワクチン接種事業",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 59234,
+          "code": "2841",
+          "name": "母子保健事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-1e8469a291f7ec899886fcf4"
+          ]
+        },
+        {
+          "start": 61015,
+          "code": "2852",
+          "name": "健康づくり運動事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-ed0c851dd66a6520a0876d51"
+          ]
+        },
+        {
+          "start": 62481,
+          "code": "2853",
+          "name": "健康増進事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-bf8a74bf2546adb098089b28"
+          ]
+        },
+        {
+          "start": 63906,
+          "code": "2891",
+          "name": "診療所費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-c0ba20f028bb505db6a690cc"
+          ]
+        },
+        {
+          "start": 64751,
+          "code": "6050",
+          "name": "（国民健康保険特別会計）保健衛生普及事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-67f99ec285040f3da9bec9ea"
+          ]
+        },
+        {
+          "start": 65629,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 66721,
+          "code": "6052",
+          "name": "（国民健康保険特別会計）特定健康診査等事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-7bdb599557cce25e99ee66e7"
+          ]
+        },
+        {
+          "start": 67710,
+          "code": "6053",
+          "name": "（国民健康保険特別会計）健康づくり推進事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-48bf4b24bd679f6f3c88d2ca"
+          ]
+        },
+        {
+          "start": 68682,
+          "code": "6405",
+          "name": "（後期高齢者医療特別会計）保健事業費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-fa2e7970aece7be3ab13a500"
+          ]
+        },
+        {
+          "start": 69446,
+          "code": "7701",
+          "name": "（介護保険特別会計）一般管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-1d932d8ff52e158bfabcad1b"
+          ]
+        },
+        {
+          "start": 70101,
+          "code": "7711",
+          "name": "（介護保険特別会計）賦課徴収費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-66186fb38522e997740c7880"
+          ]
+        },
+        {
+          "start": 70660,
+          "code": "7716",
+          "name": "（介護保険特別会計）認定調査費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-43b6f31efaa3855d85c50d2c"
+          ]
+        },
+        {
+          "start": 71285,
+          "code": "7763",
+          "name": "（介護保険特別会計）地域包括支援センター運営事業",
+          "status": "summary_name_mismatch"
+        },
+        {
+          "start": 71997,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 73536,
+          "code": "7765",
+          "name": "（介護保険特別会計）任意事業費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-932f0582fc522b2dfec4dec8"
+          ]
+        },
+        {
+          "start": 74584,
+          "code": "7767",
+          "name": "（介護保険特別会計）一般介護予防事業費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-42e16100bd3d48edc4a68c94"
+          ]
+        },
+        {
+          "start": 75964,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 81088,
+          "code": "3111",
+          "name": "農業委員会費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-be08405c24ab49be2050779a"
+          ]
+        },
+        {
+          "start": 82112,
+          "code": "3211",
+          "name": "経営所得安定対策事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-a26b13e6670645eb443ca95b"
+          ]
+        },
+        {
+          "start": 82793,
+          "code": "3212",
+          "name": "機構集積協力金交付事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-81514845de6b44265abaf0b9"
+          ]
+        },
+        {
+          "start": 84155,
+          "code": "3213",
+          "name": "新規就農・経営継承総合支援事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-ed659924fc6709eae1b675ee"
+          ]
+        },
+        {
+          "start": 85185,
+          "code": "3221",
+          "name": "環境保全型農業直接支援対策事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-5fc1b22cc199644795ec7c43"
+          ]
+        },
+        {
+          "start": 85924,
+          "code": "3225",
+          "name": "集落営農支援事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-95016f2c0516707c20c206ed"
+          ]
+        },
+        {
+          "start": 86582,
+          "code": "3232",
+          "name": "都市・農村交流事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-aa2a3257fa91387dcbb85a5b"
+          ]
+        },
+        {
+          "start": 87247,
+          "code": "3290",
+          "name": "農作物災害等対策事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-ed87a6447df6c03523d3393e"
+          ]
+        },
+        {
+          "start": 87995,
+          "code": "3300",
+          "name": "農業振興総合対策事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-90df19cca139aca5f17117a7"
+          ]
+        },
+        {
+          "start": 89725,
+          "code": "3301",
+          "name": "中山間地域等直接支払事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-ec5ea579992dc0d2158c73a5"
+          ]
+        },
+        {
+          "start": 90421,
+          "code": "3404",
+          "name": "農地整備事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-c4c9d03eccdf6c0f40b29ce7"
+          ]
+        },
+        {
+          "start": 91168,
+          "code": "3413",
+          "name": "多面的機能支払",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-3aa0fa87561239871727e00f"
+          ]
+        },
+        {
+          "start": 91899,
+          "code": "3415",
+          "name": "農村地域防災減災事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-9a788c31991c2a66ef08e5da"
+          ]
+        },
+        {
+          "start": 92652,
+          "code": "3423",
+          "name": "農業基盤整備促進事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-16c54c8c0e46f0a6c323933c"
+          ]
+        },
+        {
+          "start": 93451,
+          "code": "3424",
+          "name": "農地耕作条件改善事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-12f972fe765e24b279f42229"
+          ]
+        },
+        {
+          "start": 94152,
+          "code": "3741",
+          "name": "道の駅本郷建物管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-2792bf48462760ab87bd3afe"
+          ]
+        },
+        {
+          "start": 94742,
+          "code": "3742",
+          "name": "道の駅花の里いいじま管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-3eae64ff7625627f82c132fb"
+          ]
+        },
+        {
+          "start": 95566,
+          "code": "3743",
+          "name": "道の駅田切の里管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-16f3eab35b0d571cad986a79"
+          ]
+        },
+        {
+          "start": 96256,
+          "code": "3801",
+          "name": "林業総務費",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 96898,
+          "code": "3851",
+          "name": "緑化推進事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-ab907faea7b559494082f2d1"
+          ]
+        },
+        {
+          "start": 97704,
+          "code": "3855",
+          "name": "林業振興事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-2505336ed4742e1465a55182"
+          ]
+        },
+        {
+          "start": 98592,
+          "code": "3856",
+          "name": "松くい虫防除事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-3b372774bc2df45863adff7c"
+          ]
+        },
+        {
+          "start": 99412,
+          "code": "3859",
+          "name": "緑化推進事業",
+          "status": "summary_name_mismatch"
+        },
+        {
+          "start": 100218,
+          "code": "3863",
+          "name": "町有林整備事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-99005a0075291c06cf9521d8"
+          ]
+        },
+        {
+          "start": 100942,
+          "code": "3865",
+          "name": "森林環境譲与税活用事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-9956882083d5a7b106bac1fc"
+          ]
+        },
+        {
+          "start": 101874,
+          "code": "3903",
+          "name": "林道整備事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-1f03df7a1656fd9ecd929e57"
+          ]
+        },
+        {
+          "start": 102599,
+          "code": "4111",
+          "name": "商工総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-b32f34ae13d9c9c34bad48d6"
+          ]
+        },
+        {
+          "start": 103171,
+          "code": "4121",
+          "name": "商工業振興費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-93e15ce0578c99863ae88ac5"
+          ]
+        },
+        {
+          "start": 105611,
+          "code": "4123",
+          "name": "伝統技術等承継支援事業",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 106506,
+          "code": "4124",
+          "name": "くらし復興券１億円事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-2f96c019e7bc0eee0e82ea6f"
+          ]
+        },
+        {
+          "start": 107562,
+          "code": "4125",
+          "name": "事業承継支援事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-9c6cee2f569db259dd2545d6"
+          ]
+        },
+        {
+          "start": 108195,
+          "code": "4162",
+          "name": "企業誘致費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-14452080d50d93db559857ef"
+          ]
+        },
+        {
+          "start": 109355,
+          "code": "5811",
+          "name": "農業施設災害復旧事業（補助）",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-646926d54a440a5a3c99c77d"
+          ]
+        },
+        {
+          "start": 109941,
+          "code": "5812",
+          "name": "農業施設災害復旧事業（単独）",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-0fb47833be98d5d24bf73a08"
+          ]
+        },
+        {
+          "start": 110515,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 111111,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 111679,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 112289,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 112820,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 113360,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 113902,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 114488,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 115075,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 118116,
+          "code": "1175",
+          "name": "子育て世帯０－３歳上下水道関連応援事業",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 118739,
+          "code": "2861",
+          "name": "上水道整備事業",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 119258,
+          "code": "2941",
+          "name": "合併処理浄化槽設置整備事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-52cb4721ce1d4c8085eab32d"
+          ]
+        },
+        {
+          "start": 120109,
+          "code": "2942",
+          "name": "合併処理浄化槽管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-62238d97cd448d3b8b41dc3f"
+          ]
+        },
+        {
+          "start": 120943,
+          "code": "4201",
+          "name": "土木総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-8128695d20ceb527e4046488"
+          ]
+        },
+        {
+          "start": 122306,
+          "code": "4207",
+          "name": "地籍調査事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-8a5548ac7d0e81ffcdcb1cca"
+          ]
+        },
+        {
+          "start": 123211,
+          "code": "4221",
+          "name": "道路維持費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-9f49901b8c27c88c4062621a"
+          ]
+        },
+        {
+          "start": 124055,
+          "code": "4231",
+          "name": "町道整備事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-974c1d04c0f8ae53d483948c"
+          ]
+        },
+        {
+          "start": 124879,
+          "code": "4235",
+          "name": "社会資本整備総合交付金事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-4ddcc9df4f40c8b2e1d3a23e"
+          ]
+        },
+        {
+          "start": 125776,
+          "code": "4238",
+          "name": "県営農道整備事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-5b60d3f6b0e8dd09cf479726"
+          ]
+        },
+        {
+          "start": 126621,
+          "code": "4252",
+          "name": "道路メンテナンス事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-20d635c5aea1f4bce4fc8668"
+          ]
+        },
+        {
+          "start": 127592,
+          "code": "4261",
+          "name": "国県関連事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-c5414917c072686adfe17596"
+          ]
+        },
+        {
+          "start": 128477,
+          "code": "4263",
+          "name": "道の駅本郷管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-141cbd9a2f3f626e44bee617"
+          ]
+        },
+        {
+          "start": 129075,
+          "code": "4264",
+          "name": "国道１５３号伊那バレー・リニア北バイパス改良促進費",
+          "status": "summary_name_mismatch"
+        },
+        {
+          "start": 129938,
+          "code": "4311",
+          "name": "河川総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-b8683ef4373eefca7e030873"
+          ]
+        },
+        {
+          "start": 130562,
+          "code": "4322",
+          "name": "河川整備事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-74493907c6f1912f11198b06"
+          ]
+        },
+        {
+          "start": 131231,
+          "code": "4411",
+          "name": "都市計画総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-6c094c2e734a440b73e81438"
+          ]
+        },
+        {
+          "start": 132667,
+          "code": "4511",
+          "name": "町営住宅管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-7929e85b323fba2d90bde078"
+          ]
+        },
+        {
+          "start": 133537,
+          "code": "4512",
+          "name": "町営住宅整備事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-9e7c35d911c41e6612e8b56c"
+          ]
+        },
+        {
+          "start": 134279,
+          "code": "4531",
+          "name": "住宅耐震対策促進事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-b88a73858cd33350a55a89c3"
+          ]
+        },
+        {
+          "start": 135315,
+          "code": "4532",
+          "name": "空き家対策事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-17bd1390f7acf4333b0a0c2d"
+          ]
+        },
+        {
+          "start": 136167,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 136746,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 137390,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 137982,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 138533,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 141774,
+          "code": "1162",
+          "name": "国際・友好都市交流費",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 142367,
+          "code": "1165",
+          "name": "儲かる飯島町チャレンジ事業",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 143424,
+          "code": "1166",
+          "name": "活性化推進事業",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 144087,
+          "code": "1171",
+          "name": "定住促進事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-4fff6d068114125c48d72896"
+          ]
+        },
+        {
+          "start": 146487,
+          "code": "1172",
+          "name": "出会い・婚活推進事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-ddf01f75c38a023d6931e80b"
+          ]
+        },
+        {
+          "start": 148648,
+          "code": "1173",
+          "name": "ふるさといいじま応援基金費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-c7b6ccc94a5fd925fd0fb1b7"
+          ]
+        },
+        {
+          "start": 149224,
+          "code": "1174",
+          "name": "元気なまちづくり推進事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-d3746854a004653e20cb5a48"
+          ]
+        },
+        {
+          "start": 150077,
+          "code": "1176",
+          "name": "環境循環ライフ構想推進費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-1b9bbb668d7c45940d74edc4"
+          ]
+        },
+        {
+          "start": 151645,
+          "code": "1178",
+          "name": "飯島流ワーケーション事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-dfef7ef77ed93184a03df394"
+          ]
+        },
+        {
+          "start": 153133,
+          "code": "1192",
+          "name": "協働のまちづくり推進費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-9e29a016510d3e589e3d13c5"
+          ]
+        },
+        {
+          "start": 155251,
+          "code": "4141",
+          "name": "観光費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-ee55cb1778ddf7922664a91c"
+          ]
+        },
+        {
+          "start": 156225,
+          "code": "4143",
+          "name": "観光施設管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-0fd820a3b0876636ddd62528"
+          ]
+        },
+        {
+          "start": 157577,
+          "code": "4144",
+          "name": "山岳観光費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-bd7a8d50649d2f9e33c4ff90"
+          ]
+        },
+        {
+          "start": 158409,
+          "code": "4441",
+          "name": "与田切公園管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-7fa7ca6f4eab55de6b7fd302"
+          ]
+        },
+        {
+          "start": 159448,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 160047,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 160573,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 161081,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 161624,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 165405,
+          "code": "2611",
+          "name": "児童福祉総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-fe9f23c5ba1acc9859aae419"
+          ]
+        },
+        {
+          "start": 166331,
+          "code": "2641",
+          "name": "認可保育園運営費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-32e37c3f8d058f7a101d1ac8"
+          ]
+        },
+        {
+          "start": 168265,
+          "code": "2661",
+          "name": "放課後児童健全育成事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-1fdb976de188093202db5bf0"
+          ]
+        },
+        {
+          "start": 169017,
+          "code": "2671",
+          "name": "子育て支援センター事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-ff9c8fe482784e22117fd900"
+          ]
+        },
+        {
+          "start": 169909,
+          "code": "2673",
+          "name": "子ども・子育て支援事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-4ccebd1911c978fe098f53ff"
+          ]
+        },
+        {
+          "start": 171204,
+          "code": "5111",
+          "name": "教育委員会費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-a92d08f33ab4bc0897ac8e34"
+          ]
+        },
+        {
+          "start": 171747,
+          "code": "5121",
+          "name": "学校教育総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-e1b3794b19d2cb468048412d"
+          ]
+        },
+        {
+          "start": 172666,
+          "code": "5122",
+          "name": "奨学基金費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-6b6858f3c4b390991908a033"
+          ]
+        },
+        {
+          "start": 173193,
+          "code": "5123",
+          "name": "子ども支援費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-377da68b3248e9568dd055f1"
+          ]
+        },
+        {
+          "start": 175151,
+          "code": "5124",
+          "name": "子ども広場推進事業",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-59627fb10562ad54435ef5bd"
+          ]
+        },
+        {
+          "start": 175732,
+          "code": "5126",
+          "name": "学校支援費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-4f19cf47ed081703af252f63"
+          ]
+        },
+        {
+          "start": 176311,
+          "code": "5131",
+          "name": "教員住宅管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-33bd74755ef67b93747fd1d4"
+          ]
+        },
+        {
+          "start": 177267,
+          "code": "5211",
+          "name": "飯島小学校管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-664f17be1b339f79f7be63e2"
+          ]
+        },
+        {
+          "start": 178736,
+          "code": "5221",
+          "name": "飯島小学校教育振興費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-a21239a74b78ae634c3e9226"
+          ]
+        },
+        {
+          "start": 180308,
+          "code": "5241",
+          "name": "七久保小学校管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-a9ebdf5133617ab5ae983769"
+          ]
+        },
+        {
+          "start": 181680,
+          "code": "5251",
+          "name": "七久保小学校教育振興費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-d2ce92edbf59f53c898a8ea4"
+          ]
+        },
+        {
+          "start": 183249,
+          "code": "5311",
+          "name": "中学校管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-ac7536f4a9f6269df31c9374"
+          ]
+        },
+        {
+          "start": 184734,
+          "code": "5312",
+          "name": "英語指導助手招致費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-69ead071a7fa8505c788be34"
+          ]
+        },
+        {
+          "start": 185346,
+          "code": "5321",
+          "name": "中学校教育振興費",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 186892,
+          "code": "5611",
+          "name": "生涯学習費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-295e8d7a443ab4ece0888ce0"
+          ]
+        },
+        {
+          "start": 188491,
+          "code": "5612",
+          "name": "男女共同参画推進費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-56a856bb9d48fa5453252915"
+          ]
+        },
+        {
+          "start": 189357,
+          "code": "5623",
+          "name": "公民館費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-2c6826a2af8e59f0239205ef"
+          ]
+        },
+        {
+          "start": 190263,
+          "code": "5631",
+          "name": "図書館費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-6060e03916c913678ddae2ef"
+          ]
+        },
+        {
+          "start": 191703,
+          "code": "5641",
+          "name": "文化館費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-479cf8b3bf1576283c01a8a0"
+          ]
+        },
+        {
+          "start": 193058,
+          "code": "5651",
+          "name": "文化財保護費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-a40debd084e1c386caea025d"
+          ]
+        },
+        {
+          "start": 193729,
+          "code": "5652",
+          "name": "埋蔵文化財調査費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-0a5d73056be24657dc699dab"
+          ]
+        },
+        {
+          "start": 194299,
+          "code": "5661",
+          "name": "歴史民俗資料館費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-5ca691321f9cef897ad04160"
+          ]
+        },
+        {
+          "start": 195270,
+          "code": "5711",
+          "name": "保健体育総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-7314826bde553b612a911af1"
+          ]
+        },
+        {
+          "start": 197209,
+          "code": "5721",
+          "name": "体育館等管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-e39833e8fea209ab1808827f"
+          ]
+        },
+        {
+          "start": 198063,
+          "code": "5722",
+          "name": "屋外運動場管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-3df47fa205a04b9711f62476"
+          ]
+        },
+        {
+          "start": 198935,
+          "code": "5731",
+          "name": "海洋センター費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-bd3a1273e8441bd127002fe2"
+          ]
+        },
+        {
+          "start": 200403,
+          "code": "5741",
+          "name": "学校給食センター費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-13b6952c1ac3ba6bb752db81"
+          ]
+        },
+        {
+          "start": 203367,
+          "code": "1161",
+          "name": "企画費",
+          "status": "summary_name_mismatch"
+        },
+        {
+          "start": 204295,
+          "code": "1131",
+          "name": "財政管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-1d5413e50233bee456a4fc75"
+          ]
+        },
+        {
+          "start": 205265,
+          "code": "1151",
+          "name": "財産管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-f54e8fdd158890cac5547740"
+          ]
+        },
+        {
+          "start": 206070,
+          "code": "1155",
+          "name": "財産管理費",
+          "status": "summary_name_mismatch"
+        },
+        {
+          "start": 206686,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 207404,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 208029,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 208683,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 209338,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 209911,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 210480,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 211081,
+          "code": "1901",
+          "name": "財政調整基金費",
+          "status": "summary_name_mismatch"
+        },
+        {
+          "start": 211774,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 212303,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 212922,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 213567,
+          "status": "header_or_year_hold"
+        },
+        {
+          "start": 214168,
+          "code": "1141",
+          "name": "会計管理費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-c0b9773b6042e890c241e7ef"
+          ]
+        },
+        {
+          "start": 215024,
+          "code": "1154",
+          "name": "物品集中購買費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-8202f803fcf5ed9523e98884"
+          ]
+        },
+        {
+          "start": 215861,
+          "code": "1001",
+          "name": "議会費",
+          "status": "candidate_missing_in_master"
+        },
+        {
+          "start": 216900,
+          "code": "1511",
+          "name": "統計調査総務費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-1e241db271ad42e55e711327"
+          ]
+        },
+        {
+          "start": 217412,
+          "code": "1521",
+          "name": "指定統計調査費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-afe75517166354651031270b"
+          ]
+        },
+        {
+          "start": 217934,
+          "code": "1601",
+          "name": "監査委員費",
+          "status": "existing_year_identity",
+          "existingIds": [
+            "cached-20384-130e4264ba079ed193ae0db5"
+          ]
+        }
+      ],
+      "acceptedProposals": 12
+    }
+  ]
+}

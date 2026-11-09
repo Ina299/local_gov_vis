@@ -1,0 +1,40 @@
+{
+  "sources": [
+    {
+      "sourceId": "d9b081c15c5f201d9b66d213",
+      "status": "four_named_activity_proposals",
+      "reason": "2020 report, multi-year target kept null. Other KPI indicators, institutional output and future second-phase measures not individual programmes."
+    },
+    {
+      "sourceId": "55533de343063ff0a987a239",
+      "status": "kpi_only",
+      "reason": "Indicators and annual values without distinct programme sheet boundaries; grouped user counts do not prove separate programme annual records."
+    },
+    {
+      "sourceId": "4d0c8450d13e04616edfbb4a",
+      "status": "period_alignment_hold",
+      "reason": "Named interventions and 2015–2017 costs, 2018 plan column, 2019 targets mixed. No unsupported cost/actual year inference. Additional cross-reference review possible."
+    },
+    {
+      "sourceId": "fcfe54d9b0ce3f40d6d83bb6",
+      "status": "missing_body",
+      "reason": "No cached original; no network request."
+    },
+    {
+      "sourceId": "209c42345f5dcb01dacda50c",
+      "status": "navigation",
+      "reason": "Plan and evaluation links, not business record."
+    }
+  ],
+  "holds": [
+    {
+      "name": "移動販売事業",
+      "field": "startYear",
+      "reason": "Original says 平成26（2016）年; conflict preserved verbatim, no corrected year inferred."
+    },
+    {
+      "name": "けもかわプロジェクト",
+      "reason": "Participation KPI and shared project/individual workshop identity need corroborating boundary; not one record per count."
+    }
+  ]
+}

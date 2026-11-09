@@ -1,5 +1,5 @@
 {
-  "candidateRecords": 702,
+  "candidateRecords": 974,
   "perMunicipality": {
     "信濃町": 2,
     "高山村": 9,
@@ -9,32 +9,37 @@
     "朝日村": 2,
     "山形村": 89,
     "王滝村": 11,
-    "木祖村": 3,
+    "木祖村": 9,
     "南木曽町": 54,
     "大鹿村": 106,
-    "豊丘村": 88
+    "豊丘村": 88,
+    "泰阜村": 4,
+    "天龍村": 69,
+    "下條村": 4,
+    "高森町": 5,
+    "飯島町": 184
   },
-  "validatedCumulativeCandidates": 28896,
-  "validatedEvidence": 83873,
+  "validatedCumulativeCandidates": 29168,
+  "validatedEvidence": 84752,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "cb5ff53196128f007d17a6c8ece777fe995067de",
+  "previousHead": "921bc7642e8156528624358c92722ebdbfd1042d",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "34/34",
-    "crawler": "788/788",
+    "focused": "56/56",
+    "crawler": "810/810",
     "web": "256/256; maxWorkers=1",
     "typecheck": "passed",
     "lint": "passed; existing font warning",
     "national": "passed branch baseline",
     "static": "109/109 subpath",
-    "quotes": "28896 candidates /83873 quotes"
+    "quotes": "29168 candidates /84752 quotes"
   },
   "remoteCI": "unverified; known Actions API403 not retried",
-  "remaining": "Nagano cached review continues.272 stage-only additional candidates individually tested, not integrated/full-regression/pushed.27missing bodies and1incomplete source remain acquisition-held; layouts and identity reviews remain actionable."
+  "remaining": "Nagano cached review continues.83 stage-only additional candidates individually tested, not integrated/full-regression/pushed.27missing bodies and1incomplete source remain acquisition-held; layouts and identity reviews remain actionable."
 }

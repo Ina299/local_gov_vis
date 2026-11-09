@@ -1,0 +1,838 @@
+[
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "2fd3340a739ded30367789fa",
+      "title": "行政評価について／辰野町公式ホームページ",
+      "url": "https://www.town.tatsuno.lg.jp/gyosei/choseijoho/shisaku_keikaku/gyozaiseikaikaku/4231.html",
+      "sourceSha256": "fffe95a0798e10ed19776508e7973455d123936f0940caa2fdd09bfe214a1704",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 257,
+      "fullTextSha256": "44247ca45f267aad68b57ea521f2296061a4d84b7fc8f436e413156247f85029"
+    },
+    "individualSheetHeaders": 0,
+    "knownExistingIds": [],
+    "status": "index_or_other_review",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "b5bcd2e6cdde2c1b4bf42761",
+      "title": "平成23年度補助金事業別評価シート",
+      "url": "https://www.town.tatsuno.lg.jp/gyosei/soshiki/machizukuriseisakuka/choseijoho/4/1/4-1/658.html",
+      "sourceSha256": "869fb1f8abfbe735085fa97b6963d7a9217b615c1786c3e161e950a24c948e58",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3100,
+      "fullTextSha256": "dea5e000ef907719b424901986f9f071d52ce7a882785d43d47903b4673d2124"
+    },
+    "individualSheetHeaders": 0,
+    "knownExistingIds": [],
+    "status": "index_or_other_review",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "0de9cb955164199beb18468a",
+      "title": "補助金事業別評価シート(自主防災組織発足等補助金)(PDFファイル:121.9KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/1_72051069.pdf",
+      "sourceSha256": "3c95a09658a67fe3f81d5f9a99bff04286e8d1f4d90a71fcb24485cea6bf0637",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3642,
+      "fullTextSha256": "d9c6f587bb3f6fc32d8d003ab62b2443e4b5e57b64b1ac46ecd5b1d63f90d47d"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-4169f55b8e93feee0673ccad"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "2d075f242caa2e7fec780089",
+      "title": "補助金事業別評価シート(協働のまちづくり支援事業)(PDFファイル:123.3KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/2_49280909.pdf",
+      "sourceSha256": "0a1a05aaa176e790a1756b6535e55f969294179f454a25e669bd9367cb22d6f8",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 4105,
+      "fullTextSha256": "31e961c54d198ec46c3601a3a1abf00c7dc6c78d4fa2f50f65fe4031b6da76b6"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-58737607ff99b82def3767e0"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "e7641748a70df8a25807ec55",
+      "title": "補助金事業別評価シート(辰野町衛生自治連合会補助金)(PDFファイル:129.3KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/3_90328262.pdf",
+      "sourceSha256": "b149ee2e77a4f8ed24041210874aef36d6771966dd2efcadcac017d5fb0062eb",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 4345,
+      "fullTextSha256": "51720f7ac227e51d0067d6a2cc4cbfeb91c857373516e5db15e606ca273d5f48"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-b53b8e40b89ef117920a9951"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "a3e5d377b605fb2bc56274bb",
+      "title": "補助金事業別評価シート(消費者の会活動補助金)(PDFファイル:124.6KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/4_07599680.pdf",
+      "sourceSha256": "ef44643bda9a9d2eefac9a98c2603c2f83c57a5eefca8f6d737dd70354cbd2d2",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3802,
+      "fullTextSha256": "80ddba492def74c97f0d3d6839c8450fe8ec0344dc2590d64df1cfa56bbe1897"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-191dff2ef74d24943534904e"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "453bafd1ffaffa12901b4aef",
+      "title": "補助金事業別評価シート(町遺族会補助金)(PDFファイル:124.3KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/5_74157240.pdf",
+      "sourceSha256": "f7e8e0414afff590cc61f3f3992714bc464bfe748afc593f073ecf683aabf0e8",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3571,
+      "fullTextSha256": "3bd99d6349d2895c626e36c0ffa69f99109b15040d9d81a7dfc61ba8d4f36740"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-675b91c97792f97ea323ac93"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "4ac458501d16c578cbb47e81",
+      "title": "補助金事業別評価シート(町知的障害者育成会補助金)(PDFファイル:120.7KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/6_09783305.pdf",
+      "sourceSha256": "4f73ea4a2dd9be03ee1d6256dd760b7d3f117b73042ae993fdd663809272ad32",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3671,
+      "fullTextSha256": "4d5a6fc24299b657e9625ca8e9d2a4f2a6d54c7a8f2fa3e8e905a771bef46e5c"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-5d4de6c2fd21dee8908f434c"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "5c04cb948f22b77856449073",
+      "title": "補助金事業別評価シート(障害者扶養共済加入補助金)(PDFファイル:117.8KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/7_26075134.pdf",
+      "sourceSha256": "d9c530ead6fb51a12a8a36b1a122190a8c60ed3af1928a097ead5c00acb99c0c",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3604,
+      "fullTextSha256": "11b3bfe23bb9d946108ad5903f28eea1b9ad21b8289cf74f25e43b071510e3c9"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-c01137f7dbf4a8e49e0736d2"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "db605bf81133ad15d60334e2",
+      "title": "補助金事業別評価シート(障害者にやさしい住宅改良推進事業補助金)(PDFファイル:118.9KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/8_66958670.pdf",
+      "sourceSha256": "78d1636447008f1b7acca646baca139968bed0017ad3aa72e02718004cd7476b",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3632,
+      "fullTextSha256": "8317c8bb09346e9ed417ccfd58482a708211d9fb49e024e649ea9182ad4a5ce9"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-58636ce38544b0d455d5d03f"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "34fb3d6135fdb12c21bebdb8",
+      "title": "補助金事業別評価シート(通所通園等推進事業補助金)(PDFファイル:120.1KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/9_01376169.pdf",
+      "sourceSha256": "06905e934e2f5637d68f578a6aa79aa9e14e4d1197930119923f86eb8f509884",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3648,
+      "fullTextSha256": "b7d81c1416ffe2a10fa5b56eb0b8ef7edc0f33d76b55ef468d62b818d02fd546"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-1cf106ce6b997ed89765efcc"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "aa2dba0a837a1b5bac667b6a",
+      "title": "補助金事業別評価シート(すこやか友の会活動補助金)(PDFファイル:118.1KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/10_45538198.pdf",
+      "sourceSha256": "cd09d4c15a9d4dfacfd15ec985aaccd2de0d126cb5a00212d426f41d3bb47bb9",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3629,
+      "fullTextSha256": "265a9e7c6df86a58c96023853660305df268a9ac05a450cc5423e5b43c55886d"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-94910ee546aaad25a329f817"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "0942607b95c878fa379c89fb",
+      "title": "補助金事業別評価シート(食生活推進協議会活動補助金)(PDFファイル:122.6KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/11_08579521.pdf",
+      "sourceSha256": "8cda4a45f455fa5cedc5f951ff915f5ae474dce5a341ff7a240920653c16205b",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3693,
+      "fullTextSha256": "853ce319385384f9c552bd97775f821b2b2155452c6e93e7cffe17ae3ee398ad"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-ef48bd916f47b65fc0e49b51"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "ef219439f1db7797b351056a",
+      "title": "補助金事業別評価シート(農業者年金協会補助金)(PDFファイル:119.7KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/12_88807024.pdf",
+      "sourceSha256": "1eca393826e6a76c6362a6ab58376bc5a617d31d08594c8d37d04bccbb2057ba",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3557,
+      "fullTextSha256": "b4e558b6c10245b41f7390b9bc3410542b4ad5bb94bc2928a0c22896d789706c"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-09cad89531f31d7cd19d601c"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "a65e8dc3ad78c6299a2598f6",
+      "title": "補助金事業別評価シート(ソバ、大豆刈取補助金)(PDFファイル:122.9KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/13_93758345.pdf",
+      "sourceSha256": "b6aab546ffc7e83a44a05c33951b68f0aea6fac9f4a69a2a61371a379b966519",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3771,
+      "fullTextSha256": "530498a624f543a31a9309cb02ed6ad569f3a76de189853b23792e9e152c138c"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-367135c4a40262ba0d3dc0ef"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "56660d93fb40577e9406fa75",
+      "title": "補助金事業別評価シート(生活改善事業補助金)(PDFファイル:124.3KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/14_75524263.pdf",
+      "sourceSha256": "19fc5c5a0a9fc387b337447d30edf5861b1c34ec6a6f1e7c56541a4b8d8e0a74",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3836,
+      "fullTextSha256": "5d1ffb8d85775a7ddb518dd204a7c7c49490dc4af5c54af521ffdfa94e4f01de"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-f6b0c5216fba16b1f8da7f23"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "b016af0cd4ad889bc16c6e19",
+      "title": "補助金事業別評価シート(辰野町有害鳥獣駆除対策協議会補助金)(PDFファイル:121.4KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/16_58417736.pdf",
+      "sourceSha256": "c86b3b1abf57b05940c0d0c7a789ed68e3b24a331f9f17f7ec7d09c42c0ccbfb",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3748,
+      "fullTextSha256": "c759cc3d18280b3e326b13fccd8c1a47d98de2e294363cc35d2b026b25628c85"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-2395c027cfed51dc5ca35f4c"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "cd6ddf020510106ff64d6f4d",
+      "title": "補助金事業別評価シート(中山間水と土ふれあい事業補助金)(PDFファイル:121.4KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/17_50406228.pdf",
+      "sourceSha256": "5d79464d376a88cc4d402e0d9f239c1c6786f475c0c2ed1d24a2f67cf69ef609",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3500,
+      "fullTextSha256": "7c205ade2b01cc20ff6fa52cfee5c2b547a11312f5ba0bb0f0bb6b876f5bd6b2"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-5703f29ca87e8a4f9e20c964"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "aa91ad3ab5d97ccb8633b2a1",
+      "title": "補助金事業別評価シート(生産森林組合育成補助金)(PDFファイル:116.2KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/18_32634332.pdf",
+      "sourceSha256": "cd07b20a44809e95ad23611104aa4f6da30c79f8dd62e67111d284d741d8175c",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3466,
+      "fullTextSha256": "12bafe485852c9e5dea3029faf9a76d0d6e7e63f612bf64a541720693e7be398"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-607cb1dbbf3b06f308711273"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "c740e9bdab099339ca82fda7",
+      "title": "補助金事業別評価シート(松枯損木伐倒補助金)(PDFファイル:118KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/19_45844142.pdf",
+      "sourceSha256": "d70db9a3482c0ded51915182f60d4e0c39f88fe1d6192144bdb30e318fd103a6",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3498,
+      "fullTextSha256": "07a385ebfbd102539e05aa4b48ae641a8d6f5e56433ab472faa096ee6573dbaa"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-d5c7920bf19ab4118391ec74"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "1b9c4b023a561b4f2b5ea84e",
+      "title": "補助金事業別評価シート(森林造成事業補助金)(PDFファイル:115.4KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/20_89419296.pdf",
+      "sourceSha256": "b87b0da139f3e8bc301603cab4009f599c7c79e631d7bce455c1d14064bba796",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3509,
+      "fullTextSha256": "41b0960040fa47ad026e33b1c06b984ffa470e26dd1b7977669f9c923864b280"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-194d81827ecd6ce3168dd9f7"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "34e000eeecbf8b12d409c7e7",
+      "title": "補助金事業別評価シート(森林整備地域活動支援補助金)(PDFファイル:117.3KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/21_54813542.pdf",
+      "sourceSha256": "945f82e6d38bd65858cf768cb9e7a63889563472cd1f96655d9ab7f09fa76de6",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3537,
+      "fullTextSha256": "ee5e19ee7a1c31bf6d8ce3092257d9e99ee33c30f21a7f732e511e8ef5c469ef"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-c56b18e61d0cd3da4d8a4614"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "fd7a9fd8c0208101c6d8ab61",
+      "title": "補助金事業別評価シート(辰野町観光協会補助金)(PDFファイル:128.4KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/22_36682227.pdf",
+      "sourceSha256": "e50092371d8ba8c44a534969a78c06366f27def5e4521cefdd0fbf55019a8ef8",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 4137,
+      "fullTextSha256": "ebb7b5aea2318f38ca4ce2f5086be1f057ef09f8c7e9c3b7d329a891519fbf86"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-cbe667d14b73623d89f62fcc"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "e0acae2a79e55f2b4b584d85",
+      "title": "補助金事業別評価シート(商工業誘致及び振興補助金)(PDFファイル:117.7KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/23_39408108.pdf",
+      "sourceSha256": "25cf3a7fdba7071c0234380d4306861137f26879d98a8e00b5cf83bfac422123",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3700,
+      "fullTextSha256": "c50c58c2b67f3ff74bce1af9598595906f8b2c519f74a8c048063990c3427761"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-552125a3a64e53b1a62871ba"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "c2edf981d2e35116e85da54c",
+      "title": "補助金事業別評価シート(小規模事業指導費補助金)(PDFファイル:120.6KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/24_84121947.pdf",
+      "sourceSha256": "733a1d7581342c3f107ef643a3b21310b6741b8bf3373e6c419d8db21174aa41",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3917,
+      "fullTextSha256": "6a11b192fdd11126756ca7c6fe781bd034c76b523525daba5fc838223064c10f"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-99c9530d7cfc310a48b0fc68"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "c8f1be065a59c5e8d99c6703",
+      "title": "補助金事業別評価シート(商工業振興費補助金)(PDFファイル:123.5KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/25_38091126.pdf",
+      "sourceSha256": "50beed9373764863ac9b2173ccf81a06ee5a4e9752363b032438b142fbfdeb41",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3844,
+      "fullTextSha256": "d0949949ac9d26dad014e0afe60cf43026386ec478fbc036b0b635ef850f9885"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-3f3e32c956d19d397c768028"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "5d8aa696319f5d95f77166f0",
+      "title": "補助金事業別評価シート(商工業振興資金利子補給及び保証料)(PDFファイル:119KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/26_34996590.pdf",
+      "sourceSha256": "b427429f3d44d1a360ba41d155b6f1948b60f210feecca08caa5fb564e301a13",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3788,
+      "fullTextSha256": "68efc53318070c27cf660280c0205259800f6c4d57f3f8ddf991f6676fa66183"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-99c680f9685d9f63f5e0a1a3"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "ae60f4c4029cb811b1ae07a9",
+      "title": "補助金事業別評価シート(勤労者住宅建設資金利子補給補助金)(PDFファイル:119.6KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/27_90610163.pdf",
+      "sourceSha256": "99bb23d5c9706ecf2733f034ca15081cbaaff0cb572d9cfa38c624a7bf490272",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3581,
+      "fullTextSha256": "7b29c9346d9008509f7378a3b695ca4f4357fce019f611ca5a65a4a1a1a00f8f"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-2f90386d256d05de4a9fd604"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "b974c29eb140163bcc32f9fa",
+      "title": "補助金事業別評価シート(中小企業退職共済掛金補助金)(PDFファイル:118.2KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/28_33521087.pdf",
+      "sourceSha256": "39a3ca74abe1fc5d62faba585f09d4c8b769726b4dcefbd792f931c0a828d09a",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3663,
+      "fullTextSha256": "196e12b0d1de109544a847527bd9b49bc6eef7f8bdcbf83f1fb7d1a95c329c95"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-236caff9ed17e5e52c057453"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "8f55d985e112c4f02ea4ffbc",
+      "title": "補助金事業別評価シート(勤労者互助会補助金)(PDFファイル:122.3KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/29_81779099.pdf",
+      "sourceSha256": "a73655a037e84efd67eb5edc33ea1993592de4812280c628642d21c275c5e496",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3855,
+      "fullTextSha256": "fa6cf4350e2fd227f072872e07813b1b58a11c58ba0d0223d406da1fdfc35460"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-95de0100ac737f198d08c195"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "7bd205c5b54049db13462eb2",
+      "title": "補助金事業別評価シート(除雪機補助金)(PDFファイル:124.6KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/30_40646258.pdf",
+      "sourceSha256": "1c740c38a1dd4918c96cd5a00f631f76aeb8ba7501c1613d558017cee23af48a",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3770,
+      "fullTextSha256": "44ac7abc20a19dc5da12cfb5afd6f2ab372e00827fac837379b1a1c1737a4c24"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-3162da0882e21d81aa5c41fc"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "0cc54be3d13b381b3e686147",
+      "title": "補助金事業別評価シート(水洗便所等改造融資あっせん利子補給補助金)(PDFファイル:123.8KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/32_51329012.pdf",
+      "sourceSha256": "52c8bab443477d3b8d06ec9cda1fb31f26e53764f5aea70331c81e61469c599b",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3813,
+      "fullTextSha256": "c36e9dc26171ddde33a81329e579c0487c00bfbdc39958d704396a85534c309a"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-3f4dba39baf01d74ce6d3f65"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "52f752e3fd758b10616316b9",
+      "title": "補助金事業別評価シート(幼児教育振興補助金)(PDFファイル:120.3KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/33_06183530.pdf",
+      "sourceSha256": "a5a4ebbfd2b5d8c5b277f00625a575fb67758a9f9e3fb2da16f603ae5b7ec6e0",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3524,
+      "fullTextSha256": "a0276e7f9d94354ef631ef77038caf54f68ae9b6d95d29f56fcb911f038fd59c"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-dff1cb58517e5810b1157491"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "9aefbc16a4215fb683a110fb",
+      "title": "補助金事業別評価シート(総合学習振興補助金)(PDFファイル:122KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/34_93361288.pdf",
+      "sourceSha256": "449e9ca7cc9c0bddfb1e3fbc4af5593b22bdda07be04686e91940f44c7a05d5c",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3843,
+      "fullTextSha256": "4f84af968070a3f27f4e6c48c2f5add77fa59c29c535904daa70fc6b2730bc5e"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-2f17f3eecd35844a690a7d91"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "7459e90e0e3dfee7232243ff",
+      "title": "補助金事業別評価シート(こども自転車安全教室補助金)(PDFファイル:119.4KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/35_16838285.pdf",
+      "sourceSha256": "7b42915750b61178114216148a649ed979f391ea96d0112746838c0adbbb0156",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3692,
+      "fullTextSha256": "6752651dbaa8d07af13fea02fd419a34eb6c33d900eb25ac7c05d35b29d9eca3"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-382d9e33b1fb86aadecd0b7a"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "d47da1d3fd3dfbae568b81c7",
+      "title": "補助金事業別評価シート(全国大会出場補助金)(PDFファイル:122.5KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/36_26718215.pdf",
+      "sourceSha256": "e8506b72bbef980ff0eebf8a90290567f86c2e817c424b5692c80c3b1661273a",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3745,
+      "fullTextSha256": "8f86bf88561d1c84ba62b1d318f6896645bde360d660de0a1011bba971659540"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-6523b8998d30031eead89570"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "e7800718e8e6dbb77122c237",
+      "title": "補助金事業別評価シート(町文化団体育成補助金)(PDFファイル:120.3KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/37_25038929.pdf",
+      "sourceSha256": "8b4ef52767ce4bcd5041f98db93e5df9218b882e49aa669e4b7e44d513983937",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3866,
+      "fullTextSha256": "01a27bd23adb508c9493665bf603a4093ff924d7a971e74c6443e4aca98a2fe3"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-4d0fc51f780dd530f65655fd"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "63e114a885ee118edc070ad3",
+      "title": "補助金事業別評価シート(女性団体連絡協議会活動費補助金)(PDFファイル:120.8KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/38_78858223.pdf",
+      "sourceSha256": "d4e8a4c141d5ae04c6a1f1534fd156f5734470b447ce0e3f5137e92db21f8a63",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3711,
+      "fullTextSha256": "49fa3c5230d9390b27f8eebb13ffb3f4a14b8ed944f6937080093e4d104c2fcf"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-c19017793f298021b6c885e6"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "a2a0e6a78520a69fafdd7f05",
+      "title": "補助金事業別評価シート(ホース購入補助金)(PDFファイル:119.1KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/39_93557963.pdf",
+      "sourceSha256": "dde2f6deb40bd2b9a904508aa4839f9bc288e70123f23fc2d750da701b305105",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3585,
+      "fullTextSha256": "a2716b348ae05cd76288893daccad0296370156d1fdd746e2b3c993801eaf76a"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-89f270dbe9488f5f00291c0e"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "000dc16645e84ae5a71ee62f",
+      "title": "補助金事業別評価シート(消火栓ホース購入補助金)(PDFファイル:122.5KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/40_36416522.pdf",
+      "sourceSha256": "e7d6278217cbf600ebf492368d0f3ef03a54e36f85937449fc5ffe7fe73c9b07",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3651,
+      "fullTextSha256": "147a8da8e32b8ceecb6e7b456807f584ee6ca580863eb006fc7701a2470ac704"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-1f7de4ca327edcc2b153b93b"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "825234b37eee5c3728a77384",
+      "title": "補助金事業別評価シート(県ポンプ繰法・ラッパ吹奏大会補助金)(PDFファイル:121.4KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/41_72786285.pdf",
+      "sourceSha256": "f0b23bbb883d6e7942c92d9653754e7bf7353342ce7328c6c51bd9257cdbf3e0",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3673,
+      "fullTextSha256": "6e25214342bc63d2519f10dc37aaf1baff98072b4aa02e123c766f987d3db7fc"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-b4fb2621207596fefde2b4cc"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  },
+  {
+    "source": {
+      "municipalityCode": "20382",
+      "municipalityName": "辰野町",
+      "sourceId": "872915fb1d74fd096c8b4195",
+      "title": "補助金事業別評価シート(郡ポンプ繰法・ラッパ吹奏大会補助金)(PDFファイル:120.9KB)",
+      "url": "https://www.town.tatsuno.lg.jp/material/files/group/3/42_68547767.pdf",
+      "sourceSha256": "669bbfee83a4fa80ff5ab682bc90113eb73f80e9ee264fdae9dbb3e25aedb6e1",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3614,
+      "fullTextSha256": "f28b411e268fb4f24238775fc254479e8c6ae0e44c6bc11a25109dd92568be80"
+    },
+    "individualSheetHeaders": 1,
+    "knownExistingIds": [
+      "cached-20382-7aca42dc80551c1d02e31edb"
+    ],
+    "status": "single_sheet_identity_covered",
+    "reason": "One literal sheet header, parser output already matched prior record. This establishes identity coverage, not every field extracted or numerical alignment."
+  }
+]

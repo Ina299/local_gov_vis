@@ -1,0 +1,734 @@
+[
+  {
+    "source": {
+      "municipalityCode": "20413",
+      "municipalityName": "天龍村",
+      "sourceId": "2ee6a3c6967e6f4edcbcca9a",
+      "title": "具体的な施策展開の進捗状況",
+      "url": "https://www.vill-tenryu.jp/wp-content/uploads/2026/02/shinchoku.pdf",
+      "sourceSha256": "25047516f4c87ae8dd971ec314663fb5684838267e53ea70618dff11a4450065",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3689,
+      "fullTextSha256": "6fb8889f6d5e390102c0be6b66094af7a6a4f8516a60dae5a2c23419b37ebacf"
+    },
+    "cover": {
+      "municipalityCode": "20413",
+      "municipalityName": "天龍村",
+      "sourceId": "d910ae1b28fd4196a7a10660",
+      "title": "第３期天龍村まち・ひと・しごと創生総合戦略・人口ビジョン策定 – 天龍村",
+      "url": "https://www.vill-tenryu.jp/information/totalplan_comment/",
+      "sourceSha256": "403dbf6e152183f39509394942ffdc01f8004ca9812968cad83bd6234e12391b",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 1297,
+      "fullTextSha256": "eb58fb19deca2c009652e692b22606ab880176f2fcdff9dda95d84f54441c1da"
+    },
+    "navigationReview": {
+      "checkedAt": "2026-10-23T18:47:04.492379+00:00",
+      "evidenceUrl": "https://www.vill-tenryu.jp/information/totalplan_comment/",
+      "method": "official_body_review",
+      "notes": "保存済み公式ページ（原本SHA-256 403dbf6e152183f39509394942ffdc01f8004ca9812968cad83bd6234e12391b）の本文リンクから機械的に収集。リンク先の内容・資料区分は未確認。",
+      "originEvidenceUrl": null,
+      "publisher": "天龍村",
+      "rawArchiveState": "collected",
+      "yearNotes": "未確認（リンク文字列のみ）"
+    },
+    "yearProof": "令和６年度末における事業の検証結果を公表します。",
+    "yearProofStart": 998,
+    "linkProof": "具体的な施策展開の進捗状況",
+    "linkProofStart": 1029,
+    "rows": [
+      {
+        "name": "結婚活動支援事業",
+        "raw": "結婚活動支援事業",
+        "start": 187,
+        "proof": "\n\n地域振興課\n\n〇\n\nC\n\n〇\n\nB\n\n地域振興課\n\n〇\n\nC\n\n〇\n\nB\n\n結婚活動支援事業\n\n地域振興課\n\n〇\n\nC\n\n〇\n\nC\n\n若い世代の出産・子育てをかなえる事業\n\n健康福祉課\n\n〇\n\nA\n\n〇\n\nA\n\n不妊症等治療支援事業\n\n健康福祉課\n\n福",
+        "proofStart": 147,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "若い世代の出産・子育てをかなえる事業",
+        "raw": "若い世代の出産・子育てをかなえる事業",
+        "start": 216,
+        "proof": "\n\nC\n\n〇\n\nB\n\n結婚活動支援事業\n\n地域振興課\n\n〇\n\nC\n\n〇\n\nC\n\n若い世代の出産・子育てをかなえる事業\n\n健康福祉課\n\n〇\n\nA\n\n〇\n\nA\n\n不妊症等治療支援事業\n\n健康福祉課\n\n福祉医療費給付事業（乳幼児・児童）\n\n健康福祉課\n\n出産祝金支給事業\n\n地域振興",
+        "proofStart": 176,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "不妊症等治療支援事業",
+        "raw": "不妊症等治療支援事業",
+        "start": 255,
+        "proof": "\n若い世代の出産・子育てをかなえる事業\n\n健康福祉課\n\n〇\n\nA\n\n〇\n\nA\n\n不妊症等治療支援事業\n\n健康福祉課\n\n福祉医療費給付事業（乳幼児・児童）\n\n健康福祉課\n\n出産祝金支給事業\n\n地域振興課\n\n子育て世帯支援金給付事業\n\n健康福祉課\n\nE\nA\nA\nA",
+        "proofStart": 215,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "福祉医療費給付事業（乳幼児・児童）",
+        "raw": "福祉医療費給付事業（乳幼児・児童）",
+        "start": 274,
+        "proof": "\n\n健康福祉課\n\n〇\n\nA\n\n〇\n\nA\n\n不妊症等治療支援事業\n\n健康福祉課\n\n福祉医療費給付事業（乳幼児・児童）\n\n健康福祉課\n\n出産祝金支給事業\n\n地域振興課\n\n子育て世帯支援金給付事業\n\n健康福祉課\n\nE\nA\nA\nA\nA\nA\nA\nA\nA\nB\nB\nA\n\n〇\n〇\n〇\n〇\n",
+        "proofStart": 234,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "出産祝金支給事業",
+        "raw": "出産祝金支給事業",
+        "start": 300,
+        "proof": "療支援事業\n\n健康福祉課\n\n福祉医療費給付事業（乳幼児・児童）\n\n健康福祉課\n\n出産祝金支給事業\n\n地域振興課\n\n子育て世帯支援金給付事業\n\n健康福祉課\n\nE\nA\nA\nA\nA\nA\nA\nA\nA\nB\nB\nA\n\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n\n",
+        "proofStart": 260,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "子育て世帯支援金給付事業",
+        "raw": "子育て世帯支援金給付事業",
+        "start": 317,
+        "proof": "療費給付事業（乳幼児・児童）\n\n健康福祉課\n\n出産祝金支給事業\n\n地域振興課\n\n子育て世帯支援金給付事業\n\n健康福祉課\n\nE\nA\nA\nA\nA\nA\nA\nA\nA\nB\nB\nA\n\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n\nE\nA\nA\nA\nA\nA\nA\nA\nA\nB\nB",
+        "proofStart": 277,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "婚活イベントの企画運営",
+        "raw": "婚活イベントの企画運営",
+        "start": 413,
+        "proof": "〇\n〇\n〇\n〇\n〇\n〇\n〇\n\nE\nA\nA\nA\nA\nA\nA\nA\nA\nB\nB\nA\n\n婚活イベントの企画運営\n施策１ 多様\nな出会いの 18\nエスコートセミナーの開催\n場の創出\n\n多子世帯への支援\n\n地域振興課\n\n保護者同士の交流促進事業(保育所)\n\n教育委員会\n\n保",
+        "proofStart": 373,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "エスコートセミナーの開催",
+        "raw": "エスコートセミナーの開催",
+        "start": 441,
+        "proof": "\nA\nA\nB\nB\nA\n\n婚活イベントの企画運営\n施策１ 多様\nな出会いの 18\nエスコートセミナーの開催\n場の創出\n\n多子世帯への支援\n\n地域振興課\n\n保護者同士の交流促進事業(保育所)\n\n教育委員会\n\n保護者同士の交流促進事業(未就園児)\n\n教育委員会\n\n子育て",
+        "proofStart": 401,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "保護者同士の交流促進事業(保育所)",
+        "raw": "保護者同士の交流促進事業(保育所)",
+        "start": 477,
+        "proof": " 18\nエスコートセミナーの開催\n場の創出\n\n多子世帯への支援\n\n地域振興課\n\n保護者同士の交流促進事業(保育所)\n\n教育委員会\n\n保護者同士の交流促進事業(未就園児)\n\n教育委員会\n\n子育て世代の母親への支援\n\n健康福祉課\n\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇",
+        "proofStart": 437,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "保護者同士の交流促進事業(未就園児)",
+        "raw": "保護者同士の交流促進事業(未就園児)",
+        "start": 503,
+        "proof": "帯への支援\n\n地域振興課\n\n保護者同士の交流促進事業(保育所)\n\n教育委員会\n\n保護者同士の交流促進事業(未就園児)\n\n教育委員会\n\n子育て世代の母親への支援\n\n健康福祉課\n\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n\n安心できる保育事業\n\n教育委員会\n\n〇\n\nA\n\n〇",
+        "proofStart": 463,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "子育て世代の母親への支援",
+        "raw": "子育て世代の母親への支援",
+        "start": 530,
+        "proof": "保育所)\n\n教育委員会\n\n保護者同士の交流促進事業(未就園児)\n\n教育委員会\n\n子育て世代の母親への支援\n\n健康福祉課\n\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n\n安心できる保育事業\n\n教育委員会\n\n〇\n\nA\n\n〇\n\nA\n\n地域ぐるみの保育事業\n\n教育委員",
+        "proofStart": 490,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "安心できる保育事業",
+        "raw": "安心できる保育事業",
+        "start": 576,
+        "proof": "母親への支援\n\n健康福祉課\n\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n\n安心できる保育事業\n\n教育委員会\n\n〇\n\nA\n\n〇\n\nA\n\n地域ぐるみの保育事業\n\n教育委員会\n\n他地域との交流保育事業\n\n教育委員会\n\n〇\n〇\n\nA\nB\n\n〇\n〇\n\nB\nB\n\n",
+        "proofStart": 536,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "地域ぐるみの保育事業",
+        "raw": "地域ぐるみの保育事業",
+        "start": 606,
+        "proof": "\n〇\n〇\n〇\n〇\n\n安心できる保育事業\n\n教育委員会\n\n〇\n\nA\n\n〇\n\nA\n\n地域ぐるみの保育事業\n\n教育委員会\n\n他地域との交流保育事業\n\n教育委員会\n\n〇\n〇\n\nA\nB\n\n〇\n〇\n\nB\nB\n\n「天龍力」を育む学校づくりの推進\n\n住民課\n\n「天龍力」を育む",
+        "proofStart": 566,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "他地域との交流保育事業",
+        "raw": "他地域との交流保育事業",
+        "start": 625,
+        "proof": "\n\n教育委員会\n\n〇\n\nA\n\n〇\n\nA\n\n地域ぐるみの保育事業\n\n教育委員会\n\n他地域との交流保育事業\n\n教育委員会\n\n〇\n〇\n\nA\nB\n\n〇\n〇\n\nB\nB\n\n「天龍力」を育む学校づくりの推進\n\n住民課\n\n「天龍力」を育む学校づくりの推進\n\n教育委員会\n\n〇\n\n",
+        "proofStart": 585,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "村費教員採用事業",
+        "raw": "村費教員採用事業",
+        "start": 783,
+        "proof": "育委員会\n\n〇\n\nA\n\n〇\n\nA\n\n放課後子ども総合プラン推進事業\n\n住民課\n\n村費教員採用事業\n\n教育委員会\n\n小中学校保護者への各種補助\n\n教育委員会\n教育委員会\n\n〇\n〇\n〇\n\nA\nA\nA\n\n〇\n〇\n〇\n\nA\nA\nA\n\n山村留学の検討・推進\n\n教育委",
+        "proofStart": 743,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "小中学校保護者への各種補助",
+        "raw": "小中学校保護者への各種補助",
+        "start": 800,
+        "proof": "\n放課後子ども総合プラン推進事業\n\n住民課\n\n村費教員採用事業\n\n教育委員会\n\n小中学校保護者への各種補助\n\n教育委員会\n教育委員会\n\n〇\n〇\n〇\n\nA\nA\nA\n\n〇\n〇\n〇\n\nA\nA\nA\n\n山村留学の検討・推進\n\n教育委員会\n\n〇\n\nA\n\n〇\n\nA\n\n山村留学の検",
+        "proofStart": 760,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "高校生通学費補助",
+        "raw": "高校生通学費補助",
+        "start": 918,
+        "proof": "A\n\n〇\n\nA\n\n山村留学の検討・推進\n\n地域振興課\n\n〇\n\nA\n\n〇\n\nA\n\n高校生通学費補助\n\n教育委員会\n\nYouTube等を活用したＰＲ\n\n総務課\n地域振興課\n\n〇\n〇\n〇\n\nA\nB\nA\n\n〇\n〇\n〇\n\nA\nB\nA\n\n地域振興課\n\n△\n\nD\n\n〇\n",
+        "proofStart": 878,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "「赤ちゃんおむつ補助券」交付事業",
+        "raw": "「赤ちゃんおむつ補助券」交付事業",
+        "start": 1090,
+        "proof": "\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n\nB\nB\nB\nB\nB\nA\nB\nA\n\n施策２ 若い\n「赤ちゃんおむつ補助券」交付事業\n世代の出\n20 ひとり親家族への支援事業\n産・子育てへ\nの支援\n給食費の無償化と、低所得者層等への保\n育料支援\n多子世帯への支援\n基本目標１\n若い世代の\n結婚",
+        "proofStart": 1050,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "ひとり親家族への支援事業",
+        "raw": "ひとり親家族への支援事業",
+        "start": 1115,
+        "proof": "\nA\nB\nA\n\n施策２ 若い\n「赤ちゃんおむつ補助券」交付事業\n世代の出\n20 ひとり親家族への支援事業\n産・子育てへ\nの支援\n給食費の無償化と、低所得者層等への保\n育料支援\n多子世帯への支援\n基本目標１\n若い世代の\n結婚・出産・\n子育てをか\nなえるむら\nづくり\n",
+        "proofStart": 1075,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "奨学金制度事業",
+        "raw": "奨学金制度事業",
+        "start": 1247,
+        "proof": "\n22\n\n施策３ 地域\nぐるみの子\n育て環境づ\nくり\n\n担当課\n\nR6\n\n23 奨学金制度事業\n\n施策１ 村の\nYouTube等を活用したＰＲ\n25\n魅力発信\n首都圏等の大型観光展でのＰＲ活動\n基本目標２\n定住関係情報の共有化\n関係人口の\n定住関係情報の",
+        "proofStart": 1207,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "首都圏等の大型観光展でのＰＲ活動",
+        "raw": "首都圏等の大型観光展でのＰＲ活動",
+        "start": 1287,
+        "proof": "奨学金制度事業\n\n施策１ 村の\nYouTube等を活用したＰＲ\n25\n魅力発信\n首都圏等の大型観光展でのＰＲ活動\n基本目標２\n定住関係情報の共有化\n関係人口の\n定住関係情報の共有化\n拡大と移住・\n定住の流れ\n定住促進事業\nをつくるむ 施策２ 若者\n「空き家情報登録制度」の",
+        "proofStart": 1247,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "定住促進事業",
+        "raw": "定住促進事業",
+        "start": 1351,
+        "proof": "住関係情報の共有化\n関係人口の\n定住関係情報の共有化\n拡大と移住・\n定住の流れ\n定住促進事業\nをつくるむ 施策２ 若者\n「空き家情報登録制度」の活用\nらづくり 世代等の定 28\n「空き家情報登録制度」の活用\n住促進\n地域おこし協力隊制度の活用\n\n健康福",
+        "proofStart": 1311,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "地域おこし協力隊制度の活用",
+        "raw": "地域おこし協力隊制度の活用",
+        "start": 1419,
+        "proof": "制度」の活用\nらづくり 世代等の定 28\n「空き家情報登録制度」の活用\n住促進\n地域おこし協力隊制度の活用\n\n健康福祉課\n健康福祉課\n教育委員会\n教育委員会\n\n地域振興課\n地域振興課\n建設課\n地域振興課\n地域振興課\n\n定住促進とＵＩＪターンの推進\n\n地域振興課\n\n関",
+        "proofStart": 1379,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "定住促進とＵＩＪターンの推進",
+        "raw": "定住促進とＵＩＪターンの推進",
+        "start": 1488,
+        "proof": "委員会\n教育委員会\n\n地域振興課\n地域振興課\n建設課\n地域振興課\n地域振興課\n\n定住促進とＵＩＪターンの推進\n\n地域振興課\n\n関係人口による地域間交流の深化\n\n地域振興課\n\n\n施策１ 安\n心・安全な\n健康長寿の\n基本目標３ むらづくり\n誰もが安心\nして暮らし\n続けられ",
+        "proofStart": 1448,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "関係人口による地域間交流の深化",
+        "raw": "関係人口による地域間交流の深化",
+        "start": 1511,
+        "proof": "建設課\n地域振興課\n地域振興課\n\n定住促進とＵＩＪターンの推進\n\n地域振興課\n\n関係人口による地域間交流の深化\n\n地域振興課\n\n\n施策１ 安\n心・安全な\n健康長寿の\n基本目標３ むらづくり\n誰もが安心\nして暮らし\n続けられる\nむらづくり\n\n健康福祉課\n\n〇\n〇\n〇\n\nA",
+        "proofStart": 1471,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "保健師就学資金貸付事業",
+        "raw": "保健師就学資金貸付事業",
+        "start": 1626,
+        "proof": "づくり\n\n健康福祉課\n\n〇\n〇\n〇\n\nA\nA\nA\n\n〇\n〇\n〇\n\nA\nA\nA\n\n保健師就学資金貸付事業\n\n健康福祉課\n\n〇\n\nE\n\n〇\n\nE\n\n31 在宅医療・介護連携推進事業\n\n健康福祉課\n\n在宅介護者等支援事業\n\n健康福祉課\n\n敬老祝金給付事業\n福祉施設等を",
+        "proofStart": 1586,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "在宅医療・介護連携推進事業",
+        "raw": "在宅医療・介護連携推進事業",
+        "start": 1661,
+        "proof": "A\nA\n\n保健師就学資金貸付事業\n\n健康福祉課\n\n〇\n\nE\n\n〇\n\nE\n\n31 在宅医療・介護連携推進事業\n\n健康福祉課\n\n在宅介護者等支援事業\n\n健康福祉課\n\n敬老祝金給付事業\n福祉施設等を活用した福祉サービスの提\n供\n生活支援・障害福祉サービス事業\n\n健康福祉課",
+        "proofStart": 1621,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "在宅介護者等支援事業",
+        "raw": "在宅介護者等支援事業",
+        "start": 1683,
+        "proof": "課\n\n〇\n\nE\n\n〇\n\nE\n\n31 在宅医療・介護連携推進事業\n\n健康福祉課\n\n在宅介護者等支援事業\n\n健康福祉課\n\n敬老祝金給付事業\n福祉施設等を活用した福祉サービスの提\n供\n生活支援・障害福祉サービス事業\n\n健康福祉課\n\nA\nA\nA\nA\nA\nA\nA\nA\nA",
+        "proofStart": 1643,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "敬老祝金給付事業",
+        "raw": "敬老祝金給付事業",
+        "start": 1702,
+        "proof": "宅医療・介護連携推進事業\n\n健康福祉課\n\n在宅介護者等支援事業\n\n健康福祉課\n\n敬老祝金給付事業\n福祉施設等を活用した福祉サービスの提\n供\n生活支援・障害福祉サービス事業\n\n健康福祉課\n\nA\nA\nA\nA\nA\nA\nA\nA\nA\nB\nA\nB\nA\nA\n\n〇\n〇\n〇",
+        "proofStart": 1662,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "生活支援・障害福祉サービス事業",
+        "raw": "生活支援・障害福祉サービス事業",
+        "start": 1732,
+        "proof": "業\n\n健康福祉課\n\n敬老祝金給付事業\n福祉施設等を活用した福祉サービスの提\n供\n生活支援・障害福祉サービス事業\n\n健康福祉課\n\nA\nA\nA\nA\nA\nA\nA\nA\nA\nB\nA\nB\nA\nA\n\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n\nA\nA\nA\nA\nA\nA\nA",
+        "proofStart": 1692,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "健康相談",
+        "raw": "健康相談",
+        "start": 1843,
+        "proof": "〇\n〇\n〇\n〇\n〇\n\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nA\nB\nA\nA\n\n健康相談\n\n健康福祉課\n\nあつまらまい会等各種支援事業\n\n健康福祉課\n\n介護予防事業\n\n新規就農林業者確保・支援・育成事業\n\n地域振興課\n\n茶生産振興支援\n\n地域振興課",
+        "proofStart": 1803,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "あつまらまい会等各種支援事業",
+        "raw": "あつまらまい会等各種支援事業",
+        "start": 1856,
+        "proof": "A\nA\nA\nA\nA\nA\nA\nA\nA\nA\nB\nA\nA\n\n健康相談\n\n健康福祉課\n\nあつまらまい会等各種支援事業\n\n健康福祉課\n\n介護予防事業\n\n新規就農林業者確保・支援・育成事業\n\n地域振興課\n\n茶生産振興支援\n\n地域振興課\n\n地場産品生産基盤整備補助事業\n\n地域振興課",
+        "proofStart": 1816,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "介護予防事業",
+        "raw": "介護予防事業",
+        "start": 1879,
+        "proof": "\nA\n\n健康相談\n\n健康福祉課\n\nあつまらまい会等各種支援事業\n\n健康福祉課\n\n介護予防事業\n\n新規就農林業者確保・支援・育成事業\n\n地域振興課\n\n茶生産振興支援\n\n地域振興課\n\n地場産品生産基盤整備補助事業\n\n地域振興課\n\n〇\n〇\n〇\n〇\n〇\n〇\n〇",
+        "proofStart": 1839,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "新規就農林業者確保・支援・育成事業",
+        "raw": "新規就農林業者確保・支援・育成事業",
+        "start": 1887,
+        "proof": "\n\n健康福祉課\n\nあつまらまい会等各種支援事業\n\n健康福祉課\n\n介護予防事業\n\n新規就農林業者確保・支援・育成事業\n\n地域振興課\n\n茶生産振興支援\n\n地域振興課\n\n地場産品生産基盤整備補助事業\n\n地域振興課\n\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n\n建設課",
+        "proofStart": 1847,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "茶生産振興支援",
+        "raw": "茶生産振興支援",
+        "start": 1913,
+        "proof": "康福祉課\n\n介護予防事業\n\n新規就農林業者確保・支援・育成事業\n\n地域振興課\n\n茶生産振興支援\n\n地域振興課\n\n地場産品生産基盤整備補助事業\n\n地域振興課\n\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n\n建設課\n\n〇\n\nB\n\n〇\n\nB\n\n地域",
+        "proofStart": 1873,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "地場産品生産基盤整備補助事業",
+        "raw": "地場産品生産基盤整備補助事業",
+        "start": 1929,
+        "proof": "就農林業者確保・支援・育成事業\n\n地域振興課\n\n茶生産振興支援\n\n地域振興課\n\n地場産品生産基盤整備補助事業\n\n地域振興課\n\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n\n建設課\n\n〇\n\nB\n\n〇\n\nB\n\n地域振興課\n\n〇\n\nA\n\n〇\n\nA\n\n地産地消の推",
+        "proofStart": 1889,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "地産地消の推進",
+        "raw": "地産地消の推進",
+        "start": 2017,
+        "proof": "\n〇\n\n建設課\n\n〇\n\nB\n\n〇\n\nB\n\n地域振興課\n\n〇\n\nA\n\n〇\n\nA\n\n地産地消の推進\n\n地域振興課\n\n〇\n\nA\n\n〇\n\nA\n\n特用林産物普及事業\n\n地域振興課\n\n△\n\nD\n\n△\n\nD\n\n就労の場の維持確保\n\n地域振興課\n\n（有）天龍農林業公社支",
+        "proofStart": 1977,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "特用林産物普及事業",
+        "raw": "特用林産物普及事業",
+        "start": 2045,
+        "proof": "〇\n\nA\n\n〇\n\nA\n\n地産地消の推進\n\n地域振興課\n\n〇\n\nA\n\n〇\n\nA\n\n特用林産物普及事業\n\n地域振興課\n\n△\n\nD\n\n△\n\nD\n\n就労の場の維持確保\n\n地域振興課\n\n（有）天龍農林業公社支援事業\n\n地域振興課\n\n優良農地維持・確保維持事業\n\n地域振",
+        "proofStart": 2005,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "就労の場の維持確保",
+        "raw": "就労の場の維持確保",
+        "start": 2075,
+        "proof": "\nA\n\n〇\n\nA\n\n特用林産物普及事業\n\n地域振興課\n\n△\n\nD\n\n△\n\nD\n\n就労の場の維持確保\n\n地域振興課\n\n（有）天龍農林業公社支援事業\n\n地域振興課\n\n優良農地維持・確保維持事業\n\n地域振興課\n\n農地荒廃化防止事業\n\n地域振興課\n\nA\nA\nA\nA\n",
+        "proofStart": 2035,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "（有）天龍農林業公社支援事業",
+        "raw": "（有）天龍農林業公社支援事業",
+        "start": 2093,
+        "proof": "業\n\n地域振興課\n\n△\n\nD\n\n△\n\nD\n\n就労の場の維持確保\n\n地域振興課\n\n（有）天龍農林業公社支援事業\n\n地域振興課\n\n優良農地維持・確保維持事業\n\n地域振興課\n\n農地荒廃化防止事業\n\n地域振興課\n\nA\nA\nA\nA\nC\nB\nA\nA\n\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n",
+        "proofStart": 2053,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "優良農地維持・確保維持事業",
+        "raw": "優良農地維持・確保維持事業",
+        "start": 2116,
+        "proof": "労の場の維持確保\n\n地域振興課\n\n（有）天龍農林業公社支援事業\n\n地域振興課\n\n優良農地維持・確保維持事業\n\n地域振興課\n\n農地荒廃化防止事業\n\n地域振興課\n\nA\nA\nA\nA\nC\nB\nA\nA\n\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n\nA\nA\nA\nA\nC\nB\nA\nA\n\n健康",
+        "proofStart": 2076,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "農地荒廃化防止事業",
+        "raw": "農地荒廃化防止事業",
+        "start": 2138,
+        "proof": "農林業公社支援事業\n\n地域振興課\n\n優良農地維持・確保維持事業\n\n地域振興課\n\n農地荒廃化防止事業\n\n地域振興課\n\nA\nA\nA\nA\nC\nB\nA\nA\n\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n\nA\nA\nA\nA\nC\nB\nA\nA\n\n健康福祉課\n健康福祉課\n\n天龍村診療所医",
+        "proofStart": 2098,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "天龍村診療所設備整備事業",
+        "raw": "天龍村診療所設備整備事業",
+        "start": 2276,
+        "proof": "等受\n健康福祉課\nけ入れ態勢の整備\n施策２ 地域\n健康福祉課\n医療体制の 32 天龍村診療所設備整備事業\n確保\n福祉有償バス事業\n健康福祉課\n福祉医療費給付事業（老人）\n\n健康福祉課\n\n農林業新規就業希望者への施策ＰＲ\n地域振興課\n農産品ブランド化に向けたプロモー",
+        "proofStart": 2236,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "福祉有償バス事業",
+        "raw": "福祉有償バス事業",
+        "start": 2292,
+        "proof": "備\n施策２ 地域\n健康福祉課\n医療体制の 32 天龍村診療所設備整備事業\n確保\n福祉有償バス事業\n健康福祉課\n福祉医療費給付事業（老人）\n\n健康福祉課\n\n農林業新規就業希望者への施策ＰＲ\n地域振興課\n農産品ブランド化に向けたプロモーション\n地域振興課\nの推",
+        "proofStart": 2252,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "福祉医療費給付事業（老人）",
+        "raw": "福祉医療費給付事業（老人）",
+        "start": 2307,
+        "proof": "医療体制の 32 天龍村診療所設備整備事業\n確保\n福祉有償バス事業\n健康福祉課\n福祉医療費給付事業（老人）\n\n健康福祉課\n\n農林業新規就業希望者への施策ＰＲ\n地域振興課\n農産品ブランド化に向けたプロモーション\n地域振興課\nの推進\n\n施策１ 若者\nが新規就業\n自然エネ",
+        "proofStart": 2267,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "農林業新規就業希望者への施策ＰＲ",
+        "raw": "農林業新規就業希望者への施策ＰＲ",
+        "start": 2329,
+        "proof": "確保\n福祉有償バス事業\n健康福祉課\n福祉医療費給付事業（老人）\n\n健康福祉課\n\n農林業新規就業希望者への施策ＰＲ\n地域振興課\n農産品ブランド化に向けたプロモーション\n地域振興課\nの推進\n\n施策１ 若者\nが新規就業\n自然エネルギー活用事業（木質バイオマス\nを目指した\n34 ",
+        "proofStart": 2289,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "買物拠点施設整備事業",
+        "raw": "買物拠点施設整備事業",
+        "start": 2468,
+        "proof": "\nくなる農林\n水産業の振\n興\n自然エネルギー活用事業（木質バイオマス\n導入）\n\n買物拠点施設整備事業\n\n地域振興課\n\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n\n新たな産業の創出支援\n\n地域振興課\n\n△\n\nD\n\n△\n\nD\n\n産業振興に寄与する「知の拠点」の形成\n（広域連",
+        "proofStart": 2428,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "新たな産業の創出支援",
+        "raw": "新たな産業の創出支援",
+        "start": 2504,
+        "proof": "入）\n\n買物拠点施設整備事業\n\n地域振興課\n\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n\n新たな産業の創出支援\n\n地域振興課\n\n△\n\nD\n\n△\n\nD\n\n産業振興に寄与する「知の拠点」の形成\n（広域連携事業）\n\n地域振興課\n\n〇\n\nB\n\n〇\n\nB\n\n長期滞在型観光プログラ",
+        "proofStart": 2464,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "長期滞在型観光プログラム",
+        "raw": "長期滞在型観光プログラム",
+        "start": 2583,
+        "proof": "る「知の拠点」の形成\n（広域連携事業）\n\n地域振興課\n\n〇\n\nB\n\n〇\n\nB\n\n長期滞在型観光プログラム\n\n地域振興課\n\n△\n\nD\n\n△\n\nD\n\n地域振興課\n地域振興課\n\n〇\n〇\n\nA\nB\n\n〇\n〇\n\nA\nB\n\n地域振興課\n\n〇\n\nA\n\n〇\n\nA\n\n観光資源ブラッ",
+        "proofStart": 2543,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "観光資源ブラッシュアップ事業",
+        "raw": "観光資源ブラッシュアップ事業",
+        "start": 2668,
+        "proof": "\n〇\n〇\n\nA\nB\n\n〇\n〇\n\nA\nB\n\n地域振興課\n\n〇\n\nA\n\n〇\n\nA\n\n観光資源ブラッシュアップ事業\n\n地域振興課\n\n〇\n\nA\n\n〇\n\nA\n\n道の駅整備\n\n建設課\n\n△\n\nD\n\n△\n\nD\n\n〇\n〇\n〇\n〇\n△\n\nA\nB\nB\nC\nD\n\n〇\n〇\n〇\n〇\n△\n\nA\n",
+        "proofStart": 2628,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "道の駅整備",
+        "raw": "道の駅整備",
+        "start": 2703,
+        "proof": "\n\nA\n\n観光資源ブラッシュアップ事業\n\n地域振興課\n\n〇\n\nA\n\n〇\n\nA\n\n道の駅整備\n\n建設課\n\n△\n\nD\n\n△\n\nD\n\n〇\n〇\n〇\n〇\n△\n\nA\nB\nB\nC\nD\n\n〇\n〇\n〇\n〇\n△\n\nA\nB\nA\nC\nD\n\n基本目標４ 施策２ 活気\n介護人材",
+        "proofStart": 2663,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "介護人材確保育成支援事業",
+        "raw": "介護人材確保育成支援事業",
+        "start": 2784,
+        "proof": "C\nD\n\n〇\n〇\n〇\n〇\n△\n\nA\nB\nA\nC\nD\n\n基本目標４ 施策２ 活気\n介護人材確保育成支援事業\n地域資源を ある産業で\n活用し、安定 雇用が生ま 37 有害鳥獣対策・活用事業\nしたこよう れるむらづ\n買物弱者対策事業\nくり\n\n大学生ボランティア等の受け入",
+        "proofStart": 2744,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "有害鳥獣対策・活用事業",
+        "raw": "有害鳥獣対策・活用事業",
+        "start": 2825,
+        "proof": "護人材確保育成支援事業\n地域資源を ある産業で\n活用し、安定 雇用が生ま 37 有害鳥獣対策・活用事業\nしたこよう れるむらづ\n買物弱者対策事業\nくり\n\n大学生ボランティア等の受け入れ\n施策３ 着地\n型観光産業 39 農林業体験交流事業\nの醸成\nツアーガイド養成",
+        "proofStart": 2785,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "買物弱者対策事業",
+        "raw": "買物弱者対策事業",
+        "start": 2849,
+        "proof": "活用し、安定 雇用が生ま 37 有害鳥獣対策・活用事業\nしたこよう れるむらづ\n買物弱者対策事業\nくり\n\n大学生ボランティア等の受け入れ\n施策３ 着地\n型観光産業 39 農林業体験交流事業\nの醸成\nツアーガイド養成講座\n\n健康福祉課\n地域振興課\n地域振興課",
+        "proofStart": 2809,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "大学生ボランティア等の受け入れ",
+        "raw": "大学生ボランティア等の受け入れ",
+        "start": 2862,
+        "proof": "37 有害鳥獣対策・活用事業\nしたこよう れるむらづ\n買物弱者対策事業\nくり\n\n大学生ボランティア等の受け入れ\n施策３ 着地\n型観光産業 39 農林業体験交流事業\nの醸成\nツアーガイド養成講座\n\n健康福祉課\n地域振興課\n地域振興課\n\n施策４ 観光\n観光拠点施設整備\n拠点",
+        "proofStart": 2822,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "農林業体験交流事業",
+        "raw": "農林業体験交流事業",
+        "start": 2894,
+        "proof": "策事業\nくり\n\n大学生ボランティア等の受け入れ\n施策３ 着地\n型観光産業 39 農林業体験交流事業\nの醸成\nツアーガイド養成講座\n\n健康福祉課\n地域振興課\n地域振興課\n\n施策４ 観光\n観光拠点施設整備\n拠点施設の\n専用ホームページの作成\n拡充、地域 41\n広",
+        "proofStart": 2854,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "ツアーガイド養成講座",
+        "raw": "ツアーガイド養成講座",
+        "start": 2908,
+        "proof": "ティア等の受け入れ\n施策３ 着地\n型観光産業 39 農林業体験交流事業\nの醸成\nツアーガイド養成講座\n\n健康福祉課\n地域振興課\n地域振興課\n\n施策４ 観光\n観光拠点施設整備\n拠点施設の\n専用ホームページの作成\n拡充、地域 41\n広域的イベントの強化やＰＲの推進",
+        "proofStart": 2868,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "観光拠点施設整備",
+        "raw": "観光拠点施設整備",
+        "start": 2946,
+        "proof": "成\nツアーガイド養成講座\n\n健康福祉課\n地域振興課\n地域振興課\n\n施策４ 観光\n観光拠点施設整備\n拠点施設の\n専用ホームページの作成\n拡充、地域 41\n広域的イベントの強化やＰＲの推進\n振興等の機\n能向上\n電光掲示板の設置\n\n地域振興課\n\n多言語案内看板\n",
+        "proofStart": 2906,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "専用ホームページの作成",
+        "raw": "専用ホームページの作成",
+        "start": 2961,
+        "proof": "康福祉課\n地域振興課\n地域振興課\n\n施策４ 観光\n観光拠点施設整備\n拠点施設の\n専用ホームページの作成\n拡充、地域 41\n広域的イベントの強化やＰＲの推進\n振興等の機\n能向上\n電光掲示板の設置\n\n地域振興課\n\n多言語案内看板\n\n地域振興課\n\n地域振興課\n地域振興",
+        "proofStart": 2921,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "広域的イベントの強化やＰＲの推進",
+        "raw": "広域的イベントの強化やＰＲの推進",
+        "start": 2982,
+        "proof": " 観光\n観光拠点施設整備\n拠点施設の\n専用ホームページの作成\n拡充、地域 41\n広域的イベントの強化やＰＲの推進\n振興等の機\n能向上\n電光掲示板の設置\n\n地域振興課\n\n多言語案内看板\n\n地域振興課\n\n地域振興課\n地域振興課\n地域振興課\n\n\n村政出前講座\n施策１ 住民\n各種",
+        "proofStart": 2942,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "電光掲示板の設置",
+        "raw": "電光掲示板の設置",
+        "start": 3009,
+        "proof": "の作成\n拡充、地域 41\n広域的イベントの強化やＰＲの推進\n振興等の機\n能向上\n電光掲示板の設置\n\n地域振興課\n\n多言語案内看板\n\n地域振興課\n\n地域振興課\n地域振興課\n地域振興課\n\n\n村政出前講座\n施策１ 住民\n各種活動支援事業\n参加のむら\n43\nづくり",
+        "proofStart": 2969,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "多言語案内看板",
+        "raw": "多言語案内看板",
+        "start": 3026,
+        "proof": "ベントの強化やＰＲの推進\n振興等の機\n能向上\n電光掲示板の設置\n\n地域振興課\n\n多言語案内看板\n\n地域振興課\n\n地域振興課\n地域振興課\n地域振興課\n\n\n村政出前講座\n施策１ 住民\n各種活動支援事業\n参加のむら\n43\nづくりの推\n各種活動支援事業\n進\n各種",
+        "proofStart": 2986,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "村政出前講座",
+        "raw": "村政出前講座",
+        "start": 3062,
+        "proof": "興課\n\n多言語案内看板\n\n地域振興課\n\n地域振興課\n地域振興課\n地域振興課\n\n\n村政出前講座\n施策１ 住民\n各種活動支援事業\n参加のむら\n43\nづくりの推\n各種活動支援事業\n進\n各種活動支援事業\n防災マップ整備事業\n\n基本目標５\n防災マップ整備事業\n持",
+        "proofStart": 3022,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "村道整備事業",
+        "raw": "村道整備事業",
+        "start": 3166,
+        "proof": "備事業\n\n基本目標５\n防災マップ整備事業\n持続可能で\n魅力あふれ 施策２ 生活\n村道整備事業\nるむらづく 基盤の安定\nＩＣＴネットワーク事業\nり\nを図り安心\n45 ＩＣＴネットワーク事業\nして暮らせ\nタクシー券（クオッシー）交付事業\nるむらづく\nり\n国",
+        "proofStart": 3126,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "タクシー券（クオッシー）交付事業",
+        "raw": "タクシー券（クオッシー）交付事業",
+        "start": 3226,
+        "proof": "ＣＴネットワーク事業\nり\nを図り安心\n45 ＩＣＴネットワーク事業\nして暮らせ\nタクシー券（クオッシー）交付事業\nるむらづく\nり\n国・県道改良促進要望活動事業\n\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n\n議会事務局\n総務課\n建設課\n地域振興課\n総務課\n建設課\n",
+        "proofStart": 3186,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "国・県道改良促進要望活動事業",
+        "raw": "国・県道改良促進要望活動事業",
+        "start": 3251,
+        "proof": "ネットワーク事業\nして暮らせ\nタクシー券（クオッシー）交付事業\nるむらづく\nり\n国・県道改良促進要望活動事業\n\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n\n議会事務局\n総務課\n建設課\n地域振興課\n総務課\n建設課\n建設課\n総務課\n健康福祉課\n健康福祉課\n建設課",
+        "proofStart": 3211,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Explicit business-name column; statuses include not-yet-started projects. No status/amount/department alignment inferred."
+      },
+      {
+        "name": "給食費の無償化と、低所得者層等への保育料支援",
+        "raw": "給食費の無償化と、低所得者層等への保\n育料支援",
+        "start": 1139,
+        "proof": "助券」交付事業\n世代の出\n20 ひとり親家族への支援事業\n産・子育てへ\nの支援\n給食費の無償化と、低所得者層等への保\n育料支援\n多子世帯への支援\n基本目標１\n若い世代の\n結婚・出産・\n子育てをか\nなえるむら\nづくり\n\n22\n\n施策３ 地域\nぐるみの子\n育て環境づ\nくり\n\n担当課\n\nR6",
+        "proofStart": 1099,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Consecutive wrapped business-name cell; no department text moved or neighbouring column guessed."
+      },
+      {
+        "name": "福祉施設等を活用した福祉サービスの提供",
+        "raw": "福祉施設等を活用した福祉サービスの提\n供",
+        "start": 1711,
+        "proof": "進事業\n\n健康福祉課\n\n在宅介護者等支援事業\n\n健康福祉課\n\n敬老祝金給付事業\n福祉施設等を活用した福祉サービスの提\n供\n生活支援・障害福祉サービス事業\n\n健康福祉課\n\nA\nA\nA\nA\nA\nA\nA\nA\nA\nB\nA\nB\nA\nA\n\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n〇\n",
+        "proofStart": 1671,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Consecutive wrapped business-name cell; no department text moved or neighbouring column guessed."
+      },
+      {
+        "name": "産業振興に寄与する「知の拠点」の形成（広域連携事業）",
+        "raw": "産業振興に寄与する「知の拠点」の形成\n（広域連携事業）",
+        "start": 2535,
+        "proof": "〇\n〇\n〇\n〇\n\n新たな産業の創出支援\n\n地域振興課\n\n△\n\nD\n\n△\n\nD\n\n産業振興に寄与する「知の拠点」の形成\n（広域連携事業）\n\n地域振興課\n\n〇\n\nB\n\n〇\n\nB\n\n長期滞在型観光プログラム\n\n地域振興課\n\n△\n\nD\n\n△\n\nD\n\n地域振興課\n地域振興課\n\n〇\n〇\n\nA\nB\n\n〇\n〇",
+        "proofStart": 2495,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Consecutive wrapped business-name cell; no department text moved or neighbouring column guessed."
+      }
+    ]
+  }
+]

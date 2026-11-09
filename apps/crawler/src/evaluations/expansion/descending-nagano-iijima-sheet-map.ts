@@ -1,0 +1,365 @@
+export const reviewed = [
+  {
+    "source": {
+      "municipalityCode": "20384",
+      "municipalityName": "飯島町",
+      "sourceId": "bedfce21ecb4317408da1eee",
+      "title": "令和7年度行政評価書（内部評価） [PDF｜3508.9KB]",
+      "url": "https://www.town.iijima.lg.jp/assets/images/content/content_20260924_141222.pdf",
+      "sourceSha256": "826ad6b1c448794720a8b1237e0be68fe2995f24f3276ddbf224b7b70abb4f07",
+      "listedContinuations": [
+        {
+          "assetBytes": 244089,
+          "assetPath": "documents/bedfce21ecb4317408da1eee-2.json",
+          "assetSha256": "5760cd34c95baf441ce9d0998e45ef72301c9a1bec093973cd9dfc9ffe47a385",
+          "exportedCharacters": 95162,
+          "part": 2,
+          "startCharacter": 120000,
+          "textSha256": "257cefde2d3d47911391e40bb64aeb2b0075dcedf749c2594082bb81257a5984"
+        }
+      ],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 215162,
+      "fullTextSha256": "32b17ca2e6c97576c866c9a5bdf8d437731f5100ae9f817dacfb1f2d45699ea6"
+    },
+    "rows": [],
+    "yearProof": "令和７年度\n行政評価書（内部評価）\n\n2026年（令和８年）６月\n飯 島 町",
+    "yearProofStart": 0
+  },
+  {
+    "source": {
+      "municipalityCode": "20384",
+      "municipalityName": "飯島町",
+      "sourceId": "a544f56b778257a6b1462b6e",
+      "title": "令和6年度行政評価書（内部評価） [PDF｜3698KB]",
+      "url": "https://www.town.iijima.lg.jp/assets/images/content/content_20260814_154318.pdf",
+      "sourceSha256": "146767a94b4428e338e973fb01b91248a894ca3ee8028364ac6f1fd9a7019fa4",
+      "listedContinuations": [
+        {
+          "assetBytes": 256504,
+          "assetPath": "documents/a544f56b778257a6b1462b6e-2.json",
+          "assetSha256": "a0401591ac021364df5d1120720f03610003bb0f42c17dc2fa18733681bcd37c",
+          "exportedCharacters": 99524,
+          "part": 2,
+          "startCharacter": 120000,
+          "textSha256": "fd48dffdbfe44bdf07291df0290601f619c2911b1eedcfb9a4738c748e46e4cf"
+        }
+      ],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 219524,
+      "fullTextSha256": "1a9d7cddf3ef8fb95a528dcfae8219590fd39be5d96091265a52cd4cfb40b560"
+    },
+    "rows": [],
+    "yearProof": "令和６年度\n行政評価書（内部評価）\n\n2025年（令和７年）６月\n飯 島 町",
+    "yearProofStart": 0
+  },
+  {
+    "source": {
+      "municipalityCode": "20384",
+      "municipalityName": "飯島町",
+      "sourceId": "2b3a5ca5ebd4032f0d2a4650",
+      "title": "令和5年度行政評価書（内部評価） [PDF｜4264.7KB]",
+      "url": "https://www.town.iijima.lg.jp/assets/images/content/content_20260814_154329.pdf",
+      "sourceSha256": "67c21f51be18caf45e8f77d7f455b4c0922072226d90f8c10917322df5f0e485",
+      "listedContinuations": [
+        {
+          "assetBytes": 260331,
+          "assetPath": "documents/2b3a5ca5ebd4032f0d2a4650-2.json",
+          "assetSha256": "6721fa077b4d4aaa8127f8524544a388b4bbad16f755cba1ab96089fd19f1efe",
+          "exportedCharacters": 101107,
+          "part": 2,
+          "startCharacter": 120000,
+          "textSha256": "38c2b02fea51f4127fe62e754822d747cbc56cdf9a33ad8495bc6d80564474d6"
+        }
+      ],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 221107,
+      "fullTextSha256": "109cdfbf0d0e98f078d83aec1c52cca334831cf19026763b5e71f38f489c52dc"
+    },
+    "rows": [
+      {
+        "name": "老人福祉総務費",
+        "projectCode": "2301",
+        "start": 51360,
+        "raw": "2301 老人福祉\n総務費",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n決算額\n\n令和４年度\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n効\n率\n性\n\n民\n間\n活\n用\n\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和４年度\n\n令和５年度\n\n令和５年度\n\n2301 老人福祉\n総務費\n8,920\n\n3\n\n8,106\n\n●令和５年度物価高騰対応重点支援\n地方創生臨時交付金を活用し、物価\n高騰の影響を受けている町内の社会\n福祉施設に支援金を交付\n\n●社会福祉施設物価高騰対策支援金\nを、町内全11事業者に交付しまし\nた。アンケート調査により、支援金\n交付が負担軽減につながったと回答\nした事業者が約80％ありました。\n\nⅥ\n\na\n\n10,018\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\na\n\na\n\na\n\na\n\na\n\nⅥ\n\n3\n\n9,922\n\n",
+        "proofStart": 51138,
+        "evaluatedFiscalYear": 2023,
+        "evaluationYear": 2024,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      },
+      {
+        "name": "感染症予防事業",
+        "projectCode": "2821",
+        "start": 57286,
+        "raw": "2821 感染症予\n防事業",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n決算額\n\n令和４年度\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n効\n率\n性\n\n民\n間\n活\n用\n\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和４年度\n\n令和５年度\n\n令和５年度\n\n2821 感染症予\n防事業\n25,609\n\n25,068\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\n3\n\n23,803\n\n●結核レントゲン検査\n●定期・任意予防接種業務\n●風しんに関する追加的対策事業\n●感染症対策事業\n\n3\n\n23,704\n\n●乳幼児の予防接種は接種控えもな\nく適時接種を受けています。未接種\n者への接種勧奨も適時に実施しまし\nた。●風しんの追加的対策は５年目\nであり意識が薄れているためと病院\nでの抗体検査に抵抗があるためか受\n診者は横ばいの状況が続いていま\nす。令和６年度が最終年度であるた\nめ令和５年度末に現在の未接種者\n517名に対し接種勧奨を実施しまし\nた。抗体検査57件、そのうち抗体が\nなく接種した件数11件（接種割合約\n20％）でした。（令和６年３月26日\n現在）●感染症対策について、新型\nコロナウイルス感染症に関する対策\nのみ引き続き実施しました。\n\nⅠ\n\na\n\na\n\na\n\nc\n\na\n\na\n\nⅡ\n\n",
+        "proofStart": 57064,
+        "evaluatedFiscalYear": 2023,
+        "evaluationYear": 2024,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      },
+      {
+        "name": "新型コロナウイルスワクチン接種事業",
+        "projectCode": "2823",
+        "start": 58336,
+        "raw": "2823 新型コロ\nナウイル\nスワクチ\nン接種事\n業",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n決算額\n\n令和４年度\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n効\n率\n性\n\n民\n間\n活\n用\n\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和４年度\n\n令和５年度\n2823 新型コロ\nナウイル\nスワクチ\nン接種事\n業\n\n61,632\n\n22,089\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\n令和５年度\n\n1\n\n60,048\n\n1\n\n20,368\n\n●新型コロナウイルスワクチン接種 ●町内医療機関、近隣市町村と連携\n業務の実施\nし、集団接種・個別接種を計画的に\n行うことができました。\n●令和５年度実績\n➣春開始接種：接種率\n全体：23.5％\n65歳以上：57.6％\n（令和５年10月１日現在県週報）\n➣秋開始接種：接種率\n全体：37.3％\n65歳以上：64.9％\n（令和６年３月30日現在県週報最終\n報）\n\nⅡ\n\na\n\nb\n\na\n\nc\n\nb\n\nc\n\nⅥ\n\n",
+        "proofStart": 58122,
+        "evaluatedFiscalYear": 2023,
+        "evaluationYear": 2024,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      },
+      {
+        "name": "道の駅田切の里管理費",
+        "projectCode": "3743",
+        "start": 96086,
+        "raw": "3743 道の駅田\n切の里管\n理費",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n決算額\n\n令和４年度\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n効\n率\n性\n\n民\n間\n活\n用\n\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和４年度\n\n令和５年度\n3743 道の駅田\n切の里管\n理費\n\n13,488\n\n令和５年度\n\n3\n\n12,478\n\n●道の駅田切の里の適正管理による ●新型コロナウイルス感染症の影響\n情報発信・地域づくりの推進\nは徐々に復帰傾向にあり、適正な管\n理運営が実施されました。\n●必要な施設修繕を実施しました。\n\nⅡ\na\n\n9,217\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\nb\n\nb\n\nc\n\nb\n\nb\n\nⅡ\n\n3\n\n7,992\n\n",
+        "proofStart": 95872,
+        "evaluatedFiscalYear": 2023,
+        "evaluationYear": 2024,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      },
+      {
+        "name": "林業総務費",
+        "projectCode": "3801",
+        "start": 96782,
+        "raw": "3801 林業総務\n費",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n決算額\n\n令和４年度\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n効\n率\n性\n\n民\n間\n活\n用\n\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和４年度\n\n令和５年度\n\n令和５年度\n\n3801 林業総務\n費\n4,603\n\n8,379\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\n2\n\n3,477\n\n●境界確認の実施、森の学校の実\n施、危険・支障木伐採によるライフ\nラインの確保、森林整備計画の意見\n徴収等\n\n●年度内に２回の境界確認を実施し\nました。\n●森の学校については町内小学４年\n生を対象に実施し、アンケート結果\nからも飯島町の森林について興味を\n持ってもらうことができました。\n●危険、支障木の伐採を積極的に行\nい、ライフラインの確保を行うこと\nができました。\n\nⅡ\na\n\na\n\nb\n\na\n\nb\n\na\n\nⅡ\n\n2\n\n8,149\n\n",
+        "proofStart": 96560,
+        "evaluatedFiscalYear": 2023,
+        "evaluationYear": 2024,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      },
+      {
+        "name": "子育て世帯０－３歳上下水道関連応援事業",
+        "projectCode": "1175",
+        "start": 119653,
+        "raw": "1175 子育て世\n帯０－３\n歳上下水\n道関連応\n援事業",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n決算額\n\n令和４年度\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n効\n率\n性\n\n民\n間\n活\n用\n\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和４年度\n\n令和５年度\n1175 子育て世\n帯０－３\n歳上下水\n道関連応\n援事業\n\n令和５年度\n●子育て世帯0-3歳上下水道関連応\n援事業補助金の交付\n\n1,200\n\n1,000\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\n3\n\n895\n\n●子育て世帯０-３歳児補助金の交\n付取扱いに係る適正な事務執行を行\nうことができました。\n➣補助額：１人／５千円\n➣令和５年度対象者：174人\n➣令和５年度実績：154人\n➣補助金支出額：770千円\n\nⅠ\na\n\na\n\na\n\na\n\na\n\na\n\n3\n\n770\n\nⅠ\n\n",
+        "proofStart": 119439,
+        "evaluatedFiscalYear": 2023,
+        "evaluationYear": 2024,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      },
+      {
+        "name": "上水道整備事業",
+        "projectCode": "2861",
+        "start": 120281,
+        "raw": "2861 上水道整\n備事業",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n決算額\n\n令和４年度\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n効\n率\n性\n\n民\n間\n活\n用\n\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和４年度\n\n令和５年度\n\n令和５年度\n\n2861 上水道整\n備事業\n1,000\n\n2\n\n1,000\n\n●計画的な遠距離給水管工事の実施 ●遠距離給水件数１件\n（１件／年）\n➣町費施工対象延長合計\n：70.0ｍ\n\nⅠ\na\n\n500\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\na\n\na\n\na\n\na\n\na\n\nⅠ\n\n3\n\n500\n\n",
+        "proofStart": 120059,
+        "evaluatedFiscalYear": 2023,
+        "evaluationYear": 2024,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      },
+      {
+        "name": "国際・友好都市交流費",
+        "projectCode": "1162",
+        "start": 144229,
+        "raw": "1162 国際・友\n好都市交\n流費",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n決算額\n\n令和４年度\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n効\n率\n性\n\n民\n間\n活\n用\n\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和４年度\n\n令和５年度\n1162 国際・友\n好都市交\n流費\n\n108\n\n令和５年度\n\n3\n\n108\n\n150\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\n●みなこいワールドフェスタ（飯島\n町会場）への支援\n●駒ケ根協力隊を育てる会への参加\n●姉妹都市等との交流\n●民間ボランティア日本語教室立ち\n上げ・運営に関する協力\n\n●駒ケ根協力隊を育てる会幹事会出\n席（２回）\n●姉妹都市の斑鳩町イベント参加\n（２回）\n●当町の産業まつりに鳥羽市と斑鳩\n町参加\n●日本語教室の学習者やスタッフの\n募集、会場確保\n\nⅠ\na\n\na\n\nb\n\na\n\na\n\nb\n\nⅠ\n\n3\n\n72\n\n",
+        "proofStart": 144015,
+        "evaluatedFiscalYear": 2023,
+        "evaluationYear": 2024,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      },
+      {
+        "name": "儲かる飯島町チャレンジ事業",
+        "projectCode": "1165",
+        "start": 144863,
+        "raw": "1165 儲かる飯\n島町チャ\nレンジ事\n業",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n決算額\n\n令和４年度\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n効\n率\n性\n\n民\n間\n活\n用\n\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和４年度\n\n令和５年度\n1165 儲かる飯\n島町チャ\nレンジ事\n業\n\n9,866\n\n8,878\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\n令和５年度\n\n3\n\n8,793\n\n●営業部活動 総会及び活動（ポ\nピー祭りへの協力、山の日イベント\nの協力、スイセン植栽）を実施\n●インターネット販売は楽天市場を\n継続実施\n●地域おこし協力隊（都市農村交\n流）業務\n\n3\n\n8,462\n\n●営業部活動においては、３点重点\n活動とし、うちポピー祭りへの協力\nについては主催者都合により中止と\nなったものの、他２点活動について\nは予定通り実施できました。●特\nに、スイセンの植栽については営業\n部員の声掛けにより中学生8名が参\n加し2,500球の球根を植栽しまし\nた。●インターネット販売は2月末\n時点で前年比28％減となりました。\n\nⅣ\nb\n\nb\n\nc\n\nb\n\nb\n\nb\n\nⅤ\n\n",
+        "proofStart": 144649,
+        "evaluatedFiscalYear": 2023,
+        "evaluationYear": 2024,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      },
+      {
+        "name": "中学校教育振興費",
+        "projectCode": "5321",
+        "start": 189099,
+        "raw": "5321 中学校教\n育振興費",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n決算額\n\n令和４年度\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n効\n率\n性\n\n民\n間\n活\n用\n\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和４年度\n\n令和５年度\n\n令和５年度\n\n5321 中学校教\n育振興費\n12,779\n\n17,176\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\n3\n\n11,801\n\n●コロナ禍後における適正な教育活\n動の推進\n●ＩＣＴ教育・ＧＩＧＡスクール構\n想に基づいた継続した環境整備\n（ハード）を実施\n●ソフト（活用）面の充実・強化を\n実施\n●老朽化した教材等の更新を実施・\n経済的な理由で学習面で不利な児童\n生徒が出ないように、家庭の支援を\n実施（就学援助費）\n\n3\n\n15,839\n\n●教材提示装置（電子黒板）を１台\n配備、その他情報機器の更新等によ\nりＩＣＴ教育を推進しました。\n●教育クラウドプラットフォーム\n「まなびポケット」を導入したの\nで、有効な活用方法を検討し、運用\n準備を進めました。\n●準要保護就学援助20名に支給しま\nした。\n●各教科教材備品の更新を行いまし\nた。\n➣電子ミシン（家庭科委）\n➣真空落下実験機（理科）\n➣映像遅延再生装置（体育）\nほか\n\nⅡ\n\na\n\nb\n\nb\n\na\n\nb\n\nb\n\nⅡ\n\n",
+        "proofStart": 188877,
+        "evaluatedFiscalYear": 2023,
+        "evaluationYear": 2024,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      },
+      {
+        "name": "議会費",
+        "projectCode": "1001",
+        "start": 218692,
+        "raw": "1001 議会費",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n決算額\n\n令和４年度\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n民\n間\n活\n用\n\n効\n率\n性\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和４年度\n\n令和５年度\n\n令和５年度\n\n1001 議会費\n\n54,593\n\n55,408\n\n53,714\n\n54,430\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\n3\n\n3\n\n●タブレット端末の活用を推進\n●議場へのモニター導入と一般質問\nでの活用\n●行政運営や議会運営の研修などへ\nのサポート\n\n●全員協議会資料についてＰＤＦ化\nしクラウド上に配置しました。\n●各議員はタブレットを用いてクラ\nウド上の資料を活用することが出来\nました。\n●タブレットの操作やメールのやり\n取りが不得手な議員についてサポー\nトを行いました。\n●議場にパソコンと大型モニターを\n設置し、３月定例会より一般質問の\n資料提示に活用しました。\n●議会活動や運営方法について問題\nが発生したり、議員から疑義があっ\nた場合に調査や県議長会への問合せ\nを行いました。\n\nⅠ\n\na\n\na\n\nb\n\na\n\na\n\na\n\nⅠ\n\n\n",
+        "proofStart": 218471,
+        "evaluatedFiscalYear": 2023,
+        "evaluationYear": 2024,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      }
+    ],
+    "yearProof": "令和５年度\n行政評価書（内部評価）\n\n2024年（令和６年）６月\n飯 島 町",
+    "yearProofStart": 0
+  },
+  {
+    "source": {
+      "municipalityCode": "20384",
+      "municipalityName": "飯島町",
+      "sourceId": "6311e3a822a1b2fce4a3d545",
+      "title": "令和4年度行政評価書（内部評価） [PDF｜4137.4KB]",
+      "url": "https://www.town.iijima.lg.jp/assets/images/content/content_20260814_154339.pdf",
+      "sourceSha256": "3f5ffe41fa5907da3d77b8f6786ea6a012c4aca1ae62b672c4417c8ece1646c4",
+      "listedContinuations": [
+        {
+          "assetBytes": 255010,
+          "assetPath": "documents/6311e3a822a1b2fce4a3d545-2.json",
+          "assetSha256": "af04fb0978daee950909a9cef73b786671c96abedab2b07b43a6929f69cd76d9",
+          "exportedCharacters": 98629,
+          "part": 2,
+          "startCharacter": 120000,
+          "textSha256": "05a1d2f49fe2045dde9383e19fce98239224b3c187f74279e66f4f325c20198d"
+        }
+      ],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 218629,
+      "fullTextSha256": "44293cc9f5e632fe771f6fdcedd5626999a6b9c4a1f7a261470de948ac56c3d1"
+    },
+    "rows": [
+      {
+        "name": "老人福祉総務費",
+        "projectCode": "2301",
+        "start": 51827,
+        "raw": "2301 老人福祉\n総務費",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n決算額\n\n令和３年度\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n効\n率\n性\n\n民\n間\n活\n用\n\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和３年度\n\n令和４年度\n\n令和４年度\n\n2301 老人福祉\n総務費\n─\n\n8,920\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\n─\n\n─\n\n●低所得者及び低所得の高齢者等へ\nの特別生活支援給付事業として、対\n象者にくらし復興券を無料交付\n●令和４年度新型コロナウイルス感\n染症対応地方創生臨時交付金を活用\nし、原油価格の高騰により影響を受\nけている町内の社会福祉施設に補助\n金の交付\n\n3\n\n8,106\n\n●くらし復興券の無料交付により、\n低所得者及び低所得の高齢者等の生\n活支援に繋がりました。\n【無料交付】\n➣非課税世帯：1,155人\n➣非課税高齢者：981人\n➣障がい者：130人\n●社会福祉施設原油価格高騰対策支\n援補助金については、町内全11事業\n者に交付しました。アンケート調査\nにより、補助金交付が負担軽減につ\nながったと回答した事業者が90％あ\nりました。\n\n─\n\na\n\na\n\na\n\na\n\na\n\na\n\nⅥ\n\n",
+        "proofStart": 51605,
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": 2023,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      },
+      {
+        "name": "感染症予防事業",
+        "projectCode": "2821",
+        "start": 57811,
+        "raw": "2821 感染症予\n防事業",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n決算額\n\n令和３年度\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n効\n率\n性\n\n民\n間\n活\n用\n\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和３年度\n\n令和４年度\n\n令和４年度\n\n2821 感染症予\n防事業\n26,017\n\n25,609\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\n3\n\n24,857\n\n●結核レントゲン検査\n●定期・任意予防接種業務\n●風しんに関する追加的対策事業\n●感染症対策事業\n\n3\n\n23,803\n\n●乳幼児の予防接種は接種控えもな\nく適時接種を受けている。未接種者\nへの接種勧奨も適時に実施しまし\nた。\n●風しんの追加的対策は４年目であ\nり意識が薄れているためと感染症の\n影響か病院での抗体検査に抵抗があ\nるため受診者は増えませんでした。\nなお、抗体検査48件、そのうち抗体\nがなく接種した件数20件（接種割合\n約40％）でした。\n●感染症対策について、新型コロナ\nウイルス感染症に関する対策のみ引\nき続き実施しました。\n\nⅠ\n\na\n\na\n\na\n\nc\n\na\n\na\n\nⅠ\n\n",
+        "proofStart": 57589,
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": 2023,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      },
+      {
+        "name": "新型コロナウイルスワクチン接種事業",
+        "projectCode": "2823",
+        "start": 58801,
+        "raw": "2823 新型コロ\nナウイル\nスワクチ\nン接種事\n業",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n決算額\n\n令和３年度\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n効\n率\n性\n\n民\n間\n活\n用\n\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和３年度\n\n令和４年度\n2823 新型コロ\nナウイル\nスワクチ\nン接種事\n業\n\n55,852\n\n61,632\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\n令和４年度\n\n1\n\n53,524\n\n●新型コロナウイルスワクチン接種 ●町内医療機関、近隣市町村と連携\n業務の実施\nし、集団接種・個別接種を計画的に\n行うことができました。\n➣１回目接種率：85.3％\n➣２回目接種率：85.1％\n➣３回目接種率：79.2％\n➣４回目接種率：77.9％※\n（上伊那郡内１位、県内15位）\n※令和５年４月速報値より\n\nⅡ\n\na\n\nb\n\na\n\nc\n\nb\n\nc\n\nⅡ\n\n1\n\n60,048\n\n",
+        "proofStart": 58587,
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": 2023,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      },
+      {
+        "name": "林業総務費",
+        "projectCode": "3801",
+        "start": 96478,
+        "raw": "3801 林業総務\n費",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n決算額\n\n令和３年度\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n効\n率\n性\n\n民\n間\n活\n用\n\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和３年度\n\n令和４年度\n\n令和４年度\n\n3801 林業総務\n費\n5,941\n\n4,603\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\n2\n\n5,669\n\n●境界確認の実施、森の学校の実\n●６月に計２回の境界確認を実施し\n施、もりもり上伊那山の感謝祭への ました。\n参加、森林整備計画の意見徴収等\n●８月、９月に森の学校の準備、10\n月に森の学校を開催しました。10月\nに行われた森の学校は、３年ぶりの\n開催となり町内小学４年生に飯島町\nの森林について興味を持ってもらう\nことができました。\n\nⅡ\nb\n\na\n\nb\n\na\n\nb\n\na\n\nⅡ\n\n2\n\n3,477\n\n",
+        "proofStart": 96256,
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": 2023,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      },
+      {
+        "name": "伝統技術等承継支援事業",
+        "projectCode": "4123",
+        "start": 105825,
+        "raw": "4123 伝統技術\n等承継支\n援事業",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n決算額\n\n令和３年度\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n効\n率\n性\n\n民\n間\n活\n用\n\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和３年度\n\n令和４年度\n4123 伝統技術\n等承継支\n援事業\n\n4,450\n\n2,782\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\n令和４年度\n\n1\n\n3,557\n\n●他自治体地域おこし協力隊とのコ\nラボ商品づくり\n●わら細工ワークショップ講師\n●わら細工講座受講によるスキル\nアップ\n●農業実践（米、わらづくり）\n\n●新聞等で協力隊員の活動が取り上\nげられ、飯島町のわら細工文化のＰ\nＲができました。\n●わら細工、しめ飾りづくりなど町\n民からの講師依頼が多く、これまで\n習得したわら細工技術が地域還元さ\nれました。\n\nⅠ\nb\n\nb\n\na\n\na\n\na\n\na\n\n2\n\n2,776\n\nⅥ\n\n",
+        "proofStart": 105611,
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": 2023,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      },
+      {
+        "name": "子育て世帯０－３歳上下水道関連応援事業",
+        "projectCode": "1175",
+        "start": 118330,
+        "raw": "1175 子育て世\n帯０－３\n歳上下水\n道関連応\n援事業",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n決算額\n\n令和３年度\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n効\n率\n性\n\n民\n間\n活\n用\n\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和３年度\n\n令和４年度\n1175 子育て世\n帯０－３\n歳上下水\n道関連応\n援事業\n\n令和４年度\n●子育て世帯０-３歳上下水道関連\n応援事業補助金の創設\n\n─\n\n1,200\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\n─\n\n─\n\n●子育て世帯０-３歳児補助金の交\n付取扱いに係る適正な事務執行を行\nうことができました。\n➣補助額：１人／５千円\n➣令和４年度対象者：199人\n➣令和４年度実績：179人\n➣補助金支出額：895千円\n\n─\na\n\na\n\na\n\na\n\na\n\na\n\n3\n\n895\n\nⅠ\n\n",
+        "proofStart": 118116,
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": 2023,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      },
+      {
+        "name": "上水道整備事業",
+        "projectCode": "2861",
+        "start": 118961,
+        "raw": "2861 上水道整\n備事業",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n決算額\n\n令和３年度\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n効\n率\n性\n\n民\n間\n活\n用\n\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和３年度\n\n令和４年度\n\n令和４年度\n\n2861 上水道整\n備事業\n500\n\n3\n\n500\n\n●計画的な遠距離給水管工事の実施 ●遠距離給水件数２件\n（１件／年）\n（町費施工対象延長合計：176.1\nｍ）\n\nⅡ\na\n\n1,000\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\na\n\na\n\na\n\na\n\na\n\nⅠ\n\n2\n\n1,000\n\n",
+        "proofStart": 118739,
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": 2023,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      },
+      {
+        "name": "国際・友好都市交流費",
+        "projectCode": "1162",
+        "start": 141988,
+        "raw": "1162 国際・友\n好都市交\n流費",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n決算額\n\n令和３年度\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n効\n率\n性\n\n民\n間\n活\n用\n\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和３年度\n\n令和４年度\n1162 国際・友\n好都市交\n流費\n\n96\n\n令和４年度\n\n3\n\n23\n\n●みなこいワールドフェスタ（飯島\n町会場）への支援\n●駒ケ根協力隊を育てる会への参加\n●姉妹都市等との交流\n\n●駒ケ根協力隊を育てる会が40周年\nとなり、これまでの活動の歴史を\n「40周年記念パネル展」として文化\n館エントランスに展示しました。\n\nⅠ\na\n\n108\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\na\n\nb\n\na\n\na\n\nb\n\nⅠ\n\n3\n\n108\n\n",
+        "proofStart": 141774,
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": 2023,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      },
+      {
+        "name": "儲かる飯島町チャレンジ事業",
+        "projectCode": "1165",
+        "start": 142581,
+        "raw": "1165 儲かる飯\n島町チャ\nレンジ事\n業",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n決算額\n\n令和３年度\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n効\n率\n性\n\n民\n間\n活\n用\n\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和３年度\n\n令和４年度\n1165 儲かる飯\n島町チャ\nレンジ事\n業\n\n14,207\n9,866\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\n令和４年度\n\n4\n\n12,986\n\n3\n\n8,793\n\n●営業部活動 総会及び各部の取り\n組みを実施\n●インターネット販売は楽天市場を\n継続実施\n\n●営業部においては、各部会を横断\nした「いいじま健康マルシェ」（3\n部会参加）の開催や、「花マップ作\n製」などの各部会での自主的な取り\n組みを行いました。\n\nⅡ\nb\n\nb\n\nc\n\nb\n\nb\n\nb\n\nⅣ\n\n",
+        "proofStart": 142367,
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": 2023,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      },
+      {
+        "name": "活性化推進事業",
+        "projectCode": "1166",
+        "start": 143646,
+        "raw": "1166 活性化推\n進事業",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n決算額\n\n令和３年度\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n効\n率\n性\n\n民\n間\n活\n用\n\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和３年度\n\n令和４年度\n\n令和４年度\n\n1166 活性化推\n進事業\n28,782\n\n35,692\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\n3\n\n28,033\n\n●ふるさと納税額増加による財源確\n保\n●魅力ある返礼品の発掘\n●寄附リピーターの確保\n●キッチンカー等の積極的な貸し出\nしによる町内事業者支援\n\n●ふるさと納税の返礼品に新商品を\n追加するなどして寄附者の獲得に寄\n与することができました。\n●キッチンカーやいいちゃん着ぐる\nみの貸し出し要望が増え町のＰＲが\nできました。\n●ふるさと大使の活用ができません\nでした。\n\nⅡ\na\n\na\n\na\n\nb\n\nb\n\na\n\nⅡ\n\n2\n\n35,175\n\n",
+        "proofStart": 143424,
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": 2023,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      },
+      {
+        "name": "中学校教育振興費",
+        "projectCode": "5321",
+        "start": 185568,
+        "raw": "5321 中学校教\n育振興費",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n決算額\n\n令和３年度\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n効\n率\n性\n\n民\n間\n活\n用\n\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和３年度\n\n令和４年度\n\n令和４年度\n\n5321 中学校教\n育振興費\n32,899\n\n12,779\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\n3\n\n32,177\n\n3\n\n11,801\n\n●学習活動を学習指導要領に則り適\n正に実施\n●ＩＣＴ教育・ＧＩＧＡスクール構\n想に則した環境整備（ハード）を実\n施\n●ソフト（活用）面の充実・強化を\n実施\n●老朽化した教材等の更新を実施\n●経済的な理由で学習面で不利な児\n童生徒が出ないように、家庭の支援\nを実施（就学援助費）\n\n●教材提示装置（電子黒板）を３台\n整備しＩＣＴ教育を推進しました。\n●教育クラウドプラットフォーム\n「まなびポケット」を導入しまし\nた。\n●準要保護就学援助18名に支給しま\nした。\n\nⅡ\na\n\nb\n\nb\n\na\n\nb\n\nb\n\nⅡ\n\n",
+        "proofStart": 185346,
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": 2023,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      },
+      {
+        "name": "議会費",
+        "projectCode": "1001",
+        "start": 216082,
+        "raw": "1001 議会費",
+        "proof": "事務事業評価\n基本情報\n事\n業\nコ\nー\nド\n\n事\n業\n名\n称\n\n事業費（千円）\n\n予算額\n\n達\n成\n度\n\n決算額\n\n令和３年度\n\n計画\n(Plan)\n主\nな\n取\n組\n内\n容\n\n実施\n(Do)\n主\nな\n取\n組\n内\n容\nの\n実\n績\n等\n\n評価\n(Check)\n有\n効\n性\n\n必\n要\n性\n町\n民\nニ\nー\nズ\n\n民\n間\nで\nの\n事\n例\n\n民\n間\n活\n用\n\n効\n率\n性\n手\n法\n見\n直\nし\n\n質\nの\n向\n上\n\n令和３年度\n\n令和４年度\n\n令和４年度\n\n1001 議会費\n\n52,498\n\n54,593\n\n51,732\n\n53,714\n\n改善\n(Action)\n今\n後\nの\n方\n向\n性\n\n3\n\n3\n\n●タブレット端末の活用を推進\n●全員協議会資料についてＰＤＦ化\n●行政運営や議会運営の研修などへ しクラウド上に配置しました。\nのサポート\n●各議員はタブレットを用いてクラ\nウド上の資料を活用することが出来\nました。\n●タブレットの操作やメールのやり\n取りが不得手な議員についてサポー\nトを行いました。\n●議会事務局のＷi-Ｆiを更新する\nとともに、議場にもＷi-Ｆi機器を\n設置し、議場でのＷi-Ｆi接続不具\n合の解消をしました。\n●導入後５年が経過する議員用タブ\nレットの更新を行いました。\n●議会活動や運営方法について問題\nが発生したり、議員から疑義があっ\nた場合に調査や県議長会への問合せ\nを行いました。\n●議会の個人情報保護条例、また施\n行規程の原案作成を行いました。\n\nⅠ\n\na\n\na\n\nb\n\na\n\na\n\na\n\nⅠ\n\n\n",
+        "proofStart": 215861,
+        "evaluatedFiscalYear": 2022,
+        "evaluationYear": 2023,
+        "note": "Summary full-title matches individual sheet code/name, two explicit year columns. Existing master samecode/name FY screened regardless evaluationYear. Costs/status omitted."
+      }
+    ],
+    "yearProof": "令和４年度\n行政評価書（内部評価）\n\n2023年（令和５年）６月\n飯 島 町",
+    "yearProofStart": 0
+  }
+];

@@ -1,0 +1,959 @@
+[
+  {
+    "source": {
+      "municipalityCode": "20384",
+      "municipalityName": "飯島町",
+      "sourceId": "d3403495a098f2faf891742a",
+      "title": "令和7年度行政評価（実施計画（施策））外部評価結果 [PDF｜1399.8KB]",
+      "url": "https://www.town.iijima.lg.jp/assets/images/content/content_20260924_171703.pdf",
+      "sourceSha256": "32cad900241f42931525cca390104454c178d0c25076ab0b845e6bafb618705b",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 29251,
+      "fullTextSha256": "e8b13673ca546d91b255dfc8151fc1ada00f4b181f7731f333da16d9512e0cdf"
+    },
+    "units": [
+      {
+        "start": 1988,
+        "end": 2700,
+        "fiscalYear": 2025,
+        "codeTokens": [
+          "1861"
+        ],
+        "sameYearRecordIds": {
+          "1861": [
+            "cached-20384-665778dd9ca708a4466ba73d"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 4855,
+        "end": 5254,
+        "fiscalYear": 2025,
+        "codeTokens": [
+          "1861"
+        ],
+        "sameYearRecordIds": {
+          "1861": [
+            "cached-20384-665778dd9ca708a4466ba73d"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 7082,
+        "end": 8140,
+        "fiscalYear": 2025,
+        "codeTokens": [
+          "1193"
+        ],
+        "sameYearRecordIds": {
+          "1193": [
+            "cached-20384-b6aa8252a20d64168a2322c1"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 9747,
+        "end": 9849,
+        "fiscalYear": 2025,
+        "codeTokens": [],
+        "sameYearRecordIds": {},
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 11774,
+        "end": 12827,
+        "fiscalYear": 2025,
+        "codeTokens": [
+          "2872"
+        ],
+        "sameYearRecordIds": {
+          "2872": [
+            "cached-20384-c01daf7039eab3b37c2440a1"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 14198,
+        "end": 15290,
+        "fiscalYear": 2025,
+        "codeTokens": [
+          "2852",
+          "2853"
+        ],
+        "sameYearRecordIds": {
+          "2852": [
+            "cached-20384-765d9fda82fead22c6fe04a9"
+          ],
+          "2853": [
+            "cached-20384-e9e527eee3b701f4e8a2a1e7"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 16749,
+        "end": 17545,
+        "fiscalYear": 2025,
+        "codeTokens": [
+          "2671"
+        ],
+        "sameYearRecordIds": {
+          "2671": [
+            "cached-20384-40beeb99f751a5896e6ec2f6"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 19474,
+        "end": 20686,
+        "fiscalYear": 2025,
+        "codeTokens": [
+          "3111",
+          "3212",
+          "3300"
+        ],
+        "sameYearRecordIds": {
+          "3111": [
+            "cached-20384-33e173147eaef16df4082c4d"
+          ],
+          "3212": [],
+          "3300": [
+            "cached-20384-d6d6131f4da5f60b7b2491fc"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": [
+          "3212"
+        ]
+      },
+      {
+        "start": 22460,
+        "end": 22800,
+        "fiscalYear": 2025,
+        "codeTokens": [
+          "4532"
+        ],
+        "sameYearRecordIds": {
+          "4532": [
+            "cached-20384-914587d06b3621b7d1c21ef5"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 24633,
+        "end": 25685,
+        "fiscalYear": 2025,
+        "codeTokens": [
+          "1171"
+        ],
+        "sameYearRecordIds": {
+          "1171": [
+            "cached-20384-3cf2b04b0409e5675e7a1b72"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 27272,
+        "end": 28718,
+        "fiscalYear": 2025,
+        "codeTokens": [
+          "1176",
+          "1178",
+          "4145"
+        ],
+        "sameYearRecordIds": {
+          "1176": [],
+          "1178": [],
+          "4145": [
+            "cached-20384-c65b84a8b7c8d93a9c5a697d"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": [
+          "1176",
+          "1178"
+        ]
+      }
+    ]
+  },
+  {
+    "source": {
+      "municipalityCode": "20384",
+      "municipalityName": "飯島町",
+      "sourceId": "c2041fa603319fb268b9b35c",
+      "title": "令和6年度行政評価（実施計画（施策））外部評価結果 [PDF｜1099.7KB]",
+      "url": "https://www.town.iijima.lg.jp/assets/images/content/content_20260814_153954.pdf",
+      "sourceSha256": "b76702c3eea6352f5359e26fb352bb922b8e73abd88e61ce235db76ec0080f48",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 27728,
+      "fullTextSha256": "7ed89dfe0a7dfcfeb72c84bb925d905620826cb46741043f4219e982d9a791b5"
+    },
+    "units": [
+      {
+        "start": 1984,
+        "end": 2738,
+        "fiscalYear": 2024,
+        "codeTokens": [
+          "1861"
+        ],
+        "sameYearRecordIds": {
+          "1861": [
+            "cached-20384-0ff7e53b6d0947ee9a031a44"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 4931,
+        "end": 5825,
+        "fiscalYear": 2024,
+        "codeTokens": [
+          "1861"
+        ],
+        "sameYearRecordIds": {
+          "1861": [
+            "cached-20384-0ff7e53b6d0947ee9a031a44"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 7462,
+        "end": 7565,
+        "fiscalYear": 2024,
+        "codeTokens": [],
+        "sameYearRecordIds": {},
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 9420,
+        "end": 9523,
+        "fiscalYear": 2024,
+        "codeTokens": [],
+        "sameYearRecordIds": {},
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 11513,
+        "end": 12595,
+        "fiscalYear": 2024,
+        "codeTokens": [
+          "3213"
+        ],
+        "sameYearRecordIds": {
+          "3213": [
+            "cached-20384-7a48dae5b973f4ff9fec03ff"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 13617,
+        "end": 14786,
+        "fiscalYear": 2024,
+        "codeTokens": [
+          "2252",
+          "2255"
+        ],
+        "sameYearRecordIds": {
+          "2252": [
+            "cached-20384-85bed311364acc67974b82f3"
+          ],
+          "2255": [
+            "cached-20384-85efd5fa9e11e980344a8cd1"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 16180,
+        "end": 16598,
+        "fiscalYear": 2024,
+        "codeTokens": [],
+        "sameYearRecordIds": {},
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 18281,
+        "end": 18782,
+        "fiscalYear": 2024,
+        "codeTokens": [
+          "3213"
+        ],
+        "sameYearRecordIds": {
+          "3213": [
+            "cached-20384-7a48dae5b973f4ff9fec03ff"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 20389,
+        "end": 21302,
+        "fiscalYear": 2024,
+        "codeTokens": [
+          "4411"
+        ],
+        "sameYearRecordIds": {
+          "4411": [
+            "cached-20384-118917f1343fdb543473ac15"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 22652,
+        "end": 23566,
+        "fiscalYear": 2024,
+        "codeTokens": [
+          "1192"
+        ],
+        "sameYearRecordIds": {
+          "1192": [
+            "cached-20384-5b822a1d9af9b53853777e70"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 25668,
+        "end": 26775,
+        "fiscalYear": 2024,
+        "codeTokens": [
+          "1176",
+          "1178"
+        ],
+        "sameYearRecordIds": {
+          "1176": [
+            "cached-20384-011604fc2923db72cb3d4eec"
+          ],
+          "1178": [
+            "cached-20384-ef615c5ab2c286383b3e96cf"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      }
+    ]
+  },
+  {
+    "source": {
+      "municipalityCode": "20384",
+      "municipalityName": "飯島町",
+      "sourceId": "03361cf95f4cdbcfa51021b8",
+      "title": "令和5年度行政評価（実施計画（施策））外部評価結果 [PDF｜1110.1KB]",
+      "url": "https://www.town.iijima.lg.jp/assets/images/content/content_20260814_154001.pdf",
+      "sourceSha256": "5052d6d79da799ca1f1ddb13bbafc34f2a47fe92354251d6b517f88891040caf",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 27677,
+      "fullTextSha256": "7b633420b0baa8dbbea8ee978bd05438accf9a7f972cf59d8fd3e3613d7b325e"
+    },
+    "units": [
+      {
+        "start": 2114,
+        "end": 2542,
+        "fiscalYear": 2023,
+        "codeTokens": [
+          "1861"
+        ],
+        "sameYearRecordIds": {
+          "1861": [
+            "cached-20384-fd4f07b96d6c007aedf2e7d0"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 5262,
+        "end": 6076,
+        "fiscalYear": 2023,
+        "codeTokens": [
+          "1861"
+        ],
+        "sameYearRecordIds": {
+          "1861": [
+            "cached-20384-fd4f07b96d6c007aedf2e7d0"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 7441,
+        "end": 8467,
+        "fiscalYear": 2023,
+        "codeTokens": [
+          "2872"
+        ],
+        "sameYearRecordIds": {
+          "2872": [
+            "cached-20384-3ef921d3b7c6706cd96813cc"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 10109,
+        "end": 11307,
+        "fiscalYear": 2023,
+        "codeTokens": [
+          "2303",
+          "7767"
+        ],
+        "sameYearRecordIds": {
+          "2303": [
+            "cached-20384-f569307908327bf189250d55"
+          ],
+          "7767": [
+            "cached-20384-6740423f536fb1f6c28f1ff7"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 12249,
+        "end": 12542,
+        "fiscalYear": 2023,
+        "codeTokens": [
+          "3213"
+        ],
+        "sameYearRecordIds": {
+          "3213": [
+            "cached-20384-e63556c9d60bfcb52acd71f2"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 14350,
+        "end": 14603,
+        "fiscalYear": 2023,
+        "codeTokens": [],
+        "sameYearRecordIds": {},
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 16209,
+        "end": 17083,
+        "fiscalYear": 2023,
+        "codeTokens": [
+          "1174"
+        ],
+        "sameYearRecordIds": {
+          "1174": [
+            "cached-20384-7bffa661c254c00b7425f7e5"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 18428,
+        "end": 19662,
+        "fiscalYear": 2023,
+        "codeTokens": [
+          "2671",
+          "5123"
+        ],
+        "sameYearRecordIds": {
+          "2671": [
+            "cached-20384-f4b7cad5ed2dae9e547e99d7"
+          ],
+          "5123": [
+            "cached-20384-9746cefd5326f3b7a8a9c41f"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 21228,
+        "end": 21326,
+        "fiscalYear": 2023,
+        "codeTokens": [],
+        "sameYearRecordIds": {},
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 23187,
+        "end": 23286,
+        "fiscalYear": 2023,
+        "codeTokens": [],
+        "sameYearRecordIds": {},
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 25569,
+        "end": 26739,
+        "fiscalYear": 2023,
+        "codeTokens": [
+          "1176",
+          "1178"
+        ],
+        "sameYearRecordIds": {
+          "1176": [
+            "cached-20384-6ac81d2d257f88ecbb9466b4"
+          ],
+          "1178": [
+            "cached-20384-d3d114cbb0befb544339c44d"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      }
+    ]
+  },
+  {
+    "source": {
+      "municipalityCode": "20384",
+      "municipalityName": "飯島町",
+      "sourceId": "f44f001ff52fbd20353eaba2",
+      "title": "令和4年度行政評価（実施計画（施策））外部評価結果 [PDF｜902.1KB]",
+      "url": "https://www.town.iijima.lg.jp/assets/images/content/content_20260814_154010.pdf",
+      "sourceSha256": "c02a6c1ba513322c67cb77030c0cdba53c1a1ed136916667f96d5f3b5a51c669",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 28532,
+      "fullTextSha256": "fb594cef9f3147d466bc44e0b00894426625e80112960d44f3fb029bbcfeb4ac"
+    },
+    "units": [
+      {
+        "start": 2097,
+        "end": 2850,
+        "fiscalYear": 2022,
+        "codeTokens": [
+          "1861"
+        ],
+        "sameYearRecordIds": {
+          "1861": [
+            "cached-20384-91aa3bded76881589ca19d19"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 5260,
+        "end": 6268,
+        "fiscalYear": 2022,
+        "codeTokens": [
+          "1861"
+        ],
+        "sameYearRecordIds": {
+          "1861": [
+            "cached-20384-91aa3bded76881589ca19d19"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 7463,
+        "end": 8412,
+        "fiscalYear": 2022,
+        "codeTokens": [
+          "2872"
+        ],
+        "sameYearRecordIds": {
+          "2872": [
+            "cached-20384-2991fae0bfd9ad5cd4706458"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 9706,
+        "end": 10089,
+        "fiscalYear": 2022,
+        "codeTokens": [
+          "2104",
+          "2308"
+        ],
+        "sameYearRecordIds": {
+          "2104": [
+            "cached-20384-78a4981286f28fa153de2f47"
+          ],
+          "2308": [
+            "cached-20384-e1eb37db142469e1b9bdce4b"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 12133,
+        "end": 12399,
+        "fiscalYear": 2022,
+        "codeTokens": [
+          "3213"
+        ],
+        "sameYearRecordIds": {
+          "3213": [
+            "cached-20384-ed659924fc6709eae1b675ee"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 14162,
+        "end": 15103,
+        "fiscalYear": 2022,
+        "codeTokens": [
+          "4532"
+        ],
+        "sameYearRecordIds": {
+          "4532": [
+            "cached-20384-17bd1390f7acf4333b0a0c2d"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 16440,
+        "end": 17260,
+        "fiscalYear": 2022,
+        "codeTokens": [
+          "1171"
+        ],
+        "sameYearRecordIds": {
+          "1171": [
+            "cached-20384-4fff6d068114125c48d72896"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 18667,
+        "end": 20057,
+        "fiscalYear": 2022,
+        "codeTokens": [
+          "5221",
+          "5251",
+          "5321"
+        ],
+        "sameYearRecordIds": {
+          "5221": [
+            "cached-20384-a21239a74b78ae634c3e9226"
+          ],
+          "5251": [
+            "cached-20384-d2ce92edbf59f53c898a8ea4"
+          ],
+          "5321": [
+            "cached-20384-826c4d8af1ea2561654f29e5"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 21795,
+        "end": 21893,
+        "fiscalYear": 2022,
+        "codeTokens": [],
+        "sameYearRecordIds": {},
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 23725,
+        "end": 23824,
+        "fiscalYear": 2022,
+        "codeTokens": [],
+        "sameYearRecordIds": {},
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 26123,
+        "end": 27729,
+        "fiscalYear": 2022,
+        "codeTokens": [
+          "1176",
+          "1178"
+        ],
+        "sameYearRecordIds": {
+          "1176": [
+            "cached-20384-1b9bbb668d7c45940d74edc4"
+          ],
+          "1178": [
+            "cached-20384-dfef7ef77ed93184a03df394"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      }
+    ]
+  },
+  {
+    "source": {
+      "municipalityCode": "20384",
+      "municipalityName": "飯島町",
+      "sourceId": "ca7ad459ce28e18510ce2ed6",
+      "title": "令和3年度行政評価（実施計画（施策））外部評価結果 [PDF｜880.5KB]",
+      "url": "https://www.town.iijima.lg.jp/assets/images/content/content_20260814_154020.pdf",
+      "sourceSha256": "0c40351a3af01eded120d47a53fc27397c54c3f2e1256b9ef70bfd4a7c0db2f0",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 25086,
+      "fullTextSha256": "cb290faad0925c22898131f082b775fe9a104db6855fccfcdf08051caa59d256"
+    },
+    "units": [
+      {
+        "start": 3026,
+        "end": 3720,
+        "fiscalYear": 2021,
+        "codeTokens": [
+          "1861"
+        ],
+        "sameYearRecordIds": {
+          "1861": [
+            "cached-20384-ea7027ba464ba13158044724"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 5068,
+        "end": 5476,
+        "fiscalYear": 2021,
+        "codeTokens": [
+          "2872"
+        ],
+        "sameYearRecordIds": {
+          "2872": [
+            "cached-20384-65466ab7d3c673e6515253f0"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 7528,
+        "end": 8445,
+        "fiscalYear": 2021,
+        "codeTokens": [
+          "2853",
+          "6051",
+          "6052",
+          "6053"
+        ],
+        "sameYearRecordIds": {
+          "2853": [
+            "cached-20384-79f22a0133934fa9a25500a4"
+          ],
+          "6051": [
+            "cached-20384-cf8619db70b33693d6003e52"
+          ],
+          "6052": [
+            "cached-20384-15f7802e2c08f0658d649c9e"
+          ],
+          "6053": [
+            "cached-20384-b74b274b1d4f7bd9db8424c4"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 9900,
+        "end": 10324,
+        "fiscalYear": 2021,
+        "codeTokens": [
+          "4124"
+        ],
+        "sameYearRecordIds": {
+          "4124": [
+            "cached-20384-b0aeac0d979aaba28abbdb74"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 11920,
+        "end": 12484,
+        "fiscalYear": 2021,
+        "codeTokens": [],
+        "sameYearRecordIds": {},
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 13968,
+        "end": 14901,
+        "fiscalYear": 2021,
+        "codeTokens": [
+          "4143",
+          "4441"
+        ],
+        "sameYearRecordIds": {
+          "4143": [
+            "cached-20384-09514038484bc3f9ceb0dd7d"
+          ],
+          "4441": [
+            "cached-20384-683f154820ed9fe2f253e218"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 16091,
+        "end": 17136,
+        "fiscalYear": 2021,
+        "codeTokens": [
+          "5623",
+          "5631",
+          "5641"
+        ],
+        "sameYearRecordIds": {
+          "5623": [
+            "cached-20384-9d20eceaa558a9d75c71b7f8"
+          ],
+          "5631": [
+            "cached-20384-0d5abea9c5a1cde2aa38d440"
+          ],
+          "5641": [
+            "cached-20384-e5616430edc3485aa6f3ec23"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 18793,
+        "end": 19526,
+        "fiscalYear": 2021,
+        "codeTokens": [
+          "1161"
+        ],
+        "sameYearRecordIds": {
+          "1161": []
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": [
+          "1161"
+        ]
+      },
+      {
+        "start": 21103,
+        "end": 22209,
+        "fiscalYear": 2021,
+        "codeTokens": [
+          "1176"
+        ],
+        "sameYearRecordIds": {
+          "1176": [
+            "cached-20384-cfff690692d4c9ea61c70951"
+          ]
+        },
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      },
+      {
+        "start": 24192,
+        "end": 24288,
+        "fiscalYear": 2021,
+        "codeTokens": [],
+        "sameYearRecordIds": {},
+        "status": "code_inventory_only",
+        "reason": "Policy grade never inherited. Standalone code tokens can be displaced; exact code/name identity and all table positions still require review.",
+        "unmatchedCodes": []
+      }
+    ]
+  }
+]

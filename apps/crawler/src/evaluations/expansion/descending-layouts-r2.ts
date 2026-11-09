@@ -1,3 +1,10 @@
+import{reviewIijima2021}from'./descending-nagano-iijima-2021';
+import{reviewIijimaSheets}from'./descending-nagano-iijima-sheet';
+import{reviewTakamori}from'./descending-nagano-takamori';
+import{reviewShimojo}from'./descending-nagano-shimojo';
+import{reviewTenryu}from'./descending-nagano-tenryu';
+import{reviewYasuoka}from'./descending-nagano-yasuoka';
+import{reviewKisoNext}from'./descending-nagano-kiso-next';
 import{reviewToyooka}from'./descending-nagano-toyooka';
 import{reviewOshika}from'./descending-nagano-oshika';
 import{reviewNagisoNext}from'./descending-nagano-nagiso-next';
@@ -81,6 +88,13 @@ export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]
  const nagisonextReview=reviewNagisoNext(input);if(nagisonextReview)return nagisonextReview;
  const oshikaReview=reviewOshika(input);if(oshikaReview)return oshikaReview;
  const toyookaReview=reviewToyooka(input,inputs);if(toyookaReview)return toyookaReview;
+ const kisonextReview=reviewKisoNext(input);if(kisonextReview)return kisonextReview;
+ const yasuokaReview=reviewYasuoka(input);if(yasuokaReview)return yasuokaReview;
+ const tenryuReview=reviewTenryu(input,inputs);if(tenryuReview)return tenryuReview;
+ const shimojoReview=reviewShimojo(input);if(shimojoReview)return shimojoReview;
+ const takamoriReview=reviewTakamori(input);if(takamoriReview)return takamoriReview;
+ const iijimasheetReview=reviewIijimaSheets(input);if(iijimasheetReview)return iijimasheetReview;
+ const iijima2021Review=reviewIijima2021(input,inputs);if(iijima2021Review)return iijima2021Review;
  const grantsReview=reviewNaganoGrants(input);if(grantsReview)return grantsReview;
  const strategyReview=reviewStrategy(input);if(strategyReview)return strategyReview;
  const nagisoReview=reviewNagiso(input);if(nagisoReview)return nagisoReview;

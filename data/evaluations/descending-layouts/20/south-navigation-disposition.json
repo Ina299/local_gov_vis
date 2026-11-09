@@ -1,0 +1,20 @@
+[
+  {
+    "sourceId": "f93c12ecab7329f10d735f91",
+    "municipalityCode": "20412",
+    "status": "procurement_not_evaluation",
+    "reason": "Proposal solicitation; budget ceiling10252000 and planned completion are not actual costs or completed programme evaluation."
+  },
+  {
+    "sourceId": "3b48fe486f6fa4d61db8b7e7",
+    "municipalityCode": "20407",
+    "status": "navigation_only",
+    "reason": "Only yearly links in cached203characters; no individual sheets; linked bodies not acquired."
+  },
+  {
+    "sourceId": "0e962e6b9aa9155592598157",
+    "municipalityCode": "20411",
+    "status": "four_individual_multi_year_project_proposals",
+    "reason": "Named implemented projects with explicit evaluation2009; targetyearnull, district total and indicatorvalues omitted."
+  }
+]

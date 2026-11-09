@@ -1,0 +1,1061 @@
+{
+  "sourceId": "f11ddfd5f73ec7357670ba47",
+  "scannedTitleRows": 173,
+  "proposals": 161,
+  "units": [
+    {
+      "start": 25006,
+      "code": "1110",
+      "name": "一般管理事務費",
+      "status": "proposal"
+    },
+    {
+      "start": 25022,
+      "code": "1111",
+      "name": "一般管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 25239,
+      "code": "1152",
+      "name": "役場庁舎管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 26293,
+      "code": "1153",
+      "name": "車両管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 26404,
+      "code": "1156",
+      "name": "西庁舎管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 26418,
+      "code": "1193",
+      "name": "循環バス運行事業",
+      "status": "proposal"
+    },
+    {
+      "start": 27280,
+      "code": "1194",
+      "name": "飯島駅管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 27405,
+      "code": "1801",
+      "name": "交通安全対策費",
+      "status": "proposal"
+    },
+    {
+      "start": 28322,
+      "code": "1831",
+      "name": "防犯対策費",
+      "status": "proposal"
+    },
+    {
+      "start": 29231,
+      "code": "1861",
+      "name": "防災対策費",
+      "status": "proposal"
+    },
+    {
+      "start": 31366,
+      "code": "4921",
+      "name": "非常備消防費",
+      "status": "proposal"
+    },
+    {
+      "start": 32648,
+      "code": "4931",
+      "name": "消防施設費",
+      "status": "proposal"
+    },
+    {
+      "start": 32661,
+      "code": "4941",
+      "name": "水防費",
+      "status": "proposal"
+    },
+    {
+      "start": 33626,
+      "code": "4951",
+      "name": "災害対策費",
+      "status": "name_boundary_needs_review",
+      "reason": "No unique exact next-report summary title match; do not invent title joining."
+    },
+    {
+      "start": 33756,
+      "code": "1121",
+      "name": "文書費",
+      "status": "proposal"
+    },
+    {
+      "start": 34436,
+      "code": "1122",
+      "name": "広報広聴費",
+      "status": "proposal"
+    },
+    {
+      "start": 35206,
+      "code": "1167",
+      "name": "情報機器管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 36423,
+      "code": "1161",
+      "name": "企画費",
+      "status": "name_boundary_needs_review",
+      "reason": "No unique exact next-report summary title match; do not invent title joining."
+    },
+    {
+      "start": 37455,
+      "code": "1131",
+      "name": "財政管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 37468,
+      "code": "1151",
+      "name": "財産管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 38712,
+      "code": "1155",
+      "name": "登記事務費",
+      "status": "proposal"
+    },
+    {
+      "start": 38725,
+      "code": "5981",
+      "name": "開発公社費",
+      "status": "name_boundary_needs_review",
+      "reason": "No unique exact next-report summary title match; do not invent title joining."
+    },
+    {
+      "start": 41776,
+      "code": "1901",
+      "name": "財政調整基金費",
+      "status": "name_boundary_needs_review",
+      "reason": "No unique exact next-report summary title match; do not invent title joining."
+    },
+    {
+      "start": 42877,
+      "code": "1311",
+      "name": "戸籍住民基本台帳費",
+      "status": "proposal"
+    },
+    {
+      "start": 44086,
+      "code": "2871",
+      "name": "環境衛生費",
+      "status": "proposal"
+    },
+    {
+      "start": 45058,
+      "code": "2872",
+      "name": "新エネルギー普及対策事業",
+      "status": "proposal"
+    },
+    {
+      "start": 45196,
+      "code": "2921",
+      "name": "塵芥処理費",
+      "status": "proposal"
+    },
+    {
+      "start": 46228,
+      "code": "2931",
+      "name": "し尿処理費",
+      "status": "proposal"
+    },
+    {
+      "start": 46277,
+      "code": "4132",
+      "name": "消費者行政活性化事業",
+      "status": "proposal"
+    },
+    {
+      "start": 46354,
+      "code": "1211",
+      "name": "税務総務費",
+      "status": "proposal"
+    },
+    {
+      "start": 47198,
+      "code": "1212",
+      "name": "税務基礎資料整備事業",
+      "status": "proposal"
+    },
+    {
+      "start": 47998,
+      "code": "1221",
+      "name": "賦課徴収費",
+      "status": "proposal"
+    },
+    {
+      "start": 49030,
+      "code": "2101",
+      "name": "社会福祉総務費",
+      "status": "proposal"
+    },
+    {
+      "start": 49986,
+      "code": "2103",
+      "name": "地域福祉総合事業",
+      "status": "proposal"
+    },
+    {
+      "start": 50849,
+      "code": "2104",
+      "name": "生活困窮者自立相談支援事業",
+      "status": "proposal"
+    },
+    {
+      "start": 52037,
+      "code": "2201",
+      "name": "地域福祉センター管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 52058,
+      "code": "2251",
+      "name": "障がい者福祉総務費",
+      "status": "proposal"
+    },
+    {
+      "start": 52889,
+      "code": "2252",
+      "name": "在宅障がい者福祉事業",
+      "status": "proposal"
+    },
+    {
+      "start": 53845,
+      "code": "2255",
+      "name": "障がい者自立支援事業",
+      "status": "proposal"
+    },
+    {
+      "start": 53865,
+      "code": "2308",
+      "name": "介護予防拠点施設管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 54961,
+      "code": "2613",
+      "name": "障がい児通所等支援事業",
+      "status": "proposal"
+    },
+    {
+      "start": 54982,
+      "code": "2631",
+      "name": "ひとり親等福祉費",
+      "status": "proposal"
+    },
+    {
+      "start": 55957,
+      "code": "2701",
+      "name": "災害救助費",
+      "status": "name_boundary_needs_review",
+      "reason": "No unique exact next-report summary title match; do not invent title joining."
+    },
+    {
+      "start": 56793,
+      "code": "2303",
+      "name": "在宅老人福祉事業",
+      "status": "proposal"
+    },
+    {
+      "start": 56810,
+      "code": "7701",
+      "name": "（介護保険特別会計）一般管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 58157,
+      "code": "7711",
+      "name": "（介護保険特別会計）賦課徴収費",
+      "status": "proposal"
+    },
+    {
+      "start": 58189,
+      "code": "7716",
+      "name": "（介護保険特別会計）認定調査費",
+      "status": "proposal"
+    },
+    {
+      "start": 58223,
+      "code": "7763",
+      "name": "（介護保険特別会計）地域包括支援センター運営事業",
+      "status": "proposal_wrapped_reviewed",
+      "reason": "No unique exact next-report summary title match; do not invent title joining."
+    },
+    {
+      "start": 59262,
+      "code": "7764",
+      "name": "（介護保険特別会計）社会保障充実事業",
+      "status": "proposal"
+    },
+    {
+      "start": 60301,
+      "code": "7765",
+      "name": "（介護保険特別会計）任意事業費",
+      "status": "proposal"
+    },
+    {
+      "start": 60486,
+      "code": "7767",
+      "name": "（介護保険特別会計）一般介護予防事業費",
+      "status": "proposal_wrapped_reviewed",
+      "reason": "No unique exact next-report summary title match; do not invent title joining."
+    },
+    {
+      "start": 61558,
+      "code": "2401",
+      "name": "福祉医療費給付事業",
+      "status": "proposal"
+    },
+    {
+      "start": 61689,
+      "code": "2811",
+      "name": "保健衛生総務費",
+      "status": "proposal"
+    },
+    {
+      "start": 62653,
+      "code": "2821",
+      "name": "感染症予防事業",
+      "status": "proposal_wrapped_reviewed",
+      "reason": "No unique exact next-report summary title match; do not invent title joining."
+    },
+    {
+      "start": 62794,
+      "code": "2823",
+      "name": "新型コロナウイルスワクチン接種事業",
+      "status": "proposal"
+    },
+    {
+      "start": 63738,
+      "code": "2841",
+      "name": "母子保健事業",
+      "status": "proposal"
+    },
+    {
+      "start": 64998,
+      "code": "2852",
+      "name": "健康づくり運動事業",
+      "status": "proposal"
+    },
+    {
+      "start": 66063,
+      "code": "2853",
+      "name": "健康増進事業",
+      "status": "proposal"
+    },
+    {
+      "start": 66077,
+      "code": "2891",
+      "name": "診療所費",
+      "status": "proposal"
+    },
+    {
+      "start": 67320,
+      "code": "6050",
+      "name": "（国民健康保険特別会計）保健衛生普及事業",
+      "status": "proposal"
+    },
+    {
+      "start": 67484,
+      "code": "6051",
+      "name": "（国民健康保険特別会計）疾病予防事業",
+      "status": "proposal"
+    },
+    {
+      "start": 68439,
+      "code": "6052",
+      "name": "（国民健康保険特別会計）特定健康診査等事業",
+      "status": "proposal"
+    },
+    {
+      "start": 68538,
+      "code": "6053",
+      "name": "（国民健康保険特別会計）健康づくり推進事業",
+      "status": "proposal"
+    },
+    {
+      "start": 68579,
+      "code": "6405",
+      "name": "（後期高齢者医療特別会計）保健事業費",
+      "status": "proposal"
+    },
+    {
+      "start": 69499,
+      "code": "3111",
+      "name": "農業委員会費",
+      "status": "proposal"
+    },
+    {
+      "start": 70234,
+      "code": "3211",
+      "name": "経営所得安定対策事業",
+      "status": "proposal"
+    },
+    {
+      "start": 70581,
+      "code": "3212",
+      "name": "機構集積協力金交付事業",
+      "status": "proposal"
+    },
+    {
+      "start": 70602,
+      "code": "3213",
+      "name": "新規就農・経営継承総合支援事業",
+      "status": "proposal"
+    },
+    {
+      "start": 71264,
+      "code": "3225",
+      "name": "集落営農支援事業",
+      "status": "proposal"
+    },
+    {
+      "start": 71950,
+      "code": "3221",
+      "name": "環境保全型農業直接支援対策事業",
+      "status": "proposal"
+    },
+    {
+      "start": 72281,
+      "code": "3232",
+      "name": "都市・農村交流事業",
+      "status": "proposal"
+    },
+    {
+      "start": 72333,
+      "code": "3290",
+      "name": "農作物災害等対策事業",
+      "status": "proposal"
+    },
+    {
+      "start": 72360,
+      "code": "3300",
+      "name": "農業振興総合対策事業",
+      "status": "proposal"
+    },
+    {
+      "start": 73573,
+      "code": "3301",
+      "name": "中山間地域等直接支払事業",
+      "status": "proposal"
+    },
+    {
+      "start": 73595,
+      "code": "3741",
+      "name": "道の駅本郷建物管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 73615,
+      "code": "3742",
+      "name": "道の駅花の里いいじま管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 74737,
+      "code": "3743",
+      "name": "道の駅田切の里管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 74804,
+      "code": "4111",
+      "name": "商工総務費",
+      "status": "proposal"
+    },
+    {
+      "start": 74822,
+      "code": "4121",
+      "name": "商工業振興費",
+      "status": "proposal"
+    },
+    {
+      "start": 76214,
+      "code": "4123",
+      "name": "伝統技術等承継支援事業",
+      "status": "proposal"
+    },
+    {
+      "start": 76235,
+      "code": "4124",
+      "name": "くらし復興券１億円事業",
+      "status": "proposal_wrapped_reviewed",
+      "reason": "No unique exact next-report summary title match; do not invent title joining."
+    },
+    {
+      "start": 76256,
+      "code": "4125",
+      "name": "第三者承継マッチング事業",
+      "status": "name_boundary_needs_review",
+      "reason": "No unique exact next-report summary title match; do not invent title joining."
+    },
+    {
+      "start": 77461,
+      "code": "4162",
+      "name": "企業誘致費",
+      "status": "proposal"
+    },
+    {
+      "start": 78483,
+      "code": "3404",
+      "name": "農地整備事業",
+      "status": "proposal"
+    },
+    {
+      "start": 78601,
+      "code": "3413",
+      "name": "多面的機能支払",
+      "status": "proposal"
+    },
+    {
+      "start": 79312,
+      "code": "3415",
+      "name": "農村地域防災減災事業",
+      "status": "proposal"
+    },
+    {
+      "start": 79450,
+      "code": "3423",
+      "name": "農業基盤整備促進事業",
+      "status": "proposal"
+    },
+    {
+      "start": 79475,
+      "code": "3424",
+      "name": "農地耕作条件改善事業",
+      "status": "proposal"
+    },
+    {
+      "start": 80409,
+      "code": "3801",
+      "name": "林業総務費",
+      "status": "proposal"
+    },
+    {
+      "start": 80520,
+      "code": "3851",
+      "name": "緑化推進事業",
+      "status": "proposal"
+    },
+    {
+      "start": 81321,
+      "code": "3855",
+      "name": "林業振興事業",
+      "status": "proposal"
+    },
+    {
+      "start": 81604,
+      "code": "3856",
+      "name": "松くい虫防除事業",
+      "status": "proposal"
+    },
+    {
+      "start": 82365,
+      "code": "3859",
+      "name": "信州の森林づくり事業",
+      "status": "proposal"
+    },
+    {
+      "start": 82390,
+      "code": "3863",
+      "name": "町有林整備事業",
+      "status": "proposal"
+    },
+    {
+      "start": 82518,
+      "code": "3865",
+      "name": "森林環境譲与税活用事業",
+      "status": "proposal"
+    },
+    {
+      "start": 83434,
+      "code": "3903",
+      "name": "林道整備事業",
+      "status": "proposal"
+    },
+    {
+      "start": 83554,
+      "code": "5811",
+      "name": "農業施設災害復旧事業（補助）",
+      "status": "proposal"
+    },
+    {
+      "start": 83583,
+      "code": "5812",
+      "name": "農業施設災害復旧事業（単独）",
+      "status": "proposal"
+    },
+    {
+      "start": 83615,
+      "code": "5821",
+      "name": "林業施設災害復旧事業（補助）",
+      "status": "name_boundary_needs_review",
+      "reason": "No unique exact next-report summary title match; do not invent title joining."
+    },
+    {
+      "start": 84728,
+      "code": "5822",
+      "name": "林業施設災害復旧事業（単独）",
+      "status": "name_boundary_needs_review",
+      "reason": "No unique exact next-report summary title match; do not invent title joining."
+    },
+    {
+      "start": 86697,
+      "code": "4201",
+      "name": "土木総務費",
+      "status": "proposal"
+    },
+    {
+      "start": 87620,
+      "code": "4221",
+      "name": "道路維持費",
+      "status": "proposal"
+    },
+    {
+      "start": 87742,
+      "code": "4231",
+      "name": "町道整備事業",
+      "status": "proposal"
+    },
+    {
+      "start": 88618,
+      "code": "4235",
+      "name": "社会資本整備総合交付金事業",
+      "status": "proposal"
+    },
+    {
+      "start": 88642,
+      "code": "4238",
+      "name": "県営農道整備事業",
+      "status": "proposal"
+    },
+    {
+      "start": 88659,
+      "code": "4252",
+      "name": "道路メンテナンス事業",
+      "status": "proposal"
+    },
+    {
+      "start": 89890,
+      "code": "4263",
+      "name": "道の駅本郷管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 89907,
+      "code": "4311",
+      "name": "河川総務費",
+      "status": "proposal"
+    },
+    {
+      "start": 89920,
+      "code": "4322",
+      "name": "河川整備事業",
+      "status": "proposal"
+    },
+    {
+      "start": 89934,
+      "code": "5831",
+      "name": "公共土木施設災害復旧事業（補助）",
+      "status": "name_boundary_needs_review",
+      "reason": "No unique exact next-report summary title match; do not invent title joining."
+    },
+    {
+      "start": 90951,
+      "code": "5832",
+      "name": "公共土木施設災害復旧事業（単独）",
+      "status": "name_boundary_needs_review",
+      "reason": "No unique exact next-report summary title match; do not invent title joining."
+    },
+    {
+      "start": 90982,
+      "code": "4207",
+      "name": "社会資本整備円滑化地籍調査事業",
+      "status": "name_boundary_needs_review",
+      "reason": "No unique exact next-report summary title match; do not invent title joining."
+    },
+    {
+      "start": 91016,
+      "code": "4261",
+      "name": "国県関連事業",
+      "status": "proposal"
+    },
+    {
+      "start": 92229,
+      "code": "4411",
+      "name": "都市計画総務費",
+      "status": "proposal"
+    },
+    {
+      "start": 93322,
+      "code": "4511",
+      "name": "町営住宅管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 93428,
+      "code": "4512",
+      "name": "町営住宅整備事業",
+      "status": "proposal"
+    },
+    {
+      "start": 93453,
+      "code": "4531",
+      "name": "住宅耐震対策促進事業",
+      "status": "proposal"
+    },
+    {
+      "start": 93480,
+      "code": "4532",
+      "name": "空き家対策事業",
+      "status": "proposal"
+    },
+    {
+      "start": 94867,
+      "code": "2861",
+      "name": "上水道整備事業",
+      "status": "proposal"
+    },
+    {
+      "start": 94888,
+      "code": "2941",
+      "name": "合併処理浄化槽設置整備事業",
+      "status": "proposal"
+    },
+    {
+      "start": 94919,
+      "code": "2942",
+      "name": "合併処理浄化槽管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 96887,
+      "code": "1162",
+      "name": "国際・友好都市交流費",
+      "status": "proposal"
+    },
+    {
+      "start": 97621,
+      "code": "1166",
+      "name": "活性化推進事業",
+      "status": "proposal"
+    },
+    {
+      "start": 98360,
+      "code": "1170",
+      "name": "地域おこし協力隊起業支援事業",
+      "status": "name_boundary_needs_review",
+      "reason": "No unique exact next-report summary title match; do not invent title joining."
+    },
+    {
+      "start": 99096,
+      "code": "1173",
+      "name": "ふるさといいじま応援基金費",
+      "status": "proposal"
+    },
+    {
+      "start": 99764,
+      "code": "1174",
+      "name": "元気なまちづくり推進事業",
+      "status": "proposal"
+    },
+    {
+      "start": 100762,
+      "code": "1192",
+      "name": "協働のまちづくり推進費",
+      "status": "proposal"
+    },
+    {
+      "start": 102735,
+      "code": "1165",
+      "name": "儲かる飯島町チャレンジ事業",
+      "status": "proposal"
+    },
+    {
+      "start": 103216,
+      "code": "4141",
+      "name": "観光費",
+      "status": "proposal"
+    },
+    {
+      "start": 104166,
+      "code": "4143",
+      "name": "観光施設管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 104330,
+      "code": "4144",
+      "name": "山岳観光費",
+      "status": "proposal"
+    },
+    {
+      "start": 104402,
+      "code": "4441",
+      "name": "与田切公園管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 106270,
+      "code": "1171",
+      "name": "定住促進事業",
+      "status": "proposal"
+    },
+    {
+      "start": 107717,
+      "code": "1172",
+      "name": "出会い・婚活推進事業",
+      "status": "proposal"
+    },
+    {
+      "start": 108916,
+      "code": "1176",
+      "name": "環境循環ライフ構想推進費",
+      "status": "proposal"
+    },
+    {
+      "start": 109880,
+      "code": "1141",
+      "name": "会計管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 109998,
+      "code": "1154",
+      "name": "物品集中購買費",
+      "status": "proposal"
+    },
+    {
+      "start": 110878,
+      "code": "1001",
+      "name": "議会費",
+      "status": "proposal"
+    },
+    {
+      "start": 111002,
+      "code": "1511",
+      "name": "統計調査総務費",
+      "status": "proposal"
+    },
+    {
+      "start": 111022,
+      "code": "1521",
+      "name": "指定統計調査費",
+      "status": "proposal"
+    },
+    {
+      "start": 111944,
+      "code": "1601",
+      "name": "監査委員費",
+      "status": "proposal"
+    },
+    {
+      "start": 112602,
+      "code": "2611",
+      "name": "児童福祉総務費",
+      "status": "proposal"
+    },
+    {
+      "start": 112618,
+      "code": "2641",
+      "name": "認可保育園運営費",
+      "status": "proposal"
+    },
+    {
+      "start": 114525,
+      "code": "2661",
+      "name": "放課後児童健全育成事業",
+      "status": "proposal"
+    },
+    {
+      "start": 114546,
+      "code": "2671",
+      "name": "子育て支援センター事業",
+      "status": "proposal"
+    },
+    {
+      "start": 115519,
+      "code": "2673",
+      "name": "子ども・子育て支援事業",
+      "status": "proposal"
+    },
+    {
+      "start": 115540,
+      "code": "5121",
+      "name": "学校教育総務費",
+      "status": "proposal"
+    },
+    {
+      "start": 115556,
+      "code": "5122",
+      "name": "奨学基金費",
+      "status": "proposal"
+    },
+    {
+      "start": 116695,
+      "code": "5123",
+      "name": "子ども支援費",
+      "status": "proposal"
+    },
+    {
+      "start": 116927,
+      "code": "5124",
+      "name": "子ども広場推進事業",
+      "status": "proposal"
+    },
+    {
+      "start": 116952,
+      "code": "5126",
+      "name": "学校支援費",
+      "status": "proposal"
+    },
+    {
+      "start": 117982,
+      "code": "5131",
+      "name": "教員住宅管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 118627,
+      "code": "5211",
+      "name": "飯島小学校管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 119085,
+      "code": "5221",
+      "name": "飯島小学校教育振興費",
+      "status": "proposal"
+    },
+    {
+      "start": 119105,
+      "code": "5241",
+      "name": "七久保小学校管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 120356,
+      "code": "5251",
+      "name": "七久保小学校教育振興費",
+      "status": "proposal"
+    },
+    {
+      "start": 120377,
+      "code": "5311",
+      "name": "中学校管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 121459,
+      "code": "5312",
+      "name": "英語指導助手招致費",
+      "status": "proposal"
+    },
+    {
+      "start": 121477,
+      "code": "5321",
+      "name": "中学校教育振興費",
+      "status": "proposal"
+    },
+    {
+      "start": 122402,
+      "code": "5741",
+      "name": "学校給食センター費",
+      "status": "proposal"
+    },
+    {
+      "start": 122420,
+      "code": "5111",
+      "name": "教育委員会費",
+      "status": "proposal"
+    },
+    {
+      "start": 123326,
+      "code": "5611",
+      "name": "生涯学習費",
+      "status": "proposal"
+    },
+    {
+      "start": 124626,
+      "code": "5612",
+      "name": "男女共同参画推進費",
+      "status": "proposal"
+    },
+    {
+      "start": 124644,
+      "code": "5623",
+      "name": "公民館費",
+      "status": "proposal"
+    },
+    {
+      "start": 125734,
+      "code": "5631",
+      "name": "図書館費",
+      "status": "proposal"
+    },
+    {
+      "start": 126644,
+      "code": "5641",
+      "name": "文化館費",
+      "status": "proposal"
+    },
+    {
+      "start": 126765,
+      "code": "5651",
+      "name": "文化財保護費",
+      "status": "proposal"
+    },
+    {
+      "start": 127705,
+      "code": "5652",
+      "name": "埋蔵文化財調査費",
+      "status": "proposal"
+    },
+    {
+      "start": 127837,
+      "code": "5661",
+      "name": "歴史民俗資料館費",
+      "status": "proposal"
+    },
+    {
+      "start": 128744,
+      "code": "5711",
+      "name": "保健体育総務費",
+      "status": "proposal"
+    },
+    {
+      "start": 130585,
+      "code": "5721",
+      "name": "体育館等管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 130717,
+      "code": "5722",
+      "name": "屋外運動場管理費",
+      "status": "proposal"
+    },
+    {
+      "start": 131506,
+      "code": "5731",
+      "name": "海洋センター費",
+      "status": "proposal"
+    }
+  ]
+}

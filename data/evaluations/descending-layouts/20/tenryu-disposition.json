@@ -1,0 +1,107 @@
+{
+  "sourceId": "2ee6a3c6967e6f4edcbcca9a",
+  "literalNamesReviewed": 77,
+  "proposals": 69,
+  "identityHolds": [
+    {
+      "name": "多子世帯への支援",
+      "offsets": [
+        460,
+        1163
+      ],
+      "reason": "Same literal business name appears in multiple department rows; do not collapse or multiply without identity evidence."
+    },
+    {
+      "name": "「天龍力」を育む学校づくりの推進",
+      "offsets": [
+        665,
+        688
+      ],
+      "reason": "Same literal business name appears in multiple department rows; do not collapse or multiply without identity evidence."
+    },
+    {
+      "name": "放課後子ども総合プラン推進事業",
+      "offsets": [
+        725,
+        761
+      ],
+      "reason": "Same literal business name appears in multiple department rows; do not collapse or multiply without identity evidence."
+    },
+    {
+      "name": "山村留学の検討・推進",
+      "offsets": [
+        856,
+        887
+      ],
+      "reason": "Same literal business name appears in multiple department rows; do not collapse or multiply without identity evidence."
+    },
+    {
+      "name": "YouTube等を活用したＰＲ",
+      "offsets": [
+        935,
+        1263
+      ],
+      "reason": "Same literal business name appears in multiple department rows; do not collapse or multiply without identity evidence."
+    },
+    {
+      "name": "定住関係情報の共有化",
+      "offsets": [
+        1310,
+        1327
+      ],
+      "reason": "Same literal business name appears in multiple department rows; do not collapse or multiply without identity evidence."
+    },
+    {
+      "name": "「空き家情報登録制度」の活用",
+      "offsets": [
+        1371,
+        1400
+      ],
+      "reason": "Same literal business name appears in multiple department rows; do not collapse or multiply without identity evidence."
+    },
+    {
+      "name": "各種活動支援事業",
+      "offsets": [
+        3076,
+        3100,
+        3111
+      ],
+      "reason": "Same literal business name appears in multiple department rows; do not collapse or multiply without identity evidence."
+    },
+    {
+      "name": "防災マップ整備事業",
+      "offsets": [
+        3120,
+        3137
+      ],
+      "reason": "Same literal business name appears in multiple department rows; do not collapse or multiply without identity evidence."
+    },
+    {
+      "name": "ＩＣＴネットワーク事業",
+      "offsets": [
+        3185,
+        3208
+      ],
+      "reason": "Same literal business name appears in multiple department rows; do not collapse or multiply without identity evidence."
+    },
+    {
+      "name": "治山・治水・地すべり対策事業",
+      "offsets": [
+        3347,
+        3368
+      ],
+      "reason": "Same literal business name appears in multiple department rows; do not collapse or multiply without identity evidence."
+    }
+  ],
+  "wrappedTitleReview": [
+    "天龍村診療所医師確保のための医師等受け入れ態勢の整備",
+    "農産品ブランド化に向けたプロモーションの推進",
+    "自然エネルギー活用事業（木質バイオマス導入）"
+  ],
+  "warning": "94 printed department rows are not 94 unique implemented projects. Evaluated fiscal2024 authenticated by source-link page. No2023 inferred record duplication; no status/grades from displaced columns.",
+  "wrappedAccepted": [
+    "給食費の無償化と、低所得者層等への保育料支援",
+    "福祉施設等を活用した福祉サービスの提供",
+    "産業振興に寄与する「知の拠点」の形成（広域連携事業）"
+  ]
+}

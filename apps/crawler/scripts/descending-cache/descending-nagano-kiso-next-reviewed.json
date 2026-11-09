@@ -1,0 +1,120 @@
+[
+  {
+    "source": {
+      "municipalityCode": "20425",
+      "municipalityName": "木祖村",
+      "sourceId": "5b8e8a05a13216ea84ee9fa3",
+      "title": "第２期木祖村まち・ひと・しごと創生総合戦略検証結果（健康で安心な村づくり）（746.5kbyte）",
+      "url": "https://www.vill.kiso.nagano.jp/gyoseijoho/shisaku_keikaku/documents/kenkoudeanshinnamuradukuri.pdf",
+      "sourceSha256": "03f3dfc321ea9e8a533f2ac7aa25a1b3a3c74a7962305e63964daa017e8d9966",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 16005,
+      "fullTextSha256": "8512296f92c949ce2f9938472770354d40835864955cb7e66d76dfaf0a0a7ce0"
+    },
+    "rows": [
+      {
+        "name": "介護予防事業",
+        "start": 13092,
+        "raw": "介護予防事業",
+        "proof": "・介護予防事業について、令和2年度\nより新型コロナ感染予防のため、人数\nを制限したり、食事を中止したりするな\nど適応し実施。令和3年度は1回あたり\nの参加者は令和2年度より増加し、新\n規参加者の割合も15％を超えた。また\n高齢者の内で参加されている方の方\nが参加されていない方よりも、要介護\n認定申請の割合が低いという結果が\n出ている。",
+        "proofStart": 13091,
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "R2実施とR3参加状況を本文が明記。KPI値・評価列は抽出しない。"
+      },
+      {
+        "name": "介護予防事業",
+        "start": 13092,
+        "raw": "介護予防事業",
+        "proof": "・介護予防事業について、令和2年度\nより新型コロナ感染予防のため、人数\nを制限したり、食事を中止したりするな\nど適応し実施。令和3年度は1回あたり\nの参加者は令和2年度より増加し、新\n規参加者の割合も15％を超えた。また\n高齢者の内で参加されている方の方\nが参加されていない方よりも、要介護\n認定申請の割合が低いという結果が\n出ている。",
+        "proofStart": 13091,
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "R2実施とR3参加状況を本文が明記。KPI値・評価列は抽出しない。"
+      },
+      {
+        "name": "生活支援体制整備",
+        "start": 13353,
+        "raw": "生活支援体制整備",
+        "proof": "・生活支援体制整備について、令和2\n年度には社協の生活支援コーディ\nネーター独居高齢者等を2回訪問し、\nコロナ禍での生活状況を確認するとと\nもに、感染症予防、フレイル予防につ\nいて伝えた。また出張サロンを2回実\n施した。3月には、木曽ブロックボラン\nティア地域活動フォーラムを通して、\n木祖村における「コロナ禍でも途切れ\nなかったご近所のつながり」について\n紙面発表できた。令和3年度、生活支\n援コーディネーターが10月に2人体制\nになり、新型コロナウイルス感染症の\n影響の中、どのように木祖村の地域の\n支えあいをはじめとする日常生活上の\n支援体制の充実、強化を図っていくか\nを話し合ってきた。",
+        "proofStart": 13352,
+        "evaluatedFiscalYear": 2020,
+        "evaluationYear": null,
+        "note": "R2実施とR3体制変更を明記。別箇所の同一活動は統合対象。"
+      },
+      {
+        "name": "生活支援体制整備",
+        "start": 13353,
+        "raw": "生活支援体制整備",
+        "proof": "・生活支援体制整備について、令和2\n年度には社協の生活支援コーディ\nネーター独居高齢者等を2回訪問し、\nコロナ禍での生活状況を確認するとと\nもに、感染症予防、フレイル予防につ\nいて伝えた。また出張サロンを2回実\n施した。3月には、木曽ブロックボラン\nティア地域活動フォーラムを通して、\n木祖村における「コロナ禍でも途切れ\nなかったご近所のつながり」について\n紙面発表できた。令和3年度、生活支\n援コーディネーターが10月に2人体制\nになり、新型コロナウイルス感染症の\n影響の中、どのように木祖村の地域の\n支えあいをはじめとする日常生活上の\n支援体制の充実、強化を図っていくか\nを話し合ってきた。",
+        "proofStart": 13352,
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "R2実施とR3体制変更を明記。別箇所の同一活動は統合対象。"
+      },
+      {
+        "name": "オーバー65のマシントレーニング部",
+        "start": 13328,
+        "raw": "オーバー65\nのマシントレーニング部",
+        "proof": "また令和3年度、幸せテラスまめのわ\nが開所し、フィットネスルームを利用し\nた教室を検討し、福祉係、教育委員会\nと連携する中で、10月からオーバー65\nのマシントレーニング部を開始。",
+        "proofStart": 13260,
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "R3開所の文脈と10月開始。親介護予防事業と独立教室名を区別し重複判定を要する。"
+      }
+    ]
+  },
+  {
+    "source": {
+      "municipalityCode": "20425",
+      "municipalityName": "木祖村",
+      "sourceId": "4828490afcc10c00b586ef97",
+      "title": "第２期木祖村まち・ひと・しごと創生総合戦略検証結果（子育て多世代交流）（438.4kbyte）",
+      "url": "https://www.vill.kiso.nagano.jp/gyoseijoho/shisaku_keikaku/documents/kosodatetasedaikouryu.pdf",
+      "sourceSha256": "410152b967b3fd6ef5eb6feb521ba67a291765b7dcc231c105d081618d38c264",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 6575,
+      "fullTextSha256": "7c31b00230e078b72d9d9bc640a46e5e27641c9f748f798abbdf91487d403073"
+    },
+    "rows": [
+      {
+        "name": "陶芸教室",
+        "start": 4415,
+        "raw": "陶芸教\n室",
+        "proof": "R3年度新規登録サークル数１、陶芸教\n室は講師の高齢化により、次年度以降\nに向けて後継者となる先生に補助に\n入っていただいた。",
+        "proofStart": 4400,
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "R3実施中教室への補助講師配置。次年度の新設教室とは扱わない。"
+      }
+    ]
+  },
+  {
+    "source": {
+      "municipalityCode": "20425",
+      "municipalityName": "木祖村",
+      "sourceId": "e48dcf2e8ebffd37ebc55497",
+      "title": "第２期木祖村まち・ひと・しごと創生総合戦略検証結果（持続できる行政サービスの構築）（554.5kbyte）",
+      "url": "https://www.vill.kiso.nagano.jp/gyoseijoho/shisaku_keikaku/documents/jizokudekirugyouseisa-bisu.pdf",
+      "sourceSha256": "7b5a7c5c96a9c9b915212299bfd5e2ddb51310872998661e8b4d04e3450f7995",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 9881,
+      "fullTextSha256": "27d1a6509b92902d1ec1ef7f75f4c99aece8e892cd2ddd6b59b90d8ce78b7444"
+    },
+    "rows": [
+      {
+        "name": "ゼロカーボン推進研究会",
+        "start": 6453,
+        "raw": "ゼロカーボン推進研究会",
+        "proof": "令和3年度「ゼロカーボン推進研究会」の立ち上げにより、水力発電事業\nの検討、研究を開始した。水力発電事業の実施を目標として今後も研究を\nしていく。",
+        "proofStart": 6447,
+        "evaluatedFiscalYear": 2021,
+        "evaluationYear": null,
+        "note": "R3研究会立上げのみ。水力発電事業実施は将来目標であり候補化しない。"
+      }
+    ]
+  }
+]
