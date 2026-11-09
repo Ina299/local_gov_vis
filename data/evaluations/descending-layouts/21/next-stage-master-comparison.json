@@ -1,0 +1,72 @@
+{
+  "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "stageOnly": true,
+  "productionChanged": false,
+  "unpublishedUserChanges": "unobservable",
+  "rows": [
+    {
+      "code": "21504",
+      "stageProposals": 1,
+      "existingMasterRecords": 0,
+      "matches": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "code": "21421",
+      "stageProposals": 10,
+      "existingMasterRecords": 0,
+      "matches": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "code": "21404",
+      "stageProposals": 37,
+      "existingMasterRecords": 0,
+      "matches": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "code": "21403",
+      "stageProposals": 9,
+      "existingMasterRecords": 0,
+      "matches": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "code": "21401",
+      "stageProposals": 10,
+      "existingMasterRecords": 0,
+      "matches": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "code": "21383",
+      "stageProposals": 10,
+      "existingMasterRecords": 0,
+      "matches": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "code": "21381",
+      "stageProposals": 15,
+      "existingMasterRecords": 0,
+      "matches": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "code": "21362",
+      "stageProposals": 35,
+      "existingMasterRecords": 0,
+      "matches": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    }
+  ]
+}
