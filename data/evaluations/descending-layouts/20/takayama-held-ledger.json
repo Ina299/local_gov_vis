@@ -1,0 +1,44 @@
+[
+  {
+    "sourceId": "ba5f0d32ac5a4bc61ad6e033",
+    "printedNumber": 2,
+    "status": "same-year identity hold",
+    "reason": "住民税所得割非課税世帯等: similar FY2024 title in7e9d...unit1; beneficiary cohorts differ. Exact canonical identity/relationship is not resolved; no merge or new qualifier invented.",
+    "fullSourceText": "ba5f0d32ac5a4bc61ad6e033.txt"
+  },
+  {
+    "sourceId": "7e9d641c83d56948f061c613",
+    "printedNumber": 1,
+    "status": "same-year identity hold",
+    "reason": "Same FY2024 benefit-title alias withba5...unit2; retain source evidence, do not automatically accept both.",
+    "fullSourceText": "7e9d641c83d56948f061c613.txt"
+  },
+  {
+    "sourceId": "8148e93b452456ff1d494dac",
+    "printedNumber": 2,
+    "status": "carryover duplicate",
+    "reason": "FY2024 implementation, not a new FY2023 actual business; seeFY2024report7e9d...unit1.",
+    "fullSourceText": "8148e93b452456ff1d494dac.txt"
+  },
+  {
+    "sourceId": "8148e93b452456ff1d494dac",
+    "printedNumber": 3,
+    "status": "carryover duplicate",
+    "reason": "FY2024 implementation reprinted; see7e9d...unit2.",
+    "fullSourceText": "8148e93b452456ff1d494dac.txt"
+  },
+  {
+    "sourceId": "8148e93b452456ff1d494dac",
+    "printedNumber": 5,
+    "status": "same-year alias hold",
+    "reason": "Potential sameFY2023child benefit as9fd...unit2. Amount16351788matches but counts differ; no numeric or identity resolution guessed.",
+    "fullSourceText": "8148e93b452456ff1d494dac.txt"
+  },
+  {
+    "sourceId": "9fd6036fb957292d38d00148",
+    "printedNumber": 2,
+    "status": "same-year alias hold",
+    "reason": "Potential sameFY2023child benefit as814...unit5; retain bothoriginals without double counting.",
+    "fullSourceText": "9fd6036fb957292d38d00148.txt"
+  }
+]

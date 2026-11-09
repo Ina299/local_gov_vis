@@ -1,0 +1,628 @@
+[
+  {
+    "code": "20602",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "92d8adf3c7efff159e5061385fd7d808d1dac24a1e079ce91ce4bdfa3e1d2224",
+    "currentMasterEvidence": "92d8adf3c7efff159e5061385fd7d808d1dac24a1e079ce91ce4bdfa3e1d2224",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20590",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "c10fe7666233eb7ec46550a31cfceaa1d6ecc6c4ba0350ba8192e14a773484d5",
+    "currentMasterEvidence": "c10fe7666233eb7ec46550a31cfceaa1d6ecc6c4ba0350ba8192e14a773484d5",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20588",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "aecbf6e85e4d578daeda4a11711325bf4a839fc86817b3d5b085b32feb160560",
+    "currentMasterEvidence": "aecbf6e85e4d578daeda4a11711325bf4a839fc86817b3d5b085b32feb160560",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20583",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "f25bb848143611fa24dde6a2dcc7a0a11111cf7a203008fff7c4d41b630495ae",
+    "currentMasterEvidence": "f25bb848143611fa24dde6a2dcc7a0a11111cf7a203008fff7c4d41b630495ae",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20563",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "8e835cd79a6b827d6310a4e80176ec71a484a927f3073054054969e1f3b47a99",
+    "currentMasterEvidence": "8e835cd79a6b827d6310a4e80176ec71a484a927f3073054054969e1f3b47a99",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20562",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "89c53b0f54e7a8f01b3ecd1ea99b968b072c3c1f63b2b0bd9460077ffc1687a8",
+    "currentMasterEvidence": "89c53b0f54e7a8f01b3ecd1ea99b968b072c3c1f63b2b0bd9460077ffc1687a8",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20561",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "766b88256bc7e31e7cad7292b67543ed52104ca895de6a54798a4b3f625b7bfa",
+    "currentMasterEvidence": "766b88256bc7e31e7cad7292b67543ed52104ca895de6a54798a4b3f625b7bfa",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20543",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "8e0795f904045eb30d5a1f271c432f17d5b987819857dd94e6f0de0a0e3ac9ff",
+    "currentMasterEvidence": "8e0795f904045eb30d5a1f271c432f17d5b987819857dd94e6f0de0a0e3ac9ff",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20541",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "4507cb8d8c8b6bc62b0e00f3cd91bd010938f8e61411f5b0293f301d52306916",
+    "currentMasterEvidence": "4507cb8d8c8b6bc62b0e00f3cd91bd010938f8e61411f5b0293f301d52306916",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20521",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "5200b4b26192e119f3dcf48a334ae964bb9a23c2177885b64f7db8425e59bec7",
+    "currentMasterEvidence": "5200b4b26192e119f3dcf48a334ae964bb9a23c2177885b64f7db8425e59bec7",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20486",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "290fc4a030467de17bd97c1228c70afcc87cb69be922bc86a7a51c6c937dbeb5",
+    "currentMasterEvidence": "290fc4a030467de17bd97c1228c70afcc87cb69be922bc86a7a51c6c937dbeb5",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20485",
+    "localDataset": "5eab89c9dd6f3b0010eb69a785f450218f1ea38996d28788679761114081e4bb",
+    "currentMasterDataset": "f2fcf4f8c1fd36f917251191c43c180d22dbcaed0db59584ba57568a5ba736b2",
+    "localEvidence": "7c26fc57e8fa43f0a3b3a7b215cf6f13f451a28f4648ce22b6dc928a90e06596",
+    "currentMasterEvidence": "7c26fc57e8fa43f0a3b3a7b215cf6f13f451a28f4648ce22b6dc928a90e06596",
+    "exclusionReasons": [
+      "current master dataset differs from available local baseline"
+    ]
+  },
+  {
+    "code": "20482",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "06f51a2bde3424b2b626a74746f5f002742aa976c5954fa7137c129f1115797c",
+    "currentMasterEvidence": "06f51a2bde3424b2b626a74746f5f002742aa976c5954fa7137c129f1115797c",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20481",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "0b925f57e95519a0c76a18b4f17b388e1752cfadc12505d74fde594fe5f306ab",
+    "currentMasterEvidence": "0b925f57e95519a0c76a18b4f17b388e1752cfadc12505d74fde594fe5f306ab",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20452",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "b3b7a3d5c559e2136b9be706bba56f54132e8b95aec124ee12908596ca073765",
+    "currentMasterEvidence": "b3b7a3d5c559e2136b9be706bba56f54132e8b95aec124ee12908596ca073765",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20451",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "2e42758bea63d42b2a3d1f6c05bf44de507363ca265af082d621c69778fa5854",
+    "currentMasterEvidence": "2e42758bea63d42b2a3d1f6c05bf44de507363ca265af082d621c69778fa5854",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20450",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "1633bd00a9c6157fe2056bacd5433e9e1709819cdf5793ece9667b738831912d",
+    "currentMasterEvidence": "1633bd00a9c6157fe2056bacd5433e9e1709819cdf5793ece9667b738831912d",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20448",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "bd5ff837466c1cf779fb9859cc91d7e07e3dfca04b8aa24c945a142f31754824",
+    "currentMasterEvidence": "bd5ff837466c1cf779fb9859cc91d7e07e3dfca04b8aa24c945a142f31754824",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20446",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "03d9d882dd224a8df83823bd7d8ea536178eb4bf5020d2ea9b8b0e491ca44fe4",
+    "currentMasterEvidence": "03d9d882dd224a8df83823bd7d8ea536178eb4bf5020d2ea9b8b0e491ca44fe4",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20432",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "fa64f8b2525fdcc5ec3589dbcccf391741a5942f696d6d8f68f6bb5b2d9bac02",
+    "currentMasterEvidence": "fa64f8b2525fdcc5ec3589dbcccf391741a5942f696d6d8f68f6bb5b2d9bac02",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20430",
+    "localDataset": "d69737c6ff08e3fdf28c1ae3a4f80c3e3bd4bb0e4284f3d3746e22e867d6cdac",
+    "currentMasterDataset": "d69737c6ff08e3fdf28c1ae3a4f80c3e3bd4bb0e4284f3d3746e22e867d6cdac",
+    "localEvidence": "7fb01b0525987f93a3ab7f6595650054343cf9751202bf5855675bb0ed6c3d71",
+    "currentMasterEvidence": "7fb01b0525987f93a3ab7f6595650054343cf9751202bf5855675bb0ed6c3d71",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20429",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "ef1426bc346147c13956b819ce922ada89eac1ff9be5aa420a61742384be5f5e",
+    "currentMasterEvidence": "ef1426bc346147c13956b819ce922ada89eac1ff9be5aa420a61742384be5f5e",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20425",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "84f489ac67938673c0697e7785c2c1c9e8c46d9211a3f43e3615dadd1eb9f329",
+    "currentMasterEvidence": "84f489ac67938673c0697e7785c2c1c9e8c46d9211a3f43e3615dadd1eb9f329",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20423",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "98c27e02db4073de7efc9da3a235275d4a1ef02c2e66adbd84226bca9e90f35d",
+    "currentMasterEvidence": "98c27e02db4073de7efc9da3a235275d4a1ef02c2e66adbd84226bca9e90f35d",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20422",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "028efcefeb2f35e7e9c6bf08d8200b83778bbdca5a211226ad80973c82e09d83",
+    "currentMasterEvidence": "028efcefeb2f35e7e9c6bf08d8200b83778bbdca5a211226ad80973c82e09d83",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20417",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "553dc90f92e656196392831ad4873620fbe94c9b829e74de09fbeb8bb9b3cd96",
+    "currentMasterEvidence": "553dc90f92e656196392831ad4873620fbe94c9b829e74de09fbeb8bb9b3cd96",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20416",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "f9d15696b29d32f6581d321808be73cae6a72e279f6157f75ddd47e10b92bef4",
+    "currentMasterEvidence": "f9d15696b29d32f6581d321808be73cae6a72e279f6157f75ddd47e10b92bef4",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20415",
+    "localDataset": "e9e64d892416641b440dd3d00f763c2c431671edddceea2af31a06fab9f41203",
+    "currentMasterDataset": "e9e64d892416641b440dd3d00f763c2c431671edddceea2af31a06fab9f41203",
+    "localEvidence": "43347254c1490bbab36a597c266a64eb364babc44dcb480489d9d232ba21d281",
+    "currentMasterEvidence": "43347254c1490bbab36a597c266a64eb364babc44dcb480489d9d232ba21d281",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20414",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "41f9971725ed31841e1800c66b02ca41d1a050aee8e336c296bee2e2f0693411",
+    "currentMasterEvidence": "41f9971725ed31841e1800c66b02ca41d1a050aee8e336c296bee2e2f0693411",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20413",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "02f3ca54ce1b2759d760a4ddd97824e9c73a41a566b09f47dc7c96075ade95ae",
+    "currentMasterEvidence": "02f3ca54ce1b2759d760a4ddd97824e9c73a41a566b09f47dc7c96075ade95ae",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20412",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "ab31174e0dcb25784762badf7bef5229e62364eb3f6e49a81abab056d8282dbe",
+    "currentMasterEvidence": "ab31174e0dcb25784762badf7bef5229e62364eb3f6e49a81abab056d8282dbe",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20411",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "7f7750b3b8b24f3045d64f2ce878940d6b0fe2cc6252968eaff12e5ae6d463b2",
+    "currentMasterEvidence": "7f7750b3b8b24f3045d64f2ce878940d6b0fe2cc6252968eaff12e5ae6d463b2",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20410",
+    "localDataset": "3bb6e26fec85630920bf59ba2f3b3dfb5f6d8f23de07eb376e6a98de9c7959ad",
+    "currentMasterDataset": "6926d625c11360c5cc762a2a2a6f44c197fefb7bbb69ff590b2e2db3293fabcc",
+    "localEvidence": "fee33cc82eece1bbd9eacff4aea24da80677f3fb13f1b95babb3dfc3cf8bb882",
+    "currentMasterEvidence": "fee33cc82eece1bbd9eacff4aea24da80677f3fb13f1b95babb3dfc3cf8bb882",
+    "exclusionReasons": [
+      "current master dataset differs from available local baseline"
+    ]
+  },
+  {
+    "code": "20409",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "f717fff26db9956920fe2d156c9e18b46010decd1f6c25e025c4cdf6dab7dfcd",
+    "currentMasterEvidence": "f717fff26db9956920fe2d156c9e18b46010decd1f6c25e025c4cdf6dab7dfcd",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20407",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "3b05d1f9bf4d6bb7bd049a2277d9312e718b6e4b0321cfa7ca672ac41389a1b6",
+    "currentMasterEvidence": "3b05d1f9bf4d6bb7bd049a2277d9312e718b6e4b0321cfa7ca672ac41389a1b6",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20404",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "ade6a451f4217f3d8fec16a970ae56a142a844768af84e0b6d518fd63c444375",
+    "currentMasterEvidence": "ade6a451f4217f3d8fec16a970ae56a142a844768af84e0b6d518fd63c444375",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20403",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "7e578fa265ad440062757130651440a49713f875e3bbf0d63cdfc19b74384871",
+    "currentMasterEvidence": "7e578fa265ad440062757130651440a49713f875e3bbf0d63cdfc19b74384871",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20402",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "e0b4fc826a9dad834830758c2f9369713f81fe2354cd58a3289fb4d1319fe39e",
+    "currentMasterEvidence": "e0b4fc826a9dad834830758c2f9369713f81fe2354cd58a3289fb4d1319fe39e",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20388",
+    "localDataset": "7b087a4c525d84aad1f58c42e0510c41a0237b68b1b7843ecdea2f23b27d1c07",
+    "currentMasterDataset": "1096f008c24ca637d6fc3c0fbc6e7c3281df00d4fce3ba05be52a307da204d32",
+    "localEvidence": "f6cd91e2642a141125903c4e3cb3c58f8e93b8a0a16eb8c884d04ebededd7e9a",
+    "currentMasterEvidence": "f6cd91e2642a141125903c4e3cb3c58f8e93b8a0a16eb8c884d04ebededd7e9a",
+    "exclusionReasons": [
+      "current master dataset differs from available local baseline"
+    ]
+  },
+  {
+    "code": "20386",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "358e69d813057f20f3a84e19208a0ecbe302aa0d6eae72a792840e90b422daac",
+    "currentMasterEvidence": "358e69d813057f20f3a84e19208a0ecbe302aa0d6eae72a792840e90b422daac",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20385",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "ccb32657b4b3bd2f49b51f485a99d2829dad8b2b71327c55e0f9c0e12248cf55",
+    "currentMasterEvidence": "ccb32657b4b3bd2f49b51f485a99d2829dad8b2b71327c55e0f9c0e12248cf55",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20384",
+    "localDataset": "eb6d66de8a8196023a8e68c15504f274173220517a6b4fb8ba20117af6e70d6c",
+    "currentMasterDataset": "eb6d66de8a8196023a8e68c15504f274173220517a6b4fb8ba20117af6e70d6c",
+    "localEvidence": "5e21ff465f3c54db745b07915e466fb4955ced138155d3db631eb95c0016ee35",
+    "currentMasterEvidence": "5e21ff465f3c54db745b07915e466fb4955ced138155d3db631eb95c0016ee35",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20383",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "1d15b88fb6c4046367e110db48d404fda619d9dcb44ffb49b9e7a1af2472c6e4",
+    "currentMasterEvidence": "1d15b88fb6c4046367e110db48d404fda619d9dcb44ffb49b9e7a1af2472c6e4",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20382",
+    "localDataset": "b402de813fced9ea4b0253088e8221cc584a5fb8c524bdf798db6b7a2f413b82",
+    "currentMasterDataset": "b402de813fced9ea4b0253088e8221cc584a5fb8c524bdf798db6b7a2f413b82",
+    "localEvidence": "068334b219033a3408570be00fd879b0d3d4a0ed2b0c48a929ecd30d668ede3a",
+    "currentMasterEvidence": "068334b219033a3408570be00fd879b0d3d4a0ed2b0c48a929ecd30d668ede3a",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20363",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "f400fbbb5b3685298e93f2311757bc9a3b45d285498f5c93806c206dd894fd2d",
+    "currentMasterEvidence": "f400fbbb5b3685298e93f2311757bc9a3b45d285498f5c93806c206dd894fd2d",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20362",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "25bb5c5a0a0b0cbc13197000be21420ccf0069664cafb8454c5eb555fdea50de",
+    "currentMasterEvidence": "25bb5c5a0a0b0cbc13197000be21420ccf0069664cafb8454c5eb555fdea50de",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20361",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "ccccf62c8ebed2495ea22190c62a077fa697943f43ecf6c16e14f6e56e11b0e8",
+    "currentMasterEvidence": "ccccf62c8ebed2495ea22190c62a077fa697943f43ecf6c16e14f6e56e11b0e8",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20350",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "9c4867b36f7e905c90bca4c3c6904c8ee5b9bddab6fce522c1c2de0258633a0e",
+    "currentMasterEvidence": "9c4867b36f7e905c90bca4c3c6904c8ee5b9bddab6fce522c1c2de0258633a0e",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20349",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "ea77f6dcc99e54deeda2d2b8f62117a5da739f714bcdc8997bdae8213a41a39e",
+    "currentMasterEvidence": "ea77f6dcc99e54deeda2d2b8f62117a5da739f714bcdc8997bdae8213a41a39e",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20324",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "4156c6fdc9c4611df13ed6012caf62064edbe8c280c5365bc8f7c08e8ad949a2",
+    "currentMasterEvidence": "4156c6fdc9c4611df13ed6012caf62064edbe8c280c5365bc8f7c08e8ad949a2",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20323",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "9b087f6f431ab17ef8e042bf332a16a425d08a1b624c6a4c5546be30fe7f99f7",
+    "currentMasterEvidence": "9b087f6f431ab17ef8e042bf332a16a425d08a1b624c6a4c5546be30fe7f99f7",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20321",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "98908adc68c0a54c23ea571f51ba357b2970d67ebbc86382ebc0fc91149a9d9c",
+    "currentMasterEvidence": "98908adc68c0a54c23ea571f51ba357b2970d67ebbc86382ebc0fc91149a9d9c",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20309",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "7409cecc15fe992a563805bcdd2a64be4af6d327cac18757ebf755fd4e7a1120",
+    "currentMasterEvidence": "7409cecc15fe992a563805bcdd2a64be4af6d327cac18757ebf755fd4e7a1120",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20307",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "17be40d105bd71c5751a70932b2e0acacf917002727e269a4ea427990fd84484",
+    "currentMasterEvidence": "17be40d105bd71c5751a70932b2e0acacf917002727e269a4ea427990fd84484",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20306",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "e22198bae890fe9d634bc0d01ef9ab45b9e122be5a4e521fa4a4b451c3141ab9",
+    "currentMasterEvidence": "e22198bae890fe9d634bc0d01ef9ab45b9e122be5a4e521fa4a4b451c3141ab9",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20305",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "3420262ced9195cad7bc4ad2b3edc0ea74bb0d415163538e52d665ce597142ac",
+    "currentMasterEvidence": "3420262ced9195cad7bc4ad2b3edc0ea74bb0d415163538e52d665ce597142ac",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20304",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "ddae996356cf32a11dfc22f1d34a7798ab7ca4bded83dce92c0237ece9ee0048",
+    "currentMasterEvidence": "ddae996356cf32a11dfc22f1d34a7798ab7ca4bded83dce92c0237ece9ee0048",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20303",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "820d702fe566df05c35f1817b88da88c3dbafd2a505ce472eeac89e79302d504",
+    "currentMasterEvidence": "820d702fe566df05c35f1817b88da88c3dbafd2a505ce472eeac89e79302d504",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20220",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "6e28bfd273c5044292edc9c411c51fd87b2dc7ef167fe3bfdbff2d2f18832af1",
+    "currentMasterEvidence": "6e28bfd273c5044292edc9c411c51fd87b2dc7ef167fe3bfdbff2d2f18832af1",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20219",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "c1f73afea1eaac569430068af838f9d24f5479e1687afb250137fb91e17a4713",
+    "currentMasterEvidence": "c1f73afea1eaac569430068af838f9d24f5479e1687afb250137fb91e17a4713",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20218",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "ee516003b9acdc95d69099a5c9dcf2936de8928397395861fceb346a3de96a54",
+    "currentMasterEvidence": "ee516003b9acdc95d69099a5c9dcf2936de8928397395861fceb346a3de96a54",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20217",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "3db14fc3c7b9827ff2910fbb68f608bfca779ae678f568a731e005885478a963",
+    "currentMasterEvidence": "3db14fc3c7b9827ff2910fbb68f608bfca779ae678f568a731e005885478a963",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20215",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "a522c8b5ff40617b1af396a5f473cbcbbbe8436cedb380481da602df4d0d8716",
+    "currentMasterEvidence": "a522c8b5ff40617b1af396a5f473cbcbbbe8436cedb380481da602df4d0d8716",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20214",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "36fb275d78c7dda1edb7f1e5e31ea04d36dc39160aa7fc11012ee4e84ebf4b44",
+    "currentMasterEvidence": "36fb275d78c7dda1edb7f1e5e31ea04d36dc39160aa7fc11012ee4e84ebf4b44",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20213",
+    "localDataset": "3f15c8f73da289b62fdf1122a705b81689afe8c4c9415ae36c8f4535763ba614",
+    "currentMasterDataset": "3f15c8f73da289b62fdf1122a705b81689afe8c4c9415ae36c8f4535763ba614",
+    "localEvidence": "c92b0a9693b15005572dcdc6b8a98ba7416e67b580cce41969c1cac6e9d55242",
+    "currentMasterEvidence": "c92b0a9693b15005572dcdc6b8a98ba7416e67b580cce41969c1cac6e9d55242",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20212",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "459e738b44f652fd17fb6d1b53d1174f9e89c797184940dd27a513cacbb7ce67",
+    "currentMasterEvidence": "459e738b44f652fd17fb6d1b53d1174f9e89c797184940dd27a513cacbb7ce67",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20211",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "0b1f376c9aee28bc316d036cac51f30703a5dddf184a8a0c79e55e64fafae6fa",
+    "currentMasterEvidence": "0b1f376c9aee28bc316d036cac51f30703a5dddf184a8a0c79e55e64fafae6fa",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20210",
+    "localDataset": "128d58f2a37c95c5f151e0dd48beff28a97ba7a66741675db25678d4d7be6882",
+    "currentMasterDataset": "128d58f2a37c95c5f151e0dd48beff28a97ba7a66741675db25678d4d7be6882",
+    "localEvidence": "98c172c7f30f411302fc9b1169b309aaa7ecaf7997969948f7d9baa4077434d5",
+    "currentMasterEvidence": "98c172c7f30f411302fc9b1169b309aaa7ecaf7997969948f7d9baa4077434d5",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20209",
+    "localDataset": "5a6b11e116a558829603d62164425dcbf8ee298d26bbf3fc6abe56d2326b8c97",
+    "currentMasterDataset": "5a6b11e116a558829603d62164425dcbf8ee298d26bbf3fc6abe56d2326b8c97",
+    "localEvidence": "1314e8ddce698664f941cab1024345f36b3c6f1890fc73b5e7f28bcde1009bc8",
+    "currentMasterEvidence": "1314e8ddce698664f941cab1024345f36b3c6f1890fc73b5e7f28bcde1009bc8",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20208",
+    "localDataset": "cee8a0eebe127e0721c02ae7a81559212a5fbd1d332017ec3ced08ff350f6f79",
+    "currentMasterDataset": "898ff97338a61098f81e7438dd73ffc45f3c3e498065157e3addaa7accb10b72",
+    "localEvidence": "3865db195dd921c45c1ab4c044bef4bed5b86acfca81d8dbbb4a873638b8cdf7",
+    "currentMasterEvidence": "3865db195dd921c45c1ab4c044bef4bed5b86acfca81d8dbbb4a873638b8cdf7",
+    "exclusionReasons": [
+      "current master dataset differs from available local baseline"
+    ]
+  },
+  {
+    "code": "20207",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "23f970efdff549f44f505751a407010d2c1df8d95f8ef6d6312163a846181dbe",
+    "currentMasterEvidence": "23f970efdff549f44f505751a407010d2c1df8d95f8ef6d6312163a846181dbe",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20206",
+    "localDataset": "862b7e2cfa7fe686675f0660b593353292f25df178485b78664d3c5ba0ea3c9e",
+    "currentMasterDataset": "862b7e2cfa7fe686675f0660b593353292f25df178485b78664d3c5ba0ea3c9e",
+    "localEvidence": "2d0278ef492d10154b8cd9b8dcdcb89bc40a4e877af6fd12eaaef159dab5ae00",
+    "currentMasterEvidence": "2d0278ef492d10154b8cd9b8dcdcb89bc40a4e877af6fd12eaaef159dab5ae00",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20205",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "462b3a697233d0a969abb398d614bfd6624999f77cce9cd002d726e79da655fb",
+    "currentMasterEvidence": "462b3a697233d0a969abb398d614bfd6624999f77cce9cd002d726e79da655fb",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20204",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "6a1e985d376c5d7dcfe4cac6fe9d174f9081d525d66800fed7ee095df8f6e83b",
+    "currentMasterEvidence": "6a1e985d376c5d7dcfe4cac6fe9d174f9081d525d66800fed7ee095df8f6e83b",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20203",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "b850a4245ccc8d8f462fc2b11e791516f9fd13682b054e8eef62c83a91dff792",
+    "currentMasterEvidence": "b850a4245ccc8d8f462fc2b11e791516f9fd13682b054e8eef62c83a91dff792",
+    "exclusionReasons": []
+  },
+  {
+    "code": "20202",
+    "localDataset": "040df206fb64b979a0c42e62d7b894e624edf7070ebd52a06e20368486e95dd2",
+    "currentMasterDataset": "040df206fb64b979a0c42e62d7b894e624edf7070ebd52a06e20368486e95dd2",
+    "localEvidence": "d87ea1752e587e6a07ecfcc3d2e7fb806c3441d078ebf0ccdd283dcaa8b596c5",
+    "currentMasterEvidence": "d87ea1752e587e6a07ecfcc3d2e7fb806c3441d078ebf0ccdd283dcaa8b596c5",
+    "exclusionReasons": [
+      "original recent-master exclusion: local baseline differs from common ancestor"
+    ]
+  },
+  {
+    "code": "20201",
+    "localDataset": null,
+    "currentMasterDataset": null,
+    "localEvidence": "401e648e2686778307457febefb59e2edd13edf484245ef1a33f120fe1887c5c",
+    "currentMasterEvidence": "401e648e2686778307457febefb59e2edd13edf484245ef1a33f120fe1887c5c",
+    "exclusionReasons": []
+  }
+]
