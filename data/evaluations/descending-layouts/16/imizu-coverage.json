@@ -1,0 +1,887 @@
+{
+  "sourceId": "be9bd33d81027745ec21accb",
+  "prefixSha256": "eb6110d933d117389447d032d55c0f66dc2d34cdacd651c2423126c46c65a54d",
+  "originalSha256": "f4e41a2e8674efcaf6d701f79d485135c95722ac1fd704710310e4c2f83f6c06",
+  "exportedCharacters": 120000,
+  "reportedFullCharacters": 273837,
+  "listedContinuations": [],
+  "boundedTitleIdentitiesMatched": 109,
+  "excludedPartialFinalName": "野手埋立処分所管理費（繰越明許）",
+  "newRecords": 0,
+  "existingFieldsChanged": 0,
+  "fieldCoverage": "not asserted;next explicit header bounds names, not a claim that every field is complete",
+  "rows": [
+    {
+      "name": "議会運営費",
+      "start": 21295,
+      "end": 22182,
+      "bodySha256": "34124f3ec2c72013b0ca8a78ae8ed482be46f458c11abaa369a8dacfc52ae54f",
+      "existingId": "cached-16211-485f4e167b247d7b36460079",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "職員管理費",
+      "start": 22182,
+      "end": 22922,
+      "bodySha256": "c4c84dabf6fc12308e5ab9a3975594ed2a0d7031afcacad2022c5491d1a6c402",
+      "existingId": "cached-16211-1049bc7d40f5692ec6daf988",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "職員表彰・研修費",
+      "start": 22922,
+      "end": 23617,
+      "bodySha256": "67213ff5e8fa5b91ad66e1ee113aff32e50ade16c3e020684654c4341a21850e",
+      "existingId": "cached-16211-5166a7648f9c31a799a6455c",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "広報広聴費",
+      "start": 23617,
+      "end": 25689,
+      "bodySha256": "e13f4f2af8b286e2b39e20d7a5370940b7feb76f4c8c29a9a54d2ea71fe671fa",
+      "existingId": "cached-16211-e7429bd9f5b18c32afaa4a10",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "男女共同参画推進費",
+      "start": 25689,
+      "end": 27335,
+      "bodySha256": "6e79fe5a7f3afd9bb7c44d03254c1fdcb621ee9483d7e737c26a47e7e8adbda4",
+      "existingId": "cached-16211-0d58e636878ca8a7647c0c01",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "財政対策積立金",
+      "start": 27335,
+      "end": 27676,
+      "bodySha256": "3000724116b38f816bbb9d6ebe6dec20eb69b0aacecd03160985b512e233395a",
+      "existingId": "cached-16211-211f1f2a67ef3ffbf848d8e8",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "その他目的基金",
+      "start": 27676,
+      "end": 28139,
+      "bodySha256": "860097f4b19b0de7e0268168b4248d04111bc84045a3a59729a331dec6aab5ed",
+      "existingId": "cached-16211-c0c8b91691a3278f973807ba",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "会計管理費",
+      "start": 28139,
+      "end": 28592,
+      "bodySha256": "f9832d820b5626f94ddddfe420db31210e55de24e3c45a242ac7fa48a428fc96",
+      "existingId": "cached-16211-e28040cd46cb202dcf5baf36",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "検査費",
+      "start": 28592,
+      "end": 29343,
+      "bodySha256": "46ede79ca7e0978cc2fa1734e35363bbcead156dad1159210c6043aab67b19c3",
+      "existingId": "cached-16211-1cd0a47d6510e31a2f7498cd",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "財産管理費",
+      "start": 29343,
+      "end": 30669,
+      "bodySha256": "ddc71eb97ef2263b93eaab5d106ea581e2e533299b09bbbfdf5da80b9a4a5646",
+      "existingId": "cached-16211-dbd4fc4faac7bad01ccaac35",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "庁舎等管理費(繰越明許）",
+      "start": 30669,
+      "end": 31243,
+      "bodySha256": "405f29899a0d1269597a8da9a61a9d9e26698ba2067200df460e73b7895602cf",
+      "existingId": "cached-16211-ee0649dcdc057f6cec5fef5c",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "庁舎等管理費",
+      "start": 31243,
+      "end": 32810,
+      "bodySha256": "2b2c1771bd3c5c7cd8b58dbc71b960ea060faac36751f953ce5468d15c38a233",
+      "existingId": "cached-16211-b199c9f25444bfd0168b45e9",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "契約管理費",
+      "start": 32810,
+      "end": 34206,
+      "bodySha256": "f9f5743c6ec918623865d1223d89192312377892a5127830b1d131f6902f8ba1",
+      "existingId": "cached-16211-33c12aca34615a52ce231dfd",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "企画推進費",
+      "start": 34206,
+      "end": 36296,
+      "bodySha256": "2cbaaa096ed66a8ba754fc3976c50498a5a69dbdbbddddf60e39b25f95a16bf3",
+      "existingId": "cached-16211-a0e80d49314d67726061d078",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "交流推進費",
+      "start": 36296,
+      "end": 38312,
+      "bodySha256": "b04d5fcc03c211f997bc30d6deaad2fdf13f4440d99d2bfcb24d53959387af08",
+      "existingId": "cached-16211-40b07132ba4e25405ebedd4a",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "移住・定住促進事業費",
+      "start": 38312,
+      "end": 40964,
+      "bodySha256": "eb3a4e53723f76b43b73b36bb4b8c19831bef2aeb4577e5141c55e33958e19d7",
+      "existingId": "cached-16211-fd00cd3e0db6d45135e303fa",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "連携中枢事業費（広域型大学連携研究事業）",
+      "start": 40964,
+      "end": 41661,
+      "bodySha256": "56dde82e73a95278f27880c6c93d184d6222a93e56ff897a314186931c37d6da",
+      "existingId": "cached-16211-b4540dd198a390da8cbd924b",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "地方創生推進費",
+      "start": 41661,
+      "end": 43585,
+      "bodySha256": "3badd1a1a8690089828610ee9d06506dd36d5f84ce2e8af9fc55ab1f1a5cec9e",
+      "existingId": "cached-16211-72651e776d10b23437125875",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "電算管理費",
+      "start": 43585,
+      "end": 44433,
+      "bodySha256": "49550dccf36789e3644324710d6ef8552d75496982ef598717a4186582a02740",
+      "existingId": "cached-16211-38a1b6691b99778a7c2b7aff",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "ＤＸ推進事業費",
+      "start": 44433,
+      "end": 46077,
+      "bodySha256": "7bbe31116d9c612d0ebdb62220cc650c939139e7e7dcfae67953bd1d43ed34d0",
+      "existingId": "cached-16211-607b75de9a3b4e5cfb64bdbc",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "行財政改革等推進費",
+      "start": 46077,
+      "end": 47007,
+      "bodySha256": "6a5beccf07f1aa92017839a8aeb10afb3fc146745c90e9e25ede5bee6799e5fd",
+      "existingId": "cached-16211-4db58f4bf2e2e21c61140780",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "地域振興費(繰越明許）",
+      "start": 47007,
+      "end": 47383,
+      "bodySha256": "722b5e5dd2a58b66afa97fed20c75580d87cbfb23142ad9488cbe94e9e4cdbd1",
+      "existingId": "cached-16211-e88e899a93c41fb4ff2b7268",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "地域振興費",
+      "start": 47383,
+      "end": 48764,
+      "bodySha256": "1c5a9749634e4bc0d18fcb7324c4411b2fd6aaefbd74d8b87f0eeb72ed5a2de7",
+      "existingId": "cached-16211-ae2c123c9626a82145e658e0",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "協働のまちづくり推進費",
+      "start": 48764,
+      "end": 50782,
+      "bodySha256": "81089ac1b5c64ad4589197d6356b7d1b25f679e83028cf4636651493f70b5085",
+      "existingId": "cached-16211-acfc409d8006415361f6cba2",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "コミュニティセンター管理運営費(繰越明許）",
+      "start": 50782,
+      "end": 51391,
+      "bodySha256": "26a0f24a873c9047fe68775f4726d9fba663879fe18e5092ad68ff6523b16379",
+      "existingId": "cached-16211-d21f86d21c772cc04bbfc32e",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "コミュニティセンター管理運営費",
+      "start": 51391,
+      "end": 52297,
+      "bodySha256": "6721a6c6672707c940ec31c6db028f5bd597fc0ed6c54028e9ae743bd390cf41",
+      "existingId": "cached-16211-e14cb06f2a5bdf193ee74711",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "コミュニティセンター整備事業費(繰越明許）",
+      "start": 52297,
+      "end": 52625,
+      "bodySha256": "f9fd2ac0b97e3cbfb22278e44e5dced9626d90d7961f465f757984371d6703da",
+      "existingId": "cached-16211-5bbe2e99b7d2ce39f85e29de",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "コミュニティセンター整備事業費",
+      "start": 52625,
+      "end": 53073,
+      "bodySha256": "1e1ea1f1353035498b0d5fae2a473d3ebbff66f130f0cbe5f34cc6a88ca67934",
+      "existingId": "cached-16211-e74fbf318ac3e916b47014da",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "交通安全対策費",
+      "start": 53073,
+      "end": 53510,
+      "bodySha256": "73ba011f9c4343ff0a4cb6ba0f209d21b054594a23059015d3f4775b8c374491",
+      "existingId": "cached-16211-fd60835628917805b3e866fb",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "地域交通対策費（繰越明許）",
+      "start": 53510,
+      "end": 53897,
+      "bodySha256": "4bfb76770d8a7d894469bd0c6992a89a40278ded2877f38142130e8c7aa79920",
+      "existingId": "cached-16211-b7c87a1f2680fe1de5393cde",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "地域交通対策費",
+      "start": 53897,
+      "end": 55297,
+      "bodySha256": "322012e0bcd716b59f3ad4d7c3ca12a3e85bfcb38ca770a497d163893ccffc2a",
+      "existingId": "cached-16211-14ce4d54903c9a3a1499171e",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "コミュニティバス運行費",
+      "start": 55297,
+      "end": 56455,
+      "bodySha256": "bb46138f63c5958d45bc774768f51f9629e558eac626c5780ccfa6829dc98676",
+      "existingId": "cached-16211-388744a8e85a08f539119a30",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "万葉線対策費(繰越明許）",
+      "start": 56455,
+      "end": 56786,
+      "bodySha256": "131180abf51b88bb511bd00e9a0af7cedd1c755286fef2e6ed6baca66fed9ee1",
+      "existingId": "cached-16211-574c07fc758f292beb26c701",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "万葉線対策費",
+      "start": 56786,
+      "end": 58216,
+      "bodySha256": "5697576ea5c503df168984e21accbf4a68af79c999cf9618f3b32f41cab6c6e3",
+      "existingId": "cached-16211-a1d73cdfcf5ac165666ff06b",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "防犯対策費",
+      "start": 58216,
+      "end": 58889,
+      "bodySha256": "236eb045beaea4f86acb973a7fb983fe7efc3dde79550dff759498e22f81cbf0",
+      "existingId": "cached-16211-dcfa19dc48b159f46c7106bb",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "防災対策費",
+      "start": 58889,
+      "end": 60818,
+      "bodySha256": "c47719d41f9d91b98ad09a6a5d2a1eb63de8aecc29fe576a50bc22a182a71d29",
+      "existingId": "cached-16211-fc382780b116c7b5c5088829",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "災害対応費(繰越明許)",
+      "start": 60818,
+      "end": 61188,
+      "bodySha256": "062ac7dac826faa0cc0ed0102ce846d840c47f65952d501099b386aa5932519a",
+      "existingId": "cached-16211-0594985f74fcc56ba6d5aaa5",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "課税総務費",
+      "start": 61188,
+      "end": 61810,
+      "bodySha256": "c8eba262ef07f94f0fc54e7ad0fd811e7c6a7ca456e57e4c913421c692a8658b",
+      "existingId": "cached-16211-db9988582621e830233803ee",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "賦課事務費",
+      "start": 61810,
+      "end": 62874,
+      "bodySha256": "2170840b1e09b5d160a6089a30b776fcc69e7ad663b2d3f06c298008f374541b",
+      "existingId": "cached-16211-6c957b054af347b21183400f",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "徴収事務費",
+      "start": 62874,
+      "end": 64119,
+      "bodySha256": "db841d83e92c8e6ae201400d0047f24cfc629df67e0eb438f61930333b8f376e",
+      "existingId": "cached-16211-b6fcfd01bd17f57f62838a60",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "定額減税補足臨時給付金給付費(繰越明許）",
+      "start": 64119,
+      "end": 64501,
+      "bodySha256": "284dbbee07ea8cb52812297098274b4f4cf60dcf9dd436a111ce31b9bd8b6538",
+      "existingId": "cached-16211-8fde3468c3709566c5573a44",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "定額減税補足臨時給付金給付費",
+      "start": 64501,
+      "end": 65049,
+      "bodySha256": "48fdece7cf7954488a5474a8c345225d4ca16f39b04014f7086f7068703cde18",
+      "existingId": "cached-16211-fd8df7e95df1aeea88b8158b",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "戸籍住民基本台帳費(繰越明許）",
+      "start": 65049,
+      "end": 65469,
+      "bodySha256": "7f916b45d76da8787742ccde56dbbe87ccbd008911c01c7be449baddaf1561c3",
+      "existingId": "cached-16211-873afb15a5fd771331acbf79",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "戸籍住民基本台帳費",
+      "start": 65469,
+      "end": 66780,
+      "bodySha256": "cca487ec4d83258bc9deeebb8a98cbf2917a05ee2718133dce03419c4ccb85df",
+      "existingId": "cached-16211-deb84049587d0d567e74c103",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "監査委員費",
+      "start": 66780,
+      "end": 67461,
+      "bodySha256": "49bb86f9f40d132e5f953f4d90a76099e7a0138d98c5cbe5e7578e05e3d58c32",
+      "existingId": "cached-16211-046e559c602071874779de72",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "民生児童委員活動費",
+      "start": 67461,
+      "end": 67937,
+      "bodySha256": "dff801cf6e410c5f1dbe1cde1b54703cc9eb75cc95c347873ff82d4e34520023",
+      "existingId": "cached-16211-4b89f3dacfd9e37198212e0e",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "社会福祉団体等対策事務費",
+      "start": 67937,
+      "end": 68804,
+      "bodySha256": "f16f1ec2b046ecea0338de8785af3425d70d99faf5582a91fcf399d6d5845808",
+      "existingId": "cached-16211-87129b9cc6b7441aa8901e37",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "ひきこもり支援対策費",
+      "start": 68804,
+      "end": 69223,
+      "bodySha256": "ca56ab43e8b37a5554a3576eb17f6440c7b496abdfdd92180685bb97d6e05c3d",
+      "existingId": "cached-16211-42258737cac232e9c43c30a3",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "重層的支援体制整備事業費",
+      "start": 69223,
+      "end": 70101,
+      "bodySha256": "e696902079fb2ed6d4e98c447bad63b165789a4456b80be10c2bb4dec6f55fa6",
+      "existingId": "cached-16211-6bd8c9c8dc548c745613f1a9",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "介護人材対策事業費",
+      "start": 70101,
+      "end": 70826,
+      "bodySha256": "c2b00996fd81de2b21e8564413907a11012bab6b3dde690b71dbc34f8fc0388a",
+      "existingId": "cached-16211-25a6c6ff62094631064b4dff",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "新湊交流会館管理費",
+      "start": 70826,
+      "end": 71269,
+      "bodySha256": "18f7369fd1d87534f350bc92a6258e7d30f17af8a36722bc1516e5ec21900164",
+      "existingId": "cached-16211-9df168f4eba63edf2fa6449a",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "市民交流プラザ管理費",
+      "start": 71269,
+      "end": 71966,
+      "bodySha256": "8d85cc5f0df7850c0549b2257de99adef91f7c3f66465b5409424415080b9fc1",
+      "existingId": "cached-16211-e73d7010d7d936db613f6634",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "在宅福祉対策費",
+      "start": 71966,
+      "end": 74314,
+      "bodySha256": "7da3a4f459b1915511b05ab2593863d83ba6dadea9fc3570492d3502975cbdc1",
+      "existingId": "cached-16211-54ac4d858f6fb47983c51d2d",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "高齢者福祉施設費",
+      "start": 74314,
+      "end": 75228,
+      "bodySha256": "e413cb6b719db838d9d259a3b93b253f6b839cf8be11aad199c72c76987c03f5",
+      "existingId": "cached-16211-603032960c8024bea61880a2",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "地域支援事業",
+      "start": 75228,
+      "end": 77340,
+      "bodySha256": "ee7ed15276d09b54b69fbcb63e74bd12129a73ecd4487c47ea63d8a123c8f49e",
+      "existingId": "cached-16211-62c1679d3e0fe0f5f78b9249",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "障害者福祉総務費（繰越明許）",
+      "start": 77340,
+      "end": 77703,
+      "bodySha256": "7b4f31ef06f7effae38e23e3c72c63909671f7e41deeeada41d6134d95866feb",
+      "existingId": "cached-16211-61ebce38baa692ea726e4a57",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "障害者福祉総務費",
+      "start": 77703,
+      "end": 78184,
+      "bodySha256": "262700ee376b8bee6c681219241c8598c86b846a12872d94183ada45cf3a0b5f",
+      "existingId": "cached-16211-ca14a7787bfb300dcd69dfaa",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "福祉金等給付費",
+      "start": 78184,
+      "end": 78585,
+      "bodySha256": "6dde5250689e9c3e3445ba961bc28d8d914de9540d9a39e7445a7d8f81960454",
+      "existingId": "cached-16211-edf84bd7fd25dc0f684c3815",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "障害者福祉対策費",
+      "start": 78585,
+      "end": 79282,
+      "bodySha256": "4b4a6641dbfb73fa267fd78dd068a9d76d68c679050ea0cb83e35f91cbddc274",
+      "existingId": "cached-16211-56e2502b41a493e2da6eda50",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "重度心身障害者等医療費助成費",
+      "start": 79282,
+      "end": 79930,
+      "bodySha256": "185f2ba128869015dc80b43eb9a4b0094b295f455d214d109dca8f833624dee2",
+      "existingId": "cached-16211-db50bd77f31309966620a2b5",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "地域生活支援費",
+      "start": 79930,
+      "end": 80822,
+      "bodySha256": "54f05499bb29bec7e6b0378bda16fba76ae28bd1d2a203aae385d9245fa31314",
+      "existingId": "cached-16211-3ff04d461eb2e07f876823fa",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "自立支援給付費",
+      "start": 80822,
+      "end": 81387,
+      "bodySha256": "2843e5be87de133b9fe753c49b14d23c923304f8971804b00ca95f404e319f87",
+      "existingId": "cached-16211-ced3853a385b75b849f3dcb8",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "障害者福祉施設支援費",
+      "start": 81387,
+      "end": 81951,
+      "bodySha256": "3f60192c7d0a57b6e2d68168a36bef6e7ad33c81eeed6cc77af9092da8f24236",
+      "existingId": "cached-16211-df57e1aed6faeaeffc0a6c1f",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "低所得世帯物価高騰臨時給付金給付費(繰越明許）",
+      "start": 81951,
+      "end": 82558,
+      "bodySha256": "a151cfa1862f0999a0d35f9e6aefae4adbf22bf4581a3d387a34d64b32b1e2cb",
+      "existingId": "cached-16211-4c6ed84a7665e79e1d4eeece",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "低所得世帯物価高騰臨時給付金給付費",
+      "start": 82558,
+      "end": 83192,
+      "bodySha256": "472c925d9cf899994fa07acdf01431b5c96f3d91e072f113194d6326fb9fd1c4",
+      "existingId": "cached-16211-cd007667e8c9eb64f969a424",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "電力・ガス・食料品等価格高騰緊急支援給付金給付費(繰越明許）",
+      "start": 83192,
+      "end": 83696,
+      "bodySha256": "29a6ac89dc87ce6f9fe585c09642302c4c351d1b653c72e52bc29c86be88e4bc",
+      "existingId": "cached-16211-33dcd91f04047b86e2dd355b",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "非課税世帯物価高騰臨時給付金給付費",
+      "start": 83696,
+      "end": 84341,
+      "bodySha256": "2a00613bf75de2e82484bbd640c3a14b30cd4baed84a3b6378fc3ddd302ab3a2",
+      "existingId": "cached-16211-f2b45d2a1f5127f8d8023c73",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "子ども・子育て支援推進費（繰越明許）",
+      "start": 84341,
+      "end": 84793,
+      "bodySha256": "c2de6fa9aa2e24d4dedf2e208f4d551cdca7ae3981472218c3172d2a9a5fcdce",
+      "existingId": "cached-16211-ffa08c290f7f5db328f9725e",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "子ども・子育て支援推進費",
+      "start": 84793,
+      "end": 86323,
+      "bodySha256": "ebbd0eeca8d3b88ba69419db4b41d586c19849c8fe17a82d0393ce50611b718c",
+      "existingId": "cached-16211-5567c2fd223dc1d94f40aff2",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "子ども条例推進費",
+      "start": 86323,
+      "end": 87423,
+      "bodySha256": "0b706ea9ff440992d47ea334c66e3e901d1f772ba9a12e21454c5463724f594d",
+      "existingId": "cached-16211-c1b7434670b285d95db2ec01",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "幼児ことばの教室運営費",
+      "start": 87423,
+      "end": 88139,
+      "bodySha256": "c42493158cf1854ce7e93daaea83b919f27a6e6c8759018a14e84478ffb03e3f",
+      "existingId": "cached-16211-b467a7b79dcd45eaaa0963f4",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "放課後児童健全育成事業費",
+      "start": 88139,
+      "end": 88903,
+      "bodySha256": "47c9ab947d234367dcdd8081e8fd4be50b340b8a7bb12a8f78dab5d1a65075ca",
+      "existingId": "cached-16211-b85b4b81d1089cebd5db55af",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "子育て支援センター運営費",
+      "start": 88903,
+      "end": 89573,
+      "bodySha256": "5ddd83fca54be4d1b4b74e30ed70de8eb7e50acf2cfa914c05432ecf6f867ead",
+      "existingId": "cached-16211-99c071d1e09136f7596927a1",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "ファミリーサポートセンター運営費",
+      "start": 89573,
+      "end": 90177,
+      "bodySha256": "93cc5311a97a6827fd7487ed53ee06a5897b0be0f0fbed28fb75388f3cde771e",
+      "existingId": "cached-16211-8b9b9d6a315422f83b330bdd",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "家庭児童福祉費",
+      "start": 90177,
+      "end": 91690,
+      "bodySha256": "e146feff307545619eefba89a7db5700ee2a7192c0df908f54c1a4e884d98580",
+      "existingId": "cached-16211-095d6552445c713c771c1d8e",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "ひとり親家庭等福祉費",
+      "start": 91690,
+      "end": 92968,
+      "bodySha256": "e0f9dc49d173d652c8562d3c49c27d48bfae45a441f4897103562c6f7e256cc3",
+      "existingId": "cached-16211-ef2a21d9ddc43507767913a0",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "児童扶養手当給付費",
+      "start": 92968,
+      "end": 93706,
+      "bodySha256": "818a819aae903d298fcef3e85fd8d58c2208cb57bfa8dd2b91951492348356b1",
+      "existingId": "cached-16211-5101b6fac074f06a40b2a566",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "ひとり親家庭等医療助成費",
+      "start": 93706,
+      "end": 94223,
+      "bodySha256": "d75d33d270ab5019322a34318290dda5e22393e7f778b96f36b83c2e14a9b116",
+      "existingId": "cached-16211-4f09bd34f5ff3c318452b53b",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "子ども及び妊産婦医療助成費",
+      "start": 94223,
+      "end": 95215,
+      "bodySha256": "86a8a6a57bd5f645fb68d993b9a209fd85a20b645f932be08da33ab61e45b680",
+      "existingId": "cached-16211-5d3ab70878794c1ac17b6c62",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "保育園等管理運営費（繰越明許）",
+      "start": 95215,
+      "end": 95547,
+      "bodySha256": "4c2366778d2da36d625737b3163df054598d5461bc0c046620c07b6436a149f7",
+      "existingId": "cached-16211-c4c3e948aa815c013b7f6c81",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "保育園等管理運営費",
+      "start": 95547,
+      "end": 96508,
+      "bodySha256": "f55a9fdf95c4cd44f53c7a346c3688a568f18a2feee63abed9887d30c0c4e82e",
+      "existingId": "cached-16211-e1fc003d69b53de1e610e04b",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "保育園等運営委託等事業費",
+      "start": 96508,
+      "end": 98283,
+      "bodySha256": "480d0e19db31360164279686085eac3cfc90b4545dd1cd149a90c3ecb2731b1d",
+      "existingId": "cached-16211-d5ad5ce7b99a8656ece582b4",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "保育園等整備事業費",
+      "start": 98283,
+      "end": 98829,
+      "bodySha256": "fca7088bcc7477164fc0b2956b752bbf92f362b50e933e693d602cb36a93bfa0",
+      "existingId": "cached-16211-17253992f2e7668d98f7a735",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "児童館管理運営費",
+      "start": 98829,
+      "end": 99434,
+      "bodySha256": "fde8df1230d0fcf307f1710f5f5394d0d428c2ee2b2ad74262961ff8aadb2151",
+      "existingId": "cached-16211-5aae464105bb86196aa9a6c5",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "セーフティネット支援対策費",
+      "start": 99434,
+      "end": 100408,
+      "bodySha256": "555a07792df46e1759324fc8b9cf12357b41e7912364137790d0e09a4ec8b4ff",
+      "existingId": "cached-16211-85faeb37c2a02bd758bf8f66",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "社会保障生計調査費",
+      "start": 100408,
+      "end": 100779,
+      "bodySha256": "b11b40487e1ae32dfc0fe9e7e1cdd46247ee1cb8ebeceba9d82c914ebb4ef161",
+      "existingId": "cached-16211-e80bed066b8a36d536d3667a",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "生活保護扶助費",
+      "start": 100779,
+      "end": 101266,
+      "bodySha256": "14135a0a13e2b9fc9212041a819eae82ea5138723971f4f9aaf0389ddcd9d2d6",
+      "existingId": "cached-16211-875ddf817555ebaf03df32dd",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "災害見舞事業費（繰越明許）",
+      "start": 101266,
+      "end": 101907,
+      "bodySha256": "46b2ee442f5b15916f42e30d22e3a279f6b8b6a7fa8b63b74170a5dcb7823224",
+      "existingId": "cached-16211-02995d1b9ed59c0c6d6d9849",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "子ども子育て総合支援センター管理費",
+      "start": 101907,
+      "end": 102357,
+      "bodySha256": "4bfa11ac2f7f7b96b6e4d1954ff4b8835e3102c357dfd582b4a68aa39e7340d0",
+      "existingId": "cached-16211-65b49cdb5bbba98656f516f5",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "不妊治療等助成費",
+      "start": 102357,
+      "end": 102910,
+      "bodySha256": "8bae1b924b3f6a58debdf3d37022ab1ce044e19504d4757ed9d885a024cdbfb5",
+      "existingId": "cached-16211-a9b5732c1b9ae0f2da767869",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "母子保健推進費",
+      "start": 102910,
+      "end": 104378,
+      "bodySha256": "b54ec7277f513e2d748714fde3c33c01a64668a10d30b88208c1a92a3dea0863",
+      "existingId": "cached-16211-2f61ac855d3a090fee6d0f7a",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "歯科保健対策推進費",
+      "start": 104378,
+      "end": 105147,
+      "bodySha256": "574afe8375c69da4f8692daf86924fbc96b61f335fff090e94a84b807847f808",
+      "existingId": "cached-16211-5d418c13007126ca965e509d",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "成人・老人保健推進費",
+      "start": 105147,
+      "end": 105926,
+      "bodySha256": "a0c1ffd4b205986c9ff312d038e49483fff5e8a23c74d835bfbe7f771321d02b",
+      "existingId": "cached-16211-308c5bb6dc51d676dc6b17eb",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "がん対策推進費",
+      "start": 105926,
+      "end": 106932,
+      "bodySha256": "c43eb2957290e1f8631866f5a9ef629f68656965dd0137f985d00e3ff2b97a8e",
+      "existingId": "cached-16211-e2aebeb91bd21d415417209f",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "健康づくり推進費",
+      "start": 106932,
+      "end": 107604,
+      "bodySha256": "dd0c04a6698bd97d1c3a4e0bf6ffa68c362ec95489e0fe0135bce853f27c9d31",
+      "existingId": "cached-16211-2cc8029ad65c6611816e4aef",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "心の健康づくり推進費",
+      "start": 107604,
+      "end": 108730,
+      "bodySha256": "4eed61f8a655a2b50c9c072ddb73c6c2dbb7f0abe77ca0c0e24a42298196d636",
+      "existingId": "cached-16211-b73d8f2742ab3d78fade6e1b",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "予防接種費",
+      "start": 108730,
+      "end": 110488,
+      "bodySha256": "875460da5d5e9ae59e28cdbbdb520ede3cd3d47ce92723e29e14e69cc5b9237a",
+      "existingId": "cached-16211-02120d523812a1b31e21e5ee",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "感染症予防費",
+      "start": 110488,
+      "end": 110839,
+      "bodySha256": "21ce6145e295d4f13edb967d365dbb20f8206976047e57f361610f1ff6b3902d",
+      "existingId": "cached-16211-076beba5288b2af32483694b",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "新型コロナウイルスワクチン接種費（繰越明許）",
+      "start": 110839,
+      "end": 111285,
+      "bodySha256": "e0a13433b3e599689098f149e511a29f1e64bc13415f16b2a04970893e15f01a",
+      "existingId": "cached-16211-f4c408f133e87939d47b76c5",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "環境衛生対策費",
+      "start": 111285,
+      "end": 112109,
+      "bodySha256": "463fb284c186f6fadebbe64b605271d29c90d8566d90095ca7c0a3d3661ecaa8",
+      "existingId": "cached-16211-634f24ca118699ab333a514c",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "美化対策費",
+      "start": 112109,
+      "end": 113021,
+      "bodySha256": "fbccba7bde96f5fe8e9518921b8c8f2b232362cc0ff3e3eaabdaef6329acea76",
+      "existingId": "cached-16211-828a7ad6cbff45d4151be899",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "斎場管理費",
+      "start": 113021,
+      "end": 114059,
+      "bodySha256": "217c0c240a86aa6d2d6f5a18ee2e028fd36b7ceb7c42d536fa4bbfb85f6ff620",
+      "existingId": "cached-16211-c491dcc13a5d27cbb1024be5",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "公害対策費",
+      "start": 114059,
+      "end": 114879,
+      "bodySha256": "3e72f5bb501b9286dc7a5e3be4f78d52fe82f129723a9e9ce25cbcc43180c030",
+      "existingId": "cached-16211-9ea7101034dd53b82c911ded",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "地球温暖化対策推進費（繰越明許）",
+      "start": 114879,
+      "end": 115152,
+      "bodySha256": "0fb040408e5fc67f304f33e4843f9b75b79214501746a38946d8ee920ae5b827",
+      "existingId": "cached-16211-3b55cb7bab9a7a3bf7988d31",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "地球温暖化対策推進費",
+      "start": 115152,
+      "end": 116479,
+      "bodySha256": "06faddc72f9f6d864c91612920dec6780f826d63b2ffbe04faa28711d016bf5b",
+      "existingId": "cached-16211-f1681f1abff2fa7524790af7",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "資源再利用対策費",
+      "start": 116479,
+      "end": 117250,
+      "bodySha256": "6746290b5b11fd9bab2030340e1413cc57ace68dc1559846b9c8dd0282d24b16",
+      "existingId": "cached-16211-d529a48a5d7150e652643cd9",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "クリーンピア射水管理費",
+      "start": 117250,
+      "end": 118434,
+      "bodySha256": "c57658bb750c2d05262c4d610119d79632deeda46cd006cf8c8e8ad51d0025c8",
+      "existingId": "cached-16211-fee17d528b814a7699f8e575",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "粗大ごみ処理施設管理費",
+      "start": 118434,
+      "end": 119155,
+      "bodySha256": "8e1ac621fe5ed0fea6164a95d8272a8593377ac8d530b81eca7c6efa5e243ba9",
+      "existingId": "cached-16211-673cf569d5279144b13c6c44",
+      "fiscalYear": 2024
+    },
+    {
+      "name": "処理棟管理費",
+      "start": 119155,
+      "end": 119828,
+      "bodySha256": "ac3f9dfd86f035d93e643d0718fed3399576379302105a38c4ea7740bf92f376",
+      "existingId": "cached-16211-86ad3a961a41649ab2cccac5",
+      "fiscalYear": 2024
+    }
+  ]
+}

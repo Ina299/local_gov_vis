@@ -1,0 +1,31 @@
+{
+  "candidateRecords": 46,
+  "perMunicipality": {
+    "小矢部市": 41,
+    "滑川市": 1,
+    "高岡市": 4
+  },
+  "validatedCumulativeCandidates": 30384,
+  "validatedEvidence": 88216,
+  "separateSets": {
+    "Okinawa": 1084,
+    "initial": 93
+  },
+  "previousHead": "2cbf9013043b6180b95af6db170b4c4b005f2b28",
+  "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0,
+  "checks": {
+    "focused": "7/7",
+    "crawler": "920/920",
+    "web": "256/256;serial",
+    "typecheck": "passed",
+    "lint": "passed;existingfontwarning",
+    "national": "passed branch baseline",
+    "static": "109/109 subpath",
+    "quotes": "30384 candidates /88216 quotes"
+  },
+  "remoteCI": "unverified;known ActionsAPI403 not retried",
+  "remaining": "7missingbodies;Imizu153837missingcharacters/no listed continuation;2aggregate/method sources not individual business names;navigation and existing75outputs preserved. Niigata staged separately;not nationwidecompletion."
+}

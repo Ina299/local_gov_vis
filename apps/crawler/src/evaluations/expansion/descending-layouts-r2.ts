@@ -1,3 +1,5 @@
+import{reviewOyabeMissing}from'./descending-toyama-oyabe';
+import{reviewToyamaNamed}from'./descending-toyama-named';
 import{reviewNanao}from'./descending-ishikawa-nanao';
 import{reviewKaga}from'./descending-ishikawa-kaga';
 import{reviewNonoichi}from'./descending-ishikawa-nonoichi';
@@ -156,6 +158,8 @@ export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]
  const ishikawanonoichiReview=reviewNonoichi(input);if(ishikawanonoichiReview)return ishikawanonoichiReview;
  const ishikawakagaReview=reviewKaga(input);if(ishikawakagaReview)return ishikawakagaReview;
  const ishikawananaoReview=reviewNanao(input);if(ishikawananaoReview)return ishikawananaoReview;
+ const toyamanamedReview=reviewToyamaNamed(input,inputs);if(toyamanamedReview)return toyamanamedReview;
+ const toyamaoyabeReview=reviewOyabeMissing(input,inputs);if(toyamaoyabeReview)return toyamaoyabeReview;
  const grantsReview=reviewNaganoGrants(input);if(grantsReview)return grantsReview;
  const strategyReview=reviewStrategy(input);if(strategyReview)return strategyReview;
  const nagisoReview=reviewNagiso(input);if(nagisoReview)return nagisoReview;
