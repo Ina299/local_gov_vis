@@ -1,0 +1,42 @@
+{
+  "sourceId": "d6b6c9ae8dddc58dc91103a9",
+  "fullTextSha256": "94b4d5d78edb84436f77cf0167886ea59ee4636004d89c60c09010261d40f0dc",
+  "reviewScope": "Annual header, all90事業/補助金/給付金 mentions and allquoted-name spans, with surrounding tourism and administrative contexts",
+  "proposedNames": [
+    "宿泊施設誘客支援事業（おいでなして！すわ泊お宿割）",
+    "宿泊施設グレードアップ支援事業",
+    "宿泊施設利用者移送業務",
+    "修学旅行誘致支援事業"
+  ],
+  "newCandidatesPendingFullValidation": 4,
+  "sourceGenre": "policy evaluation with explicit named individual supports",
+  "existingTourismAdvertisingComparison": {
+    "sourceId": "15c84080811ea70453dba415",
+    "start": 90478,
+    "end": 90877,
+    "quote": "各種パンフレット及び観光案内を作成・印 ながることから、観光宣伝事業は重要 ない新たな情報発信に取り組む必要が がある。 トインターチェンジ等のインフラ整備が進むと共に、全国的に\n刷する。 となる。 ある。\n134 観光宣伝事業\nキャンペーンやインバウンド商談会を行い\n181,353 観光課 B 見直し継続 拡充 注目を集める御柱祭開催が予定されている。コロナ禍では、\n従来の手法（観光イベントや商談会等）による誘客促進が困\nB 見直し継続\n観光客の積極的な誘致を行う。 難な状態であるが、市内外のより多くの人に諏訪市の魅力\nを知っていただくため、様々な媒体を活用し情報発信を続け\nることが肝要である。誘客ターゲットに対し、どのような情報\n発信が効果的かを戦略的に取り組むことは、新たな客層や\nリピーター確保につながることから、既存の枠組みにとらわ\nれない誘客施策を継続的に取り組む必要がある。\n",
+    "reason": "Existing134title and purpose concern pamphlets, campaigns and trade meetings. The four separately quoted supports specify different services. Budget containment remains unknown; no costs are attributed or summed."
+  },
+  "holds": [
+    {
+      "name": "SUWAプレミアム / SUWAデザインプロジェクト",
+      "reason": "Source explicitly states両者の活動は独立した事業ではなく; do not emit two independent records"
+    },
+    {
+      "name": "館外収蔵施設移転準備事業 / 業務スマート化プロジェクト",
+      "reason": "Forward-looking推進/必要 wording, no individual completed-period identity established"
+    },
+    {
+      "name": "産後ケア / 見守りネットワーク / 地域雇用活性化",
+      "reason": "Possible aliases/components of existing complete-sheet programmes; no separate identity established"
+    },
+    {
+      "name": "three fireworks events, plans, visions,施設names",
+      "reason": "Do not split related events or policy headings into new business records"
+    }
+  ],
+  "policyScoresAssigned": false,
+  "financialFieldsAssigned": false,
+  "missingPrefixTailRecovered": false,
+  "municipalRequests": 0
+}

@@ -1,0 +1,21 @@
+{
+  "prior95Preserved": true,
+  "proposedAdditions": 5,
+  "held": [
+    {
+      "name": "森林の里親促進事業",
+      "proof": "・森林の里親促進事業\n福澤桃介が初代社長であり、愛知県名古屋市に本社のある、大同特殊鋼(株)がH28年\n度に創業100周年を記念して、福澤桃介ゆかりの地である南木曽町と森林の里親契約を\n締結している。今年度も昨年度に引き続き、森林整備のために年100万円の寄付をいた\nだいた。令和５年度より同社の新入社員研修の会場が変更されたことによって参加人数\nが大幅に減ったこともあり、南木曽中学校１年生林業体験実施時に大同特殊鋼(株)の皆\nさん（参加者５名）と共に山 林整備を実施した。寄付金にて委託により下刈りを行った。\n\n産7-28",
+      "proofStart": 194960,
+      "reason": "Separate from林業指導啓発, but donor-funded下刈りmay be the same forest-maintenance work counted in existing町有林造成事業. No separate current-year business code or budget line establishes disjoint identity. Keep as proposal/hold, not accepted addition."
+    }
+  ],
+  "acceptedNames": [
+    "林業後継者対策事業",
+    "機構集積支援事業",
+    "水田農業構造改善対策事業",
+    "中山間地域等直接支払交付金",
+    "農業関係制度資金利子補給金"
+  ],
+  "omitted": "All monetary columns, donation values, zero-use implementation claims; no fresh requests",
+  "reviewStatus": "stage_only_pending_fullchecks"
+}

@@ -1,0 +1,384 @@
+{
+  "reviewedSources": 25,
+  "scope": "Specific review outcomes; parser ledger unsupported is not itself an evidence blocker. Processed sources retain partial-coverage limitations.",
+  "sources": [
+    {
+      "municipalityCode": "20451",
+      "sourceId": "4defcf5afaacf767869544c3",
+      "cachedTextSha256": "a81fe94995c5a648adbd21efe1af97a45452a178d398a12eef39711e97f3ade5",
+      "bodyPresent": true,
+      "reason": "Policy outcomes/24policy chapters, not individual project identities.",
+      "supportingReviews": [
+        {
+          "path": "policy-metrics-full-review.json",
+          "sha256": "af7c75753bf10502ac5f2c29b7de44a4045abb2c51d15c8ac498acd29e9769a0"
+        },
+        {
+          "path": "nonindividual-and-plan-review.json",
+          "sha256": "6e7d7fd910483d338acb23581dc1b4bcf4786c191e5cde3ce1bcae161b6db177"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20451",
+      "sourceId": "9e54c4b2463a03631b633255",
+      "cachedTextSha256": "5c110b8da751ed9cdad5db8dbae52aa85a253ed3eaac467550989f76458b7832",
+      "bodyPresent": true,
+      "reason": "Policy outcomes/24policy chapters, not individual project identities.",
+      "supportingReviews": [
+        {
+          "path": "policy-metrics-full-review.json",
+          "sha256": "af7c75753bf10502ac5f2c29b7de44a4045abb2c51d15c8ac498acd29e9769a0"
+        },
+        {
+          "path": "nonindividual-and-plan-review.json",
+          "sha256": "6e7d7fd910483d338acb23581dc1b4bcf4786c191e5cde3ce1bcae161b6db177"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20425",
+      "sourceId": "f3453d6ef42bc5c0bb6bb43f",
+      "cachedTextSha256": "aa726289308b93bc76ea59aa26896c94d02895dbf4461209942c40a7ec69fd43",
+      "bodyPresent": true,
+      "reason": "Cumulative throughR3 vs futureR4-R6 actions; distinct annual project identity/name alignment unresolved.",
+      "supportingReviews": [
+        {
+          "path": "kiso-cumulative-layout-review.json",
+          "sha256": "9150b9f50ef98b493c6d17f074ae3d623435d5b9a0506b7c07bf97d89b044ba9"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20423",
+      "sourceId": "8435db4f1eb352adc513a992",
+      "cachedTextSha256": "bd453db6201df0b6f63bee511882d42ae7490a75b39ba03597c2346aa6fb9e92",
+      "bodyPresent": true,
+      "reason": "Complete chapter is contained in reviewed full Nagiso book; account totals not independent project identities. No extra candidate merely for a duplicated chapter.",
+      "supportingReviews": [
+        {
+          "path": "nagiso-chapter-coverage.json",
+          "sha256": "b4220a45e7b13b25711dc440c5596fbb3b9c82f42317ee5ba02cbaca51881cdd"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20423",
+      "sourceId": "fd3559680c843d57adba151c",
+      "cachedTextSha256": "707e907d35e99da1ed0c20899c746cd74f316bf5755d7185ca73207de003304b",
+      "bodyPresent": true,
+      "reason": "Complete chapter is contained in reviewed full Nagiso book; account totals not independent project identities. No extra candidate merely for a duplicated chapter.",
+      "supportingReviews": [
+        {
+          "path": "nagiso-chapter-coverage.json",
+          "sha256": "b4220a45e7b13b25711dc440c5596fbb3b9c82f42317ee5ba02cbaca51881cdd"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20423",
+      "sourceId": "0d55d2539f26705d067e84f3",
+      "cachedTextSha256": "356fd6118a2ba2876e330e8e482c454c98e50f2f45bd3959af9f7110ca83434a",
+      "bodyPresent": true,
+      "reason": "Complete chapter is contained in reviewed full Nagiso book; account totals not independent project identities. No extra candidate merely for a duplicated chapter.",
+      "supportingReviews": [
+        {
+          "path": "nagiso-chapter-coverage.json",
+          "sha256": "b4220a45e7b13b25711dc440c5596fbb3b9c82f42317ee5ba02cbaca51881cdd"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20423",
+      "sourceId": "4ccdc3ce47ed2967748a10b9",
+      "cachedTextSha256": "70d39f7185296cdea1fde644de620f85fd24b8d8710e8de7cb3151fe95f2c124",
+      "bodyPresent": true,
+      "reason": "Complete chapter is contained in reviewed full Nagiso book; account totals not independent project identities. No extra candidate merely for a duplicated chapter.",
+      "supportingReviews": [
+        {
+          "path": "nagiso-chapter-coverage.json",
+          "sha256": "b4220a45e7b13b25711dc440c5596fbb3b9c82f42317ee5ba02cbaca51881cdd"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20423",
+      "sourceId": "0ee2f0d1704da398f89f385e",
+      "cachedTextSha256": "233a4c62ca8ac35b9e14c53915e0fce88b28be96126ce9a870ba53ba0635b8fc",
+      "bodyPresent": true,
+      "reason": "Complete chapter is contained in reviewed full Nagiso book; account totals not independent project identities. No extra candidate merely for a duplicated chapter.",
+      "supportingReviews": [
+        {
+          "path": "nagiso-chapter-coverage.json",
+          "sha256": "b4220a45e7b13b25711dc440c5596fbb3b9c82f42317ee5ba02cbaca51881cdd"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20423",
+      "sourceId": "8203d34bf1892303e52b9a05",
+      "cachedTextSha256": "3de52d5e69eb8ca22c6442b7de366cce6ddacd4f17166c512f54f4e76fd77f13",
+      "bodyPresent": true,
+      "reason": "Complete chapter is contained in reviewed full Nagiso book; account totals not independent project identities. No extra candidate merely for a duplicated chapter.",
+      "supportingReviews": [
+        {
+          "path": "nagiso-chapter-coverage.json",
+          "sha256": "b4220a45e7b13b25711dc440c5596fbb3b9c82f42317ee5ba02cbaca51881cdd"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20423",
+      "sourceId": "621a3ef3e86e4c9e0307618a",
+      "cachedTextSha256": "e880804faedda10309dc28fcaa4b631c6c6a0c1eb38f1ddf2ff5dc7e8eba925a",
+      "bodyPresent": true,
+      "reason": "Complete chapter is contained in reviewed full Nagiso book; account totals not independent project identities. No extra candidate merely for a duplicated chapter.",
+      "supportingReviews": [
+        {
+          "path": "nagiso-chapter-coverage.json",
+          "sha256": "b4220a45e7b13b25711dc440c5596fbb3b9c82f42317ee5ba02cbaca51881cdd"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20416",
+      "sourceId": "9f51739c63eb050683a9dde4",
+      "cachedTextSha256": "d506454a0bfd951bfe8f5992a33bb705121b88c1789aba0be0b4af11f72b595a",
+      "bodyPresent": true,
+      "reason": "FY2025/FY2026 implementation plans only, not result evaluations. Planned ceilings/anticipated effects are not actual results.",
+      "supportingReviews": [
+        {
+          "path": "nonindividual-and-plan-review.json",
+          "sha256": "6e7d7fd910483d338acb23581dc1b4bcf4786c191e5cde3ce1bcae161b6db177"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20416",
+      "sourceId": "b2456a152dbe073c65304c93",
+      "cachedTextSha256": "f7988f7ebf4f7e52135c68835a833b24f1c9df1447695a03b688d85d76fa46c1",
+      "bodyPresent": true,
+      "reason": "FY2025/FY2026 implementation plans only, not result evaluations. Planned ceilings/anticipated effects are not actual results.",
+      "supportingReviews": [
+        {
+          "path": "nonindividual-and-plan-review.json",
+          "sha256": "6e7d7fd910483d338acb23581dc1b4bcf4786c191e5cde3ce1bcae161b6db177"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20414",
+      "sourceId": "55533de343063ff0a987a239",
+      "cachedTextSha256": "5bd9bf1b5125a6aefaf49011a0c56b574674f111f818512d46c8acf0f73f7cb1",
+      "bodyPresent": true,
+      "reason": "KPI table mixes fiscal/calendar years and2020-2024cumulative figures. Individual-year identity/indicator attribution remains unsupported.",
+      "supportingReviews": [
+        {
+          "path": "policy-metrics-full-review.json",
+          "sha256": "af7c75753bf10502ac5f2c29b7de44a4045abb2c51d15c8ac498acd29e9769a0"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20412",
+      "sourceId": "f93c12ecab7329f10d735f91",
+      "cachedTextSha256": "f11b4b2e0ab31b0ea7a6718c0807e6469d3c6feeb2dc6d578de51d56ed838dad",
+      "bodyPresent": true,
+      "reason": "Procurement-proposal instructions for environmental plan, not individual business evaluation.10252000yen is contract ceiling, evaluation is bidder selection.",
+      "supportingReviews": [
+        {
+          "path": "urugi-procurement-genre-review.json",
+          "sha256": "bf3964679bd79511d4ca1dbea9995f6d9b2a976eb12ba2773c683aa45e7d6aae"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20384",
+      "sourceId": "d3403495a098f2faf891742a",
+      "cachedTextSha256": "e8b13673ca546d91b255dfc8151fc1ada00f4b181f7731f333da16d9512e0cdf",
+      "bodyPresent": true,
+      "reason": "Existing business-code coverage checked; external policy grades cannot be applied to individual businesses. Three unmatched historicalR3-R7rows have no proven current-year identity/status; R7dashes are not actual costs.",
+      "supportingReviews": [
+        {
+          "path": "iijima-external-coverage-review.json",
+          "sha256": "f01c3fb2a3a1b985696167e89d8086e77fe6971a10265f3ac07df76ae9197e2d"
+        },
+        {
+          "path": "iijima-external-final-review.json",
+          "sha256": "06161bdf5e20ea5b988c5ae7070e06cf86f536283860366a83d66ac7f0ff97e4"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20384",
+      "sourceId": "c2041fa603319fb268b9b35c",
+      "cachedTextSha256": "7ed89dfe0a7dfcfeb72c84bb925d905620826cb46741043f4219e982d9a791b5",
+      "bodyPresent": true,
+      "reason": "Existing business-code coverage checked; external policy grades cannot be applied to individual businesses. Three unmatched historicalR3-R7rows have no proven current-year identity/status; R7dashes are not actual costs.",
+      "supportingReviews": [
+        {
+          "path": "iijima-external-coverage-review.json",
+          "sha256": "f01c3fb2a3a1b985696167e89d8086e77fe6971a10265f3ac07df76ae9197e2d"
+        },
+        {
+          "path": "iijima-external-final-review.json",
+          "sha256": "06161bdf5e20ea5b988c5ae7070e06cf86f536283860366a83d66ac7f0ff97e4"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20384",
+      "sourceId": "03361cf95f4cdbcfa51021b8",
+      "cachedTextSha256": "7b633420b0baa8dbbea8ee978bd05438accf9a7f972cf59d8fd3e3613d7b325e",
+      "bodyPresent": true,
+      "reason": "Existing business-code coverage checked; external policy grades cannot be applied to individual businesses. Three unmatched historicalR3-R7rows have no proven current-year identity/status; R7dashes are not actual costs.",
+      "supportingReviews": [
+        {
+          "path": "iijima-external-coverage-review.json",
+          "sha256": "f01c3fb2a3a1b985696167e89d8086e77fe6971a10265f3ac07df76ae9197e2d"
+        },
+        {
+          "path": "iijima-external-final-review.json",
+          "sha256": "06161bdf5e20ea5b988c5ae7070e06cf86f536283860366a83d66ac7f0ff97e4"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20384",
+      "sourceId": "f44f001ff52fbd20353eaba2",
+      "cachedTextSha256": "fb594cef9f3147d466bc44e0b00894426625e80112960d44f3fb029bbcfeb4ac",
+      "bodyPresent": true,
+      "reason": "Existing business-code coverage checked; external policy grades cannot be applied to individual businesses. Three unmatched historicalR3-R7rows have no proven current-year identity/status; R7dashes are not actual costs.",
+      "supportingReviews": [
+        {
+          "path": "iijima-external-coverage-review.json",
+          "sha256": "f01c3fb2a3a1b985696167e89d8086e77fe6971a10265f3ac07df76ae9197e2d"
+        },
+        {
+          "path": "iijima-external-final-review.json",
+          "sha256": "06161bdf5e20ea5b988c5ae7070e06cf86f536283860366a83d66ac7f0ff97e4"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20384",
+      "sourceId": "ca7ad459ce28e18510ce2ed6",
+      "cachedTextSha256": "cb290faad0925c22898131f082b775fe9a104db6855fccfcdf08051caa59d256",
+      "bodyPresent": true,
+      "reason": "Existing business-code coverage checked; external policy grades cannot be applied to individual businesses. Three unmatched historicalR3-R7rows have no proven current-year identity/status; R7dashes are not actual costs.",
+      "supportingReviews": [
+        {
+          "path": "iijima-external-coverage-review.json",
+          "sha256": "f01c3fb2a3a1b985696167e89d8086e77fe6971a10265f3ac07df76ae9197e2d"
+        },
+        {
+          "path": "iijima-external-final-review.json",
+          "sha256": "06161bdf5e20ea5b988c5ae7070e06cf86f536283860366a83d66ac7f0ff97e4"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20323",
+      "sourceId": "2fdc8a3c573ca97b0c421313",
+      "cachedTextSha256": "f7f65781d2881fffa8ad0c13808a4d7f9e675f380db9fcbf1175e0c487279cce",
+      "bodyPresent": true,
+      "reason": "R6funding sheet reprintsR5benefit1419households*70000yen, with three programme/admin components; no disjointR6identity justified.",
+      "supportingReviews": [
+        {
+          "path": "tateshina-miyota-disposition.json",
+          "sha256": "e14bfcab498054df054eb22254b15eb06cc64faf0869f6e4d65951ea456d4492"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20305",
+      "sourceId": "c65f5090cab57778588d6e21",
+      "cachedTextSha256": "b8e676eb387df2c0667a5b0016e410699b3c945779c87a47c50977e551035d44",
+      "bodyPresent": true,
+      "reason": "Explicit municipality row exists, but review year absent; H12-H27mentions are history/planning, not report year.",
+      "supportingReviews": [
+        {
+          "path": "minamimaki-year-review.json",
+          "sha256": "8334d217723ae48c27ebdb553b2c1d021c1c7ed962b42a2f80d31814c531a562"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20206",
+      "sourceId": "d6b6c9ae8dddc58dc91103a9",
+      "cachedTextSha256": "94b4d5d78edb84436f77cf0167886ea59ee4636004d89c60c09010261d40f0dc",
+      "bodyPresent": true,
+      "reason": "Four quoted individual supports staged; other policy/project-level measures and future actions must not be split into fictitious evaluated projects.",
+      "supportingReviews": [
+        {
+          "path": "suwa-tourism-disposition.json",
+          "sha256": "010e983a6ada8ea90d2c40e70b8e4e9d0be07b1a9ac724a5684b252897f018d9"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20204",
+      "sourceId": "8a233df1620b50d66990b35c",
+      "cachedTextSha256": "3c08567f81f2817d9e56dce246d27a286c399f6af3baffe1145749baa158031f",
+      "bodyPresent": true,
+      "reason": "Policy KPI outcomes; business-word occurrences describe users of employment-support providers, not named individual municipal projects. Mapping indicators to existing projects is unsupported.",
+      "supportingReviews": [
+        {
+          "path": "nonindividual-and-plan-review.json",
+          "sha256": "6e7d7fd910483d338acb23581dc1b4bcf4786c191e5cde3ce1bcae161b6db177"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20204",
+      "sourceId": "31c05cb09defbda54a619478",
+      "cachedTextSha256": "fe215b88cd21d5e14484a8e952cccd028e055e20b7eeae0115f2800c36945938",
+      "bodyPresent": true,
+      "reason": "Policy KPI outcomes; business-word occurrences describe users of employment-support providers, not named individual municipal projects. Mapping indicators to existing projects is unsupported.",
+      "supportingReviews": [
+        {
+          "path": "nonindividual-and-plan-review.json",
+          "sha256": "6e7d7fd910483d338acb23581dc1b4bcf4786c191e5cde3ce1bcae161b6db177"
+        }
+      ],
+      "accessDenial": false
+    },
+    {
+      "municipalityCode": "20204",
+      "sourceId": "edfb59e32970a8336a90540f",
+      "cachedTextSha256": "8098464b621617cc2c4d6ec0c85026e9fdf40426564e9071bd3afeb06d153261",
+      "bodyPresent": true,
+      "reason": "Policy KPI outcomes; business-word occurrences describe users of employment-support providers, not named individual municipal projects. Mapping indicators to existing projects is unsupported.",
+      "supportingReviews": [
+        {
+          "path": "nonindividual-and-plan-review.json",
+          "sha256": "6e7d7fd910483d338acb23581dc1b4bcf4786c191e5cde3ce1bcae161b6db177"
+        }
+      ],
+      "accessDenial": false
+    }
+  ]
+}

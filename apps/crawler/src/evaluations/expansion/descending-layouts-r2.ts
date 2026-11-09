@@ -1,3 +1,4 @@
+import{reviewSuwaTourism}from'./descending-nagano-suwa-tourism';
 import{reviewYasuoka2018}from'./descending-nagano-yasuoka-2018';
 import{reviewNamedGrantPeriods}from'./descending-nagano-named-grant-periods';
 import{reviewTenryuKpi}from'./descending-nagano-tenryu-kpi';
@@ -131,6 +132,7 @@ export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]
  const tenryukpiReview=reviewTenryuKpi(input,inputs);if(tenryukpiReview)return tenryukpiReview;
  const namedgrantperiodsReview=reviewNamedGrantPeriods(input);if(namedgrantperiodsReview)return namedgrantperiodsReview;
  const yasuoka2018Review=reviewYasuoka2018(input);if(yasuoka2018Review)return yasuoka2018Review;
+ const suwaTourismReview=reviewSuwaTourism(input);if(suwaTourismReview)return suwaTourismReview;
  const grantsReview=reviewNaganoGrants(input);if(grantsReview)return grantsReview;
  const strategyReview=reviewStrategy(input);if(strategyReview)return strategyReview;
  const nagisoReview=reviewNagiso(input);if(nagisoReview)return nagisoReview;
