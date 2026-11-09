@@ -1,0 +1,1411 @@
+// Generated from reviewed hash-verified cached sources.
+export const aichiRows = [
+  {
+    "sourceId": "4c2d3fdbfd606c37d35438d2",
+    "municipalityCode": "23563",
+    "municipalityName": "豊根村",
+    "sourceUrl": "https://wwwtb.mlit.go.jp/chubu/tsukuro/hyoka/pdf/jiko/R4/14kitashitaragun.pdf",
+    "sourceSha256": "00dcffa8d61a8149c57c647e277596bc17d300e8472770561865160e06c04a2c",
+    "fullTextSha256": "0aed8e9d7ae9248fbcf0cb060a4e9cf6d9694d6c67e6be7f7b4dfb482d7f86cf",
+    "format": "pdf",
+    "year": 2022,
+    "proof": "令和４年度",
+    "rows": [
+      {
+        "name": "豊根設楽線（豊根村）",
+        "start": 4706,
+        "raw": "豊根設楽線（豊根村）",
+        "titleFragments": [
+          "豊根設楽線（豊根村）"
+        ],
+        "attributionProof": {
+          "start": 4706,
+          "raw": "豊根設楽線（豊根村）"
+        },
+        "note": "Route-level public-transport self-evaluation, explicitly attributed to豊根村 in original table. FY2022 report label retained; do not assume local April–March accounting period or infer passenger/revenue/rating column alignment. Other municipalities’ routes excluded."
+      },
+      {
+        "name": "坂宇場線（豊根村）",
+        "start": 4977,
+        "raw": "坂宇場線（豊根村）",
+        "titleFragments": [
+          "坂宇場線（豊根村）"
+        ],
+        "attributionProof": {
+          "start": 4977,
+          "raw": "坂宇場線（豊根村）"
+        },
+        "note": "Route-level public-transport self-evaluation, explicitly attributed to豊根村 in original table. FY2022 report label retained; do not assume local April–March accounting period or infer passenger/revenue/rating column alignment. Other municipalities’ routes excluded."
+      },
+      {
+        "name": "三沢線（豊根村）",
+        "start": 4987,
+        "raw": "三沢線（豊根村）",
+        "titleFragments": [
+          "三沢線（豊根村）"
+        ],
+        "attributionProof": {
+          "start": 4987,
+          "raw": "三沢線（豊根村）"
+        },
+        "note": "Route-level public-transport self-evaluation, explicitly attributed to豊根村 in original table. FY2022 report label retained; do not assume local April–March accounting period or infer passenger/revenue/rating column alignment. Other municipalities’ routes excluded."
+      },
+      {
+        "name": "富山線（豊根村）",
+        "start": 4996,
+        "raw": "富山線（豊根村）",
+        "titleFragments": [
+          "富山線（豊根村）"
+        ],
+        "attributionProof": {
+          "start": 4996,
+          "raw": "富山線（豊根村）"
+        },
+        "note": "Route-level public-transport self-evaluation, explicitly attributed to豊根村 in original table. FY2022 report label retained; do not assume local April–March accounting period or infer passenger/revenue/rating column alignment. Other municipalities’ routes excluded."
+      },
+      {
+        "name": "豊根東栄線",
+        "start": 12048,
+        "raw": "豊根東栄線",
+        "titleFragments": [
+          "豊根東栄線"
+        ],
+        "attributionProof": {
+          "start": 12039,
+          "raw": "東栄町・豊根村\n\n豊根東栄線"
+        },
+        "note": "Joint東栄町・豊根村 route explicitly listed in subsidy-beneficiary/route table. Not solely Toyone operation; do not attribute all regional-council projects to Toyone or create another municipality record without its source inventory. No numerical fields inferred."
+      }
+    ],
+    "holds": [
+      {
+        "start": 4697,
+        "raw": "稲武線（設楽町）",
+        "reason": "Explicit other-municipality route; excluded from Toyone candidate set."
+      },
+      {
+        "start": 4688,
+        "raw": "東栄線（東栄町）",
+        "reason": "Explicit other-municipality route; excluded from Toyone candidate set."
+      }
+    ]
+  },
+  {
+    "sourceId": "8b39e25110ae316bf9a53f46",
+    "municipalityCode": "23221",
+    "municipalityName": "新城市",
+    "sourceUrl": "https://www.city.shinshiro.lg.jp/shisei/keikaku/sogo/sougoukeikaku.files/shisaku4.pdf",
+    "sourceSha256": "bc7dd27749ae6394a948fd7d22f55a8f398bc6b1318bfea139ed93bfadf2914c",
+    "fullTextSha256": "2a436e818d0506dbc61720afe791e4748c45cee0ff4ccedf7b90d9cb27695dd2",
+    "format": "pdf",
+    "year": 2024,
+    "proof": "令和６年度事業内容",
+    "rows": [
+      {
+        "name": "財政調整基金積立事業",
+        "start": 727,
+        "raw": "財政調整基金積立事業",
+        "note": "Explicit business-name cell in related-project table with FY2024 business-content header; FY2025direction and policy KPI rows are not execution-year evidence or project ratings. No financial-column inference. Reprinted annual names collapsed.",
+        "titleFragments": [
+          "財政調整基金積立事業"
+        ]
+      },
+      {
+        "name": "財産管理一般事務経費",
+        "start": 858,
+        "raw": "財産管理一般事務経費",
+        "note": "Explicit business-name cell in related-project table with FY2024 business-content header; FY2025direction and policy KPI rows are not execution-year evidence or project ratings. No financial-column inference. Reprinted annual names collapsed.",
+        "titleFragments": [
+          "財産管理一般事務経費"
+        ]
+      },
+      {
+        "name": "徴収管理事業",
+        "start": 1151,
+        "raw": "徴収管理事業",
+        "note": "Explicit business-name cell in related-project table with FY2024 business-content header; FY2025direction and policy KPI rows are not execution-year evidence or project ratings. No financial-column inference. Reprinted annual names collapsed.",
+        "titleFragments": [
+          "徴収管理事業"
+        ]
+      },
+      {
+        "name": "ふるさと納税推進事業",
+        "start": 1303,
+        "raw": "ふるさと納税推進事業",
+        "note": "Explicit business-name cell in related-project table with FY2024 business-content header; FY2025direction and policy KPI rows are not execution-year evidence or project ratings. No financial-column inference. Reprinted annual names collapsed.",
+        "titleFragments": [
+          "ふるさと納税推進事業"
+        ]
+      },
+      {
+        "name": "公共施設マネジメント推進事業",
+        "start": 2270,
+        "raw": "公共施設マネジメント\n資産管理課\n推進事業",
+        "note": "Explicit business-name cell in related-project table with FY2024 business-content header; FY2025direction and policy KPI rows are not execution-year evidence or project ratings. No financial-column inference. Reprinted annual names collapsed.",
+        "titleSegments": [
+          {
+            "start": 2270,
+            "raw": "公共施設マネジメント"
+          },
+          {
+            "start": 2287,
+            "raw": "推進事業"
+          }
+        ]
+      },
+      {
+        "name": "こども園再編・整備計画策定事業",
+        "start": 2519,
+        "raw": "こども園再編・整備計\n和３年度に策定した「新城市こ\nこども未来課\n画策定事業",
+        "note": "Explicit business-name cell in related-project table with FY2024 business-content header; FY2025direction and policy KPI rows are not execution-year evidence or project ratings. No financial-column inference. Reprinted annual names collapsed.",
+        "titleSegments": [
+          {
+            "start": 2519,
+            "raw": "こども園再編・整備計"
+          },
+          {
+            "start": 2552,
+            "raw": "画策定事業"
+          }
+        ]
+      },
+      {
+        "name": "行政改革推進事業",
+        "start": 3483,
+        "raw": "行政改革推進事業",
+        "note": "Explicit business-name cell in related-project table with FY2024 business-content header; FY2025direction and policy KPI rows are not execution-year evidence or project ratings. No financial-column inference. Reprinted annual names collapsed.",
+        "titleFragments": [
+          "行政改革推進事業"
+        ]
+      },
+      {
+        "name": "広域行政事業",
+        "start": 4286,
+        "raw": "広域行政事業",
+        "note": "Explicit business-name cell in related-project table with FY2024 business-content header; FY2025direction and policy KPI rows are not execution-year evidence or project ratings. No financial-column inference. Reprinted annual names collapsed.",
+        "titleFragments": [
+          "広域行政事業"
+        ]
+      },
+      {
+        "name": "産学官連携推進事業",
+        "start": 4294,
+        "raw": "産学官連携推進事業",
+        "note": "Explicit business-name cell in related-project table with FY2024 business-content header; FY2025direction and policy KPI rows are not execution-year evidence or project ratings. No financial-column inference. Reprinted annual names collapsed.",
+        "titleFragments": [
+          "産学官連携推進事業"
+        ]
+      },
+      {
+        "name": "地域自治区運営事業",
+        "start": 5480,
+        "raw": "地域自治区運営事業",
+        "note": "Explicit business-name cell in related-project table with FY2024 business-content header; FY2025direction and policy KPI rows are not execution-year evidence or project ratings. No financial-column inference. Reprinted annual names collapsed.",
+        "titleFragments": [
+          "地域自治区運営事業"
+        ]
+      },
+      {
+        "name": "地域計画推進体制検討事業",
+        "start": 5743,
+        "raw": "地域計画推進体制検討 市民自治推進 らの提案書がまとまり、すべて\n事業",
+        "note": "Explicit business-name cell in related-project table with FY2024 business-content header; FY2025direction and policy KPI rows are not execution-year evidence or project ratings. No financial-column inference. Reprinted annual names collapsed.",
+        "titleSegments": [
+          {
+            "start": 5743,
+            "raw": "地域計画推進体制検討"
+          },
+          {
+            "start": 5776,
+            "raw": "事業"
+          }
+        ]
+      },
+      {
+        "name": "政策・業務改善チャレンジ事業",
+        "start": 6847,
+        "raw": "政策・業務改善チャレ\n秘書人事課\nンジ事業",
+        "note": "Explicit business-name cell in related-project table with FY2024 business-content header; FY2025direction and policy KPI rows are not execution-year evidence or project ratings. No financial-column inference. Reprinted annual names collapsed.",
+        "titleSegments": [
+          {
+            "start": 6847,
+            "raw": "政策・業務改善チャレ"
+          },
+          {
+            "start": 6864,
+            "raw": "ンジ事業"
+          }
+        ]
+      },
+      {
+        "name": "職員研修事業",
+        "start": 7924,
+        "raw": "職員研修事業",
+        "note": "Explicit business-name cell in related-project table with FY2024 business-content header; FY2025direction and policy KPI rows are not execution-year evidence or project ratings. No financial-column inference. Reprinted annual names collapsed.",
+        "titleFragments": [
+          "職員研修事業"
+        ]
+      },
+      {
+        "name": "人材確保・育成事業",
+        "start": 7932,
+        "raw": "人材確保・育成事業",
+        "note": "Explicit business-name cell in related-project table with FY2024 business-content header; FY2025direction and policy KPI rows are not execution-year evidence or project ratings. No financial-column inference. Reprinted annual names collapsed.",
+        "titleFragments": [
+          "人材確保・育成事業"
+        ]
+      },
+      {
+        "name": "人事管理一般事務経費",
+        "start": 9251,
+        "raw": "人事管理一般事務経費",
+        "note": "Explicit business-name cell in related-project table with FY2024 business-content header; FY2025direction and policy KPI rows are not execution-year evidence or project ratings. No financial-column inference. Reprinted annual names collapsed.",
+        "titleFragments": [
+          "人事管理一般事務経費"
+        ]
+      },
+      {
+        "name": "人事評価反映事業",
+        "start": 9341,
+        "raw": "人事評価反映事業",
+        "note": "Explicit business-name cell in related-project table with FY2024 business-content header; FY2025direction and policy KPI rows are not execution-year evidence or project ratings. No financial-column inference. Reprinted annual names collapsed.",
+        "titleFragments": [
+          "人事評価反映事業"
+        ]
+      },
+      {
+        "name": "広報広聴活動事業",
+        "start": 10697,
+        "raw": "広報広聴活動事業",
+        "note": "Explicit business-name cell in related-project table with FY2024 business-content header; FY2025direction and policy KPI rows are not execution-year evidence or project ratings. No financial-column inference. Reprinted annual names collapsed.",
+        "titleFragments": [
+          "広報広聴活動事業"
+        ]
+      },
+      {
+        "name": "たくさんのことば掲示板",
+        "start": 10413,
+        "raw": "たくさんのことば掲示\n秘書人事課\n板",
+        "note": "Explicit business-name cell in related-project table with FY2024 business-content header; FY2025direction and policy KPI rows are not execution-year evidence or project ratings. No financial-column inference. Reprinted annual names collapsed.",
+        "titleSegments": [
+          {
+            "start": 10413,
+            "raw": "たくさんのことば掲示"
+          },
+          {
+            "start": 10430,
+            "raw": "板"
+          }
+        ]
+      },
+      {
+        "name": "情報政策推進事業",
+        "start": 11539,
+        "raw": "情報政策推進事業",
+        "note": "Explicit business-name cell in related-project table with FY2024 business-content header; FY2025direction and policy KPI rows are not execution-year evidence or project ratings. No financial-column inference. Reprinted annual names collapsed.",
+        "titleFragments": [
+          "情報政策推進事業"
+        ]
+      },
+      {
+        "name": "自治体ＤＸ推進事業",
+        "start": 11791,
+        "raw": "自治体ＤＸ推進事業",
+        "note": "Explicit business-name cell in related-project table with FY2024 business-content header; FY2025direction and policy KPI rows are not execution-year evidence or project ratings. No financial-column inference. Reprinted annual names collapsed.",
+        "titleFragments": [
+          "自治体ＤＸ推進事業"
+        ]
+      },
+      {
+        "name": "施設予約システム導入事業",
+        "start": 12018,
+        "raw": "施設予約システム導入\n情報政策課\n事業",
+        "note": "Explicit business-name cell in related-project table with FY2024 business-content header; FY2025direction and policy KPI rows are not execution-year evidence or project ratings. No financial-column inference. Reprinted annual names collapsed.",
+        "titleSegments": [
+          {
+            "start": 12018,
+            "raw": "施設予約システム導入"
+          },
+          {
+            "start": 12035,
+            "raw": "事業"
+          }
+        ]
+      }
+    ],
+    "holds": [
+      {
+        "start": 10591,
+        "raw": "シティプロモーション",
+        "reason": "Explicit 再掲; hold until primary table in other chapter is reviewed, avoiding duplicate annual title."
+      },
+      {
+        "start": 6827,
+        "raw": "行政改革推進事業",
+        "reason": "Appears under two policy goals; same annual business counted once."
+      }
+    ]
+  },
+  {
+    "sourceId": "91f3b2f632fd45b1d1da7fc8",
+    "municipalityCode": "23221",
+    "municipalityName": "新城市",
+    "sourceUrl": "https://www.city.shinshiro.lg.jp/shisei/keikaku/sogo/sougoukeikaku.files/gyouseikeieinohoushin.pdf",
+    "sourceSha256": "1380cef4ce9120e9501f2cc6dbdd4d2010014bad3517629c1326efa8cf3f16d1",
+    "fullTextSha256": "3fe931553370430630b325e2cc4f2ee27dbf3878547513c961af22733404c295",
+    "format": "pdf",
+    "year": 2023,
+    "proof": "令和５年度事業内容",
+    "rows": [
+      {
+        "name": "財政調整基金積立事業",
+        "start": 994,
+        "raw": "財政調整基金積立事\n業",
+        "titleFragments": [
+          "財政調整基金積立事\n業"
+        ],
+        "note": "Explicit FY2023 business-content header and named business cell; FY2024 directions are not the execution year. Exact title only; no numerical alignment inferred. Repeated administrative-reform cell collapsed."
+      },
+      {
+        "name": "財産管理一般事務経費",
+        "start": 778,
+        "raw": "財産管理一般事務経\n費",
+        "titleFragments": [
+          "財産管理一般事務経\n費"
+        ],
+        "note": "Explicit FY2023 business-content header and named business cell; FY2024 directions are not the execution year. Exact title only; no numerical alignment inferred. Repeated administrative-reform cell collapsed."
+      },
+      {
+        "name": "徴収管理事業",
+        "start": 851,
+        "raw": "徴収管理事業",
+        "titleFragments": [
+          "徴収管理事業"
+        ],
+        "note": "Explicit FY2023 business-content header and named business cell; FY2024 directions are not the execution year. Exact title only; no numerical alignment inferred. Repeated administrative-reform cell collapsed."
+      },
+      {
+        "name": "ふるさと納税推進事業",
+        "start": 1432,
+        "raw": "ふるさと納税推進事\n業",
+        "titleFragments": [
+          "ふるさと納税推進事\n業"
+        ],
+        "note": "Explicit FY2023 business-content header and named business cell; FY2024 directions are not the execution year. Exact title only; no numerical alignment inferred. Repeated administrative-reform cell collapsed."
+      },
+      {
+        "name": "公共施設マネジメント推進事業",
+        "start": 2340,
+        "raw": "公共施設マネジメン\nト推進事業",
+        "titleFragments": [
+          "公共施設マネジメン\nト推進事業"
+        ],
+        "note": "Explicit FY2023 business-content header and named business cell; FY2024 directions are not the execution year. Exact title only; no numerical alignment inferred. Repeated administrative-reform cell collapsed."
+      },
+      {
+        "name": "こども園再編・整備計画策定事業",
+        "start": 2482,
+        "raw": "こども園再編・整備\n計画策定事業",
+        "titleFragments": [
+          "こども園再編・整備\n計画策定事業"
+        ],
+        "note": "Explicit FY2023 business-content header and named business cell; FY2024 directions are not the execution year. Exact title only; no numerical alignment inferred. Repeated administrative-reform cell collapsed."
+      },
+      {
+        "name": "総合計画審議会運営事業",
+        "start": 3315,
+        "raw": "総合計画審議会運営\n事業",
+        "titleFragments": [
+          "総合計画審議会運営\n事業"
+        ],
+        "note": "Explicit FY2023 business-content header and named business cell; FY2024 directions are not the execution year. Exact title only; no numerical alignment inferred. Repeated administrative-reform cell collapsed."
+      },
+      {
+        "name": "行政改革推進事業",
+        "start": 3329,
+        "raw": "行政改革推進事業",
+        "titleFragments": [
+          "行政改革推進事業"
+        ],
+        "note": "Explicit FY2023 business-content header and named business cell; FY2024 directions are not the execution year. Exact title only; no numerical alignment inferred. Repeated administrative-reform cell collapsed."
+      },
+      {
+        "name": "広域行政事業",
+        "start": 4308,
+        "raw": "広域行政事業",
+        "titleFragments": [
+          "広域行政事業"
+        ],
+        "note": "Explicit FY2023 business-content header and named business cell; FY2024 directions are not the execution year. Exact title only; no numerical alignment inferred. Repeated administrative-reform cell collapsed."
+      },
+      {
+        "name": "産学官連携推進事業",
+        "start": 4316,
+        "raw": "産学官連携推進事業",
+        "titleFragments": [
+          "産学官連携推進事業"
+        ],
+        "note": "Explicit FY2023 business-content header and named business cell; FY2024 directions are not the execution year. Exact title only; no numerical alignment inferred. Repeated administrative-reform cell collapsed."
+      },
+      {
+        "name": "地域自治区運営事業",
+        "start": 5597,
+        "raw": "地域自治区運営事業",
+        "titleFragments": [
+          "地域自治区運営事業"
+        ],
+        "note": "Explicit FY2023 business-content header and named business cell; FY2024 directions are not the execution year. Exact title only; no numerical alignment inferred. Repeated administrative-reform cell collapsed."
+      },
+      {
+        "name": "地域計画推進体制検討事業",
+        "start": 5725,
+        "raw": "地域計画推進体制検\n討事業",
+        "titleFragments": [
+          "地域計画推進体制検\n討事業"
+        ],
+        "note": "Explicit FY2023 business-content header and named business cell; FY2024 directions are not the execution year. Exact title only; no numerical alignment inferred. Repeated administrative-reform cell collapsed."
+      },
+      {
+        "name": "政策・業務改善チャレンジ事業",
+        "start": 6928,
+        "raw": "政策・業務改善チャ\nレンジ事業",
+        "titleFragments": [
+          "政策・業務改善チャ\nレンジ事業"
+        ],
+        "note": "Explicit FY2023 business-content header and named business cell; FY2024 directions are not the execution year. Exact title only; no numerical alignment inferred. Repeated administrative-reform cell collapsed."
+      },
+      {
+        "name": "職員研修事業",
+        "start": 7948,
+        "raw": "職員研修事業",
+        "titleFragments": [
+          "職員研修事業"
+        ],
+        "note": "Explicit FY2023 business-content header and named business cell; FY2024 directions are not the execution year. Exact title only; no numerical alignment inferred. Repeated administrative-reform cell collapsed."
+      },
+      {
+        "name": "人材確保・育成事業",
+        "start": 7956,
+        "raw": "人材確保・育成事業",
+        "titleFragments": [
+          "人材確保・育成事業"
+        ],
+        "note": "Explicit FY2023 business-content header and named business cell; FY2024 directions are not the execution year. Exact title only; no numerical alignment inferred. Repeated administrative-reform cell collapsed."
+      },
+      {
+        "name": "人事管理一般事務経費",
+        "start": 9253,
+        "raw": "人事管理一般事務経\n費",
+        "titleFragments": [
+          "人事管理一般事務経\n費"
+        ],
+        "note": "Explicit FY2023 business-content header and named business cell; FY2024 directions are not the execution year. Exact title only; no numerical alignment inferred. Repeated administrative-reform cell collapsed."
+      },
+      {
+        "name": "人事評価反映事業",
+        "start": 9345,
+        "raw": "人事評価反映事業",
+        "titleFragments": [
+          "人事評価反映事業"
+        ],
+        "note": "Explicit FY2023 business-content header and named business cell; FY2024 directions are not the execution year. Exact title only; no numerical alignment inferred. Repeated administrative-reform cell collapsed."
+      },
+      {
+        "name": "広報広聴活動事業",
+        "start": 10681,
+        "raw": "広報広聴活動事業",
+        "titleFragments": [
+          "広報広聴活動事業"
+        ],
+        "note": "Explicit FY2023 business-content header and named business cell; FY2024 directions are not the execution year. Exact title only; no numerical alignment inferred. Repeated administrative-reform cell collapsed."
+      },
+      {
+        "name": "情報政策推進事業",
+        "start": 11863,
+        "raw": "情報政策推進事業",
+        "titleFragments": [
+          "情報政策推進事業"
+        ],
+        "note": "Explicit FY2023 business-content header and named business cell; FY2024 directions are not the execution year. Exact title only; no numerical alignment inferred. Repeated administrative-reform cell collapsed."
+      },
+      {
+        "name": "自治体ＤＸ推進事業",
+        "start": 11873,
+        "raw": "自治体ＤＸ推進事業",
+        "titleFragments": [
+          "自治体ＤＸ推進事業"
+        ],
+        "note": "Explicit FY2023 business-content header and named business cell; FY2024 directions are not the execution year. Exact title only; no numerical alignment inferred. Repeated administrative-reform cell collapsed."
+      }
+    ],
+    "holds": [
+      {
+        "start": 10385,
+        "raw": "たくさんのことば掲\n示板",
+        "reason": "FY2023 header conflicts with local start date April2024; do not assign FY2023 or duplicate FY2024 candidate."
+      },
+      {
+        "start": 10565,
+        "raw": "シティプロモーショ\nン事業（再掲）",
+        "reason": "Explicit reprint; primary chapter needs review."
+      },
+      {
+        "start": 11804,
+        "raw": "公共施設予約システム",
+        "reason": "Mentioned in description as planned FY2024 introduction, not a separate FY2023 business-name cell."
+      }
+    ]
+  },
+  {
+    "sourceId": "0c68637fd2b5f3a4dbbfd065",
+    "municipalityCode": "23221",
+    "municipalityName": "新城市",
+    "sourceUrl": "https://www.city.shinshiro.lg.jp/shisei/keikaku/sogo/sougoukeikaku.files/shisaku3.pdf",
+    "sourceSha256": "d4007306516c8912e85b1d878a9b6086287bdd9fe84a6d7a268ddd6ad56f7b39",
+    "fullTextSha256": "cf35e1c3cb84047025cedd7475c7778196af3a4646343f826e10457eb1747455",
+    "format": "pdf",
+    "year": 2024,
+    "proof": "令和６年度事業内容",
+    "rows": [
+      {
+        "name": "狭あい道路整備等推進事業",
+        "start": 638,
+        "raw": "狭あい道路整備等推進\n都市計画課\n事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 638,
+            "raw": "狭あい道路整備等推進"
+          },
+          {
+            "start": 655,
+            "raw": "事業"
+          }
+        ]
+      },
+      {
+        "name": "コンパクトシティ形成事業",
+        "start": 779,
+        "raw": "コンパクトシティ形成\n都市計画課\n事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 779,
+            "raw": "コンパクトシティ形成"
+          },
+          {
+            "start": 796,
+            "raw": "事業"
+          }
+        ]
+      },
+      {
+        "name": "新城駅周辺整備事業",
+        "start": 1333,
+        "raw": "新城駅周辺整備事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 1333,
+            "raw": "新城駅周辺整備事業"
+          }
+        ]
+      },
+      {
+        "name": "各種道路等整備促進対策事業",
+        "start": 2451,
+        "raw": "各種道路等整備促進対 道路政策推進\nため、関連市町村と共に組織す\n策事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 2451,
+            "raw": "各種道路等整備促進対"
+          },
+          {
+            "start": 2484,
+            "raw": "策事業"
+          }
+        ]
+      },
+      {
+        "name": "豊橋新城スマートＩＣ（仮称）整備事業",
+        "start": 2581,
+        "raw": "豊橋新城スマートＩＣ 道路政策推進\n期供用を目指して事業を実施。\n（仮称）整備事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 2581,
+            "raw": "豊橋新城スマートＩＣ"
+          },
+          {
+            "start": 2614,
+            "raw": "（仮称）整備事業"
+          }
+        ]
+      },
+      {
+        "name": "交通安全施設整備事業",
+        "start": 3240,
+        "raw": "交通安全施設整備事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 3240,
+            "raw": "交通安全施設整備事業"
+          }
+        ]
+      },
+      {
+        "name": "公共施設等適正管理推進事業",
+        "start": 3295,
+        "raw": "公共施設等適正管理推\n土木課\n進事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 3295,
+            "raw": "公共施設等適正管理推"
+          },
+          {
+            "start": 3310,
+            "raw": "進事業"
+          }
+        ]
+      },
+      {
+        "name": "県費道路改良事業",
+        "start": 3469,
+        "raw": "県費道路改良事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 3469,
+            "raw": "県費道路改良事業"
+          }
+        ]
+      },
+      {
+        "name": "公共バス運行事業",
+        "start": 4569,
+        "raw": "公共バス運行事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 4569,
+            "raw": "公共バス運行事業"
+          }
+        ]
+      },
+      {
+        "name": "地域公共交通計画推進事業",
+        "start": 4761,
+        "raw": "地域公共交通計画推進 公共交通対策 楽町と連携し、豊鉄バスに対す\n事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 4761,
+            "raw": "地域公共交通計画推進"
+          },
+          {
+            "start": 4794,
+            "raw": "事業"
+          }
+        ]
+      },
+      {
+        "name": "環境連携構築事業",
+        "start": 5659,
+        "raw": "環境連携構築事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 5659,
+            "raw": "環境連携構築事業"
+          }
+        ]
+      },
+      {
+        "name": "クリーンセンター管理事業",
+        "start": 7119,
+        "raw": "クリーンセンター管理\n生活環境課\n事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 7119,
+            "raw": "クリーンセンター管理"
+          },
+          {
+            "start": 7136,
+            "raw": "事業"
+          }
+        ]
+      },
+      {
+        "name": "ごみ減量推進事業",
+        "start": 7240,
+        "raw": "ごみ減量推進事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 7240,
+            "raw": "ごみ減量推進事業"
+          }
+        ]
+      },
+      {
+        "name": "廃棄物収集運搬事業",
+        "start": 7250,
+        "raw": "廃棄物収集運搬事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 7250,
+            "raw": "廃棄物収集運搬事業"
+          }
+        ]
+      },
+      {
+        "name": "クリーンセンター整備事業",
+        "start": 7403,
+        "raw": "クリーンセンター整備\n生活環境課\n事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 7403,
+            "raw": "クリーンセンター整備"
+          },
+          {
+            "start": 7420,
+            "raw": "事業"
+          }
+        ]
+      },
+      {
+        "name": "埋立処分場維持管理事業",
+        "start": 7622,
+        "raw": "埋立処分場維持管理事\n生活環境課\n業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 7622,
+            "raw": "埋立処分場維持管理事"
+          },
+          {
+            "start": 7639,
+            "raw": "業"
+          }
+        ]
+      },
+      {
+        "name": "斎苑整備事業",
+        "start": 7728,
+        "raw": "斎苑整備事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 7728,
+            "raw": "斎苑整備事業"
+          }
+        ]
+      },
+      {
+        "name": "温暖化対策推進事業",
+        "start": 9112,
+        "raw": "温暖化対策推進事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 9112,
+            "raw": "温暖化対策推進事業"
+          }
+        ]
+      },
+      {
+        "name": "市有林管理事業",
+        "start": 9599,
+        "raw": "市有林管理事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 9599,
+            "raw": "市有林管理事業"
+          }
+        ]
+      },
+      {
+        "name": "地産地消・食育普及活動事業",
+        "start": 10586,
+        "raw": "地産地消・食育普及活\n農業課\n動事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 10586,
+            "raw": "地産地消・食育普及活"
+          },
+          {
+            "start": 10601,
+            "raw": "動事業"
+          }
+        ]
+      },
+      {
+        "name": "担い手育成総合支援事業",
+        "start": 10699,
+        "raw": "担い手育成総合支援事\n農業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 10699,
+            "raw": "担い手育成総合支援事"
+          },
+          {
+            "start": 10711,
+            "raw": "業"
+          }
+        ]
+      },
+      {
+        "name": "農業経営近代化施設整備事業",
+        "start": 11278,
+        "raw": "農業経営近代化施設整\n農業課\n備事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 11278,
+            "raw": "農業経営近代化施設整"
+          },
+          {
+            "start": 11293,
+            "raw": "備事業"
+          }
+        ]
+      },
+      {
+        "name": "奨励農畜産物推進事業",
+        "start": 11404,
+        "raw": "奨励農畜産物推進事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 11404,
+            "raw": "奨励農畜産物推進事業"
+          }
+        ]
+      },
+      {
+        "name": "営農活動支援事業",
+        "start": 11557,
+        "raw": "営農活動支援事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 11557,
+            "raw": "営農活動支援事業"
+          }
+        ]
+      },
+      {
+        "name": "有害鳥獣対策事業",
+        "start": 11777,
+        "raw": "有害鳥獣対策事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 11777,
+            "raw": "有害鳥獣対策事業"
+          }
+        ]
+      },
+      {
+        "name": "人・農地振興事業",
+        "start": 11787,
+        "raw": "人・農地振興事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 11787,
+            "raw": "人・農地振興事業"
+          }
+        ]
+      },
+      {
+        "name": "新規就農者確保対策事業",
+        "start": 12393,
+        "raw": "新規就農者確保対策事\n農業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 12393,
+            "raw": "新規就農者確保対策事"
+          },
+          {
+            "start": 12405,
+            "raw": "業"
+          }
+        ]
+      },
+      {
+        "name": "小規模林道事業",
+        "start": 13202,
+        "raw": "小規模林道事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 13202,
+            "raw": "小規模林道事業"
+          }
+        ]
+      },
+      {
+        "name": "県営林道改良事業",
+        "start": 13211,
+        "raw": "県営林道改良事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 13211,
+            "raw": "県営林道改良事業"
+          }
+        ]
+      },
+      {
+        "name": "農山漁村地域整備交付金事業",
+        "start": 13836,
+        "raw": "農山漁村地域整備交付\n森林課\n金事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 13836,
+            "raw": "農山漁村地域整備交付"
+          },
+          {
+            "start": 13851,
+            "raw": "金事業"
+          }
+        ]
+      },
+      {
+        "name": "森の未来づくり事業",
+        "start": 13930,
+        "raw": "森の未来づくり事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 13930,
+            "raw": "森の未来づくり事業"
+          }
+        ]
+      },
+      {
+        "name": "森林経営管理事業",
+        "start": 14759,
+        "raw": "森林経営管理事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 14759,
+            "raw": "森林経営管理事業"
+          }
+        ]
+      },
+      {
+        "name": "雁峰山整備事業",
+        "start": 15413,
+        "raw": "雁峰山整備事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 15413,
+            "raw": "雁峰山整備事業"
+          }
+        ]
+      },
+      {
+        "name": "市民参加の森づくり推進事業",
+        "start": 16292,
+        "raw": "市民参加の森づくり推\n森林課\n進事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 16292,
+            "raw": "市民参加の森づくり推"
+          },
+          {
+            "start": 16307,
+            "raw": "進事業"
+          }
+        ]
+      },
+      {
+        "name": "新城木育プロジェクト事業",
+        "start": 16701,
+        "raw": "新城木育プロジェクト\n森林課\n事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 16701,
+            "raw": "新城木育プロジェクト"
+          },
+          {
+            "start": 16716,
+            "raw": "事業"
+          }
+        ]
+      },
+      {
+        "name": "林業従事者定着促進奨励金事業",
+        "start": 16720,
+        "raw": "林業従事者定着促進奨\n森林課\n励金事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 16720,
+            "raw": "林業従事者定着促進奨"
+          },
+          {
+            "start": 16735,
+            "raw": "励金事業"
+          }
+        ]
+      },
+      {
+        "name": "宿泊施設整備奨励事業",
+        "start": 18542,
+        "raw": "宿泊施設整備奨励事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 18542,
+            "raw": "宿泊施設整備奨励事業"
+          }
+        ]
+      },
+      {
+        "name": "企業立地奨励事業",
+        "start": 18674,
+        "raw": "企業立地奨励事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 18674,
+            "raw": "企業立地奨励事業"
+          }
+        ]
+      },
+      {
+        "name": "企業立地推進事業",
+        "start": 18684,
+        "raw": "企業立地推進事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 18684,
+            "raw": "企業立地推進事業"
+          }
+        ]
+      },
+      {
+        "name": "新城インターチェンジ周辺整備事業",
+        "start": 18927,
+        "raw": "新城インターチェンジ\n用地開発課\n周辺整備事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 18927,
+            "raw": "新城インターチェンジ"
+          },
+          {
+            "start": 18944,
+            "raw": "周辺整備事業"
+          }
+        ]
+      },
+      {
+        "name": "小規模企業等振興資金預託事業",
+        "start": 19719,
+        "raw": "小規模企業等振興資金\n産業政策課\n預託事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 19719,
+            "raw": "小規模企業等振興資金"
+          },
+          {
+            "start": 19736,
+            "raw": "預託事業"
+          }
+        ]
+      },
+      {
+        "name": "小規模事業者景気対策事業",
+        "start": 19894,
+        "raw": "小規模事業者景気対策\n産業政策課\n事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 19894,
+            "raw": "小規模事業者景気対策"
+          },
+          {
+            "start": 19911,
+            "raw": "事業"
+          }
+        ]
+      },
+      {
+        "name": "小規模事業者経営改善事業",
+        "start": 20088,
+        "raw": "小規模事業者経営改善\n産業政策課\n事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 20088,
+            "raw": "小規模事業者経営改善"
+          },
+          {
+            "start": 20105,
+            "raw": "事業"
+          }
+        ]
+      },
+      {
+        "name": "企業再投資促進補助事業",
+        "start": 20339,
+        "raw": "企業再投資促進補助事\n産業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 20339,
+            "raw": "企業再投資促進補助事"
+          },
+          {
+            "start": 20351,
+            "raw": "業"
+          }
+        ]
+      },
+      {
+        "name": "小規模事業経営支援事業",
+        "start": 20671,
+        "raw": "小規模事業経営支援事\n産業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 20671,
+            "raw": "小規模事業経営支援事"
+          },
+          {
+            "start": 20683,
+            "raw": "業"
+          }
+        ]
+      },
+      {
+        "name": "しんしろビジネスマッチング事業",
+        "start": 20860,
+        "raw": "しんしろビジネスマッ\n産業政策課\nチング事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 20860,
+            "raw": "しんしろビジネスマッ"
+          },
+          {
+            "start": 20877,
+            "raw": "チング事業"
+          }
+        ]
+      },
+      {
+        "name": "新規雇用創出事業",
+        "start": 20982,
+        "raw": "新規雇用創出事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 20982,
+            "raw": "新規雇用創出事業"
+          }
+        ]
+      },
+      {
+        "name": "創業支援等事業(事業承継関連)",
+        "start": 21492,
+        "raw": "創業支援等事業\n(事業承継関連)",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 21492,
+            "raw": "創業支援等事業\n(事業承継関連)"
+          }
+        ]
+      },
+      {
+        "name": "東海自然歩道管理事業",
+        "start": 22748,
+        "raw": "東海自然歩道管理事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 22748,
+            "raw": "東海自然歩道管理事業"
+          }
+        ]
+      },
+      {
+        "name": "観光施設等維持管理事業",
+        "start": 22809,
+        "raw": "観光施設等維持管理事\n観光課\n業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 22809,
+            "raw": "観光施設等維持管理事"
+          },
+          {
+            "start": 22824,
+            "raw": "業"
+          }
+        ]
+      },
+      {
+        "name": "鳳来寺山パークウェイ駐車場管理運営事業",
+        "start": 23311,
+        "raw": "鳳来寺山パークウェイ\n観光課\n駐車場管理運営事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 23311,
+            "raw": "鳳来寺山パークウェイ"
+          },
+          {
+            "start": 23326,
+            "raw": "駐車場管理運営事業"
+          }
+        ]
+      },
+      {
+        "name": "湯谷園地美谷駐車場管理運営事業",
+        "start": 23395,
+        "raw": "湯谷園地美谷駐車場管\n観光課\n理運営事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 23395,
+            "raw": "湯谷園地美谷駐車場管"
+          },
+          {
+            "start": 23410,
+            "raw": "理運営事業"
+          }
+        ]
+      },
+      {
+        "name": "地域おこし協力隊運営事業",
+        "start": 23505,
+        "raw": "地域おこし協力隊運営\n観光課\n事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 23505,
+            "raw": "地域おこし協力隊運営"
+          },
+          {
+            "start": 23520,
+            "raw": "事業"
+          }
+        ]
+      },
+      {
+        "name": "地域プロジェクトマネージャー運営事業",
+        "start": 23757,
+        "raw": "地域プロジェクトマ\nネージャー運営事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 23757,
+            "raw": "地域プロジェクトマ\nネージャー運営事業"
+          }
+        ]
+      },
+      {
+        "name": "湯谷温泉街振興事業",
+        "start": 23928,
+        "raw": "湯谷温泉街振興事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 23928,
+            "raw": "湯谷温泉街振興事業"
+          }
+        ]
+      },
+      {
+        "name": "湯谷温泉配湯事業",
+        "start": 23939,
+        "raw": "湯谷温泉配湯事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 23939,
+            "raw": "湯谷温泉配湯事業"
+          }
+        ]
+      },
+      {
+        "name": "シティプロモーション事業",
+        "start": 25135,
+        "raw": "シティプロモーション\n企画調整課\n事業",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 25135,
+            "raw": "シティプロモーション"
+          },
+          {
+            "start": 25152,
+            "raw": "事業"
+          }
+        ]
+      },
+      {
+        "name": "創業支援等事業（創業支援補助金関連）",
+        "start": 25226,
+        "raw": "創業支援等事業\n（創業支援補助金関\n連）",
+        "note": "Explicit business-name cell under FY2024 business-content header. Titles only; no budget/actual, rating, KPI or completion inference. Multi-department or repeated annual names are separately held or deduplicated; literal qualifiers retained.",
+        "titleSegments": [
+          {
+            "start": 25226,
+            "raw": "創業支援等事業\n（創業支援補助金関\n連）"
+          }
+        ]
+      }
+    ],
+    "holds": [
+      {
+        "start": 3459,
+        "raw": "道整備交付金事業",
+        "reason": "Same title appears for civil engineering and forest road projects; distinct business identity cannot be encoded safely without department evidence review; both occurrences held."
+      },
+      {
+        "start": 7891,
+        "raw": "財産管理一般事務経費",
+        "reason": "Same FY2024 title already present in administrative chapter, but different department/description. Preserve prior candidate; no additional record or overwrite."
+      },
+      {
+        "start": 22559,
+        "raw": "観光のまち\nＲ事業",
+        "reason": "Title extraction order separates 新城 and Ｐ from Ｒ; cannot establish original title ordering from saved text alone."
+      },
+      {
+        "start": 13930,
+        "raw": "森の未来づくり事業",
+        "reason": "Repeated under multiple policy goals; one name/year record only."
+      },
+      {
+        "start": 18542,
+        "raw": "宿泊施設整備奨励事業",
+        "reason": "Repeated in later industry policy; one annual record only."
+      }
+    ]
+  }
+];

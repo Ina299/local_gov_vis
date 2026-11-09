@@ -1,0 +1,39 @@
+{
+  "status": "stage_only_not_published_or_full_branch_validated",
+  "proposals": 104,
+  "accepted": 104,
+  "duplicates": 0,
+  "quotes": 312,
+  "sources": [
+    {
+      "id": "4c2d3fdbfd606c37d35438d2",
+      "characters": 16792,
+      "fullTextSha256": "0aed8e9d7ae9248fbcf0cb060a4e9cf6d9694d6c67e6be7f7b4dfb482d7f86cf",
+      "sourceSha256": "00dcffa8d61a8149c57c647e277596bc17d300e8472770561865160e06c04a2c",
+      "rows": 5
+    },
+    {
+      "id": "8b39e25110ae316bf9a53f46",
+      "characters": 12455,
+      "fullTextSha256": "2a436e818d0506dbc61720afe791e4748c45cee0ff4ccedf7b90d9cb27695dd2",
+      "sourceSha256": "bc7dd27749ae6394a948fd7d22f55a8f398bc6b1318bfea139ed93bfadf2914c",
+      "rows": 21
+    },
+    {
+      "id": "91f3b2f632fd45b1d1da7fc8",
+      "characters": 12144,
+      "fullTextSha256": "3fe931553370430630b325e2cc4f2ee27dbf3878547513c961af22733404c295",
+      "sourceSha256": "1380cef4ce9120e9501f2cc6dbdd4d2010014bad3517629c1326efa8cf3f16d1",
+      "rows": 20
+    },
+    {
+      "id": "0c68637fd2b5f3a4dbbfd065",
+      "characters": 25632,
+      "fullTextSha256": "cf35e1c3cb84047025cedd7475c7778196af3a4646343f826e10457eb1747455",
+      "sourceSha256": "d4007306516c8912e85b1d878a9b6086287bdd9fe84a6d7a268ddd6ad56f7b39",
+      "rows": 58
+    }
+  ],
+  "productionRecordsAdded": 0,
+  "municipalRequests": 0
+}
