@@ -1,0 +1,267 @@
+{
+  "prefecture": "21",
+  "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-09T15:29:45.343751+00:00",
+  "unpublishedUserChanges": "not observable;collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "21604",
+      "municipalityName": "白川村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "cbc17b6959e590a46046e71e5dbc1f05500289967a19f3546575e27a94a8d63f"
+    },
+    {
+      "municipalityCode": "21521",
+      "municipalityName": "御嵩町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c64624359d48f6afbe1157546ae929980e829ae93ee6137471aa5e6e6d9bd40e"
+    },
+    {
+      "municipalityCode": "21507",
+      "municipalityName": "東白川村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "063572613abe3164eb318219c95de647a9ef78331f49d54eb30583508876600b"
+    },
+    {
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ea7f598ded9eccedcef7c684a267f21ab13764fe97518c4e281c24a58cec1471"
+    },
+    {
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3593394b2cbeafc663f04e80305838327a45e7dea79a35cc5ed7a0b6afeabfe0"
+    },
+    {
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "9c37aa907d103a77837b7a7fd0125948c8a25ab9873a39a4b82381b8e855e135"
+    },
+    {
+      "municipalityCode": "21502",
+      "municipalityName": "富加町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ac9045fdb65e4f8e7ac49ea6954ddda4f1edbdaae9f460ae406e1d69b43c780e"
+    },
+    {
+      "municipalityCode": "21501",
+      "municipalityName": "坂祝町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f416edc351194d9b670735d93ab6a502af566d9f256b26500809e503ea8bc60c"
+    },
+    {
+      "municipalityCode": "21421",
+      "municipalityName": "北方町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3594a1c16c52c16b8da5667fdb2f2b865768e42a199546ca292f62bd3fe090f5"
+    },
+    {
+      "municipalityCode": "21404",
+      "municipalityName": "池田町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "06d86cdc38849a086d456d975aeed52f6af2d5a82c43f5fba42ebd81cfb85803"
+    },
+    {
+      "municipalityCode": "21403",
+      "municipalityName": "大野町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d0b2c500b04ebcc8e1003e38aa789d1513d309afba64af65867409134cbca42b"
+    },
+    {
+      "municipalityCode": "21401",
+      "municipalityName": "揖斐川町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "25b32bb74ce0128c32a28148ac6aeccffaeec1aafa33f68057b1f7021bb0f4cd"
+    },
+    {
+      "municipalityCode": "21383",
+      "municipalityName": "安八町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d6e093f0502f8dc0f19bc680e8f9c3622cf3f937d8de74283e9298c03b348a13"
+    },
+    {
+      "municipalityCode": "21382",
+      "municipalityName": "輪之内町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d58f14b61c1e124a10dd9bb5b7319c690f5ade1222a44776069f48f88fa9c00a"
+    },
+    {
+      "municipalityCode": "21381",
+      "municipalityName": "神戸町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "21d1bcc9fbfc1b3f12387aaa0df7482b375e3aa04c71b4fc66915cecb9401fb6"
+    },
+    {
+      "municipalityCode": "21362",
+      "municipalityName": "関ケ原町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e2f13acdbfdeb296ca285977eae5c924d6f46f4a522fda84d6657b98863df250"
+    },
+    {
+      "municipalityCode": "21361",
+      "municipalityName": "垂井町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "8e945b73eb66ab12db931dba533a91754b4c73bf68203b46d1e9912cc8b6c7ab"
+    },
+    {
+      "municipalityCode": "21341",
+      "municipalityName": "養老町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "0bdbe0bd731e1c5effd784787fa20332a845746da81ccb575043cf5b98056262"
+    },
+    {
+      "municipalityCode": "21303",
+      "municipalityName": "笠松町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "757fcbde80b15d8feea07276a94b7fda30cb376361526e4d4520efe05ffecc08"
+    },
+    {
+      "municipalityCode": "21302",
+      "municipalityName": "岐南町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "9c877cc3fc0ed2008c38a4156e487c968b363b07cac0be4e273f6ca636d1cab3"
+    },
+    {
+      "municipalityCode": "21221",
+      "municipalityName": "海津市",
+      "datasetSha256": "0bef5cfa6a31d92d8626814c70cfd08c43bd64471112b4c924a87a6a8fe5047b",
+      "evidenceShardSha256": "e93d6f1767d31e77a921975bb6bd138e9dbf216c29f96d643d8946d2a9827779"
+    },
+    {
+      "municipalityCode": "21220",
+      "municipalityName": "下呂市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b1eacdebe1f5d987ee55ecf262a33715bbb047c80e9b504d749766b37ca97dfb"
+    },
+    {
+      "municipalityCode": "21219",
+      "municipalityName": "郡上市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "bd45db9aba07cb51a3757529a349ffed08576d01d504e7c848954f69ec8014fa"
+    },
+    {
+      "municipalityCode": "21218",
+      "municipalityName": "本巣市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "13c1495e54e94a0426e4dfb7dd8157926a9cb8fd177ea4192f9d74c50998c4ee"
+    },
+    {
+      "municipalityCode": "21217",
+      "municipalityName": "飛騨市",
+      "datasetSha256": "5af440a5e5a9c88c6fff40aadfd66d2c94599bb82710077c46b0d23c9b81821c",
+      "evidenceShardSha256": "88ef135d2c368a4e3ea037209625451cd05c18bd17e2aa44af5c20137b9bf724"
+    },
+    {
+      "municipalityCode": "21216",
+      "municipalityName": "瑞穂市",
+      "datasetSha256": "ea7d20e6b411ecfd9546050d08e5fd03f6a521bc67e9d5ef3029771426fb5894",
+      "evidenceShardSha256": "f25601946420ed22574712c6affcfe2d7b82673d2b32bec9e555a2e994866c1c"
+    },
+    {
+      "municipalityCode": "21215",
+      "municipalityName": "山県市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "19319003802343297b56f6ca558f631d3bc4ba1cade76f8b5d3cba5279d847a7"
+    },
+    {
+      "municipalityCode": "21214",
+      "municipalityName": "可児市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "4e28d14cd0abef5d6a747005f51b9a7c8519f3a652e7f3dcde9cd022675d5db6"
+    },
+    {
+      "municipalityCode": "21213",
+      "municipalityName": "各務原市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "49fe582a7a79407fb97aafd9598e368772780f49cc6d77d09c98f7bffe588b61"
+    },
+    {
+      "municipalityCode": "21212",
+      "municipalityName": "土岐市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6205b6e3fc1ff0caff12eb14a8d87235f1cc717a79ff3869849e6e0bc42351b1"
+    },
+    {
+      "municipalityCode": "21210",
+      "municipalityName": "恵那市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "00cb1ea866818cc5e4de0213cf24db3f37522ba4af2b20ee62c614193efb9b30"
+    },
+    {
+      "municipalityCode": "21209",
+      "municipalityName": "羽島市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a5a759f4c48bd79eac1e8a5a519e41f37157d48c052629df84ec43596dad2d0a"
+    },
+    {
+      "municipalityCode": "21208",
+      "municipalityName": "瑞浪市",
+      "datasetSha256": "ede116f28c0cf371b81ec20404fb491a9c003d5a1a422162f68aa5c54c0ef29b",
+      "evidenceShardSha256": "7e876b22dc7d0da6ee23b1a0c19e9fbaac659f4aa001ef4b8e87e7e68d76128e"
+    },
+    {
+      "municipalityCode": "21207",
+      "municipalityName": "美濃市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "04bbe8b7ebce1722df5e336224e8053dda76932a8a7ebc2032fa2b080b960510"
+    },
+    {
+      "municipalityCode": "21206",
+      "municipalityName": "中津川市",
+      "datasetSha256": "bf8b216cad136ee9879094ccb90a7ed1b994d181acc7f08c7191b53f21334836",
+      "evidenceShardSha256": "8e29045abad6b3daad8cadcc4ccd5888e0e8963277e29286d286523c2d690f3a"
+    },
+    {
+      "municipalityCode": "21205",
+      "municipalityName": "関市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "fa55672a3feaaafa4a3106b83c6f3b4949fb41e0d7930c7a8fd2e6bc63b06512"
+    },
+    {
+      "municipalityCode": "21204",
+      "municipalityName": "多治見市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "85a194e8c0ad9636b64a37cc95a67f2548f7dea94e29b891dfdb13e96b5cb1e8"
+    },
+    {
+      "municipalityCode": "21203",
+      "municipalityName": "高山市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e69506e3430406d6f92b30befe8a94eece39ec8f376000a060f7e954922e8df7"
+    },
+    {
+      "municipalityCode": "21202",
+      "municipalityName": "大垣市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a0568d1c0107c7e9b953cbbf1387d008bbfa7d66ac1397c13164c94f5ef5d5e3"
+    }
+  ],
+  "skipped": [
+    {
+      "municipalityCode": "21505",
+      "municipalityName": "八百津町",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "21211",
+      "municipalityName": "美濃加茂市",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "21201",
+      "municipalityName": "岐阜市",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    }
+  ],
+  "rule": "Only exact unchanged dataset/evidence hashes; retain original exclusions; never update baseline hashes to silence mismatch."
+}

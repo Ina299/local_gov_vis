@@ -1,0 +1,31 @@
+{
+  "candidateRecords": 489,
+  "perMunicipality": {
+    "白川村": 320,
+    "御嵩町": 128,
+    "富加町": 41
+  },
+  "validatedCumulativeCandidates": 27852,
+  "validatedEvidence": 79635,
+  "separateSets": {
+    "Okinawa": 1084,
+    "initial": 93
+  },
+  "previousHead": "5c60f194f032a81b590efc2704360d900129f6fb",
+  "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0,
+  "checks": {
+    "focused": "9/9",
+    "crawler": "732/732",
+    "web": "256/256, maxWorkers=1",
+    "typecheck": "passed",
+    "lint": "passed; existing font warning",
+    "national": "passed branch baseline",
+    "static": "109/109 subpath",
+    "quotes": "27852 candidates /79635 quotes"
+  },
+  "remoteCI": "unverified; known Actions API403 not retried",
+  "remaining": "Initial three-source checkpoint only. 58 unsupported-layout sources remain review work, not access blockers; 16 missing bodies stay held. Additional127 stage proposals are not included. Unpublished user changes unobservable."
+}
