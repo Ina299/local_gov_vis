@@ -252,5 +252,4586 @@ export const sheets = [
     ],
     "reviewedSheets": 24,
     "remaining": "Master/candidate duplicate checks and tested parser pending; no production changes."
+  },
+  {
+    "source": {
+      "municipalityCode": "22342",
+      "municipalityName": "長泉町",
+      "sourceId": "d89378a0d056f3637a2a7cbd",
+      "title": "評価結果一括ダウンロードはこちら(PDFファイル:2.8MB)",
+      "url": "https://www.town.nagaizumi.lg.jp/material/files/group/3/All_R8.pdf",
+      "sourceSha256": "9b6142030c3239f5e288f764243ada2e0682793a023fbbf8295ac7489bbf5502",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 35163,
+      "fullTextSha256": "a881fc7c9acd3151c288724c575a0611a120dc9bf5f6dd2bbda4aad7a8aa03dd"
+    },
+    "proof": "令和８年度 施策事前評価シート",
+    "policyActivity": true,
+    "rows": [
+      {
+        "name": "地域元気づくり事業",
+        "start": 538,
+        "raw": "地域元気づくり事業",
+        "blockStart": 528,
+        "blockRaw": "地域健康づくり推進（地域元気づくり事業、食育推進事業、まちなか健康交流事業）、\n健康づくりセンター・健康公園の運営及び管理、健康対策（ピロリ菌検査の実施、禁煙\n外来治療費の助成）、母子保健事業（母子健康教育事業、母子健康相談事業、母子訪問\n指導事業、母子歯科保健事業の実施）、母子健康診査事業の実施、妊婦のための支援給\n付事業の実施、母子予防接種（五種混合・小児肺炎球菌・B型肝炎・ロタ・ＢＣＧ・日\n本脳炎・麻しん・風しん等予防接種の実施）、成人健康相談、栄養相談、こころの相談\n・乳幼児健康診査について、通知により予備日も含めた受診勧奨をしても受診をしない\n対象者がいる。\n・学齢期において年齢の上昇に伴いう歯罹患率も上昇していることから、継続したう歯\n予防対策が必要。\n・20～64歳といった働く世代からの健康づくりが必要だが、忙しさを理由に健康づく\nり意識が低いことが懸念される。時と場所にとらわれない健康施策が必要。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "食育推進事業",
+        "start": 548,
+        "raw": "食育推進事業",
+        "blockStart": 528,
+        "blockRaw": "地域健康づくり推進（地域元気づくり事業、食育推進事業、まちなか健康交流事業）、\n健康づくりセンター・健康公園の運営及び管理、健康対策（ピロリ菌検査の実施、禁煙\n外来治療費の助成）、母子保健事業（母子健康教育事業、母子健康相談事業、母子訪問\n指導事業、母子歯科保健事業の実施）、母子健康診査事業の実施、妊婦のための支援給\n付事業の実施、母子予防接種（五種混合・小児肺炎球菌・B型肝炎・ロタ・ＢＣＧ・日\n本脳炎・麻しん・風しん等予防接種の実施）、成人健康相談、栄養相談、こころの相談\n・乳幼児健康診査について、通知により予備日も含めた受診勧奨をしても受診をしない\n対象者がいる。\n・学齢期において年齢の上昇に伴いう歯罹患率も上昇していることから、継続したう歯\n予防対策が必要。\n・20～64歳といった働く世代からの健康づくりが必要だが、忙しさを理由に健康づく\nり意識が低いことが懸念される。時と場所にとらわれない健康施策が必要。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "まちなか健康交流事業",
+        "start": 555,
+        "raw": "まちなか健康交流事業",
+        "blockStart": 528,
+        "blockRaw": "地域健康づくり推進（地域元気づくり事業、食育推進事業、まちなか健康交流事業）、\n健康づくりセンター・健康公園の運営及び管理、健康対策（ピロリ菌検査の実施、禁煙\n外来治療費の助成）、母子保健事業（母子健康教育事業、母子健康相談事業、母子訪問\n指導事業、母子歯科保健事業の実施）、母子健康診査事業の実施、妊婦のための支援給\n付事業の実施、母子予防接種（五種混合・小児肺炎球菌・B型肝炎・ロタ・ＢＣＧ・日\n本脳炎・麻しん・風しん等予防接種の実施）、成人健康相談、栄養相談、こころの相談\n・乳幼児健康診査について、通知により予備日も含めた受診勧奨をしても受診をしない\n対象者がいる。\n・学齢期において年齢の上昇に伴いう歯罹患率も上昇していることから、継続したう歯\n予防対策が必要。\n・20～64歳といった働く世代からの健康づくりが必要だが、忙しさを理由に健康づく\nり意識が低いことが懸念される。時と場所にとらわれない健康施策が必要。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "母子健康教育事業",
+        "start": 625,
+        "raw": "母子健康教育事業",
+        "blockStart": 528,
+        "blockRaw": "地域健康づくり推進（地域元気づくり事業、食育推進事業、まちなか健康交流事業）、\n健康づくりセンター・健康公園の運営及び管理、健康対策（ピロリ菌検査の実施、禁煙\n外来治療費の助成）、母子保健事業（母子健康教育事業、母子健康相談事業、母子訪問\n指導事業、母子歯科保健事業の実施）、母子健康診査事業の実施、妊婦のための支援給\n付事業の実施、母子予防接種（五種混合・小児肺炎球菌・B型肝炎・ロタ・ＢＣＧ・日\n本脳炎・麻しん・風しん等予防接種の実施）、成人健康相談、栄養相談、こころの相談\n・乳幼児健康診査について、通知により予備日も含めた受診勧奨をしても受診をしない\n対象者がいる。\n・学齢期において年齢の上昇に伴いう歯罹患率も上昇していることから、継続したう歯\n予防対策が必要。\n・20～64歳といった働く世代からの健康づくりが必要だが、忙しさを理由に健康づく\nり意識が低いことが懸念される。時と場所にとらわれない健康施策が必要。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "母子健康相談事業",
+        "start": 634,
+        "raw": "母子健康相談事業",
+        "blockStart": 528,
+        "blockRaw": "地域健康づくり推進（地域元気づくり事業、食育推進事業、まちなか健康交流事業）、\n健康づくりセンター・健康公園の運営及び管理、健康対策（ピロリ菌検査の実施、禁煙\n外来治療費の助成）、母子保健事業（母子健康教育事業、母子健康相談事業、母子訪問\n指導事業、母子歯科保健事業の実施）、母子健康診査事業の実施、妊婦のための支援給\n付事業の実施、母子予防接種（五種混合・小児肺炎球菌・B型肝炎・ロタ・ＢＣＧ・日\n本脳炎・麻しん・風しん等予防接種の実施）、成人健康相談、栄養相談、こころの相談\n・乳幼児健康診査について、通知により予備日も含めた受診勧奨をしても受診をしない\n対象者がいる。\n・学齢期において年齢の上昇に伴いう歯罹患率も上昇していることから、継続したう歯\n予防対策が必要。\n・20～64歳といった働く世代からの健康づくりが必要だが、忙しさを理由に健康づく\nり意識が低いことが懸念される。時と場所にとらわれない健康施策が必要。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "母子訪問指導事業",
+        "start": 643,
+        "raw": "母子訪問\n指導事業",
+        "blockStart": 528,
+        "blockRaw": "地域健康づくり推進（地域元気づくり事業、食育推進事業、まちなか健康交流事業）、\n健康づくりセンター・健康公園の運営及び管理、健康対策（ピロリ菌検査の実施、禁煙\n外来治療費の助成）、母子保健事業（母子健康教育事業、母子健康相談事業、母子訪問\n指導事業、母子歯科保健事業の実施）、母子健康診査事業の実施、妊婦のための支援給\n付事業の実施、母子予防接種（五種混合・小児肺炎球菌・B型肝炎・ロタ・ＢＣＧ・日\n本脳炎・麻しん・風しん等予防接種の実施）、成人健康相談、栄養相談、こころの相談\n・乳幼児健康診査について、通知により予備日も含めた受診勧奨をしても受診をしない\n対象者がいる。\n・学齢期において年齢の上昇に伴いう歯罹患率も上昇していることから、継続したう歯\n予防対策が必要。\n・20～64歳といった働く世代からの健康づくりが必要だが、忙しさを理由に健康づく\nり意識が低いことが懸念される。時と場所にとらわれない健康施策が必要。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "母子歯科保健事業",
+        "start": 653,
+        "raw": "母子歯科保健事業",
+        "blockStart": 528,
+        "blockRaw": "地域健康づくり推進（地域元気づくり事業、食育推進事業、まちなか健康交流事業）、\n健康づくりセンター・健康公園の運営及び管理、健康対策（ピロリ菌検査の実施、禁煙\n外来治療費の助成）、母子保健事業（母子健康教育事業、母子健康相談事業、母子訪問\n指導事業、母子歯科保健事業の実施）、母子健康診査事業の実施、妊婦のための支援給\n付事業の実施、母子予防接種（五種混合・小児肺炎球菌・B型肝炎・ロタ・ＢＣＧ・日\n本脳炎・麻しん・風しん等予防接種の実施）、成人健康相談、栄養相談、こころの相談\n・乳幼児健康診査について、通知により予備日も含めた受診勧奨をしても受診をしない\n対象者がいる。\n・学齢期において年齢の上昇に伴いう歯罹患率も上昇していることから、継続したう歯\n予防対策が必要。\n・20～64歳といった働く世代からの健康づくりが必要だが、忙しさを理由に健康づく\nり意識が低いことが懸念される。時と場所にとらわれない健康施策が必要。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "母子健康診査事業",
+        "start": 666,
+        "raw": "母子健康診査事業",
+        "blockStart": 528,
+        "blockRaw": "地域健康づくり推進（地域元気づくり事業、食育推進事業、まちなか健康交流事業）、\n健康づくりセンター・健康公園の運営及び管理、健康対策（ピロリ菌検査の実施、禁煙\n外来治療費の助成）、母子保健事業（母子健康教育事業、母子健康相談事業、母子訪問\n指導事業、母子歯科保健事業の実施）、母子健康診査事業の実施、妊婦のための支援給\n付事業の実施、母子予防接種（五種混合・小児肺炎球菌・B型肝炎・ロタ・ＢＣＧ・日\n本脳炎・麻しん・風しん等予防接種の実施）、成人健康相談、栄養相談、こころの相談\n・乳幼児健康診査について、通知により予備日も含めた受診勧奨をしても受診をしない\n対象者がいる。\n・学齢期において年齢の上昇に伴いう歯罹患率も上昇していることから、継続したう歯\n予防対策が必要。\n・20～64歳といった働く世代からの健康づくりが必要だが、忙しさを理由に健康づく\nり意識が低いことが懸念される。時と場所にとらわれない健康施策が必要。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "妊婦のための支援給付事業",
+        "start": 678,
+        "raw": "妊婦のための支援給\n付事業",
+        "blockStart": 528,
+        "blockRaw": "地域健康づくり推進（地域元気づくり事業、食育推進事業、まちなか健康交流事業）、\n健康づくりセンター・健康公園の運営及び管理、健康対策（ピロリ菌検査の実施、禁煙\n外来治療費の助成）、母子保健事業（母子健康教育事業、母子健康相談事業、母子訪問\n指導事業、母子歯科保健事業の実施）、母子健康診査事業の実施、妊婦のための支援給\n付事業の実施、母子予防接種（五種混合・小児肺炎球菌・B型肝炎・ロタ・ＢＣＧ・日\n本脳炎・麻しん・風しん等予防接種の実施）、成人健康相談、栄養相談、こころの相談\n・乳幼児健康診査について、通知により予備日も含めた受診勧奨をしても受診をしない\n対象者がいる。\n・学齢期において年齢の上昇に伴いう歯罹患率も上昇していることから、継続したう歯\n予防対策が必要。\n・20～64歳といった働く世代からの健康づくりが必要だが、忙しさを理由に健康づく\nり意識が低いことが懸念される。時と場所にとらわれない健康施策が必要。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "歩数アプリ事業",
+        "start": 1184,
+        "raw": "歩数アプリ事業",
+        "blockStart": 942,
+        "blockRaw": "・健診時期を保護者に認識してもらうため、各種教室や予防接種等で健診について周知\nする。乳幼児健診の未受診者に対し、地区担当保健師が電話・訪問等による受診勧奨や\n安否確認を行い、必要に応じて発育状況や医療・福祉利用状況を確認していく。\n・令和８年度から小学生へのう歯予防対策として小学１・３・５年生の開始する。\n・パークゴルフ場や健康公園、各種体育施設の適切な維持管理を実施するとともに、町\n民が各施設を利用するきっかけとなる魅力ある健康づくり施策の展開が必要。\n・行政が費用負担をする歩数アプリ事業は令和７年度に終了したが、健康づくりに重要\nな身体活動量の増加を促し、引き続き町民の健康づくりを支援するために、「歩く」こ\nとの大切さを継続して周知していく。\n・様々な世代で誰もが自分にあった健康づくりに習慣的に取り組めるよう、自由参加型\nイベント「ながいずみカラダフェスタ事業」は継続する。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "ながいずみカラダフェスタ事業",
+        "start": 1316,
+        "raw": "ながいずみカラダフェスタ事業",
+        "blockStart": 942,
+        "blockRaw": "・健診時期を保護者に認識してもらうため、各種教室や予防接種等で健診について周知\nする。乳幼児健診の未受診者に対し、地区担当保健師が電話・訪問等による受診勧奨や\n安否確認を行い、必要に応じて発育状況や医療・福祉利用状況を確認していく。\n・令和８年度から小学生へのう歯予防対策として小学１・３・５年生の開始する。\n・パークゴルフ場や健康公園、各種体育施設の適切な維持管理を実施するとともに、町\n民が各施設を利用するきっかけとなる魅力ある健康づくり施策の展開が必要。\n・行政が費用負担をする歩数アプリ事業は令和７年度に終了したが、健康づくりに重要\nな身体活動量の増加を促し、引き続き町民の健康づくりを支援するために、「歩く」こ\nとの大切さを継続して周知していく。\n・様々な世代で誰もが自分にあった健康づくりに習慣的に取り組めるよう、自由参加型\nイベント「ながいずみカラダフェスタ事業」は継続する。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "低所得世帯上下水道料金助成事業",
+        "start": 4007,
+        "raw": "低所得世帯上下水道料金助成事業",
+        "blockStart": 3927,
+        "blockRaw": "・避難行動要支援者情報の精度を高めるため個別避難計画の登録様式を変更し、改めて\n関係機関に理解を求めるとともに、個別計画の管理方法についても協議していく。\n・「低所得世帯上下水道料金助成事業」は、低所得世帯の経済的負担の軽減を目的とし\nていが、物価高騰対策として例年、国が実施している交付金の支給を鑑みると、制度の\n重複や公平性の観点から事業の見直しを含め、事業内容を検討する。\n・福祉会館の大浴場については、料金の見直し・事業継続の是非について検討を進めて\nいく。\n・住民意識調査の設問内容にボランティアの内容を例示し回答の平準化を図る。\n・地域活動の担い手不足や地域活動の縮小などにより、ボランティア活動への参加機会\nが減少しているものと考えられる。このため、社会福祉協議会と連携し、活動状況の発\n信や参加機会の提供などを行い、幅広い世代の参加促進に取り組む。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "リエイブルメント事業",
+        "start": 5083,
+        "raw": "リエイブルメント事業",
+        "blockStart": 4873,
+        "blockRaw": "高齢者に対する見守りの強化、在宅生活の支援の充実、地域包括支援センター機能の強\n化（３つの小学校圏域を２つの概ね中学校圏域に再編・専門職の増員（令和５年\n度））、生活支援有償ボランティア活動（ごみ出し、話し相手等）の実施（長泉小学校\n区：令和４年１月）、生活支援有償ボランティア活動の実施地域を町内全域に拡大（令\n和５年５月）、介護予防や生活支援サービスを実施する団体に対して補助金による助成\nを開始（令和６年度から）、リエイブルメント事業(リハビリ専門職による自立生活再獲\n得支援)を開始(令和７年度から)\n・令和８年4月1日現在の65歳以上の高齢者人口は9,848人、高齢化率は22.７％で、\n今後も増加傾向が続き令和12年には24%を超える見込みとなっている。高齢化に伴う\n要介護、要支援認定者数の増加により、介護サービスの給付費や高齢者福祉費の増加が\n続いており、財政を圧迫している状況にある。\n・人生100年時代を見据え、元気な高齢者には社会を支える側として、豊富な経験と能\n力を活かせる場の確保がこれまで以上に必要となる。\n・高齢者が要介護、要支援状態になることを未然に防止するため、介護予防・フレイル\n予防の取り組みが重要になっており、また、今後認知症高齢者の増加も見込まれること\nから、認知症高齢者の地域での生活を支えるためにも、地域包括ケアシステムのさらな\nる進化、推進を図る必要がある。\n・要介護・要支援認定者数は増加しているため、引き続き介護予防・フレイル予防の充\n実を図るとともに、高齢者の在宅生活を支援するため、住民が主体となって行う介護予\n防活動や生活支援サービスの継続・拡充に向けた支援を行う。\n・令和6年度に開始した第10次高齢者福祉計画および第9期介護保険事業計画の評価結\n果や高齢者を取り巻く環境変化等を踏まえて次期計画を策定することで、高齢者福祉施\n策の一層の推進と介護保険事業の円滑な運営を図る。また、認知症施策を総合的かつ計\n画的に推進するため、認知症施策推進計画を一体的に策定し、認知症になっても安心し\nて暮らし続けられる地域づくりを推進する。\n・認知症の予防から早期発見・早期対応、本人や家族への支援までを一体的に推進する\nため、官民共同による認知症予防及び共生モデル事業を実施し、地域全体で支え合う体\n制づくりを進める。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "男性育児参画事業",
+        "start": 7628,
+        "raw": "男性育児参画事業",
+        "blockStart": 7608,
+        "blockRaw": "子ども・子育て総合相談窓口の設置・運営、男性育児参画事業の開催、ファミリーサ\nポート事業の実施、公立幼稚園のこども園化、民間小規模保育事業所の誘致、幼児教育\nカリキュラムの作成、幼小連携事業の実施、幼保おたすけ人材バンクの設置、第２子以\n降保育料の無料化・副食費の助成、認可外保育施設の利用料助成、新幹線通学支援補\n助、未来人定住応援事業、未来っこ応援事業、こども交流センター（パルながいずみ）\nの民間委託、定期利用型保育事業の実施、公立幼稚園における外部搬入給食の提供開\n始、公立教育・保育施設再配置計画の策定、夏休み限定放課後児童会の開設\n・町の就学前人口が減少していくことが想定されている中、教育・保育施設の利用動向\nとして、保育園の利用希望数が高止まりとなっている一方で、幼稚園の園児数は年々減\n少している等の課題があることから、それらへの対応方針を示した「長泉町公立教育・\n保育施設再配置計画」を、令和６年４月に策定した。\n・教育・保育ニーズが多様化する中、教育・保育の質の維持向上が求められるが、保育\n士・教諭は慢性的に不足しており、職員の確保及び個々の資質向上に向けた取り組みが\n必要となっている。また、公立教育・保育施設の維持管理や運営に関する町の財政負担\nは年々増加している。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "ファミリーサポート事業",
+        "start": 7640,
+        "raw": "ファミリーサ\nポート事業",
+        "blockStart": 7608,
+        "blockRaw": "子ども・子育て総合相談窓口の設置・運営、男性育児参画事業の開催、ファミリーサ\nポート事業の実施、公立幼稚園のこども園化、民間小規模保育事業所の誘致、幼児教育\nカリキュラムの作成、幼小連携事業の実施、幼保おたすけ人材バンクの設置、第２子以\n降保育料の無料化・副食費の助成、認可外保育施設の利用料助成、新幹線通学支援補\n助、未来人定住応援事業、未来っこ応援事業、こども交流センター（パルながいずみ）\nの民間委託、定期利用型保育事業の実施、公立幼稚園における外部搬入給食の提供開\n始、公立教育・保育施設再配置計画の策定、夏休み限定放課後児童会の開設\n・町の就学前人口が減少していくことが想定されている中、教育・保育施設の利用動向\nとして、保育園の利用希望数が高止まりとなっている一方で、幼稚園の園児数は年々減\n少している等の課題があることから、それらへの対応方針を示した「長泉町公立教育・\n保育施設再配置計画」を、令和６年４月に策定した。\n・教育・保育ニーズが多様化する中、教育・保育の質の維持向上が求められるが、保育\n士・教諭は慢性的に不足しており、職員の確保及び個々の資質向上に向けた取り組みが\n必要となっている。また、公立教育・保育施設の維持管理や運営に関する町の財政負担\nは年々増加している。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "幼小連携事業",
+        "start": 7697,
+        "raw": "幼小連携事業",
+        "blockStart": 7608,
+        "blockRaw": "子ども・子育て総合相談窓口の設置・運営、男性育児参画事業の開催、ファミリーサ\nポート事業の実施、公立幼稚園のこども園化、民間小規模保育事業所の誘致、幼児教育\nカリキュラムの作成、幼小連携事業の実施、幼保おたすけ人材バンクの設置、第２子以\n降保育料の無料化・副食費の助成、認可外保育施設の利用料助成、新幹線通学支援補\n助、未来人定住応援事業、未来っこ応援事業、こども交流センター（パルながいずみ）\nの民間委託、定期利用型保育事業の実施、公立幼稚園における外部搬入給食の提供開\n始、公立教育・保育施設再配置計画の策定、夏休み限定放課後児童会の開設\n・町の就学前人口が減少していくことが想定されている中、教育・保育施設の利用動向\nとして、保育園の利用希望数が高止まりとなっている一方で、幼稚園の園児数は年々減\n少している等の課題があることから、それらへの対応方針を示した「長泉町公立教育・\n保育施設再配置計画」を、令和６年４月に策定した。\n・教育・保育ニーズが多様化する中、教育・保育の質の維持向上が求められるが、保育\n士・教諭は慢性的に不足しており、職員の確保及び個々の資質向上に向けた取り組みが\n必要となっている。また、公立教育・保育施設の維持管理や運営に関する町の財政負担\nは年々増加している。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "未来人定住応援事業",
+        "start": 7768,
+        "raw": "未来人定住応援事業",
+        "blockStart": 7608,
+        "blockRaw": "子ども・子育て総合相談窓口の設置・運営、男性育児参画事業の開催、ファミリーサ\nポート事業の実施、公立幼稚園のこども園化、民間小規模保育事業所の誘致、幼児教育\nカリキュラムの作成、幼小連携事業の実施、幼保おたすけ人材バンクの設置、第２子以\n降保育料の無料化・副食費の助成、認可外保育施設の利用料助成、新幹線通学支援補\n助、未来人定住応援事業、未来っこ応援事業、こども交流センター（パルながいずみ）\nの民間委託、定期利用型保育事業の実施、公立幼稚園における外部搬入給食の提供開\n始、公立教育・保育施設再配置計画の策定、夏休み限定放課後児童会の開設\n・町の就学前人口が減少していくことが想定されている中、教育・保育施設の利用動向\nとして、保育園の利用希望数が高止まりとなっている一方で、幼稚園の園児数は年々減\n少している等の課題があることから、それらへの対応方針を示した「長泉町公立教育・\n保育施設再配置計画」を、令和６年４月に策定した。\n・教育・保育ニーズが多様化する中、教育・保育の質の維持向上が求められるが、保育\n士・教諭は慢性的に不足しており、職員の確保及び個々の資質向上に向けた取り組みが\n必要となっている。また、公立教育・保育施設の維持管理や運営に関する町の財政負担\nは年々増加している。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "未来っこ応援事業",
+        "start": 7778,
+        "raw": "未来っこ応援事業",
+        "blockStart": 7608,
+        "blockRaw": "子ども・子育て総合相談窓口の設置・運営、男性育児参画事業の開催、ファミリーサ\nポート事業の実施、公立幼稚園のこども園化、民間小規模保育事業所の誘致、幼児教育\nカリキュラムの作成、幼小連携事業の実施、幼保おたすけ人材バンクの設置、第２子以\n降保育料の無料化・副食費の助成、認可外保育施設の利用料助成、新幹線通学支援補\n助、未来人定住応援事業、未来っこ応援事業、こども交流センター（パルながいずみ）\nの民間委託、定期利用型保育事業の実施、公立幼稚園における外部搬入給食の提供開\n始、公立教育・保育施設再配置計画の策定、夏休み限定放課後児童会の開設\n・町の就学前人口が減少していくことが想定されている中、教育・保育施設の利用動向\nとして、保育園の利用希望数が高止まりとなっている一方で、幼稚園の園児数は年々減\n少している等の課題があることから、それらへの対応方針を示した「長泉町公立教育・\n保育施設再配置計画」を、令和６年４月に策定した。\n・教育・保育ニーズが多様化する中、教育・保育の質の維持向上が求められるが、保育\n士・教諭は慢性的に不足しており、職員の確保及び個々の資質向上に向けた取り組みが\n必要となっている。また、公立教育・保育施設の維持管理や運営に関する町の財政負担\nは年々増加している。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "定期利用型保育事業",
+        "start": 7812,
+        "raw": "定期利用型保育事業",
+        "blockStart": 7608,
+        "blockRaw": "子ども・子育て総合相談窓口の設置・運営、男性育児参画事業の開催、ファミリーサ\nポート事業の実施、公立幼稚園のこども園化、民間小規模保育事業所の誘致、幼児教育\nカリキュラムの作成、幼小連携事業の実施、幼保おたすけ人材バンクの設置、第２子以\n降保育料の無料化・副食費の助成、認可外保育施設の利用料助成、新幹線通学支援補\n助、未来人定住応援事業、未来っこ応援事業、こども交流センター（パルながいずみ）\nの民間委託、定期利用型保育事業の実施、公立幼稚園における外部搬入給食の提供開\n始、公立教育・保育施設再配置計画の策定、夏休み限定放課後児童会の開設\n・町の就学前人口が減少していくことが想定されている中、教育・保育施設の利用動向\nとして、保育園の利用希望数が高止まりとなっている一方で、幼稚園の園児数は年々減\n少している等の課題があることから、それらへの対応方針を示した「長泉町公立教育・\n保育施設再配置計画」を、令和６年４月に策定した。\n・教育・保育ニーズが多様化する中、教育・保育の質の維持向上が求められるが、保育\n士・教諭は慢性的に不足しており、職員の確保及び個々の資質向上に向けた取り組みが\n必要となっている。また、公立教育・保育施設の維持管理や運営に関する町の財政負担\nは年々増加している。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "起業創業支援事業費補助金",
+        "start": 13014,
+        "raw": "起業創業支援事業費補助金",
+        "blockStart": 12874,
+        "blockRaw": "・勤労者の住宅取得資金及び教育融資資金の利子補給の実施\n・商工会活動推進事業の支援、長泉ブランドの促進支援\n・中小企業の経営支援（利子補給、新製品開発や販路拡大,人材確保等）\n・企業誘致・留置支援の実施（調査、補助金、町内企業へのヒアリング）\n・起業創業支援の実施（起業セミナー、起業創業支援事業費補助金、起業人材育成）\n・コワーキングスペース等拠点の運営、チャレンジショップ設置、空き店舗対策\n・大手企業や工業団地が存在し、化学工業を中心に県下有数の工業生産を誇り、製造品\n出荷額は県内町部で第１位となっている。一方で、既存企業は設備の老朽化や事業用地\nの確保など、町内における規模拡大、操業継続に課題を抱えている。\n・企業誘致は、新東名IC周辺で物流系のニーズが高いが、候補エリアは、法規制がある\nため、スピード感など他自治体と比較しても優位性に欠けている。\n・起業創業支援事業は、起業数は増加しているが、飲食店など魅力のある路面店舗等の\n小売店の起業が少ないため、にぎわいの創出につながっていない。そもそも不動産物件\nのみならず町内には空き店舗等の物件の活用も少なく、制度の改正やサポート体制を拡\n充する必要が生じている。\n・中小企業等でも人材の確保が課題となっており、商工会主催による金融懇談会でも各\n金融機関から中小企業の課題として挙げられている。\n・ファルマバレープロジェクト、”ふじのくに”のフロンティアを拓く取り組みなど地\n域の強みを活かした企業誘致・留置を図るため緑地率の見直し検討、ヒアリングの継\n続、補助事業の充実及びPRを行う。\n・起業創業支援事業については、令和８年度までの期限付きとなっており、空き店舗等\nの活用と併せてにぎわい創出につながる制度に見直しを検討する。\n・コワーキングスペース運営事業により把握した課題に対し、起業人材育成、チャレン\nジショップの運営、空き店舗対策を委託事業として実施しており、商工会とも連携して\n新産業の振興、新たに起業創業を目指す方や既に起業した方のサポートを行う。\n・中小企業等の人材確保については、ハローワーク沼津主催に切り替え、広域での取組\nにより合同就職面接会を開催し充実を図る。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "農業用用排水路等改修事業",
+        "start": 14307,
+        "raw": "農業用用排水路等改修事業",
+        "blockStart": 14294,
+        "blockRaw": "農業基盤の適正な維持管理（農業用用排水路等改修事業）、農地情報の管理、認定農業\n者支援の実施、新規就農者の確保・育成の実施、有害鳥獣被害防止対策の実施、農業振\n興事業（地産地消推進事業・町特産品開発研究事業費、環境にやさしい農業推進事業費\n補助金、農業経営収入保険加入促進事業費補助金）の実施、間伐事業補助金の交付、森\n林経営管理事業の実施、林道整備事業の実施、大堰土地改良区補助金の交付",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "空き家バンク事業",
+        "start": 20144,
+        "raw": "空き家バンク事業",
+        "blockStart": 20005,
+        "blockRaw": "空白地域解消に向けた公園・広場の整備、既存公園の老朽化したトイレ・遊具等の更\n新、鮎壺公園・下土狩駅周辺のにぎわい創出のための都市再生整備計画事業の実施、良\n好な景観形成のための景観計画等の策定・改定、住宅施策推進のための住宅マスタープ\nランの策定、空き家の有効活用を図るための空き家バンク事業及び空き家改修補助事\n業、空き家の発生抑制のための非居住住宅の除却に係る土地の固定資産税減免制度、都\n市の将来像を示す都市計画マスタープランの策定・改定、居住や都市機能の誘導及び区\n域の防災指針を示す立地適正化計画の策定・改定、都市の魅力向上のための緑の基本計\n画の策定・改定\n・多世代の方が身近に憩える場を求める住民のニーズがあることから、継続的な公園、\n広場の整備改修が必要である。\n・鮎壺公園の利用促進及び下土狩駅周辺の年間を通じた賑わい創出のため、民間主導の\nイベントの定期開催等の仕組みの構築が求められる。\n・県全体で景観施策を推進していることから、景観計画に基づく良好な景観形成が、よ\nり一層必要である。また、道路整備等に合わせた無電柱化の推進も求められている。\n・空き家の流通数が限られており、空き家バンク事業や空き家改修補助事業等の利用状\n況が低調になっている。一方で、雑草が繁茂している等の管理が不適切な空き家の苦\n情、相談は増加傾向にある。\n・緑の基本計画の改定（R7）に際して、策定委員会から緑の施策の推進に係る進行管\n理、及び次回改定時における目標値や内容の見直しについて意見が挙げられた。\n・新たな公園、広場の整備を拡充し、誰もが安全快適に利用できる遊具等の公園設備の\n更新を継続していく。なお、整備等にあたっては、緑の基本計画に掲げる目標、方針に\n基づき、計画的に実施する。\n・当町の空き家率は13.8％であり、県平均16.7％に比べ低いものの全国平均と同率に\nなっている。空き家対策に係る事業を推進するため、空き家に関する協定を締結してい\nる（公社）県宅地建物取引業協会へ、空き家バンク事業等の利用について定期的に働き\nかけを行っていく。また、管理が不適切な空き家については、対応マニュアル等の整備\nを行い、所有者に対して適正管理を促していく。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "空き家改修補助事業",
+        "start": 20154,
+        "raw": "空き家改修補助事\n業",
+        "blockStart": 20005,
+        "blockRaw": "空白地域解消に向けた公園・広場の整備、既存公園の老朽化したトイレ・遊具等の更\n新、鮎壺公園・下土狩駅周辺のにぎわい創出のための都市再生整備計画事業の実施、良\n好な景観形成のための景観計画等の策定・改定、住宅施策推進のための住宅マスタープ\nランの策定、空き家の有効活用を図るための空き家バンク事業及び空き家改修補助事\n業、空き家の発生抑制のための非居住住宅の除却に係る土地の固定資産税減免制度、都\n市の将来像を示す都市計画マスタープランの策定・改定、居住や都市機能の誘導及び区\n域の防災指針を示す立地適正化計画の策定・改定、都市の魅力向上のための緑の基本計\n画の策定・改定\n・多世代の方が身近に憩える場を求める住民のニーズがあることから、継続的な公園、\n広場の整備改修が必要である。\n・鮎壺公園の利用促進及び下土狩駅周辺の年間を通じた賑わい創出のため、民間主導の\nイベントの定期開催等の仕組みの構築が求められる。\n・県全体で景観施策を推進していることから、景観計画に基づく良好な景観形成が、よ\nり一層必要である。また、道路整備等に合わせた無電柱化の推進も求められている。\n・空き家の流通数が限られており、空き家バンク事業や空き家改修補助事業等の利用状\n況が低調になっている。一方で、雑草が繁茂している等の管理が不適切な空き家の苦\n情、相談は増加傾向にある。\n・緑の基本計画の改定（R7）に際して、策定委員会から緑の施策の推進に係る進行管\n理、及び次回改定時における目標値や内容の見直しについて意見が挙げられた。\n・新たな公園、広場の整備を拡充し、誰もが安全快適に利用できる遊具等の公園設備の\n更新を継続していく。なお、整備等にあたっては、緑の基本計画に掲げる目標、方針に\n基づき、計画的に実施する。\n・当町の空き家率は13.8％であり、県平均16.7％に比べ低いものの全国平均と同率に\nなっている。空き家対策に係る事業を推進するため、空き家に関する協定を締結してい\nる（公社）県宅地建物取引業協会へ、空き家バンク事業等の利用について定期的に働き\nかけを行っていく。また、管理が不適切な空き家については、対応マニュアル等の整備\nを行い、所有者に対して適正管理を促していく。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "コミュニティ施設整備事業等補助金",
+        "start": 23055,
+        "raw": "コミュニティ施設整備事業等補助金",
+        "blockStart": 22971,
+        "blockRaw": "・「くらしの便利帳」や広報ながいずみ、ホームページによる自治会活動の紹介、土地\n利用指導要綱に基づく自治会加入の推進や新設マンションの既存自治会への加入手続き\nの支援、コミュニティ施設整備事業等補助金による自治会活動の推進、町や包括連携協\n定を締結している事業者から自治会加入のチラシを配布し、加入啓発している。\n・令和７年９月に審査会（事業拡大）を実施。協働によるまちづくり推進事業補助金３\n団体、にぎわい交流イベント支援事業費補助金３団体、子育て支援団体事業費補助金４\n団体の計10団体が活用。チラシやホームページへの掲載による周知を実施。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "協働によるまちづくり推進事業補助金",
+        "start": 23149,
+        "raw": "協働によるまちづくり推進事業補助金",
+        "blockStart": 22971,
+        "blockRaw": "・「くらしの便利帳」や広報ながいずみ、ホームページによる自治会活動の紹介、土地\n利用指導要綱に基づく自治会加入の推進や新設マンションの既存自治会への加入手続き\nの支援、コミュニティ施設整備事業等補助金による自治会活動の推進、町や包括連携協\n定を締結している事業者から自治会加入のチラシを配布し、加入啓発している。\n・令和７年９月に審査会（事業拡大）を実施。協働によるまちづくり推進事業補助金３\n団体、にぎわい交流イベント支援事業費補助金３団体、子育て支援団体事業費補助金４\n団体の計10団体が活用。チラシやホームページへの掲載による周知を実施。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "にぎわい交流イベント支援事業費補助金",
+        "start": 16028,
+        "raw": "にぎわい交流イベント支援事業費補助金",
+        "blockStart": 15884,
+        "blockRaw": "・伊豆半島ジオパークの構成資産である鮎壺の滝や世界かんがい施設遺産の本宿用水な\nど町観光資源に、旅行事業者と連携して観光客誘致を進めている。旧ヴァンジ彫刻庭園\n美術館の閉館による影響は大きい。当該施設は県に無償譲渡され、県では民営化の可能\n性を探りつつ、直営も視野に検討を進めている。\n・にぎわい交流イベント支援事業費補助金を創設し、伴走支援するなど新たな活動を支\n援しているが、補助期間終了後の継続に繋がっておらず、主催者の育成に至っていな\nい。\n・ハイキングコースは、令和６年の大雨等によりコースの一部が崩落するなど、安全に\n利用するための動線が確保できていいないため、現在、通行を禁止している。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "子育て支援団体事業費補助金",
+        "start": 23193,
+        "raw": "子育て支援団体事業費補助金",
+        "blockStart": 22971,
+        "blockRaw": "・「くらしの便利帳」や広報ながいずみ、ホームページによる自治会活動の紹介、土地\n利用指導要綱に基づく自治会加入の推進や新設マンションの既存自治会への加入手続き\nの支援、コミュニティ施設整備事業等補助金による自治会活動の推進、町や包括連携協\n定を締結している事業者から自治会加入のチラシを配布し、加入啓発している。\n・令和７年９月に審査会（事業拡大）を実施。協働によるまちづくり推進事業補助金３\n団体、にぎわい交流イベント支援事業費補助金３団体、子育て支援団体事業費補助金４\n団体の計10団体が活用。チラシやホームページへの掲載による周知を実施。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "大堰土地改良区補助金",
+        "start": 14475,
+        "raw": "大堰土地改良区補助金",
+        "blockStart": 14294,
+        "blockRaw": "農業基盤の適正な維持管理（農業用用排水路等改修事業）、農地情報の管理、認定農業\n者支援の実施、新規就農者の確保・育成の実施、有害鳥獣被害防止対策の実施、農業振\n興事業（地産地消推進事業・町特産品開発研究事業費、環境にやさしい農業推進事業費\n補助金、農業経営収入保険加入促進事業費補助金）の実施、間伐事業補助金の交付、森\n林経営管理事業の実施、林道整備事業の実施、大堰土地改良区補助金の交付",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "戦没者追悼事業",
+        "start": 3527,
+        "raw": "戦没者追悼事\n業",
+        "blockStart": 3494,
+        "blockRaw": "低所得世帯上下水道料金の助成、成年後見の推進、福祉団体等への補助、戦没者追悼事\n業の実施、地域福祉計画の策定、福祉会館指定管理委託、福祉会館の施設整備、地域福\n祉基金の活用、法定外援護費の実施、重層的支援体制整備事業の推進、福祉施策推進・\n評価委員会による各施策の評価の実施",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "重層的支援体制整備事業",
+        "start": 3591,
+        "raw": "重層的支援体制整備事業",
+        "blockStart": 3494,
+        "blockRaw": "低所得世帯上下水道料金の助成、成年後見の推進、福祉団体等への補助、戦没者追悼事\n業の実施、地域福祉計画の策定、福祉会館指定管理委託、福祉会館の施設整備、地域福\n祉基金の活用、法定外援護費の実施、重層的支援体制整備事業の推進、福祉施策推進・\n評価委員会による各施策の評価の実施",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "地域生活支援事業",
+        "start": 6396,
+        "raw": "地域生活支援事業",
+        "blockStart": 6346,
+        "blockRaw": "障がい者相談の実施、医療費の助成、自立支援介護給付の実施、障がい児通所給付の実\n施、補装具費の助成、地域生活支援事業の実施、タクシー利用助成の実施、障がい者就\n労支援施設の運営、地域生活支援拠点等の整備（令和４年４月）、基幹相談支援セン\nターの整備（令和５年４月）",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "心の教室相談事業",
+        "start": 9171,
+        "raw": "心の教室相談事業",
+        "blockStart": 9109,
+        "blockRaw": "小学校１年生支援員・養護教員・教員事務補助員・英語指導助手・教育アドバイザーな\nど各種支援員等の配置、学校運営協議会の設置、心の教室相談事業の実施、特別支援教\n育の推進、、教育支援センターの設置、学校給食の提供、学校へのエアコン・電子黒\n板・校内ＬＡＮ・1人1台パソコンの整備、バリアフリー化改修、トイレの洋式化",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "文化財保護活用事業",
+        "start": 10176,
+        "raw": "文化財保護\n活用事業",
+        "blockStart": 10102,
+        "blockRaw": "生涯学習推進地域づくり活動・高齢者学級・子ども体験教室等の実施、地域学校協働本\n部等の実施、家庭教育学級等の実施、青少年相談・二十歳の集い等の実施、文化財保護\n活用事業等の実施、町民文化祭・美術展等の実施、図書館講座・読書フェア等の実施、\n指定管理者による文化事業の実施、コミュニティながいずみ・文化財展示館・町民図書\n館・文化センター・井上靖文学館の管理運営、桃沢工芸村・桃沢キャンプ場の運営、ス\nポーツ推進事業の実施、勤労者体育センター・各町営グラウンド・学校体育施設（一般\n開放）の維持管理",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "スポーツ推進事業",
+        "start": 10300,
+        "raw": "ス\nポーツ推進事業",
+        "blockStart": 10102,
+        "blockRaw": "生涯学習推進地域づくり活動・高齢者学級・子ども体験教室等の実施、地域学校協働本\n部等の実施、家庭教育学級等の実施、青少年相談・二十歳の集い等の実施、文化財保護\n活用事業等の実施、町民文化祭・美術展等の実施、図書館講座・読書フェア等の実施、\n指定管理者による文化事業の実施、コミュニティながいずみ・文化財展示館・町民図書\n館・文化センター・井上靖文学館の管理運営、桃沢工芸村・桃沢キャンプ場の運営、ス\nポーツ推進事業の実施、勤労者体育センター・各町営グラウンド・学校体育施設（一般\n開放）の維持管理",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "広島市への中学生代表派遣事業",
+        "start": 11652,
+        "raw": "広島市への中学生代表派遣事業",
+        "blockStart": 11495,
+        "blockRaw": "男女共同参画推進：男と女（ひととひと）のチャレンジらいふ講座・男女共同参画啓発\n講演会つどい長泉等の実施、男女共同参画啓発情報誌咲くっとの発行\n人権啓発・人権相談：特設人権相談の実施、人権啓発活動の実施、法務局依頼の各種事\n業の実施\n国際交流：国際交流協会と連携した各種事業の実施\n平和都市推進：平和学習等の実施（広島市への中学生代表派遣事業）\n多文化共生：サポーター養成講座、日本語教室を実施",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "商工会活動推進事業",
+        "start": 12903,
+        "raw": "商工会活動推進事業",
+        "blockStart": 12874,
+        "blockRaw": "・勤労者の住宅取得資金及び教育融資資金の利子補給の実施\n・商工会活動推進事業の支援、長泉ブランドの促進支援\n・中小企業の経営支援（利子補給、新製品開発や販路拡大,人材確保等）\n・企業誘致・留置支援の実施（調査、補助金、町内企業へのヒアリング）\n・起業創業支援の実施（起業セミナー、起業創業支援事業費補助金、起業人材育成）\n・コワーキングスペース等拠点の運営、チャレンジショップ設置、空き店舗対策\n・大手企業や工業団地が存在し、化学工業を中心に県下有数の工業生産を誇り、製造品\n出荷額は県内町部で第１位となっている。一方で、既存企業は設備の老朽化や事業用地\nの確保など、町内における規模拡大、操業継続に課題を抱えている。\n・企業誘致は、新東名IC周辺で物流系のニーズが高いが、候補エリアは、法規制がある\nため、スピード感など他自治体と比較しても優位性に欠けている。\n・起業創業支援事業は、起業数は増加しているが、飲食店など魅力のある路面店舗等の\n小売店の起業が少ないため、にぎわいの創出につながっていない。そもそも不動産物件\nのみならず町内には空き店舗等の物件の活用も少なく、制度の改正やサポート体制を拡\n充する必要が生じている。\n・中小企業等でも人材の確保が課題となっており、商工会主催による金融懇談会でも各\n金融機関から中小企業の課題として挙げられている。\n・ファルマバレープロジェクト、”ふじのくに”のフロンティアを拓く取り組みなど地\n域の強みを活かした企業誘致・留置を図るため緑地率の見直し検討、ヒアリングの継\n続、補助事業の充実及びPRを行う。\n・起業創業支援事業については、令和８年度までの期限付きとなっており、空き店舗等\nの活用と併せてにぎわい創出につながる制度に見直しを検討する。\n・コワーキングスペース運営事業により把握した課題に対し、起業人材育成、チャレン\nジショップの運営、空き店舗対策を委託事業として実施しており、商工会とも連携して\n新産業の振興、新たに起業創業を目指す方や既に起業した方のサポートを行う。\n・中小企業等の人材確保については、ハローワーク沼津主催に切り替え、広域での取組\nにより合同就職面接会を開催し充実を図る。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "コワーキングスペース運営事業",
+        "start": 13623,
+        "raw": "コワーキングスペース運営事業",
+        "blockStart": 12874,
+        "blockRaw": "・勤労者の住宅取得資金及び教育融資資金の利子補給の実施\n・商工会活動推進事業の支援、長泉ブランドの促進支援\n・中小企業の経営支援（利子補給、新製品開発や販路拡大,人材確保等）\n・企業誘致・留置支援の実施（調査、補助金、町内企業へのヒアリング）\n・起業創業支援の実施（起業セミナー、起業創業支援事業費補助金、起業人材育成）\n・コワーキングスペース等拠点の運営、チャレンジショップ設置、空き店舗対策\n・大手企業や工業団地が存在し、化学工業を中心に県下有数の工業生産を誇り、製造品\n出荷額は県内町部で第１位となっている。一方で、既存企業は設備の老朽化や事業用地\nの確保など、町内における規模拡大、操業継続に課題を抱えている。\n・企業誘致は、新東名IC周辺で物流系のニーズが高いが、候補エリアは、法規制がある\nため、スピード感など他自治体と比較しても優位性に欠けている。\n・起業創業支援事業は、起業数は増加しているが、飲食店など魅力のある路面店舗等の\n小売店の起業が少ないため、にぎわいの創出につながっていない。そもそも不動産物件\nのみならず町内には空き店舗等の物件の活用も少なく、制度の改正やサポート体制を拡\n充する必要が生じている。\n・中小企業等でも人材の確保が課題となっており、商工会主催による金融懇談会でも各\n金融機関から中小企業の課題として挙げられている。\n・ファルマバレープロジェクト、”ふじのくに”のフロンティアを拓く取り組みなど地\n域の強みを活かした企業誘致・留置を図るため緑地率の見直し検討、ヒアリングの継\n続、補助事業の充実及びPRを行う。\n・起業創業支援事業については、令和８年度までの期限付きとなっており、空き店舗等\nの活用と併せてにぎわい創出につながる制度に見直しを検討する。\n・コワーキングスペース運営事業により把握した課題に対し、起業人材育成、チャレン\nジショップの運営、空き店舗対策を委託事業として実施しており、商工会とも連携して\n新産業の振興、新たに起業創業を目指す方や既に起業した方のサポートを行う。\n・中小企業等の人材確保については、ハローワーク沼津主催に切り替え、広域での取組\nにより合同就職面接会を開催し充実を図る。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "地産地消推進事業",
+        "start": 14378,
+        "raw": "地産地消推進事業",
+        "blockStart": 14294,
+        "blockRaw": "農業基盤の適正な維持管理（農業用用排水路等改修事業）、農地情報の管理、認定農業\n者支援の実施、新規就農者の確保・育成の実施、有害鳥獣被害防止対策の実施、農業振\n興事業（地産地消推進事業・町特産品開発研究事業費、環境にやさしい農業推進事業費\n補助金、農業経営収入保険加入促進事業費補助金）の実施、間伐事業補助金の交付、森\n林経営管理事業の実施、林道整備事業の実施、大堰土地改良区補助金の交付",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "環境にやさしい農業推進事業費補助金",
+        "start": 14399,
+        "raw": "環境にやさしい農業推進事業費\n補助金",
+        "blockStart": 14294,
+        "blockRaw": "農業基盤の適正な維持管理（農業用用排水路等改修事業）、農地情報の管理、認定農業\n者支援の実施、新規就農者の確保・育成の実施、有害鳥獣被害防止対策の実施、農業振\n興事業（地産地消推進事業・町特産品開発研究事業費、環境にやさしい農業推進事業費\n補助金、農業経営収入保険加入促進事業費補助金）の実施、間伐事業補助金の交付、森\n林経営管理事業の実施、林道整備事業の実施、大堰土地改良区補助金の交付",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "農業経営収入保険加入促進事業費補助金",
+        "start": 14418,
+        "raw": "農業経営収入保険加入促進事業費補助金",
+        "blockStart": 14294,
+        "blockRaw": "農業基盤の適正な維持管理（農業用用排水路等改修事業）、農地情報の管理、認定農業\n者支援の実施、新規就農者の確保・育成の実施、有害鳥獣被害防止対策の実施、農業振\n興事業（地産地消推進事業・町特産品開発研究事業費、環境にやさしい農業推進事業費\n補助金、農業経営収入保険加入促進事業費補助金）の実施、間伐事業補助金の交付、森\n林経営管理事業の実施、林道整備事業の実施、大堰土地改良区補助金の交付",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "間伐事業補助金",
+        "start": 14441,
+        "raw": "間伐事業補助金",
+        "blockStart": 14294,
+        "blockRaw": "農業基盤の適正な維持管理（農業用用排水路等改修事業）、農地情報の管理、認定農業\n者支援の実施、新規就農者の確保・育成の実施、有害鳥獣被害防止対策の実施、農業振\n興事業（地産地消推進事業・町特産品開発研究事業費、環境にやさしい農業推進事業費\n補助金、農業経営収入保険加入促進事業費補助金）の実施、間伐事業補助金の交付、森\n林経営管理事業の実施、林道整備事業の実施、大堰土地改良区補助金の交付",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "森林経営管理事業",
+        "start": 14452,
+        "raw": "森\n林経営管理事業",
+        "blockStart": 14294,
+        "blockRaw": "農業基盤の適正な維持管理（農業用用排水路等改修事業）、農地情報の管理、認定農業\n者支援の実施、新規就農者の確保・育成の実施、有害鳥獣被害防止対策の実施、農業振\n興事業（地産地消推進事業・町特産品開発研究事業費、環境にやさしい農業推進事業費\n補助金、農業経営収入保険加入促進事業費補助金）の実施、間伐事業補助金の交付、森\n林経営管理事業の実施、林道整備事業の実施、大堰土地改良区補助金の交付",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "林道整備事業",
+        "start": 14465,
+        "raw": "林道整備事業",
+        "blockStart": 14294,
+        "blockRaw": "農業基盤の適正な維持管理（農業用用排水路等改修事業）、農地情報の管理、認定農業\n者支援の実施、新規就農者の確保・育成の実施、有害鳥獣被害防止対策の実施、農業振\n興事業（地産地消推進事業・町特産品開発研究事業費、環境にやさしい農業推進事業費\n補助金、農業経営収入保険加入促進事業費補助金）の実施、間伐事業補助金の交付、森\n林経営管理事業の実施、林道整備事業の実施、大堰土地改良区補助金の交付",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "生活空間満足度向上事業",
+        "start": 17179,
+        "raw": "生活空間満足度向上事業",
+        "blockStart": 17036,
+        "blockRaw": "・都市計画道路高田上土狩線（下土狩工区214ｍ）の無電柱化を取り入れた整備工事の\n実施および南伸の検討。\n・都市計画道路沼津三島線（町道中土狩竹原線以東）の事業化に向けた地元と整備検討\n会、説明会の実施。\n・北部地域幹線道路（460ｍ）の整備工事の実施。\n・生活道路の整備や改修の実施、生活空間満足度向上事業の実施、歩行者空間整備事業\nの実施、橋梁修繕による延命化の実施。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "歩行者空間整備事業",
+        "start": 17194,
+        "raw": "歩行者空間整備事業",
+        "blockStart": 17036,
+        "blockRaw": "・都市計画道路高田上土狩線（下土狩工区214ｍ）の無電柱化を取り入れた整備工事の\n実施および南伸の検討。\n・都市計画道路沼津三島線（町道中土狩竹原線以東）の事業化に向けた地元と整備検討\n会、説明会の実施。\n・北部地域幹線道路（460ｍ）の整備工事の実施。\n・生活道路の整備や改修の実施、生活空間満足度向上事業の実施、歩行者空間整備事業\nの実施、橋梁修繕による延命化の実施。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "マイナンバーカード活用タクシー利用助成事業",
+        "start": 18484,
+        "raw": "マイナンバーカード活用タクシー利用\n助成事業",
+        "blockStart": 18422,
+        "blockRaw": "コミュニティバス（南北線、循環線A、循環線B）の運行、民間乗合バス事業者への支\n援、デマンド乗合タクシー（ももタク）の運行、マイナンバーカード活用タクシー利用\n助成事業の実施、バスロケーションシステムの導入、コミュニティバスの路線再編（令\n和５年１月）、AIオンデマンド交通実証運行（令和６年８月、令和７年８月～10\n月）、小学生バス無料デーの実施（令和６年12月、令和７年12月）、循環線の減便の\n実施（土休日及び年末年始）（令和７年６月）、循環線の実証運行終了（令和７年12\n月）、デマンド乗合タクシー（ももタク）の運賃改定（令和８年３月）",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "アースキッズ事業",
+        "start": 21759,
+        "raw": "アースキッズ事業",
+        "blockStart": 21619,
+        "blockRaw": "・町公式LINEと連携し、ごみの出し方便利帳やごみカレンダーの利便性向上を図った。\nまたごみカレンダーを配付時期を１月に変更し住民の利便性向上を図った。\n・民間事業者と連携し、リユースプラットフォームを活用したごみの減量化及びリサイク\nルの活性化を図った。\n・地球温暖化対策としてアースキッズ事業などのソフト面、各種補助金事業によるハード\n面の両面から支援した。また温暖化に起因する熱中症対策としてクーリングシェルター事\n業を推進した。\n・下水道未整備区域の整備推進、既整備区域の排水設備への接続促進、下水道施設の適切\nな維持管理の実施\n・国は温室効果ガス排出削減目標を2030年度に2013年度比で46％減、2050年度に\nカーボンニュートラルとしており、昨年度策定したロードマップを活用したゼロカーボン\nシティ宣言を予定している。\n・剪定枝の排出や食品ロスが多いことから、ごみの排出量削減に向け、昨年度開始した配\n付事業の強化並びに食品ロス対策が必要である。\n・国は住宅の省エネ化を義務づけし、今後は創エネの強化を進めており、町としても更な\nる推進が必要な状況にある。\n・人口減少に伴うごみ量の減少、施設能力の余剰に伴う非効率な運営等の課題を抱え、今\n後のあり方について検討が必要である。\n・町の温室効果ガスは約７割を産業系が占めているため、企業に向けた更なる事業推進が\n必要である。\n・ごみの減量や再資源化の促進に向け４Rの取り組みを強化しながら、産業廃棄物の排\n除、収集事業者が回収時に行う現況把握調査、焼却場への持ち込み事業者への廃棄物調査\n及びそれに基づく指導などを継続する。\n・剪定枝配付事業にあたり、配付量の増加を目指し需要者の要望に沿った対応を進める。\nまた食品ロス削減に向け健康増進課が実施する食育講座との連携や各種団体の取り組みを\n強化していく。\n・住宅の創エネ化を促進するための補助事業の見直しを図る。\n・ごみ排出量の抑制に向け、出前講座等による啓発を図りながら、民間ボランティア団体\nや企業との協働を促進する。\n・一般廃棄物処理施設の効率的な運営に向け、他市町との連携も見据えた対応を図ってい\nく。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "クーリングシェルター事業",
+        "start": 21818,
+        "raw": "クーリングシェルター事\n業",
+        "blockStart": 21619,
+        "blockRaw": "・町公式LINEと連携し、ごみの出し方便利帳やごみカレンダーの利便性向上を図った。\nまたごみカレンダーを配付時期を１月に変更し住民の利便性向上を図った。\n・民間事業者と連携し、リユースプラットフォームを活用したごみの減量化及びリサイク\nルの活性化を図った。\n・地球温暖化対策としてアースキッズ事業などのソフト面、各種補助金事業によるハード\n面の両面から支援した。また温暖化に起因する熱中症対策としてクーリングシェルター事\n業を推進した。\n・下水道未整備区域の整備推進、既整備区域の排水設備への接続促進、下水道施設の適切\nな維持管理の実施\n・国は温室効果ガス排出削減目標を2030年度に2013年度比で46％減、2050年度に\nカーボンニュートラルとしており、昨年度策定したロードマップを活用したゼロカーボン\nシティ宣言を予定している。\n・剪定枝の排出や食品ロスが多いことから、ごみの排出量削減に向け、昨年度開始した配\n付事業の強化並びに食品ロス対策が必要である。\n・国は住宅の省エネ化を義務づけし、今後は創エネの強化を進めており、町としても更な\nる推進が必要な状況にある。\n・人口減少に伴うごみ量の減少、施設能力の余剰に伴う非効率な運営等の課題を抱え、今\n後のあり方について検討が必要である。\n・町の温室効果ガスは約７割を産業系が占めているため、企業に向けた更なる事業推進が\n必要である。\n・ごみの減量や再資源化の促進に向け４Rの取り組みを強化しながら、産業廃棄物の排\n除、収集事業者が回収時に行う現況把握調査、焼却場への持ち込み事業者への廃棄物調査\n及びそれに基づく指導などを継続する。\n・剪定枝配付事業にあたり、配付量の増加を目指し需要者の要望に沿った対応を進める。\nまた食品ロス削減に向け健康増進課が実施する食育講座との連携や各種団体の取り組みを\n強化していく。\n・住宅の創エネ化を促進するための補助事業の見直しを図る。\n・ごみ排出量の抑制に向け、出前講座等による啓発を図りながら、民間ボランティア団体\nや企業との協働を促進する。\n・一般廃棄物処理施設の効率的な運営に向け、他市町との連携も見据えた対応を図ってい\nく。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "剪定枝配付事業",
+        "start": 22315,
+        "raw": "剪定枝配付事業",
+        "blockStart": 21619,
+        "blockRaw": "・町公式LINEと連携し、ごみの出し方便利帳やごみカレンダーの利便性向上を図った。\nまたごみカレンダーを配付時期を１月に変更し住民の利便性向上を図った。\n・民間事業者と連携し、リユースプラットフォームを活用したごみの減量化及びリサイク\nルの活性化を図った。\n・地球温暖化対策としてアースキッズ事業などのソフト面、各種補助金事業によるハード\n面の両面から支援した。また温暖化に起因する熱中症対策としてクーリングシェルター事\n業を推進した。\n・下水道未整備区域の整備推進、既整備区域の排水設備への接続促進、下水道施設の適切\nな維持管理の実施\n・国は温室効果ガス排出削減目標を2030年度に2013年度比で46％減、2050年度に\nカーボンニュートラルとしており、昨年度策定したロードマップを活用したゼロカーボン\nシティ宣言を予定している。\n・剪定枝の排出や食品ロスが多いことから、ごみの排出量削減に向け、昨年度開始した配\n付事業の強化並びに食品ロス対策が必要である。\n・国は住宅の省エネ化を義務づけし、今後は創エネの強化を進めており、町としても更な\nる推進が必要な状況にある。\n・人口減少に伴うごみ量の減少、施設能力の余剰に伴う非効率な運営等の課題を抱え、今\n後のあり方について検討が必要である。\n・町の温室効果ガスは約７割を産業系が占めているため、企業に向けた更なる事業推進が\n必要である。\n・ごみの減量や再資源化の促進に向け４Rの取り組みを強化しながら、産業廃棄物の排\n除、収集事業者が回収時に行う現況把握調査、焼却場への持ち込み事業者への廃棄物調査\n及びそれに基づく指導などを継続する。\n・剪定枝配付事業にあたり、配付量の増加を目指し需要者の要望に沿った対応を進める。\nまた食品ロス削減に向け健康増進課が実施する食育講座との連携や各種団体の取り組みを\n強化していく。\n・住宅の創エネ化を促進するための補助事業の見直しを図る。\n・ごみ排出量の抑制に向け、出前講座等による啓発を図りながら、民間ボランティア団体\nや企業との協働を促進する。\n・一般廃棄物処理施設の効率的な運営に向け、他市町との連携も見据えた対応を図ってい\nく。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "木造住宅除去事業",
+        "start": 24816,
+        "raw": "木造住宅除去事業",
+        "blockStart": 24589,
+        "blockRaw": "・防災資機材等の整備、避難の可能性高い広域避難場所である北小学校の体育館への空\n調設備の設置、町民の防災対策への支援及び推進、自主防災組織の育成・支援、消防団\nを中核とした地域防災力の向上、また、倒壊の危険性のあるブロック塀の耐震改修や旧\n耐震基準木造住宅の耐震診断、補強工事などへの補助事業を実施している。\n・令和６年7月に長泉町富士山火山避難計画を作成した。\n・令和７年１月より新耐震基準木造住宅への耐震診断、補強工事への補助を実施してい\nる。また、木造住宅除去事業について、除去の根拠となる診断方法に簡易診断法を取り\n入れた。\n・大規模盛土造成の第２次スクリーニング計画を作成した。\n・全国的に自然災害が激甚化・頻発化するなか、被害軽減のため、適切な避難行動を誘\n発する必要がある。緊急時に町民に確実に情報を伝達し、避難行動を起こせるよう、情\n報伝達手段の強化が必要となる。\n・災害時に地域の要となる消防団員の確保が喫緊の課題となる。\n・降灰対策について、静岡県、山梨県及び神奈川県の三県で構成する｢富士山火山防災\n対策協議会｣での検討を踏まえ、長泉町富士山火山避難計画の見直しを検討する\n・令和５年住宅土地統計調査において耐震化率は97.6％となり、第3期耐震改修促進計\n画の目標値95％を達成した。今年度から第４期計画が開始され、目標値を「100％に\n近い状態を目指す」としているため、引き続き耐震性のない住宅の解消を進めていく。\n・経過観察の大規模盛土造成地については、開発完了済地にあることから、点検方法等\nの検討をし、適宜実施することとする。\n・町民の防災意識高揚等を図るため、ハザードマップの周知、感震ブレーカーの設置支\n援や家具固定等の防災対策を推進する。また、令和８年5月より新たな防災気象情報が\n導入されることから、広報誌やホームページ等で周知や啓発を行う。\n・国の地震被害想定を基に、令和8年度は県の第5次地震被害想定やアクションプログラ\nムが策定され、併せて令和9年度以降の交付金の方針が決まる。このことから、町地域\n防災計画に改正を反映するとともに、内容の再検討を行う。\n・今年度から実施される第4期耐震改修促進計画基本方針に基づき、県の支援制度\n「TOUKAIー０⁺」を活用し、旧耐震基準の木造住宅は、除却を主として補強工事への\n支援も併せて行い、新耐震基準の木造住宅は、耐震診断から補強計画及び工事への一連\nの支援を行う。\n・大規模盛土造成地については、マニュアルに基づく点検方法の策定等を行い、定期的\nに点検実施することとする。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      },
+      {
+        "name": "ＡＩを活用した特殊詐欺対策電話機の設置支援事業",
+        "start": 26380,
+        "raw": "ＡＩを活用した特殊詐欺対策\n電話機の設置支援事業",
+        "blockStart": 26175,
+        "blockRaw": "・地区安全会議への支援、防犯カメラや防犯灯の整備・維持管理、交通・防犯啓発活動\nの実施、交通指導員会への支援、交通安全施設の整備、下土狩駅及び長泉なめり駅の自\n転車駐車場の管理を実施している。\n・平成30年度より、くらし環境課内に専門的な知識を有する消費生活相談員を配置し相\n談窓口を常設し、令和７年度にあっては前年度比で微増となる130件の相談があった。\nまた、電話を介した被害を軽減するため、令和５年度からＡＩを活用した特殊詐欺対策\n電話機の設置支援事業を開始し、併せて高齢者や若年層を対象にした消費生活講座を積\n極的に開催している。\n・年間刑法犯認知件数は、前年度と比較して大幅な増加に転じ、特に、自転車盗、万引\nきの増加が目立っている。自転車盗の多くが無施錠の車両であり、施錠の徹底に係る周\n知・啓発が必要である。\n・年間交通事故の発生件数は、追突と出会い頭の事故で全体の約６割を占めている。ま\nた、高齢運転者（65歳以上）起因による事故は減少傾向にあるが、以前として高い割合\nを占めており、継続した交通安全対策の強化が必要である。\n・令和８年４月より青切符制度が導入され、同年9月から生活道路における速度規制が\n改正されることから、周知・啓発が必要である。\n・50歳代以上の消費生活相談が多い傾向にあるが、29歳以下の若年層からの相談も増\n加傾向にあり、内容としては定期購入を伴う通信販売や訪問販売が多い傾向にある。意\n識向上に向けた講座を実施しているものの、講座への参加が難しい方への対応に課題が\nある。\n・令和5年度には道路反射鏡やグリーンベルトの設置基準を新設したが、既存の道路反\n射鏡の老朽化に伴い強風等での落下や倒壊が発生しており、適正な設置及び維持管理が\n必要であるため、管理台帳の再精査や設置必要性の再検証を行う。\n・小学校3校区に設置している地区安全会議や地域安全推進員を有効に活用し、地域住\n民の防犯意識の向上、防犯啓発に努めていく必要がある。\n・多様化する相談内容に迅速に対応することが被害軽減に資することから、消費生活相\n談員の配置は必要不可欠であり現体制を継続していく。\n・消費生活に関するトラブルの多い高齢者や若年層をターゲットにした出前講座の積極\n的な展開を図りつつ、併せてホームページ、広報紙等、あらゆる媒体を活用した情報発\n信やアースキッズ事業を活用したこども向け啓発活動を展開していく。",
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": null,
+        "note": "Literal named activity in policy-stage review; independent score, financial year and amounts not established. Prior discontinuation and original spelling retained."
+      }
+    ],
+    "holds": [
+      {
+        "name": "地域の教育力向上事業",
+        "start": 9857,
+        "raw": "地域の教育力向上事業",
+        "reason": "Only an indicator label; no independent annual project identity/body association established."
+      },
+      {
+        "name": "官民共同による認知症予防及び共生モデル事業",
+        "start": 5811,
+        "raw": "官民共同による認知症予防及び共生モデル事業",
+        "reason": "Only a future policy action; no separate individual business review or implemented evidence. Do not claim current execution."
+      }
+    ],
+    "status": "51_reviewed_policy_name_candidates_not_full_validated",
+    "reviewedPolicySheets": 25
+  },
+  {
+    "source": {
+      "municipalityCode": "22305",
+      "municipalityName": "松崎町",
+      "sourceId": "127bfef65c6777413777bd35",
+      "title": "第６次総合計画実施計画事業評価（令和５年度）[PDF：630KB]",
+      "url": "https://www.town.matsuzaki.shizuoka.jp/docs/2024090300015/file_contents/R5_jigyouhyouka.pdf",
+      "sourceSha256": "ef43b47304a60797c2b14e68d407a0dd29100ac4320a5189e52c4b9174adf115",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 27579,
+      "fullTextSha256": "ccfd850369264f826512f23b04e3b5527d40cea2f0b316030a6339680edb2f2e"
+    },
+    "proof": "令和５年度事業評価総括表",
+    "policyActivity": true,
+    "rows": [
+      {
+        "name": "人材育成支援事業",
+        "start": 20306,
+        "raw": "人材育成支援事業",
+        "blockStart": 20306,
+        "blockRaw": "人材育成支援事業により、職員の労働生産性の向上、メンタルヘルスの改善、\n\n職員の目標・活動・組織・待遇の魅力を向上させるための調査・分析・施 職員の定着等につなげることを目的とし、現状分析、課題抽出のためアンケー\n策提案等を委託するとともに、町村会が主催する各種の研修会に参加 トを実施した。また、係長以上の職員を対象にその改善対策のための研修を\nすることによる計画的なキャリアマネージメントにより高い専門性と創造性 行った。\n町村会等が主催する各種研修会に延べ20名参加し、職員の資質向上につな\nを身につけ政策課題にあたる。",
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "note": "Named activity in policy evaluation; no policy score/cost assigned."
+      },
+      {
+        "name": "なまこ壁技術伝承事業",
+        "start": 16493,
+        "raw": "なまこ壁技術伝承事業",
+        "blockStart": 16492,
+        "blockRaw": "・なまこ壁技術伝承事業\n・鏝絵のまち推進事業\n・フェスタ長八\n・長八作品保存業務\n\n第23回全国漆喰鏝絵コンクール作品展では、応募作品の中から入賞作品15点\nを伊豆の長八美術館へ展示。また、佳作展を本年から同じ日程にて、民芸館2\n階で開催。期間入館者数増につながった。また、商店街の賑わいづくりを目的\nに、ロマンシール協同組合と松崎高校美術部の協力のもと、梅月園と白井呉服\n店の漆喰鏝絵看板を制作。また、なまこ壁技術伝承事業として、伊豆文邸（母\n屋右側なまこ壁42㎡のなまこ壁の修繕を行った。",
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "note": "Named activity in policy evaluation; no policy score/cost assigned."
+      },
+      {
+        "name": "鏝絵のまち推進事業",
+        "start": 16505,
+        "raw": "鏝絵のまち推進事業",
+        "blockStart": 16492,
+        "blockRaw": "・なまこ壁技術伝承事業\n・鏝絵のまち推進事業\n・フェスタ長八\n・長八作品保存業務\n\n第23回全国漆喰鏝絵コンクール作品展では、応募作品の中から入賞作品15点\nを伊豆の長八美術館へ展示。また、佳作展を本年から同じ日程にて、民芸館2\n階で開催。期間入館者数増につながった。また、商店街の賑わいづくりを目的\nに、ロマンシール協同組合と松崎高校美術部の協力のもと、梅月園と白井呉服\n店の漆喰鏝絵看板を制作。また、なまこ壁技術伝承事業として、伊豆文邸（母\n屋右側なまこ壁42㎡のなまこ壁の修繕を行った。",
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "note": "Named activity in policy evaluation; no policy score/cost assigned."
+      },
+      {
+        "name": "地域学校協働本部事業",
+        "start": 8474,
+        "raw": "地域学校協働本部事業",
+        "blockStart": 8474,
+        "blockRaw": "地域学校協働本部事業\n\n65～66P\n63P～",
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "note": "Named activity in policy evaluation; no policy score/cost assigned."
+      },
+      {
+        "name": "長八作品保存業務",
+        "start": 16524,
+        "raw": "長八作品保存業務",
+        "blockStart": 16492,
+        "blockRaw": "・なまこ壁技術伝承事業\n・鏝絵のまち推進事業\n・フェスタ長八\n・長八作品保存業務\n\n第23回全国漆喰鏝絵コンクール作品展では、応募作品の中から入賞作品15点\nを伊豆の長八美術館へ展示。また、佳作展を本年から同じ日程にて、民芸館2\n階で開催。期間入館者数増につながった。また、商店街の賑わいづくりを目的\nに、ロマンシール協同組合と松崎高校美術部の協力のもと、梅月園と白井呉服\n店の漆喰鏝絵看板を制作。また、なまこ壁技術伝承事業として、伊豆文邸（母\n屋右側なまこ壁42㎡のなまこ壁の修繕を行った。",
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "note": "Named activity in policy evaluation; no policy score/cost assigned."
+      },
+      {
+        "name": "フェスタ長八",
+        "start": 16516,
+        "raw": "フェスタ長八",
+        "blockStart": 16492,
+        "blockRaw": "・なまこ壁技術伝承事業\n・鏝絵のまち推進事業\n・フェスタ長八\n・長八作品保存業務\n\n第23回全国漆喰鏝絵コンクール作品展では、応募作品の中から入賞作品15点\nを伊豆の長八美術館へ展示。また、佳作展を本年から同じ日程にて、民芸館2\n階で開催。期間入館者数増につながった。また、商店街の賑わいづくりを目的\nに、ロマンシール協同組合と松崎高校美術部の協力のもと、梅月園と白井呉服\n店の漆喰鏝絵看板を制作。また、なまこ壁技術伝承事業として、伊豆文邸（母\n屋右側なまこ壁42㎡のなまこ壁の修繕を行った。",
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "note": "Named activity in policy evaluation; no policy score/cost assigned."
+      },
+      {
+        "name": "商工会商工業振興対策事業（「松崎ブランド」創出展開支援事業",
+        "start": 12815,
+        "raw": "商工会商工業振興対策事業（「松崎ブランド」創出展開支援事業",
+        "blockStart": 12814,
+        "blockRaw": "・商工会商工業振興対策事業（「松崎ブランド」創出展開支援事業\n・商工会地域振興実現化事業（商工会女性部特産品開発事業）\n\n松崎ブランドについては、新たな認定商品として4品目を認定した（24事業所\n42品目）。WEBや展示会等により、認定商品の周知及び販売を行った。また、\n商工会女性部による特産品も商品化され、「桜葉たくあん」を河津さくら祭りでテ\nスト販売を行い、大きな反響を得た。",
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "note": "Printed closing parenthesis absent; do not repair original title."
+      },
+      {
+        "name": "商工会地域振興実現化事業（商工会女性部特産品開発事業）",
+        "start": 12846,
+        "raw": "商工会地域振興実現化事業（商工会女性部特産品開発事業）",
+        "blockStart": 12814,
+        "blockRaw": "・商工会商工業振興対策事業（「松崎ブランド」創出展開支援事業\n・商工会地域振興実現化事業（商工会女性部特産品開発事業）\n\n松崎ブランドについては、新たな認定商品として4品目を認定した（24事業所\n42品目）。WEBや展示会等により、認定商品の周知及び販売を行った。また、\n商工会女性部による特産品も商品化され、「桜葉たくあん」を河津さくら祭りでテ\nスト販売を行い、大きな反響を得た。",
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "note": "Named activity in policy evaluation; no policy score/cost assigned."
+      },
+      {
+        "name": "学校給食共同調理場建築",
+        "start": 8748,
+        "raw": "学校給食共同調理場建築",
+        "blockStart": 8748,
+        "blockRaw": "学校給食共同調理場建築\n\nＧｏｏｇｌｅWorkspaceのChat機能を使い、様々な連絡を密に取ることにより学校と\nのコミュニケーションを図った。\n共同調理場は、実施設計が完了しR6発注する準備が整った。",
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "note": "Evaluation-year2023 project; narrative says design complete and FY2024 tender preparation, not construction completed."
+      }
+    ],
+    "holds": [],
+    "status": "reviewed_named_activity_stage_only",
+    "remaining": "Main58 policy headings/KPI are not individual projects. Other unnamed actions and policy aggregates not inferred. No actual financial year assigned."
+  },
+  {
+    "source": {
+      "municipalityCode": "22305",
+      "municipalityName": "松崎町",
+      "sourceId": "acba423f93c26175906854ba",
+      "title": "第6次総合計画実施計画事業評価（令和6年度）[PDF：1.06MB]",
+      "url": "https://www.town.matsuzaki.shizuoka.jp/docs/2024090300015/file_contents/R6%E2%80%97jigyouhyouka.pdf",
+      "sourceSha256": "bad66d00adeedc398656d25d865276a323a629b096fc0e94ffbd7ff5471f1f8d",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 29580,
+      "fullTextSha256": "c67815f6cf31c1441ce78fd0d6c2577c271ae823b202e716762b4073e00c5a0b"
+    },
+    "proof": "令和６年度事業評価総括表",
+    "policyActivity": true,
+    "rows": [
+      {
+        "name": "人材育成支援事業",
+        "start": 20690,
+        "raw": "人材育成支援事業",
+        "blockStart": 20689,
+        "blockRaw": "・人材育成支援事業では、サーベイによる職員の意識\n\n職員の目標・活動・組織・待遇の魅力を向上さ や実態の把握、職員の相互尊重の意識向上を図るた\nせるための調査・分析・施策提案等を委託する めに有志職員によるワークショップなどを行った。\nとともに、町村会が主催する各種の研修会に参 ・研修では、新規採用職員の地方自治法、地方公務員\n加することによる計画的なキャリアマネージメン 法、公務員倫理などの、オンラインによる研修を行い、\nトにより高い専門性と創造性を身につけ政策課 公務員の基礎的な知識の習得に繋げることができた。\nまた、町村会等が主催する各種研修会に延べ26名参\n題にあたる。",
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "note": "Named activity in policy evaluation; no policy score/cost assigned."
+      },
+      {
+        "name": "なまこ壁技術伝承事業",
+        "start": 17423,
+        "raw": "なまこ壁技術伝承事業",
+        "blockStart": 17333,
+        "blockRaw": "・なまこ壁の建造物等の補助制度の創設（R6開 ・景観計画に基づき、なまこ壁建造物の保存のた\n始予定）\nめの補助金交付要綱を定めた。\n・なまこ壁を活かした景観づくりの推進（重点地 ・なまこ壁技術伝承事業により、32㎡のなまこ壁修\n区計画の策定（R7予定）・街なみ環境整備事 繕を行った。\n業の実施（R8予定）・歴史的風致維持向上計 ・花いっぱい運動での各種事業により、環境づくり\n画の策定）\nを推進した。\n・ごみの分別や減量化について、広報紙などを通\nじて周知を図った。\n広域ごみ処理施設の設置、管理及び運営\n・南伊豆地域清掃施設組合（構成市町：下田市、\n南伊豆町、西伊豆町、松崎町）で焼却施設建設に\n焼却施設竣工予定（Ｒ９年度中→Ｒ１１年度中） 係る入札執行を予定していたが、事業費高騰のた\n資源化施設竣工予定（Ｒ１１年度末→Ｒ１３年度 め、下田市からの申し入れにより入札延期となっ\n末）\nた。",
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "note": "Named activity in policy evaluation; no policy score/cost assigned."
+      },
+      {
+        "name": "鏝絵のまち推進事業",
+        "start": 19271,
+        "raw": "鏝絵のまち推進事業",
+        "blockStart": 19248,
+        "blockRaw": "文化財の保護・保存\n・なまこ壁技術伝承事業\n・鏝絵のまち推進事業\n・フェスタ長八\n・長八作品保存業務\n\n町債",
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "note": "Named activity in policy evaluation; no policy score/cost assigned."
+      },
+      {
+        "name": "地域学校協働本部事業",
+        "start": 10605,
+        "raw": "地域学校協働本部事業",
+        "blockStart": 10580,
+        "blockRaw": "R6においても「先生大集合」に取り組むことで、幼\n地域学校協働本部事業を展開しコミュニティー\n稚園から高校までの連携した取り組みに寄与する\nスクールの実現を図る。\n活動を行った。南伊豆町との連携により、ICT支援\n(下校支援、学習支援など)\n員によるサポート体制を構築した。",
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "note": "Named activity in policy evaluation; no policy score/cost assigned."
+      },
+      {
+        "name": "長八作品保存業務",
+        "start": 19290,
+        "raw": "長八作品保存業務",
+        "blockStart": 19248,
+        "blockRaw": "文化財の保護・保存\n・なまこ壁技術伝承事業\n・鏝絵のまち推進事業\n・フェスタ長八\n・長八作品保存業務\n\n町債",
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "note": "Named activity in policy evaluation; no policy score/cost assigned."
+      },
+      {
+        "name": "フェスタ長八",
+        "start": 19282,
+        "raw": "フェスタ長八",
+        "blockStart": 19248,
+        "blockRaw": "文化財の保護・保存\n・なまこ壁技術伝承事業\n・鏝絵のまち推進事業\n・フェスタ長八\n・長八作品保存業務\n\n町債",
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "note": "Named activity in policy evaluation; no policy score/cost assigned."
+      },
+      {
+        "name": "商工会商工業振興対策事業（「松崎ブランド」創出展開支援事業",
+        "start": 13991,
+        "raw": "商工会商工業振興対策事業（「松崎ブランド」 品目を認定した。（23事業所 39品目）ＷＥＢや展\n創出展開支援事業",
+        "blockStart": 13966,
+        "blockRaw": "松崎ブランドについては、新たな認定商品として1\n・商工会商工業振興対策事業（「松崎ブランド」 品目を認定した。（23事業所 39品目）ＷＥＢや展\n創出展開支援事業\n示会等により、認定商品の周知及び販売を行っ\n・商工会地域振興実現化事業（商工会女性部 た。また、商工会女性部による特産品も商品化さ\n特産品開発事業）\nれ「桜葉はんぺん」を河津さくらまつりで試験的に\n販売し、大きな反響を得た。",
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "note": "Printed closing parenthesis absent; exact title fragments exclude neighboring result-column text.",
+        "titleSegments": [
+          {
+            "start": 13991,
+            "raw": "商工会商工業振興対策事業（「松崎ブランド」"
+          },
+          {
+            "start": 14039,
+            "raw": "創出展開支援事業"
+          }
+        ]
+      },
+      {
+        "name": "商工会地域振興実現化事業（商工会女性部特産品開発事業）",
+        "start": 14071,
+        "raw": "商工会地域振興実現化事業（商工会女性部 た。また、商工会女性部による特産品も商品化さ\n特産品開発事業）",
+        "blockStart": 13966,
+        "blockRaw": "松崎ブランドについては、新たな認定商品として1\n・商工会商工業振興対策事業（「松崎ブランド」 品目を認定した。（23事業所 39品目）ＷＥＢや展\n創出展開支援事業\n示会等により、認定商品の周知及び販売を行っ\n・商工会地域振興実現化事業（商工会女性部 た。また、商工会女性部による特産品も商品化さ\n特産品開発事業）\nれ「桜葉はんぺん」を河津さくらまつりで試験的に\n販売し、大きな反響を得た。",
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "note": "Named activity in policy evaluation; no policy score/cost assigned.",
+        "titleSegments": [
+          {
+            "start": 14071,
+            "raw": "商工会地域振興実現化事業（商工会女性部"
+          },
+          {
+            "start": 14114,
+            "raw": "特産品開発事業）"
+          }
+        ]
+      }
+    ],
+    "holds": [],
+    "status": "reviewed_named_activity_stage_only",
+    "remaining": "Main58 policy headings/KPI are not individual projects. Other unnamed actions and policy aggregates not inferred. No actual financial year assigned."
+  },
+  {
+    "source": {
+      "municipalityCode": "22305",
+      "municipalityName": "松崎町",
+      "sourceId": "f1f20c62be2f0b894fce3e75",
+      "title": "第6次総合計画実施計画事業評価（令和7年度）[PDF：509KB]",
+      "url": "https://www.town.matsuzaki.shizuoka.jp/docs/2024090300015/file_contents/R7_jigyouhyouka.pdf",
+      "sourceSha256": "10cb22d367edcd147b608efd8e8084420c8b27142813340f2a8f49abd25a572d",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 28756,
+      "fullTextSha256": "fff9e0d20464d4415207fb5a81fc49d26a2fb8175853db6ec72370c4a38eaff9"
+    },
+    "proof": "令和７年度事業評価総括表",
+    "policyActivity": true,
+    "rows": [
+      {
+        "name": "人材育成支援事業",
+        "start": 20261,
+        "raw": "人材育成支援事業",
+        "blockStart": 20261,
+        "blockRaw": "人材育成支援事業では、サーベイによる職員の意識や\n実態の把握、職員の相互尊重の意識向上を図るため\n職員の目標・活動・組織・待遇の魅力を向上させる\nに有志職員によるワークショップなどを行った。\nための調査・分析・施策提案等を委託するとともに、\n研修では、新規採用職員の地方自治法、地方公務員\n町村会が主催する各種の研修会に参加することに\n法、公務員倫理などの、オンラインによる研修を行い、\nよる計画的なキャリアマネージメントにより高い専門\n公務員の基礎的な知識の習得に繋げることができた。\n性と創造性を身につけ政策課題にあたる。\nまた、町村会等が主催する各種研修会に多くの職員が\n参加し、職員の資質向上に繋げることができた。",
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "note": "Named activity in policy evaluation; no policy score/cost assigned."
+      },
+      {
+        "name": "なまこ壁技術伝承事業",
+        "start": 16507,
+        "raw": "なまこ壁技術伝承事業",
+        "blockStart": 16433,
+        "blockRaw": "・昨年度要綱を制定したなまこ壁建造物の保存のため\n・なまこ壁の建造物等の補助制度の創設（R6開始\nの補助金を活用した修繕事業が行われた。\n予定）\n・なまこ壁技術伝承事業により、27.6㎡のなまこ壁修繕\n・なまこ壁を活かした景観づくりの推進（重点地区計\nを行った。\n画の策定（R8予定）・街なみ環境整備事業の実施\n・花いっぱい運動での各種事業を継続し、環境づくりを\n（R9予定）・歴史的風致維持向上計画の策定）\n推進した。",
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "note": "Named activity in policy evaluation; no policy score/cost assigned."
+      },
+      {
+        "name": "鏝絵のまち推進事業",
+        "start": 17762,
+        "raw": "鏝絵のまち推進事業",
+        "blockStart": 17749,
+        "blockRaw": "・なまこ壁技術伝承事業\n・鏝絵のまち推進事業\n・フェスタ長八\n・長八作品保存業務\n\n①-2\n第25回全国漆喰鏝絵コンクール作品展では、応募作\n品の中から入賞作品15点を伊豆の長八美術館へ展示\nした。また、併せて民芸館３階で佳作展を実施した。",
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "note": "Named activity in policy evaluation; no policy score/cost assigned."
+      },
+      {
+        "name": "地域学校協働本部事業",
+        "start": 10495,
+        "raw": "地域学校協働本部事業",
+        "blockStart": 10495,
+        "blockRaw": "地域学校協働本部事業を展開しコミュニティース\nクールの実現を図る。\n(下校支援、学習支援など)",
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "note": "Named activity in policy evaluation; no policy score/cost assigned."
+      },
+      {
+        "name": "長八作品保存業務",
+        "start": 17781,
+        "raw": "長八作品保存業務",
+        "blockStart": 17749,
+        "blockRaw": "・なまこ壁技術伝承事業\n・鏝絵のまち推進事業\n・フェスタ長八\n・長八作品保存業務\n\n①-2\n第25回全国漆喰鏝絵コンクール作品展では、応募作\n品の中から入賞作品15点を伊豆の長八美術館へ展示\nした。また、併せて民芸館３階で佳作展を実施した。",
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "note": "Named activity in policy evaluation; no policy score/cost assigned."
+      },
+      {
+        "name": "フェスタ長八",
+        "start": 17773,
+        "raw": "フェスタ長八",
+        "blockStart": 17749,
+        "blockRaw": "・なまこ壁技術伝承事業\n・鏝絵のまち推進事業\n・フェスタ長八\n・長八作品保存業務\n\n①-2\n第25回全国漆喰鏝絵コンクール作品展では、応募作\n品の中から入賞作品15点を伊豆の長八美術館へ展示\nした。また、併せて民芸館３階で佳作展を実施した。",
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "note": "Named activity in policy evaluation; no policy score/cost assigned."
+      },
+      {
+        "name": "商工会商工業振興対策事業（「松崎ブランド」創出展開支援事業）",
+        "start": 15150,
+        "raw": "商工会商工業振興対策事業（「松崎ブランド」創出 （23事業所 39品目）\n展開支援事業）",
+        "blockStart": 15123,
+        "blockRaw": "松崎ブランドについては、新たな認定商品はなかった。\n・商工会商工業振興対策事業（「松崎ブランド」創出 （23事業所 39品目）\n展開支援事業）\nＷＥＢや展示会等により、認定商品の周知及び販売を\n行った。",
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "note": "Named activity in policy evaluation; no policy score/cost assigned.",
+        "titleSegments": [
+          {
+            "start": 15150,
+            "raw": "商工会商工業振興対策事業（「松崎ブランド」創出"
+          },
+          {
+            "start": 15187,
+            "raw": "展開支援事業）"
+          }
+        ]
+      }
+    ],
+    "holds": [],
+    "status": "reviewed_named_activity_stage_only",
+    "remaining": "Main58 policy headings/KPI are not individual projects. Other unnamed actions and policy aggregates not inferred. No actual financial year assigned."
+  },
+  {
+    "source": {
+      "municipalityCode": "22223",
+      "municipalityName": "御前崎市",
+      "sourceId": "10bc6758c06461261fd7dc20",
+      "title": "令和２年度施策評価(PDFファイル:1.9MB)",
+      "url": "https://www.city.omaezaki.shizuoka.jp/material/files/group/3/R2hyouka.pdf",
+      "sourceSha256": "d1caebba547bb42326a184c533e4843b8402cc5508735ac446f139dc4466598f",
+      "listedContinuations": [
+        {
+          "assetBytes": 14547,
+          "assetPath": "documents/10bc6758c06461261fd7dc20-2.json",
+          "assetSha256": "7a5e7c0fb1cffce03730f6a3007cc1b45dd2f027e0aade08121159a476fd4333",
+          "exportedCharacters": 5434,
+          "part": 2,
+          "startCharacter": 120000,
+          "textSha256": "389745c9febaaad16d9f093fd5e1aa6611164fc36f59c482f2986c680cfd1eb6"
+        }
+      ],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 125434,
+      "fullTextSha256": "51064db6451fd318996ad8086b98d13550f684ad32238bb8d55e3af1798b3c6a"
+    },
+    "proof": "令和2年度 静岡県御前崎市施策評価シート",
+    "policyActivity": true,
+    "rows": [
+      {
+        "name": "再生可能エネルギーを活用したＥＶ充電設備等導入可能性調査事業",
+        "start": 1934,
+        "raw": "再生可能エネルギーを活用したＥＶ充電\n1 設備等導入可能性調査事業",
+        "titleSegments": [
+          {
+            "start": 1934,
+            "raw": "再生可能エネルギーを活用したＥＶ充電"
+          },
+          {
+            "start": 1955,
+            "raw": "設備等導入可能性調査事業"
+          }
+        ],
+        "blockStart": 1870,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nエネルギー政策課 エネルギー政策係\n\n再生可能エネルギーを活用したＥＶ充電\n1 設備等導入可能性調査事業\n\nエネルギー政策課 エネルギー政策係\n\n2\n\n環境課\n\n環境政策係\n\n新エネルギー・省エネルギー機器導入\n促進補助金の交付\n\n3 アースキッズチャレンジ事業\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n\n6,820\n\n指標名\n\n単位\n\n-\n\n-\n\n計画の推進 計画の推進 計画の推進\n\n件\n\n2,696\n\n2,500\n\n2,757\n\n件数\nアースキッズチャレンジ実\n施児童数\n\n人\n\n1/1\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n―\n\n平成30年3月に『御前崎市エネルギービジョン』を策定し、こ 『御前崎市エネルギービジョン中長期計画』を策定し、\nれまでも各種事業を進めてきたが、事業計画がなくバラン ビジョンの施策評価を可能とした上で、次年度以降の\nスを欠いた事業実施となっている。\n具体的な事業展開を図る。\n\n拡大\n\n―\n\n社会情勢の変化や国・県等の動向に合わせて、また、県内 令和元年度に、補助対象機器及び補助率の見直しを\n他市町の補助制度を参考にして補助制度の見直しを行う 行い、補助金交付要綱を改正した。今後も、必要に応\n必要がある。\nじて見直しを行う。\n\n改善・効率化\n\n新エネルギー・省エネル\n\n4,941 ギー機器導入促進補助金\n\n評価（課題、問題点など）\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 1
+      },
+      {
+        "name": "アースキッズチャレンジ事業",
+        "start": 2033,
+        "raw": "アースキッズチャレンジ事業",
+        "titleSegments": [
+          {
+            "start": 2033,
+            "raw": "アースキッズチャレンジ事業"
+          }
+        ],
+        "blockStart": 1870,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nエネルギー政策課 エネルギー政策係\n\n再生可能エネルギーを活用したＥＶ充電\n1 設備等導入可能性調査事業\n\nエネルギー政策課 エネルギー政策係\n\n2\n\n環境課\n\n環境政策係\n\n新エネルギー・省エネルギー機器導入\n促進補助金の交付\n\n3 アースキッズチャレンジ事業\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n\n6,820\n\n指標名\n\n単位\n\n-\n\n-\n\n計画の推進 計画の推進 計画の推進\n\n件\n\n2,696\n\n2,500\n\n2,757\n\n件数\nアースキッズチャレンジ実\n施児童数\n\n人\n\n1/1\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n―\n\n平成30年3月に『御前崎市エネルギービジョン』を策定し、こ 『御前崎市エネルギービジョン中長期計画』を策定し、\nれまでも各種事業を進めてきたが、事業計画がなくバラン ビジョンの施策評価を可能とした上で、次年度以降の\nスを欠いた事業実施となっている。\n具体的な事業展開を図る。\n\n拡大\n\n―\n\n社会情勢の変化や国・県等の動向に合わせて、また、県内 令和元年度に、補助対象機器及び補助率の見直しを\n他市町の補助制度を参考にして補助制度の見直しを行う 行い、補助金交付要綱を改正した。今後も、必要に応\n必要がある。\nじて見直しを行う。\n\n改善・効率化\n\n新エネルギー・省エネル\n\n4,941 ギー機器導入促進補助金\n\n評価（課題、問題点など）\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 1
+      },
+      {
+        "name": "新エネルギー・省エネルギー機器導入促進補助金の交付",
+        "start": 2003,
+        "raw": "新エネルギー・省エネルギー機器導入\n促進補助金の交付",
+        "titleSegments": [
+          {
+            "start": 2003,
+            "raw": "新エネルギー・省エネルギー機器導入"
+          },
+          {
+            "start": 2021,
+            "raw": "促進補助金の交付"
+          }
+        ],
+        "blockStart": 1870,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nエネルギー政策課 エネルギー政策係\n\n再生可能エネルギーを活用したＥＶ充電\n1 設備等導入可能性調査事業\n\nエネルギー政策課 エネルギー政策係\n\n2\n\n環境課\n\n環境政策係\n\n新エネルギー・省エネルギー機器導入\n促進補助金の交付\n\n3 アースキッズチャレンジ事業\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n\n6,820\n\n指標名\n\n単位\n\n-\n\n-\n\n計画の推進 計画の推進 計画の推進\n\n件\n\n2,696\n\n2,500\n\n2,757\n\n件数\nアースキッズチャレンジ実\n施児童数\n\n人\n\n1/1\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n―\n\n平成30年3月に『御前崎市エネルギービジョン』を策定し、こ 『御前崎市エネルギービジョン中長期計画』を策定し、\nれまでも各種事業を進めてきたが、事業計画がなくバラン ビジョンの施策評価を可能とした上で、次年度以降の\nスを欠いた事業実施となっている。\n具体的な事業展開を図る。\n\n拡大\n\n―\n\n社会情勢の変化や国・県等の動向に合わせて、また、県内 令和元年度に、補助対象機器及び補助率の見直しを\n他市町の補助制度を参考にして補助制度の見直しを行う 行い、補助金交付要綱を改正した。今後も、必要に応\n必要がある。\nじて見直しを行う。\n\n改善・効率化\n\n新エネルギー・省エネル\n\n4,941 ギー機器導入促進補助金\n\n評価（課題、問題点など）\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 1
+      },
+      {
+        "name": "御前崎市エネルギービジョン策定業務委託（基礎調査）",
+        "start": 4236,
+        "raw": "御前崎市エネルギービジョン策定業務\n委託（基礎調査）",
+        "titleSegments": [
+          {
+            "start": 4236,
+            "raw": "御前崎市エネルギービジョン策定業務"
+          },
+          {
+            "start": 4254,
+            "raw": "委託（基礎調査）"
+          }
+        ],
+        "blockStart": 3789,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n環境課\n\n係名\n環境政策係\n\n指\n標\n№\n\n業務名\n\n3 アースキッズチャレンジ事業\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\nR1年度\n実績\n\nR2年度\n目標\n\nR2年度\n実績\n\nR3年度\n目標\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\nアースキッズチャレンジ実\n\n人\n（累計）\n\n151\n(1,042)\n\n240\n(1,282)\n\n101\n（1,143）\n\n257\n（1,400）\n\nコロナウイルス感染症予防から５校中２校の実施となった\nが、子どもたちが地球温暖化防止について学び温室効果\nガス削減に取り組むことができた。\n\n市内小学校のそれぞれの事情やコロナウイルス感染症予防\nの観点から地球温暖化防止センターが新たに設定した単独\n講座などを取り入れ取組みやすい事業としていく。\n\n改善・効率化\n\n286 施児童数\n\nエネルギー政策 エネルギー政策\n課\n係\n\n1\n\n御前崎市エネルギービジョン策定業務\n委託（基礎調査）\n\n-\n\n-\n\nエネルギー政策 エネルギー政策\n課\n係\n\n新エネルギー・省エネルギー機器導入\n2 促進補助金の交付\n\n新エネルギー・省エネル\nギー機器導入促進補助金\n件数\n\n件\n\n1/1\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 2
+      },
+      {
+        "name": "不法投棄パトロール及び清掃業務委託",
+        "start": 5530,
+        "raw": "不法投棄パトロール及び清掃業務委託",
+        "titleSegments": [
+          {
+            "start": 5530,
+            "raw": "不法投棄パトロール及び清掃業務委託"
+          }
+        ],
+        "blockStart": 5473,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n環境課\n\n係名\n生活衛生係\n\n指\n標\n№\n\n業務名\n\n1 不法投棄パトロール及び清掃業務委託\n\nR2年度\n事業費\n（千円）\n\n指標名\n\nパトロール及び清掃の日\n377 数\n\n単位\n日\n\n週2回\n\n週1回\n\n週1回\n\n週1回\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n民地への不法投棄は発見しても回収することができないた 民地への不法投棄は、土地所有者に撤去処分等の責\nめ、土地所有者が不法投棄をされないよう、土地の管理を 任が生じる。土地所有者に自身の土地の確認、管理\n行ってもらう必要があるが、周知が徹底されていない。\nを行ってもらうよう、様々な媒体での情報の発信、広報\nに努める。\n\n今後（R3年度）\nの方針\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 3
+      },
+      {
+        "name": "生ごみ処理機器設置費補助金",
+        "start": 7522,
+        "raw": "生ごみ処理機器設置費補助金",
+        "titleSegments": [
+          {
+            "start": 7522,
+            "raw": "生ごみ処理機器設置費補助金"
+          }
+        ],
+        "blockStart": 7264,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n単位\n\nR1年度\n実績\n\nR2年度\n目標\n\nR2年度\n実績\n\nR3年度\n目標\n\n70 排出量\n\ng/人・日\n\n930\n\n863\n\n933\n\n860\n\n348 避妊・去勢手術件数\n\n件（累計）\n\n120\n（735）\n\n110\n（745）\n\n67\n（802）\n\n173\n（975）\n\n18\n\n17\n\n17\n\n16\n\n指標名\n市民一人当たりのごみの\n\n環境課\n\n生活衛生係\n\n1 生ごみ処理機器設置費補助金\n\n環境課\n\n生活衛生係\n\n2\n\n環境課\n\n生活衛生係\n\n件\n2,046 苦情件数\n3 河川、地下水、港湾水質調査自動車騒音常時監視に係る騒音調査及び面的評価業務委託\n\n飼い猫適正飼養補助金\n地域猫去勢避妊手術業務委託\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\nコロナ禍によるステイホームにより市民一人当たりのごみ 生ごみ処理機を設置することによる、ごみの削減効果\n排出量は増加した。生ごみ処理機設置について予算額に を市民に分かりやすく広報する。\n達するまで申請があったが、それらの効果については見え\nにく。\n飼い主の避妊、去勢の意識は定着してきているが、野良猫 県、動物管理指導センター、市動物保護協会と連携\nが民家の敷地内で出産してしまった際の対応についての\n相談が増加している。\n\nし、室内飼いを推奨していく。\n\n水質汚濁・振動・騒音・悪臭の苦情について、発生を無くす 苦情の発生原因の分析、解明を迅速に行い、事業者\nことは難しいため、発生時の迅速な苦情対応が求められて に対して改善を図るよう、行政指導を行う。\nいる。\n\n今後（R3年度）\nの方針\n改善・効率化\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 4
+      },
+      {
+        "name": "河川、地下水、港湾水質調査自動車騒音常時監視に係る騒音調査及び面的評価業務委託",
+        "start": 7579,
+        "raw": "河川、地下水、港湾水質調査自動車騒音常時監視に係る騒音調査及び面的評価業務委託",
+        "titleSegments": [
+          {
+            "start": 7579,
+            "raw": "河川、地下水、港湾水質調査自動車騒音常時監視に係る騒音調査及び面的評価業務委託"
+          }
+        ],
+        "blockStart": 7264,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n単位\n\nR1年度\n実績\n\nR2年度\n目標\n\nR2年度\n実績\n\nR3年度\n目標\n\n70 排出量\n\ng/人・日\n\n930\n\n863\n\n933\n\n860\n\n348 避妊・去勢手術件数\n\n件（累計）\n\n120\n（735）\n\n110\n（745）\n\n67\n（802）\n\n173\n（975）\n\n18\n\n17\n\n17\n\n16\n\n指標名\n市民一人当たりのごみの\n\n環境課\n\n生活衛生係\n\n1 生ごみ処理機器設置費補助金\n\n環境課\n\n生活衛生係\n\n2\n\n環境課\n\n生活衛生係\n\n件\n2,046 苦情件数\n3 河川、地下水、港湾水質調査自動車騒音常時監視に係る騒音調査及び面的評価業務委託\n\n飼い猫適正飼養補助金\n地域猫去勢避妊手術業務委託\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\nコロナ禍によるステイホームにより市民一人当たりのごみ 生ごみ処理機を設置することによる、ごみの削減効果\n排出量は増加した。生ごみ処理機設置について予算額に を市民に分かりやすく広報する。\n達するまで申請があったが、それらの効果については見え\nにく。\n飼い主の避妊、去勢の意識は定着してきているが、野良猫 県、動物管理指導センター、市動物保護協会と連携\nが民家の敷地内で出産してしまった際の対応についての\n相談が増加している。\n\nし、室内飼いを推奨していく。\n\n水質汚濁・振動・騒音・悪臭の苦情について、発生を無くす 苦情の発生原因の分析、解明を迅速に行い、事業者\nことは難しいため、発生時の迅速な苦情対応が求められて に対して改善を図るよう、行政指導を行う。\nいる。\n\n今後（R3年度）\nの方針\n改善・効率化\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 4
+      },
+      {
+        "name": "飼い猫適正飼養補助金",
+        "start": 7620,
+        "raw": "飼い猫適正飼養補助金",
+        "titleSegments": [
+          {
+            "start": 7620,
+            "raw": "飼い猫適正飼養補助金"
+          }
+        ],
+        "blockStart": 7264,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n単位\n\nR1年度\n実績\n\nR2年度\n目標\n\nR2年度\n実績\n\nR3年度\n目標\n\n70 排出量\n\ng/人・日\n\n930\n\n863\n\n933\n\n860\n\n348 避妊・去勢手術件数\n\n件（累計）\n\n120\n（735）\n\n110\n（745）\n\n67\n（802）\n\n173\n（975）\n\n18\n\n17\n\n17\n\n16\n\n指標名\n市民一人当たりのごみの\n\n環境課\n\n生活衛生係\n\n1 生ごみ処理機器設置費補助金\n\n環境課\n\n生活衛生係\n\n2\n\n環境課\n\n生活衛生係\n\n件\n2,046 苦情件数\n3 河川、地下水、港湾水質調査自動車騒音常時監視に係る騒音調査及び面的評価業務委託\n\n飼い猫適正飼養補助金\n地域猫去勢避妊手術業務委託\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\nコロナ禍によるステイホームにより市民一人当たりのごみ 生ごみ処理機を設置することによる、ごみの削減効果\n排出量は増加した。生ごみ処理機設置について予算額に を市民に分かりやすく広報する。\n達するまで申請があったが、それらの効果については見え\nにく。\n飼い主の避妊、去勢の意識は定着してきているが、野良猫 県、動物管理指導センター、市動物保護協会と連携\nが民家の敷地内で出産してしまった際の対応についての\n相談が増加している。\n\nし、室内飼いを推奨していく。\n\n水質汚濁・振動・騒音・悪臭の苦情について、発生を無くす 苦情の発生原因の分析、解明を迅速に行い、事業者\nことは難しいため、発生時の迅速な苦情対応が求められて に対して改善を図るよう、行政指導を行う。\nいる。\n\n今後（R3年度）\nの方針\n改善・効率化\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 4
+      },
+      {
+        "name": "地域猫去勢避妊手術業務委託",
+        "start": 7631,
+        "raw": "地域猫去勢避妊手術業務委託",
+        "titleSegments": [
+          {
+            "start": 7631,
+            "raw": "地域猫去勢避妊手術業務委託"
+          }
+        ],
+        "blockStart": 7264,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n単位\n\nR1年度\n実績\n\nR2年度\n目標\n\nR2年度\n実績\n\nR3年度\n目標\n\n70 排出量\n\ng/人・日\n\n930\n\n863\n\n933\n\n860\n\n348 避妊・去勢手術件数\n\n件（累計）\n\n120\n（735）\n\n110\n（745）\n\n67\n（802）\n\n173\n（975）\n\n18\n\n17\n\n17\n\n16\n\n指標名\n市民一人当たりのごみの\n\n環境課\n\n生活衛生係\n\n1 生ごみ処理機器設置費補助金\n\n環境課\n\n生活衛生係\n\n2\n\n環境課\n\n生活衛生係\n\n件\n2,046 苦情件数\n3 河川、地下水、港湾水質調査自動車騒音常時監視に係る騒音調査及び面的評価業務委託\n\n飼い猫適正飼養補助金\n地域猫去勢避妊手術業務委託\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\nコロナ禍によるステイホームにより市民一人当たりのごみ 生ごみ処理機を設置することによる、ごみの削減効果\n排出量は増加した。生ごみ処理機設置について予算額に を市民に分かりやすく広報する。\n達するまで申請があったが、それらの効果については見え\nにく。\n飼い主の避妊、去勢の意識は定着してきているが、野良猫 県、動物管理指導センター、市動物保護協会と連携\nが民家の敷地内で出産してしまった際の対応についての\n相談が増加している。\n\nし、室内飼いを推奨していく。\n\n水質汚濁・振動・騒音・悪臭の苦情について、発生を無くす 苦情の発生原因の分析、解明を迅速に行い、事業者\nことは難しいため、発生時の迅速な苦情対応が求められて に対して改善を図るよう、行政指導を行う。\nいる。\n\n今後（R3年度）\nの方針\n改善・効率化\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 4
+      },
+      {
+        "name": "下水道・農業集落排水の公共桝の設置",
+        "start": 10247,
+        "raw": "下水道・農業集落排水の公共桝の設置",
+        "titleSegments": [
+          {
+            "start": 10247,
+            "raw": "下水道・農業集落排水の公共桝の設置"
+          }
+        ],
+        "blockStart": 9810,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\nR1年度\n実績\n\nR2年度\n目標\n\nR2年度\n実績\n\nR3年度\n目標\n\n箇所\n\n35\n\n30\n\n40\n\n35\n\n未接続世帯に対し、加入を促す方法を検討し、引き続\nき下水道の普及を推進していく。\n\n現状維持\n\n基\n\n115\n\n75\n\n120\n\n85\n\n目標より45基多く申請があり、前年度に比べ設置数が増加 未設置世帯に対し、設置を促す方法を検討し、引き続\nした。\nき合併処理浄化槽の普及を推進していく。\n\n現状維持\n\n地方公営企業会計を適正に行うため、eラーニングを使用 今後も正確な財務諸表の作成を行っていく。\nした研修を受講し、職員の知識向上に努めた。\n担当職員の知識向上のため、研修等に参加していく。\n\n現状維持\n\n評価（課題、問題点など）\n前年度に比べ、設置数が増加した。\n\n上下水道課\n\n下水道係\n\n1 下水道・農業集落排水の公共桝の設置\n\n19,820 公共桝設置箇所\n\n上下水道課\n\n下水道係\n\n1 合併処理浄化槽の普及推進\n\n106,374 (補助金対象）\n\n上下水道課\n\n下水道係\n\n地方公営企業会計移行業務委託及び\n2 担当職員の企業会計移行に向けた研修\nへ参加\n\n0 研修への参加回数\n\n回\n\n2\n\n2\n\n2\n\n2\n\n上下水道課\n\n下水道係\n\n農業集落排水を公共下水道への統合に\n3 向け、関係省（農林水産省や静岡県）と\n協議を実施\n\n0 協議回数\n\n回\n\n5\n\n3\n\n3\n\n3\n\n上下水道課\n\n下水道係\n\n管路及び処理施設の耐震・耐津波診断\n4 業務委託、管路の浮上抑制・耐震化工\n事\n\n23,704 委託及び工事の実施回数\n\n回\n\n1\n\n1\n\n1\n\n1\n\n上下水道課\n\n下水道係\n\n長寿命化計画に基づき、対象機器の更\n5 新及び長寿命化工事\n\n9,679 委託及び工事の実施回数\n\n回\n\n2\n\n1\n\n1\n\n1\n\n浄化槽設置基数\n\n統合事業に係る財源確保が必要である。\n\n1/1\n\n地震対策計画に基づき高松浄化センターの沈砂池・管理\n棟耐震補強工事を実施し、災害時にも下水道事業を継続\nするための耐震化を進めた。\n\n業務改善の方向性\n\n建設財源の確保など統合を進めることができる体制\n作りをしていく。\n財政状況を見ながら、総合地震対策計画に基づき計\n画的に地震対策を行っていく。\n\nストックマネジメント計画に基づき、公共下水道マンホール 財政状況を見ながら、ストックマネジメント計画に基づ\nポンプ遠方監視システムの更新工事を実施し、クラウド化 き計画的に地震対策を行っていく。\nに着手した。\n\n今後（R3年度）\nの方針\n\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 5
+      },
+      {
+        "name": "合併処理浄化槽の普及推進",
+        "start": 10297,
+        "raw": "合併処理浄化槽の普及推進",
+        "titleSegments": [
+          {
+            "start": 10297,
+            "raw": "合併処理浄化槽の普及推進"
+          }
+        ],
+        "blockStart": 9810,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\nR1年度\n実績\n\nR2年度\n目標\n\nR2年度\n実績\n\nR3年度\n目標\n\n箇所\n\n35\n\n30\n\n40\n\n35\n\n未接続世帯に対し、加入を促す方法を検討し、引き続\nき下水道の普及を推進していく。\n\n現状維持\n\n基\n\n115\n\n75\n\n120\n\n85\n\n目標より45基多く申請があり、前年度に比べ設置数が増加 未設置世帯に対し、設置を促す方法を検討し、引き続\nした。\nき合併処理浄化槽の普及を推進していく。\n\n現状維持\n\n地方公営企業会計を適正に行うため、eラーニングを使用 今後も正確な財務諸表の作成を行っていく。\nした研修を受講し、職員の知識向上に努めた。\n担当職員の知識向上のため、研修等に参加していく。\n\n現状維持\n\n評価（課題、問題点など）\n前年度に比べ、設置数が増加した。\n\n上下水道課\n\n下水道係\n\n1 下水道・農業集落排水の公共桝の設置\n\n19,820 公共桝設置箇所\n\n上下水道課\n\n下水道係\n\n1 合併処理浄化槽の普及推進\n\n106,374 (補助金対象）\n\n上下水道課\n\n下水道係\n\n地方公営企業会計移行業務委託及び\n2 担当職員の企業会計移行に向けた研修\nへ参加\n\n0 研修への参加回数\n\n回\n\n2\n\n2\n\n2\n\n2\n\n上下水道課\n\n下水道係\n\n農業集落排水を公共下水道への統合に\n3 向け、関係省（農林水産省や静岡県）と\n協議を実施\n\n0 協議回数\n\n回\n\n5\n\n3\n\n3\n\n3\n\n上下水道課\n\n下水道係\n\n管路及び処理施設の耐震・耐津波診断\n4 業務委託、管路の浮上抑制・耐震化工\n事\n\n23,704 委託及び工事の実施回数\n\n回\n\n1\n\n1\n\n1\n\n1\n\n上下水道課\n\n下水道係\n\n長寿命化計画に基づき、対象機器の更\n5 新及び長寿命化工事\n\n9,679 委託及び工事の実施回数\n\n回\n\n2\n\n1\n\n1\n\n1\n\n浄化槽設置基数\n\n統合事業に係る財源確保が必要である。\n\n1/1\n\n地震対策計画に基づき高松浄化センターの沈砂池・管理\n棟耐震補強工事を実施し、災害時にも下水道事業を継続\nするための耐震化を進めた。\n\n業務改善の方向性\n\n建設財源の確保など統合を進めることができる体制\n作りをしていく。\n財政状況を見ながら、総合地震対策計画に基づき計\n画的に地震対策を行っていく。\n\nストックマネジメント計画に基づき、公共下水道マンホール 財政状況を見ながら、ストックマネジメント計画に基づ\nポンプ遠方監視システムの更新工事を実施し、クラウド化 き計画的に地震対策を行っていく。\nに着手した。\n\n今後（R3年度）\nの方針\n\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 5
+      },
+      {
+        "name": "地方公営企業会計移行業務委託及び担当職員の企業会計移行に向けた研修へ参加",
+        "start": 10341,
+        "raw": "地方公営企業会計移行業務委託及び\n2 担当職員の企業会計移行に向けた研修\nへ参加",
+        "titleSegments": [
+          {
+            "start": 10341,
+            "raw": "地方公営企業会計移行業務委託及び"
+          },
+          {
+            "start": 10360,
+            "raw": "担当職員の企業会計移行に向けた研修"
+          },
+          {
+            "start": 10378,
+            "raw": "へ参加"
+          }
+        ],
+        "blockStart": 9810,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\nR1年度\n実績\n\nR2年度\n目標\n\nR2年度\n実績\n\nR3年度\n目標\n\n箇所\n\n35\n\n30\n\n40\n\n35\n\n未接続世帯に対し、加入を促す方法を検討し、引き続\nき下水道の普及を推進していく。\n\n現状維持\n\n基\n\n115\n\n75\n\n120\n\n85\n\n目標より45基多く申請があり、前年度に比べ設置数が増加 未設置世帯に対し、設置を促す方法を検討し、引き続\nした。\nき合併処理浄化槽の普及を推進していく。\n\n現状維持\n\n地方公営企業会計を適正に行うため、eラーニングを使用 今後も正確な財務諸表の作成を行っていく。\nした研修を受講し、職員の知識向上に努めた。\n担当職員の知識向上のため、研修等に参加していく。\n\n現状維持\n\n評価（課題、問題点など）\n前年度に比べ、設置数が増加した。\n\n上下水道課\n\n下水道係\n\n1 下水道・農業集落排水の公共桝の設置\n\n19,820 公共桝設置箇所\n\n上下水道課\n\n下水道係\n\n1 合併処理浄化槽の普及推進\n\n106,374 (補助金対象）\n\n上下水道課\n\n下水道係\n\n地方公営企業会計移行業務委託及び\n2 担当職員の企業会計移行に向けた研修\nへ参加\n\n0 研修への参加回数\n\n回\n\n2\n\n2\n\n2\n\n2\n\n上下水道課\n\n下水道係\n\n農業集落排水を公共下水道への統合に\n3 向け、関係省（農林水産省や静岡県）と\n協議を実施\n\n0 協議回数\n\n回\n\n5\n\n3\n\n3\n\n3\n\n上下水道課\n\n下水道係\n\n管路及び処理施設の耐震・耐津波診断\n4 業務委託、管路の浮上抑制・耐震化工\n事\n\n23,704 委託及び工事の実施回数\n\n回\n\n1\n\n1\n\n1\n\n1\n\n上下水道課\n\n下水道係\n\n長寿命化計画に基づき、対象機器の更\n5 新及び長寿命化工事\n\n9,679 委託及び工事の実施回数\n\n回\n\n2\n\n1\n\n1\n\n1\n\n浄化槽設置基数\n\n統合事業に係る財源確保が必要である。\n\n1/1\n\n地震対策計画に基づき高松浄化センターの沈砂池・管理\n棟耐震補強工事を実施し、災害時にも下水道事業を継続\nするための耐震化を進めた。\n\n業務改善の方向性\n\n建設財源の確保など統合を進めることができる体制\n作りをしていく。\n財政状況を見ながら、総合地震対策計画に基づき計\n画的に地震対策を行っていく。\n\nストックマネジメント計画に基づき、公共下水道マンホール 財政状況を見ながら、ストックマネジメント計画に基づ\nポンプ遠方監視システムの更新工事を実施し、クラウド化 き計画的に地震対策を行っていく。\nに着手した。\n\n今後（R3年度）\nの方針\n\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 5
+      },
+      {
+        "name": "農業集落排水を公共下水道への統合に向け、関係省（農林水産省や静岡県）と協議を実施",
+        "start": 10423,
+        "raw": "農業集落排水を公共下水道への統合に\n3 向け、関係省（農林水産省や静岡県）と\n協議を実施",
+        "titleSegments": [
+          {
+            "start": 10423,
+            "raw": "農業集落排水を公共下水道への統合に"
+          },
+          {
+            "start": 10443,
+            "raw": "向け、関係省（農林水産省や静岡県）と"
+          },
+          {
+            "start": 10462,
+            "raw": "協議を実施"
+          }
+        ],
+        "blockStart": 9810,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\nR1年度\n実績\n\nR2年度\n目標\n\nR2年度\n実績\n\nR3年度\n目標\n\n箇所\n\n35\n\n30\n\n40\n\n35\n\n未接続世帯に対し、加入を促す方法を検討し、引き続\nき下水道の普及を推進していく。\n\n現状維持\n\n基\n\n115\n\n75\n\n120\n\n85\n\n目標より45基多く申請があり、前年度に比べ設置数が増加 未設置世帯に対し、設置を促す方法を検討し、引き続\nした。\nき合併処理浄化槽の普及を推進していく。\n\n現状維持\n\n地方公営企業会計を適正に行うため、eラーニングを使用 今後も正確な財務諸表の作成を行っていく。\nした研修を受講し、職員の知識向上に努めた。\n担当職員の知識向上のため、研修等に参加していく。\n\n現状維持\n\n評価（課題、問題点など）\n前年度に比べ、設置数が増加した。\n\n上下水道課\n\n下水道係\n\n1 下水道・農業集落排水の公共桝の設置\n\n19,820 公共桝設置箇所\n\n上下水道課\n\n下水道係\n\n1 合併処理浄化槽の普及推進\n\n106,374 (補助金対象）\n\n上下水道課\n\n下水道係\n\n地方公営企業会計移行業務委託及び\n2 担当職員の企業会計移行に向けた研修\nへ参加\n\n0 研修への参加回数\n\n回\n\n2\n\n2\n\n2\n\n2\n\n上下水道課\n\n下水道係\n\n農業集落排水を公共下水道への統合に\n3 向け、関係省（農林水産省や静岡県）と\n協議を実施\n\n0 協議回数\n\n回\n\n5\n\n3\n\n3\n\n3\n\n上下水道課\n\n下水道係\n\n管路及び処理施設の耐震・耐津波診断\n4 業務委託、管路の浮上抑制・耐震化工\n事\n\n23,704 委託及び工事の実施回数\n\n回\n\n1\n\n1\n\n1\n\n1\n\n上下水道課\n\n下水道係\n\n長寿命化計画に基づき、対象機器の更\n5 新及び長寿命化工事\n\n9,679 委託及び工事の実施回数\n\n回\n\n2\n\n1\n\n1\n\n1\n\n浄化槽設置基数\n\n統合事業に係る財源確保が必要である。\n\n1/1\n\n地震対策計画に基づき高松浄化センターの沈砂池・管理\n棟耐震補強工事を実施し、災害時にも下水道事業を継続\nするための耐震化を進めた。\n\n業務改善の方向性\n\n建設財源の確保など統合を進めることができる体制\n作りをしていく。\n財政状況を見ながら、総合地震対策計画に基づき計\n画的に地震対策を行っていく。\n\nストックマネジメント計画に基づき、公共下水道マンホール 財政状況を見ながら、ストックマネジメント計画に基づ\nポンプ遠方監視システムの更新工事を実施し、クラウド化 き計画的に地震対策を行っていく。\nに着手した。\n\n今後（R3年度）\nの方針\n\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 5
+      },
+      {
+        "name": "管路及び処理施設の耐震・耐津波診断業務委託、管路の浮上抑制・耐震化工事",
+        "start": 10505,
+        "raw": "管路及び処理施設の耐震・耐津波診断\n4 業務委託、管路の浮上抑制・耐震化工\n事",
+        "titleSegments": [
+          {
+            "start": 10505,
+            "raw": "管路及び処理施設の耐震・耐津波診断"
+          },
+          {
+            "start": 10525,
+            "raw": "業務委託、管路の浮上抑制・耐震化工"
+          },
+          {
+            "start": 10543,
+            "raw": "事"
+          }
+        ],
+        "blockStart": 9810,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\nR1年度\n実績\n\nR2年度\n目標\n\nR2年度\n実績\n\nR3年度\n目標\n\n箇所\n\n35\n\n30\n\n40\n\n35\n\n未接続世帯に対し、加入を促す方法を検討し、引き続\nき下水道の普及を推進していく。\n\n現状維持\n\n基\n\n115\n\n75\n\n120\n\n85\n\n目標より45基多く申請があり、前年度に比べ設置数が増加 未設置世帯に対し、設置を促す方法を検討し、引き続\nした。\nき合併処理浄化槽の普及を推進していく。\n\n現状維持\n\n地方公営企業会計を適正に行うため、eラーニングを使用 今後も正確な財務諸表の作成を行っていく。\nした研修を受講し、職員の知識向上に努めた。\n担当職員の知識向上のため、研修等に参加していく。\n\n現状維持\n\n評価（課題、問題点など）\n前年度に比べ、設置数が増加した。\n\n上下水道課\n\n下水道係\n\n1 下水道・農業集落排水の公共桝の設置\n\n19,820 公共桝設置箇所\n\n上下水道課\n\n下水道係\n\n1 合併処理浄化槽の普及推進\n\n106,374 (補助金対象）\n\n上下水道課\n\n下水道係\n\n地方公営企業会計移行業務委託及び\n2 担当職員の企業会計移行に向けた研修\nへ参加\n\n0 研修への参加回数\n\n回\n\n2\n\n2\n\n2\n\n2\n\n上下水道課\n\n下水道係\n\n農業集落排水を公共下水道への統合に\n3 向け、関係省（農林水産省や静岡県）と\n協議を実施\n\n0 協議回数\n\n回\n\n5\n\n3\n\n3\n\n3\n\n上下水道課\n\n下水道係\n\n管路及び処理施設の耐震・耐津波診断\n4 業務委託、管路の浮上抑制・耐震化工\n事\n\n23,704 委託及び工事の実施回数\n\n回\n\n1\n\n1\n\n1\n\n1\n\n上下水道課\n\n下水道係\n\n長寿命化計画に基づき、対象機器の更\n5 新及び長寿命化工事\n\n9,679 委託及び工事の実施回数\n\n回\n\n2\n\n1\n\n1\n\n1\n\n浄化槽設置基数\n\n統合事業に係る財源確保が必要である。\n\n1/1\n\n地震対策計画に基づき高松浄化センターの沈砂池・管理\n棟耐震補強工事を実施し、災害時にも下水道事業を継続\nするための耐震化を進めた。\n\n業務改善の方向性\n\n建設財源の確保など統合を進めることができる体制\n作りをしていく。\n財政状況を見ながら、総合地震対策計画に基づき計\n画的に地震対策を行っていく。\n\nストックマネジメント計画に基づき、公共下水道マンホール 財政状況を見ながら、ストックマネジメント計画に基づ\nポンプ遠方監視システムの更新工事を実施し、クラウド化 き計画的に地震対策を行っていく。\nに着手した。\n\n今後（R3年度）\nの方針\n\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 5
+      },
+      {
+        "name": "長寿命化計画に基づき、対象機器の更新及び長寿命化工事",
+        "start": 10594,
+        "raw": "長寿命化計画に基づき、対象機器の更\n5 新及び長寿命化工事",
+        "titleSegments": [
+          {
+            "start": 10594,
+            "raw": "長寿命化計画に基づき、対象機器の更"
+          },
+          {
+            "start": 10614,
+            "raw": "新及び長寿命化工事"
+          }
+        ],
+        "blockStart": 9810,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\nR1年度\n実績\n\nR2年度\n目標\n\nR2年度\n実績\n\nR3年度\n目標\n\n箇所\n\n35\n\n30\n\n40\n\n35\n\n未接続世帯に対し、加入を促す方法を検討し、引き続\nき下水道の普及を推進していく。\n\n現状維持\n\n基\n\n115\n\n75\n\n120\n\n85\n\n目標より45基多く申請があり、前年度に比べ設置数が増加 未設置世帯に対し、設置を促す方法を検討し、引き続\nした。\nき合併処理浄化槽の普及を推進していく。\n\n現状維持\n\n地方公営企業会計を適正に行うため、eラーニングを使用 今後も正確な財務諸表の作成を行っていく。\nした研修を受講し、職員の知識向上に努めた。\n担当職員の知識向上のため、研修等に参加していく。\n\n現状維持\n\n評価（課題、問題点など）\n前年度に比べ、設置数が増加した。\n\n上下水道課\n\n下水道係\n\n1 下水道・農業集落排水の公共桝の設置\n\n19,820 公共桝設置箇所\n\n上下水道課\n\n下水道係\n\n1 合併処理浄化槽の普及推進\n\n106,374 (補助金対象）\n\n上下水道課\n\n下水道係\n\n地方公営企業会計移行業務委託及び\n2 担当職員の企業会計移行に向けた研修\nへ参加\n\n0 研修への参加回数\n\n回\n\n2\n\n2\n\n2\n\n2\n\n上下水道課\n\n下水道係\n\n農業集落排水を公共下水道への統合に\n3 向け、関係省（農林水産省や静岡県）と\n協議を実施\n\n0 協議回数\n\n回\n\n5\n\n3\n\n3\n\n3\n\n上下水道課\n\n下水道係\n\n管路及び処理施設の耐震・耐津波診断\n4 業務委託、管路の浮上抑制・耐震化工\n事\n\n23,704 委託及び工事の実施回数\n\n回\n\n1\n\n1\n\n1\n\n1\n\n上下水道課\n\n下水道係\n\n長寿命化計画に基づき、対象機器の更\n5 新及び長寿命化工事\n\n9,679 委託及び工事の実施回数\n\n回\n\n2\n\n1\n\n1\n\n1\n\n浄化槽設置基数\n\n統合事業に係る財源確保が必要である。\n\n1/1\n\n地震対策計画に基づき高松浄化センターの沈砂池・管理\n棟耐震補強工事を実施し、災害時にも下水道事業を継続\nするための耐震化を進めた。\n\n業務改善の方向性\n\n建設財源の確保など統合を進めることができる体制\n作りをしていく。\n財政状況を見ながら、総合地震対策計画に基づき計\n画的に地震対策を行っていく。\n\nストックマネジメント計画に基づき、公共下水道マンホール 財政状況を見ながら、ストックマネジメント計画に基づ\nポンプ遠方監視システムの更新工事を実施し、クラウド化 き計画的に地震対策を行っていく。\nに着手した。\n\n今後（R3年度）\nの方針\n\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 5
+      },
+      {
+        "name": "水質の管理",
+        "start": 13148,
+        "raw": "水質の管理",
+        "titleSegments": [
+          {
+            "start": 13148,
+            "raw": "水質の管理"
+          }
+        ],
+        "blockStart": 13057,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n上下水道課\n\n上水道係\n\n1 水質の管理\n\n2,996 配水池区内の水質検査\n\n回\n\n1,524\n\n1,520\n\n1,520\n\n1,520\n\n上下水道課\n\n総務係\n\n2 水道料金の管理収納\n\n22,400 料金収納率\n\n％\n\n98.7\n\n98.3\n\n98.7\n\n98.3\n\n委託業者を管理監督することで、目標料金収納率を達成\nできている。\n\n委託業者と密に連絡をとり、計画的な徴収業務を行っ\nていく。\n\n現状維持\n\n上下水道課\n\n上水道係\n\n1\n2 老朽管の更新\n3\n\n130,733 老朽管の更新延長\n\nｍ\n\n1,004\n\n1,410\n\n1,426\n\n1,961\n\n成果指標上の目標に近い進捗状況ではあるので、概ね計 料金改定により収益力が向上すれば事業費にも反映\n画どおりであると考えている。\nされるため、料金改定を確実に進めていきたい。\n\n現状維持\n\n上下水道課\n\n上水道係\n\n1 水道施設の管理\n4\n\n3,325 配水池の施設点検\n\n回\n\n60\n\n60\n\n60\n\n60\n\n定期的に点検を行い、施設修繕・部品交換・清掃を実施し 機器の点検等を早期かつ確実に実施し、費用が高騰\nている。\nする前に修繕・部品交換等を行っていく。\n\n現状維持\n\n1/1\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 6
+      },
+      {
+        "name": "水道料金の管理収納",
+        "start": 13218,
+        "raw": "水道料金の管理収納",
+        "titleSegments": [
+          {
+            "start": 13218,
+            "raw": "水道料金の管理収納"
+          }
+        ],
+        "blockStart": 13057,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n上下水道課\n\n上水道係\n\n1 水質の管理\n\n2,996 配水池区内の水質検査\n\n回\n\n1,524\n\n1,520\n\n1,520\n\n1,520\n\n上下水道課\n\n総務係\n\n2 水道料金の管理収納\n\n22,400 料金収納率\n\n％\n\n98.7\n\n98.3\n\n98.7\n\n98.3\n\n委託業者を管理監督することで、目標料金収納率を達成\nできている。\n\n委託業者と密に連絡をとり、計画的な徴収業務を行っ\nていく。\n\n現状維持\n\n上下水道課\n\n上水道係\n\n1\n2 老朽管の更新\n3\n\n130,733 老朽管の更新延長\n\nｍ\n\n1,004\n\n1,410\n\n1,426\n\n1,961\n\n成果指標上の目標に近い進捗状況ではあるので、概ね計 料金改定により収益力が向上すれば事業費にも反映\n画どおりであると考えている。\nされるため、料金改定を確実に進めていきたい。\n\n現状維持\n\n上下水道課\n\n上水道係\n\n1 水道施設の管理\n4\n\n3,325 配水池の施設点検\n\n回\n\n60\n\n60\n\n60\n\n60\n\n定期的に点検を行い、施設修繕・部品交換・清掃を実施し 機器の点検等を早期かつ確実に実施し、費用が高騰\nている。\nする前に修繕・部品交換等を行っていく。\n\n現状維持\n\n1/1\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 6
+      },
+      {
+        "name": "老朽管の更新",
+        "start": 13358,
+        "raw": "老朽管の更新",
+        "titleSegments": [
+          {
+            "start": 13358,
+            "raw": "老朽管の更新"
+          }
+        ],
+        "blockStart": 13057,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n上下水道課\n\n上水道係\n\n1 水質の管理\n\n2,996 配水池区内の水質検査\n\n回\n\n1,524\n\n1,520\n\n1,520\n\n1,520\n\n上下水道課\n\n総務係\n\n2 水道料金の管理収納\n\n22,400 料金収納率\n\n％\n\n98.7\n\n98.3\n\n98.7\n\n98.3\n\n委託業者を管理監督することで、目標料金収納率を達成\nできている。\n\n委託業者と密に連絡をとり、計画的な徴収業務を行っ\nていく。\n\n現状維持\n\n上下水道課\n\n上水道係\n\n1\n2 老朽管の更新\n3\n\n130,733 老朽管の更新延長\n\nｍ\n\n1,004\n\n1,410\n\n1,426\n\n1,961\n\n成果指標上の目標に近い進捗状況ではあるので、概ね計 料金改定により収益力が向上すれば事業費にも反映\n画どおりであると考えている。\nされるため、料金改定を確実に進めていきたい。\n\n現状維持\n\n上下水道課\n\n上水道係\n\n1 水道施設の管理\n4\n\n3,325 配水池の施設点検\n\n回\n\n60\n\n60\n\n60\n\n60\n\n定期的に点検を行い、施設修繕・部品交換・清掃を実施し 機器の点検等を早期かつ確実に実施し、費用が高騰\nている。\nする前に修繕・部品交換等を行っていく。\n\n現状維持\n\n1/1\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 6
+      },
+      {
+        "name": "水道施設の管理",
+        "start": 13527,
+        "raw": "水道施設の管理",
+        "titleSegments": [
+          {
+            "start": 13527,
+            "raw": "水道施設の管理"
+          }
+        ],
+        "blockStart": 13057,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n上下水道課\n\n上水道係\n\n1 水質の管理\n\n2,996 配水池区内の水質検査\n\n回\n\n1,524\n\n1,520\n\n1,520\n\n1,520\n\n上下水道課\n\n総務係\n\n2 水道料金の管理収納\n\n22,400 料金収納率\n\n％\n\n98.7\n\n98.3\n\n98.7\n\n98.3\n\n委託業者を管理監督することで、目標料金収納率を達成\nできている。\n\n委託業者と密に連絡をとり、計画的な徴収業務を行っ\nていく。\n\n現状維持\n\n上下水道課\n\n上水道係\n\n1\n2 老朽管の更新\n3\n\n130,733 老朽管の更新延長\n\nｍ\n\n1,004\n\n1,410\n\n1,426\n\n1,961\n\n成果指標上の目標に近い進捗状況ではあるので、概ね計 料金改定により収益力が向上すれば事業費にも反映\n画どおりであると考えている。\nされるため、料金改定を確実に進めていきたい。\n\n現状維持\n\n上下水道課\n\n上水道係\n\n1 水道施設の管理\n4\n\n3,325 配水池の施設点検\n\n回\n\n60\n\n60\n\n60\n\n60\n\n定期的に点検を行い、施設修繕・部品交換・清掃を実施し 機器の点検等を早期かつ確実に実施し、費用が高騰\nている。\nする前に修繕・部品交換等を行っていく。\n\n現状維持\n\n1/1\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 6
+      },
+      {
+        "name": "利用促進策の実施",
+        "start": 15564,
+        "raw": "利用促進策の実施",
+        "titleSegments": [
+          {
+            "start": 15564,
+            "raw": "利用促進策の実施"
+          }
+        ],
+        "blockStart": 15319,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n新型コロナウイルスによる自粛や度重なる緊急事態宣言 近隣市と協議し運行ルートの変更や運行ダイヤの見\nの影響により利用者は減少した。引き続き利用しやすい運 直し、事業者と共に検討していく。\n行ダイヤや運行ルートなど検討が必要である。\n\n今後（R3年度）\nの方針\n\n企画政策課\n\n企画係\n\n1 利用促進策の実施\n\n企画政策課\n\n企画係\n\n1 自主運行バス乗降者数調査の実施\n\n企画政策課\n\n企画係\n\n2 導入地域への支援\n\n企画政策課\n\n企画係\n\n2 導入を希望する地区への支援\n\n0 支援地域\n\n地区\n\n1\n\n0\n\n0\n\n0\n\n企画政策課\n\n企画係\n\n3 地域公共交通会議の開催\n\n0 回数\n\n回\n\n5\n\n2\n\n4\n\n2\n\n新型コロナウイルス感染拡大防止に考慮して書面による会 会議のマンネリ化もあり、意見も少なくなっている。問\n議を開催し、報告・協議を実施したが、委員からの意見は 題を絞った協議の場も検討していく。\n少なく、専門的な意見も必要である。\n\n改善・効率化\n\n企画政策課\n\n企画係\n\n近隣自治体との自主運行バスに関する\n3 連絡調整会議等への参加\n\n0 回数\n\n回\n\n2\n\n3\n\n5\n\n5\n\n牧之原市、菊川市、島田市との連絡会議に参加し情報共 当市の公共交通施策は、近隣市との協議及び連携が\n有や課題解決を図るとともに、牧之原市との共通課題（特 不可欠であり、課題解決に向け、定期的な協議（打合\n急路線の延長）について協議を重ねた。\nせ）をしていく。\n\n拡大\n\n1/1\n\n利用頻度や行先・通学先などを把握し、今後の事業継続に ルートの変更やダイヤ改正も視野に入れ、利用者へ\n向けた資料とすることができた。\nのアンケート調査も検討していく。\n車検等の整備やガソリン等の経費を支援し継続的な運行 年間を通し１件の事故（自損事故）が発生したため、交\nが図られた。（新型コロナウイルス感染拡大防止を考慮し、 通ルールの徹底と運転教室等を実施していく。\n運行休止期間や利用制限等を実施）\n導入を希望する地区はなかったが、引き続き利用形態の\n統一化が課題となっている。\n\nボランティア運転手の高齢化や運行形態など、各地区\nでバラつきのある運用の統一化を検討していく。\n\n改善・効率化\n\n現状維持\n\n現状維持\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 7
+      },
+      {
+        "name": "自主運行バス乗降者数調査の実施",
+        "start": 15588,
+        "raw": "自主運行バス乗降者数調査の実施",
+        "titleSegments": [
+          {
+            "start": 15588,
+            "raw": "自主運行バス乗降者数調査の実施"
+          }
+        ],
+        "blockStart": 15319,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n新型コロナウイルスによる自粛や度重なる緊急事態宣言 近隣市と協議し運行ルートの変更や運行ダイヤの見\nの影響により利用者は減少した。引き続き利用しやすい運 直し、事業者と共に検討していく。\n行ダイヤや運行ルートなど検討が必要である。\n\n今後（R3年度）\nの方針\n\n企画政策課\n\n企画係\n\n1 利用促進策の実施\n\n企画政策課\n\n企画係\n\n1 自主運行バス乗降者数調査の実施\n\n企画政策課\n\n企画係\n\n2 導入地域への支援\n\n企画政策課\n\n企画係\n\n2 導入を希望する地区への支援\n\n0 支援地域\n\n地区\n\n1\n\n0\n\n0\n\n0\n\n企画政策課\n\n企画係\n\n3 地域公共交通会議の開催\n\n0 回数\n\n回\n\n5\n\n2\n\n4\n\n2\n\n新型コロナウイルス感染拡大防止に考慮して書面による会 会議のマンネリ化もあり、意見も少なくなっている。問\n議を開催し、報告・協議を実施したが、委員からの意見は 題を絞った協議の場も検討していく。\n少なく、専門的な意見も必要である。\n\n改善・効率化\n\n企画政策課\n\n企画係\n\n近隣自治体との自主運行バスに関する\n3 連絡調整会議等への参加\n\n0 回数\n\n回\n\n2\n\n3\n\n5\n\n5\n\n牧之原市、菊川市、島田市との連絡会議に参加し情報共 当市の公共交通施策は、近隣市との協議及び連携が\n有や課題解決を図るとともに、牧之原市との共通課題（特 不可欠であり、課題解決に向け、定期的な協議（打合\n急路線の延長）について協議を重ねた。\nせ）をしていく。\n\n拡大\n\n1/1\n\n利用頻度や行先・通学先などを把握し、今後の事業継続に ルートの変更やダイヤ改正も視野に入れ、利用者へ\n向けた資料とすることができた。\nのアンケート調査も検討していく。\n車検等の整備やガソリン等の経費を支援し継続的な運行 年間を通し１件の事故（自損事故）が発生したため、交\nが図られた。（新型コロナウイルス感染拡大防止を考慮し、 通ルールの徹底と運転教室等を実施していく。\n運行休止期間や利用制限等を実施）\n導入を希望する地区はなかったが、引き続き利用形態の\n統一化が課題となっている。\n\nボランティア運転手の高齢化や運行形態など、各地区\nでバラつきのある運用の統一化を検討していく。\n\n改善・効率化\n\n現状維持\n\n現状維持\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 7
+      },
+      {
+        "name": "導入地域への支援",
+        "start": 15619,
+        "raw": "導入地域への支援",
+        "titleSegments": [
+          {
+            "start": 15619,
+            "raw": "導入地域への支援"
+          }
+        ],
+        "blockStart": 15319,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n新型コロナウイルスによる自粛や度重なる緊急事態宣言 近隣市と協議し運行ルートの変更や運行ダイヤの見\nの影響により利用者は減少した。引き続き利用しやすい運 直し、事業者と共に検討していく。\n行ダイヤや運行ルートなど検討が必要である。\n\n今後（R3年度）\nの方針\n\n企画政策課\n\n企画係\n\n1 利用促進策の実施\n\n企画政策課\n\n企画係\n\n1 自主運行バス乗降者数調査の実施\n\n企画政策課\n\n企画係\n\n2 導入地域への支援\n\n企画政策課\n\n企画係\n\n2 導入を希望する地区への支援\n\n0 支援地域\n\n地区\n\n1\n\n0\n\n0\n\n0\n\n企画政策課\n\n企画係\n\n3 地域公共交通会議の開催\n\n0 回数\n\n回\n\n5\n\n2\n\n4\n\n2\n\n新型コロナウイルス感染拡大防止に考慮して書面による会 会議のマンネリ化もあり、意見も少なくなっている。問\n議を開催し、報告・協議を実施したが、委員からの意見は 題を絞った協議の場も検討していく。\n少なく、専門的な意見も必要である。\n\n改善・効率化\n\n企画政策課\n\n企画係\n\n近隣自治体との自主運行バスに関する\n3 連絡調整会議等への参加\n\n0 回数\n\n回\n\n2\n\n3\n\n5\n\n5\n\n牧之原市、菊川市、島田市との連絡会議に参加し情報共 当市の公共交通施策は、近隣市との協議及び連携が\n有や課題解決を図るとともに、牧之原市との共通課題（特 不可欠であり、課題解決に向け、定期的な協議（打合\n急路線の延長）について協議を重ねた。\nせ）をしていく。\n\n拡大\n\n1/1\n\n利用頻度や行先・通学先などを把握し、今後の事業継続に ルートの変更やダイヤ改正も視野に入れ、利用者へ\n向けた資料とすることができた。\nのアンケート調査も検討していく。\n車検等の整備やガソリン等の経費を支援し継続的な運行 年間を通し１件の事故（自損事故）が発生したため、交\nが図られた。（新型コロナウイルス感染拡大防止を考慮し、 通ルールの徹底と運転教室等を実施していく。\n運行休止期間や利用制限等を実施）\n導入を希望する地区はなかったが、引き続き利用形態の\n統一化が課題となっている。\n\nボランティア運転手の高齢化や運行形態など、各地区\nでバラつきのある運用の統一化を検討していく。\n\n改善・効率化\n\n現状維持\n\n現状維持\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 7
+      },
+      {
+        "name": "導入を希望する地区への支援",
+        "start": 15643,
+        "raw": "導入を希望する地区への支援",
+        "titleSegments": [
+          {
+            "start": 15643,
+            "raw": "導入を希望する地区への支援"
+          }
+        ],
+        "blockStart": 15319,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n新型コロナウイルスによる自粛や度重なる緊急事態宣言 近隣市と協議し運行ルートの変更や運行ダイヤの見\nの影響により利用者は減少した。引き続き利用しやすい運 直し、事業者と共に検討していく。\n行ダイヤや運行ルートなど検討が必要である。\n\n今後（R3年度）\nの方針\n\n企画政策課\n\n企画係\n\n1 利用促進策の実施\n\n企画政策課\n\n企画係\n\n1 自主運行バス乗降者数調査の実施\n\n企画政策課\n\n企画係\n\n2 導入地域への支援\n\n企画政策課\n\n企画係\n\n2 導入を希望する地区への支援\n\n0 支援地域\n\n地区\n\n1\n\n0\n\n0\n\n0\n\n企画政策課\n\n企画係\n\n3 地域公共交通会議の開催\n\n0 回数\n\n回\n\n5\n\n2\n\n4\n\n2\n\n新型コロナウイルス感染拡大防止に考慮して書面による会 会議のマンネリ化もあり、意見も少なくなっている。問\n議を開催し、報告・協議を実施したが、委員からの意見は 題を絞った協議の場も検討していく。\n少なく、専門的な意見も必要である。\n\n改善・効率化\n\n企画政策課\n\n企画係\n\n近隣自治体との自主運行バスに関する\n3 連絡調整会議等への参加\n\n0 回数\n\n回\n\n2\n\n3\n\n5\n\n5\n\n牧之原市、菊川市、島田市との連絡会議に参加し情報共 当市の公共交通施策は、近隣市との協議及び連携が\n有や課題解決を図るとともに、牧之原市との共通課題（特 不可欠であり、課題解決に向け、定期的な協議（打合\n急路線の延長）について協議を重ねた。\nせ）をしていく。\n\n拡大\n\n1/1\n\n利用頻度や行先・通学先などを把握し、今後の事業継続に ルートの変更やダイヤ改正も視野に入れ、利用者へ\n向けた資料とすることができた。\nのアンケート調査も検討していく。\n車検等の整備やガソリン等の経費を支援し継続的な運行 年間を通し１件の事故（自損事故）が発生したため、交\nが図られた。（新型コロナウイルス感染拡大防止を考慮し、 通ルールの徹底と運転教室等を実施していく。\n運行休止期間や利用制限等を実施）\n導入を希望する地区はなかったが、引き続き利用形態の\n統一化が課題となっている。\n\nボランティア運転手の高齢化や運行形態など、各地区\nでバラつきのある運用の統一化を検討していく。\n\n改善・効率化\n\n現状維持\n\n現状維持\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 7
+      },
+      {
+        "name": "地域公共交通会議の開催",
+        "start": 15696,
+        "raw": "地域公共交通会議の開催",
+        "titleSegments": [
+          {
+            "start": 15696,
+            "raw": "地域公共交通会議の開催"
+          }
+        ],
+        "blockStart": 15319,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n新型コロナウイルスによる自粛や度重なる緊急事態宣言 近隣市と協議し運行ルートの変更や運行ダイヤの見\nの影響により利用者は減少した。引き続き利用しやすい運 直し、事業者と共に検討していく。\n行ダイヤや運行ルートなど検討が必要である。\n\n今後（R3年度）\nの方針\n\n企画政策課\n\n企画係\n\n1 利用促進策の実施\n\n企画政策課\n\n企画係\n\n1 自主運行バス乗降者数調査の実施\n\n企画政策課\n\n企画係\n\n2 導入地域への支援\n\n企画政策課\n\n企画係\n\n2 導入を希望する地区への支援\n\n0 支援地域\n\n地区\n\n1\n\n0\n\n0\n\n0\n\n企画政策課\n\n企画係\n\n3 地域公共交通会議の開催\n\n0 回数\n\n回\n\n5\n\n2\n\n4\n\n2\n\n新型コロナウイルス感染拡大防止に考慮して書面による会 会議のマンネリ化もあり、意見も少なくなっている。問\n議を開催し、報告・協議を実施したが、委員からの意見は 題を絞った協議の場も検討していく。\n少なく、専門的な意見も必要である。\n\n改善・効率化\n\n企画政策課\n\n企画係\n\n近隣自治体との自主運行バスに関する\n3 連絡調整会議等への参加\n\n0 回数\n\n回\n\n2\n\n3\n\n5\n\n5\n\n牧之原市、菊川市、島田市との連絡会議に参加し情報共 当市の公共交通施策は、近隣市との協議及び連携が\n有や課題解決を図るとともに、牧之原市との共通課題（特 不可欠であり、課題解決に向け、定期的な協議（打合\n急路線の延長）について協議を重ねた。\nせ）をしていく。\n\n拡大\n\n1/1\n\n利用頻度や行先・通学先などを把握し、今後の事業継続に ルートの変更やダイヤ改正も視野に入れ、利用者へ\n向けた資料とすることができた。\nのアンケート調査も検討していく。\n車検等の整備やガソリン等の経費を支援し継続的な運行 年間を通し１件の事故（自損事故）が発生したため、交\nが図られた。（新型コロナウイルス感染拡大防止を考慮し、 通ルールの徹底と運転教室等を実施していく。\n運行休止期間や利用制限等を実施）\n導入を希望する地区はなかったが、引き続き利用形態の\n統一化が課題となっている。\n\nボランティア運転手の高齢化や運行形態など、各地区\nでバラつきのある運用の統一化を検討していく。\n\n改善・効率化\n\n現状維持\n\n現状維持\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 7
+      },
+      {
+        "name": "近隣自治体との自主運行バスに関する連絡調整会議等への参加",
+        "start": 15867,
+        "raw": "近隣自治体との自主運行バスに関する\n3 連絡調整会議等への参加",
+        "titleSegments": [
+          {
+            "start": 15867,
+            "raw": "近隣自治体との自主運行バスに関する"
+          },
+          {
+            "start": 15887,
+            "raw": "連絡調整会議等への参加"
+          }
+        ],
+        "blockStart": 15319,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n新型コロナウイルスによる自粛や度重なる緊急事態宣言 近隣市と協議し運行ルートの変更や運行ダイヤの見\nの影響により利用者は減少した。引き続き利用しやすい運 直し、事業者と共に検討していく。\n行ダイヤや運行ルートなど検討が必要である。\n\n今後（R3年度）\nの方針\n\n企画政策課\n\n企画係\n\n1 利用促進策の実施\n\n企画政策課\n\n企画係\n\n1 自主運行バス乗降者数調査の実施\n\n企画政策課\n\n企画係\n\n2 導入地域への支援\n\n企画政策課\n\n企画係\n\n2 導入を希望する地区への支援\n\n0 支援地域\n\n地区\n\n1\n\n0\n\n0\n\n0\n\n企画政策課\n\n企画係\n\n3 地域公共交通会議の開催\n\n0 回数\n\n回\n\n5\n\n2\n\n4\n\n2\n\n新型コロナウイルス感染拡大防止に考慮して書面による会 会議のマンネリ化もあり、意見も少なくなっている。問\n議を開催し、報告・協議を実施したが、委員からの意見は 題を絞った協議の場も検討していく。\n少なく、専門的な意見も必要である。\n\n改善・効率化\n\n企画政策課\n\n企画係\n\n近隣自治体との自主運行バスに関する\n3 連絡調整会議等への参加\n\n0 回数\n\n回\n\n2\n\n3\n\n5\n\n5\n\n牧之原市、菊川市、島田市との連絡会議に参加し情報共 当市の公共交通施策は、近隣市との協議及び連携が\n有や課題解決を図るとともに、牧之原市との共通課題（特 不可欠であり、課題解決に向け、定期的な協議（打合\n急路線の延長）について協議を重ねた。\nせ）をしていく。\n\n拡大\n\n1/1\n\n利用頻度や行先・通学先などを把握し、今後の事業継続に ルートの変更やダイヤ改正も視野に入れ、利用者へ\n向けた資料とすることができた。\nのアンケート調査も検討していく。\n車検等の整備やガソリン等の経費を支援し継続的な運行 年間を通し１件の事故（自損事故）が発生したため、交\nが図られた。（新型コロナウイルス感染拡大防止を考慮し、 通ルールの徹底と運転教室等を実施していく。\n運行休止期間や利用制限等を実施）\n導入を希望する地区はなかったが、引き続き利用形態の\n統一化が課題となっている。\n\nボランティア運転手の高齢化や運行形態など、各地区\nでバラつきのある運用の統一化を検討していく。\n\n改善・効率化\n\n現状維持\n\n現状維持\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 7
+      },
+      {
+        "name": "交通安全対策の充実",
+        "start": 17611,
+        "raw": "交通安全対策の充実",
+        "titleSegments": [
+          {
+            "start": 17611,
+            "raw": "交通安全対策の充実"
+          }
+        ],
+        "blockStart": 17550,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n危機管理課\n\n交通防犯係\n\n指\n標\n№\n\n業務名\n\n1 交通安全対策の充実\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n18,759 人身事故発生件数\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n年間の人身事故件数は減少しているが、高齢者の起因す 高齢者事故に対する交通安全対策の充実を図ってい\nる事故については依然として多いため、対策を講ずる必要 く。\nがある。\n\n今後（R3年度）\nの方針\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 8
+      },
+      {
+        "name": "防犯対策の充実",
+        "start": 19246,
+        "raw": "防犯対策の充実",
+        "titleSegments": [
+          {
+            "start": 19246,
+            "raw": "防犯対策の充実"
+          }
+        ],
+        "blockStart": 19153,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n課名\n\n係名\n\n危機管理課\n\n交通防犯係\n\n1 防犯対策の充実\n\n3,543 犯罪発生件数\n\n件\n\n83\n\n79\n\n61\n\n危機管理課\n\n交通防犯係\n\n2 防犯対策の啓発\n\n3,543 防犯パトロール実施回数\n\n回\n\n78\n\n82\n\n70\n\n商工観光課\n\n商工係\n\n3 消費生活相談\n\n相談件数\n\n件\n\n商工観光課\n\n商工係\n\n3 消費者被害防止啓発活動\n\n啓発人数\n\n人\n\n商工観光課\n\n商工係\n\n3 相談対応のレベルアップ\n\n研修参加\n\n回\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n60\n\n防犯灯の充実によって夜間の犯罪抑制に効果があり、前\n年度より犯罪発生件数が減少した。\n\n今後も引き続き犯罪抑制のため、啓発活動を行ってい\nく。\n\n80\n\n職員の異動などにより防犯パトロール回数が前年度より減 担当課、職員へ再度の周知や、パトロール者の増員\n少している。\n等、負担とならない業務改善を行っていきたい。\n\n今後（R3年度）\nの方針\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 9
+      },
+      {
+        "name": "防犯対策の啓発",
+        "start": 19300,
+        "raw": "防犯対策の啓発",
+        "titleSegments": [
+          {
+            "start": 19300,
+            "raw": "防犯対策の啓発"
+          }
+        ],
+        "blockStart": 19153,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n課名\n\n係名\n\n危機管理課\n\n交通防犯係\n\n1 防犯対策の充実\n\n3,543 犯罪発生件数\n\n件\n\n83\n\n79\n\n61\n\n危機管理課\n\n交通防犯係\n\n2 防犯対策の啓発\n\n3,543 防犯パトロール実施回数\n\n回\n\n78\n\n82\n\n70\n\n商工観光課\n\n商工係\n\n3 消費生活相談\n\n相談件数\n\n件\n\n商工観光課\n\n商工係\n\n3 消費者被害防止啓発活動\n\n啓発人数\n\n人\n\n商工観光課\n\n商工係\n\n3 相談対応のレベルアップ\n\n研修参加\n\n回\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n60\n\n防犯灯の充実によって夜間の犯罪抑制に効果があり、前\n年度より犯罪発生件数が減少した。\n\n今後も引き続き犯罪抑制のため、啓発活動を行ってい\nく。\n\n80\n\n職員の異動などにより防犯パトロール回数が前年度より減 担当課、職員へ再度の周知や、パトロール者の増員\n少している。\n等、負担とならない業務改善を行っていきたい。\n\n今後（R3年度）\nの方針\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 9
+      },
+      {
+        "name": "消費生活相談",
+        "start": 19357,
+        "raw": "消費生活相談",
+        "titleSegments": [
+          {
+            "start": 19357,
+            "raw": "消費生活相談"
+          }
+        ],
+        "blockStart": 19153,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n課名\n\n係名\n\n危機管理課\n\n交通防犯係\n\n1 防犯対策の充実\n\n3,543 犯罪発生件数\n\n件\n\n83\n\n79\n\n61\n\n危機管理課\n\n交通防犯係\n\n2 防犯対策の啓発\n\n3,543 防犯パトロール実施回数\n\n回\n\n78\n\n82\n\n70\n\n商工観光課\n\n商工係\n\n3 消費生活相談\n\n相談件数\n\n件\n\n商工観光課\n\n商工係\n\n3 消費者被害防止啓発活動\n\n啓発人数\n\n人\n\n商工観光課\n\n商工係\n\n3 相談対応のレベルアップ\n\n研修参加\n\n回\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n60\n\n防犯灯の充実によって夜間の犯罪抑制に効果があり、前\n年度より犯罪発生件数が減少した。\n\n今後も引き続き犯罪抑制のため、啓発活動を行ってい\nく。\n\n80\n\n職員の異動などにより防犯パトロール回数が前年度より減 担当課、職員へ再度の周知や、パトロール者の増員\n少している。\n等、負担とならない業務改善を行っていきたい。\n\n今後（R3年度）\nの方針\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 9
+      },
+      {
+        "name": "消費者被害防止啓発活動",
+        "start": 19388,
+        "raw": "消費者被害防止啓発活動",
+        "titleSegments": [
+          {
+            "start": 19388,
+            "raw": "消費者被害防止啓発活動"
+          }
+        ],
+        "blockStart": 19153,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n課名\n\n係名\n\n危機管理課\n\n交通防犯係\n\n1 防犯対策の充実\n\n3,543 犯罪発生件数\n\n件\n\n83\n\n79\n\n61\n\n危機管理課\n\n交通防犯係\n\n2 防犯対策の啓発\n\n3,543 防犯パトロール実施回数\n\n回\n\n78\n\n82\n\n70\n\n商工観光課\n\n商工係\n\n3 消費生活相談\n\n相談件数\n\n件\n\n商工観光課\n\n商工係\n\n3 消費者被害防止啓発活動\n\n啓発人数\n\n人\n\n商工観光課\n\n商工係\n\n3 相談対応のレベルアップ\n\n研修参加\n\n回\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n60\n\n防犯灯の充実によって夜間の犯罪抑制に効果があり、前\n年度より犯罪発生件数が減少した。\n\n今後も引き続き犯罪抑制のため、啓発活動を行ってい\nく。\n\n80\n\n職員の異動などにより防犯パトロール回数が前年度より減 担当課、職員へ再度の周知や、パトロール者の増員\n少している。\n等、負担とならない業務改善を行っていきたい。\n\n今後（R3年度）\nの方針\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 9
+      },
+      {
+        "name": "相談対応のレベルアップ",
+        "start": 19424,
+        "raw": "相談対応のレベルアップ",
+        "titleSegments": [
+          {
+            "start": 19424,
+            "raw": "相談対応のレベルアップ"
+          }
+        ],
+        "blockStart": 19153,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n課名\n\n係名\n\n危機管理課\n\n交通防犯係\n\n1 防犯対策の充実\n\n3,543 犯罪発生件数\n\n件\n\n83\n\n79\n\n61\n\n危機管理課\n\n交通防犯係\n\n2 防犯対策の啓発\n\n3,543 防犯パトロール実施回数\n\n回\n\n78\n\n82\n\n70\n\n商工観光課\n\n商工係\n\n3 消費生活相談\n\n相談件数\n\n件\n\n商工観光課\n\n商工係\n\n3 消費者被害防止啓発活動\n\n啓発人数\n\n人\n\n商工観光課\n\n商工係\n\n3 相談対応のレベルアップ\n\n研修参加\n\n回\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n60\n\n防犯灯の充実によって夜間の犯罪抑制に効果があり、前\n年度より犯罪発生件数が減少した。\n\n今後も引き続き犯罪抑制のため、啓発活動を行ってい\nく。\n\n80\n\n職員の異動などにより防犯パトロール回数が前年度より減 担当課、職員へ再度の周知や、パトロール者の増員\n少している。\n等、負担とならない業務改善を行っていきたい。\n\n今後（R3年度）\nの方針\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 9
+      },
+      {
+        "name": "自主防災組織育成事業交付金交付",
+        "start": 23387,
+        "raw": "自主防災組織育成事業交付金交付",
+        "titleSegments": [
+          {
+            "start": 23387,
+            "raw": "自主防災組織育成事業交付金交付"
+          }
+        ],
+        "blockStart": 23256,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n課名\n\n係名\n\n危機管理課\n\n災害対策係\n\n1 自主防災組織育成事業交付金交付\n\n7,354 交付団体数\n\n団体\n\n41\n\n41\n\n41\n\n41\n\n各方面隊・自主防災会において、運営及び訓練等に係る 交付金を有効利用することにより、自主防災組織運営\n経費に有効活用することにより、自主防災組織の強化が図 の充実を図り、方面隊・自主防災会役員の防災意識\nられている。\nの高揚を図ることが重要である。\n\n現状維持\n\n危機管理課\n\n災害対策係\n\n1 自主防災組織防災資機材整備補助金交付\n\n19,086 交付団体数\n\n団体\n\n38\n\n41\n\n40\n\n41\n\n現在各方面隊・自主防災会で所有している資機材を精査しながら感染 資機材調査を毎年実施しているが、資機材の購入計画を立\n症予防（新型コロナウイルス）対策や女性視点を含めた災害用資機材 てパンデミック対策や女性視点の備蓄用品について各方面\nの備蓄も考慮した計画を立て、更なる充実を図ることが必要である。\n隊・自主防災会も考えてもらい、備蓄していく。\n\n現状維持\n\n危機管理課\n\n災害対策係\n\n1 防災委員等育成講演会の開催\n\n0 開催回数\n\n回\n\n1\n\n1\n\n0\n\n1\n\n毎年１回、テーマを決めて開催している。昨年度は南海トラ コロナ禍により市全体での防災講演会の開催は難しい面が\nフ地震臨時情報の話題から、津波に関する講演会を予定 あるため、自主防災組織単位や各団体ごとの出前講座や、Ｈ\nＵＧ等の研修会の開催を呼びかけていく。\nしていたが、コロナ禍で実施することができなかった。\n\n現状維持\n\n危機管理課\n\n災害対策係\n\n2 災害協定の締結\n\n0 協定締結数\n\n件\n\n66\n\n66\n\n69\n\n72\n\n過去に締結した協定について現状に合わせた内容を確認 過去の災害や昨今のパンデミックの状態を踏まえ、今まで締結した協\nし、見直しが必要な場合は関係団体等と協議し、協定の再 定について内容を再精査し、、後期基本計画で指標として定め、新た\nな協定締結に向けて関係事業者等へ話をして必要な協定を締結して\n締結を進めている。\nいく。\n\n現状維持\n\n危機管理課\n\n災害対策係\n\n3 防災指導員の推薦依頼\n\n0 防災指導員数\n\n人\n\n17\n\n17\n\n18\n\n20\n\n各方面隊の理解が得られ、着実に人数が増えている。ただし、防 各方面隊や現職の指導員に対して女性目線での防災\n災指導員の受け手不足が危惧される中で、女性視点の防災対策 対策の重要性を訴え、後期基本計画で指標として定\nも今後重要となるため、女性の参加が課題である。\nめ、女性防災指導員の登用を推進していく。\n\n現状維持\n\n1/1\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 11
+      },
+      {
+        "name": "自主防災組織防災資機材整備補助金交付",
+        "start": 23585,
+        "raw": "自主防災組織防災資機材整備補助金交付",
+        "titleSegments": [
+          {
+            "start": 23585,
+            "raw": "自主防災組織防災資機材整備補助金交付"
+          }
+        ],
+        "blockStart": 23256,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n課名\n\n係名\n\n危機管理課\n\n災害対策係\n\n1 自主防災組織育成事業交付金交付\n\n7,354 交付団体数\n\n団体\n\n41\n\n41\n\n41\n\n41\n\n各方面隊・自主防災会において、運営及び訓練等に係る 交付金を有効利用することにより、自主防災組織運営\n経費に有効活用することにより、自主防災組織の強化が図 の充実を図り、方面隊・自主防災会役員の防災意識\nられている。\nの高揚を図ることが重要である。\n\n現状維持\n\n危機管理課\n\n災害対策係\n\n1 自主防災組織防災資機材整備補助金交付\n\n19,086 交付団体数\n\n団体\n\n38\n\n41\n\n40\n\n41\n\n現在各方面隊・自主防災会で所有している資機材を精査しながら感染 資機材調査を毎年実施しているが、資機材の購入計画を立\n症予防（新型コロナウイルス）対策や女性視点を含めた災害用資機材 てパンデミック対策や女性視点の備蓄用品について各方面\nの備蓄も考慮した計画を立て、更なる充実を図ることが必要である。\n隊・自主防災会も考えてもらい、備蓄していく。\n\n現状維持\n\n危機管理課\n\n災害対策係\n\n1 防災委員等育成講演会の開催\n\n0 開催回数\n\n回\n\n1\n\n1\n\n0\n\n1\n\n毎年１回、テーマを決めて開催している。昨年度は南海トラ コロナ禍により市全体での防災講演会の開催は難しい面が\nフ地震臨時情報の話題から、津波に関する講演会を予定 あるため、自主防災組織単位や各団体ごとの出前講座や、Ｈ\nＵＧ等の研修会の開催を呼びかけていく。\nしていたが、コロナ禍で実施することができなかった。\n\n現状維持\n\n危機管理課\n\n災害対策係\n\n2 災害協定の締結\n\n0 協定締結数\n\n件\n\n66\n\n66\n\n69\n\n72\n\n過去に締結した協定について現状に合わせた内容を確認 過去の災害や昨今のパンデミックの状態を踏まえ、今まで締結した協\nし、見直しが必要な場合は関係団体等と協議し、協定の再 定について内容を再精査し、、後期基本計画で指標として定め、新た\nな協定締結に向けて関係事業者等へ話をして必要な協定を締結して\n締結を進めている。\nいく。\n\n現状維持\n\n危機管理課\n\n災害対策係\n\n3 防災指導員の推薦依頼\n\n0 防災指導員数\n\n人\n\n17\n\n17\n\n18\n\n20\n\n各方面隊の理解が得られ、着実に人数が増えている。ただし、防 各方面隊や現職の指導員に対して女性目線での防災\n災指導員の受け手不足が危惧される中で、女性視点の防災対策 対策の重要性を訴え、後期基本計画で指標として定\nも今後重要となるため、女性の参加が課題である。\nめ、女性防災指導員の登用を推進していく。\n\n現状維持\n\n1/1\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 11
+      },
+      {
+        "name": "防災委員等育成講演会の開催",
+        "start": 23835,
+        "raw": "防災委員等育成講演会の開催",
+        "titleSegments": [
+          {
+            "start": 23835,
+            "raw": "防災委員等育成講演会の開催"
+          }
+        ],
+        "blockStart": 23256,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n課名\n\n係名\n\n危機管理課\n\n災害対策係\n\n1 自主防災組織育成事業交付金交付\n\n7,354 交付団体数\n\n団体\n\n41\n\n41\n\n41\n\n41\n\n各方面隊・自主防災会において、運営及び訓練等に係る 交付金を有効利用することにより、自主防災組織運営\n経費に有効活用することにより、自主防災組織の強化が図 の充実を図り、方面隊・自主防災会役員の防災意識\nられている。\nの高揚を図ることが重要である。\n\n現状維持\n\n危機管理課\n\n災害対策係\n\n1 自主防災組織防災資機材整備補助金交付\n\n19,086 交付団体数\n\n団体\n\n38\n\n41\n\n40\n\n41\n\n現在各方面隊・自主防災会で所有している資機材を精査しながら感染 資機材調査を毎年実施しているが、資機材の購入計画を立\n症予防（新型コロナウイルス）対策や女性視点を含めた災害用資機材 てパンデミック対策や女性視点の備蓄用品について各方面\nの備蓄も考慮した計画を立て、更なる充実を図ることが必要である。\n隊・自主防災会も考えてもらい、備蓄していく。\n\n現状維持\n\n危機管理課\n\n災害対策係\n\n1 防災委員等育成講演会の開催\n\n0 開催回数\n\n回\n\n1\n\n1\n\n0\n\n1\n\n毎年１回、テーマを決めて開催している。昨年度は南海トラ コロナ禍により市全体での防災講演会の開催は難しい面が\nフ地震臨時情報の話題から、津波に関する講演会を予定 あるため、自主防災組織単位や各団体ごとの出前講座や、Ｈ\nＵＧ等の研修会の開催を呼びかけていく。\nしていたが、コロナ禍で実施することができなかった。\n\n現状維持\n\n危機管理課\n\n災害対策係\n\n2 災害協定の締結\n\n0 協定締結数\n\n件\n\n66\n\n66\n\n69\n\n72\n\n過去に締結した協定について現状に合わせた内容を確認 過去の災害や昨今のパンデミックの状態を踏まえ、今まで締結した協\nし、見直しが必要な場合は関係団体等と協議し、協定の再 定について内容を再精査し、、後期基本計画で指標として定め、新た\nな協定締結に向けて関係事業者等へ話をして必要な協定を締結して\n締結を進めている。\nいく。\n\n現状維持\n\n危機管理課\n\n災害対策係\n\n3 防災指導員の推薦依頼\n\n0 防災指導員数\n\n人\n\n17\n\n17\n\n18\n\n20\n\n各方面隊の理解が得られ、着実に人数が増えている。ただし、防 各方面隊や現職の指導員に対して女性目線での防災\n災指導員の受け手不足が危惧される中で、女性視点の防災対策 対策の重要性を訴え、後期基本計画で指標として定\nも今後重要となるため、女性の参加が課題である。\nめ、女性防災指導員の登用を推進していく。\n\n現状維持\n\n1/1\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 11
+      },
+      {
+        "name": "災害協定の締結",
+        "start": 24051,
+        "raw": "災害協定の締結",
+        "titleSegments": [
+          {
+            "start": 24051,
+            "raw": "災害協定の締結"
+          }
+        ],
+        "blockStart": 23256,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n課名\n\n係名\n\n危機管理課\n\n災害対策係\n\n1 自主防災組織育成事業交付金交付\n\n7,354 交付団体数\n\n団体\n\n41\n\n41\n\n41\n\n41\n\n各方面隊・自主防災会において、運営及び訓練等に係る 交付金を有効利用することにより、自主防災組織運営\n経費に有効活用することにより、自主防災組織の強化が図 の充実を図り、方面隊・自主防災会役員の防災意識\nられている。\nの高揚を図ることが重要である。\n\n現状維持\n\n危機管理課\n\n災害対策係\n\n1 自主防災組織防災資機材整備補助金交付\n\n19,086 交付団体数\n\n団体\n\n38\n\n41\n\n40\n\n41\n\n現在各方面隊・自主防災会で所有している資機材を精査しながら感染 資機材調査を毎年実施しているが、資機材の購入計画を立\n症予防（新型コロナウイルス）対策や女性視点を含めた災害用資機材 てパンデミック対策や女性視点の備蓄用品について各方面\nの備蓄も考慮した計画を立て、更なる充実を図ることが必要である。\n隊・自主防災会も考えてもらい、備蓄していく。\n\n現状維持\n\n危機管理課\n\n災害対策係\n\n1 防災委員等育成講演会の開催\n\n0 開催回数\n\n回\n\n1\n\n1\n\n0\n\n1\n\n毎年１回、テーマを決めて開催している。昨年度は南海トラ コロナ禍により市全体での防災講演会の開催は難しい面が\nフ地震臨時情報の話題から、津波に関する講演会を予定 あるため、自主防災組織単位や各団体ごとの出前講座や、Ｈ\nＵＧ等の研修会の開催を呼びかけていく。\nしていたが、コロナ禍で実施することができなかった。\n\n現状維持\n\n危機管理課\n\n災害対策係\n\n2 災害協定の締結\n\n0 協定締結数\n\n件\n\n66\n\n66\n\n69\n\n72\n\n過去に締結した協定について現状に合わせた内容を確認 過去の災害や昨今のパンデミックの状態を踏まえ、今まで締結した協\nし、見直しが必要な場合は関係団体等と協議し、協定の再 定について内容を再精査し、、後期基本計画で指標として定め、新た\nな協定締結に向けて関係事業者等へ話をして必要な協定を締結して\n締結を進めている。\nいく。\n\n現状維持\n\n危機管理課\n\n災害対策係\n\n3 防災指導員の推薦依頼\n\n0 防災指導員数\n\n人\n\n17\n\n17\n\n18\n\n20\n\n各方面隊の理解が得られ、着実に人数が増えている。ただし、防 各方面隊や現職の指導員に対して女性目線での防災\n災指導員の受け手不足が危惧される中で、女性視点の防災対策 対策の重要性を訴え、後期基本計画で指標として定\nも今後重要となるため、女性の参加が課題である。\nめ、女性防災指導員の登用を推進していく。\n\n現状維持\n\n1/1\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 11
+      },
+      {
+        "name": "防災指導員の推薦依頼",
+        "start": 24273,
+        "raw": "防災指導員の推薦依頼",
+        "titleSegments": [
+          {
+            "start": 24273,
+            "raw": "防災指導員の推薦依頼"
+          }
+        ],
+        "blockStart": 23256,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n課名\n\n係名\n\n危機管理課\n\n災害対策係\n\n1 自主防災組織育成事業交付金交付\n\n7,354 交付団体数\n\n団体\n\n41\n\n41\n\n41\n\n41\n\n各方面隊・自主防災会において、運営及び訓練等に係る 交付金を有効利用することにより、自主防災組織運営\n経費に有効活用することにより、自主防災組織の強化が図 の充実を図り、方面隊・自主防災会役員の防災意識\nられている。\nの高揚を図ることが重要である。\n\n現状維持\n\n危機管理課\n\n災害対策係\n\n1 自主防災組織防災資機材整備補助金交付\n\n19,086 交付団体数\n\n団体\n\n38\n\n41\n\n40\n\n41\n\n現在各方面隊・自主防災会で所有している資機材を精査しながら感染 資機材調査を毎年実施しているが、資機材の購入計画を立\n症予防（新型コロナウイルス）対策や女性視点を含めた災害用資機材 てパンデミック対策や女性視点の備蓄用品について各方面\nの備蓄も考慮した計画を立て、更なる充実を図ることが必要である。\n隊・自主防災会も考えてもらい、備蓄していく。\n\n現状維持\n\n危機管理課\n\n災害対策係\n\n1 防災委員等育成講演会の開催\n\n0 開催回数\n\n回\n\n1\n\n1\n\n0\n\n1\n\n毎年１回、テーマを決めて開催している。昨年度は南海トラ コロナ禍により市全体での防災講演会の開催は難しい面が\nフ地震臨時情報の話題から、津波に関する講演会を予定 あるため、自主防災組織単位や各団体ごとの出前講座や、Ｈ\nＵＧ等の研修会の開催を呼びかけていく。\nしていたが、コロナ禍で実施することができなかった。\n\n現状維持\n\n危機管理課\n\n災害対策係\n\n2 災害協定の締結\n\n0 協定締結数\n\n件\n\n66\n\n66\n\n69\n\n72\n\n過去に締結した協定について現状に合わせた内容を確認 過去の災害や昨今のパンデミックの状態を踏まえ、今まで締結した協\nし、見直しが必要な場合は関係団体等と協議し、協定の再 定について内容を再精査し、、後期基本計画で指標として定め、新た\nな協定締結に向けて関係事業者等へ話をして必要な協定を締結して\n締結を進めている。\nいく。\n\n現状維持\n\n危機管理課\n\n災害対策係\n\n3 防災指導員の推薦依頼\n\n0 防災指導員数\n\n人\n\n17\n\n17\n\n18\n\n20\n\n各方面隊の理解が得られ、着実に人数が増えている。ただし、防 各方面隊や現職の指導員に対して女性目線での防災\n災指導員の受け手不足が危惧される中で、女性視点の防災対策 対策の重要性を訴え、後期基本計画で指標として定\nも今後重要となるため、女性の参加が課題である。\nめ、女性防災指導員の登用を推進していく。\n\n現状維持\n\n1/1\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 11
+      },
+      {
+        "name": "市民に対し、火災予防の広報活動を行い、事業者に対し防火指導をすることによって火災を予防するための事業。",
+        "start": 26944,
+        "raw": "市民に対し、火災予防の広報活動を行\n１ い、事業者に対し防火指導をすることに\nよって火災を予防するための事業。",
+        "titleSegments": [
+          {
+            "start": 26944,
+            "raw": "市民に対し、火災予防の広報活動を行"
+          },
+          {
+            "start": 26964,
+            "raw": "い、事業者に対し防火指導をすることに"
+          },
+          {
+            "start": 26983,
+            "raw": "よって火災を予防するための事業。"
+          }
+        ],
+        "blockStart": 26868,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n消防総務課\n消防署\n\n総務課警防係\n救急係 救助係\n警防係\n\n市民に対し、火災予防の広報活動を行\n１ い、事業者に対し防火指導をすることに\nよって火災を予防するための事業。\n現場到着時間の短縮と災害時に対応す\nるため市街地に消防署を建設し施設の\n２\n維持管理並びに車両と資器材を整備す\nる事業。\n災害時に対応するため消防資器材を購\n３ 入し常時安全に使用するため点検等の\n維持管理を行う事業。\n\n消防総務課\n消防署\n\n総務係 警防係\n消防署 救急係\n救助係 警防係\n\n職員に対し資格を取得させ研修を行い、\n３ 仕事の範囲を増やし、能力を向上させる\n事業。\n\n消防総務課\n\n総務係\n\n消防総務課\n\n総務係 警防係\n\n消防総務課\n\n消防団係\n\n予防課\n消防署\n\n予防課 予防係\n消防署 警防係\n\n消防総務課\n\n総務係\n\n消防指令センターを共同運用することに\n３ よって単独運用に比べ経費と人員を削\n減し人材を有効活用するための事業。\n消防救急業務の広域化によって、組織\nを大きくし災害に対応することを目的に、\n３\n広域化のためのデータ収集等の検討を\n行う事業。\n市内の事業所に消防団に対する協力を\n４ 依頼し、理解を深め団員の確保を行う事\n業。\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n人口1万人当たりの出火\n\n75 率\n\n市街地に消防庁舎を建\n\n36,491 設。救急車１台の更新。施\n\n7,004 の派遣実績。\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n昨年度と比較し、野焼き以外のその他火災は７件、建物火災は２件増加し、 防火広報や野焼き警戒を実施し、火災減少に努める\n高齢者が２名死亡した。全国的にも火災死者数の高齢者の占める割合は高\nとともに、高齢者の火災死亡率を減らすよう防火診断\nいことから、住宅防火対策へのさらなる取り組みや市民に対する防火の意識\nの件数を徐々に増加していくことも検討する。\n付けが必要である。\n\n今後（R3年度）\nの方針\n改善・効率化\n\n設維持管理を行う。\n現場活動用資器材を更新\n\n8,856 し維持管理を計画的に行\nう。\n資格取得及び教育機関へ\n\nセンター派遣職員3名の継\n\n23,222 続的な派遣\n\n事務担当者による打ち合\n\n1/1\n\n更新事業が計画通り進んでいないことから、円滑な消\n防業務が遂行できるよう適切な車両及び資器材の維\n持管理を行い、資器材の延命化を図る。\n\n団員が勤務する事業所に消防団員募集のパンフレット等を 消防団員が勤務している事業所以外の事業所につい\n配布しているが、御前崎市だけではなく全国的にも消防団 ても消防団員募集のパンフレット等を配布し、消防団\n員が減少傾向にある。\n員確保のためＰＲ活動を行う。\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 12
+      },
+      {
+        "name": "災害時に対応するため消防資器材を購入し常時安全に使用するため点検等の維持管理を行う事業。",
+        "start": 27061,
+        "raw": "災害時に対応するため消防資器材を購\n３ 入し常時安全に使用するため点検等の\n維持管理を行う事業。",
+        "titleSegments": [
+          {
+            "start": 27061,
+            "raw": "災害時に対応するため消防資器材を購"
+          },
+          {
+            "start": 27081,
+            "raw": "入し常時安全に使用するため点検等の"
+          },
+          {
+            "start": 27099,
+            "raw": "維持管理を行う事業。"
+          }
+        ],
+        "blockStart": 26868,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n消防総務課\n消防署\n\n総務課警防係\n救急係 救助係\n警防係\n\n市民に対し、火災予防の広報活動を行\n１ い、事業者に対し防火指導をすることに\nよって火災を予防するための事業。\n現場到着時間の短縮と災害時に対応す\nるため市街地に消防署を建設し施設の\n２\n維持管理並びに車両と資器材を整備す\nる事業。\n災害時に対応するため消防資器材を購\n３ 入し常時安全に使用するため点検等の\n維持管理を行う事業。\n\n消防総務課\n消防署\n\n総務係 警防係\n消防署 救急係\n救助係 警防係\n\n職員に対し資格を取得させ研修を行い、\n３ 仕事の範囲を増やし、能力を向上させる\n事業。\n\n消防総務課\n\n総務係\n\n消防総務課\n\n総務係 警防係\n\n消防総務課\n\n消防団係\n\n予防課\n消防署\n\n予防課 予防係\n消防署 警防係\n\n消防総務課\n\n総務係\n\n消防指令センターを共同運用することに\n３ よって単独運用に比べ経費と人員を削\n減し人材を有効活用するための事業。\n消防救急業務の広域化によって、組織\nを大きくし災害に対応することを目的に、\n３\n広域化のためのデータ収集等の検討を\n行う事業。\n市内の事業所に消防団に対する協力を\n４ 依頼し、理解を深め団員の確保を行う事\n業。\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n人口1万人当たりの出火\n\n75 率\n\n市街地に消防庁舎を建\n\n36,491 設。救急車１台の更新。施\n\n7,004 の派遣実績。\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n昨年度と比較し、野焼き以外のその他火災は７件、建物火災は２件増加し、 防火広報や野焼き警戒を実施し、火災減少に努める\n高齢者が２名死亡した。全国的にも火災死者数の高齢者の占める割合は高\nとともに、高齢者の火災死亡率を減らすよう防火診断\nいことから、住宅防火対策へのさらなる取り組みや市民に対する防火の意識\nの件数を徐々に増加していくことも検討する。\n付けが必要である。\n\n今後（R3年度）\nの方針\n改善・効率化\n\n設維持管理を行う。\n現場活動用資器材を更新\n\n8,856 し維持管理を計画的に行\nう。\n資格取得及び教育機関へ\n\nセンター派遣職員3名の継\n\n23,222 続的な派遣\n\n事務担当者による打ち合\n\n1/1\n\n更新事業が計画通り進んでいないことから、円滑な消\n防業務が遂行できるよう適切な車両及び資器材の維\n持管理を行い、資器材の延命化を図る。\n\n団員が勤務する事業所に消防団員募集のパンフレット等を 消防団員が勤務している事業所以外の事業所につい\n配布しているが、御前崎市だけではなく全国的にも消防団 ても消防団員募集のパンフレット等を配布し、消防団\n員が減少傾向にある。\n員確保のためＰＲ活動を行う。\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 12
+      },
+      {
+        "name": "職員に対し資格を取得させ研修を行い、仕事の範囲を増やし、能力を向上させる事業。",
+        "start": 27147,
+        "raw": "職員に対し資格を取得させ研修を行い、\n３ 仕事の範囲を増やし、能力を向上させる\n事業。",
+        "titleSegments": [
+          {
+            "start": 27147,
+            "raw": "職員に対し資格を取得させ研修を行い、"
+          },
+          {
+            "start": 27168,
+            "raw": "仕事の範囲を増やし、能力を向上させる"
+          },
+          {
+            "start": 27187,
+            "raw": "事業。"
+          }
+        ],
+        "blockStart": 26868,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n消防総務課\n消防署\n\n総務課警防係\n救急係 救助係\n警防係\n\n市民に対し、火災予防の広報活動を行\n１ い、事業者に対し防火指導をすることに\nよって火災を予防するための事業。\n現場到着時間の短縮と災害時に対応す\nるため市街地に消防署を建設し施設の\n２\n維持管理並びに車両と資器材を整備す\nる事業。\n災害時に対応するため消防資器材を購\n３ 入し常時安全に使用するため点検等の\n維持管理を行う事業。\n\n消防総務課\n消防署\n\n総務係 警防係\n消防署 救急係\n救助係 警防係\n\n職員に対し資格を取得させ研修を行い、\n３ 仕事の範囲を増やし、能力を向上させる\n事業。\n\n消防総務課\n\n総務係\n\n消防総務課\n\n総務係 警防係\n\n消防総務課\n\n消防団係\n\n予防課\n消防署\n\n予防課 予防係\n消防署 警防係\n\n消防総務課\n\n総務係\n\n消防指令センターを共同運用することに\n３ よって単独運用に比べ経費と人員を削\n減し人材を有効活用するための事業。\n消防救急業務の広域化によって、組織\nを大きくし災害に対応することを目的に、\n３\n広域化のためのデータ収集等の検討を\n行う事業。\n市内の事業所に消防団に対する協力を\n４ 依頼し、理解を深め団員の確保を行う事\n業。\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n人口1万人当たりの出火\n\n75 率\n\n市街地に消防庁舎を建\n\n36,491 設。救急車１台の更新。施\n\n7,004 の派遣実績。\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n昨年度と比較し、野焼き以外のその他火災は７件、建物火災は２件増加し、 防火広報や野焼き警戒を実施し、火災減少に努める\n高齢者が２名死亡した。全国的にも火災死者数の高齢者の占める割合は高\nとともに、高齢者の火災死亡率を減らすよう防火診断\nいことから、住宅防火対策へのさらなる取り組みや市民に対する防火の意識\nの件数を徐々に増加していくことも検討する。\n付けが必要である。\n\n今後（R3年度）\nの方針\n改善・効率化\n\n設維持管理を行う。\n現場活動用資器材を更新\n\n8,856 し維持管理を計画的に行\nう。\n資格取得及び教育機関へ\n\nセンター派遣職員3名の継\n\n23,222 続的な派遣\n\n事務担当者による打ち合\n\n1/1\n\n更新事業が計画通り進んでいないことから、円滑な消\n防業務が遂行できるよう適切な車両及び資器材の維\n持管理を行い、資器材の延命化を図る。\n\n団員が勤務する事業所に消防団員募集のパンフレット等を 消防団員が勤務している事業所以外の事業所につい\n配布しているが、御前崎市だけではなく全国的にも消防団 ても消防団員募集のパンフレット等を配布し、消防団\n員が減少傾向にある。\n員確保のためＰＲ活動を行う。\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 12
+      },
+      {
+        "name": "消防指令センターを共同運用することによって単独運用に比べ経費と人員を削減し人材を有効活用するための事業。",
+        "start": 27271,
+        "raw": "消防指令センターを共同運用することに\n３ よって単独運用に比べ経費と人員を削\n減し人材を有効活用するための事業。",
+        "titleSegments": [
+          {
+            "start": 27271,
+            "raw": "消防指令センターを共同運用することに"
+          },
+          {
+            "start": 27292,
+            "raw": "よって単独運用に比べ経費と人員を削"
+          },
+          {
+            "start": 27310,
+            "raw": "減し人材を有効活用するための事業。"
+          }
+        ],
+        "blockStart": 26868,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n消防総務課\n消防署\n\n総務課警防係\n救急係 救助係\n警防係\n\n市民に対し、火災予防の広報活動を行\n１ い、事業者に対し防火指導をすることに\nよって火災を予防するための事業。\n現場到着時間の短縮と災害時に対応す\nるため市街地に消防署を建設し施設の\n２\n維持管理並びに車両と資器材を整備す\nる事業。\n災害時に対応するため消防資器材を購\n３ 入し常時安全に使用するため点検等の\n維持管理を行う事業。\n\n消防総務課\n消防署\n\n総務係 警防係\n消防署 救急係\n救助係 警防係\n\n職員に対し資格を取得させ研修を行い、\n３ 仕事の範囲を増やし、能力を向上させる\n事業。\n\n消防総務課\n\n総務係\n\n消防総務課\n\n総務係 警防係\n\n消防総務課\n\n消防団係\n\n予防課\n消防署\n\n予防課 予防係\n消防署 警防係\n\n消防総務課\n\n総務係\n\n消防指令センターを共同運用することに\n３ よって単独運用に比べ経費と人員を削\n減し人材を有効活用するための事業。\n消防救急業務の広域化によって、組織\nを大きくし災害に対応することを目的に、\n３\n広域化のためのデータ収集等の検討を\n行う事業。\n市内の事業所に消防団に対する協力を\n４ 依頼し、理解を深め団員の確保を行う事\n業。\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n人口1万人当たりの出火\n\n75 率\n\n市街地に消防庁舎を建\n\n36,491 設。救急車１台の更新。施\n\n7,004 の派遣実績。\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n昨年度と比較し、野焼き以外のその他火災は７件、建物火災は２件増加し、 防火広報や野焼き警戒を実施し、火災減少に努める\n高齢者が２名死亡した。全国的にも火災死者数の高齢者の占める割合は高\nとともに、高齢者の火災死亡率を減らすよう防火診断\nいことから、住宅防火対策へのさらなる取り組みや市民に対する防火の意識\nの件数を徐々に増加していくことも検討する。\n付けが必要である。\n\n今後（R3年度）\nの方針\n改善・効率化\n\n設維持管理を行う。\n現場活動用資器材を更新\n\n8,856 し維持管理を計画的に行\nう。\n資格取得及び教育機関へ\n\nセンター派遣職員3名の継\n\n23,222 続的な派遣\n\n事務担当者による打ち合\n\n1/1\n\n更新事業が計画通り進んでいないことから、円滑な消\n防業務が遂行できるよう適切な車両及び資器材の維\n持管理を行い、資器材の延命化を図る。\n\n団員が勤務する事業所に消防団員募集のパンフレット等を 消防団員が勤務している事業所以外の事業所につい\n配布しているが、御前崎市だけではなく全国的にも消防団 ても消防団員募集のパンフレット等を配布し、消防団\n員が減少傾向にある。\n員確保のためＰＲ活動を行う。\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 12
+      },
+      {
+        "name": "市内の事業所に消防団に対する協力を依頼し、理解を深め団員の確保を行う事業。",
+        "start": 27392,
+        "raw": "市内の事業所に消防団に対する協力を\n４ 依頼し、理解を深め団員の確保を行う事\n業。",
+        "titleSegments": [
+          {
+            "start": 27392,
+            "raw": "市内の事業所に消防団に対する協力を"
+          },
+          {
+            "start": 27412,
+            "raw": "依頼し、理解を深め団員の確保を行う事"
+          },
+          {
+            "start": 27431,
+            "raw": "業。"
+          }
+        ],
+        "blockStart": 26868,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n消防総務課\n消防署\n\n総務課警防係\n救急係 救助係\n警防係\n\n市民に対し、火災予防の広報活動を行\n１ い、事業者に対し防火指導をすることに\nよって火災を予防するための事業。\n現場到着時間の短縮と災害時に対応す\nるため市街地に消防署を建設し施設の\n２\n維持管理並びに車両と資器材を整備す\nる事業。\n災害時に対応するため消防資器材を購\n３ 入し常時安全に使用するため点検等の\n維持管理を行う事業。\n\n消防総務課\n消防署\n\n総務係 警防係\n消防署 救急係\n救助係 警防係\n\n職員に対し資格を取得させ研修を行い、\n３ 仕事の範囲を増やし、能力を向上させる\n事業。\n\n消防総務課\n\n総務係\n\n消防総務課\n\n総務係 警防係\n\n消防総務課\n\n消防団係\n\n予防課\n消防署\n\n予防課 予防係\n消防署 警防係\n\n消防総務課\n\n総務係\n\n消防指令センターを共同運用することに\n３ よって単独運用に比べ経費と人員を削\n減し人材を有効活用するための事業。\n消防救急業務の広域化によって、組織\nを大きくし災害に対応することを目的に、\n３\n広域化のためのデータ収集等の検討を\n行う事業。\n市内の事業所に消防団に対する協力を\n４ 依頼し、理解を深め団員の確保を行う事\n業。\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n人口1万人当たりの出火\n\n75 率\n\n市街地に消防庁舎を建\n\n36,491 設。救急車１台の更新。施\n\n7,004 の派遣実績。\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n昨年度と比較し、野焼き以外のその他火災は７件、建物火災は２件増加し、 防火広報や野焼き警戒を実施し、火災減少に努める\n高齢者が２名死亡した。全国的にも火災死者数の高齢者の占める割合は高\nとともに、高齢者の火災死亡率を減らすよう防火診断\nいことから、住宅防火対策へのさらなる取り組みや市民に対する防火の意識\nの件数を徐々に増加していくことも検討する。\n付けが必要である。\n\n今後（R3年度）\nの方針\n改善・効率化\n\n設維持管理を行う。\n現場活動用資器材を更新\n\n8,856 し維持管理を計画的に行\nう。\n資格取得及び教育機関へ\n\nセンター派遣職員3名の継\n\n23,222 続的な派遣\n\n事務担当者による打ち合\n\n1/1\n\n更新事業が計画通り進んでいないことから、円滑な消\n防業務が遂行できるよう適切な車両及び資器材の維\n持管理を行い、資器材の延命化を図る。\n\n団員が勤務する事業所に消防団員募集のパンフレット等を 消防団員が勤務している事業所以外の事業所につい\n配布しているが、御前崎市だけではなく全国的にも消防団 ても消防団員募集のパンフレット等を配布し、消防団\n員が減少傾向にある。\n員確保のためＰＲ活動を行う。\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 12
+      },
+      {
+        "name": "現場到着時間の短縮と災害時に対応するため市街地に消防署を建設し施設の維持管理並びに車両と資器材を整備する事業。",
+        "start": 27000,
+        "raw": "現場到着時間の短縮と災害時に対応す\nるため市街地に消防署を建設し施設の\n２\n維持管理並びに車両と資器材を整備す\nる事業。",
+        "titleSegments": [
+          {
+            "start": 27000,
+            "raw": "現場到着時間の短縮と災害時に対応す"
+          },
+          {
+            "start": 27018,
+            "raw": "るため市街地に消防署を建設し施設の"
+          },
+          {
+            "start": 27038,
+            "raw": "維持管理並びに車両と資器材を整備す"
+          },
+          {
+            "start": 27056,
+            "raw": "る事業。"
+          }
+        ],
+        "blockStart": 26868,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n消防総務課\n消防署\n\n総務課警防係\n救急係 救助係\n警防係\n\n市民に対し、火災予防の広報活動を行\n１ い、事業者に対し防火指導をすることに\nよって火災を予防するための事業。\n現場到着時間の短縮と災害時に対応す\nるため市街地に消防署を建設し施設の\n２\n維持管理並びに車両と資器材を整備す\nる事業。\n災害時に対応するため消防資器材を購\n３ 入し常時安全に使用するため点検等の\n維持管理を行う事業。\n\n消防総務課\n消防署\n\n総務係 警防係\n消防署 救急係\n救助係 警防係\n\n職員に対し資格を取得させ研修を行い、\n３ 仕事の範囲を増やし、能力を向上させる\n事業。\n\n消防総務課\n\n総務係\n\n消防総務課\n\n総務係 警防係\n\n消防総務課\n\n消防団係\n\n予防課\n消防署\n\n予防課 予防係\n消防署 警防係\n\n消防総務課\n\n総務係\n\n消防指令センターを共同運用することに\n３ よって単独運用に比べ経費と人員を削\n減し人材を有効活用するための事業。\n消防救急業務の広域化によって、組織\nを大きくし災害に対応することを目的に、\n３\n広域化のためのデータ収集等の検討を\n行う事業。\n市内の事業所に消防団に対する協力を\n４ 依頼し、理解を深め団員の確保を行う事\n業。\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n人口1万人当たりの出火\n\n75 率\n\n市街地に消防庁舎を建\n\n36,491 設。救急車１台の更新。施\n\n7,004 の派遣実績。\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n昨年度と比較し、野焼き以外のその他火災は７件、建物火災は２件増加し、 防火広報や野焼き警戒を実施し、火災減少に努める\n高齢者が２名死亡した。全国的にも火災死者数の高齢者の占める割合は高\nとともに、高齢者の火災死亡率を減らすよう防火診断\nいことから、住宅防火対策へのさらなる取り組みや市民に対する防火の意識\nの件数を徐々に増加していくことも検討する。\n付けが必要である。\n\n今後（R3年度）\nの方針\n改善・効率化\n\n設維持管理を行う。\n現場活動用資器材を更新\n\n8,856 し維持管理を計画的に行\nう。\n資格取得及び教育機関へ\n\nセンター派遣職員3名の継\n\n23,222 続的な派遣\n\n事務担当者による打ち合\n\n1/1\n\n更新事業が計画通り進んでいないことから、円滑な消\n防業務が遂行できるよう適切な車両及び資器材の維\n持管理を行い、資器材の延命化を図る。\n\n団員が勤務する事業所に消防団員募集のパンフレット等を 消防団員が勤務している事業所以外の事業所につい\n配布しているが、御前崎市だけではなく全国的にも消防団 ても消防団員募集のパンフレット等を配布し、消防団\n員が減少傾向にある。\n員確保のためＰＲ活動を行う。\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 12
+      },
+      {
+        "name": "消防救急業務の広域化によって、組織を大きくし災害に対応することを目的に、広域化のためのデータ収集等の検討を行う事業。",
+        "start": 27328,
+        "raw": "消防救急業務の広域化によって、組織\nを大きくし災害に対応することを目的に、\n３\n広域化のためのデータ収集等の検討を\n行う事業。",
+        "titleSegments": [
+          {
+            "start": 27328,
+            "raw": "消防救急業務の広域化によって、組織"
+          },
+          {
+            "start": 27346,
+            "raw": "を大きくし災害に対応することを目的に、"
+          },
+          {
+            "start": 27368,
+            "raw": "広域化のためのデータ収集等の検討を"
+          },
+          {
+            "start": 27386,
+            "raw": "行う事業。"
+          }
+        ],
+        "blockStart": 26868,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n消防総務課\n消防署\n\n総務課警防係\n救急係 救助係\n警防係\n\n市民に対し、火災予防の広報活動を行\n１ い、事業者に対し防火指導をすることに\nよって火災を予防するための事業。\n現場到着時間の短縮と災害時に対応す\nるため市街地に消防署を建設し施設の\n２\n維持管理並びに車両と資器材を整備す\nる事業。\n災害時に対応するため消防資器材を購\n３ 入し常時安全に使用するため点検等の\n維持管理を行う事業。\n\n消防総務課\n消防署\n\n総務係 警防係\n消防署 救急係\n救助係 警防係\n\n職員に対し資格を取得させ研修を行い、\n３ 仕事の範囲を増やし、能力を向上させる\n事業。\n\n消防総務課\n\n総務係\n\n消防総務課\n\n総務係 警防係\n\n消防総務課\n\n消防団係\n\n予防課\n消防署\n\n予防課 予防係\n消防署 警防係\n\n消防総務課\n\n総務係\n\n消防指令センターを共同運用することに\n３ よって単独運用に比べ経費と人員を削\n減し人材を有効活用するための事業。\n消防救急業務の広域化によって、組織\nを大きくし災害に対応することを目的に、\n３\n広域化のためのデータ収集等の検討を\n行う事業。\n市内の事業所に消防団に対する協力を\n４ 依頼し、理解を深め団員の確保を行う事\n業。\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n人口1万人当たりの出火\n\n75 率\n\n市街地に消防庁舎を建\n\n36,491 設。救急車１台の更新。施\n\n7,004 の派遣実績。\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n昨年度と比較し、野焼き以外のその他火災は７件、建物火災は２件増加し、 防火広報や野焼き警戒を実施し、火災減少に努める\n高齢者が２名死亡した。全国的にも火災死者数の高齢者の占める割合は高\nとともに、高齢者の火災死亡率を減らすよう防火診断\nいことから、住宅防火対策へのさらなる取り組みや市民に対する防火の意識\nの件数を徐々に増加していくことも検討する。\n付けが必要である。\n\n今後（R3年度）\nの方針\n改善・効率化\n\n設維持管理を行う。\n現場活動用資器材を更新\n\n8,856 し維持管理を計画的に行\nう。\n資格取得及び教育機関へ\n\nセンター派遣職員3名の継\n\n23,222 続的な派遣\n\n事務担当者による打ち合\n\n1/1\n\n更新事業が計画通り進んでいないことから、円滑な消\n防業務が遂行できるよう適切な車両及び資器材の維\n持管理を行い、資器材の延命化を図る。\n\n団員が勤務する事業所に消防団員募集のパンフレット等を 消防団員が勤務している事業所以外の事業所につい\n配布しているが、御前崎市だけではなく全国的にも消防団 ても消防団員募集のパンフレット等を配布し、消防団\n員が減少傾向にある。\n員確保のためＰＲ活動を行う。\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 12
+      },
+      {
+        "name": "原子力関連ＨＰの更新",
+        "start": 29428,
+        "raw": "原子力関連ＨＰの更新",
+        "titleSegments": [
+          {
+            "start": 29428,
+            "raw": "原子力関連ＨＰの更新"
+          }
+        ],
+        "blockStart": 29362,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nエネルギー政策\n課\n\n原子力政策係\n\n1 原子力関連ＨＰの更新\n\nエネルギー政策\n課\n\n原子力政策係\n\n2 原子力施設視察研修の対応\n\nエネルギー政策\n課\n\n原子力政策係\n\n2 市内学生原子力関連施設見学会\n\nエネルギー政策\n課\n\n原子力政策係\n\n1 原子力広報VTR作成\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n0 閲覧回数\n\n単位\n\n業務改善の方向性\n\nアクセス数は目標値を下回った。いかにホームページを観 タイムリーな情報更新を行うとともに掲載内容を検討\nてもらえるかが課題である。\nし、ホームページの充実を図る。（ただし、令和３年度\nからの後期計画からは評価項目から外す）\n\n今後（R3年度）\nの方針\n\n回/年\n\n2,955\n\n4,900\n\n4,003\n\n団体\n\n20\n\n12\n\n4\n\n新型コロナウイルスの影響により、令和２年度は市内４小 左記のとおり評価ができなかったため業務改善ではな\n13 学校による原子力発電所視察のみの実施となった。従って いが、各団体の視察目的に見合った視察箇所の検討\n課題や問題点を検証するに至らなかった。\nをし、正しい知識を習得していただく。\n\n現状維持\n\n0 開催回数\n\n回\n\n1\n\n1\n\n0\n\n新型コロナウイルスの影響により、令和２年度は事業を取 左記のとおり評価ができなかったため業務改善ではな\nいが、視察内容等を検討し参加人数の増加に努め\n1 りやめた。従って課題や問題点を検証するに至らなかっ\nた。\nる。\n\n現状維持\n\n4,950 再生回数\n\n回\n\n100\n\n125\n\n令和２年度に作成した動画の再生回数は目標値を上回っ 閲覧方法を検討し、より多くの方に観ていただく。（た\nた。しかし、更に多くの市民に観ていただく工夫も必要であ だし、令和３年度からの後期計画からは評価項目から\nる。\n外す）\n\n改善・効率化\n\n362 視察研修実施団体数\n\n－\n\n1/1\n\n-\n\n評価（課題、問題点など）\n\n-\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 13
+      },
+      {
+        "name": "原子力施設視察研修の対応",
+        "start": 29461,
+        "raw": "原子力施設視察研修の対応",
+        "titleSegments": [
+          {
+            "start": 29461,
+            "raw": "原子力施設視察研修の対応"
+          }
+        ],
+        "blockStart": 29362,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nエネルギー政策\n課\n\n原子力政策係\n\n1 原子力関連ＨＰの更新\n\nエネルギー政策\n課\n\n原子力政策係\n\n2 原子力施設視察研修の対応\n\nエネルギー政策\n課\n\n原子力政策係\n\n2 市内学生原子力関連施設見学会\n\nエネルギー政策\n課\n\n原子力政策係\n\n1 原子力広報VTR作成\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n0 閲覧回数\n\n単位\n\n業務改善の方向性\n\nアクセス数は目標値を下回った。いかにホームページを観 タイムリーな情報更新を行うとともに掲載内容を検討\nてもらえるかが課題である。\nし、ホームページの充実を図る。（ただし、令和３年度\nからの後期計画からは評価項目から外す）\n\n今後（R3年度）\nの方針\n\n回/年\n\n2,955\n\n4,900\n\n4,003\n\n団体\n\n20\n\n12\n\n4\n\n新型コロナウイルスの影響により、令和２年度は市内４小 左記のとおり評価ができなかったため業務改善ではな\n13 学校による原子力発電所視察のみの実施となった。従って いが、各団体の視察目的に見合った視察箇所の検討\n課題や問題点を検証するに至らなかった。\nをし、正しい知識を習得していただく。\n\n現状維持\n\n0 開催回数\n\n回\n\n1\n\n1\n\n0\n\n新型コロナウイルスの影響により、令和２年度は事業を取 左記のとおり評価ができなかったため業務改善ではな\nいが、視察内容等を検討し参加人数の増加に努め\n1 りやめた。従って課題や問題点を検証するに至らなかっ\nた。\nる。\n\n現状維持\n\n4,950 再生回数\n\n回\n\n100\n\n125\n\n令和２年度に作成した動画の再生回数は目標値を上回っ 閲覧方法を検討し、より多くの方に観ていただく。（た\nた。しかし、更に多くの市民に観ていただく工夫も必要であ だし、令和３年度からの後期計画からは評価項目から\nる。\n外す）\n\n改善・効率化\n\n362 視察研修実施団体数\n\n－\n\n1/1\n\n-\n\n評価（課題、問題点など）\n\n-\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 13
+      },
+      {
+        "name": "市内学生原子力関連施設見学会",
+        "start": 29496,
+        "raw": "市内学生原子力関連施設見学会",
+        "titleSegments": [
+          {
+            "start": 29496,
+            "raw": "市内学生原子力関連施設見学会"
+          }
+        ],
+        "blockStart": 29362,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nエネルギー政策\n課\n\n原子力政策係\n\n1 原子力関連ＨＰの更新\n\nエネルギー政策\n課\n\n原子力政策係\n\n2 原子力施設視察研修の対応\n\nエネルギー政策\n課\n\n原子力政策係\n\n2 市内学生原子力関連施設見学会\n\nエネルギー政策\n課\n\n原子力政策係\n\n1 原子力広報VTR作成\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n0 閲覧回数\n\n単位\n\n業務改善の方向性\n\nアクセス数は目標値を下回った。いかにホームページを観 タイムリーな情報更新を行うとともに掲載内容を検討\nてもらえるかが課題である。\nし、ホームページの充実を図る。（ただし、令和３年度\nからの後期計画からは評価項目から外す）\n\n今後（R3年度）\nの方針\n\n回/年\n\n2,955\n\n4,900\n\n4,003\n\n団体\n\n20\n\n12\n\n4\n\n新型コロナウイルスの影響により、令和２年度は市内４小 左記のとおり評価ができなかったため業務改善ではな\n13 学校による原子力発電所視察のみの実施となった。従って いが、各団体の視察目的に見合った視察箇所の検討\n課題や問題点を検証するに至らなかった。\nをし、正しい知識を習得していただく。\n\n現状維持\n\n0 開催回数\n\n回\n\n1\n\n1\n\n0\n\n新型コロナウイルスの影響により、令和２年度は事業を取 左記のとおり評価ができなかったため業務改善ではな\nいが、視察内容等を検討し参加人数の増加に努め\n1 りやめた。従って課題や問題点を検証するに至らなかっ\nた。\nる。\n\n現状維持\n\n4,950 再生回数\n\n回\n\n100\n\n125\n\n令和２年度に作成した動画の再生回数は目標値を上回っ 閲覧方法を検討し、より多くの方に観ていただく。（た\nた。しかし、更に多くの市民に観ていただく工夫も必要であ だし、令和３年度からの後期計画からは評価項目から\nる。\n外す）\n\n改善・効率化\n\n362 視察研修実施団体数\n\n－\n\n1/1\n\n-\n\n評価（課題、問題点など）\n\n-\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 13
+      },
+      {
+        "name": "原子力広報VTR作成",
+        "start": 29533,
+        "raw": "原子力広報VTR作成",
+        "titleSegments": [
+          {
+            "start": 29533,
+            "raw": "原子力広報VTR作成"
+          }
+        ],
+        "blockStart": 29362,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nエネルギー政策\n課\n\n原子力政策係\n\n1 原子力関連ＨＰの更新\n\nエネルギー政策\n課\n\n原子力政策係\n\n2 原子力施設視察研修の対応\n\nエネルギー政策\n課\n\n原子力政策係\n\n2 市内学生原子力関連施設見学会\n\nエネルギー政策\n課\n\n原子力政策係\n\n1 原子力広報VTR作成\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n0 閲覧回数\n\n単位\n\n業務改善の方向性\n\nアクセス数は目標値を下回った。いかにホームページを観 タイムリーな情報更新を行うとともに掲載内容を検討\nてもらえるかが課題である。\nし、ホームページの充実を図る。（ただし、令和３年度\nからの後期計画からは評価項目から外す）\n\n今後（R3年度）\nの方針\n\n回/年\n\n2,955\n\n4,900\n\n4,003\n\n団体\n\n20\n\n12\n\n4\n\n新型コロナウイルスの影響により、令和２年度は市内４小 左記のとおり評価ができなかったため業務改善ではな\n13 学校による原子力発電所視察のみの実施となった。従って いが、各団体の視察目的に見合った視察箇所の検討\n課題や問題点を検証するに至らなかった。\nをし、正しい知識を習得していただく。\n\n現状維持\n\n0 開催回数\n\n回\n\n1\n\n1\n\n0\n\n新型コロナウイルスの影響により、令和２年度は事業を取 左記のとおり評価ができなかったため業務改善ではな\nいが、視察内容等を検討し参加人数の増加に努め\n1 りやめた。従って課題や問題点を検証するに至らなかっ\nた。\nる。\n\n現状維持\n\n4,950 再生回数\n\n回\n\n100\n\n125\n\n令和２年度に作成した動画の再生回数は目標値を上回っ 閲覧方法を検討し、より多くの方に観ていただく。（た\nた。しかし、更に多くの市民に観ていただく工夫も必要であ だし、令和３年度からの後期計画からは評価項目から\nる。\n外す）\n\n改善・効率化\n\n362 視察研修実施団体数\n\n－\n\n1/1\n\n-\n\n評価（課題、問題点など）\n\n-\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 13
+      },
+      {
+        "name": "公園施設維持管理業務",
+        "start": 31759,
+        "raw": "公園施設維持管理業務",
+        "titleSegments": [
+          {
+            "start": 31759,
+            "raw": "公園施設維持管理業務"
+          }
+        ],
+        "blockStart": 31608,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\n管理課\n\n施設管理係\n\n1,2 公園施設改修工事\n\n2,468 施設改修公園数\n\n箇所\n\n6\n\n8\n\n5\n\n5\n\n管理課\n\n施設管理係\n\n2 公園施設維持管理業務\n\n86,888 維持管理公園、保全林\n\n箇所\n\n28\n\n28\n\n28\n\n28\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n限られた予算の中で、長寿命化計画とおりに改修工事（修 長寿命化計画を基本としながらも、現場に応じ、優先\n繕・更新）を進めることができない。また、沿岸部の公園で 順位を確認しながら、柔軟に対応する。\nは、塩害による劣化のため、計画より前倒しの改修工事を\n行う必要が生じている。\n地域団体との協働により、24公園と4保全林の維持管理を 引き続き、適正な維持管理を行っていく。\n実施できている。\n\n今後（R3年度）\nの方針\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 14
+      },
+      {
+        "name": "公園施設改修工事",
+        "start": 31704,
+        "raw": "公園施設改修工事",
+        "titleSegments": [
+          {
+            "start": 31704,
+            "raw": "公園施設改修工事"
+          }
+        ],
+        "blockStart": 31608,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\n管理課\n\n施設管理係\n\n1,2 公園施設改修工事\n\n2,468 施設改修公園数\n\n箇所\n\n6\n\n8\n\n5\n\n5\n\n管理課\n\n施設管理係\n\n2 公園施設維持管理業務\n\n86,888 維持管理公園、保全林\n\n箇所\n\n28\n\n28\n\n28\n\n28\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n限られた予算の中で、長寿命化計画とおりに改修工事（修 長寿命化計画を基本としながらも、現場に応じ、優先\n繕・更新）を進めることができない。また、沿岸部の公園で 順位を確認しながら、柔軟に対応する。\nは、塩害による劣化のため、計画より前倒しの改修工事を\n行う必要が生じている。\n地域団体との協働により、24公園と4保全林の維持管理を 引き続き、適正な維持管理を行っていく。\n実施できている。\n\n今後（R3年度）\nの方針\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 14
+      },
+      {
+        "name": "都市計画マスタープラン改正",
+        "start": 33589,
+        "raw": "都市計画マスタープラン改正",
+        "titleSegments": [
+          {
+            "start": 33589,
+            "raw": "都市計画マスタープラン改正"
+          }
+        ],
+        "blockStart": 33530,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n都市政策課\n\n政策係\n\n1 都市計画マスタープラン改正\n\n都市政策課\n\n政策係\n\n2 都市計画道路の整備促進\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n0 改正の進捗率\n52,719 街路事業整備率\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n終了\n\n継続して用地交渉を実施する。\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 15
+      },
+      {
+        "name": "都市計画道路の整備促進",
+        "start": 33618,
+        "raw": "都市計画道路の整備促進",
+        "titleSegments": [
+          {
+            "start": 33618,
+            "raw": "都市計画道路の整備促進"
+          }
+        ],
+        "blockStart": 33530,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n都市政策課\n\n政策係\n\n1 都市計画マスタープラン改正\n\n都市政策課\n\n政策係\n\n2 都市計画道路の整備促進\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n0 改正の進捗率\n52,719 街路事業整備率\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n終了\n\n継続して用地交渉を実施する。\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 15
+      },
+      {
+        "name": "プロジェクト「ＴＯＵＫＡＩ－０」の推進",
+        "start": 35338,
+        "raw": "プロジェクト「ＴＯＵＫＡＩ－０」の推進",
+        "titleSegments": [
+          {
+            "start": 35338,
+            "raw": "プロジェクト「ＴＯＵＫＡＩ－０」の推進"
+          }
+        ],
+        "blockStart": 35245,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n課名\n\n係名\n\n都市政策課\n\n建築住宅係\n\n１ プロジェクト「ＴＯＵＫＡＩ－０」の推進\n\n都市政策課\n\n建築住宅係\n\n２ プロジェクト「ＴＯＵＫＡＩ－０」の推進\n\n0 業\n\n都市政策課\n\n建築住宅係\n\n２ プロジェクト「ＴＯＵＫＡＩ－０」の推進\n\n4,144 業\n\n424 耐震化無料診断事業\n既存建築物耐震性向上事\n\n木造住宅耐震補強補助事\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\nダイレクトメール配信や個別訪問等制度PRを実施している 継続的に幅広く制度ＰＲを行っていくとともに県と協力\nが、耐震工事は自己負担額も大きいこともあり、古い住宅 し、耐震化率を向上していくための新たな制度の活用\nの耐震補強工事に至らない。耐震化率自体は年々上昇し について検討していく。\nているが、要因としては耐震補強工事より昭和５６年５月以 また、台帳の整備を行い、集中的に制度ＰＲを実施し\n前に建築した住宅の除却による分母減によることが大き\nていくことも検討していく。\nい。\n\n今後（R3年度）\nの方針\n現状維持\n\n改善・効率化\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 16
+      },
+      {
+        "name": "各種団体（近隣市町）と連携した道路整備の推進",
+        "start": 37099,
+        "raw": "各種団体（近隣市町）と連携した道路整\n1 備の推進",
+        "titleSegments": [
+          {
+            "start": 37099,
+            "raw": "各種団体（近隣市町）と連携した道路整"
+          },
+          {
+            "start": 37120,
+            "raw": "備の推進"
+          }
+        ],
+        "blockStart": 37042,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n建設課\n\n係名\n道路河川整備係\n\n指\n標\n№\n\n業務名\n\n各種団体（近隣市町）と連携した道路整\n1 備の推進\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n800 国県への要望活動\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n道路広域ネットワーク整備の促進には、国・県・周辺市町と 道路広域ネットワーク整備は、緊急避難路としての役\nの協力が不可欠であるため、更なる連携が必要である。\n割も増加していくと考えられ、国・県・周辺市町との広\n域的な連携を更に強化していく。\n市道整備には多額の費用がかかり、一部路線では用地交 効率的に道路整備が進められるよう、用地交渉を円\n渉が難航し工事施工に影響が生じている箇所があるが、 滑に進めるとともに、主要幹線道路を優先して計画的\n主要幹線道路に重点を置き、計画に沿った確実な工事施 に整備を実施していく。\n工に向けた対応が重要となる。\n\n今後（R3年度）\nの方針\n現状維持\n\n建設課\n\n道路河川整備係\n\n1 市道の効果的な整備\n\n382,871 年度内施工予定路線の整備率\n\n％\n\n94\n\n100\n\n91\n\n100\n\n建設課\n\n道路河川整備係\n\n1 河川の計画的な改修\n\n140,438 年度内施工予定河川の改修整備率\n\n％\n\n100\n\n100\n\n100\n\n100\n\n河川改修には多額の費用がかかり、一部の市街地におい 多発する台風や豪雨により河川や水路の氾濫が増加\nては個人の工作物等が接近しているため、施工区間調整 し、改修の重要性が高まっている。地元と連携し、計\nに手間がかかる。\n画的な維持管理を図っていく。\n\n現状維持\n\n建設課\n\n道路河川整備係\n\n1 地区要望箇所とりまとめ\n\n62,501 地区要望の施工率\n\n％\n\n87\n\n91\n\n89\n\n91\n\n地区からの要望に対し、緊急性・必要性などを検討すると 緊急性・必要性を検討し、要望書の内容に対して地元\nともに、費用対効果も考慮する必要がある。\n町内会の理解が得られる説明を行うとともに、地区間\nでの調整を図りながら必要な整備を実施していく。\n\n現状維持\n\n1/1\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 17
+      },
+      {
+        "name": "市道の効果的な整備",
+        "start": 37506,
+        "raw": "市道の効果的な整備",
+        "titleSegments": [
+          {
+            "start": 37506,
+            "raw": "市道の効果的な整備"
+          }
+        ],
+        "blockStart": 37042,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n建設課\n\n係名\n道路河川整備係\n\n指\n標\n№\n\n業務名\n\n各種団体（近隣市町）と連携した道路整\n1 備の推進\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n800 国県への要望活動\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n道路広域ネットワーク整備の促進には、国・県・周辺市町と 道路広域ネットワーク整備は、緊急避難路としての役\nの協力が不可欠であるため、更なる連携が必要である。\n割も増加していくと考えられ、国・県・周辺市町との広\n域的な連携を更に強化していく。\n市道整備には多額の費用がかかり、一部路線では用地交 効率的に道路整備が進められるよう、用地交渉を円\n渉が難航し工事施工に影響が生じている箇所があるが、 滑に進めるとともに、主要幹線道路を優先して計画的\n主要幹線道路に重点を置き、計画に沿った確実な工事施 に整備を実施していく。\n工に向けた対応が重要となる。\n\n今後（R3年度）\nの方針\n現状維持\n\n建設課\n\n道路河川整備係\n\n1 市道の効果的な整備\n\n382,871 年度内施工予定路線の整備率\n\n％\n\n94\n\n100\n\n91\n\n100\n\n建設課\n\n道路河川整備係\n\n1 河川の計画的な改修\n\n140,438 年度内施工予定河川の改修整備率\n\n％\n\n100\n\n100\n\n100\n\n100\n\n河川改修には多額の費用がかかり、一部の市街地におい 多発する台風や豪雨により河川や水路の氾濫が増加\nては個人の工作物等が接近しているため、施工区間調整 し、改修の重要性が高まっている。地元と連携し、計\nに手間がかかる。\n画的な維持管理を図っていく。\n\n現状維持\n\n建設課\n\n道路河川整備係\n\n1 地区要望箇所とりまとめ\n\n62,501 地区要望の施工率\n\n％\n\n87\n\n91\n\n89\n\n91\n\n地区からの要望に対し、緊急性・必要性などを検討すると 緊急性・必要性を検討し、要望書の内容に対して地元\nともに、費用対効果も考慮する必要がある。\n町内会の理解が得られる説明を行うとともに、地区間\nでの調整を図りながら必要な整備を実施していく。\n\n現状維持\n\n1/1\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 17
+      },
+      {
+        "name": "河川の計画的な改修",
+        "start": 37577,
+        "raw": "河川の計画的な改修",
+        "titleSegments": [
+          {
+            "start": 37577,
+            "raw": "河川の計画的な改修"
+          }
+        ],
+        "blockStart": 37042,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n建設課\n\n係名\n道路河川整備係\n\n指\n標\n№\n\n業務名\n\n各種団体（近隣市町）と連携した道路整\n1 備の推進\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n800 国県への要望活動\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n道路広域ネットワーク整備の促進には、国・県・周辺市町と 道路広域ネットワーク整備は、緊急避難路としての役\nの協力が不可欠であるため、更なる連携が必要である。\n割も増加していくと考えられ、国・県・周辺市町との広\n域的な連携を更に強化していく。\n市道整備には多額の費用がかかり、一部路線では用地交 効率的に道路整備が進められるよう、用地交渉を円\n渉が難航し工事施工に影響が生じている箇所があるが、 滑に進めるとともに、主要幹線道路を優先して計画的\n主要幹線道路に重点を置き、計画に沿った確実な工事施 に整備を実施していく。\n工に向けた対応が重要となる。\n\n今後（R3年度）\nの方針\n現状維持\n\n建設課\n\n道路河川整備係\n\n1 市道の効果的な整備\n\n382,871 年度内施工予定路線の整備率\n\n％\n\n94\n\n100\n\n91\n\n100\n\n建設課\n\n道路河川整備係\n\n1 河川の計画的な改修\n\n140,438 年度内施工予定河川の改修整備率\n\n％\n\n100\n\n100\n\n100\n\n100\n\n河川改修には多額の費用がかかり、一部の市街地におい 多発する台風や豪雨により河川や水路の氾濫が増加\nては個人の工作物等が接近しているため、施工区間調整 し、改修の重要性が高まっている。地元と連携し、計\nに手間がかかる。\n画的な維持管理を図っていく。\n\n現状維持\n\n建設課\n\n道路河川整備係\n\n1 地区要望箇所とりまとめ\n\n62,501 地区要望の施工率\n\n％\n\n87\n\n91\n\n89\n\n91\n\n地区からの要望に対し、緊急性・必要性などを検討すると 緊急性・必要性を検討し、要望書の内容に対して地元\nともに、費用対効果も考慮する必要がある。\n町内会の理解が得られる説明を行うとともに、地区間\nでの調整を図りながら必要な整備を実施していく。\n\n現状維持\n\n1/1\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 17
+      },
+      {
+        "name": "地区要望箇所とりまとめ",
+        "start": 37784,
+        "raw": "地区要望箇所とりまとめ",
+        "titleSegments": [
+          {
+            "start": 37784,
+            "raw": "地区要望箇所とりまとめ"
+          }
+        ],
+        "blockStart": 37042,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n建設課\n\n係名\n道路河川整備係\n\n指\n標\n№\n\n業務名\n\n各種団体（近隣市町）と連携した道路整\n1 備の推進\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n800 国県への要望活動\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n道路広域ネットワーク整備の促進には、国・県・周辺市町と 道路広域ネットワーク整備は、緊急避難路としての役\nの協力が不可欠であるため、更なる連携が必要である。\n割も増加していくと考えられ、国・県・周辺市町との広\n域的な連携を更に強化していく。\n市道整備には多額の費用がかかり、一部路線では用地交 効率的に道路整備が進められるよう、用地交渉を円\n渉が難航し工事施工に影響が生じている箇所があるが、 滑に進めるとともに、主要幹線道路を優先して計画的\n主要幹線道路に重点を置き、計画に沿った確実な工事施 に整備を実施していく。\n工に向けた対応が重要となる。\n\n今後（R3年度）\nの方針\n現状維持\n\n建設課\n\n道路河川整備係\n\n1 市道の効果的な整備\n\n382,871 年度内施工予定路線の整備率\n\n％\n\n94\n\n100\n\n91\n\n100\n\n建設課\n\n道路河川整備係\n\n1 河川の計画的な改修\n\n140,438 年度内施工予定河川の改修整備率\n\n％\n\n100\n\n100\n\n100\n\n100\n\n河川改修には多額の費用がかかり、一部の市街地におい 多発する台風や豪雨により河川や水路の氾濫が増加\nては個人の工作物等が接近しているため、施工区間調整 し、改修の重要性が高まっている。地元と連携し、計\nに手間がかかる。\n画的な維持管理を図っていく。\n\n現状維持\n\n建設課\n\n道路河川整備係\n\n1 地区要望箇所とりまとめ\n\n62,501 地区要望の施工率\n\n％\n\n87\n\n91\n\n89\n\n91\n\n地区からの要望に対し、緊急性・必要性などを検討すると 緊急性・必要性を検討し、要望書の内容に対して地元\nともに、費用対効果も考慮する必要がある。\n町内会の理解が得られる説明を行うとともに、地区間\nでの調整を図りながら必要な整備を実施していく。\n\n現状維持\n\n1/1\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 17
+      },
+      {
+        "name": "橋梁耐震化の促進",
+        "start": 39224,
+        "raw": "橋梁耐震化の促進",
+        "titleSegments": [
+          {
+            "start": 39224,
+            "raw": "橋梁耐震化の促進"
+          }
+        ],
+        "blockStart": 39167,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n建設課\n\n係名\n維持管理係\n\n指\n標\n№\n\n業務名\n\n1 橋梁耐震化の促進\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n0 橋梁耐震化工事の完了割合\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n坂田中橋の修繕工事と併せて耐震工事を実施し、効率的 修繕と耐震の同時施工を基本方針とする橋梁個別施\nに耐震化を実施できた。\n設計画に基づき、。効率的な耐震化を目指す。\n\n今後（R3年度）\nの方針\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 18
+      },
+      {
+        "name": "橋梁修繕工事等の実施",
+        "start": 40722,
+        "raw": "橋梁修繕工事等の実施",
+        "titleSegments": [
+          {
+            "start": 40722,
+            "raw": "橋梁修繕工事等の実施"
+          }
+        ],
+        "blockStart": 40663,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n建設課\n\n維持管理係\n\n1 橋梁修繕工事等の実施\n\n建設課\n\n維持管理係\n\n1\n\n建設課\n\n維持管理係\n\n1 橋梁修繕設計等の実施\n\n橋梁定期点検の実施及び橋梁個別施\n設計画の策定\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n1\n\n2巡目の橋梁定期点検で、健全度が目標管理水準を下\n回った坂田中橋の修繕を実施することができた。\n\n1巡目及び2巡目の橋梁定期点検で、健全度が目標管\n理水準を下回っている畷橋の対策が未実施のため、\n対策完了を目指す。\n\n改善・効率化\n\n1\n\n0\n\n2巡目の橋梁点検と併せて、橋梁個別施設計画を策定し、 橋梁個別施設計画に基づき、効率的な維持管理を実\n橋梁の計画的な維持管理を実施できる体制となった。\n施することを目指す。\n\n改善・効率化\n\n1\n\n2\n\n2巡目の橋梁定期点検で、健全度が目標管理水準を下\n回った新橋歩道橋の詳細設計を実施することができた。\n\n改善・効率化\n\n道路メンテナンス事業補助金の活用及び新技術等の\n導入等も視野に入れながら、委託業務を遂行すること\nを目指す。\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 19
+      },
+      {
+        "name": "橋梁修繕設計等の実施",
+        "start": 40763,
+        "raw": "橋梁修繕設計等の実施",
+        "titleSegments": [
+          {
+            "start": 40763,
+            "raw": "橋梁修繕設計等の実施"
+          }
+        ],
+        "blockStart": 40663,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n建設課\n\n維持管理係\n\n1 橋梁修繕工事等の実施\n\n建設課\n\n維持管理係\n\n1\n\n建設課\n\n維持管理係\n\n1 橋梁修繕設計等の実施\n\n橋梁定期点検の実施及び橋梁個別施\n設計画の策定\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n1\n\n2巡目の橋梁定期点検で、健全度が目標管理水準を下\n回った坂田中橋の修繕を実施することができた。\n\n1巡目及び2巡目の橋梁定期点検で、健全度が目標管\n理水準を下回っている畷橋の対策が未実施のため、\n対策完了を目指す。\n\n改善・効率化\n\n1\n\n0\n\n2巡目の橋梁点検と併せて、橋梁個別施設計画を策定し、 橋梁個別施設計画に基づき、効率的な維持管理を実\n橋梁の計画的な維持管理を実施できる体制となった。\n施することを目指す。\n\n改善・効率化\n\n1\n\n2\n\n2巡目の橋梁定期点検で、健全度が目標管理水準を下\n回った新橋歩道橋の詳細設計を実施することができた。\n\n改善・効率化\n\n道路メンテナンス事業補助金の活用及び新技術等の\n導入等も視野に入れながら、委託業務を遂行すること\nを目指す。\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 19
+      },
+      {
+        "name": "橋梁定期点検の実施及び橋梁個別施設計画の策定",
+        "start": 40775,
+        "raw": "橋梁定期点検の実施及び橋梁個別施\n設計画の策定",
+        "titleSegments": [
+          {
+            "start": 40775,
+            "raw": "橋梁定期点検の実施及び橋梁個別施"
+          },
+          {
+            "start": 40792,
+            "raw": "設計画の策定"
+          }
+        ],
+        "blockStart": 40663,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n建設課\n\n維持管理係\n\n1 橋梁修繕工事等の実施\n\n建設課\n\n維持管理係\n\n1\n\n建設課\n\n維持管理係\n\n1 橋梁修繕設計等の実施\n\n橋梁定期点検の実施及び橋梁個別施\n設計画の策定\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n1\n\n2巡目の橋梁定期点検で、健全度が目標管理水準を下\n回った坂田中橋の修繕を実施することができた。\n\n1巡目及び2巡目の橋梁定期点検で、健全度が目標管\n理水準を下回っている畷橋の対策が未実施のため、\n対策完了を目指す。\n\n改善・効率化\n\n1\n\n0\n\n2巡目の橋梁点検と併せて、橋梁個別施設計画を策定し、 橋梁個別施設計画に基づき、効率的な維持管理を実\n橋梁の計画的な維持管理を実施できる体制となった。\n施することを目指す。\n\n改善・効率化\n\n1\n\n2\n\n2巡目の橋梁定期点検で、健全度が目標管理水準を下\n回った新橋歩道橋の詳細設計を実施することができた。\n\n改善・効率化\n\n道路メンテナンス事業補助金の活用及び新技術等の\n導入等も視野に入れながら、委託業務を遂行すること\nを目指す。\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 19
+      },
+      {
+        "name": "道路愛護活動の支援",
+        "start": 42471,
+        "raw": "道路愛護活動の支援",
+        "titleSegments": [
+          {
+            "start": 42471,
+            "raw": "道路愛護活動の支援"
+          }
+        ],
+        "blockStart": 42381,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n建設課\n\n維持管理係\n\n1 道路愛護活動の支援\n\n5,496 道路愛護活動の支援\n\n路線\n\n254\n\n311\n\n231\n\n311\n\n建設課\n\n維持管理係\n\n1 河川愛護活動の支援\n\n25,857 河川愛護活動の支援\n\n河川\n\n23\n\n23\n\n24\n\n23\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n新型コロナウイルス感染拡大により、前年度より活動面積 規模の拡大、財源の確保に努める。\n及び路線数が減少した。\n昨年度より河川愛護活動実施河川が増加した。しかし、新 県へ補助金の増額を要望していくとともに、予算確保\n型コロナウイルス感染拡大により、前年度より活動面積が に努め、規模の拡大、財源の確保に努める。\n減少した。\n\n今後（R3年度）\nの方針\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 20
+      },
+      {
+        "name": "河川愛護活動の支援",
+        "start": 42537,
+        "raw": "河川愛護活動の支援",
+        "titleSegments": [
+          {
+            "start": 42537,
+            "raw": "河川愛護活動の支援"
+          }
+        ],
+        "blockStart": 42381,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n建設課\n\n維持管理係\n\n1 道路愛護活動の支援\n\n5,496 道路愛護活動の支援\n\n路線\n\n254\n\n311\n\n231\n\n311\n\n建設課\n\n維持管理係\n\n1 河川愛護活動の支援\n\n25,857 河川愛護活動の支援\n\n河川\n\n23\n\n23\n\n24\n\n23\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n新型コロナウイルス感染拡大により、前年度より活動面積 規模の拡大、財源の確保に努める。\n及び路線数が減少した。\n昨年度より河川愛護活動実施河川が増加した。しかし、新 県へ補助金の増額を要望していくとともに、予算確保\n型コロナウイルス感染拡大により、前年度より活動面積が に努め、規模の拡大、財源の確保に努める。\n減少した。\n\n今後（R3年度）\nの方針\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 20
+      },
+      {
+        "name": "子育て支援センター事業の充実（委託２箇所分）",
+        "start": 44558,
+        "raw": "子育て支援センター事業の充実\n2 （委託２箇所分）",
+        "titleSegments": [
+          {
+            "start": 44558,
+            "raw": "子育て支援センター事業の充実"
+          },
+          {
+            "start": 44575,
+            "raw": "（委託２箇所分）"
+          }
+        ],
+        "blockStart": 44466,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\nこども未来課\n\n子育て支援係\n\n子育て支援センター事業の充実\n2 （委託２箇所分）\n\n14,743 利用者数\n\n子育て支援センター年間\n\nこども未来課\n\n子育て支援係\n\n2\n\n子育て支援センター事業の充実\n（直営３箇所分）\n\n1,393 利用者数\n\n人\n\n12,020\n\n-\n\n7,148\n\n-\n\nこども未来課\n\n子育て支援係\n\n3 子育て相談の充実\n\n4,476 相談件数（延件数）\n\n件\n\n3,402\n\n3,000\n\n4,635\n\n3,000\n\nこども未来課\n\n母子保健係\n\n１ 妊婦健康診査の実施\n\n15,696 診受診率\n\n％\n\n101.4\n\n98\n\n98.8\n\n98\n\nこども未来課\n\n母子保健係\n\n1 家庭訪問の実施\n\n％\n\n102.2\n\n98\n\n96.6\n\n98\n\nこども未来課\n\n母子保健係\n\n1 乳幼児健康診査の実施\n\n％\n\n95.4\n\n100\n\n100.3\n\n100\n\n子育て支援センター年間\n\n母子手帳交付者の初回健\n\n651 出生児の訪問率\n\n3,354 健診受診率\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n令和2年度より人員削減と利用者数との調整により、子育て支援セ 利用者が安全・安心して利用できるように、新型コロナウイル\nンター「ぴよぴよ」は閉所となった。また新型コロナウイルス感染症 ス感染症対策の徹底と本事業の周知を図り、利用促進を図っ\nの蔓延防止のため各施設の一時閉所により年間利用者数が減少 ていく。\nした。\n令和2年度より人員削減と利用者数との調整により、子育て支援セ 利用者が安全・安心して利用できるように、新型コロナウイル\nンター「さくらんぼ」及び「たけのこ」は園事業に変更となった。新型 ス感染症対策の徹底と本事業の周知を図り、利用促進を図っ\nコロナウイルス感染症の蔓延防止のため各施設の一時閉所により ていく。\n年間利用者数が減少した。\n家庭相談員の認知度は、目標値より低いが、相談件数は前年度 母子保健や成長支援事業にて、ストレスの強い母や孤立して\nに比べ増加した。子育てについての悩みや不安、家庭の経済的問 いる母に対し、家庭相談員の周知に努める。園小中学校から\n題等、多岐にわたる相談に応じ支援をすることができている。\nの相談事例に対し、必要な家庭には家庭相談員につながっ\nていく。\n対象者のうち、年度を超えて受診される方がいるため実績値は\n安心・安全な出産を迎えることができるように、引き続き、未\n100％を切っているが、実際には未受診者はいなかった。毎月、受 受診者には、医療機関との連携をとりながら、受診勧奨を図\n診状況を確認している。\nる。\n出生児全件への家庭訪問に努め実施している。.新型コロナウイル 乳児の健やかな成長と母親の育児不安の軽減を図るため、\nス感染症の拡大により、里帰り期間が長期化している方がいるた 引き続き、生後2か月以内の出生児全件への家庭訪問に努\nめ、里帰り先に訪問依頼し、対応している。\nめる。\n前年度の未受診者が年度を超えて受診したため、受診率が100％ 引き続き、利用者が安心して受診できるよう新型コロナウイル\nを超えた。新型コロナウイルス感染症蔓延防止のため、健診の延 ス感染症対策の徹底と受診勧奨を図る。未受診者に対して\n期と感染症対策のための注意喚起の通知が、受診率向上につな は、関係機関との連携により、状況把握を図る。\nがった。\n\n今後（R3年度）\nの方針\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 21
+      },
+      {
+        "name": "子育て相談の充実",
+        "start": 44709,
+        "raw": "子育て相談の充実",
+        "titleSegments": [
+          {
+            "start": 44709,
+            "raw": "子育て相談の充実"
+          }
+        ],
+        "blockStart": 44466,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\nこども未来課\n\n子育て支援係\n\n子育て支援センター事業の充実\n2 （委託２箇所分）\n\n14,743 利用者数\n\n子育て支援センター年間\n\nこども未来課\n\n子育て支援係\n\n2\n\n子育て支援センター事業の充実\n（直営３箇所分）\n\n1,393 利用者数\n\n人\n\n12,020\n\n-\n\n7,148\n\n-\n\nこども未来課\n\n子育て支援係\n\n3 子育て相談の充実\n\n4,476 相談件数（延件数）\n\n件\n\n3,402\n\n3,000\n\n4,635\n\n3,000\n\nこども未来課\n\n母子保健係\n\n１ 妊婦健康診査の実施\n\n15,696 診受診率\n\n％\n\n101.4\n\n98\n\n98.8\n\n98\n\nこども未来課\n\n母子保健係\n\n1 家庭訪問の実施\n\n％\n\n102.2\n\n98\n\n96.6\n\n98\n\nこども未来課\n\n母子保健係\n\n1 乳幼児健康診査の実施\n\n％\n\n95.4\n\n100\n\n100.3\n\n100\n\n子育て支援センター年間\n\n母子手帳交付者の初回健\n\n651 出生児の訪問率\n\n3,354 健診受診率\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n令和2年度より人員削減と利用者数との調整により、子育て支援セ 利用者が安全・安心して利用できるように、新型コロナウイル\nンター「ぴよぴよ」は閉所となった。また新型コロナウイルス感染症 ス感染症対策の徹底と本事業の周知を図り、利用促進を図っ\nの蔓延防止のため各施設の一時閉所により年間利用者数が減少 ていく。\nした。\n令和2年度より人員削減と利用者数との調整により、子育て支援セ 利用者が安全・安心して利用できるように、新型コロナウイル\nンター「さくらんぼ」及び「たけのこ」は園事業に変更となった。新型 ス感染症対策の徹底と本事業の周知を図り、利用促進を図っ\nコロナウイルス感染症の蔓延防止のため各施設の一時閉所により ていく。\n年間利用者数が減少した。\n家庭相談員の認知度は、目標値より低いが、相談件数は前年度 母子保健や成長支援事業にて、ストレスの強い母や孤立して\nに比べ増加した。子育てについての悩みや不安、家庭の経済的問 いる母に対し、家庭相談員の周知に努める。園小中学校から\n題等、多岐にわたる相談に応じ支援をすることができている。\nの相談事例に対し、必要な家庭には家庭相談員につながっ\nていく。\n対象者のうち、年度を超えて受診される方がいるため実績値は\n安心・安全な出産を迎えることができるように、引き続き、未\n100％を切っているが、実際には未受診者はいなかった。毎月、受 受診者には、医療機関との連携をとりながら、受診勧奨を図\n診状況を確認している。\nる。\n出生児全件への家庭訪問に努め実施している。.新型コロナウイル 乳児の健やかな成長と母親の育児不安の軽減を図るため、\nス感染症の拡大により、里帰り期間が長期化している方がいるた 引き続き、生後2か月以内の出生児全件への家庭訪問に努\nめ、里帰り先に訪問依頼し、対応している。\nめる。\n前年度の未受診者が年度を超えて受診したため、受診率が100％ 引き続き、利用者が安心して受診できるよう新型コロナウイル\nを超えた。新型コロナウイルス感染症蔓延防止のため、健診の延 ス感染症対策の徹底と受診勧奨を図る。未受診者に対して\n期と感染症対策のための注意喚起の通知が、受診率向上につな は、関係機関との連携により、状況把握を図る。\nがった。\n\n今後（R3年度）\nの方針\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 21
+      },
+      {
+        "name": "妊婦健康診査の実施",
+        "start": 44784,
+        "raw": "妊婦健康診査の実施",
+        "titleSegments": [
+          {
+            "start": 44784,
+            "raw": "妊婦健康診査の実施"
+          }
+        ],
+        "blockStart": 44466,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\nこども未来課\n\n子育て支援係\n\n子育て支援センター事業の充実\n2 （委託２箇所分）\n\n14,743 利用者数\n\n子育て支援センター年間\n\nこども未来課\n\n子育て支援係\n\n2\n\n子育て支援センター事業の充実\n（直営３箇所分）\n\n1,393 利用者数\n\n人\n\n12,020\n\n-\n\n7,148\n\n-\n\nこども未来課\n\n子育て支援係\n\n3 子育て相談の充実\n\n4,476 相談件数（延件数）\n\n件\n\n3,402\n\n3,000\n\n4,635\n\n3,000\n\nこども未来課\n\n母子保健係\n\n１ 妊婦健康診査の実施\n\n15,696 診受診率\n\n％\n\n101.4\n\n98\n\n98.8\n\n98\n\nこども未来課\n\n母子保健係\n\n1 家庭訪問の実施\n\n％\n\n102.2\n\n98\n\n96.6\n\n98\n\nこども未来課\n\n母子保健係\n\n1 乳幼児健康診査の実施\n\n％\n\n95.4\n\n100\n\n100.3\n\n100\n\n子育て支援センター年間\n\n母子手帳交付者の初回健\n\n651 出生児の訪問率\n\n3,354 健診受診率\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n令和2年度より人員削減と利用者数との調整により、子育て支援セ 利用者が安全・安心して利用できるように、新型コロナウイル\nンター「ぴよぴよ」は閉所となった。また新型コロナウイルス感染症 ス感染症対策の徹底と本事業の周知を図り、利用促進を図っ\nの蔓延防止のため各施設の一時閉所により年間利用者数が減少 ていく。\nした。\n令和2年度より人員削減と利用者数との調整により、子育て支援セ 利用者が安全・安心して利用できるように、新型コロナウイル\nンター「さくらんぼ」及び「たけのこ」は園事業に変更となった。新型 ス感染症対策の徹底と本事業の周知を図り、利用促進を図っ\nコロナウイルス感染症の蔓延防止のため各施設の一時閉所により ていく。\n年間利用者数が減少した。\n家庭相談員の認知度は、目標値より低いが、相談件数は前年度 母子保健や成長支援事業にて、ストレスの強い母や孤立して\nに比べ増加した。子育てについての悩みや不安、家庭の経済的問 いる母に対し、家庭相談員の周知に努める。園小中学校から\n題等、多岐にわたる相談に応じ支援をすることができている。\nの相談事例に対し、必要な家庭には家庭相談員につながっ\nていく。\n対象者のうち、年度を超えて受診される方がいるため実績値は\n安心・安全な出産を迎えることができるように、引き続き、未\n100％を切っているが、実際には未受診者はいなかった。毎月、受 受診者には、医療機関との連携をとりながら、受診勧奨を図\n診状況を確認している。\nる。\n出生児全件への家庭訪問に努め実施している。.新型コロナウイル 乳児の健やかな成長と母親の育児不安の軽減を図るため、\nス感染症の拡大により、里帰り期間が長期化している方がいるた 引き続き、生後2か月以内の出生児全件への家庭訪問に努\nめ、里帰り先に訪問依頼し、対応している。\nめる。\n前年度の未受診者が年度を超えて受診したため、受診率が100％ 引き続き、利用者が安心して受診できるよう新型コロナウイル\nを超えた。新型コロナウイルス感染症蔓延防止のため、健診の延 ス感染症対策の徹底と受診勧奨を図る。未受診者に対して\n期と感染症対策のための注意喚起の通知が、受診率向上につな は、関係機関との連携により、状況把握を図る。\nがった。\n\n今後（R3年度）\nの方針\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 21
+      },
+      {
+        "name": "家庭訪問の実施",
+        "start": 44849,
+        "raw": "家庭訪問の実施",
+        "titleSegments": [
+          {
+            "start": 44849,
+            "raw": "家庭訪問の実施"
+          }
+        ],
+        "blockStart": 44466,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\nこども未来課\n\n子育て支援係\n\n子育て支援センター事業の充実\n2 （委託２箇所分）\n\n14,743 利用者数\n\n子育て支援センター年間\n\nこども未来課\n\n子育て支援係\n\n2\n\n子育て支援センター事業の充実\n（直営３箇所分）\n\n1,393 利用者数\n\n人\n\n12,020\n\n-\n\n7,148\n\n-\n\nこども未来課\n\n子育て支援係\n\n3 子育て相談の充実\n\n4,476 相談件数（延件数）\n\n件\n\n3,402\n\n3,000\n\n4,635\n\n3,000\n\nこども未来課\n\n母子保健係\n\n１ 妊婦健康診査の実施\n\n15,696 診受診率\n\n％\n\n101.4\n\n98\n\n98.8\n\n98\n\nこども未来課\n\n母子保健係\n\n1 家庭訪問の実施\n\n％\n\n102.2\n\n98\n\n96.6\n\n98\n\nこども未来課\n\n母子保健係\n\n1 乳幼児健康診査の実施\n\n％\n\n95.4\n\n100\n\n100.3\n\n100\n\n子育て支援センター年間\n\n母子手帳交付者の初回健\n\n651 出生児の訪問率\n\n3,354 健診受診率\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n令和2年度より人員削減と利用者数との調整により、子育て支援セ 利用者が安全・安心して利用できるように、新型コロナウイル\nンター「ぴよぴよ」は閉所となった。また新型コロナウイルス感染症 ス感染症対策の徹底と本事業の周知を図り、利用促進を図っ\nの蔓延防止のため各施設の一時閉所により年間利用者数が減少 ていく。\nした。\n令和2年度より人員削減と利用者数との調整により、子育て支援セ 利用者が安全・安心して利用できるように、新型コロナウイル\nンター「さくらんぼ」及び「たけのこ」は園事業に変更となった。新型 ス感染症対策の徹底と本事業の周知を図り、利用促進を図っ\nコロナウイルス感染症の蔓延防止のため各施設の一時閉所により ていく。\n年間利用者数が減少した。\n家庭相談員の認知度は、目標値より低いが、相談件数は前年度 母子保健や成長支援事業にて、ストレスの強い母や孤立して\nに比べ増加した。子育てについての悩みや不安、家庭の経済的問 いる母に対し、家庭相談員の周知に努める。園小中学校から\n題等、多岐にわたる相談に応じ支援をすることができている。\nの相談事例に対し、必要な家庭には家庭相談員につながっ\nていく。\n対象者のうち、年度を超えて受診される方がいるため実績値は\n安心・安全な出産を迎えることができるように、引き続き、未\n100％を切っているが、実際には未受診者はいなかった。毎月、受 受診者には、医療機関との連携をとりながら、受診勧奨を図\n診状況を確認している。\nる。\n出生児全件への家庭訪問に努め実施している。.新型コロナウイル 乳児の健やかな成長と母親の育児不安の軽減を図るため、\nス感染症の拡大により、里帰り期間が長期化している方がいるた 引き続き、生後2か月以内の出生児全件への家庭訪問に努\nめ、里帰り先に訪問依頼し、対応している。\nめる。\n前年度の未受診者が年度を超えて受診したため、受診率が100％ 引き続き、利用者が安心して受診できるよう新型コロナウイル\nを超えた。新型コロナウイルス感染症蔓延防止のため、健診の延 ス感染症対策の徹底と受診勧奨を図る。未受診者に対して\n期と感染症対策のための注意喚起の通知が、受診率向上につな は、関係機関との連携により、状況把握を図る。\nがった。\n\n今後（R3年度）\nの方針\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 21
+      },
+      {
+        "name": "乳幼児健康診査の実施",
+        "start": 44899,
+        "raw": "乳幼児健康診査の実施",
+        "titleSegments": [
+          {
+            "start": 44899,
+            "raw": "乳幼児健康診査の実施"
+          }
+        ],
+        "blockStart": 44466,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\nこども未来課\n\n子育て支援係\n\n子育て支援センター事業の充実\n2 （委託２箇所分）\n\n14,743 利用者数\n\n子育て支援センター年間\n\nこども未来課\n\n子育て支援係\n\n2\n\n子育て支援センター事業の充実\n（直営３箇所分）\n\n1,393 利用者数\n\n人\n\n12,020\n\n-\n\n7,148\n\n-\n\nこども未来課\n\n子育て支援係\n\n3 子育て相談の充実\n\n4,476 相談件数（延件数）\n\n件\n\n3,402\n\n3,000\n\n4,635\n\n3,000\n\nこども未来課\n\n母子保健係\n\n１ 妊婦健康診査の実施\n\n15,696 診受診率\n\n％\n\n101.4\n\n98\n\n98.8\n\n98\n\nこども未来課\n\n母子保健係\n\n1 家庭訪問の実施\n\n％\n\n102.2\n\n98\n\n96.6\n\n98\n\nこども未来課\n\n母子保健係\n\n1 乳幼児健康診査の実施\n\n％\n\n95.4\n\n100\n\n100.3\n\n100\n\n子育て支援センター年間\n\n母子手帳交付者の初回健\n\n651 出生児の訪問率\n\n3,354 健診受診率\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n令和2年度より人員削減と利用者数との調整により、子育て支援セ 利用者が安全・安心して利用できるように、新型コロナウイル\nンター「ぴよぴよ」は閉所となった。また新型コロナウイルス感染症 ス感染症対策の徹底と本事業の周知を図り、利用促進を図っ\nの蔓延防止のため各施設の一時閉所により年間利用者数が減少 ていく。\nした。\n令和2年度より人員削減と利用者数との調整により、子育て支援セ 利用者が安全・安心して利用できるように、新型コロナウイル\nンター「さくらんぼ」及び「たけのこ」は園事業に変更となった。新型 ス感染症対策の徹底と本事業の周知を図り、利用促進を図っ\nコロナウイルス感染症の蔓延防止のため各施設の一時閉所により ていく。\n年間利用者数が減少した。\n家庭相談員の認知度は、目標値より低いが、相談件数は前年度 母子保健や成長支援事業にて、ストレスの強い母や孤立して\nに比べ増加した。子育てについての悩みや不安、家庭の経済的問 いる母に対し、家庭相談員の周知に努める。園小中学校から\n題等、多岐にわたる相談に応じ支援をすることができている。\nの相談事例に対し、必要な家庭には家庭相談員につながっ\nていく。\n対象者のうち、年度を超えて受診される方がいるため実績値は\n安心・安全な出産を迎えることができるように、引き続き、未\n100％を切っているが、実際には未受診者はいなかった。毎月、受 受診者には、医療機関との連携をとりながら、受診勧奨を図\n診状況を確認している。\nる。\n出生児全件への家庭訪問に努め実施している。.新型コロナウイル 乳児の健やかな成長と母親の育児不安の軽減を図るため、\nス感染症の拡大により、里帰り期間が長期化している方がいるた 引き続き、生後2か月以内の出生児全件への家庭訪問に努\nめ、里帰り先に訪問依頼し、対応している。\nめる。\n前年度の未受診者が年度を超えて受診したため、受診率が100％ 引き続き、利用者が安心して受診できるよう新型コロナウイル\nを超えた。新型コロナウイルス感染症蔓延防止のため、健診の延 ス感染症対策の徹底と受診勧奨を図る。未受診者に対して\n期と感染症対策のための注意喚起の通知が、受診率向上につな は、関係機関との連携により、状況把握を図る。\nがった。\n\n今後（R3年度）\nの方針\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 21
+      },
+      {
+        "name": "子育て支援センター事業の充実（直営３箇所分）",
+        "start": 44630,
+        "raw": "子育て支援センター事業の充実\n（直営３箇所分）",
+        "titleSegments": [
+          {
+            "start": 44630,
+            "raw": "子育て支援センター事業の充実"
+          },
+          {
+            "start": 44645,
+            "raw": "（直営３箇所分）"
+          }
+        ],
+        "blockStart": 44466,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\nこども未来課\n\n子育て支援係\n\n子育て支援センター事業の充実\n2 （委託２箇所分）\n\n14,743 利用者数\n\n子育て支援センター年間\n\nこども未来課\n\n子育て支援係\n\n2\n\n子育て支援センター事業の充実\n（直営３箇所分）\n\n1,393 利用者数\n\n人\n\n12,020\n\n-\n\n7,148\n\n-\n\nこども未来課\n\n子育て支援係\n\n3 子育て相談の充実\n\n4,476 相談件数（延件数）\n\n件\n\n3,402\n\n3,000\n\n4,635\n\n3,000\n\nこども未来課\n\n母子保健係\n\n１ 妊婦健康診査の実施\n\n15,696 診受診率\n\n％\n\n101.4\n\n98\n\n98.8\n\n98\n\nこども未来課\n\n母子保健係\n\n1 家庭訪問の実施\n\n％\n\n102.2\n\n98\n\n96.6\n\n98\n\nこども未来課\n\n母子保健係\n\n1 乳幼児健康診査の実施\n\n％\n\n95.4\n\n100\n\n100.3\n\n100\n\n子育て支援センター年間\n\n母子手帳交付者の初回健\n\n651 出生児の訪問率\n\n3,354 健診受診率\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n令和2年度より人員削減と利用者数との調整により、子育て支援セ 利用者が安全・安心して利用できるように、新型コロナウイル\nンター「ぴよぴよ」は閉所となった。また新型コロナウイルス感染症 ス感染症対策の徹底と本事業の周知を図り、利用促進を図っ\nの蔓延防止のため各施設の一時閉所により年間利用者数が減少 ていく。\nした。\n令和2年度より人員削減と利用者数との調整により、子育て支援セ 利用者が安全・安心して利用できるように、新型コロナウイル\nンター「さくらんぼ」及び「たけのこ」は園事業に変更となった。新型 ス感染症対策の徹底と本事業の周知を図り、利用促進を図っ\nコロナウイルス感染症の蔓延防止のため各施設の一時閉所により ていく。\n年間利用者数が減少した。\n家庭相談員の認知度は、目標値より低いが、相談件数は前年度 母子保健や成長支援事業にて、ストレスの強い母や孤立して\nに比べ増加した。子育てについての悩みや不安、家庭の経済的問 いる母に対し、家庭相談員の周知に努める。園小中学校から\n題等、多岐にわたる相談に応じ支援をすることができている。\nの相談事例に対し、必要な家庭には家庭相談員につながっ\nていく。\n対象者のうち、年度を超えて受診される方がいるため実績値は\n安心・安全な出産を迎えることができるように、引き続き、未\n100％を切っているが、実際には未受診者はいなかった。毎月、受 受診者には、医療機関との連携をとりながら、受診勧奨を図\n診状況を確認している。\nる。\n出生児全件への家庭訪問に努め実施している。.新型コロナウイル 乳児の健やかな成長と母親の育児不安の軽減を図るため、\nス感染症の拡大により、里帰り期間が長期化している方がいるた 引き続き、生後2か月以内の出生児全件への家庭訪問に努\nめ、里帰り先に訪問依頼し、対応している。\nめる。\n前年度の未受診者が年度を超えて受診したため、受診率が100％ 引き続き、利用者が安心して受診できるよう新型コロナウイル\nを超えた。新型コロナウイルス感染症蔓延防止のため、健診の延 ス感染症対策の徹底と受診勧奨を図る。未受診者に対して\n期と感染症対策のための注意喚起の通知が、受診率向上につな は、関係機関との連携により、状況把握を図る。\nがった。\n\n今後（R3年度）\nの方針\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 21
+      },
+      {
+        "name": "児童虐待防止対策の充実",
+        "start": 47559,
+        "raw": "児童虐待防止対策の充実",
+        "titleSegments": [
+          {
+            "start": 47559,
+            "raw": "児童虐待防止対策の充実"
+          }
+        ],
+        "blockStart": 47465,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\nこども未来課\n\n子育て支援係\n\n3 児童虐待防止対策の充実\n\n150 広報啓発活動\n\nこども未来課\n\n子育て支援係\n\n3 児童虐待防止対策の充実\n\n54 議会開催回数\n\nこども未来課\n\n母子保健係\n\n１ 予防接種事業の推進\n\nこども未来課\n\n成長支援係\n\n支援事業\n２ （親子教室・集団療育事業の実施）\n\n要保護児童等対策地域協\n\n56,150 定期予防接種の接種率\n218 支援事業の実施\n\n単位\n\n回/年\n\n3\n\n3\n\n3\n\n3\n\n回/年\n\n2\n\n2\n\n0\n\n2\n\n％\n\n105\n\n85\n\n99.4\n\n86\n\n％\n\n93.8\n\n95.0\n\n93.6\n\n95.0\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n街頭広報については、新型コロナウイルス感染蔓延防止のため、 引き続き、虐待防止啓発物品等を配布し、虐待防止や\n中止とした。園児・児童の保護者に対し虐待防止のチラシを配布、 地域への啓発の意識付けも含め、広報（啓発）活動を\n窓口・健診会場で啓発物品の配布、市内小中学校・医療機関・商 実施する。\n業施設へ虐待防止ポスターの配布を行い、虐待防止に向けた啓\n発ができた。\n新型コロナウイルス感染蔓延防止のため、会議は中止となった。 子ども家庭総合支援拠点の機能強化を図り、虐待予\n会議開催はなかったが、虐待リスクのある家庭に対しては個別に 防・虐待防止のために、関係機関との連携をより密接\nケース会議等を行い医師や児童相談所等の意見を得ることができ に行っていく。\nた。\n新型コロナウイルス感染拡大に伴い、接種控えすることがないよう 引き続き、適正実施をするため医療機関への情報提供と市\n接種勧奨を図った。日本脳炎ワクチン製造会社2社のうち1社が一 民への迅速な情報の周知を行う。適正な時期に予防接種を\n時的製造停止に伴い、供給が間に合わず接種できない方がいた。 受けることができるよう健診や相談にて接種勧奨を図る。\nR2年度より0～2歳児のみの集計。ほとんどが未就園児で年齢が\n小さいことから、保護者に療育の必要性を理解してもらうことが難\nしい。\n\n引き続き、母子保健係と連携を密に行い、必要な支援\nに繋げていく。\n\n今後（R3年度）\nの方針\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 22
+      },
+      {
+        "name": "予防接種事業の推進",
+        "start": 47643,
+        "raw": "予防接種事業の推進",
+        "titleSegments": [
+          {
+            "start": 47643,
+            "raw": "予防接種事業の推進"
+          }
+        ],
+        "blockStart": 47465,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\nこども未来課\n\n子育て支援係\n\n3 児童虐待防止対策の充実\n\n150 広報啓発活動\n\nこども未来課\n\n子育て支援係\n\n3 児童虐待防止対策の充実\n\n54 議会開催回数\n\nこども未来課\n\n母子保健係\n\n１ 予防接種事業の推進\n\nこども未来課\n\n成長支援係\n\n支援事業\n２ （親子教室・集団療育事業の実施）\n\n要保護児童等対策地域協\n\n56,150 定期予防接種の接種率\n218 支援事業の実施\n\n単位\n\n回/年\n\n3\n\n3\n\n3\n\n3\n\n回/年\n\n2\n\n2\n\n0\n\n2\n\n％\n\n105\n\n85\n\n99.4\n\n86\n\n％\n\n93.8\n\n95.0\n\n93.6\n\n95.0\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n街頭広報については、新型コロナウイルス感染蔓延防止のため、 引き続き、虐待防止啓発物品等を配布し、虐待防止や\n中止とした。園児・児童の保護者に対し虐待防止のチラシを配布、 地域への啓発の意識付けも含め、広報（啓発）活動を\n窓口・健診会場で啓発物品の配布、市内小中学校・医療機関・商 実施する。\n業施設へ虐待防止ポスターの配布を行い、虐待防止に向けた啓\n発ができた。\n新型コロナウイルス感染蔓延防止のため、会議は中止となった。 子ども家庭総合支援拠点の機能強化を図り、虐待予\n会議開催はなかったが、虐待リスクのある家庭に対しては個別に 防・虐待防止のために、関係機関との連携をより密接\nケース会議等を行い医師や児童相談所等の意見を得ることができ に行っていく。\nた。\n新型コロナウイルス感染拡大に伴い、接種控えすることがないよう 引き続き、適正実施をするため医療機関への情報提供と市\n接種勧奨を図った。日本脳炎ワクチン製造会社2社のうち1社が一 民への迅速な情報の周知を行う。適正な時期に予防接種を\n時的製造停止に伴い、供給が間に合わず接種できない方がいた。 受けることができるよう健診や相談にて接種勧奨を図る。\nR2年度より0～2歳児のみの集計。ほとんどが未就園児で年齢が\n小さいことから、保護者に療育の必要性を理解してもらうことが難\nしい。\n\n引き続き、母子保健係と連携を密に行い、必要な支援\nに繋げていく。\n\n今後（R3年度）\nの方針\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 22
+      },
+      {
+        "name": "支援事業（親子教室・集団療育事業の実施）",
+        "start": 47669,
+        "raw": "支援事業\n２ （親子教室・集団療育事業の実施）",
+        "titleSegments": [
+          {
+            "start": 47669,
+            "raw": "支援事業"
+          },
+          {
+            "start": 47676,
+            "raw": "（親子教室・集団療育事業の実施）"
+          }
+        ],
+        "blockStart": 47465,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\nこども未来課\n\n子育て支援係\n\n3 児童虐待防止対策の充実\n\n150 広報啓発活動\n\nこども未来課\n\n子育て支援係\n\n3 児童虐待防止対策の充実\n\n54 議会開催回数\n\nこども未来課\n\n母子保健係\n\n１ 予防接種事業の推進\n\nこども未来課\n\n成長支援係\n\n支援事業\n２ （親子教室・集団療育事業の実施）\n\n要保護児童等対策地域協\n\n56,150 定期予防接種の接種率\n218 支援事業の実施\n\n単位\n\n回/年\n\n3\n\n3\n\n3\n\n3\n\n回/年\n\n2\n\n2\n\n0\n\n2\n\n％\n\n105\n\n85\n\n99.4\n\n86\n\n％\n\n93.8\n\n95.0\n\n93.6\n\n95.0\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n街頭広報については、新型コロナウイルス感染蔓延防止のため、 引き続き、虐待防止啓発物品等を配布し、虐待防止や\n中止とした。園児・児童の保護者に対し虐待防止のチラシを配布、 地域への啓発の意識付けも含め、広報（啓発）活動を\n窓口・健診会場で啓発物品の配布、市内小中学校・医療機関・商 実施する。\n業施設へ虐待防止ポスターの配布を行い、虐待防止に向けた啓\n発ができた。\n新型コロナウイルス感染蔓延防止のため、会議は中止となった。 子ども家庭総合支援拠点の機能強化を図り、虐待予\n会議開催はなかったが、虐待リスクのある家庭に対しては個別に 防・虐待防止のために、関係機関との連携をより密接\nケース会議等を行い医師や児童相談所等の意見を得ることができ に行っていく。\nた。\n新型コロナウイルス感染拡大に伴い、接種控えすることがないよう 引き続き、適正実施をするため医療機関への情報提供と市\n接種勧奨を図った。日本脳炎ワクチン製造会社2社のうち1社が一 民への迅速な情報の周知を行う。適正な時期に予防接種を\n時的製造停止に伴い、供給が間に合わず接種できない方がいた。 受けることができるよう健診や相談にて接種勧奨を図る。\nR2年度より0～2歳児のみの集計。ほとんどが未就園児で年齢が\n小さいことから、保護者に療育の必要性を理解してもらうことが難\nしい。\n\n引き続き、母子保健係と連携を密に行い、必要な支援\nに繋げていく。\n\n今後（R3年度）\nの方針\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 22
+      },
+      {
+        "name": "がん検診推進事業（乳がんクーポン）",
+        "start": 50239,
+        "raw": "がん検診推進事業（乳がんクーポン）",
+        "titleSegments": [
+          {
+            "start": 50239,
+            "raw": "がん検診推進事業（乳がんクーポン）"
+          }
+        ],
+        "blockStart": 50053,
+        "blockRaw": "【施策を実現するための業務とその状況】\n係名\n\n指\n標\n№\n\n業務名\n\n国保年金係\n\n1\n\n特定健康診査等事業\n（受診勧奨通知の送付）\n\n担当部署\n課名\n市民課\n\n特定健康診査等事業\n（受診勧奨ハガキの送付）\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n19,199\n（国保特別会計）\n\n市民課\n\n国保年金係\n\n1\n\n健康づくり課\n\n健康増進係\n\n2 がん検診推進事業（乳がんクーポン）\n\n受診率\n\n％\n\n健康づくり課\n\n健康増進係\n\n2 がん検診推進事業（子宮頸がんクーポン）\n\n受診率\n\n％\n\n健康づくり課\n\n健康増進係\n\n2\n出前講座\n3\n\n回数\n\n回\n\n健康づくり課\n\n健康増進係\n\n3 食育推進事業\n\n回数\n\n回\n\n健康づくり課\n\n健康増進係\n\n4\n5 特定保健指導\n6\n\n実施率（初回）\n\n％\n\n健康づくり課\n\n健康増進係\n\n4\n5 訪問指導\n6\n\n回数\n\n回\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n受診勧奨ハガキの送付時期を１１月へと早めて実施した 勧奨対象者の検討を行い、継続して受診勧奨を実施\nが、新型コロナウイルス感染症の影響による受診控えによ することで、受診率向上を目指す。\nり、受診行動に結びつかなかった。\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 23
+      },
+      {
+        "name": "がん検診推進事業（子宮頸がんクーポン）",
+        "start": 50283,
+        "raw": "がん検診推進事業（子宮頸がんクーポン）",
+        "titleSegments": [
+          {
+            "start": 50283,
+            "raw": "がん検診推進事業（子宮頸がんクーポン）"
+          }
+        ],
+        "blockStart": 50053,
+        "blockRaw": "【施策を実現するための業務とその状況】\n係名\n\n指\n標\n№\n\n業務名\n\n国保年金係\n\n1\n\n特定健康診査等事業\n（受診勧奨通知の送付）\n\n担当部署\n課名\n市民課\n\n特定健康診査等事業\n（受診勧奨ハガキの送付）\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n19,199\n（国保特別会計）\n\n市民課\n\n国保年金係\n\n1\n\n健康づくり課\n\n健康増進係\n\n2 がん検診推進事業（乳がんクーポン）\n\n受診率\n\n％\n\n健康づくり課\n\n健康増進係\n\n2 がん検診推進事業（子宮頸がんクーポン）\n\n受診率\n\n％\n\n健康づくり課\n\n健康増進係\n\n2\n出前講座\n3\n\n回数\n\n回\n\n健康づくり課\n\n健康増進係\n\n3 食育推進事業\n\n回数\n\n回\n\n健康づくり課\n\n健康増進係\n\n4\n5 特定保健指導\n6\n\n実施率（初回）\n\n％\n\n健康づくり課\n\n健康増進係\n\n4\n5 訪問指導\n6\n\n回数\n\n回\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n受診勧奨ハガキの送付時期を１１月へと早めて実施した 勧奨対象者の検討を行い、継続して受診勧奨を実施\nが、新型コロナウイルス感染症の影響による受診控えによ することで、受診率向上を目指す。\nり、受診行動に結びつかなかった。\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 23
+      },
+      {
+        "name": "食育推進事業",
+        "start": 50361,
+        "raw": "食育推進事業",
+        "titleSegments": [
+          {
+            "start": 50361,
+            "raw": "食育推進事業"
+          }
+        ],
+        "blockStart": 50053,
+        "blockRaw": "【施策を実現するための業務とその状況】\n係名\n\n指\n標\n№\n\n業務名\n\n国保年金係\n\n1\n\n特定健康診査等事業\n（受診勧奨通知の送付）\n\n担当部署\n課名\n市民課\n\n特定健康診査等事業\n（受診勧奨ハガキの送付）\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n19,199\n（国保特別会計）\n\n市民課\n\n国保年金係\n\n1\n\n健康づくり課\n\n健康増進係\n\n2 がん検診推進事業（乳がんクーポン）\n\n受診率\n\n％\n\n健康づくり課\n\n健康増進係\n\n2 がん検診推進事業（子宮頸がんクーポン）\n\n受診率\n\n％\n\n健康づくり課\n\n健康増進係\n\n2\n出前講座\n3\n\n回数\n\n回\n\n健康づくり課\n\n健康増進係\n\n3 食育推進事業\n\n回数\n\n回\n\n健康づくり課\n\n健康増進係\n\n4\n5 特定保健指導\n6\n\n実施率（初回）\n\n％\n\n健康づくり課\n\n健康増進係\n\n4\n5 訪問指導\n6\n\n回数\n\n回\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n受診勧奨ハガキの送付時期を１１月へと早めて実施した 勧奨対象者の検討を行い、継続して受診勧奨を実施\nが、新型コロナウイルス感染症の影響による受診控えによ することで、受診率向上を目指す。\nり、受診行動に結びつかなかった。\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 23
+      },
+      {
+        "name": "特定保健指導",
+        "start": 50395,
+        "raw": "特定保健指導",
+        "titleSegments": [
+          {
+            "start": 50395,
+            "raw": "特定保健指導"
+          }
+        ],
+        "blockStart": 50053,
+        "blockRaw": "【施策を実現するための業務とその状況】\n係名\n\n指\n標\n№\n\n業務名\n\n国保年金係\n\n1\n\n特定健康診査等事業\n（受診勧奨通知の送付）\n\n担当部署\n課名\n市民課\n\n特定健康診査等事業\n（受診勧奨ハガキの送付）\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n19,199\n（国保特別会計）\n\n市民課\n\n国保年金係\n\n1\n\n健康づくり課\n\n健康増進係\n\n2 がん検診推進事業（乳がんクーポン）\n\n受診率\n\n％\n\n健康づくり課\n\n健康増進係\n\n2 がん検診推進事業（子宮頸がんクーポン）\n\n受診率\n\n％\n\n健康づくり課\n\n健康増進係\n\n2\n出前講座\n3\n\n回数\n\n回\n\n健康づくり課\n\n健康増進係\n\n3 食育推進事業\n\n回数\n\n回\n\n健康づくり課\n\n健康増進係\n\n4\n5 特定保健指導\n6\n\n実施率（初回）\n\n％\n\n健康づくり課\n\n健康増進係\n\n4\n5 訪問指導\n6\n\n回数\n\n回\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n受診勧奨ハガキの送付時期を１１月へと早めて実施した 勧奨対象者の検討を行い、継続して受診勧奨を実施\nが、新型コロナウイルス感染症の影響による受診控えによ することで、受診率向上を目指す。\nり、受診行動に結びつかなかった。\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 23
+      },
+      {
+        "name": "訪問指導",
+        "start": 50436,
+        "raw": "訪問指導",
+        "titleSegments": [
+          {
+            "start": 50436,
+            "raw": "訪問指導"
+          }
+        ],
+        "blockStart": 50053,
+        "blockRaw": "【施策を実現するための業務とその状況】\n係名\n\n指\n標\n№\n\n業務名\n\n国保年金係\n\n1\n\n特定健康診査等事業\n（受診勧奨通知の送付）\n\n担当部署\n課名\n市民課\n\n特定健康診査等事業\n（受診勧奨ハガキの送付）\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n19,199\n（国保特別会計）\n\n市民課\n\n国保年金係\n\n1\n\n健康づくり課\n\n健康増進係\n\n2 がん検診推進事業（乳がんクーポン）\n\n受診率\n\n％\n\n健康づくり課\n\n健康増進係\n\n2 がん検診推進事業（子宮頸がんクーポン）\n\n受診率\n\n％\n\n健康づくり課\n\n健康増進係\n\n2\n出前講座\n3\n\n回数\n\n回\n\n健康づくり課\n\n健康増進係\n\n3 食育推進事業\n\n回数\n\n回\n\n健康づくり課\n\n健康増進係\n\n4\n5 特定保健指導\n6\n\n実施率（初回）\n\n％\n\n健康づくり課\n\n健康増進係\n\n4\n5 訪問指導\n6\n\n回数\n\n回\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n受診勧奨ハガキの送付時期を１１月へと早めて実施した 勧奨対象者の検討を行い、継続して受診勧奨を実施\nが、新型コロナウイルス感染症の影響による受診控えによ することで、受診率向上を目指す。\nり、受診行動に結びつかなかった。\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 23
+      },
+      {
+        "name": "特定健康診査等事業（受診勧奨通知の送付）",
+        "start": 50099,
+        "raw": "特定健康診査等事業\n（受診勧奨通知の送付）",
+        "titleSegments": [
+          {
+            "start": 50099,
+            "raw": "特定健康診査等事業"
+          },
+          {
+            "start": 50109,
+            "raw": "（受診勧奨通知の送付）"
+          }
+        ],
+        "blockStart": 50053,
+        "blockRaw": "【施策を実現するための業務とその状況】\n係名\n\n指\n標\n№\n\n業務名\n\n国保年金係\n\n1\n\n特定健康診査等事業\n（受診勧奨通知の送付）\n\n担当部署\n課名\n市民課\n\n特定健康診査等事業\n（受診勧奨ハガキの送付）\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n19,199\n（国保特別会計）\n\n市民課\n\n国保年金係\n\n1\n\n健康づくり課\n\n健康増進係\n\n2 がん検診推進事業（乳がんクーポン）\n\n受診率\n\n％\n\n健康づくり課\n\n健康増進係\n\n2 がん検診推進事業（子宮頸がんクーポン）\n\n受診率\n\n％\n\n健康づくり課\n\n健康増進係\n\n2\n出前講座\n3\n\n回数\n\n回\n\n健康づくり課\n\n健康増進係\n\n3 食育推進事業\n\n回数\n\n回\n\n健康づくり課\n\n健康増進係\n\n4\n5 特定保健指導\n6\n\n実施率（初回）\n\n％\n\n健康づくり課\n\n健康増進係\n\n4\n5 訪問指導\n6\n\n回数\n\n回\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n受診勧奨ハガキの送付時期を１１月へと早めて実施した 勧奨対象者の検討を行い、継続して受診勧奨を実施\nが、新型コロナウイルス感染症の影響による受診控えによ することで、受診率向上を目指す。\nり、受診行動に結びつかなかった。\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 23
+      },
+      {
+        "name": "特定健康診査等事業（受診勧奨ハガキの送付）",
+        "start": 50135,
+        "raw": "特定健康診査等事業\n（受診勧奨ハガキの送付）",
+        "titleSegments": [
+          {
+            "start": 50135,
+            "raw": "特定健康診査等事業"
+          },
+          {
+            "start": 50145,
+            "raw": "（受診勧奨ハガキの送付）"
+          }
+        ],
+        "blockStart": 50053,
+        "blockRaw": "【施策を実現するための業務とその状況】\n係名\n\n指\n標\n№\n\n業務名\n\n国保年金係\n\n1\n\n特定健康診査等事業\n（受診勧奨通知の送付）\n\n担当部署\n課名\n市民課\n\n特定健康診査等事業\n（受診勧奨ハガキの送付）\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n19,199\n（国保特別会計）\n\n市民課\n\n国保年金係\n\n1\n\n健康づくり課\n\n健康増進係\n\n2 がん検診推進事業（乳がんクーポン）\n\n受診率\n\n％\n\n健康づくり課\n\n健康増進係\n\n2 がん検診推進事業（子宮頸がんクーポン）\n\n受診率\n\n％\n\n健康づくり課\n\n健康増進係\n\n2\n出前講座\n3\n\n回数\n\n回\n\n健康づくり課\n\n健康増進係\n\n3 食育推進事業\n\n回数\n\n回\n\n健康づくり課\n\n健康増進係\n\n4\n5 特定保健指導\n6\n\n実施率（初回）\n\n％\n\n健康づくり課\n\n健康増進係\n\n4\n5 訪問指導\n6\n\n回数\n\n回\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n受診勧奨ハガキの送付時期を１１月へと早めて実施した 勧奨対象者の検討を行い、継続して受診勧奨を実施\nが、新型コロナウイルス感染症の影響による受診控えによ することで、受診率向上を目指す。\nり、受診行動に結びつかなかった。\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 23
+      },
+      {
+        "name": "出前講座",
+        "start": 50329,
+        "raw": "出前講座",
+        "titleSegments": [
+          {
+            "start": 50329,
+            "raw": "出前講座"
+          }
+        ],
+        "blockStart": 50053,
+        "blockRaw": "【施策を実現するための業務とその状況】\n係名\n\n指\n標\n№\n\n業務名\n\n国保年金係\n\n1\n\n特定健康診査等事業\n（受診勧奨通知の送付）\n\n担当部署\n課名\n市民課\n\n特定健康診査等事業\n（受診勧奨ハガキの送付）\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n19,199\n（国保特別会計）\n\n市民課\n\n国保年金係\n\n1\n\n健康づくり課\n\n健康増進係\n\n2 がん検診推進事業（乳がんクーポン）\n\n受診率\n\n％\n\n健康づくり課\n\n健康増進係\n\n2 がん検診推進事業（子宮頸がんクーポン）\n\n受診率\n\n％\n\n健康づくり課\n\n健康増進係\n\n2\n出前講座\n3\n\n回数\n\n回\n\n健康づくり課\n\n健康増進係\n\n3 食育推進事業\n\n回数\n\n回\n\n健康づくり課\n\n健康増進係\n\n4\n5 特定保健指導\n6\n\n実施率（初回）\n\n％\n\n健康づくり課\n\n健康増進係\n\n4\n5 訪問指導\n6\n\n回数\n\n回\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n受診勧奨ハガキの送付時期を１１月へと早めて実施した 勧奨対象者の検討を行い、継続して受診勧奨を実施\nが、新型コロナウイルス感染症の影響による受診控えによ することで、受診率向上を目指す。\nり、受診行動に結びつかなかった。\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 23
+      },
+      {
+        "name": "乳がん検診（40歳以上）",
+        "start": 52814,
+        "raw": "乳がん検診（40歳以上）",
+        "titleSegments": [
+          {
+            "start": 52814,
+            "raw": "乳がん検診（40歳以上）"
+          }
+        ],
+        "blockStart": 52349,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n40\n\n感染拡大の影響により事業の延期等があった。そのため\n受診率が伸びず目標を達成することができなかった。\n\n感染症予防対策を確実に実施した上で事業実施を行\nう。また、健診が必要な方が確実に受診をできるような\n体制を整えていく。\n\n改善・効率化\n\n20\n\n80\n\n感染症拡大により、講座の開催に制約がかかる中で依頼\n件数も減少し、目標を達成することができなかった。\n\n対面での講座以外にも、資料の提供やWEB形式で実施するなど、\n様々な方法を駆使し健康教育の推進を進めたい。\nまた、市内企業への健康講座の周知を関係各所と連携し、強化してい\nきたい。\n\n改善・効率化\n\n35\n\n30\n\n30\n\n49\n\n49\n\n52\n\n52\n\n409\n\n400\n\n402\n\n400\n\n課名\n\n係名\n\n健康づくり課\n\n健康増進係\n\n2 乳がん検診（40歳以上）\n\n健康づくり課\n\n健康増進係\n\n2\n出前講座\n3\n\n84 回数\n\n回\n\n90\n\n45\n\n健康づくり課\n\n健康増進係\n\n3 食育推進事業\n\n73 回数\n\n回\n\n50\n\n健康づくり課\n\n健康増進係\n\n4\n5 特定保健指導\n6\n\n％\n\n健康づくり課\n\n健康増進係\n\n4\n5 訪問指導\n6\n\n0 回数\n\n回\n\n市民課\n\n国保年金係\n\n1\n\n特定健康診査等事業\n（受診勧奨通知の送付）\n\n回数\n\n回\n\n市民課\n\n国保年金係\n\n特定健康診査等事業\n1 （受診勧奨ハガキの送付）\n\n回数\n\n回\n\n2,530 実施率（初回）\n\n1/1\n\n目標の達成には至らなかった。新型コロナウイルス感染拡大および予防の 感染対策を徹底したクッキングの実施や、講話のみの実施等、方法を\nため、予定されていた食育の機会が減ったことが影響している。特に高齢者 検討する。事業については養護教諭連絡会や各園への周知を継続、\nや幼稚園児へのクッキング支援が減少し、回数の減少につながった。\nまた、高齢者へ低栄養予防を教育するため、高齢者支援課と協力して\nいく。\n\n目標を達成できた。結果票に案内通知を同封し、早期に働 引き続き、結果票に案内通知を同封し、実施率向上を\nきかけたことが実施率向上の要因として考えられる。\n目指す。\n目標を達成できた。従事者数減少に伴い、重症化予防事 市の現状を踏まえ、高血圧予防に注力し、訪問指導を\n業において対象者を絞ったが、特定保健指導等の対象者 実施する。\n数増加により、実施回数は例年並みとなった。\n\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 24
+      },
+      {
+        "name": "生活支援体制整備事業",
+        "start": 54989,
+        "raw": "生活支援体制整備事業",
+        "titleSegments": [
+          {
+            "start": 54989,
+            "raw": "生活支援体制整備事業"
+          }
+        ],
+        "blockStart": 54926,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n高齢者支援課\n\n高齢者福祉係\n\n１ 生活支援体制整備事業\n\n高齢者支援課\n\n介護保険係\n包括支援係\n\n介護給付費用適正化事業\n２ 介護予防ケアマネジメント事業\n\n高齢者支援課\n\n高齢者福祉係\n包括支援係\n介護認定係\n\n介護予防・生活支援サービス事業\n３ 一般介護予防事業\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n3,390 地区協議体数\n受給者1人当たりの介護\n\n197 費県内順位\n\n要介護（要支援）認定者の\n46,668 平均年齢\n\n50,255\n\n単位\n組織\n\n7\n\n7\n\n7\n\n7\n\n位\n\n32\n\n30\n\n33\n\n30\n\n歳\n\n84.6\n\n85.6\n\n84.2\n\n85.0\n\n評価（課題、問題点など）\nそれぞれの地域で主体的に取り組みを始めているが、行政支援の在り方が\n共通認識されていないため、行政に対する期待が大きい。市内の社会資源\nマップを作成するため、書式や作成方法について協議した。社会資源マップ\nを通して既存の社会資源を市民に「見える化」する。\n\n業務改善の方向性\n地域への支援・協力の在り方の理解を促すとともに、地域が主体的に\n取り組めるように支援する。社会資源を把握し有効利用するとともに、\n課題解決に必要な資源を検討する。生活支援コーディネーターと連携\n体制を密にして情報収集をする。\n\n給付率が高い利用者を中心に自立度とサービス内容を確認し、多種職を交 居宅サービスの費用額が高いため、サービス利用状況等を分析し、事\nえたケアプラン会議を行った。利用者の状態に合ったサービス提供となって 業者への指導を継続して実施していくことで、適正なサービス利用に\nいるか評価し、介護支援専門員に助言等を行い気づきを促すことで、介護給 繋げ、給付費の抑制に努める。\n付費の抑制に繋がった。\n総合事業対象者を把握し、適正な介護予防サービスへ繋げた。早期の介護予防に繋げ\nるため、高齢者の保健事業と介護予防の一体化実施に向け計画をし、予防を必要とす\nる潜在的な人を見つける必要がある。\n\n高齢者の保健事業と介護予防の一体化実施に向けて、若い\n世代の介護予防に努め、新規認定年齢を遅らせる支援をす\nる。\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 25
+      },
+      {
+        "name": "介護予防ケアマネジメント事業",
+        "start": 55036,
+        "raw": "介護予防ケアマネジメント事業",
+        "titleSegments": [
+          {
+            "start": 55036,
+            "raw": "介護予防ケアマネジメント事業"
+          }
+        ],
+        "blockStart": 54926,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n高齢者支援課\n\n高齢者福祉係\n\n１ 生活支援体制整備事業\n\n高齢者支援課\n\n介護保険係\n包括支援係\n\n介護給付費用適正化事業\n２ 介護予防ケアマネジメント事業\n\n高齢者支援課\n\n高齢者福祉係\n包括支援係\n介護認定係\n\n介護予防・生活支援サービス事業\n３ 一般介護予防事業\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n3,390 地区協議体数\n受給者1人当たりの介護\n\n197 費県内順位\n\n要介護（要支援）認定者の\n46,668 平均年齢\n\n50,255\n\n単位\n組織\n\n7\n\n7\n\n7\n\n7\n\n位\n\n32\n\n30\n\n33\n\n30\n\n歳\n\n84.6\n\n85.6\n\n84.2\n\n85.0\n\n評価（課題、問題点など）\nそれぞれの地域で主体的に取り組みを始めているが、行政支援の在り方が\n共通認識されていないため、行政に対する期待が大きい。市内の社会資源\nマップを作成するため、書式や作成方法について協議した。社会資源マップ\nを通して既存の社会資源を市民に「見える化」する。\n\n業務改善の方向性\n地域への支援・協力の在り方の理解を促すとともに、地域が主体的に\n取り組めるように支援する。社会資源を把握し有効利用するとともに、\n課題解決に必要な資源を検討する。生活支援コーディネーターと連携\n体制を密にして情報収集をする。\n\n給付率が高い利用者を中心に自立度とサービス内容を確認し、多種職を交 居宅サービスの費用額が高いため、サービス利用状況等を分析し、事\nえたケアプラン会議を行った。利用者の状態に合ったサービス提供となって 業者への指導を継続して実施していくことで、適正なサービス利用に\nいるか評価し、介護支援専門員に助言等を行い気づきを促すことで、介護給 繋げ、給付費の抑制に努める。\n付費の抑制に繋がった。\n総合事業対象者を把握し、適正な介護予防サービスへ繋げた。早期の介護予防に繋げ\nるため、高齢者の保健事業と介護予防の一体化実施に向け計画をし、予防を必要とす\nる潜在的な人を見つける必要がある。\n\n高齢者の保健事業と介護予防の一体化実施に向けて、若い\n世代の介護予防に努め、新規認定年齢を遅らせる支援をす\nる。\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 25
+      },
+      {
+        "name": "一般介護予防事業",
+        "start": 55098,
+        "raw": "一般介護予防事業",
+        "titleSegments": [
+          {
+            "start": 55098,
+            "raw": "一般介護予防事業"
+          }
+        ],
+        "blockStart": 54926,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n高齢者支援課\n\n高齢者福祉係\n\n１ 生活支援体制整備事業\n\n高齢者支援課\n\n介護保険係\n包括支援係\n\n介護給付費用適正化事業\n２ 介護予防ケアマネジメント事業\n\n高齢者支援課\n\n高齢者福祉係\n包括支援係\n介護認定係\n\n介護予防・生活支援サービス事業\n３ 一般介護予防事業\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n3,390 地区協議体数\n受給者1人当たりの介護\n\n197 費県内順位\n\n要介護（要支援）認定者の\n46,668 平均年齢\n\n50,255\n\n単位\n組織\n\n7\n\n7\n\n7\n\n7\n\n位\n\n32\n\n30\n\n33\n\n30\n\n歳\n\n84.6\n\n85.6\n\n84.2\n\n85.0\n\n評価（課題、問題点など）\nそれぞれの地域で主体的に取り組みを始めているが、行政支援の在り方が\n共通認識されていないため、行政に対する期待が大きい。市内の社会資源\nマップを作成するため、書式や作成方法について協議した。社会資源マップ\nを通して既存の社会資源を市民に「見える化」する。\n\n業務改善の方向性\n地域への支援・協力の在り方の理解を促すとともに、地域が主体的に\n取り組めるように支援する。社会資源を把握し有効利用するとともに、\n課題解決に必要な資源を検討する。生活支援コーディネーターと連携\n体制を密にして情報収集をする。\n\n給付率が高い利用者を中心に自立度とサービス内容を確認し、多種職を交 居宅サービスの費用額が高いため、サービス利用状況等を分析し、事\nえたケアプラン会議を行った。利用者の状態に合ったサービス提供となって 業者への指導を継続して実施していくことで、適正なサービス利用に\nいるか評価し、介護支援専門員に助言等を行い気づきを促すことで、介護給 繋げ、給付費の抑制に努める。\n付費の抑制に繋がった。\n総合事業対象者を把握し、適正な介護予防サービスへ繋げた。早期の介護予防に繋げ\nるため、高齢者の保健事業と介護予防の一体化実施に向け計画をし、予防を必要とす\nる潜在的な人を見つける必要がある。\n\n高齢者の保健事業と介護予防の一体化実施に向けて、若い\n世代の介護予防に努め、新規認定年齢を遅らせる支援をす\nる。\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 25
+      },
+      {
+        "name": "手話奉仕員養成講座",
+        "start": 57515,
+        "raw": "手話奉仕員養成講座",
+        "titleSegments": [
+          {
+            "start": 57515,
+            "raw": "手話奉仕員養成講座"
+          }
+        ],
+        "blockStart": 57418,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n福祉課\n\n福祉課\n\n福祉課\n\n福祉課\n\n係名\n障がい支援係\n\n障がい支援係\n\n障がい支援係\n\n障がい支援係\n\n指\n標\n№\n\n業務名\n\n1 手話奉仕員養成講座\n\n2 障害者就業・生活支援センター連絡会\n\n3 研修会や講演会の開催\n\n4 啓発広報事業\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n0 講座終了者数\n\n0 開催回数\n\n0 参加人数\n\n142 件数\n\n回\n\n人\n\n件\n\n2\n\n619\n\n2\n\n3\n\n300\n\n2\n\n1/1\n\n評価（課題、問題点など）\n講座開催に向けての準備は進めていたが、新型コロナウ\nイルスの影響で、やむを得ず全ての講座を中止とした。\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n後期総合計画\nに変更\n\n2\n\n新型コロナウイルスの影響で書面開催となった。障害者就\n労の現状・生活支援センターにおける就労支援事業の実\n績や支援内容について、関係機関との共有・連携を図っ\nた。\n\n後期総合計画\nに変更\n\n73\n\n新型コロナウイルスの影響で、こころの講演会及び家族教\n室は、やむを得ず開催を取り止めた。ゲートキーパ―養成\n講座については、ボランティア登録者、民生委員、市役所\n新規採用職員を対象に開催し、自殺を取り巻く現状やゲー\nトキーパーの役割について理解を深めた。\n\n後期総合計画\nに変更\n\n2\n\n障害者週間及び自殺予防週間を利用し、啓発品の配布に\nよる普及・啓発を図った。また、障害者差別解消法の周知\nを図るため、手話言語条例パンフレットの配布や、市役所\n全職員に対するeラーニング研修の受講を通じて、合理的\n配慮等への啓発を図った。\n\n後期総合計画\nに変更\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 26
+      },
+      {
+        "name": "障害者就業・生活支援センター連絡会",
+        "start": 57528,
+        "raw": "障害者就業・生活支援センター連絡会",
+        "titleSegments": [
+          {
+            "start": 57528,
+            "raw": "障害者就業・生活支援センター連絡会"
+          }
+        ],
+        "blockStart": 57418,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n福祉課\n\n福祉課\n\n福祉課\n\n福祉課\n\n係名\n障がい支援係\n\n障がい支援係\n\n障がい支援係\n\n障がい支援係\n\n指\n標\n№\n\n業務名\n\n1 手話奉仕員養成講座\n\n2 障害者就業・生活支援センター連絡会\n\n3 研修会や講演会の開催\n\n4 啓発広報事業\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n0 講座終了者数\n\n0 開催回数\n\n0 参加人数\n\n142 件数\n\n回\n\n人\n\n件\n\n2\n\n619\n\n2\n\n3\n\n300\n\n2\n\n1/1\n\n評価（課題、問題点など）\n講座開催に向けての準備は進めていたが、新型コロナウ\nイルスの影響で、やむを得ず全ての講座を中止とした。\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n後期総合計画\nに変更\n\n2\n\n新型コロナウイルスの影響で書面開催となった。障害者就\n労の現状・生活支援センターにおける就労支援事業の実\n績や支援内容について、関係機関との共有・連携を図っ\nた。\n\n後期総合計画\nに変更\n\n73\n\n新型コロナウイルスの影響で、こころの講演会及び家族教\n室は、やむを得ず開催を取り止めた。ゲートキーパ―養成\n講座については、ボランティア登録者、民生委員、市役所\n新規採用職員を対象に開催し、自殺を取り巻く現状やゲー\nトキーパーの役割について理解を深めた。\n\n後期総合計画\nに変更\n\n2\n\n障害者週間及び自殺予防週間を利用し、啓発品の配布に\nよる普及・啓発を図った。また、障害者差別解消法の周知\nを図るため、手話言語条例パンフレットの配布や、市役所\n全職員に対するeラーニング研修の受講を通じて、合理的\n配慮等への啓発を図った。\n\n後期総合計画\nに変更\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 26
+      },
+      {
+        "name": "研修会や講演会の開催",
+        "start": 57549,
+        "raw": "研修会や講演会の開催",
+        "titleSegments": [
+          {
+            "start": 57549,
+            "raw": "研修会や講演会の開催"
+          }
+        ],
+        "blockStart": 57418,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n福祉課\n\n福祉課\n\n福祉課\n\n福祉課\n\n係名\n障がい支援係\n\n障がい支援係\n\n障がい支援係\n\n障がい支援係\n\n指\n標\n№\n\n業務名\n\n1 手話奉仕員養成講座\n\n2 障害者就業・生活支援センター連絡会\n\n3 研修会や講演会の開催\n\n4 啓発広報事業\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n0 講座終了者数\n\n0 開催回数\n\n0 参加人数\n\n142 件数\n\n回\n\n人\n\n件\n\n2\n\n619\n\n2\n\n3\n\n300\n\n2\n\n1/1\n\n評価（課題、問題点など）\n講座開催に向けての準備は進めていたが、新型コロナウ\nイルスの影響で、やむを得ず全ての講座を中止とした。\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n後期総合計画\nに変更\n\n2\n\n新型コロナウイルスの影響で書面開催となった。障害者就\n労の現状・生活支援センターにおける就労支援事業の実\n績や支援内容について、関係機関との共有・連携を図っ\nた。\n\n後期総合計画\nに変更\n\n73\n\n新型コロナウイルスの影響で、こころの講演会及び家族教\n室は、やむを得ず開催を取り止めた。ゲートキーパ―養成\n講座については、ボランティア登録者、民生委員、市役所\n新規採用職員を対象に開催し、自殺を取り巻く現状やゲー\nトキーパーの役割について理解を深めた。\n\n後期総合計画\nに変更\n\n2\n\n障害者週間及び自殺予防週間を利用し、啓発品の配布に\nよる普及・啓発を図った。また、障害者差別解消法の周知\nを図るため、手話言語条例パンフレットの配布や、市役所\n全職員に対するeラーニング研修の受講を通じて、合理的\n配慮等への啓発を図った。\n\n後期総合計画\nに変更\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 26
+      },
+      {
+        "name": "啓発広報事業",
+        "start": 57563,
+        "raw": "啓発広報事業",
+        "titleSegments": [
+          {
+            "start": 57563,
+            "raw": "啓発広報事業"
+          }
+        ],
+        "blockStart": 57418,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n福祉課\n\n福祉課\n\n福祉課\n\n福祉課\n\n係名\n障がい支援係\n\n障がい支援係\n\n障がい支援係\n\n障がい支援係\n\n指\n標\n№\n\n業務名\n\n1 手話奉仕員養成講座\n\n2 障害者就業・生活支援センター連絡会\n\n3 研修会や講演会の開催\n\n4 啓発広報事業\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n0 講座終了者数\n\n0 開催回数\n\n0 参加人数\n\n142 件数\n\n回\n\n人\n\n件\n\n2\n\n619\n\n2\n\n3\n\n300\n\n2\n\n1/1\n\n評価（課題、問題点など）\n講座開催に向けての準備は進めていたが、新型コロナウ\nイルスの影響で、やむを得ず全ての講座を中止とした。\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n後期総合計画\nに変更\n\n2\n\n新型コロナウイルスの影響で書面開催となった。障害者就\n労の現状・生活支援センターにおける就労支援事業の実\n績や支援内容について、関係機関との共有・連携を図っ\nた。\n\n後期総合計画\nに変更\n\n73\n\n新型コロナウイルスの影響で、こころの講演会及び家族教\n室は、やむを得ず開催を取り止めた。ゲートキーパ―養成\n講座については、ボランティア登録者、民生委員、市役所\n新規採用職員を対象に開催し、自殺を取り巻く現状やゲー\nトキーパーの役割について理解を深めた。\n\n後期総合計画\nに変更\n\n2\n\n障害者週間及び自殺予防週間を利用し、啓発品の配布に\nよる普及・啓発を図った。また、障害者差別解消法の周知\nを図るため、手話言語条例パンフレットの配布や、市役所\n全職員に対するeラーニング研修の受講を通じて、合理的\n配慮等への啓発を図った。\n\n後期総合計画\nに変更\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 26
+      },
+      {
+        "name": "支援調整会議等(民生・児童委員や保護司などの活動支援も含む）",
+        "start": 59773,
+        "raw": "支援調整会議等\n1 (民生・児童委員や保護司などの活動支\n援も含む）",
+        "titleSegments": [
+          {
+            "start": 59773,
+            "raw": "支援調整会議等"
+          },
+          {
+            "start": 59783,
+            "raw": "(民生・児童委員や保護司などの活動支"
+          },
+          {
+            "start": 59802,
+            "raw": "援も含む）"
+          }
+        ],
+        "blockStart": 59720,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n福祉課\n\n係名\n保護係\n\n指\n標\n№\n\n業務名\n\n支援調整会議等\n1 (民生・児童委員や保護司などの活動支\n援も含む）\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n8,639 相談対応率\n\nスキルアップ研修へ参加\n\n福祉課\n\n保護係\n\n2 相談支援活動施策\n\n2,049 数\n\n回\n\n2\n\n2\n\n1\n\n福祉課\n\n保護係\n\n3 就労支援活動施策\n\n2,210 支援対応率\n\n％\n\n100\n\n100\n\n100\n\n1/1\n\n評価（課題、問題点など）\n各組織との円滑な連携の下、支援を行えるようになってき\nているが、本人が支援を希望しないため、相談のみとなっ\nているケースも多くある。\n令和２年度は、新型コロナウイルス感染症の影響により中\n止となった研修等もあり、十分なスキルアップを図ることが\nできたとまでは言えないが、相談件数の大幅な増加によ\nり、実務経験が増えたことで、相談支援のスキルは大幅に\nアップしたと考える。\n就労支援が必要な方の中には、高齢者や病気（障害）等の\n理由により、普通就労が困難な方も増えている。特に障害\n認定を受けていない方への就労支援が課題となっている。\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n後期総合計画\nに変更\n\n後期総合計画\nに変更\n\n後期総合計画\nに変更\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 27
+      },
+      {
+        "name": "相談支援活動施策",
+        "start": 59878,
+        "raw": "相談支援活動施策",
+        "titleSegments": [
+          {
+            "start": 59878,
+            "raw": "相談支援活動施策"
+          }
+        ],
+        "blockStart": 59720,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n福祉課\n\n係名\n保護係\n\n指\n標\n№\n\n業務名\n\n支援調整会議等\n1 (民生・児童委員や保護司などの活動支\n援も含む）\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n8,639 相談対応率\n\nスキルアップ研修へ参加\n\n福祉課\n\n保護係\n\n2 相談支援活動施策\n\n2,049 数\n\n回\n\n2\n\n2\n\n1\n\n福祉課\n\n保護係\n\n3 就労支援活動施策\n\n2,210 支援対応率\n\n％\n\n100\n\n100\n\n100\n\n1/1\n\n評価（課題、問題点など）\n各組織との円滑な連携の下、支援を行えるようになってき\nているが、本人が支援を希望しないため、相談のみとなっ\nているケースも多くある。\n令和２年度は、新型コロナウイルス感染症の影響により中\n止となった研修等もあり、十分なスキルアップを図ることが\nできたとまでは言えないが、相談件数の大幅な増加によ\nり、実務経験が増えたことで、相談支援のスキルは大幅に\nアップしたと考える。\n就労支援が必要な方の中には、高齢者や病気（障害）等の\n理由により、普通就労が困難な方も増えている。特に障害\n認定を受けていない方への就労支援が課題となっている。\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n後期総合計画\nに変更\n\n後期総合計画\nに変更\n\n後期総合計画\nに変更\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 27
+      },
+      {
+        "name": "就労支援活動施策",
+        "start": 59921,
+        "raw": "就労支援活動施策",
+        "titleSegments": [
+          {
+            "start": 59921,
+            "raw": "就労支援活動施策"
+          }
+        ],
+        "blockStart": 59720,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n福祉課\n\n係名\n保護係\n\n指\n標\n№\n\n業務名\n\n支援調整会議等\n1 (民生・児童委員や保護司などの活動支\n援も含む）\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n8,639 相談対応率\n\nスキルアップ研修へ参加\n\n福祉課\n\n保護係\n\n2 相談支援活動施策\n\n2,049 数\n\n回\n\n2\n\n2\n\n1\n\n福祉課\n\n保護係\n\n3 就労支援活動施策\n\n2,210 支援対応率\n\n％\n\n100\n\n100\n\n100\n\n1/1\n\n評価（課題、問題点など）\n各組織との円滑な連携の下、支援を行えるようになってき\nているが、本人が支援を希望しないため、相談のみとなっ\nているケースも多くある。\n令和２年度は、新型コロナウイルス感染症の影響により中\n止となった研修等もあり、十分なスキルアップを図ることが\nできたとまでは言えないが、相談件数の大幅な増加によ\nり、実務経験が増えたことで、相談支援のスキルは大幅に\nアップしたと考える。\n就労支援が必要な方の中には、高齢者や病気（障害）等の\n理由により、普通就労が困難な方も増えている。特に障害\n認定を受けていない方への就労支援が課題となっている。\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n後期総合計画\nに変更\n\n後期総合計画\nに変更\n\n後期総合計画\nに変更\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 27
+      },
+      {
+        "name": "地域連携だよりの発行",
+        "start": 61902,
+        "raw": "地域連携だよりの発行",
+        "titleSegments": [
+          {
+            "start": 61902,
+            "raw": "地域連携だよりの発行"
+          }
+        ],
+        "blockStart": 61840,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n病院医事企画課 地域連携室\n\n1 地域連携だよりの発行\n\n病院医事企画課 地域連携室\n\n1\n\n病院医事企画課 地域連携室\n\nふじのくにねっと加入のご案内\n3.4 （登録申込患者数）\n\n外来担当表および医師異動連絡票送付\n医師会への紹介率報告\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n14 申請件数（人数）\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n４回発行済。課題としては掲載内容が、興味をもっていた\nだける内容となっているか\n\n病院機能や医師の専門分野、当院の実績等、開業医\nが患者を紹介する上で、参考となる情報を掲載してい\nく。\n\n現状維持\n\n12回報告済。\n\n今後も連携機関への紹介の際は、開示処理をスムー\nズに行えるよう継続する。\n\n４月～７月末までの実績の月平均としては目標達成。８月 紹介・受入れ時のふじのくにねっと利用の口頭同意確\nより運用変更があり、申込書の記入が不要となったため、 認は引き続き行うが、申込書の作成は不要なため、作\n指標の集計不可。\n業終了\n\n現状維持\n\n終了\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 28
+      },
+      {
+        "name": "ふじのくにねっと加入のご案内（登録申込患者数）",
+        "start": 61947,
+        "raw": "ふじのくにねっと加入のご案内\n3.4 （登録申込患者数）",
+        "titleSegments": [
+          {
+            "start": 61947,
+            "raw": "ふじのくにねっと加入のご案内"
+          },
+          {
+            "start": 61966,
+            "raw": "（登録申込患者数）"
+          }
+        ],
+        "blockStart": 61840,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n病院医事企画課 地域連携室\n\n1 地域連携だよりの発行\n\n病院医事企画課 地域連携室\n\n1\n\n病院医事企画課 地域連携室\n\nふじのくにねっと加入のご案内\n3.4 （登録申込患者数）\n\n外来担当表および医師異動連絡票送付\n医師会への紹介率報告\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n14 申請件数（人数）\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n４回発行済。課題としては掲載内容が、興味をもっていた\nだける内容となっているか\n\n病院機能や医師の専門分野、当院の実績等、開業医\nが患者を紹介する上で、参考となる情報を掲載してい\nく。\n\n現状維持\n\n12回報告済。\n\n今後も連携機関への紹介の際は、開示処理をスムー\nズに行えるよう継続する。\n\n４月～７月末までの実績の月平均としては目標達成。８月 紹介・受入れ時のふじのくにねっと利用の口頭同意確\nより運用変更があり、申込書の記入が不要となったため、 認は引き続き行うが、申込書の作成は不要なため、作\n指標の集計不可。\n業終了\n\n現状維持\n\n終了\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 28
+      },
+      {
+        "name": "外来担当表および医師異動連絡票送付医師会への紹介率報告",
+        "start": 61977,
+        "raw": "外来担当表および医師異動連絡票送付\n医師会への紹介率報告",
+        "titleSegments": [
+          {
+            "start": 61977,
+            "raw": "外来担当表および医師異動連絡票送付"
+          },
+          {
+            "start": 61995,
+            "raw": "医師会への紹介率報告"
+          }
+        ],
+        "blockStart": 61840,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n病院医事企画課 地域連携室\n\n1 地域連携だよりの発行\n\n病院医事企画課 地域連携室\n\n1\n\n病院医事企画課 地域連携室\n\nふじのくにねっと加入のご案内\n3.4 （登録申込患者数）\n\n外来担当表および医師異動連絡票送付\n医師会への紹介率報告\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n14 申請件数（人数）\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n４回発行済。課題としては掲載内容が、興味をもっていた\nだける内容となっているか\n\n病院機能や医師の専門分野、当院の実績等、開業医\nが患者を紹介する上で、参考となる情報を掲載してい\nく。\n\n現状維持\n\n12回報告済。\n\n今後も連携機関への紹介の際は、開示処理をスムー\nズに行えるよう継続する。\n\n４月～７月末までの実績の月平均としては目標達成。８月 紹介・受入れ時のふじのくにねっと利用の口頭同意確\nより運用変更があり、申込書の記入が不要となったため、 認は引き続き行うが、申込書の作成は不要なため、作\n指標の集計不可。\n業終了\n\n現状維持\n\n終了\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 28
+      },
+      {
+        "name": "医療機器等整備支援",
+        "start": 63903,
+        "raw": "医療機器等整備支援",
+        "titleSegments": [
+          {
+            "start": 63903,
+            "raw": "医療機器等整備支援"
+          }
+        ],
+        "blockStart": 63785,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n課名\n\n係名\n\n健康づくり課\n\n地域医療係\n\n1 医療機器等整備支援\n\n健康づくり課\n\n地域医療係\n\n2 地域医療連携\n\n∸ 御前崎市意見交換会\n\n回\n\n4\n\n4\n\n5\n\n4\n\n各種委員会を開催し、目標を達成することができた。病院\n中長期計画については、次年度以降、国からの策定指示\nが示されていない。\n\n健康づくり課\n\n地域医療係\n\n2 災害時救護\n\n∸ 救護所運営部会\n\n回\n\n4\n\n4\n\n1\n\n2\n\n御前崎地区救護所がしろわクリニックに変更されたため運用マニュ 関係者との連携を深め、より良い救護所運営に向け\nアルを作成したが、コロナ禍により実施検証が行えていない。医療 て、今後も引き続き開催する。白羽救護所のマニュア\n資機材の入替を実施し災害時の体制を整えた。\nルの検証を実施し再検討を図る。\n\n健康づくり課\n\n地域医療係\n\n2 御前崎市地域医療を育む会補助\n\n回\n\n6\n\n6\n\n3\n\n3\n\n11,181 医療機器導入\n小笠医師会・榛原医師会・\n\n病院または市との協力事\n\n150 業\n\n1/1\n\nコロナ禍により制限がかかり積極的な活動が行えなかっ\nた。\n\n中長期計画について、国からの策定指示があるまで\nの間は現計画をもとに暫定的な計画を実施する。\n\n育む会の活動を周知し、活動の輪を広げるため、情報\n発信について育む会と協力して取り組む。\n\n今後（R3年度）\nの方針\n現状維持\n\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 29
+      },
+      {
+        "name": "地域医療連携",
+        "start": 63931,
+        "raw": "地域医療連携",
+        "titleSegments": [
+          {
+            "start": 63931,
+            "raw": "地域医療連携"
+          }
+        ],
+        "blockStart": 63785,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n課名\n\n係名\n\n健康づくり課\n\n地域医療係\n\n1 医療機器等整備支援\n\n健康づくり課\n\n地域医療係\n\n2 地域医療連携\n\n∸ 御前崎市意見交換会\n\n回\n\n4\n\n4\n\n5\n\n4\n\n各種委員会を開催し、目標を達成することができた。病院\n中長期計画については、次年度以降、国からの策定指示\nが示されていない。\n\n健康づくり課\n\n地域医療係\n\n2 災害時救護\n\n∸ 救護所運営部会\n\n回\n\n4\n\n4\n\n1\n\n2\n\n御前崎地区救護所がしろわクリニックに変更されたため運用マニュ 関係者との連携を深め、より良い救護所運営に向け\nアルを作成したが、コロナ禍により実施検証が行えていない。医療 て、今後も引き続き開催する。白羽救護所のマニュア\n資機材の入替を実施し災害時の体制を整えた。\nルの検証を実施し再検討を図る。\n\n健康づくり課\n\n地域医療係\n\n2 御前崎市地域医療を育む会補助\n\n回\n\n6\n\n6\n\n3\n\n3\n\n11,181 医療機器導入\n小笠医師会・榛原医師会・\n\n病院または市との協力事\n\n150 業\n\n1/1\n\nコロナ禍により制限がかかり積極的な活動が行えなかっ\nた。\n\n中長期計画について、国からの策定指示があるまで\nの間は現計画をもとに暫定的な計画を実施する。\n\n育む会の活動を周知し、活動の輪を広げるため、情報\n発信について育む会と協力して取り組む。\n\n今後（R3年度）\nの方針\n現状維持\n\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 29
+      },
+      {
+        "name": "災害時救護",
+        "start": 64048,
+        "raw": "災害時救護",
+        "titleSegments": [
+          {
+            "start": 64048,
+            "raw": "災害時救護"
+          }
+        ],
+        "blockStart": 63785,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n課名\n\n係名\n\n健康づくり課\n\n地域医療係\n\n1 医療機器等整備支援\n\n健康づくり課\n\n地域医療係\n\n2 地域医療連携\n\n∸ 御前崎市意見交換会\n\n回\n\n4\n\n4\n\n5\n\n4\n\n各種委員会を開催し、目標を達成することができた。病院\n中長期計画については、次年度以降、国からの策定指示\nが示されていない。\n\n健康づくり課\n\n地域医療係\n\n2 災害時救護\n\n∸ 救護所運営部会\n\n回\n\n4\n\n4\n\n1\n\n2\n\n御前崎地区救護所がしろわクリニックに変更されたため運用マニュ 関係者との連携を深め、より良い救護所運営に向け\nアルを作成したが、コロナ禍により実施検証が行えていない。医療 て、今後も引き続き開催する。白羽救護所のマニュア\n資機材の入替を実施し災害時の体制を整えた。\nルの検証を実施し再検討を図る。\n\n健康づくり課\n\n地域医療係\n\n2 御前崎市地域医療を育む会補助\n\n回\n\n6\n\n6\n\n3\n\n3\n\n11,181 医療機器導入\n小笠医師会・榛原医師会・\n\n病院または市との協力事\n\n150 業\n\n1/1\n\nコロナ禍により制限がかかり積極的な活動が行えなかっ\nた。\n\n中長期計画について、国からの策定指示があるまで\nの間は現計画をもとに暫定的な計画を実施する。\n\n育む会の活動を周知し、活動の輪を広げるため、情報\n発信について育む会と協力して取り組む。\n\n今後（R3年度）\nの方針\n現状維持\n\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 29
+      },
+      {
+        "name": "御前崎市地域医療を育む会補助",
+        "start": 64248,
+        "raw": "御前崎市地域医療を育む会補助",
+        "titleSegments": [
+          {
+            "start": 64248,
+            "raw": "御前崎市地域医療を育む会補助"
+          }
+        ],
+        "blockStart": 63785,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n課名\n\n係名\n\n健康づくり課\n\n地域医療係\n\n1 医療機器等整備支援\n\n健康づくり課\n\n地域医療係\n\n2 地域医療連携\n\n∸ 御前崎市意見交換会\n\n回\n\n4\n\n4\n\n5\n\n4\n\n各種委員会を開催し、目標を達成することができた。病院\n中長期計画については、次年度以降、国からの策定指示\nが示されていない。\n\n健康づくり課\n\n地域医療係\n\n2 災害時救護\n\n∸ 救護所運営部会\n\n回\n\n4\n\n4\n\n1\n\n2\n\n御前崎地区救護所がしろわクリニックに変更されたため運用マニュ 関係者との連携を深め、より良い救護所運営に向け\nアルを作成したが、コロナ禍により実施検証が行えていない。医療 て、今後も引き続き開催する。白羽救護所のマニュア\n資機材の入替を実施し災害時の体制を整えた。\nルの検証を実施し再検討を図る。\n\n健康づくり課\n\n地域医療係\n\n2 御前崎市地域医療を育む会補助\n\n回\n\n6\n\n6\n\n3\n\n3\n\n11,181 医療機器導入\n小笠医師会・榛原医師会・\n\n病院または市との協力事\n\n150 業\n\n1/1\n\nコロナ禍により制限がかかり積極的な活動が行えなかっ\nた。\n\n中長期計画について、国からの策定指示があるまで\nの間は現計画をもとに暫定的な計画を実施する。\n\n育む会の活動を周知し、活動の輪を広げるため、情報\n発信について育む会と協力して取り組む。\n\n今後（R3年度）\nの方針\n現状維持\n\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 29
+      },
+      {
+        "name": "御前崎市病院事業",
+        "start": 66582,
+        "raw": "御前崎市病院事業",
+        "titleSegments": [
+          {
+            "start": 66582,
+            "raw": "御前崎市病院事業"
+          }
+        ],
+        "blockStart": 66331,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n5,178,180 経常収支比率\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n目標は達成したものの、給与費の増加が目立つ。また、新 引き続き現状把握に努めるとともに、費用の削減策を\n型コロナウイルスの影響が今後どのように推移していくか 講じ健全経営を目指す。\n注視していく必要がある。\n\n今後（R3年度）\nの方針\n\n病院管理課\n\n経理係\n\n1 御前崎市病院事業\n\n病院管理課\n\n管理係\n\n2 病院施設管理業務\n\n808,140 施設機械整備率\n\n％\n\n40\n\n50\n\n50\n\n60\n\n病院管理課\n\n総務係\n\n3 奨学金貸与業務\n\n7,000 医師奨学金\n\n件\n\n0\n\n0\n\n1\n\n0\n\n病院管理課\n\n総務係\n\n4 奨学金貸与業務\n\n10,200 看護師奨学金\n\n件\n\n3\n\n4\n\n3\n\n4\n\n新規貸与者数は目標4名を下回る3名ではあったが、看護 看護師は入れ替わりの激しい職種であり、引き続き貸\n師確保に有効な手段となっている。\n与者の募集を行う。\n\n現状維持\n\n病院管理課\n\n総務係\n\n5 奨学金貸与業務\n\n1,200 介護福祉士奨学金\n\n件\n\n1\n\n2\n\n0\n\n2\n\n目標2名に対し、新規貸与者0名であり、応募等がない状況 介護職の人手不足が続いており、介護員確保に向け\nが続いている。\nた奨学金制度の更なる活用を図る。\n\n現状維持\n\n病院管理課\n\n管理係\n\n6 病院施設管理業務\n\n12,460 職員宿舎整備率\n\n％\n\n72\n\n76\n\n76\n\n76\n\n看護部等の意向を確認するとともに、入居状況に応じて、 看護部等の要望及び施設の現状を確認し、整備計画\n整備を進める必要がある。\nを検討していく。\n\n現状維持\n\n現状維持\n\n機器・設備の状況に応じて計画的に更新を実施している。 計画をベースに必要な機器・設備の更新を継続する。\n\n1/1\n\n現状維持\n平成30年度から新専門医制度が始まり、大学卒業後に5～ 左記の理由により、一時奨学金貸与者の募集を中止\n8年の他院での研修が必要となること、本人の専攻希望と していたが、家庭医に関しては、医学生が研修に来て\n当院の募集診療科がマッチしない等の問題がある。\nおり、専攻希望も明確なため、募集を継続する。\n\nその他\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 30
+      },
+      {
+        "name": "御前崎市振興公社開催の幼児を対象としたスポーツ教室に対する助成金交付",
+        "start": 68785,
+        "raw": "御前崎市振興公社開催の幼児を対象と\n1 したスポーツ教室に対する助成金交付",
+        "titleSegments": [
+          {
+            "start": 68785,
+            "raw": "御前崎市振興公社開催の幼児を対象と"
+          },
+          {
+            "start": 68805,
+            "raw": "したスポーツ教室に対する助成金交付"
+          }
+        ],
+        "blockStart": 68527,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\nR1年度\n実績\n\nR2年度\n目標\n\nR2年度\n実績\n\nR3年度\n目標\n\n600 助成金交付団体\n\n団体\n\n1\n\n1\n\n0\n\n1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n助成金交付を必要とせず、収入（参加料）により事業費を\nまかなうことができた。\n\n参加者数の更なる確保とともに、必要経費の効率化を\n図っていく。\n\n社会教育課\n\nスポーツ振興係\n\n御前崎市振興公社開催の幼児を対象と\n1 したスポーツ教室に対する助成金交付\n\n社会教育課\n\nスポーツ振興係\n\n2\n\n軽スポーツ教室の企画・運営（スポーツ\n推進委員と連携）\n\n750 教室開催数\n\n回\n\n3\n\n3\n\n3\n\n3\n\n新型コロナの影響により、対策を講じながら開催したが全 新規参加者の獲得に向けて、他の軽スポーツ教室を\n体的に参加者数が減少となった。また、参加者が固定化傾 検討していく。\n向にあるため、新規参加者の増加が望まれる。\n\n社会教育課\n\nスポーツ振興係\n\n軽スポーツ大会の企画・運営（スポーツ\n2 推進委員と連携）\n\n384 大会開催数\n\n回\n\n3\n\n3\n\n3\n\n3\n\n新型コロナの影響がありながらも多くの方の参加があっ\nた。概ね好評であるため、新たにスポーツに触れていく人\nの獲得に向けて続けていきたい。\n\n1/1\n\n大会を通じて多くの方にスポーツに触れあってもらい、\n引き続き運動する習慣を身につけてもらえるよう促し\nていきたい。\n\n今後（R3年度）\nの方針\n現状維持\n\n改善・効率化\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 31
+      },
+      {
+        "name": "軽スポーツ大会の企画・運営（スポーツ推進委員と連携）",
+        "start": 69023,
+        "raw": "軽スポーツ大会の企画・運営（スポーツ\n2 推進委員と連携）",
+        "titleSegments": [
+          {
+            "start": 69023,
+            "raw": "軽スポーツ大会の企画・運営（スポーツ"
+          },
+          {
+            "start": 69044,
+            "raw": "推進委員と連携）"
+          }
+        ],
+        "blockStart": 68527,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\nR1年度\n実績\n\nR2年度\n目標\n\nR2年度\n実績\n\nR3年度\n目標\n\n600 助成金交付団体\n\n団体\n\n1\n\n1\n\n0\n\n1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n助成金交付を必要とせず、収入（参加料）により事業費を\nまかなうことができた。\n\n参加者数の更なる確保とともに、必要経費の効率化を\n図っていく。\n\n社会教育課\n\nスポーツ振興係\n\n御前崎市振興公社開催の幼児を対象と\n1 したスポーツ教室に対する助成金交付\n\n社会教育課\n\nスポーツ振興係\n\n2\n\n軽スポーツ教室の企画・運営（スポーツ\n推進委員と連携）\n\n750 教室開催数\n\n回\n\n3\n\n3\n\n3\n\n3\n\n新型コロナの影響により、対策を講じながら開催したが全 新規参加者の獲得に向けて、他の軽スポーツ教室を\n体的に参加者数が減少となった。また、参加者が固定化傾 検討していく。\n向にあるため、新規参加者の増加が望まれる。\n\n社会教育課\n\nスポーツ振興係\n\n軽スポーツ大会の企画・運営（スポーツ\n2 推進委員と連携）\n\n384 大会開催数\n\n回\n\n3\n\n3\n\n3\n\n3\n\n新型コロナの影響がありながらも多くの方の参加があっ\nた。概ね好評であるため、新たにスポーツに触れていく人\nの獲得に向けて続けていきたい。\n\n1/1\n\n大会を通じて多くの方にスポーツに触れあってもらい、\n引き続き運動する習慣を身につけてもらえるよう促し\nていきたい。\n\n今後（R3年度）\nの方針\n現状維持\n\n改善・効率化\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 31
+      },
+      {
+        "name": "観光イベント等委託事業",
+        "start": 70654,
+        "raw": "観光イベント等委託事業",
+        "titleSegments": [
+          {
+            "start": 70654,
+            "raw": "観光イベント等委託事業"
+          }
+        ],
+        "blockStart": 70595,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n商工観光課\n\n観光交流係\n\n観光イベント等委託事業\n（観光宣伝業務として、マリンスポーツな\n1 ど、海の魅力に関するＰＲを積極的に行\nう）\n\n商工観光課\n\n観光交流係\n\n2 御前埼灯台周辺整備\n\n商工観光課\n\n企業港湾室\n\n1 マリンパーク御前崎の整備\n\nR2年度\n事業費\n（千円）\n\n4,972\n\n31,218\n\n28,197\n\n活動指標又は成果指標\n指標名\n\n観光交流客数\n\n単位\n\n人\n\n2,289,728\n\n2,200,000\n\n1,437,268\n\n2,225,600\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\nコロナウイルス感染症の影響により様々なイベントが中止 各イベントの来場客数を分析し、客層のニーズに合っ\nとなったため、思うような成果が得られなかった。また、\nた広告宣伝を実施するとともに、他市町との広域連携\n各々のイベントや観光団体のマンネリ化が進んでいる。\nを実施し、地域外のイベントに積極的に参加すること\nで、集客効果が期待できる。また、持続可能な観光組\n織体構築や新たな体験型旅行商品の造成が必要で\nある。\n令和２年度事業をもって御前埼灯台周辺整備が終了し、 ターゲットを設定し、来訪へのインセンティブに繋がる\nハード整備は整ったが、集客促進に向けたソフト整備が必 ような仕掛け及び実施を検討する。\n要である。\n例年、堆積砂の除去を実施しているが、潮流により、再度 御前崎港管理事務所（県）と連携し、堆積砂の対処方\n砂が堆積され負のスパイラルとなっている。また、現在、故 法について協議を行う。また、改修費や維持管理費を\n障中の風力発電施設の解体やキャンプ場利活用等の方向 含め、風力発電施設の解体やリニューアルに向けた\n性について検討する必要がある。\n整備方針を検討する。\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 32
+      },
+      {
+        "name": "御前埼灯台周辺整備",
+        "start": 70727,
+        "raw": "御前埼灯台周辺整備",
+        "titleSegments": [
+          {
+            "start": 70727,
+            "raw": "御前埼灯台周辺整備"
+          }
+        ],
+        "blockStart": 70595,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n商工観光課\n\n観光交流係\n\n観光イベント等委託事業\n（観光宣伝業務として、マリンスポーツな\n1 ど、海の魅力に関するＰＲを積極的に行\nう）\n\n商工観光課\n\n観光交流係\n\n2 御前埼灯台周辺整備\n\n商工観光課\n\n企業港湾室\n\n1 マリンパーク御前崎の整備\n\nR2年度\n事業費\n（千円）\n\n4,972\n\n31,218\n\n28,197\n\n活動指標又は成果指標\n指標名\n\n観光交流客数\n\n単位\n\n人\n\n2,289,728\n\n2,200,000\n\n1,437,268\n\n2,225,600\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\nコロナウイルス感染症の影響により様々なイベントが中止 各イベントの来場客数を分析し、客層のニーズに合っ\nとなったため、思うような成果が得られなかった。また、\nた広告宣伝を実施するとともに、他市町との広域連携\n各々のイベントや観光団体のマンネリ化が進んでいる。\nを実施し、地域外のイベントに積極的に参加すること\nで、集客効果が期待できる。また、持続可能な観光組\n織体構築や新たな体験型旅行商品の造成が必要で\nある。\n令和２年度事業をもって御前埼灯台周辺整備が終了し、 ターゲットを設定し、来訪へのインセンティブに繋がる\nハード整備は整ったが、集客促進に向けたソフト整備が必 ような仕掛け及び実施を検討する。\n要である。\n例年、堆積砂の除去を実施しているが、潮流により、再度 御前崎港管理事務所（県）と連携し、堆積砂の対処方\n砂が堆積され負のスパイラルとなっている。また、現在、故 法について協議を行う。また、改修費や維持管理費を\n障中の風力発電施設の解体やキャンプ場利活用等の方向 含め、風力発電施設の解体やリニューアルに向けた\n性について検討する必要がある。\n整備方針を検討する。\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 32
+      },
+      {
+        "name": "マリンパーク御前崎の整備",
+        "start": 70754,
+        "raw": "マリンパーク御前崎の整備",
+        "titleSegments": [
+          {
+            "start": 70754,
+            "raw": "マリンパーク御前崎の整備"
+          }
+        ],
+        "blockStart": 70595,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n商工観光課\n\n観光交流係\n\n観光イベント等委託事業\n（観光宣伝業務として、マリンスポーツな\n1 ど、海の魅力に関するＰＲを積極的に行\nう）\n\n商工観光課\n\n観光交流係\n\n2 御前埼灯台周辺整備\n\n商工観光課\n\n企業港湾室\n\n1 マリンパーク御前崎の整備\n\nR2年度\n事業費\n（千円）\n\n4,972\n\n31,218\n\n28,197\n\n活動指標又は成果指標\n指標名\n\n観光交流客数\n\n単位\n\n人\n\n2,289,728\n\n2,200,000\n\n1,437,268\n\n2,225,600\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\nコロナウイルス感染症の影響により様々なイベントが中止 各イベントの来場客数を分析し、客層のニーズに合っ\nとなったため、思うような成果が得られなかった。また、\nた広告宣伝を実施するとともに、他市町との広域連携\n各々のイベントや観光団体のマンネリ化が進んでいる。\nを実施し、地域外のイベントに積極的に参加すること\nで、集客効果が期待できる。また、持続可能な観光組\n織体構築や新たな体験型旅行商品の造成が必要で\nある。\n令和２年度事業をもって御前埼灯台周辺整備が終了し、 ターゲットを設定し、来訪へのインセンティブに繋がる\nハード整備は整ったが、集客促進に向けたソフト整備が必 ような仕掛け及び実施を検討する。\n要である。\n例年、堆積砂の除去を実施しているが、潮流により、再度 御前崎港管理事務所（県）と連携し、堆積砂の対処方\n砂が堆積され負のスパイラルとなっている。また、現在、故 法について協議を行う。また、改修費や維持管理費を\n障中の風力発電施設の解体やキャンプ場利活用等の方向 含め、風力発電施設の解体やリニューアルに向けた\n性について検討する必要がある。\n整備方針を検討する。\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 32
+      },
+      {
+        "name": "散策コース、歴史文化遺産コースの設定",
+        "start": 72935,
+        "raw": "散策コース、歴史文化遺産コースの設定",
+        "titleSegments": [
+          {
+            "start": 72935,
+            "raw": "散策コース、歴史文化遺産コースの設定"
+          }
+        ],
+        "blockStart": 72750,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n商工観光課\n\n係名\n観光交流係\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n観光イベント等委託事業 （再掲）\n1･2 （観光宣伝業務として里山の自然を味わ\nうことのできる施設等を啓発していく）\n\n4,972 里山地区観光交流客数\n商工観光課\n\n観光交流係\n\n単位\n\n2 散策コース、歴史文化遺産コースの設定\n\n人\n\n425,816\n\n511,000\n\n288,400\n\n517,600\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n浜岡砂丘の砂浜再生事業やカワヅザクラの夜桜見物等の 海から山にかけての導線を確保し、市内全域で１日楽\n取組を実施するが、海側と比較すると交流客数が目標値 しめるような施策を検討していく。\nに達していない。海側の来訪者をどのように市内全域に向\nかわせるかが課題。\n大河ドラマ「おんな城主直虎」を契機にウォーキングコース 大河ドラマの名残が薄くならないように、歴史的価値を\nの整備を実施し、来訪者が一時的に増加したが、今後、誘 浸透させ、地元醸成を図る他、新たな歴史文化遺産の\n客を維持させるための取組が課題。また、他地域での誘客 発掘や磨き上げを関係各課と連携する。\n促進も課題。\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 33
+      },
+      {
+        "name": "新規就農者の育成・確保",
+        "start": 75013,
+        "raw": "新規就農者の育成・確保",
+        "titleSegments": [
+          {
+            "start": 75013,
+            "raw": "新規就農者の育成・確保"
+          }
+        ],
+        "blockStart": 74954,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n農林水産課\n\n農地係\n\n1 新規就農者の育成・確保\n\n農林水産課\n\n特産振興係\n\n2 特産作物の振興\n\n農林水産課\n\n農地係\n\n3 農業振興拠点施設の活用\n\nR2年度\n事業費\n（千円）\n\n指標名\n農業次世代人材投資資金\n\n7,500 による支援\n\n879 都市圏でのPR回数\n農業振興拠点施設運営協\n\n15,300 議会の開催\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n毎年、順調に新規就農者を確保できているが、市内の研\n修受け入れ農家が1件で、指導者が高齢化している。\n\n農協や農林事務所、農業委員会など協力し、意見を\n聞きながら研修受け入れ農家の増加を目指す。\n\n都市圏の高速道路SAにて、御前崎市の特産品のおいしさや品質 R3年度も新型コロナウイルス感染症拡大の影響によ\nの良さを広く周知するとともに、市の知名度向上を目的に計画して り、計画どおりに実施できない可能性があるため、実\nいたが、新型コロナウイルス感染症拡大の影響により実施できな 施できない場合は、代替事業を検討する。\nかった。\n\n農業振興拠点施設は、農産物直売所を中心に地域の農業 加工施設の利用方法について、指定管理者と協議し、\n拠点として定着している。展示温室、農産物加工施設の利 実現に向けて調整していく。\n用を拡大していきたい。\n\n今後（R3年度）\nの方針\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 34
+      },
+      {
+        "name": "特産作物の振興",
+        "start": 75042,
+        "raw": "特産作物の振興",
+        "titleSegments": [
+          {
+            "start": 75042,
+            "raw": "特産作物の振興"
+          }
+        ],
+        "blockStart": 74954,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n農林水産課\n\n農地係\n\n1 新規就農者の育成・確保\n\n農林水産課\n\n特産振興係\n\n2 特産作物の振興\n\n農林水産課\n\n農地係\n\n3 農業振興拠点施設の活用\n\nR2年度\n事業費\n（千円）\n\n指標名\n農業次世代人材投資資金\n\n7,500 による支援\n\n879 都市圏でのPR回数\n農業振興拠点施設運営協\n\n15,300 議会の開催\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n毎年、順調に新規就農者を確保できているが、市内の研\n修受け入れ農家が1件で、指導者が高齢化している。\n\n農協や農林事務所、農業委員会など協力し、意見を\n聞きながら研修受け入れ農家の増加を目指す。\n\n都市圏の高速道路SAにて、御前崎市の特産品のおいしさや品質 R3年度も新型コロナウイルス感染症拡大の影響によ\nの良さを広く周知するとともに、市の知名度向上を目的に計画して り、計画どおりに実施できない可能性があるため、実\nいたが、新型コロナウイルス感染症拡大の影響により実施できな 施できない場合は、代替事業を検討する。\nかった。\n\n農業振興拠点施設は、農産物直売所を中心に地域の農業 加工施設の利用方法について、指定管理者と協議し、\n拠点として定着している。展示温室、農産物加工施設の利 実現に向けて調整していく。\n用を拡大していきたい。\n\n今後（R3年度）\nの方針\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 34
+      },
+      {
+        "name": "農業振興拠点施設の活用",
+        "start": 75065,
+        "raw": "農業振興拠点施設の活用",
+        "titleSegments": [
+          {
+            "start": 75065,
+            "raw": "農業振興拠点施設の活用"
+          }
+        ],
+        "blockStart": 74954,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n農林水産課\n\n農地係\n\n1 新規就農者の育成・確保\n\n農林水産課\n\n特産振興係\n\n2 特産作物の振興\n\n農林水産課\n\n農地係\n\n3 農業振興拠点施設の活用\n\nR2年度\n事業費\n（千円）\n\n指標名\n農業次世代人材投資資金\n\n7,500 による支援\n\n879 都市圏でのPR回数\n農業振興拠点施設運営協\n\n15,300 議会の開催\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n毎年、順調に新規就農者を確保できているが、市内の研\n修受け入れ農家が1件で、指導者が高齢化している。\n\n農協や農林事務所、農業委員会など協力し、意見を\n聞きながら研修受け入れ農家の増加を目指す。\n\n都市圏の高速道路SAにて、御前崎市の特産品のおいしさや品質 R3年度も新型コロナウイルス感染症拡大の影響によ\nの良さを広く周知するとともに、市の知名度向上を目的に計画して り、計画どおりに実施できない可能性があるため、実\nいたが、新型コロナウイルス感染症拡大の影響により実施できな 施できない場合は、代替事業を検討する。\nかった。\n\n農業振興拠点施設は、農産物直売所を中心に地域の農業 加工施設の利用方法について、指定管理者と協議し、\n拠点として定着している。展示温室、農産物加工施設の利 実現に向けて調整していく。\n用を拡大していきたい。\n\n今後（R3年度）\nの方針\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 34
+      },
+      {
+        "name": "担い手の育成・確保",
+        "start": 77352,
+        "raw": "担い手の育成・確保",
+        "titleSegments": [
+          {
+            "start": 77352,
+            "raw": "担い手の育成・確保"
+          }
+        ],
+        "blockStart": 77203,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n「人・農地プラン」検討会の\n\n27 開催\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n農林水産課\n\n農地係\n\n1 担い手の育成・確保\n\n農林水産課\n\n農村整備係\n\n2 県単農業農村整備調査事業\n\n2,250 整備地区の調査\n\n地区\n\n1\n\n2\n\n2\n\n2\n\nパイプランを管理する土地改良区と連携し、老朽化した石 土地改良区及び用水組合と調整し、国・県事業を活用\n綿管の布設替えを実施する必要がある。\nした整備を実施する。（池新田地区・高松地区）\n\n現状維持\n\n農林水産課\n\n農村整備係\n\n3 農業用の用排水施設及び圃場の整備\n\n3,408 活動組織数\n\n組織\n\n3\n\n3\n\n3\n\n3\n\n活動組織及び耕作者の高齢化により、事業継続が難しく\nなってきている。\n\n現状維持\n\n農林水産課\n\n特産振興係\n\n4 新銘茶の推進\n\n3,200 つゆひかり定植本数\n\n本\n\n6,304\n\n6,500\n\n8,304\n\n8,500\n\n1/1\n\n新規活動組織を増やすようＰＲをしていく。\n\n御前崎つゆひかりは、消費者から高い評価があり、御前崎茶ブラ 茶園の耕作放棄地の防止対策について、茶園の集積\nンドとして定着しつつある。高齢化や担い手不足により、小規模な をＪＡや茶工場、生産者、地権者と連携し、推進してい\n茶農家が廃業することによる茶園の耕作放棄が懸念される。\nく。\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 35
+      },
+      {
+        "name": "県単農業農村整備調査事業",
+        "start": 77379,
+        "raw": "県単農業農村整備調査事業",
+        "titleSegments": [
+          {
+            "start": 77379,
+            "raw": "県単農業農村整備調査事業"
+          }
+        ],
+        "blockStart": 77203,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n「人・農地プラン」検討会の\n\n27 開催\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n農林水産課\n\n農地係\n\n1 担い手の育成・確保\n\n農林水産課\n\n農村整備係\n\n2 県単農業農村整備調査事業\n\n2,250 整備地区の調査\n\n地区\n\n1\n\n2\n\n2\n\n2\n\nパイプランを管理する土地改良区と連携し、老朽化した石 土地改良区及び用水組合と調整し、国・県事業を活用\n綿管の布設替えを実施する必要がある。\nした整備を実施する。（池新田地区・高松地区）\n\n現状維持\n\n農林水産課\n\n農村整備係\n\n3 農業用の用排水施設及び圃場の整備\n\n3,408 活動組織数\n\n組織\n\n3\n\n3\n\n3\n\n3\n\n活動組織及び耕作者の高齢化により、事業継続が難しく\nなってきている。\n\n現状維持\n\n農林水産課\n\n特産振興係\n\n4 新銘茶の推進\n\n3,200 つゆひかり定植本数\n\n本\n\n6,304\n\n6,500\n\n8,304\n\n8,500\n\n1/1\n\n新規活動組織を増やすようＰＲをしていく。\n\n御前崎つゆひかりは、消費者から高い評価があり、御前崎茶ブラ 茶園の耕作放棄地の防止対策について、茶園の集積\nンドとして定着しつつある。高齢化や担い手不足により、小規模な をＪＡや茶工場、生産者、地権者と連携し、推進してい\n茶農家が廃業することによる茶園の耕作放棄が懸念される。\nく。\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 35
+      },
+      {
+        "name": "農業用の用排水施設及び圃場の整備",
+        "start": 77541,
+        "raw": "農業用の用排水施設及び圃場の整備",
+        "titleSegments": [
+          {
+            "start": 77541,
+            "raw": "農業用の用排水施設及び圃場の整備"
+          }
+        ],
+        "blockStart": 77203,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n「人・農地プラン」検討会の\n\n27 開催\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n農林水産課\n\n農地係\n\n1 担い手の育成・確保\n\n農林水産課\n\n農村整備係\n\n2 県単農業農村整備調査事業\n\n2,250 整備地区の調査\n\n地区\n\n1\n\n2\n\n2\n\n2\n\nパイプランを管理する土地改良区と連携し、老朽化した石 土地改良区及び用水組合と調整し、国・県事業を活用\n綿管の布設替えを実施する必要がある。\nした整備を実施する。（池新田地区・高松地区）\n\n現状維持\n\n農林水産課\n\n農村整備係\n\n3 農業用の用排水施設及び圃場の整備\n\n3,408 活動組織数\n\n組織\n\n3\n\n3\n\n3\n\n3\n\n活動組織及び耕作者の高齢化により、事業継続が難しく\nなってきている。\n\n現状維持\n\n農林水産課\n\n特産振興係\n\n4 新銘茶の推進\n\n3,200 つゆひかり定植本数\n\n本\n\n6,304\n\n6,500\n\n8,304\n\n8,500\n\n1/1\n\n新規活動組織を増やすようＰＲをしていく。\n\n御前崎つゆひかりは、消費者から高い評価があり、御前崎茶ブラ 茶園の耕作放棄地の防止対策について、茶園の集積\nンドとして定着しつつある。高齢化や担い手不足により、小規模な をＪＡや茶工場、生産者、地権者と連携し、推進してい\n茶農家が廃業することによる茶園の耕作放棄が懸念される。\nく。\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 35
+      },
+      {
+        "name": "新銘茶の推進",
+        "start": 77646,
+        "raw": "新銘茶の推進",
+        "titleSegments": [
+          {
+            "start": 77646,
+            "raw": "新銘茶の推進"
+          }
+        ],
+        "blockStart": 77203,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n「人・農地プラン」検討会の\n\n27 開催\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n農林水産課\n\n農地係\n\n1 担い手の育成・確保\n\n農林水産課\n\n農村整備係\n\n2 県単農業農村整備調査事業\n\n2,250 整備地区の調査\n\n地区\n\n1\n\n2\n\n2\n\n2\n\nパイプランを管理する土地改良区と連携し、老朽化した石 土地改良区及び用水組合と調整し、国・県事業を活用\n綿管の布設替えを実施する必要がある。\nした整備を実施する。（池新田地区・高松地区）\n\n現状維持\n\n農林水産課\n\n農村整備係\n\n3 農業用の用排水施設及び圃場の整備\n\n3,408 活動組織数\n\n組織\n\n3\n\n3\n\n3\n\n3\n\n活動組織及び耕作者の高齢化により、事業継続が難しく\nなってきている。\n\n現状維持\n\n農林水産課\n\n特産振興係\n\n4 新銘茶の推進\n\n3,200 つゆひかり定植本数\n\n本\n\n6,304\n\n6,500\n\n8,304\n\n8,500\n\n1/1\n\n新規活動組織を増やすようＰＲをしていく。\n\n御前崎つゆひかりは、消費者から高い評価があり、御前崎茶ブラ 茶園の耕作放棄地の防止対策について、茶園の集積\nンドとして定着しつつある。高齢化や担い手不足により、小規模な をＪＡや茶工場、生産者、地権者と連携し、推進してい\n茶農家が廃業することによる茶園の耕作放棄が懸念される。\nく。\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 35
+      },
+      {
+        "name": "放流事業の推進",
+        "start": 79638,
+        "raw": "放流事業の推進",
+        "titleSegments": [
+          {
+            "start": 79638,
+            "raw": "放流事業の推進"
+          }
+        ],
+        "blockStart": 79576,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\n課名\n\n係名\n\n農林水産課\n\n特産振興係\n\n1 放流事業の推進\n\n農林水産課\n\n特産振興係\n\n2 みなとかつお祭りへ支援\n\n農林水産課\n\n特産振興係\n\n3 外来船水揚誘致事業の実施\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n外来水揚船誘致事業の実施及び近海かつお船水揚促進 外来水揚船誘致事業の実施とともに、近海かつお船\n支援事業の予算規模の拡大により、三重県や和歌山県、 水揚促進事業の継続により、水揚船の入港及び水揚\n高知県、宮崎県からの水揚げがあり、昨年度より入港回数 げ量の増加を図る。\nは増加した。\n\n今後（R3年度）\nの方針\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 36
+      },
+      {
+        "name": "みなとかつお祭りへ支援",
+        "start": 79663,
+        "raw": "みなとかつお祭りへ支援",
+        "titleSegments": [
+          {
+            "start": 79663,
+            "raw": "みなとかつお祭りへ支援"
+          }
+        ],
+        "blockStart": 79576,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\n課名\n\n係名\n\n農林水産課\n\n特産振興係\n\n1 放流事業の推進\n\n農林水産課\n\n特産振興係\n\n2 みなとかつお祭りへ支援\n\n農林水産課\n\n特産振興係\n\n3 外来船水揚誘致事業の実施\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n外来水揚船誘致事業の実施及び近海かつお船水揚促進 外来水揚船誘致事業の実施とともに、近海かつお船\n支援事業の予算規模の拡大により、三重県や和歌山県、 水揚促進事業の継続により、水揚船の入港及び水揚\n高知県、宮崎県からの水揚げがあり、昨年度より入港回数 げ量の増加を図る。\nは増加した。\n\n今後（R3年度）\nの方針\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 36
+      },
+      {
+        "name": "外来船水揚誘致事業の実施",
+        "start": 79692,
+        "raw": "外来船水揚誘致事業の実施",
+        "titleSegments": [
+          {
+            "start": 79692,
+            "raw": "外来船水揚誘致事業の実施"
+          }
+        ],
+        "blockStart": 79576,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\n課名\n\n係名\n\n農林水産課\n\n特産振興係\n\n1 放流事業の推進\n\n農林水産課\n\n特産振興係\n\n2 みなとかつお祭りへ支援\n\n農林水産課\n\n特産振興係\n\n3 外来船水揚誘致事業の実施\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n外来水揚船誘致事業の実施及び近海かつお船水揚促進 外来水揚船誘致事業の実施とともに、近海かつお船\n支援事業の予算規模の拡大により、三重県や和歌山県、 水揚促進事業の継続により、水揚船の入港及び水揚\n高知県、宮崎県からの水揚げがあり、昨年度より入港回数 げ量の増加を図る。\nは増加した。\n\n今後（R3年度）\nの方針\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 36
+      },
+      {
+        "name": "創業相談窓口の開設",
+        "start": 81144,
+        "raw": "創業相談窓口の開設",
+        "titleSegments": [
+          {
+            "start": 81144,
+            "raw": "創業相談窓口の開設"
+          }
+        ],
+        "blockStart": 81034,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n商工観光課\n\n商工観光課\n\n係名\n商工係\n\n商工係\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n創業した起業者の数\n\n2 創業相談窓口の開設\n\n118 (市＋支援機関の目標数）\n\n1 創業セミナー開催\n\nセミナーの参加延べ数\n118 （市+支援機関の目標数）\n\n人\n\n5\n\n10\n\n0\n\n1/1\n\n15\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n商工会や金融機関が創業支援を含めた幅広い相談を受け 今後も商工会に設置したワンストップ相談窓口を中心\n付けた。将来を見越した事業計画を策定支援することいに に創業希望者の困りごと解決していくため、継続して\nより、創業を後押しした。\nいく。\n令和２年度は、新型コロナウイルス感染症拡大防止のた\nめ、セミナーを開催することができなかった。\n\n実施可能なスタイルを模索し、セミナーの開催に向け\nて取り組む。\n\n今後（R3年度）\nの方針\n現状維持\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 37
+      },
+      {
+        "name": "創業セミナー開催",
+        "start": 81175,
+        "raw": "創業セミナー開催",
+        "titleSegments": [
+          {
+            "start": 81175,
+            "raw": "創業セミナー開催"
+          }
+        ],
+        "blockStart": 81034,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n商工観光課\n\n商工観光課\n\n係名\n商工係\n\n商工係\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n創業した起業者の数\n\n2 創業相談窓口の開設\n\n118 (市＋支援機関の目標数）\n\n1 創業セミナー開催\n\nセミナーの参加延べ数\n118 （市+支援機関の目標数）\n\n人\n\n5\n\n10\n\n0\n\n1/1\n\n15\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n商工会や金融機関が創業支援を含めた幅広い相談を受け 今後も商工会に設置したワンストップ相談窓口を中心\n付けた。将来を見越した事業計画を策定支援することいに に創業希望者の困りごと解決していくため、継続して\nより、創業を後押しした。\nいく。\n令和２年度は、新型コロナウイルス感染症拡大防止のた\nめ、セミナーを開催することができなかった。\n\n実施可能なスタイルを模索し、セミナーの開催に向け\nて取り組む。\n\n今後（R3年度）\nの方針\n現状維持\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 37
+      },
+      {
+        "name": "商工業振興資金利子補給金",
+        "start": 83012,
+        "raw": "商工業振興資金利子補給金",
+        "titleSegments": [
+          {
+            "start": 83012,
+            "raw": "商工業振興資金利子補給金"
+          }
+        ],
+        "blockStart": 82939,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n商工観光課\n\n商工係\n\n商工観光課\n\n企業港湾室\n\n指\n標\n№\n\n業務名\n\n1 商工業振興資金利子補給金\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n新規の申請件数\n\n4,700 （年間30件を目標）\n新規の申請件数\n\n2･3･4 企業支援補助金\n\n15,400 （新規立地5年間で2件、既存\n企業の増設5年間で5件）\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n新型コロナウイルス感染症拡大の影響を受けたことによ\nり、設備投資は消極的になったと考えられる。\n\n対象設備や補助率などの見直しも視野に入れて検討\nしていく。\n\n企業立地インセンティブとしては有効と考えられるが、固定 対象としている企業立地奨励補助金制度が、少なから\n資産税対象額を補助金として返還するため市財政への影 ず市財政を圧迫する要因となっているため、成果指標\n響が大きい。\nの見直しが必要と考えられる。\n\n今後（R3年度）\nの方針\n現状維持\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 38
+      },
+      {
+        "name": "御前崎港利用促進事業",
+        "start": 84946,
+        "raw": "御前崎港利用促進事業",
+        "titleSegments": [
+          {
+            "start": 84946,
+            "raw": "御前崎港利用促進事業"
+          }
+        ],
+        "blockStart": 84871,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n商工観光課\n\n企業港湾室\n\n商工観光課\n\n企業港湾室\n\n指\n標\n№\n\n業務名\n\n1 御前崎港利用促進事業\n\n2 御前崎港客船誘致協議会\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\nコンテナ取扱貨物量の増\n\n8,470 加\n\n6,180 クルーズ客船等誘致活動\n\n回\n\n16\n\n15\n\n4\n\n1/1\n\n10\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n新型コロナウイルス感染症拡大の影響により世界経済が\n低迷したことを受け、取扱貨物量は減少した。\n\n静岡県中西部の荷主の利用港湾及び御前崎港の課\n題を調査し、インセンティブ制度の周知・拡充に努め\nる。\n\n現状維持\n\nコロナ渦により誘致活動に制限がかかり積極的な活動が\nできなかった。\n\n新型コロナウイルス感染対策のため、webを活用する\nなど新たな誘致活動手法を検討・実施する必要があ\nる。\nまた、寄港に向け、周辺市町も含め背後観光の熟成\nを実施する。\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 39
+      },
+      {
+        "name": "御前崎港客船誘致協議会",
+        "start": 84960,
+        "raw": "御前崎港客船誘致協議会",
+        "titleSegments": [
+          {
+            "start": 84960,
+            "raw": "御前崎港客船誘致協議会"
+          }
+        ],
+        "blockStart": 84871,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n商工観光課\n\n企業港湾室\n\n商工観光課\n\n企業港湾室\n\n指\n標\n№\n\n業務名\n\n1 御前崎港利用促進事業\n\n2 御前崎港客船誘致協議会\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\nコンテナ取扱貨物量の増\n\n8,470 加\n\n6,180 クルーズ客船等誘致活動\n\n回\n\n16\n\n15\n\n4\n\n1/1\n\n10\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n新型コロナウイルス感染症拡大の影響により世界経済が\n低迷したことを受け、取扱貨物量は減少した。\n\n静岡県中西部の荷主の利用港湾及び御前崎港の課\n題を調査し、インセンティブ制度の周知・拡充に努め\nる。\n\n現状維持\n\nコロナ渦により誘致活動に制限がかかり積極的な活動が\nできなかった。\n\n新型コロナウイルス感染対策のため、webを活用する\nなど新たな誘致活動手法を検討・実施する必要があ\nる。\nまた、寄港に向け、周辺市町も含め背後観光の熟成\nを実施する。\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 39
+      },
+      {
+        "name": "コミュニティ・スクール推進事業",
+        "start": 86855,
+        "raw": "コミュニティ・スクール推進事業",
+        "titleSegments": [
+          {
+            "start": 86855,
+            "raw": "コミュニティ・スクール推進事業"
+          }
+        ],
+        "blockStart": 86796,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n学校教育課\n\n指導係\n\n1 コミュニティ・スクール推進事業\n\n学校教育課\n\n指導係\n\n2 エネルギー教育推進事業\n\n学校教育課\n\n指導係\n\n3 キャリア教育推進事業\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\nR1年度\n実績\n\nR2年度\n目標\n\nR2年度\n実績\n\nR3年度\n目標\n\nシニアスクール参加者述\n\n人\n\n70\n\n60\n\n46\n\n60\n\n感染予防対策をして、満足度の高い事業が展開できた。シニアス スクラムスクール運営協議会を持続可能な体制にするため、\nクールは、リピーターが多く、新規参加者が増えないことと、コロナ 学校単位に指定する。シニアスクールは、昨年同様、募集期\n禍で子供たちとの交流ができにくかったことが課題である。\n間、内容等を一部変更し、浜岡中、白羽小で実施する。\n\n改善・効率化\n\nエネルギー教育授業実施\n\n％\n\n100\n\n100\n\n100\n\n100\n\nコロナ禍のため、規模を縮小して５校中４小学校で浜岡原 感染予防のため、内容を一部変更して実施する。\n子力発電所の見学を行った。また全小・中学校で社会科や\n理科等でエネルギー教育を行った。\n\n改善・効率化\n\n％\n\n100\n\n100\n\n100\n\n100\n\n中学校では、コロナ禍ではあったがビデオ録画で職業講話を行う\nことができた。また、各小・中学校でコロナ禍のためできる範囲で\n地域人材を活かしたキャリア教育が実施できた。\n\n2,092 べ人数\n0 率\n\n753 キャリア教育実施率\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n感染予防対策を講じて中学校では対面式で職業講話\nを行う。また、小・中学校でも地域人材を活かしたキャ\nリア教育の充実を図る。\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 40
+      },
+      {
+        "name": "エネルギー教育推進事業",
+        "start": 86886,
+        "raw": "エネルギー教育推進事業",
+        "titleSegments": [
+          {
+            "start": 86886,
+            "raw": "エネルギー教育推進事業"
+          }
+        ],
+        "blockStart": 86796,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n学校教育課\n\n指導係\n\n1 コミュニティ・スクール推進事業\n\n学校教育課\n\n指導係\n\n2 エネルギー教育推進事業\n\n学校教育課\n\n指導係\n\n3 キャリア教育推進事業\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\nR1年度\n実績\n\nR2年度\n目標\n\nR2年度\n実績\n\nR3年度\n目標\n\nシニアスクール参加者述\n\n人\n\n70\n\n60\n\n46\n\n60\n\n感染予防対策をして、満足度の高い事業が展開できた。シニアス スクラムスクール運営協議会を持続可能な体制にするため、\nクールは、リピーターが多く、新規参加者が増えないことと、コロナ 学校単位に指定する。シニアスクールは、昨年同様、募集期\n禍で子供たちとの交流ができにくかったことが課題である。\n間、内容等を一部変更し、浜岡中、白羽小で実施する。\n\n改善・効率化\n\nエネルギー教育授業実施\n\n％\n\n100\n\n100\n\n100\n\n100\n\nコロナ禍のため、規模を縮小して５校中４小学校で浜岡原 感染予防のため、内容を一部変更して実施する。\n子力発電所の見学を行った。また全小・中学校で社会科や\n理科等でエネルギー教育を行った。\n\n改善・効率化\n\n％\n\n100\n\n100\n\n100\n\n100\n\n中学校では、コロナ禍ではあったがビデオ録画で職業講話を行う\nことができた。また、各小・中学校でコロナ禍のためできる範囲で\n地域人材を活かしたキャリア教育が実施できた。\n\n2,092 べ人数\n0 率\n\n753 キャリア教育実施率\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n感染予防対策を講じて中学校では対面式で職業講話\nを行う。また、小・中学校でも地域人材を活かしたキャ\nリア教育の充実を図る。\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 40
+      },
+      {
+        "name": "キャリア教育推進事業",
+        "start": 86913,
+        "raw": "キャリア教育推進事業",
+        "titleSegments": [
+          {
+            "start": 86913,
+            "raw": "キャリア教育推進事業"
+          }
+        ],
+        "blockStart": 86796,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n学校教育課\n\n指導係\n\n1 コミュニティ・スクール推進事業\n\n学校教育課\n\n指導係\n\n2 エネルギー教育推進事業\n\n学校教育課\n\n指導係\n\n3 キャリア教育推進事業\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\nR1年度\n実績\n\nR2年度\n目標\n\nR2年度\n実績\n\nR3年度\n目標\n\nシニアスクール参加者述\n\n人\n\n70\n\n60\n\n46\n\n60\n\n感染予防対策をして、満足度の高い事業が展開できた。シニアス スクラムスクール運営協議会を持続可能な体制にするため、\nクールは、リピーターが多く、新規参加者が増えないことと、コロナ 学校単位に指定する。シニアスクールは、昨年同様、募集期\n禍で子供たちとの交流ができにくかったことが課題である。\n間、内容等を一部変更し、浜岡中、白羽小で実施する。\n\n改善・効率化\n\nエネルギー教育授業実施\n\n％\n\n100\n\n100\n\n100\n\n100\n\nコロナ禍のため、規模を縮小して５校中４小学校で浜岡原 感染予防のため、内容を一部変更して実施する。\n子力発電所の見学を行った。また全小・中学校で社会科や\n理科等でエネルギー教育を行った。\n\n改善・効率化\n\n％\n\n100\n\n100\n\n100\n\n100\n\n中学校では、コロナ禍ではあったがビデオ録画で職業講話を行う\nことができた。また、各小・中学校でコロナ禍のためできる範囲で\n地域人材を活かしたキャリア教育が実施できた。\n\n2,092 べ人数\n0 率\n\n753 キャリア教育実施率\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n感染予防対策を講じて中学校では対面式で職業講話\nを行う。また、小・中学校でも地域人材を活かしたキャ\nリア教育の充実を図る。\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 40
+      },
+      {
+        "name": "サポート隊地区説明会",
+        "start": 89177,
+        "raw": "サポート隊地区説明会",
+        "titleSegments": [
+          {
+            "start": 89177,
+            "raw": "サポート隊地区説明会"
+          }
+        ],
+        "blockStart": 89116,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n社会教育課\n\n生涯学習係\n\n1 サポート隊地区説明会\n\n社会教育課\n\n生涯学習係\n\n2 青少年リーダー育成事業\n\n社会教育課\n\n生涯学習係\n\n家庭教育支援員のあそび塾やだれでも\n3 食堂もぐもぐ、その他家庭教育支援の場\nへの参加\n\n社会教育課\n\n生涯学習係\n\nスクラムグッドマナー運動との連携事業\n(地域賛同者のスクラムグッドマナー\n4 Ｔシャツの着用)\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n64 サポート隊登録者の人数\n\n単位\n人\n\n1,122\n\n1,130\n\n973\n\n1,000\n\n人\n\n1\n\n2\n\n6\n\n4\n\n158 参加回数\n\n回\n\n14\n\n20\n\n22\n\n34\n\n146 地域住民からの賛同者\n\n人\n\n120\n\n85\n\n76\n\n80\n\n中学生の初級認定者の人\n\n1,869 数\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n地区センターと地区社会教育委員、学校のPTAを中心に 地域の見守り活動として市「サポート隊」、警察「こども\n地域での子どもたちの見守り活動を実施。それぞれの活動 110番の家」、県「声掛け運動」が実施されている。そ\n内容を共有し、よりよい見守り活動となるよう取り組んだ。 れぞれの取組を地域の方や子どもたちにわかりやすく\n伝える必要がある。\n小学校から中学校へ進級すると部活動との兼ね合いから 小学生で御前崎クエストを経験した者が、中学進学に\n継続的な参加に繋がらないことがある。\nより途切れないよう、御前崎クエストに関わり学んだこ\nとを活かすことができるよう、学びを活かす場や機会を\n検討していく必要がある。\n「共働きの子育て世帯」を対象に「だれでも食堂もぐもぐ」、 家庭教育支援員の活動の継続性・多様性のため、支\n「家にこもりがちな未就学児親子」へ「あそび塾」と、家庭教 援員の増員をはかる必要がある。社会教育学級など\n育支援の場づくりを行い、多様な場づくりができた。だれで 学びを深めている方へ支援員についてお知らせをして\nも食堂もぐもぐは補助金とし、市民や団体による活動へシ すそのを広げていく。\nフトした。\nスクラムグッドマナーＴシャツ着用者=取り組みの賛同者＝ 今後も地域での説明やチラシによる啓発に取り組むと\n子どもたちにとっては安全な人、の目印となってきている。 ともに、スクラムグッドマナーＴシャツの着用例を周知し\nスクラムグッドマナーの趣旨を伝える説明やチラシにより活 ていく。\n動の啓発に取り組んだ。\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 41
+      },
+      {
+        "name": "青少年リーダー育成事業",
+        "start": 89205,
+        "raw": "青少年リーダー育成事業",
+        "titleSegments": [
+          {
+            "start": 89205,
+            "raw": "青少年リーダー育成事業"
+          }
+        ],
+        "blockStart": 89116,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n社会教育課\n\n生涯学習係\n\n1 サポート隊地区説明会\n\n社会教育課\n\n生涯学習係\n\n2 青少年リーダー育成事業\n\n社会教育課\n\n生涯学習係\n\n家庭教育支援員のあそび塾やだれでも\n3 食堂もぐもぐ、その他家庭教育支援の場\nへの参加\n\n社会教育課\n\n生涯学習係\n\nスクラムグッドマナー運動との連携事業\n(地域賛同者のスクラムグッドマナー\n4 Ｔシャツの着用)\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n64 サポート隊登録者の人数\n\n単位\n人\n\n1,122\n\n1,130\n\n973\n\n1,000\n\n人\n\n1\n\n2\n\n6\n\n4\n\n158 参加回数\n\n回\n\n14\n\n20\n\n22\n\n34\n\n146 地域住民からの賛同者\n\n人\n\n120\n\n85\n\n76\n\n80\n\n中学生の初級認定者の人\n\n1,869 数\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n地区センターと地区社会教育委員、学校のPTAを中心に 地域の見守り活動として市「サポート隊」、警察「こども\n地域での子どもたちの見守り活動を実施。それぞれの活動 110番の家」、県「声掛け運動」が実施されている。そ\n内容を共有し、よりよい見守り活動となるよう取り組んだ。 れぞれの取組を地域の方や子どもたちにわかりやすく\n伝える必要がある。\n小学校から中学校へ進級すると部活動との兼ね合いから 小学生で御前崎クエストを経験した者が、中学進学に\n継続的な参加に繋がらないことがある。\nより途切れないよう、御前崎クエストに関わり学んだこ\nとを活かすことができるよう、学びを活かす場や機会を\n検討していく必要がある。\n「共働きの子育て世帯」を対象に「だれでも食堂もぐもぐ」、 家庭教育支援員の活動の継続性・多様性のため、支\n「家にこもりがちな未就学児親子」へ「あそび塾」と、家庭教 援員の増員をはかる必要がある。社会教育学級など\n育支援の場づくりを行い、多様な場づくりができた。だれで 学びを深めている方へ支援員についてお知らせをして\nも食堂もぐもぐは補助金とし、市民や団体による活動へシ すそのを広げていく。\nフトした。\nスクラムグッドマナーＴシャツ着用者=取り組みの賛同者＝ 今後も地域での説明やチラシによる啓発に取り組むと\n子どもたちにとっては安全な人、の目印となってきている。 ともに、スクラムグッドマナーＴシャツの着用例を周知し\nスクラムグッドマナーの趣旨を伝える説明やチラシにより活 ていく。\n動の啓発に取り組んだ。\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 41
+      },
+      {
+        "name": "家庭教育支援員のあそび塾やだれでも食堂もぐもぐ、その他家庭教育支援の場への参加",
+        "start": 89232,
+        "raw": "家庭教育支援員のあそび塾やだれでも\n3 食堂もぐもぐ、その他家庭教育支援の場\nへの参加",
+        "titleSegments": [
+          {
+            "start": 89232,
+            "raw": "家庭教育支援員のあそび塾やだれでも"
+          },
+          {
+            "start": 89252,
+            "raw": "食堂もぐもぐ、その他家庭教育支援の場"
+          },
+          {
+            "start": 89271,
+            "raw": "への参加"
+          }
+        ],
+        "blockStart": 89116,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n社会教育課\n\n生涯学習係\n\n1 サポート隊地区説明会\n\n社会教育課\n\n生涯学習係\n\n2 青少年リーダー育成事業\n\n社会教育課\n\n生涯学習係\n\n家庭教育支援員のあそび塾やだれでも\n3 食堂もぐもぐ、その他家庭教育支援の場\nへの参加\n\n社会教育課\n\n生涯学習係\n\nスクラムグッドマナー運動との連携事業\n(地域賛同者のスクラムグッドマナー\n4 Ｔシャツの着用)\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n64 サポート隊登録者の人数\n\n単位\n人\n\n1,122\n\n1,130\n\n973\n\n1,000\n\n人\n\n1\n\n2\n\n6\n\n4\n\n158 参加回数\n\n回\n\n14\n\n20\n\n22\n\n34\n\n146 地域住民からの賛同者\n\n人\n\n120\n\n85\n\n76\n\n80\n\n中学生の初級認定者の人\n\n1,869 数\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n地区センターと地区社会教育委員、学校のPTAを中心に 地域の見守り活動として市「サポート隊」、警察「こども\n地域での子どもたちの見守り活動を実施。それぞれの活動 110番の家」、県「声掛け運動」が実施されている。そ\n内容を共有し、よりよい見守り活動となるよう取り組んだ。 れぞれの取組を地域の方や子どもたちにわかりやすく\n伝える必要がある。\n小学校から中学校へ進級すると部活動との兼ね合いから 小学生で御前崎クエストを経験した者が、中学進学に\n継続的な参加に繋がらないことがある。\nより途切れないよう、御前崎クエストに関わり学んだこ\nとを活かすことができるよう、学びを活かす場や機会を\n検討していく必要がある。\n「共働きの子育て世帯」を対象に「だれでも食堂もぐもぐ」、 家庭教育支援員の活動の継続性・多様性のため、支\n「家にこもりがちな未就学児親子」へ「あそび塾」と、家庭教 援員の増員をはかる必要がある。社会教育学級など\n育支援の場づくりを行い、多様な場づくりができた。だれで 学びを深めている方へ支援員についてお知らせをして\nも食堂もぐもぐは補助金とし、市民や団体による活動へシ すそのを広げていく。\nフトした。\nスクラムグッドマナーＴシャツ着用者=取り組みの賛同者＝ 今後も地域での説明やチラシによる啓発に取り組むと\n子どもたちにとっては安全な人、の目印となってきている。 ともに、スクラムグッドマナーＴシャツの着用例を周知し\nスクラムグッドマナーの趣旨を伝える説明やチラシにより活 ていく。\n動の啓発に取り組んだ。\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 41
+      },
+      {
+        "name": "スクラムグッドマナー運動との連携事業(地域賛同者のスクラムグッドマナーＴシャツの着用)",
+        "start": 89291,
+        "raw": "スクラムグッドマナー運動との連携事業\n(地域賛同者のスクラムグッドマナー\n4 Ｔシャツの着用)",
+        "titleSegments": [
+          {
+            "start": 89291,
+            "raw": "スクラムグッドマナー運動との連携事業"
+          },
+          {
+            "start": 89310,
+            "raw": "(地域賛同者のスクラムグッドマナー"
+          },
+          {
+            "start": 89330,
+            "raw": "Ｔシャツの着用)"
+          }
+        ],
+        "blockStart": 89116,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n社会教育課\n\n生涯学習係\n\n1 サポート隊地区説明会\n\n社会教育課\n\n生涯学習係\n\n2 青少年リーダー育成事業\n\n社会教育課\n\n生涯学習係\n\n家庭教育支援員のあそび塾やだれでも\n3 食堂もぐもぐ、その他家庭教育支援の場\nへの参加\n\n社会教育課\n\n生涯学習係\n\nスクラムグッドマナー運動との連携事業\n(地域賛同者のスクラムグッドマナー\n4 Ｔシャツの着用)\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n64 サポート隊登録者の人数\n\n単位\n人\n\n1,122\n\n1,130\n\n973\n\n1,000\n\n人\n\n1\n\n2\n\n6\n\n4\n\n158 参加回数\n\n回\n\n14\n\n20\n\n22\n\n34\n\n146 地域住民からの賛同者\n\n人\n\n120\n\n85\n\n76\n\n80\n\n中学生の初級認定者の人\n\n1,869 数\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n地区センターと地区社会教育委員、学校のPTAを中心に 地域の見守り活動として市「サポート隊」、警察「こども\n地域での子どもたちの見守り活動を実施。それぞれの活動 110番の家」、県「声掛け運動」が実施されている。そ\n内容を共有し、よりよい見守り活動となるよう取り組んだ。 れぞれの取組を地域の方や子どもたちにわかりやすく\n伝える必要がある。\n小学校から中学校へ進級すると部活動との兼ね合いから 小学生で御前崎クエストを経験した者が、中学進学に\n継続的な参加に繋がらないことがある。\nより途切れないよう、御前崎クエストに関わり学んだこ\nとを活かすことができるよう、学びを活かす場や機会を\n検討していく必要がある。\n「共働きの子育て世帯」を対象に「だれでも食堂もぐもぐ」、 家庭教育支援員の活動の継続性・多様性のため、支\n「家にこもりがちな未就学児親子」へ「あそび塾」と、家庭教 援員の増員をはかる必要がある。社会教育学級など\n育支援の場づくりを行い、多様な場づくりができた。だれで 学びを深めている方へ支援員についてお知らせをして\nも食堂もぐもぐは補助金とし、市民や団体による活動へシ すそのを広げていく。\nフトした。\nスクラムグッドマナーＴシャツ着用者=取り組みの賛同者＝ 今後も地域での説明やチラシによる啓発に取り組むと\n子どもたちにとっては安全な人、の目印となってきている。 ともに、スクラムグッドマナーＴシャツの着用例を周知し\nスクラムグッドマナーの趣旨を伝える説明やチラシにより活 ていく。\n動の啓発に取り組んだ。\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 41
+      },
+      {
+        "name": "授業力向上事業",
+        "start": 92263,
+        "raw": "授業力向上事業",
+        "titleSegments": [
+          {
+            "start": 92263,
+            "raw": "授業力向上事業"
+          }
+        ],
+        "blockStart": 92161,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n授業改善に対する意識が\n\n学校教育課\n\n指導係\n\n1 授業力向上事業\n\n240 高まった小中学校教職員\nの割合\n\n0 る小中学生の割合\n\n学校教育課\n\n指導係\n\n1 市費負担教員活用事業\n\n学校教育課\n\n指導係\n\n2 運動器向上事業\n\n学校教育課\n\n指導係\n\n3 教職員校内研修事業\n\n0 の実施割合\n\n学校教育課\n\n指導係\n\n3 適応指導教室運営事業\n\n71 指導教室在籍生徒の割合\n\n1,972 生徒の割合\n\n評価（課題、問題点など）\n\n平成30年度より内科検診の一部として運動器検診が盛り\n込まれたため、数値として成果をまとめる必要がなくなっ\nた。（平成30年度施策評価シートで「廃止」とした。）\n\n業務改善の方向性\n\n学校保健安全法に基づく検診を実施する。\n廃止\n\nコロナ禍であったため、講師等を招いて研修することが難 ｚｏｏｍを活用した講師招聘研修や指導訪問による研\nしかった。可能な範囲でzoomを活用して授業改善アドバイ 修等を可能な限り行い、校内研修を充実させる。\nザー（上智大学奈須教授）等の研修を行うことができた。\n前年度よりもサンルームの利用者は減った。\n\n今後（R3年度）\nの方針\n\n学校とサンルームの連携を深め、不登校状態の児童\n生徒の個別支援を充実させ、学校復帰につなげる。\n\n改善・効率化\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 42
+      },
+      {
+        "name": "市費負担教員活用事業",
+        "start": 92319,
+        "raw": "市費負担教員活用事業",
+        "titleSegments": [
+          {
+            "start": 92319,
+            "raw": "市費負担教員活用事業"
+          }
+        ],
+        "blockStart": 92161,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n授業改善に対する意識が\n\n学校教育課\n\n指導係\n\n1 授業力向上事業\n\n240 高まった小中学校教職員\nの割合\n\n0 る小中学生の割合\n\n学校教育課\n\n指導係\n\n1 市費負担教員活用事業\n\n学校教育課\n\n指導係\n\n2 運動器向上事業\n\n学校教育課\n\n指導係\n\n3 教職員校内研修事業\n\n0 の実施割合\n\n学校教育課\n\n指導係\n\n3 適応指導教室運営事業\n\n71 指導教室在籍生徒の割合\n\n1,972 生徒の割合\n\n評価（課題、問題点など）\n\n平成30年度より内科検診の一部として運動器検診が盛り\n込まれたため、数値として成果をまとめる必要がなくなっ\nた。（平成30年度施策評価シートで「廃止」とした。）\n\n業務改善の方向性\n\n学校保健安全法に基づく検診を実施する。\n廃止\n\nコロナ禍であったため、講師等を招いて研修することが難 ｚｏｏｍを活用した講師招聘研修や指導訪問による研\nしかった。可能な範囲でzoomを活用して授業改善アドバイ 修等を可能な限り行い、校内研修を充実させる。\nザー（上智大学奈須教授）等の研修を行うことができた。\n前年度よりもサンルームの利用者は減った。\n\n今後（R3年度）\nの方針\n\n学校とサンルームの連携を深め、不登校状態の児童\n生徒の個別支援を充実させ、学校復帰につなげる。\n\n改善・効率化\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 42
+      },
+      {
+        "name": "運動器向上事業",
+        "start": 92345,
+        "raw": "運動器向上事業",
+        "titleSegments": [
+          {
+            "start": 92345,
+            "raw": "運動器向上事業"
+          }
+        ],
+        "blockStart": 92161,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n授業改善に対する意識が\n\n学校教育課\n\n指導係\n\n1 授業力向上事業\n\n240 高まった小中学校教職員\nの割合\n\n0 る小中学生の割合\n\n学校教育課\n\n指導係\n\n1 市費負担教員活用事業\n\n学校教育課\n\n指導係\n\n2 運動器向上事業\n\n学校教育課\n\n指導係\n\n3 教職員校内研修事業\n\n0 の実施割合\n\n学校教育課\n\n指導係\n\n3 適応指導教室運営事業\n\n71 指導教室在籍生徒の割合\n\n1,972 生徒の割合\n\n評価（課題、問題点など）\n\n平成30年度より内科検診の一部として運動器検診が盛り\n込まれたため、数値として成果をまとめる必要がなくなっ\nた。（平成30年度施策評価シートで「廃止」とした。）\n\n業務改善の方向性\n\n学校保健安全法に基づく検診を実施する。\n廃止\n\nコロナ禍であったため、講師等を招いて研修することが難 ｚｏｏｍを活用した講師招聘研修や指導訪問による研\nしかった。可能な範囲でzoomを活用して授業改善アドバイ 修等を可能な限り行い、校内研修を充実させる。\nザー（上智大学奈須教授）等の研修を行うことができた。\n前年度よりもサンルームの利用者は減った。\n\n今後（R3年度）\nの方針\n\n学校とサンルームの連携を深め、不登校状態の児童\n生徒の個別支援を充実させ、学校復帰につなげる。\n\n改善・効率化\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 42
+      },
+      {
+        "name": "教職員校内研修事業",
+        "start": 92368,
+        "raw": "教職員校内研修事業",
+        "titleSegments": [
+          {
+            "start": 92368,
+            "raw": "教職員校内研修事業"
+          }
+        ],
+        "blockStart": 92161,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n授業改善に対する意識が\n\n学校教育課\n\n指導係\n\n1 授業力向上事業\n\n240 高まった小中学校教職員\nの割合\n\n0 る小中学生の割合\n\n学校教育課\n\n指導係\n\n1 市費負担教員活用事業\n\n学校教育課\n\n指導係\n\n2 運動器向上事業\n\n学校教育課\n\n指導係\n\n3 教職員校内研修事業\n\n0 の実施割合\n\n学校教育課\n\n指導係\n\n3 適応指導教室運営事業\n\n71 指導教室在籍生徒の割合\n\n1,972 生徒の割合\n\n評価（課題、問題点など）\n\n平成30年度より内科検診の一部として運動器検診が盛り\n込まれたため、数値として成果をまとめる必要がなくなっ\nた。（平成30年度施策評価シートで「廃止」とした。）\n\n業務改善の方向性\n\n学校保健安全法に基づく検診を実施する。\n廃止\n\nコロナ禍であったため、講師等を招いて研修することが難 ｚｏｏｍを活用した講師招聘研修や指導訪問による研\nしかった。可能な範囲でzoomを活用して授業改善アドバイ 修等を可能な限り行い、校内研修を充実させる。\nザー（上智大学奈須教授）等の研修を行うことができた。\n前年度よりもサンルームの利用者は減った。\n\n今後（R3年度）\nの方針\n\n学校とサンルームの連携を深め、不登校状態の児童\n生徒の個別支援を充実させ、学校復帰につなげる。\n\n改善・効率化\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 42
+      },
+      {
+        "name": "適応指導教室運営事業",
+        "start": 92402,
+        "raw": "適応指導教室運営事業",
+        "titleSegments": [
+          {
+            "start": 92402,
+            "raw": "適応指導教室運営事業"
+          }
+        ],
+        "blockStart": 92161,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n授業改善に対する意識が\n\n学校教育課\n\n指導係\n\n1 授業力向上事業\n\n240 高まった小中学校教職員\nの割合\n\n0 る小中学生の割合\n\n学校教育課\n\n指導係\n\n1 市費負担教員活用事業\n\n学校教育課\n\n指導係\n\n2 運動器向上事業\n\n学校教育課\n\n指導係\n\n3 教職員校内研修事業\n\n0 の実施割合\n\n学校教育課\n\n指導係\n\n3 適応指導教室運営事業\n\n71 指導教室在籍生徒の割合\n\n1,972 生徒の割合\n\n評価（課題、問題点など）\n\n平成30年度より内科検診の一部として運動器検診が盛り\n込まれたため、数値として成果をまとめる必要がなくなっ\nた。（平成30年度施策評価シートで「廃止」とした。）\n\n業務改善の方向性\n\n学校保健安全法に基づく検診を実施する。\n廃止\n\nコロナ禍であったため、講師等を招いて研修することが難 ｚｏｏｍを活用した講師招聘研修や指導訪問による研\nしかった。可能な範囲でzoomを活用して授業改善アドバイ 修等を可能な限り行い、校内研修を充実させる。\nザー（上智大学奈須教授）等の研修を行うことができた。\n前年度よりもサンルームの利用者は減った。\n\n今後（R3年度）\nの方針\n\n学校とサンルームの連携を深め、不登校状態の児童\n生徒の個別支援を充実させ、学校復帰につなげる。\n\n改善・効率化\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 42
+      },
+      {
+        "name": "幼稚園・保育園の交流と連携",
+        "start": 94404,
+        "raw": "幼稚園・保育園の交流と連携",
+        "titleSegments": [
+          {
+            "start": 94404,
+            "raw": "幼稚園・保育園の交流と連携"
+          }
+        ],
+        "blockStart": 94314,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n学校教育課\n\n指導係\n\n１ 幼稚園・保育園の交流と連携\n\n「子どもが園に通うことをた\nのしみにしている」と感じる\n170 保護者の割合(保護者アン\nケート）\n\n学校教育課\n\n指導係\n\n親が子育ての喜びを感じ、幼児が健や\n２ かに育つ支援の充実\n\n784 との方が多い人の割合\n\n学校教育課\n\n指導係\n\n３ 特別支援員の資質向上\n\n子育てを楽しいと感じるこ\n\n園の発達支援体制に対す\n\n0 る満足度\n\n単位\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n園の保育の要であり、これからの市の乳幼児教育、保育を 研修が無理なくできる職員体制の整備や資質向上に\n担うミドルリーダーの人材育成が必須である。\n効果的な研修の工夫に努める。\n\n％\n\n97\n\n80\n\n99\n\n80\n\n％\n\n98\n\n75\n\n95\n\n75\n\n目標数値に達しているが、昨年度より３％割合が下がり、\n育児不安、育児困難を抱える保護者が増加している。\n\nこども未来課等関係機関との連携を深め、様々な方\n面から保護者を支えていく。\n\n％\n\n98\n\n70\n\n98\n\n70\n\n発達の遅れや発達障害等の支援を要する子への適切な\n早期支援が必要である。\n\n園・家庭・療育との連携を図り、２号認定の長時間部や０～２\n歳児の３号認定に対しても支援員を配置し、手厚い保育や支\n援を行うために保育士確保に努める。\n\n1/1\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 43
+      },
+      {
+        "name": "親が子育ての喜びを感じ、幼児が健やかに育つ支援の充実",
+        "start": 94482,
+        "raw": "親が子育ての喜びを感じ、幼児が健や\n２ かに育つ支援の充実",
+        "titleSegments": [
+          {
+            "start": 94482,
+            "raw": "親が子育ての喜びを感じ、幼児が健や"
+          },
+          {
+            "start": 94502,
+            "raw": "かに育つ支援の充実"
+          }
+        ],
+        "blockStart": 94314,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n学校教育課\n\n指導係\n\n１ 幼稚園・保育園の交流と連携\n\n「子どもが園に通うことをた\nのしみにしている」と感じる\n170 保護者の割合(保護者アン\nケート）\n\n学校教育課\n\n指導係\n\n親が子育ての喜びを感じ、幼児が健や\n２ かに育つ支援の充実\n\n784 との方が多い人の割合\n\n学校教育課\n\n指導係\n\n３ 特別支援員の資質向上\n\n子育てを楽しいと感じるこ\n\n園の発達支援体制に対す\n\n0 る満足度\n\n単位\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n園の保育の要であり、これからの市の乳幼児教育、保育を 研修が無理なくできる職員体制の整備や資質向上に\n担うミドルリーダーの人材育成が必須である。\n効果的な研修の工夫に努める。\n\n％\n\n97\n\n80\n\n99\n\n80\n\n％\n\n98\n\n75\n\n95\n\n75\n\n目標数値に達しているが、昨年度より３％割合が下がり、\n育児不安、育児困難を抱える保護者が増加している。\n\nこども未来課等関係機関との連携を深め、様々な方\n面から保護者を支えていく。\n\n％\n\n98\n\n70\n\n98\n\n70\n\n発達の遅れや発達障害等の支援を要する子への適切な\n早期支援が必要である。\n\n園・家庭・療育との連携を図り、２号認定の長時間部や０～２\n歳児の３号認定に対しても支援員を配置し、手厚い保育や支\n援を行うために保育士確保に努める。\n\n1/1\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 43
+      },
+      {
+        "name": "特別支援員の資質向上",
+        "start": 94543,
+        "raw": "特別支援員の資質向上",
+        "titleSegments": [
+          {
+            "start": 94543,
+            "raw": "特別支援員の資質向上"
+          }
+        ],
+        "blockStart": 94314,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n学校教育課\n\n指導係\n\n１ 幼稚園・保育園の交流と連携\n\n「子どもが園に通うことをた\nのしみにしている」と感じる\n170 保護者の割合(保護者アン\nケート）\n\n学校教育課\n\n指導係\n\n親が子育ての喜びを感じ、幼児が健や\n２ かに育つ支援の充実\n\n784 との方が多い人の割合\n\n学校教育課\n\n指導係\n\n３ 特別支援員の資質向上\n\n子育てを楽しいと感じるこ\n\n園の発達支援体制に対す\n\n0 る満足度\n\n単位\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n園の保育の要であり、これからの市の乳幼児教育、保育を 研修が無理なくできる職員体制の整備や資質向上に\n担うミドルリーダーの人材育成が必須である。\n効果的な研修の工夫に努める。\n\n％\n\n97\n\n80\n\n99\n\n80\n\n％\n\n98\n\n75\n\n95\n\n75\n\n目標数値に達しているが、昨年度より３％割合が下がり、\n育児不安、育児困難を抱える保護者が増加している。\n\nこども未来課等関係機関との連携を深め、様々な方\n面から保護者を支えていく。\n\n％\n\n98\n\n70\n\n98\n\n70\n\n発達の遅れや発達障害等の支援を要する子への適切な\n早期支援が必要である。\n\n園・家庭・療育との連携を図り、２号認定の長時間部や０～２\n歳児の３号認定に対しても支援員を配置し、手厚い保育や支\n援を行うために保育士確保に努める。\n\n1/1\n\n今後（R3年度）\nの方針\n\n改善・効率化\n\n改善・効率化\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 43
+      },
+      {
+        "name": "学校施設の整備（中学校）",
+        "start": 96315,
+        "raw": "学校施設の整備（中学校）",
+        "titleSegments": [
+          {
+            "start": 96315,
+            "raw": "学校施設の整備（中学校）"
+          }
+        ],
+        "blockStart": 96177,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\nR1年度\n実績\n\nR2年度\n目標\n\nR2年度\n実績\n\nR3年度\n目標\n\n0\n\nトイレの洋式化率\n\n％\n\n72\n\n75\n\n76\n\n75\n\n1 学校施設の整備（中学校）\n\n160,380\n\nトイレの洋式化率\n\n％\n\n100\n\n100\n\n100\n\n100\n\n2 学校施設の整備（授業用情報機器）\n\n9,000\n\n教育用パソコン1台当たり\nの児童生徒数\n\n人\n\n3.2\n\n1.0\n\n1.0\n\n1.0\n\n業務名\n\n課名\n\n係名\n\n教育総務課\n\n施設管理係\n\n1 学校施設の整備（小学校）\n\n教育総務課\n\n施設管理係\n\n教育総務課\n\n施設管理係\n\n評価（課題、問題点など）\n目標達成済み\n\n今後（R3年度）\nの方針\n\n目標達成済み\n現状維持\n\n目標達成済み\n\n1/1\n\n業務改善の方向性\n\n目標達成済み\n現状維持\n\n文部科学省GIGAスクール構想にそった児童生徒用端末の 目標達成済み\n整備により目標達成済み\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 44
+      },
+      {
+        "name": "学校施設の整備（授業用情報機器）",
+        "start": 96373,
+        "raw": "学校施設の整備（授業用情報機器）",
+        "titleSegments": [
+          {
+            "start": 96373,
+            "raw": "学校施設の整備（授業用情報機器）"
+          }
+        ],
+        "blockStart": 96177,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\nR1年度\n実績\n\nR2年度\n目標\n\nR2年度\n実績\n\nR3年度\n目標\n\n0\n\nトイレの洋式化率\n\n％\n\n72\n\n75\n\n76\n\n75\n\n1 学校施設の整備（中学校）\n\n160,380\n\nトイレの洋式化率\n\n％\n\n100\n\n100\n\n100\n\n100\n\n2 学校施設の整備（授業用情報機器）\n\n9,000\n\n教育用パソコン1台当たり\nの児童生徒数\n\n人\n\n3.2\n\n1.0\n\n1.0\n\n1.0\n\n業務名\n\n課名\n\n係名\n\n教育総務課\n\n施設管理係\n\n1 学校施設の整備（小学校）\n\n教育総務課\n\n施設管理係\n\n教育総務課\n\n施設管理係\n\n評価（課題、問題点など）\n目標達成済み\n\n今後（R3年度）\nの方針\n\n目標達成済み\n現状維持\n\n目標達成済み\n\n1/1\n\n業務改善の方向性\n\n目標達成済み\n現状維持\n\n文部科学省GIGAスクール構想にそった児童生徒用端末の 目標達成済み\n整備により目標達成済み\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 44
+      },
+      {
+        "name": "学校施設の整備（小学校）",
+        "start": 96471,
+        "raw": "学校施設の整備（小学校）",
+        "titleSegments": [
+          {
+            "start": 96471,
+            "raw": "学校施設の整備（小学校）"
+          }
+        ],
+        "blockStart": 96177,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\nR1年度\n実績\n\nR2年度\n目標\n\nR2年度\n実績\n\nR3年度\n目標\n\n0\n\nトイレの洋式化率\n\n％\n\n72\n\n75\n\n76\n\n75\n\n1 学校施設の整備（中学校）\n\n160,380\n\nトイレの洋式化率\n\n％\n\n100\n\n100\n\n100\n\n100\n\n2 学校施設の整備（授業用情報機器）\n\n9,000\n\n教育用パソコン1台当たり\nの児童生徒数\n\n人\n\n3.2\n\n1.0\n\n1.0\n\n1.0\n\n業務名\n\n課名\n\n係名\n\n教育総務課\n\n施設管理係\n\n1 学校施設の整備（小学校）\n\n教育総務課\n\n施設管理係\n\n教育総務課\n\n施設管理係\n\n評価（課題、問題点など）\n目標達成済み\n\n今後（R3年度）\nの方針\n\n目標達成済み\n現状維持\n\n目標達成済み\n\n1/1\n\n業務改善の方向性\n\n目標達成済み\n現状維持\n\n文部科学省GIGAスクール構想にそった児童生徒用端末の 目標達成済み\n整備により目標達成済み\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 44
+      },
+      {
+        "name": "栄養指導",
+        "start": 98469,
+        "raw": "栄養指導",
+        "titleSegments": [
+          {
+            "start": 98469,
+            "raw": "栄養指導"
+          }
+        ],
+        "blockStart": 98346,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n学校給食共同調\n理場\n\n1・2 献立表の調整\n\n―\n\n適正管理\n\n学校給食共同調\n理場\n\n3 栄養指導\n\n―\n\n栄養指導開催回数\n\n4 給食費徴収事務\n\n―\n\n給食費納付率（現年度分\n納付率）\n\n教育総務課\n\n総務係\n\n単位\n\n適正管理\n\n適正管理\n\n適正管理\n\n回\n\n190\n\n193\n\n123\n\n％\n\n99.93\n\n99.00\n\n100.00\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n常に食材の地産地消について心がけて発注業務を行って\nいる。しかし、一部納入業者において地産地消についての\n適正管理\n知識が乏しいように感じられる。また、食材により他産地と\nの価格の格差等の問題もある。\n残菜率は、新型コロナウイルスの影響により、例年と比較\nし全体的に高い水準で推移した。更に、栄養指導の開催回\n150\n数も例年と比べ少なかった。\n\n―\n\n令和２年度から給食費が無償化となり、御前崎中学校の 給食納付率は最終目標に達成したため、新たに指標\n一部生徒からの徴収となった。保護者の協力もあり、徴収 を設定し継続して行う。\n率は100％となった。\n\n今後（R3年度）\nの方針\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 45
+      },
+      {
+        "name": "給食費徴収事務",
+        "start": 98490,
+        "raw": "給食費徴収事務",
+        "titleSegments": [
+          {
+            "start": 98490,
+            "raw": "給食費徴収事務"
+          }
+        ],
+        "blockStart": 98346,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n学校給食共同調\n理場\n\n1・2 献立表の調整\n\n―\n\n適正管理\n\n学校給食共同調\n理場\n\n3 栄養指導\n\n―\n\n栄養指導開催回数\n\n4 給食費徴収事務\n\n―\n\n給食費納付率（現年度分\n納付率）\n\n教育総務課\n\n総務係\n\n単位\n\n適正管理\n\n適正管理\n\n適正管理\n\n回\n\n190\n\n193\n\n123\n\n％\n\n99.93\n\n99.00\n\n100.00\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n常に食材の地産地消について心がけて発注業務を行って\nいる。しかし、一部納入業者において地産地消についての\n適正管理\n知識が乏しいように感じられる。また、食材により他産地と\nの価格の格差等の問題もある。\n残菜率は、新型コロナウイルスの影響により、例年と比較\nし全体的に高い水準で推移した。更に、栄養指導の開催回\n150\n数も例年と比べ少なかった。\n\n―\n\n令和２年度から給食費が無償化となり、御前崎中学校の 給食納付率は最終目標に達成したため、新たに指標\n一部生徒からの徴収となった。保護者の協力もあり、徴収 を設定し継続して行う。\n率は100％となった。\n\n今後（R3年度）\nの方針\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 45
+      },
+      {
+        "name": "献立表の調整",
+        "start": 98438,
+        "raw": "献立表の調整",
+        "titleSegments": [
+          {
+            "start": 98438,
+            "raw": "献立表の調整"
+          }
+        ],
+        "blockStart": 98346,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n学校給食共同調\n理場\n\n1・2 献立表の調整\n\n―\n\n適正管理\n\n学校給食共同調\n理場\n\n3 栄養指導\n\n―\n\n栄養指導開催回数\n\n4 給食費徴収事務\n\n―\n\n給食費納付率（現年度分\n納付率）\n\n教育総務課\n\n総務係\n\n単位\n\n適正管理\n\n適正管理\n\n適正管理\n\n回\n\n190\n\n193\n\n123\n\n％\n\n99.93\n\n99.00\n\n100.00\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n常に食材の地産地消について心がけて発注業務を行って\nいる。しかし、一部納入業者において地産地消についての\n適正管理\n知識が乏しいように感じられる。また、食材により他産地と\nの価格の格差等の問題もある。\n残菜率は、新型コロナウイルスの影響により、例年と比較\nし全体的に高い水準で推移した。更に、栄養指導の開催回\n150\n数も例年と比べ少なかった。\n\n―\n\n令和２年度から給食費が無償化となり、御前崎中学校の 給食納付率は最終目標に達成したため、新たに指標\n一部生徒からの徴収となった。保護者の協力もあり、徴収 を設定し継続して行う。\n率は100％となった。\n\n今後（R3年度）\nの方針\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 45
+      },
+      {
+        "name": "公民館活動支援補助金",
+        "start": 100416,
+        "raw": "公民館活動支援補助金",
+        "titleSegments": [
+          {
+            "start": 100416,
+            "raw": "公民館活動支援補助金"
+          }
+        ],
+        "blockStart": 100264,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\nＲ2.4～公民館の地区センター移行\n社会教育課\n\n生涯学習係\n\n1 公民館活動支援補助金\n\n社会教育課\n\n芸術文化係\n\n2 文化祭（芸能発表）\n\n社会教育課\n\n生涯学習係\n\n生涯学習講座\n\n公民館活動(講座・イベント\n20,000 など)への参加人数\n\n157 来場者数\n生涯学習講座への参加者\n\n689 数\n\n人\n\n192,364\n\n人\n\n880\n\n人\n\n-\n\n-\n\n―\n\n1/1\n\n0\n\n200\n\n937\n\n950\n\n新型コロナウイルス感染拡大防止のため中止。しかし、\nCATVを利用し、無観客で配信を行った。\n\n令和３年度は、市民会館がコロナワクチン接種会場に\nなっているため、佐倉地区センターで文化祭を行う。芸\n能発表の場を守る取り組みを、柔軟に対応していきた\n公民館の地区センターへの移行により、生涯学習講座の位置づけ い。\n引き続き市民に分かりやすく学びの場の情報提供を\nを明確にした。、また、地区センターや振興公社などで実施してい\nる講座をガイドブックにまとめ市民が学びの場の情報を得やすい\n環境を整えた。\n\nするとともに、ライフステージごとの目指す姿と学びの\n場の整理と、市民が学習履歴を記録できるものなどを\n作成していく。\n\n改善・効率化\n\n拡大\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 46
+      },
+      {
+        "name": "文化祭（芸能発表）",
+        "start": 100444,
+        "raw": "文化祭（芸能発表）",
+        "titleSegments": [
+          {
+            "start": 100444,
+            "raw": "文化祭（芸能発表）"
+          }
+        ],
+        "blockStart": 100264,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\nＲ2.4～公民館の地区センター移行\n社会教育課\n\n生涯学習係\n\n1 公民館活動支援補助金\n\n社会教育課\n\n芸術文化係\n\n2 文化祭（芸能発表）\n\n社会教育課\n\n生涯学習係\n\n生涯学習講座\n\n公民館活動(講座・イベント\n20,000 など)への参加人数\n\n157 来場者数\n生涯学習講座への参加者\n\n689 数\n\n人\n\n192,364\n\n人\n\n880\n\n人\n\n-\n\n-\n\n―\n\n1/1\n\n0\n\n200\n\n937\n\n950\n\n新型コロナウイルス感染拡大防止のため中止。しかし、\nCATVを利用し、無観客で配信を行った。\n\n令和３年度は、市民会館がコロナワクチン接種会場に\nなっているため、佐倉地区センターで文化祭を行う。芸\n能発表の場を守る取り組みを、柔軟に対応していきた\n公民館の地区センターへの移行により、生涯学習講座の位置づけ い。\n引き続き市民に分かりやすく学びの場の情報提供を\nを明確にした。、また、地区センターや振興公社などで実施してい\nる講座をガイドブックにまとめ市民が学びの場の情報を得やすい\n環境を整えた。\n\nするとともに、ライフステージごとの目指す姿と学びの\n場の整理と、市民が学習履歴を記録できるものなどを\n作成していく。\n\n改善・効率化\n\n拡大\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 46
+      },
+      {
+        "name": "生涯学習講座",
+        "start": 100469,
+        "raw": "生涯学習講座",
+        "titleSegments": [
+          {
+            "start": 100469,
+            "raw": "生涯学習講座"
+          }
+        ],
+        "blockStart": 100264,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\nＲ2.4～公民館の地区センター移行\n社会教育課\n\n生涯学習係\n\n1 公民館活動支援補助金\n\n社会教育課\n\n芸術文化係\n\n2 文化祭（芸能発表）\n\n社会教育課\n\n生涯学習係\n\n生涯学習講座\n\n公民館活動(講座・イベント\n20,000 など)への参加人数\n\n157 来場者数\n生涯学習講座への参加者\n\n689 数\n\n人\n\n192,364\n\n人\n\n880\n\n人\n\n-\n\n-\n\n―\n\n1/1\n\n0\n\n200\n\n937\n\n950\n\n新型コロナウイルス感染拡大防止のため中止。しかし、\nCATVを利用し、無観客で配信を行った。\n\n令和３年度は、市民会館がコロナワクチン接種会場に\nなっているため、佐倉地区センターで文化祭を行う。芸\n能発表の場を守る取り組みを、柔軟に対応していきた\n公民館の地区センターへの移行により、生涯学習講座の位置づけ い。\n引き続き市民に分かりやすく学びの場の情報提供を\nを明確にした。、また、地区センターや振興公社などで実施してい\nる講座をガイドブックにまとめ市民が学びの場の情報を得やすい\n環境を整えた。\n\nするとともに、ライフステージごとの目指す姿と学びの\n場の整理と、市民が学習履歴を記録できるものなどを\n作成していく。\n\n改善・効率化\n\n拡大\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 46
+      },
+      {
+        "name": "教育委員会の諮問による文化財保護審議会の運営",
+        "start": 102970,
+        "raw": "教育委員会の諮問による\n\n1 文化財保護審議会の運営",
+        "titleSegments": [
+          {
+            "start": 102970,
+            "raw": "教育委員会の諮問による"
+          },
+          {
+            "start": 102985,
+            "raw": "文化財保護審議会の運営"
+          }
+        ],
+        "blockStart": 102881,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n社会教育課\n\n芸術文化係\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n教育委員会の諮問による\n\n1 文化財保護審議会の運営\n\n26 市指定文化財候補の指定\nについての審議数\n\n社会教育課\n\n芸術文化係\n\n2 文化財出張授業\n\n64 文化財講座の満足度\n\n社会教育課\n\n芸術文化係\n\n3 ウミガメ保護の促進\n\n1,770 保護に関する講座の実施\n\n市民を対象としたウミガメ\n回数\n\n1/1\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 47
+      },
+      {
+        "name": "文化財出張授業",
+        "start": 103039,
+        "raw": "文化財出張授業",
+        "titleSegments": [
+          {
+            "start": 103039,
+            "raw": "文化財出張授業"
+          }
+        ],
+        "blockStart": 102881,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n社会教育課\n\n芸術文化係\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n教育委員会の諮問による\n\n1 文化財保護審議会の運営\n\n26 市指定文化財候補の指定\nについての審議数\n\n社会教育課\n\n芸術文化係\n\n2 文化財出張授業\n\n64 文化財講座の満足度\n\n社会教育課\n\n芸術文化係\n\n3 ウミガメ保護の促進\n\n1,770 保護に関する講座の実施\n\n市民を対象としたウミガメ\n回数\n\n1/1\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 47
+      },
+      {
+        "name": "ウミガメ保護の促進",
+        "start": 103078,
+        "raw": "ウミガメ保護の促進",
+        "titleSegments": [
+          {
+            "start": 103078,
+            "raw": "ウミガメ保護の促進"
+          }
+        ],
+        "blockStart": 102881,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n社会教育課\n\n芸術文化係\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n教育委員会の諮問による\n\n1 文化財保護審議会の運営\n\n26 市指定文化財候補の指定\nについての審議数\n\n社会教育課\n\n芸術文化係\n\n2 文化財出張授業\n\n64 文化財講座の満足度\n\n社会教育課\n\n芸術文化係\n\n3 ウミガメ保護の促進\n\n1,770 保護に関する講座の実施\n\n市民を対象としたウミガメ\n回数\n\n1/1\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 47
+      },
+      {
+        "name": "市民を惹きつける資料選び",
+        "start": 104803,
+        "raw": "市民を惹きつける資料選び",
+        "titleSegments": [
+          {
+            "start": 104803,
+            "raw": "市民を惹きつける資料選び"
+          }
+        ],
+        "blockStart": 104702,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n24,000 貸出者数\n\n図書館\n\n図書係\n\n3 市民を惹きつける資料選び\n\n図書館\n\n図書係\n\n1 新規利用者の開拓\n\n新規登録者数\n\n人\n\n713\n\n750\n\n628\n\n700\n\n図書館\n\n図書係\n\n2 子どもの読書推進事業\n\n巡回貸出冊数\n\n冊\n\n5,382\n\n5,500\n\n3,910\n\n5,500\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n目標を大きく下回った。新型コロナウィルス感染拡大に伴う臨時休 図書除菌機の設置など感染対策を講じた運営をPRし、引き\n館や長引く外出自粛などが影響していると思われるが、利用は\n続き利用者が求める蔵書構成に留意した選書を実施してい\n年々減少している。\nく。また新たなサービスとして電子図書の導入について検討\nする。\n目標を大きく下回った。新型コロナウィルス感染拡大に伴う臨時休 引き続き、ホームページや公式SNSを活用して市民生活に役\n館や長引く外出自粛などが影響していると思われるが、図書館へ 立つ図書館をPRするとともに、電子図書の導入を検討し利便\nの興味が低下している。\n性の向上を図る。\n目標を大きく下回った。新型コロナウィルス感染拡大に伴う巡回貸 園児・児童が借りたい図書の選定に留意し、貸出が増えるよ\n出の中止が影響していると思われるが、巡回貸出の会場に来てく う園・学校と連携を図る。\nれる児童が減少している。\n\n今後（R3年度）\nの方針\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 48
+      },
+      {
+        "name": "新規利用者の開拓",
+        "start": 104829,
+        "raw": "新規利用者の開拓",
+        "titleSegments": [
+          {
+            "start": 104829,
+            "raw": "新規利用者の開拓"
+          }
+        ],
+        "blockStart": 104702,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n24,000 貸出者数\n\n図書館\n\n図書係\n\n3 市民を惹きつける資料選び\n\n図書館\n\n図書係\n\n1 新規利用者の開拓\n\n新規登録者数\n\n人\n\n713\n\n750\n\n628\n\n700\n\n図書館\n\n図書係\n\n2 子どもの読書推進事業\n\n巡回貸出冊数\n\n冊\n\n5,382\n\n5,500\n\n3,910\n\n5,500\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n目標を大きく下回った。新型コロナウィルス感染拡大に伴う臨時休 図書除菌機の設置など感染対策を講じた運営をPRし、引き\n館や長引く外出自粛などが影響していると思われるが、利用は\n続き利用者が求める蔵書構成に留意した選書を実施してい\n年々減少している。\nく。また新たなサービスとして電子図書の導入について検討\nする。\n目標を大きく下回った。新型コロナウィルス感染拡大に伴う臨時休 引き続き、ホームページや公式SNSを活用して市民生活に役\n館や長引く外出自粛などが影響していると思われるが、図書館へ 立つ図書館をPRするとともに、電子図書の導入を検討し利便\nの興味が低下している。\n性の向上を図る。\n目標を大きく下回った。新型コロナウィルス感染拡大に伴う巡回貸 園児・児童が借りたい図書の選定に留意し、貸出が増えるよ\n出の中止が影響していると思われるが、巡回貸出の会場に来てく う園・学校と連携を図る。\nれる児童が減少している。\n\n今後（R3年度）\nの方針\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 48
+      },
+      {
+        "name": "子どもの読書推進事業",
+        "start": 104882,
+        "raw": "子どもの読書推進事業",
+        "titleSegments": [
+          {
+            "start": 104882,
+            "raw": "子どもの読書推進事業"
+          }
+        ],
+        "blockStart": 104702,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n24,000 貸出者数\n\n図書館\n\n図書係\n\n3 市民を惹きつける資料選び\n\n図書館\n\n図書係\n\n1 新規利用者の開拓\n\n新規登録者数\n\n人\n\n713\n\n750\n\n628\n\n700\n\n図書館\n\n図書係\n\n2 子どもの読書推進事業\n\n巡回貸出冊数\n\n冊\n\n5,382\n\n5,500\n\n3,910\n\n5,500\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n目標を大きく下回った。新型コロナウィルス感染拡大に伴う臨時休 図書除菌機の設置など感染対策を講じた運営をPRし、引き\n館や長引く外出自粛などが影響していると思われるが、利用は\n続き利用者が求める蔵書構成に留意した選書を実施してい\n年々減少している。\nく。また新たなサービスとして電子図書の導入について検討\nする。\n目標を大きく下回った。新型コロナウィルス感染拡大に伴う臨時休 引き続き、ホームページや公式SNSを活用して市民生活に役\n館や長引く外出自粛などが影響していると思われるが、図書館へ 立つ図書館をPRするとともに、電子図書の導入を検討し利便\nの興味が低下している。\n性の向上を図る。\n目標を大きく下回った。新型コロナウィルス感染拡大に伴う巡回貸 園児・児童が借りたい図書の選定に留意し、貸出が増えるよ\n出の中止が影響していると思われるが、巡回貸出の会場に来てく う園・学校と連携を図る。\nれる児童が減少している。\n\n今後（R3年度）\nの方針\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 48
+      },
+      {
+        "name": "地域コミュニティ活性化事業",
+        "start": 108174,
+        "raw": "地域コミュニティ活性化事業",
+        "titleSegments": [
+          {
+            "start": 108174,
+            "raw": "地域コミュニティ活性化事業"
+          }
+        ],
+        "blockStart": 108112,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\n課名\n\n係名\n\n企画政策課\n\n協働推進係\n\n1 地域コミュニティ活性化事業\n\n企画政策課\n\n協働推進係\n\n1 市民活動団体等の支援\n\n企画政策課\n\n経営戦略係\n\n2 移住定住促進事業\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\nまちづくり活動支援補助金\n\n705 利用団体数\n\n0 ＮＰＯ交流会の開催回数\n市外からの移住世帯数（各種\n\n38,043 住宅取得補助金を利用した市\n外からの転入世帯数）\n\n企画政策課\n\n経営戦略係\n\n2 移住定住促進事業\n\n企画政策課\n\n協働推進係\n\n3 海外への研修・派遣の拡大\n\n企画政策課\n\n協働推進係\n\n4\n\n企画政策課\n\n協働推進係\n\n政策・方針決定過程への女性の参画促\n4 進事業\n\n男女共同参画意識高揚への機運醸成の\nための普及啓発活動\n\n婚活イベント参加申込者\n\n0 数\n\n海外研修募集定員に対す\n\n491 る応募者数割合\n\n男女共同参画講演会参加\n\n7 者数\n\n女性人材バンク「やまもも\n\n0 ネット」への登録者数\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n新型コロナウイルスの影響もあり市民活動及び申請件数\nは減少したが、自主的な活動を行う団体に支援できた。\n\n地域協働支援アドバイザーへ委託し市民活動団体を\n支援しているが、行政と市民の間に立つ中立的立場\nの中間支援組織のあり方について研究していく。\n\n現状維持\n\n新型コロナウイルス感染拡大の影響などにより、広域や民 市の事業として実施することは困難なため、団体や民\n間でのイベントも含め実施なし。\n間が実施する事業へ支援等を検討していく。\n\n廃止\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 49
+      },
+      {
+        "name": "市民活動団体等の支援",
+        "start": 108205,
+        "raw": "市民活動団体等の支援",
+        "titleSegments": [
+          {
+            "start": 108205,
+            "raw": "市民活動団体等の支援"
+          }
+        ],
+        "blockStart": 108112,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\n課名\n\n係名\n\n企画政策課\n\n協働推進係\n\n1 地域コミュニティ活性化事業\n\n企画政策課\n\n協働推進係\n\n1 市民活動団体等の支援\n\n企画政策課\n\n経営戦略係\n\n2 移住定住促進事業\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\nまちづくり活動支援補助金\n\n705 利用団体数\n\n0 ＮＰＯ交流会の開催回数\n市外からの移住世帯数（各種\n\n38,043 住宅取得補助金を利用した市\n外からの転入世帯数）\n\n企画政策課\n\n経営戦略係\n\n2 移住定住促進事業\n\n企画政策課\n\n協働推進係\n\n3 海外への研修・派遣の拡大\n\n企画政策課\n\n協働推進係\n\n4\n\n企画政策課\n\n協働推進係\n\n政策・方針決定過程への女性の参画促\n4 進事業\n\n男女共同参画意識高揚への機運醸成の\nための普及啓発活動\n\n婚活イベント参加申込者\n\n0 数\n\n海外研修募集定員に対す\n\n491 る応募者数割合\n\n男女共同参画講演会参加\n\n7 者数\n\n女性人材バンク「やまもも\n\n0 ネット」への登録者数\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n新型コロナウイルスの影響もあり市民活動及び申請件数\nは減少したが、自主的な活動を行う団体に支援できた。\n\n地域協働支援アドバイザーへ委託し市民活動団体を\n支援しているが、行政と市民の間に立つ中立的立場\nの中間支援組織のあり方について研究していく。\n\n現状維持\n\n新型コロナウイルス感染拡大の影響などにより、広域や民 市の事業として実施することは困難なため、団体や民\n間でのイベントも含め実施なし。\n間が実施する事業へ支援等を検討していく。\n\n廃止\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 49
+      },
+      {
+        "name": "移住定住促進事業",
+        "start": 108233,
+        "raw": "移住定住促進事業",
+        "titleSegments": [
+          {
+            "start": 108233,
+            "raw": "移住定住促進事業"
+          }
+        ],
+        "blockStart": 108112,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\n課名\n\n係名\n\n企画政策課\n\n協働推進係\n\n1 地域コミュニティ活性化事業\n\n企画政策課\n\n協働推進係\n\n1 市民活動団体等の支援\n\n企画政策課\n\n経営戦略係\n\n2 移住定住促進事業\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\nまちづくり活動支援補助金\n\n705 利用団体数\n\n0 ＮＰＯ交流会の開催回数\n市外からの移住世帯数（各種\n\n38,043 住宅取得補助金を利用した市\n外からの転入世帯数）\n\n企画政策課\n\n経営戦略係\n\n2 移住定住促進事業\n\n企画政策課\n\n協働推進係\n\n3 海外への研修・派遣の拡大\n\n企画政策課\n\n協働推進係\n\n4\n\n企画政策課\n\n協働推進係\n\n政策・方針決定過程への女性の参画促\n4 進事業\n\n男女共同参画意識高揚への機運醸成の\nための普及啓発活動\n\n婚活イベント参加申込者\n\n0 数\n\n海外研修募集定員に対す\n\n491 る応募者数割合\n\n男女共同参画講演会参加\n\n7 者数\n\n女性人材バンク「やまもも\n\n0 ネット」への登録者数\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n新型コロナウイルスの影響もあり市民活動及び申請件数\nは減少したが、自主的な活動を行う団体に支援できた。\n\n地域協働支援アドバイザーへ委託し市民活動団体を\n支援しているが、行政と市民の間に立つ中立的立場\nの中間支援組織のあり方について研究していく。\n\n現状維持\n\n新型コロナウイルス感染拡大の影響などにより、広域や民 市の事業として実施することは困難なため、団体や民\n間でのイベントも含め実施なし。\n間が実施する事業へ支援等を検討していく。\n\n廃止\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 49
+      },
+      {
+        "name": "海外への研修・派遣の拡大",
+        "start": 108402,
+        "raw": "海外への研修・派遣の拡大",
+        "titleSegments": [
+          {
+            "start": 108402,
+            "raw": "海外への研修・派遣の拡大"
+          }
+        ],
+        "blockStart": 108112,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\n課名\n\n係名\n\n企画政策課\n\n協働推進係\n\n1 地域コミュニティ活性化事業\n\n企画政策課\n\n協働推進係\n\n1 市民活動団体等の支援\n\n企画政策課\n\n経営戦略係\n\n2 移住定住促進事業\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\nまちづくり活動支援補助金\n\n705 利用団体数\n\n0 ＮＰＯ交流会の開催回数\n市外からの移住世帯数（各種\n\n38,043 住宅取得補助金を利用した市\n外からの転入世帯数）\n\n企画政策課\n\n経営戦略係\n\n2 移住定住促進事業\n\n企画政策課\n\n協働推進係\n\n3 海外への研修・派遣の拡大\n\n企画政策課\n\n協働推進係\n\n4\n\n企画政策課\n\n協働推進係\n\n政策・方針決定過程への女性の参画促\n4 進事業\n\n男女共同参画意識高揚への機運醸成の\nための普及啓発活動\n\n婚活イベント参加申込者\n\n0 数\n\n海外研修募集定員に対す\n\n491 る応募者数割合\n\n男女共同参画講演会参加\n\n7 者数\n\n女性人材バンク「やまもも\n\n0 ネット」への登録者数\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n新型コロナウイルスの影響もあり市民活動及び申請件数\nは減少したが、自主的な活動を行う団体に支援できた。\n\n地域協働支援アドバイザーへ委託し市民活動団体を\n支援しているが、行政と市民の間に立つ中立的立場\nの中間支援組織のあり方について研究していく。\n\n現状維持\n\n新型コロナウイルス感染拡大の影響などにより、広域や民 市の事業として実施することは困難なため、団体や民\n間でのイベントも含め実施なし。\n間が実施する事業へ支援等を検討していく。\n\n廃止\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 49
+      },
+      {
+        "name": "政策・方針決定過程への女性の参画促進事業",
+        "start": 108447,
+        "raw": "政策・方針決定過程への女性の参画促\n4 進事業",
+        "titleSegments": [
+          {
+            "start": 108447,
+            "raw": "政策・方針決定過程への女性の参画促"
+          },
+          {
+            "start": 108467,
+            "raw": "進事業"
+          }
+        ],
+        "blockStart": 108112,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\n課名\n\n係名\n\n企画政策課\n\n協働推進係\n\n1 地域コミュニティ活性化事業\n\n企画政策課\n\n協働推進係\n\n1 市民活動団体等の支援\n\n企画政策課\n\n経営戦略係\n\n2 移住定住促進事業\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\nまちづくり活動支援補助金\n\n705 利用団体数\n\n0 ＮＰＯ交流会の開催回数\n市外からの移住世帯数（各種\n\n38,043 住宅取得補助金を利用した市\n外からの転入世帯数）\n\n企画政策課\n\n経営戦略係\n\n2 移住定住促進事業\n\n企画政策課\n\n協働推進係\n\n3 海外への研修・派遣の拡大\n\n企画政策課\n\n協働推進係\n\n4\n\n企画政策課\n\n協働推進係\n\n政策・方針決定過程への女性の参画促\n4 進事業\n\n男女共同参画意識高揚への機運醸成の\nための普及啓発活動\n\n婚活イベント参加申込者\n\n0 数\n\n海外研修募集定員に対す\n\n491 る応募者数割合\n\n男女共同参画講演会参加\n\n7 者数\n\n女性人材バンク「やまもも\n\n0 ネット」への登録者数\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n新型コロナウイルスの影響もあり市民活動及び申請件数\nは減少したが、自主的な活動を行う団体に支援できた。\n\n地域協働支援アドバイザーへ委託し市民活動団体を\n支援しているが、行政と市民の間に立つ中立的立場\nの中間支援組織のあり方について研究していく。\n\n現状維持\n\n新型コロナウイルス感染拡大の影響などにより、広域や民 市の事業として実施することは困難なため、団体や民\n間でのイベントも含め実施なし。\n間が実施する事業へ支援等を検討していく。\n\n廃止\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 49
+      },
+      {
+        "name": "男女共同参画意識高揚への機運醸成のための普及啓発活動",
+        "start": 108472,
+        "raw": "男女共同参画意識高揚への機運醸成の\nための普及啓発活動",
+        "titleSegments": [
+          {
+            "start": 108472,
+            "raw": "男女共同参画意識高揚への機運醸成の"
+          },
+          {
+            "start": 108490,
+            "raw": "ための普及啓発活動"
+          }
+        ],
+        "blockStart": 108112,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n\n指\n標\n№\n\n業務名\n\n課名\n\n係名\n\n企画政策課\n\n協働推進係\n\n1 地域コミュニティ活性化事業\n\n企画政策課\n\n協働推進係\n\n1 市民活動団体等の支援\n\n企画政策課\n\n経営戦略係\n\n2 移住定住促進事業\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\nまちづくり活動支援補助金\n\n705 利用団体数\n\n0 ＮＰＯ交流会の開催回数\n市外からの移住世帯数（各種\n\n38,043 住宅取得補助金を利用した市\n外からの転入世帯数）\n\n企画政策課\n\n経営戦略係\n\n2 移住定住促進事業\n\n企画政策課\n\n協働推進係\n\n3 海外への研修・派遣の拡大\n\n企画政策課\n\n協働推進係\n\n4\n\n企画政策課\n\n協働推進係\n\n政策・方針決定過程への女性の参画促\n4 進事業\n\n男女共同参画意識高揚への機運醸成の\nための普及啓発活動\n\n婚活イベント参加申込者\n\n0 数\n\n海外研修募集定員に対す\n\n491 る応募者数割合\n\n男女共同参画講演会参加\n\n7 者数\n\n女性人材バンク「やまもも\n\n0 ネット」への登録者数\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針\n\n新型コロナウイルスの影響もあり市民活動及び申請件数\nは減少したが、自主的な活動を行う団体に支援できた。\n\n地域協働支援アドバイザーへ委託し市民活動団体を\n支援しているが、行政と市民の間に立つ中立的立場\nの中間支援組織のあり方について研究していく。\n\n現状維持\n\n新型コロナウイルス感染拡大の影響などにより、広域や民 市の事業として実施することは困難なため、団体や民\n間でのイベントも含め実施なし。\n間が実施する事業へ支援等を検討していく。\n\n廃止\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 49
+      },
+      {
+        "name": "自己研鑚への呼びかけと職員の知識向上",
+        "start": 110936,
+        "raw": "自己研鑚への呼びかけと職員の知識向上",
+        "titleSegments": [
+          {
+            "start": 110936,
+            "raw": "自己研鑚への呼びかけと職員の知識向上"
+          }
+        ],
+        "blockStart": 110823,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n3市広域職員研修への参\n\n1,097 加推奨\n\n総務課\n\n人事給与係\n\n1 自己研鑚への呼びかけと職員の知識向上\n\n総務課\n\n人事給与係\n\n1 自己研鑚への呼びかけと職員の知識向上\n\n総務課\n\n人事給与係\n\n人事交流制度の活用による職員の資質\n2 向上と連携強化\n\n0 実施\n\n総務課\n\n人事給与係\n\n3\n\nコンプライアンス意識の向上と市民に信\n頼される職員の育成\n\n360 参加推奨\n\n通信教育による自主研修\n\n160 の受講推奨\n\n３市及び県との人事交流\n\nコンプライアンス研修への\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n令和2年度をもって、3市の人事交流事業は終了した\nが、自治体間の連携及び能率的な行政運営を図るた\nめ、今後も静岡県との人事交流は継続していく。\n\n今後（R3年度）\nの方針\n\n拡大\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 50
+      },
+      {
+        "name": "人事交流制度の活用による職員の資質向上と連携強化",
+        "start": 111002,
+        "raw": "人事交流制度の活用による職員の資質\n2 向上と連携強化",
+        "titleSegments": [
+          {
+            "start": 111002,
+            "raw": "人事交流制度の活用による職員の資質"
+          },
+          {
+            "start": 111022,
+            "raw": "向上と連携強化"
+          }
+        ],
+        "blockStart": 110823,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n3市広域職員研修への参\n\n1,097 加推奨\n\n総務課\n\n人事給与係\n\n1 自己研鑚への呼びかけと職員の知識向上\n\n総務課\n\n人事給与係\n\n1 自己研鑚への呼びかけと職員の知識向上\n\n総務課\n\n人事給与係\n\n人事交流制度の活用による職員の資質\n2 向上と連携強化\n\n0 実施\n\n総務課\n\n人事給与係\n\n3\n\nコンプライアンス意識の向上と市民に信\n頼される職員の育成\n\n360 参加推奨\n\n通信教育による自主研修\n\n160 の受講推奨\n\n３市及び県との人事交流\n\nコンプライアンス研修への\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n令和2年度をもって、3市の人事交流事業は終了した\nが、自治体間の連携及び能率的な行政運営を図るた\nめ、今後も静岡県との人事交流は継続していく。\n\n今後（R3年度）\nの方針\n\n拡大\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 50
+      },
+      {
+        "name": "コンプライアンス意識の向上と市民に信頼される職員の育成",
+        "start": 111052,
+        "raw": "コンプライアンス意識の向上と市民に信\n頼される職員の育成",
+        "titleSegments": [
+          {
+            "start": 111052,
+            "raw": "コンプライアンス意識の向上と市民に信"
+          },
+          {
+            "start": 111071,
+            "raw": "頼される職員の育成"
+          }
+        ],
+        "blockStart": 110823,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n3市広域職員研修への参\n\n1,097 加推奨\n\n総務課\n\n人事給与係\n\n1 自己研鑚への呼びかけと職員の知識向上\n\n総務課\n\n人事給与係\n\n1 自己研鑚への呼びかけと職員の知識向上\n\n総務課\n\n人事給与係\n\n人事交流制度の活用による職員の資質\n2 向上と連携強化\n\n0 実施\n\n総務課\n\n人事給与係\n\n3\n\nコンプライアンス意識の向上と市民に信\n頼される職員の育成\n\n360 参加推奨\n\n通信教育による自主研修\n\n160 の受講推奨\n\n３市及び県との人事交流\n\nコンプライアンス研修への\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n令和2年度をもって、3市の人事交流事業は終了した\nが、自治体間の連携及び能率的な行政運営を図るた\nめ、今後も静岡県との人事交流は継続していく。\n\n今後（R3年度）\nの方針\n\n拡大\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 50
+      },
+      {
+        "name": "女性管理職の登用推進",
+        "start": 113383,
+        "raw": "女性管理職の登用推進",
+        "titleSegments": [
+          {
+            "start": 113383,
+            "raw": "女性管理職の登用推進"
+          }
+        ],
+        "blockStart": 113281,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n女性職員の意識改革を目\n\n総務課\n\n人事給与係\n\n1 女性管理職の登用推進\n\n0 的とした研修への参加推\n奨\n\n総務課\n\n総務課\n\n財政課\n\n人事給与係\n\n人事給与係\n\n資産経営係\n\n評価者及び被評価者が人\n\n適正な制度運用と職員のモチベーション\n向上\n\n440 事評価を正しく理解するた\n\nストレスチェックの実施とメンタル不調に\n3 よる長期休職者の未然防止\n\n460 メンタルヘルス研修への参\n\n2\n\n4 行政経営管理の推進\n\nめの研修への参加推奨\nストレスチェックと連動した\n加推奨\n経営管理分野に関係する\n\n0 課での打合せ\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\nｅラーニングにより、セルフケア研修は全職員、ラインケア 今後もストレスチェックや職員なんでも相談を効果的\n研修は課長補佐以上の職員を対象に実施し、ストレスに対 に活用していただくよう、引き続き、ＰＲや声掛けを実\nする理解を深め、対処する手法を学んだ。\n施していく。\n関係３課（総務課・企画政策課・財政課）の担当者レベルで 社会情勢や市民ニーズの多様化等に柔軟に対応して\n打合せを行い、現状把握と意識合わせを行った。\nいくため、今後も継続的に打合せを行い、時代に即し\nた組織運営ができているか検討を進めていく。\n\n今後（R3年度）\nの方針\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 51
+      },
+      {
+        "name": "ストレスチェックの実施とメンタル不調による長期休職者の未然防止",
+        "start": 113502,
+        "raw": "ストレスチェックの実施とメンタル不調に\n3 よる長期休職者の未然防止",
+        "titleSegments": [
+          {
+            "start": 113502,
+            "raw": "ストレスチェックの実施とメンタル不調に"
+          },
+          {
+            "start": 113524,
+            "raw": "よる長期休職者の未然防止"
+          }
+        ],
+        "blockStart": 113281,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n女性職員の意識改革を目\n\n総務課\n\n人事給与係\n\n1 女性管理職の登用推進\n\n0 的とした研修への参加推\n奨\n\n総務課\n\n総務課\n\n財政課\n\n人事給与係\n\n人事給与係\n\n資産経営係\n\n評価者及び被評価者が人\n\n適正な制度運用と職員のモチベーション\n向上\n\n440 事評価を正しく理解するた\n\nストレスチェックの実施とメンタル不調に\n3 よる長期休職者の未然防止\n\n460 メンタルヘルス研修への参\n\n2\n\n4 行政経営管理の推進\n\nめの研修への参加推奨\nストレスチェックと連動した\n加推奨\n経営管理分野に関係する\n\n0 課での打合せ\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\nｅラーニングにより、セルフケア研修は全職員、ラインケア 今後もストレスチェックや職員なんでも相談を効果的\n研修は課長補佐以上の職員を対象に実施し、ストレスに対 に活用していただくよう、引き続き、ＰＲや声掛けを実\nする理解を深め、対処する手法を学んだ。\n施していく。\n関係３課（総務課・企画政策課・財政課）の担当者レベルで 社会情勢や市民ニーズの多様化等に柔軟に対応して\n打合せを行い、現状把握と意識合わせを行った。\nいくため、今後も継続的に打合せを行い、時代に即し\nた組織運営ができているか検討を進めていく。\n\n今後（R3年度）\nの方針\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 51
+      },
+      {
+        "name": "行政経営管理の推進",
+        "start": 113561,
+        "raw": "行政経営管理の推進",
+        "titleSegments": [
+          {
+            "start": 113561,
+            "raw": "行政経営管理の推進"
+          }
+        ],
+        "blockStart": 113281,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n女性職員の意識改革を目\n\n総務課\n\n人事給与係\n\n1 女性管理職の登用推進\n\n0 的とした研修への参加推\n奨\n\n総務課\n\n総務課\n\n財政課\n\n人事給与係\n\n人事給与係\n\n資産経営係\n\n評価者及び被評価者が人\n\n適正な制度運用と職員のモチベーション\n向上\n\n440 事評価を正しく理解するた\n\nストレスチェックの実施とメンタル不調に\n3 よる長期休職者の未然防止\n\n460 メンタルヘルス研修への参\n\n2\n\n4 行政経営管理の推進\n\nめの研修への参加推奨\nストレスチェックと連動した\n加推奨\n経営管理分野に関係する\n\n0 課での打合せ\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\nｅラーニングにより、セルフケア研修は全職員、ラインケア 今後もストレスチェックや職員なんでも相談を効果的\n研修は課長補佐以上の職員を対象に実施し、ストレスに対 に活用していただくよう、引き続き、ＰＲや声掛けを実\nする理解を深め、対処する手法を学んだ。\n施していく。\n関係３課（総務課・企画政策課・財政課）の担当者レベルで 社会情勢や市民ニーズの多様化等に柔軟に対応して\n打合せを行い、現状把握と意識合わせを行った。\nいくため、今後も継続的に打合せを行い、時代に即し\nた組織運営ができているか検討を進めていく。\n\n今後（R3年度）\nの方針\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 51
+      },
+      {
+        "name": "適正な制度運用と職員のモチベーション向上",
+        "start": 113461,
+        "raw": "適正な制度運用と職員のモチベーション\n向上",
+        "titleSegments": [
+          {
+            "start": 113461,
+            "raw": "適正な制度運用と職員のモチベーション"
+          },
+          {
+            "start": 113480,
+            "raw": "向上"
+          }
+        ],
+        "blockStart": 113281,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n女性職員の意識改革を目\n\n総務課\n\n人事給与係\n\n1 女性管理職の登用推進\n\n0 的とした研修への参加推\n奨\n\n総務課\n\n総務課\n\n財政課\n\n人事給与係\n\n人事給与係\n\n資産経営係\n\n評価者及び被評価者が人\n\n適正な制度運用と職員のモチベーション\n向上\n\n440 事評価を正しく理解するた\n\nストレスチェックの実施とメンタル不調に\n3 よる長期休職者の未然防止\n\n460 メンタルヘルス研修への参\n\n2\n\n4 行政経営管理の推進\n\nめの研修への参加推奨\nストレスチェックと連動した\n加推奨\n経営管理分野に関係する\n\n0 課での打合せ\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\nｅラーニングにより、セルフケア研修は全職員、ラインケア 今後もストレスチェックや職員なんでも相談を効果的\n研修は課長補佐以上の職員を対象に実施し、ストレスに対 に活用していただくよう、引き続き、ＰＲや声掛けを実\nする理解を深め、対処する手法を学んだ。\n施していく。\n関係３課（総務課・企画政策課・財政課）の担当者レベルで 社会情勢や市民ニーズの多様化等に柔軟に対応して\n打合せを行い、現状把握と意識合わせを行った。\nいくため、今後も継続的に打合せを行い、時代に即し\nた組織運営ができているか検討を進めていく。\n\n今後（R3年度）\nの方針\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 51
+      },
+      {
+        "name": "公共施設最適配置構想の検討",
+        "start": 115735,
+        "raw": "公共施設最適配置構想の検討",
+        "titleSegments": [
+          {
+            "start": 115735,
+            "raw": "公共施設最適配置構想の検討"
+          }
+        ],
+        "blockStart": 115630,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n公共施設マネジメント庁内\n\n財政課\n\n資産経営係\n\n4.5 公共施設最適配置構想の検討\n\n0 推進会議ワーキング部会\nの開催\n\n財政課\n\n資産経営係\n\n財政課\n\n資産経営係\n\n2.3.6 個別施設計画策定の進捗状況管理\n\n1\n\n公共施設等総合管理計画の改訂及び\n公表\n\n施設所管課への進捗状況\n\n0 ヒアリング\n\n平成26年に策定した計画\n\n0 の改訂及び公表\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n公共施設等総合管理計画が予算編成や総合計画等の各 公共施設等総合管理計画の改訂を通じて、予算編成\n種計画とリンクしていないため、ワーキング部会の方向性 や各種計画等とリンクしたワーキング部会への改善を\nを示すことができない。\n進めていく。\n\n今後（R3年度）\nの方針\n改善・効率化\n\n令和２年度末に完了\n\n1/1\n\n終了\n計画に方針や課題を掲げるだけでなく、より実効性のある 計画の改訂にあたり、個別施策計画を踏まえた内容\n内容とする必要がある。\nに変更していく。\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 52
+      },
+      {
+        "name": "個別施設計画策定の進捗状況管理",
+        "start": 115799,
+        "raw": "個別施設計画策定の進捗状況管理",
+        "titleSegments": [
+          {
+            "start": 115799,
+            "raw": "個別施設計画策定の進捗状況管理"
+          }
+        ],
+        "blockStart": 115630,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n公共施設マネジメント庁内\n\n財政課\n\n資産経営係\n\n4.5 公共施設最適配置構想の検討\n\n0 推進会議ワーキング部会\nの開催\n\n財政課\n\n資産経営係\n\n財政課\n\n資産経営係\n\n2.3.6 個別施設計画策定の進捗状況管理\n\n1\n\n公共施設等総合管理計画の改訂及び\n公表\n\n施設所管課への進捗状況\n\n0 ヒアリング\n\n平成26年に策定した計画\n\n0 の改訂及び公表\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n公共施設等総合管理計画が予算編成や総合計画等の各 公共施設等総合管理計画の改訂を通じて、予算編成\n種計画とリンクしていないため、ワーキング部会の方向性 や各種計画等とリンクしたワーキング部会への改善を\nを示すことができない。\n進めていく。\n\n今後（R3年度）\nの方針\n改善・効率化\n\n令和２年度末に完了\n\n1/1\n\n終了\n計画に方針や課題を掲げるだけでなく、より実効性のある 計画の改訂にあたり、個別施策計画を踏まえた内容\n内容とする必要がある。\nに変更していく。\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 52
+      },
+      {
+        "name": "公共施設等総合管理計画の改訂及び公表",
+        "start": 115819,
+        "raw": "公共施設等総合管理計画の改訂及び\n公表",
+        "titleSegments": [
+          {
+            "start": 115819,
+            "raw": "公共施設等総合管理計画の改訂及び"
+          },
+          {
+            "start": 115836,
+            "raw": "公表"
+          }
+        ],
+        "blockStart": 115630,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n公共施設マネジメント庁内\n\n財政課\n\n資産経営係\n\n4.5 公共施設最適配置構想の検討\n\n0 推進会議ワーキング部会\nの開催\n\n財政課\n\n資産経営係\n\n財政課\n\n資産経営係\n\n2.3.6 個別施設計画策定の進捗状況管理\n\n1\n\n公共施設等総合管理計画の改訂及び\n公表\n\n施設所管課への進捗状況\n\n0 ヒアリング\n\n平成26年に策定した計画\n\n0 の改訂及び公表\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n公共施設等総合管理計画が予算編成や総合計画等の各 公共施設等総合管理計画の改訂を通じて、予算編成\n種計画とリンクしていないため、ワーキング部会の方向性 や各種計画等とリンクしたワーキング部会への改善を\nを示すことができない。\n進めていく。\n\n今後（R3年度）\nの方針\n改善・効率化\n\n令和２年度末に完了\n\n1/1\n\n終了\n計画に方針や課題を掲げるだけでなく、より実効性のある 計画の改訂にあたり、個別施策計画を踏まえた内容\n内容とする必要がある。\nに変更していく。\n\n改善・効率化\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 52
+      },
+      {
+        "name": "中長期財政計画の策定",
+        "start": 118075,
+        "raw": "中長期財政計画の策定",
+        "titleSegments": [
+          {
+            "start": 118075,
+            "raw": "中長期財政計画の策定"
+          }
+        ],
+        "blockStart": 118018,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n財政課\n\n財政係\n\n1 中長期財政計画の策定\n\n財政課\n\n財政係\n\n2 公会計財務書類の作成と公表\n\n税務課\n\n管理収納係\n\n3 市税の徴収率向上\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n0 年度末財政調整基金残高\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n新型コロナウイルス感染症の影響による事業中止や国からの臨時 財政調整基金からの繰入額を令和３年度は５億円以\n交付金により財政調整基金からの繰入額を最小（当初予算額）に 内に抑え、令和４年度からは繰入をすることなく予算\n抑えることができた。財政調整基金からの年度繰入予定額は、計 編成を行うことで実質単年度収支を黒字にしていきた\n画どおりに進捗している。\nい。\n\n今後（R3年度）\nの方針\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 53
+      },
+      {
+        "name": "公会計財務書類の作成と公表",
+        "start": 118099,
+        "raw": "公会計財務書類の作成と公表",
+        "titleSegments": [
+          {
+            "start": 118099,
+            "raw": "公会計財務書類の作成と公表"
+          }
+        ],
+        "blockStart": 118018,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n財政課\n\n財政係\n\n1 中長期財政計画の策定\n\n財政課\n\n財政係\n\n2 公会計財務書類の作成と公表\n\n税務課\n\n管理収納係\n\n3 市税の徴収率向上\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n0 年度末財政調整基金残高\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n新型コロナウイルス感染症の影響による事業中止や国からの臨時 財政調整基金からの繰入額を令和３年度は５億円以\n交付金により財政調整基金からの繰入額を最小（当初予算額）に 内に抑え、令和４年度からは繰入をすることなく予算\n抑えることができた。財政調整基金からの年度繰入予定額は、計 編成を行うことで実質単年度収支を黒字にしていきた\n画どおりに進捗している。\nい。\n\n今後（R3年度）\nの方針\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 53
+      },
+      {
+        "name": "市税の徴収率向上",
+        "start": 118128,
+        "raw": "市税の徴収率向上",
+        "titleSegments": [
+          {
+            "start": 118128,
+            "raw": "市税の徴収率向上"
+          }
+        ],
+        "blockStart": 118018,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\n財政課\n\n財政係\n\n1 中長期財政計画の策定\n\n財政課\n\n財政係\n\n2 公会計財務書類の作成と公表\n\n税務課\n\n管理収納係\n\n3 市税の徴収率向上\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n0 年度末財政調整基金残高\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n新型コロナウイルス感染症の影響による事業中止や国からの臨時 財政調整基金からの繰入額を令和３年度は５億円以\n交付金により財政調整基金からの繰入額を最小（当初予算額）に 内に抑え、令和４年度からは繰入をすることなく予算\n抑えることができた。財政調整基金からの年度繰入予定額は、計 編成を行うことで実質単年度収支を黒字にしていきた\n画どおりに進捗している。\nい。\n\n今後（R3年度）\nの方針\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 53
+      },
+      {
+        "name": "電子申請等の利便性向上",
+        "start": 119890,
+        "raw": "電子申請等の利便性向上",
+        "titleSegments": [
+          {
+            "start": 119890,
+            "raw": "電子申請等の利便性向上"
+          }
+        ],
+        "blockStart": 119788,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n電子申請システム各課打\n\n財政課\n\n情報管理係\n\n1 電子申請等の利便性向上\n\n0 合せ\n\n財政課\n\n情報管理係\n\n1 電子申請等の利便性向上\n\n0 の新規作成・変更\n\n財政課\n\n情報管理係\n\n2 ＣＡＴＶ施設の環境整備\n\n財政課\n\n情報管理係\n\n2 市民サービス維持・向上\n\n11 検討及び協議実施\n\n回\n\n1\n\n1\n\n1\n\n1\n\n財政課\n\n情報管理係\n\n3 電子データの保護・管理\n\n0 セキュリティ研修実施\n\n％\n\n100\n\n100\n\n100\n\n100\n\n財政課\n\n情報管理係\n\n3 不審メール注意喚起\n\n- 適正対応\n\n-\n\n適正\n\n適正\n\n適正\n\n適正\n\n電子申請システム申請書\n\n4,963 施設等更新\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n各課への調整を実施し、電子申請の登録を実施した。\n\n申請できる内容を精査し、今後も各課に依頼するとと\nもにヒアリングを実施していく。\n\n市HPに登録したる電子申請リンクの変更（削除）を行い最 令和4年度導入に向けて、新たな電子申請システムを\n新の状態にした。電子申請が実施できる項目を精査し、登 検討する。\n録件数を増やす。\n対応年数が過ぎた施設等の譲渡し、今後の経費削減に努 計画的に施設修繕できるように更新内容を精査する。\nめた。\nFTTH化構築工事が完成し、加入率の上昇に向けサービス 加入率増に向けて、今後も市民にとってより良いサー\nの向上を図る。データ放送と連携した地域情報アプリをリ ビス提供ができるように検討していく。\nリースし、情報提供に努めた。\n全職員（臨時職員等を含む）に研修を実施し、受講率\n100％を達成した。\n\n引き続き全職員にe-ラーニング研修を実施し、100％\nの受講を達成する。\n\nセキュリティ研修や国及び県からの情報提供を実施し、注 引き続き国や県からの情報提供を実施し、注意を促\n意喚起を実施したが、サイバー攻撃は年々巧妙化している す。\nため注意が必要である。\n\n今後（R3年度）\nの方針\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 54
+      },
+      {
+        "name": "ＣＡＴＶ施設の環境整備",
+        "start": 119962,
+        "raw": "ＣＡＴＶ施設の環境整備",
+        "titleSegments": [
+          {
+            "start": 119962,
+            "raw": "ＣＡＴＶ施設の環境整備"
+          }
+        ],
+        "blockStart": 119788,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n電子申請システム各課打\n\n財政課\n\n情報管理係\n\n1 電子申請等の利便性向上\n\n0 合せ\n\n財政課\n\n情報管理係\n\n1 電子申請等の利便性向上\n\n0 の新規作成・変更\n\n財政課\n\n情報管理係\n\n2 ＣＡＴＶ施設の環境整備\n\n財政課\n\n情報管理係\n\n2 市民サービス維持・向上\n\n11 検討及び協議実施\n\n回\n\n1\n\n1\n\n1\n\n1\n\n財政課\n\n情報管理係\n\n3 電子データの保護・管理\n\n0 セキュリティ研修実施\n\n％\n\n100\n\n100\n\n100\n\n100\n\n財政課\n\n情報管理係\n\n3 不審メール注意喚起\n\n- 適正対応\n\n-\n\n適正\n\n適正\n\n適正\n\n適正\n\n電子申請システム申請書\n\n4,963 施設等更新\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n各課への調整を実施し、電子申請の登録を実施した。\n\n申請できる内容を精査し、今後も各課に依頼するとと\nもにヒアリングを実施していく。\n\n市HPに登録したる電子申請リンクの変更（削除）を行い最 令和4年度導入に向けて、新たな電子申請システムを\n新の状態にした。電子申請が実施できる項目を精査し、登 検討する。\n録件数を増やす。\n対応年数が過ぎた施設等の譲渡し、今後の経費削減に努 計画的に施設修繕できるように更新内容を精査する。\nめた。\nFTTH化構築工事が完成し、加入率の上昇に向けサービス 加入率増に向けて、今後も市民にとってより良いサー\nの向上を図る。データ放送と連携した地域情報アプリをリ ビス提供ができるように検討していく。\nリースし、情報提供に努めた。\n全職員（臨時職員等を含む）に研修を実施し、受講率\n100％を達成した。\n\n引き続き全職員にe-ラーニング研修を実施し、100％\nの受講を達成する。\n\nセキュリティ研修や国及び県からの情報提供を実施し、注 引き続き国や県からの情報提供を実施し、注意を促\n意喚起を実施したが、サイバー攻撃は年々巧妙化している す。\nため注意が必要である。\n\n今後（R3年度）\nの方針\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 54
+      },
+      {
+        "name": "市民サービス維持・向上",
+        "start": 119989,
+        "raw": "市民サービス維持・向上",
+        "titleSegments": [
+          {
+            "start": 119989,
+            "raw": "市民サービス維持・向上"
+          }
+        ],
+        "blockStart": 119788,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n電子申請システム各課打\n\n財政課\n\n情報管理係\n\n1 電子申請等の利便性向上\n\n0 合せ\n\n財政課\n\n情報管理係\n\n1 電子申請等の利便性向上\n\n0 の新規作成・変更\n\n財政課\n\n情報管理係\n\n2 ＣＡＴＶ施設の環境整備\n\n財政課\n\n情報管理係\n\n2 市民サービス維持・向上\n\n11 検討及び協議実施\n\n回\n\n1\n\n1\n\n1\n\n1\n\n財政課\n\n情報管理係\n\n3 電子データの保護・管理\n\n0 セキュリティ研修実施\n\n％\n\n100\n\n100\n\n100\n\n100\n\n財政課\n\n情報管理係\n\n3 不審メール注意喚起\n\n- 適正対応\n\n-\n\n適正\n\n適正\n\n適正\n\n適正\n\n電子申請システム申請書\n\n4,963 施設等更新\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n各課への調整を実施し、電子申請の登録を実施した。\n\n申請できる内容を精査し、今後も各課に依頼するとと\nもにヒアリングを実施していく。\n\n市HPに登録したる電子申請リンクの変更（削除）を行い最 令和4年度導入に向けて、新たな電子申請システムを\n新の状態にした。電子申請が実施できる項目を精査し、登 検討する。\n録件数を増やす。\n対応年数が過ぎた施設等の譲渡し、今後の経費削減に努 計画的に施設修繕できるように更新内容を精査する。\nめた。\nFTTH化構築工事が完成し、加入率の上昇に向けサービス 加入率増に向けて、今後も市民にとってより良いサー\nの向上を図る。データ放送と連携した地域情報アプリをリ ビス提供ができるように検討していく。\nリースし、情報提供に努めた。\n全職員（臨時職員等を含む）に研修を実施し、受講率\n100％を達成した。\n\n引き続き全職員にe-ラーニング研修を実施し、100％\nの受講を達成する。\n\nセキュリティ研修や国及び県からの情報提供を実施し、注 引き続き国や県からの情報提供を実施し、注意を促\n意喚起を実施したが、サイバー攻撃は年々巧妙化している す。\nため注意が必要である。\n\n今後（R3年度）\nの方針\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 54
+      },
+      {
+        "name": "電子データの保護・管理",
+        "start": 120044,
+        "raw": "電子データの保護・管理",
+        "titleSegments": [
+          {
+            "start": 120044,
+            "raw": "電子データの保護・管理"
+          }
+        ],
+        "blockStart": 119788,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n電子申請システム各課打\n\n財政課\n\n情報管理係\n\n1 電子申請等の利便性向上\n\n0 合せ\n\n財政課\n\n情報管理係\n\n1 電子申請等の利便性向上\n\n0 の新規作成・変更\n\n財政課\n\n情報管理係\n\n2 ＣＡＴＶ施設の環境整備\n\n財政課\n\n情報管理係\n\n2 市民サービス維持・向上\n\n11 検討及び協議実施\n\n回\n\n1\n\n1\n\n1\n\n1\n\n財政課\n\n情報管理係\n\n3 電子データの保護・管理\n\n0 セキュリティ研修実施\n\n％\n\n100\n\n100\n\n100\n\n100\n\n財政課\n\n情報管理係\n\n3 不審メール注意喚起\n\n- 適正対応\n\n-\n\n適正\n\n適正\n\n適正\n\n適正\n\n電子申請システム申請書\n\n4,963 施設等更新\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n各課への調整を実施し、電子申請の登録を実施した。\n\n申請できる内容を精査し、今後も各課に依頼するとと\nもにヒアリングを実施していく。\n\n市HPに登録したる電子申請リンクの変更（削除）を行い最 令和4年度導入に向けて、新たな電子申請システムを\n新の状態にした。電子申請が実施できる項目を精査し、登 検討する。\n録件数を増やす。\n対応年数が過ぎた施設等の譲渡し、今後の経費削減に努 計画的に施設修繕できるように更新内容を精査する。\nめた。\nFTTH化構築工事が完成し、加入率の上昇に向けサービス 加入率増に向けて、今後も市民にとってより良いサー\nの向上を図る。データ放送と連携した地域情報アプリをリ ビス提供ができるように検討していく。\nリースし、情報提供に努めた。\n全職員（臨時職員等を含む）に研修を実施し、受講率\n100％を達成した。\n\n引き続き全職員にe-ラーニング研修を実施し、100％\nの受講を達成する。\n\nセキュリティ研修や国及び県からの情報提供を実施し、注 引き続き国や県からの情報提供を実施し、注意を促\n意喚起を実施したが、サイバー攻撃は年々巧妙化している す。\nため注意が必要である。\n\n今後（R3年度）\nの方針\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 54
+      },
+      {
+        "name": "不審メール注意喚起",
+        "start": 120108,
+        "raw": "不審メール注意喚起",
+        "titleSegments": [
+          {
+            "start": 120108,
+            "raw": "不審メール注意喚起"
+          }
+        ],
+        "blockStart": 119788,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n電子申請システム各課打\n\n財政課\n\n情報管理係\n\n1 電子申請等の利便性向上\n\n0 合せ\n\n財政課\n\n情報管理係\n\n1 電子申請等の利便性向上\n\n0 の新規作成・変更\n\n財政課\n\n情報管理係\n\n2 ＣＡＴＶ施設の環境整備\n\n財政課\n\n情報管理係\n\n2 市民サービス維持・向上\n\n11 検討及び協議実施\n\n回\n\n1\n\n1\n\n1\n\n1\n\n財政課\n\n情報管理係\n\n3 電子データの保護・管理\n\n0 セキュリティ研修実施\n\n％\n\n100\n\n100\n\n100\n\n100\n\n財政課\n\n情報管理係\n\n3 不審メール注意喚起\n\n- 適正対応\n\n-\n\n適正\n\n適正\n\n適正\n\n適正\n\n電子申請システム申請書\n\n4,963 施設等更新\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n各課への調整を実施し、電子申請の登録を実施した。\n\n申請できる内容を精査し、今後も各課に依頼するとと\nもにヒアリングを実施していく。\n\n市HPに登録したる電子申請リンクの変更（削除）を行い最 令和4年度導入に向けて、新たな電子申請システムを\n新の状態にした。電子申請が実施できる項目を精査し、登 検討する。\n録件数を増やす。\n対応年数が過ぎた施設等の譲渡し、今後の経費削減に努 計画的に施設修繕できるように更新内容を精査する。\nめた。\nFTTH化構築工事が完成し、加入率の上昇に向けサービス 加入率増に向けて、今後も市民にとってより良いサー\nの向上を図る。データ放送と連携した地域情報アプリをリ ビス提供ができるように検討していく。\nリースし、情報提供に努めた。\n全職員（臨時職員等を含む）に研修を実施し、受講率\n100％を達成した。\n\n引き続き全職員にe-ラーニング研修を実施し、100％\nの受講を達成する。\n\nセキュリティ研修や国及び県からの情報提供を実施し、注 引き続き国や県からの情報提供を実施し、注意を促\n意喚起を実施したが、サイバー攻撃は年々巧妙化している す。\nため注意が必要である。\n\n今後（R3年度）\nの方針\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n現状維持\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 54
+      },
+      {
+        "name": "広報紙による情報発信",
+        "start": 122160,
+        "raw": "広報紙による情報発信",
+        "titleSegments": [
+          {
+            "start": 122160,
+            "raw": "広報紙による情報発信"
+          }
+        ],
+        "blockStart": 122101,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n総務課\n\n係名\n\n秘書広報係\n\n指\n標\n№\n\n業務名\n\n1 広報紙による情報発信\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n7,308 広報紙に対する満足度\n\n単位\n\n%\n\n60.8%\n\n80.0%\n\n65.0%\n\n85.0%\n\nホームページ\nフェイスブック\nツイッター\nパブリシティ\nインスタブラム\n\nホームページ\nフェイスブック\nツイッター\nパブリシティ\nインスタブラム\nＬＩＮＥ\n\nホームページ\nフェイスブック\nツイッター\nパブリシティ\nインスタブラム\nＬＩＮＥ\n\nホームページ\nフェイスブック\nツイッター\nパブリシティ\nインスタブラム\nＬＩＮＥ\n\n地区\n\n7地区\n\n8地区\n\n0地区\n\n8地区\n\n%\n\n62.5%\n\n70.0%\n\n50\n\n70.0%\n\n781 適正対応\n\n総務課\n\n秘書広報係\n\n1 さまざまなツールを利用した情報発信\n\n総務課\n\n秘書広報係\n\n2 市政懇談会の開催\n\n0 ８地区での開催\n\n総務課\n\n秘書広報係\n\n2 ひらめき提案箱の設置及び運用\n\n0 設置及び運用開始\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\nスマホなどの普及やWEBを利用したさまざまな情報配信\n広報誌の編集技術向上はもちろんのこと、紙離れす\nツールがある中で、生産年齢人口層の紙離れが進んでい\nる年齢層にも情報を届けるため、LINEなどのWEBでも\nる。このような時代に、住民の広報誌に対する満足度を向\n広報紙の内容を配信していく。\n上させるためには、編集技術の向上を図る必要がある。\n令和2年度より無料コミュニケーションアプリ「LINE」の運\nＬＩＮＥは、フェイスブックやツイッター、インスタグラムといっ\n用を開始した。令和3年1月からは情報配信システムを導入 たSNSに比べ利用者が多く、友だち登録者数を増やすことが\nし、セグメント配信も行っている。令和2年1月時点の友だち できれば有効な情報配信ツールとなる。今後はメニューや機\n登録者数は1516人で、友だち登録者数を増やすことが今 能の拡張を検討し、持ち運べる市役所として役割を担えるよ\nうなツールとしたい。\n後の課題である。\n令和2年度は、新型コロナウイルスの影響により、例年実 新型コロナウイルスの終息が見えない中、広聴だけでなく、\n施していた「まちづくりふれあいトーク」は開催しなかった。 行政の説明責任も果たすため、WEBを活用した取り組みも必\nその代わりにひらめき提案箱を募集し、広聴事業とした。 要と考える。ＹｏｕＴｕｂｅやＣＡＴＶの活用を視野に入れていく。\nひらめき提案箱（まちづくりふれあいトーク分を除く）への\n令和2年度は小学生からの提案があった。子どもたち\n提案総数は27件だった。一方、限られた人からの提案が目\nから意見や考えを提案してもらう機会も検討したい。将\n立つ上に、本来の主旨からは乖離している内容となってい\n来的な提案数の増加につながる可能性がある。\nる。\n\n今後（R3年度）\nの方針\n\n廃止\n\n改善・効率化\n\n統合\n\n統合\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 55
+      },
+      {
+        "name": "さまざまなツールを利用した情報発信",
+        "start": 122495,
+        "raw": "さまざまなツールを利用した情報発信",
+        "titleSegments": [
+          {
+            "start": 122495,
+            "raw": "さまざまなツールを利用した情報発信"
+          }
+        ],
+        "blockStart": 122101,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n総務課\n\n係名\n\n秘書広報係\n\n指\n標\n№\n\n業務名\n\n1 広報紙による情報発信\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n7,308 広報紙に対する満足度\n\n単位\n\n%\n\n60.8%\n\n80.0%\n\n65.0%\n\n85.0%\n\nホームページ\nフェイスブック\nツイッター\nパブリシティ\nインスタブラム\n\nホームページ\nフェイスブック\nツイッター\nパブリシティ\nインスタブラム\nＬＩＮＥ\n\nホームページ\nフェイスブック\nツイッター\nパブリシティ\nインスタブラム\nＬＩＮＥ\n\nホームページ\nフェイスブック\nツイッター\nパブリシティ\nインスタブラム\nＬＩＮＥ\n\n地区\n\n7地区\n\n8地区\n\n0地区\n\n8地区\n\n%\n\n62.5%\n\n70.0%\n\n50\n\n70.0%\n\n781 適正対応\n\n総務課\n\n秘書広報係\n\n1 さまざまなツールを利用した情報発信\n\n総務課\n\n秘書広報係\n\n2 市政懇談会の開催\n\n0 ８地区での開催\n\n総務課\n\n秘書広報係\n\n2 ひらめき提案箱の設置及び運用\n\n0 設置及び運用開始\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\nスマホなどの普及やWEBを利用したさまざまな情報配信\n広報誌の編集技術向上はもちろんのこと、紙離れす\nツールがある中で、生産年齢人口層の紙離れが進んでい\nる年齢層にも情報を届けるため、LINEなどのWEBでも\nる。このような時代に、住民の広報誌に対する満足度を向\n広報紙の内容を配信していく。\n上させるためには、編集技術の向上を図る必要がある。\n令和2年度より無料コミュニケーションアプリ「LINE」の運\nＬＩＮＥは、フェイスブックやツイッター、インスタグラムといっ\n用を開始した。令和3年1月からは情報配信システムを導入 たSNSに比べ利用者が多く、友だち登録者数を増やすことが\nし、セグメント配信も行っている。令和2年1月時点の友だち できれば有効な情報配信ツールとなる。今後はメニューや機\n登録者数は1516人で、友だち登録者数を増やすことが今 能の拡張を検討し、持ち運べる市役所として役割を担えるよ\nうなツールとしたい。\n後の課題である。\n令和2年度は、新型コロナウイルスの影響により、例年実 新型コロナウイルスの終息が見えない中、広聴だけでなく、\n施していた「まちづくりふれあいトーク」は開催しなかった。 行政の説明責任も果たすため、WEBを活用した取り組みも必\nその代わりにひらめき提案箱を募集し、広聴事業とした。 要と考える。ＹｏｕＴｕｂｅやＣＡＴＶの活用を視野に入れていく。\nひらめき提案箱（まちづくりふれあいトーク分を除く）への\n令和2年度は小学生からの提案があった。子どもたち\n提案総数は27件だった。一方、限られた人からの提案が目\nから意見や考えを提案してもらう機会も検討したい。将\n立つ上に、本来の主旨からは乖離している内容となってい\n来的な提案数の増加につながる可能性がある。\nる。\n\n今後（R3年度）\nの方針\n\n廃止\n\n改善・効率化\n\n統合\n\n統合\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 55
+      },
+      {
+        "name": "市政懇談会の開催",
+        "start": 122528,
+        "raw": "市政懇談会の開催",
+        "titleSegments": [
+          {
+            "start": 122528,
+            "raw": "市政懇談会の開催"
+          }
+        ],
+        "blockStart": 122101,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n総務課\n\n係名\n\n秘書広報係\n\n指\n標\n№\n\n業務名\n\n1 広報紙による情報発信\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n7,308 広報紙に対する満足度\n\n単位\n\n%\n\n60.8%\n\n80.0%\n\n65.0%\n\n85.0%\n\nホームページ\nフェイスブック\nツイッター\nパブリシティ\nインスタブラム\n\nホームページ\nフェイスブック\nツイッター\nパブリシティ\nインスタブラム\nＬＩＮＥ\n\nホームページ\nフェイスブック\nツイッター\nパブリシティ\nインスタブラム\nＬＩＮＥ\n\nホームページ\nフェイスブック\nツイッター\nパブリシティ\nインスタブラム\nＬＩＮＥ\n\n地区\n\n7地区\n\n8地区\n\n0地区\n\n8地区\n\n%\n\n62.5%\n\n70.0%\n\n50\n\n70.0%\n\n781 適正対応\n\n総務課\n\n秘書広報係\n\n1 さまざまなツールを利用した情報発信\n\n総務課\n\n秘書広報係\n\n2 市政懇談会の開催\n\n0 ８地区での開催\n\n総務課\n\n秘書広報係\n\n2 ひらめき提案箱の設置及び運用\n\n0 設置及び運用開始\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\nスマホなどの普及やWEBを利用したさまざまな情報配信\n広報誌の編集技術向上はもちろんのこと、紙離れす\nツールがある中で、生産年齢人口層の紙離れが進んでい\nる年齢層にも情報を届けるため、LINEなどのWEBでも\nる。このような時代に、住民の広報誌に対する満足度を向\n広報紙の内容を配信していく。\n上させるためには、編集技術の向上を図る必要がある。\n令和2年度より無料コミュニケーションアプリ「LINE」の運\nＬＩＮＥは、フェイスブックやツイッター、インスタグラムといっ\n用を開始した。令和3年1月からは情報配信システムを導入 たSNSに比べ利用者が多く、友だち登録者数を増やすことが\nし、セグメント配信も行っている。令和2年1月時点の友だち できれば有効な情報配信ツールとなる。今後はメニューや機\n登録者数は1516人で、友だち登録者数を増やすことが今 能の拡張を検討し、持ち運べる市役所として役割を担えるよ\nうなツールとしたい。\n後の課題である。\n令和2年度は、新型コロナウイルスの影響により、例年実 新型コロナウイルスの終息が見えない中、広聴だけでなく、\n施していた「まちづくりふれあいトーク」は開催しなかった。 行政の説明責任も果たすため、WEBを活用した取り組みも必\nその代わりにひらめき提案箱を募集し、広聴事業とした。 要と考える。ＹｏｕＴｕｂｅやＣＡＴＶの活用を視野に入れていく。\nひらめき提案箱（まちづくりふれあいトーク分を除く）への\n令和2年度は小学生からの提案があった。子どもたち\n提案総数は27件だった。一方、限られた人からの提案が目\nから意見や考えを提案してもらう機会も検討したい。将\n立つ上に、本来の主旨からは乖離している内容となってい\n来的な提案数の増加につながる可能性がある。\nる。\n\n今後（R3年度）\nの方針\n\n廃止\n\n改善・効率化\n\n統合\n\n統合\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 55
+      },
+      {
+        "name": "ひらめき提案箱の設置及び運用",
+        "start": 122563,
+        "raw": "ひらめき提案箱の設置及び運用",
+        "titleSegments": [
+          {
+            "start": 122563,
+            "raw": "ひらめき提案箱の設置及び運用"
+          }
+        ],
+        "blockStart": 122101,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n総務課\n\n係名\n\n秘書広報係\n\n指\n標\n№\n\n業務名\n\n1 広報紙による情報発信\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n7,308 広報紙に対する満足度\n\n単位\n\n%\n\n60.8%\n\n80.0%\n\n65.0%\n\n85.0%\n\nホームページ\nフェイスブック\nツイッター\nパブリシティ\nインスタブラム\n\nホームページ\nフェイスブック\nツイッター\nパブリシティ\nインスタブラム\nＬＩＮＥ\n\nホームページ\nフェイスブック\nツイッター\nパブリシティ\nインスタブラム\nＬＩＮＥ\n\nホームページ\nフェイスブック\nツイッター\nパブリシティ\nインスタブラム\nＬＩＮＥ\n\n地区\n\n7地区\n\n8地区\n\n0地区\n\n8地区\n\n%\n\n62.5%\n\n70.0%\n\n50\n\n70.0%\n\n781 適正対応\n\n総務課\n\n秘書広報係\n\n1 さまざまなツールを利用した情報発信\n\n総務課\n\n秘書広報係\n\n2 市政懇談会の開催\n\n0 ８地区での開催\n\n総務課\n\n秘書広報係\n\n2 ひらめき提案箱の設置及び運用\n\n0 設置及び運用開始\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\nスマホなどの普及やWEBを利用したさまざまな情報配信\n広報誌の編集技術向上はもちろんのこと、紙離れす\nツールがある中で、生産年齢人口層の紙離れが進んでい\nる年齢層にも情報を届けるため、LINEなどのWEBでも\nる。このような時代に、住民の広報誌に対する満足度を向\n広報紙の内容を配信していく。\n上させるためには、編集技術の向上を図る必要がある。\n令和2年度より無料コミュニケーションアプリ「LINE」の運\nＬＩＮＥは、フェイスブックやツイッター、インスタグラムといっ\n用を開始した。令和3年1月からは情報配信システムを導入 たSNSに比べ利用者が多く、友だち登録者数を増やすことが\nし、セグメント配信も行っている。令和2年1月時点の友だち できれば有効な情報配信ツールとなる。今後はメニューや機\n登録者数は1516人で、友だち登録者数を増やすことが今 能の拡張を検討し、持ち運べる市役所として役割を担えるよ\nうなツールとしたい。\n後の課題である。\n令和2年度は、新型コロナウイルスの影響により、例年実 新型コロナウイルスの終息が見えない中、広聴だけでなく、\n施していた「まちづくりふれあいトーク」は開催しなかった。 行政の説明責任も果たすため、WEBを活用した取り組みも必\nその代わりにひらめき提案箱を募集し、広聴事業とした。 要と考える。ＹｏｕＴｕｂｅやＣＡＴＶの活用を視野に入れていく。\nひらめき提案箱（まちづくりふれあいトーク分を除く）への\n令和2年度は小学生からの提案があった。子どもたち\n提案総数は27件だった。一方、限られた人からの提案が目\nから意見や考えを提案してもらう機会も検討したい。将\n立つ上に、本来の主旨からは乖離している内容となってい\n来的な提案数の増加につながる可能性がある。\nる。\n\n今後（R3年度）\nの方針\n\n廃止\n\n改善・効率化\n\n統合\n\n統合\n\n\n",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 55
+      },
+      {
+        "name": "周辺自治体との広域連携の推進",
+        "start": 125277,
+        "raw": "周辺自治体との広域連携の推進",
+        "titleSegments": [
+          {
+            "start": 125277,
+            "raw": "周辺自治体との広域連携の推進"
+          }
+        ],
+        "blockStart": 124794,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\nR1年度\n実績\n\nR2年度\n目標\n\nR2年度\n実績\n\nR3年度\n目標\n\n747 広域連携組織数\n\n件\n\n10\n\n10\n\n10\n\n10\n\n各種会議へ引き続き参加し情報共有を図るとともに、\n各種会議へ参加し、広域課題に対する意見を発した。引き\nリニア問題などの重要な案件では市町間での団結を\n続き情報共有を含め会議へ参加する必要がある。\n図る。\n\n現状維持\n\n件\n\n0\n\n1\n\n0\n\n***\n\n各市町で課題は様々であり、広域で取り組むべき共通課\n題を洗い出す必要がある。\n\n企画政策課の業務だけにとらわれず、税や教育、健\n康といった様々分野を検討していく。\n\n現状維持\n\n％\n\n6.7\n\n57.0\n\n21.7\n\n***\n\n市民には広域的な事務の取組がイメージしずらく、進捗状 広域的に取り組んでいる事業を新規の取組だけでな\n況がわかりにくい。\nく、広く周知していく。\n\n現状維持\n\n企画政策課\n\n企画係\n\n1 周辺自治体との広域連携の推進\n\n企画政策課\n\n企画係\n\n2 事務効率化の推進\n\n0 事務効率化が向上した数\n\n企画政策課\n\n企画係\n\n3 近隣市町との広域的な事務の取組の推進\n\n0 足している市民の割合\n\n広域的な事務の取組に満\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 56
+      },
+      {
+        "name": "事務効率化の推進",
+        "start": 125307,
+        "raw": "事務効率化の推進",
+        "titleSegments": [
+          {
+            "start": 125307,
+            "raw": "事務効率化の推進"
+          }
+        ],
+        "blockStart": 124794,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\nR1年度\n実績\n\nR2年度\n目標\n\nR2年度\n実績\n\nR3年度\n目標\n\n747 広域連携組織数\n\n件\n\n10\n\n10\n\n10\n\n10\n\n各種会議へ引き続き参加し情報共有を図るとともに、\n各種会議へ参加し、広域課題に対する意見を発した。引き\nリニア問題などの重要な案件では市町間での団結を\n続き情報共有を含め会議へ参加する必要がある。\n図る。\n\n現状維持\n\n件\n\n0\n\n1\n\n0\n\n***\n\n各市町で課題は様々であり、広域で取り組むべき共通課\n題を洗い出す必要がある。\n\n企画政策課の業務だけにとらわれず、税や教育、健\n康といった様々分野を検討していく。\n\n現状維持\n\n％\n\n6.7\n\n57.0\n\n21.7\n\n***\n\n市民には広域的な事務の取組がイメージしずらく、進捗状 広域的に取り組んでいる事業を新規の取組だけでな\n況がわかりにくい。\nく、広く周知していく。\n\n現状維持\n\n企画政策課\n\n企画係\n\n1 周辺自治体との広域連携の推進\n\n企画政策課\n\n企画係\n\n2 事務効率化の推進\n\n0 事務効率化が向上した数\n\n企画政策課\n\n企画係\n\n3 近隣市町との広域的な事務の取組の推進\n\n0 足している市民の割合\n\n広域的な事務の取組に満\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 56
+      },
+      {
+        "name": "近隣市町との広域的な事務の取組の推進",
+        "start": 125346,
+        "raw": "近隣市町との広域的な事務の取組の推進",
+        "titleSegments": [
+          {
+            "start": 125346,
+            "raw": "近隣市町との広域的な事務の取組の推進"
+          }
+        ],
+        "blockStart": 124794,
+        "blockRaw": "【施策を実現するための業務とその状況】\n担当部署\n課名\n\n係名\n\n指\n標\n№\n\n業務名\n\nR2年度\n事業費\n（千円）\n\n活動指標又は成果指標\n指標名\n\n単位\n\nR1年度\n実績\n\nR2年度\n目標\n\nR2年度\n実績\n\nR3年度\n目標\n\n747 広域連携組織数\n\n件\n\n10\n\n10\n\n10\n\n10\n\n各種会議へ引き続き参加し情報共有を図るとともに、\n各種会議へ参加し、広域課題に対する意見を発した。引き\nリニア問題などの重要な案件では市町間での団結を\n続き情報共有を含め会議へ参加する必要がある。\n図る。\n\n現状維持\n\n件\n\n0\n\n1\n\n0\n\n***\n\n各市町で課題は様々であり、広域で取り組むべき共通課\n題を洗い出す必要がある。\n\n企画政策課の業務だけにとらわれず、税や教育、健\n康といった様々分野を検討していく。\n\n現状維持\n\n％\n\n6.7\n\n57.0\n\n21.7\n\n***\n\n市民には広域的な事務の取組がイメージしずらく、進捗状 広域的に取り組んでいる事業を新規の取組だけでな\n況がわかりにくい。\nく、広く周知していく。\n\n現状維持\n\n企画政策課\n\n企画係\n\n1 周辺自治体との広域連携の推進\n\n企画政策課\n\n企画係\n\n2 事務効率化の推進\n\n0 事務効率化が向上した数\n\n企画政策課\n\n企画係\n\n3 近隣市町との広域的な事務の取組の推進\n\n0 足している市民の割合\n\n広域的な事務の取組に満\n\n1/1\n\n評価（課題、問題点など）\n\n業務改善の方向性\n\n今後（R3年度）\nの方針",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit業務名 row in annual policy evaluation; preserve full literal wording, no costs/ratings/KPI allocated.",
+        "table": 56
+      }
+    ],
+    "holds": [
+      {
+        "name": "アースキッズチャレンジ事業",
+        "start": 3846,
+        "raw": "アースキッズチャレンジ事業",
+        "reason": "Duplicate literal name in same annual book, retained once; no costs or indicator values combined."
+      },
+      {
+        "name": "新エネルギー・省エネルギー機器導入促進補助金の交付",
+        "start": 4291,
+        "raw": "新エネルギー・省エネルギー機器導入\n2 促進補助金の交付",
+        "reason": "Duplicate literal name in same annual book, retained once; no costs or indicator values combined."
+      },
+      {
+        "name": "消費生活相談",
+        "start": 21015,
+        "raw": "消費生活相談",
+        "reason": "Duplicate literal name in same annual book, retained once; no costs or indicator values combined."
+      },
+      {
+        "name": "消費者被害防止啓発活動",
+        "start": 21037,
+        "raw": "消費者被害防止啓発活動",
+        "reason": "Duplicate literal name in same annual book, retained once; no costs or indicator values combined."
+      },
+      {
+        "name": "相談対応のレベルアップ",
+        "start": 21103,
+        "raw": "相談対応のレベルアップ",
+        "reason": "Duplicate literal name in same annual book, retained once; no costs or indicator values combined."
+      },
+      {
+        "name": "防犯対策の充実",
+        "start": 21157,
+        "raw": "防犯対策の充実",
+        "reason": "Duplicate literal name in same annual book, retained once; no costs or indicator values combined."
+      },
+      {
+        "name": "防犯対策の啓発",
+        "start": 21193,
+        "raw": "防犯対策の啓発",
+        "reason": "Duplicate literal name in same annual book, retained once; no costs or indicator values combined."
+      },
+      {
+        "name": "りやめた。従って課題や問題点を検証するに至らなかっ",
+        "start": 30015,
+        "raw": "りやめた。従って課題や問題点を検証するに至らなかっ",
+        "reason": "Not a title: interrupted outcome sentence in another column."
+      },
+      {
+        "name": "プロジェクト「ＴＯＵＫＡＩ－０」の推進",
+        "start": 35338,
+        "raw": "プロジェクト「ＴＯＵＫＡＩ－０」の推進",
+        "reason": "Duplicate literal name in same annual book, retained once; no costs or indicator values combined."
+      },
+      {
+        "name": "プロジェクト「ＴＯＵＫＡＩ－０」の推進",
+        "start": 35338,
+        "raw": "プロジェクト「ＴＯＵＫＡＩ－０」の推進",
+        "reason": "Duplicate literal name in same annual book, retained once; no costs or indicator values combined."
+      },
+      {
+        "name": "児童虐待防止対策の充実",
+        "start": 47559,
+        "raw": "児童虐待防止対策の充実",
+        "reason": "Duplicate literal name in same annual book, retained once; no costs or indicator values combined."
+      },
+      {
+        "name": "食育推進事業",
+        "start": 52888,
+        "raw": "食育推進事業",
+        "reason": "Duplicate literal name in same annual book, retained once; no costs or indicator values combined."
+      },
+      {
+        "name": "特定保健指導",
+        "start": 52929,
+        "raw": "特定保健指導",
+        "reason": "Duplicate literal name in same annual book, retained once; no costs or indicator values combined."
+      },
+      {
+        "name": "訪問指導",
+        "start": 52961,
+        "raw": "訪問指導",
+        "reason": "Duplicate literal name in same annual book, retained once; no costs or indicator values combined."
+      },
+      {
+        "name": "特定健康診査等事業（受診勧奨ハガキの送付）",
+        "start": 53035,
+        "raw": "特定健康診査等事業\n1 （受診勧奨ハガキの送付）",
+        "reason": "Duplicate literal name in same annual book, retained once; no costs or indicator values combined."
+      },
+      {
+        "name": "病院施設管理業務",
+        "start": 66606,
+        "raw": "病院施設管理業務",
+        "reason": "Same name covers hospital equipment and staff dormitory indicators; independent identity unresolved."
+      },
+      {
+        "name": "奨学金貸与業務",
+        "start": 66666,
+        "raw": "奨学金貸与業務",
+        "reason": "Same literal name across physician/nurse/care-worker scholarship indicators; independent project identity unresolved, no invented qualifier."
+      },
+      {
+        "name": "奨学金貸与業務",
+        "start": 66717,
+        "raw": "奨学金貸与業務",
+        "reason": "Same literal name across physician/nurse/care-worker scholarship indicators; independent project identity unresolved, no invented qualifier."
+      },
+      {
+        "name": "奨学金貸与業務",
+        "start": 66856,
+        "raw": "奨学金貸与業務",
+        "reason": "Same literal name across physician/nurse/care-worker scholarship indicators; independent project identity unresolved, no invented qualifier."
+      },
+      {
+        "name": "病院施設管理業務",
+        "start": 66994,
+        "raw": "病院施設管理業務",
+        "reason": "Same name covers hospital equipment and staff dormitory indicators; independent identity unresolved."
+      },
+      {
+        "name": "移住定住促進事業",
+        "start": 108233,
+        "raw": "移住定住促進事業",
+        "reason": "Duplicate literal name in same annual book, retained once; no costs or indicator values combined."
+      },
+      {
+        "name": "自己研鑚への呼びかけと職員の知識向上",
+        "start": 110936,
+        "raw": "自己研鑚への呼びかけと職員の知識向上",
+        "reason": "Duplicate literal name in same annual book, retained once; no costs or indicator values combined."
+      },
+      {
+        "name": "電子申請等の利便性向上",
+        "start": 119890,
+        "raw": "電子申請等の利便性向上",
+        "reason": "Duplicate literal name in same annual book, retained once; no costs or indicator values combined."
+      },
+      {
+        "name": "観光イベント等委託事業",
+        "start": 72838,
+        "raw": "観光イベント等委託事業 （再掲）",
+        "reason": "Explicit 再掲 of table32 activity; retained once, no duplicate project or numeric aggregation."
+      }
+    ],
+    "status": "stage_only_layout_review_ongoing",
+    "reviewedTables": 56
+  },
+  {
+    "source": {
+      "municipalityCode": "22222",
+      "municipalityName": "伊豆市",
+      "sourceId": "d46bf76b8e6e157016381af5",
+      "title": "23年度市民による事業評価会 評価結果に係る具体的改善策及び24年度事業反映状況",
+      "url": "https://www.city.izu.shizuoka.jp/material/files/group/4/d3553_1.pdf",
+      "sourceSha256": "189ac3c2dc19e04e8d9de161bccfc2b355a1878450c122dd125c9862ad905bf8",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 18083,
+      "fullTextSha256": "268577ce47a66bd6a06b3ff201316de6f0f209399ae8ac5e892530339fd3e040"
+    },
+    "proof": "平成23年度市民による事業評価会結果に対する",
+    "scopeProof": "２３年度市民による事業評価会 評価結果に係る具体的改善策及び２４年度事業反映状況",
+    "policyActivity": true,
+    "rows": [
+      {
+        "name": "妊婦健康推進事業",
+        "start": 15945,
+        "raw": "妊婦健康推進事業",
+        "titleSegments": [
+          {
+            "start": 15945,
+            "raw": "妊婦健康推進事業"
+          }
+        ],
+        "blockStart": 15336,
+        "blockRaw": "２３年度市民による事業評価会 評価結果に係る具体的改善策及び２４年度事業反映状況\n（単位：千円）\n\n№\n\n事務事業名\n\n担当課室\n\n事業費 ※\n事業費※ 評価結果\n（H23予算額） （H24予算額） 最多意見\n\n10,493\n\n・妊婦教室の意向調査を実施し、妊婦教室参加率の\n向上を目指す。\n・医療機関で実施している妊婦教室の内容を把握し、\n市\n（要改善） 24年度の妊婦教室に反映する。\n18,827\n・予定日を過ぎた妊婦定期健診について、償還払い\nの方法で扶助する。\n・業者の選定やコストの見直しをする。\n(10,296)\n・配食の回数や対象者の拡充、医療機関との連携に\n市\nついて検討する。\n（現状）\n・他のサービスとの連携の構築について、検討会議を\n11,304\n開催して進める。\n・対象となる小学生までの家庭への認知度向上に取\n(80)\nり組むとともに、協力会員の増加を目的とした広報誌\n市\nへの掲載などPR活動を行う。\n（要改善） ・依頼会員へのアンケート調査を行い、社会的ニーズ\n1,424\nや個々のニーズを把握し事業の見直しをする。\n・民間主導の事業とするために、事務局（体育協会）\n(2,580)\n体制の見直し及びプロジェクト自体で利益を生むシス\n市\nテムの構築を図る。\n（要改善） ・ニーズに合った予約方法を検証していく。\n3,253\n\n(6,125)\n\n(6,631)\n\n(17,274)\n1\n\n妊婦健康推進事業\n\n健康増進課\n\n20,635\n(12,000)\n２\n\n「食」の自立支援事業\n\n長寿介護課\n\n13,008\n\n３\n\n４\n\n５\n\nファミリーサポートセン\nター事業\n\n(79)\nこども課\n\n1,423\n\n伊豆魅力（三力）プロジェ\n観光交流課\nクト補助金\n\n松原公園管理事業\n\n(3,100)\n\n土肥支所\n\n14,862\n\n人口定住化事業\n\n８\n\n９\n\n10\n\n11\n\n12\n\n13\n\n歩いてみたくなる散策\nルートの創造事業\n\n昭和の森会館管理事業\n\n商品券発行補助金交付\n事業\n\n(26,736)\n\n(25,789)\n\n(17,613)\n産業振興課\n\n0\n\n42,857\n\n・県施設の管理受託業務の制約がある中、外部環境\nの変化（ジオパーク制定の動き等）に対応した施設運\n市\n営の検討を進め、その中で売店等のあり方や職員配\n（要改善） 置について適正な管理を模索する。\n41,435\n\n(13,000)\n\n(9,500)\n\n13,336\n\n9,836\n\n(888)\n\n(1,920)\n\n産業振興課\n\n産業振興課\n\n伊豆市所蔵美術品管理・\n社会教育課\n公開事業\n\n図書館運営事業（蔵書充\n社会教育課\n実・図書貸出促進事業）\n\n学校図書館活用事業\n\n・今後の維持管理について、民間委託や指定管理も\n視野に入れ研究し、総合的に管理計画を整理する。\n民間\n市(要改善) ・市民、利用団体や観光関係機関からも意見聴取す\n15,368 市(現状) る。\n\n24,334\n\n地域づくり課\n\n2,840\n\n７\n\n(15,466)\n\n・体験施設は利用が少なく老朽化が目立つため廃止\nする。\n・空き家情報提供は行政が行い、これ以外の業務は\n市\n（要改善） 地元宅建業者が市との協定により行う。\n1,680\n・関連事業の若者定住化補助金については、引続き\n実施する方向で検討する。\n・山間部歩道については案内板の充足を図り、遭難\n(15,859)\n等の事故を未然に防止する等、安全な環境を作る。\n市\n・市街地内遊歩道については、他事業との連携により\n（要改善） 更なる魅力の創出に努める。\n22,580\n\n(1,160)\n６\n\n7,609\n\n・事業の必要性、事業効果の検証方法を検討する。\n・事業内容（特に景品の取扱い）について見直し、24\n市\n年度事業に反映する。\n（要改善）\n\n・所有する日本画の常設展示を企画するなど集客に\n向けた取組みを行う。\n市\n・２施設の展示物について、展示方法に配慮し統合で\n（要改善） きるものは統合に向け検討する。\n8,283\n\n(14,682)\n\n(14,716)\n\n36,132\n\n38,716\n\n(8,971)\n\n(8,244)\n\n8,971\n\n8,971\n\n(26,961)\n\n(28,063)\n\n28,977\n\n30,079\n\n学校教育課\n\n放課後児童クラブ運営事\n学校教育課\n業\n\n具体的改善策等\n\n・休館日の変更や開館時間の延長については、24年\n度に試行期間を設け、その結果を検証し、実施の有\n市\n無も含めて検討する。\n（要改善） ・４図書館の統廃合については、今後の利用者の動\n向に注視しながら検討していく。\n・学校図書館の蔵書についてバーコード化を実施し、\n利用状況のデータを確認及び活用できるようにする。\n市\n・児童・生徒の読書100選事業の推進等について、蔵\n（現状） 書や購入図書の協議の場を設け、市立図書館との調\n整を図っていく。\n・アンケート調査を実施し、住民ニーズを取り入れた\n運営を実施する。\n市\n・運営ソフト面は、クラブ毎のより良い支援策を共有\n（現状） し、委託先との情報交換を密にして改善指導してい\nく。\n\n※事業費の上段は、当該事業の予算として計上された実額で、下段はその事業を実施するための職員の人件費を加えた額です。\n\n- 18-\n\n\n",
+        "evaluationYear": 2011,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit FY2011 citizen-evaluation appendix in FY2012 initial-budget book. Budget columns are not actual expenditure; no cost or rating transferred."
+      },
+      {
+        "name": "「食」の自立支援事業",
+        "start": 15981,
+        "raw": "「食」の自立支援事業",
+        "titleSegments": [
+          {
+            "start": 15981,
+            "raw": "「食」の自立支援事業"
+          }
+        ],
+        "blockStart": 15336,
+        "blockRaw": "２３年度市民による事業評価会 評価結果に係る具体的改善策及び２４年度事業反映状況\n（単位：千円）\n\n№\n\n事務事業名\n\n担当課室\n\n事業費 ※\n事業費※ 評価結果\n（H23予算額） （H24予算額） 最多意見\n\n10,493\n\n・妊婦教室の意向調査を実施し、妊婦教室参加率の\n向上を目指す。\n・医療機関で実施している妊婦教室の内容を把握し、\n市\n（要改善） 24年度の妊婦教室に反映する。\n18,827\n・予定日を過ぎた妊婦定期健診について、償還払い\nの方法で扶助する。\n・業者の選定やコストの見直しをする。\n(10,296)\n・配食の回数や対象者の拡充、医療機関との連携に\n市\nついて検討する。\n（現状）\n・他のサービスとの連携の構築について、検討会議を\n11,304\n開催して進める。\n・対象となる小学生までの家庭への認知度向上に取\n(80)\nり組むとともに、協力会員の増加を目的とした広報誌\n市\nへの掲載などPR活動を行う。\n（要改善） ・依頼会員へのアンケート調査を行い、社会的ニーズ\n1,424\nや個々のニーズを把握し事業の見直しをする。\n・民間主導の事業とするために、事務局（体育協会）\n(2,580)\n体制の見直し及びプロジェクト自体で利益を生むシス\n市\nテムの構築を図る。\n（要改善） ・ニーズに合った予約方法を検証していく。\n3,253\n\n(6,125)\n\n(6,631)\n\n(17,274)\n1\n\n妊婦健康推進事業\n\n健康増進課\n\n20,635\n(12,000)\n２\n\n「食」の自立支援事業\n\n長寿介護課\n\n13,008\n\n３\n\n４\n\n５\n\nファミリーサポートセン\nター事業\n\n(79)\nこども課\n\n1,423\n\n伊豆魅力（三力）プロジェ\n観光交流課\nクト補助金\n\n松原公園管理事業\n\n(3,100)\n\n土肥支所\n\n14,862\n\n人口定住化事業\n\n８\n\n９\n\n10\n\n11\n\n12\n\n13\n\n歩いてみたくなる散策\nルートの創造事業\n\n昭和の森会館管理事業\n\n商品券発行補助金交付\n事業\n\n(26,736)\n\n(25,789)\n\n(17,613)\n産業振興課\n\n0\n\n42,857\n\n・県施設の管理受託業務の制約がある中、外部環境\nの変化（ジオパーク制定の動き等）に対応した施設運\n市\n営の検討を進め、その中で売店等のあり方や職員配\n（要改善） 置について適正な管理を模索する。\n41,435\n\n(13,000)\n\n(9,500)\n\n13,336\n\n9,836\n\n(888)\n\n(1,920)\n\n産業振興課\n\n産業振興課\n\n伊豆市所蔵美術品管理・\n社会教育課\n公開事業\n\n図書館運営事業（蔵書充\n社会教育課\n実・図書貸出促進事業）\n\n学校図書館活用事業\n\n・今後の維持管理について、民間委託や指定管理も\n視野に入れ研究し、総合的に管理計画を整理する。\n民間\n市(要改善) ・市民、利用団体や観光関係機関からも意見聴取す\n15,368 市(現状) る。\n\n24,334\n\n地域づくり課\n\n2,840\n\n７\n\n(15,466)\n\n・体験施設は利用が少なく老朽化が目立つため廃止\nする。\n・空き家情報提供は行政が行い、これ以外の業務は\n市\n（要改善） 地元宅建業者が市との協定により行う。\n1,680\n・関連事業の若者定住化補助金については、引続き\n実施する方向で検討する。\n・山間部歩道については案内板の充足を図り、遭難\n(15,859)\n等の事故を未然に防止する等、安全な環境を作る。\n市\n・市街地内遊歩道については、他事業との連携により\n（要改善） 更なる魅力の創出に努める。\n22,580\n\n(1,160)\n６\n\n7,609\n\n・事業の必要性、事業効果の検証方法を検討する。\n・事業内容（特に景品の取扱い）について見直し、24\n市\n年度事業に反映する。\n（要改善）\n\n・所有する日本画の常設展示を企画するなど集客に\n向けた取組みを行う。\n市\n・２施設の展示物について、展示方法に配慮し統合で\n（要改善） きるものは統合に向け検討する。\n8,283\n\n(14,682)\n\n(14,716)\n\n36,132\n\n38,716\n\n(8,971)\n\n(8,244)\n\n8,971\n\n8,971\n\n(26,961)\n\n(28,063)\n\n28,977\n\n30,079\n\n学校教育課\n\n放課後児童クラブ運営事\n学校教育課\n業\n\n具体的改善策等\n\n・休館日の変更や開館時間の延長については、24年\n度に試行期間を設け、その結果を検証し、実施の有\n市\n無も含めて検討する。\n（要改善） ・４図書館の統廃合については、今後の利用者の動\n向に注視しながら検討していく。\n・学校図書館の蔵書についてバーコード化を実施し、\n利用状況のデータを確認及び活用できるようにする。\n市\n・児童・生徒の読書100選事業の推進等について、蔵\n（現状） 書や購入図書の協議の場を設け、市立図書館との調\n整を図っていく。\n・アンケート調査を実施し、住民ニーズを取り入れた\n運営を実施する。\n市\n・運営ソフト面は、クラブ毎のより良い支援策を共有\n（現状） し、委託先との情報交換を密にして改善指導してい\nく。\n\n※事業費の上段は、当該事業の予算として計上された実額で、下段はその事業を実施するための職員の人件費を加えた額です。\n\n- 18-\n\n\n",
+        "evaluationYear": 2011,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit FY2011 citizen-evaluation appendix in FY2012 initial-budget book. Budget columns are not actual expenditure; no cost or rating transferred."
+      },
+      {
+        "name": "ファミリーサポートセンター事業",
+        "start": 16017,
+        "raw": "ファミリーサポートセン\nター事業",
+        "titleSegments": [
+          {
+            "start": 16017,
+            "raw": "ファミリーサポートセン"
+          },
+          {
+            "start": 16029,
+            "raw": "ター事業"
+          }
+        ],
+        "blockStart": 15336,
+        "blockRaw": "２３年度市民による事業評価会 評価結果に係る具体的改善策及び２４年度事業反映状況\n（単位：千円）\n\n№\n\n事務事業名\n\n担当課室\n\n事業費 ※\n事業費※ 評価結果\n（H23予算額） （H24予算額） 最多意見\n\n10,493\n\n・妊婦教室の意向調査を実施し、妊婦教室参加率の\n向上を目指す。\n・医療機関で実施している妊婦教室の内容を把握し、\n市\n（要改善） 24年度の妊婦教室に反映する。\n18,827\n・予定日を過ぎた妊婦定期健診について、償還払い\nの方法で扶助する。\n・業者の選定やコストの見直しをする。\n(10,296)\n・配食の回数や対象者の拡充、医療機関との連携に\n市\nついて検討する。\n（現状）\n・他のサービスとの連携の構築について、検討会議を\n11,304\n開催して進める。\n・対象となる小学生までの家庭への認知度向上に取\n(80)\nり組むとともに、協力会員の増加を目的とした広報誌\n市\nへの掲載などPR活動を行う。\n（要改善） ・依頼会員へのアンケート調査を行い、社会的ニーズ\n1,424\nや個々のニーズを把握し事業の見直しをする。\n・民間主導の事業とするために、事務局（体育協会）\n(2,580)\n体制の見直し及びプロジェクト自体で利益を生むシス\n市\nテムの構築を図る。\n（要改善） ・ニーズに合った予約方法を検証していく。\n3,253\n\n(6,125)\n\n(6,631)\n\n(17,274)\n1\n\n妊婦健康推進事業\n\n健康増進課\n\n20,635\n(12,000)\n２\n\n「食」の自立支援事業\n\n長寿介護課\n\n13,008\n\n３\n\n４\n\n５\n\nファミリーサポートセン\nター事業\n\n(79)\nこども課\n\n1,423\n\n伊豆魅力（三力）プロジェ\n観光交流課\nクト補助金\n\n松原公園管理事業\n\n(3,100)\n\n土肥支所\n\n14,862\n\n人口定住化事業\n\n８\n\n９\n\n10\n\n11\n\n12\n\n13\n\n歩いてみたくなる散策\nルートの創造事業\n\n昭和の森会館管理事業\n\n商品券発行補助金交付\n事業\n\n(26,736)\n\n(25,789)\n\n(17,613)\n産業振興課\n\n0\n\n42,857\n\n・県施設の管理受託業務の制約がある中、外部環境\nの変化（ジオパーク制定の動き等）に対応した施設運\n市\n営の検討を進め、その中で売店等のあり方や職員配\n（要改善） 置について適正な管理を模索する。\n41,435\n\n(13,000)\n\n(9,500)\n\n13,336\n\n9,836\n\n(888)\n\n(1,920)\n\n産業振興課\n\n産業振興課\n\n伊豆市所蔵美術品管理・\n社会教育課\n公開事業\n\n図書館運営事業（蔵書充\n社会教育課\n実・図書貸出促進事業）\n\n学校図書館活用事業\n\n・今後の維持管理について、民間委託や指定管理も\n視野に入れ研究し、総合的に管理計画を整理する。\n民間\n市(要改善) ・市民、利用団体や観光関係機関からも意見聴取す\n15,368 市(現状) る。\n\n24,334\n\n地域づくり課\n\n2,840\n\n７\n\n(15,466)\n\n・体験施設は利用が少なく老朽化が目立つため廃止\nする。\n・空き家情報提供は行政が行い、これ以外の業務は\n市\n（要改善） 地元宅建業者が市との協定により行う。\n1,680\n・関連事業の若者定住化補助金については、引続き\n実施する方向で検討する。\n・山間部歩道については案内板の充足を図り、遭難\n(15,859)\n等の事故を未然に防止する等、安全な環境を作る。\n市\n・市街地内遊歩道については、他事業との連携により\n（要改善） 更なる魅力の創出に努める。\n22,580\n\n(1,160)\n６\n\n7,609\n\n・事業の必要性、事業効果の検証方法を検討する。\n・事業内容（特に景品の取扱い）について見直し、24\n市\n年度事業に反映する。\n（要改善）\n\n・所有する日本画の常設展示を企画するなど集客に\n向けた取組みを行う。\n市\n・２施設の展示物について、展示方法に配慮し統合で\n（要改善） きるものは統合に向け検討する。\n8,283\n\n(14,682)\n\n(14,716)\n\n36,132\n\n38,716\n\n(8,971)\n\n(8,244)\n\n8,971\n\n8,971\n\n(26,961)\n\n(28,063)\n\n28,977\n\n30,079\n\n学校教育課\n\n放課後児童クラブ運営事\n学校教育課\n業\n\n具体的改善策等\n\n・休館日の変更や開館時間の延長については、24年\n度に試行期間を設け、その結果を検証し、実施の有\n市\n無も含めて検討する。\n（要改善） ・４図書館の統廃合については、今後の利用者の動\n向に注視しながら検討していく。\n・学校図書館の蔵書についてバーコード化を実施し、\n利用状況のデータを確認及び活用できるようにする。\n市\n・児童・生徒の読書100選事業の推進等について、蔵\n（現状） 書や購入図書の協議の場を設け、市立図書館との調\n整を図っていく。\n・アンケート調査を実施し、住民ニーズを取り入れた\n運営を実施する。\n市\n・運営ソフト面は、クラブ毎のより良い支援策を共有\n（現状） し、委託先との情報交換を密にして改善指導してい\nく。\n\n※事業費の上段は、当該事業の予算として計上された実額で、下段はその事業を実施するための職員の人件費を加えた額です。\n\n- 18-\n\n\n",
+        "evaluationYear": 2011,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit FY2011 citizen-evaluation appendix in FY2012 initial-budget book. Budget columns are not actual expenditure; no cost or rating transferred."
+      },
+      {
+        "name": "伊豆魅力（三力）プロジェクト補助金",
+        "start": 16053,
+        "raw": "伊豆魅力（三力）プロジェ\n観光交流課\nクト補助金",
+        "titleSegments": [
+          {
+            "start": 16053,
+            "raw": "伊豆魅力（三力）プロジェ"
+          },
+          {
+            "start": 16072,
+            "raw": "クト補助金"
+          }
+        ],
+        "blockStart": 15336,
+        "blockRaw": "２３年度市民による事業評価会 評価結果に係る具体的改善策及び２４年度事業反映状況\n（単位：千円）\n\n№\n\n事務事業名\n\n担当課室\n\n事業費 ※\n事業費※ 評価結果\n（H23予算額） （H24予算額） 最多意見\n\n10,493\n\n・妊婦教室の意向調査を実施し、妊婦教室参加率の\n向上を目指す。\n・医療機関で実施している妊婦教室の内容を把握し、\n市\n（要改善） 24年度の妊婦教室に反映する。\n18,827\n・予定日を過ぎた妊婦定期健診について、償還払い\nの方法で扶助する。\n・業者の選定やコストの見直しをする。\n(10,296)\n・配食の回数や対象者の拡充、医療機関との連携に\n市\nついて検討する。\n（現状）\n・他のサービスとの連携の構築について、検討会議を\n11,304\n開催して進める。\n・対象となる小学生までの家庭への認知度向上に取\n(80)\nり組むとともに、協力会員の増加を目的とした広報誌\n市\nへの掲載などPR活動を行う。\n（要改善） ・依頼会員へのアンケート調査を行い、社会的ニーズ\n1,424\nや個々のニーズを把握し事業の見直しをする。\n・民間主導の事業とするために、事務局（体育協会）\n(2,580)\n体制の見直し及びプロジェクト自体で利益を生むシス\n市\nテムの構築を図る。\n（要改善） ・ニーズに合った予約方法を検証していく。\n3,253\n\n(6,125)\n\n(6,631)\n\n(17,274)\n1\n\n妊婦健康推進事業\n\n健康増進課\n\n20,635\n(12,000)\n２\n\n「食」の自立支援事業\n\n長寿介護課\n\n13,008\n\n３\n\n４\n\n５\n\nファミリーサポートセン\nター事業\n\n(79)\nこども課\n\n1,423\n\n伊豆魅力（三力）プロジェ\n観光交流課\nクト補助金\n\n松原公園管理事業\n\n(3,100)\n\n土肥支所\n\n14,862\n\n人口定住化事業\n\n８\n\n９\n\n10\n\n11\n\n12\n\n13\n\n歩いてみたくなる散策\nルートの創造事業\n\n昭和の森会館管理事業\n\n商品券発行補助金交付\n事業\n\n(26,736)\n\n(25,789)\n\n(17,613)\n産業振興課\n\n0\n\n42,857\n\n・県施設の管理受託業務の制約がある中、外部環境\nの変化（ジオパーク制定の動き等）に対応した施設運\n市\n営の検討を進め、その中で売店等のあり方や職員配\n（要改善） 置について適正な管理を模索する。\n41,435\n\n(13,000)\n\n(9,500)\n\n13,336\n\n9,836\n\n(888)\n\n(1,920)\n\n産業振興課\n\n産業振興課\n\n伊豆市所蔵美術品管理・\n社会教育課\n公開事業\n\n図書館運営事業（蔵書充\n社会教育課\n実・図書貸出促進事業）\n\n学校図書館活用事業\n\n・今後の維持管理について、民間委託や指定管理も\n視野に入れ研究し、総合的に管理計画を整理する。\n民間\n市(要改善) ・市民、利用団体や観光関係機関からも意見聴取す\n15,368 市(現状) る。\n\n24,334\n\n地域づくり課\n\n2,840\n\n７\n\n(15,466)\n\n・体験施設は利用が少なく老朽化が目立つため廃止\nする。\n・空き家情報提供は行政が行い、これ以外の業務は\n市\n（要改善） 地元宅建業者が市との協定により行う。\n1,680\n・関連事業の若者定住化補助金については、引続き\n実施する方向で検討する。\n・山間部歩道については案内板の充足を図り、遭難\n(15,859)\n等の事故を未然に防止する等、安全な環境を作る。\n市\n・市街地内遊歩道については、他事業との連携により\n（要改善） 更なる魅力の創出に努める。\n22,580\n\n(1,160)\n６\n\n7,609\n\n・事業の必要性、事業効果の検証方法を検討する。\n・事業内容（特に景品の取扱い）について見直し、24\n市\n年度事業に反映する。\n（要改善）\n\n・所有する日本画の常設展示を企画するなど集客に\n向けた取組みを行う。\n市\n・２施設の展示物について、展示方法に配慮し統合で\n（要改善） きるものは統合に向け検討する。\n8,283\n\n(14,682)\n\n(14,716)\n\n36,132\n\n38,716\n\n(8,971)\n\n(8,244)\n\n8,971\n\n8,971\n\n(26,961)\n\n(28,063)\n\n28,977\n\n30,079\n\n学校教育課\n\n放課後児童クラブ運営事\n学校教育課\n業\n\n具体的改善策等\n\n・休館日の変更や開館時間の延長については、24年\n度に試行期間を設け、その結果を検証し、実施の有\n市\n無も含めて検討する。\n（要改善） ・４図書館の統廃合については、今後の利用者の動\n向に注視しながら検討していく。\n・学校図書館の蔵書についてバーコード化を実施し、\n利用状況のデータを確認及び活用できるようにする。\n市\n・児童・生徒の読書100選事業の推進等について、蔵\n（現状） 書や購入図書の協議の場を設け、市立図書館との調\n整を図っていく。\n・アンケート調査を実施し、住民ニーズを取り入れた\n運営を実施する。\n市\n・運営ソフト面は、クラブ毎のより良い支援策を共有\n（現状） し、委託先との情報交換を密にして改善指導してい\nく。\n\n※事業費の上段は、当該事業の予算として計上された実額で、下段はその事業を実施するための職員の人件費を加えた額です。\n\n- 18-\n\n\n",
+        "evaluationYear": 2011,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit FY2011 citizen-evaluation appendix in FY2012 initial-budget book. Budget columns are not actual expenditure; no cost or rating transferred."
+      },
+      {
+        "name": "松原公園管理事業",
+        "start": 16079,
+        "raw": "松原公園管理事業",
+        "titleSegments": [
+          {
+            "start": 16079,
+            "raw": "松原公園管理事業"
+          }
+        ],
+        "blockStart": 15336,
+        "blockRaw": "２３年度市民による事業評価会 評価結果に係る具体的改善策及び２４年度事業反映状況\n（単位：千円）\n\n№\n\n事務事業名\n\n担当課室\n\n事業費 ※\n事業費※ 評価結果\n（H23予算額） （H24予算額） 最多意見\n\n10,493\n\n・妊婦教室の意向調査を実施し、妊婦教室参加率の\n向上を目指す。\n・医療機関で実施している妊婦教室の内容を把握し、\n市\n（要改善） 24年度の妊婦教室に反映する。\n18,827\n・予定日を過ぎた妊婦定期健診について、償還払い\nの方法で扶助する。\n・業者の選定やコストの見直しをする。\n(10,296)\n・配食の回数や対象者の拡充、医療機関との連携に\n市\nついて検討する。\n（現状）\n・他のサービスとの連携の構築について、検討会議を\n11,304\n開催して進める。\n・対象となる小学生までの家庭への認知度向上に取\n(80)\nり組むとともに、協力会員の増加を目的とした広報誌\n市\nへの掲載などPR活動を行う。\n（要改善） ・依頼会員へのアンケート調査を行い、社会的ニーズ\n1,424\nや個々のニーズを把握し事業の見直しをする。\n・民間主導の事業とするために、事務局（体育協会）\n(2,580)\n体制の見直し及びプロジェクト自体で利益を生むシス\n市\nテムの構築を図る。\n（要改善） ・ニーズに合った予約方法を検証していく。\n3,253\n\n(6,125)\n\n(6,631)\n\n(17,274)\n1\n\n妊婦健康推進事業\n\n健康増進課\n\n20,635\n(12,000)\n２\n\n「食」の自立支援事業\n\n長寿介護課\n\n13,008\n\n３\n\n４\n\n５\n\nファミリーサポートセン\nター事業\n\n(79)\nこども課\n\n1,423\n\n伊豆魅力（三力）プロジェ\n観光交流課\nクト補助金\n\n松原公園管理事業\n\n(3,100)\n\n土肥支所\n\n14,862\n\n人口定住化事業\n\n８\n\n９\n\n10\n\n11\n\n12\n\n13\n\n歩いてみたくなる散策\nルートの創造事業\n\n昭和の森会館管理事業\n\n商品券発行補助金交付\n事業\n\n(26,736)\n\n(25,789)\n\n(17,613)\n産業振興課\n\n0\n\n42,857\n\n・県施設の管理受託業務の制約がある中、外部環境\nの変化（ジオパーク制定の動き等）に対応した施設運\n市\n営の検討を進め、その中で売店等のあり方や職員配\n（要改善） 置について適正な管理を模索する。\n41,435\n\n(13,000)\n\n(9,500)\n\n13,336\n\n9,836\n\n(888)\n\n(1,920)\n\n産業振興課\n\n産業振興課\n\n伊豆市所蔵美術品管理・\n社会教育課\n公開事業\n\n図書館運営事業（蔵書充\n社会教育課\n実・図書貸出促進事業）\n\n学校図書館活用事業\n\n・今後の維持管理について、民間委託や指定管理も\n視野に入れ研究し、総合的に管理計画を整理する。\n民間\n市(要改善) ・市民、利用団体や観光関係機関からも意見聴取す\n15,368 市(現状) る。\n\n24,334\n\n地域づくり課\n\n2,840\n\n７\n\n(15,466)\n\n・体験施設は利用が少なく老朽化が目立つため廃止\nする。\n・空き家情報提供は行政が行い、これ以外の業務は\n市\n（要改善） 地元宅建業者が市との協定により行う。\n1,680\n・関連事業の若者定住化補助金については、引続き\n実施する方向で検討する。\n・山間部歩道については案内板の充足を図り、遭難\n(15,859)\n等の事故を未然に防止する等、安全な環境を作る。\n市\n・市街地内遊歩道については、他事業との連携により\n（要改善） 更なる魅力の創出に努める。\n22,580\n\n(1,160)\n６\n\n7,609\n\n・事業の必要性、事業効果の検証方法を検討する。\n・事業内容（特に景品の取扱い）について見直し、24\n市\n年度事業に反映する。\n（要改善）\n\n・所有する日本画の常設展示を企画するなど集客に\n向けた取組みを行う。\n市\n・２施設の展示物について、展示方法に配慮し統合で\n（要改善） きるものは統合に向け検討する。\n8,283\n\n(14,682)\n\n(14,716)\n\n36,132\n\n38,716\n\n(8,971)\n\n(8,244)\n\n8,971\n\n8,971\n\n(26,961)\n\n(28,063)\n\n28,977\n\n30,079\n\n学校教育課\n\n放課後児童クラブ運営事\n学校教育課\n業\n\n具体的改善策等\n\n・休館日の変更や開館時間の延長については、24年\n度に試行期間を設け、その結果を検証し、実施の有\n市\n無も含めて検討する。\n（要改善） ・４図書館の統廃合については、今後の利用者の動\n向に注視しながら検討していく。\n・学校図書館の蔵書についてバーコード化を実施し、\n利用状況のデータを確認及び活用できるようにする。\n市\n・児童・生徒の読書100選事業の推進等について、蔵\n（現状） 書や購入図書の協議の場を設け、市立図書館との調\n整を図っていく。\n・アンケート調査を実施し、住民ニーズを取り入れた\n運営を実施する。\n市\n・運営ソフト面は、クラブ毎のより良い支援策を共有\n（現状） し、委託先との情報交換を密にして改善指導してい\nく。\n\n※事業費の上段は、当該事業の予算として計上された実額で、下段はその事業を実施するための職員の人件費を加えた額です。\n\n- 18-\n\n\n",
+        "evaluationYear": 2011,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit FY2011 citizen-evaluation appendix in FY2012 initial-budget book. Budget columns are not actual expenditure; no cost or rating transferred."
+      },
+      {
+        "name": "人口定住化事業",
+        "start": 16112,
+        "raw": "人口定住化事業",
+        "titleSegments": [
+          {
+            "start": 16112,
+            "raw": "人口定住化事業"
+          }
+        ],
+        "blockStart": 15336,
+        "blockRaw": "２３年度市民による事業評価会 評価結果に係る具体的改善策及び２４年度事業反映状況\n（単位：千円）\n\n№\n\n事務事業名\n\n担当課室\n\n事業費 ※\n事業費※ 評価結果\n（H23予算額） （H24予算額） 最多意見\n\n10,493\n\n・妊婦教室の意向調査を実施し、妊婦教室参加率の\n向上を目指す。\n・医療機関で実施している妊婦教室の内容を把握し、\n市\n（要改善） 24年度の妊婦教室に反映する。\n18,827\n・予定日を過ぎた妊婦定期健診について、償還払い\nの方法で扶助する。\n・業者の選定やコストの見直しをする。\n(10,296)\n・配食の回数や対象者の拡充、医療機関との連携に\n市\nついて検討する。\n（現状）\n・他のサービスとの連携の構築について、検討会議を\n11,304\n開催して進める。\n・対象となる小学生までの家庭への認知度向上に取\n(80)\nり組むとともに、協力会員の増加を目的とした広報誌\n市\nへの掲載などPR活動を行う。\n（要改善） ・依頼会員へのアンケート調査を行い、社会的ニーズ\n1,424\nや個々のニーズを把握し事業の見直しをする。\n・民間主導の事業とするために、事務局（体育協会）\n(2,580)\n体制の見直し及びプロジェクト自体で利益を生むシス\n市\nテムの構築を図る。\n（要改善） ・ニーズに合った予約方法を検証していく。\n3,253\n\n(6,125)\n\n(6,631)\n\n(17,274)\n1\n\n妊婦健康推進事業\n\n健康増進課\n\n20,635\n(12,000)\n２\n\n「食」の自立支援事業\n\n長寿介護課\n\n13,008\n\n３\n\n４\n\n５\n\nファミリーサポートセン\nター事業\n\n(79)\nこども課\n\n1,423\n\n伊豆魅力（三力）プロジェ\n観光交流課\nクト補助金\n\n松原公園管理事業\n\n(3,100)\n\n土肥支所\n\n14,862\n\n人口定住化事業\n\n８\n\n９\n\n10\n\n11\n\n12\n\n13\n\n歩いてみたくなる散策\nルートの創造事業\n\n昭和の森会館管理事業\n\n商品券発行補助金交付\n事業\n\n(26,736)\n\n(25,789)\n\n(17,613)\n産業振興課\n\n0\n\n42,857\n\n・県施設の管理受託業務の制約がある中、外部環境\nの変化（ジオパーク制定の動き等）に対応した施設運\n市\n営の検討を進め、その中で売店等のあり方や職員配\n（要改善） 置について適正な管理を模索する。\n41,435\n\n(13,000)\n\n(9,500)\n\n13,336\n\n9,836\n\n(888)\n\n(1,920)\n\n産業振興課\n\n産業振興課\n\n伊豆市所蔵美術品管理・\n社会教育課\n公開事業\n\n図書館運営事業（蔵書充\n社会教育課\n実・図書貸出促進事業）\n\n学校図書館活用事業\n\n・今後の維持管理について、民間委託や指定管理も\n視野に入れ研究し、総合的に管理計画を整理する。\n民間\n市(要改善) ・市民、利用団体や観光関係機関からも意見聴取す\n15,368 市(現状) る。\n\n24,334\n\n地域づくり課\n\n2,840\n\n７\n\n(15,466)\n\n・体験施設は利用が少なく老朽化が目立つため廃止\nする。\n・空き家情報提供は行政が行い、これ以外の業務は\n市\n（要改善） 地元宅建業者が市との協定により行う。\n1,680\n・関連事業の若者定住化補助金については、引続き\n実施する方向で検討する。\n・山間部歩道については案内板の充足を図り、遭難\n(15,859)\n等の事故を未然に防止する等、安全な環境を作る。\n市\n・市街地内遊歩道については、他事業との連携により\n（要改善） 更なる魅力の創出に努める。\n22,580\n\n(1,160)\n６\n\n7,609\n\n・事業の必要性、事業効果の検証方法を検討する。\n・事業内容（特に景品の取扱い）について見直し、24\n市\n年度事業に反映する。\n（要改善）\n\n・所有する日本画の常設展示を企画するなど集客に\n向けた取組みを行う。\n市\n・２施設の展示物について、展示方法に配慮し統合で\n（要改善） きるものは統合に向け検討する。\n8,283\n\n(14,682)\n\n(14,716)\n\n36,132\n\n38,716\n\n(8,971)\n\n(8,244)\n\n8,971\n\n8,971\n\n(26,961)\n\n(28,063)\n\n28,977\n\n30,079\n\n学校教育課\n\n放課後児童クラブ運営事\n学校教育課\n業\n\n具体的改善策等\n\n・休館日の変更や開館時間の延長については、24年\n度に試行期間を設け、その結果を検証し、実施の有\n市\n無も含めて検討する。\n（要改善） ・４図書館の統廃合については、今後の利用者の動\n向に注視しながら検討していく。\n・学校図書館の蔵書についてバーコード化を実施し、\n利用状況のデータを確認及び活用できるようにする。\n市\n・児童・生徒の読書100選事業の推進等について、蔵\n（現状） 書や購入図書の協議の場を設け、市立図書館との調\n整を図っていく。\n・アンケート調査を実施し、住民ニーズを取り入れた\n運営を実施する。\n市\n・運営ソフト面は、クラブ毎のより良い支援策を共有\n（現状） し、委託先との情報交換を密にして改善指導してい\nく。\n\n※事業費の上段は、当該事業の予算として計上された実額で、下段はその事業を実施するための職員の人件費を加えた額です。\n\n- 18-\n\n\n",
+        "evaluationYear": 2011,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit FY2011 citizen-evaluation appendix in FY2012 initial-budget book. Budget columns are not actual expenditure; no cost or rating transferred."
+      },
+      {
+        "name": "歩いてみたくなる散策ルートの創造事業",
+        "start": 16143,
+        "raw": "歩いてみたくなる散策\nルートの創造事業",
+        "titleSegments": [
+          {
+            "start": 16143,
+            "raw": "歩いてみたくなる散策"
+          },
+          {
+            "start": 16154,
+            "raw": "ルートの創造事業"
+          }
+        ],
+        "blockStart": 15336,
+        "blockRaw": "２３年度市民による事業評価会 評価結果に係る具体的改善策及び２４年度事業反映状況\n（単位：千円）\n\n№\n\n事務事業名\n\n担当課室\n\n事業費 ※\n事業費※ 評価結果\n（H23予算額） （H24予算額） 最多意見\n\n10,493\n\n・妊婦教室の意向調査を実施し、妊婦教室参加率の\n向上を目指す。\n・医療機関で実施している妊婦教室の内容を把握し、\n市\n（要改善） 24年度の妊婦教室に反映する。\n18,827\n・予定日を過ぎた妊婦定期健診について、償還払い\nの方法で扶助する。\n・業者の選定やコストの見直しをする。\n(10,296)\n・配食の回数や対象者の拡充、医療機関との連携に\n市\nついて検討する。\n（現状）\n・他のサービスとの連携の構築について、検討会議を\n11,304\n開催して進める。\n・対象となる小学生までの家庭への認知度向上に取\n(80)\nり組むとともに、協力会員の増加を目的とした広報誌\n市\nへの掲載などPR活動を行う。\n（要改善） ・依頼会員へのアンケート調査を行い、社会的ニーズ\n1,424\nや個々のニーズを把握し事業の見直しをする。\n・民間主導の事業とするために、事務局（体育協会）\n(2,580)\n体制の見直し及びプロジェクト自体で利益を生むシス\n市\nテムの構築を図る。\n（要改善） ・ニーズに合った予約方法を検証していく。\n3,253\n\n(6,125)\n\n(6,631)\n\n(17,274)\n1\n\n妊婦健康推進事業\n\n健康増進課\n\n20,635\n(12,000)\n２\n\n「食」の自立支援事業\n\n長寿介護課\n\n13,008\n\n３\n\n４\n\n５\n\nファミリーサポートセン\nター事業\n\n(79)\nこども課\n\n1,423\n\n伊豆魅力（三力）プロジェ\n観光交流課\nクト補助金\n\n松原公園管理事業\n\n(3,100)\n\n土肥支所\n\n14,862\n\n人口定住化事業\n\n８\n\n９\n\n10\n\n11\n\n12\n\n13\n\n歩いてみたくなる散策\nルートの創造事業\n\n昭和の森会館管理事業\n\n商品券発行補助金交付\n事業\n\n(26,736)\n\n(25,789)\n\n(17,613)\n産業振興課\n\n0\n\n42,857\n\n・県施設の管理受託業務の制約がある中、外部環境\nの変化（ジオパーク制定の動き等）に対応した施設運\n市\n営の検討を進め、その中で売店等のあり方や職員配\n（要改善） 置について適正な管理を模索する。\n41,435\n\n(13,000)\n\n(9,500)\n\n13,336\n\n9,836\n\n(888)\n\n(1,920)\n\n産業振興課\n\n産業振興課\n\n伊豆市所蔵美術品管理・\n社会教育課\n公開事業\n\n図書館運営事業（蔵書充\n社会教育課\n実・図書貸出促進事業）\n\n学校図書館活用事業\n\n・今後の維持管理について、民間委託や指定管理も\n視野に入れ研究し、総合的に管理計画を整理する。\n民間\n市(要改善) ・市民、利用団体や観光関係機関からも意見聴取す\n15,368 市(現状) る。\n\n24,334\n\n地域づくり課\n\n2,840\n\n７\n\n(15,466)\n\n・体験施設は利用が少なく老朽化が目立つため廃止\nする。\n・空き家情報提供は行政が行い、これ以外の業務は\n市\n（要改善） 地元宅建業者が市との協定により行う。\n1,680\n・関連事業の若者定住化補助金については、引続き\n実施する方向で検討する。\n・山間部歩道については案内板の充足を図り、遭難\n(15,859)\n等の事故を未然に防止する等、安全な環境を作る。\n市\n・市街地内遊歩道については、他事業との連携により\n（要改善） 更なる魅力の創出に努める。\n22,580\n\n(1,160)\n６\n\n7,609\n\n・事業の必要性、事業効果の検証方法を検討する。\n・事業内容（特に景品の取扱い）について見直し、24\n市\n年度事業に反映する。\n（要改善）\n\n・所有する日本画の常設展示を企画するなど集客に\n向けた取組みを行う。\n市\n・２施設の展示物について、展示方法に配慮し統合で\n（要改善） きるものは統合に向け検討する。\n8,283\n\n(14,682)\n\n(14,716)\n\n36,132\n\n38,716\n\n(8,971)\n\n(8,244)\n\n8,971\n\n8,971\n\n(26,961)\n\n(28,063)\n\n28,977\n\n30,079\n\n学校教育課\n\n放課後児童クラブ運営事\n学校教育課\n業\n\n具体的改善策等\n\n・休館日の変更や開館時間の延長については、24年\n度に試行期間を設け、その結果を検証し、実施の有\n市\n無も含めて検討する。\n（要改善） ・４図書館の統廃合については、今後の利用者の動\n向に注視しながら検討していく。\n・学校図書館の蔵書についてバーコード化を実施し、\n利用状況のデータを確認及び活用できるようにする。\n市\n・児童・生徒の読書100選事業の推進等について、蔵\n（現状） 書や購入図書の協議の場を設け、市立図書館との調\n整を図っていく。\n・アンケート調査を実施し、住民ニーズを取り入れた\n運営を実施する。\n市\n・運営ソフト面は、クラブ毎のより良い支援策を共有\n（現状） し、委託先との情報交換を密にして改善指導してい\nく。\n\n※事業費の上段は、当該事業の予算として計上された実額で、下段はその事業を実施するための職員の人件費を加えた額です。\n\n- 18-\n\n\n",
+        "evaluationYear": 2011,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit FY2011 citizen-evaluation appendix in FY2012 initial-budget book. Budget columns are not actual expenditure; no cost or rating transferred."
+      },
+      {
+        "name": "昭和の森会館管理事業",
+        "start": 16164,
+        "raw": "昭和の森会館管理事業",
+        "titleSegments": [
+          {
+            "start": 16164,
+            "raw": "昭和の森会館管理事業"
+          }
+        ],
+        "blockStart": 15336,
+        "blockRaw": "２３年度市民による事業評価会 評価結果に係る具体的改善策及び２４年度事業反映状況\n（単位：千円）\n\n№\n\n事務事業名\n\n担当課室\n\n事業費 ※\n事業費※ 評価結果\n（H23予算額） （H24予算額） 最多意見\n\n10,493\n\n・妊婦教室の意向調査を実施し、妊婦教室参加率の\n向上を目指す。\n・医療機関で実施している妊婦教室の内容を把握し、\n市\n（要改善） 24年度の妊婦教室に反映する。\n18,827\n・予定日を過ぎた妊婦定期健診について、償還払い\nの方法で扶助する。\n・業者の選定やコストの見直しをする。\n(10,296)\n・配食の回数や対象者の拡充、医療機関との連携に\n市\nついて検討する。\n（現状）\n・他のサービスとの連携の構築について、検討会議を\n11,304\n開催して進める。\n・対象となる小学生までの家庭への認知度向上に取\n(80)\nり組むとともに、協力会員の増加を目的とした広報誌\n市\nへの掲載などPR活動を行う。\n（要改善） ・依頼会員へのアンケート調査を行い、社会的ニーズ\n1,424\nや個々のニーズを把握し事業の見直しをする。\n・民間主導の事業とするために、事務局（体育協会）\n(2,580)\n体制の見直し及びプロジェクト自体で利益を生むシス\n市\nテムの構築を図る。\n（要改善） ・ニーズに合った予約方法を検証していく。\n3,253\n\n(6,125)\n\n(6,631)\n\n(17,274)\n1\n\n妊婦健康推進事業\n\n健康増進課\n\n20,635\n(12,000)\n２\n\n「食」の自立支援事業\n\n長寿介護課\n\n13,008\n\n３\n\n４\n\n５\n\nファミリーサポートセン\nター事業\n\n(79)\nこども課\n\n1,423\n\n伊豆魅力（三力）プロジェ\n観光交流課\nクト補助金\n\n松原公園管理事業\n\n(3,100)\n\n土肥支所\n\n14,862\n\n人口定住化事業\n\n８\n\n９\n\n10\n\n11\n\n12\n\n13\n\n歩いてみたくなる散策\nルートの創造事業\n\n昭和の森会館管理事業\n\n商品券発行補助金交付\n事業\n\n(26,736)\n\n(25,789)\n\n(17,613)\n産業振興課\n\n0\n\n42,857\n\n・県施設の管理受託業務の制約がある中、外部環境\nの変化（ジオパーク制定の動き等）に対応した施設運\n市\n営の検討を進め、その中で売店等のあり方や職員配\n（要改善） 置について適正な管理を模索する。\n41,435\n\n(13,000)\n\n(9,500)\n\n13,336\n\n9,836\n\n(888)\n\n(1,920)\n\n産業振興課\n\n産業振興課\n\n伊豆市所蔵美術品管理・\n社会教育課\n公開事業\n\n図書館運営事業（蔵書充\n社会教育課\n実・図書貸出促進事業）\n\n学校図書館活用事業\n\n・今後の維持管理について、民間委託や指定管理も\n視野に入れ研究し、総合的に管理計画を整理する。\n民間\n市(要改善) ・市民、利用団体や観光関係機関からも意見聴取す\n15,368 市(現状) る。\n\n24,334\n\n地域づくり課\n\n2,840\n\n７\n\n(15,466)\n\n・体験施設は利用が少なく老朽化が目立つため廃止\nする。\n・空き家情報提供は行政が行い、これ以外の業務は\n市\n（要改善） 地元宅建業者が市との協定により行う。\n1,680\n・関連事業の若者定住化補助金については、引続き\n実施する方向で検討する。\n・山間部歩道については案内板の充足を図り、遭難\n(15,859)\n等の事故を未然に防止する等、安全な環境を作る。\n市\n・市街地内遊歩道については、他事業との連携により\n（要改善） 更なる魅力の創出に努める。\n22,580\n\n(1,160)\n６\n\n7,609\n\n・事業の必要性、事業効果の検証方法を検討する。\n・事業内容（特に景品の取扱い）について見直し、24\n市\n年度事業に反映する。\n（要改善）\n\n・所有する日本画の常設展示を企画するなど集客に\n向けた取組みを行う。\n市\n・２施設の展示物について、展示方法に配慮し統合で\n（要改善） きるものは統合に向け検討する。\n8,283\n\n(14,682)\n\n(14,716)\n\n36,132\n\n38,716\n\n(8,971)\n\n(8,244)\n\n8,971\n\n8,971\n\n(26,961)\n\n(28,063)\n\n28,977\n\n30,079\n\n学校教育課\n\n放課後児童クラブ運営事\n学校教育課\n業\n\n具体的改善策等\n\n・休館日の変更や開館時間の延長については、24年\n度に試行期間を設け、その結果を検証し、実施の有\n市\n無も含めて検討する。\n（要改善） ・４図書館の統廃合については、今後の利用者の動\n向に注視しながら検討していく。\n・学校図書館の蔵書についてバーコード化を実施し、\n利用状況のデータを確認及び活用できるようにする。\n市\n・児童・生徒の読書100選事業の推進等について、蔵\n（現状） 書や購入図書の協議の場を設け、市立図書館との調\n整を図っていく。\n・アンケート調査を実施し、住民ニーズを取り入れた\n運営を実施する。\n市\n・運営ソフト面は、クラブ毎のより良い支援策を共有\n（現状） し、委託先との情報交換を密にして改善指導してい\nく。\n\n※事業費の上段は、当該事業の予算として計上された実額で、下段はその事業を実施するための職員の人件費を加えた額です。\n\n- 18-\n\n\n",
+        "evaluationYear": 2011,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit FY2011 citizen-evaluation appendix in FY2012 initial-budget book. Budget columns are not actual expenditure; no cost or rating transferred."
+      },
+      {
+        "name": "商品券発行補助金交付事業",
+        "start": 16176,
+        "raw": "商品券発行補助金交付\n事業",
+        "titleSegments": [
+          {
+            "start": 16176,
+            "raw": "商品券発行補助金交付"
+          },
+          {
+            "start": 16187,
+            "raw": "事業"
+          }
+        ],
+        "blockStart": 15336,
+        "blockRaw": "２３年度市民による事業評価会 評価結果に係る具体的改善策及び２４年度事業反映状況\n（単位：千円）\n\n№\n\n事務事業名\n\n担当課室\n\n事業費 ※\n事業費※ 評価結果\n（H23予算額） （H24予算額） 最多意見\n\n10,493\n\n・妊婦教室の意向調査を実施し、妊婦教室参加率の\n向上を目指す。\n・医療機関で実施している妊婦教室の内容を把握し、\n市\n（要改善） 24年度の妊婦教室に反映する。\n18,827\n・予定日を過ぎた妊婦定期健診について、償還払い\nの方法で扶助する。\n・業者の選定やコストの見直しをする。\n(10,296)\n・配食の回数や対象者の拡充、医療機関との連携に\n市\nついて検討する。\n（現状）\n・他のサービスとの連携の構築について、検討会議を\n11,304\n開催して進める。\n・対象となる小学生までの家庭への認知度向上に取\n(80)\nり組むとともに、協力会員の増加を目的とした広報誌\n市\nへの掲載などPR活動を行う。\n（要改善） ・依頼会員へのアンケート調査を行い、社会的ニーズ\n1,424\nや個々のニーズを把握し事業の見直しをする。\n・民間主導の事業とするために、事務局（体育協会）\n(2,580)\n体制の見直し及びプロジェクト自体で利益を生むシス\n市\nテムの構築を図る。\n（要改善） ・ニーズに合った予約方法を検証していく。\n3,253\n\n(6,125)\n\n(6,631)\n\n(17,274)\n1\n\n妊婦健康推進事業\n\n健康増進課\n\n20,635\n(12,000)\n２\n\n「食」の自立支援事業\n\n長寿介護課\n\n13,008\n\n３\n\n４\n\n５\n\nファミリーサポートセン\nター事業\n\n(79)\nこども課\n\n1,423\n\n伊豆魅力（三力）プロジェ\n観光交流課\nクト補助金\n\n松原公園管理事業\n\n(3,100)\n\n土肥支所\n\n14,862\n\n人口定住化事業\n\n８\n\n９\n\n10\n\n11\n\n12\n\n13\n\n歩いてみたくなる散策\nルートの創造事業\n\n昭和の森会館管理事業\n\n商品券発行補助金交付\n事業\n\n(26,736)\n\n(25,789)\n\n(17,613)\n産業振興課\n\n0\n\n42,857\n\n・県施設の管理受託業務の制約がある中、外部環境\nの変化（ジオパーク制定の動き等）に対応した施設運\n市\n営の検討を進め、その中で売店等のあり方や職員配\n（要改善） 置について適正な管理を模索する。\n41,435\n\n(13,000)\n\n(9,500)\n\n13,336\n\n9,836\n\n(888)\n\n(1,920)\n\n産業振興課\n\n産業振興課\n\n伊豆市所蔵美術品管理・\n社会教育課\n公開事業\n\n図書館運営事業（蔵書充\n社会教育課\n実・図書貸出促進事業）\n\n学校図書館活用事業\n\n・今後の維持管理について、民間委託や指定管理も\n視野に入れ研究し、総合的に管理計画を整理する。\n民間\n市(要改善) ・市民、利用団体や観光関係機関からも意見聴取す\n15,368 市(現状) る。\n\n24,334\n\n地域づくり課\n\n2,840\n\n７\n\n(15,466)\n\n・体験施設は利用が少なく老朽化が目立つため廃止\nする。\n・空き家情報提供は行政が行い、これ以外の業務は\n市\n（要改善） 地元宅建業者が市との協定により行う。\n1,680\n・関連事業の若者定住化補助金については、引続き\n実施する方向で検討する。\n・山間部歩道については案内板の充足を図り、遭難\n(15,859)\n等の事故を未然に防止する等、安全な環境を作る。\n市\n・市街地内遊歩道については、他事業との連携により\n（要改善） 更なる魅力の創出に努める。\n22,580\n\n(1,160)\n６\n\n7,609\n\n・事業の必要性、事業効果の検証方法を検討する。\n・事業内容（特に景品の取扱い）について見直し、24\n市\n年度事業に反映する。\n（要改善）\n\n・所有する日本画の常設展示を企画するなど集客に\n向けた取組みを行う。\n市\n・２施設の展示物について、展示方法に配慮し統合で\n（要改善） きるものは統合に向け検討する。\n8,283\n\n(14,682)\n\n(14,716)\n\n36,132\n\n38,716\n\n(8,971)\n\n(8,244)\n\n8,971\n\n8,971\n\n(26,961)\n\n(28,063)\n\n28,977\n\n30,079\n\n学校教育課\n\n放課後児童クラブ運営事\n学校教育課\n業\n\n具体的改善策等\n\n・休館日の変更や開館時間の延長については、24年\n度に試行期間を設け、その結果を検証し、実施の有\n市\n無も含めて検討する。\n（要改善） ・４図書館の統廃合については、今後の利用者の動\n向に注視しながら検討していく。\n・学校図書館の蔵書についてバーコード化を実施し、\n利用状況のデータを確認及び活用できるようにする。\n市\n・児童・生徒の読書100選事業の推進等について、蔵\n（現状） 書や購入図書の協議の場を設け、市立図書館との調\n整を図っていく。\n・アンケート調査を実施し、住民ニーズを取り入れた\n運営を実施する。\n市\n・運営ソフト面は、クラブ毎のより良い支援策を共有\n（現状） し、委託先との情報交換を密にして改善指導してい\nく。\n\n※事業費の上段は、当該事業の予算として計上された実額で、下段はその事業を実施するための職員の人件費を加えた額です。\n\n- 18-\n\n\n",
+        "evaluationYear": 2011,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit FY2011 citizen-evaluation appendix in FY2012 initial-budget book. Budget columns are not actual expenditure; no cost or rating transferred."
+      },
+      {
+        "name": "伊豆市所蔵美術品管理・公開事業",
+        "start": 16408,
+        "raw": "伊豆市所蔵美術品管理・\n社会教育課\n公開事業",
+        "titleSegments": [
+          {
+            "start": 16408,
+            "raw": "伊豆市所蔵美術品管理・"
+          },
+          {
+            "start": 16426,
+            "raw": "公開事業"
+          }
+        ],
+        "blockStart": 15336,
+        "blockRaw": "２３年度市民による事業評価会 評価結果に係る具体的改善策及び２４年度事業反映状況\n（単位：千円）\n\n№\n\n事務事業名\n\n担当課室\n\n事業費 ※\n事業費※ 評価結果\n（H23予算額） （H24予算額） 最多意見\n\n10,493\n\n・妊婦教室の意向調査を実施し、妊婦教室参加率の\n向上を目指す。\n・医療機関で実施している妊婦教室の内容を把握し、\n市\n（要改善） 24年度の妊婦教室に反映する。\n18,827\n・予定日を過ぎた妊婦定期健診について、償還払い\nの方法で扶助する。\n・業者の選定やコストの見直しをする。\n(10,296)\n・配食の回数や対象者の拡充、医療機関との連携に\n市\nついて検討する。\n（現状）\n・他のサービスとの連携の構築について、検討会議を\n11,304\n開催して進める。\n・対象となる小学生までの家庭への認知度向上に取\n(80)\nり組むとともに、協力会員の増加を目的とした広報誌\n市\nへの掲載などPR活動を行う。\n（要改善） ・依頼会員へのアンケート調査を行い、社会的ニーズ\n1,424\nや個々のニーズを把握し事業の見直しをする。\n・民間主導の事業とするために、事務局（体育協会）\n(2,580)\n体制の見直し及びプロジェクト自体で利益を生むシス\n市\nテムの構築を図る。\n（要改善） ・ニーズに合った予約方法を検証していく。\n3,253\n\n(6,125)\n\n(6,631)\n\n(17,274)\n1\n\n妊婦健康推進事業\n\n健康増進課\n\n20,635\n(12,000)\n２\n\n「食」の自立支援事業\n\n長寿介護課\n\n13,008\n\n３\n\n４\n\n５\n\nファミリーサポートセン\nター事業\n\n(79)\nこども課\n\n1,423\n\n伊豆魅力（三力）プロジェ\n観光交流課\nクト補助金\n\n松原公園管理事業\n\n(3,100)\n\n土肥支所\n\n14,862\n\n人口定住化事業\n\n８\n\n９\n\n10\n\n11\n\n12\n\n13\n\n歩いてみたくなる散策\nルートの創造事業\n\n昭和の森会館管理事業\n\n商品券発行補助金交付\n事業\n\n(26,736)\n\n(25,789)\n\n(17,613)\n産業振興課\n\n0\n\n42,857\n\n・県施設の管理受託業務の制約がある中、外部環境\nの変化（ジオパーク制定の動き等）に対応した施設運\n市\n営の検討を進め、その中で売店等のあり方や職員配\n（要改善） 置について適正な管理を模索する。\n41,435\n\n(13,000)\n\n(9,500)\n\n13,336\n\n9,836\n\n(888)\n\n(1,920)\n\n産業振興課\n\n産業振興課\n\n伊豆市所蔵美術品管理・\n社会教育課\n公開事業\n\n図書館運営事業（蔵書充\n社会教育課\n実・図書貸出促進事業）\n\n学校図書館活用事業\n\n・今後の維持管理について、民間委託や指定管理も\n視野に入れ研究し、総合的に管理計画を整理する。\n民間\n市(要改善) ・市民、利用団体や観光関係機関からも意見聴取す\n15,368 市(現状) る。\n\n24,334\n\n地域づくり課\n\n2,840\n\n７\n\n(15,466)\n\n・体験施設は利用が少なく老朽化が目立つため廃止\nする。\n・空き家情報提供は行政が行い、これ以外の業務は\n市\n（要改善） 地元宅建業者が市との協定により行う。\n1,680\n・関連事業の若者定住化補助金については、引続き\n実施する方向で検討する。\n・山間部歩道については案内板の充足を図り、遭難\n(15,859)\n等の事故を未然に防止する等、安全な環境を作る。\n市\n・市街地内遊歩道については、他事業との連携により\n（要改善） 更なる魅力の創出に努める。\n22,580\n\n(1,160)\n６\n\n7,609\n\n・事業の必要性、事業効果の検証方法を検討する。\n・事業内容（特に景品の取扱い）について見直し、24\n市\n年度事業に反映する。\n（要改善）\n\n・所有する日本画の常設展示を企画するなど集客に\n向けた取組みを行う。\n市\n・２施設の展示物について、展示方法に配慮し統合で\n（要改善） きるものは統合に向け検討する。\n8,283\n\n(14,682)\n\n(14,716)\n\n36,132\n\n38,716\n\n(8,971)\n\n(8,244)\n\n8,971\n\n8,971\n\n(26,961)\n\n(28,063)\n\n28,977\n\n30,079\n\n学校教育課\n\n放課後児童クラブ運営事\n学校教育課\n業\n\n具体的改善策等\n\n・休館日の変更や開館時間の延長については、24年\n度に試行期間を設け、その結果を検証し、実施の有\n市\n無も含めて検討する。\n（要改善） ・４図書館の統廃合については、今後の利用者の動\n向に注視しながら検討していく。\n・学校図書館の蔵書についてバーコード化を実施し、\n利用状況のデータを確認及び活用できるようにする。\n市\n・児童・生徒の読書100選事業の推進等について、蔵\n（現状） 書や購入図書の協議の場を設け、市立図書館との調\n整を図っていく。\n・アンケート調査を実施し、住民ニーズを取り入れた\n運営を実施する。\n市\n・運営ソフト面は、クラブ毎のより良い支援策を共有\n（現状） し、委託先との情報交換を密にして改善指導してい\nく。\n\n※事業費の上段は、当該事業の予算として計上された実額で、下段はその事業を実施するための職員の人件費を加えた額です。\n\n- 18-\n\n\n",
+        "evaluationYear": 2011,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit FY2011 citizen-evaluation appendix in FY2012 initial-budget book. Budget columns are not actual expenditure; no cost or rating transferred."
+      },
+      {
+        "name": "図書館運営事業（蔵書充実・図書貸出促進事業）",
+        "start": 16432,
+        "raw": "図書館運営事業（蔵書充\n社会教育課\n実・図書貸出促進事業）",
+        "titleSegments": [
+          {
+            "start": 16432,
+            "raw": "図書館運営事業（蔵書充"
+          },
+          {
+            "start": 16450,
+            "raw": "実・図書貸出促進事業）"
+          }
+        ],
+        "blockStart": 15336,
+        "blockRaw": "２３年度市民による事業評価会 評価結果に係る具体的改善策及び２４年度事業反映状況\n（単位：千円）\n\n№\n\n事務事業名\n\n担当課室\n\n事業費 ※\n事業費※ 評価結果\n（H23予算額） （H24予算額） 最多意見\n\n10,493\n\n・妊婦教室の意向調査を実施し、妊婦教室参加率の\n向上を目指す。\n・医療機関で実施している妊婦教室の内容を把握し、\n市\n（要改善） 24年度の妊婦教室に反映する。\n18,827\n・予定日を過ぎた妊婦定期健診について、償還払い\nの方法で扶助する。\n・業者の選定やコストの見直しをする。\n(10,296)\n・配食の回数や対象者の拡充、医療機関との連携に\n市\nついて検討する。\n（現状）\n・他のサービスとの連携の構築について、検討会議を\n11,304\n開催して進める。\n・対象となる小学生までの家庭への認知度向上に取\n(80)\nり組むとともに、協力会員の増加を目的とした広報誌\n市\nへの掲載などPR活動を行う。\n（要改善） ・依頼会員へのアンケート調査を行い、社会的ニーズ\n1,424\nや個々のニーズを把握し事業の見直しをする。\n・民間主導の事業とするために、事務局（体育協会）\n(2,580)\n体制の見直し及びプロジェクト自体で利益を生むシス\n市\nテムの構築を図る。\n（要改善） ・ニーズに合った予約方法を検証していく。\n3,253\n\n(6,125)\n\n(6,631)\n\n(17,274)\n1\n\n妊婦健康推進事業\n\n健康増進課\n\n20,635\n(12,000)\n２\n\n「食」の自立支援事業\n\n長寿介護課\n\n13,008\n\n３\n\n４\n\n５\n\nファミリーサポートセン\nター事業\n\n(79)\nこども課\n\n1,423\n\n伊豆魅力（三力）プロジェ\n観光交流課\nクト補助金\n\n松原公園管理事業\n\n(3,100)\n\n土肥支所\n\n14,862\n\n人口定住化事業\n\n８\n\n９\n\n10\n\n11\n\n12\n\n13\n\n歩いてみたくなる散策\nルートの創造事業\n\n昭和の森会館管理事業\n\n商品券発行補助金交付\n事業\n\n(26,736)\n\n(25,789)\n\n(17,613)\n産業振興課\n\n0\n\n42,857\n\n・県施設の管理受託業務の制約がある中、外部環境\nの変化（ジオパーク制定の動き等）に対応した施設運\n市\n営の検討を進め、その中で売店等のあり方や職員配\n（要改善） 置について適正な管理を模索する。\n41,435\n\n(13,000)\n\n(9,500)\n\n13,336\n\n9,836\n\n(888)\n\n(1,920)\n\n産業振興課\n\n産業振興課\n\n伊豆市所蔵美術品管理・\n社会教育課\n公開事業\n\n図書館運営事業（蔵書充\n社会教育課\n実・図書貸出促進事業）\n\n学校図書館活用事業\n\n・今後の維持管理について、民間委託や指定管理も\n視野に入れ研究し、総合的に管理計画を整理する。\n民間\n市(要改善) ・市民、利用団体や観光関係機関からも意見聴取す\n15,368 市(現状) る。\n\n24,334\n\n地域づくり課\n\n2,840\n\n７\n\n(15,466)\n\n・体験施設は利用が少なく老朽化が目立つため廃止\nする。\n・空き家情報提供は行政が行い、これ以外の業務は\n市\n（要改善） 地元宅建業者が市との協定により行う。\n1,680\n・関連事業の若者定住化補助金については、引続き\n実施する方向で検討する。\n・山間部歩道については案内板の充足を図り、遭難\n(15,859)\n等の事故を未然に防止する等、安全な環境を作る。\n市\n・市街地内遊歩道については、他事業との連携により\n（要改善） 更なる魅力の創出に努める。\n22,580\n\n(1,160)\n６\n\n7,609\n\n・事業の必要性、事業効果の検証方法を検討する。\n・事業内容（特に景品の取扱い）について見直し、24\n市\n年度事業に反映する。\n（要改善）\n\n・所有する日本画の常設展示を企画するなど集客に\n向けた取組みを行う。\n市\n・２施設の展示物について、展示方法に配慮し統合で\n（要改善） きるものは統合に向け検討する。\n8,283\n\n(14,682)\n\n(14,716)\n\n36,132\n\n38,716\n\n(8,971)\n\n(8,244)\n\n8,971\n\n8,971\n\n(26,961)\n\n(28,063)\n\n28,977\n\n30,079\n\n学校教育課\n\n放課後児童クラブ運営事\n学校教育課\n業\n\n具体的改善策等\n\n・休館日の変更や開館時間の延長については、24年\n度に試行期間を設け、その結果を検証し、実施の有\n市\n無も含めて検討する。\n（要改善） ・４図書館の統廃合については、今後の利用者の動\n向に注視しながら検討していく。\n・学校図書館の蔵書についてバーコード化を実施し、\n利用状況のデータを確認及び活用できるようにする。\n市\n・児童・生徒の読書100選事業の推進等について、蔵\n（現状） 書や購入図書の協議の場を設け、市立図書館との調\n整を図っていく。\n・アンケート調査を実施し、住民ニーズを取り入れた\n運営を実施する。\n市\n・運営ソフト面は、クラブ毎のより良い支援策を共有\n（現状） し、委託先との情報交換を密にして改善指導してい\nく。\n\n※事業費の上段は、当該事業の予算として計上された実額で、下段はその事業を実施するための職員の人件費を加えた額です。\n\n- 18-\n\n\n",
+        "evaluationYear": 2011,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit FY2011 citizen-evaluation appendix in FY2012 initial-budget book. Budget columns are not actual expenditure; no cost or rating transferred."
+      },
+      {
+        "name": "学校図書館活用事業",
+        "start": 16463,
+        "raw": "学校図書館活用事業",
+        "titleSegments": [
+          {
+            "start": 16463,
+            "raw": "学校図書館活用事業"
+          }
+        ],
+        "blockStart": 15336,
+        "blockRaw": "２３年度市民による事業評価会 評価結果に係る具体的改善策及び２４年度事業反映状況\n（単位：千円）\n\n№\n\n事務事業名\n\n担当課室\n\n事業費 ※\n事業費※ 評価結果\n（H23予算額） （H24予算額） 最多意見\n\n10,493\n\n・妊婦教室の意向調査を実施し、妊婦教室参加率の\n向上を目指す。\n・医療機関で実施している妊婦教室の内容を把握し、\n市\n（要改善） 24年度の妊婦教室に反映する。\n18,827\n・予定日を過ぎた妊婦定期健診について、償還払い\nの方法で扶助する。\n・業者の選定やコストの見直しをする。\n(10,296)\n・配食の回数や対象者の拡充、医療機関との連携に\n市\nついて検討する。\n（現状）\n・他のサービスとの連携の構築について、検討会議を\n11,304\n開催して進める。\n・対象となる小学生までの家庭への認知度向上に取\n(80)\nり組むとともに、協力会員の増加を目的とした広報誌\n市\nへの掲載などPR活動を行う。\n（要改善） ・依頼会員へのアンケート調査を行い、社会的ニーズ\n1,424\nや個々のニーズを把握し事業の見直しをする。\n・民間主導の事業とするために、事務局（体育協会）\n(2,580)\n体制の見直し及びプロジェクト自体で利益を生むシス\n市\nテムの構築を図る。\n（要改善） ・ニーズに合った予約方法を検証していく。\n3,253\n\n(6,125)\n\n(6,631)\n\n(17,274)\n1\n\n妊婦健康推進事業\n\n健康増進課\n\n20,635\n(12,000)\n２\n\n「食」の自立支援事業\n\n長寿介護課\n\n13,008\n\n３\n\n４\n\n５\n\nファミリーサポートセン\nター事業\n\n(79)\nこども課\n\n1,423\n\n伊豆魅力（三力）プロジェ\n観光交流課\nクト補助金\n\n松原公園管理事業\n\n(3,100)\n\n土肥支所\n\n14,862\n\n人口定住化事業\n\n８\n\n９\n\n10\n\n11\n\n12\n\n13\n\n歩いてみたくなる散策\nルートの創造事業\n\n昭和の森会館管理事業\n\n商品券発行補助金交付\n事業\n\n(26,736)\n\n(25,789)\n\n(17,613)\n産業振興課\n\n0\n\n42,857\n\n・県施設の管理受託業務の制約がある中、外部環境\nの変化（ジオパーク制定の動き等）に対応した施設運\n市\n営の検討を進め、その中で売店等のあり方や職員配\n（要改善） 置について適正な管理を模索する。\n41,435\n\n(13,000)\n\n(9,500)\n\n13,336\n\n9,836\n\n(888)\n\n(1,920)\n\n産業振興課\n\n産業振興課\n\n伊豆市所蔵美術品管理・\n社会教育課\n公開事業\n\n図書館運営事業（蔵書充\n社会教育課\n実・図書貸出促進事業）\n\n学校図書館活用事業\n\n・今後の維持管理について、民間委託や指定管理も\n視野に入れ研究し、総合的に管理計画を整理する。\n民間\n市(要改善) ・市民、利用団体や観光関係機関からも意見聴取す\n15,368 市(現状) る。\n\n24,334\n\n地域づくり課\n\n2,840\n\n７\n\n(15,466)\n\n・体験施設は利用が少なく老朽化が目立つため廃止\nする。\n・空き家情報提供は行政が行い、これ以外の業務は\n市\n（要改善） 地元宅建業者が市との協定により行う。\n1,680\n・関連事業の若者定住化補助金については、引続き\n実施する方向で検討する。\n・山間部歩道については案内板の充足を図り、遭難\n(15,859)\n等の事故を未然に防止する等、安全な環境を作る。\n市\n・市街地内遊歩道については、他事業との連携により\n（要改善） 更なる魅力の創出に努める。\n22,580\n\n(1,160)\n６\n\n7,609\n\n・事業の必要性、事業効果の検証方法を検討する。\n・事業内容（特に景品の取扱い）について見直し、24\n市\n年度事業に反映する。\n（要改善）\n\n・所有する日本画の常設展示を企画するなど集客に\n向けた取組みを行う。\n市\n・２施設の展示物について、展示方法に配慮し統合で\n（要改善） きるものは統合に向け検討する。\n8,283\n\n(14,682)\n\n(14,716)\n\n36,132\n\n38,716\n\n(8,971)\n\n(8,244)\n\n8,971\n\n8,971\n\n(26,961)\n\n(28,063)\n\n28,977\n\n30,079\n\n学校教育課\n\n放課後児童クラブ運営事\n学校教育課\n業\n\n具体的改善策等\n\n・休館日の変更や開館時間の延長については、24年\n度に試行期間を設け、その結果を検証し、実施の有\n市\n無も含めて検討する。\n（要改善） ・４図書館の統廃合については、今後の利用者の動\n向に注視しながら検討していく。\n・学校図書館の蔵書についてバーコード化を実施し、\n利用状況のデータを確認及び活用できるようにする。\n市\n・児童・生徒の読書100選事業の推進等について、蔵\n（現状） 書や購入図書の協議の場を設け、市立図書館との調\n整を図っていく。\n・アンケート調査を実施し、住民ニーズを取り入れた\n運営を実施する。\n市\n・運営ソフト面は、クラブ毎のより良い支援策を共有\n（現状） し、委託先との情報交換を密にして改善指導してい\nく。\n\n※事業費の上段は、当該事業の予算として計上された実額で、下段はその事業を実施するための職員の人件費を加えた額です。\n\n- 18-\n\n\n",
+        "evaluationYear": 2011,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit FY2011 citizen-evaluation appendix in FY2012 initial-budget book. Budget columns are not actual expenditure; no cost or rating transferred."
+      },
+      {
+        "name": "放課後児童クラブ運営事業",
+        "start": 17133,
+        "raw": "放課後児童クラブ運営事\n学校教育課\n業",
+        "titleSegments": [
+          {
+            "start": 17133,
+            "raw": "放課後児童クラブ運営事"
+          },
+          {
+            "start": 17151,
+            "raw": "業"
+          }
+        ],
+        "blockStart": 15336,
+        "blockRaw": "２３年度市民による事業評価会 評価結果に係る具体的改善策及び２４年度事業反映状況\n（単位：千円）\n\n№\n\n事務事業名\n\n担当課室\n\n事業費 ※\n事業費※ 評価結果\n（H23予算額） （H24予算額） 最多意見\n\n10,493\n\n・妊婦教室の意向調査を実施し、妊婦教室参加率の\n向上を目指す。\n・医療機関で実施している妊婦教室の内容を把握し、\n市\n（要改善） 24年度の妊婦教室に反映する。\n18,827\n・予定日を過ぎた妊婦定期健診について、償還払い\nの方法で扶助する。\n・業者の選定やコストの見直しをする。\n(10,296)\n・配食の回数や対象者の拡充、医療機関との連携に\n市\nついて検討する。\n（現状）\n・他のサービスとの連携の構築について、検討会議を\n11,304\n開催して進める。\n・対象となる小学生までの家庭への認知度向上に取\n(80)\nり組むとともに、協力会員の増加を目的とした広報誌\n市\nへの掲載などPR活動を行う。\n（要改善） ・依頼会員へのアンケート調査を行い、社会的ニーズ\n1,424\nや個々のニーズを把握し事業の見直しをする。\n・民間主導の事業とするために、事務局（体育協会）\n(2,580)\n体制の見直し及びプロジェクト自体で利益を生むシス\n市\nテムの構築を図る。\n（要改善） ・ニーズに合った予約方法を検証していく。\n3,253\n\n(6,125)\n\n(6,631)\n\n(17,274)\n1\n\n妊婦健康推進事業\n\n健康増進課\n\n20,635\n(12,000)\n２\n\n「食」の自立支援事業\n\n長寿介護課\n\n13,008\n\n３\n\n４\n\n５\n\nファミリーサポートセン\nター事業\n\n(79)\nこども課\n\n1,423\n\n伊豆魅力（三力）プロジェ\n観光交流課\nクト補助金\n\n松原公園管理事業\n\n(3,100)\n\n土肥支所\n\n14,862\n\n人口定住化事業\n\n８\n\n９\n\n10\n\n11\n\n12\n\n13\n\n歩いてみたくなる散策\nルートの創造事業\n\n昭和の森会館管理事業\n\n商品券発行補助金交付\n事業\n\n(26,736)\n\n(25,789)\n\n(17,613)\n産業振興課\n\n0\n\n42,857\n\n・県施設の管理受託業務の制約がある中、外部環境\nの変化（ジオパーク制定の動き等）に対応した施設運\n市\n営の検討を進め、その中で売店等のあり方や職員配\n（要改善） 置について適正な管理を模索する。\n41,435\n\n(13,000)\n\n(9,500)\n\n13,336\n\n9,836\n\n(888)\n\n(1,920)\n\n産業振興課\n\n産業振興課\n\n伊豆市所蔵美術品管理・\n社会教育課\n公開事業\n\n図書館運営事業（蔵書充\n社会教育課\n実・図書貸出促進事業）\n\n学校図書館活用事業\n\n・今後の維持管理について、民間委託や指定管理も\n視野に入れ研究し、総合的に管理計画を整理する。\n民間\n市(要改善) ・市民、利用団体や観光関係機関からも意見聴取す\n15,368 市(現状) る。\n\n24,334\n\n地域づくり課\n\n2,840\n\n７\n\n(15,466)\n\n・体験施設は利用が少なく老朽化が目立つため廃止\nする。\n・空き家情報提供は行政が行い、これ以外の業務は\n市\n（要改善） 地元宅建業者が市との協定により行う。\n1,680\n・関連事業の若者定住化補助金については、引続き\n実施する方向で検討する。\n・山間部歩道については案内板の充足を図り、遭難\n(15,859)\n等の事故を未然に防止する等、安全な環境を作る。\n市\n・市街地内遊歩道については、他事業との連携により\n（要改善） 更なる魅力の創出に努める。\n22,580\n\n(1,160)\n６\n\n7,609\n\n・事業の必要性、事業効果の検証方法を検討する。\n・事業内容（特に景品の取扱い）について見直し、24\n市\n年度事業に反映する。\n（要改善）\n\n・所有する日本画の常設展示を企画するなど集客に\n向けた取組みを行う。\n市\n・２施設の展示物について、展示方法に配慮し統合で\n（要改善） きるものは統合に向け検討する。\n8,283\n\n(14,682)\n\n(14,716)\n\n36,132\n\n38,716\n\n(8,971)\n\n(8,244)\n\n8,971\n\n8,971\n\n(26,961)\n\n(28,063)\n\n28,977\n\n30,079\n\n学校教育課\n\n放課後児童クラブ運営事\n学校教育課\n業\n\n具体的改善策等\n\n・休館日の変更や開館時間の延長については、24年\n度に試行期間を設け、その結果を検証し、実施の有\n市\n無も含めて検討する。\n（要改善） ・４図書館の統廃合については、今後の利用者の動\n向に注視しながら検討していく。\n・学校図書館の蔵書についてバーコード化を実施し、\n利用状況のデータを確認及び活用できるようにする。\n市\n・児童・生徒の読書100選事業の推進等について、蔵\n（現状） 書や購入図書の協議の場を設け、市立図書館との調\n整を図っていく。\n・アンケート調査を実施し、住民ニーズを取り入れた\n運営を実施する。\n市\n・運営ソフト面は、クラブ毎のより良い支援策を共有\n（現状） し、委託先との情報交換を密にして改善指導してい\nく。\n\n※事業費の上段は、当該事業の予算として計上された実額で、下段はその事業を実施するための職員の人件費を加えた額です。\n\n- 18-\n\n\n",
+        "evaluationYear": 2011,
+        "evaluatedFiscalYear": null,
+        "note": "Explicit FY2011 citizen-evaluation appendix in FY2012 initial-budget book. Budget columns are not actual expenditure; no cost or rating transferred."
+      }
+    ],
+    "holds": []
   }
 ];

@@ -1,11 +1,62 @@
 {
   "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
-  "municipalities": [
-    "22461",
-    "22429"
+  "rows": [
+    {
+      "code": "22211",
+      "candidates": 98,
+      "existingMasterRecords": 0,
+      "matchingMasterIds": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "code": "22222",
+      "candidates": 13,
+      "existingMasterRecords": 0,
+      "matchingMasterIds": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "code": "22223",
+      "candidates": 180,
+      "existingMasterRecords": 0,
+      "matchingMasterIds": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "code": "22305",
+      "candidates": 24,
+      "existingMasterRecords": 0,
+      "matchingMasterIds": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "code": "22342",
+      "candidates": 51,
+      "existingMasterRecords": 0,
+      "matchingMasterIds": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "code": "22429",
+      "candidates": 22,
+      "existingMasterRecords": 0,
+      "matchingMasterIds": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "code": "22461",
+      "candidates": 1592,
+      "existingMasterRecords": 0,
+      "matchingMasterIds": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    }
   ],
-  "sourceDecisions": [],
-  "moriProjectDecisions": [],
-  "noOverridingExistingDecisions": true,
-  "note": "Current master has no structured records for these two municipalities; unpublished user-local changes unobservable."
+  "note": "Read-only ID, exact name/year and evidence hash comparison. All existing master decisions retained. Unpublished user changes unknown."
 }

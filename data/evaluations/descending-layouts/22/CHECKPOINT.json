@@ -1,23 +1,28 @@
 {
-  "candidateRecords": 1614,
+  "candidateRecords": 1980,
   "perMunicipality": {
     "森町": 1592,
-    "川根本町": 22
+    "川根本町": 22,
+    "長泉町": 51,
+    "松崎町": 24,
+    "御前崎市": 180,
+    "伊豆市": 13,
+    "磐田市": 98
   },
-  "validatedCumulativeCandidates": 26940,
-  "validatedEvidence": 76112,
+  "validatedCumulativeCandidates": 27306,
+  "validatedEvidence": 77567,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "e447093b20ca01f7e5c2deebb4831889081137d3",
+  "previousHead": "96ada98657d17fd36d32da53fee61083a7df2f95",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "8/8",
-    "crawler": "711/711",
+    "focused": "16/16",
+    "crawler": "719/719",
     "web": "256/256",
     "typecheck": "passed",
     "lint": "passed; existing font warning",
@@ -25,5 +30,6 @@
     "static": "109/109 subpath"
   },
   "remoteCI": "unverified; known API403 not retried",
-  "remaining": "Shizuoka review ongoing: 92 sources, 90 verified cached bodies, 2 missing. Driver unsupported_layout is pending review, not a terminal evidence/access blocker. Additional proposals remain outside this checkpoint. Archive includes master-adopted/excluded records; not all new production data."
+  "remaining": "Shizuoka92-source inventory accounted for; further104 proposals remain isolated outside this commit and need full validation. Missing-body and source-specific identity/year holds preserved. Candidate archive is not all new production data.",
+  "additionalCandidates": 366
 }
