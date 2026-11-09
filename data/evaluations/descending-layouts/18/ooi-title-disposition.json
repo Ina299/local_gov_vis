@@ -1,0 +1,199 @@
+{
+  "stageOnly": true,
+  "rows": 277,
+  "repeatedNames": [
+    {
+      "name": "起業促進支援事業",
+      "segments": [
+        {
+          "raw": "起業促進支援事業",
+          "start": 14478
+        }
+      ]
+    },
+    {
+      "name": "ホームページ運営事業",
+      "segments": [
+        {
+          "raw": "ホームページ運営事業",
+          "start": 31233
+        }
+      ]
+    }
+  ],
+  "financialIdentityHolds": [
+    {
+      "name": "産業育成基金積立事業",
+      "segments": [
+        {
+          "raw": "産業育成基金積立事業",
+          "start": 12494
+        }
+      ]
+    },
+    {
+      "name": "基金積立事業",
+      "segments": [
+        {
+          "raw": "基金積立事業",
+          "start": 17952
+        }
+      ]
+    },
+    {
+      "name": "償還事業",
+      "segments": [
+        {
+          "raw": "償還事業",
+          "start": 17960
+        }
+      ]
+    },
+    {
+      "name": "国民健康保険事業特別会計繰出事業",
+      "segments": [
+        {
+          "raw": "国民健康保険事業特別会計繰出事業",
+          "start": 18023
+        }
+      ]
+    },
+    {
+      "name": "保健・医療・福祉総合施設医療設備等整備基金積立事業",
+      "segments": [
+        {
+          "raw": "保健・医療・福祉総合施設医療設備等整備基金積立事業",
+          "start": 18084
+        }
+      ]
+    },
+    {
+      "name": "国民健康保険診療事業特別会計繰出事業",
+      "segments": [
+        {
+          "raw": "国民健康保険診療事業特別会計繰出事業",
+          "start": 18117
+        }
+      ]
+    },
+    {
+      "name": "一般被保険者医療給付費分納付金事業",
+      "segments": [
+        {
+          "raw": "一般被保険者医療給付費分納付金事業",
+          "start": 18585
+        }
+      ]
+    },
+    {
+      "name": "退職被保険者医療給付費分納付金事業",
+      "segments": [
+        {
+          "raw": "退職被保険者医療給付費分納付金事業",
+          "start": 18604
+        }
+      ]
+    },
+    {
+      "name": "一般被保険者後期高齢者支援金等分納付金事業",
+      "segments": [
+        {
+          "raw": "一般被保険者後期高齢者支援金等分納付金事業",
+          "start": 18623
+        }
+      ]
+    },
+    {
+      "name": "退職被保険者後期高齢者支援金等分納付金事業",
+      "segments": [
+        {
+          "raw": "退職被保険者後期高齢者支援金等分納付金事業",
+          "start": 18646
+        }
+      ]
+    },
+    {
+      "name": "介護納付金分納付金事業",
+      "segments": [
+        {
+          "raw": "介護納付金分納付金事業",
+          "start": 18669
+        }
+      ]
+    },
+    {
+      "name": "うみんぴあ大飯事業化基金積立事業",
+      "segments": [
+        {
+          "raw": "うみんぴあ大飯事業化基金積",
+          "start": 14394
+        },
+        {
+          "raw": "立事業",
+          "start": 14408
+        }
+      ]
+    },
+    {
+      "name": "後期高齢者医療事業特別会計繰出事業",
+      "segments": [
+        {
+          "raw": "後期高齢者医療事業特別会計",
+          "start": 22660
+        },
+        {
+          "raw": "繰出事業",
+          "start": 22674
+        }
+      ]
+    },
+    {
+      "name": "保健事業費国庫補助金等精算事務",
+      "segments": [
+        {
+          "raw": "保健事業費国庫補助金等精算事務",
+          "start": 17966
+        }
+      ]
+    },
+    {
+      "name": "保険料還付事務",
+      "segments": [
+        {
+          "raw": "保険料還付事務",
+          "start": 18167
+        }
+      ]
+    },
+    {
+      "name": "共同事業事務費拠出金",
+      "segments": [
+        {
+          "raw": "共同事業事務費拠出金",
+          "start": 18682
+        }
+      ]
+    },
+    {
+      "name": "国民健康保険基金積立事務",
+      "segments": [
+        {
+          "raw": "国民健康保険基金積立事務",
+          "start": 18702
+        }
+      ]
+    },
+    {
+      "name": "国保直営診療施設勘定繰出事務",
+      "segments": [
+        {
+          "raw": "国保直営診療施設勘定繰出事務",
+          "start": 18716
+        }
+      ]
+    }
+  ],
+  "holdReason": "Reserve/debt/interaccount contributions and settlement entries are named in related-business column but not independently assessed. Need distinct project/account mapping to avoid counting financial movements as additional delivery programmes; no amounts inferred.",
+  "scope": "Explicit related-business column names only. No policy grades, KPI/amount allocation, positive activity claim, or distinct record per participant/installation. Cancelled events remain named programme catalogue entries, not claimed implemented.",
+  "futureWork": "2017 source and remaining facility/policy sources still require review"
+}

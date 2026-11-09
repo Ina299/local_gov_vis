@@ -1,0 +1,31 @@
+{
+  "candidateRecords": 306,
+  "perMunicipality": {
+    "おおい町": 294,
+    "敦賀市": 4,
+    "福井市": 8
+  },
+  "validatedCumulativeCandidates": 30216,
+  "validatedEvidence": 87693,
+  "separateSets": {
+    "Okinawa": 1084,
+    "initial": 93
+  },
+  "previousHead": "6d963dbe143f1ffdb35605299af33fb6aa9e6c0f",
+  "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0,
+  "checks": {
+    "focused": "12/12",
+    "crawler": "898/898",
+    "web": "256/256;serial",
+    "typecheck": "passed",
+    "lint": "passed;existingfontwarning",
+    "national": "passed branch baseline",
+    "static": "109/109 subpath",
+    "quotes": "30216 candidates /87693 quotes"
+  },
+  "remoteCI": "unverified;known ActionsAPI403 not retried",
+  "remaining": "4missingbodies;18financial-account titles held;3unfillednationalcriteria and1urbanplan excluded. Namedprogramme coverage does not assert full field extraction. Ishikawa122proposals separately staged;not nationwidecompletion."
+}

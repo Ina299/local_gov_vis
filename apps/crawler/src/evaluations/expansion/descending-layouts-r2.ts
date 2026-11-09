@@ -1,3 +1,7 @@
+import{reviewFukuiEducation}from'./descending-fukui-education';
+import{reviewTsuruga}from'./descending-fukui-tsuruga';
+import{reviewOoi2017}from'./descending-fukui-ooi-2017';
+import{reviewOoi}from'./descending-fukui-ooi';
 import{reviewYamanashiPolicy}from'./descending-yamanashi-policy';
 import{reviewYamanashiInitial}from'./descending-yamanashi-initial';
 import{reviewNagisoRoads}from'./descending-nagano-roads';
@@ -138,6 +142,10 @@ export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]
  const suwaTourismReview=reviewSuwaTourism(input);if(suwaTourismReview)return suwaTourismReview;
  const yamanashiinitialReview=reviewYamanashiInitial(input);if(yamanashiinitialReview)return yamanashiinitialReview;
  const yamanashipolicyReview=reviewYamanashiPolicy(input);if(yamanashipolicyReview)return yamanashipolicyReview;
+ const fukuiooiReview=reviewOoi(input);if(fukuiooiReview)return fukuiooiReview;
+ const fukuiooi_2017Review=reviewOoi2017(input);if(fukuiooi_2017Review)return fukuiooi_2017Review;
+ const fukuitsurugaReview=reviewTsuruga(input);if(fukuitsurugaReview)return fukuitsurugaReview;
+ const fukuieducationReview=reviewFukuiEducation(input);if(fukuieducationReview)return fukuieducationReview;
  const grantsReview=reviewNaganoGrants(input);if(grantsReview)return grantsReview;
  const strategyReview=reviewStrategy(input);if(strategyReview)return strategyReview;
  const nagisoReview=reviewNagiso(input);if(nagisoReview)return nagisoReview;
