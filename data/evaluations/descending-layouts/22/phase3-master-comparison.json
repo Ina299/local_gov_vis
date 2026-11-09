@@ -1,0 +1,27 @@
+{
+  "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "rows": [
+    {
+      "code": "22208",
+      "stageCandidates": 24,
+      "existingMasterRecords": 0,
+      "matches": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "code": "22207",
+      "stageCandidates": 33,
+      "existingMasterRecords": 0,
+      "matches": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    }
+  ],
+  "productionChanged": false,
+  "stageOnly": false,
+  "acceptedAdditions": 57,
+  "heldAtamiNames": 47,
+  "heldAtamiReprints": 2,
+  "previousCandidatesPreserved": 1980
+}

@@ -1,5 +1,5 @@
 {
-  "candidateRecords": 1980,
+  "candidateRecords": 2037,
   "perMunicipality": {
     "森町": 1592,
     "川根本町": 22,
@@ -7,29 +7,31 @@
     "松崎町": 24,
     "御前崎市": 180,
     "伊豆市": 13,
-    "磐田市": 98
+    "磐田市": 98,
+    "伊東市": 24,
+    "富士宮市": 33
   },
-  "validatedCumulativeCandidates": 27306,
-  "validatedEvidence": 77567,
+  "validatedCumulativeCandidates": 27363,
+  "validatedEvidence": 77812,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "96ada98657d17fd36d32da53fee61083a7df2f95",
+  "previousHead": "8b978617bd9c49ffc7f03deca266701e89cff5fd",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "16/16",
-    "crawler": "719/719",
-    "web": "256/256",
+    "focused": "20/20",
+    "crawler": "723/723",
+    "web": "256/256; initial run255passed/1timeout at glossary5000ms, same assertions passed with maxWorkers=1",
     "typecheck": "passed",
     "lint": "passed; existing font warning",
     "national": "passed branch baseline",
     "static": "109/109 subpath"
   },
   "remoteCI": "unverified; known API403 not retried",
-  "remaining": "Shizuoka92-source inventory accounted for; further104 proposals remain isolated outside this commit and need full validation. Missing-body and source-specific identity/year holds preserved. Candidate archive is not all new production data.",
-  "additionalCandidates": 366
+  "remaining": "Shizuoka92-source inventory accounted for. Atami47 complete names and2reprints held:reference date is not evaluation execution year or unambiguous annual target.2missing bodies and source-specific identity/period holds remain. Gifu work is separate unvalidated stage, not included. Nationwide collection remains open.",
+  "additionalCandidates": 57
 }
