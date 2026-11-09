@@ -1,0 +1,176 @@
+{
+  "prefecture": "19",
+  "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-09T21:14:17.504508+00:00",
+  "unpublishedUserChanges": "not observable;collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "19443",
+      "municipalityName": "丹波山村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "34df866f27385dfc7d041a025f8ab0b264015383333f92df8f4f8e2dcfeff2f8"
+    },
+    {
+      "municipalityCode": "19442",
+      "municipalityName": "小菅村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "17cb85b0a6e26878d0e853ff465bce683af52fb542bccd7b63460965a0edbd57"
+    },
+    {
+      "municipalityCode": "19430",
+      "municipalityName": "富士河口湖町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "cdc82f82af098c175f711eb2c1cfc380b2a0e5a378dfb3ff8a67e29e7001926c"
+    },
+    {
+      "municipalityCode": "19429",
+      "municipalityName": "鳴沢村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "72f7c73f3adbd69ddbbfc358d8e71965253423bbba2cb38f71637fabb5695090"
+    },
+    {
+      "municipalityCode": "19425",
+      "municipalityName": "山中湖村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6ec1a0946d7ddd434d52e7fad31fc3918f4095e507b11941304af53c264db7b6"
+    },
+    {
+      "municipalityCode": "19424",
+      "municipalityName": "忍野村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "912ea2cc0c45bd7b0aabbfc3b799fb0cceb52290e01c1c34ac4be5fd09c9817e"
+    },
+    {
+      "municipalityCode": "19423",
+      "municipalityName": "西桂町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "1b3f50f5ab0bdc6f8a848c4535e657c89f6a0294d1d02d035dd9655633461894"
+    },
+    {
+      "municipalityCode": "19422",
+      "municipalityName": "道志村",
+      "datasetSha256": null,
+      "evidenceShardSha256": "042b4840d1bda596d9e18a43e2a4b635a77f40c55dbbf869c2372389bcfe356f"
+    },
+    {
+      "municipalityCode": "19384",
+      "municipalityName": "昭和町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "284576854320ddf8722646d49c6871bb4e6a2f893f938cd45fe8ee1078ccd6e8"
+    },
+    {
+      "municipalityCode": "19368",
+      "municipalityName": "富士川町",
+      "datasetSha256": "c6ce65d32990ba48603d30eb0889ca8a33507c45f088b48a859750e3e0dd143e",
+      "evidenceShardSha256": "e7b233c26adaa63c1c888a6b50419623ce2a0c3dad26fb322c1d64ff4d0d8754"
+    },
+    {
+      "municipalityCode": "19366",
+      "municipalityName": "南部町",
+      "datasetSha256": "dd066fdfe41c971a708c066655d2d530e471a67b2ae183d986ca31798f90b7da",
+      "evidenceShardSha256": "4c2710277a688e9b76afed1b3f567e8d37cd4b583a3fbcfe90773577d5e5d78f"
+    },
+    {
+      "municipalityCode": "19365",
+      "municipalityName": "身延町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "364c64a824ab474e7da8bf87f6c91843eab63accef81535c5e45954c081dcf06"
+    },
+    {
+      "municipalityCode": "19364",
+      "municipalityName": "早川町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "5465002e5ca73d560a19c767795f25b05184a00e6aae2e2f7651c7e97bb0d930"
+    },
+    {
+      "municipalityCode": "19346",
+      "municipalityName": "市川三郷町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3f0091275d0a5f21b8cad82c6a7d188072d835bc4ecfb751cb7ae7e1d50002c3"
+    },
+    {
+      "municipalityCode": "19214",
+      "municipalityName": "中央市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f2c450d2dbeeeed373e10fa4199be33dc9d11b4e28ce45a8267c17dc39ead377"
+    },
+    {
+      "municipalityCode": "19213",
+      "municipalityName": "甲州市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "93c5b142b800c3338250e6cfa99f76987b6ae6f93f4498ec4736e57715fd1b46"
+    },
+    {
+      "municipalityCode": "19212",
+      "municipalityName": "上野原市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "7589853853b36487b1c2bdb6d7a7bf54ede55fa6e0229a3dd630dac9a9b4eb14"
+    },
+    {
+      "municipalityCode": "19211",
+      "municipalityName": "笛吹市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "86c04cc88db1d297d1b1745b142382c6079aee9aeccfa665db952b2f67d8eb6b"
+    },
+    {
+      "municipalityCode": "19210",
+      "municipalityName": "甲斐市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "aab539614cf079cccf63b776fad54c17b961b25883b7cbbd5ad933e2c16cd1fc"
+    },
+    {
+      "municipalityCode": "19209",
+      "municipalityName": "北杜市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "65fc781b3602d078fdd456bbe9d85d7b133f00cf0262772597593a9f96d27fbb"
+    },
+    {
+      "municipalityCode": "19208",
+      "municipalityName": "南アルプス市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "31fddef609fe0a8f8ae745a842bc1ef7bd06b7db45bb27ba346a2788b9ff3d57"
+    },
+    {
+      "municipalityCode": "19206",
+      "municipalityName": "大月市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "447377d4b8d1dcdd995932b298dbe6767b85f2e672b59ee9d523d3dedd6f3bd3"
+    },
+    {
+      "municipalityCode": "19204",
+      "municipalityName": "都留市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6aae37a9c157124375eaffcb97e249352e0e22e52459e84279bf0144bdcf4f72"
+    },
+    {
+      "municipalityCode": "19202",
+      "municipalityName": "富士吉田市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a1902597a98437795c3dfcf86aaf4f0d7a7aae00f0caeda93e64456fcefa3872"
+    },
+    {
+      "municipalityCode": "19201",
+      "municipalityName": "甲府市",
+      "datasetSha256": "a0520000dd10145d85776b2ce3479f5068b826cbfb9285302899e4b9cfac7aaa",
+      "evidenceShardSha256": "7ab5ee342b4b1ad62c2791a147dcc4fd4633eb4b7b0af028619d4f95904da23b"
+    }
+  ],
+  "skipped": [
+    {
+      "municipalityCode": "19207",
+      "municipalityName": "韮崎市",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "19205",
+      "municipalityName": "山梨市",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    }
+  ],
+  "rule": "Only exact unchanged dataset/evidence hashes; retain original exclusions; never update baseline hashes to silence mismatch."
+}

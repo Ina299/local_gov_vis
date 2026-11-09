@@ -1,0 +1,36 @@
+{
+  "candidateRecords": 74,
+  "perMunicipality": {
+    "丹波山村": 5,
+    "忍野村": 2,
+    "西桂町": 1,
+    "富士川町": 2,
+    "市川三郷町": 7,
+    "上野原市": 4,
+    "笛吹市": 4,
+    "甲府市": 49
+  },
+  "validatedCumulativeCandidates": 29910,
+  "validatedEvidence": 86991,
+  "separateSets": {
+    "Okinawa": 1084,
+    "initial": 93
+  },
+  "previousHead": "0387c2fdc54c87a6fb7aee0aedaea991ace95bfb",
+  "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0,
+  "checks": {
+    "focused": "6/6",
+    "crawler": "886/886",
+    "web": "256/256;serial",
+    "typecheck": "passed",
+    "lint": "passed;existingfontwarning",
+    "national": "passed branchbaseline",
+    "static": "109/109 subpath",
+    "quotes": "29910candidates/86991quotes"
+  },
+  "remoteCI": "unverified;known ActionsAPI403 not retried",
+  "remaining": "10missingbodies;4nonindividualsource types with explicit reasons;ambiguous title/year/ratings held in stage-disposition. Fukui306andIshikawa proposals separately staged;not nationwidecompletion."
+}

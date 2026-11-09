@@ -1,0 +1,18 @@
+[
+  {
+    "sourceId": "7a5cb76581f5b7c99ebf2375",
+    "cachedTextSha256": "eafe78ba475c7247397dba708dc9c4817b0333465fc83206a605057768cca3c1",
+    "explicitResultRatingSections": 38,
+    "existingParserDuplicates": 38,
+    "reviewedScope": "Complete saved text pattern count of independently rated detail sections; existing extractor requires matching challenge boundary. No cost-field enrichment claimed.",
+    "remaining": "No unmatched rated detail section identified. Parent headings/statistical tables must not become extra projects."
+  },
+  {
+    "sourceId": "ee9a82e61a342a65cdbc120c",
+    "cachedTextSha256": "047bbce3f660ac64321d5c5d172ead6a7ca4c33469a7afb55fa39ae535a9c042",
+    "explicitResultRatingSections": 36,
+    "existingParserDuplicates": 36,
+    "reviewedScope": "Complete saved text pattern count of independently rated detail sections; existing extractor requires matching challenge boundary. No cost-field enrichment claimed.",
+    "remaining": "No unmatched rated detail section identified. Parent headings/statistical tables must not become extra projects."
+  }
+]

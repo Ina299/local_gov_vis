@@ -1,0 +1,48 @@
+{
+  "stageProposals": 74,
+  "stageMunicipalities": 8,
+  "newActualCostValues": 2,
+  "newPurposeValues": 4,
+  "newDepartmentValues": 7,
+  "existingFieldEnrichments": 0,
+  "productionAdded": 0,
+  "fullValidation": "not yet run",
+  "fieldAndIdentityHolds": [
+    {
+      "sourceId": "6e773964a57d510c6bf9dfaf",
+      "fullTextSha256": "b6ba12f71df4d8b8dbb5dc9f4864df56e6005b185968ee6c41d6c7ee08db8333",
+      "subject": "First低所得者世帯商品券給付row",
+      "reason": "Main title prefix occurs after explanation, ending世帯給付金】occurs earlier in extracted column stream. No validated title-column ordering; keep out rather than reorder by guess. Fiveother names are staged; monetaryplannedvsactualcolumns omitted.",
+      "currentNetworkDenial": false
+    },
+    {
+      "sourceId": "51de6a7e8c5eeb33bab5c1f2",
+      "fullTextSha256": "989a22122e63af0ca38e04dcffc74397d0f937cb4605541e10bc6dac6d3e2aae",
+      "subject": "Three multi-year fund sheets",
+      "reason": "Explicit平成23年度〜令和3年度or平成26年度〜平成30年度, including futureestimates andfund balances. No text-proven single evaluationyear for those sheets. Saved referringHTMLbody absent; firsttwo explicit平成30年度complete sheets only.",
+      "currentNetworkDenial": false
+    },
+    {
+      "sourceId": "bf30dc9d1500d57e7b5aa156",
+      "fullTextSha256": "e41c999adda533da6781830db0cbbe1bb665ba640ad40e8db30dee9b4f4ae76a",
+      "subject": "Rows1,3,4calendar/fiscal alignment",
+      "reason": "R6funding-plan header coexists withR5.12〜R6.3,R7.2〜R7.4,R7.4〜R7.9execution dates whose columns are detached from rowtitles. Only explicitly named令和6年度combined benefit row2staged. No fiscal date inferred by top-to-bottom ordinal alignment.",
+      "currentNetworkDenial": false
+    },
+    {
+      "sourceId": "0c87c887bcff3843af0d7642",
+      "fullTextSha256": "d15520571f44f87dd7c5cc60981dd6565ca63bc5f7f2b27786f2ab646a65f973",
+      "subject": "空家等対策推進事業",
+      "reason": "Source explicitly states今回の外部評価では評価対象になっていない. Excluded despite listedconstituent title; no scores for policychapters transferred.",
+      "currentNetworkDenial": false
+    },
+    {
+      "sourceId": "c2999fc7e5eae048bc311cce",
+      "fullTextSha256": "6d6a87e31d0cd7c1b018dc903d00099c4bd983abe592d775715a366837886371",
+      "subject": "消防分団/ラッパ隊 external ratings",
+      "reason": "Names and2013evaluationdate are explicit; onlynamesstaged. Externalrating cells shared/interleaved, unchangedheldfields. Existing23records preserved; no9records for消防9分団.",
+      "currentNetworkDenial": false
+    }
+  ],
+  "distinction": "Kofu49are named constituentbusinesses inpolicyreviews, not standalone individuallyscoredsheets. Ichikawa7areSeptembermidyearreviews, not full-yearactualresults."
+}

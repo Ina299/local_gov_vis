@@ -1,3 +1,5 @@
+import{reviewYamanashiPolicy}from'./descending-yamanashi-policy';
+import{reviewYamanashiInitial}from'./descending-yamanashi-initial';
 import{reviewNagisoRoads}from'./descending-nagano-roads';
 import{reviewSuwaTourism}from'./descending-nagano-suwa-tourism';
 import{reviewYasuoka2018}from'./descending-nagano-yasuoka-2018';
@@ -134,6 +136,8 @@ export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]
  const namedgrantperiodsReview=reviewNamedGrantPeriods(input);if(namedgrantperiodsReview)return namedgrantperiodsReview;
  const yasuoka2018Review=reviewYasuoka2018(input);if(yasuoka2018Review)return yasuoka2018Review;
  const suwaTourismReview=reviewSuwaTourism(input);if(suwaTourismReview)return suwaTourismReview;
+ const yamanashiinitialReview=reviewYamanashiInitial(input);if(yamanashiinitialReview)return yamanashiinitialReview;
+ const yamanashipolicyReview=reviewYamanashiPolicy(input);if(yamanashipolicyReview)return yamanashipolicyReview;
  const grantsReview=reviewNaganoGrants(input);if(grantsReview)return grantsReview;
  const strategyReview=reviewStrategy(input);if(strategyReview)return strategyReview;
  const nagisoReview=reviewNagiso(input);if(nagisoReview)return nagisoReview;
