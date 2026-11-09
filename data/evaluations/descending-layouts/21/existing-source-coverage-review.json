@@ -1,0 +1,293 @@
+[
+  {
+    "source": {
+      "municipalityCode": "21221",
+      "municipalityName": "海津市",
+      "sourceId": "ed3196ee87afabaca9ffb2c8",
+      "title": "2_事務事業評価シート（議会費） p.59-63(PDF形式、3.54MB)",
+      "url": "https://www.city.kaizu.lg.jp/shisei/cmsfiles/contents/0000004/4007/2_gikai_p.59-63.pdf",
+      "sourceSha256": "1c932f575878a4c59c633b9fd9245d6e06aa6f1da909bedc68dd8d7c22f235c2",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 3049,
+      "fullTextSha256": "a27f1f7eddc0057958bfb758662f2507fc544f40297d3b43780db903449f944d"
+    },
+    "individualHeaders": [
+      {
+        "name": "議会運営事業",
+        "start": 44,
+        "raw": "会計名 一般会計 事業名 1 議会運営事業 活 "
+      },
+      {
+        "name": "議員研修事業",
+        "start": 1046,
+        "raw": "会計名 一般会計 事業名 2 議員研修事業 活 "
+      },
+      {
+        "name": "議会情報提供事業",
+        "start": 2142,
+        "raw": "会計名 一般会計 事業名 3 議会情報提供事業 活 "
+      }
+    ],
+    "existingMatchedRecords": 3,
+    "unmatchedHeaders": [],
+    "reason": "個別シートの明示見出しを既存レコードと照合。議員別表・目次・KPIを新規事業にしない。",
+    "additionalStageRecords": 0
+  },
+  {
+    "source": {
+      "municipalityCode": "21216",
+      "municipalityName": "瑞穂市",
+      "sourceId": "e293c74edad4387ee68bee45",
+      "title": "事業実績評価書(pdf 285KB)",
+      "url": "https://www.city.mizuho.lg.jp/secure/11191/hyoukasyo.pdf",
+      "sourceSha256": "0b72911eea54ad801b44a729b7c5b6bcd9503645de997b2ac81da275c960c793",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 15752,
+      "fullTextSha256": "2ee6a6b84db6e18b75ac6af4814b0c8de425faa744eabff1769edbc97f02e01a"
+    },
+    "individualHeaders": [
+      {
+        "name": "若年層の結婚への意欲啓発事業",
+        "start": 393,
+        "raw": "総合戦略事業01(若年層の結婚への意欲啓発事業)"
+      },
+      {
+        "name": "移住・定住情報提供事業",
+        "start": 1742,
+        "raw": "総合戦略事業02(移住・定住情報提供事業)"
+      },
+      {
+        "name": "介護人材育成促進事業",
+        "start": 3097,
+        "raw": "総合戦略事業03(介護人材育成促進事業)"
+      },
+      {
+        "name": "ＩＣＴの活用による地域包括ケア情報ネットワーク構築事業",
+        "start": 4468,
+        "raw": "総合戦略事業04(ＩＣＴの活用による地域包括ケア情報ネットワーク構築事業)"
+      },
+      {
+        "name": "地域資源を活用した観光振興事業",
+        "start": 5698,
+        "raw": "総合戦略事業05(地域資源を活用した観光振興事業)"
+      },
+      {
+        "name": "消防団員確保事業",
+        "start": 7149,
+        "raw": "総合戦略事業06(消防団員確保事業)"
+      },
+      {
+        "name": "潜在保育士就業促進事業",
+        "start": 8388,
+        "raw": "総合戦略事業07(潜在保育士就業促進事業)"
+      },
+      {
+        "name": "創業者支援事業",
+        "start": 9969,
+        "raw": "総合戦略事業08(創業者支援事業)"
+      },
+      {
+        "name": "妊娠に向けた支援事業",
+        "start": 11610,
+        "raw": "総合戦略事業09(妊娠に向けた支援事業)"
+      },
+      {
+        "name": "民間施設（ボウリング場）を活用した地域活性化拠点創出事業",
+        "start": 13100,
+        "raw": "総合戦略事業10(民間施設（ボウリング場）を活用した地域活性化拠点創出事業)"
+      },
+      {
+        "name": "空家利活用推進事業",
+        "start": 14520,
+        "raw": "総合戦略事業11(空家利活用推進事業)"
+      }
+    ],
+    "existingMatchedRecords": 11,
+    "unmatchedHeaders": [],
+    "reason": "個別シートの明示見出しを既存レコードと照合。議員別表・目次・KPIを新規事業にしない。",
+    "additionalStageRecords": 0
+  },
+  {
+    "source": {
+      "municipalityCode": "21208",
+      "municipalityName": "瑞浪市",
+      "sourceId": "013036a4bb684f8953f3db50",
+      "title": "令和7年度事業評価報告書(令和6年度事業の評価) （PDF 2.0MB）",
+      "url": "https://www.city.mizunami.lg.jp/_res/projects/default_project/_page_/001/006/030/r7jigyouhyoukasyo.pdf",
+      "sourceSha256": "d683fc8a3cc8287f5020e6517607665ef840e830ffc092fb8f3dabe6db4f0fb2",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 10104,
+      "fullTextSha256": "23b723c2e20551fe15e3dd79822db0a2c2f3c655244827ed395ff3204ff68b99"
+    },
+    "individualHeaders": [
+      {
+        "name": "ふるさとみずなみ応援寄附金事務経費",
+        "start": 1456,
+        "raw": "令和６ 年度決算審査分 事業評価書\n①ふる さ と みずな み応援寄附金事務経費"
+      },
+      {
+        "name": "家族介護支援経費（クーポン）",
+        "start": 3404,
+        "raw": "令和６ 年度決算審査分 事業評価書\n②家族介護支援経費（ ク ーポン ）"
+      },
+      {
+        "name": "有害鳥獣被害防止対策事業",
+        "start": 5300,
+        "raw": "令和６ 年度決算審査分 事業評価書\n③有害鳥獣被害防止対策事業"
+      },
+      {
+        "name": "地域新電力会社設立調査事業",
+        "start": 7191,
+        "raw": "令和６ 年度決算審査分 事業評価書\n④地域新電力会社設立調査事業"
+      },
+      {
+        "name": "道の駅整備事業",
+        "start": 9049,
+        "raw": "令和６ 年度決算審査分 事業評価書\n⑤道の駅整備事業"
+      }
+    ],
+    "existingMatchedRecords": 5,
+    "unmatchedHeaders": [],
+    "reason": "個別シートの明示見出しを既存レコードと照合。議員別表・目次・KPIを新規事業にしない。",
+    "additionalStageRecords": 0
+  },
+  {
+    "source": {
+      "municipalityCode": "21208",
+      "municipalityName": "瑞浪市",
+      "sourceId": "a3b4fe7ed44271ed940bf2fc",
+      "title": "令和6年度事業評価報告書(令和5年度事業の評価) （PDF 4.5MB）",
+      "url": "https://www.city.mizunami.lg.jp/_res/projects/default_project/_page_/001/006/030/r5jiyouhyouka.pdf",
+      "sourceSha256": "c52e8164f2408cf2554c193c96fbf0412dafc41089dba57ad048afc31426ee95",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 16166,
+      "fullTextSha256": "4159f02f4bd3ea9ee31c0654a0e5caa7906aefd2804f9c1e218c5ac85c9a4718"
+    },
+    "individualHeaders": [
+      {
+        "name": "防災資機材整備事業",
+        "start": 2372,
+        "raw": "令和５年度決算審査分 事業評価書\n①防災資機材整備事業"
+      },
+      {
+        "name": "介護予防普及啓発事業",
+        "start": 4515,
+        "raw": "令和５年度決算審査分 事業評価書\n②介護予防普及啓発事業"
+      },
+      {
+        "name": "市単側溝等道路改良事業",
+        "start": 6790,
+        "raw": "令和５年度決算審査分 事業評価書\n③市単側溝等道路改良事業"
+      },
+      {
+        "name": "地場産品ブラッシュアップ事業",
+        "start": 8906,
+        "raw": "令和５年度決算審査分 事業評価書\n④地場産品ブラッシュアップ事業"
+      },
+      {
+        "name": "災害防止森林整備事業",
+        "start": 11216,
+        "raw": "令和５年度決算審査分 事業評価書\n⑤災害防止森林整備事業"
+      },
+      {
+        "name": "教育支援センター運営経費",
+        "start": 13436,
+        "raw": "令和５ 年度決算審査分 事業評価書\n⑥教育支援セン タ ー運営経費"
+      }
+    ],
+    "existingMatchedRecords": 5,
+    "unmatchedHeaders": [
+      {
+        "name": "防災資機材整備事業",
+        "start": 2372,
+        "raw": "令和５年度決算審査分 事業評価書\n①防災資機材整備事業"
+      }
+    ],
+    "reason": "個別シートの明示見出しを既存レコードと照合。議員別表・目次・KPIを新規事業にしない。",
+    "additionalStageRecords": 1,
+    "reevaluationHold": {
+      "units": 2,
+      "reason": "過年度事業の改善状況の再評価であり、現在年度の新規実施事業とは明記されない。既存事業と年度の関連を保持し、別の新規年次事業として追加しない。",
+      "missingFact": "再評価対象期間と元レコードへの厳密な対応。対象年度の推測や既存評点の上書きはしない。"
+    }
+  },
+  {
+    "source": {
+      "municipalityCode": "21208",
+      "municipalityName": "瑞浪市",
+      "sourceId": "a24ff8a68c900883b116494f",
+      "title": "令和5年度事業評価報告書(令和4年度事業の評価) （PDF 2.0MB）",
+      "url": "https://www.city.mizunami.lg.jp/_res/projects/default_project/_page_/001/006/030/r4jigyouhyoukahoukkusyo.pdf",
+      "sourceSha256": "d964a9a13bba8061e842d436aef7f124c5596748d2cf8414813e229356534566",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 25017,
+      "fullTextSha256": "3a2ab9f55093b269df177f7934f06a19fe8e01056739e8ad2fac5a708442dbcc"
+    },
+    "individualHeaders": [
+      {
+        "name": "移住定住情報発信事業",
+        "start": 2163,
+        "raw": "令和４年度決算審査分 事業評価書\n①移住定住情報発信事業"
+      },
+      {
+        "name": "夢づくり市民活動補助事業",
+        "start": 4292,
+        "raw": "令和４年度決算審査分 事業評価書\n②夢づくり市民活動補助事業"
+      },
+      {
+        "name": "預かり保育等給付事業",
+        "start": 6424,
+        "raw": "令和４年度決算審査分 事業評価書\n③預かり保育等給付事業"
+      },
+      {
+        "name": "下水道事業会計（農業集落排水の統合）",
+        "start": 8722,
+        "raw": "令和４年度決算審査分 事業評価書\n④下水道事業会計（農業集落排水の統合）"
+      },
+      {
+        "name": "企業立地奨励事業",
+        "start": 11004,
+        "raw": "令和４年度決算審査分 事業評価書\n⑤企業立地奨励事業"
+      },
+      {
+        "name": "多面的機能支払交付金事業",
+        "start": 13254,
+        "raw": "令和４年度決算審査分 事業評価書\n⑥多面的機能支払交付金事業"
+      },
+      {
+        "name": "小・中学校ICT支援員派遣事業",
+        "start": 15396,
+        "raw": "令和４年度決算審査分 事業評価書\n⑦小・中学校ICT支援員派遣事業"
+      },
+      {
+        "name": "混合焼却施設管理経費",
+        "start": 17616,
+        "raw": "令和４年度決算審査分 事業評価書\n⑧混合焼却施設管理経費"
+      },
+      {
+        "name": "普通河川緊急浚渫推進事業",
+        "start": 19666,
+        "raw": "令和４年度決算審査分 事業評価書\n⑨普通河川緊急浚渫推進事業"
+      },
+      {
+        "name": "スクールバス運行管理経費",
+        "start": 21783,
+        "raw": "令和４年度決算審査分 事業評価書\n⑩スクールバス運行管理経費"
+      }
+    ],
+    "existingMatchedRecords": 10,
+    "unmatchedHeaders": [],
+    "reason": "個別シートの明示見出しを既存レコードと照合。議員別表・目次・KPIを新規事業にしない。",
+    "additionalStageRecords": 0,
+    "reevaluationHold": {
+      "units": 2,
+      "reason": "過年度事業の改善状況の再評価であり、現在年度の新規実施事業とは明記されない。既存事業と年度の関連を保持し、別の新規年次事業として追加しない。",
+      "missingFact": "再評価対象期間と元レコードへの厳密な対応。対象年度の推測や既存評点の上書きはしない。"
+    }
+  }
+]
