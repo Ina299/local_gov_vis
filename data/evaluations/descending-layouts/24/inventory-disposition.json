@@ -1,0 +1,1772 @@
+[
+  {
+    "municipalityCode": "24562",
+    "municipalityName": "紀宝町",
+    "sourceId": "c6829f237024c791beeffb3f",
+    "title": "第２期紀宝町まち・ひと・しごと創生総合戦略 - 紀宝町",
+    "url": "https://www.town.kiho.lg.jp/government/revitalization/comprehensive_plan/",
+    "sourceSha256": null,
+    "fullTextSha256": null,
+    "inventoryStatus": "missing_body",
+    "listedContinuations": [],
+    "disposition": "missing_body",
+    "reason": "No local source body. All listed continuation metadata inspected; no complete input to parse. New acquisition remains held for original six manifests/full provenance-verifiable cumulative stop ledger; no current network denial claimed.",
+    "parserStatus": "missing_body",
+    "accepted": 0,
+    "duplicates": 0
+  },
+  {
+    "municipalityCode": "24561",
+    "municipalityName": "御浜町",
+    "sourceId": "109422c5556a6c7d95faa47c",
+    "title": "物価高騰対応重点支援地方創生臨時交付金を活用した事業の実施状況及び効果検証",
+    "url": "https://www.town.mihama.mie.jp/material/files/group/3/R6_shiryou_03.pdf",
+    "sourceSha256": "4e4ae52fcd8302d9f24bd05e2c91ad06e9bd95ef4af3075ca1f35d98d71b32c5",
+    "fullTextSha256": "afc478f98de28ee4dfdbbaff55c323824f15bce0dd31f8d9a5f6487eea23b165",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 5,
+    "rowHolds": [
+      {
+        "start": 979,
+        "raw": "住民税均等割非課税世帯、こども加算、不足額給",
+        "reason": "Explicit 事業継続中のため、未評価 / 未完了; do not count as evaluated completed project or invent following-year result."
+      },
+      {
+        "start": 1531,
+        "raw": "（デジタル庁）給付支援サービス\n・国６年度補正",
+        "reason": "Explicit 事業継続中のため、未評価 / 未完了; do not count as evaluated completed project or invent following-year result."
+      }
+    ],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 5,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "物価高騰対応重点支援地方創生臨時交付金を活用した事業の実施状況及び効果検証\n１\n\n各交付金の説明等\n物価高騰対応重点支援地方創生臨時交付金\nエネルギー・食料品価格の物価高騰の影響を受けた生活者や事業者の支援を通じた地方創生を図るため、令和５年11月２日に閣議決定された「デフレ完全\n脱却のための総合経済対策」への対応として、地方公共団体が地域の実情に応じてきめ細やかに必要な事業を実施できるよう創設さ"
+    }
+  },
+  {
+    "municipalityCode": "24543",
+    "municipalityName": "紀北町",
+    "sourceId": "8c7a9062bf148952bf2a9cd0",
+    "title": "総合計画評価・検証委員会による検証結果",
+    "url": "https://www.town.mie-kihoku.lg.jp/wp-content/uploads/2022/06/kenshokekkaR6.pdf",
+    "sourceSha256": "5fe6df482372aed3ed6fc2fc59862bcd1d021d830d12380b3131b4c249dd95f4",
+    "fullTextSha256": "d43bdeb36a6dc0bc36e9dffbd52d9d062c4e3dfb751892d9468de996411f7d6a",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "policy_level_evidence",
+    "reason": "Four strategic-project KPI groups and committee verification/comments; separate annual business name/year/result units not established. Do not convert the safety/health/vitality/learning headings, anecdotes or KPI rows into projects.",
+    "parserStatus": "unsupported_layout",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "紀北町第２次総合計画後期基本計画\n総合計画評価・検証委員会による検証結果\n\n令和７年３月\n紀\n\n北\n\n町\n\n\n\n目 次\n第１章 評価・検証について ·························································· 1\n１．実施の目的 ·························································"
+    }
+  },
+  {
+    "municipalityCode": "24472",
+    "municipalityName": "南伊勢町",
+    "sourceId": "9d11d342228947b80e1556ee",
+    "title": "事務事業評価結果の公表／南伊勢町",
+    "url": "https://www.town.minamiise.lg.jp/admin/gyousei/unei/keiei/1256.html",
+    "sourceSha256": "2feaf2e69f97658c1073e2026e3fb731345c2b2777c71198e27b36dd76cec471",
+    "fullTextSha256": "3ce3df7bbf61a6c6deef0c674d92f1202462b2c7415976c0459357b18fe337e7",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "事務事業評価結果の公表／南伊勢町\n事務事業評価結果の公表\n更新日：2021年09月24日\n令和3年度評価結果（令和2年度事業）\n令和2年度に総合計画「南伊勢町新絆プラン」に基づき実施した事業を対象に、令和3年度に各所管による評価を行いました。\n今回の事務事業評価結果報告では、令和3年度に事務事業評価を行った全ての事業について公表します。\n令和元年度の事務事業評価より様式変更が行われています。\n事務"
+    }
+  },
+  {
+    "municipalityCode": "24471",
+    "municipalityName": "大紀町",
+    "sourceId": "65d7c9a340a86f920338e6b1",
+    "title": "大紀町教育委員会点検・評価報告書／大紀町ホームページ",
+    "url": "https://www.town.taiki.mie.jp/kosodate_kyoiku/kyoikuiin/832.html",
+    "sourceSha256": "e80f3057e632b70c943d66326efbf52e23b958a225e449de27cd5422536906be",
+    "fullTextSha256": "3be3a0d944e2971b6d6f0b007ab0d138c29ebff99c793d2e49c6aa97d17ca8dd",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "大紀町教育委員会点検・評価報告書／大紀町ホームページ\n大紀町教育委員会点検・評価報告書\n更新日：2025年01月10日\n大紀町教育委員会点検・評価報告書の作成について\n「地方教育行政の組織及び運営に関する法律」第26条の規定に基づき、各教育委員会は、毎年、教育行政事務の管理及び執行の状況について点検及び評価を行い、その結果に関する報告書を議会に提出するとともに、公表することとされています。\n点検及"
+    }
+  },
+  {
+    "municipalityCode": "24470",
+    "municipalityName": "度会町",
+    "sourceId": "92f3b55c764330d6097e63ca",
+    "title": "令和8年度（7年度分）点検評価報告書",
+    "url": "https://www.town.watarai.lg.jp/cmsfiles/contents/0000000/834/R8tenkenhyouka.pdf",
+    "sourceSha256": "05de4d88334d6f20aa5b08228c881284fefa8a86fd03009f7b5cb9405bd3db4b",
+    "fullTextSha256": "4bad5735dce45e73b9af1c4c71cfdd121631bc22bc07b4af34b1df3a03950dbc",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 25,
+    "rowHolds": [
+      {
+        "start": 4564,
+        "raw": "途切れのない発達支\n援事業",
+        "reason": "same-name reprint"
+      },
+      {
+        "start": 4578,
+        "raw": "学習支援員・スクールケア指導員の配置",
+        "reason": "same-name reprint"
+      },
+      {
+        "start": 4597,
+        "raw": "教育支援センター運営事業",
+        "reason": "same-name reprint"
+      },
+      {
+        "start": 5308,
+        "raw": "総合型度会スポーツクラブ事業",
+        "reason": "possible same-entity alias; distinct budget identity not established"
+      },
+      {
+        "start": 5323,
+        "raw": "度会町スポーツ協会\n事業",
+        "reason": "possible same-entity alias; distinct budget identity not established"
+      },
+      {
+        "start": 5336,
+        "raw": "度会町スポーツ推進委員事業",
+        "reason": "possible same-entity alias; distinct budget identity not established"
+      },
+      {
+        "start": 5988,
+        "raw": "公民館事業",
+        "reason": "same-name reprint"
+      },
+      {
+        "start": 5994,
+        "raw": "文化祭",
+        "reason": "same-name reprint"
+      }
+    ],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 25,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "令和８年度\n\n「教育に関する事務の管理及び執行状況の点検・評価」報告書\n\n（令和７年度事業）\n\n度会町教育委員会\n\n\n１\n\n趣旨\n\n（１）教育委員会の趣旨\n平成１９年６月に、\n「地方教育行政の組織及び運営に関する法律」の一部が改正され（平\n成２０年４月１日施行）教育委員会は、毎年、その権限に属する事務の管理及び執行の状\n況について点検及び評価を行い、その結果に関する報告書を作成し、議会に提出すると"
+    }
+  },
+  {
+    "municipalityCode": "24470",
+    "municipalityName": "度会町",
+    "sourceId": "2a47e5c3b9ec9f5e79bd7048",
+    "title": "度会町教育委員会事務の点検・評価",
+    "url": "https://www.town.watarai.lg.jp/contents_detail.php?co=kak&frmId=834",
+    "sourceSha256": "271000cb9e7e21fd1fed4c37bf98023ebae6b5102902ba5e274cbb6e11a01ad3",
+    "fullTextSha256": null,
+    "inventoryStatus": "missing_body",
+    "listedContinuations": [],
+    "disposition": "missing_body",
+    "reason": "No local source body. All listed continuation metadata inspected; no complete input to parse. New acquisition remains held for original six manifests/full provenance-verifiable cumulative stop ledger; no current network denial claimed.",
+    "parserStatus": "missing_body",
+    "accepted": 0,
+    "duplicates": 0
+  },
+  {
+    "municipalityCode": "24461",
+    "municipalityName": "玉城町",
+    "sourceId": "0ca621bf61c70eb6b0373e82",
+    "title": "令和5年度消費・安全対策交付金事後評価結果（玉城町食育事業を含む）",
+    "url": "https://www.pref.mie.lg.jp/common/content/001173242.pdf",
+    "sourceSha256": "a8f65a1f63df7c3331d9977c4ea38dd86b6a91fbc891b80aecd67eac29d7b46c",
+    "fullTextSha256": "1cea4386730e8390c24104ff79f802233c2cce5f7d179d6a1c2fc0629e0c2d0d",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "individual_identity_missing",
+    "reason": "玉城町 is explicitly an implementing body in the prefectural food-safety report; its dietary-education objectives/actions are present, but an independently named municipal business unit is absent. Do not use collector metadata title as original project name or attribute neighboring prefectural/private-body rows.",
+    "parserStatus": "unsupported_layout",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "令和5年度\n\n消費・安全対策交付金事後評価結果\n\n目的\n\n目標\n\n事業実施主体\n\n農薬の適正使用\n等の総合的な推\n進\n\n三重県\n\n○農薬の安全使用の推進\n○農薬の適切な管理及び販売の推進\n\n・農薬使用者を対象とした研修会等の開催：\n491回、6,025人\n・ゴルフ場の農薬使用状況の調査及び記帳指\n導：24件\n・農薬販売者の指導の実施：24件\n・農薬管理指導士の育成研修等農薬の適正使\n用・管理に関す"
+    }
+  },
+  {
+    "municipalityCode": "24443",
+    "municipalityName": "大台町",
+    "sourceId": "201f678305096fc7bddbb5eb",
+    "title": "施策評価結果及び成果指標達成状況を公開します／大台町",
+    "url": "https://www.odaitown.jp/gyoseijoho/seisaku_keikaku/1281.html",
+    "sourceSha256": "3a37e9ced58f46d31b5461ac38dcd79a36e92831c2abd04123f81326062bd73e",
+    "fullTextSha256": "bf3e101e84c35a9886a56420b85704ffcef83fdc021b0baa2f3a9066724a59f9",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "施策評価結果及び成果指標達成状況を公開します／大台町\n施策評価結果及び成果指標達成状況を公開します\n更新日：2021年09月14日\n行政評価の取組\n本町では、計画・実施・評価・改善のマネジメントプロセスを通して、限られた行政資源の適正配分による行政運営を行うことを目的として、第2次大台町総合計画により行政評価に取り組んでいます。\n平成30年度 施策評価結果 (PDFファイル: 687.9KB)\n令"
+    }
+  },
+  {
+    "municipalityCode": "24442",
+    "municipalityName": "明和町",
+    "sourceId": "133485ce3554fda2768f4873",
+    "title": "行政評価／明和町ホームページ - 多気郡",
+    "url": "https://www.town.meiwa.mie.jp/gyosei_joho/gyozaisei/gyosei_hyoka/index.html",
+    "sourceSha256": "7384abc4cc4df7a143d9a41f8f5c16c0822fbe7eafb1f697be5b4833751d45f7",
+    "fullTextSha256": "4bda21376fa01e7a246cec97f6f22668582ec688bc1e49d8a4d87381a6532d5d",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "行政評価／明和町ホームページ - 多気郡\n現在のページ\nホーム\n行政情報\n行財政\n行政評価\nあしあと\nあしあとを消去する\n行政評価\n地方行政サービス改革に関する取組状況"
+    }
+  },
+  {
+    "municipalityCode": "24441",
+    "municipalityName": "多気町",
+    "sourceId": "6d5f7a3556dff2a033360982",
+    "title": "地方創生臨時交付金活用事業／多気町",
+    "url": "https://www.town.taki.mie.jp/life/soshiki/zaimuseisaku/gyozaisei/4564.html",
+    "sourceSha256": "521d03a9f879e6dd9b6fb5893ef80bf44ce67a7149caeceda9f997d073c9d0a9",
+    "fullTextSha256": "c3df8a13120e0daca5052914c8776b59af7c2d0956c2fbba4bd644887cedbb26",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "地方創生臨時交付金活用事業／多気町\n地方創生臨時交付金活用事業\n更新日：2026年09月30日\n効果検証（実施状況・評価）\n臨時交付金の交付を受けて実施した事業について、効果検証を行いましたので公表します。\n令和2年度 新型コロナウイルス感染症対応地方創生臨時交付金の効果検証 (PDFファイル: 291.6KB)\n令和3年度 新型コロナウィルス感染症対応地方創生臨時交付金の効果検証 (PDFファイ"
+    }
+  },
+  {
+    "municipalityCode": "24441",
+    "municipalityName": "多気町",
+    "sourceId": "c903d1795d6a51a335764e61",
+    "title": "令和2年度 新型コロナウイルス感染症対応地方創生臨時交付金の効果検証 (PDFファイル: 291.6KB)",
+    "url": "https://www.town.taki.mie.jp/material/files/group/3/R2koronakennsyou.pdf",
+    "sourceSha256": "45916e6e0a1d62b84162d9817af445b2095cbd7f671b52ede9c75d4214fa36da",
+    "fullTextSha256": "9c2283bc67ec35941e5efa0d5fc66e786f419be308e080a5430c3651dde518ac",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 32,
+    "rowHolds": [
+      {
+        "start": 574,
+        "raw": "小中学校給食費の減免",
+        "reason": "Same annual school-meal reduction recorded for separate months; one annual identity."
+      },
+      {
+        "start": 6960,
+        "raw": "小学校特別教室エアコン設置事業",
+        "reason": "Supplementary-budget subset overlaps existing school AC annual project; do not count funding/subset as a distinct annual project."
+      },
+      {
+        "start": 9146,
+        "raw": "公立学校情報通信ネットワーク環境施設",
+        "reason": "Second same-name row is union funding; related No45 same underlying facility project. Distinct annual identity from local project/union component unresolved."
+      },
+      {
+        "start": 9250,
+        "raw": "組合立多気中学校情報通信ネットワーク",
+        "reason": "Same union-network project as adjacent grant row; not independently accepted without resolving underlying identity."
+      }
+    ],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 32,
+    "duplicates": 12,
+    "introQuote": {
+      "start": 0,
+      "raw": "◇令和２年度\n\n新型コロナウイルス感染症対応地方創生臨時交付金活用事業の効果検証\n\n単位：円\n\n事業 事業\n始期 終期\n\n総事業費\n（実績額）\n（円）\n\n事業費\n左記の内臨時\n（本町実績\n交付金（円）\n額）（円）\n\n1\n\n三重県が行う休業要請・依頼に全面協力\n新型コロナウィルス感染症拡大阻止協力\nいただける中小企業・小規模事業者に対 R2.4 R2.11\n金\nして県と町が協調して協力金を交付。\n\n"
+    }
+  },
+  {
+    "municipalityCode": "24441",
+    "municipalityName": "多気町",
+    "sourceId": "a9b85a4a1fa063da4d1e9b45",
+    "title": "令和3年度 新型コロナウィルス感染症対応地方創生臨時交付金の効果検証 (PDFファイル: 226.3KB)",
+    "url": "https://www.town.taki.mie.jp/material/files/group/3/R3kouka.pdf",
+    "sourceSha256": "9f079d051db91351680851edd4757f08e2d4630a436ca8983ec8c66f4c8e4470",
+    "fullTextSha256": "e1582aecb6b9c2d508e9455c89880eff9e51f1c86d5f451ab0a22a40be411360",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 15,
+    "rowHolds": [
+      {
+        "start": 3004,
+        "raw": "文化芸術振興費補助金",
+        "reason": "Explicit NO10/NO15 same project; retain one printed annual facility-project title, not two funding labels."
+      }
+    ],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 15,
+    "duplicates": 7,
+    "introQuote": {
+      "start": 0,
+      "raw": "令和３年度\n実施\n計画\n計上\n№\n\n新型コロナウイルス感染症対応地方創生臨時交付金実績報告（効果検証）\n事業 事業\n始期 終期\n\n総事業費\n（実績額）\n（円）\n\n学生応援地域産品給付事業\n\n親元を離れ県外に居住する学生を支援す\nR3.6 R4.3\nるため町の特産品を配布。\n\n1,179,812\n\n1,179,812\n\n900,000 農林商工課\n\n2\n\nがんばる事業者応援補助金\n\nコロナ禍の中、自"
+    }
+  },
+  {
+    "municipalityCode": "24441",
+    "municipalityName": "多気町",
+    "sourceId": "ecadea162086ae8b7268083b",
+    "title": "令和4年度 新型コロナウィルス感染症対応地方創生臨時交付金の効果検証 (PDFファイル: 169.8KB)",
+    "url": "https://www.town.taki.mie.jp/material/files/group/3/R4kouka.pdf",
+    "sourceSha256": "d228e426bebb0351805b5246fc1f7e1ef1632a46d88f50630aa83b4afcd0e409",
+    "fullTextSha256": "feb1c902ae3249d0f4c8b6bd3fd15668a53fea54d57d20be30e60933fd07ee89",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 5,
+    "rowHolds": [
+      {
+        "start": 2202,
+        "raw": "地域応援商品券発行事業（追加発行分）",
+        "reason": "Second voucher issuance is within the same annual named voucher project; two funding-category rows explicitly same project; do not multiply."
+      },
+      {
+        "start": 3248,
+        "raw": "デジタル田園都市国家構想推進交付金",
+        "reason": "Grant umbrella rather than explicit individual underlying project identity; original individual implementation sheet required."
+      }
+    ],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 5,
+    "duplicates": 5,
+    "introQuote": {
+      "start": 0,
+      "raw": "令和４年度\n実施\n計画\n計上\n№\n\n新型コロナウイルス感染症対応地方創生臨時交付金実績報告（効果検証）\n事業 事業\n始期 終期\n\n総事業費\n（実績額）\n（円）\n\n学生応援地域産品給付事業\n\n親元を離れ県外に居住する学生を支援す\nR4.9 R5.3\nるため町の特産品を配布。\n\n921,485\n\n921,485\n\n681,000 農林商工課\n\n2\n\nがんばる事業者応援補助金\n\nコロナ禍の中、自らの創意"
+    }
+  },
+  {
+    "municipalityCode": "24441",
+    "municipalityName": "多気町",
+    "sourceId": "dab5ab4616afe304ff911c7b",
+    "title": "令和5年度 新型コロナウイルス感染症対応地方創生臨時交付金の効果検証 (PDFファイル: 113.8KB)",
+    "url": "https://www.town.taki.mie.jp/material/files/group/3/R5korona.pdf",
+    "sourceSha256": "b5c241a82f44d116800b1be8c4d8c109d74c73539950d1f00896509c65d72490",
+    "fullTextSha256": "e5bbaef16e187a05cd7da1d756adad352bbfcc037a2afd533b1d39c0875f0d55",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 3,
+    "rowHolds": [
+      {
+        "start": 603,
+        "raw": "地域応援商品券発行事業（重点交付金\n分）",
+        "reason": "Source explicitly says No8/9 same business split by grant allocation; same voucher project in a79890e5c4e2566d5e2386c0 counted once."
+      },
+      {
+        "start": 844,
+        "raw": "地域応援商品券発行事業（通常分）",
+        "reason": "Source explicitly says No8/9 same business split by grant allocation; same voucher project in a79890e5c4e2566d5e2386c0 counted once."
+      }
+    ],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 3,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "令和５年度\n実施\n計画\n計上\n№\n\n新型コロナウイルス感染症対応地方創生臨時交付金実績報告（効果検証）\n\n単位：円\n\n事業 事業\n始期 終期\n\n総事業費\n（実績額）\n（円）\n\n事業費\n左記の内臨時\n（本町実績\n交付金（円）\n額）（円）\n\n1\n\nコロナ禍における物価高騰に対応するた\n電力・ガス・食料品等価格高騰重点支援\nめ、低所得世帯に対して1世帯あたり現 R5.6 R5.11\n交付金事業【低所得世"
+    }
+  },
+  {
+    "municipalityCode": "24441",
+    "municipalityName": "多気町",
+    "sourceId": "a79890e5c4e2566d5e2386c0",
+    "title": "令和5年度 物価高騰対応重点支援地方創生臨時交付金の効果検証 (PDFファイル: 120.8KB)",
+    "url": "https://www.town.taki.mie.jp/material/files/group/3/R5bukkakoutou.pdf",
+    "sourceSha256": "69d7f0ce15d1ae94738da01822a787c6ce0b088cbd8bc4d8d21fe3a9558198f5",
+    "fullTextSha256": "9ff58afa87bbcd1cc4c681cba8c1bd44c34512435f0fe13f3ace3724444fad68",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 7,
+    "rowHolds": [],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 7,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "令和５年度\n実施\n計画\n計上\n№\n\n物価高騰対応重点支援地方創生臨時交付金\n\n交付金対象事業名\n\n事業概要\n\n事業 事業\n始期 終期\n\n1\n\n物価高騰が続く中で、低所得世帯への\n電力・ガス・食料品等価格高騰重点支\n支援を行うため、令和5年度分の住民税\n援給付金（7万円給付）事業【低所得世\nR6.1 R6.3\n非課税世帯に対して1世帯あたり現金\n帯給付金】\n70,000円を給付。\n\n10\n\n地域応援"
+    }
+  },
+  {
+    "municipalityCode": "24441",
+    "municipalityName": "多気町",
+    "sourceId": "5e54026dfc8a961b9b4b0c5d",
+    "title": "令和6年度 物価高騰対応重点支援地方創生臨時交付金の効果検証 (PDFファイル: 85.8KB)",
+    "url": "https://www.town.taki.mie.jp/material/files/group/3/R6_bukkadakarinnjikouhukinjisseki.pdf",
+    "sourceSha256": "6f8ac6b490c89a0c4fb1f1be39650a668771fc3c0d3e0564f86e008eb0e2e489",
+    "fullTextSha256": "a79595872a2dcb625dd38828cbe7aafeda416567023c7dd138257642467eccdf",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 4,
+    "rowHolds": [],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 4,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "令和６年度\n\n物価高騰対応重点支援地方創生臨時交付金\n\n単位：円\n\n総事業費\n（円）\n\n左記の内臨\n時交付金\n（円）\n\n物価高騰が続く中で、低所得世帯への\n支援を行うため、令和5年度民税均等割\nR6.2 R6.7\nのみ課税世帯に対して1世帯あたり\n100,000円を給付。\n\n34,576,589\n\n34,571,000 健康福祉課\n\n令和5年度分住民税均等割のみ課税世 物価高騰による家計への影響が"
+    }
+  },
+  {
+    "municipalityCode": "24441",
+    "municipalityName": "多気町",
+    "sourceId": "f574a3600e1f1a9227a89523",
+    "title": "令和7年度 物価高騰対応重点支援地方創生臨時交付金の効果検証 (PDFファイル: 124.0KB)",
+    "url": "https://www.town.taki.mie.jp/material/files/group/16/koukakennshou07.pdf",
+    "sourceSha256": "d8c1367ca6a9b7915820f5832608d6718e3543e88399cf3d3ff3d0bac2841942",
+    "fullTextSha256": "4b97ccfc809955d7c73c2c03f60f4c682f027b2d4f07eba77e25d7ae3fbdec65",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 5,
+    "rowHolds": [],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 5,
+    "duplicates": 1,
+    "introQuote": {
+      "start": 0,
+      "raw": "令和７年度\n№\n\n物価高騰対応重点支援地方創生臨時交付金\n\n交付金対象事業名\n\n事業概要\n\n事業 事業\n始期 終期\n\n実績報告（効果検証）\n総事業費\n（円）\n\n左記の内臨時\n交付金（円）\n\n担当課\n\n単位：円\n事業実施状況\n\n効果検証（評価）\n\n物価高騰が続く中で、低所得世帯への支\n援を行うため、令和6年度住民税非課税\n世帯に対して1世帯あたり30,000円を給\nR7.2 R7.7\n付。併せて該当"
+    }
+  },
+  {
+    "municipalityCode": "24343",
+    "municipalityName": "朝日町",
+    "sourceId": "7abd677611a6edef54498896",
+    "title": "朝日町総合計画 事業評価報告書 - 朝日町",
+    "url": "https://www2.town.asahi.mie.jp/www/contents/1660290660044/index.html",
+    "sourceSha256": "cac258f203a4f20b24d91a65ba9f09773d3fa24c41ed1f39af2c18c2c89ecb96",
+    "fullTextSha256": "4617d9f2f822d0d016ace99934cfe121fe566aa695f30402273733e048a6e767",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "朝日町総合計画 事業評価報告書 - 朝日町\n朝日町総合計画 事業評価報告書\n更新日：2026年8月28日\n目的\n令和３\n年度を初年度とする第６\n次朝日町総合計画では、総合計画を推進するに当たり「３\n計画の推進に向けて」において、「（１\n）多様な主体による計画の推進」、「（２\n）\nPDCA\nサイクルによる計画の推進」を示しています。\n特に、「（２\n）PDCA\nサイクルによる計画の推進」においては、総"
+    }
+  },
+  {
+    "municipalityCode": "24341",
+    "municipalityName": "菰野町",
+    "sourceId": "193c93d117223a670e1b0d13",
+    "title": "物価高騰対応重点支援地方創生臨時交付金について - 菰野町公式ウェブサイト（企画情報課）",
+    "url": "https://www2.town.komono.mie.jp/soshiki/1/2344.html",
+    "sourceSha256": "1a24b810003f8bcad9d65e45d8893d1511ab6a70630f9c2971a88b3b017da624",
+    "fullTextSha256": "db4d995416138c64a5652f2618871738571f1cf46dd8cc719e9af649c03013c1",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "物価高騰対応重点支援地方創生臨時交付金について - 菰野町公式ウェブサイト（企画情報課）\n本文\n物価高騰対応重点支援地方創生臨時交付金について\nページID：0002344\n更新日：2026年9月24日更新\n印刷ページ表示\n物価高騰対応重点支援地方創生臨時交付金とは\nエネルギー・食料品価格の物価高騰の影響を受けた生活者や事業者の支援を通じた地方創生を図るため、地方公共団体が地域の実情に応じてきめ細や"
+    }
+  },
+  {
+    "municipalityCode": "24341",
+    "municipalityName": "菰野町",
+    "sourceId": "6b35dcebcb6626ac3e3caa42",
+    "title": "令和7年度 物価高騰対応重点支援地方創生臨時交付金（推奨事業メニュー分） [PDFファイル／114KB]",
+    "url": "https://www2.town.komono.mie.jp/uploaded/attachment/6175.pdf",
+    "sourceSha256": "10b18ee8f2dc5f29d61fd79a1e997bed4db0c23b1197146a6fe7360e3b8894b0",
+    "fullTextSha256": "48622f813b1bb0bd471cce3f381633be2286db0c27b8b10d2793e920e4802fe9",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "plan_duplicate",
+    "reason": "Three FY2025 planned support programs are covered by separately cached actual-results source25a08…; do not create an extra plan record or assign plan estimates to actual costs.",
+    "parserStatus": "unsupported_layout",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "令和７年度 第３回 物価高騰対応重点支援地方創生臨時交付金実施計画\nNo.\n\n1\n\n2\n\n3\n\n推奨事業メニュー\n\n交付対象事業の名称\n\n事業の概要\n①目的・効果\n②交付金を充当する経費内容\n③積算根拠（対象数、単価等）\n④事業の対象（交付対象者、対象施設等）\n\n事業始期\n\n事業終期\n\n②エネルギー・食料\n品価格等の物価高\n子育て世帯おこめ券支給事業\n騰に伴う子育て世帯\n支援\n\n①物価高騰による影"
+    }
+  },
+  {
+    "municipalityCode": "24341",
+    "municipalityName": "菰野町",
+    "sourceId": "25a08bb69cd2c3061b4d2bae",
+    "title": "令和7年度 物価高騰対応重点支援地方創生臨時交付金の実施状況及び効果の検証 [PDFファイル／59KB]",
+    "url": "https://www2.town.komono.mie.jp/uploaded/attachment/7401.pdf",
+    "sourceSha256": "2ad77ccbba7ee0994d7e78e6a6caa7124a46b27a1481ef7bbafd6f21b2881d86",
+    "fullTextSha256": "d61fce2be8a1edd186da6039a1da0ed4de33768c30e486baad20cd22f4e973fd",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 4,
+    "rowHolds": [],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 4,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "令和7年度 物価高騰対応重点支援地方創生臨時交付金を活用した事業\n\n区分\n\n事業名\n\n総事業費\n（千円）\n\n事業概要\n\n令和6年度菰野町住民税 令和6年分所得税額及び定額減税の実績等の確定に伴\n非課税世帯価格高騰支援 い、推計額を用いて支給した調整給付額に不足が生じた\n給付金支給事業\n方に対し「不足額給付」を行う。\n\n世\n帯\nや\n個\n人\nへ\nの\n支\n援\n\n交付金充当額\n（千円）\n\n成果目標\n\n事業"
+    }
+  },
+  {
+    "municipalityCode": "24341",
+    "municipalityName": "菰野町",
+    "sourceId": "3b3e5ad61cb53da6b88812da",
+    "title": "令和6年度 物価高騰対応重点支援地方創生臨時交付金の実施状況及び効果の検証 [PDFファイル／82KB]",
+    "url": "https://www2.town.komono.mie.jp/uploaded/attachment/7088.pdf",
+    "sourceSha256": "e01c6e4c9254ad90ba49ba8d711c0f6b5e65c4265e0f3f52b004523fe535a677",
+    "fullTextSha256": "2b6631292412f0c5c185825253e22f0b05d6a28fcc42bc78525fc02d785e7f43",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 2,
+    "rowHolds": [
+      {
+        "start": 2997,
+        "raw": "【充当元事業】",
+        "reason": "Funding transfer between years / benefit and administrative-cost components, not another independent annual project."
+      },
+      {
+        "start": 60,
+        "raw": "住民税非課税世帯価格高",
+        "reason": "Same printed annual name occurs for prior-year70k shortfall and new30k benefit; distinct business identity not established. Do not synthesize qualifiers, merge monetary values, or create two same-name annual records."
+      }
+    ],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 2,
+    "duplicates": 11,
+    "introQuote": {
+      "start": 0,
+      "raw": "令和６年度 物価高騰対応重点支援地方創生臨時交付金を活用した事業\n\n区分\n\n事業名\n\n事業概要\n\n総事業費\n（千円）\n\n住民税非課税世帯価格高\n【※R5事業完了分に係る不足する給付費の交付】\n騰重点支援給付金支給事\n非課税世帯へ１世帯あたり7万円を給付する。\n業\n\n世\n帯\nや\n個\n人\nへ\nの\n支\n援\n\n交付金充当額\n（千円）\n\n事業の効果\n\n担当課\n\n20,930\n\n20,930 －\n\n令和５年度"
+    }
+  },
+  {
+    "municipalityCode": "24341",
+    "municipalityName": "菰野町",
+    "sourceId": "41a98d44fe336822ddd7ffd1",
+    "title": "令和5年度 物価高騰対応重点支援地方創生臨時交付金の実施状況及び効果の検証 [PDFファイル／61KB]",
+    "url": "https://www2.town.komono.mie.jp/uploaded/attachment/7087.pdf",
+    "sourceSha256": "668dab34463cd25f9078ec8dc1b189673560fa6b804884316b7faaaeeab45105",
+    "fullTextSha256": "9be7b66b57ebda148a52a65632838aec1ec0b2d88d483b97c21256653dcade95",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 5,
+    "rowHolds": [
+      {
+        "start": 1066,
+        "raw": "【充当元事業】",
+        "reason": "Funding transfer between years / benefit and administrative-cost components, not another independent annual project."
+      }
+    ],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 5,
+    "duplicates": 1,
+    "introQuote": {
+      "start": 0,
+      "raw": "令和5年度 物価高騰対応重点支援地方創生臨時交付金を活用した事業\n\n区分\n\n事業名\n\n事業概要\n\n住民税非課税世帯価格高\n騰重点支援給付金支給事 非課税世帯へ１世帯あたり7万円を給付する。\n業\n\n世\n帯\nや\n個\n人\nへ\nの\n支\n援\n\n総事業費\n（千円）\n\n交付金充当額\n（千円）\n\n事業の効果\n\n担当課\n\n205,031\n\n205,031\n\n住民税非課税世帯価格高\nR5年度分の住民税非課税世帯（住民"
+    }
+  },
+  {
+    "municipalityCode": "24324",
+    "municipalityName": "東員町",
+    "sourceId": "15d69e494e3f07daf82237e8",
+    "title": "令和元年度行政評価結果(平成30年度事務事業の評価)／東員町ホームページ",
+    "url": "https://www.town.toin.lg.jp/gyosei/gyozaisei/1/3176.html",
+    "sourceSha256": "a5289993146285e2e9275002e3008779c5647a8df08b0f518d72fdd9e39caa23",
+    "fullTextSha256": "a4ad3fb1491545603208a791f88ce3e7fee565b63b86ffc633321d343b90c48f",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "supported_outputs_already_present",
+    "reason": "143 supported FY2018 individual-business outputs are duplicates of existing data. Source explicitly labels FY2019 evaluation of FY2018 businesses. Existing records/fields preserved; numerical field completeness not claimed.",
+    "parserStatus": "duplicate",
+    "accepted": 0,
+    "duplicates": 143,
+    "introQuote": {
+      "start": 0,
+      "raw": "令和元年度行政評価結果(平成30年度事務事業の評価)／東員町ホームページ\n令和元年度行政評価結果(平成30年度事務事業の評価)\n更新日：2024年03月29日\n令和元年度行政評価結果（平成30年度事務事業の評価）\n平成30年度 行事務事業の評価の評価結果\nNo.1 総務課\n番号\n事務事業名\n（クリックすると詳細が見られます）\n総合評価（主管課長評価）\n1\n一般管理経費(PDFファイル:110KB)"
+    }
+  },
+  {
+    "municipalityCode": "24303",
+    "municipalityName": "木曽岬町",
+    "sourceId": "3ac078988816b7685127721d",
+    "title": "木曽岬町総合計画_表紙案_A2",
+    "url": "https://www.town.kisosaki.lg.jp/cmsfiles/contents/0000002/2668/01_joron.pdf",
+    "sourceSha256": "25e57687a7a4143a87982f88fd11c2e50a373b4fc0a78176fedf823cc994ae96",
+    "fullTextSha256": "5687fd6075ee840b28b30b66e70d299f99dc359cc8da138f1b364309004fc624",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "plan_and_policy_summary",
+    "reason": "Cached PDF includes the 2024–2033 comprehensive-plan introduction and prior-plan policy-level estimated evaluation. A plan period or forecast evaluation does not prove each named action occurred in an individual fiscal year.",
+    "parserStatus": "unsupported_layout",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "木曽岬町\n第６次\n\n総合計画\n2033\n\n▲\n\n2024\n\nKisosaki town\n\n木曽岬町\n\n\n木曽岬町第６次総合計画\nやるね! 木曽岬\n\n\n町民憲章\n1\n\n次代を担う人を\n\n1\n\n教養を深め\n\nかおり高い文化の町にしましょう\n\n1\n\n進んで 働き\n\n活力のある豊かな町にしましょう\n\n1\n\n自然をまもり 環境を美化する町にしましょう\n\n1\n\n心のふれあう 温かい住みよい町にしましょう\n\n立"
+    }
+  },
+  {
+    "municipalityCode": "24216",
+    "municipalityName": "伊賀市",
+    "sourceId": "276d36d669beff4d96a7b375",
+    "title": "行政評価 | 三重県伊賀市",
+    "url": "https://www.city.iga.lg.jp/category/6-10-1-0-0-0-0-0-0-0.html",
+    "sourceSha256": "31cf33e60622f01be7dc79c4ef9acf4005f7658fc76653459fa1e802aa53126d",
+    "fullTextSha256": "fb62c7a517614815ee2150fc89c1d6119d5437fe80f64c43e0c2d5a753e0b520",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "行政評価 | 三重県伊賀市\n平成23年度評価結果\n平成23年度の取組方針について\n[2017年2月1日]\n平成23年度に実施した評価について（総括）\n[2017年2月1日]\n平成23年度に実施した評価結果について\n[2017年2月1日]\n平成23年度 評価シート【基本施策1】\n[2017年2月1日]\n平成23年度 評価シート【基本施策2】\n[2017年2月1日]\n平成23年度 評価シート【基本施策"
+    }
+  },
+  {
+    "municipalityCode": "24216",
+    "municipalityName": "伊賀市",
+    "sourceId": "2844910689bc30a553f78a9e",
+    "title": "2次評価について（基本施策評価） | 三重県伊賀市",
+    "url": "https://www.city.iga.lg.jp/0000001417.html",
+    "sourceSha256": "e00736f27d72edd7e42facc9000c7389a0b30b116a23d8b8d22a1a28a00794d8",
+    "fullTextSha256": "9c5a7f7db39c2bff33ec2bcc6e75bd01b094a39985f407455628ba30da8b4f7a",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "2次評価について（基本施策評価） | 三重県伊賀市\n現在位置\nトップ\n市政情報\n行財政改革・評価\n行政評価\n平成24年度評価結果\nあしあと\n2次評価について（基本施策評価）\n[公開日：2017年2月1日]\n[更新日：2017年2月1日]\nID:1417\nソーシャルサイトへのリンクは別ウィンドウで開きます\n1．評価対象\n伊賀市総合計画に位置づけられる全基本施策（68基本施策）のうち、下位に総合計画実"
+    }
+  },
+  {
+    "municipalityCode": "24216",
+    "municipalityName": "伊賀市",
+    "sourceId": "3752227a01f2e35f9dc42090",
+    "title": "行政改革課 | 令和8年度の行政評価 | 三重県伊賀市",
+    "url": "https://www.city.iga.lg.jp/soshiki/42-2-0-0-0_38.html",
+    "sourceSha256": "d67084a63021d77e0699d6322e5e07854c751590fddc085773ab5c4fb1cc751b",
+    "fullTextSha256": "bbe4324025ee445dbec67f8f3ee9fd9feb5eb14d259a3de28a528ad6a8510c7e",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "行政改革課 | 令和8年度の行政評価 | 三重県伊賀市\n現在位置\nトップ\n各課の窓口\nあしあと\n行政改革課\n令和8年度の行政評価\n伊賀市の行政評価システムのしくみ(令和8年度)\n[2026年9月10日]\nお問い合わせ\n未来政策部行政改革課\nお問い合わせフォーム"
+    }
+  },
+  {
+    "municipalityCode": "24216",
+    "municipalityName": "伊賀市",
+    "sourceId": "5300a2afac8734098a51d358",
+    "title": "1次評価について（事務事業評価） | 三重県伊賀市",
+    "url": "https://www.city.iga.lg.jp/0000001409.html",
+    "sourceSha256": "c8c5844231aee7b829a4187ee77045f89228e3010c7b528bcdfef18cdef1be08",
+    "fullTextSha256": "c1146ea2dd08e9f2b430b5d0be01284ff7429fa137002d62b2d2af34f085d509",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "1次評価について（事務事業評価） | 三重県伊賀市\n現在位置\nトップ\n市政情報\n行財政改革・評価\n行政評価\n平成24年度評価結果\nあしあと\n1次評価について（事務事業評価）\n[公開日：2017年2月1日]\n[更新日：2017年2月1日]\nID:1409\nソーシャルサイトへのリンクは別ウィンドウで開きます\n1．評価対象年度\n前年度の事業を\n事後評価\n※平成24年度は、平成23年度事業を評価します。\n"
+    }
+  },
+  {
+    "municipalityCode": "24216",
+    "municipalityName": "伊賀市",
+    "sourceId": "7383ebb7aab5f9dc8d8eb249",
+    "title": "行政評価について",
+    "url": "https://www.city.iga.lg.jp/soshiki/42-2-0-0-0_8.html",
+    "sourceSha256": "e2096552032add7eb12fda22cddc547d497dfd0b0df1363bf6be2e57a7cd392e",
+    "fullTextSha256": null,
+    "inventoryStatus": "missing_body",
+    "listedContinuations": [],
+    "disposition": "missing_body",
+    "reason": "No local source body. All listed continuation metadata inspected; no complete input to parse. New acquisition remains held for original six manifests/full provenance-verifiable cumulative stop ledger; no current network denial claimed.",
+    "parserStatus": "missing_body",
+    "accepted": 0,
+    "duplicates": 0
+  },
+  {
+    "municipalityCode": "24216",
+    "municipalityName": "伊賀市",
+    "sourceId": "cbf60a7528ae2f22feb1bafd",
+    "title": "行政改革課 | 伊賀市行政評価システム | 三重県伊賀市",
+    "url": "https://www.city.iga.lg.jp/soshiki/42-2-0-0-0_7.html",
+    "sourceSha256": "1c52052ae8882e727f35cd8e5a0241dfd51afabe5b5695c60327c96dad4b8746",
+    "fullTextSha256": "70ddb103a5848077b9e4865029807d6ae472a029a9659109510819ab89af27d8",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "行政改革課 | 伊賀市行政評価システム | 三重県伊賀市\n現在位置\nトップ\n各課の窓口\nあしあと\n行政改革課\n伊賀市行政評価システム\n事務事業レビューとは\n[2022年6月30日]\nお問い合わせ\n未来政策部行政改革課\nお問い合わせフォーム"
+    }
+  },
+  {
+    "municipalityCode": "24215",
+    "municipalityName": "志摩市",
+    "sourceId": "f3fbf9064f6d3783a0d840f0",
+    "title": "指定管理業務の評価(令和6年度)／志摩市ホームページ",
+    "url": "https://www.city.shima.mie.jp/kakuka/seisakusuishin/shisan/sitei/8447.html",
+    "sourceSha256": "bb62b7a34ef6c3ccc37cea04a481299f76bdb35e7c67b2e42213d78ab16f7211",
+    "fullTextSha256": "c81ffbc359b8c4fc842922094cf309093436e1d159c36f946105cc9f12c4320c",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "facility_links_without_business_body",
+    "reason": "FY2024 designated-management report links identify facilities. Individual project/result bodies and business-year identity are not present; do not invent a project from facility name.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "指定管理業務の評価(令和6年度)／志摩市ホームページ\n指定管理業務の評価(令和6年度)\n更新日：2025年10月31日\n指定管理者制度導入施設(自治会・老人クラブが指定管理者である施設を除く)における指定管理業務評価の結果を公表します。\n鵜方駅前広場 (PDFファイル: 356.0KB)\n道の駅「伊勢志摩」 (PDFファイル: 401.3KB)\n安乗岬園地休憩舎 (PDFファイル: 405.8KB"
+    }
+  },
+  {
+    "municipalityCode": "24214",
+    "municipalityName": "いなべ市",
+    "sourceId": "a51ddf49409600bab77e2007",
+    "title": "第1次いなべ市総合計画に基づく事務事業評価・施策評価表（平成24年度~平成27年度）｜いなべ市公式ウェブサイト",
+    "url": "https://www.city.inabe.mie.jp/shisei/gyoseihyoka/1002256.html",
+    "sourceSha256": "5d2d3e89ed3c177fbad6f495f968f0fd2fe43d5da534d37d83d4314d3468edb6",
+    "fullTextSha256": "6b2a9ab07748663a47d34529e0c6c1400d4c5e9eb9726f7fb0361cd9e55263f5",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "第1次いなべ市総合計画に基づく事務事業評価・施策評価表（平成24年度~平成27年度）｜いなべ市公式ウェブサイト\n第1次いなべ市総合計画に基づく事務事業評価・施策評価表（平成24年度~平成27年度）\nツイート\nシェア\nページ番号1002256\n更新日\n令和2年1月27日\n印刷\n大きな文字で印刷\n第1次いなべ市総合計画 2006年度（平成18年）から2015年度（平成27年度）\n添付ファイル\n第1次い"
+    }
+  },
+  {
+    "municipalityCode": "24214",
+    "municipalityName": "いなべ市",
+    "sourceId": "e6fb26ef62917e04022b442e",
+    "title": "第2次いなべ市総合計画に基づく事務事業評価・施策評価表（令和3年度~令和7年度） ｜いなべ市公式ウェブサイト",
+    "url": "https://www.city.inabe.mie.jp/shisei/gyoseihyoka/1014543.html",
+    "sourceSha256": "239041fb07b04a2516d104f71db4e0ffe82c55e2edbc24cf9dd82db2c06fa9b5",
+    "fullTextSha256": "add14102c7bdbd855ee5a4fcab5fb095ffcd943152a94f3779b5a41c88f84534",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "第2次いなべ市総合計画に基づく事務事業評価・施策評価表（令和3年度~令和7年度） ｜いなべ市公式ウェブサイト\n第2次いなべ市総合計画に基づく事務事業評価・施策評価表（令和3年度~令和7年度）\nツイート\nシェア\nページ番号1014543\n更新日\n令和8年9月11日\n印刷\n大きな文字で印刷\n第2次いなべ市総合計画 2016年度（平成28年）から2025年度（令和7年度）\n添付ファイル\n第2次いなべ市総"
+    }
+  },
+  {
+    "municipalityCode": "24214",
+    "municipalityName": "いなべ市",
+    "sourceId": "f290022a6b00a0ff5c686868",
+    "title": "行政評価｜いなべ市公式ウェブサイト",
+    "url": "https://www.city.inabe.mie.jp/shisei/gyoseihyoka/index.html",
+    "sourceSha256": "893a324393b28dd60576cd2883675c6dec3e053444b1f3c1fbc99ca6c6e4ae69",
+    "fullTextSha256": "58dde047f118813f941e33f07541010263cdf93045ed652c8f304cba451c6452",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "行政評価｜いなべ市公式ウェブサイト\n行政評価\nツイート\nシェア\nページ番号1002255\n更新日\n令和8年9月11日\n印刷\n大きな文字で印刷\n行政評価とは\nいなべ市では、平成19年度から「行政評価制度」を実施しています。\nこれは、施策ごとに掲げた「めざす姿」の実現に向けて、基本事業ごとに設定した成果指標の進捗を評価することにより行います。評価、点検にあたっては、PDSサイクル（計画、実行、評価、改"
+    }
+  },
+  {
+    "municipalityCode": "24212",
+    "municipalityName": "熊野市",
+    "sourceId": "99fe736c6c39bddf7f5fd71b",
+    "title": "まちづくりアンケート調査・市民満足度調査｜まちづくり｜熊野市",
+    "url": "https://www.city.kumano.lg.jp/administration/?content=154",
+    "sourceSha256": "20dbe98172ec9b73653943f44e2f03d2699539971cd7096dceef737ce4218225",
+    "fullTextSha256": "4c536996a19af829851c258437e7edfbd7e6cfc073685a29697433b3ccec1eff",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "まちづくりアンケート調査・市民満足度調査｜まちづくり｜熊野市\nまちづくりアンケート調査・市民満足度調査\n更新日：\n2026年07月01日\n本調査は、「熊野市総合計画」の進行管理を目的として、市の施策に対する市民の満足度・重要度や施策ごとに設定している成果指標(数値目標)の達成度を把握するために実施しています。\nまた、調査結果は、今後の行政サービスの向上、各施策を展開する上での基礎資料として活用しま"
+    }
+  },
+  {
+    "municipalityCode": "24211",
+    "municipalityName": "鳥羽市",
+    "sourceId": "0a91761ffa5d28e141ea4660",
+    "title": "総合計画審議会／鳥羽市ホームページ",
+    "url": "https://www.city.toba.mie.jp/soshiki/senryaku/gyomu/shingikai_iinkai/1482.html",
+    "sourceSha256": "62d938d029040155b0eaeea4c0529685a353afb48e5233bed0d78f3fe14fccb9",
+    "fullTextSha256": "6ded86394312c590f8923038f41dccd29d5c12ca73d0d2acfbeba9f67668e32c",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "総合計画審議会／鳥羽市ホームページ\n総合計画審議会\n更新日：2026年03月23日\n鳥羽市総合計画審議会（会議記録）\n令和8年度\n準備中\n令和7年度\n答申（R7.12.10）\n令和7年10月6日付けの諮問について、令和7年12月10日付けで答申されました。\n【答申】第六次鳥羽市総合計画「後期基本計画」の策定及び「第2期鳥羽市まち・ひと・しごと創生総合戦略」の評価について(PDFファイル:2MB)\n"
+    }
+  },
+  {
+    "municipalityCode": "24211",
+    "municipalityName": "鳥羽市",
+    "sourceId": "9dbbe0e50d687777a10a4d02",
+    "title": "【答申】第六次鳥羽市総合計画「後期基本計画」の策定及び「第2期鳥羽市まち・ひと・しごと創生総合戦略」の評価について(PDFファイル:2MB)",
+    "url": "https://www.city.toba.mie.jp/material/files/group/2/R7sokeishin_toshin2.pdf",
+    "sourceSha256": "9c65e285254265174120a929ecf57254d7189eead57b9ecb8d34a3bc5b826c03",
+    "fullTextSha256": "953c7c54de1a402862c31f1d6b7d0ad014cc4ec8d8d46e2d98b6d9fd8c2f9788",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "plan_and_policy_summary",
+    "reason": "Council response includes the future basic plan, cross-policy circle matrix and strategic directions, not134 individual completed-business sheets. Date of council response does not establish each policy/project fiscal year.",
+    "parserStatus": "unsupported_layout",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "令和７年１２月１０日\n\n鳥羽市長 小竹\n\n篤\n\n様\n\n鳥羽市総合計画審議会\n会 長 池山 敦\n\n第六次鳥羽市総合計画「後期基本計画」の策定及び「第２期鳥羽市まち・ひ\nと・しごと創生総合戦略」の評価について（答申）\n\n令和７年１０月６日付け貴職の諮問について、下記および別添のとおり答申する。\n本計画の推進及び後期基本計画の策定にあたっては、国・県等の関係機関との協議\nを踏まえたうえで、本市の将来像で"
+    }
+  },
+  {
+    "municipalityCode": "24211",
+    "municipalityName": "鳥羽市",
+    "sourceId": "2b3007701fb8c6d2d9cb51ae",
+    "title": "資料2ー1：第2期鳥羽市まち・ひと・しごと総合創生戦略の進展度評価(PDFファイル:267.8KB)",
+    "url": "https://www.city.toba.mie.jp/material/files/group/2/R7_1_02-1.pdf",
+    "sourceSha256": "24c71014260ac2659c73269cbae7d59eb7b6498a5021c908af9195542af0c6d4",
+    "fullTextSha256": "212c6bb957513c5b075bc67559f5eb2ab64a0f0deb83928805806615f9338b1b",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "policy_level_evidence",
+    "reason": "Five strategic goals, committee average scores and summary recommendations; no independent named annual business sheet.",
+    "parserStatus": "unsupported_layout",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "第２期鳥羽市まち・ひと・しごと総合創生戦略の進展度評価\n委員評価\nの平均点\n（※１）\n\n１．働く場の創出・人材育成\n\n２．新しいひとの流れ・ひとの交流\n\n３．誰もが活躍できるまち\n\n４．地域経営の視点に立ち、時代に\n合ったまちづくり、安心した暮らしの\n確保\n\n５．連携施策等\n\n3.0\n\n2.0\n\n2.8\n\n2.1\n\n2.1\n\n【資料２－１】\n\n評価案\n（※２）\n\n評価内容（委員の意見・要望をまとめ"
+    }
+  },
+  {
+    "municipalityCode": "24211",
+    "municipalityName": "鳥羽市",
+    "sourceId": "22cf9c860a53207c9cdfecd2",
+    "title": "参考資料4：第2期鳥羽市まち・ひと・しごと創生総合戦略 目標指標を基にした進展度評価一覧(PDFファイル:648.2KB)",
+    "url": "https://www.city.toba.mie.jp/material/files/group/2/R7_1_FYI4.pdf",
+    "sourceSha256": "82e93284895af86d6086f798374b560808c83d399a3c20e1548f75c0fe62930e",
+    "fullTextSha256": "28f30c95b8be3e71d3dd3f84e6491b3f8584f7d35d2ff780573a98df533f47ad",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "policy_kpi_summary",
+    "reason": "Strategic direction/KPI table with historical and target columns; existing detailed annual business source reviewed separately. KPI rows are not projects.",
+    "parserStatus": "unsupported_layout",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "第２期鳥羽市まち・ひと・しごと創生総合戦略\n基本的方向性\n\n基本目標\n\n参考資料4\n\n目標指標を基にした進展度評価一覧\n\n具体的な取り組み・施策\n\n目標指標\n\n単位\n\n（令和７年８月20日付け意見照会資料の一部修正）\nH30\n\nR2\n\nR3\n\nR4\n\nR5\n\nR6\n\n目標（R7)\n\n進展度\n\n得点\n\n合計評価\nB\n\n総合評価\n\n市民が就労している割合\n（市民税所得割納税義務者数÷生産年齢\n\nプチ勤"
+    }
+  },
+  {
+    "municipalityCode": "24211",
+    "municipalityName": "鳥羽市",
+    "sourceId": "3e0ba0f10e4637bd045e9ce9",
+    "title": "第2期鳥羽市まち・ひと・しごと創生総合戦略の実績（R2～R6）(PDFファイル:2.1MB)",
+    "url": "https://www.city.toba.mie.jp/material/files/group/2/R7_iken_2-1.pdf",
+    "sourceSha256": "172db177b6bab22e3053c44c671bab603dbb409fd9b7f9a9b0eada541eb7a94b",
+    "fullTextSha256": "70c5515814b8376e610bb699f7c898f094def1f93a61d322bf35c6d2914a8ca6",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 195,
+    "rowHolds": [
+      {
+        "start": 41973,
+        "raw": "地域おこし協力隊事業",
+        "reason": "FY2024 assignment ofふるさと納税推進officer overlaps the same assignment described under地域おこし協力隊支援事業. Exact distinct budget/project identity not established; keep both original contexts but do not add a second annual record."
+      }
+    ],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 195,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "意見票２の確認対象\n第２期鳥羽市まち･ひと･しごと創生総合戦略\n（計画期間：令和２年度～令和７年度）\n\n令和２～６年度を通じての評価\n\n令和２年３月\n令和 7 年 3 月改訂\n鳥\n\n羽\n\n1\n\n市\n\n\n総合戦略の施策体系\n基本目標（将来の姿）\n\n基本的方向\n\n『働く場の創出・人材育成』\n\n①魅力ある働く場の創出\n\n１．多様な働き方を認め合い、若者\nが地元で働き、女性や高齢者、\n障がい者等、誰もが役"
+    }
+  },
+  {
+    "municipalityCode": "24211",
+    "municipalityName": "鳥羽市",
+    "sourceId": "8102656292585e561a2bea27",
+    "title": "第2期鳥羽市まち・ひと・しごと創生総合戦略評価指標一覧表（R2～R6）(PDFファイル:604.1KB)",
+    "url": "https://www.city.toba.mie.jp/material/files/group/2/R7_iken_2-2.pdf",
+    "sourceSha256": "5d1d80d0f1f0edd7ef46b57cdc34883d0f69208462f1d0adabdfbd4de1166bef",
+    "fullTextSha256": "b5d3ef5d8013fc6419f7dad790380d5de452420e485e5be3006348e1d26fbd65",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "policy_kpi_summary",
+    "reason": "R2–R6 indicator table and target R7; no year expansion from indicator column presence.",
+    "parserStatus": "unsupported_layout",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "第２期鳥羽市まち・ひと・しごと創生総合戦略\n基本的方向性\n\n基本目標\n\n目標指標を基にした進展度評価一覧（意見票２の確認対象の参考）\n\n具体的な取り組み・施策\n\n目標指標\n\n単位\n\nH30\n\nR2\n\nR3\n\nR4\n\nR5\n\nR6\n\n目標（R7)\n\n進展度\n\n得点\n\n合計評価\nB\n\n総合評価\n\n市民が就労している割合\n（市民税所得割納税義務者数÷生産年齢\n\nプチ勤務、マッチング、無料職業\n紹介所運営"
+    }
+  },
+  {
+    "municipalityCode": "24211",
+    "municipalityName": "鳥羽市",
+    "sourceId": "ff546c3e4b031367d26933d6",
+    "title": "【答申】第六次鳥羽市総合計画「前期基本計画」及び「第2期鳥羽市まち・ひと・しごと創生総合戦略」の評価について(PDFファイル:419.1KB)",
+    "url": "https://www.city.toba.mie.jp/material/files/group/2/R6sokeishin_toshin.pdf",
+    "sourceSha256": "1ccf8b8b18b302e90d0da322c86fb07defb2d35c52d9f43513e8380a9dcc7def",
+    "fullTextSha256": "d5946c35b6d9e52ec904ffc90d51773e157e732f166f503d6828f9c9fcdbb947",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "policy_level_evidence",
+    "reason": "Council response evaluates basic-plan policy objectives and gives recommendations; no additional individually dated business units established.",
+    "parserStatus": "unsupported_layout",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "令和７年３月３１日\n\n鳥羽市長\n\n中村\n\n欣一郎\n\n様\n\n鳥羽市総合計画審議会\n会 長 板 井 正 斉\n\n第六次鳥羽市総合計画「前期基本計画」及び「第２期鳥羽市まち・ひ\nと・しごと創生総合戦略」の評価について（答申）\n\n令和７年２月６日付け貴職の諮問に基づき第六次鳥羽市総合計画「前期基本\n計画」及び「第２期鳥羽市まち・ひと・しごと創生総合戦略」の進展度に関する\n評価について、別添のとおり答申します"
+    }
+  },
+  {
+    "municipalityCode": "24211",
+    "municipalityName": "鳥羽市",
+    "sourceId": "06b53f70e3b19fd1e3c8d4bd",
+    "title": "資料3の1 総合計画前期基本計画課題指標達成状況一覧 (PDFファイル: 396.1KB)",
+    "url": "https://www.city.toba.mie.jp/material/files/group/2/soukei_sihyou.pdf",
+    "sourceSha256": "c94c34b0be087c2a3a380123ab9b61ed182ab873a4e94bcbf631da26107cffa1",
+    "fullTextSha256": "6015630ce81e1cf644e06b088aa15e49728f371f0cfbc58083540666c0753bcb",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "policy_kpi_summary",
+    "reason": "Policy goal/issue indicator achievement table. Counts, population and satisfaction measures are not independent business names.",
+    "parserStatus": "unsupported_layout",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "【資料３の１】\n鳥羽市総合計画 前期基本計画\n政策の柱\n\nカテゴリ\n\n施策目標\n（シート番号）\n\n課題指標達成状況一覧表\n\n課題指標名\n\n1\n1・子育て ①子どもと子育て\n出産・子育て\n家庭をやさしく支\nを支え、学び\nえる\nと交流が活\n発に行われ\nるまち\n出生数\n\n2・教育・人 ②子どもの未来\n材育成\nの礎となる鳥羽な\nらではの教育を\n18 歳以下人口\n進める\n\n現状値\n\n83人\n（R1）\n\n2,"
+    }
+  },
+  {
+    "municipalityCode": "24211",
+    "municipalityName": "鳥羽市",
+    "sourceId": "1a321be61d16d0218862b5d6",
+    "title": "資料3の2 前期基本計画施策評価シート（R3～R5） (PDFファイル: 4.6MB)",
+    "url": "https://www.city.toba.mie.jp/material/files/group/2/soukeihyouka.pdf",
+    "sourceSha256": "acca21372ef2ae85e85ca899589a3f4cc5c98e5834a293f9720a1a97474c6044",
+    "fullTextSha256": "6911f14ec5ced37e530eb582411378060d7565d058e71ebbce9644e08e192f92",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 12,
+    "rowHolds": [],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 12,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "【資料３の２】\n前期基本計画 施策評価シート（Ｒ３～R５）\n\n主担当課 健康福祉課（子育）\n\nカテゴリ\n\n1\n1\n\n出産・子育てを支え、学びと交流が活発に行われるまち\n子育て\n\n施策目標\n\n①\n\n子どもと子育て家庭をやさしく支える\n\n政策の柱\n\nみんなでめざす\nまちの姿\n\n課題指標名\n出生数\n\n関係課\n\n健康福祉課（医療）、学校教育課\n\n現状値\n\nめざす方向\n\nR3\n\nR4\n\nR5\n\nR6\n\nR7"
+    }
+  },
+  {
+    "municipalityCode": "24211",
+    "municipalityName": "鳥羽市",
+    "sourceId": "a2220315a600dddc6d4aec25",
+    "title": "資料4の1 第2期総合戦略の目標指標を基にした進展度評価一覧 (PDFファイル: 319.8KB)",
+    "url": "https://www.city.toba.mie.jp/material/files/group/2/senryakuhyouka.pdf",
+    "sourceSha256": "cd9ebfa8f13c60ae9ec30f239eb3b3645f55375ec898b89233c3f23834854de6",
+    "fullTextSha256": "a6ea7bae1c12f3c1b0d75d57eedf22054005b3b1e5335643866be1ec81b263fe",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "policy_kpi_summary",
+    "reason": "Strategic KPI achievement summary, including repeated indicators and internal/external policy ratings; no business-level rating assignment.",
+    "parserStatus": "unsupported_layout",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "【資料４の１】\n第２期鳥羽市まち・ひと・しごと創生総合戦略\n基本的方向性\n\n基本目標\n\n1\n\n魅力ある働く場の\n創出\n\n具体的な取り組み・施策\n\n多様な働き方を認め合い、\n若者が地元で働き、女性や\n高齢者、障がい者等、誰も\nが役割を持ち、地域産業の\n担い手として活躍している\n\n得点\n\n合計評価\n\n70\n\nA\n\n4\n\nA\n\n10\n\n40\n\nC\n\n2\n\n0\n\n0\n\n2\n\nD\n\n1\n\n11\n\n27\n\n3"
+    }
+  },
+  {
+    "municipalityCode": "24211",
+    "municipalityName": "鳥羽市",
+    "sourceId": "df7e7c06e891b146ef555b5c",
+    "title": "資料4の2 第2期総合戦略R2～R5実績評価結果 (PDFファイル: 1.6MB)",
+    "url": "https://www.city.toba.mie.jp/material/files/group/2/sennyakuhyouka.pdf",
+    "sourceSha256": "0ed21482379e2797b23dd847ff7514992668689ea451c35dbed161a9a1059600",
+    "fullTextSha256": "d846cccc03aea7c49e9707e0ba2827fc13c4252aa16f35744a54a0d0351330b0",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 2,
+    "rowHolds": [],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 2,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "第２期鳥羽市まち･ひと･しごと創生総合戦略\n（計画期間：令和２年度～令和６年度）\n\n令和２～５年度を通じての評価\n\n令和７年２月\n鳥\n\n羽\n\n1\n\n市\n\n\n【資料４の２】\n総合戦略の施策体系\n基本目標（将来の姿）\n\n基本的方向\n\n『働く場の創出・人材育成』\n\n①魅力ある働く場の創出\n\n１．多様な働き方を認め合い、若者\nが地元で働き、女性や高齢者、\n障がい者等、誰もが役割を持\nち、地域産業の担い手と"
+    }
+  },
+  {
+    "municipalityCode": "24211",
+    "municipalityName": "鳥羽市",
+    "sourceId": "576400d9deb371c1a5ff04c0",
+    "title": "資料5の1 総合計画・総合戦略の評価実施方法（案） (PDFファイル: 104.1KB)",
+    "url": "https://www.city.toba.mie.jp/material/files/group/2/hyoukahouhou.pdf",
+    "sourceSha256": "b0ab987c71ee3771c20c5df4284dc356be19b791121526f1436c180c5ea5672c",
+    "fullTextSha256": "3a030582dfa62579212b88d86a71eaa56771a9eb290ba96dff51346d34c9a53c",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "method_template",
+    "reason": "Evaluation method draft and blank opinion forms; not completed individual business evidence.",
+    "parserStatus": "unsupported_layout",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "【資料5の１】\n総合計画・総合戦略の評価実施方法（案）\n１\n\n総合計画前期基本計画の効果検証の方法\n（１）概要\n総合計画の前期基本計画の施策目標ごとに設定した「課題指標の達成状況」や「施策の展\n開と成果」及び計画に掲げた「みんなでめざすまちの姿」に対する到達状況の一次評価（内\n部評価）の結果（前期基本計画 施策評価シート）をもとに、市民アンケート結果等も加味\nしつつ、施策に関する評価を行うものとし"
+    }
+  },
+  {
+    "municipalityCode": "24210",
+    "municipalityName": "亀山市",
+    "sourceId": "24c9d2a7cd5502183f97ce5f",
+    "title": "事務事業評価（主要事業） | 亀山市",
+    "url": "https://www.city.kameyama.mie.jp/docs/2023081000019/",
+    "sourceSha256": "a6f206c6c1b3de81f90596bbf3d10864d54d7156a06b45f5130efacf53d82925",
+    "fullTextSha256": "09c9ce17fa63c1e83a89d350e768b900cabac5e8cfc14ee51fc36c005e05b582",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "year_semantics_hold",
+    "reason": "123 named business link rows and410 yearly PDF cells are cached. Year headings label evaluation results but do not explicitly distinguish evaluated-business fiscal year from evaluation year. Need saved underlying individual sheet/header or other explicit annual-target statement; no refetch.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "事務事業評価（主要事業） | 亀山市\nホーム\nカテゴリ\n分野\n市政情報\n行政評価・行財政改革\n行政評価\nホーム\nカテゴリ\n組織\n政策部\n政策推進課\n政策調整グループ\nホーム\n組織\n政策部\n政策推進課\n政策調整グループ\n事務事業評価（主要事業）\nツイート\nシェア\nこのページを印刷する\n公開日 2023年08月25日\n更新日 2026年08月28日\n評価結果\n第2次総合計画後期基本計画の実施計画に位置"
+    }
+  },
+  {
+    "municipalityCode": "24210",
+    "municipalityName": "亀山市",
+    "sourceId": "8460b028f1607f9f60b76f36",
+    "title": "行政評価・行財政改革 | 亀山市",
+    "url": "https://www.city.kameyama.mie.jp/categories/bunya/gov/hyoka/",
+    "sourceSha256": "7b32bfd1c73e7f96058327cbc397c5fcf2132585f036e85e582afbc491f67ac3",
+    "fullTextSha256": "cd4aaba5826246cd05254c1fdaf6a9ebdc148ed38876b47652c39b19561f49f9",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "行政評価・行財政改革 | 亀山市\nホーム\nカテゴリ\n分野\n市政情報\n行政評価・行財政改革\n行政評価・行財政改革\nツイート\nシェア\nこのページを印刷する\n行政評価\n行政評価（第2次総合計画後期基本計画）\n行政評価（第2次総合計画前期基本計画）\n地方行政サービス改革に関する取組状況等調査結果\n施策評価（第2次総合計画後期基本計画）\n事務事業評価（主要事業）\n分野別計画（第2次総合計画後期基本計画）\n外"
+    }
+  },
+  {
+    "municipalityCode": "24210",
+    "municipalityName": "亀山市",
+    "sourceId": "87b4cc7e3dbf1c7d1df6368c",
+    "title": "行政評価",
+    "url": "https://www.city.kameyama.mie.jp/categories/bunya/gov/hyoka/gyouseihyouka/",
+    "sourceSha256": "73f76e9d961de3f942e05dba1fa0fda3b437b86554e86a4e6e11c3fe8d90e290",
+    "fullTextSha256": "d59935f922251101c3fe2e41986c2fc9c682d8ac73ce17752d01b06ff767ad84",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "行政評価 | 亀山市\nホーム\nカテゴリ\n分野\n市政情報\n行政評価・行財政改革\n行政評価\n行政評価\nツイート\nこのページを印刷する\n行政評価（第2次総合計画後期基本計画）\n行政評価（第2次総合計画前期基本計画）\n地方行政サービス改革に関する取組状況等調査結果\n施策評価（第2次総合計画後期基本計画）\n事務事業評価（主要事業）\n分野別計画（第2次総合計画後期基本計画）\n外部評価（行政評価）"
+    }
+  },
+  {
+    "municipalityCode": "24209",
+    "municipalityName": "尾鷲市",
+    "sourceId": "c26e3497549bec823dc7a0d3",
+    "title": "令和6年度 第2期尾鷲市まち・ひと・しごと創生総合戦略 効果検証について | 尾鷲市",
+    "url": "https://www.city.owase.lg.jp/0000022489.html",
+    "sourceSha256": "a789a3ebab1bf2e671c3d706bb37f7a41ec8855894817d47172085ecd24a4305",
+    "fullTextSha256": null,
+    "inventoryStatus": "missing_body",
+    "listedContinuations": [],
+    "disposition": "missing_body",
+    "reason": "No local source body. All listed continuation metadata inspected; no complete input to parse. New acquisition remains held for original six manifests/full provenance-verifiable cumulative stop ledger; no current network denial claimed.",
+    "parserStatus": "missing_body",
+    "accepted": 0,
+    "duplicates": 0
+  },
+  {
+    "municipalityCode": "24209",
+    "municipalityName": "尾鷲市",
+    "sourceId": "f4cedf44b79e39f9d1cd083e",
+    "title": "総合戦略検証シート",
+    "url": "https://www.city.owase.lg.jp/cmsfiles/contents/0000022/22489/01R6kensyou.pdf",
+    "sourceSha256": "5baa720019db14fa5524b31a908d0b1e3b6194be36a1439c87092a6140a9ac5f",
+    "fullTextSha256": "d35fe43e2992b078827024e680347cefb3f4a18b8c351ab9feb45580d6e3eee3",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "policy_summary_covered_detail",
+    "reason": "FY2024 publication summarizes FY2023 policy indicators and committee comments.46 business-name cells reviewed in separate detailed FY2023 source256707…; do not assign publication year2024 as execution year.",
+    "parserStatus": "unsupported_layout",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "令和６年度版\n\n第２期尾鷲市まち・ひと・しごと創生総合戦略\n検証シート\n\n令和６年１２月\n尾鷲市\n\n\n基本目標１\n\n稼ぐまちをつくるとともに、安心して働けるようにする\n\n施策概要・目的\n人口減少の進行とともに、労働力人口の減少、消費市場の縮小が進むなか、地域の稼ぐ力を高め、やりがいを感じることのできる魅力\n的なしごと・雇用機会を十分に創出し、誰もが安心して働けるようにすることが必要であり、そのため"
+    }
+  },
+  {
+    "municipalityCode": "24209",
+    "municipalityName": "尾鷲市",
+    "sourceId": "2567071ef744e43c8a9a7902",
+    "title": "総合戦略検証詳細一覧",
+    "url": "https://www.city.owase.lg.jp/cmsfiles/contents/0000022/22489/02R6itiran.pdf",
+    "sourceSha256": "b8ad5828a5b63abb95977eca22b10f83d04f1ba6b4368bf0fff99f8c9f59dac8",
+    "fullTextSha256": "a7ff1451d57d0c9b1e4a1ff5e230eca48335ce398e1a3a22d9ede93678d2503a",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 46,
+    "rowHolds": [
+      {
+        "start": 18369,
+        "raw": "文化k材一般保護事業",
+        "reason": "Cached title contains anomalous k glyph; no authoritative correction in available text. Exact title identity unresolved."
+      },
+      {
+        "start": 9256,
+        "raw": "育児サークル",
+        "reason": "Following name fragment っぴい appears incomplete/interleaved; cannot reconstruct complete named entity."
+      },
+      {
+        "start": 8548,
+        "raw": "企業版ふるさと納税寄付額",
+        "reason": "Name-column text denotes donation amount, not explicit distinct business identity; do not convert KPI/amount label to project."
+      },
+      {
+        "start": 8832,
+        "raw": "移住交流サイト使用料",
+        "reason": "Named expense line may be a component of regional engagement project; independent project identity unresolved."
+      }
+    ],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 46,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "令和５年度 第２期尾鷲市まち・ひと・しごと創生総合戦略に係る事業実施結果報告 （重要業績評価指標（KPI）の実績値等）\n≪総合的な指標≫\n\n重要業績評価指数\n（KPI)\n\n現状値\n（R2）\n\n目標値\n（Ｒ8）\n\n単位\n\n0\n\n-28\n\n246\n\n人\n\n-8\n\n-3%\n\n政策調整課\n\n1.58\n\n1.58\n\n1.82\n\n人\n\n1.53\n\n84%\n\n福祉保健課\n\n指標① 尾鷲市人口の社会減少抑制数\n指"
+    }
+  },
+  {
+    "municipalityCode": "24209",
+    "municipalityName": "尾鷲市",
+    "sourceId": "67e577239d5f89ad30fe1f5f",
+    "title": "事業評価シート",
+    "url": "https://www.city.owase.lg.jp/cmsfiles/contents/0000022/22489/03R6hyoukashito.pdf",
+    "sourceSha256": "23b6e5c70bff3907c99c35fcd3e42651f6f05a7a69ca73ec36c44e2566d10e38",
+    "fullTextSha256": "18c17449d87effa90101e651e1dd413045686791c6eee77a6e691a6c42d2a736",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 3,
+    "rowHolds": [],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 3,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "デジタル田園都市国家構想交付金に係る事業評価シート\n実績額（単位：円）\nNo 交付対象事業の名称\n\n本事業における重要業績評価指標（KPI）と実績値\n\n本事業終了後における評価\n\n事業の概要\n単年度ごとの目標値と実績\n総事業費\n\n交付金\n充当経費\n\n指標\n\n単\n位\n\n目標値\nR3\n\nR3\n実績値\n\n目標値\nR4\n\nR4\n実績値\n\n３年間の目標値と実績\n目標値\nR5\n\nR5\n実績値\n\nR5\n実績値\n"
+    }
+  },
+  {
+    "municipalityCode": "24208",
+    "municipalityName": "名張市",
+    "sourceId": "0f488e4c40fa6b32a00ac2ad",
+    "title": "行政評価｜名張市",
+    "url": "https://www.city.nabari.lg.jp/130/045/080/index.html",
+    "sourceSha256": "ae00151b94c4adf294d28a1b5787174eb97a828859d124882cc6caa1517233e1",
+    "fullTextSha256": "a1d1031e7b265d3182ed8be4aa796f7341deb587d816641fc358f4bb5b42e73a",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "行政評価｜名張市\nメニューにジャンプ\nコンテンツにジャンプ\nメニュ－\nさがす\n閲覧補助\nトップページ\n>\n市政情報\n>\n市の行財政\n> 行政評価\n行政評価\n平成24年度\n平成25年度\n平成26年度\n平成27年度\n平成28年度\n平成29年度\n平成30年度\n令和元年度\n令和2年度\n令和3年度\n令和4年度\n令和5年度\n令和6年度"
+    }
+  },
+  {
+    "municipalityCode": "24207",
+    "municipalityName": "鈴鹿市",
+    "sourceId": "74ff910c8a378d6b398e00cf",
+    "title": "行政評価｜鈴鹿市公式ウェブサイト",
+    "url": "https://www.city.suzuka.lg.jp/shisei/gyozaisei/1006622/index.html",
+    "sourceSha256": "1d138e56320158b0a4516e001ff0999c2c738d532b39aebe1930417233d0278b",
+    "fullTextSha256": "30d5194d5ce2cb290aa605c7462806c02abe9e4187a7ed842121f9387e055933",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "行政評価｜鈴鹿市公式ウェブサイト\n行政評価\nページ番号1006622\n印刷\n大きな文字で印刷\n鈴鹿市では、市民に対する説明責任を果たすことや成果重視の経営型行政への転換などを目的として、平成15年度から行政評価を実施しています。\nまた、平成28年度からは予算や行財政改革などの個別のマネジメントシステムを統合し、総合計画を中心とした総合的な行政マネジメントシステム（トータルマネジメントシステム）の一"
+    }
+  },
+  {
+    "municipalityCode": "24205",
+    "municipalityName": "桑名市",
+    "sourceId": "0a673e61ea60a881becd7200",
+    "title": "令和４年度 決 算 成 果 報 告 書 （主要な施策の成果） 桑 名 市",
+    "url": "https://www.city.kuwana.lg.jp/documents/1655/r4kessannseika.pdf",
+    "sourceSha256": null,
+    "fullTextSha256": null,
+    "inventoryStatus": "missing_body",
+    "listedContinuations": [],
+    "disposition": "missing_body",
+    "reason": "No local source body. All listed continuation metadata inspected; no complete input to parse. New acquisition remains held for original six manifests/full provenance-verifiable cumulative stop ledger; no current network denial claimed.",
+    "parserStatus": "missing_body",
+    "accepted": 0,
+    "duplicates": 0
+  },
+  {
+    "municipalityCode": "24205",
+    "municipalityName": "桑名市",
+    "sourceId": "aa81e79d59dd6ea61cbd5fda",
+    "title": "令和6年度決算成果報告書",
+    "url": "https://www.city.kuwana.lg.jp/documents/1655/r6kessan_seika.pdf",
+    "sourceSha256": "2a8b911abe2998d662e2dd0050a967399460005d50c817898346397d6878acd0",
+    "fullTextSha256": "b9793c6ef3b3ca42b8c0fe2ee601862cfc6a05a0350d062f2c55eb428bbb7e96",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 87,
+    "rowHolds": [
+      {
+        "start": 96602,
+        "raw": "車両購入費",
+        "reason": "Same name/year/department 車両購入費 as sheet67 but distinct budget item 長島木曽岬分署消防費; preserve separate sheet pending explicit identity discriminator support, do not invent a title or overwrite first record."
+      }
+    ],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 87,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "令和６年度\n\n決 算 成 果 報 告 書\n（主要な施策の成果）\n\n桑\n\n名\n\n市\n\n\n\n目\n\n次\n\n令和６年度決算成果報告書\n1．一般会計\n（1）決\n\n算\n\n規\n\n模\n\nと\n\n実\n\n質\n\n収\n\n支\n\nの\n\n状\n\n況\n\n・・・・・・・・\n\n1\n\n（2）決\n\n算\n\n概\n\n要\n\n・・・・・・・・\n\n1\n\n（3）主\n\nな\n\n増\n\n減\n\n・・・・・・・・\n\n1\n\n（4）歳\n\n入\n\nの\n\n款\n\n別\n\n一\n\n覧"
+    }
+  },
+  {
+    "municipalityCode": "24204",
+    "municipalityName": "松阪市",
+    "sourceId": "016a1a18b0546f443a85ca35",
+    "title": "令和７年度 部局長の実行宣言（ダイジェスト版） [PDFファイル／525KB]",
+    "url": "https://www.city.matsusaka.mie.jp/uploaded/life/180314_703923_misc.pdf",
+    "sourceSha256": "8325ac46a321104d92a8b022987949050cfa0070033aaa5b19fe3cb236d1a4d4",
+    "fullTextSha256": "af053e9764677175248489e4c2c63733f14ac1b59396303703997ac1fb0b8e5a",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "future_declarations",
+    "reason": "FY2025 department-head declaration digest describes intended work. Actual FY2024 result blocks were reviewed from seven complete chapters; declarations are not completed annual results.",
+    "parserStatus": "unsupported_layout",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "令和７年度 部局長の\n「実行宣言」\n～ダイジェスト版～\n『部局長の「実行宣言」』について\n『部局長の「実行宣言」』は、部局長及び理事が、年度期首に前年度実績を「評価」した\n上で、今年度の「目標」を設定する取組です。\n１．実施目的\n『部局長の「実行宣言」』には、次の２つの目的があります。\n①「評価」に基づく「見直し」の促進\n各部局の前年度実績を「評価」し、改善点を明らかにすることで、事務・事業の実施"
+    }
+  },
+  {
+    "municipalityCode": "24204",
+    "municipalityName": "松阪市",
+    "sourceId": "06ea9487cf300d6d8de16caf",
+    "title": "政策4 人も地域も頑張る力 [PDFファイル／373KB]",
+    "url": "https://www.city.matsusaka.mie.jp/uploaded/life/180314_703918_misc.pdf",
+    "sourceSha256": "42cfd1d785964dfcbcbebd77a0d85c492ba06f0e4470564a6e2245fcd5fbca0f",
+    "fullTextSha256": "5333ad2e09f9c1d68007025564b231e0e0e9c590792c6f38be66d82ba5af42da",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 3,
+    "rowHolds": [],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 3,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "第2章 各施策の「評価」と「実行宣言」\n４．人も地域も頑張る力 ①市民活動･社会教育の推進\n評価者 地域振興担当理事 蒲原 智之\n令和6年度 実行宣言\n・今年度、モデル地区が3地区となったことから地区市民センターや地区公民館などの公共施設については、地域づくりの拠点施設としての\n役割を持つコミュニティセンター化について更に検証し、住民自治協議会が持続的に運営し地域に応じた利活用ができるよう進めてい"
+    }
+  },
+  {
+    "municipalityCode": "24204",
+    "municipalityName": "松阪市",
+    "sourceId": "0b162555be1ac7aa318c2b29",
+    "title": "政策3 活力ある産業 [PDFファイル／420KB]",
+    "url": "https://www.city.matsusaka.mie.jp/uploaded/life/180314_703915_misc.pdf",
+    "sourceSha256": "8f561ad48bd0924bcca81d11a1a6985e896c8c8e3235643006ec072811f2446f",
+    "fullTextSha256": "106164ba4cb3f1a45685d50b21efaa2c6f2302cdce8349a343d00f3271544c8e",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 4,
+    "rowHolds": [],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 4,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "第2章 各施策の「評価」と「実行宣言」\n3．活力ある産業 ① 農業・水産業の振興\n評価者 農林水産担当理事 谷川 英次\n令和6年度 実行宣言\n・農業経営を効率的に行うための基盤整備を推進し、担い手の経営発展に向けた農業用機械・施設の導入について支援することで農地集積\nの拡大をめざします。\n・カーボンニュートラルの取組として、化学農薬や化学肥料を抑えた環境保全に効果の高い営農活動を推進します。\n・獣"
+    }
+  },
+  {
+    "municipalityCode": "24204",
+    "municipalityName": "松阪市",
+    "sourceId": "453517d3ec451c02aab80deb",
+    "title": "政策2 いつまでもいきいきと [PDFファイル／365KB]",
+    "url": "https://www.city.matsusaka.mie.jp/uploaded/life/180314_703914_misc.pdf",
+    "sourceSha256": "98d94fd22214d56689f9842b7861fc5fcd30c1d9f2e177f0ecab31ab9aa83fa4",
+    "fullTextSha256": "6ed9a0b64c8fcfd55edb535c37d78dad3511cdf121caea41e7438e32fb58e5e8",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 2,
+    "rowHolds": [],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 2,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "第2章 各施策の「評価」と「実行宣言」\n２．いつまでもいきいきと ①健康づくりの推進\n評価者 保険健康担当理事 大西 学\n令和6年度 実行宣言\n・「第3次松阪市健康づくり計画」の1年目として、3つの重点目標を推進します。\n１．おいしくバランスよく食べよう\n２．毎日カラダを動かそう！+１０（プラステン）\n３．自分にあった健康管理をしよう\n・引き続き、「ナッジ理論」を活用しながら、特定健康診査、がん検"
+    }
+  },
+  {
+    "municipalityCode": "24204",
+    "municipalityName": "松阪市",
+    "sourceId": "73451e4e552336d624d59369",
+    "title": "令和7年度 部局長の「実行宣言」 - お肉のまち 松阪市公式ホームページ",
+    "url": "https://www.city.matsusaka.mie.jp/soshiki/3/r7-jikkousengen.html",
+    "sourceSha256": "4a57c7bc3fbfb0d95f31beb15f1ad11acb0b8b9d64ef793341d661f7ad561924",
+    "fullTextSha256": "f217490b358b986cc1a6ad0f078211acdc00168982421d0f1e38dd23a9bd3674",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "令和7年度 部局長の「実行宣言」 - お肉のまち 松阪市公式ホームページ\n本文\n令和7年度 部局長の「実行宣言」を公表します。\n市長あいさつ\nこのたびは、『令和7年度 部局長の「実行宣言」』をご覧いただき、\nありがとうございます。\n新型コロナウイルス感染症が５類化移行した以降、大きく変わる社会情勢に対応できるよう、さらなるこども・子育て施策の充実や、防災・減災対策、道路等の整備、高齢者支援や障がい"
+    }
+  },
+  {
+    "municipalityCode": "24204",
+    "municipalityName": "松阪市",
+    "sourceId": "7cb979e04fdf0910d6237dbd",
+    "title": "政策6 快適な生活 [PDFファイル／413KB]",
+    "url": "https://www.city.matsusaka.mie.jp/uploaded/life/180314_703920_misc.pdf",
+    "sourceSha256": "2ed3175866c0548a701bebfcee7ac2d915c2f3cc7e7b336e513eac6ae44628bf",
+    "fullTextSha256": "a5621e3617749d1910c93b6873cc26938ad3e8103815e6992586621604d2ea9f",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 1,
+    "rowHolds": [],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 1,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "第2章 各施策の「評価」と「実行宣言」\n６．快適な生活 ①自然と生活の環境保全\n評価者 環境生活部 武田 誉利子\n令和6年度 実行宣言\n・松阪市地球温暖化対策実行計画に基づき、公共施設へのＬＥＤ照明の導入を進めます。\n特に消費電力の大きい小中学校の体育館のＬＥＤ化を推進します。\n令和6年度 評価 ☆評価 ☆☆☆\n・令和6年度においては、小中学校体育館 30校、幼稚園1０園、その他公共施設１0施設の"
+    }
+  },
+  {
+    "municipalityCode": "24204",
+    "municipalityName": "松阪市",
+    "sourceId": "80c9b1f8bbd631a799b98d32",
+    "title": "政策7 市民に寄り添う市役所 [PDFファイル／541KB]",
+    "url": "https://www.city.matsusaka.mie.jp/uploaded/life/180314_703921_misc.pdf",
+    "sourceSha256": "f528b78234377aebc6727010cb444fb6d643bdfd9d6b9254b2831a7942be333b",
+    "fullTextSha256": "05fd095a8807a60b9704fea390a3dbc0f535daca49d0430ce9c76a885dd02ebb",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 1,
+    "rowHolds": [],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 1,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "第2章 各施策の「評価」と「実行宣言」\n７．市民に寄り添う市役所 ①行政サービスの充実\n評価者 危機管理特命理事兼秘書広報局長事務取扱 中西 章\n令和6年度 実行宣言\n・政策調整秘書業務の円滑な運営に努めるとともに、危機管理事案に対し迅速な対応により、早期の事態収拾を図ります。\n令和6年度 評価 ☆評価 ☆☆☆\n・二役部長会議においては、毎週定期的に開催することで、各部局の情報を横断に共有すること"
+    }
+  },
+  {
+    "municipalityCode": "24204",
+    "municipalityName": "松阪市",
+    "sourceId": "9545b9e71fda465f293c3389",
+    "title": "政策5 安全・安心な生活 [PDFファイル／387KB]",
+    "url": "https://www.city.matsusaka.mie.jp/uploaded/life/180314_703919_misc.pdf",
+    "sourceSha256": "3f21e38420c7b994f22b24c45be3fb197a5e1bfbf19fc5065ca198dc57366b53",
+    "fullTextSha256": "021b0806a8eba1ab7da0ba3cd51980acd9751eeaa011335858cdf224bb543ca8",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "policy_result_without_distinct_project_name",
+    "reason": "FY2024 policy5 result blocks describe safety, fire, river and drainage activities. No independently distinct literal business title accepted; do not turn policy headings or adjacent FY2025 declarations into named projects.",
+    "parserStatus": "unsupported_layout",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "第2章 各施策の「評価」と「実行宣言」\n５．安全・安心な生活 ①交通安全対策の充実\n評価者 環境生活部長 武田 誉利子\n令和6年度 実行宣言\n・関係機関が連携し、様々な交通安全対策に取り組み、「交通事故死者数ゼロ」をめざします。\n令和6年度 評価 ☆評価 ☆\n・安全・安心フェスタまつさかや、各季（春・夏・秋・年末等）の交通安全運動等において松阪多気地区交通安全対策会議と協力し、交通ルール\n遵守や交"
+    }
+  },
+  {
+    "municipalityCode": "24204",
+    "municipalityName": "松阪市",
+    "sourceId": "afe3c327cc1563df042a0b57",
+    "title": "令和７年度 部局長の「実行宣言」 [PDFファイル／3.4MB]",
+    "url": "https://www.city.matsusaka.mie.jp/uploaded/life/180314_703922_misc.pdf",
+    "sourceSha256": "57400fd27cc6f66e38aa0eeb251951dcf6c71e467e96bb0c11d1b94b533da2f6",
+    "fullTextSha256": null,
+    "inventoryStatus": "incomplete_body_or_identity_hold",
+    "listedContinuations": [],
+    "disposition": "incomplete_body",
+    "reason": "Original omnibus body incomplete; all listed continuations inspected. Separate complete Matsusaka chapters are used, without claiming reconstructed omnibus or inferring missing text.",
+    "parserStatus": "insufficient_evidence",
+    "accepted": 0,
+    "duplicates": 0
+  },
+  {
+    "municipalityCode": "24204",
+    "municipalityName": "松阪市",
+    "sourceId": "e2bf3ad620cd9f98656b32f9",
+    "title": "政策1 輝くこどもたち [PDFファイル／406KB]",
+    "url": "https://www.city.matsusaka.mie.jp/uploaded/life/180314_703913_misc.pdf",
+    "sourceSha256": "a5351868cca66807e0c4778734f978f2f7a6b306b4da6cf33453fd18d66c138a",
+    "fullTextSha256": "8935193c4d24ade20d7e6d94f8d5bf1a86fa32df51c8723f1f10290c8433ce68",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 6,
+    "rowHolds": [],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 6,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "第2章 各施策の「評価」と「実行宣言」\n１．輝くこどもたち ①こども・子育て支援の推進\n評価者 こども局長 西浦 美奈子\n令和6年度 実行宣言\n・子育て支援のワンストップ拠点として健康センターはるる内に「こども家庭センター」を設置し、妊娠を希望する方、妊娠期から子育て期\nの全ての世帯へ切れ目なく支援していきます。また、児童虐待相談に対して、引き続き児童相談所等の関係機関と連携をより密にして児\n童虐"
+    }
+  },
+  {
+    "municipalityCode": "24203",
+    "municipalityName": "伊勢市",
+    "sourceId": "ecbfb0d37022062132d0e072",
+    "title": "都市再生整備計画事業評価委員会｜伊勢市公式ホームページ",
+    "url": "https://www.city.ise.mie.jp/machi/tokei_kakusyu/1018160.html",
+    "sourceSha256": "011d30e9bcf3b5b0a9aa17da41994af839cab6f85141344d79bea03950a0f4a8",
+    "fullTextSha256": "1e58ce661d1d7dd49b84f85ab45246d1d1437fc04afd1d8479617c884ede8185",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "都市再生整備計画事業評価委員会｜伊勢市公式ホームページ\n都市再生整備計画事業評価委員会\nページ番号1018160\n更新日\n令和7年3月21日\n印刷\n大きな文字で印刷\n伊勢市中心市街地活性化区域地区\n都市再生整備計画事業の事業評価委員会を開催しました。\n開催日\n令和6年11月25日（月曜日）\n開催時刻\n午後2時から\n会場\n伊勢市役所東館5階5-3会議室\n都市再生整備計画とは\n議事概要 (PDF)(1"
+    }
+  },
+  {
+    "municipalityCode": "24202",
+    "municipalityName": "四日市市",
+    "sourceId": "4c7d8c20a66e70f87e3f1272",
+    "title": "第１回 四日市市子ども・子育て会議（令和８年度） | 四日市市役所",
+    "url": "https://www.city.yokkaichi.lg.jp/www/contents/1785299854932/index.html",
+    "sourceSha256": "58aeb06de2d7b1cebbd8104bffb270ec01eee16051d4674e6f7e27fbf76092cb",
+    "fullTextSha256": "bc3e6e84a593df5d9dd9d6415d1b7f198253df5a88758dfd2d7064ac9df96b75",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "第１回 四日市市子ども・子育て会議（令和８年度） | 四日市市役所\n第１回 四日市市子ども・子育て会議（令和８年度）\n更新日：2026年\n8月\n5日\n日時：令和８年８月５日（水）午前１０時００分～正午\n場所：四日市商工会議所３階 大会議室\n資料：以下のリンクをご覧ください。\n関連ファイル\n資料１：四日市市こども計画「重点施策」令和７年度各課取組結果\n(1395KB\n:PDF\n)\n資料２：四日市市こ"
+    }
+  },
+  {
+    "municipalityCode": "24202",
+    "municipalityName": "四日市市",
+    "sourceId": "afa3f951dcb62112aca54a12",
+    "title": "資料２：四日市市こども計画「主な事業」令和７年度各課取組結果 (1153KB :PDF )",
+    "url": "https://www.city.yokkaichi.lg.jp/www/contents/1785299854932/files/shiryo2.pdf",
+    "sourceSha256": "43abb0db007e020b8872c58f33e36de87df9147a51da228e7376ec273c897284",
+    "fullTextSha256": "16378ae806b8f0ec3a9de2a26926855351bb55096772444f65965940a78b029d",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 234,
+    "rowHolds": [],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 234,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "【評価基準】\nＡ 計画以上の取組みを実施することができた\nＢ 計画どおりの取組みを実施することができた\nＣ 計画どおりに取組みを実施することができなかった\nⅮ 該当年度に実施していない\n\n四日市市こども計画「主な事業」令和７年度各課取組結果\nNo.\n\n取組・事業\n\n事業概要\n\nR７取組結果（実績）※数値、取組内容を記入\n※数値で表せられない事業は取組内容のみ記入\n\nR７決算額\n（千円）\n\n資料２\n"
+    }
+  },
+  {
+    "municipalityCode": "24202",
+    "municipalityName": "四日市市",
+    "sourceId": "74c6ddd5774f16c5af8127ed",
+    "title": "資料３：第３期四日市市子ども・子育て支援事業計画令和７年度実績報告書 (1135KB :PDF )",
+    "url": "https://www.city.yokkaichi.lg.jp/www/contents/1785299854932/files/siryo3.pdf",
+    "sourceSha256": "a6add0d9303b5babc1047b35633b259048c3c7c25ab74e97d36bae81b8327c1d",
+    "fullTextSha256": "ef616c71c803fed983b416f5ddec28a14c08b5eb73d43b6faa749155c7a02b3f",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "reviewedCandidateCount": 5,
+    "rowHolds": [
+      {
+        "start": 3394,
+        "raw": "延長保育事業",
+        "reason": "Same underlying annual service/alias or named component already described under main result-table candidate; preserve this source without double counting. Need an independently distinct business identity to add another record."
+      },
+      {
+        "start": 3808,
+        "raw": "一時預かり事業（幼稚園等における一時預かり・預かり保育）",
+        "reason": "Same underlying annual service/alias or named component already described under main result-table candidate; preserve this source without double counting. Need an independently distinct business identity to add another record."
+      },
+      {
+        "start": 4328,
+        "raw": "一時預かり事業（保育園等における一時保育）",
+        "reason": "Same underlying annual service/alias or named component already described under main result-table candidate; preserve this source without double counting. Need an independently distinct business identity to add another record."
+      },
+      {
+        "start": 4779,
+        "raw": "乳児等通園支援事業(こども誰でも通園)",
+        "reason": "FY2025 operation explicitly not implemented; FY2025 preparatory work already covered by main result table. No inferred delivery or FY2026 completion."
+      },
+      {
+        "start": 7304,
+        "raw": "病児保育事業",
+        "reason": "Same underlying annual service/alias or named component already described under main result-table candidate; preserve this source without double counting. Need an independently distinct business identity to add another record."
+      },
+      {
+        "start": 8240,
+        "raw": "子育て援助活動支援事業（ファミリー・サポート・センター事業）",
+        "reason": "Same underlying annual service/alias or named component already described under main result-table candidate; preserve this source without double counting. Need an independently distinct business identity to add another record."
+      },
+      {
+        "start": 10137,
+        "raw": "利用者支援事業",
+        "reason": "Same underlying annual service/alias or named component already described under main result-table candidate; preserve this source without double counting. Need an independently distinct business identity to add another record."
+      },
+      {
+        "start": 11890,
+        "raw": "乳児家庭全戸訪問事業（こんにちは赤ちゃん訪問事業）",
+        "reason": "Same underlying annual service/alias or named component already described under main result-table candidate; preserve this source without double counting. Need an independently distinct business identity to add another record."
+      },
+      {
+        "start": 12862,
+        "raw": "産後ケア事業",
+        "reason": "Same underlying annual service/alias or named component already described under main result-table candidate; preserve this source without double counting. Need an independently distinct business identity to add another record."
+      },
+      {
+        "start": 13549,
+        "raw": "妊婦等包括相談支援事業",
+        "reason": "Same underlying annual service/alias or named component already described under main result-table candidate; preserve this source without double counting. Need an independently distinct business identity to add another record."
+      },
+      {
+        "start": 14303,
+        "raw": "養育支援訪問事業",
+        "reason": "Same underlying annual service/alias or named component already described under main result-table candidate; preserve this source without double counting. Need an independently distinct business identity to add another record."
+      },
+      {
+        "start": 14937,
+        "raw": "子育て世帯訪問支援事業",
+        "reason": "Same underlying annual service/alias or named component already described under main result-table candidate; preserve this source without double counting. Need an independently distinct business identity to add another record."
+      },
+      {
+        "start": 15548,
+        "raw": "親子関係形成支援事業",
+        "reason": "Same underlying annual service/alias or named component already described under main result-table candidate; preserve this source without double counting. Need an independently distinct business identity to add another record."
+      },
+      {
+        "start": 16356,
+        "raw": "実費徴収に係る補足給付を行う事業",
+        "reason": "Same underlying annual service/alias or named component already described under main result-table candidate; preserve this source without double counting. Need an independently distinct business identity to add another record."
+      }
+    ],
+    "disposition": "reviewed_named_annual_candidates",
+    "reason": "Complete source hashes and exact literal title/year quotes independently checked. Only reviewed names/years accepted; costs, ratings, KPI values and unmatched policy/activity fragments remain unassigned. See source-specific row/hold ledger.",
+    "parserStatus": "processed",
+    "accepted": 5,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "【事前配付資料】\n\n資料３\n\n第３期四日市市子ども・子育て支援事業計画に掲げる\n令和７年度 実施報告について\n\n～ 四日市市こども計画\n\n令和８年８月５日\n四日市市こども未来部\n\n第６章～\n\n\n第３期四日市市子ども・子育て支援事業計画\n１\n\n量の見込みと確保方策の設定にあたって\n「子ども・子育て支援法」に基づき、国が示す基本指針に即して、５年を１期\nとする「第３期四日市市子ども・子育て支援事業計画"
+    }
+  },
+  {
+    "municipalityCode": "24201",
+    "municipalityName": "津市",
+    "sourceId": "450352561e59ae7f272caff1",
+    "title": "事務事業評価｜津市公式ウェブサイト－Official Website of Tsu City",
+    "url": "https://www.info.city.tsu.mie.jp/shisei/gyouzaiseikaikaku/1009903/1005697/1005745.html",
+    "sourceSha256": "4176b51e5a6daafa9c1f29d29e168141fdae479e250080161cbed0856e940257",
+    "fullTextSha256": "cd5d39d8fd55e0d3022a727162e44b41a457a162aa765e68ba9140a459936151",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "事務事業評価｜津市公式ウェブサイト－Official Website of Tsu City\n事務事業評価\nページ番号1005745\n更新日\n2026年1月22日\n事務事業評価は、各種事業の目的や目標、事業実施により求める成果や結果を明らかにした上で、各部等自らが、目標の達成状況や現状とのギャップを分析することで、各種事業の実施結果等について評価し、実施手法などの改善につなげるものです。\n事務事業"
+    }
+  },
+  {
+    "municipalityCode": "24201",
+    "municipalityName": "津市",
+    "sourceId": "91f49681ba1e2652ad38dae2",
+    "title": "津市総合計画第2次基本計画の進行管理｜津市公式ウェブサイト－Official Website of Tsu City",
+    "url": "https://www.info.city.tsu.mie.jp/shisei/keikaku_matizukuri_torikumi/1005597/1005623/1005630.html",
+    "sourceSha256": "a5a72abf5dca5f2e52cff119080e5e5a071278d8bf1e0689131ad880c73145f3",
+    "fullTextSha256": "1226695fde43f8418b1f761b053031f8a5a8c868d5030e8a800b8bd66f67353d",
+    "inventoryStatus": "complete_hash_verified",
+    "listedContinuations": [],
+    "disposition": "navigation_without_individual_body",
+    "reason": "Cached landing text provides report/committee/year links, office information or evaluation methods. No independently evidenced additional individual annual business result accepted from this page. Linked missing bodies not requested.",
+    "parserStatus": "navigation",
+    "accepted": 0,
+    "duplicates": 0,
+    "introQuote": {
+      "start": 0,
+      "raw": "津市総合計画第2次基本計画の進行管理｜津市公式ウェブサイト－Official Website of Tsu City\n津市総合計画第2次基本計画の進行管理\nページ番号1005630\n更新日\n2026年4月14日\n津市総合計画第2次基本計画に係る事務事業と施策の進捗状況を各所管課が把握・意識し、より効果的な事務の執行による施策の確実な進捗につなげるため、所管課自らが施策に基づき計画した事業の実施結果"
+    }
+  }
+]

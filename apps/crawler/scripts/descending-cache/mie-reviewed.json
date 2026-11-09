@@ -8430,6 +8430,31 @@
           }
         ],
         "note": "Explicit title fragments from named FY2025 result table, manually separated from adjacent columns. Same-name departmental repeats not recounted; source title preserved without normalizing wording. No costs or ratings inferred."
+      },
+      {
+        "name": "１歳（２歳）のバースデー歯科教室",
+        "start": 44617,
+        "raw": "１歳（２歳）のバースデー歯科\n1歳のバースデー歯科教室",
+        "note": "Explicit annual business-title cell recovered by page coverage review: source No148 or No194. Exact source fragments only; no financial/KPI/evaluation alignment inferred.",
+        "titleSegments": [
+          {
+            "start": 44617,
+            "raw": "１歳（２歳）のバースデー歯科"
+          },
+          {
+            "start": 44642,
+            "raw": "教室"
+          }
+        ]
+      },
+      {
+        "name": "地域と協働した学校づくり（コミュニティスクール）",
+        "start": 61368,
+        "raw": "地域と協働した学校づくり\n（コミュニティスクール）",
+        "note": "Explicit annual business-title cell recovered by page coverage review: source No148 or No194. Exact source fragments only; no financial/KPI/evaluation alignment inferred.",
+        "titleFragments": [
+          "地域と協働した学校づくり\n（コミュニティスクール）"
+        ]
       }
     ],
     "holds": []
@@ -8560,6 +8585,1681 @@
         "start": 16356,
         "raw": "実費徴収に係る補足給付を行う事業",
         "reason": "Same underlying annual service/alias or named component already described under main result-table candidate; preserve this source without double counting. Need an independently distinct business identity to add another record."
+      }
+    ]
+  },
+  {
+    "sourceId": "2567071ef744e43c8a9a7902",
+    "municipalityCode": "24209",
+    "sourceUrl": "https://www.city.owase.lg.jp/cmsfiles/contents/0000022/22489/02R6itiran.pdf",
+    "sourceSha256": "b8ad5828a5b63abb95977eca22b10f83d04f1ba6b4368bf0fff99f8c9f59dac8",
+    "fullTextSha256": "a7ff1451d57d0c9b1e4a1ff5e230eca48335ce398e1a3a22d9ede93678d2503a",
+    "format": "pdf",
+    "year": 2023,
+    "proof": "令和５年度 第２期尾鷲市まち・ひと・しごと創生総合戦略に係る事業実施結果報告 （重要業績評価指標（KPI）の実績値等）",
+    "rows": [
+      {
+        "name": "農業委員会運営費事業",
+        "start": 734,
+        "raw": "農業委員会運営費事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "農業委員会運営費事業"
+        ]
+      },
+      {
+        "name": "みどりの食料システム戦略緊急対策事業",
+        "start": 1068,
+        "raw": "みどりの食料システム戦略緊\nあった\n急対策事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleSegments": [
+          {
+            "start": 1068,
+            "raw": "みどりの食料システム戦略緊"
+          },
+          {
+            "start": 1086,
+            "raw": "急対策事業"
+          }
+        ]
+      },
+      {
+        "name": "有害鳥獣対策事業",
+        "start": 1848,
+        "raw": "有害鳥獣対策事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "有害鳥獣対策事業"
+        ]
+      },
+      {
+        "name": "尾鷲産材活用促進補助金",
+        "start": 2182,
+        "raw": "尾鷲産材活用促進補助金",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "尾鷲産材活用促進補助金"
+        ]
+      },
+      {
+        "name": "森林経営管理事業",
+        "start": 2328,
+        "raw": "森林経営管理事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "森林経営管理事業"
+        ]
+      },
+      {
+        "name": "受託造林管理事業",
+        "start": 3163,
+        "raw": "受託造林管理事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "受託造林管理事業"
+        ]
+      },
+      {
+        "name": "後継者育成",
+        "start": 3217,
+        "raw": "後継者育成",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "後継者育成"
+        ]
+      },
+      {
+        "name": "水産振興費",
+        "start": 3277,
+        "raw": "水産振興費",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "水産振興費"
+        ]
+      },
+      {
+        "name": "漁場の管理保全（水質調査事業）",
+        "start": 3340,
+        "raw": "漁場の管理保全\nあった\n（水質調査事業）",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleSegments": [
+          {
+            "start": 3340,
+            "raw": "漁場の管理保全"
+          },
+          {
+            "start": 3352,
+            "raw": "（水質調査事業）"
+          }
+        ]
+      },
+      {
+        "name": "水産物普及啓発事業（料理教室）",
+        "start": 3529,
+        "raw": "水産物普及啓発事業\nあった\n（料理教室）",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleSegments": [
+          {
+            "start": 3529,
+            "raw": "水産物普及啓発事業"
+          },
+          {
+            "start": 3543,
+            "raw": "（料理教室）"
+          }
+        ]
+      },
+      {
+        "name": "つくり育てる漁業の展開種苗放流体験、尾鷲ヒノキ製アオリイカ産卵床事業",
+        "start": 3709,
+        "raw": "つくり育てる漁業の展開\n地方創生に効果が\n種苗放流体験、尾鷲ヒノキ製ア\nあった\nオリイカ産卵床事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleSegments": [
+          {
+            "start": 3709,
+            "raw": "つくり育てる漁業の展開"
+          },
+          {
+            "start": 3730,
+            "raw": "種苗放流体験、尾鷲ヒノキ製ア"
+          },
+          {
+            "start": 3749,
+            "raw": "オリイカ産卵床事業"
+          }
+        ]
+      },
+      {
+        "name": "水産基盤ストックマネジメント事業",
+        "start": 3841,
+        "raw": "水産基盤ストックマネジメント\nあった\n事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleSegments": [
+          {
+            "start": 3841,
+            "raw": "水産基盤ストックマネジメント"
+          },
+          {
+            "start": 3860,
+            "raw": "事業"
+          }
+        ]
+      },
+      {
+        "name": "市有林管理事業",
+        "start": 4366,
+        "raw": "市有林管理事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "市有林管理事業"
+        ]
+      },
+      {
+        "name": "林業活性化推進費",
+        "start": 4486,
+        "raw": "林業活性化推進費",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "林業活性化推進費"
+        ]
+      },
+      {
+        "name": "農山漁村地域整備交付金事業",
+        "start": 4695,
+        "raw": "農山漁村地域整備交付金事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "農山漁村地域整備交付金事業"
+        ]
+      },
+      {
+        "name": "みんなの森プロジェクト事業",
+        "start": 4719,
+        "raw": "みんなの森プロジェクト事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "みんなの森プロジェクト事業"
+        ]
+      },
+      {
+        "name": "商工振興事業",
+        "start": 5688,
+        "raw": "商工振興事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "商工振興事業"
+        ]
+      },
+      {
+        "name": "産業開発事業",
+        "start": 5779,
+        "raw": "産業開発事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "産業開発事業"
+        ]
+      },
+      {
+        "name": "海洋深層水推進事業",
+        "start": 6806,
+        "raw": "海洋深層水推進事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "海洋深層水推進事業"
+        ]
+      },
+      {
+        "name": "空き家バンク利用促進助成金",
+        "start": 6869,
+        "raw": "空き家バンク利用促進助成金",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "空き家バンク利用促進助成金"
+        ]
+      },
+      {
+        "name": "地域おこし協力隊起業支援補助金",
+        "start": 6902,
+        "raw": "地域おこし協力隊起業支援補\nあった\n助金",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleSegments": [
+          {
+            "start": 6902,
+            "raw": "地域おこし協力隊起業支援補"
+          },
+          {
+            "start": 6920,
+            "raw": "助金"
+          }
+        ]
+      },
+      {
+        "name": "移住者支援補助金",
+        "start": 7170,
+        "raw": "移住者支援補助金",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "移住者支援補助金"
+        ]
+      },
+      {
+        "name": "奨学資金貸付事業",
+        "start": 7313,
+        "raw": "奨学資金貸付事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "奨学資金貸付事業"
+        ]
+      },
+      {
+        "name": "子どもの学びと育ち育成支援事業",
+        "start": 8391,
+        "raw": "子どもの学びと育ち育成支援\nあった\n事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleSegments": [
+          {
+            "start": 8391,
+            "raw": "子どもの学びと育ち育成支援"
+          },
+          {
+            "start": 8409,
+            "raw": "事業"
+          }
+        ]
+      },
+      {
+        "name": "地域と多様な関わり創出事業",
+        "start": 8485,
+        "raw": "地域と多様な関わり創出事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "地域と多様な関わり創出事業"
+        ]
+      },
+      {
+        "name": "産前産後サポート事業",
+        "start": 9310,
+        "raw": "産前産後サポート事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "産前産後サポート事業"
+        ]
+      },
+      {
+        "name": "ファミリーサポートセンター事業",
+        "start": 9383,
+        "raw": "ファミリーサポートセンター事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "ファミリーサポートセンター事業"
+        ]
+      },
+      {
+        "name": "地域子育て支援センター事業",
+        "start": 9979,
+        "raw": "地域子育て支援センター事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "地域子育て支援センター事業"
+        ]
+      },
+      {
+        "name": "子育て団体活動支援事業",
+        "start": 10029,
+        "raw": "子育て団体活動支援事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "子育て団体活動支援事業"
+        ]
+      },
+      {
+        "name": "子育てを支えあう環境づくり事業",
+        "start": 11277,
+        "raw": "子育てを支えあう環境づくり事\nあった\n業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleSegments": [
+          {
+            "start": 11277,
+            "raw": "子育てを支えあう環境づくり事"
+          },
+          {
+            "start": 11296,
+            "raw": "業"
+          }
+        ]
+      },
+      {
+        "name": "放課後子ども教室推進事業",
+        "start": 11340,
+        "raw": "放課後子ども教室推進事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "放課後子ども教室推進事業"
+        ]
+      },
+      {
+        "name": "特定健康診査等事業費",
+        "start": 11753,
+        "raw": "特定健康診査等事業費",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "特定健康診査等事業費"
+        ]
+      },
+      {
+        "name": "健康増進事業",
+        "start": 12261,
+        "raw": "健康増進事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "健康増進事業"
+        ]
+      },
+      {
+        "name": "広域連合事業",
+        "start": 12462,
+        "raw": "広域連合事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "広域連合事業"
+        ]
+      },
+      {
+        "name": "地域支援事業（総合事業）",
+        "start": 13089,
+        "raw": "地域支援事業（総合事業）",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "地域支援事業（総合事業）"
+        ]
+      },
+      {
+        "name": "認知症総合支援事業",
+        "start": 13430,
+        "raw": "認知症総合支援事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "認知症総合支援事業"
+        ]
+      },
+      {
+        "name": "生活支援体制整備事業",
+        "start": 13523,
+        "raw": "生活支援体制整備事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "生活支援体制整備事業"
+        ]
+      },
+      {
+        "name": "交通体系関係事務経費",
+        "start": 13801,
+        "raw": "交通体系関係事務経費",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "交通体系関係事務経費"
+        ]
+      },
+      {
+        "name": "観光施設管理整備事業",
+        "start": 14332,
+        "raw": "観光施設管理整備事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "観光施設管理整備事業"
+        ]
+      },
+      {
+        "name": "観光振興事業",
+        "start": 14452,
+        "raw": "観光振興事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "観光振興事業"
+        ]
+      },
+      {
+        "name": "熊野古道活用事業",
+        "start": 15173,
+        "raw": "熊野古道活用事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "熊野古道活用事業"
+        ]
+      },
+      {
+        "name": "スポーツ振興事業",
+        "start": 16732,
+        "raw": "スポーツ振興事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "スポーツ振興事業"
+        ]
+      },
+      {
+        "name": "公民館事業（公民館活動経費）",
+        "start": 18114,
+        "raw": "公民館事業（公民館活動経費）",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "公民館事業（公民館活動経費）"
+        ]
+      },
+      {
+        "name": "郷土室保存運営事業",
+        "start": 18185,
+        "raw": "郷土室保存運営事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "郷土室保存運営事業"
+        ]
+      },
+      {
+        "name": "社会教育一般事務費",
+        "start": 18468,
+        "raw": "社会教育一般事務費",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "社会教育一般事務費"
+        ]
+      },
+      {
+        "name": "情報化推進事業",
+        "start": 18727,
+        "raw": "情報化推進事業",
+        "note": "Explicit business-name column in FY2023 annual results report; repeated KPI rows collapsed to one annual business identity. No KPI, assessment, actual/budget amount alignment inferred; zero/no-effect results do not imply delivered outcomes.",
+        "titleFragments": [
+          "情報化推進事業"
+        ]
+      }
+    ],
+    "holds": [
+      {
+        "start": 18369,
+        "raw": "文化k材一般保護事業",
+        "reason": "Cached title contains anomalous k glyph; no authoritative correction in available text. Exact title identity unresolved."
+      },
+      {
+        "start": 9256,
+        "raw": "育児サークル",
+        "reason": "Following name fragment っぴい appears incomplete/interleaved; cannot reconstruct complete named entity."
+      },
+      {
+        "start": 8548,
+        "raw": "企業版ふるさと納税寄付額",
+        "reason": "Name-column text denotes donation amount, not explicit distinct business identity; do not convert KPI/amount label to project."
+      },
+      {
+        "start": 8832,
+        "raw": "移住交流サイト使用料",
+        "reason": "Named expense line may be a component of regional engagement project; independent project identity unresolved."
+      }
+    ]
+  },
+  {
+    "sourceId": "1a321be61d16d0218862b5d6",
+    "municipalityCode": "24211",
+    "sourceUrl": "https://www.city.toba.mie.jp/material/files/group/2/soukeihyouka.pdf",
+    "sourceSha256": "acca21372ef2ae85e85ca899589a3f4cc5c98e5834a293f9720a1a97474c6044",
+    "fullTextSha256": "6911f14ec5ced37e530eb582411378060d7565d058e71ebbce9644e08e192f92",
+    "format": "pdf",
+    "year": null,
+    "proof": "前期基本計画 施策評価シート（Ｒ３～R５）",
+    "rows": [
+      {
+        "name": "鳥羽東中学校消火栓配管改修工事",
+        "start": 6463,
+        "raw": "鳥羽東中学校消火栓配管改修工\nそれぞれの地域の特色ある歴史文化産業を次世代\n今後も児童生徒の減少が進む中、統合計画に\nにどう繋ぎ、継承するか、また、学校の適正規模、適 事",
+        "year": 2021,
+        "yearProof": "令和3年度",
+        "yearProofStart": 6457,
+        "yearContext": {
+          "start": 6400,
+          "raw": "ィネーショントレーニ\n園児・児童・生徒」の育成に努めます。\nングに取り組む学校の割合\n\n④快適な教育基盤をつくる\n令和3年度は鳥羽東中学校消火栓配管改修工\nそれぞれの地域の特色ある歴史文化産業を次世代\n今後も児童生徒の減少が進む中、統合計画に\nにどう繋ぎ、継承するか、また、学校の適正規模、適 事を行い、令和4年度は安楽島小学校高架水槽 沿った学校統合を進め、統合校の快適な教育環\n正配置が謳われる中、両者のバランスをどのように保 廻り給水管等改修工事・鳥羽東中学校給水管\n境を整えるための施設改修を行います。\n長寿命化に向けた施設改\nつかという課題に直面していることから、鳥羽市学校 及び消火栓配管改修工事を行うなど、学校施設\nまた、校舎の耐震化が 100％達成されている\n通学区審議会を設置し、新たな統合計画の策定を\n環境の改善を図りました。\nことから、今後は非構造部材の耐震化をはじめ 修の実施"
+        },
+        "note": "Explicitly dated individual activity within the R3–R5 policy report. Dates bind the local activity only; no expansion of policy period, no policy evaluation/KPI assignment. School repair titles preserve exact interleaved fragments.",
+        "titleSegments": [
+          {
+            "start": 6463,
+            "raw": "鳥羽東中学校消火栓配管改修工"
+          },
+          {
+            "start": 6547,
+            "raw": "事"
+          }
+        ]
+      },
+      {
+        "name": "安楽島小学校高架水槽廻り給水管等改修工事",
+        "start": 6558,
+        "raw": "安楽島小学校高架水槽 沿った学校統合を進め、統合校の快適な教育環\n正配置が謳われる中、両者のバランスをどのように保 廻り給水管等改修工事",
+        "year": 2022,
+        "yearProof": "令和4年度",
+        "yearProofStart": 6552,
+        "yearContext": {
+          "start": 6400,
+          "raw": "ィネーショントレーニ\n園児・児童・生徒」の育成に努めます。\nングに取り組む学校の割合\n\n④快適な教育基盤をつくる\n令和3年度は鳥羽東中学校消火栓配管改修工\nそれぞれの地域の特色ある歴史文化産業を次世代\n今後も児童生徒の減少が進む中、統合計画に\nにどう繋ぎ、継承するか、また、学校の適正規模、適 事を行い、令和4年度は安楽島小学校高架水槽 沿った学校統合を進め、統合校の快適な教育環\n正配置が謳われる中、両者のバランスをどのように保 廻り給水管等改修工事・鳥羽東中学校給水管\n境を整えるための施設改修を行います。\n長寿命化に向けた施設改\nつかという課題に直面していることから、鳥羽市学校 及び消火栓配管改修工事を行うなど、学校施設\nまた、校舎の耐震化が 100％達成されている\n通学区審議会を設置し、新たな統合計画の策定を\n環境の改善を図りました。\nことから、今後は非構造部材の耐震化をはじめ 修の実施"
+        },
+        "note": "Explicitly dated individual activity within the R3–R5 policy report. Dates bind the local activity only; no expansion of policy period, no policy evaluation/KPI assignment. School repair titles preserve exact interleaved fragments.",
+        "titleSegments": [
+          {
+            "start": 6558,
+            "raw": "安楽島小学校高架水槽"
+          },
+          {
+            "start": 6616,
+            "raw": "廻り給水管等改修工事"
+          }
+        ]
+      },
+      {
+        "name": "鳥羽東中学校給水管及び消火栓配管改修工事",
+        "start": 6627,
+        "raw": "鳥羽東中学校給水管\n境を整えるための施設改修を行います。\n長寿命化に向けた施設改\nつかという課題に直面していることから、鳥羽市学校 及び消火栓配管改修工事",
+        "year": 2022,
+        "yearProof": "令和4年度",
+        "yearProofStart": 6552,
+        "yearContext": {
+          "start": 6400,
+          "raw": "ィネーショントレーニ\n園児・児童・生徒」の育成に努めます。\nングに取り組む学校の割合\n\n④快適な教育基盤をつくる\n令和3年度は鳥羽東中学校消火栓配管改修工\nそれぞれの地域の特色ある歴史文化産業を次世代\n今後も児童生徒の減少が進む中、統合計画に\nにどう繋ぎ、継承するか、また、学校の適正規模、適 事を行い、令和4年度は安楽島小学校高架水槽 沿った学校統合を進め、統合校の快適な教育環\n正配置が謳われる中、両者のバランスをどのように保 廻り給水管等改修工事・鳥羽東中学校給水管\n境を整えるための施設改修を行います。\n長寿命化に向けた施設改\nつかという課題に直面していることから、鳥羽市学校 及び消火栓配管改修工事を行うなど、学校施設\nまた、校舎の耐震化が 100％達成されている\n通学区審議会を設置し、新たな統合計画の策定を\n環境の改善を図りました。\nことから、今後は非構造部材の耐震化をはじめ 修の実施"
+        },
+        "note": "Explicitly dated individual activity within the R3–R5 policy report. Dates bind the local activity only; no expansion of policy period, no policy evaluation/KPI assignment. School repair titles preserve exact interleaved fragments.",
+        "titleSegments": [
+          {
+            "start": 6627,
+            "raw": "鳥羽東中学校給水管"
+          },
+          {
+            "start": 6693,
+            "raw": "及び消火栓配管改修工事"
+          }
+        ]
+      },
+      {
+        "name": "人権講演会",
+        "start": 8521,
+        "raw": "人権講演会",
+        "year": 2022,
+        "yearProof": "令和４年度",
+        "yearProofStart": 8531,
+        "yearContext": {
+          "start": 8370,
+          "raw": "\nコールパートナーシップ」を掲載し、市民に対して人 行い、人権意識を高めることができた。\n権意識高揚を図った。\n令和３年度制作の動画について、第８回いせ人権映\n人権講演会について、令和３年度は新型コロナウイ 画祭へ応募し、ジェンダーレス活動賞を受賞した。\nルス感染拡大防止の観点から実施せず、性別に関 人権講演会について、令和４年度の参加者は50名、\nわらず多様な働き方をして活躍する職員を紹介する 令和５年度の参加者は271名で、アンケートに回答し\n動画を制作。令和４年度はLGBTQ+に関して、令和５ た９割を超える方について人権問題への関心を深め 広報とばでの啓発回数\n年度はスーパーヒューマンしおりさんを講師に招き ることができた。\n「やってみよう～挑戦はオモシロイ」をテーマに人権 人権擁護委員の活動について、人権相談を年1２回\n講演会を開催した。\n実施したほか、人権教室を市内外の小学校、幼稚\nまた、人権擁護委員を相談員とした人権相談を実施 園、保育所で13回実施し、"
+        },
+        "note": "Explicitly dated individual activity within the R3–R5 policy report. Dates bind the local activity only; no expansion of policy period, no policy evaluation/KPI assignment. School repair titles preserve exact interleaved fragments.",
+        "titleFragments": [
+          "人権講演会"
+        ]
+      },
+      {
+        "name": "人権講演会",
+        "start": 8521,
+        "raw": "人権講演会",
+        "year": 2023,
+        "yearProof": "令和５年度",
+        "yearProofStart": 8570,
+        "yearContext": {
+          "start": 8370,
+          "raw": "\nコールパートナーシップ」を掲載し、市民に対して人 行い、人権意識を高めることができた。\n権意識高揚を図った。\n令和３年度制作の動画について、第８回いせ人権映\n人権講演会について、令和３年度は新型コロナウイ 画祭へ応募し、ジェンダーレス活動賞を受賞した。\nルス感染拡大防止の観点から実施せず、性別に関 人権講演会について、令和４年度の参加者は50名、\nわらず多様な働き方をして活躍する職員を紹介する 令和５年度の参加者は271名で、アンケートに回答し\n動画を制作。令和４年度はLGBTQ+に関して、令和５ た９割を超える方について人権問題への関心を深め 広報とばでの啓発回数\n年度はスーパーヒューマンしおりさんを講師に招き ることができた。\n「やってみよう～挑戦はオモシロイ」をテーマに人権 人権擁護委員の活動について、人権相談を年1２回\n講演会を開催した。\n実施したほか、人権教室を市内外の小学校、幼稚\nまた、人権擁護委員を相談員とした人権相談を実施 園、保育所で13回実施し、"
+        },
+        "note": "Explicitly dated individual activity within the R3–R5 policy report. Dates bind the local activity only; no expansion of policy period, no policy evaluation/KPI assignment. School repair titles preserve exact interleaved fragments.",
+        "titleFragments": [
+          "人権講演会"
+        ]
+      },
+      {
+        "name": "男女共同参画連携映画祭",
+        "start": 9330,
+        "raw": "男女共同参画連携映画祭",
+        "year": 2022,
+        "yearProof": "令和４年度",
+        "yearProofStart": 9278,
+        "yearContext": {
+          "start": 9230,
+          "raw": "\n女性委員の登用率\nうなど啓発事業を行います。また、政策方 実施し、生理の貧困実態把握を行った。令和４年度 男女共同参画映画祭については、令和５年度は第２\n針決定の場への女性委員の積極的な登用 からは男女共同参画連携映画祭を開催し、令和５年 弾で156名の参加があり、男女共同参画意識の高揚\nに繋げることができた。LGBT相談については、令和\n度は「耳をすませば」「銀河鉄道の父」を上映した。ま\nに努めます。\n5年度は5回開催2件の利用があり、今後も継続して\nた、令和5年度より、性的指向・性自認に関する\n開催していく必要がある。\nLGBT"
+        },
+        "note": "Explicitly dated individual activity within the R3–R5 policy report. Dates bind the local activity only; no expansion of policy period, no policy evaluation/KPI assignment. School repair titles preserve exact interleaved fragments.",
+        "titleFragments": [
+          "男女共同参画連携映画祭"
+        ]
+      },
+      {
+        "name": "男女共同参画連携映画祭",
+        "start": 9330,
+        "raw": "男女共同参画連携映画祭",
+        "year": 2023,
+        "yearProof": "令和５年度",
+        "yearProofStart": 9299,
+        "yearContext": {
+          "start": 9230,
+          "raw": "\n女性委員の登用率\nうなど啓発事業を行います。また、政策方 実施し、生理の貧困実態把握を行った。令和４年度 男女共同参画映画祭については、令和５年度は第２\n針決定の場への女性委員の積極的な登用 からは男女共同参画連携映画祭を開催し、令和５年 弾で156名の参加があり、男女共同参画意識の高揚\nに繋げることができた。LGBT相談については、令和\n度は「耳をすませば」「銀河鉄道の父」を上映した。ま\nに努めます。\n5年度は5回開催2件の利用があり、今後も継続して\nた、令和5年度より、性的指向・性自認に関する\n開催していく必要がある。\nLGBT"
+        },
+        "note": "Explicitly dated individual activity within the R3–R5 policy report. Dates bind the local activity only; no expansion of policy period, no policy evaluation/KPI assignment. School repair titles preserve exact interleaved fragments.",
+        "titleFragments": [
+          "男女共同参画連携映画祭"
+        ]
+      },
+      {
+        "name": "LGBT相談",
+        "start": 9496,
+        "raw": "LGBT相談",
+        "year": 2023,
+        "yearProof": "令和5年度",
+        "yearProofStart": 9462,
+        "yearContext": {
+          "start": 9410,
+          "raw": "ば」「銀河鉄道の父」を上映した。ま\nに努めます。\n5年度は5回開催2件の利用があり、今後も継続して\nた、令和5年度より、性的指向・性自認に関する\n開催していく必要がある。\nLGBT相談を試行開始した。\n\nR6\n\nR7\n\n進捗評価\n\n鳥羽市国"
+        },
+        "note": "Explicitly dated individual activity within the R3–R5 policy report. Dates bind the local activity only; no expansion of policy period, no policy evaluation/KPI assignment. School repair titles preserve exact interleaved fragments.",
+        "titleFragments": [
+          "LGBT相談"
+        ]
+      },
+      {
+        "name": "コンビニ交付サービス",
+        "start": 67788,
+        "raw": "コンビニ交付サービス",
+        "year": 2023,
+        "yearProof": "令和5年度",
+        "yearProofStart": 67782,
+        "yearContext": {
+          "start": 67600,
+          "raw": "8\n\n〇\n\n3.04\n（R1）\n\n↑\n\n－\n\n2.81\n\n2.81\n\n〇\n\n現状値\n（R1）\n\n目標値\n（R7)\n\nR3\n\nR4\n\nR5\n\n法令に基づき適切な受付を行い、正確な 職員の研修、情報共有によりスキルアップ\n記載、記録処理、交付業務を行った。職員 を図り適切な市民サービスを行うことがで\n①信頼できる窓口業務\nの接遇向上のため研修や情報共有により きた。令和5年度はコンビニ交付サービスを\n来庁者に満足してもらえる市民サービスを 職員のスキルアップを図った。\n実施し市民サービスの向上を図った。今後\n提供するため、人材育成を推進し、職員の 令和5年3月より開始したコンビニ交付サー も戸籍、住基等に係る法改正に適切に対\n窓口業務のための研修参\n接遇向上に取り組むとともに、迅速かつ正 ビスについては、周知を行い利便性の向 応ができるよう職員の知識及び接遇の向\n加人数\n確な市民サービスが行えるよう連携を図り 上を図った。\n上に努める。\nながら、誰からも信頼される窓口業務の取 戸籍関係の証明については、法改正に伴 また、窓口サービスの向上及び職員数減\nり組みに努めます。\nい令和6年3月より"
+        },
+        "note": "Explicitly dated individual activity within the R3–R5 policy report. Dates bind the local activity only; no expansion of policy period, no policy evaluation/KPI assignment. School repair titles preserve exact interleaved fragments.",
+        "titleFragments": [
+          "コンビニ交付サービス"
+        ]
+      },
+      {
+        "name": "中学生派遣・受入",
+        "start": 9746,
+        "raw": "中学生派遣・受入",
+        "titleFragments": [
+          "中学生派遣・受入"
+        ],
+        "year": 2023,
+        "yearProof": "令和５年度",
+        "yearProofStart": 9759,
+        "yearContext": {
+          "start": 9520,
+          "raw": "進捗評価\n\n鳥羽市国際交流協会へ補助金を支出し、姉妹都市 令和３年度に実施した折り鶴の郵送交換について\n\n③国際的な文化に対する相互理解の醸成 サンタバーバラ市との中学生派遣・受入を行う予定 は、サンタバーバラ市と鳥羽市中学校が折り鶴交換\n姉妹都市サンタバーバラ市をはじめとする だったが、新型コロナウイルス感染拡大防止の観点 を行い、交流を深めることができた。\n諸外国や市内在住の外国人との交流など から中止とした。代替事業として、令和３年度は折り 中学生派遣・受入について、令和５年度に４年ぶりに 市民と市内在住外国人の交流人\n鶴を郵送交換した。また、令和４年度は桜の植樹イ 事業を再開した。歓迎会には４０名が出席し、市民活\nを通し、市民と外国人が互いの文化や習 ベントに国際交流会長を派遣した。令和５年度から 動団体等によるパフォーマンスに一緒に参加するな 数※国際交流協会事業の参加\n慣などへの理解を深め、異なる文化を認め は事業を再開し、４年ぶりに対面での交流を行い、 どして更なる友好親善を深めることができました。 人数\n合いながら共生できるまちづくりが推進さ 姉妹都"
+        },
+        "note": "Explicit restart in FY2023; earlier cancelled exchange and substitute activities are not expanded into annual rows."
+      },
+      {
+        "name": "人・農地プランの実質化",
+        "start": 27381,
+        "raw": "人・農地プランの実質化",
+        "titleFragments": [
+          "人・農地プランの実質化"
+        ],
+        "year": 2021,
+        "yearProof": "令和3年度",
+        "yearProofStart": 27375,
+        "yearContext": {
+          "start": 27180,
+          "raw": "開と成果\n施策展開の方針\n\nＲ３～R５の主要な取り組み\n\n成果・課題\n\n茅原田推進委員会の営農活動として、ドロー\nンによる農薬散布を試験導入した。\n農業従事者のＩＣＴ化導入\n①農業生産基盤の保全\n相差町茅原田地区営農者44名のアンケート 件数\n水田におけるドローンによる農薬散布につ\n安定した農業経営のため、農業基盤の維\n結果を踏まえ、人・農地プラン検討会を開催\nいて導入を検討した。\nし、令和3年度に人・農地プランの実質化を1\n持に努めるとともに、ＩＣＴ化による生産性の\n鳥羽市人・農地プラン検討会を開催し、人・ 地区完了した。\n向上や人・農地プランの実質化による農業\n農地プランの実質化に取り組んだ。\n今後は、目指すべき将来の農地利用の"
+        },
+        "note": "Explicit one-district completion in FY2021; no assignment of adjacent drone activity or agricultural indicators."
+      },
+      {
+        "name": "地籍調査",
+        "start": 40784,
+        "raw": "地籍調査",
+        "titleFragments": [
+          "地籍調査"
+        ],
+        "year": 2021,
+        "yearProof": "令和3年度",
+        "yearProofStart": 40875,
+        "yearContext": {
+          "start": 40740,
+          "raw": "ります。\n難である。\n④地籍調査の推進\n地籍調査は、一筆ごとの土地の境界、面積、形状な\n地籍調査を実施したことにより、土地の明確化が図ら\nどを正確に示すことにより、その成果が個人の土地取\n畔蛸・相差地区の一筆地調査及び成果の閲覧を実施 れ、土地取引の円滑化につながった。令和3年度にお\n地籍調査進捗率（調査済面\n引から公共事業まで、あらゆる土地関連行為の基礎\nし、土地の境界の明確にし、この地域における土地利 いて、相差全域の地籍調査が完了した。\nデータとなります。また、迅速な災害復旧、円滑な公\n用の円滑化を図った。\n用地の実務に精通した人材が不足していることが課 積市全体面積）\n共事業を推進していくためにも引き続き"
+        },
+        "note": "Explicit FY2021 completion for 相差; no invented project code or addition of separate neighboring district records."
+      }
+    ],
+    "holds": []
+  },
+  {
+    "sourceId": "f574a3600e1f1a9227a89523",
+    "municipalityCode": "24441",
+    "sourceUrl": "https://www.town.taki.mie.jp/material/files/group/16/koukakennshou07.pdf",
+    "sourceSha256": "d8c1367ca6a9b7915820f5832608d6718e3543e88399cf3d3ff3d0bac2841942",
+    "fullTextSha256": "4b97ccfc809955d7c73c2c03f60f4c682f027b2d4f07eba77e25d7ae3fbdec65",
+    "format": "pdf",
+    "year": 2025,
+    "proof": "令和７年度",
+    "rows": [
+      {
+        "name": "定額減税補足給付金（不足額給付）事業",
+        "start": 456,
+        "raw": "定額減税補足給付金（不足額給付）事業",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "定額減税補足給付金（不足額給付）事業"
+        ]
+      },
+      {
+        "name": "学校給食費支援事業",
+        "start": 665,
+        "raw": "学校給食費支援事業",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "学校給食費支援事業"
+        ]
+      },
+      {
+        "name": "省エネ家電買い替え促進補助金",
+        "start": 933,
+        "raw": "省エネ家電買い替え促進補助金",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "省エネ家電買い替え促進補助金"
+        ]
+      },
+      {
+        "name": "子育て世帯応援金給付事業",
+        "start": 1465,
+        "raw": "子育て世帯応援金給付事業",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "子育て世帯応援金給付事業"
+        ]
+      },
+      {
+        "name": "物価高騰対応重点支援給付金事業(R6繰)",
+        "start": 1578,
+        "raw": "物価高騰対応重点支援給付金事業\n(R6繰)",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "物価高騰対応重点支援給付金事業\n(R6繰)"
+        ]
+      }
+    ],
+    "holds": []
+  },
+  {
+    "sourceId": "ecadea162086ae8b7268083b",
+    "municipalityCode": "24441",
+    "sourceUrl": "https://www.town.taki.mie.jp/material/files/group/3/R4kouka.pdf",
+    "sourceSha256": "d228e426bebb0351805b5246fc1f7e1ef1632a46d88f50630aa83b4afcd0e409",
+    "fullTextSha256": "feb1c902ae3249d0f4c8b6bd3fd15668a53fea54d57d20be30e60933fd07ee89",
+    "format": "pdf",
+    "year": 2022,
+    "proof": "令和４年度",
+    "rows": [
+      {
+        "name": "学生応援地域産品給付事業",
+        "start": 81,
+        "raw": "学生応援地域産品給付事業",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "学生応援地域産品給付事業"
+        ]
+      },
+      {
+        "name": "地域応援商品券発行事業",
+        "start": 635,
+        "raw": "地域応援商品券発行事業",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "地域応援商品券発行事業"
+        ]
+      },
+      {
+        "name": "障害福祉サービス事業所安定運営支援事業費",
+        "start": 1940,
+        "raw": "障害福祉サービス事業所安定運営支援事 影響を受けながらもサービス提供を行っ\nR4.11 R5.3\n業費",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleSegments": [
+          {
+            "start": 1940,
+            "raw": "障害福祉サービス事業所安定運営支援事"
+          },
+          {
+            "start": 1989,
+            "raw": "業費"
+          }
+        ]
+      },
+      {
+        "name": "学校保健特別対策事業費補助金",
+        "start": 3025,
+        "raw": "学校保健特別対策事業費補助金",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "学校保健特別対策事業費補助金"
+        ]
+      },
+      {
+        "name": "保育対策総合支援事業費補助金",
+        "start": 3127,
+        "raw": "保育対策総合支援事業費補助金",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "保育対策総合支援事業費補助金"
+        ]
+      }
+    ],
+    "holds": [
+      {
+        "start": 2202,
+        "raw": "地域応援商品券発行事業（追加発行分）",
+        "reason": "Second voucher issuance is within the same annual named voucher project; two funding-category rows explicitly same project; do not multiply."
+      },
+      {
+        "start": 3248,
+        "raw": "デジタル田園都市国家構想推進交付金",
+        "reason": "Grant umbrella rather than explicit individual underlying project identity; original individual implementation sheet required."
+      }
+    ]
+  },
+  {
+    "sourceId": "a9b85a4a1fa063da4d1e9b45",
+    "municipalityCode": "24441",
+    "sourceUrl": "https://www.town.taki.mie.jp/material/files/group/3/R3kouka.pdf",
+    "sourceSha256": "9f079d051db91351680851edd4757f08e2d4630a436ca8983ec8c66f4c8e4470",
+    "fullTextSha256": "e1582aecb6b9c2d508e9455c89880eff9e51f1c86d5f451ab0a22a40be411360",
+    "format": "pdf",
+    "year": 2021,
+    "proof": "令和３年度",
+    "rows": [
+      {
+        "name": "学生応援地域産品給付事業",
+        "start": 81,
+        "raw": "学生応援地域産品給付事業",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "学生応援地域産品給付事業"
+        ]
+      },
+      {
+        "name": "会議用モニター購入事業",
+        "start": 1068,
+        "raw": "会議用モニター購入事業",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "会議用モニター購入事業"
+        ]
+      },
+      {
+        "name": "町民文化会館感染防止対策事業（NO15と同一事業（内単独事業分））",
+        "start": 1277,
+        "raw": "町民文化会館感染防止対策事業（NO15と 民文化会館のロビー、会議室等の空調の\nR3.6 R4.1\n同一事業（内単独事業分））",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleSegments": [
+          {
+            "start": 1277,
+            "raw": "町民文化会館感染防止対策事業（NO15と"
+          },
+          {
+            "start": 1327,
+            "raw": "同一事業（内単独事業分））"
+          }
+        ]
+      },
+      {
+        "name": "議場用飛沫防止アクリルパーテーション設置事業",
+        "start": 1417,
+        "raw": "議場用飛沫防止アクリルパーテーション\n会本会議場に飛沫防止用のアクリルパー R3.4 R3.5\n設置事業",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleSegments": [
+          {
+            "start": 1417,
+            "raw": "議場用飛沫防止アクリルパーテーション"
+          },
+          {
+            "start": 1465,
+            "raw": "設置事業"
+          }
+        ]
+      },
+      {
+        "name": "事業継続支援助成金",
+        "start": 1720,
+        "raw": "事業継続支援助成金",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "事業継続支援助成金"
+        ]
+      },
+      {
+        "name": "新規開業支援助成金",
+        "start": 1735,
+        "raw": "新規開業支援助成金",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "新規開業支援助成金"
+        ]
+      },
+      {
+        "name": "新型コロナウイルス感染症に対する交通事業者支援事業",
+        "start": 1769,
+        "raw": "新型コロナウイルス感染症に対する交通\n金のうち伊勢鉄道分についての本町負担 R3.4 R4.3\n事業者支援事業",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleSegments": [
+          {
+            "start": 1769,
+            "raw": "新型コロナウイルス感染症に対する交通"
+          },
+          {
+            "start": 1817,
+            "raw": "事業者支援事業"
+          }
+        ]
+      },
+      {
+        "name": "学校保健特別対策事業費補助金（多気郡多気町松阪市学校組合への負担金分）",
+        "start": 3523,
+        "raw": "学校保健特別対策事業費補助金（多気郡 校が感染症対策を徹底しながら、教育活\nR3.6 R4.1\n多気町松阪市学校組合への負担金分）",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleSegments": [
+          {
+            "start": 3523,
+            "raw": "学校保健特別対策事業費補助金（多気郡"
+          },
+          {
+            "start": 3571,
+            "raw": "多気町松阪市学校組合への負担金分）"
+          }
+        ]
+      },
+      {
+        "name": "児童福祉事業対策費等補助金",
+        "start": 3996,
+        "raw": "児童福祉事業対策費等補助金",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "児童福祉事業対策費等補助金"
+        ]
+      },
+      {
+        "name": "小中学校普通教室液晶テレビ購入事業",
+        "start": 4155,
+        "raw": "小中学校普通教室液晶テレビ購入事業",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "小中学校普通教室液晶テレビ購入事業"
+        ]
+      },
+      {
+        "name": "観光音声ガイド作成事業",
+        "start": 4299,
+        "raw": "観光音声ガイド作成事業",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "観光音声ガイド作成事業"
+        ]
+      },
+      {
+        "name": "松阪地区広域消防組合負担金（防疫等作業手当支給事業）",
+        "start": 4434,
+        "raw": "松阪地区広域消防組合負担金（防疫等作\n組合救急隊員等への防疫等作業手当を一 R3.4 R4.3\n業手当支給事業）",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleSegments": [
+          {
+            "start": 4434,
+            "raw": "松阪地区広域消防組合負担金（防疫等作"
+          },
+          {
+            "start": 4482,
+            "raw": "業手当支給事業）"
+          }
+        ]
+      },
+      {
+        "name": "マスク配布による感染症対策事業",
+        "start": 4523,
+        "raw": "マスク配布による感染症対策事業",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "マスク配布による感染症対策事業"
+        ]
+      },
+      {
+        "name": "職員業務用パソコン購入事業",
+        "start": 4608,
+        "raw": "職員業務用パソコン購入事業",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "職員業務用パソコン購入事業"
+        ]
+      },
+      {
+        "name": "議会のICT化推進にむけたタブレット端末導入事業",
+        "start": 4742,
+        "raw": "議会のICT化推進にむけたタブレット端\n務縮減の推進やリモート会議への活用を R3.4 R4.3\n末導入事業",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleSegments": [
+          {
+            "start": 4742,
+            "raw": "議会のICT化推進にむけたタブレット端"
+          },
+          {
+            "start": 4791,
+            "raw": "末導入事業"
+          }
+        ]
+      }
+    ],
+    "holds": [
+      {
+        "start": 3004,
+        "raw": "文化芸術振興費補助金",
+        "reason": "Explicit NO10/NO15 same project; retain one printed annual facility-project title, not two funding labels."
+      }
+    ]
+  },
+  {
+    "sourceId": "c903d1795d6a51a335764e61",
+    "municipalityCode": "24441",
+    "sourceUrl": "https://www.town.taki.mie.jp/material/files/group/3/R2koronakennsyou.pdf",
+    "sourceSha256": "45916e6e0a1d62b84162d9817af445b2095cbd7f671b52ede9c75d4214fa36da",
+    "fullTextSha256": "9c2283bc67ec35941e5efa0d5fc66e786f419be308e080a5430c3651dde518ac",
+    "format": "pdf",
+    "year": 2020,
+    "proof": "令和２年度",
+    "rows": [
+      {
+        "name": "新型コロナウィルス感染症拡大阻止協力金",
+        "start": 130,
+        "raw": "新型コロナウィルス感染症拡大阻止協力\nいただける中小企業・小規模事業者に対 R2.4 R2.11\n金",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleSegments": [
+          {
+            "start": 130,
+            "raw": "新型コロナウィルス感染症拡大阻止協力"
+          },
+          {
+            "start": 179,
+            "raw": "金"
+          }
+        ]
+      },
+      {
+        "name": "水道事業会計補助金（水道基本料金の減免事業）",
+        "start": 367,
+        "raw": "水道事業会計補助金（水道基本料金の減 事業所を含む町内の全戸に対し、６ケ月\nR2.5 R2.12\n免事業）",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleSegments": [
+          {
+            "start": 367,
+            "raw": "水道事業会計補助金（水道基本料金の減"
+          },
+          {
+            "start": 416,
+            "raw": "免事業）"
+          }
+        ]
+      },
+      {
+        "name": "小中学校給食費の減免",
+        "start": 574,
+        "raw": "小中学校給食費の減免",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "小中学校給食費の減免"
+        ]
+      },
+      {
+        "name": "子育て応援セット配布事業",
+        "start": 736,
+        "raw": "子育て応援セット配布事業",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "子育て応援セット配布事業"
+        ]
+      },
+      {
+        "name": "防災備蓄品の購入",
+        "start": 948,
+        "raw": "防災備蓄品の購入",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "防災備蓄品の購入"
+        ]
+      },
+      {
+        "name": "広域消防組合新型コロナウィルス感染症に伴う感染防止対策強化事業",
+        "start": 1137,
+        "raw": "広域消防組合新型コロナウィルス感染症 松阪地区広域消防組合の感染症防止対策\nR2.9 R3.3\nに伴う感染防止対策強化事業",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleSegments": [
+          {
+            "start": 1137,
+            "raw": "広域消防組合新型コロナウィルス感染症"
+          },
+          {
+            "start": 1185,
+            "raw": "に伴う感染防止対策強化事業"
+          }
+        ]
+      },
+      {
+        "name": "役場庁舎等感染症拡大防止対策備品購入",
+        "start": 1344,
+        "raw": "役場庁舎等感染症拡大防止対策備品購入",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "役場庁舎等感染症拡大防止対策備品購入"
+        ]
+      },
+      {
+        "name": "三密対策の防災備蓄品購入事業",
+        "start": 1560,
+        "raw": "三密対策の防災備蓄品購入事業",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "三密対策の防災備蓄品購入事業"
+        ]
+      },
+      {
+        "name": "地域福祉センター「天啓の里」空調設備改修工事",
+        "start": 1790,
+        "raw": "地域福祉センター「天啓の里」空調設備 地域福祉センター「天啓の里」空調設備\nR2.11 R3.2\n改修工事",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleSegments": [
+          {
+            "start": 1790,
+            "raw": "地域福祉センター「天啓の里」空調設備"
+          },
+          {
+            "start": 1839,
+            "raw": "改修工事"
+          }
+        ]
+      },
+      {
+        "name": "新生児臨時特別給付金給付事業",
+        "start": 3061,
+        "raw": "新生児臨時特別給付金給付事業",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "新生児臨時特別給付金給付事業"
+        ]
+      },
+      {
+        "name": "保健事業遂行のための備品整備",
+        "start": 3264,
+        "raw": "保健事業遂行のための備品整備",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "保健事業遂行のための備品整備"
+        ]
+      },
+      {
+        "name": "インフルエンザ予防接種助成金",
+        "start": 3327,
+        "raw": "インフルエンザ予防接種助成金",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "インフルエンザ予防接種助成金"
+        ]
+      },
+      {
+        "name": "農業経営収入保険料補助金",
+        "start": 3401,
+        "raw": "農業経営収入保険料補助金",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "農業経営収入保険料補助金"
+        ]
+      },
+      {
+        "name": "多気町Ｕターン就業促進奨励金",
+        "start": 3495,
+        "raw": "多気町Ｕターン就業促進奨励金",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "多気町Ｕターン就業促進奨励金"
+        ]
+      },
+      {
+        "name": "事業継続力強化計画策定奨励金",
+        "start": 4650,
+        "raw": "事業継続力強化計画策定奨励金",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "事業継続力強化計画策定奨励金"
+        ]
+      },
+      {
+        "name": "勢山荘バンガロー改築事業",
+        "start": 4907,
+        "raw": "勢山荘バンガロー改築事業",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "勢山荘バンガロー改築事業"
+        ]
+      },
+      {
+        "name": "観光施設空気清浄機購入費",
+        "start": 5666,
+        "raw": "観光施設空気清浄機購入費",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "観光施設空気清浄機購入費"
+        ]
+      },
+      {
+        "name": "観光施設公衆無線ＬＡＮ整備事業",
+        "start": 5895,
+        "raw": "観光施設公衆無線ＬＡＮ整備事業",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "観光施設公衆無線ＬＡＮ整備事業"
+        ]
+      },
+      {
+        "name": "高校生レストラン「まごの店」予約システム導入事業",
+        "start": 6094,
+        "raw": "高校生レストラン「まごの店」予約シス\nストラン「まごの店」に予約システムを R3.1 R3.3\nテム導入事業",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleSegments": [
+          {
+            "start": 6094,
+            "raw": "高校生レストラン「まごの店」予約シス"
+          },
+          {
+            "start": 6142,
+            "raw": "テム導入事業"
+          }
+        ]
+      },
+      {
+        "name": "ＧＩＧＡスクール端末導入事業（地方単独事業分）",
+        "start": 6404,
+        "raw": "ＧＩＧＡスクール端末導入事業\n\nＧＩＧＡスクール構想に係る児童、生徒\n１人１台タブレット端末の購入を実施。 R2.8 R3.1\n（地方単独事業分）",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleSegments": [
+          {
+            "start": 6404,
+            "raw": "ＧＩＧＡスクール端末導入事業"
+          },
+          {
+            "start": 6468,
+            "raw": "（地方単独事業分）"
+          }
+        ]
+      },
+      {
+        "name": "ＧＩＧＡスクール教員端末導入事業",
+        "start": 6625,
+        "raw": "ＧＩＧＡスクール教員端末導入事業",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "ＧＩＧＡスクール教員端末導入事業"
+        ]
+      },
+      {
+        "name": "ＧＩＧＡスクールタブレット端末映像転送機器購入費",
+        "start": 6748,
+        "raw": "ＧＩＧＡスクールタブレット端末映像転\n生徒、教員のタブレット端末から電子黒 R2.11 R3.3\n送機器購入費",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleSegments": [
+          {
+            "start": 6748,
+            "raw": "ＧＩＧＡスクールタブレット端末映像転"
+          },
+          {
+            "start": 6797,
+            "raw": "送機器購入費"
+          }
+        ]
+      },
+      {
+        "name": "松阪地区広域消防組合多気分署仮眠室個室化改修事業（消防組合負担金）",
+        "start": 8325,
+        "raw": "松阪地区広域消防組合多気分署仮眠室個 松阪地区広域消防組合多気分署の隊員仮\nR2.9 R3.3\n室化改修事業（消防組合負担金）",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleSegments": [
+          {
+            "start": 8325,
+            "raw": "松阪地区広域消防組合多気分署仮眠室個"
+          },
+          {
+            "start": 8373,
+            "raw": "室化改修事業（消防組合負担金）"
+          }
+        ]
+      },
+      {
+        "name": "松阪地区広域消防組合ＷＥＢカメラ庁内ネットワーク整備事業（消防組合負担金）",
+        "start": 8448,
+        "raw": "松阪地区広域消防組合ＷＥＢカメラ庁内 松阪地区広域消防組合のＷＥＢカメ、Ｗ\nネットワーク整備事業（消防組合負担 ＥＢ会議及び無線ＬＡＮのネットワーク R2.9 R3.3\n金）",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleSegments": [
+          {
+            "start": 8448,
+            "raw": "松阪地区広域消防組合ＷＥＢカメラ庁内"
+          },
+          {
+            "start": 8486,
+            "raw": "ネットワーク整備事業（消防組合負担"
+          },
+          {
+            "start": 8533,
+            "raw": "金）"
+          }
+        ]
+      },
+      {
+        "name": "松阪地区広域消防組合感染症対策備蓄品購入事業（消防組合負担金）",
+        "start": 8605,
+        "raw": "松阪地区広域消防組合感染症対策備蓄品\nナウイルス感染症対策備蓄品の購入に対 R2.9 R3.3\n購入事業（消防組合負担金）",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleSegments": [
+          {
+            "start": 8605,
+            "raw": "松阪地区広域消防組合感染症対策備蓄品"
+          },
+          {
+            "start": 8653,
+            "raw": "購入事業（消防組合負担金）"
+          }
+        ]
+      },
+      {
+        "name": "松阪地区広域消防組合既存救急車感染症対策事業（消防組合負担金）",
+        "start": 8734,
+        "raw": "松阪地区広域消防組合既存救急車感染症\n急車感染症対策経費に対する負担金を支 R2.9 R3.3\n対策事業（消防組合負担金）",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleSegments": [
+          {
+            "start": 8734,
+            "raw": "松阪地区広域消防組合既存救急車感染症"
+          },
+          {
+            "start": 8782,
+            "raw": "対策事業（消防組合負担金）"
+          }
+        ]
+      },
+      {
+        "name": "多気町松阪市学校組合ＧＩＧＡスクール端末導入事業（地方単独事業分・一部事務組合）",
+        "start": 8854,
+        "raw": "多気町松阪市学校組合ＧＩＧＡスクール\n１人１台タブレット端末の購入を実施。 R2.8 R3.1\n端末導入事業\n（地方単独事業分・一部事務組合）",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleSegments": [
+          {
+            "start": 8854,
+            "raw": "多気町松阪市学校組合ＧＩＧＡスクール"
+          },
+          {
+            "start": 8902,
+            "raw": "端末導入事業"
+          },
+          {
+            "start": 8909,
+            "raw": "（地方単独事業分・一部事務組合）"
+          }
+        ]
+      },
+      {
+        "name": "公立学校情報通信ネットワーク環境施設整備費補助金",
+        "start": 8987,
+        "raw": "公立学校情報通信ネットワーク環境施設 中学校において無線ＬＡＮ環境、タブ\nR2.10 R3.3\n整備費補助金",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleSegments": [
+          {
+            "start": 8987,
+            "raw": "公立学校情報通信ネットワーク環境施設"
+          },
+          {
+            "start": 9035,
+            "raw": "整備費補助金"
+          }
+        ]
+      },
+      {
+        "name": "文化芸術振興費補助金",
+        "start": 9387,
+        "raw": "文化芸術振興費補助金",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "文化芸術振興費補助金"
+        ]
+      },
+      {
+        "name": "小中学校空気清浄機購入",
+        "start": 9447,
+        "raw": "小中学校空気清浄機購入",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "小中学校空気清浄機購入"
+        ]
+      },
+      {
+        "name": "小中学校感染症対策物品購入",
+        "start": 9464,
+        "raw": "小中学校感染症対策物品購入",
+        "note": "Literal individual grant-result title and explicit report fiscal year. Interleaved columns are preserved as exact fragments, not guessed amounts. Report/funding year does not assert the payment or completion year of carryovers; zero-use schemes do not imply beneficiaries. Regional-union contributions remain identified as such.",
+        "titleFragments": [
+          "小中学校感染症対策物品購入"
+        ]
+      },
+      {
+        "name": "香肌奥伊勢資源化広域連合計量システム更新工事及びストックヤード建設工事（広域連合負担金）",
+        "start": 7294,
+        "raw": "香肌奥伊勢資源化広域連合計量システム 香肌奥伊勢資源化広域連合の資源化プラ\n更新工事及びストックヤード建設工事 ザのストックヤード及び計量場所の増設 R2.11 R3.2\n（広域連合負担金）",
+        "titleSegments": [
+          {
+            "start": 7294,
+            "raw": "香肌奥伊勢資源化広域連合計量システム"
+          },
+          {
+            "start": 7332,
+            "raw": "更新工事及びストックヤード建設工事"
+          },
+          {
+            "start": 7380,
+            "raw": "（広域連合負担金）"
+          }
+        ],
+        "note": "Literal grant-result title and explicit reporting year. Distinct printed expansion qualifier preserved; no inferred monetary alignment, no extra record for financing transfer or administrative-cost component."
+      }
+    ],
+    "holds": [
+      {
+        "start": 574,
+        "raw": "小中学校給食費の減免",
+        "reason": "Same annual school-meal reduction recorded for separate months; one annual identity."
+      },
+      {
+        "start": 6960,
+        "raw": "小学校特別教室エアコン設置事業",
+        "reason": "Supplementary-budget subset overlaps existing school AC annual project; do not count funding/subset as a distinct annual project."
+      },
+      {
+        "start": 9146,
+        "raw": "公立学校情報通信ネットワーク環境施設",
+        "reason": "Second same-name row is union funding; related No45 same underlying facility project. Distinct annual identity from local project/union component unresolved."
+      },
+      {
+        "start": 9250,
+        "raw": "組合立多気中学校情報通信ネットワーク",
+        "reason": "Same union-network project as adjacent grant row; not independently accepted without resolving underlying identity."
+      }
+    ]
+  },
+  {
+    "sourceId": "41a98d44fe336822ddd7ffd1",
+    "municipalityCode": "24341",
+    "sourceUrl": "https://www2.town.komono.mie.jp/uploaded/attachment/7087.pdf",
+    "sourceSha256": "668dab34463cd25f9078ec8dc1b189673560fa6b804884316b7faaaeeab45105",
+    "fullTextSha256": "9be7b66b57ebda148a52a65632838aec1ec0b2d88d483b97c21256653dcade95",
+    "format": "pdf",
+    "year": 2023,
+    "proof": "令和5年度 物価高騰対応重点支援地方創生臨時交付金を活用した事業",
+    "rows": [
+      {
+        "name": "住民税非課税世帯価格高騰重点支援給付金支給事業",
+        "start": 49,
+        "raw": "住民税非課税世帯価格高\n騰重点支援給付金支給事 非課税世帯へ１世帯あたり7万円を給付する。\n業",
+        "titleSegments": [
+          {
+            "start": 49,
+            "raw": "住民税非課税世帯価格高"
+          },
+          {
+            "start": 61,
+            "raw": "騰重点支援給付金支給事"
+          },
+          {
+            "start": 95,
+            "raw": "業"
+          }
+        ],
+        "note": "Literal grant-result title and explicit reporting year. Distinct printed expansion qualifier preserved; no inferred monetary alignment, no extra record for financing transfer or administrative-cost component."
+      },
+      {
+        "name": "住民税非課税世帯価格高騰重点支援給付金支給事業（拡充分）",
+        "start": 171,
+        "raw": "住民税非課税世帯価格高\nR5年度分の住民税非課税世帯（住民税課税者の被扶養\n騰重点支援給付金支給事\n者世帯）へ１世帯あたり7万円を給付する。\n業（拡充分）",
+        "titleSegments": [
+          {
+            "start": 171,
+            "raw": "住民税非課税世帯価格高"
+          },
+          {
+            "start": 209,
+            "raw": "騰重点支援給付金支給事"
+          },
+          {
+            "start": 242,
+            "raw": "業（拡充分）"
+          }
+        ],
+        "note": "Literal grant-result title and explicit reporting year. Distinct printed expansion qualifier preserved; no inferred monetary alignment, no extra record for financing transfer or administrative-cost component."
+      },
+      {
+        "name": "物価高騰対策水道料金負担軽減支援事業",
+        "start": 308,
+        "raw": "物価高騰対策水道料金負 町水道事業へ補助金を交付することで、基本料金を減免\n担軽減支援事業",
+        "titleSegments": [
+          {
+            "start": 308,
+            "raw": "物価高騰対策水道料金負"
+          },
+          {
+            "start": 346,
+            "raw": "担軽減支援事業"
+          }
+        ],
+        "note": "Literal grant-result title and explicit reporting year. Distinct printed expansion qualifier preserved; no inferred monetary alignment, no extra record for financing transfer or administrative-cost component."
+      },
+      {
+        "name": "住民税均等割のみ課税世帯価格高騰重点支援給付金支給事業",
+        "start": 434,
+        "raw": "住民税均等割のみ課税世\nR5年度分の住民税均等割のみ課税世帯へ１世帯あたり\n帯価格高騰重点支援給付\n10万円を給付する。\n金支給事業",
+        "titleSegments": [
+          {
+            "start": 434,
+            "raw": "住民税均等割のみ課税世"
+          },
+          {
+            "start": 472,
+            "raw": "帯価格高騰重点支援給付"
+          },
+          {
+            "start": 495,
+            "raw": "金支給事業"
+          }
+        ],
+        "note": "Literal grant-result title and explicit reporting year. Distinct printed expansion qualifier preserved; no inferred monetary alignment, no extra record for financing transfer or administrative-cost component."
+      },
+      {
+        "name": "低所得子育て世帯価格高騰重点支援給付金支給事業",
+        "start": 621,
+        "raw": "低所得子育て世帯価格高 住民税非課税世帯及び均等割のみ課税世帯のうち、子育\n騰重点支援給付金支給事 て世帯に対し、世帯内で扶養されている18歳以下の子ど\n業",
+        "titleSegments": [
+          {
+            "start": 621,
+            "raw": "低所得子育て世帯価格高"
+          },
+          {
+            "start": 659,
+            "raw": "騰重点支援給付金支給事"
+          },
+          {
+            "start": 698,
+            "raw": "業"
+          }
+        ],
+        "note": "Literal grant-result title and explicit reporting year. Distinct printed expansion qualifier preserved; no inferred monetary alignment, no extra record for financing transfer or administrative-cost component."
+      }
+    ],
+    "holds": [
+      {
+        "start": 1066,
+        "raw": "【充当元事業】",
+        "reason": "Funding transfer between years / benefit and administrative-cost components, not another independent annual project."
+      }
+    ]
+  },
+  {
+    "sourceId": "3b3e5ad61cb53da6b88812da",
+    "municipalityCode": "24341",
+    "sourceUrl": "https://www2.town.komono.mie.jp/uploaded/attachment/7088.pdf",
+    "sourceSha256": "e01c6e4c9254ad90ba49ba8d711c0f6b5e65c4265e0f3f52b004523fe535a677",
+    "fullTextSha256": "2b6631292412f0c5c185825253e22f0b05d6a28fcc42bc78525fc02d785e7f43",
+    "format": "pdf",
+    "year": 2024,
+    "proof": "令和６年度 物価高騰対応重点支援地方創生臨時交付金を活用した事業",
+    "rows": [
+      {
+        "name": "価格高騰重点支援給付金支給事業（給付金・定額減税一体支援枠分）",
+        "start": 248,
+        "raw": "価格高騰重点支援給付金 るとともに、住民税非課税化世帯及び均等割のみ課税化\n支給事業（給付金・定額減 世帯のうち、子育て世帯に対し、世帯内で扶養されている\n18歳以下の子ども１人あたり５万円を給付する。\n税一体支援枠分）",
+        "titleSegments": [
+          {
+            "start": 248,
+            "raw": "価格高騰重点支援給付金"
+          },
+          {
+            "start": 286,
+            "raw": "支給事業（給付金・定額減"
+          },
+          {
+            "start": 350,
+            "raw": "税一体支援枠分）"
+          }
+        ],
+        "note": "Literal grant-result title and explicit reporting year. Distinct printed expansion qualifier preserved; no inferred monetary alignment, no extra record for financing transfer or administrative-cost component."
+      },
+      {
+        "name": "住民税非課税世帯価格高騰重点支援給付金支給事業（拡充分）",
+        "start": 731,
+        "raw": "住民税非課税世帯価格高\n者世帯）へ１世帯あたり３万円を給付する。また、対象世帯\n騰重点支援給付金支給事\nのうち、18歳以下の子ども１人あたり２万円を加算して\n業（拡充分）",
+        "titleSegments": [
+          {
+            "start": 731,
+            "raw": "住民税非課税世帯価格高"
+          },
+          {
+            "start": 771,
+            "raw": "騰重点支援給付金支給事"
+          },
+          {
+            "start": 810,
+            "raw": "業（拡充分）"
+          }
+        ],
+        "note": "Literal grant-result title and explicit reporting year. Distinct printed expansion qualifier preserved; no inferred monetary alignment, no extra record for financing transfer or administrative-cost component."
+      }
+    ],
+    "holds": [
+      {
+        "start": 2997,
+        "raw": "【充当元事業】",
+        "reason": "Funding transfer between years / benefit and administrative-cost components, not another independent annual project."
+      },
+      {
+        "start": 60,
+        "raw": "住民税非課税世帯価格高",
+        "reason": "Same printed annual name occurs for prior-year70k shortfall and new30k benefit; distinct business identity not established. Do not synthesize qualifiers, merge monetary values, or create two same-name annual records."
       }
     ]
   }

@@ -1,19 +1,20 @@
 {
-  "candidateRecords": 589,
-  "previousPublishedHead": "5b41eba12ebe2f067a75a25b9fa1e44998f000b2",
+  "candidateRecords": 713,
+  "previousPublishedHead": "449cf55713ca178f150b34c148cdbbc027c0cac7",
+  "increment": 124,
   "perMunicipality": {
     "御浜町": 5,
     "度会町": 25,
-    "多気町": 14,
-    "菰野町": 4,
-    "鳥羽市": 197,
-    "尾鷲市": 3,
+    "多気町": 71,
+    "菰野町": 11,
+    "鳥羽市": 209,
+    "尾鷲市": 49,
     "桑名市": 87,
     "松阪市": 17,
-    "四日市市": 237
+    "四日市市": 239
   },
-  "validatedCumulativeCandidates": 24395,
-  "validatedEvidence": 67031,
+  "validatedCumulativeCandidates": 24519,
+  "validatedEvidence": 67393,
   "excludedSeparateSets": {
     "Okinawa": 1084,
     "initial": 93
@@ -21,16 +22,28 @@
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
-  "newRecordActivityFields": 0,
   "checks": {
-    "focused": "9/9 Mie",
-    "crawler": "688/688",
-    "web": "256/256 serial",
+    "focused": "14/14; rerun after recovery",
+    "crawler": "693/693 completed before stop; log recovered",
+    "web": "256/256; log recovered",
     "typecheck": "passed",
-    "lint": "passed; existing font warning",
-    "national": "verified",
-    "static": "109/109 subpath export"
+    "lint": "passed with existing font warning",
+    "national": "verified branch baseline, not latest master",
+    "static": "109/109 subpath; recovered from previous output destination",
+    "quotes": "24519 candidates /67393 quotes rerun after recovery"
   },
-  "remoteCI": "unverified; prior Actions API403; no retry",
-  "remaining": "Offline phase active: staged additional116 candidates (Owase46,Toba12,Yokkaichi2,Taki56) are independently hash/quote/duplicate checked but NOT part of this589 checkpoint or full-branch validated. Yokkaichi235-number title coverage resolved in stage only. Kameyama123 annual-link rows/410 links need fiscal-year semantics evidence. Five missing bodies and one incomplete prefix held without fetching. Continue offline work; nationwide incomplete."
+  "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "masterArchiveCounts": {
+    "not_in_current_master_by_id_or_exact_name_year": 15621,
+    "same_id_exact_content": 8897,
+    "exact_name_year_match_review": 1
+  },
+  "masterDecisionCounts": {
+    "not_reviewed_in_master_decisions": 10965,
+    "source_included": 8897,
+    "source_excluded": 4359,
+    "explicit_project_excluded": 298
+  },
+  "remoteCI": "unverified; known Actions API403 not retried",
+  "remaining": "Mie76 sources dispositioned. Five missing bodies, one incomplete prefix, ambiguous annual link semantics and identity holds remain. Aichi26 proposals remain separate stage. Nationwide task remains open."
 }

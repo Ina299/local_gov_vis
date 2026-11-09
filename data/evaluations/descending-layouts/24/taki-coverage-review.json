@@ -1,0 +1,64 @@
+[
+  {
+    "sourceId": "f574a3600e1f1a9227a89523",
+    "year": 2025,
+    "additionalTitleCandidates": 5,
+    "holds": []
+  },
+  {
+    "sourceId": "ecadea162086ae8b7268083b",
+    "year": 2022,
+    "additionalTitleCandidates": 5,
+    "holds": [
+      {
+        "start": 2202,
+        "raw": "地域応援商品券発行事業（追加発行分）",
+        "reason": "Second voucher issuance is within the same annual named voucher project; two funding-category rows explicitly same project; do not multiply."
+      },
+      {
+        "start": 3248,
+        "raw": "デジタル田園都市国家構想推進交付金",
+        "reason": "Grant umbrella rather than explicit individual underlying project identity; original individual implementation sheet required."
+      }
+    ]
+  },
+  {
+    "sourceId": "a9b85a4a1fa063da4d1e9b45",
+    "year": 2021,
+    "additionalTitleCandidates": 15,
+    "holds": [
+      {
+        "start": 3004,
+        "raw": "文化芸術振興費補助金",
+        "reason": "Explicit NO10/NO15 same project; retain one printed annual facility-project title, not two funding labels."
+      }
+    ]
+  },
+  {
+    "sourceId": "c903d1795d6a51a335764e61",
+    "year": 2020,
+    "additionalTitleCandidates": 32,
+    "holds": [
+      {
+        "start": 574,
+        "raw": "小中学校給食費の減免",
+        "reason": "Same annual school-meal reduction recorded for separate months; one annual identity."
+      },
+      {
+        "start": 6960,
+        "raw": "小学校特別教室エアコン設置事業",
+        "reason": "Supplementary-budget subset overlaps existing school AC annual project; do not count funding/subset as a distinct annual project."
+      },
+      {
+        "start": 9146,
+        "raw": "公立学校情報通信ネットワーク環境施設",
+        "reason": "Second same-name row is union funding; related No45 same underlying facility project. Distinct annual identity from local project/union component unresolved."
+      },
+      {
+        "start": 9250,
+        "raw": "組合立多気中学校情報通信ネットワーク",
+        "reason": "Same union-network project as adjacent grant row; not independently accepted without resolving underlying identity."
+      }
+    ]
+  }
+]
