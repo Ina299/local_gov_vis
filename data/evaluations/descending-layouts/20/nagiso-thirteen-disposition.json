@@ -1,0 +1,97 @@
+{
+  "sourceId": "2a732aac0ca82c9f821a41c1",
+  "fullTextSha256": "f8943ce8916f5ec96e719552817d5ed50479a40836c40c5ff852cc1eff067efb",
+  "prior100Preserved": true,
+  "proposedAdditions": 13,
+  "newNames": [
+    "地域福祉活動支援事業補助",
+    "相談支援事業",
+    "地域活動支援センターの運営",
+    "訪問入浴サービス",
+    "日中一時支援サービス",
+    "社会参加促進事業（ﾚｸﾘｪｰｼｮﾝ交流会）",
+    "認知症初期集中支援チームの設置",
+    "認知症高齢者等徘徊・見守りSOSネットワーク",
+    "認知症サポーター養成講座",
+    "認知症サポーターフォローアップ研修",
+    "認知症カフェ",
+    "ふれあいサロン出張講座",
+    "林業振興普及啓発（林業担い手育成支援事業）"
+  ],
+  "offsetConvention": "UTF-16code units as JSslice; full source contains supplementary U+20BB7 before these rows; tests verify exactrawsubstrings",
+  "notes": [
+    {
+      "name": "地域福祉活動支援事業補助",
+      "reason": "Named municipal subsidy programme covering four recipients; retain one programme, not four grants. Separate from listed民生児童委員活動 and namedconsultation."
+    },
+    {
+      "name": "相談支援事業",
+      "reason": "Explicit障害者地域生活支援委託toともに; general agency payment elsewhere is a reprint, not second programme. Separate from心配ごと相談and障害児入所通所."
+    },
+    {
+      "name": "地域活動支援センターの運営",
+      "reason": "委託先なぎそ福祉会・のどか運営。Existing地域活動支援センター等通所費補助金 explicitly covers transport to out-of-town centres, not this operation."
+    },
+    {
+      "name": "訪問入浴サービス",
+      "reason": "Source explicitly reports利用者0・回数0・事業費0. Named available service only; do not claim delivered service or positive spending."
+    },
+    {
+      "name": "日中一時支援サービス",
+      "reason": "Separate named service and use row between訪問入浴and移動支援. No duplicate of existing移動支援; no uncertain monetary alignment."
+    },
+    {
+      "name": "社会参加促進事業（ﾚｸﾘｪｰｼｮﾝ交流会）",
+      "reason": "Explicit independent named交流会underその他,1回and0円 retained in quote; not duplicating移動支援 or免許取得改造助成."
+    },
+    {
+      "name": "認知症初期集中支援チームの設置",
+      "reason": "Explicit health professional initial-support team; no independent existing record. Not the respiteやすらぎ支援員service."
+    },
+    {
+      "name": "認知症高齢者等徘徊・見守りSOSネットワーク",
+      "reason": "Distinct SOS coordination/insurance for2registered persons. Existing認知症高齢者見守り事業 is a respite-supporter dispatch service with0hours; keep both proofs, never combine counts."
+    },
+    {
+      "name": "認知症サポーター養成講座",
+      "reason": "Named training activity with separate school/general participants; one programme, not one record per school or cumulative1222supporters."
+    },
+    {
+      "name": "認知症サポーターフォローアップ研修",
+      "reason": "Explicit follow-up training for previously trained supporters, not duplicate of initial養成講座."
+    },
+    {
+      "name": "認知症カフェ",
+      "reason": "One named municipal social-welfare委託programme across multiple cafe sites; no separate record per cafe. Not general地域活動支援センターoperation despite one shared venue."
+    },
+    {
+      "name": "ふれあいサロン出張講座",
+      "reason": "Named off-site dementia-awareness session,1session9people; not school/general initial養成講座 or follow-up研修. No cumulative participant total treated as activity count."
+    },
+    {
+      "name": "林業振興普及啓発（林業担い手育成支援事業）",
+      "reason": "Table explicitly lists this municipal activity separately from森林組合への林業指導啓発補助 and新規従事者補助. Existing木材産業体験 is school bench-making; no sharedcost/amount alignment is inferred."
+    }
+  ],
+  "held": [
+    {
+      "name": "認知症心配ごと相談",
+      "reason": "Explicitly co-located with existing心配ごと相談; reported dementia1case may be included in existing4cases. Separate programme identity not proven; no additional record."
+    },
+    {
+      "name": "認知症家族の会",
+      "reason": "Caregiver support seminar may overlap existing家族介護者交流/家族介護教室; separate programme identity/unique event matching still unproven."
+    },
+    {
+      "name": "高齢者実態調査の実施（民生児童委員調査）",
+      "reason": "Existing民生児童委員活動 includes調査実態把握; no disjoint identity for survey split."
+    },
+    {
+      "name": "児童手当支給状況",
+      "reason": "Explicit period令和6年2月〜令和7年1月spans fiscal2023/2024. Do not assign full amount/service to singleFY2024 from bookcover."
+    }
+  ],
+  "stageOnly": true,
+  "productionChanges": 0,
+  "networkRequests": 0
+}

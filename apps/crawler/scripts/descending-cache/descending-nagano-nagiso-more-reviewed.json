@@ -1033,6 +1033,136 @@
         "evaluationYear": null,
         "evaluatedFiscalYear": 2024,
         "note": "令和6年度報告の農業制度資金利子補給。０件をそのまま引用し実施ありに変換しない。商工のセーフティーネット制度資金利子補給と区別し、貸付元金や利子費用は推定しない。"
+      },
+      {
+        "name": "地域福祉活動支援事業補助",
+        "start": 136412,
+        "raw": "地域福祉活動支援事業補助",
+        "proof": "\n・地域福祉活動支援事業補助\n遺族会\n25,000円\n身体障害者福祉協会\n46,000円\n母子寡婦福祉会\n38,700円\n手をつなぐ育成会\n０円\n\n②民生児童委員活動事業\n・民生児童委員 17名\n主任児童委員 １名\n・民生児童委員協議会開催\n年12回\n・木曽郡民生児童委員協議会会費・分担金\n151,200円\n・民生児童委員活動 事業費 2,179,120円（県交付金1,196,140円）\n・相談件数\n高齢者に関すること 135件\n障害者に関すること\n２件\n子どもに関すること\n９件\nその他\n18件\n合 計\n164件\n・活動件数\n訪問活動\n1,833件\n調査実態把握\n280件\n地域福祉活動\n320件\nその他の活動\n512件\n合 計\n2,945件\n・連絡調整件数\n296件\n\n住6-7\n\n\n③人権尊重まちづくり事業\n・人権擁護委員３名\n・人権相談所開設\n\n年 間４回（６、９、12、２月）相談者０名\n\n役場二階委員会室\n\n・人権週間（12月４ 日～10日）、世界人権デー（12月10日）住民への周知\n④生活保護（事業費:県負担）\n生活\n\nR３年度末 R４年度末 R５年度末 R６年",
+        "proofStart": 136410,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Named municipal subsidy programme covering four recipients; retain one programme, not four grants. Separate from listed民生児童委員活動 and namedconsultation."
+      },
+      {
+        "name": "相談支援事業",
+        "start": 139303,
+        "raw": "相談支援事業",
+        "proof": "\n・相談支援事業（ともにへ委託：2,239,000円（２ (３)③再掲））\n専門的職員の配置、定例相談を年３回\n相談支援専門員を対象とした研修の実施\n・日常生活用具給付等事業\nストマ装具 82件 事業",
+        "proofStart": 139301,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Explicit障害者地域生活支援委託toともに; general agency payment elsewhere is a reprint, not second programme. Separate from心配ごと相談and障害児入所通所."
+      },
+      {
+        "name": "地域活動支援センターの運営",
+        "start": 139464,
+        "raw": "地域活動支援センターの運営",
+        "proof": "\n・地域活動支援センターの運営\n委託料:4,735,614円\n委託先\n特定非営利活動法人なぎそ福祉会\n場所\n田立418-5 田立地域コミュニティ施設「のどか」\n開所日数等\n212日（毎週 月～木、第２・４金曜日開所）\n延利用者数\n413人（１日平均1.9人）\n・その他事業\n訪問",
+        "proofStart": 139462,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "委託先なぎそ福祉会・のどか運営。Existing地域活動支援センター等通所費補助金 explicitly covers transport to out-of-town centres, not this operation."
+      },
+      {
+        "name": "訪問入浴サービス",
+        "start": 139599,
+        "raw": "訪問入浴サービス",
+        "proof": "\n訪問入浴サービス\n利用者０名 利用回数 ０ 回\n事業費:\n0円\n日中一時支援サービス\n利用者４名 利用量 56時 間\n事業費: 54,100円\n移動支援事業\n利用者３名 利用量493時 間\n事業費:699,100円\n自動車運転免許取得・改造助成事業\n１件\n事業費:100,000円\n社会参加促進事業（ﾚｸﾘｪｰｼｮﾝ交流会） １回開催\n事業費:\n0円\n⑧障害児入所・通所給付 事業\n・障害児通所\n・障害児相談支援\n\n利用者０名\n利用者０名\n\n住6-10\n\n0円\n0円\n\n\n⑨地域活動支援センター 等通所費補助金\n・在宅の障害者が町外の地域活動支援センター等に通所するために必要な交通費を補\n助するもの。\n",
+        "proofStart": 139598,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Source explicitly reports利用者0・回数0・事業費0. Named available service only; do not claim delivered service or positive spending."
+      },
+      {
+        "name": "日中一時支援サービス",
+        "start": 139631,
+        "raw": "日中一時支援サービス",
+        "proof": "\n日中一時支援サービス\n利用者４名 利用量 56時 間\n事業費: 54,100円\n移動支援事業\n利用者３名 利用量493時 間\n事業費:699,100円\n自動車運転免許取得・改造助成事業\n１件\n事業費:100,000円\n社会参加促進事業（ﾚｸﾘｪｰｼｮﾝ交流会） １回開催\n事業費:\n0円\n⑧障害児入所・通所給付 事業\n・障害児通所\n・障害児相談支援\n\n利用者０名\n利用者０名\n\n住6-10\n\n0円\n0円\n\n\n⑨地域活動支援センター 等通所費補助金\n・在宅の障害者が町外の地域活動支援センター等に通所するために必要な交通費を補\n助するもの。\n",
+        "proofStart": 139630,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Separate named service and use row between訪問入浴and移動支援. No duplicate of existing移動支援; no uncertain monetary alignment."
+      },
+      {
+        "name": "社会参加促進事業（ﾚｸﾘｪｰｼｮﾝ交流会）",
+        "start": 139740,
+        "raw": "社会参加促進事業（ﾚｸﾘｪｰｼｮﾝ交流会）",
+        "proof": "\n社会参加促進事業（ﾚｸﾘｪｰｼｮﾝ交流会） １回開催\n事業費:\n0円\n⑧障害児入所・通所給付 事業\n・障害児通所\n・障害児相談支援\n\n利用者０名\n利用者０名\n\n住6-10\n\n0円\n0円\n\n\n⑨地域活動支援センター 等通所費補助金\n・在宅の障害者が町外の地域活動支援センター等に通所するために必要な交通費を補\n助するもの。\n対象者３名\n86,696 円\n（４）ひとり親家庭福祉関係\n①母子家庭の状況\n\n（家庭数）\n\nR元年度\n\nR２年度\n\nR３年度\n\nR４年度\n\nR５年度\n\nR６年度\n\n23\n\n20\n\n23\n\n24\n\n21",
+        "proofStart": 139739,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Explicit independent named交流会underその他,1回and0円 retained in quote; not duplicating移動支援 or免許取得改造助成."
+      },
+      {
+        "name": "認知症初期集中支援チームの設置",
+        "start": 150057,
+        "raw": "認知症初期集中支援チームの設置",
+        "proof": "〇認知症初期集中支援チームの設置\n地域包括支援センター内に保健師・看護師を初期集中支援チーム員として配置。\nサポート医の篠﨑医院・篠﨑隆医師との連携を図っている。\n〇認知症高齢者等徘徊・見守りSOSネットワーク\n認 知症 高齢 者等 が住 み慣 れ た 地域 で 生 活し てい ける よう 徘徊 ・ 見守 りSOSネッ ト\nワークを構築。認知症高齢者 や家族を支援するため、家族等の同意の",
+        "proofStart": 150056,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Explicit health professional initial-support team; no independent existing record. Not the respiteやすらぎ支援員service."
+      },
+      {
+        "name": "認知症高齢者等徘徊・見守りSOSネットワーク",
+        "start": 150139,
+        "raw": "認知症高齢者等徘徊・見守りSOSネットワーク",
+        "proof": "〇認知症高齢者等徘徊・見守りSOSネットワーク\n認 知症 高齢 者等 が住 み慣 れ た 地域 で 生 活し てい ける よう 徘徊 ・ 見守 りSOSネッ ト\nワークを構築。認知症高齢者 や家族を支援するため、家族等の同意の上で関係者に\n協力機関として依頼し実施し た。令和２年度より対象者に対して個人賠償責任補償\n保険に町負担で加入し、安心して家庭介護できるよう支援を行った。\n見守り支援登録者\n\n：\n\n２名\n\n（４名）\n\n〇認知症サポーター養成講座（社協委託事業）\nサポーター養成講座を受けることにより認知症を正しく理解し、認知症高齢者\nと、その家族の応援者（サポーター）を増やす。\n対象者：南木曽 小学校３年生\n\n23名（19名）\n\n南木曽中学校１年生\n\n32名（37名）\n\n蘇南高校１年生\n\n０名（０名）開催中止\n\n",
+        "proofStart": 150138,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Distinct SOS coordination/insurance for2registered persons. Existing認知症高齢者見守り事業 is a respite-supporter dispatch service with0hours; keep both proofs, never combine counts."
+      },
+      {
+        "name": "認知症サポーター養成講座",
+        "start": 150353,
+        "raw": "認知症サポーター養成講座",
+        "proof": "〇認知症サポーター養成講座（社協委託事業）\nサポーター養成講座を受けることにより認知症を正しく理解し、認知症高齢者\nと、その家族の応援者（サポーター）を増やす。\n対象者：南木曽 小学校３年生\n\n23名（19名）\n\n南木曽中学校１年生\n\n32名（37名）\n\n蘇南高校１年生\n\n０名（０名）開催中止\n\n一般（北部分館）\n\n24名（20名）\n\n認知症サポーター総数\n\n1,222人（1,143人）\n\n〇認知症サポーターフォローアップ研修\n対象者：過去に 認知症サポーター養成講座を受講した人\n\n12名（13名）\n\n〇講演会の開催（社協委託事業）\n住民対象に、認知症を理解し 誰でもが住みやすい地域づくりを目的に講演会を開\n催する。\n\n住6-20\n\n\n講演会：開催回数１回（１回）\n\n参",
+        "proofStart": 150352,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Named training activity with separate school/general participants; one programme, not one record per school or cumulative1222supporters."
+      },
+      {
+        "name": "認知症サポーターフォローアップ研修",
+        "start": 150550,
+        "raw": "認知症サポーターフォローアップ研修",
+        "proof": "〇認知症サポーターフォローアップ研修\n対象者：過去に 認知症サポーター養成講座を受講した人\n\n12名（13名）\n\n〇講演会の開催（社協委託事業）\n住民対象に、認知症を理解し 誰でもが住みやすい地域づくりを目的に講演会を開\n催する。\n\n住6-20\n\n\n講演会：開催回数１回（１回）\n\n参加者数：43人（15人）\n\n医療法人敦賀温 泉病院認知症疾患医療センター院長\n\n玉井\n\n顯\n\n氏\n\n「認知症ってな んじゃらほい」～早期発見・対応と最新の話題～\n〇認知症カフェ（社協委託事業）\n認知症の方と家族、地域住民",
+        "proofStart": 150549,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Explicit follow-up training for previously trained supporters, not duplicate of initial養成講座."
+      },
+      {
+        "name": "認知症カフェ",
+        "start": 150773,
+        "raw": "認知症カフェ",
+        "proof": "〇認知症カフェ（社協委託事業）\n認知症の方と家族、地域住民 、専門職の誰もが参加でき集う場として、ほっとカ\nフェ桃介を桃介亭で、ほっとカフェ花馬を地域活動支援センターのどかで、月1回開\n催した。ほっとカフェあららぎ（若葉荘、蘭分園）、ほっとカフェつまご（妻籠町並\nみ交流センター）、ほっとカフェひ ろせ（広瀬分館）を3か月に1回開催した。出張カ\nフェとして、北部分館、与川分館で各1回開催した。\n実施回数\n\n花馬：11回\n\n桃介：12回\n\n蘭：４回\n\n（花馬：11回\n\n桃介：12回\n\nあづま：８回）\n\n妻籠：４回\n\n広瀬４回\n\n延べ利用者数\n\n花馬：132人\n（花馬：113人\n\n北部：1回\n\n桃介：132人\n桃介：123人\n\n妻籠：69人（58人）\n北部：18人\n\n※花馬は２月大雪のため中止\n与川：1回\n\n蘭：33人\nあづま：82人）\n\n広瀬：34人（14人）\n\n与川：14人\n\n〇認知症心配ごと相談（社協委託事業）\n心配ごと相談と併設して開催 しており、認知症にかかる心配ごとについて認知症\n地域支援推進員が対応する。\n実施回数\n\n12回（12回）\n\n認知症に関する相談件数：１件（０件）\n\n〇ふれあいサロン出張講座（社協委託事業）\n各地区のサロンや運動教室に出向き、テキスト等を利用して認知症に関する知\n識・予防方法を普及する。\n実施回数\n\n１回（１回）\n\n参加者：９人（８人）\n\n〇認知症家族の会（社協委託事業）\n認知症を患う家族を介護している方を中心に講演会や介護者どうしの交流を通\nじて介護者を支援している。\n研修会：１回（１回）\n\n参加者：11人（11人）\n\n住6-21\n\n\n（５）令和６年度\n\n実績関係\n\n① 第１号被保険者数\n\n（単位：",
+        "proofStart": 150772,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "One named municipal social-welfare委託programme across multiple cafe sites; no separate record per cafe. Not general地域活動支援センターoperation despite one shared venue."
+      },
+      {
+        "name": "ふれあいサロン出張講座",
+        "start": 151273,
+        "raw": "ふれあいサロン出張講座",
+        "proof": "：18人\n\n※花馬は２月大雪のため中止\n与川：1回\n\n蘭：33人\nあづま：82人）\n\n広瀬：34人（14人）\n\n与川：14人\n\n〇認知症心配ごと相談（社協委託事業）\n心配ごと相談と併設して開催 しており、認知症にかかる心配ごとについて認知症\n地域支援推進員が対応する。\n実施回数\n\n12回（12回）\n\n認知症に関する相談件数：１件（０件）\n\n〇ふれあいサロン出張講座（社協委託事業）\n各地区のサロンや運動教室に出向き、テキスト等を利用して認知症に関する知\n識・予防方法を普及する。\n実施回数\n\n１回（１回）\n\n参加者：９人（８人）\n\n〇認知症家族の会（社協委託事業）\n認知症を患う家族を介護している方を中心に講演会や介護者どうしの交流を通\nじて介護者を支援している。\n研修会：１回（１回）\n\n参加者：11人（11人）\n\n住6-21\n\n\n（５）令和６年度\n\n実績関係\n\n① 第１号被保険者数\n\n（単位：人）\n\n年齢区分\n\n元年度末 ２年度末 ３年度末 ４年度末 ５年度末 ６年度末\n\n65歳以上75歳未",
+        "proofStart": 151101,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Named off-site dementia-awareness session,1session9people; not school/general initial養成講座 or follow-up研修. No cumulative participant total treated as activity count."
+      },
+      {
+        "name": "林業振興普及啓発（林業担い手育成支援事業）",
+        "start": 197379,
+        "raw": "林業振興普及啓発\n（林業担い手育成支援事業）",
+        "proof": "令和６年度林務関係主要事業\n単位：千円\n\n(１)林業振興関係\n左\n\n事業量\n\n事\n\n業\n\n名\n\n林業振興普及啓発\n（林業担い手育成支援事業）\n\n林業振興事業補助金\n（指導啓発事業）\n\n林業振興事業補助金\n（造林事業）\n\n林業振興事業補助金\n（特認事業）\n山林資源活用機器設置補助金\n（薪・ペレットストーブ設置）\n\n森林整備促進事業補助金\n（作業道開設・修繕・皮剥防止）\n\n事業主体 （ha、台、\n\nｍ、箇所）\n\n町\n森林組合\n森林組合\n\n合\n\n計\n\nの\n\n国庫支出金 県出支金\n\n財\n\n源\n\n地方債\n\n600\n\n内\n\n訳\n\nその他\n\n一般財源\n\n559\n\n41\n\n988\n\n988\n\n257\n\n257\n\n150\n\n150\n\n備\n\n考\n\nチェンソー講習会\nその他：森林経営管理基金\n\n町\n\n2\n\n200\n\n200\n\n薪ストーブ２台\nその他：森林経営管理基金\n\n町\n\n1\n\n183\n\n183\n\n作業道修繕\nその他：森林経営管理基金\n\n町内林業事業体\n\n2\n\n358\n\n358\n\nその他：森林経営管理基金\n\n町\n\n12\n\n8,487\n\n5,500\n\n2,987\n\n6,800\n\n4,423\n\n（新規林業従事者育成）\n\n（危険木伐採）\n\n8.58\n\n林研クラブ\n\n林業担い手育成支援事業補助金\n\nライフライン等保全対策事業\n\n16\n\n事業費\n\n11,223\n\n0\n\n0\n\n産7-32\n\n0\n\nその他：森林経営管理基金\n\n\n単位：千円\n\n（２）町有林造成事業\n事\n\n業\n\n名\n\n事業主体\n\n事業量\n保育間伐\n\n町有林造成事業\n\n町\n\n1.15ha\n下",
+        "proofStart": 197331,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2024,
+        "note": "Table explicitly lists this municipal activity separately from森林組合への林業指導啓発補助 and新規従事者補助. Existing木材産業体験 is school bench-making; no sharedcost/amount alignment is inferred."
       }
     ]
   }
