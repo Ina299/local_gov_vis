@@ -1,3 +1,7 @@
+import{reviewToyooka}from'./descending-nagano-toyooka';
+import{reviewOshika}from'./descending-nagano-oshika';
+import{reviewNagisoNext}from'./descending-nagano-nagiso-next';
+import{reviewKiso}from'./descending-nagano-kiso';
 import{reviewNagiso}from'./descending-nagano-nagiso';
 import{reviewStrategy}from'./descending-nagano-strategy';
 import{reviewNaganoGrants}from'./descending-nagano-grants';
@@ -73,6 +77,10 @@ const evidenceHolds:Record<string,{code:string;proof:string;reason:string;status
  '0a23c81c6c6ae8a10e4fd6cd':{code:'46492',proof:'２．2020 年度実績（\n「宇宙乃浦」創生・「スペースサイエンスタウン構想」実現プロジェクト）',status:'joint_project_identity_hold',reason:'2020 actual report jointly covers two named projects with shared activities/budget, followed by2021 plans and forecast KPI cells. Individual allocation and boundaries are absent; do not split or assign shared figures.'}
 };
 export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]):LayoutReview|null{
+ const kisoReview=reviewKiso(input,inputs);if(kisoReview)return kisoReview;
+ const nagisonextReview=reviewNagisoNext(input);if(nagisonextReview)return nagisonextReview;
+ const oshikaReview=reviewOshika(input);if(oshikaReview)return oshikaReview;
+ const toyookaReview=reviewToyooka(input,inputs);if(toyookaReview)return toyookaReview;
  const grantsReview=reviewNaganoGrants(input);if(grantsReview)return grantsReview;
  const strategyReview=reviewStrategy(input);if(strategyReview)return strategyReview;
  const nagisoReview=reviewNagiso(input);if(nagisoReview)return nagisoReview;

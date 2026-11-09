@@ -1,0 +1,27 @@
+{
+  "sourceId": "57fc5de74ed0ed5af401a659",
+  "reviewedPrintedRows": 25,
+  "proposed": 23,
+  "held": [
+    {
+      "printedNumber": 1,
+      "status": "funding_label_hold",
+      "reason": "National subsidy instrument label; individual local implementation identity must be explicit before turning this funding row into a business."
+    },
+    {
+      "printedNumber": 30,
+      "status": "funding_label_hold",
+      "reason": "National subsidy instrument label; individual local implementation identity must be explicit before turning this funding row into a business."
+    }
+  ],
+  "absentPrintedNumbers": [
+    6,
+    11,
+    12,
+    14,
+    15,
+    17,
+    18
+  ],
+  "noInferredMissingRows": true
+}

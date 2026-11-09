@@ -1,0 +1,53 @@
+{
+  "sourceId": "1aef0281b4df557abf471176",
+  "proposed": 36,
+  "reviewedRanges": [
+    [
+      0,
+      2205
+    ],
+    [
+      5509,
+      7631
+    ],
+    [
+      7631,
+      9368
+    ],
+    [
+      9368,
+      11675
+    ]
+  ],
+  "fundingLabelHolds": [
+    39,
+    40,
+    46,
+    47,
+    48
+  ],
+  "remainingRanges": [],
+  "noMunicipalRequests": true,
+  "reviewedPrintedRows": 44,
+  "absentPrintedNumbers": [
+    8,
+    9,
+    14,
+    24,
+    42
+  ],
+  "crossFiscalHolds": [
+    {
+      "printedNumber": 17,
+      "reason": "R2.4.24–R3.5.14 spansFY2020/2021."
+    },
+    {
+      "printedNumber": 20,
+      "reason": "R2.6.22–R3.7.30 spansFY2020/2021."
+    },
+    {
+      "printedNumber": 49,
+      "reason": "R3.4.1 is newborn eligibility cutoff;R3.4.23 completion also beyondFY2020. No unsupported fiscal split."
+    }
+  ]
+}

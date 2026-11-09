@@ -1,0 +1,38 @@
+{
+  "sourceId": "8cc092ca2f7b137d5433f305",
+  "printedRows": 112,
+  "proposed": 106,
+  "held": [
+    {
+      "printedRow": 52,
+      "status": "composite_identity_hold",
+      "reason": "有害鳥獣駆除事業 / ジビエ料理活用促進 appear in one numbered business cell; cannot split or silently concatenate independent identities."
+    },
+    {
+      "printedRow": 54,
+      "status": "composite_identity_hold",
+      "reason": "がん検診等推進事業 / 予防接種事業 share one cell; preserve composite source, no separate counts without sheet identity."
+    },
+    {
+      "printedRow": 57,
+      "status": "composite_identity_hold",
+      "reason": "地域医療体制の充実 / 救急体制の充実 share one cell; exact canonical business identity unresolved."
+    },
+    {
+      "printedRow": 60,
+      "status": "composite_identity_hold",
+      "reason": "障がい者福祉サービス事業 / 障がい者相談事業 share one cell; no independent identities inferred."
+    },
+    {
+      "printedRow": 65,
+      "status": "composite_identity_hold",
+      "reason": "生活支援ハウス / 高齢者住宅 appear together; relation/identity cannot be inferred."
+    },
+    {
+      "printedRow": 94,
+      "status": "composite_identity_hold",
+      "reason": "地産地消・こだわり直販の appears after row95 whereas 拡大支援 is above; original row coordinates are needed before joining reversed fragments."
+    }
+  ],
+  "notes": "All112numbered cells reviewed;106literal names retained,6identity holds. Vote counts and policy codes remain unassigned."
+}

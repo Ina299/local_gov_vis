@@ -1,0 +1,40 @@
+{
+  "sourceId": "0adaffa994129d9e4f61cc1c",
+  "proposed": 4,
+  "reviewedPrintedRows": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "held": [
+    {
+      "printedNumbers": [
+        1,
+        3
+      ],
+      "status": "beneficiary_identity_hold",
+      "reason": "Similar benefit names, differing taxable/non-taxable populations and funding labels; no unsupported merging/splitting."
+    },
+    {
+      "printedNumbers": [
+        2,
+        6
+      ],
+      "status": "administrative_component_not_project"
+    },
+    {
+      "printedNumbers": [
+        11,
+        12
+      ],
+      "status": "national_funding_label_hold"
+    }
+  ]
+}

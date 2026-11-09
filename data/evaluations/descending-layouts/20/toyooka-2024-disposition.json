@@ -1,0 +1,24 @@
+{
+  "sourceId": "ff1fe2728a87bb13cd072af6",
+  "status": "cross_year_and_identity_holds",
+  "accepted": 0,
+  "rows": [
+    {
+      "printedNumber": "1",
+      "reason": "FY2023 payment reprinted in FY2024 funding report; do not create a FY2024 duplicate."
+    },
+    {
+      "printedNumber": "2/6",
+      "reason": "Several different benefits grouped; No6 is administration expense ofNo2, not an independent business."
+    },
+    {
+      "printedNumber": "7/不足額給付",
+      "reason": "FY2024/FY2025 actual disbursements and carryover share a cell; canonical annual identity unresolved, no split inferred."
+    },
+    {
+      "printedNumber": "11",
+      "reason": "Voucher periodJan–Jun2025, completionR7.9.11; spansFY2024/2025 and must not be assigned entirely toFY2024."
+    }
+  ],
+  "noAccessDenialClaim": true
+}

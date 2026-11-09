@@ -1,0 +1,65 @@
+{
+  "sourceId": "3260cda5ce06948ba875b041",
+  "reviewedPages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "proposed": 24,
+  "held": [
+    {
+      "printedNumber": 19,
+      "status": "funding_label_hold"
+    },
+    {
+      "printedNumber": 21,
+      "status": "funding_label_hold"
+    }
+  ],
+  "nextPage": {
+    "start": 7418,
+    "printedRows": [
+      30,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "status": "reviewed",
+    "reason": "Last page includes R4.4.15 and R4.5.13 dates outsideFY2021; row-level date association must be resolved before acceptance.",
+    "rowFindings": [
+      {
+        "printedNumber": 30,
+        "status": "proposal",
+        "reason": "R4.3.7–R4.3.31 effect paragraph explicitly discusses the individual business-owner sick allowance. Exact date/effect quotation retained; no inferred start date."
+      },
+      {
+        "printedNumber": 32,
+        "status": "proposal",
+        "reason": "R4.3.23 and R4.3.25 effect paragraph explicitly mentions Web conference environment. Exact date/effect quotation retained; no inferred start date."
+      },
+      {
+        "printedNumber": 33,
+        "status": "proposal",
+        "reason": "R4.2.2 and R4.3.31 infection-supplies support effect paragraph; no fiscal boundary crossing. Exact date/effect quotation retained; no inferred start date."
+      },
+      {
+        "printedNumber": 34,
+        "status": "cross_fiscal_period_hold",
+        "reason": "R4.2.25–R4.4.15 completion spans FY2021/2022; no inferred split."
+      },
+      {
+        "printedNumber": 35,
+        "status": "proposal",
+        "reason": "R4.1.18 and R4.3.11 effect paragraph explicitly mentions free antigen kits. Exact date/effect quotation retained; no inferred start date."
+      },
+      {
+        "printedNumber": 36,
+        "status": "cross_fiscal_period_hold",
+        "reason": "R4.2.1–R4.5.13 includes post-fiscal redemption; no inferred split."
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "sourceId": "3a439d4c41fb922fec661436",
+  "proposed": 1,
+  "reviewedPrintedRows": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    10
+  ],
+  "held": [
+    {
+      "printedNumbers": [
+        2,
+        3
+      ],
+      "reason": "R6.2.1–R6.5.24 carryover, disbursement startsApril2024; no inferred annual split."
+    },
+    {
+      "printedNumbers": [
+        4,
+        5
+      ],
+      "reason": "Multiple FY2024 benefits plus funding allocation under FY2023 report; canonical identity/period unresolved."
+    },
+    {
+      "printedNumbers": [
+        10
+      ],
+      "reason": "Voucher issue/usage spansFY2023/2024, completionR6.9.4."
+    }
+  ]
+}

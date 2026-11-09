@@ -1,0 +1,65 @@
+[
+  {
+    "sourceId": "291279bae876f35af3811c5f",
+    "sourceSha256": "1ca95d96a146acbb17cc4a7473c7321d9868dff9ea947574c57270c7d131424a",
+    "fullTextSha256": "90a4143d2528bf3c6180f75f9ccb9a16b1a0613cd5c0f1e8b568db9d6ea57229",
+    "status": "reference_page_with_future_plans",
+    "reason": "Implementation-plan or future-period statements are not completed execution records."
+  },
+  {
+    "sourceId": "9f51739c63eb050683a9dde4",
+    "sourceSha256": "e5f4e77e6d9f8c42d5e2a0e2bd55393885df74009533a3336d32852fe0efdeab",
+    "fullTextSha256": "d506454a0bfd951bfe8f5992a33bb705121b88c1789aba0be0b4af11f72b595a",
+    "status": "planning_only_no_actual_evaluation",
+    "reason": "Implementation-plan or future-period statements are not completed execution records."
+  },
+  {
+    "sourceId": "b2456a152dbe073c65304c93",
+    "sourceSha256": "8505be3e8b70048a8832953d1e28c2cb71ac78b50cf8cf9a581f4e35361eef4e",
+    "fullTextSha256": "f7988f7ebf4f7e52135c68835a833b24f1c9df1447695a03b688d85d76fa46c1",
+    "status": "planning_only_no_actual_evaluation",
+    "reason": "Implementation-plan or future-period statements are not completed execution records."
+  },
+  {
+    "sourceId": "ff1fe2728a87bb13cd072af6",
+    "sourceSha256": "53c760b7e4aa60a7ab5bc927e14f5c659f23b49f74d832ebfb526a378e665f01",
+    "fullTextSha256": "c0f8184c6bc1ce74f4d17012c9984bc750f0699b9063b64666c427743c9b0925",
+    "status": "reviewed_actual_book",
+    "reason": "See annual disposition and exact named-row proposal maps; uncertain funding/period identities held."
+  },
+  {
+    "sourceId": "3a439d4c41fb922fec661436",
+    "sourceSha256": "994e415097539c636894f48005f69ff1fab440060bcaa44bf049f94f0c1e8790",
+    "fullTextSha256": "6b90ed79a97647257dc4212acdfb5f035c591f34f975a14cf255f5c96a631096",
+    "status": "reviewed_actual_book",
+    "reason": "See annual disposition and exact named-row proposal maps; uncertain funding/period identities held."
+  },
+  {
+    "sourceId": "0adaffa994129d9e4f61cc1c",
+    "sourceSha256": "98e76799e639acd10ccc78dadd054f08cb610a760fa0b2e3f12d3c5eeaa5cdf1",
+    "fullTextSha256": "ca501b94354bdf8538682bbd9c7a0ba56c3e9527aaa53c064ffc485451fd32a8",
+    "status": "reviewed_actual_book",
+    "reason": "See annual disposition and exact named-row proposal maps; uncertain funding/period identities held."
+  },
+  {
+    "sourceId": "57fc5de74ed0ed5af401a659",
+    "sourceSha256": "798e1fc6d9481c7f5c85eeb1ed04698d70b43dc0294c9e86d261ab76cc01743e",
+    "fullTextSha256": "0b5b8b6d493c15479f5750e40be8926a85a81ddcb89e16e06cbc3cbeccfb6972",
+    "status": "reviewed_actual_book",
+    "reason": "See annual disposition and exact named-row proposal maps; uncertain funding/period identities held."
+  },
+  {
+    "sourceId": "3260cda5ce06948ba875b041",
+    "sourceSha256": "c90f1723540b23c06c70f66ba1741b26270325ce96a396bac7fe4a4755bdad54",
+    "fullTextSha256": "ba2ab454b37ec2abe90c305a901fe38668c3169550a2fa1c6da8307fb795ab27",
+    "status": "reviewed_actual_book",
+    "reason": "See annual disposition and exact named-row proposal maps; uncertain funding/period identities held."
+  },
+  {
+    "sourceId": "1aef0281b4df557abf471176",
+    "sourceSha256": "a7568734bdad5e74326a2c2a695030fd92854cdf4a9c74bf6299b7bb34bea901",
+    "fullTextSha256": "0cd8c3b1d189f71f79b60407b81d73508e36b90162fcbfa8925ff0d9213bdd95",
+    "status": "reviewed_actual_book",
+    "reason": "See annual disposition and exact named-row proposal maps; uncertain funding/period identities held."
+  }
+]

@@ -1,0 +1,90 @@
+export const reviewed = [
+  {
+    "source": {
+      "municipalityCode": "20425",
+      "municipalityName": "木祖村",
+      "sourceId": "2275cc170ff7f3b6914ce218",
+      "title": "第１期総合戦略検証シート（335.4kbyte）",
+      "url": "https://www.vill.kiso.nagano.jp/gyoseijoho/shisaku_keikaku/documents/machihitosigoto_sousei_sougousenryaku/kenshousi-to.pdf",
+      "sourceSha256": "2b2f83ff25b67b93775264c08a1edfad333a46ea5d31ed4fc09690eb8471ec82",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 11856,
+      "fullTextSha256": "06c28e1fb9e62a86fa64e9b2767d5b6d14d9e0f5db7a9cd75b90288f46d41987"
+    },
+    "cover": {
+      "municipalityCode": "20425",
+      "municipalityName": "木祖村",
+      "sourceId": "00827c204829a5e28498148d",
+      "title": "木祖村まち・ひと・しごと創生総合戦略 | 信州木祖村",
+      "url": "https://www.vill.kiso.nagano.jp/gyoseijoho/shisaku_keikaku/machihitosigoto_sousei_sougousenryaku.html",
+      "sourceSha256": "5931a453778254709482c41c8159e70d3a2a3f6fd23498f372ac51a427565bdf",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 4158,
+      "fullTextSha256": "41e86bf5cf85daabf9c3dffe8542b4d3a63a50e104b315ce83d982cacc4caab9"
+    },
+    "yearProof": "平成27年12月に策定しました、第１期(平成27年度から令和元年度)「木祖村まち・ひと・しごと創生総合戦略」について、令和２年10月21日に検証委員会を開催のうえ、以下の通り検証を行いました。",
+    "yearProofStart": 1592,
+    "linkProof": "第１期総合戦略検証シート（335.4kbyte）",
+    "linkProofStart": 4106,
+    "navigationReview": {
+      "checkedAt": "2026-10-23T18:47:04.492379+00:00",
+      "evidenceUrl": "https://www.vill.kiso.nagano.jp/gyoseijoho/shisaku_keikaku/machihitosigoto_sousei_sougousenryaku.html",
+      "method": "official_body_review",
+      "notes": "保存済み公式ページ（原本SHA-256 5931a453778254709482c41c8159e70d3a2a3f6fd23498f372ac51a427565bdf）の本文リンクから機械的に収集。リンク先の内容・資料区分は未確認。",
+      "originEvidenceUrl": null,
+      "publisher": "木祖村",
+      "rawArchiveState": "collected",
+      "yearNotes": "未確認（リンク文字列のみ）"
+    },
+    "rows": [
+      {
+        "name": "源気出会いサポート事業",
+        "start": 8151,
+        "raw": "源気出会いサポート事業",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "proofStart": 8136,
+        "proof": "\n\n基本目標\n\n３\n\n成婚率（源気出会いサポート事業）\n\n住民福祉課\n\n0%\n\n基本目標\n\n４\n\n女性就業者数\n\n住民福祉課\n\n730人\n\nH27：0％\nH28：3％\n30% H29：3％\nH30：8％\nR01：12.5％\n\n770人\n\n－\n\n5 ページ\n\nＣ\n\nH28とH30で2件成婚があった。県の\n婚活をする人を増やすためにサポート 価値観が多様化した現代社会において、成婚率を高め\nマッチングシステムの利用により、紹\nセンターを継続し、登録者を増やすた ていくことは、難しい課題である。そうした中でも啓\n介件数は増えているが、お見合い・交\nめの施策を実施していく。\n発活動を続け、地道な取組を行うしかない。\n際につながっていない。\n\nＣ\n\nセミナーなどを通じて啓発活動に取り組\nんだが、女性就業者数を増やすための対\n策が充分に行えなかったため、増加した\n実感はない。\n\n男女共同参画施策の中で女性の就業に 地域の活性化と元気を生み出す重要な指標であるの\n関して取り組んでいきたい。\nで、今後も、継続して取り組んでいただきたい。\n\n\n４．地域づくり、安心なくらし\n数値目標等\nＫＰＩ\n\n障がい者就業者数\n基本目標\n\n住民福祉課\n\n基準値\n\nR1 目標値\n\n12人\n\n１\n障がい者生活サポート利用者数\n\n住民福祉課\n\n2人\n\n特定健診受診率\n\n住民福祉課\n\n41.20%\n\n各年度実績値(H27～R1)\n\n住民福祉課\n\n570人\n\nH27：971人\nH28：725人\n600人 H29：1751人\nH30：1548人\nR01：1501人\n\n生涯学習教室参加者数\n公民館講座（大人の学級、女性セミナー）\n教育委員会\n源流スポーツ大学\nすくすく教室\n\n1回平均人数\n20.47人\n7.41人\n18.39人\n\n２\n健康教室等の参加人",
+        "note": "Named programme, not a new record per KPI/year; first-phase multi-year review. No numerical alignment inferred."
+      },
+      {
+        "name": "橋梁長寿命化修繕事業",
+        "start": 11212,
+        "raw": "橋梁長寿命化修繕事業",
+        "evaluationYear": 2020,
+        "evaluatedFiscalYear": null,
+        "proofStart": 11197,
+        "proof": "路改良率\n\n基本目標\n\n４\n\n橋梁長寿命化修繕事業\n\n建設水道課\n\n建設水道課\n\n66.10%\n\n-\n\n送配水管の経年（20年経過）管の延長\n\n建設水道課\n\n16,508m\n\n下水道長寿命化計画の策定\n\n建設水道課\n\n-\n\nH27：67.7％\nH28：67.5％\n68.20% H29：67.4％\nH30：67.4％\nR01：67.4％\n\nＣ\n\nH27：0橋\nH28：0橋\nH29：1橋\n5橋\nH30：2橋\nR01：0橋\n計 ：3橋\n\nＣ\n\nH27：143m\nH28：627m\nH29：907m\n13,817m\nH30：626m\nR01：272m\n計 ：2,575m\n\nＣ\n\n目標は達成することはできなかった\n計画的に老朽化した管を更新していき\nが、道路改良の工事と合わせ、送配水\nたい。\n管の更新を行っている。\n\nH27：未完\n完了 H28：未完\nH29：完了\n\nＡ\n\n計画通り完了できた。\n\n7 ページ\n\n新規路線の認定等もあり改良率はほぼ 順次改良事業を実施し継続して改良率\n横ばいとなった。\nの向上に努めていく。\n\n道路改良、橋梁長寿命化修繕、送配水管の経年管の延\n関係機関協議等に時間を要し目標を達 順次修繕事業を実施し継続して長寿命\n長、下水道長寿命化は、いずれも重要なインフラ整備\n成することはできなかった。\n化施策の推進に努めていく。\nであるが、多額の財源が必要であることから、優先順\n位をつけて計画的に進める必要がある。\n\n計画に基づき順次修繕（更新）事業を\n実施し長寿命化施策の推進に努めてい\nく。",
+        "note": "Named programme, not a new record per KPI/year; first-phase multi-year review. No numerical alignment inferred."
+      }
+    ]
+  },
+  {
+    "source": {
+      "municipalityCode": "20425",
+      "municipalityName": "木祖村",
+      "sourceId": "7874be06ac14dedc8d0f4549",
+      "title": "第２期木祖村まち・ひと・しごと創生総合戦略検証結果（仕事の魅力創造・発信）（721.1kbyte）",
+      "url": "https://www.vill.kiso.nagano.jp/gyoseijoho/shisaku_keikaku/documents/shigotonomiryokusouzou_Hasshin.pdf",
+      "sourceSha256": "46d943a319de45d5b653b1ec782d3f77f283a85bf6fc0a41ede39c7f2de8bb30",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 13281,
+      "fullTextSha256": "3a41a60a70c97b4db8bb07e0a35d2f180065c4724834d441cc3542baf36588d4"
+    },
+    "rows": [
+      {
+        "name": "渓流釣り大会",
+        "start": 11988,
+        "raw": "渓流釣り大会",
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2021,
+        "proof": "関係団体と有効性について協議しイベントの方\n向性を見出した。渓流釣り大会については、Ｒ３\n年度を最終開催とし、テンカラ釣りにシフトする。",
+        "proofStart": 11958,
+        "note": "Explicit R3 final holding year in narrative, not the R3-until cumulative column or future R4/R5 schedule."
+      }
+    ]
+  }
+];
