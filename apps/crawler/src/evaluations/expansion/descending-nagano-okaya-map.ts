@@ -1,0 +1,686 @@
+export const reviewed = [
+  {
+    "source": {
+      "municipalityCode": "20204",
+      "municipalityName": "岡谷市",
+      "sourceId": "729865793e91d8a8d3c98199",
+      "title": "令和6年度行政報告書",
+      "url": "https://www.city.okaya.lg.jp/material/files/group/2/R06_gyouseihoukokusyo.pdf",
+      "sourceSha256": "f58466d7568e9d942f95e5d05e6fc6193cee89a132a0304b472954753f8fdc7a",
+      "listedContinuations": [
+        {
+          "assetBytes": 289679,
+          "assetPath": "documents/729865793e91d8a8d3c98199-2.json",
+          "assetSha256": "47de674567e202488982cd23a3ed811af3d11732be00bb9833afc17d7f360e48",
+          "exportedCharacters": 120000,
+          "part": 2,
+          "startCharacter": 120000,
+          "textSha256": "ee0f6dafd48c184e0e1f130b56714c5beffdc978401e472a3bd2bd50b52cfced"
+        },
+        {
+          "assetBytes": 43022,
+          "assetPath": "documents/729865793e91d8a8d3c98199-3.json",
+          "assetSha256": "0c437b982bdb390abc83d94b4f5127ec961c7c88c4337413f098b8014034da71",
+          "exportedCharacters": 18629,
+          "part": 3,
+          "startCharacter": 240000,
+          "textSha256": "8ac1277ce1d835cc7fe672e23d0941a535ba39d85d4c3ee0306350eb15e59002"
+        }
+      ],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 258629,
+      "fullTextSha256": "c2cad33961c27aa5ff809873531affe59c6faa7396ddf091ef43e50304e52660"
+    },
+    "yearProof": "令和６年度の一般会計歳出決算額は22,742,687,473円 で、前年度決算額に比べ",
+    "yearProofStart": 2946,
+    "rows": [
+      {
+        "name": "コミュニティ助成事業助成金",
+        "raw": "コミュニティ助成事業助成金",
+        "start": 27805,
+        "proof": "コミュニティ助成事業助成金\n区のコミュニティ活動を推進し、施設整備や付帯設備等の充\n実を図るため、自治総合センター及び長野県市町村振興協会が\n実施する助成金制度の採択を受けた４区に対し、コミュニティ\n助成事業助成金及び地域活動助成事業助成金を交付した。",
+        "proofStart": 27805,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "公会所等建設事業補助金",
+        "raw": "公会所等建設事業補助金",
+        "start": 27934,
+        "proof": "公会所等建設事業補助金\n  地域住民の利用及び公共の用に供することを目的とした公会所\n並びに集会所のゼロカーボンを促進するため、照明設備のＬＥＤ\n化に 対 す る 補 助 金 を 交 付 し た 。\n   ８区 ３，１１３，０００円\n（今井区、間下区、岡谷区、下浜区、小井川区、西堀区、\n鮎沢区、橋原区）",
+        "proofStart": 27934,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "就業・創業移住支援事業",
+        "raw": "就業・創業移住支援事業",
+        "start": 33134,
+        "proof": "就業・創業移住支援事業\n  国 の 交 付 金 を 活 用 し た 長 野 県 と の 共 同 事 業 と し て 、 東京圏\n（埼玉県、千葉県、東京都及び神奈川県）、愛知県、大阪府か ら 岡\n谷 市 へ 転 入 し 、 長 野 県 の 求 人 情 報 サ イ ト 掲 載 企 業 に 就 職 した場\n合等に移住支援金を支給し、就業及び移住の促進を図った。\n・件 数：９件\n・補助額：８，２００，０００円",
+        "proofStart": 33134,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "岡谷の魅力体験事業",
+        "raw": "岡谷の魅力体験事業",
+        "start": 33339,
+        "proof": "岡谷の魅力体験事業\n  岡谷市への移住定住の促進及び関係人口の創出を図るため、\n移住希望者等が岡谷市を訪れる際にかかる交通費、宿泊費及び\n移住体験住宅家賃の一部を助成した。\n 【交通費補助】\n・件 数：２０件\n・補助額：１２７，６５１円\n 【宿泊費補助】\n・件 数：１０件\n・補助額：６８，６３７円\n 【移住体験住宅家賃補助】\n ・件 数：５件\n・補助額：２００，０００円",
+        "proofStart": 33339,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "若者おかや暮らし応援事業",
+        "raw": "若者おかや暮らし応援事業",
+        "start": 33528,
+        "proof": "若者おかや暮らし応援事業\n  学生及び単身勤労者が市内の民間賃貸住宅へ入居した場合\nに、家賃の一部を助成し、若者の定住促進を図った。\n ・件 数：２１件\n・補助額：３，１５９，０００円\n\n\n\n− 51 −",
+        "proofStart": 33528,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "若者移住者住まいの支援事業",
+        "raw": "若者移住者住まいの支援事業",
+        "start": 33637,
+        "proof": "若者移住者住まいの支援事業\n 岡谷市への若者の移住定住を促進し、定住人口の増加及び地\n域の活性化を図るため、市内に移住する方の住宅取得に対する\n経費の一部を助成した。\n ・件 数：１５件\n・補助額：１２，０００，０００円",
+        "proofStart": 33637,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "就職・移住学生支援事業",
+        "raw": "就職・移住学生支援事業",
+        "start": 33750,
+        "proof": "就職・移住学生支援事業\n  東 京 圏（ 埼 玉 県 、千 葉 県 、東 京 都 及 び 神 奈 川 県 ）の 大 学 を 卒 業\n予定の学生について、岡谷市への移住及び就職促進のため、交\n通費の一部助成を行う環境整備をした。",
+        "proofStart": 33750,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "「おかやでスタート！」結婚新生活支援事業",
+        "raw": "「おかやでスタート！」結婚新生活支援事業",
+        "start": 33866,
+        "proof": "「おかやでスタート！」結婚新生活支援事業\n結婚に伴う経済的不安を解消することを目的として、３９歳\n以下の新婚世帯に対して住居取得費等の一部補助を行った。\n・件 数：１３件\n・補助額：４，２１１，０００円",
+        "proofStart": 33866,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "自立相談支援事業",
+        "raw": "自立相談支援事業",
+        "start": 105200,
+        "proof": "自立相談支援事業\n ・ 生 活 困 窮 相 談 件 数    １ ６ ０ 件 （ 対 前 年 度 比 △ ３ ７ 件 ）\n   自 立 支 援 相 談 件 数   １ １ ４ 件 （ 対 前 年 度 比 △ ３ ９ 件 ）\n    支 援 計 画 作 成 件 数   ３ ６ 件 （ 対 前 年 度 比 ＋  ３ 件 ）\n    一 般 就 労 者 数     １ ０ 人 （ 対 前 年 度 比 ＋  １ 人 ）",
+        "proofStart": 105200,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "住居確保給付金事業",
+        "raw": "住居確保給付金事業",
+        "start": 105410,
+        "proof": "住居確保給付金事業\n       利 用 件 数 ２ 件 （ 対 前 年 度 比 △  ４ 件 ）\n       給付額１０５，０００円",
+        "proofStart": 105410,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "就労準備支援事業",
+        "raw": "就労準備支援事業",
+        "start": 105481,
+        "proof": "就労準備支援事業\n       利 用 件 数  ５ 件 （ 対 前 年 度 比 増 減 な し ）",
+        "proofStart": 105481,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "家計改善支援事業",
+        "raw": "家計改善支援事業",
+        "start": 105534,
+        "proof": "家計改善支援事業\n利 用 件 数 １ ２ 件 （ 対 前 年 度 比 増 減 な し ）",
+        "proofStart": 105534,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "病児・病後児保育事業",
+        "raw": "病児・病後児保育事業",
+        "start": 129091,
+        "proof": "病児・病後児保育事業\n病 気 や 病 気 回 復 期 に あ り 、家 庭 や 保 育 園 で の 保 育 が 困 難 な 児 童 を\n受け入れるため、民間医療機関に委託し、実施した。  円\n・利用日数１９２日 延べ利用者数３６６人",
+        "proofStart": 129091,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "育児ファミリー・サポート・センター事業",
+        "raw": "育児ファミリー・サポート・センター事業",
+        "start": 129210,
+        "proof": "育児ファミリー・サポート・センター事業\n児童の預かりに係る相互援助活動の事業を岡谷市社会福祉協議\n会 に 委 託 し 、 実 施 し た 。             円\n・依頼会員３３人、提供会員２３人、依頼・提供会員０人\n・延べ利用回数２１回",
+        "proofStart": 129210,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "子育て支援アプリ“げんきっずおかや”事業",
+        "raw": "子育て支援アプリ“げんきっずおかや”事業",
+        "start": 129658,
+        "proof": "子育て支援アプリ“げんきっずおかや”事業\n子育て世代が最も利用しているスマートフォンの特性を活かし\nて 、妊 娠 、出 産 、子 育 て に 必 要 な 情 報 を 入 手 し 、パ ー ソ ナ ル デ ー タ\nの 記 録・管 理 が で き る 総 合 的 な 子 育 て 支 援 ア プ リ を 通 じ て 、情 報 の\n提 供 を 行 っ た 。 円\n・新規登録件数  ９６件（総件数 １，２２４件）",
+        "proofStart": 129658,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "子育て応援協賛店パスポート事業",
+        "raw": "子育て応援協賛店パスポート事業",
+        "start": 129971,
+        "proof": "子育て応援協賛店パスポート事業\n長 野 県 将 来 世 代 応 援 県 民 会 議 事 務 局 と 連 携・協 働 し 、県 内 外 の 協\n賛店舗での買い物時に各種子育て支援サービスが受けられるパス\nポートを県外からの転入世帯等に随時配布する事業を実施した。",
+        "proofStart": 129971,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "子育てパパ・ママリフレッシュ事業",
+        "raw": "子育てパパ・ママリフレッシュ事業",
+        "start": 130104,
+        "proof": "子育てパパ・ママリフレッシュ事業\n乳 児 を 養 育 し て い る 保 護 者 の 心 身 の リ フ レ ッ シ ュ 、育 児 負 担 の 軽\n減 を 図 る た め 、満 １ 歳 以 上 ２ 歳 未 満 の 保 護 者 へ 利 用 券 を 配 布 し 、保\n育所での休日保育、一時保育サービスの提供を行った。\n・利用券配布者数      ２０５人\n・保育サービス利用者数    ２１人（うち休日利用０人）",
+        "proofStart": 130104,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "諏訪市医師会附属准看護学院補助金",
+        "raw": "諏訪市医師会附属准看護学院補助金",
+        "start": 140766,
+        "proof": "諏訪市医師会附属准看護学院補助金\n地域医療の充実を図るため、諏訪市医師会附属准看護学院に\n補助金を交付し、運営を支援した。\n・補助金 ８００，０００円",
+        "proofStart": 140766,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "小児科・産婦人科オンライン相談事業",
+        "raw": "小児科・産婦人科オンライン相談事業",
+        "start": 140844,
+        "proof": "小児科・産婦人科オンライン相談事業\n妊娠、出産、子育てまでの切れ目のない伴走型支援の更なる充実\nのため、どこにいても簡単に小児科医、産婦人科医、助産師とつな\nがることができるオンライン相談を導入した。\n・登録数 ２８９人 相談件数 延べ５４３件\n委託料 ３，１６８，０００円",
+        "proofStart": 140844,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "看護師修学支援貸付金",
+        "raw": "看護師修学支援貸付金",
+        "start": 140984,
+        "proof": "看護師修学支援貸付金\n  岡谷市看護専門学校の学生に対し、修学支援として貸付金の貸与\nを行った。\n・６件 １，８００，０００円",
+        "proofStart": 140984,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "生産管理総合講座",
+        "raw": "生産管理総合講座",
+        "start": 158072,
+        "proof": "生産管理総合講座\n令和６年度岡谷市生産管理総合講座\n「品質管理基礎講座」\n・ 期   日  ７ 月 ２ 日 （ 火 ）、 ７ 月 １ ０ 日 （ 水 ）\n    ・場  所 テクノプラザおかや\n・講  師 セイコーエプソン㈱品質教育担当\n・参加者数 １３社３０名\n「生産管理総合講座」\n    ・ 期   日  ９ 月 ４ 日 （ 水 ）、 １ １ 日 （ 水 ）\n    ・場  所 テクノプラザおかや\n・ 講   師  エ ム ア イ マ ネ ジ メ ン ト プ ラ ス\n代 表  松 澤 哲 也  氏\nタカノ㈱専務取締役 鷹野 力 氏\n・参加者数 １２社１５名",
+        "proofStart": 158072,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "新技術・新製品等ものづくりチャレンジ企業応援事業",
+        "raw": "新技術・新製品等ものづくりチャレンジ企業応援事業",
+        "start": 158358,
+        "proof": "新技術・新製品等ものづくりチャレンジ企業応援事業\n市 内 製 造 業 等 の 新 製 品 、新 技 術 の 創 出 、高 度 化 へ の 研 究 開 発\nに 対 し 補 助 金 を 交 付 し 、事 業 化 に 係 る フ ォ ロ ー ア ッ プ や 県 工 業\n技 術 総 合 セ ン タ ー 等 と の 連 携 に よ る 技 術 相 談 を 行 い 、企 業 の 競\n争 力 の 強 化 や 新 事 業 の 創 出 を 支 援 し た 。ま た 、Ｇ Ｘ の 推 進 を 図\nる た め グ リ ー ン 成 長 分 野 に 係 る 技 術 開 発（ グ リ ー ン 成 長 枠 ）を\n後押しした。\n・ 交 付 件 数  一 般 枠  ７ 件 （ う ち グ リ ー ン 成 長 枠 ３ 件 ）\n開 発 試 作 枠  ２ 件 （ う ち グ リ ー ン 成 長 枠 ０ 件 ）\n・交付金額 一般枠 ９，３０１，０００円\n\n− 217 −\n\n\n\n\n開発試作枠   ４８５，０００円",
+        "proofStart": 158358,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "ものづくり現場高度化促進事業",
+        "raw": "ものづくり現場高度化促進事業",
+        "start": 158802,
+        "proof": "ものづくり現場高度化促進事業\n  人手及び人材の不足並びにデジタル化の推進に係る課題の\n解 決 の た め に 行 う 設 備 投 資 等 に 対 し 補 助 金 を 交 付 し 、生 産 性 の\n向上に向けた取組を支援した。\n    ・交付件数 ７件\n    ・交付金額 ２，７９９，０００円",
+        "proofStart": 158802,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "新規受注開拓推進事業",
+        "raw": "新規受注開拓推進事業",
+        "start": 159620,
+        "proof": "新規受注開拓推進事業\n 工 業 会 の 共 同 研 究 活 動 を 支 援 す る た め 、 補 助 金 を 交 付 し た 。\n    ・交付件数 １件\n・交付金額 ２００，０００円",
+        "proofStart": 159620,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "新規創業者トータルマネジメントサポート事業",
+        "raw": "新規創業者トータルマネジメントサポート事業",
+        "start": 159881,
+        "proof": "新規創業者トータルマネジメントサポート事業\n諏訪圏 工業メ ッセに 共 同出展 ブース を設置 し 、創業者、小 規模\n企 業 の 出 展 を 行 い 、 地 元 企 業 や 来 場 す る 大 手 企 業 等 へ の 技 術\nＰ Ｒ を 行 っ た 。（ 展 示 会 出 展 事 業 の 実 績 に 含 む 。）\n・出展企業 ７社１団体\n\n− 218 −",
+        "proofStart": 159881,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "カーボンマネジメント支援事業",
+        "raw": "カーボンマネジメント支援事業",
+        "start": 160436,
+        "proof": "カーボンマネジメント支援事業\n脱 炭 素 社 会 の 実 現 に 向 け 、温 室 効 果 ガ ス の 把 握 及 び 管 理 の ほ\nか 、排 出 量 削 減 に 資 す る 再 生 可 能 エ ネ ル ギ ー の 活 用 や 設 備 更 新\n等 に 対 し 補 助 金 を 交 付 し 、社 会 経 済 活 動 に お け る 温 室 効 果 ガ ス\nの排出削減とエネルギーコストの削減の両立による経営基盤\nの強化を支援した。\n    ・交付件数 ９件\n    ・交付金額 ８，２２３，０００円",
+        "proofStart": 160436,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "おかやグリーン成長投資促進支援事業",
+        "raw": "おかやグリーン成長投資促進支援事業",
+        "start": 160688,
+        "proof": "おかやグリーン成長投資促進支援事業\n事業者の省エネルギー化と温室効果ガスの排出削減を促進\nす る た め 、国 、県 等 が 実 施 す る 省 エ ネ 最 適 化 診 断 や カ ー ボ ン 排\n出 量 可 視 化・削 減 支 援 事 業 の 利 用 促 進 を 図 る と と も に 、省 エ ネ・\n再 エ ネ の 設 備 投 資 等 に 対 す る 融 資 制 度 に よ り 、市 内 製 造 業 の 環\n境経営を支援した。\n  ・カーボン排出量可視化・削減支援事業 １社\n・お か や グ リ ー ン 成 長 対 策 資 金  １ 件 １ ３ ，０ ０ ０ 千 円",
+        "proofStart": 160688,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "マルチアドバイザー事業",
+        "raw": "マルチアドバイザー事業",
+        "start": 160979,
+        "proof": "マルチアドバイザー事業\n 経営改善、経営基盤の強化、新製品・新技術の開発、生産工\n程 の 改 善 、品 質 管 理 技 術 向 上 等 の 中 小 企 業 が 独 自 で は 解 決 困 難\nで あ る 諸 問 題 に つ い て 、当 該 問 題 の 解 決 の た め 、ア ド バ イ ザ ー\nを派遣し、助言等の支援を行った。",
+        "proofStart": 160979,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "人材育成支援特別課程受講補助金",
+        "raw": "人材育成支援特別課程受講補助金",
+        "start": 161330,
+        "proof": "人材育成支援特別課程受講補助金\n市内企業が信州大学特別の課程「超微細加工技術社会人スキル\nアップコース」を受講する際の受講料の一部を支援した。\n・交付件数 １件\n    ・交付金額 ２５，０００円",
+        "proofStart": 161330,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "水源の森保全事業",
+        "raw": "水源の森保全事業",
+        "start": 190910,
+        "proof": "水源の森保全事業\n ・下刈り          ７．０ｈａ",
+        "proofStart": 190910,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "横川山水源かん養林管理事業",
+        "raw": "横川山水源かん養林管理事業",
+        "start": 190942,
+        "proof": "横川山水源かん養林管理事業\n・つる切り        ２０．０ｈａ\n・除伐          １０．０ｈａ",
+        "proofStart": 190942,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "森林環境保全直接支援事業",
+        "raw": "森林環境保全直接支援事業",
+        "start": 191157,
+        "proof": "森林環境保全直接支援事業\n ・搬出間伐  ５件   ５０．８２ｈａ\n ・更新伐   １件   ２２．４８ｈａ",
+        "proofStart": 191157,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "市単森林造成事業",
+        "raw": "市単森林造成事業",
+        "start": 191214,
+        "proof": "市単森林造成事業\n ・除伐    ８件   １０．９７ｈａ\n\n\n ・下刈り   ３件    ２．８８ｈａ",
+        "proofStart": 191214,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      },
+      {
+        "name": "みんなで支える里山整備事業補助金",
+        "raw": "みんなで支える里山整備事業補助金",
+        "start": 191269,
+        "proof": "みんなで支える里山整備事業補助金\n ・保育間伐  １件    １．５８ｈａ",
+        "proofStart": 191269,
+        "evaluatedFiscalYear": 2024,
+        "evaluationYear": null,
+        "note": "Reviewed named activity withinFY2024annual administration report; no policy-level grade, expenditure allocation or future-budget inference. Some support preparations have no recipient count; not claimed paid."
+      }
+    ]
+  },
+  {
+    "source": {
+      "municipalityCode": "20204",
+      "municipalityName": "岡谷市",
+      "sourceId": "dafe7fe3339746b513f95ae5",
+      "title": "令和5年度行政報告書",
+      "url": "https://www.city.okaya.lg.jp/material/files/group/2/R05_gyouseihoukokusyo.pdf",
+      "sourceSha256": "e5a25fb48ac39d462f6d26c321e6064d8ca4d0e4854b854c00efdc36cbed8357",
+      "listedContinuations": [
+        {
+          "assetBytes": 290452,
+          "assetPath": "documents/dafe7fe3339746b513f95ae5-2.json",
+          "assetSha256": "8aeb865bac6f3955b0d900116ad6adf4d57a4b9697f643f5dec5c407375de5b9",
+          "exportedCharacters": 120000,
+          "part": 2,
+          "startCharacter": 120000,
+          "textSha256": "2b474ff1c3fc2eb403dc5e0d2fb4f82467e45193295706fd8240dfaa8eafd035"
+        },
+        {
+          "assetBytes": 59335,
+          "assetPath": "documents/dafe7fe3339746b513f95ae5-3.json",
+          "assetSha256": "63fac2615fbeef9d54eb62d9402dd0b683e6f6fff40fddf822a9aa87d7d5e9c8",
+          "exportedCharacters": 25288,
+          "part": 3,
+          "startCharacter": 240000,
+          "textSha256": "298339d5c3671f994a7461dcb57b58ca55f72d56020b37f39324479ad6de0675"
+        }
+      ],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 265288,
+      "fullTextSha256": "0948a0324856690cdfa8390870c5962ee40539cb1b55c048e6ac817ed03ef75a"
+    },
+    "yearProof": "令和５年度行政報告書",
+    "yearProofStart": 37,
+    "rows": [
+      {
+        "name": "コミュニティ助成事業助成金",
+        "raw": "コミュニティ助成事業助成金",
+        "start": 30791,
+        "proof": "コミュニティ助成事業助成金\n区のコミュニティ活動を推進し、施設整備や付帯設備等の充\n実を図るため、自治総合センター及び長野県市町村振興協会が\n実施する助成金制度の採択を受けた５区に対し、コミュニティ\n助成事業助成金及び地域活動助成事業助成金を交付した。",
+        "proofStart": 30791,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "公会所等建設事業補助金",
+        "raw": "公会所等建設事業補助金",
+        "start": 30936,
+        "proof": "公会所等建設事業補助金\n  地域住民の利用及び公共の用に供することを目的とした公会所\n並びに集会所のゼロカーボンを促進するため、照明設備のＬＥＤ\n化に 対 す る 補 助 金 を 交 付 し た 。\n   ９区 ２，９７６，０００円\n（今井区、間下区、下浜区、小井川区、西堀区、鮎沢区\n橋原区、東堀区、中屋区）",
+        "proofStart": 30936,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "就業・創業移住支援事業",
+        "raw": "就業・創業移住支援事業",
+        "start": 35608,
+        "proof": "就業・創業移住支援事業\n  東京圏（埼玉県、千葉県、東京都及び神奈川県）、愛知県、大阪府\nから岡谷市へ転入し、長野県の求人情報サイト掲載企業に就職\nした場合等に移住支援金を支給し就業及び移住の促進に努めた。\n件数：６件 補助額：６，１００，０００円",
+        "proofStart": 35608,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "若者おかや暮らし応援事業",
+        "raw": "若者おかや暮らし応援事業",
+        "start": 35895,
+        "proof": "若者おかや暮らし応援事業\n  ３０歳未満の単身勤労者等に対して民間賃貸住宅の賃料を助成\nすることで、若者の市内への移住の促進に努めた。\n        件数：２６件 補助額：３，８０５，７５０円",
+        "proofStart": 35895,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "若者移住者住まいの支援事業",
+        "raw": "若者移住者住まいの支援事業",
+        "start": 35995,
+        "proof": "若者移住者住まいの支援事業\n  ４０歳未満の世帯に対して住宅取得費の一部を助成すること\n で、若者の市内への移住定住の促進に努めた。\n        件数：３件  補助額：２，１００，０００円",
+        "proofStart": 35995,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "「おかやでスタート！」結婚新生活支援事業",
+        "raw": "「おかやでスタート！」結婚新生活支援事業",
+        "start": 36094,
+        "proof": "「おかやでスタート！」結婚新生活支援事業\n結婚に伴う経済的不安を解消することを目的として、住居費\n及び引越費用の一部補助を行った。\n        件数：４件  補助額：１，１９５，０００円",
+        "proofStart": 36094,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "自立相談支援事業",
+        "raw": "自立相談支援事業",
+        "start": 107989,
+        "proof": "自立相談支援事業\n ・ 生 活 困 窮 相 談 件 数    １ ９ ７ 件 （ 対 前 年 度 比 △ ４ ６ 件 ）\n   自 立 支 援 相 談 件 数   １ ５ ３ 件 （ 対 前 年 度 比 △ １ ９ 件 ）\n    支 援 計 画 作 成 件 数   ３ ３ 件 （ 対 前 年 度 比 増 減 な し ）\n    一 般 就 労 者 数      ９ 人 （ 対 前 年 度 比 △  ６ 人 ）",
+        "proofStart": 107989,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "住居確保給付金事業",
+        "raw": "住居確保給付金事業",
+        "start": 108199,
+        "proof": "住居確保給付金事業\n       利 用 件 数 ６ 件 （ 対 前 年 度 比 増 減 な し ）\n       給付額３３２，７００円",
+        "proofStart": 108199,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "就労準備支援事業",
+        "raw": "就労準備支援事業",
+        "start": 108271,
+        "proof": "就労準備支援事業\n       利 用 件 数  ５ 件 （ 対 前 年 度 比 増 減 な し ）",
+        "proofStart": 108271,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "家計改善支援事業",
+        "raw": "家計改善支援事業",
+        "start": 108324,
+        "proof": "家計改善支援事業\n利 用 件 数 １ ２ 件 （ 対 前 年 度 比 ＋  ２ 件 ）",
+        "proofStart": 108324,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "病児・病後児保育事業",
+        "raw": "病児・病後児保育事業",
+        "start": 131902,
+        "proof": "病児・病後児保育事業\n病 気 や 病 気 回 復 期 に あ り 、家 庭 や 保 育 園 で の 保 育 が 困 難 な 児 童 を\n受け入れるため、民間医療機関に委託し、実施した。  円\n・利用日数１９９日 延べ利用者数４３４人",
+        "proofStart": 131902,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "育児ファミリー・サポート・センター事業",
+        "raw": "育児ファミリー・サポート・センター事業",
+        "start": 132021,
+        "proof": "育児ファミリー・サポート・センター事業\n児童の預かりに係る相互援助活動の事業を岡谷市社会福祉協議\n会 に 委 託 し 、 実 施 し た 。             円\n・依頼会員３７人、提供会員２２人、依頼・提供会員０人\n・延べ利用回数５回",
+        "proofStart": 132021,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "子育て支援アプリ“げんきっずおかや”事業",
+        "raw": "子育て支援アプリ“げんきっずおかや”事業",
+        "start": 132436,
+        "proof": "子育て支援アプリ“げんきっずおかや”事業\n子育て世代が最も利用しているスマートフォンの特性を活かし\nて 、妊 娠 、出 産 、子 育 て に 必 要 な 情 報 を 入 手 し 、パ ー ソ ナ ル デ ー タ\nの 記 録・管 理 が で き る 総 合 的 な 子 育 て 支 援 ア プ リ を 通 じ て 、情 報 の\n提 供 を 行 っ た 。 円\n・新規登録件数 １１５件（総件数 １，１２８件）",
+        "proofStart": 132436,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "子育て応援協賛店パスポート事業",
+        "raw": "子育て応援協賛店パスポート事業",
+        "start": 132764,
+        "proof": "子育て応援協賛店パスポート事業\n長 野 県 将 来 世 代 応 援 県 民 会 議 事 務 局 と 連 携・協 働 し 、県 内 外 の 協\n賛店舗での買い物時に各種子育て支援サービスが受けられるパス\nポートを県外からの転入世帯等に随時配布する事業を実施した。\nま た 、更 新 時 期 と な っ た こ と か ら 対 象 の 子 育 て 家 庭 の 全 世 帯 へ カ\nー ド を 送 付 し た 。３ ，６ ４ ９ 世 帯（ 有 効 期 限 令 和 １ ０ 年 ３ 月 ３ １ 日 ）",
+        "proofStart": 132764,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "子育てパパ・ママリフレッシュ事業",
+        "raw": "子育てパパ・ママリフレッシュ事業",
+        "start": 133013,
+        "proof": "子育てパパ・ママリフレッシュ事業\n乳児を養育している保護者の心身のリフレッシュ、育児負担の\n軽減を図るため、満１歳以上２歳未満の保護者へ利用券を配布し、\n保育所での休日保育、一時保育サービスの提供を行った。\n・利用券配布者数      ２６２人\n・保育サービス利用者数    ２４人（うち休日利用２人）",
+        "proofStart": 133013,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "看護師修学支援貸付金",
+        "raw": "看護師修学支援貸付金",
+        "start": 143088,
+        "proof": "看護師修学支援貸付金\n  岡谷市看護専門学校の学生に対し、修学支援として貸付金の貸与\nを行った。\n          ４件 １，２００，０００円",
+        "proofStart": 143088,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "生産管理総合講座",
+        "raw": "生産管理総合講座",
+        "start": 163058,
+        "proof": "生産管理総合講座\n（ １ ） 「 実 践 ！ 品 質 管 理 基 礎 講 座 」\n    ・ 期   日  ７ 月 ２ ４ 日 （ 月 ）、 ８ 月 １ 日 （ 火 ）\n    ・場  所 テクノプラザおかや\n・講  師 セイコーエプソン㈱品質教育担当\n・参加者数 １４社２７名\n（ ２ ） 「 市 場 ニ ー ズ を 新 た な 成 長 へ 繋 げ る 自 社 変 革 の 進 め 方 」\n    ・ 期   日  ９ 月 １ ３ 日 （ 水 ）、 ２ ０ 日 （ 水 ）\n    ・場  所 テクノプラザおかや\n・ 講   師  エ ム ア イ マ ネ ジ メ ン ト プ ラ ス\n\n221\n\n\n\n\n代 表  松 澤 哲 也  氏\n元トヨタ自動車㈱\nエンジニア 西脇 克彦 氏\n・参加者数 １３社１７名",
+        "proofStart": 163058,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "新技術・新製品等ものづくりチャレンジ企業応援事業",
+        "raw": "新技術・新製品等ものづくりチャレンジ企業応援事業",
+        "start": 163414,
+        "proof": "新技術・新製品等ものづくりチャレンジ企業応援事業\n  市 内 製 造 業 等 の 新 製 品 、新 技 術 の 創 出 、 高 度 化 へ の 研 究 開 発\nに 対 し 補 助 金 を 交 付 し 、事 業 化 に 係 る フ ォ ロ ー ア ッ プ や 県 工 業\n技 術 総 合 セ ン タ ー 等 と の 連 携 に よ る 技 術 相 談 を 行 い 、企 業 の 競\n争 力 の 強 化 や 新 事 業 の 創 出 を 支 援 し た 。ま た 、Ｇ Ｘ の 推 進 を 図\nる た め グ リ ー ン 成 長 分 野 に 係 る 技 術 開 発（ グ リ ー ン 成 長 枠 ）を\n後押しした。\n・ 交 付 件 数  一 般 枠  ６ 件 （ う ち グ リ ー ン 成 長 枠 ４ 件 ）\n開 発 試 作 枠  ２ 件 （ う ち グ リ ー ン 成 長 枠 １ 件 ）\n・交付金額 一般枠 １０，１６９，０００円\n開発試作枠 ５０４，０００円",
+        "proofStart": 163414,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "新規受注開拓推進事業",
+        "raw": "新規受注開拓推進事業",
+        "start": 164829,
+        "proof": "新規受注開拓推進事業\n（１）展示会出展事業補助金\n    市内中小企業者の展示会出展による販路開拓を支援\nするため、補助金を交付した。\n    ・ 交 付 件 数  一 般 枠 ２ 件\n次世代枠 １件\n    ・ 交 付 金 額  一 般 枠 ３ ２ ０ ， ０ ０ ０ 円\n次世代枠 ２００，０００円\n（ ２ ） 共 同 研 究 活 動 支 援 事 業\n    工 業 会 団 体 に よ る 共 同 研 究 活 動 を 支 援 す る た め 、補 助 金\nを交付した。\n    ・交付件数 １件\n・交付金額 ２００，０００円",
+        "proofStart": 164829,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "新規創業者トータルマネジメントサポート事業",
+        "raw": "新規創業者トータルマネジメントサポート事業",
+        "start": 165248,
+        "proof": "新規創業者トータルマネジメントサポート事業\n  諏訪圏 工業メ ッセ に共同 出展ブ ースを 設 置し、創業 者、小 規模\n企 業 の 出 展 を 行 い 、地 元 企 業 や 工 業 メ ッ セ に 来 場 す る 大 手 企 業\n等 へ の 技 術 Ｐ Ｒ を 行 っ た 。（ 展 示 会 出 展 事 業 の 実 績 に 含 む 。）\n・出展企業 ５社１団体",
+        "proofStart": 165248,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "おかやグリーン成長投資促進支援事業",
+        "raw": "おかやグリーン成長投資促進支援事業",
+        "start": 166137,
+        "proof": "おかやグリーン成長投資促進支援事業\n事業者の省エネルギー化と温室効果ガスの排出削減を促進\nす る た め 、国 、県 等 が 実 施 す る 省 エ ネ 最 適 化 診 断 や カ ー ボ ン 排\n出 量 可 視 化・削 減 支 援 事 業 の 利 用 促 進 を 図 る と と も に 、省 エ ネ・\n再 エ ネ の 設 備 投 資 等 に 対 す る 融 資 制 度 に よ り 、市 内 製 造 業 の 環\n境経営を支援した。\n  ・カーボン排出量可視化・削減支援事業 ２社\n・お か や グ リ ー ン 成 長 対 策 資 金  ７ 件 ４ ８ ，７ １ ０ 千 円\n円",
+        "proofStart": 166137,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "人材育成支援特別課程受講補助金",
+        "raw": "人材育成支援特別課程受講補助金",
+        "start": 166725,
+        "proof": "人材育成支援特別課程受講補助金\n  市内企業が信州大学特別の課程「超微細加工技術社会人スキル\nアップコース」を受講する際の受講料の一部を支援した。\n    ・交付件数 ４件\n    ・交付金額 １００，０００円",
+        "proofStart": 166725,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "水源の森保全事業",
+        "raw": "水源の森保全事業",
+        "start": 197549,
+        "proof": "水源の森保全事業\n ・下刈り          ７．０ｈａ",
+        "proofStart": 197549,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "横川山水源かん養林管理事業",
+        "raw": "横川山水源かん養林管理事業",
+        "start": 197581,
+        "proof": "横川山水源かん養林管理事業\n・つる切り        ２０．０ｈａ\n・除伐          １０．０ｈａ",
+        "proofStart": 197581,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "森林環境保全直接支援事業",
+        "raw": "森林環境保全直接支援事業",
+        "start": 197785,
+        "proof": "森林環境保全直接支援事業\n ・搬出間伐  ７件   ８７．５４ｈａ\n ・更新伐   ２件   １３．４４ｈａ",
+        "proofStart": 197785,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "市単森林造成事業",
+        "raw": "市単森林造成事業",
+        "start": 197842,
+        "proof": "市単森林造成事業\n ・除伐    ９件   １１．９１ｈａ\n\n262\n\n\n\n\n ・下刈り   ２件    ３．３７ｈａ",
+        "proofStart": 197842,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      },
+      {
+        "name": "おかやの魅力体験事業",
+        "raw": "おかやの魅力体験事業",
+        "start": 35735,
+        "proof": "おかやの魅力体験事業\n  移住のための生活体験、市内での住居探し、仕事探しに要する\n経費を助成し移住促進に努めた。\n ・交通費補助  件数：１６件 補助額：１３９，０１３円\n ・宿泊費補助  件数：１３件 補助額：１３３，３４１円\n ・移住体験住宅家賃補助\n         件数： ５件 補助額：２００，０００円",
+        "proofStart": 35735,
+        "evaluationYear": null,
+        "evaluatedFiscalYear": 2023,
+        "note": "Independently matchedFY2023named activity and actual narrative; no annual value copied fromFY2024. No amounts, policy grades, or forecast data assigned."
+      }
+    ]
+  }
+];

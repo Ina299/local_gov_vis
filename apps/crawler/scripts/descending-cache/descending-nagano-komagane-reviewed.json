@@ -1,0 +1,30 @@
+[
+  {
+    "source": {
+      "municipalityCode": "20210",
+      "municipalityName": "駒ヶ根市",
+      "sourceId": "5952d6117c1aaa2c8eaafd44",
+      "title": "駒ヶ根市議会事業評価シート",
+      "url": "https://www.city.komagane.nagano.jp/material/files/group/20/teigen2022.pdf",
+      "sourceSha256": "e763b4287c943ce2f4117d739cc7595aff3808ea5330572bbd812e2616b4ba6a",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 16739,
+      "fullTextSha256": "369fe3222bfa0ee830bcbabe549bdc59a3dc2edba6b06a639edd5a1de5349b3c"
+    },
+    "yearProof": "駒ヶ根市議会事業評価に係る\n要望・提言書\n令和 3 年 11 月 16 日\n駒ヶ根市議会",
+    "yearProofStart": 0,
+    "rows": [
+      {
+        "name": "小・中学校教育管理事務事業",
+        "raw": "小・中学校教育管理事務事業",
+        "start": 6708,
+        "proof": "小・中学校教育管理事務事業\n評 価 評価作業を就学援助金等の支給状況からの生活実態把握に留めることとした。",
+        "proofStart": 6708,
+        "evaluationYear": 2021,
+        "evaluatedFiscalYear": null,
+        "note": "Named individual council evaluation sheet. Evaluationyear fromdatedreport; multi-year background is not unique fiscal-year scope. No policy or account split, no numerical amount/grade assignment."
+      }
+    ]
+  }
+]

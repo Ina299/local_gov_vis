@@ -1,0 +1,109 @@
+{
+  "reviewedAnnualSources": [
+    {
+      "source": {
+        "municipalityCode": "20204",
+        "municipalityName": "岡谷市",
+        "sourceId": "729865793e91d8a8d3c98199",
+        "title": "令和6年度行政報告書",
+        "url": "https://www.city.okaya.lg.jp/material/files/group/2/R06_gyouseihoukokusyo.pdf",
+        "sourceSha256": "f58466d7568e9d942f95e5d05e6fc6193cee89a132a0304b472954753f8fdc7a",
+        "listedContinuations": [
+          {
+            "assetBytes": 289679,
+            "assetPath": "documents/729865793e91d8a8d3c98199-2.json",
+            "assetSha256": "47de674567e202488982cd23a3ed811af3d11732be00bb9833afc17d7f360e48",
+            "exportedCharacters": 120000,
+            "part": 2,
+            "startCharacter": 120000,
+            "textSha256": "ee0f6dafd48c184e0e1f130b56714c5beffdc978401e472a3bd2bd50b52cfced"
+          },
+          {
+            "assetBytes": 43022,
+            "assetPath": "documents/729865793e91d8a8d3c98199-3.json",
+            "assetSha256": "0c437b982bdb390abc83d94b4f5127ec961c7c88c4337413f098b8014034da71",
+            "exportedCharacters": 18629,
+            "part": 3,
+            "startCharacter": 240000,
+            "textSha256": "8ac1277ce1d835cc7fe672e23d0941a535ba39d85d4c3ee0306350eb15e59002"
+          }
+        ],
+        "inventoryStatus": "complete_hash_verified",
+        "characters": 258629,
+        "fullTextSha256": "c2cad33961c27aa5ff809873531affe59c6faa7396ddf091ef43e50304e52660"
+      },
+      "acceptedProposals": 34,
+      "coverage": "partial; remaining named activities and recurring layouts remain reviewable"
+    },
+    {
+      "source": {
+        "municipalityCode": "20204",
+        "municipalityName": "岡谷市",
+        "sourceId": "dafe7fe3339746b513f95ae5",
+        "title": "令和5年度行政報告書",
+        "url": "https://www.city.okaya.lg.jp/material/files/group/2/R05_gyouseihoukokusyo.pdf",
+        "sourceSha256": "e5a25fb48ac39d462f6d26c321e6064d8ca4d0e4854b854c00efdc36cbed8357",
+        "listedContinuations": [
+          {
+            "assetBytes": 290452,
+            "assetPath": "documents/dafe7fe3339746b513f95ae5-2.json",
+            "assetSha256": "8aeb865bac6f3955b0d900116ad6adf4d57a4b9697f643f5dec5c407375de5b9",
+            "exportedCharacters": 120000,
+            "part": 2,
+            "startCharacter": 120000,
+            "textSha256": "2b474ff1c3fc2eb403dc5e0d2fb4f82467e45193295706fd8240dfaa8eafd035"
+          },
+          {
+            "assetBytes": 59335,
+            "assetPath": "documents/dafe7fe3339746b513f95ae5-3.json",
+            "assetSha256": "63fac2615fbeef9d54eb62d9402dd0b683e6f6fff40fddf822a9aa87d7d5e9c8",
+            "exportedCharacters": 25288,
+            "part": 3,
+            "startCharacter": 240000,
+            "textSha256": "298339d5c3671f994a7461dcb57b58ca55f72d56020b37f39324479ad6de0675"
+          }
+        ],
+        "inventoryStatus": "complete_hash_verified",
+        "characters": 265288,
+        "fullTextSha256": "0948a0324856690cdfa8390870c5962ee40539cb1b55c048e6ac817ed03ef75a"
+      },
+      "acceptedProposals": 27,
+      "coverage": "partial; remaining named activities and recurring layouts remain reviewable"
+    }
+  ],
+  "notAutomaticallyCarriedAcrossYears": [
+    {
+      "name": "岡谷の魅力体験事業",
+      "reason": "No unique exact numberedFY2023title; no FY2024name copied into prior year."
+    },
+    {
+      "name": "就職・移住学生支援事業",
+      "reason": "No unique exact numberedFY2023title; no FY2024name copied into prior year."
+    },
+    {
+      "name": "諏訪市医師会附属准看護学院補助金",
+      "reason": "No unique exact numberedFY2023title; no FY2024name copied into prior year."
+    },
+    {
+      "name": "小児科・産婦人科オンライン相談事業",
+      "reason": "No unique exact numberedFY2023title; no FY2024name copied into prior year."
+    },
+    {
+      "name": "ものづくり現場高度化促進事業",
+      "reason": "No unique exact numberedFY2023title; no FY2024name copied into prior year."
+    },
+    {
+      "name": "カーボンマネジメント支援事業",
+      "reason": "No unique exact numberedFY2023title; no FY2024name copied into prior year."
+    },
+    {
+      "name": "マルチアドバイザー事業",
+      "reason": "No unique exact numberedFY2023title; no FY2024name copied into prior year."
+    },
+    {
+      "name": "みんなで支える里山整備事業補助金",
+      "reason": "No unique exact numberedFY2023title; no FY2024name copied into prior year."
+    }
+  ],
+  "amountsExtracted": 0
+}

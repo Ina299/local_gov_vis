@@ -1,0 +1,74 @@
+[
+  {
+    "sourceId": "5952d6117c1aaa2c8eaafd44",
+    "name": "駒ヶ根市公設地方卸売市場事業",
+    "status": "duplicate_existing_master",
+    "reason": "Same municipality/name/evaluationyear and null fiscalyear as existing master; preserve prior record."
+  },
+  {
+    "sourceId": "5952d6117c1aaa2c8eaafd44",
+    "name": "観光事業",
+    "status": "duplicate_existing_master",
+    "reason": "Same municipality/name/evaluationyear and null fiscalyear as existing master; preserve prior record."
+  },
+  {
+    "sourceId": "5952d6117c1aaa2c8eaafd44",
+    "name": "児童福祉総務管理事務事業",
+    "status": "duplicate_existing_master",
+    "reason": "Same municipality/name/evaluationyear and null fiscalyear as existing master; preserve prior record."
+  },
+  {
+    "sourceId": "5952d6117c1aaa2c8eaafd44",
+    "name": "子育て家庭教育事業",
+    "status": "duplicate_existing_master",
+    "reason": "Same municipality/name/evaluationyear and null fiscalyear as existing master; preserve prior record."
+  },
+  {
+    "sourceId": "5952d6117c1aaa2c8eaafd44",
+    "name": "社会福祉総務管理事務事業",
+    "status": "duplicate_existing_master",
+    "reason": "Same municipality/name/evaluationyear and null fiscalyear as existing master; preserve prior record."
+  },
+  {
+    "sourceId": "5952d6117c1aaa2c8eaafd44",
+    "name": "自立支援事業",
+    "status": "duplicate_existing_master",
+    "reason": "Same municipality/name/evaluationyear and null fiscalyear as existing master; preserve prior record."
+  },
+  {
+    "sourceId": "5952d6117c1aaa2c8eaafd44",
+    "name": "小・中学校教育管理事務事業",
+    "status": "accepted_named_council_business_sheet",
+    "reason": "Explicit individual2021council sheet, no same-name/master record. Fiscalyear unknown."
+  },
+  {
+    "sourceId": "f0eec45d1958763245b1921f",
+    "name": "移住・定住の推進",
+    "status": "policy_or_account_scope_hold",
+    "reason": "Migration/disaster strategy or entire water account has no bounded individual business identity here; no subdivision."
+  },
+  {
+    "sourceId": "f0eec45d1958763245b1921f",
+    "name": "激甚化する災害への対策強化",
+    "status": "policy_or_account_scope_hold",
+    "reason": "Migration/disaster strategy or entire water account has no bounded individual business identity here; no subdivision."
+  },
+  {
+    "sourceId": "f0eec45d1958763245b1921f",
+    "name": "地域防災力の強化",
+    "status": "policy_or_account_scope_hold",
+    "reason": "Migration/disaster strategy or entire water account has no bounded individual business identity here; no subdivision."
+  },
+  {
+    "sourceId": "f0eec45d1958763245b1921f",
+    "name": "水道事業会計",
+    "status": "policy_or_account_scope_hold",
+    "reason": "Migration/disaster strategy or entire water account has no bounded individual business identity here; no subdivision."
+  },
+  {
+    "sourceId": "f0eec45d1958763245b1921f",
+    "name": "子ども交流センター運営事業",
+    "status": "duplicate_existing_master",
+    "reason": "Same municipality/name/evaluationyear and null fiscalyear as existing master; preserve prior record."
+  }
+]

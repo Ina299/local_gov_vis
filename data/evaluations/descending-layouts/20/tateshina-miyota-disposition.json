@@ -1,0 +1,66 @@
+[
+  {
+    "source": {
+      "municipalityCode": "20324",
+      "municipalityName": "立科町",
+      "sourceId": "9ffa2acf33a3e50cfce6354b",
+      "title": "○令和5年度 物価高騰対応重点支援地方創生臨時交付金 実施状況及び効果検証(PDFファイル:123.7KB)",
+      "url": "https://www.town.tateshina.nagano.jp/material/files/group/3/R5koukakennshou.pdf",
+      "sourceSha256": "75c6826a8ac71c4ca42b05725c84cb24a9f74b84b6f0dc357aaaf7e7bd71f9b6",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 2203,
+      "fullTextSha256": "724261a37a2254cda1c243a523a146514d97e179b86c94d8e8c2666ad4e5a8db"
+    },
+    "status": "period_and_column_alignment_hold",
+    "reason": "Four named rows; R5heading but R6.7.17/R6.12.27/R7.1.22 completions and detached date column. Do not infer unique annual actual period from funding/title year. Original coordinates or explicit row-specific annual scope needed."
+  },
+  {
+    "source": {
+      "municipalityCode": "20324",
+      "municipalityName": "立科町",
+      "sourceId": "d27d4299eb6e794d3b6761ee",
+      "title": "○令和6年度 物価高等対応重点支援地方創生臨時交付金 実施状況及び効果検証(PDFファイル:115.2KB)",
+      "url": "https://www.town.tateshina.nagano.jp/material/files/group/3/202507241321.pdf",
+      "sourceSha256": "bbb40aab13f3a6c4e20541704da72d78df037ee209e0c017789f0481d710da9e",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 1644,
+      "fullTextSha256": "35c0d0529b5f5ca37403dd8e03e8adf56318db6aa2616e5226b3e16074e86e75"
+    },
+    "status": "one_voucher_proposal_other_row_held",
+    "reason": "First row combinesFY2023/24 benefits and adjustment; no decomposition into invented independent amounts or duplicate prior benefits."
+  },
+  {
+    "source": {
+      "municipalityCode": "20323",
+      "municipalityName": "御代田町",
+      "sourceId": "463b82c4814fa2c6a88f2a96",
+      "title": "令和5年度御代田町物価高騰対応重点支援地方創生臨時交付金（事業実施内容及び事業効果）(pdf 83kb)",
+      "url": "https://www.town.miyota.nagano.jp/file/157488.pdf",
+      "sourceSha256": "c755a0e691adc3b428f9ea80b2ea439fa3e0ad88ffa5e1a9e22dc599ffb862dc",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 1380,
+      "fullTextSha256": "cf51490cacb78b6bb0b8ec3a8ff0d8243ff360baaa0958449887d4be23fc4120"
+    },
+    "status": "period_alignment_hold",
+    "reason": "Four named benefits/voucher rows. Non-taxable benefit may beFY2023, but detachedstart/end columns andFY2024 funding reprint require exactrow annual scope before acceptance. Other rows haveMay/Nov2024completions despiteFY2023heading."
+  },
+  {
+    "source": {
+      "municipalityCode": "20323",
+      "municipalityName": "御代田町",
+      "sourceId": "2fdc8a3c573ca97b0c421313",
+      "title": "令和6年度御代田町物価高騰対応重点支援地方創生臨時交付金（事業実施内容及び事業効果）(pdf 95 kb)",
+      "url": "https://www.town.miyota.nagano.jp/file/182057.pdf",
+      "sourceSha256": "c29e6e7dfcaa2d7618e62203d7866becff5ad5f3b75b417a5be767f6ca38b719",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 1382,
+      "fullTextSha256": "f7f65781d2881fffa8ad0c13808a4d7f9e675f380db9fcbf1175e0c487279cce"
+    },
+    "status": "mixed_year_identity_hold",
+    "reason": "Row1explicitFY2023reprint endingMar2024; row2combinesFY2023andFY2024benefits/adjustment; row3onlyadministration. Do not treat as three newFY2024projects."
+  }
+]

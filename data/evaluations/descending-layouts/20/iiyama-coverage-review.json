@@ -1,0 +1,1920 @@
+{
+  "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "sourceId": "62b0edf529be9aa26e70329e",
+  "sourceFullTextSha256": "2bacb44475158801420ee48e09ce65618d4ed668de53e21fc303b504b828673a",
+  "rows": [
+    {
+      "name": "起業支援ネットワーク推進事業",
+      "start": 2841,
+      "raw": "起業支援ネットワーク推進事業 商工観光課 9,658 継続",
+      "existingId": "cached-20213-6622d6d07ec2c9536e9df066",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "公民連携推進事業",
+      "start": 2871,
+      "raw": "公民連携推進事業 公民連携推進課 24,127 継続",
+      "existingId": "cached-20213-a6480067750045646079d9e7",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "移住支援事業",
+      "start": 2898,
+      "raw": "移住支援事業 移住定住推進課 20,000 継続",
+      "existingId": "cached-20213-398ddbfcd5e15705406481cf",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "起業支援ネットワーク推進事業",
+      "start": 2923,
+      "raw": "起業支援ネットワーク推進事業 商工観光課 9,658 継続\n",
+      "existingId": "cached-20213-6622d6d07ec2c9536e9df066",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "地域おこし協力隊事業",
+      "start": 4503,
+      "raw": "地域おこし協力隊事業 事業戦略課 190,779 継続",
+      "existingId": "cached-20213-e99f21ca0cff3eb85671723d",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "起業支援ネットワーク推進事業",
+      "start": 4531,
+      "raw": "起業支援ネットワーク推進事業 商工観光課 9,658 継続",
+      "existingId": "cached-20213-6622d6d07ec2c9536e9df066",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "公民連携推進事業",
+      "start": 4561,
+      "raw": "公民連携推進事業 公民連携推進課 24,127 継続\n",
+      "existingId": "cached-20213-a6480067750045646079d9e7",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "飯山雪国大学事業",
+      "start": 5814,
+      "raw": "飯山雪国大学事業 市民学習支援課 2,299 継続",
+      "existingId": "cached-20213-8332e49d87c2671d6f7c90e0",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "鳥獣対策事業",
+      "start": 5840,
+      "raw": "鳥獣対策事業 農林課 8,557 継続\n",
+      "existingId": "cached-20213-02a0c8bb0fa8ad9f178ce8a4",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "環境調査美化推進事業",
+      "start": 7566,
+      "raw": "環境調査美化推進事業 市民環境課 5,492 継続",
+      "existingId": "cached-20213-a3b4310a5eb38cb1c7e1d562",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "景観形成推進事業",
+      "start": 7592,
+      "raw": "景観形成推進事業 まちづくり課 15,607 継続",
+      "existingId": "cached-20213-b23a4deee85615cba9e8dba1",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "まち並整備事業",
+      "start": 7618,
+      "raw": "まち並整備事業 まちづくり課 7,150 継続",
+      "existingId": "cached-20213-2275fc1f6d2c83a33157276e",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "環境保全型農業直接支払交付金事業",
+      "start": 7642,
+      "raw": "環境保全型農業直接支払交付金事業 農林課 1,336 継続",
+      "existingId": "cached-20213-4e4cfe0053b0037ef5638d62",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "危険空家対策事業",
+      "start": 7672,
+      "raw": "危険空家対策事業 移住定住推進課 11,069 継続",
+      "existingId": "cached-20213-903687794a8b4cde6fc5ea41",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "環境調査美化推進事業",
+      "start": 7699,
+      "raw": "環境調査美化推進事業 市民環境課 5,492 継続\n",
+      "existingId": "cached-20213-a3b4310a5eb38cb1c7e1d562",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "自然エネルギー活用事業",
+      "start": 9956,
+      "raw": "自然エネルギー活用事業 企画財政課 690 継続",
+      "existingId": "cached-20213-dcb92b57f24d269594fc4799",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "飯山雪まつり事業",
+      "start": 9981,
+      "raw": "飯山雪まつり事業 企画財政課 5,195 継続\n",
+      "existingId": "cached-20213-4ebdde28411c71cf5bce2a5a",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "環境調査美化推進事業",
+      "start": 11151,
+      "raw": "環境調査美化推進事業 市民環境課 5,492 継続\n",
+      "existingId": "cached-20213-a3b4310a5eb38cb1c7e1d562",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "都市計画変更事業",
+      "start": 14042,
+      "raw": "都市計画変更事業 まちづくり課 69,025 拡充",
+      "existingId": "cached-20213-9378982edf2623c029ca16db",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "都市計画環境整備事業",
+      "start": 14068,
+      "raw": "都市計画環境整備事業 まちづくり課 5,720 継続",
+      "existingId": "cached-20213-e32ae6ed3a8a0d239dc81298",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "農村多面的機能支払交付金事業",
+      "start": 14095,
+      "raw": "農村多面的機能支払交付金事業 農林課 77,860 継続",
+      "existingId": "cached-20213-62d56ce5b4466ed6f2e82a7d",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "協働のもりづくり事業",
+      "start": 14124,
+      "raw": "協働のもりづくり事業 農林課 2,200 継続",
+      "existingId": "cached-20213-b3b4ab15a31e36726acd748a",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "公民連携推進事業",
+      "start": 14148,
+      "raw": "公民連携推進事業 公民連携推進課 24,127 継続",
+      "existingId": "cached-20213-a6480067750045646079d9e7",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "森林整備事業",
+      "start": 14175,
+      "raw": "森林整備事業 農林課 28,486 継続\n",
+      "existingId": "cached-20213-d7bf9b829245fd12543c2364",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "広域観光推進事業",
+      "start": 15541,
+      "raw": "広域観光推進事業 広域観光推進課 18,716 継続",
+      "existingId": "cached-20213-8bfda0c82dea41b10a066dc8",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "自転車活用推進事業",
+      "start": 15568,
+      "raw": "自転車活用推進事業 広域観光推進課 5,842 継続",
+      "existingId": "cached-20213-251861e51502059dc801a6d7",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "地域活性化起業人制度活用事業",
+      "start": 15595,
+      "raw": "地域活性化起業人制度活用事業 広域観光推進課 5,600 継続",
+      "existingId": "cached-20213-cc2e1898b602ac497bba62bb",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "かわまちづくり事業",
+      "start": 15627,
+      "raw": "かわまちづくり事業 道路河川課 23,294 拡充",
+      "existingId": "cached-20213-4bc18a73c30943483c879a94",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "スポーツツーリズム推進事業",
+      "start": 17408,
+      "raw": "スポーツツーリズム推進事業 スポーツ推進課 4,950 継続",
+      "existingId": "cached-20213-83101505be7cb1f81c06d1db",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "インバウンド推進事業",
+      "start": 17439,
+      "raw": "インバウンド推進事業 商工観光課 5,600 継続",
+      "existingId": "cached-20213-e23cedd95d890b3c95e20d81",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "ヘルスツーリズム推進事業",
+      "start": 17509,
+      "raw": "ヘルスツーリズム推進事業 商工観光課 0 廃止",
+      "existingId": "cached-20213-42b653a114941cac1b73b860",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "観光施設整備事業",
+      "start": 17533,
+      "raw": "観光施設整備事業 商工観光課 23,900 継続",
+      "existingId": "cached-20213-8a30f3259490ea37874a8718",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "観光イベント等補助事業",
+      "start": 17558,
+      "raw": "観光イベント等補助事業 商工観光課 5,555 継続",
+      "existingId": "cached-20213-90b0c2d289e4e37bf956c834",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "宿泊施設等整備補助事業",
+      "start": 17603,
+      "raw": "宿泊施設等整備補助事業 商工観光課 5,000 継続",
+      "existingId": "cached-20213-26c79329811ce0efc3bfc0ec",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "自転車活用推進事業",
+      "start": 17630,
+      "raw": "自転車活用推進事業 広域観光推進課 5,842 継続\n",
+      "existingId": "cached-20213-251861e51502059dc801a6d7",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "菜の花の里づくり事業",
+      "start": 18691,
+      "raw": "菜の花の里づくり事業 農林課 10,813 継続",
+      "existingId": "cached-20213-18311c0104d9eaab6d56d930",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "河川利用活性化事業",
+      "start": 18761,
+      "raw": "河川利用活性化事業 道路河川課 2,105 継続\n",
+      "existingId": "cached-20213-678e00b5882d1021624abe4d",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "都市交流推進事業",
+      "start": 19964,
+      "raw": "都市交流推進事業 商工観光課 6,682 継続",
+      "existingId": "cached-20213-a0e656a08b4d221e08cfa552",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "国際交流事業",
+      "start": 19988,
+      "raw": "国際交流事業 企画財政課 10,873 継続",
+      "existingId": "cached-20213-8b4b9dc054d962db590b3dc0",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "ふるさと寄附金推進事業",
+      "start": 20044,
+      "raw": "ふるさと寄附金推進事業 企画財政課 750,700 継続\n",
+      "existingId": "cached-20213-d89270856d4dca343b2120bb",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "移住・定住推進事業",
+      "start": 22084,
+      "raw": "移住・定住推進事業 移住定住推進課 7,500 継続",
+      "existingId": "cached-20213-774a7e54eeae9cd97318138f",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "移住支援事業",
+      "start": 22111,
+      "raw": "移住支援事業 移住定住推進課 20,000 継続",
+      "existingId": "cached-20213-398ddbfcd5e15705406481cf",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "定住支援事業",
+      "start": 22136,
+      "raw": "定住支援事業 移住定住推進課 9,600 継続",
+      "existingId": "cached-20213-874e18d7d8d00a36b0ad7f90",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "結婚新生活支援事業",
+      "start": 22160,
+      "raw": "結婚新生活支援事業 移住定住推進課 1,800 継続",
+      "existingId": "cached-20213-3c2448bf6b232127526b2d05",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "さわやか婚活応援事業",
+      "start": 22187,
+      "raw": "さわやか婚活応援事業 移住定住推進課 2,500 継続",
+      "existingId": "cached-20213-fc5f1812dabca2b9bbc6f5e8",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "市営住宅整備事業",
+      "start": 22215,
+      "raw": "市営住宅整備事業 移住定住推進課 240,740 継続",
+      "existingId": "cached-20213-3e99ff09d6853c83d9fd8ef5",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "飯山市移住定住促進住宅整備事業",
+      "start": 22243,
+      "raw": "飯山市移住定住促進住宅整備事業 移住定住推進課 8,880 継続",
+      "existingId": "cached-20213-c7f97b8d8e2ba47d0b25670e",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "若者住宅整備事業",
+      "start": 22276,
+      "raw": "若者住宅整備事業 移住定住推進課 0 継続",
+      "existingId": "cached-20213-50edb9b65d9c55e4be997dbd",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "移住支援事業",
+      "start": 22298,
+      "raw": "移住支援事業 移住定住推進課 20,000 継続",
+      "existingId": "cached-20213-398ddbfcd5e15705406481cf",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "飯山市企業誘致・移住支援事業",
+      "start": 22323,
+      "raw": "飯山市企業誘致・移住支援事業 商工観光課 7,154 継続",
+      "existingId": "cached-20213-fdc68d83f18e6561bde642c1",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "定住支援事業",
+      "start": 22353,
+      "raw": "定住支援事業 移住定住推進課 9,600 継続\n",
+      "existingId": "cached-20213-874e18d7d8d00a36b0ad7f90",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "市報発行事業",
+      "start": 23562,
+      "raw": "市報発行事業 事業戦略課 6,856 継続",
+      "existingId": "cached-20213-69623eec7f93f5ed3d3aebff",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "ケーブルテレビ整備事業",
+      "start": 23584,
+      "raw": "ケーブルテレビ整備事業 事業戦略課 72,155 継続\n",
+      "existingId": "cached-20213-32e165dcf40c07bad44ff445",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "ＤＸシステム整備事業",
+      "start": 25711,
+      "raw": "ＤＸシステム整備事業 事業戦略課 129,104 継続",
+      "existingId": "cached-20213-7a1d5538fa73915b1f06acfc",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "飯山市ＤＸ推進事業",
+      "start": 25739,
+      "raw": "飯山市ＤＸ推進事業 事業戦略課 55,251 継続",
+      "existingId": "cached-20213-1d217aeb8ec6291903eece16",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "庁内システム更新事業",
+      "start": 25861,
+      "raw": "庁内システム更新事業 事業戦略課 227,743 継続",
+      "existingId": "cached-20213-76b116824a5824c95298ae75",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "飯山市ＤＸ推進事業",
+      "start": 25889,
+      "raw": "飯山市ＤＸ推進事業 事業戦略課 55,251 継続\n",
+      "existingId": "cached-20213-1d217aeb8ec6291903eece16",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "気象観測装置更新事業",
+      "start": 27009,
+      "raw": "気象観測装置更新事業 事業戦略課 5,038 継続",
+      "existingId": "cached-20213-2eb1de161bf056f7fc6b9603",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "統合型GIS整備事業",
+      "start": 27035,
+      "raw": "統合型GIS整備事業 事業戦略課 3,173 継続",
+      "existingId": "cached-20213-93908f9c39de6d2871516cf9",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "マイナンバーカード交付事業",
+      "start": 27083,
+      "raw": "マイナンバーカード交付事業 市民環境課 2,707 継続\n",
+      "existingId": "cached-20213-80bb67429f472701b15e8e6a",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "延長保育委託事業",
+      "start": 28339,
+      "raw": "延長保育委託事業 子ども育成課 6,610 継続",
+      "existingId": "cached-20213-49fde0383e7ff01ec50c6bbe",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "通園バス運行事業",
+      "start": 28364,
+      "raw": "通園バス運行事業 子ども育成課 11,503 継続",
+      "existingId": "cached-20213-5cfc0d903ef0b402b812a289",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "一時預かり委託事業",
+      "start": 28390,
+      "raw": "一時預かり委託事業 子ども育成課 444 継続",
+      "existingId": "cached-20213-317e36233e0dd31f3ba16079",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "私立幼稚園運営支援事業",
+      "start": 28414,
+      "raw": "私立幼稚園運営支援事業 子ども育成課 51,000 継続",
+      "existingId": "cached-20213-b21203a078c0fc2006c82158",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "児童福祉施設整備事業",
+      "start": 28443,
+      "raw": "児童福祉施設整備事業 子ども育成課 18,011 継続\n",
+      "existingId": "cached-20213-d8d2bd89073f519a95920956",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "母子保健事業",
+      "start": 30283,
+      "raw": "母子保健事業 保健福祉課 44,856 継続",
+      "existingId": "cached-20213-54bad05d220e89355c25a992",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "保健センター改修事業",
+      "start": 30349,
+      "raw": "保健センター改修事業 保健福祉課 3,410 継続",
+      "existingId": "cached-20213-3a619cd19a75e758382e8d7f",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "飯山市子ども館等運営事業",
+      "start": 30375,
+      "raw": "飯山市子ども館等運営事業 子ども育成課 33,433 継続",
+      "existingId": "cached-20213-1befd5ac97b520ec57400d74",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "児童クラブ等運営事業",
+      "start": 30405,
+      "raw": "児童クラブ等運営事業 子ども育成課 46,026 継続",
+      "existingId": "cached-20213-3ac7ea0aec74a824ccf41a7e",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "城北中学校区統合小学校児童クラブ整備事業",
+      "start": 30433,
+      "raw": "城北中学校区統合小学校児童クラブ整備事業 子ども育成課 2,000 継続",
+      "existingId": "cached-20213-457e8c1f65f71531f610242f",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "児童手当給付事業",
+      "start": 30470,
+      "raw": "児童手当給付事業 子ども育成課 346,249 継続",
+      "existingId": "cached-20213-7651bb256b4e2ce519d567e4",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "児童扶養手当等給付事業",
+      "start": 30497,
+      "raw": "児童扶養手当等給付事業 子ども育成課 76,546 継続",
+      "existingId": "cached-20213-2e26fc0ecb2424a9dd59c436",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "医療給付事業",
+      "start": 30526,
+      "raw": "医療給付事業 保健福祉課 145,089 継続",
+      "existingId": "cached-20213-629b5c5c41e89e0163223aee",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "学校給食費負担軽減事業",
+      "start": 30550,
+      "raw": "学校給食費負担軽減事業 子ども育成課 39,050 継続",
+      "existingId": "cached-20213-1d935e327fd9fc59f77ffcfa",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "幼児教育無償化事業",
+      "start": 30579,
+      "raw": "幼児教育無償化事業 子ども育成課 10,537 継続\n",
+      "existingId": "cached-20213-56321df0c46ec259b2d9322d",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "学力向上総合対策事業",
+      "start": 32107,
+      "raw": "学力向上総合対策事業 子ども育成課 22,210 継続",
+      "existingId": "cached-20213-ac51e60c07f911d5309887b7",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "教師用教科書指導書購入事業",
+      "start": 32135,
+      "raw": "教師用教科書指導書購入事業 子ども育成課 0 継続",
+      "existingId": "cached-20213-9bb2f8d40aa339890d8b3b28",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "冬期学校スポーツ振興事業",
+      "start": 32188,
+      "raw": "冬期学校スポーツ振興事業 子ども育成課 3,206 継続",
+      "existingId": "cached-20213-ec31c1eb065fc7cbb24545a8",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "中学校部活動支援事業",
+      "start": 32217,
+      "raw": "中学校部活動支援事業 子ども育成課 2,704 継続",
+      "existingId": "cached-20213-dcabd9a99a00776af42c6b5b",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "小中学校図書館図書整備事業",
+      "start": 32244,
+      "raw": "小中学校図書館図書整備事業 子ども育成課 3,700 継続\n",
+      "existingId": "cached-20213-841c8a0ac0e3e40868362855",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "育英資金貸付事業",
+      "start": 33016,
+      "raw": "育英資金貸付事業 子ども育成課 1,000 継続\n",
+      "existingId": "cached-20213-cf6cad5bba8a4dcfc012ec8d",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "中学校国際交流事業",
+      "start": 34523,
+      "raw": "中学校国際交流事業 子ども育成課 7,025 継続",
+      "existingId": "cached-20213-83f8ca77c3b2e08f27ef765a",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "英語教育推進事業",
+      "start": 34549,
+      "raw": "英語教育推進事業 子ども育成課 23,413 継続",
+      "existingId": "cached-20213-0d37a81c7ff8f260dee08184",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "小中学校ＩＣＴ教育推進事業",
+      "start": 34575,
+      "raw": "小中学校ＩＣＴ教育推進事業 子ども育成課 48,174 拡充",
+      "existingId": "cached-20213-88ebc55f05b89d64e343db08",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "飯山雪国大学事業",
+      "start": 34606,
+      "raw": "飯山雪国大学事業 市民学習支援課 2,299 継続",
+      "existingId": "cached-20213-8332e49d87c2671d6f7c90e0",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "ジュニアスポーツ振興事業",
+      "start": 34632,
+      "raw": "ジュニアスポーツ振興事業 スポーツ推進課 17,186 継続\n",
+      "existingId": "cached-20213-8bfa19be2b663b86ff884dbc",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "総合教育推進事業",
+      "start": 35803,
+      "raw": "総合教育推進事業 子ども育成課 2,708 継続",
+      "existingId": "cached-20213-d9fd6085caf1768affc09c68",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "ふるさと学習推進事業",
+      "start": 35828,
+      "raw": "ふるさと学習推進事業 市民学習支援課 2,016 継続",
+      "existingId": "cached-20213-4e66ddfb1184b706925210ad",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "高校生チャレンジ支援事業",
+      "start": 35856,
+      "raw": "高校生チャレンジ支援事業 公民連携推進課 300 継続",
+      "existingId": "cached-20213-3c3ca29ffd19eb8f27092903",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "総合教育推進事業",
+      "start": 35884,
+      "raw": "総合教育推進事業 子ども育成課 2,708 継続",
+      "existingId": "cached-20213-d9fd6085caf1768affc09c68",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "飯山雪国大学事業",
+      "start": 35909,
+      "raw": "飯山雪国大学事業 市民学習支援課 2,299 継続",
+      "existingId": "cached-20213-8332e49d87c2671d6f7c90e0",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "冬期学校スポーツ振興事業",
+      "start": 35935,
+      "raw": "冬期学校スポーツ振興事業 子ども育成課 3,206 継続\n",
+      "existingId": "cached-20213-ec31c1eb065fc7cbb24545a8",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "不登校児童生徒支援事業",
+      "start": 37181,
+      "raw": "不登校児童生徒支援事業 子ども育成課 5,406 継続",
+      "existingId": "cached-20213-86226de8208a6c7794865ff7",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "心の教室相談員設置事業",
+      "start": 37209,
+      "raw": "心の教室相談員設置事業 子ども育成課 11,473 継続",
+      "existingId": "cached-20213-1c05531ceeb3af8c5ad957ee",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "小学校施設整備事業",
+      "start": 37238,
+      "raw": "小学校施設整備事業 子ども育成課 30,056 継続",
+      "existingId": "cached-20213-b3eae3e62a9b7d71cd9b9b1c",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "新たな小学校づくり事業",
+      "start": 37265,
+      "raw": "新たな小学校づくり事業 子ども育成課 297,057 継続",
+      "existingId": "cached-20213-f37ca207c6802c7bdcac301e",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "中学校施設整備事業",
+      "start": 37295,
+      "raw": "中学校施設整備事業 子ども育成課 24,123 継続",
+      "existingId": "cached-20213-2a02c419f9159c6faee6db63",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "スクールバス整備事業",
+      "start": 37322,
+      "raw": "スクールバス整備事業 子ども育成課 20,336 継続",
+      "existingId": "cached-20213-721a75d152ca31e2d739ccd7",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "特別支援教育支援員配置事業",
+      "start": 37350,
+      "raw": "特別支援教育支援員配置事業 子ども育成課 21,226 継続",
+      "existingId": "cached-20213-0a9fc6eeacd56611eeb1d280",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "平和学習事業",
+      "start": 37381,
+      "raw": "平和学習事業 子ども育成課 2,193 継続\n",
+      "existingId": "cached-20213-11917daaecc53fb1195b23c2",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "総合教育推進事業",
+      "start": 38681,
+      "raw": "総合教育推進事業 子ども育成課 2,708 継続",
+      "existingId": "cached-20213-d9fd6085caf1768affc09c68",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "ジュニアスポーツ振興事業",
+      "start": 38706,
+      "raw": "ジュニアスポーツ振興事業 スポーツ推進課 17,186 継続",
+      "existingId": "cached-20213-8bfa19be2b663b86ff884dbc",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "公民館事業",
+      "start": 38758,
+      "raw": "公民館事業 市民学習支援課 790 継続\n",
+      "existingId": "cached-20213-f70f29523865c8d66243d981",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "経営体育成支援事業",
+      "start": 39849,
+      "raw": "経営体育成支援事業 農林課 6,000 継続",
+      "existingId": "cached-20213-d0a1951fd778177ccd84f0a2",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "みゆきポーク生産振興対策事業",
+      "start": 39872,
+      "raw": "みゆきポーク生産振興対策事業 農林課 920 継続",
+      "existingId": "cached-20213-0f0ddb212905b8ea9c3d6a01",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "米ブランド化推進事業",
+      "start": 39898,
+      "raw": "米ブランド化推進事業 農林課 2,044 継続",
+      "existingId": "cached-20213-7982d78e2c54ae9675d2f1c3",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "農業振興対策事業",
+      "start": 39922,
+      "raw": "農業振興対策事業 農林課 15,748 継続\n",
+      "existingId": "cached-20213-99997f27fbbd69579bc717a5",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "農業振興対策事業",
+      "start": 41273,
+      "raw": "農業振興対策事業 農林課 15,748 継続",
+      "existingId": "cached-20213-99997f27fbbd69579bc717a5",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "新規就農総合支援事業",
+      "start": 41296,
+      "raw": "新規就農総合支援事業 農林課 38,044 継続",
+      "existingId": "cached-20213-7bbd965551253fde5cbce7df",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "経営所得安定対策等推進事業",
+      "start": 41321,
+      "raw": "経営所得安定対策等推進事業 農林課 5,100 継続",
+      "existingId": "cached-20213-1fe489340676d18c0493fcd2",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "経営体育成支援事業",
+      "start": 41348,
+      "raw": "経営体育成支援事業 農林課 6,000 継続",
+      "existingId": "cached-20213-d0a1951fd778177ccd84f0a2",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "地区農業再生推進事業",
+      "start": 41371,
+      "raw": "地区農業再生推進事業 農林課 800 継続",
+      "existingId": "cached-20213-b33d19ad40a351d4ce7fa1ed",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "農地利用集積円滑化事業",
+      "start": 41393,
+      "raw": "農地利用集積円滑化事業 農林課 1,460 継続",
+      "existingId": "cached-20213-4813945dc6e1cf32a88416d1",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "国営開発農地振興対策事業",
+      "start": 41418,
+      "raw": "国営開発農地振興対策事業 農林課 1,200 継続",
+      "existingId": "cached-20213-e119463d9265281b4b5fe9d6",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "遊休荒廃農地対策事業",
+      "start": 41444,
+      "raw": "遊休荒廃農地対策事業 農林課 1,520 継続\n",
+      "existingId": "cached-20213-1a1e1bb7b403aae102dc585f",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "地区農業再生推進事業",
+      "start": 43171,
+      "raw": "地区農業再生推進事業 農林課 800 継続",
+      "existingId": "cached-20213-b33d19ad40a351d4ce7fa1ed",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "中山間地域等直接支払い事業",
+      "start": 43193,
+      "raw": "中山間地域等直接支払い事業 農林課 82,001 継続",
+      "existingId": "cached-20213-2855d89045c87d325094b30a",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "環境保全型農業直接支払交付金事業",
+      "start": 43221,
+      "raw": "環境保全型農業直接支払交付金事業 農林課 1,336 継続",
+      "existingId": "cached-20213-4e4cfe0053b0037ef5638d62",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "土地改良施設維持管理適正化事業",
+      "start": 43251,
+      "raw": "土地改良施設維持管理適正化事業 農林課 6,544 継続",
+      "existingId": "cached-20213-7eba017fef41165d7fc8aa37",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "湛水防除施設管理事業",
+      "start": 43280,
+      "raw": "湛水防除施設管理事業 農林課 9,487 継続",
+      "existingId": "cached-20213-d31345bfc2cf2bf0174df492",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "木島地区湛水防除施設改修事業",
+      "start": 43304,
+      "raw": "木島地区湛水防除施設改修事業 農林課 30,568 継続",
+      "existingId": "cached-20213-c914186c1960fe6cdc5d3767",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "森林整備事業",
+      "start": 43333,
+      "raw": "森林整備事業 農林課 28,486 継続\n",
+      "existingId": "cached-20213-d7bf9b829245fd12543c2364",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "商工業振興事業",
+      "start": 44236,
+      "raw": "商工業振興事業 商工観光課 7,448 拡充",
+      "existingId": "cached-20213-7c8c91925a3a503c6158658b",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "起業支援ネットワーク推進事業",
+      "start": 44259,
+      "raw": "起業支援ネットワーク推進事業 商工観光課 9,658 継続",
+      "existingId": "cached-20213-6622d6d07ec2c9536e9df066",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "中小企業資金預託信用保証事業",
+      "start": 44289,
+      "raw": "中小企業資金預託信用保証事業 商工観光課 308,400 継続\n",
+      "existingId": "cached-20213-cd2b389574db87d6c763277a",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "企業誘致対策事業",
+      "start": 45522,
+      "raw": "企業誘致対策事業 商工観光課 3,821 継続",
+      "existingId": "cached-20213-6bf6d13d2f601f6152b030e2",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "工業用地価格安定対策事業",
+      "start": 45546,
+      "raw": "工業用地価格安定対策事業 商工観光課 201,000 継続",
+      "existingId": "cached-20213-baecde6bdff414a24b025ca6",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "工場用地等取得費補助事業",
+      "start": 45576,
+      "raw": "工場用地等取得費補助事業 商工観光課 3,150 継続",
+      "existingId": "cached-20213-495e23b60d974e1a5b1a2fa3",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "工業団地整備事業",
+      "start": 45604,
+      "raw": "工業団地整備事業 商工観光課 1,745 継続\n",
+      "existingId": "cached-20213-4f613db6c94909a40241476e",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "飯山市企業誘致・移住支援事業",
+      "start": 46852,
+      "raw": "飯山市企業誘致・移住支援事業 商工観光課 7,154 継続",
+      "existingId": "cached-20213-fdc68d83f18e6561bde642c1",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "商工業振興事業",
+      "start": 46882,
+      "raw": "商工業振興事業 商工観光課 7,448 拡充",
+      "existingId": "cached-20213-7c8c91925a3a503c6158658b",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "労働厚生事業",
+      "start": 46905,
+      "raw": "労働厚生事業 商工観光課 7,240 継続\n",
+      "existingId": "cached-20213-9fef603710a26c9ef2d94168",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "伝統産業振興事業",
+      "start": 47697,
+      "raw": "伝統産業振興事業 商工観光課 1,729 継続\n",
+      "existingId": "cached-20213-71f0f939a7ffda2b48b87820",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "職人技能後継者育成支援事業",
+      "start": 48470,
+      "raw": "職人技能後継者育成支援事業 商工観光課 1,800 継続\n",
+      "existingId": "cached-20213-f70e05e020122beee9ca51d5",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "若者活動支援事業",
+      "start": 49402,
+      "raw": "若者活動支援事業 公民連携推進課 300 継続",
+      "existingId": "cached-20213-c31960fdaf3c27414ee4651e",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "里山の未来づくり支援事業",
+      "start": 49426,
+      "raw": "里山の未来づくり支援事業 事業戦略課 2,500 継続\n",
+      "existingId": "cached-20213-bbe433a892f57b83a2f62bc8",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "人権同和教育推進事業",
+      "start": 50501,
+      "raw": "人権同和教育推進事業 人権政策課 1,365 継続",
+      "existingId": "cached-20213-6ffe10ab3ec1409b752b2316",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "男女共同参画推進事業",
+      "start": 50527,
+      "raw": "男女共同参画推進事業 人権政策課 351 継続\n",
+      "existingId": "cached-20213-2552f770587e71c9b0e70043",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "人権同和教育推進事業",
+      "start": 51397,
+      "raw": "人権同和教育推進事業 人権政策課 1,365 継続\n",
+      "existingId": "cached-20213-6ffe10ab3ec1409b752b2316",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "公民館事業",
+      "start": 52930,
+      "raw": "公民館事業 市民学習支援課 790 継続",
+      "existingId": "cached-20213-f70f29523865c8d66243d981",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "飯山雪国大学事業",
+      "start": 52951,
+      "raw": "飯山雪国大学事業 市民学習支援課 2,299 継続",
+      "existingId": "cached-20213-8332e49d87c2671d6f7c90e0",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "公民館施設整備事業",
+      "start": 53001,
+      "raw": "公民館施設整備事業 市民学習支援課 8,650 継続",
+      "existingId": "cached-20213-cb240f18954a4a1a45ef4b53",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "市報発行事業",
+      "start": 53028,
+      "raw": "市報発行事業 事業戦略課 6,856 継続",
+      "existingId": "cached-20213-69623eec7f93f5ed3d3aebff",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "地区館事業",
+      "start": 53050,
+      "raw": "地区館事業 市民学習支援課 1,192 継続\n",
+      "existingId": "cached-20213-b165595c795087a064535751",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "読書普及事業",
+      "start": 53971,
+      "raw": "読書普及事業 市民学習支援課 5,317 継続",
+      "existingId": "cached-20213-cb225c8099f139d0a59d190b",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "図書館環境整備事業",
+      "start": 53995,
+      "raw": "図書館環境整備事業 市民学習支援課 0 継続\n",
+      "existingId": "cached-20213-faa720456c7c78e220f88230",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "文化財保存管理事業",
+      "start": 54994,
+      "raw": "文化財保存管理事業 市民学習支援課 730 継続",
+      "existingId": "cached-20213-9115d4813e1eac564bea9af6",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "文化的景観保護推進事業",
+      "start": 55019,
+      "raw": "文化的景観保護推進事業 市民学習支援課 4,135 継続",
+      "existingId": "cached-20213-022c844f7cf960507ac098d0",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "文化財調査整備事業",
+      "start": 55048,
+      "raw": "文化財調査整備事業 市民学習支援課 5,145 継続",
+      "existingId": "cached-20213-2710a26b7732c3cc15400cde",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "ふるさと学習推進事業",
+      "start": 55075,
+      "raw": "ふるさと学習推進事業 市民学習支援課 2,016 継続\n",
+      "existingId": "cached-20213-4e66ddfb1184b706925210ad",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "企画展開催事業",
+      "start": 56407,
+      "raw": "企画展開催事業 文化交流課 4,030 継続",
+      "existingId": "cached-20213-3885ceb8476b2c0d43f6be52",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "美術館施設整備事業",
+      "start": 56430,
+      "raw": "美術館施設整備事業 文化交流課 11,087 継続",
+      "existingId": "cached-20213-3807d71f2795df2fd648373f",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "芸術文化振興事業",
+      "start": 56456,
+      "raw": "芸術文化振興事業 文化交流課 10,704 継続",
+      "existingId": "cached-20213-50ad928ec4b6f0cd91b1c668",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "ふるさと学習推進事業",
+      "start": 56481,
+      "raw": "ふるさと学習推進事業 市民学習支援課 2,016 継続\n",
+      "existingId": "cached-20213-4e66ddfb1184b706925210ad",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "スポーツ振興事業",
+      "start": 57726,
+      "raw": "スポーツ振興事業 スポーツ推進課 9,109 継続",
+      "existingId": "cached-20213-f927990f396e85f55381fcc2",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "第82回国民スポーツ大会開催事業",
+      "start": 57752,
+      "raw": "第82回国民スポーツ大会開催事業 国民スポーツ大会準備課 304,890 継続\n",
+      "existingId": "cached-20213-cb82c2294b39ca305bca92a3",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "体育施設整備事業",
+      "start": 58898,
+      "raw": "体育施設整備事業 スポーツ推進課 11,600 継続",
+      "existingId": "cached-20213-6d675909a79ab7ea5dfe02e9",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "第82回国民スポーツ大会開催事業",
+      "start": 58925,
+      "raw": "第82回国民スポーツ大会開催事業 国民スポーツ大会準備課 304,890 継続\n",
+      "existingId": "cached-20213-cb82c2294b39ca305bca92a3",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "公共交通運行事業",
+      "start": 60132,
+      "raw": "公共交通運行事業 企画財政課 110,414 継続\n",
+      "existingId": "cached-20213-cad48f6c1d961abc92ed4819",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "二次交通展開事業",
+      "start": 61007,
+      "raw": "二次交通展開事業 商工観光課 12,447 継続\n",
+      "existingId": "cached-20213-0d767034fefeb2e6870aa696",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "特定健康診査等事業",
+      "start": 62160,
+      "raw": "特定健康診査等事業 市民環境課 16,810 継続",
+      "existingId": "cached-20213-94da4106f5297a2ba01c1a70",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "人間ドック費用助成事業",
+      "start": 62186,
+      "raw": "人間ドック費用助成事業 市民環境課 14,190 継続",
+      "existingId": "cached-20213-cb6ada7f5485c9cc6e25d504",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "市民健康診査事業",
+      "start": 62214,
+      "raw": "市民健康診査事業 保健福祉課 19,517 継続",
+      "existingId": "cached-20213-00a8a3fd75a46687a7bd99b5",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "健康増進事業",
+      "start": 62239,
+      "raw": "健康増進事業 保健福祉課 28,592 継続",
+      "existingId": "cached-20213-7b6d260ad28143cda2447821",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "高齢者の保健事業と介護予防の一体的な実施事業",
+      "start": 62262,
+      "raw": "高齢者の保健事業と介護予防の一体的な実施事業 保健福祉課 141 継続\n",
+      "existingId": "cached-20213-f7dcb76eb08ad25331833aa3",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "健康増進事業",
+      "start": 63520,
+      "raw": "健康増進事業 保健福祉課 28,592 継続",
+      "existingId": "cached-20213-7b6d260ad28143cda2447821",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "健康増進プログラム支援事業",
+      "start": 63543,
+      "raw": "健康増進プログラム支援事業 市民環境課 597 継続",
+      "existingId": "cached-20213-b4da0870644cb3b400b96593",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "健康増進事業",
+      "start": 63570,
+      "raw": "健康増進事業 保健福祉課 28,592 継続",
+      "existingId": "cached-20213-7b6d260ad28143cda2447821",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "骨髄バンクドナー助成事業",
+      "start": 63593,
+      "raw": "骨髄バンクドナー助成事業 保健福祉課 300 継続",
+      "existingId": "cached-20213-00bf3aca5ed79b5262983340",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "精神保健事業",
+      "start": 63648,
+      "raw": "精神保健事業 保健福祉課 2,138 継続\n",
+      "existingId": "cached-20213-c86380812ded7a81bd17d3b8",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "社会福祉推進事業",
+      "start": 65291,
+      "raw": "社会福祉推進事業 保健福祉課 1,063 継続",
+      "existingId": "cached-20213-2850ae822c3b35bae244a049",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "民生児童委員活動事業",
+      "start": 65315,
+      "raw": "民生児童委員活動事業 保健福祉課 10,769 継続",
+      "existingId": "cached-20213-0dd876b3f1ae0c67bcd9e74e",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "生活困窮者自立支援事業",
+      "start": 65342,
+      "raw": "生活困窮者自立支援事業 保健福祉課 12,741 継続",
+      "existingId": "cached-20213-1f5901882fd1f5d7b72ded54",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "総合窓口相談員設置事業",
+      "start": 65370,
+      "raw": "総合窓口相談員設置事業 保健福祉課 2,617 継続",
+      "existingId": "cached-20213-a90b45d85ab8d4e140711f97",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "地域自立生活支援事業",
+      "start": 65397,
+      "raw": "地域自立生活支援事業 保健福祉課 7,500 継続",
+      "existingId": "cached-20213-5cbd7d76844b2d921ad03347",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "市報発行事業",
+      "start": 65423,
+      "raw": "市報発行事業 事業戦略課 6,856 継続\n",
+      "existingId": "cached-20213-69623eec7f93f5ed3d3aebff",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "介護予防ケアマネジメント事業",
+      "start": 67164,
+      "raw": "介護予防ケアマネジメント事業 保健福祉課 2,200 継続",
+      "existingId": "cached-20213-739af6436ccebee2b1706568",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "重度要介護高齢者家庭介護者慰労金等給付事業",
+      "start": 67194,
+      "raw": "重度要介護高齢者家庭介護者慰労金等給付事業 保健福祉課 6,500 継続",
+      "existingId": "cached-20213-1f0f9577551236a99d38af57",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "高齢者在宅福祉利用券事業",
+      "start": 67231,
+      "raw": "高齢者在宅福祉利用券事業 保健福祉課 100 継続",
+      "existingId": "cached-20213-74ff793328d8bfbbb6274031",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "家族介護支援事業",
+      "start": 67257,
+      "raw": "家族介護支援事業 保健福祉課 6,396 継続",
+      "existingId": "cached-20213-dcd971b2dd5b6d61c2930243",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "介護給付費等費用適正化事業",
+      "start": 67281,
+      "raw": "介護給付費等費用適正化事業 保健福祉課 100 継続",
+      "existingId": "cached-20213-5d5d9929e5ebb9fbc8dcc9ec",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "介護予防・生活支援サービス事業",
+      "start": 67363,
+      "raw": "介護予防・生活支援サービス事業 保健福祉課 22,000 継続\n",
+      "existingId": "cached-20213-b2e1087510aca1526334c9ae",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "飯山市障がい者・寝たきり老人等タクシー乗車券給付事業",
+      "start": 68458,
+      "raw": "飯山市障がい者・寝たきり老人等タクシー乗車券給付事業 保健福祉課 884 継続",
+      "existingId": "cached-20213-1a34815f614bd3dd31a4b0d1",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "重度心身障がい者介護慰労金支給事業",
+      "start": 68498,
+      "raw": "重度心身障がい者介護慰労金支給事業 保健福祉課 950 継続",
+      "existingId": "cached-20213-c8387c448718e40e3eff6658",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "人工透析患者補助事業",
+      "start": 68529,
+      "raw": "人工透析患者補助事業 保健福祉課 570 継続",
+      "existingId": "cached-20213-d6e483d39b49c378520e3082",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "障がい者地域生活支援拠点事業",
+      "start": 68553,
+      "raw": "障がい者地域生活支援拠点事業 保健福祉課 3,404 継続",
+      "existingId": "cached-20213-347ceeb587da9d76e849cbf3",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "飯山市障がい者等通所費助成事業",
+      "start": 68583,
+      "raw": "飯山市障がい者等通所費助成事業 保健福祉課 870 継続",
+      "existingId": "cached-20213-2e469dfe7946140d36ca8315",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "障がい者・高齢者にやさしい住宅改修促進事業",
+      "start": 68612,
+      "raw": "障がい者・高齢者にやさしい住宅改修促進事業 保健福祉課 1,260 継続",
+      "existingId": "cached-20213-c148143d542f2aeb185fa1cc",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "地域障がい福祉推進事業",
+      "start": 68649,
+      "raw": "地域障がい福祉推進事業 保健福祉課 3,928 継続",
+      "existingId": "cached-20213-9797521eb3befd188ba2130f",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "母子通園施設運営事業",
+      "start": 68676,
+      "raw": "母子通園施設運営事業 保健福祉課 5,072 継続",
+      "existingId": "cached-20213-ae1e3848933e9a6ade1a0bf6",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "北信圏域権利擁護センター運営事業",
+      "start": 68702,
+      "raw": "北信圏域権利擁護センター運営事業 保健福祉課 4,643 拡充\n",
+      "existingId": "cached-20213-de802592aa311f6fd2edb298",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "地域中核医療機関支援事業",
+      "start": 70009,
+      "raw": "地域中核医療機関支援事業 保健福祉課 130,487 継続",
+      "existingId": "cached-20213-fd1f6995b9797eee15d2d4eb",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "医師招聘推進事業",
+      "start": 70039,
+      "raw": "医師招聘推進事業 保健福祉課 21,200 継続\n",
+      "existingId": "cached-20213-dce6193b4f463561c5f59008",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "地域中核医療機関支援事業",
+      "start": 71081,
+      "raw": "地域中核医療機関支援事業 保健福祉課 130,487 継続",
+      "existingId": "cached-20213-fd1f6995b9797eee15d2d4eb",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "無医地区出張診療所事業",
+      "start": 71111,
+      "raw": "無医地区出張診療所事業 市民環境課 3,222 継続\n",
+      "existingId": "cached-20213-dc79de69e258c122c0e729e8",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "自主防災会育成強化事業",
+      "start": 73158,
+      "raw": "自主防災会育成強化事業 危機管理防災課 650 継続",
+      "existingId": "cached-20213-0cf8ac2847905976e7ac51af",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "防災・減災対策事業",
+      "start": 73214,
+      "raw": "防災・減災対策事業 危機管理防災課 20,323 継続",
+      "existingId": "cached-20213-2cc915f888d7223651d02f36",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "防災対策整備事業",
+      "start": 73242,
+      "raw": "防災対策整備事業 道路河川課 283,000 継続",
+      "existingId": "cached-20213-200394a93c30faa1375bd9bd",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "土木施設現年度単独災害復旧事業",
+      "start": 73268,
+      "raw": "土木施設現年度単独災害復旧事業 道路河川課 1,500 継続",
+      "existingId": "cached-20213-58037a2c0085a998bf9ffc05",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "県施行急傾斜地崩壊対策事業",
+      "start": 73299,
+      "raw": "県施行急傾斜地崩壊対策事業 道路河川課 1,700 継続",
+      "existingId": "cached-20213-79f26a3ea4b294b03cda6e9d",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "排水ポンプ購入事業",
+      "start": 73345,
+      "raw": "排水ポンプ購入事業 道路河川課 0 廃止",
+      "existingId": "cached-20213-bb6e97c3c45e983bbfc5a65e",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "住宅耐震対策事業",
+      "start": 73389,
+      "raw": "住宅耐震対策事業 移住定住推進課 7,520 継続\n",
+      "existingId": "cached-20213-3df10d4babc4364d552bbab7",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "自主防災会育成強化事業",
+      "start": 74252,
+      "raw": "自主防災会育成強化事業 危機管理防災課 650 継続\n",
+      "existingId": "cached-20213-0cf8ac2847905976e7ac51af",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "交付金道路新設・改良事業",
+      "start": 75214,
+      "raw": "交付金道路新設・改良事業 道路河川課 92,827 継続",
+      "existingId": "cached-20213-0812b8bcf9379add6354ed62",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "市道舗装修繕事業",
+      "start": 75243,
+      "raw": "市道舗装修繕事業 道路河川課 165,200 継続",
+      "existingId": "cached-20213-fe7c4689ac42c17b681a6c21",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "市道改良事業",
+      "start": 75269,
+      "raw": "市道改良事業 道路河川課 16,020 継続",
+      "existingId": "cached-20213-aed430082d6081c63ce59739",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "橋りょう整備事業",
+      "start": 75292,
+      "raw": "橋りょう整備事業 道路河川課 90,040 継続\n",
+      "existingId": "cached-20213-e9a64db0fae7ab1b690d470f",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "新統合小学校周辺道路環境整備事業",
+      "start": 76556,
+      "raw": "新統合小学校周辺道路環境整備事業 道路河川課 120,100 継続",
+      "existingId": "cached-20213-46e021cbd352716c90db7acb",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "景観形成推進事業",
+      "start": 76590,
+      "raw": "景観形成推進事業 まちづくり課 15,607 継続\n",
+      "existingId": "cached-20213-b23a4deee85615cba9e8dba1",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "都市公園等施設整備事業",
+      "start": 77620,
+      "raw": "都市公園等施設整備事業 まちづくり課 330 継続",
+      "existingId": "cached-20213-4e60b87d7cb55a990f83e4ce",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "飯山城址整備事業",
+      "start": 77646,
+      "raw": "飯山城址整備事業 まちづくり課 28,413 継続\n",
+      "existingId": "cached-20213-95f60db33884f3d51c985ad6",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "都市公園等施設整備事業",
+      "start": 78776,
+      "raw": "都市公園等施設整備事業 まちづくり課 330 継続\n",
+      "existingId": "cached-20213-4e60b87d7cb55a990f83e4ce",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "斑尾簡水整備事業",
+      "start": 79621,
+      "raw": "斑尾簡水整備事業 上下水道課 23,496 継続\n",
+      "existingId": "cached-20213-44dbc435ed6027fb633bb2f9",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "交通安全施設整備事業",
+      "start": 82315,
+      "raw": "交通安全施設整備事業 道路河川課 10,195 継続",
+      "existingId": "cached-20213-3810105ed1221df50ab9157e",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "飯山雪国大学事業",
+      "start": 82363,
+      "raw": "飯山雪国大学事業 市民学習支援課 2,299 継続\n",
+      "existingId": "cached-20213-8332e49d87c2671d6f7c90e0",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "交通安全施設整備事業",
+      "start": 83425,
+      "raw": "交通安全施設整備事業 道路河川課 10,195 継続",
+      "existingId": "cached-20213-3810105ed1221df50ab9157e",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "市民交通安全事業",
+      "start": 83452,
+      "raw": "市民交通安全事業 道路河川課 1,070 継続",
+      "existingId": "cached-20213-0e2cf945fdacfeac2950f8f6",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "公共交通運行事業",
+      "start": 83476,
+      "raw": "公共交通運行事業 企画財政課 110,414 継続\n",
+      "existingId": "cached-20213-cad48f6c1d961abc92ed4819",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "消防防災施設整備事業",
+      "start": 84433,
+      "raw": "消防防災施設整備事業 危機管理防災課 62,375 継続\n",
+      "existingId": "cached-20213-928b411cd37cb1aafe789441",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "消費者問題対策事業",
+      "start": 86027,
+      "raw": "消費者問題対策事業 市民環境課 479 継続\n",
+      "existingId": "cached-20213-b863342481ceda87e05569c9",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "除雪対策事業",
+      "start": 86969,
+      "raw": "除雪対策事業 道路河川課 993,640 継続",
+      "existingId": "cached-20213-d9bdf32a59ada4712bb9aa75",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "除雪機械整備事業",
+      "start": 86993,
+      "raw": "除雪機械整備事業 道路河川課 60,167 継続\n",
+      "existingId": "cached-20213-da920db17f18e188a750829a",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "除雪対策事業",
+      "start": 88844,
+      "raw": "除雪対策事業 道路河川課 993,640 継続",
+      "existingId": "cached-20213-d9bdf32a59ada4712bb9aa75",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "区長行政事務委託事業",
+      "start": 90329,
+      "raw": "区長行政事務委託事業 総務課 18,394 継続",
+      "existingId": "cached-20213-b9281b754bdf81d35e9abb0c",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "コミュニティ助成・地域活動助成事業",
+      "start": 90354,
+      "raw": "コミュニティ助成・地域活動助成事業 総務課 7,000 継続",
+      "existingId": "cached-20213-f039e3d4478df96242f26b1b",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "協働のみちづくり事業",
+      "start": 90385,
+      "raw": "協働のみちづくり事業 道路河川課 18,000 継続",
+      "existingId": "cached-20213-b98c8459dcbfd21d6d989e44",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "協働のいじしゅうぜん事業",
+      "start": 90412,
+      "raw": "協働のいじしゅうぜん事業 道路河川課 2,800 継続",
+      "existingId": "cached-20213-716c1a53183abd879e5bb9a5",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "協働のもりづくり事業",
+      "start": 90440,
+      "raw": "協働のもりづくり事業 農林課 2,200 継続",
+      "existingId": "cached-20213-b3b4ab15a31e36726acd748a",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "協働のむらづくり事業",
+      "start": 90464,
+      "raw": "協働のむらづくり事業 農林課 8,600 継続",
+      "existingId": "cached-20213-d520e695e2c05a1ecc0802cf",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "持続可能な集落活動事業",
+      "start": 90488,
+      "raw": "持続可能な集落活動事業 事業戦略課 16,858 継続",
+      "existingId": "cached-20213-54cb51f20877dcf8e82e8c7b",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "活性化センター整備事業",
+      "start": 90537,
+      "raw": "活性化センター整備事業 総務課 6,763 継続",
+      "existingId": "cached-20213-32d13456c7cfa0594c101136",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "危険空家対策事業",
+      "start": 90562,
+      "raw": "危険空家対策事業 移住定住推進課 11,069 継続\n",
+      "existingId": "cached-20213-903687794a8b4cde6fc5ea41",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "市民税等賦課事業",
+      "start": 94258,
+      "raw": "市民税等賦課事業 税務課 1,523 継続",
+      "existingId": "cached-20213-fa4f7c85af4d0ac51f00450d",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "資産税賦課事業",
+      "start": 94280,
+      "raw": "資産税賦課事業 税務課 14,690 継続",
+      "existingId": "cached-20213-043cf57281818f755c8ba889",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "市税収納率向上対策事業",
+      "start": 94302,
+      "raw": "市税収納率向上対策事業 税務課 1,181 継続",
+      "existingId": "cached-20213-94d077abaca354e82b70e5f8",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "ふるさと寄附金推進事業",
+      "start": 94346,
+      "raw": "ふるさと寄附金推進事業 企画財政課 750,700 継続",
+      "existingId": "cached-20213-d89270856d4dca343b2120bb",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "普通財産管理事業",
+      "start": 94431,
+      "raw": "普通財産管理事業 総務課 2,483 継続",
+      "existingId": "cached-20213-be4aca8ba48c436aa07e38fb",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "保健センター改修事業",
+      "start": 94453,
+      "raw": "保健センター改修事業 保健福祉課 3,410 継続\n",
+      "existingId": "cached-20213-3a619cd19a75e758382e8d7f",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    },
+    {
+      "name": "都市交流推進事業",
+      "start": 95729,
+      "raw": "都市交流推進事業 商工観光課 6,682 継続\n",
+      "existingId": "cached-20213-a0e656a08b4d221e08cfa552",
+      "existingEvaluationYear": 2024,
+      "existingFiscalYear": null
+    }
+  ],
+  "limitation": "Single exact row identities only; excludes merged two-column rows. Not allfields or entire source coverage. No amounts or fiscal-year inference."
+}

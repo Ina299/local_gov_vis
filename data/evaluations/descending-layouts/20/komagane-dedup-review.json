@@ -1,0 +1,52 @@
+{
+  "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "stageOnly": true,
+  "productionChanged": false,
+  "unpublishedUserChanges": "unobservable",
+  "rows": [
+    {
+      "code": "20210",
+      "stageProposals": 8,
+      "existingMasterRecords": 7,
+      "matches": [
+        {
+          "candidateId": "cached-20210-42e3d3ebf72b3718c4858a9b",
+          "existingId": "cached-20210-c2ccf3c095438952cc7d1ea0",
+          "sameContent": false
+        },
+        {
+          "candidateId": "cached-20210-0d47dda02e832a0c4306ce31",
+          "existingId": "cached-20210-04173ac07e84e6a93d711bc7",
+          "sameContent": false
+        },
+        {
+          "candidateId": "cached-20210-defe20a7d76d92656816f966",
+          "existingId": "cached-20210-8ce97f7e27292d3995efdb8c",
+          "sameContent": false
+        },
+        {
+          "candidateId": "cached-20210-b0d228673c0c89a9e9ddedd5",
+          "existingId": "cached-20210-4b1f1f7f4225035bb769a37c",
+          "sameContent": false
+        },
+        {
+          "candidateId": "cached-20210-1f6159b1eef84f846ee4bfb0",
+          "existingId": "cached-20210-52272b636ec5d2a497f733b1",
+          "sameContent": false
+        },
+        {
+          "candidateId": "cached-20210-cc1bb438f2855fcdb3225a01",
+          "existingId": "cached-20210-fadc579e6deca4674505044e",
+          "sameContent": false
+        },
+        {
+          "candidateId": "cached-20210-139b643ce9d2c5778c8c7320",
+          "existingId": "cached-20210-e07701571a511d98176a09c3",
+          "sameContent": false
+        }
+      ],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+export const reviewed = [
+  {
+    "source": {
+      "municipalityCode": "20321",
+      "municipalityName": "軽井沢町",
+      "sourceId": "efd0bc020d12b50dac2cb272",
+      "title": "第6次軽井沢町長期振興計画前期基本計画及び第2期地方創生総合戦略効果検証（令和6年度） [PDFファイル／1.54MB]",
+      "url": "https://www.town.karuizawa.lg.jp/uploaded/attachment/8033.pdf",
+      "sourceSha256": "f373bcd531c1a5eb94e32617225f618910b03cb562a9d54a927ff9c325731b84",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 30863,
+      "fullTextSha256": "7de14739114f0d53233dddef3a5c0eaa5f457b358813a134dcf71831732b146d"
+    },
+    "yearProof": "第６次軽井沢町長期振興計画前期基本計画及び第２期地方創生総合戦略\n\n令和６年度効果検証\n\n令和８年１月\n軽井沢町",
+    "yearProofStart": 0,
+    "rows": [
+      {
+        "name": "軽井沢高校での地域開放講座",
+        "raw": "軽井沢高校での地域開放講座",
+        "start": 690,
+        "proof": "軽井沢高校での地域開放講座の開催回数\n\n推進係\n\n「人権」「表現」「哲学」「価値観」等、それぞれのテーマに対して外部講師から多様な生\n\n100.0%\n\nき方や体験談を聞き、進路選択や課題探究活動への展開の他、多様な人材と触れ合うことで地\n域との繋がりを構築し探究学習を深めた。",
+        "proofStart": 690,
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": 2024,
+        "note": "Named specific grant/event/service inFY2024review. No separate record for each KPI, no numeric values or policy ratings inherited."
+      },
+      {
+        "name": "ペレットストーブ等補助金",
+        "raw": "ペレットストーブ等補助金",
+        "start": 3945,
+        "proof": "ペレットストーブ等補助金交付台数\n\n3\n\n5\n\n6\n\n6\n\n森林資源の利用促進を図るためペレットストーブの設置により資源の有効利用が図られた。",
+        "proofStart": 3945,
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": 2024,
+        "note": "Named specific grant/event/service inFY2024review. No separate record for each KPI, no numeric values or policy ratings inherited."
+      },
+      {
+        "name": "ジュニアスポーツ体験会",
+        "raw": "ジュニアスポーツ体験会",
+        "start": 17728,
+        "proof": "ジュニアスポーツ体験会の参加依頼のほ\nか指導者育成のために研修会の通知を展開する。\n\n４－４\n回\n生涯学習\n生涯にわたって学びと\n\n２．運動やスポーツを\n\nスポーツ\n\n楽しむ機会を増やす\n\n推進係\n\nジュニアスポーツ体験会の開催回数\n\n0\n\n1\n\n1\n\n1\n\n風越公園の無料開放日に合わせ、実施している。町内での催しと重なると来場者減につなが\n\n100.0%\n\nるので、日を見ながら開催したい。令和６年度来場者約2,000人、体験会参加者は158人。",
+        "proofStart": 17728,
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": 2024,
+        "note": "Named specific grant/event/service inFY2024review. No separate record for each KPI, no numeric values or policy ratings inherited."
+      },
+      {
+        "name": "ミニコンサート",
+        "raw": "ミニコンサート",
+        "start": 18266,
+        "proof": "ミニコンサートの開催回数\n\n3\n(2019年)\n\n3\n\n3\n\n3\n\n毎年秋に歴史ある文化施設（ギャラリー蔵、追分宿郷土館、堀辰雄文学記念館）で行われる\n\n100.0%\n\nコンサートの雰囲気を好み楽しみにしている方が大勢いることからも、今後も続けていきた\nい。",
+        "proofStart": 18266,
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": 2024,
+        "note": "Named specific grant/event/service inFY2024review. No separate record for each KPI, no numeric values or policy ratings inherited."
+      },
+      {
+        "name": "姉妹都市国際交流事業",
+        "raw": "姉妹都市国際交流事業",
+        "start": 18906,
+        "proof": "姉妹都市国際交流事業への派遣生徒数\n\n10\n(2019年)\n\n10\n\n2025年(R7)\n\n2026年(R8)\n\n2027年(R9)\n\n達成率\n\n価\n\n10\n\n10\n\n令和６年度は定員10名に対し、応募者11名。年度によっては定員割れの可能性もあるため、\n\n100.0%\n\n周知を徹底したい。",
+        "proofStart": 18906,
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": 2024,
+        "note": "Named specific grant/event/service inFY2024review. No separate record for each KPI, no numeric values or policy ratings inherited."
+      },
+      {
+        "name": "国際交流事業補助",
+        "raw": "国際交流事業補助",
+        "start": 19097,
+        "proof": "国際交流事業補助件数\n\n20\n(2019年)\n\n25\n\n19\n\n30\n\n令和６年度実績は19件と前年度より６件の減少となった。物価高騰による海外渡航費の高騰\n\n63.3%\n\nや、世界情勢によるもの等、様々な理由により減少したものと考えられるが、引き続き制度の\n\n多様な文化への理解と\n\n周知等を行い申請件数の増加を目指す。",
+        "proofStart": 19097,
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": 2024,
+        "note": "Named specific grant/event/service inFY2024review. No separate record for each KPI, no numeric values or policy ratings inherited."
+      },
+      {
+        "name": "住宅耐震診断",
+        "raw": "住宅耐震診断",
+        "start": 6986,
+        "proof": "住宅耐震診断件数\n\n10\n\n4\n\n10\n\n10\n100.0%\n\n昭和56年以前に着工された木造在来工法を対象に行っている。\n令和６年度は申請目標の10件を達成した。",
+        "proofStart": 6986,
+        "evaluationYear": 2026,
+        "evaluatedFiscalYear": 2024,
+        "note": "Named specific grant/event/service inFY2024review. No separate record for each KPI, no numeric values or policy ratings inherited."
+      }
+    ]
+  }
+];

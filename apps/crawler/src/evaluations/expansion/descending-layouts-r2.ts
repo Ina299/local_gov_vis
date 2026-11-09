@@ -1,3 +1,11 @@
+import{reviewOkaya}from'./descending-nagano-okaya';
+import{reviewKoumi}from'./descending-nagano-koumi';
+import{reviewIijima2021Extra}from'./descending-nagano-iijima-2021-extra';
+import{reviewKawakami}from'./descending-nagano-kawakami';
+import{reviewSakuho}from'./descending-nagano-sakuho';
+import{reviewKaruizawa}from'./descending-nagano-karuizawa';
+import{reviewTateshina}from'./descending-nagano-tateshina';
+import{reviewKomagane}from'./descending-nagano-komagane';
 import{reviewIijima2021}from'./descending-nagano-iijima-2021';
 import{reviewIijimaSheets}from'./descending-nagano-iijima-sheet';
 import{reviewTakamori}from'./descending-nagano-takamori';
@@ -94,7 +102,15 @@ export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]
  const shimojoReview=reviewShimojo(input);if(shimojoReview)return shimojoReview;
  const takamoriReview=reviewTakamori(input);if(takamoriReview)return takamoriReview;
  const iijimasheetReview=reviewIijimaSheets(input);if(iijimasheetReview)return iijimasheetReview;
+ const iijima2021extraReview=reviewIijima2021Extra(input);if(iijima2021extraReview){const prior=reviewIijima2021(input,inputs)!;if(prior.status==='source_integrity_hold'||iijima2021extraReview.status==='source_integrity_hold')return {projects:[],units:[],proofs:[],status:'source_integrity_hold',reason:'Both source reviews must pass'};return {...prior,projects:[...prior.projects,...iijima2021extraReview.projects],units:[...prior.units,...iijima2021extraReview.units]};}
  const iijima2021Review=reviewIijima2021(input,inputs);if(iijima2021Review)return iijima2021Review;
+ const komaganeReview=reviewKomagane(input);if(komaganeReview)return komaganeReview;
+ const tateshinaReview=reviewTateshina(input);if(tateshinaReview)return tateshinaReview;
+ const karuizawaReview=reviewKaruizawa(input);if(karuizawaReview)return karuizawaReview;
+ const sakuhoReview=reviewSakuho(input);if(sakuhoReview)return sakuhoReview;
+ const kawakamiReview=reviewKawakami(input);if(kawakamiReview)return kawakamiReview;
+ const koumiReview=reviewKoumi(input);if(koumiReview)return koumiReview;
+ const okayaReview=reviewOkaya(input);if(okayaReview)return okayaReview;
  const grantsReview=reviewNaganoGrants(input);if(grantsReview)return grantsReview;
  const strategyReview=reviewStrategy(input);if(strategyReview)return strategyReview;
  const nagisoReview=reviewNagiso(input);if(nagisoReview)return nagisoReview;

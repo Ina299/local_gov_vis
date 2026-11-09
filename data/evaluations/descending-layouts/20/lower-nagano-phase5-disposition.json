@@ -1,0 +1,98 @@
+[
+  {
+    "source": {
+      "municipalityCode": "20321",
+      "municipalityName": "軽井沢町",
+      "sourceId": "efd0bc020d12b50dac2cb272",
+      "title": "第6次軽井沢町長期振興計画前期基本計画及び第2期地方創生総合戦略効果検証（令和6年度） [PDFファイル／1.54MB]",
+      "url": "https://www.town.karuizawa.lg.jp/uploaded/attachment/8033.pdf",
+      "sourceSha256": "f373bcd531c1a5eb94e32617225f618910b03cb562a9d54a927ff9c325731b84",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 30863,
+      "fullTextSha256": "7de14739114f0d53233dddef3a5c0eaa5f457b358813a134dcf71831732b146d"
+    },
+    "status": "seven_named_activity_candidates",
+    "reason": "Only explicit named activities accepted. Policy/KPI rows andR7+future works not separate implemented projects. Remaining named actions can be reviewed, no fullcoverage claim."
+  },
+  {
+    "source": {
+      "municipalityCode": "20309",
+      "municipalityName": "佐久穂町",
+      "sourceId": "b6849089df802fbd332085ac",
+      "title": "第１期佐久穂町コミュニティ創生戦略 総評価書（令和２年７月）.pdf",
+      "url": "https://www.town.sakuho.nagano.jp/assets/2021/01/20/%E7%AC%AC%EF%BC%91%E6%9C%9F%E4%BD%90%E4%B9%85%E7%A9%82%E7%94%BA%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E5%89%B5%E7%94%9F%E6%88%A6%E7%95%A5%E7%B7%8F%E8%A9%95%E4%BE%A1%E6%9B%B8.pdf",
+      "sourceSha256": "1f337ff9dfa5d7b8b3c79838c5b9a07a8a74adcd2c6d900cc58c43fb3cd12cdc",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 19834,
+      "fullTextSha256": "bf364fa8598b284d68952bacd2c08921237eb1abbbeff74a018ace6ea2aaa98d"
+    },
+    "status": "five_named_activity_candidates",
+    "reason": "FirstphaseFY2015–2019multiyear, report2020only. Institutions/indicators and futurephase plans not individual projects."
+  },
+  {
+    "source": {
+      "municipalityCode": "20305",
+      "municipalityName": "南牧村",
+      "sourceId": "c65f5090cab57778588d6e21",
+      "title": "中山間地域農業直接支払事業中間年評価書",
+      "url": "https://www.pref.nagano.lg.jp/noson/sangyo/nogyo/noson/jigyo/documents/2shiryouhen1.pdf",
+      "sourceSha256": "14a215e0f835a789c4bf74a2b87aba44fad45b115fea3526f9c5dabd78dd68fc",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 47719,
+      "fullTextSha256": "b8e676eb387df2c0667a5b0016e410699b3c945779c87a47c50977e551035d44"
+    },
+    "status": "municipal_period_evidence_hold",
+    "reason": "Prefecture-wide agricultural programme report. 南牧村 row explicit, but no report/evaluationyear in full47719character cache. H22–H26isprogrammeperiod; midpointyear not inferred. Provincial surveytotals not municipal values."
+  },
+  {
+    "source": {
+      "municipalityCode": "20304",
+      "municipalityName": "川上村",
+      "sourceId": "68f3f739dcf92aff77f0feae",
+      "title": "事後評価調書（PDF／294KB）",
+      "url": "https://www.vill.kawakami.nagano.jp/www/contents/1770192337620/simple/jigohyouka.pdf",
+      "sourceSha256": "56abdd38639442411bfe88e3b4d095c65b92c2847090362b3143a4e39d58bad3",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 2091,
+      "fullTextSha256": "c0466834ad2304ca4054ff00e43810a0ce18c8a271272a44c06624df3d27c670"
+    },
+    "status": "one_road_completion_candidate",
+    "reason": "ExplicitFY2024roadcompletion accepted. Forestry is throughFY2023cumulative; smartagri/retail multi-year context lack exact evaluationyear and annualscope."
+  },
+  {
+    "source": {
+      "municipalityCode": "20303",
+      "municipalityName": "小海町",
+      "sourceId": "58f6fa2d807e7f5b6131c1ac",
+      "title": "令和5年度 物価高騰対応重点支援地方創生臨時交付金事業効果等検証結果",
+      "url": "https://www.koumi-town.jp/office2/archives/de6f77643437f627a482f25ce0ea57d65c9cc1fa.pdf",
+      "sourceSha256": "8a8eee410037f11954721adabf04c4544c5b834df738ce1abe4e90b832a0c39b",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 1355,
+      "fullTextSha256": "57eca7e55b83f9cb3769ecb41fdd5c60b76854e7b9abb89bfa674b981af159ae"
+    },
+    "status": "two_actionable_title_reviews_two_period_holds",
+    "reason": "Rows1/3start-end withinFY2023; literal names interrupted by adjacent cells need reviewed fragment mapping. Rows2/10completeApril2024, no unique annual allocation."
+  },
+  {
+    "source": {
+      "municipalityCode": "20303",
+      "municipalityName": "小海町",
+      "sourceId": "67a02a78f35078779e933329",
+      "title": "令和6年度 物価高騰対応重点支援地方創生臨時交付金事業効果等検証結果",
+      "url": "https://www.koumi-town.jp/office2/archives/f9a7cae05c4d67819b9e2a3f03075a66fa3ce10f.pdf",
+      "sourceSha256": "49daa64516eb5a295660e2bc950340d65b1c8b67a81133315ff3ff2d2543c0f1",
+      "listedContinuations": [],
+      "inventoryStatus": "complete_hash_verified",
+      "characters": 647,
+      "fullTextSha256": "a69728732109d7bc93a4bb36caffdc8f09fd2216fc449d075e31cae788f35312"
+    },
+    "status": "mixed_benefit_and_fiscal_year_hold",
+    "reason": "One fundingrow explicitly combinesR5/R6benefits, administrative costs and adjustmentpayment; Feb2024–Mar2025period. Do not create one newFY2024business or split estimates into actuals."
+  }
+]
