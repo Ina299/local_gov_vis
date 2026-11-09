@@ -1,3 +1,4 @@
+import{distinctUonumaHistoricalDepartments}from'./evaluations/expansion/descending-niigata-uonuma-history';
 import {distinctShirakawaDepartmentRows} from './evaluations/expansion/descending-gifu-tail';
 import {distinctUjitawaraSchoolRows} from './evaluations/expansion/descending-kyoto';
 import {distinctSuitaDepartmentRows} from './evaluations/expansion/descending-osaka';
@@ -50,7 +51,7 @@ for(const c of cohort.municipalities){const mr=ei.municipalities.find((x:any)=>x
  for(const p of ps){const ev=[...p.evidence,...p.amounts.map(x=>x.evidence),...p.indicators.map(x=>x.evidence),...p.ratings.map(x=>x.evidence)];let reason='';
  if(p.municipalityCode!==c.municipalityCode)reason='Output attribution differs from cohort municipality';
  for(const e of ev){const src=inputs.find(i=>i.sourceUrl===e.sourceUrl&&i.sourceSha256===e.sha256),m=e.cell?.match(/^extracted-text:chars:(\d+)-(\d+)$/);if(!src||!e.rawText||e.fetchedAt!==src.fetchedAt||(m?src.text.slice(+m[1],+m[2])!==e.rawText:!src.text.includes(e.rawText)))reason='Evidence does not exactly match hash-verified complete source';}
- const dup=seen.find(q=>q.id===p.id||!distinctShirakawaDepartmentRows(q,p)&&!distinctKagawaSchoolSheets(q,p)&&!distinctOkayamaDepartmentRows(q,p)&&!distinctSuitaDepartmentRows(q,p)&&!distinctUjitawaraSchoolRows(q,p)&&(norm(q.projectName)===norm(p.projectName)||(!!q.projectCode&&!!p.projectCode&&norm(q.projectCode)===norm(p.projectCode)))&&(q.evaluatedFiscalYear!==null&&p.evaluatedFiscalYear!==null?q.evaluatedFiscalYear===p.evaluatedFiscalYear:q.evaluationYear!==null&&p.evaluationYear!==null?q.evaluationYear===p.evaluationYear:true));
+ const dup=seen.find(q=>q.id===p.id||!distinctUonumaHistoricalDepartments(q,p)&&!distinctShirakawaDepartmentRows(q,p)&&!distinctKagawaSchoolSheets(q,p)&&!distinctOkayamaDepartmentRows(q,p)&&!distinctSuitaDepartmentRows(q,p)&&!distinctUjitawaraSchoolRows(q,p)&&(norm(q.projectName)===norm(p.projectName)||(!!q.projectCode&&!!p.projectCode&&norm(q.projectCode)===norm(p.projectCode)))&&(q.evaluatedFiscalYear!==null&&p.evaluatedFiscalYear!==null?q.evaluatedFiscalYear===p.evaluatedFiscalYear:q.evaluationYear!==null&&p.evaluationYear!==null?q.evaluationYear===p.evaluationYear:true));
  if(dup){row.duplicates++;duplicates.push({sourceId:input.sourceId,candidateId:p.id,existingId:dup.id,municipalityCode:p.municipalityCode,projectName:p.projectName});continue;}
  if(p.evaluatedFiscalYear===null&&p.evaluationYear===null)reason='No explicit fiscal/evaluation year extracted';
  if(reason){row.held++;held.push({sourceId:input.sourceId,id:p.id,projectName:p.projectName,reason});continue;}

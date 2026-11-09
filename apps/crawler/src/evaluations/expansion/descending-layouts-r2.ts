@@ -1,3 +1,11 @@
+import{reviewSado}from'./descending-niigata-sado';
+import{reviewUonumaHistory}from'./descending-niigata-uonuma-history';
+import{reviewUonumaSummary}from'./descending-niigata-uonuma';
+import{reviewMinamiuonuma}from'./descending-niigata-minamiuonuma';
+import{reviewAga}from'./descending-niigata-aga';
+import{reviewYuzawa2025}from'./descending-niigata-yuzawa';
+import{reviewKariwa}from'./descending-niigata-kariwa';
+import{reviewSekikawa}from'./descending-niigata-sekikawa';
 import{reviewOyabeMissing}from'./descending-toyama-oyabe';
 import{reviewToyamaNamed}from'./descending-toyama-named';
 import{reviewNanao}from'./descending-ishikawa-nanao';
@@ -160,6 +168,14 @@ export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]
  const ishikawananaoReview=reviewNanao(input);if(ishikawananaoReview)return ishikawananaoReview;
  const toyamanamedReview=reviewToyamaNamed(input,inputs);if(toyamanamedReview)return toyamanamedReview;
  const toyamaoyabeReview=reviewOyabeMissing(input,inputs);if(toyamaoyabeReview)return toyamaoyabeReview;
+ const niigatasekikawaReview=reviewSekikawa(input);if(niigatasekikawaReview)return niigatasekikawaReview;
+ const niigatakariwaReview=reviewKariwa(input);if(niigatakariwaReview)return niigatakariwaReview;
+ const niigatayuzawaReview=reviewYuzawa2025(input);if(niigatayuzawaReview)return niigatayuzawaReview;
+ const niigataagaReview=reviewAga(input);if(niigataagaReview)return niigataagaReview;
+ const niigataminamiuonumaReview=reviewMinamiuonuma(input);if(niigataminamiuonumaReview)return niigataminamiuonumaReview;
+ const niigatauonumaReview=reviewUonumaSummary(input);if(niigatauonumaReview)return niigatauonumaReview;
+ const niigatauonuma_historyReview=reviewUonumaHistory(input);if(niigatauonuma_historyReview)return niigatauonuma_historyReview;
+ const niigatasadoReview=reviewSado(input);if(niigatasadoReview)return niigatasadoReview;
  const grantsReview=reviewNaganoGrants(input);if(grantsReview)return grantsReview;
  const strategyReview=reviewStrategy(input);if(strategyReview)return strategyReview;
  const nagisoReview=reviewNagiso(input);if(nagisoReview)return nagisoReview;

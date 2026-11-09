@@ -1,0 +1,230 @@
+{
+  "primaryGeneralRows": 153,
+  "held": [
+    {
+      "row": 34,
+      "raw": "老人クラブ活動費助成",
+      "start": 13237,
+      "reason": "same-title club/association allocation; keep one name only without summing amounts"
+    },
+    {
+      "row": 42,
+      "raw": "軽費老人ホーム建設事業（繰越明許費）【新規】",
+      "start": 13566,
+      "reason": "carryover allocation kept separate; current-year expenditure identity needs reconciliation"
+    },
+    {
+      "row": 63,
+      "raw": "農業集落排水・個別排水事業特別会計繰出金（個別排水処理施設整備事業関連分）",
+      "start": 15365,
+      "reason": "inter-account transfer"
+    },
+    {
+      "row": 67,
+      "raw": "屈折検査機器",
+      "start": 15597,
+      "reason": "equipment item only, no independent programme identity"
+    },
+    {
+      "row": 75,
+      "raw": "労働金庫預託金",
+      "start": 16043,
+      "reason": "financial deposit movement"
+    },
+    {
+      "row": 87,
+      "raw": "農業集落排水・個別排水事業特別会計繰出金",
+      "start": 16612,
+      "reason": "inter-account transfer"
+    },
+    {
+      "row": 89,
+      "raw": "地籍調査業務委託（R5 繰越分） 赤田北方－5 地区 0.45 ㎢",
+      "start": 16853,
+      "reason": "R5carryover, do not combine with current geodesy"
+    },
+    {
+      "row": 99,
+      "raw": "地方産業育成資金",
+      "start": 17537,
+      "reason": "loan sub-account within accepted commerce programme"
+    },
+    {
+      "row": 100,
+      "raw": "産業活性化資金",
+      "start": 17558,
+      "reason": "loan sub-account within accepted commerce programme"
+    },
+    {
+      "row": 101,
+      "raw": "設備近代化資金",
+      "start": 17579,
+      "reason": "loan sub-account within accepted commerce programme"
+    },
+    {
+      "row": 108,
+      "raw": "除雪等委託",
+      "start": 18046,
+      "reason": "component of roads maintenance"
+    },
+    {
+      "row": 109,
+      "raw": "除草等委託",
+      "start": 18088,
+      "reason": "component of roads maintenance"
+    },
+    {
+      "row": 110,
+      "raw": "維持工事",
+      "start": 18113,
+      "reason": "component of roads maintenance"
+    },
+    {
+      "row": 111,
+      "raw": "ロータリ除雪車（2.2ｍ級）【更新】",
+      "start": 18155,
+      "reason": "asset within roads maintenance"
+    },
+    {
+      "row": 113,
+      "raw": "村道土丸新屋敷線・新屋敷西線 道路改良工事",
+      "start": 18203,
+      "reason": "component of roads improvement"
+    },
+    {
+      "row": 114,
+      "raw": "用地買収費（村道新屋敷中線・枯木中沢線）",
+      "start": 18244,
+      "reason": "land acquisition component, not additional programme"
+    },
+    {
+      "row": 115,
+      "raw": "物件補償費（村道土丸新屋敷線・新屋敷西線・村道新屋敷中線・枯木中沢線 ）",
+      "start": 18283,
+      "reason": "compensation component, not additional programme"
+    },
+    {
+      "row": 116,
+      "raw": "河川総務費",
+      "start": 18336,
+      "reason": "account heading; actual sluice contract separately named"
+    },
+    {
+      "row": 118,
+      "raw": "小学校給食調理場備品【更新】",
+      "start": 18950,
+      "reason": "equipment component of school facilities"
+    },
+    {
+      "row": 119,
+      "raw": "中学校給食調理場備品【更新】",
+      "start": 19060,
+      "reason": "equipment component of school facilities"
+    },
+    {
+      "row": 120,
+      "raw": "教育活動",
+      "start": 19108,
+      "reason": "education category, individually named programmes reviewed"
+    },
+    {
+      "row": 121,
+      "raw": "小学校学習指導講師 4 名、指導補助員 4 名の配置",
+      "start": 19117,
+      "reason": "staff count rather than distinct programme name"
+    },
+    {
+      "row": 122,
+      "raw": "中学校学習指導講師 2 名、指導補助員 2 名の配置",
+      "start": 19163,
+      "reason": "staff count rather than distinct programme name"
+    },
+    {
+      "row": 123,
+      "raw": "中学校部活動等指導員 2 名の配置",
+      "start": 19209,
+      "reason": "staff count rather than distinct programme name"
+    },
+    {
+      "row": 124,
+      "raw": "学校司書 1 名、スクール・サポート・スタッフ 1 名の配置（小中学校兼務）",
+      "start": 19243,
+      "reason": "staff count rather than distinct programme name"
+    },
+    {
+      "row": 125,
+      "raw": "外国語指導助手（ALT）1 名の配置",
+      "start": 19298,
+      "reason": "staff count rather than distinct programme name"
+    },
+    {
+      "row": 139,
+      "raw": "ラピカ大規模改修工事（第 3 次）【更新】（継続費 R5 分）",
+      "start": 19840,
+      "reason": "R5continuing allocation; do not mix fiscal periods"
+    },
+    {
+      "row": 140,
+      "raw": "ラピカ大規模改修工事（第 3 次）【更新】（継続費 R6 分）",
+      "start": 19876,
+      "reason": "R6continuing allocation has same renovation identity; pending parent reconciliation"
+    },
+    {
+      "row": 141,
+      "raw": "ラピカ大規模改修工事（第 4 次）【更新】",
+      "start": 19912,
+      "reason": "renovation phase name split by number; separately mapped below"
+    },
+    {
+      "row": 142,
+      "raw": "ラピカ更衣室ロッカー【更新】",
+      "start": 19938,
+      "reason": "locker item within facility operations"
+    },
+    {
+      "row": 146,
+      "raw": "中学校災害復旧工事（R5 繰越分）",
+      "start": 20452,
+      "reason": "R5carryover"
+    },
+    {
+      "row": 147,
+      "raw": "第２体育館災害復旧工事（R5 繰越分）",
+      "start": 20489,
+      "reason": "R5carryover"
+    },
+    {
+      "row": 148,
+      "raw": "基金積立",
+      "start": 20746,
+      "reason": "fund accumulation"
+    },
+    {
+      "row": 149,
+      "raw": "電源立地地域対策交付金事業基金",
+      "start": 20755,
+      "reason": "fund account"
+    },
+    {
+      "row": 150,
+      "raw": "オラレ刈羽基金",
+      "start": 20775,
+      "reason": "fund account"
+    },
+    {
+      "row": 151,
+      "raw": "公共用施設管理運営基金",
+      "start": 20787,
+      "reason": "fund account"
+    },
+    {
+      "row": 152,
+      "raw": "ふるさと応援基金【新規】",
+      "start": 20803,
+      "reason": "fund account"
+    }
+  ],
+  "stageNames": 151,
+  "directAmountProposals": 56,
+  "reviewPending": "Validate each direct amount association; special-account statutory benefits and all secondary cost rows not treated as independent programmes."
+}

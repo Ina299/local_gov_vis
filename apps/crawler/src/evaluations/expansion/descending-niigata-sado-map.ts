@@ -1,0 +1,311 @@
+export const reviewed = [
+  {
+    "municipalityCode": "15224",
+    "municipalityName": "佐渡市",
+    "sourceId": "964e8fc0e9c9d58a7b9d9118",
+    "sourceUrl": "https://www.city.sado.niigata.jp/uploaded/attachment/54286.pdf",
+    "sourceSha256": "d8e397cd64df089fdf049f59dcc66d4d308d5aac126daaad9409c727a6e3d48b",
+    "textSha256": "0cb8a12b0ffeddedcb1140c5a4993e21b34e26ac6f9d6b909a1b335e55c28c89",
+    "yearProof": "令和７年度\n教育に関する事務の管理及び\n執行の状況の点検及び評価\n報告書（令和６年度の事務対象）\n\n令和７年８月\n佐渡市教育委員会",
+    "yearProofStart": 0,
+    "rows": [
+      {
+        "serial": 1,
+        "marker": "①",
+        "name": "総合教育センター事業",
+        "start": 10007,
+        "department": "学校教育課",
+        "departmentStart": 9993,
+        "sheetStart": 9972,
+        "sheetEnd": 12262,
+        "sheetSha256": "050c3ee9046105c79799b7452ef6182ca32544ae3c1e82ff058e79170c5bcd24"
+      },
+      {
+        "serial": 2,
+        "marker": "②",
+        "name": "総合教育センター事業",
+        "start": 12297,
+        "department": "学校教育課",
+        "departmentStart": 12283,
+        "sheetStart": 12262,
+        "sheetEnd": 13476,
+        "sheetSha256": "7acce40349a193576e092a8f8b30f99577abf5c4d6e3ee41c9a6c7d2e89f26c2"
+      },
+      {
+        "serial": 3,
+        "marker": "③",
+        "name": "自校給食・給食センター管理運営事業",
+        "start": 13511,
+        "department": "学校教育課",
+        "departmentStart": 13497,
+        "sheetStart": 13476,
+        "sheetEnd": 14847,
+        "sheetSha256": "667aa173853edb514fa65c19fadcbd41cbabb271945fa3f3daa51d63411134e5"
+      },
+      {
+        "serial": 4,
+        "marker": "④",
+        "name": "特別支援教育推進事業",
+        "start": 14882,
+        "department": "学校教育課",
+        "departmentStart": 14868,
+        "sheetStart": 14847,
+        "sheetEnd": 15996,
+        "sheetSha256": "91b6fd919d6f97c5696c5b7c64857dcb322a310453569a447bead53097cf2bf3"
+      },
+      {
+        "serial": 5,
+        "marker": "⑤",
+        "name": "総合教育センター事業",
+        "start": 16031,
+        "department": "学校教育課",
+        "departmentStart": 16017,
+        "sheetStart": 15996,
+        "sheetEnd": 16888,
+        "sheetSha256": "98e121a7c5849cf84eaa53beaba96b827d986e8940b2a796c14c308bec7f043a"
+      },
+      {
+        "serial": 6,
+        "marker": "⑥",
+        "name": "総合学習支援事業",
+        "start": 16923,
+        "department": "学校教育課",
+        "departmentStart": 16909,
+        "sheetStart": 16888,
+        "sheetEnd": 18484,
+        "sheetSha256": "a660ae93f995dfe9fcc1255cfd55ce9e51e330518ae6ff20304fb7802f76f49f"
+      },
+      {
+        "serial": 7,
+        "marker": "⑦",
+        "name": "国際教育ＡＬＴ事業",
+        "start": 18519,
+        "department": "学校教育課",
+        "departmentStart": 18505,
+        "sheetStart": 18484,
+        "sheetEnd": 19748,
+        "sheetSha256": "88dd4f8764497ecb85fc0037e65d0501b27bf45b3bdfac41d4e506554edd2fde"
+      },
+      {
+        "serial": 8,
+        "marker": "⑧",
+        "name": "学校ＩＣＴ推進事業",
+        "start": 19783,
+        "department": "学校教育課",
+        "departmentStart": 19769,
+        "sheetStart": 19748,
+        "sheetEnd": 20723,
+        "sheetSha256": "5208ac10a957226baa8d4e37180ead33ad6705d81e3cb7b36aa40f4ae672482b"
+      },
+      {
+        "serial": 9,
+        "marker": "⑨",
+        "name": "地域ぐるみの学校安全体制整備促進事業",
+        "start": 20758,
+        "department": "学校教育課",
+        "departmentStart": 20744,
+        "sheetStart": 20723,
+        "sheetEnd": 21587,
+        "sheetSha256": "88d2a72c880f23d7ca7afdf9618fbab1a7d150be51da9aa92a1b20b908367948"
+      },
+      {
+        "serial": 10,
+        "marker": "⑩",
+        "name": "心の教育支援事業",
+        "start": 21622,
+        "department": "学校教育課",
+        "departmentStart": 21608,
+        "sheetStart": 21587,
+        "sheetEnd": 23691,
+        "sheetSha256": "03531f9d8ff94c6bfacfc0f16e204baad669ecd083e3f47128e513eca7605379"
+      },
+      {
+        "serial": 11,
+        "marker": "⑪",
+        "name": "総合教育センター事業",
+        "start": 23726,
+        "department": "学校教育課",
+        "departmentStart": 23712,
+        "sheetStart": 23691,
+        "sheetEnd": 24545,
+        "sheetSha256": "10faa5fe38b18604989c16b9a8f75919f0c31d4bef8e7182f9d074019b501d1c"
+      },
+      {
+        "serial": 12,
+        "marker": "⑫",
+        "name": "市立学校等人材育成事業",
+        "start": 24580,
+        "department": "学校教育課",
+        "departmentStart": 24566,
+        "sheetStart": 24545,
+        "sheetEnd": 25728,
+        "sheetSha256": "44af9fe7b03339109574719b6157b3334c3f4091a15c48bca8648b6047e7eda3"
+      },
+      {
+        "serial": 13,
+        "marker": "⑬",
+        "name": "生涯学習事業",
+        "start": 25763,
+        "department": "社会教育課",
+        "departmentStart": 25749,
+        "sheetStart": 25728,
+        "sheetEnd": 27213,
+        "sheetSha256": "da634ff85a6b761b654168931eff7f2200d9cdfdf65706806229f0ca19b66372"
+      },
+      {
+        "serial": 14,
+        "marker": "⑭",
+        "name": "公民館活動推進事業",
+        "start": 27248,
+        "department": "社会教育課",
+        "departmentStart": 27234,
+        "sheetStart": 27213,
+        "sheetEnd": 28552,
+        "sheetSha256": "2f8223f3f56e8350331e08da65a626dce82f3f57af3e5f3fdd60d87a3e195b9e"
+      },
+      {
+        "serial": 15,
+        "marker": "⑮",
+        "name": "スポーツ推進事業",
+        "start": 28587,
+        "department": "社会教育課",
+        "departmentStart": 28573,
+        "sheetStart": 28552,
+        "sheetEnd": 30613,
+        "sheetSha256": "db27d3c9fc7e551b142f2c34755903d35f01cf70c354ff7a03cd5024c2ec8805"
+      },
+      {
+        "serial": 16,
+        "marker": "⑯",
+        "name": "読書推進事業",
+        "start": 30648,
+        "department": "社会教育課",
+        "departmentStart": 30634,
+        "sheetStart": 30613,
+        "sheetEnd": 32587,
+        "sheetSha256": "0a70a5a50ee8e00fd0961a4972df77f7d19ed367eda1ae9586536258d8dfb28c"
+      },
+      {
+        "serial": 17,
+        "marker": "⑰",
+        "name": "博物館・資料館管理運営事業",
+        "start": 32622,
+        "department": "社会教育課",
+        "departmentStart": 32608,
+        "sheetStart": 32587,
+        "sheetEnd": 34115,
+        "sheetSha256": "e89ce8e275f2efbe89c551662677e0e558861d81a059f38b89b853d00d677d08"
+      },
+      {
+        "serial": 18,
+        "marker": "⑱",
+        "name": "世界遺産登録推進事業",
+        "start": 34152,
+        "department": "世界遺産推進課",
+        "departmentStart": 34136,
+        "sheetStart": 34115,
+        "sheetEnd": 35873,
+        "sheetSha256": "cd9070308beac7714fd4d6738d7c12c2551f958374b436d7bb2544ce9dce9030"
+      },
+      {
+        "serial": 19,
+        "marker": "⑲",
+        "name": "ジオパーク推進事業",
+        "start": 35908,
+        "department": "社会教育課",
+        "departmentStart": 35894,
+        "sheetStart": 35873,
+        "sheetEnd": 37855,
+        "sheetSha256": "58d3a21fbceec5ebf20b26e94a470be711834bdc0e916e5a68e49a82864df6d1"
+      },
+      {
+        "serial": 20,
+        "marker": "⑳",
+        "name": "埋蔵文化財調査保存事業",
+        "start": 37892,
+        "department": "世界遺産推進課",
+        "departmentStart": 37876,
+        "sheetStart": 37855,
+        "sheetEnd": 38689,
+        "sheetSha256": "806c6bcfb58e9a6f2665857883168dfaa91b5bf7c092bb33f1ea29081779bf60"
+      },
+      {
+        "serial": 21,
+        "marker": "㉑",
+        "name": "有形文化財保存活用事業",
+        "start": 38726,
+        "department": "世界遺産推進課",
+        "departmentStart": 38710,
+        "sheetStart": 38689,
+        "sheetEnd": 39689,
+        "sheetSha256": "1270da7a88ff4d5cdfd59b75ac786fd2381714a660fc29e63813986a91ea5b17"
+      },
+      {
+        "serial": 22,
+        "marker": "㉒",
+        "name": "芸術事業",
+        "start": 39724,
+        "department": "社会教育課",
+        "departmentStart": 39710,
+        "sheetStart": 39689,
+        "sheetEnd": 41195,
+        "sheetSha256": "88545f2e249c3a39930bf06de8f94ebb40abb7f7c67abcaa81a4c66e3fb7747f"
+      },
+      {
+        "serial": 23,
+        "marker": "㉓",
+        "name": "佐渡学推進事業",
+        "start": 41230,
+        "department": "社会教育課",
+        "departmentStart": 41216,
+        "sheetStart": 41195,
+        "sheetEnd": 43312,
+        "sheetSha256": "c4ba8ae90bfad437a955afcc8a5a04686cff9e538d0e3c5f1a91821203d39f95"
+      },
+      {
+        "serial": 24,
+        "marker": "㉔",
+        "name": "青少年育成活動事業",
+        "start": 43347,
+        "department": "社会教育課",
+        "departmentStart": 43333,
+        "sheetStart": 43312,
+        "sheetEnd": 44881,
+        "sheetSha256": "7d1202e40f33ad781841233d8090cb91ba512207d5f7c3b4ba371387dc148ad8"
+      },
+      {
+        "serial": 25,
+        "marker": "㉕",
+        "name": "学校教育振興事業",
+        "start": 44922,
+        "department": "学校教育課・社会教育課",
+        "departmentStart": 44902,
+        "sheetStart": 44881,
+        "sheetEnd": 46241,
+        "sheetSha256": "fd743be18464f0c79667099e18ad64ad137bfa82c5c637907e4d6584bde9d1d5"
+      },
+      {
+        "serial": 26,
+        "marker": "㉖",
+        "name": "学校・家庭・地域の連携促進事業",
+        "start": 46276,
+        "department": "社会教育課",
+        "departmentStart": 46262,
+        "sheetStart": 46241,
+        "sheetEnd": 48215,
+        "sheetSha256": "aae7060e62e6902db78a729349e1ebd267ca6bda8428bb6630fbe136b2c96302"
+      },
+      {
+        "serial": 27,
+        "marker": "㉗",
+        "name": "児童援助事業・生徒援助事業",
+        "start": 48250,
+        "department": "教育総務課",
+        "departmentStart": 48236,
+        "sheetStart": 48215,
+        "sheetEnd": 53370,
+        "sheetSha256": "cdd98506f3aacbd2bb16ebb357155741d8a3ff8b684fb862ad612d3b0da7b793"
+      }
+    ]
+  }
+];

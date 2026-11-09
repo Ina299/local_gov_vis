@@ -1,0 +1,4191 @@
+export const reviewed = [
+  {
+    "municipalityCode": "15461",
+    "municipalityName": "湯沢町",
+    "sourceId": "0cd15a56c5a9e67309ee3550",
+    "sourceUrl": "https://www.town.yuzawa.lg.jp/material/files/group/9/R7hyoukakijunn.pdf",
+    "sourceSha256": "c7bca06aa2da9279aa7fabd53c39c735e9775435a3e8a73d49f2a492eda453b8",
+    "textSha256": "42c78ed78f0d3ec9cab36114c181ce5ca2b424ae1735db2e5fb7ef7557d99d89",
+    "evaluationYear": 2025,
+    "yearProof": "令和7年度 事務事業評価 評価結果一覧",
+    "yearProofStart": 0,
+    "rows": [
+      {
+        "name": "湯沢高原ロープウェイ関連施設整備",
+        "code": "37",
+        "serial": 1,
+        "codeStart": 334,
+        "codeRaw": "1 まちづくり 37 ウェイ関連施設整 財課 財係 事業 重要 渉中。R7年度中には方向性を 指標 達成 継続 継続 渉中。R7年度中には方向性を 継続",
+        "segments": [
+          {
+            "raw": "湯沢高原ロープ",
+            "start": 278
+          },
+          {
+            "raw": "ウェイ関連施設整",
+            "start": 345
+          },
+          {
+            "raw": "備",
+            "start": 411
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 278,
+        "context": "湯沢高原ロープ する方向で、現在の契約者と交 する方向で、現在の契約者と交\n防災管 防災管 政策的 成果 概ね\n1 まちづくり 37 ウェイ関連施設整 財課 財係 事業 重要 渉中。R7年度中には方向性を 指標 達成 継続 継続 渉中。R7年度中には方向性を 継続\n備"
+      },
+      {
+        "name": "観光施設整備",
+        "code": "100",
+        "serial": 2,
+        "codeStart": 700,
+        "codeRaw": "2 100 観光施設整備 重要",
+        "segments": [
+          {
+            "raw": "観光施設整備",
+            "start": 706
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 700,
+        "context": "2 100 観光施設整備 重要"
+      },
+      {
+        "name": "湯沢町観光まちづくり機構運営支援補助金",
+        "code": "101",
+        "serial": 3,
+        "codeStart": 1022,
+        "codeRaw": "3 101 づくり機構運営 通常 廃止 縮小",
+        "segments": [
+          {
+            "raw": "湯沢町観光まち",
+            "start": 968
+          },
+          {
+            "raw": "づくり機構運営",
+            "start": 1028
+          },
+          {
+            "raw": "支援補助金",
+            "start": 1073
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 968,
+        "context": "湯沢町観光まち 強化のため行政の立場から連\n改善 携を図っていくこと。\n企画観 観光商 政策的 成果 概ね\n3 101 づくり機構運営 通常 廃止 縮小\n光課 工係 事業 指標 達成 予算要求の際には、計画を\n支援補助金"
+      },
+      {
+        "name": "雪国観光圏事業負担金",
+        "code": "108",
+        "serial": 4,
+        "codeStart": 1430,
+        "codeRaw": "4 108 重要 達成 継続",
+        "segments": [
+          {
+            "raw": "雪国観光圏事業",
+            "start": 1371
+          },
+          {
+            "raw": "負担金",
+            "start": 1445
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 1371,
+        "context": "雪国観光圏事業\n廃止 ンドコンセプトなどを明確にし 継続 いくべきであり、４期終了時点\n企画観 観光商 政策的 成果\n4 108 重要 達成 継続\n負担金"
+      },
+      {
+        "name": "宿泊・消費支出額・満足度調査",
+        "code": "111",
+        "serial": 5,
+        "codeStart": 1695,
+        "codeRaw": "5 111 重要 達成 継続 しない 来通り、評価しなくてよいと考",
+        "segments": [
+          {
+            "raw": "宿泊・消費支出",
+            "start": 1666
+          },
+          {
+            "raw": "額・満足度調査",
+            "start": 1729
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 1666,
+        "context": "宿泊・消費支出 企画観 観光商 政策的 活動 評価 評価\n5 111 重要 達成 継続 しない 来通り、評価しなくてよいと考\n額・満足度調査"
+      },
+      {
+        "name": "みつまた親水公園整備",
+        "code": "208",
+        "serial": 6,
+        "codeStart": 1846,
+        "codeRaw": "6 208 建設課 域振興 重要 完了 完了",
+        "segments": [
+          {
+            "raw": "みつまた親水公",
+            "start": 1810
+          },
+          {
+            "raw": "園整備",
+            "start": 1869
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 1810,
+        "context": "みつまた親水公 政策的 策（観光の振興）につながる本 成果 判定 目標\n6 208 建設課 域振興 重要 完了 完了\n園整備"
+      },
+      {
+        "name": "ランニングイベント事業支援補助金",
+        "code": "210",
+        "serial": 7,
+        "codeStart": 2265,
+        "codeRaw": "7 210 ト事業支援補助 光課 工係 事業",
+        "segments": [
+          {
+            "raw": "ランニングイベン",
+            "start": 2221
+          },
+          {
+            "raw": "ト事業支援補助",
+            "start": 2271
+          },
+          {
+            "raw": "金",
+            "start": 2325
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 2221,
+        "context": "ランニングイベン あれば、ランニングに限らず対\n企画観 観光商 政策的 成果 事業内容\n7 210 ト事業支援補助 光課 工係 事業\n重要 指標\n未達成\nに課題\n代替 代替 象を広げることも検討するこ 代替\n金"
+      },
+      {
+        "name": "共同浴場指定管理",
+        "code": "504",
+        "serial": 8,
+        "codeStart": 2604,
+        "codeRaw": "8 504 理事業 重要",
+        "segments": [
+          {
+            "raw": "共同浴場指定管",
+            "start": 2538
+          },
+          {
+            "raw": "理",
+            "start": 2617
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 2538,
+        "context": "共同浴場指定管 施設管\n目標 目標\n膨らむ一方で、R6年度の指定 目標\nである令和11年度までに、廃止\n環境農 環境施 成果 判定\n8 504 理事業 重要\n理"
+      },
+      {
+        "name": "大源太キャニオン青少年旅行村指定管理",
+        "code": "505",
+        "serial": 9,
+        "codeStart": 2995,
+        "codeRaw": "9 505 青少年旅行村指 理事業 重要",
+        "segments": [
+          {
+            "raw": "大源太キャニオン",
+            "start": 2911
+          },
+          {
+            "raw": "青少年旅行村指",
+            "start": 3001
+          },
+          {
+            "raw": "定管理",
+            "start": 3054
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 2911,
+        "context": "大源太キャニオン 域住民福祉の向上に資するた 渡等の方向性を決定する必要\n施設管\n環境農 環境施 成果 判定 目標 目標 め設置するとある。施設の老朽 目標 がある。\n9 505 青少年旅行村指 理事業 重要\n林課 設係\n等\n指標 不能 修正 修正 化が著しく、修繕費用は膨らむ 修正\n定管理"
+      },
+      {
+        "name": "山鳥原公園指定管理",
+        "code": "506",
+        "serial": 10,
+        "codeStart": 3343,
+        "codeRaw": "10 506 理事業 重要 未達成 もあり、真に継続が必要な業務",
+        "segments": [
+          {
+            "raw": "山鳥原公園指定",
+            "start": 3310
+          },
+          {
+            "raw": "管理",
+            "start": 3376
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 3310,
+        "context": "山鳥原公園指定 環境農 環境施 成果 目標が不 目標 目標 目標\n10 506 理事業 重要 未達成 もあり、真に継続が必要な業務\n管理"
+      },
+      {
+        "name": "道の駅「みつまた」指定管理",
+        "code": "507",
+        "serial": 11,
+        "codeStart": 3812,
+        "codeRaw": "11 507 建設課 域振興 理事業 重要",
+        "segments": [
+          {
+            "raw": "道の駅「みつま",
+            "start": 3774
+          },
+          {
+            "raw": "た」指定管理",
+            "start": 3834
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 3774,
+        "context": "道の駅「みつま 成果 判定 目標 目標 地域情報・観光情報の発信と交 目標\n11 507 建設課 域振興 理事業 重要\nた」指定管理"
+      },
+      {
+        "name": "資格取得の支援",
+        "code": "106",
+        "serial": 12,
+        "codeStart": 4075,
+        "codeRaw": "12 106 資格取得の支援 重要 る支援は必要。 完了 継続 る支援は必要。 補助金を支出した対象事業者",
+        "segments": [
+          {
+            "raw": "資格取得の支援",
+            "start": 4082
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 4075,
+        "context": "12 106 資格取得の支援 重要 る支援は必要。 完了 継続 る支援は必要。 補助金を支出した対象事業者"
+      },
+      {
+        "name": "信用保証料補給及び利子補給",
+        "code": "107",
+        "serial": 13,
+        "codeStart": 4338,
+        "codeRaw": "13 107 重要",
+        "segments": [
+          {
+            "raw": "信用保証料補給",
+            "start": 4289
+          },
+          {
+            "raw": "及び利子補給",
+            "start": 4348
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 4289,
+        "context": "信用保証料補給 企画観 観光商 政策的 活動 判定 目標 目標 県が米国関税対策の県制度融 目標\n13 107 重要\n及び利子補給"
+      },
+      {
+        "name": "働き方改革の推進",
+        "code": "110",
+        "serial": 14,
+        "codeStart": 4552,
+        "codeRaw": "14 110 重要 として、継続する必要がある。 達成 継続 継続 として、継続する必要がある。 しない",
+        "segments": [
+          {
+            "raw": "働き方改革の推",
+            "start": 4496
+          },
+          {
+            "raw": "進",
+            "start": 4605
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 4496,
+        "context": "働き方改革の推 企画観 観光商 政策的 ならない。そのための意識啓発 成果 ならない。そのための意識啓発 評価\n14 110 重要 として、継続する必要がある。 達成 継続 継続 として、継続する必要がある。 しない\n進"
+      },
+      {
+        "name": "商工振興事業支援補助金",
+        "code": "112",
+        "serial": 15,
+        "codeStart": 4808,
+        "codeRaw": "15 112 重要 い。 継続 縮小 ことから、補助金を縮小してよ 縮小 継続",
+        "segments": [
+          {
+            "raw": "商工振興事業支",
+            "start": 4739
+          },
+          {
+            "raw": "援補助金",
+            "start": 4848
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 4739,
+        "context": "商工振興事業支 企画観 観光商 政策的 安定を図るために必要性が高 成果 概ね 体の事業の縮小が進んでいる 等の実態に合わせて判断する。\n15 112 重要 い。 継続 縮小 ことから、補助金を縮小してよ 縮小 継続\n援補助金"
+      },
+      {
+        "name": "地域おこし協力隊",
+        "code": "115",
+        "serial": 16,
+        "codeStart": 4975,
+        "codeRaw": "16 115 企画係 重要 達成 継続 継続 募集窓口との情報連携を密に 継続",
+        "segments": [
+          {
+            "raw": "地域おこし協力",
+            "start": 4956
+          },
+          {
+            "raw": "隊",
+            "start": 5015
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 4956,
+        "context": "地域おこし協力 企画観 政策的 成果\n16 115 企画係 重要 達成 継続 継続 募集窓口との情報連携を密に 継続\n隊"
+      },
+      {
+        "name": "事業承継",
+        "code": "181",
+        "serial": 17,
+        "codeStart": 5145,
+        "codeRaw": "17 181 事業承継 重要 達成 継続 継続",
+        "segments": [
+          {
+            "raw": "事業承継",
+            "start": 5152
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 5145,
+        "context": "17 181 事業承継 重要 達成 継続 継続"
+      },
+      {
+        "name": "デジタル技術を活用した労働環境提供・効率化",
+        "code": "204",
+        "serial": 18,
+        "codeStart": 5264,
+        "codeRaw": "18 204 活用した労働環 光課 工係 事業",
+        "segments": [
+          {
+            "raw": "デジタル技術を",
+            "start": 5212
+          },
+          {
+            "raw": "活用した労働環",
+            "start": 5271
+          },
+          {
+            "raw": "境提供・効率化",
+            "start": 5306
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 5212,
+        "context": "デジタル技術を つつあり、労働力不足及び事業\n企画観 観光商 政策的 者の生産性向上に資する事業 成果\n18 204 活用した労働環 光課 工係 事業\n重要 指標\n達成 継続 継続 継続\n境提供・効率化"
+      },
+      {
+        "name": "経営所得安定対策推進事業",
+        "code": "83",
+        "serial": 19,
+        "codeStart": 5590,
+        "codeRaw": "19 わいのある 83 農林係 重要 達成 継続 継続 しない 要。",
+        "segments": [
+          {
+            "raw": "経営所得安定対",
+            "start": 5554
+          },
+          {
+            "raw": "策推進事業",
+            "start": 5625
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 5554,
+        "context": "経営所得安定対 環境農 準義務 活動 評価 事業であり少額のため評価不\n19 わいのある 83 農林係 重要 達成 継続 継続 しない 要。\n策推進事業"
+      },
+      {
+        "name": "多面的機能支払交付金",
+        "code": "84",
+        "serial": 20,
+        "codeStart": 5675,
+        "codeRaw": "20 84 農林係 重要 達成 継続 継続 継続",
+        "segments": [
+          {
+            "raw": "多面的機能支払",
+            "start": 5656
+          },
+          {
+            "raw": "交付金",
+            "start": 5700
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 5656,
+        "context": "多面的機能支払 環境農 準義務 活動\n20 84 農林係 重要 達成 継続 継続 継続\n交付金"
+      },
+      {
+        "name": "中山間地域直接支払交付金",
+        "code": "85",
+        "serial": 21,
+        "codeStart": 5742,
+        "codeRaw": "21 85 農林係 重要 達成 継続 継続 継続",
+        "segments": [
+          {
+            "raw": "中山間地域直接",
+            "start": 5723
+          },
+          {
+            "raw": "支払交付金",
+            "start": 5767
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 5723,
+        "context": "中山間地域直接 環境農 準義務 活動\n21 85 農林係 重要 達成 継続 継続 継続\n支払交付金"
+      },
+      {
+        "name": "農地中間管理事業",
+        "code": "89",
+        "serial": 22,
+        "codeStart": 5877,
+        "codeRaw": "22 89 農林係 重要 高いため。 達成 継続",
+        "segments": [
+          {
+            "raw": "農地中間管理事",
+            "start": 5824
+          },
+          {
+            "raw": "業",
+            "start": 5902
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 5824,
+        "context": "農地中間管理事 環境農 標準的 廃止は現実的でなく重要性が 活動 評価 評価 ているだけで町の事務事業と\n22 89 農林係 重要 高いため。 達成 継続\n業"
+      },
+      {
+        "name": "人・農地プラン",
+        "code": "91",
+        "serial": 23,
+        "codeStart": 5991,
+        "codeRaw": "23 91 人・農地プラン 農林係 重要 達成 継続 継続 成果指標に基づき今後も評価",
+        "segments": [
+          {
+            "raw": "人・農地プラン",
+            "start": 5997
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 5991,
+        "context": "23 91 人・農地プラン 農林係 重要 達成 継続 継続 成果指標に基づき今後も評価"
+      },
+      {
+        "name": "有害鳥獣による農作物等被害防止対策",
+        "code": "93",
+        "serial": 24,
+        "codeStart": 6140,
+        "codeRaw": "24 93 農作物等被害防 農林係 重要 継続",
+        "segments": [
+          {
+            "raw": "有害鳥獣による",
+            "start": 6082
+          },
+          {
+            "raw": "農作物等被害防",
+            "start": 6146
+          },
+          {
+            "raw": "止対策",
+            "start": 6198
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 6082,
+        "context": "有害鳥獣による いるので修正すること（成果指\n環境農 準義務 成果 判定 目標 目標 標を農作物被害額にすべき。）\n24 93 農作物等被害防 農林係 重要 継続\n林課 的事業 指標 不能 修正 修正 その上で、成果指標にて達成率\n止対策"
+      },
+      {
+        "name": "水田基盤等整備事業",
+        "code": "95",
+        "serial": 25,
+        "codeStart": 6314,
+        "codeRaw": "25 95 農林係 重要 達成 継続 継続 の受け手を確保し、耕作放棄地 継続",
+        "segments": [
+          {
+            "raw": "水田基盤等整備",
+            "start": 6280
+          },
+          {
+            "raw": "事業",
+            "start": 6354
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 6280,
+        "context": "水田基盤等整備 環境農 政策的 に、耕作放棄地に繋がってしま 活動\n25 95 農林係 重要 達成 継続 継続 の受け手を確保し、耕作放棄地 継続\n事業"
+      },
+      {
+        "name": "アグリルック導入",
+        "code": "198",
+        "serial": 26,
+        "codeStart": 6451,
+        "codeRaw": "26 198 アグリルック導入 農林係 重要 る。",
+        "segments": [
+          {
+            "raw": "アグリルック導入",
+            "start": 6458
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 6451,
+        "context": "26 198 アグリルック導入 農林係 重要 る。"
+      },
+      {
+        "name": "起業サポート補助金",
+        "code": "6",
+        "serial": 27,
+        "codeStart": 6583,
+        "codeRaw": "27 進 6 企画係 重要 助金は重要性が高いため。 達成 完了 継続 継続",
+        "segments": [
+          {
+            "raw": "起業サポート補",
+            "start": 6549
+          },
+          {
+            "raw": "助金",
+            "start": 6622
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 6549,
+        "context": "起業サポート補 企画観 政策的 沢町にとって起業を支援する補 成果\n27 進 6 企画係 重要 助金は重要性が高いため。 達成 完了 継続 継続\n助金"
+      },
+      {
+        "name": "企業誘致",
+        "code": "7",
+        "serial": 28,
+        "codeStart": 6695,
+        "codeRaw": "28 7 企業誘致 光課",
+        "segments": [
+          {
+            "raw": "企業誘致",
+            "start": 6700
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 6695,
+        "context": "28 7 企業誘致 光課"
+      },
+      {
+        "name": "う蝕予防事業",
+        "code": "49",
+        "serial": 29,
+        "codeStart": 6880,
+        "codeRaw": "29 ちづくり 49 う蝕予防事業 重要",
+        "segments": [
+          {
+            "raw": "う蝕予防事業",
+            "start": 6891
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 6880,
+        "context": "29 ちづくり 49 う蝕予防事業 重要"
+      },
+      {
+        "name": "介護予防事業",
+        "code": "50",
+        "serial": 30,
+        "codeStart": 7265,
+        "codeRaw": "30 50 介護予防事業 護課 険係 事業",
+        "segments": [
+          {
+            "raw": "介護予防事業",
+            "start": 7271
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 7265,
+        "context": "30 50 介護予防事業 護課 険係 事業"
+      },
+      {
+        "name": "後期高齢者健康診査",
+        "code": "51",
+        "serial": 31,
+        "codeStart": 7458,
+        "codeRaw": "31 51 重要 継続",
+        "segments": [
+          {
+            "raw": "後期高齢者健康",
+            "start": 7398
+          },
+          {
+            "raw": "診査",
+            "start": 7470
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 7398,
+        "context": "後期高齢者健康 健康増 健康増 義務的 成果 概ね 評価 広域連合からの受託事業のた 目標 率を高める目標を設定してい\n31 51 重要 継続\n診査"
+      },
+      {
+        "name": "後期高齢者人間ドック費用助成",
+        "code": "52",
+        "serial": 32,
+        "codeStart": 7616,
+        "codeRaw": "32 52 重要 達成 継続 継続 受診者が増えているため、補助 継続",
+        "segments": [
+          {
+            "raw": "後期高齢者人間",
+            "start": 7593
+          },
+          {
+            "raw": "ドック費用助成",
+            "start": 7652
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 7593,
+        "context": "後期高齢者人間 健康増 健康増 義務的 成果\n32 52 重要 達成 継続 継続 受診者が増えているため、補助 継続\nドック費用助成"
+      },
+      {
+        "name": "自殺対策事業",
+        "code": "53",
+        "serial": 33,
+        "codeStart": 7841,
+        "codeRaw": "33 53 自殺対策事業 重要 未達成",
+        "segments": [
+          {
+            "raw": "自殺対策事業",
+            "start": 7847
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 7841,
+        "context": "33 53 自殺対策事業 重要 未達成"
+      },
+      {
+        "name": "住民検診（健診）",
+        "code": "54",
+        "serial": 34,
+        "codeStart": 8049,
+        "codeRaw": "34 54 住民検診（健診） 重要 継続 継続 る。受診率が一定の水準を維持",
+        "segments": [
+          {
+            "raw": "住民検診（健診）",
+            "start": 8055
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 8049,
+        "context": "34 54 住民検診（健診） 重要 継続 継続 る。受診率が一定の水準を維持"
+      },
+      {
+        "name": "高齢者肺炎球菌ワクチン予防接種事業",
+        "code": "55",
+        "serial": 35,
+        "codeStart": 8195,
+        "codeRaw": "35 55 ワクチン予防接 進課 進係 事業",
+        "segments": [
+          {
+            "raw": "高齢者肺炎球菌",
+            "start": 8154
+          },
+          {
+            "raw": "ワクチン予防接",
+            "start": 8201
+          },
+          {
+            "raw": "種事業",
+            "start": 8250
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 8154,
+        "context": "高齢者肺炎球菌 う。もしくは、法定事項のため\n健康増 健康増 義務的 成果 概ね\n35 55 ワクチン予防接 進課 進係 事業\n重要 指標 達成 継続 統廃合 「評価しない」とする。 統廃合\n種事業"
+      },
+      {
+        "name": "糖尿病予防対策のための二次検診事業",
+        "code": "56",
+        "serial": 36,
+        "codeStart": 8338,
+        "codeRaw": "36 56 のための二次検 進課 進係 事業",
+        "segments": [
+          {
+            "raw": "糖尿病予防対策",
+            "start": 8282
+          },
+          {
+            "raw": "のための二次検",
+            "start": 8344
+          },
+          {
+            "raw": "診事業",
+            "start": 8408
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 8282,
+        "context": "糖尿病予防対策\n健康増 健康増 義務的 成果 評価 ため評価に値しないと判断し、 期発見を謳っており、引き続き\n36 56 のための二次検 進課 進係 事業\n重要 指標\n達成 継続 しない 次年度から評価を行わない。 継続 事業が十分に行われているか\n診事業"
+      },
+      {
+        "name": "予防接種",
+        "code": "60",
+        "serial": 37,
+        "codeStart": 8588,
+        "codeRaw": "37 60 予防接種 重要 成果指標",
+        "segments": [
+          {
+            "raw": "予防接種",
+            "start": 8594
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 8588,
+        "context": "37 60 予防接種 重要 成果指標"
+      },
+      {
+        "name": "介護人材確保緊急支援事業",
+        "code": "62",
+        "serial": 38,
+        "codeStart": 9110,
+        "codeRaw": "38 62 重要 てもらうと共に、離職を防ぐた 未達成 縮小 継続 る事業である。少額事業でもあ 継続",
+        "segments": [
+          {
+            "raw": "介護人材確保緊",
+            "start": 9082
+          },
+          {
+            "raw": "急支援事業",
+            "start": 9162
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 9082,
+        "context": "介護人材確保緊 福祉介 介護保 政策的 活動 目標値が\n38 62 重要 てもらうと共に、離職を防ぐた 未達成 縮小 継続 る事業である。少額事業でもあ 継続\n急支援事業"
+      },
+      {
+        "name": "緊急通報体制整備",
+        "code": "65",
+        "serial": 39,
+        "codeStart": 9319,
+        "codeRaw": "39 65 福祉係 重要 ある。 継続 継続 連携を図り高齢者の安全・安心 継続",
+        "segments": [
+          {
+            "raw": "緊急通報体制整",
+            "start": 9297
+          },
+          {
+            "raw": "備",
+            "start": 9360
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 9297,
+        "context": "緊急通報体制整 福祉介 標準的 活動 概ね\n39 65 福祉係 重要 ある。 継続 継続 連携を図り高齢者の安全・安心 継続\n備"
+      },
+      {
+        "name": "ひきこもり対策自立支援事業",
+        "code": "177",
+        "serial": 40,
+        "codeStart": 9555,
+        "codeRaw": "40 177 福祉係 重要",
+        "segments": [
+          {
+            "raw": "ひきこもり対策",
+            "start": 9504
+          },
+          {
+            "raw": "自立支援事業",
+            "start": 9569
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 9504,
+        "context": "ひきこもり対策 福祉介 標準的 は高い。 活動 判定 目標 目標 必要。ひきこもりの実態がつか 目標\n40 177 福祉係 重要\n自立支援事業"
+      },
+      {
+        "name": "居宅介護支援事業所処遇改善事業補助金",
+        "code": "194",
+        "serial": 41,
+        "codeStart": 9802,
+        "codeRaw": "41 194 業所処遇改善事 護課 険係 事業",
+        "segments": [
+          {
+            "raw": "居宅介護支援事",
+            "start": 9749
+          },
+          {
+            "raw": "業所処遇改善事",
+            "start": 9809
+          },
+          {
+            "raw": "業補助金",
+            "start": 9874
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 9749,
+        "context": "居宅介護支援事 お、南魚沼市も同様の事業を実 沼市も同様の事業を実施してお\n福祉介 介護保 政策的 活動\n41 194 業所処遇改善事 護課 険係 事業\n重要 施しており、当町が事業を廃止 指標\n達成 完了 継続 り、当町が事業を廃止すると両 継続\n業補助金"
+      },
+      {
+        "name": "認知症総合支援事業",
+        "code": "58",
+        "serial": 42,
+        "codeStart": 10062,
+        "codeRaw": "42 58 重要 達成 継続 継続 普及」、「認知症ケアパスの見直 継続",
+        "segments": [
+          {
+            "raw": "認知症総合支援",
+            "start": 10039
+          },
+          {
+            "raw": "事業",
+            "start": 10099
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 10039,
+        "context": "認知症総合支援 福祉介 介護保 義務的 成果\n42 58 重要 達成 継続 継続 普及」、「認知症ケアパスの見直 継続\n事業"
+      },
+      {
+        "name": "介護保険給付事業",
+        "code": "61",
+        "serial": 43,
+        "codeStart": 10321,
+        "codeRaw": "43 61 重要 継続 しない",
+        "segments": [
+          {
+            "raw": "介護保険給付事",
+            "start": 10274
+          },
+          {
+            "raw": "業",
+            "start": 10337
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 10274,
+        "context": "介護保険給付事 福祉介 介護保 義務的 成果 概ね 評価 る環境を確保しつつ、適切な給 目標\n43 61 重要 継続 しない\n業"
+      },
+      {
+        "name": "新しい介護予防・日常生活支援総合事業（介護予防・生活支援サービス事業分）",
+        "code": "63",
+        "serial": 44,
+        "codeStart": 10483,
+        "codeRaw": "44 63 合事業（介護予 護課 険係 事業",
+        "segments": [
+          {
+            "raw": "新しい介護予防・",
+            "start": 10417
+          },
+          {
+            "raw": "日常生活支援総",
+            "start": 10441
+          },
+          {
+            "raw": "合事業（介護予",
+            "start": 10489
+          },
+          {
+            "raw": "防・生活支援サー",
+            "start": 10544
+          },
+          {
+            "raw": "ビス事業分）",
+            "start": 10561
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 10417,
+        "context": "新しい介護予防・ を継続しつつ、要介護状態への\n日常生活支援総 移行を防ぐために短期集中で\n福祉介 介護保 義務的 活動 執行方法\n44 63 合事業（介護予 護課 険係 事業\n重要 指標\n未達成\nに課題 改善\n改善 取り組む訪問型サービスCの実 改善\n防・生活支援サー 施を検討する。\nビス事業分）"
+      },
+      {
+        "name": "介護用品支給事業",
+        "code": "64",
+        "serial": 45,
+        "codeStart": 10887,
+        "codeRaw": "45 64 福祉係 重要 未達成",
+        "segments": [
+          {
+            "raw": "介護用品支給事",
+            "start": 10863
+          },
+          {
+            "raw": "業",
+            "start": 10932
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 10863,
+        "context": "介護用品支給事 福祉介 準義務 成果 執行方法\n45 64 福祉係 重要 未達成\nに課題 改善\n改善 方に行き届くよう対象者要件の 改善\n業"
+      },
+      {
+        "name": "高齢者世帯等住宅除雪援助",
+        "code": "66",
+        "serial": 46,
+        "codeStart": 11229,
+        "codeRaw": "46 66 福祉係 重要 もある。 継続 継続 が必要。 継続 の要件に見合う形で、効果的な",
+        "segments": [
+          {
+            "raw": "高齢者世帯等住",
+            "start": 11163
+          },
+          {
+            "raw": "宅除雪援助",
+            "start": 11276
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 11163,
+        "context": "高齢者世帯等住 福祉介 標準的 とコストがかかってしまう懸念 活動 概ね 体などを組織できないか検討 あると考えられる。特別交付税\n46 66 福祉係 重要 もある。 継続 継続 が必要。 継続 の要件に見合う形で、効果的な\n宅除雪援助"
+      },
+      {
+        "name": "湯沢町敬老会",
+        "code": "72",
+        "serial": 47,
+        "codeStart": 11680,
+        "codeRaw": "47 72 湯沢町敬老会 護課",
+        "segments": [
+          {
+            "raw": "湯沢町敬老会",
+            "start": 11686
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 11680,
+        "context": "47 72 湯沢町敬老会 護課"
+      },
+      {
+        "name": "老人クラブ活動補助金",
+        "code": "73",
+        "serial": 48,
+        "codeStart": 12082,
+        "codeRaw": "48 73 福祉係 重要 り条件付きで補助額を増額して 活動が活性化されず繰越金が 改善 34,000円の定額支給でなく、",
+        "segments": [
+          {
+            "raw": "老人クラブ活動",
+            "start": 12014
+          },
+          {
+            "raw": "補助金",
+            "start": 12144
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 12014,
+        "context": "老人クラブ活動 福祉介 標準的 強い要望を受け、令和７年度よ 活動 判定 目標 目標 修正し、活動状況で評価する。 あり、問題である。\n48 73 福祉係 重要 り条件付きで補助額を増額して 活動が活性化されず繰越金が 改善 34,000円の定額支給でなく、\n補助金"
+      },
+      {
+        "name": "福祉バス",
+        "code": "74",
+        "serial": 49,
+        "codeStart": 12362,
+        "codeRaw": "49 74 福祉バス 護課",
+        "segments": [
+          {
+            "raw": "福祉バス",
+            "start": 12368
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 12362,
+        "context": "49 74 福祉バス 護課"
+      },
+      {
+        "name": "湯沢町難聴者補聴器購入費助成事業",
+        "code": "178",
+        "serial": 50,
+        "codeStart": 12858,
+        "codeRaw": "50 178 聴器購入費助成 護課",
+        "segments": [
+          {
+            "raw": "湯沢町難聴者補",
+            "start": 12839
+          },
+          {
+            "raw": "聴器購入費助成",
+            "start": 12865
+          },
+          {
+            "raw": "事業",
+            "start": 12880
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 12839,
+        "context": "湯沢町難聴者補\n福祉介 政策的 成果\n50 178 聴器購入費助成 護課\n福祉係\n事業"
+      },
+      {
+        "name": "高齢者の保健事業と介護予防等の一体的実施",
+        "code": "189",
+        "serial": 51,
+        "codeStart": 13016,
+        "codeRaw": "51 189 業と介護予防等 町民課 重要 達成 継続 しない としたい。",
+        "segments": [
+          {
+            "raw": "高齢者の保健事",
+            "start": 12976
+          },
+          {
+            "raw": "業と介護予防等",
+            "start": 13023
+          },
+          {
+            "raw": "の一体的実施",
+            "start": 13068
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 12976,
+        "context": "高齢者の保健事\n国保給 準義務 活動 評価 次年度以降は評価をしないこと 評価\n51 189 業と介護予防等 町民課 重要 達成 継続 しない としたい。\n付係 的事業 指標 しない\nの一体的実施"
+      },
+      {
+        "name": "通所介護サービス利用者送迎事業補助金",
+        "code": "195",
+        "serial": 52,
+        "codeStart": 13197,
+        "codeRaw": "52 195 ス利用者送迎事 護課 険係 事業",
+        "segments": [
+          {
+            "raw": "通所介護サービ",
+            "start": 13144
+          },
+          {
+            "raw": "ス利用者送迎事",
+            "start": 13204
+          },
+          {
+            "raw": "業補助金",
+            "start": 13269
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 13144,
+        "context": "通所介護サービ も関わらず、住んでいる地区に も関わらず、住んでいる地区に\n福祉介 介護保 政策的 成果\n52 195 ス利用者送迎事 護課 険係 事業\n重要 よってサービスが利用できない 指標 達成 完了 継続 よってサービスが利用できない 継続\n業補助金"
+      },
+      {
+        "name": "婚活支援事業",
+        "code": "8",
+        "serial": 53,
+        "codeStart": 13534,
+        "codeRaw": "53 8 婚活支援事業 光課",
+        "segments": [
+          {
+            "raw": "婚活支援事業",
+            "start": 13539
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 13534,
+        "context": "53 8 婚活支援事業 光課"
+      },
+      {
+        "name": "子ども医療費の自己負担無料化",
+        "code": "43",
+        "serial": 54,
+        "codeStart": 13825,
+        "codeRaw": "54 43 町民課 重要 なり、少子化対策にも寄与して 未達成 改善 改善 改善",
+        "segments": [
+          {
+            "raw": "子ども医療費の",
+            "start": 13774
+          },
+          {
+            "raw": "自己負担無料化",
+            "start": 13866
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 13774,
+        "context": "子ども医療費の 国保給 政策的 択してくれる子育て世帯が多く 活動 執行方法 ことを伝えていきたい。\n54 43 町民課 重要 なり、少子化対策にも寄与して 未達成 改善 改善 改善\n自己負担無料化"
+      },
+      {
+        "name": "特定不妊治療費助成",
+        "code": "44",
+        "serial": 55,
+        "codeStart": 14036,
+        "codeRaw": "55 44 町民課 重要 の経済的な負担を取り除くこと 未達成 改善 改善 改善",
+        "segments": [
+          {
+            "raw": "特定不妊治療費",
+            "start": 14012
+          },
+          {
+            "raw": "助成",
+            "start": 14077
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 14012,
+        "context": "特定不妊治療費 国保給 政策的 活動 執行方法\n55 44 町民課 重要 の経済的な負担を取り除くこと 未達成 改善 改善 改善\n助成"
+      },
+      {
+        "name": "妊産婦医療費助成",
+        "code": "45",
+        "serial": 56,
+        "codeStart": 14253,
+        "codeRaw": "56 45 町民課 重要 えでも、標準的に実施していく 達成 継続 継続 環境づくりを継続して行ってい 継続",
+        "segments": [
+          {
+            "raw": "妊産婦医療費助",
+            "start": 14234
+          },
+          {
+            "raw": "成",
+            "start": 14308
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 14234,
+        "context": "妊産婦医療費助 国保給 政策的 活動\n56 45 町民課 重要 えでも、標準的に実施していく 達成 継続 継続 環境づくりを継続して行ってい 継続\n成"
+      },
+      {
+        "name": "妊婦一般健康診査助成",
+        "code": "46",
+        "serial": 57,
+        "codeStart": 14707,
+        "codeRaw": "57 46 町民課 重要 きる環境を整えるうえでも標準 指標 達成 継続 しない",
+        "segments": [
+          {
+            "raw": "妊婦一般健康診",
+            "start": 14685
+          },
+          {
+            "raw": "査助成",
+            "start": 14748
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 14685,
+        "context": "妊婦一般健康診 国保給 標準的 評価 評価\n57 46 町民課 重要 きる環境を整えるうえでも標準 指標 達成 継続 しない\n査助成"
+      },
+      {
+        "name": "すくすく子育て応援金",
+        "code": "47",
+        "serial": 58,
+        "codeStart": 14999,
+        "codeRaw": "58 47 町民課 通常 達成 廃止 廃止 廃止 見直しが必要である。 継続 分を町として応援するものであ",
+        "segments": [
+          {
+            "raw": "すくすく子育て応",
+            "start": 14949
+          },
+          {
+            "raw": "援金",
+            "start": 15053
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 14949,
+        "context": "すくすく子育て応 国保給 政策的 活動 負担の先送りを避けるためには 支援給付金等）では不十分な部\n58 47 町民課 通常 達成 廃止 廃止 廃止 見直しが必要である。 継続 分を町として応援するものであ\n援金"
+      },
+      {
+        "name": "乳幼児健診・新生児訪問指導⇒子育て包括支援事業",
+        "code": "57",
+        "serial": 59,
+        "codeStart": 15264,
+        "codeRaw": "59 57 重要 達成 継続 継続 いる。包括的な子育て支援を切 継続",
+        "segments": [
+          {
+            "raw": "乳幼児健診・新生",
+            "start": 15176
+          },
+          {
+            "raw": "児訪問指導⇒子",
+            "start": 15214
+          },
+          {
+            "raw": "育て包括支援事",
+            "start": 15300
+          },
+          {
+            "raw": "業",
+            "start": 15320
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 15176,
+        "context": "乳幼児健診・新生 各種事業は新潟県全域で同様 謳っており、担当課評価の通り\n児訪問指導⇒子 健康増 健康増 義務的 活動 に実施されている事業となって 引き続き評価すること。\n59 57 重要 達成 継続 継続 いる。包括的な子育て支援を切 継続\n育て包括支援事 進課 進係 事業 指標\n業"
+      },
+      {
+        "name": "一時保育の充実（地域子ども・子育て支援事業再掲）",
+        "code": "164",
+        "serial": 60,
+        "codeStart": 15414,
+        "codeRaw": "60 164 重要 達成 継続 継続 め、継続していきたい。 継続",
+        "segments": [
+          {
+            "raw": "一時保育の充実",
+            "start": 15343
+          },
+          {
+            "raw": "（地域子ども・子",
+            "start": 15375
+          },
+          {
+            "raw": "育て支援事業再",
+            "start": 15448
+          },
+          {
+            "raw": "掲）",
+            "start": 15470
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 15343,
+        "context": "一時保育の充実 子育てをしている保護者を支援 担当課評価の通り\n（地域子ども・子 子育て 子育て 義務的 成果 するために必要な事業であるた\n60 164 重要 達成 継続 継続 め、継続していきたい。 継続\n育て支援事業再 支援課 支援係 事業 指標\n掲）"
+      },
+      {
+        "name": "児童遊園",
+        "code": "165",
+        "serial": 61,
+        "codeStart": 15497,
+        "codeRaw": "61 165 児童遊園 支援課 支援係 的事業",
+        "segments": [
+          {
+            "raw": "児童遊園",
+            "start": 15504
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 15497,
+        "context": "61 165 児童遊園 支援課 支援係 的事業"
+      },
+      {
+        "name": "地域子ども・子育て支援事業（総合子育て支援センター事業）",
+        "code": "167",
+        "serial": 62,
+        "codeStart": 15611,
+        "codeRaw": "62 167 重要 達成 継続 継続 となり育児支援につながるので 継続",
+        "segments": [
+          {
+            "raw": "地域子ども・子育",
+            "start": 15563
+          },
+          {
+            "raw": "て支援事業（総合",
+            "start": 15587
+          },
+          {
+            "raw": "子育て支援セン",
+            "start": 15648
+          },
+          {
+            "raw": "ター事業）",
+            "start": 15681
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 15563,
+        "context": "地域子ども・子育 で親子の交流の場や、相談の場\nて支援事業（総合 子育て 子育て 準義務 成果\n62 167 重要 達成 継続 継続 となり育児支援につながるので 継続\n子育て支援セン 支援課 支援係 的事業 指標\n継続していきたい。\nター事業）"
+      },
+      {
+        "name": "ファミリーサポートセンター利用支援（地域子ども・子育て事業再掲）",
+        "code": "168",
+        "serial": 63,
+        "codeStart": 15774,
+        "codeRaw": "63 168 重要 達成 継続 継続 要とする家庭に支援が届くよう 継続",
+        "segments": [
+          {
+            "raw": "ファミリーサポー",
+            "start": 15711
+          },
+          {
+            "raw": "トセンター利用支",
+            "start": 15735
+          },
+          {
+            "raw": "援（地域子ども・",
+            "start": 15811
+          },
+          {
+            "raw": "子育て事業再掲）",
+            "start": 15835
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 15711,
+        "context": "ファミリーサポー て世代には必要な事業である。\nトセンター利用支 子育て 子育て 準義務 活動 会員の経済的不安を軽減し、必\n63 168 重要 達成 継続 継続 要とする家庭に支援が届くよう 継続\n援（地域子ども・ 支援課 支援係 的事業 指標\n子育て事業再掲）"
+      },
+      {
+        "name": "妊娠・出産包括支援事業",
+        "code": "176",
+        "serial": 64,
+        "codeStart": 16002,
+        "codeRaw": "64 176 重要 湯沢町総合計画にも掲げてい 継続 継続 継続",
+        "segments": [
+          {
+            "raw": "妊娠・出産包括支",
+            "start": 15975
+          },
+          {
+            "raw": "援事業",
+            "start": 16035
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 15975,
+        "context": "妊娠・出産包括支 健康増 健康増 標準的 成果 概ね\n64 176 重要 湯沢町総合計画にも掲げてい 継続 継続 継続\n援事業"
+      },
+      {
+        "name": "電子母子健康手帳アプリ母子モによる子育て情報配信事業",
+        "code": "183",
+        "serial": 65,
+        "codeStart": 16476,
+        "codeRaw": "65 183 重要 イムリーに子育て世帯に配信 完了 継続 身近な子育て情報を配信し、町 継続",
+        "segments": [
+          {
+            "raw": "電子母子健康手",
+            "start": 16415
+          },
+          {
+            "raw": "帳アプリ母子モ",
+            "start": 16450
+          },
+          {
+            "raw": "による子育て情",
+            "start": 16524
+          },
+          {
+            "raw": "報配信事業",
+            "start": 16579
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 16415,
+        "context": "電子母子健康手 育て支援に関する情報などをタ 判例結果は馴染まない。\n帳アプリ母子モ 子育て 子育て 政策的 活動 概ね\n65 183 重要 イムリーに子育て世帯に配信 完了 継続 身近な子育て情報を配信し、町 継続\nによる子育て情 支援課 支援係 事業 し、子育て期に悩みを抱え込ま 指標 達成 の支援者とつながりを感じられ\n報配信事業"
+      },
+      {
+        "name": "子育てガイドブック作成",
+        "code": "184",
+        "serial": 66,
+        "codeStart": 16780,
+        "codeRaw": "66 184 重要 すくガイドブックとして子育て 達成 完了 継続 い。 継続",
+        "segments": [
+          {
+            "raw": "子育てガイドブッ",
+            "start": 16756
+          },
+          {
+            "raw": "ク作成",
+            "start": 16820
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 16756,
+        "context": "子育てガイドブッ 子育て 子育て 政策的 活動\n66 184 重要 すくガイドブックとして子育て 達成 完了 継続 い。 継続\nク作成"
+      },
+      {
+        "name": "学校給食費無償化事業（小・中学生）",
+        "code": "201",
+        "serial": 67,
+        "codeStart": 17152,
+        "codeRaw": "67 201 化事業（小・中学 教育課 教育係 達成 継続 継続",
+        "segments": [
+          {
+            "raw": "学校給食費無償",
+            "start": 17075
+          },
+          {
+            "raw": "化事業（小・中学",
+            "start": 17159
+          },
+          {
+            "raw": "生）",
+            "start": 17206
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 17075,
+        "context": "学校給食費無償 りを推進する観点から、当該事 世帯に対しては就学援助の制\n重要 業は重要事業を考える。 継続 度もある。財政負担も大きく、\n政策的 成果\n67 201 化事業（小・中学 教育課 教育係 達成 継続 継続\n事業 指標 現在の財政状況からすれば、事\n生）"
+      },
+      {
+        "name": "食費（主食費・副食費・補食費）3歳以上児無償化",
+        "code": "202",
+        "serial": 68,
+        "codeStart": 17447,
+        "codeRaw": "68 202 食費・補食費）3 重要 軽減や子育てにやさしい町づく 指標",
+        "segments": [
+          {
+            "raw": "食費（主食費・副",
+            "start": 17380
+          },
+          {
+            "raw": "食費・補食費）3",
+            "start": 17454
+          },
+          {
+            "raw": "歳以上児無償化",
+            "start": 17523
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 17380,
+        "context": "食費（主食費・副 ないが、保護者の経済的負担の 成果 成果指標等はNo.201に準じ\n認定こ 認定こ 政策的 判定 目標 評価 目標\n68 202 食費・補食費）3 重要 軽減や子育てにやさしい町づく 指標\nども園 ども園 事業 不能 修正 しない 修正 ることとし、担当部署において\n歳以上児無償化"
+      },
+      {
+        "name": "出産・子育て応援交付金給付事業",
+        "code": "209",
+        "serial": 69,
+        "codeStart": 17634,
+        "codeRaw": "69 209 重要 達成 継続 完了 行したため完了（担当：子育て 完了",
+        "segments": [
+          {
+            "raw": "出産・子育て応援",
+            "start": 17610
+          },
+          {
+            "raw": "交付金給付事業",
+            "start": 17671
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 17610,
+        "context": "出産・子育て応援 健康増 健康増 準義務 成果\n69 209 重要 達成 継続 完了 行したため完了（担当：子育て 完了\n交付金給付事業"
+      },
+      {
+        "name": "病児・病後児保育",
+        "code": "509",
+        "serial": 70,
+        "codeStart": 17790,
+        "codeRaw": "70 509 病児・病後児保育 支援課 支援係 理事業 重要 指標",
+        "segments": [
+          {
+            "raw": "病児・病後児保育",
+            "start": 17797
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 17790,
+        "context": "70 509 病児・病後児保育 支援課 支援係 理事業 重要 指標"
+      },
+      {
+        "name": "湯沢児童クラブ",
+        "code": "510",
+        "serial": 71,
+        "codeStart": 17998,
+        "codeRaw": "71 510 湯沢児童クラブ 理事業 重要 達成 継続",
+        "segments": [
+          {
+            "raw": "湯沢児童クラブ",
+            "start": 18005
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 17998,
+        "context": "71 510 湯沢児童クラブ 理事業 重要 達成 継続"
+      },
+      {
+        "name": "障がい者タクシー利用料金助成",
+        "code": "67",
+        "serial": 72,
+        "codeStart": 18452,
+        "codeRaw": "72 67 シー利用料金助 護課",
+        "segments": [
+          {
+            "raw": "障がい者タク",
+            "start": 18416
+          },
+          {
+            "raw": "シー利用料金助",
+            "start": 18458
+          },
+          {
+            "raw": "成",
+            "start": 18509
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 18416,
+        "context": "障がい者タク など、支出を抑える対策は講じ\n福祉介 標準的 成果 概ね\n72 67 シー利用料金助 護課\n福祉係\n事業\n重要 指標 達成 継続 継続 てきている。引き続き支出抑制 継続\n成"
+      },
+      {
+        "name": "人工透析患者交通費助成",
+        "code": "68",
+        "serial": 73,
+        "codeStart": 18619,
+        "codeRaw": "73 68 福祉係 重要 象者の在宅生活を維持するた 達成 継続 継続 継続",
+        "segments": [
+          {
+            "raw": "人工透析患者交",
+            "start": 18600
+          },
+          {
+            "raw": "通費助成",
+            "start": 18658
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 18600,
+        "context": "人工透析患者交 福祉介 標準的 成果\n73 68 福祉係 重要 象者の在宅生活を維持するた 達成 継続 継続 継続\n通費助成"
+      },
+      {
+        "name": "精神障がい者医療費助成",
+        "code": "69",
+        "serial": 74,
+        "codeStart": 18857,
+        "codeRaw": "74 69 福祉係 重要 達成 継続 継続 る。そのため、通院分の医療費 継続",
+        "segments": [
+          {
+            "raw": "精神障がい者医",
+            "start": 18824
+          },
+          {
+            "raw": "療費助成",
+            "start": 18897
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 18824,
+        "context": "精神障がい者医 福祉介 標準的 活動\n以下と少額なものとなってい\n74 69 福祉係 重要 達成 継続 継続 る。そのため、通院分の医療費 継続\n療費助成"
+      },
+      {
+        "name": "地域活動センターⅠ型・相談支援事業",
+        "code": "70",
+        "serial": 75,
+        "codeStart": 19129,
+        "codeRaw": "75 70 ターⅠ型・相談支 福祉係 重要 達成 継続 継続",
+        "segments": [
+          {
+            "raw": "地域活動セン",
+            "start": 19054
+          },
+          {
+            "raw": "ターⅠ型・相談支",
+            "start": 19135
+          },
+          {
+            "raw": "援事業",
+            "start": 19188
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 19054,
+        "context": "地域活動セン 必須事業とされており、継続実 その進捗管理として毎年評価す\n福祉介 義務的 活動 評価 施が求められている。直営など べきものである。\n75 70 ターⅠ型・相談支 福祉係 重要 達成 継続 継続\n護課 事業 指標 しない 他の選択肢も困難であることか\n援事業"
+      },
+      {
+        "name": "寝たきり者等介護手当支給事業",
+        "code": "71",
+        "serial": 76,
+        "codeStart": 19391,
+        "codeRaw": "76 71 福祉係 重要 未達成 縮小 縮小",
+        "segments": [
+          {
+            "raw": "寝たきり者等介",
+            "start": 19350
+          },
+          {
+            "raw": "護手当支給事業",
+            "start": 19414
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 19350,
+        "context": "寝たきり者等介 福祉介 標準的 活動 目標値が 目標 整備や代替事業の実施も簡単\n76 71 福祉係 重要 未達成 縮小 縮小\n護手当支給事業"
+      },
+      {
+        "name": "事業用施設バリアフリー化工事補助金",
+        "code": "205",
+        "serial": 77,
+        "codeStart": 19619,
+        "codeRaw": "77 205 アフリー化工事 建設課",
+        "segments": [
+          {
+            "raw": "事業用施設バリ",
+            "start": 19556
+          },
+          {
+            "raw": "アフリー化工事",
+            "start": 19626
+          },
+          {
+            "raw": "補助金",
+            "start": 19707
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 19556,
+        "context": "事業用施設バリ 果が現れてきている。総合計画 の周知を図る。広報紙やHP、 なお、現在の要綱の終期は令\n建設整 政策的 活動\n77 205 アフリー化工事 建設課\n備係 事業\n重要 に掲げる政策につながる本事 指標\n達成 完了 継続 LINE活用により当該事業の広 継続 和８年度末までとなっており、\n補助金"
+      },
+      {
+        "name": "住宅バリアフリー化工事補助金",
+        "code": "206",
+        "serial": 78,
+        "codeStart": 20135,
+        "codeRaw": "78 206 建設課 重要 に掲げる政策につながる本事 達成 完了 継続 継続 和８年度末までとなっており、",
+        "segments": [
+          {
+            "raw": "住宅バリアフリー",
+            "start": 20115
+          },
+          {
+            "raw": "化工事補助金",
+            "start": 20190
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 20115,
+        "context": "住宅バリアフリー 建設整 政策的 活動\n78 206 建設課 重要 に掲げる政策につながる本事 達成 完了 継続 継続 和８年度末までとなっており、\n化工事補助金"
+      },
+      {
+        "name": "病院事業会計補助金",
+        "code": "59",
+        "serial": 79,
+        "codeStart": 20547,
+        "codeRaw": "79 59 重要 継続 縮小 よって病院が休業するような事 縮小 継続",
+        "segments": [
+          {
+            "raw": "病院事業会計補",
+            "start": 20521
+          },
+          {
+            "raw": "助金",
+            "start": 20583
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 20521,
+        "context": "病院事業会計補 健康増 健康増 標準的 成果 概ね\n79 59 重要 継続 縮小 よって病院が休業するような事 縮小 継続\n助金"
+      },
+      {
+        "name": "湯沢町再生可能エネルギー普及促進事業",
+        "code": "82",
+        "serial": 80,
+        "codeStart": 20925,
+        "codeRaw": "80 82 エネルギー普及 林課 設係 事業",
+        "segments": [
+          {
+            "raw": "湯沢町再生可能",
+            "start": 20902
+          },
+          {
+            "raw": "エネルギー普及",
+            "start": 20931
+          },
+          {
+            "raw": "促進事業",
+            "start": 20981
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 20902,
+        "context": "湯沢町再生可能\n環境農 環境施 政策的 成果\n80 82 エネルギー普及 林課 設係 事業\n重要 いて、再生可能エネルギーの普 指標 達成 継続 継続 改善\n促進事業"
+      },
+      {
+        "name": "町有林保育事業",
+        "code": "86",
+        "serial": 81,
+        "codeStart": 21115,
+        "codeRaw": "81 86 町有林保育事業 農林係 重要 未達成",
+        "segments": [
+          {
+            "raw": "町有林保育事業",
+            "start": 21121
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 21115,
+        "context": "81 86 町有林保育事業 農林係 重要 未達成"
+      },
+      {
+        "name": "花の郷運営管理",
+        "code": "90",
+        "serial": 82,
+        "codeStart": 21315,
+        "codeRaw": "82 90 花の郷運営管理 農林係 重要 達成 継続 継続 継続 また、福祉事業としての目的",
+        "segments": [
+          {
+            "raw": "花の郷運営管理",
+            "start": 21321
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 21315,
+        "context": "82 90 花の郷運営管理 農林係 重要 達成 継続 継続 継続 また、福祉事業としての目的"
+      },
+      {
+        "name": "分収造林",
+        "code": "92",
+        "serial": 83,
+        "codeStart": 21720,
+        "codeRaw": "83 に暮らせる 92 分収造林 農林係 重要",
+        "segments": [
+          {
+            "raw": "分収造林",
+            "start": 21732
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 21720,
+        "context": "83 に暮らせる 92 分収造林 農林係 重要"
+      },
+      {
+        "name": "林道維持管理",
+        "code": "94",
+        "serial": 84,
+        "codeStart": 21822,
+        "codeRaw": "84 94 林道維持管理 農林係 重要 継続 こと（瑕疵があった場合には原",
+        "segments": [
+          {
+            "raw": "林道維持管理",
+            "start": 21828
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 21822,
+        "context": "84 94 林道維持管理 農林係 重要 継続 こと（瑕疵があった場合には原"
+      },
+      {
+        "name": "湯沢町森林環境譲与税事業",
+        "code": "180",
+        "serial": 85,
+        "codeStart": 21921,
+        "codeRaw": "85 180 農林係 重要 達成 継続 継続 継続",
+        "segments": [
+          {
+            "raw": "湯沢町森林環境",
+            "start": 21902
+          },
+          {
+            "raw": "譲与税事業",
+            "start": 21947
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 21902,
+        "context": "湯沢町森林環境 環境農 義務的 活動\n85 180 農林係 重要 達成 継続 継続 継続\n譲与税事業"
+      },
+      {
+        "name": "体験工房大源太運営",
+        "code": "501",
+        "serial": 86,
+        "codeStart": 22012,
+        "codeRaw": "86 501 農林係 理事業 重要 達成 継続 継続 継続",
+        "segments": [
+          {
+            "raw": "体験工房大源太",
+            "start": 21997
+          },
+          {
+            "raw": "運営",
+            "start": 22042
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 21997,
+        "context": "体験工房大源太 環境農 活動\n86 501 農林係 理事業 重要 達成 継続 継続 継続\n運営"
+      },
+      {
+        "name": "フィッシングパーク運営",
+        "code": "502",
+        "serial": 87,
+        "codeStart": 22102,
+        "codeRaw": "87 502 農林係 理事業 重要 達成 継続 継続 継続",
+        "segments": [
+          {
+            "raw": "フィッシングパー",
+            "start": 22086
+          },
+          {
+            "raw": "ク運営",
+            "start": 22132
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 22086,
+        "context": "フィッシングパー 環境農 活動\n87 502 農林係 理事業 重要 達成 継続 継続 継続\nク運営"
+      },
+      {
+        "name": "湯沢町農山村開発総合センター生活改善センター管理",
+        "code": "503",
+        "serial": 88,
+        "codeStart": 22201,
+        "codeRaw": "88 503 農林係 理事業 重要 達成 継続 継続 継続",
+        "segments": [
+          {
+            "raw": "湯沢町農山村開",
+            "start": 22144
+          },
+          {
+            "raw": "発総合センター",
+            "start": 22186
+          },
+          {
+            "raw": "生活改善セン",
+            "start": 22231
+          },
+          {
+            "raw": "ター管理",
+            "start": 22246
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 22144,
+        "context": "湯沢町農山村開 地域の施設として重要であり、 担当課評価の通り\n施設管 管理が必要\n発総合センター 環境農 成果\n88 503 農林係 理事業 重要 達成 継続 継続 継続\n生活改善セン 林課\n等\n指標\nター管理"
+      },
+      {
+        "name": "陶芸工房運営管理（指定管理）",
+        "code": "514",
+        "serial": 89,
+        "codeStart": 22354,
+        "codeRaw": "89 514 農林係 理事業 重要 達成 継続 継続",
+        "segments": [
+          {
+            "raw": "陶芸工房運営管",
+            "start": 22321
+          },
+          {
+            "raw": "理（指定管理）",
+            "start": 22381
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 22321,
+        "context": "陶芸工房運営管 環境農 成果 目標 成果指標とし、受益者負担率の\n89 514 農林係 理事業 重要 達成 継続 継続\n理（指定管理）"
+      },
+      {
+        "name": "環境衛生補助金",
+        "code": "76",
+        "serial": 90,
+        "codeStart": 22655,
+        "codeRaw": "90 76 環境衛生補助金 重要 未達成",
+        "segments": [
+          {
+            "raw": "環境衛生補助金",
+            "start": 22661
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 22655,
+        "context": "90 76 環境衛生補助金 重要 未達成"
+      },
+      {
+        "name": "環境保全活動（環境指導員）",
+        "code": "77",
+        "serial": 91,
+        "codeStart": 22892,
+        "codeRaw": "91 77 重要 環境基本計画にも環境指導員 未達成",
+        "segments": [
+          {
+            "raw": "環境保全活動（環",
+            "start": 22854
+          },
+          {
+            "raw": "境指導員）",
+            "start": 22919
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 22854,
+        "context": "環境保全活動（環 環境農 環境施 標準的 活動 目標が不 目標 目標 目標\n91 77 重要 環境基本計画にも環境指導員 未達成\n境指導員）"
+      },
+      {
+        "name": "ごみ収集運搬（一般廃棄物・不法投棄ごみ）",
+        "code": "79",
+        "serial": 92,
+        "codeStart": 23368,
+        "codeRaw": "92 79 般廃棄物・不法投 重要",
+        "segments": [
+          {
+            "raw": "ごみ収集運搬（一",
+            "start": 23302
+          },
+          {
+            "raw": "般廃棄物・不法投",
+            "start": 23374
+          },
+          {
+            "raw": "棄ごみ）",
+            "start": 23439
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 23302,
+        "context": "ごみ収集運搬（一\n環境農 環境施 義務的 活動 判定 目標 評価 一般廃棄物処理計画を策定し、 目標 べき。例えば、業務中の事故や\n92 79 般廃棄物・不法投 重要\n林課 設係 事業 指標 不能 修正 しない その計画に基づいた収集及び 修正 過失のゼロを活動指標に設定\n棄ごみ）"
+      },
+      {
+        "name": "ストックヤード管理",
+        "code": "81",
+        "serial": 93,
+        "codeStart": 23668,
+        "codeRaw": "93 81 重要 継続 継続 り、一般廃棄物処理計画を策定 継続",
+        "segments": [
+          {
+            "raw": "ストックヤード管",
+            "start": 23626
+          },
+          {
+            "raw": "理",
+            "start": 23701
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 23626,
+        "context": "ストックヤード管 環境農 環境施 政策的 活動 概ね 百三十七号）第６条の規定によ\n93 81 重要 継続 継続 り、一般廃棄物処理計画を策定 継続\n理"
+      },
+      {
+        "name": "土樽自然公園維持管理",
+        "code": "120",
+        "serial": 94,
+        "codeStart": 23928,
+        "codeRaw": "94 120 建設課 重要 め。 広大な樹木エリア部分は、草",
+        "segments": [
+          {
+            "raw": "土樽自然公園維",
+            "start": 23897
+          },
+          {
+            "raw": "持管理",
+            "start": 23959
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 23897,
+        "context": "土樽自然公園維 維持管 政策的 成果 判定 目標 評価 目標\n94 120 建設課 重要 め。 広大な樹木エリア部分は、草\n持管理"
+      },
+      {
+        "name": "都市計画施設維持費10節",
+        "code": "130",
+        "serial": 95,
+        "codeStart": 24145,
+        "codeRaw": "95 130 建設課 重要",
+        "segments": [
+          {
+            "raw": "都市計画施設維",
+            "start": 24100
+          },
+          {
+            "raw": "持費",
+            "start": 24159
+          },
+          {
+            "raw": "10節",
+            "start": 24162
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 24100,
+        "context": "都市計画施設維 維持管 義務的 成果 判定 目標 評価 目標 また事業名称は、予算科目で\n95 130 建設課 重要\n持費 10節"
+      },
+      {
+        "name": "都市公園防災・安全交付金事業",
+        "code": "131",
+        "serial": 96,
+        "codeStart": 24374,
+        "codeRaw": "96 131 重要",
+        "segments": [
+          {
+            "raw": "都市公園防災・安",
+            "start": 24323
+          },
+          {
+            "raw": "全交付金事業",
+            "start": 24384
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 24323,
+        "context": "都市公園防災・安 建設課 維持管 義務的 成果 判定 目標 評価 目標 中央公園施設については、ゲー\n96 131 重要\n全交付金事業"
+      },
+      {
+        "name": "克雪住まいづくり支援",
+        "code": "132",
+        "serial": 97,
+        "codeStart": 24582,
+        "codeRaw": "97 132 建設課 重要 合計画に掲げる政策につなが 達成 継続 継続 継続",
+        "segments": [
+          {
+            "raw": "克雪住まいづく",
+            "start": 24548
+          },
+          {
+            "raw": "り支援",
+            "start": 24622
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 24548,
+        "context": "克雪住まいづく 建設整 標準的 付金事業）を活用している。総 活動\n97 132 建設課 重要 合計画に掲げる政策につなが 達成 継続 継続 継続\nり支援"
+      },
+      {
+        "name": "湯沢西地区街なみ環境整備事業",
+        "code": "135",
+        "serial": 98,
+        "codeStart": 25025,
+        "codeRaw": "98 まちづくり 135 建設課 重要 和８年度が事業最終年度とな",
+        "segments": [
+          {
+            "raw": "湯沢西地区街な",
+            "start": 24957
+          },
+          {
+            "raw": "み環境整備事業",
+            "start": 25059
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 24957,
+        "context": "湯沢西地区街な 付金事業）を活用している。令 目標 目標 の周知を図る。 目標 修景整備補助は、対象事業者\n建設整 政策的 成果 判定\n98 まちづくり 135 建設課 重要 和８年度が事業最終年度とな\nみ環境整備事業"
+      },
+      {
+        "name": "社会資本整備総合整備事業",
+        "code": "136",
+        "serial": 99,
+        "codeStart": 25420,
+        "codeRaw": "99 136 施設係 重要 代替",
+        "segments": [
+          {
+            "raw": "社会資本整備総",
+            "start": 25377
+          },
+          {
+            "raw": "合整備事業",
+            "start": 25437
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 25377,
+        "context": "社会資本整備総 上下水 義務的 成果 判定 目標 評価 化することを目的としている。\n99 136 施設係 重要 代替\n合整備事業"
+      },
+      {
+        "name": "都市構造再編集中支援事業",
+        "code": "187",
+        "serial": 100,
+        "codeStart": 25669,
+        "codeRaw": "100 187 建設課 重要 計画に掲げる政策につながる 完了 完了",
+        "segments": [
+          {
+            "raw": "都市構造再編集",
+            "start": 25629
+          },
+          {
+            "raw": "中支援事業",
+            "start": 25704
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 25629,
+        "context": "都市構造再編集 建設整 政策的 援事業）を活用している。総合 成果 判定 目標\n100 187 建設課 重要 計画に掲げる政策につながる 完了 完了\n中支援事業"
+      },
+      {
+        "name": "屋根雪下ろし安全対策支援事業",
+        "code": "188",
+        "serial": 101,
+        "codeStart": 25876,
+        "codeRaw": "101 188 建設課 重要 合計画に掲げる政策につなが 未達成 縮小 改善 縮小 ただし、国・県の交付金の申請",
+        "segments": [
+          {
+            "raw": "屋根雪下ろし安",
+            "start": 25852
+          },
+          {
+            "raw": "全対策支援事業",
+            "start": 25933
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 25852,
+        "context": "屋根雪下ろし安 建設整 政策的 活動 目標値が\n101 188 建設課 重要 合計画に掲げる政策につなが 未達成 縮小 改善 縮小 ただし、国・県の交付金の申請\n全対策支援事業"
+      },
+      {
+        "name": "中央公園指定管理",
+        "code": "508",
+        "serial": 102,
+        "codeStart": 26126,
+        "codeRaw": "102 508 建設課 理事業 重要 指定管理期間にあっても、適",
+        "segments": [
+          {
+            "raw": "中央公園指定管",
+            "start": 26090
+          },
+          {
+            "raw": "理",
+            "start": 26159
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 26090,
+        "context": "中央公園指定管 維持管\n施設管\n成果 判定 目標 評価 目標 ること。\n102 508 建設課 理事業 重要 指定管理期間にあっても、適\n理"
+      },
+      {
+        "name": "越後湯沢駅東口駅前広場駐車料金徴収業務",
+        "code": "513",
+        "serial": 103,
+        "codeStart": 26606,
+        "codeRaw": "103 513 駅前広場駐車料 建設課",
+        "segments": [
+          {
+            "raw": "越後湯沢駅東口",
+            "start": 26565
+          },
+          {
+            "raw": "駅前広場駐車料",
+            "start": 26614
+          },
+          {
+            "raw": "金徴収業務",
+            "start": 26676
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 26565,
+        "context": "越後湯沢駅東口 施設管 いものを選定し 中に駐車場料金徴収業務も含\n維持管 活動\n103 513 駅前広場駐車料 建設課\n理係\n理事業 重要\n指標\n達成 完了 継続 カメラ式料金精算システムを継 代替 めて評価すること。\n金徴収業務"
+      },
+      {
+        "name": "路線バス運行補助金",
+        "code": "12",
+        "serial": 104,
+        "codeStart": 26794,
+        "codeRaw": "104 実 12 企画係 重要 線バスを維持するため。 達成 継続 継続 継続",
+        "segments": [
+          {
+            "raw": "路線バス運行補",
+            "start": 26761
+          },
+          {
+            "raw": "助金",
+            "start": 26834
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 26761,
+        "context": "路線バス運行補 企画観 標準的 に観光客の移動手段である路 活動\n104 実 12 企画係 重要 線バスを維持するため。 達成 継続 継続 継続\n助金"
+      },
+      {
+        "name": "岩原スキー場前駅除雪負担",
+        "code": "25",
+        "serial": 105,
+        "codeStart": 26970,
+        "codeRaw": "105 25 総務課 総務係 重要 いため、引き続きJRに除雪を",
+        "segments": [
+          {
+            "raw": "岩原スキー場前",
+            "start": 26913
+          },
+          {
+            "raw": "駅除雪負担",
+            "start": 27003
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 26913,
+        "context": "岩原スキー場前 政策的 なっており閉鎖することが難し 活動 判定 目標 目標 機関となっており閉鎖すること 目標\n105 25 総務課 総務係 重要 いため、引き続きJRに除雪を\n駅除雪負担"
+      },
+      {
+        "name": "湯沢町高齢者等バス運賃助成事業",
+        "code": "75",
+        "serial": 106,
+        "codeStart": 27147,
+        "codeRaw": "106 75 バス運賃助成事 護課",
+        "segments": [
+          {
+            "raw": "湯沢町高齢者等",
+            "start": 27096
+          },
+          {
+            "raw": "バス運賃助成事",
+            "start": 27154
+          },
+          {
+            "raw": "業",
+            "start": 27213
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 27096,
+        "context": "湯沢町高齢者等 つながり、心身の健康維持・増 はじめ、様々な機会で周知を\n福祉介 政策的 成果 概ね\n106 75 バス運賃助成事 護課\n福祉係\n事業\n重要 進にも貢献できると考える。 指標 達成 継続 継続 図っていきたい。 継続\n業"
+      },
+      {
+        "name": "自動車騒音常時監視",
+        "code": "80",
+        "serial": 107,
+        "codeStart": 27328,
+        "codeRaw": "107 80 重要 達成 継続 しない ため、評価しないが妥当だと考 しない",
+        "segments": [
+          {
+            "raw": "自動車騒音常時",
+            "start": 27284
+          },
+          {
+            "raw": "監視",
+            "start": 27367
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 27284,
+        "context": "自動車騒音常時 環境農 環境施 義務的 活動 評価 た、毎年継続していくしかない 評価\n107 80 重要 達成 継続 しない ため、評価しないが妥当だと考 しない\n監視"
+      },
+      {
+        "name": "河川維持補修",
+        "code": "116",
+        "serial": 108,
+        "codeStart": 27486,
+        "codeRaw": "108 116 河川維持補修 建設課 重要 （瑕疵があった場合には原因の",
+        "segments": [
+          {
+            "raw": "河川維持補修",
+            "start": 27494
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 27486,
+        "context": "108 116 河川維持補修 建設課 重要 （瑕疵があった場合には原因の"
+      },
+      {
+        "name": "橋梁長寿命化修繕計画",
+        "code": "117",
+        "serial": 109,
+        "codeStart": 27630,
+        "codeRaw": "109 117 建設課 重要 統廃合 （瑕疵があった場合には原因の",
+        "segments": [
+          {
+            "raw": "橋梁長寿命化修",
+            "start": 27587
+          },
+          {
+            "raw": "繕計画",
+            "start": 27664
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 27587,
+        "context": "橋梁長寿命化修 維持管 義務的 成果 判定 目標 目標 ゼロ件を目標に評価を行うこと\n109 117 建設課 重要 統廃合 （瑕疵があった場合には原因の\n繕計画"
+      },
+      {
+        "name": "公営住宅維持管理",
+        "code": "118",
+        "serial": 110,
+        "codeStart": 27813,
+        "codeRaw": "110 118 建設課 重要 策のために必要ではあるが、建",
+        "segments": [
+          {
+            "raw": "公営住宅維持管",
+            "start": 27767
+          },
+          {
+            "raw": "理",
+            "start": 27843
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 27767,
+        "context": "公営住宅維持管 維持管 義務的 成果 判定 目標 評価 目標 なお、公営住宅は、生活弱者対\n110 118 建設課 重要 策のために必要ではあるが、建\n理"
+      },
+      {
+        "name": "道路橋梁維持管理維持補修費10節",
+        "code": "121",
+        "serial": 111,
+        "codeStart": 28286,
+        "codeRaw": "111 121 理 維持補修費 建設課 重要",
+        "segments": [
+          {
+            "raw": "道路橋梁維持管",
+            "start": 28226
+          },
+          {
+            "raw": "理",
+            "start": 28294
+          },
+          {
+            "raw": "維持補修費",
+            "start": 28296
+          },
+          {
+            "raw": "10節",
+            "start": 28346
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 28226,
+        "context": "道路橋梁維持管 また事業名称は予算科目では\n維持管 義務的 成果 判定 目標 評価 目標 なく、総合計画を達成するため\n111 121 理 維持補修費 建設課 重要\n理係 事業 指標 不能 修正 しない 修正 の事務事業として一般町民にも\n10節"
+      },
+      {
+        "name": "道路橋梁維持管理雪寒機械購入費",
+        "code": "122",
+        "serial": 112,
+        "codeStart": 28453,
+        "codeRaw": "112 122 理 雪寒機械購 建設課 重要",
+        "segments": [
+          {
+            "raw": "道路橋梁維持管",
+            "start": 28226
+          },
+          {
+            "raw": "理",
+            "start": 28294
+          },
+          {
+            "raw": "雪寒機械購",
+            "start": 28463
+          },
+          {
+            "raw": "入費",
+            "start": 28499
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 28226,
+        "context": "道路橋梁維持管 また事業名称は予算科目では\n維持管 義務的 成果 判定 目標 評価 目標 なく、総合計画を達成するため\n111 121 理 維持補修費 建設課 重要\n理係 事業 指標 不能 修正 しない 修正 の事務事業として一般町民にも\n10節\nわかりやすい名称を検討し改称\nすること（例えば「道路橋梁維持\n補修」等）。\n機械の標準使用年数により、入 担当課評価の通り\n道路橋梁維持管\n維持管 義務的 活動 判定 目標 評価 替が必要であるため 評価\n112 122 理 雪寒機械購 建設課 重要\n理係 事業 指標 不能 修正 しない しない\n入費"
+      },
+      {
+        "name": "道路橋梁維持管理雪対策費工事請負費14節",
+        "code": "123",
+        "serial": 113,
+        "codeStart": 28618,
+        "codeRaw": "113 123 理 雪対策費 工 建設課 重要",
+        "segments": [
+          {
+            "raw": "道路橋梁維持管",
+            "start": 28412
+          },
+          {
+            "raw": "理",
+            "start": 28461
+          },
+          {
+            "raw": "雪対策費",
+            "start": 28628
+          },
+          {
+            "raw": "工",
+            "start": 28633
+          },
+          {
+            "raw": "事請負費14節",
+            "start": 28678
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 28412,
+        "context": "道路橋梁維持管\n維持管 義務的 活動 判定 目標 評価 替が必要であるため 評価\n112 122 理 雪寒機械購 建設課 重要\n理係 事業 指標 不能 修正 しない しない\n入費\n経常的な経費のため 管理瑕疵件数を成果指標とし、\nゼロ件を目標に評価を行うこと\n（瑕疵があった場合には原因の\n分析と改善策等を検討）。\n道路橋梁維持管\n維持管 義務的 成果 判定 目標 評価 目標 また、No.124を統合のうえ、\n113 123 理 雪対策費 工 建設課 重要\n理係 事業 指標 不能 修正 しない 修正 総合計画を達成するための事\n事請負費14節"
+      },
+      {
+        "name": "道路橋梁維持管理雪対策費需要費10節",
+        "code": "124",
+        "serial": 114,
+        "codeStart": 28785,
+        "codeRaw": "114 124 理 雪対策費 需 建設課 理係 事業 重要 統廃合",
+        "segments": [
+          {
+            "raw": "道路橋梁維持管",
+            "start": 28570
+          },
+          {
+            "raw": "理",
+            "start": 28626
+          },
+          {
+            "raw": "雪対策費",
+            "start": 28628
+          },
+          {
+            "raw": "需",
+            "start": 28800
+          },
+          {
+            "raw": "要費10節",
+            "start": 28832
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 28570,
+        "context": "道路橋梁維持管\n維持管 義務的 成果 判定 目標 評価 目標 また、No.124を統合のうえ、\n113 123 理 雪対策費 工 建設課 重要\n理係 事業 指標 不能 修正 しない 修正 総合計画を達成するための事\n事請負費14節 務事業として一般町民にもわか\nりやすい名称を検討し改称する\nこと（例えば「道路橋梁雪対策\n事業」等）\n経常的な経費のため No.123に統合\n道路橋梁維持管\n維持管 義務的 成果 判定 目標 評価\n114 124 理 雪対策費 需 建設課 理係 事業 重要 統廃合\n指標 不能 修正 しない\n要費10節"
+      },
+      {
+        "name": "道路橋梁維持管理雪対策費委託費12節",
+        "code": "125",
+        "serial": 115,
+        "codeStart": 28973,
+        "codeRaw": "115 125 理 雪対策費 委 建設課 重要",
+        "segments": [
+          {
+            "raw": "道路橋梁維持管",
+            "start": 28757
+          },
+          {
+            "raw": "理",
+            "start": 28793
+          },
+          {
+            "raw": "雪対策費",
+            "start": 28795
+          },
+          {
+            "raw": "委",
+            "start": 28988
+          },
+          {
+            "raw": "託費12節",
+            "start": 29033
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 28757,
+        "context": "道路橋梁維持管\n維持管 義務的 成果 判定 目標 評価\n114 124 理 雪対策費 需 建設課 理係 事業 重要 統廃合\n指標 不能 修正 しない\n要費10節\n経常的な経費のため 総合計画の成果目標である「除\n雪体制に満足している人の割合\n70％」を実現するために、毎年\n度の評価が必要。活動指標とし\nて、適切な目標を設定すること\n道路橋梁維持管 （例えば事故の発生件数ゼロ\n維持管 義務的 成果 判定 目標 評価 目標 等）。\n115 125 理 雪対策費 委 建設課 重要\n理係 事業 指標 不能 修正 しない 修正 また、名称は予算科目ではな\n託費12節"
+      },
+      {
+        "name": "道路橋梁新設改良橋梁改修",
+        "code": "126",
+        "serial": 116,
+        "codeStart": 29160,
+        "codeRaw": "116 126 建設課 重要 統廃合 統廃合",
+        "segments": [
+          {
+            "raw": "道路橋梁新設改",
+            "start": 29130
+          },
+          {
+            "raw": "良",
+            "start": 29183
+          },
+          {
+            "raw": "橋梁改修",
+            "start": 29185
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 29130,
+        "context": "道路橋梁新設改 維持管 義務的 成果 判定 目標 統合する\n116 126 建設課 重要 統廃合 統廃合\n良 橋梁改修"
+      },
+      {
+        "name": "道路橋梁新設改良消パイリフレッシュ事業",
+        "code": "127",
+        "serial": 117,
+        "codeStart": 29276,
+        "codeRaw": "117 127 良 消パイリフ 建設課 重要 （瑕疵があった場合には原因の",
+        "segments": [
+          {
+            "raw": "道路橋梁新設改",
+            "start": 29130
+          },
+          {
+            "raw": "良",
+            "start": 29183
+          },
+          {
+            "raw": "消パイリフ",
+            "start": 29286
+          },
+          {
+            "raw": "レッシュ事業",
+            "start": 29336
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 29130,
+        "context": "道路橋梁新設改 維持管 義務的 成果 判定 目標 統合する\n116 126 建設課 重要 統廃合 統廃合\n良 橋梁改修 理係 事業 指標 不能 修正\n経常的な経費のため 管理瑕疵件数を成果指標とし、\n道路橋梁新設改 ゼロ件を目標に評価を行うこと\n維持管 義務的 成果 判定 目標 評価 目標\n117 127 良 消パイリフ 建設課 重要 （瑕疵があった場合には原因の\n理係 事業 指標 不能 修正 しない 修正\nレッシュ事業"
+      },
+      {
+        "name": "道路橋梁新設改良舗装改修",
+        "code": "128",
+        "serial": 118,
+        "codeStart": 29427,
+        "codeRaw": "118 128 建設課 重要 （瑕疵があった場合には原因の",
+        "segments": [
+          {
+            "raw": "道路橋梁新設改",
+            "start": 29230
+          },
+          {
+            "raw": "良",
+            "start": 29284
+          },
+          {
+            "raw": "舗装改修",
+            "start": 29459
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 29230,
+        "context": "道路橋梁新設改 ゼロ件を目標に評価を行うこと\n維持管 義務的 成果 判定 目標 評価 目標\n117 127 良 消パイリフ 建設課 重要 （瑕疵があった場合には原因の\n理係 事業 指標 不能 修正 しない 修正\nレッシュ事業 分析と改善策等を検討）。\n経常的な経費のため 管理瑕疵件数を成果指標とし、\n道路橋梁新設改 維持管 義務的 成果 判定 目標 評価 目標 ゼロ件を目標に評価を行うこと\n118 128 建設課 重要 （瑕疵があった場合には原因の\n良 舗装改修"
+      },
+      {
+        "name": "道路等パトロール業務",
+        "code": "129",
+        "serial": 119,
+        "codeStart": 29845,
+        "codeRaw": "119 129 建設課 重要",
+        "segments": [
+          {
+            "raw": "道路等パトロー",
+            "start": 29800
+          },
+          {
+            "raw": "ル業務",
+            "start": 29860
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 29800,
+        "context": "道路等パトロー 維持管 義務的 活動 判定 目標 評価 目標 また、管理瑕疵を無くす上で\n119 129 建設課 重要\nル業務"
+      },
+      {
+        "name": "地域公共交通検討事業",
+        "code": "191",
+        "serial": 120,
+        "codeStart": 30024,
+        "codeRaw": "120 191 企画係 重要 あるため。 達成 完了 継続 あり、今後も継続していく。 継続",
+        "segments": [
+          {
+            "raw": "地域公共交通検",
+            "start": 29975
+          },
+          {
+            "raw": "討事業",
+            "start": 30071
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 29975,
+        "context": "地域公共交通検 企画観 政策的 考えていくうえで必須の事業で 活動 考えていくうえで必須の事業で\n120 191 企画係 重要 あるため。 達成 完了 継続 あり、今後も継続していく。 継続\n討事業"
+      },
+      {
+        "name": "空き家対策事業",
+        "code": "32",
+        "serial": 121,
+        "codeStart": 30283,
+        "codeRaw": "121 32 空き家対策事業 重要 対策計画の策定及び条例・施行 指標",
+        "segments": [
+          {
+            "raw": "空き家対策事業",
+            "start": 30290
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 30283,
+        "context": "121 32 空き家対策事業 重要 対策計画の策定及び条例・施行 指標"
+      },
+      {
+        "name": "災害関連情報伝達システム整備",
+        "code": "33",
+        "serial": 122,
+        "codeStart": 30473,
+        "codeRaw": "122 33 重要 達成 継続 継続 継続",
+        "segments": [
+          {
+            "raw": "災害関連情報伝",
+            "start": 30450
+          },
+          {
+            "raw": "達システム整備",
+            "start": 30495
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 30450,
+        "context": "災害関連情報伝 防災管 防災管 準義務 活動\n122 33 重要 達成 継続 継続 継続\n達システム整備"
+      },
+      {
+        "name": "災害時用資機材及び物品の備蓄事業",
+        "code": "34",
+        "serial": 123,
+        "codeStart": 30551,
+        "codeRaw": "123 34 及び物品の備蓄 財課 財係 的事業",
+        "segments": [
+          {
+            "raw": "災害時用資機材",
+            "start": 30525
+          },
+          {
+            "raw": "及び物品の備蓄",
+            "start": 30558
+          },
+          {
+            "raw": "事業",
+            "start": 30594
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 30525,
+        "context": "災害時用資機材\n防災管 防災管 準義務 活動 概ね\n123 34 及び物品の備蓄 財課 財係 的事業\n重要 指標 達成 継続 継続 継続\n事業"
+      },
+      {
+        "name": "自主防災組織の組織化推進と育成事業",
+        "code": "35",
+        "serial": 124,
+        "codeStart": 30677,
+        "codeRaw": "124 35 組織化推進と育 財課 財係 的事業",
+        "segments": [
+          {
+            "raw": "自主防災組織の",
+            "start": 30635
+          },
+          {
+            "raw": "組織化推進と育",
+            "start": 30684
+          },
+          {
+            "raw": "成事業",
+            "start": 30740
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 30635,
+        "context": "自主防災組織の 災士による講習会の開催など\n防災管 防災管 準義務 成果 執行方法\n124 35 組織化推進と育 財課 財係 的事業\n重要 指標\n未達成\nに課題 改善\n改善 により、自主防災に対する町民 改善\n成事業"
+      },
+      {
+        "name": "国土調査（地籍調査）事業",
+        "code": "40",
+        "serial": 125,
+        "codeStart": 30839,
+        "codeRaw": "125 40 税務課 重要",
+        "segments": [
+          {
+            "raw": "国土調査（地籍調",
+            "start": 30793
+          },
+          {
+            "raw": "査）事業",
+            "start": 30853
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 30793,
+        "context": "国土調査（地籍調 資産税 義務的 無 判定 目標 評価 め、計画終了時までは継続が必 評価\n125 40 税務課 重要\n査）事業"
+      },
+      {
+        "name": "木造住宅耐震改修支援事業",
+        "code": "133",
+        "serial": 126,
+        "codeStart": 30995,
+        "codeRaw": "126 133 建設課 重要 合計画に掲げる政策につなが 未達成 改善 改善 改善",
+        "segments": [
+          {
+            "raw": "木造住宅耐震改",
+            "start": 30956
+          },
+          {
+            "raw": "修支援事業",
+            "start": 31037
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 30956,
+        "context": "木造住宅耐震改 建設整 標準的 付金事業）を活用している。総 活動 執行方法\n126 133 建設課 重要 合計画に掲げる政策につなが 未達成 改善 改善 改善\n修支援事業"
+      },
+      {
+        "name": "木造住宅耐震診断支援事業",
+        "code": "134",
+        "serial": 127,
+        "codeStart": 31171,
+        "codeRaw": "127 134 建設課 重要 合計画に掲げる政策につなが 達成 継続 継続 継続",
+        "segments": [
+          {
+            "raw": "木造住宅耐震診",
+            "start": 31137
+          },
+          {
+            "raw": "断支援事業",
+            "start": 31212
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 31137,
+        "context": "木造住宅耐震診 建設整 標準的 付金事業）を活用している。総 活動\n127 134 建設課 重要 合計画に掲げる政策につなが 達成 継続 継続 継続\n断支援事業"
+      },
+      {
+        "name": "防犯灯設置・防犯カメラ設置",
+        "code": "36",
+        "serial": 128,
+        "codeStart": 31628,
+        "codeRaw": "128 36 重要 内会へ補助金を出すことで危険 指標 未達成 縮小 縮小 出の１／２）があることから現状 縮小",
+        "segments": [
+          {
+            "raw": "防犯灯設置・防犯",
+            "start": 31602
+          },
+          {
+            "raw": "カメラ設置",
+            "start": 31685
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 31602,
+        "context": "防犯灯設置・防犯 防災管 防災管 政策的 目標値が\n128 36 重要 内会へ補助金を出すことで危険 指標 未達成 縮小 縮小 出の１／２）があることから現状 縮小\nカメラ設置"
+      },
+      {
+        "name": "交通安全推進活動",
+        "code": "78",
+        "serial": 129,
+        "codeStart": 31825,
+        "codeRaw": "129 78 重要 える。 未達成 縮小 事業を継続する。",
+        "segments": [
+          {
+            "raw": "交通安全推進活",
+            "start": 31761
+          },
+          {
+            "raw": "動",
+            "start": 31855
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 31761,
+        "context": "交通安全推進活 防災管 防災管 標準的 くならない限り必要であると考 活動 目標値が 目標 を下げるが、これまでと同様に 目標\n129 78 重要 える。 未達成 縮小 事業を継続する。\n動"
+      },
+      {
+        "name": "交通安全施設維持補修事業",
+        "code": "119",
+        "serial": 130,
+        "codeStart": 31949,
+        "codeRaw": "130 119 建設課 重要 （瑕疵があった場合には原因の",
+        "segments": [
+          {
+            "raw": "交通安全施設維",
+            "start": 31903
+          },
+          {
+            "raw": "持補修事業",
+            "start": 31979
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 31903,
+        "context": "交通安全施設維 維持管 義務的 成果 判定 目標 評価 目標 ゼロ件を目標に評価を行うこと\n130 119 建設課 重要 （瑕疵があった場合には原因の\n持補修事業"
+      },
+      {
+        "name": "通学路交通安全プログラム",
+        "code": "149",
+        "serial": 131,
+        "codeStart": 32127,
+        "codeRaw": "131 149 教育課 教育係 重要 ソフト事業を一体的に推進する",
+        "segments": [
+          {
+            "raw": "通学路交通安全",
+            "start": 32085
+          },
+          {
+            "raw": "プログラム",
+            "start": 32161
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 32085,
+        "context": "通学路交通安全 標準的 境の整備をはじめとし、ハード・ 無 判定 目標 評価 評価\n131 149 教育課 教育係 重要 ソフト事業を一体的に推進する\nプログラム"
+      },
+      {
+        "name": "ＡＬＴ配置",
+        "code": "137",
+        "serial": 132,
+        "codeStart": 32333,
+        "codeRaw": "132 137 ＡＬＴ配置 教育課 教育係",
+        "segments": [
+          {
+            "raw": "ＡＬＴ配置",
+            "start": 32341
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 32333,
+        "context": "132 137 ＡＬＴ配置 教育課 教育係"
+      },
+      {
+        "name": "遠距離通学費補助（小学校）",
+        "code": "138",
+        "serial": 133,
+        "codeStart": 32548,
+        "codeRaw": "133 138 教育課 教育係 重要",
+        "segments": [
+          {
+            "raw": "遠距離通学費補",
+            "start": 32503
+          },
+          {
+            "raw": "助（小学校）",
+            "start": 32567
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 32503,
+        "context": "遠距離通学費補 標準的 児童の通学費の配慮は保護者 成果 判定 目標 評価 ない。 評価\n133 138 教育課 教育係 重要\n助（小学校）"
+      },
+      {
+        "name": "遠距離通学費補助（中学校）",
+        "code": "139",
+        "serial": 134,
+        "codeStart": 32695,
+        "codeRaw": "134 139 教育課 教育係 重要",
+        "segments": [
+          {
+            "raw": "遠距離通学費補",
+            "start": 32503
+          },
+          {
+            "raw": "助（中学校）",
+            "start": 32714
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 32503,
+        "context": "遠距離通学費補 標準的 児童の通学費の配慮は保護者 成果 判定 目標 評価 ない。 評価\n133 138 教育課 教育係 重要\n助（小学校） 事業\nの負担軽減のためにも必要。\n指標 不能 修正 しない しない\n遠距離通学生徒の安全な通学 学園統合時の案件であり評価 担当課評価の通り\n遠距離通学費補 標準的 のために必要。 成果 判定 目標 評価 が困難であることから、評価し 評価\n134 139 教育課 教育係 重要\n助（中学校）"
+      },
+      {
+        "name": "学校給食センター設備改修",
+        "code": "140",
+        "serial": 135,
+        "codeStart": 32823,
+        "codeRaw": "135 140 教育課 教育係 重要",
+        "segments": [
+          {
+            "raw": "学校給食セン",
+            "start": 32782
+          },
+          {
+            "raw": "ター設備改修",
+            "start": 32842
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 32782,
+        "context": "学校給食セン 準義務 成果 判定 目標 評価 的事業であることから、評価し 評価\n135 140 教育課 教育係 重要\nター設備改修"
+      },
+      {
+        "name": "学校給食センター調理業務",
+        "code": "141",
+        "serial": 136,
+        "codeStart": 33010,
+        "codeRaw": "136 141 教育課 教育係 重要 継続",
+        "segments": [
+          {
+            "raw": "学校給食セン",
+            "start": 32782
+          },
+          {
+            "raw": "ター調理業務",
+            "start": 33032
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 32782,
+        "context": "学校給食セン 準義務 成果 判定 目標 評価 的事業であることから、評価し 評価\n135 140 教育課 教育係 重要\nター設備改修 的事業 指標 不能 修正 しない ない。 しない\n食育に配慮したメニューづくり 業務中に何らかの事故や不手\nが実施されており、今後も安 際が起こらないよう、委託先を\n心・安全な学校給食提供事業を 適切に監督する観点から評価\n学校給食セン 義務的 成果 判定 目標 継続する必要がある。 目標 が必要。予算額も大きく、子ど\n136 141 教育課 教育係 重要 継続\nター調理業務"
+      },
+      {
+        "name": "校外大会参加費補助",
+        "code": "142",
+        "serial": 137,
+        "codeStart": 33439,
+        "codeRaw": "137 り 142 教育課 教育係 重要 達成 継続 継続 び体育的な教育の向上を図る。 継続",
+        "segments": [
+          {
+            "raw": "校外大会参加費",
+            "start": 33401
+          },
+          {
+            "raw": "補助",
+            "start": 33487
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 33401,
+        "context": "校外大会参加費 上を図るため。 を助成し、児童生徒の文化的及\n政策的 成果\n137 り 142 教育課 教育係 重要 達成 継続 継続 び体育的な教育の向上を図る。 継続\n補助"
+      },
+      {
+        "name": "コミュニティ・スクールの推進",
+        "code": "143",
+        "serial": 138,
+        "codeStart": 33580,
+        "codeRaw": "138 143 教育課 教育係 通常 廃止 統廃合",
+        "segments": [
+          {
+            "raw": "コミュニティ・ス",
+            "start": 33542
+          },
+          {
+            "raw": "クールの推進",
+            "start": 33606
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 33542,
+        "context": "コミュニティ・ス 政策的 成果 判定 評価 進事業（166）として取り組み\n138 143 教育課 教育係 通常 廃止 統廃合\nクールの推進"
+      },
+      {
+        "name": "通学タクシー運行",
+        "code": "147",
+        "serial": 139,
+        "codeStart": 33712,
+        "codeRaw": "139 147 教育課 教育係 重要",
+        "segments": [
+          {
+            "raw": "通学タクシー運",
+            "start": 33671
+          },
+          {
+            "raw": "行",
+            "start": 33731
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 33671,
+        "context": "通学タクシー運 義務的 無 判定 目標 評価 であることから、評価しない。 評価\n139 147 教育課 教育係 重要\n行"
+      },
+      {
+        "name": "通学バス運行",
+        "code": "148",
+        "serial": 140,
+        "codeStart": 33809,
+        "codeRaw": "140 148 通学バス運行 教育課 教育係 重要",
+        "segments": [
+          {
+            "raw": "通学バス運行",
+            "start": 33817
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 33809,
+        "context": "140 148 通学バス運行 教育課 教育係 重要"
+      },
+      {
+        "name": "湯沢産米提供補助",
+        "code": "150",
+        "serial": 141,
+        "codeStart": 33991,
+        "codeRaw": "141 150 教育課 教育係 重要 め。",
+        "segments": [
+          {
+            "raw": "湯沢産米提供補",
+            "start": 33949
+          },
+          {
+            "raw": "助",
+            "start": 34013
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 33949,
+        "context": "湯沢産米提供補 政策的 成果 判定 目標 評価 たが、郷土特産品への子どもの 評価\n141 150 教育課 教育係 重要 め。\n助"
+      },
+      {
+        "name": "湯沢中学校冬期補助教員配置",
+        "code": "151",
+        "serial": 142,
+        "codeStart": 34140,
+        "codeRaw": "142 151 教育課 教育係 通常 廃止 廃止 ら、廃止とする。 完了 る。",
+        "segments": [
+          {
+            "raw": "湯沢中学校冬期",
+            "start": 34093
+          },
+          {
+            "raw": "補助教員配置",
+            "start": 34180
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 34093,
+        "context": "湯沢中学校冬期 政策的 無 判定 教員の確保は困難であることか 行っていないことから完了とす\n142 151 教育課 教育係 通常 廃止 廃止 ら、廃止とする。 完了 る。\n補助教員配置"
+      },
+      {
+        "name": "奨学金貸与",
+        "code": "154",
+        "serial": 143,
+        "codeStart": 34343,
+        "codeRaw": "143 154 奨学金貸与 教育課 教育係 重要 将来社会に貢献し得る有能な 未達成",
+        "segments": [
+          {
+            "raw": "奨学金貸与",
+            "start": 34351
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 34343,
+        "context": "143 154 奨学金貸与 教育課 教育係 重要 将来社会に貢献し得る有能な 未達成"
+      },
+      {
+        "name": "湯沢学園生徒海外派遣事業",
+        "code": "160",
+        "serial": 144,
+        "codeStart": 34575,
+        "codeRaw": "144 160 教育課 教育係 重要 達成 継続 継続 協定を締結しているマグナとの 継続",
+        "segments": [
+          {
+            "raw": "湯沢学園生徒海",
+            "start": 34545
+          },
+          {
+            "raw": "外派遣事業",
+            "start": 34621
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 34545,
+        "context": "湯沢学園生徒海 政策的 がない限り、マグナと姉妹都市 成果\n144 160 教育課 教育係 重要 達成 継続 継続 協定を締結しているマグナとの 継続\n外派遣事業"
+      },
+      {
+        "name": "特別支援学級等介助員配置",
+        "code": "162",
+        "serial": 145,
+        "codeStart": 34830,
+        "codeRaw": "145 162 教育課 教育係 重要 できない、この時期だから真に 未達成 改善 継続 施する。 継続",
+        "segments": [
+          {
+            "raw": "特別支援学級等",
+            "start": 34781
+          },
+          {
+            "raw": "介助員配置",
+            "start": 34882
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 34781,
+        "context": "特別支援学級等 義務的 た教育環境で、この時期にしか 活動 執行方法 助員の配置事業は計画的に実\n145 162 教育課 教育係 重要 できない、この時期だから真に 未達成 改善 継続 施する。 継続\n介助員配置"
+      },
+      {
+        "name": "地域・家庭・学校連携促進事業",
+        "code": "166",
+        "serial": 146,
+        "codeStart": 35249,
+        "codeRaw": "146 166 教育課 教育係 重要 達成 継続 継続 業の補助、部活動の指導、図書 継続",
+        "segments": [
+          {
+            "raw": "地域・家庭・学校",
+            "start": 35218
+          },
+          {
+            "raw": "連携促進事業",
+            "start": 35295
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 35218,
+        "context": "地域・家庭・学校 準義務 成果 る。具体的な内容としては、授\n146 166 教育課 教育係 重要 達成 継続 継続 業の補助、部活動の指導、図書 継続\n連携促進事業"
+      },
+      {
+        "name": "タブレット学習支援ソフト導入",
+        "code": "199",
+        "serial": 147,
+        "codeStart": 35447,
+        "codeRaw": "147 199 教育課 教育係 重要 学習指導要領に盛り込まれた 完了 完了",
+        "segments": [
+          {
+            "raw": "タブレット学習支",
+            "start": 35425
+          },
+          {
+            "raw": "援ソフト導入",
+            "start": 35486
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 35425,
+        "context": "タブレット学習支 標準的 活動 判定 目標\n147 199 教育課 教育係 重要 学習指導要領に盛り込まれた 完了 完了\n援ソフト導入"
+      },
+      {
+        "name": "総合型スポーツクラブユースポ！中学生休日スポーツ教室",
+        "code": "212",
+        "serial": 148,
+        "codeStart": 35624,
+        "codeRaw": "148 212 教育課 教育係 重要 未達成 継続 が予想されることから、民間団 継続",
+        "segments": [
+          {
+            "raw": "総合型スポーツ",
+            "start": 35583
+          },
+          {
+            "raw": "クラブ",
+            "start": 35606
+          },
+          {
+            "raw": "ユース",
+            "start": 35610
+          },
+          {
+            "raw": "ポ！中学生休日",
+            "start": 35668
+          },
+          {
+            "raw": "スポーツ教室",
+            "start": 35700
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 35583,
+        "context": "総合型スポーツ 行の取り組みが求められること\nクラブ ユース 準義務 成果 目標\n148 212 教育課 教育係 重要 未達成 継続 が予想されることから、民間団 継続\nポ！中学生休日 的事業 指標 修正 体等への事務委託や補助金交\nスポーツ教室"
+      },
+      {
+        "name": "地区館",
+        "code": "159",
+        "serial": 149,
+        "codeStart": 35850,
+        "codeRaw": "149 159 地区館 教育課 教育係",
+        "segments": [
+          {
+            "raw": "地区館",
+            "start": 35858
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 35850,
+        "context": "149 159 地区館 教育課 教育係"
+      },
+      {
+        "name": "青少年健全育成",
+        "code": "169",
+        "serial": 150,
+        "codeStart": 35998,
+        "codeRaw": "150 169 青少年健全育成 教育課 教育係",
+        "segments": [
+          {
+            "raw": "青少年健全育成",
+            "start": 36006
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 35998,
+        "context": "150 169 青少年健全育成 教育課 教育係"
+      },
+      {
+        "name": "ジュニアスキー選手育成補助",
+        "code": "144",
+        "serial": 151,
+        "codeStart": 36210,
+        "codeRaw": "151 144 重要 くりが進められる。 達成 継続 継続 のまち湯沢のスキー振興を図 継続",
+        "segments": [
+          {
+            "raw": "ジュニアスキー選",
+            "start": 36156
+          },
+          {
+            "raw": "手育成補助",
+            "start": 36257
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 36156,
+        "context": "ジュニアスキー選 教育課 教育係 政策的 発掘、育成を目標とした環境づ 成果 指導者の発掘を継続し、スキー\n151 144 重要 くりが進められる。 達成 継続 継続 のまち湯沢のスキー振興を図 継続\n手育成補助"
+      },
+      {
+        "name": "生涯学習人材バンク",
+        "code": "145",
+        "serial": 152,
+        "codeStart": 36361,
+        "codeRaw": "152 145 教育課 教育係 重要 統廃合 統廃合",
+        "segments": [
+          {
+            "raw": "生涯学習人材バ",
+            "start": 36325
+          },
+          {
+            "raw": "ンク",
+            "start": 36388
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 36325,
+        "context": "生涯学習人材バ 政策的 の循環社会をつくるために必要 活動 判定 目標\n152 145 教育課 教育係 重要 統廃合 統廃合\nンク"
+      },
+      {
+        "name": "スキーリフト等共通乗車証購入補助",
+        "code": "146",
+        "serial": 153,
+        "codeStart": 36782,
+        "codeRaw": "153 146 通乗車証購入補 教育課 教育係",
+        "segments": [
+          {
+            "raw": "スキーリフト等共",
+            "start": 36751
+          },
+          {
+            "raw": "通乗車証購入補",
+            "start": 36790
+          },
+          {
+            "raw": "助",
+            "start": 36842
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 36751,
+        "context": "スキーリフト等共 一部を助成することでスキー人\n政策的 成果\n153 146 通乗車証購入補 教育課 教育係\n事業\n重要 指標\n達成 継続 継続 口の裾野を広げる。ウィンター 継続\n助"
+      },
+      {
+        "name": "公民館講座",
+        "code": "153",
+        "serial": 154,
+        "codeStart": 36960,
+        "codeRaw": "154 153 公民館講座 教育課 教育係",
+        "segments": [
+          {
+            "raw": "公民館講座",
+            "start": 36968
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 36960,
+        "context": "154 153 公民館講座 教育課 教育係"
+      },
+      {
+        "name": "図書室運営",
+        "code": "155",
+        "serial": 155,
+        "codeStart": 37131,
+        "codeRaw": "155 155 図書室運営 教育課 教育係",
+        "segments": [
+          {
+            "raw": "図書室運営",
+            "start": 37139
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 37131,
+        "context": "155 155 図書室運営 教育課 教育係"
+      },
+      {
+        "name": "総合型地域スポーツクラブ運営費補助",
+        "code": "157",
+        "serial": 156,
+        "codeStart": 37461,
+        "codeRaw": "156 157 ポーツクラブ運 教育課 教育係 継続",
+        "segments": [
+          {
+            "raw": "総合型地域ス",
+            "start": 37387
+          },
+          {
+            "raw": "ポーツクラブ運",
+            "start": 37469
+          },
+          {
+            "raw": "営費補助",
+            "start": 37512
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 37387,
+        "context": "総合型地域ス なければならないとなっている ポーツを通じ、地域の活性化及\n重要 ため。 継続 継続 び健康の保持増進等を図るこ\n政策的 活動 概ね\n156 157 ポーツクラブ運 教育課 教育係 継続\n事業 指標 達成 とができる。現在中学校の部活\n営費補助"
+      },
+      {
+        "name": "湯沢町スポーツ協会活動費補助金",
+        "code": "158",
+        "serial": 157,
+        "codeStart": 37751,
+        "codeRaw": "157 158 協会活動費補助 教育課 教育係 重要 るような諸条件の整備に努め",
+        "segments": [
+          {
+            "raw": "湯沢町スポーツ",
+            "start": 37694
+          },
+          {
+            "raw": "協会活動費補助",
+            "start": 37759
+          },
+          {
+            "raw": "金",
+            "start": 37815
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 37694,
+        "context": "湯沢町スポーツ じてスポーツをすることができ\n政策的 成果 判定 目標 評価 目標 と）を成果指標として評価する\n157 158 協会活動費補助 教育課 教育係 重要 るような諸条件の整備に努め\n事業 指標 不能 修正 しない 修正 こと。\n金"
+      },
+      {
+        "name": "湯沢町公民館修繕・改修",
+        "code": "161",
+        "serial": 158,
+        "codeStart": 37914,
+        "codeRaw": "158 161 教育課 教育係 重要",
+        "segments": [
+          {
+            "raw": "湯沢町公民館修",
+            "start": 37873
+          },
+          {
+            "raw": "繕・改修",
+            "start": 37933
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 37873,
+        "context": "湯沢町公民館修 義務的 無 判定 目標 評価 的事業であることから、評価し 評価\n158 161 教育課 教育係 重要\n繕・改修"
+      },
+      {
+        "name": "湯沢町公民館ホール設備修繕",
+        "code": "200",
+        "serial": 159,
+        "codeStart": 38240,
+        "codeRaw": "159 むまちづく 進 200 教育課 教育係 重要",
+        "segments": [
+          {
+            "raw": "湯沢町公民館",
+            "start": 38205
+          },
+          {
+            "raw": "ホール設備修繕",
+            "start": 38267
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 38205,
+        "context": "湯沢町公民館 準義務 無 判定 目標 評価 から、評価しない。 評価\n159 むまちづく 進 200 教育課 教育係 重要\nホール設備修繕"
+      },
+      {
+        "name": "湯沢町公民館管理等業務委託",
+        "code": "512",
+        "serial": 160,
+        "codeStart": 38381,
+        "codeRaw": "160 512 教育課 教育係 理事業 重要 達成 継続 継続 拠点となる施設の効率的な運 継続",
+        "segments": [
+          {
+            "raw": "湯沢町公民館管",
+            "start": 38370
+          },
+          {
+            "raw": "理等業務委託",
+            "start": 38430
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 38370,
+        "context": "湯沢町公民館管 成果\n160 512 教育課 教育係 理事業 重要 達成 継続 継続 拠点となる施設の効率的な運 継続\n理等業務委託"
+      },
+      {
+        "name": "芸術・文化の振興",
+        "code": "152",
+        "serial": 161,
+        "codeStart": 38637,
+        "codeRaw": "161 152 芸術・文化の振興 教育課 教育係 事業 重要 き、豊かな生活を送ることがで 指標 不能 修正 しない 修正 い直し、事業の単位・指標を見",
+        "segments": [
+          {
+            "raw": "芸術・文化の振興",
+            "start": 38645
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 38637,
+        "context": "161 152 芸術・文化の振興 教育課 教育係 事業 重要 き、豊かな生活を送ることがで 指標 不能 修正 しない 修正 い直し、事業の単位・指標を見"
+      },
+      {
+        "name": "川上四郎記念越後湯沢全国童画展（童画のまちづくり事業）",
+        "code": "156",
+        "serial": 162,
+        "codeStart": 38824,
+        "codeRaw": "162 156 重要 達成 継続 継続 客の目に触れる機会を増やして 継続",
+        "segments": [
+          {
+            "raw": "川上四郎記念",
+            "start": 38773
+          },
+          {
+            "raw": "越後湯沢全国童",
+            "start": 38801
+          },
+          {
+            "raw": "画展（童画のまち",
+            "start": 38862
+          },
+          {
+            "raw": "づくり事業）",
+            "start": 38881
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 38773,
+        "context": "川上四郎記念 いるため。 展示機会をとらえて住民や観光\n越後湯沢全国童 教育課 教育係 政策的 成果\n162 156 重要 達成 継続 継続 客の目に触れる機会を増やして 継続\n画展（童画のまち 事業 指標\nいく。\nづくり事業）"
+      },
+      {
+        "name": "文化財保護",
+        "code": "163",
+        "serial": 163,
+        "codeStart": 38977,
+        "codeRaw": "163 163 文化財保護 教育課 教育係 重要 未達成",
+        "segments": [
+          {
+            "raw": "文化財保護",
+            "start": 38985
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 38977,
+        "context": "163 163 文化財保護 教育課 教育係 重要 未達成"
+      },
+      {
+        "name": "資料館運営",
+        "code": "511",
+        "serial": 164,
+        "codeStart": 39157,
+        "codeRaw": "164 511 資料館運営 教育課 教育係 理事業 重要",
+        "segments": [
+          {
+            "raw": "資料館運営",
+            "start": 39165
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 39157,
+        "context": "164 511 資料館運営 教育課 教育係 理事業 重要"
+      },
+      {
+        "name": "湯沢町移住促進のための賃貸住宅家賃等補助金",
+        "code": "2",
+        "serial": 165,
+        "codeStart": 39428,
+        "codeRaw": "165 のまちづく 2 のための賃貸住 光課",
+        "segments": [
+          {
+            "raw": "湯沢町移住促進",
+            "start": 39376
+          },
+          {
+            "raw": "のための賃貸住",
+            "start": 39440
+          },
+          {
+            "raw": "宅家賃等補助金",
+            "start": 39495
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 39376,
+        "context": "湯沢町移住促進 ドルを下げることに繋がり、移 し、予算も縮小すること。\n企画観 政策的 成果 目標値が\n165 のまちづく 2 のための賃貸住 光課\n企画係\n事業\n重要 指標\n未達成\n過大\n縮小 継続 住定住の促進になるため。 縮小\nり 宅家賃等補助金"
+      },
+      {
+        "name": "空き家バンク運営業務",
+        "code": "3",
+        "serial": 166,
+        "codeStart": 39633,
+        "codeRaw": "166 3 企画係 重要 未達成 改善 統廃合 改善 標として引き続き評価すべきで",
+        "segments": [
+          {
+            "raw": "空き家バンク運",
+            "start": 39609
+          },
+          {
+            "raw": "営業務",
+            "start": 39675
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 39609,
+        "context": "空き家バンク運 企画観 政策的 活動 執行方法\n166 3 企画係 重要 未達成 改善 統廃合 改善 標として引き続き評価すべきで\n営業務"
+      },
+      {
+        "name": "空き家利活用のための家財道具等処分支援事業補助金",
+        "code": "4",
+        "serial": 167,
+        "codeStart": 40105,
+        "codeRaw": "167 4 企画係 通常 未達成 廃止 統廃合 廃止 べきものである。 廃止",
+        "segments": [
+          {
+            "raw": "空き家利活用の",
+            "start": 40051
+          },
+          {
+            "raw": "ための家財道具",
+            "start": 40081
+          },
+          {
+            "raw": "等処分支援事業",
+            "start": 40144
+          },
+          {
+            "raw": "補助金",
+            "start": 40164
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 40051,
+        "context": "空き家利活用の\nのまちづく 必要性については常に検証す\nり ための家財道具 企画観 政策的 活動 目標値が\n167 4 企画係 通常 未達成 廃止 統廃合 廃止 べきものである。 廃止\n等処分支援事業 光課 事業 指標 過大\n補助金"
+      },
+      {
+        "name": "移住促進のための住宅取得補助金",
+        "code": "14",
+        "serial": 168,
+        "codeStart": 40322,
+        "codeRaw": "168 14 の住宅取得補助 光課",
+        "segments": [
+          {
+            "raw": "移住促進のため",
+            "start": 40288
+          },
+          {
+            "raw": "の住宅取得補助",
+            "start": 40329
+          },
+          {
+            "raw": "金",
+            "start": 40379
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 40288,
+        "context": "移住促進のため していく必要がある。対象を、\n企画観 政策的 活動\n168 14 の住宅取得補助 光課\n企画係\n事業\n重要 指標\n達成 完了 改善 町内の賃貸物件に在住の子育 改善\n金"
+      },
+      {
+        "name": "移住定住のための新幹線通勤補助金",
+        "code": "15",
+        "serial": 169,
+        "codeStart": 40568,
+        "codeRaw": "169 15 の新幹線通勤補",
+        "segments": [
+          {
+            "raw": "移住定住のため",
+            "start": 40534
+          },
+          {
+            "raw": "の新幹線通勤補",
+            "start": 40575
+          },
+          {
+            "raw": "助金",
+            "start": 40626
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 40534,
+        "context": "移住定住のため するためにも、同様な補助制度\n企画観 政策的 活動\n169 15 の新幹線通勤補\n光課\n企画係\n事業\n重要 指標\n達成 完了 継続 を継続する必要がある。一方、 継続\n助金"
+      },
+      {
+        "name": "魚沼地域定住自立圏",
+        "code": "18",
+        "serial": 170,
+        "codeStart": 40776,
+        "codeRaw": "170 18 企画係 重要",
+        "segments": [
+          {
+            "raw": "魚沼地域定住自",
+            "start": 40731
+          },
+          {
+            "raw": "立圏",
+            "start": 40790
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 40731,
+        "context": "魚沼地域定住自 企画観 標準的 無 判定 目標 評価 いるが、定住自立圏事業全体と 評価\n170 18 企画係 重要\n立圏"
+      },
+      {
+        "name": "Ｕ・Ｉターンのための賃貸住宅家賃等補助金",
+        "code": "102",
+        "serial": 171,
+        "codeStart": 40919,
+        "codeRaw": "171 102 の賃貸住宅家賃 光課",
+        "segments": [
+          {
+            "raw": "Ｕ・Ｉターンのため",
+            "start": 40875
+          },
+          {
+            "raw": "の賃貸住宅家賃",
+            "start": 40927
+          },
+          {
+            "raw": "等補助金",
+            "start": 40977
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 40875,
+        "context": "Ｕ・Ｉターンのため 業に代替）。 に初回の交付決定を受けたも\n企画観 政策的 無 判定\n171 102 の賃貸住宅家賃 光課\n企画係\n事業\n通常 指標 不能\n廃止 廃止 完了 のに適用されるものであるた\n等補助金"
+      },
+      {
+        "name": "ワンストップ移住定住促進業務",
+        "code": "172",
+        "serial": 172,
+        "codeStart": 41127,
+        "codeRaw": "172 172 重要 達成 継続 継続",
+        "segments": [
+          {
+            "raw": "ワンストップ移住",
+            "start": 41091
+          },
+          {
+            "raw": "定住促進業務",
+            "start": 41147
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 41091,
+        "context": "ワンストップ移住 企画観 企画係 政策的 成果 目標 は継続できない。\n172 172 重要 達成 継続 継続\n定住促進業務"
+      },
+      {
+        "name": "湯沢町移住支援金交付事業",
+        "code": "173",
+        "serial": 173,
+        "codeStart": 41306,
+        "codeRaw": "173 173 企画係 重要 未達成 改善 改善 を検討のうえ継続とする。 改善",
+        "segments": [
+          {
+            "raw": "湯沢町移住支援",
+            "start": 41265
+          },
+          {
+            "raw": "金交付事業",
+            "start": 41347
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 41265,
+        "context": "湯沢町移住支援 企画観 政策的 め 成果 執行方法 いため、広報・周知方法の改善\n173 173 企画係 重要 未達成 改善 改善 を検討のうえ継続とする。 改善\n金交付事業"
+      },
+      {
+        "name": "湯沢町Ｕターン促進奨学金返還支援事業補助金",
+        "code": "211",
+        "serial": 174,
+        "codeStart": 41690,
+        "codeRaw": "174 211 促進奨学金返還 教育課 教育係 重要 とにより、町へのUターン促進 達成 継続 継続 継続",
+        "segments": [
+          {
+            "raw": "湯沢町Ｕターン",
+            "start": 41669
+          },
+          {
+            "raw": "促進奨学金返還",
+            "start": 41698
+          },
+          {
+            "raw": "支援事業補助金",
+            "start": 41767
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 41669,
+        "context": "湯沢町Ｕターン\nのまちづく 政策的 活動\n174 211 促進奨学金返還 教育課 教育係 重要 とにより、町へのUターン促進 達成 継続 継続 継続\nり 事業\nを図り、若者などの定住人口の 指標\n支援事業補助金"
+      },
+      {
+        "name": "社会保障・税番号制度関連整備事業",
+        "code": "20",
+        "serial": 175,
+        "codeStart": 41869,
+        "codeRaw": "175 20 制度関連整備事 総務課 総務係",
+        "segments": [
+          {
+            "raw": "社会保障・税番号",
+            "start": 41847
+          },
+          {
+            "raw": "制度関連整備事",
+            "start": 41876
+          },
+          {
+            "raw": "業",
+            "start": 41930
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 41847,
+        "context": "社会保障・税番号\n義務的 活動 評価 評価\n175 20 制度関連整備事 総務課 総務係\n事業\n重要 指標\n達成 継続 しない 引き続き、社会保障・税番号制 しない\n業"
+      },
+      {
+        "name": "情報政策支援業務",
+        "code": "22",
+        "serial": 176,
+        "codeStart": 42040,
+        "codeRaw": "176 22 総務課 総務係 重要 達成 継続 継続 続き、支援体制等で改善できる 継続",
+        "segments": [
+          {
+            "raw": "情報政策支援業",
+            "start": 42010
+          },
+          {
+            "raw": "務",
+            "start": 42085
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 42010,
+        "context": "情報政策支援業 準義務 活動 ついても成果が出ている。引き\n176 22 総務課 総務係 重要 達成 継続 継続 続き、支援体制等で改善できる 継続\n務"
+      },
+      {
+        "name": "特定個人情報監査支援業務",
+        "code": "23",
+        "serial": 177,
+        "codeStart": 42169,
+        "codeRaw": "177 23 総務課 総務係 重要 達成 継続 継続 る。 継続",
+        "segments": [
+          {
+            "raw": "特定個人情報監",
+            "start": 42139
+          },
+          {
+            "raw": "査支援業務",
+            "start": 42202
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 42139,
+        "context": "特定個人情報監 義務的 活動 り効果的な監査・研修を実施す\n177 23 総務課 総務係 重要 達成 継続 継続 る。 継続\n査支援業務"
+      },
+      {
+        "name": "地方税電子化促進事業",
+        "code": "38",
+        "serial": 178,
+        "codeStart": 42298,
+        "codeRaw": "178 38 税務課 重要",
+        "segments": [
+          {
+            "raw": "地方税電子化促",
+            "start": 42253
+          },
+          {
+            "raw": "進事業",
+            "start": 42312
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 42253,
+        "context": "地方税電子化促 住民税 義務的 無 判定 目標 評価 必要不可欠であるため評価しな 評価\n178 38 税務課 重要\n進事業"
+      },
+      {
+        "name": "預貯金等の調査業務電子化導入事業",
+        "code": "192",
+        "serial": 179,
+        "codeStart": 42430,
+        "codeRaw": "179 192 業務電子化導入 税務課 収納係",
+        "segments": [
+          {
+            "raw": "預貯金等の調査",
+            "start": 42400
+          },
+          {
+            "raw": "業務電子化導入",
+            "start": 42438
+          },
+          {
+            "raw": "事業",
+            "start": 42454
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 42400,
+        "context": "預貯金等の調査 本事業は、令和4年度のシステ\n標準的 活動\n179 192 業務電子化導入 税務課 収納係\n事業"
+      },
+      {
+        "name": "地域人権啓発活動",
+        "code": "48",
+        "serial": 180,
+        "codeStart": 42660,
+        "codeRaw": "180 48 町民課 重要 達成 継続 継続 への取り組みを内外に示す上で",
+        "segments": [
+          {
+            "raw": "地域人権啓発活",
+            "start": 42608
+          },
+          {
+            "raw": "動",
+            "start": 42698
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 42608,
+        "context": "地域人権啓発活 評価 あり、事務事業評価に適さない が必要。湯沢町の人権啓発活動\n町民窓 準義務 活動\n180 48 町民課 重要 達成 継続 継続 への取り組みを内外に示す上で\n動"
+      },
+      {
+        "name": "湯沢町人権教育・啓発推進計画策定",
+        "code": "175",
+        "serial": 181,
+        "codeStart": 42797,
+        "codeRaw": "181 175 啓発推進計画策 町民課 重要 統廃合 価する。 統廃合",
+        "segments": [
+          {
+            "raw": "湯沢町人権教育・",
+            "start": 42757
+          },
+          {
+            "raw": "啓発推進計画策",
+            "start": 42805
+          },
+          {
+            "raw": "定",
+            "start": 42849
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 42757,
+        "context": "湯沢町人権教育・ 統合し、今後は48番の中で評\n町民窓 準義務 無 判定 目標\n181 175 啓発推進計画策 町民課 重要 統廃合 価する。 統廃合\n口係 的事業 指標 不能 修正\n定"
+      },
+      {
+        "name": "ALL YOUTH YUZAWA",
+        "code": "1",
+        "serial": 182,
+        "codeStart": 43304,
+        "codeRaw": "182 1 企画係 重要 なお、あくまで、若年世代の活",
+        "segments": [
+          {
+            "raw": "ALL",
+            "start": 43268
+          },
+          {
+            "raw": "YOUTH",
+            "start": 43272
+          },
+          {
+            "raw": "YUZAWA",
+            "start": 43332
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 43268,
+        "context": "ALL YOUTH 企画観 政策的 成果 判定 目標 評価 目標 と。\n182 1 企画係 重要 なお、あくまで、若年世代の活\nYUZAWA"
+      },
+      {
+        "name": "リゾートマンション管理組合理事長等連絡会議",
+        "code": "10",
+        "serial": 183,
+        "codeStart": 43593,
+        "codeRaw": "183 10 ン管理組合理事 企画係 重要",
+        "segments": [
+          {
+            "raw": "リゾートマンショ",
+            "start": 43522
+          },
+          {
+            "raw": "ン管理組合理事",
+            "start": 43600
+          },
+          {
+            "raw": "長等連絡会議",
+            "start": 43667
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 43522,
+        "context": "リゾートマンショ 交換を行えるため\n企画観 政策的 成果 判定 目標 評価 り、事業そのものを評価するこ 目標 らわなければ意味がないので、\n183 10 ン管理組合理事 企画係 重要\n光課 事業 指標 不能 修正 しない とはそぐわないのではないか。 修正 参加した管理組合数を指標とし\n長等連絡会議"
+      },
+      {
+        "name": "リゾートマンション交流促進事業",
+        "code": "11",
+        "serial": 184,
+        "codeStart": 43759,
+        "codeRaw": "184 11 ン交流促進事業 光課",
+        "segments": [
+          {
+            "raw": "リゾートマンショ",
+            "start": 43724
+          },
+          {
+            "raw": "ン交流促進事業",
+            "start": 43766
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 43724,
+        "context": "リゾートマンショ ある。また、来町者増及び地元\n企画観 政策的 成果\n184 11 ン交流促進事業 光課"
+      },
+      {
+        "name": "南魚沼地域広域計画協議会",
+        "code": "19",
+        "serial": 185,
+        "codeStart": 43895,
+        "codeRaw": "185 19 企画係 重要",
+        "segments": [
+          {
+            "raw": "南魚沼地域広域",
+            "start": 43850
+          },
+          {
+            "raw": "計画協議会",
+            "start": 43909
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 43850,
+        "context": "南魚沼地域広域 企画観 準義務 無 判定 目標 評価 り、町単独で評価をすることは 評価\n185 19 企画係 重要\n計画協議会"
+      },
+      {
+        "name": "広報発行",
+        "code": "26",
+        "serial": 186,
+        "codeStart": 44052,
+        "codeRaw": "186 26 広報発行 企画係 重要",
+        "segments": [
+          {
+            "raw": "広報発行",
+            "start": 44059
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 44052,
+        "context": "186 26 広報発行 企画係 重要"
+      },
+      {
+        "name": "パブリックコメントの活用",
+        "code": "27",
+        "serial": 187,
+        "codeStart": 44254,
+        "codeRaw": "187 27 重要 達成 継続 しない",
+        "segments": [
+          {
+            "raw": "パブリックコメン",
+            "start": 44210
+          },
+          {
+            "raw": "トの活用",
+            "start": 44274
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 44210,
+        "context": "パブリックコメン 総務課 総務係 準義務 成果 評価 おける公正の確保及び透明性 評価\n187 27 重要 達成 継続 しない\nトの活用"
+      },
+      {
+        "name": "湯沢町ホームページ運用",
+        "code": "28",
+        "serial": 188,
+        "codeStart": 44513,
+        "codeRaw": "188 28 企画係 重要",
+        "segments": [
+          {
+            "raw": "湯沢町ホーム",
+            "start": 44468
+          },
+          {
+            "raw": "ページ運用",
+            "start": 44527
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 44468,
+        "context": "湯沢町ホーム 企画観 準義務 活動 判定 目標 評価 目標 を一体として評価できるよう、\n188 28 企画係 重要\nページ運用"
+      },
+      {
+        "name": "町内会運営費助成",
+        "code": "30",
+        "serial": 189,
+        "codeStart": 44888,
+        "codeRaw": "189 30 総務課 総務係 重要 達成 継続 継続 度末に全町内会から事業報告 継続",
+        "segments": [
+          {
+            "raw": "町内会運営費助",
+            "start": 44873
+          },
+          {
+            "raw": "成",
+            "start": 44938
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 44873,
+        "context": "町内会運営費助 準義務 活動\n189 30 総務課 総務係 重要 達成 継続 継続 度末に全町内会から事業報告 継続\nのまちづく 成"
+      },
+      {
+        "name": "議会だより作成",
+        "code": "170",
+        "serial": 190,
+        "codeStart": 45068,
+        "codeRaw": "190 170 議会だより作成 務局",
+        "segments": [
+          {
+            "raw": "議会だより作成",
+            "start": 45076
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 45068,
+        "context": "190 170 議会だより作成 務局"
+      },
+      {
+        "name": "湯沢町議会映像配信",
+        "code": "171",
+        "serial": 191,
+        "codeStart": 45342,
+        "codeRaw": "191 171 庶務係 重要 らず町外の視聴者も多く、議会 指標 継続 継続 継続",
+        "segments": [
+          {
+            "raw": "湯沢町議会映像",
+            "start": 45295
+          },
+          {
+            "raw": "配信",
+            "start": 45384
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 45295,
+        "context": "湯沢町議会映像 議会事 政策的 ものとなっている。町民のみな 活動 概ね ものとなっている。\n191 171 庶務係 重要 らず町外の視聴者も多く、議会 指標 継続 継続 継続\n配信"
+      },
+      {
+        "name": "エフエム雪国広報業務委託",
+        "code": "185",
+        "serial": 192,
+        "codeStart": 45489,
+        "codeRaw": "192 185 重要 達成 継続 継続 統廃合 と。",
+        "segments": [
+          {
+            "raw": "エフエム雪国広報",
+            "start": 45439
+          },
+          {
+            "raw": "業務委託",
+            "start": 45516
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 45439,
+        "context": "エフエム雪国広報 企画観 企画係 政策的 える重要なツールのため 活動 のうえ一体として評価するこ\n192 185 重要 達成 継続 継続 統廃合 と。\n業務委託"
+      },
+      {
+        "name": "地域力創造アドバイザー",
+        "code": "203",
+        "serial": 193,
+        "codeStart": 45594,
+        "codeRaw": "193 203 企画係 通常 廃止 廃止 完了 とする。",
+        "segments": [
+          {
+            "raw": "地域力創造アド",
+            "start": 45558
+          },
+          {
+            "raw": "バイザー",
+            "start": 45623
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 45558,
+        "context": "地域力創造アド 企画観 政策的 無 判定 降、制度の利用が無いため完了\n193 203 企画係 通常 廃止 廃止 完了 とする。\nバイザー"
+      },
+      {
+        "name": "ふるさと納税",
+        "code": "9",
+        "serial": 194,
+        "codeStart": 45703,
+        "codeRaw": "194 の推進 9 ふるさと納税 光課",
+        "segments": [
+          {
+            "raw": "ふるさと納税",
+            "start": 45713
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 45703,
+        "context": "194 の推進 9 ふるさと納税 光課"
+      },
+      {
+        "name": "旧小学校等の利活用",
+        "code": "17",
+        "serial": 195,
+        "codeStart": 45877,
+        "codeRaw": "195 17 企画係 重要",
+        "segments": [
+          {
+            "raw": "旧小学校等の利",
+            "start": 45832
+          },
+          {
+            "raw": "活用",
+            "start": 45891
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 45832,
+        "context": "旧小学校等の利 企画観 準義務 無 判定 目標 評価 目標 状況等を確認する必要があるこ\n195 17 企画係 重要\n活用"
+      },
+      {
+        "name": "地方公会計整備事業",
+        "code": "24",
+        "serial": 196,
+        "codeStart": 46026,
+        "codeRaw": "196 24 総務課 財政係 重要 達成 継続 しない していく余地がなく、評価する しない",
+        "segments": [
+          {
+            "raw": "地方公会計整備",
+            "start": 46005
+          },
+          {
+            "raw": "事業",
+            "start": 46073
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 46005,
+        "context": "地方公会計整備 準義務 活動 評価 評価\n196 24 総務課 財政係 重要 達成 継続 しない していく余地がなく、評価する しない\n事業"
+      },
+      {
+        "name": "職員研修",
+        "code": "29",
+        "serial": 197,
+        "codeStart": 46447,
+        "codeRaw": "197 29 職員研修 総務課 総務係 重要 縮小 町の集合研修(メンタルヘルス 縮小",
+        "segments": [
+          {
+            "raw": "職員研修",
+            "start": 46454
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 46447,
+        "context": "197 29 職員研修 総務課 総務係 重要 縮小 町の集合研修(メンタルヘルス 縮小"
+      },
+      {
+        "name": "定員管理の適正化",
+        "code": "31",
+        "serial": 198,
+        "codeStart": 46605,
+        "codeRaw": "198 31 総務課 総務係 重要",
+        "segments": [
+          {
+            "raw": "定員管理の適正",
+            "start": 46578
+          },
+          {
+            "raw": "化",
+            "start": 46623
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 46578,
+        "context": "定員管理の適正 準義務 活動 判定 目標 評価 評価\n198 31 総務課 総務係 重要\n化"
+      },
+      {
+        "name": "固定資産税評価替経費",
+        "code": "39",
+        "serial": 199,
+        "codeStart": 46715,
+        "codeRaw": "199 39 税務課 重要",
+        "segments": [
+          {
+            "raw": "固定資産税評価",
+            "start": 46670
+          },
+          {
+            "raw": "替経費",
+            "start": 46729
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 46670,
+        "context": "固定資産税評価 資産税 義務的 無 判定 目標 評価 するにあたり、基礎資料の作成 評価\n199 39 税務課 重要\n替経費"
+      },
+      {
+        "name": "不動産鑑定士による標準地等鑑定評価",
+        "code": "41",
+        "serial": 200,
+        "codeStart": 46851,
+        "codeRaw": "200 41 よる標準地等鑑 税務課 重要",
+        "segments": [
+          {
+            "raw": "不動産鑑定士に",
+            "start": 46792
+          },
+          {
+            "raw": "よる標準地等鑑",
+            "start": 46858
+          },
+          {
+            "raw": "定評価",
+            "start": 46901
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 46792,
+        "context": "不動産鑑定士に 料として、土地の適正な時価を\n資産税 義務的 無 判定 目標 評価 算定する必要不可欠な業務で 評価\n200 41 よる標準地等鑑 税務課 重要\n係 事業 指標 不能 修正 しない あるため。 しない\n定評価"
+      },
+      {
+        "name": "徴収会計年度任用職員配置",
+        "code": "42",
+        "serial": 201,
+        "codeStart": 47020,
+        "codeRaw": "201 42 税務課 収納係 重要 関係事務を分担し作業効率を 継続 継続 る。 継続",
+        "segments": [
+          {
+            "raw": "徴収会計年度任",
+            "start": 46973
+          },
+          {
+            "raw": "用職員配置",
+            "start": 47064
+          }
+        ],
+        "review": "Reviewed exact title fragments and unique code row in 2025 evaluation table; no prior-year values copied",
+        "contextStart": 46973,
+        "context": "徴収会計年度任 政策的 のためには滞納の調査等、収納 成果 概ね 体制で、事務効率を向上させ\n201 42 税務課 収納係 重要 関係事務を分担し作業効率を 継続 継続 る。 継続\n用職員配置"
+      }
+    ]
+  }
+];

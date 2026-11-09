@@ -1,0 +1,149 @@
+{
+  "phase": "Niigata first verified tranche; prefecture review remains open",
+  "candidateRecords": 954,
+  "stageTitleOnlyHolds": 160,
+  "sourceRows": 58,
+  "remainingSources": [
+    {
+      "sourceId": "c618b0278154a2ce4a34842f",
+      "municipalityName": "関川村",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger"
+    },
+    {
+      "sourceId": "e77278725a8fa73fd6a667e5",
+      "municipalityName": "関川村",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger"
+    },
+    {
+      "sourceId": "bab615ea66ba32eb330859d3",
+      "municipalityName": "関川村",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger"
+    },
+    {
+      "sourceId": "b5d1d1c70d5195d8c0c8a0a8",
+      "municipalityName": "関川村",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger"
+    },
+    {
+      "sourceId": "f5424b734a5898e1fedca578",
+      "municipalityName": "湯沢町",
+      "status": "duplicate",
+      "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    },
+    {
+      "sourceId": "3d577f4fc5807b7d69759367",
+      "municipalityName": "阿賀町",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger"
+    },
+    {
+      "sourceId": "182a077a731b5380c490a824",
+      "municipalityName": "田上町",
+      "status": "duplicate",
+      "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    },
+    {
+      "sourceId": "8416df8d82176176a5ca1162",
+      "municipalityName": "胎内市",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger"
+    },
+    {
+      "sourceId": "2a31060a1b7e0308fde609b7",
+      "municipalityName": "南魚沼市",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger"
+    },
+    {
+      "sourceId": "cc8167f2bb866446322e06a2",
+      "municipalityName": "魚沼市",
+      "status": "insufficient_evidence",
+      "reason": "Incomplete cached body without a verified complete-sheet boundary review; missing parts stay held"
+    },
+    {
+      "sourceId": "579fb8a88680ad4ef69912df",
+      "municipalityName": "佐渡市",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger"
+    },
+    {
+      "sourceId": "6ab2df3d59e3e8db970440f5",
+      "municipalityName": "佐渡市",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger"
+    },
+    {
+      "sourceId": "962abcd6de5761d55b421f85",
+      "municipalityName": "佐渡市",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger"
+    },
+    {
+      "sourceId": "66e41494d5fbbab57d8f3057",
+      "municipalityName": "阿賀野市",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger"
+    },
+    {
+      "sourceId": "d9bee616c82f2981821b7bae",
+      "municipalityName": "阿賀野市",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger"
+    },
+    {
+      "sourceId": "2c691ae7907456479dcf01b4",
+      "municipalityName": "上越市",
+      "status": "duplicate",
+      "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    },
+    {
+      "sourceId": "3d1a6ec65d57f9eb2816696c",
+      "municipalityName": "上越市",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger"
+    },
+    {
+      "sourceId": "a97e2e42d3ef80866908d59d",
+      "municipalityName": "五泉市",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial"
+    },
+    {
+      "sourceId": "e127a20bedce66c03596c99e",
+      "municipalityName": "妙高市",
+      "status": "missing_body",
+      "reason": "No saved text asset; acquisition held pending original stop ledger"
+    },
+    {
+      "sourceId": "81bb7c068b21ea5c6c3fc28b",
+      "municipalityName": "十日町市",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial"
+    },
+    {
+      "sourceId": "29f29c373bdcf5b84f84524f",
+      "municipalityName": "小千谷市",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial"
+    },
+    {
+      "sourceId": "b49d4c30011f34e096c030fc",
+      "municipalityName": "柏崎市",
+      "status": "duplicate",
+      "reason": "Supported parser outputs screened against current master; source coverage is not asserted complete"
+    },
+    {
+      "sourceId": "d988aef3581a596e117ed1e8",
+      "municipalityName": "長岡市",
+      "status": "unsupported_layout",
+      "reason": "No supported individual-sheet parser output; source layout requires review, not an access denial"
+    }
+  ],
+  "coverage": "Processed means accepted rows, not complete source coverage; remaining Sekikawa/Kariwa/Uonuma source-local rows and Joetsu year/title holds are separately staged. Gosen/Tokamachi/Ojiya/Nagaoka remain actionable.",
+  "municipalRequests": 0,
+  "productionRecordsAdded": 0
+}

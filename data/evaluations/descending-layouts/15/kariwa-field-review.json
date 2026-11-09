@@ -1,0 +1,115 @@
+{
+  "originalProposals": 151,
+  "reviewedNames": 144,
+  "directAmounts": 41,
+  "holds": [
+    {
+      "name": "マッチングシステム登録料補助金",
+      "field": "amount",
+      "proposedYen": 5500,
+      "reason": "Detached or typo-contaminated value association; no nearest-number mapping"
+    },
+    {
+      "name": "氏名の振り仮名登録改修委託",
+      "field": "amount",
+      "proposedYen": 15384516,
+      "reason": "Detached or typo-contaminated value association; no nearest-number mapping"
+    },
+    {
+      "name": "総合行政システム使用料",
+      "start": 12000,
+      "reason": "Named cost/equipment component without separate programme identity; not an additional business"
+    },
+    {
+      "name": "住基ネット機器リース料",
+      "start": 12057,
+      "reason": "Named cost/equipment component without separate programme identity; not an additional business"
+    },
+    {
+      "name": "物価高騰対策給付金",
+      "field": "amount",
+      "proposedYen": 34580000,
+      "reason": "Detached or typo-contaminated value association; no nearest-number mapping"
+    },
+    {
+      "name": "介護夜勤対応者等支援事業補助金",
+      "field": "amount",
+      "proposedYen": 395000,
+      "reason": "Detached or typo-contaminated value association; no nearest-number mapping"
+    },
+    {
+      "name": "ひとり親等家庭医療費",
+      "field": "amount",
+      "proposedYen": 3160300,
+      "reason": "Detached or typo-contaminated value association; no nearest-number mapping"
+    },
+    {
+      "name": "経営所得安定対策推進事業補助金",
+      "field": "amount",
+      "proposedYen": 1870000,
+      "reason": "Detached or typo-contaminated value association; no nearest-number mapping"
+    },
+    {
+      "name": "県営鯖石川下流地区農用地保全施設整備事業負担金",
+      "field": "amount",
+      "proposedYen": 44901462,
+      "reason": "Detached or typo-contaminated value association; no nearest-number mapping"
+    },
+    {
+      "name": "中越沖地震復興支援（制度資金による支援)",
+      "field": "amount",
+      "proposedYen": 5374163,
+      "reason": "Detached or typo-contaminated value association; no nearest-number mapping"
+    },
+    {
+      "name": "スクールバス運行管理業務委託",
+      "field": "amount",
+      "proposedYen": 4630504,
+      "reason": "Detached or typo-contaminated value association; no nearest-number mapping"
+    },
+    {
+      "name": "新潟県小中学校等統合型校務支援システム構築業務委託",
+      "field": "amount",
+      "proposedYen": 28070240,
+      "reason": "Detached or typo-contaminated value association; no nearest-number mapping"
+    },
+    {
+      "name": "部活動地域移行事業負担金",
+      "field": "amount",
+      "proposedYen": 507239,
+      "reason": "Detached or typo-contaminated value association; no nearest-number mapping"
+    },
+    {
+      "name": "小学校児童用教材費",
+      "start": 19532,
+      "reason": "Named cost/equipment component without separate programme identity; not an additional business"
+    },
+    {
+      "name": "中学校生徒用教材費",
+      "start": 19547,
+      "reason": "Named cost/equipment component without separate programme identity; not an additional business"
+    },
+    {
+      "name": "中学校教師用指導書・指導者用デジタル教科書",
+      "start": 19562,
+      "reason": "Named cost/equipment component without separate programme identity; not an additional business"
+    },
+    {
+      "name": "ふるさと納税返礼品",
+      "start": 11289,
+      "reason": "Named cost/equipment component without separate programme identity; not an additional business"
+    },
+    {
+      "name": "生産性向上促進補助金",
+      "field": "amount",
+      "proposedYen": 11038500,
+      "reason": "Detached or typo-contaminated value association; no nearest-number mapping"
+    },
+    {
+      "name": "防災行政無線屋外拡声子局装置",
+      "start": 18761,
+      "reason": "Named cost/equipment component without separate programme identity; not an additional business"
+    }
+  ],
+  "policy": "Named programmes/contracted activities in FY2024 settlement, not scored evaluation sheets. No parent/child sum, no inferred detached values. 388 yen is explicit care-management office expense, not care benefit total. Existing fields untouched."
+}
