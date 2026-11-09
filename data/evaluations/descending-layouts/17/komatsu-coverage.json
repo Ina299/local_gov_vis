@@ -1,0 +1,378 @@
+{
+  "sourceId": "014f5506d214ec30a928b3c7",
+  "textSha256": "3a328b6090cb5c2134191e1528c5d05f490d7f2f5fd2da9e4b8d944f9404c2d3",
+  "individualSheetHeaders": 46,
+  "matchedExistingIdentities": 46,
+  "newRecords": 0,
+  "fieldCoverage": "not asserted;existing values preserved",
+  "rows": [
+    {
+      "header": 1,
+      "start": 9526,
+      "raw": "l 事業名 グッドマナーキャンペーン事業\n継続 生涯学習課",
+      "existingId": "cached-17203-8b7cde8931f4ab0176a36204",
+      "projectName": "グッドマナーキャンペーン事業",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 2,
+      "start": 10346,
+      "raw": "Ｐ 事業名 少年育成センター事業\nl 継続 生涯学習課",
+      "existingId": "cached-17203-b08e7c9a85c1c5deb558965a",
+      "projectName": "少年育成センター事業",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 3,
+      "start": 11056,
+      "raw": "l 事業名 小松っ子を育てる市民会議\n継続 生涯学習課",
+      "existingId": "cached-17203-3c0d2c3f5ec87b75a5fd4270",
+      "projectName": "小松っ子を育てる市民会議",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 4,
+      "start": 11936,
+      "raw": "小松市社会教育賞\nl 事業名\n小松市スマイルハート賞 継続 生涯学習課",
+      "existingId": "cached-17203-cfb8e150aebb6f689266b62b",
+      "projectName": "小松市社会教育賞・小松市スマイルハート賞",
+      "reason": "Exact individual-sheet title, joined wrapped title; grouped social-education awards retain existing single identity"
+    },
+    {
+      "header": 5,
+      "start": 12695,
+      "raw": "事業名 自然の中で五感を使った野外体験\n継続 農山村創生課",
+      "existingId": "cached-17203-d2e90d785e67087c32123807",
+      "projectName": "自然の中で五感を使った野外体験",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 6,
+      "start": 14065,
+      "raw": "l 事業名 西俣自然教室管理運営事業\n継続 農山村創生課",
+      "existingId": "cached-17203-5dee7557118a60c55c30c740",
+      "projectName": "西俣自然教室管理運営事業",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 7,
+      "start": 14937,
+      "raw": "l 事業名 放課後児童クラブ運営事業\n継続 生涯学習課",
+      "existingId": "cached-17203-5f4136c2a541397a0a75be38",
+      "projectName": "放課後児童クラブ運営事業",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 8,
+      "start": 15727,
+      "raw": "l 事業名 学校評価システム\n継続 学校教育課",
+      "existingId": "cached-17203-0bc7395af5b77e25e9be8190",
+      "projectName": "学校評価システム",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 9,
+      "start": 16521,
+      "raw": "l 事業名 学力向上事業\n継続 学校教育課",
+      "existingId": "cached-17203-2e0396a3ce95083dc644308b",
+      "projectName": "学力向上事業",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 10,
+      "start": 17362,
+      "raw": "l 事業名 学校研究支援事業\n継続 学校教育課",
+      "existingId": "cached-17203-b228b7a29e518b6f5bbe1a1e",
+      "projectName": "学校研究支援事業",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 11,
+      "start": 18154,
+      "raw": "l 事業名 ICTを活用した学びの推進\n継続 教育研究センター",
+      "existingId": "cached-17203-c79875a2d01575afa38281e2",
+      "projectName": "ICTを活用した学びの推進",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 12,
+      "start": 19435,
+      "raw": "l 事業名 研究、研修事業\n継続 教育研究センター",
+      "existingId": "cached-17203-0f55e2a5248b0934b4d0017e",
+      "projectName": "研究、研修事業",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 13,
+      "start": 20555,
+      "raw": "総合的な探究の時間の充実による生徒の主体\nl 事業名\n性・社会性の育成 継続 小松市立高校",
+      "existingId": "cached-17203-3d1fd375c9774545d196374b",
+      "projectName": "総合的な探究の時間の充実による生徒の主体性・社会性の育成",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 14,
+      "start": 21739,
+      "raw": "l 事業名 ＩＣＴを活用した学習の展開\n継続 小松市立高校",
+      "existingId": "cached-17203-2e111ee2ec03f27e9f2c647f",
+      "projectName": "ＩＣＴを活用した学習の展開",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 15,
+      "start": 22791,
+      "raw": "l 事業名 英語力・コミュニケーション能力の育成\n継続 小松市立高校",
+      "existingId": "cached-17203-f72299ea347a3d9ef45776dd",
+      "projectName": "英語力・コミュニケーション能力の育成",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 16,
+      "start": 23949,
+      "raw": "l 事業名 道徳教育推進事業\n継続 学校教育課",
+      "existingId": "cached-17203-4fd1249a94597f2694dc68b1",
+      "projectName": "道徳教育推進事業",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 17,
+      "start": 24743,
+      "raw": "l 事業名 キャリア教育推進事業\n継続 学校教育課",
+      "existingId": "cached-17203-acd7ef9760b07381929bca81",
+      "projectName": "キャリア教育推進事業",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 18,
+      "start": 25393,
+      "raw": "l 事業名 いじめ・不登校対応事業\n継続 学校教育課",
+      "existingId": "cached-17203-48ae8a2a58a2be59928aa734",
+      "projectName": "いじめ・不登校対応事業",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 19,
+      "start": 26218,
+      "raw": "l 事業名 学校及び家庭との連携を目指した教育相談体制づくり\n継続 教育研究センター",
+      "existingId": "cached-17203-cca986483302723be568f390",
+      "projectName": "学校及び家庭との連携を目指した教育相談体制づくり",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 20,
+      "start": 27377,
+      "raw": "l 事業名 令和７年小松市成人式～二十歳のつどい～\n継続 生涯学習課",
+      "existingId": "cached-17203-2622b25fd38c493a59b10e13",
+      "projectName": "令和７年小松市成人式～二十歳のつどい～",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 21,
+      "start": 28079,
+      "raw": "l 事業名 公民館活動推進事業\n継続 生涯学習課",
+      "existingId": "cached-17203-ace66083993b85ede189cfc6",
+      "projectName": "公民館活動推進事業",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 22,
+      "start": 28711,
+      "raw": "l 事業名 こまつ市民大学（第７期）\n継続 生涯学習課",
+      "existingId": "cached-17203-ac1675a0e6b6197476db8d0d",
+      "projectName": "こまつ市民大学（第７期）",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 23,
+      "start": 29531,
+      "raw": "l 事業名 生涯学習施設の運営\n継続 生涯学習課",
+      "existingId": "cached-17203-0f24d9b07a222eacfbfc95d2",
+      "projectName": "生涯学習施設の運営",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 24,
+      "start": 30137,
+      "raw": "l 事業名 青少年育成団体活動への支援事業\n継続 生涯学習課",
+      "existingId": "cached-17203-ca901a935642ee56be3cc11a",
+      "projectName": "青少年育成団体活動への支援事業",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 25,
+      "start": 30712,
+      "raw": "l 事業名 読書活動の推進\n継続 図書館",
+      "existingId": "cached-17203-03ab2278f3ade663d8a0aebd",
+      "projectName": "読書活動の推進",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 26,
+      "start": 31610,
+      "raw": "l 事業名 読書活動の推進（おはなし会）\n継続 空とこども絵本館",
+      "existingId": "cached-17203-be2c78e24a1867aff063f647",
+      "projectName": "読書活動の推進（おはなし会）",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 27,
+      "start": 32527,
+      "raw": "l 事業名 読書活動の推進（出張絵本館）\n継続 空とこども絵本館",
+      "existingId": "cached-17203-6c9e59fb0fa259a51d6553d6",
+      "projectName": "読書活動の推進（出張絵本館）",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 28,
+      "start": 33231,
+      "raw": "l 事業名 読書活動の推進（よんでよんで）\n継続 空とこども絵本館",
+      "existingId": "cached-17203-6bd04040a6c72b079174b027",
+      "projectName": "読書活動の推進（よんでよんで）",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 29,
+      "start": 34005,
+      "raw": "学校施設のリニューアル\nl 事業名\n（小中学校校舎等改修費） 継続 教育庶務課",
+      "existingId": "cached-17203-a2662005fb22bb11d49da3f6",
+      "projectName": "学校施設のリニューアル（小中学校校舎等改修費）",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 30,
+      "start": 34898,
+      "raw": "l 事業名 松陽中学校整備費\n継続 教育庶務課",
+      "existingId": "cached-17203-c1e4d935f270627c548e6dfc",
+      "projectName": "松陽中学校整備費",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 31,
+      "start": 35591,
+      "raw": "教育環境の改善及び充実\nl 事業名\n（小中学校校舎等営繕費） 継続 教育庶務課",
+      "existingId": "cached-17203-2c1d85308b0a15d5c29a041c",
+      "projectName": "教育環境の改善及び充実（小中学校校舎等営繕費）",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 32,
+      "start": 36551,
+      "raw": "教育環境の改善及び充実\nl 事業名\n（安全・安心な学校づくり費） 継続 教育庶務課",
+      "existingId": "cached-17203-6312568c085c99e7b96177d8",
+      "projectName": "教育環境の改善及び充実（安全・安心な学校づくり費）",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 33,
+      "start": 37403,
+      "raw": "l 事業名 ICT教育環境推進\n継続 教育研究センター",
+      "existingId": "cached-17203-2ef9b139616587e3fae01637",
+      "projectName": "ICT教育環境推進",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 34,
+      "start": 38188,
+      "raw": "外国人児童生徒日本語初期指導\nl 事業名\n（日本語指導、キャリア教育） 継続 学校教育課",
+      "existingId": "cached-17203-a60f41b8049b3868cbbb7558",
+      "projectName": "外国人児童生徒日本語初期指導（日本語指導、キャリア教育）",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 35,
+      "start": 39034,
+      "raw": "l 事業名 家庭、地域と連携した食育の推進\n継続 学校教育課",
+      "existingId": "cached-17203-73add51791c8a36cc8793edd",
+      "projectName": "家庭、地域と連携した食育の推進",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 36,
+      "start": 39963,
+      "raw": "l 事業名 おいしい学校給食の提供\n継続 学校教育課",
+      "existingId": "cached-17203-e15f3c024152ee5b70364be9",
+      "projectName": "おいしい学校給食の提供",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 37,
+      "start": 40670,
+      "raw": "l 事業名 体育教育推進事業\n継続 学校教育課",
+      "existingId": "cached-17203-c583fa914dafb9c4171117b0",
+      "projectName": "体育教育推進事業",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 38,
+      "start": 41557,
+      "raw": "l 事業名 「楽しむ、学ぶ、挑む」サイエンスの推進\n継続 ひととものづくり科学館",
+      "existingId": "cached-17203-5cb017aab4bbfc5fd7213e43",
+      "projectName": "「楽しむ、学ぶ、挑む」サイエンスの推進",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 39,
+      "start": 42434,
+      "raw": "学校とひととものづくり科学館、教育研究セン\nl 事業名\nターの連携（教育施設としての活用） 継続 ひととものづくり科学館",
+      "existingId": "cached-17203-d688f32a640433a8db5af548",
+      "projectName": "学校とひととものづくり科学館、教育研究センターの連携（教育施設としての活用）",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 40,
+      "start": 43609,
+      "raw": "学校とひととものづくり科学館と教育研究セン\nl 事業名\nターの連携 継続 教育研究センター",
+      "existingId": "cached-17203-9f00d130c0d3e986c3cb011e",
+      "projectName": "学校とひととものづくり科学館と教育研究センターの連携",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 41,
+      "start": 44637,
+      "raw": "l 事業名 子供歌舞伎勧進帳上演事業\n継続 生涯学習課",
+      "existingId": "cached-17203-363bf43cc5b96b8a6c9fde62",
+      "projectName": "子供歌舞伎勧進帳上演事業",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 42,
+      "start": 45424,
+      "raw": "l 事業名 郷土の歴史・文化の継承と啓発活動（市史編纂事業）\n継続 図書館",
+      "existingId": "cached-17203-81d4ad6d731d16c8a5a5ff0f",
+      "projectName": "郷土の歴史・文化の継承と啓発活動（市史編纂事業）",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 43,
+      "start": 45958,
+      "raw": "l 事業名 SDGs推進事業\n継続 学校教育課",
+      "existingId": "cached-17203-f4592e283b3150a96482689d",
+      "projectName": "SDGs推進事業",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 44,
+      "start": 46653,
+      "raw": "l 事業名 国際都市こまつ青少年交流事業\n継続 生涯学習課",
+      "existingId": "cached-17203-9a84c8861148ac3f2e7929b9",
+      "projectName": "国際都市こまつ青少年交流事業",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 45,
+      "start": 47320,
+      "raw": "l 事業名 留学生支援事業\na 継続 生涯学習課",
+      "existingId": "cached-17203-b9911da40493a13d66007912",
+      "projectName": "留学生支援事業",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    },
+    {
+      "header": 46,
+      "start": 47903,
+      "raw": "l 事業名 英語教育推進事業\n継続 学校教育課",
+      "existingId": "cached-17203-ace23b38659f1b17008a6f82",
+      "projectName": "英語教育推進事業",
+      "reason": "Exact individual-sheet title including wrapped fragments"
+    }
+  ]
+}

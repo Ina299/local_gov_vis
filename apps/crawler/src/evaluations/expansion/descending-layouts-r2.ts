@@ -1,3 +1,8 @@
+import{reviewNanao}from'./descending-ishikawa-nanao';
+import{reviewKaga}from'./descending-ishikawa-kaga';
+import{reviewNonoichi}from'./descending-ishikawa-nonoichi';
+import{reviewUchinada}from'./descending-ishikawa-uchinada';
+import{reviewNakanoto}from'./descending-ishikawa-nakanoto';
 import{reviewFukuiEducation}from'./descending-fukui-education';
 import{reviewTsuruga}from'./descending-fukui-tsuruga';
 import{reviewOoi2017}from'./descending-fukui-ooi-2017';
@@ -146,6 +151,11 @@ export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]
  const fukuiooi_2017Review=reviewOoi2017(input);if(fukuiooi_2017Review)return fukuiooi_2017Review;
  const fukuitsurugaReview=reviewTsuruga(input);if(fukuitsurugaReview)return fukuitsurugaReview;
  const fukuieducationReview=reviewFukuiEducation(input);if(fukuieducationReview)return fukuieducationReview;
+ const ishikawanakanotoReview=reviewNakanoto(input);if(ishikawanakanotoReview)return ishikawanakanotoReview;
+ const ishikawauchinadaReview=reviewUchinada(input);if(ishikawauchinadaReview)return ishikawauchinadaReview;
+ const ishikawanonoichiReview=reviewNonoichi(input);if(ishikawanonoichiReview)return ishikawanonoichiReview;
+ const ishikawakagaReview=reviewKaga(input);if(ishikawakagaReview)return ishikawakagaReview;
+ const ishikawananaoReview=reviewNanao(input);if(ishikawananaoReview)return ishikawananaoReview;
  const grantsReview=reviewNaganoGrants(input);if(grantsReview)return grantsReview;
  const strategyReview=reviewStrategy(input);if(strategyReview)return strategyReview;
  const nagisoReview=reviewNagiso(input);if(nagisoReview)return nagisoReview;

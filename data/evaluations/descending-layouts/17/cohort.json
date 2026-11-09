@@ -1,0 +1,127 @@
+{
+  "prefecture": "17",
+  "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-09T22:03:57.899760+00:00",
+  "unpublishedUserChanges": "not observable;collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "17463",
+      "municipalityName": "能登町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "6de10dabe5dbfee0d79d598f787440efcb7e9a2a9e3cf7ff54a77fa22b17f0d6"
+    },
+    {
+      "municipalityCode": "17461",
+      "municipalityName": "穴水町",
+      "datasetSha256": "a14a84ba3b4fc3f4f136931e0176f20236cccebb303a459920a9775a16ca8638",
+      "evidenceShardSha256": "d48239dd484b6e38c81392ddcff02896d2f49b4805c9b23b53c4021c3d9a31b6"
+    },
+    {
+      "municipalityCode": "17407",
+      "municipalityName": "中能登町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "8656a0fe8e4916af7459b16895d95bb9d0be319e0696c8c6509607003d06a97f"
+    },
+    {
+      "municipalityCode": "17386",
+      "municipalityName": "宝達志水町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "37d03f812b61fd67c510849e88038ecc67540e520480d57fa4bfb93f9e116eca"
+    },
+    {
+      "municipalityCode": "17384",
+      "municipalityName": "志賀町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "dad970f755048379622de195d0913a9a9424293dcb50bb8165cc58da7c04737e"
+    },
+    {
+      "municipalityCode": "17365",
+      "municipalityName": "内灘町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "fef3726fcab2dd5a671f4abdc1efd5b7ff969d3afafac1b6c34dde3b2f502d25"
+    },
+    {
+      "municipalityCode": "17361",
+      "municipalityName": "津幡町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "aad7679954ac3fe7e439538311b927610c6b8bd23c7dbe3ca24b4cceecc822ab"
+    },
+    {
+      "municipalityCode": "17324",
+      "municipalityName": "川北町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "038a5e3cdcb415e8f5dbe47d7fbd0c1fe09f2e5031a526fe2d13000fa07fb61d"
+    },
+    {
+      "municipalityCode": "17212",
+      "municipalityName": "野々市市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ef29b14d69d09ce6e3f66c792afadf8ef80c06985484963cd25a1b778e1e6584"
+    },
+    {
+      "municipalityCode": "17211",
+      "municipalityName": "能美市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "b1e4a543978881527003883c158d8044593c9e33c9177d7d4cf71907dd4f2695"
+    },
+    {
+      "municipalityCode": "17210",
+      "municipalityName": "白山市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "cfa11a02e4a244906fca3881e3618f2a390f2e24b945aaf7f492a38f97553c87"
+    },
+    {
+      "municipalityCode": "17209",
+      "municipalityName": "かほく市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "76033d1526955c8a370be0064cfba3e59c80f2e4114ea9f1731d1e090a11c991"
+    },
+    {
+      "municipalityCode": "17207",
+      "municipalityName": "羽咋市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "9eb66efb0e6308e5b14a2109e9a531edb0404b3e905dc77bca6b89a1097634c5"
+    },
+    {
+      "municipalityCode": "17206",
+      "municipalityName": "加賀市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a24772195be2d56ede8038c4742a6c2d282b653bd39b07d5abbbb2505bad7f13"
+    },
+    {
+      "municipalityCode": "17205",
+      "municipalityName": "珠洲市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "fc4991c4086a5a8956b3c20e22dc3636189cf49afb85acd456ed66f4e0a96dfa"
+    },
+    {
+      "municipalityCode": "17203",
+      "municipalityName": "小松市",
+      "datasetSha256": "823f785e06ab8aa12b047364bbb17cf3cdd677672c3d815cc91e4b2f0fe3ad78",
+      "evidenceShardSha256": "d95cbd06a49e02bc3b08a530516f48acc42bffab6829d2d92149e332cbbfb8fd"
+    },
+    {
+      "municipalityCode": "17202",
+      "municipalityName": "七尾市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "34f7e221298a13d99d89540d3737794b3f36deaa057ff370b02cb4ef0141a77b"
+    },
+    {
+      "municipalityCode": "17201",
+      "municipalityName": "金沢市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "55091b0b889ca0efda9e6933c9658ec8b97f8074f122e2c02acffba611874dee"
+    }
+  ],
+  "skipped": [
+    {
+      "municipalityCode": "17204",
+      "municipalityName": "輪島市",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    }
+  ],
+  "rule": "Only exact unchanged dataset/evidence hashes; retain original exclusions; never update baseline hashes to silence mismatch."
+}

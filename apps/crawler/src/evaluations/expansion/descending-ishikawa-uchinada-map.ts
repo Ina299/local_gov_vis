@@ -1,0 +1,19 @@
+export const reviewed = [
+  {
+    "municipalityCode": "17365",
+    "municipalityName": "内灘町",
+    "sourceId": "600d4ed7f92c4dbfb86f35ab",
+    "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/kikaku/20799.html",
+    "sourceSha256": "d4a5500c2e6561455342c01d2ec4aacb43c1eac905a9cd4c0d963a953455d74f",
+    "textSha256": "71d7850a36201ebd456e8992a4d073c779da26f0859217a553c27fa3ed749968",
+    "yearProof": "このたび、平成27年度地域公共交通確保維持事業（地域内フィーダー系統確保維持）の事業評価を行いましたので、その結果を公表します。",
+    "yearProofStart": 156,
+    "rows": [
+      {
+        "name": "地域公共交通確保維持事業（地域内フィーダー系統確保維持）",
+        "raw": "地域公共交通確保維持事業（地域内フィーダー系統確保維持）",
+        "start": 167
+      }
+    ]
+  }
+];

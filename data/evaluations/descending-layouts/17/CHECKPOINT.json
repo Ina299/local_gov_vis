@@ -1,0 +1,33 @@
+{
+  "candidateRecords": 122,
+  "perMunicipality": {
+    "中能登町": 38,
+    "内灘町": 1,
+    "野々市市": 11,
+    "加賀市": 10,
+    "七尾市": 62
+  },
+  "validatedCumulativeCandidates": 30338,
+  "validatedEvidence": 88082,
+  "separateSets": {
+    "Okinawa": 1084,
+    "initial": 93
+  },
+  "previousHead": "afc6791ca5818d8bec3691a7c9b0c61fb4b53af1",
+  "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0,
+  "checks": {
+    "focused": "15/15",
+    "crawler": "913/913",
+    "web": "256/256;serial",
+    "typecheck": "passed",
+    "lint": "passed;existingfontwarning",
+    "national": "passed branch baseline",
+    "static": "109/109 subpath",
+    "quotes": "30338 candidates /88082 quotes"
+  },
+  "remoteCI": "unverified;known ActionsAPI403 not retried",
+  "remaining": "6missingbodies;1multi-year identity hold;1cross-municipality source-provenance technical hold;14navigation;existing47identities preserved. Toyama46 and Niigata proposals separately staged;not nationwidecompletion."
+}

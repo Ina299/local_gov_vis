@@ -1,0 +1,373 @@
+{
+  "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "selectedMunicipalities": 18,
+  "excluded": [
+    "17204 輪島市"
+  ],
+  "sources": 32,
+  "hashVerifiedBodies": 26,
+  "listedContinuationParts": 0,
+  "stageProposals": 122,
+  "stageMunicipalities": 5,
+  "productionAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0,
+  "dispositions": {
+    "missing_body": 6,
+    "period_identity_hold": 1,
+    "existing_identity_coverage": 2,
+    "navigation_no_individual_sheet": 14,
+    "stage_proposals": 8,
+    "cross_municipality_provenance_hold": 1
+  },
+  "rows": [
+    {
+      "municipalityCode": "17463",
+      "municipalityName": "能登町",
+      "sourceId": "257e09acda0a41ec3742644b",
+      "url": "https://www.town.noto.lg.jp/chosei/shingikai/2416.html",
+      "title": "能登町公共事業再評価委員会会議録",
+      "disposition": "missing_body",
+      "reason": "No listed cached text body or continuations. No municipal request attempted; not a claim of present denial. Acquisition requires recovered original holds manifests/cumulative provenance ledger."
+    },
+    {
+      "municipalityCode": "17463",
+      "municipalityName": "能登町",
+      "sourceId": "a18235141c514b304a7596ae",
+      "url": "https://www.town.noto.lg.jp/material/files/group/6/0000019302.pdf",
+      "title": "地域再生計画（地方創生道整備推進交付金）事後評価調書",
+      "cachedCharacters": 2625,
+      "textSha256": "8afd0f8e22e0191153a18b6882f4ed6dabbb137f59f867c1c57926c2a7fda992",
+      "disposition": "period_identity_hold",
+      "reason": "能登町のH27〜R元年度複数年度道整備計画。市道/林道の整備量と関連助成金等は明記されるが、個別事業の単年度評価年・対象年度を確定する記述なし。最終目標R元を個別事業の実施/評価年度に代用しない。元の道路交付金データを保持。必要条件:個別事業の明示年度又は期間対応を扱う別スキーマ。"
+    },
+    {
+      "municipalityCode": "17461",
+      "municipalityName": "穴水町",
+      "sourceId": "db67b3c69f9e1f7ffb47c1d6",
+      "url": "https://www.town.anamizu.lg.jp/page/108043.html",
+      "title": "高度無線環境整備推進事業（令和2年度）における中間評価結果について｜穴水町（総務課）",
+      "cachedCharacters": 727,
+      "textSha256": "f9f83188698dc732851eb18e4fd2937498a058a0ec277c186a9610cb6715adb7",
+      "disposition": "existing_identity_coverage",
+      "reason": "穴水町の高度無線環境整備推進事業1件は既存同ID。R2〜R3整備とR5/R6/R7実績は同事業の後年指標であり新規事業3件を作らない。後年指標への既存値更新は今回の独立候補範囲外。"
+    },
+    {
+      "municipalityCode": "17407",
+      "municipalityName": "中能登町",
+      "sourceId": "f5d276210f1cef4294cfa55d",
+      "url": "https://www.town.nakanoto.ishikawa.jp/soshiki/kaigo/1/2/9719.html",
+      "title": "第9期介護保険事業計画の自己評価結果について",
+      "cachedCharacters": 457,
+      "textSha256": "3a11d65039d393143ac229ce71df5ffb6ab3145e385f3c8f417d9c9a94c95e1b",
+      "disposition": "navigation_no_individual_sheet",
+      "reason": "4自己評価PDFの案内。4本文は別途検証して38年度別名称を提案済み。案内から重複生成しない。"
+    },
+    {
+      "municipalityCode": "17407",
+      "municipalityName": "中能登町",
+      "sourceId": "a50e929139bb160ebb5b7e77",
+      "url": "https://www.town.nakanoto.ishikawa.jp/material/files/group/18/2026052501.pdf",
+      "title": "介護予防_取組と目標に対する自己評価シート (PDFファイル: 348.6KB)",
+      "cachedCharacters": 3719,
+      "textSha256": "6d10baa7709c7a744ded807d265929b9d712dca6f272c8907bf6efeb038a8164",
+      "disposition": "stage_proposals",
+      "candidateCount": 22,
+      "reason": "Hash/identity/year/exact quote checks and master/archived ID/name-year/source decision comparison passed; full integrated validation still pending."
+    },
+    {
+      "municipalityCode": "17407",
+      "municipalityName": "中能登町",
+      "sourceId": "a275275b42ed3e46f1eeb438",
+      "url": "https://www.town.nakanoto.ishikawa.jp/material/files/group/18/2025052502.pdf",
+      "title": "認知症施策_取組と目標に対する自己評価シート (PDFファイル: 287.6KB)",
+      "cachedCharacters": 1647,
+      "textSha256": "586c0abea5c45741be3c561eb6eab2d351fbbe95a2c37d84fd1cdc074e32e003",
+      "disposition": "stage_proposals",
+      "candidateCount": 4,
+      "reason": "Hash/identity/year/exact quote checks and master/archived ID/name-year/source decision comparison passed; full integrated validation still pending."
+    },
+    {
+      "municipalityCode": "17407",
+      "municipalityName": "中能登町",
+      "sourceId": "4bce72764e6b50e5044b0202",
+      "url": "https://www.town.nakanoto.ishikawa.jp/material/files/group/18/2026052503.pdf",
+      "title": "相談支援体制_取組と目標に対する自己評価シート (PDFファイル: 280.4KB)",
+      "cachedCharacters": 1377,
+      "textSha256": "b913c5c759ec973c695142aae7e26c0252deebb7e2bc35a3ea1b866761eac598",
+      "disposition": "stage_proposals",
+      "candidateCount": 6,
+      "reason": "Hash/identity/year/exact quote checks and master/archived ID/name-year/source decision comparison passed; full integrated validation still pending."
+    },
+    {
+      "municipalityCode": "17407",
+      "municipalityName": "中能登町",
+      "sourceId": "ecf58ed32b02cf2b2acc4d05",
+      "url": "https://www.town.nakanoto.ishikawa.jp/material/files/group/18/2026052504.pdf",
+      "title": "給付適正化_取組と目標に対する自己評価シート (PDFファイル: 206.9KB)",
+      "cachedCharacters": 2041,
+      "textSha256": "284d4448d130818417c6079551136913e019d69c35917b8de52da4009137b5f8",
+      "disposition": "stage_proposals",
+      "candidateCount": 6,
+      "reason": "Hash/identity/year/exact quote checks and master/archived ID/name-year/source decision comparison passed; full integrated validation still pending."
+    },
+    {
+      "municipalityCode": "17386",
+      "municipalityName": "宝達志水町",
+      "sourceId": "1d369643270525959e8f5046",
+      "url": "https://www.hodatsushimizu.jp/material/files/group/4/hyouka.pdf",
+      "title": "地域再生計画 地方創生道整備推進交付金 中間評価",
+      "cachedCharacters": 4884,
+      "textSha256": "314400482d6f3a85d2b020f3230bb014212778602064cc17c5c09a3f6f5a74e5",
+      "disposition": "cross_municipality_provenance_hold",
+      "reason": "宝達志水町保管の広域R3〜R7計画。列挙事業の実施主体は他自治体・県であり宝達志水町に帰属させない。R5実績のある珠洲・羽咋・志賀・七尾の行は原文上識別可能だが、同一ハッシュの登録は17386だけ。現在の候補検証器は自治体別原典登録との一致を要求するため、共有原典を別自治体へ帰属させる監査可能な入力対応が必要。除外中の輪島行は対象外。評価委員会はR6.8開催予定で結果完了を断定しない。"
+    },
+    {
+      "municipalityCode": "17384",
+      "municipalityName": "志賀町",
+      "sourceId": "1b1db91a5601c3457a49b998",
+      "url": "https://www.town.shika.lg.jp/life/7/24/95/",
+      "title": "財政 評価報告書への入口",
+      "cachedCharacters": 202,
+      "textSha256": "e74be01384700138d117def7931856a9843bb448bc76051d6ac72d8e4aa032dd",
+      "disposition": "navigation_no_individual_sheet",
+      "reason": "財政資料の分類入口。個別事務事業票・年度別名称なし。"
+    },
+    {
+      "municipalityCode": "17365",
+      "municipalityName": "内灘町",
+      "sourceId": "600d4ed7f92c4dbfb86f35ab",
+      "url": "https://www.town.uchinada.lg.jp/soshiki/kikaku/20799.html",
+      "title": "地域公共交通確保維持改善事業に関する事業評価を公表します - 内灘町公式ホームページ",
+      "cachedCharacters": 693,
+      "textSha256": "71d7850a36201ebd456e8992a4d073c779da26f0859217a553c27fa3ed749968",
+      "disposition": "stage_proposals",
+      "candidateCount": 1,
+      "reason": "Hash/identity/year/exact quote checks and master/archived ID/name-year/source decision comparison passed; full integrated validation still pending."
+    },
+    {
+      "municipalityCode": "17361",
+      "municipalityName": "津幡町",
+      "sourceId": "0002c7aeb7cc9f74e3b3f0de",
+      "url": "https://www.town.tsubata.lg.jp/page/1645.html",
+      "title": "津幡町教育委員会点検・評価報告 - 津幡町ホームページ（教育総務課）",
+      "cachedCharacters": 599,
+      "textSha256": "8f5409f50658e90e0b8182a88083a9cc3f4f11f85d49e233a656e3b34a88836b",
+      "disposition": "navigation_no_individual_sheet",
+      "reason": "教育評価制度説明とR3〜R7報告書リンクのみ。個別票本文なし。"
+    },
+    {
+      "municipalityCode": "17361",
+      "municipalityName": "津幡町",
+      "sourceId": "e46ac6366e635e18add8c0ac",
+      "url": "https://www.town.tsubata.lg.jp/division/kyouikusoumu/%E4%BB%A4%E5%92%8C%EF%BC%94%E5%B9%B4%E5%BA%A6%E6%95%99%E8%82%B2%E5%A7%94%E5%93%A1%E4%BC%9A%E7%82%B9%E6%A4%9C%E3%83%BB%E8%A9%95%E4%BE%A1%E5%A0%B1%E5%91%8A%E6%9B%B8%EF%BC%88%E6%9C%80%E7%B5%82%E7%89%88%EF%BC%89.pdf",
+      "title": "教育委員会点検・評価報告書",
+      "disposition": "missing_body",
+      "reason": "No listed cached text body or continuations. No municipal request attempted; not a claim of present denial. Acquisition requires recovered original holds manifests/cumulative provenance ledger."
+    },
+    {
+      "municipalityCode": "17324",
+      "municipalityName": "川北町",
+      "sourceId": "d635aa95f309c5f62f6039b6",
+      "url": "https://www.town.kawakita.ishikawa.jp/archives/001/202503/R5%E5%B9%B4%E5%BA%A6%20%E6%B4%BB%E5%8B%95%E3%81%A8%E8%A9%95%E4%BE%A1%20HP%E7%94%A8.pdf",
+      "title": "１ 教育委員会事務の点検・評価について",
+      "disposition": "missing_body",
+      "reason": "No listed cached text body or continuations. No municipal request attempted; not a claim of present denial. Acquisition requires recovered original holds manifests/cumulative provenance ledger."
+    },
+    {
+      "municipalityCode": "17324",
+      "municipalityName": "川北町",
+      "sourceId": "abc76438e1b39e97dad99830",
+      "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/kyouiku/",
+      "title": "教育委員会事務の点検・評価（掲載案内）",
+      "disposition": "missing_body",
+      "reason": "No listed cached text body or continuations. No municipal request attempted; not a claim of present denial. Acquisition requires recovered original holds manifests/cumulative provenance ledger."
+    },
+    {
+      "municipalityCode": "17324",
+      "municipalityName": "川北町",
+      "sourceId": "6ae019fc5a6444172fd74cd6",
+      "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/kyouiku/entry-855.html",
+      "title": "令和６年度教育委員会事務の点検・評価について",
+      "disposition": "missing_body",
+      "reason": "No listed cached text body or continuations. No municipal request attempted; not a claim of present denial. Acquisition requires recovered original holds manifests/cumulative provenance ledger."
+    },
+    {
+      "municipalityCode": "17212",
+      "municipalityName": "野々市市",
+      "sourceId": "08d6fa59ba8c3b8c080e8e7f",
+      "url": "https://www.city.nonoichi.lg.jp/uploaded/attachment/26511.pdf",
+      "title": "1 令和3年度に実施した行政評価の結果について",
+      "cachedCharacters": 36959,
+      "textSha256": "ff8088204ad4d0e5072457d6b7c1af28d07d71c51c4cc81fce775b52a35102d1",
+      "disposition": "stage_proposals",
+      "candidateCount": 11,
+      "reason": "Hash/identity/year/exact quote checks and master/archived ID/name-year/source decision comparison passed; full integrated validation still pending."
+    },
+    {
+      "municipalityCode": "17212",
+      "municipalityName": "野々市市",
+      "sourceId": "480aa89f10b5a800308d0bbf",
+      "url": "https://www.city.nonoichi.lg.jp/soshiki/33/634.html",
+      "title": "教育委員会事務の点検・評価の公表 - 野々市市ホームページ",
+      "cachedCharacters": 279,
+      "textSha256": "8b6682e6cd4419061ac2b9b6df7526777996193846ddb4a59c48380f92a81851",
+      "disposition": "navigation_no_individual_sheet",
+      "reason": "教育評価R2〜R6分報告書リンクのみ。個別票本文なし。"
+    },
+    {
+      "municipalityCode": "17212",
+      "municipalityName": "野々市市",
+      "sourceId": "c719e5788f13b532f69c0a52",
+      "url": "https://www.city.nonoichi.lg.jp/life/4/35/177/",
+      "title": "行政評価 - 野々市市ホームページ",
+      "cachedCharacters": 121,
+      "textSha256": "34a89911c50a2b040cbc68c3571f9973670a4e8844a8398e42bbcd8dcfb5396e",
+      "disposition": "navigation_no_individual_sheet",
+      "reason": "取得時点の空カテゴリ。未公開とは断定しない。"
+    },
+    {
+      "municipalityCode": "17212",
+      "municipalityName": "野々市市",
+      "sourceId": "cf81bf75ef108ffc19a63e9f",
+      "url": "https://www.city.nonoichi.lg.jp/soshiki/4/903.html",
+      "title": "行政評価 - 野々市市ホームページ",
+      "cachedCharacters": 584,
+      "textSha256": "0dcd208c1294ff4717c9ee2623b4adf9a169a27e3da1d7633e30d381b47cde6f",
+      "disposition": "navigation_no_individual_sheet",
+      "reason": "行政評価制度・沿革・過去評価リンクのみ。個別名称なし。"
+    },
+    {
+      "municipalityCode": "17211",
+      "municipalityName": "能美市",
+      "sourceId": "4fb1cdda49f681f9888f9a29",
+      "url": "https://www.city.nomi.ishikawa.jp/www/contents/1001000000035/files/1shigoto.pdf",
+      "title": "【しごとづくり】1施策評価書",
+      "disposition": "missing_body",
+      "reason": "No listed cached text body or continuations. No municipal request attempted; not a claim of present denial. Acquisition requires recovered original holds manifests/cumulative provenance ledger."
+    },
+    {
+      "municipalityCode": "17210",
+      "municipalityName": "白山市",
+      "sourceId": "a906b0f9137e9a75d6e095b7",
+      "url": "https://www.city.hakusan.lg.jp/shisei/gyosei/index.html",
+      "title": "行政経営｜白山市公式ホームページ",
+      "cachedCharacters": 197,
+      "textSha256": "cf3d689a5878b3cce5ccf1a0b7425d7fd5883789227abba1b4e1169b3c93ffcf",
+      "disposition": "navigation_no_individual_sheet",
+      "reason": "行政経営施策カテゴリ。独立事業と対象年度が示されない。"
+    },
+    {
+      "municipalityCode": "17209",
+      "municipalityName": "かほく市",
+      "sourceId": "73c0d693b77f9da14cd36084",
+      "url": "https://www.city.kahoku.lg.jp/006/635/d001472.html",
+      "title": "議会による行政評価について | 石川県かほく市公式サイト",
+      "cachedCharacters": 1003,
+      "textSha256": "1cb4e6b097db730b4bd65adbf06bd8c29c692292d48425fe7db311ebe9603519",
+      "disposition": "navigation_no_individual_sheet",
+      "reason": "議会評価手順とH26〜R7決算評価報告書へのリンク。個別事業票なし。"
+    },
+    {
+      "municipalityCode": "17207",
+      "municipalityName": "羽咋市",
+      "sourceId": "9928560250d4033ee5feb7e4",
+      "url": "https://www.city.hakui.lg.jp/soshiki/soumubu/machizukuri/1/1/index.html",
+      "title": "事業計画・評価／羽咋市公式ホームページ",
+      "cachedCharacters": 365,
+      "textSha256": "a604cbd9e6f8eaf28b4a92bc3fd86f89e3f20f7bd52ee1caea2aed1cf558da43",
+      "disposition": "navigation_no_individual_sheet",
+      "reason": "会議・計画記事一覧。児童見守り等の見出しは評価票と対象年度を示さない。"
+    },
+    {
+      "municipalityCode": "17206",
+      "municipalityName": "加賀市",
+      "sourceId": "b0f911abd6fd6ff7f24aaf96",
+      "url": "https://www.city.kaga.ishikawa.jp/shisei_gikai/gyosei_hyoka/11607.html",
+      "title": "【プレスリリース】令和5年度行政評価「公開外部評価会」を開催します",
+      "cachedCharacters": 158,
+      "textSha256": "4f5d6408c3469ebe66c06134eb98e7b03733e0933a05b1fe58d995e37665ea18",
+      "disposition": "navigation_no_individual_sheet",
+      "reason": "外部評価会開催予定の案内。添付PDFの内部評価10名称を別途提案済み。"
+    },
+    {
+      "municipalityCode": "17206",
+      "municipalityName": "加賀市",
+      "sourceId": "fefb4b1dd2c54db75f6d8309",
+      "url": "https://www.city.kaga.ishikawa.jp/shisei_gikai/gyosei_hyoka/index.html",
+      "title": "行政評価／加賀市",
+      "cachedCharacters": 125,
+      "textSha256": "1e18b11a0462c326f367c45fa1b1f428e1b14f5b4fd8869bf22709079ba9ac00",
+      "disposition": "navigation_no_individual_sheet",
+      "reason": "評価カテゴリ。個別事業・年度が示されない。"
+    },
+    {
+      "municipalityCode": "17206",
+      "municipalityName": "加賀市",
+      "sourceId": "568e82ce15c49c81cbf3bed6",
+      "url": "https://www.city.kaga.ishikawa.jp/material/files/group/14/1117press.pdf",
+      "title": "令和5年度行政評価「公開外部評価会」を開催します (PDFファイル: 577.8KB)",
+      "cachedCharacters": 1540,
+      "textSha256": "bd4436e73f3001d9f4c30a77244ae948ccfb05f06fa0ff2addd4ef4ac522e8d6",
+      "disposition": "stage_proposals",
+      "candidateCount": 10,
+      "reason": "Hash/identity/year/exact quote checks and master/archived ID/name-year/source decision comparison passed; full integrated validation still pending."
+    },
+    {
+      "municipalityCode": "17205",
+      "municipalityName": "珠洲市",
+      "sourceId": "87b457dc3c18c583031dfea1",
+      "url": "https://www.city.suzu.lg.jp/life/3/26/142/",
+      "title": "行政評価 - 珠洲市ホームページ",
+      "cachedCharacters": 112,
+      "textSha256": "427e7b26f020a96210f09394db9d57eb5246e6610a3e956df44a9f36ce7ce8d8",
+      "disposition": "navigation_no_individual_sheet",
+      "reason": "個人情報保護評価一覧への入口。個別事務事業評価票なし。"
+    },
+    {
+      "municipalityCode": "17203",
+      "municipalityName": "小松市",
+      "sourceId": "014f5506d214ec30a928b3c7",
+      "url": "https://www.city.komatsu.lg.jp/material/files/group/35/tenkenhyokaR7.pdf",
+      "title": "教育委員会事務事業点検・評価報告書（令和6年度事業対象）",
+      "cachedCharacters": 49535,
+      "textSha256": "3a328b6090cb5c2134191e1528c5d05f490d7f2f5fd2da9e4b8d944f9404c2d3",
+      "disposition": "existing_identity_coverage",
+      "reason": "46個別票の名称・折返し断片を46既存IDと一対一照合済み。komatsu-coverage.json参照。既存フィールドは変更せず、全フィールド網羅は主張しない。"
+    },
+    {
+      "municipalityCode": "17203",
+      "municipalityName": "小松市",
+      "sourceId": "332848f883db1b061fd071b1",
+      "url": "https://www.city.komatsu.lg.jp/soshiki/1002/index.html",
+      "title": "行政経営室／小松市ホームページ",
+      "cachedCharacters": 319,
+      "textSha256": "d013dfa3c7d87228bd75a21238018231f77e05cfb3fa3d17c09df158549973db",
+      "disposition": "navigation_no_individual_sheet",
+      "reason": "組織所掌業務と計画リンク。独立事業票ではない。"
+    },
+    {
+      "municipalityCode": "17202",
+      "municipalityName": "七尾市",
+      "sourceId": "3e0e3acf87f40fc6bfa6ee78",
+      "url": "https://www.city.nanao.lg.jp/kyouiku/kurashi/kosodate/inkai/documents/r4_tenkenhyoukakekkahoukoku.pdf",
+      "title": "教育に関する事務の管理及び執行の点検評価結果報告",
+      "cachedCharacters": 51709,
+      "textSha256": "207c02037a74a46e3f3d22acdbc1d1a22309e6c02fa32f6736461aeb8ac4ea00",
+      "disposition": "stage_proposals",
+      "candidateCount": 62,
+      "reason": "Hash/identity/year/exact quote checks and master/archived ID/name-year/source decision comparison passed; full integrated validation still pending."
+    },
+    {
+      "municipalityCode": "17201",
+      "municipalityName": "金沢市",
+      "sourceId": "7039e681f028fb17c5ee132f",
+      "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/gyouseikeiei/index.html",
+      "title": "行政経営課／金沢市公式ホームページ いいね金沢",
+      "cachedCharacters": 159,
+      "textSha256": "5d825bbfbb4ac4fe902de388bb38c9cc7d6be999bdab6c29d57d6370b38ca263",
+      "disposition": "navigation_no_individual_sheet",
+      "reason": "部署案内と問い合わせ先。個別事業票なし。"
+    }
+  ]
+}
