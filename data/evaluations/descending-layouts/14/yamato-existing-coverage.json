@@ -1,0 +1,6481 @@
+{
+  "municipalityCode": "14213",
+  "name": "大和市",
+  "sourceId": "92446c342a781e5ded7aa27f",
+  "sourceUrl": "https://www.city.yamato.lg.jp/material/files/group/7/r7jimujigyouhyouka_ichiran.pdf",
+  "sourceSha256": "28226110cab28cf9fae334d4ad8a947878eb753029e73df2b836e6306cebc363",
+  "textSha256": "3ba84c406b8cd19b5e0f6afa517ea2294fcef9a3ae907f1278bc5108491e445a",
+  "dataset": "evaluations-composed/14213-993338657ee275a7fbeaba8cb797651a8bc7cec79aab0d07298c3d4a7830162a.json",
+  "datasetSha256": "993338657ee275a7fbeaba8cb797651a8bc7cec79aab0d07298c3d4a7830162a",
+  "sourceRows": 801,
+  "coveredUniqueRows": 801,
+  "acceptedAdditions": 0,
+  "scope": "Exact source row position/hash coverage. Wrapped names retain existing values and are separately recorded; no re-adoption or field overwrite.",
+  "wrappedExistingNames": [
+    {
+      "id": "cached-14213-5a49046e4d7e59faf046689c",
+      "name": "ｅＬＴＡＸ（地方税ポータルシステム）運用事業",
+      "raw": "ｅＬＴＡＸ（地方税ポータルシステム）運用事\n市民税課 変化に対応できる行政経営 Ⅰ\n業"
+    },
+    {
+      "id": "cached-14213-24b4c4d5597ea905a6279576",
+      "name": "コミュニティセンター下鶴間会館移転整備事業（令和6～7年度継続費）",
+      "raw": "コミュニティセンター下鶴間会館移転整備事業\nつながり推進課 地域の絆が深く、多様性を認め合うまち Ⅲ\n（令和6～7年度継続費）"
+    },
+    {
+      "id": "cached-14213-cdfa72ade991b8cacd989d2a",
+      "name": "新しい公共を創造する市民活動推進基金管理事務",
+      "raw": "新しい公共を創造する市民活動推進基金管理事\nつながり推進課 地域の絆が深く、多様性を認め合うまち Ⅰ\n務"
+    },
+    {
+      "id": "cached-14213-c7fe31832108a44805212d3c",
+      "name": "自然観察センター・しらかしのいえ管理運営事業",
+      "raw": "自然観察センター・しらかしのいえ管理運営事\nみどり公園課 人と環境に優しい都市空間が広がるまち Ⅰ\n業"
+    },
+    {
+      "id": "cached-14213-8ed293ba7e70194bef8f656f",
+      "name": "（公財）かながわトラストみどり財団に関する事業",
+      "raw": "（公財）かながわトラストみどり財団に関する\nみどり公園課 人と環境に優しい都市空間が広がるまち Ⅰ\n事業"
+    },
+    {
+      "id": "cached-14213-f46bd01a773871973e69b4ec",
+      "name": "引地台公園・温水プール・立体駐車場管理運営事業",
+      "raw": "引地台公園・温水プール・立体駐車場管理運営\nみどり公園課 人と環境に優しい都市空間が広がるまち Ⅰ\n事業"
+    },
+    {
+      "id": "cached-14213-a299dd0c18c48974dcf1b8ee",
+      "name": "大和スタジアム・つきみ野野球場・宮久保野球場施設管理運営事業",
+      "raw": "大和スタジアム・つきみ野野球場・宮久保野球\nスポーツ×ライフ課 いつまでもみんなが元気でいられるまち Ⅰ\n場施設管理運営事業"
+    },
+    {
+      "id": "cached-14213-909d95b2c276d06349dbc5fd",
+      "name": "電力・ガス・食料品等価格高騰重点支援給付金事業",
+      "raw": "電力・ガス・食料品等価格高騰重点支援給付金\n福祉総務課 みんなが支え合うまち Ⅲ\n事業"
+    },
+    {
+      "id": "cached-14213-9ed91e4b3b1c752e2020b088",
+      "name": "特定地域型保育事業所等第三者委員会設置運営事務",
+      "raw": "特定地域型保育事業所等第三者委員会設置運営\nこども総務課 将来を切りひらくことのできるこどもが育つまち Ⅰ\n事務"
+    },
+    {
+      "id": "cached-14213-bdb21ea52929f5de3139a61d",
+      "name": "大和駅周辺まちづくり推進事業用地維持管理事務",
+      "raw": "大和駅周辺まちづくり推進事業用地維持管理事\nまちづくり推進課 人と環境に優しい都市空間が広がるまち Ⅰ\n務"
+    },
+    {
+      "id": "cached-14213-eeb53865a30c47792ff3687d",
+      "name": "渋谷（南部地区）土地区画整理事業換地清算徴収金管理事業",
+      "raw": "渋谷（南部地区）土地区画整理事業換地清算徴\nまちづくり推進課 人と環境に優しい都市空間が広がるまち Ⅰ\n収金管理事業"
+    }
+  ],
+  "records": [
+    {
+      "id": "cached-14213-e9b0e6e52d178f3bceb7be92",
+      "projectName": "基地政策渉外・要請等活動事業",
+      "span": [
+        115,
+        161
+      ]
+    },
+    {
+      "id": "cached-14213-9e044ff3ea09a74adf8ec083",
+      "projectName": "騒音測定事業",
+      "span": [
+        162,
+        200
+      ]
+    },
+    {
+      "id": "cached-14213-d751214947397f527759e349",
+      "projectName": "自主防災組織支援事業",
+      "span": [
+        201,
+        243
+      ]
+    },
+    {
+      "id": "cached-14213-28fca4548908d97cd9e7bf92",
+      "projectName": "総合防災訓練運営事業",
+      "span": [
+        244,
+        286
+      ]
+    },
+    {
+      "id": "cached-14213-8c847961ddc93ce08bd17d6c",
+      "projectName": "防災備蓄品等維持管理事業",
+      "span": [
+        287,
+        331
+      ]
+    },
+    {
+      "id": "cached-14213-e6dcf3e76411db7471953128",
+      "projectName": "災害対策本部運営等事業",
+      "span": [
+        332,
+        375
+      ]
+    },
+    {
+      "id": "cached-14213-65879cb8c8be4c72116b08d5",
+      "projectName": "地域コミュニティ活動支援事業",
+      "span": [
+        376,
+        429
+      ]
+    },
+    {
+      "id": "cached-14213-82d6fd69594f93a7550fbe29",
+      "projectName": "コミュニティセンター管理運営事業",
+      "span": [
+        430,
+        485
+      ]
+    },
+    {
+      "id": "cached-14213-48c28887c0db89abb3060f8a",
+      "projectName": "市民活動推進事業",
+      "span": [
+        486,
+        533
+      ]
+    },
+    {
+      "id": "cached-14213-13aa7c774cf79c3a5f23746d",
+      "projectName": "市民活動センター管理運営事業",
+      "span": [
+        534,
+        587
+      ]
+    },
+    {
+      "id": "cached-14213-64d5a2a1324730903fbe602d",
+      "projectName": "消費者啓発事業",
+      "span": [
+        588,
+        627
+      ]
+    },
+    {
+      "id": "cached-14213-9e68635e1f32b11a48234139",
+      "projectName": "消費生活相談事業",
+      "span": [
+        628,
+        668
+      ]
+    },
+    {
+      "id": "cached-14213-8d81a90efd0e76665a5ef7da",
+      "projectName": "人権啓発事業",
+      "span": [
+        669,
+        715
+      ]
+    },
+    {
+      "id": "cached-14213-53038f84a0bee19d0f961a39",
+      "projectName": "男女共同参画意識啓発事業",
+      "span": [
+        716,
+        768
+      ]
+    },
+    {
+      "id": "cached-14213-8c9b35a36d020aaefd289228",
+      "projectName": "審議会等女性参加促進事業",
+      "span": [
+        769,
+        821
+      ]
+    },
+    {
+      "id": "cached-14213-ac0dd37d2d6fb62dec66062b",
+      "projectName": "海外友好都市等交流事業",
+      "span": [
+        822,
+        873
+      ]
+    },
+    {
+      "id": "cached-14213-3238574cd53e5d92f193234b",
+      "projectName": "国際化推進事業",
+      "span": [
+        874,
+        921
+      ]
+    },
+    {
+      "id": "cached-14213-89be34e52d5b77a68f56c5ed",
+      "projectName": "国際化協会支援事業",
+      "span": [
+        922,
+        971
+      ]
+    },
+    {
+      "id": "cached-14213-cc9a8d0ee6193bda2e1e73fb",
+      "projectName": "平和都市推進事業",
+      "span": [
+        972,
+        1020
+      ]
+    },
+    {
+      "id": "cached-14213-b91538c94df3f6d505bf9767",
+      "projectName": "地域防犯活動支援事業",
+      "span": [
+        1021,
+        1067
+      ]
+    },
+    {
+      "id": "cached-14213-83528e9d171c60d0c83b0058",
+      "projectName": "地域防犯活動推進事業",
+      "span": [
+        1068,
+        1114
+      ]
+    },
+    {
+      "id": "cached-14213-bde500ef7b49eb8d176c42f8",
+      "projectName": "大和駅周辺防犯特別対策事業",
+      "span": [
+        1115,
+        1164
+      ]
+    },
+    {
+      "id": "cached-14213-f056bb01862810949ba54336",
+      "projectName": "交通安全啓発事業",
+      "span": [
+        1165,
+        1209
+      ]
+    },
+    {
+      "id": "cached-14213-5730b797d37a0d7233027fad",
+      "projectName": "放置自転車対策事業",
+      "span": [
+        1210,
+        1260
+      ]
+    },
+    {
+      "id": "cached-14213-d5b6272320910a2202a3f136",
+      "projectName": "大和商工会議所運営支援事業",
+      "span": [
+        1261,
+        1304
+      ]
+    },
+    {
+      "id": "cached-14213-eac794c798d5e936ff4f636a",
+      "projectName": "商業振興活性化事業",
+      "span": [
+        1305,
+        1344
+      ]
+    },
+    {
+      "id": "cached-14213-bed3e4d97e4f5f1941dfe408",
+      "projectName": "企業活動促進支援事業",
+      "span": [
+        1345,
+        1385
+      ]
+    },
+    {
+      "id": "cached-14213-5170eaa92effc7f6b4f4ebbe",
+      "projectName": "起業家支援事業",
+      "span": [
+        1386,
+        1423
+      ]
+    },
+    {
+      "id": "cached-14213-76ca7f2c8f8d0039fd219e6b",
+      "projectName": "ロボット等デジタル技術活用支援事業",
+      "span": [
+        1424,
+        1471
+      ]
+    },
+    {
+      "id": "cached-14213-ae34746abc80585d98b3640b",
+      "projectName": "産業人表彰式事業",
+      "span": [
+        1472,
+        1510
+      ]
+    },
+    {
+      "id": "cached-14213-110a27b6497b34b935d1a4db",
+      "projectName": "障がい者雇用促進支援事業",
+      "span": [
+        1511,
+        1553
+      ]
+    },
+    {
+      "id": "cached-14213-489a1a7bd71bc7c686d5bafa",
+      "projectName": "勤労者サービスセンター支援事業",
+      "span": [
+        1554,
+        1599
+      ]
+    },
+    {
+      "id": "cached-14213-e6de4aa8775954c29b199c01",
+      "projectName": "就労支援事業",
+      "span": [
+        1600,
+        1636
+      ]
+    },
+    {
+      "id": "cached-14213-162bc46c8f3d94e7b320bcc7",
+      "projectName": "農産物消費拡大推進事業",
+      "span": [
+        1637,
+        1678
+      ]
+    },
+    {
+      "id": "cached-14213-73a9f70ca40c66cc421b4db2",
+      "projectName": "援農サポーター事業",
+      "span": [
+        1679,
+        1718
+      ]
+    },
+    {
+      "id": "cached-14213-8b437a49439666c4d39b90eb",
+      "projectName": "農地管理事業",
+      "span": [
+        1719,
+        1755
+      ]
+    },
+    {
+      "id": "cached-14213-0caf4f0a754503de09394563",
+      "projectName": "市民朝霧市支援事業",
+      "span": [
+        1756,
+        1795
+      ]
+    },
+    {
+      "id": "cached-14213-7108e40ef821f25557b62371",
+      "projectName": "農業近代化等支援事業",
+      "span": [
+        1796,
+        1836
+      ]
+    },
+    {
+      "id": "cached-14213-2fa1674ba4d0c8e93cd77665",
+      "projectName": "市民農園運営事業",
+      "span": [
+        1837,
+        1875
+      ]
+    },
+    {
+      "id": "cached-14213-f65c94eb5740c6ec1ff6074b",
+      "projectName": "観光等促進事業",
+      "span": [
+        1876,
+        1917
+      ]
+    },
+    {
+      "id": "cached-14213-b0661bc0245192ffaf594a05",
+      "projectName": "イベント観光協会支援事業",
+      "span": [
+        1918,
+        1964
+      ]
+    },
+    {
+      "id": "cached-14213-843bd8105992d4bb8f7714b9",
+      "projectName": "観光イベント支援事業",
+      "span": [
+        1965,
+        2009
+      ]
+    },
+    {
+      "id": "cached-14213-775950ff42f1f7e810ab80cf",
+      "projectName": "環境意識啓発事業",
+      "span": [
+        2010,
+        2055
+      ]
+    },
+    {
+      "id": "cached-14213-61ca93b3278a81368e5defe5",
+      "projectName": "地域脱炭素推進事業",
+      "span": [
+        2056,
+        2102
+      ]
+    },
+    {
+      "id": "cached-14213-21b56360819534b467b69fa6",
+      "projectName": "路上喫煙防止対策事業",
+      "span": [
+        2103,
+        2153
+      ]
+    },
+    {
+      "id": "cached-14213-65b0592901e7f339351dea40",
+      "projectName": "大和市クリーンキャンペーン事業",
+      "span": [
+        2154,
+        2209
+      ]
+    },
+    {
+      "id": "cached-14213-96080ced709c014ad06a8a0b",
+      "projectName": "不法投棄物未然防止事業",
+      "span": [
+        2210,
+        2261
+      ]
+    },
+    {
+      "id": "cached-14213-56b9d64621cd06ae3aeda083",
+      "projectName": "公害対策調査事業",
+      "span": [
+        2262,
+        2310
+      ]
+    },
+    {
+      "id": "cached-14213-afe9123abf9f8f27406b2012",
+      "projectName": "公害防止啓発・指導事業",
+      "span": [
+        2311,
+        2362
+      ]
+    },
+    {
+      "id": "cached-14213-3f4309f6e40083f3473944f2",
+      "projectName": "緑地保全事業",
+      "span": [
+        2363,
+        2407
+      ]
+    },
+    {
+      "id": "cached-14213-0f0c58e3c5b0e6794c4d5600",
+      "projectName": "緑化施策の企画・調整・推進事業",
+      "span": [
+        2499,
+        2552
+      ]
+    },
+    {
+      "id": "cached-14213-5d21be24b7155464d173adf9",
+      "projectName": "公園維持管理事業",
+      "span": [
+        2553,
+        2599
+      ]
+    },
+    {
+      "id": "cached-14213-8bec806987136a0c0bf53f00",
+      "projectName": "既設公園等大規模改修事業",
+      "span": [
+        2600,
+        2650
+      ]
+    },
+    {
+      "id": "cached-14213-40d46a4954c9ff6dc398bc1f",
+      "projectName": "街区公園等整備事業",
+      "span": [
+        2651,
+        2698
+      ]
+    },
+    {
+      "id": "cached-14213-2fbfe522035ff58c4bfda50c",
+      "projectName": "焼却灰等有効利用事業",
+      "span": [
+        2699,
+        2744
+      ]
+    },
+    {
+      "id": "cached-14213-b82e0d2ec4073034ed608525",
+      "projectName": "ごみ減量化推進事業",
+      "span": [
+        2745,
+        2793
+      ]
+    },
+    {
+      "id": "cached-14213-21727d05b4756d27a729215d",
+      "projectName": "家庭系ごみ排出抑制推進事業",
+      "span": [
+        2794,
+        2846
+      ]
+    },
+    {
+      "id": "cached-14213-99643b368bf52873706bc789",
+      "projectName": "資源分別回収推進支援事業",
+      "span": [
+        2847,
+        2898
+      ]
+    },
+    {
+      "id": "cached-14213-dd8e4080730dc7c59953f4f6",
+      "projectName": "塵芥収集事業",
+      "span": [
+        2899,
+        2944
+      ]
+    },
+    {
+      "id": "cached-14213-7397fd107a6415c0e742cf99",
+      "projectName": "下水道普及指導事務",
+      "span": [
+        2945,
+        2992
+      ]
+    },
+    {
+      "id": "cached-14213-65861bf26ee0744095d568ea",
+      "projectName": "雨水管整備・管理事業",
+      "span": [
+        2993,
+        3039
+      ]
+    },
+    {
+      "id": "cached-14213-367aaff478c7777f31c40170",
+      "projectName": "汚水管整備・管理事業",
+      "span": [
+        3040,
+        3091
+      ]
+    },
+    {
+      "id": "cached-14213-702cf196d889a8525fff53f6",
+      "projectName": "北部浄化センター施設運転事業",
+      "span": [
+        3092,
+        3146
+      ]
+    },
+    {
+      "id": "cached-14213-7b3c3bc866b3ea09f1436791",
+      "projectName": "中部浄化センター施設運転事業",
+      "span": [
+        3147,
+        3201
+      ]
+    },
+    {
+      "id": "cached-14213-85a68754494cc5ad8b938c79",
+      "projectName": "文化芸術振興事業",
+      "span": [
+        3202,
+        3247
+      ]
+    },
+    {
+      "id": "cached-14213-66f12a5c9fe171d39078c6d1",
+      "projectName": "芸術文化ホール管理運営事業",
+      "span": [
+        3248,
+        3298
+      ]
+    },
+    {
+      "id": "cached-14213-1ba3232bda1cf630c6de9376",
+      "projectName": "文化財普及啓発事業",
+      "span": [
+        3299,
+        3345
+      ]
+    },
+    {
+      "id": "cached-14213-2f4aad766b46817bce51d18c",
+      "projectName": "郷土民家園管理運営事業",
+      "span": [
+        3346,
+        3394
+      ]
+    },
+    {
+      "id": "cached-14213-a01d889d8f0ac56c90bacdf9",
+      "projectName": "食育推進事業",
+      "span": [
+        3395,
+        3441
+      ]
+    },
+    {
+      "id": "cached-14213-848904f8cc8ecf09818c46eb",
+      "projectName": "健康づくり普及啓発事業",
+      "span": [
+        3442,
+        3493
+      ]
+    },
+    {
+      "id": "cached-14213-ec547f3433fe46d1f40f5a45",
+      "projectName": "健康相談･教育事業",
+      "span": [
+        3494,
+        3543
+      ]
+    },
+    {
+      "id": "cached-14213-c21ab11090b7bef671d9190e",
+      "projectName": "大和市健康ポイント事業",
+      "span": [
+        3544,
+        3595
+      ]
+    },
+    {
+      "id": "cached-14213-f92a62960e7ca1fc492109a6",
+      "projectName": "特定保健指導事業（市直営分）",
+      "span": [
+        3596,
+        3650
+      ]
+    },
+    {
+      "id": "cached-14213-33b3c0ac14a7b551798f686a",
+      "projectName": "一般介護予防事業（健康づくり関連）",
+      "span": [
+        3651,
+        3708
+      ]
+    },
+    {
+      "id": "cached-14213-c19b0bbb2334a3fcb686b726",
+      "projectName": "特定保健指導事業（医療機関）",
+      "span": [
+        3709,
+        3760
+      ]
+    },
+    {
+      "id": "cached-14213-d7b6cbbf22cadb9df6e90c10",
+      "projectName": "予防接種事業",
+      "span": [
+        3761,
+        3804
+      ]
+    },
+    {
+      "id": "cached-14213-7f2e3074d19b3c7977e54dcd",
+      "projectName": "感染症予防事業",
+      "span": [
+        3805,
+        3849
+      ]
+    },
+    {
+      "id": "cached-14213-7cbec2b8bb207ebd176c9616",
+      "projectName": "健康診査事業",
+      "span": [
+        3850,
+        3893
+      ]
+    },
+    {
+      "id": "cached-14213-6a9b8674fb79241bf00976d3",
+      "projectName": "特定健康診査事業",
+      "span": [
+        3894,
+        3939
+      ]
+    },
+    {
+      "id": "cached-14213-7aa80197af0efc8dcb785775",
+      "projectName": "休日夜間急患診療所運営事業",
+      "span": [
+        3940,
+        3990
+      ]
+    },
+    {
+      "id": "cached-14213-9710eaedd7e2d0da3254d279",
+      "projectName": "夜間診療所運営支援事業",
+      "span": [
+        3991,
+        4039
+      ]
+    },
+    {
+      "id": "cached-14213-f47c3333dc1da9124833779c",
+      "projectName": "休日歯科診療等支援事業",
+      "span": [
+        4040,
+        4088
+      ]
+    },
+    {
+      "id": "cached-14213-9b1ca1233ad0d41f043c949c",
+      "projectName": "ゆとりの森スポーツ施設管理運営事業",
+      "span": [
+        4089,
+        4147
+      ]
+    },
+    {
+      "id": "cached-14213-caa9c53690d4a9561b6985af",
+      "projectName": "スポーツ大会開催事業",
+      "span": [
+        4148,
+        4199
+      ]
+    },
+    {
+      "id": "cached-14213-ea18e4c7e9f619b6fb6bd3df",
+      "projectName": "スポーツ教室開催事業",
+      "span": [
+        4200,
+        4251
+      ]
+    },
+    {
+      "id": "cached-14213-d3dd753b13b6f2820f922ebd",
+      "projectName": "スポーツ関係団体支援事業",
+      "span": [
+        4252,
+        4305
+      ]
+    },
+    {
+      "id": "cached-14213-6d0a382a73b766127f34b333",
+      "projectName": "スポーツセンター施設管理運営事業",
+      "span": [
+        4306,
+        4363
+      ]
+    },
+    {
+      "id": "cached-14213-8a696db1bec4050b63e63d31",
+      "projectName": "地域スポーツ推進事業",
+      "span": [
+        4364,
+        4415
+      ]
+    },
+    {
+      "id": "cached-14213-882f1ce39428592fbf5b8daf",
+      "projectName": "女子サッカー推進事業",
+      "span": [
+        4416,
+        4467
+      ]
+    },
+    {
+      "id": "cached-14213-5b313ef5a0639db42cba33f3",
+      "projectName": "生涯学習センター管理運営事業",
+      "span": [
+        4468,
+        4522
+      ]
+    },
+    {
+      "id": "cached-14213-8d92e712fa1783e22f5da6f3",
+      "projectName": "図書館管理運営事業",
+      "span": [
+        4523,
+        4572
+      ]
+    },
+    {
+      "id": "cached-14213-75f438b211a54b2038028045",
+      "projectName": "こもりびと支援事業",
+      "span": [
+        4573,
+        4619
+      ]
+    },
+    {
+      "id": "cached-14213-d7ff745a659b169e4b2dc5a2",
+      "projectName": "社会福祉協議会運営支援事業",
+      "span": [
+        4620,
+        4662
+      ]
+    },
+    {
+      "id": "cached-14213-b3db6ba9c7106f42dd93db96",
+      "projectName": "民生委員児童委員活動支援事業",
+      "span": [
+        4663,
+        4706
+      ]
+    },
+    {
+      "id": "cached-14213-6d9314359457d4b65934918b",
+      "projectName": "成年後見制度利用促進事業",
+      "span": [
+        4707,
+        4748
+      ]
+    },
+    {
+      "id": "cached-14213-5e7ea8cb42f37800076f5992",
+      "projectName": "包括的支援体制推進事業",
+      "span": [
+        4749,
+        4789
+      ]
+    },
+    {
+      "id": "cached-14213-eeef1d4d6efa249e9f0de646",
+      "projectName": "災害時避難行動要支援者対策事業",
+      "span": [
+        4790,
+        4837
+      ]
+    },
+    {
+      "id": "cached-14213-5cba2907d0fdf51aedc72c64",
+      "projectName": "介護保険事業者指定・指導等事務",
+      "span": [
+        4838,
+        4882
+      ]
+    },
+    {
+      "id": "cached-14213-38c722a00751ab9c4287fab6",
+      "projectName": "保険料賦課徴収事業",
+      "span": [
+        4883,
+        4921
+      ]
+    },
+    {
+      "id": "cached-14213-0a3091e6f7a6bd85708446ea",
+      "projectName": "シルバー人材センター支援事業",
+      "span": [
+        4922,
+        4977
+      ]
+    },
+    {
+      "id": "cached-14213-2f208c501d83058ab2e6588a",
+      "projectName": "一般介護予防事業（認知症施策関連）",
+      "span": [
+        4978,
+        5036
+      ]
+    },
+    {
+      "id": "cached-14213-5be8ec5a1912b6bccb835a8e",
+      "projectName": "認知症施策推進事業",
+      "span": [
+        5037,
+        5079
+      ]
+    },
+    {
+      "id": "cached-14213-025b70b426065b07ba5e0116",
+      "projectName": "おひとりさま施策推進事業",
+      "span": [
+        5171,
+        5216
+      ]
+    },
+    {
+      "id": "cached-14213-b956fb28ce5c7096d7fb1db3",
+      "projectName": "サービス・活動事業（長寿福祉関連）",
+      "span": [
+        5217,
+        5267
+      ]
+    },
+    {
+      "id": "cached-14213-a091941e235fd3f86f11ebfd",
+      "projectName": "包括的支援事業",
+      "span": [
+        5268,
+        5308
+      ]
+    },
+    {
+      "id": "cached-14213-159137d0de0436bcecdf2227",
+      "projectName": "地域支援任意事業（長寿福祉関連）",
+      "span": [
+        5309,
+        5358
+      ]
+    },
+    {
+      "id": "cached-14213-8aa297750d1f15e7d6f8fb19",
+      "projectName": "自殺対策事業",
+      "span": [
+        5359,
+        5403
+      ]
+    },
+    {
+      "id": "cached-14213-6a41f8657c5927d075f2aebd",
+      "projectName": "自立支援給付事業",
+      "span": [
+        5404,
+        5442
+      ]
+    },
+    {
+      "id": "cached-14213-8b38df2ae7eb9d9966907c48",
+      "projectName": "地域生活支援事業",
+      "span": [
+        5443,
+        5481
+      ]
+    },
+    {
+      "id": "cached-14213-75eac4fe1b75bb4abb7b4c23",
+      "projectName": "障がい者社会参加促進事業",
+      "span": [
+        5482,
+        5524
+      ]
+    },
+    {
+      "id": "cached-14213-a2a6c377c396fe4ea1d16cc9",
+      "projectName": "生活困窮者自立支援事業",
+      "span": [
+        5525,
+        5565
+      ]
+    },
+    {
+      "id": "cached-14213-fa7da9dcf89bef16c4dadf09",
+      "projectName": "生活保護事業",
+      "span": [
+        5566,
+        5601
+      ]
+    },
+    {
+      "id": "cached-14213-d6ab97627c4f6d83718fc402",
+      "projectName": "配偶者暴力等相談支援事業",
+      "span": [
+        5602,
+        5651
+      ]
+    },
+    {
+      "id": "cached-14213-e6fa46695d3ef82df56453b1",
+      "projectName": "保健衛生普及事業",
+      "span": [
+        5652,
+        5689
+      ]
+    },
+    {
+      "id": "cached-14213-28cdaa85ea7a1fd7305311da",
+      "projectName": "保険給付事業（国保）",
+      "span": [
+        5690,
+        5729
+      ]
+    },
+    {
+      "id": "cached-14213-4137c7428820b906cac1b3e8",
+      "projectName": "子ども医療費助成事業",
+      "span": [
+        5730,
+        5782
+      ]
+    },
+    {
+      "id": "cached-14213-24c9e394e32fc9596184b771",
+      "projectName": "子育て支援センター運営事業",
+      "span": [
+        5783,
+        5838
+      ]
+    },
+    {
+      "id": "cached-14213-606f6dc84c4b0aa6bceb06cd",
+      "projectName": "つどいの広場事業",
+      "span": [
+        5839,
+        5889
+      ]
+    },
+    {
+      "id": "cached-14213-400e1f75e7c5233656150724",
+      "projectName": "ひとり親家庭等医療費助成事業",
+      "span": [
+        5890,
+        5946
+      ]
+    },
+    {
+      "id": "cached-14213-960a2506b9f9dc0889b0188b",
+      "projectName": "屋内こども広場管理運営事業",
+      "span": [
+        5947,
+        6000
+      ]
+    },
+    {
+      "id": "cached-14213-bbcd2aecdfbf8b8ce183a9cd",
+      "projectName": "民間保育所建設・増設支援事業",
+      "span": [
+        6001,
+        6055
+      ]
+    },
+    {
+      "id": "cached-14213-9c48fa824881468acc2bfb4f",
+      "projectName": "保育所等施設型給付事業",
+      "span": [
+        6056,
+        6107
+      ]
+    },
+    {
+      "id": "cached-14213-4d382a1dcdb9d99e22980f63",
+      "projectName": "民間保育所等運営支援事業",
+      "span": [
+        6108,
+        6160
+      ]
+    },
+    {
+      "id": "cached-14213-4bbe9f043fb53dbc181d2d7c",
+      "projectName": "保育事業（市立保育所）",
+      "span": [
+        6161,
+        6212
+      ]
+    },
+    {
+      "id": "cached-14213-efd29bb8cc3ddb752adb6b6d",
+      "projectName": "児童発達支援事業",
+      "span": [
+        6213,
+        6265
+      ]
+    },
+    {
+      "id": "cached-14213-f366fbf1a04493d24e4a3f79",
+      "projectName": "障がい児自立支援給付事業",
+      "span": [
+        6266,
+        6322
+      ]
+    },
+    {
+      "id": "cached-14213-dcd0cd70adf8d674a90df420",
+      "projectName": "障がい児地域生活支援事業",
+      "span": [
+        6323,
+        6379
+      ]
+    },
+    {
+      "id": "cached-14213-fc5b60f1adfe57e1aa0a7808",
+      "projectName": "妊婦健康診査事業",
+      "span": [
+        6380,
+        6432
+      ]
+    },
+    {
+      "id": "cached-14213-da8f258dfe85be5dc50ba29b",
+      "projectName": "４か月児健康診査事業",
+      "span": [
+        6433,
+        6487
+      ]
+    },
+    {
+      "id": "cached-14213-92a80b9587d53bd5719a7662",
+      "projectName": "３歳６か月児健康診査事業",
+      "span": [
+        6488,
+        6544
+      ]
+    },
+    {
+      "id": "cached-14213-3c0c86639799b0678511c621",
+      "projectName": "こども家庭センター事業",
+      "span": [
+        6545,
+        6600
+      ]
+    },
+    {
+      "id": "cached-14213-a8cc0f0c41277c1666415dc0",
+      "projectName": "妊婦のための支援事業",
+      "span": [
+        6601,
+        6655
+      ]
+    },
+    {
+      "id": "cached-14213-8a0783a4380e6a44cf10a234",
+      "projectName": "放課後児童クラブ事業",
+      "span": [
+        6656,
+        6712
+      ]
+    },
+    {
+      "id": "cached-14213-32c4618d78d0fd75d284fadd",
+      "projectName": "児童館管理運営事業",
+      "span": [
+        6713,
+        6768
+      ]
+    },
+    {
+      "id": "cached-14213-8e299dd836d0783b2bba25b0",
+      "projectName": "こども食堂支援事業",
+      "span": [
+        6769,
+        6824
+      ]
+    },
+    {
+      "id": "cached-14213-082bf7a4040f0a10b3f939a9",
+      "projectName": "青少年指導者育成支援事業",
+      "span": [
+        6825,
+        6883
+      ]
+    },
+    {
+      "id": "cached-14213-b2d60ea93fd70052fbd18d35",
+      "projectName": "こども体験事業",
+      "span": [
+        6884,
+        6937
+      ]
+    },
+    {
+      "id": "cached-14213-953f5b1d3de6fb4e69d2fd01",
+      "projectName": "大和駅周辺まちづくり事業",
+      "span": [
+        6938,
+        6990
+      ]
+    },
+    {
+      "id": "cached-14213-8b2d7928d20f78f6509dae25",
+      "projectName": "コミュニティバス運行事業",
+      "span": [
+        6991,
+        7043
+      ]
+    },
+    {
+      "id": "cached-14213-a1b7e6ba5994a036ac175ecd",
+      "projectName": "地域公共交通施策事業",
+      "span": [
+        7044,
+        7094
+      ]
+    },
+    {
+      "id": "cached-14213-afb5ca1843fffe6682c56138",
+      "projectName": "道路交通体系検討事業",
+      "span": [
+        7095,
+        7145
+      ]
+    },
+    {
+      "id": "cached-14213-a66863db1cc8f574377858b3",
+      "projectName": "建築物の耐震化等促進事業",
+      "span": [
+        7146,
+        7190
+      ]
+    },
+    {
+      "id": "cached-14213-35f7b3d3498d08e578c8acd3",
+      "projectName": "建築確認事務",
+      "span": [
+        7191,
+        7234
+      ]
+    },
+    {
+      "id": "cached-14213-1126de70372c6ce3fdf5888d",
+      "projectName": "都市計画決定事務",
+      "span": [
+        7235,
+        7283
+      ]
+    },
+    {
+      "id": "cached-14213-6e649aee043ea3a1158c24ef",
+      "projectName": "特定地域土地利用誘導事業（内山地区）",
+      "span": [
+        7284,
+        7342
+      ]
+    },
+    {
+      "id": "cached-14213-050074830f96154e62b2f7cd",
+      "projectName": "特定地域土地利用誘導事業（中央森林地区）",
+      "span": [
+        7343,
+        7403
+      ]
+    },
+    {
+      "id": "cached-14213-7eb411e6ab546d56e1033676",
+      "projectName": "まちづくり活動支援事業",
+      "span": [
+        7404,
+        7455
+      ]
+    },
+    {
+      "id": "cached-14213-b71b812027f1e39277771c02",
+      "projectName": "景観形成推進事業",
+      "span": [
+        7456,
+        7504
+      ]
+    },
+    {
+      "id": "cached-14213-37930da5d45227c145f1c9e5",
+      "projectName": "福田相模原線歩道整備事業（上草柳地区）",
+      "span": [
+        7505,
+        7556
+      ]
+    },
+    {
+      "id": "cached-14213-296a4c169335260fb9fff14d",
+      "projectName": "交通安全施設整備事業",
+      "span": [
+        7557,
+        7599
+      ]
+    },
+    {
+      "id": "cached-14213-c113ae25df695866ea11fc6f",
+      "projectName": "福田相模原線（福田地区）道路整備事業",
+      "span": [
+        7600,
+        7655
+      ]
+    },
+    {
+      "id": "cached-14213-54db5f1b80d4e091a940b3f8",
+      "projectName": "福田相模原線（南林間地区）道路改良事業",
+      "span": [
+        7656,
+        7712
+      ]
+    },
+    {
+      "id": "cached-14213-cc7671e21bd9f1fe716f00ac",
+      "projectName": "小学校大規模改修事業",
+      "span": [
+        7713,
+        7764
+      ]
+    },
+    {
+      "id": "cached-14213-576a38e02542001e95869cd3",
+      "projectName": "小学校防音設備整備事業",
+      "span": [
+        7765,
+        7817
+      ]
+    },
+    {
+      "id": "cached-14213-c2eec371fe09e2f388b16c1b",
+      "projectName": "中学校大規模改修事業",
+      "span": [
+        7909,
+        7960
+      ]
+    },
+    {
+      "id": "cached-14213-632de9203b6f09fa9fd3b6a8",
+      "projectName": "中学校防音設備整備事業",
+      "span": [
+        7961,
+        8013
+      ]
+    },
+    {
+      "id": "cached-14213-15e83c9745f6aa3931f58708",
+      "projectName": "学校給食施設大規模改修事業",
+      "span": [
+        8014,
+        8068
+      ]
+    },
+    {
+      "id": "cached-14213-3f4ed95ed9b42df7f96e78c2",
+      "projectName": "学校給食食育推進事業",
+      "span": [
+        8069,
+        8120
+      ]
+    },
+    {
+      "id": "cached-14213-5ddf00d4cedaf5443d3b7592",
+      "projectName": "外国人児童生徒教育推進事業",
+      "span": [
+        8121,
+        8173
+      ]
+    },
+    {
+      "id": "cached-14213-5221e7fdee40d7cef8060597",
+      "projectName": "特別支援教育推進事業",
+      "span": [
+        8174,
+        8223
+      ]
+    },
+    {
+      "id": "cached-14213-1e44a4c349dde5386e782f74",
+      "projectName": "人権教育推進事業",
+      "span": [
+        8224,
+        8271
+      ]
+    },
+    {
+      "id": "cached-14213-f4cca1920da61207d4099f6e",
+      "projectName": "いじめ等対策事業",
+      "span": [
+        8272,
+        8319
+      ]
+    },
+    {
+      "id": "cached-14213-c962a92b9af6956f9962cb54",
+      "projectName": "小学校地域教育力活用推進事業",
+      "span": [
+        8320,
+        8373
+      ]
+    },
+    {
+      "id": "cached-14213-f2d5588718091887f2938a65",
+      "projectName": "中学校地域教育力活用推進事業",
+      "span": [
+        8374,
+        8427
+      ]
+    },
+    {
+      "id": "cached-14213-daf54c00681c73b7f168b641",
+      "projectName": "教職員研修実施事業",
+      "span": [
+        8428,
+        8476
+      ]
+    },
+    {
+      "id": "cached-14213-1ed4fb52fb7482621e4a59a9",
+      "projectName": "英語教育推進事業",
+      "span": [
+        8477,
+        8524
+      ]
+    },
+    {
+      "id": "cached-14213-748084bec0aea65a9626c01c",
+      "projectName": "児童生徒安全対策事業",
+      "span": [
+        8525,
+        8574
+      ]
+    },
+    {
+      "id": "cached-14213-9eafd125af25c36c89038bb4",
+      "projectName": "学力向上対策推進事業",
+      "span": [
+        8575,
+        8624
+      ]
+    },
+    {
+      "id": "cached-14213-78c4cfb4253fae2cc46a720c",
+      "projectName": "小学校図書館教育推進事業",
+      "span": [
+        8625,
+        8676
+      ]
+    },
+    {
+      "id": "cached-14213-c9ae096d811419e4ee930f66",
+      "projectName": "中学校図書館教育推進事業",
+      "span": [
+        8677,
+        8728
+      ]
+    },
+    {
+      "id": "cached-14213-9b8ee18cf00f8d332b549c1c",
+      "projectName": "情報教育推進事業",
+      "span": [
+        8729,
+        8778
+      ]
+    },
+    {
+      "id": "cached-14213-7dac16701bd1a688bed92324",
+      "projectName": "青少年相談･街頭補導事業",
+      "span": [
+        8779,
+        8833
+      ]
+    },
+    {
+      "id": "cached-14213-34714fd73155960b2900f86a",
+      "projectName": "不登校児童生徒援助事業",
+      "span": [
+        8834,
+        8887
+      ]
+    },
+    {
+      "id": "cached-14213-9d75ef8c828feb70625950b2",
+      "projectName": "消防職員研修事業",
+      "span": [
+        8888,
+        8928
+      ]
+    },
+    {
+      "id": "cached-14213-9eaabdcd56459641e9895f2f",
+      "projectName": "県央東部消防通信指令共同運用事務",
+      "span": [
+        8929,
+        8975
+      ]
+    },
+    {
+      "id": "cached-14213-7de9b10c7d285fd9fa29a907",
+      "projectName": "消防団活動用資機材整備事業",
+      "span": [
+        8976,
+        9019
+      ]
+    },
+    {
+      "id": "cached-14213-29d0a1012506daa652300e33",
+      "projectName": "消防団員研修・技術向上支援事業",
+      "span": [
+        9020,
+        9065
+      ]
+    },
+    {
+      "id": "cached-14213-9550490d1b1c9c7ea14f8aae",
+      "projectName": "消防車両整備事業",
+      "span": [
+        9066,
+        9104
+      ]
+    },
+    {
+      "id": "cached-14213-0dc9e03fcf5468bff9ceb1bd",
+      "projectName": "火災予防査察事務",
+      "span": [
+        9105,
+        9143
+      ]
+    },
+    {
+      "id": "cached-14213-e75f14de545ac9d67e4b9092",
+      "projectName": "火災予防広報事業",
+      "span": [
+        9144,
+        9182
+      ]
+    },
+    {
+      "id": "cached-14213-f02eb1cf37385f3873dd4a70",
+      "projectName": "応急手当普及啓発事業",
+      "span": [
+        9183,
+        9225
+      ]
+    },
+    {
+      "id": "cached-14213-048091a030ca6132ceff13e5",
+      "projectName": "地域防災訓練事業",
+      "span": [
+        9226,
+        9267
+      ]
+    },
+    {
+      "id": "cached-14213-94f4a1d4140b06d66c226789",
+      "projectName": "救急活動事業",
+      "span": [
+        9268,
+        9307
+      ]
+    },
+    {
+      "id": "cached-14213-0225df5171c4d72196b3ba33",
+      "projectName": "診療事業",
+      "span": [
+        9308,
+        9347
+      ]
+    },
+    {
+      "id": "cached-14213-714bf38096fb5b0e0c614b8a",
+      "projectName": "経営健全化事業",
+      "span": [
+        9348,
+        9392
+      ]
+    },
+    {
+      "id": "cached-14213-d044959c840260b6428c3599",
+      "projectName": "表彰事務",
+      "span": [
+        9476,
+        9500
+      ]
+    },
+    {
+      "id": "cached-14213-8cb42b9f12ea62f72327bbe0",
+      "projectName": "秘書事務",
+      "span": [
+        9501,
+        9526
+      ]
+    },
+    {
+      "id": "cached-14213-259bcb149d1de527edfd1e16",
+      "projectName": "広報やまと発行事業",
+      "span": [
+        9527,
+        9554
+      ]
+    },
+    {
+      "id": "cached-14213-38b60460a51faaea10128d09",
+      "projectName": "市政等ＰＲ事業",
+      "span": [
+        9555,
+        9580
+      ]
+    },
+    {
+      "id": "cached-14213-cd75dd4394f540e78f764a4d",
+      "projectName": "大和市基地対策協議会活動支援事業",
+      "span": [
+        9581,
+        9619
+      ]
+    },
+    {
+      "id": "cached-14213-db27b26551999d3d8c59b396",
+      "projectName": "防災情報システム管理事業",
+      "span": [
+        9620,
+        9654
+      ]
+    },
+    {
+      "id": "cached-14213-b95cd5297e77c5d88543f539",
+      "projectName": "広域避難場所誘導周知事業",
+      "span": [
+        9655,
+        9689
+      ]
+    },
+    {
+      "id": "cached-14213-df2ec61d1befa9eb5765d7a8",
+      "projectName": "防災行政無線等維持管理事業",
+      "span": [
+        9690,
+        9725
+      ]
+    },
+    {
+      "id": "cached-14213-4504de4889d83878b6106f62",
+      "projectName": "非常用給水管理事業",
+      "span": [
+        9726,
+        9757
+      ]
+    },
+    {
+      "id": "cached-14213-60132ea338f07d3e28f0763d",
+      "projectName": "地域防災計画等策定・管理事業",
+      "span": [
+        9758,
+        9794
+      ]
+    },
+    {
+      "id": "cached-14213-cfa3c95a56b9d4ef84a3898e",
+      "projectName": "市民参加推進事業",
+      "span": [
+        9795,
+        9823
+      ]
+    },
+    {
+      "id": "cached-14213-a305d73553e5e5845b662dc7",
+      "projectName": "自治基本条例普及推進事業",
+      "span": [
+        9824,
+        9856
+      ]
+    },
+    {
+      "id": "cached-14213-7b21d5e7a176b2e3222fadb5",
+      "projectName": "寄附金等管理事業",
+      "span": [
+        9857,
+        9886
+      ]
+    },
+    {
+      "id": "cached-14213-3d081bc4f7c13da17fbd665e",
+      "projectName": "新規施策推進基金管理事務",
+      "span": [
+        9887,
+        9920
+      ]
+    },
+    {
+      "id": "cached-14213-28a550c4f589fea154a1a9a0",
+      "projectName": "自主財源強化推進事業",
+      "span": [
+        9921,
+        9952
+      ]
+    },
+    {
+      "id": "cached-14213-5836dd769342015c6f86c4af",
+      "projectName": "行政改革推進事業",
+      "span": [
+        9953,
+        9982
+      ]
+    },
+    {
+      "id": "cached-14213-b7af3d7509b1c2511458fa41",
+      "projectName": "組織見直し・定数管理事務",
+      "span": [
+        9983,
+        10016
+      ]
+    },
+    {
+      "id": "cached-14213-e54a815e996b3bfc3b64a83b",
+      "projectName": "財団法人等の改革事務",
+      "span": [
+        10017,
+        10048
+      ]
+    },
+    {
+      "id": "cached-14213-d8247dbd5fa1f7d64d05cbc2",
+      "projectName": "地方分権推進事業",
+      "span": [
+        10049,
+        10078
+      ]
+    },
+    {
+      "id": "cached-14213-6bb1418c261da20682894faa",
+      "projectName": "庁用備品等の整備及び管理事務",
+      "span": [
+        10079,
+        10114
+      ]
+    },
+    {
+      "id": "cached-14213-7370b11f658131772adc1cf7",
+      "projectName": "職員提案事業",
+      "span": [
+        10115,
+        10142
+      ]
+    },
+    {
+      "id": "cached-14213-4066deda465b383ec1b4e6fc",
+      "projectName": "リアルタイム政策情報システム管理事務",
+      "span": [
+        10143,
+        10181
+      ]
+    },
+    {
+      "id": "cached-14213-86d4d381faf08befebdbbf70",
+      "projectName": "国・県要望事業",
+      "span": [
+        10182,
+        10209
+      ]
+    },
+    {
+      "id": "cached-14213-3057686ee7e26900b3435675",
+      "projectName": "マスコットキャラクター管理・啓発事業",
+      "span": [
+        10210,
+        10248
+      ]
+    },
+    {
+      "id": "cached-14213-9e6daadf4ed194dc48b916f3",
+      "projectName": "議会対応事務",
+      "span": [
+        10249,
+        10275
+      ]
+    },
+    {
+      "id": "cached-14213-3c53e3fff54d807b836d7922",
+      "projectName": "総合教育会議運営事務",
+      "span": [
+        10276,
+        10306
+      ]
+    },
+    {
+      "id": "cached-14213-2a4778488635d4a2e76a1099",
+      "projectName": "総合計画進行管理事業",
+      "span": [
+        10307,
+        10337
+      ]
+    },
+    {
+      "id": "cached-14213-897070649955ea66a920588e",
+      "projectName": "行政評価実施事業",
+      "span": [
+        10338,
+        10366
+      ]
+    },
+    {
+      "id": "cached-14213-72039a67a74879469a090aa2",
+      "projectName": "実施計画策定・進行管理事業",
+      "span": [
+        10367,
+        10400
+      ]
+    },
+    {
+      "id": "cached-14213-f6a5d3bac725a39f5343fbb6",
+      "projectName": "広域行政推進事業",
+      "span": [
+        10454,
+        10483
+      ]
+    },
+    {
+      "id": "cached-14213-d82431cafdf42fe51a432092",
+      "projectName": "庁議運営調整事務",
+      "span": [
+        10484,
+        10513
+      ]
+    },
+    {
+      "id": "cached-14213-3be98b9a9563fa33c94a8bb3",
+      "projectName": "包括連携事業",
+      "span": [
+        10514,
+        10541
+      ]
+    },
+    {
+      "id": "cached-14213-6120fc36e6e3286e1645d4c0",
+      "projectName": "マーケティング事業",
+      "span": [
+        10542,
+        10574
+      ]
+    },
+    {
+      "id": "cached-14213-6722524b1485cc0fcaa70cd8",
+      "projectName": "広聴活動事業",
+      "span": [
+        10575,
+        10604
+      ]
+    },
+    {
+      "id": "cached-14213-32e1c77fd7588d0974b527a6",
+      "projectName": "調査事務",
+      "span": [
+        10605,
+        10633
+      ]
+    },
+    {
+      "id": "cached-14213-f96b3267a863da6d1904432e",
+      "projectName": "財政調整基金管理事務",
+      "span": [
+        10634,
+        10663
+      ]
+    },
+    {
+      "id": "cached-14213-ecffaad6c44a31ea27dba198",
+      "projectName": "退職手当引当基金管理事務",
+      "span": [
+        10664,
+        10695
+      ]
+    },
+    {
+      "id": "cached-14213-f49af29026f361abcbd14e85",
+      "projectName": "財務会計システム維持管理事務",
+      "span": [
+        10696,
+        10729
+      ]
+    },
+    {
+      "id": "cached-14213-1cf540be34885d8e9b93fd7a",
+      "projectName": "公債管理基金管理事務",
+      "span": [
+        10730,
+        10759
+      ]
+    },
+    {
+      "id": "cached-14213-29ca1bdfcfc292ab599af51e",
+      "projectName": "新公会計制度財務書類作成事務",
+      "span": [
+        10760,
+        10793
+      ]
+    },
+    {
+      "id": "cached-14213-b42ccdb7b7f85c3fc644578d",
+      "projectName": "地方債償還金管理事務",
+      "span": [
+        10794,
+        10823
+      ]
+    },
+    {
+      "id": "cached-14213-11397a0051ec741d5287a436",
+      "projectName": "市債利子管理事務",
+      "span": [
+        10824,
+        10851
+      ]
+    },
+    {
+      "id": "cached-14213-2a24aef3906b19336fceb1a7",
+      "projectName": "一時借入金利子管理事務",
+      "span": [
+        10852,
+        10882
+      ]
+    },
+    {
+      "id": "cached-14213-86266e961aa870e085309032",
+      "projectName": "施設整備基金管理事務",
+      "span": [
+        10883,
+        10912
+      ]
+    },
+    {
+      "id": "cached-14213-1a08d51b6e491cff31a49c36",
+      "projectName": "予算編成事務",
+      "span": [
+        10913,
+        10938
+      ]
+    },
+    {
+      "id": "cached-14213-4a7c6d72ad395364a9f678f9",
+      "projectName": "交付金算定事務",
+      "span": [
+        10939,
+        10965
+      ]
+    },
+    {
+      "id": "cached-14213-0842409008e2d95698ad95f1",
+      "projectName": "地方債借入事務",
+      "span": [
+        10966,
+        10992
+      ]
+    },
+    {
+      "id": "cached-14213-8dd43f26badfc8f15725d87c",
+      "projectName": "地方財政状況調査等事務",
+      "span": [
+        10993,
+        11023
+      ]
+    },
+    {
+      "id": "cached-14213-2cc26387b0be5f2dcb4d423f",
+      "projectName": "施策の成果作成事務",
+      "span": [
+        11024,
+        11052
+      ]
+    },
+    {
+      "id": "cached-14213-53981b4647ee067afea6f916",
+      "projectName": "補助金申請事務",
+      "span": [
+        11053,
+        11079
+      ]
+    },
+    {
+      "id": "cached-14213-88624d9c7b09ccbac82df4ea",
+      "projectName": "国県等調査事務",
+      "span": [
+        11080,
+        11106
+      ]
+    },
+    {
+      "id": "cached-14213-91b57ae80c2860086c4bf7da",
+      "projectName": "財政状況等情報公開事務",
+      "span": [
+        11107,
+        11137
+      ]
+    },
+    {
+      "id": "cached-14213-c7ed70b9541b585e074d60d0",
+      "projectName": "公拡法に基づく買収協議に係る事業",
+      "span": [
+        11138,
+        11173
+      ]
+    },
+    {
+      "id": "cached-14213-5d2436215e8b261d57a92b0a",
+      "projectName": "土地価格評価に関する事務",
+      "span": [
+        11174,
+        11205
+      ]
+    },
+    {
+      "id": "cached-14213-07954711ef532858375b6c4d",
+      "projectName": "土地開発公社連携事務",
+      "span": [
+        11206,
+        11235
+      ]
+    },
+    {
+      "id": "cached-14213-0a49e8c721ee01e79299e364",
+      "projectName": "基幹システム運用管理事務",
+      "span": [
+        11236,
+        11271
+      ]
+    },
+    {
+      "id": "cached-14213-edcb68b6938ddc00e20007ca",
+      "projectName": "情報システム運用管理事務",
+      "span": [
+        11272,
+        11307
+      ]
+    },
+    {
+      "id": "cached-14213-687ba0e443a2dd7474bb9d9b",
+      "projectName": "デジタル推進事業",
+      "span": [
+        11308,
+        11339
+      ]
+    },
+    {
+      "id": "cached-14213-6f3b62cb7af1c5be1a81405e",
+      "projectName": "個人情報保護事業",
+      "span": [
+        11340,
+        11366
+      ]
+    },
+    {
+      "id": "cached-14213-d77be4611357a9b25e4a557f",
+      "projectName": "統計調査事業",
+      "span": [
+        11420,
+        11444
+      ]
+    },
+    {
+      "id": "cached-14213-0bbec734a8927643254298e6",
+      "projectName": "不用紙処理事務",
+      "span": [
+        11445,
+        11470
+      ]
+    },
+    {
+      "id": "cached-14213-44d08cc6b3bb585978789598",
+      "projectName": "行政文書保存事業",
+      "span": [
+        11471,
+        11497
+      ]
+    },
+    {
+      "id": "cached-14213-bb3f1299d84ad067b02e0327",
+      "projectName": "情報公開推進事業",
+      "span": [
+        11498,
+        11524
+      ]
+    },
+    {
+      "id": "cached-14213-affc55b55de570a1f131b9b3",
+      "projectName": "条例等の整備方針に基づく条例等の整備事務",
+      "span": [
+        11525,
+        11563
+      ]
+    },
+    {
+      "id": "cached-14213-692d0c0ef3d8ec02604c9127",
+      "projectName": "訴訟・法律相談事務",
+      "span": [
+        11564,
+        11592
+      ]
+    },
+    {
+      "id": "cached-14213-6f82d2eb1128c757f3a4e309",
+      "projectName": "行政不服審査事業",
+      "span": [
+        11593,
+        11620
+      ]
+    },
+    {
+      "id": "cached-14213-42666d5d48e6c803225a1948",
+      "projectName": "例規改正事務",
+      "span": [
+        11621,
+        11646
+      ]
+    },
+    {
+      "id": "cached-14213-928aecffe4c02cef2674a778",
+      "projectName": "庁内印刷事業",
+      "span": [
+        11647,
+        11672
+      ]
+    },
+    {
+      "id": "cached-14213-61d6d6505d8de1668e5d63d3",
+      "projectName": "郵便物管理事務",
+      "span": [
+        11673,
+        11699
+      ]
+    },
+    {
+      "id": "cached-14213-e77fd1cb66844486318db1b9",
+      "projectName": "行政境界管理事務",
+      "span": [
+        11700,
+        11727
+      ]
+    },
+    {
+      "id": "cached-14213-ba424ede9e9bf79971703fb2",
+      "projectName": "参考図書管理事務",
+      "span": [
+        11728,
+        11755
+      ]
+    },
+    {
+      "id": "cached-14213-9ba9009256af5ed665fdb6b7",
+      "projectName": "職員採用事務",
+      "span": [
+        11756,
+        11781
+      ]
+    },
+    {
+      "id": "cached-14213-5a36355ebce541ef73850b54",
+      "projectName": "一般研修事業",
+      "span": [
+        11782,
+        11807
+      ]
+    },
+    {
+      "id": "cached-14213-e29e0d558c06c5a516c071d4",
+      "projectName": "特別研修等事業(再配当)",
+      "span": [
+        11808,
+        11839
+      ]
+    },
+    {
+      "id": "cached-14213-a0758f92d3abd7b356590654",
+      "projectName": "職員自己啓発支援事業",
+      "span": [
+        11840,
+        11869
+      ]
+    },
+    {
+      "id": "cached-14213-8f0cdc5591924c8c90340aa8",
+      "projectName": "服務規律確保に関する事務",
+      "span": [
+        11870,
+        11901
+      ]
+    },
+    {
+      "id": "cached-14213-ff1a9bbe465726df15c043de",
+      "projectName": "給与支給事務",
+      "span": [
+        11902,
+        11927
+      ]
+    },
+    {
+      "id": "cached-14213-660992fed577e63021df8352",
+      "projectName": "職員健康管理事務",
+      "span": [
+        11928,
+        11955
+      ]
+    },
+    {
+      "id": "cached-14213-06f92c2ee6cdc2e18bd23fcb",
+      "projectName": "職員互助会支援事務",
+      "span": [
+        11956,
+        11984
+      ]
+    },
+    {
+      "id": "cached-14213-3bf6f9288ba17da033a9affa",
+      "projectName": "被服貸与事務",
+      "span": [
+        11985,
+        12010
+      ]
+    },
+    {
+      "id": "cached-14213-6f2579a35419bdb853fea93d",
+      "projectName": "公務災害補償事務",
+      "span": [
+        12011,
+        12038
+      ]
+    },
+    {
+      "id": "cached-14213-8ec151b4e82a3eb88fe910a2",
+      "projectName": "人事給与システム維持管理事務",
+      "span": [
+        12039,
+        12072
+      ]
+    },
+    {
+      "id": "cached-14213-11ade344ba6fc03a2d6e4675",
+      "projectName": "共済組合事務",
+      "span": [
+        12073,
+        12098
+      ]
+    },
+    {
+      "id": "cached-14213-2fd1f8524d9ec53c09dbdcac",
+      "projectName": "特定事業主行動計画関係事業",
+      "span": [
+        12099,
+        12131
+      ]
+    },
+    {
+      "id": "cached-14213-65f569917e1a1fc7031d000b",
+      "projectName": "人事評価・配置事務",
+      "span": [
+        12132,
+        12160
+      ]
+    },
+    {
+      "id": "cached-14213-438662064371573d453afd0d",
+      "projectName": "労務事務",
+      "span": [
+        12161,
+        12184
+      ]
+    },
+    {
+      "id": "cached-14213-566760336bf25a86077f5359",
+      "projectName": "人事施策の再構築事務",
+      "span": [
+        12185,
+        12214
+      ]
+    },
+    {
+      "id": "cached-14213-78dc70d869ad16e0d10b6c94",
+      "projectName": "行政事務執行管理事務",
+      "span": [
+        12215,
+        12252
+      ]
+    },
+    {
+      "id": "cached-14213-5cbe9f75495e2833433099b8",
+      "projectName": "コンプライアンス等推進事務",
+      "span": [
+        12253,
+        12293
+      ]
+    },
+    {
+      "id": "cached-14213-6630d0873c5fd49acb5bb92d",
+      "projectName": "ハラスメント対策事務",
+      "span": [
+        12347,
+        12384
+      ]
+    },
+    {
+      "id": "cached-14213-275fb49ae26f16e0f360ab2c",
+      "projectName": "内部通報対応事務",
+      "span": [
+        12385,
+        12420
+      ]
+    },
+    {
+      "id": "cached-14213-84ca9921c050a35dc3e19842",
+      "projectName": "入札・契約事務",
+      "span": [
+        12421,
+        12449
+      ]
+    },
+    {
+      "id": "cached-14213-58ed6a7ed08d01cd32a12d6d",
+      "projectName": "会計検査事務",
+      "span": [
+        12450,
+        12477
+      ]
+    },
+    {
+      "id": "cached-14213-e913e01ab26fd0328978eae2",
+      "projectName": "工事等検査事務",
+      "span": [
+        12478,
+        12506
+      ]
+    },
+    {
+      "id": "cached-14213-383f7c208c76dc76ded96ab5",
+      "projectName": "庁用共通帳票類印刷・管理事務",
+      "span": [
+        12507,
+        12542
+      ]
+    },
+    {
+      "id": "cached-14213-7d080691e078246a7d09181e",
+      "projectName": "庁用自動車配車・運行事務",
+      "span": [
+        12543,
+        12574
+      ]
+    },
+    {
+      "id": "cached-14213-c87580ae3bc0da7b914f4b0c",
+      "projectName": "庁用自動車維持管理事務",
+      "span": [
+        12575,
+        12605
+      ]
+    },
+    {
+      "id": "cached-14213-e97eacdf0cc87e25f6cfe4af",
+      "projectName": "普通財産管理運用事業",
+      "span": [
+        12606,
+        12635
+      ]
+    },
+    {
+      "id": "cached-14213-15ac32e04960152626427ee7",
+      "projectName": "市有建築物火災共済事業",
+      "span": [
+        12636,
+        12666
+      ]
+    },
+    {
+      "id": "cached-14213-df50aaafed0e017e1973b89a",
+      "projectName": "市庁舎維持管理事業",
+      "span": [
+        12667,
+        12695
+      ]
+    },
+    {
+      "id": "cached-14213-c86862f254a98f119823dfa1",
+      "projectName": "市庁舎施設大規模改修事業",
+      "span": [
+        12696,
+        12727
+      ]
+    },
+    {
+      "id": "cached-14213-9f70b0585e24fdc880983d6c",
+      "projectName": "職員安全運転啓発事務",
+      "span": [
+        12728,
+        12757
+      ]
+    },
+    {
+      "id": "cached-14213-8e9577f017a06a4821ef884e",
+      "projectName": "営繕業務受託事務",
+      "span": [
+        12758,
+        12787
+      ]
+    },
+    {
+      "id": "cached-14213-a7111c63c4fc209e54f34114",
+      "projectName": "電気保安施設管理事務",
+      "span": [
+        12788,
+        12819
+      ]
+    },
+    {
+      "id": "cached-14213-0d0bb90723d2544781c240f6",
+      "projectName": "保全計画運営事務",
+      "span": [
+        12820,
+        12849
+      ]
+    },
+    {
+      "id": "cached-14213-0cb2aa72717b1a4db61f7a07",
+      "projectName": "税制管理事務",
+      "span": [
+        12850,
+        12875
+      ]
+    },
+    {
+      "id": "cached-14213-47469e8e4150caad322dd469",
+      "projectName": "固定資産評価審査事務",
+      "span": [
+        12876,
+        12905
+      ]
+    },
+    {
+      "id": "cached-14213-f8e799e0db5a4f328a042cf5",
+      "projectName": "収納済市税等整理事務",
+      "span": [
+        12906,
+        12935
+      ]
+    },
+    {
+      "id": "cached-14213-b34744d5b9940d9784a1ba0d",
+      "projectName": "収納サービス向上推進事業",
+      "span": [
+        12936,
+        12967
+      ]
+    },
+    {
+      "id": "cached-14213-4be65c6f21804619abf7708b",
+      "projectName": "滞納整理・処分事務",
+      "span": [
+        12968,
+        12996
+      ]
+    },
+    {
+      "id": "cached-14213-42ced3645ce13ea249229ba2",
+      "projectName": "軽自動車税の賦課事務",
+      "span": [
+        12997,
+        13027
+      ]
+    },
+    {
+      "id": "cached-14213-a794faeb8e0768f0a9790aa7",
+      "projectName": "個人市民税の賦課事務",
+      "span": [
+        13028,
+        13058
+      ]
+    },
+    {
+      "id": "cached-14213-258b0eea6ed9141ee640b42a",
+      "projectName": "法人市民税の賦課事務",
+      "span": [
+        13059,
+        13089
+      ]
+    },
+    {
+      "id": "cached-14213-512661757885697805b997e1",
+      "projectName": "市たばこ税の賦課事務",
+      "span": [
+        13134,
+        13164
+      ]
+    },
+    {
+      "id": "cached-14213-cda2b47ee38e9ab196f82c34",
+      "projectName": "固定資産（土地）評価事務",
+      "span": [
+        13165,
+        13197
+      ]
+    },
+    {
+      "id": "cached-14213-52b6aef8279ee683f37db181",
+      "projectName": "固定資産（家屋）評価事務",
+      "span": [
+        13198,
+        13230
+      ]
+    },
+    {
+      "id": "cached-14213-5d7e9a49a2672ead3b2dfa25",
+      "projectName": "固定資産（償却資産）評価事務",
+      "span": [
+        13231,
+        13265
+      ]
+    },
+    {
+      "id": "cached-14213-bd2b602e944d1a673602b7e3",
+      "projectName": "固定資産税賦課事務",
+      "span": [
+        13266,
+        13295
+      ]
+    },
+    {
+      "id": "cached-14213-a3e710c9f9792bccff99c3f0",
+      "projectName": "市税諸証明発行窓口事務",
+      "span": [
+        13349,
+        13380
+      ]
+    },
+    {
+      "id": "cached-14213-7ab03608aa626091e72d8a4a",
+      "projectName": "コミュニティセンター施設整備事業",
+      "span": [
+        13381,
+        13426
+      ]
+    },
+    {
+      "id": "cached-14213-fa58f6b0ce47092aac7f366d",
+      "projectName": "市民活動支援事業",
+      "span": [
+        13544,
+        13581
+      ]
+    },
+    {
+      "id": "cached-14213-b2c30a8d94e6022b438a4b85",
+      "projectName": "市民相談支援事業",
+      "span": [
+        13582,
+        13612
+      ]
+    },
+    {
+      "id": "cached-14213-e12fb52a6ee9f6f08ba1c470",
+      "projectName": "商品表示に関する立入り検査事務",
+      "span": [
+        13613,
+        13650
+      ]
+    },
+    {
+      "id": "cached-14213-fe248827bd3f389af4b0da0d",
+      "projectName": "中高層建築紛争調整事業",
+      "span": [
+        13651,
+        13689
+      ]
+    },
+    {
+      "id": "cached-14213-d21dee289e329f365430ebc8",
+      "projectName": "人権相談支援事業",
+      "span": [
+        13690,
+        13728
+      ]
+    },
+    {
+      "id": "cached-14213-425e488cf8369bdee287b033",
+      "projectName": "男女共同参画プラン策定･管理事業",
+      "span": [
+        13729,
+        13775
+      ]
+    },
+    {
+      "id": "cached-14213-badcdfbff00aca3af02afdc7",
+      "projectName": "国際化基金管理事務",
+      "span": [
+        13776,
+        13815
+      ]
+    },
+    {
+      "id": "cached-14213-c0f09ed0abe2fc779263f11c",
+      "projectName": "外国人避難民受入事業",
+      "span": [
+        13816,
+        13856
+      ]
+    },
+    {
+      "id": "cached-14213-25479f9976c28336c9304501",
+      "projectName": "平和意識啓発活動支援事業",
+      "span": [
+        13857,
+        13899
+      ]
+    },
+    {
+      "id": "cached-14213-3c7079348f3d7dc291568a67",
+      "projectName": "住居表示管理事務",
+      "span": [
+        13900,
+        13933
+      ]
+    },
+    {
+      "id": "cached-14213-f40df1f24291796c51bd9180",
+      "projectName": "フロア案内事業",
+      "span": [
+        13934,
+        13960
+      ]
+    },
+    {
+      "id": "cached-14213-80242f16017890334d295c7c",
+      "projectName": "戸籍住民基本台帳等各種届出事務",
+      "span": [
+        13961,
+        13995
+      ]
+    },
+    {
+      "id": "cached-14213-26472a2c604b86c2d7d22393",
+      "projectName": "諸証明交付事務",
+      "span": [
+        13996,
+        14022
+      ]
+    },
+    {
+      "id": "cached-14213-ac367e48b1f4241d9d294827",
+      "projectName": "戸籍システム維持管理事務",
+      "span": [
+        14023,
+        14054
+      ]
+    },
+    {
+      "id": "cached-14213-e3723a859e8b1b7e5397a367",
+      "projectName": "自動車臨時運行許可事務",
+      "span": [
+        14055,
+        14085
+      ]
+    },
+    {
+      "id": "cached-14213-9e25f2cb9edbcea8b6f196a1",
+      "projectName": "個人番号カード等交付関連事務",
+      "span": [
+        14086,
+        14119
+      ]
+    },
+    {
+      "id": "cached-14213-60ece9a14a2c2e1aa447a8ec",
+      "projectName": "分室管理運営事務",
+      "span": [
+        14120,
+        14147
+      ]
+    },
+    {
+      "id": "cached-14213-08690c36174f092bbcdce9ba",
+      "projectName": "防犯灯設置事業",
+      "span": [
+        14148,
+        14181
+      ]
+    },
+    {
+      "id": "cached-14213-c6771f09f8c43f3fa13f64e0",
+      "projectName": "街頭防犯カメラ等維持管理事務",
+      "span": [
+        14182,
+        14222
+      ]
+    },
+    {
+      "id": "cached-14213-7f9510ba49ee69e77d1397cc",
+      "projectName": "交通安全団体支援事業",
+      "span": [
+        14223,
+        14259
+      ]
+    },
+    {
+      "id": "cached-14213-b6c9aa7c9bb859d2f6b7ffc8",
+      "projectName": "商店街支援事業",
+      "span": [
+        14260,
+        14287
+      ]
+    },
+    {
+      "id": "cached-14213-a25761f8db765f188c0d3177",
+      "projectName": "商工相談事業",
+      "span": [
+        14288,
+        14314
+      ]
+    },
+    {
+      "id": "cached-14213-7675f5eb3d6477f0f6c9ffc2",
+      "projectName": "中小企業事業資金支援事業",
+      "span": [
+        14315,
+        14347
+      ]
+    },
+    {
+      "id": "cached-14213-d6ef22344944bec60aab4421",
+      "projectName": "青少年創意くふう展事業",
+      "span": [
+        14348,
+        14379
+      ]
+    },
+    {
+      "id": "cached-14213-deab9c114548b348b411127b",
+      "projectName": "地域工業会連合会支援事業",
+      "span": [
+        14380,
+        14412
+      ]
+    },
+    {
+      "id": "cached-14213-74ac88b36e6030a54b3d8146",
+      "projectName": "大和駅周辺商業活性化事業",
+      "span": [
+        14413,
+        14445
+      ]
+    },
+    {
+      "id": "cached-14213-7bff5ec299b066a8b7a8585b",
+      "projectName": "大規模小売店舗立地対策事業",
+      "span": [
+        14499,
+        14532
+      ]
+    },
+    {
+      "id": "cached-14213-955b14dde70bf2ccc846f3c5",
+      "projectName": "さがみロボット産業特区促進支援事業",
+      "span": [
+        14533,
+        14570
+      ]
+    },
+    {
+      "id": "cached-14213-31fb5b072d64bfc0100b94ea",
+      "projectName": "中小企業退職金共済制度支援事業",
+      "span": [
+        14571,
+        14606
+      ]
+    },
+    {
+      "id": "cached-14213-fb9e19d98c147b4770388a90",
+      "projectName": "（一財）神奈川県駐労福祉センター支援事業",
+      "span": [
+        14607,
+        14647
+      ]
+    },
+    {
+      "id": "cached-14213-1c282abb670c063015af02c1",
+      "projectName": "勤労者生活資金支援事業",
+      "span": [
+        14648,
+        14679
+      ]
+    },
+    {
+      "id": "cached-14213-658435df01e613e241633f5a",
+      "projectName": "労働団体支援事業",
+      "span": [
+        14680,
+        14708
+      ]
+    },
+    {
+      "id": "cached-14213-178d3379765888ba163188c0",
+      "projectName": "湘北建築高等職業訓練校支援事業",
+      "span": [
+        14709,
+        14744
+      ]
+    },
+    {
+      "id": "cached-14213-310b748b8114ca304ac7d60f",
+      "projectName": "勤労者教育講座事業",
+      "span": [
+        14745,
+        14774
+      ]
+    },
+    {
+      "id": "cached-14213-ded3678d0d2f53d876fc7861",
+      "projectName": "計量検査事務",
+      "span": [
+        14775,
+        14803
+      ]
+    },
+    {
+      "id": "cached-14213-24e95c0b7600f89e345b0f8d",
+      "projectName": "都市農業振興基本計画等管理運営事業",
+      "span": [
+        14804,
+        14841
+      ]
+    },
+    {
+      "id": "cached-14213-1b515b39b4278a2eb8d66302",
+      "projectName": "都市農業振興推進員事業",
+      "span": [
+        14842,
+        14873
+      ]
+    },
+    {
+      "id": "cached-14213-4da95b641783c41d0778b6b3",
+      "projectName": "農業生産研究育成事業",
+      "span": [
+        14874,
+        14904
+      ]
+    },
+    {
+      "id": "cached-14213-68fa8da9893194391f64ceb7",
+      "projectName": "ふれあい農園支援事業",
+      "span": [
+        14905,
+        14935
+      ]
+    },
+    {
+      "id": "cached-14213-44a57707409b50d4ab71375a",
+      "projectName": "やまと産業フェア支援事業",
+      "span": [
+        14936,
+        14968
+      ]
+    },
+    {
+      "id": "cached-14213-f8f74928ff593159f59347fe",
+      "projectName": "農業団体活動支援事業",
+      "span": [
+        14969,
+        14999
+      ]
+    },
+    {
+      "id": "cached-14213-2252771850268a3bbe0f9f5c",
+      "projectName": "水田農業対策事業",
+      "span": [
+        15000,
+        15028
+      ]
+    },
+    {
+      "id": "cached-14213-4aec69aa228a57f8894dfd36",
+      "projectName": "農業振興基金管理事業",
+      "span": [
+        15029,
+        15059
+      ]
+    },
+    {
+      "id": "cached-14213-8fd93fef78c84660036ed1cb",
+      "projectName": "畜産育成対策事業",
+      "span": [
+        15060,
+        15088
+      ]
+    },
+    {
+      "id": "cached-14213-79394b75f39ac290786fe468",
+      "projectName": "大和市民まつり支援事業",
+      "span": [
+        15089,
+        15124
+      ]
+    },
+    {
+      "id": "cached-14213-302db42c7801ccf7e81050dd",
+      "projectName": "物価高騰対策給付金給付事業",
+      "span": [
+        15125,
+        15164
+      ]
+    },
+    {
+      "id": "cached-14213-450312a95ba5feb538b897a5",
+      "projectName": "環境基本計画推進事業",
+      "span": [
+        15165,
+        15202
+      ]
+    },
+    {
+      "id": "cached-14213-2c1e465542b78662e37a1e96",
+      "projectName": "環境保全団体支援事業",
+      "span": [
+        15203,
+        15240
+      ]
+    },
+    {
+      "id": "cached-14213-b50960c1510c0fb36540e37e",
+      "projectName": "専用水道等衛生対策事業",
+      "span": [
+        15241,
+        15282
+      ]
+    },
+    {
+      "id": "cached-14213-b1afb4d72ba43db70738f064",
+      "projectName": "環境フェア等運営事業",
+      "span": [
+        15283,
+        15323
+      ]
+    },
+    {
+      "id": "cached-14213-6edbfe038ab5bc73c9df18c7",
+      "projectName": "スズメバチ駆除対策事業",
+      "span": [
+        15324,
+        15365
+      ]
+    },
+    {
+      "id": "cached-14213-86d98e6f9f44b1045ca6e1b2",
+      "projectName": "合併処理浄化槽設置支援事業",
+      "span": [
+        15366,
+        15409
+      ]
+    },
+    {
+      "id": "cached-14213-1973a466ca2b5cd0be1bf95f",
+      "projectName": "保存樹林等支援事業",
+      "span": [
+        15410,
+        15447
+      ]
+    },
+    {
+      "id": "cached-14213-9004203aedd3661359ed2ba0",
+      "projectName": "みどり基金管理事務",
+      "span": [
+        15448,
+        15485
+      ]
+    },
+    {
+      "id": "cached-14213-62373ebfa993c619f0944c0b",
+      "projectName": "野生鳥獣保護事業",
+      "span": [
+        15486,
+        15522
+      ]
+    },
+    {
+      "id": "cached-14213-651a3c35d54530f18a24e2db",
+      "projectName": "緑化推進支援事業",
+      "span": [
+        15523,
+        15559
+      ]
+    },
+    {
+      "id": "cached-14213-c54615cd5c56fcb43e567b60",
+      "projectName": "緑化ボランティア等育成支援事業",
+      "span": [
+        15613,
+        15656
+      ]
+    },
+    {
+      "id": "cached-14213-2520d76f9aad6b0422d492b2",
+      "projectName": "グリーンアップセンター管理運営事業",
+      "span": [
+        15709,
+        15754
+      ]
+    },
+    {
+      "id": "cached-14213-43f5a1853f068aad1d860da5",
+      "projectName": "自然観察センター・しらかしのいえ運営事業",
+      "span": [
+        15755,
+        15803
+      ]
+    },
+    {
+      "id": "cached-14213-8260f9ceb0ceba22e03b950c",
+      "projectName": "市民緑地設置推進事業",
+      "span": [
+        15857,
+        15895
+      ]
+    },
+    {
+      "id": "cached-14213-c3716945c4ebc484c09e4714",
+      "projectName": "民間開発への指導事務",
+      "span": [
+        15896,
+        15934
+      ]
+    },
+    {
+      "id": "cached-14213-4f5ceb871c2cf7e6bb55984c",
+      "projectName": "大規模緑地整備事業",
+      "span": [
+        15935,
+        15972
+      ]
+    },
+    {
+      "id": "cached-14213-4d8f4611313b49041249fd12",
+      "projectName": "記念樹植樹事業",
+      "span": [
+        15973,
+        16008
+      ]
+    },
+    {
+      "id": "cached-14213-6c7823b9f2dcd49280ea6649",
+      "projectName": "多胡記念公園維持管理事業",
+      "span": [
+        16062,
+        16102
+      ]
+    },
+    {
+      "id": "cached-14213-00f3e8cf2117f28953aa8f0b",
+      "projectName": "公園用地等借受事業",
+      "span": [
+        16103,
+        16140
+      ]
+    },
+    {
+      "id": "cached-14213-d26693028ccf1cdfee48fa60",
+      "projectName": "ゆとりの森管理運営事業",
+      "span": [
+        16141,
+        16180
+      ]
+    },
+    {
+      "id": "cached-14213-416980e15dd36f7cbe4bc3b4",
+      "projectName": "公園台帳整備事業",
+      "span": [
+        16181,
+        16217
+      ]
+    },
+    {
+      "id": "cached-14213-81b92d6b9010a02b629479e0",
+      "projectName": "ゆとりの森整備事業",
+      "span": [
+        16218,
+        16255
+      ]
+    },
+    {
+      "id": "cached-14213-ecdd695fc00008cec733df3f",
+      "projectName": "公衆便所等管理運営事業",
+      "span": [
+        16256,
+        16292
+      ]
+    },
+    {
+      "id": "cached-14213-28c9b9c7250beb1f43a6e088",
+      "projectName": "直接搬入ごみ受入施設等運営事業",
+      "span": [
+        16293,
+        16333
+      ]
+    },
+    {
+      "id": "cached-14213-8d9c5d700c0f4886e17343bc",
+      "projectName": "柳橋ふれあいプラザ管理運営事業",
+      "span": [
+        16334,
+        16374
+      ]
+    },
+    {
+      "id": "cached-14213-ce2081b1d660cc31e421ba39",
+      "projectName": "搬入物管理事務",
+      "span": [
+        16375,
+        16407
+      ]
+    },
+    {
+      "id": "cached-14213-b20c87eec37da30e186d655f",
+      "projectName": "環境管理センター安全衛生推進事業",
+      "span": [
+        16408,
+        16449
+      ]
+    },
+    {
+      "id": "cached-14213-240c21ef8f45cca81dc83952",
+      "projectName": "環境管理センター建物設備等維持管理事務",
+      "span": [
+        16450,
+        16494
+      ]
+    },
+    {
+      "id": "cached-14213-778d074c684ecda2a94d453f",
+      "projectName": "環境管理センターごみ処理施設維持補修事業",
+      "span": [
+        16495,
+        16540
+      ]
+    },
+    {
+      "id": "cached-14213-b697aa772a144e4fce299b76",
+      "projectName": "環境管理センターごみ処理施設維持管理事務",
+      "span": [
+        16541,
+        16586
+      ]
+    },
+    {
+      "id": "cached-14213-34dc4667069b4503619aee48",
+      "projectName": "一般廃棄物運搬処分事業",
+      "span": [
+        16587,
+        16623
+      ]
+    },
+    {
+      "id": "cached-14213-7db215e59568481eba025b5c",
+      "projectName": "可燃ごみ焼却処理事業",
+      "span": [
+        16624,
+        16659
+      ]
+    },
+    {
+      "id": "cached-14213-a2be11a84b4ad08116073eea",
+      "projectName": "不燃・粗大ごみ処理事業",
+      "span": [
+        16660,
+        16696
+      ]
+    },
+    {
+      "id": "cached-14213-19eea3eaefa8d0278e352570",
+      "projectName": "最終処分場施設維持管理運営事業",
+      "span": [
+        16697,
+        16737
+      ]
+    },
+    {
+      "id": "cached-14213-940b8f74bc6688a126237bd0",
+      "projectName": "ごみ処理広域化事業",
+      "span": [
+        16738,
+        16776
+      ]
+    },
+    {
+      "id": "cached-14213-3b2dc6537bedfee4910e5dba",
+      "projectName": "資源循環型生ごみ処理事業",
+      "span": [
+        16777,
+        16818
+      ]
+    },
+    {
+      "id": "cached-14213-411d2da656a7e632ff40b812",
+      "projectName": "生ごみ処理容器等設置支援事業",
+      "span": [
+        16819,
+        16862
+      ]
+    },
+    {
+      "id": "cached-14213-9abdae6be3d0fcb41caecc08",
+      "projectName": "事業系ごみ処理適正負担事業",
+      "span": [
+        16916,
+        16958
+      ]
+    },
+    {
+      "id": "cached-14213-c235e720e100d6890d4e0b79",
+      "projectName": "犬猫死体収集運搬事業",
+      "span": [
+        16959,
+        16998
+      ]
+    },
+    {
+      "id": "cached-14213-8add371da6aad0022c340198",
+      "projectName": "塵芥収集車両等維持管理事務",
+      "span": [
+        16999,
+        17041
+      ]
+    },
+    {
+      "id": "cached-14213-75e7072ee9010268d19193e2",
+      "projectName": "塵芥収集車両等整備事業",
+      "span": [
+        17042,
+        17082
+      ]
+    },
+    {
+      "id": "cached-14213-0344734e796ad4f67a367a6e",
+      "projectName": "し尿処理運搬事業",
+      "span": [
+        17083,
+        17120
+      ]
+    },
+    {
+      "id": "cached-14213-dbbafd6a70b94a85d9607e1e",
+      "projectName": "家庭汚水等収集運搬事業",
+      "span": [
+        17121,
+        17161
+      ]
+    },
+    {
+      "id": "cached-14213-10d11538918795ea676e96af",
+      "projectName": "下水道事業経営事務",
+      "span": [
+        17162,
+        17199
+      ]
+    },
+    {
+      "id": "cached-14213-163033f566b666d76daceea3",
+      "projectName": "下水道賦課管理事務",
+      "span": [
+        17200,
+        17237
+      ]
+    },
+    {
+      "id": "cached-14213-8ee7dcc887a62e0c8c4881cf",
+      "projectName": "河川維持管理事業",
+      "span": [
+        17238,
+        17272
+      ]
+    },
+    {
+      "id": "cached-14213-5d7010bd63c3551bf0ab261e",
+      "projectName": "雨水浸透阻害行為に係る許認可事務",
+      "span": [
+        17273,
+        17315
+      ]
+    },
+    {
+      "id": "cached-14213-665acb94b28161aabddf4898",
+      "projectName": "引地川改修事業",
+      "span": [
+        17316,
+        17349
+      ]
+    },
+    {
+      "id": "cached-14213-eeeb5c3b4101677f80d5ed0b",
+      "projectName": "水循環促進支援事業",
+      "span": [
+        17350,
+        17390
+      ]
+    },
+    {
+      "id": "cached-14213-c72f6b187de9557d6fe0ae4a",
+      "projectName": "下水道計画管理運営事務",
+      "span": [
+        17391,
+        17433
+      ]
+    },
+    {
+      "id": "cached-14213-7bef94a8530d9fb1570ecfcf",
+      "projectName": "処理場整備事業",
+      "span": [
+        17434,
+        17472
+      ]
+    },
+    {
+      "id": "cached-14213-c8ec967ff147226653439ec0",
+      "projectName": "スポーツ・よか・みどり財団支援事業",
+      "span": [
+        17473,
+        17517
+      ]
+    },
+    {
+      "id": "cached-14213-6bf2510196d21e679d7ccbfd",
+      "projectName": "文化会館建設基金管理事務",
+      "span": [
+        17518,
+        17557
+      ]
+    },
+    {
+      "id": "cached-14213-60185335ce48782190401b2b",
+      "projectName": "生涯学習振興基金管理事務",
+      "span": [
+        17558,
+        17597
+      ]
+    },
+    {
+      "id": "cached-14213-822c1bdb5cc1faf5e847a785",
+      "projectName": "文化振興基金管理事務",
+      "span": [
+        17598,
+        17635
+      ]
+    },
+    {
+      "id": "cached-14213-a6ad3f34331f2fa4d36eebd3",
+      "projectName": "生涯学習振興基金活用支援事業",
+      "span": [
+        17636,
+        17677
+      ]
+    },
+    {
+      "id": "cached-14213-797e7f566ab642bb3826e7f3",
+      "projectName": "文化芸術振興基本計画進行管理事業",
+      "span": [
+        17678,
+        17721
+      ]
+    },
+    {
+      "id": "cached-14213-6a4f655f0b920a28fa482de9",
+      "projectName": "美術鑑賞推進事業",
+      "span": [
+        17722,
+        17757
+      ]
+    },
+    {
+      "id": "cached-14213-68644ceef966eb7b3ec81f81",
+      "projectName": "文化団体支援事業",
+      "span": [
+        17758,
+        17793
+      ]
+    },
+    {
+      "id": "cached-14213-f1dae90fe62edc2b2aaef609",
+      "projectName": "歴史的公文書収集整理事業",
+      "span": [
+        17794,
+        17833
+      ]
+    },
+    {
+      "id": "cached-14213-abc040bdffc3bb55bda95c9a",
+      "projectName": "地域歴史資料整理・保存事業",
+      "span": [
+        17834,
+        17874
+      ]
+    },
+    {
+      "id": "cached-14213-56097343a2fd1c3ee1991b09",
+      "projectName": "大和市市史編集発刊事業",
+      "span": [
+        17875,
+        17913
+      ]
+    },
+    {
+      "id": "cached-14213-86c81d9753c6c72ea37400c7",
+      "projectName": "文化財保護管理事務",
+      "span": [
+        17914,
+        17950
+      ]
+    },
+    {
+      "id": "cached-14213-99afbefe057ea50dfc2e8ccb",
+      "projectName": "文化財保護審議会等運営事務",
+      "span": [
+        17951,
+        17991
+      ]
+    },
+    {
+      "id": "cached-14213-7ed6c7f50cb8a2c615b3c3e7",
+      "projectName": "埋蔵文化財保護事業",
+      "span": [
+        17992,
+        18028
+      ]
+    },
+    {
+      "id": "cached-14213-2c29f49164720805c5edace7",
+      "projectName": "民俗文化財保護事業",
+      "span": [
+        18029,
+        18065
+      ]
+    },
+    {
+      "id": "cached-14213-519fa6d64155b9ec1452d864",
+      "projectName": "史跡・天然記念物保護事業",
+      "span": [
+        18066,
+        18105
+      ]
+    },
+    {
+      "id": "cached-14213-562f97828809976e5f282c65",
+      "projectName": "指定文化財保護支援事業",
+      "span": [
+        18159,
+        18197
+      ]
+    },
+    {
+      "id": "cached-14213-aaa282da9f8f54280faee916",
+      "projectName": "つる舞の里歴史資料館維持管理事務",
+      "span": [
+        18198,
+        18241
+      ]
+    },
+    {
+      "id": "cached-14213-a71e5b24a68f89f59fda10a9",
+      "projectName": "つる舞の里歴史資料館運営事業",
+      "span": [
+        18242,
+        18283
+      ]
+    },
+    {
+      "id": "cached-14213-7df81f33b2ec6e2f5d2b8eb2",
+      "projectName": "下鶴間ふるさと館維持管理運営事業",
+      "span": [
+        18284,
+        18327
+      ]
+    },
+    {
+      "id": "cached-14213-1371b9a6d408d2efec60a25c",
+      "projectName": "有形文化財保護事業",
+      "span": [
+        18328,
+        18364
+      ]
+    },
+    {
+      "id": "cached-14213-f93515cba1b324ed8c731c30",
+      "projectName": "無形文化財保護事業",
+      "span": [
+        18365,
+        18401
+      ]
+    },
+    {
+      "id": "cached-14213-16132b19b7fbb970e0a3921d",
+      "projectName": "文化財保管施設維持管理事業",
+      "span": [
+        18402,
+        18442
+      ]
+    },
+    {
+      "id": "cached-14213-1df78ed2c64c8e15d6c47992",
+      "projectName": "歴史資料提供・相談事業",
+      "span": [
+        18443,
+        18481
+      ]
+    },
+    {
+      "id": "cached-14213-166d63354006ea2f529d3083",
+      "projectName": "歩く健康づくり事業",
+      "span": [
+        18482,
+        18521
+      ]
+    },
+    {
+      "id": "cached-14213-4674ed3064bdee018cfa0bfc",
+      "projectName": "後期高齢者健康診査事業",
+      "span": [
+        18522,
+        18560
+      ]
+    },
+    {
+      "id": "cached-14213-42a7434566feeaf42fcb118c",
+      "projectName": "食品衛生管理支援事業",
+      "span": [
+        18561,
+        18598
+      ]
+    },
+    {
+      "id": "cached-14213-a75d7066f0afd232bdf4ed7d",
+      "projectName": "女性の健康診査事業",
+      "span": [
+        18599,
+        18635
+      ]
+    },
+    {
+      "id": "cached-14213-b3a42392187ad2982c076a2f",
+      "projectName": "狂犬病予防事業",
+      "span": [
+        18636,
+        18670
+      ]
+    },
+    {
+      "id": "cached-14213-8aa95c84fb423a2b6d13ea94",
+      "projectName": "成人歯科健康診査事業",
+      "span": [
+        18671,
+        18708
+      ]
+    },
+    {
+      "id": "cached-14213-e0adb4986d1f32bea4a04a22",
+      "projectName": "公衆衛生支援事業",
+      "span": [
+        18709,
+        18744
+      ]
+    },
+    {
+      "id": "cached-14213-c2f998e86ca9220137403801",
+      "projectName": "保健医療団体活動支援事業",
+      "span": [
+        18745,
+        18784
+      ]
+    },
+    {
+      "id": "cached-14213-43d54e1365ba821dbe70952e",
+      "projectName": "外国籍市民救急医療対策支援事業",
+      "span": [
+        18785,
+        18827
+      ]
+    },
+    {
+      "id": "cached-14213-1bb684aa5fb675e1c3c74bc8",
+      "projectName": "地域医療センター管理運営事業",
+      "span": [
+        18828,
+        18869
+      ]
+    },
+    {
+      "id": "cached-14213-c35088ad0ddbbc4b601b3a89",
+      "projectName": "産科医等確保支援事業",
+      "span": [
+        18870,
+        18907
+      ]
+    },
+    {
+      "id": "cached-14213-3b88999af2887b479d88d912",
+      "projectName": "救急医療情報活用事業",
+      "span": [
+        18908,
+        18945
+      ]
+    },
+    {
+      "id": "cached-14213-089ec9ed6fb197f7efd0e982",
+      "projectName": "がん患者等支援事業",
+      "span": [
+        18946,
+        18982
+      ]
+    },
+    {
+      "id": "cached-14213-319479b0764d1495361a7203",
+      "projectName": "献血推進事業",
+      "span": [
+        18983,
+        19016
+      ]
+    },
+    {
+      "id": "cached-14213-119c66b6493262965710250a",
+      "projectName": "広域大和斎場組合負担事務",
+      "span": [
+        19017,
+        19048
+      ]
+    },
+    {
+      "id": "cached-14213-13b678c8d6cf59f7050fa91c",
+      "projectName": "墓地等経営許可事業",
+      "span": [
+        19049,
+        19077
+      ]
+    },
+    {
+      "id": "cached-14213-13ee6792c965ff561068cd53",
+      "projectName": "宮久保スポーツ広場管理運営事業",
+      "span": [
+        19141,
+        19187
+      ]
+    },
+    {
+      "id": "cached-14213-b07c2ca74b4618eb81850c85",
+      "projectName": "スポーツ活動奨励事業",
+      "span": [
+        19188,
+        19229
+      ]
+    },
+    {
+      "id": "cached-14213-c110ca7961d43e3899a6ede9",
+      "projectName": "スポーツ施策管理事務",
+      "span": [
+        19230,
+        19271
+      ]
+    },
+    {
+      "id": "cached-14213-b59a9a137899ee441afd3e7f",
+      "projectName": "学校施設スポーツ開放事業",
+      "span": [
+        19272,
+        19315
+      ]
+    },
+    {
+      "id": "cached-14213-87c0a4091229e17582093bfc",
+      "projectName": "庭球場施設管理運営事業",
+      "span": [
+        19316,
+        19358
+      ]
+    },
+    {
+      "id": "cached-14213-a936c03621f2a6e25a6b2750",
+      "projectName": "スポーツ指導者育成支援事業",
+      "span": [
+        19412,
+        19456
+      ]
+    },
+    {
+      "id": "cached-14213-e974e1304a7a08ffad6fc1c5",
+      "projectName": "スポーツ広場管理運営事業",
+      "span": [
+        19457,
+        19500
+      ]
+    },
+    {
+      "id": "cached-14213-aa1aee21076b3990d9fe7128",
+      "projectName": "野球場（下福田）施設管理運営事業",
+      "span": [
+        19501,
+        19548
+      ]
+    },
+    {
+      "id": "cached-14213-b8b9f38a273d1a561536d70b",
+      "projectName": "スポーツ大会選手派遣事業",
+      "span": [
+        19549,
+        19592
+      ]
+    },
+    {
+      "id": "cached-14213-bc26e3ff3e4d715f5c3a5d9b",
+      "projectName": "社会教育委員会議運営事務",
+      "span": [
+        19593,
+        19635
+      ]
+    },
+    {
+      "id": "cached-14213-9bd5f26c6ad7af579519ce13",
+      "projectName": "社会教育啓発事業",
+      "span": [
+        19636,
+        19674
+      ]
+    },
+    {
+      "id": "cached-14213-570f251087d41c278ff1e255",
+      "projectName": "PTA連絡協議会支援事業",
+      "span": [
+        19675,
+        19717
+      ]
+    },
+    {
+      "id": "cached-14213-90774ee348bb5c51c3fd90fe",
+      "projectName": "特別教室開放事業",
+      "span": [
+        19718,
+        19756
+      ]
+    },
+    {
+      "id": "cached-14213-b1f4a90ca084e90ed50691f5",
+      "projectName": "子ども読書活動推進会議運営事務",
+      "span": [
+        19757,
+        19802
+      ]
+    },
+    {
+      "id": "cached-14213-4c439b31d67f2d4d92066ac1",
+      "projectName": "生涯学習総合推進事業",
+      "span": [
+        19803,
+        19843
+      ]
+    },
+    {
+      "id": "cached-14213-5193533e270d2fa24c05b4c2",
+      "projectName": "出前講座「どこでも講座」事業",
+      "span": [
+        19844,
+        19888
+      ]
+    },
+    {
+      "id": "cached-14213-82c8180cf1cd7398a525f994",
+      "projectName": "文化創造拠点シリウス管理運営事業",
+      "span": [
+        19889,
+        19935
+      ]
+    },
+    {
+      "id": "cached-14213-9bc837c7c14251e50c5dca7f",
+      "projectName": "保健福祉基金管理事務",
+      "span": [
+        19936,
+        19965
+      ]
+    },
+    {
+      "id": "cached-14213-8b9479c4c9d5aeed1b6190ea",
+      "projectName": "遺族会支援事業",
+      "span": [
+        19966,
+        19992
+      ]
+    },
+    {
+      "id": "cached-14213-fa88d317cabae40b2e72e405",
+      "projectName": "戦没者等遺族支援事業",
+      "span": [
+        19993,
+        20022
+      ]
+    },
+    {
+      "id": "cached-14213-cc1aa9eeb3c6f283048d398b",
+      "projectName": "戦没者追悼式開催事業",
+      "span": [
+        20023,
+        20052
+      ]
+    },
+    {
+      "id": "cached-14213-a0c32d7aa5dc84e2b724806a",
+      "projectName": "保護観察制度支援事業",
+      "span": [
+        20053,
+        20082
+      ]
+    },
+    {
+      "id": "cached-14213-ffeaae85244a9d9bc17ae699",
+      "projectName": "大和市社会を明るくする運動推進支援事業",
+      "span": [
+        20083,
+        20121
+      ]
+    },
+    {
+      "id": "cached-14213-a02f2a2e130c67760c91906a",
+      "projectName": "大和市福祉推進委員会支援事業",
+      "span": [
+        20122,
+        20155
+      ]
+    },
+    {
+      "id": "cached-14213-d2b7a96665741fd3cbd5c139",
+      "projectName": "社会福祉審議会運営事務",
+      "span": [
+        20156,
+        20186
+      ]
+    },
+    {
+      "id": "cached-14213-a1e734292b583d962e8e70aa",
+      "projectName": "地域福祉計画推進事業",
+      "span": [
+        20187,
+        20216
+      ]
+    },
+    {
+      "id": "cached-14213-e7694528d39b414ce7392149",
+      "projectName": "社会福祉法人認可等事務",
+      "span": [
+        20217,
+        20247
+      ]
+    },
+    {
+      "id": "cached-14213-d4f1dc9ad78c321856b60fc5",
+      "projectName": "保健福祉センター施設維持管理事務",
+      "span": [
+        20248,
+        20283
+      ]
+    },
+    {
+      "id": "cached-14213-ee229c191977253bdf70bfcd",
+      "projectName": "ホール運営事務",
+      "span": [
+        20284,
+        20310
+      ]
+    },
+    {
+      "id": "cached-14213-19052d92b024cdb14eb78049",
+      "projectName": "保健福祉センター施設改修事業",
+      "span": [
+        20311,
+        20344
+      ]
+    },
+    {
+      "id": "cached-14213-d3a6d418f5555ba2b54337a2",
+      "projectName": "大和市更生保護女性会事務局事務",
+      "span": [
+        20345,
+        20379
+      ]
+    },
+    {
+      "id": "cached-14213-281ba6a8789d54ac45fded21",
+      "projectName": "日本赤十字社大和市地区連携事業",
+      "span": [
+        20380,
+        20414
+      ]
+    },
+    {
+      "id": "cached-14213-94900a2d036cd28139237332",
+      "projectName": "福祉有償運送支援事業",
+      "span": [
+        20415,
+        20444
+      ]
+    },
+    {
+      "id": "cached-14213-bb05a1033b26e780fc40ce1c",
+      "projectName": "中国残留邦人等支援事業",
+      "span": [
+        20445,
+        20475
+      ]
+    },
+    {
+      "id": "cached-14213-e63dac1db4a02fd666e284b5",
+      "projectName": "災害見舞金等支給事業",
+      "span": [
+        20574,
+        20606
+      ]
+    },
+    {
+      "id": "cached-14213-f16ea44ea1727f9f4efe0085",
+      "projectName": "介護保険利用者負担対策支援事業",
+      "span": [
+        20607,
+        20641
+      ]
+    },
+    {
+      "id": "cached-14213-4ee0c42f3386ae34491382ed",
+      "projectName": "老人福祉施設建設等支援事業",
+      "span": [
+        20642,
+        20674
+      ]
+    },
+    {
+      "id": "cached-14213-9d979c584a15441b4a355964",
+      "projectName": "資格管理事業",
+      "span": [
+        20675,
+        20700
+      ]
+    },
+    {
+      "id": "cached-14213-1bedcb36995556f88e78888b",
+      "projectName": "介護保険運営管理事務",
+      "span": [
+        20701,
+        20730
+      ]
+    },
+    {
+      "id": "cached-14213-c50adc8f864ae896615e64de",
+      "projectName": "要介護認定事業",
+      "span": [
+        20731,
+        20757
+      ]
+    },
+    {
+      "id": "cached-14213-b46e9cb7ae57eb082476fd4e",
+      "projectName": "趣旨普及事業",
+      "span": [
+        20758,
+        20783
+      ]
+    },
+    {
+      "id": "cached-14213-f76d753d30ccbf242bcf0400",
+      "projectName": "地域支援任意事業（介護給付関連）",
+      "span": [
+        20784,
+        20819
+      ]
+    },
+    {
+      "id": "cached-14213-d8494798c6d62b1e6b81f00b",
+      "projectName": "介護保険給付準備基金管理事務",
+      "span": [
+        20820,
+        20853
+      ]
+    },
+    {
+      "id": "cached-14213-7c81f5454637a7da0805d8ae",
+      "projectName": "償還金管理事務",
+      "span": [
+        20854,
+        20880
+      ]
+    },
+    {
+      "id": "cached-14213-180ac295f80a676ba7778b48",
+      "projectName": "保険給付事業（介護）",
+      "span": [
+        20881,
+        20910
+      ]
+    },
+    {
+      "id": "cached-14213-cfecdc28e33793d84e8e9bae",
+      "projectName": "高齢者入浴サービス事業",
+      "span": [
+        20911,
+        20953
+      ]
+    },
+    {
+      "id": "cached-14213-4b7b6b5e1c67548c40c48497",
+      "projectName": "高齢者生きがい活動推進事業",
+      "span": [
+        20954,
+        20998
+      ]
+    },
+    {
+      "id": "cached-14213-ef77c01e51fff798407c5f1c",
+      "projectName": "高齢者福祉農園事業",
+      "span": [
+        20999,
+        21039
+      ]
+    },
+    {
+      "id": "cached-14213-d5f75e4db5c328d7ec1f894d",
+      "projectName": "老人クラブ育成支援事業",
+      "span": [
+        21040,
+        21082
+      ]
+    },
+    {
+      "id": "cached-14213-e082ba7d773c40f6b9a4e8b1",
+      "projectName": "老人福祉センター運営事業",
+      "span": [
+        21083,
+        21126
+      ]
+    },
+    {
+      "id": "cached-14213-62a5be34a82d1cbfeccff8b3",
+      "projectName": "敬老祝品等支給事業",
+      "span": [
+        21127,
+        21167
+      ]
+    },
+    {
+      "id": "cached-14213-a9bd7d6bb0375b4bda44b3e7",
+      "projectName": "はり・きゅう・マッサージ治療費助成事業",
+      "span": [
+        21168,
+        21218
+      ]
+    },
+    {
+      "id": "cached-14213-daaa99f9c698b3db6458658c",
+      "projectName": "福寿手帳（カード）交付事業",
+      "span": [
+        21219,
+        21263
+      ]
+    },
+    {
+      "id": "cached-14213-06848b782e537a7143a0ec11",
+      "projectName": "養護老人ホーム建設費償還支援事業",
+      "span": [
+        21264,
+        21303
+      ]
+    },
+    {
+      "id": "cached-14213-3fb771ceb3acc4030d1c5630",
+      "projectName": "在日外国人高齢者等福祉給付金助成事業",
+      "span": [
+        21304,
+        21345
+      ]
+    },
+    {
+      "id": "cached-14213-aefd1cb65fd32d4dad02e921",
+      "projectName": "高齢者見守り事業",
+      "span": [
+        21346,
+        21377
+      ]
+    },
+    {
+      "id": "cached-14213-0c1119afe9056ae621d8ed1f",
+      "projectName": "在宅介護支援センター事業",
+      "span": [
+        21378,
+        21413
+      ]
+    },
+    {
+      "id": "cached-14213-d0934c943c3ea3572d10cd58",
+      "projectName": "まごころ地域福祉センター運営事業",
+      "span": [
+        21414,
+        21453
+      ]
+    },
+    {
+      "id": "cached-14213-cc844ab3b414df1bf9fedfb8",
+      "projectName": "短期入所事業（高齢者）",
+      "span": [
+        21454,
+        21488
+      ]
+    },
+    {
+      "id": "cached-14213-331efc5a8f24cc33ea352dcd",
+      "projectName": "施設入所等措置事業",
+      "span": [
+        21489,
+        21521
+      ]
+    },
+    {
+      "id": "cached-14213-dfe62aca875477c48d18a4e1",
+      "projectName": "高齢者・保健サービス審議会運営事業",
+      "span": [
+        21522,
+        21562
+      ]
+    },
+    {
+      "id": "cached-14213-a09b9b00b5f4883b4ac2c36b",
+      "projectName": "老人福祉施設運営支援事業",
+      "span": [
+        21563,
+        21598
+      ]
+    },
+    {
+      "id": "cached-14213-d1d43b2a5a0bd96cbe26ca4b",
+      "projectName": "地域の相談所・居場所運営事業",
+      "span": [
+        21599,
+        21636
+      ]
+    },
+    {
+      "id": "cached-14213-b7d9b76fd7c8f1490f42e090",
+      "projectName": "高齢者保健福祉計画運営管理事務",
+      "span": [
+        21637,
+        21675
+      ]
+    },
+    {
+      "id": "cached-14213-b4a09fe0699e11315db3f53a",
+      "projectName": "障害者歯科健診事業",
+      "span": [
+        21730,
+        21767
+      ]
+    },
+    {
+      "id": "cached-14213-ac793a891c9864dfa1350bad",
+      "projectName": "地域福祉権利擁護支援事業",
+      "span": [
+        21768,
+        21800
+      ]
+    },
+    {
+      "id": "cached-14213-4bc6438d36903bf8df2c76c9",
+      "projectName": "自立支援医療等給付事業",
+      "span": [
+        21801,
+        21832
+      ]
+    },
+    {
+      "id": "cached-14213-00e2c8abba8bfbb2c06f578b",
+      "projectName": "コミュニケーション支援事業",
+      "span": [
+        21833,
+        21866
+      ]
+    },
+    {
+      "id": "cached-14213-1154c53248fc1319f50887aa",
+      "projectName": "障害者総合支援法市審査会運営事務",
+      "span": [
+        21867,
+        21903
+      ]
+    },
+    {
+      "id": "cached-14213-e5ec4f79ac69820d4415d40b",
+      "projectName": "障がい者福祉計画策定・進行管理事業",
+      "span": [
+        21904,
+        21941
+      ]
+    },
+    {
+      "id": "cached-14213-283c6eec50f8ee16cc125b18",
+      "projectName": "在宅重度障がい者サポート事業",
+      "span": [
+        21942,
+        21976
+      ]
+    },
+    {
+      "id": "cached-14213-75d48905a08720b79c8ea2ba",
+      "projectName": "通所訓練費支給事業",
+      "span": [
+        21977,
+        22006
+      ]
+    },
+    {
+      "id": "cached-14213-61d7e47e2f64b06b8531b0b7",
+      "projectName": "市障害者福祉手当支給事業",
+      "span": [
+        22007,
+        22039
+      ]
+    },
+    {
+      "id": "cached-14213-a042fdfe6c000b8ccbb94434",
+      "projectName": "特別障害者手当等支給事業",
+      "span": [
+        22040,
+        22072
+      ]
+    },
+    {
+      "id": "cached-14213-b24603415a749103b0546f7c",
+      "projectName": "心身障害者医療費助成事業",
+      "span": [
+        22073,
+        22105
+      ]
+    },
+    {
+      "id": "cached-14213-fba9d274e50f58f4edd537e7",
+      "projectName": "障害者団体等支援事業",
+      "span": [
+        22106,
+        22136
+      ]
+    },
+    {
+      "id": "cached-14213-9504e5f978242e627ab751c3",
+      "projectName": "障がい福祉施設建設費償還支援事業",
+      "span": [
+        22137,
+        22173
+      ]
+    },
+    {
+      "id": "cached-14213-1cf3497f42bf644165cdcd41",
+      "projectName": "移動制約者移送サービス事業（協働事業）",
+      "span": [
+        22174,
+        22213
+      ]
+    },
+    {
+      "id": "cached-14213-99addd5882993c8eb41a1cac",
+      "projectName": "松風園運営事業",
+      "span": [
+        22214,
+        22241
+      ]
+    },
+    {
+      "id": "cached-14213-1c8107f00aa253b5f177d1d8",
+      "projectName": "障害者自立支援センター運営事業",
+      "span": [
+        22242,
+        22277
+      ]
+    },
+    {
+      "id": "cached-14213-fcf385a90c3cb8c4b2c5b45f",
+      "projectName": "精神障がい者相談（訪問）普及啓発事業",
+      "span": [
+        22278,
+        22316
+      ]
+    },
+    {
+      "id": "cached-14213-ecbc22b5e08fd2819bbc8313",
+      "projectName": "障がい者福祉費負担金等返還事務",
+      "span": [
+        22317,
+        22352
+      ]
+    },
+    {
+      "id": "cached-14213-8b36dc6f28b2b596eca61426",
+      "projectName": "行旅病人及び死亡人取扱等事務",
+      "span": [
+        22353,
+        22386
+      ]
+    },
+    {
+      "id": "cached-14213-4a2abefccf61ccd7572054b3",
+      "projectName": "無縁納骨堂維持管理事業",
+      "span": [
+        22387,
+        22417
+      ]
+    },
+    {
+      "id": "cached-14213-755abf5ba156c9b60a954754",
+      "projectName": "人間ドック助成事業",
+      "span": [
+        22418,
+        22454
+      ]
+    },
+    {
+      "id": "cached-14213-3cee9dbf08eb4f379860ec18",
+      "projectName": "国保組合支援事業",
+      "span": [
+        22455,
+        22482
+      ]
+    },
+    {
+      "id": "cached-14213-b22edc59422052f60970e657",
+      "projectName": "後期高齢者医療広域連合負担金事務",
+      "span": [
+        22483,
+        22518
+      ]
+    },
+    {
+      "id": "cached-14213-9c799604d446f02d546b2773",
+      "projectName": "国民年金事務",
+      "span": [
+        22519,
+        22544
+      ]
+    },
+    {
+      "id": "cached-14213-046b3aefef02fa8a86bd9d58",
+      "projectName": "被保険者資格管理事業",
+      "span": [
+        22545,
+        22574
+      ]
+    },
+    {
+      "id": "cached-14213-ec94b30887f1dfdfe6cfff09",
+      "projectName": "国民健康保険団体連合会負担事務",
+      "span": [
+        22575,
+        22609
+      ]
+    },
+    {
+      "id": "cached-14213-0a7349ade0092a0b98cdeed2",
+      "projectName": "賦課徴収事業",
+      "span": [
+        22610,
+        22635
+      ]
+    },
+    {
+      "id": "cached-14213-f28672bf32e6cb80c0a5228b",
+      "projectName": "収納率向上対策事業",
+      "span": [
+        22636,
+        22664
+      ]
+    },
+    {
+      "id": "cached-14213-6ae89873e41d8c7d80f9d92b",
+      "projectName": "事業運営適正化事業",
+      "span": [
+        22665,
+        22693
+      ]
+    },
+    {
+      "id": "cached-14213-171755667977c6a586e746d7",
+      "projectName": "国民健康保険制度ＰＲ事業",
+      "span": [
+        22694,
+        22725
+      ]
+    },
+    {
+      "id": "cached-14213-ead0ead4f82a333f74b978de",
+      "projectName": "出産育児一時金支給事業",
+      "span": [
+        22780,
+        22810
+      ]
+    },
+    {
+      "id": "cached-14213-63da9ad85dbf87b9d0d0eaba",
+      "projectName": "葬祭費支給事業",
+      "span": [
+        22811,
+        22837
+      ]
+    },
+    {
+      "id": "cached-14213-9f162c418947c2ab33cc6afd",
+      "projectName": "傷病手当金支給事業",
+      "span": [
+        22838,
+        22866
+      ]
+    },
+    {
+      "id": "cached-14213-6dd8c0cc4d3b76540ced9f87",
+      "projectName": "高額介護合算療養費支給事業",
+      "span": [
+        22867,
+        22899
+      ]
+    },
+    {
+      "id": "cached-14213-9d72e32aa586e6a86d795e94",
+      "projectName": "医療給付費分納付事務",
+      "span": [
+        22900,
+        22929
+      ]
+    },
+    {
+      "id": "cached-14213-759a2c1ba08ff0cf4d44c351",
+      "projectName": "後期高齢者支援金等分納付事務",
+      "span": [
+        22930,
+        22963
+      ]
+    },
+    {
+      "id": "cached-14213-3231f868ca545e2fe5dc6bc9",
+      "projectName": "介護納付金分納付事務",
+      "span": [
+        22964,
+        22993
+      ]
+    },
+    {
+      "id": "cached-14213-722987896c33b87c30152a03",
+      "projectName": "診療報酬等支払準備基金管理事務",
+      "span": [
+        22994,
+        23028
+      ]
+    },
+    {
+      "id": "cached-14213-2a39be9434b4d059d3903df1",
+      "projectName": "保険給付費等交付金申請事務",
+      "span": [
+        23029,
+        23061
+      ]
+    },
+    {
+      "id": "cached-14213-a9e1ee69254745f5227e4025",
+      "projectName": "後期高齢者医療制度運営管理事務",
+      "span": [
+        23062,
+        23096
+      ]
+    },
+    {
+      "id": "cached-14213-404c6210997d1b8b7183c5fb",
+      "projectName": "後期高齢者医療保険料徴収事業",
+      "span": [
+        23097,
+        23130
+      ]
+    },
+    {
+      "id": "cached-14213-8e08fd38954c858eeef400bf",
+      "projectName": "後期高齢者医療広域連合納付金事務",
+      "span": [
+        23131,
+        23166
+      ]
+    },
+    {
+      "id": "cached-14213-af7648c3c4edda3f3d4304de",
+      "projectName": "後期高齢者医療保険料還付金",
+      "span": [
+        23167,
+        23199
+      ]
+    },
+    {
+      "id": "cached-14213-400f8f9b5dc2fb56eea24262",
+      "projectName": "後期高齢者医療保険料還付加算金",
+      "span": [
+        23200,
+        23234
+      ]
+    },
+    {
+      "id": "cached-14213-cf56a79890b21355378e6470",
+      "projectName": "こども計画管理運営事業",
+      "span": [
+        23235,
+        23278
+      ]
+    },
+    {
+      "id": "cached-14213-7ced06823585a5bceddf0f64",
+      "projectName": "助産･母子生活支援施設入所事業",
+      "span": [
+        23336,
+        23383
+      ]
+    },
+    {
+      "id": "cached-14213-c8918356dadee6b0826b2fd3",
+      "projectName": "児童手当支給事業",
+      "span": [
+        23384,
+        23424
+      ]
+    },
+    {
+      "id": "cached-14213-e64b1cbf865ab9a15f2dd954",
+      "projectName": "物価高対応子育て応援手当支給事業",
+      "span": [
+        23425,
+        23473
+      ]
+    },
+    {
+      "id": "cached-14213-24e4bb074ba88df893de656d",
+      "projectName": "ひとり親家庭等家賃助成事業",
+      "span": [
+        23474,
+        23519
+      ]
+    },
+    {
+      "id": "cached-14213-293c91ad909253ff5dd2464d",
+      "projectName": "母子寡婦福祉会支援事業",
+      "span": [
+        23520,
+        23563
+      ]
+    },
+    {
+      "id": "cached-14213-9030449fec7864a07f422e5d",
+      "projectName": "ひとり親家庭等相談事業",
+      "span": [
+        23564,
+        23607
+      ]
+    },
+    {
+      "id": "cached-14213-538f366f9b5a0562a44ebd20",
+      "projectName": "児童扶養手当支給事業",
+      "span": [
+        23608,
+        23650
+      ]
+    },
+    {
+      "id": "cached-14213-9023c20b10f1ff5cf13fcfa1",
+      "projectName": "母子家庭等自立対策支援事業",
+      "span": [
+        23651,
+        23696
+      ]
+    },
+    {
+      "id": "cached-14213-987710745e0adc84e8b3f1c8",
+      "projectName": "未熟児養育医療給付事業",
+      "span": [
+        23697,
+        23740
+      ]
+    },
+    {
+      "id": "cached-14213-afa60edf45db69e65b358e09",
+      "projectName": "臨時特別給付金等補助金返還事務",
+      "span": [
+        23741,
+        23788
+      ]
+    },
+    {
+      "id": "cached-14213-5589ecbe402303d63c608e19",
+      "projectName": "病児保育事業",
+      "span": [
+        23789,
+        23825
+      ]
+    },
+    {
+      "id": "cached-14213-313376803bb250602b042be9",
+      "projectName": "子育て支援施設管理運営事業",
+      "span": [
+        23826,
+        23869
+      ]
+    },
+    {
+      "id": "cached-14213-78cc3c5add2fac5ffc008815",
+      "projectName": "認定保育施設運営費助成事業",
+      "span": [
+        23870,
+        23913
+      ]
+    },
+    {
+      "id": "cached-14213-20074a64a7c1b8695130d363",
+      "projectName": "私設保育施設支援事業",
+      "span": [
+        23914,
+        23954
+      ]
+    },
+    {
+      "id": "cached-14213-13298f5af0500114deb5d4ca",
+      "projectName": "民間認可保育所災害補償保険事業",
+      "span": [
+        24009,
+        24054
+      ]
+    },
+    {
+      "id": "cached-14213-cfff0b327ad58ef8a2338a58",
+      "projectName": "公私連携型保育所等整備事業",
+      "span": [
+        24055,
+        24098
+      ]
+    },
+    {
+      "id": "cached-14213-c631032664c54aa507c3c80a",
+      "projectName": "認可保育所等運営事務",
+      "span": [
+        24099,
+        24139
+      ]
+    },
+    {
+      "id": "cached-14213-a2ccb3afaaad77617e4e47a5",
+      "projectName": "保育サービス利用助成事業",
+      "span": [
+        24140,
+        24182
+      ]
+    },
+    {
+      "id": "cached-14213-fb76b7513f5b5f7fbdcf3ca0",
+      "projectName": "保育所管理事務（保育所配当）",
+      "span": [
+        24183,
+        24227
+      ]
+    },
+    {
+      "id": "cached-14213-a00392cbe171ef9bfc0c7b54",
+      "projectName": "保育所給食事業（市立保育所）",
+      "span": [
+        24228,
+        24272
+      ]
+    },
+    {
+      "id": "cached-14213-460b2c8c1ab9a90c7bc4f1e6",
+      "projectName": "保育所施設維持管理事務（市立保育所）",
+      "span": [
+        24273,
+        24321
+      ]
+    },
+    {
+      "id": "cached-14213-96525e6ff6d24d8b1b8feaf6",
+      "projectName": "保育士等研修事務",
+      "span": [
+        24322,
+        24360
+      ]
+    },
+    {
+      "id": "cached-14213-99ee990c086725b1935bc594",
+      "projectName": "若葉保育園改修事業",
+      "span": [
+        24361,
+        24400
+      ]
+    },
+    {
+      "id": "cached-14213-11cf845a5c9ac1c4aa4c1f4d",
+      "projectName": "草柳保育園改修事業",
+      "span": [
+        24401,
+        24440
+      ]
+    },
+    {
+      "id": "cached-14213-8f17d9ff3c5b3e2ad17328be",
+      "projectName": "緑野保育園改修事業",
+      "span": [
+        24441,
+        24480
+      ]
+    },
+    {
+      "id": "cached-14213-c7c891c62a809233c12e7e86",
+      "projectName": "私設保育施設指導事務",
+      "span": [
+        24481,
+        24521
+      ]
+    },
+    {
+      "id": "cached-14213-6b3c2c644bc185f3d95bedd3",
+      "projectName": "特定教育・保育施設等指導事務",
+      "span": [
+        24522,
+        24566
+      ]
+    },
+    {
+      "id": "cached-14213-00a191ed093581742cb19520",
+      "projectName": "子どものための教育・保育給付費等返還事務",
+      "span": [
+        24567,
+        24617
+      ]
+    },
+    {
+      "id": "cached-14213-afdf1fc97a62b52aff518605",
+      "projectName": "発達相談支援システム推進事業",
+      "span": [
+        24618,
+        24666
+      ]
+    },
+    {
+      "id": "cached-14213-ab40faa0bf9ad55a97c9e845",
+      "projectName": "永久歯萌出期歯科保健支援事業",
+      "span": [
+        24667,
+        24715
+      ]
+    },
+    {
+      "id": "cached-14213-9ad235ce210eff454bac0007",
+      "projectName": "８か月児健康診査事業",
+      "span": [
+        24716,
+        24760
+      ]
+    },
+    {
+      "id": "cached-14213-b029eee6835ae09d1738a349",
+      "projectName": "１歳６か月児健康診査事業",
+      "span": [
+        24761,
+        24807
+      ]
+    },
+    {
+      "id": "cached-14213-b59ed702540037c0694ce1be",
+      "projectName": "乳幼児健康診査等経過相談事業",
+      "span": [
+        24808,
+        24856
+      ]
+    },
+    {
+      "id": "cached-14213-a77d0e6ccadb39146727f5c8",
+      "projectName": "母子保健相談指導事業",
+      "span": [
+        24857,
+        24901
+      ]
+    },
+    {
+      "id": "cached-14213-59b200798b5f834ee94e3ab7",
+      "projectName": "妊産婦・新生児等訪問事業",
+      "span": [
+        24902,
+        24948
+      ]
+    },
+    {
+      "id": "cached-14213-0c283ed1ced1a39063207310",
+      "projectName": "児童発達支援事業負担金等返還事務",
+      "span": [
+        24949,
+        24999
+      ]
+    },
+    {
+      "id": "cached-14213-bf954e9e40d371894209938c",
+      "projectName": "ファミリーサポートセンター事業",
+      "span": [
+        25000,
+        25049
+      ]
+    },
+    {
+      "id": "cached-14213-7b343116e2eda59491d05450",
+      "projectName": "こども家庭支援事業",
+      "span": [
+        25050,
+        25093
+      ]
+    },
+    {
+      "id": "cached-14213-2e07ea38420c566aaed2d353",
+      "projectName": "不育症治療費助成事業",
+      "span": [
+        25094,
+        25138
+      ]
+    },
+    {
+      "id": "cached-14213-4fd2f39ccbc04ab475e55836",
+      "projectName": "産後健康診査事業",
+      "span": [
+        25139,
+        25181
+      ]
+    },
+    {
+      "id": "cached-14213-786721ddc04874a94a7cb638",
+      "projectName": "産後ケア事業",
+      "span": [
+        25182,
+        25222
+      ]
+    },
+    {
+      "id": "cached-14213-ef04a89a6c06c0322ddbbdfb",
+      "projectName": "不妊治療（先進医療）費助成事業",
+      "span": [
+        25223,
+        25272
+      ]
+    },
+    {
+      "id": "cached-14213-727fe6dba3ccfe7152919c21",
+      "projectName": "出産費用助成事業",
+      "span": [
+        25273,
+        25315
+      ]
+    },
+    {
+      "id": "cached-14213-e7c7b85568850a0ac4efc6ca",
+      "projectName": "青少年健全育成基金管理事務",
+      "span": [
+        25316,
+        25365
+      ]
+    },
+    {
+      "id": "cached-14213-e66fe6ee258fcd6bf071fc68",
+      "projectName": "青少年健全育成都市宣言推進事業",
+      "span": [
+        25420,
+        25471
+      ]
+    },
+    {
+      "id": "cached-14213-341ac983bcc3a068eb79bb28",
+      "projectName": "青少年キャンプ施設管理運営事業",
+      "span": [
+        25472,
+        25523
+      ]
+    },
+    {
+      "id": "cached-14213-0ef5cfa268535d25731ce6d4",
+      "projectName": "青少年センター運営事業",
+      "span": [
+        25524,
+        25571
+      ]
+    },
+    {
+      "id": "cached-14213-4fbb04a5011c6d0b887a9e2d",
+      "projectName": "二十歳の祝典開催事業",
+      "span": [
+        25572,
+        25618
+      ]
+    },
+    {
+      "id": "cached-14213-062e21ebea802a5d501ce5dd",
+      "projectName": "親子ふれあい推進事業",
+      "span": [
+        25619,
+        25665
+      ]
+    },
+    {
+      "id": "cached-14213-b742fd64e6f0640974dcf98f",
+      "projectName": "青少年育成事業",
+      "span": [
+        25666,
+        25709
+      ]
+    },
+    {
+      "id": "cached-14213-63066ad0c6ebb15bfd3ad84a",
+      "projectName": "大和市家庭・地域教育活性化会議支援事業",
+      "span": [
+        25710,
+        25765
+      ]
+    },
+    {
+      "id": "cached-14213-e144346e3cc59dcfe45e158d",
+      "projectName": "市民活動拠点ベテルギウス施設維持管理事業",
+      "span": [
+        25766,
+        25812
+      ]
+    },
+    {
+      "id": "cached-14213-6246f978173e9d1f9b852c1e",
+      "projectName": "まちぐるみ安全点検事業",
+      "span": [
+        25813,
+        25849
+      ]
+    },
+    {
+      "id": "cached-14213-bd067219787d9e60bad2bfea",
+      "projectName": "建築審査会・開発審査会運営事務",
+      "span": [
+        25850,
+        25895
+      ]
+    },
+    {
+      "id": "cached-14213-19eaecef7491e58e56dffef0",
+      "projectName": "都市計画マスタープラン進行管理事業",
+      "span": [
+        25896,
+        25943
+      ]
+    },
+    {
+      "id": "cached-14213-61ca88d2daa09bd179206fcd",
+      "projectName": "ユニバーサルデザイン推進事業",
+      "span": [
+        25944,
+        25988
+      ]
+    },
+    {
+      "id": "cached-14213-7a14accb669e1ce0a52f4b64",
+      "projectName": "国県道整備促進支援事業",
+      "span": [
+        25989,
+        26030
+      ]
+    },
+    {
+      "id": "cached-14213-21d85c5af3168908400714ce",
+      "projectName": "鉄道輸送円滑化促進事業",
+      "span": [
+        26031,
+        26072
+      ]
+    },
+    {
+      "id": "cached-14213-0aa9bf472efe51af087151c5",
+      "projectName": "道路統計作成事務",
+      "span": [
+        26073,
+        26111
+      ]
+    },
+    {
+      "id": "cached-14213-dafbb6a06a94bb1a94f4f883",
+      "projectName": "特殊建築物等定期報告審査事業",
+      "span": [
+        26112,
+        26148
+      ]
+    },
+    {
+      "id": "cached-14213-67be5ca7f1a0b537e7c05e84",
+      "projectName": "環境配慮建築物等審査事務",
+      "span": [
+        26149,
+        26188
+      ]
+    },
+    {
+      "id": "cached-14213-d2b9d8232d1e05a840add47d",
+      "projectName": "建設リサイクル法の届出事務",
+      "span": [
+        26189,
+        26229
+      ]
+    },
+    {
+      "id": "cached-14213-75950345a799c6cbca59186a",
+      "projectName": "確認台帳・概要書の閲覧及び証明事務",
+      "span": [
+        26230,
+        26274
+      ]
+    },
+    {
+      "id": "cached-14213-e808cc7e11652a1dbf10e8cf",
+      "projectName": "空家等対策事業",
+      "span": [
+        26275,
+        26309
+      ]
+    },
+    {
+      "id": "cached-14213-df0d04ae981c54bc4ace5f1f",
+      "projectName": "屋外広告物対策事業",
+      "span": [
+        26310,
+        26346
+      ]
+    },
+    {
+      "id": "cached-14213-357c5711032c034b00f340d4",
+      "projectName": "市営住宅管理運営事務",
+      "span": [
+        26347,
+        26384
+      ]
+    },
+    {
+      "id": "cached-14213-95a57ceb3e134d404b0ef09d",
+      "projectName": "市営住宅施設維持管理事務",
+      "span": [
+        26385,
+        26424
+      ]
+    },
+    {
+      "id": "cached-14213-3144e0e2e9b186cec75b4633",
+      "projectName": "あんしん賃貸支援事業",
+      "span": [
+        26425,
+        26462
+      ]
+    },
+    {
+      "id": "cached-14213-1facbb706ec997867b12e06b",
+      "projectName": "市営住宅大規模改修事業",
+      "span": [
+        26463,
+        26501
+      ]
+    },
+    {
+      "id": "cached-14213-dc2371343b4d305ca3a4599d",
+      "projectName": "住宅供給推進事業",
+      "span": [
+        26502,
+        26537
+      ]
+    },
+    {
+      "id": "cached-14213-2e32d8858ed1a0b448eb942b",
+      "projectName": "建築基準法に基づく許可、認可等事務",
+      "span": [
+        26538,
+        26582
+      ]
+    },
+    {
+      "id": "cached-14213-27544376e982a2a5ee1794fc",
+      "projectName": "違反建築物の是正指導事務",
+      "span": [
+        26583,
+        26622
+      ]
+    },
+    {
+      "id": "cached-14213-59f5792b3af645c4cd30a795",
+      "projectName": "住宅計画管理事務",
+      "span": [
+        26623,
+        26658
+      ]
+    },
+    {
+      "id": "cached-14213-0e67b9579a38d2005b61855f",
+      "projectName": "開発許可等事業",
+      "span": [
+        26659,
+        26696
+      ]
+    },
+    {
+      "id": "cached-14213-9ff7db9266de8ecf28e37df8",
+      "projectName": "開発指導事務",
+      "span": [
+        26751,
+        26787
+      ]
+    },
+    {
+      "id": "cached-14213-ec4b0f24eee73c95b55527fd",
+      "projectName": "都市計画決定内容の審査等事務",
+      "span": [
+        26788,
+        26832
+      ]
+    },
+    {
+      "id": "cached-14213-5b09f1cbe43f84f1046ac34c",
+      "projectName": "建築協定の普及・更新等事務",
+      "span": [
+        26946,
+        26989
+      ]
+    },
+    {
+      "id": "cached-14213-d007a66a55c3f269fa706424",
+      "projectName": "土地区画整理支援事業",
+      "span": [
+        26990,
+        27030
+      ]
+    },
+    {
+      "id": "cached-14213-586467d0858fb34335a6804a",
+      "projectName": "大和駅周辺再開発等支援事業",
+      "span": [
+        27031,
+        27074
+      ]
+    },
+    {
+      "id": "cached-14213-105a8263549d41034a9ee4fc",
+      "projectName": "渋谷（南部地区）土地区画整理事業（補償等）",
+      "span": [
+        27075,
+        27126
+      ]
+    },
+    {
+      "id": "cached-14213-7698a9cec55bb30252acd2b0",
+      "projectName": "桜ケ丘地区まちづくり事業",
+      "span": [
+        27127,
+        27169
+      ]
+    },
+    {
+      "id": "cached-14213-a0095ebf084702345bdf1b17",
+      "projectName": "中央森林地区地区施設道路拡幅整備事業",
+      "span": [
+        27170,
+        27218
+      ]
+    },
+    {
+      "id": "cached-14213-c53175871266ac8f4aa53759",
+      "projectName": "私道整備支援事業",
+      "span": [
+        27219,
+        27254
+      ]
+    },
+    {
+      "id": "cached-14213-6496aa7d74b981da8fa95062",
+      "projectName": "生活道路整備事業",
+      "span": [
+        27255,
+        27290
+      ]
+    },
+    {
+      "id": "cached-14213-a6f0ed31a5cdd063c5c686b2",
+      "projectName": "私有道路用地取得事業",
+      "span": [
+        27291,
+        27328
+      ]
+    },
+    {
+      "id": "cached-14213-81910795eeb08845c003976d",
+      "projectName": "狭あい道路用地取得事業",
+      "span": [
+        27329,
+        27367
+      ]
+    },
+    {
+      "id": "cached-14213-4af921f9cd35c9026e2c0de4",
+      "projectName": "地籍調査事業",
+      "span": [
+        27368,
+        27401
+      ]
+    },
+    {
+      "id": "cached-14213-495ed613cb04d1f77fa90992",
+      "projectName": "道路台帳等管理事務",
+      "span": [
+        27402,
+        27438
+      ]
+    },
+    {
+      "id": "cached-14213-35f0b8d9341bf5c70af73fa9",
+      "projectName": "道路占用等の許認可事務",
+      "span": [
+        27439,
+        27477
+      ]
+    },
+    {
+      "id": "cached-14213-0a74ec329dff667191b4f278",
+      "projectName": "不法占用の巡視及び撤去･改善･指導事務",
+      "span": [
+        27478,
+        27524
+      ]
+    },
+    {
+      "id": "cached-14213-db8500ddd097dd03f4a9a6c4",
+      "projectName": "道路ストック修繕計画策定事業",
+      "span": [
+        27525,
+        27566
+      ]
+    },
+    {
+      "id": "cached-14213-47694fd26851379501dc8cd3",
+      "projectName": "道路維持修繕事業",
+      "span": [
+        27567,
+        27602
+      ]
+    },
+    {
+      "id": "cached-14213-f12efd0690882874d8f26248",
+      "projectName": "開発事業等に関する指導調整事務（道路）",
+      "span": [
+        27603,
+        27649
+      ]
+    },
+    {
+      "id": "cached-14213-4469117ae706613ec08afe21",
+      "projectName": "出納事務",
+      "span": [
+        27650,
+        27673
+      ]
+    },
+    {
+      "id": "cached-14213-e4b946343b1127f938310ba4",
+      "projectName": "公金管理運用事務",
+      "span": [
+        27674,
+        27701
+      ]
+    },
+    {
+      "id": "cached-14213-560a6754fed7a7da8e59b8aa",
+      "projectName": "議会情報の提供及び意見収集事業",
+      "span": [
+        27702,
+        27729
+      ]
+    },
+    {
+      "id": "cached-14213-f372d64b2fd8f64b34eeb017",
+      "projectName": "調査研究機能充実事務",
+      "span": [
+        27730,
+        27752
+      ]
+    },
+    {
+      "id": "cached-14213-31b7cd2381f0550baf952ae4",
+      "projectName": "本会議及び委員会等の議会運営補助事務",
+      "span": [
+        27753,
+        27783
+      ]
+    },
+    {
+      "id": "cached-14213-d97a5fdbc21bffe64cfeb890",
+      "projectName": "正副議長・議員庶務事務",
+      "span": [
+        27784,
+        27807
+      ]
+    },
+    {
+      "id": "cached-14213-ddd3d26c3a4d9d0234b941c7",
+      "projectName": "政務活動費交付金",
+      "span": [
+        27808,
+        27828
+      ]
+    },
+    {
+      "id": "cached-14213-7742043001d1f43dfe66f981",
+      "projectName": "選挙管理システム維持管理事務",
+      "span": [
+        27829,
+        27860
+      ]
+    },
+    {
+      "id": "cached-14213-773027a473975ff6f1752f00",
+      "projectName": "選挙啓発事務",
+      "span": [
+        27861,
+        27884
+      ]
+    },
+    {
+      "id": "cached-14213-4f1bbb574d217e438caa2841",
+      "projectName": "明るい選挙推進支援事業",
+      "span": [
+        27939,
+        27967
+      ]
+    },
+    {
+      "id": "cached-14213-c4270594aa252bd2059c6331",
+      "projectName": "選挙人名簿の調製事務",
+      "span": [
+        27968,
+        27995
+      ]
+    },
+    {
+      "id": "cached-14213-8e8c5aab0d728b4482758fe9",
+      "projectName": "住民投票資格者名簿の調製事務",
+      "span": [
+        27996,
+        28027
+      ]
+    },
+    {
+      "id": "cached-14213-a5e000c2bac221b3f3f3c41c",
+      "projectName": "参議院議員選挙管理執行事務",
+      "span": [
+        28028,
+        28058
+      ]
+    },
+    {
+      "id": "cached-14213-41fe022c88361f6a16d07a79",
+      "projectName": "衆議院議員選挙管理執行事務",
+      "span": [
+        28059,
+        28089
+      ]
+    },
+    {
+      "id": "cached-14213-a937da061ce949b1fcfd0f72",
+      "projectName": "例月出納検査事務",
+      "span": [
+        28090,
+        28110
+      ]
+    },
+    {
+      "id": "cached-14213-b4e0ff1c438ace8e6e188728",
+      "projectName": "決算審査事務",
+      "span": [
+        28111,
+        28129
+      ]
+    },
+    {
+      "id": "cached-14213-ca5802dc7aee564221bdc24d",
+      "projectName": "住民監査請求事務",
+      "span": [
+        28130,
+        28150
+      ]
+    },
+    {
+      "id": "cached-14213-0eb99611b5a95792185aa07c",
+      "projectName": "健全化判断比率等審査事務",
+      "span": [
+        28151,
+        28175
+      ]
+    },
+    {
+      "id": "cached-14213-ac6d54cc1549bc6f60de7e84",
+      "projectName": "監査事務",
+      "span": [
+        28176,
+        28192
+      ]
+    },
+    {
+      "id": "cached-14213-d2ca71af16dfa2597fae5c03",
+      "projectName": "農地基本台帳整備管理事務",
+      "span": [
+        28193,
+        28220
+      ]
+    },
+    {
+      "id": "cached-14213-d9257add9ffbcc44e021b267",
+      "projectName": "農業委員会運営事業",
+      "span": [
+        28221,
+        28245
+      ]
+    },
+    {
+      "id": "cached-14213-c56edbb3682b689ace943a15",
+      "projectName": "農業就業改善推進事業",
+      "span": [
+        28246,
+        28271
+      ]
+    },
+    {
+      "id": "cached-14213-52d5283577bff09de10ac045",
+      "projectName": "農業者年金補完事業",
+      "span": [
+        28272,
+        28296
+      ]
+    },
+    {
+      "id": "cached-14213-10521d60a3c919d958a4292c",
+      "projectName": "公平委員会運営事務",
+      "span": [
+        28297,
+        28330
+      ]
+    },
+    {
+      "id": "cached-14213-c6c15db006e6bdb2b15fbf07",
+      "projectName": "教育委員会褒章事業",
+      "span": [
+        28331,
+        28367
+      ]
+    },
+    {
+      "id": "cached-14213-3b0771593bef1479be7c3cf8",
+      "projectName": "教育委員会運営事務",
+      "span": [
+        28368,
+        28408
+      ]
+    },
+    {
+      "id": "cached-14213-9b4f80d5935e4fc8d7a83bae",
+      "projectName": "営繕作業所管理運営事務",
+      "span": [
+        28409,
+        28451
+      ]
+    },
+    {
+      "id": "cached-14213-f619d9fad7a2a4c68aa29b72",
+      "projectName": "小学校施設維持管理事業",
+      "span": [
+        28452,
+        28494
+      ]
+    },
+    {
+      "id": "cached-14213-a9ae6c01132cc3032c70fa58",
+      "projectName": "小学校学校備品整備事業",
+      "span": [
+        28495,
+        28537
+      ]
+    },
+    {
+      "id": "cached-14213-902c43592a7ad88315d0cefc",
+      "projectName": "小学校管理事務（学校配当）",
+      "span": [
+        28538,
+        28582
+      ]
+    },
+    {
+      "id": "cached-14213-4f44263ecc5aff267188a99b",
+      "projectName": "児童教育活動事業（学校配当）",
+      "span": [
+        28583,
+        28628
+      ]
+    },
+    {
+      "id": "cached-14213-5be93a6e3a311bb311254fb4",
+      "projectName": "中学校施設維持管理事業",
+      "span": [
+        28629,
+        28671
+      ]
+    },
+    {
+      "id": "cached-14213-c8df43580f3082194cbe2b4d",
+      "projectName": "中学校学校備品整備事業",
+      "span": [
+        28672,
+        28714
+      ]
+    },
+    {
+      "id": "cached-14213-a881ab07ac50bedda3f6bbda",
+      "projectName": "中学校管理事務（学校配当）",
+      "span": [
+        28715,
+        28759
+      ]
+    },
+    {
+      "id": "cached-14213-08196ffdbfe73145015e3411",
+      "projectName": "生徒教育活動事業（学校配当）",
+      "span": [
+        28760,
+        28805
+      ]
+    },
+    {
+      "id": "cached-14213-dae7ff11763d4249e1d5b0ae",
+      "projectName": "大和の教育刊行事業",
+      "span": [
+        28806,
+        28846
+      ]
+    },
+    {
+      "id": "cached-14213-f699e6e4d4e21b060eaddb18",
+      "projectName": "小中学校庁務作業業務",
+      "span": [
+        28847,
+        28888
+      ]
+    },
+    {
+      "id": "cached-14213-9e5b5fec5c594a5facf65073",
+      "projectName": "児童生徒学籍管理事務",
+      "span": [
+        28889,
+        28930
+      ]
+    },
+    {
+      "id": "cached-14213-2eba6c4c123811d4d56c3af0",
+      "projectName": "教職員人事事務",
+      "span": [
+        28931,
+        28969
+      ]
+    },
+    {
+      "id": "cached-14213-f7a1e9b3cc7fb8a971044320",
+      "projectName": "通学区域設定・変更事務",
+      "span": [
+        29024,
+        29066
+      ]
+    },
+    {
+      "id": "cached-14213-2ac2e87b634443459f75a09f",
+      "projectName": "奨学金給付事業",
+      "span": [
+        29067,
+        29105
+      ]
+    },
+    {
+      "id": "cached-14213-fd7f1d69e77d3bec7ba81449",
+      "projectName": "奨学基金管理事務",
+      "span": [
+        29106,
+        29145
+      ]
+    },
+    {
+      "id": "cached-14213-2ab8569ef3c930198db71fe3",
+      "projectName": "校長･教頭会支援事業",
+      "span": [
+        29146,
+        29187
+      ]
+    },
+    {
+      "id": "cached-14213-dc453880dae38a6e2c338692",
+      "projectName": "教職員互助会支援事業",
+      "span": [
+        29188,
+        29229
+      ]
+    },
+    {
+      "id": "cached-14213-f19202ac763997ecc05544a1",
+      "projectName": "市立小中学校創立記念行事支援事業",
+      "span": [
+        29230,
+        29277
+      ]
+    },
+    {
+      "id": "cached-14213-de2254d1c7350a91435ef863",
+      "projectName": "小学校非常勤講師派遣事務",
+      "span": [
+        29278,
+        29321
+      ]
+    },
+    {
+      "id": "cached-14213-28ba119f67b667c602ba7f75",
+      "projectName": "小学校管理用物品購入配布事務",
+      "span": [
+        29322,
+        29367
+      ]
+    },
+    {
+      "id": "cached-14213-e5a71493ad27e6407be50999",
+      "projectName": "小学校学用品等就学援助事業",
+      "span": [
+        29368,
+        29412
+      ]
+    },
+    {
+      "id": "cached-14213-717fce49fcf4d2215d9ddb69",
+      "projectName": "小学校特別支援教育就学奨励事業",
+      "span": [
+        29413,
+        29459
+      ]
+    },
+    {
+      "id": "cached-14213-b020478762468a72d9b4e495",
+      "projectName": "小学校児童活動等運営事業",
+      "span": [
+        29460,
+        29503
+      ]
+    },
+    {
+      "id": "cached-14213-462092a42a0d75d996a0df30",
+      "projectName": "中学校非常勤講師派遣事務",
+      "span": [
+        29504,
+        29547
+      ]
+    },
+    {
+      "id": "cached-14213-7048f1af07bc42a741581d3f",
+      "projectName": "中学校管理用物品購入配布事務",
+      "span": [
+        29548,
+        29593
+      ]
+    },
+    {
+      "id": "cached-14213-4c91ab5fe5ffbb8afd1eb4c8",
+      "projectName": "中学校少人数指導等非常勤講師配置事業",
+      "span": [
+        29594,
+        29643
+      ]
+    },
+    {
+      "id": "cached-14213-8341bbb2db28a75ebc184166",
+      "projectName": "中学校学用品等就学援助事業",
+      "span": [
+        29644,
+        29688
+      ]
+    },
+    {
+      "id": "cached-14213-ddcc95677a2f22f49d25a423",
+      "projectName": "中学校特別支援教育就学奨励事業",
+      "span": [
+        29689,
+        29735
+      ]
+    },
+    {
+      "id": "cached-14213-ebd3d0ad892e43d412a0e495",
+      "projectName": "中学校生徒活動等運営事業",
+      "span": [
+        29736,
+        29779
+      ]
+    },
+    {
+      "id": "cached-14213-e61fc88ae53bc5f530768a00",
+      "projectName": "通学路指定・補修要望事務",
+      "span": [
+        29780,
+        29823
+      ]
+    },
+    {
+      "id": "cached-14213-7ac0cba7b546a2e894537446",
+      "projectName": "教職員公務災害補償事務",
+      "span": [
+        29824,
+        29866
+      ]
+    },
+    {
+      "id": "cached-14213-787979101899169266a5a04d",
+      "projectName": "学級編成事務",
+      "span": [
+        29867,
+        29904
+      ]
+    },
+    {
+      "id": "cached-14213-7ce7ead6c0e8571261dc0e80",
+      "projectName": "就学時健康診断事業",
+      "span": [
+        29905,
+        29945
+      ]
+    },
+    {
+      "id": "cached-14213-cfa3e34496b9c2e6936c37fe",
+      "projectName": "教職員健康診断事務",
+      "span": [
+        29946,
+        29986
+      ]
+    },
+    {
+      "id": "cached-14213-8dbf9420f8b7ca950de075ca",
+      "projectName": "学校災害補償事業",
+      "span": [
+        29987,
+        30026
+      ]
+    },
+    {
+      "id": "cached-14213-3cabded717459b7347e62a77",
+      "projectName": "健康管理協力団体支援事業",
+      "span": [
+        30027,
+        30070
+      ]
+    },
+    {
+      "id": "cached-14213-1209b666b2505b9cec81a3ff",
+      "projectName": "学校薬剤師検査室運営事業",
+      "span": [
+        30071,
+        30114
+      ]
+    },
+    {
+      "id": "cached-14213-4edc2075d6dcfd3765792723",
+      "projectName": "児童健康管理事業",
+      "span": [
+        30115,
+        30154
+      ]
+    },
+    {
+      "id": "cached-14213-252861f788e24ae838c6d890",
+      "projectName": "小学校環境検査事務",
+      "span": [
+        30155,
+        30195
+      ]
+    },
+    {
+      "id": "cached-14213-fc20deb42ecfac4131b90353",
+      "projectName": "小学校医療費等就学援助事業",
+      "span": [
+        30196,
+        30240
+      ]
+    },
+    {
+      "id": "cached-14213-b4e4b8a4ea5bf4555fd4f937",
+      "projectName": "生徒健康管理事業",
+      "span": [
+        30241,
+        30280
+      ]
+    },
+    {
+      "id": "cached-14213-a892b13127901135960e2fe7",
+      "projectName": "中学校環境検査事務",
+      "span": [
+        30281,
+        30321
+      ]
+    },
+    {
+      "id": "cached-14213-3c0f1e0908ab99d68a1af42d",
+      "projectName": "中学校医療費等就学援助事業",
+      "span": [
+        30376,
+        30420
+      ]
+    },
+    {
+      "id": "cached-14213-c874829561698f45fe72cc32",
+      "projectName": "学校給食管理運営事業",
+      "span": [
+        30421,
+        30462
+      ]
+    },
+    {
+      "id": "cached-14213-7b6f0db5d119896cb4da2369",
+      "projectName": "給食費管理事務",
+      "span": [
+        30463,
+        30501
+      ]
+    },
+    {
+      "id": "cached-14213-34fe5cefb7cf7b1438c15d1e",
+      "projectName": "給食用消耗品購入事務（学校配当）",
+      "span": [
+        30502,
+        30549
+      ]
+    },
+    {
+      "id": "cached-14213-5971dae4d7162330c464a955",
+      "projectName": "北部学校給食共同調理場運営事業",
+      "span": [
+        30550,
+        30596
+      ]
+    },
+    {
+      "id": "cached-14213-ffb0cab2c7d89e876fd472cf",
+      "projectName": "中部学校給食共同調理場運営事業",
+      "span": [
+        30597,
+        30643
+      ]
+    },
+    {
+      "id": "cached-14213-38253dfde72f8ee1130f8e76",
+      "projectName": "南部学校給食共同調理場運営事業",
+      "span": [
+        30644,
+        30690
+      ]
+    },
+    {
+      "id": "cached-14213-3bd599f23c4e55ab55f4468a",
+      "projectName": "単独調理校運営事業",
+      "span": [
+        30691,
+        30731
+      ]
+    },
+    {
+      "id": "cached-14213-c50a9e2cdc767b08ca4c396e",
+      "projectName": "受入校運営事業",
+      "span": [
+        30732,
+        30770
+      ]
+    },
+    {
+      "id": "cached-14213-c5ef31bc331f17cfbeb77023",
+      "projectName": "給食共同調理場施設維持管理事務",
+      "span": [
+        30771,
+        30817
+      ]
+    },
+    {
+      "id": "cached-14213-b910acb6e26c29d86464531a",
+      "projectName": "単独調理校施設維持管理事務",
+      "span": [
+        30818,
+        30862
+      ]
+    },
+    {
+      "id": "cached-14213-ca77836bd3e672318a6995b6",
+      "projectName": "受入校施設維持管理事務",
+      "span": [
+        30863,
+        30905
+      ]
+    },
+    {
+      "id": "cached-14213-eb10afb20947b60d85b19ba6",
+      "projectName": "学校給食設備整備事業",
+      "span": [
+        30906,
+        30947
+      ]
+    },
+    {
+      "id": "cached-14213-bd419469f9b00230b365bfdf",
+      "projectName": "学校給食費助成事業",
+      "span": [
+        30948,
+        30988
+      ]
+    },
+    {
+      "id": "cached-14213-3e4e68939f618731393d540e",
+      "projectName": "特別支援教育研究事業",
+      "span": [
+        30989,
+        31028
+      ]
+    },
+    {
+      "id": "cached-14213-ca910375f4318411ce3783d9",
+      "projectName": "特別支援教育センター施設維持管理事務",
+      "span": [
+        31029,
+        31076
+      ]
+    },
+    {
+      "id": "cached-14213-6cacfc0f736cbfab5146f7b0",
+      "projectName": "小学校特別支援教育教材備品等整備事業",
+      "span": [
+        31077,
+        31124
+      ]
+    },
+    {
+      "id": "cached-14213-70f1b5220f9923a69b4cadba",
+      "projectName": "中学校特別支援教育教材備品等整備事業",
+      "span": [
+        31125,
+        31172
+      ]
+    },
+    {
+      "id": "cached-14213-1d33ab37fedf2ed3a0b40284",
+      "projectName": "特別支援教育センター改修事業",
+      "span": [
+        31173,
+        31216
+      ]
+    },
+    {
+      "id": "cached-14213-ed8aca68bba4478515709464",
+      "projectName": "教育研究支援事業",
+      "span": [
+        31217,
+        31254
+      ]
+    },
+    {
+      "id": "cached-14213-2a5db835ed1f6a43cbe0297a",
+      "projectName": "指導図書等整備事業",
+      "span": [
+        31255,
+        31293
+      ]
+    },
+    {
+      "id": "cached-14213-090965b7dc0c0e25472e0843",
+      "projectName": "小学校移動水泳授業実施事業",
+      "span": [
+        31294,
+        31336
+      ]
+    },
+    {
+      "id": "cached-14213-6608697190e2f7334fcfafff",
+      "projectName": "小学校行事等支援事業",
+      "span": [
+        31337,
+        31376
+      ]
+    },
+    {
+      "id": "cached-14213-bdc890c208111b3b48ce97ee",
+      "projectName": "小学校教材等整備事業",
+      "span": [
+        31377,
+        31416
+      ]
+    },
+    {
+      "id": "cached-14213-e9604ed1cdc66c7416549d3c",
+      "projectName": "中学校部活動等支援事業",
+      "span": [
+        31417,
+        31457
+      ]
+    },
+    {
+      "id": "cached-14213-6baf0874c22387566e3d5739",
+      "projectName": "中学校移動水泳授業実施事業",
+      "span": [
+        31458,
+        31500
+      ]
+    },
+    {
+      "id": "cached-14213-30f78ceda7d11e9048552b20",
+      "projectName": "中学校行事等支援事業",
+      "span": [
+        31501,
+        31540
+      ]
+    },
+    {
+      "id": "cached-14213-bb8123b8c829ffab475661df",
+      "projectName": "中学校教材等整備事業",
+      "span": [
+        31541,
+        31580
+      ]
+    },
+    {
+      "id": "cached-14213-029e342a8c62049575a5b52a",
+      "projectName": "中学校教科書等整備事業",
+      "span": [
+        31581,
+        31621
+      ]
+    },
+    {
+      "id": "cached-14213-0adab266d8d38dce4b4601a7",
+      "projectName": "小学校教科書等整備事業",
+      "span": [
+        31622,
+        31662
+      ]
+    },
+    {
+      "id": "cached-14213-08c631b9b354837be025738e",
+      "projectName": "教育に関する調査研究・研修事業",
+      "span": [
+        31717,
+        31763
+      ]
+    },
+    {
+      "id": "cached-14213-65c1f0a4f4fc41df18584382",
+      "projectName": "理科・環境教育に関する調査研究・研修事業",
+      "span": [
+        31764,
+        31815
+      ]
+    },
+    {
+      "id": "cached-14213-4e839e2b384fbe4e703e4f79",
+      "projectName": "理科センター運営事業",
+      "span": [
+        31816,
+        31857
+      ]
+    },
+    {
+      "id": "cached-14213-9bbda7cb83efca046cab8e0f",
+      "projectName": "教育ネットワーク運用管理事業",
+      "span": [
+        31858,
+        31903
+      ]
+    },
+    {
+      "id": "cached-14213-d8b3511b78bc852893316889",
+      "projectName": "教育用コンピュータ運用管理事業",
+      "span": [
+        31904,
+        31950
+      ]
+    },
+    {
+      "id": "cached-14213-68b4b87063ab1e8a8075bbd9",
+      "projectName": "大和市学校教育基本計画進行管理事業",
+      "span": [
+        31951,
+        31999
+      ]
+    },
+    {
+      "id": "cached-14213-7db84f408df2a5ac331763fd",
+      "projectName": "青少年相談員連絡協議会支援事業",
+      "span": [
+        32000,
+        32047
+      ]
+    },
+    {
+      "id": "cached-14213-b5ec4d429744557b931ba5de",
+      "projectName": "消防吏員採用事務",
+      "span": [
+        32048,
+        32078
+      ]
+    },
+    {
+      "id": "cached-14213-0ca789caa9071a0fb1e36df0",
+      "projectName": "消防被服等貸与事務",
+      "span": [
+        32079,
+        32110
+      ]
+    },
+    {
+      "id": "cached-14213-76154b9ccf5bd9c66d1b4271",
+      "projectName": "消防功労者等表彰事務",
+      "span": [
+        32111,
+        32143
+      ]
+    },
+    {
+      "id": "cached-14213-3d9b17539d68acc5c999b0b2",
+      "projectName": "消防運営検討事務",
+      "span": [
+        32144,
+        32174
+      ]
+    },
+    {
+      "id": "cached-14213-0eaa277bb0f7421802060c3b",
+      "projectName": "消防団員等公務災害補償事業",
+      "span": [
+        32175,
+        32210
+      ]
+    },
+    {
+      "id": "cached-14213-87d6a8da32aaed160a799332",
+      "projectName": "消防庁舎維持管理事務",
+      "span": [
+        32211,
+        32241
+      ]
+    },
+    {
+      "id": "cached-14213-3bb8155c7c1014709f6e8cfe",
+      "projectName": "消防水利施設維持管理事業",
+      "span": [
+        32242,
+        32274
+      ]
+    },
+    {
+      "id": "cached-14213-3cdc2546cb83f2fa3410b941",
+      "projectName": "都市間等災害協力推進事業",
+      "span": [
+        32275,
+        32307
+      ]
+    },
+    {
+      "id": "cached-14213-71cb5927a1099f96ba278993",
+      "projectName": "消防啓発事業",
+      "span": [
+        32308,
+        32334
+      ]
+    },
+    {
+      "id": "cached-14213-a61ae5995546f37a8b40ad0a",
+      "projectName": "災害情報機器等整備管理事務",
+      "span": [
+        32335,
+        32368
+      ]
+    },
+    {
+      "id": "cached-14213-f6e1a9bbe220ca9401af0ed0",
+      "projectName": "指令課内庶務事務",
+      "span": [
+        32369,
+        32397
+      ]
+    },
+    {
+      "id": "cached-14213-eb2387c1abfa2de9f99006bf",
+      "projectName": "１１９番等受信出動指令事務",
+      "span": [
+        32398,
+        32431
+      ]
+    },
+    {
+      "id": "cached-14213-243eb66b53e8233af12f4dee",
+      "projectName": "通信指令装置維持管理事務",
+      "span": [
+        32432,
+        32464
+      ]
+    },
+    {
+      "id": "cached-14213-47dc9f41f29ac2939bffe79a",
+      "projectName": "消防団車両維持管理事業",
+      "span": [
+        32465,
+        32496
+      ]
+    },
+    {
+      "id": "cached-14213-e0edc2f26f4b1ab5434f5218",
+      "projectName": "消防団員被服貸与事務",
+      "span": [
+        32497,
+        32527
+      ]
+    },
+    {
+      "id": "cached-14213-d8a1be3844fb1ca36e232bb3",
+      "projectName": "消防団車庫詰所施設維持管理事務",
+      "span": [
+        32528,
+        32563
+      ]
+    },
+    {
+      "id": "cached-14213-fbca21227b7769950a789607",
+      "projectName": "消防団員手当等支給事務",
+      "span": [
+        32564,
+        32595
+      ]
+    },
+    {
+      "id": "cached-14213-7a87a6250c750aba0bf4f00c",
+      "projectName": "消防団員健康管理事務",
+      "span": [
+        32596,
+        32626
+      ]
+    },
+    {
+      "id": "cached-14213-705b290f1e678d3a57f61bbd",
+      "projectName": "消防団運営支援事務",
+      "span": [
+        32627,
+        32656
+      ]
+    },
+    {
+      "id": "cached-14213-19e7e4dd9e79ef3e91770789",
+      "projectName": "消火栓設置事業",
+      "span": [
+        32657,
+        32684
+      ]
+    },
+    {
+      "id": "cached-14213-b7d4e7bfcbaf11ae28db8a8b",
+      "projectName": "消防活動用資機材整備事業",
+      "span": [
+        32685,
+        32717
+      ]
+    },
+    {
+      "id": "cached-14213-c3efb232ba5fe04c960d0043",
+      "projectName": "消防庁舎改修事業",
+      "span": [
+        32718,
+        32746
+      ]
+    },
+    {
+      "id": "cached-14213-02b54274cf8aecb75125fcac",
+      "projectName": "防火水槽設置事業",
+      "span": [
+        32747,
+        32775
+      ]
+    },
+    {
+      "id": "cached-14213-cfca31d59a9ce8ba16d715fc",
+      "projectName": "第６分団車庫詰所建替事業",
+      "span": [
+        32830,
+        32862
+      ]
+    },
+    {
+      "id": "cached-14213-4d10ab0dd12acf27bd2346db",
+      "projectName": "危険物施設等許認可指導事務",
+      "span": [
+        32863,
+        32896
+      ]
+    },
+    {
+      "id": "cached-14213-38e8689465a1279c301a63ee",
+      "projectName": "防火管理･保安体制等確立支援事業",
+      "span": [
+        32897,
+        32933
+      ]
+    },
+    {
+      "id": "cached-14213-f7da0d2047f8d2162f87d301",
+      "projectName": "防火対象物消防用設備設置指導事務",
+      "span": [
+        32934,
+        32970
+      ]
+    },
+    {
+      "id": "cached-14213-b0684102a1dbf8990400bd2f",
+      "projectName": "少年消防団支援事業",
+      "span": [
+        32971,
+        33000
+      ]
+    },
+    {
+      "id": "cached-14213-06bf1e0f09f5d48299ba68d5",
+      "projectName": "メディカルコントロール推進事業",
+      "span": [
+        33001,
+        33038
+      ]
+    },
+    {
+      "id": "cached-14213-79c7ec67e2f197a10b959315",
+      "projectName": "救護活動用機材整備事業",
+      "span": [
+        33039,
+        33072
+      ]
+    },
+    {
+      "id": "cached-14213-369d0c3448b2338fc7fed106",
+      "projectName": "消防車両維持管理事務",
+      "span": [
+        33073,
+        33106
+      ]
+    },
+    {
+      "id": "cached-14213-a2a2a92ce980a82335a12057",
+      "projectName": "消火活動事業",
+      "span": [
+        33107,
+        33136
+      ]
+    },
+    {
+      "id": "cached-14213-6818cb2a33a94122ec53738e",
+      "projectName": "救助活動事業",
+      "span": [
+        33137,
+        33166
+      ]
+    },
+    {
+      "id": "cached-14213-1c5762073fad3aaf1fc840b3",
+      "projectName": "消防活動管理事務",
+      "span": [
+        33167,
+        33198
+      ]
+    },
+    {
+      "id": "cached-14213-c1ddf2921f84a9f3308a9cac",
+      "projectName": "厚生事業",
+      "span": [
+        33199,
+        33228
+      ]
+    },
+    {
+      "id": "cached-14213-3d5760b2ed6307d4642ccfd8",
+      "projectName": "施設維持管理事業",
+      "span": [
+        33229,
+        33262
+      ]
+    },
+    {
+      "id": "cached-14213-9e4450a4c5de6b564eab174a",
+      "projectName": "施設整備事業",
+      "span": [
+        33263,
+        33294
+      ]
+    },
+    {
+      "id": "cached-14213-87b5c1d9675042e65c2cfbe0",
+      "projectName": "人事管理事業",
+      "span": [
+        33295,
+        33326
+      ]
+    },
+    {
+      "id": "cached-14213-ae35b2d4db0a71f743246e4f",
+      "projectName": "保健衛生事業",
+      "span": [
+        33327,
+        33358
+      ]
+    },
+    {
+      "id": "cached-14213-ddee66750486f6acd65de043",
+      "projectName": "出納事務",
+      "span": [
+        33359,
+        33390
+      ]
+    },
+    {
+      "id": "cached-14213-5a49046e4d7e59faf046689c",
+      "projectName": "ｅＬＴＡＸ（地方税ポータルシステム）運用事業",
+      "span": [
+        13090,
+        13133
+      ]
+    },
+    {
+      "id": "cached-14213-24b4c4d5597ea905a6279576",
+      "projectName": "コミュニティセンター下鶴間会館移転整備事業（令和6～7年度継続費）",
+      "span": [
+        13427,
+        13490
+      ]
+    },
+    {
+      "id": "cached-14213-cdfa72ade991b8cacd989d2a",
+      "projectName": "新しい公共を創造する市民活動推進基金管理事務",
+      "span": [
+        13491,
+        13543
+      ]
+    },
+    {
+      "id": "cached-14213-c7fe31832108a44805212d3c",
+      "projectName": "自然観察センター・しらかしのいえ管理運営事業",
+      "span": [
+        15657,
+        15708
+      ]
+    },
+    {
+      "id": "cached-14213-8ed293ba7e70194bef8f656f",
+      "projectName": "（公財）かながわトラストみどり財団に関する事業",
+      "span": [
+        15804,
+        15856
+      ]
+    },
+    {
+      "id": "cached-14213-f46bd01a773871973e69b4ec",
+      "projectName": "引地台公園・温水プール・立体駐車場管理運営事業",
+      "span": [
+        16009,
+        16061
+      ]
+    },
+    {
+      "id": "cached-14213-a299dd0c18c48974dcf1b8ee",
+      "projectName": "大和スタジアム・つきみ野野球場・宮久保野球場施設管理運営事業",
+      "span": [
+        19078,
+        19140
+      ]
+    },
+    {
+      "id": "cached-14213-909d95b2c276d06349dbc5fd",
+      "projectName": "電力・ガス・食料品等価格高騰重点支援給付金事業",
+      "span": [
+        20476,
+        20519
+      ]
+    },
+    {
+      "id": "cached-14213-9ed91e4b3b1c752e2020b088",
+      "projectName": "特定地域型保育事業所等第三者委員会設置運営事務",
+      "span": [
+        23279,
+        23335
+      ]
+    },
+    {
+      "id": "cached-14213-bdb21ea52929f5de3139a61d",
+      "projectName": "大和駅周辺まちづくり推進事業用地維持管理事務",
+      "span": [
+        26833,
+        26886
+      ]
+    },
+    {
+      "id": "cached-14213-eeb53865a30c47792ff3687d",
+      "projectName": "渋谷（南部地区）土地区画整理事業換地清算徴収金管理事業",
+      "span": [
+        26887,
+        26945
+      ]
+    }
+  ]
+}
