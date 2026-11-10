@@ -1,0 +1,33 @@
+{
+  "sourceId": "737b58ab788c1fd90ce502fd",
+  "completeHashVerified": true,
+  "stageOnly": true,
+  "uncoveredAccountCitations": 18,
+  "identityHolds": {
+    "6275": "都市計画制度 same title distinct district-plan contexts.",
+    "6372": "Same title, no disambiguation.",
+    "6613": "Same宅地開発 title already represented by first row; no new record.",
+    "10112": "町道維持管理 same name distinct maintenance contexts.",
+    "10696": "Same title distinct contexts."
+  },
+  "titleHold": {
+    "39036": "通学安全対策委事業 contains extra 委; original typography unavailable."
+  },
+  "duplicates": [
+    18730,
+    21492,
+    25825,
+    29408,
+    31166,
+    38928,
+    46534,
+    51804,
+    53858,
+    54469,
+    54481,
+    54493
+  ],
+  "duplicateExplanation": "Additional budget accounts or exact names already represented; maternal1歳6か月360千円101people is included in broader earlier row.",
+  "appendix": "Five individually named project headers; two funding categories within station/black-soy headers are not counted twice; KPI and component activities excluded. No expenses inferred.",
+  "remaining": "Whole-book numerical alignment is not claimed; this is named annual review extraction."
+}

@@ -1,0 +1,97 @@
+export const configs = [
+  {
+    "sourceId": "737b58ab788c1fd90ce502fd",
+    "municipalityCode": "12329",
+    "municipalityName": "栄町",
+    "sourceUrl": "https://www.town.sakae.chiba.jp/data/doc/1506669764_doc_1_0.pdf",
+    "sourceSha256": "3c8ff80ebf8887be5108d6fe7ac40b4ce6fc1df5ce83b5a3f7bb9ec47974bacf",
+    "fullTextSha256": "0757423708e5732c4d58678f7b5d2e9c6437bae1705a44377de96698a4909222",
+    "rows": [
+      {
+        "name": "主要地方道鎌ケ谷本埜線バイパスを活用したまちづくり事業",
+        "raw": "主要地方道鎌ケ谷本埜線バイパスを活用したまちづくり事業",
+        "start": 60875,
+        "year": 2016,
+        "yearQuote": "平成２８年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 60775,
+        "groupEnd": 61502,
+        "groupSha256": "38067a503cb866a25cdae4e4e2ea95596c3220d5cb3e60dbef49c7094afefa00",
+        "parts": [
+          {
+            "raw": "主要地方道鎌ケ谷本埜線バイパスを活用したまちづくり事業",
+            "start": 60875
+          }
+        ]
+      },
+      {
+        "name": "矢口工業団地の拡張事業",
+        "raw": "矢口工業団地の拡張事業",
+        "start": 61521,
+        "year": 2016,
+        "yearQuote": "平成２８年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 61421,
+        "groupEnd": 62135,
+        "groupSha256": "673b0d2e4c2d5244a497429b705867c257b35f43ef9ba9179f79c2fef3537aa8",
+        "parts": [
+          {
+            "raw": "矢口工業団地の拡張事業",
+            "start": 61521
+          }
+        ]
+      },
+      {
+        "name": "安食駅前町民総活躍ステージ整備事業",
+        "raw": "安食駅前町民総活躍ステージ整備事業",
+        "start": 62167,
+        "year": 2016,
+        "yearQuote": "H28実績値",
+        "yearOffset": 63947,
+        "groupStart": 62067,
+        "groupEnd": 64111,
+        "groupSha256": "2f7ee3c5c8e1ae8b3d362dbc34c14b4737f93525ac0fd90b1d874dafb5834766",
+        "parts": [
+          {
+            "raw": "安食駅前町民総活躍ステージ整備事業",
+            "start": 62167
+          }
+        ]
+      },
+      {
+        "name": "黒大豆による地域経済活性化事業",
+        "raw": "黒大豆による地域経済活性化事業",
+        "start": 64143,
+        "year": 2016,
+        "yearQuote": "H28実績値",
+        "yearOffset": 64252,
+        "groupStart": 64043,
+        "groupEnd": 65655,
+        "groupSha256": "b348dfc163fe2045e25b3b0d540fd25057cc4296bec5ce6a487ee1d579f926f8",
+        "parts": [
+          {
+            "raw": "黒大豆による地域経済活性化事業",
+            "start": 64143
+          }
+        ]
+      },
+      {
+        "name": "コスプレを活用した地域経済活性化事業",
+        "raw": "コスプレを活用した地域経済活性化事業",
+        "start": 65687,
+        "year": 2016,
+        "yearQuote": "H28実績値",
+        "yearOffset": 65801,
+        "groupStart": 65587,
+        "groupEnd": 66613,
+        "groupSha256": "52e10c369b493341987516ec69fc85f04c859ce5d60bd1a2131e3ee70717b15b",
+        "parts": [
+          {
+            "raw": "コスプレを活用した地域経済活性化事業",
+            "start": 65687
+          }
+        ]
+      }
+    ]
+  }
+];

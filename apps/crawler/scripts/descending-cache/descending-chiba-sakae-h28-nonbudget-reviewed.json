@@ -1,0 +1,319 @@
+[
+  {
+    "sourceId": "737b58ab788c1fd90ce502fd",
+    "municipalityCode": "12329",
+    "municipalityName": "栄町",
+    "sourceUrl": "https://www.town.sakae.chiba.jp/data/doc/1506669764_doc_1_0.pdf",
+    "sourceSha256": "3c8ff80ebf8887be5108d6fe7ac40b4ce6fc1df5ce83b5a3f7bb9ec47974bacf",
+    "fullTextSha256": "0757423708e5732c4d58678f7b5d2e9c6437bae1705a44377de96698a4909222",
+    "rows": [
+      {
+        "name": "男女共同参画の推進事業",
+        "raw": "男女共同参画の\n広報啓発事業を行います。\n○北総地域千葉県男女共同参画地域推進会議\n推進事業",
+        "start": 3684,
+        "year": 2016,
+        "yearQuote": "平成２８年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 3484,
+        "groupEnd": 4380,
+        "groupSha256": "e6a7e941923f9d945c8a765a22bc479185c0cb6982f672d6ad5a53d039232ea4",
+        "parts": [
+          {
+            "raw": "男女共同参画の",
+            "start": 3684
+          },
+          {
+            "raw": "推進事業",
+            "start": 3726
+          }
+        ]
+      },
+      {
+        "name": "町民からの意見募集事業",
+        "raw": "町民からの意見\nを募集した。\n寄せられた町民の意見や提案を町政に反映し\n募集事業",
+        "start": 4048,
+        "year": 2016,
+        "yearQuote": "平成２８年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 3848,
+        "groupEnd": 4738,
+        "groupSha256": "b927e0b3bb34ba4066d573769dfa4fff7a8f5cdfdd4ffc4789c2553cc7592f1d",
+        "parts": [
+          {
+            "raw": "町民からの意見",
+            "start": 4048
+          },
+          {
+            "raw": "募集事業",
+            "start": 4084
+          }
+        ]
+      },
+      {
+        "name": "廃棄物排出抑制推進事業",
+        "raw": "廃棄物排出抑制 た、生ごみ減量化機器及びＥＭ容器の購入助\n推進事業",
+        "start": 11974,
+        "year": 2016,
+        "yearQuote": "平成２８年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 11774,
+        "groupEnd": 12657,
+        "groupSha256": "a592bee266c9aeb4c21caafbc919a8dcda8c0d9a362b4b7f48c1c487ee378358",
+        "parts": [
+          {
+            "raw": "廃棄物排出抑制",
+            "start": 11974
+          },
+          {
+            "raw": "推進事業",
+            "start": 12003
+          }
+        ]
+      },
+      {
+        "name": "住宅用火災予防対策事業",
+        "raw": "住宅用火災\n予防対策事業",
+        "start": 17559,
+        "year": 2016,
+        "yearQuote": "平成２８年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 17359,
+        "groupEnd": 18221,
+        "groupSha256": "8407167072bd4323d550fa0e6dde39efa8527edfebb3e605985a4cad5473fc7a",
+        "parts": [
+          {
+            "raw": "住宅用火災",
+            "start": 17559
+          },
+          {
+            "raw": "予防対策事業",
+            "start": 17565
+          }
+        ]
+      },
+      {
+        "name": "遊休農地利用改善事業",
+        "raw": "遊休農地利用改 し、その所有者の意向を確認する際に、農地\n担い手に農地が集積されたことなどにより、３haの遊休\n善事業",
+        "start": 35623,
+        "year": 2016,
+        "yearQuote": "平成２８年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 35423,
+        "groupEnd": 36332,
+        "groupSha256": "7c2aef92db02c50a1078ca4c6998d4f15199306502c60d96a817482ab07a5847",
+        "parts": [
+          {
+            "raw": "遊休農地利用改",
+            "start": 35623
+          },
+          {
+            "raw": "善事業",
+            "start": 35679
+          }
+        ]
+      },
+      {
+        "name": "入札・契約適正化事業",
+        "raw": "入札・契約適正\n千葉電子調達システム利用負担金\n化事業",
+        "start": 48605,
+        "year": 2016,
+        "yearQuote": "平成２８年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 48405,
+        "groupEnd": 49282,
+        "groupSha256": "955773ec0e99e64d36c2c7325b6fbe6fe9545f918dd861d0440ac753fc57f685",
+        "parts": [
+          {
+            "raw": "入札・契約適正",
+            "start": 48605
+          },
+          {
+            "raw": "化事業",
+            "start": 48629
+          }
+        ]
+      },
+      {
+        "name": "資産税賦課事業",
+        "raw": "資産税賦課事業",
+        "start": 52083,
+        "year": 2016,
+        "yearQuote": "平成２８年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 51883,
+        "groupEnd": 52740,
+        "groupSha256": "912bae2570ecab6acc119df19230f8b7bf22dc2267e6bfb2e8800ebfbea70fad",
+        "parts": [
+          {
+            "raw": "資産税賦課事業",
+            "start": 52083
+          }
+        ]
+      },
+      {
+        "name": "法令執務能力向上推進事業",
+        "raw": "法令執務能力向\n等の審査を行います。また、職員研修などを\n上推進事業",
+        "start": 55935,
+        "year": 2016,
+        "yearQuote": "平成２８年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 55735,
+        "groupEnd": 56619,
+        "groupSha256": "3b20ebe3b8dbb58f4612de21a0e4d2054a3638a50049e434b7aea8f90fa5a24a",
+        "parts": [
+          {
+            "raw": "法令執務能力向",
+            "start": 55935
+          },
+          {
+            "raw": "上推進事業",
+            "start": 55964
+          }
+        ]
+      },
+      {
+        "name": "領土問題・非核平和事業",
+        "raw": "領土問題・非核\n久平和に対する町民の理解と関心を深めるた 非核平和に係る看板を役場玄関前に設置\n平和事業",
+        "start": 56119,
+        "year": 2016,
+        "yearQuote": "平成２８年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 55919,
+        "groupEnd": 56821,
+        "groupSha256": "d6ec7c43bd1b20b131aced3d5f38fe2e42b10ac866e49f610a02f2cc53c7c2f6",
+        "parts": [
+          {
+            "raw": "領土問題・非核",
+            "start": 56119
+          },
+          {
+            "raw": "平和事業",
+            "start": 56167
+          }
+        ]
+      },
+      {
+        "name": "自衛官募集推進事業",
+        "raw": "自衛官募集推進\n自衛官募集に関する情報を、町民に提供し\n・自衛官募集に関する内容を広報誌に掲載\n事業",
+        "start": 56281,
+        "year": 2016,
+        "yearQuote": "平成２８年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 56081,
+        "groupEnd": 56981,
+        "groupSha256": "cf9ce4e0c9704bef566e6b22a43ba688dbf84d41cc98fbf26150463d1970c0c2",
+        "parts": [
+          {
+            "raw": "自衛官募集推進",
+            "start": 56281
+          },
+          {
+            "raw": "事業",
+            "start": 56329
+          }
+        ]
+      },
+      {
+        "name": "公印管理事業",
+        "raw": "公印管理事業",
+        "start": 56802,
+        "year": 2016,
+        "yearQuote": "平成２８年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 56602,
+        "groupEnd": 57458,
+        "groupSha256": "96181dbbc22c830b352d997274b9d8d39b1c2f5244b50f50fdcff0497f25b8de",
+        "parts": [
+          {
+            "raw": "公印管理事業",
+            "start": 56802
+          }
+        ]
+      },
+      {
+        "name": "個人情報保護制度運用事業",
+        "raw": "個人情報保護制 め、町民が、権利として、町が保有する自己\n・開示請求件数２件⇒部分開示２件\n度運用事業",
+        "start": 57380,
+        "year": 2016,
+        "yearQuote": "平成２８年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 57180,
+        "groupEnd": 58081,
+        "groupSha256": "30563f0d91fe3519ccab85dd04ab1a6a1000585168d5de48d82667e3dfb43a4e",
+        "parts": [
+          {
+            "raw": "個人情報保護制",
+            "start": 57380
+          },
+          {
+            "raw": "度運用事業",
+            "start": 57426
+          }
+        ]
+      },
+      {
+        "name": "情報公開制度運用事業",
+        "raw": "情報公開制度運 に入手できるよう、町民の相談に応じて適切\n用事業",
+        "start": 57634,
+        "year": 2016,
+        "yearQuote": "平成２８年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 57434,
+        "groupEnd": 58316,
+        "groupSha256": "f3470e93b28c5a5c7c1ed36f160295ec83301a05a2ecc6055cfac9c1f953aa91",
+        "parts": [
+          {
+            "raw": "情報公開制度運",
+            "start": 57634
+          },
+          {
+            "raw": "用事業",
+            "start": 57663
+          }
+        ]
+      },
+      {
+        "name": "会議公開制度運用事業",
+        "raw": "会議公開制度運 民が、附属機関等の会議における審議過程を\n用事業",
+        "start": 57833,
+        "year": 2016,
+        "yearQuote": "平成２８年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 57633,
+        "groupEnd": 58515,
+        "groupSha256": "0fd5d5ab4e0bf14b0c9a22bbd1e71d4f225ff7e3d66bcf441ec815f4cdb0e43d",
+        "parts": [
+          {
+            "raw": "会議公開制度運",
+            "start": 57833
+          },
+          {
+            "raw": "用事業",
+            "start": 57862
+          }
+        ]
+      },
+      {
+        "name": "行政資料情報提供事業",
+        "raw": "行政資料情報提\n町が保有する行政資料を町民が自由に閲覧\nるとともに、行政資料室の収納範囲を考慮し、行政資料\n供事業",
+        "start": 58029,
+        "year": 2016,
+        "yearQuote": "平成２８年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 57829,
+        "groupEnd": 58736,
+        "groupSha256": "af5c31296af760eedcd0a3b2a704ee555b0296b8e4798024b6550e01d68460bd",
+        "parts": [
+          {
+            "raw": "行政資料情報提",
+            "start": 58029
+          },
+          {
+            "raw": "供事業",
+            "start": 58083
+          }
+        ]
+      }
+    ]
+  }
+]

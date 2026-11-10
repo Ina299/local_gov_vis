@@ -1,0 +1,37 @@
+{
+  "sourceId": "6a29098a04582c4cd937e737",
+  "fiscalYear": 2015,
+  "stageOnly": true,
+  "budgetUnits": 138,
+  "appendix": {
+    "accepted": 26,
+    "holds": [
+      {
+        "offset": 60855,
+        "reason": "New college opens H28.4; explicitly no H27 commuting users. Hold period/activity association."
+      },
+      {
+        "offset": 63103,
+        "reason": "Birth grant84persons same recipient cohort as broader existing birth support; no additional identity inferred."
+      },
+      {
+        "offset": 65777,
+        "reason": "Foreign visitors Edo program repeated at69870 with same212persons; identity overlap requires component reconciliation."
+      },
+      {
+        "offset": 69870,
+        "reason": "Duplicate/identity hold with65777."
+      },
+      {
+        "offset": 67046,
+        "reason": "Drum tourism increase renovations overlap body Drum business; no separate identity presumed."
+      }
+    ]
+  },
+  "additionalHolds": [
+    "OCR徔 in low-income title, 貹 in medical cost title, 賅 in administrative information title are not silently corrected.",
+    "給食運営 is activity text of existing給食事業; 自衛官募集 is activity alias of自衛官募集推進.",
+    "Policy chapters/parent KPI labels are not individual businesses."
+  ],
+  "remaining": "This ledger records reviewed title/account families. Other cached cohorts remain actionable; no nationwide completion claim."
+}

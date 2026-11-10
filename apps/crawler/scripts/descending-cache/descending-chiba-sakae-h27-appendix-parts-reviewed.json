@@ -1,0 +1,646 @@
+[
+  {
+    "sourceId": "6a29098a04582c4cd937e737",
+    "municipalityCode": "12329",
+    "municipalityName": "栄町",
+    "sourceUrl": "https://www.town.sakae.chiba.jp/data/doc/1505356094_doc_78_0.pdf",
+    "sourceSha256": "735cd1740a92a2ce4eb15c0a40e94df21fccc6dcff0674b8993cdc0bbbb6fae4",
+    "fullTextSha256": "b9570323e9c5cde1865643fd8a3bf1e6966d46e38f5b2f2902b230cf883ad29e",
+    "rows": [
+      {
+        "name": "栄町総合戦略策定事業",
+        "raw": "栄町総合戦略\n策定事業",
+        "start": 60176,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 59976,
+        "groupEnd": 60795,
+        "groupSha256": "0c270d73c3a73be2edf922a54dbaa663f7fd8e82a9b8ad986514b3a5862d3ec1",
+        "parts": [
+          {
+            "raw": "栄町総合戦略",
+            "start": 60176
+          },
+          {
+            "raw": "策定事業",
+            "start": 60183
+          }
+        ],
+        "accountQuote": "栄町総合戦略\n策定事業\n（2・1・6）",
+        "accountOffset": 60176
+      },
+      {
+        "name": "Ｕターン同居・近居支援事業",
+        "raw": "Ｕターン同\n居・近居支援\n59世帯 事業",
+        "start": 60554,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 60354,
+        "groupEnd": 61182,
+        "groupSha256": "d7b25f830079c2b5a8154f0fcdfa976b7085930f89526dffde74a2613bc01c3b",
+        "parts": [
+          {
+            "raw": "Ｕターン同",
+            "start": 60554
+          },
+          {
+            "raw": "居・近居支援",
+            "start": 60560
+          },
+          {
+            "raw": "事業",
+            "start": 60572
+          }
+        ],
+        "accountQuote": "Ｕターン同\n居・近居支援\n59世帯 事業\n（２･１･６）",
+        "accountOffset": 60554
+      },
+      {
+        "name": "福祉系・医療系学生アパート代支援事業",
+        "raw": "福祉系・医療\n系学生アパー\nト代支援事業",
+        "start": 61231,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 61031,
+        "groupEnd": 61859,
+        "groupSha256": "51e8d7b24f95426b7a0ae0d3ba30633f68ceeba2100c6d066fb344305ce1894f",
+        "parts": [
+          {
+            "raw": "福祉系・医療",
+            "start": 61231
+          },
+          {
+            "raw": "系学生アパー",
+            "start": 61238
+          },
+          {
+            "raw": "ト代支援事業",
+            "start": 61245
+          }
+        ],
+        "accountQuote": "福祉系・医療\n系学生アパー\nト代支援事業\n（２･１･６）",
+        "accountOffset": 61231
+      },
+      {
+        "name": "アパート移住者子育て支援事業",
+        "raw": "アパート移住\n者子育て支援\n事業",
+        "start": 61449,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 61249,
+        "groupEnd": 62073,
+        "groupSha256": "4f5a4e5b1788e9d8fddc183ea57651379f3c9ca15f8d842614aa20197a866dc3",
+        "parts": [
+          {
+            "raw": "アパート移住",
+            "start": 61449
+          },
+          {
+            "raw": "者子育て支援",
+            "start": 61456
+          },
+          {
+            "raw": "事業",
+            "start": 61463
+          }
+        ],
+        "accountQuote": "アパート移住\n者子育て支援\n事業\n（２･１･６）",
+        "accountOffset": 61449
+      },
+      {
+        "name": "転入者紹介謝礼事業",
+        "raw": "転入者紹介謝\n子どものいる世帯を町に転入するこ\n礼事業",
+        "start": 61685,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 61485,
+        "groupEnd": 62337,
+        "groupSha256": "f2e0faa7ba2700fa3f53fb673ba86b2966593e502b0c90ae299db9636c8638e1",
+        "parts": [
+          {
+            "raw": "転入者紹介謝",
+            "start": 61685
+          },
+          {
+            "raw": "礼事業",
+            "start": 61709
+          }
+        ],
+        "accountQuote": "転入者紹介謝\n子どものいる世帯を町に転入するこ\n礼事業\nとを推奨した方に謝礼金をを支給し\n（２･１･６）",
+        "accountOffset": 61685
+      },
+      {
+        "name": "若者移住地元ＰＲ事業",
+        "raw": "若者移住地元\n住してもらえるようにするため、町\nＰＲ事業",
+        "start": 62096,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 61896,
+        "groupEnd": 62749,
+        "groupSha256": "6d967e791e3159a3fd38f235a7f9962de0289a21a8601bf0b7fd17c5b25defcb",
+        "parts": [
+          {
+            "raw": "若者移住地元",
+            "start": 62096
+          },
+          {
+            "raw": "ＰＲ事業",
+            "start": 62120
+          }
+        ],
+        "accountQuote": "若者移住地元\n住してもらえるようにするため、町\nＰＲ事業\nの情報発信源であるホームページを\n（２･１･６）",
+        "accountOffset": 62096
+      },
+      {
+        "name": "移住ＰＲ物資作成事業",
+        "raw": "移住ＰＲ物資\n増加が重要である。そこで、県内や\n作成事業",
+        "start": 62284,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 62084,
+        "groupEnd": 62937,
+        "groupSha256": "9ede09294c286bbe081c441306b1f605a6a17a8302faeaa16043c0d84d0ba9dc",
+        "parts": [
+          {
+            "raw": "移住ＰＲ物資",
+            "start": 62284
+          },
+          {
+            "raw": "作成事業",
+            "start": 62308
+          }
+        ],
+        "accountQuote": "移住ＰＲ物資\n増加が重要である。そこで、県内や\n作成事業\n都内の丌動産業や企業に移住のセー\n（２･１･６）",
+        "accountOffset": 62284
+      },
+      {
+        "name": "婚活支援事業",
+        "raw": "婚活支援事業",
+        "start": 62594,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 62394,
+        "groupEnd": 63225,
+        "groupSha256": "9b9a0260d4dd869f39ea0a433bee750e3afdb524ebee411d94d575bf16f36f0e",
+        "parts": [
+          {
+            "raw": "婚活支援事業",
+            "start": 62594
+          }
+        ],
+        "accountQuote": "婚活支援事業\n栄町婚活実行委員会が主催する婚活\n（２･１･６）",
+        "accountOffset": 62594
+      },
+      {
+        "name": "妊婦への支援事業",
+        "raw": "妊婦への支援\n妊娠中で体調がすぐれない方がベ\n事業",
+        "start": 63214,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 63014,
+        "groupEnd": 63864,
+        "groupSha256": "d4e6f2fe72b3887ef11150035ef3c1dc614c7b4a707e1a36cc7916614004bd2c",
+        "parts": [
+          {
+            "raw": "妊婦への支援",
+            "start": 63214
+          },
+          {
+            "raw": "事業",
+            "start": 63237
+          }
+        ],
+        "accountQuote": "妊婦への支援\n妊娠中で体調がすぐれない方がベ\n事業\nビーシッターを利用した場合に、利\n（２･１･６）",
+        "accountOffset": 63214
+      },
+      {
+        "name": "ベビーシッター支援事業",
+        "raw": "ベビーシッ\n２歳までの子供を養育する方がベ\nター支援事業",
+        "start": 63327,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 63127,
+        "groupEnd": 63980,
+        "groupSha256": "7112dd07ad904236cf6f149c179e0b22e74931615c15a4bb122d89042fe00331",
+        "parts": [
+          {
+            "raw": "ベビーシッ",
+            "start": 63327
+          },
+          {
+            "raw": "ター支援事業",
+            "start": 63349
+          }
+        ],
+        "accountQuote": "ベビーシッ\n２歳までの子供を養育する方がベ\nター支援事業 ビーシッターを利用した場合に、利\n（２･１･６）",
+        "accountOffset": 63327
+      },
+      {
+        "name": "子育て相談センター設置事業",
+        "raw": "子育て相談セ\nンター設置事\n業",
+        "start": 63682,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 63482,
+        "groupEnd": 64305,
+        "groupSha256": "d61a417a2d912b527b9b937dd60f628b18356c503272b4d47014ab616ddece65",
+        "parts": [
+          {
+            "raw": "子育て相談セ",
+            "start": 63682
+          },
+          {
+            "raw": "ンター設置事",
+            "start": 63689
+          },
+          {
+            "raw": "業",
+            "start": 63696
+          }
+        ],
+        "accountQuote": "子育て相談セ\nンター設置事\n業\n（２･１･６）",
+        "accountOffset": 63682
+      },
+      {
+        "name": "子育て世帯家庭教育支援事業",
+        "raw": "子育て世帯家\n庭教育支援事\n1,537\n家庭・子育てアドバイザー賃金【1,076千円】\n業",
+        "start": 63917,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 63717,
+        "groupEnd": 64597,
+        "groupSha256": "7ded45c3fdeed1eff4248d7ffa22dcfd2a5ff947570fc767baf2c6f7ec7bdece",
+        "parts": [
+          {
+            "raw": "子育て世帯家",
+            "start": 63917
+          },
+          {
+            "raw": "庭教育支援事",
+            "start": 63924
+          },
+          {
+            "raw": "業",
+            "start": 63961
+          }
+        ],
+        "accountQuote": "子育て世帯家\n庭教育支援事\n1,537\n家庭・子育てアドバイザー賃金【1,076千円】\n業\n子育て中の保護者に対し、家庭教育\n・共済費【5千円】\n（2・1・6）",
+        "accountOffset": 63917
+      },
+      {
+        "name": "多子世帯支援事業",
+        "raw": "多子世帯支援\n事業",
+        "start": 64161,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 63961,
+        "groupEnd": 64778,
+        "groupSha256": "90286a1521cac03318d86ce5216d52bd95e00371d7039fdf8ad0f984b954a9c6",
+        "parts": [
+          {
+            "raw": "多子世帯支援",
+            "start": 64161
+          },
+          {
+            "raw": "事業",
+            "start": 64168
+          }
+        ],
+        "accountQuote": "多子世帯支援\n事業\n（2・1・6）",
+        "accountOffset": 64161
+      },
+      {
+        "name": "地元就職者支援事業",
+        "raw": "地元就職者支\n援事業",
+        "start": 64447,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 64247,
+        "groupEnd": 65065,
+        "groupSha256": "1375ac273d0cfc07b1fd79a533d948566000823aed52240c398f19c8f125de3e",
+        "parts": [
+          {
+            "raw": "地元就職者支",
+            "start": 64447
+          },
+          {
+            "raw": "援事業",
+            "start": 64454
+          }
+        ],
+        "accountQuote": "地元就職者支\n援事業\n（2・1・6）",
+        "accountOffset": 64447
+      },
+      {
+        "name": "都内在住者就農移住促進事業",
+        "raw": "都内在住者就\n農移住促進事 都内在住者で就農移住に関するＰＲ\n業",
+        "start": 64758,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 64558,
+        "groupEnd": 65415,
+        "groupSha256": "017e392bfcab860f302d6cae1bdd6498dadbf470d6088d979ad871fa02a484f4",
+        "parts": [
+          {
+            "raw": "都内在住者就",
+            "start": 64758
+          },
+          {
+            "raw": "農移住促進事",
+            "start": 64765
+          },
+          {
+            "raw": "業",
+            "start": 64789
+          }
+        ],
+        "accountQuote": "都内在住者就\n農移住促進事 都内在住者で就農移住に関するＰＲ\n業\n活動を行い、就農移住希望者を町内\n（2・1・6）",
+        "accountOffset": 64758
+      },
+      {
+        "name": "空き店舗等活用支援事業",
+        "raw": "空き店舗等活\n地域の活性化を図る。\n用支援事業",
+        "start": 65062,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 64862,
+        "groupEnd": 65711,
+        "groupSha256": "b70c70a99496cd33e4b6091c08eed9267fff325925922583d80c50d21526933b",
+        "parts": [
+          {
+            "raw": "空き店舗等活",
+            "start": 65062
+          },
+          {
+            "raw": "用支援事業",
+            "start": 65080
+          }
+        ],
+        "accountQuote": "空き店舗等活\n地域の活性化を図る。\n用支援事業\n賃貸料及び購入費 補助率1/2以内\n（2・1・6）",
+        "accountOffset": 65062
+      },
+      {
+        "name": "企業立地促進事業",
+        "raw": "企業立地促進事業補助金\nし、補助金を交付し町の経済の発展\n事業",
+        "start": 65453,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 65253,
+        "groupEnd": 66108,
+        "groupSha256": "a9ce76bb3d8e572a99f2eb8d64ede63930ccaf81e9b214d805832472fba30d08",
+        "parts": [
+          {
+            "raw": "企業立地促進",
+            "start": 65453
+          },
+          {
+            "raw": "事業",
+            "start": 65482
+          }
+        ],
+        "accountQuote": "企業立地促進事業補助金\nし、補助金を交付し町の経済の発展\n事業\n・矢口工業団地内企業\nを図る。\n（2・1・6）",
+        "accountOffset": 65453
+      },
+      {
+        "name": "鍋まつり開催事業",
+        "raw": "鍋まつり開催\nいがっさ 事業",
+        "start": 65841,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 65641,
+        "groupEnd": 66475,
+        "groupSha256": "b5a32428e5a74801c7fbc6064050462e794692c9ccd97255add1076080780df4",
+        "parts": [
+          {
+            "raw": "鍋まつり開催",
+            "start": 65841
+          },
+          {
+            "raw": "事業",
+            "start": 65853
+          }
+        ],
+        "accountQuote": "鍋まつり開催\nいがっさ 事業\n3,000人\nいフェス （2・1・6）",
+        "accountOffset": 65841
+      },
+      {
+        "name": "特産品販売強化対策事業",
+        "raw": "特産品販売強\n栄町の特産品である黒大豆の生産量\n化対策事業",
+        "start": 66531,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 66331,
+        "groupEnd": 67185,
+        "groupSha256": "79aad929692933d31e113087dc96c6c084be0a0c2d6f1c034b38c19fb16fb5e4",
+        "parts": [
+          {
+            "raw": "特産品販売強",
+            "start": 66531
+          },
+          {
+            "raw": "化対策事業",
+            "start": 66555
+          }
+        ],
+        "accountQuote": "特産品販売強\n栄町の特産品である黒大豆の生産量\n化対策事業\nを向上させるため生産面積に応じて\n（2・1・6）",
+        "accountOffset": 66531
+      },
+      {
+        "name": "観光リーダー育成事業",
+        "raw": "観光リーダー\nを育成するため、順天堂大学との連\n32人 育成事業",
+        "start": 66704,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 66504,
+        "groupEnd": 67356,
+        "groupSha256": "01305fdba35813ac11140aae3eba6f270eabcf6721b139184c2fe9129f1ac47c",
+        "parts": [
+          {
+            "raw": "観光リーダー",
+            "start": 66704
+          },
+          {
+            "raw": "育成事業",
+            "start": 66732
+          }
+        ],
+        "accountQuote": "観光リーダー\nを育成するため、順天堂大学との連\n32人 育成事業\n携を図った。\n（延数） （2・1・6）",
+        "accountOffset": 66704
+      },
+      {
+        "name": "コスプレの館運営事業",
+        "raw": "コスプレの館」\n運営事業",
+        "start": 66930,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 66730,
+        "groupEnd": 67566,
+        "groupSha256": "cf72e3cd0179bb26ffd048275710b9ce6b8de060ee7764fb8e7fc849cd757911",
+        "parts": [
+          {
+            "raw": "コスプレの館",
+            "start": 66930
+          },
+          {
+            "raw": "運営事業",
+            "start": 66938
+          }
+        ],
+        "accountQuote": "コスプレの館」\n運営事業\nをオープンし、集客機能の強化を\n（2・1・6）",
+        "accountOffset": 66930
+      },
+      {
+        "name": "消費喚起プレミアム付商品券発行事業",
+        "raw": "消費喚起プレ 6,500円（1,000円＊５枚 500円\nミアム付商品 ＊３枚）発行数21,004人 全ての\n130,54 136,52\n券発行事業",
+        "start": 67714,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 67514,
+        "groupEnd": 68421,
+        "groupSha256": "8e1d685acfc0b894f420277a3f023bd4a9ad7621f105e296b8f8a05af8fbbd5f",
+        "parts": [
+          {
+            "raw": "消費喚起プレ",
+            "start": 67714
+          },
+          {
+            "raw": "ミアム付商品",
+            "start": 67743
+          },
+          {
+            "raw": "券発行事業",
+            "start": 67783
+          }
+        ],
+        "accountQuote": "消費喚起プレ 6,500円（1,000円＊５枚 500円\nミアム付商品 ＊３枚）発行数21,004人 全ての\n130,54 136,52\n券発行事業\n町民を対象に発行・町内の商工会加\n8千円\n6千円\n（6・1・2）",
+        "accountOffset": 67714
+      },
+      {
+        "name": "生活支援多子世帯子育て応援券発行支援事業",
+        "raw": "生活支援多子\n世帯子育て応\n3,000千 2,975千 援券発行支援\n円\n円\n事業",
+        "start": 68281,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 68081,
+        "groupEnd": 68930,
+        "groupSha256": "4b1ac4c11f71a8be0a95dfe3bdcdfb4b91336ce0536ae7d17b08c117834f59bd",
+        "parts": [
+          {
+            "raw": "生活支援多子",
+            "start": 68281
+          },
+          {
+            "raw": "世帯子育て応",
+            "start": 68288
+          },
+          {
+            "raw": "援券発行支援",
+            "start": 68309
+          },
+          {
+            "raw": "事業",
+            "start": 68320
+          }
+        ],
+        "accountQuote": "生活支援多子\n世帯子育て応\n3,000千 2,975千 援券発行支援\n円\n円\n事業\n（6・1・2）",
+        "accountOffset": 68281
+      },
+      {
+        "name": "地方創生広域型事業",
+        "raw": "地方創生広域\n型事業",
+        "start": 68804,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 68604,
+        "groupEnd": 69427,
+        "groupSha256": "dfb8769a65a3be09426cf1247d1936f70bf0d0b695522a4f2e3512c4a07eb0ff",
+        "parts": [
+          {
+            "raw": "地方創生広域",
+            "start": 68804
+          },
+          {
+            "raw": "型事業",
+            "start": 68811
+          }
+        ],
+        "accountQuote": "地方創生広域\n型事業\n10箇所\n（2・1・6）",
+        "accountOffset": 68804
+      },
+      {
+        "name": "駅周辺サイン看板設置事業",
+        "raw": "駅周辺サイン\n看板設置事業",
+        "start": 68945,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 68745,
+        "groupEnd": 69566,
+        "groupSha256": "7205fbad2759408c0a57f7fc959dd33720fb5e423397c86c07cb44db217b8cfa",
+        "parts": [
+          {
+            "raw": "駅周辺サイン",
+            "start": 68945
+          },
+          {
+            "raw": "看板設置事業",
+            "start": 68952
+          }
+        ],
+        "accountQuote": "駅周辺サイン\n看板設置事業\n（2・1・6）",
+        "accountOffset": 68945
+      },
+      {
+        "name": "シーズンイルミネーション事業",
+        "raw": "シーズンイル\nミネーション\n事業",
+        "start": 69701,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 69501,
+        "groupEnd": 70261,
+        "groupSha256": "41186b1223ad2339d050cefa99996de681028631426196c2f88b5c4c7bd70f85",
+        "parts": [
+          {
+            "raw": "シーズンイル",
+            "start": 69701
+          },
+          {
+            "raw": "ミネーション",
+            "start": 69708
+          },
+          {
+            "raw": "事業",
+            "start": 69715
+          }
+        ],
+        "accountQuote": "シーズンイル\nミネーション\n事業\n（2・1・6）",
+        "accountOffset": 69701
+      }
+    ]
+  }
+]

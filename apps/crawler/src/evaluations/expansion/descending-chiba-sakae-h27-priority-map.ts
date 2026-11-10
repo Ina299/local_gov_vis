@@ -1,0 +1,46 @@
+export const configs = [
+  {
+    "sourceId": "6a29098a04582c4cd937e737",
+    "municipalityCode": "12329",
+    "municipalityName": "栄町",
+    "sourceUrl": "https://www.town.sakae.chiba.jp/data/doc/1505356094_doc_78_0.pdf",
+    "sourceSha256": "735cd1740a92a2ce4eb15c0a40e94df21fccc6dcff0674b8993cdc0bbbb6fae4",
+    "fullTextSha256": "b9570323e9c5cde1865643fd8a3bf1e6966d46e38f5b2f2902b230cf883ad29e",
+    "rows": [
+      {
+        "name": "主要地方道鎌ケ谷本埜線バイパスを活用したまちづくり事業",
+        "raw": "主要地方道鎌ケ谷本埜線バイパスを活用したまちづくり事業",
+        "start": 58935,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 58835,
+        "groupEnd": 59669,
+        "groupSha256": "76db5f232a64ee6ca54c3252132fda60830857be8b8366a0204489184e4aaf1d",
+        "parts": [
+          {
+            "raw": "主要地方道鎌ケ谷本埜線バイパスを活用したまちづくり事業",
+            "start": 58935
+          }
+        ]
+      },
+      {
+        "name": "矢口工業団地の拡張事業",
+        "raw": "矢口工業団地の拡張事業",
+        "start": 59688,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 59588,
+        "groupEnd": 60099,
+        "groupSha256": "6ea41ca84c1c0f8220d881562bd047bef16060120cae7521d67c020ac02badd7",
+        "parts": [
+          {
+            "raw": "矢口工業団地の拡張事業",
+            "start": 59688
+          }
+        ]
+      }
+    ]
+  }
+];

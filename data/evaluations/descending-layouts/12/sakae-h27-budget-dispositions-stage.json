@@ -1,0 +1,692 @@
+[
+  {
+    "offset": 2840,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 2935,
+    "status": "hold",
+    "reason": "Corrupted title 男女共同参画の事業事業; no typographical original to resolve."
+  },
+  {
+    "offset": 3819,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 3932,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 4196,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 4558,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 5326,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 6087,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 6499,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 6891,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 7019,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 7903,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 8846,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 9121,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 9372,
+    "status": "hold",
+    "reason": "Same title 町道維持管理 repeated with distinct contexts; identity unresolved."
+  },
+  {
+    "offset": 9655,
+    "status": "hold",
+    "reason": "Same title 町道維持管理 repeated with distinct contexts; identity unresolved."
+  },
+  {
+    "offset": 10251,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 11181,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 11608,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 11875,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 12286,
+    "status": "hold",
+    "reason": "OCR 丌法 in title; do not substitute."
+  },
+  {
+    "offset": 12995,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 13217,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 13697,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 14095,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 14461,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 14483,
+    "status": "duplicate_account",
+    "reason": "Additional account within same named business; no new record."
+  },
+  {
+    "offset": 14726,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 14773,
+    "status": "duplicate_account",
+    "reason": "Additional account within same named business; no new record."
+  },
+  {
+    "offset": 15282,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 15399,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 15649,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 16068,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 16216,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 17229,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 17887,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 17929,
+    "status": "duplicate_account",
+    "reason": "Additional account within same named business; no new record."
+  },
+  {
+    "offset": 18222,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 18343,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 18433,
+    "status": "hold",
+    "reason": "OCR 敀 in title; do not substitute."
+  },
+  {
+    "offset": 19286,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 19819,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 20159,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 20564,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 20654,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 21728,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 21931,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 22975,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 23286,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 23484,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 23625,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 24804,
+    "status": "hold",
+    "reason": "Same 1歳6か月健康診査483千円120 persons included in first maternal health row; duplicate component."
+  },
+  {
+    "offset": 25192,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 25878,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 26358,
+    "status": "hold",
+    "reason": "Same 総合相談支援 title but center usage127 persons vs consultations540 elsewhere; identity unresolved."
+  },
+  {
+    "offset": 26707,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 27131,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 27254,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 27735,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 27885,
+    "status": "hold",
+    "reason": "Same 総合相談支援 title but different activity context; identity unresolved."
+  },
+  {
+    "offset": 28021,
+    "status": "hold",
+    "reason": "OCR 包拢 in title; no substitution."
+  },
+  {
+    "offset": 28114,
+    "status": "hold",
+    "reason": "OCR 貹 in title; no substitution."
+  },
+  {
+    "offset": 28280,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 28813,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 28826,
+    "status": "duplicate_account",
+    "reason": "Additional account within same named business; no new record."
+  },
+  {
+    "offset": 29453,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 29557,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 29818,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 29944,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 30642,
+    "status": "hold",
+    "reason": "OCR 賅栺 in title; no substitution."
+  },
+  {
+    "offset": 30657,
+    "status": "hold",
+    "reason": "Same corrupted title additional account."
+  },
+  {
+    "offset": 30762,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 30786,
+    "status": "duplicate_account",
+    "reason": "Additional account within same named business; no new record."
+  },
+  {
+    "offset": 30809,
+    "status": "duplicate_account",
+    "reason": "Additional account within same named business; no new record."
+  },
+  {
+    "offset": 31054,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 31079,
+    "status": "duplicate_account",
+    "reason": "Additional account within same named business; no new record."
+  },
+  {
+    "offset": 31730,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 32143,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 32251,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 32444,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 33578,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 33660,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 34301,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 34452,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 35226,
+    "status": "hold",
+    "reason": "OCR 貹 in title; no substitution."
+  },
+  {
+    "offset": 35330,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 35536,
+    "status": "hold",
+    "reason": "Repeated ネットワーク形成事業 with distinct festival contexts; no safe identity split."
+  },
+  {
+    "offset": 35724,
+    "status": "hold",
+    "reason": "Repeated ネットワーク形成事業 with distinct festival contexts; no safe identity split."
+  },
+  {
+    "offset": 36814,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 37403,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 37636,
+    "status": "hold",
+    "reason": "School air-conditioning work explicitly carried into H28 and no H27 outcome; hold period association."
+  },
+  {
+    "offset": 37951,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 38378,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 38486,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 38510,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 38718,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 38764,
+    "status": "duplicate_account",
+    "reason": "Additional account within same named business; no new record."
+  },
+  {
+    "offset": 39977,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 40100,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 40214,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 41129,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 41576,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 42005,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 42098,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 42754,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 43390,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 43847,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 44211,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 44492,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 45311,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 45374,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 46366,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 46558,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 46912,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 46970,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 47148,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 47551,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 47630,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 48446,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 48781,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 49323,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 49532,
+    "status": "hold",
+    "reason": "OCR 賅産 in title; no substitution."
+  },
+  {
+    "offset": 50444,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 50813,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 50990,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 51624,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 51636,
+    "status": "duplicate_account",
+    "reason": "Additional account within same named business; no new record."
+  },
+  {
+    "offset": 52039,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 52257,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 52285,
+    "status": "duplicate_account",
+    "reason": "Additional account within same named business; no new record."
+  },
+  {
+    "offset": 52323,
+    "status": "duplicate_account",
+    "reason": "Additional account within same named business; no new record."
+  },
+  {
+    "offset": 52363,
+    "status": "duplicate_account",
+    "reason": "Additional account within same named business; no new record."
+  },
+  {
+    "offset": 52740,
+    "status": "hold",
+    "reason": "OCR 丌当 in title; no substitution."
+  },
+  {
+    "offset": 53104,
+    "status": "hold",
+    "reason": "OCR 賅産 in title; no substitution."
+  },
+  {
+    "offset": 53546,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 54809,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 55615,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  },
+  {
+    "offset": 56525,
+    "status": "reviewed_title",
+    "reason": "Exact title manually reviewed; parser separately marks existing duplicates."
+  }
+]

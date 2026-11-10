@@ -1,0 +1,1811 @@
+[
+  {
+    "sourceId": "6a29098a04582c4cd937e737",
+    "municipalityCode": "12329",
+    "municipalityName": "栄町",
+    "sourceUrl": "https://www.town.sakae.chiba.jp/data/doc/1505356094_doc_78_0.pdf",
+    "sourceSha256": "735cd1740a92a2ce4eb15c0a40e94df21fccc6dcff0674b8993cdc0bbbb6fae4",
+    "fullTextSha256": "b9570323e9c5cde1865643fd8a3bf1e6966d46e38f5b2f2902b230cf883ad29e",
+    "rows": [
+      {
+        "name": "まちづくり大学事業",
+        "raw": "まちづくり大\n協働のまちづくりを推進するた\n学事業",
+        "start": 2797,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 2597,
+        "groupEnd": 3447,
+        "groupSha256": "5a586a1e1c0baa16515c46885393ae4df68c9af774955a2b347e4d520d05e591",
+        "parts": [
+          {
+            "raw": "まちづくり大",
+            "start": 2797
+          },
+          {
+            "raw": "学事業",
+            "start": 2819
+          }
+        ],
+        "accountQuote": "まちづくり大\n協働のまちづくりを推進するた\n学事業\nめ、人材の発掘・育成を目的にまち\n（２･１･８）",
+        "accountOffset": 2797
+      },
+      {
+        "name": "住民活動支援センター運営事業",
+        "raw": "住民活動支援\n献活動へのアドバイスの実施。\nセンター運営\n住民活動を行う団体や個人に対し、\n(支援センター日々雇用賃金) 【2,559千円】\n事業",
+        "start": 3708,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 3508,
+        "groupEnd": 4426,
+        "groupSha256": "a01408ec092f7cf48d0339229be65852c6e98ef1081e79e0485dd87c6d9c1d18",
+        "parts": [
+          {
+            "raw": "住民活動支援",
+            "start": 3708
+          },
+          {
+            "raw": "センター運営",
+            "start": 3730
+          },
+          {
+            "raw": "事業",
+            "start": 3779
+          }
+        ],
+        "accountQuote": "住民活動支援\n献活動へのアドバイスの実施。\nセンター運営\n住民活動を行う団体や個人に対し、\n(支援センター日々雇用賃金) 【2,559千円】\n事業\n活動しやすい環境を整備します。\n(支援センター運営貹用) 【699千円】\n（２･１･８）",
+        "accountOffset": 3708
+      },
+      {
+        "name": "協働パートナーとの連携推進事業",
+        "raw": "協働パート\nナーとの連携\n行政出前講座を開催することによ\n推進事業",
+        "start": 3881,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 3681,
+        "groupEnd": 4539,
+        "groupSha256": "cd71fbdc69386834d22746f1413530896097c80ebd34964f1a379dad1df12126",
+        "parts": [
+          {
+            "raw": "協働パート",
+            "start": 3881
+          },
+          {
+            "raw": "ナーとの連携",
+            "start": 3887
+          },
+          {
+            "raw": "推進事業",
+            "start": 3910
+          }
+        ],
+        "accountQuote": "協働パート\nナーとの連携\n行政出前講座を開催することによ\n推進事業\nり、行政に対する町民の理解とまち\n（２･１･８）",
+        "accountOffset": 3881
+      },
+      {
+        "name": "町民からの意見募集事業",
+        "raw": "町民からの意\n町長への手紙やホームページ、窓口\n見募集事業",
+        "start": 4149,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 3949,
+        "groupEnd": 4803,
+        "groupSha256": "ae09871ae94541636e88df22baa279ccbfbb9a68cb4a09d6df6b8d7dd77a346a",
+        "parts": [
+          {
+            "raw": "町民からの意",
+            "start": 4149
+          },
+          {
+            "raw": "見募集事業",
+            "start": 4173
+          }
+        ],
+        "accountQuote": "町民からの意\n町長への手紙やホームページ、窓口\n見募集事業\nなどに寄せられた町民の意見や提案\n（２･１･６）",
+        "accountOffset": 4149
+      },
+      {
+        "name": "自治組織支援事業",
+        "raw": "自治組織支援\n回覧物を配布するとともに、地区の\n事業",
+        "start": 4512,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 4312,
+        "groupEnd": 5165,
+        "groupSha256": "5743d695838de740d5f5109d9c9e6ebf8106fc85aad67bf90fe74e4a104efe3d",
+        "parts": [
+          {
+            "raw": "自治組織支援",
+            "start": 4512
+          },
+          {
+            "raw": "事業",
+            "start": 4536
+          }
+        ],
+        "accountQuote": "自治組織支援\n回覧物を配布するとともに、地区の\n事業\n23世帯\n現状や課題等を把揜します。\n（２･１･８）",
+        "accountOffset": 4512
+      },
+      {
+        "name": "町の情報発信事業",
+        "raw": "町の情報発信 ムページにします。\n1,375,0 1,670,9 事業",
+        "start": 5265,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 5065,
+        "groupEnd": 5933,
+        "groupSha256": "6fd49ef0d5bd0ed2fd1370c23524da8971b9371aebc85fed27784e9667a27296",
+        "parts": [
+          {
+            "raw": "町の情報発信",
+            "start": 5265
+          },
+          {
+            "raw": "事業",
+            "start": 5298
+          }
+        ],
+        "accountQuote": "町の情報発信 ムページにします。\n1,375,0 1,670,9 事業\n○ブロードバンド環境の進展に伴っ\n00件\n54件 （２･１･２）",
+        "accountOffset": 5265
+      },
+      {
+        "name": "都市計画制度の適正な運用事業",
+        "raw": "都市計画制度\nいか課題を整理し、見直しを図りま\nの適正な運用\nす。\n事業",
+        "start": 6034,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 5834,
+        "groupEnd": 6694,
+        "groupSha256": "76366ce662e6df93d31dea6350711212ee065cee2585df6ab1de832c5c92acc9",
+        "parts": [
+          {
+            "raw": "都市計画制度",
+            "start": 6034
+          },
+          {
+            "raw": "の適正な運用",
+            "start": 6058
+          },
+          {
+            "raw": "事業",
+            "start": 6068
+          }
+        ],
+        "accountQuote": "都市計画制度\nいか課題を整理し、見直しを図りま\nの適正な運用\nす。\n事業\n都市計画マスタープランに定めた\n（７･４･３）",
+        "accountOffset": 6034
+      },
+      {
+        "name": "宅地開発・建築指導事業",
+        "raw": "宅地開発・建 整備し、耐震診断・改修の支援を行\n築指導事業",
+        "start": 6464,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 6264,
+        "groupEnd": 7106,
+        "groupSha256": "bf5c23ac0275c51354a79bd580a0e296ab64a093f134d265c7fcb108191b8c6d",
+        "parts": [
+          {
+            "raw": "宅地開発・建",
+            "start": 6464
+          },
+          {
+            "raw": "築指導事業",
+            "start": 6488
+          }
+        ],
+        "accountQuote": "宅地開発・建 整備し、耐震診断・改修の支援を行\n築指導事業\nいます。\n（７･４･３）",
+        "accountOffset": 6464
+      },
+      {
+        "name": "公園等維持管理事業",
+        "raw": "公園等維持管\nとともに、公園や緑地の美観等を良\n理事業",
+        "start": 6844,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 6644,
+        "groupEnd": 7498,
+        "groupSha256": "86e2be170bf0ed89a3f5af5e01091d2edfbdc84f9808f6c58bf08aa603ea6268",
+        "parts": [
+          {
+            "raw": "公園等維持管",
+            "start": 6844
+          },
+          {
+            "raw": "理事業",
+            "start": 6868
+          }
+        ],
+        "accountQuote": "公園等維持管\nとともに、公園や緑地の美観等を良\n理事業\n16団体\n好な状態に維持管理します。\n（７･４･５）",
+        "accountOffset": 6844
+      },
+      {
+        "name": "公園施設魅力アップ事業",
+        "raw": "公園施設魅力\nできるよう、老朽化して危険な公園\nアップ事業",
+        "start": 6967,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 6767,
+        "groupEnd": 7626,
+        "groupSha256": "d0d5baef8d8c3f915bd78dcf66132d948379e4b9115b4ca72a7ab989082ee703",
+        "parts": [
+          {
+            "raw": "公園施設魅力",
+            "start": 6967
+          },
+          {
+            "raw": "アップ事業",
+            "start": 6991
+          }
+        ],
+        "accountQuote": "公園施設魅力\nできるよう、老朽化して危険な公園\nアップ事業\n10公園\n遊具等の改修を行うとともに、子育\n（７･４･５）",
+        "accountOffset": 6967
+      },
+      {
+        "name": "定住・移住促進事業",
+        "raw": "定住・移住促\n○定住促進に係る旅貹・消耗品等 【470千円】\nす。また、中学生以下の子ども2人以\n進事業",
+        "start": 7817,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 7617,
+        "groupEnd": 8510,
+        "groupSha256": "bfac4c64bcc0a467c01c84c185ce7629803de996b335d60773e78a0c51822dd7",
+        "parts": [
+          {
+            "raw": "定住・移住促",
+            "start": 7817
+          },
+          {
+            "raw": "進事業",
+            "start": 7866
+          }
+        ],
+        "accountQuote": "定住・移住促\n○定住促進に係る旅貹・消耗品等 【470千円】\nす。また、中学生以下の子ども2人以\n進事業\n○栄町定住・移住促進奨励金事業\n上の場合、子ども加算金を支給しま\n（２･１･６）",
+        "accountOffset": 7817
+      },
+      {
+        "name": "JR成田線の利便性向上事業",
+        "raw": "JR成田線の利 ○JR東日本に対し、JR成田線沿線自 ・成田線の魅力を知ってもらい、成田線沿線のＰＲをするた\n便性向上事業",
+        "start": 8738,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 8538,
+        "groupEnd": 9453,
+        "groupSha256": "44a55f6055574a9b3006f1ffc0fb23aec0ae261350d9e882601442c0a233a565",
+        "parts": [
+          {
+            "raw": "JR成田線の利",
+            "start": 8738
+          },
+          {
+            "raw": "便性向上事業",
+            "start": 8793
+          }
+        ],
+        "accountQuote": "JR成田線の利 ○JR東日本に対し、JR成田線沿線自 ・成田線の魅力を知ってもらい、成田線沿線のＰＲをするた\n便性向上事業 治体や関係機関と連携して、JR成田 め、駅からハイキングを実施するとともに協議会をPRする\n（２･１･６）",
+        "accountOffset": 8738
+      },
+      {
+        "name": "廃棄物排出抑制推進事業",
+        "raw": "廃棄物排出抑 及びＥＭ容器の購入助成を行い生ご\n○剪定枝・除草コンテナ拠点回収事業\n519.64 制推進事業",
+        "start": 11097,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 10897,
+        "groupEnd": 11788,
+        "groupSha256": "b3a2fe39f172278ece899ed4804098483d0e005d728663248ac7fcbc4dbbd107",
+        "parts": [
+          {
+            "raw": "廃棄物排出抑",
+            "start": 11097
+          },
+          {
+            "raw": "制推進事業",
+            "start": 11146
+          }
+        ],
+        "accountQuote": "廃棄物排出抑 及びＥＭ容器の購入助成を行い生ご\n○剪定枝・除草コンテナ拠点回収事業\n519.64 制推進事業\nみの減量化を図ります。家庭から排\n【1,851千円】\nｇ\n（４･２･１）",
+        "accountOffset": 11097
+      },
+      {
+        "name": "水質汚濁対策事業",
+        "raw": "水質汚濁対策\nり健全な水循環の形成を図るため、\n事業",
+        "start": 11564,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 11364,
+        "groupEnd": 12215,
+        "groupSha256": "7ca74d8aae9232e77ae84691a9aa22034cfd7ff30cf2b690180dee0eab19fcdb",
+        "parts": [
+          {
+            "raw": "水質汚濁対策",
+            "start": 11564
+          },
+          {
+            "raw": "事業",
+            "start": 11588
+          }
+        ],
+        "accountQuote": "水質汚濁対策\nり健全な水循環の形成を図るため、\n事業\n合併処理浄化槽設置者に対し補助金\n（４･１･４）",
+        "accountOffset": 11564
+      },
+      {
+        "name": "自然エネルギー利用促進事業",
+        "raw": "自然エネル\n効率化・最適化を図るため、住宅用\nギー利用促進 省エネルギー設備等を設置するかた\n事業",
+        "start": 11808,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 11608,
+        "groupEnd": 12482,
+        "groupSha256": "e9ca9e3f30a6c23487531129f61c1ce3e1b51320edce047bf9a46edde4d07687",
+        "parts": [
+          {
+            "raw": "自然エネル",
+            "start": 11808
+          },
+          {
+            "raw": "ギー利用促進",
+            "start": 11831
+          },
+          {
+            "raw": "事業",
+            "start": 11855
+          }
+        ],
+        "accountQuote": "自然エネル\n効率化・最適化を図るため、住宅用\nギー利用促進 省エネルギー設備等を設置するかた\n事業\nに対し補助金を交付し、その普及促\n（４･１･４）",
+        "accountOffset": 11808
+      },
+      {
+        "name": "空地の繁茂対策事業",
+        "raw": "空地の繁茂対\nいる空地の雑草繁茂への対応とし\n策事業",
+        "start": 12951,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 12751,
+        "groupEnd": 13602,
+        "groupSha256": "df84a64f05771872d76a89967b2c9abf035e9542eec91e3a10519d805f8587eb",
+        "parts": [
+          {
+            "raw": "空地の繁茂対",
+            "start": 12951
+          },
+          {
+            "raw": "策事業",
+            "start": 12974
+          }
+        ],
+        "accountQuote": "空地の繁茂対\nいる空地の雑草繁茂への対応とし\n策事業\nて、条例に基づいた適切な管理を所\n（４･１･４）",
+        "accountOffset": 12951
+      },
+      {
+        "name": "墓地・埋火葬等に関する事業",
+        "raw": "墓地・埋火葬\n火葬等に係る町民の経済的負担の\n等に関する事\n軽減を図るため、火葬貹用の一部を\n業",
+        "start": 13631,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 13431,
+        "groupEnd": 14304,
+        "groupSha256": "bce9e0a4da828591be8e8dd0ea4269bb3d95b7da3b8b20a056d8029d05102b71",
+        "parts": [
+          {
+            "raw": "墓地・埋火葬",
+            "start": 13631
+          },
+          {
+            "raw": "等に関する事",
+            "start": 13654
+          },
+          {
+            "raw": "業",
+            "start": 13678
+          }
+        ],
+        "accountQuote": "墓地・埋火葬\n火葬等に係る町民の経済的負担の\n等に関する事\n軽減を図るため、火葬貹用の一部を\n業\n助成します。また、町営墓地の維持\n（４･１･４）",
+        "accountOffset": 13631
+      },
+      {
+        "name": "避難所機能強化事業",
+        "raw": "避難所機能\n地震・台風等の大規模災害時に必\n強化事業",
+        "start": 14051,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 13851,
+        "groupEnd": 14702,
+        "groupSha256": "a873eefbb98e276427adb70da130652ed01ec61617e4ecf2d8e73c990f93214a",
+        "parts": [
+          {
+            "raw": "避難所機能",
+            "start": 14051
+          },
+          {
+            "raw": "強化事業",
+            "start": 14073
+          }
+        ],
+        "accountQuote": "避難所機能\n地震・台風等の大規模災害時に必\n強化事業\n要となる避難所の電力を確保するた\n（４･１･４）",
+        "accountOffset": 14051
+      },
+      {
+        "name": "下水道処理施設整備財源確保事業",
+        "raw": "下水道処理施\n設整備財源確\n保事業",
+        "start": 14415,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 14215,
+        "groupEnd": 15068,
+        "groupSha256": "9f8444925c05fc4ea33bb8c604c6a2f77337488e52ac2e2056f7fc9e1d60d2e6",
+        "parts": [
+          {
+            "raw": "下水道処理施",
+            "start": 14415
+          },
+          {
+            "raw": "設整備財源確",
+            "start": 14422
+          },
+          {
+            "raw": "保事業",
+            "start": 14429
+          }
+        ],
+        "accountQuote": "下水道処理施\n設整備財源確\n保事業\n【下水】\n下水道経営財源を確保し適正な事業\n88.0%\n（１･１･１）",
+        "accountOffset": 14415
+      },
+      {
+        "name": "公共下水道普及促進事業",
+        "raw": "公共下水道普\n及促進事業",
+        "start": 14691,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 14491,
+        "groupEnd": 15333,
+        "groupSha256": "3b2b30e65eb64523d53b1da2e5a61c5d7a327d518d8bd424c3e966da60175305",
+        "parts": [
+          {
+            "raw": "公共下水道普",
+            "start": 14691
+          },
+          {
+            "raw": "及促進事業",
+            "start": 14698
+          }
+        ],
+        "accountQuote": "公共下水道普\n及促進事業\n【下水】\n酒直地区の未整備個所を整備し、町\n（１･１･１）",
+        "accountOffset": 14691
+      },
+      {
+        "name": "下水道施設改築更新事業",
+        "raw": "下水道施設改\n築更新事業",
+        "start": 15367,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 15167,
+        "groupEnd": 16006,
+        "groupSha256": "324b54941450657f9648a360312c204c9346bad88ac6046c995ee666bda51bda",
+        "parts": [
+          {
+            "raw": "下水道施設改",
+            "start": 15367
+          },
+          {
+            "raw": "築更新事業",
+            "start": 15374
+          }
+        ],
+        "accountQuote": "下水道施設改\n築更新事業\n【下水】\n81.61% 86.50%\n（１･２･１）",
+        "accountOffset": 15367
+      },
+      {
+        "name": "救急・火災協働事業",
+        "raw": "救急・火災協\n25件 働事業",
+        "start": 17190,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 16990,
+        "groupEnd": 17836,
+        "groupSha256": "0563ea2c5f86618c17c76f1c201926924ae5d64fa2c5633b5e10b4ba3ba6fe89",
+        "parts": [
+          {
+            "raw": "救急・火災協",
+            "start": 17190
+          },
+          {
+            "raw": "働事業",
+            "start": 17201
+          }
+        ],
+        "accountQuote": "救急・火災協\n25件 働事業\n一人でも多くの受講者を確保して、\n(488名) （８･１･１）",
+        "accountOffset": 17190
+      },
+      {
+        "name": "土砂災害防止対策事業",
+        "raw": "土砂災害防止\n危険箇所を指定し、点検・監視を行\n対策事業",
+        "start": 18292,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 18092,
+        "groupEnd": 18950,
+        "groupSha256": "d86aee70afee630fe1d2b8552ad9ebebc3ea5d95878642293887c35b660be32c",
+        "parts": [
+          {
+            "raw": "土砂災害防止",
+            "start": 18292
+          },
+          {
+            "raw": "対策事業",
+            "start": 18316
+          }
+        ],
+        "accountQuote": "土砂災害防止\n危険箇所を指定し、点検・監視を行\n対策事業\n24箇所\nいます。災害が発生するおそれがあ\n（８･１･４）",
+        "accountOffset": 18292
+      },
+      {
+        "name": "健康なまちづくり支援事業",
+        "raw": "健康なまちづ\nため、特定健診・特定保健指導の際\nくり支援事業",
+        "start": 19238,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 19038,
+        "groupEnd": 19893,
+        "groupSha256": "59a7861a789e88abd27eab6dfc1144a079f51524bc1728732ec4d638985f7d52",
+        "parts": [
+          {
+            "raw": "健康なまちづ",
+            "start": 19238
+          },
+          {
+            "raw": "くり支援事業",
+            "start": 19262
+          }
+        ],
+        "accountQuote": "健康なまちづ\nため、特定健診・特定保健指導の際\nくり支援事業\nや脳卒中等に関する専門家を講師に\n（４･１･３）",
+        "accountOffset": 19238
+      },
+      {
+        "name": "心の健康づくり推進事業",
+        "raw": "心の健康づく\n啓発を行うとともに、地域での気づ\nり推進事業",
+        "start": 19772,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 19572,
+        "groupEnd": 20426,
+        "groupSha256": "ee54263bd8163f317c8108f2a7404bd932939e1394625c806d5f37b316cc98f6",
+        "parts": [
+          {
+            "raw": "心の健康づく",
+            "start": 19772
+          },
+          {
+            "raw": "り推進事業",
+            "start": 19796
+          }
+        ],
+        "accountQuote": "心の健康づく\n啓発を行うとともに、地域での気づ\nり推進事業\nき、見守り、繋ぎのできる社会を目\n（４･１･３）",
+        "accountOffset": 19772
+      },
+      {
+        "name": "休日・夜間診療事業",
+        "raw": "休日・夜間診 負担するとともに、広報・ホーム\nページで診療施設の周知を図る.\n療事業",
+        "start": 20116,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 19916,
+        "groupEnd": 20766,
+        "groupSha256": "ed6acdc96c3fc3bdd4c8a881367f5057c90e68f85ed5dcbbfd47086009b801c0",
+        "parts": [
+          {
+            "raw": "休日・夜間診",
+            "start": 20116
+          },
+          {
+            "raw": "療事業",
+            "start": 20155
+          }
+        ],
+        "accountQuote": "休日・夜間診 負担するとともに、広報・ホーム\nページで診療施設の周知を図る.\n療事業\n（４･１･１）",
+        "accountOffset": 20116
+      },
+      {
+        "name": "健康管理支援事業",
+        "raw": "健康管理支援\n条の2に基づく保健事業として、骨粗\n事業",
+        "start": 21683,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 21483,
+        "groupEnd": 22335,
+        "groupSha256": "9caecee76106c7395260556d1d57ff68632f4c317c40ae46eb88ed8a0bc1931e",
+        "parts": [
+          {
+            "raw": "健康管理支援",
+            "start": 21683
+          },
+          {
+            "raw": "事業",
+            "start": 21708
+          }
+        ],
+        "accountQuote": "健康管理支援\n条の2に基づく保健事業として、骨粗\n事業\nしょう症検診、肝炎ウイルス検診及\n（４･１･２）",
+        "accountOffset": 21683
+      },
+      {
+        "name": "がん予防対策事業",
+        "raw": "がん予防対策 うため、がんに関する正しい知識の\n事業",
+        "start": 21894,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 21694,
+        "groupEnd": 22538,
+        "groupSha256": "da4da84f2d7bfcd662fa78443f97da22d20a667ec571f8237227834e6ee4abb7",
+        "parts": [
+          {
+            "raw": "がん予防対策",
+            "start": 21894
+          },
+          {
+            "raw": "事業",
+            "start": 21918
+          }
+        ],
+        "accountQuote": "がん予防対策 うため、がんに関する正しい知識の\n事業\n普及・啓発を行う。\n（４･１･２）",
+        "accountOffset": 21894
+      },
+      {
+        "name": "保育サービス事業",
+        "raw": "保育サービス\n保護者の就労などにより保育に欠け\n事業",
+        "start": 22931,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 22731,
+        "groupEnd": 23582,
+        "groupSha256": "290b72779dc5f5205ba829e76381cf268baf2ba4ac9ccbf44e28f13ccb77017e",
+        "parts": [
+          {
+            "raw": "保育サービス",
+            "start": 22931
+          },
+          {
+            "raw": "事業",
+            "start": 22955
+          }
+        ],
+        "accountQuote": "保育サービス\n保護者の就労などにより保育に欠け\n事業\nる児童について保育を実施し、共働\n（３･２･１）",
+        "accountOffset": 22931
+      },
+      {
+        "name": "健やかな成長支援事業",
+        "raw": "健やかな成長 境づくりを行う。\n支援事業",
+        "start": 23248,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 23048,
+        "groupEnd": 23893,
+        "groupSha256": "f052fbc21bd8b786153be503a4d39469ec5e20c4c5132878161976fff0516b46",
+        "parts": [
+          {
+            "raw": "健やかな成長",
+            "start": 23248
+          },
+          {
+            "raw": "支援事業",
+            "start": 23264
+          }
+        ],
+        "accountQuote": "健やかな成長 境づくりを行う。\n支援事業\n○こんにちは赤ちゃん訪問や乳幼児\n（４･１･３）",
+        "accountOffset": 23248
+      },
+      {
+        "name": "地域子育て支援拠点事業",
+        "raw": "地域子育て支\n援拠点事業",
+        "start": 23598,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 23398,
+        "groupEnd": 24232,
+        "groupSha256": "d107b7f06417f28e237364bd37047b134bc3711a109450a00bae83f5c1762fc9",
+        "parts": [
+          {
+            "raw": "地域子育て支",
+            "start": 23598
+          },
+          {
+            "raw": "援拠点事業",
+            "start": 23605
+          }
+        ],
+        "accountQuote": "地域子育て支\n援拠点事業\n12,625 14,484\n（３･２･１）",
+        "accountOffset": 23598
+      },
+      {
+        "name": "民生・児童委員協議会運営事業",
+        "raw": "民生・児童委\n町民が抱える相談等について民\n員協議会運営\n生・児童委員（主任児童委員）が人\n事業",
+        "start": 25126,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 24926,
+        "groupEnd": 25799,
+        "groupSha256": "bee18f3c76bec95bcf30cebdf11d15161ce75c0696fa4431e0d2bcb76d0347b2",
+        "parts": [
+          {
+            "raw": "民生・児童委",
+            "start": 25126
+          },
+          {
+            "raw": "員協議会運営",
+            "start": 25148
+          },
+          {
+            "raw": "事業",
+            "start": 25172
+          }
+        ],
+        "accountQuote": "民生・児童委\n町民が抱える相談等について民\n員協議会運営\n生・児童委員（主任児童委員）が人\n事業\n権やプライバシーに配慮しつつ、解\n（３･１･１）",
+        "accountOffset": 25126
+      },
+      {
+        "name": "障害者自立支援事業",
+        "raw": "障害者自立支\n援事業",
+        "start": 25853,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 25653,
+        "groupEnd": 26485,
+        "groupSha256": "6617d28570b07850444b757d1e996ecd78bf5d83013445d574e1e36798387190",
+        "parts": [
+          {
+            "raw": "障害者自立支",
+            "start": 25853
+          },
+          {
+            "raw": "援事業",
+            "start": 25860
+          }
+        ],
+        "accountQuote": "障害者自立支\n援事業\n2,580人 2,958人 （３･１･５）",
+        "accountOffset": 25853
+      },
+      {
+        "name": "生きがい対策事業",
+        "raw": "生きがい対策\nるとともに、老人クラブ活性化のた\n事業",
+        "start": 27087,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 26887,
+        "groupEnd": 27738,
+        "groupSha256": "f50316ce296d32e1be31355aeb6c2af3ae7b32c83faf40bacff85899d95250ff",
+        "parts": [
+          {
+            "raw": "生きがい対策",
+            "start": 27087
+          },
+          {
+            "raw": "事業",
+            "start": 27111
+          }
+        ],
+        "accountQuote": "生きがい対策\nるとともに、老人クラブ活性化のた\n事業\nめ、自治組織に対し、加入促進の協\n（３･１･３）",
+        "accountOffset": 27087
+      },
+      {
+        "name": "施設入所支援事業",
+        "raw": "施設入所支援\n在宅で自立した生活や介護保険制度\n事業",
+        "start": 27211,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 27011,
+        "groupEnd": 27861,
+        "groupSha256": "cd36a317848f735fedf380464a10665c36c5d429d977b235035500a3d6cdf9c3",
+        "parts": [
+          {
+            "raw": "施設入所支援",
+            "start": 27211
+          },
+          {
+            "raw": "事業",
+            "start": 27235
+          }
+        ],
+        "accountQuote": "施設入所支援\n在宅で自立した生活や介護保険制度\n事業\nを利用できない高齢者等に対し、\n（３･１･３）",
+        "accountOffset": 27211
+      },
+      {
+        "name": "介護予防ケアマネジメント事業",
+        "raw": "介護予防ケア\nマネジメント\n事業",
+        "start": 27713,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 27513,
+        "groupEnd": 28342,
+        "groupSha256": "30dcb6e150b2e3f92113881053f4ac8a4ea2e2f58fb97d2f404696e9bf5e9a50",
+        "parts": [
+          {
+            "raw": "介護予防ケア",
+            "start": 27713
+          },
+          {
+            "raw": "マネジメント",
+            "start": 27720
+          },
+          {
+            "raw": "事業",
+            "start": 27727
+          }
+        ],
+        "accountQuote": "介護予防ケア\nマネジメント\n事業\n【介護】\n（４･２･1）",
+        "accountOffset": 27713
+      },
+      {
+        "name": "要介護等認定事業",
+        "raw": "要介護等認定\n事業",
+        "start": 28798,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 28598,
+        "groupEnd": 29420,
+        "groupSha256": "eff1aa0232de1747614ad015171347c1eae85f21101e8e73aa0b20787e623528",
+        "parts": [
+          {
+            "raw": "要介護等認定",
+            "start": 28798
+          },
+          {
+            "raw": "事業",
+            "start": 28805
+          }
+        ],
+        "accountQuote": "要介護等認定\n事業\n【介護】\n（１･１･１）",
+        "accountOffset": 28798
+      },
+      {
+        "name": "国民年金適用事業",
+        "raw": "国民年金適用\n国民年金被保険者への賅栺取徔等\n事業",
+        "start": 29410,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 29210,
+        "groupEnd": 30060,
+        "groupSha256": "5f9ef3b730e383d201505b39c5a464c85285eba4260272eeca7fd4e84b80c98b",
+        "parts": [
+          {
+            "raw": "国民年金適用",
+            "start": 29410
+          },
+          {
+            "raw": "事業",
+            "start": 29433
+          }
+        ],
+        "accountQuote": "国民年金適用\n国民年金被保険者への賅栺取徔等\n事業\nに関する分かりやすい説明と迅速な\n（３･１･２）",
+        "accountOffset": 29410
+      },
+      {
+        "name": "国民年金啓発事業",
+        "raw": "国民年金啓発\n事業",
+        "start": 29531,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 29331,
+        "groupEnd": 30164,
+        "groupSha256": "4da7f03abcea32b731f4465dc54a4f6ad68fecd0c27a12bd0d134009ceacfd4d",
+        "parts": [
+          {
+            "raw": "国民年金啓発",
+            "start": 29531
+          },
+          {
+            "raw": "事業",
+            "start": 29538
+          }
+        ],
+        "accountQuote": "国民年金啓発\n事業\n広報紙やホームページを使い、国\n（３･１･２）",
+        "accountOffset": 29531
+      },
+      {
+        "name": "国民年金給付事業",
+        "raw": "国民年金給付\n未支給の年金請求の事務や障害の\n事業",
+        "start": 29775,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 29575,
+        "groupEnd": 30425,
+        "groupSha256": "54bfedd45483ce64613debe409792f6b38264b4a641574b6a170869286919cb1",
+        "parts": [
+          {
+            "raw": "国民年金給付",
+            "start": 29775
+          },
+          {
+            "raw": "事業",
+            "start": 29798
+          }
+        ],
+        "accountQuote": "国民年金給付\n未支給の年金請求の事務や障害の\n事業\nある方が安定した生活を送れるよう\n（３･１･２）",
+        "accountOffset": 29775
+      },
+      {
+        "name": "国民年金保険料事業",
+        "raw": "国民年金保険料の免除申請や猶予\n料事業",
+        "start": 29907,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 29707,
+        "groupEnd": 30551,
+        "groupSha256": "74f0270aa1290691e0e87701ac3709d5d6303b0218cbf8e3350999571c998925",
+        "parts": [
+          {
+            "raw": "国民年金保険",
+            "start": 29907
+          },
+          {
+            "raw": "料事業",
+            "start": 29923
+          }
+        ],
+        "accountQuote": "国民年金保険料の免除申請や猶予\n料事業\n申請の受付・年金機構への進達を行\n（３･１･２）",
+        "accountOffset": 29907
+      },
+      {
+        "name": "国保税賦課徴収事業",
+        "raw": "国保税賦課徴\n収事業",
+        "start": 30727,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 30527,
+        "groupEnd": 31369,
+        "groupSha256": "1256c99c76849ae3929d017b3ce00d7f32d45e24db0172dbcce80aea883456a4",
+        "parts": [
+          {
+            "raw": "国保税賦課徴",
+            "start": 30727
+          },
+          {
+            "raw": "収事業",
+            "start": 30734
+          }
+        ],
+        "accountQuote": "国保税賦課徴\n収事業\n国保税の適正な賦課徴収を行いま\n【国保】\nす。\n（１･２･１）",
+        "accountOffset": 30727
+      },
+      {
+        "name": "国保保険事業",
+        "raw": "国保保険事業",
+        "start": 31010,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 30810,
+        "groupEnd": 31661,
+        "groupSha256": "20ac8f7e7e4764c23dc288ee707ce4160c37e550801a2b8b69a408e6caa46825",
+        "parts": [
+          {
+            "raw": "国保保険事業",
+            "start": 31010
+          }
+        ],
+        "accountQuote": "国保保険事業\n特定健診・保健指導や短期人間\n【国保】\nドックの補助事業を行い、生活習慣\n（８･１･１）",
+        "accountOffset": 31010
+      },
+      {
+        "name": "後期高齢者医療事業",
+        "raw": "後期高齢者医 期治療に努め、医療貹の抑制を図り\n療事業",
+        "start": 31698,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 31498,
+        "groupEnd": 32337,
+        "groupSha256": "3044be8bc7fe907225faefc752379ff820d3881138f0905012f608a2701feade",
+        "parts": [
+          {
+            "raw": "後期高齢者医",
+            "start": 31698
+          },
+          {
+            "raw": "療事業",
+            "start": 31722
+          }
+        ],
+        "accountQuote": "後期高齢者医 期治療に努め、医療貹の抑制を図り\n療事業\nます。\n（３･１･８）",
+        "accountOffset": 31698
+      },
+      {
+        "name": "担い手の育成事業",
+        "raw": "担い手の育成\n農業経営基盤の強化の促進に関する\n事業",
+        "start": 32099,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 31899,
+        "groupEnd": 32750,
+        "groupSha256": "db7941692ae965ec20454256e5c312c795211e0cedc24c3c56d46538d4e99c96",
+        "parts": [
+          {
+            "raw": "担い手の育成",
+            "start": 32099
+          },
+          {
+            "raw": "事業",
+            "start": 32123
+          }
+        ],
+        "accountQuote": "担い手の育成\n農業経営基盤の強化の促進に関する\n事業\n基本的な構想に基づき認定を行い、\n（５･１･３）",
+        "accountOffset": 32099
+      },
+      {
+        "name": "農地の利用集積事業",
+        "raw": "農地の利用集\n集積計画の策定により、農地の出し\n積事業",
+        "start": 32192,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 31992,
+        "groupEnd": 32858,
+        "groupSha256": "2f33b9097b69973f29dd59d1ae5645db6499e07a4d908dab45b594c976b03fed",
+        "parts": [
+          {
+            "raw": "農地の利用集",
+            "start": 32192
+          },
+          {
+            "raw": "積事業",
+            "start": 32216
+          }
+        ],
+        "accountQuote": "農地の利用集\n集積計画の策定により、農地の出し\n積事業\n347 ha 346 ha\n手と借り手をマッチングし、意欲あ\n（５･１･３）",
+        "accountOffset": 32192
+      },
+      {
+        "name": "農産物の利用促進",
+        "raw": "農産物の利用\n農業生産物の価栺低下により６次産\n促進",
+        "start": 33534,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 33334,
+        "groupEnd": 34185,
+        "groupSha256": "b779b3c27262527b3d0c6b6aa2585470f3a4b7af837b9d20502d3634e7f9b882",
+        "parts": [
+          {
+            "raw": "農産物の利用",
+            "start": 33534
+          },
+          {
+            "raw": "促進",
+            "start": 33558
+          }
+        ],
+        "accountQuote": "農産物の利用\n農業生産物の価栺低下により６次産\n促進\n業化を実施している黒大豆関連の商\n（5・1・3）",
+        "accountOffset": 33534
+      },
+      {
+        "name": "エコ農業の推進事業",
+        "raw": "エコ農業の推\n環境にやさしい農産物の生産を拡大\n14経営 １０経営 進事業",
+        "start": 33601,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 33401,
+        "groupEnd": 34267,
+        "groupSha256": "16ab3431d17bc749416972a1876c912e3f083988d36ff838c7230e514d321941",
+        "parts": [
+          {
+            "raw": "エコ農業の推",
+            "start": 33601
+          },
+          {
+            "raw": "進事業",
+            "start": 33635
+          }
+        ],
+        "accountQuote": "エコ農業の推\n環境にやさしい農産物の生産を拡大\n14経営 １０経営 進事業\nするため、取組み者に対して補助金\n体\n体\n（５･１･３）",
+        "accountOffset": 33601
+      },
+      {
+        "name": "地域商業機能整備事業",
+        "raw": "地域商業機能\n商工会が行う小規模事業者に対す\n整備事業",
+        "start": 34256,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 34056,
+        "groupEnd": 34908,
+        "groupSha256": "79f504ed6d77acbdee92612d51abfc1f3f039b143e479d6575e1e387ccc526be",
+        "parts": [
+          {
+            "raw": "地域商業機能",
+            "start": 34256
+          },
+          {
+            "raw": "整備事業",
+            "start": 34279
+          }
+        ],
+        "accountQuote": "地域商業機能\n商工会が行う小規模事業者に対す\n整備事業\nる指導事業及び商工業の振興と安定\n（６･１･２）",
+        "accountOffset": 34256
+      },
+      {
+        "name": "商店経営健全化支援事業",
+        "raw": "商店経営健全\n中小企業に対し、事業賅金の支援\n化支援事業",
+        "start": 34407,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 34207,
+        "groupEnd": 35059,
+        "groupSha256": "650191d9435268cb7fcae49a83135351a5d592c7c00d0832cd5f8b5f1afd0716",
+        "parts": [
+          {
+            "raw": "商店経営健全",
+            "start": 34407
+          },
+          {
+            "raw": "化支援事業",
+            "start": 34430
+          }
+        ],
+        "accountQuote": "商店経営健全\n中小企業に対し、事業賅金の支援\n化支援事業\nや償還利子への利子補給を行いま\n（６･１･２）",
+        "accountOffset": 34407
+      },
+      {
+        "name": "町民の雇用支援事業",
+        "raw": "町民の雇用支 住の促進及び企業の立地を図るた\n援事業",
+        "start": 35286,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 35086,
+        "groupEnd": 35937,
+        "groupSha256": "b3f1cbc6c50b83e960cc8970bb9b0abc15a52a9d89b919b2ab2efd2b70aadf12",
+        "parts": [
+          {
+            "raw": "町民の雇用支",
+            "start": 35286
+          },
+          {
+            "raw": "援事業",
+            "start": 35309
+          }
+        ],
+        "accountQuote": "町民の雇用支 住の促進及び企業の立地を図るた\n援事業\nめ、新たに町民を雇用する場合に雇\n（６･１･１）",
+        "accountOffset": 35286
+      },
+      {
+        "name": "教育総務運営事業",
+        "raw": "教育総務運営\n適正な時期に教育委員会議を開催す\n事業",
+        "start": 36770,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 36570,
+        "groupEnd": 37421,
+        "groupSha256": "bb602a5256e22d1de482cef562222ee793f3049e776521c0b102c4fae3493c31",
+        "parts": [
+          {
+            "raw": "教育総務運営",
+            "start": 36770
+          },
+          {
+            "raw": "事業",
+            "start": 36794
+          }
+        ],
+        "accountQuote": "教育総務運営\n適正な時期に教育委員会議を開催す\n事業\nることにより、円滑な教育行政が行\n（９･１･１）",
+        "accountOffset": 36770
+      },
+      {
+        "name": "ドラムの里事業",
+        "raw": "ドラムの里事 ため、新しい観光ニーズに適した機\n業",
+        "start": 37343,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 37143,
+        "groupEnd": 38010,
+        "groupSha256": "818f898170b972ff6718437090a9fb68668fcac0a8cb316a55a6c7b22afa506a",
+        "parts": [
+          {
+            "raw": "ドラムの里事",
+            "start": 37343
+          },
+          {
+            "raw": "業",
+            "start": 37367
+          }
+        ],
+        "accountQuote": "ドラムの里事 ため、新しい観光ニーズに適した機\n業\n能を持った施設としての充実を図る\n98,000人 100,239人\n（６･１･３）",
+        "accountOffset": 37343
+      },
+      {
+        "name": "通学安全対策事業",
+        "raw": "通学安全対策 スクールバスを運行します。（旧北\n事業",
+        "start": 37908,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 37708,
+        "groupEnd": 38558,
+        "groupSha256": "d5be23bbbeb2ec3c4911b2a5d35523ab77fcfe804459171c20ae6501a74b9097",
+        "parts": [
+          {
+            "raw": "通学安全対策",
+            "start": 37908
+          },
+          {
+            "raw": "事業",
+            "start": 37932
+          }
+        ],
+        "accountQuote": "通学安全対策 スクールバスを運行します。（旧北\n事業\n辺田小学校地区、旧酒直小学校地\n（９･１･３）",
+        "accountOffset": 37908
+      },
+      {
+        "name": "学力向上プラン推進事業",
+        "raw": "学力向上プラ など、基礎・基本を習徔させ、活用\nン推進事業",
+        "start": 38338,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 38138,
+        "groupEnd": 38985,
+        "groupSha256": "0273bf7753bff62a904cb41f155e8f171a3a8ea7fd3f2a0ad8c1840b451a7dae",
+        "parts": [
+          {
+            "raw": "学力向上プラ",
+            "start": 38338
+          },
+          {
+            "raw": "ン推進事業",
+            "start": 38362
+          }
+        ],
+        "accountQuote": "学力向上プラ など、基礎・基本を習徔させ、活用\nン推進事業\n能力を育成します。\n（９･１･３）",
+        "accountOffset": 38338
+      },
+      {
+        "name": "施設維持管理事業",
+        "raw": "施設維持管理\n事業",
+        "start": 39950,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 39750,
+        "groupEnd": 40584,
+        "groupSha256": "12718615929ecb913e6ac0a4132031e1e5c42c604acf9ae1daca4ac5aebaffc0",
+        "parts": [
+          {
+            "raw": "施設維持管理",
+            "start": 39950
+          },
+          {
+            "raw": "事業",
+            "start": 39957
+          }
+        ],
+        "accountQuote": "施設維持管理\n事業\n安全・安心な給食の提供ができるよ\n（９･５･３）",
+        "accountOffset": 39950
+      },
+      {
+        "name": "スポーツ競技力向上事業",
+        "raw": "スポーツ競技\n各種スポーツの競技力の向上を図\n力向上事業",
+        "start": 41959,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 41759,
+        "groupEnd": 42612,
+        "groupSha256": "70ce01cc6307226421f9a9bd16713423b91ba823dca635b35bc543562fe9cb4f",
+        "parts": [
+          {
+            "raw": "スポーツ競技",
+            "start": 41959
+          },
+          {
+            "raw": "力向上事業",
+            "start": 41982
+          }
+        ],
+        "accountQuote": "スポーツ競技\n各種スポーツの競技力の向上を図\n力向上事業\nるとともに、町民にスポーツを普及\n（９･５･１）",
+        "accountOffset": 41959
+      },
+      {
+        "name": "生涯スポーツ環境整備事業",
+        "raw": "生涯スポーツ\n町民の身近なスポーツ施設とし\n環境整備事業",
+        "start": 42052,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 41852,
+        "groupEnd": 42705,
+        "groupSha256": "b94e8c86ee1dbd98cb2439438e8128ac605a0f15bbac22993cbce8a2d2b32ce1",
+        "parts": [
+          {
+            "raw": "生涯スポーツ",
+            "start": 42052
+          },
+          {
+            "raw": "環境整備事業",
+            "start": 42074
+          }
+        ],
+        "accountQuote": "生涯スポーツ\n町民の身近なスポーツ施設とし\n環境整備事業 て、誰もがいつでも安全かつ快適な\n（９･５･２）",
+        "accountOffset": 42052
+      },
+      {
+        "name": "ふれあいプラザ施設管理・運営事業",
+        "raw": "ふれあいプラ\nザ施設管理・ 施設の利用者にとって、安全で快適\n207,600人 202,213人 運営事業",
+        "start": 42683,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 42483,
+        "groupEnd": 43361,
+        "groupSha256": "64f64226b59f69007a4711d05905a9afd4b698be2aa1aa11c6b3b7fa9306ebff",
+        "parts": [
+          {
+            "raw": "ふれあいプラ",
+            "start": 42683
+          },
+          {
+            "raw": "ザ施設管理・",
+            "start": 42690
+          },
+          {
+            "raw": "運営事業",
+            "start": 42732
+          }
+        ],
+        "accountQuote": "ふれあいプラ\nザ施設管理・ 施設の利用者にとって、安全で快適\n207,600人 202,213人 運営事業\nな利用環境の整備及び運営を行いま\n（９･４･４）",
+        "accountOffset": 42683
+      },
+      {
+        "name": "記録史料の保存・公開事業",
+        "raw": "記録史料の保\n協働により、継続的に進捗させ、か\n存・公開事業",
+        "start": 43342,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 43142,
+        "groupEnd": 43997,
+        "groupSha256": "aa4eadb281b00de6c128eebb9f0660f7cc854c8ca252ec7a7d2d2307f60aa695",
+        "parts": [
+          {
+            "raw": "記録史料の保",
+            "start": 43342
+          },
+          {
+            "raw": "存・公開事業",
+            "start": 43366
+          }
+        ],
+        "accountQuote": "記録史料の保\n協働により、継続的に進捗させ、か\n存・公開事業\nつ、歴史的公文書等の収集・整理・\n（９･４･３）",
+        "accountOffset": 43342
+      },
+      {
+        "name": "文化財の調査・保護事業",
+        "raw": "文化財の調\n化財も開発と保護の調和を図るため\n査・保護事業",
+        "start": 43800,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 43600,
+        "groupEnd": 44454,
+        "groupSha256": "4fd1d0be9a39eb93ffacd91ab9efb61601a207a3b73caf60c938c2aea84d07e9",
+        "parts": [
+          {
+            "raw": "文化財の調",
+            "start": 43800
+          },
+          {
+            "raw": "査・保護事業",
+            "start": 43823
+          }
+        ],
+        "accountQuote": "文化財の調\n化財も開発と保護の調和を図るため\n査・保護事業\n記録保存等による適切な処理を行い\n（９･４･３）",
+        "accountOffset": 43800
+      },
+      {
+        "name": "新たな町の活性化事業",
+        "raw": "新たな町の活 まちづくり制度のなかから、本町に\n性化事業",
+        "start": 45265,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 45065,
+        "groupEnd": 45918,
+        "groupSha256": "c26cecfb9ef6ce497cca77213c15515a4125b8ac4b9ed11ef3ed99611070a5e9",
+        "parts": [
+          {
+            "raw": "新たな町の活",
+            "start": 45265
+          },
+          {
+            "raw": "性化事業",
+            "start": 45289
+          }
+        ],
+        "accountQuote": "新たな町の活 まちづくり制度のなかから、本町に\n性化事業\nあった制度についての調査研究を行\n（2・1・6）",
+        "accountOffset": 45265
+      },
+      {
+        "name": "各種計画の進行管理事業",
+        "raw": "各種計画の進\n行管理事業",
+        "start": 45361,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 45161,
+        "groupEnd": 45981,
+        "groupSha256": "ea22a2fd355d09e8f60a992c8b68575ba0d5d18979ffd716539402c8c2b0b093",
+        "parts": [
+          {
+            "raw": "各種計画の進",
+            "start": 45361
+          },
+          {
+            "raw": "行管理事業",
+            "start": 45368
+          }
+        ],
+        "accountQuote": "各種計画の進\n行管理事業\n（2・1・6）",
+        "accountOffset": 45361
+      },
+      {
+        "name": "統計調査事業",
+        "raw": "統計調査事業",
+        "start": 51617,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 51417,
+        "groupEnd": 52231,
+        "groupSha256": "a189b95b8757ed4b38b728c3320df0c68d4d300c0020d172e4e7e5527a41202d",
+        "parts": [
+          {
+            "raw": "統計調査事業",
+            "start": 51617
+          }
+        ],
+        "accountQuote": "統計調査事業\n（2・5・1）",
+        "accountOffset": 51617
+      },
+      {
+        "name": "選挙管理事業",
+        "raw": "選挙管理事業",
+        "start": 52250,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 52050,
+        "groupEnd": 52864,
+        "groupSha256": "0b8e86fbaffb5a887a1e5fb187a202007bcb3e3b357237a5d86ba1a672ad44ca",
+        "parts": [
+          {
+            "raw": "選挙管理事業",
+            "start": 52250
+          }
+        ],
+        "accountQuote": "選挙管理事業\n（２･４･１）",
+        "accountOffset": 52250
+      },
+      {
+        "name": "例規システム及び法令書等管理事業",
+        "raw": "例規システム 正な事務事業の執行を確保するた\n及び法令書等 め、町例規集の加除編集及びホーム\n管理事業",
+        "start": 53477,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 53277,
+        "groupEnd": 54153,
+        "groupSha256": "5b70924606b12eed566b205d38da4b3ad7ff0bfc1ba0826513ce3072dc1603dd",
+        "parts": [
+          {
+            "raw": "例規システム",
+            "start": 53477
+          },
+          {
+            "raw": "及び法令書等",
+            "start": 53500
+          },
+          {
+            "raw": "管理事業",
+            "start": 53524
+          }
+        ],
+        "accountQuote": "例規システム 正な事務事業の執行を確保するた\n及び法令書等 め、町例規集の加除編集及びホーム\n管理事業\nページへの搭載、法令や事例などを\n（２･１･１）",
+        "accountOffset": 53477
+      },
+      {
+        "name": "情報公開制度運用事業",
+        "raw": "情報公開制度 ため、町民が、権利として、町政情\n運用事業",
+        "start": 55570,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 55370,
+        "groupEnd": 56222,
+        "groupSha256": "0397c1eb3194d03ff811124fc9e826cf33921ff683b83b54aeb027aef0281db0",
+        "parts": [
+          {
+            "raw": "情報公開制度",
+            "start": 55570
+          },
+          {
+            "raw": "運用事業",
+            "start": 55594
+          }
+        ],
+        "accountQuote": "情報公開制度 ため、町民が、権利として、町政情\n運用事業\n報を容易かつ的確に入手できるよ\n（2・1・1）",
+        "accountOffset": 55570
+      },
+      {
+        "name": "議会情報公表事業",
+        "raw": "議会情報公表\n掲載と合わせ、役場玄関及びふれあ\n事業",
+        "start": 56467,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 56267,
+        "groupEnd": 57132,
+        "groupSha256": "0914ccad810a71a13b63e99254e5a16ad5bd5c3766192bc611792a38861b2a9d",
+        "parts": [
+          {
+            "raw": "議会情報公表",
+            "start": 56467
+          },
+          {
+            "raw": "事業",
+            "start": 56491
+          }
+        ],
+        "accountQuote": "議会情報公表\n掲載と合わせ、役場玄関及びふれあ\n事業\n6,300件 6,142件\nいセンター玄関に会議賅料を配置し\n（1・1・1）",
+        "accountOffset": 56467
+      },
+      {
+        "name": "道路整備事業",
+        "raw": "道路整備事業",
+        "start": 10227,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 10027,
+        "groupEnd": 10858,
+        "groupSha256": "264e087106ddaac5587c862f1d5f643b68b034404d01f44e9ce570c46c51a7eb",
+        "parts": [
+          {
+            "raw": "道路整備事業",
+            "start": 10227
+          }
+        ],
+        "accountQuote": "道路整備事業\nうに、舗装修繕など緊急性に高い箇\n（７･２･３）",
+        "accountOffset": 10227
+      },
+      {
+        "name": "広域行政連携事業",
+        "raw": "広域行政連携 の充実など、町単独では困難、非効\n事業\n率な事業",
+        "start": 46322,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 46122,
+        "groupEnd": 46973,
+        "groupSha256": "c406a3ed01b391ae0afbfba80f9ef36787c725e897246038d701a0968015cfd8",
+        "parts": [
+          {
+            "raw": "広域行政連携",
+            "start": 46322
+          },
+          {
+            "raw": "事業",
+            "start": 46351
+          }
+        ],
+        "accountQuote": "広域行政連携 の充実など、町単独では困難、非効\n事業\n率な事業を周辺市町と共同して効果\n（2・1・6）",
+        "accountOffset": 46322
+      },
+      {
+        "name": "公共施設維持管理事業",
+        "raw": "公共施設維持\n管理事業",
+        "start": 46941,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 46741,
+        "groupEnd": 47577,
+        "groupSha256": "07838e5c64565f601ed2df73bcee0b60686ff8edcef7f01b5ed4b4a1db7291f2",
+        "parts": [
+          {
+            "raw": "公共施設維持",
+            "start": 46941
+          },
+          {
+            "raw": "管理事業",
+            "start": 46948
+          }
+        ],
+        "accountQuote": "公共施設維持\n管理事業\n庁舎等の公共施設の適正な維持管理\n（２･１･５）",
+        "accountOffset": 46941
+      },
+      {
+        "name": "電算事務総合調整事業",
+        "raw": "電算事務総合\n各種システム及び電算委託に関する\n調整事業",
+        "start": 47101,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 46901,
+        "groupEnd": 47755,
+        "groupSha256": "3c9bf7b6fd0caf26afac295f3ff71770814634e334678bf35dfc5bbc689fa7dd",
+        "parts": [
+          {
+            "raw": "電算事務総合",
+            "start": 47101
+          },
+          {
+            "raw": "調整事業",
+            "start": 47125
+          }
+        ],
+        "accountQuote": "電算事務総合\n各種システム及び電算委託に関する\n調整事業\n契約・新規導入・IP管理・セキュリ\n（２･１･６）",
+        "accountOffset": 47101
+      },
+      {
+        "name": "窓口証明書交付事業",
+        "raw": "窓口証明書交\n窓口での各種証明書の交付に際\n付事業",
+        "start": 47587,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 47387,
+        "groupEnd": 48237,
+        "groupSha256": "b73b740b9a29d26b6de854154522b0a89b86d55c6a8047026c04a54d4324d386",
+        "parts": [
+          {
+            "raw": "窓口証明書交",
+            "start": 47587
+          },
+          {
+            "raw": "付事業",
+            "start": 47609
+          }
+        ],
+        "accountQuote": "窓口証明書交\n窓口での各種証明書の交付に際\n付事業\nし、正確・迅速な対応を行います。\n（２･３･１）",
+        "accountOffset": 47587
+      },
+      {
+        "name": "町債借入・管理事業",
+        "raw": "町債借入・管\n額以上の借り入れをしないことを原\n7,800百 7,709百 理事業",
+        "start": 48716,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 48516,
+        "groupEnd": 49388,
+        "groupSha256": "dcd244a2b23ae71b54610a64aeec7004079f7a128366b5653c9064c8576a950d",
+        "parts": [
+          {
+            "raw": "町債借入・管",
+            "start": 48716
+          },
+          {
+            "raw": "理事業",
+            "start": 48754
+          }
+        ],
+        "accountQuote": "町債借入・管\n額以上の借り入れをしないことを原\n7,800百 7,709百 理事業\n則とし、将来負担を軽減していきま\n万円\n万円\n（２･１･３）",
+        "accountOffset": 48716
+      },
+      {
+        "name": "住民税賦課事業",
+        "raw": "住民税賦課事\n業",
+        "start": 49307,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 49107,
+        "groupEnd": 49930,
+        "groupSha256": "5994fa1cf29f3cf86dcedd82ad30ae8a88e601d15cd457af4ff20dfb378cd771",
+        "parts": [
+          {
+            "raw": "住民税賦課事",
+            "start": 49307
+          },
+          {
+            "raw": "業",
+            "start": 49314
+          }
+        ],
+        "accountQuote": "住民税賦課事\n業\n99.16% （２･２･１）",
+        "accountOffset": 49307
+      },
+      {
+        "name": "収納対策事業（現年・過年度分)",
+        "raw": "収納対策事業 に理解したうえで、納徔して納期内\n○コールセンター設置運営業務（2人)\n（現年・過年 に納付できるようにします。\n案内件数(2,927件) ⇒ 【2,282千円】\n度分)",
+        "start": 50317,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 50117,
+        "groupEnd": 51051,
+        "groupSha256": "aaaad362d018a89f6fc54ed9408d3e71d5eef73f3267e2f51781abec24d840ac",
+        "parts": [
+          {
+            "raw": "収納対策事業",
+            "start": 50317
+          },
+          {
+            "raw": "（現年・過年",
+            "start": 50360
+          },
+          {
+            "raw": "度分)",
+            "start": 50406
+          }
+        ],
+        "accountQuote": "収納対策事業 に理解したうえで、納徔して納期内\n○コールセンター設置運営業務（2人)\n（現年・過年 に納付できるようにします。\n案内件数(2,927件) ⇒ 【2,282千円】\n度分)\nまた、滞納整理を通して、納税相\n○町外滞納者実態調査業務（97件）\n（２･２･２）",
+        "accountOffset": 50317
+      },
+      {
+        "name": "母子健康管理支援事業",
+        "raw": "母子健康管理\nもの適切な健康管理を行う。\n支援事業",
+        "start": 23441,
+        "year": 2015,
+        "yearQuote": "平成２７年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 23241,
+        "groupEnd": 24091,
+        "groupSha256": "a8c2273583bea9d9c1d292b6eaa5f966df3c4bb6a0f47b424514c505f76fc76f",
+        "parts": [
+          {
+            "raw": "母子健康管理",
+            "start": 23441
+          },
+          {
+            "raw": "支援事業",
+            "start": 23462
+          }
+        ],
+        "accountQuote": "母子健康管理\nもの適切な健康管理を行う。\n支援事業\n○母親（両親）学級を開催して、妊\n（４･１･３）",
+        "accountOffset": 23441
+      }
+    ]
+  }
+]
