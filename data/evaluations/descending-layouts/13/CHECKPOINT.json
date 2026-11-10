@@ -1,36 +1,36 @@
 {
-  "candidateRecords": 118,
-  "newCandidatesThisTranche": 63,
+  "candidateRecords": 218,
+  "newCandidatesThisTranche": 100,
   "existingFieldEnrichments": 0,
-  "newCandidateActualAmountFields": 2,
+  "newCandidateActualAmountFields": 0,
   "perMunicipality": {
     "小笠原村": 2,
     "新島村": 46,
     "利島村": 10,
     "大島町": 30,
-    "檜原村": 30
+    "檜原村": 130
   },
-  "validatedCumulativeCandidates": 33732,
-  "validatedEvidence": 100244,
+  "validatedCumulativeCandidates": 33832,
+  "validatedEvidence": 100446,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "af8a4ede4f35841e20d70a3611ad01c9e083fb4d",
+  "previousHead": "532057f7ff9846511f549aaf07895ad0d5bb3da1",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "6/6",
-    "crawler": "1053/1053",
+    "focused": "7/7",
+    "crawler": "1054/1054",
     "web": "256/256",
     "typecheck": "passed",
     "lint": "passed;existingfontwarning",
     "national": "passed branchbaseline",
     "static": "109/109 subpath",
-    "quotes": "33732 candidates/100244quotes"
+    "quotes": "33832 candidates/100446quotes"
   },
   "remoteCI": "unverified;known ActionsAPI403 not retried",
-  "remaining": "Hinohara next60 or more source proposals remain separately staged;Tokyo queue continues;source-specific missing bodies remain held. No nationwide completion claim."
+  "remaining": "Hinohara next148 and Hamura78 proposals remain separately staged;Tokyo source queue continues;no nationwide completion claim."
 }

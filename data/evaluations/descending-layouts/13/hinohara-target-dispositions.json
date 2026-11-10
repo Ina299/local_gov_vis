@@ -1,0 +1,11 @@
+{
+  "additionalNames": 23,
+  "resolvedHold": "敬老福祉大会: later対象事業 table explicitly identifies individual programme; earlier event-only scope hold resolved by this cached evidence.",
+  "aliasHolds": [
+    "高齢者宅警報機器等取付事業 overlaps existing高齢者宅警報器等取付工事",
+    "認知症予防教室実施事業 overlaps existing巡回型認知症予防教室",
+    "福祉サービス第三者評価受審費補助金 and 成年後見推進機関運営事業 are potential aliases of selected対象事業 entries; do not add both",
+    "新型コロナワクチン定期接種特別補助事業 and ワクチン確保事業 share the same3,463,277yen business expense; overlapping funding components, not two proved projects"
+  ],
+  "amountsAdded": 0
+}
