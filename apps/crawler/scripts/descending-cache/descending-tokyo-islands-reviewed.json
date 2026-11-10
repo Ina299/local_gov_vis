@@ -60,7 +60,7 @@
         "quote": "民に追加配付した。"
       }
     ],
-    "status": "stage-only proposal, not accepted/pushed"
+    "status": "Reviewed source configuration; outputs remain isolated candidates requiring cohort validation."
   },
   {
     "municipalityCode": "13363",
@@ -143,6 +143,184 @@
         "evaluationOffset": null,
         "yearQuote": "令和7年度 新島村特定環境保全公共下水道事業",
         "yearOffset": 51427
+      },
+      {
+        "name": "本村3号井自家発電機設置工事",
+        "year": 2025,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "令和7年度本村3号井自家発電機設置工事",
+            "start": 52411
+          }
+        ],
+        "yearQuote": "令和7年度本村3号井自家発電機設置工事",
+        "yearOffset": 52411,
+        "repeatedOperations": [],
+        "warning": "事務報告書の事業名欄に明示された当年度の個別工事・委託名。契約一覧であり完了や決算を意味しない。金額・工期・財源列は割り当てず、既に事業単位で保持した下水道の構成工事や過年度・繰越名は別件にしない。"
+      },
+      {
+        "name": "式根島配水池等通信設備設計業務委託",
+        "year": 2025,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "令和7年度式根島配水池等通信設備設計業務委託",
+            "start": 52492
+          }
+        ],
+        "yearQuote": "令和7年度式根島配水池等通信設備設計業務委託",
+        "yearOffset": 52492,
+        "repeatedOperations": [],
+        "warning": "事務報告書の事業名欄に明示された当年度の個別工事・委託名。契約一覧であり完了や決算を意味しない。金額・工期・財源列は割り当てず、既に事業単位で保持した下水道の構成工事や過年度・繰越名は別件にしない。"
+      },
+      {
+        "name": "村道堀端線舗装新設工事",
+        "year": 2025,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "令和7年度 村道堀端線舗装新設工事",
+            "start": 52576
+          }
+        ],
+        "yearQuote": "令和7年度 村道堀端線舗装新設工事",
+        "yearOffset": 52576,
+        "repeatedOperations": [],
+        "warning": "事務報告書の事業名欄に明示された当年度の個別工事・委託名。契約一覧であり完了や決算を意味しない。金額・工期・財源列は割り当てず、既に事業単位で保持した下水道の構成工事や過年度・繰越名は別件にしない。"
+      },
+      {
+        "name": "村営新原住宅外壁および防水改修工事",
+        "year": 2025,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "令和7年度 村営新原住宅外壁および防水改修工事",
+            "start": 52658
+          }
+        ],
+        "yearQuote": "令和7年度 村営新原住宅外壁および防水改修工事",
+        "yearOffset": 52658,
+        "repeatedOperations": [],
+        "warning": "事務報告書の事業名欄に明示された当年度の個別工事・委託名。契約一覧であり完了や決算を意味しない。金額・工期・財源列は割り当てず、既に事業単位で保持した下水道の構成工事や過年度・繰越名は別件にしない。"
+      },
+      {
+        "name": "村営野伏・野伏第2住宅外壁および防水改修工事",
+        "year": 2025,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "令和7年度 村営野伏・野伏第2住宅外壁および防水改修工事",
+            "start": 52747
+          }
+        ],
+        "yearQuote": "令和7年度 村営野伏・野伏第2住宅外壁および防水改修工事",
+        "yearOffset": 52747,
+        "repeatedOperations": [],
+        "warning": "事務報告書の事業名欄に明示された当年度の個別工事・委託名。契約一覧であり完了や決算を意味しない。金額・工期・財源列は割り当てず、既に事業単位で保持した下水道の構成工事や過年度・繰越名は別件にしない。"
+      },
+      {
+        "name": "新島村玄角井戸改修工事",
+        "year": 2025,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "新島村玄角井戸改修工事",
+            "start": 34040
+          }
+        ],
+        "yearQuote": "令和7年度",
+        "yearOffset": 34016,
+        "repeatedOperations": [],
+        "warning": "事務報告書に記載された年度付きの個別工事・委託名。名称欄に混入する地区名を別引用の位置で区別し、原文の「その1/その2/その3」等を保持。個別契約単位であり独立した予算事業であるとは限らない。金額・完了・達成度・工期の対応は推測しない。"
+      },
+      {
+        "name": "新島村淡井井戸改修工事",
+        "year": 2025,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "新島村淡井井戸改修工事",
+            "start": 34112
+          }
+        ],
+        "yearQuote": "令和7年度",
+        "yearOffset": 34088,
+        "repeatedOperations": [],
+        "warning": "事務報告書に記載された年度付きの個別工事・委託名。名称欄に混入する地区名を別引用の位置で区別し、原文の「その1/その2/その3」等を保持。個別契約単位であり独立した予算事業であるとは限らない。金額・完了・達成度・工期の対応は推測しない。"
+      },
+      {
+        "name": "新島村農業用水源監視システム導入工事（その1）",
+        "year": 2025,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "新島村農業用水源監視シス",
+            "start": 34238
+          },
+          {
+            "raw": "テム導入工事（その1）",
+            "start": 34253
+          }
+        ],
+        "yearQuote": "令和7年度",
+        "yearOffset": 34232,
+        "repeatedOperations": [],
+        "warning": "事務報告書に記載された年度付きの個別工事・委託名。名称欄に混入する地区名を別引用の位置で区別し、原文の「その1/その2/その3」等を保持。個別契約単位であり独立した予算事業であるとは限らない。金額・完了・達成度・工期の対応は推測しない。"
+      },
+      {
+        "name": "新島村農業用水源監視システム導入工事（その2）",
+        "year": 2025,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "新島村農業用水源監視シス",
+            "start": 34275
+          },
+          {
+            "raw": "テム導入工事（その2）",
+            "start": 34290
+          }
+        ],
+        "yearQuote": "令和7年度",
+        "yearOffset": 34269,
+        "repeatedOperations": [],
+        "warning": "事務報告書に記載された年度付きの個別工事・委託名。名称欄に混入する地区名を別引用の位置で区別し、原文の「その1/その2/その3」等を保持。個別契約単位であり独立した予算事業であるとは限らない。金額・完了・達成度・工期の対応は推測しない。"
+      },
+      {
+        "name": "向山林道災害復旧工事",
+        "year": 2025,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "向山林道災\n害復旧工事",
+            "start": 38829
+          }
+        ],
+        "yearQuote": "令和7年度",
+        "yearOffset": 38823,
+        "repeatedOperations": [],
+        "warning": "事務報告書に記載された年度付きの個別工事・委託名。名称欄に混入する地区名を別引用の位置で区別し、原文の「その1/その2/その3」等を保持。個別契約単位であり独立した予算事業であるとは限らない。金額・完了・達成度・工期の対応は推測しない。"
       }
     ],
     "sourceType": "administrative report, related evidence; no evaluation grade inferred"
@@ -228,6 +406,154 @@
         "evaluationOffset": null,
         "yearQuote": "令和6年度 新島村特定環境保全公共下水道事業",
         "yearOffset": 50682
+      },
+      {
+        "name": "若郷2号井無線制御システム導入工事",
+        "year": 2024,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "令和6年度若郷2号井無線制御システム導入工事",
+            "start": 51396
+          }
+        ],
+        "yearQuote": "令和6年度若郷2号井無線制御システム導入工事",
+        "yearOffset": 51396,
+        "repeatedOperations": [],
+        "warning": "事務報告書の事業名欄に明示された当年度の個別工事・委託名。契約一覧であり完了や決算を意味しない。金額・工期・財源列は割り当てず、既に事業単位で保持した下水道の構成工事や過年度・繰越名は別件にしない。"
+      },
+      {
+        "name": "本村7号井取水ポンプ交換工事",
+        "year": 2024,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "令和6年度本村7号井取水ポンプ交換工事",
+            "start": 51474
+          }
+        ],
+        "yearQuote": "令和6年度本村7号井取水ポンプ交換工事",
+        "yearOffset": 51474,
+        "repeatedOperations": [],
+        "warning": "事務報告書の事業名欄に明示された当年度の個別工事・委託名。契約一覧であり完了や決算を意味しない。金額・工期・財源列は割り当てず、既に事業単位で保持した下水道の構成工事や過年度・繰越名は別件にしない。"
+      },
+      {
+        "name": "村道堀端線舗装新設工事 測量設計・ＣＢＲ調査業務委託",
+        "year": 2024,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "令和６年度村道堀端線舗装新設工事 測量設計・ＣＢＲ調査業務委託",
+            "start": 51550
+          }
+        ],
+        "yearQuote": "令和６年度村道堀端線舗装新設工事 測量設計・ＣＢＲ調査業務委託",
+        "yearOffset": 51550,
+        "repeatedOperations": [],
+        "warning": "事務報告書の事業名欄に明示された当年度の個別工事・委託名。契約一覧であり完了や決算を意味しない。金額・工期・財源列は割り当てず、既に事業単位で保持した下水道の構成工事や過年度・繰越名は別件にしない。"
+      },
+      {
+        "name": "村道北村南北浜線側溝改修工事",
+        "year": 2024,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "令和６年度村道北村南北浜線側溝改修工事",
+            "start": 51640
+          }
+        ],
+        "yearQuote": "令和６年度村道北村南北浜線側溝改修工事",
+        "yearOffset": 51640,
+        "repeatedOperations": [],
+        "warning": "事務報告書の事業名欄に明示された当年度の個別工事・委託名。契約一覧であり完了や決算を意味しない。金額・工期・財源列は割り当てず、既に事業単位で保持した下水道の構成工事や過年度・繰越名は別件にしない。"
+      },
+      {
+        "name": "新島村農業用水源監視システム導入工事",
+        "year": 2024,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "新島村農業用水源監視シス",
+            "start": 33117
+          },
+          {
+            "raw": "テム導入工事",
+            "start": 33255
+          }
+        ],
+        "yearQuote": "令和6年度",
+        "yearOffset": 33111,
+        "repeatedOperations": [],
+        "warning": "事務報告書に記載された年度付きの個別工事・委託名。名称欄に混入する地区名を別引用の位置で区別し、原文の「その1/その2/その3」等を保持。個別契約単位であり独立した予算事業であるとは限らない。金額・完了・達成度・工期の対応は推測しない。"
+      },
+      {
+        "name": "新島村大原水槽・向山水槽管路敷設工事(その2)",
+        "year": 2024,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "新島村大原水槽・向山水槽管",
+            "start": 33172
+          },
+          {
+            "raw": "路敷設工事(その2)",
+            "start": 33188
+          }
+        ],
+        "yearQuote": "令和6年度",
+        "yearOffset": 33148,
+        "repeatedOperations": [],
+        "warning": "事務報告書に記載された年度付きの個別工事・委託名。名称欄に混入する地区名を別引用の位置で区別し、原文の「その1/その2/その3」等を保持。個別契約単位であり独立した予算事業であるとは限らない。金額・完了・達成度・工期の対応は推測しない。"
+      },
+      {
+        "name": "新島村大原水槽・向山水槽管路敷設工事(その3)",
+        "year": 2024,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "新島村大原水槽・向山水槽管",
+            "start": 33225
+          },
+          {
+            "raw": "路敷設工事(その3)",
+            "start": 33241
+          }
+        ],
+        "yearQuote": "令和6年度",
+        "yearOffset": 33201,
+        "repeatedOperations": [],
+        "warning": "事務報告書に記載された年度付きの個別工事・委託名。名称欄に混入する地区名を別引用の位置で区別し、原文の「その1/その2/その3」等を保持。個別契約単位であり独立した予算事業であるとは限らない。金額・完了・達成度・工期の対応は推測しない。"
+      },
+      {
+        "name": "向山林道災害復旧事業測量設計業務委託",
+        "year": 2024,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "向山林道\n災害復旧事\n業測量設計\n業務委託",
+            "start": 37791
+          }
+        ],
+        "yearQuote": "令和6年度",
+        "yearOffset": 37785,
+        "repeatedOperations": [],
+        "warning": "事務報告書に記載された年度付きの個別工事・委託名。名称欄に混入する地区名を別引用の位置で区別し、原文の「その1/その2/その3」等を保持。個別契約単位であり独立した予算事業であるとは限らない。金額・完了・達成度・工期の対応は推測しない。"
       }
     ],
     "sourceType": "administrative report, related evidence; no evaluation grade inferred"
@@ -313,6 +639,95 @@
         "evaluationOffset": null,
         "yearQuote": "令和5年度 新島村特定環境保全公共下水道事業",
         "yearOffset": 51215
+      },
+      {
+        "name": "村道九兵ヱ宮藤線外1路線側溝改修工事",
+        "year": 2023,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "令和5年度村道九兵ヱ宮藤線外1路線側溝改修工事",
+            "start": 52031
+          }
+        ],
+        "yearQuote": "令和5年度村道九兵ヱ宮藤線外1路線側溝改修工事",
+        "yearOffset": 52031,
+        "repeatedOperations": [],
+        "warning": "事務報告書の事業名欄に明示された当年度の個別工事・委託名。契約一覧であり完了や決算を意味しない。金額・工期・財源列は割り当てず、既に事業単位で保持した下水道の構成工事や過年度・繰越名は別件にしない。"
+      },
+      {
+        "name": "村道北村南北浜線側溝改修工事",
+        "year": 2023,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "令和5年度村道北村南北浜線側溝改修工事",
+            "start": 52114
+          }
+        ],
+        "yearQuote": "令和5年度村道北村南北浜線側溝改修工事",
+        "yearOffset": 52114,
+        "repeatedOperations": [],
+        "warning": "事務報告書の事業名欄に明示された当年度の個別工事・委託名。契約一覧であり完了や決算を意味しない。金額・工期・財源列は割り当てず、既に事業単位で保持した下水道の構成工事や過年度・繰越名は別件にしない。"
+      },
+      {
+        "name": "久田巻地区農業用水管路改修工事(その2)",
+        "year": 2023,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "久田巻地区農業用水管路改修工事(そ\nの2)",
+            "start": 33596
+          }
+        ],
+        "yearQuote": "令和5年度",
+        "yearOffset": 33570,
+        "repeatedOperations": [],
+        "warning": "事務報告書に記載された年度付きの個別工事・委託名。名称欄に混入する地区名を別引用の位置で区別し、原文の「その1/その2/その3」等を保持。個別契約単位であり独立した予算事業であるとは限らない。金額・完了・達成度・工期の対応は推測しない。"
+      },
+      {
+        "name": "新島村大場所井戸改修工事",
+        "year": 2023,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "新島村大場所井戸改修工事",
+            "start": 33671
+          }
+        ],
+        "yearQuote": "令和５年度",
+        "yearOffset": 33646,
+        "repeatedOperations": [],
+        "warning": "事務報告書に記載された年度付きの個別工事・委託名。名称欄に混入する地区名を別引用の位置で区別し、原文の「その1/その2/その3」等を保持。個別契約単位であり独立した予算事業であるとは限らない。金額・完了・達成度・工期の対応は推測しない。"
+      },
+      {
+        "name": "新島村大原水槽・向山水槽管路敷設工事(その1)",
+        "year": 2023,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "新島村大原水槽・向山水槽管",
+            "start": 33726
+          },
+          {
+            "raw": "路敷設工事(その1)",
+            "start": 33742
+          }
+        ],
+        "yearQuote": "令和5年度",
+        "yearOffset": 33702,
+        "repeatedOperations": [],
+        "warning": "事務報告書に記載された年度付きの個別工事・委託名。名称欄に混入する地区名を別引用の位置で区別し、原文の「その1/その2/その3」等を保持。個別契約単位であり独立した予算事業であるとは限らない。金額・完了・達成度・工期の対応は推測しない。"
       }
     ],
     "sourceType": "administrative report, related evidence; no evaluation grade inferred"
@@ -380,6 +795,125 @@
         "evaluationOffset": null,
         "yearQuote": "令和4年度 新島村特定環境保全公共下水道事業",
         "yearOffset": 50645
+      },
+      {
+        "name": "本村・式根島次亜注入設備更新工事",
+        "year": 2022,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "令和4年度本村・式根島次亜注入設備更新工事",
+            "start": 51079
+          }
+        ],
+        "yearQuote": "令和4年度本村・式根島次亜注入設備更新工事",
+        "yearOffset": 51079,
+        "repeatedOperations": [],
+        "warning": "事務報告書の事業名欄に明示された当年度の個別工事・委託名。契約一覧であり完了や決算を意味しない。金額・工期・財源列は割り当てず、既に事業単位で保持した下水道の構成工事や過年度・繰越名は別件にしない。"
+      },
+      {
+        "name": "式根島調整池電気設備更新工事",
+        "year": 2022,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "令和4年度式根島調整池電気設備更新工事",
+            "start": 51165
+          }
+        ],
+        "yearQuote": "令和4年度式根島調整池電気設備更新工事",
+        "yearOffset": 51165,
+        "repeatedOperations": [],
+        "warning": "事務報告書の事業名欄に明示された当年度の個別工事・委託名。契約一覧であり完了や決算を意味しない。金額・工期・財源列は割り当てず、既に事業単位で保持した下水道の構成工事や過年度・繰越名は別件にしない。"
+      },
+      {
+        "name": "都道211号線給水管接続工事",
+        "year": 2022,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "令和4年度 都道211号線給水管接続工事",
+            "start": 51249
+          }
+        ],
+        "yearQuote": "令和4年度 都道211号線給水管接続工事",
+        "yearOffset": 51249,
+        "repeatedOperations": [],
+        "warning": "事務報告書の事業名欄に明示された当年度の個別工事・委託名。契約一覧であり完了や決算を意味しない。金額・工期・財源列は割り当てず、既に事業単位で保持した下水道の構成工事や過年度・繰越名は別件にしない。"
+      },
+      {
+        "name": "村道北村南北浜線側溝改修工事",
+        "year": 2022,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "令和4年度村道北村南北浜線側溝改修工事",
+            "start": 51319
+          }
+        ],
+        "yearQuote": "令和4年度村道北村南北浜線側溝改修工事",
+        "yearOffset": 51319,
+        "repeatedOperations": [],
+        "warning": "事務報告書の事業名欄に明示された当年度の個別工事・委託名。契約一覧であり完了や決算を意味しない。金額・工期・財源列は割り当てず、既に事業単位で保持した下水道の構成工事や過年度・繰越名は別件にしない。"
+      },
+      {
+        "name": "村道九兵ヱ宮藤線外1路線側溝改修工事",
+        "year": 2022,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "令和4年度村道九兵ヱ宮藤線外1路線側溝改修工事",
+            "start": 51397
+          }
+        ],
+        "yearQuote": "令和4年度村道九兵ヱ宮藤線外1路線側溝改修工事",
+        "yearOffset": 51397,
+        "repeatedOperations": [],
+        "warning": "事務報告書の事業名欄に明示された当年度の個別工事・委託名。契約一覧であり完了や決算を意味しない。金額・工期・財源列は割り当てず、既に事業単位で保持した下水道の構成工事や過年度・繰越名は別件にしない。"
+      },
+      {
+        "name": "新島村ナムレ井戸改修工事",
+        "year": 2022,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "新島村ナムレ井戸改修工事",
+            "start": 33253
+          }
+        ],
+        "yearQuote": "令和4年度",
+        "yearOffset": 33231,
+        "repeatedOperations": [],
+        "warning": "事務報告書に記載された年度付きの個別工事・委託名。名称欄に混入する地区名を別引用の位置で区別し、原文の「その1/その2/その3」等を保持。個別契約単位であり独立した予算事業であるとは限らない。金額・完了・達成度・工期の対応は推測しない。"
+      },
+      {
+        "name": "久田巻地区農業用水路改修工事(その1)",
+        "year": 2022,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "久田巻地区農業用水路改修工事(その1)",
+            "start": 33269
+          }
+        ],
+        "yearQuote": "令和4年度",
+        "yearOffset": 33231,
+        "repeatedOperations": [],
+        "warning": "事務報告書に記載された年度付きの個別工事・委託名。名称欄に混入する地区名を別引用の位置で区別し、原文の「その1/その2/その3」等を保持。個別契約単位であり独立した予算事業であるとは限らない。金額・完了・達成度・工期の対応は推測しない。"
       }
     ],
     "sourceType": "administrative report, related evidence; no evaluation grade inferred"
@@ -443,6 +977,61 @@
         "evaluationOffset": null,
         "yearQuote": "令和3年度新島村特定環境保全公共下水道事業",
         "yearOffset": 48824
+      },
+      {
+        "name": "村道北村南北浜線側溝改修工事",
+        "year": 2021,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "令和3年度村道北村南北浜線側溝改修工事",
+            "start": 48675
+          }
+        ],
+        "yearQuote": "令和3年度村道北村南北浜線側溝改修工事",
+        "yearOffset": 48675,
+        "repeatedOperations": [],
+        "warning": "事務報告書の事業名欄に明示された当年度の個別工事・委託名。契約一覧であり完了や決算を意味しない。金額・工期・財源列は割り当てず、既に事業単位で保持した下水道の構成工事や過年度・繰越名は別件にしない。"
+      },
+      {
+        "name": "都道211号線配水管接続工事",
+        "year": 2021,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "令和3年度都道211号線配水管接続工事",
+            "start": 48754
+          }
+        ],
+        "yearQuote": "令和3年度都道211号線配水管接続工事",
+        "yearOffset": 48754,
+        "repeatedOperations": [],
+        "warning": "事務報告書の事業名欄に明示された当年度の個別工事・委託名。契約一覧であり完了や決算を意味しない。金額・工期・財源列は割り当てず、既に事業単位で保持した下水道の構成工事や過年度・繰越名は別件にしない。"
+      },
+      {
+        "name": "新島村農業水路等機能診断及び保全計画策定業務委託",
+        "year": 2021,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "fragments": [
+          {
+            "raw": "新島村農業水路等機能診",
+            "start": 32091
+          },
+          {
+            "raw": "断及び保全計画策定業務委託",
+            "start": 32123
+          }
+        ],
+        "yearQuote": "令和3年度",
+        "yearOffset": 32086,
+        "repeatedOperations": [],
+        "warning": "事務報告書に記載された年度付きの個別工事・委託名。名称欄に混入する地区名を別引用の位置で区別し、原文の「その1/その2/その3」等を保持。個別契約単位であり独立した予算事業であるとは限らない。金額・完了・達成度・工期の対応は推測しない。"
       }
     ],
     "sourceType": "administrative report, related evidence; no evaluation grade inferred"
@@ -636,7 +1225,7 @@
         "repeatedOperations": []
       }
     ],
-    "status": "ten source-verified title proposals only; no full validation or acceptance yet"
+    "status": "Reviewed source configuration; outputs remain isolated candidates requiring cohort validation."
   },
   {
     "municipalityCode": "13361",
@@ -1302,6 +1891,6 @@
         "reason": "Name contains corrupt glyph尐; do not silently normalize to少年 without source evidence."
       }
     ],
-    "status": "stage-only exact name proposals, not validated accepted records"
+    "status": "Reviewed source configuration; outputs remain isolated candidates requiring cohort validation."
   }
 ]

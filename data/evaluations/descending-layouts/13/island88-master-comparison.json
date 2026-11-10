@@ -1,0 +1,319 @@
+{
+  "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "stageOnly": true,
+  "productionChanged": false,
+  "unpublishedUserChanges": "unobservable",
+  "rows": [
+    {
+      "code": "13421",
+      "stageProposals": 2,
+      "existingMasterRecords": 0,
+      "matches": [
+        {
+          "candidateId": "cached-13421-66777e501b682a3ebf10e985",
+          "existingId": "cached-13421-66777e501b682a3ebf10e985",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13421-419d7a526b7397e9edeca3b9",
+          "existingId": "cached-13421-419d7a526b7397e9edeca3b9",
+          "sameContent": true
+        }
+      ],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "code": "13363",
+      "stageProposals": 46,
+      "existingMasterRecords": 0,
+      "matches": [
+        {
+          "candidateId": "cached-13363-93a48d05ddc4dd68d7f5870b",
+          "existingId": "cached-13363-93a48d05ddc4dd68d7f5870b",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13363-c5f573fe652e380a9b4fdff1",
+          "existingId": "cached-13363-c5f573fe652e380a9b4fdff1",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13363-f665847bf4b4453577626117",
+          "existingId": "cached-13363-f665847bf4b4453577626117",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13363-656fd6f6243ba100c671f6ce",
+          "existingId": "cached-13363-656fd6f6243ba100c671f6ce",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13363-8e34e487100e0cfc54cf78a7",
+          "existingId": "cached-13363-8e34e487100e0cfc54cf78a7",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13363-551b0cd729a17deff25f7a96",
+          "existingId": "cached-13363-551b0cd729a17deff25f7a96",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13363-3e7c6c5d640b0b111a4738ab",
+          "existingId": "cached-13363-3e7c6c5d640b0b111a4738ab",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13363-3a8e65dab44a0d733943f41d",
+          "existingId": "cached-13363-3a8e65dab44a0d733943f41d",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13363-4ddd3294a203cbc91e06ebc7",
+          "existingId": "cached-13363-4ddd3294a203cbc91e06ebc7",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13363-dece0db166b354cf305922cc",
+          "existingId": "cached-13363-dece0db166b354cf305922cc",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13363-9f1fa90ccbb47250b3088f75",
+          "existingId": "cached-13363-9f1fa90ccbb47250b3088f75",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13363-0e731b26e23891a78725c5d1",
+          "existingId": "cached-13363-0e731b26e23891a78725c5d1",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13363-b2284d8b49fd8558b57d7a66",
+          "existingId": "cached-13363-b2284d8b49fd8558b57d7a66",
+          "sameContent": true
+        }
+      ],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "code": "13362",
+      "stageProposals": 10,
+      "existingMasterRecords": 0,
+      "matches": [
+        {
+          "candidateId": "cached-13362-f866eb7d1ba8969025c21bdf",
+          "existingId": "cached-13362-f866eb7d1ba8969025c21bdf",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13362-84ba80de90655a75506e5c3e",
+          "existingId": "cached-13362-84ba80de90655a75506e5c3e",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13362-207ab597ee69bad963b59880",
+          "existingId": "cached-13362-207ab597ee69bad963b59880",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13362-a76865b35b2c9089c7c423a3",
+          "existingId": "cached-13362-a76865b35b2c9089c7c423a3",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13362-139080aa1b934f629e44bc91",
+          "existingId": "cached-13362-139080aa1b934f629e44bc91",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13362-59f60939eee511f0b173bfdd",
+          "existingId": "cached-13362-59f60939eee511f0b173bfdd",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13362-964c03d9d742b3be20a16dc4",
+          "existingId": "cached-13362-964c03d9d742b3be20a16dc4",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13362-8b887c1433804f2374a56e16",
+          "existingId": "cached-13362-8b887c1433804f2374a56e16",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13362-8b8c789f29af2791e648ae99",
+          "existingId": "cached-13362-8b8c789f29af2791e648ae99",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13362-72a924a53f7418552d242fef",
+          "existingId": "cached-13362-72a924a53f7418552d242fef",
+          "sameContent": true
+        }
+      ],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "code": "13361",
+      "stageProposals": 30,
+      "existingMasterRecords": 0,
+      "matches": [
+        {
+          "candidateId": "cached-13361-af6d26b2baab70fabaef2ce6",
+          "existingId": "cached-13361-af6d26b2baab70fabaef2ce6",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-24991ebb39f24c77f6df12e2",
+          "existingId": "cached-13361-24991ebb39f24c77f6df12e2",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-0e9ac4bcd2622f51d948853f",
+          "existingId": "cached-13361-0e9ac4bcd2622f51d948853f",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-6f603b83f62520af5339dede",
+          "existingId": "cached-13361-6f603b83f62520af5339dede",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-fee70cc1f582488fc14b19cc",
+          "existingId": "cached-13361-fee70cc1f582488fc14b19cc",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-14706b3d68215cce19d3dabc",
+          "existingId": "cached-13361-14706b3d68215cce19d3dabc",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-0862638b671f2ee18ed69401",
+          "existingId": "cached-13361-0862638b671f2ee18ed69401",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-5dc2923393be273e1f6b685e",
+          "existingId": "cached-13361-5dc2923393be273e1f6b685e",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-fc8af725f42125c763a574d7",
+          "existingId": "cached-13361-fc8af725f42125c763a574d7",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-cc9fa54ccaba56e6a4bb4f33",
+          "existingId": "cached-13361-cc9fa54ccaba56e6a4bb4f33",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-a10456d065c5103fadec05e7",
+          "existingId": "cached-13361-a10456d065c5103fadec05e7",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-29491f9764d83c91be1da54c",
+          "existingId": "cached-13361-29491f9764d83c91be1da54c",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-2373ddbca4530f3c4373bc2d",
+          "existingId": "cached-13361-2373ddbca4530f3c4373bc2d",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-ba37330227f43180f6164f77",
+          "existingId": "cached-13361-ba37330227f43180f6164f77",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-a03816c5449d017e92ef6dba",
+          "existingId": "cached-13361-a03816c5449d017e92ef6dba",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-ddd5bac42b8e5c66fdf4e106",
+          "existingId": "cached-13361-ddd5bac42b8e5c66fdf4e106",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-9b052a8390636beb9d6e9ff8",
+          "existingId": "cached-13361-9b052a8390636beb9d6e9ff8",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-c818e9048482cdfadc3efd85",
+          "existingId": "cached-13361-c818e9048482cdfadc3efd85",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-c99aed5aa3a7bdbc24897fed",
+          "existingId": "cached-13361-c99aed5aa3a7bdbc24897fed",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-02046f0cd8331b762966618a",
+          "existingId": "cached-13361-02046f0cd8331b762966618a",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-b649a9a73dfcb3bf0b368d93",
+          "existingId": "cached-13361-b649a9a73dfcb3bf0b368d93",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-bdcc198731b82a6fe9ac19dd",
+          "existingId": "cached-13361-bdcc198731b82a6fe9ac19dd",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-0c6583483b973af1d60d41cb",
+          "existingId": "cached-13361-0c6583483b973af1d60d41cb",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-a89bdab1a229f0ff24e8e9a9",
+          "existingId": "cached-13361-a89bdab1a229f0ff24e8e9a9",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-7acd586e6c8421f37cca7e22",
+          "existingId": "cached-13361-7acd586e6c8421f37cca7e22",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-625f15ca91d0e095e5e3d6b1",
+          "existingId": "cached-13361-625f15ca91d0e095e5e3d6b1",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-a1a61e5799e0951fea5ba6e5",
+          "existingId": "cached-13361-a1a61e5799e0951fea5ba6e5",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-7844c615c2c8c7a6fad50ebe",
+          "existingId": "cached-13361-7844c615c2c8c7a6fad50ebe",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-0cf93554038f3a12c651484f",
+          "existingId": "cached-13361-0cf93554038f3a12c651484f",
+          "sameContent": true
+        },
+        {
+          "candidateId": "cached-13361-29c247346788199ba42b052d",
+          "existingId": "cached-13361-29c247346788199ba42b052d",
+          "sameContent": true
+        }
+      ],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    }
+  ]
+}

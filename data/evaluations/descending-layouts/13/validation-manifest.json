@@ -1,11 +1,11 @@
 {
   "validation.log": {
     "bytes": 90,
-    "sha256": "3eabb3517f3c16e105c110b586881edd01cfa4a925e3f22c00bed97cc1b1e38f"
+    "sha256": "817c42b404a37c3cc37c1d0f2e290bf41d5307e4bffd7d2208042f6fe4e320a7"
   },
   "focused.log": {
-    "bytes": 5963,
-    "sha256": "2cfadd7fe4c510333d325957c47c43ec3733bfa95d49469df126051120ea7719"
+    "bytes": 756,
+    "sha256": "82f0809b999d8e8779c436c4719a41cb3f777e08acde06119d815900d1694191"
   },
   "typecheck.log": {
     "bytes": 823,
@@ -25,10 +25,10 @@
   },
   "web.log": {
     "bytes": 2429,
-    "sha256": "f47cf6f1aa8974cddc98ebd66d67a656c58d69d4ab2c62522d65dc3b5d4d80dc"
+    "sha256": "9d356942be5135ad691ca653ee6d2ebcdd11fab7571205249df01cb8f54fe881"
   },
   "crawler.log": {
-    "bytes": 108900,
-    "sha256": "007b37bc7e461931c1641d9dfc7bd53e0a29d39ed5fce5b3101fc9d3656b97c9"
+    "bytes": 109231,
+    "sha256": "676ead27e3d3ceb7228128ebbd4da86d9861f51b2f0dc8c6b1c58084c15db34f"
   }
 }

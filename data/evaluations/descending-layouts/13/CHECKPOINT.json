@@ -1,35 +1,36 @@
 {
-  "candidateRecords": 55,
-  "newCandidatesThisTranche": 55,
+  "candidateRecords": 118,
+  "newCandidatesThisTranche": 63,
   "existingFieldEnrichments": 0,
+  "newCandidateActualAmountFields": 2,
   "perMunicipality": {
     "小笠原村": 2,
-    "新島村": 13,
+    "新島村": 46,
     "利島村": 10,
-    "大島町": 30
+    "大島町": 30,
+    "檜原村": 30
   },
-  "validatedCombinedCumulativeCandidates": 33669,
-  "validatedCombinedQuotes": 100104,
-  "validationContext": "Combined working tree: Kanagawa1183 and Tokyo55; two isolated prefecture commits before one final normal push.",
+  "validatedCumulativeCandidates": 33732,
+  "validatedEvidence": 100244,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousRemoteHead": "ad55912213f09f459a779b7685e853cba6b3b67a",
+  "previousHead": "af8a4ede4f35841e20d70a3611ad01c9e083fb4d",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "65/65",
-    "crawler": "1050/1050",
+    "focused": "6/6",
+    "crawler": "1053/1053",
     "web": "256/256",
     "typecheck": "passed",
     "lint": "passed;existingfontwarning",
     "national": "passed branchbaseline",
     "static": "109/109 subpath",
-    "quotes": "33669 candidates/100104 quotes"
+    "quotes": "33732 candidates/100244quotes"
   },
   "remoteCI": "unverified;known ActionsAPI403 not retried",
-  "remaining": "Tokyo source queue remains actionable. Acquisition gated; missing bodies not refetched. No nationwide completion claim."
+  "remaining": "Hinohara next60 or more source proposals remain separately staged;Tokyo queue continues;source-specific missing bodies remain held. No nationwide completion claim."
 }
