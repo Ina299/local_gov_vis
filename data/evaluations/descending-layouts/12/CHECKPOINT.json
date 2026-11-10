@@ -1,36 +1,38 @@
 {
-  "candidateRecords": 436,
-  "newCandidatesThisTranche": 88,
+  "candidateRecords": 1038,
+  "newCandidatesThisTranche": 602,
   "perMunicipality": {
     "鋸南町": 44,
     "長南町": 10,
     "長生村": 2,
     "横芝光町": 339,
-    "東庄町": 41
+    "東庄町": 41,
+    "栄町": 602
   },
   "existingFieldEnrichments": 0,
-  "newCandidateActualAmountFields": 2,
-  "validatedCumulativeCandidates": 34938,
-  "validatedEvidence": 103741,
+  "newCandidateActualAmountFields": 0,
+  "cohortActualAmountFields": 2,
+  "validatedCumulativeCandidates": 35540,
+  "validatedEvidence": 105128,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "fa7ed3aab7c1daf4b44b305606593033376fa2b6",
+  "previousHead": "fb4b7b06da701968fb50059df9cb95a937bd6670",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "6/6",
-    "crawler": "1073/1073",
+    "focused": "7/7",
+    "crawler": "1074/1074",
     "web": "256/256",
     "typecheck": "passed",
     "lint": "passed;existingfontwarning",
     "national": "passed branchbaseline",
     "static": "109/109 subpath",
-    "quotes": "34938 candidates/103741 quotes"
+    "quotes": "35540 candidates/105128 quotes"
   },
   "remoteCI": "unverified;known ActionsAPI403 not retried",
-  "remaining": "Chiba queue continues. Sakae602 proposals staged outside repository; not fullvalidated. Tonosho41 are related educational class records. Missing42 bodies remain held. Existing partial-name corrections need separate coordinated integration; no existing values changed."
+  "remaining": "Chiba queue continues. Sakae602 now fullvalidated; further255 proposals staged outside repository, not fullvalidated. Tonosho41 are related educational class records. Missing42 bodies remain held. Existing partial-name corrections need separate coordinated integration; no existing values changed."
 }

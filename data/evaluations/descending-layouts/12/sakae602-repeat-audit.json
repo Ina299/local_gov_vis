@@ -1,0 +1,16 @@
+{
+  "reviewed": 602,
+  "flagged": [
+    {
+      "sourceId": "696f10cd99d5717fa0f67de9",
+      "name": "中学生海外派遣事業",
+      "result": "Adjacent コミュニティ・スクール事業 has 再掲 marker; accepted overseas-program name is separate."
+    },
+    {
+      "sourceId": "ccb01edf72c2ccbfca4adecf",
+      "name": "図書室管理運営事業",
+      "result": "First primary row retained once; following same-name 再掲 row not generated."
+    }
+  ],
+  "scope": "Inspect source text immediately following every configured name; this proximity audit supplements exact-title/year dedup and does not prove entire books exhausted."
+}

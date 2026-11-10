@@ -1,0 +1,1094 @@
+[
+  {
+    "sourceId": "ccb01edf72c2ccbfca4adecf",
+    "proposals": 26,
+    "ledger": [
+      {
+        "name": "保育委託事業",
+        "start": 2528,
+        "status": "held_or_duplicate",
+        "reason": "Repeated complete title; annual identity requires separate code/occurrence review."
+      },
+      {
+        "name": "保育委託事業",
+        "start": 2712,
+        "status": "held_or_duplicate",
+        "reason": "Repeated complete title; annual identity requires separate code/occurrence review."
+      },
+      {
+        "name": "出産祝金支給事業",
+        "start": 3713,
+        "status": "held_or_duplicate",
+        "reason": "Repeated complete title; annual identity requires separate code/occurrence review."
+      },
+      {
+        "name": "出産祝金支給事業",
+        "start": 4362,
+        "status": "held_or_duplicate",
+        "reason": "Repeated complete title; annual identity requires separate code/occurrence review."
+      },
+      {
+        "name": "ひとり親家庭等医療費等助成事業",
+        "start": 5656,
+        "status": "held_or_duplicate",
+        "reason": "Repeated complete title; annual identity requires separate code/occurrence review."
+      },
+      {
+        "name": "ひとり親家庭等医療費等助成事業",
+        "start": 6234,
+        "status": "held_or_duplicate",
+        "reason": "Repeated complete title; annual identity requires separate code/occurrence review."
+      },
+      {
+        "name": "妊婦健診事業",
+        "start": 8344,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "幼児健診事業",
+        "start": 8788,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "29戸住宅地開発の誘導事業",
+        "start": 10523,
+        "status": "held_or_duplicate",
+        "reason": "Adjacent KPI contamination or uncertain OCR characters; no inferred correction."
+      },
+      {
+        "name": "前新田地区町道新設事業",
+        "start": 11531,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "矢口地区町道拡幅事業",
+        "start": 11698,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "通学路整備事業",
+        "start": 11851,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "橋梁整備事業",
+        "start": 11969,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "町道舗装修繕事業",
+        "start": 12445,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "町道維持管理事業",
+        "start": 12638,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "公園等整備事業",
+        "start": 13199,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "公園等管理事業",
+        "start": 13330,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "29戸住宅地開発の誘導事業",
+        "start": 16449,
+        "status": "held_or_duplicate",
+        "reason": "Adjacent KPI contamination or uncertain OCR characters; no inferred correction."
+      },
+      {
+        "name": "地籍調査事業",
+        "start": 16531,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "空家等対策計画策定事業",
+        "start": 18272,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "立地適正化計画策定事業",
+        "start": 18778,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "不法投棄廃棄物処理事業",
+        "start": 19623,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "空地の繁茂対策事業",
+        "start": 20261,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "水辺のクリーン作戦事業",
+        "start": 20788,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "避難所施設改修等事業",
+        "start": 25296,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "備蓄品等整備事業",
+        "start": 25566,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "消防団員確保促進事業",
+        "start": 26222,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "253人消防団運営事業",
+        "start": 26261,
+        "status": "held_or_duplicate",
+        "reason": "Adjacent KPI contamination or uncertain OCR characters; no inferred correction."
+      },
+      {
+        "name": "消防水利整備事業",
+        "start": 27007,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "高規格救急自動車整備事業",
+        "start": 27206,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "消防団器具庫整備事業",
+        "start": 27804,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "消防団車両整備事業",
+        "start": 27935,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "交通安全施設整備事業",
+        "start": 30062,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "食育推進事業",
+        "start": 31281,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "口の機能低下予防事業",
+        "start": 31301,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "がん検診事業",
+        "start": 32109,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "高齢者緊急通報装置貸与事業",
+        "start": 34250,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "飼料用米等拡大事業",
+        "start": 41538,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "生産性向上設備導入支援事業",
+        "start": 41631,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "土地改良施設等整備推進事業",
+        "start": 41824,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "農業経営基盤強化事業",
+        "start": 42695,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "認定農業者育成事業",
+        "start": 42804,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "新規就農者育成事業",
+        "start": 43628,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "農産物ブランド化事業",
+        "start": 43709,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "商工会活動支援事業",
+        "start": 44527,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "農地多面的機能交付金事業",
+        "start": 45436,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "中小企業資金融資支援事業",
+        "start": 45774,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "栄町創業支援補助事業",
+        "start": 46032,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "イベント広場の整備事業",
+        "start": 46660,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "リバーサイドフェスティバル事業",
+        "start": 47281,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "雇用就労支援事業",
+        "start": 51019,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "わくわくドラム推進事業",
+        "start": 54240,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "中学生海外派遣事業",
+        "start": 54714,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "私立幼稚園就園支援事業",
+        "start": 55413,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "学校施設修繕事業",
+        "start": 56800,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "施設の維持管理事業",
+        "start": 56824,
+        "status": "held_or_duplicate",
+        "reason": "Generic facility maintenance title requires explicit facility identity."
+      },
+      {
+        "name": "いきいき塾さかえ事業",
+        "start": 58152,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "図書室管理運営事業",
+        "start": 59113,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "自主文化事業実施事業",
+        "start": 62917,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "文化財等の保存公開事業",
+        "start": 63831,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "自治振興育成事業助成金交付事業",
+        "start": 66178,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "広報さかえ発行事業",
+        "start": 68683,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "60件人材開発の充実事業",
+        "start": 70298,
+        "status": "held_or_duplicate",
+        "reason": "Adjacent KPI contamination or uncertain OCR characters; no inferred correction."
+      },
+      {
+        "name": "600件各種相談業務の充実不登校相談・支援推進事業",
+        "start": 72174,
+        "status": "held_or_duplicate",
+        "reason": "Adjacent KPI contamination or uncertain OCR characters; no inferred correction."
+      },
+      {
+        "name": "会計審査事業",
+        "start": 74332,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "出納事業",
+        "start": 74840,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      }
+    ]
+  },
+  {
+    "sourceId": "4571b88a0ac059b26fed242f",
+    "proposals": 29,
+    "ledger": [
+      {
+        "name": "宅地開発・建築指導事業",
+        "start": 6387,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "公園等維持管理事業",
+        "start": 6912,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "循環バス利用環境整備事業",
+        "start": 9168,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "町道整備事業",
+        "start": 10435,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "水質汚濁対策事業",
+        "start": 12398,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "動物愛護事業",
+        "start": 13477,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "防災訓練事業",
+        "start": 15527,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "消防団員福利厚生等関係事業",
+        "start": 16225,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "予防接種事業",
+        "start": 21885,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "健康管理支援事業",
+        "start": 22918,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "がん予防対策事業",
+        "start": 23763,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "母子健康管理支援事業",
+        "start": 24349,
+        "status": "held_or_duplicate",
+        "reason": "Repeated complete title; annual identity requires separate code/occurrence review."
+      },
+      {
+        "name": "母子健康管理支援事業",
+        "start": 26012,
+        "status": "held_or_duplicate",
+        "reason": "Repeated complete title; annual identity requires separate code/occurrence review."
+      },
+      {
+        "name": "高齢者在宅福祉サービス事業",
+        "start": 27627,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "施設入所支援事業",
+        "start": 28144,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "後期高齢者医療事業",
+        "start": 32854,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "エコ農業の推進事業",
+        "start": 34438,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "水田の有効活用事業",
+        "start": 34555,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "農地多面的機能の発揮促進事業",
+        "start": 35103,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "消費生活相談事業",
+        "start": 36813,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "学力向上プラン推進事業",
+        "start": 40805,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "個に応じた授業改善推進事業",
+        "start": 40890,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "給食費徴収事務事業",
+        "start": 43213,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "給食事業",
+        "start": 43301,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "スポーツレクリエーション交流事業",
+        "start": 45154,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "記録史料の保存・公開事業",
+        "start": 47394,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "渉外事業",
+        "start": 48378,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "人材育成事業",
+        "start": 48678,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "成田空港圏関係自治体との連携事業",
+        "start": 50152,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "地籍調査事業",
+        "start": 52049,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "出納事業",
+        "start": 55475,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "会計審査事業",
+        "start": 56037,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "監査事業",
+        "start": 57080,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "例規システム及び法令書等管理事業",
+        "start": 59348,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "情報公開制度運用事業",
+        "start": 61099,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      }
+    ]
+  },
+  {
+    "sourceId": "a9997ebef76c1af05ffcead7",
+    "proposals": 30,
+    "ledger": [
+      {
+        "name": "協働パートナーとの連携推進事業",
+        "start": 4315,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "町民からの意見募集事業",
+        "start": 4420,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "定住・移住促進事業",
+        "start": 8076,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "水質汚濁対策事業",
+        "start": 13458,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "墓地・埋火葬等に関する事業",
+        "start": 15426,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "消防団員福利厚生等関係事業",
+        "start": 18078,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "救急・火災協働事業",
+        "start": 19520,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "土砂災害防止対策事業",
+        "start": 20352,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "交通事故のないまちづくり事業",
+        "start": 21262,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "健康管理支援事業",
+        "start": 24281,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "保育サービス事業",
+        "start": 25533,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "低所得者支援事業",
+        "start": 28426,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "生きがい対策事業",
+        "start": 29407,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "高齢者在宅福祉サービス事業",
+        "start": 30177,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "エコ農業の推進事業",
+        "start": 36124,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "消費生活相談事業",
+        "start": 39028,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "ドラムの里事業",
+        "start": 41028,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "学力向上プラン推進事業",
+        "start": 43403,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "小６５％中４７％個に応じ授業改善推進事業",
+        "start": 44241,
+        "status": "held_or_duplicate",
+        "reason": "Adjacent KPI contamination or uncertain OCR characters; no inferred correction."
+      },
+      {
+        "name": "学校教育を担う人材の育成支援事業",
+        "start": 44697,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "給食事業",
+        "start": 47286,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "栄っこ夢・元気プロジェクト推進事業",
+        "start": 48074,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "スポーツ競技力向上事業",
+        "start": 49641,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "記録史料の保存・公開事業",
+        "start": 51486,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "文化財の調査・保護事業",
+        "start": 52023,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "渉外事業",
+        "start": 52616,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "成田空港圏関係自治体との連携事業",
+        "start": 54013,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "入札・契約適正化事業",
+        "start": 55034,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "庁舎電算システムセキュリティ事業",
+        "start": 55845,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "出納事業",
+        "start": 60242,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "監査事業",
+        "start": 61263,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "例規システム及び法令書等管理事業",
+        "start": 63236,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      }
+    ]
+  },
+  {
+    "sourceId": "737b58ab788c1fd90ce502fd",
+    "proposals": 18,
+    "ledger": [
+      {
+        "name": "宅地開発・建築指導事業",
+        "start": 6503,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "公園施設魅力アップ事業",
+        "start": 7304,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "町道整備事業",
+        "start": 10870,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "動物愛護事業",
+        "start": 14063,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "防災訓練事業",
+        "start": 16029,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "消防団員福利厚生等関係事業",
+        "start": 17501,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "浸水危険箇所対策事業",
+        "start": 18666,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "予防接種事業",
+        "start": 21485,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "がん予防対策事業",
+        "start": 22830,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "エコ農業の推進事業",
+        "start": 34313,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "水田の有効活用事業",
+        "start": 34426,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "ネットワーク形成事業",
+        "start": 36604,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "給食事業",
+        "start": 42161,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "記録史料の保存・公開事業",
+        "start": 46029,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "渉外事業",
+        "start": 46296,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "人材育成事業",
+        "start": 46527,
+        "status": "held_or_duplicate",
+        "reason": "Already staged same annual business."
+      },
+      {
+        "name": "地積調査事業",
+        "start": 49611,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "会計審査事業",
+        "start": 53019,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "出納事業",
+        "start": 54259,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "監査事業",
+        "start": 54287,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      }
+    ]
+  },
+  {
+    "sourceId": "6a29098a04582c4cd937e737",
+    "proposals": 13,
+    "ledger": [
+      {
+        "name": "災害軽減対策事業",
+        "start": 15639,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "消防団員福利厚生等関係事業",
+        "start": 16052,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "消防団運営事業",
+        "start": 16207,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "犯罪のないまちづくり推進事業",
+        "start": 18205,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "交通事敀のないまちづくり事業",
+        "start": 18416,
+        "status": "held_or_duplicate",
+        "reason": "Adjacent KPI contamination or uncertain OCR characters; no inferred correction."
+      },
+      {
+        "name": "高齢者在宅福祉サービス事業",
+        "start": 26691,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "水田の有効活用事業",
+        "start": 32433,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "国際化に対応した人間教育事業",
+        "start": 38469,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "学校保健衛生事業",
+        "start": 38500,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "就学支援事業",
+        "start": 38711,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "地域教育力活用・支援事業",
+        "start": 40200,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "スポーツレクリエーション交流事業",
+        "start": 41557,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "各種相談事業及び人権啓発事業",
+        "start": 48429,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "賅産税賦課事業",
+        "start": 49523,
+        "status": "held_or_duplicate",
+        "reason": "Adjacent KPI contamination or uncertain OCR characters; no inferred correction."
+      },
+      {
+        "name": "行政文書管理事業",
+        "start": 54799,
+        "status": "proposed",
+        "reason": "Complete standalone business title immediately followed by saved budget-account citation; account is supporting evidence only, not inferred project identity or cost."
+      },
+      {
+        "name": "栄町総合戦略策定事業",
+        "start": 60176,
+        "status": "held_or_duplicate",
+        "reason": "Separate grant appendix; annual source context must be checked independently."
+      },
+      {
+        "name": "福祉系・医療系学生アパート代支援事業",
+        "start": 61231,
+        "status": "held_or_duplicate",
+        "reason": "Separate grant appendix; annual source context must be checked independently."
+      },
+      {
+        "name": "アパート移住者子育て支援事業",
+        "start": 61449,
+        "status": "held_or_duplicate",
+        "reason": "Separate grant appendix; annual source context must be checked independently."
+      },
+      {
+        "name": "出産応援支援金事業",
+        "start": 63092,
+        "status": "held_or_duplicate",
+        "reason": "Separate grant appendix; annual source context must be checked independently."
+      },
+      {
+        "name": "子育て相談センター設置事業",
+        "start": 63682,
+        "status": "held_or_duplicate",
+        "reason": "Separate grant appendix; annual source context must be checked independently."
+      },
+      {
+        "name": "多子世帯支援事業",
+        "start": 64161,
+        "status": "held_or_duplicate",
+        "reason": "Separate grant appendix; annual source context must be checked independently."
+      },
+      {
+        "name": "地元就職者支援事業",
+        "start": 64447,
+        "status": "held_or_duplicate",
+        "reason": "Separate grant appendix; annual source context must be checked independently."
+      },
+      {
+        "name": "駅周辺サイン看板設置事業",
+        "start": 68945,
+        "status": "held_or_duplicate",
+        "reason": "Separate grant appendix; annual source context must be checked independently."
+      },
+      {
+        "name": "シーズンイルミネーション事業",
+        "start": 69701,
+        "status": "held_or_duplicate",
+        "reason": "Separate grant appendix; annual source context must be checked independently."
+      }
+    ]
+  }
+]

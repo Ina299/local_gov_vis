@@ -1,0 +1,893 @@
+{
+  "sourceId": "26c1bff427a31b64f75ed8b2",
+  "proposed": 170,
+  "status": "partial_review_remaining_wrapped_titles_and_other_books",
+  "reviewed": [
+    {
+      "name": "保育委託事業",
+      "titleOffset": 2740,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "医療費助成事業",
+      "titleOffset": 4033,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "育児応援塾事業",
+      "titleOffset": 5725,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "妊婦健診事業",
+      "titleOffset": 7024,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "産婦健診事業",
+      "titleOffset": 7136,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "妊産婦支援事業",
+      "titleOffset": 7311,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "乳児健診事業",
+      "titleOffset": 7761,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "幼児健診事業",
+      "titleOffset": 7868,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "予防接種事業",
+      "titleOffset": 7879,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "通学路整備事業",
+      "titleOffset": 11556,
+      "repeatedTitleOffsets": [
+        32361
+      ],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "橋梁整備事業",
+      "titleOffset": 11565,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "公園等整備事業",
+      "titleOffset": 12971,
+      "repeatedTitleOffsets": [
+        28034
+      ],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "公園等管理事業",
+      "titleOffset": 13313,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "地籍調査事業",
+      "titleOffset": 16242,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "耐震対策事業",
+      "titleOffset": 17890,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "感染症予防事業",
+      "titleOffset": 34113,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "健康増進事業",
+      "titleOffset": 34278,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "食育推進事業",
+      "titleOffset": 34742,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "がん検診事業",
+      "titleOffset": 35688,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "人間ドック事業",
+      "titleOffset": 36306,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "心の相談事業",
+      "titleOffset": 43749,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "担い手育成事業",
+      "titleOffset": 49649,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "買い物支援事業",
+      "titleOffset": 57401,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "就学援助事業",
+      "titleOffset": 69558,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "ＩＣＴ教育充実事業",
+      "titleOffset": 74423,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "図書室運営事業",
+      "titleOffset": 76573,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "マラソン大会事業",
+      "titleOffset": 80757,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "町史編さん事業",
+      "titleOffset": 83014,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "ＳＤＧｓ啓発事業",
+      "titleOffset": 88491,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "人材育成事業",
+      "titleOffset": 89027,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "住民税課税事業",
+      "titleOffset": 92307,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "資産税課税事業",
+      "titleOffset": 92499,
+      "repeatedTitleOffsets": [],
+      "reason": "Explicit standalone name in main-business column; repeats kept as source occurrences, not additional annual projects. Policy/KPI parent, costs and aggregate grades excluded."
+    },
+    {
+      "name": "子ども・子育て支援計画策定事業",
+      "titleOffset": 3311,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "保育の無償化推進事業",
+      "titleOffset": 4596,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "在宅勤務者移住促進事業",
+      "titleOffset": 9579,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "前新田地区町道新設事業",
+      "titleOffset": 11357,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "矢口地区町道拡幅事業",
+      "titleOffset": 11469,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "南北自由通路整備事業",
+      "titleOffset": 13855,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "成田線活性化推進事業",
+      "titleOffset": 13959,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "安食駅利便性向上事業",
+      "titleOffset": 14364,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "印旛日本医大駅行新規バス路線実証実験事業",
+      "titleOffset": 15183,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "空き家等実態調査事業",
+      "titleOffset": 17102,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "都市再生整備計画推進事業",
+      "titleOffset": 17970,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "立地適正化計画推進事業",
+      "titleOffset": 18084,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "大気汚染等の情報提供事業",
+      "titleOffset": 19195,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "住宅用脱炭素設備設置助成事業",
+      "titleOffset": 20356,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "公共下水道未接続解消事業",
+      "titleOffset": 22302,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "総合地震計画推進事業",
+      "titleOffset": 22915,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "ごみの広域処理促進事業",
+      "titleOffset": 23323,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "避難行動要支援者支援事業",
+      "titleOffset": 25955,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "災害支援拠点整備事業",
+      "titleOffset": 27210,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "消防活動能力向上事業",
+      "titleOffset": 29120,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "広域業務体制構築事業",
+      "titleOffset": 29528,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "火災予防対策推進事業",
+      "titleOffset": 30216,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "防犯カメラ設置・管理事業",
+      "titleOffset": 31266,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "交通安全施設整備事業",
+      "titleOffset": 31908,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "口の機能低下予防事業",
+      "titleOffset": 34804,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "地域保健活動拠点づくり事業",
+      "titleOffset": 34991,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "医療機関の受診環境整備事業",
+      "titleOffset": 37067,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "医療介護連携の推進事業",
+      "titleOffset": 38085,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "生活支援体制整備事業",
+      "titleOffset": 38579,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "高齢者緊急通報装置貸与事業",
+      "titleOffset": 38828,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "介護職員初任者研修事業",
+      "titleOffset": 38968,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "地域介護予防活動の支援事業",
+      "titleOffset": 40249,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "認知症初期集中支援推進事業",
+      "titleOffset": 41319,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "認知症高齢者等見守り事業",
+      "titleOffset": 41777,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "障がい者の相談支援事業",
+      "titleOffset": 42847,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "生活支援用具給付事業",
+      "titleOffset": 43062,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "重度心身障がい者（児）医療費助成事業",
+      "titleOffset": 43400,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "障がい者就労支援事業",
+      "titleOffset": 43572,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "障がい者計画等策定事業",
+      "titleOffset": 43955,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "医療的ケア児の支援充実事業",
+      "titleOffset": 44174,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "社会福祉協議会連携事業",
+      "titleOffset": 44651,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "地域福祉計画策定事業",
+      "titleOffset": 44891,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "生活困窮者相談推進事業",
+      "titleOffset": 45364,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "更生保護活動の推進事業",
+      "titleOffset": 45555,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "成年後見制度利用促進事業",
+      "titleOffset": 45700,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "介護給付費適正化事業",
+      "titleOffset": 47207,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "介護保険料収納対策推進事業",
+      "titleOffset": 47602,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "国民年金窓口事務適正処理等推進事業",
+      "titleOffset": 48336,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "土地改良施設等整備推進事業",
+      "titleOffset": 48706,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "農業振興地域整備計画策定事業",
+      "titleOffset": 49006,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "生産性向上設備導入支援事業",
+      "titleOffset": 49168,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "遊休農地活用促進事業",
+      "titleOffset": 49368,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "担い手への農地利用集積事業",
+      "titleOffset": 49608,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "農業経営基盤強化事業",
+      "titleOffset": 49624,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "農地多面的機能交付金事業",
+      "titleOffset": 53137,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "中小企業資金融資支援事業",
+      "titleOffset": 56333,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "中小企業の生産性向上支援事業",
+      "titleOffset": 56459,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "がんばる商店応援補助事業",
+      "titleOffset": 56771,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "観光プロモーション推進事業",
+      "titleOffset": 59565,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "観光案内看板等整備事業",
+      "titleOffset": 59736,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "矢口工業団地拡張促進事業",
+      "titleOffset": 62667,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "町民の雇用創出促進事業",
+      "titleOffset": 62849,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "既存工業団地の活性化事業",
+      "titleOffset": 63475,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "教員アシスタント職員活用事業",
+      "titleOffset": 66653,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "学校施設大規模改修事業",
+      "titleOffset": 72775,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "放課後ふれあい教室事業",
+      "titleOffset": 77404,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "スポーツフェスタ実施事業",
+      "titleOffset": 79970,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "自主文化事業実施事業",
+      "titleOffset": 81834,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "芸術文化公演鑑賞支援事業",
+      "titleOffset": 81905,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "芸術文化団体活動支援事業",
+      "titleOffset": 82140,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "文化財等のＰＲ・情報発信事業",
+      "titleOffset": 82685,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "町民への加入促進事業",
+      "titleOffset": 85371,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "男女共同参画推進事業",
+      "titleOffset": 87613,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "旅券発給申請交付事業",
+      "titleOffset": 89931,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "ワンストップ窓口推進事業",
+      "titleOffset": 90699,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "キャッシュレス化推進事業",
+      "titleOffset": 91206,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "計画的な財政運営事業",
+      "titleOffset": 93106,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "町税収納対策推進事業",
+      "titleOffset": 93181,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "基本計画進行管理事業",
+      "titleOffset": 94422,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "栄町総合戦略推進事業",
+      "titleOffset": 95235,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "成田空港機能強化連携事業",
+      "titleOffset": 96332,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "保育士確保支援事業",
+      "titleOffset": 2922,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "保育所整備支援事業",
+      "titleOffset": 3465,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "子育て祝金支給事業",
+      "titleOffset": 4323,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "キッズランド運営事業",
+      "titleOffset": 5308,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "子育て相談支援事業",
+      "titleOffset": 5507,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "町道舗装修繕事業",
+      "titleOffset": 12046,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "町道維持管理事業",
+      "titleOffset": 12097,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "安食駅駅舎改築事業",
+      "titleOffset": 13686,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "路線バス維持事業",
+      "titleOffset": 14866,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "循環バス運行事業",
+      "titleOffset": 15068,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "地区計画推進事業",
+      "titleOffset": 18181,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "宅地開発等指導事業",
+      "titleOffset": 18271,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "宅地耐震化推進事業",
+      "titleOffset": 18406,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "合併処理浄化槽への転換補助事業",
+      "titleOffset": 18958,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "水道の広域供給事業",
+      "titleOffset": 19691,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "美化運動の推進事業",
+      "titleOffset": 19804,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "経営戦略推進事業",
+      "titleOffset": 22106,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "ごみ減量化推進事業",
+      "titleOffset": 23557,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "防災訓練充実事業",
+      "titleOffset": 24854,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "地域防災力向上事業",
+      "titleOffset": 25036,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "備蓄品等整備事業",
+      "titleOffset": 25229,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "避難体制整備事業",
+      "titleOffset": 25653,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "情報連携強化事業",
+      "titleOffset": 26141,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "長門川護岸整備事業",
+      "titleOffset": 26399,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "消防団体制推進事業",
+      "titleOffset": 29401,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "救急業務高度化事業",
+      "titleOffset": 29625,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "通学路安全対策事業",
+      "titleOffset": 32495,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "消費生活相談事業",
+      "titleOffset": 33175,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "特定健康診査事業",
+      "titleOffset": 36100,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "認知症地域支援事業",
+      "titleOffset": 41609,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "国民健康保険会計健全運営推進事業",
+      "titleOffset": 46403,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "国民健康保険税収納対策推進事業",
+      "titleOffset": 46643,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "後期高齢者医療制度適正執行事業",
+      "titleOffset": 46830,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "飼料用米等拡大事業",
+      "titleOffset": 48722,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "新規就農者育成事業",
+      "titleOffset": 49637,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "地産地消の促進事業",
+      "titleOffset": 51760,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "特産品栽培強化事業",
+      "titleOffset": 53086,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "有機農業支援事業",
+      "titleOffset": 53116,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "商工会活動支援事業",
+      "titleOffset": 56098,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "観光情報発信事業",
+      "titleOffset": 60262,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "中学生海外派遣事業",
+      "titleOffset": 64411,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "外国語教育推進事業",
+      "titleOffset": 68405,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "私立幼稚園支援事業",
+      "titleOffset": 69505,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "給食費の無償化事業",
+      "titleOffset": 70748,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "地域部活動推進事業",
+      "titleOffset": 71681,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "学校施設修繕事業",
+      "titleOffset": 72903,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "青少年健全育成事業",
+      "titleOffset": 77562,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "まちづくり大学事業",
+      "titleOffset": 84320,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "自治振興育成事業",
+      "titleOffset": 85114,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "栄町地区連絡協議会活動支援事業",
+      "titleOffset": 85487,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "人権行政相談事業",
+      "titleOffset": 87793,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "生活情報提供事業",
+      "titleOffset": 88927,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "国際交流推進事業",
+      "titleOffset": 89528,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "健全な財政運営事業",
+      "titleOffset": 92763,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "町債の適正管理事業",
+      "titleOffset": 93077,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "地方創生推進事業",
+      "titleOffset": 95464,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    },
+    {
+      "name": "広域行政連携事業",
+      "titleOffset": 96581,
+      "reason": "Reviewed contiguous wrapped major-business title; only name and explicit annual identity, no adjacent column assignments."
+    }
+  ]
+}

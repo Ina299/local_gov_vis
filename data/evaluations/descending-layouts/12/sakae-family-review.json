@@ -1,0 +1,4110 @@
+[
+  {
+    "sourceId": "696f10cd99d5717fa0f67de9",
+    "targetYear": 2023,
+    "proposals": 161,
+    "ledger": [
+      {
+        "name": "保育委託事業",
+        "status": "proposed",
+        "offset": 2778,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "医療費助成事業",
+        "status": "proposed",
+        "offset": 4021,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "育児応援塾事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "妊婦健診事業",
+        "status": "proposed",
+        "offset": 7157,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "産婦健診事業",
+        "status": "proposed",
+        "offset": 6378,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "妊産婦支援事業",
+        "status": "proposed",
+        "offset": 6386,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "乳児健診事業",
+        "status": "proposed",
+        "offset": 6409,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "幼児健診事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "予防接種事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "通学路整備事業",
+        "status": "proposed",
+        "offset": 9846,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "橋梁整備事業",
+        "status": "proposed",
+        "offset": 9855,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "公園等整備事業",
+        "status": "proposed",
+        "offset": 11250,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "公園等管理事業",
+        "status": "proposed",
+        "offset": 11736,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "地籍調査事業",
+        "status": "proposed",
+        "offset": 13830,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "耐震対策事業",
+        "status": "proposed",
+        "offset": 15055,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "感染症予防事業",
+        "status": "proposed",
+        "offset": 31280,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "健康増進事業",
+        "status": "proposed",
+        "offset": 31289,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "食育推進事業",
+        "status": "proposed",
+        "offset": 31297,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "がん検診事業",
+        "status": "proposed",
+        "offset": 32628,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "人間ドック事業",
+        "status": "proposed",
+        "offset": 33209,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "心の相談事業",
+        "status": "proposed",
+        "offset": 39556,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "担い手育成事業",
+        "status": "proposed",
+        "offset": 47100,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "買い物支援事業",
+        "status": "proposed",
+        "offset": 51927,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "就学援助事業",
+        "status": "proposed",
+        "offset": 61894,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "ＩＣＴ教育充実事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "図書室運営事業",
+        "status": "proposed",
+        "offset": 66493,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "マラソン大会事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "町史編さん事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "ＳＤＧｓ啓発事業",
+        "status": "proposed",
+        "offset": 77148,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "人材育成事業",
+        "status": "proposed",
+        "offset": 77883,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "住民税課税事業",
+        "status": "proposed",
+        "offset": 81244,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "資産税課税事業",
+        "status": "proposed",
+        "offset": 81253,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "子ども・子育て支援計画策定事業",
+        "status": "proposed",
+        "offset": 3464,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "保育の無償化推進事業",
+        "status": "proposed",
+        "offset": 4044,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "在宅勤務者移住促進事業",
+        "status": "proposed",
+        "offset": 8448,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "前新田地区町道新設事業",
+        "status": "proposed",
+        "offset": 9514,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "矢口地区町道拡幅事業",
+        "status": "proposed",
+        "offset": 9677,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "南北自由通路整備事業",
+        "status": "proposed",
+        "offset": 12211,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "成田線活性化推進事業",
+        "status": "proposed",
+        "offset": 12316,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "安食駅利便性向上事業",
+        "status": "proposed",
+        "offset": 12717,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "印旛日本医大駅行新規バス路線実証実験事業",
+        "status": "proposed",
+        "offset": 13510,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "空き家等実態調査事業",
+        "status": "proposed",
+        "offset": 14736,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "都市再生整備計画推進事業",
+        "status": "proposed",
+        "offset": 15318,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "立地適正化計画推進事業",
+        "status": "proposed",
+        "offset": 15501,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "大気汚染等の情報提供事業",
+        "status": "proposed",
+        "offset": 16844,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "住宅用脱炭素設備設置助成事業",
+        "status": "proposed",
+        "offset": 18009,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "公共下水道未接続解消事業",
+        "status": "proposed",
+        "offset": 20240,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "総合地震計画推進事業",
+        "status": "proposed",
+        "offset": 19565,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "ごみの広域処理促進事業",
+        "status": "proposed",
+        "offset": 20490,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "避難行動要支援者支援事業",
+        "status": "proposed",
+        "offset": 22801,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "災害支援拠点整備事業",
+        "status": "proposed",
+        "offset": 23999,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "消防活動能力向上事業",
+        "status": "proposed",
+        "offset": 25964,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "広域業務体制構築事業",
+        "status": "proposed",
+        "offset": 26542,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "火災予防対策推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "防犯カメラ設置・管理事業",
+        "status": "proposed",
+        "offset": 27791,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "交通安全施設整備事業",
+        "status": "proposed",
+        "offset": 28794,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "口の機能低下予防事業",
+        "status": "proposed",
+        "offset": 31814,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "地域保健活動拠点づくり事業",
+        "status": "proposed",
+        "offset": 32053,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "医療機関の受診環境整備事業",
+        "status": "proposed",
+        "offset": 33889,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "医療介護連携の推進事業",
+        "status": "proposed",
+        "offset": 34805,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "生活支援体制整備事業",
+        "status": "proposed",
+        "offset": 35418,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "高齢者緊急通報装置貸与事業",
+        "status": "proposed",
+        "offset": 35431,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "介護職員初任者研修事業",
+        "status": "proposed",
+        "offset": 35447,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "地域介護予防活動の支援事業",
+        "status": "proposed",
+        "offset": 37261,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "認知症初期集中支援推進事業",
+        "status": "proposed",
+        "offset": 38100,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "認知症高齢者等見守り事業",
+        "status": "proposed",
+        "offset": 38583,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "障がい者の相談支援事業",
+        "status": "proposed",
+        "offset": 41119,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "生活支援用具給付事業",
+        "status": "proposed",
+        "offset": 39272,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "重度心身障がい者（児）医療費助成事業",
+        "status": "proposed",
+        "offset": 41133,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "障がい者就労支援事業",
+        "status": "proposed",
+        "offset": 41090,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "障がい者計画等策定事業",
+        "status": "proposed",
+        "offset": 40129,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "医療的ケア児の支援充実事業",
+        "status": "proposed",
+        "offset": 40367,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "社会福祉協議会連携事業",
+        "status": "proposed",
+        "offset": 41339,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "地域福祉計画策定事業",
+        "status": "proposed",
+        "offset": 41353,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "生活困窮者相談推進事業",
+        "status": "proposed",
+        "offset": 42103,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "更生保護活動の推進事業",
+        "status": "proposed",
+        "offset": 42301,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "成年後見制度利用促進事業",
+        "status": "proposed",
+        "offset": 42406,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "介護給付費適正化事業",
+        "status": "proposed",
+        "offset": 44369,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "介護保険料収納対策推進事業",
+        "status": "proposed",
+        "offset": 44819,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "国民年金窓口事務適正処理等推進事業",
+        "status": "proposed",
+        "offset": 45007,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "土地改良施設等整備推進事業",
+        "status": "proposed",
+        "offset": 45502,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "農業振興地域整備計画策定事業",
+        "status": "proposed",
+        "offset": 45992,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "生産性向上設備導入支援事業",
+        "status": "proposed",
+        "offset": 46168,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "遊休農地活用促進事業",
+        "status": "proposed",
+        "offset": 46184,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "担い手への農地利用集積事業",
+        "status": "proposed",
+        "offset": 46570,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "農業経営基盤強化事業",
+        "status": "proposed",
+        "offset": 46916,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "農地多面的機能交付金事業",
+        "status": "proposed",
+        "offset": 49089,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "中小企業資金融資支援事業",
+        "status": "proposed",
+        "offset": 51075,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "中小企業の生産性向上支援事業",
+        "status": "proposed",
+        "offset": 51160,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "がんばる商店応援補助事業",
+        "status": "proposed",
+        "offset": 51437,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "観光プロモーション推進事業",
+        "status": "proposed",
+        "offset": 52949,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "観光案内看板等整備事業",
+        "status": "proposed",
+        "offset": 53105,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "矢口工業団地拡張促進事業",
+        "status": "proposed",
+        "offset": 56240,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "町民の雇用創出促進事業",
+        "status": "proposed",
+        "offset": 56422,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "既存工業団地の活性化事業",
+        "status": "proposed",
+        "offset": 56922,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "教員アシスタント職員活用事業",
+        "status": "proposed",
+        "offset": 60165,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "学校施設大規模改修事業",
+        "status": "proposed",
+        "offset": 65005,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "放課後ふれあい教室事業",
+        "status": "proposed",
+        "offset": 67273,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "スポーツフェスタ実施事業",
+        "status": "proposed",
+        "offset": 69285,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "自主文化事業実施事業",
+        "status": "proposed",
+        "offset": 70631,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "芸術文化公演鑑賞支援事業",
+        "status": "proposed",
+        "offset": 70708,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "芸術文化団体活動支援事業",
+        "status": "proposed",
+        "offset": 70885,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "文化財等のＰＲ・情報発信事業",
+        "status": "proposed",
+        "offset": 71395,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "町民への加入促進事業",
+        "status": "proposed",
+        "offset": 74161,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "男女共同参画推進事業",
+        "status": "proposed",
+        "offset": 76196,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "旅券発給申請交付事業",
+        "status": "proposed",
+        "offset": 78580,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "ワンストップ窓口推進事業",
+        "status": "proposed",
+        "offset": 79341,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "キャッシュレス化推進事業",
+        "status": "proposed",
+        "offset": 80507,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "計画的な財政運営事業",
+        "status": "proposed",
+        "offset": 82071,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "町税収納対策推進事業",
+        "status": "proposed",
+        "offset": 82138,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "基本計画進行管理事業",
+        "status": "proposed",
+        "offset": 83754,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "栄町総合戦略推進事業",
+        "status": "proposed",
+        "offset": 84583,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "成田空港機能強化連携事業",
+        "status": "proposed",
+        "offset": 85318,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "保育士確保支援事業",
+        "status": "proposed",
+        "offset": 3002,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "保育所整備支援事業",
+        "status": "proposed",
+        "offset": 3616,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "子育て祝金支給事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "キッズランド運営事業",
+        "status": "proposed",
+        "offset": 5128,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "子育て相談支援事業",
+        "status": "proposed",
+        "offset": 5193,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "町道舗装修繕事業",
+        "status": "proposed",
+        "offset": 10563,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "町道維持管理事業",
+        "status": "proposed",
+        "offset": 10614,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "安食駅駅舎改築事業",
+        "status": "proposed",
+        "offset": 12098,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "路線バス維持事業",
+        "status": "proposed",
+        "offset": 13193,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "循環バス運行事業",
+        "status": "proposed",
+        "offset": 13395,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "地区計画推進事業",
+        "status": "proposed",
+        "offset": 15639,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "宅地開発等指導事業",
+        "status": "proposed",
+        "offset": 15767,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "宅地耐震化推進事業",
+        "status": "proposed",
+        "offset": 15909,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "合併処理浄化槽への転換補助事業",
+        "status": "proposed",
+        "offset": 16570,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "水道の広域供給事業",
+        "status": "proposed",
+        "offset": 17372,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "美化運動の推進事業",
+        "status": "proposed",
+        "offset": 17478,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "経営戦略推進事業",
+        "status": "proposed",
+        "offset": 20107,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "ごみ減量化推進事業",
+        "status": "proposed",
+        "offset": 20702,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "防災訓練充実事業",
+        "status": "proposed",
+        "offset": 22133,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "地域防災力向上事業",
+        "status": "proposed",
+        "offset": 22303,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "備蓄品等整備事業",
+        "status": "proposed",
+        "offset": 22395,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "避難体制整備事業",
+        "status": "proposed",
+        "offset": 22474,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "情報連携強化事業",
+        "status": "proposed",
+        "offset": 22832,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "長門川護岸整備事業",
+        "status": "proposed",
+        "offset": 22843,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "消防団体制推進事業",
+        "status": "proposed",
+        "offset": 26298,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "救急業務高度化事業",
+        "status": "proposed",
+        "offset": 26724,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "通学路安全対策事業",
+        "status": "proposed",
+        "offset": 29391,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "消費生活相談事業",
+        "status": "proposed",
+        "offset": 29996,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "特定健康診査事業",
+        "status": "proposed",
+        "offset": 32636,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "認知症地域支援事業",
+        "status": "proposed",
+        "offset": 38347,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "国民健康保険会計健全運営推進事業",
+        "status": "proposed",
+        "offset": 43123,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "国民健康保険税収納対策推進事業",
+        "status": "proposed",
+        "offset": 43430,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "後期高齢者医療制度適正執行事業",
+        "status": "proposed",
+        "offset": 43773,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "飼料用米等拡大事業",
+        "status": "proposed",
+        "offset": 45797,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "新規就農者育成事業",
+        "status": "proposed",
+        "offset": 47026,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "地産地消の促進事業",
+        "status": "proposed",
+        "offset": 47910,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "特産品栽培強化事業",
+        "status": "proposed",
+        "offset": 48485,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "有機農業支援事業",
+        "status": "proposed",
+        "offset": 48926,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "商工会活動支援事業",
+        "status": "proposed",
+        "offset": 50840,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "観光情報発信事業",
+        "status": "proposed",
+        "offset": 54310,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "中学生海外派遣事業",
+        "status": "proposed",
+        "offset": 58149,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "外国語教育推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "私立幼稚園支援事業",
+        "status": "proposed",
+        "offset": 61688,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "給食費の無償化事業",
+        "status": "proposed",
+        "offset": 62095,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "地域部活動推進事業",
+        "status": "proposed",
+        "offset": 63334,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "学校施設修繕事業",
+        "status": "proposed",
+        "offset": 64377,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "青少年健全育成事業",
+        "status": "proposed",
+        "offset": 67387,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "まちづくり大学事業",
+        "status": "proposed",
+        "offset": 73092,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "自治振興育成事業",
+        "status": "proposed",
+        "offset": 73914,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "栄町地区連絡協議会活動支援事業",
+        "status": "proposed",
+        "offset": 74367,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "人権行政相談事業",
+        "status": "proposed",
+        "offset": 76422,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "生活情報提供事業",
+        "status": "proposed",
+        "offset": 77540,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "国際交流推進事業",
+        "status": "proposed",
+        "offset": 77422,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "健全な財政運営事業",
+        "status": "proposed",
+        "offset": 81569,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "町債の適正管理事業",
+        "status": "proposed",
+        "offset": 82040,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "地方創生推進事業",
+        "status": "proposed",
+        "offset": 84750,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "広域行政連携事業",
+        "status": "proposed",
+        "offset": 85566,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      }
+    ]
+  },
+  {
+    "sourceId": "69b2626162cdabd21508d2fd",
+    "targetYear": 2022,
+    "proposals": 17,
+    "ledger": [
+      {
+        "name": "保育委託事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 2,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "医療費助成事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "育児応援塾事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "妊婦健診事業",
+        "status": "proposed",
+        "offset": 7750,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "産婦健診事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "妊産婦支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "乳児健診事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "幼児健診事業",
+        "status": "proposed",
+        "offset": 7014,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "予防接種事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "通学路整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "橋梁整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "公園等整備事業",
+        "status": "proposed",
+        "offset": 10727,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "公園等管理事業",
+        "status": "proposed",
+        "offset": 11802,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "地籍調査事業",
+        "status": "proposed",
+        "offset": 13081,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "耐震対策事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "感染症予防事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "健康増進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "食育推進事業",
+        "status": "proposed",
+        "offset": 25432,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "がん検診事業",
+        "status": "proposed",
+        "offset": 26254,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "人間ドック事業",
+        "status": "proposed",
+        "offset": 26262,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "心の相談事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "担い手育成事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "買い物支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "就学援助事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "ＩＣＴ教育充実事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "図書室運営事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "マラソン大会事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "町史編さん事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "ＳＤＧｓ啓発事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "人材育成事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "住民税課税事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "資産税課税事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "子ども・子育て支援計画策定事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "保育の無償化推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "在宅勤務者移住促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "前新田地区町道新設事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "矢口地区町道拡幅事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "南北自由通路整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "成田線活性化推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "安食駅利便性向上事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "印旛日本医大駅行新規バス路線実証実験事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "空き家等実態調査事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "都市再生整備計画推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "立地適正化計画推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "大気汚染等の情報提供事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "住宅用脱炭素設備設置助成事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "公共下水道未接続解消事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "総合地震計画推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "ごみの広域処理促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "避難行動要支援者支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "災害支援拠点整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "消防活動能力向上事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "広域業務体制構築事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "火災予防対策推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "防犯カメラ設置・管理事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "交通安全施設整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "口の機能低下予防事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "地域保健活動拠点づくり事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "医療機関の受診環境整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "医療介護連携の推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "生活支援体制整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "高齢者緊急通報装置貸与事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "介護職員初任者研修事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "地域介護予防活動の支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "認知症初期集中支援推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "認知症高齢者等見守り事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "障がい者の相談支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "生活支援用具給付事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "重度心身障がい者（児）医療費助成事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "障がい者就労支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "障がい者計画等策定事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "医療的ケア児の支援充実事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "社会福祉協議会連携事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "地域福祉計画策定事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "生活困窮者相談推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "更生保護活動の推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "成年後見制度利用促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "介護給付費適正化事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "介護保険料収納対策推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "国民年金窓口事務適正処理等推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "土地改良施設等整備推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "農業振興地域整備計画策定事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "生産性向上設備導入支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "遊休農地活用促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "担い手への農地利用集積事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "農業経営基盤強化事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "農地多面的機能交付金事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "中小企業資金融資支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "中小企業の生産性向上支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "がんばる商店応援補助事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "観光プロモーション推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "観光案内看板等整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "矢口工業団地拡張促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "町民の雇用創出促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "既存工業団地の活性化事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "教員アシスタント職員活用事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "学校施設大規模改修事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "放課後ふれあい教室事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "スポーツフェスタ実施事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "自主文化事業実施事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "芸術文化公演鑑賞支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "芸術文化団体活動支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "文化財等のＰＲ・情報発信事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "町民への加入促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "男女共同参画推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "旅券発給申請交付事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "ワンストップ窓口推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "キャッシュレス化推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "計画的な財政運営事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "町税収納対策推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "基本計画進行管理事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "栄町総合戦略推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "成田空港機能強化連携事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "保育士確保支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "保育所整備支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "子育て祝金支給事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "キッズランド運営事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "子育て相談支援事業",
+        "status": "proposed",
+        "offset": 6828,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "町道舗装修繕事業",
+        "status": "proposed",
+        "offset": 9810,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "町道維持管理事業",
+        "status": "proposed",
+        "offset": 9855,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "安食駅駅舎改築事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "路線バス維持事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "循環バス運行事業",
+        "status": "proposed",
+        "offset": 13438,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "地区計画推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "宅地開発等指導事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "宅地耐震化推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "合併処理浄化槽への転換補助事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "水道の広域供給事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "美化運動の推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "経営戦略推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "ごみ減量化推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "防災訓練充実事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "地域防災力向上事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "備蓄品等整備事業",
+        "status": "proposed",
+        "offset": 20436,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "避難体制整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "情報連携強化事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "長門川護岸整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "消防団体制推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "救急業務高度化事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "通学路安全対策事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "消費生活相談事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "特定健康診査事業",
+        "status": "proposed",
+        "offset": 26271,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "認知症地域支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "国民健康保険会計健全運営推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "国民健康保険税収納対策推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "後期高齢者医療制度適正執行事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "飼料用米等拡大事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "新規就農者育成事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "地産地消の促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "特産品栽培強化事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "有機農業支援事業",
+        "status": "proposed",
+        "offset": 38169,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "商工会活動支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "観光情報発信事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "中学生海外派遣事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "外国語教育推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "私立幼稚園支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "給食費の無償化事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "地域部活動推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "学校施設修繕事業",
+        "status": "proposed",
+        "offset": 48662,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "青少年健全育成事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "まちづくり大学事業",
+        "status": "proposed",
+        "offset": 56896,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "自治振興育成事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "栄町地区連絡協議会活動支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "人権行政相談事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "生活情報提供事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "国際交流推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "健全な財政運営事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "町債の適正管理事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "地方創生推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "広域行政連携事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      }
+    ]
+  },
+  {
+    "sourceId": "d52cf2b2de804bdbe3d02b08",
+    "targetYear": 2021,
+    "proposals": 35,
+    "ledger": [
+      {
+        "name": "保育委託事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 2,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "医療費助成事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "育児応援塾事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "妊婦健診事業",
+        "status": "proposed",
+        "offset": 6778,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "産婦健診事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "妊産婦支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "乳児健診事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "幼児健診事業",
+        "status": "proposed",
+        "offset": 6881,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "予防接種事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "通学路整備事業",
+        "status": "proposed",
+        "offset": 9749,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "橋梁整備事業",
+        "status": "proposed",
+        "offset": 10014,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "公園等整備事業",
+        "status": "proposed",
+        "offset": 10622,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "公園等管理事業",
+        "status": "proposed",
+        "offset": 10760,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "地籍調査事業",
+        "status": "proposed",
+        "offset": 14384,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "耐震対策事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "感染症予防事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "健康増進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "食育推進事業",
+        "status": "proposed",
+        "offset": 24972,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "がん検診事業",
+        "status": "proposed",
+        "offset": 25819,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "人間ドック事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "心の相談事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "担い手育成事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "買い物支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "就学援助事業",
+        "status": "proposed",
+        "offset": 47673,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "ＩＣＴ教育充実事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "図書室運営事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "マラソン大会事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "町史編さん事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "ＳＤＧｓ啓発事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "人材育成事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "住民税課税事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "資産税課税事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "子ども・子育て支援計画策定事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "保育の無償化推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "在宅勤務者移住促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "前新田地区町道新設事業",
+        "status": "proposed",
+        "offset": 9484,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "矢口地区町道拡幅事業",
+        "status": "proposed",
+        "offset": 9629,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "南北自由通路整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "成田線活性化推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "安食駅利便性向上事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "印旛日本医大駅行新規バス路線実証実験事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "空き家等実態調査事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "都市再生整備計画推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "立地適正化計画推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "大気汚染等の情報提供事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "住宅用脱炭素設備設置助成事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "公共下水道未接続解消事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "総合地震計画推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "ごみの広域処理促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "避難行動要支援者支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "災害支援拠点整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "消防活動能力向上事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "広域業務体制構築事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "火災予防対策推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "防犯カメラ設置・管理事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "交通安全施設整備事業",
+        "status": "proposed",
+        "offset": 23748,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "口の機能低下予防事業",
+        "status": "proposed",
+        "offset": 24980,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "地域保健活動拠点づくり事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "医療機関の受診環境整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "医療介護連携の推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "生活支援体制整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "高齢者緊急通報装置貸与事業",
+        "status": "proposed",
+        "offset": 28193,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "介護職員初任者研修事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "地域介護予防活動の支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "認知症初期集中支援推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "認知症高齢者等見守り事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "障がい者の相談支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "生活支援用具給付事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "重度心身障がい者（児）医療費助成事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "障がい者就労支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "障がい者計画等策定事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "医療的ケア児の支援充実事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "社会福祉協議会連携事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "地域福祉計画策定事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "生活困窮者相談推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "更生保護活動の推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "成年後見制度利用促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "介護給付費適正化事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "介護保険料収納対策推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "国民年金窓口事務適正処理等推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "土地改良施設等整備推進事業",
+        "status": "proposed",
+        "offset": 35605,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "農業振興地域整備計画策定事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "生産性向上設備導入支援事業",
+        "status": "proposed",
+        "offset": 35363,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "遊休農地活用促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "担い手への農地利用集積事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "農業経営基盤強化事業",
+        "status": "proposed",
+        "offset": 36560,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "農地多面的機能交付金事業",
+        "status": "proposed",
+        "offset": 38395,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "中小企業資金融資支援事業",
+        "status": "proposed",
+        "offset": 39568,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "中小企業の生産性向上支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "がんばる商店応援補助事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "観光プロモーション推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "観光案内看板等整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "矢口工業団地拡張促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "町民の雇用創出促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "既存工業団地の活性化事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "教員アシスタント職員活用事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "学校施設大規模改修事業",
+        "status": "proposed",
+        "offset": 48212,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "放課後ふれあい教室事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "スポーツフェスタ実施事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "自主文化事業実施事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 2,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "芸術文化公演鑑賞支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "芸術文化団体活動支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "文化財等のＰＲ・情報発信事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "町民への加入促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "男女共同参画推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "旅券発給申請交付事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "ワンストップ窓口推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "キャッシュレス化推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "計画的な財政運営事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "町税収納対策推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "基本計画進行管理事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "栄町総合戦略推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "成田空港機能強化連携事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "保育士確保支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "保育所整備支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "子育て祝金支給事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "キッズランド運営事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "子育て相談支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 2,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "町道舗装修繕事業",
+        "status": "proposed",
+        "offset": 10060,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "町道維持管理事業",
+        "status": "proposed",
+        "offset": 10197,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "安食駅駅舎改築事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "路線バス維持事業",
+        "status": "proposed",
+        "offset": 11702,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "循環バス運行事業",
+        "status": "proposed",
+        "offset": 12674,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "地区計画推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "宅地開発等指導事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "宅地耐震化推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "合併処理浄化槽への転換補助事業",
+        "status": "proposed",
+        "offset": 15710,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "水道の広域供給事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "美化運動の推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "経営戦略推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "ごみ減量化推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "防災訓練充実事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "地域防災力向上事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "備蓄品等整備事業",
+        "status": "proposed",
+        "offset": 20425,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "避難体制整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "情報連携強化事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "長門川護岸整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "消防団体制推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "救急業務高度化事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "通学路安全対策事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "消費生活相談事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "特定健康診査事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "認知症地域支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "国民健康保険会計健全運営推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "国民健康保険税収納対策推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "後期高齢者医療制度適正執行事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "飼料用米等拡大事業",
+        "status": "proposed",
+        "offset": 35220,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "新規就農者育成事業",
+        "status": "proposed",
+        "offset": 36436,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "地産地消の促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "特産品栽培強化事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "有機農業支援事業",
+        "status": "proposed",
+        "offset": 38091,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "商工会活動支援事業",
+        "status": "proposed",
+        "offset": 39765,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "観光情報発信事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "中学生海外派遣事業",
+        "status": "proposed",
+        "offset": 46452,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "外国語教育推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "私立幼稚園支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "給食費の無償化事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "地域部活動推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "学校施設修繕事業",
+        "status": "proposed",
+        "offset": 48271,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "青少年健全育成事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "まちづくり大学事業",
+        "status": "proposed",
+        "offset": 54806,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "自治振興育成事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "栄町地区連絡協議会活動支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "人権行政相談事業",
+        "status": "proposed",
+        "offset": 60288,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "生活情報提供事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "国際交流推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "健全な財政運営事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "町債の適正管理事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "地方創生推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "広域行政連携事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      }
+    ]
+  },
+  {
+    "sourceId": "fa1f52c2c1d931efbce3091c",
+    "targetYear": 2020,
+    "proposals": 32,
+    "ledger": [
+      {
+        "name": "保育委託事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 2,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "医療費助成事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "育児応援塾事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "妊婦健診事業",
+        "status": "proposed",
+        "offset": 8357,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "産婦健診事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "妊産婦支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "乳児健診事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "幼児健診事業",
+        "status": "proposed",
+        "offset": 9176,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "予防接種事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "通学路整備事業",
+        "status": "proposed",
+        "offset": 11704,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "橋梁整備事業",
+        "status": "proposed",
+        "offset": 12014,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "公園等整備事業",
+        "status": "proposed",
+        "offset": 12903,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "公園等管理事業",
+        "status": "proposed",
+        "offset": 12913,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "地籍調査事業",
+        "status": "proposed",
+        "offset": 16112,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "耐震対策事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "感染症予防事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "健康増進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "食育推進事業",
+        "status": "proposed",
+        "offset": 30998,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "がん検診事業",
+        "status": "proposed",
+        "offset": 32028,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "人間ドック事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "心の相談事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "担い手育成事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "買い物支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "就学援助事業",
+        "status": "proposed",
+        "offset": 55718,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "ＩＣＴ教育充実事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "図書室運営事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "マラソン大会事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "町史編さん事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "ＳＤＧｓ啓発事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "人材育成事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "住民税課税事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "資産税課税事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "子ども・子育て支援計画策定事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "保育の無償化推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "在宅勤務者移住促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "前新田地区町道新設事業",
+        "status": "proposed",
+        "offset": 12640,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "矢口地区町道拡幅事業",
+        "status": "proposed",
+        "offset": 11522,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "南北自由通路整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "成田線活性化推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "安食駅利便性向上事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "印旛日本医大駅行新規バス路線実証実験事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "空き家等実態調査事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "都市再生整備計画推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "立地適正化計画推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "大気汚染等の情報提供事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "住宅用脱炭素設備設置助成事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "公共下水道未接続解消事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "総合地震計画推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "ごみの広域処理促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "避難行動要支援者支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "災害支援拠点整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "消防活動能力向上事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "広域業務体制構築事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "火災予防対策推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "防犯カメラ設置・管理事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "交通安全施設整備事業",
+        "status": "proposed",
+        "offset": 28891,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "口の機能低下予防事業",
+        "status": "proposed",
+        "offset": 31006,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "地域保健活動拠点づくり事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "医療機関の受診環境整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "医療介護連携の推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "生活支援体制整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "高齢者緊急通報装置貸与事業",
+        "status": "proposed",
+        "offset": 35053,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "介護職員初任者研修事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "地域介護予防活動の支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "認知症初期集中支援推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "認知症高齢者等見守り事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "障がい者の相談支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "生活支援用具給付事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "重度心身障がい者（児）医療費助成事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "障がい者就労支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "障がい者計画等策定事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "医療的ケア児の支援充実事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "社会福祉協議会連携事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "地域福祉計画策定事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "生活困窮者相談推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "更生保護活動の推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "成年後見制度利用促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "介護給付費適正化事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "介護保険料収納対策推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "国民年金窓口事務適正処理等推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "土地改良施設等整備推進事業",
+        "status": "proposed",
+        "offset": 42866,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "農業振興地域整備計画策定事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "生産性向上設備導入支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "遊休農地活用促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "担い手への農地利用集積事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "農業経営基盤強化事業",
+        "status": "proposed",
+        "offset": 44894,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "農地多面的機能交付金事業",
+        "status": "proposed",
+        "offset": 45698,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "中小企業資金融資支援事業",
+        "status": "proposed",
+        "offset": 46607,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "中小企業の生産性向上支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "がんばる商店応援補助事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "観光プロモーション推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "観光案内看板等整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "矢口工業団地拡張促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "町民の雇用創出促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "既存工業団地の活性化事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "教員アシスタント職員活用事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "学校施設大規模改修事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 2,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "放課後ふれあい教室事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "スポーツフェスタ実施事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "自主文化事業実施事業",
+        "status": "proposed",
+        "offset": 64459,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "芸術文化公演鑑賞支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "芸術文化団体活動支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "文化財等のＰＲ・情報発信事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "町民への加入促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "男女共同参画推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "旅券発給申請交付事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "ワンストップ窓口推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "キャッシュレス化推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "計画的な財政運営事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "町税収納対策推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "基本計画進行管理事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "栄町総合戦略推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "成田空港機能強化連携事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "保育士確保支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "保育所整備支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "子育て祝金支給事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "キッズランド運営事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "子育て相談支援事業",
+        "status": "proposed",
+        "offset": 7653,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "町道舗装修繕事業",
+        "status": "proposed",
+        "offset": 12054,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "町道維持管理事業",
+        "status": "proposed",
+        "offset": 12261,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "安食駅駅舎改築事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "路線バス維持事業",
+        "status": "proposed",
+        "offset": 14372,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "循環バス運行事業",
+        "status": "proposed",
+        "offset": 15359,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "地区計画推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "宅地開発等指導事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "宅地耐震化推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "合併処理浄化槽への転換補助事業",
+        "status": "proposed",
+        "offset": 19343,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "水道の広域供給事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "美化運動の推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "経営戦略推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "ごみ減量化推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "防災訓練充実事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "地域防災力向上事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "備蓄品等整備事業",
+        "status": "proposed",
+        "offset": 24885,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "避難体制整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "情報連携強化事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "長門川護岸整備事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "消防団体制推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "救急業務高度化事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "通学路安全対策事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "消費生活相談事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "特定健康診査事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "認知症地域支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "国民健康保険会計健全運営推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "国民健康保険税収納対策推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "後期高齢者医療制度適正執行事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "飼料用米等拡大事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "新規就農者育成事業",
+        "status": "proposed",
+        "offset": 43540,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "地産地消の促進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "特産品栽培強化事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "有機農業支援事業",
+        "status": "proposed",
+        "offset": 45403,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "商工会活動支援事業",
+        "status": "proposed",
+        "offset": 45713,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "観光情報発信事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "中学生海外派遣事業",
+        "status": "proposed",
+        "offset": 54785,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "外国語教育推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "私立幼稚園支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "給食費の無償化事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "地域部活動推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "学校施設修繕事業",
+        "status": "proposed",
+        "offset": 57101,
+        "rule": "Exact reviewed business name occupies standalone paragraph, whitespace-only wraps; explicit annual business-content header; no inferred columns or numeric fields."
+      },
+      {
+        "name": "青少年健全育成事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "まちづくり大学事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "自治振興育成事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "栄町地区連絡協議会活動支援事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "人権行政相談事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "生活情報提供事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "国際交流推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "健全な財政運営事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "町債の適正管理事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "地方創生推進事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      },
+      {
+        "name": "広域行政連携事業",
+        "status": "layout_or_identity_review",
+        "occurrences": 0,
+        "reason": "No unique standalone complete title in annual main-business section; inline/wrapped columns require separate review."
+      }
+    ]
+  }
+]
