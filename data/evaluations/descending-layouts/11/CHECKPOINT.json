@@ -1,7 +1,7 @@
 {
-  "candidateRecords": 281,
-  "newCandidatesThisTranche": 211,
-  "previousRemoteHead": "f9ac039ceeaa18c32ac2ad76cf68da697b432b9c",
+  "candidateRecords": 1118,
+  "newCandidatesThisTranche": 837,
+  "previousRemoteHead": "788c6bdefebc84a9529dcf06ef9ce858a29efe3e",
   "perMunicipality": {
     "松伏町": 29,
     "杉戸町": 1,
@@ -11,13 +11,17 @@
     "長瀞町": 63,
     "皆野町": 12,
     "鳩山町": 69,
-    "吉見町": 67
+    "吉見町": 67,
+    "川島町": 64,
+    "嵐山町": 251,
+    "滑川町": 512,
+    "越生町": 10
   },
   "existingFieldEnrichments": 0,
-  "newCandidateActualAmountFields": 1,
+  "newCandidateActualAmountFields": 6,
   "newCandidateOriginalRatingFields": 0,
-  "validatedCumulativeCandidates": 37882,
-  "validatedEvidence": 115344,
+  "validatedCumulativeCandidates": 38719,
+  "validatedEvidence": 117869,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
@@ -27,15 +31,15 @@
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "12/12",
-    "crawler": "1127/1127",
+    "focused": "18/18",
+    "crawler": "1133/1133",
     "web": "256/256",
     "typecheck": "passed",
     "lint": "passed;existingfontwarning",
     "national": "passed branchbaseline",
     "static": "109/109 subpath",
-    "quotes": "37882 candidates/115344 quotes"
+    "quotes": "38719 candidates/117869 quotes"
   },
   "remoteCI": "unverified;known ActionsAPI403 not retried",
-  "remaining": "Saitama cached queue continues: Kawajima64,Ranzan251,Namegawa512,Ogose10 are stage-only, not included. Missing26 bodies remain held."
+  "remaining": "Saitama cached queue continues. Moroyama13,Miyoshi226,Ina9 remain stage-only, not included. Missing26 bodies held."
 }
