@@ -1,0 +1,184 @@
+{
+  "stageOnly": true,
+  "productionChanges": 0,
+  "sources": [
+    {
+      "sourceId": "26c1bff427a31b64f75ed8b2",
+      "year": 2024,
+      "additionalCandidates": 3,
+      "holds": [
+        {
+          "offset": 47161,
+          "reason": "介護保険事業計画策定: activity explicitly starts R7; no R6 implementation inferred."
+        },
+        {
+          "offset": 59211,
+          "reason": "観光基本計画策定 explicitly scheduled R8 or later."
+        }
+      ],
+      "excluded": "Reprinted park/school-route/elderly-integrated program rows; activity examples, KPI labels and policy project chapters are not added."
+    },
+    {
+      "sourceId": "696f10cd99d5717fa0f67de9",
+      "year": 2023,
+      "additionalCandidates": 72,
+      "holds": [
+        {
+          "offset": 52728,
+          "reason": "観光基本計画策定: future-only activity entry; no current execution inferred."
+        },
+        {
+          "offset": 56632,
+          "reason": "企業誘致 subsidy regime planned R6 or later."
+        },
+        {
+          "offset": 57186,
+          "reason": "New employment environment regime planned R6 or later."
+        },
+        {
+          "offset": 11680,
+          "reason": "公園バリアフリー化は既存公園等整備と同じ竜角寺近隣・田中・雨堤・向台4公園。別候補にしない。"
+        }
+      ],
+      "excluded": "Elderly-integrated program repeated at36834; park and school-route再掲, policy/KPI labels, grant component activities, school/library examples, no separate records. Cancelled or unimplemented annual review entries retain no actual-cost or execution claims."
+    },
+    {
+      "sourceId": "69b2626162cdabd21508d2fd",
+      "year": 2022,
+      "additionalCandidates": 78,
+      "holds": [
+        {
+          "offset": 14740,
+          "reason": "空家等対策計画 explicitly completed R1; do not assign that completion to R4."
+        },
+        {
+          "offset": 22039,
+          "reason": "High-spec ambulance purchased R2; not R4 acquisition."
+        },
+        {
+          "offset": 22140,
+          "reason": "Fire-engine purchased R3; not R4 acquisition."
+        },
+        {
+          "offset": 40446,
+          "reason": "がんばる商店 regime design postponed; no current subsidy results."
+        },
+        {
+          "offset": 68187,
+          "reason": "Facility work lists R1/R2 construction and R3 study; no R4-specific work established."
+        },
+        {
+          "offset": 2608,
+          "reason": "Second保育委託 covers different service context; retain prior record, do not create same-name duplicate."
+        },
+        {
+          "offset": 31266,
+          "reason": "Second障がい福祉サービス提供 is consultation rather than original benefit service; identity split unresolved."
+        },
+        {
+          "offset": 53987,
+          "reason": "Repeatedスポーツによる健康づくり title refers to facility usage, not a safe additional identity."
+        },
+        {
+          "offset": 56068,
+          "reason": "Repeated自主文化事業実施 covers festival vs original stage performances; no safe split."
+        },
+        {
+          "offset": 11119,
+          "reason": "公園バリアフリー化は既存公園等整備と同じ山中・十王2公園。別候補にしない。"
+        }
+      ],
+      "excluded": "School carried-over construction cost not assigned to current fiscal year. Reprinted child medical and maternal rows and grant components are not additional businesses."
+    },
+    {
+      "stageOnly": true,
+      "sourceId": "d52cf2b2de804bdbe3d02b08",
+      "fiscalYear": 2021,
+      "reviewedExplicitTitleMappings": 110,
+      "newIndividuallyChecked": 47,
+      "existingTitleMappingsSkipped": 62,
+      "actualAmountFields": 0,
+      "holds": [
+        {
+          "offset": 11263,
+          "reason": "公園バリアフリー化は既存公園等整備と同じ上前・竜角寺2公園。別候補にしない。"
+        },
+        {
+          "offset": 16911,
+          "reason": "ストック計画はR1/R2実施のみ記載。R3実施としない。"
+        },
+        {
+          "offset": 20408,
+          "reason": "避難所改修はR2完了のみ。"
+        },
+        {
+          "offset": 35372,
+          "reason": "生産性向上設備はR3取組なし、旧R2金額のみ。"
+        },
+        {
+          "offset": 6598,
+          "reason": "子育て相談の同名別文脈。主体同定が未解決。"
+        },
+        {
+          "offset": 31224,
+          "reason": "障がいサービス相談と給付の同名衝突。"
+        },
+        {
+          "offset": 52670,
+          "reason": "スポーツ健康づくりの施設文脈は同名別文脈。"
+        },
+        {
+          "offset": 54429,
+          "reason": "自主文化の公演と祭りの同名衝突。"
+        },
+        {
+          "offset": 65877,
+          "reason": "施設改良のR1履歴。別年度実施を作らない。"
+        },
+        {
+          "offset": 56018,
+          "reason": "Same source position/ID already saved as 自治振興育成事業助成金交付事業. Shortened name not added and prior value preserved; coordinated correction remains."
+        }
+      ],
+      "semantics": "Annual review entries do not imply implementation/completion. No parent policy, KPI counts or aligned amount inference. Additional non-事業 suffix layout review remains."
+    },
+    {
+      "sourceId": "fa1f52c2c1d931efbce3091c",
+      "year": 2020,
+      "additionalCandidates": 53,
+      "holds": [
+        {
+          "offset": 13368,
+          "reason": "公園バリアフリー改修は3公園28,072千円の再掲。既存公園等整備と二重計上しない。"
+        },
+        {
+          "offset": 15092,
+          "reason": "Bus trial explicitly ended R1. Do not add R2 execution; existing annual entry retained without alteration."
+        },
+        {
+          "offset": 17865,
+          "reason": "空家計画R1策定済み。既存 annual entry remains unchanged; do not infer R2 completion."
+        },
+        {
+          "offset": 47702,
+          "reason": "がんばる商店 R4予定 only."
+        },
+        {
+          "offset": 38080,
+          "reason": "障がいサービス consultation differs from benefit context; no safe same-name split."
+        },
+        {
+          "offset": 64466,
+          "reason": "自主文化 different festival/performance contexts; preserve existing entry, no split."
+        },
+        {
+          "offset": 66040,
+          "reason": "自治振興/助成金交付 composite existing identity retained; no partial-title new record."
+        }
+      ],
+      "limits": "Named main-business columns only. Interleaved budget/final-cost columns omitted; cancelled annual entries imply no implementation. No components or KPI parent headings counted."
+    }
+  ],
+  "limits": "This is a finite review of named annual rows, not all fields or nationwide completion. Quote offsets, full source hashes and explicit year proof are retained; no costs/ratings inferred.",
+  "individuallyCheckedStageCandidates": 253
+}

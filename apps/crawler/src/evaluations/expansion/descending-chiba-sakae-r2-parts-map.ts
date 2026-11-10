@@ -1,0 +1,1173 @@
+export const configs = [
+  {
+    "sourceId": "fa1f52c2c1d931efbce3091c",
+    "municipalityCode": "12329",
+    "municipalityName": "栄町",
+    "sourceUrl": "https://www.town.sakae.chiba.jp/data/doc/1650271967_doc_78_0.pdf",
+    "sourceSha256": "08312e2ce41fe1c955ad7299824bd29c0f44615f474f1f7a47ccca8506d20d74",
+    "fullTextSha256": "5022c624ed774247bf9a1c5daf26586450edac68d6012efe5895ba37d95b7bed",
+    "rows": [
+      {
+        "name": "出産祝金支給事業",
+        "raw": "出産祝金支給\n事業",
+        "start": 3814,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 3614,
+        "groupEnd": 4473,
+        "groupSha256": "7fed38a6faf4b7c1f2d9bfe910ddcd9731e1955c2e2676edfcd4ea56a0fefc9b",
+        "parts": [
+          {
+            "raw": "出産祝金支給",
+            "start": 3814
+          },
+          {
+            "raw": "事業",
+            "start": 3821
+          }
+        ]
+      },
+      {
+        "name": "多子世帯保育料助成事業",
+        "raw": "多子世帯保育\n料助成事業",
+        "start": 4405,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 4205,
+        "groupEnd": 5067,
+        "groupSha256": "4c21bf1ac9482d4687ee6c69733072508fffe1b3e431b76dbc84cd035a6e9398",
+        "parts": [
+          {
+            "raw": "多子世帯保育",
+            "start": 4405
+          },
+          {
+            "raw": "料助成事業",
+            "start": 4412
+          }
+        ]
+      },
+      {
+        "name": "子ども医療費助成事業",
+        "raw": "子ども医療費助\n的負担を図るため、高校3年生までの入院・通\n通院 1,684人 20,644千円\n成事業",
+        "start": 5328,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 5128,
+        "groupEnd": 6030,
+        "groupSha256": "22a40e9045c89a90bcf4b3cbd38314caea80e09e0a7fff5210741b2754dcb001",
+        "parts": [
+          {
+            "raw": "子ども医療費助",
+            "start": 5328
+          },
+          {
+            "raw": "成事業",
+            "start": 5377
+          }
+        ]
+      },
+      {
+        "name": "ひとり親家庭等医療費等助成事業",
+        "raw": "ひとり親家庭等\n医療費等助成\n事業",
+        "start": 5472,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 5272,
+        "groupEnd": 6139,
+        "groupSha256": "0d82a68dbfdfb18ecb0610e9711f2a7c698c2656e9d9e3cdda65022b2f2b5212",
+        "parts": [
+          {
+            "raw": "ひとり親家庭等",
+            "start": 5472
+          },
+          {
+            "raw": "医療費等助成",
+            "start": 5480
+          },
+          {
+            "raw": "事業",
+            "start": 5487
+          }
+        ]
+      },
+      {
+        "name": "キッズランド運営事業",
+        "raw": "キッズランド運営 どの天候に左右されず快適に利用でき、乳幼児\n○ホームページアクセス数 43,351件\n事業",
+        "start": 7344,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 7144,
+        "groupEnd": 8048,
+        "groupSha256": "f1d66a30a5e6367f8ba421ca807668fab22fa367c487c4b4fdc450c0bb533aad",
+        "parts": [
+          {
+            "raw": "キッズランド運営",
+            "start": 7344
+          },
+          {
+            "raw": "事業",
+            "start": 7396
+          }
+        ]
+      },
+      {
+        "name": "住宅地開発の誘導事業",
+        "raw": "住宅地開発の\n誘導事業",
+        "start": 10525,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 10325,
+        "groupEnd": 11186,
+        "groupSha256": "d8f454c7fcc158415e6fc5d7d9f3d45181a0322e38c8969a3c8afb6c6dffb96c",
+        "parts": [
+          {
+            "raw": "住宅地開発の",
+            "start": 10525
+          },
+          {
+            "raw": "誘導事業",
+            "start": 10532
+          }
+        ]
+      },
+      {
+        "name": "町道バリアフリー化事業",
+        "raw": "町道バリアフリー 高齢者・障害者が安全・安心に利用できるように 栄町安食駅周辺地区都市再生整備計画の実施\n化事業",
+        "start": 14009,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 13809,
+        "groupEnd": 14715,
+        "groupSha256": "acf2df429028a323443ef3623312a876dc953b618ee43f07aa8212ad3656a701",
+        "parts": [
+          {
+            "raw": "町道バリアフリー",
+            "start": 14009
+          },
+          {
+            "raw": "化事業",
+            "start": 14062
+          }
+        ]
+      },
+      {
+        "name": "公共下水道ストックマネジメント計画策定事業",
+        "raw": "公共下水道ストックマネジメント計画策定事業\nトックマネジメント\n管理と改築を捉えて行うためストックマネジメント ・ストックマネジメント実施計画策定委託【19,250\n計画策定事業",
+        "start": 20882,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 20682,
+        "groupEnd": 21621,
+        "groupSha256": "9373a6f2431452d753748e7d50efed42bec95df150d2f31b389e402a25c21645",
+        "parts": [
+          {
+            "raw": "公共下水道ス",
+            "start": 20882
+          },
+          {
+            "raw": "トックマネジメント",
+            "start": 20940
+          },
+          {
+            "raw": "計画策定事業",
+            "start": 20965
+          }
+        ]
+      },
+      {
+        "name": "ごみ減量化推進事業",
+        "raw": "ごみ減量化推\nり資源を積極的に回収するとともに3Ｒを推進して ○ごみ分別アプリ【145千円】（登録数 678件）\n進事業",
+        "start": 22520,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 22320,
+        "groupEnd": 23230,
+        "groupSha256": "86b57c2f85b7d53d841eef8bd5252cc6ea81a28d725501da1d6b38c3fde6b211",
+        "parts": [
+          {
+            "raw": "ごみ減量化推",
+            "start": 22520
+          },
+          {
+            "raw": "進事業",
+            "start": 22577
+          }
+        ]
+      },
+      {
+        "name": "廃棄物収集・運搬事業",
+        "raw": "廃棄物収集・運\n家庭系一般廃棄物については、ごみ集積所等か 838,800枚 資源255,600枚 不燃53,700枚\n搬事業",
+        "start": 22633,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 22433,
+        "groupEnd": 23346,
+        "groupSha256": "38b77a14ad59ba5faa245b4dbf24b78b2d0b535bfec2e6e49587dc4b159a44a1",
+        "parts": [
+          {
+            "raw": "廃棄物収集・運",
+            "start": 22633
+          },
+          {
+            "raw": "搬事業",
+            "start": 22693
+          }
+        ]
+      },
+      {
+        "name": "消防ポンプ自動車整備事業",
+        "raw": "消防ポンプ自動車が老朽化していることから、町\n車整備事業",
+        "start": 27793,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 27593,
+        "groupEnd": 28471,
+        "groupSha256": "4b02057d404d82e2c7abd5433c65053ee355acba2792c408d1cdcff3edff646f",
+        "parts": [
+          {
+            "raw": "消防ポンプ自動",
+            "start": 27793
+          },
+          {
+            "raw": "車整備事業",
+            "start": 27816
+          }
+        ]
+      },
+      {
+        "name": "犯罪のないまちづくり推進事業",
+        "raw": "犯罪のないまち ます。\n・警察署との合同パトロ－ル（ 1回）\nづくり推進事業",
+        "start": 28658,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 28458,
+        "groupEnd": 29346,
+        "groupSha256": "e40fee4fb64a79a6d21c99d5c704d38314898576cdc1b2a9ada9e15ca415d1c4",
+        "parts": [
+          {
+            "raw": "犯罪のないまち",
+            "start": 28658
+          },
+          {
+            "raw": "づくり推進事業",
+            "start": 28689
+          }
+        ]
+      },
+      {
+        "name": "交通事故のないまちづくり事業",
+        "raw": "交通事故のない に対し、安全運転を促すため、各種団体と連携し の協力\nまちづくり事業",
+        "start": 29349,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 29149,
+        "groupEnd": 30041,
+        "groupSha256": "5a83478afe39a05a1cab9c9739891439c9322ac52be8cdd7222fc365f2fc70ee",
+        "parts": [
+          {
+            "raw": "交通事故のない",
+            "start": 29349
+          },
+          {
+            "raw": "まちづくり事業",
+            "start": 29384
+          }
+        ]
+      },
+      {
+        "name": "生活習慣病・重症化予防教室等事業",
+        "raw": "生活習慣病・重\n〇委託特定保健指導 （初回面接）\n症化予防教室 生活習慣病及び重症化予防のため、健康教室と\n積極的支援\n6名\n等事業",
+        "start": 30479,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 30279,
+        "groupEnd": 31195,
+        "groupSha256": "a761c59841c7dd14f7b84252be70b584837ea629148b916d97142c11f84f6bf7",
+        "parts": [
+          {
+            "raw": "生活習慣病・重",
+            "start": 30479
+          },
+          {
+            "raw": "症化予防教室",
+            "start": 30504
+          },
+          {
+            "raw": "等事業",
+            "start": 30542
+          }
+        ]
+      },
+      {
+        "name": "人間ドック事業",
+        "raw": "人間ドック事業",
+        "start": 32361,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 32161,
+        "groupEnd": 33018,
+        "groupSha256": "b736747f159a7bf788791e1e4105a269e76c63a2b369737ab0ac0684a0ed74b5",
+        "parts": [
+          {
+            "raw": "人間ドック事業",
+            "start": 32361
+          }
+        ]
+      },
+      {
+        "name": "特定健康診査事業",
+        "raw": "特定健康診査\n事業",
+        "start": 32533,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 32333,
+        "groupEnd": 33192,
+        "groupSha256": "f17759fc2f6ea91a71b1f580362bbc72ea850d059d4a3143a22a27c6881f7c81",
+        "parts": [
+          {
+            "raw": "特定健康診査",
+            "start": 32533
+          },
+          {
+            "raw": "事業",
+            "start": 32540
+          }
+        ]
+      },
+      {
+        "name": "休日・夜間急病診療支援事業",
+        "raw": "休日・夜間急病\nに、成田市急病診療所及び印旛郡小児初期急\n診療支援事業",
+        "start": 33882,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 33682,
+        "groupEnd": 34567,
+        "groupSha256": "15f15f47541575ccce840a6d48987d5d9a1f127fb01fc2c2cec9ea354541a2b3",
+        "parts": [
+          {
+            "raw": "休日・夜間急病",
+            "start": 33882
+          },
+          {
+            "raw": "診療支援事業",
+            "start": 33911
+          }
+        ]
+      },
+      {
+        "name": "地域包括支援センター事業",
+        "raw": "地域包括支援\nセンター事業",
+        "start": 34987,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 34787,
+        "groupEnd": 35650,
+        "groupSha256": "06214d37ce0a56ea43d1cb64cf60ef2d9f54295b8376c7efb9a8a8f964f4f6dd",
+        "parts": [
+          {
+            "raw": "地域包括支援",
+            "start": 34987
+          },
+          {
+            "raw": "センター事業",
+            "start": 34994
+          }
+        ]
+      },
+      {
+        "name": "認知症サポーター養成事業",
+        "raw": "認知症サポー\nター養成事業",
+        "start": 36848,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 36648,
+        "groupEnd": 37511,
+        "groupSha256": "d15bbc321bc05e53d7b5fb3dc8b3cd89049f48ab564e23680ba109d31acd6077",
+        "parts": [
+          {
+            "raw": "認知症サポー",
+            "start": 36848
+          },
+          {
+            "raw": "ター養成事業",
+            "start": 36855
+          }
+        ]
+      },
+      {
+        "name": "障害者就労支援事業",
+        "raw": "障害者就労支\n援事業",
+        "start": 38179,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 37979,
+        "groupEnd": 38839,
+        "groupSha256": "e3424dbc4d318f31f5cb107dc1ffb2579af83afe851a2aefe4049a9427a8387f",
+        "parts": [
+          {
+            "raw": "障害者就労支",
+            "start": 38179
+          },
+          {
+            "raw": "援事業",
+            "start": 38186
+          }
+        ]
+      },
+      {
+        "name": "心の相談ほっとスペース事業",
+        "raw": "心の相談ほっとスペース事業を実施しま ○デイケアクラ開催隔週金曜日10時～12時\nスペース事業",
+        "start": 38679,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 38479,
+        "groupEnd": 39376,
+        "groupSha256": "4168e3ae455fa0bef01105dd71cd09b221d3b1a80b0594b2fa943937b03b5271",
+        "parts": [
+          {
+            "raw": "心の相談ほっと",
+            "start": 38679
+          },
+          {
+            "raw": "スペース事業",
+            "start": 38720
+          }
+        ]
+      },
+      {
+        "name": "生活困窮者相談支援事業",
+        "raw": "生活困窮者相\n談支援事業",
+        "start": 39304,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 39104,
+        "groupEnd": 39966,
+        "groupSha256": "da032a829ea3b57347376f42aca30340f7682e2c91a727ef9171ab482d92eeff",
+        "parts": [
+          {
+            "raw": "生活困窮者相",
+            "start": 39304
+          },
+          {
+            "raw": "談支援事業",
+            "start": 39311
+          }
+        ]
+      },
+      {
+        "name": "第８期介護保険事業計画策定事業",
+        "raw": "第８期介護保険 高齢者の課題やニーズを把握し、給付実績等の\n○高齢者数、要介護認定者数、介護給付費の\n事業計画策定 分析、介護保険サービスの見込量、介護保険料\n伸びを勘案し、介護保険料の基準額を決定した。\n事業",
+        "start": 41109,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 40909,
+        "groupEnd": 41864,
+        "groupSha256": "9794a7487e4f59d49a4d3a47acded7edf012686137e1003a58dec23ca07fcd57",
+        "parts": [
+          {
+            "raw": "第８期介護保険",
+            "start": 41109
+          },
+          {
+            "raw": "事業計画策定",
+            "start": 41160
+          },
+          {
+            "raw": "事業",
+            "start": 41212
+          }
+        ]
+      },
+      {
+        "name": "飼料用米等拡大事業",
+        "raw": "飼料用米等拡\n大事業",
+        "start": 42800,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 42600,
+        "groupEnd": 43460,
+        "groupSha256": "13a303343755b3478df814183b17e7dd56e4e2bb417d78370aba2bbdb20e8c55",
+        "parts": [
+          {
+            "raw": "飼料用米等拡",
+            "start": 42800
+          },
+          {
+            "raw": "大事業",
+            "start": 42807
+          }
+        ]
+      },
+      {
+        "name": "特産品の6次産業化推進事業",
+        "raw": "特産品の6次産\n特産品の６次産業化推進事業 ＰＲ経費\n作物の栽培や、新商品の開発、販路の開拓の\n業化推進事業",
+        "start": 43957,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 43757,
+        "groupEnd": 44661,
+        "groupSha256": "464440c4bd983f9e55981179cc6c20d911897de21c4a9d532ffbcd46a7cdb47c",
+        "parts": [
+          {
+            "raw": "特産品の6次産",
+            "start": 43957
+          },
+          {
+            "raw": "業化推進事業",
+            "start": 44005
+          }
+        ]
+      },
+      {
+        "name": "黒大豆を活用した地域経済活性化事業",
+        "raw": "黒大豆を活用し\n特産品「黒大豆」の生産・販売の拡大を図ること\nた地域経済活\n特産品栽培強化奨励金事業 生産者１4人\nで、雇用の増加や販売額の増加に繋げ、地域経\n性化事業",
+        "start": 44088,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 43888,
+        "groupEnd": 44822,
+        "groupSha256": "b805b49bdfe5fe8625a0edfc2b0ad3d5136aaa114eae195039af61f9b03e1eab",
+        "parts": [
+          {
+            "raw": "黒大豆を活用し",
+            "start": 44088
+          },
+          {
+            "raw": "た地域経済活",
+            "start": 44119
+          },
+          {
+            "raw": "性化事業",
+            "start": 44168
+          }
+        ]
+      },
+      {
+        "name": "担い手への農地利用集積事業",
+        "raw": "担い手への農地\n○農地中間管理事業補助金等 【8,959千円】\n掘り起こしを推進するとともに、意欲ある経営者に\n利用集積事業",
+        "start": 44510,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 44310,
+        "groupEnd": 45222,
+        "groupSha256": "d44b2f2c5d5a18b42feec7d31ca3b6024bd2f2953e33efaaafd67d3357f46f39",
+        "parts": [
+          {
+            "raw": "担い手への農地",
+            "start": 44510
+          },
+          {
+            "raw": "利用集積事業",
+            "start": 44566
+          }
+        ]
+      },
+      {
+        "name": "観光プロモーション推進事業",
+        "raw": "観光プロモー\n自然や文化財などの観光資源やイメージキャラク 広域観光団体事業でのPR（マイクロツーリズム）\nション推進事業",
+        "start": 48470,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 48270,
+        "groupEnd": 49181,
+        "groupSha256": "e7980ee94a40ab42dfe725a30fef08ba0154bbbe6935adc9dd6a8224370afae0",
+        "parts": [
+          {
+            "raw": "観光プロモー",
+            "start": 48470
+          },
+          {
+            "raw": "ション推進事業",
+            "start": 48524
+          }
+        ]
+      },
+      {
+        "name": "相撲を活用した外国人観光客誘客事業",
+        "raw": "相撲を活用した\n外国人観光客\n誘客事業",
+        "start": 49004,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 48804,
+        "groupEnd": 49673,
+        "groupSha256": "4d2753b7608025a4296a1044a7ed2fd098d4b9d7db103338138618ce2851bba4",
+        "parts": [
+          {
+            "raw": "相撲を活用した",
+            "start": 49004
+          },
+          {
+            "raw": "外国人観光客",
+            "start": 49012
+          },
+          {
+            "raw": "誘客事業",
+            "start": 49019
+          }
+        ]
+      },
+      {
+        "name": "コスプレを活用した地域経済活性化事業",
+        "raw": "コスプレを活用し コスプレの利用客を増加させるために情報発信や ※代替事業としてPR動画作成\nた地域経済活 交通アクセスの向上などを図ると共に、コスプレ関 貸出衣装の購入 64着\n性化事業",
+        "start": 49437,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 49237,
+        "groupEnd": 50181,
+        "groupSha256": "fab16721cdae0916335196b1054f35f7968de9c65bc5ebb86d996c43d35ca896",
+        "parts": [
+          {
+            "raw": "コスプレを活用し",
+            "start": 49437
+          },
+          {
+            "raw": "た地域経済活",
+            "start": 49484
+          },
+          {
+            "raw": "性化事業",
+            "start": 49527
+          }
+        ]
+      },
+      {
+        "name": "矢口工業団地の拡張の推進事業",
+        "raw": "矢口工業団地 （第1期拡張事業）\n・１．８ｈａ 令和2年3月13日造成工事完了\nの拡張の推進 税収の増加と雇用の創出を図るため、矢口工業 （第2期拡張事業）\n事業",
+        "start": 50051,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 49851,
+        "groupEnd": 50782,
+        "groupSha256": "0dbe085f0aaeba584130729846aacf008100e5c3b39dfb8db98d9bf8d8fb00c1",
+        "parts": [
+          {
+            "raw": "矢口工業団地",
+            "start": 50051
+          },
+          {
+            "raw": "の拡張の推進",
+            "start": 50091
+          },
+          {
+            "raw": "事業",
+            "start": 50130
+          }
+        ]
+      },
+      {
+        "name": "雇用就労支援事業",
+        "raw": "雇用就労支援\n事業",
+        "start": 51076,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 50876,
+        "groupEnd": 51735,
+        "groupSha256": "3a9b40826bc6c8f5c6d18d42fee3fd90639617248a3370edbb38e69eb20c6a39",
+        "parts": [
+          {
+            "raw": "雇用就労支援",
+            "start": 51076
+          },
+          {
+            "raw": "事業",
+            "start": 51083
+          }
+        ]
+      },
+      {
+        "name": "スクールバス運行事業",
+        "raw": "スクールバス運\n・消耗品等\n【２０千円】\n童生徒が安全に通学できるようスクールバスの運\n行事業",
+        "start": 51981,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 51781,
+        "groupEnd": 52678,
+        "groupSha256": "80984ae646b4f94c321b2949d87cb2f38d4c2e55edc529b67311c0301120df30",
+        "parts": [
+          {
+            "raw": "スクールバス運",
+            "start": 51981
+          },
+          {
+            "raw": "行事業",
+            "start": 52025
+          }
+        ]
+      },
+      {
+        "name": "教員アシスタント職員活用事業",
+        "raw": "教員アシスタント\n生徒と向き合う時間を確保するため、教員アシス 各小中学校に１名を配置（のべ８人）\n職員活用事業",
+        "start": 52338,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 52138,
+        "groupEnd": 53044,
+        "groupSha256": "8077cb5216f31cf0a9b30ed014af26a799046d0262770c58a551e0d51de0948f",
+        "parts": [
+          {
+            "raw": "教員アシスタント",
+            "start": 52338
+          },
+          {
+            "raw": "職員活用事業",
+            "start": 52388
+          }
+        ]
+      },
+      {
+        "name": "校務支援ＩＣＴ活用事業",
+        "raw": "校務支援ＩＣＴ活\n校務用パソコン借上料 【１４，２７５千円】\n合う時間を確保するため、コンピュータを使った校\n用事業",
+        "start": 52653,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 52453,
+        "groupEnd": 53361,
+        "groupSha256": "e63ecf33bb9d7912b192920b167026527cf999ed5023f6a2f975f164e3d05959",
+        "parts": [
+          {
+            "raw": "校務支援ＩＣＴ活",
+            "start": 52653
+          },
+          {
+            "raw": "用事業",
+            "start": 52708
+          }
+        ]
+      },
+      {
+        "name": "不登校相談・支援推進事業",
+        "raw": "不登校相談・支\n・教育相談員賃金\n【５６６千円】\nまた、教育支援センターに指導員及び学校適応\n援推進事業",
+        "start": 53278,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 53078,
+        "groupEnd": 53980,
+        "groupSha256": "ff0ee8f69cbd9e72bbdab3dd9d61dd4cc4d1f8ce201ee1accfa179d10d223d82",
+        "parts": [
+          {
+            "raw": "不登校相談・支",
+            "start": 53278
+          },
+          {
+            "raw": "援推進事業",
+            "start": 53325
+          }
+        ]
+      },
+      {
+        "name": "個に応じた授業を推進するための教員の配置事業",
+        "raw": "個に応じた授業\n〇特別支援教育巡回相談員謝礼\nを推進するため 各学校に学校支援教員、介助員等を配置して、\n（３名 検査・結果）\n【３６千円】\nの教員の配置 個に応じた授業を推進します。\n〇小中学校に学校支援員教員６名、\n事業",
+        "start": 53634,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 53434,
+        "groupEnd": 54396,
+        "groupSha256": "457bcdd1af43e6b0cac4f84b9415a7c3ee7ad75e602edcc9088e0df1eea69add",
+        "parts": [
+          {
+            "raw": "個に応じた授業",
+            "start": 53634
+          },
+          {
+            "raw": "を推進するため",
+            "start": 53657
+          },
+          {
+            "raw": "の教員の配置",
+            "start": 53705
+          },
+          {
+            "raw": "事業",
+            "start": 53744
+          }
+        ]
+      },
+      {
+        "name": "わくわくドラム推進事業",
+        "raw": "わくわくドラム推 の向上のため、小学３年生から6年生、中学生1\n進事業",
+        "start": 54675,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 54475,
+        "groupEnd": 55360,
+        "groupSha256": "76a6f9506080638b892a80c6fe476c1312dbf7bf63542401d9b74a55ff8d613d",
+        "parts": [
+          {
+            "raw": "わくわくドラム推",
+            "start": 54675
+          },
+          {
+            "raw": "進事業",
+            "start": 54707
+          }
+        ]
+      },
+      {
+        "name": "学校施設大規模改修事業",
+        "raw": "学校施設大規\n模改修事業",
+        "start": 56680,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 56480,
+        "groupEnd": 57342,
+        "groupSha256": "6508e8ceb101ddb69e02cc471cf55804a83c6e197016bc90c136d6f8ad71a647",
+        "parts": [
+          {
+            "raw": "学校施設大規",
+            "start": 56680
+          },
+          {
+            "raw": "模改修事業",
+            "start": 56687
+          }
+        ]
+      },
+      {
+        "name": "施設の維持管理事業",
+        "raw": "施設の維持管\n理事業",
+        "start": 57419,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 57219,
+        "groupEnd": 58079,
+        "groupSha256": "397daa2a52c33ecdabcb3465dfdc45a035a3f61c88f19e02f7b6ddcc4f3ee26e",
+        "parts": [
+          {
+            "raw": "施設の維持管",
+            "start": 57419
+          },
+          {
+            "raw": "理事業",
+            "start": 57426
+          }
+        ]
+      },
+      {
+        "name": "ICT教育環境整備事業",
+        "raw": "ICT教育環境整 情報教育の時代にあったICT化に向け、タブレット\n円】\n備事業",
+        "start": 58327,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 58127,
+        "groupEnd": 59017,
+        "groupSha256": "bbc8c85e3e5d08193b82917d7a4909c5d18243c99eae604d7c6750e00954ff74",
+        "parts": [
+          {
+            "raw": "ICT教育環境整",
+            "start": 58327
+          },
+          {
+            "raw": "備事業",
+            "start": 58364
+          }
+        ]
+      },
+      {
+        "name": "その他地域教育関連事業",
+        "raw": "その他地域教育\n少年健全育成団体や学校支援団体等による事 （新型コロナウイルス感染症拡大防止のため中\n関連事業",
+        "start": 59341,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 59141,
+        "groupEnd": 60046,
+        "groupSha256": "00a646beb05edcd725862b04a09b635d91f3b0341fdd01b6812c8e029c545b08",
+        "parts": [
+          {
+            "raw": "その他地域教育",
+            "start": 59341
+          },
+          {
+            "raw": "関連事業",
+            "start": 59392
+          }
+        ]
+      },
+      {
+        "name": "家庭教育支援事業",
+        "raw": "家庭教育支援\n家庭教育に関する学習機会の提供と専門ｱﾄﾞﾊﾞｲ （２回開催：延べ参加者数55人\n事業",
+        "start": 59482,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 59282,
+        "groupEnd": 60182,
+        "groupSha256": "e2e4f3045044cfaf064f4b89e2587009edab9ffbf8d799e074e606c184a3de6c",
+        "parts": [
+          {
+            "raw": "家庭教育支援",
+            "start": 59482
+          },
+          {
+            "raw": "事業",
+            "start": 59530
+          }
+        ]
+      },
+      {
+        "name": "放課後ふれあい教室事業",
+        "raw": "放課後ふれあい\n確保するため、地域の方々の協力を得て、勉強\n教室事業",
+        "start": 59651,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 59451,
+        "groupEnd": 60335,
+        "groupSha256": "3ab68488477aeb0f09c79799648e08fe3a94927057ca58274d4fc08023e67d02",
+        "parts": [
+          {
+            "raw": "放課後ふれあい",
+            "start": 59651
+          },
+          {
+            "raw": "教室事業",
+            "start": 59681
+          }
+        ]
+      },
+      {
+        "name": "ふれあいプラザさかえ施設大規模改修事業",
+        "raw": "ふれあいプラザさかえにおいては老朽化が進んで\nさかえ施設大規\n〇ふれあいプラザさかえ文化ホール排煙設備更\nおり、施設・設備の改修・修繕を進めます。\n模改修事業",
+        "start": 61164,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 60964,
+        "groupEnd": 61893,
+        "groupSha256": "0342124b694781568d92e382aab3fb1628c51d400fefe020eee401fd6eac17bb",
+        "parts": [
+          {
+            "raw": "ふれあいプラザ",
+            "start": 61164
+          },
+          {
+            "raw": "さかえ施設大規",
+            "start": 61187
+          },
+          {
+            "raw": "模改修事業",
+            "start": 61238
+          }
+        ]
+      },
+      {
+        "name": "ふれあいプラザさかえ施設維持修繕事業",
+        "raw": "ふれあいプラザさかえが生害学習の場として、安 〇役務費【350千円】\nさかえ施設維持 心安全に提供できるよう、管理・運営を行いま\n〇委託料【23,334円】\n修繕事業",
+        "start": 61376,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 61176,
+        "groupEnd": 62109,
+        "groupSha256": "9371e2261db6020fb5151271cd487290f3894dec051b074f2e820934618cb5f9",
+        "parts": [
+          {
+            "raw": "ふれあいプラザ",
+            "start": 61376
+          },
+          {
+            "raw": "さかえ施設維持",
+            "start": 61411
+          },
+          {
+            "raw": "修繕事業",
+            "start": 61455
+          }
+        ]
+      },
+      {
+        "name": "スポーツフェスタ事業",
+        "raw": "スポーツフェスタ ポーツへの関心や気運が高まることによって、オリ 金）（バレーボール・卓球・バスケットボール：参加\n事業",
+        "start": 61798,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 61598,
+        "groupEnd": 62508,
+        "groupSha256": "877398bde4df6465b8155c778b6108e1409a159659078b920e6b85a546eb8ce5",
+        "parts": [
+          {
+            "raw": "スポーツフェスタ",
+            "start": 61798
+          },
+          {
+            "raw": "事業",
+            "start": 61856
+          }
+        ]
+      },
+      {
+        "name": "スポーツ団体活動支援事業",
+        "raw": "スポーツ団体活 民にスポーツを普及し、健康と体力向上の促進を ング教室50名、リンパマッサージ2回中1回開催\n動支援事業",
+        "start": 62060,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 61860,
+        "groupEnd": 62770,
+        "groupSha256": "7e3992915c4a135a1364d2990fca7ee94ae8dd3e8d72b3678968297c3ff3e3f0",
+        "parts": [
+          {
+            "raw": "スポーツ団体活",
+            "start": 62060
+          },
+          {
+            "raw": "動支援事業",
+            "start": 62115
+          }
+        ]
+      },
+      {
+        "name": "リバーサイドマラソン実施事業",
+        "raw": "リバーサイドマラ 多くの参加者を募り、町民やスポーツ関係者など ○印旛駅伝競走大会（中止）\nソン実施事業",
+        "start": 62455,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 62255,
+        "groupEnd": 63157,
+        "groupSha256": "a9fd622d93592bf579b49d18e042ffff27afccabca12d388e30bbccf8c28ae3b",
+        "parts": [
+          {
+            "raw": "リバーサイドマラ",
+            "start": 62455
+          },
+          {
+            "raw": "ソン実施事業",
+            "start": 62501
+          }
+        ]
+      },
+      {
+        "name": "ホームページを活用した行政情報発信事業",
+        "raw": "ホームページを ホームページから町民が常に新しい情報を手軽\n活用した行政情 に得ることができるよう、町政や行政サービス、イ\n報発信事業",
+        "start": 68744,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 68544,
+        "groupEnd": 69461,
+        "groupSha256": "08cef8d77b1595836b4cdf3921ba29e24cd35a967f4eb8430ab3a428b10e6785",
+        "parts": [
+          {
+            "raw": "ホームページを",
+            "start": 68744
+          },
+          {
+            "raw": "活用した行政情",
+            "start": 68774
+          },
+          {
+            "raw": "報発信事業",
+            "start": 68806
+          }
+        ]
+      },
+      {
+        "name": "広報さかえ発行事業",
+        "raw": "広報さかえ発行 やすく、分かりやすい広報を発行します。また、イ\n・ホームページでの閲覧件数：11,852件\n事業",
+        "start": 69338,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 69138,
+        "groupEnd": 70044,
+        "groupSha256": "72ba065d1a81ccfd8f0f022f6c850843826d2cba3f0011efb4919e3f91f5b694",
+        "parts": [
+          {
+            "raw": "広報さかえ発行",
+            "start": 69338
+          },
+          {
+            "raw": "事業",
+            "start": 69392
+          }
+        ]
+      },
+      {
+        "name": "人材開発の充実事業",
+        "raw": "人材開発の充\n実事業",
+        "start": 70715,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 70515,
+        "groupEnd": 71375,
+        "groupSha256": "0edcfda3c8c7a93bc9e232d6e783be2f1e3973db4a0470be8d33cef3025ada26",
+        "parts": [
+          {
+            "raw": "人材開発の充",
+            "start": 70715
+          },
+          {
+            "raw": "実事業",
+            "start": 70722
+          }
+        ]
+      },
+      {
+        "name": "人権行政相談事業",
+        "raw": "人権行政相談\n事業",
+        "start": 72547,
+        "year": 2020,
+        "yearQuote": "令和2年度 事業内容",
+        "yearOffset": 7116,
+        "groupStart": 72347,
+        "groupEnd": 73206,
+        "groupSha256": "60e74f4897317778eb9bd1621425fd4f2414b75118ea0c7661b769aca995c914",
+        "parts": [
+          {
+            "raw": "人権行政相談",
+            "start": 72547
+          },
+          {
+            "raw": "事業",
+            "start": 72554
+          }
+        ]
+      }
+    ]
+  }
+];

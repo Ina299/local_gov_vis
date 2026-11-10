@@ -1,40 +1,40 @@
 {
-  "candidateRecords": 1725,
-  "newCandidatesThisTranche": 231,
-  "newCandidatesSincePreviousPush": 231,
-  "previousRemoteHead": "8000b66a7136e745406aef7beebff855f71484a0",
+  "candidateRecords": 1978,
+  "newCandidatesThisTranche": 253,
+  "newCandidatesSincePreviousPush": 253,
+  "previousRemoteHead": "fce548f2373db31ec338b569d3ce68666eb6ba87",
   "perMunicipality": {
     "鋸南町": 44,
     "長南町": 10,
     "長生村": 2,
     "横芝光町": 339,
     "東庄町": 41,
-    "栄町": 1289
+    "栄町": 1542
   },
   "existingFieldEnrichments": 0,
   "newCandidateActualAmountFields": 0,
   "cohortActualAmountFields": 2,
-  "validatedCumulativeCandidates": 36227,
-  "validatedEvidence": 108198,
+  "validatedCumulativeCandidates": 36480,
+  "validatedEvidence": 109214,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "8000b66a7136e745406aef7beebff855f71484a0",
+  "previousHead": "fce548f2373db31ec338b569d3ce68666eb6ba87",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "10/10",
-    "crawler": "1077/1077",
+    "focused": "11/11",
+    "crawler": "1078/1078",
     "web": "256/256",
     "typecheck": "passed",
     "lint": "passed;existingfontwarning",
     "national": "passed branchbaseline",
     "static": "109/109 subpath",
-    "quotes": "36227 candidates/108198 quotes"
+    "quotes": "36480 candidates/109214 quotes"
   },
   "remoteCI": "unverified;known ActionsAPI403 not retried",
-  "remaining": "Chiba queue continues. Sakae1289 now fullvalidated; later proposals staged outside repository remain outside this checkpoint. Annual review entries do not imply implementation or completion. Tonosho41 are related educational class records. Missing42 bodies remain held. Existing partial-name corrections need separate coordinated integration; no existing values changed."
+  "remaining": "Chiba queue continues. Sakae1542 now fullvalidated; later proposals staged outside repository remain outside this checkpoint. Annual review entries do not imply implementation or completion. Tonosho41 are related educational class records. Missing42 bodies remain held. Existing partial-name corrections need separate coordinated integration; no existing values changed."
 }
