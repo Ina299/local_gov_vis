@@ -1,40 +1,41 @@
 {
-  "candidateRecords": 1140,
-  "newCandidatesThisTranche": 171,
+  "candidateRecords": 1178,
+  "newCandidatesThisTranche": 38,
   "existingFieldEnrichments": 0,
   "perMunicipality": {
     "真鶴町": 50,
     "開成町": 31,
-    "松田町": 37,
+    "松田町": 69,
     "大井町": 20,
     "二宮町": 116,
     "葉山町": 30,
     "綾瀬市": 349,
-    "南足柄市": 150,
+    "南足柄市": 155,
     "厚木市": 351,
-    "逗子市": 6
+    "逗子市": 6,
+    "平塚市": 1
   },
-  "validatedCumulativeCandidates": 33571,
-  "validatedEvidence": 99823,
+  "validatedCumulativeCandidates": 33609,
+  "validatedEvidence": 99910,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "1e59b040605d6a5bd40a5151bcfa04bb23a097ae",
+  "previousHead": "dc13a949cd03f1f3faf1016d86c21e5c97a0a686",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "57/57",
-    "crawler": "1042/1042",
+    "focused": "60/60",
+    "crawler": "1045/1045",
     "web": "256/256",
     "typecheck": "passed",
     "lint": "passed; existing font warning",
     "national": "passed branch baseline",
     "static": "109/109 subpath",
-    "quotes": "33571 candidates /99823 quotes"
+    "quotes": "33609 candidates /99910 quotes"
   },
   "remoteCI": "unverified;known ActionsAPI403 not retried",
-  "remaining": "Kanagawa review ongoing; Matsuda39 and Hiratsuka1 proposals separately unvalidated. Source-specific identity/incomplete-name holds remain, no nationwide completion claim."
+  "remaining": "Five historical period proposals remain staged separately. Matsuda7 duplicate annual candidates excluded. No nationwide completion claim."
 }

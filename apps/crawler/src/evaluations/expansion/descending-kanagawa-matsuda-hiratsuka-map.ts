@@ -1,0 +1,693 @@
+export const configs = [
+  {
+    "sourceId": "92941c3d9fd57bb82b091aa5",
+    "municipalityCode": "14363",
+    "sourceUrl": "https://town.matsuda.kanagawa.jp/uploaded/attachment/19138.pdf",
+    "sourceSha256": "3b8f36c2cd03588525d4c14c4d61efbc4f2068f41b5d9e1b4108778fc42ab756",
+    "textSha256": "549c0e8f5e9ff8ddbe615c015e8700b0bc5b84ab2ff85c079f058ca7d842a1fa",
+    "year": 2025,
+    "yearQuote": "（令和７年度\n\n年度末評価）",
+    "yearOffset": 30,
+    "rows": [
+      {
+        "name": "地域福祉計画の策定・推進",
+        "start": 4238,
+        "raw": "地域福祉計画の策定・推進",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "防災訓練の実施",
+        "start": 4255,
+        "raw": "防災訓練の実施",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "自主防災組織の育成支援",
+        "start": 4277,
+        "raw": "自主防災組織の育成支援",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "地域学校協働活動事業",
+        "start": 4303,
+        "raw": "地域学校協働活動事業",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "要配慮者の災害避難の支援",
+        "start": 4329,
+        "raw": "要配慮者の災害避難の支援",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "新松田駅北口周辺整備の促進",
+        "start": 4823,
+        "raw": "新松田駅北口周辺整備の促進",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "効果的な交通施策の推進と新たな交通施策の推進",
+        "start": 4841,
+        "raw": "効果的な交通施策の推進と新たな交通施策の推進",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "スーパー及びコンビニエンスストアの誘致",
+        "start": 4868,
+        "raw": "スーパー及びコンビニエンスストアの誘致",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "新松田駅南口駅周辺道路の整備",
+        "start": 4902,
+        "raw": "新松田駅南口駅周辺道路の整備",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "松田駅北口周辺整備の検討",
+        "start": 4931,
+        "raw": "松田駅北口周辺整備の検討",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "空家・空地バンク制度の運用及び相談業務",
+        "start": 5004,
+        "raw": "空家・空地バンク制度の運用及び相談業務",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "スマートハウス普及の推進",
+        "start": 5028,
+        "raw": "スマートハウス普及の推進",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "松田山の保全の推進",
+        "start": 5527,
+        "raw": "松田山の保全の推進",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "松田山の利活用の推進",
+        "start": 5551,
+        "raw": "松田山の利活用の推進",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "西平畑公園及び松田山ハーブガーデン活用促進",
+        "start": 5576,
+        "raw": "西平畑公園及び松田山ハーブガーデン活用促進",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "パークゴルフ場の活用促進",
+        "start": 5612,
+        "raw": "パークゴルフ場の活用促進",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "農泊や体験事業の推進",
+        "start": 5629,
+        "raw": "農泊や体験事業の推進",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "新たな観光資源の創造・発掘・活用",
+        "start": 5654,
+        "raw": "新たな観光資源の創造・発掘・活用",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "森林資源の活用",
+        "start": 5685,
+        "raw": "森林資源の活用",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "民間の観光事業者との連携",
+        "start": 5707,
+        "raw": "民間の観光事業者との連携",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "スポーツツーリズムの推進",
+        "start": 5734,
+        "raw": "スポーツツーリズムの推進",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "ジビエ処理加工施設の管理・運営",
+        "start": 5805,
+        "raw": "ジビエ処理加工施設の管理・運営",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "町内外の施設での観光情報の発信",
+        "start": 5835,
+        "raw": "町内外の施設での観光情報の発信",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "ALT 等の配置による英語教育の充実",
+        "start": 6277,
+        "raw": "ALT 等の配置による英語教育の充実",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "子育て世帯支援事業",
+        "start": 6380,
+        "raw": "子育て世帯支援事業",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "子育て支援センターやファミリー・サポートセンター事業の充実",
+        "start": 6404,
+        "raw": "子育て支援センターやファミリー・サポートセンター事業の充実",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "人財バンク制度の推進",
+        "start": 6448,
+        "raw": "人財バンク制度の推進",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "松田中学校改修事業",
+        "start": 6473,
+        "raw": "松田中学校改修事業",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "寄小学校改修事業",
+        "start": 6497,
+        "raw": "寄小学校改修事業",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "教育施設環境配慮事業（再生可能エネルギーの利用等）",
+        "start": 6571,
+        "raw": "教育施設環境配慮事業（再生可能エネルギーの利用等）",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "ICT を活用した保、幼、小・中学校の連携教育の推進",
+        "start": 6611,
+        "raw": "ICT を活用した保、幼、小・中学校の連携教育の推進",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "育児相談・健康教育の充実",
+        "start": 7175,
+        "raw": "育児相談・健康教育の充実",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "コミュニティスクールの導入",
+        "start": 7202,
+        "raw": "コミュニティスクールの導入",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "ICT 機器を活用した学校交流事業",
+        "start": 7230,
+        "raw": "ICT 機器を活用した学校交流事業",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "学習支援・介助員配置事業",
+        "start": 7262,
+        "raw": "学習支援・介助員配置事業",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "未熟児・乳幼児家庭全戸訪問等の訪問指導事業の強化",
+        "start": 7343,
+        "raw": "未熟児・乳幼児家庭全戸訪問等の訪問指導事業の強化",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "公園・児童遊園地等の遊具整備・維持管理",
+        "start": 7382,
+        "raw": "公園・児童遊園地等の遊具整備・維持管理",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "児童福祉と母子保健の一体的な提供体制促進",
+        "start": 7529,
+        "raw": "児童福祉と母子保健の一体的な提供体制促進",
+        "activities": null,
+        "activityOffset": null
+      },
+      {
+        "name": "情報提供のデジタル化",
+        "start": 7564,
+        "raw": "情報提供のデジタル化",
+        "activities": null,
+        "activityOffset": null
+      }
+    ],
+    "ledger": [
+      {
+        "name": "自治基本条例に基づくまちづくりの推進",
+        "start": 4136,
+        "raw": "自治基本条例に基づくまちづくりの推進",
+        "status": "existing_same_annual_name",
+        "existingId": "cached-14363-70fc41f0aac700e23e215bb4"
+      },
+      {
+        "name": "情報共有（広報・公聴活動）の推進・充実",
+        "start": 4169,
+        "raw": "情報共有（広報・公聴活動）の推進・充実",
+        "status": "alias_identity_hold",
+        "reason": "Punctuation/公聴-vs広聴/促進-vs推進 difference against same-year corresponding title; not counted as another project."
+      },
+      {
+        "name": "参加・協働・連携協力の推進",
+        "start": 4203,
+        "raw": "参加・協働・連携協力の推進",
+        "status": "alias_identity_hold",
+        "reason": "Punctuation/公聴-vs広聴/促進-vs推進 difference against same-year corresponding title; not counted as another project."
+      },
+      {
+        "name": "地域福祉計画の策定・推進",
+        "start": 4238,
+        "raw": "地域福祉計画の策定・推進",
+        "status": "proposed"
+      },
+      {
+        "name": "防災訓練の実施",
+        "start": 4255,
+        "raw": "防災訓練の実施",
+        "status": "proposed"
+      },
+      {
+        "name": "自主防災組織の育成支援",
+        "start": 4277,
+        "raw": "自主防災組織の育成支援",
+        "status": "proposed"
+      },
+      {
+        "name": "地域学校協働活動事業",
+        "start": 4303,
+        "raw": "地域学校協働活動事業",
+        "status": "proposed"
+      },
+      {
+        "name": "要配慮者の災害避難の支援",
+        "start": 4329,
+        "raw": "要配慮者の災害避難の支援",
+        "status": "proposed"
+      },
+      {
+        "name": "新松田駅北口周辺整備の促進",
+        "start": 4823,
+        "raw": "新松田駅北口周辺整備の促進",
+        "status": "proposed"
+      },
+      {
+        "name": "効果的な交通施策の推進と新たな交通施策の推進",
+        "start": 4841,
+        "raw": "効果的な交通施策の推進と新たな交通施策の推進",
+        "status": "proposed"
+      },
+      {
+        "name": "スーパー及びコンビニエンスストアの誘致",
+        "start": 4868,
+        "raw": "スーパー及びコンビニエンスストアの誘致",
+        "status": "proposed"
+      },
+      {
+        "name": "新松田駅南口駅周辺道路の整備",
+        "start": 4902,
+        "raw": "新松田駅南口駅周辺道路の整備",
+        "status": "proposed"
+      },
+      {
+        "name": "松田駅北口周辺整備の検討",
+        "start": 4931,
+        "raw": "松田駅北口周辺整備の検討",
+        "status": "proposed"
+      },
+      {
+        "name": "空家・空地バンク制度の運用及び相談業務",
+        "start": 5004,
+        "raw": "空家・空地バンク制度の運用及び相談業務",
+        "status": "proposed"
+      },
+      {
+        "name": "スマートハウス普及の推進",
+        "start": 5028,
+        "raw": "スマートハウス普及の推進",
+        "status": "proposed"
+      },
+      {
+        "name": "官民連携の推進",
+        "start": 5055,
+        "raw": "官民連携の推進",
+        "status": "existing_same_annual_name",
+        "existingId": "cached-14363-f66251f210794a86b0470c20"
+      },
+      {
+        "name": "松田山の保全の推進",
+        "start": 5527,
+        "raw": "松田山の保全の推進",
+        "status": "proposed"
+      },
+      {
+        "name": "松田山の利活用の推進",
+        "start": 5551,
+        "raw": "松田山の利活用の推進",
+        "status": "proposed"
+      },
+      {
+        "name": "西平畑公園及び松田山ハーブガーデン活用促進",
+        "start": 5576,
+        "raw": "西平畑公園及び松田山ハーブガーデン活用促進",
+        "status": "proposed"
+      },
+      {
+        "name": "パークゴルフ場の活用促進",
+        "start": 5612,
+        "raw": "パークゴルフ場の活用促進",
+        "status": "proposed"
+      },
+      {
+        "name": "農泊や体験事業の推進",
+        "start": 5629,
+        "raw": "農泊や体験事業の推進",
+        "status": "proposed"
+      },
+      {
+        "name": "新たな観光資源の創造・発掘・活用",
+        "start": 5654,
+        "raw": "新たな観光資源の創造・発掘・活用",
+        "status": "proposed"
+      },
+      {
+        "name": "森林資源の活用",
+        "start": 5685,
+        "raw": "森林資源の活用",
+        "status": "proposed"
+      },
+      {
+        "name": "民間の観光事業者との連携",
+        "start": 5707,
+        "raw": "民間の観光事業者との連携",
+        "status": "proposed"
+      },
+      {
+        "name": "スポーツツーリズムの推進",
+        "start": 5734,
+        "raw": "スポーツツーリズムの推進",
+        "status": "proposed"
+      },
+      {
+        "name": "ジビエ処理加工施設の管理・運営",
+        "start": 5805,
+        "raw": "ジビエ処理加工施設の管理・運営",
+        "status": "proposed"
+      },
+      {
+        "name": "町内外の施設での観光情報の発信",
+        "start": 5835,
+        "raw": "町内外の施設での観光情報の発信",
+        "status": "proposed"
+      },
+      {
+        "name": "ALT 等の配置による英語教育の充実",
+        "start": 6277,
+        "raw": "ALT 等の配置による英語教育の充実",
+        "status": "proposed"
+      },
+      {
+        "name": "地域福祉計画の策定・推進",
+        "start": 6300,
+        "raw": "地域福祉計画の策定・推進",
+        "status": "duplicate_occurrence",
+        "firstOffset": 4238
+      },
+      {
+        "name": "子育て世帯支援事業",
+        "start": 6380,
+        "raw": "子育て世帯支援事業",
+        "status": "proposed"
+      },
+      {
+        "name": "子育て支援センターやファミリー・サポートセンター事業の充実",
+        "start": 6404,
+        "raw": "子育て支援センターやファミリー・サポートセンター事業の充実",
+        "status": "proposed"
+      },
+      {
+        "name": "人財バンク制度の推進",
+        "start": 6448,
+        "raw": "人財バンク制度の推進",
+        "status": "proposed"
+      },
+      {
+        "name": "松田中学校改修事業",
+        "start": 6473,
+        "raw": "松田中学校改修事業",
+        "status": "proposed"
+      },
+      {
+        "name": "寄小学校改修事業",
+        "start": 6497,
+        "raw": "寄小学校改修事業",
+        "status": "proposed"
+      },
+      {
+        "name": "松田幼稚園改修事業",
+        "start": 6520,
+        "raw": "松田幼稚園改修事業",
+        "status": "annual_implementation_hold",
+        "reason": "R7evaluation column is a dash, with aggregate completed grade and future discontinuation column interleaved. No current-year implementation inferred."
+      },
+      {
+        "name": "教育施設環境配慮事業（再生可能エネルギーの利用等）",
+        "start": 6571,
+        "raw": "教育施設環境配慮事業（再生可能エネルギーの利用等）",
+        "status": "proposed"
+      },
+      {
+        "name": "ICT を活用した保、幼、小・中学校の連携教育の推進",
+        "start": 6611,
+        "raw": "ICT を活用した保、幼、小・中学校の連携教育の推進",
+        "status": "proposed"
+      },
+      {
+        "name": "チルドレンファースト事業の管理・推進",
+        "start": 6652,
+        "raw": "チルドレンファースト事業の管理・推進",
+        "status": "existing_same_annual_name",
+        "existingId": "cached-14363-201650bbab87c54f266c86c9"
+      },
+      {
+        "name": "子育て支援センターやファミリー・サポートセンター事業の充実",
+        "start": 7107,
+        "raw": "子育て支援センターやファミリー・サポートセンター事業の充実",
+        "status": "duplicate_occurrence",
+        "firstOffset": 6404
+      },
+      {
+        "name": "子育て世帯支援事業",
+        "start": 7151,
+        "raw": "子育て世帯支援事業",
+        "status": "duplicate_occurrence",
+        "firstOffset": 6380
+      },
+      {
+        "name": "育児相談・健康教育の充実",
+        "start": 7175,
+        "raw": "育児相談・健康教育の充実",
+        "status": "proposed"
+      },
+      {
+        "name": "コミュニティスクールの導入",
+        "start": 7202,
+        "raw": "コミュニティスクールの導入",
+        "status": "proposed"
+      },
+      {
+        "name": "ICT 機器を活用した学校交流事業",
+        "start": 7230,
+        "raw": "ICT 機器を活用した学校交流事業",
+        "status": "proposed"
+      },
+      {
+        "name": "学習支援・介助員配置事業",
+        "start": 7262,
+        "raw": "学習支援・介助員配置事業",
+        "status": "proposed"
+      },
+      {
+        "name": "ALT 等の配置による英語教育の充実",
+        "start": 7310,
+        "raw": "ALT 等の配置による英語教育の充実",
+        "status": "duplicate_occurrence",
+        "firstOffset": 6277
+      },
+      {
+        "name": "未熟児・乳幼児家庭全戸訪問等の訪問指導事業の強化",
+        "start": 7343,
+        "raw": "未熟児・乳幼児家庭全戸訪問等の訪問指導事業の強化",
+        "status": "proposed"
+      },
+      {
+        "name": "公園・児童遊園地等の遊具整備・維持管理",
+        "start": 7382,
+        "raw": "公園・児童遊園地等の遊具整備・維持管理",
+        "status": "proposed"
+      },
+      {
+        "name": "西平畑公園及び松田山ハーブガーデン活用促進",
+        "start": 7417,
+        "raw": "西平畑公園及び松田山ハーブガーデン活用促進",
+        "status": "duplicate_occurrence",
+        "firstOffset": 5576
+      },
+      {
+        "name": "新松田駅北口周辺整備の促進",
+        "start": 7454,
+        "raw": "新松田駅北口周辺整備の促進",
+        "status": "duplicate_occurrence",
+        "firstOffset": 4823
+      },
+      {
+        "name": "効果的な交通施策の促進と新たな交通施策の推進",
+        "start": 7483,
+        "raw": "効果的な交通施策の促進と新たな交通施策の推進",
+        "status": "alias_identity_hold",
+        "reason": "Punctuation/公聴-vs広聴/促進-vs推進 difference against same-year corresponding title; not counted as another project."
+      },
+      {
+        "name": "児童福祉と母子保健の一体的な提供体制促進",
+        "start": 7529,
+        "raw": "児童福祉と母子保健の一体的な提供体制促進",
+        "status": "proposed"
+      },
+      {
+        "name": "情報提供のデジタル化",
+        "start": 7564,
+        "raw": "情報提供のデジタル化",
+        "status": "proposed"
+      },
+      {
+        "name": "ICT を活用した保、幼、小・中学校の連携教育の推進",
+        "start": 7589,
+        "raw": "ICT を活用した保、幼、小・中学校の連携教育の推進",
+        "status": "duplicate_occurrence",
+        "firstOffset": 6611
+      },
+      {
+        "name": "松田中学校改修事業",
+        "start": 7630,
+        "raw": "松田中学校改修事業",
+        "status": "duplicate_occurrence",
+        "firstOffset": 6473
+      },
+      {
+        "name": "寄小学校改修事業",
+        "start": 7654,
+        "raw": "寄小学校改修事業",
+        "status": "duplicate_occurrence",
+        "firstOffset": 6497
+      },
+      {
+        "name": "松田幼稚園改修事業",
+        "start": 7714,
+        "raw": "松田幼稚園改修事業",
+        "status": "duplicate_occurrence",
+        "firstOffset": 6520
+      },
+      {
+        "name": "教育施設環境配慮事業（再生可能エネルギーの利用等）",
+        "start": 7731,
+        "raw": "教育施設環境配慮事業（再生可能エネルギーの利用等）",
+        "status": "duplicate_occurrence",
+        "firstOffset": 6571
+      },
+      {
+        "name": "スポーツツーリズムの推進",
+        "start": 7771,
+        "raw": "スポーツツーリズムの推進",
+        "status": "duplicate_occurrence",
+        "firstOffset": 5734
+      },
+      {
+        "name": "新松田駅南口駅周辺道路の整備",
+        "start": 7798,
+        "raw": "新松田駅南口駅周辺道路の整備",
+        "status": "duplicate_occurrence",
+        "firstOffset": 4902
+      },
+      {
+        "name": "松田駅北口周辺整備の検討",
+        "start": 7828,
+        "raw": "松田駅北口周辺整備の検討",
+        "status": "duplicate_occurrence",
+        "firstOffset": 4931
+      }
+    ],
+    "unvalidated": true
+  },
+  {
+    "sourceId": "26c9c54797fa89233a7fe668",
+    "municipalityCode": "14203",
+    "sourceUrl": "https://www.city.hiratsuka.kanagawa.jp/common/200184872.pdf",
+    "sourceSha256": "65f99351708ab151f4c7514f5674ab571962baa595d914f99d813414c5504bae",
+    "textSha256": "33daec5c8890467d44de6e0d9214d2a4241452a25b1f307c6116f47e1b417f38",
+    "year": 2024,
+    "yearQuote": "令和６年度における平塚市総合計画の取組状況の総括",
+    "yearOffset": 0,
+    "rows": [
+      {
+        "name": "脱炭素設備投資促進補助金",
+        "raw": "脱炭素設備投資促進補助金",
+        "start": 1737,
+        "activities": "事業\n者に対しては、脱炭素設備投資促進補助金の交付や脱炭素・省エネアドバイザーの派遣を行いまし\nた。",
+        "activityOffset": 1727
+      }
+    ],
+    "unvalidated": true,
+    "scope": "Only this explicitly named grant with actual award narrative; no policy chapters,198/194aggregate project counts, projected total costs or inferred DX project names.",
+    "ledger": []
+  }
+];

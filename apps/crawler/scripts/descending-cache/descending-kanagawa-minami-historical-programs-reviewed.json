@@ -1,0 +1,64 @@
+{
+  "sourceId": "cf11d78491a997aa972665a2",
+  "municipalityCode": "14217",
+  "sourceUrl": "https://www.city.minamiashigara.kanagawa.jp/global-image/units/211330/1-20201208153820.pdf",
+  "sourceSha256": "20d4ed8bcccc54cfbabc10baca2b5b70a6263881d38383c6f1569b5f0db59d1a",
+  "textSha256": "77ee18ab60a0458eb59803b59e337dbade94a90bb893cb038346c034bfeedb60",
+  "evaluationYear": 2020,
+  "evaluationQuote": "令和２年 11 月",
+  "evaluationOffset": 27,
+  "rows": [
+    {
+      "name": "転入奨励金制度",
+      "year": 2018,
+      "start": 8471,
+      "raw": "転入奨励金制度",
+      "activities": "平成 30 年度には、同条例に「転入奨励金制度」の内容を追加し企業誘致の促進制度を拡充\nしました。",
+      "activityOffset": 8455,
+      "context": "平成 30 年度には、同条例に「転入奨励金制度」の内容を追加し企業誘致の促進制度を拡充\nしました。",
+      "contextOffset": 8455
+    },
+    {
+      "name": "空き家、空き店舗活用事業",
+      "year": 2016,
+      "start": 9737,
+      "raw": "空き家、空き店舗活用事業",
+      "activities": "移住・定住の促進政策としての空き家、空き店舗活用事業については、平成 28 年度に市\n内全域の一戸建て、店舗、長屋等を対象として空き家の調査及び所有者に対してのアンケー\nト調査、データベースの整備を実施しました。",
+      "activityOffset": 9723,
+      "context": "移住・定住の促進政策としての空き家、空き店舗活用事業については、平成 28 年度に市\n内全域の一戸建て、店舗、長屋等を対象として空き家の調査及び所有者に対してのアンケー\nト調査、データベースの整備を実施しました。",
+      "contextOffset": 9723
+    },
+    {
+      "name": "小児医療費助成制度",
+      "year": 2017,
+      "start": 15775,
+      "raw": "小児医療費助成制度",
+      "activities": "平成 29 年 10 月から通院に伴う医療費の助成の対象を「小\n学４年生まで」から「中学３年生まで」に年齢拡大し、",
+      "activityOffset": 15789,
+      "context": "小児医療費助成制度ついては、平成 29 年 10 月から通院に伴う医療費の助成の対象を「小\n学４年生まで」から「中学３年生まで」に年齢拡大し、令和元年 10 月からは中学生の通院\nに伴う助成の対象を「小学生以下と同等」に拡充し保険診療分の自己負担額を助成しました。",
+      "contextOffset": 15775
+    },
+    {
+      "name": "小児医療費助成制度",
+      "year": 2019,
+      "start": 15775,
+      "raw": "小児医療費助成制度",
+      "activities": "令和元年 10 月からは中学生の通院\nに伴う助成の対象を「小学生以下と同等」に拡充し保険診療分の自己負担額を助成しました。",
+      "activityOffset": 15846,
+      "context": "小児医療費助成制度ついては、平成 29 年 10 月から通院に伴う医療費の助成の対象を「小\n学４年生まで」から「中学３年生まで」に年齢拡大し、令和元年 10 月からは中学生の通院\nに伴う助成の対象を「小学生以下と同等」に拡充し保険診療分の自己負担額を助成しました。",
+      "contextOffset": 15775
+    },
+    {
+      "name": "出産・子どもネウボラ",
+      "year": 2016,
+      "start": 15908,
+      "raw": "出産・子どもネウボラ",
+      "activities": "出産・子どもネウボラを平成 28 年４月に開設し、母子健康手帳交付時に助産師や保健師\nが面接を行い、支援が必要な妊婦には、妊娠期から出産、育児まで切れ目ない支援を実施し\nています。",
+      "activityOffset": 15908,
+      "context": "出産・子どもネウボラを平成 28 年４月に開設し、母子健康手帳交付時に助産師や保健師\nが面接を行い、支援が必要な妊婦には、妊娠期から出産、育児まで切れ目ない支援を実施し\nています。",
+      "contextOffset": 15908
+    }
+  ],
+  "unvalidated": true,
+  "scope": "Explicitly dated establishment/expansion/implementation only. Not five annual copies of2015–2019policy summary. Amounts/grades omitted. Other named historical programmes require separate period/alias screening."
+}
