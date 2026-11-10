@@ -1,8 +1,8 @@
 {
-  "candidateRecords": 2659,
-  "newCandidatesThisTranche": 392,
-  "newCandidatesSincePreviousPush": 392,
-  "previousRemoteHead": "cb0cbfcf76f08dd3bba325541a075268e7c533f1",
+  "candidateRecords": 2825,
+  "newCandidatesThisTranche": 166,
+  "newCandidatesSincePreviousPush": 166,
+  "previousRemoteHead": "4cc8883ee3aaad8bbcacc659bdd508e365562782",
   "perMunicipality": {
     "鋸南町": 44,
     "長南町": 10,
@@ -14,33 +14,34 @@
     "匝瑳市": 283,
     "南房総市": 4,
     "富里市": 162,
-    "四街道市": 230
+    "四街道市": 302,
+    "浦安市": 94
   },
   "existingFieldEnrichments": 0,
-  "newCandidateActualAmountFields": 31,
+  "newCandidateActualAmountFields": 0,
   "newCandidateOriginalRatingFields": 0,
   "cohortActualAmountFields": 33,
-  "validatedCumulativeCandidates": 37161,
-  "validatedEvidence": 112486,
+  "validatedCumulativeCandidates": 37327,
+  "validatedEvidence": 113205,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "cb0cbfcf76f08dd3bba325541a075268e7c533f1",
+  "previousHead": "4cc8883ee3aaad8bbcacc659bdd508e365562782",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "21/21",
-    "crawler": "1088/1088",
+    "focused": "26/26",
+    "crawler": "1093/1093",
     "web": "256/256",
     "typecheck": "passed",
     "lint": "passed;existingfontwarning",
     "national": "passed branchbaseline",
     "static": "109/109 subpath",
-    "quotes": "37161 candidates/112486 quotes"
+    "quotes": "37327 candidates/113205 quotes"
   },
   "remoteCI": "unverified;known ActionsAPI403 not retried",
-  "remaining": "Chiba queue continues. Tomisato162 and Yotsukaido230 added. Further Yotsukaido72 candidates have individually verified source identity and master comparison outside this checkpoint, not yet fullvalidated/published. Amount fields are 31 explicitly aligned Tomisato actual expenditures; no forecast or parent total substituted. No prior fields changed. Missing42 bodies remain held."
+  "remaining": "Chiba queue continues. Yotsukaido72 and Urayasu94 added; no new amounts or rating fields. Yotsukaido12 complete split sources account for484 named identities:182 existing master and302 new candidates. Urayasu four tables account for94 names:76 evaluation2022 and18 evaluation2025; implementation target dates are not fiscal years. Mobara next proposals outside this checkpoint still need fullvalidation. No prior fields changed. Missing42 bodies remain held."
 }

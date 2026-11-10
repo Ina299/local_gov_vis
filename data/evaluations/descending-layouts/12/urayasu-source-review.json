@@ -1,0 +1,79 @@
+{
+  "municipalityCode": "12227",
+  "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "reviewedSources": 6,
+  "verifiedCompleteSources": 6,
+  "candidates": 94,
+  "perEvaluationYear": {
+    "2022": 76,
+    "2025": 18
+  },
+  "evaluatedFiscalYear": "not assigned",
+  "amounts": 0,
+  "ratings": 0,
+  "productionChanges": 0,
+  "municipalRequests": 0,
+  "rows": [
+    {
+      "sourceId": "3a30e30dd0e4974bcfabd254",
+      "url": "https://www.city.urayasu.lg.jp/_res/projects/default_project/_page_/001/042/565/r7mikanryou1.pdf",
+      "sourceSha256": "d5fdd07c433777e31bf796d1fd206d6bd8135a8e4bea9bb1a8efbec42ccd8116",
+      "textSha256": "11fb9729c0e8f3e251976ab900a229e117552809cc4e4c82311278ab92d4307a",
+      "verifiedCharacters": 13177,
+      "individualIdentities": 39,
+      "status": "reviewed_named_improvement_table",
+      "reason": "Complete title fragments individually reviewed; implementation target years/status/forecast costs are not actual amounts or annual evaluations."
+    },
+    {
+      "sourceId": "ad353fb3ae49978853c027c2",
+      "url": "https://www.city.urayasu.lg.jp/_res/projects/default_project/_page_/001/042/565/r7kanryou2.pdf",
+      "sourceSha256": "d598840b2d439a1534fad7097867f3b26f70e4597b2c88353d9ac9ba2bd8e380",
+      "textSha256": "217a59916e766d071f510d4ecf64b497b5b54bc2f8f97d260942275bf955ce43",
+      "verifiedCharacters": 1585,
+      "individualIdentities": 9,
+      "status": "reviewed_named_improvement_table",
+      "reason": "Complete title fragments individually reviewed; implementation target years/status/forecast costs are not actual amounts or annual evaluations."
+    },
+    {
+      "sourceId": "c149f0502172ecf61b14c82d",
+      "url": "https://www.city.urayasu.lg.jp/_res/projects/default_project/_page_/001/042/565/jimujigyouhyoukatou.pdf",
+      "sourceSha256": "19478b2c837fa058196de3218592784eb20efb575d6065d19a57c12b1479aed9",
+      "textSha256": "85e70f6632106caa60c2e875df7774327c5be6a23392a0935ca4bf89437d474a",
+      "verifiedCharacters": 8470,
+      "individualIdentities": 0,
+      "status": "aggregate_method_and_forecast_report",
+      "reason": "Report covers total3006 and selected evaluation/analysis counts, example tables and projected improvement effects; no extra full individual project identities accepted from examples or aggregates. Broad FY2021 target statement not assigned without a per-record source-bound field mapping."
+    },
+    {
+      "sourceId": "c5dd47d4cb0ad2d5f98f5dfb",
+      "url": "https://www.city.urayasu.lg.jp/shisei/keikaku/gyoseikaikaku/1042565.html",
+      "sourceSha256": "d59add017c1901ceea8eaecf3460294f3ee9213cfeeb68c51175da7e47638ed5",
+      "textSha256": "4855d5be60c64b899b442eae9a33ae06946d096a931b57cfebaa35e1ca000265",
+      "verifiedCharacters": 759,
+      "individualIdentities": 0,
+      "status": "official_companion_cohort_evidence",
+      "reason": "Official annual section binds exact PDF labels and saved verified links."
+    },
+    {
+      "sourceId": "d580dfca3ae7e31fd2b18b12",
+      "url": "https://www.city.urayasu.lg.jp/_res/projects/default_project/_page_/001/042/565/r7kanryou1.pdf",
+      "sourceSha256": "ce2f6ecbefba8aae12d55a0764dda4aaee2884ee910e15e3bcf2ac541b6d7299",
+      "textSha256": "1f0cb84ea25a8db921bc19c1a0da7df960b1a96a0c19a2436dc49abe2053e269",
+      "verifiedCharacters": 7080,
+      "individualIdentities": 37,
+      "status": "reviewed_named_improvement_table",
+      "reason": "Complete title fragments individually reviewed; implementation target years/status/forecast costs are not actual amounts or annual evaluations."
+    },
+    {
+      "sourceId": "f617d76ab70a712814a22a23",
+      "url": "https://www.city.urayasu.lg.jp/_res/projects/default_project/_page_/001/042/565/r7mikanryou2.pdf",
+      "sourceSha256": "1393bda7dd03df13312875f9455a85cab94e5afd49b15e154b3cee464965eb87",
+      "textSha256": "a19c6a1c19ce8fcad51c888814d2768215c7947ebb8695e15355dbf5d747faf0",
+      "verifiedCharacters": 3335,
+      "individualIdentities": 9,
+      "status": "reviewed_named_improvement_table",
+      "reason": "Complete title fragments individually reviewed; implementation target years/status/forecast costs are not actual amounts or annual evaluations."
+    }
+  ],
+  "scope": "Finite identity review of four cached improvement tables. The entire city evaluation inventory is not covered; numerical fields and progress-column assignments remain unset."
+}

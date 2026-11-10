@@ -1,0 +1,1742 @@
+{
+  "reviewedPages": 25,
+  "stageCandidates": 72,
+  "ledger": [
+    {
+      "sourceId": "1a4f60afd1866b0d8b852dc3",
+      "page": 1,
+      "name": "会計事務運営事業",
+      "department": "会計課",
+      "parts": [
+        {
+          "raw": "会計事務運営",
+          "start": 45
+        },
+        {
+          "raw": "事業",
+          "start": 52
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "会計課",
+          "start": 62
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "1a4f60afd1866b0d8b852dc3",
+      "page": 1,
+      "name": "議会事務局事務事業",
+      "department": "議会事務局",
+      "parts": [
+        {
+          "raw": "議会事務局事",
+          "start": 80
+        },
+        {
+          "raw": "務事業",
+          "start": 87
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "議会事務局",
+          "start": 92
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "1a4f60afd1866b0d8b852dc3",
+      "page": 1,
+      "name": "議員人件費",
+      "department": "議会事務局",
+      "parts": [
+        {
+          "raw": "議員人件費",
+          "start": 231
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "議会事務局",
+          "start": 238
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "5dfb6669535ee77dc50e3665",
+      "page": 2,
+      "name": "都市公園・緑地維持管理事業",
+      "department": "都市計画課",
+      "parts": [
+        {
+          "raw": "都市公園・緑地",
+          "start": 2393
+        },
+        {
+          "raw": "維持管理事業",
+          "start": 2407
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "都市計画課",
+          "start": 2401
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "5dfb6669535ee77dc50e3665",
+      "page": 2,
+      "name": "緑化推進事業",
+      "department": "都市計画課",
+      "parts": [
+        {
+          "raw": "緑化推進事業",
+          "start": 2415
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "都市計画課",
+          "start": 2423
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "5dfb6669535ee77dc50e3665",
+      "page": 2,
+      "name": "道路管理事業",
+      "department": "土木課",
+      "parts": [
+        {
+          "raw": "道路管理事業",
+          "start": 2443
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "土木課",
+          "start": 2451
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "5dfb6669535ee77dc50e3665",
+      "page": 6,
+      "name": "道路改良事業",
+      "department": "土木課",
+      "parts": [
+        {
+          "raw": "道路改良事業",
+          "start": 7536
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "土木課",
+          "start": 7550
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "5dfb6669535ee77dc50e3665",
+      "page": 6,
+      "name": "道路・水路財産管理事業",
+      "department": "土木課",
+      "parts": [
+        {
+          "raw": "道路・水路財産",
+          "start": 7569
+        },
+        {
+          "raw": "管理事業",
+          "start": 7581
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "土木課",
+          "start": 7577
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "5dfb6669535ee77dc50e3665",
+      "page": 6,
+      "name": "排水路維持管理事業",
+      "department": "土木課",
+      "parts": [
+        {
+          "raw": "排水路維持管",
+          "start": 7954
+        },
+        {
+          "raw": "理事業",
+          "start": 7961
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "土木課",
+          "start": 7710
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "5dfb6669535ee77dc50e3665",
+      "page": 8,
+      "name": "交通安全施設保守・整備事業",
+      "department": "土木課",
+      "parts": [
+        {
+          "raw": "交通安全施設",
+          "start": 10128
+        },
+        {
+          "raw": "保守・整備事業",
+          "start": 10139
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "土木課",
+          "start": 10135
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "5dfb6669535ee77dc50e3665",
+      "page": 8,
+      "name": "手繰川維持管理事業",
+      "department": "土木課",
+      "parts": [
+        {
+          "raw": "手繰川維持管",
+          "start": 10218
+        },
+        {
+          "raw": "理事業",
+          "start": 10225
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "土木課",
+          "start": 10230
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "5dfb6669535ee77dc50e3665",
+      "page": 8,
+      "name": "道路占用管理事業",
+      "department": "土木課",
+      "parts": [
+        {
+          "raw": "道路占用管理",
+          "start": 11192
+        },
+        {
+          "raw": "事業",
+          "start": 11199
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "土木課",
+          "start": 10239
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "5dfb6669535ee77dc50e3665",
+      "page": 13,
+      "name": "鹿渡南部特定土地区画整理事業",
+      "department": "市街地整備課",
+      "parts": [
+        {
+          "raw": "鹿渡南部特定",
+          "start": 17105
+        },
+        {
+          "raw": "土地区画整理",
+          "start": 17112
+        },
+        {
+          "raw": "事業",
+          "start": 17119
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "市街地整備課",
+          "start": 17149
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "5dfb6669535ee77dc50e3665",
+      "page": 13,
+      "name": "物井新田土地区画整理事業関連事業",
+      "department": "市街地整備課",
+      "parts": [
+        {
+          "raw": "物井新田土地",
+          "start": 17123
+        },
+        {
+          "raw": "区画整理事業",
+          "start": 17130
+        },
+        {
+          "raw": "関連事業",
+          "start": 17137
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "市街地整備課",
+          "start": 17157
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "5dfb6669535ee77dc50e3665",
+      "page": 13,
+      "name": "法第７６条（建築行為等の制限）受付許可事業",
+      "department": "市街地整備課",
+      "parts": [
+        {
+          "raw": "法第７６条（建築",
+          "start": 17520
+        },
+        {
+          "raw": "行為等の制限）",
+          "start": 17529
+        },
+        {
+          "raw": "受付許可事業",
+          "start": 17544
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "市街地整備課",
+          "start": 17537
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "5dfb6669535ee77dc50e3665",
+      "page": 14,
+      "name": "建築行政事業",
+      "department": "建築課",
+      "parts": [
+        {
+          "raw": "建築行政事業",
+          "start": 18918
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "建築課",
+          "start": 18943
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "5dfb6669535ee77dc50e3665",
+      "page": 14,
+      "name": "建築防災行政事業",
+      "department": "建築課",
+      "parts": [
+        {
+          "raw": "建築防災行政",
+          "start": 18926
+        },
+        {
+          "raw": "事業",
+          "start": 18933
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "建築課",
+          "start": 18948
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "5dfb6669535ee77dc50e3665",
+      "page": 14,
+      "name": "建設リサイクル事業",
+      "department": "建築課",
+      "parts": [
+        {
+          "raw": "建設リサイクル",
+          "start": 19338
+        },
+        {
+          "raw": "事業",
+          "start": 19350
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "建築課",
+          "start": 19346
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "5dfb6669535ee77dc50e3665",
+      "page": 17,
+      "name": "空き家等対策事業",
+      "department": "建築課",
+      "parts": [
+        {
+          "raw": "空き家等対策事",
+          "start": 23678
+        },
+        {
+          "raw": "業",
+          "start": 23690
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "建築課",
+          "start": 23686
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "5dfb6669535ee77dc50e3665",
+      "page": 17,
+      "name": "三世代同居・近居支援事業",
+      "department": "建築課",
+      "parts": [
+        {
+          "raw": "三世代同居・近",
+          "start": 23834
+        },
+        {
+          "raw": "居支援事業",
+          "start": 23846
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "建築課",
+          "start": 23842
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "6870f3d83daeb1de63d73475",
+      "page": 7,
+      "name": "負担金徴収事業",
+      "department": "下水道課",
+      "parts": [
+        {
+          "raw": "負担金徴収事",
+          "start": 9047
+        },
+        {
+          "raw": "業",
+          "start": 9054
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "下水道課",
+          "start": 9057
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "6870f3d83daeb1de63d73475",
+      "page": 7,
+      "name": "下水道普及・促進事業",
+      "department": "下水道課",
+      "parts": [
+        {
+          "raw": "下水道普及・促",
+          "start": 9063
+        },
+        {
+          "raw": "進事業",
+          "start": 9076
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "下水道課",
+          "start": 9071
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "6870f3d83daeb1de63d73475",
+      "page": 7,
+      "name": "下水道整備・計画事業",
+      "department": "下水道課",
+      "parts": [
+        {
+          "raw": "下水道整備・計",
+          "start": 9081
+        },
+        {
+          "raw": "画事業",
+          "start": 9094
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "下水道課",
+          "start": 9089
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "6870f3d83daeb1de63d73475",
+      "page": 8,
+      "name": "下水道維持管理事業",
+      "department": "下水道課",
+      "parts": [
+        {
+          "raw": "下水道維持管",
+          "start": 10472
+        },
+        {
+          "raw": "理事業",
+          "start": 10479
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "下水道課",
+          "start": 10490
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "6870f3d83daeb1de63d73475",
+      "page": 8,
+      "name": "下水道ストックマネジメント事業",
+      "department": "下水道課",
+      "parts": [
+        {
+          "raw": "下水道ストック",
+          "start": 10510
+        },
+        {
+          "raw": "マネジメント事業",
+          "start": 10523
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "下水道課",
+          "start": 10518
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "6870f3d83daeb1de63d73475",
+      "page": 8,
+      "name": "指定工事店事業",
+      "department": "下水道課",
+      "parts": [
+        {
+          "raw": "指定工事店事",
+          "start": 11018
+        },
+        {
+          "raw": "業",
+          "start": 11025
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "下水道課",
+          "start": 10650
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 4,
+      "name": "教育費小中学校国庫補助金事業",
+      "department": "教育総務課",
+      "parts": [
+        {
+          "raw": "教育費小中学",
+          "start": 5135
+        },
+        {
+          "raw": "校国庫補助金",
+          "start": 5142
+        },
+        {
+          "raw": "事業",
+          "start": 5149
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "教育総務課",
+          "start": 5159
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 4,
+      "name": "その他教育施設営繕事業",
+      "department": "教育総務課",
+      "parts": [
+        {
+          "raw": "その他教育施設",
+          "start": 5180
+        },
+        {
+          "raw": "営繕事業",
+          "start": 5188
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "教育総務課",
+          "start": 5193
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 4,
+      "name": "長寿命化改良事業",
+      "department": "教育総務課",
+      "parts": [
+        {
+          "raw": "長寿命化改良",
+          "start": 5416
+        },
+        {
+          "raw": "事業",
+          "start": 5423
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "教育総務課",
+          "start": 5427
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 13,
+      "name": "学校支援職員派遣事業",
+      "department": "学務課",
+      "parts": [
+        {
+          "raw": "学校支援職員",
+          "start": 17315
+        },
+        {
+          "raw": "派遣事業",
+          "start": 17322
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "学務課",
+          "start": 17334
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 13,
+      "name": "外国人児童生徒コミュニケーション支援事業",
+      "department": "学務課",
+      "parts": [
+        {
+          "raw": "外国人児童生",
+          "start": 17357
+        },
+        {
+          "raw": "徒コミュニケー",
+          "start": 17364
+        },
+        {
+          "raw": "ション支援事業",
+          "start": 17376
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "学務課",
+          "start": 17372
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 13,
+      "name": "学校給食運営事業",
+      "department": "指導課",
+      "parts": [
+        {
+          "raw": "学校給食運営",
+          "start": 17385
+        },
+        {
+          "raw": "事業",
+          "start": 17392
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "指導課",
+          "start": 17396
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 16,
+      "name": "学校情報機器管理事業",
+      "department": "指導課",
+      "parts": [
+        {
+          "raw": "学校情報機器",
+          "start": 22679
+        },
+        {
+          "raw": "管理事業",
+          "start": 22686
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "指導課",
+          "start": 22698
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 16,
+      "name": "校務支援事業",
+      "department": "指導課",
+      "parts": [
+        {
+          "raw": "校務支援事業",
+          "start": 22906
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "指導課",
+          "start": 22914
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 16,
+      "name": "ＩＣＴ活用支援事業",
+      "department": "指導課",
+      "parts": [
+        {
+          "raw": "ＩＣＴ活用支援事",
+          "start": 22919
+        },
+        {
+          "raw": "業",
+          "start": 22932
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "指導課",
+          "start": 22928
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 17,
+      "name": "キャリア教育推進事業",
+      "department": "指導課",
+      "parts": [
+        {
+          "raw": "キャリア教育推",
+          "start": 24830
+        },
+        {
+          "raw": "進事業",
+          "start": 24842
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "指導課",
+          "start": 24838
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 17,
+      "name": "読書活動活性化支援事業",
+      "department": "指導課",
+      "parts": [
+        {
+          "raw": "読書活動活性",
+          "start": 24847
+        },
+        {
+          "raw": "化支援事業",
+          "start": 24854
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "指導課",
+          "start": 24861
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 17,
+      "name": "地域学習支援事業",
+      "department": "指導課",
+      "parts": [
+        {
+          "raw": "地域学習支援",
+          "start": 25166
+        },
+        {
+          "raw": "事業",
+          "start": 25173
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "指導課",
+          "start": 25177
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 19,
+      "name": "共同調理場運営事業",
+      "department": "指導課学校給食共同調理場",
+      "parts": [
+        {
+          "raw": "共同調理場運",
+          "start": 29687
+        },
+        {
+          "raw": "営事業",
+          "start": 29694
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "指導課学校給",
+          "start": 29705
+        },
+        {
+          "raw": "食共同調理場",
+          "start": 29712
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 19,
+      "name": "共同調理場維持管理事業",
+      "department": "指導課学校給食共同調理場",
+      "parts": [
+        {
+          "raw": "共同調理場維",
+          "start": 29734
+        },
+        {
+          "raw": "持管理事業",
+          "start": 29741
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "指導課学校給",
+          "start": 29748
+        },
+        {
+          "raw": "食共同調理場",
+          "start": 29755
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 19,
+      "name": "社会教育支援事業",
+      "department": "社会教育課",
+      "parts": [
+        {
+          "raw": "社会教育支援",
+          "start": 29800
+        },
+        {
+          "raw": "事業",
+          "start": 29807
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "社会教育課",
+          "start": 29811
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 20,
+      "name": "人権教育事業",
+      "department": "社会教育課",
+      "parts": [
+        {
+          "raw": "人権教育事業",
+          "start": 31108
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "社会教育課",
+          "start": 31134
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 20,
+      "name": "社会教育活性化事業",
+      "department": "社会教育課",
+      "parts": [
+        {
+          "raw": "社会教育活性",
+          "start": 31116
+        },
+        {
+          "raw": "化事業",
+          "start": 31123
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "社会教育課",
+          "start": 31141
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 20,
+      "name": "子育て学習事業",
+      "department": "社会教育課",
+      "parts": [
+        {
+          "raw": "子育て学習事業",
+          "start": 31148
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "社会教育課",
+          "start": 31156
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 21,
+      "name": "放課後子ども教室推進事業",
+      "department": "社会教育課",
+      "parts": [
+        {
+          "raw": "放課後子ども教",
+          "start": 32907
+        },
+        {
+          "raw": "室推進事業",
+          "start": 32921
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "社会教育課",
+          "start": 32915
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 21,
+      "name": "二十歳のつどい事業",
+      "department": "社会教育課",
+      "parts": [
+        {
+          "raw": "二十歳のつどい",
+          "start": 33013
+        },
+        {
+          "raw": "事業",
+          "start": 33027
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "社会教育課",
+          "start": 33021
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 21,
+      "name": "生涯学習推進事業",
+      "department": "社会教育課",
+      "parts": [
+        {
+          "raw": "生涯学習推進",
+          "start": 33452
+        },
+        {
+          "raw": "事業",
+          "start": 33459
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "社会教育課",
+          "start": 33035
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 22,
+      "name": "市民大学講座事業",
+      "department": "社会教育課",
+      "parts": [
+        {
+          "raw": "市民大学講座",
+          "start": 34834
+        },
+        {
+          "raw": "事業",
+          "start": 34841
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "社会教育課",
+          "start": 34845
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 22,
+      "name": "市史編さん事業",
+      "department": "社会教育課",
+      "parts": [
+        {
+          "raw": "市史編さん事業",
+          "start": 34856
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "社会教育課",
+          "start": 34864
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 22,
+      "name": "公民館管理運営事業",
+      "department": "社会教育課",
+      "parts": [
+        {
+          "raw": "公民館管理運",
+          "start": 34871
+        },
+        {
+          "raw": "営事業",
+          "start": 34878
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "社会教育課",
+          "start": 34883
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 23,
+      "name": "学校支援活動事業",
+      "department": "社会教育課",
+      "parts": [
+        {
+          "raw": "学校支援活動",
+          "start": 36964
+        },
+        {
+          "raw": "事業",
+          "start": 36971
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "社会教育課",
+          "start": 36981
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 23,
+      "name": "コミュニティ・スクール推進事業",
+      "department": "社会教育課",
+      "parts": [
+        {
+          "raw": "コミュニティ・ス",
+          "start": 36988
+        },
+        {
+          "raw": "クール推進事業",
+          "start": 37003
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "社会教育課",
+          "start": 36997
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 23,
+      "name": "地域青少年活動活性化事業",
+      "department": "社会教育課",
+      "parts": [
+        {
+          "raw": "地域青少年活",
+          "start": 37417
+        },
+        {
+          "raw": "動活性化事業",
+          "start": 37424
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "社会教育課",
+          "start": 37432
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 25,
+      "name": "読書学習推進事業",
+      "department": "社会教育課図書館",
+      "parts": [
+        {
+          "raw": "読書学習推進",
+          "start": 41101
+        },
+        {
+          "raw": "事業",
+          "start": 41108
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "社会教育課図",
+          "start": 41112
+        },
+        {
+          "raw": "書館",
+          "start": 41119
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 25,
+      "name": "図書館魅力創造プロジェクト事業",
+      "department": "社会教育課図書館",
+      "parts": [
+        {
+          "raw": "図書館魅力創",
+          "start": 41318
+        },
+        {
+          "raw": "造プロジェクト事",
+          "start": 41332
+        },
+        {
+          "raw": "業",
+          "start": 41344
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "社会教育課図",
+          "start": 41325
+        },
+        {
+          "raw": "書館",
+          "start": 41341
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 25,
+      "name": "スポーツ普及促進事業",
+      "department": "文化・スポーツ課",
+      "parts": [
+        {
+          "raw": "スポーツ普及促",
+          "start": 41382
+        },
+        {
+          "raw": "進事業",
+          "start": 41420
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "文化・スポーツ",
+          "start": 41390
+        },
+        {
+          "raw": "課",
+          "start": 41424
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 26,
+      "name": "総合型地域スポーツクラブ育成支援事業",
+      "department": "文化・スポーツ課",
+      "parts": [
+        {
+          "raw": "総合型地域ス",
+          "start": 43212
+        },
+        {
+          "raw": "ポーツクラブ育",
+          "start": 43219
+        },
+        {
+          "raw": "成支援事業",
+          "start": 43227
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "文化・スポーツ",
+          "start": 43491
+        },
+        {
+          "raw": "課",
+          "start": 43521
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 26,
+      "name": "ランニングイベント事業",
+      "department": "文化・スポーツ課",
+      "parts": [
+        {
+          "raw": "ランニングイベ",
+          "start": 43592
+        },
+        {
+          "raw": "ント事業",
+          "start": 43600
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "文化・スポーツ",
+          "start": 43342
+        },
+        {
+          "raw": "課",
+          "start": 43372
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 26,
+      "name": "印旛郡市民スポーツ大会事業",
+      "department": "文化・スポーツ課",
+      "parts": [
+        {
+          "raw": "印旛郡市民ス",
+          "start": 43630
+        },
+        {
+          "raw": "ポーツ大会事業",
+          "start": 43665
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "文化・スポーツ",
+          "start": 43637
+        },
+        {
+          "raw": "課",
+          "start": 43673
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 27,
+      "name": "スポーツ協会事務事業",
+      "department": "文化・スポーツ課",
+      "parts": [
+        {
+          "raw": "スポーツ協会事",
+          "start": 45981
+        },
+        {
+          "raw": "務事業",
+          "start": 46019
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "文化・スポーツ",
+          "start": 45989
+        },
+        {
+          "raw": "課",
+          "start": 46023
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 27,
+      "name": "小中学校施設開放事業",
+      "department": "文化・スポーツ課",
+      "parts": [
+        {
+          "raw": "小中学校施設",
+          "start": 44900
+        },
+        {
+          "raw": "開放事業",
+          "start": 44907
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "文化・スポーツ",
+          "start": 45009
+        },
+        {
+          "raw": "課",
+          "start": 45038
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 27,
+      "name": "体育施設管理運営事業",
+      "department": "文化・スポーツ課",
+      "parts": [
+        {
+          "raw": "体育施設管理",
+          "start": 45122
+        },
+        {
+          "raw": "運営事業",
+          "start": 45129
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "文化・スポーツ",
+          "start": 45166
+        },
+        {
+          "raw": "課",
+          "start": 45194
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 28,
+      "name": "市民文化祭事業",
+      "department": "文化・スポーツ課",
+      "parts": [
+        {
+          "raw": "市民文化祭事",
+          "start": 46680
+        },
+        {
+          "raw": "業",
+          "start": 46687
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "文化・スポーツ",
+          "start": 46787
+        },
+        {
+          "raw": "課",
+          "start": 46815
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 28,
+      "name": "市民芸術公演事業",
+      "department": "文化・スポーツ課",
+      "parts": [
+        {
+          "raw": "市民芸術公演",
+          "start": 47004
+        },
+        {
+          "raw": "事業",
+          "start": 47011
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "文化・スポーツ",
+          "start": 47076
+        },
+        {
+          "raw": "課",
+          "start": 47104
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 28,
+      "name": "芸術文化活動支援事業",
+      "department": "文化・スポーツ課",
+      "parts": [
+        {
+          "raw": "芸術文化活動",
+          "start": 47015
+        },
+        {
+          "raw": "支援事業",
+          "start": 47022
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "文化・スポーツ",
+          "start": 47206
+        },
+        {
+          "raw": "課",
+          "start": 47235
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 29,
+      "name": "文化財保護管理事業",
+      "department": "文化・スポーツ課",
+      "parts": [
+        {
+          "raw": "文化財保護管",
+          "start": 48910
+        },
+        {
+          "raw": "理事業",
+          "start": 48917
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "文化・スポーツ",
+          "start": 49512
+        },
+        {
+          "raw": "課",
+          "start": 49542
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 29,
+      "name": "歴史民俗資料施設整備事業",
+      "department": "文化・スポーツ課",
+      "parts": [
+        {
+          "raw": "歴史民俗資料",
+          "start": 48922
+        },
+        {
+          "raw": "施設整備事業",
+          "start": 48929
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "文化・スポーツ",
+          "start": 49370
+        },
+        {
+          "raw": "課",
+          "start": 49399
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 29,
+      "name": "埋蔵文化財発掘調査事業",
+      "department": "文化・スポーツ課",
+      "parts": [
+        {
+          "raw": "埋蔵文化財発",
+          "start": 48937
+        },
+        {
+          "raw": "掘調査事業",
+          "start": 48944
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "文化・スポーツ",
+          "start": 49015
+        },
+        {
+          "raw": "課",
+          "start": 49043
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 30,
+      "name": "青少年育成センター管理運営事業",
+      "department": "青少年育成センター",
+      "parts": [
+        {
+          "raw": "青少年育成セン",
+          "start": 52202
+        },
+        {
+          "raw": "ター管理運営事",
+          "start": 52221
+        },
+        {
+          "raw": "業",
+          "start": 52253
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "青少年育成セン",
+          "start": 52202
+        },
+        {
+          "raw": "ター",
+          "start": 52240
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 30,
+      "name": "青少年育成支援事業",
+      "department": "青少年育成センター",
+      "parts": [
+        {
+          "raw": "青少年育成支",
+          "start": 50737
+        },
+        {
+          "raw": "援事業",
+          "start": 50744
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "青少年育成セン",
+          "start": 50855
+        },
+        {
+          "raw": "ター",
+          "start": 50884
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 30,
+      "name": "教育相談体制支援事業",
+      "department": "青少年育成センター",
+      "parts": [
+        {
+          "raw": "教育相談体制",
+          "start": 50749
+        },
+        {
+          "raw": "支援事業",
+          "start": 50756
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "青少年育成セン",
+          "start": 50855
+        },
+        {
+          "raw": "ター",
+          "start": 50884
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    },
+    {
+      "sourceId": "80a30bfe4fb194031dfb5ea0",
+      "page": 31,
+      "name": "青少年健全育成事業",
+      "department": "青少年育成センター",
+      "parts": [
+        {
+          "raw": "青少年健全育",
+          "start": 53057
+        },
+        {
+          "raw": "成事業",
+          "start": 53064
+        }
+      ],
+      "departmentParts": [
+        {
+          "raw": "青少年育成セン",
+          "start": 53089
+        },
+        {
+          "raw": "ター",
+          "start": 53118
+        }
+      ],
+      "status": "individually_reviewed_literal_identity"
+    }
+  ]
+}
