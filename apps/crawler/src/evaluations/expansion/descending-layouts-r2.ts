@@ -1,3 +1,8 @@
+import{reviewManazuru}from'./descending-kanagawa-manazuru';
+import{reviewKaisei}from'./descending-kanagawa-kaisei';
+import{reviewMatsuda}from'./descending-kanagawa-matsuda';
+import{reviewOi}from'./descending-kanagawa-oi';
+import{reviewNinomiya}from'./descending-kanagawa-ninomiya';
 import{combineNiigataReviews}from'./descending-niigata-combine';
 import{reviewTokamachiExtra}from'./descending-niigata-tokamachi-extra';
 import{reviewUonumaExtra}from'./descending-niigata-uonuma-extra';
@@ -138,6 +143,12 @@ const evidenceHolds:Record<string,{code:string;proof:string;reason:string;status
  '0a23c81c6c6ae8a10e4fd6cd':{code:'46492',proof:'２．2020 年度実績（\n「宇宙乃浦」創生・「スペースサイエンスタウン構想」実現プロジェクト）',status:'joint_project_identity_hold',reason:'2020 actual report jointly covers two named projects with shared activities/budget, followed by2021 plans and forecast KPI cells. Individual allocation and boundaries are absent; do not split or assign shared figures.'}
 };
 export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]):LayoutReview|null{
+const kanagawaManazuru=reviewManazuru(input);if(kanagawaManazuru)return kanagawaManazuru;
+const kanagawaKaisei=reviewKaisei(input);if(kanagawaKaisei)return kanagawaKaisei;
+const kanagawaMatsuda=reviewMatsuda(input);if(kanagawaMatsuda)return kanagawaMatsuda;
+const kanagawaOi=reviewOi(input);if(kanagawaOi)return kanagawaOi;
+const kanagawaNinomiya=reviewNinomiya(input);if(kanagawaNinomiya)return kanagawaNinomiya;
+
  const kisoReview=reviewKiso(input,inputs);if(kisoReview)return kisoReview;
  const nagisomoreReview=reviewNagisoMore(input);if(nagisomoreReview){const prior=reviewNagisoNext(input),roads=reviewNagisoRoads(input);if(!prior||!roads||prior.status==='source_integrity_hold'||nagisomoreReview.status==='source_integrity_hold'||roads.status==='source_integrity_hold')return {projects:[],units:[],proofs:[],status:'source_integrity_hold',reason:'All three source reviews must pass'};return {...prior,projects:[...prior.projects,...nagisomoreReview.projects,...roads.projects],units:[...prior.units,...nagisomoreReview.units,...roads.units]};}
  const nagisonextReview=reviewNagisoNext(input);if(nagisonextReview)return nagisonextReview;

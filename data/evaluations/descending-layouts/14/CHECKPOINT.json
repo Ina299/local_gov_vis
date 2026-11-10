@@ -1,0 +1,34 @@
+{
+  "candidateRecords": 254,
+  "newCandidatesThisTranche": 254,
+  "perMunicipality": {
+    "真鶴町": 50,
+    "開成町": 31,
+    "松田町": 37,
+    "大井町": 20,
+    "二宮町": 116
+  },
+  "validatedCumulativeCandidates": 32685,
+  "validatedEvidence": 97349,
+  "separateSets": {
+    "Okinawa": 1084,
+    "initial": 93
+  },
+  "previousHead": "ad6edb5f10dc0c6ba202a1af1b970f13959ac2ef",
+  "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0,
+  "checks": {
+    "focused": "20/20",
+    "crawler": "1005/1005",
+    "web": "256/256",
+    "typecheck": "passed",
+    "lint": "passed;existing font warning",
+    "national": "passed branch baseline",
+    "static": "109/109 subpath",
+    "quotes": "32685 candidates /97349 quotes"
+  },
+  "remoteCI": "unverified;known ActionsAPI403 not retried",
+  "remaining": "Kanagawa source review ongoing:135sources117cachedbodies;18missingbodies held;Ayase167further staged only;other layouts and existing coverage still under review."
+}

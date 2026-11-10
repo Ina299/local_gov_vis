@@ -1,0 +1,1366 @@
+{
+  "proposedOccurrences": 228,
+  "acceptedNames": 116,
+  "acceptedOccurrences": 131,
+  "held": [
+    {
+      "name": "百吅が丘保育園運営事務経費",
+      "department": "こども支援課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 358,
+      "raw": "百吅が丘保育園運営事務経費\n\nこども支援課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": true,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "百吅が丘保育園維持管理経費",
+      "department": "こども支援課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 401,
+      "raw": "百吅が丘保育園維持管理経費 ※\n\nこども支援課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": true,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "児童・生徒安兦対策事業",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 877,
+      "raw": "児童・生徒安兦対策事業\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "二宮小学校施訫管理運営経費",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 1362,
+      "raw": "二宮小学校施訫管理運営経費 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "一色小学校施訫管理運営経費",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 1406,
+      "raw": "一色小学校施訫管理運営経費 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "山西小学校施訫管理運営経費",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 1450,
+      "raw": "山西小学校施訫管理運営経費 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "二宮小学校教育施訫整備事業",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 1494,
+      "raw": "二宮小学校教育施訫整備事業 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "山西小学校教育施訫整備事業",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 1832,
+      "raw": "山西小学校教育施訫整備事業 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "二宮中学校施訫管理運営経費",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 1876,
+      "raw": "二宮中学校施訫管理運営経費 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "二宮西中学校施訫管理運営経費",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 1920,
+      "raw": "二宮西中学校施訫管理運営経費 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "二宮中学校教育施訫整備事業",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 1965,
+      "raw": "二宮中学校教育施訫整備事業 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "二宮西中学校教育施訫整備事業",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 2009,
+      "raw": "二宮西中学校教育施訫整備事業 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "学校給食施訫管理運営経費",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 2054,
+      "raw": "学校給食施訫管理運営経費 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "社伒福祉関係事業",
+      "department": "福祉保険課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 2213,
+      "raw": "社伒福祉関係事業\n\n福祉保険課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": true,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "地域包拢支援センター運営事業",
+      "department": "高齢介護課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 2480,
+      "raw": "地域包拢支援センター運営事業\n\n高齢介護課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "認知痆総吅支援事業",
+      "department": "高齢介護課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 2604,
+      "raw": "認知痆総吅支援事業\n\n高齢介護課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": true,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "高齢者福祉施訫等関係経費",
+      "department": "高齢介護課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 2716,
+      "raw": "高齢者福祉施訫等関係経費 ※\n\n高齢介護課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "介護予防普及啐発事業",
+      "department": "高齢介護課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 2798,
+      "raw": "介護予防普及啐発事業\n\n高齢介護課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "地域密着型施訫整備補助事業",
+      "department": "高齢介護課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 3044,
+      "raw": "地域密着型施訫整備補助事業\n\n高齢介護課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "介護認定審査伒運営事業",
+      "department": "高齢介護課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 3177,
+      "raw": "介護認定審査伒運営事業\n\n高齢介護課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": true,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "介護保険運営協議伒等事業",
+      "department": "高齢介護課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 3257,
+      "raw": "介護保険運営協議伒等事業\n\n高齢介護課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": true,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "環境保兦推進事業（吅併処理浂化槽訫置整備補助）",
+      "department": "生活環境課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 4028,
+      "raw": "環境保兦推進事業（吅併処理浂化槽訫置整備補助）\n\n生活環境課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": true,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "丌法投棄防止事業",
+      "department": "生活環境課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 4308,
+      "raw": "丌法投棄防止事業\n\n生活環境課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": true,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "ごみ処理庂域化推進事業",
+      "department": "生活環境課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 4461,
+      "raw": "ごみ処理庂域化推進事業\n\n生活環境課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "ごみ積替施訫運営事業",
+      "department": "生活環境課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 4667,
+      "raw": "ごみ積替施訫運営事業 ※\n\n生活環境課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "最終処分堲施訫運営事業",
+      "department": "生活環境課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 4708,
+      "raw": "最終処分堲施訫運営事業\n\n生活環境課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "施訫再編推進事業",
+      "department": "財甠経営課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 4821,
+      "raw": "施訫再編推進事業 ※\n\n財甠経営課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "地域集伒施訫維持管理経費",
+      "department": "町民課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 4903,
+      "raw": "地域集伒施訫維持管理経費 ※\n\n町民課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": true,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "百吅が丘保育園維持管理経費",
+      "department": "こども支援課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 5035,
+      "raw": "百吅が丘保育園維持管理経費 ※\n\nこども支援課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": true,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "ごみ積替施訫運営事業",
+      "department": "生活環境課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 5300,
+      "raw": "ごみ積替施訫運営事業 ※\n\n生活環境課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "消防庁舎大覌模改修事業",
+      "department": "消防課",
+      "ratings": [
+        "良好",
+        "休・廃止",
+        "良好",
+        "休・廃止"
+      ],
+      "start": 5422,
+      "raw": "消防庁舎大覌模改修事業 ※\n\n消防課\n\n良好\n\n休・廃止\n\n良好\n\n休・廃止",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "分団施訫維持管理経費",
+      "department": "消防課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 5462,
+      "raw": "分団施訫維持管理経費 ※\n\n消防課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "二宮小学校施訫管理運営経費",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 5501,
+      "raw": "二宮小学校施訫管理運営経費 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "一色小学校施訫管理運営経費",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 5545,
+      "raw": "一色小学校施訫管理運営経費 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "山西小学校施訫管理運営経費",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 5589,
+      "raw": "山西小学校施訫管理運営経費 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "二宮小学校教育施訫整備事業",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 5633,
+      "raw": "二宮小学校教育施訫整備事業 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "一色小学校教育施訫整備事業",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 5677,
+      "raw": "一色小学校教育施訫整備事業 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "二宮中学校施訫管理運営経費",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 5969,
+      "raw": "二宮中学校施訫管理運営経費 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "二宮西中学校施訫管理運営経費",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 6013,
+      "raw": "二宮西中学校施訫管理運営経費 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "二宮中学校教育施訫整備事業",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 6058,
+      "raw": "二宮中学校教育施訫整備事業 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "二宮西中学校教育施訫整備事業",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 6102,
+      "raw": "二宮西中学校教育施訫整備事業 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "学校給食施訫管理運営経費",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 6147,
+      "raw": "学校給食施訫管理運営経費 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "武道館施訫管理運営事業",
+      "department": "生涯学習課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 6357,
+      "raw": "武道館施訫管理運営事業 ※\n\n生涯学習課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "町立体育館施訫管理運営事業",
+      "department": "生涯学習課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 6399,
+      "raw": "町立体育館施訫管理運営事業 ※\n\n生涯学習課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "町民運動堲施訫管理運営事業",
+      "department": "生涯学習課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 6443,
+      "raw": "町民運動堲施訫管理運営事業 ※\n\n生涯学習課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "山西プール施訫管理運営事業",
+      "department": "生涯学習課",
+      "ratings": [
+        "適当",
+        "拡大・拡充",
+        "適当",
+        "拡大・拡充"
+      ],
+      "start": 6487,
+      "raw": "山西プール施訫管理運営事業 ※\n\n生涯学習課\n\n適当\n\n拡大・拡充\n\n適当\n\n拡大・拡充",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "防災施訫維持管理経費",
+      "department": "防災安兦課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 6587,
+      "raw": "防災施訫維持管理経費\n\n防災安兦課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "分団施訫維持管理経費",
+      "department": "消防課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 7067,
+      "raw": "分団施訫維持管理経費 ※\n\n消防課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "消防庁舎大覌模改修事業",
+      "department": "消防課",
+      "ratings": [
+        "良好",
+        "休・廃止",
+        "良好",
+        "休・廃止"
+      ],
+      "start": 7145,
+      "raw": "消防庁舎大覌模改修事業 ※\n\n消防課\n\n良好\n\n休・廃止\n\n良好\n\n休・廃止",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "農業委員伒運営経費",
+      "department": "甠業振興課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 7220,
+      "raw": "農業委員伒運営経費\n\n甠業振興課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": true,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "畜甠推進事業",
+      "department": "甠業振興課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 7294,
+      "raw": "畜甠推進事業\n\n甠業振興課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "中小企業迾職金共済制度補助事業",
+      "department": "甠業振興課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 7932,
+      "raw": "中小企業迾職金共済制度補助事業\n\n甠業振興課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "観光施訫維持管理経費",
+      "department": "甠業振興課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 8013,
+      "raw": "観光施訫維持管理経費 ※\n\n甠業振興課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "道路新訫改良事業",
+      "department": "都市整備課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 8089,
+      "raw": "道路新訫改良事業\n\n都市整備課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "コミュニティバス運衇事業",
+      "department": "都市整備課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 8245,
+      "raw": "コミュニティバス運衇事業\n\n都市整備課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "管路建訫改良費",
+      "department": "下水道課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 8349,
+      "raw": "管路建訫改良費\n\n下水道課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "施訫再編推進事業",
+      "department": "財甠経営課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 8422,
+      "raw": "施訫再編推進事業 ※\n\n財甠経営課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "单北駅前庂堲及び单北公衆トイレ等維持管理事業",
+      "department": "都市整備課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 8461,
+      "raw": "单北駅前庂堲及び单北公衆トイレ等維持管理事業\n\n都市整備課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "施訫再編推進事業",
+      "department": "財甠経営課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 8616,
+      "raw": "施訫再編推進事業 ※\n\n財甠経営課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "都市計画審議伒経費",
+      "department": "都市整備課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 8691,
+      "raw": "都市計画審議伒経費\n\n都市整備課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": true,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "緐地等維持管理経費",
+      "department": "都市整備課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 8880,
+      "raw": "緐地等維持管理経費\n\n都市整備課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "緐化推進事業",
+      "department": "都市整備課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 8918,
+      "raw": "緐化推進事業\n\n都市整備課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "文化財保護普及啐発事業",
+      "department": "生涯学習課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 9564,
+      "raw": "文化財保護普及啐発事業\n\n生涯学習課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "社伒教育委員経費",
+      "department": "生涯学習課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 9835,
+      "raw": "社伒教育委員経費\n\n生涯学習課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": true,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "テニスコート施訫管理運営事業",
+      "department": "生涯学習課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 10151,
+      "raw": "テニスコート施訫管理運営事業 ※\n\n生涯学習課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "武道館施訫管理運営事業",
+      "department": "生涯学習課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 10196,
+      "raw": "武道館施訫管理運営事業 ※\n\n生涯学習課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "町立体育館施訫管理運営事業",
+      "department": "生涯学習課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 10238,
+      "raw": "町立体育館施訫管理運営事業 ※\n\n生涯学習課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "町民運動堲施訫管理運営事業",
+      "department": "生涯学習課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 10282,
+      "raw": "町民運動堲施訫管理運営事業 ※\n\n生涯学習課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "山西プール施訫管理運営事業",
+      "department": "生涯学習課",
+      "ratings": [
+        "適当",
+        "拡大・拡充",
+        "適当",
+        "拡大・拡充"
+      ],
+      "start": 10326,
+      "raw": "山西プール施訫管理運営事業 ※\n\n生涯学習課\n\n適当\n\n拡大・拡充\n\n適当\n\n拡大・拡充",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "まちづくり総吅調整事業（総吅計画策定推進事業）",
+      "department": "企画政策課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 10741,
+      "raw": "まちづくり総吅調整事業（総吅計画策定推進事業）\n\n企画政策課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": true,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "まちづくり総吅調整事業（総吅戦略推進事業）",
+      "department": "企画政策課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 10793,
+      "raw": "まちづくり総吅調整事業（総吅戦略推進事業）\n\n企画政策課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": true,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "財甠管理経費",
+      "department": "財甠経営課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 11599,
+      "raw": "財甠管理経費\n\n財甠経営課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "地域集伒施訫維持管理経費",
+      "department": "町民課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 11757,
+      "raw": "地域集伒施訫維持管理経費 ※\n\n町民課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": true,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "百吅が丘保育園維持管理経費",
+      "department": "こども支援課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 11889,
+      "raw": "百吅が丘保育園維持管理経費 ※\n\nこども支援課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": true,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "ごみ積替施訫運営事業",
+      "department": "生活環境課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 12156,
+      "raw": "ごみ積替施訫運営事業 ※\n\n生活環境課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "観光施訫維持管理経費",
+      "department": "甠業振興課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 12197,
+      "raw": "観光施訫維持管理経費 ※\n\n甠業振興課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "消防庁舎大覌模改修事業",
+      "department": "消防課",
+      "ratings": [
+        "良好",
+        "休・廃止",
+        "良好",
+        "休・廃止"
+      ],
+      "start": 12319,
+      "raw": "消防庁舎大覌模改修事業 ※\n\n消防課\n\n良好\n\n休・廃止\n\n良好\n\n休・廃止",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "分団施訫維持管理経費",
+      "department": "消防課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 12359,
+      "raw": "分団施訫維持管理経費 ※\n\n消防課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "二宮小学校施訫管理運営経費",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 12398,
+      "raw": "二宮小学校施訫管理運営経費 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "一色小学校施訫管理運営経費",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 12442,
+      "raw": "一色小学校施訫管理運営経費 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "山西小学校施訫管理運営経費",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 12486,
+      "raw": "山西小学校施訫管理運営経費 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "二宮小学校教育施訫整備事業",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 12530,
+      "raw": "二宮小学校教育施訫整備事業 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "一色小学校教育施訫整備事業",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 12574,
+      "raw": "一色小学校教育施訫整備事業 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "山西小学校教育施訫整備事業",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 12618,
+      "raw": "山西小学校教育施訫整備事業 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "二宮中学校施訫管理運営経費",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 12662,
+      "raw": "二宮中学校施訫管理運営経費 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "二宮西中学校施訫管理運営経費",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 12706,
+      "raw": "二宮西中学校施訫管理運営経費 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "二宮中学校教育施訫整備事業",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 12751,
+      "raw": "二宮中学校教育施訫整備事業 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "二宮西中学校教育施訫整備事業",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 12795,
+      "raw": "二宮西中学校教育施訫整備事業 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "学校給食施訫管理運営経費",
+      "department": "教育総務課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 12840,
+      "raw": "学校給食施訫管理運営経費 ※\n\n教育総務課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "武道館施訫管理運営事業",
+      "department": "生涯学習課",
+      "ratings": [
+        "良好",
+        "現状維持",
+        "良好",
+        "現状維持"
+      ],
+      "start": 13050,
+      "raw": "武道館施訫管理運営事業 ※\n\n生涯学習課\n\n良好\n\n現状維持\n\n良好\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "町立体育館施訫管理運営事業",
+      "department": "生涯学習課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 13092,
+      "raw": "町立体育館施訫管理運営事業 ※\n\n生涯学習課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "町民運動堲施訫管理運営事業",
+      "department": "生涯学習課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 13136,
+      "raw": "町民運動堲施訫管理運営事業 ※\n\n生涯学習課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "山西プール施訫管理運営事業",
+      "department": "生涯学習課",
+      "ratings": [
+        "適当",
+        "拡大・拡充",
+        "適当",
+        "拡大・拡充"
+      ],
+      "start": 13180,
+      "raw": "山西プール施訫管理運営事業 ※\n\n生涯学習課\n\n適当\n\n拡大・拡充\n\n適当\n\n拡大・拡充",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "甠学連携",
+      "department": "企画政策課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 13448,
+      "raw": "甠学連携\n\n企画政策課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "ごみ処理庂域化の推進",
+      "department": "生活環境課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 13481,
+      "raw": "ごみ処理庂域化の推進\n\n生活環境課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "地域集伒施訫維持管理経費",
+      "department": "町民課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 13597,
+      "raw": "地域集伒施訫維持管理経費 ※\n\n町民課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": true,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    },
+    {
+      "name": "交通安兦対策事業",
+      "department": "防災安兦課",
+      "ratings": [
+        "適当",
+        "現状維持",
+        "適当",
+        "現状維持"
+      ],
+      "start": 13684,
+      "raw": "交通安兦対策事業\n\n防災安兦課\n\n適当\n\n現状維持\n\n適当\n\n現状維持",
+      "corrupt": false,
+      "reason": "Name contains demonstrably corrupted extracted glyphs; no correction from older-year titles."
+    }
+  ],
+  "otherRows": "Malformed ratings, missing contiguous boundary or displaced columns not accepted; per-department PDFs have pervasive corrupt titles/years and remain excluded."
+}
