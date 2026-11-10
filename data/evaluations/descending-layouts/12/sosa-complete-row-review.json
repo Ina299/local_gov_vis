@@ -1,0 +1,85 @@
+{
+  "sourceId": "703b6df7be5d0a25aafa25cc",
+  "numberedRows": 283,
+  "regularRowAnchors": 282,
+  "multiplePolicyCodeRow": 1,
+  "acceptedStageCandidates": 283,
+  "departmentCounts": {
+    "秘書課": 5,
+    "企画課": 15,
+    "総務課": 7,
+    "財政課": 1,
+    "税務課": 6,
+    "市民課": 6,
+    "環境生活課": 28,
+    "健康管理課": 10,
+    "農林水産課": 44,
+    "商工観光課": 16,
+    "都市整備課": 4,
+    "建設課": 9,
+    "福祉課": 23,
+    "高齢者支援課": 17,
+    "学校教育課": 31,
+    "生涯学習課": 14,
+    "公民館": 1,
+    "図書館": 2,
+    "議会事務局": 3,
+    "市民病院": 2,
+    "ゼロカーボン推進課": 2,
+    "子育て支援推進課": 35,
+    "学校給食センター": 2
+  },
+  "sameNameDifferentDepartments": [
+    {
+      "name": "予防接種事業",
+      "rows": [
+        {
+          "id": "cached-12235-1a9adf8f9f8d438046182fe6",
+          "department": "健康管理課",
+          "code": "健康管理課-2"
+        },
+        {
+          "id": "cached-12235-f6a17c609673a24b8818026c",
+          "department": "子育て支援推進課",
+          "code": "子育て支援推進課-22"
+        }
+      ]
+    },
+    {
+      "name": "食生活改善推進事業",
+      "rows": [
+        {
+          "id": "cached-12235-bbc311a45746e1ea8bef75f6",
+          "department": "健康管理課",
+          "code": "健康管理課-7"
+        },
+        {
+          "id": "cached-12235-ae48a10f0ccdf07d2fc0e294",
+          "department": "子育て支援推進課",
+          "code": "子育て支援推進課-32"
+        }
+      ]
+    },
+    {
+      "name": "公衆無線ＬＡＮ環境推進事業",
+      "rows": [
+        {
+          "id": "cached-12235-bb755109b764cf763b9fc345",
+          "department": "企画課",
+          "code": "企画課-15"
+        },
+        {
+          "id": "cached-12235-676b640ce92ae71ef657d308",
+          "department": "学校教育課",
+          "code": "学校教育課-30"
+        }
+      ]
+    }
+  ],
+  "reviewDateBasis": "令和7年8月提出の簡易事務事業評価調査票。公開日2026/01と計画期間2026–2028を評価年や実績年と混同しない。",
+  "financialFields": 0,
+  "ratingFields": 283,
+  "priorFieldChanges": 0,
+  "productionChanges": 0,
+  "remaining": "All numbered rows assigned exact titles and department identities. Forecast money and interleaved narrative fields remain unextracted; no actual expenditure inferred."
+}

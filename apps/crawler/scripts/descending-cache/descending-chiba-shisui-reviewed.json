@@ -1,0 +1,32 @@
+[
+  {
+    "municipalityCode": "12322",
+    "municipalityName": "酒々井町",
+    "sourceId": "83320873d38afe5cc414a0af",
+    "sourceUrl": "https://www.town.shisui.chiba.jp/docs/2022021500039/file_contents/jigohyouka.pdf",
+    "sourceSha256": "2a2e4c3a3a3c6374d05f11e8c1a60a278c63485fc326c4b3df98662846cefb17",
+    "fullTextSha256": "21b7f52a6f0b15db096204c3d5309a91a21dd6933a2cee84a7a116591912836c",
+    "rows": [
+      {
+        "name": "JR酒々井駅前駐輪場整備事業",
+        "raw": "JR酒々井駅前駐輪場整備事業",
+        "start": 214,
+        "year": 2021,
+        "yearQuote": "事後評価実施時期\n\n令和3年度",
+        "yearOffset": 118,
+        "periodQuote": "平成28年度～令和2年度",
+        "periodOffset": 104
+      },
+      {
+        "name": "（町道02-008号線） 景観整備事業",
+        "raw": "（町道02-008号線） 景観整備事業",
+        "start": 312,
+        "year": 2021,
+        "yearQuote": "事後評価実施時期\n\n令和3年度",
+        "yearOffset": 118,
+        "periodQuote": "平成28年度～令和2年度",
+        "periodOffset": 104
+      }
+    ]
+  }
+]

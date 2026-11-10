@@ -1,0 +1,453 @@
+{
+  "municipalityCode": "12239",
+  "municipalityName": "大網白里市",
+  "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "newCandidates": 0,
+  "sources": [
+    {
+      "sourceId": "8d3a19b167e256a683c4bc06",
+      "disposition": "duplicate_or_year_identity_hold",
+      "reason": "All83 master names occur in standalone first-review list; standalone list has no explicit year. No new annual identity inferred.",
+      "matches": [
+        {
+          "id": "cached-12239-cc725b999c78189eea49ad57",
+          "name": "疾病予防事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-92d6ae53b84f456f32d60973",
+          "name": "不妊治療費助成事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-83bc0046ceb64aea8286d82b",
+          "name": "感染症対策及び予防接種事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-1ef3b5d44e47879dcadd1169",
+          "name": "健康教育事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-c8c37dea182c2ad989b3c611",
+          "name": "健康ポイント事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-9258645a3fa73f1394d63e19",
+          "name": "医療機器等整備事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-45ed3d0597a62faf9e4aa15b",
+          "name": "人間ドック・検診事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-21202e228ee41ab1f0051a3c",
+          "name": "生活困窮者学習支援事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-ce99462e7232740937fd0065",
+          "name": "生活困窮者自立相談支援事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-875e5a2971ce4560f944dbfe",
+          "name": "保育所等運営事業（公立・私立）",
+          "present": true
+        },
+        {
+          "id": "cached-12239-62afeb022ad605fcf39b16dc",
+          "name": "学童保育・子育て交流センター運営事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-cced530b395eec7863a0c631",
+          "name": "児童発達支援事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-3445b8027ec7b6389e35eed9",
+          "name": "バス通学定期運賃補助金",
+          "present": true
+        },
+        {
+          "id": "cached-12239-27a880db018a4be37180005c",
+          "name": "要保護児童対策事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-522ea28982c72ed0bf1bb4c2",
+          "name": "地域介護予防活動支援事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-636e8b06f55d64796ec8679a",
+          "name": "介護予防・日常生活支援総合事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-692925a8267bd805cd11cdc3",
+          "name": "緊急通報体制等整備事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-eb88aa965a21ea28d3434a61",
+          "name": "認知症施策推進事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-87d948a6dc51073d3c0a9b96",
+          "name": "介護用品支給事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-abfbf6f350f958cb88a41242",
+          "name": "生活支援体制整備事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-afbe95e576f087553e71ecad",
+          "name": "介護支援ボランティア事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-daae3f49fde430e99c8b6982",
+          "name": "福祉タクシー助成事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-e157fa8576ddd2de87ec7194",
+          "name": "医療費適正化対策事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-5eedd1c4e62b86367bbf5e36",
+          "name": "介護保険料の収納対策",
+          "present": true
+        },
+        {
+          "id": "cached-12239-2669bd7c26a0dc9a28d313d0",
+          "name": "幼稚園管理事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-c88e99fb89bfe1ceeb187b2d",
+          "name": "特別支援教育支援員配置事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-5e5e5e57f5ac76bc107f119f",
+          "name": "教育相談事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-8859b38409fac3d916e430d1",
+          "name": "GIGAスクール推進事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-c45425a7dc539f245e2707f3",
+          "name": "ALT配置事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-95dda484001569c7be0ca7fb",
+          "name": "学校運営協議会推進事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-a6ff24e0c6100073ca9f48da",
+          "name": "ジュニアリーダー育成事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-de25f56502bad844bb1a7937",
+          "name": "二十歳の成人式開催事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-2ea969906d3e6d063e6dcd19",
+          "name": "放課後子ども教室推進事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-cd4f9e4fd20b78ef07f7965b",
+          "name": "市民公開講座事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-02cd33bcc2e3d2b70b177950",
+          "name": "図書室資料等購入事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-0ae248de20c6e0940f07435d",
+          "name": "図書室おはなし会・子ども映画会事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-b3bd6918545a2c002cdc0b72",
+          "name": "スポーツ活動団体支援事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-97314014e841f3be8674588a",
+          "name": "生涯スポーツ普及事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-18c347787a63f6f597bd24a7",
+          "name": "競技スポーツ振興事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-edbc964d364955e82764452f",
+          "name": "文化財保存活用事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-c6bca7daf343492e8b7ca3f0",
+          "name": "デジタル博物館公開事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-4b640a6d856696276c3cc0a7",
+          "name": "舗装補修事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-7da0ab8a7af2e4961bea7795",
+          "name": "排水整備事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-c9107f81fa506ec5c6d89700",
+          "name": "橋りょう等長寿命化修繕事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-9bbef3a1f6cf1e76ba8826b4",
+          "name": "瑞穂地区幹線道路整備事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-cd24591a62c76720d9257a37",
+          "name": "道路新設改良事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-914abfcca18f4d3c4e8d1575",
+          "name": "コミュニティバス等運行事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-9f737d0f6dd21f53f8362357",
+          "name": "地籍調査事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-6781fdb41920ccee79adafc4",
+          "name": "下水道施設最適化事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-acd3add5a95e83c7b0909330",
+          "name": "下水道施設維持管理事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-c8fd852b9a5a67e7fc266350",
+          "name": "防災施設ストックマネジメント事業（堀川２期）",
+          "present": true
+        },
+        {
+          "id": "cached-12239-cbb249f552ac61dc4ed97dc4",
+          "name": "金谷川河川改修事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-3ba550300feb0e9e8dc6b074",
+          "name": "排水対策事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-25aac7f348f49c4649b1737c",
+          "name": "河川維持管理費",
+          "present": true
+        },
+        {
+          "id": "cached-12239-9b22f49445ee8badd2a9a156",
+          "name": "合併処理浄化槽設置整備事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-c75157fcdd878d644e31e44b",
+          "name": "ガス供給施設整備事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-3ea80e6239ad5644c98baa87",
+          "name": "住宅用設備等脱炭素化促進事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-72585ddea62fd2197bb01ade",
+          "name": "津波避難施設整備事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-831606d836ac6ac0f6068cd8",
+          "name": "災害用備蓄品整備事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-6f537c641c5f5d278abb4a81",
+          "name": "防災行政無線整備事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-a62def9f5602afd139c99f62",
+          "name": "自主防災組織づくり事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-1ea559faf06054afdfef5842",
+          "name": "避難行動要支援者名簿整備事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-39508cfce2ded580e5a84d34",
+          "name": "消防団車両更新事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-2e1b4ce1c739c1a9f83f1dfb",
+          "name": "消防団機庫建替事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-405e3e86f9197941e4b9b7a4",
+          "name": "消防水利施設整備事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-80e5eb48cf2bc37a63bbeba5",
+          "name": "交通安全対策施設整備事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-f68b0e4c0a5e7430728f25a5",
+          "name": "消費生活相談事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-842b133f59fa457d60616e89",
+          "name": "経営体育成基盤整備事業（山辺地区）",
+          "present": true
+        },
+        {
+          "id": "cached-12239-65ecdd0749f40cae75e289f3",
+          "name": "農作物被害防止対策事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-04b2c877b1a84a72ec851964",
+          "name": "農業経営体育成事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-ea068fc6fe06bf9403c4d23f",
+          "name": "新規就農者等支援事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-1cc607a31c2134c089cfb3f1",
+          "name": "観光等プロモーション推進事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-2d5ae0c8991cd850ad0f772d",
+          "name": "結婚新生活支援事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-a78d395e3e3912d00696bee4",
+          "name": "企業立地の促進",
+          "present": true
+        },
+        {
+          "id": "cached-12239-dae67fc8e19e59ab12d6db9e",
+          "name": "広報紙発行事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-de2a6a77d299be4243ed1497",
+          "name": "市ホームページ運営事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-4f7836ebd0f8badcfcfbd00d",
+          "name": "協働のまちづくり推進事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-27c1f534fe8b238a6e4c66cb",
+          "name": "固定資産の適正評価",
+          "present": true
+        },
+        {
+          "id": "cached-12239-c5fd0561f00bd6146455061e",
+          "name": "ふるさと納税の推進",
+          "present": true
+        },
+        {
+          "id": "cached-12239-1f46c21ec6f61227105d8eec",
+          "name": "公共媒体への有料広告掲載",
+          "present": true
+        },
+        {
+          "id": "cached-12239-677f9a07a19c7dedf199045f",
+          "name": "行政事務情報化推進事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-ed5e8b9a1c200f40e0bddac4",
+          "name": "基幹系業務システム運用事業",
+          "present": true
+        },
+        {
+          "id": "cached-12239-05b9e6f61ea05dcdf4c537b9",
+          "name": "証明書コンビニ交付事業",
+          "present": true
+        }
+      ]
+    },
+    {
+      "sourceId": "d9765c0b5d68276717ac9dae",
+      "disposition": "covered_by_master",
+      "reason": "83 FY2025 second-review records already in composed master; existing labels and decisions preserved."
+    },
+    {
+      "sourceId": "0d2ee4ab695ef512eb96fbed",
+      "disposition": "not_individual_evaluation",
+      "reason": "General citizen opinion and city response; explicit not-specific-to-one-project. Example project is not new record."
+    },
+    {
+      "sourceId": "422a56b138cf0e57d2e67a39",
+      "disposition": "not_individual_evaluation",
+      "reason": "Public-comment procedure and evaluation definitions only."
+    },
+    {
+      "sourceId": "c302889bbf12fa88930cd83c",
+      "disposition": "plan_only",
+      "reason": "2025 revised implementation plan; 黒丸 means scheduled year. No individual evaluated outcome; no plan rows fabricated as evaluated actual business records."
+    }
+  ],
+  "missingBodyCount": 18,
+  "missingBodyReason": "Cached metadata only for detailed chapter sheets and instructions. No retrieval authorized.",
+  "municipalRequests": 0
+}

@@ -1,0 +1,32 @@
+{
+  "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "stageOnly": true,
+  "productionChanged": false,
+  "unpublishedUserChanges": "unobservable",
+  "rows": [
+    {
+      "code": "12322",
+      "stageProposals": 2,
+      "existingMasterRecords": 0,
+      "matches": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "code": "12235",
+      "stageProposals": 283,
+      "existingMasterRecords": 0,
+      "matches": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "code": "12234",
+      "stageProposals": 4,
+      "existingMasterRecords": 0,
+      "matches": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    }
+  ]
+}

@@ -1,40 +1,44 @@
 {
-  "candidateRecords": 1978,
-  "newCandidatesThisTranche": 253,
-  "newCandidatesSincePreviousPush": 253,
-  "previousRemoteHead": "fce548f2373db31ec338b569d3ce68666eb6ba87",
+  "candidateRecords": 2267,
+  "newCandidatesThisTranche": 289,
+  "newCandidatesSincePreviousPush": 289,
+  "previousRemoteHead": "e22fd4cc7695c225dee83d6ad8b946ee9de3cb6c",
   "perMunicipality": {
     "鋸南町": 44,
     "長南町": 10,
     "長生村": 2,
     "横芝光町": 339,
     "東庄町": 41,
-    "栄町": 1542
+    "栄町": 1542,
+    "酒々井町": 2,
+    "匝瑳市": 283,
+    "南房総市": 4
   },
   "existingFieldEnrichments": 0,
   "newCandidateActualAmountFields": 0,
+  "newCandidateOriginalRatingFields": 283,
   "cohortActualAmountFields": 2,
-  "validatedCumulativeCandidates": 36480,
-  "validatedEvidence": 109214,
+  "validatedCumulativeCandidates": 36769,
+  "validatedEvidence": 110601,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "fce548f2373db31ec338b569d3ce68666eb6ba87",
+  "previousHead": "e22fd4cc7695c225dee83d6ad8b946ee9de3cb6c",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "11/11",
-    "crawler": "1078/1078",
+    "focused": "16/16",
+    "crawler": "1083/1083",
     "web": "256/256",
     "typecheck": "passed",
     "lint": "passed;existingfontwarning",
     "national": "passed branchbaseline",
     "static": "109/109 subpath",
-    "quotes": "36480 candidates/109214 quotes"
+    "quotes": "36769 candidates/110601 quotes"
   },
   "remoteCI": "unverified;known ActionsAPI403 not retried",
-  "remaining": "Chiba queue continues. Sakae1542 now fullvalidated; later proposals staged outside repository remain outside this checkpoint. Annual review entries do not imply implementation or completion. Tonosho41 are related educational class records. Missing42 bodies remain held. Existing partial-name corrections need separate coordinated integration; no existing values changed."
+  "remaining": "Chiba queue continues. Shisui2/Sosa283/Minamiboso4 added and fullvalidated; Tomisato proposals staged outside repository remain outside this checkpoint. Annual review entries do not imply implementation or completion. Tonosho41 are related educational class records. Missing42 bodies remain held. Existing partial-name corrections need separate coordinated integration; no existing values changed."
 }
