@@ -1,0 +1,493 @@
+{
+  "sourceId": "b1bcc28e2e15c46f28b64ad3",
+  "municipalityCode": "12441",
+  "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "cachedCharacters": 120000,
+  "fullCharacters": 222733,
+  "listedContinuations": 0,
+  "prefixSha256": "a3373b61f1a866742f638611def7bef50e604364e60c3300a28c043b68887a21",
+  "existingCompleteSheets": 59,
+  "heldPartialSheet": 60,
+  "newCandidates": 0,
+  "reason": "All59 complete cached sheets already in master by number/name/FY2024;sheet60 ends mid-purpose. No additional listed continuation. Missing remaining body, not current network denial. Existing numeric fields unchanged.",
+  "rows": [
+    {
+      "number": 1,
+      "name": "広報おおたき発行事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-540d6566c1db552b5f9d5000"
+      ]
+    },
+    {
+      "number": 2,
+      "name": "広報おおたき発行事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-4f72aa981b123cbe2d9968c2"
+      ]
+    },
+    {
+      "number": 3,
+      "name": "電子計算業務費",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-03f4a31fa7579a60b81cdad7"
+      ]
+    },
+    {
+      "number": 4,
+      "name": "職員研修事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-61768edb61f8f09396e780a6"
+      ]
+    },
+    {
+      "number": 5,
+      "name": "防災無線維持管理費",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-162fb3840944c681768960c2"
+      ]
+    },
+    {
+      "number": 6,
+      "name": "多目的庁舎建設事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-93deef65da33acbb11a640c6"
+      ]
+    },
+    {
+      "number": 7,
+      "name": "消防機械器具整備事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-0cc04648954fca8b865468b2"
+      ]
+    },
+    {
+      "number": 8,
+      "name": "地域防災対策事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-b51f7eb45d0d33e4bdadebf8"
+      ]
+    },
+    {
+      "number": 9,
+      "name": "防犯対策事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-bbb6a61898877e841c4569ba"
+      ]
+    },
+    {
+      "number": 10,
+      "name": "防犯対策事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-c0ba310994bd4c1b1c2f15e7"
+      ]
+    },
+    {
+      "number": 11,
+      "name": "協働のまちづくり推進事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-2e41d0cf0ce1fd04941b4c33"
+      ]
+    },
+    {
+      "number": 12,
+      "name": "集落支援員事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-25dec114046ea09ae7f240b4"
+      ]
+    },
+    {
+      "number": 13,
+      "name": "コミュニティ育成事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-cf30d19f82cc429678655c93"
+      ]
+    },
+    {
+      "number": 14,
+      "name": "男女共同参画推進事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-c3053a5fa74720186c0326e8"
+      ]
+    },
+    {
+      "number": 15,
+      "name": "交流促進事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-9876359d23a87f3e5b691f63"
+      ]
+    },
+    {
+      "number": 16,
+      "name": "定住化対策事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-9d4b7dd82296987d4cc51a81"
+      ]
+    },
+    {
+      "number": 17,
+      "name": "結婚活動支援事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-11b83faf4c8d0d610492ca8f"
+      ]
+    },
+    {
+      "number": 18,
+      "name": "定住化対策事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-e4b4fcfb873fee373fe8691c"
+      ]
+    },
+    {
+      "number": 19,
+      "name": "地域公共交通対策事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-d1ac3b1f01378121be275a6a"
+      ]
+    },
+    {
+      "number": 20,
+      "name": "いすみ鉄道対策事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-0977843855365aafb7463b18"
+      ]
+    },
+    {
+      "number": 21,
+      "name": "地域公共交通対策事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-23a15ca723ac52f66a721a57"
+      ]
+    },
+    {
+      "number": 22,
+      "name": "地域公共交通対策事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-d85b59f164bea6e35899564b"
+      ]
+    },
+    {
+      "number": 23,
+      "name": "地域情報通信基盤維持管理事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-85a073c95a08957ddd7568ff"
+      ]
+    },
+    {
+      "number": 24,
+      "name": "地域通貨事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-799194cea30b438ac374fe2d"
+      ]
+    },
+    {
+      "number": 25,
+      "name": "水道高料金対策事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-960a55cf4462d71f96d0c15d"
+      ]
+    },
+    {
+      "number": 26,
+      "name": "税務資料ファイリング業務委託事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-515f830ad09ab5b3f2231749"
+      ]
+    },
+    {
+      "number": 27,
+      "name": "住民基本台帳ネットワークシステム事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-efb37439e0ea68bae97d87a5"
+      ]
+    },
+    {
+      "number": 28,
+      "name": "特定健康診査等事業費（国保特別会計）",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-95e3f2943e10f12989e8847a"
+      ]
+    },
+    {
+      "number": 29,
+      "name": "少子化対策事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-f7007792d3a3abc9ae028518"
+      ]
+    },
+    {
+      "number": 30,
+      "name": "児童手当支給事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-8637a023fb29d82bc10f9849"
+      ]
+    },
+    {
+      "number": 31,
+      "name": "子ども医療対策事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-975fe12e72a5d2e85257cd97"
+      ]
+    },
+    {
+      "number": 32,
+      "name": "養育医療給付事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-fb65dc494bf7cd4664c655ba"
+      ]
+    },
+    {
+      "number": 33,
+      "name": "ひとり親家庭等医療費助成事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-aa2dedaac0aa57e192abdc83"
+      ]
+    },
+    {
+      "number": 34,
+      "name": "がん検診事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-d1db69f15c157cc8375fe224"
+      ]
+    },
+    {
+      "number": 35,
+      "name": "健康増進事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-839a81d3bdb04291b12cbf0e"
+      ]
+    },
+    {
+      "number": 36,
+      "name": "こども家庭センター運営事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-a1327c1882a1a0c9a9635070"
+      ]
+    },
+    {
+      "number": 37,
+      "name": "予防接種事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-1db1de2090d960608a86d90b"
+      ]
+    },
+    {
+      "number": 38,
+      "name": "感染症対策事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-74b51954b71c296b46394c0f"
+      ]
+    },
+    {
+      "number": 39,
+      "name": "地域介護予防活動支援事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-94b8038dbe1b470d0a8b221a"
+      ]
+    },
+    {
+      "number": 40,
+      "name": "介護予防普及啓発事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-e64e137a1ccda2e49091a2cd"
+      ]
+    },
+    {
+      "number": 41,
+      "name": "高齢者在宅生活支援事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-4f9999d5e5e69e419cf79065"
+      ]
+    },
+    {
+      "number": 42,
+      "name": "老人福祉団体助成事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-d14b638b0251ab3af34c86e6"
+      ]
+    },
+    {
+      "number": 43,
+      "name": "社会福祉関係団体助成事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-987d1e8923daac24b304b6df"
+      ]
+    },
+    {
+      "number": 44,
+      "name": "民生委員活動事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-e0e634bdb5c3233d9a47d4f8"
+      ]
+    },
+    {
+      "number": 45,
+      "name": "障害者福祉事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-76c6c7176fd22112502c1ead"
+      ]
+    },
+    {
+      "number": 46,
+      "name": "地籍調査事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-910cd85602231a647506901b"
+      ]
+    },
+    {
+      "number": 47,
+      "name": "宅地造成事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-e834b880178ffd3bfc255d8f"
+      ]
+    },
+    {
+      "number": 48,
+      "name": "定住化対策住宅助成事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-cdb3905bbb816013370cf031"
+      ]
+    },
+    {
+      "number": 49,
+      "name": "町営住宅管理事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-db999bc978ad65a92fccca0a"
+      ]
+    },
+    {
+      "number": 50,
+      "name": "町道改良事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-c53ac264a0d4d06ef22e5561"
+      ]
+    },
+    {
+      "number": 51,
+      "name": "町道維持管理事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-109a84256b1a8baa191f0959"
+      ]
+    },
+    {
+      "number": 52,
+      "name": "橋梁長寿命化事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-daf927919f2770a2742d179a"
+      ]
+    },
+    {
+      "number": 53,
+      "name": "町道維持管理事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-1e66d5740dd6dce1e2f7aa1e"
+      ]
+    },
+    {
+      "number": 54,
+      "name": "交通安全対策事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-9db2079eb3635ce6407ae45c"
+      ]
+    },
+    {
+      "number": 55,
+      "name": "多面的機能支払交付金事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-e749ca6a4bf6930032895158"
+      ]
+    },
+    {
+      "number": 56,
+      "name": "中山間地域等直接支払交付金事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-67acb8dcc108c4d9e628a4b2"
+      ]
+    },
+    {
+      "number": 57,
+      "name": "土地改良関係団体事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-f1029767735688db7b3115d4"
+      ]
+    },
+    {
+      "number": 58,
+      "name": "農業振興事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-4f5bb4853c20a9bb8a084a05"
+      ]
+    },
+    {
+      "number": 59,
+      "name": "農業振興事業",
+      "status": "existing_master_same_source",
+      "masterIds": [
+        "cached-12441-a155943be662e47b12c56ceb"
+      ]
+    },
+    {
+      "number": 60,
+      "name": "産地育成事業",
+      "status": "incomplete_final_sheet",
+      "masterIds": []
+    }
+  ]
+}

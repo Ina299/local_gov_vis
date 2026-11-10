@@ -1,0 +1,39 @@
+export const configs = [
+  {
+    "sourceId": "c9cae63d83a17dd34edeaef8",
+    "municipalityCode": "12427",
+    "municipalityName": "長南町",
+    "sourceUrl": "https://www.town.chonan.chiba.jp/wp-content/uploads/2018/09/R1hyouka.pdf",
+    "sourceSha256": "35433d946e1323112b4e7c9c4e58afb78e351ebb091649889623c536f554a4a5",
+    "fullTextSha256": "8099e04ab16d88fbb2bd3b32d8de9bef4ff8b026122313999ef22d4df1a274d1",
+    "rows": [
+      {
+        "name": "放課後補習授業",
+        "raw": "放課後補習授業",
+        "start": 3676,
+        "year": 2019,
+        "yearQuote": "放課後補習授業への保護者の満足度\n\n放課後補習授業\n\n60.0%\n\nー\n\n100%(R1)\n\nA\n\n",
+        "yearOffset": 3676,
+        "amount": null
+      },
+      {
+        "name": "教育の町再生事業",
+        "raw": "教育の町再生事業",
+        "start": 3954,
+        "year": 2019,
+        "yearQuote": "教育の町再生事業\n\n学校教育課 交流事業数\n\n２事業\n\nー\n\n1事業(R1)\n\nC\n\n",
+        "yearOffset": 3954,
+        "amount": null
+      },
+      {
+        "name": "特定健診事業・人間ドック利用費助成事業（国保）",
+        "raw": "特定健診事業・人間ドック利用費助成事業（国保）",
+        "start": 6276,
+        "year": 2019,
+        "yearQuote": "特定健診事業・人間ドック利用費助成事業（国保）\n\n健康保険課 特定健診の受診率\n\n28.4％(H26)\n\n51.0%\n\n50.5%(R1)\n\nB\n\n",
+        "yearOffset": 6276,
+        "amount": null
+      }
+    ]
+  }
+];

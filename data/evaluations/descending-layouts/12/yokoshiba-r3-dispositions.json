@@ -1,0 +1,134 @@
+{
+  "sourceId": "bb8181d755916a67c5e0c87d",
+  "numberedRows": 140,
+  "proposed": 133,
+  "identityHolds": [
+    {
+      "key": "4-1",
+      "name": "防災対策事務費",
+      "parts": [
+        {
+          "raw": "防災対策事務費",
+          "start": 12451
+        }
+      ],
+      "raw": "1 45 4 1 1 ② 環境防災課 防災班 防災対策事務費 B 105",
+      "start": 12428,
+      "department": "環境防災課 防災班",
+      "contextStart": 12365,
+      "contextEnd": 12527,
+      "contextSha256": "0a2c13a0f0b039d99059c631eaf4e6267277a8fe5c48457fae41b2ffb1f31d5d",
+      "reason": "Identical annual name appears under multiple row IDs; canonical separate-business identity not resolved. No arbitrary first row selected."
+    },
+    {
+      "key": "4-2",
+      "name": "防災対策事務費",
+      "parts": [
+        {
+          "raw": "防災対策事務費",
+          "start": 12550
+        }
+      ],
+      "raw": "2 45 4 1 1 ③ 環境防災課 防災班 防災対策事務費 防災力の向上を図ることで自助・共助の精神をはぐく B 3,035",
+      "start": 12527,
+      "department": "環境防災課 防災班",
+      "contextStart": 12428,
+      "contextEnd": 12669,
+      "contextSha256": "4dd3ce515b573fa00e97cfa2449029e5633c3c891a97328cf54720782c329c75",
+      "reason": "Identical annual name appears under multiple row IDs; canonical separate-business identity not resolved. No arbitrary first row selected."
+    },
+    {
+      "key": "4-3",
+      "name": "防災対策事務費",
+      "parts": [
+        {
+          "raw": "防災対策事務費",
+          "start": 12657
+        }
+      ],
+      "raw": "3 46 4 1 1 ⑥ 環境防災課 防災班 防災対策事務費 B 0",
+      "start": 12634,
+      "department": "環境防災課 防災班",
+      "contextStart": 12501,
+      "contextEnd": 12717,
+      "contextSha256": "2bd8826bd5b13159f47e935af18f2eb6e2765a098c87d57b1624af9459a381e2",
+      "reason": "Identical annual name appears under multiple row IDs; canonical separate-business identity not resolved. No arbitrary first row selected."
+    },
+    {
+      "key": "5-18",
+      "name": "雇用促進事業",
+      "parts": [
+        {
+          "raw": "雇用促進事業",
+          "start": 16174
+        }
+      ],
+      "raw": "18 59 5 4 1 ② 産業課 経済班 雇用促進事業 のマッチングを図る。また、町商工業の活性をに向け、 B 500",
+      "start": 16152,
+      "department": "産業課 経済班",
+      "contextStart": 16056,
+      "contextEnd": 16289,
+      "contextSha256": "e65d6aebb63e3ace50588fa65b2b32fb66645b6a11c15dc31db9e0328d80838f",
+      "reason": "Identical annual name appears under multiple row IDs; canonical separate-business identity not resolved. No arbitrary first row selected."
+    },
+    {
+      "key": "5-19",
+      "name": "雇用促進事業",
+      "parts": [
+        {
+          "raw": "雇用促進事業",
+          "start": 16311
+        }
+      ],
+      "raw": "19 60 5 4 1 ② 産業課 経済班 雇用促進事業 し、町内における定住促進を図るため、新規学卒者を D もって事業終了「廃止」とする。 0",
+      "start": 16289,
+      "department": "産業課 経済班",
+      "contextStart": 16152,
+      "contextEnd": 16452,
+      "contextSha256": "dcdc95662d626919cea022a6484f4edcfa6e426b42fbf970ffab68458dc81d58",
+      "reason": "Identical annual name appears under multiple row IDs; canonical separate-business identity not resolved. No arbitrary first row selected."
+    },
+    {
+      "key": "6-7",
+      "name": "タウンマネジメント人材育成事業",
+      "parts": [
+        {
+          "raw": "タウンマネジメント人材育成事業",
+          "start": 18328
+        }
+      ],
+      "raw": "7 67 6 4 1 ① 企画空港課 企画政策班 タウンマネジメント人材育成事業 D すること。 0",
+      "start": 18303,
+      "department": "企画空港課 企画政策班",
+      "contextStart": 18217,
+      "contextEnd": 18416,
+      "contextSha256": "8ddf46b0f04c15762ff1b60869c48cd2d3b4ac9332bd353a2ef1598de4d7bd2f",
+      "reason": "Source explicitly says ended in R1; historic carryover excluded from new FY2021 candidates."
+    },
+    {
+      "key": "構想-1",
+      "name": "ご当地アプリ開発事業",
+      "parts": [
+        {
+          "raw": "ご当地アプリ開発事業",
+          "start": 18797
+        }
+      ],
+      "raw": "1 68 構想 1 1 ② 総務課 秘書広報班 ご当地アプリ開発事業 D から、他のシステムへの移行により 0",
+      "start": 18773,
+      "department": "総務課 秘書広報班",
+      "contextStart": 18688,
+      "contextEnd": 18899,
+      "contextSha256": "13df571ce9d2cd361f8d35418158072869b44669bd53bbf0793a295e9260f640",
+      "reason": "Source explicitly says ended in R1; historic carryover excluded from new FY2021 candidates."
+    }
+  ],
+  "year": "R3 evaluation column explicit, target fiscal year unassigned; costs are R3計画額 not actual expenditure.",
+  "deletedUnnumberedRows": [
+    {
+      "name": "企業誘致推進事業",
+      "reason": "Unnumbered row explicitly 削除, not adopted."
+    }
+  ],
+  "scope": "140 numbered rows and deleted unnumbered row reviewed; no aggregate-to-row inference."
+}

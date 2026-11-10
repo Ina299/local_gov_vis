@@ -1,0 +1,690 @@
+{
+  "sourceId": "6638833a2577be37ab9a2b6f",
+  "rows": [
+    {
+      "key": "1-1",
+      "name": "子ども・子育て支援交付金事業（地域子育て支援拠点事業）",
+      "status": "proposal"
+    },
+    {
+      "key": "1-2",
+      "name": "子ども・子育て支援交付金事業（一時預り事業）",
+      "status": "proposal"
+    },
+    {
+      "key": "1-3",
+      "name": "子ども・子育て支援交付金事業（保育対策等促進事業）",
+      "status": "proposal"
+    },
+    {
+      "key": "1-4",
+      "name": "保育士配置改善事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-5",
+      "name": "保育所整備事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-6",
+      "name": "保育所整備事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-7",
+      "name": "学童保育事務費",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-8",
+      "name": "町内児童等医療費等助成事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-9",
+      "name": "子ども医療費助成事業(乳幼児医療対策事業)",
+      "status": "proposal"
+    },
+    {
+      "key": "1-10",
+      "name": "特定不妊治療助成事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-11",
+      "name": "子育て世代包括支援センター管理事業",
+      "status": "proposal"
+    },
+    {
+      "key": "1-12",
+      "name": "ブックスタート事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-13",
+      "name": "家庭教育支援事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-14",
+      "name": "包括的支援事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-15",
+      "name": "在宅医療・介護連携推進事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-16",
+      "name": "一般介護予防事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-17",
+      "name": "高齢者見守りネットワーク事業",
+      "status": "proposal"
+    },
+    {
+      "key": "1-18",
+      "name": "認知症総合支援事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-19",
+      "name": "老人クラブ活動支援事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-20",
+      "name": "地域生活支援事業(地域活動支援センターⅢ型指定管理)",
+      "status": "proposal"
+    },
+    {
+      "key": "1-21",
+      "name": "山武圏域基幹相談支援センター設置・運営事業",
+      "status": "proposal"
+    },
+    {
+      "key": "1-22",
+      "name": "療育支援コーディネーター配置事業",
+      "status": "proposal"
+    },
+    {
+      "key": "1-23",
+      "name": "地域定着支援利用促進事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-24",
+      "name": "山武圏域福祉避難所協定締結促進事業",
+      "status": "proposal"
+    },
+    {
+      "key": "1-25",
+      "name": "山武圏域自立支援協議会公開研修会事業",
+      "status": "proposal"
+    },
+    {
+      "key": "1-26",
+      "name": "障害者就労支援事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-27",
+      "name": "地域福祉事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-28",
+      "name": "ボランティア育成・活動強化事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-29",
+      "name": "情報のバリアフリー化事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-30",
+      "name": "自殺対策強化事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-31",
+      "name": "歯科保健事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-32",
+      "name": "がん検診事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-33",
+      "name": "医師確保対策事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-34",
+      "name": "特定健康診査事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-35",
+      "name": "介護給付費適正化事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "1-36",
+      "name": "後期高齢者健康診査事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "2-1",
+      "name": "学力向上推進計画実施事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "2-2",
+      "name": "小学校情報教育推進事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "2-3",
+      "name": "中学校情報教育推進事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "2-4",
+      "name": "英語教育推進事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "2-5",
+      "name": "学校運営体制充実事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "2-6",
+      "name": "学校施設非構造部材耐震化事業",
+      "status": "proposal"
+    },
+    {
+      "key": "2-7",
+      "name": "ジュニアリーダー育成",
+      "status": "proposal"
+    },
+    {
+      "key": "2-8",
+      "name": "講座開催事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "2-9",
+      "name": "図書館魅力発信基地化計画事業",
+      "status": "proposal"
+    },
+    {
+      "key": "2-10",
+      "name": "図書資料購入事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "2-11",
+      "name": "町民ギャラリー開催事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "2-12",
+      "name": "芸術教室開催事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "2-13",
+      "name": "文化祭開催事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "2-14",
+      "name": "保健体育総務事務費（文化スポーツ活動推進費補助金）",
+      "status": "proposal"
+    },
+    {
+      "key": "2-15",
+      "name": "北総中学校ソフトテニス大会開催事業(北総中学校ソフトテニス大会運営費補助金)",
+      "status": "proposal"
+    },
+    {
+      "key": "2-16",
+      "name": "青少年剣道大会開催事業(少年剣道大会運営補助金)",
+      "status": "proposal"
+    },
+    {
+      "key": "2-17",
+      "name": "パラカヌー普及推進事業",
+      "status": "proposal"
+    },
+    {
+      "key": "2-18",
+      "name": "体育祭開催事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "2-19",
+      "name": "スポーツ協会活動支援事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "3-1",
+      "name": "用途地域見直し事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "3-2",
+      "name": "横芝光IC周辺開発事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "3-3",
+      "name": "町道Ⅰ－１８号線道路改良（2期）事業",
+      "status": "proposal"
+    },
+    {
+      "key": "3-4",
+      "name": "町道Ⅱ－３６号線道路改良事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "3-5",
+      "name": "町道Ⅰ－７号線道路改良事業(寺方地先)",
+      "status": "proposal"
+    },
+    {
+      "key": "3-6",
+      "name": "町道Ⅰ－１４号線道路改良事業(北清水・木戸地先)",
+      "status": "proposal"
+    },
+    {
+      "key": "3-7",
+      "name": "町道Ⅰ－８号線道路改良事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "3-8",
+      "name": "町道Ⅰ－１０号線道路改良事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "3-9",
+      "name": "舗装修繕事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "3-10",
+      "name": "横芝駅舎利活用事業",
+      "status": "proposal"
+    },
+    {
+      "key": "3-11",
+      "name": "生活路線バス運行事業(町内バス運行費補助金)",
+      "status": "proposal"
+    },
+    {
+      "key": "3-12",
+      "name": "乗合タクシー運行事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "3-13",
+      "name": "新たな公共交通網整備事業",
+      "status": "proposal"
+    },
+    {
+      "key": "3-14",
+      "name": "住宅改修補助事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "3-15",
+      "name": "空家住宅管理事業",
+      "status": "proposal"
+    },
+    {
+      "key": "3-16",
+      "name": "水道高料金対策操出事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "3-17",
+      "name": "浄化槽設置促進補助事業",
+      "status": "proposal"
+    },
+    {
+      "key": "3-18",
+      "name": "資源リサイクル促進事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "3-19",
+      "name": "合併処理浄化槽等維持管理推進事業",
+      "status": "proposal"
+    },
+    {
+      "key": "3-20",
+      "name": "環境衛生事務事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "3-21",
+      "name": "火葬場負担金事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "3-22",
+      "name": "航空機騒音障害防止対策事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "3-23",
+      "name": "住宅防音工事事業",
+      "status": "proposal"
+    },
+    {
+      "key": "3-24",
+      "name": "環境美化推進事業(町内一日清掃)",
+      "status": "proposal"
+    },
+    {
+      "key": "3-25",
+      "name": "住宅用設備等脱炭素化促進事業",
+      "status": "proposal"
+    },
+    {
+      "key": "3-26",
+      "name": "景観整備適正化事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "3-27",
+      "name": "栗山川改修促進事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "3-28",
+      "name": "環境美化推進事業(栗山川周辺環境ボランティア)",
+      "status": "proposal"
+    },
+    {
+      "key": "3-29",
+      "name": "栗山川情報発信事業",
+      "status": "proposal"
+    },
+    {
+      "key": "3-30",
+      "name": "九十九里海岸保全事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "3-31",
+      "name": "公園環境美化推進事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "3-32",
+      "name": "緑の募金市町村交付事業",
+      "status": "proposal"
+    },
+    {
+      "key": "4-1",
+      "name": "防災対策事務費",
+      "status": "repeated_name_identity_hold"
+    },
+    {
+      "key": "4-2",
+      "name": "防災対策事務費",
+      "status": "repeated_name_identity_hold"
+    },
+    {
+      "key": "4-3",
+      "name": "防災対策事務費 災害用備品整備事業",
+      "status": "proposal"
+    },
+    {
+      "key": "4-4",
+      "name": "防災対策事務費・防災行政無線維持管理事業",
+      "status": "proposal"
+    },
+    {
+      "key": "4-5",
+      "name": "消防車両整備事業・消防団活動費・消防施設整備事業",
+      "status": "proposal"
+    },
+    {
+      "key": "4-6",
+      "name": "施設整備事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "4-7",
+      "name": "消防団活動費",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "4-8",
+      "name": "常備消防事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "4-9",
+      "name": "防犯指導及び啓発事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "4-10",
+      "name": "防犯灯維持管理事業・防犯灯設置事業",
+      "status": "proposal"
+    },
+    {
+      "key": "4-11",
+      "name": "交通安全指導及び啓発事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "4-12",
+      "name": "消費生活相談窓口事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "5-1",
+      "name": "地産地消食育推進事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "5-2",
+      "name": "横芝光町産農産物販路開拓事業",
+      "status": "proposal"
+    },
+    {
+      "key": "5-3",
+      "name": "経営・法人化支援事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "5-4",
+      "name": "需給調整推進対策奨励事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "5-5",
+      "name": "空き家農家住宅活用事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "5-6",
+      "name": "観光情報発信事業",
+      "status": "proposal"
+    },
+    {
+      "key": "5-7",
+      "name": "横芝駅前情報交流館管理事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "5-8",
+      "name": "ニューツーリズム開発促進事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "5-9",
+      "name": "観光企業誘致事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "5-10",
+      "name": "インバウンド観光推進事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "5-11",
+      "name": "商工振興支援事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "5-12",
+      "name": "地域ブランド強化事業",
+      "status": "proposal"
+    },
+    {
+      "key": "5-13",
+      "name": "商工業振興運営事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "5-14",
+      "name": "企業版空き地バンク事業",
+      "status": "proposal"
+    },
+    {
+      "key": "5-15",
+      "name": "企業誘致促進事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "5-16",
+      "name": "雇用促進事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "5-17",
+      "name": "雇用促進事業・仕事マッチング事業",
+      "status": "proposal"
+    },
+    {
+      "key": "5-18",
+      "name": "移住定住促進事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "5-19",
+      "name": "創生プロモーション事業",
+      "status": "proposal"
+    },
+    {
+      "key": "5-20",
+      "name": "空港機能強化ＰＲ事業",
+      "status": "proposal"
+    },
+    {
+      "key": "5-21",
+      "name": "空港人材育成事業",
+      "status": "proposal"
+    },
+    {
+      "key": "5-22",
+      "name": "整備事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "5-23",
+      "name": "空港シャトルバス運行事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "6-1",
+      "name": "人権啓発事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "6-2",
+      "name": "人権相談事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "6-3",
+      "name": "男女共同参画推進事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "6-4",
+      "name": "女性の活躍推進事業",
+      "status": "proposal"
+    },
+    {
+      "key": "6-5",
+      "name": "英語講師配置事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "6-6",
+      "name": "国際交流事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "6-7",
+      "name": "提案型協働のまちづくり推進事業",
+      "status": "proposal"
+    },
+    {
+      "key": "構想-1",
+      "name": "職員の情報発信能力開発事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "構想-2",
+      "name": "対話行政推進事業（「まちづくりを語ろう会」出前トーク）",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "構想-3",
+      "name": "個人情報保護の徹底",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "構想-4",
+      "name": "職員研修事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "構想-5",
+      "name": "行政評価事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "構想-6",
+      "name": "財政計画策定事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "構想-7",
+      "name": "個別施設計画策定事業",
+      "status": "existing_same_year"
+    },
+    {
+      "key": "構想-8",
+      "name": "戦略的な連携事業",
+      "status": "existing_same_year"
+    }
+  ]
+}

@@ -1,0 +1,5563 @@
+[
+  {
+    "sourceId": "bb8181d755916a67c5e0c87d",
+    "year": 2021,
+    "rows": [
+      {
+        "number": "4",
+        "chapter": "1",
+        "name": "保育士配置改善事業",
+        "raw": "4 3 1 1 2 ① 健康こども課 こども班 保育士配置改善事業 に的確に対応するための体制づくりを推進する。これ B 31,923",
+        "start": 698,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "6",
+        "chapter": "1",
+        "name": "学童保育事務費",
+        "raw": "6 4 1 1 3 ① 健康こども課 こども班 学童保育事務費 た、今後、小学1年生から4年生までの受入れ児童数 B 45,691",
+        "start": 1100,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "9",
+        "chapter": "1",
+        "name": "特定不妊治療助成事業",
+        "raw": "9 6 1 1 4 ② 健康こども課 健康づくり班 特定不妊治療助成事業 特定不妊治療の費用の一部を助成する。助成の対象 B 502",
+        "start": 1639,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "11",
+        "chapter": "1",
+        "name": "ブックスタート事業",
+        "raw": "11 7 1 1 4 ⑤ 社会文化課 図書館 ブックスタート事業 パックの配布を行い、保護者も含め乳幼児から読書に B 308",
+        "start": 1993,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "12",
+        "chapter": "1",
+        "name": "家庭教育支援事業",
+        "raw": "12 7 1 1 5 ② 社会文化課 生涯学習班 家庭教育支援事業 けや社会性を身に着けられるよう、家庭教育学級の実 B 490",
+        "start": 2098,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "13",
+        "chapter": "1",
+        "name": "包括的支援事業",
+        "raw": "13 8 1 2 1 ①③ 福祉課 介護班 包括的支援事業 を図るため、地域包括支援センターの配置人員を増員 B 33,596",
+        "start": 2204,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "14",
+        "chapter": "1",
+        "name": "在宅医療・介護連携推進事業",
+        "raw": "14 8 1 2 1 ②⑥ 福祉課 介護班 在宅医療・介護連携推進事業 B 328",
+        "start": 2331,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "15",
+        "chapter": "1",
+        "name": "一般介護予防事業",
+        "raw": "15 9 1 2 2 ① 福祉課 介護班 一般介護予防事業 による各種教室などを通じて、介護予防についての知 B 7,837",
+        "start": 2427,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "16",
+        "chapter": "1",
+        "name": "認知症総合支援事業",
+        "raw": "16 9 1 2 2 ②④ 福祉課 介護班 認知症総合支援事業 域での支えあい、温かい見守り体制づくりと早期発見・ B 4,262",
+        "start": 2523,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "17",
+        "chapter": "1",
+        "name": "老人クラブ活動支援事業",
+        "raw": "17 10 1 2 3 ① 福祉課 社会福祉班 老人クラブ活動支援事業 かして地域を豊かにする社会活動に参加して明るい長 B 2,227",
+        "start": 2631,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "21",
+        "chapter": "1",
+        "name": "地域定着支援利用促進事業",
+        "raw": "21 12 1 3 2 ① 福祉課 障害福祉班 地域定着支援利用促進事業 時の連絡体制を確保し、緊急事態の場合の相談や障 B 512",
+        "start": 3477,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "24",
+        "chapter": "1",
+        "name": "障害者就労支援事業",
+        "raw": "24 13 1 3 4 ② 福祉課 障害福祉班 障害者就労支援事業 B 70",
+        "start": 4127,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "25",
+        "chapter": "1",
+        "name": "地域福祉事業",
+        "raw": "25 14 1 4 1 ② 福祉課 社会福祉班 地域福祉事業 会の交流活動を支援し、地域福祉についての理解を B 40,603",
+        "start": 4261,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "26",
+        "chapter": "1",
+        "name": "ボランティア育成・活動強化事業",
+        "raw": "26 14 1 4 2 ② 福祉課 社会福祉班 ボランティア育成・活動強化事業 B 40,603",
+        "start": 4355,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "27",
+        "chapter": "1",
+        "name": "情報のバリアフリー化事業",
+        "raw": "27 15 1 4 3 ② 総務課 秘書広報班 情報のバリアフリー化事業 ていただけるようホームページのバリアフリー化を進め B 198",
+        "start": 4449,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "28",
+        "chapter": "1",
+        "name": "自殺対策強化事業",
+        "raw": "28 15 1 5 1 ① 健康こども課 健康づくり班 自殺対策強化事業 B 207",
+        "start": 4572,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "29",
+        "chapter": "1",
+        "name": "歯科保健事業",
+        "raw": "29 16 1 5 2 ② 健康こども課 健康づくり班 歯科保健事業 する歯科健診や歯磨き指導、高齢者も含めたよい歯の B 514",
+        "start": 4693,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "30",
+        "chapter": "1",
+        "name": "がん検診事業",
+        "raw": "30 16 1 5 2 ② 健康こども課 健康づくり班 がん検診事業 診及び個別検診を実施する。（胃がん、大腸がん、子 B 30,049",
+        "start": 4821,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "31",
+        "chapter": "1",
+        "name": "医師確保対策事業",
+        "raw": "31 17 1 5 3 ① 東陽病院 総務班 医師確保対策事業 PR活動を展開し、医師の確保に努めると共に近隣病 B 8,240",
+        "start": 4957,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "32",
+        "chapter": "1",
+        "name": "特定健康診査事業",
+        "raw": "32 17 1 6 1 ② 住民課 国保年金班 特定健康診査事業 シンドローム該当者および予備軍の減少を図るため B 19,359",
+        "start": 5082,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "33",
+        "chapter": "1",
+        "name": "介護給付費適正化事業",
+        "raw": "33 18 1 6 2 ① 福祉課 介護班 介護給付費適正化事業 B 1,259",
+        "start": 5211,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "34",
+        "chapter": "1",
+        "name": "後期高齢者健康診査事業",
+        "raw": "34 18 1 6 3 ② 住民課 国保年金班 後期高齢者健康診査事業 B 7,887",
+        "start": 5347,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "1",
+        "chapter": "2",
+        "name": "学力向上推進計画実施事業",
+        "raw": "1 19 2 1 1 ① 教育課 教職員・指導室 学力向上推進計画実施事業 B 500",
+        "start": 5621,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "2",
+        "chapter": "2",
+        "name": "小学校情報教育推進事業",
+        "raw": "2 19 2 1 1 ③ 教育課 総務班 小学校情報教育推進事業 B 38,538",
+        "start": 5747,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "3",
+        "chapter": "2",
+        "name": "中学校情報教育推進事業",
+        "raw": "3 20 2 1 1 ③ 教育課 総務班 中学校情報教育推進事業 B 22,261",
+        "start": 5887,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "4",
+        "chapter": "2",
+        "name": "英語教育推進事業",
+        "raw": "4 20 2 1 1 ④ 教育課 教職員・指導室 英語教育推進事業 B 1,600",
+        "start": 6024,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "5",
+        "chapter": "2",
+        "name": "学校運営体制充実事業",
+        "raw": "5 21 2 1 2 ① 教育課 教職員・指導室 学校運営体制充実事業 B 0",
+        "start": 6148,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "8",
+        "chapter": "2",
+        "name": "講座開催事業",
+        "raw": "8 22 2 3 1 ① 社会文化課 生涯学習班 講座開催事業 もに、自主的な活動を積極的に支援し、生涯学習を通 B 1,199",
+        "start": 6490,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "10",
+        "chapter": "2",
+        "name": "図書資料購入事業",
+        "raw": "10 23 2 3 2 ③ 社会文化課 図書館 図書資料購入事業 B 15,000",
+        "start": 6737,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "11",
+        "chapter": "2",
+        "name": "町民ギャラリー開催事業",
+        "raw": "11 24 2 4 1 ③ 社会文化課 生涯学習班 町民ギャラリー開催事業 B 2,466",
+        "start": 6823,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "12",
+        "chapter": "2",
+        "name": "少年芸術教室開催事業",
+        "raw": "12 24 2 4 2 ② 社会文化課 生涯学習班 少年芸術教室開催事業 賞能力の向上を図るとともに、豊かな情操の涵養に資 B 709",
+        "start": 6914,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "13",
+        "chapter": "2",
+        "name": "文化祭開催事業",
+        "raw": "13 25 2 4 2 ③ 社会文化課 生涯学習班 文化祭開催事業 B 460",
+        "start": 7036,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "17",
+        "chapter": "2",
+        "name": "体育祭開催事業",
+        "raw": "17 27 2 5 2 ① 社会文化課 生涯学習班 体育祭開催事業 男女が協力して住みよい郷土・明るいまちづくりを推進 B 2,000",
+        "start": 7553,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "18",
+        "chapter": "2",
+        "name": "スポーツ協会活動支援事業",
+        "raw": "18 27 2 5 3 ① 社会文化課 生涯学習班 スポーツ協会活動支援事業 B 4,100",
+        "start": 7674,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "1",
+        "chapter": "3",
+        "name": "用途地域見直し事業",
+        "raw": "1 28 3 1 1 ② 都市建設課 管理計画班 用途地域見直し事業 B 3,250",
+        "start": 7891,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "3",
+        "chapter": "3",
+        "name": "町道Ⅰ－９号線道路改良事業",
+        "raw": "3 29 3 2 1 ① 都市建設課 建設班 町道Ⅰ－９号線道路改良事業 B 0",
+        "start": 8135,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "5",
+        "chapter": "3",
+        "name": "町道Ⅱ－３６号線道路改良事業",
+        "raw": "5 30 3 2 1 ① 都市建設課 建設班 町道Ⅱ－３６号線道路改良事業 B 1,610",
+        "start": 8457,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "8",
+        "chapter": "3",
+        "name": "町道Ⅰ－８号線道路改良事業",
+        "raw": "8 31 3 2 1 ① 都市建設課 建設班 町道Ⅰ－８号線道路改良事業 和のため整備する。 B 60,164",
+        "start": 9017,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "9",
+        "chapter": "3",
+        "name": "町道Ⅰ－10号線道路改良事業",
+        "raw": "9 32 3 2 1 ① 都市建設課 建設班 町道Ⅰ－10号線道路改良事業 B 112,048",
+        "start": 9195,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "10",
+        "chapter": "3",
+        "name": "舗装修繕事業",
+        "raw": "10 32 3 2 2 ① 都市建設課 建設班 舗装修繕事業 を未然に防止する修繕を行い、住民が安心して暮らせ B 82,120",
+        "start": 9322,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "14",
+        "chapter": "3",
+        "name": "空港シャトルバス運行事業",
+        "raw": "14 34 3 2 3 ④ 企画空港課 空港班 空港シャトルバス運行事業 交通手段として空港シャトルバスを芝山鉄道延伸連絡 B 8,501",
+        "start": 9843,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "15",
+        "chapter": "3",
+        "name": "新たな公共交通網整備事業",
+        "raw": "15 35 3 2 3 ⑤ 企画空港課 企画政策班 新たな公共交通網整備事業 市方面へのシャトルバスを試験運行する。また、実績 B 48,664",
+        "start": 9963,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "16",
+        "chapter": "3",
+        "name": "住宅改修補助事業",
+        "raw": "16 35 3 3 1 ② 都市建設課 管理計画班 住宅改修補助事業 上を図るため、民間住宅のリフォーム、耐震診断、耐 B 6,000",
+        "start": 10080,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "17",
+        "chapter": "3",
+        "name": "町営住宅大規模修繕事業",
+        "raw": "17 36 3 3 2 ① 都市建設課 管理計画班 町営住宅大規模修繕事業 基を合併浄化槽1基に転換するとともに、排水系統を B 2,500",
+        "start": 10191,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "18",
+        "chapter": "3",
+        "name": "空家住宅管理事業",
+        "raw": "18 36 3 3 3 ① 都市建設課 管理計画班 空家住宅管理事業 B 0",
+        "start": 10336,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "19",
+        "chapter": "3",
+        "name": "水道高料金対策操出事業",
+        "raw": "19 37 3 4 1 ③ 環境防災課 環境班 水道高料金対策操出事業 B 56,027",
+        "start": 10447,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "20",
+        "chapter": "3",
+        "name": "浄化槽設置促進補助事業",
+        "raw": "20 37 3 4 2 ① 環境防災課 環境班 浄化槽設置促進補助事業 浄化槽及び汲取便槽からの転換について助成し、合 B 19,408",
+        "start": 10525,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "21",
+        "chapter": "3",
+        "name": "資源リサイクル促進事業",
+        "raw": "21 38 3 5 1 ② 環境防災課 環境班 資源リサイクル促進事業 B 388",
+        "start": 10634,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "23",
+        "chapter": "3",
+        "name": "環境衛生事務事業",
+        "raw": "23 39 3 5 3 ① 環境防災課 環境班 環境衛生事務事業 連携を強化し、相談窓口（国、県）の周知等により、公 B 634",
+        "start": 10946,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "24",
+        "chapter": "3",
+        "name": "火葬場負担金事業",
+        "raw": "24 39 3 5 4 ① 環境防災課 環境班 火葬場負担金事業 B 16,561",
+        "start": 11046,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "25",
+        "chapter": "3",
+        "name": "航空機騒音障害防止対策事業",
+        "raw": "25 40 3 5 5 ① 企画空港課 空港班 航空機騒音障害防止対策事業 域に対し、その障害を防止し、併せて住民の生活の安 B 110,430",
+        "start": 11149,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "28",
+        "chapter": "3",
+        "name": "景観整備適正化事業",
+        "raw": "28 41 3 6 2 ① 都市建設課 管理計画班 景観整備適正化事業 よう景観法の活用を検討し、保全活動を行いつつ意識 B 0",
+        "start": 11542,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "29",
+        "chapter": "3",
+        "name": "栗山川改修促進事業",
+        "raw": "29 42 3 7 1 ① 都市建設課 管理計画班 栗山川改修促進事業 B 50",
+        "start": 11642,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "31",
+        "chapter": "3",
+        "name": "栗山川情報発信事業",
+        "raw": "31 43 3 7 1 ④ 都市建設課 管理計画班 栗山川情報発信事業 たな人の交流やにぎわいを創り、栗山川の活用を推進 B 0",
+        "start": 11902,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "32",
+        "chapter": "3",
+        "name": "九十九里海岸保全事業",
+        "raw": "32 43 3 7 2 ② 産業課・環境防災課 経済班・環境班 九十九里海岸保全事業 B 0",
+        "start": 11997,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "33",
+        "chapter": "3",
+        "name": "公園環境美化推進事業",
+        "raw": "33 44 3 8 1 ① 社会文化課 施設管理班 公園環境美化推進事業 の清掃活動の協力を求めて、施設環境の良好な保全 B 48",
+        "start": 12086,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "34",
+        "chapter": "3",
+        "name": "わたしの街緑づくり事業",
+        "raw": "34 44 3 8 2 ① 産業課 農政班 わたしの街緑づくり事業 B 108",
+        "start": 12182,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "1",
+        "chapter": "4",
+        "name": "防災対策事務費",
+        "raw": "1 45 4 1 1 ② 環境防災課 防災班 防災対策事務費 B 105",
+        "start": 12428,
+        "existing": [],
+        "status": "identity_hold_repeated_name"
+      },
+      {
+        "number": "2",
+        "chapter": "4",
+        "name": "防災対策事務費",
+        "raw": "2 45 4 1 1 ③ 環境防災課 防災班 防災対策事務費 防災力の向上を図ることで自助・共助の精神をはぐく B 3,035",
+        "start": 12527,
+        "existing": [],
+        "status": "identity_hold_repeated_name"
+      },
+      {
+        "number": "3",
+        "chapter": "4",
+        "name": "防災対策事務費",
+        "raw": "3 46 4 1 1 ⑥ 環境防災課 防災班 防災対策事務費 B 0",
+        "start": 12634,
+        "existing": [],
+        "status": "identity_hold_repeated_name"
+      },
+      {
+        "number": "6",
+        "chapter": "4",
+        "name": "施設整備事業",
+        "raw": "6 47 4 2 1 ② 環境防災課 防災班 施設整備事業 B 1,959",
+        "start": 12899,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "7",
+        "chapter": "4",
+        "name": "消防団活動費",
+        "raw": "7 48 4 2 1 ③ 環境防災課 防災班 消防団活動費 また、地域の実情にあった団員定数の見直しを検討 B 0",
+        "start": 12984,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "8",
+        "chapter": "4",
+        "name": "常備消防事業",
+        "raw": "8 48 4 2 2 ① 環境防災課 防災班 常備消防事業 充実化に向け、救命士の育成・確保や初期救急の普 B 0",
+        "start": 13081,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "9",
+        "chapter": "4",
+        "name": "防犯指導及び啓発事業",
+        "raw": "9 49 4 3 1 ① 環境防災課 防災班 防犯指導及び啓発事業 B 370",
+        "start": 13198,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "11",
+        "chapter": "4",
+        "name": "交通安全指導及び啓発事業",
+        "raw": "11 50 4 3 2 ① 環境防災課 防災班 交通安全指導及び啓発事業 B 134",
+        "start": 13414,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "12",
+        "chapter": "4",
+        "name": "消費生活相談窓口事業",
+        "raw": "12 50 4 4 1 ① 産業課 経済班 消費生活相談窓口事業 消費生活相談員による週1日の相談業務や司法書士 B 858",
+        "start": 13531,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "1",
+        "chapter": "5",
+        "name": "地産地消食育推進事業",
+        "raw": "1 51 5 1 1 ① 産業課 農政班 地産地消食育推進事業 B 478",
+        "start": 13814,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "5",
+        "chapter": "5",
+        "name": "経営・法人化支援事業",
+        "raw": "5 53 5 1 3 ① 産業課 農政班 経営・法人化支援事業 B 0",
+        "start": 14505,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "6",
+        "chapter": "5",
+        "name": "新規就農支援事業",
+        "raw": "6 53 5 1 3 ① 産業課 農政班 新規就農支援事業 意向者に対し支援することで、農業経営を確実なもの D 0",
+        "start": 14629,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "7",
+        "chapter": "5",
+        "name": "需給調整推進対策奨励事業",
+        "raw": "7 54 5 1 3 ④ 産業課 農政班 需給調整推進対策奨励事業 B 28,000",
+        "start": 14776,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "8",
+        "chapter": "5",
+        "name": "空き家農家活用事業",
+        "raw": "8 54 5 1 4 ② 産業課 農政班 空き家農家活用事業 規就農者へ情報提供するなど有効な活用方策を検討 B 0",
+        "start": 14892,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "9",
+        "chapter": "5",
+        "name": "観光情報発信事業",
+        "raw": "9 55 5 2 1 ③ 産業課 経済班 観光情報発信事業 B 0",
+        "start": 14980,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "10",
+        "chapter": "5",
+        "name": "横芝駅前情報交流館管理事業",
+        "raw": "10 55 5 2 1 ⑥ 産業課 経済班 横芝駅前情報交流館管理事業 目的に整備した横芝駅前情報交流館「ヨリドコロ」を有 B 8,820",
+        "start": 15111,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "11",
+        "chapter": "5",
+        "name": "ニューツーリズム開発促進事業",
+        "raw": "11 56 5 2 2 ② 産業課 経済班 ニューツーリズム開発促進事業 B 589",
+        "start": 15293,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "12",
+        "chapter": "5",
+        "name": "インバウンド観光推進事業",
+        "raw": "12 56 5 2 2 ⑥ 産業課 経済班 インバウンド観光推進事業 B 0",
+        "start": 15394,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "13",
+        "chapter": "5",
+        "name": "商工振興支援事業",
+        "raw": "13 57 5 3 1 ② 産業課 経済班 商工振興支援事業 B 2,433",
+        "start": 15494,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "14",
+        "chapter": "5",
+        "name": "地域ブランド創出事業",
+        "raw": "14 57 5 3 2 ① 産業課 経済班 地域ブランド創出事業 し、農業・観光と商工業との連携による地域ブランド創 B 200",
+        "start": 15591,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "16",
+        "chapter": "5",
+        "name": "産業情報発信事業",
+        "raw": "16 58 5 3 4 ① 企画空港課 企業誘致班 産業情報発信事業 録制度（企業版空き地バンク）を創設し、企業誘致候補 B 0",
+        "start": 15875,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "17",
+        "chapter": "5",
+        "name": "企業誘致促進事業",
+        "raw": "17 59 5 3 4 ② 企画空港課 企業誘致班 企業誘致促進事業 B 16,200",
+        "start": 16012,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "18",
+        "chapter": "5",
+        "name": "雇用促進事業",
+        "raw": "18 59 5 4 1 ② 産業課 経済班 雇用促進事業 のマッチングを図る。また、町商工業の活性をに向け、 B 500",
+        "start": 16152,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "22",
+        "chapter": "5",
+        "name": "移住定住促進事業",
+        "raw": "22 61 5 5 1 ① 企画空港課 企画政策班 移住定住促進事業 B 2,907",
+        "start": 16939,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "23",
+        "chapter": "5",
+        "name": "創生プロモーション事業",
+        "raw": "23 62 5 5 2 ② 企画空港課 企画政策班 創生プロモーション事業 B 0",
+        "start": 17098,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "24",
+        "chapter": "5",
+        "name": "子育て世代魅力発信事業",
+        "raw": "24 62 5 5 2 ③ 企画空港課 企画政策班 子育て世代魅力発信事業 町内外の子育て世代に積極的にPRし、横芝光町に移 B 0",
+        "start": 17227,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "25",
+        "chapter": "5",
+        "name": "千葉大学COCプラス連携事業",
+        "raw": "25 63 5 5 3 ② 企画空港課 企画政策班 千葉大学COCプラス連携事業 とともに、若者に魅力があると思える産業と仕事を創り B 880",
+        "start": 17365,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "1",
+        "chapter": "6",
+        "name": "人権啓発事業",
+        "raw": "1 64 6 1 1 ① 住民課 住民班 人権啓発事業 や、人権教室の開催により子供のころから人権に対す B 91",
+        "start": 17629,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "2",
+        "chapter": "6",
+        "name": "人権相談事業",
+        "raw": "2 64 6 1 2 ① 住民課 住民班 人権相談事業 B 91",
+        "start": 17721,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "3",
+        "chapter": "6",
+        "name": "男女共同参画推進事業",
+        "raw": "3 65 6 2 1 ① 企画空港課 企画政策班 男女共同参画推進事業 B 117",
+        "start": 17792,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "4",
+        "chapter": "6",
+        "name": "女性の活躍推進事業",
+        "raw": "4 65 6 2 2 ② 企画空港課 企画政策班 女性の活躍推進事業 参画を推進するとともに、働く場での男女のワーク・ラ B 0",
+        "start": 17872,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "5",
+        "chapter": "6",
+        "name": "英語講師配置事業",
+        "raw": "5 66 6 3 1 ① 教育課 総務班 英語講師配置事業 B 24,718",
+        "start": 18004,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "8",
+        "chapter": "6",
+        "name": "提案型協働のまちづくり推進事業",
+        "raw": "8 67 6 4 2 ① 企画空港課 企画政策班 提案型協働のまちづくり推進事業 するため、町内生活圏を共にする集団の活動の活性 B 1,000",
+        "start": 18444,
+        "existing": [],
+        "status": "proposal"
+      }
+    ]
+  },
+  {
+    "sourceId": "2524d3278cda917233ac9c1a",
+    "year": 2022,
+    "rows": [
+      {
+        "number": "4",
+        "chapter": "1",
+        "name": "保育士配置改善事業",
+        "raw": "4 3 1 1 2 ① 健康こども課 こども班 保育士配置改善事業 に的確に対応するための体制づくりを推進する。これ B",
+        "start": 668,
+        "existing": [
+          "cached-12410-9519da6e73dded155e14e596"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "5",
+        "chapter": "1",
+        "name": "保育所整備事業",
+        "raw": "5 4 1 1 2 ② 健康こども課 こども班 保育所整備事業 児童数の減少を見据えて、保育所等の統合を視野に B",
+        "start": 815,
+        "existing": [
+          "cached-12410-7348a182fda4831b5d514aa6"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "6",
+        "chapter": "1",
+        "name": "学童保育事務費",
+        "raw": "6 4 1 1 3 ① 健康こども課 こども班 学童保育事務費 た、今後、小学1年生から4年生までの受入れ児童数 B",
+        "start": 989,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "9",
+        "chapter": "1",
+        "name": "特定不妊治療助成事業",
+        "raw": "9 6 1 1 4 ② 健康こども課 健康づくり班 特定不妊治療助成事業 特定不妊治療の費用の一部を助成する。助成の対象 B",
+        "start": 1505,
+        "existing": [
+          "cached-12410-1ab831246ccb772c6b3824eb"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "11",
+        "chapter": "1",
+        "name": "ブックスタート事業",
+        "raw": "11 7 1 1 4 ⑤ 社会文化課 図書館 ブックスタート事業 パックの配布を行い、保護者も含め乳幼児から読書に B",
+        "start": 1850,
+        "existing": [
+          "cached-12410-24138d6991103223374a20de"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "1",
+        "name": "家庭教育支援事業",
+        "raw": "12 7 1 1 5 ② 社会文化課 生涯学習班 家庭教育支援事業 けや社会性を身に着けられるよう、家庭教育学級の実 B",
+        "start": 1951,
+        "existing": [
+          "cached-12410-76ddfd0c4e9498b3e8fd8ea2"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "13",
+        "chapter": "1",
+        "name": "包括的支援事業",
+        "raw": "13 8 1 2 1 ①③ 福祉課 介護班 包括的支援事業 を図るため、地域包括支援センターの配置人員を増員 B",
+        "start": 2053,
+        "existing": [
+          "cached-12410-7ba335dc3461dc24a4f73503"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "14",
+        "chapter": "1",
+        "name": "在宅医療・介護連携推進事業",
+        "raw": "14 8 1 2 1 ②⑥ 福祉課 介護班 在宅医療・介護連携推進事業 B",
+        "start": 2173,
+        "existing": [
+          "cached-12410-0b8a4004fa0c067367b35138"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "15",
+        "chapter": "1",
+        "name": "一般介護予防事業",
+        "raw": "15 9 1 2 2 ① 福祉課 介護班 一般介護予防事業 による各種教室などを通じて、介護予防についての知 B",
+        "start": 2265,
+        "existing": [
+          "cached-12410-14efeb9ced14f432898c5f67"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "16",
+        "chapter": "1",
+        "name": "認知症総合支援事業",
+        "raw": "16 9 1 2 2 ②④ 福祉課 介護班 認知症総合支援事業 域での支えあい、温かい見守り体制づくりと早期発見・ B",
+        "start": 2355,
+        "existing": [
+          "cached-12410-9156af92f436af122782e47c"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "17",
+        "chapter": "1",
+        "name": "老人クラブ活動支援事業",
+        "raw": "17 10 1 2 3 ① 福祉課 社会福祉班 老人クラブ活動支援事業 かして地域を豊かにする社会活動に参加して明るい長 B",
+        "start": 2457,
+        "existing": [
+          "cached-12410-21dcb918c2efda5444790649"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "21",
+        "chapter": "1",
+        "name": "地域定着支援利用促進事業",
+        "raw": "21 12 1 3 2 ① 福祉課 障害福祉班 地域定着支援利用促進事業 時の連絡体制を確保し、緊急事態の場合の相談や障 B",
+        "start": 3269,
+        "existing": [
+          "cached-12410-bb415e4148c6718ec4c7e5ae"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "24",
+        "chapter": "1",
+        "name": "障害者就労支援事業",
+        "raw": "24 13 1 3 4 ② 福祉課 障害福祉班 障害者就労支援事業 B",
+        "start": 3910,
+        "existing": [
+          "cached-12410-8666668ef81904ac818d48bb"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "25",
+        "chapter": "1",
+        "name": "地域福祉事業",
+        "raw": "25 14 1 4 1 ② 福祉課 社会福祉班 地域福祉事業 会の交流活動を支援し、地域福祉についての理解を B",
+        "start": 4041,
+        "existing": [
+          "cached-12410-deaaaf35f539756a1a19ed67"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "26",
+        "chapter": "1",
+        "name": "ボランティア育成・活動強化事業",
+        "raw": "26 14 1 4 2 ② 福祉課 社会福祉班 ボランティア育成・活動強化事業 B",
+        "start": 4128,
+        "existing": [
+          "cached-12410-0992d30de921ddb4b02bfd4c"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "27",
+        "chapter": "1",
+        "name": "情報のバリアフリー化事業",
+        "raw": "27 15 1 4 3 ② 総務課 秘書広報班 情報のバリアフリー化事業 ていただけるようホームページのバリアフリー化を進め B",
+        "start": 4215,
+        "existing": [
+          "cached-12410-45496134f80cfb0941d09e36"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "28",
+        "chapter": "1",
+        "name": "自殺対策強化事業",
+        "raw": "28 15 1 5 1 ① 健康こども課 健康づくり班 自殺対策強化事業 B",
+        "start": 4334,
+        "existing": [
+          "cached-12410-c6bab87ebb387e8dd870abef"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "29",
+        "chapter": "1",
+        "name": "歯科保健事業",
+        "raw": "29 16 1 5 2 ② 健康こども課 健康づくり班 歯科保健事業 する歯科健診や歯磨き指導、高齢者も含めたよい歯 B",
+        "start": 4451,
+        "existing": [
+          "cached-12410-c8364bb431fc69ec5846f82e"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "30",
+        "chapter": "1",
+        "name": "がん検診事業",
+        "raw": "30 16 1 5 2 ② 健康こども課 健康づくり班 がん検診事業 診及び個別検診を実施する。（胃がん、大腸がん、子 B",
+        "start": 4575,
+        "existing": [
+          "cached-12410-46925ce6b3dec0760429df99"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "31",
+        "chapter": "1",
+        "name": "医師確保対策事業",
+        "raw": "31 17 1 5 3 ① 東陽病院 総務班 医師確保対策事業 PR活動を展開し、医師の確保に努めると共に近隣病 B",
+        "start": 4704,
+        "existing": [
+          "cached-12410-e10c4263caf6dbbd9dddd2ee"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "32",
+        "chapter": "1",
+        "name": "特定健康診査事業",
+        "raw": "32 17 1 6 1 ② 住民課 国保年金班 特定健康診査事業 シンドローム該当者および予備軍の減少を図るため B",
+        "start": 4823,
+        "existing": [
+          "cached-12410-071d70d2cea5a9e1ea423857"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "33",
+        "chapter": "1",
+        "name": "介護給付費適正化事業",
+        "raw": "33 18 1 6 2 ① 福祉課 介護班 介護給付費適正化事業 B",
+        "start": 4945,
+        "existing": [
+          "cached-12410-dea4199fce9c2e3aa4022499"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "34",
+        "chapter": "1",
+        "name": "後期高齢者健康診査事業",
+        "raw": "34 18 1 6 3 ② 住民課 国保年金班 後期高齢者健康診査事業 B",
+        "start": 5075,
+        "existing": [
+          "cached-12410-c5bef71eab4fb84266950df7"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "2",
+        "name": "学力向上推進計画実施事業",
+        "raw": "1 19 2 1 1 ① 教育課 教職員・指導室 学力向上推進計画実施事業 B",
+        "start": 5324,
+        "existing": [
+          "cached-12410-564c8de8b728024b05d1b525"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "2",
+        "chapter": "2",
+        "name": "小学校情報教育推進事業",
+        "raw": "2 19 2 1 1 ③ 教育課 総務班 小学校情報教育推進事業 B",
+        "start": 5446,
+        "existing": [
+          "cached-12410-fae0c41d035113d7348becdb"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "3",
+        "chapter": "2",
+        "name": "中学校情報教育推進事業",
+        "raw": "3 20 2 1 1 ③ 教育課 総務班 中学校情報教育推進事業 B",
+        "start": 5579,
+        "existing": [
+          "cached-12410-4100f8b1843f42d507ff7d45"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "4",
+        "chapter": "2",
+        "name": "英語教育推進事業",
+        "raw": "4 20 2 1 1 ④ 教育課 教職員・指導室 英語教育推進事業 B",
+        "start": 5709,
+        "existing": [
+          "cached-12410-d1600615ed13c7638f63d99c"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "5",
+        "chapter": "2",
+        "name": "学校運営体制充実事業",
+        "raw": "5 21 2 1 2 ① 教育課 教職員・指導室 学校運営体制充実事業 B",
+        "start": 5827,
+        "existing": [
+          "cached-12410-ed6e4b9bda0cb3dc2055bea5"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "10",
+        "chapter": "2",
+        "name": "図書資料購入事業",
+        "raw": "10 23 2 3 2 ③ 社会文化課 図書館 図書資料購入事業 B",
+        "start": 6539,
+        "existing": [
+          "cached-12410-b970dfee7eaeb9f5a9428501"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "11",
+        "chapter": "2",
+        "name": "町民ギャラリー開催事業",
+        "raw": "11 24 2 4 1 ③ 社会文化課 生涯学習班 町民ギャラリー開催事業 B",
+        "start": 6618,
+        "existing": [
+          "cached-12410-3eb9f3a6d101c7584b10021a"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "2",
+        "name": "芸術教室開催事業",
+        "raw": "12 24 2 4 2 ② 社会文化課 生涯学習班 芸術教室開催事業 賞能力の向上を図るとともに、豊かな情操の涵養に資 B",
+        "start": 6703,
+        "existing": [
+          "cached-12410-2d084f2d6aabe50a58645fc9"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "13",
+        "chapter": "2",
+        "name": "文化祭開催事業",
+        "raw": "13 25 2 4 2 ③ 社会文化課 生涯学習班 文化祭開催事業 B",
+        "start": 6819,
+        "existing": [
+          "cached-12410-445d346ce89c6afc0c841865"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "17",
+        "chapter": "2",
+        "name": "体育祭開催事業",
+        "raw": "17 27 2 5 2 ① 社会文化課 生涯学習班 体育祭開催事業 男女が協力して住みよい郷土・明るいまちづくりを推進 C",
+        "start": 7354,
+        "existing": [
+          "cached-12410-0c32534ae6180b1adf80448f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "18",
+        "chapter": "2",
+        "name": "スポーツ協会活動支援事業",
+        "raw": "18 27 2 5 3 ① 社会文化課 生涯学習班 スポーツ協会活動支援事業 B",
+        "start": 7497,
+        "existing": [
+          "cached-12410-aa1184b50b36e70c216a2b66"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "3",
+        "name": "用途地域見直し事業",
+        "raw": "1 28 3 1 1 ② 都市建設課 管理計画班 用途地域見直し事業 B",
+        "start": 7692,
+        "existing": [
+          "cached-12410-4170c266a0b20916aa85d2d5"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "2",
+        "chapter": "3",
+        "name": "横芝光IC周辺整備事業",
+        "raw": "2 28 3 1 2 ② 都市建設課 管理計画班 横芝光IC周辺整備事業 活用検討委員会及び関係機関と継続的に協議し、有 E",
+        "start": 7868,
+        "existing": [
+          "cached-12410-898544b7f18de21725cfe66d"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "5",
+        "chapter": "3",
+        "name": "町道Ⅱ－３６号線道路改良事業",
+        "raw": "5 30 3 2 1 ① 都市建設課 建設班 町道Ⅱ－３６号線道路改良事業 B",
+        "start": 8476,
+        "existing": [
+          "cached-12410-486c6d3b78811cddefe6772e"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "8",
+        "chapter": "3",
+        "name": "町道Ⅰ－８号線道路改良事業",
+        "raw": "8 31 3 2 1 ① 都市建設課 建設班 町道Ⅰ－８号線道路改良事業 和のため整備する。 B",
+        "start": 9015,
+        "existing": [
+          "cached-12410-91165cba5ec77d251c6ff785"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "9",
+        "chapter": "3",
+        "name": "町道Ⅰ－10号線道路改良事業",
+        "raw": "9 32 3 2 1 ① 都市建設課 建設班 町道Ⅰ－10号線道路改良事業 B",
+        "start": 9186,
+        "existing": [
+          "cached-12410-3f5c002f5ce3263fb8957214"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "10",
+        "chapter": "3",
+        "name": "舗装修繕事業",
+        "raw": "10 32 3 2 2 ① 都市建設課 建設班 舗装修繕事業 を未然に防止する修繕を行い、住民が安心して暮らせ B",
+        "start": 9305,
+        "existing": [
+          "cached-12410-4cebe69b34a639d8d760d9fe"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "13",
+        "chapter": "3",
+        "name": "乗合タクシー運行事業",
+        "raw": "13 34 3 2 3 ③ 企画空港課 企画政策班 乗合タクシー運行事業 段を確保するため、利用状況等を把握しニーズに合っ B",
+        "start": 9729,
+        "existing": [
+          "cached-12410-e50456e2521b210511111687"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "14",
+        "chapter": "3",
+        "name": "空港シャトルバス運行事業",
+        "raw": "14 34 3 2 3 ④ 企画空港課 空港班 空港シャトルバス運行事業 交通手段として空港シャトルバスを芝山鉄道延伸連絡 B",
+        "start": 9831,
+        "existing": [
+          "cached-12410-3c480ca5c5b6c18a57b11c73"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "15",
+        "chapter": "3",
+        "name": "新たな公共交通網整備事業",
+        "raw": "15 35 3 2 3 ⑤ 企画空港課 企画政策班 新たな公共交通網整備事業 市方面へのシャトルバスを試験運行する。また、実績 E",
+        "start": 10028,
+        "existing": [
+          "cached-12410-33976acb48b83c54cdc4f4ae"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "16",
+        "chapter": "3",
+        "name": "住宅改修補助事業",
+        "raw": "16 35 3 3 1 ② 都市建設課 管理計画班 住宅改修補助事業 上を図るため、民間住宅のリフォーム、耐震診断、耐 B",
+        "start": 10338,
+        "existing": [
+          "cached-12410-ec8d8c403985f9dfd8483090"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "17",
+        "chapter": "3",
+        "name": "町営住宅大規模修繕事業",
+        "raw": "17 36 3 3 2 ① 都市建設課 管理計画班 町営住宅大規模修繕事業 基を合併浄化槽1基に転換するとともに、排水系統を D",
+        "start": 10470,
+        "existing": [
+          "cached-12410-b953bd5a678b49f7fbf91cc3"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "19",
+        "chapter": "3",
+        "name": "水道高料金対策操出事業",
+        "raw": "19 37 3 4 1 ③ 環境防災課 環境班 水道高料金対策操出事業 B",
+        "start": 10808,
+        "existing": [
+          "cached-12410-8a8bff5e7211b1f6742adc16"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "20",
+        "chapter": "3",
+        "name": "浄化槽設置促進補助事業",
+        "raw": "20 37 3 4 2 ① 環境防災課 環境班 浄化槽設置促進補助事業 浄化槽及び汲取便槽からの転換について助成し、合 B",
+        "start": 10879,
+        "existing": [
+          "cached-12410-2310c1291e7531e795a6e6a1"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "21",
+        "chapter": "3",
+        "name": "資源リサイクル促進事業",
+        "raw": "21 38 3 5 1 ② 環境防災課 環境班 資源リサイクル促進事業 B",
+        "start": 10981,
+        "existing": [
+          "cached-12410-2feb6f398f177c3c5def6d7c"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "23",
+        "chapter": "3",
+        "name": "環境衛生事務事業",
+        "raw": "23 39 3 5 3 ① 環境防災課 環境班 環境衛生事務事業 連携を強化し、相談窓口（国、県）の周知等により、公 B",
+        "start": 11155,
+        "existing": [
+          "cached-12410-e0d39787e03f731c37ca4c6a"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "24",
+        "chapter": "3",
+        "name": "火葬場負担金事業",
+        "raw": "24 39 3 5 4 ① 環境防災課 環境班 火葬場負担金事業 B",
+        "start": 11251,
+        "existing": [
+          "cached-12410-5bc8d6de6fd23182128f6deb"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "25",
+        "chapter": "3",
+        "name": "航空機騒音障害防止対策事業",
+        "raw": "25 40 3 5 5 ① 企画空港課 空港班 航空機騒音障害防止対策事業 域に対し、その障害を防止し、併せて住民の生活の安 B",
+        "start": 11347,
+        "existing": [
+          "cached-12410-ddc39757b4b4e36f5166289f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "28",
+        "chapter": "3",
+        "name": "景観整備適正化事業",
+        "raw": "28 41 3 6 2 ① 都市建設課 管理計画班 景観整備適正化事業 よう景観法の活用を検討し、保全活動を行いつつ意識 B",
+        "start": 11722,
+        "existing": [
+          "cached-12410-d9b6d9b294ae4562b48a55ab"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "29",
+        "chapter": "3",
+        "name": "栗山川改修促進事業",
+        "raw": "29 42 3 7 1 ① 都市建設課 管理計画班 栗山川改修促進事業 B",
+        "start": 11820,
+        "existing": [
+          "cached-12410-196883d31f78ee781c682ab0"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "31",
+        "chapter": "3",
+        "name": "栗山川情報発信事業",
+        "raw": "31 43 3 7 1 ④ 都市建設課 管理計画班 栗山川情報発信事業 たな人の交流やにぎわいを創り、栗山川の活用を推進 B",
+        "start": 12151,
+        "existing": [
+          "cached-12410-976fa50f5cd340b89c1ad58a"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "32",
+        "chapter": "3",
+        "name": "九十九里海岸保全事業",
+        "raw": "32 43 3 7 2 ② 産業課・環境防災課 経済班・環境班 九十九里海岸保全事業 B",
+        "start": 12244,
+        "existing": [
+          "cached-12410-1f4a0aec55a8096a28f6cf0c"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "33",
+        "chapter": "3",
+        "name": "公園環境美化推進事業",
+        "raw": "33 44 3 8 1 ① 社会文化課 施設管理班 公園環境美化推進事業 の清掃活動の協力を求めて、施設環境の良好な保全 B",
+        "start": 12331,
+        "existing": [
+          "cached-12410-9340cf496e255a4c1cde708e"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "34",
+        "chapter": "3",
+        "name": "わたしの街緑づくり事業",
+        "raw": "34 44 3 8 2 ① 産業課 農政班 わたしの街緑づくり事業 B",
+        "start": 12424,
+        "existing": [
+          "cached-12410-367fdabd705ec6ba1b577640"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "4",
+        "name": "防災対策事務費",
+        "raw": "1 45 4 1 1 ② 環境防災課 防災班 防災対策事務費 B",
+        "start": 12647,
+        "existing": [],
+        "status": "identity_hold_repeated_name"
+      },
+      {
+        "number": "2",
+        "chapter": "4",
+        "name": "防災対策事務費",
+        "raw": "2 45 4 1 1 ③ 環境防災課 防災班 防災対策事務費 防災力の向上を図ることで自助・共助の精神をはぐく B",
+        "start": 12742,
+        "existing": [],
+        "status": "identity_hold_repeated_name"
+      },
+      {
+        "number": "3",
+        "chapter": "4",
+        "name": "防災対策事務費",
+        "raw": "3 46 4 1 1 ⑥ 環境防災課 防災班 防災対策事務費 B",
+        "start": 12843,
+        "existing": [],
+        "status": "identity_hold_repeated_name"
+      },
+      {
+        "number": "6",
+        "chapter": "4",
+        "name": "施設整備事業",
+        "raw": "6 47 4 2 1 ② 環境防災課 防災班 施設整備事業 B",
+        "start": 13093,
+        "existing": [
+          "cached-12410-928495e060d5a3cb353e558f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "7",
+        "chapter": "4",
+        "name": "消防団活動費",
+        "raw": "7 48 4 2 1 ③ 環境防災課 防災班 消防団活動費 また、地域の実情にあった団員定数の見直しを検討 B",
+        "start": 13172,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "8",
+        "chapter": "4",
+        "name": "常備消防事業",
+        "raw": "8 48 4 2 2 ① 環境防災課 防災班 常備消防事業 充実化に向け、救命士の育成・確保や初期救急の普 B",
+        "start": 13267,
+        "existing": [
+          "cached-12410-e3590fd557599e9cd0ec47f8"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "9",
+        "chapter": "4",
+        "name": "防犯指導及び啓発事業",
+        "raw": "9 49 4 3 1 ① 環境防災課 防災班 防犯指導及び啓発事業 B",
+        "start": 13382,
+        "existing": [
+          "cached-12410-51965a94c65f8c9e4b024557"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "11",
+        "chapter": "4",
+        "name": "交通安全指導及び啓発事業",
+        "raw": "11 50 4 3 2 ① 環境防災課 防災班 交通安全指導及び啓発事業 B",
+        "start": 13587,
+        "existing": [
+          "cached-12410-961c042c0327da9d07db113b"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "4",
+        "name": "消費生活相談窓口事業",
+        "raw": "12 50 4 4 1 ① 産業課 経済班 消費生活相談窓口事業 る。消費生活相談員による週1日の相談業務や司法書 B",
+        "start": 13699,
+        "existing": [
+          "cached-12410-084eff17394770a9f40b7c2e"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "5",
+        "name": "地産地消食育推進事業",
+        "raw": "1 51 5 1 1 ① 産業課 農政班 地産地消食育推進事業 B",
+        "start": 13962,
+        "existing": [
+          "cached-12410-fbab9f32865e1c42e6bda52d"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "7",
+        "chapter": "5",
+        "name": "需給調整推進対策奨励事業",
+        "raw": "7 54 5 1 3 ④ 産業課 農政班 需給調整推進対策奨励事業 B",
+        "start": 14809,
+        "existing": [
+          "cached-12410-984425b78588df265e81a391"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "8",
+        "chapter": "5",
+        "name": "空き家農家活用事業",
+        "raw": "8 54 5 1 4 ② 産業課 農政班 空き家農家活用事業 規就農者へ情報提供するなど有効な活用方策を検討 C",
+        "start": 14952,
+        "existing": [
+          "cached-12410-53cb7ed609b695dd818f1044"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "9",
+        "chapter": "5",
+        "name": "観光情報発信事業",
+        "raw": "9 55 5 2 1 ③ 産業課 経済班 観光情報発信事業 B",
+        "start": 15058,
+        "existing": [
+          "cached-12410-691c6bb367c1c76d16c857ed"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "10",
+        "chapter": "5",
+        "name": "横芝駅前情報交流館管理事業",
+        "raw": "10 55 5 2 1 ⑥ 産業課 経済班 横芝駅前情報交流館管理事業 目的に整備した横芝駅前情報交流館「ヨリドコロ」を有 B",
+        "start": 15187,
+        "existing": [
+          "cached-12410-b3ead3621afd355900f33a7b"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "11",
+        "chapter": "5",
+        "name": "ニューツーリズム開発促進事業",
+        "raw": "11 56 5 2 2 ② 産業課 経済班 ニューツーリズム開発促進事業 B",
+        "start": 15363,
+        "existing": [
+          "cached-12410-ead8edd7ecfee001162e9760"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "5",
+        "name": "インバウンド観光推進事業",
+        "raw": "12 56 5 2 2 ⑥ 産業課 経済班 インバウンド観光推進事業 B",
+        "start": 15460,
+        "existing": [
+          "cached-12410-abf1e5ecd45916fb05b982cb"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "13",
+        "chapter": "5",
+        "name": "商工振興支援事業",
+        "raw": "13 57 5 3 1 ② 産業課 経済班 商工振興支援事業 B",
+        "start": 15558,
+        "existing": [
+          "cached-12410-136f51ba4dc1c7236ff70a75"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "14",
+        "chapter": "5",
+        "name": "地域ブランド創出事業",
+        "raw": "14 57 5 3 2 ① 産業課 経済班 地域ブランド創出事業 し、農業・観光と商工業との連携による地域ブランド創 B",
+        "start": 15649,
+        "existing": [
+          "cached-12410-b054da40b21770f6726bd27f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "17",
+        "chapter": "5",
+        "name": "企業誘致促進事業",
+        "raw": "17 59 5 3 4 ② 企画空港課 企業誘致班 企業誘致促進事業 B",
+        "start": 16137,
+        "existing": [
+          "cached-12410-eca6767affe38370e5938e30"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "18",
+        "chapter": "5",
+        "name": "雇用促進事業",
+        "raw": "18 59 5 4 1 ② 産業課 経済班 雇用促進事業 のマッチングを図る。また、町商工業の活性をに向け、 B",
+        "start": 16270,
+        "existing": [
+          "cached-12410-8ca1338bf4fc3dbfc032edcb"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "22",
+        "chapter": "5",
+        "name": "移住定住促進事業",
+        "raw": "22 61 5 5 1 ① 企画空港課 企画政策班 移住定住促進事業 B",
+        "start": 17015,
+        "existing": [
+          "cached-12410-81dc6e8063f0864306b61540"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "24",
+        "chapter": "5",
+        "name": "子育て世代魅力発信事業",
+        "raw": "24 62 5 5 2 ③ 企画空港課 企画政策班 子育て世代魅力発信事業 町内外の子育て世代に積極的にPRし、横芝光町に移 D",
+        "start": 17409,
+        "existing": [
+          "cached-12410-3780aba6ac8f913c1533de68"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "25",
+        "chapter": "5",
+        "name": "千葉大学COCプラス連携事業",
+        "raw": "25 63 5 5 3 ② 企画空港課 企画政策班 千葉大学COCプラス連携事業 とともに、若者に魅力があると思える産業と仕事を創り D",
+        "start": 17706,
+        "existing": [
+          "cached-12410-3c64e0dc74e32076870b8260"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "6",
+        "name": "人権啓発事業",
+        "raw": "1 64 6 1 1 ① 住民課 住民班 人権啓発事業 や、人権教室の開催により子供のころから人権に対す B",
+        "start": 18036,
+        "existing": [
+          "cached-12410-7d05a57f05668dbc02f79e34"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "2",
+        "chapter": "6",
+        "name": "人権相談事業",
+        "raw": "2 64 6 1 2 ① 住民課 住民班 人権相談事業 B",
+        "start": 18125,
+        "existing": [
+          "cached-12410-9c582e827db53498fdf9cef6"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "3",
+        "chapter": "6",
+        "name": "男女共同参画推進事業",
+        "raw": "3 65 6 2 1 ① 企画空港課 企画政策班 男女共同参画推進事業 B",
+        "start": 18193,
+        "existing": [
+          "cached-12410-d9504f4eed1fb65e9a96fe91"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "4",
+        "chapter": "6",
+        "name": "女性の活躍推進事業",
+        "raw": "4 65 6 2 2 ② 企画空港課 企画政策班 女性の活躍推進事業 参画を推進するとともに、働く場での男女のワーク・ラ B",
+        "start": 18269,
+        "existing": [
+          "cached-12410-e991fdc96fa3d915c0733edd"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "5",
+        "chapter": "6",
+        "name": "英語講師配置事業",
+        "raw": "5 66 6 3 1 ① 教育課 総務班 英語講師配置事業 B",
+        "start": 18399,
+        "existing": [
+          "cached-12410-9b386a993c0da4219f400573"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "6",
+        "chapter": "6",
+        "name": "国際交流事業",
+        "raw": "6 66 6 3 2 ② 企画空港課 企画政策班 国際交流事業 人との交流を通じて、国際理解を深め、一人ひとりの B",
+        "start": 18486,
+        "existing": [
+          "cached-12410-63082d4f5d8c47a3e37fd24b"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "8",
+        "chapter": "6",
+        "name": "提案型協働のまちづくり推進事業",
+        "raw": "8 67 6 4 2 ① 企画空港課 企画政策班 提案型協働のまちづくり推進事業 成するため、町内生活圏を共にする集団の活動の活 B",
+        "start": 18738,
+        "existing": [
+          "cached-12410-8b3a70d25fb43feec569e731"
+        ],
+        "status": "duplicate_master"
+      }
+    ]
+  },
+  {
+    "sourceId": "6638833a2577be37ab9a2b6f",
+    "year": 2023,
+    "rows": [
+      {
+        "number": "4",
+        "chapter": "1",
+        "name": "保育士配置改善事業",
+        "raw": "4 3 1 1 2 ① 健康こども課 こども班 保育士配置改善事業 ニーズに的確に対応するための体制づくりを推進す Ｂ",
+        "start": 665,
+        "existing": [
+          "cached-12410-cd9a2d58ee0bd69f3cd7ff91"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "5",
+        "chapter": "1",
+        "name": "保育所整備事業",
+        "raw": "5 4 1 1 2 ② 健康こども課 こども班 保育所整備事業 伴う児童数の減少を見据えて、適正な施設管理と保 Ｂ",
+        "start": 813,
+        "existing": [
+          "cached-12410-3eede76efa4c33987cc09216"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "7",
+        "chapter": "1",
+        "name": "学童保育事務費",
+        "raw": "7 5 1 1 2 ④ 健康こども課 こども班 学童保育事務費 る。また、今後、小学1年生から4年生までの受入れ Ｂ",
+        "start": 1112,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "8",
+        "chapter": "1",
+        "name": "町内児童等医療費等助成事業",
+        "raw": "8 5 1 1 3 ① 健康こども課 こども班 町内児童等医療費等助成事業 剤に係る医療費）のうち、保険診療による自己負担 Ｂ",
+        "start": 1257,
+        "existing": [
+          "cached-12410-dd6f8e0dedab77cd00780891"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "10",
+        "chapter": "1",
+        "name": "特定不妊治療助成事業",
+        "raw": "10 6 1 1 3 ② 健康こども課 健康づくり班 特定不妊治療助成事業 用の一部を助成する。助成の対象となる費用に2分 Ｂ",
+        "start": 1619,
+        "existing": [
+          "cached-12410-4c6589a9c66fc61973bf9223"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "1",
+        "name": "ブックスタート事業",
+        "raw": "12 7 1 1 3 ⑤ 社会文化課 図書館 ブックスタート事業 タートパックの配布を行い、保護者も含め乳幼児か Ｂ",
+        "start": 1956,
+        "existing": [
+          "cached-12410-5d67eca01749d0a09153ee87"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "13",
+        "chapter": "1",
+        "name": "家庭教育支援事業",
+        "raw": "13 8 1 1 4 ② 社会文化課 生涯学習班 家庭教育支援事業 Ｂ",
+        "start": 2058,
+        "existing": [
+          "cached-12410-31bf3a33dde58be81aaf0cb3"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "14",
+        "chapter": "1",
+        "name": "包括的支援事業",
+        "raw": "14 8 1 2 1 ①③ 福祉課 介護班 包括的支援事業 括支援センターを核に関係機関と連携を図りなが Ｂ",
+        "start": 2121,
+        "existing": [
+          "cached-12410-85f28d4ef179fbdb89fe839d"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "15",
+        "chapter": "1",
+        "name": "在宅医療・介護連携推進事業",
+        "raw": "15 9 1 2 1 ②⑥ 福祉課 介護班 在宅医療・介護連携推進事業 Ｂ",
+        "start": 2366,
+        "existing": [
+          "cached-12410-41d31a91f08c2e23b2b26233"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "16",
+        "chapter": "1",
+        "name": "一般介護予防事業",
+        "raw": "16 9 1 2 2 ① 福祉課 介護班 一般介護予防事業 等による各種教室などを通じて、介護予防について Ｂ",
+        "start": 2459,
+        "existing": [
+          "cached-12410-984d67615116c4c98942bae3"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "18",
+        "chapter": "1",
+        "name": "認知症総合支援事業",
+        "raw": "18 10 1 2 2 ④ 福祉課 介護班 認知症総合支援事業 地域での支えあい、温かい見守り体制づくりと早期 B",
+        "start": 2661,
+        "existing": [
+          "cached-12410-6582536a9c00c62daf1b35e8"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "19",
+        "chapter": "1",
+        "name": "老人クラブ活動支援事業",
+        "raw": "19 11 1 2 3 ① 福祉課 社会福祉班 老人クラブ活動支援事業 活かして地域を豊かにする社会活動に参加して明る Ｂ",
+        "start": 2763,
+        "existing": [
+          "cached-12410-05b938b855dab235f5960b19"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "23",
+        "chapter": "1",
+        "name": "地域定着支援利用促進事業",
+        "raw": "23 13 1 3 2 ① 福祉課 障害福祉班 地域定着支援利用促進事業 常時の連絡体制を確保し、緊急事態の場合の相談や Ｂ",
+        "start": 3458,
+        "existing": [
+          "cached-12410-39a030c39d33b0c3e76d6e70"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "26",
+        "chapter": "1",
+        "name": "障害者就労支援事業",
+        "raw": "26 14 1 3 4 ② 福祉課 障害福祉班 障害者就労支援事業 害者の就労支援を図る。 Ｂ",
+        "start": 4089,
+        "existing": [
+          "cached-12410-42f0e8161a7733b8eb8632ad"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "27",
+        "chapter": "1",
+        "name": "地域福祉事業",
+        "raw": "27 15 1 4 1 ② 福祉課 社会福祉班 地域福祉事業 議会の交流活動を支援し、地域福祉についての理解 Ｂ",
+        "start": 4231,
+        "existing": [
+          "cached-12410-634c5061f14d55efb065011f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "28",
+        "chapter": "1",
+        "name": "ボランティア育成・活動強化事業",
+        "raw": "28 15 1 4 2 ② 福祉課 社会福祉班 ボランティア育成・活動強化事業 Ｂ",
+        "start": 4318,
+        "existing": [
+          "cached-12410-d51938021be0fe4ffc32093d"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "29",
+        "chapter": "1",
+        "name": "情報のバリアフリー化事業",
+        "raw": "29 16 1 4 3 ② 総務課 秘書広報班 情報のバリアフリー化事業 ていただけるようホームページのバリアフリー化を Ｂ",
+        "start": 4527,
+        "existing": [
+          "cached-12410-28b13903b706eb5d74ba60fd"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "30",
+        "chapter": "1",
+        "name": "自殺対策強化事業",
+        "raw": "30 16 1 5 1 ① 健康こども課 健康づくり班 自殺対策強化事業 Ｂ",
+        "start": 4645,
+        "existing": [
+          "cached-12410-9f58dd4fedad86a82e4dff55"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "31",
+        "chapter": "1",
+        "name": "歯科保健事業",
+        "raw": "31 17 1 5 2 ② 健康こども課 健康づくり班 歯科保健事業 Ｂ",
+        "start": 4761,
+        "existing": [
+          "cached-12410-68f32f74109e6e2362177b58"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "32",
+        "chapter": "1",
+        "name": "がん検診事業",
+        "raw": "32 17 1 5 2 ② 健康こども課 健康づくり班 がん検診事業 Ｂ",
+        "start": 4885,
+        "existing": [
+          "cached-12410-f34f6d0b6c23aa20b28b6cfd"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "33",
+        "chapter": "1",
+        "name": "医師確保対策事業",
+        "raw": "33 18 1 5 3 ① 東陽病院 総務班 医師確保対策事業 PR活動を展開し、医師の確保に努めると共に、院内 Ｂ",
+        "start": 5016,
+        "existing": [
+          "cached-12410-6d95502c5f1e7fe4d680db5e"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "34",
+        "chapter": "1",
+        "name": "特定健康診査事業",
+        "raw": "34 18 1 6 1 ② 住民課 国保年金班 特定健康診査事業 Ｂ",
+        "start": 5160,
+        "existing": [
+          "cached-12410-ee06b5d5ab7e0a3af3fefeb9"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "35",
+        "chapter": "1",
+        "name": "介護給付費適正化事業",
+        "raw": "35 19 1 6 2 ② 福祉課 介護班 介護給付費適正化事業 Ｂ",
+        "start": 5269,
+        "existing": [
+          "cached-12410-179c56a5c5c561f5da8d594c"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "36",
+        "chapter": "1",
+        "name": "後期高齢者健康診査事業",
+        "raw": "36 19 1 6 3 ② 住民課 国保年金班 後期高齢者健康診査事業 での受診が必要な方や保健指導を必要としている方 Ｂ",
+        "start": 5375,
+        "existing": [
+          "cached-12410-64224ce8c918c2daa23ceca1"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "2",
+        "name": "学力向上推進計画実施事業",
+        "raw": "1 20 2 1 1 ① 教育課 総務班 学力向上推進計画実施事業 B",
+        "start": 5627,
+        "existing": [
+          "cached-12410-a0c21f2d9aef240a7fec7894"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "2",
+        "chapter": "2",
+        "name": "小学校情報教育推進事業",
+        "raw": "2 20 2 1 1 ④ 教育課 総務班 小学校情報教育推進事業 Ｂ",
+        "start": 5746,
+        "existing": [
+          "cached-12410-54def3d58c3989d92bdcc69d"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "3",
+        "chapter": "2",
+        "name": "中学校情報教育推進事業",
+        "raw": "3 21 2 1 1 ④ 教育課 総務班 中学校情報教育推進事業 Ｂ",
+        "start": 5879,
+        "existing": [
+          "cached-12410-636a560d9fac6d19ce79917b"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "4",
+        "chapter": "2",
+        "name": "英語教育推進事業",
+        "raw": "4 21 2 1 1 ⑤ 教育課 総務班 英語教育推進事業 Ｂ",
+        "start": 6010,
+        "existing": [
+          "cached-12410-37261fce131665f9a31e3419"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "5",
+        "chapter": "2",
+        "name": "学校運営体制充実事業",
+        "raw": "5 22 2 1 2 ① 教育課 総務班 学校運営体制充実事業 Ｂ",
+        "start": 6123,
+        "existing": [
+          "cached-12410-73d29aebb36b2be7e4b91ddf"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "8",
+        "chapter": "2",
+        "name": "講座開催事業",
+        "raw": "8 23 2 3 1 ① 社会文化課 生涯学習班 講座開催事業 ともに、自主的な活動を積極的に支援し、生涯学習 Ｂ",
+        "start": 6447,
+        "existing": [
+          "cached-12410-fb07fb787be05f2a353dd775"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "10",
+        "chapter": "2",
+        "name": "図書資料購入事業",
+        "raw": "10 24 2 3 2 ③ 社会文化課 図書館 図書資料購入事業 Ｂ",
+        "start": 6682,
+        "existing": [
+          "cached-12410-baab811fe0b37c50fbdf0e63"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "11",
+        "chapter": "2",
+        "name": "町民ギャラリー開催事業",
+        "raw": "11 25 2 4 1 ③ 社会文化課 生涯学習班 町民ギャラリー開催事業 Ｂ",
+        "start": 6761,
+        "existing": [
+          "cached-12410-6a0586b088d31eb6e748ed47"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "2",
+        "name": "芸術教室開催事業",
+        "raw": "12 25 2 4 2 ② 社会文化課 生涯学習班 芸術教室開催事業 賞能力の向上を図るとともに、豊かな情操の涵養に Ｂ",
+        "start": 6847,
+        "existing": [
+          "cached-12410-9d572bac2514598530d29585"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "13",
+        "chapter": "2",
+        "name": "文化祭開催事業",
+        "raw": "13 26 2 4 2 ③ 社会文化課 生涯学習班 文化祭開催事業 Ｂ",
+        "start": 6962,
+        "existing": [
+          "cached-12410-65dbff284333879a340c0145"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "18",
+        "chapter": "2",
+        "name": "体育祭開催事業",
+        "raw": "18 28 2 5 2 ② 社会文化課 生涯学習班 体育祭開催事業 に、老若男女が協力して住みよい郷土・明るいまち Ｂ",
+        "start": 7695,
+        "existing": [
+          "cached-12410-ac1ccf324a02892039ec885f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "19",
+        "chapter": "2",
+        "name": "スポーツ協会活動支援事業",
+        "raw": "19 29 2 5 3 ① 社会文化課 生涯学習班 スポーツ協会活動支援事業 Ｂ",
+        "start": 7814,
+        "existing": [
+          "cached-12410-60d4a6b510aee909130e6bb1"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "3",
+        "name": "用途地域見直し事業",
+        "raw": "1 30 3 1 1 ② 都市建設課 管理計画班 用途地域見直し事業 B",
+        "start": 8008,
+        "existing": [
+          "cached-12410-8d277e2f1d398d822733c030"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "2",
+        "chapter": "3",
+        "name": "横芝光IC周辺開発事業",
+        "raw": "2 30 3 1 2 ② 企画空港課 企業誘致班 横芝光IC周辺開発事業 B",
+        "start": 8115,
+        "existing": [
+          "cached-12410-b7c08452fd03a38ab1a2172e"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "4",
+        "chapter": "3",
+        "name": "町道Ⅱ－３６号線道路改良事業",
+        "raw": "4 31 3 2 1 ① 都市建設課 建設班 町道Ⅱ－３６号線道路改良事業 のため整備する。 B",
+        "start": 8399,
+        "existing": [
+          "cached-12410-6cede9cefb341e667f61f760"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "7",
+        "chapter": "3",
+        "name": "町道Ⅰ－８号線道路改良事業",
+        "raw": "7 33 3 2 1 ① 都市建設課 建設班 町道Ⅰ－８号線道路改良事業 B",
+        "start": 8983,
+        "existing": [
+          "cached-12410-4cdd2b96ebac76d9fc415b44"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "8",
+        "chapter": "3",
+        "name": "町道Ⅰ－１０号線道路改良事業",
+        "raw": "8 33 3 2 1 ① 都市建設課 建設班 町道Ⅰ－１０号線道路改良事業 を行い、円滑な通行と交通の安全を確保する。 B",
+        "start": 9134,
+        "existing": [
+          "cached-12410-aa4affe09e0d6f60be22d70b"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "9",
+        "chapter": "3",
+        "name": "舗装修繕事業",
+        "raw": "9 34 3 2 2 ① 都市建設課 建設班 舗装修繕事業 等を未然に防止する修繕を行い、住民が安心して暮 B",
+        "start": 9274,
+        "existing": [
+          "cached-12410-a18819267723ce515dd6c807"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "3",
+        "name": "乗合タクシー運行事業",
+        "raw": "12 35 3 2 3 ② 企画空港課 企画政策班 乗合タクシー運行事業 段を確保するため、利用状況等を把握しニーズに B",
+        "start": 9558,
+        "existing": [
+          "cached-12410-508f4f9200c1513a8b7dbad0"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "14",
+        "chapter": "3",
+        "name": "住宅改修補助事業",
+        "raw": "14 36 3 3 1 ② 都市建設課 管理計画班 住宅改修補助事業 上を図るため、民間住宅のリフォーム、耐震診断、耐 B",
+        "start": 9920,
+        "existing": [
+          "cached-12410-9f374663311f4d783f983038"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "16",
+        "chapter": "3",
+        "name": "水道高料金対策操出事業",
+        "raw": "16 37 3 4 1 ③ 環境防災課 環境班 水道高料金対策操出事業 B",
+        "start": 10238,
+        "existing": [
+          "cached-12410-abe2944c3607bf7be6077929"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "18",
+        "chapter": "3",
+        "name": "資源リサイクル促進事業",
+        "raw": "18 38 3 5 1 ② 環境防災課 環境班 資源リサイクル促進事業 B",
+        "start": 10577,
+        "existing": [
+          "cached-12410-39b1193fd9a6d3824c5e5264"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "20",
+        "chapter": "3",
+        "name": "環境衛生事務事業",
+        "raw": "20 39 3 5 3 ① 環境防災課 環境班 環境衛生事務事業 連携を強化し、相談窓口（国、県）の周知等により、公 B",
+        "start": 10752,
+        "existing": [
+          "cached-12410-96b7276cd80cfdab512148e3"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "21",
+        "chapter": "3",
+        "name": "火葬場負担金事業",
+        "raw": "21 40 3 5 4 ① 環境防災課 環境班 火葬場負担金事業 B",
+        "start": 10848,
+        "existing": [
+          "cached-12410-7840ee1e9da722dcafaf4403"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "22",
+        "chapter": "3",
+        "name": "航空機騒音障害防止対策事業",
+        "raw": "22 40 3 5 5 ① 企画空港課 空港班 航空機騒音障害防止対策事業 地域に対し、その障害を防止し、併せて住民の生活 B",
+        "start": 10943,
+        "existing": [
+          "cached-12410-51f9fc88f52675c3c955470d"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "26",
+        "chapter": "3",
+        "name": "景観整備適正化事業",
+        "raw": "26 42 3 6 2 ① 都市建設課 管理計画班 景観整備適正化事業 よう景観法の活用を検討し、保全活動及び意識啓発 B",
+        "start": 11442,
+        "existing": [
+          "cached-12410-c4dc243e27306a665845679c"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "27",
+        "chapter": "3",
+        "name": "栗山川改修促進事業",
+        "raw": "27 43 3 7 1 ① 都市建設課 管理計画班 栗山川改修促進事業 B",
+        "start": 11536,
+        "existing": [
+          "cached-12410-0809e822da170f446e52ec05"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "30",
+        "chapter": "3",
+        "name": "九十九里海岸保全事業",
+        "raw": "30 44 3 7 2 ② 産業課 経済班 九十九里海岸保全事業 B",
+        "start": 12014,
+        "existing": [
+          "cached-12410-2a1338ab74466ed28c5e47c7"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "31",
+        "chapter": "3",
+        "name": "公園環境美化推進事業",
+        "raw": "31 45 3 8 1 ① 社会文化課 施設管理班 公園環境美化推進事業 多くの清掃活動の協力を求めて、施設環境の良好な B",
+        "start": 12092,
+        "existing": [
+          "cached-12410-198615924d9b5228f9c4425f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "4",
+        "name": "防災対策事務費",
+        "raw": "1 46 4 1 1 ② 環境防災課 防災班 防災対策事務費 Ｂ",
+        "start": 12430,
+        "existing": [],
+        "status": "identity_hold_repeated_name"
+      },
+      {
+        "number": "2",
+        "chapter": "4",
+        "name": "防災対策事務費",
+        "raw": "2 46 4 1 1 ③ 環境防災課 防災班 防災対策事務費 域防災力の向上を図ることで自助・共助の精神をは B",
+        "start": 12525,
+        "existing": [],
+        "status": "identity_hold_repeated_name"
+      },
+      {
+        "number": "6",
+        "chapter": "4",
+        "name": "施設整備事業",
+        "raw": "6 48 4 2 1 ② 環境防災課 防災班 施設整備事業 Ｂ",
+        "start": 12909,
+        "existing": [
+          "cached-12410-769e2c6f42d55e6a3c872fdd"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "7",
+        "chapter": "4",
+        "name": "消防団活動費",
+        "raw": "7 49 4 2 1 ③ 環境防災課 防災班 消防団活動費 また、地域の実情にあった団員の処遇改善を行い、 Ｂ",
+        "start": 12988,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "8",
+        "chapter": "4",
+        "name": "常備消防事業",
+        "raw": "8 49 4 2 2 ① 環境防災課 防災班 常備消防事業 Ｂ",
+        "start": 13079,
+        "existing": [
+          "cached-12410-1eee7795d0140de0f1c82f86"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "9",
+        "chapter": "4",
+        "name": "防犯指導及び啓発事業",
+        "raw": "9 50 4 3 1 ① 環境防災課 防災班 防犯指導及び啓発事業 Ｂ",
+        "start": 13183,
+        "existing": [
+          "cached-12410-2acd3449cab3b165a8a7efe7"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "11",
+        "chapter": "4",
+        "name": "交通安全指導及び啓発事業",
+        "raw": "11 51 4 3 2 ① 環境防災課 防災班 交通安全指導及び啓発事業 Ｂ",
+        "start": 13388,
+        "existing": [
+          "cached-12410-f9dbd2d3ad6a8be2d88a9477"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "4",
+        "name": "消費生活相談窓口事業",
+        "raw": "12 51 4 4 1 ① 産業課 経済班 消費生活相談窓口事業 図る。消費生活相談員による週1日の相談業務や司 Ｂ",
+        "start": 13499,
+        "existing": [
+          "cached-12410-fb6b8ca9fa9486932e484968"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "5",
+        "name": "地産地消食育推進事業",
+        "raw": "1 52 5 1 1 ① 産業課 農政班 地産地消食育推進事業 Ｂ",
+        "start": 13763,
+        "existing": [
+          "cached-12410-7d6671d468ee8c87d7d5b13e"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "3",
+        "chapter": "5",
+        "name": "経営・法人化支援事業",
+        "raw": "3 53 5 1 3 ① 産業課 農政班 経営・法人化支援事業 の育成と大規模経営体の法人化、新規就農者の育成 Ｂ",
+        "start": 14032,
+        "existing": [
+          "cached-12410-f9b086117d23bd792d0db475"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "4",
+        "chapter": "5",
+        "name": "需給調整推進対策奨励事業",
+        "raw": "4 53 5 1 3 ④ 産業課 農政班 需給調整推進対策奨励事業 進し、主食用米の需要に応じた生産の促進と水田農 Ｂ",
+        "start": 14146,
+        "existing": [
+          "cached-12410-ca2a48db47d0210f8b2df070"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "5",
+        "chapter": "5",
+        "name": "空き家農家住宅活用事業",
+        "raw": "5 54 5 1 4 ② 産業課 農政班 空き家農家住宅活用事業 新規就農者へ情報提供するなど有効な活用方策を Ｄ",
+        "start": 14355,
+        "existing": [
+          "cached-12410-6de5979332d1e3146fd88caf"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "7",
+        "chapter": "5",
+        "name": "横芝駅前情報交流館管理事業",
+        "raw": "7 55 5 2 1 ④ 産業課 経済班 横芝駅前情報交流館管理事業 携を目的に整備した横芝駅前情報交流館「ヨリドコ Ｂ",
+        "start": 14742,
+        "existing": [
+          "cached-12410-752f5b52ef5235aa0811d6f9"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "8",
+        "chapter": "5",
+        "name": "ニューツーリズム開発促進事業",
+        "raw": "8 55 5 2 2 ② 産業課 経済班 ニューツーリズム開発促進事業 Ｂ",
+        "start": 14918,
+        "existing": [
+          "cached-12410-20311ea55032b19793b2431a"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "9",
+        "chapter": "5",
+        "name": "観光企業誘致事業",
+        "raw": "9 56 5 2 2 ⑤ 企画空港課 企業誘致班 観光企業誘致事業 Ｂ",
+        "start": 15039,
+        "existing": [
+          "cached-12410-f008a495b91f6fa760606a23"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "10",
+        "chapter": "5",
+        "name": "インバウンド観光推進事業",
+        "raw": "10 56 5 2 2 ⑥ 産業課 経済班 インバウンド観光推進事業 Ｂ",
+        "start": 15128,
+        "existing": [
+          "cached-12410-84de82b584b03274d0fc9e79"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "11",
+        "chapter": "5",
+        "name": "商工振興支援事業",
+        "raw": "11 57 5 3 1 ② 産業課 経済班 商工振興支援事業 Ｂ",
+        "start": 15227,
+        "existing": [
+          "cached-12410-a8b81361b28d585dd75501f4"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "13",
+        "chapter": "5",
+        "name": "商工業振興運営事業",
+        "raw": "13 58 5 3 2 ② 産業課 経済班 商工業振興運営事業 Ｂ",
+        "start": 15456,
+        "existing": [
+          "cached-12410-f6e3d58a36288a71390f9237"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "15",
+        "chapter": "5",
+        "name": "企業誘致促進事業",
+        "raw": "15 59 5 3 4 ② 企画空港課 企業誘致班 企業誘致促進事業 Ｂ",
+        "start": 15803,
+        "existing": [
+          "cached-12410-9d2ca1462a8c46f1afef9ff2"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "16",
+        "chapter": "5",
+        "name": "雇用促進事業",
+        "raw": "16 59 5 4 1 ② 産業課 経済班 雇用促進事業 どにより、町内における創業や第二創業を支援す Ｃ",
+        "start": 15924,
+        "existing": [
+          "cached-12410-4f6f5630f914aa4cdc33b3b1"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "18",
+        "chapter": "5",
+        "name": "移住定住促進事業",
+        "raw": "18 60 5 5 1 ① 企画空港課 企画政策班 移住定住促進事業 ポートセンターによるワンストップ相談窓口を整備 Ｂ",
+        "start": 16223,
+        "existing": [
+          "cached-12410-c9f3b8956e3188741a161019"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "22",
+        "chapter": "5",
+        "name": "整備事業",
+        "raw": "22 62 5 6 1 ① 都市建設課 管理計画班 整備事業 Ｂ",
+        "start": 16726,
+        "existing": [
+          "cached-12410-f0b22ac0e2f257e49f057729"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "23",
+        "chapter": "5",
+        "name": "空港シャトルバス運行事業",
+        "raw": "23 63 5 6 2 ① 企画空港課 空港班 空港シャトルバス運行事業 Ｂ",
+        "start": 16838,
+        "existing": [
+          "cached-12410-3353e69d847c6e25cda1926a"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "6",
+        "name": "人権啓発事業",
+        "raw": "1 64 6 1 1 ① 住民課 住民班 人権啓発事業 や、人権教室の開催により子供のころから人権に対 B",
+        "start": 17051,
+        "existing": [
+          "cached-12410-26a58540f251d94d04d904f3"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "2",
+        "chapter": "6",
+        "name": "人権相談事業",
+        "raw": "2 64 6 1 2 ① 住民課 住民班 人権相談事業 B",
+        "start": 17138,
+        "existing": [
+          "cached-12410-7fa7e0870a19aaeb9897fac0"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "3",
+        "chapter": "6",
+        "name": "男女共同参画推進事業",
+        "raw": "3 65 6 2 1 ① 企画空港課 企画政策班 男女共同参画推進事業 B",
+        "start": 17208,
+        "existing": [
+          "cached-12410-9c1a84a947054e6402438d19"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "5",
+        "chapter": "6",
+        "name": "英語講師配置事業",
+        "raw": "5 66 6 3 1 ① 教育課 総務班 英語講師配置事業 B",
+        "start": 17506,
+        "existing": [
+          "cached-12410-53e7c9171ccaa96fafcb70b4"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "6",
+        "chapter": "6",
+        "name": "国際交流事業",
+        "raw": "6 66 6 3 2 ② 企画空港課 企画政策班 国際交流事業 国人との交流を通じて、国際理解を深め、一人ひと B",
+        "start": 17593,
+        "existing": [
+          "cached-12410-57c8446b14acf6788634afa8"
+        ],
+        "status": "duplicate_master"
+      }
+    ]
+  },
+  {
+    "sourceId": "8f1d6b84839572de02644ed3",
+    "year": 2024,
+    "rows": [
+      {
+        "number": "4",
+        "chapter": "1",
+        "name": "保育士配置改善事業",
+        "raw": "4 3 1 1 2 ① 健康こども課 こども班 保育士配置改善事業 ニーズに的確に対応するための体制づくりを推進す Ｂ",
+        "start": 671,
+        "existing": [
+          "cached-12410-0f4f6d687c0f42946d042c13"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "5",
+        "chapter": "1",
+        "name": "保育所整備事業",
+        "raw": "5 4 1 1 2 ② 健康こども課 こども班 保育所整備事業 伴う児童数の減少を見据えて、適正な施設管理と保 Ｂ",
+        "start": 819,
+        "existing": [
+          "cached-12410-75000b7d1a319e1162042c7f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "7",
+        "chapter": "1",
+        "name": "学童保育事務費",
+        "raw": "7 5 1 1 2 ④ 健康こども課 こども班 学童保育事務費 る。また、今後、小学1年生から4年生までの受入れ Ｂ",
+        "start": 1156,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "8",
+        "chapter": "1",
+        "name": "町内児童等医療費等助成事業",
+        "raw": "8 5 1 1 3 ① 健康こども課 こども班 町内児童等医療費等助成事業 剤に係る医療費）のうち、保険診療による自己負担 Ｂ",
+        "start": 1301,
+        "existing": [
+          "cached-12410-439e8da61238d3c6f8e22627"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "10",
+        "chapter": "1",
+        "name": "特定不妊治療助成事業",
+        "raw": "10 6 1 1 3 ② 健康こども課 健康づくり班 特定不妊治療助成事業 用の一部を助成する。助成の対象となる費用に2分 Ｂ",
+        "start": 1663,
+        "existing": [
+          "cached-12410-928c8a499dde1fc450acde29"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "1",
+        "name": "ブックスタート事業",
+        "raw": "12 7 1 1 3 ⑤ 社会文化課 図書館 ブックスタート事業 タートパックの配布を行い、保護者も含め乳幼児か Ｂ",
+        "start": 2000,
+        "existing": [
+          "cached-12410-55a0b95cf9d29738709eaa61"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "13",
+        "chapter": "1",
+        "name": "家庭教育支援事業",
+        "raw": "13 8 1 1 4 ② 社会文化課 生涯学習班 家庭教育支援事業 Ｂ",
+        "start": 2102,
+        "existing": [
+          "cached-12410-ec61d750f58da7e92f2f5dea"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "14",
+        "chapter": "1",
+        "name": "包括的支援事業",
+        "raw": "14 8 1 2 1 ①③ 福祉課 介護班 包括的支援事業 括支援センターを核に関係機関と連携を図りなが Ｂ",
+        "start": 2165,
+        "existing": [
+          "cached-12410-edd0ab0b8990a4430237f614"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "15",
+        "chapter": "1",
+        "name": "在宅医療・介護連携推進事業",
+        "raw": "15 9 1 2 1 ②⑥ 福祉課 介護班 在宅医療・介護連携推進事業 Ｂ",
+        "start": 2416,
+        "existing": [
+          "cached-12410-1310f5c4fe4c74990712bce5"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "16",
+        "chapter": "1",
+        "name": "一般介護予防事業",
+        "raw": "16 9 1 2 2 ① 福祉課 介護班 一般介護予防事業 等による各種教室などを通じて、介護予防について Ｂ",
+        "start": 2509,
+        "existing": [
+          "cached-12410-4c229a6871c41149e8984382"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "18",
+        "chapter": "1",
+        "name": "認知症総合支援事業",
+        "raw": "18 10 1 2 2 ④ 福祉課 介護班 認知症総合支援事業 地域での支えあい、温かい見守り体制づくりと早期 B",
+        "start": 2711,
+        "existing": [
+          "cached-12410-fa5f3bf33bb60cbf82b3b6c3"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "19",
+        "chapter": "1",
+        "name": "老人クラブ活動支援事業",
+        "raw": "19 11 1 2 3 ① 福祉課 社会福祉班 老人クラブ活動支援事業 活かして地域を豊かにする社会活動に参加して明る Ｂ",
+        "start": 2813,
+        "existing": [
+          "cached-12410-6d9dad2245c666aa395e6a12"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "23",
+        "chapter": "1",
+        "name": "地域定着支援利用促進事業",
+        "raw": "23 13 1 3 2 ① 福祉課 障害福祉班 地域定着支援利用促進事業 常時の連絡体制を確保し、緊急事態の場合の相談や Ｂ",
+        "start": 3508,
+        "existing": [
+          "cached-12410-a6b580da41f64ba8cf9c2367"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "26",
+        "chapter": "1",
+        "name": "障害者就労支援事業",
+        "raw": "26 14 1 3 4 ② 福祉課 障害福祉班 障害者就労支援事業 害者の就労支援を図る。 Ｂ",
+        "start": 4139,
+        "existing": [
+          "cached-12410-c93884a9f64959aa9b7ccead"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "27",
+        "chapter": "1",
+        "name": "地域福祉事業",
+        "raw": "27 15 1 4 1 ② 福祉課 社会福祉班 地域福祉事業 議会の交流活動を支援し、地域福祉についての理解 Ｂ",
+        "start": 4281,
+        "existing": [
+          "cached-12410-f94114ec5ebdedd3b956c75f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "28",
+        "chapter": "1",
+        "name": "ボランティア育成・活動強化事業",
+        "raw": "28 15 1 4 2 ② 福祉課 社会福祉班 ボランティア育成・活動強化事業 Ｂ",
+        "start": 4368,
+        "existing": [
+          "cached-12410-444e389ab329ccd03a83b125"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "29",
+        "chapter": "1",
+        "name": "情報のバリアフリー化事業",
+        "raw": "29 16 1 4 3 ② 総務課 秘書広報班 情報のバリアフリー化事業 ていただけるようホームページのバリアフリー化を Ｂ",
+        "start": 4583,
+        "existing": [
+          "cached-12410-db322221ce25fb3d96d8d03f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "30",
+        "chapter": "1",
+        "name": "自殺対策強化事業",
+        "raw": "30 16 1 5 1 ① 健康こども課 健康づくり班 自殺対策強化事業 Ｂ",
+        "start": 4701,
+        "existing": [
+          "cached-12410-111c44a0bc98646c4792a3c8"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "31",
+        "chapter": "1",
+        "name": "歯科保健事業",
+        "raw": "31 17 1 5 2 ② 健康こども課 健康づくり班 歯科保健事業 Ｂ",
+        "start": 4817,
+        "existing": [
+          "cached-12410-993fec1ee2685910cb63b228"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "32",
+        "chapter": "1",
+        "name": "がん検診事業",
+        "raw": "32 17 1 5 2 ② 健康こども課 健康づくり班 がん検診事業 Ｂ",
+        "start": 4941,
+        "existing": [
+          "cached-12410-fbd0dd779b566e62dedaa88e"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "33",
+        "chapter": "1",
+        "name": "医師確保対策事業",
+        "raw": "33 18 1 5 3 ① 東陽病院 総務班 医師確保対策事業 PR活動を展開し、医師の確保に努めると共に、院内 Ｂ",
+        "start": 5072,
+        "existing": [
+          "cached-12410-cfc73bd9fd3fd2f5550933b0"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "34",
+        "chapter": "1",
+        "name": "特定健康診査事業",
+        "raw": "34 18 1 6 1 ② 住民課 国保年金班 特定健康診査事業 Ｂ",
+        "start": 5216,
+        "existing": [
+          "cached-12410-2b90d3525494c1f7e2fc2b78"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "35",
+        "chapter": "1",
+        "name": "介護給付費適正化事業",
+        "raw": "35 19 1 6 2 ② 福祉課 介護班 介護給付費適正化事業 Ｂ",
+        "start": 5325,
+        "existing": [
+          "cached-12410-eda01729fb308fdc9d8b7784"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "36",
+        "chapter": "1",
+        "name": "後期高齢者健康診査事業",
+        "raw": "36 19 1 6 3 ② 住民課 国保年金班 後期高齢者健康診査事業 での受診が必要な方や保健指導を必要としている方 Ｂ",
+        "start": 5431,
+        "existing": [
+          "cached-12410-47295f68b9e16e0db30bcf07"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "2",
+        "name": "学力向上推進計画実施事業",
+        "raw": "1 20 2 1 1 ① 教育課 総務班 学力向上推進計画実施事業 B",
+        "start": 5689,
+        "existing": [
+          "cached-12410-815277074b6c3edff8afb486"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "2",
+        "chapter": "2",
+        "name": "小学校情報教育推進事業",
+        "raw": "2 20 2 1 1 ④ 教育課 総務班 小学校情報教育推進事業 Ｂ",
+        "start": 5808,
+        "existing": [
+          "cached-12410-40f1386631564139dbc5cac5"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "3",
+        "chapter": "2",
+        "name": "中学校情報教育推進事業",
+        "raw": "3 21 2 1 1 ④ 教育課 総務班 中学校情報教育推進事業 Ｂ",
+        "start": 5941,
+        "existing": [
+          "cached-12410-1d9b5168730fba3eba38d321"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "4",
+        "chapter": "2",
+        "name": "英語教育推進事業",
+        "raw": "4 21 2 1 1 ⑤ 教育課 総務班 英語教育推進事業 Ｂ",
+        "start": 6072,
+        "existing": [
+          "cached-12410-37ccbe2b22d54a314f0aae41"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "5",
+        "chapter": "2",
+        "name": "学校運営体制充実事業",
+        "raw": "5 22 2 1 2 ① 教育課 総務班 学校運営体制充実事業 Ｂ",
+        "start": 6185,
+        "existing": [
+          "cached-12410-0772f9487d1a219e5603799f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "8",
+        "chapter": "2",
+        "name": "講座開催事業",
+        "raw": "8 23 2 3 1 ① 社会文化課 生涯学習班 講座開催事業 ともに、自主的な活動を積極的に支援し、生涯学習 Ｂ",
+        "start": 6509,
+        "existing": [
+          "cached-12410-78e7e7b1d59cc3a6e6d37ab0"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "10",
+        "chapter": "2",
+        "name": "図書資料購入事業",
+        "raw": "10 24 2 3 2 ③ 社会文化課 図書館 図書資料購入事業 Ｂ",
+        "start": 6744,
+        "existing": [
+          "cached-12410-b474fd90467a89c0f704c66c"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "11",
+        "chapter": "2",
+        "name": "町民ギャラリー開催事業",
+        "raw": "11 25 2 4 1 ③ 社会文化課 生涯学習班 町民ギャラリー開催事業 Ｂ",
+        "start": 6823,
+        "existing": [
+          "cached-12410-98e81f0d8eac161a9141a5b0"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "2",
+        "name": "芸術教室開催事業",
+        "raw": "12 25 2 4 2 ② 社会文化課 生涯学習班 芸術教室開催事業 賞能力の向上を図るとともに、豊かな情操の涵養に Ｂ",
+        "start": 6909,
+        "existing": [
+          "cached-12410-d7ce35218951db934143e8b5"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "13",
+        "chapter": "2",
+        "name": "文化祭開催事業",
+        "raw": "13 26 2 4 2 ③ 社会文化課 生涯学習班 文化祭開催事業 Ｂ",
+        "start": 7024,
+        "existing": [
+          "cached-12410-7c83b5a31f8cb5c19de4eea4"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "18",
+        "chapter": "2",
+        "name": "体育祭開催事業",
+        "raw": "18 28 2 5 2 ② 社会文化課 生涯学習班 体育祭開催事業 に、老若男女が協力して住みよい郷土・明るいまち Ｂ",
+        "start": 7763,
+        "existing": [
+          "cached-12410-441eb7d074073565f952a10a"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "19",
+        "chapter": "2",
+        "name": "スポーツ協会活動支援事業",
+        "raw": "19 29 2 5 3 ① 社会文化課 生涯学習班 スポーツ協会活動支援事業 Ｂ",
+        "start": 7882,
+        "existing": [
+          "cached-12410-910b6f24eb96c908dd7b1ee9"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "3",
+        "name": "用途地域見直し事業",
+        "raw": "1 30 3 1 1 ② 都市建設課 管理計画班 用途地域見直し事業 B",
+        "start": 8082,
+        "existing": [
+          "cached-12410-686dc820f2e3ef39c730ecff"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "2",
+        "chapter": "3",
+        "name": "横芝光IC周辺開発事業",
+        "raw": "2 30 3 1 2 ② 企画空港課 企業誘致班 横芝光IC周辺開発事業 B",
+        "start": 8189,
+        "existing": [
+          "cached-12410-1d5ca44edf9f80052ea3e871"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "4",
+        "chapter": "3",
+        "name": "町道Ⅱ－３６号線道路改良事業",
+        "raw": "4 31 3 2 1 ① 都市建設課 建設班 町道Ⅱ－３６号線道路改良事業 のため整備する。 B",
+        "start": 8473,
+        "existing": [
+          "cached-12410-39ea1f6bfa2d76766134c34a"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "7",
+        "chapter": "3",
+        "name": "町道Ⅰ－８号線道路改良事業",
+        "raw": "7 33 3 2 1 ① 都市建設課 建設班 町道Ⅰ－８号線道路改良事業 B",
+        "start": 9057,
+        "existing": [
+          "cached-12410-6cef40d2af8d637895248988"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "8",
+        "chapter": "3",
+        "name": "町道Ⅰ－１０号線道路改良事業",
+        "raw": "8 33 3 2 1 ① 都市建設課 建設班 町道Ⅰ－１０号線道路改良事業 を行い、円滑な通行と交通の安全を確保する。 B",
+        "start": 9208,
+        "existing": [
+          "cached-12410-c50e90651db6790215b80477"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "9",
+        "chapter": "3",
+        "name": "舗装修繕事業",
+        "raw": "9 34 3 2 2 ① 都市建設課 建設班 舗装修繕事業 等を未然に防止する修繕を行い、住民が安心して暮 B",
+        "start": 9348,
+        "existing": [
+          "cached-12410-fafbbe97f8fb2d6ccd74239f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "3",
+        "name": "乗合タクシー運行事業",
+        "raw": "12 35 3 2 3 ② 企画空港課 企画政策班 乗合タクシー運行事業 段を確保するため、利用状況等を把握しニーズに B",
+        "start": 9632,
+        "existing": [
+          "cached-12410-6963bfe84f88720b0d1e4ff8"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "13",
+        "chapter": "3",
+        "name": "新たな公共交通網整備事業",
+        "raw": "13 36 3 2 3 ③ 企画空港課 企画政策班 新たな公共交通網整備事業 B",
+        "start": 9758,
+        "existing": [
+          "cached-12410-fe695058df00cbda613b484c"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "14",
+        "chapter": "3",
+        "name": "住宅改修補助事業",
+        "raw": "14 36 3 3 1 ② 都市建設課 管理計画班 住宅改修補助事業 上を図るため、民間住宅のリフォーム、耐震診断、耐 B",
+        "start": 9853,
+        "existing": [
+          "cached-12410-2f7d6bf0c615c893415ae744"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "15",
+        "chapter": "3",
+        "name": "空家住宅管理事業",
+        "raw": "15 37 3 3 3 ① 都市建設課 管理計画班 空家住宅管理事業 を実施し、横芝光町空家等対策計画を策定する。こ B",
+        "start": 9982,
+        "existing": [
+          "cached-12410-d593b6f480566ccd72b88aac"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "16",
+        "chapter": "3",
+        "name": "水道高料金対策操出事業",
+        "raw": "16 37 3 4 1 ③ 環境防災課 環境班 水道高料金対策操出事業 B",
+        "start": 10093,
+        "existing": [
+          "cached-12410-36eac96612b5e75fb5567ded"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "17",
+        "chapter": "3",
+        "name": "浄化槽設置促進補助事業",
+        "raw": "17 38 3 4 2 ① 環境防災課 環境班 浄化槽設置促進補助事業 浄化槽及び汲取便槽からの転換について助成し、合 B",
+        "start": 10291,
+        "existing": [
+          "cached-12410-d5648f264c8eb9b3d36c4386"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "18",
+        "chapter": "3",
+        "name": "資源リサイクル促進事業",
+        "raw": "18 38 3 5 1 ② 環境防災課 環境班 資源リサイクル促進事業 B",
+        "start": 10393,
+        "existing": [
+          "cached-12410-9a090824d9916e3880ce3f2a"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "20",
+        "chapter": "3",
+        "name": "環境衛生事務事業",
+        "raw": "20 39 3 5 3 ① 環境防災課 環境班 環境衛生事務事業 連携を強化し、相談窓口（国、県）の周知等により、公 B",
+        "start": 10568,
+        "existing": [
+          "cached-12410-807142ebde9c074a50d6a7dc"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "21",
+        "chapter": "3",
+        "name": "火葬場負担金事業",
+        "raw": "21 40 3 5 4 ① 環境防災課 環境班 火葬場負担金事業 B",
+        "start": 10664,
+        "existing": [
+          "cached-12410-3012b1096e9282cbd48ef861"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "22",
+        "chapter": "3",
+        "name": "航空機騒音障害防止対策事業",
+        "raw": "22 40 3 5 5 ① 企画空港課 空港班 航空機騒音障害防止対策事業 地域に対し、その障害を防止し、併せて住民の生活 B",
+        "start": 10759,
+        "existing": [
+          "cached-12410-2a8759ffbefdd041be0f3de7"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "26",
+        "chapter": "3",
+        "name": "景観整備適正化事業",
+        "raw": "26 42 3 6 2 ① 都市建設課 管理計画班 景観整備適正化事業 よう景観法の活用を検討し、保全活動及び意識啓発 B",
+        "start": 11258,
+        "existing": [
+          "cached-12410-2079fc1f963c5bf4ebbe8e3b"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "27",
+        "chapter": "3",
+        "name": "栗山川改修促進事業",
+        "raw": "27 43 3 7 1 ① 都市建設課 管理計画班 栗山川改修促進事業 B",
+        "start": 11352,
+        "existing": [
+          "cached-12410-f1f95da8c9c04d3a70245f55"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "30",
+        "chapter": "3",
+        "name": "九十九里海岸保全事業",
+        "raw": "30 44 3 7 2 ② 産業課 経済班 九十九里海岸保全事業 B",
+        "start": 11832,
+        "existing": [
+          "cached-12410-dc2cd1d42a70b66a7c68c930"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "31",
+        "chapter": "3",
+        "name": "公園環境美化推進事業",
+        "raw": "31 45 3 8 1 ① 社会文化課 施設管理班 公園環境美化推進事業 多くの清掃活動の協力を求めて、施設環境の良好な B",
+        "start": 11910,
+        "existing": [
+          "cached-12410-a4691f441ee26b6721bda5da"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "32",
+        "chapter": "3",
+        "name": "わたしの街みどりづくり事業",
+        "raw": "32 45 3 8 2 ① 産業課 農政班 わたしの街みどりづくり事業 B",
+        "start": 12004,
+        "existing": [
+          "cached-12410-e676605cb54cbc42791a1830"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "4",
+        "name": "防災対策事務費",
+        "raw": "1 46 4 1 1 ② 環境防災課 防災班 防災対策事務費 Ｂ",
+        "start": 12235,
+        "existing": [],
+        "status": "identity_hold_repeated_name"
+      },
+      {
+        "number": "2",
+        "chapter": "4",
+        "name": "防災対策事務費",
+        "raw": "2 46 4 1 1 ③ 環境防災課 防災班 防災対策事務費 域防災力の向上を図ることで自助・共助の精神をは B",
+        "start": 12330,
+        "existing": [],
+        "status": "identity_hold_repeated_name"
+      },
+      {
+        "number": "6",
+        "chapter": "4",
+        "name": "施設整備事業",
+        "raw": "6 48 4 2 1 ② 環境防災課 防災班 施設整備事業 Ｂ",
+        "start": 12714,
+        "existing": [
+          "cached-12410-9f180925f83e38a9646dc53f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "7",
+        "chapter": "4",
+        "name": "消防団活動費",
+        "raw": "7 49 4 2 1 ③ 環境防災課 防災班 消防団活動費 また、地域の実情にあった団員の処遇改善を行い、 Ｂ",
+        "start": 12793,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "8",
+        "chapter": "4",
+        "name": "常備消防事業",
+        "raw": "8 49 4 2 2 ① 環境防災課 防災班 常備消防事業 Ｂ",
+        "start": 12884,
+        "existing": [
+          "cached-12410-8b7d4a87c721bfb45894bfc6"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "9",
+        "chapter": "4",
+        "name": "防犯指導及び啓発事業",
+        "raw": "9 50 4 3 1 ① 環境防災課 防災班 防犯指導及び啓発事業 Ｂ",
+        "start": 12988,
+        "existing": [
+          "cached-12410-105e20d8eb53c62ddcc98a38"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "11",
+        "chapter": "4",
+        "name": "交通安全指導及び啓発事業",
+        "raw": "11 51 4 3 2 ① 環境防災課 防災班 交通安全指導及び啓発事業 Ｂ",
+        "start": 13193,
+        "existing": [
+          "cached-12410-e1cd52d15cf5d50e9dd2c93b"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "4",
+        "name": "消費生活相談窓口事業",
+        "raw": "12 51 4 4 1 ① 産業課 経済班 消費生活相談窓口事業 図る。消費生活相談員による週1日の相談業務や司 Ｂ",
+        "start": 13304,
+        "existing": [
+          "cached-12410-7c5a6ac0aa3365b3ea660a50"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "5",
+        "name": "地産地消食育推進事業",
+        "raw": "1 52 5 1 1 ① 産業課 農政班 地産地消食育推進事業 Ｂ",
+        "start": 13574,
+        "existing": [
+          "cached-12410-c7b7d6f06257f693c8b78bd5"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "3",
+        "chapter": "5",
+        "name": "経営・法人化支援事業",
+        "raw": "3 53 5 1 3 ① 産業課 農政班 経営・法人化支援事業 の育成と大規模経営体の法人化、新規就農者の育成 Ｂ",
+        "start": 13839,
+        "existing": [
+          "cached-12410-f01f02118f21c11d63105069"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "4",
+        "chapter": "5",
+        "name": "需給調整推進対策奨励事業",
+        "raw": "4 53 5 1 3 ④ 産業課 農政班 需給調整推進対策奨励事業 進し、主食用米の需要に応じた生産の促進と水田農 Ｂ",
+        "start": 13953,
+        "existing": [
+          "cached-12410-4af794cbca68f8e528c01422"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "5",
+        "chapter": "5",
+        "name": "空き家農家住宅活用事業",
+        "raw": "5 54 5 1 4 ② 産業課 農政班 空き家農家住宅活用事業 新規就農者へ情報提供するなど有効な活用方策を Ｄ",
+        "start": 14161,
+        "existing": [
+          "cached-12410-7677311a22708cd2b4844150"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "6",
+        "chapter": "5",
+        "name": "観光情報発信事業",
+        "raw": "6 54 5 2 1 ③ 産業課 経済班 観光情報発信事業 Ｃ",
+        "start": 14400,
+        "existing": [
+          "cached-12410-888410ae68a1456c0e71c20e"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "7",
+        "chapter": "5",
+        "name": "横芝駅前情報交流館管理事業",
+        "raw": "7 55 5 2 1 ④ 産業課 経済班 横芝駅前情報交流館管理事業 携を目的に整備した横芝駅前情報交流館「ヨリドコ Ｂ",
+        "start": 14595,
+        "existing": [
+          "cached-12410-8d03b6c41ad87532c9e13d45"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "8",
+        "chapter": "5",
+        "name": "ニューツーリズム開発促進事業",
+        "raw": "8 55 5 2 2 ② 産業課 経済班 ニューツーリズム開発促進事業 Ｂ",
+        "start": 14771,
+        "existing": [
+          "cached-12410-293da93bf7b9305f69859b46"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "9",
+        "chapter": "5",
+        "name": "観光企業誘致事業",
+        "raw": "9 56 5 2 2 ⑤ 企画空港課 企業誘致班 観光企業誘致事業 Ｂ",
+        "start": 14892,
+        "existing": [
+          "cached-12410-80651f6b3718cef1a7dbd8fa"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "11",
+        "chapter": "5",
+        "name": "商工振興支援事業",
+        "raw": "11 57 5 3 1 ② 産業課 経済班 商工振興支援事業 Ｂ",
+        "start": 15159,
+        "existing": [
+          "cached-12410-3369b5aace1f8d508cdf90a0"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "5",
+        "name": "地域ブランド強化事業",
+        "raw": "12 57 5 3 2 ① 産業課 経済班 地域ブランド強化事業 し、農業・観光と商工業との連携による地域ブランド B",
+        "start": 15250,
+        "existing": [
+          "cached-12410-5e29d341535ea5bc59b2309c"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "13",
+        "chapter": "5",
+        "name": "商工業振興運営事業",
+        "raw": "13 58 5 3 2 ② 産業課 経済班 商工業振興運営事業 Ｂ",
+        "start": 15343,
+        "existing": [
+          "cached-12410-7d2054947aa91a103696a857"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "15",
+        "chapter": "5",
+        "name": "企業誘致促進事業",
+        "raw": "15 59 5 3 4 ② 企画空港課 企業誘致班 企業誘致促進事業 Ｂ",
+        "start": 15696,
+        "existing": [
+          "cached-12410-e1bd07678bb9093b9feba8a0"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "16",
+        "chapter": "5",
+        "name": "雇用促進事業",
+        "raw": "16 59 5 4 1 ② 産業課 経済班 雇用促進事業 どにより、町内における創業や第二創業を支援す Ｃ",
+        "start": 15817,
+        "existing": [
+          "cached-12410-1bc55f6be8f41f7d2ac7c06c"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "18",
+        "chapter": "5",
+        "name": "移住定住促進事業",
+        "raw": "18 60 5 5 1 ① 企画空港課 企画政策班 移住定住促進事業 ポートセンターによるワンストップ相談窓口を整備 Ｂ",
+        "start": 16106,
+        "existing": [
+          "cached-12410-8fe7c160ac616822cb7a9347"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "19",
+        "chapter": "5",
+        "name": "創生プロモーション事業",
+        "raw": "19 61 5 5 2 ② 企画空港課 企画政策班 創生プロモーション事業 トサイト（ヨリドコロ.jp）による情報発信の充実を図 B",
+        "start": 16206,
+        "existing": [
+          "cached-12410-6dd9527cd2f509825756b6c1"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "22",
+        "chapter": "5",
+        "name": "整備事業",
+        "raw": "22 62 5 6 1 ① 都市建設課 管理計画班 整備事業 Ｂ",
+        "start": 16571,
+        "existing": [
+          "cached-12410-777ac1bdd664829b5861319c"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "23",
+        "chapter": "5",
+        "name": "空港シャトルバス運行事業",
+        "raw": "23 63 5 6 2 ① 企画空港課 空港班 空港シャトルバス運行事業 Ｂ",
+        "start": 16683,
+        "existing": [
+          "cached-12410-6682a7e0e168c55284a2c38e"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "6",
+        "name": "人権啓発事業",
+        "raw": "1 64 6 1 1 ① 住民課 住民班 人権啓発事業 や、人権教室の開催により子供のころから人権に対 B",
+        "start": 16902,
+        "existing": [
+          "cached-12410-c0110047d9331a9070a5a699"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "2",
+        "chapter": "6",
+        "name": "人権相談事業",
+        "raw": "2 64 6 1 2 ① 住民課 住民班 人権相談事業 B",
+        "start": 16989,
+        "existing": [
+          "cached-12410-5544dc2fa14855e460354ab7"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "3",
+        "chapter": "6",
+        "name": "男女共同参画推進事業",
+        "raw": "3 65 6 2 1 ① 企画空港課 企画政策班 男女共同参画推進事業 B",
+        "start": 17059,
+        "existing": [
+          "cached-12410-94f51957e17717ffe1b3d434"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "4",
+        "chapter": "6",
+        "name": "女性の活躍推進事業",
+        "raw": "4 65 6 2 2 ② 企画空港課 企画政策班 女性の活躍推進事業 ニーズを継続的に反映していくための検討体制を構 B",
+        "start": 17135,
+        "existing": [
+          "cached-12410-2ff279a5525f1137b19931ce"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "5",
+        "chapter": "6",
+        "name": "英語講師配置事業",
+        "raw": "5 66 6 3 1 ① 教育課 総務班 英語講師配置事業 B",
+        "start": 17250,
+        "existing": [
+          "cached-12410-dd0563963cdfb420e44c645b"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "6",
+        "chapter": "6",
+        "name": "国際交流事業",
+        "raw": "6 66 6 3 2 ② 企画空港課 企画政策班 国際交流事業 国人との交流を通じて、国際理解を深め、一人ひと B",
+        "start": 17338,
+        "existing": [
+          "cached-12410-3332f86a638e7edfa16e4dc8"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "17",
+        "chapter": "3",
+        "name": "町営住宅大規模修繕事業",
+        "raw": "17 36 3 3 2 ① 都市建設課 管理計画班 町営住宅大規模修繕事業 D",
+        "start": 19229,
+        "existing": [
+          "cached-12410-73293cafd1f3901d490a79e8"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "25",
+        "chapter": "5",
+        "name": "千葉大学COCプラス連携事業",
+        "raw": "25 63 5 5 3 ② 企画空港課 企画政策班 千葉大学COCプラス連携事業 会とともに、若者に魅力があると思える産業と仕事 D",
+        "start": 20395,
+        "existing": [
+          "cached-12410-958901a67dd406d324277183"
+        ],
+        "status": "duplicate_master"
+      }
+    ]
+  },
+  {
+    "sourceId": "cee4e2ebe777cf222274770c",
+    "year": 2025,
+    "rows": [
+      {
+        "number": "4",
+        "chapter": "1",
+        "name": "保育士配置改善事業",
+        "raw": "4 3 1 1 2 ① 健康こども課 こども班 保育士配置改善事業 ニーズに的確に対応するための体制づくりを推進す Ｂ",
+        "start": 671,
+        "existing": [
+          "cached-12410-8453117c2d1028f6fde92426"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "5",
+        "chapter": "1",
+        "name": "保育所整備事業",
+        "raw": "5 4 1 1 2 ② 健康こども課 こども班 保育所整備事業 Ｂ",
+        "start": 820,
+        "existing": [
+          "cached-12410-33e1904e95f8d00ae9de99c5"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "6",
+        "chapter": "1",
+        "name": "学童保育事務費",
+        "raw": "6 5 1 1 2 ④ 健康こども課 こども班 学童保育事務費 また、今後、小学1年生から4年生までの受入れ児童 Ｂ",
+        "start": 1132,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "7",
+        "chapter": "1",
+        "name": "町内児童等医療費等助成事業",
+        "raw": "7 5 1 1 3 ① 健康こども課 こども班 町内児童等医療費等助成事業 に係る医療費）のうち、保険診療による自己負担額を Ｂ",
+        "start": 1276,
+        "existing": [
+          "cached-12410-2331979a40e6079b01f4f4f2"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "9",
+        "chapter": "1",
+        "name": "妊活サポート事業",
+        "raw": "9 6 1 1 3 ② 健康こども課 健康づくり班 妊活サポート事業 する。保険診療分に係る不妊治療費のうち、自己負担 Ｂ",
+        "start": 1638,
+        "existing": [
+          "cached-12410-417ced24e2fb179cf564876f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "11",
+        "chapter": "1",
+        "name": "ブックスタート事業",
+        "raw": "11 7 1 1 3 ⑤ 社会文化課 図書館 ブックスタート事業 タートパックの配布を行い、保護者も含め乳幼児から Ｂ",
+        "start": 1977,
+        "existing": [
+          "cached-12410-47eaff0966c8b79e13186a5d"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "1",
+        "name": "家庭教育支援事業",
+        "raw": "12 8 1 1 4 ② 社会文化課 生涯学習班 家庭教育支援事業 Ｂ",
+        "start": 2080,
+        "existing": [
+          "cached-12410-f6e3b8359f74d22bc44ec78b"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "13",
+        "chapter": "1",
+        "name": "包括的支援事業",
+        "raw": "13 8 1 2 1 ①③ 福祉課 介護班 包括的支援事業 支援センターを核に関係機関と連携を図りながら、情 Ｂ",
+        "start": 2143,
+        "existing": [
+          "cached-12410-6b94090857cae7c2949e21ff"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "14",
+        "chapter": "1",
+        "name": "在宅医療・介護連携推進事業",
+        "raw": "14 9 1 2 1 ②⑥ 福祉課 介護班 在宅医療・介護連携推進事業 Ｂ",
+        "start": 2393,
+        "existing": [
+          "cached-12410-e800c706839de70628f20e4c"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "15",
+        "chapter": "1",
+        "name": "一般介護予防事業",
+        "raw": "15 9 1 2 2 ① 福祉課 介護班 一般介護予防事業 等による各種教室などを通じて、介護予防について Ｂ",
+        "start": 2486,
+        "existing": [
+          "cached-12410-e58321f78b55de2539fdb6a9"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "17",
+        "chapter": "1",
+        "name": "認知症総合支援事業",
+        "raw": "17 10 1 2 2 ④ 福祉課 介護班 認知症総合支援事業 域での支えあい、温かい見守り体制づくりと早期発 B",
+        "start": 2689,
+        "existing": [
+          "cached-12410-979ff01d057adba4ee3a2095"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "18",
+        "chapter": "1",
+        "name": "老人クラブ活動支援事業",
+        "raw": "18 11 1 2 3 ① 福祉課 社会福祉班 老人クラブ活動支援事業 活かして地域を豊かにする社会活動に参加して明る Ｂ",
+        "start": 2790,
+        "existing": [
+          "cached-12410-80bb708408cb9774aba5af6d"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "22",
+        "chapter": "1",
+        "name": "地域定着支援利用促進事業",
+        "raw": "22 13 1 3 2 ① 福祉課 障害福祉班 地域定着支援利用促進事業 時の連絡体制を確保し、緊急事態の場合の相談や障 Ｂ",
+        "start": 3486,
+        "existing": [
+          "cached-12410-a78e422cbec3b7cb50c9e551"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "25",
+        "chapter": "1",
+        "name": "障害者就労支援事業",
+        "raw": "25 14 1 3 4 ② 福祉課 障害福祉班 障害者就労支援事業 の就労支援を図る。 Ｂ",
+        "start": 4117,
+        "existing": [
+          "cached-12410-f1259d89880d3e9c25cdc22d"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "26",
+        "chapter": "1",
+        "name": "地域福祉事業",
+        "raw": "26 15 1 4 1 ② 福祉課 社会福祉班 地域福祉事業 会の交流活動を支援し、地域福祉についての理解を Ｂ",
+        "start": 4258,
+        "existing": [
+          "cached-12410-613883d01810ea3dde4b3617"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "27",
+        "chapter": "1",
+        "name": "ボランティア育成・活動強化事業",
+        "raw": "27 15 1 4 2 ② 福祉課 社会福祉班 ボランティア育成・活動強化事業 Ｂ",
+        "start": 4344,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "28",
+        "chapter": "1",
+        "name": "情報のバリアフリー化事業",
+        "raw": "28 16 1 4 3 ② 総務課 秘書広報班 情報のバリアフリー化事業 ていただけるようホームページのバリアフリー化を進 Ｂ",
+        "start": 4559,
+        "existing": [
+          "cached-12410-2d8e8a67729e49d806fdcb6d"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "29",
+        "chapter": "1",
+        "name": "自殺対策強化事業",
+        "raw": "29 16 1 5 1 ① 健康こども課 健康づくり班 自殺対策強化事業 Ｂ",
+        "start": 4677,
+        "existing": [
+          "cached-12410-05d7d0225c71db334cd14e5a"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "30",
+        "chapter": "1",
+        "name": "歯科保健事業",
+        "raw": "30 17 1 5 2 ② 健康こども課 健康づくり班 歯科保健事業 Ｂ",
+        "start": 4794,
+        "existing": [
+          "cached-12410-c1ba68449b87c96854807515"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "31",
+        "chapter": "1",
+        "name": "がん検診事業",
+        "raw": "31 17 1 5 2 ② 健康こども課 健康づくり班 がん検診事業 Ｂ",
+        "start": 4918,
+        "existing": [
+          "cached-12410-cdcd61025986ab33e0d8fe71"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "32",
+        "chapter": "1",
+        "name": "医師確保対策事業",
+        "raw": "32 18 1 5 3 ① 東陽病院 総務班 医師確保対策事業 PR活動を展開し、医師の確保に努めると共に、院内 Ｂ",
+        "start": 5048,
+        "existing": [
+          "cached-12410-3bd8c2d37bcd1704d166cfac"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "33",
+        "chapter": "1",
+        "name": "特定健康診査事業",
+        "raw": "33 18 1 6 1 ② 住民課 国保年金班 特定健康診査事業 療機関での受診が必要な方や保健指導を必要として Ｂ",
+        "start": 5168,
+        "existing": [
+          "cached-12410-84140fec95301600cedcd6d5"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "34",
+        "chapter": "1",
+        "name": "介護給付費適正化事業",
+        "raw": "34 19 1 6 2 ② 福祉課 介護班 介護給付費適正化事業 Ｂ",
+        "start": 5301,
+        "existing": [
+          "cached-12410-0b871a2e2385a37bc4bb91db"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "35",
+        "chapter": "1",
+        "name": "後期高齢者健康診査事業",
+        "raw": "35 19 1 6 3 ② 住民課 国保年金班 後期高齢者健康診査事業 での受診が必要な方や保健指導を必要としている方 Ｂ",
+        "start": 5406,
+        "existing": [
+          "cached-12410-65e58ec4934804099ac2a4f8"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "2",
+        "name": "学力向上推進計画実施事業",
+        "raw": "1 20 2 1 1 ① 教育課 総務班 学力向上推進計画実施事業 B",
+        "start": 5666,
+        "existing": [
+          "cached-12410-c1c8ba1aa03476f19fcf35fc"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "2",
+        "chapter": "2",
+        "name": "小学校情報教育推進事業",
+        "raw": "2 20 2 1 1 ④ 教育課 総務班 小学校情報教育推進事業 Ｂ",
+        "start": 5783,
+        "existing": [
+          "cached-12410-4984273161d9552d0bc2c0f9"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "3",
+        "chapter": "2",
+        "name": "中学校情報教育推進事業",
+        "raw": "3 21 2 1 1 ④ 教育課 総務班 中学校情報教育推進事業 Ｂ",
+        "start": 5916,
+        "existing": [
+          "cached-12410-a9c9b993dca14ab33fb4b0a2"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "4",
+        "chapter": "2",
+        "name": "英語教育推進事業",
+        "raw": "4 21 2 1 1 ⑤ 教育課 総務班 英語教育推進事業 Ｂ",
+        "start": 6047,
+        "existing": [
+          "cached-12410-8a0ef8e420bbcbeb6d293d31"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "5",
+        "chapter": "2",
+        "name": "学校運営体制充実事業",
+        "raw": "5 22 2 1 2 ① 教育課 総務班 学校運営体制充実事業 Ｂ",
+        "start": 6160,
+        "existing": [
+          "cached-12410-9f281415dbcc30bbc45bc53a"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "8",
+        "chapter": "2",
+        "name": "講座開催事業",
+        "raw": "8 23 2 3 1 ① 社会文化課 生涯学習班 講座開催事業 ともに、自主的な活動を積極的に支援し、生涯学習を Ｂ",
+        "start": 6484,
+        "existing": [
+          "cached-12410-49d4513623f0eb8ae5720d60"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "10",
+        "chapter": "2",
+        "name": "図書資料購入事業",
+        "raw": "10 24 2 3 2 ③ 社会文化課 図書館 図書資料購入事業 Ｂ",
+        "start": 6719,
+        "existing": [
+          "cached-12410-38e9f135296d406b6e6daf9d"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "11",
+        "chapter": "2",
+        "name": "町民ギャラリー開催事業",
+        "raw": "11 25 2 4 1 ③ 社会文化課 生涯学習班 町民ギャラリー開催事業 Ｂ",
+        "start": 6799,
+        "existing": [
+          "cached-12410-58b8928e5fd43db27751b201"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "2",
+        "name": "芸術教室開催事業",
+        "raw": "12 25 2 4 2 ② 社会文化課 生涯学習班 芸術教室開催事業 賞能力の向上を図るとともに、豊かな情操の涵養に Ｂ",
+        "start": 6884,
+        "existing": [
+          "cached-12410-5dcca8de1b2d994947431559"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "13",
+        "chapter": "2",
+        "name": "文化祭開催事業",
+        "raw": "13 26 2 4 2 ③ 社会文化課 生涯学習班 文化祭開催事業 Ｂ",
+        "start": 6999,
+        "existing": [
+          "cached-12410-e2f044461f52edef990ea833"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "18",
+        "chapter": "2",
+        "name": "体育祭開催事業",
+        "raw": "18 28 2 5 2 ② 社会文化課 生涯学習班 体育祭開催事業 に、老若男女が協力して住みよい郷土・明るいまちづ Ｂ",
+        "start": 7738,
+        "existing": [
+          "cached-12410-a53951eb313264fe3b02486b"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "19",
+        "chapter": "2",
+        "name": "スポーツ協会活動支援事業",
+        "raw": "19 29 2 5 3 ① 社会文化課 生涯学習班 スポーツ協会活動支援事業 Ｂ",
+        "start": 7857,
+        "existing": [
+          "cached-12410-f0cfe6e10c6f6d3a89f09d3c"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "3",
+        "name": "用途地域見直し事業",
+        "raw": "1 30 3 1 1 ② 未来づくり課 産業用地整備班 用途地域見直し事業 B",
+        "start": 8057,
+        "existing": [
+          "cached-12410-1ef10a87aae837eecaa2d431"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "2",
+        "chapter": "3",
+        "name": "横芝光IC周辺開発事業",
+        "raw": "2 30 3 1 2 ② 未来づくり課 産業用地整備班 横芝光IC周辺開発事業 B",
+        "start": 8167,
+        "existing": [
+          "cached-12410-1d0466f14aa3f0fc781010a8"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "4",
+        "chapter": "3",
+        "name": "町道Ⅱ－３６号線道路改良事業",
+        "raw": "4 31 3 2 1 ① 都市建設課 建設班 町道Ⅱ－３６号線道路改良事業 のため整備する。 B",
+        "start": 8454,
+        "existing": [
+          "cached-12410-4eff50c251b8d925db289f33"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "6",
+        "chapter": "3",
+        "name": "町道Ⅰ－８号線道路改良事業",
+        "raw": "6 33 3 2 1 ① 都市建設課 建設班 町道Ⅰ－８号線道路改良事業 B",
+        "start": 9014,
+        "existing": [
+          "cached-12410-229590586e15029aaa9f7f6f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "7",
+        "chapter": "3",
+        "name": "町道Ⅰ－１０号線道路改良事業",
+        "raw": "7 33 3 2 1 ① 都市建設課 建設班 町道Ⅰ－１０号線道路改良事業 を行い、円滑な通行と交通の安全を確保する。 B",
+        "start": 9164,
+        "existing": [
+          "cached-12410-1b22911c33b78711af939136"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "9",
+        "chapter": "3",
+        "name": "舗装修繕事業",
+        "raw": "9 34 3 2 2 ① 都市建設課 建設班 舗装修繕事業 等を未然に防止する修繕を行い、住民が安心して暮 B",
+        "start": 9483,
+        "existing": [
+          "cached-12410-c74c26c4ce21e5b1f6c22a48"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "3",
+        "name": "乗合タクシー運行事業",
+        "raw": "12 35 3 2 3 ② 企画空港課 企画政策班 乗合タクシー運行事業 段を確保するため、利用状況等を把握しニーズに B",
+        "start": 9767,
+        "existing": [
+          "cached-12410-8b8c8c71d2b5e06c1a78625b"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "13",
+        "chapter": "3",
+        "name": "新たな公共交通網整備事業",
+        "raw": "13 36 3 2 3 ③ 企画空港課 企画政策班 新たな公共交通網整備事業 B",
+        "start": 9893,
+        "existing": [
+          "cached-12410-542a12603dbd134ff99d7e37"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "14",
+        "chapter": "3",
+        "name": "住宅改修補助事業",
+        "raw": "14 36 3 3 1 ② 都市建設課 管理計画班 住宅改修補助事業 上を図るため、民間住宅のリフォーム、耐震診断、耐 B",
+        "start": 9988,
+        "existing": [
+          "cached-12410-d1f114546aa7448e9a48b939"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "15",
+        "chapter": "3",
+        "name": "空家住宅管理事業",
+        "raw": "15 37 3 3 3 ① 都市建設課 管理計画班 空家住宅管理事業 B",
+        "start": 10245,
+        "existing": [
+          "cached-12410-4aa1824af186b264ac7075f9"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "16",
+        "chapter": "3",
+        "name": "水道高料金対策操出事業",
+        "raw": "16 37 3 4 1 ③ 環境防災課 環境班 水道高料金対策操出事業 B",
+        "start": 10354,
+        "existing": [
+          "cached-12410-7aba8df768c1ae1a281778fa"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "17",
+        "chapter": "3",
+        "name": "浄化槽設置促進補助事業",
+        "raw": "17 38 3 4 2 ① 環境防災課 環境班 浄化槽設置促進補助事業 浄化槽及び汲取便槽からの転換について助成し、合 B",
+        "start": 10425,
+        "existing": [
+          "cached-12410-1aec10789c7e60e59a54dad8"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "18",
+        "chapter": "3",
+        "name": "資源リサイクル促進事業",
+        "raw": "18 38 3 5 1 ② 環境防災課 環境班 資源リサイクル促進事業 B",
+        "start": 10527,
+        "existing": [
+          "cached-12410-b5222e39060d4bfede30d1da"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "20",
+        "chapter": "3",
+        "name": "環境衛生事務事業",
+        "raw": "20 39 3 5 3 ① 環境防災課 環境班 環境衛生事務事業 連携を強化し、相談窓口（国、県）の周知等により、公 B",
+        "start": 10701,
+        "existing": [
+          "cached-12410-faf26d8fc3fce8fb4c3ded67"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "21",
+        "chapter": "3",
+        "name": "火葬場負担金事業",
+        "raw": "21 40 3 5 4 ① 環境防災課 環境班 火葬場負担金事業 B",
+        "start": 10797,
+        "existing": [
+          "cached-12410-e75b84a82268329edfd06c25"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "22",
+        "chapter": "3",
+        "name": "航空機騒音障害防止対策事業",
+        "raw": "22 40 3 5 5 ① 企画空港課 空港班 航空機騒音障害防止対策事業 地域に対し、その障害を防止し、併せて住民の生活の B",
+        "start": 10892,
+        "existing": [
+          "cached-12410-94333cec3cf3b7e1a3a245c4"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "23",
+        "chapter": "3",
+        "name": "が実施する航空機騒音対策空気調和機器設置事業",
+        "raw": "23 41 3 5 5 ① 企画空港課 空港班 が実施する航空機騒音対策空気調和機器設置事業 B",
+        "start": 11054,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "26",
+        "chapter": "3",
+        "name": "景観整備適正化事業",
+        "raw": "26 42 3 6 2 ① 都市建設課 管理計画班 景観整備適正化事業 よう景観法の活用を検討し、保全活動及び意識啓発 B",
+        "start": 11390,
+        "existing": [
+          "cached-12410-67398a1d35d09c0e6a1f0742"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "27",
+        "chapter": "3",
+        "name": "栗山川改修促進事業",
+        "raw": "27 43 3 7 1 ① 都市建設課 管理計画班 栗山川改修促進事業 B",
+        "start": 11484,
+        "existing": [
+          "cached-12410-32714f0195cfba88043a2b67"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "29",
+        "chapter": "3",
+        "name": "九十九里海岸保全事業",
+        "raw": "29 44 3 7 2 ② 産業課 経済班 九十九里海岸保全事業 B",
+        "start": 11833,
+        "existing": [
+          "cached-12410-cd751c7f3b254f340e13723e"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "30",
+        "chapter": "3",
+        "name": "公園環境美化推進事業",
+        "raw": "30 45 3 8 1 ① 社会文化課 施設管理班 公園環境美化推進事業 くの清掃活動の協力を求めて、施設環境の良好な保 B",
+        "start": 11912,
+        "existing": [
+          "cached-12410-78d4ee92450c799a82f87697"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "31",
+        "chapter": "3",
+        "name": "わたしの街みどりづくり事業",
+        "raw": "31 45 3 8 2 ① 産業課 農政班 わたしの街みどりづくり事業 B",
+        "start": 12005,
+        "existing": [
+          "cached-12410-dee12e9ef9b5832274a9beb1"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "4",
+        "name": "防災対策事務費",
+        "raw": "1 46 4 1 1 ② 環境防災課 防災班 防災対策事務費 Ｂ",
+        "start": 12236,
+        "existing": [],
+        "status": "identity_hold_repeated_name"
+      },
+      {
+        "number": "2",
+        "chapter": "4",
+        "name": "防災対策事務費",
+        "raw": "2 46 4 1 1 ③ 環境防災課 防災班 防災対策事務費 域防災力の向上を図ることで自助・共助の精神をは B",
+        "start": 12331,
+        "existing": [],
+        "status": "identity_hold_repeated_name"
+      },
+      {
+        "number": "6",
+        "chapter": "4",
+        "name": "施設整備事業",
+        "raw": "6 48 4 2 1 ② 環境防災課 防災班 施設整備事業 Ｂ",
+        "start": 12715,
+        "existing": [
+          "cached-12410-c0e1f1391131923f13a3ebfa"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "7",
+        "chapter": "4",
+        "name": "消防団活動費",
+        "raw": "7 49 4 2 1 ③ 環境防災課 防災班 消防団活動費 また、地域の実情にあった団員の処遇改善を行い、 Ｂ",
+        "start": 12794,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "8",
+        "chapter": "4",
+        "name": "常備消防事業",
+        "raw": "8 49 4 2 2 ① 環境防災課 防災班 常備消防事業 Ｂ",
+        "start": 12886,
+        "existing": [
+          "cached-12410-cb2a89167176b85dd76353ed"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "9",
+        "chapter": "4",
+        "name": "防犯指導及び啓発事業",
+        "raw": "9 50 4 3 1 ① 環境防災課 防災班 防犯指導及び啓発事業 Ｂ",
+        "start": 12989,
+        "existing": [
+          "cached-12410-9be8534971e6670e3c1a4d7f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "11",
+        "chapter": "4",
+        "name": "交通安全指導及び啓発事業",
+        "raw": "11 51 4 3 2 ① 環境防災課 防災班 交通安全指導及び啓発事業 Ｂ",
+        "start": 13194,
+        "existing": [
+          "cached-12410-618415f7991230fb4bfc036c"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "4",
+        "name": "消費生活相談窓口事業",
+        "raw": "12 51 4 4 1 ① 産業課 経済班 消費生活相談窓口事業 る。消費生活相談員による週1日の相談業務や司法 Ｂ",
+        "start": 13306,
+        "existing": [
+          "cached-12410-730f5276f9e12b225374f6bf"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "5",
+        "name": "地産地消食育推進事業",
+        "raw": "1 52 5 1 1 ① 産業課 農政班 地産地消食育推進事業 Ｂ",
+        "start": 13575,
+        "existing": [
+          "cached-12410-616cf8b1705a2bd8ef0c6628"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "2",
+        "chapter": "5",
+        "name": "横芝光町産農産物販路開拓事業",
+        "raw": "2 52 5 1 2 ① 産業課 農政班 横芝光町産農産物販路開拓事業 加価値化や生産体制と販売ルートの研究による、若 B",
+        "start": 13662,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "6",
+        "chapter": "5",
+        "name": "観光情報発信事業",
+        "raw": "6 54 5 2 1 ③ 産業課 経済班 観光情報発信事業 B",
+        "start": 14238,
+        "existing": [
+          "cached-12410-822e8b7add9832e6ff9f12b7"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "7",
+        "chapter": "5",
+        "name": "横芝駅前情報交流館管理事業",
+        "raw": "7 55 5 2 1 ④ 産業課 経済班 横芝駅前情報交流館管理事業 携を目的に整備した横芝駅前情報交流館「ヨリドコ Ｂ",
+        "start": 14366,
+        "existing": [
+          "cached-12410-28b46e926dacc7326aff5223"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "8",
+        "chapter": "5",
+        "name": "ニューツーリズム開発促進事業",
+        "raw": "8 55 5 2 2 ② 産業課 経済班 ニューツーリズム開発促進事業 Ｂ",
+        "start": 14544,
+        "existing": [
+          "cached-12410-5d2147139d07298fa7d8b019"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "9",
+        "chapter": "5",
+        "name": "観光企業誘致事業",
+        "raw": "9 56 5 2 2 ⑤ 企画空港課 企業誘致班 観光企業誘致事業 Ｂ",
+        "start": 14664,
+        "existing": [
+          "cached-12410-4ce132de73d476f78be363e4"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "10",
+        "chapter": "5",
+        "name": "インバウンド観光推進事業",
+        "raw": "10 56 5 2 2 ⑥ 産業課 経済班 インバウンド観光推進事業 B",
+        "start": 14752,
+        "existing": [
+          "cached-12410-f71f0a0c5ec77b1ccb65527a"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "11",
+        "chapter": "5",
+        "name": "商工振興支援事業",
+        "raw": "11 57 5 3 1 ② 産業課 経済班 商工振興支援事業 Ｂ",
+        "start": 14851,
+        "existing": [
+          "cached-12410-9fb8c636b78aa5f9d43d3ffb"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "5",
+        "name": "地域ブランド強化事業",
+        "raw": "12 57 5 3 2 ① 産業課 経済班 地域ブランド強化事業 し、農業・観光と商工業との連携による地域ブランド B",
+        "start": 14942,
+        "existing": [
+          "cached-12410-a556bea2030e3f1ddd095533"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "13",
+        "chapter": "5",
+        "name": "商工業振興運営事業",
+        "raw": "13 58 5 3 2 ② 産業課 経済班 商工業振興運営事業 Ｂ",
+        "start": 15035,
+        "existing": [
+          "cached-12410-2935e8bcb7a96209b3519603"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "15",
+        "chapter": "5",
+        "name": "企業誘致促進事業",
+        "raw": "15 59 5 3 4 ② 産業課 経済班 企業誘致促進事業 Ｂ",
+        "start": 15384,
+        "existing": [
+          "cached-12410-9ab9ce5cd2f524f8f556dd27"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "16",
+        "chapter": "5",
+        "name": "雇用促進事業",
+        "raw": "16 59 5 4 1 ② 産業課 経済班 雇用促進事業 B",
+        "start": 15469,
+        "existing": [
+          "cached-12410-725cc772ef941d18a273f2da"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "18",
+        "chapter": "5",
+        "name": "移住定住促進事業",
+        "raw": "18 60 5 5 1 ① 企画空港課 企画政策班 移住定住促進事業 ポートセンターによるワンストップ相談窓口を整備 Ｂ",
+        "start": 15735,
+        "existing": [
+          "cached-12410-76c2ed0f2682e97894577f05"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "19",
+        "chapter": "5",
+        "name": "創生プロモーション事業",
+        "raw": "19 61 5 5 2 ② 企画空港課 企画政策班 創生プロモーション事業 トサイト（ヨリドコロ.jp）による情報発信の充実を図 B",
+        "start": 15835,
+        "existing": [
+          "cached-12410-8b1e3dd8bf659d0275f59d0f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "22",
+        "chapter": "5",
+        "name": "整備事業",
+        "raw": "22 62 5 6 1 ① 未来づくり課 まちづくり室 整備事業 B",
+        "start": 16201,
+        "existing": [
+          "cached-12410-aea70d4e5d00774785ed48e4"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "23",
+        "chapter": "5",
+        "name": "空港シャトルバス運行事業",
+        "raw": "23 63 5 6 2 ① 企画空港課 空港班 空港シャトルバス運行事業 Ｂ",
+        "start": 16314,
+        "existing": [
+          "cached-12410-bf9c6289991d6f278e2ae00f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "6",
+        "name": "人権啓発事業",
+        "raw": "1 64 6 1 1 ① 住民課 住民班 人権啓発事業 や、人権教室の開催により子供のころから人権に対 B",
+        "start": 16532,
+        "existing": [
+          "cached-12410-d810fd529bc1c1ce8fc08f91"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "2",
+        "chapter": "6",
+        "name": "人権相談事業",
+        "raw": "2 64 6 1 2 ① 住民課 住民班 人権相談事業 B",
+        "start": 16619,
+        "existing": [
+          "cached-12410-f68faffb56dbff55cf52fddd"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "3",
+        "chapter": "6",
+        "name": "男女共同参画推進事業",
+        "raw": "3 65 6 2 1 ① 企画空港課 企画政策班 男女共同参画推進事業 B",
+        "start": 16689,
+        "existing": [
+          "cached-12410-0203ec566832214bb2ba2a06"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "4",
+        "chapter": "6",
+        "name": "女性の活躍推進事業",
+        "raw": "4 65 6 2 2 ② 企画空港課 企画政策班 女性の活躍推進事業 ニーズを継続的に反映していくための検討体制を構 B",
+        "start": 16765,
+        "existing": [
+          "cached-12410-72ff22eee3b67d03f50d8525"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "5",
+        "chapter": "6",
+        "name": "英語講師配置事業",
+        "raw": "5 66 6 3 1 ① 教育課 総務班 英語講師配置事業 B",
+        "start": 16882,
+        "existing": [
+          "cached-12410-12fba4f75f617a89382f6880"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "6",
+        "chapter": "6",
+        "name": "国際交流事業",
+        "raw": "6 66 6 3 2 ② 企画空港課 企画政策班 国際交流事業 国人との交流を通じて、国際理解を深め、一人ひとり B",
+        "start": 16968,
+        "existing": [
+          "cached-12410-4f659b85c7cee49957be3c77"
+        ],
+        "status": "duplicate_master"
+      }
+    ]
+  },
+  {
+    "sourceId": "364081d7f0e850ace7c55190",
+    "year": 2025,
+    "rows": [
+      {
+        "number": "4",
+        "chapter": "1",
+        "name": "保育士配置改善事業",
+        "raw": "4 3 1 1 2 ① 健康こども課 こども班 保育士配置改善事業 ニーズに的確に対応するための体制づくりを推進す Ｂ",
+        "start": 665,
+        "existing": [
+          "cached-12410-8453117c2d1028f6fde92426"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "5",
+        "chapter": "1",
+        "name": "保育所整備事業",
+        "raw": "5 4 1 1 2 ② 健康こども課 こども班 保育所整備事業 伴う児童数の減少を見据えて、適正な施設管理と保 Ｂ",
+        "start": 813,
+        "existing": [
+          "cached-12410-33e1904e95f8d00ae9de99c5"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "6",
+        "chapter": "1",
+        "name": "学童保育事務費",
+        "raw": "6 5 1 1 2 ④ 健康こども課 こども班 学童保育事務費 る。また、今後、小学1年生から4年生までの受入れ Ｂ",
+        "start": 970,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "7",
+        "chapter": "1",
+        "name": "町内児童等医療費等助成事業",
+        "raw": "7 5 1 1 3 ① 健康こども課 こども班 町内児童等医療費等助成事業 剤に係る医療費）のうち、保険診療による自己負担 Ｂ",
+        "start": 1115,
+        "existing": [
+          "cached-12410-2331979a40e6079b01f4f4f2"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "9",
+        "chapter": "1",
+        "name": "妊活サポート事業",
+        "raw": "9 6 1 1 3 ② 健康こども課 健康づくり班 妊活サポート事業 成する。保険診療分に係る不妊治療費のうち、自己 Ｂ",
+        "start": 1477,
+        "existing": [
+          "cached-12410-417ced24e2fb179cf564876f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "11",
+        "chapter": "1",
+        "name": "ブックスタート事業",
+        "raw": "11 7 1 1 3 ⑤ 社会文化課 図書館 ブックスタート事業 タートパックの配布を行い、保護者も含め乳幼児か Ｂ",
+        "start": 1817,
+        "existing": [
+          "cached-12410-47eaff0966c8b79e13186a5d"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "1",
+        "name": "家庭教育支援事業",
+        "raw": "12 8 1 1 4 ② 社会文化課 生涯学習班 家庭教育支援事業 Ｂ",
+        "start": 1919,
+        "existing": [
+          "cached-12410-f6e3b8359f74d22bc44ec78b"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "13",
+        "chapter": "1",
+        "name": "包括的支援事業",
+        "raw": "13 8 1 2 1 ①③ 福祉課 介護班 包括的支援事業 括支援センターを核に関係機関と連携を図りなが Ｂ",
+        "start": 1982,
+        "existing": [
+          "cached-12410-6b94090857cae7c2949e21ff"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "14",
+        "chapter": "1",
+        "name": "在宅医療・介護連携推進事業",
+        "raw": "14 9 1 2 1 ②⑥ 福祉課 介護班 在宅医療・介護連携推進事業 Ｂ",
+        "start": 2231,
+        "existing": [
+          "cached-12410-e800c706839de70628f20e4c"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "15",
+        "chapter": "1",
+        "name": "一般介護予防事業",
+        "raw": "15 9 1 2 2 ① 福祉課 介護班 一般介護予防事業 等による各種教室などを通じて、介護予防について Ｂ",
+        "start": 2324,
+        "existing": [
+          "cached-12410-e58321f78b55de2539fdb6a9"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "17",
+        "chapter": "1",
+        "name": "認知症総合支援事業",
+        "raw": "17 10 1 2 2 ④ 福祉課 介護班 認知症総合支援事業 地域での支えあい、温かい見守り体制づくりと早期 B",
+        "start": 2526,
+        "existing": [
+          "cached-12410-979ff01d057adba4ee3a2095"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "18",
+        "chapter": "1",
+        "name": "老人クラブ活動支援事業",
+        "raw": "18 11 1 2 3 ① 福祉課 社会福祉班 老人クラブ活動支援事業 活かして地域を豊かにする社会活動に参加して明る Ｂ",
+        "start": 2628,
+        "existing": [
+          "cached-12410-80bb708408cb9774aba5af6d"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "22",
+        "chapter": "1",
+        "name": "地域定着支援利用促進事業",
+        "raw": "22 13 1 3 2 ① 福祉課 障害福祉班 地域定着支援利用促進事業 常時の連絡体制を確保し、緊急事態の場合の相談や Ｂ",
+        "start": 3323,
+        "existing": [
+          "cached-12410-a78e422cbec3b7cb50c9e551"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "25",
+        "chapter": "1",
+        "name": "障害者就労支援事業",
+        "raw": "25 14 1 3 4 ② 福祉課 障害福祉班 障害者就労支援事業 害者の就労支援を図る。 Ｂ",
+        "start": 3954,
+        "existing": [
+          "cached-12410-f1259d89880d3e9c25cdc22d"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "26",
+        "chapter": "1",
+        "name": "地域福祉事業",
+        "raw": "26 15 1 4 1 ② 福祉課 社会福祉班 地域福祉事業 議会の交流活動を支援し、地域福祉についての理解 Ｂ",
+        "start": 4096,
+        "existing": [
+          "cached-12410-613883d01810ea3dde4b3617"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "28",
+        "chapter": "1",
+        "name": "情報のバリアフリー化事業",
+        "raw": "28 16 1 4 3 ② 総務課 秘書広報班 情報のバリアフリー化事業 ていただけるようホームページのバリアフリー化を Ｂ",
+        "start": 4397,
+        "existing": [
+          "cached-12410-2d8e8a67729e49d806fdcb6d"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "29",
+        "chapter": "1",
+        "name": "自殺対策強化事業",
+        "raw": "29 16 1 5 1 ① 健康こども課 健康づくり班 自殺対策強化事業 Ｂ",
+        "start": 4515,
+        "existing": [
+          "cached-12410-05d7d0225c71db334cd14e5a"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "30",
+        "chapter": "1",
+        "name": "歯科保健事業",
+        "raw": "30 17 1 5 2 ② 健康こども課 健康づくり班 歯科保健事業 Ｂ",
+        "start": 4631,
+        "existing": [
+          "cached-12410-c1ba68449b87c96854807515"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "31",
+        "chapter": "1",
+        "name": "がん検診事業",
+        "raw": "31 17 1 5 2 ② 健康こども課 健康づくり班 がん検診事業 Ｂ",
+        "start": 4755,
+        "existing": [
+          "cached-12410-cdcd61025986ab33e0d8fe71"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "32",
+        "chapter": "1",
+        "name": "医師確保対策事業",
+        "raw": "32 18 1 5 3 ① 東陽病院 総務班 医師確保対策事業 PR活動を展開し、医師の確保に努めると共に、院内 Ｂ",
+        "start": 4886,
+        "existing": [
+          "cached-12410-3bd8c2d37bcd1704d166cfac"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "33",
+        "chapter": "1",
+        "name": "特定健康診査事業",
+        "raw": "33 18 1 6 1 ② 住民課 国保年金班 特定健康診査事業 Ｂ",
+        "start": 5030,
+        "existing": [
+          "cached-12410-84140fec95301600cedcd6d5"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "34",
+        "chapter": "1",
+        "name": "介護給付費適正化事業",
+        "raw": "34 19 1 6 2 ② 福祉課 介護班 介護給付費適正化事業 Ｂ",
+        "start": 5139,
+        "existing": [
+          "cached-12410-0b871a2e2385a37bc4bb91db"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "35",
+        "chapter": "1",
+        "name": "後期高齢者健康診査事業",
+        "raw": "35 19 1 6 3 ② 住民課 国保年金班 後期高齢者健康診査事業 での受診が必要な方や保健指導を必要としている方 Ｂ",
+        "start": 5245,
+        "existing": [
+          "cached-12410-65e58ec4934804099ac2a4f8"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "2",
+        "name": "学力向上推進計画実施事業",
+        "raw": "1 20 2 1 1 ① 教育課 総務班 学力向上推進計画実施事業 B",
+        "start": 5501,
+        "existing": [
+          "cached-12410-c1c8ba1aa03476f19fcf35fc"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "2",
+        "chapter": "2",
+        "name": "小学校情報教育推進事業",
+        "raw": "2 20 2 1 1 ④ 教育課 総務班 小学校情報教育推進事業 Ｂ",
+        "start": 5620,
+        "existing": [
+          "cached-12410-4984273161d9552d0bc2c0f9"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "3",
+        "chapter": "2",
+        "name": "中学校情報教育推進事業",
+        "raw": "3 21 2 1 1 ④ 教育課 総務班 中学校情報教育推進事業 Ｂ",
+        "start": 5753,
+        "existing": [
+          "cached-12410-a9c9b993dca14ab33fb4b0a2"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "4",
+        "chapter": "2",
+        "name": "英語教育推進事業",
+        "raw": "4 21 2 1 1 ⑤ 教育課 総務班 英語教育推進事業 Ｂ",
+        "start": 5884,
+        "existing": [
+          "cached-12410-8a0ef8e420bbcbeb6d293d31"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "5",
+        "chapter": "2",
+        "name": "学校運営体制充実事業",
+        "raw": "5 22 2 1 2 ① 教育課 総務班 学校運営体制充実事業 Ｂ",
+        "start": 5997,
+        "existing": [
+          "cached-12410-9f281415dbcc30bbc45bc53a"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "8",
+        "chapter": "2",
+        "name": "講座開催事業",
+        "raw": "8 23 2 3 1 ① 社会文化課 生涯学習班 講座開催事業 ともに、自主的な活動を積極的に支援し、生涯学習 Ｂ",
+        "start": 6321,
+        "existing": [
+          "cached-12410-49d4513623f0eb8ae5720d60"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "10",
+        "chapter": "2",
+        "name": "図書資料購入事業",
+        "raw": "10 24 2 3 2 ③ 社会文化課 図書館 図書資料購入事業 Ｂ",
+        "start": 6556,
+        "existing": [
+          "cached-12410-38e9f135296d406b6e6daf9d"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "11",
+        "chapter": "2",
+        "name": "町民ギャラリー開催事業",
+        "raw": "11 25 2 4 1 ③ 社会文化課 生涯学習班 町民ギャラリー開催事業 Ｂ",
+        "start": 6635,
+        "existing": [
+          "cached-12410-58b8928e5fd43db27751b201"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "2",
+        "name": "芸術教室開催事業",
+        "raw": "12 25 2 4 2 ② 社会文化課 生涯学習班 芸術教室開催事業 賞能力の向上を図るとともに、豊かな情操の涵養に Ｂ",
+        "start": 6721,
+        "existing": [
+          "cached-12410-5dcca8de1b2d994947431559"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "13",
+        "chapter": "2",
+        "name": "文化祭開催事業",
+        "raw": "13 26 2 4 2 ③ 社会文化課 生涯学習班 文化祭開催事業 Ｂ",
+        "start": 6836,
+        "existing": [
+          "cached-12410-e2f044461f52edef990ea833"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "18",
+        "chapter": "2",
+        "name": "体育祭開催事業",
+        "raw": "18 28 2 5 2 ② 社会文化課 生涯学習班 体育祭開催事業 に、老若男女が協力して住みよい郷土・明るいまち Ｂ",
+        "start": 7622,
+        "existing": [
+          "cached-12410-a53951eb313264fe3b02486b"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "19",
+        "chapter": "2",
+        "name": "スポーツ協会活動支援事業",
+        "raw": "19 29 2 5 3 ① 社会文化課 生涯学習班 スポーツ協会活動支援事業 Ｂ",
+        "start": 7741,
+        "existing": [
+          "cached-12410-f0cfe6e10c6f6d3a89f09d3c"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "3",
+        "name": "用途地域見直し事業",
+        "raw": "1 30 3 1 1 ② 未来づくり課 産業用地整備班 用途地域見直し事業 B",
+        "start": 7939,
+        "existing": [
+          "cached-12410-1ef10a87aae837eecaa2d431"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "2",
+        "chapter": "3",
+        "name": "横芝光IC周辺開発事業",
+        "raw": "2 30 3 1 2 ② 未来づくり課 産業用地整備班 横芝光IC周辺開発事業 B",
+        "start": 8049,
+        "existing": [
+          "cached-12410-1d0466f14aa3f0fc781010a8"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "4",
+        "chapter": "3",
+        "name": "町道Ⅱ－３６号線道路改良事業",
+        "raw": "4 31 3 2 1 ① 都市建設課 建設班 町道Ⅱ－３６号線道路改良事業 のため整備する。 B",
+        "start": 8336,
+        "existing": [
+          "cached-12410-4eff50c251b8d925db289f33"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "6",
+        "chapter": "3",
+        "name": "町道Ⅰ－８号線道路改良事業",
+        "raw": "6 33 3 2 1 ① 都市建設課 建設班 町道Ⅰ－８号線道路改良事業 B",
+        "start": 8691,
+        "existing": [
+          "cached-12410-229590586e15029aaa9f7f6f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "7",
+        "chapter": "3",
+        "name": "町道Ⅰ－１０号線道路改良事業",
+        "raw": "7 33 3 2 1 ① 都市建設課 建設班 町道Ⅰ－１０号線道路改良事業 を行い、円滑な通行と交通の安全を確保する。 B",
+        "start": 8842,
+        "existing": [
+          "cached-12410-1b22911c33b78711af939136"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "9",
+        "chapter": "3",
+        "name": "舗装修繕事業",
+        "raw": "9 34 3 2 2 ① 都市建設課 建設班 舗装修繕事業 等を未然に防止する修繕を行い、住民が安心して暮 B",
+        "start": 9161,
+        "existing": [
+          "cached-12410-c74c26c4ce21e5b1f6c22a48"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "3",
+        "name": "乗合タクシー運行事業",
+        "raw": "12 35 3 2 3 ② 企画空港課 企画政策班 乗合タクシー運行事業 段を確保するため、利用状況等を把握しニーズに B",
+        "start": 9445,
+        "existing": [
+          "cached-12410-8b8c8c71d2b5e06c1a78625b"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "13",
+        "chapter": "3",
+        "name": "新たな公共交通網整備事業",
+        "raw": "13 36 3 2 3 ③ 企画空港課 企画政策班 新たな公共交通網整備事業 B",
+        "start": 9571,
+        "existing": [
+          "cached-12410-542a12603dbd134ff99d7e37"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "14",
+        "chapter": "3",
+        "name": "住宅改修補助事業",
+        "raw": "14 36 3 3 1 ② 都市建設課 管理計画班 住宅改修補助事業 上を図るため、民間住宅のリフォーム、耐震診断、耐 B",
+        "start": 9666,
+        "existing": [
+          "cached-12410-d1f114546aa7448e9a48b939"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "15",
+        "chapter": "3",
+        "name": "空家住宅管理事業",
+        "raw": "15 37 3 3 3 ① 都市建設課 管理計画班 空家住宅管理事業 を実施し、横芝光町空家等対策計画を策定する。こ B",
+        "start": 9795,
+        "existing": [
+          "cached-12410-4aa1824af186b264ac7075f9"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "16",
+        "chapter": "3",
+        "name": "水道高料金対策操出事業",
+        "raw": "16 37 3 4 1 ③ 環境防災課 環境班 水道高料金対策操出事業 B",
+        "start": 10031,
+        "existing": [
+          "cached-12410-7aba8df768c1ae1a281778fa"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "17",
+        "chapter": "3",
+        "name": "浄化槽設置促進補助事業",
+        "raw": "17 38 3 4 2 ① 環境防災課 環境班 浄化槽設置促進補助事業 浄化槽及び汲取便槽からの転換について助成し、合 B",
+        "start": 10102,
+        "existing": [
+          "cached-12410-1aec10789c7e60e59a54dad8"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "18",
+        "chapter": "3",
+        "name": "資源リサイクル促進事業",
+        "raw": "18 38 3 5 1 ② 環境防災課 環境班 資源リサイクル促進事業 B",
+        "start": 10204,
+        "existing": [
+          "cached-12410-b5222e39060d4bfede30d1da"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "20",
+        "chapter": "3",
+        "name": "環境衛生事務事業",
+        "raw": "20 39 3 5 3 ① 環境防災課 環境班 環境衛生事務事業 連携を強化し、相談窓口（国、県）の周知等により、公 B",
+        "start": 10379,
+        "existing": [
+          "cached-12410-faf26d8fc3fce8fb4c3ded67"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "21",
+        "chapter": "3",
+        "name": "火葬場負担金事業",
+        "raw": "21 40 3 5 4 ① 環境防災課 環境班 火葬場負担金事業 B",
+        "start": 10475,
+        "existing": [
+          "cached-12410-e75b84a82268329edfd06c25"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "22",
+        "chapter": "3",
+        "name": "航空機騒音障害防止対策事業",
+        "raw": "22 40 3 5 5 ① 企画空港課 空港班 航空機騒音障害防止対策事業 地域に対し、その障害を防止し、併せて住民の生活 B",
+        "start": 10570,
+        "existing": [
+          "cached-12410-94333cec3cf3b7e1a3a245c4"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "26",
+        "chapter": "3",
+        "name": "景観整備適正化事業",
+        "raw": "26 42 3 6 2 ① 都市建設課 管理計画班 景観整備適正化事業 よう景観法の活用を検討し、保全活動及び意識啓発 B",
+        "start": 11069,
+        "existing": [
+          "cached-12410-67398a1d35d09c0e6a1f0742"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "27",
+        "chapter": "3",
+        "name": "栗山川改修促進事業",
+        "raw": "27 43 3 7 1 ① 都市建設課 管理計画班 栗山川改修促進事業 B",
+        "start": 11163,
+        "existing": [
+          "cached-12410-32714f0195cfba88043a2b67"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "29",
+        "chapter": "3",
+        "name": "九十九里海岸保全事業",
+        "raw": "29 44 3 7 2 ② 産業課 経済班 九十九里海岸保全事業 B",
+        "start": 11377,
+        "existing": [
+          "cached-12410-cd751c7f3b254f340e13723e"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "30",
+        "chapter": "3",
+        "name": "公園環境美化推進事業",
+        "raw": "30 45 3 8 1 ① 社会文化課 施設管理班 公園環境美化推進事業 多くの清掃活動の協力を求めて、施設環境の良好な B",
+        "start": 11455,
+        "existing": [
+          "cached-12410-78d4ee92450c799a82f87697"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "31",
+        "chapter": "3",
+        "name": "わたしの街みどりづくり事業",
+        "raw": "31 45 3 8 2 ① 産業課 農政班 わたしの街みどりづくり事業 B",
+        "start": 11549,
+        "existing": [
+          "cached-12410-dee12e9ef9b5832274a9beb1"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "4",
+        "name": "防災対策事務費",
+        "raw": "1 46 4 1 1 ② 環境防災課 防災班 防災対策事務費 Ｂ",
+        "start": 11778,
+        "existing": [],
+        "status": "identity_hold_repeated_name"
+      },
+      {
+        "number": "2",
+        "chapter": "4",
+        "name": "防災対策事務費",
+        "raw": "2 46 4 1 1 ③ 環境防災課 防災班 防災対策事務費 域防災力の向上を図ることで自助・共助の精神をは B",
+        "start": 11873,
+        "existing": [],
+        "status": "identity_hold_repeated_name"
+      },
+      {
+        "number": "6",
+        "chapter": "4",
+        "name": "施設整備事業",
+        "raw": "6 48 4 2 1 ② 環境防災課 防災班 施設整備事業 Ｂ",
+        "start": 12257,
+        "existing": [
+          "cached-12410-c0e1f1391131923f13a3ebfa"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "7",
+        "chapter": "4",
+        "name": "消防団活動費",
+        "raw": "7 49 4 2 1 ③ 環境防災課 防災班 消防団活動費 また、地域の実情にあった団員の処遇改善を行い、 Ｂ",
+        "start": 12336,
+        "existing": [],
+        "status": "proposal"
+      },
+      {
+        "number": "8",
+        "chapter": "4",
+        "name": "常備消防事業",
+        "raw": "8 49 4 2 2 ① 環境防災課 防災班 常備消防事業 Ｂ",
+        "start": 12427,
+        "existing": [
+          "cached-12410-cb2a89167176b85dd76353ed"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "9",
+        "chapter": "4",
+        "name": "防犯指導及び啓発事業",
+        "raw": "9 50 4 3 1 ① 環境防災課 防災班 防犯指導及び啓発事業 Ｂ",
+        "start": 12531,
+        "existing": [
+          "cached-12410-9be8534971e6670e3c1a4d7f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "11",
+        "chapter": "4",
+        "name": "交通安全指導及び啓発事業",
+        "raw": "11 51 4 3 2 ① 環境防災課 防災班 交通安全指導及び啓発事業 Ｂ",
+        "start": 12736,
+        "existing": [
+          "cached-12410-618415f7991230fb4bfc036c"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "4",
+        "name": "消費生活相談窓口事業",
+        "raw": "12 51 4 4 1 ① 産業課 経済班 消費生活相談窓口事業 図る。消費生活相談員による週1日の相談業務や司 Ｂ",
+        "start": 12847,
+        "existing": [
+          "cached-12410-730f5276f9e12b225374f6bf"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "5",
+        "name": "地産地消食育推進事業",
+        "raw": "1 52 5 1 1 ① 産業課 農政班 地産地消食育推進事業 Ｂ",
+        "start": 13115,
+        "existing": [
+          "cached-12410-616cf8b1705a2bd8ef0c6628"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "3",
+        "chapter": "5",
+        "name": "経営・法人化支援事業",
+        "raw": "3 53 5 1 3 ① 産業課 農政班 経営・法人化支援事業 の育成と大規模経営体の法人化、新規就農者の育成 B",
+        "start": 13312,
+        "existing": [
+          "cached-12410-4d00248e2505085a2a8f2046"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "4",
+        "chapter": "5",
+        "name": "需給調整推進対策奨励事業",
+        "raw": "4 53 5 1 3 ④ 産業課 農政班 需給調整推進対策奨励事業 進し、主食用米の需要に応じた生産の促進と水田農 B",
+        "start": 13426,
+        "existing": [
+          "cached-12410-cdb196a05c86804e35ed7c02"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "5",
+        "chapter": "5",
+        "name": "観光情報発信事業",
+        "raw": "5 54 5 2 1 ③ 産業課 経済班 観光情報発信事業 B",
+        "start": 13540,
+        "existing": [
+          "cached-12410-822e8b7add9832e6ff9f12b7"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "6",
+        "chapter": "5",
+        "name": "横芝駅前情報交流館管理事業",
+        "raw": "6 55 5 2 1 ④ 産業課 経済班 横芝駅前情報交流館管理事業 携を目的に整備した横芝駅前情報交流館「ヨリドコ Ｂ",
+        "start": 13668,
+        "existing": [
+          "cached-12410-28b46e926dacc7326aff5223"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "7",
+        "chapter": "5",
+        "name": "ニューツーリズム開発促進事業",
+        "raw": "7 55 5 2 2 ② 産業課 経済班 ニューツーリズム開発促進事業 Ｂ",
+        "start": 13844,
+        "existing": [
+          "cached-12410-5d2147139d07298fa7d8b019"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "8",
+        "chapter": "5",
+        "name": "観光企業誘致事業",
+        "raw": "8 56 5 2 2 ⑤ 未来づくり課 まちづくり室 観光企業誘致事業 Ｂ",
+        "start": 13965,
+        "existing": [
+          "cached-12410-4ce132de73d476f78be363e4"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "9",
+        "chapter": "5",
+        "name": "インバウンド観光推進事業",
+        "raw": "9 56 5 2 2 ⑥ 産業課 経済班 インバウンド観光推進事業 B",
+        "start": 14056,
+        "existing": [
+          "cached-12410-f71f0a0c5ec77b1ccb65527a"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "10",
+        "chapter": "5",
+        "name": "商工振興支援事業",
+        "raw": "10 57 5 3 1 ② 産業課 経済班 商工振興支援事業 Ｂ",
+        "start": 14154,
+        "existing": [
+          "cached-12410-9fb8c636b78aa5f9d43d3ffb"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "11",
+        "chapter": "5",
+        "name": "地域ブランド強化事業",
+        "raw": "11 57 5 3 2 ① 産業課 経済班 地域ブランド強化事業 し、農業・観光と商工業との連携による地域ブランド B",
+        "start": 14245,
+        "existing": [
+          "cached-12410-a556bea2030e3f1ddd095533"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "12",
+        "chapter": "5",
+        "name": "商工業振興運営事業",
+        "raw": "12 58 5 3 2 ② 産業課 経済班 商工業振興運営事業 Ｂ",
+        "start": 14338,
+        "existing": [
+          "cached-12410-2935e8bcb7a96209b3519603"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "14",
+        "chapter": "5",
+        "name": "企業誘致促進事業",
+        "raw": "14 59 5 3 4 ② 産業課 経済班 企業誘致促進事業 Ｂ",
+        "start": 14560,
+        "existing": [
+          "cached-12410-9ab9ce5cd2f524f8f556dd27"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "15",
+        "chapter": "5",
+        "name": "雇用促進事業",
+        "raw": "15 59 5 4 1 ② 産業課 経済班 雇用促進事業 どにより、町内における創業や第二創業を支援す B",
+        "start": 14770,
+        "existing": [
+          "cached-12410-725cc772ef941d18a273f2da"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "17",
+        "chapter": "5",
+        "name": "移住定住促進事業",
+        "raw": "17 60 5 5 1 ① 企画空港課 企画政策班 移住定住促進事業 ポートセンターによるワンストップ相談窓口を整備 Ｂ",
+        "start": 15037,
+        "existing": [
+          "cached-12410-76c2ed0f2682e97894577f05"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "18",
+        "chapter": "5",
+        "name": "創生プロモーション事業",
+        "raw": "18 61 5 5 2 ② 企画空港課 企画政策班 創生プロモーション事業 トサイト（ヨリドコロ.jp）による情報発信の充実を図 B",
+        "start": 15137,
+        "existing": [
+          "cached-12410-8b1e3dd8bf659d0275f59d0f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "21",
+        "chapter": "5",
+        "name": "整備事業",
+        "raw": "21 62 5 6 1 ① 未来づくり課 まちづくり室 整備事業 B",
+        "start": 15502,
+        "existing": [
+          "cached-12410-aea70d4e5d00774785ed48e4"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "22",
+        "chapter": "5",
+        "name": "空港シャトルバス運行事業",
+        "raw": "22 63 5 6 2 ① 企画空港課 空港班 空港シャトルバス運行事業 Ｂ",
+        "start": 15616,
+        "existing": [
+          "cached-12410-bf9c6289991d6f278e2ae00f"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "1",
+        "chapter": "6",
+        "name": "人権啓発事業",
+        "raw": "1 64 6 1 1 ① 住民課 住民班 人権啓発事業 や、人権教室の開催により子供のころから人権に対 B",
+        "start": 15832,
+        "existing": [
+          "cached-12410-d810fd529bc1c1ce8fc08f91"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "2",
+        "chapter": "6",
+        "name": "人権相談事業",
+        "raw": "2 64 6 1 2 ① 住民課 住民班 人権相談事業 B",
+        "start": 15919,
+        "existing": [
+          "cached-12410-f68faffb56dbff55cf52fddd"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "3",
+        "chapter": "6",
+        "name": "男女共同参画推進事業",
+        "raw": "3 65 6 2 1 ① 企画空港課 企画政策班 男女共同参画推進事業 B",
+        "start": 15989,
+        "existing": [
+          "cached-12410-0203ec566832214bb2ba2a06"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "4",
+        "chapter": "6",
+        "name": "女性の活躍推進事業",
+        "raw": "4 65 6 2 2 ② 企画空港課 企画政策班 女性の活躍推進事業 ニーズを継続的に反映していくための検討体制を構 B",
+        "start": 16065,
+        "existing": [
+          "cached-12410-72ff22eee3b67d03f50d8525"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "5",
+        "chapter": "6",
+        "name": "英語講師配置事業",
+        "raw": "5 66 6 3 1 ① 教育課 総務班 英語講師配置事業 B",
+        "start": 16181,
+        "existing": [
+          "cached-12410-12fba4f75f617a89382f6880"
+        ],
+        "status": "duplicate_master"
+      },
+      {
+        "number": "6",
+        "chapter": "6",
+        "name": "国際交流事業",
+        "raw": "6 66 6 3 2 ② 企画空港課 企画政策班 国際交流事業 国人との交流を通じて、国際理解を深め、一人ひと B",
+        "start": 16268,
+        "existing": [
+          "cached-12410-4f659b85c7cee49957be3c77"
+        ],
+        "status": "duplicate_master"
+      }
+    ]
+  }
+]

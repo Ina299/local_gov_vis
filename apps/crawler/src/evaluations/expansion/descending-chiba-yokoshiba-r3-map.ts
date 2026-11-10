@@ -1,0 +1,2272 @@
+export const config = {
+  "sourceId": "bb8181d755916a67c5e0c87d",
+  "municipalityCode": "12410",
+  "municipalityName": "横芝光町",
+  "sourceUrl": "https://www.town.yokoshibahikari.chiba.jp/uploaded/attachment/22568.pdf",
+  "sourceSha256": "fe95fad1ae97c10fc91b242f0665a17a2597f93e92066a5878506ef4f0a4f408",
+  "fullTextSha256": "fd859b1f2a962e520ee8afb89cf5e12e8cff48ed329abc1dded895ea0186ba93",
+  "year": 2021,
+  "yearQuote": "事務事業評価一覧（第１章）\n実施 基本 個別\nR3 R３計画額\n№ 計画 章名 節名 施策 施策 課名 班名 事業名称（補助金名称） 事業概要 今後の方針\n評価 （千円）\n頁 名 名",
+  "rows": [
+    {
+      "key": "1-1",
+      "name": "子ども・子育て支援交付金事業（地域子育て支援拠点事業）",
+      "parts": [
+        {
+          "raw": "子ども・子育て支援交付金事業",
+          "start": 141
+        },
+        {
+          "raw": "（地域子育て支援拠点事業）",
+          "start": 214
+        }
+      ],
+      "raw": "1 2 1 1 1 ② 健康こども課 こども班 B 10,394",
+      "start": 181,
+      "department": "健康こども課 こども班",
+      "contextStart": 86,
+      "contextEnd": 280,
+      "contextSha256": "2f41076dce957693ea589a2fa6410cd05df53e8c424d2500d0c6bab35f6afa05"
+    },
+    {
+      "key": "1-2",
+      "name": "子ども・子育て支援交付金事業（一時預り事業）",
+      "parts": [
+        {
+          "raw": "子ども・子育て支援交付金事業",
+          "start": 329
+        },
+        {
+          "raw": "（一時預り事業）",
+          "start": 401
+        }
+      ],
+      "raw": "2 2 1 1 2 ① 健康こども課 こども班 B 3,517",
+      "start": 369,
+      "department": "健康こども課 こども班",
+      "contextStart": 277,
+      "contextEnd": 469,
+      "contextSha256": "93f0f7c9a04db7272c46ca7fbb11f61800d2bf773bcf0f9f19b1ce9dc52aee59"
+    },
+    {
+      "key": "1-3",
+      "name": "子ども・子育て支援交付金事業（保育対策等促進事業）",
+      "parts": [
+        {
+          "raw": "子ども・子育て支援交付金事業",
+          "start": 517
+        },
+        {
+          "raw": "（保育対策等促進事業）",
+          "start": 589
+        }
+      ],
+      "raw": "3 3 1 1 2 ① 健康こども課 こども班 おいて、保育所および認定こども園等で保育を実施す B 6,620",
+      "start": 532,
+      "department": "健康こども課 こども班",
+      "contextStart": 460,
+      "contextEnd": 648,
+      "contextSha256": "af9238dc2e9910ae74c9695a89a4ac1beb47faffde3c036ef2db0c64ced65222"
+    },
+    {
+      "key": "1-4",
+      "name": "保育士配置改善事業",
+      "parts": [
+        {
+          "raw": "保育士配置改善事業",
+          "start": 722
+        }
+      ],
+      "raw": "4 3 1 1 2 ① 健康こども課 こども班 保育士配置改善事業 に的確に対応するための体制づくりを推進する。これ B 31,923",
+      "start": 698,
+      "department": "健康こども課 こども班",
+      "contextStart": 601,
+      "contextEnd": 843,
+      "contextSha256": "eae3baa5b285c98e0afcc5c9eb39abbe9fce105bd235625208f6ec619c38e81a"
+    },
+    {
+      "key": "1-5",
+      "name": "保育所整備事業",
+      "parts": [
+        {
+          "raw": "保育所整備事業",
+          "start": 908
+        }
+      ],
+      "raw": "5 4 1 1 2 ② 健康こども課 こども班 保育所整備事業 児童数の減少を見据えて、保育所等の統合を視野に C れ、より良い保育環境の確保と保育 135",
+      "start": 884,
+      "department": "健康こども課 こども班",
+      "contextStart": 766,
+      "contextEnd": 1050,
+      "contextSha256": "5a62730e57e510285b99b90d3fa5f30f6955dfb5af5dddff6b9b4834b8fca068"
+    },
+    {
+      "key": "1-6",
+      "name": "学童保育事務費",
+      "parts": [
+        {
+          "raw": "学童保育事務費",
+          "start": 1124
+        }
+      ],
+      "raw": "6 4 1 1 3 ① 健康こども課 こども班 学童保育事務費 た、今後、小学1年生から4年生までの受入れ児童数 B 45,691",
+      "start": 1100,
+      "department": "健康こども課 こども班",
+      "contextStart": 1004,
+      "contextEnd": 1224,
+      "contextSha256": "65588b2e79d8dbfbbc1e12e32097f8267b5c8cbe8a479d9709c1d47eb4d1900f"
+    },
+    {
+      "key": "1-7",
+      "name": "町内児童等医療費等助成事業(町内児童等医療費等助成)",
+      "parts": [
+        {
+          "raw": "町内児童等医療費等助成事業",
+          "start": 1250
+        },
+        {
+          "raw": "(町内児童等医療費等助成)",
+          "start": 1321
+        }
+      ],
+      "raw": "7 5 1 1 4 ① 健康こども課 こども班 に係る医療費）のうち、保険診療による自己負担額を B 6,000",
+      "start": 1264,
+      "department": "健康こども課 こども班",
+      "contextStart": 1191,
+      "contextEnd": 1373,
+      "contextSha256": "4b064c64ebc96f34a6e4105648728600a347b0872095aa9b7d0d465d3b613dce"
+    },
+    {
+      "key": "1-8",
+      "name": "子ども医療費助成事業(乳幼児医療対策事業)",
+      "parts": [
+        {
+          "raw": "子ども医療費助成事業(乳幼児医",
+          "start": 1442
+        },
+        {
+          "raw": "療対策事業)",
+          "start": 1516
+        }
+      ],
+      "raw": "8 5 1 1 4 ① 健康こども課 こども班 ②県補助事業であり、補助対象となる医療費自己負担 B 80,540",
+      "start": 1458,
+      "department": "健康こども課 こども班",
+      "contextStart": 1398,
+      "contextEnd": 1562,
+      "contextSha256": "bf3313f8d20c6a7f09c1dd107b3025cefe43b348a3b4cd74a15191155eaae843"
+    },
+    {
+      "key": "1-9",
+      "name": "特定不妊治療助成事業",
+      "parts": [
+        {
+          "raw": "特定不妊治療助成事業",
+          "start": 1665
+        }
+      ],
+      "raw": "9 6 1 1 4 ② 健康こども課 健康づくり班 特定不妊治療助成事業 特定不妊治療の費用の一部を助成する。助成の対象 B 502",
+      "start": 1639,
+      "department": "健康こども課 健康づくり班",
+      "contextStart": 1562,
+      "contextEnd": 1766,
+      "contextSha256": "6f5503590cac1eb70a262e44ea84894b98329057790905555874b8342a70dbb9"
+    },
+    {
+      "key": "1-10",
+      "name": "子育て世代包括支援センター事業",
+      "parts": [
+        {
+          "raw": "子育て世代包括支援センター事",
+          "start": 1817
+        },
+        {
+          "raw": "業",
+          "start": 1891
+        }
+      ],
+      "raw": "10 6 1 1 4 ④ 健康こども課 健康づくり班 プランの作成や、地域の保健医療又は福祉に関する B 2,328",
+      "start": 1832,
+      "department": "健康こども課 健康づくり班",
+      "contextStart": 1742,
+      "contextEnd": 1942,
+      "contextSha256": "e1a47de6478d562c90a3f9ac8b538e7e5f3541acc913b8d8c9df5500e588431f"
+    },
+    {
+      "key": "1-11",
+      "name": "ブックスタート事業",
+      "parts": [
+        {
+          "raw": "ブックスタート事業",
+          "start": 2016
+        }
+      ],
+      "raw": "11 7 1 1 4 ⑤ 社会文化課 図書館 ブックスタート事業 パックの配布を行い、保護者も含め乳幼児から読書に B 308",
+      "start": 1993,
+      "department": "社会文化課 図書館",
+      "contextStart": 1893,
+      "contextEnd": 2163,
+      "contextSha256": "4d0fb9e7f6fd7ec7e67631b503eba12e49ce86368b876d7f0413e56260d9ee8f"
+    },
+    {
+      "key": "1-12",
+      "name": "家庭教育支援事業",
+      "parts": [
+        {
+          "raw": "家庭教育支援事業",
+          "start": 2123
+        }
+      ],
+      "raw": "12 7 1 1 5 ② 社会文化課 生涯学習班 家庭教育支援事業 けや社会性を身に着けられるよう、家庭教育学級の実 B 490",
+      "start": 2098,
+      "department": "社会文化課 生涯学習班",
+      "contextStart": 1966,
+      "contextEnd": 2268,
+      "contextSha256": "2645849c17d0338618b388c799a0cfb6de13c3dce753152aa5191f743f75aee8"
+    },
+    {
+      "key": "1-13",
+      "name": "包括的支援事業",
+      "parts": [
+        {
+          "raw": "包括的支援事業",
+          "start": 2226
+        }
+      ],
+      "raw": "13 8 1 2 1 ①③ 福祉課 介護班 包括的支援事業 を図るため、地域包括支援センターの配置人員を増員 B 33,596",
+      "start": 2204,
+      "department": "福祉課 介護班",
+      "contextStart": 2073,
+      "contextEnd": 2331,
+      "contextSha256": "31746482e31f5bb0aa4539d34d784dfb8b4a9bf3240a6a22d51b97e4eb516deb"
+    },
+    {
+      "key": "1-14",
+      "name": "在宅医療・介護連携推進事業",
+      "parts": [
+        {
+          "raw": "在宅医療・介護連携推進事業",
+          "start": 2353
+        }
+      ],
+      "raw": "14 8 1 2 1 ②⑥ 福祉課 介護班 在宅医療・介護連携推進事業 B 328",
+      "start": 2331,
+      "department": "福祉課 介護班",
+      "contextStart": 2204,
+      "contextEnd": 2427,
+      "contextSha256": "31de81187c39fa2d96f2487cb497a674a48daadd1604e7dd9cdba23c65838feb"
+    },
+    {
+      "key": "1-15",
+      "name": "一般介護予防事業",
+      "parts": [
+        {
+          "raw": "一般介護予防事業",
+          "start": 2448
+        }
+      ],
+      "raw": "15 9 1 2 2 ① 福祉課 介護班 一般介護予防事業 による各種教室などを通じて、介護予防についての知 B 7,837",
+      "start": 2427,
+      "department": "福祉課 介護班",
+      "contextStart": 2331,
+      "contextEnd": 2589,
+      "contextSha256": "b8f163d6b8690811cb20726eba48e322b42b0a2e3c2bac1eea07cffbf06e49c0"
+    },
+    {
+      "key": "1-16",
+      "name": "認知症総合支援事業",
+      "parts": [
+        {
+          "raw": "認知症総合支援事業",
+          "start": 2545
+        }
+      ],
+      "raw": "16 9 1 2 2 ②④ 福祉課 介護班 認知症総合支援事業 域での支えあい、温かい見守り体制づくりと早期発見・ B 4,262",
+      "start": 2523,
+      "department": "福祉課 介護班",
+      "contextStart": 2402,
+      "contextEnd": 2700,
+      "contextSha256": "010bb208a8384a1b43829910c2524a96146133f0664f43840679979d1f71ae16"
+    },
+    {
+      "key": "1-17",
+      "name": "老人クラブ活動支援事業",
+      "parts": [
+        {
+          "raw": "老人クラブ活動支援事業",
+          "start": 2655
+        }
+      ],
+      "raw": "17 10 1 2 3 ① 福祉課 社会福祉班 老人クラブ活動支援事業 かして地域を豊かにする社会活動に参加して明るい長 B 2,227",
+      "start": 2631,
+      "department": "福祉課 社会福祉班",
+      "contextStart": 2498,
+      "contextEnd": 2769,
+      "contextSha256": "e3158dbdb4f25d7e0a82802548851d2d71ea4b869ba119fe8eb863c3451ede95"
+    },
+    {
+      "key": "1-18",
+      "name": "地域生活支援事業(地域活動支援センターⅢ型指定管理)",
+      "parts": [
+        {
+          "raw": "地域生活支援事業(地域活動支",
+          "start": 2769
+        },
+        {
+          "raw": "援センターⅢ型指定管理)",
+          "start": 2841
+        }
+      ],
+      "raw": "18 10 1 3 1 ② 福祉課 障害福祉班 対する創作的活動又は生産活動の機会の提供、日常 B 17,292",
+      "start": 2784,
+      "department": "福祉課 障害福祉班",
+      "contextStart": 2700,
+      "contextEnd": 2882,
+      "contextSha256": "7769c86548b16c59a511ff0a69676704592686d81740d6b61f562605e125a4f7"
+    },
+    {
+      "key": "1-19",
+      "name": "山武圏域基幹相談支援センター設置・運営事業",
+      "parts": [
+        {
+          "raw": "山武圏域基幹相談支援センター",
+          "start": 2932
+        },
+        {
+          "raw": "設置・運営事業",
+          "start": 3003
+        }
+      ],
+      "raw": "19 11 1 3 1 ③ 福祉課 障害福祉班 促進、権利擁護・虐待防止相談支援体制の強化への B 1,084",
+      "start": 2947,
+      "department": "福祉課 障害福祉班",
+      "contextStart": 2878,
+      "contextEnd": 3046,
+      "contextSha256": "fa345c7e95d1109811b1a81555af4d47750924a33d4f8f2aaaff29f512423e1b"
+    },
+    {
+      "key": "1-20",
+      "name": "療育支援コーディネーター配置事業",
+      "parts": [
+        {
+          "raw": "療育支援コーディネーター配置事",
+          "start": 3279
+        },
+        {
+          "raw": "業",
+          "start": 3350
+        }
+      ],
+      "raw": "20 11 1 3 1 ④ 福祉課 障害福祉班 のための検討会を運営し、療育に特化した相談支援の B 939",
+      "start": 3295,
+      "department": "福祉課 障害福祉班",
+      "contextStart": 3203,
+      "contextEnd": 3401,
+      "contextSha256": "92cda2a95d454a0fda77746412ea3526f7f80676755f34e3ae1091bef88f8f97"
+    },
+    {
+      "key": "1-21",
+      "name": "地域定着支援利用促進事業",
+      "parts": [
+        {
+          "raw": "地域定着支援利用促進事業",
+          "start": 3501
+        }
+      ],
+      "raw": "21 12 1 3 2 ① 福祉課 障害福祉班 地域定着支援利用促進事業 時の連絡体制を確保し、緊急事態の場合の相談や障 B 512",
+      "start": 3477,
+      "department": "福祉課 障害福祉班",
+      "contextStart": 3401,
+      "contextEnd": 3614,
+      "contextSha256": "294f51ad447237ec0526870d354bcde9ebdf7b0f9b5ad06551f8673b3fd2f490"
+    },
+    {
+      "key": "1-22",
+      "name": "山武圏域福祉避難所協定締結促進事業",
+      "parts": [
+        {
+          "raw": "山武圏域福祉避難所協定締結促",
+          "start": 3688
+        },
+        {
+          "raw": "進事業",
+          "start": 3756
+        }
+      ],
+      "raw": "22 12 1 3 2 ① 福祉課 障害福祉班 B 0",
+      "start": 3728,
+      "department": "福祉課 障害福祉班",
+      "contextStart": 3614,
+      "contextEnd": 3838,
+      "contextSha256": "2a01635031445ed6a46795112f6f0546c403a3f4c6118d30ee8c6d2ef3a1c426"
+    },
+    {
+      "key": "1-23",
+      "name": "山武圏域自立支援協議会公開研修会事業",
+      "parts": [
+        {
+          "raw": "山武圏域自立支援協議会公開研",
+          "start": 3905
+        },
+        {
+          "raw": "修会事業",
+          "start": 3973
+        }
+      ],
+      "raw": "23 13 1 3 3 ① 福祉課 障害福祉班 B 70",
+      "start": 3944,
+      "department": "福祉課 障害福祉班",
+      "contextStart": 3838,
+      "contextEnd": 4043,
+      "contextSha256": "e28130472db228714164baccec9eeda7e0d90a62fd29597656762e9b813d693d"
+    },
+    {
+      "key": "1-24",
+      "name": "障害者就労支援事業",
+      "parts": [
+        {
+          "raw": "障害者就労支援事業",
+          "start": 4151
+        }
+      ],
+      "raw": "24 13 1 3 4 ② 福祉課 障害福祉班 障害者就労支援事業 B 70",
+      "start": 4127,
+      "department": "福祉課 障害福祉班",
+      "contextStart": 4043,
+      "contextEnd": 4237,
+      "contextSha256": "e689d22ed532ea14a5ab5f103eb2f2097def8f5d1a8b862eec29bb59d2e3fa1b"
+    },
+    {
+      "key": "1-25",
+      "name": "地域福祉事業",
+      "parts": [
+        {
+          "raw": "地域福祉事業",
+          "start": 4285
+        }
+      ],
+      "raw": "25 14 1 4 1 ② 福祉課 社会福祉班 地域福祉事業 会の交流活動を支援し、地域福祉についての理解を B 40,603",
+      "start": 4261,
+      "department": "福祉課 社会福祉班",
+      "contextStart": 4166,
+      "contextEnd": 4404,
+      "contextSha256": "2b7cc395202b0fc61739773dec2c8ba9f372caf41113943f34724850e24ae23f"
+    },
+    {
+      "key": "1-26",
+      "name": "ボランティア育成・活動強化事業",
+      "parts": [
+        {
+          "raw": "ボランティア育成・活動強化事業",
+          "start": 4379
+        }
+      ],
+      "raw": "26 14 1 4 2 ② 福祉課 社会福祉班 ボランティア育成・活動強化事業 B 40,603",
+      "start": 4355,
+      "department": "福祉課 社会福祉班",
+      "contextStart": 4237,
+      "contextEnd": 4518,
+      "contextSha256": "851ca05a90b0e8fa70bdfec6892b07d7198dd7f1d1f139752ed5651acfb12425"
+    },
+    {
+      "key": "1-27",
+      "name": "情報のバリアフリー化事業",
+      "parts": [
+        {
+          "raw": "情報のバリアフリー化事業",
+          "start": 4473
+        }
+      ],
+      "raw": "27 15 1 4 3 ② 総務課 秘書広報班 情報のバリアフリー化事業 ていただけるようホームページのバリアフリー化を進め B 198",
+      "start": 4449,
+      "department": "総務課 秘書広報班",
+      "contextStart": 4330,
+      "contextEnd": 4572,
+      "contextSha256": "6d3eb4e85cd207c8f3d0531db034e6888382267130dc60194497eacc740ac29c"
+    },
+    {
+      "key": "1-28",
+      "name": "自殺対策強化事業",
+      "parts": [
+        {
+          "raw": "自殺対策強化事業",
+          "start": 4600
+        }
+      ],
+      "raw": "28 15 1 5 1 ① 健康こども課 健康づくり班 自殺対策強化事業 B 207",
+      "start": 4572,
+      "department": "健康こども課 健康づくり班",
+      "contextStart": 4449,
+      "contextEnd": 4666,
+      "contextSha256": "1cff84bd4946bcd57b6124c31ddcf5087cddd4e0e32fdde55e968fcaaae4a597"
+    },
+    {
+      "key": "1-29",
+      "name": "歯科保健事業",
+      "parts": [
+        {
+          "raw": "歯科保健事業",
+          "start": 4721
+        }
+      ],
+      "raw": "29 16 1 5 2 ② 健康こども課 健康づくり班 歯科保健事業 する歯科健診や歯磨き指導、高齢者も含めたよい歯の B 514",
+      "start": 4693,
+      "department": "健康こども課 健康づくり班",
+      "contextStart": 4615,
+      "contextEnd": 4821,
+      "contextSha256": "3ca59057f370bfcb2d9b70854a1003f5d0851ca96131c0f99a041db27027fdfb"
+    },
+    {
+      "key": "1-30",
+      "name": "がん検診事業",
+      "parts": [
+        {
+          "raw": "がん検診事業",
+          "start": 4849
+        }
+      ],
+      "raw": "30 16 1 5 2 ② 健康こども課 健康づくり班 がん検診事業 診及び個別検診を実施する。（胃がん、大腸がん、子 B 30,049",
+      "start": 4821,
+      "department": "健康こども課 健康づくり班",
+      "contextStart": 4693,
+      "contextEnd": 4957,
+      "contextSha256": "c8bcf76bc2f64514495dcec0d5b314322f280401f3acbef6dd6d0d311a05db83"
+    },
+    {
+      "key": "1-31",
+      "name": "医師確保対策事業",
+      "parts": [
+        {
+          "raw": "医師確保対策事業",
+          "start": 4980
+        }
+      ],
+      "raw": "31 17 1 5 3 ① 東陽病院 総務班 医師確保対策事業 PR活動を展開し、医師の確保に努めると共に近隣病 B 8,240",
+      "start": 4957,
+      "department": "東陽病院 総務班",
+      "contextStart": 4821,
+      "contextEnd": 5082,
+      "contextSha256": "894d568f9cc2683b11af24fc54c19d1f4171a8a40c6d85ec2deabe3a5aa74f98"
+    },
+    {
+      "key": "1-32",
+      "name": "特定健康診査事業",
+      "parts": [
+        {
+          "raw": "特定健康診査事業",
+          "start": 5106
+        }
+      ],
+      "raw": "32 17 1 6 1 ② 住民課 国保年金班 特定健康診査事業 シンドローム該当者および予備軍の減少を図るため B 19,359",
+      "start": 5082,
+      "department": "住民課 国保年金班",
+      "contextStart": 4957,
+      "contextEnd": 5211,
+      "contextSha256": "1da11ac7d7c67c9291fa737efe433d54e64af6c621614390e87fe6f01eb3944c"
+    },
+    {
+      "key": "1-33",
+      "name": "介護給付費適正化事業",
+      "parts": [
+        {
+          "raw": "介護給付費適正化事業",
+          "start": 5233
+        }
+      ],
+      "raw": "33 18 1 6 2 ① 福祉課 介護班 介護給付費適正化事業 B 1,259",
+      "start": 5211,
+      "department": "福祉課 介護班",
+      "contextStart": 5082,
+      "contextEnd": 5323,
+      "contextSha256": "3335b5bc7c1e0ca41f888cd20fc5ceb7040398b521137c91f4c99ddc2fb4b384"
+    },
+    {
+      "key": "1-34",
+      "name": "後期高齢者健康診査事業",
+      "parts": [
+        {
+          "raw": "後期高齢者健康診査事業",
+          "start": 5371
+        }
+      ],
+      "raw": "34 18 1 6 3 ② 住民課 国保年金班 後期高齢者健康診査事業 B 7,887",
+      "start": 5347,
+      "department": "住民課 国保年金班",
+      "contextStart": 5252,
+      "contextEnd": 5440,
+      "contextSha256": "2d3fe2dcbe6051fb8824909e9c402307f0948e131e4dcd7e4fd0dc3701793022"
+    },
+    {
+      "key": "2-1",
+      "name": "学力向上推進計画実施事業",
+      "parts": [
+        {
+          "raw": "学力向上推進計画実施事業",
+          "start": 5646
+        }
+      ],
+      "raw": "1 19 2 1 1 ① 教育課 教職員・指導室 学力向上推進計画実施事業 B 500",
+      "start": 5621,
+      "department": "教育課 教職員・指導室",
+      "contextStart": 5558,
+      "contextEnd": 5721,
+      "contextSha256": "5a5e3cd36632b1d69d96af34eab7358449d77db6c767bc9393ad2bfc00e6da44"
+    },
+    {
+      "key": "2-2",
+      "name": "小学校情報教育推進事業",
+      "parts": [
+        {
+          "raw": "小学校情報教育推進事業",
+          "start": 5768
+        }
+      ],
+      "raw": "2 19 2 1 1 ③ 教育課 総務班 小学校情報教育推進事業 B 38,538",
+      "start": 5747,
+      "department": "教育課 総務班",
+      "contextStart": 5665,
+      "contextEnd": 5861,
+      "contextSha256": "544436792adbd412170694f948838c9a5c3a666343e430db0910dde853411ea6"
+    },
+    {
+      "key": "2-3",
+      "name": "中学校情報教育推進事業",
+      "parts": [
+        {
+          "raw": "中学校情報教育推進事業",
+          "start": 5908
+        }
+      ],
+      "raw": "3 20 2 1 1 ③ 教育課 総務班 中学校情報教育推進事業 B 22,261",
+      "start": 5887,
+      "department": "教育課 総務班",
+      "contextStart": 5789,
+      "contextEnd": 6001,
+      "contextSha256": "1b0ac4a7cce33a72e187d2c443b91ff05ac86c87e8081b28cd08e4e8beea566e"
+    },
+    {
+      "key": "2-4",
+      "name": "英語教育推進事業",
+      "parts": [
+        {
+          "raw": "英語教育推進事業",
+          "start": 6049
+        }
+      ],
+      "raw": "4 20 2 1 1 ④ 教育課 教職員・指導室 英語教育推進事業 B 1,600",
+      "start": 6024,
+      "department": "教育課 教職員・指導室",
+      "contextStart": 5929,
+      "contextEnd": 6124,
+      "contextSha256": "884288390a816f8e1410571a296cf5774dbec806e7de14a5b566d8f393f875eb"
+    },
+    {
+      "key": "2-5",
+      "name": "学校運営体制充実事業",
+      "parts": [
+        {
+          "raw": "学校運営体制充実事業",
+          "start": 6173
+        }
+      ],
+      "raw": "5 21 2 1 2 ① 教育課 教職員・指導室 学校運営体制充実事業 B 0",
+      "start": 6148,
+      "department": "教育課 教職員・指導室",
+      "contextStart": 6066,
+      "contextEnd": 6257,
+      "contextSha256": "ccd8371dfcab238a44c5728d647aa410ad4c8ecc11d1af94963e891ac558ab7e"
+    },
+    {
+      "key": "2-6",
+      "name": "学校施設非構造部材耐震化事業",
+      "parts": [
+        {
+          "raw": "学校施設非構造部材耐震化事",
+          "start": 6283
+        },
+        {
+          "raw": "業",
+          "start": 6350
+        }
+      ],
+      "raw": "6 21 2 1 3 ① 教育課 総務班 震化率は低い。児童生徒の安全性の確保、又、非常 B 1,000",
+      "start": 6297,
+      "department": "教育課 総務班",
+      "contextStart": 6214,
+      "contextEnd": 6389,
+      "contextSha256": "80322ae7df039db4966ff38dda1bed8f61bad8cf96112e251063fd5152bc97ba"
+    },
+    {
+      "key": "2-7",
+      "name": "ジュニアリーダー育成",
+      "parts": [
+        {
+          "raw": "ジュニアリーダー育成",
+          "start": 6439
+        }
+      ],
+      "raw": "7 22 2 2 1 ③ 社会文化課 生涯学習班 ジュニアリーダー育成 B 1,610",
+      "start": 6414,
+      "department": "社会文化課 生涯学習班",
+      "contextStart": 6350,
+      "contextEnd": 6555,
+      "contextSha256": "f6382ef60c7d172b8ea4e633cf00830e50a36b25ba88d21751e5d731981d2778"
+    },
+    {
+      "key": "2-8",
+      "name": "講座開催事業",
+      "parts": [
+        {
+          "raw": "講座開催事業",
+          "start": 6515
+        }
+      ],
+      "raw": "8 22 2 3 1 ① 社会文化課 生涯学習班 講座開催事業 もに、自主的な活動を積極的に支援し、生涯学習を通 B 1,199",
+      "start": 6490,
+      "department": "社会文化課 生涯学習班",
+      "contextStart": 6389,
+      "contextEnd": 6640,
+      "contextSha256": "3bbc3756e4390b28fbf947abe4f992eaba0c64cd0a6f4096c70465b3f06f1f8e"
+    },
+    {
+      "key": "2-9",
+      "name": "図書館魅力発信基地化計画事業",
+      "parts": [
+        {
+          "raw": "図書館魅力発信基地化計画事",
+          "start": 6600
+        },
+        {
+          "raw": "業",
+          "start": 6667
+        }
+      ],
+      "raw": "9 23 2 3 2 ② 社会文化課 図書館 B 0",
+      "start": 6640,
+      "department": "社会文化課 図書館",
+      "contextStart": 6490,
+      "contextEnd": 6737,
+      "contextSha256": "d80e9bcdd22e71bb062da54ead2a37eb2f47c390a91ad4bd2ce2483f92fa4634"
+    },
+    {
+      "key": "2-10",
+      "name": "図書資料購入事業",
+      "parts": [
+        {
+          "raw": "図書資料購入事業",
+          "start": 6761
+        }
+      ],
+      "raw": "10 23 2 3 2 ③ 社会文化課 図書館 図書資料購入事業 B 15,000",
+      "start": 6737,
+      "department": "社会文化課 図書館",
+      "contextStart": 6640,
+      "contextEnd": 6869,
+      "contextSha256": "e7d8283f7ba565743f98e457281b866620bd433901a67df5051491a24b25a4eb"
+    },
+    {
+      "key": "2-11",
+      "name": "町民ギャラリー開催事業",
+      "parts": [
+        {
+          "raw": "町民ギャラリー開催事業",
+          "start": 6849
+        }
+      ],
+      "raw": "11 24 2 4 1 ③ 社会文化課 生涯学習班 町民ギャラリー開催事業 B 2,466",
+      "start": 6823,
+      "department": "社会文化課 生涯学習班",
+      "contextStart": 6712,
+      "contextEnd": 6982,
+      "contextSha256": "4127c8dc6849f68b2062f28e60218a82fd0b98f3983d21f707a4c5c477145e06"
+    },
+    {
+      "key": "2-12",
+      "name": "少年芸術教室開催事業",
+      "parts": [
+        {
+          "raw": "少年芸術教室開催事業",
+          "start": 6940
+        }
+      ],
+      "raw": "12 24 2 4 2 ② 社会文化課 生涯学習班 少年芸術教室開催事業 賞能力の向上を図るとともに、豊かな情操の涵養に資 B 709",
+      "start": 6914,
+      "department": "社会文化課 生涯学習班",
+      "contextStart": 6798,
+      "contextEnd": 7036,
+      "contextSha256": "0246368ae53aa8731d78171670cf78ba3222ec9b956a7d55795a774764a4ed09"
+    },
+    {
+      "key": "2-13",
+      "name": "文化祭開催事業",
+      "parts": [
+        {
+          "raw": "文化祭開催事業",
+          "start": 7062
+        }
+      ],
+      "raw": "13 25 2 4 2 ③ 社会文化課 生涯学習班 文化祭開催事業 B 460",
+      "start": 7036,
+      "department": "社会文化課 生涯学習班",
+      "contextStart": 6914,
+      "contextEnd": 7127,
+      "contextSha256": "4c7365cee8bf0201ad4d362316794b2b10a97b0f4749259581b5980cefa5f0d0"
+    },
+    {
+      "key": "2-14",
+      "name": "保健体育総務事務費（文化スポーツ活動推進費補助金）",
+      "parts": [
+        {
+          "raw": "保健体育総務事務費（文化ス",
+          "start": 7127
+        },
+        {
+          "raw": "ポーツ活動推進費補助金）",
+          "start": 7197
+        }
+      ],
+      "raw": "14 25 2 5 1 ③ 社会文化課 生涯学習班 B 100",
+      "start": 7165,
+      "department": "社会文化課 生涯学習班",
+      "contextStart": 7076,
+      "contextEnd": 7295,
+      "contextSha256": "c57e1d3c4134f5e2be5933e3a640402d089ec8b49433993eeb49009e0838b1b3"
+    },
+    {
+      "key": "2-15",
+      "name": "北総中学校ソフトテニス大会開催事業(北総中学校ソフトテニス大会運営費補助金)",
+      "parts": [
+        {
+          "raw": "北総中学校ソフトテニス大会開",
+          "start": 7255
+        },
+        {
+          "raw": "催事業(北総中学校ソフトテニス",
+          "start": 7321
+        },
+        {
+          "raw": "大会運営費補助金)",
+          "start": 7369
+        }
+      ],
+      "raw": "15 26 2 5 1 ③ 社会文化課 生涯学習班 催事業(北総中学校ソフトテニス るとともに、技術力向上を目指し、北総中学校ソフトテ B 140",
+      "start": 7295,
+      "department": "社会文化課 生涯学習班",
+      "contextStart": 7165,
+      "contextEnd": 7430,
+      "contextSha256": "a2fe464e244dbb6cb1443c9d39a2cf679796526f6885af621dd1dbb58d437dab"
+    },
+    {
+      "key": "2-16",
+      "name": "青少年剣道大会開催事業(少年剣道大会運営補助金)",
+      "parts": [
+        {
+          "raw": "青少年剣道大会開催事業(少年",
+          "start": 7415
+        },
+        {
+          "raw": "剣道大会運営補助金)",
+          "start": 7487
+        }
+      ],
+      "raw": "16 26 2 5 1 ③ 社会文化課 生涯学習班 もに、技術力の向上を目指し、少年剣道大会を開催す B 190",
+      "start": 7430,
+      "department": "社会文化課 生涯学習班",
+      "contextStart": 7295,
+      "contextEnd": 7527,
+      "contextSha256": "3afbef56d13396eae5219c8e2adac05ea7b9c1d2e43664503d1abb56ca353b98"
+    },
+    {
+      "key": "2-17",
+      "name": "体育祭開催事業",
+      "parts": [
+        {
+          "raw": "体育祭開催事業",
+          "start": 7579
+        }
+      ],
+      "raw": "17 27 2 5 2 ① 社会文化課 生涯学習班 体育祭開催事業 男女が協力して住みよい郷土・明るいまちづくりを推進 B 2,000",
+      "start": 7553,
+      "department": "社会文化課 生涯学習班",
+      "contextStart": 7487,
+      "contextEnd": 7674,
+      "contextSha256": "b4be83edfc11af21cec37c373c8046fdca69c5aa8b58a0ceeed87abfa52ce8f8"
+    },
+    {
+      "key": "2-18",
+      "name": "スポーツ協会活動支援事業",
+      "parts": [
+        {
+          "raw": "スポーツ協会活動支援事業",
+          "start": 7700
+        }
+      ],
+      "raw": "18 27 2 5 3 ① 社会文化課 生涯学習班 スポーツ協会活動支援事業 B 4,100",
+      "start": 7674,
+      "department": "社会文化課 生涯学習班",
+      "contextStart": 7553,
+      "contextEnd": 7774,
+      "contextSha256": "bdfadd6d6c6d6c7c86d054c8040ad16838ddee1c65af63e42e49957b58a3fd72"
+    },
+    {
+      "key": "3-1",
+      "name": "用途地域見直し事業",
+      "parts": [
+        {
+          "raw": "用途地域見直し事業",
+          "start": 7916
+        }
+      ],
+      "raw": "1 28 3 1 1 ② 都市建設課 管理計画班 用途地域見直し事業 B 3,250",
+      "start": 7891,
+      "department": "都市建設課 管理計画班",
+      "contextStart": 7806,
+      "contextEnd": 8044,
+      "contextSha256": "56636195bc53c44fe6021ecfc7cff1036319be3b894a27d077b30bc3c34fe06e"
+    },
+    {
+      "key": "3-2",
+      "name": "横芝光IC周辺の整備促進",
+      "parts": [
+        {
+          "raw": "横芝光IC周辺の整備促進",
+          "start": 8003
+        }
+      ],
+      "raw": "2 28 3 1 2 ② 都市建設課 管理計画班 横芝光IC周辺の整備促進 活用検討委員会及び関係機関と継続的に協議し、有 B 0",
+      "start": 7978,
+      "department": "都市建設課 管理計画班",
+      "contextStart": 7866,
+      "contextEnd": 8113,
+      "contextSha256": "fbaacc99ba625fd8d9607070f13d0047bb17f5c705744f3e5c92ad9929a047d0"
+    },
+    {
+      "key": "3-3",
+      "name": "町道Ⅰ－９号線道路改良事業",
+      "parts": [
+        {
+          "raw": "町道Ⅰ－９号線道路改良事業",
+          "start": 8158
+        }
+      ],
+      "raw": "3 29 3 2 1 ① 都市建設課 建設班 町道Ⅰ－９号線道路改良事業 B 0",
+      "start": 8135,
+      "department": "都市建設課 建設班",
+      "contextStart": 8044,
+      "contextEnd": 8253,
+      "contextSha256": "fe1ea79e973a5dbf80733dc2424e574b8310edf13f26990438be52a1ca723842"
+    },
+    {
+      "key": "3-4",
+      "name": "町道Ⅰ－１８号線道路改良（２期）事業",
+      "parts": [
+        {
+          "raw": "町道Ⅰ－１８号線道路改良（２",
+          "start": 8279
+        },
+        {
+          "raw": "期）事業",
+          "start": 8344
+        }
+      ],
+      "raw": "4 29 3 2 1 ① 都市建設課 建設班 B 39,429",
+      "start": 8312,
+      "department": "都市建設課 建設班",
+      "contextStart": 8207,
+      "contextEnd": 8425,
+      "contextSha256": "b279ff2f17c96f487a1730d30ca79a6ee4766d6ff002e876c5c2bcc4cdcc179f"
+    },
+    {
+      "key": "3-5",
+      "name": "町道Ⅱ－３６号線道路改良事業",
+      "parts": [
+        {
+          "raw": "町道Ⅱ－３６号線道路改良事業",
+          "start": 8480
+        }
+      ],
+      "raw": "5 30 3 2 1 ① 都市建設課 建設班 町道Ⅱ－３６号線道路改良事業 B 1,610",
+      "start": 8457,
+      "department": "都市建設課 建設班",
+      "contextStart": 8380,
+      "contextEnd": 8582,
+      "contextSha256": "d8f02343fab4436af4aa22b11edd53e8bbd30c68650f42099bece18484107246"
+    },
+    {
+      "key": "3-6",
+      "name": "町道Ⅰ－７号線道路改良事業(寺方地先)",
+      "parts": [
+        {
+          "raw": "町道Ⅰ－７号線道路改良事業(寺",
+          "start": 8634
+        },
+        {
+          "raw": "方地先)",
+          "start": 8688
+        }
+      ],
+      "raw": "6 30 3 2 1 ① 都市建設課 建設班 整備する。 B 14,680",
+      "start": 8650,
+      "department": "都市建設課 建設班",
+      "contextStart": 8557,
+      "contextEnd": 8744,
+      "contextSha256": "ccc1c7dc1bf5b3298805e23bc6d46bd30382bff1883bd58775c2eeab335786a7"
+    },
+    {
+      "key": "3-7",
+      "name": "町道Ⅰ－１４号線道路改良事業(木戸・北清水地先)",
+      "parts": [
+        {
+          "raw": "町道Ⅰ－１４号線道路改良事業",
+          "start": 8819
+        },
+        {
+          "raw": "(木戸・北清水地先)",
+          "start": 8881
+        }
+      ],
+      "raw": "7 31 3 2 1 ① 都市建設課 建設班 し、円滑な通行を確保する。 B 151,980",
+      "start": 8834,
+      "department": "都市建設課 建設班",
+      "contextStart": 8744,
+      "contextEnd": 8943,
+      "contextSha256": "c434cf744d3a59b8ccc053e8a183fd7590d29e296910cdaee3ba97b71d2843ed"
+    },
+    {
+      "key": "3-8",
+      "name": "町道Ⅰ－８号線道路改良事業",
+      "parts": [
+        {
+          "raw": "町道Ⅰ－８号線道路改良事業",
+          "start": 9040
+        }
+      ],
+      "raw": "8 31 3 2 1 ① 都市建設課 建設班 町道Ⅰ－８号線道路改良事業 和のため整備する。 B 60,164",
+      "start": 9017,
+      "department": "都市建設課 建設班",
+      "contextStart": 8924,
+      "contextEnd": 9149,
+      "contextSha256": "1e7f06212bc6af56b42766781902c0f6a420fdb139cabbe2e8b57e0edb24e7b3"
+    },
+    {
+      "key": "3-9",
+      "name": "町道Ⅰ－10号線道路改良事業",
+      "parts": [
+        {
+          "raw": "町道Ⅰ－10号線道路改良事業",
+          "start": 9218
+        }
+      ],
+      "raw": "9 32 3 2 1 ① 都市建設課 建設班 町道Ⅰ－10号線道路改良事業 B 112,048",
+      "start": 9195,
+      "department": "都市建設課 建設班",
+      "contextStart": 9104,
+      "contextEnd": 9322,
+      "contextSha256": "933f87e3845a6b20533313c1b7549dc7fb1efcae388991ffde18932ba2ce98e9"
+    },
+    {
+      "key": "3-10",
+      "name": "舗装修繕事業",
+      "parts": [
+        {
+          "raw": "舗装修繕事業",
+          "start": 9346
+        }
+      ],
+      "raw": "10 32 3 2 2 ① 都市建設課 建設班 舗装修繕事業 を未然に防止する修繕を行い、住民が安心して暮らせ B 82,120",
+      "start": 9322,
+      "department": "都市建設課 建設班",
+      "contextStart": 9195,
+      "contextEnd": 9475,
+      "contextSha256": "7e3008c0b76c23a1dbfe29f4882b0f616515c7e8ec6201c770249252c5263a76"
+    },
+    {
+      "key": "3-11",
+      "name": "横芝駅バリアフリー施設整備事業",
+      "parts": [
+        {
+          "raw": "横芝駅バリアフリー施設整備事",
+          "start": 9399
+        },
+        {
+          "raw": "業",
+          "start": 9475
+        }
+      ],
+      "raw": "11 33 3 2 3 ① 企画空港課 企画政策班 B 210,000",
+      "start": 9439,
+      "department": "企画空港課 企画政策班",
+      "contextStart": 9298,
+      "contextEnd": 9523,
+      "contextSha256": "e65f93a0da8399d3ecff59d6b5846b6c1208880e26ed58f858acf7b314a16389"
+    },
+    {
+      "key": "3-12",
+      "name": "生活路線バス運行事業(循環バス運行費補助金)",
+      "parts": [
+        {
+          "raw": "生活路線バス運行事業(循環バ",
+          "start": 9523
+        },
+        {
+          "raw": "ス運行費補助金)",
+          "start": 9614
+        }
+      ],
+      "raw": "12 33 3 2 3 ③ 企画空港課 企画政策班 段を確保するため、利用状況等を把握しニーズに合っ C 20,013",
+      "start": 9554,
+      "department": "企画空港課 企画政策班",
+      "contextStart": 9475,
+      "contextEnd": 9659,
+      "contextSha256": "3687b07d85eacaac709bcff3cd1ada16f45bd0c9520755acc2a5a5c6ffe80504"
+    },
+    {
+      "key": "3-13",
+      "name": "乗合タクシー運行事業",
+      "parts": [
+        {
+          "raw": "乗合タクシー運行事業",
+          "start": 9727
+        }
+      ],
+      "raw": "13 34 3 2 3 ③ 企画空港課 企画政策班 乗合タクシー運行事業 段を確保するため、利用状況等を把握しニーズに合っ C が経過するため、循環バスを含め公 27,637",
+      "start": 9701,
+      "department": "企画空港課 企画政策班",
+      "contextStart": 9614,
+      "contextEnd": 9913,
+      "contextSha256": "97e4dfe229790d129099bb026c5c776b8c988c099dd6779df3b8fe453cee8cae"
+    },
+    {
+      "key": "3-14",
+      "name": "空港シャトルバス運行事業",
+      "parts": [
+        {
+          "raw": "空港シャトルバス運行事業",
+          "start": 9867
+        }
+      ],
+      "raw": "14 34 3 2 3 ④ 企画空港課 空港班 空港シャトルバス運行事業 交通手段として空港シャトルバスを芝山鉄道延伸連絡 B 8,501",
+      "start": 9843,
+      "department": "企画空港課 空港班",
+      "contextStart": 9659,
+      "contextEnd": 10036,
+      "contextSha256": "5fc364ec6fc386a30551db68294bef46e3be43162dba3cd74405883fbf61ff9b"
+    },
+    {
+      "key": "3-15",
+      "name": "新たな公共交通網整備事業",
+      "parts": [
+        {
+          "raw": "新たな公共交通網整備事業",
+          "start": 9989
+        }
+      ],
+      "raw": "15 35 3 2 3 ⑤ 企画空港課 企画政策班 新たな公共交通網整備事業 市方面へのシャトルバスを試験運行する。また、実績 B 48,664",
+      "start": 9963,
+      "department": "企画空港課 企画政策班",
+      "contextStart": 9819,
+      "contextEnd": 10148,
+      "contextSha256": "4ba269e619cf27a294843312c636f3613ebd1d973aea8a9e3e46d7e96e7b1484"
+    },
+    {
+      "key": "3-16",
+      "name": "住宅改修補助事業",
+      "parts": [
+        {
+          "raw": "住宅改修補助事業",
+          "start": 10106
+        }
+      ],
+      "raw": "16 35 3 3 1 ② 都市建設課 管理計画班 住宅改修補助事業 上を図るため、民間住宅のリフォーム、耐震診断、耐 B 6,000",
+      "start": 10080,
+      "department": "都市建設課 管理計画班",
+      "contextStart": 9938,
+      "contextEnd": 10262,
+      "contextSha256": "89ac31d3fce67d089d43bf1c540b920288bc0be9c07e1faed4968b0286f37ff9"
+    },
+    {
+      "key": "3-17",
+      "name": "町営住宅大規模修繕事業",
+      "parts": [
+        {
+          "raw": "町営住宅大規模修繕事業",
+          "start": 10217
+        }
+      ],
+      "raw": "17 36 3 3 2 ① 都市建設課 管理計画班 町営住宅大規模修繕事業 基を合併浄化槽1基に転換するとともに、排水系統を B 2,500",
+      "start": 10191,
+      "department": "都市建設課 管理計画班",
+      "contextStart": 10056,
+      "contextEnd": 10336,
+      "contextSha256": "9cec33dfdab17e96c5bb3b817ecb4043de198ddd2a0c9e8721112a4cef9c46c3"
+    },
+    {
+      "key": "3-18",
+      "name": "空家住宅管理事業",
+      "parts": [
+        {
+          "raw": "空家住宅管理事業",
+          "start": 10362
+        }
+      ],
+      "raw": "18 36 3 3 3 ① 都市建設課 管理計画班 空家住宅管理事業 B 0",
+      "start": 10336,
+      "department": "都市建設課 管理計画班",
+      "contextStart": 10191,
+      "contextEnd": 10447,
+      "contextSha256": "81c9562b607bf1d7feb6719c96875b9bc74dc5e042c0f718f58238c0c0629676"
+    },
+    {
+      "key": "3-19",
+      "name": "水道高料金対策操出事業",
+      "parts": [
+        {
+          "raw": "水道高料金対策操出事業",
+          "start": 10471
+        }
+      ],
+      "raw": "19 37 3 4 1 ③ 環境防災課 環境班 水道高料金対策操出事業 B 56,027",
+      "start": 10447,
+      "department": "環境防災課 環境班",
+      "contextStart": 10336,
+      "contextEnd": 10594,
+      "contextSha256": "5c231ce4c6a44ea29b0609e00038b8853f106125511faae10b04967b08fa919a"
+    },
+    {
+      "key": "3-20",
+      "name": "浄化槽設置促進補助事業",
+      "parts": [
+        {
+          "raw": "浄化槽設置促進補助事業",
+          "start": 10549
+        }
+      ],
+      "raw": "20 37 3 4 2 ① 環境防災課 環境班 浄化槽設置促進補助事業 浄化槽及び汲取便槽からの転換について助成し、合 B 19,408",
+      "start": 10525,
+      "department": "環境防災課 環境班",
+      "contextStart": 10423,
+      "contextEnd": 10676,
+      "contextSha256": "8de9b01b2a93f0b423970191fbb845241ae861eefd695d4219dc134ea5d7b13a"
+    },
+    {
+      "key": "3-21",
+      "name": "資源リサイクル促進事業",
+      "parts": [
+        {
+          "raw": "資源リサイクル促進事業",
+          "start": 10658
+        }
+      ],
+      "raw": "21 38 3 5 1 ② 環境防災課 環境班 資源リサイクル促進事業 B 388",
+      "start": 10634,
+      "department": "環境防災課 環境班",
+      "contextStart": 10501,
+      "contextEnd": 10748,
+      "contextSha256": "f0fc98fa74dbae8ecb9e3a4fa3b90a26e113891e81ab712e87424c2618655831"
+    },
+    {
+      "key": "3-22",
+      "name": "合併処理浄化槽等維持管理推進事業",
+      "parts": [
+        {
+          "raw": "合併処理浄化槽等維持管理推",
+          "start": 10826
+        },
+        {
+          "raw": "進事業",
+          "start": 10892
+        }
+      ],
+      "raw": "22 38 3 5 2 ② 環境防災課 環境班 B 0",
+      "start": 10864,
+      "department": "環境防災課 環境班",
+      "contextStart": 10766,
+      "contextEnd": 11011,
+      "contextSha256": "c4265b623759f71559ef01d45782f1cfdf1b1a16f26db85dc73746ee145aff42"
+    },
+    {
+      "key": "3-23",
+      "name": "環境衛生事務事業",
+      "parts": [
+        {
+          "raw": "環境衛生事務事業",
+          "start": 10970
+        }
+      ],
+      "raw": "23 39 3 5 3 ① 環境防災課 環境班 環境衛生事務事業 連携を強化し、相談窓口（国、県）の周知等により、公 B 634",
+      "start": 10946,
+      "department": "環境防災課 環境班",
+      "contextStart": 10826,
+      "contextEnd": 11088,
+      "contextSha256": "6f79cf5dd9a010fbd657660476cbe579266ed2f93f1c3b18e5ccede5dafa2a2d"
+    },
+    {
+      "key": "3-24",
+      "name": "火葬場負担金事業",
+      "parts": [
+        {
+          "raw": "火葬場負担金事業",
+          "start": 11070
+        }
+      ],
+      "raw": "24 39 3 5 4 ① 環境防災課 環境班 火葬場負担金事業 B 16,561",
+      "start": 11046,
+      "department": "環境防災課 環境班",
+      "contextStart": 10921,
+      "contextEnd": 11149,
+      "contextSha256": "9dd7a8341a5af645f72e46306a15e34fb20d6e934f371b27d499f4b19a5aaff7"
+    },
+    {
+      "key": "3-25",
+      "name": "航空機騒音障害防止対策事業",
+      "parts": [
+        {
+          "raw": "航空機騒音障害防止対策事業",
+          "start": 11173
+        }
+      ],
+      "raw": "25 40 3 5 5 ① 企画空港課 空港班 航空機騒音障害防止対策事業 域に対し、その障害を防止し、併せて住民の生活の安 B 110,430",
+      "start": 11149,
+      "department": "企画空港課 空港班",
+      "contextStart": 11046,
+      "contextEnd": 11285,
+      "contextSha256": "dcc2548abd0ad950d90bd2de711b984928f46c077f13e93db6572d843faaec67"
+    },
+    {
+      "key": "3-26",
+      "name": "環境美化推進事業(町内一日清掃)",
+      "parts": [
+        {
+          "raw": "環境美化推進事業(町内一日清",
+          "start": 11285
+        },
+        {
+          "raw": "掃)",
+          "start": 11357
+        }
+      ],
+      "raw": "26 40 3 6 1 ① 環境防災課 環境班 ランティア活動を通じて、地域及び自宅周辺の除草作 B 2,561",
+      "start": 11300,
+      "department": "環境防災課 環境班",
+      "contextStart": 11222,
+      "contextEnd": 11398,
+      "contextSha256": "690be87fbe4f8ace0a76013ebab66bc01c95ac1f10a9b3220a18729b6d8e3707"
+    },
+    {
+      "key": "3-27",
+      "name": "再生可能エネルギー推進事業(住宅用省エネルギー設備等導入促進事業)",
+      "parts": [
+        {
+          "raw": "再生可能エネルギー推進事業",
+          "start": 11398
+        },
+        {
+          "raw": "(住宅用省エネルギー設備等導",
+          "start": 11461
+        },
+        {
+          "raw": "入促進事業)",
+          "start": 11506
+        }
+      ],
+      "raw": "27 41 3 6 1 ④ 環境防災課 環境班 (住宅用省エネルギー設備等導 B 705",
+      "start": 11437,
+      "department": "環境防災課 環境班",
+      "contextStart": 11360,
+      "contextEnd": 11518,
+      "contextSha256": "1e028b6435e9340e0acf8d5124882028ec1733ff13f90e1c93327680b6d6bdb2"
+    },
+    {
+      "key": "3-28",
+      "name": "景観整備適正化事業",
+      "parts": [
+        {
+          "raw": "景観整備適正化事業",
+          "start": 11568
+        }
+      ],
+      "raw": "28 41 3 6 2 ① 都市建設課 管理計画班 景観整備適正化事業 よう景観法の活用を検討し、保全活動を行いつつ意識 B 0",
+      "start": 11542,
+      "department": "都市建設課 管理計画班",
+      "contextStart": 11482,
+      "contextEnd": 11683,
+      "contextSha256": "1db87707e0af2a4bda3a0a47535ef8d6a652e762b67b9eea5752863642224028"
+    },
+    {
+      "key": "3-29",
+      "name": "栗山川改修促進事業",
+      "parts": [
+        {
+          "raw": "栗山川改修促進事業",
+          "start": 11668
+        }
+      ],
+      "raw": "29 42 3 7 1 ① 都市建設課 管理計画班 栗山川改修促進事業 B 50",
+      "start": 11642,
+      "department": "都市建設課 管理計画班",
+      "contextStart": 11518,
+      "contextEnd": 11743,
+      "contextSha256": "ab6fb8b494f0aaa041c8d9cb1b1d44987f38fee8605939e14397831073450168"
+    },
+    {
+      "key": "3-30",
+      "name": "環境美化推進事業(栗山川周辺環境ボランティア)",
+      "parts": [
+        {
+          "raw": "環境美化推進事業(栗山川周辺",
+          "start": 11743
+        },
+        {
+          "raw": "環境ボランティア)",
+          "start": 11831
+        }
+      ],
+      "raw": "30 42 3 7 1 ③ 環境防災課 環境班 C 実施方策について見直しが必要で 1,683",
+      "start": 11783,
+      "department": "環境防災課 環境班",
+      "contextStart": 11683,
+      "contextEnd": 11877,
+      "contextSha256": "60c8876087d0a519ec4a7037e23deaf2ccaee8d573af921c95221a45ae53e165"
+    },
+    {
+      "key": "3-31",
+      "name": "栗山川情報発信事業",
+      "parts": [
+        {
+          "raw": "栗山川情報発信事業",
+          "start": 11928
+        }
+      ],
+      "raw": "31 43 3 7 1 ④ 都市建設課 管理計画班 栗山川情報発信事業 たな人の交流やにぎわいを創り、栗山川の活用を推進 B 0",
+      "start": 11902,
+      "department": "都市建設課 管理計画班",
+      "contextStart": 11831,
+      "contextEnd": 12044,
+      "contextSha256": "5f855b92d39d2498f4bd0d81baa6f618e0827177250cb6a8705411e1a86ce6b5"
+    },
+    {
+      "key": "3-32",
+      "name": "九十九里海岸保全事業",
+      "parts": [
+        {
+          "raw": "九十九里海岸保全事業",
+          "start": 12029
+        }
+      ],
+      "raw": "32 43 3 7 2 ② 産業課・環境防災課 経済班・環境班 九十九里海岸保全事業 B 0",
+      "start": 11997,
+      "department": "産業課・環境防災課 経済班・環境班",
+      "contextStart": 11877,
+      "contextEnd": 12152,
+      "contextSha256": "385312f282ae7533f5b27a14b0944b7c69046971004e32a71cab900d5b4422bc"
+    },
+    {
+      "key": "3-33",
+      "name": "公園環境美化推進事業",
+      "parts": [
+        {
+          "raw": "公園環境美化推進事業",
+          "start": 12112
+        }
+      ],
+      "raw": "33 44 3 8 1 ① 社会文化課 施設管理班 公園環境美化推進事業 の清掃活動の協力を求めて、施設環境の良好な保全 B 48",
+      "start": 12086,
+      "department": "社会文化課 施設管理班",
+      "contextStart": 11971,
+      "contextEnd": 12222,
+      "contextSha256": "440f54471605f8d71e7559c28bbb7fafc3006f93f4f0bd209b53c73397a3acad"
+    },
+    {
+      "key": "3-34",
+      "name": "わたしの街緑づくり事業",
+      "parts": [
+        {
+          "raw": "わたしの街緑づくり事業",
+          "start": 12204
+        }
+      ],
+      "raw": "34 44 3 8 2 ① 産業課 農政班 わたしの街緑づくり事業 B 108",
+      "start": 12182,
+      "department": "産業課 農政班",
+      "contextStart": 12060,
+      "contextEnd": 12287,
+      "contextSha256": "09b9e52b8ad8bcd14906e79fb2729367723971512616d1377a010a68133435d7"
+    },
+    {
+      "key": "4-4",
+      "name": "防災対策事務費・防災行政無線維持管理事業",
+      "parts": [
+        {
+          "raw": "防災対策事務費・防災行政無線",
+          "start": 12702
+        },
+        {
+          "raw": "維持管理事業",
+          "start": 12772
+        }
+      ],
+      "raw": "4 46 4 1 2 ② 環境防災課 防災班 等を住民へ周知するため警報システム等の整備及び B 1,221",
+      "start": 12717,
+      "department": "環境防災課 防災班",
+      "contextStart": 12634,
+      "contextEnd": 12829,
+      "contextSha256": "60cf8e30e00af250b9bf31bc7ce36322c0981e2cc493f76e18ba2f0fd3ec4591"
+    },
+    {
+      "key": "4-5",
+      "name": "消防車両整備事業・消防団活動費・消防施設整備事業",
+      "parts": [
+        {
+          "raw": "消防車両整備事業・消防団活動",
+          "start": 12790
+        },
+        {
+          "raw": "費・消防施設整備事業",
+          "start": 12861
+        }
+      ],
+      "raw": "5 47 4 2 1 ① 環境防災課 防災班 B 25,058",
+      "start": 12829,
+      "department": "環境防災課 防災班",
+      "contextStart": 12717,
+      "contextEnd": 12937,
+      "contextSha256": "d7e4702a0ddf796c932479946168466454c829f1f7082299d3ea2d3a5f2ce8db"
+    },
+    {
+      "key": "4-6",
+      "name": "施設整備事業",
+      "parts": [
+        {
+          "raw": "施設整備事業",
+          "start": 12922
+        }
+      ],
+      "raw": "6 47 4 2 1 ② 環境防災課 防災班 施設整備事業 B 1,959",
+      "start": 12899,
+      "department": "環境防災課 防災班",
+      "contextStart": 12790,
+      "contextEnd": 13042,
+      "contextSha256": "863eb2e779979285ba6ca9b0ee509ee9da90a461dd444e4c750cab60c4bb8cb6"
+    },
+    {
+      "key": "4-7",
+      "name": "消防団活動費",
+      "parts": [
+        {
+          "raw": "消防団活動費",
+          "start": 13007
+        }
+      ],
+      "raw": "7 48 4 2 1 ③ 環境防災課 防災班 消防団活動費 また、地域の実情にあった団員定数の見直しを検討 B 0",
+      "start": 12984,
+      "department": "環境防災課 防災班",
+      "contextStart": 12875,
+      "contextEnd": 13139,
+      "contextSha256": "d0040624f9aea7b79c4ad0d83f8efe98ca9efe36a01674f13c9411db90a6f550"
+    },
+    {
+      "key": "4-8",
+      "name": "常備消防事業",
+      "parts": [
+        {
+          "raw": "常備消防事業",
+          "start": 13104
+        }
+      ],
+      "raw": "8 48 4 2 2 ① 環境防災課 防災班 常備消防事業 充実化に向け、救命士の育成・確保や初期救急の普 B 0",
+      "start": 13081,
+      "department": "環境防災課 防災班",
+      "contextStart": 12960,
+      "contextEnd": 13198,
+      "contextSha256": "7393deea6bb6ac681f061c21d9f412c87895cfa47ff72400b5944d37d0da1255"
+    },
+    {
+      "key": "4-9",
+      "name": "防犯指導及び啓発事業",
+      "parts": [
+        {
+          "raw": "防犯指導及び啓発事業",
+          "start": 13221
+        }
+      ],
+      "raw": "9 49 4 3 1 ① 環境防災課 防災班 防犯指導及び啓発事業 B 370",
+      "start": 13198,
+      "department": "環境防災課 防災班",
+      "contextStart": 13081,
+      "contextEnd": 13299,
+      "contextSha256": "35c1a675792395b67086229a967cdb38258e51b08bdfd9c2c77b78e06af42424"
+    },
+    {
+      "key": "4-10",
+      "name": "防犯灯維持管理事業・防犯灯設置事業",
+      "parts": [
+        {
+          "raw": "防犯灯維持管理事業・防犯灯設",
+          "start": 13299
+        },
+        {
+          "raw": "置事業",
+          "start": 13370
+        }
+      ],
+      "raw": "10 49 4 3 1 ② 環境防災課 防災班 内に設置した防犯灯の適正な維持管理を行うととも B 4,440",
+      "start": 13314,
+      "department": "環境防災課 防災班",
+      "contextStart": 13238,
+      "contextEnd": 13414,
+      "contextSha256": "9224712044b059f0bafb081034d2f74a1e879da53e9c67a59af57f89737708e5"
+    },
+    {
+      "key": "4-11",
+      "name": "交通安全指導及び啓発事業",
+      "parts": [
+        {
+          "raw": "交通安全指導及び啓発事業",
+          "start": 13438
+        }
+      ],
+      "raw": "11 50 4 3 2 ① 環境防災課 防災班 交通安全指導及び啓発事業 B 134",
+      "start": 13414,
+      "department": "環境防災課 防災班",
+      "contextStart": 13314,
+      "contextEnd": 13531,
+      "contextSha256": "c3d0d21cd8d9b5e6fc53979a68d5f5b54e1ac2d9aaf221c9489864e7924cc4d3"
+    },
+    {
+      "key": "4-12",
+      "name": "消費生活相談窓口事業",
+      "parts": [
+        {
+          "raw": "消費生活相談窓口事業",
+          "start": 13553
+        }
+      ],
+      "raw": "12 50 4 4 1 ① 産業課 経済班 消費生活相談窓口事業 消費生活相談員による週1日の相談業務や司法書士 B 858",
+      "start": 13531,
+      "department": "産業課 経済班",
+      "contextStart": 13414,
+      "contextEnd": 13633,
+      "contextSha256": "e2ada2fc15db266b64c9d6e50171502afb94785df3b553acd148ea33c35bd323"
+    },
+    {
+      "key": "5-1",
+      "name": "地産地消食育推進事業",
+      "parts": [
+        {
+          "raw": "地産地消食育推進事業",
+          "start": 13835
+        }
+      ],
+      "raw": "1 51 5 1 1 ① 産業課 農政班 地産地消食育推進事業 B 478",
+      "start": 13814,
+      "department": "産業課 農政班",
+      "contextStart": 13751,
+      "contextEnd": 13923,
+      "contextSha256": "a5e58738b784a64ca2c582512c90b45b4edce218814ef14c85e9208120ce18b5"
+    },
+    {
+      "key": "5-2",
+      "name": "横芝光町産農産物販路開拓モデル事業",
+      "parts": [
+        {
+          "raw": "横芝光町産農産物販路開拓モデ",
+          "start": 13923
+        },
+        {
+          "raw": "ル事業",
+          "start": 14004
+        }
+      ],
+      "raw": "2 51 5 1 2 ① 産業課 農政班 C 0",
+      "start": 13979,
+      "department": "産業課 農政班",
+      "contextStart": 13852,
+      "contextEnd": 14093,
+      "contextSha256": "7b0c2d88efcbb5f2f50645321b89ffef829f1a819ed412781c27ba4cd7f4026a"
+    },
+    {
+      "key": "5-3",
+      "name": "（仮称）産直交流施設検討事業",
+      "parts": [
+        {
+          "raw": "（仮称）産直交流施設検討事業",
+          "start": 14178
+        }
+      ],
+      "raw": "3 52 5 1 2 ② 産業課 経済班 （仮称）産直交流施設検討事業 D 連する事業の動向を注視する必要 0",
+      "start": 14157,
+      "department": "産業課 経済班",
+      "contextStart": 14068,
+      "contextEnd": 14283,
+      "contextSha256": "44497955bbdfde3c9cd9ccd50bccbbec5826ec0bdc7a43bc5f46ae2d08d0be46"
+    },
+    {
+      "key": "5-4",
+      "name": "農業経営体支援型新規雇用創出事業",
+      "parts": [
+        {
+          "raw": "農業経営体支援型新規雇用創出",
+          "start": 14328
+        },
+        {
+          "raw": "事業",
+          "start": 14412
+        }
+      ],
+      "raw": "4 52 5 1 3 ① 産業課 農政班 大を図るため、経営規模拡大を目標に新規に1人以上 D 0",
+      "start": 14362,
+      "department": "産業課 農政班",
+      "contextStart": 14283,
+      "contextEnd": 14457,
+      "contextSha256": "2d7b23b8781c1a2a78a96527c7d88841515e95ae807046f558cb00074ef6752f"
+    },
+    {
+      "key": "5-5",
+      "name": "経営・法人化支援事業",
+      "parts": [
+        {
+          "raw": "経営・法人化支援事業",
+          "start": 14526
+        }
+      ],
+      "raw": "5 53 5 1 3 ① 産業課 農政班 経営・法人化支援事業 B 0",
+      "start": 14505,
+      "department": "産業課 農政班",
+      "contextStart": 14432,
+      "contextEnd": 14586,
+      "contextSha256": "c881397a9b25bba6c16eb1c5b9ea057148f03b7a1c9f1b00d8b7c27712be037f"
+    },
+    {
+      "key": "5-6",
+      "name": "新規就農支援事業",
+      "parts": [
+        {
+          "raw": "新規就農支援事業",
+          "start": 14650
+        }
+      ],
+      "raw": "6 53 5 1 3 ① 産業課 農政班 新規就農支援事業 意向者に対し支援することで、農業経営を確実なもの D 0",
+      "start": 14629,
+      "department": "産業課 農政班",
+      "contextStart": 14565,
+      "contextEnd": 14727,
+      "contextSha256": "b6860dc3d86d5bd3d08c71a0ce3335164cc5a2e4027b2bcf6e9304022b2d8792"
+    },
+    {
+      "key": "5-7",
+      "name": "需給調整推進対策奨励事業",
+      "parts": [
+        {
+          "raw": "需給調整推進対策奨励事業",
+          "start": 14797
+        }
+      ],
+      "raw": "7 54 5 1 3 ④ 産業課 農政班 需給調整推進対策奨励事業 B 28,000",
+      "start": 14776,
+      "department": "産業課 農政班",
+      "contextStart": 14705,
+      "contextEnd": 14892,
+      "contextSha256": "02c0c8a268c555488bbef8cebf7aba7b53fa68fcc4368fe1f89159394aa8a999"
+    },
+    {
+      "key": "5-8",
+      "name": "空き家農家活用事業",
+      "parts": [
+        {
+          "raw": "空き家農家活用事業",
+          "start": 14913
+        }
+      ],
+      "raw": "8 54 5 1 4 ② 産業課 農政班 空き家農家活用事業 規就農者へ情報提供するなど有効な活用方策を検討 B 0",
+      "start": 14892,
+      "department": "産業課 農政班",
+      "contextStart": 14776,
+      "contextEnd": 15014,
+      "contextSha256": "3f68732982c7063cb08dc56d8f32d205adf5861f5ba809abd4e6a92ef6e5ff55"
+    },
+    {
+      "key": "5-9",
+      "name": "観光情報発信事業",
+      "parts": [
+        {
+          "raw": "観光情報発信事業",
+          "start": 15001
+        }
+      ],
+      "raw": "9 55 5 2 1 ③ 産業課 経済班 観光情報発信事業 B 0",
+      "start": 14980,
+      "department": "産業課 経済班",
+      "contextStart": 14867,
+      "contextEnd": 15086,
+      "contextSha256": "8368ebe3ac35f62343e901128f46154a1fc0f35febbe69fd72f6f979cf285db5"
+    },
+    {
+      "key": "5-10",
+      "name": "横芝駅前情報交流館管理事業",
+      "parts": [
+        {
+          "raw": "横芝駅前情報交流館管理事業",
+          "start": 15133
+        }
+      ],
+      "raw": "10 55 5 2 1 ⑥ 産業課 経済班 横芝駅前情報交流館管理事業 目的に整備した横芝駅前情報交流館「ヨリドコロ」を有 B 8,820",
+      "start": 15111,
+      "department": "産業課 経済班",
+      "contextStart": 15014,
+      "contextEnd": 15244,
+      "contextSha256": "708bedc0c497c4ea9fa2f193bcd253b543a62fcf4faf2f604b4ef925f3b45258"
+    },
+    {
+      "key": "5-11",
+      "name": "ニューツーリズム開発促進事業",
+      "parts": [
+        {
+          "raw": "ニューツーリズム開発促進事業",
+          "start": 15315
+        }
+      ],
+      "raw": "11 56 5 2 2 ② 産業課 経済班 ニューツーリズム開発促進事業 B 589",
+      "start": 15293,
+      "department": "産業課 経済班",
+      "contextStart": 15208,
+      "contextEnd": 15394,
+      "contextSha256": "051e843d3937e3e4df16402196418c864c145faaaeb3750c8220eafddf696374"
+    },
+    {
+      "key": "5-12",
+      "name": "インバウンド観光推進事業",
+      "parts": [
+        {
+          "raw": "インバウンド観光推進事業",
+          "start": 15416
+        }
+      ],
+      "raw": "12 56 5 2 2 ⑥ 産業課 経済班 インバウンド観光推進事業 B 0",
+      "start": 15394,
+      "department": "産業課 経済班",
+      "contextStart": 15293,
+      "contextEnd": 15494,
+      "contextSha256": "acdcc47158e64111288bb2c5e51b3892be5a0a51ea1f47e4ed96c2eb1926aaae"
+    },
+    {
+      "key": "5-13",
+      "name": "商工振興支援事業",
+      "parts": [
+        {
+          "raw": "商工振興支援事業",
+          "start": 15516
+        }
+      ],
+      "raw": "13 57 5 3 1 ② 産業課 経済班 商工振興支援事業 B 2,433",
+      "start": 15494,
+      "department": "産業課 経済班",
+      "contextStart": 15394,
+      "contextEnd": 15591,
+      "contextSha256": "b0d52db272bea9ae6c882f7e4f834c7abca8e4651ee2b0abbe850448ac8b23af"
+    },
+    {
+      "key": "5-14",
+      "name": "地域ブランド創出事業",
+      "parts": [
+        {
+          "raw": "地域ブランド創出事業",
+          "start": 15613
+        }
+      ],
+      "raw": "14 57 5 3 2 ① 産業課 経済班 地域ブランド創出事業 し、農業・観光と商工業との連携による地域ブランド創 B 200",
+      "start": 15591,
+      "department": "産業課 経済班",
+      "contextStart": 15494,
+      "contextEnd": 15711,
+      "contextSha256": "107b81bb1a16e25fde915bcb70afad5ccca4ba9e2bc68a114cd08de66acfec20"
+    },
+    {
+      "key": "5-15",
+      "name": "商工業振興運営事業（新規）",
+      "parts": [
+        {
+          "raw": "商工業振興運営事業（新規）",
+          "start": 15802
+        }
+      ],
+      "raw": "15 58 5 3 2 ② 産業課 経済班 商工業振興運営事業（新規） B 6,290",
+      "start": 15780,
+      "department": "産業課 経済班",
+      "contextStart": 15688,
+      "contextEnd": 15875,
+      "contextSha256": "25c0d5beb5a1e213bdf3c6b887fef3170ead1f7fea552c5f9a32b3c6ea9d2963"
+    },
+    {
+      "key": "5-16",
+      "name": "産業情報発信事業",
+      "parts": [
+        {
+          "raw": "産業情報発信事業",
+          "start": 15901
+        }
+      ],
+      "raw": "16 58 5 3 4 ① 企画空港課 企業誘致班 産業情報発信事業 録制度（企業版空き地バンク）を創設し、企業誘致候補 B 0",
+      "start": 15875,
+      "department": "企画空港課 企業誘致班",
+      "contextStart": 15780,
+      "contextEnd": 16012,
+      "contextSha256": "ee98bcfe7fd8b6d4e4d3685a12ae228036fe04719fd16abf9a7c8228d64855a3"
+    },
+    {
+      "key": "5-17",
+      "name": "企業誘致促進事業",
+      "parts": [
+        {
+          "raw": "企業誘致促進事業",
+          "start": 16038
+        }
+      ],
+      "raw": "17 59 5 3 4 ② 企画空港課 企業誘致班 企業誘致促進事業 B 16,200",
+      "start": 16012,
+      "department": "企画空港課 企業誘致班",
+      "contextStart": 15875,
+      "contextEnd": 16127,
+      "contextSha256": "9616311aa8bf8e71a653f8e86c09f6b7bb3538e3f0e8cbaca8b765480a4a9784"
+    },
+    {
+      "key": "5-20",
+      "name": "観光企業誘致事業（新規）",
+      "parts": [
+        {
+          "raw": "観光企業誘致事業（新規）",
+          "start": 16519
+        }
+      ],
+      "raw": "20 60 5 2 2 ⑤ 企画空港課 企業誘致班 観光企業誘致事業（新規） 市住民をターゲットとした観光企業をこどもの国跡地に B 0",
+      "start": 16493,
+      "department": "企画空港課 企業誘致班",
+      "contextStart": 16379,
+      "contextEnd": 16622,
+      "contextSha256": "c2186a85b652a98cc7160a550f3ca654f294ae54fa74b9e446e2eda327315afc"
+    },
+    {
+      "key": "5-21",
+      "name": "雇用促進事業・仕事マッチング事業",
+      "parts": [
+        {
+          "raw": "雇用促進事業・仕事マッチング事",
+          "start": 16748
+        },
+        {
+          "raw": "業",
+          "start": 16816
+        }
+      ],
+      "raw": "21 61 5 4 2 ② 産業課 経済班 B 42",
+      "start": 16789,
+      "department": "産業課 経済班",
+      "contextStart": 16694,
+      "contextEnd": 16890,
+      "contextSha256": "3845cd5e115ac559a43db1d28b54bbb314bf138b45f1244c74072ec4012260e8"
+    },
+    {
+      "key": "5-22",
+      "name": "移住定住促進事業",
+      "parts": [
+        {
+          "raw": "移住定住促進事業",
+          "start": 16965
+        }
+      ],
+      "raw": "22 61 5 5 1 ① 企画空港課 企画政策班 移住定住促進事業 B 2,907",
+      "start": 16939,
+      "department": "企画空港課 企画政策班",
+      "contextStart": 16844,
+      "contextEnd": 17047,
+      "contextSha256": "bcd112404da8a6387e3322cfe612e36261ef4eeee0399f8d94198f1b52c1fa4e"
+    },
+    {
+      "key": "5-23",
+      "name": "創生プロモーション事業",
+      "parts": [
+        {
+          "raw": "創生プロモーション事業",
+          "start": 17124
+        }
+      ],
+      "raw": "23 62 5 5 2 ② 企画空港課 企画政策班 創生プロモーション事業 B 0",
+      "start": 17098,
+      "department": "企画空港課 企画政策班",
+      "contextStart": 17008,
+      "contextEnd": 17201,
+      "contextSha256": "895b57af7b3efd033d115bdd08a196251da07cc194ef3b88f3ab362b85812c60"
+    },
+    {
+      "key": "5-24",
+      "name": "子育て世代魅力発信事業",
+      "parts": [
+        {
+          "raw": "子育て世代魅力発信事業",
+          "start": 17253
+        }
+      ],
+      "raw": "24 62 5 5 2 ③ 企画空港課 企画政策班 子育て世代魅力発信事業 町内外の子育て世代に積極的にPRし、横芝光町に移 B 0",
+      "start": 17227,
+      "department": "企画空港課 企画政策班",
+      "contextStart": 17140,
+      "contextEnd": 17365,
+      "contextSha256": "ec138d34e9061c7ca37ce16e3b6a75045d7c2c4ba0681d2bfe52d639e897ad47"
+    },
+    {
+      "key": "5-25",
+      "name": "千葉大学COCプラス連携事業",
+      "parts": [
+        {
+          "raw": "千葉大学COCプラス連携事業",
+          "start": 17391
+        }
+      ],
+      "raw": "25 63 5 5 3 ② 企画空港課 企画政策班 千葉大学COCプラス連携事業 とともに、若者に魅力があると思える産業と仕事を創り B 880",
+      "start": 17365,
+      "department": "企画空港課 企画政策班",
+      "contextStart": 17227,
+      "contextEnd": 17472,
+      "contextSha256": "9875b9ff402240b8968731e6632d331b326159252942a619711b5fd3ff6f8c06"
+    },
+    {
+      "key": "6-1",
+      "name": "人権啓発事業",
+      "parts": [
+        {
+          "raw": "人権啓発事業",
+          "start": 17650
+        }
+      ],
+      "raw": "1 64 6 1 1 ① 住民課 住民班 人権啓発事業 や、人権教室の開催により子供のころから人権に対す B 91",
+      "start": 17629,
+      "department": "住民課 住民班",
+      "contextStart": 17544,
+      "contextEnd": 17754,
+      "contextSha256": "568dbb674a5a9474f9b9b0d9590c5e1d130b37264958267abb74392ad8c1261a"
+    },
+    {
+      "key": "6-2",
+      "name": "人権相談事業",
+      "parts": [
+        {
+          "raw": "人権相談事業",
+          "start": 17742
+        }
+      ],
+      "raw": "2 64 6 1 2 ① 住民課 住民班 人権相談事業 B 91",
+      "start": 17721,
+      "department": "住民課 住民班",
+      "contextStart": 17604,
+      "contextEnd": 17834,
+      "contextSha256": "73ba5e5b1baa55897f0b586e605047e5c1913921f6e81e6e5543273cabef39d8"
+    },
+    {
+      "key": "6-3",
+      "name": "男女共同参画推進事業",
+      "parts": [
+        {
+          "raw": "男女共同参画推進事業",
+          "start": 17817
+        }
+      ],
+      "raw": "3 65 6 2 1 ① 企画空港課 企画政策班 男女共同参画推進事業 B 117",
+      "start": 17792,
+      "department": "企画空港課 企画政策班",
+      "contextStart": 17696,
+      "contextEnd": 17937,
+      "contextSha256": "ba2a6959297182b55f5d4a25128e2bdf337f1bde2bc1a90f0f0c39565adbe109"
+    },
+    {
+      "key": "6-4",
+      "name": "女性の活躍推進事業",
+      "parts": [
+        {
+          "raw": "女性の活躍推進事業",
+          "start": 17897
+        }
+      ],
+      "raw": "4 65 6 2 2 ② 企画空港課 企画政策班 女性の活躍推進事業 参画を推進するとともに、働く場での男女のワーク・ラ B 0",
+      "start": 17872,
+      "department": "企画空港課 企画政策班",
+      "contextStart": 17768,
+      "contextEnd": 18004,
+      "contextSha256": "54175afd2ec13dbc5c57e4e2c3e64f93bf6e6edaacb979f76d031e51c1b1a221"
+    },
+    {
+      "key": "6-5",
+      "name": "英語講師配置事業",
+      "parts": [
+        {
+          "raw": "英語講師配置事業",
+          "start": 18025
+        }
+      ],
+      "raw": "5 66 6 3 1 ① 教育課 総務班 英語講師配置事業 B 24,718",
+      "start": 18004,
+      "department": "教育課 総務班",
+      "contextStart": 17872,
+      "contextEnd": 18116,
+      "contextSha256": "123064f37d30cbc9d30af7f92ee006786ff975d4b96d2d8b6dc9730418c17b04"
+    },
+    {
+      "key": "6-6",
+      "name": "国際交流事業",
+      "parts": [
+        {
+          "raw": "国際交流事業",
+          "start": 18141
+        }
+      ],
+      "raw": "6 66 6 3 2 ② 企画空港課 企画政策班 国際交流事業 人との交流を通じて、国際理解を深め、一人ひとりの C ズ国との交流等の事業を検討する 63",
+      "start": 18116,
+      "department": "企画空港課 企画政策班",
+      "contextStart": 18004,
+      "contextEnd": 18260,
+      "contextSha256": "b8f6066b1241c69eaa9a09be585604a08d60d36adf2b19181d0efadae80ea1cd"
+    },
+    {
+      "key": "6-8",
+      "name": "提案型協働のまちづくり推進事業",
+      "parts": [
+        {
+          "raw": "提案型協働のまちづくり推進事業",
+          "start": 18469
+        }
+      ],
+      "raw": "8 67 6 4 2 ① 企画空港課 企画政策班 提案型協働のまちづくり推進事業 するため、町内生活圏を共にする集団の活動の活性 B 1,000",
+      "start": 18444,
+      "department": "企画空港課 企画政策班",
+      "contextStart": 18380,
+      "contextEnd": 18572,
+      "contextSha256": "370df675c8d57b6a9aa44c7b556a4aba82874191a64f7e00821b05c415c0461e"
+    },
+    {
+      "key": "構想-2",
+      "name": "対話行政推進事業",
+      "parts": [
+        {
+          "raw": "対話行政推進事業",
+          "start": 18959
+        }
+      ],
+      "raw": "2 68 構想 1 2 ② 総務課 秘書広報班 対話行政推進事業 指して、町長自らが地域に出向き意見交換をすること B 11",
+      "start": 18935,
+      "department": "総務課 秘書広報班",
+      "contextStart": 18873,
+      "contextEnd": 19110,
+      "contextSha256": "58159a0fee83dbb58ac109c03246619230cc0bf529fbd67b4379ac396783ff62"
+    },
+    {
+      "key": "構想-3",
+      "name": "個人情報保護の徹底",
+      "parts": [
+        {
+          "raw": "個人情報保護の徹底",
+          "start": 19069
+        }
+      ],
+      "raw": "3 69 構想 2 1 ④ 総務課 行政班 個人情報保護の徹底 ることにより、個人情報の漏えい、滅失又は毀損を防 B 277",
+      "start": 19047,
+      "department": "総務課 行政班",
+      "contextStart": 18910,
+      "contextEnd": 19171,
+      "contextSha256": "481f8947407d001e752118ba602da030bd89d4f464f8c9d2103f52199a24b82f"
+    },
+    {
+      "key": "構想-4",
+      "name": "職員研修事業",
+      "parts": [
+        {
+          "raw": "職員研修事業",
+          "start": 19193
+        }
+      ],
+      "raw": "4 69 構想 2 2 ① 総務課 行政班 職員研修事業 B 538",
+      "start": 19171,
+      "department": "総務課 行政班",
+      "contextStart": 19047,
+      "contextEnd": 19264,
+      "contextSha256": "6e5899ef94b549ac33ab22a42fade093822abd3e200dc9a15dbf0d1ea4525c25"
+    },
+    {
+      "key": "構想-5",
+      "name": "行政評価事業",
+      "parts": [
+        {
+          "raw": "行政評価事業",
+          "start": 19315
+        }
+      ],
+      "raw": "5 70 構想 2 3 ① 企画空港課 企画政策班 行政評価事業 価することでPDCAサイクルのもと効果的で効率的な行 B 0",
+      "start": 19289,
+      "department": "企画空港課 企画政策班",
+      "contextStart": 19206,
+      "contextEnd": 19419,
+      "contextSha256": "e691d9f7d8070a98e9bdff52d16fd326041dc0b3c70e17c6f4bfb6b1ab1f7ae9"
+    },
+    {
+      "key": "構想-6",
+      "name": "財政計画策定事業",
+      "parts": [
+        {
+          "raw": "財政計画策定事業",
+          "start": 19441
+        }
+      ],
+      "raw": "6 70 構想 3 1 ① 財政課 財政班 財政計画策定事業 進を図るため、中長期的な展望に立った財政計画を策 B 0",
+      "start": 19419,
+      "department": "財政課 財政班",
+      "contextStart": 19289,
+      "contextEnd": 19533,
+      "contextSha256": "dd7f20b6b816c93559c74a405166cc6121dfa75f20ec88b62e8a0e57eee25c86"
+    },
+    {
+      "key": "構想-7",
+      "name": "個別施設計画策定事業",
+      "parts": [
+        {
+          "raw": "個別施設計画策定事業",
+          "start": 19555
+        }
+      ],
+      "raw": "7 71 構想 3 2 ① 財政課 管財班 個別施設計画策定事業 B 0",
+      "start": 19533,
+      "department": "財政課 管財班",
+      "contextStart": 19419,
+      "contextEnd": 19621,
+      "contextSha256": "bfa859bf26bbb2851a0871f511626ceb353f71c9e261b9c2b57c183150e57f17"
+    },
+    {
+      "key": "構想-8",
+      "name": "施設使用料の見直し",
+      "parts": [
+        {
+          "raw": "施設使用料の見直し",
+          "start": 19643
+        }
+      ],
+      "raw": "8 71 構想 3 2 ② 財政課 財政班 施設使用料の見直し B 0",
+      "start": 19621,
+      "department": "財政課 財政班",
+      "contextStart": 19533,
+      "contextEnd": 19746,
+      "contextSha256": "302e4396887e5ecfdb2547194d48964ee9b475b871d99df073d139d4e2af888d"
+    },
+    {
+      "key": "構想-9",
+      "name": "戦略的な連携事業",
+      "parts": [
+        {
+          "raw": "戦略的な連携事業",
+          "start": 19699
+        }
+      ],
+      "raw": "9 72 構想 4 1 ③ 企画空港課 空港班 戦略的な連携事業 成田空港圏自治体において連携し地域の活性化を図る。 B 300",
+      "start": 19675,
+      "department": "企画空港課 空港班",
+      "contextStart": 19594,
+      "contextEnd": 19746,
+      "contextSha256": "a5d8d97b73a3b03bf98fb49bef711656eb89ce294d0b68f7cd83a954a75056b8"
+    }
+  ]
+};
