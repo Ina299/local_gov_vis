@@ -1,0 +1,53 @@
+{
+  "sourceId": "aa19b8a44b289da415a72c6a",
+  "scannedRanges": [
+    {
+      "start": 20500,
+      "end": 41651,
+      "reason": "All special-account narratives and final financial/asset schedules reviewed"
+    }
+  ],
+  "acceptedNames": [
+    "一般被保険者療養給付費",
+    "一般被保険者療養費",
+    "一般被保険者高額療養費",
+    "一般被保険者高額介護合算療養費",
+    "葬祭費",
+    "特定健康診査等事業費",
+    "介護認定審査会費",
+    "介護保険運営協議会費",
+    "居宅介護サービス等給付費",
+    "地域密着型介護サービス等給付費",
+    "施設介護サービス給付費",
+    "居宅介護等福祉用具購入費",
+    "居宅介護等住宅改修費",
+    "居宅介護等サービス計画給付費",
+    "高額介護サービス等費",
+    "高額医療合算介護サービス等費",
+    "特定入所者介護サービス等費",
+    "家族介護支援事業",
+    "中央処理区 No.4 中継ポンプ場変換機更新及び取付部修繕",
+    "小型合併浄化槽放流ポンプ取替修繕（下高町農村公園）",
+    "浄化センター汚泥引抜作業手数料（5 処理区）",
+    "個別排水処理区浄化槽清掃手数料",
+    "浄化センタ一保守点検委託（5 処理区）",
+    "管路清掃委託",
+    "個別排水処理施設保守点検委託",
+    "神成川・中央浄化センターLED 照明器具交換工事",
+    "公共汚水桝設置工事",
+    "マンホール蓋交換工事",
+    "小型合併浄化槽更新工事",
+    "真空ポンプ分解整備工事",
+    "真空ステーション改修工事",
+    "個別排水処理施設災害復旧工事"
+  ],
+  "numericHold": "Detached side-by-side columns, service maximum benefits and historic spending series not assigned to FY2024 actuals.",
+  "omitted": [
+    "inter-account transfers and tax/income items",
+    "general personnel and reserve/fund movements",
+    "malformed 保健衛生普及費事業費事業費 label retained as unresolved literal title",
+    "generic 審査支払手数料 reused for different accounts;scope not inferred",
+    "asset holdings/equipment quantities are not additional programmes"
+  ],
+  "prior144Preserved": true
+}

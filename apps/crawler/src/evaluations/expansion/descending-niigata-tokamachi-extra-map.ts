@@ -1,0 +1,286 @@
+export const reviewed = [
+  {
+    "municipalityCode": "15210",
+    "municipalityName": "十日町市",
+    "sourceId": "81bb7c068b21ea5c6c3fc28b",
+    "sourceUrl": "https://www.city.tokamachi.lg.jp/material/files/group/3/kokitasseidohoukoku.pdf",
+    "sourceSha256": "6e5bede88c5c70e707a188e133830144131698e3d44400ab8b70aea4045b6b65",
+    "textSha256": "b0e25a2e19a93173972cd69a1a52bcdf4651cfce821f125d076bad75734d97e7",
+    "yearProof": "※平成 27 年度実施計画書に登載のある事業を対象に実施した。",
+    "yearProofStart": 1132,
+    "rows": [
+      {
+        "name": "社会体育推進事業",
+        "parts": [
+          {
+            "raw": "社会体育推進事業",
+            "start": 6804
+          }
+        ],
+        "contextStart": 6804,
+        "context": "社会体育推進事業",
+        "contextSha256": "184d18c10b9d5be83e3ab60974a265fb81536aadcca7f854a1c4fee6a498e2b2"
+      },
+      {
+        "name": "体育施設整備事業",
+        "parts": [
+          {
+            "raw": "体育施設整備事業",
+            "start": 6930
+          }
+        ],
+        "contextStart": 6930,
+        "context": "体育施設整備事業",
+        "contextSha256": "a37f7693b76aa27aa96f0c48a5f68fb40a7c676e696552e0096d8a14487644e3"
+      },
+      {
+        "name": "生涯学習事業",
+        "parts": [
+          {
+            "raw": "生涯学習事業",
+            "start": 12620
+          }
+        ],
+        "contextStart": 12620,
+        "context": "生涯学習事業",
+        "contextSha256": "d923114e160433702eb51d500bd266a6f6e6b6072f640f207a2ac9025f39316f"
+      },
+      {
+        "name": "資料購入・整理経費",
+        "parts": [
+          {
+            "raw": "資料購入・整理経費",
+            "start": 13009
+          }
+        ],
+        "contextStart": 13009,
+        "context": "資料購入・整理経費",
+        "contextSha256": "6d62cb60117fef7a8ac5d83efabd1dd21bacdb681f6276be6399d7c031fb1f98"
+      },
+      {
+        "name": "騒音・振動・悪臭対策経費",
+        "parts": [
+          {
+            "raw": "騒音・振動・悪臭対策経費",
+            "start": 19656
+          }
+        ],
+        "contextStart": 19656,
+        "context": "騒音・振動・悪臭対策経費",
+        "contextSha256": "332480999c5cbd3cb19e8e6846d827d7a04c79ac82ff058fbd9eaafab2e339b5"
+      },
+      {
+        "name": "地すべり対策事業",
+        "parts": [
+          {
+            "raw": "地すべり対策事業",
+            "start": 19896
+          }
+        ],
+        "contextStart": 19896,
+        "context": "地すべり対策事業",
+        "contextSha256": "85ce7290f2c6ddfaf6d6963f383afbe785c8e297c9072aca29ceca5a0bbd6a1f"
+      },
+      {
+        "name": "十日町地域河川改修事業",
+        "parts": [
+          {
+            "raw": "十日町地域河川改修事業",
+            "start": 20051
+          }
+        ],
+        "contextStart": 20051,
+        "context": "十日町地域河川改修事業",
+        "contextSha256": "6f963710f37c9fc3aea6718252b8050d223abb9345a3db0a1297db0e06a7d9ab"
+      },
+      {
+        "name": "市営住宅改修事業",
+        "parts": [
+          {
+            "raw": "市営住宅改修事業",
+            "start": 22531
+          }
+        ],
+        "contextStart": 22531,
+        "context": "市営住宅改修事業",
+        "contextSha256": "b56daaba7a92d9ba1dc10b544546c7ed41f997c2c366c6d49c30f483b3172ce1"
+      },
+      {
+        "name": "住宅建設事業",
+        "parts": [
+          {
+            "raw": "住宅建設事業",
+            "start": 22641
+          }
+        ],
+        "contextStart": 22641,
+        "context": "住宅建設事業",
+        "contextSha256": "88fa765b7dce253afd82cb0c156c7fcec45b0e9487d2cda01e3d02f729f1ccbd"
+      },
+      {
+        "name": "地籍調査事業",
+        "parts": [
+          {
+            "raw": "地籍調査事業",
+            "start": 23059
+          }
+        ],
+        "contextStart": 23059,
+        "context": "地籍調査事業",
+        "contextSha256": "f343b672f99a5855610ddf7473b154c8c7e6fbce462680e9eccda22d9945346a"
+      },
+      {
+        "name": "児童扶養手当支給事業",
+        "parts": [
+          {
+            "raw": "児童扶養手当支給事業",
+            "start": 25244
+          }
+        ],
+        "contextStart": 25244,
+        "context": "児童扶養手当支給事業",
+        "contextSha256": "9cf2a1d405dbdf84b4b34ee4e2e4823c1c97068ff117d28584b5722d2943d88d"
+      },
+      {
+        "name": "結婚促進事業",
+        "parts": [
+          {
+            "raw": "結婚促進事業",
+            "start": 26007
+          }
+        ],
+        "contextStart": 26007,
+        "context": "結婚促進事業",
+        "contextSha256": "568dbefef12ee1a62de038640b7a084141bd5c8e7b3e4332b2b88daa8f869a24"
+      },
+      {
+        "name": "雇用対策費",
+        "parts": [
+          {
+            "raw": "雇用対策費",
+            "start": 18789
+          }
+        ],
+        "contextStart": 18789,
+        "context": "雇用対策費",
+        "contextSha256": "23ac0b53b2a8aeead47a516a375f9ad308956d0125f681734c4e290683e1acaa"
+      },
+      {
+        "name": "林道整備事業",
+        "parts": [
+          {
+            "raw": "林道整備事業",
+            "start": 16600
+          }
+        ],
+        "contextStart": 16600,
+        "context": "林道整備事業",
+        "contextSha256": "a03d15b3b7646bed3c495369efd5239115508d02e6eaad17db602f41f1f1f5ce"
+      },
+      {
+        "name": "きのこ王国支援事業",
+        "parts": [
+          {
+            "raw": "きのこ王国支援事業",
+            "start": 16646
+          }
+        ],
+        "contextStart": 16646,
+        "context": "きのこ王国支援事業",
+        "contextSha256": "dde58d970fcbb4183bb17d2e5696934fc9cd8f3c08fefbe729b805710a45fa82"
+      },
+      {
+        "name": "NPO活動支援交付金",
+        "parts": [
+          {
+            "raw": "NPO活動支援交付金",
+            "start": 10678
+          }
+        ],
+        "contextStart": 10678,
+        "context": "NPO活動支援交付金",
+        "contextSha256": "3edd1479f5a5bea6cee939f956db14246a9160a11c1c446f4bf1bf8ff65d6873"
+      },
+      {
+        "name": "松之山地域緑と水の総合治山事業",
+        "parts": [
+          {
+            "raw": "松之山地域緑と水の総合",
+            "start": 19945
+          },
+          {
+            "raw": "治山事業",
+            "start": 20009
+          }
+        ],
+        "contextStart": 19945,
+        "context": "松之山地域緑と水の総合 中里地域を中心に17件の県営復旧治山工事が行われた。\n治山治水事業の促進 目標値未設定項目\n17\n27 治山事業",
+        "contextSha256": "fe9d2902b1d11eff49646beb6615e4c6d3535725f7f17f5b5b402f58f268c0e8"
+      },
+      {
+        "name": "生産森林組合育成経費補助事業",
+        "parts": [
+          {
+            "raw": "生産森林組合育成経費補助",
+            "start": 16535
+          },
+          {
+            "raw": "事業",
+            "start": 16596
+          }
+        ],
+        "contextStart": 16535,
+        "context": "生産森林組合育成経費補助 目標値未設定項目\n18 利用の下、促進を図った。特用林産物である「きのこ」については、生産工場\n事業",
+        "contextSha256": "c1798783e8ed48ba49e56b310b381c9716fa4b3fd1168462f2ce5c0aeca65014"
+      },
+      {
+        "name": "市単水田利活用自給力向上事業",
+        "parts": [
+          {
+            "raw": "市単水田利活用自給力向上事",
+            "start": 5775
+          },
+          {
+            "raw": "業",
+            "start": 5812
+          }
+        ],
+        "contextStart": 5775,
+        "context": "市単水田利活用自給力向上事 り、目標値を大幅に上回る結果となった。これも農業",
+        "contextSha256": "63f2092b0d776339307216c651bf71a7198cd358f06da0afc58377fa2ee33c57"
+      },
+      {
+        "name": "環境保全型農業直接支援対策事業",
+        "parts": [
+          {
+            "raw": "環境保全型農業直接支援対策",
+            "start": 15366
+          },
+          {
+            "raw": "事業",
+            "start": 15424
+          }
+        ],
+        "contextStart": 15366,
+        "context": "環境保全型農業直接支援対策 が少ないため農業者にとって魅力のない制度となっている。H27年度からは環\n（単位：人） 事業",
+        "contextSha256": "43a1621d107e9ca535c7512088cc244a9e5cd875e0fe4beb2bac2867d8b2c016"
+      },
+      {
+        "name": "ひとり親家庭等医療費助成事業",
+        "parts": [
+          {
+            "raw": "ひとり親家庭等医療費助成",
+            "start": 25290
+          },
+          {
+            "raw": "事業",
+            "start": 25339
+          }
+        ],
+        "contextStart": 25290,
+        "context": "ひとり親家庭等医療費助成 行った。また、就職に有利で安定した収入が期待できる資格取得のため、養成\n事業",
+        "contextSha256": "3887c76f23498dad20aae2866d29475db41d65820fdfcbc0084f1128964f3798"
+      }
+    ]
+  }
+];

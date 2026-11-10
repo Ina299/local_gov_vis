@@ -1,0 +1,45 @@
+{
+  "sourceId": "3c30261b9d3a197216c19d81",
+  "accepted": "下水4:three explicit dash cells thenR1/R2actuals1925/2448;sum4373;dash not converted tozero",
+  "holds": [
+    {
+      "code": "511",
+      "reason": "Three annual numbers plus total and H30new but earlier blank cell coordinates absent;do not assign by arithmetic alone"
+    },
+    {
+      "code": "512",
+      "reason": "Three annual numbers plus total and H30new;missing blank-cell positions"
+    },
+    {
+      "code": "514",
+      "reason": "Two annual numbers plus total,R1new;no original column coordinates"
+    },
+    {
+      "code": "515",
+      "reason": "One value plus total,R2new;explicit beginning year is not independently retained amount-cell coordinate"
+    },
+    {
+      "code": "331",
+      "reason": "Two values plus total,R1plan inclusion;no explicit empty columns"
+    },
+    {
+      "code": "510",
+      "reason": "One value plus total andH30completion;cannot identify expenditure year from completionyear"
+    },
+    {
+      "code": "142",
+      "reason": "Two values plus total, no year-specific placeholders"
+    },
+    {
+      "code": "介6",
+      "reason": "Fourannual values forfivecolumns;missing cell not locatable"
+    },
+    {
+      "code": "65-subset",
+      "reason": "Three-number component of already accepted fiveyearprogramme;componentyears/identity ambiguous"
+    }
+  ],
+  "missingTailCharacters": 106600,
+  "listedContinuations": 0,
+  "networkAccess": false
+}

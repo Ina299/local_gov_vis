@@ -1,0 +1,45 @@
+export const reviewed = [
+  {
+    "municipalityCode": "15225",
+    "municipalityName": "魚沼市",
+    "sourceId": "3c30261b9d3a197216c19d81",
+    "sourceUrl": "https://www.city.uonuma.lg.jp/uploaded/attachment/2037.pdf",
+    "sourceSha256": "a859e86e99ec0b6939b4282413def91bc6bed2a6873237c880c52633dc6a5b20",
+    "textSha256": "5a8938fc0a5b93d5e981bde03b0680aafd1168095591553cd457ecd35eb74c9c",
+    "yearProof": "第二次魚沼市総合計画\n前期基本計画\n評価結果報告書\n令和 3 年 9 月\n魚 沼 市\n",
+    "yearProofStart": 0,
+    "rows": [
+      {
+        "code": "下水4",
+        "name": "穴沢・横根地区農業集落排水施設統合事業",
+        "segments": [
+          {
+            "raw": "穴沢・横根地区農業集",
+            "start": 35641
+          },
+          {
+            "raw": "落排水施設統合事業",
+            "start": 35656
+          }
+        ],
+        "department": null,
+        "values": [
+          null,
+          null,
+          null,
+          1925,
+          2448,
+          4373
+        ],
+        "valueProof": "- - - 1,925 2,448 4,373",
+        "valueStart": 35672,
+        "codeProof": "下水4",
+        "codeStart": 35652,
+        "sectionStart": 35421,
+        "header": "３．施策を構成する事業 〔事業費単位：千円〕\n事業 重点 H28 H29 H30 R1 R2 事後評価\n事務事業名 担当課 合計\n№ 事業 決算 決算 決算 決算 決算",
+        "contextStart": 35641,
+        "context": "穴沢・横根地区農業集\n下水4\n落排水施設統合事業\n― 施設課 - - - 1,925 2,448 4,373"
+      }
+    ]
+  }
+];

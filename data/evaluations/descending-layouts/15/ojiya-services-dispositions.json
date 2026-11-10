@@ -1,0 +1,1403 @@
+[
+  {
+    "name": "議会経費",
+    "department": "議会事務局",
+    "start": 31082,
+    "raw": "○議会経費【議会事務局】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 0
+  },
+  {
+    "name": "議会事務局経費",
+    "department": "議会事務局",
+    "start": 32824,
+    "raw": "○議会事務局経費【議会事務局】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 1
+  },
+  {
+    "name": "行政視察経費",
+    "department": "議会事務局",
+    "start": 32870,
+    "raw": "○行政視察経費【議会事務局】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 2
+  },
+  {
+    "name": "総務課経費",
+    "department": "総務課",
+    "start": 33227,
+    "raw": "○総務課経費【総務課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 3
+  },
+  {
+    "name": "特別職給与費",
+    "department": "総務課",
+    "start": 39504,
+    "raw": "○特別職給与費【総務課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 4
+  },
+  {
+    "name": "褒賞経費",
+    "department": "企画政策課",
+    "start": 39827,
+    "raw": "○褒賞経費【企画政策課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 5
+  },
+  {
+    "name": "町内会経費",
+    "department": "総務課",
+    "start": 40133,
+    "raw": "○町内会経費【総務課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 6
+  },
+  {
+    "name": "庁舎管理経費",
+    "department": "総務課",
+    "start": 40224,
+    "raw": "○庁舎管理経費【総務課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 7
+  },
+  {
+    "name": "職員福利厚生経費",
+    "department": "総務課",
+    "start": 40548,
+    "raw": "○職員福利厚生経費【総務課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 8
+  },
+  {
+    "name": "職員研修経費",
+    "department": "総務課",
+    "start": 40659,
+    "raw": "○職員研修経費【総務課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 9
+  },
+  {
+    "name": "市長会経費",
+    "department": "企画政策課",
+    "start": 40788,
+    "raw": "○市長会経費【企画政策課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 10
+  },
+  {
+    "name": "市民災害保険経費",
+    "department": "総務課",
+    "start": 40995,
+    "raw": "○市民災害保険経費【総務課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 11
+  },
+  {
+    "name": "会計管理経費",
+    "department": "総務課",
+    "start": 43330,
+    "raw": "○会計管理経費【総務課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 13
+  },
+  {
+    "name": "生活安全経費",
+    "department": "市民生活課",
+    "start": 44043,
+    "raw": "○生活安全経費【市民生活課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 14
+  },
+  {
+    "name": "片貝総合センター管理運営経費",
+    "department": "市民生活課",
+    "start": 44618,
+    "raw": "○片貝総合センター管理運営経費【市民生活課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 15
+  },
+  {
+    "name": "住民センター管理運営経費",
+    "department": "市民生活課",
+    "start": 44851,
+    "raw": "○住民センター管理運営経費【市民生活課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 16
+  },
+  {
+    "name": "文書管理経費",
+    "department": "総務課",
+    "start": 46391,
+    "raw": "○文書管理経費【総務課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 19
+  },
+  {
+    "name": "広報広聴経費",
+    "department": "企画政策課",
+    "start": 48046,
+    "raw": "○広報広聴経費【企画政策課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 21
+  },
+  {
+    "name": "普通財産管理経費",
+    "department": "総務課",
+    "start": 49345,
+    "raw": "○普通財産管理経費【総務課】",
+    "status": "not_individual_service_heading",
+    "reason": "Two departments are printed consecutively; original single-department capture is incomplete. Do not silently retain only first department.",
+    "index": 22
+  },
+  {
+    "name": "車両管理経費",
+    "department": "総務課",
+    "start": 50403,
+    "raw": "○車両管理経費【総務課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 23
+  },
+  {
+    "name": "企画政策課経費",
+    "department": "企画政策課",
+    "start": 53241,
+    "raw": "○企画政策課経費【企画政策課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 25
+  },
+  {
+    "name": "交通安全推進経費",
+    "department": "防災安全課",
+    "start": 58549,
+    "raw": "○交通安全推進経費【防災安全課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 28
+  },
+  {
+    "name": "過年度収入払戻金",
+    "department": "税務課",
+    "start": 62402,
+    "raw": "○過年度収入払戻金【税務課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 32
+  },
+  {
+    "name": "税務課経費",
+    "department": "税務課",
+    "start": 62470,
+    "raw": "○税務課経費【税務課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 33
+  },
+  {
+    "name": "賦課徴収経費",
+    "department": "税務課",
+    "start": 62536,
+    "raw": "○賦課徴収経費【税務課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 34
+  },
+  {
+    "name": "固定資産評価審査委員会経費",
+    "department": "監査委員事務局",
+    "start": 66962,
+    "raw": "○固定資産評価審査委員会経費【監査委員事務局】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 35
+  },
+  {
+    "name": "戸籍住民基本台帳経費",
+    "department": "市民生活課",
+    "start": 67051,
+    "raw": "○戸籍住民基本台帳経費【市民生活課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 36
+  },
+  {
+    "name": "選挙管理委員会経費",
+    "department": "総務課",
+    "start": 71311,
+    "raw": "○選挙管理委員会経費【総務課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 37
+  },
+  {
+    "name": "衆議院議員総選挙及び最高裁判所裁判官国民審査経費",
+    "department": "総務課",
+    "start": 71880,
+    "raw": "○衆議院議員総選挙及び最高裁判所裁判官国民審査経費【総務課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 38
+  },
+  {
+    "name": "統計調査総務経費",
+    "department": "総務課",
+    "start": 72854,
+    "raw": "○統計調査総務経費【総務課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 39
+  },
+  {
+    "name": "その他統計調査経費",
+    "department": "総務課",
+    "start": 72938,
+    "raw": "○その他統計調査経費【総務課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 40
+  },
+  {
+    "name": "農林業センサス経費",
+    "department": "総務課",
+    "start": 73386,
+    "raw": "○農林業センサス経費【総務課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 41
+  },
+  {
+    "name": "監査委員経費",
+    "department": "監査委員事務局",
+    "start": 73735,
+    "raw": "○監査委員経費【監査委員事務局】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 42
+  },
+  {
+    "name": "災害救助経費",
+    "department": "防災安全課",
+    "start": 74081,
+    "raw": "○災害救助経費【防災安全課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 43
+  },
+  {
+    "name": "社会福祉総務経費",
+    "department": "福祉課",
+    "start": 74384,
+    "raw": "○社会福祉総務経費【福祉課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 44
+  },
+  {
+    "name": "民生委員・児童委員経費",
+    "department": "福祉課",
+    "start": 75027,
+    "raw": "○民生委員・児童委員経費【福祉課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 45
+  },
+  {
+    "name": "遺家族援護経費",
+    "department": "福祉課",
+    "start": 75489,
+    "raw": "○遺家族援護経費【福祉課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 47
+  },
+  {
+    "name": "総合福祉センター管理運営経費",
+    "department": "福祉課",
+    "start": 75545,
+    "raw": "○総合福祉センター管理運営経費【福祉課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 48
+  },
+  {
+    "name": "地域福祉センター管理運営経費",
+    "department": "福祉課",
+    "start": 75770,
+    "raw": "○地域福祉センター管理運営経費【福祉課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 49
+  },
+  {
+    "name": "国民健康保険特別会計繰出金",
+    "department": "市民生活課",
+    "start": 75997,
+    "raw": "○国民健康保険特別会計繰出金【市民生活課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 50
+  },
+  {
+    "name": "障害者福祉総務経費",
+    "department": "福祉課",
+    "start": 77190,
+    "raw": "○障害者福祉総務経費【福祉課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 54
+  },
+  {
+    "name": "障害者介護給付費等支給審査会経費",
+    "department": "福祉課",
+    "start": 78196,
+    "raw": "○障害者介護給付費等支給審査会経費【福祉課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 55
+  },
+  {
+    "name": "障害者介護給付費等認定調査経費",
+    "department": "福祉課",
+    "start": 78363,
+    "raw": "○障害者介護給付費等認定調査経費【福祉課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 56
+  },
+  {
+    "name": "老人福祉総務経費",
+    "department": "福祉課",
+    "start": 83653,
+    "raw": "○老人福祉総務経費【福祉課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 65
+  },
+  {
+    "name": "施設管理運営経費",
+    "department": "福祉課",
+    "start": 86212,
+    "raw": "○施設管理運営経費【福祉課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 71
+  },
+  {
+    "name": "介護保険特別会計繰出金",
+    "department": "福祉課",
+    "start": 87274,
+    "raw": "○介護保険特別会計繰出金【福祉課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 72
+  },
+  {
+    "name": "後期高齢者医療特別会計繰出金",
+    "department": "市民生活課",
+    "start": 87308,
+    "raw": "○後期高齢者医療特別会計繰出金【市民生活課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 73
+  },
+  {
+    "name": "国民年金経費",
+    "department": "市民生活課",
+    "start": 87362,
+    "raw": "○国民年金経費【市民生活課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 74
+  },
+  {
+    "name": "児童福祉経費",
+    "department": "健康・子育て応援課",
+    "start": 88481,
+    "raw": "○児童福祉経費【健康・子育て応援課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 75
+  },
+  {
+    "name": "保育園経費",
+    "department": "教育・保育課",
+    "start": 88996,
+    "raw": "○保育園経費【教育・保育課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 76
+  },
+  {
+    "name": "母子福祉経費",
+    "department": "健康・子育て応援課",
+    "start": 93350,
+    "raw": "○母子福祉経費【健康・子育て応援課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 83
+  },
+  {
+    "name": "児童遊園管理経費",
+    "department": "教育・保育課",
+    "start": 94061,
+    "raw": "○児童遊園管理経費【教育・保育課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 86
+  },
+  {
+    "name": "健康・こどもプラザ経費",
+    "department": "教育・保育課",
+    "start": 94524,
+    "raw": "○健康・こどもプラザ経費【教育・保育課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 87
+  },
+  {
+    "name": "生活保護経費",
+    "department": "福祉課",
+    "start": 94568,
+    "raw": "○生活保護経費【福祉課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 88
+  },
+  {
+    "name": "保健衛生総務経費",
+    "department": "健康・子育て応援課",
+    "start": 95680,
+    "raw": "○保健衛生総務経費【健康・子育て応援課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 92
+  },
+  {
+    "name": "精神保健経費",
+    "department": "健康・子育て応援課",
+    "start": 97401,
+    "raw": "○精神保健経費【健康・子育て応援課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 94
+  },
+  {
+    "name": "健康増進総務経費",
+    "department": "健康・子育て応援課",
+    "start": 98055,
+    "raw": "○健康増進総務経費【健康・子育て応援課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 96
+  },
+  {
+    "name": "環境衛生経費",
+    "department": "環境共生課",
+    "start": 104539,
+    "raw": "○環境衛生経費【環境共生課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 106
+  },
+  {
+    "name": "斎場管理経費",
+    "department": "環境共生課",
+    "start": 105423,
+    "raw": "○斎場管理経費【環境共生課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 108
+  },
+  {
+    "name": "環境保全対策経費",
+    "department": "環境共生課",
+    "start": 105653,
+    "raw": "○環境保全対策経費【環境共生課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 109
+  },
+  {
+    "name": "清掃総務経費",
+    "department": "環境共生課",
+    "start": 106756,
+    "raw": "○清掃総務経費【環境共生課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 111
+  },
+  {
+    "name": "ごみ収集経費",
+    "department": "環境共生課",
+    "start": 106779,
+    "raw": "○ごみ収集経費【環境共生課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 112
+  },
+  {
+    "name": "可燃ごみ処理経費",
+    "department": "環境共生課",
+    "start": 107134,
+    "raw": "○可燃ごみ処理経費【環境共生課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 113
+  },
+  {
+    "name": "不燃ごみ処理経費",
+    "department": "環境共生課",
+    "start": 107718,
+    "raw": "○不燃ごみ処理経費【環境共生課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 114
+  },
+  {
+    "name": "し尿処理経費",
+    "department": "環境共生課",
+    "start": 108586,
+    "raw": "○し尿処理経費【環境共生課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 115
+  },
+  {
+    "name": "簡易水道組合補助金",
+    "department": "環境共生課",
+    "start": 109114,
+    "raw": "○簡易水道組合補助金【環境共生課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 116
+  },
+  {
+    "name": "水道事業会計資本費補助金",
+    "department": "環境共生課",
+    "start": 109187,
+    "raw": "○水道事業会計資本費補助金【環境共生課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 117
+  },
+  {
+    "name": "水道事業会計退職給付費負担金",
+    "department": "環境共生課",
+    "start": 109208,
+    "raw": "○水道事業会計退職給付費負担金【環境共生課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 118
+  },
+  {
+    "name": "勤労青少年ホーム経費",
+    "department": "文化スポーツ課",
+    "start": 109329,
+    "raw": "○勤労青少年ホーム経費【文化スポーツ課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 119
+  },
+  {
+    "name": "労働諸経費",
+    "department": "商工振興課",
+    "start": 110068,
+    "raw": "○労働諸経費【商工振興課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 121
+  },
+  {
+    "name": "農業委員会経費",
+    "department": "農林課",
+    "start": 111681,
+    "raw": "○農業委員会経費【農林課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 122
+  },
+  {
+    "name": "農業総務経費",
+    "department": "農林課",
+    "start": 114398,
+    "raw": "○農業総務経費【農林課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 123
+  },
+  {
+    "name": "農業管理センター経費",
+    "department": "農林課",
+    "start": 114479,
+    "raw": "○農業管理センター経費【農林課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 124
+  },
+  {
+    "name": "農業者等就労施設経費",
+    "department": "農林課",
+    "start": 114702,
+    "raw": "○農業者等就労施設経費【農林課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 125
+  },
+  {
+    "name": "農業振興経費",
+    "department": "農林課",
+    "start": 114841,
+    "raw": "○農業振興経費【農林課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 126
+  },
+  {
+    "name": "ふれあいの里管理経費",
+    "department": "にぎわい交流課",
+    "start": 118887,
+    "raw": "○ふれあいの里管理経費【にぎわい交流課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 130
+  },
+  {
+    "name": "生産調整対策経費",
+    "department": "農林課",
+    "start": 119234,
+    "raw": "○生産調整対策経費【農林課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 131
+  },
+  {
+    "name": "農地管理経費",
+    "department": "農林課",
+    "start": 120014,
+    "raw": "○農地管理経費【農林課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 132
+  },
+  {
+    "name": "農業集落排水事業負担金",
+    "department": "農林課",
+    "start": 122773,
+    "raw": "○農業集落排水事業負担金【農林課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 134
+  },
+  {
+    "name": "畜産振興経費",
+    "department": "農林課",
+    "start": 123738,
+    "raw": "○畜産振興経費【農林課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 136
+  },
+  {
+    "name": "堆肥センター管理運営経費",
+    "department": "農林課",
+    "start": 123972,
+    "raw": "○堆肥センター管理運営経費【農林課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 137
+  },
+  {
+    "name": "林業総務経費",
+    "department": "農林課",
+    "start": 124082,
+    "raw": "○林業総務経費【農林課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 138
+  },
+  {
+    "name": "林道管理経費",
+    "department": "農林課",
+    "start": 124110,
+    "raw": "○林道管理経費【農林課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 139
+  },
+  {
+    "name": "林道振興経費",
+    "department": "農林課",
+    "start": 124204,
+    "raw": "○林道振興経費【農林課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 140
+  },
+  {
+    "name": "水産業振興経費",
+    "department": "農林課",
+    "start": 124326,
+    "raw": "○水産業振興経費【農林課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 141
+  },
+  {
+    "name": "商工総務経費",
+    "department": "商工振興課",
+    "start": 125850,
+    "raw": "○商工総務経費【商工振興課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 142
+  },
+  {
+    "name": "商工業振興経費",
+    "department": "商工振興課",
+    "start": 125881,
+    "raw": "○商工業振興経費【商工振興課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 143
+  },
+  {
+    "name": "地域間交流センター経費",
+    "department": "にぎわい交流課",
+    "start": 130849,
+    "raw": "○地域間交流センター経費【にぎわい交流課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 147
+  },
+  {
+    "name": "総合産業会館サンプラザ経費",
+    "department": "にぎわい交流課",
+    "start": 131794,
+    "raw": "○総合産業会館サンプラザ経費【にぎわい交流課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 148
+  },
+  {
+    "name": "錦鯉の里経費",
+    "department": "にぎわい交流課",
+    "start": 132038,
+    "raw": "○錦鯉の里経費【にぎわい交流課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 149
+  },
+  {
+    "name": "テレワークステーションおぢや経費",
+    "department": "商工振興課",
+    "start": 132466,
+    "raw": "○テレワークステーションおぢや経費【商工振興課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 151
+  },
+  {
+    "name": "工業用水道事業会計退職給付費負担金",
+    "department": "商工振興課",
+    "start": 133068,
+    "raw": "○工業用水道事業会計退職給付費負担金【商工振興課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 152
+  },
+  {
+    "name": "土木総務経費",
+    "department": "建設課",
+    "start": 133186,
+    "raw": "○土木総務経費【建設課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 153
+  },
+  {
+    "name": "道路橋りょう総務経費",
+    "department": "建設課",
+    "start": 133627,
+    "raw": "○道路橋りょう総務経費【建設課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 156
+  },
+  {
+    "name": "克雪管理センター経費",
+    "department": "福祉課",
+    "start": 133877,
+    "raw": "○克雪管理センター経費【福祉課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 157
+  },
+  {
+    "name": "道路橋りょう維持経費",
+    "department": "建設課",
+    "start": 134277,
+    "raw": "○道路橋りょう維持経費【建設課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 158
+  },
+  {
+    "name": "除雪対策経費",
+    "department": "建設課",
+    "start": 135050,
+    "raw": "○除雪対策経費【建設課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 162
+  },
+  {
+    "name": "車両センター経費",
+    "department": "建設課",
+    "start": 136878,
+    "raw": "○車両センター経費【建設課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 166
+  },
+  {
+    "name": "除雪対策経費（繰越明許分）",
+    "department": "建設課",
+    "start": 136984,
+    "raw": "○除雪対策経費（繰越明許分）【建設課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 168
+  },
+  {
+    "name": "河川総務経費",
+    "department": "建設課",
+    "start": 137135,
+    "raw": "○河川総務経費【建設課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 169
+  },
+  {
+    "name": "県営急傾斜地崩壊防止対策事業負担金",
+    "department": "建設課",
+    "start": 137622,
+    "raw": "○県営急傾斜地崩壊防止対策事業負担金【建設課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 171
+  },
+  {
+    "name": "都市整備経費",
+    "department": "建設課",
+    "start": 137726,
+    "raw": "○都市整備経費【建設課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 172
+  },
+  {
+    "name": "公園管理経費",
+    "department": "建設課",
+    "start": 141090,
+    "raw": "○公園管理経費【建設課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 176
+  },
+  {
+    "name": "公共下水道事業負担金",
+    "department": "建設課",
+    "start": 141629,
+    "raw": "○公共下水道事業負担金【建設課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 178
+  },
+  {
+    "name": "住宅総務経費",
+    "department": "建設課",
+    "start": 141692,
+    "raw": "○住宅総務経費【建設課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 179
+  },
+  {
+    "name": "公営住宅管理経費",
+    "department": "建設課",
+    "start": 141974,
+    "raw": "○公営住宅管理経費【建設課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 180
+  },
+  {
+    "name": "本部・署経費",
+    "department": "消防本部・消防署",
+    "start": 143740,
+    "raw": "○本部・署経費【消防本部・消防署】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 184
+  },
+  {
+    "name": "出張所経費",
+    "department": "消防本部・消防署",
+    "start": 143758,
+    "raw": "○出張所経費【消防本部・消防署】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 185
+  },
+  {
+    "name": "非常備消防経費",
+    "department": "消防本部・消防署",
+    "start": 150253,
+    "raw": "○非常備消防経費【消防本部・消防署】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 186
+  },
+  {
+    "name": "消防施設経費",
+    "department": "消防本部・消防署",
+    "start": 150794,
+    "raw": "○消防施設経費【消防本部・消防署】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 187
+  },
+  {
+    "name": "水防経費",
+    "department": "防災安全課",
+    "start": 151302,
+    "raw": "○水防経費【防災安全課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 189
+  },
+  {
+    "name": "防災安全経費",
+    "department": "防災安全課",
+    "start": 151502,
+    "raw": "○防災安全経費【防災安全課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 190
+  },
+  {
+    "name": "気象観測経費",
+    "department": "消防本部・消防署",
+    "start": 153583,
+    "raw": "○気象観測経費【消防本部・消防署】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 191
+  },
+  {
+    "name": "教育委員会経費",
+    "department": "教育・保育課",
+    "start": 156117,
+    "raw": "○教育委員会経費【教育・保育課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 194
+  },
+  {
+    "name": "学校教育総務経費",
+    "department": "教育・保育課",
+    "start": 156766,
+    "raw": "○学校教育総務経費【教育・保育課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 195
+  },
+  {
+    "name": "教育指導経費",
+    "department": "教育・保育課",
+    "start": 156984,
+    "raw": "○教育指導経費【教育・保育課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 196
+  },
+  {
+    "name": "適応指導教室経費",
+    "department": "教育・保育課",
+    "start": 161800,
+    "raw": "○適応指導教室経費【教育・保育課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 197
+  },
+  {
+    "name": "教育センター経費",
+    "department": "教育・保育課",
+    "start": 162515,
+    "raw": "○教育センター経費【教育・保育課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 198
+  },
+  {
+    "name": "教職員住宅経費",
+    "department": "教育・保育課",
+    "start": 163521,
+    "raw": "○教職員住宅経費【教育・保育課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 199
+  },
+  {
+    "name": "小学校管理経費",
+    "department": "教育・保育課",
+    "start": 163616,
+    "raw": "○小学校管理経費【教育・保育課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 200
+  },
+  {
+    "name": "小学校教育振興経費",
+    "department": "教育・保育課",
+    "start": 164008,
+    "raw": "○小学校教育振興経費【教育・保育課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 201
+  },
+  {
+    "name": "中学校管理経費",
+    "department": "教育・保育課",
+    "start": 165989,
+    "raw": "○中学校管理経費【教育・保育課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 205
+  },
+  {
+    "name": "中学校教育振興経費",
+    "department": "教育・保育課",
+    "start": 166486,
+    "raw": "○中学校教育振興経費【教育・保育課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 206
+  },
+  {
+    "name": "特別支援学校管理経費",
+    "department": "教育・保育課",
+    "start": 168584,
+    "raw": "○特別支援学校管理経費【教育・保育課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 210
+  },
+  {
+    "name": "特別支援学校教育振興経費",
+    "department": "教育・保育課",
+    "start": 168818,
+    "raw": "○特別支援学校教育振興経費【教育・保育課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 211
+  },
+  {
+    "name": "社会教育総務経費",
+    "department": "文化スポーツ課",
+    "start": 169395,
+    "raw": "○社会教育総務経費【文化スポーツ課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 212
+  },
+  {
+    "name": "市民学習センター管理運営経費",
+    "department": "文化スポーツ課",
+    "start": 171238,
+    "raw": "○市民学習センター管理運営経費【文化スポーツ課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 215
+  },
+  {
+    "name": "青少年対策経費",
+    "department": "文化スポーツ課",
+    "start": 172483,
+    "raw": "○青少年対策経費【文化スポーツ課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 219
+  },
+  {
+    "name": "育成センター経費",
+    "department": "文化スポーツ課",
+    "start": 172798,
+    "raw": "○育成センター経費【文化スポーツ課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 220
+  },
+  {
+    "name": "公民館経費",
+    "department": "文化スポーツ課",
+    "start": 173302,
+    "raw": "○公民館経費【文化スポーツ課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 221
+  },
+  {
+    "name": "ひと・まち・文化共創拠点経費",
+    "department": "にぎわい交流課",
+    "start": 177518,
+    "raw": "○ひと・まち・文化共創拠点経費【にぎわい交流課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 224
+  },
+  {
+    "name": "市民の家経費",
+    "department": "にぎわい交流課",
+    "start": 182109,
+    "raw": "○市民の家経費【にぎわい交流課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 225
+  },
+  {
+    "name": "市民会館経費",
+    "department": "文化スポーツ課",
+    "start": 182476,
+    "raw": "○市民会館経費【文化スポーツ課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 226
+  },
+  {
+    "name": "学校保健経費",
+    "department": "教育・保育課",
+    "start": 183068,
+    "raw": "○学校保健経費【教育・保育課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 227
+  },
+  {
+    "name": "学校給食経費",
+    "department": "教育・保育課",
+    "start": 183608,
+    "raw": "○学校給食経費【教育・保育課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 228
+  },
+  {
+    "name": "学校給食センター経費",
+    "department": "教育・保育課",
+    "start": 184281,
+    "raw": "○学校給食センター経費【教育・保育課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 229
+  },
+  {
+    "name": "社会体育総務経費",
+    "department": "文化スポーツ課",
+    "start": 184936,
+    "raw": "○社会体育総務経費【文化スポーツ課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 230
+  },
+  {
+    "name": "都市公園体育施設等管理経費",
+    "department": "文化スポーツ課",
+    "start": 188097,
+    "raw": "○都市公園体育施設等管理経費【文化スポーツ課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 233
+  },
+  {
+    "name": "スポーツ広場管理経費",
+    "department": "文化スポーツ課",
+    "start": 188346,
+    "raw": "○スポーツ広場管理経費【文化スポーツ課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 234
+  },
+  {
+    "name": "東小千谷体育センター経費",
+    "department": "文化スポーツ課",
+    "start": 188375,
+    "raw": "○東小千谷体育センター経費【文化スポーツ課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 235
+  },
+  {
+    "name": "吉谷トレーニングセンター管理運営経費",
+    "department": "文化スポーツ課",
+    "start": 188460,
+    "raw": "○吉谷トレーニングセンター管理運営経費【文化スポーツ課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 236
+  },
+  {
+    "name": "総合体育館経費",
+    "department": "文化スポーツ課",
+    "start": 188762,
+    "raw": "○総合体育館経費【文化スポーツ課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 237
+  },
+  {
+    "name": "一般管理経費",
+    "department": "市民生活課",
+    "start": 192321,
+    "raw": "○一般管理経費【市民生活課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 243
+  },
+  {
+    "name": "出産育児一時金支給経費",
+    "department": "市民生活課",
+    "start": 194136,
+    "raw": "○出産育児一時金支給経費【市民生活課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 244
+  },
+  {
+    "name": "葬祭費支給経費",
+    "department": "市民生活課",
+    "start": 194204,
+    "raw": "○葬祭費支給経費【市民生活課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 245
+  },
+  {
+    "name": "一般管理経費",
+    "department": "福祉課",
+    "start": 196822,
+    "raw": "○一般管理経費【福祉課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 248
+  },
+  {
+    "name": "介護認定審査会経費",
+    "department": "福祉課",
+    "start": 197435,
+    "raw": "○介護認定審査会経費【福祉課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 249
+  },
+  {
+    "name": "認定調査等経費",
+    "department": "福祉課",
+    "start": 198526,
+    "raw": "○認定調査等経費【福祉課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 250
+  },
+  {
+    "name": "介護報酬明細書審査支払経費",
+    "department": "福祉課",
+    "start": 200948,
+    "raw": "○介護報酬明細書審査支払経費【福祉課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 251
+  },
+  {
+    "name": "高額介護サービス費負担金",
+    "department": "福祉課",
+    "start": 201014,
+    "raw": "○高額介護サービス費負担金【福祉課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 252
+  },
+  {
+    "name": "高額医療合算介護サービス費負担金",
+    "department": "福祉課",
+    "start": 201276,
+    "raw": "○高額医療合算介護サービス費負担金【福祉課】",
+    "status": "reviewed_named_service_operation",
+    "reason": "Specific named service, facility operation or individual benefit at own ○heading; own department and FY2024 settlement scope. No amount, sub-project count or scoring inferred.",
+    "index": 253
+  },
+  {
+    "name": "一般管理経費",
+    "department": "市民生活課",
+    "start": 206050,
+    "raw": "○一般管理経費【市民生活課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 259
+  },
+  {
+    "name": "後期高齢者医療広域連合納付金",
+    "department": "市民生活課",
+    "start": 206322,
+    "raw": "○後期高齢者医療広域連合納付金【市民生活課】",
+    "status": "not_individual_service_heading",
+    "reason": "Office/general-account expense, salary/transfer, aggregate function, calendar-year table or heading without substantive own operation. Child activities require separate explicit-name review; no individual service inferred from aggregate.",
+    "index": 261
+  },
+  {
+    "name": "児童手当支給事業",
+    "department": "健康・子育て応援課",
+    "start": 94197,
+    "raw": "〇児童手当支給事業【健康・子育て応援課】",
+    "status": "reviewed_circle_variant",
+    "reason": "Complete 〇named programme heading overlooked by ○only extraction;own department and bookyear."
+  },
+  {
+    "name": "出産・子育て応援事業",
+    "department": "健康・子育て応援課",
+    "start": 104177,
+    "raw": "〇出産・子育て応援事業【健康・子育て応援課】",
+    "status": "reviewed_circle_variant",
+    "reason": "Complete 〇named programme heading overlooked by ○only extraction;own department and bookyear."
+  },
+  {
+    "name": "街路整備事業（繰越明許分）",
+    "department": "建設課",
+    "start": 141474,
+    "raw": "〇街路整備事業（繰越明許分）【建設課】",
+    "status": "existing_programme_carryover",
+    "reason": "Same street programme already in102;not a separate project."
+  }
+]

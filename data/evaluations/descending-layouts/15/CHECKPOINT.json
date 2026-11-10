@@ -1,43 +1,44 @@
 {
-  "candidateRecords": 1901,
+  "candidateRecords": 2047,
   "perMunicipality": {
-    "関川村": 44,
-    "刈羽村": 144,
+    "関川村": 46,
+    "刈羽村": 176,
     "津南町": 1,
-    "湯沢町": 201,
+    "湯沢町": 206,
     "阿賀町": 5,
+    "田上町": 1,
     "南魚沼市": 7,
-    "魚沼市": 529,
+    "魚沼市": 531,
     "佐渡市": 24,
     "五泉市": 211,
-    "十日町市": 54,
-    "小千谷市": 102,
+    "十日町市": 75,
+    "小千谷市": 185,
     "柏崎市": 8,
     "長岡市": 571
   },
-  "validatedCumulativeCandidates": 32285,
-  "validatedEvidence": 95695,
+  "validatedCumulativeCandidates": 32431,
+  "validatedEvidence": 96139,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "5e8d0f886ac977dc001c4f4c931305db25b5e5e8",
+  "previousHead": "a7e59a0b93d05e7382dff48b08555c5b50b902d3",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "43/43",
-    "crawler": "963/963",
+    "focused": "65/65",
+    "crawler": "985/985",
     "web": "256/256;serial",
     "typecheck": "passed",
     "lint": "passed;existingfontwarning",
     "national": "passed branch baseline",
     "static": "109/109 subpath",
-    "quotes": "32285 candidates /95695 quotes"
+    "quotes": "32431 candidates /96139 quotes"
   },
   "remoteCI": "unverified;known ActionsAPI403 not retried",
-  "remaining": "Prefecture review remains open: next146 staged separately;Joetsu160 title-only annual-evidence holds;14missing bodies;remaining partial/table scope review.",
-  "newCandidatesThisTranche": 947,
-  "candidateFiscalYearEnrichments": 201
+  "remaining": "58-source disposition ledger retained:14missing bodies;Joetsu160 annual identity holds;Uonuma missing tails/column alignment;Nagaoka same-name identity holds. Named scope reviewed;not all numerical fields recovered.",
+  "newCandidatesThisTranche": 146,
+  "candidateFiscalYearEnrichments": 0
 }

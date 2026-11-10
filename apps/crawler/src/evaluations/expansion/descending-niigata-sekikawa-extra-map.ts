@@ -1,0 +1,43 @@
+export const reviewed = [
+  {
+    "municipalityCode": "15581",
+    "municipalityName": "関川村",
+    "sourceId": "4605cf03b735ebeddc196ae1",
+    "sourceUrl": "https://www.vill.sekikawa.niigata.jp/file/004_kanko-tiikiseisakushitsu/r6sougoukeikakuーkpi.pdf",
+    "sourceSha256": "90e2ef53129659b9ffe8a25c49cb2792ba214240d9992f2d7b176c0756b993b4",
+    "textSha256": "b5760dace63cceab6bf0e85130f83f81da72654d1396c4277554e2db0df3345b",
+    "fiscalYear": 2024,
+    "yearProof": "R6年度\n実績\n\nR3～R6実績における評価\n\n次期計画における取組内容や方\n針、改善点\n\n（２）協働による\nむらづくりに対する村民の意識・関心は高まりを見せ むらづくり総合推進事",
+    "yearProofStart": 834,
+    "rows": [
+      {
+        "name": "民有林間伐等推進事業",
+        "year": 2019,
+        "parts": [
+          {
+            "start": 22118,
+            "raw": "民有林間伐等推進事業"
+          }
+        ],
+        "start": 22113,
+        "raw": "令和元年度民有林間伐等推進事業においては44.57ha\nの間伐を行いました。"
+      },
+      {
+        "name": "ファミリーサポートセンター事業",
+        "year": 2024,
+        "parts": [
+          {
+            "start": 32045,
+            "raw": "ファミ"
+          },
+          {
+            "start": 32098,
+            "raw": "リーサポートセンター事業"
+          }
+        ],
+        "start": 32041,
+        "raw": "R6年度ファミ\n報掲載、こども館でのポスター\n庭を応援するため を活用します。\n掲載)\nR２：５人→R7：15人\nリーサポートセンター事業実績1 掲示を行う。\nに（子育て支援\n子育て家庭の様々なニーズには、ファミリー・サポー\n件あり。"
+      }
+    ]
+  }
+];

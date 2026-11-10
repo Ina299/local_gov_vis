@@ -1,0 +1,849 @@
+export const reviewed = [
+  {
+    "municipalityCode": "15208",
+    "municipalityName": "小千谷市",
+    "sourceId": "29f29c373bdcf5b84f84524f",
+    "sourceUrl": "https://www.city.ojiya.niigata.jp/uploaded/attachment/39368.pdf",
+    "sourceSha256": "0e0cf3a0b60d1a020b3c2da1c05df61315f3dfa3fbccfb15ef2730b29517bd89",
+    "textSha256": "05990b1fe9f917c34d06248f94fe77afa20daf60ca436fc9cbbab1daaf704dd1",
+    "yearProof": "令 和 ６ 年 度\n\n主要な施策の成果説明資料\n（兼 事務報告）\n\n新潟県小千谷市\n\n\n\n",
+    "rows": [
+      {
+        "name": "褒賞経費",
+        "department": "企画政策課",
+        "start": 39827,
+        "raw": "○褒賞経費【企画政策課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○褒賞経費【企画政策課】\n■会議\n・褒賞審査会\n\n教育長\n10.1.1（02）\n19,089\n\n計\n75,035\n\n1回\n\n■表彰\n・小千谷市褒賞条例による表彰\n(1)表彰年月日 令和7年3月10日（月）\n(2)一般表彰被表彰者（基準日 令和7年3月10日）\n項\n目\n氏\n教育委員永年勤続\n鈴木 進五\nスポーツ推進委員永年勤続\n交通指導員永年勤続\n山岸 豊司\n介護認定審査会委員永年勤続\n星野\n正\n山下 正廣\n環境審議会委員永年勤続\n藤巻るい子\n消防団員永年勤続\n小野塚正紀\n竹部 伸一\n川上 哲也\n",
+        "contextSha256": "d526dfda28b728d950313560d7e91ba95e0db4aca01f9c6dca7d1a941f35e599"
+      },
+      {
+        "name": "町内会経費",
+        "department": "総務課",
+        "start": 40133,
+        "raw": "○町内会経費【総務課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○町内会経費【総務課】\n■会議\n・町内会長会議\n1回\n令和6年5月1日\n小千谷市民会館 大ホール（市制施行70周年記念式典前に開催）\n\n■委託料\n・行政事務委託料（行政連絡事務分）\n",
+        "contextSha256": "a61540acae34b96b76fee3c60f738f1883b8e329f2a06f77edc828de48f7c77d"
+      },
+      {
+        "name": "庁舎管理経費",
+        "department": "総務課",
+        "start": 40224,
+        "raw": "○庁舎管理経費【総務課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○庁舎管理経費【総務課】\n(1)消防総合訓練\n\n19,076,000 円\n\n1回\n- 38 -\n\n（令和6年7月4日）\n\n\n【一般】2款 総務費\n主\n\n款項目\n\n要\n\nな\n\n施\n\n策\n\nの\n\n成\n\n果\n\n等\n\n(2)工事関連\n12,873,300 円\n■庁舎改修工事\n経年劣化により低下した冷暖房機能の改善を図るため、GHP空調機の入替更新及び冷温水機\nの真空部品取替工事を行った。\nまた、経年劣化で稼働が停止していたサーバー室のEHPエアコンの取替更新工事を行った。\n9,842,800 円\n1,8",
+        "contextSha256": "357f86ade6864374be519a18b7280f7ad67687a5a5373281f6f43db59be40465"
+      },
+      {
+        "name": "職員福利厚生経費",
+        "department": "総務課",
+        "start": 40548,
+        "raw": "○職員福利厚生経費【総務課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○職員福利厚生経費【総務課】\n・健康相談室\n開催回数\n1回\n・職員定期健康診断、人間ドック等手数料\n・メンタルヘルス相談室 開催回数\n6回\n・ストレスチェック\n\n参加者数 延べ\n受診者数 延べ\n相談者数 延べ\n受検者数\n\n",
+        "contextSha256": "ba0952a12829e72fc11a91e4a5a9acb6a2d8faf687cbff921989b16cbf1de064"
+      },
+      {
+        "name": "職員研修経費",
+        "department": "総務課",
+        "start": 40659,
+        "raw": "○職員研修経費【総務課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○職員研修経費【総務課】\n■職員研修\n研\n修\n名\n\n催\n\n新採用職員研修\n接遇研修\n人事評価研修\n個人情報保護研修\nメンタルヘルス研修\n法制執務研修\n障がい者雇用研修\n新潟県専門研修\n定住自立圏合同研修\n自治大学校研修\n階層別研修\n専門研修\n自己研修他\n計\n",
+        "contextSha256": "5fc1d17d5a00c6e2aecbba2f8aee86bc534b0c631fea249efbe67d290c3a9070"
+      },
+      {
+        "name": "市民災害保険経費",
+        "department": "総務課",
+        "start": 40995,
+        "raw": "○市民災害保険経費【総務課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○市民災害保険経費【総務課】\n■補償\n・令和6年6月13日発生第43回壮年野球大会での事故\n■賠償\n・令和5年12月25日発生新潟県長岡地域振興局小千谷維持管理事務所\n駐車場での除雪作業中における車両損害\n\n- 39 -\n\n実 施 月\n4月\n10月\n5月・8月\n1月\n11月\n8月・2月\n10月\n4月～1月\n11月\n6月～9月\n4月～11月\n6月～11月\n4月～3月\n\n10,000 円\n10,000 円\n9,495 円\n9,495 円\n\n\n【一般】2款 総務費\n主\n\n款項目\n\n要\n\nな\n\n施\n\n策",
+        "contextSha256": "c0f26c36753f47d092fc2a740c28af05d3185849aad05ee867e7fbdac6a23f3b"
+      },
+      {
+        "name": "会計管理経費",
+        "department": "総務課",
+        "start": 43330,
+        "raw": "○会計管理経費【総務課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○会計管理経費【総務課】\n■月別伝票件数及び取扱件数\n収 入\n伝票件数\n\n（単位：件）\n支\n伝票件数\n\n納付書取扱件数\n\n振込取扱件数\n\nうち一括支払\n\n1,328\n8,597\n4,674\n4月\n1,253\n15,323\n3,768\n5月\n1,060\n13,516\n3,960\n6月\n1,104\n6,914\n3,858\n7月\n1,100\n15,729\n3,598\n8月\n950\n9,072\n3,607\n9月\n1,097\n8,355\n3,910\n10月\n1,019\n8,612\n3,805\n11月\n1,",
+        "contextSha256": "f6a19da9546eb2329d5706e52027a3318635e4d8e7a83b14bb13397a5c4e313c"
+      },
+      {
+        "name": "片貝総合センター管理運営経費",
+        "department": "市民生活課",
+        "start": 44618,
+        "raw": "○片貝総合センター管理運営経費【市民生活課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○片貝総合センター管理運営経費【市民生活課】\n■指定管理者及び委託料\n片貝町協議会\n■片貝総合センター使用状況\n市主催事業\n公民館主催事業\n一般利用\n\n区 分\n各課主管会議･各種検診･説明会 ほか\n運営審議会･各種学級･講演会 ほか\n各種グループ活動･各町内団体会議 ほか\n計\n\n- 42 -\n\n21,295,000 円\n（単位：件）\n件 数\n225\n187\n394\n806\n\n\n【一般】2款 総務費\n主\n\n款項目\n\n要\n\nな\n\n施\n\n策\n\nの\n\n成\n\n果\n\n等\n\n",
+        "contextSha256": "6dcc1ed925377729a7b68394e64e990681f812452b3ec6c1a7a4125502df0299"
+      },
+      {
+        "name": "住民センター管理運営経費",
+        "department": "市民生活課",
+        "start": 44851,
+        "raw": "○住民センター管理運営経費【市民生活課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○住民センター管理運営経費【市民生活課】\n■指定管理者及び委託料\n・東山住民センター\n東山地区振興協議会\n・岩沢住民センター\n岩沢地域振興協議会\n・川井住民センター\n川井地区町内会連絡協議会\n・真人ふれあい交流館\n真人町里地振興協議会\n■住民センター使用状況\n区 分\n市・公民館主催事業等\nその他\n計\n\n東\n\n山\n18\n386\n404\n\n岩\n\n沢\n20\n176\n196\n\n川\n\n井\n7\n63\n70\n\n15,020,000 円\n3,519,000 円\n3,711,000 円\n3,264,000 円\n4",
+        "contextSha256": "7fd566d8c3468dc1929960eacafdfcda30e7451a29f2842cc60715401a810251"
+      },
+      {
+        "name": "文書管理経費",
+        "department": "総務課",
+        "start": 46391,
+        "raw": "○文書管理経費【総務課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○文書管理経費【総務課】\n■文書\n(1)文書の収受、発送\n①文書等の発送数及び発送金額等（他課負担の支払通数を含む。）\n種 別\n発送数\n金額（円）\n第1種\n258,433\n23,216,891\n第2種\n34,536\n2,745,084\n小包\n87\n117,093\n速達\n579\n258,406\n料金受取人払\n16,305\n2,000,570\n書留\n14,521\n5,215,149\n電子郵便\n50\n39,882\n宅配便\n242\n197,501\n切手等購入\n6,756\n779,013\n他課負担分\n△ ",
+        "contextSha256": "8da943db04e4d5e4fd6969801b447bb8a08e918b46d41034bbaf47efd38e6525"
+      },
+      {
+        "name": "広報広聴経費",
+        "department": "企画政策課",
+        "start": 48046,
+        "raw": "○広報広聴経費【企画政策課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○広報広聴経費【企画政策課】\n■広報広聴\n(1)インターネット\nトップページアクセス件数\n全ページアクセス件数\n\n269,832 件\n2,558,804 件\n\n(2)庁内報\n\n毎週月曜日発行\n\n52 回\n\n(3)会議等\n\nホームページCMS操作説明会\n\n2回\n\n(4)記者会見\n12 回\n（4/23、5/29、6/24、7/22、8/21、9/25、10/21、11/20、12/25、1/27、2/12、3/26）\n日刊新聞、テレビ局ほか\n(5)SNS（ソーシャル・ネットワーキング・サービス）（企",
+        "contextSha256": "ccc05dd8e82d662ce37d49637efc6c0cac0540ad833cf292cadf023094fe8615"
+      },
+      {
+        "name": "車両管理経費",
+        "department": "総務課",
+        "start": 50403,
+        "raw": "○車両管理経費【総務課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○車両管理経費【総務課】\n■自動車に関する事項\n(1)自動車\n車\n\n名\n\nアルファード（市長車）\nクラウン（議長車）\nプリウス\nカローラフィールダー1号\nカローラフィールダー2号\nカローラフィールダー3号\n\n稼働\n日数\n\n走行距離\n(㎞)\n\n230\n38\n193\n171\n217\n196\n\n17,804\n4,146\n9,759\n4,875\n8,722\n12,921\n- 48 -\n\n燃料使用量（㍑）\n燃費(㎞/ℓ)\n軽油\nｶﾞｿﾘﾝ\n10.7\n- 1,660.00\n276.00\n15.0\n457.9",
+        "contextSha256": "0039c74d7967ef214b13c4a841da5b9083eb279f7fc77bb48ad1b7142fcceadd"
+      },
+      {
+        "name": "賦課徴収経費",
+        "department": "税務課",
+        "start": 62536,
+        "raw": "○賦課徴収経費【税務課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○賦課徴収経費【税務課】\n■徴収その他\n(1)令和6年度徴収実績\nア普通税（法定普通税）\n区 分 現\n予算現額\n税 目\n(1)市町村民税\n\n1回\n31,590 円\n31,590 円（繰替払）\n\n270 件\n\nうち\n収入歩合\n還付未済額\n\n調定済額\n\n収入済額\n\n千円\n\n千円\n\n千円\n\n現年 1,632,620 1,633,896 1,623,979\n6,780\n19,532\n8,526\n滞繰\n計 1,639,400 1,653,428 1,632,505\n\n37\n0\n37\n\n滞\n別\n\n千円\n\n-",
+        "contextSha256": "693055ec4aceeebe19c4a26ad44273659e94332820100b3dac35a145726a8820"
+      },
+      {
+        "name": "固定資産評価審査委員会経費",
+        "department": "監査委員事務局",
+        "start": 66962,
+        "raw": "○固定資産評価審査委員会経費【監査委員事務局】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○固定資産評価審査委員会経費【監査委員事務局】\n■会議等\n・固定資産評価審査委員会\n■審査申出件数\n・審査申出件数\n\n3回\n\n2件\n\n３戸籍住民基本台帳費\n１戸籍住民基本台帳費\n",
+        "contextSha256": "96a8cf3da352d57b3d415f208322cc2a73453dff095be5cc214239dea1f342d0"
+      },
+      {
+        "name": "戸籍住民基本台帳経費",
+        "department": "市民生活課",
+        "start": 67051,
+        "raw": "○戸籍住民基本台帳経費【市民生活課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○戸籍住民基本台帳経費【市民生活課】\n■戸籍\n（令和7年3月31日現在）\n区\n分\n本\n籍\n数\n16,903\n本 籍\n人\n口\n40,084\n■住民基本台帳\n人\n地 区 名\n\n世 帯 数\n\n西小千谷\n東小千谷\n山\n辺\n吉\n谷\n城\n川\n千\n田\n川\n井\n東\n山\n岩\n沢\n真\n人\n高梨、五辺\n片\n貝\n合\n計\n\n2,390\n2,343\n437\n371\n3,544\n1,388\n157\n150\n231\n353\n247\n1,391\n13,002\n\n日\n本\n男\n2,731\n2,780\n605\n510\n4,128\n1,",
+        "contextSha256": "4227773113e66443f9fd5219936b8852e8ee00dc7ab5434972f53269651dc418"
+      },
+      {
+        "name": "選挙管理委員会経費",
+        "department": "総務課",
+        "start": 71311,
+        "raw": "○選挙管理委員会経費【総務課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○選挙管理委員会経費【総務課】\n■会議等\n・ 選挙管理委員会\n・ 県内市選管連合会総会（妙高市）\n・ 中越五市選挙管理委員会実務研修会（小千谷市・書面開催）\n・ 県内市選管連合会職員研修会（見附市）\n・ 県内市選管連合会事務局長会議（上越市・書面開催）\n・ 市区町村選挙管理委員会啓発指導者研修会（新潟市・オンライン参加）\n■常時啓発\n・ 市内高等学校選挙出前授業\n県立小千谷西高等学校\n県立小千谷高等学校\n\n令和7年3月18日\n令和7年3月18日\n\n- 67 -\n\n10 回\n1回\n1回\n1回\n1回",
+        "contextSha256": "c5726bf982f40d8fc86eb2182cbcfe763f76d68d1fdb31eadfb03e01fbce537a"
+      },
+      {
+        "name": "衆議院議員総選挙及び最高裁判所裁判官国民審査経費",
+        "department": "総務課",
+        "start": 71880,
+        "raw": "○衆議院議員総選挙及び最高裁判所裁判官国民審査経費【総務課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○衆議院議員総選挙及び最高裁判所裁判官国民審査経費【総務課】\n衆議院解散から投票までの期間が戦後2番目に短い18日間の選挙となった。\n小選挙区選出議員選挙における期日前投票者数は、前回の同一選挙（令和3年度）から623人\n増加し、8,748人となり同選挙では過去最高となった。\n■選挙期日\n\n令和6年10月27日\n\n■立候補者数／定数\n\n3人／1人\n\n■投票関係\n(1)投票所\n・投票所設置数\nうち閉鎖時刻繰上げなし\n閉鎖時刻1時間繰上げ投票所数\n閉鎖時刻2時間繰上げ投票所数\n閉鎖時刻4時間繰上げ投",
+        "contextSha256": "8d39d9248f14424cd96f3179c9d759ae811dd4dd90eb861620462d74d956468f"
+      },
+      {
+        "name": "農林業センサス経費",
+        "department": "総務課",
+        "start": 73386,
+        "raw": "○農林業センサス経費【総務課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○農林業センサス経費【総務課】\n■2025年農林業センサス（基幹統計調査）\n・調査目的\n我が国の農林業の生産構造、就業構造及び農山村地域の現状を把握すること\nにより、農林業の実態を明らかにし、農林行政の推進に必要な基礎資料を整\n備すること。\n・実施機関\n農林水産省\n・調査日\n令和7年2月1日\n・調査周期\n5年\n・調査対象\n農林産物の生産を行い、又は委託を受けて農林業作業を行い、生産又は作業\nに係る面積・頭羽数が一定規模以上の「農林業生産活動」を行う者（組織の\n場合は代表者）\n・抽出方法\n全数調査",
+        "contextSha256": "46265380bb8016c6dbd5cf71ce02b4e9c073b5689903d885d8d61221539407f1"
+      },
+      {
+        "name": "監査委員経費",
+        "department": "監査委員事務局",
+        "start": 73735,
+        "raw": "○監査委員経費【監査委員事務局】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○監査委員経費【監査委員事務局】\n■監査委員\n(1)定期監査\n・事務監査\n9課・局\n・工事監査\n・保育園監査\n1園\n・学校監査\n・財政援助団体監査 2団体\n\nの\n\n成\n\n果\n\n等\n\n10課・局(12件)\n3校\n\n(2)例月出納検査\n毎月 1回\n（一般会計・特別会計・基金・公営企業会計）\n(3)決算審査\nア 一 般 会 計\nイ 特 別 会 計\n国民健康保険特別会計\n後期高齢者医療特別会計\n\n介護保険特別会計\n工業団地事業特別会計\n\nウ 公営企業会計\nガス事業会計\n工業用水道事業会計\n\n水道事業会計",
+        "contextSha256": "5e2c6d4f13f6449468ef3c4467f387bb63ddfc92e4017b3d470b6fc24a449d60"
+      },
+      {
+        "name": "災害救助経費",
+        "department": "防災安全課",
+        "start": 74081,
+        "raw": "○災害救助経費【防災安全課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○災害救助経費【防災安全課】\n■令和6年1月1日石川県能登半島を震源とする地震関連\n4/24～4/28 新潟市\n家屋被害認定調査\n職員1人派遣\n5/27～5/31 新潟市\n家屋被害認定調査\n職員1人派遣\n避難者1名受入（石川県輪島市）\n44,416 円\n・職員人件費\n（予備費を充用）\n82,000 円\n・旅費\n（予備費を充用）\n29,022 円\n・避難所用光熱水費\n4,675 円\n・避難所用下水道使用料\n160,113 円\n計\n\n- 70 -\n\n\n【一般】3款 民生費\n主\n\n款項目\n\n要\n\nな\n",
+        "contextSha256": "9c139f80a763b0a7adf44df66e3ef0c57bbdb225e21782609e658dcf2767deb0"
+      },
+      {
+        "name": "民生委員・児童委員経費",
+        "department": "福祉課",
+        "start": 75027,
+        "raw": "○民生委員・児童委員経費【福祉課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○民生委員・児童委員経費【福祉課】\n■民生委員・児童委員協議会\n(1)民生委員児童委員78人 うち主任児童委員9人\n（会長1 副会長2 会計1 監事2）\n(2)民生委員・児童委員調査委託料\n・高齢者現況調査等委託\n\n4,988,596 円\n\n4,680,000 円\n\n- 71 -\n\n\n【一般】3款 民生費\n主\n\n款項目\n\n要\n\nな\n\n施\n\n策\n\nの\n\n成\n\n果\n\n等\n\n",
+        "contextSha256": "a64bc27b11b9a181e5fa473d0b06267fdeec94b0e0040e08cb1f2965bff6ffc5"
+      },
+      {
+        "name": "遺家族援護経費",
+        "department": "福祉課",
+        "start": 75489,
+        "raw": "○遺家族援護経費【福祉課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○遺家族援護経費【福祉課】\n■小千谷市遺族連合会補助金\n・主な事業 戦没者等遺族の処遇向上運動、県遺族大会など\n",
+        "contextSha256": "27adbfc487849a351e6f9e207cbcad9463f8f6aad307129a834d8976b32f39d5"
+      },
+      {
+        "name": "総合福祉センター管理運営経費",
+        "department": "福祉課",
+        "start": 75545,
+        "raw": "○総合福祉センター管理運営経費【福祉課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○総合福祉センター管理運営経費【福祉課】\n■総合福祉センター管理運営委託料\n(1)指定管理者及び委託料\n社会福祉法人 小千谷市社会福祉協議会\n\n80,000 円\n\n27,983,094 円\n\n27,958,000 円\n\n(2)利用実績\n・老人デイサービス\n利用延人数 8,466人\n・生活介護\n利用延人数\n544人\n・放課後等デイサービス 利用延人数\n511人\n・サンラックおぢや利用実績\n利用延人数 23,843人 利用料金 1,414,285円\n",
+        "contextSha256": "5eae9c10b7475fd90cfcdfdfa8c04afe8dad40e7c06a1c26b8e64ed844bc8a0d"
+      },
+      {
+        "name": "地域福祉センター管理運営経費",
+        "department": "福祉課",
+        "start": 75770,
+        "raw": "○地域福祉センター管理運営経費【福祉課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○地域福祉センター管理運営経費【福祉課】\n■地域福祉センター管理運営委託料\n(1)指定管理者及び委託料\n社会福祉法人 小千谷市社会福祉協議会\n(2)利用実績\n・老人デイサービス\n・生活介護\n・放課後等デイサービス\n\n利用延人数\n利用延人数\n利用延人数\n\n■地域福祉センター腰壁等修繕工事\n工\n事\n名\n地域福祉センター腰壁等修繕工事\n\n9,979,467 円\n\n4,966,000 円\n\n8,133人\n810人\n958人\n\n内\n容\n劣化した腰壁等を修繕\n\n",
+        "contextSha256": "c9e9c434c9fb1ebaf8751f8fa8b5107dcfda52417494681078bd52cf10a9bc8e"
+      },
+      {
+        "name": "障害者介護給付費等支給審査会経費",
+        "department": "福祉課",
+        "start": 78196,
+        "raw": "○障害者介護給付費等支給審査会経費【福祉課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○障害者介護給付費等支給審査会経費【福祉課】\n■障害者介護給付費等支給審査会\n・開催回数\n10回\n（うち書面開催回数\n1回）\n・審査件数\n新規20件、更新41件、変更3件、訓練等給付更新4件\n（うち書面審査件数\n新規4件、更新3件）\n■障害支援区分認定者数\n区分1\n区分2\n2\n48\n\n区分3\n31\n\n区分4\n42\n\n区分5\n29\n\n",
+        "contextSha256": "17f56cfd15d508f3e5f32d54f17c64b4bec43db31a59e727a66539bff80593bc"
+      },
+      {
+        "name": "障害者介護給付費等認定調査経費",
+        "department": "福祉課",
+        "start": 78363,
+        "raw": "○障害者介護給付費等認定調査経費【福祉課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○障害者介護給付費等認定調査経費【福祉課】\n319,682 円\n■主治医意見書作成\n66 件\n在宅\n施設入所\n新規\n継続\n新規\n19件\n33件\n5件\n\n（単位：人）\n区分6\n計\n39\n191\n\n319,682 円\n\n継続\n9件\n\n■障害支援区分認定調査\n66 件\n調査区分\n件数\n市職員調査\n66件\n事業者委託\n‐件\n\n805,015,130 円\n",
+        "contextSha256": "a85245f10e8905ad47745c4e4d079cf1e09b8b8927ec080ae473763b7ce17485"
+      },
+      {
+        "name": "施設管理運営経費",
+        "department": "福祉課",
+        "start": 86212,
+        "raw": "○施設管理運営経費【福祉課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○施設管理運営経費【福祉課】\n■養護老人ホーム管理運営\n居住環境や経済的理由等により、在宅生活の継続が困難となった施設入所者に対し、一人ひ\nとりに寄り添った生活支援を行った。また、入所者の安全確保と施設維持を図るため、経年劣\n化した給水・給湯管更新工事を実施した。\n(1)指定管理者及び委託料\n社会福祉法人 小千谷北魚沼福祉会\n(2)養護老人ホーム措置状況\n区\n分\n令和6年度中入所者\n令和6年度中退所者\n令和7年3月31日現在\n(3)入退所者状況\n令和6年4月1日\n現在入所者\n39\n\n4月2日\n以",
+        "contextSha256": "751f7899901fa0f71f23374cdc87aa6da4742a2c9db451a2dcb55ee6c88356fc"
+      },
+      {
+        "name": "国民年金経費",
+        "department": "市民生活課",
+        "start": 87362,
+        "raw": "○国民年金経費【市民生活課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○国民年金経費【市民生活課】\n【令和7年3月末現在】\n■被保険者数・付加加入被保険者数の状況 ＜長岡年金事務所資料より＞\n（単位：人）\n被\n保\n険\n者\n数\n付加加入被保険者数\n第1号\n被保険者\n\n任意加入\n被保険者\n\n第3号\n被保険者\n\n2,554\n\n23\n\n843\n\n合\n\n計\n\n3,420\n\n強\n\n制\n23\n\n■免除等被保険者数の状況＜長岡年金事務所資料より＞\n申請免除\n法定免除\n全額免除\n3/4免除\n半額免除\n1/4免除\n380\n254\n21\n8\n11\n\n任\n\n意\n124\n\n20歳到達\n\n1",
+        "contextSha256": "b00176753ca7db915bd2e7d29dffa9c590e551914694eaf1bf9f6d98942c7d03"
+      },
+      {
+        "name": "保育園経費",
+        "department": "教育・保育課",
+        "start": 88996,
+        "raw": "○保育園経費【教育・保育課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○保育園経費【教育・保育課】\n各保育園において、保育が必要な子どもたちの保育を実施した。また、早朝・延長保育や一\n時保育、土曜日の延長保育を実施し、保護者の保育ニーズに対応した。\n■施設関係\n種\n\n別\n\n認可保育園\n\n（児童数：令和7年3月1日現在／職員数：保育所等現況調査による）\n定 員\n児童数（人）\n職員数\n施設数\n（人） 0歳 1歳 2歳 3歳 4歳 5歳 計\n（人）\n9\n846\n148\n53\n80\n90 103 122 134 582\n\n■運営費関係\n区 分\n年間延人数\n国庫補助金\n県費",
+        "contextSha256": "a11480d64a018b1c74e03ee4ebb64e687a200acfee049c63cfe65a6c25a5fc01"
+      },
+      {
+        "name": "母子福祉経費",
+        "department": "健康・子育て応援課",
+        "start": 93350,
+        "raw": "○母子福祉経費【健康・子育て応援課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○母子福祉経費【健康・子育て応援課】\n■高等職業訓練促進給付金等事業補助金\nひとり親家庭の父または母の就業支援として養成機関で訓練を受けて資格取得を目指す方に\n訓練促進費を支給した。\n・受給者数\n\n1,730,000 円\n\n1人\n\n",
+        "contextSha256": "5f2852812877afe4d056053b03fee9071e0c29ffbcabebe52e837548bd8556a2"
+      },
+      {
+        "name": "児童遊園管理経費",
+        "department": "教育・保育課",
+        "start": 94061,
+        "raw": "○児童遊園管理経費【教育・保育課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○児童遊園管理経費【教育・保育課】\n■児童遊園整備費補助金\n町内が管理する児童遊園の整備、遊具の新設・増設・修繕に対して補助金を交付した。\n種\n\n別\n\n補助事業者\n\n町内児童遊園遊具等整備費補助金\n\n補助金額（円）\n11,500\n\n小千谷市社会福祉協議会\n\n５児童手当費\n〇児童手当支給事業【健康・子育て応援課】\n児童手当法に基づき、児童の健全な育成等に寄与するため、児童手当を支給した。\n■支給状況\n(1)10月支給分まで\n区 分\n3歳未満\n件数（件）\n3,207\n金額（千円）\n48,105\n(2",
+        "contextSha256": "1cfc342d826dae95debbe3b5f52cc2474e32da4c261076482a071b891f558b1e"
+      },
+      {
+        "name": "生活保護経費",
+        "department": "福祉課",
+        "start": 94568,
+        "raw": "○生活保護経費【福祉課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○生活保護経費【福祉課】\n■保護世帯・人員及び保護申請状況\n被保護世帯\n区\n\n分\n\n総\n数\n月 平 均\n\n保 護 申 請\n新規申請\n開始数\n23\n18\n1.9\n1.5\n\n125世帯\n処 理 状\n却下数\n5\n0.4\n- 89 -\n\n25,827,801 円\n令和7年3月分社会福祉統計（厚生労働省報告）\n被保護者数\n152人\n況\n取下数\n2\n0.2\n\n保護変更\n申 請 数\n279\n23.3\n\n保護廃止\n世 帯 数\n20\n1.7\n\n保 護 率\n(千人比)\n4.7\n\n\n【一般】3款 民生費\n主\n\n款項目",
+        "contextSha256": "d233be88cb69a0a0f983556b7fe67ba518187b981d48c065017c570ebc8ac8c1"
+      },
+      {
+        "name": "精神保健経費",
+        "department": "健康・子育て応援課",
+        "start": 97401,
+        "raw": "○精神保健経費【健康・子育て応援課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○精神保健経費【健康・子育て応援課】\n自殺対策計画の推進に向け各事業を実施。自殺は複数の要因が絡み合って起こるため、関係\n機関等との情報共有と有機的な連携を図り、包括的な支援を検討しながら、第2期自殺対策計\n画を策定した。\n■自殺対策計画進行管理\n・いのちとこころの支援連絡会・精神障がい地域包括ケア連絡会 3回\n（6月26日､10月2日、1月29日）\n■精神保健事業\n区\n分\n回数(回)\n参加者数(人)\n自殺予防ゲートキーパー養成講座\n3\n94\n精神保健福祉相談\n3\n5\n心の健康講演会\n1\n76\n",
+        "contextSha256": "b9b5ab0a8c2b93ab2974602a3492a1e2a500ae55152cf6509c66cda8b2aaeaec"
+      },
+      {
+        "name": "斎場管理経費",
+        "department": "環境共生課",
+        "start": 105423,
+        "raw": "○斎場管理経費【環境共生課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○斎場管理経費【環境共生課】\n■西山斎場使用状況\n区 分\n令和6年度\n火 葬 件 数\n570件\n火 葬 日 数\n264日\n\nな\n\n施\n\n策\n\nの\n\n成\n\n果\n\n等\n\n月平均\n47.5件\n22.0日\n\n23,725,900 円\n■斎場施設修繕工事\n屋根、焼却炉など、劣化等が著しい箇所について、補修工事の実施により、施設の機能維持\nが図られた。\n21,635,900 円\n2,090,000 円\n\n・屋上防水改修工事\n・その他設備機器修繕工事\n６環境保全対策費\n",
+        "contextSha256": "c734d367b4cce1434a3ef2822fbe0092740022d616fa261e85e0018acd196508"
+      },
+      {
+        "name": "ごみ収集経費",
+        "department": "環境共生課",
+        "start": 106779,
+        "raw": "○ごみ収集経費【環境共生課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○ごみ収集経費【環境共生課】\n116,041,200 円\n■ごみ収集委託料\n・パッカー車 7台 （可燃、ビン・缶、ペットボトル、容器包装プラ）\n・ダンプ車\n2台 （埋立、不燃粗大）\n・収集量\n\n通常収集分\n災害廃棄物分\n合計\n■古紙収集委託料\n・収集量\n新聞\n115\n\n（単位：t）\n可 燃 物\n委託収集\n4,160\n－\n4,160\n\n不燃物委託収集\n資 源\n埋 立\n不燃物計\n968\n360\n1,328\n－\n－\n－\n968\n360\n1,328\n\n委託収集合計\n\n2,296,800 円\n雑誌・チラシ",
+        "contextSha256": "f3480124497e43b4ce8811303d2b451784f6fa6c99bdd122d5945cae722dccb3"
+      },
+      {
+        "name": "可燃ごみ処理経費",
+        "department": "環境共生課",
+        "start": 107134,
+        "raw": "○可燃ごみ処理経費【環境共生課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○可燃ごみ処理経費【環境共生課】\n可燃ごみの処理にかかった経費。搬入量は前年比で169t減少した。\n■可燃ごみ処理場（時水清掃工場）\n搬入量（t）\n区別\n\n委託業者\n\n小千谷市\n長岡市受託分\n\n4,160\n298\n4,458\n\nクリーンスポット大原\n\n計\n\n計\n\n割合\n（％）\n\n10,436\n599\n152\n11,187\n\n93.29\n5.35\n1.36\n100.00\n\nその他\n個別搬入\n（再分別）\n6,276\n301\n6,577\n\n152\n152\n\n88,189,200 円\n■可燃ごみ処理場設",
+        "contextSha256": "c93c7b80bc2248bb22102626d075a1fbb17204b0c12a0b7687b9f34616b44b68"
+      },
+      {
+        "name": "不燃ごみ処理経費",
+        "department": "環境共生課",
+        "start": 107718,
+        "raw": "○不燃ごみ処理経費【環境共生課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○不燃ごみ処理経費【環境共生課】\n不燃ごみの処理にかかった経費。搬入量は前年比で81ｔ減少した。\n■不燃ごみ処理場（クリーンスポット大原）\n搬入量（t）\n区分\n\n埋立ごみ\n委託\n\n資源ごみ\n\n直接\n\n委託\n\n直接\n\n粗大ごみ\n\n計\n\n割合\n（％）\n\n小千谷市\n\n360\n\n217\n\n968\n\n62\n\n129\n\n1,736\n\n91.46\n\n長岡市\n受託分\n\n49\n\n-\n\n113\n\n-\n\n-\n\n162\n\n8.54\n\n計\n\n409\n\n217\n\n1,081\n\n62\n\n129\n\n1,898\n\n100.00\n",
+        "contextSha256": "9e402e044541232736db6fb6c1316a7f9ecaf70d09a48715656813155a171507"
+      },
+      {
+        "name": "し尿処理経費",
+        "department": "環境共生課",
+        "start": 108586,
+        "raw": "○し尿処理経費【環境共生課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○し尿処理経費【環境共生課】\nし尿、浄化槽汚泥の処理にかかった経費。搬入量は前年比で163kl減少した。\n■し尿収集運搬補助金\n補助することにより、市民の負担軽減が図られた。\n補助金額（円） 許可業者数 合計補助金額（円）\n570,000\n3\n1,710,000\n■し 尿\n(1)処理浄化槽設置届状況\n(2)収集量\n区 分\n収集量\n\n4基\n\n生 し 尿\n741\n\n浄化槽汚泥\n4,432\n\n- 104 -\n\n（単位：kl）\n計\n5,173\n\n\n【一般】4款 衛生費\n主\n\n款項目\n\n要\n\nな\n\n施\n\n",
+        "contextSha256": "d23405bceee7a9b0fcec85629d001091a42457803ba7cc9b41d477811e105653"
+      },
+      {
+        "name": "簡易水道組合補助金",
+        "department": "環境共生課",
+        "start": 109114,
+        "raw": "○簡易水道組合補助金【環境共生課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○簡易水道組合補助金【環境共生課】\n・簡易水道組合連合会補助金\n\n1件\n\n869,000 円\n\n1件\n\n10,208,000 円\n\n２水道事業費\n",
+        "contextSha256": "2103bb59bd75d5526d64ae4ba7289c5869a80edcd40a35f8d2b5cd640f03d618"
+      },
+      {
+        "name": "農業委員会経費",
+        "department": "農林課",
+        "start": 111681,
+        "raw": "○農業委員会経費【農林課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○農業委員会経費【農林課】\n■会議\n(1)総会\n・開催回数\n・委員出席延人数\n・委員平均出席率\n・会議事件数\n件 名\n\n策\n\nの\n\n成\n\n件\n\n(2)その他の会議\n・農業委員等研修会\n\n数（件）\n113\n4\n8\n1,518\n0\n18\n1,661\n\n2回\n\n■諸調査\n・農地転用等現地調査\n・利用状況調査（農地パトロール）\n\n109 件\n134 筆\n\n■農地法各条項許可申請関係\n(1)農地法各条許可申請処理状況一覧表（単位：件、㎡）\n種別 農地法第3条許可申請\n区分\n面 積\n件数\n売買\n贈与\n交換\n",
+        "contextSha256": "d1ec3d77f302c02d9fb7895f1375c913412c08b291448950d1ec74026bfcbdcf"
+      },
+      {
+        "name": "農業管理センター経費",
+        "department": "農林課",
+        "start": 114479,
+        "raw": "○農業管理センター経費【農林課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○農業管理センター経費【農林課】\n■利用回数\n部屋\n利用回数\n会議室（大、中含む）\n50\n調理実習室\n7\n和室\n243\n計\n300\n\n面\n\n計\n面\n\n積\n\n委託料（円）\n1,310,000\n1,339,650\n2,649,650\n\n■通年利用\n部屋\n利用者\n小千谷西南土地改良区\n事務室1\n小千谷市広域協定運営委員会\n事務室2\n第1,2研修室 公益財団法人新潟県スキー連盟\n\n- 111 -\n\n\n【一般】6款 農林水産業費\n主\n\n款項目\n\n要\n\n",
+        "contextSha256": "1552337de05dd2ea6c2fc54243d7236f7d9a4e11a429c8f2275a1b3384c8e179"
+      },
+      {
+        "name": "農業者等就労施設経費",
+        "department": "農林課",
+        "start": 114702,
+        "raw": "○農業者等就労施設経費【農林課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○農業者等就労施設経費【農林課】\n■就労者数\n施設名\n岩沢地域農業者等共同作業施設\n\nな\n\n施\n\n策\n\nの\n\n成\n\n果\n\n等\n\n就労者数\n48 人\n16 人\n9人\n73 人\n\n川井地域農業者等共同作業施設（内ヶ巻）\n川井地域農業者等就業促進施設（川井本田）\n\n計\n３農業振興費\n",
+        "contextSha256": "3cebe34cbfefbd1d59bd121d8660ddfe00398a634fe5875d9f4a4a92630fb362"
+      },
+      {
+        "name": "ふれあいの里管理経費",
+        "department": "にぎわい交流課",
+        "start": 118887,
+        "raw": "○ふれあいの里管理経費【にぎわい交流課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○ふれあいの里管理経費【にぎわい交流課】\n滞在型農園（ラウベ）は延べ6,091人、日帰り型農園は延べ1,173人が利用した。\n■施設管理委託料\n事業目的\n事業内容\n委託料(円)\nおぢやクラインガルテンふれあい\nの里の管理運営\n\n管理棟施設管理、交流事業企画運\n営、農園利用者への農業指導、施\n設内環境美化、広場芝生植栽等\n\n施設関連委託料（清掃、保守点検、警備、除排雪関連）\n■工事請負費\n給湯器取替工事：10台\n■備品購入費\nガスコンロ取替：10台\n刈払機：１台\n\n- 115 -\n\n2,085,5",
+        "contextSha256": "f3f1c122d4dbe680ab9825e0a4bc6f33fe5101e3404803bd1fe548fa6c33eaf7"
+      },
+      {
+        "name": "生産調整対策経費",
+        "department": "農林課",
+        "start": 119234,
+        "raw": "○生産調整対策経費【農林課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○生産調整対策経費【農林課】\n■需要に応じた米生産\n(1)米生産数量（令和6年産主食用米）\n生産数量目標（市再生協配分）\n生産数量確定（小千谷市実績）\n\n施\n\n策\n\nの\n\n成\n\n果\n\n等\n\n（単位：ｔ）\n9,959\n10,189\n\n・令和6年産米の合理的基準反収 ･･･549㎏/10a\n(2)新たな米政策推進活動支援事業\n・小千谷市農業再生協議会補助金\n事業主体\n小千谷市\n農業再生協議会\n\n420,000 円\n\n事業内容\n\n補助金区分\n県費（円）\n市費（円）\n\n事業費(円)\n\n新たな米政策対応、",
+        "contextSha256": "fa0f31a0a0e4f67a411bdaaadba9c61fbcbb47d53e35984da7cad250de2ae3a9"
+      },
+      {
+        "name": "農地管理経費",
+        "department": "農林課",
+        "start": 120014,
+        "raw": "○農地管理経費【農林課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○農地管理経費【農林課】\n■維持補修工事\n防災ダムの計測器等の修繕により、設備の機能回復が図られた。\n農道の補修により、施設の機能回復が図られた。\n工事名\n\n2,733,500 円\n\n事業量\n\n事業費(円)\n\n太田防災ダム管理棟外\n管理棟外壁等修繕ほか\n壁等修繕工事\n\n一式\n\n2,416,700\n\n農免農道片貝線倒木処\n倒木処理ほか\n理ほか\n\n一式\n\n316,800\n\n事業内容\n\n- 116 -\n\n\n【一般】6款 農林水産業費\n主\n\n款項目\n\n要\n\nな\n\n施\n\n策\n\nの\n\n成\n\n果\n\n等\n\n",
+        "contextSha256": "2f2e61bd4c4e65f94f956464d6302a0b35696fb587a7ac5b87803b7bc27df1a2"
+      },
+      {
+        "name": "堆肥センター管理運営経費",
+        "department": "農林課",
+        "start": 123972,
+        "raw": "○堆肥センター管理運営経費【農林課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○堆肥センター管理運営経費【農林課】\n■堆肥センター管理運営委託料\n・指定管理者及び委託料\n魚沼農業協同組合\n\n9,000,000 円\n\n■設備修繕工事\n・換気扇更新\n\n1,154,186 円\n\n２林業費\n１林業総務費\n",
+        "contextSha256": "c11040533af5791e999890376879fbdb286dab89af8c31322a34f16e93652d07"
+      },
+      {
+        "name": "林道管理経費",
+        "department": "農林課",
+        "start": 124110,
+        "raw": "○林道管理経費【農林課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○林道管理経費【農林課】\n林道の舗装や補修により、森林保全のための施設の整備が図られた。\n・林道舗装工事\n・林道補修工事\n\n6,207,300 円\n2,900,700 円\n\n1件\n9件\n\n",
+        "contextSha256": "03c40e4e2c14e6d7de984fd19dbfaf2dbc183b737d865873fd6aa74f0d419537"
+      },
+      {
+        "name": "地域間交流センター経費",
+        "department": "にぎわい交流課",
+        "start": 130849,
+        "raw": "○地域間交流センター経費【にぎわい交流課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○地域間交流センター経費【にぎわい交流課】\n令和6年1月25日から温泉揚湯不良により、沸かし湯での営業となった。ちぢみの里の方針に\nついて、アンケートや分析調査をもとに検討した結果、温泉・温浴施設として営業を継続する\nことは困難であることから、令和7年3月31日をもって営業を終了した。沸かし湯での営業に\nなったことによる来館者減少に対する減収補償を行い経営を支援した。また、令和7年3月31日\nまで営業を行うために必要な設備について、維持修繕を行った。\n(1)指定管理者及び委託料\n53,616,3",
+        "contextSha256": "b8c339e8c48bbdf004668588e7bbd1c299d3ac1660cfbfa6417e500f22a95824"
+      },
+      {
+        "name": "総合産業会館サンプラザ経費",
+        "department": "にぎわい交流課",
+        "start": 131794,
+        "raw": "○総合産業会館サンプラザ経費【にぎわい交流課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○総合産業会館サンプラザ経費【にぎわい交流課】\n経年劣化が著しい設備の交換や修繕の実施、また、施設管理運営委託料により、施設運営の\n経営状況の安定化を図った。\n(1)指定管理者及び委託料\n一般財団法人 小千谷市産業開発センター\n(2)入館者総数\n(3)利用料\n(4)施設修繕工事\n工\n事\n名\n冷温水発生器真空管消耗部品取替工事\n\n26,193,385 円\n63,606 人\n9,182,991 円\n金額(円)\n1,804,000\n\n着手年月日 竣工年月日\nR6.4.1\nR6.4.30\n\n",
+        "contextSha256": "a7ef7cfcf9c7fae1ad2d3e5a09a5a3bd346dde5b536b02948ad0d5e00eebe59e"
+      },
+      {
+        "name": "錦鯉の里経費",
+        "department": "にぎわい交流課",
+        "start": 132038,
+        "raw": "○錦鯉の里経費【にぎわい交流課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○錦鯉の里経費【にぎわい交流課】\n経年劣化が著しい設備の交換や修繕の実施、また、施設管理運営委託料により、施設運営の\n経営状況の安定化を図った。\n(1)指定管理者及び委託料\n一般財団法人 小千谷市産業開発センター\n(2)入館者総数\n(3)入館料\n(4)施設修繕工事\n工\n事\n名\n\n22,371,454 円\n39,730 人\n16,070,830 円\n金額(円)\n\n着手年月日 竣工年月日\n\n13,153,800\n\n屋外鑑賞池改修工事\n\n４企業立地促進費\n",
+        "contextSha256": "c128d0933549e2a4d02a01d74b1c718784b75922cb73e3307c3857690ef4abae"
+      },
+      {
+        "name": "テレワークステーションおぢや経費",
+        "department": "商工振興課",
+        "start": 132466,
+        "raw": "○テレワークステーションおぢや経費【商工振興課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○テレワークステーションおぢや経費【商工振興課】\n■登録者数（R7.3.31時点）\n区分\n登録者数\n一般会員\n\n681 人\n\n高校生等会員\n\n269 人\n\n法人会員\n\n28 人\n計\n\n978 人\n\n■利用者数（R6.4.1～R7.3.31）\n区分\n\n利用者数\n\n一般会員\n\n938 人\n\n高校生等会員\n\n1,253 人\n\n法人会員\n\n18 人\n\n法人会員（サテライトオフィス使用法人）\n\n1人\n\n多目的ルーム\n\n276 人\n計\n\n2,486 人\n\n■運営支援業務委託料\nテレワークステーションおぢやの",
+        "contextSha256": "75912c165a387f719e7e4d91b3685b3486f79d034928cf1772eed28671d5c1c5"
+      },
+      {
+        "name": "克雪管理センター経費",
+        "department": "福祉課",
+        "start": 133877,
+        "raw": "○克雪管理センター経費【福祉課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○克雪管理センター経費【福祉課】\n■克雪管理センター管理運営委託料\n(1)指定管理者及び委託料\n社会福祉法人 小千谷市社会福祉協議会\n(2)利用実績\n・克雪管理センター利用実績\n3,523 人\n利用延人数\n\n3,809,000 円\n\n長 （ｍ）\n-\n\n- 129 -\n\n\n【一般】8款 土木費\n主\n\n款項目\n\n要\n\nな\n\n施\n\n策\n\nの\n\n成\n\n(3)道路占用関係\n・道路継続占用許可申請\n・道路法第32条許可申請\n・道路法第24条許可申請\n\n285 件\n133 件\n8件\n\n(4)法定外公共物使用関",
+        "contextSha256": "b17a188ccc53654496c37241f0665503e3d9ae4e50c0ddbbeca11089fa5466df"
+      },
+      {
+        "name": "道路橋りょう維持経費",
+        "department": "建設課",
+        "start": 134277,
+        "raw": "○道路橋りょう維持経費【建設課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○道路橋りょう維持経費【建設課】\n種 別\n件数 工事費（円） 件数\n道路舗装等補修工事\n36,534,580\n96\n側溝補修工事\n13,941,400\n39\n橋りょう補修工事\n0\n0\n安全施設補修工事\n5,348,200\n9\n-\n\n7,997,000 円\n\n用地費（円）\n\n件数\n-\n\n補償費（円）\n-\n\n３道路橋りょう新設改良費\n",
+        "contextSha256": "543a2b16599fe510d3d2642ab5c1fa93f83aff786868f8b4b23a625204292a25"
+      },
+      {
+        "name": "除雪対策経費",
+        "department": "建設課",
+        "start": 135050,
+        "raw": "○除雪対策経費【建設課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○除雪対策経費【建設課】\n冬期間の市民の交通確保に寄与した。\n■道路除雪\n区\n\n分\n\n機械除雪\n(市道のみ)\n\n流\n\n雪\n\n国\n1種\n1種並\n2種\n2種試行\n計\n揚水\n導水\n自然水\n計\n\n溝\n\n消雪パイプ\n(外にサニーホース)\n計\n\n4,967\n4,967\n11,382\n16,349\n-\n\n道 路 延 長（ｍ）\n県 道\n市 道\n53,533\n42,221\n44,595\n470\n140,819\n3,418\n37,192\n3,507\n12,027\n499\n6,767\n7,424\n55,986\n23,",
+        "contextSha256": "dfaaa1c81d6d7c364db8c4d7f3e170ea138a76dcb15dc02e41bbfe16901e7ae7"
+      },
+      {
+        "name": "除雪対策経費（繰越明許分）",
+        "department": "建設課",
+        "start": 136984,
+        "raw": "○除雪対策経費（繰越明許分）【建設課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○除雪対策経費（繰越明許分）【建設課】\n38,300,000 円\n■県消雪施設修繕費負担金\n経年劣化による取水不良などから県が実施する薭生揚水場の整備に対する負担金。取水工等\nの工事が実施され、事業の進捗が図られた。\n\n- 132 -\n\n\n【一般】8款 土木費\n主\n\n款項目\n\n３河川費\n１河川総務費\n",
+        "contextSha256": "3d17bf1668fb79508c42eec3f0e0d8a825102256a02dcc332e80e7cebe21707d"
+      },
+      {
+        "name": "河川総務経費",
+        "department": "建設課",
+        "start": 137135,
+        "raw": "○河川総務経費【建設課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○河川総務経費【建設課】\n■河川草刈業務\n・一級河川除草\n河川名 委託費（円）\n茶郷川\n1,199,738\n野辺川\n144,000\n酒座川\n304,224\n須川\n1,036,280\n二宮川\n1,426,839\n城之入川\n190,140\n\n要\n\nな\n\n施\n\n策\n\nの\n\n成\n\n果\n\n等\n\n9,778,591 円\n河川名 委託費（円） 河川名 委託費（円）\n関の入川\n126,760 大日川\n80,000\n源二郎川\n816,464 悪沢川\n232,000\n表沢川\n121,352 天田川\n853,220\n",
+        "contextSha256": "0602a145ba31675d4e19f1c92b5e86238798c3139ac3a68fcf7c97cc1858e547"
+      },
+      {
+        "name": "県営急傾斜地崩壊防止対策事業負担金",
+        "department": "建設課",
+        "start": 137622,
+        "raw": "○県営急傾斜地崩壊防止対策事業負担金【建設課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○県営急傾斜地崩壊防止対策事業負担金【建設課】\n■急傾斜地崩壊防止対策事業負担金\n箇 所\n県事業費（円） 市負担金（円）\n千谷川地内\n64,003,400\n6,400,340\n４都市計画費\n１都市計画総務費\n",
+        "contextSha256": "6aad4e1422616b7976f9abbcc2c3be9cb1ae2502d53f28f263f7c76f0130c960"
+      },
+      {
+        "name": "公園管理経費",
+        "department": "建設課",
+        "start": 141090,
+        "raw": "○公園管理経費【建設課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○公園管理経費【建設課】\n■管理業務等委託料\n・施設保守点検等\n・公園管理\n・除草業務\n・樹木管理\nア 城内ポケットパーク\nイ 千谷工業団地公園\nウ 片貝ふれあい公園けやき園\n・調整池清掃\n\n1台\n16 台\n77 台\n\n11 か所\n3 か所\n3 か所\n\n3 か所\n\n- 136 -\n\n1,570,800 円\n1,268,960 円\n3,464,230 円\n10,197,990 円\n\n6,640,435 円\n46,891 円\n2,900,000 円\n139,444 円\n2,115,300 円\n781",
+        "contextSha256": "125ecf19e01d1034f367d706dee3da69585a9ffd25e86b095b9f9f5e31074e98"
+      },
+      {
+        "name": "公営住宅管理経費",
+        "department": "建設課",
+        "start": 141974,
+        "raw": "○公営住宅管理経費【建設課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○公営住宅管理経費【建設課】\n■公営住宅管理戸数\n住\n宅\n別\n県営住宅\n公営住宅\n市営住宅\n単独住宅\n特定公共賃貸住宅\n計\n\n戸 数\n122\n310\n40\n6\n478\n\n",
+        "contextSha256": "561c8a50265416b46c5f51988f8550742e1121cb73d69444ac5783c661d83630"
+      },
+      {
+        "name": "水防経費",
+        "department": "防災安全課",
+        "start": 151302,
+        "raw": "○水防経費【防災安全課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○水防経費【防災安全課】\n■水防活動等報酬\n・信濃川・魚野川水防連絡会河川合同巡視\n・信濃川・魚野川水防演習\n\n35,719,070 円\n金 額（円）\n27,540,530\n8,178,540\n\n84,000 円\n\n計\n\n- 149 -\n\n10,929,600 円\n金 額（円）\n10,929,600\n\n1人\n41 人\n42 人\n\n\n【一般】9款 消防費\n款項目\n\n主\n\n要\n\nな\n\n施\n\n５防災費\n",
+        "contextSha256": "3229c8f295ba452c42f0506c518bc78b56d5ad3fb2ec8b2fd8d88a29c772b791"
+      },
+      {
+        "name": "適応指導教室経費",
+        "department": "教育・保育課",
+        "start": 161800,
+        "raw": "○適応指導教室経費【教育・保育課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○適応指導教室経費【教育・保育課】\n■不登校児童生徒適応指導教室「マイルーム」\n(1)開級日数\n201 日\n土・日曜・祝日を除く、午前9：30～午後3：00\n※通級生の状況により上記の時間の前後にも対応している。\n(2)活動内容\n・個別活動\n・交流活動\n\n教科学習、読書、タブレットでの学習等\n軽運動、ゲーム等\n\n(3)各機関等との連携\n・在籍校との連携\n・保護者との連携\n・関係機関との連携\n\nケース会議、支援会議、テスト実施、電話等での情報交換\n担任によるルーム訪問、活動記録報告、訪問支援\n面談",
+        "contextSha256": "c5532c0b86eb9314a00e765b409967484beb2646f4b6eb577901cbb8ffb85900"
+      },
+      {
+        "name": "教育センター経費",
+        "department": "教育・保育課",
+        "start": 162515,
+        "raw": "○教育センター経費【教育・保育課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○教育センター経費【教育・保育課】\n開催回数\n■教育センター運営委員会（4月18日）\n令和５年度事業報告・令和６年度事業計画\n\n■視聴覚教育部\n(1)視聴覚教育部兼任所員会（5月16日）\n\n1回\n\n(2)研修事業\n・PC研修会（集合研修）\n研 修 会 名\nFormsアンケート集計 GIGAパソコン活用\nパワーポイント基本 GIGAパソコン活用\nワード差込印刷\nExcel個票作成\nExcelとForms GIGAパソコン活用\nICT活用授業（小学校 理科）\nICT活用授業（中学校 技術家庭）\n合\n",
+        "contextSha256": "d2d1430850e626e2f940a58f3167d9e487a6163801b35f6e3c9930c48c804920"
+      },
+      {
+        "name": "教職員住宅経費",
+        "department": "教育・保育課",
+        "start": 163521,
+        "raw": "○教職員住宅経費【教育・保育課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○教職員住宅経費【教育・保育課】\n■東大通教職員住宅\n鉄筋コンクリート造4階建\n入居率\n\n14,000 円\n\n20 戸（2K・駐車場有）\n36.7 ％（年平均）\n\n２小学校費\n１学校管理費\n",
+        "contextSha256": "1d417ae55b1853a027e560b4eb444f673f5ddd2b5858db9f55e371996f972bea"
+      },
+      {
+        "name": "市民学習センター管理運営経費",
+        "department": "文化スポーツ課",
+        "start": 171238,
+        "raw": "○市民学習センター管理運営経費【文化スポーツ課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○市民学習センター管理運営経費【文化スポーツ課】\n■指定管理者及び委託料\n一般財団法人\n\n17,994,000 円\n\n小千谷市産業開発センター\n\n■施設利用状況\n・開館日数\n312日（令和6年4月～令和7年3月）\n29,144 人\n\n・入館者数\n・貸館利用\n区分\n無\n有\n計\n\n件数\n\n料\n\n147\n\n料\n\n利用人数（人）\n\n利用料(円)\n\n11,322\n\n-\n\n219\n\n5,204\n\n1,808,313\n\n366\n\n16,526\n\n1,808,313\n\n",
+        "contextSha256": "29afcbebb0d91cc328859efaffb1d1fe5bd4c940e14bfa112e0378167ce87bac"
+      },
+      {
+        "name": "育成センター経費",
+        "department": "文化スポーツ課",
+        "start": 172798,
+        "raw": "○育成センター経費【文化スポーツ課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○育成センター経費【文化スポーツ課】\n■会議・研修会\n会議・研修会\n育成センター運営協議会\n青少年補導委員会\n\n回\n\n数\n1\n1\n\n■広報活動\n・青少年育成センターだより「そだて」\n・市教委だより掲載\n・広報掲載\n・相談のよびかけチラシ等配布\n・相談カード配付（中学3年生対象）\n\n参加者数\n9\n34\n\n3回\n1回\n1回\n1回\n1回\n\n■街頭補導（青少年補導委員33人）\n（内容：子ども達の活動の様子を見守り、応援し、一声かける活動）\n・補導委員による巡回\n34 回\n・従事者（延人員）\n92 人\n・",
+        "contextSha256": "8c359d5e943558d51b93ea9a9f58ef293385e6c6c0417219d4817f2eb45e7c2d"
+      },
+      {
+        "name": "公民館経費",
+        "department": "文化スポーツ課",
+        "start": 173302,
+        "raw": "○公民館経費【文化スポーツ課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○公民館経費【文化スポーツ課】\n■会議\n・公民館運営審議会\n2回\n・分館関係者会議\n1回\n■分館事業\n名\n称\n講演会･講習会･実習等\n定期講座\n文化事業・文化展芸術祭等\n体育･スポーツ事業\nレクリエーション娯楽活動\n会議\nその他\n計\n\n実施回数\n28\n59\n466\n468\n104\n265\n146\n1,536\n\n延参加者数\n637\n689\n7,357\n8,158\n7,187\n2,497\n1,547\n28,072\n\n金 額\n(円)\n\n1,807,220 円\n発 注\n納 品\n年月日\n年月日\n\n1,80",
+        "contextSha256": "f4426bdc3776647971b04f0187aca9988723a4227cf50c063d37121cbd6e9753"
+      },
+      {
+        "name": "ひと・まち・文化共創拠点経費",
+        "department": "にぎわい交流課",
+        "start": 177518,
+        "raw": "○ひと・まち・文化共創拠点経費【にぎわい交流課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○ひと・まち・文化共創拠点経費【にぎわい交流課】\n■ひと・まち・文化共創拠点運営事業\n9月28日（土）に「ひと・まち・文化共創拠点ホントカ。」の供用を開始した。\n図書館、郷土資料館、市民活動の場や子どもの遊び場が混じり合う複合施設は、多様な人たち\nが出会い、交流できる地域の拠点となり、新たな可能性を生み出し続ける共創の場である。\n毎月第1日曜日には、図書資料に囲まれた動く書架（フロート）エリアで「ホントカ。市」\nが開催され、賑わいの場であるとともに、記念式典、講演会が開催される等、様々な活動の可",
+        "contextSha256": "4bde44031b34d0ec4083c4e78cd321d2d528d0680d070167ce5726b734acefc9"
+      },
+      {
+        "name": "市民の家経費",
+        "department": "にぎわい交流課",
+        "start": 182109,
+        "raw": "○市民の家経費【にぎわい交流課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○市民の家経費【にぎわい交流課】\n県内高等学校等の合宿利用や、企業等の社員研修利用等の営業活動を行い、利用促進\nに努めた。また、キャンプ場オンライン予約サイトを導入し、利用促進につなげた。\n\n開館日数\n308日間\n\n市民の家\n利用件数\n延べ利用者数\n1,035件\n8,523人\n\n- 177 -\n\nドッグラン\n利用者数\n入頭数\n30,543人\n1,579人\n1,278頭\n\n水力発電館\n来場者数\n\n\n【一般】10款 教育費\n主\n\n款項目\n\n要\n\nな\n\n施\n\n策\n\nの\n\n成\n\n果\n\n等\n\n■主催事業等",
+        "contextSha256": "85b6c7fee31bc6f9cdffb76c6a122f1b36e9f64095169b6afa03a895e3870327"
+      },
+      {
+        "name": "市民会館経費",
+        "department": "文化スポーツ課",
+        "start": 182476,
+        "raw": "○市民会館経費【文化スポーツ課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○市民会館経費【文化スポーツ課】\n■施設使用状況\n(1)事業別（件数・人員）\n区\n分\n\n件数\n\n使用人員\n\n市・公民館主催事 各課主管会議・研修会・講演\n業共催事業ほか\n会・各種学級・講座ほか\n\n2,379 件\n\n55,212 人\n\n各種グループ活動・展示即売\n会・音楽会ほか\n\n853 件\n\n16,755 人\n\n3,232 件\n\n71,967 人\n\n一般利用\n\n計\n\n(2)室別（件数）\n区 分\n大ホール 大会議室 中会議室\n307\n年 間\n383\n983\n(140)\n(\n)内は､大ホールのステー",
+        "contextSha256": "64c836f49725cbc558d428b6a0a634c52873d979108937a3f60c70d3f3f4210d"
+      },
+      {
+        "name": "学校保健経費",
+        "department": "教育・保育課",
+        "start": 183068,
+        "raw": "○学校保健経費【教育・保育課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○学校保健経費【教育・保育課】\n■健康診断手数料\n\n6,943,103 円\n\nR7.2.17\n\nR7.3.19\n\n842,490 円\n\n■心臓検診委託料\n小学校\n\nR6.12.13\n\n内科検診・歯科検診・眼科検診・耳鼻科検診・尿検査・結核検診\n心臓検診（1年生）\n運動器検診［脊柱側わん症（4～6年生）、四肢の状態（全学年）］\n- 178 -\n\n\n【一般】10款 教育費\n主\n\n款項目\n\n要\n\nな\n\n施\n\n策\n\nの\n\n成\n\n果\n\n等\n\n中学校\n\n内科検診・歯科検診・眼科検診・耳鼻科検診・尿検査・結核",
+        "contextSha256": "79d05fff78abd111eb24f05b4a2145040b84ca55e053d45f6d439daf642cfa66"
+      },
+      {
+        "name": "学校給食経費",
+        "department": "教育・保育課",
+        "start": 183608,
+        "raw": "○学校給食経費【教育・保育課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○学校給食経費【教育・保育課】\n■学校給食実施状況（自校方式）\n小学校\n8校\n中学校\n1校\n\n児童数 1,377 人\n生徒数\n52 人\n\n（令和6年5月1日：学校基本調査）\n（\n〃\n）\n\n■市内学校米飯給食実施回数\n週\n4 回\n※週1回もしくは2回は、米飯給食以外（パン又は麺）を実施\n2,013,308 円\n■施設等修繕料\n・給食室空調機（片貝小）、ガス立体炊飯器（千田小）、ガス給湯器（吉谷小）\n\nほか\n\n10,139,250 円\n■給食用備品購入費\n・食器洗浄機（片貝小）、冷凍冷蔵庫（千田小）",
+        "contextSha256": "69fd14b9ae0ee6245590adbe8c7d1cc827dcb1ae5bca831dce16ceb3020dac1e"
+      },
+      {
+        "name": "学校給食センター経費",
+        "department": "教育・保育課",
+        "start": 184281,
+        "raw": "○学校給食センター経費【教育・保育課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○学校給食センター経費【教育・保育課】\n・安心・安全な給食の提供\n・季節感があり、地元食材を取り入れた成長期の生徒の基準栄養量を満たす献立の作成\n■学校給食実施状況（センター方式）\n生徒数\n中学校\n4校\n1校\n\n総合支援学校\n\n785 人\n55 人\n\n児童生徒数\n\n（令和6年5月1日：学校基本調査）\n（\n〃\n）\n\n開催回数\n■学校給食センター運営委員会\n1回\n・令和5年度事業報告・給食費会計決算、令和6年度管理・運営計画、事業計画、\n給食費会計予算\n3,249,409 円\n■施設等修繕料\n・蒸気",
+        "contextSha256": "3ec87725b40ce16ac2f374319224cba50966da4fa05898f8cb957b7a6cd3f01b"
+      },
+      {
+        "name": "都市公園体育施設等管理経費",
+        "department": "文化スポーツ課",
+        "start": 188097,
+        "raw": "○都市公園体育施設等管理経費【文化スポーツ課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○都市公園体育施設等管理経費【文化スポーツ課】\n■施設修繕工事\n要\n\n金額 (円)\n\n着 工\n年月日\n\n竣 工\n年月日\n\nライン張替工\n山谷 人工芝修繕工\nメンテナンス工\n\n一式\n一式\n一式\n\n3,894,000\n\nR6.4.1\n\nR6.4.30\n\n白山運動公園受電設備\n山谷 接地抵抗改修工\n接地抵抗改修工事\n\n一式\n\n550,550\n\nR6.9.20\n\nR6.11.26\n\n工\n\n事\n\n名\n\n白山運動公園\n第三庭球場\nライン修繕工事\n\n施工\n場所\n\n4,444,550 円\n\n工\n\n事\n\n概\n\n",
+        "contextSha256": "6191c1cbbf91714ee35a64b66bce5f1c02a75eee0040159c8ba7f0b424e183ec"
+      },
+      {
+        "name": "吉谷トレーニングセンター管理運営経費",
+        "department": "文化スポーツ課",
+        "start": 188460,
+        "raw": "○吉谷トレーニングセンター管理運営経費【文化スポーツ課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○吉谷トレーニングセンター管理運営経費【文化スポーツ課】\n■指定管理者及び委託料\n吉谷地区町内会協議会\n\n44,000 円\n発 注\n納 品\n年月日\n年月日\n\n■施設用備品等購入費\n備\n消火器\n\n品\n\n金 額\n(円)\n\n名\n\n5本\n\n44,000\n\n■施設の利用状況\n体 育 館\n回\n数 利用人数\n\n和\n数\n\n回\n\n室\n利用人数\n\n回\n\n860,000 円\n\nR6.4.11\n\nR6.5.29\n\nその他\n数\n利用人数\n\n合\n数\n\n回\n\n計\n利用人数\n\n回\n\n人\n\n回\n\n人\n\n回\n\n人\n\n回\n\n人\n\n2",
+        "contextSha256": "91a6f7bfa290a6627ae33af155d86202936cd45579001ac949bb8525ee28c152"
+      },
+      {
+        "name": "総合体育館経費",
+        "department": "文化スポーツ課",
+        "start": 188762,
+        "raw": "○総合体育館経費【文化スポーツ課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○総合体育館経費【文化スポーツ課】\n■主要事業\n・総合体育館、市民プール施設整備事業\n総合体育館館内照明のＬＥＤ化、市民プールウォータープレイシステムポンプ及び50ｍプー\nルろ過ポンプ更新等を行ったことにより、安心・安全で快適な施設環境の確保ができた。\n・総合体育館、市民プール備品整備事業\nトレーニング機器の更新、高圧洗浄機を使用した清掃を行ったことにより、利用者の利便性\nが向上し、快適な施設環境の確保ができた。\n\n金 額\n(円)\n\n60,621,000 円\n着 工\n竣 工\n年月日\n年月日\n\n市",
+        "contextSha256": "d3232167192a4e16dfba02604fcb12390a98b8b9193e290d29f21040a0326ee5"
+      },
+      {
+        "name": "出産育児一時金支給経費",
+        "department": "市民生活課",
+        "start": 194136,
+        "raw": "○出産育児一時金支給経費【市民生活課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○出産育児一時金支給経費【市民生活課】\n■支給件数\n・出産育児一時金負担金\n10 件\n\n5,000,000 円\n\n５葬祭諸費\n１葬祭費\n",
+        "contextSha256": "aaa525370a34f5fd364222395e2b9f1eb3f7026a2f51f39a34bf6384e60bab5b"
+      },
+      {
+        "name": "葬祭費支給経費",
+        "department": "市民生活課",
+        "start": 194204,
+        "raw": "○葬祭費支給経費【市民生活課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○葬祭費支給経費【市民生活課】\n■支給件数\n・ 葬祭費負担金\n\n3,000,000 円\n\n60 件\n\n４保健事業費\n１保健事業費\n１保健事業費\n",
+        "contextSha256": "0a9f20e362ceb5fafac6fb87967a05e7b8c76a2d8948b9fcb02e9894c5fd9117"
+      },
+      {
+        "name": "介護認定審査会経費",
+        "department": "福祉課",
+        "start": 197435,
+        "raw": "○介護認定審査会経費【福祉課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○介護認定審査会経費【福祉課】\n■介護保険被保険者数（第1号被保険者数）\n（単位：人）\n前年度末\n増\n減\n年度末\n年間平均\n12,035\n495\n584\n11,946\n11,987\n（被保険者数の増減内訳）\n転 入\n職権復活\n増 加\n40\n転 出\n職権喪失\n減 少\n36\n-\n\n65歳到達\n454\n死 亡\n547\n\n- 197 -\n\n適用除外非該当\n適用除外該当\n-\n\n（単位：人）\nその他\n計\n1\n495\nその他\n計\n1\n584\n\n\n【介保】歳出\n主\n\n款項目\n\n要\n\nな\n\n施\n\n策\n\nの\n\n成\n",
+        "contextSha256": "4b971698f5416d39b588afe2aa37da3f93dd3df8b482bf143b54a33c43bb6124"
+      },
+      {
+        "name": "認定調査等経費",
+        "department": "福祉課",
+        "start": 198526,
+        "raw": "○認定調査等経費【福祉課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○認定調査等経費【福祉課】\n■介護認定に係る認定調査(委託による調査)及び主治医意見書作成等経費\n468 件\n・認定調査件数\n1,716 件\n・主治医意見書作成件数\n\n- 198 -\n\n757件）\n\n\n【介保】歳出\n主\n\n款項目\n\n要\n\nな\n\n施\n\n策\n\nの\n\n成\n\n果\n\n等\n\n２保険給付費\n１介護サービス等諸費\n２介護予防サービス等諸費\n１介護（予防）サービス給付費\n■介護サービス受給者数（令和7年2月現在）\n区\n\n分\n\n居宅サービス受給者\n地域密着型サービス受給者\n介護老人福祉施設入所者\n介",
+        "contextSha256": "03ba5853259df4be6d75b87b159d09036ec14839741762a23c8ff0bd3c6b552a"
+      },
+      {
+        "name": "介護報酬明細書審査支払経費",
+        "department": "福祉課",
+        "start": 200948,
+        "raw": "○介護報酬明細書審査支払経費【福祉課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○介護報酬明細書審査支払経費【福祉課】\n40,469 件\n■利用延人数\n審査委託件数\n４高額介護サービス等費\n１高額介護サービス費\n",
+        "contextSha256": "fb199911083cba30df0481a588ebcbfb1670807312fb9af0d257d1e1e1a04ea1"
+      },
+      {
+        "name": "高額介護サービス費負担金",
+        "department": "福祉課",
+        "start": 201014,
+        "raw": "○高額介護サービス費負担金【福祉課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○高額介護サービス費負担金【福祉課】\n6,336 人\n■利用延人数\n72,376,506\n■給付費\n円\n\n(単位：円)\n一人当たり月\n平均費用額等\n125,285\n112,755\n79,080\n70,770\n133,858\n119,709\n233,038\n208,649\n300,409\n269,741\n221,206\n197,861\n332,953\n299,006\n214,876\n192,720\n\n2,185,326 円\n\n（月平均\n528 人）\n（一人当たり平均\n\n11,423 円）\n\n２高額",
+        "contextSha256": "fbba21d5a9c0746b299f04baabf79eaf81dfe938177b6cfb22c2e58da1b9cf33"
+      },
+      {
+        "name": "高額医療合算介護サービス費負担金",
+        "department": "福祉課",
+        "start": 201276,
+        "raw": "○高額医療合算介護サービス費負担金【福祉課】",
+        "status": "administrative_expense_scope_review_pending",
+        "reason": "Named expense/administrative heading; requires substantive scope review before counting an individual business. No access blocker.",
+        "context": "○高額医療合算介護サービス費負担金【福祉課】\n■利用延人数\n365 人\n（月平均\n30 人）\n8,852,976 円\n■給付費\n（一人当たり平均\n\n24,255 円）\n\n５特定入所者介護サービス等費\n１特定入所者介護サービス費\n■特定入所者介護サービス利用延人数\n3,665 人\n・食費分\n3,717 人\n・居住費分\n■特定入所者介護サービス給付費\n52,719,975 円\n・食費分\n57,719,950 円\n・居住費分\n110,439,925 円\n計\n\n（月平均\n（月平均\n\n305 人）\n310",
+        "contextSha256": "035b9d4e55b12b569a2632d9d4d4fe77c8ff82daa6114eddd384af65b6041c8a"
+      },
+      {
+        "name": "児童手当支給事業",
+        "department": "健康・子育て応援課",
+        "start": 94197,
+        "raw": "〇児童手当支給事業【健康・子育て応援課】",
+        "context": "〇児童手当支給事業【健康・子育て応援課】\n児童手当法に基づき、児童の健全な育成等に寄与するため、児童手当を支給した。\n■支給状況\n(1)10月支給分まで\n区 分\n3歳未満\n件数（件）\n3,207\n金額（千円）\n48,105\n(2)12月支給分から\n区 分\n3歳未満\n件数（件）\n1,523\n金額（千円）\n26,760\n\n小学校修了前\n\n14,408\n154,285\n\n小学校修了前\n\n7,550\n98,520\n\n中学生\n6,003\n60,030\n\n特例給付\n402\n2,010\n\n合計\n24,020\n",
+        "contextSha256": "c50242c84deddaaaa7d3e3ffa1775f9843417b6fcf423d12a85ed89dcf4c6f1a"
+      },
+      {
+        "name": "出産・子育て応援事業",
+        "department": "健康・子育て応援課",
+        "start": 104177,
+        "raw": "〇出産・子育て応援事業【健康・子育て応援課】",
+        "context": "〇出産・子育て応援事業【健康・子育て応援課】\n1,574,718 円\n■おぢやすくすく応援ギフト事業\n乳幼児健（検）診の際に、保護者のリフレッシュと子育てのスキルアップを目的として、市\n内企業からの協賛品、飲食店利用券、記念撮影利用券、スキルアップ教材を配付した。\n・配付数\n\n4か月児健診\n10か月児健診\n1歳6か月児健診\n2歳児検診\n3歳児健診\n\n・市内協賛企業\n・利用券取扱店（者）\n\n65 人\n54 人\n76 人\n67 人\n93 人\n2社\n9者\n\n■出産・子育て応援給付金\n妊娠時に妊婦1人当",
+        "contextSha256": "d087b59e5b5b9d0e9df6d34bb9304b06dbb464dc60984b157524cca4c85af92e"
+      }
+    ]
+  }
+];
