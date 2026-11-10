@@ -1,0 +1,2744 @@
+{
+  "sourceId": "ec35ffa4eb3119fdca46f11d",
+  "sourceSha256": "49b218dd35ea51a9bd3fd7283dec7526c71d893f153de2c06a639b9b35f6e566",
+  "textSha256": "7e4b7d391917a6aa207c86c73fc3933dcaa99b092d442248f0eb4e9deb4dc093",
+  "datasetSha256": "94f7a063528425ec77ea8ffcf5ae2afe116e3cfe40c1d108f841aa75ac93999e",
+  "status": "named_row_coverage_confirmed",
+  "sourceRows": 456,
+  "existingRecords": 455,
+  "missingCodes": [],
+  "existingCombinedRecord": "099 / 455 決算事務 is already represented together; no split or prior-value edit",
+  "scope": "Names and number coverage only; no claim that every field/amount is extracted",
+  "rows": [
+    {
+      "id": "cached-14361-4055e47eb5c3dcd41fa540cc",
+      "code": "001",
+      "name": "未病の推進に関する事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-720d7b1627e19e1ab0df275b",
+      "code": "002",
+      "name": "土地利用調整事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d2a29db5fa830b8d52177969",
+      "code": "003",
+      "name": "子育て・若年夫婦世帯空き家改修事業補助事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-f93ae2953accfdd43f5126de",
+      "code": "004",
+      "name": "三世代同居等推進事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-be04aa35f54f5c097a07a521",
+      "code": "005",
+      "name": "空き家バンク事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-e7104812d0f10564993abd9d",
+      "code": "006",
+      "name": "空き家対策に関する事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-88bb08f09928f5d39910e82f",
+      "code": "007",
+      "name": "県西地域空き家利活用促進協議会事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-23f0934ec9a9d6e3067a5e53",
+      "code": "008",
+      "name": "路線バス維持対策事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-c9e0837fe7ce337c163864aa",
+      "code": "009",
+      "name": "地域公共交通会議の運営事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-84c78be01a5aa3771f5c8d62",
+      "code": "010",
+      "name": "オンデマンドバスの実証運行委託業務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-73e76915fffd0e7a31c7cb39",
+      "code": "011",
+      "name": "オンデマンドバス予約・登録・運行業務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d89f764ef94337fdb638931a",
+      "code": "012",
+      "name": "生活交通対策一般事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-6df18fa423e7115e6e010485",
+      "code": "013",
+      "name": "企業誘致関係事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-7b677234c80e24feccd0b11c",
+      "code": "014",
+      "name": "県西地域活性化プロジェクト推進事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-47e50944c80bb4815cd23d72",
+      "code": "015",
+      "name": "かながわ西観光コンベンションビューロー関係事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-88ac6b5b22dd5165795fb6fc",
+      "code": "016",
+      "name": "地方創生交付金事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-0b8ab6d11dd2f7ef8bbb4178",
+      "code": "017",
+      "name": "地域活性化事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-87576f0ef93b43f59a3c8040",
+      "code": "018",
+      "name": "地方創生推進事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-33770be7a3ac6d0d1fbd4f5e",
+      "code": "019",
+      "name": "自治基本条例の推進",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-92177b655193709f9bafa646",
+      "code": "020",
+      "name": "コミュニティ助成事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-363758d7006d73a5e797b895",
+      "code": "021",
+      "name": "行政改革事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-4fe68b679d04bcaebee22123",
+      "code": "022",
+      "name": "地方分権改革事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-9d9762dd4dbc0a36f7c188a9",
+      "code": "023",
+      "name": "行政評価事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a4e1772b55bcac85e21484f5",
+      "code": "024",
+      "name": "企画調整事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-1c92c6509bf68a892026a250",
+      "code": "025",
+      "name": "総合計画事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-2896f3118c2052c443974af0",
+      "code": "026",
+      "name": "国政要望事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-fb436cf6af888f2277e7902f",
+      "code": "027",
+      "name": "県政要望事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-75d085babdc9427605e9de7b",
+      "code": "028",
+      "name": "政党要望事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-b842687d35e3bd47da53e2f3",
+      "code": "029",
+      "name": "ＰＰＰ・ＰＦＩ推進事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-3f0afc9ed8573ffbbc854dc3",
+      "code": "030",
+      "name": "都市間連携推進事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-b4b14be9128b7e292024045b",
+      "code": "031",
+      "name": "市町村振興協会支援事業の調整事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-040134085427aa840eb544de",
+      "code": "032",
+      "name": "神奈川県西部広域行政協議会事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-f19e18981e83faa040102e85",
+      "code": "033",
+      "name": "足柄上地区広域行政協議会事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-6d3f3908e41f9738f2b1ccd0",
+      "code": "034",
+      "name": "一市三町広域行政推進協議会事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-0d6c9fc68d3622235fb4a8f0",
+      "code": "035",
+      "name": "３市３町広域行政推進協議会事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-b5284542d16e32970244da76",
+      "code": "036",
+      "name": "湘南地域自転車観光推進協議会事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-46d2f043fb7aaf04920e2cef",
+      "code": "037",
+      "name": "富士箱根伊豆交流圏市町村ネットワーク会議事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-5871247075dba7b03b268607",
+      "code": "038",
+      "name": "神奈川県鉄道輸送力増強促進会議事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-3d807cac885833061a29ad79",
+      "code": "039",
+      "name": "ＭＥ－ＢＹＯサミット神奈川実行委員会事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-bc9c4e17e2fec8b54e790a38",
+      "code": "040",
+      "name": "あしがら広域連携協議会事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-8bc224f88868b8ace5b7c2b6",
+      "code": "041",
+      "name": "足柄上地区首長懇談会事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-f980828d82998598a75e7d3e",
+      "code": "042",
+      "name": "秦野市・中井町・二宮町・大磯町広域行政推進協議会事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-45281d18a1b8394e425ba8b3",
+      "code": "043",
+      "name": "シティプロモーション事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-9a17ce087b20fd09d8441213",
+      "code": "044",
+      "name": "移住・定住促進事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-7a2a3622c6e4fc6c779feac2",
+      "code": "045",
+      "name": "（仮称）町民交流センター建設事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-c7bd8363feb664ce9377c0db",
+      "code": "046",
+      "name": "借地契約事務（防災無線費）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-2018a2cee7abccdf05002c63",
+      "code": "047",
+      "name": "借地契約事務（消防団施設費）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-8a79eab1791165481b2b3ddd",
+      "code": "048",
+      "name": "会計年度任用職員事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-9a37a73f72fdf344ddbdd6c2",
+      "code": "049",
+      "name": "職員給与支給事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-ea474b925b18768218ea83bf",
+      "code": "050",
+      "name": "職員旅費支給事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-2021f11c9e9d59367c7f345b",
+      "code": "051",
+      "name": "源泉徴収事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-5641425354dc84ed436303af",
+      "code": "052",
+      "name": "職員福利厚生事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-597565207668a4a5ed533714",
+      "code": "053",
+      "name": "労働安全衛生事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-27526ef46710823d4f86db74",
+      "code": "054",
+      "name": "公務災害補償事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-de62a723f434f4b3ff1e6f58",
+      "code": "055",
+      "name": "職員被服貸与事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-897325b451ec9633184197af",
+      "code": "056",
+      "name": "職員管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-710dd6f7e1021ccf974977f7",
+      "code": "057",
+      "name": "職員人材育成事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-c3c5a4f0ca8cfbbb760a6fcd",
+      "code": "058",
+      "name": "文書管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-6817a208c311bcf0d3023d54",
+      "code": "059",
+      "name": "個人情報保護事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-8a2d23a24bfc416dd5338788",
+      "code": "060",
+      "name": "行政手続事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-316a90196fd553122c9955e2",
+      "code": "061",
+      "name": "平和推進事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-4054ba46c64ed5015c7ba0c4",
+      "code": "062",
+      "name": "総務管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-66fb8918bc6b3559947972fc",
+      "code": "063",
+      "name": "表彰事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-c5682ad2ef5f8edfcd718d83",
+      "code": "064",
+      "name": "固定資産評価審査委員会事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-db237dc7704ba340f3e1e3a9",
+      "code": "065",
+      "name": "選挙管理委員会事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-7d8b1ee1d63788335379076c",
+      "code": "066",
+      "name": "選挙啓発費事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-2215fcff31c412a26e4c3510",
+      "code": "067",
+      "name": "情報公開事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-aea52d8dc04c5ee5c93535aa",
+      "code": "068",
+      "name": "衆議院議員選挙事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-7080073fcc36d1938aac220c",
+      "code": "069",
+      "name": "参議院議員選挙事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-b3cfc3f1849125a81d6c1ed1",
+      "code": "070",
+      "name": "町議会議員選挙事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-4e0c09ba4dd0ae3f6cfa53b5",
+      "code": "071",
+      "name": "県知事及び県議会議員選挙事務（統一地方選挙事務）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-9aeda8c115dddd429c3ea571",
+      "code": "072",
+      "name": "町長選挙事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-83ab92de972873ece97f0e5a",
+      "code": "073",
+      "name": "会計年度任用職員事務（２．１．１）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a0ba76e7170b2da24330fe76",
+      "code": "074",
+      "name": "各種相談事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-919f841f11308a0523174929",
+      "code": "075",
+      "name": "普通交付税事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d896e98812e7f0be7f4b68e3",
+      "code": "076",
+      "name": "特別交付税事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-efab6dbc192e2ea22e6a76bb",
+      "code": "077",
+      "name": "町債事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-75b56c58994f76ed998c6f70",
+      "code": "078",
+      "name": "秘書業務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d82549d8bdc995675d2d99b3",
+      "code": "079",
+      "name": "町村会共済事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-32a06b3bd9b9b5e383575a9c",
+      "code": "080",
+      "name": "例規整備事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d5b57d65063f9a00cdcb4a3c",
+      "code": "081",
+      "name": "借地契約事務（財産管理費）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-3cb934392c6f492943da2851",
+      "code": "082",
+      "name": "借地契約事務（保健福祉センター施設運営費）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-173d7b3744550126f52ce382",
+      "code": "083",
+      "name": "借地契約事務（中井中央公園費）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-5b7ca6ebe8bce61f372ade37",
+      "code": "084",
+      "name": "借地契約事務（厳島湿生公園費）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-861c08b2747d3505e2b1bdc2",
+      "code": "085",
+      "name": "借地契約事務（中村小学校管理費）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-19d84b3ef150efe1370d5eec",
+      "code": "086",
+      "name": "借地契約事務（なかいこども園費）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-1ddb68cfe781cbfc9c609ee9",
+      "code": "087",
+      "name": "借地契約事務（公民館費）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-e306c930a5e00b082eda40dc",
+      "code": "088",
+      "name": "予算編成事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-0585ab145e71aeacc818e27d",
+      "code": "089",
+      "name": "文書発送収受事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-1c65bda7dc854df10f308b7a",
+      "code": "090",
+      "name": "消耗品管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-3f13ba4907ffdff9fbf18620",
+      "code": "091",
+      "name": "備品管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-9ab79ff9ea933d060114265a",
+      "code": "092",
+      "name": "公用車管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-458253425f492c5ce7bb08f3",
+      "code": "093",
+      "name": "町有財産管理事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-7c85e8a806dd897960a96de4",
+      "code": "094",
+      "name": "庁舎管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-b76607d21b7783836d6229fc",
+      "code": "095",
+      "name": "入札契約事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-4a659687a43d5927862de33e",
+      "code": "096",
+      "name": "検査事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a30d97fe882ed72f9ffeab3c",
+      "code": "097",
+      "name": "公共工事適正化事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-b2f45c0cbaa5bd36ce08120c",
+      "code": "098",
+      "name": "監査事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-8ba01d507c746d9ba7131754",
+      "code": "099 / 455",
+      "name": "決算事務",
+      "evidenceVerified": 4
+    },
+    {
+      "id": "cached-14361-7e4a751c2457938a36f5b87a",
+      "code": "100",
+      "name": "予算執行事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-58f5f732b04b1e119802bf55",
+      "code": "101",
+      "name": "財政状況公表事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-dc6a256e97bd822026c167c2",
+      "code": "102",
+      "name": "決算統計事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-f60c2e2c90111114a66680bb",
+      "code": "103",
+      "name": "諸財政事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a8d1d59db27158cbd93466aa",
+      "code": "104",
+      "name": "基金管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d3aad23028913f15021cc1c8",
+      "code": "105",
+      "name": "電子自治体共同運営事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-754962add22a9b0d47180a39",
+      "code": "106",
+      "name": "町村情報システム共同運営事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-2b1bd585fa924ccb22805c6f",
+      "code": "107",
+      "name": "情報管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-bd54b6139e1a668175679b23",
+      "code": "108",
+      "name": "総合行政ネットワーク事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-5cc7151fc32bf633a58806bc",
+      "code": "109",
+      "name": "番号制度（マイナンバー）事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-6b0073d2e7ba2d6a0ad18a97",
+      "code": "110",
+      "name": "ＤＸ推進計画策定事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-2d6d0015117b25ebbcd308c7",
+      "code": "111",
+      "name": "防災対策事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-1444f61cfec029f1520b73c4",
+      "code": "112",
+      "name": "危機管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-aeeec03500d0316760292674",
+      "code": "113",
+      "name": "防災行政無線整備事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-ce167bdaa8b8976e9fb48c11",
+      "code": "114",
+      "name": "自主防災組織支援事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-fffcae76d92db4dbb044f5b4",
+      "code": "115",
+      "name": "災害弔慰金事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d413081ad766cd331503c8e0",
+      "code": "116",
+      "name": "指定緊急避難場所等防災設備維持管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-0afd3dc767b5974929059b00",
+      "code": "117",
+      "name": "防災資機材維持管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-b32972ca73fd4d73982baac1",
+      "code": "118",
+      "name": "常備消防委託事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-13f486e3d42f0313aa9c1879",
+      "code": "119",
+      "name": "消防団運営事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-ed9f261f30a635798128a779",
+      "code": "120",
+      "name": "消防団施設維持管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-65a18aee11fca01d1a9341d3",
+      "code": "121",
+      "name": "防犯対策事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-dfec5502b8cf16a0aae6c941",
+      "code": "122",
+      "name": "防犯灯整備事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-1d40b5cd0ae3cf0d02c9b370",
+      "code": "123",
+      "name": "交通安全対策事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-092be0cc6c9d9990ad53e6e2",
+      "code": "124",
+      "name": "交通安全施設整備事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-7ae280939dc81bd7de0ab29e",
+      "code": "125",
+      "name": "交通指導隊運営事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-4e54ebb94ce305f2e3c339d6",
+      "code": "126",
+      "name": "町政懇談会",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a12be7f170d9dd814c5bcccc",
+      "code": "127",
+      "name": "わたしの提案（手紙・メール）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-ccdd73af6de3a21cf9e706a8",
+      "code": "128",
+      "name": "パブリックコメント手続き事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-3f66fbb27d8da6a00962e370",
+      "code": "129",
+      "name": "住民活動保険事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-3744e34007e0ec868cac4268",
+      "code": "130",
+      "name": "まちづくりパートナー制度",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-bf9bcc9d6a317e6236a44565",
+      "code": "131",
+      "name": "自治会関係事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-dfa05875dd131659874ad18a",
+      "code": "132",
+      "name": "男女共同参画推進事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-6f52993f076c0d176e877d78",
+      "code": "133",
+      "name": "国際交流事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-6654f0db10c0101ccc1cd599",
+      "code": "134",
+      "name": "一般統計調査",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-7e3a09e9f4229229aea55533",
+      "code": "135",
+      "name": "指定統計調査",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-08b8f630a723eb26987bab7d",
+      "code": "136",
+      "name": "会計年度任用職員事務（８．１．４）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-931f6a8656277eff42990707",
+      "code": "137",
+      "name": "情報発信事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-98da0ca683aebc3bdd133ce2",
+      "code": "138",
+      "name": "ホームページ管理等事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-35ccf7ce1a7efd0cc2b4da46",
+      "code": "139",
+      "name": "広報なかいの編集・発行",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-e2802000d48c7a2cf5220ea0",
+      "code": "140",
+      "name": "広報なかいの仕分・配達",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-95e54849dc17a505b675c631",
+      "code": "141",
+      "name": "各種証明書発行等窓口事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-bb89a1657f87233f85e97dc8",
+      "code": "142",
+      "name": "コンビニ収納事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-4877ccdcea22b06bb918ca59",
+      "code": "143",
+      "name": "地方税共同機構事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-793f200a556d3181e6074c15",
+      "code": "144",
+      "name": "会計年度任用職員事務（２．２．１）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-ebb9594eef8fb83f1cb27941",
+      "code": "145",
+      "name": "徴収事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-204530afa8b282fb3486e5f9",
+      "code": "146",
+      "name": "税制改正事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-9faba0c30b239f7e6876d4e8",
+      "code": "147",
+      "name": "申告相談事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-315095e5b2bf8d944b52f5e9",
+      "code": "148",
+      "name": "町民税賦課事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-890800839dcfcb897a36dde0",
+      "code": "149",
+      "name": "町税等償還事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-2a93639c8b863478908b2f43",
+      "code": "150",
+      "name": "たばこ税賦課事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-4514f105ed9fa078d8b24cc1",
+      "code": "151",
+      "name": "固定資産税賦課事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-829248cd2c3f94b5523ad436",
+      "code": "152",
+      "name": "土地・家屋台帳更新事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-4918d3fcc1ce79c07654971f",
+      "code": "153",
+      "name": "公図更新事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-333ea75d74eba756c9d23e58",
+      "code": "154",
+      "name": "GIS業務委託事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-5177d566efd8360472c39f94",
+      "code": "155",
+      "name": "土地評価業務委託事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-f4cca7fbb3b9ada4792082fb",
+      "code": "156",
+      "name": "標準地鑑定委託事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-8334f8f11b227aec9bfa8978",
+      "code": "157",
+      "name": "軽自動車税賦課事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-e4216bffc7d22dc7207272bd",
+      "code": "158",
+      "name": "国保特別会計繰出金事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-5060c8982e1882f56a8e0ee0",
+      "code": "159",
+      "name": "国保庶務事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-ea80b469daf50714a416512e",
+      "code": "160",
+      "name": "国保資格事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-6480a76c49d0c652e8c1b751",
+      "code": "161",
+      "name": "国民健康保険税賦課徴収事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-65903cea2860eabf66409a24",
+      "code": "162",
+      "name": "療養給付事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d6463ac693753d637f1777f0",
+      "code": "163",
+      "name": "出産育児一時金支払事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-6f0701f32bb93439a5316c6c",
+      "code": "164",
+      "name": "葬祭費支給事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-1c120ea1640d06c79a461ac3",
+      "code": "165",
+      "name": "一時借入金利子支払事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a85c221c082e17b5e77a8c17",
+      "code": "166",
+      "name": "国保事業費納付金",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-4c403225fc50c2761e75e0c0",
+      "code": "167",
+      "name": "後期高齢者医療運営事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-7fd60df7d02a4a137cef8e45",
+      "code": "168",
+      "name": "後期高齢者医療レセプト審査事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-0f104e69acea1085b292f579",
+      "code": "169",
+      "name": "後期高齢者医療保険料徴収・還付事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-eb7be928784a8ec022a3aa2a",
+      "code": "170",
+      "name": "後期高齢者医療広域連合納付金支払事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-49fbd4ce0a9586c6a9a92b0b",
+      "code": "171",
+      "name": "後期高齢特別会計繰出金事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-933c89b19612ccf481030775",
+      "code": "172",
+      "name": "国保運営協議会事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-55fd03a7ca2e9e4155c40620",
+      "code": "173",
+      "name": "特定健康診査事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d0bc10709d9259bd58f83ff0",
+      "code": "174",
+      "name": "特定保健指導事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-6f045f0bb2af50bc62ed0eb5",
+      "code": "175",
+      "name": "保健衛生普及事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-e3a9ea8cd4c85caefbbc23d2",
+      "code": "176",
+      "name": "人間ドック補助金支給事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-995d3bb292f13888bca2df23",
+      "code": "177",
+      "name": "広域連合事務費負担金事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-c633a028e8f40a3fe2e19484",
+      "code": "178",
+      "name": "後期高齢者医療定率市町村負担金事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-c6f7d0800258a9ef092059a7",
+      "code": "179",
+      "name": "国民年金法定受託事務、協力連携事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-89c2642a73b5af5511d6a5c5",
+      "code": "180",
+      "name": "個人番号カード等管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-1ad988ff9591968c257c5752",
+      "code": "181",
+      "name": "統計調査事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-986d048157d226b1332e3a7f",
+      "code": "182",
+      "name": "戸籍住民窓口事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-88407687241f063b45ffdd08",
+      "code": "183",
+      "name": "戸籍システム事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-0bdcc8581b7233dbfb645d33",
+      "code": "184",
+      "name": "住基ネット事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-16669858afcdfc59d5d673d8",
+      "code": "185",
+      "name": "住民情報システム事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-dcbe0064a614856b16f9a127",
+      "code": "186",
+      "name": "火葬料補助事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a4c7c610fe99922855f555b9",
+      "code": "187",
+      "name": "会計年度任用職員事務（２．３．１）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-b898001d467b515d059a93fb",
+      "code": "188",
+      "name": "保健福祉センター施設運営事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-413271871fe32189df4f84a5",
+      "code": "189",
+      "name": "保育実施事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-bbb22dd8af9ce65101e4aeac",
+      "code": "190",
+      "name": "病児・病後児保育事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-40a5a8fae1f28594b39cfc56",
+      "code": "191",
+      "name": "放課後児童健全育成事業事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-b05b40dc90fafb6daa5d0e61",
+      "code": "192",
+      "name": "子育て支援センター運営事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-42dd4e8182c93afd9775a6ee",
+      "code": "193",
+      "name": "ファミリーサポートセンター運営事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-899d763fa814fcdfbf8264f6",
+      "code": "194",
+      "name": "子ども・子育て会議事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d996a267fa7d5811c1e7913d",
+      "code": "195",
+      "name": "要保護児童対策事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-dcfb508313c50b17916cdffc",
+      "code": "196",
+      "name": "子ども・子育て支援事業計画関係事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-6fcce8cb472c406e2fa47081",
+      "code": "197",
+      "name": "特別児童扶養手当事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a5e7fa8ba22f97a444bd8156",
+      "code": "198",
+      "name": "小児医療費助成事業事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-6737234d62faaac402f960e6",
+      "code": "199",
+      "name": "保育料補助金支給事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-2458be099ff89ecb1052e41d",
+      "code": "200",
+      "name": "児童手当事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-19a2aebe4dbb6490e10b85a8",
+      "code": "201",
+      "name": "養育医療費助成事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-8f0c5a4f9aa918be386f75ed",
+      "code": "202",
+      "name": "障害福祉推進事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-c9916479450e78e728975b67",
+      "code": "203",
+      "name": "自立支援給付事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-b025615697e8d28fb3527a23",
+      "code": "204",
+      "name": "地域生活支援事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-936bf156c893ed61dc47f5df",
+      "code": "205",
+      "name": "重度障害者医療費給付事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-8665368a7f78f5fc9803ad0b",
+      "code": "206",
+      "name": "自立支援医療給付事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-6867733ebf3e11e91ff27a22",
+      "code": "207",
+      "name": "障害児通所給付事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-c79d31dda19f7231131d3bbc",
+      "code": "208",
+      "name": "在宅障害者福祉サービス事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-553480de6c40476466b32da9",
+      "code": "209",
+      "name": "自殺対策事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-72ef5f50fd2e2ceafda97720",
+      "code": "210",
+      "name": "地域福祉事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-906d7d27e172d9cbca9b9f14",
+      "code": "211",
+      "name": "民生委員児童委員協議会運営",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-50cb21baa7e70795797caca0",
+      "code": "212",
+      "name": "社会福祉協議会運営補助",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-cff7b00552793c1390b618b8",
+      "code": "213",
+      "name": "町営住宅管理",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-f79af64c55bb38be5b2590fa",
+      "code": "214",
+      "name": "ひとり親家庭等医療費助成事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-bee7996667fa973249748612",
+      "code": "215",
+      "name": "児童扶養手当事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-8f678b25d4688a273da853cd",
+      "code": "216",
+      "name": "なかいこども園の施設管理等事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-c0f78e957be2d8cdb45342bb",
+      "code": "217",
+      "name": "地域集会施設運営事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-e08112192878911c15fadd6d",
+      "code": "218",
+      "name": "人権関連事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-f02d3c33c8fb7651ca30cdf1",
+      "code": "219",
+      "name": "戦没者・遺族支援事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-af6bcc5d126da27bf6510196",
+      "code": "220",
+      "name": "会計年度任用職員事務（３．１．１）福祉課",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-c6d9733bd7d4885b51d230db",
+      "code": "221",
+      "name": "会計年度任用職員事務（３．２．３）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-2407eee7c5ca8eba0295b5ef",
+      "code": "222",
+      "name": "予防接種事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-3fce8f8f57b699a229e1925a",
+      "code": "223",
+      "name": "健康診査事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-146e9467cedf23ed4750673f",
+      "code": "224",
+      "name": "がん検診・結核検診事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-314f0f8a4767bdb2199dec3c",
+      "code": "225",
+      "name": "特定健診・特定保健指導事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-c6ac75c374bd65b1941123a2",
+      "code": "226",
+      "name": "健康増進事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-adbc699e3b3bd81ab171b429",
+      "code": "227",
+      "name": "健康プラン推進事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-b8a9c9d5f6bc9ca5ce8398aa",
+      "code": "228",
+      "name": "妊娠・出産包括支援事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-b6eb04113d204208d8c74582",
+      "code": "229",
+      "name": "母子保健事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-9a1ee03563e423b827538298",
+      "code": "230",
+      "name": "食生活改善推進事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a6e9caed382bf06fc6468d51",
+      "code": "231",
+      "name": "未病センター・健康づくりステーション事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-93fa318398c457da95024ada",
+      "code": "232",
+      "name": "保健衛生管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-ef3efecc0e0bfca7c283cd75",
+      "code": "233",
+      "name": "献血および日本赤十字社協力業務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-09cf62ca5649058221376f47",
+      "code": "234",
+      "name": "医師会関係事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-e14770a54ce10591d0eec666",
+      "code": "235",
+      "name": "歯科医師会関係事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d150147b8f0f83b1f64eeca1",
+      "code": "236",
+      "name": "救急医療事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-681afc4e5edad46564149794",
+      "code": "237",
+      "name": "骨髄移植ドナー等支援補助事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-b84ecc5dc1318d23c1377379",
+      "code": "238",
+      "name": "結核予防・感染症対策事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-fdd83d306af54ffe51e09628",
+      "code": "239",
+      "name": "老人保護措置及びケース対応業務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-dd3eecd767fb946f48a65579",
+      "code": "240",
+      "name": "敬老会・敬老祝金支給事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-1c05dcb189f71bfa31e8d612",
+      "code": "241",
+      "name": "介護保険事業特別会計繰出金",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-7ade7cc97c26c19d32fb77d7",
+      "code": "242",
+      "name": "介護保険運営事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-03c5941411a4575b79b2c8d9",
+      "code": "243",
+      "name": "介護保険賦課徴収事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-03ab7bfa69e5344a3ba5636a",
+      "code": "244",
+      "name": "介護認定事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-f0ca8a370733906c45741b95",
+      "code": "245",
+      "name": "地域介護・福祉施設等整備事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-f616bcc53b778d4f588416de",
+      "code": "246",
+      "name": "介護（予防）サービス等給付費給付事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-133e7915a3ef209b7849ebd2",
+      "code": "247",
+      "name": "介護保険運営協議会事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-b22d103bc4e984444eaa2bb1",
+      "code": "248",
+      "name": "地域密着型サービス・居宅介護支援事業所等",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-14a8b205b645fd0e3f361dbb",
+      "code": "249",
+      "name": "電算処理事務（介護保険）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a6b68288d2844d2959b6bcaa",
+      "code": "250",
+      "name": "老人福祉総務事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-0cf091dcb8b2b84fc18bd76a",
+      "code": "251",
+      "name": "包括的支援事業・任意事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-c7730caa0f78480f57b84bb3",
+      "code": "252",
+      "name": "介護予防・日常生活支援総合事業事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-2667f7c29b4d8c4d80dd11b0",
+      "code": "253",
+      "name": "一般介護予防事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-fb4ad80b43fcc13e28df558f",
+      "code": "254",
+      "name": "生きがい対策事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-2274401ad3d8374fc9c859cc",
+      "code": "255",
+      "name": "実習指導事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-31b9ecee8039271b77d0b1cf",
+      "code": "256",
+      "name": "各種報告書作成事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-f25aed6bffade2fd78712bb7",
+      "code": "257",
+      "name": "保健師業務管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d284773ac73367455a85bcb6",
+      "code": "258",
+      "name": "会計年度任用職員事務（３．１．１）健康課",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-17b5a6616ba2fe34ad11e65d",
+      "code": "259",
+      "name": "会計年度任用職員事務（４．１．１）健康課",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-444824343a2a6af76625f6d0",
+      "code": "260",
+      "name": "会計年度任用職員事務（介護１．１．１）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-7f85f37170adc7e6a73319ca",
+      "code": "261",
+      "name": "会計年度任用職員事務（介護４．１．１）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-2d0daa16454ce7b79392333f",
+      "code": "262",
+      "name": "林業総務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-807f486984d11396f03dbc90",
+      "code": "263",
+      "name": "農業委員会",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-0d9b88588c1fafa1901943c9",
+      "code": "264",
+      "name": "農業総務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-cada3f02ef8df877ed9425af",
+      "code": "265",
+      "name": "農業者年金",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-388b81c74ab6f4f27b8a6f6f",
+      "code": "266",
+      "name": "有害鳥獣駆除",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-cbf6c960bd1391d797de61f5",
+      "code": "267",
+      "name": "農産物品評会",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-59a7aee04b576aa67b4dd088",
+      "code": "268",
+      "name": "農業振興",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-3282ca001db98ba02c35e6e4",
+      "code": "269",
+      "name": "人・農地プラン",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-0d8089f88623028e9446a134",
+      "code": "270",
+      "name": "商工総務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-36980a3774a7dc88e960f045",
+      "code": "271",
+      "name": "中井町商工振興会",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-10ba444a9a7217d490e6a5ab",
+      "code": "272",
+      "name": "地域通貨",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-eaeac7c2d6ce1ccb5e1a834f",
+      "code": "273",
+      "name": "中小企業振興",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-122e779105b223902b62f4e0",
+      "code": "274",
+      "name": "畜産業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-bee6c79b2b9f16e76d49ebbc",
+      "code": "275",
+      "name": "観光振興",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a149d7a3fd6557ceebee90ca",
+      "code": "276",
+      "name": "美・緑なかいフェスティバル",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d5086e1f583019d90441a0b3",
+      "code": "277",
+      "name": "厳島湿生公園活性化",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-eb53e998a4cfd5cd64e1d4ff",
+      "code": "278",
+      "name": "里都まち交流拠点事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-021baee529279e3800efcde2",
+      "code": "279",
+      "name": "里都まちブランド",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-b454f08ef6f9627cee6c9b43",
+      "code": "280",
+      "name": "農業収穫体験",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-4c49a8719761dac78efafeca",
+      "code": "281",
+      "name": "ふれあい農園",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-3e8b583090691c75295e1722",
+      "code": "282",
+      "name": "労働者行政",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-6beb5ee8a337924bfb9f2359",
+      "code": "283",
+      "name": "消費者行政",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-debdb87f97739cc85e5df080",
+      "code": "284",
+      "name": "会計年度任用職員事務（６．１．１）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a2aa8bc9197036ce0fa87ece",
+      "code": "285",
+      "name": "ふるさと納税推進",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-b7ac335dbbd425d6a7221655",
+      "code": "286",
+      "name": "厳島湿生公園維持管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-2f5c98ef71ac4338693e574c",
+      "code": "287",
+      "name": "土砂等による土地の埋立て等の規制に関する事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-52882970d56248ab7579d98d",
+      "code": "288",
+      "name": "地籍調査事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-86494d5bb7e22f9d76756d5f",
+      "code": "289",
+      "name": "都市計画施策事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-7bd4fdbaf6bf411cdc326209",
+      "code": "290",
+      "name": "工場立地法に関する事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-20fae0d80d001a53fd4db0fe",
+      "code": "291",
+      "name": "緑の保全に関する事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-2995ba20fdc0a43d822e060c",
+      "code": "292",
+      "name": "土地利用に関する事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-2dacc9020ad36220023a23e1",
+      "code": "293",
+      "name": "インターチェンジ周辺土地利用推進事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-554c45615f04191d5c312a6d",
+      "code": "294",
+      "name": "役場周辺の土地利用の推進事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-e977ac3e19ff328556b2a2fc",
+      "code": "295",
+      "name": "砂利採取に関する事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-bd76277571eb1f243edbaed9",
+      "code": "296",
+      "name": "建築・開発行為に関する事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-7fa975d44f27346a81c4097b",
+      "code": "297",
+      "name": "市街地整備に関する事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-45c3f537fc5eb24b023c0bc3",
+      "code": "298",
+      "name": "中井中央公園維持管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-b022c1fef7405d7ba660a24d",
+      "code": "299",
+      "name": "児童公園等維持管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-cff26ecc5cf742caa4b35475",
+      "code": "300",
+      "name": "境グリーンテクパーク公園維持管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-f15bb5514b5f6f8d2e9eca98",
+      "code": "301",
+      "name": "土木総務事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-f08a6ee69ee33e3c2cf93999",
+      "code": "302",
+      "name": "道路新設改良事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a229687b3f26072a1a4f0fe6",
+      "code": "303",
+      "name": "町道舗装補修事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-71262b9b377f08eb487eecde",
+      "code": "304",
+      "name": "道路維持管理事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d50ca596f3f3410bf99f427e",
+      "code": "305",
+      "name": "橋りょう維持事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-ae85ab101bbb7315f9ffe790",
+      "code": "306",
+      "name": "土地改良施設整備・維持管理事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-408829540be5da89ea2d6648",
+      "code": "307",
+      "name": "住宅施策事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-49611992e4f050d5f8d986f9",
+      "code": "308",
+      "name": "建築物の耐震化等に関する事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d05d6e1602b831a6c424ec03",
+      "code": "309",
+      "name": "河川維持事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-128d54791001f63187d06317",
+      "code": "310",
+      "name": "急傾斜事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-76b0a7204dcf54a440f053e3",
+      "code": "311",
+      "name": "河川維持管理事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-719eabd320f551c058ba5276",
+      "code": "312",
+      "name": "建設発生土連絡協議会",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d5f1468207972a92c555db90",
+      "code": "313",
+      "name": "自治会河川草刈り",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-624b6ef64044e63e7a023b59",
+      "code": "314",
+      "name": "道路に関する証明等事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-ebaa14f0b8022f7a59422718",
+      "code": "315",
+      "name": "用地に係る事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a74f5d1fadc359a6c0941ef7",
+      "code": "316",
+      "name": "公共用財産払い下げ事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-ee9f23589110d7f0576bb596",
+      "code": "317",
+      "name": "行政財産目的外使用関係事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-0a391d532c3fac845855a6ee",
+      "code": "318",
+      "name": "住宅用太陽光発電システム等設置補助事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-5ef19f4c461a134f4c19a0a7",
+      "code": "319",
+      "name": "環境基本計画の推進事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-81b75298c3eff2b5bace782a",
+      "code": "320",
+      "name": "地球温暖化対策実行計画事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-970f046b297881ccd44e81b3",
+      "code": "321",
+      "name": "水源の森林づくり事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-49f8e70a87cfc7316211f11a",
+      "code": "322",
+      "name": "河川・工場排水土壌検査事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-7f272c35c87f92357f619751",
+      "code": "323",
+      "name": "地下水の保全の推進事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-1e5a05c33dbd3164a08ada88",
+      "code": "324",
+      "name": "水道運営事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-7b1b964f385826c3a7f5e7ed",
+      "code": "325",
+      "name": "水道料金賦課徴収事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-ac30046a0946ab78ba320962",
+      "code": "326",
+      "name": "水道維持管理事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-241229be8998657f9e989574",
+      "code": "327",
+      "name": "水道水質検査事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-fd7b5b9aeef1795f0055f5b2",
+      "code": "328",
+      "name": "配水池耐震診断・補強事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-9cf2ae21c7cf129f4441d2c3",
+      "code": "329",
+      "name": "水道施設工事・給水設備検査事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-72815d33b810f11dc0821358",
+      "code": "330",
+      "name": "公共下水道運営事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-f8531ca372c691c3c2464128",
+      "code": "331",
+      "name": "下水道運営審議会事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-ffe26a8cbd28ac1e0d0eaa98",
+      "code": "332",
+      "name": "受益者負担金等賦課徴収事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-c7c752153eca82e524e1c930",
+      "code": "333",
+      "name": "下水道使用料賦課徴収事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-21af21b8e80781030b3b161d",
+      "code": "334",
+      "name": "水洗化奨励金等補助事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-034cfbde2f0aae25ad55abc1",
+      "code": "335",
+      "name": "酒匂川流域下水道関係事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d84f9418be72881692475248",
+      "code": "336",
+      "name": "神奈川県下水道公社関係事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-65185bf0507e1711c4f058ab",
+      "code": "337",
+      "name": "し尿処理事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-62923b71d7e689738613a59c",
+      "code": "338",
+      "name": "足柄上衛生組合（足柄衛生センター分）事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-8d824e0017dcd8ffb0a97399",
+      "code": "339",
+      "name": "合併処理浄化槽整備費補助事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-615b298533e46b073a135c05",
+      "code": "340",
+      "name": "下水道事業特別会計繰出事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-9e0463eb95e0ce7a87a70625",
+      "code": "341",
+      "name": "公共下水道維持管理事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-b5f12c79bf19ed4b2b6d411e",
+      "code": "342",
+      "name": "特定事業場水質管理事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-218d655e7f4061466154d9ab",
+      "code": "343",
+      "name": "公共下水道整備事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-6c478ca8085a96a8dd5bc46d",
+      "code": "344",
+      "name": "比奈窪公衆便所管理事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-376741b927bca86c9f5075d8",
+      "code": "345",
+      "name": "狂犬病予防事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-45d08d8b26039340b6bb165e",
+      "code": "346",
+      "name": "町内一斉清掃事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a6abdb56616495e6e749c719",
+      "code": "347",
+      "name": "クリーンタウン運動（クリーンウォーキング）事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-f3b8aada87fbe5eaf3c55d2d",
+      "code": "348",
+      "name": "花いっぱい運動事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-83acdabced1611458d28d6c5",
+      "code": "349",
+      "name": "動物死体処理事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-ce2c11d98cc4d171f7447668",
+      "code": "350",
+      "name": "不法投棄監視・回収事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a718968403b635a9bc16c39d",
+      "code": "351",
+      "name": "ごみステーションの管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d095ab05c9bacb1481304c93",
+      "code": "352",
+      "name": "ごみ資源化事業（剪定枝）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d648e204d5045ea0830bbc5e",
+      "code": "353",
+      "name": "あしがら上地区資源循環型処理施設整備調整会議事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a12d0e18da1c833acdefeddf",
+      "code": "354",
+      "name": "足柄東部清掃組合事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-51ec17c3245afe09b63cd610",
+      "code": "355",
+      "name": "一般廃棄物収集運搬事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-cf8445997d0d7e97fb74af85",
+      "code": "356",
+      "name": "ごみ減量化の推進事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-2f3e9b1be23df0e3a8e27a12",
+      "code": "357",
+      "name": "水道事業会計繰出事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-67852d45672b13159cb70397",
+      "code": "358",
+      "name": "消火栓維持補修事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d15b0698c22628b5c36f023e",
+      "code": "359",
+      "name": "会計年度任用職員事務（４．１．１）環境上下水道課",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-f6a1a0a409c3f3d91cc95904",
+      "code": "360",
+      "name": "学校給食費補助事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-850d516f1ca8e1a6fb6c4564",
+      "code": "361",
+      "name": "教職員等管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a4773e08708546c482f1fd3f",
+      "code": "362",
+      "name": "教育委員会事務局運営事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-8fe5418d57fa176abf7e93bf",
+      "code": "363",
+      "name": "情報教育事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-5d1ff8bd793d8461e324b9b2",
+      "code": "364",
+      "name": "中村小学校教育振興事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-dd9b6f9f5892d2de5f6caa1b",
+      "code": "365",
+      "name": "井ノ口小学校教育振興事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-5452d88ac28a5feda810433d",
+      "code": "366",
+      "name": "中井中学校教育振興事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-560456eac2f9837e87b475ec",
+      "code": "367",
+      "name": "学校教育研究事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-78dde1033cb389eb9284ea2b",
+      "code": "368",
+      "name": "学校生活支援事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-69a7cab5f983a62ca75f7bde",
+      "code": "369",
+      "name": "外国人講師設置事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-e66a41f55b136415ea63f43d",
+      "code": "370",
+      "name": "学校保健事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-0927f8aac02d495439b652f0",
+      "code": "371",
+      "name": "学校給食センター管理運営事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-921859ec2dc822d23f8c6156",
+      "code": "372",
+      "name": "中村小学校管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-03dc47762b87ead8d5111221",
+      "code": "373",
+      "name": "井ノ口小学校管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-c3565c780ca2504a49201e2d",
+      "code": "374",
+      "name": "中井中学校管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-19bcf234f9b774a48b8efb1d",
+      "code": "375",
+      "name": "学校環境整備事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-662f8580faef63f6f6f9d0d1",
+      "code": "376",
+      "name": "教育扶助事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-95036a7affacca244c56b5bb",
+      "code": "377",
+      "name": "就学事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-53af611ec1f0e06bf6c74e0e",
+      "code": "378",
+      "name": "特別支援教育推進事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-ea8066b37119f069c2d1069b",
+      "code": "379",
+      "name": "教育支援センター設置事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-613657f14c51f41dd96e3ab4",
+      "code": "380",
+      "name": "育英奨学金事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-b96653eb9645c120efeb0679",
+      "code": "381",
+      "name": "総合教育会議運営事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-1fdab6d86cae45aa19c500a9",
+      "code": "382",
+      "name": "教育委員会運営事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-c738225bac55708322c6b582",
+      "code": "383",
+      "name": "学校安全対策事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-fb49a4f86c2f93882959fafe",
+      "code": "384",
+      "name": "災害補償・賠償責任保険事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-f0567f15dc2f898bf46ce480",
+      "code": "385",
+      "name": "会計年度任用職員事務（９．１．２）教育課",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-5f1bd04a7896e9620e171f04",
+      "code": "386",
+      "name": "会計年度任用職員事務（９．２．１）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-361a88cacdae9a2b7dbc3ce6",
+      "code": "387",
+      "name": "会計年度任用職員事務（９．３．１）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-b0b5279413f0175a36f250cc",
+      "code": "388",
+      "name": "会計年度任用職員事務（９．４．１）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-4ce0fb03aff2d0efe700cea8",
+      "code": "389",
+      "name": "ねんりんピック事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-253d4b732b250a9808ec10f1",
+      "code": "390",
+      "name": "地域学校協働活動推進事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a0ca34cdc2a1de90c97b20a9",
+      "code": "391",
+      "name": "農村環境改善センター施設管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-5e1582175cd7bf15b136b5e7",
+      "code": "392",
+      "name": "図書室管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-11693aea955ace3d466c71c8",
+      "code": "393",
+      "name": "社会教育委員事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-fce14cd7588c3384d551987b",
+      "code": "394",
+      "name": "読書活動推進事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-e6646695828bf5752fa06543",
+      "code": "395",
+      "name": "土曜学習事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-1068d63b623e18fde50ca5f7",
+      "code": "396",
+      "name": "生涯学習基本計画関係事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-5621fd6d88539ffca7dc486b",
+      "code": "397",
+      "name": "生涯学習推進協議会関係事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a2ee98cf1eeb7ffd7c586746",
+      "code": "398",
+      "name": "スポーツ功労者の表彰事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-f7551a04eb844969597bb644",
+      "code": "399",
+      "name": "スポーツ団体の育成、個人の支援事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-48b81bde40d087f96b852eaf",
+      "code": "400",
+      "name": "中井町スポーツ推進委員連絡協議会事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-afe82b8ec407669ddb17122b",
+      "code": "401",
+      "name": "中井町スポーツ協会事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-208b38e4ccbc94489ba976c2",
+      "code": "402",
+      "name": "かながわ駅伝大会事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a1c9441f05ebfe0fe72814b1",
+      "code": "403",
+      "name": "自治会親善パークゴルフ大会事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-385a022d5982cf77cc90f23f",
+      "code": "404",
+      "name": "自治会親善ユニカール大会事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-e5382b70dacf792d3e768c37",
+      "code": "405",
+      "name": "ニュースポーツ教室事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d12c94384b8b8305b56de4c8",
+      "code": "406",
+      "name": "足柄上郡総合体育大会事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-e6389f82f0da7e1c8a175b10",
+      "code": "407",
+      "name": "足柄上地区一周駅伝大会事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-709192cf75f309239f9b11b4",
+      "code": "408",
+      "name": "健康スポ・レク祭事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-84d518fead96bea183057679",
+      "code": "409",
+      "name": "健康マラソン大会事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-75ac05bbd6a55522651732e0",
+      "code": "410",
+      "name": "地域活動振興員事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d1f28a1d09e0e09c3dd91160",
+      "code": "411",
+      "name": "里都まちスポーツイベント事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-bb9e648fa05fd2efd0c9838c",
+      "code": "412",
+      "name": "里都まちなかいノルディックウォーク関係事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-667e32cc43bc437133da5fa7",
+      "code": "413",
+      "name": "学校プール一般開放事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-4a9fe99ffab81c841c83f83e",
+      "code": "414",
+      "name": "総合グラウンド開放事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-037220a7e9005fe144eefa27",
+      "code": "415",
+      "name": "学校施設一般開放事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-54e9089d679ff53350148c0a",
+      "code": "416",
+      "name": "境グリーンテクパーク開放事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-08eaf1b1bd81d8b952861ecb",
+      "code": "417",
+      "name": "総合型地域スポーツクラブ事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-ed1e9d56a4c82cc1b50bb066",
+      "code": "418",
+      "name": "PTAに関する事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-fb416ac6f186c4c88bff4b14",
+      "code": "419",
+      "name": "青少年育成のつどい事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-4199cc32ec8f62abfcfc7842",
+      "code": "420",
+      "name": "青少年問題協議会事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-167e10ac56f0c1eb36ca4db5",
+      "code": "421",
+      "name": "はたちのつどい事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-de945398d3c7691afe5fd82f",
+      "code": "422",
+      "name": "青少年交流洋上体験研修事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-44f92da12e9c4f87539667d7",
+      "code": "423",
+      "name": "１市４町１村青少年交流キャンプ事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-41349c1268b063e6d07a30e4",
+      "code": "424",
+      "name": "青少年ふれあい交流事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-2b9282d04782d4ad8af30652",
+      "code": "425",
+      "name": "町子ども会育成指導者連絡協議会事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-ffb486f866dd5a7da39d644a",
+      "code": "426",
+      "name": "青少年指導員事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-8a2d9ac99b5a29f78910d226",
+      "code": "427",
+      "name": "中井町児童生徒表彰事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-684ebe8cd44e3139ac54529d",
+      "code": "428",
+      "name": "文化団体連絡協議会事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d65eda69befb3ede351db899",
+      "code": "429",
+      "name": "里山俳句大会事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-97a26c6eb010fddc3223e460",
+      "code": "430",
+      "name": "町民文化祭事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-d6e1cce889d6ed48cbce4abf",
+      "code": "431",
+      "name": "中井町短歌・俳句大会事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-40c84f2042da3ea27ae96051",
+      "code": "432",
+      "name": "文化財保護事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a51a7fb44d82da6b9e6af202",
+      "code": "433",
+      "name": "歴史資料保存事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-60245b06de894ac759514682",
+      "code": "434",
+      "name": "埋蔵文化財発掘調査事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-e8472ca0c6257935cb8b8717",
+      "code": "435",
+      "name": "郷土資料館施設管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-20018e45f6974a470f6f62ce",
+      "code": "436",
+      "name": "きんもくせいの会事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-276ad14461a1fdd973e5ba34",
+      "code": "437",
+      "name": "境コミュニティセンター管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-a8f3b4ac0bfb798da35d05c2",
+      "code": "438",
+      "name": "人権教育事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-185c1f90c953fbef48aed4a5",
+      "code": "439",
+      "name": "会計年度任用職員事務（９．１．２）生涯学習課",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-74859052d0cb89b9559b261c",
+      "code": "440",
+      "name": "会計年度任用職員事務（３．１．１）生涯学習課",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-fec2c40edf3a5009ed2d04c4",
+      "code": "441",
+      "name": "サイクルスポーツイベント実行委員会事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-1114359c22854fb6ab40158b",
+      "code": "442",
+      "name": "施設・設備管理事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-001241fed84ca2ed4488057f",
+      "code": "443",
+      "name": "図書関係事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-8595c87c2910786fac027ae7",
+      "code": "444",
+      "name": "講座・教室運営事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-2bf9bf494692413293809f32",
+      "code": "445",
+      "name": "公民館まつり関係事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-fceea06653175271272f0bc1",
+      "code": "446",
+      "name": "井ノ口連絡所事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-27265924ced52883b02f5bbe",
+      "code": "447",
+      "name": "会計年度任用職員事務（９．５．３）",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-266fffcf2755e91ae48d1997",
+      "code": "448",
+      "name": "議会だより編集事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-84466b4f6e130de94127f254",
+      "code": "449",
+      "name": "議事録作成事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-9d24e8eb7ecc4b84fc331bfd",
+      "code": "450",
+      "name": "議会運営事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-15e7f5f73f8c9e028f71b4a6",
+      "code": "451",
+      "name": "委員会運営事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-2ff2a00de42293cfd0c76942",
+      "code": "452",
+      "name": "議会中継業務委託事業",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-7fe0a635eb2a473f894fbe4c",
+      "code": "453",
+      "name": "政務活動費支給事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-f0218e3f3f085b0195ce755a",
+      "code": "454",
+      "name": "出納事務",
+      "evidenceVerified": 2
+    },
+    {
+      "id": "cached-14361-2b30743928d8edf1bb5b8f6c",
+      "code": "456",
+      "name": "組合関係事務",
+      "evidenceVerified": 2
+    }
+  ]
+}

@@ -1,41 +1,36 @@
 {
-  "candidateRecords": 603,
-  "newCandidatesThisTranche": 349,
+  "candidateRecords": 633,
+  "newCandidatesThisTranche": 30,
   "perMunicipality": {
     "真鶴町": 50,
     "開成町": 31,
     "松田町": 37,
     "大井町": 20,
     "二宮町": 116,
+    "葉山町": 30,
     "綾瀬市": 349
   },
-  "ayaseFiscalYears": {
-    "2025": 107,
-    "2024": 97,
-    "2023": 87,
-    "2022": 58
-  },
-  "validatedCumulativeCandidates": 33034,
-  "validatedEvidence": 98089,
+  "validatedCumulativeCandidates": 33064,
+  "validatedEvidence": 98225,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "c0991ca1ec519c312b2c0b2ea06dd013fb0e0cde",
+  "previousHead": "ba0ff2b7d437bd838b3eff438e6f8624cb78f7ac",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "31/31",
-    "crawler": "1016/1016",
+    "focused": "35/35",
+    "crawler": "1020/1020",
     "web": "256/256",
     "typecheck": "passed",
     "lint": "passed; existing font warning",
     "national": "passed branch baseline",
     "static": "109/109 subpath",
-    "quotes": "33034 candidates /98089 quotes"
+    "quotes": "33064 candidates /98225 quotes"
   },
   "remoteCI": "unverified;known ActionsAPI403 not retried",
-  "remaining": "Kanagawa review ongoing; Ayase annual 2 same-year name/scope holds, external FY2023 4 alias holds; 18 missing bodies in prefecture remain held. Other cached layouts and coverage reviews remain actionable. No nationwide completion claim."
+  "remaining": "Kanagawa review ongoing; Minamiashigara stage proposals excluded until full validation. 18 missing bodies remain held; no nationwide completion claim."
 }
