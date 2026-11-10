@@ -1,0 +1,131 @@
+{
+  "municipalityCode": "14217",
+  "reviewComplete": false,
+  "bodySources": 14,
+  "missingSources": 2,
+  "stageOnly": true,
+  "rows": [
+    {
+      "sourceId": "02c360c48464d1f583c74492",
+      "title": "第２期まち・ひと・しごと創生総合戦略 行政評価結果.pdf",
+      "characters": 15210,
+      "sha256": "28c85c1ec02c4456d22fcaa38f1e34768dd6ed6daa5f568a790b5973605d7500",
+      "status": "layout_review",
+      "reason": "Cached body is complete; further individual-identity or coverage review remains actionable."
+    },
+    {
+      "sourceId": "142ae6edf9b470d103ae0988",
+      "title": "第五次総合計画後期基本計画 重点プロジェクトの行政評価結果.pdf",
+      "characters": 23266,
+      "sha256": "84c71ad1a67b6ef12dea3ac13d3a5cb9bfbca30907c4ff03e7f19e164ae41347",
+      "status": "reviewed_annual_proposals",
+      "reason": "All45 named implementation rows mapped; three-year total98 proposals,30 existing-aggregate coverage holds,7 no-plan/prior-completion/reprint exclusions. Final parser/full validation pending."
+    },
+    {
+      "sourceId": "35bb75b0750a7331ec57c1e7",
+      "title": "南足柄市第五次総合計画後期基本計画評価報告書.pdf",
+      "characters": 69647,
+      "sha256": "2d36bbc8f9b1e71c0471d3c659e2b8da2eb3218ad1d5e555926c8981ab7fdc00",
+      "status": "aggregate_coverage_review",
+      "reason": "Explicit2020–2023whole-plan evaluation;45implementation items plus28policy items. Ten existing unknown-year records overlap annual proposals,30 annual copies held. Do not inferFY2023from2024publication or splitpolicyitems; remaining unit coverage under review."
+    },
+    {
+      "sourceId": "3a08a6198187e374b9b00afc",
+      "title": "第五次総合計画前期基本計画重点プロジェクト評価報告書.pdf",
+      "characters": 17113,
+      "sha256": "35bc7051c55b85cf2c03d2b842cc984ebb5c7827569cdd66697996574c36d36e",
+      "status": "reviewed_historical_proposals",
+      "reason": "33 explicit priority-business summary rows, paired grades and2020evaluation;2018–2019period kept whole. Final validation pending."
+    },
+    {
+      "sourceId": "577e2f81bf3ba929748f227d",
+      "title": "第五次総合計画後期基本計画 重点プロジェクトの行政評価結果.pdf",
+      "characters": 17926,
+      "sha256": "d7c06f18ff34883a0ed056d08f4687f28a81719ae46cde0e5e681bf4d0100edd",
+      "status": "reviewed_annual_proposals",
+      "reason": "All45 named implementation rows mapped; three-year total98 proposals,30 existing-aggregate coverage holds,7 no-plan/prior-completion/reprint exclusions. Final parser/full validation pending."
+    },
+    {
+      "sourceId": "8276d2ccfa49598edc16c534",
+      "title": "第五次総合計画後期基本計画 重点プロジェクトの行政評価結果.pdf",
+      "characters": 24642,
+      "sha256": "9d9d18806a7ef1b3acd42a66a5534c1c813b751d5ba2f68da21f650712efda57",
+      "status": "reviewed_annual_proposals",
+      "reason": "All45 named implementation rows mapped; three-year total98 proposals,30 existing-aggregate coverage holds,7 no-plan/prior-completion/reprint exclusions. Final parser/full validation pending."
+    },
+    {
+      "sourceId": "86d052bc7071bf8878915fd2",
+      "title": "デジタル田園都市国家構想交付金（地方創生関係交付金）事業.pdf",
+      "characters": 12508,
+      "sha256": "b89034deb1a82aa0b2a1ba7ff4d6f454211bda32c3f1232400a4b208580eac3e",
+      "status": "existing_grant_coverage_review",
+      "reason": "Five existingFY2023grant records. Historical cost tables contain multi-year/regional totals; no additional annual costs or project records accepted without explicit scope/kind alignment."
+    },
+    {
+      "sourceId": "8a543fc840c76abc62ddc145",
+      "title": "第２期まち・ひと・しごと創生総合戦略 行政評価結果.pdf",
+      "characters": 14616,
+      "sha256": "035d1e805b439c9289476532d902aa8452bd333bbba0f5ad5385a6a4f49bd94e",
+      "status": "layout_review",
+      "reason": "Cached body is complete; further individual-identity or coverage review remains actionable."
+    },
+    {
+      "sourceId": "94c83c899626915ef9ce7274",
+      "title": "地方創生推進交付金及び地方創生拠点整備交付金事業評価結果.pdf",
+      "characters": 19469,
+      "sha256": "b9860dc424a019b55ebe37ffc1d98ae94c61703c8520951dc235e3e098de4cff",
+      "status": "reviewed_grant_proposals",
+      "reason": "Six named grant units:3proposals,3existing-name/period coverage holds; saved official navigation proves evaluation2021; targetFYnull."
+    },
+    {
+      "sourceId": "9fcb6b9879d3bd964fa08cfa",
+      "title": "行政評価 | 南足柄市",
+      "characters": 401,
+      "sha256": "dc24d4286b01fd8439772482f79959d3412bcfdb7f207523d7889ce94b452d5f",
+      "status": "navigation",
+      "reason": "Official source navigation and dated link evidence only; no individual business records."
+    },
+    {
+      "sourceId": "cf11d78491a997aa972665a2",
+      "title": "南足柄市まち・ひと・しごと創生総合戦略評価報告書.pdf",
+      "characters": 22615,
+      "sha256": "77ee18ab60a0458eb59803b59e337dbade94a90bb893cb038346c034bfeedb60",
+      "status": "layout_review",
+      "reason": "Cached body is complete; further individual-identity or coverage review remains actionable."
+    },
+    {
+      "sourceId": "d5437a945cc1aa4c71cb1af1",
+      "title": "行政評価の結果(令和2年度～令和6年度) | 南足柄市",
+      "characters": 2878,
+      "sha256": "295dde69b125e35b4f06c155835ccb9a3a5a9fa2e92bc0be14f7a8bf57d1fa7b",
+      "status": "navigation",
+      "reason": "Official source navigation and dated link evidence only; no individual business records."
+    },
+    {
+      "sourceId": "e3785f1ef79438080b46f419",
+      "title": "第２期まち・ひと・しごと創生総合戦略 行政評価結果.pdf",
+      "characters": 19129,
+      "sha256": "3d4212e43ded4a2cb975f1d1d7e875238f2bd29ee7cebbabf25f8cabb0361931",
+      "status": "layout_review",
+      "reason": "Cached body is complete; further individual-identity or coverage review remains actionable."
+    },
+    {
+      "sourceId": "f8e98e9b7656ffd6fddcf997",
+      "title": "第２期南足柄市まち・ひと・しごと創生総合戦略評価報告書.pdf",
+      "characters": 22937,
+      "sha256": "a9ad02ec2f4c71af84c4836b2b488c77485e7d4fe4282791765abd508e9a6857",
+      "status": "layout_review",
+      "reason": "Cached body is complete; further individual-identity or coverage review remains actionable."
+    },
+    {
+      "sourceId": "0f1e24e05e3b081911e9d8d6",
+      "status": "missing_body",
+      "reason": "No cached body; acquisition held pending original manifests/cumulative stop ledger; no request made."
+    },
+    {
+      "sourceId": "c50ca10ac35e6de89b212b94",
+      "status": "missing_body",
+      "reason": "No cached body; acquisition held pending original manifests/cumulative stop ledger; no request made."
+    }
+  ]
+}

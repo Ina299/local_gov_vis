@@ -1,0 +1,280 @@
+{
+  "existingDatasetPath": "evaluations-composed/14217-cc4e7b9b28df71b8dd6ce800f6e7041edca1929d1916dfb0b00007b24d4795aa.json",
+  "existingDatasetSha256": "cc4e7b9b28df71b8dd6ce800f6e7041edca1929d1916dfb0b00007b24d4795aa",
+  "existingRecords": 15,
+  "heldAnnualCandidates": 30,
+  "holds": [
+    {
+      "sourceId": "577e2f81bf3ba929748f227d",
+      "fiscalYear": 2020,
+      "name": "発達支援相談窓口の設置",
+      "existingIds": [
+        "cached-14217-74db0902db3d62837737ecdc"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "577e2f81bf3ba929748f227d",
+      "fiscalYear": 2020,
+      "name": "市民音楽祭",
+      "existingIds": [
+        "cached-14217-162b97a1741f3c2153fbe0e0"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "577e2f81bf3ba929748f227d",
+      "fiscalYear": 2020,
+      "name": "体育センターグラウンドの芝生化",
+      "existingIds": [
+        "cached-14217-76b06565206e688729102d29"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "577e2f81bf3ba929748f227d",
+      "fiscalYear": 2020,
+      "name": "体育センター第１体育室の床と温水プールの改修",
+      "existingIds": [
+        "cached-14217-947cf93b892ff5de25ac0e1b"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "577e2f81bf3ba929748f227d",
+      "fiscalYear": 2020,
+      "name": "南足柄みらい創りカレッジの人材育成プログラム",
+      "existingIds": [
+        "cached-14217-e2910419c797e66a5332d432"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "577e2f81bf3ba929748f227d",
+      "fiscalYear": 2020,
+      "name": "ボランティア体験プログラム",
+      "existingIds": [
+        "cached-14217-16f40b4a3dadb82f22042222"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "577e2f81bf3ba929748f227d",
+      "fiscalYear": 2020,
+      "name": "ジュニアリーダーの育成",
+      "existingIds": [
+        "cached-14217-13dc3028c74c43bc97a75c95"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "577e2f81bf3ba929748f227d",
+      "fiscalYear": 2020,
+      "name": "都市計画道路 千津島・苅野線の整備",
+      "existingIds": [
+        "cached-14217-fdcda3d7ba02a14583dc8e88"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "577e2f81bf3ba929748f227d",
+      "fiscalYear": 2020,
+      "name": "COOL CHOICEの普及啓発",
+      "existingIds": [
+        "cached-14217-5a3d5d59238168e4a5612989"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "577e2f81bf3ba929748f227d",
+      "fiscalYear": 2020,
+      "name": "マイエコ10宣言の普及啓発",
+      "existingIds": [
+        "cached-14217-7e6ecd9ac51ae32eae879b8b"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "142ae6edf9b470d103ae0988",
+      "fiscalYear": 2021,
+      "name": "発達支援相談窓口の設置",
+      "existingIds": [
+        "cached-14217-74db0902db3d62837737ecdc"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "142ae6edf9b470d103ae0988",
+      "fiscalYear": 2021,
+      "name": "市民音楽祭",
+      "existingIds": [
+        "cached-14217-162b97a1741f3c2153fbe0e0"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "142ae6edf9b470d103ae0988",
+      "fiscalYear": 2021,
+      "name": "体育センターグラウンドの芝生化",
+      "existingIds": [
+        "cached-14217-76b06565206e688729102d29"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "142ae6edf9b470d103ae0988",
+      "fiscalYear": 2021,
+      "name": "体育センター第１体育室の床と温水プールの改修",
+      "existingIds": [
+        "cached-14217-947cf93b892ff5de25ac0e1b"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "142ae6edf9b470d103ae0988",
+      "fiscalYear": 2021,
+      "name": "南足柄みらい創りカレッジの人材育成プログラム",
+      "existingIds": [
+        "cached-14217-e2910419c797e66a5332d432"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "142ae6edf9b470d103ae0988",
+      "fiscalYear": 2021,
+      "name": "ボランティア体験プログラム",
+      "existingIds": [
+        "cached-14217-16f40b4a3dadb82f22042222"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "142ae6edf9b470d103ae0988",
+      "fiscalYear": 2021,
+      "name": "ジュニアリーダーの育成",
+      "existingIds": [
+        "cached-14217-13dc3028c74c43bc97a75c95"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "142ae6edf9b470d103ae0988",
+      "fiscalYear": 2021,
+      "name": "都市計画道路千津島・苅野線の整備",
+      "existingIds": [
+        "cached-14217-fdcda3d7ba02a14583dc8e88"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "142ae6edf9b470d103ae0988",
+      "fiscalYear": 2021,
+      "name": "COOLCHOICEの普及啓発",
+      "existingIds": [
+        "cached-14217-5a3d5d59238168e4a5612989"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "142ae6edf9b470d103ae0988",
+      "fiscalYear": 2021,
+      "name": "マイエコ10宣言の普及啓発",
+      "existingIds": [
+        "cached-14217-7e6ecd9ac51ae32eae879b8b"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "8276d2ccfa49598edc16c534",
+      "fiscalYear": 2022,
+      "name": "発達支援相談窓口の設置",
+      "existingIds": [
+        "cached-14217-74db0902db3d62837737ecdc"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "8276d2ccfa49598edc16c534",
+      "fiscalYear": 2022,
+      "name": "市民音楽祭",
+      "existingIds": [
+        "cached-14217-162b97a1741f3c2153fbe0e0"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "8276d2ccfa49598edc16c534",
+      "fiscalYear": 2022,
+      "name": "体育センターグラウンドの芝生化",
+      "existingIds": [
+        "cached-14217-76b06565206e688729102d29"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "8276d2ccfa49598edc16c534",
+      "fiscalYear": 2022,
+      "name": "体育センター第１体育室の床と温水プールの改修",
+      "existingIds": [
+        "cached-14217-947cf93b892ff5de25ac0e1b"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "8276d2ccfa49598edc16c534",
+      "fiscalYear": 2022,
+      "name": "南足柄みらい創りカレッジの人材育成プログラム",
+      "existingIds": [
+        "cached-14217-e2910419c797e66a5332d432"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "8276d2ccfa49598edc16c534",
+      "fiscalYear": 2022,
+      "name": "ボランティア体験プログラム",
+      "existingIds": [
+        "cached-14217-16f40b4a3dadb82f22042222"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "8276d2ccfa49598edc16c534",
+      "fiscalYear": 2022,
+      "name": "ジュニアリーダーの育成",
+      "existingIds": [
+        "cached-14217-13dc3028c74c43bc97a75c95"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "8276d2ccfa49598edc16c534",
+      "fiscalYear": 2022,
+      "name": "都市計画道路千津島・苅野線の整備",
+      "existingIds": [
+        "cached-14217-fdcda3d7ba02a14583dc8e88"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "8276d2ccfa49598edc16c534",
+      "fiscalYear": 2022,
+      "name": "COOLCHOICEの普及啓発",
+      "existingIds": [
+        "cached-14217-5a3d5d59238168e4a5612989"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    },
+    {
+      "sourceId": "8276d2ccfa49598edc16c534",
+      "fiscalYear": 2022,
+      "name": "マイエコ10宣言の普及啓発",
+      "existingIds": [
+        "cached-14217-7e6ecd9ac51ae32eae879b8b"
+      ],
+      "reason": "Current composed dataset already includes this name with unknown year from2020–2023 aggregate report. Do not add annual copies until overlapping coverage is reconciled without modifying prior data."
+    }
+  ],
+  "productionEdits": 0,
+  "sourceRange": "Existing aggregate35bb75b0750a7331ec57c1e7 explicitly coversFY2020–2023; not proof of disjoint annual records."
+}

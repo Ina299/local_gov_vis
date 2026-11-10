@@ -1,6 +1,8 @@
 {
-  "candidateRecords": 633,
-  "newCandidatesThisTranche": 30,
+  "candidateRecords": 776,
+  "newCandidatesThisTranche": 143,
+  "newRecordRatingFields": 33,
+  "existingFieldEnrichments": 0,
   "perMunicipality": {
     "真鶴町": 50,
     "開成町": 31,
@@ -8,29 +10,30 @@
     "大井町": 20,
     "二宮町": 116,
     "葉山町": 30,
-    "綾瀬市": 349
+    "綾瀬市": 349,
+    "南足柄市": 143
   },
-  "validatedCumulativeCandidates": 33064,
-  "validatedEvidence": 98225,
+  "validatedCumulativeCandidates": 33207,
+  "validatedEvidence": 98988,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "ba0ff2b7d437bd838b3eff438e6f8624cb78f7ac",
+  "previousHead": "e8090f2367876bec86978064ebbbb69e6641283d",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "35/35",
-    "crawler": "1020/1020",
+    "focused": "48/48",
+    "crawler": "1033/1033",
     "web": "256/256",
     "typecheck": "passed",
     "lint": "passed; existing font warning",
     "national": "passed branch baseline",
     "static": "109/109 subpath",
-    "quotes": "33064 candidates /98225 quotes"
+    "quotes": "33207 candidates /98988 quotes"
   },
   "remoteCI": "unverified;known ActionsAPI403 not retried",
-  "remaining": "Kanagawa review ongoing; Minamiashigara stage proposals excluded until full validation. 18 missing bodies remain held; no nationwide completion claim."
+  "remaining": "Kanagawa review ongoing; Minami additional7 remain separate proposals; Atsugi186 separately unvalidated title proposals,30annual aggregate-overlap holds; no nationwide completion claim."
 }
