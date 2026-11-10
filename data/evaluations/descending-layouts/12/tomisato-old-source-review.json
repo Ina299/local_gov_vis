@@ -1,0 +1,801 @@
+{
+  "sheets": 66,
+  "stageCandidates": 126,
+  "ledger": [
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 1,
+      "start": 1308,
+      "name": "農業振興と経営の安定化に向けた取組（経営体育成支援事業）",
+      "acceptedYears": [
+        2022
+      ],
+      "holds": [
+        "2023: no unambiguous standalone fiscal-year heading in named annual body"
+      ],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 2,
+      "start": 2755,
+      "name": "有害鳥獣からの農産物被害防止（有害鳥獣被害防止総合対策事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 3,
+      "start": 4766,
+      "name": "すいか生産の支援（すいかの里生産支援事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 4,
+      "start": 6534,
+      "name": "企業の誘致（企業誘致事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 5,
+      "start": 8373,
+      "name": "産業の振興（産業振興推進事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 6,
+      "start": 10362,
+      "name": "産業の振興（商工振興事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 7,
+      "start": 11882,
+      "name": "観光・交流拠点づくり（観光推進事業（観光推進））",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 8,
+      "start": 14800,
+      "name": "森林の再生と保全（森林整備活用事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 9,
+      "start": 17679,
+      "name": "旧岩崎家末廣別邸の保存活用（末廣別邸公園維持管理事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 10,
+      "start": 19530,
+      "name": "旧岩崎家末廣別邸の保存活用（旧岩崎家末廣別邸保存活用事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 11,
+      "start": 21842,
+      "name": "分別収集・資源化の推進（廃棄物処理事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 12,
+      "start": 24221,
+      "name": "地球温暖化対策の推進（地球温暖化対策事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 13,
+      "start": 27066,
+      "name": "公共施設の省エネルギー化（庁舎管理事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 14,
+      "start": 28582,
+      "name": "公共施設の省エネルギー化（公民館管理運営事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 15,
+      "start": 29941,
+      "name": "ＩＣＴを活用した教育の環境整備（教育指導事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 16,
+      "start": 33326,
+      "name": "児童・生徒への個のニーズ支援（個別指導補助員配置事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 17,
+      "start": 36241,
+      "name": "情報・芸術・文化の発信拠点づくり（複合施設化事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 18,
+      "start": 38488,
+      "name": "情報・文化・芸術の発信拠点づくり（文化振興事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 19,
+      "start": 40353,
+      "name": "誰もがスポーツを楽しむ環境づくり（体育運営事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 20,
+      "start": 43275,
+      "name": "青少年の健全育成（生涯学習事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 21,
+      "start": 45567,
+      "name": "青少年の健全育成（放課後子ども教室推進事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 22,
+      "start": 47103,
+      "name": "男女共同参画社会づくり（男女共同参画推進事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 23,
+      "start": 49047,
+      "name": "市民活動サポートセンターの充実・強化（市民活動サポートセンター事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 24,
+      "start": 51477,
+      "name": "多文化が共生するまちづくり（多文化共生推進事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 25,
+      "start": 53563,
+      "name": "ファンクラブの設立・運営（ファンクラブ運営事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 26,
+      "start": 55740,
+      "name": "富里の魅力を発信（スマイル富里魅力発信事業・観光推進事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "0ed54a3161952fef095ebc20",
+      "sheet": 27,
+      "start": 58027,
+      "name": "職員のスキルアップ（職員研修事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 1,
+      "start": 1892,
+      "name": "地域福祉力の強化（社会福祉総務事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 2,
+      "start": 4328,
+      "name": "地域福祉セミナーの開催（社会福祉総務事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 3,
+      "start": 6181,
+      "name": "子育て世代包括支援センターの強化（子育て世代包括支援センター運営事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 4,
+      "start": 9314,
+      "name": "子ども家庭総合支援拠点の強化（子ども家庭総合支援拠点事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 5,
+      "start": 12036,
+      "name": "子どものための教育・保育の充実（子どものための教育・保育給付事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 6,
+      "start": 14207,
+      "name": "放課後児童健全育成の充実（放課後児童健全育成運営事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 7,
+      "start": 16390,
+      "name": "介護保険制度の安定的な運営（介護保険支援事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 8,
+      "start": 17738,
+      "name": "地域包括支援センターの運営（包括的支援事業）",
+      "acceptedYears": [
+        2022
+      ],
+      "holds": [
+        "2023: no unambiguous standalone fiscal-year heading in named annual body"
+      ],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 9,
+      "start": 19880,
+      "name": "高齢者の暮らしづくり（一般介護予防事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 10,
+      "start": 22246,
+      "name": "包括的支援の実施（任意事業／その他事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 11,
+      "start": 24818,
+      "name": "障害者の暮らしづくり（障害者総合支援区分認定事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 12,
+      "start": 26681,
+      "name": "障害者の暮らしづくり（障害者総合支援介護・訓練等給付事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 13,
+      "start": 28772,
+      "name": "障害者の暮らしづくり（障害者総合支援地域生活支援事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 14,
+      "start": 30870,
+      "name": "特定健康診査・特定保健指導の実施（特定健康診査等事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 15,
+      "start": 33621,
+      "name": "後期高齢者健康診査の実施（後期高齢者健康診査受託事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 16,
+      "start": 35340,
+      "name": "定期予防接種の推進（予防事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 17,
+      "start": 38600,
+      "name": "健診及び保健指導の充実（健康増進事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 18,
+      "start": 42141,
+      "name": "自立した生活への支援（自立生活支援事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 19,
+      "start": 44406,
+      "name": "子ども医療費制度の充実（子ども等医療費助成事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 20,
+      "start": 45987,
+      "name": "子育て世代への支援（とみさと入学お祝い金事業）",
+      "acceptedYears": [],
+      "holds": [
+        "2022: no unambiguous standalone fiscal-year heading in named annual body",
+        "2023: no unambiguous standalone fiscal-year heading in named annual body"
+      ],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 21,
+      "start": 47486,
+      "name": "幼児期の運動遊び支援（こども園運営事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 22,
+      "start": 48913,
+      "name": "健康なからだづくりの推進（健康なからだづくりのための総合推進事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 23,
+      "start": 51487,
+      "name": "にぎわい拠点づくり（七栄新木戸地区土地区画整理事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 24,
+      "start": 53389,
+      "name": "都市の骨格を形成する軸づくり（街路整備推進事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 25,
+      "start": 55476,
+      "name": "地域に合った公共交通体系づくり（公共交通機関推進事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 26,
+      "start": 57831,
+      "name": "成田空港アクセス強化（道路改良事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 27,
+      "start": 59799,
+      "name": "上水道の安定供給（水道事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 28,
+      "start": 61322,
+      "name": "公共下水道の整備（下水道事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 29,
+      "start": 63508,
+      "name": "デジタル化の推進（庁舎管理事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 30,
+      "start": 65240,
+      "name": "デジタル化の推進（社会体育館管理運営事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 31,
+      "start": 66786,
+      "name": "デジタル化の推進（コミュニティセンター事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 32,
+      "start": 68412,
+      "name": "デジタル化の推進（公民館管理事業）",
+      "acceptedYears": [],
+      "holds": [
+        "2022/2023: both annual headings print令和4年度 while latter activity dates reach2024; year association unresolved",
+        "2022: no unambiguous standalone fiscal-year heading in named annual body",
+        "2023: no unambiguous standalone fiscal-year heading in named annual body"
+      ],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 33,
+      "start": 70226,
+      "name": "災害対策の強化／危機管理体制の強化（防災事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 34,
+      "start": 73298,
+      "name": "消防力の安定的な維持（常備消防車両整備事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 35,
+      "start": 74648,
+      "name": "消防団の消防力向上（消防団拠点施設等整備事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 36,
+      "start": 75961,
+      "name": "消防団の消防力向上（消防団車両整備事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 37,
+      "start": 77684,
+      "name": "危機管理体制の強化（防災行政無線事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 38,
+      "start": 79896,
+      "name": "交通安全施設の整備（交通安全施設整備事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    },
+    {
+      "sourceId": "6e22635f5e7eb41dea402a35",
+      "sheet": 39,
+      "start": 81527,
+      "name": "通学路の安全対策（通学路安全対策事業）",
+      "acceptedYears": [
+        2022,
+        2023
+      ],
+      "holds": [],
+      "amountsHeld": "Item amounts have no reliably bounded total/annual column association; no summation or guessed costs."
+    }
+  ]
+}

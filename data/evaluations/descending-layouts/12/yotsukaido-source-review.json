@@ -1,0 +1,5027 @@
+{
+  "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "reviewedRows": 280,
+  "stageCandidates": 230,
+  "ledger": [
+    {
+      "sourceId": "90fb5c0eff46e4aaac55ab17",
+      "number": 1,
+      "name": "地域災害対策事業",
+      "department": "危機管理室",
+      "parts": [
+        {
+          "raw": "地域災害対策",
+          "start": 574
+        },
+        {
+          "raw": "事業",
+          "start": 670
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "90fb5c0eff46e4aaac55ab17",
+      "number": 2,
+      "name": "災害復興支援事業",
+      "department": "危機管理室",
+      "parts": [
+        {
+          "raw": "災害復興支援",
+          "start": 1333
+        },
+        {
+          "raw": "事業",
+          "start": 1428
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "90fb5c0eff46e4aaac55ab17",
+      "number": 3,
+      "name": "自主防災組織育成事業",
+      "department": "危機管理室",
+      "parts": [
+        {
+          "raw": "自主防災組織",
+          "start": 1996
+        },
+        {
+          "raw": "育成事業",
+          "start": 2085
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "90fb5c0eff46e4aaac55ab17",
+      "number": 4,
+      "name": "国民保護計画推進事業",
+      "department": "危機管理室",
+      "parts": [
+        {
+          "raw": "国民保護計画",
+          "start": 2951
+        },
+        {
+          "raw": "推進事業",
+          "start": 3041
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "90fb5c0eff46e4aaac55ab17",
+      "number": 5,
+      "name": "危機管理事業",
+      "department": "危機管理室",
+      "parts": [
+        {
+          "raw": "危機管理事業",
+          "start": 3642
+        }
+      ],
+      "masterIds": [
+        "cached-12228-03be51b06f0120ef7c195ab2"
+      ]
+    },
+    {
+      "sourceId": "90fb5c0eff46e4aaac55ab17",
+      "number": 6,
+      "name": "防災備蓄倉庫整備事業",
+      "department": "危機管理室",
+      "parts": [
+        {
+          "raw": "防災備蓄倉庫",
+          "start": 4166
+        },
+        {
+          "raw": "整備事業",
+          "start": 4288
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 1,
+      "name": "総合計画推進事業",
+      "department": "政策推進課",
+      "parts": [
+        {
+          "raw": "総合計画推進",
+          "start": 462
+        },
+        {
+          "raw": "事業",
+          "start": 560
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 2,
+      "name": "広域行政事務推進事業",
+      "department": "政策推進課",
+      "parts": [
+        {
+          "raw": "広域行政事務",
+          "start": 1031
+        },
+        {
+          "raw": "推進事業",
+          "start": 1126
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 3,
+      "name": "印旛広域水道用水供給事業",
+      "department": "政策推進課",
+      "parts": [
+        {
+          "raw": "印旛広域水道",
+          "start": 1456
+        },
+        {
+          "raw": "用水供給事業",
+          "start": 1550
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 4,
+      "name": "重要施策調整事業",
+      "department": "政策推進課",
+      "parts": [
+        {
+          "raw": "重要施策調整",
+          "start": 2019
+        },
+        {
+          "raw": "事業",
+          "start": 2108
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 5,
+      "name": "まち・ひと・しごと創生推進事業",
+      "department": "政策推進課",
+      "parts": [
+        {
+          "raw": "まち・ひと・しごと",
+          "start": 2643
+        },
+        {
+          "raw": "創生推進事業",
+          "start": 2758
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 6,
+      "name": "シティプロモーション推進事業",
+      "department": "政策推進課",
+      "parts": [
+        {
+          "raw": "シティプロモー",
+          "start": 3326
+        },
+        {
+          "raw": "ション推進事業",
+          "start": 3426
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 7,
+      "name": "広報事業",
+      "department": "政策推進課",
+      "parts": [
+        {
+          "raw": "広報事業",
+          "start": 4073
+        }
+      ],
+      "masterIds": [
+        "cached-12228-b53ccdfb09030c77086e66f5"
+      ]
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 8,
+      "name": "親子深まる絆事業",
+      "department": "政策推進課",
+      "parts": [
+        {
+          "raw": "親子深まる絆事",
+          "start": 4589
+        },
+        {
+          "raw": "業",
+          "start": 4689
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 9,
+      "name": "秘書事業",
+      "department": "秘書課",
+      "parts": [
+        {
+          "raw": "秘書事業",
+          "start": 5068
+        }
+      ],
+      "masterIds": [
+        "cached-12228-70bb710aaa703a710eb56afe"
+      ]
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 10,
+      "name": "表彰事業",
+      "department": "秘書課",
+      "parts": [
+        {
+          "raw": "表彰事業",
+          "start": 5833
+        }
+      ],
+      "masterIds": [
+        "cached-12228-97a52bdf722cf68e76814c1e"
+      ]
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 11,
+      "name": "広聴事業",
+      "department": "秘書課",
+      "parts": [
+        {
+          "raw": "広聴事業",
+          "start": 6421
+        }
+      ],
+      "masterIds": [
+        "cached-12228-0796c78e4a55873a126d7966"
+      ]
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 12,
+      "name": "各種要望書提出事業",
+      "department": "秘書課",
+      "parts": [
+        {
+          "raw": "各種要望書提",
+          "start": 6756
+        },
+        {
+          "raw": "出事業",
+          "start": 6850
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 13,
+      "name": "財政管理事業",
+      "department": "財政課",
+      "parts": [
+        {
+          "raw": "財政管理事業",
+          "start": 7378
+        }
+      ],
+      "masterIds": [
+        "cached-12228-136301a2a9983df31b95b320"
+      ]
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 14,
+      "name": "基金管理事業",
+      "department": "財政課",
+      "parts": [
+        {
+          "raw": "基金管理事業",
+          "start": 7907
+        }
+      ],
+      "masterIds": [
+        "cached-12228-5c5b66b10fdd36209b0d54b2"
+      ]
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 15,
+      "name": "決算等財政統計事業",
+      "department": "財政課",
+      "parts": [
+        {
+          "raw": "決算等財政統",
+          "start": 8339
+        },
+        {
+          "raw": "計事業",
+          "start": 8435
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 16,
+      "name": "市債管理事業",
+      "department": "財政課",
+      "parts": [
+        {
+          "raw": "市債管理事業",
+          "start": 8930
+        }
+      ],
+      "masterIds": [
+        "cached-12228-676cc5f7b793592bfddfa19d"
+      ]
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 17,
+      "name": "外郭団体業務監督等事業",
+      "department": "財政課",
+      "parts": [
+        {
+          "raw": "外郭団体業務",
+          "start": 9292
+        },
+        {
+          "raw": "監督等事業",
+          "start": 9386
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 18,
+      "name": "行財政改革推進事業",
+      "department": "財政課",
+      "parts": [
+        {
+          "raw": "行財政改革推",
+          "start": 9679
+        },
+        {
+          "raw": "進事業",
+          "start": 9773
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 19,
+      "name": "行政評価事業",
+      "department": "財政課",
+      "parts": [
+        {
+          "raw": "行政評価事業",
+          "start": 10417
+        }
+      ],
+      "masterIds": [
+        "cached-12228-cd79c4d83d52b13bee5b771b"
+      ]
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 20,
+      "name": "物価高騰対策企業会計特別補助事業",
+      "department": "財政課",
+      "parts": [
+        {
+          "raw": "物価高騰対策",
+          "start": 10733
+        },
+        {
+          "raw": "企業会計特別",
+          "start": 10780
+        },
+        {
+          "raw": "補助事業",
+          "start": 10868
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 21,
+      "name": "財産管理事業",
+      "department": "管財課",
+      "parts": [
+        {
+          "raw": "財産管理事業",
+          "start": 11148
+        }
+      ],
+      "masterIds": [
+        "cached-12228-b3b0ee0e7dbd5349d270665f"
+      ]
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 22,
+      "name": "庁舎等維持管理事業",
+      "department": "管財課",
+      "parts": [
+        {
+          "raw": "庁舎等維持管",
+          "start": 11633
+        },
+        {
+          "raw": "理事業",
+          "start": 11726
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 23,
+      "name": "庁舎等整備事業",
+      "department": "管財課",
+      "parts": [
+        {
+          "raw": "庁舎等整備事",
+          "start": 12098
+        },
+        {
+          "raw": "業",
+          "start": 12191
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 24,
+      "name": "車両維持管理事業",
+      "department": "管財課",
+      "parts": [
+        {
+          "raw": "車両維持管理",
+          "start": 12570
+        },
+        {
+          "raw": "事業",
+          "start": 12663
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 25,
+      "name": "文化センター管理事業",
+      "department": "管財課",
+      "parts": [
+        {
+          "raw": "文化センター管",
+          "start": 13187
+        },
+        {
+          "raw": "理事業",
+          "start": 13281
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 26,
+      "name": "ファシリティマネジメント推進事業",
+      "department": "管財課",
+      "parts": [
+        {
+          "raw": "ファシリティマネ",
+          "start": 13684
+        },
+        {
+          "raw": "ジメント推進事",
+          "start": 13739
+        },
+        {
+          "raw": "業",
+          "start": 13882
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 27,
+      "name": "広告事業",
+      "department": "管財課",
+      "parts": [
+        {
+          "raw": "広告事業",
+          "start": 14276
+        }
+      ],
+      "masterIds": [
+        "cached-12228-9f9b49e6fba1032057c8fa53"
+      ]
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 28,
+      "name": "市有建築物設計・工事監理事業",
+      "department": "管財課",
+      "parts": [
+        {
+          "raw": "市有建築物設",
+          "start": 14840
+        },
+        {
+          "raw": "計・工事監理事",
+          "start": 14918
+        },
+        {
+          "raw": "業",
+          "start": 15009
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 29,
+      "name": "市有建築物保全調査事業",
+      "department": "管財課",
+      "parts": [
+        {
+          "raw": "市有建築物保",
+          "start": 15414
+        },
+        {
+          "raw": "全調査事業",
+          "start": 15506
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 30,
+      "name": "契約管理事業",
+      "department": "契約課",
+      "parts": [
+        {
+          "raw": "契約管理事業",
+          "start": 15976
+        }
+      ],
+      "masterIds": [
+        "cached-12228-2e311419778c83d26c605977"
+      ]
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 31,
+      "name": "建設工事完成検査事業",
+      "department": "契約課",
+      "parts": [
+        {
+          "raw": "建設工事完成",
+          "start": 16502
+        },
+        {
+          "raw": "検査事業",
+          "start": 16596
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 32,
+      "name": "新技術・設計積算情報事業",
+      "department": "契約課",
+      "parts": [
+        {
+          "raw": "新技術・設計積",
+          "start": 16954
+        },
+        {
+          "raw": "算情報事業",
+          "start": 17046
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 33,
+      "name": "指定管理者制度運用事業",
+      "department": "契約課",
+      "parts": [
+        {
+          "raw": "指定管理者制",
+          "start": 17480
+        },
+        {
+          "raw": "度運用事業",
+          "start": 17573
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 34,
+      "name": "電子自治体推進事業",
+      "department": "デジタル推進課",
+      "parts": [
+        {
+          "raw": "電子自治体推",
+          "start": 18209
+        },
+        {
+          "raw": "進事業",
+          "start": 18309
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 35,
+      "name": "ＩＴ活用推進事業",
+      "department": "デジタル推進課",
+      "parts": [
+        {
+          "raw": "ＩＴ活用推進事業",
+          "start": 18866
+        }
+      ],
+      "masterIds": [
+        "cached-12228-4784705975bff24e10e10775"
+      ]
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 36,
+      "name": "イントラネット運営事業",
+      "department": "デジタル推進課",
+      "parts": [
+        {
+          "raw": "イントラネット運",
+          "start": 19430
+        },
+        {
+          "raw": "営事業",
+          "start": 19534
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 37,
+      "name": "住民情報業務運営事業",
+      "department": "デジタル推進課",
+      "parts": [
+        {
+          "raw": "住民情報業務",
+          "start": 20170
+        },
+        {
+          "raw": "運営事業",
+          "start": 20269
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 38,
+      "name": "庁舎ネットワーク整備事業",
+      "department": "デジタル推進課",
+      "parts": [
+        {
+          "raw": "庁舎ネットワー",
+          "start": 20621
+        },
+        {
+          "raw": "ク整備事業",
+          "start": 20721
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 39,
+      "name": "各種統計調査事業",
+      "department": "デジタル推進課",
+      "parts": [
+        {
+          "raw": "各種統計調査",
+          "start": 21010
+        },
+        {
+          "raw": "事業",
+          "start": 21099
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 40,
+      "name": "統計事務事業",
+      "department": "デジタル推進課",
+      "parts": [
+        {
+          "raw": "統計事務事業",
+          "start": 21434
+        }
+      ],
+      "masterIds": [
+        "cached-12228-667a3048998677ccba161ac5"
+      ]
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 41,
+      "name": "国勢調査事業",
+      "department": "デジタル推進課",
+      "parts": [
+        {
+          "raw": "国勢調査事業",
+          "start": 21737
+        }
+      ],
+      "masterIds": [
+        "cached-12228-ab69c1909768fadd33514de9"
+      ]
+    },
+    {
+      "sourceId": "ac580a95c60ebd8ad87ecee9",
+      "number": 42,
+      "name": "社会保障・税番号制度事業",
+      "department": "デジタル推進課",
+      "parts": [
+        {
+          "raw": "社会保障・税番",
+          "start": 22090
+        },
+        {
+          "raw": "号制度事業",
+          "start": 22188
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 1,
+      "name": "自衛官募集事務事業",
+      "department": "総務課",
+      "parts": [
+        {
+          "raw": "自衛官募集事",
+          "start": 181
+        },
+        {
+          "raw": "務事業",
+          "start": 272
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 2,
+      "name": "行政相談事業",
+      "department": "総務課",
+      "parts": [
+        {
+          "raw": "行政相談事業",
+          "start": 624
+        }
+      ],
+      "masterIds": [
+        "cached-12228-6bc09fcc98320b7aed0da3ee"
+      ]
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 3,
+      "name": "平和関連事業",
+      "department": "総務課",
+      "parts": [
+        {
+          "raw": "平和関連事業",
+          "start": 1187
+        }
+      ],
+      "masterIds": [
+        "cached-12228-c6c97a2db8d04ff01644f214"
+      ]
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 4,
+      "name": "直接請求受付事務事業",
+      "department": "総務課",
+      "parts": [
+        {
+          "raw": "直接請求受付",
+          "start": 1699
+        },
+        {
+          "raw": "事務事業",
+          "start": 1792
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 5,
+      "name": "公益通報事業",
+      "department": "総務課",
+      "parts": [
+        {
+          "raw": "公益通報事業",
+          "start": 2105
+        }
+      ],
+      "masterIds": [
+        "cached-12228-2e851aff06c3c3a7d919385e"
+      ]
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 6,
+      "name": "郵送文書管理事業",
+      "department": "総務課",
+      "parts": [
+        {
+          "raw": "郵送文書管理",
+          "start": 2465
+        },
+        {
+          "raw": "事業",
+          "start": 2558
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 7,
+      "name": "文書保管事業",
+      "department": "総務課",
+      "parts": [
+        {
+          "raw": "文書保管事業",
+          "start": 3236
+        }
+      ],
+      "masterIds": [
+        "cached-12228-54abeabb0e2ee8116cba2831"
+      ]
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 8,
+      "name": "法規事業",
+      "department": "総務課",
+      "parts": [
+        {
+          "raw": "法規事業",
+          "start": 3841
+        }
+      ],
+      "masterIds": [
+        "cached-12228-28e5fed2c59a709d8b20f114"
+      ]
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 9,
+      "name": "情報公開・個人情報保護事業",
+      "department": "総務課",
+      "parts": [
+        {
+          "raw": "情報公開・個人",
+          "start": 4393
+        },
+        {
+          "raw": "情報保護事業",
+          "start": 4486
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 10,
+      "name": "市民参加推進事業",
+      "department": "総務課",
+      "parts": [
+        {
+          "raw": "市民参加推進",
+          "start": 5139
+        },
+        {
+          "raw": "事業",
+          "start": 5234
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 11,
+      "name": "中学生が描く未来事業",
+      "department": "総務課",
+      "parts": [
+        {
+          "raw": "中学生が描く未",
+          "start": 5728
+        },
+        {
+          "raw": "来事業",
+          "start": 5826
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 12,
+      "name": "職員研修事業",
+      "department": "人事課",
+      "parts": [
+        {
+          "raw": "職員研修事業",
+          "start": 6339
+        }
+      ],
+      "masterIds": [
+        "cached-12228-6a4d2b873c7452423868f87f"
+      ]
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 13,
+      "name": "安全衛生管理事業",
+      "department": "人事課",
+      "parts": [
+        {
+          "raw": "安全衛生管理",
+          "start": 7022
+        },
+        {
+          "raw": "事業",
+          "start": 7115
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 14,
+      "name": "福利厚生事業",
+      "department": "人事課",
+      "parts": [
+        {
+          "raw": "福利厚生事業",
+          "start": 7604
+        }
+      ],
+      "masterIds": [
+        "cached-12228-47175557fd9a19671c021f44"
+      ]
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 15,
+      "name": "共済組合事務事業",
+      "department": "人事課",
+      "parts": [
+        {
+          "raw": "共済組合事務",
+          "start": 8014
+        },
+        {
+          "raw": "事業",
+          "start": 8105
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 16,
+      "name": "人事管理事業",
+      "department": "人事課",
+      "parts": [
+        {
+          "raw": "人事管理事業",
+          "start": 8550
+        }
+      ],
+      "masterIds": [
+        "cached-12228-5ebc95913cdc17da9d25dfd1"
+      ]
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 17,
+      "name": "職員提案事業",
+      "department": "人事課",
+      "parts": [
+        {
+          "raw": "職員提案事業",
+          "start": 9017
+        }
+      ],
+      "masterIds": [
+        "cached-12228-bd3e7df6d7ad8a1e0e1a69df"
+      ]
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 18,
+      "name": "審議会等管理事業",
+      "department": "人事課",
+      "parts": [
+        {
+          "raw": "審議会等管理",
+          "start": 9376
+        },
+        {
+          "raw": "事業",
+          "start": 9460
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 19,
+      "name": "内部統制事業",
+      "department": "人事課",
+      "parts": [
+        {
+          "raw": "内部統制事業",
+          "start": 10062
+        }
+      ],
+      "masterIds": [
+        "cached-12228-7eeddc13950cb8f4a202bf23"
+      ]
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 20,
+      "name": "軽自動車税等賦課事業",
+      "department": "課税課",
+      "parts": [
+        {
+          "raw": "軽自動車税等",
+          "start": 10429
+        },
+        {
+          "raw": "賦課事業",
+          "start": 10514
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 21,
+      "name": "住民税賦課事業",
+      "department": "課税課",
+      "parts": [
+        {
+          "raw": "住民税賦課事",
+          "start": 10894
+        },
+        {
+          "raw": "業",
+          "start": 10966
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 22,
+      "name": "税務相談事業",
+      "department": "課税課",
+      "parts": [
+        {
+          "raw": "税務相談事業",
+          "start": 11481
+        }
+      ],
+      "masterIds": [
+        "cached-12228-d176f6055b1de65ecc993c53"
+      ]
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 23,
+      "name": "諸証明等発行事業",
+      "department": "課税課",
+      "parts": [
+        {
+          "raw": "諸証明等発行",
+          "start": 11787
+        },
+        {
+          "raw": "事業",
+          "start": 11879
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 24,
+      "name": "諸税賦課事業",
+      "department": "課税課",
+      "parts": [
+        {
+          "raw": "諸税賦課事業",
+          "start": 12199
+        }
+      ],
+      "masterIds": [
+        "cached-12228-be9969514fbaad7fb96f5303"
+      ]
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 25,
+      "name": "固定資産税賦課事業",
+      "department": "課税課",
+      "parts": [
+        {
+          "raw": "固定資産税賦",
+          "start": 12657
+        },
+        {
+          "raw": "課事業",
+          "start": 12751
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 26,
+      "name": "定額減税調整給付金支給事業",
+      "department": "課税課",
+      "parts": [
+        {
+          "raw": "定額減税調整",
+          "start": 13102
+        },
+        {
+          "raw": "給付金支給事",
+          "start": 13151
+        },
+        {
+          "raw": "業",
+          "start": 13243
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 27,
+      "name": "市税徴収事業",
+      "department": "収税課",
+      "parts": [
+        {
+          "raw": "市税徴収事業",
+          "start": 13653
+        }
+      ],
+      "masterIds": [
+        "cached-12228-e192e117487db4b9f4e9fe87"
+      ]
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 28,
+      "name": "市税収入返還金",
+      "department": "収税課",
+      "parts": [
+        {
+          "raw": "市税収入返還",
+          "start": 14134
+        },
+        {
+          "raw": "金",
+          "start": 14227
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 29,
+      "name": "固定資産評価審査委員会運営事業",
+      "department": "収税課",
+      "parts": [
+        {
+          "raw": "固定資産評価",
+          "start": 14465
+        },
+        {
+          "raw": "審査委員会運",
+          "start": 14541
+        },
+        {
+          "raw": "営事業",
+          "start": 14629
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 30,
+      "name": "債権回収事業",
+      "department": "収税課",
+      "parts": [
+        {
+          "raw": "債権回収事業",
+          "start": 14975
+        }
+      ],
+      "masterIds": [
+        "cached-12228-cba06bf4caa655c729f413fa"
+      ]
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 31,
+      "name": "戸籍記録整備事業",
+      "department": "窓口サービス課",
+      "parts": [
+        {
+          "raw": "戸籍記録整備",
+          "start": 15571
+        },
+        {
+          "raw": "事業",
+          "start": 15668
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 32,
+      "name": "窓口証明交付事業",
+      "department": "窓口サービス課",
+      "parts": [
+        {
+          "raw": "窓口証明交付",
+          "start": 16256
+        },
+        {
+          "raw": "事業",
+          "start": 16352
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 33,
+      "name": "市民サービスセンター運営事業",
+      "department": "窓口サービス課",
+      "parts": [
+        {
+          "raw": "市民サービスセ",
+          "start": 16938
+        },
+        {
+          "raw": "ンター運営事業",
+          "start": 17036
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dd2aa1e2bc4db5a4ba3e5bf6",
+      "number": 34,
+      "name": "窓口案内事業",
+      "department": "窓口サービス課",
+      "parts": [
+        {
+          "raw": "窓口案内事業",
+          "start": 17593
+        }
+      ],
+      "masterIds": [
+        "cached-12228-b23011a8f0e10ad7be580738"
+      ]
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 1,
+      "name": "区・自治会活動推進事業",
+      "department": "みんなで課",
+      "parts": [
+        {
+          "raw": "区・自治会活動",
+          "start": 433
+        },
+        {
+          "raw": "推進事業",
+          "start": 527
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 2,
+      "name": "地縁団体認可事業",
+      "department": "みんなで課",
+      "parts": [
+        {
+          "raw": "地縁団体認可",
+          "start": 1131
+        },
+        {
+          "raw": "事業",
+          "start": 1226
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 3,
+      "name": "コミュニティ施設維持管理事業",
+      "department": "みんなで課",
+      "parts": [
+        {
+          "raw": "コミュニティ施設",
+          "start": 1739
+        },
+        {
+          "raw": "維持管理事業",
+          "start": 1840
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 4,
+      "name": "ふるさとまつり事業",
+      "department": "みんなで課",
+      "parts": [
+        {
+          "raw": "ふるさとまつり",
+          "start": 2435
+        },
+        {
+          "raw": "事業",
+          "start": 2551
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 5,
+      "name": "住居表示事業",
+      "department": "みんなで課",
+      "parts": [
+        {
+          "raw": "住居表示事業",
+          "start": 2961
+        }
+      ],
+      "masterIds": [
+        "cached-12228-d09a9a95419fc30c40e5638f"
+      ]
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 6,
+      "name": "男女共同参画推進事業",
+      "department": "みんなで課",
+      "parts": [
+        {
+          "raw": "男女共同参画",
+          "start": 3489
+        },
+        {
+          "raw": "推進事業",
+          "start": 3583
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 7,
+      "name": "国際交流事業",
+      "department": "みんなで課",
+      "parts": [
+        {
+          "raw": "国際交流事業",
+          "start": 4210
+        }
+      ],
+      "masterIds": [
+        "cached-12228-aa8929d5b279851f50cabdae"
+      ]
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 8,
+      "name": "市民協働推進事業",
+      "department": "みんなで課",
+      "parts": [
+        {
+          "raw": "市民協働推進",
+          "start": 4622
+        },
+        {
+          "raw": "事業",
+          "start": 4718
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 9,
+      "name": "みんなで地域づくりセンター運営事業",
+      "department": "みんなで課",
+      "parts": [
+        {
+          "raw": "みんなで地域づ",
+          "start": 5146
+        },
+        {
+          "raw": "くりセンター運営",
+          "start": 5226
+        },
+        {
+          "raw": "事業",
+          "start": 5319
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 10,
+      "name": "コラボ四街道事業",
+      "department": "みんなで課",
+      "parts": [
+        {
+          "raw": "コラボ四街道事",
+          "start": 6014
+        },
+        {
+          "raw": "業",
+          "start": 6111
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 11,
+      "name": "まち撮り四街道事業",
+      "department": "みんなで課",
+      "parts": [
+        {
+          "raw": "まち撮り四街道",
+          "start": 6602
+        },
+        {
+          "raw": "事業",
+          "start": 6705
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 12,
+      "name": "更生保護事業",
+      "department": "みんなで課",
+      "parts": [
+        {
+          "raw": "更生保護事業",
+          "start": 7317
+        }
+      ],
+      "masterIds": [
+        "cached-12228-897696bac4890bcc66988d9a"
+      ]
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 13,
+      "name": "人権擁護事業",
+      "department": "みんなで課",
+      "parts": [
+        {
+          "raw": "人権擁護事業",
+          "start": 7997
+        }
+      ],
+      "masterIds": [
+        "cached-12228-1236e5d81d0b9d4521c16154"
+      ]
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 14,
+      "name": "公民連携事業",
+      "department": "みんなで課",
+      "parts": [
+        {
+          "raw": "公民連携事業",
+          "start": 8498
+        }
+      ],
+      "masterIds": [
+        "cached-12228-c104a372e9d021f86860ff43"
+      ]
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 15,
+      "name": "多文化共生推進事業",
+      "department": "みんなで課",
+      "parts": [
+        {
+          "raw": "多文化共生推",
+          "start": 8953
+        },
+        {
+          "raw": "進事業",
+          "start": 9031
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 16,
+      "name": "防犯対策事業",
+      "department": "くらし安全交通課",
+      "parts": [
+        {
+          "raw": "防犯対策事業",
+          "start": 9801
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 17,
+      "name": "交通安全対策事業",
+      "department": "くらし安全交通課",
+      "parts": [
+        {
+          "raw": "交通安全対策",
+          "start": 10374
+        },
+        {
+          "raw": "事業",
+          "start": 10471
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 18,
+      "name": "防犯灯維持管理事業",
+      "department": "くらし安全交通課",
+      "parts": [
+        {
+          "raw": "防犯灯維持管",
+          "start": 10860
+        },
+        {
+          "raw": "理事業",
+          "start": 10958
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 19,
+      "name": "消費者教育推進事業",
+      "department": "くらし安全交通課",
+      "parts": [
+        {
+          "raw": "消費者教育推",
+          "start": 11407
+        },
+        {
+          "raw": "進事業",
+          "start": 11509
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 20,
+      "name": "消費者保護事業",
+      "department": "くらし安全交通課",
+      "parts": [
+        {
+          "raw": "消費者保護事",
+          "start": 11894
+        },
+        {
+          "raw": "業",
+          "start": 11991
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 21,
+      "name": "交通計画推進事業",
+      "department": "くらし安全交通課",
+      "parts": [
+        {
+          "raw": "交通計画推進",
+          "start": 12468
+        },
+        {
+          "raw": "事業",
+          "start": 12566
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 22,
+      "name": "コミュニティバス運行事業",
+      "department": "くらし安全交通課",
+      "parts": [
+        {
+          "raw": "コミュニティバス",
+          "start": 13151
+        },
+        {
+          "raw": "運行事業",
+          "start": 13253
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 23,
+      "name": "生活交通路線維持事業",
+      "department": "くらし安全交通課",
+      "parts": [
+        {
+          "raw": "生活交通路線",
+          "start": 13690
+        },
+        {
+          "raw": "維持事業",
+          "start": 13790
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 24,
+      "name": "バス回転広場整備・管理事業",
+      "department": "くらし安全交通課",
+      "parts": [
+        {
+          "raw": "バス回転広場整",
+          "start": 14046
+        },
+        {
+          "raw": "備・管理事業",
+          "start": 14146
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 25,
+      "name": "グリーンスローモビリティ推進事業",
+      "department": "くらし安全交通課",
+      "parts": [
+        {
+          "raw": "グリーンスロー",
+          "start": 14589
+        },
+        {
+          "raw": "モビリティ推進",
+          "start": 14685
+        },
+        {
+          "raw": "事業",
+          "start": 14793
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 26,
+      "name": "物価高騰対策地域公共交通事業者運転手確保補助事業",
+      "department": "くらし安全交通課",
+      "parts": [
+        {
+          "raw": "物価高騰対策",
+          "start": 15134
+        },
+        {
+          "raw": "地域公共交通",
+          "start": 15197
+        },
+        {
+          "raw": "事業者運転手",
+          "start": 15283
+        },
+        {
+          "raw": "確保補助事業",
+          "start": 15368
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 27,
+      "name": "地域農業振興特別融資制度推進事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "地域農業振興",
+          "start": 15621
+        },
+        {
+          "raw": "特別融資制度",
+          "start": 15697
+        },
+        {
+          "raw": "推進事業",
+          "start": 15786
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 28,
+      "name": "農産物生産等支援育成事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "農産物生産等",
+          "start": 16344
+        },
+        {
+          "raw": "支援育成事業",
+          "start": 16441
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 29,
+      "name": "市民農園事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "市民農園事業",
+          "start": 16979
+        }
+      ],
+      "masterIds": [
+        "cached-12228-a07b33c6adf47e6c394bc643"
+      ]
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 30,
+      "name": "水田農業振興事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "水田農業振興",
+          "start": 17457
+        },
+        {
+          "raw": "事業",
+          "start": 17552
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 31,
+      "name": "農業振興地域整備計画事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "農業振興地域",
+          "start": 18218
+        },
+        {
+          "raw": "整備計画事業",
+          "start": 18311
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 32,
+      "name": "農業活性化事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "農業活性化事",
+          "start": 18710
+        },
+        {
+          "raw": "業",
+          "start": 18826
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 33,
+      "name": "畜産支援事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "畜産支援事業",
+          "start": 19203
+        }
+      ],
+      "masterIds": [
+        "cached-12228-4f5d688335a52ce32c9b4bb8"
+      ]
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 34,
+      "name": "農業経営基盤強化促進事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "農業経営基盤",
+          "start": 19740
+        },
+        {
+          "raw": "強化促進事業",
+          "start": 19835
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 35,
+      "name": "農道整備事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "農道整備事業",
+          "start": 20198
+        }
+      ],
+      "masterIds": [
+        "cached-12228-048fe0483645432b2cd81a4e"
+      ]
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 36,
+      "name": "農地保全管理事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "農地保全管理",
+          "start": 20556
+        },
+        {
+          "raw": "事業",
+          "start": 20649
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 37,
+      "name": "林業振興事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "林業振興事業",
+          "start": 21210
+        }
+      ],
+      "masterIds": [
+        "cached-12228-abd88198b036637e47c5ea43"
+      ]
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 38,
+      "name": "保存樹木樹林等保存選定事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "保存樹木樹林",
+          "start": 21636
+        },
+        {
+          "raw": "等保存選定事",
+          "start": 21713
+        },
+        {
+          "raw": "業",
+          "start": 21803
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 39,
+      "name": "食育推進事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "食育推進事業",
+          "start": 22132
+        }
+      ],
+      "masterIds": [
+        "cached-12228-39c46f21445b06fae7f4e306"
+      ]
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 40,
+      "name": "森林保全ボランティア養成事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "森林保全ボラン",
+          "start": 22739
+        },
+        {
+          "raw": "ティア養成事業",
+          "start": 22837
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 41,
+      "name": "商工業振興促進事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "商工業振興促",
+          "start": 23226
+        },
+        {
+          "raw": "進事業",
+          "start": 23322
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 42,
+      "name": "中小企業資金融資事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "中小企業資金",
+          "start": 23647
+        },
+        {
+          "raw": "融資事業",
+          "start": 23743
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 43,
+      "name": "産業まつり実施事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "産業まつり実施",
+          "start": 24361
+        },
+        {
+          "raw": "事業",
+          "start": 24475
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 44,
+      "name": "商工振興支援事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "商工振興支援",
+          "start": 24946
+        },
+        {
+          "raw": "事業",
+          "start": 25044
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 45,
+      "name": "中心市街地等活性化事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "中心市街地等",
+          "start": 25346
+        },
+        {
+          "raw": "活性化事業",
+          "start": 25491
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 46,
+      "name": "企業立地促進事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "企業立地促進",
+          "start": 26062
+        },
+        {
+          "raw": "事業",
+          "start": 26158
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 47,
+      "name": "労働行政事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "労働行政事業",
+          "start": 26638
+        }
+      ],
+      "masterIds": [
+        "cached-12228-13feedd8f6efa207450cca48"
+      ]
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 48,
+      "name": "観光支援事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "観光支援事業",
+          "start": 27222
+        }
+      ],
+      "masterIds": [
+        "cached-12228-89e604891c9b2deda351ee4f"
+      ]
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 49,
+      "name": "地域計画事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "地域計画事業",
+          "start": 27763
+        }
+      ],
+      "masterIds": [
+        "cached-12228-8a7ded0a3d0a64234ccccccb"
+      ]
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 50,
+      "name": "ふるさと応援推進事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "ふるさと応援推",
+          "start": 28237
+        },
+        {
+          "raw": "進事業",
+          "start": 28355
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "a69ec69c5502fb0185802271",
+      "number": 51,
+      "name": "農商工等連携推進事業",
+      "department": "産業振興課",
+      "parts": [
+        {
+          "raw": "農商工等連携",
+          "start": 28850
+        },
+        {
+          "raw": "推進事業",
+          "start": 28964
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "56c3d0472e60a1c6c57751fb",
+      "number": 1,
+      "name": "環境政策推進事業",
+      "department": "環境政策課",
+      "parts": [
+        {
+          "raw": "環境政策推進",
+          "start": 362
+        },
+        {
+          "raw": "事業",
+          "start": 458
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "56c3d0472e60a1c6c57751fb",
+      "number": 2,
+      "name": "環境衛生推進事業",
+      "department": "環境政策課",
+      "parts": [
+        {
+          "raw": "環境衛生推進",
+          "start": 857
+        },
+        {
+          "raw": "事業",
+          "start": 971
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "56c3d0472e60a1c6c57751fb",
+      "number": 3,
+      "name": "食品衛生事業",
+      "department": "環境政策課",
+      "parts": [
+        {
+          "raw": "食品衛生事業",
+          "start": 1354
+        }
+      ],
+      "masterIds": [
+        "cached-12228-e1cfa5e3d9f598710cdb28a4"
+      ]
+    },
+    {
+      "sourceId": "56c3d0472e60a1c6c57751fb",
+      "number": 4,
+      "name": "畜犬事業",
+      "department": "環境政策課",
+      "parts": [
+        {
+          "raw": "畜犬事業",
+          "start": 1929
+        }
+      ],
+      "masterIds": [
+        "cached-12228-0b84871aa9b728509ae9d2e9"
+      ]
+    },
+    {
+      "sourceId": "56c3d0472e60a1c6c57751fb",
+      "number": 5,
+      "name": "飲用水衛生対策事業",
+      "department": "環境政策課",
+      "parts": [
+        {
+          "raw": "飲用水衛生対",
+          "start": 2397
+        },
+        {
+          "raw": "策事業",
+          "start": 2492
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "56c3d0472e60a1c6c57751fb",
+      "number": 6,
+      "name": "市営霊園管理運営事業",
+      "department": "環境政策課",
+      "parts": [
+        {
+          "raw": "市営霊園管理",
+          "start": 2916
+        },
+        {
+          "raw": "運営事業",
+          "start": 3003
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "56c3d0472e60a1c6c57751fb",
+      "number": 7,
+      "name": "墓地等管理事業",
+      "department": "環境政策課",
+      "parts": [
+        {
+          "raw": "墓地等管理事",
+          "start": 3545
+        },
+        {
+          "raw": "業",
+          "start": 3638
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "56c3d0472e60a1c6c57751fb",
+      "number": 8,
+      "name": "公害調査測定事業",
+      "department": "環境政策課",
+      "parts": [
+        {
+          "raw": "公害調査測定",
+          "start": 3914
+        },
+        {
+          "raw": "事業",
+          "start": 4008
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "56c3d0472e60a1c6c57751fb",
+      "number": 9,
+      "name": "環境保全対策事業",
+      "department": "環境政策課",
+      "parts": [
+        {
+          "raw": "環境保全対策",
+          "start": 4269
+        },
+        {
+          "raw": "事業",
+          "start": 4362
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "56c3d0472e60a1c6c57751fb",
+      "number": 10,
+      "name": "合併処理浄化槽普及促進事業",
+      "department": "環境政策課",
+      "parts": [
+        {
+          "raw": "合併処理浄化",
+          "start": 4756
+        },
+        {
+          "raw": "槽普及促進事",
+          "start": 4833
+        },
+        {
+          "raw": "業",
+          "start": 4901
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "56c3d0472e60a1c6c57751fb",
+      "number": 11,
+      "name": "地下水汚染防止対策事業",
+      "department": "環境政策課",
+      "parts": [
+        {
+          "raw": "地下水汚染防",
+          "start": 5252
+        },
+        {
+          "raw": "止対策事業",
+          "start": 5346
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "56c3d0472e60a1c6c57751fb",
+      "number": 12,
+      "name": "自然環境対策事業",
+      "department": "環境政策課",
+      "parts": [
+        {
+          "raw": "自然環境対策",
+          "start": 5751
+        },
+        {
+          "raw": "事業",
+          "start": 5866
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "56c3d0472e60a1c6c57751fb",
+      "number": 13,
+      "name": "ゼロカーボンシティ推進事業",
+      "department": "環境政策課",
+      "parts": [
+        {
+          "raw": "ゼロカーボンシ",
+          "start": 6561
+        },
+        {
+          "raw": "ティ推進事業",
+          "start": 6650
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "56c3d0472e60a1c6c57751fb",
+      "number": 14,
+      "name": "廃棄物対策事業",
+      "department": "廃棄物対策課",
+      "parts": [
+        {
+          "raw": "廃棄物対策事",
+          "start": 7523
+        },
+        {
+          "raw": "業",
+          "start": 7618
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "56c3d0472e60a1c6c57751fb",
+      "number": 15,
+      "name": "ごみ減量化・リサイクル推進事業",
+      "department": "廃棄物対策課",
+      "parts": [
+        {
+          "raw": "ごみ減量化・リ",
+          "start": 8272
+        },
+        {
+          "raw": "サイクル推進事",
+          "start": 8352
+        },
+        {
+          "raw": "業",
+          "start": 8445
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "56c3d0472e60a1c6c57751fb",
+      "number": 16,
+      "name": "次期ごみ処理施設整備事業",
+      "department": "廃棄物対策課",
+      "parts": [
+        {
+          "raw": "次期ごみ処理施",
+          "start": 9157
+        },
+        {
+          "raw": "設整備事業",
+          "start": 9252
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "56c3d0472e60a1c6c57751fb",
+      "number": 17,
+      "name": "ごみ処理施設周辺対策事業",
+      "department": "廃棄物対策課",
+      "parts": [
+        {
+          "raw": "ごみ処理施設周",
+          "start": 9750
+        },
+        {
+          "raw": "辺対策事業",
+          "start": 9842
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "56c3d0472e60a1c6c57751fb",
+      "number": 18,
+      "name": "クリーンセンター管理運営事業",
+      "department": "クリーンセンター",
+      "parts": [
+        {
+          "raw": "クリーンセンター",
+          "start": 10249
+        },
+        {
+          "raw": "管理運営事業",
+          "start": 10348
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "56c3d0472e60a1c6c57751fb",
+      "number": 19,
+      "name": "廃棄物収集運搬処理処分事業",
+      "department": "クリーンセンター",
+      "parts": [
+        {
+          "raw": "廃棄物収集運",
+          "start": 10894
+        },
+        {
+          "raw": "搬処理処分事",
+          "start": 10981
+        },
+        {
+          "raw": "業",
+          "start": 11048
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "56c3d0472e60a1c6c57751fb",
+      "number": 20,
+      "name": "ゴミゼロ運動事業",
+      "department": "クリーンセンター",
+      "parts": [
+        {
+          "raw": "ゴミゼロ運動事",
+          "start": 11373
+        },
+        {
+          "raw": "業",
+          "start": 11472
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "56c3d0472e60a1c6c57751fb",
+      "number": 21,
+      "name": "不法投棄廃棄物処分事業",
+      "department": "クリーンセンター",
+      "parts": [
+        {
+          "raw": "不法投棄廃棄",
+          "start": 11826
+        },
+        {
+          "raw": "物処分事業",
+          "start": 11923
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 1,
+      "name": "福祉施策推進事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "福祉施策推進",
+          "start": 417
+        },
+        {
+          "raw": "事業",
+          "start": 532
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 2,
+      "name": "社会福祉法人指導監査事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "社会福祉法人",
+          "start": 942
+        },
+        {
+          "raw": "指導監査事業",
+          "start": 1033
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 3,
+      "name": "地域福祉施設管理運営事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "地域福祉施設",
+          "start": 1270
+        },
+        {
+          "raw": "管理運営事業",
+          "start": 1364
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 4,
+      "name": "保養センター管理運営事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "保養センター管",
+          "start": 1756
+        },
+        {
+          "raw": "理運営事業",
+          "start": 1852
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 5,
+      "name": "シニア憩いの里運営支援事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "シニア憩いの里",
+          "start": 2128
+        },
+        {
+          "raw": "運営支援事業",
+          "start": 2225
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 6,
+      "name": "総合福祉センター管理運営事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "総合福祉セン",
+          "start": 2498
+        },
+        {
+          "raw": "ター管理運営事",
+          "start": 2549
+        },
+        {
+          "raw": "業",
+          "start": 2642
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 7,
+      "name": "南部総合福祉センター管理運営事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "南部総合福祉セ",
+          "start": 3007
+        },
+        {
+          "raw": "ンター管理運営",
+          "start": 3057
+        },
+        {
+          "raw": "事業",
+          "start": 3150
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 8,
+      "name": "福祉施設苦情相談員設置事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "福祉施設苦情",
+          "start": 3374
+        },
+        {
+          "raw": "相談員設置事",
+          "start": 3450
+        },
+        {
+          "raw": "業",
+          "start": 3530
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 9,
+      "name": "民生委員事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "民生委員事業",
+          "start": 3868
+        }
+      ],
+      "masterIds": [
+        "cached-12228-9595d7434fdce53ddac56d92"
+      ]
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 10,
+      "name": "日本赤十字事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "日本赤十字事",
+          "start": 4418
+        },
+        {
+          "raw": "業",
+          "start": 4513
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 11,
+      "name": "シニアクラブ支援事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "シニアクラブ支",
+          "start": 4861
+        },
+        {
+          "raw": "援事業",
+          "start": 5044
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 12,
+      "name": "シルバー人材センター支援事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "シルバー人材セ",
+          "start": 5569
+        },
+        {
+          "raw": "ンター支援事業",
+          "start": 5683
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 13,
+      "name": "社会福祉協議会支援事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "社会福祉協議",
+          "start": 6203
+        },
+        {
+          "raw": "会支援事業",
+          "start": 6299
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 14,
+      "name": "長寿者褒賞事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "長寿者褒賞事",
+          "start": 6690
+        },
+        {
+          "raw": "業",
+          "start": 6792
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 15,
+      "name": "戦傷病者戦没者遺族等援護事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "戦傷病者戦没",
+          "start": 7198
+        },
+        {
+          "raw": "者遺族等援護",
+          "start": 7276
+        },
+        {
+          "raw": "事業",
+          "start": 7369
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 16,
+      "name": "生活保護給付事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "生活保護給付",
+          "start": 7945
+        },
+        {
+          "raw": "事業",
+          "start": 8042
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 17,
+      "name": "生活保護給付事務事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "生活保護給付",
+          "start": 8536
+        },
+        {
+          "raw": "事務事業",
+          "start": 8660
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 18,
+      "name": "行旅死亡人等墓埋事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "行旅死亡人等",
+          "start": 9193
+        },
+        {
+          "raw": "墓埋事業",
+          "start": 9290
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 19,
+      "name": "生活困窮者自立支援事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "生活困窮者自",
+          "start": 9899
+        },
+        {
+          "raw": "立支援事業",
+          "start": 9994
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 20,
+      "name": "地域福祉計画策定事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "地域福祉計画",
+          "start": 10338
+        },
+        {
+          "raw": "策定事業",
+          "start": 10432
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 21,
+      "name": "住民税非課税世帯生活支援臨時給付金支給事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "住民税非課税",
+          "start": 10709
+        },
+        {
+          "raw": "世帯生活支援",
+          "start": 10760
+        },
+        {
+          "raw": "臨時給付金支",
+          "start": 10855
+        },
+        {
+          "raw": "給事業",
+          "start": 10915
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 22,
+      "name": "住民税均等割のみ課税世帯生活支援臨時給付金支給事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "住民税均等割",
+          "start": 11269
+        },
+        {
+          "raw": "のみ課税世帯",
+          "start": 11317
+        },
+        {
+          "raw": "生活支援臨時",
+          "start": 11403
+        },
+        {
+          "raw": "給付金支給事",
+          "start": 11471
+        },
+        {
+          "raw": "業",
+          "start": 11521
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 23,
+      "name": "食料品価格高騰対策生活支援金支給事業",
+      "department": "社会福祉課",
+      "parts": [
+        {
+          "raw": "食料品価格高",
+          "start": 11800
+        },
+        {
+          "raw": "騰対策生活支",
+          "start": 11849
+        },
+        {
+          "raw": "援金支給事業",
+          "start": 11941
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 24,
+      "name": "老人保護措置事業",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "老人保護措置",
+          "start": 12422
+        },
+        {
+          "raw": "事業",
+          "start": 12519
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 25,
+      "name": "高齢者在宅生活支援事業",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "高齢者在宅生",
+          "start": 13073
+        },
+        {
+          "raw": "活支援事業",
+          "start": 13169
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 26,
+      "name": "老人福祉施設整備事業",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "老人福祉施設",
+          "start": 13481
+        },
+        {
+          "raw": "整備事業",
+          "start": 13559
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 27,
+      "name": "介護保険事業",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "介護保険事業",
+          "start": 14026
+        }
+      ],
+      "masterIds": [
+        "cached-12228-beda962032297a2b97a9f875"
+      ]
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 28,
+      "name": "地域包括支援センター運営事業",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "地域包括支援セ",
+          "start": 14707
+        },
+        {
+          "raw": "ンター運営事業",
+          "start": 14805
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 29,
+      "name": "生活支援体制整備事業",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "生活支援体制",
+          "start": 15471
+        },
+        {
+          "raw": "整備事業",
+          "start": 15562
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 30,
+      "name": "一体的実施事業",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "一体的実施事",
+          "start": 16168
+        },
+        {
+          "raw": "業",
+          "start": 16234
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 31,
+      "name": "地域介護予防活動支援事業",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "地域介護予防",
+          "start": 16873
+        },
+        {
+          "raw": "活動支援事業",
+          "start": 16973
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 32,
+      "name": "物価高騰対策介護サービス事業所支援事業",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "物価高騰対策",
+          "start": 17366
+        },
+        {
+          "raw": "介護サービス事",
+          "start": 17413
+        },
+        {
+          "raw": "業所支援事業",
+          "start": 17508
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 33,
+      "name": "賦課徴収事業（介護保険特別会計）",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "賦課徴収事業",
+          "start": 17800
+        },
+        {
+          "raw": "（介護保険特別",
+          "start": 17878
+        },
+        {
+          "raw": "会計）",
+          "start": 17973
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 34,
+      "name": "要介護等認定事務事業（介護保険特別会計）",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "要介護等認定",
+          "start": 18429
+        },
+        {
+          "raw": "事務事業",
+          "start": 18467
+        },
+        {
+          "raw": "（介護保険特別",
+          "start": 18543
+        },
+        {
+          "raw": "会計）",
+          "start": 18636
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 35,
+      "name": "介護・介護予防サービス等諸費給付事業（介護保険特別会計）",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "介護・介護予防",
+          "start": 18898
+        },
+        {
+          "raw": "サービス等諸費",
+          "start": 18937
+        },
+        {
+          "raw": "給付事業",
+          "start": 19017
+        },
+        {
+          "raw": "（介護保険特別",
+          "start": 19107
+        },
+        {
+          "raw": "会計）",
+          "start": 19152
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 36,
+      "name": "特定入所者介護サービス等諸費給付事業（介護保険特別会計）",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "特定入所者介",
+          "start": 19324
+        },
+        {
+          "raw": "護サービス等諸",
+          "start": 19371
+        },
+        {
+          "raw": "費給付事業",
+          "start": 19451
+        },
+        {
+          "raw": "（介護保険特別",
+          "start": 19542
+        },
+        {
+          "raw": "会計）",
+          "start": 19590
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 37,
+      "name": "高額介護サービス等費給付事業（介護保険特別会計）",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "高額介護サービ",
+          "start": 19953
+        },
+        {
+          "raw": "ス等費給付事業",
+          "start": 20027
+        },
+        {
+          "raw": "（介護保険特別",
+          "start": 20124
+        },
+        {
+          "raw": "会計）",
+          "start": 20194
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 38,
+      "name": "審査支払手数料事業（介護保険特別会計）",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "審査支払手数",
+          "start": 20469
+        },
+        {
+          "raw": "料事業",
+          "start": 20544
+        },
+        {
+          "raw": "（介護保険特別",
+          "start": 20635
+        },
+        {
+          "raw": "会計）",
+          "start": 20711
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 39,
+      "name": "介護予防・日常生活支援サービス事業（介護保険特別会計）",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "介護予防・日常",
+          "start": 21016
+        },
+        {
+          "raw": "生活支援サービ",
+          "start": 21090
+        },
+        {
+          "raw": "ス事業",
+          "start": 21168
+        },
+        {
+          "raw": "（介護保険特別",
+          "start": 21258
+        },
+        {
+          "raw": "会計）",
+          "start": 21317
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 40,
+      "name": "一般介護予防事業（介護保険特別会計）",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "一般介護予防",
+          "start": 21823
+        },
+        {
+          "raw": "事業",
+          "start": 21872
+        },
+        {
+          "raw": "（介護保険特別",
+          "start": 21961
+        },
+        {
+          "raw": "会計）",
+          "start": 22041
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 41,
+      "name": "在宅医療・介護連携推進事業(介護保険特別会計）",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "在宅医療・介護",
+          "start": 22613
+        },
+        {
+          "raw": "連携推進事業",
+          "start": 22689
+        },
+        {
+          "raw": "(介護保険特別",
+          "start": 22786
+        },
+        {
+          "raw": "会計）",
+          "start": 22864
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 42,
+      "name": "認知症総合支援事業(介護保険特別会計）",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "認知症総合支",
+          "start": 23446
+        },
+        {
+          "raw": "援事業",
+          "start": 23517
+        },
+        {
+          "raw": "(介護保険特別",
+          "start": 23603
+        },
+        {
+          "raw": "会計）",
+          "start": 23677
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 43,
+      "name": "地域ケア会議推進事業(介護保険特別会計）",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "地域ケア会議推",
+          "start": 24380
+        },
+        {
+          "raw": "進事業",
+          "start": 24431
+        },
+        {
+          "raw": "(介護保険特別",
+          "start": 24507
+        },
+        {
+          "raw": "会計）",
+          "start": 24597
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 44,
+      "name": "地域支援任意事業（介護保険特別会計）",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "地域支援任意",
+          "start": 25190
+        },
+        {
+          "raw": "事業",
+          "start": 25263
+        },
+        {
+          "raw": "（介護保険特別",
+          "start": 25356
+        },
+        {
+          "raw": "会計）",
+          "start": 25422
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 45,
+      "name": "介護給付費等費用適正化事業（介護保険特別会計）",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "介護給付費等",
+          "start": 25712
+        },
+        {
+          "raw": "費用適正化事",
+          "start": 25751
+        },
+        {
+          "raw": "業",
+          "start": 25830
+        },
+        {
+          "raw": "（介護保険特別",
+          "start": 25910
+        },
+        {
+          "raw": "会計）",
+          "start": 25950
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 46,
+      "name": "介護相談員派遣事業（介護保険特別会計）",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "介護相談員派",
+          "start": 26330
+        },
+        {
+          "raw": "遣事業",
+          "start": 26404
+        },
+        {
+          "raw": "（介護保険特別",
+          "start": 26502
+        },
+        {
+          "raw": "会計）",
+          "start": 26560
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 47,
+      "name": "認知症高齢者見守り事業(介護保険特別会計）",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "認知症高齢者",
+          "start": 27033
+        },
+        {
+          "raw": "見守り事業",
+          "start": 27088
+        },
+        {
+          "raw": "(介護保険特別",
+          "start": 27181
+        },
+        {
+          "raw": "会計）",
+          "start": 27237
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 48,
+      "name": "第１号被保険者保険料還付事業（介護保険特別会計）",
+      "department": "高齢者支援課",
+      "parts": [
+        {
+          "raw": "第１号被保険者",
+          "start": 27499
+        },
+        {
+          "raw": "保険料還付事",
+          "start": 27507
+        },
+        {
+          "raw": "業",
+          "start": 27558
+        },
+        {
+          "raw": "（介護保険特別",
+          "start": 27646
+        },
+        {
+          "raw": "会計）",
+          "start": 27696
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 49,
+      "name": "障がい者基本計画等推進事業",
+      "department": "障がい者支援課",
+      "parts": [
+        {
+          "raw": "障がい者基本計",
+          "start": 28113
+        },
+        {
+          "raw": "画等推進事業",
+          "start": 28202
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 50,
+      "name": "障がい福祉推進事業",
+      "department": "障がい者支援課",
+      "parts": [
+        {
+          "raw": "障がい福祉推進",
+          "start": 28928
+        },
+        {
+          "raw": "事業",
+          "start": 29053
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 51,
+      "name": "障害者自立支援給付事業",
+      "department": "障がい者支援課",
+      "parts": [
+        {
+          "raw": "障害者自立支",
+          "start": 29703
+        },
+        {
+          "raw": "援給付事業",
+          "start": 29799
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 52,
+      "name": "地域生活支援事業",
+      "department": "障がい者支援課",
+      "parts": [
+        {
+          "raw": "地域生活支援",
+          "start": 30353
+        },
+        {
+          "raw": "事業",
+          "start": 30452
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 53,
+      "name": "経済支援事業",
+      "department": "障がい者支援課",
+      "parts": [
+        {
+          "raw": "経済支援事業",
+          "start": 30908
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 54,
+      "name": "在宅生活支援事業",
+      "department": "障がい者支援課",
+      "parts": [
+        {
+          "raw": "在宅生活支援",
+          "start": 31359
+        },
+        {
+          "raw": "事業",
+          "start": 31454
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 55,
+      "name": "障がい者相談支援事業",
+      "department": "障がい者支援課",
+      "parts": [
+        {
+          "raw": "障がい者相談支",
+          "start": 32032
+        },
+        {
+          "raw": "援事業",
+          "start": 32131
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 56,
+      "name": "意思疎通支援事業",
+      "department": "障がい者支援課",
+      "parts": [
+        {
+          "raw": "意思疎通支援",
+          "start": 32681
+        },
+        {
+          "raw": "事業",
+          "start": 32776
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 57,
+      "name": "基幹相談支援センター運営事業",
+      "department": "障がい者支援課",
+      "parts": [
+        {
+          "raw": "基幹相談支援セ",
+          "start": 33509
+        },
+        {
+          "raw": "ンター運営事業",
+          "start": 33608
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 58,
+      "name": "物価高騰対策障がい福祉サービス等事業所支援事業",
+      "department": "障がい者支援課",
+      "parts": [
+        {
+          "raw": "物価高騰対策",
+          "start": 34195
+        },
+        {
+          "raw": "障がい福祉サー",
+          "start": 34243
+        },
+        {
+          "raw": "ビス等事業所支",
+          "start": 34328
+        },
+        {
+          "raw": "援事業",
+          "start": 34414
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 59,
+      "name": "児童デイサービスセンター施設管理事業",
+      "department": "障がい者支援課児童デイサービスセンター",
+      "parts": [
+        {
+          "raw": "児童デイサービ",
+          "start": 34650
+        },
+        {
+          "raw": "スセンター施設",
+          "start": 34736
+        },
+        {
+          "raw": "管理事業",
+          "start": 34827
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "dbcf5adaad24810fa8ecf734",
+      "number": 60,
+      "name": "児童発達支援事業",
+      "department": "障がい者支援課児童デイサービスセンター",
+      "parts": [
+        {
+          "raw": "児童発達支援",
+          "start": 35321
+        },
+        {
+          "raw": "事業",
+          "start": 35420
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 1,
+      "name": "子ども医療対策事業",
+      "department": "子育て支援課",
+      "parts": [
+        {
+          "raw": "子ども医療対策",
+          "start": 390
+        },
+        {
+          "raw": "事業",
+          "start": 488
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 2,
+      "name": "子ども家庭総合支援事業",
+      "department": "子育て支援課",
+      "parts": [
+        {
+          "raw": "子ども家庭総合",
+          "start": 1156
+        },
+        {
+          "raw": "支援事業",
+          "start": 1272
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 3,
+      "name": "養育医療給付事業",
+      "department": "子育て支援課",
+      "parts": [
+        {
+          "raw": "養育医療給付",
+          "start": 1852
+        },
+        {
+          "raw": "事業",
+          "start": 1948
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 4,
+      "name": "児童手当支給事業",
+      "department": "子育て支援課",
+      "parts": [
+        {
+          "raw": "児童手当支給",
+          "start": 2368
+        },
+        {
+          "raw": "事業",
+          "start": 2465
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 5,
+      "name": "ひとり親家庭等支援事業",
+      "department": "子育て支援課",
+      "parts": [
+        {
+          "raw": "ひとり親家庭等",
+          "start": 2914
+        },
+        {
+          "raw": "支援事業",
+          "start": 3013
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 6,
+      "name": "母子生活支援施設等入所保護事業",
+      "department": "子育て支援課",
+      "parts": [
+        {
+          "raw": "母子生活支援",
+          "start": 3406
+        },
+        {
+          "raw": "施設等入所保",
+          "start": 3483
+        },
+        {
+          "raw": "護事業",
+          "start": 3556
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 7,
+      "name": "児童扶養手当事業",
+      "department": "子育て支援課",
+      "parts": [
+        {
+          "raw": "児童扶養手当",
+          "start": 3968
+        },
+        {
+          "raw": "事業",
+          "start": 4065
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 8,
+      "name": "児童遊園管理事業",
+      "department": "子育て支援課",
+      "parts": [
+        {
+          "raw": "児童遊園管理",
+          "start": 4424
+        },
+        {
+          "raw": "事業",
+          "start": 4519
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 9,
+      "name": "児童センター運営委託事業",
+      "department": "子育て支援課",
+      "parts": [
+        {
+          "raw": "児童センター運",
+          "start": 4865
+        },
+        {
+          "raw": "営委託事業",
+          "start": 4961
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 10,
+      "name": "プレーパーク運営事業",
+      "department": "子育て支援課",
+      "parts": [
+        {
+          "raw": "プレーパーク運",
+          "start": 5424
+        },
+        {
+          "raw": "営事業",
+          "start": 5522
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 11,
+      "name": "子ども・子育て施策推進事業",
+      "department": "子育て支援課",
+      "parts": [
+        {
+          "raw": "子ども・子育て",
+          "start": 5913
+        },
+        {
+          "raw": "施策推進事業",
+          "start": 6011
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 12,
+      "name": "子ども・子育て支援事業計画策定事業",
+      "department": "子育て支援課",
+      "parts": [
+        {
+          "raw": "子ども・子育て",
+          "start": 6369
+        },
+        {
+          "raw": "支援事業計画",
+          "start": 6451
+        },
+        {
+          "raw": "策定事業",
+          "start": 6547
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 13,
+      "name": "子育て情報提供事業",
+      "department": "子育て支援課",
+      "parts": [
+        {
+          "raw": "子育て情報提供",
+          "start": 6955
+        },
+        {
+          "raw": "事業",
+          "start": 7078
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 14,
+      "name": "高校生等医療対策事業",
+      "department": "子育て支援課",
+      "parts": [
+        {
+          "raw": "高校生等医療",
+          "start": 7499
+        },
+        {
+          "raw": "対策事業",
+          "start": 7596
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 15,
+      "name": "物価高対応子育て応援手当支給事業",
+      "department": "子育て支援課",
+      "parts": [
+        {
+          "raw": "物価高対応子",
+          "start": 7988
+        },
+        {
+          "raw": "育て応援手当支",
+          "start": 8031
+        },
+        {
+          "raw": "給事業",
+          "start": 8131
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 16,
+      "name": "ファミリー・サポート・センター運営事業",
+      "department": "保育課",
+      "parts": [
+        {
+          "raw": "ファミリー・サ",
+          "start": 8623
+        },
+        {
+          "raw": "ポート・センター",
+          "start": 8703
+        },
+        {
+          "raw": "運営事業",
+          "start": 8796
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 17,
+      "name": "私立幼稚園等運営補助事業",
+      "department": "保育課",
+      "parts": [
+        {
+          "raw": "私立幼稚園等",
+          "start": 9202
+        },
+        {
+          "raw": "運営補助事業",
+          "start": 9305
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 18,
+      "name": "幼児教育振興費補助事業",
+      "department": "保育課",
+      "parts": [
+        {
+          "raw": "幼児教育振興",
+          "start": 9687
+        },
+        {
+          "raw": "費補助事業",
+          "start": 9789
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 19,
+      "name": "病児・病後児保育事業",
+      "department": "保育課",
+      "parts": [
+        {
+          "raw": "病児・病後児保",
+          "start": 10204
+        },
+        {
+          "raw": "育事業",
+          "start": 10301
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 20,
+      "name": "子育てのための施設等利用給付事業",
+      "department": "保育課",
+      "parts": [
+        {
+          "raw": "子育てのための",
+          "start": 10742
+        },
+        {
+          "raw": "施設等利用給",
+          "start": 10821
+        },
+        {
+          "raw": "付事業",
+          "start": 10905
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 21,
+      "name": "実費徴収に係る補足給付事業",
+      "department": "保育課",
+      "parts": [
+        {
+          "raw": "実費徴収に係る",
+          "start": 11346
+        },
+        {
+          "raw": "補足給付事業",
+          "start": 11434
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 22,
+      "name": "子育て短期支援事業",
+      "department": "保育課",
+      "parts": [
+        {
+          "raw": "子育て短期支援",
+          "start": 12111
+        },
+        {
+          "raw": "事業",
+          "start": 12207
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 23,
+      "name": "多様な事業者の参入促進・能力活用事業",
+      "department": "保育課",
+      "parts": [
+        {
+          "raw": "多様な事業者の",
+          "start": 12587
+        },
+        {
+          "raw": "参入促進・能力",
+          "start": 12665
+        },
+        {
+          "raw": "活用事業",
+          "start": 12756
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 24,
+      "name": "保育所入所等管理事業",
+      "department": "保育課",
+      "parts": [
+        {
+          "raw": "保育所入所等",
+          "start": 13118
+        },
+        {
+          "raw": "管理事業",
+          "start": 13212
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 25,
+      "name": "保育所運営委託事業",
+      "department": "保育課",
+      "parts": [
+        {
+          "raw": "保育所運営委",
+          "start": 13746
+        },
+        {
+          "raw": "託事業",
+          "start": 13842
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 26,
+      "name": "保育所運営連絡調整事業",
+      "department": "保育課",
+      "parts": [
+        {
+          "raw": "保育所運営連",
+          "start": 14187
+        },
+        {
+          "raw": "絡調整事業",
+          "start": 14288
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 27,
+      "name": "こどもルーム運営事業",
+      "department": "保育課",
+      "parts": [
+        {
+          "raw": "こどもルーム運",
+          "start": 14690
+        },
+        {
+          "raw": "営事業",
+          "start": 14752
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 28,
+      "name": "保育所管理運営事業",
+      "department": "保育課",
+      "parts": [
+        {
+          "raw": "保育所管理運",
+          "start": 15264
+        },
+        {
+          "raw": "営事業",
+          "start": 15326
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 29,
+      "name": "私立保育園運営費等補助事業",
+      "department": "保育課",
+      "parts": [
+        {
+          "raw": "私立保育園運",
+          "start": 15643
+        },
+        {
+          "raw": "営費等補助事",
+          "start": 15720
+        },
+        {
+          "raw": "業",
+          "start": 15811
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 30,
+      "name": "保育所等整備事業",
+      "department": "保育課",
+      "parts": [
+        {
+          "raw": "保育所等整備",
+          "start": 16156
+        },
+        {
+          "raw": "事業",
+          "start": 16250
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 31,
+      "name": "保育所等指導監査事業",
+      "department": "保育課",
+      "parts": [
+        {
+          "raw": "保育所等指導",
+          "start": 16811
+        },
+        {
+          "raw": "監査事業",
+          "start": 16900
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 32,
+      "name": "乳児等通園支援事業",
+      "department": "保育課",
+      "parts": [
+        {
+          "raw": "乳児等通園支",
+          "start": 17454
+        },
+        {
+          "raw": "援事業",
+          "start": 17539
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 33,
+      "name": "地域子ども・子育て支援事業における事業継続支援事業",
+      "department": "保育課",
+      "parts": [
+        {
+          "raw": "地域子ども・子",
+          "start": 18026
+        },
+        {
+          "raw": "育て支援事業に",
+          "start": 18079
+        },
+        {
+          "raw": "おける事業継続",
+          "start": 18160
+        },
+        {
+          "raw": "支援事業",
+          "start": 18251
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 34,
+      "name": "中央保育所施設維持管理事業",
+      "department": "保育課中央保育所",
+      "parts": [
+        {
+          "raw": "中央保育所施",
+          "start": 18684
+        },
+        {
+          "raw": "設維持管理事",
+          "start": 18768
+        },
+        {
+          "raw": "業",
+          "start": 18852
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 35,
+      "name": "中央保育所保育運営事業",
+      "department": "保育課中央保育所",
+      "parts": [
+        {
+          "raw": "中央保育所保",
+          "start": 19268
+        },
+        {
+          "raw": "育運営事業",
+          "start": 19365
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 36,
+      "name": "中央保育所給食運営事業",
+      "department": "保育課中央保育所",
+      "parts": [
+        {
+          "raw": "中央保育所給",
+          "start": 19877
+        },
+        {
+          "raw": "食運営事業",
+          "start": 19974
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 37,
+      "name": "分園施設維持管理事業",
+      "department": "保育課中央保育所",
+      "parts": [
+        {
+          "raw": "分園施設維持",
+          "start": 20446
+        },
+        {
+          "raw": "管理事業",
+          "start": 20543
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 38,
+      "name": "分園保育運営事業",
+      "department": "保育課中央保育所",
+      "parts": [
+        {
+          "raw": "分園保育運営",
+          "start": 20982
+        },
+        {
+          "raw": "事業",
+          "start": 21080
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 39,
+      "name": "分園給食運営事業",
+      "department": "保育課中央保育所",
+      "parts": [
+        {
+          "raw": "分園給食運営",
+          "start": 21529
+        },
+        {
+          "raw": "事業",
+          "start": 21626
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 40,
+      "name": "千代田保育所施設維持管理事業",
+      "department": "保育課千代田保育所",
+      "parts": [
+        {
+          "raw": "千代田保育所",
+          "start": 22066
+        },
+        {
+          "raw": "施設維持管理",
+          "start": 22150
+        },
+        {
+          "raw": "事業",
+          "start": 22234
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 41,
+      "name": "千代田保育所保育運営事業",
+      "department": "保育課千代田保育所",
+      "parts": [
+        {
+          "raw": "千代田保育所",
+          "start": 22606
+        },
+        {
+          "raw": "保育運営事業",
+          "start": 22703
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 42,
+      "name": "千代田保育所給食運営事業",
+      "department": "保育課千代田保育所",
+      "parts": [
+        {
+          "raw": "千代田保育所",
+          "start": 23215
+        },
+        {
+          "raw": "給食運営事業",
+          "start": 23312
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 43,
+      "name": "保健活動地域連携事業",
+      "department": "健康増進課",
+      "parts": [
+        {
+          "raw": "保健活動地域",
+          "start": 23884
+        },
+        {
+          "raw": "連携事業",
+          "start": 23979
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 44,
+      "name": "保健医療体制整備事業",
+      "department": "健康増進課",
+      "parts": [
+        {
+          "raw": "保健医療体制",
+          "start": 24439
+        },
+        {
+          "raw": "整備事業",
+          "start": 24503
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 45,
+      "name": "健康データ管理事業",
+      "department": "健康増進課",
+      "parts": [
+        {
+          "raw": "健康データ管理",
+          "start": 24933
+        },
+        {
+          "raw": "事業",
+          "start": 25033
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 46,
+      "name": "健康増進人事管理事業",
+      "department": "健康増進課",
+      "parts": [
+        {
+          "raw": "健康増進人事",
+          "start": 25639
+        },
+        {
+          "raw": "管理事業",
+          "start": 25733
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 47,
+      "name": "検診事業",
+      "department": "健康増進課",
+      "parts": [
+        {
+          "raw": "検診事業",
+          "start": 26322
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 48,
+      "name": "予防接種事業",
+      "department": "健康増進課",
+      "parts": [
+        {
+          "raw": "予防接種事業",
+          "start": 27011
+        }
+      ],
+      "masterIds": [
+        "cached-12228-f0c1fa5ca449a3213eb42e73"
+      ]
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 49,
+      "name": "保健推進員事業",
+      "department": "健康増進課",
+      "parts": [
+        {
+          "raw": "保健推進員事",
+          "start": 27818
+        },
+        {
+          "raw": "業",
+          "start": 27916
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 50,
+      "name": "健康よつかいどう２１プラン推進事業",
+      "department": "健康増進課",
+      "parts": [
+        {
+          "raw": "健康よつかいど",
+          "start": 28469
+        },
+        {
+          "raw": "う２１プラン推進",
+          "start": 28549
+        },
+        {
+          "raw": "事業",
+          "start": 28639
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 51,
+      "name": "成人保健事業",
+      "department": "健康増進課",
+      "parts": [
+        {
+          "raw": "成人保健事業",
+          "start": 29154
+        }
+      ],
+      "masterIds": [
+        "cached-12228-13a18d84d396e58341c4144d"
+      ]
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 52,
+      "name": "母子保健事業",
+      "department": "健康増進課",
+      "parts": [
+        {
+          "raw": "母子保健事業",
+          "start": 29963
+        }
+      ],
+      "masterIds": [
+        "cached-12228-5197e81314a2a715bd896971"
+      ]
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 53,
+      "name": "ことばの相談事業",
+      "department": "健康増進課",
+      "parts": [
+        {
+          "raw": "ことばの相談事",
+          "start": 30439
+        },
+        {
+          "raw": "業",
+          "start": 30536
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 54,
+      "name": "保健センター管理運営事業",
+      "department": "健康増進課",
+      "parts": [
+        {
+          "raw": "保健センター管",
+          "start": 31075
+        },
+        {
+          "raw": "理運営事業",
+          "start": 31173
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 55,
+      "name": "休日夜間急病診療所事業",
+      "department": "健康増進課",
+      "parts": [
+        {
+          "raw": "休日夜間急病",
+          "start": 31776
+        },
+        {
+          "raw": "診療所事業",
+          "start": 31871
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 56,
+      "name": "国保運営事業（国民健康保険特別会計）",
+      "department": "国保年金課",
+      "parts": [
+        {
+          "raw": "国保運営事業",
+          "start": 32274
+        },
+        {
+          "raw": "（国民健康保険",
+          "start": 32353
+        },
+        {
+          "raw": "特別会計）",
+          "start": 32446
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 57,
+      "name": "国保給付事業（国民健康保険特別会計）",
+      "department": "国保年金課",
+      "parts": [
+        {
+          "raw": "国保給付事業",
+          "start": 32812
+        },
+        {
+          "raw": "（国民健康保険",
+          "start": 32887
+        },
+        {
+          "raw": "特別会計）",
+          "start": 32976
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 58,
+      "name": "国保保健事業（国民健康保険特別会計）",
+      "department": "国保年金課",
+      "parts": [
+        {
+          "raw": "国保保健事業",
+          "start": 33680
+        },
+        {
+          "raw": "（国民健康保険",
+          "start": 33758
+        },
+        {
+          "raw": "特別会計）",
+          "start": 33852
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 59,
+      "name": "国保税賦課徴収事業（国民健康保険特別会計）",
+      "department": "国保年金課",
+      "parts": [
+        {
+          "raw": "国保税賦課徴",
+          "start": 34376
+        },
+        {
+          "raw": "収事業",
+          "start": 34451
+        },
+        {
+          "raw": "（国民健康保険",
+          "start": 34543
+        },
+        {
+          "raw": "特別会計）",
+          "start": 34616
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 60,
+      "name": "国保税還付金（国民健康保険特別会計）",
+      "department": "国保年金課",
+      "parts": [
+        {
+          "raw": "国保税還付金",
+          "start": 34927
+        },
+        {
+          "raw": "（国民健康保険",
+          "start": 35004
+        },
+        {
+          "raw": "特別会計）",
+          "start": 35086
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 61,
+      "name": "後期高齢者医療制度事務事業(後期高齢者医療特別会計）",
+      "department": "国保年金課",
+      "parts": [
+        {
+          "raw": "後期高齢者医",
+          "start": 35425
+        },
+        {
+          "raw": "療制度事務事",
+          "start": 35489
+        },
+        {
+          "raw": "業",
+          "start": 35566
+        },
+        {
+          "raw": "(後期高齢者医",
+          "start": 35652
+        },
+        {
+          "raw": "療特別会計）",
+          "start": 35701
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 62,
+      "name": "長寿・健康増進事業助成事業（後期高齢者医療特別会計）",
+      "department": "国保年金課",
+      "parts": [
+        {
+          "raw": "長寿・健康増進",
+          "start": 35998
+        },
+        {
+          "raw": "事業助成事業",
+          "start": 36077
+        },
+        {
+          "raw": "（後期高齢者医",
+          "start": 36174
+        },
+        {
+          "raw": "療特別会計）",
+          "start": 36242
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 63,
+      "name": "後期高齢者医療制度保険料徴収事務事業(後期高齢者医療特別会計）",
+      "department": "国保年金課",
+      "parts": [
+        {
+          "raw": "後期高齢者医",
+          "start": 36505
+        },
+        {
+          "raw": "療制度保険料",
+          "start": 36544
+        },
+        {
+          "raw": "徴収事務事業",
+          "start": 36618
+        },
+        {
+          "raw": "(後期高齢者医",
+          "start": 36709
+        },
+        {
+          "raw": "療特別会計）",
+          "start": 36773
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 64,
+      "name": "後期高齢者医療保険料還付金(後期高齢者医療特別会計）",
+      "department": "国保年金課",
+      "parts": [
+        {
+          "raw": "後期高齢者医",
+          "start": 37140
+        },
+        {
+          "raw": "療保険料還付",
+          "start": 37179
+        },
+        {
+          "raw": "金",
+          "start": 37256
+        },
+        {
+          "raw": "(後期高齢者医",
+          "start": 37337
+        },
+        {
+          "raw": "療特別会計）",
+          "start": 37385
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 65,
+      "name": "国民年金事務事業",
+      "department": "国保年金課",
+      "parts": [
+        {
+          "raw": "国民年金事務",
+          "start": 37683
+        },
+        {
+          "raw": "事業",
+          "start": 37778
+        }
+      ],
+      "masterIds": []
+    },
+    {
+      "sourceId": "6d67ec9f48238197b1ce0f50",
+      "number": 66,
+      "name": "後期高齢者健康診査事業",
+      "department": "国保年金課",
+      "parts": [
+        {
+          "raw": "後期高齢者健",
+          "start": 38112
+        },
+        {
+          "raw": "康診査事業",
+          "start": 38207
+        }
+      ],
+      "masterIds": []
+    }
+  ]
+}

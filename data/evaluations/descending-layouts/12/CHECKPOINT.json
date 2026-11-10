@@ -1,8 +1,8 @@
 {
-  "candidateRecords": 2267,
-  "newCandidatesThisTranche": 289,
-  "newCandidatesSincePreviousPush": 289,
-  "previousRemoteHead": "e22fd4cc7695c225dee83d6ad8b946ee9de3cb6c",
+  "candidateRecords": 2659,
+  "newCandidatesThisTranche": 392,
+  "newCandidatesSincePreviousPush": 392,
+  "previousRemoteHead": "cb0cbfcf76f08dd3bba325541a075268e7c533f1",
   "perMunicipality": {
     "鋸南町": 44,
     "長南町": 10,
@@ -12,33 +12,35 @@
     "栄町": 1542,
     "酒々井町": 2,
     "匝瑳市": 283,
-    "南房総市": 4
+    "南房総市": 4,
+    "富里市": 162,
+    "四街道市": 230
   },
   "existingFieldEnrichments": 0,
-  "newCandidateActualAmountFields": 0,
-  "newCandidateOriginalRatingFields": 283,
-  "cohortActualAmountFields": 2,
-  "validatedCumulativeCandidates": 36769,
-  "validatedEvidence": 110601,
+  "newCandidateActualAmountFields": 31,
+  "newCandidateOriginalRatingFields": 0,
+  "cohortActualAmountFields": 33,
+  "validatedCumulativeCandidates": 37161,
+  "validatedEvidence": 112486,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "e22fd4cc7695c225dee83d6ad8b946ee9de3cb6c",
+  "previousHead": "cb0cbfcf76f08dd3bba325541a075268e7c533f1",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "16/16",
-    "crawler": "1083/1083",
+    "focused": "21/21",
+    "crawler": "1088/1088",
     "web": "256/256",
     "typecheck": "passed",
     "lint": "passed;existingfontwarning",
     "national": "passed branchbaseline",
     "static": "109/109 subpath",
-    "quotes": "36769 candidates/110601 quotes"
+    "quotes": "37161 candidates/112486 quotes"
   },
   "remoteCI": "unverified;known ActionsAPI403 not retried",
-  "remaining": "Chiba queue continues. Shisui2/Sosa283/Minamiboso4 added and fullvalidated; Tomisato proposals staged outside repository remain outside this checkpoint. Annual review entries do not imply implementation or completion. Tonosho41 are related educational class records. Missing42 bodies remain held. Existing partial-name corrections need separate coordinated integration; no existing values changed."
+  "remaining": "Chiba queue continues. Tomisato162 and Yotsukaido230 added. Further Yotsukaido72 candidates have individually verified source identity and master comparison outside this checkpoint, not yet fullvalidated/published. Amount fields are 31 explicitly aligned Tomisato actual expenditures; no forecast or parent total substituted. No prior fields changed. Missing42 bodies remain held."
 }
