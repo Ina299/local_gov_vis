@@ -1,0 +1,1307 @@
+export const configs = [
+  {
+    "municipalityCode": "13421",
+    "municipalityName": "小笠原村",
+    "sourceId": "d3d61b2d456a10d7187ba349",
+    "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/wp-content/uploads/sites/2/2025/04/2064def5a1d965fd2a315d2a3cba4cdc.pdf",
+    "sourceSha256": "0fb07c4f5afa57ce56594c6e1a5081fd6de5eba798f6facaaefca7c36cdb3545",
+    "textSha256": "37434f26785f61e852d964a9b9cc1b5abf2b81c179dcb5263e3649ff2abbe9f9",
+    "rows": [
+      {
+        "name": "令和５年度住民税非課税世帯等臨時特別給付金【低所得者世帯給付金】",
+        "fragments": [
+          {
+            "raw": "令和５年度住民税非課税世帯等臨時特",
+            "start": 113
+          },
+          {
+            "raw": "別給付金【低所得者世帯給付金】",
+            "start": 154
+          }
+        ],
+        "year": 2023,
+        "yearQuote": "（令和５年度実施事業）",
+        "yearOffset": 41,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "warning": "令和5年度交付金効果検証の個別事業名のみ。給付金の事務費や同年度の商品券の追加配付を別事業として重複計上しない。金額・達成率・所管を交錯した表から推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "name": "令和５年度小笠原村民商品券事業（推奨事業メニュー分）",
+        "fragments": [
+          {
+            "raw": "令和５年度小笠原村民商品券事業（推",
+            "start": 626
+          },
+          {
+            "raw": "奨事業メニュー分）",
+            "start": 357
+          }
+        ],
+        "year": 2023,
+        "yearQuote": "（令和５年度実施事業）",
+        "yearOffset": 41,
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "warning": "令和5年度交付金効果検証の個別事業名のみ。給付金の事務費や同年度の商品券の追加配付を別事業として重複計上しない。金額・達成率・所管を交錯した表から推測しない。",
+        "repeatedOperations": []
+      }
+    ],
+    "holds": [
+      {
+        "reason": "給付金事務費は同一給付に必要な事務費として本文明示。別事業へ増殖しない。",
+        "quote": "上記の給付にあたり必要な事務費を執行し\nた。"
+      },
+      {
+        "reason": "追加分商品券は同じ年度の村民商品券の追加配付。事業数へ別加算せず、資金別金額の合算もしない。",
+        "quote": "民に追加配付した。"
+      }
+    ],
+    "status": "stage-only proposal, not accepted/pushed"
+  },
+  {
+    "municipalityCode": "13363",
+    "municipalityName": "新島村",
+    "sourceId": "0fbae26c86f5ed3badaad965",
+    "sourceUrl": "https://www.niijima.com/gyousei/keikaku/gyouseijyouhou/files/r7.pdf",
+    "sourceSha256": "b2c2044e6892676357f4773472442770d8e25a93bb9e9fbd4463dd428a613828",
+    "textSha256": "9f586150194b6903aee4d542225b3b2cd44358015dde849185ccd15127717037",
+    "rows": [
+      {
+        "name": "森林病害虫等防除事業",
+        "year": 2025,
+        "fragments": [
+          {
+            "raw": "令和7年度森林病害虫等防除事業",
+            "start": 38637
+          }
+        ],
+        "repeatedOperations": [
+          {
+            "raw": "令和7年度森林病害虫等防除事業",
+            "start": 38870
+          }
+        ],
+        "warning": "事務報告書の年度が明示された受託事業名のみ。個別の委託工事を別事業に増殖させず、暦年報告の全項目を同じ会計年度へ移さない。工期に将来日程を含み、完了や決算額を推測しない。評価点はない。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "yearQuote": "令和7年度森林病害虫等防除事業",
+        "yearOffset": 38637
+      },
+      {
+        "name": "島しょ地区松林保護緊急整備事業",
+        "year": 2025,
+        "fragments": [
+          {
+            "raw": "令和7年度島しょ地区松林保護緊急整備事業",
+            "start": 38975
+          }
+        ],
+        "repeatedOperations": [
+          {
+            "raw": "令和7年度島しょ地区松林保護緊急整備事業",
+            "start": 39012
+          }
+        ],
+        "warning": "事務報告書の年度が明示された受託事業名のみ。個別の委託工事を別事業に増殖させず、暦年報告の全項目を同じ会計年度へ移さない。工期に将来日程を含み、完了や決算額を推測しない。評価点はない。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "yearQuote": "令和7年度島しょ地区松林保護緊急整備事業",
+        "yearOffset": 38975
+      },
+      {
+        "name": "新島村特定環境保全公共下水道事業",
+        "year": 2025,
+        "fragments": [
+          {
+            "raw": "令和7年度 新島村特定環境保全公共下水道事業",
+            "start": 51427
+          }
+        ],
+        "repeatedOperations": [
+          {
+            "raw": "令和7年度 新島村特定環境保全公共下水道事業",
+            "start": 51537
+          },
+          {
+            "raw": "令和7年度 新島村特定環境保全公共下水道事業",
+            "start": 52165
+          },
+          {
+            "raw": "令和7年度 新島村特定環境保全公共下水道事業",
+            "start": 52282
+          }
+        ],
+        "warning": "事務報告書の契約一覧に明示された年度・下水道事業名のみ。同じ事業の工区・設計・設備工事を別事業として増殖させず、過年度の契約名や繰越・複数年度工事を当年度の決算と読み替えない。金額・完了状況は未設定。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "yearQuote": "令和7年度 新島村特定環境保全公共下水道事業",
+        "yearOffset": 51427
+      }
+    ],
+    "sourceType": "administrative report, related evidence; no evaluation grade inferred"
+  },
+  {
+    "municipalityCode": "13363",
+    "municipalityName": "新島村",
+    "sourceId": "93869292889cf5350269c9c4",
+    "sourceUrl": "https://www.niijima.com/gyousei/keikaku/gyouseijyouhou/files/r6.pdf",
+    "sourceSha256": "1c1c3d42e5c4d8a36fd1f8624b94b61dbfdc9a04fd47fd11c610f7394649f501",
+    "textSha256": "b9a5406693803d67e2050cfd30b883a778036eda108aa5104beff30d0158069a",
+    "rows": [
+      {
+        "name": "森林病害虫等防除事業",
+        "year": 2024,
+        "fragments": [
+          {
+            "raw": "令和6年度森林病害虫等防除事業",
+            "start": 37676
+          }
+        ],
+        "repeatedOperations": [
+          {
+            "raw": "令和6年度森林病害虫等防除事業",
+            "start": 37723
+          }
+        ],
+        "warning": "事務報告書の年度が明示された受託事業名のみ。個別の委託工事を別事業に増殖させず、暦年報告の全項目を同じ会計年度へ移さない。工期に将来日程を含み、完了や決算額を推測しない。評価点はない。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "yearQuote": "令和6年度森林病害虫等防除事業",
+        "yearOffset": 37676
+      },
+      {
+        "name": "島しょ地区松林保護緊急整備事業",
+        "year": 2024,
+        "fragments": [
+          {
+            "raw": "令和6年度島しょ地区松林保護緊急整備事業",
+            "start": 37950
+          }
+        ],
+        "repeatedOperations": [
+          {
+            "raw": "令和6年度島しょ地区松林保護緊急整備事業",
+            "start": 37983
+          }
+        ],
+        "warning": "事務報告書の年度が明示された受託事業名のみ。個別の委託工事を別事業に増殖させず、暦年報告の全項目を同じ会計年度へ移さない。工期に将来日程を含み、完了や決算額を推測しない。評価点はない。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "yearQuote": "令和6年度島しょ地区松林保護緊急整備事業",
+        "yearOffset": 37950
+      },
+      {
+        "name": "新島村特定環境保全公共下水道事業",
+        "year": 2024,
+        "fragments": [
+          {
+            "raw": "令和6年度 新島村特定環境保全公共下水道事業",
+            "start": 50682
+          }
+        ],
+        "repeatedOperations": [
+          {
+            "raw": "令和6年度 新島村特定環境保全公共下水道事業",
+            "start": 50911
+          },
+          {
+            "raw": "令和6年度 新島村特定環境保全公共下水道事業",
+            "start": 51146
+          },
+          {
+            "raw": "令和6年度 新島村特定環境保全公共下水道事業",
+            "start": 51272
+          }
+        ],
+        "warning": "事務報告書の契約一覧に明示された年度・下水道事業名のみ。同じ事業の工区・設計・設備工事を別事業として増殖させず、過年度の契約名や繰越・複数年度工事を当年度の決算と読み替えない。金額・完了状況は未設定。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "yearQuote": "令和6年度 新島村特定環境保全公共下水道事業",
+        "yearOffset": 50682
+      }
+    ],
+    "sourceType": "administrative report, related evidence; no evaluation grade inferred"
+  },
+  {
+    "municipalityCode": "13363",
+    "municipalityName": "新島村",
+    "sourceId": "d49df581bcc04bdd8cda68a0",
+    "sourceUrl": "https://www.niijima.com/gyousei/keikaku/gyouseijyouhou/files/r5.pdf",
+    "sourceSha256": "b3f530ac364c84581a4bd2dd8cd405c6bc15a0407b490604a042536b311f0c3a",
+    "textSha256": "474ebe86851bac2be35e4f0411c1947144bde29806027a737c24d87f6ba93160",
+    "rows": [
+      {
+        "name": "森林病害虫等防除事業",
+        "year": 2023,
+        "fragments": [
+          {
+            "raw": "令和5年度森林病害虫等防除事業",
+            "start": 38225
+          }
+        ],
+        "repeatedOperations": [
+          {
+            "raw": "令和5年度森林病害虫等防除事業",
+            "start": 38273
+          }
+        ],
+        "warning": "事務報告書の年度が明示された受託事業名のみ。個別の委託工事を別事業に増殖させず、暦年報告の全項目を同じ会計年度へ移さない。工期に将来日程を含み、完了や決算額を推測しない。評価点はない。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "yearQuote": "令和5年度森林病害虫等防除事業",
+        "yearOffset": 38225
+      },
+      {
+        "name": "島しょ地区松林保護緊急整備事業",
+        "year": 2023,
+        "fragments": [
+          {
+            "raw": "令和5年度島しょ地区松林保護緊急整備事業",
+            "start": 38398
+          }
+        ],
+        "repeatedOperations": [
+          {
+            "raw": "令和5年度島しょ地区松林保護緊急整備事業",
+            "start": 38431
+          }
+        ],
+        "warning": "事務報告書の年度が明示された受託事業名のみ。個別の委託工事を別事業に増殖させず、暦年報告の全項目を同じ会計年度へ移さない。工期に将来日程を含み、完了や決算額を推測しない。評価点はない。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "yearQuote": "令和5年度島しょ地区松林保護緊急整備事業",
+        "yearOffset": 38398
+      },
+      {
+        "name": "新島村特定環境保全公共下水道事業",
+        "year": 2023,
+        "fragments": [
+          {
+            "raw": "令和5年度 新島村特定環境保全公共下水道事業",
+            "start": 51215
+          }
+        ],
+        "repeatedOperations": [
+          {
+            "raw": "令和5年度 新島村特定環境保全公共下水道事業",
+            "start": 51320
+          },
+          {
+            "raw": "令和5年度 新島村特定環境保全公共下水道事業",
+            "start": 51547
+          },
+          {
+            "raw": "令和5年度 新島村特定環境保全公共下水道事業",
+            "start": 51928
+          }
+        ],
+        "warning": "事務報告書の契約一覧に明示された年度・下水道事業名のみ。同じ事業の工区・設計・設備工事を別事業として増殖させず、過年度の契約名や繰越・複数年度工事を当年度の決算と読み替えない。金額・完了状況は未設定。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "yearQuote": "令和5年度 新島村特定環境保全公共下水道事業",
+        "yearOffset": 51215
+      }
+    ],
+    "sourceType": "administrative report, related evidence; no evaluation grade inferred"
+  },
+  {
+    "municipalityCode": "13363",
+    "municipalityName": "新島村",
+    "sourceId": "12019d11365e91ca42cebd06",
+    "sourceUrl": "https://www.niijima.com/gyousei/keikaku/gyouseijyouhou/files/zimuhoukoku.pdf",
+    "sourceSha256": "4b3988550ca8ba8b4ae464c45e249439a54b2aab802c750a44fbf68f8cacfb20",
+    "textSha256": "7927208de10384df2b82e648085c6f49263891ee946522fe6a74ecc96fdd6c1a",
+    "rows": [
+      {
+        "name": "森林病害虫等防除事業",
+        "year": 2022,
+        "fragments": [
+          {
+            "raw": "令和4年度森林病害虫等防除事業",
+            "start": 37666
+          }
+        ],
+        "repeatedOperations": [
+          {
+            "raw": "令和4年度森林病害虫等防除事業",
+            "start": 37793
+          },
+          {
+            "raw": "令和4年度森林病害虫等防除事業",
+            "start": 37825
+          },
+          {
+            "raw": "令和4年度森林病害虫等防除事業",
+            "start": 37861
+          }
+        ],
+        "warning": "事務報告書の年度が明示された受託事業名のみ。個別の委託工事を別事業に増殖させず、暦年報告の全項目を同じ会計年度へ移さない。工期に将来日程を含み、完了や決算額を推測しない。評価点はない。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "yearQuote": "令和4年度森林病害虫等防除事業",
+        "yearOffset": 37666
+      },
+      {
+        "name": "新島村特定環境保全公共下水道事業",
+        "year": 2022,
+        "fragments": [
+          {
+            "raw": "令和4年度 新島村特定環境保全公共下水道事業",
+            "start": 50645
+          }
+        ],
+        "repeatedOperations": [
+          {
+            "raw": "令和4年度 新島村特定環境保全公共下水道事業",
+            "start": 50752
+          },
+          {
+            "raw": "令和4年度 新島村特定環境保全公共下水道事業",
+            "start": 50967
+          }
+        ],
+        "warning": "事務報告書の契約一覧に明示された年度・下水道事業名のみ。同じ事業の工区・設計・設備工事を別事業として増殖させず、過年度の契約名や繰越・複数年度工事を当年度の決算と読み替えない。金額・完了状況は未設定。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "yearQuote": "令和4年度 新島村特定環境保全公共下水道事業",
+        "yearOffset": 50645
+      }
+    ],
+    "sourceType": "administrative report, related evidence; no evaluation grade inferred"
+  },
+  {
+    "municipalityCode": "13363",
+    "municipalityName": "新島村",
+    "sourceId": "119e46a24201449228c2877d",
+    "sourceUrl": "https://www.niijima.com/gyousei/keikaku/gyouseijyouhou/files/r3.pdf",
+    "sourceSha256": "f7b418bbf86a175363770a4ad34013c221ee67e6ed9e00968eda54ecdb499d57",
+    "textSha256": "2d17dbbdbdf2fc16fbac4305c60caf263e2d7b825c767d45dd84f312ca1a8013",
+    "rows": [
+      {
+        "name": "森林病害虫等防除事業",
+        "year": 2021,
+        "fragments": [
+          {
+            "raw": "令和3年度森林病害虫等防除事業",
+            "start": 36569
+          }
+        ],
+        "repeatedOperations": [
+          {
+            "raw": "令和3年度森林病害虫等防除事業",
+            "start": 36615
+          },
+          {
+            "raw": "令和3年度森林病害虫等防除事業",
+            "start": 36706
+          },
+          {
+            "raw": "令和3年度森林病害虫等防除事業",
+            "start": 36742
+          }
+        ],
+        "warning": "事務報告書の年度が明示された受託事業名のみ。個別の委託工事を別事業に増殖させず、暦年報告の全項目を同じ会計年度へ移さない。工期に将来日程を含み、完了や決算額を推測しない。評価点はない。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "yearQuote": "令和3年度森林病害虫等防除事業",
+        "yearOffset": 36569
+      },
+      {
+        "name": "新島村特定環境保全公共下水道事業",
+        "year": 2021,
+        "fragments": [
+          {
+            "raw": "令和3年度新島村特定環境保全公共下水道事業",
+            "start": 48824
+          }
+        ],
+        "repeatedOperations": [
+          {
+            "raw": "令和3年度新島村特定環境保全公共下水道事業",
+            "start": 48929
+          }
+        ],
+        "warning": "事務報告書の契約一覧に明示された年度・下水道事業名のみ。同じ事業の工区・設計・設備工事を別事業として増殖させず、過年度の契約名や繰越・複数年度工事を当年度の決算と読み替えない。金額・完了状況は未設定。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "yearQuote": "令和3年度新島村特定環境保全公共下水道事業",
+        "yearOffset": 48824
+      }
+    ],
+    "sourceType": "administrative report, related evidence; no evaluation grade inferred"
+  },
+  {
+    "municipalityCode": "13362",
+    "municipalityName": "利島村",
+    "sourceId": "b7dd2bcdfa1e16694aaa17b5",
+    "sourceUrl": "https://toshimamura.org/fs/2/1/6/2/0/6/_/r4kessan.pdf.pdf",
+    "sourceSha256": "62d633a083b48274b5e9bd719a0511822d06c755ade5e21c2397c680d6bb75e0",
+    "textSha256": "dca0e65d2264cd4b4a705362f31313345b7dcdd105d546fb0a85cd9cb1db7909",
+    "rows": [
+      {
+        "name": "利島村国民健康保険診療所改修事業",
+        "year": 2022,
+        "fragments": [
+          {
+            "raw": "利島村国民健康保険\n診療所改修事業",
+            "start": 24998
+          }
+        ],
+        "yearQuote": "令和４年度「新型コロナウイルス感染症対応地方創生臨時交付金」活用事業について",
+        "yearOffset": 25306,
+        "repeatedOccurrences": 2,
+        "warning": "令和4年度交付金活用事業の名称と年度のみ。冊子内の重複掲載を二重計上せず、交錯した説明・金額・効果検証欄を隣接だけで事業に割り当てない。金額は丸め表示のため実数化しない。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "repeatedOperations": []
+      },
+      {
+        "name": "園児・児童・生徒の新型コロナウイルス感染予防事業",
+        "year": 2022,
+        "fragments": [
+          {
+            "raw": "園児・児童・生徒の新型\nコロナウイルス感染予防事業",
+            "start": 24639
+          }
+        ],
+        "yearQuote": "令和４年度「新型コロナウイルス感染症対応地方創生臨時交付金」活用事業について",
+        "yearOffset": 25306,
+        "repeatedOccurrences": 2,
+        "warning": "令和4年度交付金活用事業の名称と年度のみ。冊子内の重複掲載を二重計上せず、交錯した説明・金額・効果検証欄を隣接だけで事業に割り当てない。金額は丸め表示のため実数化しない。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "repeatedOperations": []
+      },
+      {
+        "name": "避難所での新型コロナウイルス感染防止対策事業",
+        "year": 2022,
+        "fragments": [
+          {
+            "raw": "避難所での新型コロナ\nウイルス感染防止対策事業",
+            "start": 24668
+          }
+        ],
+        "yearQuote": "令和４年度「新型コロナウイルス感染症対応地方創生臨時交付金」活用事業について",
+        "yearOffset": 25306,
+        "repeatedOccurrences": 2,
+        "warning": "令和4年度交付金活用事業の名称と年度のみ。冊子内の重複掲載を二重計上せず、交錯した説明・金額・効果検証欄を隣接だけで事業に割り当てない。金額は丸め表示のため実数化しない。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "repeatedOperations": []
+      },
+      {
+        "name": "原油価格・物価高騰における（ひとり親世帯）支援事業",
+        "year": 2022,
+        "fragments": [
+          {
+            "raw": "原油価格・物価高騰\nにおける（ひとり親世帯）\n支援事業",
+            "start": 25807
+          }
+        ],
+        "yearQuote": "令和４年度「新型コロナウイルス感染症対応地方創生臨時交付金」活用事業について",
+        "yearOffset": 25306,
+        "repeatedOccurrences": 2,
+        "warning": "令和4年度交付金活用事業の名称と年度のみ。冊子内の重複掲載を二重計上せず、交錯した説明・金額・効果検証欄を隣接だけで事業に割り当てない。金額は丸め表示のため実数化しない。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "repeatedOperations": []
+      },
+      {
+        "name": "原油価格・物価高騰における（事業者）支援事業",
+        "year": 2022,
+        "fragments": [
+          {
+            "raw": "原油価格・物価高騰\nにおける（事業者）\n支援事業",
+            "start": 25838
+          }
+        ],
+        "yearQuote": "令和４年度「新型コロナウイルス感染症対応地方創生臨時交付金」活用事業について",
+        "yearOffset": 25306,
+        "repeatedOccurrences": 2,
+        "warning": "令和4年度交付金活用事業の名称と年度のみ。冊子内の重複掲載を二重計上せず、交錯した説明・金額・効果検証欄を隣接だけで事業に割り当てない。金額は丸め表示のため実数化しない。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "repeatedOperations": []
+      },
+      {
+        "name": "医療体制の強化（臨時看護師）事業",
+        "year": 2022,
+        "fragments": [
+          {
+            "raw": "医療体制の強化\n（臨時看護師）事業",
+            "start": 26286
+          }
+        ],
+        "yearQuote": "令和４年度「新型コロナウイルス感染症対応地方創生臨時交付金」活用事業について",
+        "yearOffset": 25306,
+        "repeatedOccurrences": 2,
+        "warning": "令和4年度交付金活用事業の名称と年度のみ。冊子内の重複掲載を二重計上せず、交錯した説明・金額・効果検証欄を隣接だけで事業に割り当てない。金額は丸め表示のため実数化しない。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "repeatedOperations": []
+      },
+      {
+        "name": "原油価格・物価高騰における水道料金支援事業",
+        "year": 2022,
+        "fragments": [
+          {
+            "raw": "原油価格・物価高騰における\n水道料金支援事業",
+            "start": 2
+          }
+        ],
+        "yearQuote": "令和４年度「新型コロナウイルス感染症対応地方創生臨時交付金」活用事業について",
+        "yearOffset": 25306,
+        "repeatedOccurrences": 2,
+        "warning": "令和4年度交付金活用事業の名称と年度のみ。冊子内の重複掲載を二重計上せず、交錯した説明・金額・効果検証欄を隣接だけで事業に割り当てない。金額は丸め表示のため実数化しない。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "repeatedOperations": []
+      },
+      {
+        "name": "エネルギー・食料品価格等の物価高騰に伴う非課税世帯以外の低所得者世帯に対する支援事業",
+        "year": 2022,
+        "fragments": [
+          {
+            "raw": "エネルギー・食料品価格等の\n物価高騰に伴う非課税世帯以外の\n低所得者世帯に対する支援事業",
+            "start": 28
+          }
+        ],
+        "yearQuote": "令和４年度「新型コロナウイルス感染症対応地方創生臨時交付金」活用事業について",
+        "yearOffset": 25306,
+        "repeatedOccurrences": 2,
+        "warning": "令和4年度交付金活用事業の名称と年度のみ。冊子内の重複掲載を二重計上せず、交錯した説明・金額・効果検証欄を隣接だけで事業に割り当てない。金額は丸め表示のため実数化しない。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "repeatedOperations": []
+      },
+      {
+        "name": "エネルギー・食料品価格等の物価高騰に伴う子育て世帯支援事業",
+        "year": 2022,
+        "fragments": [
+          {
+            "raw": "エネルギー・食料品価格等の\n物価高騰に伴う子育て世帯\n支援事業",
+            "start": 514
+          }
+        ],
+        "yearQuote": "令和４年度「新型コロナウイルス感染症対応地方創生臨時交付金」活用事業について",
+        "yearOffset": 25306,
+        "repeatedOccurrences": 2,
+        "warning": "令和4年度交付金活用事業の名称と年度のみ。冊子内の重複掲載を二重計上せず、交錯した説明・金額・効果検証欄を隣接だけで事業に割り当てない。金額は丸め表示のため実数化しない。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "repeatedOperations": []
+      },
+      {
+        "name": "エネルギー・食料品価格等の物価高騰に伴う消費下支えを通じた生活者支援事業",
+        "year": 2022,
+        "fragments": [
+          {
+            "raw": "エネルギー・食料品価格等の\n物価高騰に伴う消費下支えを\n通じた生活者支援事業",
+            "start": 547
+          }
+        ],
+        "yearQuote": "令和４年度「新型コロナウイルス感染症対応地方創生臨時交付金」活用事業について",
+        "yearOffset": 25306,
+        "repeatedOccurrences": 2,
+        "warning": "令和4年度交付金活用事業の名称と年度のみ。冊子内の重複掲載を二重計上せず、交錯した説明・金額・効果検証欄を隣接だけで事業に割り当てない。金額は丸め表示のため実数化しない。",
+        "evaluationYear": null,
+        "evaluationQuote": null,
+        "evaluationOffset": null,
+        "repeatedOperations": []
+      }
+    ],
+    "status": "ten source-verified title proposals only; no full validation or acceptance yet"
+  },
+  {
+    "municipalityCode": "13361",
+    "municipalityName": "大島町",
+    "sourceId": "ae31807ad8887eec32de402c",
+    "sourceUrl": "https://www.town.oshima.tokyo.jp/uploaded/attachment/71.pdf",
+    "sourceSha256": "8a1944c73f8741fe0f0d6e4489e2a67a93624b31e3870226b668213f3cb4a36b",
+    "textSha256": "3867c0deeca631b972c9fcca8b54e6399ba146ace2d2a85f568eec2733ef8658",
+    "rows": [
+      {
+        "printedUnit": 1,
+        "name": "奨学資金の貸付事業",
+        "fragments": [
+          {
+            "raw": "奨学資金の貸付",
+            "start": 3766
+          },
+          {
+            "raw": "事業",
+            "start": 3810
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 2,
+        "name": "教育相談室の運営",
+        "fragments": [
+          {
+            "raw": "教育相談室の運",
+            "start": 3990
+          },
+          {
+            "raw": "営",
+            "start": 4025
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 3,
+        "name": "つばき小学校空調設備改修工事",
+        "fragments": [
+          {
+            "raw": "つばき小学校空",
+            "start": 4072
+          },
+          {
+            "raw": "調設備改修工事",
+            "start": 4191
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 4,
+        "name": "第一中学校空調設備改修工事",
+        "fragments": [
+          {
+            "raw": "第一中学校空調\n設備改修工事",
+            "start": 4202
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 5,
+        "name": "小中学校空調設備改修工事（北部）",
+        "fragments": [
+          {
+            "raw": "小中学校空調設\n備 改 修 工 事\n（北部）",
+            "start": 4221
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 6,
+        "name": "小中学校空調設備改修工事（南部）",
+        "fragments": [
+          {
+            "raw": "小中学校空調設",
+            "start": 4248
+          },
+          {
+            "raw": "備 改 修 工 事\n（南部）",
+            "start": 4273
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 7,
+        "name": "つばき小学校給食用リフト改修工事",
+        "fragments": [
+          {
+            "raw": "つばき小学校給",
+            "start": 4291
+          },
+          {
+            "raw": "食用リフト改修\n工事",
+            "start": 4318
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 8,
+        "name": "各中学校給食用リフト改修工事",
+        "fragments": [
+          {
+            "raw": "各中学校給食用",
+            "start": 4332
+          },
+          {
+            "raw": "リフト改修工事",
+            "start": 4359
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 9,
+        "name": "第二中学校グラウンド倉庫建設工事",
+        "fragments": [
+          {
+            "raw": "第二中学校グラ",
+            "start": 4370
+          },
+          {
+            "raw": "ウンド倉庫建設",
+            "start": 4405
+          },
+          {
+            "raw": "工事",
+            "start": 4432
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 10,
+        "name": "第三中学校グラウンド倉庫建設工事",
+        "fragments": [
+          {
+            "raw": "第三中学校グラ",
+            "start": 4439
+          },
+          {
+            "raw": "ウンド倉庫建設\n工事",
+            "start": 4465
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 11,
+        "name": "第一中学校体育館渡り廊下屋根取替工事",
+        "fragments": [
+          {
+            "raw": "第一中学校体育",
+            "start": 4480
+          },
+          {
+            "raw": "館渡り廊下屋根",
+            "start": 4497
+          },
+          {
+            "raw": "取替工事",
+            "start": 4522
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 12,
+        "name": "第一中学校校舎耐震補強工事",
+        "fragments": [
+          {
+            "raw": "第一中学校校舎\n耐震補強工事",
+            "start": 4531
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 13,
+        "name": "第一中学校特別教室棟屋根シート防水改修工事",
+        "fragments": [
+          {
+            "raw": "第一中学校特別",
+            "start": 4580
+          },
+          {
+            "raw": "教室棟屋根シー",
+            "start": 4608
+          },
+          {
+            "raw": "ト防水改修工事",
+            "start": 4745
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 14,
+        "name": "第三中学校プール改修工事",
+        "fragments": [
+          {
+            "raw": "第三中学校プー",
+            "start": 4760
+          },
+          {
+            "raw": "ル改修工事",
+            "start": 4784
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 15,
+        "name": "第一中学校テニスコート擁壁改修工事",
+        "fragments": [
+          {
+            "raw": "第一中学校テニ",
+            "start": 4803
+          },
+          {
+            "raw": "スコート擁壁改",
+            "start": 4829
+          },
+          {
+            "raw": "修工事",
+            "start": 4857
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 16,
+        "name": "さくら小学校グラウンド整備工事",
+        "fragments": [
+          {
+            "raw": "さくら小学校グ",
+            "start": 4865
+          },
+          {
+            "raw": "ラウンド整備工",
+            "start": 4891
+          },
+          {
+            "raw": "事",
+            "start": 4914
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 17,
+        "name": "つばき小学校グラウンド整備工事",
+        "fragments": [
+          {
+            "raw": "つばき小学校グ",
+            "start": 4920
+          },
+          {
+            "raw": "ラウンド整備工",
+            "start": 4946
+          },
+          {
+            "raw": "事",
+            "start": 4969
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 18,
+        "name": "大島町野球場バックネット改修工事",
+        "fragments": [
+          {
+            "raw": "大島町野球場バ",
+            "start": 5005
+          },
+          {
+            "raw": "ックネット改修\n工事",
+            "start": 5032
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 19,
+        "name": "開発総合センター大集会室空調設備改修工事",
+        "fragments": [
+          {
+            "raw": "開発総合センタ",
+            "start": 5047
+          },
+          {
+            "raw": "ー大集会室空調\n設備改修工事",
+            "start": 5072
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 21,
+        "name": "社会教育委員会の運営",
+        "fragments": [
+          {
+            "raw": "社会教育委員会\nの運営",
+            "start": 5197
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 22,
+        "name": "文化財保護審議会の運営",
+        "fragments": [
+          {
+            "raw": "文化財保護審議\n会の運営",
+            "start": 5214
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 23,
+        "name": "文化財の保存",
+        "fragments": [
+          {
+            "raw": "文化財の保存",
+            "start": 5236
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 24,
+        "name": "成人式の実施",
+        "fragments": [
+          {
+            "raw": "成人式の実施",
+            "start": 5244
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 25,
+        "name": "体育祭の実施",
+        "fragments": [
+          {
+            "raw": "体育祭の実施",
+            "start": 5302
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 26,
+        "name": "社会体育振興に対する助成",
+        "fragments": [
+          {
+            "raw": "社会体育振興に",
+            "start": 5433
+          },
+          {
+            "raw": "対する助成",
+            "start": 5457
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 27,
+        "name": "学校給食運営委員会の運営",
+        "fragments": [
+          {
+            "raw": "学校給食運営委",
+            "start": 5586
+          },
+          {
+            "raw": "員会の運営",
+            "start": 5618
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 28,
+        "name": "給食センター運営",
+        "fragments": [
+          {
+            "raw": "給食センター運",
+            "start": 5681
+          },
+          {
+            "raw": "営",
+            "start": 5721
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 29,
+        "name": "調理機器管理",
+        "fragments": [
+          {
+            "raw": "調理機器管理",
+            "start": 5808
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 30,
+        "name": "連続炊飯システム器機購入",
+        "fragments": [
+          {
+            "raw": "連続炊飯システ",
+            "start": 5927
+          },
+          {
+            "raw": "ム器機購入",
+            "start": 5964
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      },
+      {
+        "printedUnit": 31,
+        "name": "学校給食用配送車購入",
+        "fragments": [
+          {
+            "raw": "学校給食用配送",
+            "start": 6014
+          },
+          {
+            "raw": "車購入",
+            "start": 6052
+          }
+        ],
+        "year": 2013,
+        "evaluationYear": 2014,
+        "yearQuote": "３．平成２５年度（平成２５年４月～平成２６年３月）教育施策執行の点検・評価",
+        "yearOffset": 3655,
+        "evaluationQuote": "平成２６年 9 月",
+        "evaluationOffset": 90,
+        "warning": "平成25年度教育委員会点検評価の個別事業名のみ。名称の折返しを引用断片で保持し、交錯する達成度・実績・所管・金額は割り当てない。未実施と記された行も実施済みと推測しない。",
+        "repeatedOperations": []
+      }
+    ],
+    "held": [
+      {
+        "printedUnit": 20,
+        "raw": "青尐年委員会の",
+        "reason": "Name contains corrupt glyph尐; do not silently normalize to少年 without source evidence."
+      }
+    ],
+    "status": "stage-only exact name proposals, not validated accepted records"
+  }
+];

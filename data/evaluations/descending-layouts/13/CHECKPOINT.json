@@ -1,0 +1,35 @@
+{
+  "candidateRecords": 55,
+  "newCandidatesThisTranche": 55,
+  "existingFieldEnrichments": 0,
+  "perMunicipality": {
+    "小笠原村": 2,
+    "新島村": 13,
+    "利島村": 10,
+    "大島町": 30
+  },
+  "validatedCombinedCumulativeCandidates": 33669,
+  "validatedCombinedQuotes": 100104,
+  "validationContext": "Combined working tree: Kanagawa1183 and Tokyo55; two isolated prefecture commits before one final normal push.",
+  "separateSets": {
+    "Okinawa": 1084,
+    "initial": 93
+  },
+  "previousRemoteHead": "ad55912213f09f459a779b7685e853cba6b3b67a",
+  "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0,
+  "checks": {
+    "focused": "65/65",
+    "crawler": "1050/1050",
+    "web": "256/256",
+    "typecheck": "passed",
+    "lint": "passed;existingfontwarning",
+    "national": "passed branchbaseline",
+    "static": "109/109 subpath",
+    "quotes": "33669 candidates/100104 quotes"
+  },
+  "remoteCI": "unverified;known ActionsAPI403 not retried",
+  "remaining": "Tokyo source queue remains actionable. Acquisition gated; missing bodies not refetched. No nationwide completion claim."
+}
