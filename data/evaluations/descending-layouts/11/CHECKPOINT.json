@@ -1,0 +1,37 @@
+{
+  "candidateRecords": 70,
+  "newCandidatesThisTranche": 70,
+  "previousRemoteHead": "345bc9123927991ff6424c69557495df6b28d6a8",
+  "perMunicipality": {
+    "松伏町": 29,
+    "杉戸町": 1,
+    "宮代町": 32,
+    "寄居町": 2,
+    "美里町": 6
+  },
+  "existingFieldEnrichments": 0,
+  "newCandidateActualAmountFields": 0,
+  "newCandidateOriginalRatingFields": 0,
+  "validatedCumulativeCandidates": 37671,
+  "validatedEvidence": 114543,
+  "separateSets": {
+    "Okinawa": 1084,
+    "initial": 93
+  },
+  "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "productionRecordsAdded": 0,
+  "existingFieldsChanged": 0,
+  "municipalRequests": 0,
+  "checks": {
+    "focused": "7/7",
+    "crawler": "1122/1122",
+    "web": "256/256",
+    "typecheck": "passed",
+    "lint": "passed;existingfontwarning",
+    "national": "passed branchbaseline",
+    "static": "109/109 subpath",
+    "quotes": "37671 candidates/114543 quotes"
+  },
+  "remoteCI": "unverified;known ActionsAPI403 not retried",
+  "remaining": "Saitama cached queue continues. Next Nagatoro63,Minano12,Hatoyama69,Yoshimi67 (211 total) are stage-only and not included in this checkpoint. Missing26 bodies remain held."
+}

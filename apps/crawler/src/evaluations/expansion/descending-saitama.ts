@@ -1,0 +1,1 @@
+import{reviewMatsubushi}from'./descending-saitama-matsubushi';import{reviewSaitamaTail}from'./descending-saitama-tail';import{reviewMisatoGrant}from'./descending-saitama-misato-grant';import type{CachedInput}from'./shared';export function reviewSaitama(i:CachedInput){return reviewMatsubushi(i)??reviewSaitamaTail(i)??reviewMisatoGrant(i);}

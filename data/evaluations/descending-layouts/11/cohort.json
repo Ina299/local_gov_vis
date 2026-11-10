@@ -1,0 +1,417 @@
+{
+  "prefecture": "11",
+  "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "comparisonBase": "6b7a84142daf2c600c54b7f9c248a517bc5861fc",
+  "selectedAt": "2026-11-10T08:27:36.008053+00:00",
+  "unpublishedUserChanges": "not observable;collision freedom not guaranteed",
+  "municipalities": [
+    {
+      "municipalityCode": "11465",
+      "municipalityName": "松伏町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "fa9e5a91c601722eeb378c18bfad3a617cda7bfe51bd1cb4d79c37290b5ceeb1"
+    },
+    {
+      "municipalityCode": "11464",
+      "municipalityName": "杉戸町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "ede35ef1dce4d46bebf5e0716b3fed3b6f0b67e7a8be90a72343a1d103b703d6"
+    },
+    {
+      "municipalityCode": "11442",
+      "municipalityName": "宮代町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "0fa35b86e45fc61b7e3daf65eeb07373172f31967ea02555bebf3f25fe5e147d"
+    },
+    {
+      "municipalityCode": "11408",
+      "municipalityName": "寄居町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "0e181e186b1810235b9a4d5c36313bb024c6261155dac096387a4c1b0353712d"
+    },
+    {
+      "municipalityCode": "11381",
+      "municipalityName": "美里町",
+      "datasetSha256": "670cbefd300f567c5f5c97ce2488407b2f83b5a1f4aa98b12e78f4a536a22dac",
+      "evidenceShardSha256": "b8e3414508adc3c9f1020e19366b82d6e5e6a325b588f5f86838236822277aa2"
+    },
+    {
+      "municipalityCode": "11365",
+      "municipalityName": "小鹿野町",
+      "datasetSha256": "a9be07eee2fec0eda588e5e983f1c5145b6c3cb8a97a90ac844c3c7aa1b12474",
+      "evidenceShardSha256": "f9fe7086260555ebec78d031a5ae2de544c5008808b41d74a92071e9c7a47d48"
+    },
+    {
+      "municipalityCode": "11363",
+      "municipalityName": "長瀞町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e7edab692dc01c00b4779b7ce53b47fffe601125ae0c45e30c89384bb3edd166"
+    },
+    {
+      "municipalityCode": "11362",
+      "municipalityName": "皆野町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3e91b3c72f2756468f1b44eddb7272f220eb7684bc4810d7ab7ceacac64cb4cc"
+    },
+    {
+      "municipalityCode": "11348",
+      "municipalityName": "鳩山町",
+      "datasetSha256": "34f19688306b486a330a8d68aee1f4fd3a59c38bafe4f18ded9d0ca2a6a5acfa",
+      "evidenceShardSha256": "58e78c4c96e72f4649c362bf8624f661bb161993d6a285d38abd9306c948c10a"
+    },
+    {
+      "municipalityCode": "11347",
+      "municipalityName": "吉見町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "2affb74d420405d5f0275858f47216f9ffd89085eef19735f6f6268ece6b737c"
+    },
+    {
+      "municipalityCode": "11346",
+      "municipalityName": "川島町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a7d07c4d4c93e3aabe67fca978846d234c11b01d9b90c903356ccb7de7e7e5f5"
+    },
+    {
+      "municipalityCode": "11342",
+      "municipalityName": "嵐山町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d1669a292e5681eb4abc9ec0442a2c050ddba3940199eba40a266a21414209f2"
+    },
+    {
+      "municipalityCode": "11341",
+      "municipalityName": "滑川町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "0b66ec428fdf41ab38b2ccfe11fb80e72534259d8cedeb0154dd6b25899e391f"
+    },
+    {
+      "municipalityCode": "11327",
+      "municipalityName": "越生町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a4e80a127c92c9ac27ff7d2db7aa2ccb2a7c71a5b5a6541c45ba22079b351f16"
+    },
+    {
+      "municipalityCode": "11326",
+      "municipalityName": "毛呂山町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "19b24480a96229e6dfdcf8bcbc1b46bb4f0c1649f2a789bc4bca0c6b9dee771e"
+    },
+    {
+      "municipalityCode": "11324",
+      "municipalityName": "三芳町",
+      "datasetSha256": null,
+      "evidenceShardSha256": "f84c79faf5dd6cc19f6ef04de724888e83795800295aa63a86ae680d305a47ca"
+    },
+    {
+      "municipalityCode": "11301",
+      "municipalityName": "伊奈町",
+      "datasetSha256": "f8f51c78b7a792758458f4512e8cf2044f291ad109bbaea30c32fb048b90989c",
+      "evidenceShardSha256": "cd0bb015791f43f85728dfe6017bd5c124205ee1bca774ede4826dd1753b3ccc"
+    },
+    {
+      "municipalityCode": "11246",
+      "municipalityName": "白岡市",
+      "datasetSha256": "bc9781bdc4be44252e6ae085e5a9fa5f67dad6232dd110e780d1a259f86a8b77",
+      "evidenceShardSha256": "9ccd75af04a37c45bc66193d78cc3a94af83cd12bfa2e0e2ce038497ddf7aa31"
+    },
+    {
+      "municipalityCode": "11245",
+      "municipalityName": "ふじみ野市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "d008fa73fa040894fee7ebd37a33f19f077cd992c86cf1d58a5f99e88e65961b"
+    },
+    {
+      "municipalityCode": "11242",
+      "municipalityName": "日高市",
+      "datasetSha256": "6380a4b2057aaa82a1df3ca617907cc44b613122a6dcb9065283f512705701cd",
+      "evidenceShardSha256": "ee6a0e3589703338b42a1a01c036f78972db1375f7f538ca77bdd197716a3a6b"
+    },
+    {
+      "municipalityCode": "11241",
+      "municipalityName": "鶴ヶ島市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "a98a2eb70685db2557e6faa4d8649df5ac758760abed49c3bfec6d1e6a38443b"
+    },
+    {
+      "municipalityCode": "11240",
+      "municipalityName": "幸手市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "978e46aee8d4008a59a9027ae7082262655d9158fda520a8ebfeea68b28914d5"
+    },
+    {
+      "municipalityCode": "11238",
+      "municipalityName": "蓮田市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "5b18ef2e5d1dd82d9566e0890ca3016ad7dcdc0cbb16778a4a13ce227b809118"
+    },
+    {
+      "municipalityCode": "11237",
+      "municipalityName": "三郷市",
+      "datasetSha256": "ff709c49f812176bb10a632e9622ab7efa05b25f81e8b6ed2dd6b982ceb781f0",
+      "evidenceShardSha256": "ffec78288f4cc9bdfd82b682e10f26e47a646cffbf73c794857d6004a891e64a"
+    },
+    {
+      "municipalityCode": "11235",
+      "municipalityName": "富士見市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "353cfc56bb60749eac7da091be4d1378da4de4b7b710ce364c92686372074b57"
+    },
+    {
+      "municipalityCode": "11233",
+      "municipalityName": "北本市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "777d2ca6d6729fc545479c677f854b77c7b6013d526925cd114e8d87afbe0754"
+    },
+    {
+      "municipalityCode": "11231",
+      "municipalityName": "桶川市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "95c019bb61b09ea498f4ca8b4698563f991ced88cef3a6cc1334eddee19c1174"
+    },
+    {
+      "municipalityCode": "11228",
+      "municipalityName": "志木市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "2acf81e64bd92ddc67138b0ae78f65c4f959c5604deb9bd6090874c96cb95340"
+    },
+    {
+      "municipalityCode": "11224",
+      "municipalityName": "戸田市",
+      "datasetSha256": "cf663598af6b39d1a8caca155026df563fd76ab2447af1a1cc5e1d2324d72d88",
+      "evidenceShardSha256": "78c19117616275da8f0f6c336cf119af78d39da8786ad2f8027dbf112a34fe08"
+    },
+    {
+      "municipalityCode": "11223",
+      "municipalityName": "蕨市",
+      "datasetSha256": "9223f4fe9eb6ba3d30500a9765742d35a52bac57151b7cae3b4e631b87bea4d6",
+      "evidenceShardSha256": "c0f2bb14fd0e360530379107473d887377105a246f4e148c1391ebb7e28d539e"
+    },
+    {
+      "municipalityCode": "11219",
+      "municipalityName": "上尾市",
+      "datasetSha256": "9a88caaa769a7bd0d2e11b9c81a75d5ba260183046b618ca5123c313185934b5",
+      "evidenceShardSha256": "7a90ff1c2b15df0c777e2aeb06954cf63865c6a7a8f9d3a6dfc09e65164cf902"
+    },
+    {
+      "municipalityCode": "11218",
+      "municipalityName": "深谷市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "e37675aa85061a0092719d5993f3cb80ef79c482d37029e1bdfb2ff0694c0c28"
+    },
+    {
+      "municipalityCode": "11217",
+      "municipalityName": "鴻巣市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "2d19773854b13330e6fabfef2feb9b4438cd2bf804ade41caa21abc745071daa"
+    },
+    {
+      "municipalityCode": "11214",
+      "municipalityName": "春日部市",
+      "datasetSha256": "29c78657b64a067c96326bdc8b2f22d3f9ecdfa79cc8c2d8459e3df2e013d56b",
+      "evidenceShardSha256": "90536207ad201a57641aa68e492770a24bf046940d0c05dfd5afe14d391625b6"
+    },
+    {
+      "municipalityCode": "11211",
+      "municipalityName": "本庄市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "db6dd28c30aee956fc897207d59356a01ffa1b5c9e7a14e74f7f2aca8b17c298"
+    },
+    {
+      "municipalityCode": "11210",
+      "municipalityName": "加須市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "c2eb744de0270f3c956b0e67bd96820545d040d91ba66471ace3518f5a2fd3ed"
+    },
+    {
+      "municipalityCode": "11209",
+      "municipalityName": "飯能市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "1361d9e3daba1dc7b950cc4e9e0f7e2010bbd2e32cd0e7a982517ad856f2191b"
+    },
+    {
+      "municipalityCode": "11207",
+      "municipalityName": "秩父市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "3aba7112794326d17181defad2d8b84a94f33c50fb8d63dd13fe4ecee3bd0942"
+    },
+    {
+      "municipalityCode": "11206",
+      "municipalityName": "行田市",
+      "datasetSha256": null,
+      "evidenceShardSha256": "92c5a6b3bea19e005f7297fb93a0223efdf08a715686413459964a643524a626"
+    }
+  ],
+  "skipped": [
+    {
+      "municipalityCode": "11385",
+      "municipalityName": "上里町",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "11383",
+      "municipalityName": "神川町",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "11369",
+      "municipalityName": "東秩父村",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "11361",
+      "municipalityName": "横瀬町",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "11349",
+      "municipalityName": "ときがわ町",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "11343",
+      "municipalityName": "小川町",
+      "reasons": [
+        "original recent-master exclusion: local baseline differs from common ancestor",
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "11243",
+      "municipalityName": "吉川市",
+      "reasons": [
+        "original recent-master exclusion: local baseline differs from common ancestor"
+      ]
+    },
+    {
+      "municipalityCode": "11239",
+      "municipalityName": "坂戸市",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "11234",
+      "municipalityName": "八潮市",
+      "reasons": [
+        "original recent-master exclusion: local baseline differs from common ancestor",
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "11232",
+      "municipalityName": "久喜市",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "11230",
+      "municipalityName": "新座市",
+      "reasons": [
+        "original recent-master exclusion: local baseline differs from common ancestor"
+      ]
+    },
+    {
+      "municipalityCode": "11229",
+      "municipalityName": "和光市",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "11227",
+      "municipalityName": "朝霞市",
+      "reasons": [
+        "original recent-master exclusion: local baseline differs from common ancestor"
+      ]
+    },
+    {
+      "municipalityCode": "11225",
+      "municipalityName": "入間市",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "11222",
+      "municipalityName": "越谷市",
+      "reasons": [
+        "original recent-master exclusion: local baseline differs from common ancestor"
+      ]
+    },
+    {
+      "municipalityCode": "11221",
+      "municipalityName": "草加市",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "11216",
+      "municipalityName": "羽生市",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "11215",
+      "municipalityName": "狭山市",
+      "reasons": [
+        "original recent-master exclusion: local baseline differs from common ancestor",
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "11212",
+      "municipalityName": "東松山市",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "11208",
+      "municipalityName": "所沢市",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "11203",
+      "municipalityName": "川口市",
+      "reasons": [
+        "original recent-master exclusion: local baseline differs from common ancestor"
+      ]
+    },
+    {
+      "municipalityCode": "11202",
+      "municipalityName": "熊谷市",
+      "reasons": [
+        "current master dataset differs from available local baseline"
+      ]
+    },
+    {
+      "municipalityCode": "11201",
+      "municipalityName": "川越市",
+      "reasons": [
+        "original recent-master exclusion: local baseline differs from common ancestor"
+      ]
+    },
+    {
+      "municipalityCode": "11100",
+      "municipalityName": "さいたま市",
+      "reasons": [
+        "original recent-master exclusion: local baseline differs from common ancestor"
+      ]
+    }
+  ],
+  "rule": "Only exact unchanged dataset/evidence hashes; retain original exclusions; never update baseline hashes to silence mismatch."
+}
