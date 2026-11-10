@@ -1,0 +1,417 @@
+[
+  {
+    "code": "23",
+    "name": "生活保護受給者の年金の受給に向けた調査の強化",
+    "possible": [
+      {
+        "score": 0.9090909090909091,
+        "name": "生活保護受給者の年金の受給に向けた支援の強化",
+        "id": "cached-13227-06ea1549c51825e74eb6a081"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "25",
+    "name": "子供や若者の育成支援",
+    "possible": [
+      {
+        "score": 0.8571428571428571,
+        "name": "子どもや若者の育成支援",
+        "id": "cached-13227-215d169f21b9377b922ce317"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "39",
+    "name": "未就園児の定期的な預かり事業の実施",
+    "possible": [
+      {
+        "score": 0.6122448979591837,
+        "name": "保護者の就労等の有無にかかわらない未就園児の定期預かり事業の実施",
+        "id": "cached-13227-c3d5a9307d3f422ffb6299bb"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "42",
+    "name": "高校生等医療費助成事業の拡充",
+    "possible": [
+      {
+        "score": 0.9285714285714286,
+        "name": "高校生等医療費助成事業の充実",
+        "id": "cached-13227-0dba0de32439cea28eab6036"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "46",
+    "name": "多言語映像通訳システムを活用した子育て相談の実施",
+    "possible": [
+      {
+        "score": 0.9565217391304348,
+        "name": "多言語通訳システムを活用した子育て相談の実施",
+        "id": "cached-13227-e27213ce009e4ced363b87cb"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "47",
+    "name": "多胎児家庭の支援の実施（子育て世帯訪問支援事業）",
+    "possible": [
+      {
+        "score": 0.6285714285714286,
+        "name": "多胎児家庭の支援の実施",
+        "id": "cached-13227-fa91faef90dc859aca57df42"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "53",
+    "name": "放課後子ども教室事業の充実",
+    "possible": [
+      {
+        "score": 0.7586206896551724,
+        "name": "放課後子ども教室の運営体制の充実",
+        "id": "cached-13227-486abea0d1f6c19af5e06474"
+      },
+      {
+        "score": 0.6,
+        "name": "民間事業者による放課後子ども教室事業の運営（試行実施）",
+        "id": "cached-13227-fdfecfd45222750e0f6b8bec"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "55",
+    "name": "学童クラブ運営の充実",
+    "possible": [
+      {
+        "score": 0.5806451612903226,
+        "name": "学童クラブ運営の質の向上に向けた取組の実施",
+        "id": "cached-13227-552f01436e9b4c5bcc265b81"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "57",
+    "name": "不登校の未然防止及び不登校児童・生徒への支援の実施",
+    "possible": [
+      {
+        "score": 0.6296296296296297,
+        "name": "不登校及び不登校傾向の児童・生徒への校内別室指導による支援",
+        "id": "cached-13227-2fcc338c7d55829bb5c0179b"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "59",
+    "name": "コミュニティ・スクールの運用",
+    "possible": [
+      {
+        "score": 0.875,
+        "name": "コミュニティ・スクールの導入及び運用",
+        "id": "cached-13227-f3bed0eb0eb82e0bc4f35c98"
+      },
+      {
+        "score": 0.6206896551724138,
+        "name": "コミュニティバスはむらんの運行",
+        "id": "cached-13227-6b6529bdf551f2a742beee74"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "60",
+    "name": "学校給食費保護者負担軽減事業等の実施",
+    "possible": [
+      {
+        "score": 0.723404255319149,
+        "name": "物価高騰対策としての学校給食費保護者負担軽減補助事業の実施",
+        "id": "cached-13227-108920a125625a6df0a12ae9"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "62",
+    "name": "部活動の地域展開の実施",
+    "possible": [
+      {
+        "score": 0.6363636363636364,
+        "name": "部活動の地域移行の推進",
+        "id": "cached-13227-992a97efb307511e25697a3e"
+      },
+      {
+        "score": 0.6,
+        "name": "部活動の地域連携・地域移行の実施、拡充",
+        "id": "cached-13227-707be114bbdbcb4e2ee042d2"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "77",
+    "name": "図書館システムの更新",
+    "possible": [
+      {
+        "score": 0.7368421052631579,
+        "name": "議場システムの更新",
+        "id": "cached-13227-26603204d910e9189784d32b"
+      }
+    ],
+    "disposition": "separate_named_scope",
+    "reason": "Library system versus assembly-chamber system: explicitly different facilities/functions."
+  },
+  {
+    "code": "82",
+    "name": "市道改修等工事等の実施",
+    "possible": [
+      {
+        "score": 0.8695652173913043,
+        "name": "市道改修等工事などの実施",
+        "id": "cached-13227-aa1bcfcd9bd01ffc433fb693"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "87",
+    "name": "コミュニティバスはむらん運行の充実",
+    "possible": [
+      {
+        "score": 0.875,
+        "name": "コミュニティバスはむらんの運行",
+        "id": "cached-13227-6b6529bdf551f2a742beee74"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "88",
+    "name": "マンションの適正管理の促進",
+    "possible": [
+      {
+        "score": 0.9629629629629629,
+        "name": "マンションの適正な管理の促進",
+        "id": "cached-13227-63c82e8e98d43625f17a2613"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "91",
+    "name": "公共下水道の整備",
+    "possible": [
+      {
+        "score": 0.6666666666666666,
+        "name": "水道管路の整備",
+        "id": "cached-13227-862ab5dfdcc10d9963c7a79b"
+      }
+    ],
+    "disposition": "separate_named_scope",
+    "reason": "Public sewer construction versus water-supply pipeline: explicitly different utilities."
+  },
+  {
+    "code": "93",
+    "name": "水道工事用積算システムの導入・運用",
+    "possible": [
+      {
+        "score": 0.9032258064516129,
+        "name": "水道工事用積算システムの導入",
+        "id": "cached-13227-65f98c68ce43e56bb842628d"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "94",
+    "name": "動物公園の管理運営計画の策定",
+    "possible": [
+      {
+        "score": 0.5806451612903226,
+        "name": "指定管理者による動物公園の管理運営",
+        "id": "cached-13227-397211db2aa1ab42a9a23cdc"
+      }
+    ],
+    "disposition": "separate_named_scope",
+    "reason": "Zoo management-plan drafting versus designated-operator running of zoo: explicitly different reviewed deliverable. Body explicitly describes a management-plan drafting deliverable and consulting, not designated operation."
+  },
+  {
+    "code": "95",
+    "name": "公共建築物の計画的な改修工事の実施",
+    "possible": [
+      {
+        "score": 0.9714285714285714,
+        "name": "公共建築物の計画的な改修工事等の実施",
+        "id": "cached-13227-ebe85f602f356cfcbe45cbee"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "96",
+    "name": "動物公園の指定管理者による管理運営",
+    "possible": [
+      {
+        "score": 0.7058823529411765,
+        "name": "指定管理者による動物公園の管理運営",
+        "id": "cached-13227-397211db2aa1ab42a9a23cdc"
+      },
+      {
+        "score": 0.6486486486486487,
+        "name": "指定管理者による公園・児童遊園の管理運営",
+        "id": "cached-13227-cbf00c90f59a2ced557b6903"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "97",
+    "name": "公園・児童遊園の指定管理者による管理運営",
+    "possible": [
+      {
+        "score": 0.6486486486486487,
+        "name": "指定管理者による動物公園の管理運営",
+        "id": "cached-13227-397211db2aa1ab42a9a23cdc"
+      },
+      {
+        "score": 0.6,
+        "name": "指定管理者による公園・児童遊園の管理運営",
+        "id": "cached-13227-cbf00c90f59a2ced557b6903"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "99",
+    "name": "生涯学習センターゆとろぎの計画的な設備更新",
+    "possible": [
+      {
+        "score": 0.7317073170731707,
+        "name": "生涯学習センターゆとろぎの設備改修の実施",
+        "id": "cached-13227-c2ec18a8c4c9ae25561ff809"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "100",
+    "name": "スポーツセンター第1・第2ホールの空調設備新設等に向けた取組の実施",
+    "possible": [
+      {
+        "score": 0.8524590163934426,
+        "name": "スポーツセンター第1・第2ホールの空調設備新設工事の実施",
+        "id": "cached-13227-f24b585787cccb4d49faea02"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "104",
+    "name": "羽村市LINE公式アカウントを利用したごみ・リサイクルに関する情報発信の充実",
+    "possible": [
+      {
+        "score": 0.6764705882352942,
+        "name": "羽村市LINE公式アカウントを利用した情報配信システムの運用",
+        "id": "cached-13227-2c43c64ae6aac8b312b38e99"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "107",
+    "name": "リユース品の推進（協定に基づくリサイクル品の販売）",
+    "possible": [
+      {
+        "score": 0.9795918367346939,
+        "name": "リユースの推進（協定に基づくリサイクル品の販売）",
+        "id": "cached-13227-e76b0383fabf27b8586fd807"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "109",
+    "name": "自然環境学習の実施",
+    "possible": [
+      {
+        "score": 0.6666666666666666,
+        "name": "自然環境学習ツアー",
+        "id": "cached-13227-a35dede718d0bbef8597863f"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "110",
+    "name": "自然環境学習ツアーの実施",
+    "possible": [
+      {
+        "score": 0.8571428571428571,
+        "name": "自然環境学習ツアー",
+        "id": "cached-13227-a35dede718d0bbef8597863f"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  },
+  {
+    "code": "115",
+    "name": "企業支援事業の実施",
+    "possible": [
+      {
+        "score": 0.7777777777777778,
+        "name": "創業支援事業の充実",
+        "id": "cached-13227-e4c81a01d45b96a22cc1136e"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Source body explicitly includes startup seminars and startup subsidy decisions within enterprise-support parent, overlapping existing startup-support identity; no additional parent count."
+  },
+  {
+    "code": "126",
+    "name": "指定避難所等の給水管の耐震化",
+    "possible": [
+      {
+        "score": 0.9629629629629629,
+        "name": "指定避難所等給水管の耐震化",
+        "id": "cached-13227-510ea159f127856a6f4ffc24"
+      }
+    ],
+    "disposition": "identity_hold",
+    "reason": "Existing target-year-null record has a materially overlapping title/scope; do not add without source-period/identity reconciliation, and do not overwrite old fields."
+  }
+]

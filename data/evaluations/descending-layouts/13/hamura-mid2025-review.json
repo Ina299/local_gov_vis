@@ -1,0 +1,886 @@
+[
+  {
+    "projectCode": "1",
+    "name": "多様な性への理解を深めるための取組の推進",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "2",
+    "name": "男女共同参画の推進",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "3",
+    "name": "多文化共生の推進",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-44b6ab487549d9b6af94f065"
+    ]
+  },
+  {
+    "projectCode": "4",
+    "name": "平和啓発事業の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "5",
+    "name": "高齢者聞こえのコミュニケーション支援事業の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "6",
+    "name": "「高齢者の保健事業と介護予防の一体的実施」の充実",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "7",
+    "name": "物忘れセルフチェック・認知症検診の実施",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-18439794d201ca8d45faabcc"
+    ]
+  },
+  {
+    "projectCode": "8",
+    "name": "フレイル予防事業の充実",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "9",
+    "name": "ゲートキーパー養成研修の実施",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-4fde5af8a4f9899884567d72"
+    ]
+  },
+  {
+    "projectCode": "10",
+    "name": "協定保養施設の利用助成",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "11",
+    "name": "特定保健指導の実施",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-9ded64614c0e49d59066d3d1"
+    ]
+  },
+  {
+    "projectCode": "12",
+    "name": "「はむら健康フェア」の充実（「市民スポーツまつり」との合同実施）",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "13",
+    "name": "HPV（子宮頸がん等）ワクチンキャッチアップ接種の経過措置の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "14",
+    "name": "「市民スポーツまつり」の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "15",
+    "name": "重層的支援体制整備事業の実施に向けた体制の構築",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "16",
+    "name": "「生理の貧困」への支援",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-5f41fb39f9dbe1285f8aac4e"
+    ]
+  },
+  {
+    "projectCode": "17",
+    "name": "精神障害にも対応した地域包括ケアシステムに関する協議の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "18",
+    "name": "介護サービス事業所向け人材育成の支援",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-ddb153e12d85a0cdeadb1375"
+    ]
+  },
+  {
+    "projectCode": "19",
+    "name": "市民相談の充実",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "20",
+    "name": "民生・児童委員（社会福祉委員）活動の支援",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-ab01e4ae7348c0ed812c68f5"
+    ]
+  },
+  {
+    "projectCode": "21",
+    "name": "生活困窮者、生活保護受給者に対する就労準備支援事業の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "22",
+    "name": "生活困窮者自立相談支援事業の実施",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-f4e6afe699eb017fef7c2e47"
+    ]
+  },
+  {
+    "projectCode": "23",
+    "name": "生活保護受給者の年金の受給に向けた調査の強化",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "24",
+    "name": "認知症施策の推進",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-53587f3c517b994543763ed6"
+    ]
+  },
+  {
+    "projectCode": "25",
+    "name": "子供や若者の育成支援",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "26",
+    "name": "フードドライブの推進",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-61ba71d41f1c7c62e520e13d"
+    ]
+  },
+  {
+    "projectCode": "27",
+    "name": "徘徊高齢者探索サービスの実施",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-a78c9fc82dea39e51667b5a9"
+    ]
+  },
+  {
+    "projectCode": "28",
+    "name": "福祉施策審議会の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "29",
+    "name": "基幹相談支援センターの設置",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "30",
+    "name": "公園を活用した地域との連携による居場所づくり事業の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "31",
+    "name": "市民活動の促進",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "32",
+    "name": "市民活動団体連携協議会の運営支援",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-3f2243febfa61167b2eb8de8"
+    ]
+  },
+  {
+    "projectCode": "33",
+    "name": "町内会・自治会活動等への支援",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-0d2ec6a6c1bd55ebf7122210"
+    ]
+  },
+  {
+    "projectCode": "34",
+    "name": "市民参画の推進",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "35",
+    "name": "こども家庭センターの設置",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "36",
+    "name": "産後ケア事業の充実",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "37",
+    "name": "多胎妊婦に対する妊婦健康診査支援事業の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "38",
+    "name": "妊婦支援給付金事業の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "39",
+    "name": "未就園児の定期的な預かり事業の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "40",
+    "name": "保育所等における地域の子育て支援事業の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "41",
+    "name": "乳幼児期から就学期に向けた発達支援の取組",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "42",
+    "name": "高校生等医療費助成事業の拡充",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "43",
+    "name": "妊婦健康診査の公費負担の実施",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-bde6be3ebd0d680ae8441ab2"
+    ]
+  },
+  {
+    "projectCode": "44",
+    "name": "ヤングケアラー支援について関係機関との協働",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "45",
+    "name": "妊婦や子育て家庭に対する経済的支援・伴走型相談支援",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "46",
+    "name": "多言語映像通訳システムを活用した子育て相談の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "47",
+    "name": "多胎児家庭の支援の実施（子育て世帯訪問支援事業）",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "48",
+    "name": "医療的ケア児の受け入れの実施",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-6c7959bf453247fc86ec20fa"
+    ]
+  },
+  {
+    "projectCode": "49",
+    "name": "五種混合ワクチンの定期接種の実施",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-ec8cbcb44971c3af766e68e5"
+    ]
+  },
+  {
+    "projectCode": "50",
+    "name": "マイナンバーカードを活用した子供の医療費助成のデジタル化",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "51",
+    "name": "ひとり親家庭等の自立促進",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "52",
+    "name": "子供の成長段階に応じた栄養・食生活に関する普及啓発と相談の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "53",
+    "name": "放課後子ども教室事業の充実",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "54",
+    "name": "学童クラブ入所申請手続きの電子化",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-db254c06c7d03de01a6b9b8e"
+    ]
+  },
+  {
+    "projectCode": "55",
+    "name": "学童クラブ運営の充実",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "56",
+    "name": "幼稚園・保育園・小学校の連携の充実",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "57",
+    "name": "不登校の未然防止及び不登校児童・生徒への支援の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "58",
+    "name": "小作台小学校体育館改修工事の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "59",
+    "name": "コミュニティ・スクールの運用",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "60",
+    "name": "学校給食費保護者負担軽減事業等の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "61",
+    "name": "スイミングセンターを活用した小学校水泳授業の実施",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-e7fa002cb57bf72a6430cad8"
+    ]
+  },
+  {
+    "projectCode": "62",
+    "name": "部活動の地域展開の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "63",
+    "name": "1人1台端末の更新準備及びネットワーク環境の充実",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "64",
+    "name": "ICT機器を活用した教育の推進",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-0d8202220728797a620b8da2"
+    ]
+  },
+  {
+    "projectCode": "65",
+    "name": "いじめ、虐待から命を守る取組みの推進",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-fed8ac8ce39aa9df6d9b6e7c"
+    ]
+  },
+  {
+    "projectCode": "66",
+    "name": "特別支援学級の運営支援",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-ebfc967778a9cbc7511989d4"
+    ]
+  },
+  {
+    "projectCode": "67",
+    "name": "教育相談・就学相談の実施",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-e815a00a155d6c697bbfa855"
+    ]
+  },
+  {
+    "projectCode": "68",
+    "name": "ハーモニースクール・はむらの運営",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-da25344ec7c265ab1e43fc02"
+    ]
+  },
+  {
+    "projectCode": "69",
+    "name": "特別支援教育就学支援委員会等のデジタル化に向けた取組の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "70",
+    "name": "青少年健全育成事業の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "71",
+    "name": "子供の権利に関する意識啓発、社会参画・意見表明機会の創出",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "72",
+    "name": "学校での市図書館所蔵資料貸出返却の試行実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "73",
+    "name": "図書館資料の宅配サービスの実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "74",
+    "name": "セカンドブックスタート事業（啓発）等の実施",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-f53817b1534b5852deda31ab"
+    ]
+  },
+  {
+    "projectCode": "75",
+    "name": "YA（ヤングアダルト）世代の読書習慣の定着支援",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-cbff4c95a19db82c6c1548cf"
+    ]
+  },
+  {
+    "projectCode": "76",
+    "name": "羽村市郷土博物館開館40周年記念事業の実施",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-5c49f2cf235afb1930f8fefe"
+    ]
+  },
+  {
+    "projectCode": "77",
+    "name": "図書館システムの更新",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "78",
+    "name": "文化財に関する情報提供の充実",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "79",
+    "name": "生涯学習センターゆとろぎ開館20周年記念事業の実施",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-8740eedc26173564315e067d"
+    ]
+  },
+  {
+    "projectCode": "80",
+    "name": "都市計画マスタープランの改定及び立地適正化計画の策定に向けた取組の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "81",
+    "name": "羽村駅西口土地区画整理事業の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "82",
+    "name": "市道改修等工事等の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "83",
+    "name": "水道管路の整備",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-862ab5dfdcc10d9963c7a79b"
+    ]
+  },
+  {
+    "projectCode": "84",
+    "name": "下水道施設の長寿命化",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-5a717b04a432974a418ad26c"
+    ]
+  },
+  {
+    "projectCode": "85",
+    "name": "分流式下水道（汚水管）における雨天時浸入水対策",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-bbfc79a3bd9e54c4ff024904"
+    ]
+  },
+  {
+    "projectCode": "86",
+    "name": "羽村市宅地開発等指導要綱による宅地開発事業の規制及び誘導",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-d873d7b3e64dbaff76cfe64b"
+    ]
+  },
+  {
+    "projectCode": "87",
+    "name": "コミュニティバスはむらん運行の充実",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "88",
+    "name": "マンションの適正管理の促進",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "89",
+    "name": "水道施設の計画的な更新・改修",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-0572d67e8a4bdc54373e95b3"
+    ]
+  },
+  {
+    "projectCode": "90",
+    "name": "雨水浸透施設設置費の助成",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-55feade7e1c36990284f2749"
+    ]
+  },
+  {
+    "projectCode": "91",
+    "name": "公共下水道の整備",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "92",
+    "name": "下水道管路の全国特別重点調査",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "93",
+    "name": "水道工事用積算システムの導入・運用",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "94",
+    "name": "動物公園の管理運営計画の策定",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "95",
+    "name": "公共建築物の計画的な改修工事の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "96",
+    "name": "動物公園の指定管理者による管理運営",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "97",
+    "name": "公園・児童遊園の指定管理者による管理運営",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "98",
+    "name": "水上公園の今後の活用に向けた検討",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "99",
+    "name": "生涯学習センターゆとろぎの計画的な設備更新",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "100",
+    "name": "スポーツセンター第1・第2ホールの空調設備新設等に向けた取組の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "101",
+    "name": "電子申請等行政手続きのオンライン化の推進",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "102",
+    "name": "羽村市LINE公式アカウントを利用した情報配信システムの運用",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-2c43c64ae6aac8b312b38e99"
+    ]
+  },
+  {
+    "projectCode": "103",
+    "name": "スマホ教室の実施",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-86da7a4e30534a598c6f1908"
+    ]
+  },
+  {
+    "projectCode": "104",
+    "name": "羽村市LINE公式アカウントを利用したごみ・リサイクルに関する情報発信の充実",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "105",
+    "name": "リサイクルセンターの機能の維持及び施設の在り方に関する検討",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "106",
+    "name": "ごみの減量と資源化の推進",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-17b27b0ac92b4be21ce60a69"
+    ]
+  },
+  {
+    "projectCode": "107",
+    "name": "リユース品の推進（協定に基づくリサイクル品の販売）",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "108",
+    "name": "外来生物による生態系等への被害防止対策の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "109",
+    "name": "自然環境学習の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "110",
+    "name": "自然環境学習ツアーの実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "111",
+    "name": "省エネルギー、再生可能エネルギーの利用促進",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "112",
+    "name": "家庭からの廃食用油の回収によるＳＡＦ(サフ）の推進",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "113",
+    "name": "使用済みペットボトルの水平リサイクル",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "114",
+    "name": "生活応援事業（プレミアム付デジタル商品券事業）への支援",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "115",
+    "name": "企業支援事業の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "116",
+    "name": "農地におけるアライグマ・ハクビシンの防除事業の実施",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-d568f99cf8e8b38fa8ab9273"
+    ]
+  },
+  {
+    "projectCode": "117",
+    "name": "生産緑地の維持・保全",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-f0cd5242902ac09cc000532f"
+    ]
+  },
+  {
+    "projectCode": "118",
+    "name": "認定農業者への支援",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "119",
+    "name": "「はむら市民と産業のまつり」の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "120",
+    "name": "東京都との合同による総合防災訓練の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "121",
+    "name": "各種防災訓練の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "122",
+    "name": "羽西三丁目地区における都市再生地籍調査事業の実施",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-1eb167b79c45d5081cb973bf"
+    ]
+  },
+  {
+    "projectCode": "123",
+    "name": "市道第2002号線無電柱化事業の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "124",
+    "name": "雨水管理総合計画の策定",
+    "status": "existing_unknown_period_hold",
+    "existingIds": [
+      "cached-13227-a3410157b463eef32fcefd54"
+    ]
+  },
+  {
+    "projectCode": "125",
+    "name": "避難所運営マニュアルの改定",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "126",
+    "name": "指定避難所等の給水管の耐震化",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "127",
+    "name": "多摩川上流処理区における雨水管改修工事の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "128",
+    "name": "消防団員への準中型自動車運転免許取得費の補助",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "129",
+    "name": "学生消防団活動認証制度の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "130",
+    "name": "避難行動要支援者個別避難計画の作成",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "131",
+    "name": "災害時の市の福祉避難所の実効性の確保",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "132",
+    "name": "消費生活相談の充実",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "133",
+    "name": "防犯対策事業の実施",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  },
+  {
+    "projectCode": "134",
+    "name": "横田基地対策の推進",
+    "status": "proposal_requires_alias_review",
+    "existingIds": []
+  }
+]

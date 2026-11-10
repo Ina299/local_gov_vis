@@ -1,0 +1,1959 @@
+{
+  "scope": "216 business-oriented headings in one complete cached FY2024 book; does not assert complete numeric extraction or every non-business activity",
+  "sourceId": "3f7fae6b2bb1c5e563fe6619",
+  "fullTextSha256": "071ef19cd80450de0b149801720776c7bb55ed2a03413b8b81c1d22c7753230e",
+  "headings": 216,
+  "candidateProposals": 278,
+  "counts": {
+    "reviewed_individual_name": 113,
+    "covered_parent_or_reprint": 22,
+    "financial_or_account_scope": 14,
+    "reviewed_named_children_or_common_identity": 37,
+    "fiscal_scope_hold": 2,
+    "administrative_cost_component": 1,
+    "association_or_committee_scope": 6,
+    "clinical_service_scope": 2,
+    "alias_identity_hold": 4,
+    "alias_and_clinical_scope": 1,
+    "policy_activity_scope": 1,
+    "covered_vaccine_services": 1,
+    "shared_expenditure_identity_hold": 2,
+    "overlapping_service_funding_hold": 1,
+    "shared_childcare_service_hold": 2,
+    "consultation_scope_hold": 1,
+    "historical_installation_scope": 1,
+    "permit_scope": 1,
+    "regional_cost_share_scope": 1,
+    "parent_child_identity_hold": 1,
+    "event_activity_scope": 2
+  },
+  "rows": [
+    {
+      "queueIndex": 0,
+      "start": 14448,
+      "heading": "８．ウッドスタート事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 1,
+      "start": 17651,
+      "heading": "２３．委託・工事関係",
+      "status": "covered_parent_or_reprint",
+      "reason": "Named constituent candidates already retained; aggregate/financing headings are not additional independent projects. Other expenditure/contract columns remain unassigned.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 2,
+      "start": 17662,
+      "heading": "（１）ふるさと納税推進業務委託",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 3,
+      "start": 17766,
+      "heading": "（２）ホームページ更改委託",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 4,
+      "start": 17912,
+      "heading": "（４）元郷バス待合所建設工事設計業務委託",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 5,
+      "start": 17986,
+      "heading": "（５）総合戦略策定業務委託",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 6,
+      "start": 18074,
+      "heading": "（６）地方公会計財務書類作成等支援業務委託",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 7,
+      "start": 22513,
+      "heading": "6.法人事業税交付金",
+      "status": "financial_or_account_scope",
+      "reason": "Tax/grant receipts, debt/insurance account statistics or transfers are financial categories rather than independently identified current-year business sheets; historical debt years are not implementation years.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 8,
+      "start": 33200,
+      "heading": "（２）簡易水道事業会計",
+      "status": "financial_or_account_scope",
+      "reason": "Tax/grant receipts, debt/insurance account statistics or transfers are financial categories rather than independently identified current-year business sheets; historical debt years are not implementation years.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 9,
+      "start": 33514,
+      "heading": "（３）下水道事業会計",
+      "status": "financial_or_account_scope",
+      "reason": "Tax/grant receipts, debt/insurance account statistics or transfers are financial categories rather than independently identified current-year business sheets; historical debt years are not implementation years.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 10,
+      "start": 44710,
+      "heading": "４２．令和６年度東京都市町村総合交付金充当事業",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "檜原小学校パソコン推進事業",
+        "檜原中学校パソコン推進事業",
+        "図書館運営事業",
+        "立山林道開設工事",
+        "南沢林道石積擁壁補修工事",
+        "神戸岩駐車場改修工事",
+        "小林家住宅登山道整備改修工事",
+        "し尿汲取委託",
+        "一般廃棄物収集委託",
+        "村道第７号時坂線側溝改修工事",
+        "常備消防委託",
+        "防災無線管理費"
+      ]
+    },
+    {
+      "queueIndex": 11,
+      "start": 45370,
+      "heading": "４３．物価高騰対応重点支援事業",
+      "status": "covered_parent_or_reprint",
+      "reason": "Named constituent candidates already retained; aggregate/financing headings are not additional independent projects. Other expenditure/contract columns remain unassigned.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 12,
+      "start": 45386,
+      "heading": "（１）物価高騰対応重点支援地方創生臨時交付金（給付金・定額減税一体支援枠）",
+      "status": "fiscal_scope_hold",
+      "reason": "Explicit FY2023 implementation-plan/carryover note inside FY2024 report; appropriation/implementation/payment-year association is not resolved, so do not rewrite as FY2024.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 13,
+      "start": 45681,
+      "heading": "（２）物価高騰対応重点支援地方創生臨時交付金（給付金・定額減税一体支援枠）",
+      "status": "covered_parent_or_reprint",
+      "reason": "Named constituent candidates already retained; aggregate/financing headings are not additional independent projects. Other expenditure/contract columns remain unassigned.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 14,
+      "start": 46301,
+      "heading": "（４）物価高騰対応重点支援地方創生臨時交付金（低所得世帯支援枠及び不足額給付分の",
+      "status": "administrative_cost_component",
+      "reason": "Table describes benefit distribution administration costs; identity relative to already selected low-income benefit remains unresolved; do not create an extra beneficiary programme.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 15,
+      "start": 48120,
+      "heading": "４．空き家利活用等区市町村支援事業補助金",
+      "status": "covered_parent_or_reprint",
+      "reason": "Named constituent candidates already retained; aggregate/financing headings are not additional independent projects. Other expenditure/contract columns remain unassigned.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 16,
+      "start": 48340,
+      "heading": "５．島しょ山村地域への定住促進サポート事業費補助金",
+      "status": "covered_parent_or_reprint",
+      "reason": "Named constituent candidates already retained; aggregate/financing headings are not additional independent projects. Other expenditure/contract columns remain unassigned.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 17,
+      "start": 48585,
+      "heading": "６．島しょ山村地域における移住体験住宅整備補助金",
+      "status": "covered_parent_or_reprint",
+      "reason": "Named constituent candidates already retained; aggregate/financing headings are not additional independent projects. Other expenditure/contract columns remain unassigned.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 18,
+      "start": 48762,
+      "heading": "７．地域おこし事業補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 19,
+      "start": 48995,
+      "heading": "８．ものづくり支援事業補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 20,
+      "start": 49654,
+      "heading": "１０．檜原村地域おこし協力隊起業支援補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 21,
+      "start": 49883,
+      "heading": "１３．登録空家等調査委託",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 22,
+      "start": 49934,
+      "heading": "１４．若年世帯定住促進事業補助金",
+      "status": "fiscal_scope_hold",
+      "reason": "Explicit FY2023 implementation-plan/carryover note inside FY2024 report; appropriation/implementation/payment-year association is not resolved, so do not rewrite as FY2024.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 23,
+      "start": 50062,
+      "heading": "１５．定住促進空き家活用事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 24,
+      "start": 50477,
+      "heading": "１６．檜原村に住み続けるための土地造成事業補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 25,
+      "start": 50615,
+      "heading": "１７．檜原村定住促進サポート事業支援金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 26,
+      "start": 50806,
+      "heading": "１８．老朽空家除却補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 27,
+      "start": 50917,
+      "heading": "１９．委託・工事関係",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "移住体験等住宅建築工事",
+        "移住体験等住宅外構工事",
+        "移住体験等住宅建築工事設計監理委託料",
+        "相続財産清算人選任申立等業務委託料",
+        "住宅管理システム構築委託料",
+        "村営第 2 小岩住宅跡地境界確定測量委託料"
+      ]
+    },
+    {
+      "queueIndex": 28,
+      "start": 54120,
+      "heading": "（１）共済制度の給付状況",
+      "status": "financial_or_account_scope",
+      "reason": "Tax/grant receipts, debt/insurance account statistics or transfers are financial categories rather than independently identified current-year business sheets; historical debt years are not implementation years.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 29,
+      "start": 60469,
+      "heading": "（７）施設の充実事業",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "防火水槽蓋回り舗装修繕",
+        "水利道・防火水槽等看板修繕",
+        "神戸消防機具庫（3-1）赤色灯等修繕"
+      ]
+    },
+    {
+      "queueIndex": 30,
+      "start": 61190,
+      "heading": "（10）西多摩地区消防団連絡協議会事業",
+      "status": "association_or_committee_scope",
+      "reason": "Membership meetings, awards or committee participation counts; no separate municipality-owned business identity established by these headings.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 31,
+      "start": 61265,
+      "heading": "（11）東京都三多摩消防団連絡協議会事業",
+      "status": "association_or_committee_scope",
+      "reason": "Membership meetings, awards or committee participation counts; no separate municipality-owned business identity established by these headings.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 32,
+      "start": 61318,
+      "heading": "（12）秋川流域消防連絡協議会事業",
+      "status": "association_or_committee_scope",
+      "reason": "Membership meetings, awards or committee participation counts; no separate municipality-owned business identity established by these headings.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 33,
+      "start": 61411,
+      "heading": "（13）東京都消防協会事業",
+      "status": "association_or_committee_scope",
+      "reason": "Membership meetings, awards or committee participation counts; no separate municipality-owned business identity established by these headings.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 34,
+      "start": 62341,
+      "heading": "（１）各種事業",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "防犯灯修繕",
+        "五日市交通安全協会檜原支部補助金"
+      ]
+    },
+    {
+      "queueIndex": 35,
+      "start": 63773,
+      "heading": "１７．感震タップ配布事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": [
+        "感震タップ配布事業"
+      ]
+    },
+    {
+      "queueIndex": 36,
+      "start": 64862,
+      "heading": "（２）委託",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "建築設備定期検査報告委託"
+      ]
+    },
+    {
+      "queueIndex": 37,
+      "start": 75201,
+      "heading": "（４）収納対策業務委託",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 38,
+      "start": 80518,
+      "heading": "５．保険給付",
+      "status": "financial_or_account_scope",
+      "reason": "Tax/grant receipts, debt/insurance account statistics or transfers are financial categories rather than independently identified current-year business sheets; historical debt years are not implementation years.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 39,
+      "start": 80525,
+      "heading": "（１）一般被保険者医療給付の状況",
+      "status": "financial_or_account_scope",
+      "reason": "Tax/grant receipts, debt/insurance account statistics or transfers are financial categories rather than independently identified current-year business sheets; historical debt years are not implementation years.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 40,
+      "start": 82513,
+      "heading": "（２）その他の保険給付の状況",
+      "status": "financial_or_account_scope",
+      "reason": "Tax/grant receipts, debt/insurance account statistics or transfers are financial categories rather than independently identified current-year business sheets; historical debt years are not implementation years.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 41,
+      "start": 86927,
+      "heading": "６．保健事業",
+      "status": "clinical_service_scope",
+      "reason": "Health-check/service headings and uptake tables are broader than an identified additional business; selected health/examination programmes already retained, no new project per clinical measurement.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 42,
+      "start": 87532,
+      "heading": "８．高齢者の医療費助成",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": [
+        "高齢者の医療費助成"
+      ]
+    },
+    {
+      "queueIndex": 43,
+      "start": 96505,
+      "heading": "２．社会福祉協議会助成",
+      "status": "alias_identity_hold",
+      "reason": "Social-welfare-council assistance heading and selected council-subsidy target table differ in totals/scope; keep selected source identity without adding another same-body subsidy.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 44,
+      "start": 96546,
+      "heading": "３．その他の福祉事業",
+      "status": "covered_parent_or_reprint",
+      "reason": "Named constituent candidates already retained; aggregate/financing headings are not additional independent projects. Other expenditure/contract columns remain unassigned.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 45,
+      "start": 96557,
+      "heading": "（１）ふれあいセンター管理事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": [
+        "ふれあいセンター管理事業"
+      ]
+    },
+    {
+      "queueIndex": 46,
+      "start": 96585,
+      "heading": "（２）国民健康保険特別会計事業勘定繰出金",
+      "status": "financial_or_account_scope",
+      "reason": "Tax/grant receipts, debt/insurance account statistics or transfers are financial categories rather than independently identified current-year business sheets; historical debt years are not implementation years.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 47,
+      "start": 96756,
+      "heading": "（７）介護サービス事業特別会計繰出金",
+      "status": "financial_or_account_scope",
+      "reason": "Tax/grant receipts, debt/insurance account statistics or transfers are financial categories rather than independently identified current-year business sheets; historical debt years are not implementation years.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 48,
+      "start": 96790,
+      "heading": "（８）福祉サービス第三者評価受審費補助金",
+      "status": "alias_identity_hold",
+      "reason": "Third-party assessment and adult-guardianship operational headings overlap selected target-programme names; matching expenditure/location identity is not sufficiently explicit for an extra record.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 49,
+      "start": 96811,
+      "heading": "（９）成年後見推進機関運営事業",
+      "status": "alias_identity_hold",
+      "reason": "Third-party assessment and adult-guardianship operational headings overlap selected target-programme names; matching expenditure/location identity is not sufficiently explicit for an extra record.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 50,
+      "start": 96925,
+      "heading": "（11）令和６年度低所得世帯等臨時特別給付金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 51,
+      "start": 97265,
+      "heading": "（１）敬老金支給事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 52,
+      "start": 97550,
+      "heading": "（２）高齢者クラブ助成事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 53,
+      "start": 97592,
+      "heading": "（３）シルバー人材センター運営補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 54,
+      "start": 97920,
+      "heading": "（６）高齢者理髪サービス事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 55,
+      "start": 97948,
+      "heading": "（７）高齢者書道教室事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 56,
+      "start": 97991,
+      "heading": "（８）高齢者自立支援住宅改修給付事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 57,
+      "start": 98028,
+      "heading": "（９）高齢者日常生活用具給付事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 58,
+      "start": 98092,
+      "heading": "（10）高齢者緊急短期入所事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 59,
+      "start": 98115,
+      "heading": "（11）高齢者電話訪問事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 60,
+      "start": 98341,
+      "heading": "（12）高齢者みまもり事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 61,
+      "start": 98461,
+      "heading": "（12）高齢者等ＩＣＴみまもり事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 62,
+      "start": 98710,
+      "heading": "（13）高齢者世帯等買い物支援事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 63,
+      "start": 98880,
+      "heading": "（14）高齢者世帯等外出支援事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 64,
+      "start": 99025,
+      "heading": "（15）藤倉地区外出支援サービス事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 65,
+      "start": 99251,
+      "heading": "（17）高齢者地域貢献活動費補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 66,
+      "start": 99383,
+      "heading": "（18）高齢者運転免許自主返納者支援補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 67,
+      "start": 99553,
+      "heading": "（20）要介護者タクシー乗車料金等助成金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 68,
+      "start": 100654,
+      "heading": "８．地域福祉推進区市町村包括補助事業",
+      "status": "covered_parent_or_reprint",
+      "reason": "Named constituent candidates already retained; aggregate/financing headings are not additional independent projects. Other expenditure/contract columns remain unassigned.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 69,
+      "start": 101040,
+      "heading": "９．高齢社会対策区市町村包括補助事業",
+      "status": "covered_parent_or_reprint",
+      "reason": "Named constituent candidates already retained; aggregate/financing headings are not additional independent projects. Other expenditure/contract columns remain unassigned.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 70,
+      "start": 106018,
+      "heading": "（６）介護保険給付",
+      "status": "financial_or_account_scope",
+      "reason": "Tax/grant receipts, debt/insurance account statistics or transfers are financial categories rather than independently identified current-year business sheets; historical debt years are not implementation years.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 71,
+      "start": 108019,
+      "heading": "１１．地域支援事業",
+      "status": "covered_parent_or_reprint",
+      "reason": "Named constituent candidates already retained; aggregate/financing headings are not additional independent projects. Other expenditure/contract columns remain unassigned.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 72,
+      "start": 108029,
+      "heading": "（１）介護予防・日常生活支援総合事業",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "訪問型サービスＤ補助金",
+        "がんばんべぇ",
+        "巡回型介護予防教室",
+        "地域リハビリテーション活動支援事業"
+      ]
+    },
+    {
+      "queueIndex": 73,
+      "start": 108805,
+      "heading": "（２）包括的支援事業",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "救急支援事業",
+        "在宅医療・介護連携推進事業（西多摩地域広域行政圏協議会にて共同実施）",
+        "生活支援体制整備事業",
+        "認知症地域支援・ケア向上事業"
+      ]
+    },
+    {
+      "queueIndex": 74,
+      "start": 110107,
+      "heading": "（３）任意事業",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "高齢者介護用品等給付",
+        "配食サービス（介護非認定者）"
+      ]
+    },
+    {
+      "queueIndex": 75,
+      "start": 110404,
+      "heading": "１２．介護サービス事業",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "通所介護事業",
+        "訪問介護事業"
+      ]
+    },
+    {
+      "queueIndex": 76,
+      "start": 114244,
+      "heading": "（６）施設設計委託",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "やすらぎの里自家発電設置設計業務委託",
+        "やすらぎの里施設改修設計業務委託"
+      ]
+    },
+    {
+      "queueIndex": 77,
+      "start": 115939,
+      "heading": "１．健（検）診事業",
+      "status": "clinical_service_scope",
+      "reason": "Health-check/service headings and uptake tables are broader than an identified additional business; selected health/examination programmes already retained, no new project per clinical measurement.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 78,
+      "start": 118823,
+      "heading": "（１０）人間ドック検診助成",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 79,
+      "start": 119828,
+      "heading": "（４）健康推進活動補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": [
+        "健康推進活動補助金"
+      ]
+    },
+    {
+      "queueIndex": 80,
+      "start": 119987,
+      "heading": "３．相談事業",
+      "status": "alias_and_clinical_scope",
+      "reason": "Mental-health consultation overlaps selected consultation/conference programme; nutrition-consultation sessions are clinical service output, not an established additional programme identity.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 81,
+      "start": 120148,
+      "heading": "（１）第 1 期檜原村自殺総合対策計画に基づき、下記の事業を実施した。",
+      "status": "policy_activity_scope",
+      "reason": "Plan implementation publicity, sign placement and training are activities under suicide-prevention policy; no additional bounded programme identity is asserted.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 82,
+      "start": 120771,
+      "heading": "（２）任意予防接種補助",
+      "status": "covered_vaccine_services",
+      "reason": "Selected named vaccination subsidy targets retained; vaccine types/doses and recipient bands are service categories, not separate business records.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 83,
+      "start": 121496,
+      "heading": "（１）医療保健政策区市町村包括補助事業補助金",
+      "status": "covered_parent_or_reprint",
+      "reason": "Named constituent candidates already retained; aggregate/financing headings are not additional independent projects. Other expenditure/contract columns remain unassigned.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 84,
+      "start": 121874,
+      "heading": "（２）健康増進事業費補助金（実績）",
+      "status": "covered_parent_or_reprint",
+      "reason": "Named constituent candidates already retained; aggregate/financing headings are not additional independent projects. Other expenditure/contract columns remain unassigned.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 85,
+      "start": 121954,
+      "heading": "（３）帯状疱疹ワクチン任意接種補助事業補助金",
+      "status": "covered_parent_or_reprint",
+      "reason": "Named constituent candidates already retained; aggregate/financing headings are not additional independent projects. Other expenditure/contract columns remain unassigned.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 86,
+      "start": 122087,
+      "heading": "（４）高齢者肺炎球菌ワクチン接種補助事業補助金",
+      "status": "covered_parent_or_reprint",
+      "reason": "Named constituent candidates already retained; aggregate/financing headings are not additional independent projects. Other expenditure/contract columns remain unassigned.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 87,
+      "start": 122210,
+      "heading": "（５）新型コロナワクチン定期接種特別補助事業補助金",
+      "status": "shared_expenditure_identity_hold",
+      "reason": "Two COVID vaccination funding targets share the same 3,463,277-yen expenditure base; vaccine procurement versus vaccination programme independence is unproved; no double count or amount allocation.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 88,
+      "start": 122337,
+      "heading": "（６）新型コロナ定期接種ワクチン確保事業助成金",
+      "status": "shared_expenditure_identity_hold",
+      "reason": "Two COVID vaccination funding targets share the same 3,463,277-yen expenditure base; vaccine procurement versus vaccination programme independence is unproved; no double count or amount allocation.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 89,
+      "start": 123160,
+      "heading": "１０．難病医療費助成事務",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 90,
+      "start": 123948,
+      "heading": "（５）障害者団体助成",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 91,
+      "start": 124366,
+      "heading": "（７）障害児給付費",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 92,
+      "start": 124719,
+      "heading": "（９）地域生活支援事業",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "日常生活用具の交付・貸与",
+        "移動支援事業",
+        "福祉ホーム運営費補助事業"
+      ]
+    },
+    {
+      "queueIndex": 93,
+      "start": 125060,
+      "heading": "（10）檜原村福祉作業所運営事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 94,
+      "start": 125564,
+      "heading": "（16）グループホーム支援事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 95,
+      "start": 125650,
+      "heading": "（17）療養介護医療給付状況",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": [
+        "療養介護医療給付状況"
+      ]
+    },
+    {
+      "queueIndex": 96,
+      "start": 125740,
+      "heading": "（18）中等度難聴児補聴器購入費助成給付状況",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": [
+        "中等度難聴児補聴器購入費助成給付状況"
+      ]
+    },
+    {
+      "queueIndex": 97,
+      "start": 125969,
+      "heading": "（20）重度障害者タクシー乗車料金等助成事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 98,
+      "start": 126145,
+      "heading": "（21）ヘルプカード普及促進事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 99,
+      "start": 126307,
+      "heading": "（22）相談支援事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 100,
+      "start": 126651,
+      "heading": "１２．障害者施策推進区市町村包括補助事業",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "区市町村ヘルプマーク活用推進事業"
+      ]
+    },
+    {
+      "queueIndex": 101,
+      "start": 126924,
+      "heading": "１３．日中活動系サービス推進事業",
+      "status": "overlapping_service_funding_hold",
+      "reason": "Daytime-service basic/menu/employment/third-party-evaluation subsidy components may fund the already selected welfare-workshop service; no evidence-supported independent project split.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 102,
+      "start": 127120,
+      "heading": "１４．社会適応支援事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 103,
+      "start": 129024,
+      "heading": "２．医療費助成事業",
+      "status": "covered_parent_or_reprint",
+      "reason": "Named constituent candidates already retained; aggregate/financing headings are not additional independent projects. Other expenditure/contract columns remain unassigned.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 104,
+      "start": 129034,
+      "heading": "（1）ひとり親家庭医療費助成事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 105,
+      "start": 129132,
+      "heading": "（4）高校生等医療費助成事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 106,
+      "start": 129186,
+      "heading": "（3）子ども医療費助成事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 107,
+      "start": 129220,
+      "heading": "（2）乳幼児医療費助成事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 108,
+      "start": 129305,
+      "heading": "３．児童館運営委託",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 109,
+      "start": 129680,
+      "heading": "（2）保育所運営委託料",
+      "status": "shared_childcare_service_hold",
+      "reason": "Childcare operating contract and operating subsidy tables mix facility/recipient/funding components. Relation to existing named childcare support candidates and provider operating service is not explicitly reconciled; no extra financing-component records.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 110,
+      "start": 130290,
+      "heading": "（4）ひのはら保育園内科検診補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": [
+        "ひのはら保育園内科検診補助金"
+      ]
+    },
+    {
+      "queueIndex": 111,
+      "start": 130412,
+      "heading": "（5）保育所運営費補助金",
+      "status": "shared_childcare_service_hold",
+      "reason": "Childcare operating contract and operating subsidy tables mix facility/recipient/funding components. Relation to existing named childcare support candidates and provider operating service is not explicitly reconciled; no extra financing-component records.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 112,
+      "start": 130620,
+      "heading": "（6）保育従事職員宿舎借上支援事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 113,
+      "start": 130767,
+      "heading": "（7）保育対策総合支援事業",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "保育体制強化事業",
+        "保育補助者雇用協化事業"
+      ]
+    },
+    {
+      "queueIndex": 114,
+      "start": 131145,
+      "heading": "（8）保育所等物価高騰緊急対策事業補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": [
+        "保育所等物価高騰緊急対策事業補助金"
+      ]
+    },
+    {
+      "queueIndex": 115,
+      "start": 131460,
+      "heading": "（2）子育て支援保育料等補助金交付事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 116,
+      "start": 131601,
+      "heading": "（3）乳幼児補助装置（チャイルドシート等）補助事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 117,
+      "start": 131665,
+      "heading": "（4）子育て支援充実補助事業（ひのはら保育園）",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": [
+        "子育て支援充実補助事業（ひのはら保育園）"
+      ]
+    },
+    {
+      "queueIndex": 118,
+      "start": 131705,
+      "heading": "（5）里帰り等妊婦健康診査助成事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 119,
+      "start": 131809,
+      "heading": "（6）乳幼児育児用品助成事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 120,
+      "start": 131935,
+      "heading": "（7）子どもに対する安心安全確保対策支援事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 121,
+      "start": 132187,
+      "heading": "（9）病児・病後児保育事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 122,
+      "start": 132281,
+      "heading": "（10）子ども・子育て支援事業計画策定業務委託",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 123,
+      "start": 132463,
+      "heading": "（11）受験生チャレンジ支援貸付事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 124,
+      "start": 132496,
+      "heading": "６．子ども家庭支援区市町村包括補助事業",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "ひのはら健康情報アプリによる子育て関連の情報発信"
+      ]
+    },
+    {
+      "queueIndex": 125,
+      "start": 133023,
+      "heading": "（3）相談事業",
+      "status": "consultation_scope_hold",
+      "reason": "Generic consultation heading enumerates complaint categories and counts. Distinct identity relative to child-family-centre and selected counselling services is not explicit.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 126,
+      "start": 133375,
+      "heading": "（5）ファミリー・サポートセンター事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 127,
+      "start": 133771,
+      "heading": "（3）乳幼児健診事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": [
+        "乳幼児健診事業"
+      ]
+    },
+    {
+      "queueIndex": 128,
+      "start": 134206,
+      "heading": "（4）歯科健診事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": [
+        "歯科健診事業"
+      ]
+    },
+    {
+      "queueIndex": 129,
+      "start": 134432,
+      "heading": "（5）新生児聴覚検査補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 130,
+      "start": 134489,
+      "heading": "（6）伴走型相談支援及び出産・子育て応援給付金の一体的実施事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 131,
+      "start": 134975,
+      "heading": "（7）とうきょうママパパ応援事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 132,
+      "start": 135480,
+      "heading": "（8）産後ケア事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 133,
+      "start": 135623,
+      "heading": "（9）小児初期救急平日夜間診療事業補助",
+      "status": "covered_parent_or_reprint",
+      "reason": "Named constituent candidates already retained; aggregate/financing headings are not additional independent projects. Other expenditure/contract columns remain unassigned.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 134,
+      "start": 143207,
+      "heading": "（２）農作物獣害防止対策事業（東京都補助事業）",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "農作物獣害防止対策事業"
+      ]
+    },
+    {
+      "queueIndex": 135,
+      "start": 144576,
+      "heading": "（３）ツキノワグマ防除対策事業（東京都委託事業）",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 136,
+      "start": 144836,
+      "heading": "（４）農作物獣害防止対策事業（村単独事業）",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "農作物獣害防止対策事業"
+      ]
+    },
+    {
+      "queueIndex": 137,
+      "start": 146396,
+      "heading": "（７）農林業等振興事業補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 138,
+      "start": 146783,
+      "heading": "（１）シカ害防止対策事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 139,
+      "start": 147829,
+      "heading": "（３）森づくり事業・森林整備計画策定事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 140,
+      "start": 148021,
+      "heading": "（５）森林管理巡視委託",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 141,
+      "start": 148148,
+      "heading": "（６）南郷村有施設事業実施委託",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 142,
+      "start": 148483,
+      "heading": "（８）ふるさとの森維持管理業務委託",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 143,
+      "start": 148618,
+      "heading": "（９）森林再生事業間伐作業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 144,
+      "start": 148806,
+      "heading": "（１０）水の浸透を高める枝打ち事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 145,
+      "start": 148991,
+      "heading": "（１１）ひのはら緑(力)創造事業【修景地整備事業委託料】※一部森林環境譲与税充当事業",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "ひのはら緑(力)創造事業"
+      ]
+    },
+    {
+      "queueIndex": 146,
+      "start": 150346,
+      "heading": "（１２）地場産材活用対策奨励事業（搬出補助）",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 147,
+      "start": 150560,
+      "heading": "（１３）地場産材活用対策作業道開設事業（作業道開設補助）【地場産材活用対策作業道開設事業交付金】",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 148,
+      "start": 150741,
+      "heading": "（１４）地場産材利用促進事業（建築物補助）",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 149,
+      "start": 151006,
+      "heading": "（１５）林業従事者退職共済補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 150,
+      "start": 151581,
+      "heading": "（１）小規模事業者経営改善資金利子補給金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 151,
+      "start": 151675,
+      "heading": "（２）あきる野商工会に対する補助金",
+      "status": "covered_parent_or_reprint",
+      "reason": "Named constituent candidates already retained; aggregate/financing headings are not additional independent projects. Other expenditure/contract columns remain unassigned.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 152,
+      "start": 152276,
+      "heading": "（５）消費経済対策事業",
+      "status": "covered_parent_or_reprint",
+      "reason": "Named constituent candidates already retained; aggregate/financing headings are not additional independent projects. Other expenditure/contract columns remain unassigned.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 153,
+      "start": 153966,
+      "heading": "（２）公衆トイレ清掃委託",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 154,
+      "start": 154426,
+      "heading": "（３）河川清掃委託",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 155,
+      "start": 155297,
+      "heading": "（４）公益社団法人シルバー人材センターへの業務委託",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "観光ごみ分別収集委託",
+        "滝めぐり遊歩道整備委託",
+        "払沢の滝周辺交通整理業務委託",
+        "バス停清掃業務委託"
+      ]
+    },
+    {
+      "queueIndex": 156,
+      "start": 155647,
+      "heading": "（５）業務委託関係",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "遊歩道補修等整備委託",
+        "登山道巡視委託",
+        "檜原村内公衆トイレ調査業務委託",
+        "森林資源を活用した魅力創出事業委託",
+        "グラウンド整備委託"
+      ]
+    },
+    {
+      "queueIndex": 157,
+      "start": 156604,
+      "heading": "（８）一般社団法人檜原村観光協会補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 158,
+      "start": 156743,
+      "heading": "（９）払沢の滝まつり実行委員会補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 159,
+      "start": 157572,
+      "heading": "（１２）観光パンフレット作成補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 160,
+      "start": 159521,
+      "heading": "３．じゃがいも焼酎製造等事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 161,
+      "start": 160117,
+      "heading": "４．神戸国際マス釣場整備事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 162,
+      "start": 161472,
+      "heading": "（２）し尿汲取り不可能世帯補助金実績",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 163,
+      "start": 161990,
+      "heading": "（２）浄化槽補助金財源内訳",
+      "status": "financial_or_account_scope",
+      "reason": "Tax/grant receipts, debt/insurance account statistics or transfers are financial categories rather than independently identified current-year business sheets; historical debt years are not implementation years.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 164,
+      "start": 162252,
+      "heading": "（３）浄化槽清掃補助金実績（区域外を除く）",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "浄化槽清掃補助金"
+      ]
+    },
+    {
+      "queueIndex": 165,
+      "start": 162582,
+      "heading": "（４）浄化槽清掃補助金実績（区域外）",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "浄化槽清掃補助金"
+      ]
+    },
+    {
+      "queueIndex": 166,
+      "start": 164392,
+      "heading": "（４）一般廃棄物収集手数料（事業所分）※平成 23 年度から制度開始",
+      "status": "financial_or_account_scope",
+      "reason": "Tax/grant receipts, debt/insurance account statistics or transfers are financial categories rather than independently identified current-year business sheets; historical debt years are not implementation years.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 167,
+      "start": 164626,
+      "heading": "４．高齢者世帯等ごみ回収業務委託",
+      "status": "alias_identity_hold",
+      "reason": "Elderly household waste-collection contract may implement selected elderly waste-collection support target; same fiscal programme relationship not explicit enough to count twice.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 168,
+      "start": 165018,
+      "heading": "９．生ごみ処理機器購入費補助事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 169,
+      "start": 165247,
+      "heading": "１０．薪ストーブ設置費補助事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 170,
+      "start": 165439,
+      "heading": "１１．薪ストーブ等煙突清掃補助事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 171,
+      "start": 165680,
+      "heading": "１３．日照の確保に伴う事業（ひのはら緑（力）創造事業）",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "ひのはら緑(力)創造事業"
+      ]
+    },
+    {
+      "queueIndex": 172,
+      "start": 165864,
+      "heading": "１４．定住化のための簡易水道事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 173,
+      "start": 166274,
+      "heading": "（２）木質バイオマス事業",
+      "status": "historical_installation_scope",
+      "reason": "Biomass text establishes FY2011/FY2017 installations and FY2018 start, not a distinct FY2024 implementation item; do not convert equipment history into a current project.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 174,
+      "start": 166663,
+      "heading": "（３）太陽光発電設置等事前調査業務委託",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 175,
+      "start": 166779,
+      "heading": "（４）小水力発電設備導入可能性調査業務委託",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 176,
+      "start": 170108,
+      "heading": "（２）委託",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "湯久保地区水道施設整備等調査業務委託料"
+      ]
+    },
+    {
+      "queueIndex": 177,
+      "start": 173490,
+      "heading": "８．国・都補助事業内訳書",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "配水管布設替工事設計委託",
+        "配水管布設替工事"
+      ]
+    },
+    {
+      "queueIndex": 178,
+      "start": 173939,
+      "heading": "９．補助事業以外の主要事業",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "水道施設塗装工事",
+        "簡易水道事業経営戦略策定支援業務委託",
+        "コンクリート構造物点検委託料",
+        "配水池清掃委託料"
+      ]
+    },
+    {
+      "queueIndex": 179,
+      "start": 178031,
+      "heading": "１．公共下水道事業",
+      "status": "covered_parent_or_reprint",
+      "reason": "Named constituent candidates already retained; aggregate/financing headings are not additional independent projects. Other expenditure/contract columns remain unassigned.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 180,
+      "start": 178387,
+      "heading": "（１） 計画及び事業認可等の状況",
+      "status": "permit_scope",
+      "reason": "Sewerage permission/planned area/capacity descriptors are administrative scope, not a business record.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 181,
+      "start": 183657,
+      "heading": "（１）水洗便所改造資金補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 182,
+      "start": 183962,
+      "heading": "（４）小型ポンプ施設設置補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 183,
+      "start": 184130,
+      "heading": "３．流域下水道事業",
+      "status": "regional_cost_share_scope",
+      "reason": "Basin sewerage construction/maintenance/water-quality cost shares are not distinct village programme identities; preserve as source context, no inferred standalone projects.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 184,
+      "start": 184347,
+      "heading": "（１）東京都多摩地区下水道事業積算施工適正化委員会",
+      "status": "association_or_committee_scope",
+      "reason": "Membership meetings, awards or committee participation counts; no separate municipality-owned business identity established by these headings.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 185,
+      "start": 184393,
+      "heading": "（２）東京都多摩地区下水道事業積算施工適正化委員会",
+      "status": "association_or_committee_scope",
+      "reason": "Membership meetings, awards or committee participation counts; no separate municipality-owned business identity established by these headings.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 186,
+      "start": 184571,
+      "heading": "（１）委託",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "マンホールポンプ保守点検委託",
+        "マンホールポンプ清掃委託"
+      ]
+    },
+    {
+      "queueIndex": 187,
+      "start": 188288,
+      "heading": "（５）業務委託",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "広幅複合機保守点検委託",
+        "土木積算システム保守点検委託",
+        "村道清掃等業務委託",
+        "村道維持補修業務委託（村道第 60 号湯久保線）",
+        "村道維持補修業務委託（村道第 57 号神戸線）",
+        "村道維持補修業務委託（本宿地内）",
+        "村道維持補修業務委託（村道第 60 号湯久保線）その 2",
+        "村道維持補修業務委託（藤原地内）",
+        "村道維持補修業務委託（小沢地内）",
+        "村道維持補修業務委託（倉掛地内交通量調査）",
+        "村道維持補修業務委託（村道第 1 号泉沢線）",
+        "村道維持補修業務委託（人里地内法定外道路整備）",
+        "村道維持補修業務委託（村道第 7 号時坂線）",
+        "村道維持補修業務委託（村道第 68 号落合線）",
+        "村道維持補修業務委託（村道第 1 号泉沢線）その 2",
+        "村道維持補修業務委託（村道第 67 号総角沢線）",
+        "村道維持補修業務委託（上平地内公道）",
+        "村道維持補修業務委託（村道第 2 号日向線）",
+        "村道維持補修業務委託（村道第 70 号倉掛線）",
+        "村道第 86 号笹久保線道路災害防除詳細設計業務委託",
+        "村道第 70 号倉掛線地質調査・設計業務委託",
+        "橋梁塗膜調査委託",
+        "橋梁長寿命化修繕計画改定業務委託",
+        "公共用地境界確定測量委託（神戸川）",
+        "公共用地境界確定測量委託（本宿地内赤道）",
+        "笛吹地内公共用地境界測量業務委託",
+        "村道第 60 号湯久保線道路用地等登記事務委託",
+        "村道第 60 号湯久保線道路用地等登記事務委託その 2",
+        "道路用地等登記事務委託（村道第 65 号尾根通線）",
+        "道路用地等登記事務委託（村道第 2 号日向線）"
+      ]
+    },
+    {
+      "queueIndex": 188,
+      "start": 190819,
+      "heading": "（１）業務委託",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "河川維持補修業務委託（大和沢）",
+        "河川維持補修業務委託（柳沢）"
+      ]
+    },
+    {
+      "queueIndex": 189,
+      "start": 191483,
+      "heading": "（１）業務委託",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "板東沢残土処理場管理・監視業務委託"
+      ]
+    },
+    {
+      "queueIndex": 190,
+      "start": 191590,
+      "heading": "５.小沢地区急傾斜地崩壊防止等事業負担金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 191,
+      "start": 191877,
+      "heading": "６．秋川南岸道路整備事業",
+      "status": "covered_parent_or_reprint",
+      "reason": "Named constituent candidates already retained; aggregate/financing headings are not additional independent projects. Other expenditure/contract columns remain unassigned.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 192,
+      "start": 191890,
+      "heading": "（１）秋川南岸道路整備事業負担金",
+      "status": "parent_child_identity_hold",
+      "reason": "Road development land-purchase burden and selected associated survey contracts share a parent; no independent programme count or cost sum inferred.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 193,
+      "start": 192180,
+      "heading": "（２）業務委託",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "秋川南岸道路整備事業に伴う土地鑑定意見書作成業務委託",
+        "秋川南岸道路整備事業に伴う土地家屋調査等算定委託"
+      ]
+    },
+    {
+      "queueIndex": 194,
+      "start": 192495,
+      "heading": "（１）地籍調査測量委託",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "地籍調査業務委託",
+        "地籍調査業務委託（その 2）",
+        "地籍管理システム保守委託"
+      ]
+    },
+    {
+      "queueIndex": 195,
+      "start": 195099,
+      "heading": "（３）林道工事に伴う測量設計委託",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "立山林道開設工事詳細設計委託"
+      ]
+    },
+    {
+      "queueIndex": 196,
+      "start": 195226,
+      "heading": "（４）業務委託",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "林道清掃等業務委託",
+        "治山林道積算システム保守点検委託",
+        "橋梁点検及びトンネル点検業務委託",
+        "林道維持補修業務委託（浅間林道）",
+        "林道維持補修業務委託（月夜見林道）",
+        "林道維持補修業務委託（浅間林道）その 2",
+        "林道維持補修業務委託（浅間林道）（中峰平林道）",
+        "林道維持補修業務委託（月夜見林道）その 2"
+      ]
+    },
+    {
+      "queueIndex": 197,
+      "start": 196215,
+      "heading": "（７）災害復旧工事に伴う測量設計委託",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "令和元年台風 19 号に伴う瀬戸沢林道（第 2 工区）災害復旧測量調査委託"
+      ]
+    },
+    {
+      "queueIndex": 198,
+      "start": 196394,
+      "heading": "（８）災害復旧に伴う業務委託",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "雪害に伴う出野沢林道災害復旧倒木処理委託"
+      ]
+    },
+    {
+      "queueIndex": 199,
+      "start": 198937,
+      "heading": "（３）東京都都民の森管理運営事業特別会計",
+      "status": "financial_or_account_scope",
+      "reason": "Tax/grant receipts, debt/insurance account statistics or transfers are financial categories rather than independently identified current-year business sheets; historical debt years are not implementation years.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 200,
+      "start": 199835,
+      "heading": "（５）介護サービス事業特別会計",
+      "status": "financial_or_account_scope",
+      "reason": "Tax/grant receipts, debt/insurance account statistics or transfers are financial categories rather than independently identified current-year business sheets; historical debt years are not implementation years.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 201,
+      "start": 211759,
+      "heading": "４．鑑賞教室補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 202,
+      "start": 211993,
+      "heading": "６．通学費補助関係",
+      "status": "covered_parent_or_reprint",
+      "reason": "Named constituent candidates already retained; aggregate/financing headings are not additional independent projects. Other expenditure/contract columns remain unassigned.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 203,
+      "start": 212003,
+      "heading": "（１）児童・生徒通学費補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 204,
+      "start": 212785,
+      "heading": "（３）バス停遠距離保護者送迎補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 205,
+      "start": 215687,
+      "heading": "１６．社会科副読本改定業務委託",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 206,
+      "start": 220945,
+      "heading": "１１.子育て支援学校給食補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 207,
+      "start": 222714,
+      "heading": "（１） 檜原村スポーツ協会への補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 208,
+      "start": 225291,
+      "heading": "３．人材育成事業",
+      "status": "covered_parent_or_reprint",
+      "reason": "Named constituent candidates already retained; aggregate/financing headings are not additional independent projects. Other expenditure/contract columns remain unassigned.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 209,
+      "start": 225556,
+      "heading": "（１）檜原村中学生海外派遣事業",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 210,
+      "start": 234390,
+      "heading": "(１)\n\n一般対象の事業",
+      "status": "event_activity_scope",
+      "reason": "General public activities and forest autonomous classes/events are operating activities. Planned/cancelled events remain source context; do not count each event as a separate budget business.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 211,
+      "start": 236624,
+      "heading": "(2)村指定文化財管理費補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 212,
+      "start": 236750,
+      "heading": "（3）村文化財補助金",
+      "status": "reviewed_individual_name",
+      "reason": "Exact bounded source heading retained in staged candidates; no guessed money/year. Full-suite status is separate.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 213,
+      "start": 251280,
+      "heading": "14．自主事業",
+      "status": "event_activity_scope",
+      "reason": "General public activities and forest autonomous classes/events are operating activities. Planned/cancelled events remain source context; do not count each event as a separate budget business.",
+      "childNames": []
+    },
+    {
+      "queueIndex": 214,
+      "start": 252799,
+      "heading": "（3）各種法定点検及び保守点検委託",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "消防設備保守点検業務委託",
+        "自家用電気工作物の保安管理業務に関する委託",
+        "除湿機保守点検業務委託",
+        "温風暖房機保守点検業務委託",
+        "木工機械保守点検業務委託",
+        "浄水処理施設保守点検業務委託",
+        "公共施設合併浄化槽保守点検業務委託",
+        "給配水施設保守点検業務委託",
+        "建物消毒業務委託",
+        "地下オイルタンク保守点検業務委託",
+        "クライミングウォール保守点検",
+        "薪ストーブ保守点検業務委託",
+        "サイネージ保守点検業務委託"
+      ]
+    },
+    {
+      "queueIndex": 215,
+      "start": 253336,
+      "heading": "（4）シルバー人材センター委託",
+      "status": "reviewed_named_children_or_common_identity",
+      "reason": "Retained only named constituent units or one corroborated common identity, not generic/funding parent.",
+      "childNames": [
+        "駐車場管理業務委託",
+        "建物清掃委託",
+        "宿日直業務委託",
+        "園地管理委託",
+        "施設巡回委託",
+        "来園者送迎委託",
+        "木工指導委託",
+        "森の案内人委託",
+        "森林館利用者送迎委託"
+      ]
+    }
+  ]
+}

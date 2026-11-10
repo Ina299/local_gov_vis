@@ -1,0 +1,155 @@
+[
+  {
+    "sourceId": "202a294c37b9fbbfe1376b61",
+    "title": "00 会議次第 (PDF形式、66.70KB)",
+    "sourceSha256": "b605a33f8bcac2b5a6fe73371585453540c6f0496be55f6d1a5dcd4a27e1ad07",
+    "fullTextSha256": "41065b3bd14fd6cbf3102e1375e6aa886d317c262019dec51469554666c50e05",
+    "characters": 211,
+    "status": "meeting_administration",
+    "reason": "Agenda, schedule or roster; not individual business evidence."
+  },
+  {
+    "sourceId": "299954d2a6deefd90ea2d4d4",
+    "title": "行政評価結果概要一覧（内部評価（中間評価）） (PDF形式、912.35KB)",
+    "sourceSha256": "2085c94d5804f0be8b72e3b8650a4b53ee565c827430b3439b0b5bc72a8dfdc1",
+    "fullTextSha256": "042b9857555df669a5cda8c0b63f1b34619fc2bcd7e809c2211ab3d343c04a9e",
+    "characters": 68409,
+    "status": "source_family_review_pending",
+    "reason": "Numbered business summary requires title/year/dedup review."
+  },
+  {
+    "sourceId": "5fdb8a7ce9dee2b393ac76c3",
+    "title": "05（資料4）令和7年度第1回外部評価委員会に係る質問シートへの回答について (PDF形式、385.34KB)",
+    "sourceSha256": "2adb4df90767fd8e2fdb1b9dc25da4c7a57c93e696cab4fb21d3e234371b7ad9",
+    "fullTextSha256": "392d1ec8a205b63841bdd5c055c6815cdabe3620f9b16e860071d9a8bbdb2588",
+    "characters": 7210,
+    "status": "question_or_minutes_scope",
+    "reason": "Questions/minutes supplement evaluation evidence; no new identity is established merely by an agenda reference. Prefer corresponding complete sheets."
+  },
+  {
+    "sourceId": "635aa59c87022faffea752a7",
+    "title": "02（資料2）令和6年度実施事業に係る事後評価の結果概要について (PDF形式、125.29KB)",
+    "sourceSha256": "30deb84a5db55596efd4ec7326ef8bbe759be7effef6f2099be6fd5a8ddbbfc7",
+    "fullTextSha256": "ab01e993db258fd53a7ee32b87f9748c9b4fdfcd6deee75314ebc190e565f8f1",
+    "characters": 685,
+    "status": "aggregate_evaluation_scope",
+    "reason": "Evaluation process/count summary; provides fiscal-period context, but counts/ratings are not independent projects."
+  },
+  {
+    "sourceId": "77634938ac5d0aa74ad692f5",
+    "title": "結果について (PDF形式、104.73KB)",
+    "sourceSha256": "e33b4627f9d8d1c3dede8dede57ef8c1e53317c62eecd37bfc4c8cb0760cc3ba",
+    "fullTextSha256": "9d875f60b0fe1ca5516e8e005f420fbe254cf4a5add59d4426e11c8c4623cec9",
+    "characters": 637,
+    "status": "aggregate_evaluation_scope",
+    "reason": "Evaluation process/count summary; provides fiscal-period context, but counts/ratings are not independent projects."
+  },
+  {
+    "sourceId": "799a4e5a8db01cefc8655d9a",
+    "title": "05（資料4）令和7年度第1回外部評価委員会に係る質問シートへの回答について (PDF形式、58.01KB)",
+    "sourceSha256": "6ed4d16f00689fba98777ff2798a23acf2da4205f8b9d02aa61dff53fc5996ed",
+    "fullTextSha256": "3394df956dafd691940f967c5214cac1e206050c5c3437c80aed3711d0c0313b",
+    "characters": 115,
+    "status": "question_or_minutes_scope",
+    "reason": "Questions/minutes supplement evaluation evidence; no new identity is established merely by an agenda reference. Prefer corresponding complete sheets."
+  },
+  {
+    "sourceId": "9392b64df9185381ab0c99ea",
+    "title": "06 令和7年度外部評価委員会スケジュール (PDF形式、72.62KB)",
+    "sourceSha256": "6027059172e86d8c95cfffc79d81663d9beea333fc363b519213c37a9ecaf902",
+    "fullTextSha256": "f5ae1ab4be085c1f6efb52e642250102fd3164974eef175c2d15b597707c06b6",
+    "characters": 239,
+    "status": "meeting_administration",
+    "reason": "Agenda, schedule or roster; not individual business evidence."
+  },
+  {
+    "sourceId": "bb5b5e45401a006e47e77163",
+    "title": "会議要録 (PDF形式、867.38KB)",
+    "sourceSha256": "fe8b7c3c5c5be90648b50803ad07787f85fff78f41f9d16604efb9145a12c3ed",
+    "fullTextSha256": "6bf355c0dc3f300562ea564b771190bdf67d3b0f3b2908ac3212ef0dab19e12f",
+    "characters": 24922,
+    "status": "question_or_minutes_scope",
+    "reason": "Questions/minutes supplement evaluation evidence; no new identity is established merely by an agenda reference. Prefer corresponding complete sheets."
+  },
+  {
+    "sourceId": "cee3cd8a6814fdbb532cc661",
+    "title": "04（資料3-2）事後評価シート（コンセプト5-2） (PDF形式、730.70KB)",
+    "sourceSha256": "63436873116af5eb4370368714c481842bdfed90bca2da07b593d6e916729a74",
+    "fullTextSha256": "7d061c87df379c74bfceeb12bf50046697c991209d37abafcefe579505ae700d",
+    "characters": 7933,
+    "status": "individual_sheets_reviewed",
+    "reason": "15complete sheets:11stage proposals,4existing unknown-period names held; no field overwrites."
+  },
+  {
+    "sourceId": "d4d179de6012c45420af1712",
+    "title": "04（資料3-2）事後評価シート（コンセプト5-1） (PDF形式、1.74MB)",
+    "sourceSha256": "3b9d6c026b4068f47171801432aef338642bc304cbbef525451b0ee36aa2698f",
+    "fullTextSha256": "bae4259ed190462dd01dc799ea59d379e2d5c0721678aeddc71b2005373bd76e",
+    "characters": 44351,
+    "status": "individual_sheets_reviewed",
+    "reason": "15complete sheets:11stage proposals,4existing unknown-period names held; no field overwrites."
+  },
+  {
+    "sourceId": "d9b94653cb6a15606335d8b3",
+    "title": "結果について (PDF形式、146.25KB)",
+    "sourceSha256": "9fcbc68d69622b811c5266b09003630b79310af4f2051bbd6f99ed0dbe22b70c",
+    "fullTextSha256": "993e8b2bca04154d62bd704ddb0c7063cc63687206f8b1c60e055fc0db9fde85",
+    "characters": 1182,
+    "status": "aggregate_evaluation_scope",
+    "reason": "Evaluation process/count summary; provides fiscal-period context, but counts/ratings are not independent projects."
+  },
+  {
+    "sourceId": "e6767c81829681c5442b7e6b",
+    "title": "01（資料1）外部評価委員会委員及び事務局職員名簿 (PDF形式、90.19KB)",
+    "sourceSha256": "04e4fb4a4049171f86b64ab38a2bebf93c31a681c1a58f5d10294337e49b62cc",
+    "fullTextSha256": "8972940ea84901103b18ddd5d5e3993bd04342f707b991d8a09ed1b765b96ec5",
+    "characters": 481,
+    "status": "meeting_administration",
+    "reason": "Agenda, schedule or roster; not individual business evidence."
+  },
+  {
+    "sourceId": "fdd6a5ebb367dfb553ef98d5",
+    "title": "03（資料3-1）事後評価シートの見方について (PDF形式、492.55KB)",
+    "sourceSha256": "feb5b673653becc6b27aaf752d43df3a85e6e612715019d4a7fb3438fc53a5d0",
+    "fullTextSha256": "c64c703dac86f378e0cfd6adc71edf968f41ba9650bc1a8bfb95845c04b37009",
+    "characters": 6130,
+    "status": "template_explanation",
+    "reason": "How to read a sheet, not a municipality business record."
+  },
+  {
+    "sourceId": "6a065ca1f2288210e341654f",
+    "title": "行政評価結果概要一覧（内部評価（中間評価）） (PDF形式、917.20KB)",
+    "sourceSha256": "62e64baa43cf51c00a565189a96b657443b2f550b333a49c58bc9ec6cc5828e8",
+    "fullTextSha256": "0e662ec9a862c2fa4d61b54fdf2ec9c80e5e005670cbf0dae61450c6d1552dbb",
+    "characters": 68644,
+    "status": "source_family_review_pending",
+    "reason": "Numbered business summary requires title/year/dedup review."
+  },
+  {
+    "sourceId": "a8a825dd44973f4d66efcce7",
+    "title": "行政評価結果概要一覧（内部評価（事後評価）及び外部評価） (PDF形式、635.14KB)",
+    "sourceSha256": "af691b8c1c1ca1efb5832fabd47558ed575c82302a94fca5b69fa34aeefe4593",
+    "fullTextSha256": "18def91cd72b5bf31cf45acaba285e32fd2b1ae23bfb4b457435e8f8a7725d5a",
+    "characters": 22359,
+    "status": "source_family_review_pending",
+    "reason": "Numbered business summary requires title/year/dedup review."
+  },
+  {
+    "sourceId": "43c64535fb6dc92a14eb647e",
+    "title": "令和5年度実施事業に係る事後評価の結果概要について（資料2） (PDF形式、375.59KB)",
+    "sourceSha256": "bdb70f34071b271a9904730e3d2abcc6ef4a25b388e2274c74ed9fdb26b8e312",
+    "fullTextSha256": "43d198b3c84ec9777c816ec7fd7fd2a535fc0268d752bc7398efedc330ddfd84",
+    "characters": 812,
+    "status": "aggregate_evaluation_scope",
+    "reason": "Evaluation process/count summary; provides fiscal-period context, but counts/ratings are not independent projects."
+  },
+  {
+    "sourceId": "d9719a6e5a82a76978c8b05a",
+    "title": "事後評価シートの見方について（資料3-1） (PDF形式、788.54KB)",
+    "sourceSha256": "21be3310fd6c0ad154ee9abe03d3b282af59edeaddc608832fbca31d81a2039b",
+    "fullTextSha256": "bbaee07fda04237d47d8a3fc893368c99ed82ec14d13be5c20c321f0336f0890",
+    "characters": 6880,
+    "status": "template_explanation",
+    "reason": "How to read a sheet, not a municipality business record."
+  }
+]

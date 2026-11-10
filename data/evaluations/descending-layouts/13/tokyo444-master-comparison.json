@@ -1,0 +1,23 @@
+{
+  "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "baselineUnchanged": true,
+  "unpublishedUserChanges": "not observable",
+  "rows": [
+    {
+      "municipalityCode": "13307",
+      "newCandidates": 148,
+      "existingMasterRecords": 0,
+      "matches": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "municipalityCode": "13227",
+      "newCandidates": 78,
+      "existingMasterRecords": 141,
+      "matches": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    }
+  ]
+}

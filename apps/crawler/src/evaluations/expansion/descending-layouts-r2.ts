@@ -1,3 +1,5 @@
+import{reviewHamura}from'./descending-tokyo-hamura-sheets';
+import{reviewHamuraMid}from'./descending-tokyo-hamura-mid';
 import{reviewHinohara}from'./descending-tokyo-hinohara';
 import{reviewTokyoIslands}from'./descending-tokyo-islands';
 import{reviewMinamiPeriod}from'./descending-kanagawa-minami-period';
@@ -164,7 +166,7 @@ const minamigrants=reviewMinamiashigaraGrants(input,inputs);if(minamigrants)retu
 const minamiprograms=reviewMinamiPrograms(input),minamiextra=reviewMinamiExtra(input);if(minamiprograms&&minamiextra)return {...minamiprograms,projects:[...minamiprograms.projects,...minamiextra.projects],units:[...minamiprograms.units,...minamiextra.units],proofs:[...minamiprograms.proofs,...minamiextra.proofs]};if(minamiprograms)return minamiprograms;if(minamiextra)return minamiextra;
 const namedAnnual=reviewMatsudaHiratsuka(input);if(namedAnnual)return namedAnnual;
 const datedHistory=reviewMinamiHistoricalPrograms(input),periodHistory=reviewMinamiPeriod(input);if(datedHistory&&periodHistory)return {...datedHistory,projects:[...datedHistory.projects,...periodHistory.projects],units:[...datedHistory.units,...periodHistory.units],proofs:[...datedHistory.proofs,...periodHistory.proofs]};if(datedHistory)return datedHistory;if(periodHistory)return periodHistory;
-const hinohara=reviewHinohara(input);if(hinohara)return hinohara;
+const hinohara=reviewHamura(input)??reviewHamuraMid(input)??reviewHinohara(input);if(hinohara)return hinohara;
 const tokyoIslands=reviewTokyoIslands(input);if(tokyoIslands)return tokyoIslands;
 const zushi=reviewZushi(input);if(zushi)return zushi;
 const atsugititles=reviewAtsugiTitles(input);if(atsugititles)return atsugititles;

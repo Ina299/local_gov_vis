@@ -1,0 +1,643 @@
+{
+  "added": [
+    {
+      "queueIndex": 155,
+      "name": "観光ごみ分別収集委託",
+      "start": 155325,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 155,
+      "name": "滝めぐり遊歩道整備委託",
+      "start": 155458,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 155,
+      "name": "払沢の滝周辺交通整理業務委託",
+      "start": 155512,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 155,
+      "name": "バス停清掃業務委託",
+      "start": 155613,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 156,
+      "name": "遊歩道補修等整備委託",
+      "start": 155665,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 156,
+      "name": "登山道巡視委託",
+      "start": 155676,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 156,
+      "name": "檜原村内公衆トイレ調査業務委託",
+      "start": 155685,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 156,
+      "name": "森林資源を活用した魅力創出事業委託",
+      "start": 155703,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 156,
+      "name": "グラウンド整備委託",
+      "start": 155723,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 176,
+      "name": "湯久保地区水道施設整備等調査業務委託料",
+      "start": 170118,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 177,
+      "name": "配水管布設替工事設計委託",
+      "start": 173515,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 177,
+      "name": "配水管布設替工事",
+      "start": 173817,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 178,
+      "name": "水道施設塗装工事",
+      "start": 173979,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 178,
+      "name": "簡易水道事業経営戦略策定支援業務委託",
+      "start": 174063,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 178,
+      "name": "コンクリート構造物点検委託料",
+      "start": 173989,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 178,
+      "name": "配水池清掃委託料",
+      "start": 174006,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 186,
+      "name": "マンホールポンプ保守点検委託",
+      "start": 184598,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 186,
+      "name": "マンホールポンプ清掃委託",
+      "start": 184628,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "広幅複合機保守点検委託",
+      "start": 188302,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "土木積算システム保守点検委託",
+      "start": 188314,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "村道清掃等業務委託",
+      "start": 188330,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "村道維持補修業務委託（村道第 60 号湯久保線）",
+      "start": 188340,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "村道維持補修業務委託（村道第 57 号神戸線）",
+      "start": 188366,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "村道維持補修業務委託（本宿地内）",
+      "start": 188391,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "村道維持補修業務委託（村道第 60 号湯久保線）その 2",
+      "start": 188638,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "村道維持補修業務委託（藤原地内）",
+      "start": 188693,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "村道維持補修業務委託（小沢地内）",
+      "start": 188733,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "村道維持補修業務委託（倉掛地内交通量調査）",
+      "start": 188925,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "村道維持補修業務委託（村道第 1 号泉沢線）",
+      "start": 188948,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "村道維持補修業務委託（人里地内法定外道路整備）",
+      "start": 188972,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "村道維持補修業務委託（村道第 7 号時坂線）",
+      "start": 188997,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "村道維持補修業務委託（村道第 68 号落合線）",
+      "start": 189021,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "村道維持補修業務委託（村道第 1 号泉沢線）その 2",
+      "start": 189046,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "村道維持補修業務委託（村道第 67 号総角沢線）",
+      "start": 189074,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "村道維持補修業務委託（上平地内公道）",
+      "start": 189100,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "村道維持補修業務委託（村道第 2 号日向線）",
+      "start": 189120,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "村道維持補修業務委託（村道第 70 号倉掛線）",
+      "start": 189144,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "村道第 86 号笹久保線道路災害防除詳細設計業務委託",
+      "start": 189169,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "村道第 70 号倉掛線地質調査・設計業務委託",
+      "start": 189197,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "橋梁塗膜調査委託",
+      "start": 189221,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "橋梁長寿命化修繕計画改定業務委託",
+      "start": 189230,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "公共用地境界確定測量委託（神戸川）",
+      "start": 189248,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "公共用地境界確定測量委託（本宿地内赤道）",
+      "start": 189267,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "笛吹地内公共用地境界測量業務委託",
+      "start": 189289,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "村道第 60 号湯久保線道路用地等登記事務委託",
+      "start": 189307,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "村道第 60 号湯久保線道路用地等登記事務委託その 2",
+      "start": 189332,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "道路用地等登記事務委託（村道第 65 号尾根通線）",
+      "start": 189361,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 187,
+      "name": "道路用地等登記事務委託（村道第 2 号日向線）",
+      "start": 189388,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 188,
+      "name": "河川維持補修業務委託（大和沢）",
+      "start": 190847,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 188,
+      "name": "河川維持補修業務委託（柳沢）",
+      "start": 190920,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 189,
+      "name": "板東沢残土処理場管理・監視業務委託",
+      "start": 191497,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 193,
+      "name": "秋川南岸道路整備事業に伴う土地鑑定意見書作成業務委託",
+      "start": 192194,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 193,
+      "name": "秋川南岸道路整備事業に伴う土地家屋調査等算定委託",
+      "start": 192223,
+      "printedOccurrences": 2,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 194,
+      "name": "地籍調査業務委託",
+      "start": 192514,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 194,
+      "name": "地籍調査業務委託（その 2）",
+      "start": 192524,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 194,
+      "name": "地籍管理システム保守委託",
+      "start": 192540,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 195,
+      "name": "立山林道開設工事詳細設計委託",
+      "start": 195131,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 196,
+      "name": "林道清掃等業務委託",
+      "start": 195249,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 196,
+      "name": "治山林道積算システム保守点検委託",
+      "start": 195259,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 196,
+      "name": "橋梁点検及びトンネル点検業務委託",
+      "start": 195277,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 196,
+      "name": "林道維持補修業務委託（浅間林道）",
+      "start": 195295,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 196,
+      "name": "林道維持補修業務委託（月夜見林道）",
+      "start": 195313,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 196,
+      "name": "林道維持補修業務委託（浅間林道）その 2",
+      "start": 195332,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 196,
+      "name": "林道維持補修業務委託（浅間林道）（中峰平林道）",
+      "start": 195354,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 196,
+      "name": "林道維持補修業務委託（月夜見林道）その 2",
+      "start": 195555,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 197,
+      "name": "令和元年台風 19 号に伴う瀬戸沢林道（第 2 工区）災害復旧測量調査委託",
+      "start": 196268,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 198,
+      "name": "雪害に伴う出野沢林道災害復旧倒木処理委託",
+      "start": 196415,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 214,
+      "name": "消防設備保守点検業務委託",
+      "start": 252858,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 214,
+      "name": "自家用電気工作物の保安管理業務に関する委託",
+      "start": 252892,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 214,
+      "name": "除湿機保守点検業務委託",
+      "start": 252933,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 214,
+      "name": "温風暖房機保守点検業務委託",
+      "start": 252966,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 214,
+      "name": "木工機械保守点検業務委託",
+      "start": 252996,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 214,
+      "name": "浄水処理施設保守点検業務委託",
+      "start": 253028,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 214,
+      "name": "公共施設合併浄化槽保守点検業務委託",
+      "start": 253064,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 214,
+      "name": "給配水施設保守点検業務委託",
+      "start": 253105,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 214,
+      "name": "建物消毒業務委託",
+      "start": 253134,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 214,
+      "name": "地下オイルタンク保守点検業務委託",
+      "start": 253161,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 214,
+      "name": "クライミングウォール保守点検",
+      "start": 253200,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 214,
+      "name": "薪ストーブ保守点検業務委託",
+      "start": 253228,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 214,
+      "name": "サイネージ保守点検業務委託",
+      "start": 253264,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 215,
+      "name": "駐車場管理業務委託",
+      "start": 253391,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 215,
+      "name": "建物清掃委託",
+      "start": 253430,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 215,
+      "name": "宿日直業務委託",
+      "start": 253466,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 215,
+      "name": "園地管理委託",
+      "start": 253493,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 215,
+      "name": "施設巡回委託",
+      "start": 253522,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 215,
+      "name": "来園者送迎委託",
+      "start": 253588,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 215,
+      "name": "木工指導委託",
+      "start": 253622,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 215,
+      "name": "森の案内人委託",
+      "start": 253655,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    },
+    {
+      "queueIndex": 215,
+      "name": "森林館利用者送迎委託",
+      "start": 253689,
+      "printedOccurrences": 1,
+      "status": "proposed_contract_unit"
+    }
+  ],
+  "held": [
+    {
+      "queueIndex": 177,
+      "name": "監視機器及びポンプ等取替工事",
+      "reason": "Title split by interleaved amount/cell; requires exact multi-fragment mapping, not guessed contiguous quote."
+    },
+    {
+      "queueIndex": 155,
+      "name": "公衆トイレ建物清掃委託",
+      "reason": "Potential overlap with existing public-toilet-cleaning programme; exact relationship not assigned."
+    },
+    {
+      "queueIndex": 193,
+      "reason": "Repeated identical land/house survey names retained once; do not invent location-to-contractor associations from interleaved columns."
+    }
+  ]
+}

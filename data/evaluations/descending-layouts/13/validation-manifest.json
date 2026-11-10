@@ -1,11 +1,11 @@
 {
   "validation.log": {
     "bytes": 90,
-    "sha256": "6b7bdcc9d49636fd25bb0782f964cc42e4f090dc13af587cb8bd84c7e78e95f4"
+    "sha256": "8c6a03a2c1e4cdca8fb0979734d9ab5e7f3ec963f58575f56b4bdba326de3e28"
   },
   "focused.log": {
-    "bytes": 893,
-    "sha256": "f610ba8b4dc46c12e721e4e9a434c95b207ae2892a0e7f5ccc510cdc16e16459"
+    "bytes": 1460,
+    "sha256": "d64a68a4d1f490a03a2fb7dd3572b15fa9a742657ceae234045463285748ada8"
   },
   "typecheck.log": {
     "bytes": 823,
@@ -24,11 +24,11 @@
     "sha256": "f84e96777908fdf596f36bcfc01a9461b40be9f1376b1acca03d55ab1f7450bc"
   },
   "web.log": {
-    "bytes": 2429,
-    "sha256": "650b62dbb84a034b76fff2ef5c71d7b4aa48663d20c4303662139efcdd74c97f"
+    "bytes": 2427,
+    "sha256": "8fb4da6eef91505e57f34a2dcb0b6a7916e889f89a68017a1ffaa4e0ec38e09b"
   },
   "crawler.log": {
-    "bytes": 109341,
-    "sha256": "31cbbea12d2664a11d0bcb2a6f4a1e0b41f6b0a82001ad8e6dc208f22404a48c"
+    "bytes": 109902,
+    "sha256": "6a7b9d24b0301a2ab6fbffb8daeb325b8c87bc7312f40823ba79d4ab0bcbe2ae"
   }
 }
