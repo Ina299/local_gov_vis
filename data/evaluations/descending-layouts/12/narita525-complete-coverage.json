@@ -1,0 +1,3163 @@
+{
+  "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "municipalityCode": "12211",
+  "sourceId": "145f1cb5d278de6ca3ae42fb",
+  "sourceSha256": "c02dbf113a5e528cca1169e2cc9e09e731cfa9066e1ab6b952842108823c2253",
+  "textSha256": "d490bd2049bc9dc609a24aa1ce0d1ebd1b8eefb093a026e16686de64de6973a9",
+  "completeCodedRows": 525,
+  "existingExactIdentityAndSourceMatches": 525,
+  "newCandidates": 0,
+  "productionChanges": 0,
+  "rows": [
+    {
+      "projectCode": "0658",
+      "existingId": "cached-12211-22e2dc51cdf52c5757216ff5",
+      "name": "防災啓発事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0657",
+      "existingId": "cached-12211-54be78fd65cbc818e68a2ba9",
+      "name": "防災に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1841",
+      "existingId": "cached-12211-27a8aa9c51860cdf2219d98b",
+      "name": "災害復興支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0659",
+      "existingId": "cached-12211-511b0f05f48d0f120f5d88b1",
+      "name": "自主防災組織整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0663",
+      "existingId": "cached-12211-be5e61a01f46968a9845a048",
+      "name": "防災行政無線整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0662",
+      "existingId": "cached-12211-eefa5d985d18afbf4f0ea8e1",
+      "name": "総合防災訓練事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2087",
+      "existingId": "cached-12211-c4fc42c6f03fb3df78c44c0d",
+      "name": "災害医療対策事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0664",
+      "existingId": "cached-12211-a38a49f4c954f1f99f968d31",
+      "name": "防災情報伝達事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0665",
+      "existingId": "cached-12211-ed34b86a7e851ce8473900a5",
+      "name": "気象情報収集事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0667",
+      "existingId": "cached-12211-17c31755123240227d678f9a",
+      "name": "防災用品備蓄事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1649",
+      "existingId": "cached-12211-bb48c56c5f44d29fb0cbd8ab",
+      "name": "防災行政無線固定系更新事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0666",
+      "existingId": "cached-12211-010e9d909fc6ba22c8c201e0",
+      "name": "給水体制整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1594",
+      "existingId": "cached-12211-1c7abc1987c812972dbd58ec",
+      "name": "建築物耐震化促進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1397",
+      "existingId": "cached-12211-fb623436730bcc9c5f8065d8",
+      "name": "占用樋管維持管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0393",
+      "existingId": "cached-12211-be23ce6c6f8283bd901b1ed2",
+      "name": "準用河川整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0381",
+      "existingId": "cached-12211-8382fb35e413cb7483152515",
+      "name": "急傾斜地崩壊対策事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0390",
+      "existingId": "cached-12211-50d6ae4ec3292a4d2a280296",
+      "name": "河川整備促進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1989",
+      "existingId": "cached-12211-bbb353d19a99006a8a9434df",
+      "name": "狭あい道路拡幅整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0669",
+      "existingId": "cached-12211-31f2651d300f5b34d50c5ddc",
+      "name": "水害予防事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1784",
+      "existingId": "cached-12211-5ef1f947ce4fd8870a023108",
+      "name": "共同指令センター運用事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0539",
+      "existingId": "cached-12211-05208b65a0aa3f0153b50873",
+      "name": "音楽隊に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0537",
+      "existingId": "cached-12211-024ad9248f1e264ea6b56424",
+      "name": "消防に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0543",
+      "existingId": "cached-12211-babfeccb71e9575a369edeed",
+      "name": "消防庁舎等管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1991",
+      "existingId": "cached-12211-065d204dce2af7859a0bba9d",
+      "name": "消防団車両・装備強化整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2226",
+      "existingId": "cached-12211-7aa7a83d6a483546a91fe40b",
+      "name": "救急車両・装備強化整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1912",
+      "existingId": "cached-12211-d59b0536a78640f8f6e39b24",
+      "name": "婦人防火指導員協議会に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0545",
+      "existingId": "cached-12211-b10398bcdf52a1e83c4b5461",
+      "name": "消防団員被服貸与事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0540",
+      "existingId": "cached-12211-ff7b1fc2ab50685a9d1240dd",
+      "name": "職員被服貸与事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0544",
+      "existingId": "cached-12211-193fb4240a0d7f1361bcbed9",
+      "name": "消防団に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0550",
+      "existingId": "cached-12211-b5d5e2dd76515dff6efcb362",
+      "name": "消防団拠点施設整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0551",
+      "existingId": "cached-12211-4aed5f34c7dd3f5a31875bea",
+      "name": "予防に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0538",
+      "existingId": "cached-12211-efbb1ee8f5f32957ffd0b429",
+      "name": "消防委員会に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0553",
+      "existingId": "cached-12211-271ff9c1cd03363f020dc517",
+      "name": "危険物に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0555",
+      "existingId": "cached-12211-012222bdc6c851205406f72d",
+      "name": "救急高度化推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0561",
+      "existingId": "cached-12211-65e4e5ae08093cffcaa8b867",
+      "name": "通信に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0552",
+      "existingId": "cached-12211-50591c58bf8bf729d236ee26",
+      "name": "火災予防に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0560",
+      "existingId": "cached-12211-bdf325221563d1af4d1e9fe4",
+      "name": "消防水利整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0554",
+      "existingId": "cached-12211-7200e7b7afece2a3e40e4b46",
+      "name": "警防・救助に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0562",
+      "existingId": "cached-12211-0ba050394304be7497f374e0",
+      "name": "通信指令施設に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0556",
+      "existingId": "cached-12211-eaca0524c6f67a54d5e23a7c",
+      "name": "消防車両・装備強化整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1712",
+      "existingId": "cached-12211-04163a3c7bf428ae400a83cd",
+      "name": "暴力対策事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1708",
+      "existingId": "cached-12211-17529c1e1f37d64e1b30ba4a",
+      "name": "防犯灯維持管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1709",
+      "existingId": "cached-12211-b96c6f21757b688952956381",
+      "name": "防犯啓発事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1710",
+      "existingId": "cached-12211-7714babe851d125818a92900",
+      "name": "地域安全対策事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1713",
+      "existingId": "cached-12211-e931aece26c3f8d50f91629a",
+      "name": "犯罪被害者等支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1711",
+      "existingId": "cached-12211-c30cb98c405c66edc6e211ae",
+      "name": "駅前番所事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0328",
+      "existingId": "cached-12211-1f9068f202ea1b9a0d646b0b",
+      "name": "消費生活センター運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0329",
+      "existingId": "cached-12211-6cc0105c39a7ebf2036713f9",
+      "name": "消費生活啓発事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2200",
+      "existingId": "cached-12211-b0e664eaadf0737f694b444d",
+      "name": "JR成田駅西口駐輪場等整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0686",
+      "existingId": "cached-12211-f86ecf178029a47f25ff4887",
+      "name": "交通安全施設等設置事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2181",
+      "existingId": "cached-12211-5d3625b8cd3b2d0700f341e2",
+      "name": "運転免許証返納者支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0679",
+      "existingId": "cached-12211-6f9e782873cf3d082c09b70c",
+      "name": "違法駐車防止事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0675",
+      "existingId": "cached-12211-d39df87b1eb669a67d7ea4a1",
+      "name": "駐輪場管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1995",
+      "existingId": "cached-12211-7c93781705339335c14b0778",
+      "name": "交通安全啓発事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1787",
+      "existingId": "cached-12211-49d65a1d553b2fe89b31f696",
+      "name": "成田空港周辺地域共生財団支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1822",
+      "existingId": "cached-12211-ce04d9f8f155ee922e68bf24",
+      "name": "地上デジタル共聴施設維持管理費補助事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0098",
+      "existingId": "cached-12211-c237165fdff7f3dc092645b7",
+      "name": "航空機騒音地域補助事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0106",
+      "existingId": "cached-12211-a0eeaf27178166014be2e9b3",
+      "name": "集会施設電気・電話料金等補助事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0099",
+      "existingId": "cached-12211-f6c5b6d9575cde5fa730bb33",
+      "name": "防音施設維持管理費補助事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0100",
+      "existingId": "cached-12211-1f799398a47e749fbf8715f4",
+      "name": "空港周辺対策事業基金積立金",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0107",
+      "existingId": "cached-12211-5e169f2a4745c59ae8408ba8",
+      "name": "騒音地域集会所補助事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0111",
+      "existingId": "cached-12211-5de50820eea8ef68fae81d31",
+      "name": "民家防音家屋等維持管理費補助事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0112",
+      "existingId": "cached-12211-e6d76300bf4c43c84d962107",
+      "name": "放送受信料減免負担金交付事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2221",
+      "existingId": "cached-12211-49017aa8e7757d8bcb958522",
+      "name": "住宅防音工事補助事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0117",
+      "existingId": "cached-12211-4a770f96b51f0335d92432a3",
+      "name": "航空機騒音測定システム事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0102",
+      "existingId": "cached-12211-bbcc8e818d52b0bbacb0a1b1",
+      "name": "成田空港周辺環境整備推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0096",
+      "existingId": "cached-12211-7cb0953551069d649d1721c3",
+      "name": "地域振興に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0104",
+      "existingId": "cached-12211-3a0d785b15a53b723e0820e1",
+      "name": "共同利用施設等維持管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1640",
+      "existingId": "cached-12211-3f4665529847669a6742f024",
+      "name": "共生プラザ維持管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0422",
+      "existingId": "cached-12211-656f6905a811b3ab1a06b15e",
+      "name": "都市公園管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0423",
+      "existingId": "cached-12211-cc09eb050f94c38783780723",
+      "name": "緑地管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1197",
+      "existingId": "cached-12211-b28df80534acb51ef57ec31e",
+      "name": "住区基幹公園整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0425",
+      "existingId": "cached-12211-8916d7e71d2f34002b24bbe3",
+      "name": "緑化推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0431",
+      "existingId": "cached-12211-d42b32e9120d12424c344277",
+      "name": "屋外広告物事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0410",
+      "existingId": "cached-12211-cf05fedf3628b95b7d5f257b",
+      "name": "市営住宅維持管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2227",
+      "existingId": "cached-12211-11ac973a7bcd95d3f8a4d3a1",
+      "name": "住宅等対策事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1691",
+      "existingId": "cached-12211-40a66c44d6abb6eda065ee87",
+      "name": "住生活基本計画推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1888",
+      "existingId": "cached-12211-f40c478e689c7d21be6f8518",
+      "name": "ふるさと川づくり事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1654",
+      "existingId": "cached-12211-4c030b96d2db36eaefe31fe3",
+      "name": "花の回廊整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0178",
+      "existingId": "cached-12211-3e468df1c3823d46695792d3",
+      "name": "合併処理浄化槽設置整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0179",
+      "existingId": "cached-12211-5f578175fad307a4cc7b1e83",
+      "name": "合併処理浄化槽維持管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1461",
+      "existingId": "cached-12211-3bfc4ce6bdb2d0572bc739d5",
+      "name": "集中処理浄化槽修繕工事補助事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0180",
+      "existingId": "cached-12211-3023852749ce1b2397ea7b50",
+      "name": "合併処理浄化槽普及促進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0182",
+      "existingId": "cached-12211-cf4898948cf1fd606d332c45",
+      "name": "し尿収集事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0146",
+      "existingId": "cached-12211-c5f56b8764c03e4df4960589",
+      "name": "新清掃工場関連付帯施設整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0165",
+      "existingId": "cached-12211-4284161683fd3da326286770",
+      "name": "リサイクル運動推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0143",
+      "existingId": "cached-12211-9122997e68e427a1b7b6d8e7",
+      "name": "清掃総務に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0151",
+      "existingId": "cached-12211-dc5c8ee16d0bca9aba6fbfba",
+      "name": "廃棄物不法投棄対策事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1277",
+      "existingId": "cached-12211-a7b14de6b6ea42e4b3366704",
+      "name": "成田富里いずみ清掃工場維持管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0162",
+      "existingId": "cached-12211-22476dd3d311b7ef583fe337",
+      "name": "ごみ収集事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2081",
+      "existingId": "cached-12211-07515978e5e18f84feaeed37",
+      "name": "浄化センター整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0155",
+      "existingId": "cached-12211-cda07fdbf3748ef6b43b5333",
+      "name": "廃棄物減量等推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0161",
+      "existingId": "cached-12211-2db2d76e50e242e478030d41",
+      "name": "最終処分場維持管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0159",
+      "existingId": "cached-12211-562c88f4807a9831ac4f254e",
+      "name": "リサイクルプラザ維持管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0158",
+      "existingId": "cached-12211-cb480d29dbfe624193c1bdb1",
+      "name": "焼却灰処理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0166",
+      "existingId": "cached-12211-81227224b9484c5998b35cda",
+      "name": "家庭用ごみ減量器具設置費補助事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0164",
+      "existingId": "cached-12211-213bdf844c5303f2087919c8",
+      "name": "ビニール・プラスチック系ごみ処理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0160",
+      "existingId": "cached-12211-07be5b3c45e4b9ca04dd1a92",
+      "name": "リサイクルプラザ啓発事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0168",
+      "existingId": "cached-12211-1419f0de365f1a30047b0153",
+      "name": "じんかい集積所等設置費補助事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0136",
+      "existingId": "cached-12211-4e8f9e7c60a11a5b0e41eac9",
+      "name": "いずみ聖地公園拡張整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0174",
+      "existingId": "cached-12211-407feabbf24c7f4995ed9db6",
+      "name": "ペット火葬事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0171",
+      "existingId": "cached-12211-7aa717c7f6933f07254499e8",
+      "name": "成田霊園管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0177",
+      "existingId": "cached-12211-dea7266b26f78dc093a02429",
+      "name": "食品衛生事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0169",
+      "existingId": "cached-12211-6424227bd21c4fb9c78bb7f6",
+      "name": "いずみ聖地公園管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0172",
+      "existingId": "cached-12211-eb99dd68dbfcc78405f26510",
+      "name": "共同墓地工事費補助事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0170",
+      "existingId": "cached-12211-35d9e61592f631fec3a348c7",
+      "name": "ペット墓地管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0173",
+      "existingId": "cached-12211-5d3179391bd01aee604e1864",
+      "name": "祭具・霊柩車管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0181",
+      "existingId": "cached-12211-e884682d46bb65fde8333248",
+      "name": "八富成田斎場管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1751",
+      "existingId": "cached-12211-54e782b5e975a03b4e75b82c",
+      "name": "スズメバチ駆除事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1460",
+      "existingId": "cached-12211-c4dc86b0bdef43bf6aae41ad",
+      "name": "保健衛生に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0175",
+      "existingId": "cached-12211-b081ad126c746909e4325d58",
+      "name": "狂犬病予防及び動物愛護管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0184",
+      "existingId": "cached-12211-92574267f33a192c101280f8",
+      "name": "クリーンヒル管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0183",
+      "existingId": "cached-12211-bfaa960f9d95344c0c7a999a",
+      "name": "浄化センター管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1715",
+      "existingId": "cached-12211-cbfe3cbda377a2bde22e1fa8",
+      "name": "公衆便所管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0167",
+      "existingId": "cached-12211-724adcca99534a575f5c817a",
+      "name": "環境美化啓発事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1897",
+      "existingId": "cached-12211-60c715ea9cfab773fe8f6c9f",
+      "name": "地球温暖化対策推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1689",
+      "existingId": "cached-12211-3b03b745257551b7af7f820f",
+      "name": "小学校太陽光発電導入事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0138",
+      "existingId": "cached-12211-dbd16822be41372d59721f70",
+      "name": "環境保全に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2045",
+      "existingId": "cached-12211-4e702ebbdbf38404e1e2ae36",
+      "name": "雨水貯留施設設置費補助事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1623",
+      "existingId": "cached-12211-935199f80b85d7592a425251",
+      "name": "なりた環境ネットワーク推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0149",
+      "existingId": "cached-12211-d9fe889f7c5c4f48bf2e46d4",
+      "name": "公害調査事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0153",
+      "existingId": "cached-12211-18a45522f3cffaa573af66cd",
+      "name": "放置自動車対策事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0148",
+      "existingId": "cached-12211-57caa366658142a589aea3ec",
+      "name": "公害対策事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0150",
+      "existingId": "cached-12211-f08148ffbab07159fdce937a",
+      "name": "残土埋立て対策事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2150",
+      "existingId": "cached-12211-5ff9de6e83d19dce47bd1608",
+      "name": "結婚新生活支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2223",
+      "existingId": "cached-12211-8c404f355b1e650d04c0ffa8",
+      "name": "子育て世代包括支援センター運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2208",
+      "existingId": "cached-12211-9f1a5d693a9b8ce88d337693",
+      "name": "出産・子育て応援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1920",
+      "existingId": "cached-12211-a52b21b756f51bd8bf9f2bc5",
+      "name": "特定不妊・不育治療費助成事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0274",
+      "existingId": "cached-12211-18f664d13c9cda864abfb78f",
+      "name": "母子保健事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2199",
+      "existingId": "cached-12211-84bba3f4c15081a1ac26a065",
+      "name": "子育て世帯訪問支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0244",
+      "existingId": "cached-12211-1966c8d728540e5652176e77",
+      "name": "子育て支援センター管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0243",
+      "existingId": "cached-12211-2ded0efabb3e08cc483d1121",
+      "name": "児童ふれあい交流事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0257",
+      "existingId": "cached-12211-1875f79a4e67f87b18440c2b",
+      "name": "子どもの遊び場整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1091",
+      "existingId": "cached-12211-35936f2dcbf32c0420e9bf25",
+      "name": "ファミリー・サポート・センター推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1910",
+      "existingId": "cached-12211-2d8ae3105b2ecbeadca2db97",
+      "name": "こども計画策定事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0192",
+      "existingId": "cached-12211-ff835b8824677eba1fb4aa7d",
+      "name": "主任児童委員支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1661",
+      "existingId": "cached-12211-9c4e777189696104e954ac43",
+      "name": "病児・病後児保育事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2213",
+      "existingId": "cached-12211-fa4b23b4953473e202b1a1e5",
+      "name": "子どもの成長応援臨時給付金給付事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1854",
+      "existingId": "cached-12211-6b3216bb973f4f09f5ec3fff",
+      "name": "子どもショートステイ事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1817",
+      "existingId": "cached-12211-1b194e26dd5252d1b888a393",
+      "name": "子ども医療費助成事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0240",
+      "existingId": "cached-12211-48eb9ce38eded66b4a83a9d7",
+      "name": "家庭児童相談室運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0245",
+      "existingId": "cached-12211-2c6bd9101e0f83bf20561f27",
+      "name": "児童手当支給事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1857",
+      "existingId": "cached-12211-7d4344d7419e6e41a55121f6",
+      "name": "養育支援訪問事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2170",
+      "existingId": "cached-12211-8f19da280bad1dd618760439",
+      "name": "高校生等医療費助成事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1994",
+      "existingId": "cached-12211-6fe0cba3176dcd75b1ec13b6",
+      "name": "保育園開放ふれあい事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1922",
+      "existingId": "cached-12211-3070ca03c514f8aecb899671",
+      "name": "子育て応援サイト運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1855",
+      "existingId": "cached-12211-f392a165f1af632f31dc1878",
+      "name": "認可外保育施設等利用者補助事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0239",
+      "existingId": "cached-12211-f196da2e22883f26560ad216",
+      "name": "児童ホーム整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2028",
+      "existingId": "cached-12211-66d3b692e67bfb4e8499333f",
+      "name": "保育士確保・処遇改善促進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1943",
+      "existingId": "cached-12211-01610f101af0224f54ab0805",
+      "name": "地域型保育給付事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1973",
+      "existingId": "cached-12211-87fc32d1470909bfe98b3487",
+      "name": "保育所等入所世帯支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0251",
+      "existingId": "cached-12211-1560984bd234285585543358",
+      "name": "保育園運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2093",
+      "existingId": "cached-12211-9b8d149bd07c274832443649",
+      "name": "子ども・子育て支援施設等利用給付事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0252",
+      "existingId": "cached-12211-a0773c5a0ddda01d12d14a62",
+      "name": "保育園整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1978",
+      "existingId": "cached-12211-d3d1c50b23338a25d79f9878",
+      "name": "地域型保育基盤整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0238",
+      "existingId": "cached-12211-f80a2a045bbbc988fd9bd903",
+      "name": "児童ホーム管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0256",
+      "existingId": "cached-12211-8fbe0f91a94d1cdaf5f98752",
+      "name": "一時保育運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0246",
+      "existingId": "cached-12211-9ac09b7ab56c22a78653b6fb",
+      "name": "私立保育園等運営委託事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0253",
+      "existingId": "cached-12211-e3b21f9281ff7c066445ad79",
+      "name": "私立保育園等運営費支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0209",
+      "existingId": "cached-12211-249aa6faf32d54eb1a7abb4e",
+      "name": "敬老事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0218",
+      "existingId": "cached-12211-e9bf86ea0486426711befc66",
+      "name": "高齢者教養講座開設事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1860",
+      "existingId": "cached-12211-51bb17926d40bdf7482d0852",
+      "name": "赤坂ふれあいセンター管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0213",
+      "existingId": "cached-12211-fdb0a7e6ce012cd3d7ae089e",
+      "name": "社会参加事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0215",
+      "existingId": "cached-12211-51bd78c448c960f1a0edcdab",
+      "name": "シルバー就業対策支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2110",
+      "existingId": "cached-12211-5b196d350c2ffe67006af04f",
+      "name": "高齢者の保健・介護の一体的実施事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0283",
+      "existingId": "cached-12211-41cb75cd36080a400a07f8e2",
+      "name": "介護保険利用者負担軽減事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2144",
+      "existingId": "cached-12211-98704fd6a9cf408400504815",
+      "name": "成年後見支援センター運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0286",
+      "existingId": "cached-12211-8085304a7d32317e4f90d1c0",
+      "name": "介護保険特別会計繰出金",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0210",
+      "existingId": "cached-12211-464c3e89622a991cee75ce80",
+      "name": "老人福祉措置事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1970",
+      "existingId": "cached-12211-8628238c74a78ebc1cbd31d1",
+      "name": "介護施設等整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0202",
+      "existingId": "cached-12211-e4e097d9f53a46789e84456a",
+      "name": "在宅サービス事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2145",
+      "existingId": "cached-12211-bda570b871d8ce51fb84d62d",
+      "name": "介護人材確保対策事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1806",
+      "existingId": "cached-12211-8c14ef69c59f06f92c7593f4",
+      "name": "オンデマンド交通高齢者移送サービス事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0203",
+      "existingId": "cached-12211-0d6b9e139aa2b3bd02e87254",
+      "name": "在宅助成給付事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0212",
+      "existingId": "cached-12211-1fe928f5b58c29339a3b0bb5",
+      "name": "介護手当等支給事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1682",
+      "existingId": "cached-12211-f1f9a57ec26022541fc44d5f",
+      "name": "独居高齢者見守り支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0211",
+      "existingId": "cached-12211-c2dde875927def7f627196ab",
+      "name": "はり、きゅう、マッサージ等施設利用者助成事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0236",
+      "existingId": "cached-12211-1fd46e9ad2995483e5967b28",
+      "name": "こども発達支援センター管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0222",
+      "existingId": "cached-12211-1bb84becddfa585b6c081012",
+      "name": "障害者地域生活支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1194",
+      "existingId": "cached-12211-4f0fe8f229ce3e57238c0400",
+      "name": "障害者施設利用支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1275",
+      "existingId": "cached-12211-b8d6739af60e8040b1c20a4b",
+      "name": "障害者福祉施設整備費補助事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0225",
+      "existingId": "cached-12211-9be2c5db71a4969fa4f0c9c5",
+      "name": "医療費等給付及び助成事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0221",
+      "existingId": "cached-12211-5f85322ca1ed9798f766e83b",
+      "name": "福祉手当・見舞金支給事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0235",
+      "existingId": "cached-12211-9d4d677e03e12345e81d38a2",
+      "name": "児童福祉施設入所負担金助成事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0227",
+      "existingId": "cached-12211-2a3fcedf4643d41e6515586c",
+      "name": "社会福祉施設等運営費補助事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1177",
+      "existingId": "cached-12211-4647d29788b8e21a9d0f53ac",
+      "name": "障害者相談・制度利用促進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1199",
+      "existingId": "cached-12211-111ca6d0355afa81b6e9600a",
+      "name": "あじさい工房管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0231",
+      "existingId": "cached-12211-f74002bfa96d2dd174221563",
+      "name": "福祉団体補助事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0224",
+      "existingId": "cached-12211-b1dbc25c1fca3cbbd3c559f9",
+      "name": "手話通訳者等設置事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0223",
+      "existingId": "cached-12211-6f8cff0c9d5af2487f4fae02",
+      "name": "障害者社会参加促進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0230",
+      "existingId": "cached-12211-e39a4d0680dbc1a6b9c77017",
+      "name": "心身障害者扶養年金事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1930",
+      "existingId": "cached-12211-293ac11300396b861f3fcf8c",
+      "name": "障がい者雇用推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1950",
+      "existingId": "cached-12211-42a5598d19f67037c7dc89e0",
+      "name": "避難行動要支援者支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0190",
+      "existingId": "cached-12211-328a9404f7be2b43ff980369",
+      "name": "奉仕活動支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1887",
+      "existingId": "cached-12211-deeda0cdc16d8c0c93109dd9",
+      "name": "社会福祉法人等指導監査に関する事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0188",
+      "existingId": "cached-12211-bafaa4e67bcc54a2e3c69ea0",
+      "name": "社会福祉協議会支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1173",
+      "existingId": "cached-12211-778a65666d52773333cde053",
+      "name": "地域福祉センター管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0189",
+      "existingId": "cached-12211-a2605d464592deac61f9c113",
+      "name": "総合保健福祉計画策定事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0198",
+      "existingId": "cached-12211-7cde5940b6abc6879ab48726",
+      "name": "災害救助費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2212",
+      "existingId": "cached-12211-aa6c6c89e0a87e40a6f960ae",
+      "name": "電力・ガス・食料品等価格高騰重点支援給付金支給事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0186",
+      "existingId": "cached-12211-24900bcf396d9c8c15198f75",
+      "name": "行旅病人死亡人取扱費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0196",
+      "existingId": "cached-12211-dd47711b44d1b508d34e64b4",
+      "name": "生活保護扶助費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1593",
+      "existingId": "cached-12211-4b4f564c3653ba6062b7114d",
+      "name": "中国残留邦人支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1951",
+      "existingId": "cached-12211-d1f0e5e18626baa2f71bab99",
+      "name": "生活困窮者自立支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2274",
+      "existingId": "cached-12211-2179d4763af777dd6e212d46",
+      "name": "物価高騰重点支援給付金支給事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0195",
+      "existingId": "cached-12211-1406c00310006b8070339c86",
+      "name": "生活保護に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0248",
+      "existingId": "cached-12211-2b2c818ac6a0ac494351d9c5",
+      "name": "母子・父子家庭支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1090",
+      "existingId": "cached-12211-7e51500263aa5ef6d793d306",
+      "name": "母子・父子家庭自立支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0247",
+      "existingId": "cached-12211-ccdd36fc48c52385c056e3de",
+      "name": "母子生活支援施設等入所措置事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0250",
+      "existingId": "cached-12211-edbffb66c675757164936c6b",
+      "name": "児童扶養手当支給事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1610",
+      "existingId": "cached-12211-4f46d8fa1a5ddc6358db33f9",
+      "name": "差額ベッド料助成事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0122",
+      "existingId": "cached-12211-eef32c6a1ab336f33fb34b1f",
+      "name": "国民健康保険特別会計繰出金",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1609",
+      "existingId": "cached-12211-d20e5a500e0f23064bae6850",
+      "name": "後期高齢者医療特別会計繰出金",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1614",
+      "existingId": "cached-12211-351109d78b54c849931b566e",
+      "name": "後期高齢者医療広域連合負担金",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0125",
+      "existingId": "cached-12211-d58e45aab0f5ea25cb27de87",
+      "name": "国民年金事務に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2178",
+      "existingId": "cached-12211-9d07dfbd4236dbf50c36eecc",
+      "name": "がん患者等支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0276",
+      "existingId": "cached-12211-29f40c6ca56461a11a5c6bd6",
+      "name": "成人保健事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0266",
+      "existingId": "cached-12211-38d59861ea5d0240401da0eb",
+      "name": "予防接種事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2154",
+      "existingId": "cached-12211-8a5d4ee6dccaea636506abbe",
+      "name": "新型コロナウイルス感染症対策事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1686",
+      "existingId": "cached-12211-d48d44845f0039e664435432",
+      "name": "後期高齢者人間ドック事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0187",
+      "existingId": "cached-12211-82a64f5d7f6fe4f31fe3423d",
+      "name": "健康福祉フェア事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0258",
+      "existingId": "cached-12211-91aabb7841a239c06ebda74e",
+      "name": "保健福祉館管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1986",
+      "existingId": "cached-12211-31af734e795a16e17fd5fa42",
+      "name": "歯と口腔の健康づくり推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0269",
+      "existingId": "cached-12211-98ab51cdf2c252f5a8b0ab49",
+      "name": "結核・がん検診事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1615",
+      "existingId": "cached-12211-a0079d6d6ee53f8b981827ef",
+      "name": "後期高齢者健康診査事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0281",
+      "existingId": "cached-12211-848c69bae27376b879b09c10",
+      "name": "健康づくり推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0268",
+      "existingId": "cached-12211-e5c4474e4f7aa94f9cc86dfa",
+      "name": "健康診査事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0280",
+      "existingId": "cached-12211-857d4d46e07b8a37690fbb2f",
+      "name": "訪問指導事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0270",
+      "existingId": "cached-12211-e5b422cdee923504e5f2ebb3",
+      "name": "骨密度検査事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0262",
+      "existingId": "cached-12211-104c64e8a804a44f5cdfae53",
+      "name": "地域医療対策事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0282",
+      "existingId": "cached-12211-4528c1ba2ffa1859939708a4",
+      "name": "急病診療所管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0272",
+      "existingId": "cached-12211-b1f05897d1e521c99d4de927",
+      "name": "献血推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2048",
+      "existingId": "cached-12211-ccd4071d70b54d05933ce37b",
+      "name": "骨髄移植ドナー支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1693",
+      "existingId": "cached-12211-696ebea434494184ea2ecb26",
+      "name": "医療相談ほっとライン事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0461",
+      "existingId": "cached-12211-db78a1b83a65dc5400614133",
+      "name": "中学校教育情報化推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1547",
+      "existingId": "cached-12211-e1869a533fac2d8cbf2c33b0",
+      "name": "学校図書館司書配置事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1546",
+      "existingId": "cached-12211-8ffc9c168c68c51657ff9172",
+      "name": "養護補助員配置事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0472",
+      "existingId": "cached-12211-adec61c2fcc26bca55e50bac",
+      "name": "準教科書副読本購入に係る経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1588",
+      "existingId": "cached-12211-c043928492f035b0908ac234",
+      "name": "特別支援教育支援員配置事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0506",
+      "existingId": "cached-12211-35c75eb0c0641b202dbc37e1",
+      "name": "副読本整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0456",
+      "existingId": "cached-12211-44d653aab67e1a1d7a18ebf3",
+      "name": "小学校教育情報化推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0505",
+      "existingId": "cached-12211-1070d28ed1ca2645a8bf65cd",
+      "name": "学力調査事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1331",
+      "existingId": "cached-12211-5798f37bb4bb6bf76a162e9f",
+      "name": "教育振興基本計画策定事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0471",
+      "existingId": "cached-12211-1646a0ef82dbe5b6a454d139",
+      "name": "教師用教科書指導書購入に係る経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0475",
+      "existingId": "cached-12211-145796841fc00a299437ff5d",
+      "name": "個性を生かす教育推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0507",
+      "existingId": "cached-12211-4d5a64987db19d4cfa31df2d",
+      "name": "特色ある学校づくり事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0485",
+      "existingId": "cached-12211-98a55a904088d8122cb562ac",
+      "name": "学校給食施設整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0494",
+      "existingId": "cached-12211-1765b0768157fbc4e797c30a",
+      "name": "中学校管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0487",
+      "existingId": "cached-12211-03590024604960d86d7e9606",
+      "name": "小学校管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2076",
+      "existingId": "cached-12211-3b3c2423216f49072522b56f",
+      "name": "小学校長寿命化改良事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0495",
+      "existingId": "cached-12211-49a7eec2d85ae07843a84b33",
+      "name": "中学校施設維持整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0490",
+      "existingId": "cached-12211-55235f7094ba22754cde189c",
+      "name": "小学校施設維持整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2077",
+      "existingId": "cached-12211-b7714d0581a62d69bf84a9d3",
+      "name": "中学校長寿命化改良事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2031",
+      "existingId": "cached-12211-6f25b036fc6cb5301e02dc02",
+      "name": "本城小学校増築事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1257",
+      "existingId": "cached-12211-0b88462c05a31423d5ed7b22",
+      "name": "中学校バリアフリー整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2034",
+      "existingId": "cached-12211-b7fc9ee1b955a66021bc0585",
+      "name": "大栄地区小中一体型校舎建設事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1893",
+      "existingId": "cached-12211-b47b6b0104c61ac6a61e4a86",
+      "name": "大栄地区小中一体型校舎建設事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2097",
+      "existingId": "cached-12211-56536e98e0eb108a487ba21f",
+      "name": "平成小学校増築事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2217",
+      "existingId": "cached-12211-bc2526a5046d4daf61222d48",
+      "name": "成田小学校改築事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1628",
+      "existingId": "cached-12211-a9353db0324a8f197e4963ac",
+      "name": "学校問題解決支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1612",
+      "existingId": "cached-12211-11045e85e936a17bdc883fea",
+      "name": "小規模学校支援教員配置事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0473",
+      "existingId": "cached-12211-dd14a00e1579932160057bdc",
+      "name": "転出入学に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0499",
+      "existingId": "cached-12211-2c70870cd86ffb2e2f2bde20",
+      "name": "児童生徒就学支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2146",
+      "existingId": "cached-12211-4df68c3c05c8dce30cbb9dbd",
+      "name": "特認校支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0460",
+      "existingId": "cached-12211-f55ed103580150cbdc360edb",
+      "name": "中学校管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0502",
+      "existingId": "cached-12211-16fe85a8628c58d92b05d809",
+      "name": "校長会・教頭会支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0524",
+      "existingId": "cached-12211-2d8622b27ffe98ac58468aed",
+      "name": "中学校通学支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0470",
+      "existingId": "cached-12211-28230955dd62c6c1aaaa7d64",
+      "name": "学区の見直しに係る経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0514",
+      "existingId": "cached-12211-d8c87929f8042c43b40b7cbe",
+      "name": "教育支援センター運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0474",
+      "existingId": "cached-12211-4427eb230c1d7fadc1d3670d",
+      "name": "事故対策補助教員配置事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0455",
+      "existingId": "cached-12211-9c8c50dd5c6d7af7ebf3ca84",
+      "name": "小学校教材備品整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0483",
+      "existingId": "cached-12211-e1f3e21d2af0376ec5333e02",
+      "name": "学校災害救済事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0518",
+      "existingId": "cached-12211-1e348b9b7b3ff229f2e9aaa6",
+      "name": "小学校修学旅行補助事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0444",
+      "existingId": "cached-12211-1efaa1fcd7db16c50a3ecfcb",
+      "name": "教育委員会に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0449",
+      "existingId": "cached-12211-5f8391318f70ade1db62a264",
+      "name": "教職員住宅管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0515",
+      "existingId": "cached-12211-aa0611e1fc5d3f3fec52d1d0",
+      "name": "教育センター運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0519",
+      "existingId": "cached-12211-0d4e68a6c361832082bddd8e",
+      "name": "小学校通学支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0501",
+      "existingId": "cached-12211-53fb22ac3e23630dc0fc973d",
+      "name": "校外学習等実施事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0454",
+      "existingId": "cached-12211-891eb308602ce2352d75cd41",
+      "name": "小学校管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0526",
+      "existingId": "cached-12211-befd0cd2296b428ccbe7cdbd",
+      "name": "特別支援学級生徒支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0521",
+      "existingId": "cached-12211-6df0a9172be9e28d340a228a",
+      "name": "特別支援学級児童支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0478",
+      "existingId": "cached-12211-8e6e94ff5b70fd465ac229e5",
+      "name": "中学校就学援助費支給事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0462",
+      "existingId": "cached-12211-1cfb706df97f62aa7591154e",
+      "name": "中学校教材備品整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0477",
+      "existingId": "cached-12211-a1e7f2818c37aa501609a5dd",
+      "name": "小学校就学援助費支給事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0522",
+      "existingId": "cached-12211-d9f35ad0c4ce6040df3a0184",
+      "name": "文化部活動大会出場補助事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0532",
+      "existingId": "cached-12211-cbfdee42a8fae06c23194b8e",
+      "name": "就学援助費支給事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0445",
+      "existingId": "cached-12211-a5a52f1af922cd0661c6523d",
+      "name": "教育推進に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0523",
+      "existingId": "cached-12211-57d74c7f8be97bf974aa650d",
+      "name": "中学校修学旅行補助事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0450",
+      "existingId": "cached-12211-1ac54b67b6a601a202ff8138",
+      "name": "教育資金利子補給事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0451",
+      "existingId": "cached-12211-c3c098fccf537533109cd28f",
+      "name": "なりたの教育発行事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0529",
+      "existingId": "cached-12211-36d99f128aaec6fdad9edc05",
+      "name": "児童生徒等健康診断事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0484",
+      "existingId": "cached-12211-43c648eb1db09a901cbdceab",
+      "name": "学校給食事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2079",
+      "existingId": "cached-12211-1e7b627065e7920a0e3bf1f5",
+      "name": "課外活動支援指導者派遣事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2211",
+      "existingId": "cached-12211-4d7b55d2912bc918cfc5c8c1",
+      "name": "部活動地域移行モデル事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2232",
+      "existingId": "cached-12211-bc20ce62d296d3bf17209f41",
+      "name": "小中学校体育活動事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2189",
+      "existingId": "cached-12211-d9735069a4bcdddfb08daf17",
+      "name": "学校運営協議会推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1954",
+      "existingId": "cached-12211-2079db1baf36c4a84a0479ff",
+      "name": "学校支援地域本部事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1781",
+      "existingId": "cached-12211-7aa8df1385adbe17b4b86945",
+      "name": "家庭教育学級開催事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2225",
+      "existingId": "cached-12211-6a15b5adab588b8da2a51d7b",
+      "name": "大栄幼稚園整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1268",
+      "existingId": "cached-12211-3d31ff46ade0bbcf4ea421f6",
+      "name": "大栄幼稚園管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1993",
+      "existingId": "cached-12211-963e67a20c7cf4ad196ef2ce",
+      "name": "私立幼稚園幼児教育振興事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0595",
+      "existingId": "cached-12211-08436c7e2a87abd1996703f3",
+      "name": "成人式開催事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1905",
+      "existingId": "cached-12211-3549af6ee1d4ede4677397f2",
+      "name": "青少年健全育成事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0593",
+      "existingId": "cached-12211-626152e39df69b2089af8f9c",
+      "name": "青少年対策に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1906",
+      "existingId": "cached-12211-ff83c090076787db598dd45c",
+      "name": "子どもの居場所づくり推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1569",
+      "existingId": "cached-12211-af986fb692c520dd169c63b3",
+      "name": "放課後子ども教室推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0585",
+      "existingId": "cached-12211-e1b41c850606397d640425f9",
+      "name": "高等学校等開放講座開催事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0636",
+      "existingId": "cached-12211-9ebabce98871f1ecd16d6c95",
+      "name": "公民館運営に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1902",
+      "existingId": "cached-12211-c185eff4d4de46a0e1739593",
+      "name": "生涯大学校管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0590",
+      "existingId": "cached-12211-e31ba66b3924761fc46e0f8d",
+      "name": "明治大学・成田社会人大学運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0637",
+      "existingId": "cached-12211-7aa2a8a157161f45a792cc26",
+      "name": "公民館講座教室等開催事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0639",
+      "existingId": "cached-12211-8d6213933943e8f2781670e8",
+      "name": "公民館だより発行事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1903",
+      "existingId": "cached-12211-5c09a40118b4ff5898273e4f",
+      "name": "社会教育振興に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0641",
+      "existingId": "cached-12211-4cf6d3cc22cf3732e95b9c65",
+      "name": "公民館まつり事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1904",
+      "existingId": "cached-12211-da17c1132286e7aebb376b47",
+      "name": "生涯学習推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0654",
+      "existingId": "cached-12211-8aae63e6309eeda758cc48e8",
+      "name": "図書整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1269",
+      "existingId": "cached-12211-7b5fee9c1edbf87c3ade4d4b",
+      "name": "図書館事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0650",
+      "existingId": "cached-12211-507469bb114425aef340b99c",
+      "name": "図書館運営に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0651",
+      "existingId": "cached-12211-d7e8d8a3c2180f82366daa1f",
+      "name": "図書館施設維持管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0638",
+      "existingId": "cached-12211-72b3f43a2f7d242700078dc1",
+      "name": "公民館施設維持管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0587",
+      "existingId": "cached-12211-bf3c96039b9369251a5fecf9",
+      "name": "美郷台地区会館管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0586",
+      "existingId": "cached-12211-1881ad8bc9513b5966100e7e",
+      "name": "生涯学習会館管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2229",
+      "existingId": "cached-12211-465500687a149df7ab3fb6c4",
+      "name": "国際文化会館管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2231",
+      "existingId": "cached-12211-6e0a9c9034f5818655802a08",
+      "name": "文化芸術振興事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0594",
+      "existingId": "cached-12211-ed5939740ee79c177faae733",
+      "name": "青少年劇場開催事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2230",
+      "existingId": "cached-12211-49aeaf0936f48d45f96a9537",
+      "name": "文化芸術センター管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2228",
+      "existingId": "cached-12211-6d73192936fa5576db717b45",
+      "name": "国際文化会館施設整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0601",
+      "existingId": "cached-12211-70bda459e4809546610631b7",
+      "name": "文化財に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1299",
+      "existingId": "cached-12211-fcbcd3921508bfe4cd31b806",
+      "name": "下総歴史民俗資料館管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1782",
+      "existingId": "cached-12211-4f8633c16e90547426fec2e6",
+      "name": "埋蔵文化財調査事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2174",
+      "existingId": "cached-12211-3ca6b8e9d5ca80b3ae5b8977",
+      "name": "文化財保存展示施設管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0653",
+      "existingId": "cached-12211-e264e0bccd13e6100cbede31",
+      "name": "市史編さん事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1907",
+      "existingId": "cached-12211-b1b751198761daab48dac326",
+      "name": "文化財保護啓発事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1908",
+      "existingId": "cached-12211-6425b163b141cbbaf6d0f97f",
+      "name": "文化財等維持管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0613",
+      "existingId": "cached-12211-0b7310124d5b89818de72a23",
+      "name": "三里塚御料牧場記念館管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2241",
+      "existingId": "cached-12211-15e96aebdf81b5bfdb9c7830",
+      "name": "学校体育施設開放事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2234",
+      "existingId": "cached-12211-26348422af67f2865d84ae64",
+      "name": "スポーツ振興マスタープラン推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2238",
+      "existingId": "cached-12211-fef6ea1bacd95597db7e1997",
+      "name": "各種大会教室等の開催事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2239",
+      "existingId": "cached-12211-e6c9c314d77930f6173a6cdf",
+      "name": "スポーツ団体育成事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2240",
+      "existingId": "cached-12211-7f44eef63a14df017041e622",
+      "name": "スポーツ推進委員活動事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2236",
+      "existingId": "cached-12211-0e9beae2501bdaedc02e85e7",
+      "name": "競技力向上事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2243",
+      "existingId": "cached-12211-383a4a93f85d68b1d767e8bd",
+      "name": "大栄野球場等管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2242",
+      "existingId": "cached-12211-9aa664234f02a7d4e640e856",
+      "name": "スポーツ広場等管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0635",
+      "existingId": "cached-12211-b75b11e9d9ec5a3b2c214c4c",
+      "name": "運動公園等整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2248",
+      "existingId": "cached-12211-181a994385b3da145eceb666",
+      "name": "スポーツ広場等整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2245",
+      "existingId": "cached-12211-04a47d1b216733de2cc4ec8e",
+      "name": "運動公園等管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2222",
+      "existingId": "cached-12211-b0e3ec1cfc2f62c069437cc7",
+      "name": "東小学校跡地複合施設管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2244",
+      "existingId": "cached-12211-a1117efc680cc0ca794d77a1",
+      "name": "地区運動施設管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2249",
+      "existingId": "cached-12211-c095b90e53e44edbfdc0959d",
+      "name": "運動公園等整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2057",
+      "existingId": "cached-12211-8f3a3ecc69f6fe2c66414652",
+      "name": "東小学校跡地パークゴルフ場・複合施設整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2246",
+      "existingId": "cached-12211-677745b511bdb7ee483f9591",
+      "name": "豊住ふれあい健康館管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2247",
+      "existingId": "cached-12211-b716ece07848bfa7dfb548bf",
+      "name": "パークゴルフ場管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0511",
+      "existingId": "cached-12211-b1f9e3eaf9a29b62f78f7aab",
+      "name": "英語科研究推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1548",
+      "existingId": "cached-12211-b90f418e27c86577d253eae5",
+      "name": "日本語教育補助員配置事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0022",
+      "existingId": "cached-12211-00b378f4dd844aafc25ca99d",
+      "name": "国際交流事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1962",
+      "existingId": "cached-12211-9feb655f61795a96f468489c",
+      "name": "産業集積推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1203",
+      "existingId": "cached-12211-51c1aa772b004d92484bdc4a",
+      "name": "企業立地促進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2237",
+      "existingId": "cached-12211-e29ed2dc85d5740bd3e3cc8f",
+      "name": "各種競技大会誘致事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2235",
+      "existingId": "cached-12211-c92dd43935df53c95d73c3c5",
+      "name": "スポーツツーリズム推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1901",
+      "existingId": "cached-12211-67c1a2f04571a40e06f715e3",
+      "name": "成田ブランド推進戦略事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1256",
+      "existingId": "cached-12211-a0cbfc722b14a6603984bf60",
+      "name": "国土調査費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1595",
+      "existingId": "cached-12211-89f84768d17cd338e71f68f7",
+      "name": "指定道路情報管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0416",
+      "existingId": "cached-12211-bdb6b1c4b4a1f57b936633e9",
+      "name": "建築指導に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0413",
+      "existingId": "cached-12211-5eb63dc5785f0b691c275ffc",
+      "name": "都市計画策定事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0414",
+      "existingId": "cached-12211-79083bdbc466b6904177e306",
+      "name": "都市計画図等整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2147",
+      "existingId": "cached-12211-93dbe331f1343829f5ef6946",
+      "name": "（仮称）東和田南部土地区画整理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2086",
+      "existingId": "cached-12211-9d6eddf57d63e433c943faba",
+      "name": "（仮称）吉倉・久米野土地区画整理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1755",
+      "existingId": "cached-12211-2db1071fc292d1d589991c60",
+      "name": "不動ケ岡土地区画整理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0420",
+      "existingId": "cached-12211-c5295ab937e4b47ad33561fa",
+      "name": "表参道整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1767",
+      "existingId": "cached-12211-7c8a51fbb4b20be0f38db62c",
+      "name": "赤坂センター地区複合施設整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0403",
+      "existingId": "cached-12211-bd2a25cf3312002b6499b1f2",
+      "name": "側溝・排水整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0386",
+      "existingId": "cached-12211-ab335f6ead07fb4132ee4bc0",
+      "name": "生活道路整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2148",
+      "existingId": "cached-12211-9d8e3c9a87e84bcea3714932",
+      "name": "東関東自動車道インターチェンジ連絡道路整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0385",
+      "existingId": "cached-12211-dad332fcfd64a4c85a9ffc23",
+      "name": "道路整備促進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0387",
+      "existingId": "cached-12211-8dadba831a94a1104738959c",
+      "name": "幹線道路整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0678",
+      "existingId": "cached-12211-3c3824f305128566fcb91bc8",
+      "name": "コミュニティバス運行事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2044",
+      "existingId": "cached-12211-37f19b513c27a7b93f318bca",
+      "name": "公共交通計画推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0677",
+      "existingId": "cached-12211-79ceea1011127adcd94a9cb5",
+      "name": "路線バス運行支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0395",
+      "existingId": "cached-12211-c742c15acbffa82e07655571",
+      "name": "土木総務管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0401",
+      "existingId": "cached-12211-aa8468d834b4dd00bc99878a",
+      "name": "市道維持修繕事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0397",
+      "existingId": "cached-12211-0701c9bc46824a4522031670",
+      "name": "道路台帳整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0398",
+      "existingId": "cached-12211-d9e2245a7943d19404b3bbb4",
+      "name": "道路等補修事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0399",
+      "existingId": "cached-12211-3746989f9824ceeb4141f3e4",
+      "name": "橋りょう補修事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0400",
+      "existingId": "cached-12211-43b2f5fdea90d605e8ae316c",
+      "name": "道路施設等管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0402",
+      "existingId": "cached-12211-a33f47f40194e8fadbb09f61",
+      "name": "街路樹管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0097",
+      "existingId": "cached-12211-a9c02478d798d9a3607a135e",
+      "name": "芝山鉄道補助事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0011",
+      "existingId": "cached-12211-2b745e73ad1ae42077538b1c",
+      "name": "鉄道計画推進に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1963",
+      "existingId": "cached-12211-1c3a5655dc81f26661d117c1",
+      "name": "国家戦略特区推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0317",
+      "existingId": "cached-12211-59fb2acc5de9d15e3f6f72d1",
+      "name": "迎春対策事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0320",
+      "existingId": "cached-12211-6d67b25b170403b616363174",
+      "name": "観光協会支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0315",
+      "existingId": "cached-12211-1a320d2b60c5c50ef2bf0f2c",
+      "name": "成田祇園祭ＰＲ事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0314",
+      "existingId": "cached-12211-f535ac7af295ef75eb928f2e",
+      "name": "観光ＰＲ事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0321",
+      "existingId": "cached-12211-fa7081f565fba7d4633210a5",
+      "name": "観光活性化事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2029",
+      "existingId": "cached-12211-5235d2bdac130f4550e6f59e",
+      "name": "表参道銀行跡地利活用事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1264",
+      "existingId": "cached-12211-dc570c84ffea6c111ef2922c",
+      "name": "観光ふるさと推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0326",
+      "existingId": "cached-12211-0c72c9a4565102161b75387c",
+      "name": "観光に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0312",
+      "existingId": "cached-12211-f60a0ffb0f73d506c382dd2f",
+      "name": "公衆便所管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0311",
+      "existingId": "cached-12211-d4c21509c9d77b59fdb8e1f2",
+      "name": "甚兵衛公園管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1929",
+      "existingId": "cached-12211-9ccd55f0113fca2a95c54465",
+      "name": "さくらの山管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0307",
+      "existingId": "cached-12211-79f91786aa0c62e3534c5b16",
+      "name": "東和田駐車場管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0309",
+      "existingId": "cached-12211-fa7ad65c05987985ec1d207b",
+      "name": "観光案内所運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0308",
+      "existingId": "cached-12211-44de072cf42ed808baee178d",
+      "name": "観光館管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1799",
+      "existingId": "cached-12211-43eba27e0589416fc3ceb0ba",
+      "name": "国際観光振興事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0310",
+      "existingId": "cached-12211-cd5728dfb355357eaa294910",
+      "name": "成田空港第２ターミナルＶ案内所運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0366",
+      "existingId": "cached-12211-d9ee1c0fcf0cdec7f5dd60fc",
+      "name": "農道整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0378",
+      "existingId": "cached-12211-d28bde0637d8efe0d15de890",
+      "name": "土地改良促進事業に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1230",
+      "existingId": "cached-12211-c5440b772d84270d227aa24f",
+      "name": "国営土地改良事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0368",
+      "existingId": "cached-12211-edd24c4ca9906d8846a218b8",
+      "name": "排水機場管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0371",
+      "existingId": "cached-12211-0f7029e47112d58c9e77fe18",
+      "name": "農業用基盤施設保全事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1550",
+      "existingId": "cached-12211-b82a72e28f3d013817813966",
+      "name": "土地改良区振興事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0354",
+      "existingId": "cached-12211-7f646bb0f0f0846479340f37",
+      "name": "農用地利用計画明確化事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0367",
+      "existingId": "cached-12211-64f1088d020d5568fe5ebaf4",
+      "name": "排水路整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0570",
+      "existingId": "cached-12211-2379891abb02f20a96d45e9e",
+      "name": "農業委員会運営費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0347",
+      "existingId": "cached-12211-42ab0b8e797917f50045db3c",
+      "name": "栽培漁業振興総合対策事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1856",
+      "existingId": "cached-12211-b75430ac3cbb50b53938b718",
+      "name": "農地・水保全管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0341",
+      "existingId": "cached-12211-d4dee5259c9030be8f365e99",
+      "name": "病害虫防除事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1788",
+      "existingId": "cached-12211-0a8855f04e761c67563d2573",
+      "name": "農業総務に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1853",
+      "existingId": "cached-12211-3f5f5fe4fe0027cb33a16712",
+      "name": "環境保全型農業推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0336",
+      "existingId": "cached-12211-51234af5dfdc135ee1a641e1",
+      "name": "有害鳥獣駆除事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1789",
+      "existingId": "cached-12211-e8a31a1fa30ecfc7f0518c0c",
+      "name": "水田農業構造改革対策事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0338",
+      "existingId": "cached-12211-a14c0821d902e2d3c547d39f",
+      "name": "園芸用廃プラスチック処理対策推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1793",
+      "existingId": "cached-12211-58af085935f95ca5a41377ab",
+      "name": "森林保全事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1798",
+      "existingId": "cached-12211-6eb627217726ae1c53e2823d",
+      "name": "畜産振興事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1325",
+      "existingId": "cached-12211-c26d082fdbafe875efd69886",
+      "name": "農産物加工施設管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1790",
+      "existingId": "cached-12211-ad89b37b553406dd5ee31d77",
+      "name": "農産物消費宣伝事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0355",
+      "existingId": "cached-12211-00a17730cf3acaac3d925336",
+      "name": "市民農園貸付事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1567",
+      "existingId": "cached-12211-40feb19abeede4e89ac02aba",
+      "name": "都市・農村交流促進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0340",
+      "existingId": "cached-12211-27cf0083c2896fa6d99a8921",
+      "name": "農業団体育成事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0359",
+      "existingId": "cached-12211-3912a785f1a37d2a2dadd9e1",
+      "name": "担い手育成対策事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1896",
+      "existingId": "cached-12211-cf24f5ba134fb0f743014176",
+      "name": "新規就農者支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1792",
+      "existingId": "cached-12211-635016e275f5cc4f41380220",
+      "name": "農産物品質及び生産性向上事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1794",
+      "existingId": "cached-12211-52f128dabf04a617d72e8f78",
+      "name": "農業制度資金利子補給事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1964",
+      "existingId": "cached-12211-f3c9fa31ce433f1626a9b017",
+      "name": "農地集積・集約化対策事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0339",
+      "existingId": "cached-12211-d01e89c0597c78fa9f66e236",
+      "name": "集団営農用機械施設整備事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0571",
+      "existingId": "cached-12211-d59e31d5d2428c4a053376f0",
+      "name": "農業者年金事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0361",
+      "existingId": "cached-12211-90a62902f013f592e7e8654e",
+      "name": "農業センター活動支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0337",
+      "existingId": "cached-12211-563395a4806c50d5a603430f",
+      "name": "園芸振興対策推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1791",
+      "existingId": "cached-12211-3c8db801495ae2bf86d64789",
+      "name": "強い農業づくり支援対策事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1797",
+      "existingId": "cached-12211-8ed6872a3bfb2397de1fe9a4",
+      "name": "農業経営強化対策推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0296",
+      "existingId": "cached-12211-b0e1bd719e70c62c0b4089a4",
+      "name": "産業まつり開催事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0302",
+      "existingId": "cached-12211-1ab5afc0554aca55f9969c65",
+      "name": "商工団体支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0303",
+      "existingId": "cached-12211-b816cbfa3b0d1313cd2e7a8a",
+      "name": "中小企業資金融資事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2022",
+      "existingId": "cached-12211-94e45ead3895e70642181a9b",
+      "name": "中小企業若手人材確保支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0298",
+      "existingId": "cached-12211-4cd058f3f1b6a98b0ce2658c",
+      "name": "商工業振興に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0305",
+      "existingId": "cached-12211-4f5920aa19d3b30aabd03743",
+      "name": "中心市街地活性化事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0300",
+      "existingId": "cached-12211-3f16b6e23f9e6e767dd0eaab",
+      "name": "商店街共同施設設置等支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0299",
+      "existingId": "cached-12211-2f289e1d12638f780e2c4da3",
+      "name": "第一・第二・第三駐車場管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0301",
+      "existingId": "cached-12211-a6d10b25886bb1a934e3bfe3",
+      "name": "商店街振興支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0304",
+      "existingId": "cached-12211-c332949053e53c922248733f",
+      "name": "工業振興支援事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0289",
+      "existingId": "cached-12211-294c94840744500271edb067",
+      "name": "雇用促進奨励金交付事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0288",
+      "existingId": "cached-12211-f5081dc5d1258cee2b478918",
+      "name": "中小企業退職金共済掛金補助事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0293",
+      "existingId": "cached-12211-3c7c3f916a105d5183bf01e1",
+      "name": "就業技術援助事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0290",
+      "existingId": "cached-12211-8d1580e38575f101fa6fcc3e",
+      "name": "永年勤続従業員表彰推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0292",
+      "existingId": "cached-12211-d14f1f915fe93b79593f3192",
+      "name": "勤労会館管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0191",
+      "existingId": "cached-12211-13c8fb7095e4ff7886f6c266",
+      "name": "更生保護事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0072",
+      "existingId": "cached-12211-5f0e18aac02da0a801f1e9f0",
+      "name": "市民憲章推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0023",
+      "existingId": "cached-12211-83bf1acce50882b2dbdc879a",
+      "name": "平和啓発事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1960",
+      "existingId": "cached-12211-1880107be2f7bb6befacc81e",
+      "name": "男女共同参画センター運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1958",
+      "existingId": "cached-12211-a3f9d21110197ace2ed39584",
+      "name": "男女共同参画講座開催事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1957",
+      "existingId": "cached-12211-68dfd45ceb0b56d98038eb95",
+      "name": "男女共同参画推進に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0135",
+      "existingId": "cached-12211-971061d88e651f623ec0efee",
+      "name": "自治組織等運営活動促進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0130",
+      "existingId": "cached-12211-fccb516372f37de7a5fea7f9",
+      "name": "地域コミュニティ推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2032",
+      "existingId": "cached-12211-557563f3abb25cefe6bc7fea",
+      "name": "コミュニティセンター管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2051",
+      "existingId": "cached-12211-a8fc817a19e834c078f1d72a",
+      "name": "中郷ふるさと交流館管理運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0132",
+      "existingId": "cached-12211-044d997393f6a48b44882a98",
+      "name": "集会施設等維持管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0127",
+      "existingId": "cached-12211-137a22549252c95041757d30",
+      "name": "市政懇談会開催事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0446",
+      "existingId": "cached-12211-4e3868682926e3b1b5206812",
+      "name": "教育表彰事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1987",
+      "existingId": "cached-12211-08a54c2a66b4b698f2ba071d",
+      "name": "市民参画推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1188",
+      "existingId": "cached-12211-2effb6a91d0965b230f2aa42",
+      "name": "行政評価事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2165",
+      "existingId": "cached-12211-49498d12bf35b3bb05240a46",
+      "name": "市制施行７０周年記念事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0010",
+      "existingId": "cached-12211-64569c0339a68f49280e1b24",
+      "name": "総合計画策定事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1956",
+      "existingId": "cached-12211-5daeaa026610016838a21b05",
+      "name": "総合戦略策定事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0034",
+      "existingId": "cached-12211-4a86ab491cfdacdd8351acb5",
+      "name": "職員研修事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0035",
+      "existingId": "cached-12211-74e4c24302241625cb2c24b9",
+      "name": "職員安全衛生管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0036",
+      "existingId": "cached-12211-28eea69f43cefc13314871fb",
+      "name": "職員厚生事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0567",
+      "existingId": "cached-12211-4b41590b2cc04d5789ed3e3f",
+      "name": "議員活動に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0566",
+      "existingId": "cached-12211-0fda56d71f883afa255cf253",
+      "name": "議会運営費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1207",
+      "existingId": "cached-12211-518cc577b80b47f3cc04c162",
+      "name": "大栄支所の運営管理に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0067",
+      "existingId": "cached-12211-e0af7cb55a1b92a120629d27",
+      "name": "顧問弁護士等に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0070",
+      "existingId": "cached-12211-aa451b6010362c753ac42a22",
+      "name": "文書管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0563",
+      "existingId": "cached-12211-0aad2a2d96620f63140518ec",
+      "name": "会計管理費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1656",
+      "existingId": "cached-12211-6edc1e38cb12a75fd6fd28eb",
+      "name": "賦課事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0090",
+      "existingId": "cached-12211-100087562b80e8057b9694b0",
+      "name": "市有自動車等管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0077",
+      "existingId": "cached-12211-d0306184a4db54b36dda9a1d",
+      "name": "財政管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0069",
+      "existingId": "cached-12211-73ba973d03839253af1543f0",
+      "name": "例規管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1208",
+      "existingId": "cached-12211-21f20b82c7baa36ba01e6392",
+      "name": "大栄支所の施設管理に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0086",
+      "existingId": "cached-12211-80be7c8914d0a9ad0b089206",
+      "name": "固定資産評価事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0091",
+      "existingId": "cached-12211-db27b5125005ab88ef752bcd",
+      "name": "契約事務に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1882",
+      "existingId": "cached-12211-36edc919c4805e878e747902",
+      "name": "コンプライアンスの推進に係る経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0016",
+      "existingId": "cached-12211-c5475f4bc4d067c91d7a3fe5",
+      "name": "行政改革推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0084",
+      "existingId": "cached-12211-4b72e9b604b6364d64e8ac00",
+      "name": "税務管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0094",
+      "existingId": "cached-12211-9dfe7ad398da2063eab0ed2d",
+      "name": "工事検査事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1206",
+      "existingId": "cached-12211-fcf6b465ad46013f795ff4d5",
+      "name": "下総支所の施設管理に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1657",
+      "existingId": "cached-12211-787f2f8951f30bd52be69d09",
+      "name": "徴収事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1205",
+      "existingId": "cached-12211-c41e82fd812f5d503e0d0b06",
+      "name": "下総支所の運営管理に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2263",
+      "existingId": "cached-12211-516383e0400a80a3f510b3c0",
+      "name": "定額減税調整給付金支給事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0089",
+      "existingId": "cached-12211-88cf9d7fee3ea487f6ae4ee3",
+      "name": "庁舎管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1892",
+      "existingId": "cached-12211-0de7d4b0dbb42eee6314a166",
+      "name": "資産経営管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0088",
+      "existingId": "cached-12211-d6381532b9471b74985d8b48",
+      "name": "市有財産管理事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1847",
+      "existingId": "cached-12211-36a017b57937bc70df190116",
+      "name": "学校跡地利活用事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0119",
+      "existingId": "cached-12211-56869e1d3bb687e444a7c1b2",
+      "name": "戸籍住民基本台帳に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1898",
+      "existingId": "cached-12211-5941909dd7bc080562bfc70a",
+      "name": "証明書コンビニ交付事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1999",
+      "existingId": "cached-12211-ad744498ef4c197a5b16ba28",
+      "name": "旅券発給事務申請交付事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "2098",
+      "existingId": "cached-12211-8ac09e7ddf630621c79cf1b0",
+      "name": "外国人に係る総合相談窓口運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0129",
+      "existingId": "cached-12211-0298e5ca7a5f486130872853",
+      "name": "各種相談事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0120",
+      "existingId": "cached-12211-f7688a432ee626df9ac71b98",
+      "name": "住民基本台帳ネットワーク事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0071",
+      "existingId": "cached-12211-508e073b6a0da854a406e23d",
+      "name": "行政資料室運営事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1982",
+      "existingId": "cached-12211-51905409bdbb7b686c1903d3",
+      "name": "個人番号カード等交付事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0074",
+      "existingId": "cached-12211-3a9e2eb7820ef88e9dcc3843",
+      "name": "電子自治体推進事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0068",
+      "existingId": "cached-12211-2a026d48bea644196797c884",
+      "name": "情報公開及び個人情報保護制度事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0573",
+      "existingId": "cached-12211-411c92583368e5d89ecd4778",
+      "name": "選挙啓発に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0572",
+      "existingId": "cached-12211-e8d3db0184f884a12d0550d3",
+      "name": "選挙管理委員会運営に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1143",
+      "existingId": "cached-12211-c5f9e1ca2f6a22255a0049fb",
+      "name": "千葉県知事選挙に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1147",
+      "existingId": "cached-12211-03cfb7ad2d132d21ae97e4e7",
+      "name": "衆議院議員選挙に関する経費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0026",
+      "existingId": "cached-12211-5a8deb87c57786d18da8d002",
+      "name": "ふるさとガイド発行事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0073",
+      "existingId": "cached-12211-dbd0b409b1cedaef9258c5fd",
+      "name": "自衛官募集事務事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0028",
+      "existingId": "cached-12211-f9c07765d87fc6a43c0d1ba8",
+      "name": "行政情報番組制作・放送事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0030",
+      "existingId": "cached-12211-b5968615753383fe863baa20",
+      "name": "インターネット広報事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0568",
+      "existingId": "cached-12211-5771a9a4f73d79623e130a56",
+      "name": "議会だより発行事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0025",
+      "existingId": "cached-12211-6e0e5e422d03dfa21f7326a5",
+      "name": "広報なりた発行事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0128",
+      "existingId": "cached-12211-2b6194501632eef03adb7591",
+      "name": "市長への手紙・電子メール事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1965",
+      "existingId": "cached-12211-b68b33c9c8a0af01654fa549",
+      "name": "市政モニター事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0001",
+      "existingId": "cached-12211-1cbabe4756fbfbbf8275338c",
+      "name": "統計調査員確保対策事業",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "0002",
+      "existingId": "cached-12211-6876eb5f5ae0252c4a8c4723",
+      "name": "統計調査事務費",
+      "sourceMatched": true
+    },
+    {
+      "projectCode": "1981",
+      "existingId": "cached-12211-60f02855d19abaf48664611d",
+      "name": "情報セキュリティ対策事業",
+      "sourceMatched": true
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "reviewedRows": 44,
+  "acceptedNames": 40,
+  "duplicateRows": [
+    {
+      "index": 12,
+      "name": "地域福祉バス借上料補助金",
+      "year": 2025,
+      "status": "same_individual_sheet_in_funabashi20"
+    },
+    {
+      "index": 13,
+      "name": "学校体育活動事業費",
+      "year": 2025,
+      "status": "same_individual_sheet_in_funabashi20"
+    },
+    {
+      "index": 16,
+      "name": "健康ポイント事業費（ふなばし健康ポイント事業）",
+      "year": 2022,
+      "status": "same_annual_evaluation_repeated_in_later_followup"
+    },
+    {
+      "index": 18,
+      "name": "産後ケア事業費",
+      "year": 2023,
+      "status": "same_annual_evaluation_repeated_in_later_followup"
+    }
+  ],
+  "rule": "Evaluation-year column R4/R5/R6 is separate from followup budget year R5–R8. No amounts/status assumptions. Retain qualified subproject names;do not merge distinct subsidy components."
+}

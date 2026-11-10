@@ -1,0 +1,3028 @@
+{
+  "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "verifiedSourceCount": 19,
+  "existingRecords": 304,
+  "newCandidates": 39,
+  "newCompletePairedSheets": 7,
+  "newEvaluationListIdentities": 32,
+  "newFinancialFields": 0,
+  "newRatings": 0,
+  "recordChanges": 0,
+  "remaining": "R5/R6 target-list aliases and broader-versus-named river entries remain separate coverage review, not access failures. No new bodies fetched. Two R6 printed sheet-code contradictions retained verbatim, code unset; matching name/year used only for identity, not numerical joins.",
+  "sourceReviews": [
+    {
+      "sourceId": "086a3c79e897e69568f87b12",
+      "sourceSha256": "df2063c81adc4439ff09187cba9841b184d18555e08a7556233d9892cf52cada",
+      "textSha256": "72a40c2116896e5bb8801d77286124f317e0c4a7ab9544855990ce9ba3ec6965",
+      "characters": 41922,
+      "headings": 38,
+      "rows": [
+        {
+          "start": 0,
+          "year": 2024,
+          "name": "防災行政無線施設事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-5c1ade804b98b444d1ca1d2e"
+          ]
+        },
+        {
+          "start": 1974,
+          "year": 2024,
+          "name": "自主防災組織支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-af2bba70be911bc1e05f49a4"
+          ]
+        },
+        {
+          "start": 4066,
+          "year": 2024,
+          "name": "浸水防止対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-cf2b22f376fd0e0d304034bd"
+          ]
+        },
+        {
+          "start": 6109,
+          "year": 2024,
+          "name": "災害非常用対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-46f8d3b5aece8a0bbaf713e9"
+          ]
+        },
+        {
+          "start": 8280,
+          "year": 2024,
+          "name": "道路改良事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-cb981161aa4ec7e3a24961ed"
+          ]
+        },
+        {
+          "start": 10429,
+          "year": 2024,
+          "name": "道路橋梁維持補修費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-c91768ac45d530d1b76f9f83"
+          ]
+        },
+        {
+          "start": 12789,
+          "year": 2024,
+          "name": "橋梁長寿命化修繕事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-e60c18425cb9d85f4a9cff7a"
+          ]
+        },
+        {
+          "start": 15151,
+          "year": 2024,
+          "name": "河川改修事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-6584e38d1561dde7b026e1f1"
+          ]
+        },
+        {
+          "start": 16990,
+          "year": 2024,
+          "name": "内水対策関連事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-fad74ff19e6a6d8dde9cb8ae"
+          ]
+        },
+        {
+          "start": 18951,
+          "year": 2024,
+          "name": "田んぼダム促進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-b71205af915cbd027fdb4a5a"
+          ]
+        },
+        {
+          "start": 20753,
+          "year": 2024,
+          "name": "防犯対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-780fb7df8566dc28da84d015"
+          ]
+        },
+        {
+          "start": 23325,
+          "year": 2024,
+          "name": "防犯設備設置・管理費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-31d64b129e9eb3e4e8e5166e"
+          ]
+        },
+        {
+          "start": 25649,
+          "year": 2024,
+          "name": "交通安全対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-40a19ce4bb86dcbdd628cdd6"
+          ]
+        },
+        {
+          "start": 28171,
+          "year": 2024,
+          "name": "交通安全対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-40a19ce4bb86dcbdd628cdd6"
+          ]
+        },
+        {
+          "start": 30368,
+          "year": 2024,
+          "name": "交通安全施設の整備",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-9d04179320c0f94db5169ce1"
+          ]
+        },
+        {
+          "start": 32498,
+          "year": 2024,
+          "name": "交通安全施設管理事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-28c997a597dd22cae21b7e19"
+          ]
+        },
+        {
+          "start": 34778,
+          "year": 2024,
+          "name": "放置自転車等対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-398c28f7980349d0410911a3"
+          ]
+        },
+        {
+          "start": 37052,
+          "year": 2024,
+          "name": "自転車駐車場管理運営費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-03d1be0fbf44b17feeb9c1f7"
+          ]
+        },
+        {
+          "start": 39332,
+          "year": 2024,
+          "name": "消費生活相談事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-7698a742498fb05b47c88657"
+          ]
+        }
+      ],
+      "status": "individual_sheets_reviewed"
+    },
+    {
+      "sourceId": "1898ff2fca2a7ba165547286",
+      "sourceSha256": "14915a594ce77643965b783a5ccdc83a674966681be433fb8f9da2182c4ed180",
+      "textSha256": "51053a4031289c17935f05f0dfac2dbcaf879df533e9492c751bc3c83b4340cf",
+      "characters": 53216,
+      "headings": 48,
+      "rows": [
+        {
+          "start": 0,
+          "year": 2023,
+          "name": "農道整備事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-608192dcc5f27be6862e8401"
+          ]
+        },
+        {
+          "start": 2112,
+          "year": 2023,
+          "name": "用排水施設整備事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-3c961260cb0482f21fe09b02"
+          ]
+        },
+        {
+          "start": 4294,
+          "year": 2023,
+          "name": "用排水施設維持管理費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-6f1c51f85bf1b468de0e5cfc"
+          ]
+        },
+        {
+          "start": 6334,
+          "year": 2023,
+          "name": "農業経営基盤強化促進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-b606b7a0112eee07de45e628"
+          ]
+        },
+        {
+          "start": 8586,
+          "year": 2023,
+          "name": "農業者育成支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-b5097ae510205f612f81c573"
+          ]
+        },
+        {
+          "start": 10761,
+          "year": 2023,
+          "name": "需給調整推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-95363ad64e7fca3d02eef8e6"
+          ]
+        },
+        {
+          "start": 13211,
+          "year": 2023,
+          "name": "稲作生産効率化促進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-f1a81fa04fb8845a4ec64901"
+          ]
+        },
+        {
+          "start": 15688,
+          "year": 2023,
+          "name": "園芸農産振興事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-b7bdae842b9e893ff66c7b96"
+          ]
+        },
+        {
+          "start": 17953,
+          "year": 2023,
+          "name": "畜産振興事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-c325ed6229c0a33d902245c5"
+          ]
+        },
+        {
+          "start": 19913,
+          "year": 2023,
+          "name": "環境にやさしい農業推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-05aa2a2f098d94ba16bf3c71"
+          ]
+        },
+        {
+          "start": 22159,
+          "year": 2023,
+          "name": "有害鳥獣駆除事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-fc8af68280f8f3c3546db58d"
+          ]
+        },
+        {
+          "start": 24555,
+          "year": 2023,
+          "name": "農産物直売所運営支援費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-420784665eb979b68d60c69d"
+          ]
+        },
+        {
+          "start": 26605,
+          "year": 2023,
+          "name": "茂原六斎市再活性化事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-b5397e54f0ad80d4b9c0b67d"
+          ]
+        },
+        {
+          "start": 28901,
+          "year": 2023,
+          "name": "森林整備事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-018277329eb2061d10e4a69d"
+          ]
+        },
+        {
+          "start": 31183,
+          "year": 2023,
+          "name": "商業振興対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-3d133562a9246319065eb857"
+          ]
+        },
+        {
+          "start": 33077,
+          "year": 2023,
+          "name": "企業立地促進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-ea24b1ddca9d3c02b3d629c2"
+          ]
+        },
+        {
+          "start": 34953,
+          "year": 2023,
+          "name": "産業育成促進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-8450689698e58c659b4cfed0"
+          ]
+        },
+        {
+          "start": 37180,
+          "year": 2023,
+          "name": "商工団体支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-5e35a92764c5145a147db32a"
+          ]
+        },
+        {
+          "start": 39291,
+          "year": 2023,
+          "name": "中小事業者サポート事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-2831ca842a6437e6d1446875"
+          ]
+        },
+        {
+          "start": 41341,
+          "year": 2023,
+          "name": "中小企業資金融資事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-d158141cbe5aa414d3ffe22b"
+          ]
+        },
+        {
+          "start": 43593,
+          "year": 2023,
+          "name": "起業・創業支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-3b055e23f913b48a89911437"
+          ]
+        },
+        {
+          "start": 45816,
+          "year": 2023,
+          "name": "観光振興事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-45feabb7124c40e154762f9d"
+          ]
+        },
+        {
+          "start": 48703,
+          "year": 2023,
+          "name": "ロケツーリズム事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-60fb01df385bc188d90e214e"
+          ]
+        },
+        {
+          "start": 51061,
+          "year": 2023,
+          "name": "労政対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-6f64dbdfd0375b55af7847f5"
+          ]
+        }
+      ],
+      "status": "individual_sheets_reviewed"
+    },
+    {
+      "sourceId": "1a044c5461d1031ad1446045",
+      "sourceSha256": "f9822f80a5b18cace3ddbb567ea58e8ca37748b4402fd8f3e011c0480afc3293",
+      "textSha256": "9e7146e04e6b89a3620f2c04a5e6f5ac35f85533009c967e4f498aeb4c491d1f",
+      "characters": 40728,
+      "headings": 36,
+      "rows": [
+        {
+          "start": 0,
+          "year": 2023,
+          "name": "公立保育所耐震診断事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-40a8f77542a7fb5eed5fadbd"
+          ]
+        },
+        {
+          "start": 1852,
+          "year": 2023,
+          "name": "防災行政無線施設事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-1665b37eefba46d04533b042"
+          ]
+        },
+        {
+          "start": 3896,
+          "year": 2023,
+          "name": "防災重点農業用ため池ハザードマップ作成事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-6804efac92dc180b501c942b"
+          ]
+        },
+        {
+          "start": 6111,
+          "year": 2023,
+          "name": "自主防災組織支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-847df32ee3d906798303269e"
+          ]
+        },
+        {
+          "start": 8165,
+          "year": 2023,
+          "name": "災害非常用対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-7f23de6e34df7edfcef83be4"
+          ]
+        },
+        {
+          "start": 10381,
+          "year": 2023,
+          "name": "道路改良事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-97b0ad1fa1f848b0a2c6d47b"
+          ]
+        },
+        {
+          "start": 12596,
+          "year": 2023,
+          "name": "道路橋梁維持補修費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-267a27be007d8778a9b79220"
+          ]
+        },
+        {
+          "start": 14988,
+          "year": 2023,
+          "name": "橋梁長寿命化修繕事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-48518d214fc4011c1fe7a7b5"
+          ]
+        },
+        {
+          "start": 17461,
+          "year": 2023,
+          "name": "河川改修事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-2c3f83a22f4c1b31cb20e5c8"
+          ]
+        },
+        {
+          "start": 19334,
+          "year": 2023,
+          "name": "内水対策関連事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-a10f933f61ade99382e4d60a"
+          ]
+        },
+        {
+          "start": 21252,
+          "year": 2023,
+          "name": "防犯対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-28f55f985ac1806ce1719954"
+          ]
+        },
+        {
+          "start": 23859,
+          "year": 2023,
+          "name": "防犯設備設置・管理費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-70f31a5a74aa6c58b865d379"
+          ]
+        },
+        {
+          "start": 26333,
+          "year": 2023,
+          "name": "交通安全対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-021f664408becd6bd032097e"
+          ]
+        },
+        {
+          "start": 28897,
+          "year": 2023,
+          "name": "交通安全施設整備事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-e1d2ba2d55a95290d5d2e2ef"
+          ]
+        },
+        {
+          "start": 31122,
+          "year": 2023,
+          "name": "交通安全施設管理事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-9be57b2bbbae42fbe5d1dc51"
+          ]
+        },
+        {
+          "start": 33437,
+          "year": 2023,
+          "name": "放置自転車等対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-478259f1b8165bee9781edf4"
+          ]
+        },
+        {
+          "start": 35795,
+          "year": 2023,
+          "name": "自転車駐車場管理運営費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-8290aceead005f6821f6a859"
+          ]
+        },
+        {
+          "start": 38101,
+          "year": 2023,
+          "name": "消費生活相談事業",
+          "status": "review_candidate",
+          "existingIds": []
+        }
+      ],
+      "status": "individual_sheets_reviewed"
+    },
+    {
+      "sourceId": "1ab407ffb6493bf1c4ffb1b9",
+      "sourceSha256": "2d745e740fbd6dd84ccfd945e9f882a0a7c0768a1f4298bf5f6f6667c444a9da",
+      "textSha256": "aaa5d06d5ce62f804c1b15bd89e0ba730fdeaf1c1e6bdb11c5518e0286e6358b",
+      "characters": 11567,
+      "headings": 0,
+      "rows": [],
+      "status": "non_sheet_body_review_pending"
+    },
+    {
+      "sourceId": "48d70dcc38d730452f71c23c",
+      "sourceSha256": "5f21c7592b4091b953485ef5af7e0dcf03556efb0d8f0a63550c2f3b7399f2bf",
+      "textSha256": "620cddef77db247ce8a43426f6eec131a0456edc3029dd89a29dc9c44fe24a10",
+      "characters": 38562,
+      "headings": 32,
+      "rows": [
+        {
+          "start": 0,
+          "year": 2023,
+          "name": "広報発信事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-087df84fd69bb1f48a6f7e7f"
+          ]
+        },
+        {
+          "start": 2798,
+          "year": 2023,
+          "name": "ウェブサイト運営事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-260b67fbb117c736c41d69dd"
+          ]
+        },
+        {
+          "start": 5327,
+          "year": 2023,
+          "name": "広聴事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-ffd2250461c5de9dd23701b4"
+          ]
+        },
+        {
+          "start": 7576,
+          "year": 2023,
+          "name": "市民相談事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-ac34d501eae0ee0b6e77d451"
+          ]
+        },
+        {
+          "start": 9749,
+          "year": 2023,
+          "name": "コミュニティ活動支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-2f1c3e799abfe974a469b14a"
+          ]
+        },
+        {
+          "start": 12262,
+          "year": 2023,
+          "name": "市民参画・市民協働の推進",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-205e4d67b7af3cc009d54c0c"
+          ]
+        },
+        {
+          "start": 14749,
+          "year": 2023,
+          "name": "男女共同参画社会づくり推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-9a89576b3ecf3d81da0e2877"
+          ]
+        },
+        {
+          "start": 17396,
+          "year": 2023,
+          "name": "ふるさと茂原まちづくり応援寄附推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-3247511c6f94f9dff98473ab"
+          ]
+        },
+        {
+          "start": 20095,
+          "year": 2023,
+          "name": "会議録作成支援システム事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-ea022bc7697f82dcf7058a1c"
+          ]
+        },
+        {
+          "start": 22622,
+          "year": 2023,
+          "name": "実施計画事業名",
+          "status": "review_candidate",
+          "existingIds": []
+        },
+        {
+          "start": 25064,
+          "year": 2023,
+          "name": "社会教育センター解体事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-973bfcf80cbea12a7392d589"
+          ]
+        },
+        {
+          "start": 26593,
+          "year": 2023,
+          "name": "情報化推進事業（地図情報共有システム）",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-77b969be50a52c79846cd3d5"
+          ]
+        },
+        {
+          "start": 29114,
+          "year": 2023,
+          "name": "簡易電子申請システム事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-c7405270af63f670ed7f87ae"
+          ]
+        },
+        {
+          "start": 31316,
+          "year": 2023,
+          "name": "オンライン会議事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-dbbb076e9b9f85caff5640bf"
+          ]
+        },
+        {
+          "start": 33474,
+          "year": 2023,
+          "name": "ビジネスチャットシステム事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-0d53bbd40dfe2165b365ed32"
+          ]
+        },
+        {
+          "start": 35989,
+          "year": 2023,
+          "name": "ウェブブラウジング事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-ba51260780030322775bcb0c"
+          ]
+        }
+      ],
+      "status": "individual_sheets_reviewed"
+    },
+    {
+      "sourceId": "54c6d9354d926790e1fff4e7",
+      "sourceSha256": "c0ac9a9accc60e962b0c2ad003207da8fe37a73c2f0b74e23e2e87e85a33a329",
+      "textSha256": "f2e9fe0b85af421a44cbd6b130e6a165ebf5beb2adb20233111cc4fe9b863515",
+      "characters": 44229,
+      "headings": 40,
+      "rows": [
+        {
+          "start": 0,
+          "year": 2024,
+          "name": "景観計画推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-5b8f6bde53ae0a81c9342b2f"
+          ]
+        },
+        {
+          "start": 2466,
+          "year": 2024,
+          "name": "地籍調査事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-52a3fe168c73749053ca649b"
+          ]
+        },
+        {
+          "start": 4243,
+          "year": 2024,
+          "name": "茂原駅前通り地区土地区画整理事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-56217e1aade43b1818dd881c"
+          ]
+        },
+        {
+          "start": 6637,
+          "year": 2024,
+          "name": "宅地耐震化推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-14084f511656b1046f9a54b2"
+          ]
+        },
+        {
+          "start": 9095,
+          "year": 2024,
+          "name": "都市計画道路整備事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-28540f8faf39898c2dc64af6"
+          ]
+        },
+        {
+          "start": 10939,
+          "year": 2024,
+          "name": "地域公共交通事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-fd32541a8066348ac76813f3"
+          ]
+        },
+        {
+          "start": 13779,
+          "year": 2024,
+          "name": "合併処理浄化槽設置促進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-b1690963134a5baa93795488"
+          ]
+        },
+        {
+          "start": 16195,
+          "year": 2024,
+          "name": "道路排水整備事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-cdc518cd278efb17a2f0429d"
+          ]
+        },
+        {
+          "start": 18073,
+          "year": 2024,
+          "name": "都市公園等管理事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-bd3ed9fd70560d693faa16bd"
+          ]
+        },
+        {
+          "start": 19949,
+          "year": 2024,
+          "name": "都市公園再生事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-c4ba8de959b6787d44f58b3e"
+          ]
+        },
+        {
+          "start": 22211,
+          "year": 2024,
+          "name": "市営住宅長寿命化事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-5896da0fdb6a65af86a6f42c"
+          ]
+        },
+        {
+          "start": 24659,
+          "year": 2024,
+          "name": "市営住宅集約化事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-98d2f71ec5018a4bd5f7befe"
+          ]
+        },
+        {
+          "start": 26793,
+          "year": 2024,
+          "name": "木造住宅耐震化事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-b823724ce87c112c95236c4d"
+          ]
+        },
+        {
+          "start": 29095,
+          "year": 2024,
+          "name": "空き家等対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-363a727f08e19f4a07f2909f"
+          ]
+        },
+        {
+          "start": 31515,
+          "year": 2024,
+          "name": "ごみ排出適正化事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-77d7d57523e70d6af04e7b20"
+          ]
+        },
+        {
+          "start": 33639,
+          "year": 2024,
+          "name": "３Ｒ推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-ccc2054c0a64af656ca1c10f"
+          ]
+        },
+        {
+          "start": 35757,
+          "year": 2024,
+          "name": "緑化推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-2aa3f241c7977acb576210f4"
+          ]
+        },
+        {
+          "start": 37896,
+          "year": 2024,
+          "name": "美化推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-a2b3ed586aef46a17e3a4174"
+          ]
+        },
+        {
+          "start": 39915,
+          "year": 2024,
+          "name": "害虫防除対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-a0a6ca4cd68155180d51f84e"
+          ]
+        },
+        {
+          "start": 41924,
+          "year": 2024,
+          "name": "新エネルギー利活用促進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-9f4e217f94f25017f86459b1"
+          ]
+        }
+      ],
+      "status": "individual_sheets_reviewed"
+    },
+    {
+      "sourceId": "5d208444a328f259f60ebf35",
+      "sourceSha256": "dce43de2d876340ebc2eab673f6380a6d0fe8b6d316d99a0d1dc1c9c0c703c5f",
+      "textSha256": "9d67d272ae83a2253c3d0bb3f354554c6a478438b837d1bbcd8adc0d7d6d6e6d",
+      "characters": 68256,
+      "headings": 60,
+      "rows": [
+        {
+          "start": 0,
+          "year": 2024,
+          "name": "社会福祉協議会補助事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-8d2609eda0dca73ce867c50a"
+          ]
+        },
+        {
+          "start": 2226,
+          "year": 2024,
+          "name": "母子保健事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-d0b0168f796f6bc3345e9bdf"
+          ]
+        },
+        {
+          "start": 5405,
+          "year": 2024,
+          "name": "乳幼児家庭支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-688f978c251b5fca171f58a0"
+          ]
+        },
+        {
+          "start": 7515,
+          "year": 2024,
+          "name": "子育て応援チケット配布事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-48f1f44652809ae1125c7d76"
+          ]
+        },
+        {
+          "start": 9559,
+          "year": 2024,
+          "name": "ファミリーサポートセンター事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-5e94355e978fb034ac493560"
+          ]
+        },
+        {
+          "start": 11611,
+          "year": 2024,
+          "name": "子ども医療費助成事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-8f17bcaf6071e8254d962caf"
+          ]
+        },
+        {
+          "start": 13970,
+          "year": 2024,
+          "name": "子育て支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-9c792170a70d085c5565ce7b"
+          ]
+        },
+        {
+          "start": 15834,
+          "year": 2024,
+          "name": "病児・病後児保育事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-0ce56d9ae9304ee11eac50d2"
+          ]
+        },
+        {
+          "start": 18108,
+          "year": 2024,
+          "name": "認可外保育所運営支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-41a22d556dc468536e51d9bc"
+          ]
+        },
+        {
+          "start": 20094,
+          "year": 2024,
+          "name": "民間保育士処遇改善事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-69167184317f9a688e1a2dfd"
+          ]
+        },
+        {
+          "start": 22063,
+          "year": 2024,
+          "name": "放課後児童健全育成事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-0a19c9b8dc2431346ead3fb9"
+          ]
+        },
+        {
+          "start": 24415,
+          "year": 2024,
+          "name": "ひとり親家庭福祉事業（高等職業訓練促進給付金）",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-99d6cec9b6c26b8ac854b08b"
+          ]
+        },
+        {
+          "start": 26583,
+          "year": 2024,
+          "name": "軽度・中等度難聴児補聴器購入費助成事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-7edfc0278f7b02a2121cbb71"
+          ]
+        },
+        {
+          "start": 28725,
+          "year": 2024,
+          "name": "療育支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-ddbbf6475fef77dad12ea70e"
+          ]
+        },
+        {
+          "start": 31534,
+          "year": 2024,
+          "name": "養育支援訪問事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-ad2df1f441c3627b8ddd035d"
+          ]
+        },
+        {
+          "start": 34228,
+          "year": 2024,
+          "name": "福祉・介護人材確保対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-c531bd74051bbb0c2651b835"
+          ]
+        },
+        {
+          "start": 36015,
+          "year": 2024,
+          "name": "高齢者在宅生活支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-50434e97e74cbf45368479f8"
+          ]
+        },
+        {
+          "start": 38060,
+          "year": 2024,
+          "name": "介護基盤等整備促進事業",
+          "status": "review_candidate",
+          "existingIds": []
+        },
+        {
+          "start": 39785,
+          "year": 2024,
+          "name": "生きがい対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-bfeb2282931fa9cf2ee2b2d9"
+          ]
+        },
+        {
+          "start": 41769,
+          "year": 2024,
+          "name": "敬老事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-98a7c4f0a05733c4640083cd"
+          ]
+        },
+        {
+          "start": 43645,
+          "year": 2024,
+          "name": "重度心身障害者医療費助成事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-db5fee90de0695fd281e9cef"
+          ]
+        },
+        {
+          "start": 45813,
+          "year": 2024,
+          "name": "障害者ｸﾞﾙｰﾌﾟﾎｰﾑ等入居者家賃補助事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-33618dc87aadfe87a981bb2a"
+          ]
+        },
+        {
+          "start": 47897,
+          "year": 2024,
+          "name": "心身障害者施設等運営補助事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-2b43fb9bf1cf4f63e97b432d"
+          ]
+        },
+        {
+          "start": 49914,
+          "year": 2024,
+          "name": "社会参加促進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-08188134276aa84f2a3445b7"
+          ]
+        },
+        {
+          "start": 52112,
+          "year": 2024,
+          "name": "健康づくり推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-f1d3f5d52f45fd582ed29634"
+          ]
+        },
+        {
+          "start": 55302,
+          "year": 2024,
+          "name": "健康診査事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-343ffb2abb5a667c16f51122"
+          ]
+        },
+        {
+          "start": 57958,
+          "year": 2024,
+          "name": "歯科健診事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-3355c83e59ce0192b3d19022"
+          ]
+        },
+        {
+          "start": 60150,
+          "year": 2024,
+          "name": "予防接種事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-a6b4ba8588ceac40913b67b8"
+          ]
+        },
+        {
+          "start": 63322,
+          "year": 2024,
+          "name": "後期高齢者医療事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-3ad658d383dfb43bd98d688e"
+          ]
+        },
+        {
+          "start": 65980,
+          "year": 2024,
+          "name": "家計改善支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-0f4c0843867547f4c3ecc212"
+          ]
+        }
+      ],
+      "status": "individual_sheets_reviewed"
+    },
+    {
+      "sourceId": "70e3caa619f42e2fa9edf619",
+      "sourceSha256": "6262bdbf7b8df59b9e54ddff4d796227872e1fb300eb67abbbd4dd99bf0bbfdf",
+      "textSha256": "bc0134ced9252df54641541805db139f21a7b0a17393bfd7dd73447ca08aaaac",
+      "characters": 14687,
+      "headings": 0,
+      "rows": [],
+      "status": "non_sheet_body_review_pending"
+    },
+    {
+      "sourceId": "7bf59d4b5558f3fc2e045626",
+      "sourceSha256": "a9b4d8dcd51ddf77456da020a40f4152b0f46fd31c912d7fcd4a109759813267",
+      "textSha256": "2edba01c31a0e235ea4decc3669d01f81634ddfb8ad1c848ea4c834945821d2d",
+      "characters": 2026,
+      "headings": 0,
+      "rows": [],
+      "status": "non_sheet_body_review_pending"
+    },
+    {
+      "sourceId": "92aef49c9a3b22b49362b498",
+      "sourceSha256": "46eead1b46fdab9586a9b2dc429ab56247d93a3b6307e3e406c527f0dbc3b403",
+      "textSha256": "bee8b6204cda72436a1ec67b284e2498296d2d52ad5bf609644d59fe9feb8f7d",
+      "characters": 18614,
+      "headings": 21,
+      "rows": [
+        {
+          "start": 0,
+          "year": 2023,
+          "name": "施設維持管理費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-9b6ee9cf22ced865e114c024"
+          ]
+        },
+        {
+          "start": 731,
+          "year": 2023,
+          "name": "ふるさと茂原まちづくり応援寄附受納事務費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-fdbfd303fe5b3add18bb4cf8"
+          ]
+        },
+        {
+          "start": 1684,
+          "year": 2023,
+          "name": "地域振興事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-5f24433545c6e7f8aaaeb65e"
+          ]
+        },
+        {
+          "start": 2664,
+          "year": 2023,
+          "name": "一般事務費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-7a34321f354b3e75b15b3c49",
+            "cached-12210-9980bbce80a7acbba35ec905",
+            "cached-12210-21ade9d8361f3ef6b2a362e9",
+            "cached-12210-bbf7ee63d649e6cdce68e50c",
+            "cached-12210-a81a667f5acaa8c792facff9",
+            "cached-12210-f5734f569906268b5335cd60"
+          ]
+        },
+        {
+          "start": 3759,
+          "year": 2023,
+          "name": "防災一般事務費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-adee093eae43afbea789b081"
+          ]
+        },
+        {
+          "start": 4646,
+          "year": 2023,
+          "name": "市民税関係一般事務費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-464a4a1b673b0f44d57ffe7e"
+          ]
+        },
+        {
+          "start": 5694,
+          "year": 2023,
+          "name": "固定資産税等一般事務費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-4ac64639fbac1c28387edd07"
+          ]
+        },
+        {
+          "start": 6466,
+          "year": 2023,
+          "name": "統計事務運営事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-25f48c74c745717ae8edb06f"
+          ]
+        },
+        {
+          "start": 7468,
+          "year": 2023,
+          "name": "統計調査関係人件費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-6cbf0999fc245346836a80ec"
+          ]
+        },
+        {
+          "start": 8178,
+          "year": 2023,
+          "name": "監査事務運営費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-09e8e0aa443894079290e768"
+          ]
+        },
+        {
+          "start": 9361,
+          "year": 2023,
+          "name": "高額障害福祉サービス費給付事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-02fd229e2e2b682043e8d0be"
+          ]
+        },
+        {
+          "start": 10259,
+          "year": 2023,
+          "name": "一般事務費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-7a34321f354b3e75b15b3c49",
+            "cached-12210-9980bbce80a7acbba35ec905",
+            "cached-12210-21ade9d8361f3ef6b2a362e9",
+            "cached-12210-bbf7ee63d649e6cdce68e50c",
+            "cached-12210-a81a667f5acaa8c792facff9",
+            "cached-12210-f5734f569906268b5335cd60"
+          ]
+        },
+        {
+          "start": 11450,
+          "year": 2023,
+          "name": "一般事務費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-7a34321f354b3e75b15b3c49",
+            "cached-12210-9980bbce80a7acbba35ec905",
+            "cached-12210-21ade9d8361f3ef6b2a362e9",
+            "cached-12210-bbf7ee63d649e6cdce68e50c",
+            "cached-12210-a81a667f5acaa8c792facff9",
+            "cached-12210-f5734f569906268b5335cd60"
+          ]
+        },
+        {
+          "start": 12116,
+          "year": 2023,
+          "name": "一般事務費（土木建設課）",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-4ccddde331f8242e26e7ebb1"
+          ]
+        },
+        {
+          "start": 13181,
+          "year": 2023,
+          "name": "一般事務費（土木管理課）",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-8856e2f6a7b998530de3ad18"
+          ]
+        },
+        {
+          "start": 13963,
+          "year": 2023,
+          "name": "管理事業費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-c29ff540df0b2b17b3454e9e"
+          ]
+        },
+        {
+          "start": 14634,
+          "year": 2023,
+          "name": "一般事務費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-7a34321f354b3e75b15b3c49",
+            "cached-12210-9980bbce80a7acbba35ec905",
+            "cached-12210-21ade9d8361f3ef6b2a362e9",
+            "cached-12210-bbf7ee63d649e6cdce68e50c",
+            "cached-12210-a81a667f5acaa8c792facff9",
+            "cached-12210-f5734f569906268b5335cd60"
+          ]
+        },
+        {
+          "start": 15389,
+          "year": 2023,
+          "name": "旧学校施設維持管理費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-af6f866c8ef1f77a0fcd5576"
+          ]
+        },
+        {
+          "start": 16208,
+          "year": 2023,
+          "name": "本納公民館管理運営費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-3c12aedd78a428398446024c"
+          ]
+        },
+        {
+          "start": 16937,
+          "year": 2023,
+          "name": "一般事務費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-7a34321f354b3e75b15b3c49",
+            "cached-12210-9980bbce80a7acbba35ec905",
+            "cached-12210-21ade9d8361f3ef6b2a362e9",
+            "cached-12210-bbf7ee63d649e6cdce68e50c",
+            "cached-12210-a81a667f5acaa8c792facff9",
+            "cached-12210-f5734f569906268b5335cd60"
+          ]
+        },
+        {
+          "start": 17666,
+          "year": 2023,
+          "name": "一般事務費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-7a34321f354b3e75b15b3c49",
+            "cached-12210-9980bbce80a7acbba35ec905",
+            "cached-12210-21ade9d8361f3ef6b2a362e9",
+            "cached-12210-bbf7ee63d649e6cdce68e50c",
+            "cached-12210-a81a667f5acaa8c792facff9",
+            "cached-12210-f5734f569906268b5335cd60"
+          ]
+        }
+      ],
+      "status": "individual_sheets_reviewed"
+    },
+    {
+      "sourceId": "9e228fe7af663d1024073389",
+      "sourceSha256": "090ec17d093fb2da2d7de5d396ad4e77e5ff6a861c5db713ecf8a542970e9017",
+      "textSha256": "585579b53e53434456b654f74c68bde6e4c3dca3a0ea00a251625198ddc5823b",
+      "characters": 718,
+      "headings": 0,
+      "rows": [],
+      "status": "non_sheet_body_review_pending"
+    },
+    {
+      "sourceId": "b4c24c96f6e6adef9cbb04b2",
+      "sourceSha256": "6e1047d240187c8f2a30d7dc69aa8cdf9512cf0107dcc11479df9391680291ff",
+      "textSha256": "487be5c0fb514e34c46b5defb0398d6764c0105b1c4d521168f6dbbe5d692534",
+      "characters": 39792,
+      "headings": 34,
+      "rows": [
+        {
+          "start": 0,
+          "year": 2024,
+          "name": "広報発信事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-f5bb7a50d6d4571cc6d4ccbc"
+          ]
+        },
+        {
+          "start": 2723,
+          "year": 2024,
+          "name": "ウェブサイト運営事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-0b5cce184b657379e86e6da9"
+          ]
+        },
+        {
+          "start": 5178,
+          "year": 2024,
+          "name": "広聴事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-fa420873304297b35d054f52"
+          ]
+        },
+        {
+          "start": 6065,
+          "status": "layout_review",
+          "reason": "Name/department header not matched",
+          "prefix": "令和6年度 3か年事務事業戦略シート\n基本計画 予算科目 整理番号\n節 テーマ 施策展開 実施計画事業名 款 項 目 事 事業名\n601020101\n6 1 2 1 広聴事業 2 01 04 02 広聴活動事業\n活動内容と成果（具体的に何をしたか、どのような実績があったか）\n・「市長への手紙」：全178件（うち電子メール125件）、うち120件について回答。\n・「市長と話し合う会」：令和6年12月15日に開催。48名出席\n・「公共施設見学会」：令和6年10月21日、22日に美術館・郷土資料館（展示品およびバックヤード見学を\n実施。23日は25名、25日は15名、合計40名が参加。見学することで市政への理解を深めていただいた。\n・自治会長連合会との意見交換会：令和6年11月1日（金）に開催し、意見交換を実施した。\n課\n題\n抽 必要性の評価 有効性の評価 効率性の評価\n出\n（ A：必要性が高い A：有効性が高い A：効率性が高い\nC\nH\nE 総合評価\nC\nK\n） A：十分な成果を挙げた（目標・目的を達成している）\n分析・評価（活動してどのような課題があったか）\n・「市長と話し合う会」や「公共施設見学会」についての参加者は減少しており、また参加した方を見ると、\n主に50代以上の方が多く、固定化されているような状況である。\n・昨年度、実施したアンケート結果を鑑み、市長と話し合う会の開催時間を午後から午前に変更したとによ\nり、例年より多くの参加者を得ることができ、意見等の聴取ができた。\n・「市長への手紙」についても20代・30代からの意見は全体から見ても少なく、子育て世代等の若い方から\n"
+        },
+        {
+          "start": 7269,
+          "year": 2024,
+          "name": "市民相談事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-71a3ec1e815d5daf273d6be6"
+          ]
+        },
+        {
+          "start": 9406,
+          "year": 2024,
+          "name": "コミュニティ活動支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-e175e3439c478a94bf89db4d"
+          ]
+        },
+        {
+          "start": 11888,
+          "year": 2024,
+          "name": "協働のまちづくり推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-bbbd5cdaa0b9e5312692c290"
+          ]
+        },
+        {
+          "start": 14260,
+          "year": 2024,
+          "name": "男女共同参画社会づくり推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-1c102e04e1c2f029c17cfaca"
+          ]
+        },
+        {
+          "start": 16989,
+          "year": 2024,
+          "name": "茂原市総合計画後期基本計画策定事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-ce08c9e1774d934c3049cc59"
+          ]
+        },
+        {
+          "start": 19076,
+          "year": 2024,
+          "name": "ふるさと茂原まちづくり応援寄附推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-5bc31a5d6c5a8bfe529157a6"
+          ]
+        },
+        {
+          "start": 21696,
+          "year": 2024,
+          "name": "会議録作成支援システム事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-5fea79b78983b665e91fcd7f"
+          ]
+        },
+        {
+          "start": 24024,
+          "year": 2024,
+          "name": "キャッシュレス決済事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-dede2d170710dbda87ec2617"
+          ]
+        },
+        {
+          "start": 26450,
+          "year": 2024,
+          "name": "中央公民館解体事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-4d8c1251a8f34f57add0b078"
+          ]
+        },
+        {
+          "start": 28163,
+          "year": 2024,
+          "name": "情報化推進事業（地図情報共有システム）",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-b1b705dcfdff01d9ef6da7a1"
+          ]
+        },
+        {
+          "start": 30650,
+          "year": 2024,
+          "name": "簡易電子申請システム事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-76cce5ebdc2e05cb679e2e53"
+          ]
+        },
+        {
+          "start": 32849,
+          "year": 2024,
+          "name": "オンライン会議事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-f9500a3ca6a31fe95cae2d69"
+          ]
+        },
+        {
+          "start": 34998,
+          "year": 2024,
+          "name": "ビジネスチャットシステム事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-12702325c5e4a66d581e8af8"
+          ]
+        },
+        {
+          "start": 37437,
+          "year": 2024,
+          "name": "ウェブブラウジング事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-91750cf6ec8713debf42167e"
+          ]
+        }
+      ],
+      "status": "individual_sheets_reviewed"
+    },
+    {
+      "sourceId": "be6c5ecf057613973ab7c3b8",
+      "sourceSha256": "82298b1df4140107b2f59914e195cd5aa930a818b2a5c85808a47ce3e15f14d3",
+      "textSha256": "e02355c8334d21743ccea313f7344fbceb85a21caddd71c576d1aff9c8f45d1e",
+      "characters": 41874,
+      "headings": 40,
+      "rows": [
+        {
+          "start": 0,
+          "year": 2023,
+          "name": "地域未来塾事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-a0cb5c3eb97d5efd0f2746b9"
+          ]
+        },
+        {
+          "start": 2075,
+          "year": 2023,
+          "name": "文化会館主催事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-c18f4ca351bbee379668f7cc"
+          ]
+        },
+        {
+          "start": 4558,
+          "year": 2023,
+          "name": "実施計画事業名",
+          "status": "review_candidate",
+          "existingIds": []
+        },
+        {
+          "start": 6690,
+          "year": 2023,
+          "name": "生涯学習推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-516a947f0ef661d62181e8c2"
+          ]
+        },
+        {
+          "start": 9187,
+          "year": 2023,
+          "name": "社会教育関係団体助成事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-384a8366408703092302cafd"
+          ]
+        },
+        {
+          "start": 11261,
+          "year": 2023,
+          "name": "(小)総合学習推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-9f10d4d548f4e7c550d7c2de"
+          ]
+        },
+        {
+          "start": 13123,
+          "year": 2023,
+          "name": "(中)総合学習推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-f1492c03f69802d3a89b8767"
+          ]
+        },
+        {
+          "start": 14977,
+          "year": 2023,
+          "name": "（小）子どもの読書活動推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-08d94dd09b33cdeb67890c5c"
+          ]
+        },
+        {
+          "start": 17237,
+          "year": 2023,
+          "name": "（中）子どもの読書活動推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-05da153735af5a5cad1e61ed"
+          ]
+        },
+        {
+          "start": 19144,
+          "year": 2023,
+          "name": "(小)国際教育推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-d93ac8c2efc246eb3ba9e026"
+          ]
+        },
+        {
+          "start": 21190,
+          "year": 2023,
+          "name": "(中)国際教育推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-2434283119717f5ec93a41ec"
+          ]
+        },
+        {
+          "start": 23490,
+          "year": 2023,
+          "name": "(小)学校教育支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-f8779863200b69cce3b10265"
+          ]
+        },
+        {
+          "start": 25482,
+          "year": 2023,
+          "name": "(中)学校教育支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-144fd9d106fc7b0f77a54290"
+          ]
+        },
+        {
+          "start": 27464,
+          "year": 2023,
+          "name": "学校給食物価高騰等対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-519599304be474bb7ebbb920"
+          ]
+        },
+        {
+          "start": 29775,
+          "year": 2023,
+          "name": "(小)特別支援教育支援員活用事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-861db656efa1a9019edb5d5c"
+          ]
+        },
+        {
+          "start": 31693,
+          "year": 2023,
+          "name": "(中)特別支援教育支援員活用事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-5d9ff662d0ebfbb4cb2c2cb9"
+          ]
+        },
+        {
+          "start": 33586,
+          "year": 2023,
+          "name": "(幼)特別支援教育支援員活用事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-9bdc56de47a261d6973f04d4"
+          ]
+        },
+        {
+          "start": 35483,
+          "year": 2023,
+          "name": "中学校施設整備事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-2fae55da86274b07841e3676"
+          ]
+        },
+        {
+          "start": 37489,
+          "status": "layout_review",
+          "reason": "Name/department header not matched",
+          "prefix": "令和5年度 3か年事務事業戦略シート\n基本計画\n節 テーマ 施策 展開\n\n1\n\n2\n\n3\n\n1\n\n予算科目\n\nテーマ名\n\n施策名\n\n款 項 目 事\n\n学校教育\n\n教育環境の整備\n\n9 02 01 02\n\n事業名\n小学校管理補修費\n小学校施設整備事業\n担当課・係等\n\n実施計画事業名\n小学校施設整備事業（本納地区小中一貫型校）\n\n実施計画整理番号\n102030102\n総合戦略\n整理番号\n\n教育総務課 総務係\n\n事業の目標・目的（誰・何をどのような状態にするか）\n主な活動内容（目標を達成するために何を行うか）\n事\n務\n事\n本納中学校敷地内の新校舎（8教室及び配膳室）の建設に際\n業 し、必要となる設備を整備することで、児童生徒の安全性や 新校舎を建設し必要となる遊具や体育器具等を設置する。\nの 快適な学習環境の確保につなげる。\nまた、駐車場やグラウンド等を整備し教育環境の改善を図\n概 また、小中一貫教育の導入を進めていくことで、特色ある教 る。\n要 育を目指す。\n（\nP\n基本計画への寄与（基本計画の施策等の推進にどのように寄与しているか）\nL\nA\nN 本納中学校敷地内に本納小学校新校舎を建設し、必要となる設備を整備することで、児童生徒の安全性の確保や快適な\n学習環境の確保に繋がり、ひいては施策「教育環境の整備」に寄与する。\n）\n令和5年度\n\n投\n単\n区分\n入\n位\nさ\n千円\n事業費\nれ\nる\n国補助 千円\n行\n政 財 県補助 千円\nコ 源\n千円\n市債\nス内\nト 訳 その他 千円\n一般財源 千円\n（\nD\n人工数\n人\nO\n千円\n人件費\n）\n\n令和6年度\n\n計画\n\n予算\n\n決算\n\n3,520\n\n"
+        },
+        {
+          "start": 39455,
+          "year": 2023,
+          "name": "実施計画事業名",
+          "status": "review_candidate",
+          "existingIds": []
+        }
+      ],
+      "status": "individual_sheets_reviewed"
+    },
+    {
+      "sourceId": "bf47cf2dbc4c79c353368ebe",
+      "sourceSha256": "7fa778b6ed7b1941402e96aefa7be80b293f3531538ba787b3d7c84650ffede1",
+      "textSha256": "bd58ab395ecb9faeb3eb39fe3501b8ff9896ef3b610c706f32c0e08c93a85e4b",
+      "characters": 49591,
+      "headings": 44,
+      "rows": [
+        {
+          "start": 0,
+          "year": 2023,
+          "name": "景観計画推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-cd14a5b0d62f12b1e3b1a45f"
+          ]
+        },
+        {
+          "start": 2592,
+          "year": 2023,
+          "name": "地籍調査事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-9e17ca02995b410ed505eeb0"
+          ]
+        },
+        {
+          "start": 4482,
+          "year": 2023,
+          "name": "茂原駅前通り地区土地区画整理事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-9791a887cb529e244b2a1ee2"
+          ]
+        },
+        {
+          "start": 6909,
+          "year": 2023,
+          "name": "宅地耐震化推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-210232ff5fa23e937433a040"
+          ]
+        },
+        {
+          "start": 9766,
+          "year": 2023,
+          "name": "茂原長柄スマートIC周辺整備事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-0a7b3ffc69b2f19456bbff93"
+          ]
+        },
+        {
+          "start": 11779,
+          "year": 2023,
+          "name": "都市計画道路整備事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-71811f914a58203c97a9bbed"
+          ]
+        },
+        {
+          "start": 13835,
+          "year": 2023,
+          "name": "地域公共交通事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-e74592933d49046b64c308d9"
+          ]
+        },
+        {
+          "start": 16668,
+          "year": 2023,
+          "name": "合併処理浄化槽設置促進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-5b5804bf8f4de8c3140cf72f"
+          ]
+        },
+        {
+          "start": 19113,
+          "year": 2023,
+          "name": "排水整備事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-7beed857325cad2a9f68fa78"
+          ]
+        },
+        {
+          "start": 21030,
+          "year": 2023,
+          "name": "道路排水整備事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-31084609ef325b06fdb06f08"
+          ]
+        },
+        {
+          "start": 22989,
+          "year": 2023,
+          "name": "都市公園等維持補修事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-aa76458a59a9b97c9c93a22a"
+          ]
+        },
+        {
+          "start": 24879,
+          "year": 2023,
+          "name": "茂原公園再生事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-4d199c4bc15e0502d7eaccfe"
+          ]
+        },
+        {
+          "start": 26947,
+          "year": 2023,
+          "name": "市営住宅長寿命化事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-0e48a70ea57b8676e88301c9"
+          ]
+        },
+        {
+          "start": 29380,
+          "year": 2023,
+          "name": "市営住宅集約化事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-cb3c201ee7cbd73136603d50"
+          ]
+        },
+        {
+          "start": 31512,
+          "year": 2023,
+          "name": "木造住宅耐震化事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-77bd4ca346a0b58e379582e9"
+          ]
+        },
+        {
+          "start": 33975,
+          "year": 2023,
+          "name": "空き家等対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-faedab693dd7cf3355da851f"
+          ]
+        },
+        {
+          "start": 36401,
+          "year": 2023,
+          "name": "ごみ排出適正化事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-38e1434f59de26154549bf79"
+          ]
+        },
+        {
+          "start": 38597,
+          "year": 2023,
+          "name": "３Ｒ推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-9cdbd584c25af0e45b7a47e5"
+          ]
+        },
+        {
+          "start": 40765,
+          "year": 2023,
+          "name": "緑化推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-5e5b7853bb6259532f8b16ef"
+          ]
+        },
+        {
+          "start": 42981,
+          "year": 2023,
+          "name": "美化推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-3b859f6a992a571f3c9ad127"
+          ]
+        },
+        {
+          "start": 45078,
+          "year": 2023,
+          "name": "害虫防除対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-16325a7910c072a08bb5873a"
+          ]
+        },
+        {
+          "start": 47198,
+          "year": 2023,
+          "name": "新エネルギー利活用促進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-116dd6de13d8a5523ded3182"
+          ]
+        }
+      ],
+      "status": "individual_sheets_reviewed"
+    },
+    {
+      "sourceId": "d2cc7d2d26be2e451bc8a7ef",
+      "sourceSha256": "1400719613191fb598768df73df000e5338d5b07f30db8de4da4eba721c3ded0",
+      "textSha256": "7f65812a4a465b337a4e3bc8d9d03c34e3893943c9625aa646f5ea4265ea1d02",
+      "characters": 39777,
+      "headings": 34,
+      "rows": [
+        {
+          "start": 0,
+          "year": 2023,
+          "name": "(小)教職員研修支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-1f2020c24f549f99ef670a64"
+          ]
+        },
+        {
+          "start": 1958,
+          "year": 2023,
+          "name": "(中)教職員研修支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-716d6914b94343a4f0ab5230"
+          ]
+        },
+        {
+          "start": 3913,
+          "year": 2023,
+          "name": "スポーツ教室事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-fac4b2e50580475b238ec119"
+          ]
+        },
+        {
+          "start": 6229,
+          "year": 2023,
+          "name": "スポーツ振興事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-9806511e3a078a152681507d"
+          ]
+        },
+        {
+          "start": 9123,
+          "year": 2023,
+          "name": "新市民会館建設事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-8b31a87c5fcb39c94c70c4f2"
+          ]
+        },
+        {
+          "start": 11142,
+          "year": 2023,
+          "name": "文化祭開催事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-605750c489f25fa10b7bb413"
+          ]
+        },
+        {
+          "start": 13006,
+          "year": 2023,
+          "name": "美術館展示事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-742c42005a4b4ef379616f20"
+          ]
+        },
+        {
+          "start": 15516,
+          "year": 2023,
+          "name": "芸術文化講座事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-5ee8c92053cf57ef995b9927"
+          ]
+        },
+        {
+          "start": 18180,
+          "year": 2023,
+          "name": "文化振興事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-698e4ba6e05fc0aaee441d0b"
+          ]
+        },
+        {
+          "start": 20039,
+          "year": 2023,
+          "name": "文化財保護保存事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-0341378c0b64fd239a2a80ee"
+          ]
+        },
+        {
+          "start": 21916,
+          "year": 2023,
+          "name": "郷土資料館展示事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-1bd1f8ce6635f5ce0375df0d"
+          ]
+        },
+        {
+          "start": 24221,
+          "year": 2023,
+          "name": "市史編纂事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-764fc0174c16772f96442f7e"
+          ]
+        },
+        {
+          "start": 26577,
+          "year": 2023,
+          "name": "青少年健全育成事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-1d5f92fc759e23c1ffe3d55d"
+          ]
+        },
+        {
+          "start": 29050,
+          "year": 2023,
+          "name": "放課後子ども教室推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-0b61cb3baceacd3c5de0fd59"
+          ]
+        },
+        {
+          "start": 31554,
+          "year": 2023,
+          "name": "青少年相談指導事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-2b2c5c40bed033994ade2afa"
+          ]
+        },
+        {
+          "start": 34473,
+          "year": 2023,
+          "name": "家庭教育学級開催事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-fcebf664b0d67038c0ae4dc5"
+          ]
+        },
+        {
+          "start": 36888,
+          "year": 2023,
+          "name": "国際化推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-3c72e2a34fbb3d6325e16665"
+          ]
+        }
+      ],
+      "status": "individual_sheets_reviewed"
+    },
+    {
+      "sourceId": "d797bae225349bfa8dfdc619",
+      "sourceSha256": "4a51a9c39c786d3df0eb5944059ede9e956d1ec1ebfb0364d9003f04fd01abf7",
+      "textSha256": "879eab29431b4aeda9afa1c211b14363f136cc7d9d9eb8e870f15eb7b3968a3b",
+      "characters": 70344,
+      "headings": 66,
+      "rows": [
+        {
+          "start": 0,
+          "year": 2024,
+          "name": "文化会館主催事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-b19b1a5f7086ffdc70293acf"
+          ]
+        },
+        {
+          "start": 2260,
+          "year": 2024,
+          "name": "公民館学級運営費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-f66c034e4d4e1410d6cce312"
+          ]
+        },
+        {
+          "start": 4293,
+          "year": 2024,
+          "name": "生涯学習推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-a42d719ce18be87fce3fdf44"
+          ]
+        },
+        {
+          "start": 6648,
+          "year": 2024,
+          "name": "社会教育関係団体助成事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-6adade3f3ffacba981ae0b0f"
+          ]
+        },
+        {
+          "start": 8641,
+          "year": 2024,
+          "name": "図書館移転事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-8d6b63da9d3bf475cd6f7f51"
+          ]
+        },
+        {
+          "start": 10770,
+          "year": 2024,
+          "name": "(小)総合学習推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-8748680a8f81429eaa3891e3"
+          ]
+        },
+        {
+          "start": 12474,
+          "year": 2024,
+          "name": "(中)総合学習推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-7b41b042571e8bf62abbfe1f"
+          ]
+        },
+        {
+          "start": 14149,
+          "year": 2024,
+          "name": "（小）子どもの読書活動推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-636a2df5db8e96cfd1ad9e68"
+          ]
+        },
+        {
+          "start": 16297,
+          "year": 2024,
+          "name": "（中）子どもの読書活動推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-235ebec943ee4cc46081901d"
+          ]
+        },
+        {
+          "start": 18200,
+          "year": 2024,
+          "name": "(小)国際教育推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-9582c0b4e690f62016a3d1c0"
+          ]
+        },
+        {
+          "start": 20236,
+          "year": 2024,
+          "name": "(中)国際教育推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-06bf5eef43a6468f47fdb052"
+          ]
+        },
+        {
+          "start": 22559,
+          "year": 2024,
+          "name": "(小)学校教育支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-f5c6e11aaaa6b7d880517968"
+          ]
+        },
+        {
+          "start": 24365,
+          "year": 2024,
+          "name": "(中)学校教育支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-fd84aea6a37b6f369b00e84e"
+          ]
+        },
+        {
+          "start": 26348,
+          "year": 2024,
+          "name": "学校給食物価高騰等対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-b12f539c5652b8d6645e340e"
+          ]
+        },
+        {
+          "start": 28624,
+          "year": 2024,
+          "name": "(小)特別支援教育支援員活用事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-6aa753cbb96a191ef80323b6"
+          ]
+        },
+        {
+          "start": 30481,
+          "year": 2024,
+          "name": "(中)特別支援教育支援員活用事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-d8cc52695c379e3fc3fde7d6"
+          ]
+        },
+        {
+          "start": 32297,
+          "year": 2024,
+          "name": "(幼)特別支援教育支援員活用事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-38e0f6af7981fb901740cd07"
+          ]
+        },
+        {
+          "start": 34119,
+          "year": 2024,
+          "name": "中学校施設整備事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-1ede04e520cf5e35418ef323"
+          ]
+        },
+        {
+          "start": 36101,
+          "year": 2024,
+          "name": "小学校施設整備事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-83e282195f215181f947aba9"
+          ]
+        },
+        {
+          "start": 38158,
+          "year": 2024,
+          "name": "(小)職員研修支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-5e60a8be07fd1c006fbd6c4c"
+          ]
+        },
+        {
+          "start": 39959,
+          "year": 2024,
+          "name": "(中)職員研修支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-5b8f204d161fb8a8a0f6efd4"
+          ]
+        },
+        {
+          "start": 41754,
+          "year": 2024,
+          "name": "スポーツ振興事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-ca591ae3d592c2ea3ff67f02"
+          ]
+        },
+        {
+          "start": 44617,
+          "year": 2024,
+          "name": "文化祭開催事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-d730e62bcb5267789509add2"
+          ]
+        },
+        {
+          "start": 46375,
+          "year": 2024,
+          "name": "美術館展示事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-e75dfb3896880318fa87a1c3"
+          ]
+        },
+        {
+          "start": 48896,
+          "year": 2024,
+          "name": "芸術文化講座事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-f9aab473717379fae56a4a16"
+          ]
+        },
+        {
+          "start": 51450,
+          "year": 2024,
+          "name": "文化振興事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-54c0657e5036471fd5b0465a"
+          ]
+        },
+        {
+          "start": 53401,
+          "year": 2024,
+          "name": "文化財保護保存事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-6eb9a583b767268297818222"
+          ]
+        },
+        {
+          "start": 55375,
+          "year": 2024,
+          "name": "郷土資料館展示事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-b9c93d09ba86dbb6ed3499a2"
+          ]
+        },
+        {
+          "start": 57788,
+          "year": 2024,
+          "name": "市史編纂事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-84f6e8815e8de548697da012"
+          ]
+        },
+        {
+          "start": 60019,
+          "year": 2024,
+          "name": "青少年健全育成事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-935c0ae914e4c04a4285c2ec"
+          ]
+        },
+        {
+          "start": 62431,
+          "year": 2024,
+          "name": "青少年相談指導事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-ec51d798a4e91e8f0a5de9bd"
+          ]
+        },
+        {
+          "start": 65169,
+          "year": 2024,
+          "name": "家庭教育学級開催事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-a6080b8b2e8b5728687258ab"
+          ]
+        },
+        {
+          "start": 67570,
+          "year": 2024,
+          "name": "国際化推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-1c2ddd85d1e271682ba0d79f"
+          ]
+        }
+      ],
+      "status": "individual_sheets_reviewed"
+    },
+    {
+      "sourceId": "e081d3f1970b48ed521ec409",
+      "sourceSha256": "f88d5bde15855018345ddd94f6e670297c72c5448809e4615887de798b14a767",
+      "textSha256": "7d63577da559d85fc4b4f81ab67216322a97a21155266699558c963c9e7c981b",
+      "characters": 886,
+      "headings": 0,
+      "rows": [],
+      "status": "non_sheet_body_review_pending"
+    },
+    {
+      "sourceId": "e90b3b38aca363e86b11cbc7",
+      "sourceSha256": "5cbc431a3f9840a4efcb4be747de7aa57e57d0939a8c0cde6861abd094b3e1a9",
+      "textSha256": "caf0645da141a4729372b7b9734617c9c3526846e781fdd488848749b94ab30e",
+      "characters": 51056,
+      "headings": 48,
+      "rows": [
+        {
+          "start": 0,
+          "year": 2024,
+          "name": "ほ場整備事業",
+          "status": "review_candidate",
+          "existingIds": []
+        },
+        {
+          "start": 1987,
+          "year": 2024,
+          "name": "用排水施設整備事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-ed968a63b6bf96d150bb1bd6"
+          ]
+        },
+        {
+          "start": 4139,
+          "year": 2024,
+          "name": "用排水施設維持管理費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-92a3b219ef89971294263259"
+          ]
+        },
+        {
+          "start": 6140,
+          "year": 2024,
+          "name": "農業経営基盤強化促進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-0db25627a349d76a4ef62ad7"
+          ]
+        },
+        {
+          "start": 8261,
+          "year": 2024,
+          "name": "農業者育成支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-ff90d7742e20f7ecdf42508c"
+          ]
+        },
+        {
+          "start": 10337,
+          "year": 2024,
+          "name": "需給調整推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-4d64c4304c86a05154497797"
+          ]
+        },
+        {
+          "start": 12496,
+          "year": 2024,
+          "name": "稲作生産効率化促進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-24dbdd0f308a5cecd3477ecb"
+          ]
+        },
+        {
+          "start": 14654,
+          "year": 2024,
+          "name": "園芸農産振興事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-164c20db4b16b2f77246dc6f"
+          ]
+        },
+        {
+          "start": 16835,
+          "year": 2024,
+          "name": "畜産振興事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-8a58d062af37247f643fc5cb"
+          ]
+        },
+        {
+          "start": 18701,
+          "year": 2024,
+          "name": "環境にやさしい農業推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-05c36d88f90257ad5b544b3a"
+          ]
+        },
+        {
+          "start": 20712,
+          "year": 2024,
+          "name": "有害鳥獣駆除事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-144e33f36098c8344458f5fc"
+          ]
+        },
+        {
+          "start": 23185,
+          "year": 2024,
+          "name": "農産物直売所運営支援費",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-994fa495ff349d4ca005bc35"
+          ]
+        },
+        {
+          "start": 25199,
+          "year": 2024,
+          "name": "茂原六斎市再活性化事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-5e9cec00d3a399a5dfc15529"
+          ]
+        },
+        {
+          "start": 27180,
+          "year": 2024,
+          "name": "森林整備事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-feb4a17eefac4ea9daac72e9"
+          ]
+        },
+        {
+          "start": 29352,
+          "year": 2024,
+          "name": "商業振興対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-be63f63eb59460d1066581be"
+          ]
+        },
+        {
+          "start": 31286,
+          "year": 2024,
+          "name": "企業立地促進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-a8b39306bed37e93b117c3d1"
+          ]
+        },
+        {
+          "start": 33130,
+          "year": 2024,
+          "name": "産業育成促進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-e903b5cfde5a9d2a7a58e4e4"
+          ]
+        },
+        {
+          "start": 35290,
+          "year": 2024,
+          "name": "商工団体支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-e467d531a8738f018fe54597"
+          ]
+        },
+        {
+          "start": 37324,
+          "year": 2024,
+          "name": "中小事業者サポート事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-89bcf7bc2746948ccfe0c84c"
+          ]
+        },
+        {
+          "start": 39296,
+          "year": 2024,
+          "name": "中小企業資金融資事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-987236a03df0fed741fb9c6d"
+          ]
+        },
+        {
+          "start": 41495,
+          "year": 2024,
+          "name": "起業・創業支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-ad019dcd2a8bc77faf84c72c"
+          ]
+        },
+        {
+          "start": 43661,
+          "year": 2024,
+          "name": "観光振興事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-5f9936c3f3260ab7fd5a3d77"
+          ]
+        },
+        {
+          "start": 46401,
+          "year": 2024,
+          "name": "ロケツーリズム事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-5fb53179d3dbc5b8cea17ace"
+          ]
+        },
+        {
+          "start": 48883,
+          "year": 2024,
+          "name": "労政対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-2540ddb5f84c8b13c497c59b"
+          ]
+        }
+      ],
+      "status": "individual_sheets_reviewed"
+    },
+    {
+      "sourceId": "fa0b17c8a168bcd6ba6498f3",
+      "sourceSha256": "0db803e7d119f5804c36787ad109a1aeeeb22025afd85070d4f79d52dca66b3e",
+      "textSha256": "29cd0451537b70f6a2b42069fa4dea861d17bcedaa99743f45e9ae00c63c4b53",
+      "characters": 70611,
+      "headings": 62,
+      "rows": [
+        {
+          "start": 0,
+          "year": 2023,
+          "name": "社会福祉協議会補助事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-3049277214c52aee65191f57"
+          ]
+        },
+        {
+          "start": 2386,
+          "year": 2023,
+          "name": "母子保健事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-7825e6fdc2fc4e52277a2344"
+          ]
+        },
+        {
+          "start": 5744,
+          "year": 2023,
+          "name": "乳幼児家庭支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-8865889e034672da170cfa71"
+          ]
+        },
+        {
+          "start": 7879,
+          "year": 2023,
+          "name": "おめでとう赤ちゃんセット配布事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-679aa5595af2bb75dfe75a20"
+          ]
+        },
+        {
+          "start": 9993,
+          "year": 2023,
+          "name": "ファミリーサポートセンター事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-99b3b967d91943452d180ff2"
+          ]
+        },
+        {
+          "start": 12119,
+          "year": 2023,
+          "name": "子ども医療費助成事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-045c1095726c22df25c1cc56"
+          ]
+        },
+        {
+          "start": 14272,
+          "year": 2023,
+          "name": "高校生等医療費助成事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-2932d08904b06bb0214ebe96"
+          ]
+        },
+        {
+          "start": 16232,
+          "year": 2023,
+          "name": "子育て支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-f6f9522fa7a85d4188773311"
+          ]
+        },
+        {
+          "start": 18186,
+          "year": 2023,
+          "name": "病児・病後児保育事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-cdedb29fd60cebfacf3c3531"
+          ]
+        },
+        {
+          "start": 20625,
+          "year": 2023,
+          "name": "認可外保育所運営支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-4a918e049a90d8e4441eeda8"
+          ]
+        },
+        {
+          "start": 22631,
+          "year": 2023,
+          "name": "民間保育士処遇改善事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-ff89b691cbc1b383d7bfaa22"
+          ]
+        },
+        {
+          "start": 24629,
+          "year": 2023,
+          "name": "放課後児童健全育成事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-e371082939fa94eb25e1e52e"
+          ]
+        },
+        {
+          "start": 26924,
+          "year": 2023,
+          "name": "ひとり親家庭福祉事業（高等職業訓練促進給付金）",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-2813491ea59ab9f7a22062f5"
+          ]
+        },
+        {
+          "start": 29156,
+          "year": 2023,
+          "name": "軽度・中等度難聴児補聴器購入費助成事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-20d510af6ae634c80f76196b"
+          ]
+        },
+        {
+          "start": 31458,
+          "year": 2023,
+          "name": "療育支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-9a4a3c391151ef32d860a0e6"
+          ]
+        },
+        {
+          "start": 33982,
+          "year": 2023,
+          "name": "養育支援訪問事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-349637e96556da125944e994"
+          ]
+        },
+        {
+          "start": 36392,
+          "year": 2023,
+          "name": "福祉・介護人材確保対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-63a343d5cf6d5ee497d89c9b"
+          ]
+        },
+        {
+          "start": 38342,
+          "year": 2023,
+          "name": "介護基盤等整備促進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-27d0400f0e71c21e9a5cd261"
+          ]
+        },
+        {
+          "start": 40069,
+          "year": 2023,
+          "name": "高齢者在宅生活支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-3d4d5956360d1d77602186b0"
+          ]
+        },
+        {
+          "start": 42129,
+          "year": 2023,
+          "name": "生きがい対策事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-2c636af83f9bfde96ef18f42"
+          ]
+        },
+        {
+          "start": 44164,
+          "year": 2023,
+          "name": "敬老事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-7c2168287130b87ab760994f"
+          ]
+        },
+        {
+          "start": 46096,
+          "year": 2023,
+          "name": "重度心身障害者医療費助成事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-ebbff775aeff522e52d8d924"
+          ]
+        },
+        {
+          "start": 48291,
+          "year": 2023,
+          "name": "障害者ｸﾞﾙｰﾌﾟﾎｰﾑ等入居者家賃補助事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-b470a9689e0e4dc7e8ccb086"
+          ]
+        },
+        {
+          "start": 50465,
+          "year": 2023,
+          "name": "心身障害者施設等運営補助事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-c660c33c02e29af33ef004d3"
+          ]
+        },
+        {
+          "start": 52541,
+          "year": 2023,
+          "name": "社会参加促進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-900472882c6562bcb5011dec"
+          ]
+        },
+        {
+          "start": 54764,
+          "year": 2023,
+          "name": "健康づくり推進事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-6e5ec1f44e9ae0dcb83bc5b3"
+          ]
+        },
+        {
+          "start": 57825,
+          "year": 2023,
+          "name": "健康診査事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-6177a25f6e3875d9eb77a727"
+          ]
+        },
+        {
+          "start": 60500,
+          "year": 2023,
+          "name": "歯科健診事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-0efd2272c812f1d27ea03ab5"
+          ]
+        },
+        {
+          "start": 62738,
+          "year": 2023,
+          "name": "予防接種事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-faf041ed68b8385f5df334ca"
+          ]
+        },
+        {
+          "start": 65866,
+          "year": 2023,
+          "name": "後期高齢者医療事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-d948fb447e18247cdb78522b"
+          ]
+        },
+        {
+          "start": 68395,
+          "year": 2023,
+          "name": "家計相談支援事業",
+          "status": "existing",
+          "existingIds": [
+            "cached-12210-50b490f10aa309fef87d8039"
+          ]
+        }
+      ],
+      "status": "individual_sheets_reviewed"
+    }
+  ]
+}

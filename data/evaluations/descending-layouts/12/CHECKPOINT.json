@@ -1,8 +1,8 @@
 {
-  "candidateRecords": 2825,
-  "newCandidatesThisTranche": 166,
-  "newCandidatesSincePreviousPush": 166,
-  "previousRemoteHead": "4cc8883ee3aaad8bbcacc659bdd508e365562782",
+  "candidateRecords": 2964,
+  "newCandidatesThisTranche": 139,
+  "newCandidatesSincePreviousPush": 139,
+  "previousRemoteHead": "136b3e4665df93932710073977f49fcbb4f70b0e",
   "perMunicipality": {
     "鋸南町": 44,
     "長南町": 10,
@@ -15,33 +15,38 @@
     "南房総市": 4,
     "富里市": 162,
     "四街道市": 302,
-    "浦安市": 94
+    "浦安市": 94,
+    "茂原市": 39,
+    "木更津市": 40,
+    "船橋市": 60
   },
   "existingFieldEnrichments": 0,
   "newCandidateActualAmountFields": 0,
-  "newCandidateOriginalRatingFields": 0,
+  "newCandidateOriginalRatingFields": 40,
+  "newCandidatePurposeFields": 20,
+  "newCandidateActivityFields": 20,
   "cohortActualAmountFields": 33,
-  "validatedCumulativeCandidates": 37327,
-  "validatedEvidence": 113205,
+  "validatedCumulativeCandidates": 37466,
+  "validatedEvidence": 113877,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "4cc8883ee3aaad8bbcacc659bdd508e365562782",
+  "previousHead": "136b3e4665df93932710073977f49fcbb4f70b0e",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "26/26",
-    "crawler": "1093/1093",
+    "focused": "34/34",
+    "crawler": "1101/1101",
     "web": "256/256",
     "typecheck": "passed",
     "lint": "passed;existingfontwarning",
     "national": "passed branchbaseline",
     "static": "109/109 subpath",
-    "quotes": "37327 candidates/113205 quotes"
+    "quotes": "37466 candidates/113877 quotes"
   },
   "remoteCI": "unverified;known ActionsAPI403 not retried",
-  "remaining": "Chiba queue continues. Yotsukaido72 and Urayasu94 added; no new amounts or rating fields. Yotsukaido12 complete split sources account for484 named identities:182 existing master and302 new candidates. Urayasu four tables account for94 names:76 evaluation2022 and18 evaluation2025; implementation target dates are not fiscal years. Mobara next proposals outside this checkpoint still need fullvalidation. No prior fields changed. Missing42 bodies remain held."
+  "remaining": "Chiba queue continues. Mobara39,Kisarazu40,Funabashi60 added; no new amounts or prior field changes. Kisarazu225 individual sheets now account for185 existing master and40 new candidates. Funabashi20 current evaluation2025 and40 historical explicit evaluation-year identities; actual costs unset. Mobara list aliases and remaining source-family coverage still under review. Missing42 bodies remain held."
 }
