@@ -1,0 +1,24 @@
+{
+  "sourceId": "ccb01edf72c2ccbfca4adecf",
+  "holds": [
+    {
+      "name": "公園バリアフリー化事業",
+      "budgetOffset": 14059,
+      "reason": "Explicit 【1,199千円】【再掲】 follows the row; same park construction already described under 公園等整備事業. Retain prior record; do not add an alias duplicate."
+    },
+    {
+      "name": "スポーツ環境整備事業",
+      "budgetOffset": 61896,
+      "reason": "Same facility-usage row and same two budget accounts as retained スポーツによる健康づくり事業. Do not create separate alias entry without independent row evidence."
+    },
+    {
+      "name": "社会体育館改修事業",
+      "reason": "Explicit note says gym work appears under 避難所施設改修事業 NO.26; omit duplicated project from closure proposals."
+    },
+    {
+      "name": "ふれあいプラザさかえ施設改良事業",
+      "budgetOffset": 78811,
+      "reason": "Same FY2019 14,630千円 facility work as primary 大規模改修 row; retain primary row only."
+    }
+  ]
+}

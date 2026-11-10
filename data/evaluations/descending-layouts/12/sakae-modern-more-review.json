@@ -1,0 +1,793 @@
+[
+  {
+    "sourceId": "26c1bff427a31b64f75ed8b2",
+    "year": 2024,
+    "proposals": 0,
+    "ledger": [
+      {
+        "name": "事業推進のための支援事業",
+        "start": 10537,
+        "status": "hold",
+        "reason": "Future-only implementation period or generic identity requires specific context review."
+      },
+      {
+        "name": "観光基本計画策定事業",
+        "start": 59203,
+        "status": "hold",
+        "reason": "Future-only implementation period or generic identity requires specific context review."
+      },
+      {
+        "name": "企画財政課市町村合併情報収集事業",
+        "start": 96691,
+        "status": "hold",
+        "reason": "Adjacent count or department text contaminates title; manual boundaries required."
+      }
+    ]
+  },
+  {
+    "sourceId": "696f10cd99d5717fa0f67de9",
+    "year": 2023,
+    "proposals": 6,
+    "ledger": [
+      {
+        "name": "幼児健診事業5予防接種事業",
+        "start": 6417,
+        "status": "hold",
+        "reason": "Adjacent count or department text contaminates title; manual boundaries required."
+      },
+      {
+        "name": "事業推進のための支援事業",
+        "start": 9164,
+        "status": "hold",
+        "reason": "Future-only implementation period or generic identity requires specific context review."
+      },
+      {
+        "name": "地域公共交通計画事業",
+        "start": 13680,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "空き家等適正管理事業",
+        "start": 14899,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "地域ケア会議推進事業",
+        "start": 34598,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "観光基本計画策定事業",
+        "start": 52720,
+        "status": "hold",
+        "reason": "Future-only implementation period or generic identity requires specific context review."
+      },
+      {
+        "name": "雇用就労支援事業",
+        "start": 56785,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "67町史編さん事業",
+        "start": 71685,
+        "status": "hold",
+        "reason": "Adjacent count or department text contaminates title; manual boundaries required."
+      },
+      {
+        "name": "公共施設の複合利用事業",
+        "start": 84549,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "市町村合併情報収集事業",
+        "start": 85664,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      }
+    ]
+  },
+  {
+    "sourceId": "69b2626162cdabd21508d2fd",
+    "year": 2022,
+    "proposals": 13,
+    "ledger": [
+      {
+        "name": "保育委託事業",
+        "start": 2316,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "保育委託事業",
+        "start": 2608,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "出産祝金支給事業",
+        "start": 3137,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "出産祝金支給事業",
+        "start": 4357,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "ひとり親家庭等医療費等助成事業",
+        "start": 4865,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "福祉・子ども課ひとり親家庭等医療費等助成事業",
+        "start": 5438,
+        "status": "hold",
+        "reason": "Adjacent count or department text contaminates title; manual boundaries required."
+      },
+      {
+        "name": "消防水利整備事業",
+        "start": 21866,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "犯罪のないまちづくり推進事業",
+        "start": 23182,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "交通事故のないまちづくり事業",
+        "start": 23617,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "地域包括支援センター事業",
+        "start": 27882,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "障がい福祉サービス提供事業",
+        "start": 30749,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "障がい福祉サービス提供事業",
+        "start": 31256,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "障害者就労支援事業",
+        "start": 31364,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "心の相談ほっとスペース事業",
+        "start": 31548,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "認定農業者育成事業",
+        "start": 36640,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "スクールバス運行事業",
+        "start": 43230,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "わくわくドラム推進事業",
+        "start": 46353,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "教育総務運営事業",
+        "start": 47551,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "施設の維持管理事業",
+        "start": 48972,
+        "status": "hold",
+        "reason": "Future-only implementation period or generic identity requires specific context review."
+      },
+      {
+        "name": "学校給食センター建て替え事業",
+        "start": 49064,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "ICT教育環境整備事業",
+        "start": 49513,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "家庭教育支援事業",
+        "start": 50616,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "住民活動支援センター運営事業",
+        "start": 56299,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "広報さかえ発行事業",
+        "start": 59262,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "犯罪のないまちづくり推進事業",
+        "start": 63019,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "会計審査事業",
+        "start": 64031,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      }
+    ]
+  },
+  {
+    "sourceId": "d52cf2b2de804bdbe3d02b08",
+    "year": 2021,
+    "proposals": 33,
+    "ledger": [
+      {
+        "name": "保育委託事業",
+        "start": 2159,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "保育委託事業",
+        "start": 2453,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "出産祝金支給事業",
+        "start": 2969,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "多子世帯保育料助成事業",
+        "start": 3580,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "出産祝金支給事業",
+        "start": 3594,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "0.94%多子世帯保育料助成事業",
+        "start": 4326,
+        "status": "hold",
+        "reason": "Adjacent count or department text contaminates title; manual boundaries required."
+      },
+      {
+        "name": "ひとり親家庭等医療費等助成事業",
+        "start": 4735,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "ひとり親家庭等医療費等助成事業",
+        "start": 5672,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "子育て相談支援事業",
+        "start": 6026,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "子育て相談支援事業",
+        "start": 6589,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "空家等対策計画策定事業",
+        "start": 14544,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "立地適正化計画策定事業",
+        "start": 14942,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "不法投棄廃棄物処理事業",
+        "start": 15541,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "空地の繁茂対策事業",
+        "start": 16045,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "水辺のクリーン作戦事業",
+        "start": 16218,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "公共下水道施設維持管理事業",
+        "start": 19024,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "印西地区衛生組合負担金事業",
+        "start": 19065,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "消防団員確保促進事業",
+        "start": 21164,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "消防団運営事業",
+        "start": 21266,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "消防水利整備事業",
+        "start": 21470,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "高規格救急自動車整備事業",
+        "start": 21738,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "消防団器具庫整備事業",
+        "start": 21922,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "消防団車両整備事業",
+        "start": 22067,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "地域包括支援センター事業",
+        "start": 27660,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "障害者就労支援事業",
+        "start": 31429,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "心の相談ほっとスペース事業",
+        "start": 31612,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "生活困窮者相談支援事業",
+        "start": 32257,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "認定農業者育成事業",
+        "start": 36805,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "農産物ブランド化事業",
+        "start": 37320,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "栄町創業支援補助事業",
+        "start": 39826,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "雇用就労支援事業",
+        "start": 43666,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "わくわくドラム推進事業",
+        "start": 46160,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "教育総務運営事業",
+        "start": 47743,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "私立幼稚園就園支援事業",
+        "start": 48851,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "図書室管理運営事業",
+        "start": 50473,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "いきいき塾さかえ事業",
+        "start": 50801,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "ふれあいプラザさかえ施設大規模改修事業",
+        "start": 51296,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "スポーツフェスタ事業",
+        "start": 51880,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "ふれあいプラザさかえ施設維持修繕事業",
+        "start": 52164,
+        "status": "hold",
+        "reason": "Floating title between facility-management and sports columns; separate current-year unit boundary not established from text."
+      },
+      {
+        "name": "スポーツによる健康づくり事業",
+        "start": 52339,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "リバーサイドマラソン実施事業",
+        "start": 52483,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "スポーツによる健康づくり事業",
+        "start": 52660,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "社会体育館改修事業",
+        "start": 52931,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "自主文化事業実施事業",
+        "start": 53424,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "文化財等の保存公開事業",
+        "start": 54096,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "自主文化事業実施事業",
+        "start": 54420,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "住民活動支援センター運営事業",
+        "start": 54784,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "自治振興育成事業助成金交付事業",
+        "start": 56018,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "広報さかえ発行事業",
+        "start": 57982,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "住民税賦課事務事業",
+        "start": 63244,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "ふれあいプラザさかえ施設改良事業",
+        "start": 65867,
+        "status": "hold",
+        "reason": "Listed facility construction refers explicitly to FY2019; FY2021 activity is a different general management-plan study. Do not assign historical construction to FY2021."
+      }
+    ]
+  },
+  {
+    "sourceId": "fa1f52c2c1d931efbce3091c",
+    "year": 2020,
+    "proposals": 27,
+    "ledger": [
+      {
+        "name": "保育委託事業",
+        "start": 2774,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "保育委託事業",
+        "start": 2782,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "出産祝金支給事業",
+        "start": 3814,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "多子世帯保育料助成事業",
+        "start": 4405,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "ひとり親家庭等医療費等助成事業",
+        "start": 5472,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "住宅地開発の誘導事業",
+        "start": 10525,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "成田湯川駅行新規バス路線実証実験事業",
+        "start": 15078,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "空家等対策計画策定事業",
+        "start": 17858,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "立地適正化計画策定事業",
+        "start": 18557,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "不法投棄廃棄物処理事業",
+        "start": 19281,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "空地の繁茂対策事業",
+        "start": 19687,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "水辺のクリーン作戦事業",
+        "start": 19699,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "住宅用太陽光発電設備等設置助成事業",
+        "start": 20367,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "印西地区衛生組合負担金事業",
+        "start": 23370,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "避難所施設改修等事業",
+        "start": 24872,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "消防団員確保促進事業",
+        "start": 26016,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "消防水利整備事業",
+        "start": 26952,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "消防団車両整備事業",
+        "start": 27404,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "消防団器具庫整備事業",
+        "start": 27844,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "認定農業者育成事業",
+        "start": 44292,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "農産物ブランド化事業",
+        "start": 44942,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "栄町創業支援補助事業",
+        "start": 47057,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "イベント広場の整備事業",
+        "start": 47396,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "私立幼稚園就園支援事業",
+        "start": 55674,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "教育総務運営事業",
+        "start": 55891,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "学校施設大規模改修事業",
+        "start": 56680,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      },
+      {
+        "name": "施設の維持管理事業",
+        "start": 57419,
+        "status": "hold",
+        "reason": "Future-only implementation period or generic identity requires specific context review."
+      },
+      {
+        "name": "学校給食センター建替事業",
+        "start": 57486,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "いきいき塾さかえ事業",
+        "start": 59968,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "図書室管理運営事業",
+        "start": 60446,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "社会体育館改修事業",
+        "start": 62798,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "文化財等の保存公開事業",
+        "start": 64507,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "自治振興育成事業助成金交付事業",
+        "start": 66033,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "会計審査事業",
+        "start": 74301,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "住民税賦課事務事業",
+        "start": 75808,
+        "status": "proposed",
+        "reason": "Unique complete standalone business title in annual major-business table, no inferred numeric columns."
+      },
+      {
+        "name": "学校施設大規模改修事業",
+        "start": 79060,
+        "status": "hold",
+        "reason": "Repeated title with different service/context or footer; do not merge or multiply without row identity review."
+      }
+    ]
+  }
+]

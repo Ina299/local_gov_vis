@@ -1,38 +1,40 @@
 {
-  "candidateRecords": 1038,
-  "newCandidatesThisTranche": 602,
+  "candidateRecords": 1293,
+  "newCandidatesThisTranche": 255,
+  "newCandidatesSincePreviousPush": 857,
+  "previousRemoteHead": "fb4b7b06da701968fb50059df9cb95a937bd6670",
   "perMunicipality": {
     "鋸南町": 44,
     "長南町": 10,
     "長生村": 2,
     "横芝光町": 339,
     "東庄町": 41,
-    "栄町": 602
+    "栄町": 857
   },
   "existingFieldEnrichments": 0,
   "newCandidateActualAmountFields": 0,
   "cohortActualAmountFields": 2,
-  "validatedCumulativeCandidates": 35540,
-  "validatedEvidence": 105128,
+  "validatedCumulativeCandidates": 35795,
+  "validatedEvidence": 106101,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "fb4b7b06da701968fb50059df9cb95a937bd6670",
+  "previousHead": "63503057adf531ee855599697afa511174f79542",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "7/7",
-    "crawler": "1074/1074",
+    "focused": "8/8",
+    "crawler": "1075/1075",
     "web": "256/256",
     "typecheck": "passed",
     "lint": "passed;existingfontwarning",
     "national": "passed branchbaseline",
     "static": "109/109 subpath",
-    "quotes": "35540 candidates/105128 quotes"
+    "quotes": "35795 candidates/106101 quotes"
   },
   "remoteCI": "unverified;known ActionsAPI403 not retried",
-  "remaining": "Chiba queue continues. Sakae602 now fullvalidated; further255 proposals staged outside repository, not fullvalidated. Tonosho41 are related educational class records. Missing42 bodies remain held. Existing partial-name corrections need separate coordinated integration; no existing values changed."
+  "remaining": "Chiba queue continues. Sakae857 now fullvalidated; later proposals staged outside repository remain outside this checkpoint. Annual review entries do not imply implementation or completion. Tonosho41 are related educational class records. Missing42 bodies remain held. Existing partial-name corrections need separate coordinated integration; no existing values changed."
 }
