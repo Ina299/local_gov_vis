@@ -1,19 +1,23 @@
 {
-  "candidateRecords": 70,
-  "newCandidatesThisTranche": 70,
-  "previousRemoteHead": "345bc9123927991ff6424c69557495df6b28d6a8",
+  "candidateRecords": 281,
+  "newCandidatesThisTranche": 211,
+  "previousRemoteHead": "f9ac039ceeaa18c32ac2ad76cf68da697b432b9c",
   "perMunicipality": {
     "松伏町": 29,
     "杉戸町": 1,
     "宮代町": 32,
     "寄居町": 2,
-    "美里町": 6
+    "美里町": 6,
+    "長瀞町": 63,
+    "皆野町": 12,
+    "鳩山町": 69,
+    "吉見町": 67
   },
   "existingFieldEnrichments": 0,
-  "newCandidateActualAmountFields": 0,
+  "newCandidateActualAmountFields": 1,
   "newCandidateOriginalRatingFields": 0,
-  "validatedCumulativeCandidates": 37671,
-  "validatedEvidence": 114543,
+  "validatedCumulativeCandidates": 37882,
+  "validatedEvidence": 115344,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
@@ -23,15 +27,15 @@
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "7/7",
-    "crawler": "1122/1122",
+    "focused": "12/12",
+    "crawler": "1127/1127",
     "web": "256/256",
     "typecheck": "passed",
     "lint": "passed;existingfontwarning",
     "national": "passed branchbaseline",
     "static": "109/109 subpath",
-    "quotes": "37671 candidates/114543 quotes"
+    "quotes": "37882 candidates/115344 quotes"
   },
   "remoteCI": "unverified;known ActionsAPI403 not retried",
-  "remaining": "Saitama cached queue continues. Next Nagatoro63,Minano12,Hatoyama69,Yoshimi67 (211 total) are stage-only and not included in this checkpoint. Missing26 bodies remain held."
+  "remaining": "Saitama cached queue continues: Kawajima64,Ranzan251,Namegawa512,Ogose10 are stage-only, not included. Missing26 bodies remain held."
 }

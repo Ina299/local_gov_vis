@@ -1,0 +1,78 @@
+{
+  "productionChanged": false,
+  "municipalRequests": 0,
+  "rows": [
+    {
+      "municipalityCode": "11347",
+      "sourceId": "dd778e6e2d14a807119a97d2",
+      "sourceUrl": "https://www.town.yoshimi.saitama.jp/material/files/group/18/kigyouban_furusato_kouka.pdf",
+      "sourceSha256": "f3a98a62f535e6a62c4549d1f4d3077da0636c0a0ddd8c1bf8cf89ee7a9b5c0f",
+      "textSha256": "ecaf0929fe4a5f6ef9d5280a66c0add13d27b1b34640b9994c856caaaaac2222",
+      "status": "year_role_hold",
+      "reason": "Complete cached anniversary subsidy report contains no calendar/fiscal/evaluation year. Saved navigation label R4 alone does not resolve target-year versus reporting-year role. Do not infer from anniversary or month/day. 10,000,000 yen is explicitly committee budget, not actual cost; donations are revenues. No acquisition attempted."
+    },
+    {
+      "municipalityCode": "11347",
+      "sourceId": "ec5679f837d1a6f810e93007",
+      "sourceUrl": "https://www.town.yoshimi.saitama.jp/material/files/group/18/R2korona.pdf",
+      "sourceSha256": "7625603124a6060bc72ef3bb7a82b68bb04d93dd2bbdd94a141773cbab24d524",
+      "textSha256": "0037215826158dd0fa4a30cb0cb8ab926f86bbc0d16f2ce66bfc03521ac115b3",
+      "status": "partial_identity_coverage",
+      "reason": "18 pinned FY2020 identities accepted. Seven additional financing/target variants are not independently counted: disaster supplementary/stockpile variants, public-space supplementary/facility variants, essential supplies school/disinfection variants and child newborn variant require independent project identity evidence. No cost alignment inferred from mixed columns."
+    },
+    {
+      "municipalityCode": "11347",
+      "sourceId": "9f74ff24850d6d7a84b8187e",
+      "sourceUrl": "https://www.town.yoshimi.saitama.jp/material/files/group/18/R4korona.pdf",
+      "sourceSha256": "5a127c5dcf989d9e7fd8853abf387798bf755f5d4cff78c1894af0ebb6a7e0ed",
+      "textSha256": "22c9bd39036a0a75edf03a6f8082b214a1c7069c8b5cc0a70e460a56f13b7447",
+      "status": "duplicate_financing_rows",
+      "reason": "18 FY2022 identities accepted from20 numbered rows. Repeated school-meal identity counted once; second gift-voucher financing row shares beneficiaries/benefit with first and is not an independent project. Prior-year funding label is not target-year evidence."
+    },
+    {
+      "municipalityCode": "11347",
+      "sourceId": "de6821ca71b72df42700cdbe",
+      "sourceUrl": "https://www.town.yoshimi.saitama.jp/material/files/group/18/R6-bultukadaka.pdf",
+      "sourceSha256": "01dbcaeb09c56dbf535f52ba10ca896449374efce3c6773613e92e34eb4cf118",
+      "textSha256": "e557528fc359de37aba60e5d92b04122ce1d9e697281ecc5817c214aac441cc0",
+      "status": "duplicate_benefit_rows",
+      "reason": "Seven rows with the same named low-income temporary special support project counted once for explicitly stated FY2024. Mixed prior-year adjustment and next-year system preparation amounts are not summed or assigned as actual expenditure."
+    },
+    {
+      "municipalityCode": "11363",
+      "sourceId": "1de3514f67ca3012f6ee4d11",
+      "sourceUrl": "https://www.town.nagatoro.saitama.jp/wp-content/uploads/2022/03/14b637fe5f6a8e2ff5c4cf1606d7f98b-1.pdf",
+      "sourceSha256": "878d5dfcbe7310e06f95cd8c2c0b43431f7c27df477db4779f7acaa164ea57d8",
+      "textSha256": "cab5366e733ec7bb5a5296043752461698f4bb41d97c6f0dc38a5366e7ac69ef",
+      "status": "bounded_named_activities",
+      "reason": "28 individually pinned FY2020 activities/repairs accepted. Cancelled sports/civic festivals and broad policy headings not made into extra project records. Review-entry inclusion does not imply implementation/completion."
+    },
+    {
+      "municipalityCode": "11363",
+      "sourceId": "d43f6bf161911467fb5b8a62",
+      "sourceUrl": "https://www.town.nagatoro.saitama.jp/wp-content/uploads/2026/09/R8_kyoikutenken.pdf",
+      "sourceSha256": "c545e4466bf980ed63e35fb5eb699997fda5719db4f497148526e50f920f7825",
+      "textSha256": "a074dab27d9f9ee3f0d94537872926f9caf1a507f5b0a857345afd8c17eef5ca",
+      "status": "bounded_named_activities",
+      "reason": "35 individually pinned FY2025 activities/repairs accepted; broad policy headings and repeated descriptions do not become additional projects. No amounts or ratings inferred."
+    },
+    {
+      "municipalityCode": "11362",
+      "sourceId": "5347685caa89a52500c8c78b",
+      "sourceUrl": "https://www.town.minano.saitama.jp/wp-content/uploads/2017/07/fc8d76c282defadd10cb3adb7a7f3a07.pdf",
+      "sourceSha256": "5b083c839018f62e7777a85ab6114dde2d72402e9775bddf53822a53d73aa5ed",
+      "textSha256": "5df0f00431e22adfca0da0dad09276969b702c9ec6c29d648903e9b639e3be3f",
+      "status": "bounded_named_activities",
+      "reason": "12 named entries retain explicit2021 review year; target fiscal year is unknown. Cancelled cultural experiences/cinema/exchange and future2022 sign plans not counted. Split final titles have exact ordered fragments; no numeric alignment inferred."
+    },
+    {
+      "municipalityCode": "11348",
+      "sourceId": "a51b3b2cc5793ab2ebe7c88c",
+      "sourceUrl": "https://www.town.hatoyama.saitama.jp/data/doc/1774933391_doc_66_0.pdf",
+      "sourceSha256": "b44f269bfc31fb3409ae55a3bc1e0bfc8fd51432c367c194591ad6f8f7a9a3b8",
+      "textSha256": "2ba3cc8565012653dfd65395d69ccc1f14052fbe4812484a8c4839cb5a1ba9f4",
+      "status": "bounded_named_activities",
+      "reason": "50 school-qualified repairs plus19 services. Preserve existing two master projects. One explicit20万円 expenditure retained; school grants are not summed. Repeated work counts, long-vacation childcare subset, former sports-festival name, boccia subset and joint pottery event are not extra identities. Digital museum construction FY2024 does not imply FY2025 operation. Other policy aggregates remain outside named-project coverage."
+    }
+  ]
+}
