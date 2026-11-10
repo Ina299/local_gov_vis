@@ -1,0 +1,42 @@
+{
+  "newCandidates": 0,
+  "scope": "Only three unmatched localized R5 spans; does not certify all list-row coverage",
+  "holds": [
+    {
+      "sourceId": "70e3caa619f42e2fa9edf619",
+      "sourceSha256": "6262bdbf7b8df59b9e54ddff4d796227872e1fb300eb67abbbd4dd99bf0bbfdf",
+      "textSha256": "bc0134ced9252df54641541805db139f21a7b0a17393bfd7dd73447ca08aaaac",
+      "number": 73,
+      "start": 6086,
+      "raw": "73\n\n205020103\n\n4010303 健康管理課 歯科検診事業\n\n歯科検診事業\n\n1,648\n\n1,435\n\n87.1\n\nB\n\nB\n\n",
+      "status": "identity_alignment_hold",
+      "reason": "歯科検診事業と既存の歯科健診事業は名称表記差。コード205020103と既存205020102の不一致は解決せず、別事業として増やさない。"
+    },
+    {
+      "sourceId": "70e3caa619f42e2fa9edf619",
+      "sourceSha256": "6262bdbf7b8df59b9e54ddff4d796227872e1fb300eb67abbbd4dd99bf0bbfdf",
+      "textSha256": "bc0134ced9252df54641541805db139f21a7b0a17393bfd7dd73447ca08aaaac",
+      "number": 103,
+      "start": 8627,
+      "raw": "103\n\n303030201\n\n7040103 建築課\n\n",
+      "status": "identity_alignment_hold",
+      "reason": "番号・実施計画コード・建築課だけの局所テキスト。名称は後続のページ列に分離し、コードと名称の対応をこの範囲から確定できない。"
+    },
+    {
+      "sourceId": "70e3caa619f42e2fa9edf619",
+      "sourceSha256": "6262bdbf7b8df59b9e54ddff4d796227872e1fb300eb67abbbd4dd99bf0bbfdf",
+      "textSha256": "bc0134ced9252df54641541805db139f21a7b0a17393bfd7dd73447ca08aaaac",
+      "number": 119,
+      "start": 9934,
+      "raw": "119\n\n403020201\n\n農政課\n\n",
+      "status": "identity_alignment_hold",
+      "reason": "番号・実施計画コード・農政課だけの局所テキスト。名称列が別位置にあり、同年度の独立した未登録事業と証明できない。"
+    }
+  ],
+  "otherLimitations": [
+    "R5 parser finds169 of175 row markers.6 labels are displaced across page columns.",
+    "Substring/code screening has false positives and is triage only; no automatic acceptance.",
+    "No existing master codes, field values or aliases changed.",
+    "Need a saved coordinate-bearing original or unambiguous source statement before resolving disputed year/name/code alignment; no new retrieval authorized."
+  ]
+}

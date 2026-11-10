@@ -1,0 +1,81 @@
+{
+  "hashVerifiedSources": 2,
+  "existingCandidates": 41,
+  "newStageCandidates": 118,
+  "newAnnualAssistancePurchaseFields": 31,
+  "productionChanged": false,
+  "scope": "Complete FY2021 and FY2022 cached education reports. Named business, grant, contract and event identities reviewed; not all education policy headings are projects.",
+  "families": [
+    {
+      "family": "tonosho-finance",
+      "counts": [
+        {
+          "year": 2021,
+          "records": 23
+        },
+        {
+          "year": 2022,
+          "records": 20
+        }
+      ]
+    },
+    {
+      "family": "tonosho-extra",
+      "counts": [
+        {
+          "year": 2021,
+          "records": 15
+        },
+        {
+          "year": 2022,
+          "records": 14
+        }
+      ]
+    },
+    {
+      "family": "tonosho-events",
+      "counts": [
+        {
+          "year": 2021,
+          "records": 17
+        },
+        {
+          "year": 2022,
+          "records": 29
+        }
+      ]
+    }
+  ],
+  "holds": [
+    {
+      "kind": "prior_year_attribution",
+      "count": 3,
+      "reason": "FY2021 contract table explicitly labels three work rows as carryover fromFY2020; do not inferFY2021 execution or payment."
+    },
+    {
+      "kind": "not_individual_business",
+      "reason": "Policy/education committee chapters, committee meetings, school/visitor counts and library circulation tables are not individual business identities."
+    },
+    {
+      "kind": "cancelled_or_declined",
+      "reason": "Cancelled festival/camp/children events and declined subsidies remain excluded from implemented-activity additions."
+    },
+    {
+      "kind": "alias_or_repeat",
+      "reason": "History/waka classes already present in41; POP award repeated inlibrary section, and sports tournaments repeated inassociation section counted once peryear."
+    },
+    {
+      "kind": "financial_alignment",
+      "reason": "All35 contract values, loan principal, scholarship-loan fund and mixed school-aid columns omitted from actual expenditure; district-wide A rating notassigned to individuals."
+    },
+    {
+      "kind": "recipient_only",
+      "reason": "Grant rows showing only recipient organization without separate business/program name retained as source evidence, not synthesized into new names."
+    },
+    {
+      "kind": "missing_body",
+      "count": 3,
+      "reason": "Other three Tonosho source bodies absent; no fetch. Landingpage is navigation."
+    }
+  ]
+}
