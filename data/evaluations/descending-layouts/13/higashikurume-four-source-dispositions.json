@@ -1,0 +1,26 @@
+[
+  {
+    "sourceId": "c70b472e93c1edeae12a1a9c",
+    "fullTextSha256": "74008211bb0a74a14085b059273c0263d1a725decde3660d0d4076237b4a4217",
+    "status": "nonindividual_scope",
+    "reason": "Annotated blank how-to template; no identified business/year values. Explanatory financial labels are not data."
+  },
+  {
+    "sourceId": "aed5140db78ce616e3dd15e0",
+    "fullTextSha256": "0f5e2e9d31a1e670fd0bf15036eacbaf85c48952697b08c97df307d26743afd8",
+    "status": "nonindividual_scope",
+    "reason": "Policy-evaluation compilation. Basic-policy/aggregate business counts and costs are not individual business records."
+  },
+  {
+    "sourceId": "6f62b3f3c36336f4b8880ca4",
+    "fullTextSha256": "e5f5491b5f20b549b46a427022df90442e071e414844291d8e590d355a3f9aee",
+    "status": "nonindividual_scope",
+    "reason": "Policy01 excerpt of same policy compilation; named basic businesses0101/0102 are policy categories, not six-digit individual business rows."
+  },
+  {
+    "sourceId": "a69eb0552b81fc9811d31202",
+    "fullTextSha256": "9459e6e956987e568aa0106952ff443a34bf71db161786fce63211fa9292400f",
+    "status": "11_staged_individual_businesses",
+    "reason": "11 explicit six-digit individual businesses in external sheet; named policy0102 and overall evaluation excluded."
+  }
+]

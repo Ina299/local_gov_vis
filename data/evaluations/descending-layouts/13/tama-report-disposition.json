@@ -1,0 +1,11 @@
+{
+  "sourceId": "13e8942a2b111cbd548a85e9",
+  "municipalityCode": "13224",
+  "fullTextSha256": "f5a17d67200d7b1d3c2aa9dcc519288715b4ed6352ddb7bcf8f5c6c09b2b2eec",
+  "continuationPartsVerified": 1,
+  "status": "source_specific_missing_text",
+  "reason": "Full cached text and continuation hash-match. Actual council business-evaluation pages88–96 contain only page numbers, no project names/rows in saved extracted text. Other chapters are department goals/policy/KPI/citizen survey, not individual business sheets. No matching local original PDF found by workspace file inventory.",
+  "quotedSection": "Ⅵ 市議会の評価結果 （令和５年度決算審査事業評価）\n\nⅣ\n\nスタート\n\nゴール\n\n市民による\nⅠ\n\nⅡ\n\nⅢ\n\n評価\n\n施政方針\n\n各部の目標・\n\n行政評価\n\n(市長)\n\n取組方針\n\n(政策・重点テーマ)\n\n次年度の\n施政方針へ\n反映\n\nⅤ\n議会による\n評価\n\n87\n\n\n88\n\n\n89\n\n\n90\n\n\n91\n\n\n92\n\n\n93\n\n\n94\n\n\n95\n\n\n96\n\n\n",
+  "prerequisite": "Locally supplied original PDF/images or source-provenanced text forpages88–96; no refetch authorized.",
+  "networkRequests": 0
+}

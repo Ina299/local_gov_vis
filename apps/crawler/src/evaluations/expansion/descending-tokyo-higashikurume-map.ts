@@ -1,0 +1,249 @@
+export const config = {
+  "sourceId": "a69eb0552b81fc9811d31202",
+  "municipalityCode": "13222",
+  "municipalityName": "東久留米市",
+  "sourceUrl": "https://www.city.higashikurume.lg.jp/_res/projects/default_project/_page_/001/018/864/r3.gaibuhyoka.pdf",
+  "sourceSha256": "7962d3b65b8e5d44b94b41290ab416d518c5d1e9ec9331739efdc19034ffe8c9",
+  "fullTextSha256": "9459e6e956987e568aa0106952ff443a34bf71db161786fce63211fa9292400f",
+  "rows": [
+    {
+      "projectCode": "010201",
+      "name": "広報発行事務",
+      "start": 869,
+      "raw": "広報発行事",
+      "fragments": [
+        {
+          "raw": "広報発行事",
+          "start": 869
+        },
+        {
+          "raw": "務",
+          "start": 914
+        }
+      ],
+      "numberQuote": "010201",
+      "numberOffset": 822,
+      "evaluationYear": 2021,
+      "yearQuote": "令和３年度外部評価シート",
+      "yearOffset": 0
+    },
+    {
+      "projectCode": "010202",
+      "name": "声の広報事業",
+      "start": 986,
+      "raw": "声の広報事",
+      "fragments": [
+        {
+          "raw": "声の広報事",
+          "start": 986
+        },
+        {
+          "raw": "業",
+          "start": 1031
+        }
+      ],
+      "numberQuote": "010202",
+      "numberOffset": 939,
+      "evaluationYear": 2021,
+      "yearQuote": "令和３年度外部評価シート",
+      "yearOffset": 0
+    },
+    {
+      "projectCode": "010203",
+      "name": "ホームページ運営事務",
+      "start": 1073,
+      "raw": "ホームペー",
+      "fragments": [
+        {
+          "raw": "ホームペー",
+          "start": 1073
+        },
+        {
+          "raw": "ジ運営事務",
+          "start": 1130
+        }
+      ],
+      "numberQuote": "010203",
+      "numberOffset": 1038,
+      "evaluationYear": 2021,
+      "yearQuote": "令和３年度外部評価シート",
+      "yearOffset": 0
+    },
+    {
+      "projectCode": "010204",
+      "name": "市案内図発行事業",
+      "start": 1200,
+      "raw": "市案内図発",
+      "fragments": [
+        {
+          "raw": "市案内図発",
+          "start": 1200
+        },
+        {
+          "raw": "行事業",
+          "start": 1245
+        }
+      ],
+      "numberQuote": "010204",
+      "numberOffset": 1192,
+      "evaluationYear": 2021,
+      "yearQuote": "令和３年度外部評価シート",
+      "yearOffset": 0
+    },
+    {
+      "projectCode": "010205",
+      "name": "情報コーナー整備事業",
+      "start": 1267,
+      "raw": "情報コーナー",
+      "fragments": [
+        {
+          "raw": "情報コーナー",
+          "start": 1267
+        },
+        {
+          "raw": "整備事業",
+          "start": 1313
+        }
+      ],
+      "numberQuote": "010205",
+      "numberOffset": 1259,
+      "evaluationYear": 2021,
+      "yearQuote": "令和３年度外部評価シート",
+      "yearOffset": 0
+    },
+    {
+      "projectCode": "010206",
+      "name": "報道機関情報提供事業",
+      "start": 1392,
+      "raw": "報道機関情",
+      "fragments": [
+        {
+          "raw": "報道機関情",
+          "start": 1392
+        },
+        {
+          "raw": "報提供事業",
+          "start": 1437
+        }
+      ],
+      "numberQuote": "010206",
+      "numberOffset": 1345,
+      "evaluationYear": 2021,
+      "yearQuote": "令和３年度外部評価シート",
+      "yearOffset": 0
+    },
+    {
+      "projectCode": "010207",
+      "name": "暮らしの便利帳発行事業",
+      "start": 1458,
+      "raw": "暮らしの便",
+      "fragments": [
+        {
+          "raw": "暮らしの便",
+          "start": 1458
+        },
+        {
+          "raw": "利帳発行事",
+          "start": 1503
+        },
+        {
+          "raw": "業",
+          "start": 1548
+        }
+      ],
+      "numberQuote": "010207",
+      "numberOffset": 1450,
+      "evaluationYear": 2021,
+      "yearQuote": "令和３年度外部評価シート",
+      "yearOffset": 0
+    },
+    {
+      "projectCode": "010208",
+      "name": "定点観測事業",
+      "start": 1633,
+      "raw": "定点観測事",
+      "fragments": [
+        {
+          "raw": "定点観測事",
+          "start": 1633
+        },
+        {
+          "raw": "業",
+          "start": 1666
+        }
+      ],
+      "numberQuote": "010208",
+      "numberOffset": 1587,
+      "evaluationYear": 2021,
+      "yearQuote": "令和３年度外部評価シート",
+      "yearOffset": 0
+    },
+    {
+      "projectCode": "010209",
+      "name": "財政公表事務",
+      "start": 1699,
+      "raw": "財政公表事",
+      "fragments": [
+        {
+          "raw": "財政公表事",
+          "start": 1699
+        },
+        {
+          "raw": "務",
+          "start": 1742
+        }
+      ],
+      "numberQuote": "010209",
+      "numberOffset": 1691,
+      "evaluationYear": 2021,
+      "yearQuote": "令和３年度外部評価シート",
+      "yearOffset": 0
+    },
+    {
+      "projectCode": "010211",
+      "name": "情報公開・個人情報保護関係事務",
+      "start": 1768,
+      "raw": "情報公開・個",
+      "fragments": [
+        {
+          "raw": "情報公開・個",
+          "start": 1768
+        },
+        {
+          "raw": "人情報保護関",
+          "start": 1815
+        },
+        {
+          "raw": "係事務",
+          "start": 1861
+        }
+      ],
+      "numberQuote": "010211",
+      "numberOffset": 1760,
+      "evaluationYear": 2021,
+      "yearQuote": "令和３年度外部評価シート",
+      "yearOffset": 0
+    },
+    {
+      "projectCode": "010212",
+      "name": "ご意見箱設置事業",
+      "start": 1948,
+      "raw": "ご意見箱設",
+      "fragments": [
+        {
+          "raw": "ご意見箱設",
+          "start": 1948
+        },
+        {
+          "raw": "置事業",
+          "start": 1992
+        }
+      ],
+      "numberQuote": "010212",
+      "numberOffset": 1901,
+      "evaluationYear": 2021,
+      "yearQuote": "令和３年度外部評価シート",
+      "yearOffset": 0
+    }
+  ]
+};

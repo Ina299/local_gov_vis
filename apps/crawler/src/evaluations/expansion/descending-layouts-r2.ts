@@ -1,3 +1,7 @@
+import{reviewChofuAnnual}from'./descending-tokyo-chofu-annual';
+import{reviewChofu}from'./descending-tokyo-chofu';
+import{reviewHigashiyamato}from'./descending-tokyo-higashiyamato';
+import{reviewHigashikurume}from'./descending-tokyo-higashikurume';
 import{reviewHamuraPost}from'./descending-tokyo-hamura-post';
 import{reviewHamuraMid2024}from'./descending-tokyo-hamura-mid2024';
 import{reviewHamura}from'./descending-tokyo-hamura-sheets';
@@ -168,7 +172,7 @@ const minamigrants=reviewMinamiashigaraGrants(input,inputs);if(minamigrants)retu
 const minamiprograms=reviewMinamiPrograms(input),minamiextra=reviewMinamiExtra(input);if(minamiprograms&&minamiextra)return {...minamiprograms,projects:[...minamiprograms.projects,...minamiextra.projects],units:[...minamiprograms.units,...minamiextra.units],proofs:[...minamiprograms.proofs,...minamiextra.proofs]};if(minamiprograms)return minamiprograms;if(minamiextra)return minamiextra;
 const namedAnnual=reviewMatsudaHiratsuka(input);if(namedAnnual)return namedAnnual;
 const datedHistory=reviewMinamiHistoricalPrograms(input),periodHistory=reviewMinamiPeriod(input);if(datedHistory&&periodHistory)return {...datedHistory,projects:[...datedHistory.projects,...periodHistory.projects],units:[...datedHistory.units,...periodHistory.units],proofs:[...datedHistory.proofs,...periodHistory.proofs]};if(datedHistory)return datedHistory;if(periodHistory)return periodHistory;
-const hinohara=reviewHamuraMid2024(input)??reviewHamuraPost(input)??reviewHamura(input)??reviewHamuraMid(input)??reviewHinohara(input);if(hinohara)return hinohara;
+const hinohara=reviewHamuraMid2024(input)??reviewHamuraPost(input)??reviewHigashikurume(input)??reviewHigashiyamato(input)??reviewChofu(input)??reviewChofuAnnual(input)??reviewHamura(input)??reviewHamuraMid(input)??reviewHinohara(input);if(hinohara)return hinohara;
 const tokyoIslands=reviewTokyoIslands(input);if(tokyoIslands)return tokyoIslands;
 const zushi=reviewZushi(input);if(zushi)return zushi;
 const atsugititles=reviewAtsugiTitles(input);if(atsugititles)return atsugititles;

@@ -1,0 +1,40 @@
+{
+  "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "stageOnly": true,
+  "productionChanged": false,
+  "unpublishedUserChanges": "unobservable",
+  "rows": [
+    {
+      "code": "13227",
+      "stageProposals": 7,
+      "existingMasterRecords": 141,
+      "matches": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "code": "13222",
+      "stageProposals": 11,
+      "existingMasterRecords": 0,
+      "matches": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "code": "13220",
+      "stageProposals": 12,
+      "existingMasterRecords": 12,
+      "matches": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    },
+    {
+      "code": "13208",
+      "stageProposals": 66,
+      "existingMasterRecords": 31,
+      "matches": [],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    }
+  ]
+}

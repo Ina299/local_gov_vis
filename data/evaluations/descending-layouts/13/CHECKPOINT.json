@@ -1,6 +1,6 @@
 {
-  "candidateRecords": 543,
-  "newCandidatesThisTranche": 99,
+  "candidateRecords": 639,
+  "newCandidatesThisTranche": 96,
   "existingFieldEnrichments": 0,
   "newCandidateActualAmountFields": 0,
   "perMunicipality": {
@@ -9,29 +9,32 @@
     "利島村": 10,
     "大島町": 30,
     "檜原村": 278,
-    "羽村市": 177
+    "羽村市": 184,
+    "東久留米市": 11,
+    "東大和市": 12,
+    "調布市": 66
   },
-  "validatedCumulativeCandidates": 34157,
-  "validatedEvidence": 101258,
+  "validatedCumulativeCandidates": 34253,
+  "validatedEvidence": 101522,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "535f3f7107b46e9ea8c01d156c10345c54cb2280",
+  "previousHead": "488399baf99977f1f061447d8c3e374c6b00ffdf",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "13/13",
-    "crawler": "1060/1060",
+    "focused": "17/17",
+    "crawler": "1064/1064",
     "web": "256/256",
     "typecheck": "passed",
     "lint": "passed;existingfontwarning",
     "national": "passed branchbaseline",
     "static": "109/109 subpath",
-    "quotes": "34157 candidates/101258quotes"
+    "quotes": "34253 candidates/101522quotes"
   },
   "remoteCI": "unverified;known ActionsAPI403 not retried",
-  "remaining": "Next-stage proposals:Hamura7/Higashikurume11/Higashiyamato12/Chofu66 separately staged;not fullvalidated. Tokyo queue continues. No nationwide completion claim."
+  "remaining": "Next-stage249 related proposals:Ota68/Meguro172/Bunkyo9 separately staged;not fullvalidated. Chiba25 proposals separately staged. No nationwide completion claim."
 }

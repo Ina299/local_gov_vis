@@ -1,0 +1,1549 @@
+{
+  "sourceId": "6a065ca1f2288210e341654f",
+  "printedLabelsReviewed": 123,
+  "scope": "Finite title/identity review; no numerical coverage claim. Existing-period uncertainty retained. Next-stage7 not yet fullvalidated.",
+  "rows": [
+    {
+      "printedLabel": "1",
+      "start": 344,
+      "end": 3949,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "proposed_needs_alias_review",
+      "reference": {
+        "triageNumber": "1",
+        "name": "多様な性への理解を深めるための取組の推進",
+        "status": "proposed_needs_alias_review",
+        "existingIds": [],
+        "numberAssociation": "omitted; names/year accepted without assigning ambiguous interleaved printed numbers"
+      },
+      "reason": "Reviewed name/year fragments without assigning printed number."
+    },
+    {
+      "printedLabel": "2",
+      "start": 3949,
+      "end": 3987,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "proposed_needs_alias_review",
+      "reference": {
+        "triageNumber": "2",
+        "name": "男女共同参画の推進",
+        "status": "proposed_needs_alias_review",
+        "existingIds": [],
+        "numberAssociation": "omitted; names/year accepted without assigning ambiguous interleaved printed numbers"
+      },
+      "reason": "Reviewed name/year fragments without assigning printed number."
+    },
+    {
+      "printedLabel": "3",
+      "start": 3987,
+      "end": 4003,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "多文化共生の推進",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-44b6ab487549d9b6af94f065"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "4",
+      "start": 4003,
+      "end": 4756,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "unknown_period_identity_hold",
+      "reviewedName": "平和な未来の創造",
+      "reason": "Bounded source title reviewed. Unknown prior target-year/alias holds require explicit annual identity; parent-scope hold requires proof of separate business scope. No amount inferred."
+    },
+    {
+      "printedLabel": "5",
+      "start": 4756,
+      "end": 5578,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "proposed_needs_alias_review",
+      "reference": {
+        "triageNumber": "5",
+        "name": "高齢者の保健事業と介護予防の一体的実施",
+        "status": "proposed_needs_alias_review",
+        "existingIds": [],
+        "numberAssociation": "omitted; names/year accepted without assigning ambiguous interleaved printed numbers"
+      },
+      "reason": "Reviewed name/year fragments without assigning printed number."
+    },
+    {
+      "printedLabel": "6",
+      "start": 5578,
+      "end": 6189,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "物忘れセルフチェック・認知症検診の実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-18439794d201ca8d45faabcc"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "7",
+      "start": 6189,
+      "end": 6300,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "proposed_needs_alias_review",
+      "reference": {
+        "triageNumber": "7",
+        "name": "フレイル予防事業の充実",
+        "status": "proposed_needs_alias_review",
+        "existingIds": [],
+        "numberAssociation": "omitted; names/year accepted without assigning ambiguous interleaved printed numbers"
+      },
+      "reason": "Reviewed name/year fragments without assigning printed number."
+    },
+    {
+      "printedLabel": "8",
+      "start": 6300,
+      "end": 8328,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "ゲートキーパー養成研修の実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-4fde5af8a4f9899884567d72"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "9",
+      "start": 8328,
+      "end": 8333,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "name_only_already_selected",
+      "reviewedName": "協定保養施設の利用助成",
+      "reason": "Bounded source title reviewed. Unknown prior target-year/alias holds require explicit annual identity; parent-scope hold requires proof of separate business scope. No amount inferred."
+    },
+    {
+      "printedLabel": "10",
+      "start": 8333,
+      "end": 8363,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "特定保健指導の実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-9ded64614c0e49d59066d3d1"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "11",
+      "start": 8363,
+      "end": 8493,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "proposed_needs_alias_review",
+      "reference": {
+        "triageNumber": "11",
+        "name": "「はむら健康フェア」の充実（「スポーツの日」イベントとの合同実施）",
+        "status": "proposed_needs_alias_review",
+        "existingIds": [],
+        "numberAssociation": "omitted; names/year accepted without assigning ambiguous interleaved printed numbers"
+      },
+      "reason": "Reviewed name/year fragments without assigning printed number."
+    },
+    {
+      "printedLabel": "12",
+      "start": 8493,
+      "end": 9320,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "子宮頸がん（HPV）ワクチン予防接種の積極的な勧奨",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-3890c95e8c7b76179964705d"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "13",
+      "start": 9320,
+      "end": 10075,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "next_stage_proposal",
+      "reviewedName": "「スポーツの日」イベントの実施",
+      "reason": "Bounded source title reviewed. Unknown prior target-year/alias holds require explicit annual identity; parent-scope hold requires proof of separate business scope. No amount inferred."
+    },
+    {
+      "printedLabel": "14",
+      "start": 10075,
+      "end": 11614,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "next_stage_proposal",
+      "reviewedName": "はむらスポーツフェスティバルの充実",
+      "reason": "Bounded source title reviewed. Unknown prior target-year/alias holds require explicit annual identity; parent-scope hold requires proof of separate business scope. No amount inferred."
+    },
+    {
+      "printedLabel": "15",
+      "start": 11614,
+      "end": 11659,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "next_stage_proposal",
+      "reviewedName": "重層的支援体制整備事業の実施に向けた体制の構築",
+      "reason": "Bounded source title reviewed. Unknown prior target-year/alias holds require explicit annual identity; parent-scope hold requires proof of separate business scope. No amount inferred."
+    },
+    {
+      "printedLabel": "16",
+      "start": 11659,
+      "end": 12068,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "「生理の貧困」への支援",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-5f41fb39f9dbe1285f8aac4e"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "17",
+      "start": 12068,
+      "end": 12383,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "proposed_needs_alias_review",
+      "reference": {
+        "triageNumber": "17",
+        "name": "精神障害にも対応した地域包括ケアシステムに関する協議の実施",
+        "status": "proposed_needs_alias_review",
+        "existingIds": [],
+        "numberAssociation": "omitted; names/year accepted without assigning ambiguous interleaved printed numbers"
+      },
+      "reason": "Reviewed name/year fragments without assigning printed number."
+    },
+    {
+      "printedLabel": "18",
+      "start": 12383,
+      "end": 13288,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "介護サービス事業所向け人材育成の支援",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-ddb153e12d85a0cdeadb1375"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "19",
+      "start": 13288,
+      "end": 13405,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "unknown_period_identity_hold",
+      "reviewedName": "市民相談の充実",
+      "reason": "Bounded source title reviewed. Unknown prior target-year/alias holds require explicit annual identity; parent-scope hold requires proof of separate business scope. No amount inferred."
+    },
+    {
+      "printedLabel": "20",
+      "start": 13405,
+      "end": 13801,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "「低所得者支援及び定額減税補足給付金」の実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-4ebf65148a4cd8febe7a6ec3"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "21",
+      "start": 13801,
+      "end": 14008,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "民生・児童委員（社会福祉委員）活動の支援",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-ab01e4ae7348c0ed812c68f5"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "22",
+      "start": 14008,
+      "end": 14745,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "生活困窮者自立相談支援事業の実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-f4e6afe699eb017fef7c2e47"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "23",
+      "start": 14745,
+      "end": 15625,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "認知症施策の推進",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-53587f3c517b994543763ed6"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "24",
+      "start": 15625,
+      "end": 15851,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "子どもや若者の育成支援",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-215d169f21b9377b922ce317"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "25",
+      "start": 15851,
+      "end": 17708,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "フードドライブの推進",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-61ba71d41f1c7c62e520e13d"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "26",
+      "start": 17708,
+      "end": 17939,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "徘徊高齢者探索サービスの実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-a78c9fc82dea39e51667b5a9"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "27",
+      "start": 17939,
+      "end": 17982,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "proposed_needs_alias_review",
+      "reference": {
+        "triageNumber": "27",
+        "name": "公園を活用した地域との連携による居場所づくり事業の実施",
+        "status": "proposed_needs_alias_review",
+        "existingIds": [],
+        "numberAssociation": "omitted; names/year accepted without assigning ambiguous interleaved printed numbers"
+      },
+      "reason": "Reviewed name/year fragments without assigning printed number."
+    },
+    {
+      "printedLabel": "28",
+      "start": 17982,
+      "end": 17988,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "name_only_already_selected",
+      "reviewedName": "市民活動の促進",
+      "reason": "Bounded source title reviewed. Unknown prior target-year/alias holds require explicit annual identity; parent-scope hold requires proof of separate business scope. No amount inferred."
+    },
+    {
+      "printedLabel": "29",
+      "start": 17988,
+      "end": 17994,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "市民提案型協働事業の推進",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-8341679ca31e3e4b86d76236"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "30",
+      "start": 17994,
+      "end": 19885,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "市民活動団体連携協議会の運営支援",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-3f2243febfa61167b2eb8de8"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "31",
+      "start": 19885,
+      "end": 21247,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "町内会・自治会活動等への支援",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-0d2ec6a6c1bd55ebf7122210"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "32",
+      "start": 21247,
+      "end": 21273,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "proposed_needs_alias_review",
+      "reference": {
+        "triageNumber": "32",
+        "name": "産後ケア事業の充実",
+        "status": "proposed_needs_alias_review",
+        "existingIds": [],
+        "numberAssociation": "omitted; names/year accepted without assigning ambiguous interleaved printed numbers"
+      },
+      "reason": "Reviewed name/year fragments without assigning printed number."
+    },
+    {
+      "printedLabel": "33",
+      "start": 21273,
+      "end": 21324,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "保護者の就労等の有無にかかわらない未就園児の定期預かり事業の実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-c3d5a9307d3f422ffb6299bb"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "34",
+      "start": 21324,
+      "end": 21361,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "proposed_needs_alias_review",
+      "reference": {
+        "triageNumber": "34",
+        "name": "保育所等における地域の子育て支援事業の実施",
+        "status": "proposed_needs_alias_review",
+        "existingIds": [],
+        "numberAssociation": "omitted; names/year accepted without assigning ambiguous interleaved printed numbers"
+      },
+      "reason": "Reviewed name/year fragments without assigning printed number."
+    },
+    {
+      "printedLabel": "35",
+      "start": 21361,
+      "end": 22506,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "（仮称）羽村市こども計画の策定",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-90284eb665424c7057f92c67"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "36",
+      "start": 22506,
+      "end": 22867,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "proposed_needs_alias_review",
+      "reference": {
+        "triageNumber": "36",
+        "name": "発達支援体制の充実のためのペアレント・トレーニングの実施",
+        "status": "proposed_needs_alias_review",
+        "existingIds": [],
+        "numberAssociation": "omitted; names/year accepted without assigning ambiguous interleaved printed numbers"
+      },
+      "reason": "Reviewed name/year fragments without assigning printed number."
+    },
+    {
+      "printedLabel": "37",
+      "start": 22867,
+      "end": 23609,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "児童手当の拡充",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-1fa7595a5242e4119700326a"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "38",
+      "start": 23609,
+      "end": 23722,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "unknown_period_identity_hold",
+      "reviewedName": "児童手当の拡充",
+      "reason": "Bounded source title reviewed. Unknown prior target-year/alias holds require explicit annual identity; parent-scope hold requires proof of separate business scope. No amount inferred."
+    },
+    {
+      "printedLabel": "39",
+      "start": 23722,
+      "end": 23728,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "妊婦健康診査の公費負担の実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-bde6be3ebd0d680ae8441ab2"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "40",
+      "start": 23728,
+      "end": 25136,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "unknown_period_identity_hold",
+      "reviewedName": "妊婦健康診査の公費負担の実施",
+      "reason": "Bounded source title reviewed. Unknown prior target-year/alias holds require explicit annual identity; parent-scope hold requires proof of separate business scope. No amount inferred."
+    },
+    {
+      "printedLabel": "41",
+      "start": 25136,
+      "end": 25531,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "出産・子育て応援事業（伴走型相談支援・経済的支援）の実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-9198b71f2ba2c6b3f22d7bba"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "42",
+      "start": 25531,
+      "end": 25789,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "多言語通訳システムを活用した子育て相談の実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-e27213ce009e4ced363b87cb"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "43",
+      "start": 25789,
+      "end": 26097,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "多胎児家庭の支援の実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-fa91faef90dc859aca57df42"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "44",
+      "start": 26097,
+      "end": 27375,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "医療的ケア児の受け入れの実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-6c7959bf453247fc86ec20fa"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "45",
+      "start": 27375,
+      "end": 27381,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "五種混合ワクチンの定期接種の実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-ec8cbcb44971c3af766e68e5"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "46",
+      "start": 27381,
+      "end": 27448,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "ファーストバースデーサポート事業の実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-806878f6e9416a19b28897be"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "47",
+      "start": 27448,
+      "end": 30046,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "proposed_needs_alias_review",
+      "reference": {
+        "triageNumber": "47",
+        "name": "民間事業者への委託による学童クラブの運営",
+        "status": "proposed_needs_alias_review",
+        "existingIds": [],
+        "numberAssociation": "omitted; names/year accepted without assigning ambiguous interleaved printed numbers"
+      },
+      "reason": "Reviewed name/year fragments without assigning printed number."
+    },
+    {
+      "printedLabel": "52",
+      "start": 30046,
+      "end": 30390,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "proposed_needs_alias_review",
+      "reference": {
+        "triageNumber": "52",
+        "name": "ICT等を活用した不登校児童・生徒支援対策の推進",
+        "status": "proposed_needs_alias_review",
+        "existingIds": [],
+        "numberAssociation": "omitted; names/year accepted without assigning ambiguous interleaved printed numbers"
+      },
+      "reason": "Reviewed name/year fragments without assigning printed number."
+    },
+    {
+      "printedLabel": "53",
+      "start": 30390,
+      "end": 30894,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "unknown_period_identity_hold",
+      "reviewedName": "学校施設の計画的な改修工事の実施",
+      "reason": "Bounded source title reviewed. Unknown prior target-year/alias holds require explicit annual identity; parent-scope hold requires proof of separate business scope. No amount inferred."
+    },
+    {
+      "printedLabel": "54",
+      "start": 30894,
+      "end": 31387,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "羽村市立小学校体育館冷暖房空調設備の設置",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-0a60829a155c2f91e05c5fd1"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "55",
+      "start": 31387,
+      "end": 31672,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "校務用パソコンの更新及びインターネット閲覧環境の整備",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-a9a7f342ac3bc9450022492f"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "56",
+      "start": 31672,
+      "end": 31991,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "学校ホームページのリニューアル",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-dd23c8225f1e893330093cba"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "48",
+      "start": 31991,
+      "end": 31997,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "放課後子ども教室の運営体制の充実",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-486abea0d1f6c19af5e06474"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "49",
+      "start": 31997,
+      "end": 32045,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "学童クラブ入所申請手続きの電子化",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-db254c06c7d03de01a6b9b8e"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "50",
+      "start": 32045,
+      "end": 32425,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "学童クラブ運営の質の向上に向けた取組の実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-552f01436e9b4c5bcc265b81"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "51",
+      "start": 32425,
+      "end": 33062,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "unknown_period_alias_hold",
+      "reviewedName": "幼稚園・保育園・小学校の連携の充実",
+      "reason": "Bounded source title reviewed. Unknown prior target-year/alias holds require explicit annual identity; parent-scope hold requires proof of separate business scope. No amount inferred."
+    },
+    {
+      "printedLabel": "58",
+      "start": 33062,
+      "end": 33291,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "物価高騰対策としての学校給食費保護者負担軽減補助事業の実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-108920a125625a6df0a12ae9"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "59",
+      "start": 33291,
+      "end": 33703,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "スイミングセンターを活用した小学校水泳授業の実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-e7fa002cb57bf72a6430cad8"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "60",
+      "start": 33703,
+      "end": 34166,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "部活動の地域移行の推進",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-992a97efb307511e25697a3e"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "57",
+      "start": 34166,
+      "end": 34224,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "コミュニティ・スクールの導入及び運用",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-f3bed0eb0eb82e0bc4f35c98"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "61",
+      "start": 34224,
+      "end": 34416,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "不登校及び不登校傾向の児童・生徒への校内別室指導による支援",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-2fcc338c7d55829bb5c0179b"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "62",
+      "start": 34416,
+      "end": 34506,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "ICT機器を活用した教育の推進",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-0d8202220728797a620b8da2"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "63",
+      "start": 34506,
+      "end": 34673,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "家庭と子供の支援員による支援の実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-bfa4ea92f3634755a6c06a13"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "64",
+      "start": 34673,
+      "end": 35215,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "いじめ、虐待から命を守る取組みの推進",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-fed8ac8ce39aa9df6d9b6e7c"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "65",
+      "start": 35215,
+      "end": 35343,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "特別支援学級の運営支援",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-ebfc967778a9cbc7511989d4"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "66",
+      "start": 35343,
+      "end": 35513,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "教育相談・就学相談の実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-e815a00a155d6c697bbfa855"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "67",
+      "start": 35513,
+      "end": 35936,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "ハーモニースクール・はむらの運営",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-da25344ec7c265ab1e43fc02"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "68",
+      "start": 35936,
+      "end": 35970,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "unknown_period_identity_hold",
+      "reviewedName": "青少年健全育成事業の実施",
+      "reason": "Bounded source title reviewed. Unknown prior target-year/alias holds require explicit annual identity; parent-scope hold requires proof of separate business scope. No amount inferred."
+    },
+    {
+      "printedLabel": "69",
+      "start": 35970,
+      "end": 37696,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "unknown_period_alias_hold",
+      "reviewedName": "学校での市図書館所蔵資料貸出返却の試行実施",
+      "reason": "Bounded source title reviewed. Unknown prior target-year/alias holds require explicit annual identity; parent-scope hold requires proof of separate business scope. No amount inferred."
+    },
+    {
+      "printedLabel": "71",
+      "start": 37696,
+      "end": 38178,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "セカンドブックスタート事業（啓発）等の実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-f53817b1534b5852deda31ab"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "72",
+      "start": 38178,
+      "end": 38601,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "YA（ヤングアダルト）世代の読書習慣の定着支援",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-cbff4c95a19db82c6c1548cf"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "73",
+      "start": 38601,
+      "end": 39235,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "児童館の今後の在り方の検討",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-707ab9334f30dee60cbba859"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "70",
+      "start": 39235,
+      "end": 39804,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "unknown_period_identity_hold",
+      "reviewedName": "図書館資料の宅配サービスの実施",
+      "reason": "Bounded source title reviewed. Unknown prior target-year/alias holds require explicit annual identity; parent-scope hold requires proof of separate business scope. No amount inferred."
+    },
+    {
+      "printedLabel": "74",
+      "start": 39804,
+      "end": 40518,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "proposed_needs_alias_review",
+      "reference": {
+        "triageNumber": "74",
+        "name": "羽村駅西口地区の都市基盤整備",
+        "status": "proposed_needs_alias_review",
+        "existingIds": [],
+        "numberAssociation": "omitted; names/year accepted without assigning ambiguous interleaved printed numbers"
+      },
+      "reason": "Reviewed name/year fragments without assigning printed number."
+    },
+    {
+      "printedLabel": "75",
+      "start": 40518,
+      "end": 42146,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "市道改修等工事などの実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-aa1bcfcd9bd01ffc433fb693"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "76",
+      "start": 42146,
+      "end": 42259,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "街路照明灯の整備",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-277854d8509214ae2d1102ad"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "77",
+      "start": 42259,
+      "end": 42265,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "水道管路の整備",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-862ab5dfdcc10d9963c7a79b"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "78",
+      "start": 42265,
+      "end": 43712,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "下水道施設の長寿命化",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-5a717b04a432974a418ad26c"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "79",
+      "start": 43712,
+      "end": 46080,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "分流式下水道（汚水管）における雨天時浸入水対策",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-bbfc79a3bd9e54c4ff024904"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "81",
+      "start": 46080,
+      "end": 47775,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "コミュニティバスはむらんの運行",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-6b6529bdf551f2a742beee74"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "82",
+      "start": 47775,
+      "end": 47781,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "マンションの適正な管理の促進",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-63c82e8e98d43625f17a2613"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "83",
+      "start": 47781,
+      "end": 47787,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "水道施設の計画的な更新・改修",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-0572d67e8a4bdc54373e95b3"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "84",
+      "start": 47787,
+      "end": 47855,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "雨水浸透施設設置費の助成",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-55feade7e1c36990284f2749"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "85",
+      "start": 47855,
+      "end": 47861,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "unknown_period_identity_hold",
+      "reviewedName": "公共建築物の計画的な改修工事等の実施",
+      "reason": "Bounded source title reviewed. Unknown prior target-year/alias holds require explicit annual identity; parent-scope hold requires proof of separate business scope. No amount inferred."
+    },
+    {
+      "printedLabel": "86",
+      "start": 47861,
+      "end": 47869,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "公共建築物の計画的な改修工事等の実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-ebe85f602f356cfcbe45cbee"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "87",
+      "start": 47869,
+      "end": 48074,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "指定管理者による動物公園の管理運営",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-397211db2aa1ab42a9a23cdc"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "80",
+      "start": 48074,
+      "end": 48773,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "羽村市宅地開発等指導要綱による宅地開発事業の規制及び誘導",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-d873d7b3e64dbaff76cfe64b"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "88",
+      "start": 48773,
+      "end": 49093,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "指定管理者による公園・児童遊園の管理運営",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-cbf00c90f59a2ced557b6903"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "89",
+      "start": 49093,
+      "end": 52360,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "proposed_needs_alias_review",
+      "reference": {
+        "triageNumber": "89",
+        "name": "子供の遊び場整備事業の検討（水上公園、宮の下運動公園及び堰上草花公園の一体的な整備）",
+        "status": "proposed_needs_alias_review",
+        "existingIds": [],
+        "numberAssociation": "omitted; names/year accepted without assigning ambiguous interleaved printed numbers"
+      },
+      "reason": "Reviewed name/year fragments without assigning printed number."
+    },
+    {
+      "printedLabel": "94",
+      "start": 52360,
+      "end": 52964,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "狂犬病予防法の特例制度（ワンストップサービス）の開始",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-87774585ffff04b3b54f8269"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "90",
+      "start": 52964,
+      "end": 53046,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "next_stage_proposal",
+      "reviewedName": "電子申請等行政手続きのオンライン化の推進",
+      "reason": "Bounded source title reviewed. Unknown prior target-year/alias holds require explicit annual identity; parent-scope hold requires proof of separate business scope. No amount inferred."
+    },
+    {
+      "printedLabel": "91",
+      "start": 53046,
+      "end": 53084,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "羽村市LINE公式アカウントを利用した情報配信システムの運用",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-2c43c64ae6aac8b312b38e99"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "92",
+      "start": 53084,
+      "end": 53090,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "「書かない窓口」の推進",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-3268cc3964f2e9f36db8569d"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "93",
+      "start": 53090,
+      "end": 53651,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "スマホ教室の実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-86da7a4e30534a598c6f1908"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "96",
+      "start": 53651,
+      "end": 53840,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "proposed_needs_alias_review",
+      "reference": {
+        "triageNumber": "96",
+        "name": "リサイクルセンターの機能の維持及び施設の在り方に関する検討",
+        "status": "proposed_needs_alias_review",
+        "existingIds": [],
+        "numberAssociation": "omitted; names/year accepted without assigning ambiguous interleaved printed numbers"
+      },
+      "reason": "Reviewed name/year fragments without assigning printed number."
+    },
+    {
+      "printedLabel": "97",
+      "start": 53840,
+      "end": 55266,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "ごみの減量と資源化の推進",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-17b27b0ac92b4be21ce60a69"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "99",
+      "start": 55266,
+      "end": 55642,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "proposed_needs_alias_review",
+      "reference": {
+        "triageNumber": "99",
+        "name": "外来生物による生態系等への被害防止対策の実施",
+        "status": "proposed_needs_alias_review",
+        "existingIds": [],
+        "numberAssociation": "omitted; names/year accepted without assigning ambiguous interleaved printed numbers"
+      },
+      "reason": "Reviewed name/year fragments without assigning printed number."
+    },
+    {
+      "printedLabel": "100",
+      "start": 55642,
+      "end": 56065,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "next_stage_proposal",
+      "reviewedName": "自然環境学習の実施",
+      "reason": "Bounded source title reviewed. Unknown prior target-year/alias holds require explicit annual identity; parent-scope hold requires proof of separate business scope. No amount inferred."
+    },
+    {
+      "printedLabel": "101",
+      "start": 56065,
+      "end": 56423,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "proposed_needs_alias_review",
+      "reference": {
+        "triageNumber": "101",
+        "name": "ハウス栽培における温室効果ガスの排出削減の推進",
+        "status": "proposed_needs_alias_review",
+        "existingIds": [],
+        "numberAssociation": "omitted; names/year accepted without assigning ambiguous interleaved printed numbers"
+      },
+      "reason": "Reviewed name/year fragments without assigning printed number."
+    },
+    {
+      "printedLabel": "102",
+      "start": 56423,
+      "end": 56925,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "proposed_needs_alias_review",
+      "reference": {
+        "triageNumber": "102",
+        "name": "省エネルギー、再生可能エネルギーの利用促進",
+        "status": "proposed_needs_alias_review",
+        "existingIds": [],
+        "numberAssociation": "omitted; names/year accepted without assigning ambiguous interleaved printed numbers"
+      },
+      "reason": "Reviewed name/year fragments without assigning printed number."
+    },
+    {
+      "printedLabel": "95",
+      "start": 56925,
+      "end": 56985,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "proposed_needs_alias_review",
+      "reference": {
+        "triageNumber": "95",
+        "name": "羽村市LINE公式アカウントを利用したごみ、リサイクルに関する情報発信の充実",
+        "status": "proposed_needs_alias_review",
+        "existingIds": [],
+        "numberAssociation": "omitted; names/year accepted without assigning ambiguous interleaved printed numbers"
+      },
+      "reason": "Reviewed name/year fragments without assigning printed number."
+    },
+    {
+      "printedLabel": "98",
+      "start": 56985,
+      "end": 58329,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "リユースの推進（協定に基づくリサイクル品の販売）",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-e76b0383fabf27b8586fd807"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "106",
+      "start": 58329,
+      "end": 58721,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "農地におけるアライグマ・ハクビシンの防除事業の実施",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-d568f99cf8e8b38fa8ab9273"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "107",
+      "start": 58721,
+      "end": 59511,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "生産緑地の維持・保全",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-f0cd5242902ac09cc000532f"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "103",
+      "start": 59511,
+      "end": 59767,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "next_stage_proposal",
+      "reviewedName": "企業誘致促進制度の充実",
+      "reason": "Bounded source title reviewed. Unknown prior target-year/alias holds require explicit annual identity; parent-scope hold requires proof of separate business scope. No amount inferred."
+    },
+    {
+      "printedLabel": "104",
+      "start": 59767,
+      "end": 60058,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "parent_scope_identity_hold",
+      "reviewedName": "企業支援事業の充実",
+      "reason": "Bounded source title reviewed. Unknown prior target-year/alias holds require explicit annual identity; parent-scope hold requires proof of separate business scope. No amount inferred."
+    },
+    {
+      "printedLabel": "105",
+      "start": 60058,
+      "end": 60406,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "創業支援事業の充実",
+        "kind": "existing_unknown_period",
+        "id": "cached-13227-e4c81a01d45b96a22cc1136e"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "108",
+      "start": 60406,
+      "end": 60803,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "next_stage_proposal",
+      "reviewedName": "「はむら市民と産業のまつり」の実施",
+      "reason": "Bounded source title reviewed. Unknown prior target-year/alias holds require explicit annual identity; parent-scope hold requires proof of separate business scope. No amount inferred."
+    },
+    {
+      "printedLabel": "109",
+      "start": 60803,
+      "end": 62953,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "消防団員参集メール配信等システムの導入・運用",
+        "kind": "proposed"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "110",
+      "start": 62953,
+      "end": 63026,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "災害・危機管理対応力の強化",
+        "kind": "proposed"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "111",
+      "start": 63026,
+      "end": 63382,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "実効性のある総合防災訓練の実施",
+        "kind": "proposed"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "112",
+      "start": 63382,
+      "end": 63476,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "消防団員休団制度の導入",
+        "kind": "proposed"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "113",
+      "start": 63476,
+      "end": 64040,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "羽西三丁目地区における都市再生地籍調査事業の実施",
+        "kind": "duplicate_or_unknown_period"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "114",
+      "start": 64040,
+      "end": 64068,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "市道第2002号線無電柱化事業の実施",
+        "kind": "proposed"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "115",
+      "start": 64068,
+      "end": 64331,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "雨水管理総合計画の策定",
+        "kind": "duplicate_or_unknown_period"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "116",
+      "start": 64331,
+      "end": 64617,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "災害時マンホールトイレの整備",
+        "kind": "duplicate_or_unknown_period"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "117",
+      "start": 64617,
+      "end": 64957,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "那賀排水樋管ゲートの電動化改良工事",
+        "kind": "duplicate_or_unknown_period"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "118",
+      "start": 64957,
+      "end": 65791,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "避難所運営マニュアルの改定",
+        "kind": "proposed"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "119",
+      "start": 65791,
+      "end": 66030,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "消防団活動への支援",
+        "kind": "proposed"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "120",
+      "start": 66030,
+      "end": 66043,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "避難行動要支援者個別避難計画の作成",
+        "kind": "proposed"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "121",
+      "start": 66043,
+      "end": 67609,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "災害時の市の福祉避難所の実効性の確保",
+        "kind": "proposed"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "122",
+      "start": 67609,
+      "end": 67732,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "消費生活相談の充実",
+        "kind": "proposed"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    },
+    {
+      "printedLabel": "123",
+      "start": 67732,
+      "end": 68644,
+      "numberNameAssociation": "Not assigned to new candidates; extracted columns interleave. Reference names are review aids, not asserted numeric row mapping.",
+      "status": "existing_reference_or_current_fullsheet",
+      "reference": {
+        "name": "横田基地対策の推進",
+        "kind": "proposed"
+      },
+      "reason": "Same source-family numbered identity already represented or held with unknown prior target year; preserve old record, no new annual duplicate."
+    }
+  ]
+}
