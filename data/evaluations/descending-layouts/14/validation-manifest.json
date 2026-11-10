@@ -1,15 +1,11 @@
 {
+  "validation.log": {
+    "bytes": 90,
+    "sha256": "3eabb3517f3c16e105c110b586881edd01cfa4a925e3f22c00bed97cc1b1e38f"
+  },
   "focused.log": {
-    "bytes": 5446,
-    "sha256": "ed03aed954d0b8a34f3561b182241f82f2bf17bb36e614bae42783cd39f0298f"
-  },
-  "crawler.log": {
-    "bytes": 108351,
-    "sha256": "5b93871eb2ff8003add9802fe58bd3b448ecbdd7364aadadadcee7b8507e8f70"
-  },
-  "web.log": {
-    "bytes": 2431,
-    "sha256": "ddd18d79cf57b17fbb77a9f5c989241b51a8fba67b078832b4fc1c1c86c86ba6"
+    "bytes": 5963,
+    "sha256": "2cfadd7fe4c510333d325957c47c43ec3733bfa95d49469df126051120ea7719"
   },
   "typecheck.log": {
     "bytes": 823,
@@ -27,8 +23,12 @@
     "bytes": 2262,
     "sha256": "f84e96777908fdf596f36bcfc01a9461b40be9f1376b1acca03d55ab1f7450bc"
   },
-  "validation.log": {
-    "bytes": 89,
-    "sha256": "097cc7f7947a9ab311665b70daea32ad3e426476b6330f9f94b6b657c54917c2"
+  "web.log": {
+    "bytes": 2429,
+    "sha256": "f47cf6f1aa8974cddc98ebd66d67a656c58d69d4ab2c62522d65dc3b5d4d80dc"
+  },
+  "crawler.log": {
+    "bytes": 108900,
+    "sha256": "007b37bc7e461931c1641d9dfc7bd53e0a29d39ed5fce5b3101fc9d3656b97c9"
   }
 }

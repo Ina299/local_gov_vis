@@ -1,3 +1,4 @@
+import{reviewMinamiPeriod}from'./descending-kanagawa-minami-period';
 import{reviewMatsudaHiratsuka}from'./descending-kanagawa-matsuda-hiratsuka';
 import{reviewMinamiHistoricalPrograms}from'./descending-kanagawa-minami-historical-programs';
 import{reviewZushi}from'./descending-kanagawa-zushi';
@@ -160,7 +161,7 @@ const minamihistory=reviewMinamiHistory(input);if(minamihistory)return minamihis
 const minamigrants=reviewMinamiashigaraGrants(input,inputs);if(minamigrants)return minamigrants;
 const minamiprograms=reviewMinamiPrograms(input),minamiextra=reviewMinamiExtra(input);if(minamiprograms&&minamiextra)return {...minamiprograms,projects:[...minamiprograms.projects,...minamiextra.projects],units:[...minamiprograms.units,...minamiextra.units],proofs:[...minamiprograms.proofs,...minamiextra.proofs]};if(minamiprograms)return minamiprograms;if(minamiextra)return minamiextra;
 const namedAnnual=reviewMatsudaHiratsuka(input);if(namedAnnual)return namedAnnual;
-const datedHistory=reviewMinamiHistoricalPrograms(input);if(datedHistory)return datedHistory;
+const datedHistory=reviewMinamiHistoricalPrograms(input),periodHistory=reviewMinamiPeriod(input);if(datedHistory&&periodHistory)return {...datedHistory,projects:[...datedHistory.projects,...periodHistory.projects],units:[...datedHistory.units,...periodHistory.units],proofs:[...datedHistory.proofs,...periodHistory.proofs]};if(datedHistory)return datedHistory;if(periodHistory)return periodHistory;
 const zushi=reviewZushi(input);if(zushi)return zushi;
 const atsugititles=reviewAtsugiTitles(input);if(atsugititles)return atsugititles;
 const kanagawaHayama=reviewHayama(input);if(kanagawaHayama)return kanagawaHayama;

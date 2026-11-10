@@ -1,0 +1,119 @@
+{
+  "sourceId": "cf11d78491a997aa972665a2",
+  "sourceSha256": "20d4ed8bcccc54cfbabc10baca2b5b70a6263881d38383c6f1569b5f0db59d1a",
+  "rows": [
+    {
+      "name": "地域資源を生かした観光事業",
+      "start": 11013,
+      "raw": "地域資源を生かした観光事業",
+      "existingIds": [
+        "cached-14217-f930e3bcfbbaedf943502c55"
+      ],
+      "existingName": "花と山を生かした観光産業",
+      "status": "overlapping_identity_hold",
+      "reason": "Existing2018–2019 historical record overlaps this2015–2019 report. No separate identity/annual execution evidence to justify another record; retain existing record unchanged."
+    },
+    {
+      "name": "箱根ジオパークの活用など広域観光の推進事業",
+      "start": 11136,
+      "raw": "箱根ジオパークの活用など広域観光の推進事業",
+      "existingIds": [
+        "cached-14217-e1cc2d18303b81cf9e4d8a35"
+      ],
+      "existingName": "箱根ジオパーク推進事業",
+      "status": "overlapping_identity_hold",
+      "reason": "Existing2018–2019 historical record overlaps this2015–2019 report. No separate identity/annual execution evidence to justify another record; retain existing record unchanged."
+    },
+    {
+      "name": "英語力向上事業の推進",
+      "start": 17626,
+      "raw": "英語力向上事業の推進",
+      "existingIds": [
+        "cached-14217-a02213f03836c32ac29fcd56"
+      ],
+      "existingName": "英語教育、理科教育強化事業",
+      "status": "overlapping_identity_hold",
+      "reason": "Existing2018–2019 historical record overlaps this2015–2019 report. No separate identity/annual execution evidence to justify another record; retain existing record unchanged."
+    },
+    {
+      "name": "インクルーシブ教育の推進",
+      "start": 17523,
+      "raw": "インクルーシブ教育の推進",
+      "existingIds": [
+        "cached-14217-bd4557d85cdd0bffcb10f11f"
+      ],
+      "existingName": "インクルーシブ教育推進事業",
+      "status": "overlapping_identity_hold",
+      "reason": "Existing2018–2019 historical record overlaps this2015–2019 report. No separate identity/annual execution evidence to justify another record; retain existing record unchanged."
+    },
+    {
+      "name": "地蔵堂エリアの整備",
+      "start": 10846,
+      "raw": "地蔵堂エリアの整備",
+      "existingIds": [
+        "cached-14217-70d3b8458a68c6d2b5aae781"
+      ],
+      "existingName": "地蔵堂エリアの整備",
+      "status": "overlapping_identity_hold",
+      "reason": "Existing2018–2019 historical record overlaps this2015–2019 report. No separate identity/annual execution evidence to justify another record; retain existing record unchanged."
+    },
+    {
+      "name": "都市計画道路千津島・苅野線の整備",
+      "start": 11255,
+      "raw": "都市計画道路千津島・苅野線の整備",
+      "existingIds": [
+        "cached-14217-ea63c2deed3932e33d48f2fc"
+      ],
+      "existingName": "都市計画道路千津島・苅野線整備事業",
+      "status": "overlapping_identity_hold",
+      "reason": "Existing2018–2019 historical record overlaps this2015–2019 report. No separate identity/annual execution evidence to justify another record; retain existing record unchanged."
+    },
+    {
+      "name": "提案型協働事業の充実",
+      "start": 18859,
+      "raw": "提案型協働事業の充実",
+      "existingIds": [
+        "cached-14217-5675e44ea7cfe83acddc1555"
+      ],
+      "existingName": "提案型協働事業",
+      "status": "overlapping_identity_hold",
+      "reason": "Existing2018–2019 historical record overlaps this2015–2019 report. No separate identity/annual execution evidence to justify another record; retain existing record unchanged."
+    },
+    {
+      "name": "道の駅「足柄・金太郎のふるさと」",
+      "start": 9310,
+      "raw": "道の駅「足柄・金太郎のふるさと」",
+      "existingIds": [
+        "cached-14217-14f5477d0e31b2af97066be3"
+      ],
+      "existingName": "(仮称)大型直売交流センター（道の駅）整備事業",
+      "status": "overlapping_identity_hold",
+      "reason": "Existing2018–2019 historical record overlaps this2015–2019 report. No separate identity/annual execution evidence to justify another record; retain existing record unchanged."
+    },
+    {
+      "name": "大雄山駅前の活性化",
+      "status": "policy_event_boundary_hold",
+      "reason": "Policy section includes several events; source does not establish each event as an independent municipal business record. No event-to-budget-project association inferred."
+    },
+    {
+      "name": "結婚の希望をかなえる事業の支援",
+      "status": "policy_heading",
+      "reason": "Policy heading and aggregate matchmaking activity; no separate formal business identity beyond policy is established."
+    },
+    {
+      "name": "地域まちづくり計画の策定・自治会の加入促進",
+      "status": "identity_coverage_hold",
+      "reason": "Broad community implementation overlaps existing community programme scope; exact distinct project identity not evidenced."
+    },
+    {
+      "name": "防災・消防・広域連携",
+      "status": "existing_scope_or_policy",
+      "reason": "Existing historical33 include消防団,防災情報,防災マップ,自主防災; generic coordination/KPI chapters do not establish further separate annual identities."
+    },
+    {
+      "name": "放課後児童クラブ",
+      "status": "existing_scope_overlap",
+      "reason": "Existing2018–2019放課後の子ども支援 overlaps historical club activity. No additional annual record inferred."
+    }
+  ]
+}

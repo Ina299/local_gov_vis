@@ -1,6 +1,6 @@
 {
-  "candidateRecords": 1178,
-  "newCandidatesThisTranche": 38,
+  "candidateRecords": 1183,
+  "newCandidatesThisTranche": 5,
   "existingFieldEnrichments": 0,
   "perMunicipality": {
     "真鶴町": 50,
@@ -10,32 +10,36 @@
     "二宮町": 116,
     "葉山町": 30,
     "綾瀬市": 349,
-    "南足柄市": 155,
+    "南足柄市": 160,
     "厚木市": 351,
     "逗子市": 6,
     "平塚市": 1
   },
-  "validatedCumulativeCandidates": 33609,
-  "validatedEvidence": 99910,
+  "validatedCombinedCumulativeCandidates": 33669,
+  "validatedCombinedQuotes": 100104,
+  "validationContext": "Combined working tree: Kanagawa1183 and Tokyo55; two isolated prefecture commits before one final normal push.",
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "dc13a949cd03f1f3faf1016d86c21e5c97a0a686",
+  "previousRemoteHead": "ad55912213f09f459a779b7685e853cba6b3b67a",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
   "municipalRequests": 0,
   "checks": {
-    "focused": "60/60",
-    "crawler": "1045/1045",
+    "focused": "65/65",
+    "crawler": "1050/1050",
     "web": "256/256",
     "typecheck": "passed",
-    "lint": "passed; existing font warning",
-    "national": "passed branch baseline",
+    "lint": "passed;existingfontwarning",
+    "national": "passed branchbaseline",
     "static": "109/109 subpath",
-    "quotes": "33609 candidates /99910 quotes"
+    "quotes": "33669 candidates/100104 quotes"
   },
   "remoteCI": "unverified;known ActionsAPI403 not retried",
-  "remaining": "Five historical period proposals remain staged separately. Matsuda7 duplicate annual candidates excluded. No nationwide completion claim."
+  "remaining": "Tokyo source queue remains actionable. Acquisition gated; missing bodies not refetched. No nationwide completion claim.",
+  "isolatedCumulativeCandidatesBeforeTokyo": 33614,
+  "isolatedCumulativeQuotesBeforeTokyo": 99935,
+  "finiteSourceReviewComplete": true
 }

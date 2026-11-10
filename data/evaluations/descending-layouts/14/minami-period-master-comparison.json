@@ -1,0 +1,32 @@
+{
+  "master": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
+  "stageOnly": true,
+  "productionChanged": false,
+  "unpublishedUserChanges": "unobservable",
+  "rows": [
+    {
+      "code": "14217",
+      "stageProposals": 5,
+      "existingMasterRecords": 15,
+      "matches": [
+        {
+          "candidateId": "cached-14217-47849e08674cc678eb77654e",
+          "existingId": "cached-14217-d9f36089a56a3cbed9575344",
+          "sameContent": false
+        },
+        {
+          "candidateId": "cached-14217-47849e08674cc678eb77654e",
+          "existingId": "cached-14217-3ace6265115b2699f7e62ab7",
+          "sameContent": false
+        },
+        {
+          "candidateId": "cached-14217-47849e08674cc678eb77654e",
+          "existingId": "cached-14217-b8721953b8a1bcb7acdcb57c",
+          "sameContent": false
+        }
+      ],
+      "sourceDecisions": [],
+      "projectDecisions": []
+    }
+  ]
+}
