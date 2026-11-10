@@ -1,0 +1,83 @@
+[
+  {
+    "name": "出納事業",
+    "raw": "出納事業",
+    "start": 64415,
+    "sourceId": "69b2626162cdabd21508d2fd",
+    "year": 2022,
+    "status": "proposed",
+    "reason": "Explicit full business title and own annual section; amounts/grades omitted."
+  },
+  {
+    "name": "出納事業",
+    "raw": "出納事業",
+    "start": 62474,
+    "sourceId": "d52cf2b2de804bdbe3d02b08",
+    "year": 2021,
+    "status": "proposed",
+    "reason": "Explicit full business title and own annual section; amounts/grades omitted."
+  },
+  {
+    "name": "出納事業",
+    "raw": "出納事業",
+    "start": 74359,
+    "sourceId": "fa1f52c2c1d931efbce3091c",
+    "year": 2020,
+    "status": "proposed",
+    "reason": "Explicit full business title and own annual section; amounts/grades omitted."
+  },
+  {
+    "name": "住民税賦課事務事業",
+    "raw": "住民税賦課事\n務事業",
+    "start": 75622,
+    "sourceId": "ccb01edf72c2ccbfca4adecf",
+    "year": 2019,
+    "status": "proposed",
+    "reason": "Explicit full business title and own annual section; amounts/grades omitted."
+  },
+  {
+    "name": "生活困窮者相談支援事業",
+    "raw": "生活困窮者相\n談支援事業",
+    "start": 38330,
+    "sourceId": "ccb01edf72c2ccbfca4adecf",
+    "year": 2019,
+    "status": "proposed",
+    "reason": "Explicit full business title and own annual section; amounts/grades omitted."
+  },
+  {
+    "name": "社会体育館改修事業",
+    "raw": "社会体育館改\n修事業",
+    "start": 62132,
+    "sourceId": "ccb01edf72c2ccbfca4adecf",
+    "year": 2019,
+    "status": "alias_hold",
+    "reason": "Explicit reference to 避難所施設改修事業 NO26; not another distinct project."
+  },
+  {
+    "name": "ネットワーク形成事業",
+    "raw": "ネットワーク\n形成事業",
+    "start": 37402,
+    "sourceId": "4571b88a0ac059b26fed242f",
+    "year": 2018,
+    "status": "identity_hold",
+    "reason": "Same generic title labels overall tourism events and SAKAE riverside festival; source row identity needs separate evidence, do not merge or multiply."
+  },
+  {
+    "name": "就学支援事業",
+    "raw": "就学支援事業",
+    "start": 41446,
+    "sourceId": "737b58ab788c1fd90ce502fd",
+    "year": 2016,
+    "status": "proposed",
+    "reason": "Explicit full business title and own annual section; amounts/grades omitted."
+  },
+  {
+    "name": "ネットワーク形成事業",
+    "raw": "ネットワーク形成事\n業",
+    "start": 34622,
+    "sourceId": "6a29098a04582c4cd937e737",
+    "year": 2015,
+    "status": "identity_hold",
+    "reason": "Same generic title labels overall tourism events and SAKAE riverside festival; source row identity needs separate evidence, do not merge or multiply."
+  }
+]

@@ -1,0 +1,148 @@
+export const configs = [
+  {
+    "sourceId": "a9997ebef76c1af05ffcead7",
+    "municipalityCode": "12329",
+    "municipalityName": "栄町",
+    "sourceUrl": "https://www.town.sakae.chiba.jp/data/doc/1539904005_doc_1_0.pdf",
+    "sourceSha256": "b3ae1374a657c3c0ce2c8e5b917a85d28a41e6fa1072cb6478fa0817d56a9cea",
+    "fullTextSha256": "c293eb136c082fa6e7e376d61fe0b06af5334bf1fe5188b99fcacb1b34a42d29",
+    "rows": [
+      {
+        "name": "主要地方道鎌ケ谷本埜線バイパスを活用したまちづくり事業",
+        "raw": "主要地方道鎌ケ谷本埜線バイパスを活用したまちづくり事業",
+        "start": 68965,
+        "year": 2017,
+        "yearQuote": "平成２９年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 68865,
+        "groupEnd": 69671,
+        "groupSha256": "2b7e5b4668bff7976bb6c8ee5ef78f67ee22a80e6dda70e23b053b68738f5c72",
+        "parts": [
+          {
+            "raw": "主要地方道鎌ケ谷本埜線バイパスを活用したまちづくり事業",
+            "start": 68965
+          }
+        ]
+      },
+      {
+        "name": "矢口工業団地の拡張事業",
+        "raw": "矢口工業団地の拡張事業",
+        "start": 69690,
+        "year": 2017,
+        "yearQuote": "平成２９年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 69590,
+        "groupEnd": 70504,
+        "groupSha256": "325829d1eacc96e00b58296941cec991eb6260bcce7fdd2589450b029260ddf8",
+        "parts": [
+          {
+            "raw": "矢口工業団地の拡張事業",
+            "start": 69690
+          }
+        ]
+      },
+      {
+        "name": "安食駅前町民総活躍ステージ整備事業",
+        "raw": "安食駅前町民総活躍ステージ整備事業",
+        "start": 70538,
+        "year": 2017,
+        "yearQuote": "H29実績値",
+        "yearOffset": 71407,
+        "groupStart": 70438,
+        "groupEnd": 71809,
+        "groupSha256": "9c6eff1ea8f783f22ee73482fe9286a3c0a5257b8f3a5c783aefb3b447ee3cee",
+        "parts": [
+          {
+            "raw": "安食駅前町民総活躍ステージ整備事業",
+            "start": 70538
+          }
+        ]
+      },
+      {
+        "name": "黒大豆による地域経済活性化事業",
+        "raw": "黒大豆による地域経済活性化事業",
+        "start": 71843,
+        "year": 2017,
+        "yearQuote": "H29実績値",
+        "yearOffset": 72147,
+        "groupStart": 71743,
+        "groupEnd": 72853,
+        "groupSha256": "8da7e9845850d060735e9298224a405887b0d1a75b7e986a209cb2599cfa8726",
+        "parts": [
+          {
+            "raw": "黒大豆による地域経済活性化事業",
+            "start": 71843
+          }
+        ]
+      },
+      {
+        "name": "コスプレを活用した地域経済活性化事業",
+        "raw": "コスプレを活用した地域経済活性化事業",
+        "start": 72887,
+        "year": 2017,
+        "yearQuote": "H29実績値",
+        "yearOffset": 73173,
+        "groupStart": 72787,
+        "groupEnd": 73950,
+        "groupSha256": "4c66bcc05130fa3a079398f5a697dbb70b9b022c5efc1cf93501e938371ba9f4",
+        "parts": [
+          {
+            "raw": "コスプレを活用した地域経済活性化事業",
+            "start": 72887
+          }
+        ]
+      },
+      {
+        "name": "コスプレの館整備事業",
+        "raw": "コスプレの館整備事業",
+        "start": 74970,
+        "year": 2017,
+        "yearQuote": "H29実績値",
+        "yearOffset": 75132,
+        "groupStart": 74870,
+        "groupEnd": 75728,
+        "groupSha256": "094193e8cecabfa30e56b3b7e49a47f18b882885b680cbad5e55de07c4ae78ab",
+        "parts": [
+          {
+            "raw": "コスプレの館整備事業",
+            "start": 74970
+          }
+        ]
+      },
+      {
+        "name": "コスプレショップ館整備事業",
+        "raw": "コスプレショップ館整備事業",
+        "start": 76695,
+        "year": 2017,
+        "yearQuote": "H29実績値",
+        "yearOffset": 76853,
+        "groupStart": 76595,
+        "groupEnd": 77262,
+        "groupSha256": "4b8066504995093adf21670e145df2c53c2c3d956c387b15a3ee8a0590d5744a",
+        "parts": [
+          {
+            "raw": "コスプレショップ館整備事業",
+            "start": 76695
+          }
+        ]
+      },
+      {
+        "name": "キッズランド整備事業",
+        "raw": "キッズランド整備事業",
+        "start": 77298,
+        "year": 2017,
+        "yearQuote": "H29実績値",
+        "yearOffset": 77482,
+        "groupStart": 77198,
+        "groupEnd": 78098,
+        "groupSha256": "68830cc04a5214a80e46c775c800f4d5cad9b78ab97fa5570c6bed58435c0297",
+        "parts": [
+          {
+            "raw": "キッズランド整備事業",
+            "start": 77298
+          }
+        ]
+      }
+    ]
+  }
+];

@@ -1,3 +1,10 @@
+import{reviewSakaeH29Appendix}from'./descending-chiba-sakae-h29-appendix';
+import{reviewSakaeH29Nonbudget}from'./descending-chiba-sakae-h29-nonbudget';
+import{reviewSakaeH29Parts}from'./descending-chiba-sakae-h29-parts';
+import{reviewSakaeH30Appendix}from'./descending-chiba-sakae-h30-appendix';
+import{reviewSakaeH30Nonbudget}from'./descending-chiba-sakae-h30-nonbudget';
+import{reviewSakaeH30Parts}from'./descending-chiba-sakae-h30-parts';
+import{reviewSakaeClosure10}from'./descending-chiba-sakae-closure10';
 import{reviewSakaeR1Parts}from'./descending-chiba-sakae-r1-parts';
 import{reviewSakaeMoreParts}from'./descending-chiba-sakae-more-parts';
 import{reviewSakaeCrossbook}from'./descending-chiba-sakae-crossbook';
@@ -19,4 +26,4 @@ import{reviewYokoshibaR4}from'./descending-chiba-yokoshiba-r4';
 import{reviewYokoshibaR5}from'./descending-chiba-yokoshiba-r5';
 import{reviewYokoshibaR6}from'./descending-chiba-yokoshiba-r6';
 import type{CachedInput}from'./shared';
-export function reviewChiba(i:CachedInput){const found=[reviewSakaeR1Parts(i),reviewSakaeMoreParts(i),reviewSakaeCrossbook(i),reviewSakaeModernMore(i),reviewSakaeBudget(i),reviewSakaeParts(i),reviewSakaeOld(i),reviewSakaeFamily(i),reviewSakaeR6(i),reviewYokoshibaR7(i),reviewTonosho(i),reviewChonanMore(i),reviewKyonan(i),reviewChonan(i),reviewChosei(i),reviewYokoshibaR3(i),reviewYokoshibaExtra(i),reviewYokoshibaR4(i),reviewYokoshibaR5(i),reviewYokoshibaR6(i)].filter(x=>x!==null);if(!found.length)return null;const projects=found.flatMap(x=>x.projects);if(new Set(projects.map(p=>p.id)).size!==projects.length)throw Error('Overlapping Chiba review outputs');return{projects,units:found.flatMap(x=>x.units),proofs:found.flatMap(x=>x.proofs),status:projects.length?'reviewed_chiba_named_rows':'source_identity_hold',reason:found.map(x=>x.reason).join(' | ')};}
+export function reviewChiba(i:CachedInput){const found=[reviewSakaeH29Appendix(i),reviewSakaeH29Nonbudget(i),reviewSakaeH29Parts(i),reviewSakaeH30Appendix(i),reviewSakaeH30Nonbudget(i),reviewSakaeH30Parts(i),reviewSakaeClosure10(i),reviewSakaeR1Parts(i),reviewSakaeMoreParts(i),reviewSakaeCrossbook(i),reviewSakaeModernMore(i),reviewSakaeBudget(i),reviewSakaeParts(i),reviewSakaeOld(i),reviewSakaeFamily(i),reviewSakaeR6(i),reviewYokoshibaR7(i),reviewTonosho(i),reviewChonanMore(i),reviewKyonan(i),reviewChonan(i),reviewChosei(i),reviewYokoshibaR3(i),reviewYokoshibaExtra(i),reviewYokoshibaR4(i),reviewYokoshibaR5(i),reviewYokoshibaR6(i)].filter(x=>x!==null);if(!found.length)return null;const projects=found.flatMap(x=>x.projects);if(new Set(projects.map(p=>p.id)).size!==projects.length)throw Error('Overlapping Chiba review outputs');return{projects,units:found.flatMap(x=>x.units),proofs:found.flatMap(x=>x.proofs),status:projects.length?'reviewed_chiba_named_rows':'source_identity_hold',reason:found.map(x=>x.reason).join(' | ')};}

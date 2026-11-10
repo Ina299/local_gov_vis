@@ -1,0 +1,118 @@
+[
+  {
+    "sourceId": "4571b88a0ac059b26fed242f",
+    "municipalityCode": "12329",
+    "municipalityName": "栄町",
+    "sourceUrl": "https://www.town.sakae.chiba.jp/data/doc/1650271958_doc_78_0.pdf",
+    "sourceSha256": "2ce0ca72f7f96bf1fe03102faa4fb82d6504bfef143e2ea5449bae5dfbd3b5d3",
+    "fullTextSha256": "63dddda8f24c93522e4fa98373709d85a7e55da885464688b6c03599a9001754",
+    "rows": [
+      {
+        "name": "主要地方道鎌ケ谷本埜線バイパスを活用したまちづくり事業",
+        "raw": "主要地方道鎌ケ谷本埜線バイパスを活用したまちづくり事 主要地方道鎌ヶ谷本埜バイパスは、北千葉道路と接続することにより、本町にとっても物流機能、産業機能、\n業",
+        "start": 65265,
+        "year": 2018,
+        "yearQuote": "平成３０年度は",
+        "yearOffset": 65722,
+        "groupStart": 65246,
+        "groupEnd": 65933,
+        "groupSha256": "d30ec56368030ffe95ec5797ae214db4bb074db9e21ffa0ebdc0192d8a349f00",
+        "parts": [
+          {
+            "raw": "主要地方道鎌ケ谷本埜線バイパスを活用したまちづくり事",
+            "start": 65265
+          },
+          {
+            "raw": "業",
+            "start": 65342
+          }
+        ]
+      },
+      {
+        "name": "矢口工業団地の拡張事業",
+        "raw": "矢口工業団地の拡張事業",
+        "start": 65952,
+        "year": 2018,
+        "yearQuote": "平成３０年度\n各課主要事業成果説明書",
+        "yearOffset": 0,
+        "groupStart": 65902,
+        "groupEnd": 67089,
+        "groupSha256": "00d081003a22c92b0535b70879c2635a2e27f93de5ca7fe33154a9296f50c5aa",
+        "parts": [
+          {
+            "raw": "矢口工業団地の拡張事業",
+            "start": 65952
+          }
+        ]
+      },
+      {
+        "name": "安食駅前町民総活躍ステージ整備事業",
+        "raw": "安食駅前町民総活躍ステージ整備事業",
+        "start": 67123,
+        "year": 2018,
+        "yearQuote": "H30指標値 H30実績値",
+        "yearOffset": 67394,
+        "groupStart": 67068,
+        "groupEnd": 68484,
+        "groupSha256": "877365792c80da4d58deba54d5fc1d7b678dbac0d2d842fc7e70daaa4f929b9d",
+        "parts": [
+          {
+            "raw": "安食駅前町民総活躍ステージ整備事業",
+            "start": 67123
+          }
+        ]
+      },
+      {
+        "name": "黒大豆による地域経済活性化事業",
+        "raw": "黒大豆による地域経済活性化事業",
+        "start": 68516,
+        "year": 2018,
+        "yearQuote": "H30指標値 H30実績値",
+        "yearOffset": 68631,
+        "groupStart": 68461,
+        "groupEnd": 69610,
+        "groupSha256": "67d5eb5a09f645bc61ebcf0e0a39273eb1712ea0709f50386f74a3245882169c",
+        "parts": [
+          {
+            "raw": "黒大豆による地域経済活性化事業",
+            "start": 68516
+          }
+        ]
+      },
+      {
+        "name": "コスプレを活用した地域経済活性化事業",
+        "raw": "コスプレを活用した地域経済活性化事業",
+        "start": 69642,
+        "year": 2018,
+        "yearQuote": "H30指標値 H30実績値",
+        "yearOffset": 69879,
+        "groupStart": 69587,
+        "groupEnd": 70872,
+        "groupSha256": "07036f95d9eae14c716cd1d9216f38030228b8fb1d7a74a14532a0dc05b067fc",
+        "parts": [
+          {
+            "raw": "コスプレを活用した地域経済活性化事業",
+            "start": 69642
+          }
+        ]
+      },
+      {
+        "name": "日本の国技「相撲」体験による地域経済活性化事業",
+        "raw": "日本の国技「相撲」体験による地域経済活性化事業",
+        "start": 70904,
+        "year": 2018,
+        "yearQuote": "H30指標値 H30実績値",
+        "yearOffset": 71107,
+        "groupStart": 70849,
+        "groupEnd": 72086,
+        "groupSha256": "4fd3a219d1ef9e76837d8695589b6a9023a9c4e4b4f0d564413195af49f0c881",
+        "parts": [
+          {
+            "raw": "日本の国技「相撲」体験による地域経済活性化事業",
+            "start": 70904
+          }
+        ]
+      }
+    ]
+  }
+]

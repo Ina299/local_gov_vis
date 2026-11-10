@@ -1,0 +1,43 @@
+{
+  "sourceId": "a9997ebef76c1af05ffcead7",
+  "scope": "H29 reviewed named annual entries; full book still includes non-budget layouts needing further review",
+  "holds": [
+    {
+      "offset": 3495,
+      "reason": "Saved title男女共同参画の事業事業 is corrupt; no guessed correction"
+    },
+    {
+      "offsets": [
+        10254,
+        10753
+      ],
+      "reason": "町道維持管理事業 repeats for streetlight/land management and pavement maintenance with different budget codes; retain both out until annual identity can be safely represented"
+    },
+    {
+      "offset": 42227,
+      "reason": "通学安全対策委事業 title has uncertain extra委 character; no guessed correction"
+    },
+    {
+      "name": "日本の国技「相撲」体験による地域経済活性化事業",
+      "reason": "Same annual title occurs under promotion grant/events and facility grant/construction; do not create two same-name records or merge costs without resolved identity"
+    }
+  ],
+  "sameEntryReferences": [
+    {
+      "offset": 27746,
+      "reason": "Infant health examination360千円/102persons repeats within the previously retained broader maternal-health row at26663; no second record"
+    },
+    {
+      "offsets": [
+        6555,
+        20326,
+        58530,
+        60883
+      ],
+      "reason": "Additional budget accounts of retained entries; no second record"
+    }
+  ],
+  "priorValuesPreserved": true,
+  "numericFieldsAdded": 0,
+  "acquisition": false
+}
