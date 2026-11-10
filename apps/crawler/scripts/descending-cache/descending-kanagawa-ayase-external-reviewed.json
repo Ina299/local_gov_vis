@@ -1,0 +1,262 @@
+{
+  "sourceId": "2c1b3c742e5b722ee4bbff0c",
+  "sourceSha256": "beaba33f72d9c0c381e39d88b6ae5928cfc31e5d6e9f49b9b5fed3d116d10f4d",
+  "textSha256": "18b852becf8eb368bbcabf9ac53d8f474c47ab7af0939883cc221d9bd7770d2f",
+  "sourceUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r6gaibuhyouka.pdf",
+  "municipalityCode": "14218",
+  "year": 2023,
+  "navigationSourceId": "1e6eb87561d6a366d06f6cac",
+  "navigationSourceSha256": "911a6fa755ffb647a32dd6aeb3ce30c43b51e0176db8f0a1fd979c915e466eff",
+  "navigationTextSha256": "6c6d9f5cc8ebdd293d61bd62b6c3fc042493bffda3dc99fbf822d512a787bf50",
+  "navigationQuote": "令和6年度総合計画外部評価結果（令和5年度事業の計画進行管理シート）",
+  "navigationOffset": 540,
+  "rows": [
+    {
+      "name": "外国人市民のための一元的情報提供・相談窓口の設置",
+      "raw": "外国人市民のための一元的情報提供・\n相談窓口の設置",
+      "start": 183,
+      "occurrences": [
+        183,
+        2012
+      ],
+      "status": "duplicate",
+      "duplicateIds": [
+        "cached-14218-9b954bbcb9e47591d0d95bed"
+      ],
+      "reason": "Same exact individual name and explicit FY2023 already in annual source candidate"
+    },
+    {
+      "name": "日本語等の学習支援",
+      "raw": "日本語等の学習支援",
+      "start": 2042,
+      "occurrences": [
+        2042
+      ],
+      "status": "duplicate",
+      "duplicateIds": [
+        "cached-14218-5a8e4ce8459c703295f166de"
+      ],
+      "reason": "Same exact individual name and explicit FY2023 already in annual source candidate"
+    },
+    {
+      "name": "親子交流による多文化共生の推進",
+      "raw": "親子交流による多文化共生の推進",
+      "start": 2056,
+      "occurrences": [
+        2056,
+        4370
+      ],
+      "status": "duplicate",
+      "duplicateIds": [
+        "cached-14218-73d76003b6612b6eb830d06f"
+      ],
+      "reason": "Same exact individual name and explicit FY2023 already in annual source candidate"
+    },
+    {
+      "name": "あやせ国際フェスティバル",
+      "raw": "あやせ国際フェスティバル",
+      "start": 2076,
+      "occurrences": [
+        2076
+      ],
+      "status": "duplicate",
+      "duplicateIds": [
+        "cached-14218-a0d6c8bb59946dd63fa2b669"
+      ],
+      "reason": "Same exact individual name and explicit FY2023 already in annual source candidate"
+    },
+    {
+      "name": "あやせウェルカムパックの配付",
+      "raw": "あやせウェルカムパックの配付",
+      "start": 2093,
+      "occurrences": [
+        2093
+      ],
+      "status": "duplicate",
+      "duplicateIds": [
+        "cached-14218-39d12629ca3d2e2dc56b5d89"
+      ],
+      "reason": "Same exact individual name and explicit FY2023 already in annual source candidate"
+    },
+    {
+      "name": "中小企業強靭化推進補助金",
+      "raw": "中小企業強靭化推進補助金",
+      "start": 6378,
+      "occurrences": [
+        6378
+      ],
+      "status": "identity_hold",
+      "duplicateIds": [],
+      "possibleAlias": "中小企業強靭化補助金",
+      "reason": "Annual and external sheet use similar but different business/subsidy names; exact unit identity not established. Do not double-count or merge."
+    },
+    {
+      "name": "あやせ工場スマートナビ運営事業",
+      "raw": "あやせ工場スマートナビ運営事業",
+      "start": 6395,
+      "occurrences": [
+        6395
+      ],
+      "status": "duplicate",
+      "duplicateIds": [
+        "cached-14218-8bc01a1b0510b1775f6b0caf"
+      ],
+      "reason": "Same exact individual name and explicit FY2023 already in annual source candidate"
+    },
+    {
+      "name": "中小企業コンサルティング事業",
+      "raw": "中小企業コンサルティング事業",
+      "start": 6415,
+      "occurrences": [
+        6415
+      ],
+      "status": "duplicate",
+      "duplicateIds": [
+        "cached-14218-3cd3ee9090b7da9efa2e2750"
+      ],
+      "reason": "Same exact individual name and explicit FY2023 already in annual source candidate"
+    },
+    {
+      "name": "あやせ工場オープンファクトリー補助事業",
+      "raw": "あやせ工場オープンファクトリー補助事\n業",
+      "start": 6434,
+      "occurrences": [
+        6434,
+        8517
+      ],
+      "status": "identity_hold",
+      "duplicateIds": [],
+      "possibleAlias": "あやせ工場オープンファクトリー補助金",
+      "reason": "Annual and external sheet use similar but different business/subsidy names; exact unit identity not established. Do not double-count or merge."
+    },
+    {
+      "name": "外国人高度人材の雇用支援",
+      "raw": "外国人高度人材の雇用支援",
+      "start": 6459,
+      "occurrences": [
+        6459
+      ],
+      "status": "duplicate",
+      "duplicateIds": [
+        "cached-14218-7d86ed3f368d424016adfe8f"
+      ],
+      "reason": "Same exact individual name and explicit FY2023 already in annual source candidate"
+    },
+    {
+      "name": "綾瀬ブランド新商品開発事業補助金",
+      "raw": "綾瀬ブランド新商品開発事業補助金",
+      "start": 8496,
+      "occurrences": [
+        8496
+      ],
+      "status": "identity_hold",
+      "duplicateIds": [],
+      "possibleAlias": "あやせブランド新商品開発支援事業",
+      "reason": "Annual and external sheet use similar but different business/subsidy names; exact unit identity not established. Do not double-count or merge."
+    },
+    {
+      "name": "若手技術者ネットワーク構築事業",
+      "raw": "若手技術者ネットワーク構築事業",
+      "start": 9913,
+      "occurrences": [
+        9913
+      ],
+      "status": "duplicate",
+      "duplicateIds": [
+        "cached-14218-dc30e000fb5be8708fd76625"
+      ],
+      "reason": "Same exact individual name and explicit FY2023 already in annual source candidate"
+    },
+    {
+      "name": "あやせ工場技能継承事業（工匠塾）",
+      "raw": "あやせ工場技能継承事業（工匠塾）",
+      "start": 10024,
+      "occurrences": [
+        10024
+      ],
+      "status": "identity_hold",
+      "duplicateIds": [],
+      "possibleAlias": "あやせ工場技能継承事業（あやせ工匠塾）",
+      "reason": "Annual and external sheet use similar but different business/subsidy names; exact unit identity not established. Do not double-count or merge."
+    },
+    {
+      "name": "防災意識啓発",
+      "raw": "防災意識啓発",
+      "start": 11521,
+      "occurrences": [
+        11521,
+        11749
+      ],
+      "status": "duplicate",
+      "duplicateIds": [
+        "cached-14218-290201ab5a32732cbe11805b"
+      ],
+      "reason": "Same exact individual name and explicit FY2023 already in annual source candidate"
+    },
+    {
+      "name": "防災ハザードマップの更新",
+      "raw": "防災ハザードマップの更新",
+      "start": 11760,
+      "occurrences": [
+        11760
+      ],
+      "status": "duplicate",
+      "duplicateIds": [
+        "cached-14218-1c8dc81cfead98e2345ae01e"
+      ],
+      "reason": "Same exact individual name and explicit FY2023 already in annual source candidate"
+    },
+    {
+      "name": "避難所用ポータブル蓄電池整備",
+      "raw": "避難所用ポータブル蓄電池整備",
+      "start": 11777,
+      "occurrences": [
+        11777
+      ],
+      "status": "duplicate",
+      "duplicateIds": [
+        "cached-14218-a318bf719b47ab0d07343e02"
+      ],
+      "reason": "Same exact individual name and explicit FY2023 already in annual source candidate"
+    },
+    {
+      "name": "災害用ドローン整備事業",
+      "raw": "災害用ドローン整備事業",
+      "start": 13918,
+      "occurrences": [
+        13918
+      ],
+      "status": "reliable_unreferenced_title",
+      "duplicateIds": [],
+      "reason": "Explicit individual name in saved external source, target FY2023 proved by saved official navigation; full parser validation still pending"
+    },
+    {
+      "name": "綾瀬市総合都市交通計画改定業務",
+      "raw": "綾瀬市総合都市交通計画改定業務",
+      "start": 17192,
+      "occurrences": [
+        17192
+      ],
+      "status": "duplicate",
+      "duplicateIds": [
+        "cached-14218-03083fe174e8f94aa99fb96b"
+      ],
+      "reason": "Same exact individual name and explicit FY2023 already in annual source candidate"
+    },
+    {
+      "name": "福祉団体育成事業（地域における移動手段の充実）",
+      "raw": "福祉団体育成事業（地域における移動\n手段の充実）",
+      "start": 18710,
+      "occurrences": [
+        18710,
+        18739
+      ],
+      "status": "duplicate",
+      "duplicateIds": [
+        "cached-14218-22f0127b4839c3931469854c"
+      ],
+      "reason": "Same exact individual name and explicit FY2023 already in annual source candidate"
+    }
+  ],
+  "warning": "Individual names only; macroproject/STEP ratings and detached grade cells omitted. Saved official link title proves FY2023; no network. Final parser/tests/dedup still pending."
+}

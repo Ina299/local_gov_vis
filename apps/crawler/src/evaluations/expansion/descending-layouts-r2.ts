@@ -1,3 +1,5 @@
+import{reviewAyaseExternal}from'./descending-kanagawa-ayase-external';
+import{reviewAyase}from'./descending-kanagawa-ayase';
 import{reviewManazuru}from'./descending-kanagawa-manazuru';
 import{reviewKaisei}from'./descending-kanagawa-kaisei';
 import{reviewMatsuda}from'./descending-kanagawa-matsuda';
@@ -146,6 +148,8 @@ export function reviewDescendingLayout(input:CachedInput,inputs:CachedInput[]=[]
 const kanagawaManazuru=reviewManazuru(input);if(kanagawaManazuru)return kanagawaManazuru;
 const kanagawaKaisei=reviewKaisei(input);if(kanagawaKaisei)return kanagawaKaisei;
 const kanagawaMatsuda=reviewMatsuda(input);if(kanagawaMatsuda)return kanagawaMatsuda;
+const externalAyase=reviewAyaseExternal(input,inputs);if(externalAyase)return externalAyase;
+const kanagawaAyase=reviewAyase(input,inputs);if(kanagawaAyase)return kanagawaAyase;
 const kanagawaOi=reviewOi(input);if(kanagawaOi)return kanagawaOi;
 const kanagawaNinomiya=reviewNinomiya(input);if(kanagawaNinomiya)return kanagawaNinomiya;
 

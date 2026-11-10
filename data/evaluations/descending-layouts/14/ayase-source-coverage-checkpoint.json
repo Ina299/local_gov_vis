@@ -1,0 +1,46 @@
+[
+  {
+    "sourceId": "81524a11ea0235beb0602720",
+    "sourceSha256": "247a0479dd2961b272f37d4339e034bcb7e3dd300c186ec7c8462f8ae4bee465",
+    "fullTextSha256": "74d6fc33a41d5317afe7bd6fb3fbb7eb8957b06008d1ad8a8a655887e85ae356",
+    "fiscalYear": 2024,
+    "reviewedIndividualTitles": 102,
+    "accepted": 97,
+    "knownSameAnnualDuplicates": 4,
+    "aliasHolds": 1,
+    "coverage": "Further cached layout/name review remains; source completeness does not imply coverage completeness"
+  },
+  {
+    "sourceId": "bf6b9c0ce6ea6ba6264f9929",
+    "sourceSha256": "ac35d71f43409b92655e680744fce858c45ca8e1f19fdbbc3253768afd9c6dec",
+    "fullTextSha256": "10de17a78d374d0515812943caa9dd1c68dc57e7fd2e53bf8628919f0ba58f2a",
+    "fiscalYear": 2023,
+    "reviewedIndividualTitles": 86,
+    "accepted": 86,
+    "knownSameAnnualDuplicates": 0,
+    "aliasHolds": 0,
+    "coverage": "Further cached layout/name review remains; source completeness does not imply coverage completeness"
+  },
+  {
+    "sourceId": "04652178b8071db2cc327569",
+    "sourceSha256": "4fd97031e31c3ecd5ab9b2bb5cc4b3f3260b43643fa361c3600c25fdad3e61ae",
+    "fullTextSha256": "427df8aa7fbfac29c447c6125a5d5c4e39aee73b25bfe95b86c7b4d8b0cdd7f2",
+    "fiscalYear": 2022,
+    "reviewedIndividualTitles": 70,
+    "accepted": 58,
+    "knownSameAnnualDuplicates": 11,
+    "aliasHolds": 1,
+    "coverage": "Further cached layout/name review remains; source completeness does not imply coverage completeness"
+  },
+  {
+    "sourceId": "b1caac0c8132bf8f7ee5061e",
+    "sourceSha256": "7d688f0f947bef3c6790ff8b26b123162bca4c3559cb313b58a6a9cffd3ef086",
+    "fullTextSha256": "33b49d651bc41d7231f1b0a1f01528b397e428344caed00776eb0aa672462c93",
+    "fiscalYear": 2025,
+    "reviewedIndividualTitles": 108,
+    "accepted": 107,
+    "knownSameAnnualDuplicates": 1,
+    "aliasHolds": 0,
+    "coverage": "complete individual title review"
+  }
+]

@@ -1,0 +1,221 @@
+[
+  {
+    "candidateId": "cached-14218-fb5cf0e46e9342f117693a89",
+    "candidateName": "ホームタウンチームＳＣ相模原との連携事業",
+    "year": 2022,
+    "sourceId": "04652178b8071db2cc327569",
+    "sourceSha256": "4fd97031e31c3ecd5ab9b2bb5cc4b3f3260b43643fa361c3600c25fdad3e61ae",
+    "existingRecord": {
+      "id": "cached-14218-7d19c9356cc56e96641b2ff1",
+      "municipalityCode": "14218",
+      "municipalityName": "綾瀬市",
+      "projectCode": "支える２ あやせ流健康習慣定着プロジェクト:ホームタウンチームSC相模原・ノジマステラ神奈川相模原との連携事業",
+      "projectName": "ホームタウンチームSC相模原・ノジマステラ神奈川相模原との連携事業",
+      "department": null,
+      "evaluationYear": null,
+      "evaluatedFiscalYear": null,
+      "purpose": null,
+      "activities": null,
+      "outcomes": null,
+      "amounts": [],
+      "indicators": [],
+      "ratings": [
+        {
+          "kind": "self",
+          "label": "主管課による一次評価 達成状況",
+          "value": "C",
+          "scale": "A：順調に推移した(目標達成又は進捗している）／B：一定の進捗がある（目標達成に向け一定の進捗がある）／C：進捗が遅れている（目標達成が遅れる可能性がある）／D：進捗が大幅に遅れている（目標達成が難しい可能性がある）",
+          "evidence": {
+            "sourceUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r5gaibuhyouka.pdf",
+            "sourcePageUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r5gaibuhyouka.pdf",
+            "format": "pdf",
+            "fetchedAt": "2026-10-21T09:11:29.161Z",
+            "sha256": "88cf2aa719bcbb4d678a9d76f2c01130e473f02d51a9d98d0148b015e7dc88fe",
+            "rawText": "ホームタウンチームSC相模原・ノジマ\nステラ神奈川相模原との連携事業\n\nC",
+            "page": null,
+            "sheet": null,
+            "cell": "extracted-text:chars:28161-28198"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "sourceUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r5gaibuhyouka.pdf",
+          "sourcePageUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r5gaibuhyouka.pdf",
+          "format": "pdf",
+          "fetchedAt": "2026-10-21T09:11:29.161Z",
+          "sha256": "88cf2aa719bcbb4d678a9d76f2c01130e473f02d51a9d98d0148b015e7dc88fe",
+          "rawText": "ホームタウンチームSC相模原・ノジマ\nステラ神奈川相模原との連携事業",
+          "page": null,
+          "sheet": null,
+          "cell": "extracted-text:chars:28161-28195"
+        },
+        {
+          "sourceUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r5gaibuhyouka.pdf",
+          "sourcePageUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r5gaibuhyouka.pdf",
+          "format": "pdf",
+          "fetchedAt": "2026-10-21T09:11:29.161Z",
+          "sha256": "88cf2aa719bcbb4d678a9d76f2c01130e473f02d51a9d98d0148b015e7dc88fe",
+          "rawText": "総合計画進行管理シート\n支える２ あやせ流健康習慣定着プロジェクト",
+          "page": null,
+          "sheet": null,
+          "cell": "extracted-text:chars:27737-27770"
+        }
+      ],
+      "extractionStatus": "partial",
+      "warnings": [
+        "保存済み抽出テキストから部分構造化。PDF原本との再照合は未実施。表の空欄・列位置を推測して補完していません。原典ページ番号は未復元のため抽出テキスト内の文字位置を記録。",
+        "戦略プロジェクトの進行管理シートのうち、関連実施計画の「実施計画事業名」と「達成状況」が隣接して読める組のみ収録（STEP別の列の区別、担当課は未確定のため未設定）。資料本文に評価年度・対象年度の明記がないため年度は未設定。STEPの進捗状況・二次評価・外部評価はプロジェクト単位のため対象外。"
+      ]
+    },
+    "existingSourceId": "3480bc0c045e584e98bcd3b2",
+    "existingSourceSha256": "88cf2aa719bcbb4d678a9d76f2c01130e473f02d51a9d98d0148b015e7dc88fe",
+    "existingProvenYear": 2022,
+    "navigationQuote": "令和5年度総合計画外部評価結果（令和4年度事業の計画進行管理シート）",
+    "navigationSourceSha256": "911a6fa755ffb647a32dd6aeb3ce30c43b51e0176db8f0a1fd979c915e466eff",
+    "reason": "Same fiscal year and very similar project identity with name/scope difference; no explicit unique code or saved equivalence statement establishing a distinct business. Keep candidate out rather than count twice or alter existing value."
+  },
+  {
+    "candidateId": "cached-14218-df1480ffdacf49edb1fc30da",
+    "candidateName": "目久尻川歴史文化ゾーン構想の推進",
+    "year": 2024,
+    "sourceId": "81524a11ea0235beb0602720",
+    "sourceSha256": "247a0479dd2961b272f37d4339e034bcb7e3dd300c186ec7c8462f8ae4bee465",
+    "existingRecord": {
+      "id": "cached-14218-cbbaf73d02dcc4a774817d3d",
+      "municipalityCode": "14218",
+      "municipalityName": "綾瀬市",
+      "projectCode": "育てる５ 目久尻川流域の歴史文化形成プロジェクト:あやせ目久尻川歴史文化ゾーン構想の推進",
+      "projectName": "あやせ目久尻川歴史文化ゾーン構想の推進",
+      "department": null,
+      "evaluationYear": null,
+      "evaluatedFiscalYear": null,
+      "purpose": null,
+      "activities": null,
+      "outcomes": null,
+      "amounts": [],
+      "indicators": [],
+      "ratings": [
+        {
+          "kind": "self",
+          "label": "主管課による一次評価 達成状況",
+          "value": "A",
+          "scale": "A：順調に推移した(目標達成又は進捗している）／B：一定の進捗がある（目標達成に向け一定の進捗がある）／C：進捗が遅れている（目標達成が遅れる可能性がある）／D：進捗が大幅に遅れている（目標達成が難しい可能性がある）",
+          "evidence": {
+            "sourceUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r7gaibuhyouka.pdf",
+            "sourcePageUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r7gaibuhyouka.pdf",
+            "format": "pdf",
+            "fetchedAt": "2026-10-21T09:11:25.956Z",
+            "sha256": "fb62b3389b80d6356f02eeedf1ed495f20d2b2e585005c9cd2c93ed2f023ded3",
+            "rawText": "あやせ目久尻川歴史文化ゾーン構想\nの推進\n\nA",
+            "page": null,
+            "sheet": null,
+            "cell": "extracted-text:chars:3483-3506"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "sourceUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r7gaibuhyouka.pdf",
+          "sourcePageUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r7gaibuhyouka.pdf",
+          "format": "pdf",
+          "fetchedAt": "2026-10-21T09:11:25.956Z",
+          "sha256": "fb62b3389b80d6356f02eeedf1ed495f20d2b2e585005c9cd2c93ed2f023ded3",
+          "rawText": "あやせ目久尻川歴史文化ゾーン構想\nの推進",
+          "page": null,
+          "sheet": null,
+          "cell": "extracted-text:chars:3483-3503"
+        },
+        {
+          "sourceUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r7gaibuhyouka.pdf",
+          "sourcePageUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r7gaibuhyouka.pdf",
+          "format": "pdf",
+          "fetchedAt": "2026-10-21T09:11:25.956Z",
+          "sha256": "fb62b3389b80d6356f02eeedf1ed495f20d2b2e585005c9cd2c93ed2f023ded3",
+          "rawText": "総合計画進行管理シート\n戦略\nＰＪ名\n\n育てる５ 目久尻川流域の歴史文化形成\nプロジェクト",
+          "page": null,
+          "sheet": null,
+          "cell": "extracted-text:chars:3169-3214"
+        },
+        {
+          "sourceUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r7gaibuhyouka.pdf",
+          "sourcePageUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r7gaibuhyouka.pdf",
+          "format": "pdf",
+          "fetchedAt": "2026-10-21T09:11:25.956Z",
+          "sha256": "fb62b3389b80d6356f02eeedf1ed495f20d2b2e585005c9cd2c93ed2f023ded3",
+          "rawText": "あやせ目久尻川歴史文化ゾーン構想\nの推進",
+          "page": null,
+          "sheet": null,
+          "cell": "extracted-text:chars:3508-3528"
+        },
+        {
+          "sourceUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r7gaibuhyouka.pdf",
+          "sourcePageUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r7gaibuhyouka.pdf",
+          "format": "pdf",
+          "fetchedAt": "2026-10-21T09:11:25.956Z",
+          "sha256": "fb62b3389b80d6356f02eeedf1ed495f20d2b2e585005c9cd2c93ed2f023ded3",
+          "rawText": "総合計画進行管理シート\n戦略\nＰＪ名\n\n育てる５ 目久尻川流域の歴史文化形成\nプロジェクト",
+          "page": null,
+          "sheet": null,
+          "cell": "extracted-text:chars:3169-3214"
+        },
+        {
+          "sourceUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r7gaibuhyouka.pdf",
+          "sourcePageUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r7gaibuhyouka.pdf",
+          "format": "pdf",
+          "fetchedAt": "2026-10-21T09:11:25.956Z",
+          "sha256": "fb62b3389b80d6356f02eeedf1ed495f20d2b2e585005c9cd2c93ed2f023ded3",
+          "rawText": "あやせ目久尻川歴史文化ゾーン構想\nの推進",
+          "page": null,
+          "sheet": null,
+          "cell": "extracted-text:chars:5385-5405"
+        },
+        {
+          "sourceUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r7gaibuhyouka.pdf",
+          "sourcePageUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r7gaibuhyouka.pdf",
+          "format": "pdf",
+          "fetchedAt": "2026-10-21T09:11:25.956Z",
+          "sha256": "fb62b3389b80d6356f02eeedf1ed495f20d2b2e585005c9cd2c93ed2f023ded3",
+          "rawText": "総合計画進行管理シート\n戦略\nＰＪ名\n\n育てる５ 目久尻川流域の歴史文化形成\nプロジェクト",
+          "page": null,
+          "sheet": null,
+          "cell": "extracted-text:chars:5153-5198"
+        },
+        {
+          "sourceUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r7gaibuhyouka.pdf",
+          "sourcePageUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r7gaibuhyouka.pdf",
+          "format": "pdf",
+          "fetchedAt": "2026-10-21T09:11:25.956Z",
+          "sha256": "fb62b3389b80d6356f02eeedf1ed495f20d2b2e585005c9cd2c93ed2f023ded3",
+          "rawText": "あやせ目久尻川歴史文化ゾーン構想\nの推進",
+          "page": null,
+          "sheet": null,
+          "cell": "extracted-text:chars:5410-5430"
+        },
+        {
+          "sourceUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r7gaibuhyouka.pdf",
+          "sourcePageUrl": "https://www.city.ayase.kanagawa.jp/material/files/group/5/r7gaibuhyouka.pdf",
+          "format": "pdf",
+          "fetchedAt": "2026-10-21T09:11:25.956Z",
+          "sha256": "fb62b3389b80d6356f02eeedf1ed495f20d2b2e585005c9cd2c93ed2f023ded3",
+          "rawText": "総合計画進行管理シート\n戦略\nＰＪ名\n\n育てる５ 目久尻川流域の歴史文化形成\nプロジェクト",
+          "page": null,
+          "sheet": null,
+          "cell": "extracted-text:chars:5153-5198"
+        }
+      ],
+      "extractionStatus": "partial",
+      "warnings": [
+        "保存済み抽出テキストから部分構造化。PDF原本との再照合は未実施。表の空欄・列位置を推測して補完していません。原典ページ番号は未復元のため抽出テキスト内の文字位置を記録。",
+        "戦略プロジェクトの進行管理シートのうち、関連実施計画の「実施計画事業名」と「達成状況」が隣接して読める組のみ収録（STEP別の列の区別、担当課は未確定のため未設定）。資料本文に評価年度・対象年度の明記がないため年度は未設定。STEPの進捗状況・二次評価・外部評価はプロジェクト単位のため対象外。",
+        "同一資料内の再掲を値の一致を確認して1件に統合。"
+      ]
+    },
+    "existingSourceId": "080b55a36731e1510a559278",
+    "existingSourceSha256": "fb62b3389b80d6356f02eeedf1ed495f20d2b2e585005c9cd2c93ed2f023ded3",
+    "existingProvenYear": 2024,
+    "navigationQuote": "令和7年度総合計画外部評価結果（令和6年度事業の進行管理シート）",
+    "navigationSourceSha256": "911a6fa755ffb647a32dd6aeb3ce30c43b51e0176db8f0a1fd979c915e466eff",
+    "reason": "Same fiscal year and very similar project identity with name/scope difference; no explicit unique code or saved equivalence statement establishing a distinct business. Keep candidate out rather than count twice or alter existing value."
+  }
+]
