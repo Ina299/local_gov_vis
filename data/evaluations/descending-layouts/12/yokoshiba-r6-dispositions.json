@@ -603,8 +603,10 @@
     },
     {
       "key": "5-22",
-      "name": "整備事業",
-      "status": "existing_same_year"
+      "status": "existing_partial_name_hold",
+      "raw": "22 62 5 6 1 ① 都市建設課 管理計画班 整備事業 Ｂ",
+      "fullName": "空港機能強化を踏まえた居住地整備事業",
+      "reason": "Existing master same annual business has partial title 整備事業; retain prior values, no duplicate or field edit."
     },
     {
       "key": "5-23",

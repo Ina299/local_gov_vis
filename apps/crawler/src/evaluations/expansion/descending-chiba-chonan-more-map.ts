@@ -1,0 +1,75 @@
+export const configs = [
+  {
+    "sourceId": "c9cae63d83a17dd34edeaef8",
+    "municipalityCode": "12427",
+    "municipalityName": "長南町",
+    "sourceUrl": "https://www.town.chonan.chiba.jp/wp-content/uploads/2018/09/R1hyouka.pdf",
+    "sourceSha256": "35433d946e1323112b4e7c9c4e58afb78e351ebb091649889623c536f554a4a5",
+    "fullTextSha256": "8099e04ab16d88fbb2bd3b32d8de9bef4ff8b026122313999ef22d4df1a274d1",
+    "rows": [
+      {
+        "name": "Ｗebサイトリニューアル",
+        "raw": "Ｗebサイトリニューアル",
+        "start": 1574,
+        "year": 2019,
+        "yearQuote": "Ｗebサイトリニューアル\n\n企画政策課 年間アクセス数\n\n84,000回(H26)\n\n100,000回\n\n110,000回(R1)",
+        "yearOffset": 1574,
+        "amount": null
+      },
+      {
+        "name": "小中一貫型教育の推進",
+        "raw": "小中一貫型教育の推進",
+        "start": 3261,
+        "year": 2019,
+        "yearQuote": "小中一貫型教育の推進\n\n学校教育課\n\n子どもを通わせたいと思える学校づくりに対する\n\nー\n\n60.0%\n\n79.7%(R1)",
+        "yearOffset": 3261,
+        "amount": null
+      },
+      {
+        "name": "学童保育の充実",
+        "raw": "学童保育の充実",
+        "start": 4750,
+        "year": 2019,
+        "yearQuote": "学童保育の充実\n\n福祉課\n\n子育て環境の満足度\n\n62.4％(H26)\n\n70.0%\n\n72.4%(R1)",
+        "yearOffset": 4750,
+        "amount": null
+      },
+      {
+        "name": "産科医確保対策の実施（広域連携）",
+        "raw": "産科医確保対策の実施（広域連携）",
+        "start": 4833,
+        "year": 2019,
+        "yearQuote": "産科医確保対策の実施（広域連携）\n\n健康保険課 産科医院の施設数（長生郡市内）\n\n2施設(H27)\n\n２施設\n\n２施設(R1)",
+        "yearOffset": 4833,
+        "amount": null
+      },
+      {
+        "name": "任意予防接種の公費助成",
+        "raw": "任意予防接種の公費助成",
+        "start": 5290,
+        "year": 2019,
+        "yearQuote": "任意予防接種の公費助成\n\n健康保険課 接種率（接種実施者数／対象者数）\n\n97.5％(H26)\n\n98.0%\n\n77.6%(R1)",
+        "yearOffset": 5290,
+        "amount": null
+      },
+      {
+        "name": "紙おむつ処分用ゴミ袋の支給",
+        "raw": "紙おむつ処分用ゴミ袋の支給",
+        "start": 5360,
+        "year": 2019,
+        "yearQuote": "紙おむつ処分用ゴミ袋の支給\n\n福祉課\n\n支給率（配布者数／配布対象者数）\n\n100％(H26)\n\n100.0%\n\n95.4%(R1)",
+        "yearOffset": 5360,
+        "amount": null
+      },
+      {
+        "name": "子育て交流館の充実",
+        "raw": "子育て交流館の充実",
+        "start": 5431,
+        "year": 2019,
+        "yearQuote": "子育て交流館の充実\n\n福祉課\n\n年間利用者数\n\nー\n\n3,500人\n\n2,560人(R1)",
+        "yearOffset": 5431,
+        "amount": null
+      }
+    ]
+  }
+];

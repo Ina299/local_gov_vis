@@ -1,21 +1,22 @@
 {
-  "candidateRecords": 348,
-  "newCandidatesThisTranche": 348,
+  "candidateRecords": 436,
+  "newCandidatesThisTranche": 88,
   "perMunicipality": {
     "鋸南町": 44,
-    "長南町": 3,
+    "長南町": 10,
     "長生村": 2,
-    "横芝光町": 299
+    "横芝光町": 339,
+    "東庄町": 41
   },
   "existingFieldEnrichments": 0,
   "newCandidateActualAmountFields": 2,
-  "validatedCumulativeCandidates": 34850,
-  "validatedEvidence": 103496,
+  "validatedCumulativeCandidates": 34938,
+  "validatedEvidence": 103741,
   "separateSets": {
     "Okinawa": 1084,
     "initial": 93
   },
-  "previousHead": "29de630187d5156885977ae1dd93e3198f882e09",
+  "previousHead": "fa7ed3aab7c1daf4b44b305606593033376fa2b6",
   "masterCompared": "8aa014d8c9b44e70bc37fe58b23c963bac7aa286",
   "productionRecordsAdded": 0,
   "existingFieldsChanged": 0,
@@ -28,8 +29,8 @@
     "lint": "passed;existingfontwarning",
     "national": "passed branchbaseline",
     "static": "109/109 subpath",
-    "quotes": "34850 candidates/103496 quotes"
+    "quotes": "34938 candidates/103741 quotes"
   },
   "remoteCI": "unverified;known ActionsAPI403 not retried",
-  "remaining": "Chiba queue continues. Next88 staged proposals:R7Yokoshiba40,Chonan7,Tonosho41 related annual classes. Missing42 bodies remain held. Existing partial-name corrections need separate coordinated integration; no existing values changed."
+  "remaining": "Chiba queue continues. Sakae602 proposals staged outside repository; not fullvalidated. Tonosho41 are related educational class records. Missing42 bodies remain held. Existing partial-name corrections need separate coordinated integration; no existing values changed."
 }
