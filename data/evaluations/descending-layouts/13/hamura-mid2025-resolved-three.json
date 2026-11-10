@@ -1,0 +1,45 @@
+[
+  {
+    "code": "104",
+    "name": "羽村市LINE公式アカウントを利用したごみ・リサイクルに関する情報発信の充実",
+    "reason": "FY2025 report separately numbers LINE system operation102 and waste/recycling information104, and FY2024 cached report separately names system91 and waste95; distinct reviewed business scope, not a guessed extra financing component.",
+    "sourceSha256": "2085c94d5804f0be8b72e3b8650a4b53ee565c827430b3439b0b5bc72a8dfdc1",
+    "sourceFullTextSha256": "042b9857555df669a5cda8c0b63f1b34619fc2bcd7e809c2211ab3d343c04a9e",
+    "priorSourceId": null,
+    "priorFullTextSha256": null,
+    "priorFiscalScopeQuote": null,
+    "status": "proposed_after_explicit_scope_review"
+  },
+  {
+    "code": "109",
+    "name": "自然環境学習の実施",
+    "reason": "Existing similarly named tour proposal comes from source18c5703a2ff5be74b9def28a explicitly planning FY2026; this source is FY2025 mid-year. FY2025 report also separately names learning109 and tours110. Retain old record unchanged.",
+    "sourceSha256": "2085c94d5804f0be8b72e3b8650a4b53ee565c827430b3439b0b5bc72a8dfdc1",
+    "sourceFullTextSha256": "042b9857555df669a5cda8c0b63f1b34619fc2bcd7e809c2211ab3d343c04a9e",
+    "priorSourceId": "18c5703a2ff5be74b9def28a",
+    "priorFullTextSha256": "cfb7f9305017e8fcefdf005b06aa6be6241117fc53ba74f04d59414c8a737d7c",
+    "priorFiscalScopeQuote": "・令和８年度から新たに実施を計画している事務事業評価",
+    "status": "proposed_after_explicit_scope_review",
+    "priorSourceSha256": "a793a56d4c70ce49fdaafd16866d9111027f139fe6443a8eaec032685b1bacc0",
+    "priorSourceUrl": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20270/R7-shinki.pdf",
+    "existingRecordIds": [
+      "cached-13227-a35dede718d0bbef8597863f"
+    ]
+  },
+  {
+    "code": "110",
+    "name": "自然環境学習ツアーの実施",
+    "reason": "Existing similarly named tour proposal comes from source18c5703a2ff5be74b9def28a explicitly planning FY2026; this source is FY2025 mid-year. FY2025 report also separately names learning109 and tours110. Retain old record unchanged.",
+    "sourceSha256": "2085c94d5804f0be8b72e3b8650a4b53ee565c827430b3439b0b5bc72a8dfdc1",
+    "sourceFullTextSha256": "042b9857555df669a5cda8c0b63f1b34619fc2bcd7e809c2211ab3d343c04a9e",
+    "priorSourceId": "18c5703a2ff5be74b9def28a",
+    "priorFullTextSha256": "cfb7f9305017e8fcefdf005b06aa6be6241117fc53ba74f04d59414c8a737d7c",
+    "priorFiscalScopeQuote": "・令和８年度から新たに実施を計画している事務事業評価",
+    "status": "proposed_after_explicit_scope_review",
+    "priorSourceSha256": "a793a56d4c70ce49fdaafd16866d9111027f139fe6443a8eaec032685b1bacc0",
+    "priorSourceUrl": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20270/R7-shinki.pdf",
+    "existingRecordIds": [
+      "cached-13227-a35dede718d0bbef8597863f"
+    ]
+  }
+]

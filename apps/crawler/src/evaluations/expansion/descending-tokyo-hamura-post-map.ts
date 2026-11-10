@@ -1,0 +1,1412 @@
+export const config = {
+  "sourceId": "a8a825dd44973f4d66efcce7",
+  "municipalityCode": "13227",
+  "municipalityName": "羽村市",
+  "sourceUrl": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000019/19498/r6_jigo-gaibu.pdf",
+  "sourceSha256": "af691b8c1c1ca1efb5832fabd47558ed575c82302a94fca5b69fa34aeefe4593",
+  "fullTextSha256": "18def91cd72b5bf31cf45acaba285e32fd2b1ae23bfb4b457435e8f8a7725d5a",
+  "rows": [
+    {
+      "name": "多文化共生の推進",
+      "projectCode": "No.3",
+      "start": 359,
+      "raw": "多文化共生の推進",
+      "numberQuote": "No.3 多文化共生の推進",
+      "numberOffset": 354,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "多文化共生の推進",
+          "start": 359
+        }
+      ]
+    },
+    {
+      "name": "平和な未来の創造",
+      "projectCode": "No.4",
+      "start": 389,
+      "raw": "平和な未来の創造",
+      "numberQuote": "No.4 平和な未来の創造",
+      "numberOffset": 384,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "平和な未来の創造",
+          "start": 389
+        }
+      ]
+    },
+    {
+      "name": "ゲートキーパー養成研修の充実",
+      "projectCode": "No.6",
+      "start": 2035,
+      "raw": "ゲートキーパー養成研修の充実",
+      "numberQuote": "No.6 ゲートキーパー養成研修の充実",
+      "numberOffset": 2030,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "ゲートキーパー養成研修の充実",
+          "start": 2035
+        }
+      ]
+    },
+    {
+      "name": "特定保健指導の実施",
+      "projectCode": "No.8",
+      "start": 2108,
+      "raw": "特定保健指導の実施",
+      "numberQuote": "No.8 特定保健指導の実施",
+      "numberOffset": 2103,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "特定保健指導の実施",
+          "start": 2108
+        }
+      ]
+    },
+    {
+      "name": "「はむら健康フェア」の実施",
+      "projectCode": "No.9",
+      "start": 2141,
+      "raw": "「はむら健康フェア」の実施",
+      "numberQuote": "No.9 「はむら健康フェア」の実施",
+      "numberOffset": 2136,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "「はむら健康フェア」の実施",
+          "start": 2141
+        }
+      ]
+    },
+    {
+      "name": "スポーツ体験教室の統合・拡充",
+      "projectCode": "No.11",
+      "start": 2552,
+      "raw": "スポーツ体験教室の統合・拡充",
+      "numberQuote": "No.11 スポーツ体験教室の統合・拡充",
+      "numberOffset": 2546,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "スポーツ体験教室の統合・拡充",
+          "start": 2552
+        }
+      ]
+    },
+    {
+      "name": "「生理の貧困」への支援",
+      "projectCode": "No.12",
+      "start": 2830,
+      "raw": "「生理の貧困」への支援",
+      "numberQuote": "No.12 「生理の貧困」への支援",
+      "numberOffset": 2824,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "「生理の貧困」への支援",
+          "start": 2830
+        }
+      ]
+    },
+    {
+      "name": "市民相談の充実",
+      "projectCode": "No.16",
+      "start": 3063,
+      "raw": "市民相談の充実",
+      "numberQuote": "No.16 市民相談の充実",
+      "numberOffset": 3057,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "市民相談の充実",
+          "start": 3063
+        }
+      ]
+    },
+    {
+      "name": "生活困窮者自立相談支援事業の実施",
+      "projectCode": "No.19",
+      "start": 3237,
+      "raw": "生活困窮者自立相談支援事業の実施",
+      "numberQuote": "No.19 生活困窮者自立相談支援事業の実施",
+      "numberOffset": 3231,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "生活困窮者自立相談支援事業の実施",
+          "start": 3237
+        }
+      ]
+    },
+    {
+      "name": "認知症施策の推進",
+      "projectCode": "No.20",
+      "start": 3286,
+      "raw": "認知症施策の推進",
+      "numberQuote": "No.20 認知症施策の推進",
+      "numberOffset": 3280,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "認知症施策の推進",
+          "start": 3286
+        }
+      ]
+    },
+    {
+      "name": "子どもや若者の育成支援",
+      "projectCode": "No.21",
+      "start": 3327,
+      "raw": "子どもや若者の育成支援",
+      "numberQuote": "No.21 子どもや若者の育成支援",
+      "numberOffset": 3321,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "子どもや若者の育成支援",
+          "start": 3327
+        }
+      ]
+    },
+    {
+      "name": "フードドライブの推進",
+      "projectCode": "No.22",
+      "start": 4000,
+      "raw": "フードドライブの推進",
+      "numberQuote": "No.22 フードドライブの推進",
+      "numberOffset": 3994,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "フードドライブの推進",
+          "start": 4000
+        }
+      ]
+    },
+    {
+      "name": "徘徊高齢者探索サービスの実施",
+      "projectCode": "No.23",
+      "start": 4043,
+      "raw": "徘徊高齢者探索サービスの実施",
+      "numberQuote": "No.23 徘徊高齢者探索サービスの実施",
+      "numberOffset": 4037,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "徘徊高齢者探索サービスの実施",
+          "start": 4043
+        }
+      ]
+    },
+    {
+      "name": "市民提案型協働事業の推進",
+      "projectCode": "No.25",
+      "start": 4288,
+      "raw": "市民提案型協働事業の推進",
+      "numberQuote": "No.25 市民提案型協働事業の推進",
+      "numberOffset": 4282,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "市民提案型協働事業の推進",
+          "start": 4288
+        }
+      ]
+    },
+    {
+      "name": "市民活動団体連携協議会の運営支援",
+      "projectCode": "No.26",
+      "start": 4308,
+      "raw": "市民活動団体連携協議会の運営支援",
+      "numberQuote": "No.26 市民活動団体連携協議会の運営支援",
+      "numberOffset": 4302,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "市民活動団体連携協議会の運営支援",
+          "start": 4308
+        }
+      ]
+    },
+    {
+      "name": "町内会・自治会活動等への支援",
+      "projectCode": "No.27",
+      "start": 4332,
+      "raw": "町内会・自治会活動等への支援",
+      "numberQuote": "No.27 町内会・自治会活動等への支援",
+      "numberOffset": 4326,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "町内会・自治会活動等への支援",
+          "start": 4332
+        }
+      ]
+    },
+    {
+      "name": "高校生等医療費助成事業の実施",
+      "projectCode": "No.29",
+      "start": 5251,
+      "raw": "高校生等医療費助成事業の実施",
+      "numberQuote": "No.29 高校生等医療費助成事業の実施",
+      "numberOffset": 5245,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "高校生等医療費助成事業の実施",
+          "start": 5251
+        }
+      ]
+    },
+    {
+      "name": "ヤングケアラーの支援体制の充実",
+      "projectCode": "No.31",
+      "start": 5340,
+      "raw": "ヤングケアラーの支援体制の充実",
+      "numberQuote": "No.31 ヤングケアラーの支援体制の充実",
+      "numberOffset": 5334,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "ヤングケアラーの支援体制の充実",
+          "start": 5340
+        }
+      ]
+    },
+    {
+      "name": "多胎児家庭の支援の実施",
+      "projectCode": "No.37",
+      "start": 6493,
+      "raw": "多胎児家庭の支援の実施",
+      "numberQuote": "No.37 多胎児家庭の支援の実施",
+      "numberOffset": 6487,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "多胎児家庭の支援の実施",
+          "start": 6493
+        }
+      ]
+    },
+    {
+      "name": "医療的ケア児の受け入れの実施",
+      "projectCode": "No.39",
+      "start": 7277,
+      "raw": "医療的ケア児の受け入れの実施",
+      "numberQuote": "No.39 医療的ケア児の受け入れの実施",
+      "numberOffset": 7271,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "医療的ケア児の受け入れの実施",
+          "start": 7277
+        }
+      ]
+    },
+    {
+      "name": "学童クラブにおける児童育成の充実",
+      "projectCode": "No.42",
+      "start": 7109,
+      "raw": "学童クラブにおける児童育成の充実",
+      "numberQuote": "No.42 学童クラブにおける児童育成の充実",
+      "numberOffset": 7103,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "学童クラブにおける児童育成の充実",
+          "start": 7109
+        }
+      ]
+    },
+    {
+      "name": "放課後子ども教室の開室数の拡充",
+      "projectCode": "No.43",
+      "start": 7158,
+      "raw": "放課後子ども教室の開室数の拡充",
+      "numberQuote": "No.43 放課後子ども教室の開室数の拡充",
+      "numberOffset": 7152,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "放課後子ども教室の開室数の拡充",
+          "start": 7158
+        }
+      ]
+    },
+    {
+      "name": "学校施設の計画的な改修工事の実施",
+      "projectCode": "No.48",
+      "start": 7888,
+      "raw": "学校施設の計画的な改修工事の実施",
+      "numberQuote": "No.48 学校施設の計画的な改修工事の実施",
+      "numberOffset": 7882,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "学校施設の計画的な改修工事の実施",
+          "start": 7888
+        }
+      ]
+    },
+    {
+      "name": "コミュニティ・スクールの導入",
+      "projectCode": "No.50",
+      "start": 7827,
+      "raw": "コミュニティ・スクールの導入",
+      "numberQuote": "No.50 コミュニティ・スクールの導入",
+      "numberOffset": 7821,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "コミュニティ・スクールの導入",
+          "start": 7827
+        }
+      ]
+    },
+    {
+      "name": "部活動の地域連携の推進",
+      "projectCode": "No.51",
+      "start": 9298,
+      "raw": "部活動の地域連携の推進",
+      "numberQuote": "No.51 部活動の地域連携の推進",
+      "numberOffset": 9292,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "部活動の地域連携の推進",
+          "start": 9298
+        }
+      ]
+    },
+    {
+      "name": "ICT機器を活用した教育の推進",
+      "projectCode": "No.54",
+      "start": 8982,
+      "raw": "ICT機器を活用した教育の推進",
+      "numberQuote": "No.54 ICT機器を活用した教育の推進",
+      "numberOffset": 8976,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "ICT機器を活用した教育の推進",
+          "start": 8982
+        }
+      ]
+    },
+    {
+      "name": "特別支援学級の運営",
+      "projectCode": "No.57",
+      "start": 9135,
+      "raw": "特別支援学級の運営",
+      "numberQuote": "No.57 特別支援学級の運営",
+      "numberOffset": 9129,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "特別支援学級の運営",
+          "start": 9135
+        }
+      ]
+    },
+    {
+      "name": "教育相談の実施",
+      "projectCode": "No.58",
+      "start": 9177,
+      "raw": "教育相談の実施",
+      "numberQuote": "No.58 教育相談の実施",
+      "numberOffset": 9171,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "教育相談の実施",
+          "start": 9177
+        }
+      ]
+    },
+    {
+      "name": "ハーモニースクール・はむらの運営",
+      "projectCode": "No.59",
+      "start": 9217,
+      "raw": "ハーモニースクール・はむらの運営",
+      "numberQuote": "No.59 ハーモニースクール・はむらの運営",
+      "numberOffset": 9211,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "ハーモニースクール・はむらの運営",
+          "start": 9217
+        }
+      ]
+    },
+    {
+      "name": "青少年健全育成事業の実施",
+      "projectCode": "No.60",
+      "start": 9334,
+      "raw": "青少年健全育成事業の実施",
+      "numberQuote": "No.60 青少年健全育成事業の実施",
+      "numberOffset": 9328,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "青少年健全育成事業の実施",
+          "start": 9334
+        }
+      ]
+    },
+    {
+      "name": "図書館資料の宅配サービスの実施",
+      "projectCode": "No.62",
+      "start": 9737,
+      "raw": "図書館資料の宅配サービスの実施",
+      "numberQuote": "No.62 図書館資料の宅配サービスの実施",
+      "numberOffset": 9731,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "図書館資料の宅配サービスの実施",
+          "start": 9737
+        }
+      ]
+    },
+    {
+      "name": "雨水浸透施設設置費の助成",
+      "projectCode": "No.76",
+      "start": 13992,
+      "raw": "雨水浸透施設設置費の助成",
+      "numberQuote": "No.76 雨水浸透施設設置費の助成",
+      "numberOffset": 13986,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "雨水浸透施設設置費の助成",
+          "start": 13992
+        }
+      ]
+    },
+    {
+      "name": "自主防災組織への支援",
+      "projectCode": "No.94",
+      "start": 19773,
+      "raw": "自主防災組織への支援",
+      "numberQuote": "No.94 自主防災組織への支援",
+      "numberOffset": 19767,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "自主防災組織への支援",
+          "start": 19773
+        }
+      ]
+    },
+    {
+      "name": "学生消防団活動認証制度の導入",
+      "projectCode": "No.96",
+      "start": 19890,
+      "raw": "学生消防団活動認証制度の導入",
+      "numberQuote": "No.96 学生消防団活動認証制度の導入",
+      "numberOffset": 19884,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "学生消防団活動認証制度の導入",
+          "start": 19890
+        }
+      ]
+    },
+    {
+      "name": "消防自動車（ポンプ車）の更新",
+      "projectCode": "No.97",
+      "start": 19937,
+      "raw": "消防自動車（ポンプ車）の更新",
+      "numberQuote": "No.97 消防自動車（ポンプ車）の更新",
+      "numberOffset": 19931,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "消防自動車（ポンプ車）の更新",
+          "start": 19937
+        }
+      ]
+    },
+    {
+      "name": "消防団員の出動報酬の創設",
+      "projectCode": "No.98",
+      "start": 19989,
+      "raw": "消防団員の出動報酬の創設",
+      "numberQuote": "No.98 消防団員の出動報酬の創設",
+      "numberOffset": 19983,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "消防団員の出動報酬の創設",
+          "start": 19989
+        }
+      ]
+    },
+    {
+      "name": "災害時マンホールトイレの整備",
+      "projectCode": "No.100",
+      "start": 20086,
+      "raw": "災害時マンホールトイレの整備",
+      "numberQuote": "No.100 災害時マンホールトイレの整備",
+      "numberOffset": 20079,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "災害時マンホールトイレの整備",
+          "start": 20086
+        }
+      ]
+    },
+    {
+      "name": "災害時の福祉避難所の実効性の確保",
+      "projectCode": "No.103",
+      "start": 20892,
+      "raw": "災害時の福祉避難所の実効性の確保",
+      "numberQuote": "No.103 災害時の福祉避難所の実効性の確保",
+      "numberOffset": 20885,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "災害時の福祉避難所の実効性の確保",
+          "start": 20892
+        }
+      ]
+    },
+    {
+      "name": "新型コロナウイルス感染症への対応",
+      "projectCode": "No.106",
+      "start": 21529,
+      "raw": "新型コロナウイルス感染症への対応",
+      "numberQuote": "No.106 新型コロナウイルス感染症への対応",
+      "numberOffset": 21522,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024,
+      "fragments": [
+        {
+          "raw": "新型コロナウイルス感染症への対応",
+          "start": 21529
+        }
+      ]
+    },
+    {
+      "name": "東京都パートナーシップ宣誓制度との連携・多様な性への理解を深めるための取組みの推進",
+      "projectCode": "No.1",
+      "start": 257,
+      "raw": "東京都パートナーシップ宣誓制度との連",
+      "fragments": [
+        {
+          "raw": "東京都パートナーシップ宣誓制度との連",
+          "start": 257
+        },
+        {
+          "raw": "携・多様な性への理解を深めるための取組み",
+          "start": 282
+        },
+        {
+          "raw": "の推進",
+          "start": 309
+        }
+      ],
+      "numberQuote": "No.1 東京都パートナーシップ宣誓制度との連",
+      "numberOffset": 252,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "子宮頸がん（HPV）ワクチン予防接種の積極的な勧奨",
+      "projectCode": "No.10",
+      "start": 2187,
+      "raw": "子宮頸がん（HPV）ワクチン予防接種",
+      "fragments": [
+        {
+          "raw": "子宮頸がん（HPV）ワクチン予防接種",
+          "start": 2187
+        },
+        {
+          "raw": "の積極的な勧奨",
+          "start": 2206
+        }
+      ],
+      "numberQuote": "No.10 子宮頸がん（HPV）ワクチン予防接種",
+      "numberOffset": 2181,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "精神障害にも対応した地域包括ケアシステムに関する協議の場の設置",
+      "projectCode": "No.13",
+      "start": 2855,
+      "raw": "精神障害にも対応した地域包括ケアシ",
+      "fragments": [
+        {
+          "raw": "精神障害にも対応した地域包括ケアシ",
+          "start": 2855
+        },
+        {
+          "raw": "ステムに関する協議の場の設置",
+          "start": 2873
+        }
+      ],
+      "numberQuote": "No.13 精神障害にも対応した地域包括ケアシ",
+      "numberOffset": 2849,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "障害福祉サービス費等の審査業務の効率化等の推進",
+      "projectCode": "No.14",
+      "start": 2945,
+      "raw": "障害福祉サービス費等の審査業務の効",
+      "fragments": [
+        {
+          "raw": "障害福祉サービス費等の審査業務の効",
+          "start": 2945
+        },
+        {
+          "raw": "率化等の推進",
+          "start": 2963
+        }
+      ],
+      "numberQuote": "No.14 障害福祉サービス費等の審査業務の効",
+      "numberOffset": 2939,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "介護サービス事業所向け人材育成の支援",
+      "projectCode": "No.15",
+      "start": 3002,
+      "raw": "介護サービス事業所向け人材育成の支",
+      "fragments": [
+        {
+          "raw": "介護サービス事業所向け人材育成の支",
+          "start": 3002
+        },
+        {
+          "raw": "援",
+          "start": 3020
+        }
+      ],
+      "numberQuote": "No.15 介護サービス事業所向け人材育成の支",
+      "numberOffset": 2996,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "住民税非課税世帯等に対する電気・ガス・食料品等価格高騰重点支援給付金支給事業（仮称）の実施",
+      "projectCode": "No.17",
+      "start": 3103,
+      "raw": "住民税非課税世帯等に対する電気・ガ",
+      "fragments": [
+        {
+          "raw": "住民税非課税世帯等に対する電気・ガ",
+          "start": 3103
+        },
+        {
+          "raw": "ス・食料品等価格高騰重点支援給付金支給事",
+          "start": 3121
+        },
+        {
+          "raw": "業（仮称）の実施",
+          "start": 3142
+        }
+      ],
+      "numberQuote": "No.17 住民税非課税世帯等に対する電気・ガ",
+      "numberOffset": 3097,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "民生・児童委員（社会福祉委員）活動の支援",
+      "projectCode": "No.18",
+      "start": 3183,
+      "raw": "民生・児童委員（社会福祉委員）活動",
+      "fragments": [
+        {
+          "raw": "民生・児童委員（社会福祉委員）活動",
+          "start": 3183
+        },
+        {
+          "raw": "の支援",
+          "start": 3201
+        }
+      ],
+      "numberQuote": "No.18 民生・児童委員（社会福祉委員）活動",
+      "numberOffset": 3177,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "幼稚園等の利用に関する認定申請手続きの電子化",
+      "projectCode": "No.28",
+      "start": 5198,
+      "raw": "幼稚園等の利用に関する認定申請手続",
+      "fragments": [
+        {
+          "raw": "幼稚園等の利用に関する認定申請手続",
+          "start": 5198
+        },
+        {
+          "raw": "きの電子化",
+          "start": 5221
+        }
+      ],
+      "numberQuote": "No.28 幼稚園等の利用に関する認定申請手続",
+      "numberOffset": 5192,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "妊婦健康診査の公費負担が受けられる実施機関の拡充",
+      "projectCode": "No.30",
+      "start": 5290,
+      "raw": "妊婦健康診査の公費負担が受けられる",
+      "fragments": [
+        {
+          "raw": "妊婦健康診査の公費負担が受けられる",
+          "start": 5290
+        },
+        {
+          "raw": "実施機関の拡充",
+          "start": 5308
+        }
+      ],
+      "numberQuote": "No.30 妊婦健康診査の公費負担が受けられる",
+      "numberOffset": 5284,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "出産・子育て応援事業（伴走型相談支援・経済的支援）の実施",
+      "projectCode": "No.32",
+      "start": 5380,
+      "raw": "出産・子育て応援事業（伴走型相談支",
+      "fragments": [
+        {
+          "raw": "出産・子育て応援事業（伴走型相談支",
+          "start": 5380
+        },
+        {
+          "raw": "援・経済的支援）の実施",
+          "start": 5398
+        }
+      ],
+      "numberQuote": "No.32 出産・子育て応援事業（伴走型相談支",
+      "numberOffset": 5374,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "幼稚園・保育園等における子どもの安全・安心を確保するための取組みの実施",
+      "projectCode": "No.33",
+      "start": 6252,
+      "raw": "幼稚園・保育園等における子どもの安",
+      "fragments": [
+        {
+          "raw": "幼稚園・保育園等における子どもの安",
+          "start": 6252
+        },
+        {
+          "raw": "全・安心を確保するための取組みの実施",
+          "start": 6270
+        }
+      ],
+      "numberQuote": "No.33 幼稚園・保育園等における子どもの安",
+      "numberOffset": 6246,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "新たなこども・子育て政策の検討・実施",
+      "projectCode": "No.34",
+      "start": 6321,
+      "raw": "新たなこども・子育て政策の検討・実",
+      "fragments": [
+        {
+          "raw": "新たなこども・子育て政策の検討・実",
+          "start": 6321
+        },
+        {
+          "raw": "施",
+          "start": 6339
+        }
+      ],
+      "numberQuote": "No.34 新たなこども・子育て政策の検討・実",
+      "numberOffset": 6315,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "妊婦健康診査（超音波検査）の公費負担の拡充",
+      "projectCode": "No.35",
+      "start": 6373,
+      "raw": "妊婦健康診査（超音波検査）の公費負",
+      "fragments": [
+        {
+          "raw": "妊婦健康診査（超音波検査）の公費負",
+          "start": 6373
+        },
+        {
+          "raw": "担の拡充",
+          "start": 6391
+        }
+      ],
+      "numberQuote": "No.35 妊婦健康診査（超音波検査）の公費負",
+      "numberOffset": 6367,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "多言語通訳システムを活用した子育て相談の実施",
+      "projectCode": "No.36",
+      "start": 6437,
+      "raw": "多言語通訳システムを活用した子育て",
+      "fragments": [
+        {
+          "raw": "多言語通訳システムを活用した子育て",
+          "start": 6437
+        },
+        {
+          "raw": "相談の実施",
+          "start": 6455
+        }
+      ],
+      "numberQuote": "No.36 多言語通訳システムを活用した子育て",
+      "numberOffset": 6431,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "3歳児健康診査における視覚検査の実施",
+      "projectCode": "No.38",
+      "start": 6546,
+      "raw": "3歳児健康診査における視覚検査の実",
+      "fragments": [
+        {
+          "raw": "3歳児健康診査における視覚検査の実",
+          "start": 6546
+        },
+        {
+          "raw": "施",
+          "start": 6564
+        }
+      ],
+      "numberQuote": "No.38 3歳児健康診査における視覚検査の実",
+      "numberOffset": 6540,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "学童クラブ入所申請手続きの電子化の実施",
+      "projectCode": "No.41",
+      "start": 7056,
+      "raw": "学童クラブ入所申請手続きの電子化の",
+      "fragments": [
+        {
+          "raw": "学童クラブ入所申請手続きの電子化の",
+          "start": 7056
+        },
+        {
+          "raw": "実施",
+          "start": 7074
+        }
+      ],
+      "numberQuote": "No.41 学童クラブ入所申請手続きの電子化の",
+      "numberOffset": 7050,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "幼稚園・保育園・小学校連携推進懇談会の運営",
+      "projectCode": "No.44",
+      "start": 7215,
+      "raw": "幼稚園・保育園・小学校連携推進懇談",
+      "fragments": [
+        {
+          "raw": "幼稚園・保育園・小学校連携推進懇談",
+          "start": 7215
+        },
+        {
+          "raw": "会の運営",
+          "start": 7233
+        }
+      ],
+      "numberQuote": "No.44 幼稚園・保育園・小学校連携推進懇談",
+      "numberOffset": 7209,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "学校施設内における学童クラブ運営のモデル実施",
+      "projectCode": "No.40",
+      "start": 7316,
+      "raw": "学校施設内における学童クラブ運営の",
+      "fragments": [
+        {
+          "raw": "学校施設内における学童クラブ運営の",
+          "start": 7316
+        },
+        {
+          "raw": "モデル実施",
+          "start": 7334
+        }
+      ],
+      "numberQuote": "No.40 学校施設内における学童クラブ運営の",
+      "numberOffset": 7310,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "連携アドバイザーの活用による学童クラブ運営の充実",
+      "projectCode": "No.45",
+      "start": 7567,
+      "raw": "連携アドバイザーの活用による学童ク",
+      "fragments": [
+        {
+          "raw": "連携アドバイザーの活用による学童ク",
+          "start": 7567
+        },
+        {
+          "raw": "ラブ運営の充実",
+          "start": 7585
+        }
+      ],
+      "numberQuote": "No.45 連携アドバイザーの活用による学童ク",
+      "numberOffset": 7561,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "幼稚園型一時預かり事業における特別支援加算の導入",
+      "projectCode": "No.46",
+      "start": 7628,
+      "raw": "幼稚園型一時預かり事業における特別",
+      "fragments": [
+        {
+          "raw": "幼稚園型一時預かり事業における特別",
+          "start": 7628
+        },
+        {
+          "raw": "支援加算の導入",
+          "start": 7646
+        }
+      ],
+      "numberQuote": "No.46 幼稚園型一時預かり事業における特別",
+      "numberOffset": 7622,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "幼稚園等における送迎バス等への安全対策の実施",
+      "projectCode": "No.47",
+      "start": 7686,
+      "raw": "幼稚園等における送迎バス等への安全",
+      "fragments": [
+        {
+          "raw": "幼稚園等における送迎バス等への安全",
+          "start": 7686
+        },
+        {
+          "raw": "対策の実施",
+          "start": 7704
+        }
+      ],
+      "numberQuote": "No.47 幼稚園等における送迎バス等への安全",
+      "numberOffset": 7680,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "スイミングセンターを活用した小学校水泳授業の試行実施",
+      "projectCode": "No.49",
+      "start": 7767,
+      "raw": "スイミングセンターを活用した小学校",
+      "fragments": [
+        {
+          "raw": "スイミングセンターを活用した小学校",
+          "start": 7767
+        },
+        {
+          "raw": "水泳授業の試行実施",
+          "start": 7785
+        }
+      ],
+      "numberQuote": "No.49 スイミングセンターを活用した小学校",
+      "numberOffset": 7761,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "特別支援教室における指導期間延長のための発達検査の実施",
+      "projectCode": "No.52",
+      "start": 8856,
+      "raw": "特別支援教室における指導期間延長の",
+      "fragments": [
+        {
+          "raw": "特別支援教室における指導期間延長の",
+          "start": 8856
+        },
+        {
+          "raw": "ための発達検査の実施",
+          "start": 8874
+        }
+      ],
+      "numberQuote": "No.52 特別支援教室における指導期間延長の",
+      "numberOffset": 8850,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "不登校及び不登校傾向の児童・生徒の校内別室指導による支援の充実",
+      "projectCode": "No.53",
+      "start": 8917,
+      "raw": "不登校及び不登校傾向の児童・生徒の",
+      "fragments": [
+        {
+          "raw": "不登校及び不登校傾向の児童・生徒の",
+          "start": 8917
+        },
+        {
+          "raw": "校内別室指導による支援の充実",
+          "start": 8935
+        }
+      ],
+      "numberQuote": "No.53 不登校及び不登校傾向の児童・生徒の",
+      "numberOffset": 8911,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "家庭と子どもの支援員による支援の実施",
+      "projectCode": "No.55",
+      "start": 9030,
+      "raw": "家庭と子どもの支援員による支援の実",
+      "fragments": [
+        {
+          "raw": "家庭と子どもの支援員による支援の実",
+          "start": 9030
+        },
+        {
+          "raw": "施",
+          "start": 9048
+        }
+      ],
+      "numberQuote": "No.55 家庭と子どもの支援員による支援の実",
+      "numberOffset": 9024,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "いじめ、虐待から命を守る取組みの推進",
+      "projectCode": "No.56",
+      "start": 9082,
+      "raw": "いじめ、虐待から命を守る取組みの推",
+      "fragments": [
+        {
+          "raw": "いじめ、虐待から命を守る取組みの推",
+          "start": 9082
+        },
+        {
+          "raw": "進",
+          "start": 9109
+        }
+      ],
+      "numberQuote": "No.56 いじめ、虐待から命を守る取組みの推",
+      "numberOffset": 9076,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "学校での市図書館所蔵資料返却の試行実施",
+      "projectCode": "No.61",
+      "start": 9680,
+      "raw": "学校での市図書館所蔵資料返却の試行",
+      "fragments": [
+        {
+          "raw": "学校での市図書館所蔵資料返却の試行",
+          "start": 9680
+        },
+        {
+          "raw": "実施",
+          "start": 9704
+        }
+      ],
+      "numberQuote": "No.61 学校での市図書館所蔵資料返却の試行",
+      "numberOffset": 9674,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "セカンドブックスタート事業（啓発）等の実施",
+      "projectCode": "No.63",
+      "start": 9777,
+      "raw": "セカンドブックスタート事業（啓発）",
+      "fragments": [
+        {
+          "raw": "セカンドブックスタート事業（啓発）",
+          "start": 9777
+        },
+        {
+          "raw": "等の実施",
+          "start": 9795
+        }
+      ],
+      "numberQuote": "No.63 セカンドブックスタート事業（啓発）",
+      "numberOffset": 9771,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "YA(ヤングアダルト)世代の読書習慣の定着支援",
+      "projectCode": "No.64",
+      "start": 9824,
+      "raw": "YA(ヤングアダルト)世代の読書習慣の",
+      "fragments": [
+        {
+          "raw": "YA(ヤングアダルト)世代の読書習慣の",
+          "start": 9824
+        },
+        {
+          "raw": "定着支援",
+          "start": 9844
+        }
+      ],
+      "numberQuote": "No.64 YA(ヤングアダルト)世代の読書習慣の",
+      "numberOffset": 9818,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "スポーツによる地域コミュニティの醸成",
+      "projectCode": "No.65",
+      "start": 9899,
+      "raw": "スポーツによる地域コミュニティの醸",
+      "fragments": [
+        {
+          "raw": "スポーツによる地域コミュニティの醸",
+          "start": 9899
+        },
+        {
+          "raw": "成",
+          "start": 9926
+        }
+      ],
+      "numberQuote": "No.65 スポーツによる地域コミュニティの醸",
+      "numberOffset": 9893,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "公共建築物の計画的な改修工事等の実施",
+      "projectCode": "No.79",
+      "start": 14392,
+      "raw": "公共建築物の計画的な改修工事等の実",
+      "fragments": [
+        {
+          "raw": "公共建築物の計画的な改修工事等の実",
+          "start": 14392
+        },
+        {
+          "raw": "施",
+          "start": 14419
+        }
+      ],
+      "numberQuote": "No.79 公共建築物の計画的な改修工事等の実",
+      "numberOffset": 14386,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "施設の計画的な更新・改修",
+      "projectCode": "No.75",
+      "start": 13947,
+      "raw": "施設の計画的な更新・改修",
+      "fragments": [
+        {
+          "raw": "施設の計画的な更新・改修",
+          "start": 13947
+        }
+      ],
+      "numberQuote": "No.75 施設の計画的な更新・改修",
+      "numberOffset": 13941,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "多摩川河川敷と水上公園の活用（（仮称）多摩川羽村堰周辺公園整備事業）",
+      "projectCode": "No.80",
+      "start": 14445,
+      "raw": "多摩川河川敷と水上公園の活用（（仮",
+      "fragments": [
+        {
+          "raw": "多摩川河川敷と水上公園の活用（（仮",
+          "start": 14445
+        },
+        {
+          "raw": "称）多摩川羽村堰周辺公園整備事業）",
+          "start": 14472
+        }
+      ],
+      "numberQuote": "No.80 多摩川河川敷と水上公園の活用（（仮",
+      "numberOffset": 14439,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "消防団員への準中型自動車運転免許取得費の補助",
+      "projectCode": "No.95",
+      "start": 19809,
+      "raw": "消防団員への準中型自動車運転免許取",
+      "fragments": [
+        {
+          "raw": "消防団員への準中型自動車運転免許取",
+          "start": 19809
+        },
+        {
+          "raw": "得費の補助",
+          "start": 19827
+        }
+      ],
+      "numberQuote": "No.95 消防団員への準中型自動車運転免許取",
+      "numberOffset": 19803,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    },
+    {
+      "name": "那賀排水樋管ゲートの電動化改良に向けた実施設計",
+      "projectCode": "No.101",
+      "start": 20134,
+      "raw": "那賀排水樋管ゲートの電動化改良に",
+      "fragments": [
+        {
+          "raw": "那賀排水樋管ゲートの電動化改良に",
+          "start": 20134
+        },
+        {
+          "raw": "向けた実施設計",
+          "start": 20151
+        }
+      ],
+      "numberQuote": "No.101 那賀排水樋管ゲートの電動化改良に",
+      "numberOffset": 20127,
+      "yearQuote": "令和6年度行政評価結果概要一覧（内部評価（事後評価）及び外部評価）",
+      "yearOffset": 0,
+      "evaluationYear": 2024
+    }
+  ]
+};

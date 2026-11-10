@@ -1,0 +1,875 @@
+{
+  "sourceId": "a8a825dd44973f4d66efcce7",
+  "reviewedNumberedUnits": 106,
+  "candidateProposals": 74,
+  "scope": "Named-unit identity review only; no target-year or numerical-column completeness claim",
+  "rows": [
+    {
+      "code": 1,
+      "name": "東京都パートナーシップ宣誓制度との連携・多様な性への理解を深めるための取組みの推進",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 2,
+      "name": "男女共同参画の推進",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-729ba6906bc0d07907881a86"
+      ],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 3,
+      "name": "多文化共生の推進",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 4,
+      "name": "平和な未来の創造",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 5,
+      "name": "フレイル予防事業の充実",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-a80bbe3b1841d0ddbd541c75"
+      ],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 6,
+      "name": "ゲートキーパー養成研修の充実",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 7,
+      "name": "協定保養施設の利用助成",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-bd4c9faa3d39d5bc83080852"
+      ],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 8,
+      "name": "特定保健指導の実施",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 9,
+      "name": "「はむら健康フェア」の実施",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 10,
+      "name": "子宮頸がん（HPV）ワクチン予防接種の積極的な勧奨",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 11,
+      "name": "スポーツ体験教室の統合・拡充",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 12,
+      "name": "「生理の貧困」への支援",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 13,
+      "name": "精神障害にも対応した地域包括ケアシステムに関する協議の場の設置",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 14,
+      "name": "障害福祉サービス費等の審査業務の効率化等の推進",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 15,
+      "name": "介護サービス事業所向け人材育成の支援",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 16,
+      "name": "市民相談の充実",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 17,
+      "name": "住民税非課税世帯等に対する電気・ガス・食料品等価格高騰重点支援給付金支給事業（仮称）の実施",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 18,
+      "name": "民生・児童委員（社会福祉委員）活動の支援",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 19,
+      "name": "生活困窮者自立相談支援事業の実施",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 20,
+      "name": "認知症施策の推進",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 21,
+      "name": "子どもや若者の育成支援",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 22,
+      "name": "フードドライブの推進",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 23,
+      "name": "徘徊高齢者探索サービスの実施",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 24,
+      "name": "市民活動の促進",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-21387ddecb312dacc10e2306"
+      ],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 25,
+      "name": "市民提案型協働事業の推進",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 26,
+      "name": "市民活動団体連携協議会の運営支援",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 27,
+      "name": "町内会・自治会活動等への支援",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 28,
+      "name": "幼稚園等の利用に関する認定申請手続きの電子化",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 29,
+      "name": "高校生等医療費助成事業の実施",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 30,
+      "name": "妊婦健康診査の公費負担が受けられる実施機関の拡充",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 31,
+      "name": "ヤングケアラーの支援体制の充実",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 32,
+      "name": "出産・子育て応援事業（伴走型相談支援・経済的支援）の実施",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 33,
+      "name": "幼稚園・保育園等における子どもの安全・安心を確保するための取組みの実施",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 34,
+      "name": "新たなこども・子育て政策の検討・実施",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 35,
+      "name": "妊婦健康診査（超音波検査）の公費負担の拡充",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 36,
+      "name": "多言語通訳システムを活用した子育て相談の実施",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 37,
+      "name": "多胎児家庭の支援の実施",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 38,
+      "name": "3歳児健康診査における視覚検査の実施",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 39,
+      "name": "医療的ケア児の受け入れの実施",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 40,
+      "name": "学校施設内における学童クラブ運営のモデル実施",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 41,
+      "name": "学童クラブ入所申請手続きの電子化の実施",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 42,
+      "name": "学童クラブにおける児童育成の充実",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 43,
+      "name": "放課後子ども教室の開室数の拡充",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 44,
+      "name": "幼稚園・保育園・小学校連携推進懇談会の運営",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 45,
+      "name": "連携アドバイザーの活用による学童クラブ運営の充実",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 46,
+      "name": "幼稚園型一時預かり事業における特別支援加算の導入",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 47,
+      "name": "幼稚園等における送迎バス等への安全対策の実施",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 48,
+      "name": "学校施設の計画的な改修工事の実施",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 49,
+      "name": "スイミングセンターを活用した小学校水泳授業の試行実施",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 50,
+      "name": "コミュニティ・スクールの導入",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 51,
+      "name": "部活動の地域連携の推進",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 52,
+      "name": "特別支援教室における指導期間延長のための発達検査の実施",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 53,
+      "name": "不登校及び不登校傾向の児童・生徒の校内別室指導による支援の充実",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 54,
+      "name": "ICT機器を活用した教育の推進",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 55,
+      "name": "家庭と子どもの支援員による支援の実施",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 56,
+      "name": "いじめ、虐待から命を守る取組みの推進",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 57,
+      "name": "特別支援学級の運営",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 58,
+      "name": "教育相談の実施",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 59,
+      "name": "ハーモニースクール・はむらの運営",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 60,
+      "name": "青少年健全育成事業の実施",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 61,
+      "name": "学校での市図書館所蔵資料返却の試行実施",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 62,
+      "name": "図書館資料の宅配サービスの実施",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 63,
+      "name": "セカンドブックスタート事業（啓発）等の実施",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 64,
+      "name": "YA(ヤングアダルト)世代の読書習慣の定着支援",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 65,
+      "name": "スポーツによる地域コミュニティの醸成",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 66,
+      "name": "羽村駅西口土地区画整理事業の実施",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-9d3df57a9632a19453015939"
+      ],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 67,
+      "name": "市道改修等工事などの実施",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-8a52eee8ad74f90cd9f50454"
+      ],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 68,
+      "name": "街路照明灯の整備",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-1ee6dc40e8658188c32d8a72"
+      ],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 69,
+      "name": "分流式下水道（汚水管）における雨天時浸入水対策",
+      "status": "existing_full_sheet_record",
+      "existingIds": [
+        "cached-13227-db04eac52a03d56a0d5e0c74"
+      ],
+      "reason": "Already present as evaluation2024/target2023 complete individual sheet; preserved unchanged."
+    },
+    {
+      "code": 70,
+      "name": "下水道施設の長寿命化",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-d11fbc5618f2fd47e4bc3ad3"
+      ],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 71,
+      "name": "水道管路の整備",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-b8d80c320aeaa4355141d119"
+      ],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 72,
+      "name": "宅地開発等指導要綱による宅地開発事業の規制及び誘導",
+      "status": "existing_full_sheet_record",
+      "existingIds": [
+        "cached-13227-c38bc4238b0a5c1482041014"
+      ],
+      "reason": "Already present as evaluation2024/target2023 complete individual sheet; preserved unchanged."
+    },
+    {
+      "code": 73,
+      "name": "コミュニティバスはむらん運行の充実",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-0a923b9daef4eded87826ecb"
+      ],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 74,
+      "name": "マンションの適正な管理の促進",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-dcdd1bbf8c750e03def52e29"
+      ],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 75,
+      "name": "施設の計画的な更新・改修",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 76,
+      "name": "雨水浸透施設設置費の助成",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 77,
+      "name": "動物公園の管理運営の充実",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-b340d225810a882cb3775728"
+      ],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 78,
+      "name": "指定管理者制度の導入による公園、児童遊園の管理運営",
+      "status": "existing_full_sheet_record",
+      "existingIds": [
+        "cached-13227-4041f52af4f12ba84bf30e65"
+      ],
+      "reason": "Already present as evaluation2024/target2023 complete individual sheet; preserved unchanged."
+    },
+    {
+      "code": 79,
+      "name": "公共建築物の計画的な改修工事等の実施",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 80,
+      "name": "多摩川河川敷と水上公園の活用（（仮称）多摩川羽村堰周辺公園整備事業）",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 81,
+      "name": "電子申請等行政手続きのオンライン化の推進",
+      "status": "existing_full_sheet_record",
+      "existingIds": [
+        "cached-13227-3afa4a69241df075c80de6cf"
+      ],
+      "reason": "Already present as evaluation2024/target2023 complete individual sheet; preserved unchanged."
+    },
+    {
+      "code": 82,
+      "name": "スマホ教室の実施",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-ee0ed330ff83a845beb376fc"
+      ],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 83,
+      "name": "資源リサイクル情報のデジタル化の充実",
+      "status": "existing_full_sheet_record",
+      "existingIds": [
+        "cached-13227-dd6a9560e58a53a204ad2ed3"
+      ],
+      "reason": "Already present as evaluation2024/target2023 complete individual sheet; preserved unchanged."
+    },
+    {
+      "code": 84,
+      "name": "リサイクルセンターの機能の維持管理",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-33fb4ce2764d4e174cc7d074"
+      ],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 85,
+      "name": "ごみの減量と資源化の推進",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-32cc1593448037acfc24bc3a"
+      ],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 86,
+      "name": "リユースの推進(協定に基づくリサイクル品の販売)",
+      "status": "existing_full_sheet_record",
+      "existingIds": [
+        "cached-13227-5a291258ba9edd35ec0b10f7"
+      ],
+      "reason": "Already present as evaluation2024/target2023 complete individual sheet; preserved unchanged."
+    },
+    {
+      "code": 87,
+      "name": "外来生物による生態系等への被害防止対策の実施",
+      "status": "existing_full_sheet_record",
+      "existingIds": [
+        "cached-13227-71ded0bb585d60b1fa3099d6"
+      ],
+      "reason": "Already present as evaluation2024/target2023 complete individual sheet; preserved unchanged."
+    },
+    {
+      "code": 88,
+      "name": "自然環境学習の実施",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-080e74323435d7a74959f719"
+      ],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 89,
+      "name": "省エネルギー、再生可能エネルギーの利用促進",
+      "status": "existing_full_sheet_record",
+      "existingIds": [
+        "cached-13227-a0f550e5fbbd082f92c58a83"
+      ],
+      "reason": "Already present as evaluation2024/target2023 complete individual sheet; preserved unchanged."
+    },
+    {
+      "code": 90,
+      "name": "企業誘致の促進",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-99abb8d959bfaf84239a63c4"
+      ],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 91,
+      "name": "農業委員会サポートシステムの導入",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-f9e59201a88d4cc99b2ad3e4"
+      ],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 92,
+      "name": "生産緑地の維持・保全",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-18c5c8fe19fd69c4065aa162"
+      ],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 93,
+      "name": "新しい生活様式に沿った「市民まつり（仮称）」の実施",
+      "status": "existing_full_sheet_record",
+      "existingIds": [
+        "cached-13227-2eed59795236570b89a937ed"
+      ],
+      "reason": "Already present as evaluation2024/target2023 complete individual sheet; preserved unchanged."
+    },
+    {
+      "code": 94,
+      "name": "自主防災組織への支援",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 95,
+      "name": "消防団員への準中型自動車運転免許取得費の補助",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 96,
+      "name": "学生消防団活動認証制度の導入",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 97,
+      "name": "消防自動車（ポンプ車）の更新",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 98,
+      "name": "消防団員の出動報酬の創設",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 99,
+      "name": "市道第2002号線無電柱化事業の実施",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-60f38b4ab796fd7f2d2ca4c6"
+      ],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 100,
+      "name": "災害時マンホールトイレの整備",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 101,
+      "name": "那賀排水樋管ゲートの電動化改良に向けた実施設計",
+      "status": "proposed",
+      "existingIds": [],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 102,
+      "name": "避難行動要支援者個別避難計画の作成",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-b221c2663b1d97ba009b183c"
+      ],
+      "reason": "Explicit title fragments; removed only adjacent direction/rating cells after manual context review. Target fiscal year remains unknown."
+    },
+    {
+      "code": 103,
+      "name": "災害時の福祉避難所の実効性の確保",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 104,
+      "name": "消費生活相談の充実",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-33a6fb4546d70e546f4f127a"
+      ],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 105,
+      "name": "横田基地対策の推進",
+      "status": "existing_or_period_unknown_hold",
+      "existingIds": [
+        "cached-13227-57212f5eeeb567b1feb795f3"
+      ],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    },
+    {
+      "code": 106,
+      "name": "新型コロナウイルス感染症への対応",
+      "status": "proposed",
+      "existingIds": [],
+      "targetFiscalYear": null,
+      "reason": "Only evaluation year2024 is explicit in this summary; target fiscal year is not inferred from adjacent documents. Existing ambiguous same-name/year identities remain preserved."
+    }
+  ]
+}
