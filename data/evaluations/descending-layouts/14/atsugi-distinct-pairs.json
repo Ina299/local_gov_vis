@@ -1,0 +1,319 @@
+[
+  {
+    "oldId": "cached-14212-a8a2df5cad90bf5b5706405d",
+    "newId": "cached-14212-b32fb3566f2808131eb99ad3",
+    "oldHash": "c1142985204e18b813ea7c559e5c4279910859ec5b845aa7017ef0a75379f68f",
+    "newHash": "04bb96f8031d05d937febee4ff1256a1f01ca09f14f8a6756229845199849d27",
+    "oldDepartment": "福祉総合支援課",
+    "newDepartment": "地域包括ケア推進課",
+    "evaluationYear": 2025,
+    "sourceSha256": "80be2760a20a79b43cc9c80fb03827d436fea55d789f157aebbd61a2a129f181",
+    "oldEvidence": [
+      {
+        "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r7.pdf",
+        "sourcePageUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r7.pdf",
+        "format": "pdf",
+        "fetchedAt": "2026-10-21T03:21:14.522Z",
+        "sha256": "80be2760a20a79b43cc9c80fb03827d436fea55d789f157aebbd61a2a129f181",
+        "rawText": "34 市民福祉部\n\n福祉総合支援課\n\n任意事業費\n\n100\n\n継続\n\n100\n\n現行どおり\n",
+        "page": null,
+        "sheet": null,
+        "cell": "extracted-text:chars:7490-7536"
+      }
+    ],
+    "newEvidence": [
+      {
+        "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r7.pdf",
+        "sourcePageUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r7.pdf",
+        "format": "pdf",
+        "fetchedAt": "2026-10-21T03:21:14.522Z",
+        "sha256": "80be2760a20a79b43cc9c80fb03827d436fea55d789f157aebbd61a2a129f181",
+        "rawText": "任意事業費",
+        "page": null,
+        "sheet": null,
+        "cell": "extracted-text:chars:8156-8161"
+      },
+      {
+        "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r7.pdf",
+        "sourcePageUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r7.pdf",
+        "format": "pdf",
+        "fetchedAt": "2026-10-21T03:21:14.522Z",
+        "sha256": "80be2760a20a79b43cc9c80fb03827d436fea55d789f157aebbd61a2a129f181",
+        "rawText": "45 市民福祉部\n\n地域包括ケア推進\n任意事業費\n課",
+        "page": null,
+        "sheet": null,
+        "cell": "extracted-text:chars:8137-8163"
+      },
+      {
+        "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r7.pdf",
+        "sourcePageUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r7.pdf",
+        "format": "pdf",
+        "fetchedAt": "2026-10-21T03:21:14.522Z",
+        "sha256": "80be2760a20a79b43cc9c80fb03827d436fea55d789f157aebbd61a2a129f181",
+        "rawText": "令和７年度",
+        "page": null,
+        "sheet": null,
+        "cell": "extracted-text:chars:0-5"
+      }
+    ],
+    "reason": "Same-year same-name projects are explicitly separate departmental rows in the same verified official table. Exact record hashes and IDs only; old values unchanged."
+  },
+  {
+    "oldId": "cached-14212-8a89ed606d95dab46f5e2eb9",
+    "newId": "cached-14212-b32fb3566f2808131eb99ad3",
+    "oldHash": "09f388891a97c732f4a791376414f0638376d4c0ff27994aad799282fd6c2625",
+    "newHash": "04bb96f8031d05d937febee4ff1256a1f01ca09f14f8a6756229845199849d27",
+    "oldDepartment": "介護福祉課",
+    "newDepartment": "地域包括ケア推進課",
+    "evaluationYear": 2025,
+    "sourceSha256": "80be2760a20a79b43cc9c80fb03827d436fea55d789f157aebbd61a2a129f181",
+    "oldEvidence": [
+      {
+        "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r7.pdf",
+        "sourcePageUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r7.pdf",
+        "format": "pdf",
+        "fetchedAt": "2026-10-21T03:21:14.522Z",
+        "sha256": "80be2760a20a79b43cc9c80fb03827d436fea55d789f157aebbd61a2a129f181",
+        "rawText": "68 市民福祉部\n\n介護福祉課\n\n任意事業費\n\n100\n\n継続\n\n88\n\n要改善\n",
+        "page": null,
+        "sheet": null,
+        "cell": "extracted-text:chars:9649-9690"
+      }
+    ],
+    "newEvidence": [
+      {
+        "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r7.pdf",
+        "sourcePageUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r7.pdf",
+        "format": "pdf",
+        "fetchedAt": "2026-10-21T03:21:14.522Z",
+        "sha256": "80be2760a20a79b43cc9c80fb03827d436fea55d789f157aebbd61a2a129f181",
+        "rawText": "任意事業費",
+        "page": null,
+        "sheet": null,
+        "cell": "extracted-text:chars:8156-8161"
+      },
+      {
+        "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r7.pdf",
+        "sourcePageUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r7.pdf",
+        "format": "pdf",
+        "fetchedAt": "2026-10-21T03:21:14.522Z",
+        "sha256": "80be2760a20a79b43cc9c80fb03827d436fea55d789f157aebbd61a2a129f181",
+        "rawText": "45 市民福祉部\n\n地域包括ケア推進\n任意事業費\n課",
+        "page": null,
+        "sheet": null,
+        "cell": "extracted-text:chars:8137-8163"
+      },
+      {
+        "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r7.pdf",
+        "sourcePageUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r7.pdf",
+        "format": "pdf",
+        "fetchedAt": "2026-10-21T03:21:14.522Z",
+        "sha256": "80be2760a20a79b43cc9c80fb03827d436fea55d789f157aebbd61a2a129f181",
+        "rawText": "令和７年度",
+        "page": null,
+        "sheet": null,
+        "cell": "extracted-text:chars:0-5"
+      }
+    ],
+    "reason": "Same-year same-name projects are explicitly separate departmental rows in the same verified official table. Exact record hashes and IDs only; old values unchanged."
+  },
+  {
+    "oldId": "cached-14212-0bad5bfe6c86085e78140482",
+    "newId": "cached-14212-44886f8fa7dc95523f1340ae",
+    "oldHash": "65957373edcb0c2dc4b10d964835767609d8aeb059cedc46a1a85d8fc396af43",
+    "newHash": "82db6d344e1453f3c2e8befbc36e769fcbcf051e7d4cf72de7d1badff5a78398",
+    "oldDepartment": "河川下水道総務課",
+    "newDepartment": "河川下水道施設課",
+    "evaluationYear": 2024,
+    "sourceSha256": "cb524e37776a3e8e3713a06f4ecbd77b78698393358f86a7dc36a58ff1e0705a",
+    "oldEvidence": [
+      {
+        "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "sourcePageUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "format": "pdf",
+        "fetchedAt": "2026-10-21T03:21:11.119Z",
+        "sha256": "cb524e37776a3e8e3713a06f4ecbd77b78698393358f86a7dc36a58ff1e0705a",
+        "rawText": "河川事務経費",
+        "page": null,
+        "sheet": null,
+        "cell": "extracted-text:chars:22200-22206"
+      },
+      {
+        "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "sourcePageUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "format": "pdf",
+        "fetchedAt": "2026-10-21T03:21:11.119Z",
+        "sha256": "cb524e37776a3e8e3713a06f4ecbd77b78698393358f86a7dc36a58ff1e0705a",
+        "rawText": "河川下水道総務課 河川事務経費",
+        "page": null,
+        "sheet": null,
+        "cell": "extracted-text:chars:22191-22206"
+      },
+      {
+        "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "sourcePageUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "format": "pdf",
+        "fetchedAt": "2026-10-21T03:21:11.119Z",
+        "sha256": "cb524e37776a3e8e3713a06f4ecbd77b78698393358f86a7dc36a58ff1e0705a",
+        "rawText": "令和６年度",
+        "page": null,
+        "sheet": null,
+        "cell": "extracted-text:chars:0-5"
+      }
+    ],
+    "newEvidence": [
+      {
+        "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "sourcePageUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "format": "pdf",
+        "fetchedAt": "2026-10-21T03:21:11.119Z",
+        "sha256": "cb524e37776a3e8e3713a06f4ecbd77b78698393358f86a7dc36a58ff1e0705a",
+        "rawText": "河川事務経費",
+        "page": null,
+        "sheet": null,
+        "cell": "extracted-text:chars:22216-22222"
+      },
+      {
+        "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "sourcePageUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "format": "pdf",
+        "fetchedAt": "2026-10-21T03:21:11.119Z",
+        "sha256": "cb524e37776a3e8e3713a06f4ecbd77b78698393358f86a7dc36a58ff1e0705a",
+        "rawText": "河川下水道施設課 河川事務経費",
+        "page": null,
+        "sheet": null,
+        "cell": "extracted-text:chars:22207-22222"
+      },
+      {
+        "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "sourcePageUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "format": "pdf",
+        "fetchedAt": "2026-10-21T03:21:11.119Z",
+        "sha256": "cb524e37776a3e8e3713a06f4ecbd77b78698393358f86a7dc36a58ff1e0705a",
+        "rawText": "令和６年度",
+        "page": null,
+        "sheet": null,
+        "cell": "extracted-text:chars:0-5"
+      }
+    ],
+    "reason": "Same-year same-name projects are explicitly separate departmental rows in the same verified official table. Exact record hashes and IDs only; old values unchanged."
+  },
+  {
+    "oldId": "cached-14212-2e61a0554dc0b9d902f36101",
+    "newId": "cached-14212-70843822f434562951a41a48",
+    "oldHash": "0862c012129bea10e51f6afd51a17a2228b05f555f4b2b93e15c8d09e93f2819",
+    "newHash": "460760e8ab36f31b9e1b1c905f68b8bb9137147b9652241b093883e652f5febe",
+    "oldDepartment": "福祉総合支援課",
+    "newDepartment": "地域包括ケア推進課",
+    "evaluationYear": 2024,
+    "sourceSha256": "cb524e37776a3e8e3713a06f4ecbd77b78698393358f86a7dc36a58ff1e0705a",
+    "oldEvidence": [
+      {
+        "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "sourcePageUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "format": "pdf",
+        "fetchedAt": "2026-10-21T03:21:11.119Z",
+        "sha256": "cb524e37776a3e8e3713a06f4ecbd77b78698393358f86a7dc36a58ff1e0705a",
+        "rawText": "41\n\n市民福祉部\n\n福祉総合支援課\n\n生きがい対策事務経費\n\n100\n\n継続\n\n100\n\n現行どおり\n",
+        "page": null,
+        "sheet": null,
+        "cell": "extracted-text:chars:8503-8555"
+      }
+    ],
+    "newEvidence": [
+      {
+        "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "sourcePageUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "format": "pdf",
+        "fetchedAt": "2026-10-21T03:21:11.119Z",
+        "sha256": "cb524e37776a3e8e3713a06f4ecbd77b78698393358f86a7dc36a58ff1e0705a",
+        "rawText": "生きがい対策事務経費",
+        "page": null,
+        "sheet": null,
+        "cell": "extracted-text:chars:9301-9311"
+      },
+      {
+        "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "sourcePageUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "format": "pdf",
+        "fetchedAt": "2026-10-21T03:21:11.119Z",
+        "sha256": "cb524e37776a3e8e3713a06f4ecbd77b78698393358f86a7dc36a58ff1e0705a",
+        "rawText": "地域包括ケア推進\n生きがい対策事務経費\n課",
+        "page": null,
+        "sheet": null,
+        "cell": "extracted-text:chars:9292-9313"
+      },
+      {
+        "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "sourcePageUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "format": "pdf",
+        "fetchedAt": "2026-10-21T03:21:11.119Z",
+        "sha256": "cb524e37776a3e8e3713a06f4ecbd77b78698393358f86a7dc36a58ff1e0705a",
+        "rawText": "令和６年度",
+        "page": null,
+        "sheet": null,
+        "cell": "extracted-text:chars:0-5"
+      }
+    ],
+    "reason": "Same-year same-name projects are explicitly separate departmental rows in the same verified official table. Exact record hashes and IDs only; old values unchanged."
+  },
+  {
+    "oldId": "cached-14212-d83e9be5a5b523e9aca0b354",
+    "newId": "cached-14212-1d7865e99932989cfba647e8",
+    "oldHash": "a57567bdd08cddb42add01407817334d01cdc477a2017e40cb1f4326c2622f96",
+    "newHash": "f397116e4ea7b1a458c5c127625a3a1362ebc84a136abeba1ce0e48b07fc09ba",
+    "oldDepartment": "介護福祉課",
+    "newDepartment": "地域包括ケア推進課",
+    "evaluationYear": 2024,
+    "sourceSha256": "cb524e37776a3e8e3713a06f4ecbd77b78698393358f86a7dc36a58ff1e0705a",
+    "oldEvidence": [
+      {
+        "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "sourcePageUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "format": "pdf",
+        "fetchedAt": "2026-10-21T03:21:11.119Z",
+        "sha256": "cb524e37776a3e8e3713a06f4ecbd77b78698393358f86a7dc36a58ff1e0705a",
+        "rawText": "80\n\n市民福祉部\n\n介護福祉課\n\n一般介護予防事業費\n\n100\n\n継続\n\n100\n\n現行どおり\n",
+        "page": null,
+        "sheet": null,
+        "cell": "extracted-text:chars:10908-10957"
+      }
+    ],
+    "newEvidence": [
+      {
+        "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "sourcePageUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "format": "pdf",
+        "fetchedAt": "2026-10-21T03:21:11.119Z",
+        "sha256": "cb524e37776a3e8e3713a06f4ecbd77b78698393358f86a7dc36a58ff1e0705a",
+        "rawText": "一般介護予防事業費",
+        "page": null,
+        "sheet": null,
+        "cell": "extracted-text:chars:9343-9352"
+      },
+      {
+        "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "sourcePageUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "format": "pdf",
+        "fetchedAt": "2026-10-21T03:21:11.119Z",
+        "sha256": "cb524e37776a3e8e3713a06f4ecbd77b78698393358f86a7dc36a58ff1e0705a",
+        "rawText": "地域包括ケア推進\n一般介護予防事業費\n課",
+        "page": null,
+        "sheet": null,
+        "cell": "extracted-text:chars:9334-9354"
+      },
+      {
+        "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "sourcePageUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
+        "format": "pdf",
+        "fetchedAt": "2026-10-21T03:21:11.119Z",
+        "sha256": "cb524e37776a3e8e3713a06f4ecbd77b78698393358f86a7dc36a58ff1e0705a",
+        "rawText": "令和６年度",
+        "page": null,
+        "sheet": null,
+        "cell": "extracted-text:chars:0-5"
+      }
+    ],
+    "reason": "Same-year same-name projects are explicitly separate departmental rows in the same verified official table. Exact record hashes and IDs only; old values unchanged."
+  }
+]

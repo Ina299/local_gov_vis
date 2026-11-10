@@ -1,0 +1,112 @@
+export const configs = [
+  {
+    "sourceId": "8873a5d0f80efa61479ca5cb",
+    "municipalityCode": "14208",
+    "sourceUrl": "https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/006/675/r5_jutenkadai.pdf",
+    "sourceSha256": "b293f53fbcdfb5735f2ca0480ad915f50704a24d243b06aabe9312f7d95bdfc8",
+    "textSha256": "0a37e4debeae055ac4d026830a5f7f99a9c5e586da32fb9ea4adf120e7d22fbc",
+    "rows": [
+      {
+        "name": "デジタル技術を活用した業務プロセス改善",
+        "parts": [
+          {
+            "raw": "デジタル技術を活用した業務プロセス改善",
+            "start": 105
+          }
+        ],
+        "year": 2023,
+        "yearQuote": "2023年度（令和５年度）",
+        "yearOffset": 222,
+        "activities": "業務プロセス改善については、行財政改革推進本部にてキックオフした後、各課かいにおいて、特にデジタル技\n術を活用することで大きく効果が見込まれる業務の業務手順書（フロー図）の更新・点検を依頼。ピックアップさ\nれた業務（各部局１事業に絞り込み）について、「デジタル化フロー図」に落とし込みを完了させ、全庁的なコンテ\nストを開催するとともに、優秀な提案を表彰した。",
+        "activityOffset": 250,
+        "reason": "Explicit named administrative-reform work unit under 事務・事業名, with filled annual implementation narrative. Not generic policy chapter, blank future template, or marked rating inferred."
+      },
+      {
+        "name": "逗子市公共施設等総合管理計画",
+        "parts": [
+          {
+            "raw": "逗子市公共施設等総合管理計画",
+            "start": 1444
+          }
+        ],
+        "year": 2023,
+        "yearQuote": "2023年度（令和５年度）",
+        "yearOffset": 1560,
+        "activities": "① 財源として公共公益施設整備基金や地方債を活用し、公共施設整備計画に基づき、着実に公共施設の老朽化\n対策の整備等を実施した。\n② 公共施設整備計画を着実に進めるため、実質収支額の一定割合を公共公益施設整備基金に積み立てる方針\nに基づき、令和6年度以降の年度計画額に対する財源や学校施設その他のインフラ整備に要する財源として、公\n共公益施設整備基金へ1.2億円を積立てた。\n③ 総務省の指針改訂に伴い、公共施設等総合管理計画の一部改訂を実施した。（令和6年3月）",
+        "activityOffset": 1588,
+        "reason": "Explicit named administrative-reform work unit under 事務・事業名, with filled annual implementation narrative. Not generic policy chapter, blank future template, or marked rating inferred."
+      },
+      {
+        "name": "人材育成",
+        "parts": [
+          {
+            "raw": "人材育成",
+            "start": 2751
+          }
+        ],
+        "year": 2023,
+        "yearQuote": "2023年度（令和５年度）",
+        "yearOffset": 2841,
+        "activities": "総務省が令和4年１月にポスト・コロナ期の地方公務員のあり方に関する研究会に諮問をした調査審議の動向に\nなどに注視し、新しい働き方の取組等情報収集を行った。",
+        "activityOffset": 2869,
+        "reason": "Explicit named administrative-reform work unit under 事務・事業名, with filled annual implementation narrative. Not generic policy chapter, blank future template, or marked rating inferred."
+      }
+    ],
+    "unvalidated": true
+  },
+  {
+    "sourceId": "2754a3f40ef77e5e70dbe961",
+    "municipalityCode": "14208",
+    "sourceUrl": "https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/006/675/r6jyokaku-jyutentadai.pdf",
+    "sourceSha256": "04140b33da5c9c7785b4ed0edf2a589df83970d83e0701fe42a862a0d07f70f1",
+    "textSha256": "deaa2949f6b81f889ab5829683fd67aa91a841352da3a810d81b75c87b2fc271",
+    "rows": [
+      {
+        "name": "デジタル技術を活用した業務プロセス改善",
+        "parts": [
+          {
+            "raw": "デジタル技術を活用した業務プロセス改善",
+            "start": 105
+          }
+        ],
+        "year": 2024,
+        "yearQuote": "2024年度（令和６年度）",
+        "yearOffset": 1064,
+        "activities": "令和５年度の選定業務にKPI設定し業務分析することで、具体的な改善効果の数値化を進めた。また、デジタル\n田園都市国家構想交付金を活用した事業について、事業実施計画どおりにサービス向上システムを構築し、業\n務改善につなげた。",
+        "activityOffset": 1092,
+        "reason": "Explicit named administrative-reform work unit under 事務・事業名, with filled annual implementation narrative. Not generic policy chapter, blank future template, or marked rating inferred."
+      },
+      {
+        "name": "逗子市公共施設等総合管理計画",
+        "parts": [
+          {
+            "raw": "逗子市公共施設等総合管理計画",
+            "start": 2113
+          }
+        ],
+        "year": 2024,
+        "yearQuote": "2024年度（令和６年度）",
+        "yearOffset": 3010,
+        "activities": "① 財源として公共公益施設整備基金や地方債を活用し、公共施設整備計画に基づき、着実に公共施設の老朽\n化対策の整備等を実施した。\n② 公共施設整備計画を着実に進めるため、実質収支額の一定割合を公共公益施設整備基金に積み立てる方\n針に基づき、令和７年度以降の年度計画額に対する財源や学校施設その他のインフラ整備に要する財源とし\nて、公共公益施設整備基金へ５.８億円を積立てた。",
+        "activityOffset": 3038,
+        "reason": "Explicit named administrative-reform work unit under 事務・事業名, with filled annual implementation narrative. Not generic policy chapter, blank future template, or marked rating inferred."
+      },
+      {
+        "name": "人材育成",
+        "parts": [
+          {
+            "raw": "人材育成",
+            "start": 4043
+          }
+        ],
+        "year": 2024,
+        "yearQuote": "2024年度（令和６年度）",
+        "yearOffset": 4608,
+        "activities": "人材育成基本方針改定に向けて、職員の意識調査をするためのアンケート案の作成を行った。",
+        "activityOffset": 4636,
+        "reason": "Explicit named administrative-reform work unit under 事務・事業名, with filled annual implementation narrative. Not generic policy chapter, blank future template, or marked rating inferred."
+      }
+    ],
+    "unvalidated": true
+  }
+];

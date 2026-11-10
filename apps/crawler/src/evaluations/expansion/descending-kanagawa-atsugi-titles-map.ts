@@ -1,5 +1,896 @@
 export const configs = [
   {
+    "sourceId": "071959416cdc00bc79bae728",
+    "municipalityCode": "14212",
+    "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyo_hyoka_kekka_r5.pdf",
+    "sourceSha256": "59f24d36c2e4816c3979698956968e5af585852c616ca8c136d474b4d5ba25f2",
+    "textSha256": "d226364f5a507d953297c83241729401d96fa59c8cda490309d85700d4725122",
+    "year": 2023,
+    "yearQuote": "令和５年度",
+    "yearOffset": 0,
+    "rows": [
+      {
+        "name": "海外友好都市等受入派遣事業費",
+        "parts": [
+          {
+            "raw": "海外友好都市等受入派遣事業費",
+            "start": 9697
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "35",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "地下道活性化事業費",
+        "parts": [
+          {
+            "raw": "地下道活性化事業費",
+            "start": 9898
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "18",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "海外学生交流事業費",
+        "parts": [
+          {
+            "raw": "海外学生交流事業費",
+            "start": 9989
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "37",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "児童発達支援事業費",
+        "parts": [
+          {
+            "raw": "児童発達支援事業費",
+            "start": 10852
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "83",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "成年後見等利用支援事業費",
+        "parts": [
+          {
+            "raw": "成年後見等利用支援事業費",
+            "start": 11143
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "85",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "障害者医療費助成事業費",
+        "parts": [
+          {
+            "raw": "障害者医療費助成事業費",
+            "start": 12251
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "106",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "在宅重度障害者介護手当給付事業費",
+        "parts": [
+          {
+            "raw": "在宅重度障害者介護手当給付事業費",
+            "start": 12396
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "109",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "介護福祉士等奨学金返済助成金",
+        "parts": [
+          {
+            "raw": "介護福祉士等奨学金返済助成金",
+            "start": 13304
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "79",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "高齢者保健福祉計画・介護保険事業計画改定事業費",
+        "parts": [
+          {
+            "raw": "高齢者保健福祉計画・介護保険事業計画改定事",
+            "start": 13430
+          },
+          {
+            "raw": "業費",
+            "start": 13471
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "70",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "未病施策事業費",
+        "parts": [
+          {
+            "raw": "未病施策事業費",
+            "start": 14931
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "213",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "子ども・子育て支援新制度給付金",
+        "parts": [
+          {
+            "raw": "子ども・子育て支援新制度給付金",
+            "start": 15128
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "139",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "幼稚園型認定こども園防犯対策整備事業費補助金",
+        "parts": [
+          {
+            "raw": "幼稚園型認定こども園防犯対策整備事業費補助",
+            "start": 15384
+          },
+          {
+            "raw": "金",
+            "start": 15424
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "144",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "待機児童対策放課後児童クラブ施設運営費補助金",
+        "parts": [
+          {
+            "raw": "待機児童対策放課後児童クラブ施設運営費補助",
+            "start": 16052
+          },
+          {
+            "raw": "金",
+            "start": 16092
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "137",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "私設保育施設入所児助成事業費",
+        "parts": [
+          {
+            "raw": "私設保育施設入所児助成事業費",
+            "start": 16376
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "161",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "入所児童保育委託費",
+        "parts": [
+          {
+            "raw": "入所児童保育委託費",
+            "start": 16584
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "165",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "不妊治療費助成事業費",
+        "parts": [
+          {
+            "raw": "不妊治療費助成事業費",
+            "start": 17023
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "126",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "母子家庭等日常生活支援事業費",
+        "parts": [
+          {
+            "raw": "母子家庭等日常生活支援事業費",
+            "start": 17275
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "173",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "男女共同参画推進事業費",
+        "parts": [
+          {
+            "raw": "男女共同参画推進事業費",
+            "start": 18768
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "22",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "人権啓発推進事業費",
+        "parts": [
+          {
+            "raw": "人権啓発推進事業費",
+            "start": 18828
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "116",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "市民相談事業費",
+        "parts": [
+          {
+            "raw": "市民相談事業費",
+            "start": 18885
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "32",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "多文化共生交流事業費",
+        "parts": [
+          {
+            "raw": "多文化共生交流事業費",
+            "start": 18941
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "34",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "人権啓発等事業補助金",
+        "parts": [
+          {
+            "raw": "人権啓発等事業補助金",
+            "start": 19000
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "117",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "生涯学習推進事業費",
+        "parts": [
+          {
+            "raw": "生涯学習推進事業費",
+            "start": 19162
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "45",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "輝き厚木塾開設事業費",
+        "parts": [
+          {
+            "raw": "輝き厚木塾開設事業費",
+            "start": 19277
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "46",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "市民芸術祭開催事業費",
+        "parts": [
+          {
+            "raw": "市民芸術祭開催事業費",
+            "start": 19387
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "40",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "あつぎ協働大学カーボンニュートラル講座開設事業費",
+        "parts": [
+          {
+            "raw": "あつぎ協働大学カーボンニュートラル講座開設事",
+            "start": 19531
+          },
+          {
+            "raw": "業費",
+            "start": 19571
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "48",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "街頭犯罪対策事業費",
+        "parts": [
+          {
+            "raw": "街頭犯罪対策事業費",
+            "start": 19619
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "49",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "地域青パト推進事業補助金",
+        "parts": [
+          {
+            "raw": "地域青パト推進事業補助金",
+            "start": 19758
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "50",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "防犯カメラ設置費補助金",
+        "parts": [
+          {
+            "raw": "防犯カメラ設置費補助金",
+            "start": 19816
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "51",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "本厚木駅周辺環境浄化対策事業費",
+        "parts": [
+          {
+            "raw": "本厚木駅周辺環境浄化対策事業費",
+            "start": 19878
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "52",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "振り込め詐欺等防止装置購入費補助金",
+        "parts": [
+          {
+            "raw": "振り込め詐欺等防止装置購入費補助金",
+            "start": 19944
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "502",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "セーフコミュニティ推進事業費",
+        "parts": [
+          {
+            "raw": "セーフコミュニティ推進事業費",
+            "start": 20011
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "53",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "地域セーフコミュニティ活動推進事業費",
+        "parts": [
+          {
+            "raw": "地域セーフコミュニティ活動推進事業費",
+            "start": 20071
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "54",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "消費生活相談事業費",
+        "parts": [
+          {
+            "raw": "消費生活相談事業費",
+            "start": 20136
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "330",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "消費者意識啓発事業費",
+        "parts": [
+          {
+            "raw": "消費者意識啓発事業費",
+            "start": 20192
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "331",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "放置自転車対策事業費",
+        "parts": [
+          {
+            "raw": "放置自転車対策事業費",
+            "start": 20487
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "8",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "里地里山保全等促進事業費",
+        "parts": [
+          {
+            "raw": "里地里山保全等促進事業費",
+            "start": 20893
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "224",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "農畜産物等移動販売車運行事業費補助金",
+        "parts": [
+          {
+            "raw": "農畜産物等移動販売車運行事業費補助金",
+            "start": 23417
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "271",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "（公財）厚木市勤労者福祉サービスセンター補助金",
+        "parts": [
+          {
+            "raw": "（公財）厚木市勤労者福祉サービスセンター補助",
+            "start": 23941
+          },
+          {
+            "raw": "金",
+            "start": 23986
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "241",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "（一財）神奈川県駐労福祉センター職業紹介事業補助金",
+        "parts": [
+          {
+            "raw": "（一財）神奈川県駐労福祉センター職業紹介事業",
+            "start": 24166
+          },
+          {
+            "raw": "補助金",
+            "start": 24205
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "245",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "高年齢者継続雇用奨励補助金",
+        "parts": [
+          {
+            "raw": "高年齢者継続雇用奨励補助金",
+            "start": 24304
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "247",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "技能職団体連絡協議会補助金",
+        "parts": [
+          {
+            "raw": "技能職団体連絡協議会補助金",
+            "start": 24417
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "249",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "特許等出願支援補助金",
+        "parts": [
+          {
+            "raw": "特許等出願支援補助金",
+            "start": 24717
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "296",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "中小企業融資制度預託金",
+        "parts": [
+          {
+            "raw": "中小企業融資制度預託金",
+            "start": 24837
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "298",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "観光資源創出事業補助金",
+        "parts": [
+          {
+            "raw": "観光資源創出事業補助金",
+            "start": 26752
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "328",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "居住誘導区域（がけ地近接等危険住宅）移転事業補助金",
+        "parts": [
+          {
+            "raw": "居住誘導区域（がけ地近接等危険住宅）移転事業",
+            "start": 26941
+          },
+          {
+            "raw": "補助金",
+            "start": 26983
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "347",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "ユニバーサルデザインタクシー導入促進事業補助金",
+        "parts": [
+          {
+            "raw": "ユニバーサルデザインタクシー導入促進事業補助",
+            "start": 27058
+          },
+          {
+            "raw": "金",
+            "start": 27100
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "350",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "公共交通利便性向上事業費",
+        "parts": [
+          {
+            "raw": "公共交通利便性向上事業費",
+            "start": 27210
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "542",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "本厚木駅ホームドア設置事業補助金",
+        "parts": [
+          {
+            "raw": "本厚木駅ホームドア設置事業補助金",
+            "start": 27437
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "356",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "建築確認台帳等電子化事業費",
+        "parts": [
+          {
+            "raw": "建築確認台帳等電子化事業費",
+            "start": 28001
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "381",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "大規模盛土調査事業費",
+        "parts": [
+          {
+            "raw": "大規模盛土調査事業費",
+            "start": 28050
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "382",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "準用河川安全対策事業費",
+        "parts": [
+          {
+            "raw": "準用河川安全対策事業費",
+            "start": 28317
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "345",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "本厚木駅北口地区市街地再開発組合設立促進事業補助金",
+        "parts": [
+          {
+            "raw": "本厚木駅北口地区市街地再開発組合設立促進",
+            "start": 28753
+          },
+          {
+            "raw": "事業補助金",
+            "start": 28791
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "362",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "厚木環状３号線（第４工区）街路整備事業費（継続費）",
+        "parts": [
+          {
+            "raw": "厚木環状３号線（第４工区）街路整備事業費（継続",
+            "start": 29785
+          },
+          {
+            "raw": "費）",
+            "start": 29823
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "375",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "街路用地取得事業費",
+        "parts": [
+          {
+            "raw": "街路用地取得事業費",
+            "start": 30272
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "379",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "小学校特別支援学級等就学奨励事業費",
+        "parts": [
+          {
+            "raw": "小学校特別支援学級等就学奨励事業費",
+            "start": 31561
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "446",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "要保護及び準要保護児童就学援助事業費",
+        "parts": [
+          {
+            "raw": "要保護及び準要保護児童就学援助事業費",
+            "start": 31678
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "445",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "カーボンニュートラル教育推進事業費（小・中学校）",
+        "parts": [
+          {
+            "raw": "カーボンニュートラル教育推進事業費（小・中学",
+            "start": 32448
+          },
+          {
+            "raw": "校）",
+            "start": 32487
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "444",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "登校支援推進事業費",
+        "parts": [
+          {
+            "raw": "登校支援推進事業費",
+            "start": 32825
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "435",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "青少年教育相談事業費",
+        "parts": [
+          {
+            "raw": "青少年教育相談事業費",
+            "start": 32877
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "434",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "教育支援教室運営事業費",
+        "parts": [
+          {
+            "raw": "教育支援教室運営事業費",
+            "start": 32931
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "436",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "青少年非行防止活動事業費",
+        "parts": [
+          {
+            "raw": "青少年非行防止活動事業費",
+            "start": 32986
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "433",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      },
+      {
+        "name": "地域ぐるみ家庭教育支援事業交付金",
+        "parts": [
+          {
+            "raw": "地域ぐるみ家庭教育支援事業交付金",
+            "start": 34255
+          }
+        ],
+        "evaluationYear": 2023,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": "460",
+        "reason": "Reviewed complete individual business-name fragments and explicit evaluation-year heading; execution FY and numeric columns omitted."
+      }
+    ],
+    "holds": [
+      {
+        "code": "437",
+        "start": 31314,
+        "raw": "437 教育総務部 教育施設課",
+        "reason": "Parenthetical business title ends mid-word in cached text; preserve printed main title but do not infer the missing qualification or treat it as complete."
+      },
+      {
+        "code": "448",
+        "start": 31433,
+        "raw": "448 教育総務部 教育施設課",
+        "reason": "Parenthetical business title ends mid-word in cached text; preserve printed main title but do not infer the missing qualification or treat it as complete."
+      }
+    ],
+    "unvalidated": true,
+    "municipalityName": "厚木市"
+  },
+  {
     "sourceId": "6803914bcfe2d59467cd7445",
     "municipalityCode": "14212",
     "sourceUrl": "https://www.city.atsugi.kanagawa.jp/material/files/group/6/jimujigyou_hyouka_kekka_r6.pdf",
@@ -1412,90 +2303,1260 @@ export const configs = [
         "evaluatedFiscalYear": null,
         "sourceRowCode": null,
         "reason": "Complete literal business-name column entry in annual evaluation table; department/row code/ratings and execution year omitted because columns are detached."
+      },
+      {
+        "name": "個人住民税課税事務費",
+        "parts": [
+          {
+            "raw": "個人住民税課税事務費",
+            "start": 8071
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicitly mapped title fragments excluding interleaved department labels; no numeric/department/code association inferred."
+      },
+      {
+        "name": "防犯啓発事業費",
+        "parts": [
+          {
+            "raw": "防犯啓発事業費",
+            "start": 16110
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicitly mapped title fragments excluding interleaved department labels; no numeric/department/code association inferred."
+      },
+      {
+        "name": "防犯灯設置事業費",
+        "parts": [
+          {
+            "raw": "防犯灯設置事業費",
+            "start": 16148
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicitly mapped title fragments excluding interleaved department labels; no numeric/department/code association inferred."
+      },
+      {
+        "name": "防犯事務費",
+        "parts": [
+          {
+            "raw": "防犯事務費",
+            "start": 16183
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicitly mapped title fragments excluding interleaved department labels; no numeric/department/code association inferred."
+      },
+      {
+        "name": "防犯灯維持管理事業費",
+        "parts": [
+          {
+            "raw": "防犯灯維持管理事業費",
+            "start": 16315
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicitly mapped title fragments excluding interleaved department labels; no numeric/department/code association inferred."
+      },
+      {
+        "name": "排水路維持管理事業費",
+        "parts": [
+          {
+            "raw": "排水路維持管理事業費",
+            "start": 22341
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicitly mapped title fragments excluding interleaved department labels; no numeric/department/code association inferred."
+      },
+      {
+        "name": "猿ヶ島汚泥貯留地上部利用施設関連維持管理事業費",
+        "parts": [
+          {
+            "raw": "猿ヶ島汚泥貯留地上部利用施",
+            "start": 22371
+          },
+          {
+            "raw": "設関連維持管理事業費",
+            "start": 22394
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicitly mapped title fragments excluding interleaved department labels; no numeric/department/code association inferred."
+      },
+      {
+        "name": "農業委員会運営費",
+        "parts": [
+          {
+            "raw": "農業委員会運営費",
+            "start": 25577
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicitly mapped title fragments excluding interleaved department labels; no numeric/department/code association inferred."
+      },
+      {
+        "name": "国有農地管理事業費",
+        "parts": [
+          {
+            "raw": "国有農地管理事業費",
+            "start": 25621
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicitly mapped title fragments excluding interleaved department labels; no numeric/department/code association inferred."
+      },
+      {
+        "name": "農業委員会事務経費",
+        "parts": [
+          {
+            "raw": "農業委員会事務経費",
+            "start": 25666
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicitly mapped title fragments excluding interleaved department labels; no numeric/department/code association inferred."
+      },
+      {
+        "name": "地域密着型サービス等整備助成事業補助金消費税仕入控除税返還金",
+        "parts": [
+          {
+            "raw": "地域密着型サービス等整",
+            "start": 10613
+          },
+          {
+            "raw": "備助成事業補助金消費税",
+            "start": 10625
+          },
+          {
+            "raw": "仕入控除税返還金",
+            "start": 10637
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "公民館維持管理事業費（厚木北公民館）",
+        "parts": [
+          {
+            "raw": "公民館維持管理事業費",
+            "start": 14579
+          },
+          {
+            "raw": "（厚木北公民館）",
+            "start": 14595
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "公民館維持管理事業費（依知北公民館）",
+        "parts": [
+          {
+            "raw": "公民館維持管理事業費",
+            "start": 14649
+          },
+          {
+            "raw": "（依知北公民館）",
+            "start": 14672
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "公民館維持管理事業費（睦合北公民館）",
+        "parts": [
+          {
+            "raw": "公民館維持管理事業費",
+            "start": 14737
+          },
+          {
+            "raw": "（睦合北公民館）",
+            "start": 14753
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "公民館維持管理事業費（愛甲公民館）",
+        "parts": [
+          {
+            "raw": "公民館維持管理事業費",
+            "start": 15381
+          },
+          {
+            "raw": "（愛甲公民館）",
+            "start": 15404
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "公民館運営事業費（厚木南公民館）",
+        "parts": [
+          {
+            "raw": "公民館運営事業費（厚木",
+            "start": 15496
+          },
+          {
+            "raw": "南公民館）",
+            "start": 15513
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "公民館運営事業費（依知南公民館）",
+        "parts": [
+          {
+            "raw": "公民館運営事業費（依知",
+            "start": 15568
+          },
+          {
+            "raw": "南公民館）",
+            "start": 15585
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "公民館運営事業費（睦合南公民館）",
+        "parts": [
+          {
+            "raw": "公民館運営事業費（睦合",
+            "start": 15640
+          },
+          {
+            "raw": "南公民館）",
+            "start": 15657
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "公民館運営事業費（荻野公民館）",
+        "parts": [
+          {
+            "raw": "公民館運営事業費（荻野",
+            "start": 15712
+          },
+          {
+            "raw": "公民館）",
+            "start": 15728
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "公民館運営事業費（小鮎公民館）",
+        "parts": [
+          {
+            "raw": "公民館運営事業費（小鮎",
+            "start": 15782
+          },
+          {
+            "raw": "公民館）",
+            "start": 15798
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "公民館運営事業費（南毛利公民館）",
+        "parts": [
+          {
+            "raw": "公民館運営事業費（南毛",
+            "start": 15852
+          },
+          {
+            "raw": "利公民館）",
+            "start": 15869
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "公民館運営事業費（緑ケ丘公民館）",
+        "parts": [
+          {
+            "raw": "公民館運営事業費（緑ケ",
+            "start": 15924
+          },
+          {
+            "raw": "丘公民館）",
+            "start": 15941
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "公民館運営事業費（森の里公民館）",
+        "parts": [
+          {
+            "raw": "公民館運営事業費（森の",
+            "start": 15996
+          },
+          {
+            "raw": "里公民館）",
+            "start": 16013
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "自転車等駐車場維持管理事業",
+        "parts": [
+          {
+            "raw": "自転車等駐車場維持管理",
+            "start": 16052
+          },
+          {
+            "raw": "事業",
+            "start": 16073
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "水道事業指導監督費",
+        "parts": [
+          {
+            "raw": "水道事業指導監督費",
+            "start": 19116
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "河川維持管理事業費",
+        "parts": [
+          {
+            "raw": "河川維持管理事業費",
+            "start": 22248
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "公民館維持管理事業費（睦合西公民館）",
+        "parts": [
+          {
+            "raw": "公民館維持管理事業費",
+            "start": 15237
+          },
+          {
+            "raw": "（睦合西公民館）",
+            "start": 15253
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "公民館維持管理事業費（上荻野分館）",
+        "parts": [
+          {
+            "raw": "公民館維持管理事業費",
+            "start": 15274
+          },
+          {
+            "raw": "（上荻野分館）",
+            "start": 15289
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "公民館維持管理事業費（玉川公民館）",
+        "parts": [
+          {
+            "raw": "公民館維持管理事業費",
+            "start": 15309
+          },
+          {
+            "raw": "（玉川公民館）",
+            "start": 15324
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "公民館維持管理事業費（相川公民館）",
+        "parts": [
+          {
+            "raw": "公民館維持管理事業費",
+            "start": 15344
+          },
+          {
+            "raw": "（相川公民館）",
+            "start": 15359
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "スポーツ・レクリエーション活動事業費",
+        "parts": [
+          {
+            "raw": "スポーツ・レクリエー",
+            "start": 13220
+          },
+          {
+            "raw": "ション活動事業費",
+            "start": 13231
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "少年少女芸術等鑑賞会交付金",
+        "parts": [
+          {
+            "raw": "少年少女芸術等鑑賞会交",
+            "start": 13240
+          },
+          {
+            "raw": "付金",
+            "start": 13252
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "はたちのつどい開催事業費",
+        "parts": [
+          {
+            "raw": "はたちのつどい開催事業",
+            "start": 13255
+          },
+          {
+            "raw": "費",
+            "start": 13267
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "青少年健全育成会連絡協議会補助金",
+        "parts": [
+          {
+            "raw": "青少年健全育成会連絡協",
+            "start": 13269
+          },
+          {
+            "raw": "議会補助金",
+            "start": 13281
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "子ども会育成連絡協議会補助金",
+        "parts": [
+          {
+            "raw": "子ども会育成連絡協議会",
+            "start": 13287
+          },
+          {
+            "raw": "補助金",
+            "start": 13299
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "ジュニアリーダーズクラブ連絡協議会補助金",
+        "parts": [
+          {
+            "raw": "ジュニアリーダーズクラ",
+            "start": 13303
+          },
+          {
+            "raw": "ブ連絡協議会補助金",
+            "start": 13315
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "小学校区子ども会育成交付金",
+        "parts": [
+          {
+            "raw": "小学校区子ども会育成交",
+            "start": 13325
+          },
+          {
+            "raw": "付金",
+            "start": 13337
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "七沢弁天の森キャンプ場跡地維持管理事業費",
+        "parts": [
+          {
+            "raw": "七沢弁天の森キャンプ場",
+            "start": 13340
+          },
+          {
+            "raw": "跡地維持管理事業費",
+            "start": 13352
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "体育大会開催事業費",
+        "parts": [
+          {
+            "raw": "体育大会開催事業費",
+            "start": 18086
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "体育大会選手派遣事業費",
+        "parts": [
+          {
+            "raw": "体育大会選手派遣事業費",
+            "start": 18107
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "レクリエーション協会補助金",
+        "parts": [
+          {
+            "raw": "レクリエーション協会補",
+            "start": 18130
+          },
+          {
+            "raw": "助金",
+            "start": 18144
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "体育振興会長連絡協議会補助金",
+        "parts": [
+          {
+            "raw": "体育振興会長連絡協議会",
+            "start": 18156
+          },
+          {
+            "raw": "補助金",
+            "start": 18170
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "スポーツ振興事務経費",
+        "parts": [
+          {
+            "raw": "スポーツ振興事務経費",
+            "start": 18183
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "学校体育施設開放維持補修事業費",
+        "parts": [
+          {
+            "raw": "学校体育施設開放維持補",
+            "start": 18205
+          },
+          {
+            "raw": "修事業費",
+            "start": 18219
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "体育施設維持補修事業費",
+        "parts": [
+          {
+            "raw": "体育施設維持補修事業費",
+            "start": 18233
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "及川球技場維持補修事業費",
+        "parts": [
+          {
+            "raw": "及川球技場維持補修事業",
+            "start": 18256
+          },
+          {
+            "raw": "費",
+            "start": 18270
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "南毛利スポーツセンター維持補修事業費",
+        "parts": [
+          {
+            "raw": "南毛利スポーツセンター",
+            "start": 18281
+          },
+          {
+            "raw": "維持補修事業費",
+            "start": 18295
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "猿ヶ島スポーツセンター維持補修事業費",
+        "parts": [
+          {
+            "raw": "猿ヶ島スポーツセンター",
+            "start": 18312
+          },
+          {
+            "raw": "維持補修事業費",
+            "start": 18326
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "玉川野球場維持補修事業費",
+        "parts": [
+          {
+            "raw": "玉川野球場維持補修事業",
+            "start": 18343
+          },
+          {
+            "raw": "費",
+            "start": 18357
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "東町スポーツセンター維持補修事業費",
+        "parts": [
+          {
+            "raw": "東町スポーツセンター維",
+            "start": 18368
+          },
+          {
+            "raw": "持補修事業費",
+            "start": 18382
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "北部学校給食センター運営事業費",
+        "parts": [
+          {
+            "raw": "北部学校給食センター運",
+            "start": 25151
+          },
+          {
+            "raw": "営事業費",
+            "start": 25169
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "北部学校給食センター事務費",
+        "parts": [
+          {
+            "raw": "北部学校給食センター事",
+            "start": 25174
+          },
+          {
+            "raw": "務費",
+            "start": 25192
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "青少年教育相談センター事務経費",
+        "parts": [
+          {
+            "raw": "青少年教育相談センター",
+            "start": 25204
+          },
+          {
+            "raw": "事務経費",
+            "start": 25220
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "教育ネットワーク運営事業費",
+        "parts": [
+          {
+            "raw": "教育ネットワーク運営事",
+            "start": 25225
+          },
+          {
+            "raw": "業費",
+            "start": 25243
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "小学校情報教育機器維持管理事業費",
+        "parts": [
+          {
+            "raw": "小学校情報教育機器維持",
+            "start": 25246
+          },
+          {
+            "raw": "管理事業費",
+            "start": 25264
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "中学校情報教育機器維持管理事業費",
+        "parts": [
+          {
+            "raw": "中学校情報教育機器維持",
+            "start": 25270
+          },
+          {
+            "raw": "管理事業費",
+            "start": 25288
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "防犯活動事故見舞金",
+        "parts": [
+          {
+            "raw": "防犯活動事故見舞金",
+            "start": 16372
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Complete literal name fragments in the individual business table; all other attributes left unset."
+      },
+      {
+        "name": "会計管理事務費（会計管理事務費）",
+        "parts": [
+          {
+            "raw": "会計管理事務費",
+            "start": 22453
+          },
+          {
+            "raw": "（会計管理事務費）",
+            "start": 22461
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Complete literal name fragments in the individual business table; all other attributes left unset."
+      },
+      {
+        "name": "監査委員費",
+        "parts": [
+          {
+            "raw": "監査委員費",
+            "start": 25536
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Complete literal name fragments in the individual business table; all other attributes left unset."
+      },
+      {
+        "name": "生きがいセンター維持補修事業費",
+        "parts": [
+          {
+            "raw": "生きがいセンター維持補",
+            "start": 9023
+          },
+          {
+            "raw": "修事業費",
+            "start": 9043
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit complete title column fragments, excluding interleaved department label. Individual identity only, not guessed score/amount/year."
+      },
+      {
+        "name": "老人憩の家維持補修事業費",
+        "parts": [
+          {
+            "raw": "老人憩の家維持補修事業",
+            "start": 9048
+          },
+          {
+            "raw": "費",
+            "start": 9068
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit complete title column fragments, excluding interleaved department label. Individual identity only, not guessed score/amount/year."
+      },
+      {
+        "name": "福祉総合情報システム整備事業費",
+        "parts": [
+          {
+            "raw": "福祉総合情報システム整",
+            "start": 9079
+          },
+          {
+            "raw": "備事業費",
+            "start": 9093
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit complete title column fragments, excluding interleaved department label. Individual identity only, not guessed score/amount/year."
+      },
+      {
+        "name": "社会福祉大会開催事業費",
+        "parts": [
+          {
+            "raw": "社会福祉大会開催事業費",
+            "start": 9107
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit complete title column fragments, excluding interleaved department label. Individual identity only, not guessed score/amount/year."
+      },
+      {
+        "name": "遺族会運営費補助金",
+        "parts": [
+          {
+            "raw": "遺族会運営費補助金",
+            "start": 9130
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit complete title column fragments, excluding interleaved department label. Individual identity only, not guessed score/amount/year."
+      },
+      {
+        "name": "遺族援護事業経費",
+        "parts": [
+          {
+            "raw": "遺族援護事業経費",
+            "start": 9151
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit complete title column fragments, excluding interleaved department label. Individual identity only, not guessed score/amount/year."
+      },
+      {
+        "name": "被爆者援護事業経費",
+        "parts": [
+          {
+            "raw": "被爆者援護事業経費",
+            "start": 9171
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit complete title column fragments, excluding interleaved department label. Individual identity only, not guessed score/amount/year."
+      },
+      {
+        "name": "保健福祉審議会運営費",
+        "parts": [
+          {
+            "raw": "保健福祉審議会運営費",
+            "start": 9192
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit complete title column fragments, excluding interleaved department label. Individual identity only, not guessed score/amount/year."
+      },
+      {
+        "name": "民生委員推薦会運営費",
+        "parts": [
+          {
+            "raw": "民生委員推薦会運営費",
+            "start": 9214
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit complete title column fragments, excluding interleaved department label. Individual identity only, not guessed score/amount/year."
+      },
+      {
+        "name": "民生委員児童委員活動経費",
+        "parts": [
+          {
+            "raw": "民生委員児童委員活動経",
+            "start": 9236
+          },
+          {
+            "raw": "費",
+            "start": 9250
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit complete title column fragments, excluding interleaved department label. Individual identity only, not guessed score/amount/year."
+      },
+      {
+        "name": "任意事業費",
+        "parts": [
+          {
+            "raw": "任意事業費",
+            "start": 9261
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit complete title column fragments, excluding interleaved department label. Individual identity only, not guessed score/amount/year."
+      },
+      {
+        "name": "介護保険事業協力補助金",
+        "parts": [
+          {
+            "raw": "介護保険事業協力補助金",
+            "start": 9278
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit complete title column fragments, excluding interleaved department label. Individual identity only, not guessed score/amount/year."
+      },
+      {
+        "name": "生きがい対策事務経費",
+        "parts": [
+          {
+            "raw": "生きがい対策事務経費",
+            "start": 9301
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit complete title column fragments, excluding interleaved department label. Individual identity only, not guessed score/amount/year.",
+        "department": "地域包括ケア推進課",
+        "departmentParts": [
+          {
+            "raw": "地域包括ケア推進",
+            "start": 9292
+          },
+          {
+            "raw": "課",
+            "start": 9312
+          }
+        ],
+        "identityProof": {
+          "raw": "地域包括ケア推進\n生きがい対策事務経費\n課",
+          "start": 9292
+        }
+      },
+      {
+        "name": "介護予防事務経費",
+        "parts": [
+          {
+            "raw": "介護予防事務経費",
+            "start": 9323
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit complete title column fragments, excluding interleaved department label. Individual identity only, not guessed score/amount/year."
+      },
+      {
+        "name": "一般介護予防事業費",
+        "parts": [
+          {
+            "raw": "一般介護予防事業費",
+            "start": 9343
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit complete title column fragments, excluding interleaved department label. Individual identity only, not guessed score/amount/year.",
+        "department": "地域包括ケア推進課",
+        "departmentParts": [
+          {
+            "raw": "地域包括ケア推進",
+            "start": 9334
+          },
+          {
+            "raw": "課",
+            "start": 9353
+          }
+        ],
+        "identityProof": {
+          "raw": "地域包括ケア推進\n一般介護予防事業費\n課",
+          "start": 9334
+        }
+      },
+      {
+        "name": "公民館運営事業費",
+        "parts": [
+          {
+            "raw": "公民館運営事業費",
+            "start": 16201
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Printed complete name; explicit same-row department only where quoted, never inferred missing facility qualifiers."
+      },
+      {
+        "name": "河川事務経費",
+        "parts": [
+          {
+            "raw": "河川事務経費",
+            "start": 22200
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Printed complete name; explicit same-row department only where quoted, never inferred missing facility qualifiers.",
+        "department": "河川下水道総務課",
+        "identityProof": {
+          "raw": "河川下水道総務課 河川事務経費",
+          "start": 22191
+        },
+        "departmentParts": [
+          {
+            "raw": "河川下水道総務課",
+            "start": 22191
+          }
+        ]
+      },
+      {
+        "name": "河川事務経費",
+        "parts": [
+          {
+            "raw": "河川事務経費",
+            "start": 22216
+          }
+        ],
+        "evaluationYear": 2024,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Printed complete name; explicit same-row department only where quoted, never inferred missing facility qualifiers.",
+        "department": "河川下水道施設課",
+        "identityProof": {
+          "raw": "河川下水道施設課 河川事務経費",
+          "start": 22207
+        },
+        "departmentParts": [
+          {
+            "raw": "河川下水道施設課",
+            "start": 22207
+          }
+        ]
       }
     ],
     "holds": [
       {
-        "raw": "個人住民税課税事務費",
-        "start": 8071,
-        "name": "個人住民税課税事務費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "くらし交通安全課 防犯啓発事業費",
-        "start": 16101,
-        "name": "くらし交通安全課防犯啓発事業費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "くらし交通安全課 防犯灯設置事業費",
-        "start": 16139,
-        "name": "くらし交通安全課防犯灯設置事業費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "くらし交通安全課 防犯事務費",
-        "start": 16174,
-        "name": "くらし交通安全課防犯事務費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "公民館運営事業費",
-        "start": 16201,
-        "name": "公民館運営事業費",
-        "reason": "generic_hall_title_detached_from_facility_identity"
-      },
-      {
-        "raw": "くらし交通安全課 防犯灯維持管理事業費",
-        "start": 16306,
-        "name": "くらし交通安全課防犯灯維持管理事業費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "くらし交通安全課 保健衛生事務費",
         "start": 16411,
-        "name": "くらし交通安全課保健衛生事務費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "河川下水道総務課 河川事務経費\n河川下水道施設課 河川事務経費",
-        "start": 22191,
-        "name": "河川下水道総務課河川事務経費河川下水道施設課河川事務経費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "河川下水道施設課 排水路維持管理事業費",
-        "start": 22332,
-        "name": "河川下水道施設課排水路維持管理事業費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "猿ヶ島汚泥貯留地上部利用施\n河川下水道施設課 設関連維持管理事業費",
-        "start": 22371,
-        "name": "猿ヶ島汚泥貯留地上部利用施河川下水道施設課設関連維持管理事業費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "農業委員会事務局 農業委員会運営費",
-        "start": 25568,
-        "name": "農業委員会事務局農業委員会運営費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "農業委員会事務局 国有農地管理事業費",
-        "start": 25612,
-        "name": "農業委員会事務局国有農地管理事業費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "農業委員会事務局 農業委員会事務経費",
-        "start": 25657,
-        "name": "農業委員会事務局農業委員会事務経費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
+        "name": "保健衛生事務費",
+        "status": "same_name_identity_hold",
+        "reason": "Same-year title already proposed; distinct departmental identity is not inferred from a detached block."
       }
     ],
     "duplicates": [],
-    "existingDuplicates": []
+    "existingDuplicates": [],
+    "municipalityName": "厚木市"
   },
   {
     "sourceId": "f124706377b12b5e0347e9f4",
@@ -2556,124 +4617,397 @@ export const configs = [
         "evaluatedFiscalYear": null,
         "sourceRowCode": "147",
         "reason": "Name fragments in bounded individual table row; no scores or amounts or execution year inferred."
+      },
+      {
+        "name": "スポーツ少年団連絡協議会補助金",
+        "parts": [
+          {
+            "raw": "スポーツ少年団連絡協",
+            "start": 16279
+          },
+          {
+            "raw": "議会補助金",
+            "start": 16292
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicitly mapped title fragments excluding interleaved department labels; no numeric/department/code association inferred."
+      },
+      {
+        "name": "南毛利スポーツセンター維持管理事業費",
+        "parts": [
+          {
+            "raw": "南毛利スポーツセン",
+            "start": 16605
+          },
+          {
+            "raw": "ター維持管理事業費",
+            "start": 16617
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicitly mapped title fragments excluding interleaved department labels; no numeric/department/code association inferred."
+      },
+      {
+        "name": "猿ヶ島スポーツセンター維持管理事業費",
+        "parts": [
+          {
+            "raw": "猿ヶ島スポーツセン",
+            "start": 16679
+          },
+          {
+            "raw": "ター維持管理事業費",
+            "start": 16691
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicitly mapped title fragments excluding interleaved department labels; no numeric/department/code association inferred."
+      },
+      {
+        "name": "東町スポーツセンター維持管理事業費",
+        "parts": [
+          {
+            "raw": "東町スポーツセンター",
+            "start": 16814
+          },
+          {
+            "raw": "維持管理事業費",
+            "start": 16827
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicitly mapped title fragments excluding interleaved department labels; no numeric/department/code association inferred."
+      },
+      {
+        "name": "南毛利スポーツセンター維持補修事業費",
+        "parts": [
+          {
+            "raw": "南毛利スポーツセン",
+            "start": 16950
+          },
+          {
+            "raw": "ター維持補修事業費",
+            "start": 16962
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicitly mapped title fragments excluding interleaved department labels; no numeric/department/code association inferred."
+      },
+      {
+        "name": "河川愛護事業費",
+        "parts": [
+          {
+            "raw": "河川愛護事業費",
+            "start": 19759
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicitly mapped title fragments excluding interleaved department labels; no numeric/department/code association inferred."
+      },
+      {
+        "name": "水路敷管理事業費",
+        "parts": [
+          {
+            "raw": "水路敷管理事業費",
+            "start": 19953
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicitly mapped title fragments excluding interleaved department labels; no numeric/department/code association inferred."
+      },
+      {
+        "name": "河川維持補修事業費",
+        "parts": [
+          {
+            "raw": "河川維持補修事業費",
+            "start": 20009
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicitly mapped title fragments excluding interleaved department labels; no numeric/department/code association inferred."
+      },
+      {
+        "name": "排水路整備事業費",
+        "parts": [
+          {
+            "raw": "排水路整備事業費",
+            "start": 20065
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicitly mapped title fragments excluding interleaved department labels; no numeric/department/code association inferred."
+      },
+      {
+        "name": "排水路維持補修事業費",
+        "parts": [
+          {
+            "raw": "排水路維持補修事業費",
+            "start": 20108
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicitly mapped title fragments excluding interleaved department labels; no numeric/department/code association inferred."
+      },
+      {
+        "name": "普通河川改修事業費",
+        "parts": [
+          {
+            "raw": "普通河川改修事業費",
+            "start": 20153
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicitly mapped title fragments excluding interleaved department labels; no numeric/department/code association inferred."
+      },
+      {
+        "name": "農業者年金事業費",
+        "parts": [
+          {
+            "raw": "農業者年金事業費",
+            "start": 23079
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicitly mapped title fragments excluding interleaved department labels; no numeric/department/code association inferred."
+      },
+      {
+        "name": "スポーツ協会補助金",
+        "parts": [
+          {
+            "raw": "スポーツ協会補助金",
+            "start": 16215
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "スポーツ交流事業費",
+        "parts": [
+          {
+            "raw": "スポーツ交流事業費",
+            "start": 16350
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "体育施設維持管理事業費",
+        "parts": [
+          {
+            "raw": "体育施設維持管理事業",
+            "start": 16471
+          },
+          {
+            "raw": "費",
+            "start": 16484
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "体育施設事務経費",
+        "parts": [
+          {
+            "raw": "体育施設事務経費",
+            "start": 16887
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit business-name column fragments; detached department text excluded and no numbers or row association inferred."
+      },
+      {
+        "name": "全国スポーツ大会等補助金",
+        "parts": [
+          {
+            "raw": "全国スポーツ大会等補",
+            "start": 16147
+          },
+          {
+            "raw": "助金",
+            "start": 16160
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Complete literal name fragments in the individual business table; all other attributes left unset."
+      },
+      {
+        "name": "及川球技場維持管理事業費",
+        "parts": [
+          {
+            "raw": "及川球技場維持管理事",
+            "start": 16538
+          },
+          {
+            "raw": "業費",
+            "start": 16551
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Complete literal name fragments in the individual business table; all other attributes left unset."
+      },
+      {
+        "name": "玉川野球場維持管理事業費",
+        "parts": [
+          {
+            "raw": "玉川野球場維持管理事",
+            "start": 16753
+          },
+          {
+            "raw": "業費",
+            "start": 16766
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Complete literal name fragments in the individual business table; all other attributes left unset."
+      },
+      {
+        "name": "私道整備助成金",
+        "parts": [
+          {
+            "raw": "私道整備助成金",
+            "start": 19699
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Complete literal name fragments in the individual business table; all other attributes left unset."
+      },
+      {
+        "name": "選挙管理委員会事務経費",
+        "parts": [
+          {
+            "raw": "選挙管理委員会事務経",
+            "start": 22822
+          },
+          {
+            "raw": "費",
+            "start": 22836
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Complete literal name fragments in the individual business table; all other attributes left unset."
+      },
+      {
+        "name": "参議院議員通常選挙執行費",
+        "parts": [
+          {
+            "raw": "参議院議員通常選挙執",
+            "start": 22891
+          },
+          {
+            "raw": "行費",
+            "start": 22905
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Complete literal name fragments in the individual business table; all other attributes left unset."
+      },
+      {
+        "name": "学校体育施設開放費",
+        "parts": [
+          {
+            "raw": "学校体育施設開放費",
+            "start": 16414
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit complete title column fragments, excluding interleaved department label. Individual identity only, not guessed score/amount/year."
+      },
+      {
+        "name": "厚木環状２号線用地取得事業費",
+        "parts": [
+          {
+            "raw": "厚木環状２号線用地取",
+            "start": 19573
+          },
+          {
+            "raw": "得事業費",
+            "start": 19584
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Explicit complete title column fragments, excluding interleaved department label. Individual identity only, not guessed score/amount/year."
+      },
+      {
+        "name": "任意事業費",
+        "parts": [
+          {
+            "raw": "任意事業費",
+            "start": 8156
+          }
+        ],
+        "evaluationYear": 2025,
+        "evaluatedFiscalYear": null,
+        "sourceRowCode": null,
+        "reason": "Printed complete name; explicit same-row department only where quoted, never inferred missing facility qualifiers.",
+        "department": "地域包括ケア推進課",
+        "identityProof": {
+          "raw": "45 市民福祉部\n\n地域包括ケア推進\n任意事業費\n課",
+          "start": 8137
+        },
+        "departmentParts": [
+          {
+            "raw": "地域包括ケア推進",
+            "start": 8147
+          },
+          {
+            "raw": "課",
+            "start": 8162
+          }
+        ]
       }
     ],
-    "holds": [
-      {
-        "raw": "地域包括ケア推進 福祉総合情報システム\n課\n維持管理事業費",
-        "start": 7551,
-        "name": "地域包括ケア推進福祉総合情報システム課維持管理事業費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "地域包括ケア推進 民生委員児童委員協議\n課\n会補助金",
-        "start": 7902,
-        "name": "地域包括ケア推進民生委員児童委員協議課会補助金",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "地域包括ケア推進 介護予防・生活支援\n課\nサービス事業費",
-        "start": 8082,
-        "name": "地域包括ケア推進介護予防・生活支援課サービス事業費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "くらし交通安全課 交通安全事務経費",
-        "start": 14588,
-        "name": "くらし交通安全課交通安全事務経費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "くらし交通安全課 防犯協会交付金",
-        "start": 14681,
-        "name": "くらし交通安全課防犯協会交付金",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "くらし交通安全課 防犯活動事業費",
-        "start": 14731,
-        "name": "くらし交通安全課防犯活動事業費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "くらし交通安全課 防犯灯維持管理事業費",
-        "start": 14778,
-        "name": "くらし交通安全課防犯灯維持管理事業費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "スポーツ魅力創造 スポーツ少年団連絡協\n課\n議会補助金",
-        "start": 16270,
-        "name": "スポーツ魅力創造スポーツ少年団連絡協課議会補助金",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "スポーツ魅力創造 南毛利スポーツセン\n課\nター維持管理事業費",
-        "start": 16596,
-        "name": "スポーツ魅力創造南毛利スポーツセン課ター維持管理事業費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "スポーツ魅力創造 猿ヶ島スポーツセン\n課\nター維持管理事業費",
-        "start": 16670,
-        "name": "スポーツ魅力創造猿ヶ島スポーツセン課ター維持管理事業費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "スポーツ魅力創造 東町スポーツセンター\n課\n維持管理事業費",
-        "start": 16805,
-        "name": "スポーツ魅力創造東町スポーツセンター課維持管理事業費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "スポーツ魅力創造 南毛利スポーツセン\n課\nター維持補修事業費",
-        "start": 16941,
-        "name": "スポーツ魅力創造南毛利スポーツセン課ター維持補修事業費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "河川下水道総務課 河川愛護事業費",
-        "start": 19750,
-        "name": "河川下水道総務課河川愛護事業費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "河川下水道総務課 水路敷管理事業費",
-        "start": 19944,
-        "name": "河川下水道総務課水路敷管理事業費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "河川下水道施設課 河川維持補修事業費",
-        "start": 20000,
-        "name": "河川下水道施設課河川維持補修事業費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "河川下水道施設課 排水路整備事業費",
-        "start": 20056,
-        "name": "河川下水道施設課排水路整備事業費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "河川下水道施設課 排水路維持補修事業費",
-        "start": 20099,
-        "name": "河川下水道施設課排水路維持補修事業費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "河川下水道施設課 普通河川改修事業費",
-        "start": 20144,
-        "name": "河川下水道施設課普通河川改修事業費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      },
-      {
-        "raw": "農業委員会事務局 農業者年金事業費",
-        "start": 23070,
-        "name": "農業委員会事務局農業者年金事業費",
-        "reason": "department_interleaving_requires_explicit_fragment_map"
-      }
-    ],
+    "holds": [],
     "duplicates": [
       {
         "name": "中国残留邦人等支援事業費",
@@ -2758,6 +5092,7 @@ export const configs = [
         "reason": "Complete business-name column title on report page; code/dept/ratings left unset because page-top columns are detached."
       }
     ],
-    "existingDuplicates": []
+    "existingDuplicates": [],
+    "municipalityName": "厚木市"
   }
 ];

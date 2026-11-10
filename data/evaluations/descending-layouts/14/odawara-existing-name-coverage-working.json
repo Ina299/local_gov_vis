@@ -1,0 +1,3096 @@
+{
+  "sourceId": "e7168fade5fc94bba795dfa8",
+  "fullTextSha256": "9fbe00a6d16263ba9b64eb9c5e4c8179e30a66bf3c773738848584e9e075231a",
+  "datasetSha256": "0aa925f1c2583b0cd3491f61a22c5dbaac8eb8330683f97c1c1db31836cf9fa3",
+  "existingRecords": 582,
+  "matches": [
+    {
+      "id": "14206-2025-100102",
+      "name": "ファミリー・サポート・センター管理運営事業",
+      "normalizedTextOffset": 162598
+    },
+    {
+      "id": "14206-2025-100103",
+      "name": "子育て支援フェスティバル開催事業",
+      "normalizedTextOffset": 162140
+    },
+    {
+      "id": "14206-2025-100104",
+      "name": "地域子育てひろば事業",
+      "normalizedTextOffset": 164527
+    },
+    {
+      "id": "14206-2025-100105",
+      "name": "児童遊園地管理補助事業",
+      "normalizedTextOffset": 164537
+    },
+    {
+      "id": "14206-2025-100106",
+      "name": "子育て支援拠点管理運営事業",
+      "normalizedTextOffset": 164548
+    },
+    {
+      "id": "14206-2025-100107",
+      "name": "児童プラザ管理運営事業",
+      "normalizedTextOffset": 164561
+    },
+    {
+      "id": "14206-2025-100108",
+      "name": "子育て支援情報提供事業",
+      "normalizedTextOffset": 167143
+    },
+    {
+      "id": "14206-2025-100109",
+      "name": "児童手当支給事業",
+      "normalizedTextOffset": 167154
+    },
+    {
+      "id": "14206-2025-100110",
+      "name": "児童扶養手当支給事業",
+      "normalizedTextOffset": 167162
+    },
+    {
+      "id": "14206-2025-100111",
+      "name": "母子家庭等自立支援事業",
+      "normalizedTextOffset": 167172
+    },
+    {
+      "id": "14206-2025-100112",
+      "name": "ひとり親家庭等医療費助成事業",
+      "normalizedTextOffset": 169271
+    },
+    {
+      "id": "14206-2025-100113",
+      "name": "小児医療費助成事業",
+      "normalizedTextOffset": 169285
+    },
+    {
+      "id": "14206-2025-100114",
+      "name": "未熟児養育医療費助成事業",
+      "normalizedTextOffset": 169294
+    },
+    {
+      "id": "14206-2025-100117",
+      "name": "出産・子育て応援事業",
+      "normalizedTextOffset": 171870
+    },
+    {
+      "id": "14206-2025-100201",
+      "name": "公立保育所管理運営事業",
+      "normalizedTextOffset": 178177
+    },
+    {
+      "id": "14206-2025-100202",
+      "name": "民間施設等運営費補助事業",
+      "normalizedTextOffset": 178337
+    },
+    {
+      "id": "14206-2025-100203",
+      "name": "教育・保育関連事務",
+      "normalizedTextOffset": 178380
+    },
+    {
+      "id": "14206-2025-100204",
+      "name": "教育・保育施設等整備事業",
+      "normalizedTextOffset": 178567
+    },
+    {
+      "id": "14206-2025-100205",
+      "name": "多様な保育推進補助事業",
+      "normalizedTextOffset": 179822
+    },
+    {
+      "id": "14206-2025-100206",
+      "name": "認可外保育施設支援事業",
+      "normalizedTextOffset": 179862
+    },
+    {
+      "id": "14206-2025-100207",
+      "name": "就学前教育・保育充実事業",
+      "normalizedTextOffset": 179995
+    },
+    {
+      "id": "14206-2025-100208",
+      "name": "就学前教育・保育施設再編整備事業",
+      "normalizedTextOffset": 180168
+    },
+    {
+      "id": "14206-2025-100209",
+      "name": "私立幼稚園教育支援事業",
+      "normalizedTextOffset": 181896
+    },
+    {
+      "id": "14206-2025-100251",
+      "name": "公立幼稚園教育推進事業",
+      "normalizedTextOffset": 288869
+    },
+    {
+      "id": "14206-2025-100301",
+      "name": "子育て世代包括支援事業",
+      "normalizedTextOffset": 171543
+    },
+    {
+      "id": "14206-2025-100303",
+      "name": "乳児家庭全戸訪問事業",
+      "normalizedTextOffset": 171677
+    },
+    {
+      "id": "14206-2025-100304",
+      "name": "乳幼児健康診査事業",
+      "normalizedTextOffset": 172746
+    },
+    {
+      "id": "14206-2025-100305",
+      "name": "育児相談事業",
+      "normalizedTextOffset": 172877
+    },
+    {
+      "id": "14206-2025-100306",
+      "name": "母子訪問指導事業",
+      "normalizedTextOffset": 172886
+    },
+    {
+      "id": "14206-2025-100307",
+      "name": "母子健康教育事業",
+      "normalizedTextOffset": 172906
+    },
+    {
+      "id": "14206-2025-100308",
+      "name": "不育症治療費助成事業",
+      "normalizedTextOffset": 174076
+    },
+    {
+      "id": "14206-2025-100351",
+      "name": "子ども若者相談支援事業",
+      "normalizedTextOffset": 174298
+    },
+    {
+      "id": "14206-2025-100352",
+      "name": "早期発達支援事業",
+      "normalizedTextOffset": 174330
+    },
+    {
+      "id": "14206-2025-100353",
+      "name": "養育支援家庭訪問事業",
+      "normalizedTextOffset": 174963
+    },
+    {
+      "id": "14206-2025-100354",
+      "name": "おだわら子ども若者教育支援センター運営事業",
+      "normalizedTextOffset": 175791
+    },
+    {
+      "id": "14206-2025-100355",
+      "name": "市障害児通園施設「つくしんぼ教室」運営事業",
+      "normalizedTextOffset": 175812
+    },
+    {
+      "id": "14206-2025-100356",
+      "name": "保育所等訪問支援事業",
+      "normalizedTextOffset": 175833
+    },
+    {
+      "id": "14206-2025-100357",
+      "name": "子育て短期支援事業（ショートステイ・トワイライトステイ）",
+      "normalizedTextOffset": 176061
+    },
+    {
+      "id": "14206-2025-100401",
+      "name": "青少年健全育成施策推進事業",
+      "normalizedTextOffset": 181907
+    },
+    {
+      "id": "14206-2025-100402",
+      "name": "子どもの社会参画力育成事業",
+      "normalizedTextOffset": 181920
+    },
+    {
+      "id": "14206-2025-100403",
+      "name": "青少年指導者等養成事業",
+      "normalizedTextOffset": 181933
+    },
+    {
+      "id": "14206-2025-100404",
+      "name": "子どもの居場所づくり事業",
+      "normalizedTextOffset": 185240
+    },
+    {
+      "id": "14206-2025-100405",
+      "name": "はたちのつどい開催事業",
+      "normalizedTextOffset": 185252
+    },
+    {
+      "id": "14206-2025-100406",
+      "name": "青少年関係団体支援事業",
+      "normalizedTextOffset": 185263
+    },
+    {
+      "id": "14206-2025-10101",
+      "name": "重層的支援体制整備事業",
+      "normalizedTextOffset": 105377
+    },
+    {
+      "id": "14206-2025-10102",
+      "name": "成年後見制度利用促進事業",
+      "normalizedTextOffset": 105388
+    },
+    {
+      "id": "14206-2025-10103",
+      "name": "福祉監査指導事業",
+      "normalizedTextOffset": 105752
+    },
+    {
+      "id": "14206-2025-10201",
+      "name": "民生委員児童委員事業",
+      "normalizedTextOffset": 106621
+    },
+    {
+      "id": "14206-2025-10202",
+      "name": "市社会福祉協議会補助事業",
+      "normalizedTextOffset": 106676
+    },
+    {
+      "id": "14206-2025-10203",
+      "name": "地域共生社会推進事業",
+      "normalizedTextOffset": 106835
+    },
+    {
+      "id": "14206-2025-10204",
+      "name": "避難行動要支援者支援事業",
+      "normalizedTextOffset": 107510
+    },
+    {
+      "id": "14206-2025-10211",
+      "name": "社会福祉センター管理運営事業",
+      "normalizedTextOffset": 108272
+    },
+    {
+      "id": "14206-2025-10212",
+      "name": "ふらっと城山管理事業",
+      "normalizedTextOffset": 108412
+    },
+    {
+      "id": "14206-2025-10301",
+      "name": "生活困窮者自立支援事業",
+      "normalizedTextOffset": 108422
+    },
+    {
+      "id": "14206-2025-10302",
+      "name": "中間的就労運営事業",
+      "normalizedTextOffset": 108545
+    },
+    {
+      "id": "14206-2025-10303",
+      "name": "中国在留邦人等支援事業",
+      "normalizedTextOffset": 109616
+    },
+    {
+      "id": "14206-2025-10305",
+      "name": "被災者支援事業",
+      "normalizedTextOffset": 109830
+    },
+    {
+      "id": "14206-2025-10306",
+      "name": "遺族援護等事業",
+      "normalizedTextOffset": 109744
+    },
+    {
+      "id": "14206-2025-10307",
+      "name": "外国籍高齢者・障がい者等福祉給付事業",
+      "normalizedTextOffset": 110373
+    },
+    {
+      "id": "14206-2025-10311",
+      "name": "物価高騰対応支援給付金給付事業",
+      "normalizedTextOffset": 110391
+    },
+    {
+      "id": "14206-2025-10351",
+      "name": "生活保護事業",
+      "normalizedTextOffset": 112556
+    },
+    {
+      "id": "14206-2025-10361",
+      "name": "国民年金事業",
+      "normalizedTextOffset": 141461
+    },
+    {
+      "id": "14206-2025-10362",
+      "name": "保険料収納率向上対策事業",
+      "normalizedTextOffset": 141467
+    },
+    {
+      "id": "14206-2025-10371",
+      "name": "国民健康保険事業特別会計への繰り出し",
+      "normalizedTextOffset": 143091
+    },
+    {
+      "id": "14206-2025-10372",
+      "name": "国民健康保険診療施設事業特別会計への繰り出し",
+      "normalizedTextOffset": 143134
+    },
+    {
+      "id": "14206-2025-10373",
+      "name": "後期高齢者医療事業特別会計への繰り出し",
+      "normalizedTextOffset": 143156
+    },
+    {
+      "id": "14206-2025-10374",
+      "name": "片浦診療所あり方検討事業",
+      "normalizedTextOffset": 143175
+    },
+    {
+      "id": "14206-2025-110101",
+      "name": "学力向上支援事業",
+      "normalizedTextOffset": 301591
+    },
+    {
+      "id": "14206-2025-110102",
+      "name": "外国語教育推進事業",
+      "normalizedTextOffset": 301599
+    },
+    {
+      "id": "14206-2025-110103",
+      "name": "読書活動推進事業",
+      "normalizedTextOffset": 302941
+    },
+    {
+      "id": "14206-2025-110104",
+      "name": "ICT活用教育推進事業",
+      "normalizedTextOffset": 303163
+    },
+    {
+      "id": "14206-2025-110105",
+      "name": "人権教育推進事業",
+      "normalizedTextOffset": 304204
+    },
+    {
+      "id": "14206-2025-110106",
+      "name": "情操教育充実事業",
+      "normalizedTextOffset": 304217
+    },
+    {
+      "id": "14206-2025-110107",
+      "name": "体力・運動能力向上事業",
+      "normalizedTextOffset": 304393
+    },
+    {
+      "id": "14206-2025-110108",
+      "name": "部活動活性化事業",
+      "normalizedTextOffset": 304404
+    },
+    {
+      "id": "14206-2025-110109",
+      "name": "郷土学習推進事業",
+      "normalizedTextOffset": 305947
+    },
+    {
+      "id": "14206-2025-110151",
+      "name": "健康診断事業",
+      "normalizedTextOffset": 295098
+    },
+    {
+      "id": "14206-2025-110152",
+      "name": "小学校健康診断事業",
+      "normalizedTextOffset": 295104
+    },
+    {
+      "id": "14206-2025-110153",
+      "name": "中学校健康診断事業",
+      "normalizedTextOffset": 295113
+    },
+    {
+      "id": "14206-2025-110154",
+      "name": "幼稚園健康診断事業",
+      "normalizedTextOffset": 296543
+    },
+    {
+      "id": "14206-2025-110155",
+      "name": "保健教育事業",
+      "normalizedTextOffset": 296734
+    },
+    {
+      "id": "14206-2025-110156",
+      "name": "学校安全対策事業",
+      "normalizedTextOffset": 296740
+    },
+    {
+      "id": "14206-2025-110201",
+      "name": "地域とともにある学校づくり推進事業",
+      "normalizedTextOffset": 288028
+    },
+    {
+      "id": "14206-2025-110202",
+      "name": "防災教育事業",
+      "normalizedTextOffset": 305955
+    },
+    {
+      "id": "14206-2025-110251",
+      "name": "放課後児童健全育成事業",
+      "normalizedTextOffset": 289646
+    },
+    {
+      "id": "14206-2025-110252",
+      "name": "放課後子ども教室事業",
+      "normalizedTextOffset": 186736
+    },
+    {
+      "id": "14206-2025-110301",
+      "name": "支援教育推進事業",
+      "normalizedTextOffset": 305961
+    },
+    {
+      "id": "14206-2025-110302",
+      "name": "教育相談等充実事業",
+      "normalizedTextOffset": 307922
+    },
+    {
+      "id": "14206-2025-110303",
+      "name": "児童生徒指導充実事業",
+      "normalizedTextOffset": 291135
+    },
+    {
+      "id": "14206-2025-110304",
+      "name": "小学校児童就学支援事業",
+      "normalizedTextOffset": 308780
+    },
+    {
+      "id": "14206-2025-110305",
+      "name": "中学校生徒就学支援事業",
+      "normalizedTextOffset": 308961
+    },
+    {
+      "id": "14206-2025-110306",
+      "name": "高等学校等奨学金事業",
+      "normalizedTextOffset": 308972
+    },
+    {
+      "id": "14206-2025-110404",
+      "name": "教育ネットワーク整備事業",
+      "normalizedTextOffset": 309396
+    },
+    {
+      "id": "14206-2025-110405",
+      "name": "校庭芝生管理事業",
+      "normalizedTextOffset": 292198
+    },
+    {
+      "id": "14206-2025-110406",
+      "name": "園庭芝生管理事業",
+      "normalizedTextOffset": 292212
+    },
+    {
+      "id": "14206-2025-110411",
+      "name": "学校給食事業",
+      "normalizedTextOffset": 296748
+    },
+    {
+      "id": "14206-2025-110412",
+      "name": "小学校給食事業",
+      "normalizedTextOffset": 298544
+    },
+    {
+      "id": "14206-2025-110413",
+      "name": "中学校給食事業",
+      "normalizedTextOffset": 298628
+    },
+    {
+      "id": "14206-2025-110414",
+      "name": "幼稚園給食事業",
+      "normalizedTextOffset": 298707
+    },
+    {
+      "id": "14206-2025-110415",
+      "name": "共同調理場学校給食事業",
+      "normalizedTextOffset": 298791
+    },
+    {
+      "id": "14206-2025-110421",
+      "name": "小学校給食調理施設・設備整備事業",
+      "normalizedTextOffset": 300266
+    },
+    {
+      "id": "14206-2025-110422",
+      "name": "中学校給食調理施設・設備整備事業",
+      "normalizedTextOffset": 300407
+    },
+    {
+      "id": "14206-2025-110423",
+      "name": "共同調理場施設・設備整備事業",
+      "normalizedTextOffset": 301014
+    },
+    {
+      "id": "14206-2025-110431",
+      "name": "学校給食センター整備事業",
+      "normalizedTextOffset": 300537
+    },
+    {
+      "id": "14206-2025-110451",
+      "name": "小学校教材等整備・管理事業",
+      "normalizedTextOffset": 293309
+    },
+    {
+      "id": "14206-2025-110452",
+      "name": "中学校教材等整備・管理事業",
+      "normalizedTextOffset": 293421
+    },
+    {
+      "id": "14206-2025-110453",
+      "name": "幼稚園教材等整備・管理事業",
+      "normalizedTextOffset": 293482
+    },
+    {
+      "id": "14206-2025-110454",
+      "name": "新しい学校づくり推進事業",
+      "normalizedTextOffset": 291517
+    },
+    {
+      "id": "14206-2025-110461",
+      "name": "教職員人事・服務・健康管理事業",
+      "normalizedTextOffset": 310513
+    },
+    {
+      "id": "14206-2025-110462",
+      "name": "教育研究所運営等事業",
+      "normalizedTextOffset": 310528
+    },
+    {
+      "id": "14206-2025-120101",
+      "name": "企業誘致促進事業",
+      "normalizedTextOffset": 185274
+    },
+    {
+      "id": "14206-2025-120102",
+      "name": "新しい働き方に対応した企業誘致推進事業",
+      "normalizedTextOffset": 189277
+    },
+    {
+      "id": "14206-2025-120103",
+      "name": "市内企業交流事業",
+      "normalizedTextOffset": 189296
+    },
+    {
+      "id": "14206-2025-120201",
+      "name": "起業家支援事業",
+      "normalizedTextOffset": 189304
+    },
+    {
+      "id": "14206-2025-120301",
+      "name": "新しい働き方推進環境整備事業",
+      "normalizedTextOffset": 189311
+    },
+    {
+      "id": "14206-2025-120302",
+      "name": "新しい働き方拠点運営事業",
+      "normalizedTextOffset": 191624
+    },
+    {
+      "id": "14206-2025-120303",
+      "name": "労働団体等環境整備事業",
+      "normalizedTextOffset": 191636
+    },
+    {
+      "id": "14206-2025-120304",
+      "name": "若年者雇用支援事業",
+      "normalizedTextOffset": 191647
+    },
+    {
+      "id": "14206-2025-120401",
+      "name": "中小企業経営支援事業",
+      "normalizedTextOffset": 191713
+    },
+    {
+      "id": "14206-2025-120402",
+      "name": "中小企業融資等支援事業",
+      "normalizedTextOffset": 193877
+    },
+    {
+      "id": "14206-2025-120403",
+      "name": "小田原箱根商工会議所運営補助事業",
+      "normalizedTextOffset": 193888
+    },
+    {
+      "id": "14206-2025-120404",
+      "name": "市橘商工会運営補助事業",
+      "normalizedTextOffset": 193904
+    },
+    {
+      "id": "14206-2025-120405",
+      "name": "地域経済循環型住宅リフォーム支援事業",
+      "normalizedTextOffset": 193915
+    },
+    {
+      "id": "14206-2025-130101",
+      "name": "市商店街連合会補助事業",
+      "normalizedTextOffset": 198453
+    },
+    {
+      "id": "14206-2025-130102",
+      "name": "商店街団体等補助事業",
+      "normalizedTextOffset": 198633
+    },
+    {
+      "id": "14206-2025-130201",
+      "name": "地場産業団体活動支援事業",
+      "normalizedTextOffset": 196052
+    },
+    {
+      "id": "14206-2025-130202",
+      "name": "伝統的工芸品産業産地組合助成事業",
+      "normalizedTextOffset": 196064
+    },
+    {
+      "id": "14206-2025-130203",
+      "name": "産業発展功労者表彰事業",
+      "normalizedTextOffset": 196080
+    },
+    {
+      "id": "14206-2025-130204",
+      "name": "地場産業ＰＲ支援事業",
+      "normalizedTextOffset": 196091
+    },
+    {
+      "id": "14206-2025-130205",
+      "name": "各種展示会・見本市出展補助事業（販路開拓事業）",
+      "normalizedTextOffset": 198137
+    },
+    {
+      "id": "14206-2025-130206",
+      "name": "ものづくり・デザイン交流促進事業",
+      "normalizedTextOffset": 198160
+    },
+    {
+      "id": "14206-2025-130301",
+      "name": "空き店舗利活用促進事業",
+      "normalizedTextOffset": 200467
+    },
+    {
+      "id": "14206-2025-130302",
+      "name": "中心市街地商業振興事業",
+      "normalizedTextOffset": 200478
+    },
+    {
+      "id": "14206-2025-130311",
+      "name": "小田原地下街管理運営事業",
+      "normalizedTextOffset": 200489
+    },
+    {
+      "id": "14206-2025-130321",
+      "name": "地下街事業特別会計への繰り出し",
+      "normalizedTextOffset": 200816
+    },
+    {
+      "id": "14206-2025-140101",
+      "name": "農業の多様な担い手育成支援事業",
+      "normalizedTextOffset": 209515
+    },
+    {
+      "id": "14206-2025-140102",
+      "name": "農業交流促進事業",
+      "normalizedTextOffset": 209819
+    },
+    {
+      "id": "14206-2025-140103",
+      "name": "梅の里センター等管理運営事業",
+      "normalizedTextOffset": 209827
+    },
+    {
+      "id": "14206-2025-140201",
+      "name": "耕作放棄地活用支援事業",
+      "normalizedTextOffset": 209841
+    },
+    {
+      "id": "14206-2025-140202",
+      "name": "農業振興地域管理事業",
+      "normalizedTextOffset": 211707
+    },
+    {
+      "id": "14206-2025-140203",
+      "name": "ほ場整備事業",
+      "normalizedTextOffset": 211717
+    },
+    {
+      "id": "14206-2025-140204",
+      "name": "農道・用排水路整備事業",
+      "normalizedTextOffset": 212331
+    },
+    {
+      "id": "14206-2025-140205",
+      "name": "農道・用排水路維持管理事業",
+      "normalizedTextOffset": 212373
+    },
+    {
+      "id": "14206-2025-140206",
+      "name": "農業の有する多面的機能発揮促進事業",
+      "normalizedTextOffset": 213391
+    },
+    {
+      "id": "14206-2025-140301",
+      "name": "農業生物被害対策事業",
+      "normalizedTextOffset": 213681
+    },
+    {
+      "id": "14206-2025-140302",
+      "name": "農産物産地化事業",
+      "normalizedTextOffset": 213691
+    },
+    {
+      "id": "14206-2025-140311",
+      "name": "青果市場管理事業",
+      "normalizedTextOffset": 215805
+    },
+    {
+      "id": "14206-2025-140321",
+      "name": "公設地方卸売市場事業特別会計（青果市場分）への繰り出し",
+      "normalizedTextOffset": 215813
+    },
+    {
+      "id": "14206-2025-140401",
+      "name": "いこいの森管理運営事業",
+      "normalizedTextOffset": 215840
+    },
+    {
+      "id": "14206-2025-140402",
+      "name": "林道整備・管理事業",
+      "normalizedTextOffset": 216306
+    },
+    {
+      "id": "14206-2025-140403",
+      "name": "松くい虫防除事業",
+      "normalizedTextOffset": 217927
+    },
+    {
+      "id": "14206-2025-140404",
+      "name": "地域産木材利用拡大事業",
+      "normalizedTextOffset": 217935
+    },
+    {
+      "id": "14206-2025-140405",
+      "name": "木育推進事業",
+      "normalizedTextOffset": 217946
+    },
+    {
+      "id": "14206-2025-150101",
+      "name": "小田原漁港等整備事業",
+      "normalizedTextOffset": 220062
+    },
+    {
+      "id": "14206-2025-150102",
+      "name": "市営漁港等管理整備事業",
+      "normalizedTextOffset": 220072
+    },
+    {
+      "id": "14206-2025-150103",
+      "name": "水産資源保護事業",
+      "normalizedTextOffset": 220083
+    },
+    {
+      "id": "14206-2025-150201",
+      "name": "水産漁業関係者支援事業",
+      "normalizedTextOffset": 222317
+    },
+    {
+      "id": "14206-2025-150202",
+      "name": "漁業後継者育成事業",
+      "normalizedTextOffset": 222328
+    },
+    {
+      "id": "14206-2025-150203",
+      "name": "魚ブランド化促進事業",
+      "normalizedTextOffset": 222337
+    },
+    {
+      "id": "14206-2025-150211",
+      "name": "水産物消費拡大促進事業",
+      "normalizedTextOffset": 222347
+    },
+    {
+      "id": "14206-2025-150301",
+      "name": "水産市場施設管理運営事業",
+      "normalizedTextOffset": 225571
+    },
+    {
+      "id": "14206-2025-150302",
+      "name": "水産市場施設再整備検討事業",
+      "normalizedTextOffset": 225583
+    },
+    {
+      "id": "14206-2025-150311",
+      "name": "公設地方卸売市場事業特別会計（水産市場分）への繰り出し",
+      "normalizedTextOffset": 225596
+    },
+    {
+      "id": "14206-2025-150401",
+      "name": "交流促進施設管理運営事業",
+      "normalizedTextOffset": 226460
+    },
+    {
+      "id": "14206-2025-150402",
+      "name": "小田原みなとまつり開催事業",
+      "normalizedTextOffset": 227808
+    },
+    {
+      "id": "14206-2025-150403",
+      "name": "内水面漁業・遊漁船業交流体験支援事業",
+      "normalizedTextOffset": 227821
+    },
+    {
+      "id": "14206-2025-160101",
+      "name": "観光協会支援事業",
+      "normalizedTextOffset": 203299
+    },
+    {
+      "id": "14206-2025-160201",
+      "name": "健やかな食のまち小田原推進事業",
+      "normalizedTextOffset": 203307
+    },
+    {
+      "id": "14206-2025-160251",
+      "name": "食による商店街活性化事業",
+      "normalizedTextOffset": 203287
+    },
+    {
+      "id": "14206-2025-160301",
+      "name": "観光PR事業",
+      "normalizedTextOffset": 203322
+    },
+    {
+      "id": "14206-2025-160302",
+      "name": "観光交流拠点運営事業",
+      "normalizedTextOffset": 206137
+    },
+    {
+      "id": "14206-2025-160303",
+      "name": "広域連携観光推進事業",
+      "normalizedTextOffset": 206153
+    },
+    {
+      "id": "14206-2025-160401",
+      "name": "二次交通拡充事業",
+      "normalizedTextOffset": 207766
+    },
+    {
+      "id": "14206-2025-160402",
+      "name": "まち歩き観光推進事業",
+      "normalizedTextOffset": 207774
+    },
+    {
+      "id": "14206-2025-170151",
+      "name": "城址公園管理運営事業",
+      "normalizedTextOffset": 227839
+    },
+    {
+      "id": "14206-2025-170152",
+      "name": "城址公園植栽管理整備事業",
+      "normalizedTextOffset": 228542
+    },
+    {
+      "id": "14206-2025-170153",
+      "name": "遊園地管理運営事業",
+      "normalizedTextOffset": 229954
+    },
+    {
+      "id": "14206-2025-170154",
+      "name": "城址公園整備事業",
+      "normalizedTextOffset": 230046
+    },
+    {
+      "id": "14206-2025-170155",
+      "name": "史跡等管理活用事業",
+      "normalizedTextOffset": 230054
+    },
+    {
+      "id": "14206-2025-170161",
+      "name": "天守閣管理運営事業",
+      "normalizedTextOffset": 230063
+    },
+    {
+      "id": "14206-2025-170162",
+      "name": "歴史見聞館管理運営事業",
+      "normalizedTextOffset": 232236
+    },
+    {
+      "id": "14206-2025-190102",
+      "name": "地球温暖化対策推進事業",
+      "normalizedTextOffset": 87980
+    },
+    {
+      "id": "14206-2025-190201",
+      "name": "再生可能エネルギー導入促進事業",
+      "normalizedTextOffset": 89533
+    },
+    {
+      "id": "14206-2025-190202",
+      "name": "市役所脱炭素化推進事業",
+      "normalizedTextOffset": 89983
+    },
+    {
+      "id": "14206-2025-190203",
+      "name": "分散型エネルギーシステム先行モデル構築事業",
+      "normalizedTextOffset": 90382
+    },
+    {
+      "id": "14206-2025-200102",
+      "name": "環境基本計画推進事業",
+      "normalizedTextOffset": 81845
+    },
+    {
+      "id": "14206-2025-200103",
+      "name": "環境活動推進事業",
+      "normalizedTextOffset": 83648
+    },
+    {
+      "id": "14206-2025-200201",
+      "name": "コアジサシの保護事業",
+      "normalizedTextOffset": 90764
+    },
+    {
+      "id": "14206-2025-200202",
+      "name": "メダカの保護事業",
+      "normalizedTextOffset": 90774
+    },
+    {
+      "id": "14206-2025-200203",
+      "name": "野猿等対策事業",
+      "normalizedTextOffset": 90782
+    },
+    {
+      "id": "14206-2025-200204",
+      "name": "水質保全事業",
+      "normalizedTextOffset": 93019
+    },
+    {
+      "id": "14206-2025-200205",
+      "name": "地下水・土壌保全事業",
+      "normalizedTextOffset": 93025
+    },
+    {
+      "id": "14206-2025-200206",
+      "name": "大気保全事業",
+      "normalizedTextOffset": 93035
+    },
+    {
+      "id": "14206-2025-200207",
+      "name": "騒音振動対策事業",
+      "normalizedTextOffset": 93041
+    },
+    {
+      "id": "14206-2025-200208",
+      "name": "公害防止対策事業",
+      "normalizedTextOffset": 95065
+    },
+    {
+      "id": "14206-2025-200301",
+      "name": "森林整備事業",
+      "normalizedTextOffset": 218730
+    },
+    {
+      "id": "14206-2025-200302",
+      "name": "里地里山再生事業",
+      "normalizedTextOffset": 220054
+    },
+    {
+      "id": "14206-2025-200401",
+      "name": "酒匂川水系保全事業",
+      "normalizedTextOffset": 95081
+    },
+    {
+      "id": "14206-2025-200451",
+      "name": "河川環境整備事業",
+      "normalizedTextOffset": 254989
+    },
+    {
+      "id": "14206-2025-2004a10734f8",
+      "name": "犯罪被害者等支援事業",
+      "normalizedTextOffset": 34614
+    },
+    {
+      "id": "14206-2025-20101",
+      "name": "アクティブシニア応援ポイント事業",
+      "normalizedTextOffset": 113438
+    },
+    {
+      "id": "14206-2025-20102",
+      "name": "シルバー人材センター運営補助事業",
+      "normalizedTextOffset": 114554
+    },
+    {
+      "id": "14206-2025-20103",
+      "name": "老人クラブ活動補助事業",
+      "normalizedTextOffset": 113510
+    },
+    {
+      "id": "14206-2025-20104",
+      "name": "福寿カード交付事業",
+      "normalizedTextOffset": 113628
+    },
+    {
+      "id": "14206-2025-20105",
+      "name": "高齢者はり・きゅう・マッサージ等施術費助成事業",
+      "normalizedTextOffset": 114870
+    },
+    {
+      "id": "14206-2025-20106",
+      "name": "敬老行事・長寿祝事業",
+      "normalizedTextOffset": 116544
+    },
+    {
+      "id": "14206-2025-20151",
+      "name": "生きがいふれあいフェスティバル開催事業",
+      "normalizedTextOffset": 111290
+    },
+    {
+      "id": "14206-2025-20152",
+      "name": "生きがいふれあいセンター管理運営事業",
+      "normalizedTextOffset": 110786
+    },
+    {
+      "id": "14206-2025-20153",
+      "name": "前羽福祉館管理運営事業",
+      "normalizedTextOffset": 112087
+    },
+    {
+      "id": "14206-2025-20154",
+      "name": "下中老人憩の家管理運営事業",
+      "normalizedTextOffset": 112101
+    },
+    {
+      "id": "14206-2025-20201",
+      "name": "地域包括支援センター運営事業",
+      "normalizedTextOffset": 115117
+    },
+    {
+      "id": "14206-2025-20202",
+      "name": "地域ケア会議開催事業",
+      "normalizedTextOffset": 115131
+    },
+    {
+      "id": "14206-2025-20203",
+      "name": "在宅医療・介護連携事業",
+      "normalizedTextOffset": 117605
+    },
+    {
+      "id": "14206-2025-20204",
+      "name": "生活支援体制整備事業",
+      "normalizedTextOffset": 117616
+    },
+    {
+      "id": "14206-2025-20205",
+      "name": "認知症サポーター養成事業",
+      "normalizedTextOffset": 118565
+    },
+    {
+      "id": "14206-2025-20206",
+      "name": "認知症地域支援推進事業",
+      "normalizedTextOffset": 118785
+    },
+    {
+      "id": "14206-2025-20207",
+      "name": "認知症初期集中支援事業",
+      "normalizedTextOffset": 120389
+    },
+    {
+      "id": "14206-2025-20208",
+      "name": "高齢者成年後見制度利用支援事業",
+      "normalizedTextOffset": 120400
+    },
+    {
+      "id": "14206-2025-20209",
+      "name": "家族介護教室開催事業",
+      "normalizedTextOffset": 120415
+    },
+    {
+      "id": "14206-2025-20210",
+      "name": "家族介護用品支給事業",
+      "normalizedTextOffset": 120425
+    },
+    {
+      "id": "14206-2025-20211",
+      "name": "認知症等高齢者SOSネットワーク事業",
+      "normalizedTextOffset": 122611
+    },
+    {
+      "id": "14206-2025-20212",
+      "name": "食の自立支援事業",
+      "normalizedTextOffset": 122677
+    },
+    {
+      "id": "14206-2025-20213",
+      "name": "高齢者救急要請カード配付事業",
+      "normalizedTextOffset": 122880
+    },
+    {
+      "id": "14206-2025-20214",
+      "name": "独居老人等緊急通報システム事業",
+      "normalizedTextOffset": 123127
+    },
+    {
+      "id": "14206-2025-20215",
+      "name": "福祉タクシー利用助成事業",
+      "normalizedTextOffset": 124242
+    },
+    {
+      "id": "14206-2025-20216",
+      "name": "高齢者虐待防止ネットワーク事業",
+      "normalizedTextOffset": 124257
+    },
+    {
+      "id": "14206-2025-20217",
+      "name": "老人ホーム入所等措置事業",
+      "normalizedTextOffset": 124290
+    },
+    {
+      "id": "14206-2025-20301",
+      "name": "高齢者福祉介護計画推進事業",
+      "normalizedTextOffset": 125379
+    },
+    {
+      "id": "14206-2025-20302",
+      "name": "介護保険施設等整備費補助事業",
+      "normalizedTextOffset": 125849
+    },
+    {
+      "id": "14206-2025-20303",
+      "name": "介護保険事業運営事業",
+      "normalizedTextOffset": 126085
+    },
+    {
+      "id": "14206-2025-20304",
+      "name": "要介護認定事業",
+      "normalizedTextOffset": 126775
+    },
+    {
+      "id": "14206-2025-20305",
+      "name": "介護保険給付事業",
+      "normalizedTextOffset": 126103
+    },
+    {
+      "id": "14206-2025-20306",
+      "name": "介護サービス事業所指定等事業",
+      "normalizedTextOffset": 127135
+    },
+    {
+      "id": "14206-2025-20307",
+      "name": "市指定事業者指導監査事業",
+      "normalizedTextOffset": 127149
+    },
+    {
+      "id": "14206-2025-20308",
+      "name": "介護サービス事業者支援事業",
+      "normalizedTextOffset": 127404
+    },
+    {
+      "id": "14206-2025-20309",
+      "name": "ケアマネジメント技術向上支援事業",
+      "normalizedTextOffset": 128052
+    },
+    {
+      "id": "14206-2025-20310",
+      "name": "介護相談員派遣事業",
+      "normalizedTextOffset": 128932
+    },
+    {
+      "id": "14206-2025-20311",
+      "name": "社会福祉法人等利用者負担軽減事業",
+      "normalizedTextOffset": 129085
+    },
+    {
+      "id": "14206-2025-20312",
+      "name": "居宅介護支援事業者等事務費補助事業",
+      "normalizedTextOffset": 129101
+    },
+    {
+      "id": "14206-2025-20313",
+      "name": "介護給付適正化事業",
+      "normalizedTextOffset": 129330
+    },
+    {
+      "id": "14206-2025-20314",
+      "name": "訪問型サービス事業",
+      "normalizedTextOffset": 130492
+    },
+    {
+      "id": "14206-2025-20315",
+      "name": "通所型サービス事業",
+      "normalizedTextOffset": 130648
+    },
+    {
+      "id": "14206-2025-20321",
+      "name": "介護保険事業特別会計への繰り出し",
+      "normalizedTextOffset": 130852
+    },
+    {
+      "id": "14206-2025-20351",
+      "name": "鴨宮ケアセンター管理運営事業",
+      "normalizedTextOffset": 112355
+    },
+    {
+      "id": "14206-2025-210101",
+      "name": "ごみ減量意識啓発事業",
+      "normalizedTextOffset": 83656
+    },
+    {
+      "id": "14206-2025-210102",
+      "name": "指定ごみ袋販売事業",
+      "normalizedTextOffset": 84357
+    },
+    {
+      "id": "14206-2025-210103",
+      "name": "事業系ごみ減量強化事業",
+      "normalizedTextOffset": 84366
+    },
+    {
+      "id": "14206-2025-210104",
+      "name": "生ごみ減量・資源化推進事業",
+      "normalizedTextOffset": 85853
+    },
+    {
+      "id": "14206-2025-210105",
+      "name": "焼却灰等資源化事業",
+      "normalizedTextOffset": 85866
+    },
+    {
+      "id": "14206-2025-210106",
+      "name": "容器等再資源化事業",
+      "normalizedTextOffset": 86419
+    },
+    {
+      "id": "14206-2025-210107",
+      "name": "古紙リサイクル事業",
+      "normalizedTextOffset": 86428
+    },
+    {
+      "id": "14206-2025-210151",
+      "name": "分別排出奨励事業",
+      "normalizedTextOffset": 102329
+    },
+    {
+      "id": "14206-2025-210152",
+      "name": "ごみ分別指導事業",
+      "normalizedTextOffset": 102627
+    },
+    {
+      "id": "14206-2025-210201",
+      "name": "ごみ収集運搬事業",
+      "normalizedTextOffset": 103844
+    },
+    {
+      "id": "14206-2025-210203",
+      "name": "焼却施設管理運営事業",
+      "normalizedTextOffset": 104135
+    },
+    {
+      "id": "14206-2025-210204",
+      "name": "埋立処分場管理運営事業",
+      "normalizedTextOffset": 104149
+    },
+    {
+      "id": "14206-2025-210251",
+      "name": "小田原市・足柄下地区ごみ処理広域化推進事業",
+      "normalizedTextOffset": 87947
+    },
+    {
+      "id": "14206-2025-210301",
+      "name": "地域美化促進事業",
+      "normalizedTextOffset": 95114
+    },
+    {
+      "id": "14206-2025-210302",
+      "name": "環境美化促進重点地区美化事業",
+      "normalizedTextOffset": 95122
+    },
+    {
+      "id": "14206-2025-210303",
+      "name": "海岸美化推進事業",
+      "normalizedTextOffset": 97799
+    },
+    {
+      "id": "14206-2025-210304",
+      "name": "害虫駆除事業",
+      "normalizedTextOffset": 97807
+    },
+    {
+      "id": "14206-2025-210305",
+      "name": "公衆便所管理事業",
+      "normalizedTextOffset": 97813
+    },
+    {
+      "id": "14206-2025-210306",
+      "name": "公衆浴場補助事業",
+      "normalizedTextOffset": 97821
+    },
+    {
+      "id": "14206-2025-210307",
+      "name": "し尿収集事業",
+      "normalizedTextOffset": 100104
+    },
+    {
+      "id": "14206-2025-210308",
+      "name": "扇町クリーンセンター管理運営事業",
+      "normalizedTextOffset": 100267
+    },
+    {
+      "id": "14206-2025-210309",
+      "name": "犬・猫飼い方マナー啓発事業",
+      "normalizedTextOffset": 100283
+    },
+    {
+      "id": "14206-2025-210311",
+      "name": "斎場管理運営事業",
+      "normalizedTextOffset": 101980
+    },
+    {
+      "id": "14206-2025-210351",
+      "name": "不法投棄防止対策事業",
+      "normalizedTextOffset": 105149
+    },
+    {
+      "id": "14206-2025-220101",
+      "name": "立地適正化計画推進事業",
+      "normalizedTextOffset": 232247
+    },
+    {
+      "id": "14206-2025-220102",
+      "name": "都市空間デザイン事業",
+      "normalizedTextOffset": 232258
+    },
+    {
+      "id": "14206-2025-220151",
+      "name": "地域地区等見直し事業",
+      "normalizedTextOffset": 237840
+    },
+    {
+      "id": "14206-2025-220152",
+      "name": "地区計画等活用促進事業",
+      "normalizedTextOffset": 237850
+    },
+    {
+      "id": "14206-2025-220161",
+      "name": "地籍調査事業",
+      "normalizedTextOffset": 252226
+    },
+    {
+      "id": "14206-2025-220201",
+      "name": "街づくりアドバイザー事業",
+      "normalizedTextOffset": 233642
+    },
+    {
+      "id": "14206-2025-220251",
+      "name": "景観形成促進事業",
+      "normalizedTextOffset": 240809
+    },
+    {
+      "id": "14206-2025-220252",
+      "name": "景観形成修景事業",
+      "normalizedTextOffset": 242096
+    },
+    {
+      "id": "14206-2025-220301",
+      "name": "市街地再開発事業",
+      "normalizedTextOffset": 240790
+    },
+    {
+      "id": "14206-2025-230101",
+      "name": "住まいの情報発信事業",
+      "normalizedTextOffset": 234770
+    },
+    {
+      "id": "14206-2025-230102",
+      "name": "建築等に関する紛争調整事業",
+      "normalizedTextOffset": 234780
+    },
+    {
+      "id": "14206-2025-230103",
+      "name": "空家等対策事業",
+      "normalizedTextOffset": 234793
+    },
+    {
+      "id": "14206-2025-230201",
+      "name": "市営住宅運営事業",
+      "normalizedTextOffset": 265013
+    },
+    {
+      "id": "14206-2025-230301",
+      "name": "緑の基本計画推進事業",
+      "normalizedTextOffset": 257828
+    },
+    {
+      "id": "14206-2025-230302",
+      "name": "まちなか緑化支援事業",
+      "normalizedTextOffset": 259175
+    },
+    {
+      "id": "14206-2025-230303",
+      "name": "魅力ある街区公園・街路樹再整備事業",
+      "normalizedTextOffset": 259185
+    },
+    {
+      "id": "14206-2025-230304",
+      "name": "街区公園等整備維持管理事業",
+      "normalizedTextOffset": 259202
+    },
+    {
+      "id": "14206-2025-230311",
+      "name": "上府中公園管理運営事業",
+      "normalizedTextOffset": 259215
+    },
+    {
+      "id": "14206-2025-230312",
+      "name": "フラワーガーデン管理運営事業",
+      "normalizedTextOffset": 263088
+    },
+    {
+      "id": "14206-2025-230313",
+      "name": "こどもの森公園わんぱくらんど・辻󠄀村植物公園管理運営事業",
+      "normalizedTextOffset": 263500
+    },
+    {
+      "id": "14206-2025-230314",
+      "name": "久野霊園管理運営事業",
+      "normalizedTextOffset": 263528
+    },
+    {
+      "id": "14206-2025-230351",
+      "name": "県立おだわら諏訪の原公園整備促進事業",
+      "normalizedTextOffset": 249747
+    },
+    {
+      "id": "14206-2025-230361",
+      "name": "保存樹・保存樹林奨励金交付事業",
+      "normalizedTextOffset": 103258
+    },
+    {
+      "id": "14206-2025-240101",
+      "name": "路線バス等移動手段確保維持対策事業",
+      "normalizedTextOffset": 243238
+    },
+    {
+      "id": "14206-2025-240102",
+      "name": "鉄道利用環境改善等事業",
+      "normalizedTextOffset": 244362
+    },
+    {
+      "id": "14206-2025-240103",
+      "name": "小田原駅周辺駐車対策事業",
+      "normalizedTextOffset": 244537
+    },
+    {
+      "id": "14206-2025-240201",
+      "name": "都市計画道路見直し事業",
+      "normalizedTextOffset": 240798
+    },
+    {
+      "id": "14206-2025-240251",
+      "name": "国道・県道整備促進事業",
+      "normalizedTextOffset": 250851
+    },
+    {
+      "id": "14206-2025-240252",
+      "name": "伊豆湘南道路建設促進事業",
+      "normalizedTextOffset": 251463
+    },
+    {
+      "id": "14206-2025-240261",
+      "name": "幹線市道整備事業",
+      "normalizedTextOffset": 255890
+    },
+    {
+      "id": "14206-2025-240262",
+      "name": "魅力ある道路空間づくり事業",
+      "normalizedTextOffset": 255104
+    },
+    {
+      "id": "14206-2025-240301",
+      "name": "市民生活道路改良事業",
+      "normalizedTextOffset": 255563
+    },
+    {
+      "id": "14206-2025-240302",
+      "name": "踏切改良事業",
+      "normalizedTextOffset": 256370
+    },
+    {
+      "id": "14206-2025-240303",
+      "name": "道路用地購入事業",
+      "normalizedTextOffset": 256607
+    },
+    {
+      "id": "14206-2025-240304",
+      "name": "道路管理事業",
+      "normalizedTextOffset": 256862
+    },
+    {
+      "id": "14206-2025-240305",
+      "name": "道路維持事業",
+      "normalizedTextOffset": 256949
+    },
+    {
+      "id": "14206-2025-240306",
+      "name": "交通安全施設充実事業",
+      "normalizedTextOffset": 257568
+    },
+    {
+      "id": "14206-2025-240307",
+      "name": "橋りょう維持修繕事業",
+      "normalizedTextOffset": 257699
+    },
+    {
+      "id": "14206-2025-240361",
+      "name": "狭あい道路整備事業",
+      "normalizedTextOffset": 252753
+    },
+    {
+      "id": "14206-2025-240362",
+      "name": "私道整備事業費補助事業",
+      "normalizedTextOffset": 252762
+    },
+    {
+      "id": "14206-2025-250101",
+      "name": "水道施設整備事業",
+      "normalizedTextOffset": 284852
+    },
+    {
+      "id": "14206-2025-250102",
+      "name": "水道管路整備事業",
+      "normalizedTextOffset": 284860
+    },
+    {
+      "id": "14206-2025-250103",
+      "name": "水質管理保持事業",
+      "normalizedTextOffset": 287305
+    },
+    {
+      "id": "14206-2025-250201",
+      "name": "汚水管渠整備事業",
+      "normalizedTextOffset": 286143
+    },
+    {
+      "id": "14206-2025-250202",
+      "name": "雨水渠整備事業",
+      "normalizedTextOffset": 286271
+    },
+    {
+      "id": "14206-2025-250203",
+      "name": "下水道維持管理事業",
+      "normalizedTextOffset": 287296
+    },
+    {
+      "id": "14206-2025-250301",
+      "name": "健全経営確保事業（水道）",
+      "normalizedTextOffset": 280184
+    },
+    {
+      "id": "14206-2025-250302",
+      "name": "健全経営確保事業（下水道）",
+      "normalizedTextOffset": 280196
+    },
+    {
+      "id": "14206-2025-250303",
+      "name": "上下水道広報事業（水道）",
+      "normalizedTextOffset": 281183
+    },
+    {
+      "id": "14206-2025-250304",
+      "name": "上下水道広報事業（下水道）",
+      "normalizedTextOffset": 281195
+    },
+    {
+      "id": "14206-2025-250321",
+      "name": "水道事業会計への繰り出し",
+      "normalizedTextOffset": 282018
+    },
+    {
+      "id": "14206-2025-250322",
+      "name": "下水道事業会計への繰り出し",
+      "normalizedTextOffset": 282030
+    },
+    {
+      "id": "14206-2025-250331",
+      "name": "酒匂川流域下水道維持管理負担事業",
+      "normalizedTextOffset": 283412
+    },
+    {
+      "id": "14206-2025-250341",
+      "name": "上下水道料金等賦課徴収事業（水道）",
+      "normalizedTextOffset": 283468
+    },
+    {
+      "id": "14206-2025-250342",
+      "name": "上下水道料金等賦課徴収事業（下水道）",
+      "normalizedTextOffset": 283660
+    },
+    {
+      "id": "14206-2025-250343",
+      "name": "下水道接続促進事業",
+      "normalizedTextOffset": 283951
+    },
+    {
+      "id": "14206-2025-260101",
+      "name": "広報紙発刊事業",
+      "normalizedTextOffset": 60
+    },
+    {
+      "id": "14206-2025-260102",
+      "name": "メディア活用事業",
+      "normalizedTextOffset": 67
+    },
+    {
+      "id": "14206-2025-260103",
+      "name": "ホームページ等管理運用事業",
+      "normalizedTextOffset": 75
+    },
+    {
+      "id": "14206-2025-260104",
+      "name": "ふるさと大使事業",
+      "normalizedTextOffset": 1965
+    },
+    {
+      "id": "14206-2025-260105",
+      "name": "広報委員事業",
+      "normalizedTextOffset": 2125
+    },
+    {
+      "id": "14206-2025-260106",
+      "name": "市長への提案事業",
+      "normalizedTextOffset": 2623
+    },
+    {
+      "id": "14206-2025-260107",
+      "name": "市民と市長の懇談会事業",
+      "normalizedTextOffset": 2631
+    },
+    {
+      "id": "14206-2025-260108",
+      "name": "総合計画等推進事業",
+      "normalizedTextOffset": 2642
+    },
+    {
+      "id": "14206-2025-260109",
+      "name": "行政改革推進事業",
+      "normalizedTextOffset": 4054
+    },
+    {
+      "id": "14206-2025-260110",
+      "name": "全庁的改革改善促進事業",
+      "normalizedTextOffset": 4285
+    },
+    {
+      "id": "14206-2025-260111",
+      "name": "移住定住促進事業",
+      "normalizedTextOffset": 4296
+    },
+    {
+      "id": "14206-2025-260112",
+      "name": "ふるさと応援寄附金事業",
+      "normalizedTextOffset": 4304
+    },
+    {
+      "id": "14206-2025-260113",
+      "name": "自治体間連携推進事業",
+      "normalizedTextOffset": 6941
+    },
+    {
+      "id": "14206-2025-260114",
+      "name": "職員採用事業",
+      "normalizedTextOffset": 6951
+    },
+    {
+      "id": "14206-2025-260115",
+      "name": "職員研修事業",
+      "normalizedTextOffset": 6957
+    },
+    {
+      "id": "14206-2025-260116",
+      "name": "福利厚生事業",
+      "normalizedTextOffset": 6963
+    },
+    {
+      "id": "14206-2025-260117",
+      "name": "外部人材登用事業",
+      "normalizedTextOffset": 9557
+    },
+    {
+      "id": "14206-2025-260118",
+      "name": "ゼロカーボン・デジタルタウン創造事業",
+      "normalizedTextOffset": 9565
+    },
+    {
+      "id": "14206-2025-260119",
+      "name": "エリアブランディング構想策定事業",
+      "normalizedTextOffset": 9583
+    },
+    {
+      "id": "14206-2025-260120",
+      "name": "市民会館跡地等活用事業",
+      "normalizedTextOffset": 11322
+    },
+    {
+      "id": "14206-2025-260121",
+      "name": "早川駅周辺整備事業",
+      "normalizedTextOffset": 12082
+    },
+    {
+      "id": "14206-2025-260122",
+      "name": "イノベーション推進事業",
+      "normalizedTextOffset": 12091
+    },
+    {
+      "id": "14206-2025-260123",
+      "name": "若者未来創造事業",
+      "normalizedTextOffset": 12109
+    },
+    {
+      "id": "14206-2025-260124",
+      "name": "SDGs普及啓発事業",
+      "normalizedTextOffset": 12124
+    },
+    {
+      "id": "14206-2025-260125",
+      "name": "基幹業務システム管理運用事業",
+      "normalizedTextOffset": 15257
+    },
+    {
+      "id": "14206-2025-260126",
+      "name": "庁内ネットワークシステム管理運用事業",
+      "normalizedTextOffset": 15271
+    },
+    {
+      "id": "14206-2025-260127",
+      "name": "電子申請システム運用事業",
+      "normalizedTextOffset": 15289
+    },
+    {
+      "id": "14206-2025-260128",
+      "name": "公共施設予約システム管理運用事業",
+      "normalizedTextOffset": 17706
+    },
+    {
+      "id": "14206-2025-260129",
+      "name": "統合型地理情報システム管理運用事業",
+      "normalizedTextOffset": 17722
+    },
+    {
+      "id": "14206-2025-260132",
+      "name": "平和施策推進事業",
+      "normalizedTextOffset": 17946
+    },
+    {
+      "id": "14206-2025-260133",
+      "name": "文書管理システム運用事業",
+      "normalizedTextOffset": 18120
+    },
+    {
+      "id": "14206-2025-260134",
+      "name": "土地開発公社用地再取得事業",
+      "normalizedTextOffset": 19560
+    },
+    {
+      "id": "14206-2025-260135",
+      "name": "土地開発公社経営支援事業",
+      "normalizedTextOffset": 19989
+    },
+    {
+      "id": "14206-2025-260136",
+      "name": "公共施設再編活用事業",
+      "normalizedTextOffset": 19892
+    },
+    {
+      "id": "14206-2025-260137",
+      "name": "市有建築物長期保全事業",
+      "normalizedTextOffset": 19618
+    },
+    {
+      "id": "14206-2025-260138",
+      "name": "庁舎等維持管理事業",
+      "normalizedTextOffset": 21741
+    },
+    {
+      "id": "14206-2025-260139",
+      "name": "かながわ電子入札システム運用事業",
+      "normalizedTextOffset": 21831
+    },
+    {
+      "id": "14206-2025-260140",
+      "name": "市税収納率向上事業",
+      "normalizedTextOffset": 21847
+    },
+    {
+      "id": "14206-2025-260141",
+      "name": "市税収納管理事業",
+      "normalizedTextOffset": 21856
+    },
+    {
+      "id": "14206-2025-260142",
+      "name": "地方税事務電子化事業",
+      "normalizedTextOffset": 24016
+    },
+    {
+      "id": "14206-2025-260144",
+      "name": "小田原競輪経営改善事業",
+      "normalizedTextOffset": 24193
+    },
+    {
+      "id": "14206-2025-260145",
+      "name": "市民功労者等表彰事業",
+      "normalizedTextOffset": 24204
+    },
+    {
+      "id": "14206-2025-260146",
+      "name": "おだわら地域力市民力表彰事業",
+      "normalizedTextOffset": 25764
+    },
+    {
+      "id": "14206-2025-260147",
+      "name": "地域コミュニティ推進事業",
+      "normalizedTextOffset": 25816
+    },
+    {
+      "id": "14206-2025-260148",
+      "name": "地域活動拠点等整備事業",
+      "normalizedTextOffset": 25944
+    },
+    {
+      "id": "14206-2025-260149",
+      "name": "市民集会施設維持管理事業",
+      "normalizedTextOffset": 26131
+    },
+    {
+      "id": "14206-2025-260150",
+      "name": "川東タウンセンター管理運営事業",
+      "normalizedTextOffset": 27272
+    },
+    {
+      "id": "14206-2025-260151",
+      "name": "城北タウンセンター管理運営事業",
+      "normalizedTextOffset": 27352
+    },
+    {
+      "id": "14206-2025-260152",
+      "name": "橘タウンセンター管理運営事業",
+      "normalizedTextOffset": 28141
+    },
+    {
+      "id": "14206-2025-260153",
+      "name": "自治会活動活性化事業",
+      "normalizedTextOffset": 27581
+    },
+    {
+      "id": "14206-2025-260154",
+      "name": "地区行政事務委託事業",
+      "normalizedTextOffset": 29391
+    },
+    {
+      "id": "14206-2025-260155",
+      "name": "市民活動推進事業",
+      "normalizedTextOffset": 29401
+    },
+    {
+      "id": "14206-2025-260156",
+      "name": "市民交流センター管理運営事業",
+      "normalizedTextOffset": 29409
+    },
+    {
+      "id": "14206-2025-260157",
+      "name": "地域防犯灯整備事業",
+      "normalizedTextOffset": 29423
+    },
+    {
+      "id": "14206-2025-260158",
+      "name": "地域防犯灯維持管理費補助事業",
+      "normalizedTextOffset": 31675
+    },
+    {
+      "id": "14206-2025-260159",
+      "name": "地域防犯力強化事業",
+      "normalizedTextOffset": 31689
+    },
+    {
+      "id": "14206-2025-260160",
+      "name": "交通安全運動推進事業",
+      "normalizedTextOffset": 31698
+    },
+    {
+      "id": "14206-2025-260161",
+      "name": "自転車等放置対策事業",
+      "normalizedTextOffset": 31708
+    },
+    {
+      "id": "14206-2025-260162",
+      "name": "消費生活相談事業",
+      "normalizedTextOffset": 33806
+    },
+    {
+      "id": "14206-2025-260163",
+      "name": "消費生活啓発事業",
+      "normalizedTextOffset": 33814
+    },
+    {
+      "id": "14206-2025-260164",
+      "name": "市民相談事業",
+      "normalizedTextOffset": 35586
+    },
+    {
+      "id": "14206-2025-260165",
+      "name": "人権施策推進事業",
+      "normalizedTextOffset": 36114
+    },
+    {
+      "id": "14206-2025-260166",
+      "name": "人権啓発事業",
+      "normalizedTextOffset": 36122
+    },
+    {
+      "id": "14206-2025-260167",
+      "name": "人権擁護委員支援事業",
+      "normalizedTextOffset": 36128
+    },
+    {
+      "id": "14206-2025-260168",
+      "name": "自立・更生保護活動支援事業",
+      "normalizedTextOffset": 36138
+    },
+    {
+      "id": "14206-2025-260169",
+      "name": "男女共同参画推進事業",
+      "normalizedTextOffset": 38410
+    },
+    {
+      "id": "14206-2025-260170",
+      "name": "女性活躍推進事業",
+      "normalizedTextOffset": 38420
+    },
+    {
+      "id": "14206-2025-260171",
+      "name": "女性相談事業",
+      "normalizedTextOffset": 38428
+    },
+    {
+      "id": "14206-2025-260172",
+      "name": "外国籍住民支援事業",
+      "normalizedTextOffset": 38434
+    },
+    {
+      "id": "14206-2025-260173",
+      "name": "証明書コンビニ交付サービス事業",
+      "normalizedTextOffset": 41128
+    },
+    {
+      "id": "14206-2025-260174",
+      "name": "証明書郵便局交付サービス事業",
+      "normalizedTextOffset": 41186
+    },
+    {
+      "id": "14206-2025-260175",
+      "name": "広域証明発行サービス事業",
+      "normalizedTextOffset": 41363
+    },
+    {
+      "id": "14206-2025-260176",
+      "name": "地震被害軽減化事業",
+      "normalizedTextOffset": 41950
+    },
+    {
+      "id": "14206-2025-260177",
+      "name": "防災拠点整備事業",
+      "normalizedTextOffset": 42726
+    },
+    {
+      "id": "14206-2025-260178",
+      "name": "災害対策用資機材整備事業",
+      "normalizedTextOffset": 43374
+    },
+    {
+      "id": "14206-2025-260179",
+      "name": "災害情報収集伝達体制整備事業",
+      "normalizedTextOffset": 43386
+    },
+    {
+      "id": "14206-2025-260180",
+      "name": "防災啓発事業",
+      "normalizedTextOffset": 43400
+    },
+    {
+      "id": "14206-2025-260181",
+      "name": "自主防災組織等活動支援事業",
+      "normalizedTextOffset": 44580
+    },
+    {
+      "id": "14206-2025-260182",
+      "name": "住民防災訓練事業",
+      "normalizedTextOffset": 44593
+    },
+    {
+      "id": "14206-2025-260183",
+      "name": "危機管理諸計画整備事業",
+      "normalizedTextOffset": 44601
+    },
+    {
+      "id": "14206-2025-260184",
+      "name": "災害時応援連携事業",
+      "normalizedTextOffset": 44612
+    },
+    {
+      "id": "14206-2025-260185",
+      "name": "職人育成研修等推進事業",
+      "normalizedTextOffset": 47117
+    },
+    {
+      "id": "14206-2025-260186",
+      "name": "歴史的建造物整備活用事業",
+      "normalizedTextOffset": 47128
+    },
+    {
+      "id": "14206-2025-260187",
+      "name": "文化振興推進事業",
+      "normalizedTextOffset": 47140
+    },
+    {
+      "id": "14206-2025-260188",
+      "name": "市民文化活動支援事業",
+      "normalizedTextOffset": 47148
+    },
+    {
+      "id": "14206-2025-260189",
+      "name": "文化活動担い手育成事業",
+      "normalizedTextOffset": 49949
+    },
+    {
+      "id": "14206-2025-260190",
+      "name": "市民ホール管理運営事業",
+      "normalizedTextOffset": 50955
+    },
+    {
+      "id": "14206-2025-260191",
+      "name": "文化交流推進事業",
+      "normalizedTextOffset": 50966
+    },
+    {
+      "id": "14206-2025-260192",
+      "name": "地域大学連携事業",
+      "normalizedTextOffset": 52056
+    },
+    {
+      "id": "14206-2025-260193",
+      "name": "おだわら市民学校事業",
+      "normalizedTextOffset": 52632
+    },
+    {
+      "id": "14206-2025-260194",
+      "name": "家庭教育学級事業",
+      "normalizedTextOffset": 52642
+    },
+    {
+      "id": "14206-2025-260195",
+      "name": "PTA研修事業",
+      "normalizedTextOffset": 52650
+    },
+    {
+      "id": "14206-2025-260196",
+      "name": "郷土文化館本館管理運営事業",
+      "normalizedTextOffset": 52657
+    },
+    {
+      "id": "14206-2025-260197",
+      "name": "郷土文化館本館資料収集・保管・活用事業",
+      "normalizedTextOffset": 55458
+    },
+    {
+      "id": "14206-2025-260198",
+      "name": "郷土文化館分館松永記念館管理運営事業",
+      "normalizedTextOffset": 55477
+    },
+    {
+      "id": "14206-2025-260199",
+      "name": "郷土文化館分館松永記念館資料収集・保管・活用事業",
+      "normalizedTextOffset": 55495
+    },
+    {
+      "id": "14206-2025-260200",
+      "name": "特別展開催事業",
+      "normalizedTextOffset": 56441
+    },
+    {
+      "id": "14206-2025-260201",
+      "name": "尊徳記念館管理運営事業",
+      "normalizedTextOffset": 57816
+    },
+    {
+      "id": "14206-2025-260202",
+      "name": "尊徳資料収集・保管・活用事業",
+      "normalizedTextOffset": 57827
+    },
+    {
+      "id": "14206-2025-260203",
+      "name": "尊徳学習・顕彰事業",
+      "normalizedTextOffset": 57841
+    },
+    {
+      "id": "14206-2025-260204",
+      "name": "博物館構想推進事業",
+      "normalizedTextOffset": 57850
+    },
+    {
+      "id": "14206-2025-260205",
+      "name": "キャンパスおだわら事業",
+      "normalizedTextOffset": 61037
+    },
+    {
+      "id": "14206-2025-260206",
+      "name": "生涯学習センター本館管理運営事業",
+      "normalizedTextOffset": 61048
+    },
+    {
+      "id": "14206-2025-260207",
+      "name": "生涯学習センター国府津学習館管理運営事業",
+      "normalizedTextOffset": 61258
+    },
+    {
+      "id": "14206-2025-260208",
+      "name": "学校施設等開放事業",
+      "normalizedTextOffset": 61772
+    },
+    {
+      "id": "14206-2025-260209",
+      "name": "生涯学習支援事業",
+      "normalizedTextOffset": 62350
+    },
+    {
+      "id": "14206-2025-260210",
+      "name": "生涯学習フェスティバル開催事業",
+      "normalizedTextOffset": 62358
+    },
+    {
+      "id": "14206-2025-260211",
+      "name": "地区公民館支援事業",
+      "normalizedTextOffset": 62373
+    },
+    {
+      "id": "14206-2025-260212",
+      "name": "集会所管理運営事業",
+      "normalizedTextOffset": 62959
+    },
+    {
+      "id": "14206-2025-260213",
+      "name": "史跡小田原城跡保存活用整備事業",
+      "normalizedTextOffset": 64483
+    },
+    {
+      "id": "14206-2025-260214",
+      "name": "史跡等用地取得事業",
+      "normalizedTextOffset": 64775
+    },
+    {
+      "id": "14206-2025-260215",
+      "name": "史跡石垣山保全対策事業",
+      "normalizedTextOffset": 64798
+    },
+    {
+      "id": "14206-2025-260216",
+      "name": "史跡江戸城石垣石丁場跡整備事業",
+      "normalizedTextOffset": 64809
+    },
+    {
+      "id": "14206-2025-260217",
+      "name": "文化財保護委員会運営事業",
+      "normalizedTextOffset": 66442
+    },
+    {
+      "id": "14206-2025-260218",
+      "name": "指定文化財等保存管理事業",
+      "normalizedTextOffset": 66492
+    },
+    {
+      "id": "14206-2025-260219",
+      "name": "文化財保存修理等助成事業",
+      "normalizedTextOffset": 66504
+    },
+    {
+      "id": "14206-2025-260220",
+      "name": "文化財公開事業",
+      "normalizedTextOffset": 65276
+    },
+    {
+      "id": "14206-2025-260221",
+      "name": "緊急発掘調査事業",
+      "normalizedTextOffset": 68121
+    },
+    {
+      "id": "14206-2025-260222",
+      "name": "遺物保存管理事業",
+      "normalizedTextOffset": 68198
+    },
+    {
+      "id": "14206-2025-260223",
+      "name": "小田原文学館管理運営事業",
+      "normalizedTextOffset": 68206
+    },
+    {
+      "id": "14206-2025-260224",
+      "name": "旧保健福祉事務所跡地活用事業",
+      "normalizedTextOffset": 68218
+    },
+    {
+      "id": "14206-2025-260225",
+      "name": "中央図書館管理運営事業",
+      "normalizedTextOffset": 70789
+    },
+    {
+      "id": "14206-2025-260226",
+      "name": "小田原駅東口図書館管理運営事業",
+      "normalizedTextOffset": 70800
+    },
+    {
+      "id": "14206-2025-260227",
+      "name": "図書館郷土資料整理・保存・公開事業",
+      "normalizedTextOffset": 70821
+    },
+    {
+      "id": "14206-2025-260228",
+      "name": "読書推進・図書館利活用促進事業",
+      "normalizedTextOffset": 70844
+    },
+    {
+      "id": "14206-2025-260229",
+      "name": "図書館ネットワーク等運営事業",
+      "normalizedTextOffset": 73937
+    },
+    {
+      "id": "14206-2025-260230",
+      "name": "デジタル図書館事業",
+      "normalizedTextOffset": 73951
+    },
+    {
+      "id": "14206-2025-260231",
+      "name": "ウォーキング啓発事業",
+      "normalizedTextOffset": 74025
+    },
+    {
+      "id": "14206-2025-260232",
+      "name": "城下町おだわらツーデーマーチ開催事業",
+      "normalizedTextOffset": 74035
+    },
+    {
+      "id": "14206-2025-260233",
+      "name": "市体育協会補助事業",
+      "normalizedTextOffset": 76494
+    },
+    {
+      "id": "14206-2025-260234",
+      "name": "柔･剣道錬成事業",
+      "normalizedTextOffset": 76622
+    },
+    {
+      "id": "14206-2025-260235",
+      "name": "地域スポーツ活性化事業",
+      "normalizedTextOffset": 76630
+    },
+    {
+      "id": "14206-2025-260236",
+      "name": "総合型地域スポーツクラブ推進事業",
+      "normalizedTextOffset": 76641
+    },
+    {
+      "id": "14206-2025-260237",
+      "name": "スポーツ推進委員活動促進事業",
+      "normalizedTextOffset": 78537
+    },
+    {
+      "id": "14206-2025-260238",
+      "name": "小田原アリーナ等管理運営事業",
+      "normalizedTextOffset": 78551
+    },
+    {
+      "id": "14206-2025-260239",
+      "name": "城山庭球場管理運営事業",
+      "normalizedTextOffset": 78862
+    },
+    {
+      "id": "14206-2025-260240",
+      "name": "市営プール管理運営事業",
+      "normalizedTextOffset": 78890
+    },
+    {
+      "id": "14206-2025-260241",
+      "name": "城内弓道場管理運営事業",
+      "normalizedTextOffset": 79909
+    },
+    {
+      "id": "14206-2025-260242",
+      "name": "スポーツ広場管理運営事業",
+      "normalizedTextOffset": 79935
+    },
+    {
+      "id": "14206-2025-260243",
+      "name": "酒匂川左岸サイクリング場管理運営事業",
+      "normalizedTextOffset": 79962
+    },
+    {
+      "id": "14206-2025-260244",
+      "name": "酒匂川サイクリングコース管理事業",
+      "normalizedTextOffset": 80003
+    },
+    {
+      "id": "14206-2025-260245",
+      "name": "学校体育施設開放事業",
+      "normalizedTextOffset": 80954
+    },
+    {
+      "id": "14206-2025-260246",
+      "name": "スポーツ施設あり方検討事業",
+      "normalizedTextOffset": 80964
+    },
+    {
+      "id": "14206-2025-260247",
+      "name": "地域循環共生圏構築事業",
+      "normalizedTextOffset": 81834
+    },
+    {
+      "id": "14206-2025-30101",
+      "name": "障がい者相談支援事業",
+      "normalizedTextOffset": 132023
+    },
+    {
+      "id": "14206-2025-30102",
+      "name": "障がい福祉関係諸計画推進事業",
+      "normalizedTextOffset": 132033
+    },
+    {
+      "id": "14206-2025-30202",
+      "name": "障がい者成年後見制度利用支援事業",
+      "normalizedTextOffset": 133387
+    },
+    {
+      "id": "14206-2025-30301",
+      "name": "特別障害者手当等給付事業",
+      "normalizedTextOffset": 133788
+    },
+    {
+      "id": "14206-2025-30302",
+      "name": "市心身障害児福祉手当給付事業",
+      "normalizedTextOffset": 134032
+    },
+    {
+      "id": "14206-2025-30303",
+      "name": "障害福祉サービス費等給付事業",
+      "normalizedTextOffset": 134058
+    },
+    {
+      "id": "14206-2025-30304",
+      "name": "障害支援区分認定等事業",
+      "normalizedTextOffset": 135161
+    },
+    {
+      "id": "14206-2025-30305",
+      "name": "障害者自立支援医療費給付事業",
+      "normalizedTextOffset": 135184
+    },
+    {
+      "id": "14206-2025-30306",
+      "name": "重度障がい者医療費助成事業",
+      "normalizedTextOffset": 135198
+    },
+    {
+      "id": "14206-2025-30308",
+      "name": "障がい者生活支援事業",
+      "normalizedTextOffset": 137025
+    },
+    {
+      "id": "14206-2025-30309",
+      "name": "障がい者自立支援事業",
+      "normalizedTextOffset": 137136
+    },
+    {
+      "id": "14206-2025-30310",
+      "name": "情報バリアフリー事業",
+      "normalizedTextOffset": 137237
+    },
+    {
+      "id": "14206-2025-30311",
+      "name": "歯科二次診療所管理運営事業",
+      "normalizedTextOffset": 137343
+    },
+    {
+      "id": "14206-2025-30312",
+      "name": "障がい者福祉施設等運営支援事業",
+      "normalizedTextOffset": 139420
+    },
+    {
+      "id": "14206-2025-30313",
+      "name": "障がい者福祉施設・設備整備費補助事業",
+      "normalizedTextOffset": 139435
+    },
+    {
+      "id": "14206-2025-30401",
+      "name": "障がい者就労支援事業",
+      "normalizedTextOffset": 138614
+    },
+    {
+      "id": "14206-2025-30402",
+      "name": "障がい者スポーツ・文化活動支援事業",
+      "normalizedTextOffset": 139337
+    },
+    {
+      "id": "14206-2025-30403",
+      "name": "障がい者交通費助成事業",
+      "normalizedTextOffset": 141104
+    },
+    {
+      "id": "14206-2025-30404",
+      "name": "障がい児通所支援事業",
+      "normalizedTextOffset": 141150
+    },
+    {
+      "id": "14206-2025-40101",
+      "name": "健康相談事業",
+      "normalizedTextOffset": 144387
+    },
+    {
+      "id": "14206-2025-40102",
+      "name": "訪問指導事業",
+      "normalizedTextOffset": 144545
+    },
+    {
+      "id": "14206-2025-40103",
+      "name": "健康診査事業",
+      "normalizedTextOffset": 144551
+    },
+    {
+      "id": "14206-2025-40104",
+      "name": "がん検診事業",
+      "normalizedTextOffset": 144964
+    },
+    {
+      "id": "14206-2025-40106",
+      "name": "特定健診・特定保健指導事業",
+      "normalizedTextOffset": 152949
+    },
+    {
+      "id": "14206-2025-40107",
+      "name": "感染症予防事業",
+      "normalizedTextOffset": 146964
+    },
+    {
+      "id": "14206-2025-40201",
+      "name": "健康増進計画推進事業",
+      "normalizedTextOffset": 148872
+    },
+    {
+      "id": "14206-2025-40202",
+      "name": "保健センター管理運営事業",
+      "normalizedTextOffset": 149200
+    },
+    {
+      "id": "14206-2025-40203",
+      "name": "健康教育事業",
+      "normalizedTextOffset": 150019
+    },
+    {
+      "id": "14206-2025-40204",
+      "name": "ふれあいけんこうフェスティバル開催事業",
+      "normalizedTextOffset": 149227
+    },
+    {
+      "id": "14206-2025-40221",
+      "name": "高齢者の保健事業と介護予防の一体的実施事業",
+      "normalizedTextOffset": 153213
+    },
+    {
+      "id": "14206-2025-40231",
+      "name": "介護予防把握事業",
+      "normalizedTextOffset": 153753
+    },
+    {
+      "id": "14206-2025-40232",
+      "name": "高齢者筋力向上トレーニング事業",
+      "normalizedTextOffset": 153761
+    },
+    {
+      "id": "14206-2025-40233",
+      "name": "高齢者栄養改善事業",
+      "normalizedTextOffset": 155033
+    },
+    {
+      "id": "14206-2025-40234",
+      "name": "認知症予防事業",
+      "normalizedTextOffset": 155876
+    },
+    {
+      "id": "14206-2025-40235",
+      "name": "介護予防普及啓発事業",
+      "normalizedTextOffset": 155883
+    },
+    {
+      "id": "14206-2025-40236",
+      "name": "高齢者体操教室開催事業",
+      "normalizedTextOffset": 156112
+    },
+    {
+      "id": "14206-2025-40237",
+      "name": "いきいき健康事業",
+      "normalizedTextOffset": 156175
+    },
+    {
+      "id": "14206-2025-40238",
+      "name": "地域介護予防活動支援事業",
+      "normalizedTextOffset": 157536
+    },
+    {
+      "id": "14206-2025-40239",
+      "name": "ふれあい担い手発掘事業",
+      "normalizedTextOffset": 157650
+    },
+    {
+      "id": "14206-2025-40240",
+      "name": "地域リハビリテーション活動支援事業",
+      "normalizedTextOffset": 157759
+    },
+    {
+      "id": "14206-2025-40252",
+      "name": "一般介護予防事業評価事業",
+      "normalizedTextOffset": 131845
+    },
+    {
+      "id": "14206-2025-40301",
+      "name": "食育実践活動事業",
+      "normalizedTextOffset": 157968
+    },
+    {
+      "id": "14206-2025-40351",
+      "name": "食育啓発事業",
+      "normalizedTextOffset": 295080
+    },
+    {
+      "id": "14206-2025-50102",
+      "name": "難治性疾患対策事業",
+      "normalizedTextOffset": 159637
+    },
+    {
+      "id": "14206-2025-50103",
+      "name": "献血普及啓発事業",
+      "normalizedTextOffset": 159951
+    },
+    {
+      "id": "14206-2025-50104",
+      "name": "骨髄移植ドナー支援事業",
+      "normalizedTextOffset": 159959
+    },
+    {
+      "id": "14206-2025-50201",
+      "name": "休日・夜間急患診療所助成事業",
+      "normalizedTextOffset": 160023
+    },
+    {
+      "id": "14206-2025-50202",
+      "name": "広域二次病院群（補充）輪番制助成事業",
+      "normalizedTextOffset": 160741
+    },
+    {
+      "id": "14206-2025-50203",
+      "name": "小児深夜救急医療事業",
+      "normalizedTextOffset": 161095
+    },
+    {
+      "id": "14206-2025-50204",
+      "name": "救急医療機関外国籍市民対策費助成事業",
+      "normalizedTextOffset": 161108
+    },
+    {
+      "id": "14206-2025-50205",
+      "name": "看護職員人材育成支援事業",
+      "normalizedTextOffset": 161178
+    },
+    {
+      "id": "14206-2025-50301",
+      "name": "基幹病院機能充実事業",
+      "normalizedTextOffset": 265328
+    },
+    {
+      "id": "14206-2025-50302",
+      "name": "地域医療支援病院事業",
+      "normalizedTextOffset": 267830
+    },
+    {
+      "id": "14206-2025-50303",
+      "name": "経営改革プラン推進事業",
+      "normalizedTextOffset": 265338
+    },
+    {
+      "id": "14206-2025-50311",
+      "name": "病院事業会計への繰り出し",
+      "normalizedTextOffset": 265349
+    },
+    {
+      "id": "14206-2025-50401",
+      "name": "新病院建設事業",
+      "normalizedTextOffset": 266261
+    },
+    {
+      "id": "14206-2025-60101",
+      "name": "消防組織運営事業",
+      "normalizedTextOffset": 268272
+    },
+    {
+      "id": "14206-2025-60102",
+      "name": "消防被服等貸与事業",
+      "normalizedTextOffset": 268280
+    },
+    {
+      "id": "14206-2025-60103",
+      "name": "消防職員採用事業",
+      "normalizedTextOffset": 268289
+    },
+    {
+      "id": "14206-2025-60104",
+      "name": "消防職員教育・訓練事業",
+      "normalizedTextOffset": 270215
+    },
+    {
+      "id": "14206-2025-60105",
+      "name": "消防庁舎再整備事業",
+      "normalizedTextOffset": 270309
+    },
+    {
+      "id": "14206-2025-60106",
+      "name": "消防施設維持管理事業",
+      "normalizedTextOffset": 270734
+    },
+    {
+      "id": "14206-2025-60107",
+      "name": "消防団広域連携事業",
+      "normalizedTextOffset": 270816
+    },
+    {
+      "id": "14206-2025-60121",
+      "name": "広域消防事業特別会計への繰り出し",
+      "normalizedTextOffset": 273050
+    },
+    {
+      "id": "14206-2025-60201",
+      "name": "消防水利施設等整備事業",
+      "normalizedTextOffset": 274016
+    },
+    {
+      "id": "14206-2025-60202",
+      "name": "水防施設・資機材整備事業",
+      "normalizedTextOffset": 275102
+    },
+    {
+      "id": "14206-2025-60203",
+      "name": "消防救急車両・装備等整備事業",
+      "normalizedTextOffset": 275143
+    },
+    {
+      "id": "14206-2025-60204",
+      "name": "広域応援体制強化事業",
+      "normalizedTextOffset": 275187
+    },
+    {
+      "id": "14206-2025-60251",
+      "name": "市民応急救護力推進事業",
+      "normalizedTextOffset": 275197
+    },
+    {
+      "id": "14206-2025-60301",
+      "name": "火災予防推進事業",
+      "normalizedTextOffset": 273066
+    },
+    {
+      "id": "14206-2025-60302",
+      "name": "火災原因調査業務強化事業",
+      "normalizedTextOffset": 273074
+    },
+    {
+      "id": "14206-2025-60401",
+      "name": "消防団運営事業",
+      "normalizedTextOffset": 278769
+    },
+    {
+      "id": "14206-2025-60402",
+      "name": "消防団車両・資機材整備事業",
+      "normalizedTextOffset": 279166
+    },
+    {
+      "id": "14206-2025-60403",
+      "name": "消防団施設維持管理事業",
+      "normalizedTextOffset": 279761
+    },
+    {
+      "id": "14206-2025-70151",
+      "name": "建築物耐震化促進事業",
+      "normalizedTextOffset": 244549
+    },
+    {
+      "id": "14206-2025-70161",
+      "name": "宅地耐震化推進事業",
+      "normalizedTextOffset": 245969
+    },
+    {
+      "id": "14206-2025-70171",
+      "name": "急傾斜地崩壊対策促進事業",
+      "normalizedTextOffset": 249027
+    },
+    {
+      "id": "14206-2025-70172",
+      "name": "二級河川等整備促進事業",
+      "normalizedTextOffset": 249719
+    },
+    {
+      "id": "14206-2025-70181",
+      "name": "河川改修事業",
+      "normalizedTextOffset": 253890
+    },
+    {
+      "id": "14206-2025-70183",
+      "name": "河川管理事業",
+      "normalizedTextOffset": 254015
+    },
+    {
+      "id": "14206-2025-70251",
+      "name": "災害時医療救護体制整備事業",
+      "normalizedTextOffset": 161916
+    },
+    {
+      "id": "14206-2025-70451",
+      "name": "応急危険度判定士養成等事業",
+      "normalizedTextOffset": 245956
+    },
+    {
+      "id": "14206-2025-70461",
+      "name": "被災宅地等管理体制整備事業",
+      "normalizedTextOffset": 245978
+    },
+    {
+      "id": "14206-2025-72df703f4915",
+      "name": "まちなか再生支援事業",
+      "normalizedTextOffset": 237830
+    },
+    {
+      "id": "14206-2025-776a37e8cb69",
+      "name": "復興事前準備推進事業",
+      "normalizedTextOffset": 237861
+    },
+    {
+      "id": "14206-2025-86c55805e1d7",
+      "name": "歴史的風致維持向上計画推進事業",
+      "normalizedTextOffset": 234800
+    },
+    {
+      "id": "14206-2025-8f4ce4c38de5",
+      "name": "道路等管理効率化事業",
+      "normalizedTextOffset": 257818
+    },
+    {
+      "id": "14206-2025-99bc5cbafff1",
+      "name": "デジタル化によるまちづくり推進事業",
+      "normalizedTextOffset": 15240
+    },
+    {
+      "id": "14206-2025-9c3fe16a1cd1",
+      "name": "農地災害復旧事業",
+      "normalizedTextOffset": 213673
+    },
+    {
+      "id": "14206-2025-cbb48cdcc886",
+      "name": "地域安心安全道づくり事業",
+      "normalizedTextOffset": 245991
+    }
+  ],
+  "pending": [
+    {
+      "id": "14206-2025-100101",
+      "name": "子ども・子育て支援事業計画推進事業"
+    },
+    {
+      "id": "14206-2025-100302",
+      "name": "妊婦・産婦健康診査事業"
+    },
+    {
+      "id": "14206-2025-10304",
+      "name": "行旅病人・死亡人援護事業"
+    },
+    {
+      "id": "14206-2025-110401",
+      "name": "小学校施設維持・管理事業"
+    },
+    {
+      "id": "14206-2025-110402",
+      "name": "中学校施設維持・管理事業"
+    },
+    {
+      "id": "14206-2025-110403",
+      "name": "幼稚園施設維持・管理事業"
+    },
+    {
+      "id": "14206-2025-20316",
+      "name": "介護予防ケアマネジメント事業"
+    },
+    {
+      "id": "14206-2025-210202",
+      "name": "リサイクル施設等管理運営事業"
+    },
+    {
+      "id": "14206-2025-210310",
+      "name": "畜犬登録・狂犬病予防注射事業"
+    },
+    {
+      "id": "14206-2025-240363",
+      "name": "道路管理システム強化事業"
+    },
+    {
+      "id": "14206-2025-260143",
+      "name": "土地・家屋評価事業"
+    },
+    {
+      "id": "14206-2025-30201",
+      "name": "障がい者理解促進・啓発事業"
+    },
+    {
+      "id": "14206-2025-30307",
+      "name": "コミュニケーション支援事業"
+    },
+    {
+      "id": "14206-2025-40105",
+      "name": "健康情報システム管理運用事業"
+    },
+    {
+      "id": "14206-2025-40108",
+      "name": "予防接種事業（健康づくり課）"
+    },
+    {
+      "id": "14206-2025-40131",
+      "name": "予防接種事業（子ども若者支援課）"
+    },
+    {
+      "id": "14206-2025-40205",
+      "name": "健康おだわら普及員事業"
+    },
+    {
+      "id": "14206-2025-40206",
+      "name": "地域自殺対策強化事業"
+    },
+    {
+      "id": "14206-2025-40207",
+      "name": "健幸ポイント事業"
+    },
+    {
+      "id": "14206-2025-40211",
+      "name": "データヘルス計画事業"
+    },
+    {
+      "id": "14206-2025-60151",
+      "name": "情報通信施設整備事業"
+    },
+    {
+      "id": "14206-2025-60252",
+      "name": "救急用資機材整備事業"
+    },
+    {
+      "id": "14206-2025-60253",
+      "name": "救急隊員養成・医療連携事業"
+    },
+    {
+      "id": "14206-2025-70182",
+      "name": "河川・水路維持事業"
+    }
+  ],
+  "scope": "Normalized literal name presence only; not proof of sheet-level field alignment or complete PDF coverage. Original XLSX missing in body inventory.",
+  "verifiedParts": [
+    {
+      "assetBytes": 334282,
+      "assetPath": "documents/e7168fade5fc94bba795dfa8.json",
+      "assetSha256": "52a4f2ef54a0e69b7d03ac08d5b9e48e048964145dac7b38ceb991d3a71f6324",
+      "characters": 352015,
+      "continuations": [
+        {
+          "assetBytes": 333607,
+          "assetPath": "documents/e7168fade5fc94bba795dfa8-2.json",
+          "assetSha256": "9f73425a03aa46bb50c5a3f4a3eda3960e0278371a1556acbe53bf2f8e23dfe4",
+          "exportedCharacters": 120000,
+          "part": 2,
+          "startCharacter": 120000,
+          "textSha256": "787dc30e282c413da3df130eb507406dab83e154ea0853066c8d17cd1aab4fe9"
+        },
+        {
+          "assetBytes": 311430,
+          "assetPath": "documents/e7168fade5fc94bba795dfa8-3.json",
+          "assetSha256": "70f50af7d7064d5de54cc4abf04a184d8edc7654d601aee50957cf80e636d47d",
+          "exportedCharacters": 112015,
+          "part": 3,
+          "startCharacter": 240000,
+          "textSha256": "ea39ea87b7ba343e5a1be4441c9ecca733ffeaaacdeed976ec36d48617c94c5a"
+        }
+      ],
+      "exportedCharacters": 120000,
+      "extractionMethod": "pdftotext_from_verified_bytes",
+      "fullTextSha256": "9fbe00a6d16263ba9b64eb9c5e4c8179e30a66bf3c773738848584e9e075231a",
+      "inputTextSha256": "58e9cee63a029dd7509694cdd097d38711920acc8a8aef6dee7b0e77bcd01d4a",
+      "label": "unstructured_source_text",
+      "preview": "事務事業評価（令和６年度実施事業分）\n\nＮＯ\n\n1\n\n2\n\n3\n\n4\n\n所属\n(旧名)\n\n広\n報\n広\n聴\n室\n\n広\n報\n広\n聴\n室\n\n広\n報\n広\n聴\n室\n\n広\n報\n広\n聴\n室\n\n事\n\n義\n\n事務事業名 業 務\n的\n\n広報紙発\n刊事業\n\nメディア活\n用事業\n\nホーム\nページ等\n管理運用\n事業\n\n事業概要と成果\n（事業目的、内容、評価対象年度の主な成果）\n○目的：まちづくりへの市民参加の促進や市政への関心を喚起させるため、\n市政情報、市からのお知らせ、イベント情報等の周知を行う。\n○対象：市民\n○実施手法：一部委託（レイアウト・リライト・印刷）\n○内容：月に１回発行し、支所などの公共施設、商業施設、駅、コンビニエンス\nストア等に配架するとともに、市ホームページ及びメール配信サービス「おだ\nわら表情いいメール」、広報紙配信アプリ「マチイロ」により、記事全文を掲載\nする。\n【令和６年度実績】\n・市民に分かりやすい紙面を意識し、特集号にゼロカーボンの取組を紹介。令\n和６年神奈川県広報コンクール広報紙部門（市部）にて優秀賞（２席）の受賞\nにつながった。\n\n○目的：様々なメディアを活用することで、市民が市政情報を入手する選択肢\nを増やす。\n○対象：主として市民\n○実施方法：委託\n○内容：ＦＭおだわら、Ｊ：ＣＯＭ、タウンニュースやポスト広告などの地域メ\nディアを活用し、市の情報及び市民活動団体の活動状況を積極的に発信す\nる。\n【令和６年度実績】\n・今年度どのような事業を行うのか市民にお知らせするため、年度当初にタウ\nン誌等を活用して情報発信を行った。また、桜情報なども含めイベント開催情\n報などを各地域メディアで発信した。\n\nホームページやメールマガジンなどインターネットを利用した情報発信ツール\nを活用し、市民へ即座に、きめ細かく情報提供するとともに、市民からの意見\n聴取の手段として活用することで、市民との情報共有に努める。\n【令和６年度実績】\n・トップページのコマーシャルエリアを活用し、PRしたい情報をより目立たせる\nよう務めた。\n・市民に対して、リアルタイムな情報とアーカイブとして価値ある情報をより分\nかりやすくするようアーカイブ機能の充実に努めた。\n\n事業の設定指標\nR６\n決算額\nR６\nR６\n(千円) 指標（単位）\n\n44,806\n\n40,970\n\n13,306\n\n評価・振り返",
+      "status": "available",
+      "textSha256": "2515884c4b3b3f484dd2113d96784f4b687e55ec602e75b9e7aeea5430095dec",
+      "truncated": true
+    },
+    {
+      "assetBytes": 333607,
+      "assetPath": "documents/e7168fade5fc94bba795dfa8-2.json",
+      "assetSha256": "9f73425a03aa46bb50c5a3f4a3eda3960e0278371a1556acbe53bf2f8e23dfe4",
+      "exportedCharacters": 120000,
+      "part": 2,
+      "startCharacter": 120000,
+      "textSha256": "787dc30e282c413da3df130eb507406dab83e154ea0853066c8d17cd1aab4fe9"
+    },
+    {
+      "assetBytes": 311430,
+      "assetPath": "documents/e7168fade5fc94bba795dfa8-3.json",
+      "assetSha256": "70f50af7d7064d5de54cc4abf04a184d8edc7654d601aee50957cf80e636d47d",
+      "exportedCharacters": 112015,
+      "part": 3,
+      "startCharacter": 240000,
+      "textSha256": "ea39ea87b7ba343e5a1be4441c9ecca733ffeaaacdeed976ec36d48617c94c5a"
+    }
+  ],
+  "sourceSha256": "58e9cee63a029dd7509694cdd097d38711920acc8a8aef6dee7b0e77bcd01d4a",
+  "continuationsVerified": true,
+  "columnMarkerMatches": [
+    {
+      "id": "14206-2025-100302",
+      "name": "妊婦・産婦健康診査事業",
+      "start": 195186,
+      "raw": "妊婦・産婦\n健康診査 〇\n事業",
+      "rule": "NFKC plus whitespace and separately printed obligation-circle column marker only. Name identity audit, no financial/grade assignment."
+    },
+    {
+      "id": "14206-2025-10304",
+      "name": "行旅病人・死亡人援護事業",
+      "start": 123624,
+      "raw": "行旅病人・\n死亡人援 〇\n護事業",
+      "rule": "NFKC plus whitespace and separately printed obligation-circle column marker only. Name identity audit, no financial/grade assignment."
+    },
+    {
+      "id": "14206-2025-110401",
+      "name": "小学校施設維持・管理事業",
+      "start": 327528,
+      "raw": "小学校施\n設維持・管 〇\n理事業",
+      "rule": "NFKC plus whitespace and separately printed obligation-circle column marker only. Name identity audit, no financial/grade assignment."
+    },
+    {
+      "id": "14206-2025-110402",
+      "name": "中学校施設維持・管理事業",
+      "start": 329320,
+      "raw": "中学校施\n設維持・管 〇\n理事業",
+      "rule": "NFKC plus whitespace and separately printed obligation-circle column marker only. Name identity audit, no financial/grade assignment."
+    },
+    {
+      "id": "14206-2025-110403",
+      "name": "幼稚園施設維持・管理事業",
+      "start": 329338,
+      "raw": "幼稚園施\n設維持・管 〇\n理事業",
+      "rule": "NFKC plus whitespace and separately printed obligation-circle column marker only. Name identity audit, no financial/grade assignment."
+    },
+    {
+      "id": "14206-2025-20316",
+      "name": "介護予防ケアマネジメント事業",
+      "start": 147867,
+      "raw": "介護予防\nケアマネジ 〇\nメント事業",
+      "rule": "NFKC plus whitespace and separately printed obligation-circle column marker only. Name identity audit, no financial/grade assignment."
+    },
+    {
+      "id": "14206-2025-210202",
+      "name": "リサイクル施設等管理運営事業",
+      "start": 117010,
+      "raw": "リサイクル\n施設等管 〇\n理運営事\n業",
+      "rule": "NFKC plus whitespace and separately printed obligation-circle column marker only. Name identity audit, no financial/grade assignment."
+    },
+    {
+      "id": "14206-2025-210310",
+      "name": "畜犬登録・狂犬病予防注射事業",
+      "start": 112790,
+      "raw": "畜犬登録・\n狂犬病予 〇\n防注射事\n業",
+      "rule": "NFKC plus whitespace and separately printed obligation-circle column marker only. Name identity audit, no financial/grade assignment."
+    },
+    {
+      "id": "14206-2025-240363",
+      "name": "道路管理システム強化事業",
+      "start": 286440,
+      "raw": "道路管理\nシステム強 〇\n化事業",
+      "rule": "NFKC plus whitespace and separately printed obligation-circle column marker only. Name identity audit, no financial/grade assignment."
+    },
+    {
+      "id": "14206-2025-260143",
+      "name": "土地・家屋評価事業",
+      "start": 27174,
+      "raw": "土地・家屋 〇\n評価事業",
+      "rule": "NFKC plus whitespace and separately printed obligation-circle column marker only. Name identity audit, no financial/grade assignment."
+    },
+    {
+      "id": "14206-2025-40105",
+      "name": "健康情報システム管理運用事業",
+      "start": 165572,
+      "raw": "健康情報\nシステム管 〇\n理運用事\n業",
+      "rule": "NFKC plus whitespace and separately printed obligation-circle column marker only. Name identity audit, no financial/grade assignment."
+    },
+    {
+      "id": "14206-2025-40108",
+      "name": "予防接種事業（健康づくり課）",
+      "start": 166754,
+      "raw": "予防接種\n事業（健康 〇\nづくり課）",
+      "rule": "NFKC plus whitespace and separately printed obligation-circle column marker only. Name identity audit, no financial/grade assignment."
+    },
+    {
+      "id": "14206-2025-40131",
+      "name": "予防接種事業（子ども若者支援課）",
+      "start": 194110,
+      "raw": "予防接種\n事業（子ど 〇\nも若者支\n援課）",
+      "rule": "NFKC plus whitespace and separately printed obligation-circle column marker only. Name identity audit, no financial/grade assignment."
+    },
+    {
+      "id": "14206-2025-70182",
+      "name": "河川・水路維持事業",
+      "start": 286966,
+      "raw": "河川・水路 〇\n維持事業",
+      "rule": "NFKC plus whitespace and separately printed obligation-circle column marker only. Name identity audit, no financial/grade assignment."
+    }
+  ],
+  "remainingInterleavedNames": [
+    {
+      "id": "14206-2025-100101",
+      "name": "子ども・子育て支援事業計画推進事業"
+    },
+    {
+      "id": "14206-2025-30201",
+      "name": "障がい者理解促進・啓発事業"
+    },
+    {
+      "id": "14206-2025-30307",
+      "name": "コミュニケーション支援事業"
+    },
+    {
+      "id": "14206-2025-40205",
+      "name": "健康おだわら普及員事業"
+    },
+    {
+      "id": "14206-2025-40206",
+      "name": "地域自殺対策強化事業"
+    },
+    {
+      "id": "14206-2025-40207",
+      "name": "健幸ポイント事業"
+    },
+    {
+      "id": "14206-2025-40211",
+      "name": "データヘルス計画事業"
+    },
+    {
+      "id": "14206-2025-60151",
+      "name": "情報通信施設整備事業"
+    },
+    {
+      "id": "14206-2025-60252",
+      "name": "救急用資機材整備事業"
+    },
+    {
+      "id": "14206-2025-60253",
+      "name": "救急隊員養成・医療連携事業"
+    }
+  ]
+}
