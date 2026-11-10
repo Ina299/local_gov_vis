@@ -1,0 +1,26 @@
+export const configs = [
+  {
+    "municipalityCode": "12210",
+    "municipalityName": "茂原市",
+    "sourceId": "70e3caa619f42e2fa9edf619",
+    "sourceUrl": "https://www.city.mobara.chiba.jp/cmsfiles/contents/0000008/8736/kakuteiichiran.pdf",
+    "sourceSha256": "6262bdbf7b8df59b9e54ddff4d796227872e1fb300eb67abbbd4dd99bf0bbfdf",
+    "fullTextSha256": "bc0134ced9252df54641541805db139f21a7b0a17393bfd7dd73447ca08aaaac",
+    "yearQuote": "R5対象事業一覧",
+    "yearOffset": 0,
+    "rows": [
+      {
+        "start": 9617,
+        "raw": "117\n\n403010202\n\n7020301 土木建設課 河川改修事業\n\n河川改修事業（梅田川）\n\nー\n\nー\n\n",
+        "name": "河川改修事業（梅田川）",
+        "parts": [
+          {
+            "start": 9655,
+            "raw": "河川改修事業（梅田川）"
+          }
+        ],
+        "year": 2023
+      }
+    ]
+  }
+];
