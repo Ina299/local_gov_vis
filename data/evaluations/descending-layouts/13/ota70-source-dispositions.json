@@ -1,0 +1,426 @@
+{
+  "sourceId": "0cc48cb975cee91aa8ce6f5b",
+  "proposedRelatedFacilityGroups": 68,
+  "financeOnlyHolds": 2,
+  "physicalFacilityCount": "Not equated to68; some source sheets group multiple facilities/buildings",
+  "rows": [
+    {
+      "name": "大田区立男女平等推進センター",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区休養村とうぶ",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立平和の森会館",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区青少年交流センター",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立伊豆高原学園",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立田園調布せせらぎ公園・大田区田園調布せせらぎ館",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立洗足区民センター",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（総合評価）"
+    },
+    {
+      "name": "大田区立新蒲田一丁目複合施設・大田区新蒲田区民活動施設",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区大森北四丁目複合施設・大田区大森北区民活動施設",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（総合評価）"
+    },
+    {
+      "name": "大田区営アロマ地下駐車場",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区民ホール・アプリコ",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区民プラザ",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田文化の森",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立熊谷恒子記念館",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立龍子記念館",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区総合体育館",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立大森スポーツセンター",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田スタジアム",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区産業プラザ",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（総合評価）"
+    },
+    {
+      "name": "大田区立下丸子テンポラリー工場",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（総合評価）"
+    },
+    {
+      "name": "大田区立本羽田二丁目工場アパート",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（総合評価）"
+    },
+    {
+      "name": "大田区立本羽田二丁目第２工場アパート",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（総合評価）"
+    },
+    {
+      "name": "大田区中小企業者賃貸住宅",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（総合評価）"
+    },
+    {
+      "name": "大田区南六郷創業支援施設",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立おおもり園",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立シルバーピア ７棟、大田区営シルバーピア 13棟、大田区高齢者アパート 10棟",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立特別養護老人ホーム蒲田",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（第三者評価実施年度）"
+    },
+    {
+      "name": "大田区立特別養護老人ホーム糀谷",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立特別養護老人ホームたまがわ",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（第三者評価実施年度）"
+    },
+    {
+      "name": "大田区立蒲田高齢者在宅サービスセンター",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（第三者評価実施年度）"
+    },
+    {
+      "name": "大田区立糀谷高齢者在宅サービスセンター",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（第三者評価実施年度）"
+    },
+    {
+      "name": "大田区立下丸子高齢者在宅サービスセンター",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立矢口高齢者在宅サービスセンター",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立たまがわ高齢者在宅サービスセンター",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（第三者評価実施年度）"
+    },
+    {
+      "name": "大田区立南六郷福祉園",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立くすのき園",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立久が原福祉園",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立新井宿福祉園",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立池上福祉園",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立うめのき園",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立しいのき園",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立大田福祉作業所",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立はぎなか園",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立大森東福祉園",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田生活実習所",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立つばさホーム前の浦",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立母子生活支援施設①",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立母子生活支援施設②",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区営住宅",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（総合評価）"
+    },
+    {
+      "name": "大田区民住宅",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（総合評価）"
+    },
+    {
+      "name": "平和島公園水泳場",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（総合評価）"
+    },
+    {
+      "name": "東調布公園水泳場",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（総合評価）"
+    },
+    {
+      "name": "萩中公園水泳場",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（総合評価）"
+    },
+    {
+      "name": "大田区立大森南図書館",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立大森東図書館",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立大森西図書館",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立入新井図書館",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立馬込図書館",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立池上図書館",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立久が原図書館",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立洗足池図書館",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立浜竹図書館",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立羽田図書館",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立六郷図書館",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立下丸子図書館",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立多摩川図書館",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立蒲田図書館",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "大田区立蒲田駅前図書館",
+      "status": "proposed_related_facility_monitoring",
+      "grouping": "One original monitoring sheet; combined facilities/buildings not split.",
+      "header": "大田区指定管理者モニタリング結果（通常年度）"
+    },
+    {
+      "name": "馬込アートギャラリー",
+      "status": "finance_only_hold",
+      "reason": "Financial screening includes new operator/new facility; not anotherFY2024operational monitoring record."
+    },
+    {
+      "name": "大田区立入新井図書館",
+      "status": "finance_only_hold",
+      "reason": "Financial screening includes new operator/new facility; not anotherFY2024operational monitoring record."
+    }
+  ]
+}

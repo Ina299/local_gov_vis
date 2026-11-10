@@ -1,0 +1,101 @@
+{
+  "proposedRelatedFacilityGroups": 9,
+  "rows": [
+    {
+      "sourceId": "bc242ce29a8c34eae8e24af7",
+      "name": "文京区男女平等センター",
+      "status": "proposed_related_facility_group",
+      "years": {
+        "evaluation": 2024,
+        "target": 2023
+      }
+    },
+    {
+      "sourceId": "bd599ed9d9ea8d970ab3f962",
+      "name": "文京区勤労福祉会館",
+      "status": "proposed_related_facility_group",
+      "years": {
+        "evaluation": 2024,
+        "target": 2023
+      }
+    },
+    {
+      "sourceId": "03a071f683eba59415331842",
+      "name": "文京区立アカデミー文京外６施設",
+      "status": "proposed_related_facility_group",
+      "years": {
+        "evaluation": 2024,
+        "target": 2023
+      }
+    },
+    {
+      "sourceId": "f528d47a70be840711782e84",
+      "name": "森鷗外記念館",
+      "status": "proposed_related_facility_group",
+      "years": {
+        "evaluation": 2024,
+        "target": 2023
+      }
+    },
+    {
+      "sourceId": "dd3a990a7391d63210338f5b",
+      "name": "文京区営住宅等",
+      "status": "proposed_related_facility_group",
+      "years": {
+        "evaluation": 2024,
+        "target": 2023
+      }
+    },
+    {
+      "sourceId": "ab0492abd7b53600100d0bb2",
+      "name": "文京福祉センター",
+      "status": "proposed_related_facility_group",
+      "years": {
+        "evaluation": 2024,
+        "target": 2023
+      }
+    },
+    {
+      "sourceId": "96185f848f283b87641652c2",
+      "name": "少年自然の家八ケ岳高原学園",
+      "status": "proposed_related_facility_group",
+      "years": {
+        "evaluation": 2024,
+        "target": 2023
+      }
+    },
+    {
+      "sourceId": "3321ab029390e3c3ca4bbe9b",
+      "name": "文京区立千石児童館",
+      "status": "proposed_related_facility_group",
+      "years": {
+        "evaluation": 2024,
+        "target": 2023
+      }
+    },
+    {
+      "sourceId": "9a40ffb09c4ddb773e22add9",
+      "name": "小石川図書館外４施設",
+      "status": "proposed_related_facility_group",
+      "years": {
+        "evaluation": 2024,
+        "target": 2023
+      }
+    },
+    {
+      "sourceId": "7aba9cdf944379680b5398fb",
+      "status": "summary_and_one_year_binding_hold",
+      "reason": "Ten groups in undated summary. Nine named groups represented by explicitly dated full reports. Remaining本郷図書館外３施設 lacks dated standalone body or hash-verifiable year linkage in saved metadata. Do not assign year by neighboring summaries or duplicate remaining9. Interleaved grade cells not assigned."
+    },
+    {
+      "sourceId": "c88ca4f5fbcbd56faa14486c",
+      "status": "secondary_evaluation_same_group",
+      "reason": "Academy group already represented; retain differing first/second evaluation evidence, no overwrites or extra group."
+    },
+    {
+      "sourceId": "b14a2f8e4e6feedc1be1de6e",
+      "status": "secondary_evaluation_same_group",
+      "reason": "Sengoku group already represented; no extra facility record."
+    }
+  ]
+}
